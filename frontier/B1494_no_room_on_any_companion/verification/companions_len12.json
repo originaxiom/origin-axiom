@@ -1,0 +1,482 @@
+[
+ {
+  "state": "+LR",
+  "bundle": "b++LR",
+  "H1_state": "Z",
+  "T": 1,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 1,
+    "cusps": 1,
+    "H1": "Z",
+    "b1": 1,
+    "b1_minus_ends": 0,
+    "sym": 8,
+    "chiral": false,
+    "volume_ratio": 1.0,
+    "isosig": "cPcbbbiht_CBBa"
+   }
+  ]
+ },
+ {
+  "state": "-LR",
+  "bundle": "b+-LR",
+  "H1_state": "Z/5 + Z",
+  "T": 5,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 5,
+    "cusps": 5,
+    "H1": "Z + Z + Z + Z + Z",
+    "b1": 5,
+    "b1_minus_ends": 0,
+    "sym": 240,
+    "chiral": false,
+    "volume_ratio": 4.999999999999998,
+    "isosig": "kvvLQQMkghifhifgjjjmtmiutlpmta_BaaBBaaBabBbbBbabaab"
+   }
+  ]
+ },
+ {
+  "state": "+LLR",
+  "bundle": "b++LLR",
+  "H1_state": "Z/2 + Z",
+  "T": 2,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 2,
+    "cusps": 2,
+    "H1": "Z + Z",
+    "b1": 2,
+    "b1_minus_ends": 0,
+    "sym": 8,
+    "chiral": true,
+    "volume_ratio": 2.000000000000001,
+    "isosig": "gLLPQccdfeffhggaagb_BabbbaBB"
+   }
+  ]
+ },
+ {
+  "state": "-LLR",
+  "bundle": "b+-LLR",
+  "H1_state": "Z/6 + Z",
+  "T": 6,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 6,
+    "cusps": 6,
+    "H1": "Z + Z + Z + Z + Z + Z",
+    "b1": 6,
+    "b1_minus_ends": 0,
+    "sym": 24,
+    "chiral": true,
+    "volume_ratio": 5.999999999999999,
+    "isosig": "svvvLvPwQQQQQjojnpkiplrpqmqnnrrqafofoffooafqfaooqqq_abedfcBaaBbaabBaaBBaaBbaabbBba"
+   }
+  ]
+ },
+ {
+  "state": "+LLLR",
+  "bundle": "b++LLLR",
+  "H1_state": "Z/3 + Z",
+  "T": 3,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 3,
+    "cusps": 3,
+    "H1": "Z + Z + Z",
+    "b1": 3,
+    "b1_minus_ends": 0,
+    "sym": 12,
+    "chiral": true,
+    "volume_ratio": 3.0000000000000013,
+    "isosig": "mLvLALMQQcfghjkjljklklhialhalaaiiqp_BabbbaBBBbdC"
+   }
+  ]
+ },
+ {
+  "state": "-LLLR",
+  "bundle": "b+-LLLR",
+  "H1_state": "Z/7 + Z",
+  "T": 7,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 7,
+    "cusps": 7,
+    "H1": "Z + Z + Z + Z + Z + Z + Z",
+    "b1": 7,
+    "b1_minus_ends": 0,
+    "sym": 28,
+    "chiral": true,
+    "volume_ratio": 6.999999999999999,
+    "isosig": "CvvvLPvvvAQPQQwLQQQkjhkupptourqvsxvwtAyByzAzzyBABaaatiiqtqaquqdaxpamqmmeqqtldd_abdefcgaBBaBbBcbBbCaBBaBbBcaBBBbBbC"
+   }
+  ]
+ },
+ {
+  "state": "+LLRR",
+  "bundle": "b++LLRR",
+  "H1_state": "Z/2 + Z/2 + Z",
+  "T": 4,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 4,
+    "cusps": 4,
+    "H1": "Z + Z + Z + Z",
+    "b1": 4,
+    "b1_minus_ends": 0,
+    "sym": 32,
+    "chiral": false,
+    "volume_ratio": 4.0,
+    "isosig": "qvvLPQwAPLQkfghffjilkmnpopopoaaaaaaaaaaaaaaaaa_abdcBaaBaBbaaBbaBaaB"
+   }
+  ]
+ },
+ {
+  "state": "-LLRR",
+  "bundle": "b+-LLRR",
+  "H1_state": "Z/2 + Z/4 + Z",
+  "T": 8,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 8,
+    "cusps": 8,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 8,
+    "b1_minus_ends": 0,
+    "sym": 256,
+    "chiral": false,
+    "volume_ratio": 7.999999999999987,
+    "isosig": "GvvvLzvLvLMLQQQAvPQQQQcjhququxwvvAzryptysCBFEDDBECFDEBFCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_abedgcfhBbabaBBbBbabBbabaBBbBbababbBabbB"
+   }
+  ]
+ },
+ {
+  "state": "+LLLLR",
+  "bundle": "b++LLLLR",
+  "H1_state": "Z/4 + Z",
+  "T": 4,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 4,
+    "cusps": 4,
+    "H1": "Z + Z + Z + Z",
+    "b1": 4,
+    "b1_minus_ends": 0,
+    "sym": 16,
+    "chiral": true,
+    "volume_ratio": 4.000000000000001,
+    "isosig": "uLvvwLAPPzQAMQccglimnljpoqrqopqtrstthahgaaagaaaahgggagagb_abdcBacbBacbBacbBacb"
+   }
+  ]
+ },
+ {
+  "state": "-LLLLR",
+  "bundle": "b+-LLLLR",
+  "H1_state": "Z/8 + Z",
+  "T": 8,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 8,
+    "cusps": 8,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 8,
+    "b1_minus_ends": 0,
+    "sym": 32,
+    "chiral": true,
+    "volume_ratio": 7.999999999999993,
+    "isosig": "OvvvLPvvvvQPMPvQLPzQMPQPQQPkjhkxtyurqsvzywxFGHCwEEAJKBICJLHIKIMJMNNNMaaaaqaqaqqaafooaqaofqqoqqfqoaqoofofffqaqo_abdhecfgaBBabacBabbaaBBaabbbaBBabacBBaCb"
+   }
+  ]
+ },
+ {
+  "state": "+LLLRR",
+  "bundle": "b++LLLRR",
+  "H1_state": "Z/6 + Z",
+  "T": 6,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 6,
+    "cusps": 6,
+    "H1": "Z + Z + Z + Z + Z + Z",
+    "b1": 6,
+    "b1_minus_ends": 0,
+    "sym": 24,
+    "chiral": true,
+    "volume_ratio": 6.0,
+    "isosig": "EvvLLzvQvwMwzLQLQQQQQhhhjipsnvmysrtsABCDByAxzDyCBADCaaafoaaoafafofoaaaaaoafoafaaaaa_abcefdBaaBBaaBbaababBabaabaBba"
+   }
+  ]
+ },
+ {
+  "state": "-LLLRR",
+  "bundle": "b+-LLLRR",
+  "H1_state": "Z/10 + Z",
+  "T": 10,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 10,
+    "cusps": 10,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 10,
+    "b1_minus_ends": 0,
+    "sym": 40,
+    "chiral": true,
+    "volume_ratio": 10.000000000000005,
+    "isosig": "YvvvLPvLvvwvzzvAwLwMQwPMQQMMQQQQQQcjhkpwDuzwzHHxvRDCBSHGVFEJPOLKNQUTONTNWSRXQUQPXWVVXWaaaaaaagggbbggabggabbabbaaaaaaaaaggggggbbbgbbbggbbb_aejhgfbcidaBBbbBaBBbabbabBBbabBbabbBaBBbabbabBaBBb"
+   }
+  ]
+ },
+ {
+  "state": "+LLRLR",
+  "bundle": "b++LLRLR",
+  "H1_state": "Z/8 + Z",
+  "T": 8,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 8,
+    "cusps": 8,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 8,
+    "b1_minus_ends": 0,
+    "sym": 32,
+    "chiral": true,
+    "volume_ratio": 7.999999999999998,
+    "isosig": "OvvvLvLvLzvQzPzPLMPMPQPQQQQkjlkqypnBtvwDzyuvIHKFLJIALCKDHGMJLHGNNJMNMacvaacvaxaxacvcvxxavaaxvxvacxvxaaacaaaavv_adfhbegcaBBbaBBabaaBBaabaBBaBaabaBBaaBBb"
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLR",
+  "bundle": "b++LLLLLR",
+  "H1_state": "Z/5 + Z",
+  "T": 5,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 5,
+    "cusps": 5,
+    "H1": "Z + Z + Z + Z + Z",
+    "b1": 5,
+    "b1_minus_ends": 0,
+    "sym": 20,
+    "chiral": true,
+    "volume_ratio": 4.9999999999999964,
+    "isosig": "ELvvwLzPLMPALzQPMLAQQcglmolqnprstsvxyuvuzxzCBBDBCDDChahaaaaialaahaaaliaailaahaliipq_abecdBacbBacbBbdCbBDcBbdC"
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLR",
+  "bundle": "b+-LLLLLR",
+  "H1_state": "Z/9 + Z",
+  "T": 9,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 9,
+    "cusps": 9,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 9,
+    "b1_minus_ends": 0,
+    "sym": 36,
+    "chiral": true,
+    "volume_ratio": 8.999999999999991,
+    "isosig": "2vvvLPvvvvQPMPvvLPvQPQMPQPwzwAQMQQMMQjhkxtyurqsvzIJKGEEGHFHNFPLMONQOQMTUWXSYSTWTUZVWZX001011aaaaqaqaqqaaaqaqqqiitiqtaqauadaapaqaamqmmeqieieqeaquluh_abeifcdhgaBBabacBaBBaaBBaaBBabBbCBaCbBaCbbacB"
+   }
+  ]
+ },
+ {
+  "state": "+LLLLRR",
+  "bundle": "b++LLLLRR",
+  "H1_state": "Z/2 + Z/4 + Z",
+  "T": 8,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 8,
+    "cusps": 8,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 8,
+    "b1_minus_ends": 0,
+    "sym": 32,
+    "chiral": true,
+    "volume_ratio": 8.000000000000004,
+    "isosig": "WvvLLzvLLPvzvQvvQzPQQMwAQQQAPLwQQhhhpruqyzxCGIHJEHFGJKILFEMNOLPKFEOMPNLKRQTSUVVUVUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_abcehdgfBabBbaBbBabBbaBbbaBbBabBBabBbaBb"
+   }
+  ]
+ },
+ {
+  "state": "+LLLRRR",
+  "bundle": "b++LLLRRR",
+  "H1_state": "Z/3 + Z/3 + Z",
+  "T": 9,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 9,
+    "cusps": 9,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 9,
+    "b1_minus_ends": 0,
+    "sym": 72,
+    "chiral": false,
+    "volume_ratio": 9.000000000000002,
+    "isosig": "2vvvLPvLvQAvzPwvQAvLAwwQAvMwwQPQQQQQQjhkpruqutzuAyEGFEEKMJDOQROIOUTWXZYV10WU1V0Y1ZWVTXZTUY0Xaaaaihthhaaepaaaqqtaiaaaaqaqamutaeaaahhtittihahhqmllehe_abhfcdgieBaaBbBbaBaaBBaaBbaabbBbabaabBaaBbaab"
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLR",
+  "bundle": "b++LLLLLLR",
+  "H1_state": "Z/6 + Z",
+  "T": 6,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 6,
+    "cusps": 6,
+    "H1": "Z + Z + Z + Z + Z + Z",
+    "b1": 6,
+    "b1_minus_ends": 0,
+    "sym": 24,
+    "chiral": true,
+    "volume_ratio": 6.0,
+    "isosig": "QLvvwLzPLLLALMzLQzPMPMMPPPPPQcglmolqptutxszAvwDCEBGBCIHHEJKGLMMNKLMPNOPPhahaaaaaaahagaagaaaaaaggaahgaagaahagggagagb_abdcfeBacbBacbBacbBacbbaCBbaCB"
+   }
+  ]
+ },
+ {
+  "state": "-LLLLLLR",
+  "bundle": "b+-LLLLLLR",
+  "H1_state": "Z/10 + Z",
+  "T": 10,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 10,
+    "cusps": 10,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 10,
+    "b1_minus_ends": 0,
+    "sym": 40,
+    "chiral": true,
+    "volume_ratio": 10.000000000000004,
+    "isosig": "-cgbvvvLPvvvvQPMPvvLPvQvPMPzPvPMQLwAzQzQMAAQAQLMQQkjahakaxatayauaraqasavazaIaJaKaGaEaEaQaNaRaSaLaMaNaOaTaZaRaPaPa0aPaQa2a3a4a5aXaZaUa8a9a+aVa6aXaXa8a7a5a6a6abb9abb+aab8aabdbeb+a-acbfbfbebebdbfbaaaaqaqaqqaaaqaqqqaqaaqaaaaaffoqooaaqaoqoqaafqofaqoooaoqofffaqfoaaqfooo_abhiecdgfjBaCbbacBabbaaBBabBbCaBBaabbabacBBaCbBaCb"
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLRR",
+  "bundle": "b++LLLLLRR",
+  "H1_state": "Z/10 + Z",
+  "T": 10,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 10,
+    "cusps": 10,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 10,
+    "b1_minus_ends": 0,
+    "sym": 40,
+    "chiral": true,
+    "volume_ratio": 10.000000000000007,
+    "isosig": "-cgbvvLLzvLvzvzvLvvQAwMwAQMAPPQwPMQzAwMzAwwMMPQQQQkhahahapavaAaEaKawaMaLauaNaIaJaQaRaSaOaTaPaJaIaGaUaVaWaFaPaXaOaJaIaYa0aZa1aPaOaSaQa3aTaRa6aZa1a9aYa0aab6a7a5a6acbdbebfbabdbcbbb-afbebabdbcbfbebaaaaaaaafaaoaaaaaaaaaaaoaaafaaaaaaaaaaafoafoaooaffaffooaaaaoaaofaafaaaa_abeihfdjgcBabBbaBbaBbbBabBBabBbaBbaBbbbaBbbaBbBabB"
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLR",
+  "bundle": "b++LLLLLLLR",
+  "H1_state": "Z/7 + Z",
+  "T": 7,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 7,
+    "cusps": 7,
+    "H1": "Z + Z + Z + Z + Z + Z + Z",
+    "b1": 7,
+    "b1_minus_ends": 0,
+    "sym": 28,
+    "chiral": true,
+    "volume_ratio": 6.999999999999989,
+    "isosig": "4LvvwLzPLLLALLzvQMLAvQwAQLAQPzzMMQvQPQccglmolqptutxABwEDzGCFIMKKLNOJPLQJRNSSTRUVXYUVZXZ121132323hahaaaaaaahaaaaaaiaalaaahaaalaiaaaiahalaaaaliailaahlaiiqp_abfcegdBacbBacbBbdCBbeDbBDcBbdCbBDc"
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLR",
+  "bundle": "b++LLLLLLLLR",
+  "H1_state": "Z/8 + Z",
+  "T": 8,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 8,
+    "cusps": 8,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 8,
+    "b1_minus_ends": 0,
+    "sym": 32,
+    "chiral": true,
+    "volume_ratio": 7.999999999999985,
+    "isosig": "-cibLvvwLzPLLLALLzvQLLzvQAPLvQAPMPPwAMzPMLPPAPPLQMPQcagalamaoalaqapatauataxaAaBawaEaDaHaCaJaOaMaMaGaNaPaQaRaUaLaVaKaTaWaXaXaYaSaZaSa0aTa1aWa3a4a5a6a7aZa8a9a5a6a-aab-a8abbcbdb9aebfbebcbdbebhbfbgbhbhbhahaaaaaaahaaaaaaaaaaahgaaaaaaagaaahaaagagagaaaaagaaggaahgaaagaahgggagagb_abecfdhgBacbBacbBacbbaCBBacbbaCBBacbBacb"
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLLR",
+  "bundle": "b++LLLLLLLLLR",
+  "H1_state": "Z/9 + Z",
+  "T": 9,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 9,
+    "cusps": 9,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 9,
+    "b1_minus_ends": 0,
+    "sym": 36,
+    "chiral": true,
+    "volume_ratio": 9.000000000000007,
+    "isosig": "-cAbLvvwLzPLLLALLzvQLLzvQzPLvQPLAMAzLMzMAPPPLwMPMLAAAPAMLPMMLAQQcagalamaoalaqapatauataxaAaBawaEaDaHaCaJaOaMaMaNaQaRaSaVaLaWaUaPaYaZaZa0aTa1aXa2a5a4a7a8a9a+a3a4a-aab3abb7acbdbbbgbhbfbibfbjbkblbgbhbmbnbjbnbobpbobqbrbtbubqbrbvbtbvbybxbxbzbxbybzbzbybhahaaaaaaahaaaaaaaaaaahaaaaaaaaiaahaaalaaaaaaaliaaaaiaalaaaahaaaliaailaahaaaaliailaahaliipq_abfcihegdBacbBacbBbdCbBDcBbdCBbdCBbdCbBDcbBDc"
+   }
+  ]
+ },
+ {
+  "state": "+LLLLLLLLLLR",
+  "bundle": "b++LLLLLLLLLLR",
+  "H1_state": "Z/10 + Z",
+  "T": 10,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 10,
+    "cusps": 10,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 10,
+    "b1_minus_ends": 0,
+    "sym": 40,
+    "chiral": true,
+    "volume_ratio": 9.999999999999984,
+    "isosig": "-cUbLvvwLzPLLLALLzvQLLzvQzPLvQzLAMwzLAMzwLMQLwMwQzQPLMLMMvQMMMzMzAwAMAAMMMMMQccagalamaoalaqapatauataxaAaBawaEaDaHaCaJaOaMaMaNaQaRaSaVaLaWaUaZa0a0a1aTa2a4a7a6aYa9a+a-aabdbeb3a5afbcbgbhbibbbkbbbmbcbnblboblbgbpbqbrbsbtbubkbvbwbxbybxbzbsbAbtbBbwbDbEbFbGbzbHbIbKbFbGbMbLbLbIbNbObKbPbQbQbRbObPbQbTbRbSbTbTbhahaaaaaaahaaaaaaaaaaahaaaaaaaaaahaaaaaagaaaaaagaaaaaaaagagaaahgaaaaaagaaaahagagagaaaagaaaggaahgaagaahagggagagb_abfceghdjiBacbBacbBacbBacbbaCBBacbbaCBBacbbaCBbaCB"
+   }
+  ]
+ }
+]

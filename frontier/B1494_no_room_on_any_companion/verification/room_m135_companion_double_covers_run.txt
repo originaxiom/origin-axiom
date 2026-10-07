@@ -1,0 +1,3 @@
+N: cusps 8 H1 Z + Z + Z + Z + Z + Z + Z + Z
+double covers: 255 by (cusps of the cover, h1(chi) = b1(cover) - 8): {(12, 4): 42, (10, 2): 168, (8, 0): 37, (8, 2): 8}
+by (m_A, room): {(4, 0): 42, (2, 0): 168, (0, 0): 37, (0, 2): 8}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1322** |
-| words of findings prose | **1,028,157** |
-| test lock files referenced | **767** |
-| arcs carrying an authored verdict | **1322** (100.0 %) |
+| research arcs with findings | **1323** |
+| words of findings prose | **1,029,796** |
+| test lock files referenced | **768** |
+| arcs carrying an authored verdict | **1323** (100.0 %) |
 | recorded closures | **805** (638 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 891 |
+| PROVED | 892 |
 | NEGATIVE | 329 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1492`** (2049 words, 1 locks)  
-THE THREE-ENDED COMPANION READ (sealed 872c082ec / 52dcd6db): the harmonic frame and the F-CI measures read under seal on L8a15 (+LLLR's three-ended companion) and on m003's five-ended companion o10_150729, with the cusp decomposition of every count. All five sealed predictions hold. On L8a15 at the trivial character h^1 = 3 -- one boundary-type class per end, no interior class, every reading (0, 0); three sign characters carry a member, each where the character is trivial on NO end (m_A = 0, the class dead on all three ends), reading (-1, -1) -- one generation, the b0 one; the three characters trivial on exactly one end (one per end) carry no interior class; no character trivial on any end has a member; the largest count is one. On o10_150729 at the trivial character h^1 = 5, no interior class, (0, 0) at every reading; at the characters trivial on one or two ends the interior class is there and the reading is (-1, -1) where the floor allowed two or three. Census sentence: on every object main has read -- one end (m135, m136), three (L8a15), five (o10_150729) -- every interior class at a sign character counts exactly one; the ends raise the floor's room and the value does not follow. In F-CI on L8a15: 12 isometries, chiral, S_3 on the ends, the order-3 ones fixing no cusp, cusp counts {0, 4}, cusps neither hexagonal nor rectangular -- no three. GENESIS v1.18 (FK14, GAP2). Not ruled: characters of order four and eight, and non-unitary ones, on the companions. 0 of 19.  
-`B1492_the_three_ended_companion_read/FINDINGS.md`
+**PROVED — `B1494`** (1639 words, 1 locks)  
+NO ROOM ON ANY COMPANION, AND ONE COMPANION WITH ROOM (sealed 0b45b1fb0 / 3f1dbc5e; the owner's 'follow the light'). T-COMPANION-NO-ROOM: for every word state M with torsion T = coker(phi - I) and its fixed-point companion N (deck group T, the cusp lifting to |T| cusps), b1(N) = |T| and the trivial line has no interior class -- Shapiro over the torsion's characters, each non-trivial one having h^1(M; chi) = 1 because H^1(F; chi) -> H^1(dF; chi) is an isomorphism and the monodromy fixes the puncture circle; verified at every torsion character of all 758 own-level states to length twelve (exact, two primes) and on 265 companions built (|T| <= 60: each with |T| cusps, b1 = |T|, volume |T| times the state's; +LLLR's the only one with three ends). The census: m136's companion has room 0 at all 16 sign characters; m135's eight-ended companion has ROOM 2 at eight of 256 -- verified by its 255 double covers -- every one trivial on no end, where the seat's floor gives zero generations whatever the room and the four has no class to extend. N45 rebuilt on main from the seat's recipe (the unique 5-fold cyclic cover of a one-cusped degree-9 cover of m003 with five cusps and Z^9 + (Z/2)^2; n(1) = 4, |Sym| 240): its fifteen cusp-trivial fourth-power sign characters read ten at room 1 and five at room 3 -- the seat's numbers -- and the whole census reaches room 6. The mechanism: a count needs ends with trivial character where a class dies (the floor) and a line with room (the cap); on every companion read they never meet at one character, on N45 they meet and the count reaches two. GENESIS v1.20. 0 of 19.  
+`B1494_no_room_on_any_companion/FINDINGS.md`
 
 **NEGATIVE — `B1493`** (1442 words, 1 locks)  
 THE ROOM ON THE COMPANIONS (sealed 5ef37c794 / 33a721bb): the SM seat's Theorem C bounds the count at a finite-order character by b0 + n(nu^4), the room of the line L = nu^-4, and by the second supply n(nu^3 x four). Read on main: the line has NO room on either companion -- n(chi) = 0 at all 8 sign characters of L8a15 (h^1 = 0 where chi is trivial on no end, 1 and all boundary where it is trivial on one) and at all 32 of o10_150729 (h^1(chi) = m_A, all boundary). So at order eight (b0 = 0) the cap is 0 -- not three, not two, not one -- and at order four or two it is 1: NO CHARACTER OF ORDER <= 8 ON EITHER COMPANION CARRIES THREE GENERATIONS, OR TWO, in either order. Read directly on L8a15: the second supply is 0 at 28 of the 29 order-8 orbits and 1 at one (nu = (1, 1, zeta_8) and its conjugates, all alike); the nine order-4 orbits hold one member, (1, 1, i), reading (-1, 0); beyond the seal the order-8 members at (1, 1, zeta_8) read (0, 0) -- the cap attained. Every member read on L8a15 at any order counts exactly -b0: the generation is the trivial line and nothing else. Against the seat's N45 (five cusps, room 3 at five order-2 characters, count -2 at order eight): the room of the line is what moves the count, and it lives on covers chosen by a character, not on the companions the state determines. Disclosed: the sealed instrument used the SL(2) lift for the second supply; the m136 control had shown it (0 at members reading (-1, -1)) and was read against the theorem only after C3; corrected, re-run, sealed outputs kept. 0 of 19.  

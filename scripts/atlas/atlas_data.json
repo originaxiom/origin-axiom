@@ -10325,6 +10325,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1494": {
+   "slug": "no room on any companion",
+   "motifs": [
+    "monoid",
+    "closing",
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "B350"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B149": {
    "slug": "sl4 ideal completeness",
    "motifs": [

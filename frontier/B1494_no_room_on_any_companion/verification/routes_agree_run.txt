@@ -1,0 +1,25 @@
++LR 1 same triangulation
+-LR 5 isometric
++LLR 2 same triangulation
+-LLR 6 isometric
++LLLR 3 same triangulation
+-LLLR 7 isometric
++LLRR 4 isometric
+-LLRR 8 isometric
++LLLLR 4 isometric
+-LLLLR 8 isometric
++LLLRR 6 isometric
+-LLLRR 10 isometric
++LLRLR 8 isometric
++LLLLLR 5 isometric
+-LLLLLR 9 isometric
++LLLLRR 8 isometric
++LLLRRR 9 isometric
++LLLLLLR 6 isometric
+-LLLLLLR 10 isometric
++LLLLLRR 10 isometric
++LLLLLLLR 7 isometric
++LLLLLLLLR 8 isometric
++LLLLLLLLLR 9 isometric
++LLLLLLLLLLR 10 isometric
+all isometric: True all H1 equal: True

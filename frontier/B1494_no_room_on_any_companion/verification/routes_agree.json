@@ -1,0 +1,194 @@
+[
+ {
+  "state": "+LR",
+  "T": 1,
+  "H1_enum": "Z",
+  "H1_direct": "Z",
+  "same_triangulation": true,
+  "isometric": true
+ },
+ {
+  "state": "-LR",
+  "T": 5,
+  "H1_enum": "Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLR",
+  "T": 2,
+  "H1_enum": "Z + Z",
+  "H1_direct": "Z + Z",
+  "same_triangulation": true,
+  "isometric": true
+ },
+ {
+  "state": "-LLR",
+  "T": 6,
+  "H1_enum": "Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLR",
+  "T": 3,
+  "H1_enum": "Z + Z + Z",
+  "H1_direct": "Z + Z + Z",
+  "same_triangulation": true,
+  "isometric": true
+ },
+ {
+  "state": "-LLLR",
+  "T": 7,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLRR",
+  "T": 4,
+  "H1_enum": "Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "-LLRR",
+  "T": 8,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLLR",
+  "T": 4,
+  "H1_enum": "Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "-LLLLR",
+  "T": 8,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLRR",
+  "T": 6,
+  "H1_enum": "Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "-LLLRR",
+  "T": 10,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLRLR",
+  "T": 8,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLLLR",
+  "T": 5,
+  "H1_enum": "Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "-LLLLLR",
+  "T": 9,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLLRR",
+  "T": 8,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLRRR",
+  "T": 9,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLLLLR",
+  "T": 6,
+  "H1_enum": "Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "-LLLLLLR",
+  "T": 10,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLLLRR",
+  "T": 10,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLLLLLR",
+  "T": 7,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLLLLLLR",
+  "T": 8,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLLLLLLLR",
+  "T": 9,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ },
+ {
+  "state": "+LLLLLLLLLLR",
+  "T": 10,
+  "H1_enum": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "H1_direct": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z",
+  "same_triangulation": false,
+  "isometric": true
+ }
+]

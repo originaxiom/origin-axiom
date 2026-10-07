@@ -1,0 +1,1542 @@
+{
+ "isosig": "GvvvLzvLvLMLQQQAvPQQQQcjhququxwvvAzryptysCBFEDDBECFDEBFCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_abedgcfhBbabaBBbBbabBbabaBBbBbababbBabbB",
+ "b1": 8,
+ "covers": [
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z/2 + Z/2 + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 8,
+   "b1": 8,
+   "h1_chi": 0,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 10,
+   "b1": 10,
+   "h1_chi": 2,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  },
+  {
+   "cusps": 12,
+   "b1": 12,
+   "h1_chi": 4,
+   "H1": "Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z + Z"
+  }
+ ],
+ "by_mA_room": {
+  "(4, 0)": 42,
+  "(2, 0)": 168,
+  "(0, 0)": 37,
+  "(0, 2)": 8
+ }
+}

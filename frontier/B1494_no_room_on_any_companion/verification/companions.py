@@ -34,7 +34,7 @@ def companion(state):
 
 
 def census_words(maxlen):
-    sys.path.insert(0, str(HERE.parents[2] / "B1434_the_architecture_census" / "verification"))
+    sys.path.insert(0, str(HERE.parents[1] / "B1434_the_architecture_census" / "verification"))
     import architecture_census as ac
     return ac.states(maxlen)
 

@@ -551,6 +551,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1482` | PROVED | L | | THE SIGN IS ONE MOVE. Words in L, R and the swap never give a - state; no - state is a square in GL(2,Z); the central move -I gives every state its twin without an inverse… |
 | `B1483` | PROVED | L | | THE END OF THE FRAME SPACE: at a cusp the frame space of a spin structure s is a principal bundle with fibre the elliptic curve C / ker(sigma_s); on a - state … |
 | `B1487` | PROVED | L | | THE ENDS: the class index is mirror-even for every module; the odd modules of the lift are acyclic on every word state; no state of the generated family carries three … |
+| `B1494` | PROVED | L | | NO ROOM ON ANY COMPANION: every fixed-point companion of a word state has b1 = |T| = ends, so the trivial line has no interior class (T-COMPANION-NO-ROOM; hypothesis verified on 758 states, 265 companions built); m135's companion has room 2 at eight sign characters trivial on no end, where the floor gives zero; the two supplies of a count are separated on the family and meet on N45 … |
 
 ## The exhibit that forced the rebuild
 

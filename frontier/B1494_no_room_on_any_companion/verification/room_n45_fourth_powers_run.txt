@@ -1,0 +1,5 @@
+rank Hom(H1, Z) = 9
+sign characters trivial on the torsion (fourth powers): 512
+cusp-trivial fourth powers: 16 rooms: [(1, 10), (3, 5), (4, 1)]
+cusp-trivial fourth powers, non-trivial: [(1, 10), (3, 5)]
+all fourth powers by (m_A, room): [((0, 0), 6), ((0, 2), 90), ((1, 0), 60), ((1, 2), 90), ((1, 4), 90), ((2, 1), 60), ((2, 2), 30), ((2, 4), 60), ((2, 6), 10), ((5, 1), 10), ((5, 3), 5), ((5, 4), 1)]
