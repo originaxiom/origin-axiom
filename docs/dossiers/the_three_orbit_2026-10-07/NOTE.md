@@ -72,6 +72,39 @@ number d of ends puts its non-pulled-back members in orbits of exactly d.
   - The companion of a state with four ends (m136's, deck group (ℤ/2)²), where orbits need not all have the same size.
   - The same orbit question on the levels of +LLLR.
 
+## Update, 2026-10-07: the flavor group
+
+`flavor_group.py` → `flavor_group.json`. Exact (monomial matrices, exponents mod m), structure only.
+
+Seen from +LLLR itself, the three members of §2 are one object. By Shapiro, H¹(L8a15; χ ⊗ ρ) = H¹(+LLLR; Ind χ ⊗ ρ) for
+each of them. Conjugate characters induce the same representation V = Ind χ of π₁(+LLLR), of dimension three. Read
+exactly on every free deck orbit of characters of order dividing 2 and 4:
+
+| orbit | V | image G | its determinant-one part |
+|---|---|---|---|
+| main's three members (order 2, trivial on no end, (−1, −1)) | irreducible | ℤ/2 × A₄ (order 24, centre {±1}) | A₄ |
+| the other orbit of three (order 2, trivial on one end, no interior class) | irreducible | A₄ | A₄ |
+| main's order-4 members ((1, 1, i) and its conjugate, (−1, 0) by B1493) | irreducible | μ₄ × Δ(48) (order 192) | Δ(48) = (ℤ/4)² ⋊ ℤ/3 |
+
+- **How the group acts.**
+  - At the members, the fibre letter b, which carries the deck generator, acts as the cyclic permutation of the three.
+  - +LLLR's cusp group maps onto {±1} × ⟨S⟩, where S has order 2 in A₄'s Klein subgroup.
+  - The deck group's three characters are A₄'s three one-dimensional representations 1, 1′ and 1″, pulled back. They label
+    the three combinations of the members that the deck symmetry multiplies by 1, ω and ω².
+- **What it means.** Read on the base, the three ones of the orbit reading are one flavor triplet: the three-dimensional
+  irreducible representation of the tetrahedral group. That group is the one most used for three lepton generations
+  (E. Ma and G. Rajasekaran, Phys. Rev. D 64, 113012 (2001); G. Altarelli and F. Feruglio, Nucl. Phys. B 720, 64 (2005)).
+  Restricted to the companion, the triplet splits into the three members, and the deck symmetry cycles them.
+- **What it does not show.**
+  - The group is forced by the shape. Any ℤ/3 orbit of sign characters gives a subgroup of ℤ/2 ≀ ℤ/3 = (ℤ/2)³ ⋊ ℤ/3 ≅
+    ℤ/2 × A₄.
+  - Likewise, characters of order 4 give subgroups of (μ₄)³ ⋊ ℤ/3, whose determinant-one part is Δ(48). That is one of the
+    Δ(3n²) groups of the flavor literature (C. Luhn, S. Nasri and P. Ramond, J. Math. Phys. 48, 073501 (2007)).
+  - What the record adds is which orbit carries the generation-shaped class: the A₄ one, not the Δ(48) ones, where Λ²
+    reads 0.
+  - No mixing angle, mass or breaking is derived. An exact A₄ makes the three alike.
+
 ## Files
 
 - `three_orbit.py` → `three_orbit.json` (SnapPy; structure only; a minute).
+- `flavor_group.py` → `flavor_group.json` (B1538's cover code; exact; seconds).
