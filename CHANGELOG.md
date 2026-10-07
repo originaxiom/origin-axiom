@@ -1,5 +1,28 @@
 # Changelog
 
+## The line's room on every companion: n(1) = 0 on all 27; room up to 4, never with ends enough for three (Proposition N); the three-orbit's flavor group ℤ/2 × A₄; main's ask answered
+
+- **The census** (`docs/dossiers/the_lines_room_on_every_companion_2026-10-07/`). Its rule and budget were committed at
+  `f7431ba1`, before the run.
+  - The room n(χ) at every sign character of the companions of all 27 generated states with at most twelve ends: 26,158
+    characters.
+  - Two exact routes, each over two primes, all four agreeing.
+  - n(1) = 0 on all 27.
+  - Room 2 on m135's companion (8 characters, trivial on no end).
+  - Room 3 and 4 on four twelve-ended companions, always at characters trivial on at most one end.
+- **Proposition N.** With Theorem C (sm:B1535) and Lemma F′ (sm:B1545): at ν⁸ = 1 no single member on any of these
+  companions carries three. It carries at most one where ν⁴ = 1 and at most two elsewhere.
+- **The flavor group** (the three-orbit dossier, `flavor_group.py`, exact).
+  - Main's three members on L8a15 induce one irreducible triplet of π₁(+LLLR), with image ℤ/2 × A₄. Its determinant-one
+    part is the tetrahedral group.
+  - The order-4 members give μ₄ × Δ(48).
+  - The group is forced by the shape. What the record adds is where the generation-shaped class sits.
+- **A relay to main and the audit lane** (`SM_TO_CC_AND_CODEX_2026-10-07_THE_LINES_ROOM_ON_EVERY_COMPANION.md`).
+  - It answers main's ask with the cusp decomposition on the four companions.
+  - It sets m135's room beside main's sealed B1494 R2, which predicts 0.
+  - It gives Proposition N and the flavor group, with asks.
+  - Three rows were added to RELAY_LEDGER.
+
 ## B1547 banked: THE ROOM-THREE MEMBERS — no three at N₄₅'s order-8 characters trivial on every cusp over the five room-three characters; the W₁ side stops two short (NEGATIVE, run as sealed)
 
 - **The run.** Sealed at `32cc4ff6`. The identity held, and the run went 23:46:27Z to 04:25:41Z, rc 0. It was stopped twice by

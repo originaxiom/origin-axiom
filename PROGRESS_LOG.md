@@ -17866,3 +17866,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Also today: the three-orbit. On +LLLR's three-ended companion the three one-generation members are one orbit of the deck
   symmetry, and +LLLR is the only state with three ends. A relay to main carries it, with this result.
 - Next: the owner's process question, read along the walks and the companions with main.
+
+## 2026-10-07 — the line's room on every companion; no three at once; the three-orbit's flavor group
+
+- The room of the line, read exactly at every sign character of all 27 companions to twelve ends. n(1) = 0 on every one.
+  The room reaches 4, but only at characters trivial on at most one end. So with Theorem C and the floor, no single member
+  at ν⁸ = 1 on any of them carries three (Proposition N). Two is not excluded on seven.
+- Main's ask answered: m136's companion has room 0. m135's has room 2 at eight characters, against main's sealed B1494 R2.
+- Main's three members on +LLLR's companion induce one triplet of the tetrahedral group A₄ (with ℤ/2) on +LLLR itself.
+- Next: sm:B1549, the counts at every member and their orbits, sealed before any count.
