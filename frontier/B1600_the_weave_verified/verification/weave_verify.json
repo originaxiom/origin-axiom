@@ -1,0 +1,875 @@
+{
+ "W1": {
+  "L": [
+   [
+    1,
+    0
+   ]
+  ],
+  "R": [
+   [
+    0,
+    1
+   ]
+  ],
+  "P": [
+   [
+    1,
+    1
+   ]
+  ],
+  "minus_I": [
+   [
+    1,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "any_two_cycle_all_three": true
+ },
+ "parity_lemma": {
+  "words": 988,
+  "odd": 448,
+  "holds": true,
+  "max_length": 8
+ },
+ "W2": {
+  "parabolic_common_fixed_points": [
+   {
+    "x": "0",
+    "y": "0",
+    "z": "0"
+   }
+  ],
+  "all_levels": [
+   {
+    "x": "0",
+    "y": "0",
+    "z": "0"
+   },
+   {
+    "x": "2",
+    "y": "2",
+    "z": "2"
+   }
+  ]
+ },
+ "W3": {
+  "max_length": 6,
+  "odd_words": 54,
+  "odd_all_2T": true,
+  "even_words": 60,
+  "even_images": [
+   8
+  ],
+  "even_without_tau_in_2T": 36,
+  "rows": [
+   {
+    "word": "LR",
+    "trace": 3,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RL",
+    "trace": 3,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLR",
+    "trace": 4,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRL",
+    "trace": 4,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRR",
+    "trace": 4,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLL",
+    "trace": 4,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLR",
+    "trace": 4,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RRL",
+    "trace": 4,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LLLR",
+    "trace": 5,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLRL",
+    "trace": 5,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLRR",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LRLL",
+    "trace": 5,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRLR",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRRL",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LRRR",
+    "trace": 5,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLLL",
+    "trace": 5,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLLR",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RLRL",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLRR",
+    "trace": 5,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRLL",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RRLR",
+    "trace": 5,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRRL",
+    "trace": 5,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLLLR",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LLLRL",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LLLRR",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LLRLL",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LLRLR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LLRRL",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LLRRR",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRLLL",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRLLR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRLRL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRLRR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRRLL",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRRLR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRRRL",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LRRRR",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLLLL",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLLLR",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLLRL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLLRR",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLRLL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLRLR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLRRL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RLRRR",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RRLLL",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RRLLR",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RRLRL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RRLRR",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RRRLL",
+    "trace": 8,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RRRLR",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "RRRRL",
+    "trace": 6,
+    "odd": false,
+    "taus_in_2T": 0,
+    "image": null
+   },
+   {
+    "word": "LLLLLR",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLLLRL",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLLLRR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LLLRLL",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLLRLR",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLLRRL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LLLRRR",
+    "trace": 11,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLRLLL",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLRLLR",
+    "trace": 14,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LLRLRL",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLRLRR",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLRRLL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LLRRLR",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLRRRL",
+    "trace": 11,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LLRRRR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LRLLLL",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRLLLR",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRLLRL",
+    "trace": 14,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LRLLRR",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRLRLL",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRLRLR",
+    "trace": 18,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LRLRRL",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRLRRR",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRRLLL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LRRLLR",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRRLRL",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRRLRR",
+    "trace": 14,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LRRRLL",
+    "trace": 11,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRRRLR",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "LRRRRL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "LRRRRR",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLLLLL",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLLLLR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RLLLRL",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLLLRR",
+    "trace": 11,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLLRLL",
+    "trace": 14,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RLLRLR",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLLRRL",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLLRRR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RLRLLL",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLRLLR",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLRLRL",
+    "trace": 18,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RLRLRR",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLRRLL",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLRRLR",
+    "trace": 14,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RLRRRL",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RLRRRR",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRLLLL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RRLLLR",
+    "trace": 11,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRLLRL",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRLLRR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RRLRLL",
+    "trace": 15,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRLRLR",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRLRRL",
+    "trace": 14,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RRLRRR",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRRLLL",
+    "trace": 11,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRRLLR",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RRRLRL",
+    "trace": 13,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRRLRR",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRRRLL",
+    "trace": 10,
+    "odd": false,
+    "taus_in_2T": 2,
+    "image": 8
+   },
+   {
+    "word": "RRRRLR",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   },
+   {
+    "word": "RRRRRL",
+    "trace": 7,
+    "odd": true,
+    "taus_in_2T": 2,
+    "image": 24
+   }
+  ]
+ },
+ "W4": "A4 = 2T/{+-1} = (Z/2)^2 x| Z/3; on the three parity lines (one per non-zero parity, h^1(F; chi) = 1) the (Z/2)^2 acts by the three non-trivial characters and the 3-cycle permutes them: the standard 3-dimensional irreducible representation of A4 (its character (3, -1, 0, 0) has norm 1); for an involution it splits 1 + 2 -> 1 + 1 + 1 over C. Representation theory, no computation."
+}

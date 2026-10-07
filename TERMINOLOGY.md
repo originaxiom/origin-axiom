@@ -752,6 +752,8 @@ new file. (E23 territory — the class where a convention flips silently between
 | **FK1–FK11** | the open forks, each with what would settle it |
 | **GAP1–GAP6** | the gaps to physics: the dictionary, the ends, the source, selection and coincidence, dynamics, and (v1.9) the flatness — every frame is flat and chirality needs curvature |
 | **scope tag** | frame, object, reach (single, class, general), hypotheses — in every verdict file and kill-graph entry from B1454 |
+| **thread** | one object the principle allows (m000, m003, m004, +LLLR …): one closed path of the moves through the shared fibre, the two records; "the object" is one thread, m004 (THE WEAVE, 2026-10-07) |
+| **the weave** | the joint action of every allowed move on the two records and everything it forces; a weave result takes all threads under a stated rule, is defined by the joint action and claims about all at once; every arc from B1491 carries `weave_or_thread` in its verdict file (`docs/THE_WEAVE.md`; B1600) |
 
 **The letters that collide, never to be used bare.** "A5" is the torsion-free closure in the uniqueness theorem and
 the geometric carrier in P019. "A6" is minimality in the uniqueness theorem and orientability in P019 — B1234's "the

@@ -386,3 +386,13 @@ The owner, 2026-10-07: "the programme now is all about those three generations a
 
 **Enforced by:** the gate `seat-positive-verified` (rule 3, with `tests/test_gate_failing_paths.py`); rules 1, 2 and 4
 are MANUAL and registered in `docs/PRACTICES.md`.
+
+## THE WEAVE — WEAVE OR THREAD? (2026-10-07; the owner's rule, named by the SM seat, adopted at B1600)
+
+A **thread** is one object the principle allows (m000, m003, m004, +LLLR …), one closed path of the moves through the
+shared fibre; **the weave** is the joint action of every allowed move on the two records and everything it forces.
+Before any arc, ask **weave or thread?** A weave result takes every thread under a rule stated in advance with none
+hand-picked, is defined by the joint action, and claims about all threads at once; anything read on one thread or its
+covers is a thread result, labelled so in its verdict file (`weave_or_thread`), and never presented as the answer to a
+weave question. "The object" (m004), "the family" (a list) and "the root" (SE1/SE2's pick) are thread words.
+`docs/THE_WEAVE.md` holds the definition and the weave's facts so far (W1–W4, verified on main).

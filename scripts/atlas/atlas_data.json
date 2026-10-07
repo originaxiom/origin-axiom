@@ -10795,6 +10795,27 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1600": {
+   "slug": "the weave verified",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B141",
+    "B148"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B160": {
    "slug": "quasicrystal bridge corroboration",
    "motifs": [

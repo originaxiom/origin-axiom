@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1328** |
-| words of findings prose | **1,034,099** |
-| test lock files referenced | **773** |
-| arcs carrying an authored verdict | **1328** (100.0 %) |
+| research arcs with findings | **1329** |
+| words of findings prose | **1,035,061** |
+| test lock files referenced | **774** |
+| arcs carrying an authored verdict | **1329** (100.0 %) |
 | recorded closures | **808** (641 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 894 |
+| PROVED | 895 |
 | NEGATIVE | 332 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1497`** (1332 words, 1 locks)  
-ROOM NEEDS GENUS (sealed b7706bb61): T-ROOM-NEEDS-GENUS -- for any connected cover C of a word state, the room of the trivial line n(1)(C) = b1(C) - cusps(C) is bounded by the rank of the lifted act's invariant homology of the CLOSED fibre (Wang; the coinvariant sequence of the puncture classes), so a fibre of genus one -- every level, every companion, every abelian fibre cover -- has room zero, and the room needs a non-abelian cover of the register, of degree at least three. Verified on every cover built: m003's 35 and m004's 39 to degree eight, +LLLR's 22 to degree six (the covers from low-index subgroups through cover(perms), checked against SnapPy's own list). The family's room: m004 has NONE to degree eight (24 covers of genus 2-4 among its 39); +LLLR none to degree six; m003 has exactly one carrier by degree eight -- the census manifold o10_150691 at degree five (fibre degree 5, three punctures, genus 2, two cusps, H1 = Z^3, room 1; B1418: arithmetic, chiral, NOT a cover of m004, no three in F-CI; one cusp an index-three sublattice of the hexagonal Z[omega], one square). N45's base d9.2 has fibre genus 2 by its Alexander polynomial; m003's level nine reproduces the Lucas number 5778. Read on o10_150691: at the trivial character the four has its first interior class on any object read on main (h1 = 3 = two ends + one), reading (-1, -1); four more sign members, each one; at the 56 order-four characters, where Theorem C's cap is 1 + n(1) = 2, no count exceeds one -- eight characters carry TWO interior classes of the four (the second supply 2, a first) and each reads (0, -1). The chain toward the derivation is explicit at every link: three needs room, room is the act's invariant closed homology of a non-abelian cover of the register, the root has none to degree eight, the sign-twin one at degree five, and there the count is still one. 0 of 19.  
-`B1497_room_needs_genus/FINDINGS.md`
+**PROVED — `B1600`** (962 words, 1 locks)  
+THE WEAVE VERIFIED (the SM seat's W1-W4 of 2026-10-07, by main's own code). W1: the moves on the three non-zero parities of the two records -- L fixes (1,0), R fixes (0,1), the swap fixes (1,1), the sign fixes all three; any two moves generate S3 on the three: the three belongs to no single move. The parity lemma: on all 988 signed words to length eight, the act has odd trace iff it is a 3-cycle on the parities (448 odd). W2: on the Markov surface at the parabolic level the only point fixed by L and R -- hence by every move -- is (0, 0, 0), the quaternion point a -> i, b -> j (commutator -I); the only other common fixed point on any level is the trivial representation at tr[a,b] = +2. W3: for every one of the 54 odd-trace words to length six a tau in 2T (two signs) extends the quaternion point over the base and <i, j, tau> is exactly 2T of order 24; for even trace either tau lies in Q8 (image 8) or none exists in 2T. W4 (representation theory): A4 = 2T/{+-1} = (Z/2)^2 x| Z/3 acts on the three parity lines (h^1(F; chi) = 1 each) by its standard irreducible triplet when the act is a 3-cycle, and splits it for an involution. The weave's three -- the three parities, cycled by every odd-trace thread -- is forced by the moves acting together, with no thread chosen. Open and decisive: W6, whether each parity line carries a generation. A weave result. 0 of 19.  
+`B1600_the_weave_verified/FINDINGS.md`
 
 **NEGATIVE — `B1499`** (674 words, 1 locks)  
 THE FUSION ON THE FIRST ROOM (sealed 10786bcca / 0f712c31): on o10_150691 at nu = (i, 1, 1) -- the family's first room, where the four has two interior classes, the room is 1, the second supply 2 and the seat's cap 2 -- the two orders (a class of V over the line, a class of the line over V) are each cocycles and their mixed direction is unobstructed at second order; Gauss-Newton from two seeds reaches an exact flat module at the arithmetic floor (relative ~1e-39), at distance 2.3 from the split point, with commutant dimension one and no invariant line on either side -- irreducible -- and it counts (0, 0) with no interior class at all. With B1486 (the silver members) and B1466 (m004's counted point) the pattern holds in three places: the count lives at the reducible point as the choice of order, and the irreducible neighbours carry nothing. NEGATIVE, scoped: nothing near V + 1 on this object uses the room, split (B1498) or fused. Disclosed: the sealed threshold 1e-40 was below the 40-digit floor; loosened to 1e-30, both flags recorded, the sealed output kept. 0 of 19.  

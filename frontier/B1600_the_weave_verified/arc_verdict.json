@@ -1,0 +1,25 @@
+{
+ "id": "B1600",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B141",
+  "B148",
+  "B1491",
+  "B1497"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "weave_or_thread": "weave",
+ "scope": {
+  "frame": "frame-free: the moves of the grammar (L, R, the swap, the sign) on the shared fibre (the two records) and the representations it fixes",
+  "object": "the weave -- every signed word to length 8 for the parity lemma, every word to length 6 for the 2T image; the Markov surface at the parabolic level",
+  "reach": "class",
+  "hypotheses": "W1-W3 computed by main's own code; W4 by representation theory (the standard three-dimensional representation of A4); the moves as the free-group automorphisms L: b -> ab, R: a -> ab; verification of the SM seat's stated claims, run before any seal (a harvest-verification, disclosed)"
+ },
+ "claim_one_line": "THE WEAVE VERIFIED (the SM seat's W1-W4 of 2026-10-07, by main's own code). W1: the moves on the three non-zero parities of the two records -- L fixes (1,0), R fixes (0,1), the swap fixes (1,1), the sign fixes all three; any two moves generate S3 on the three: the three belongs to no single move. The parity lemma: on all 988 signed words to length eight, the act has odd trace iff it is a 3-cycle on the parities (448 odd). W2: on the Markov surface at the parabolic level the only point fixed by L and R -- hence by every move -- is (0, 0, 0), the quaternion point a -> i, b -> j (commutator -I); the only other common fixed point on any level is the trivial representation at tr[a,b] = +2. W3: for every one of the 54 odd-trace words to length six a tau in 2T (two signs) extends the quaternion point over the base and <i, j, tau> is exactly 2T of order 24; for even trace either tau lies in Q8 (image 8) or none exists in 2T. W4 (representation theory): A4 = 2T/{+-1} = (Z/2)^2 x| Z/3 acts on the three parity lines (h^1(F; chi) = 1 each) by its standard irreducible triplet when the act is a 3-cycle, and splits it for an involution. The weave's three -- the three parities, cycled by every odd-trace thread -- is forced by the moves acting together, with no thread chosen. Open and decisive: W6, whether each parity line carries a generation. A weave result. 0 of 19."
+}
