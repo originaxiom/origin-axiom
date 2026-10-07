@@ -1,0 +1,392 @@
+{
+ "complete": true,
+ "P2": true,
+ "P1": true,
+ "P3": true,
+ "P4": true,
+ "P5": {
+  "a": {
+   "-LR": false,
+   "+LLLR": false,
+   "-LLLLLR": false,
+   "+LLLRLR": false,
+   "-LLLRRR": false,
+   "-LLRLRR": false
+  },
+  "b": {
+   "-LR": false,
+   "+LLLR": false,
+   "-LLLLLR": false,
+   "+LLLRLR": false,
+   "-LLLRRR": false,
+   "-LLRLRR": false
+  }
+ },
+ "P6 and the tables (route 2, per state, module, lift, kappa: the parities' common count)": {
+  "-LR": {
+   "a": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "+LLLR": {
+   "a": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "-LLLLLR": {
+   "a": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "+LLLRLR": {
+   "a": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "-LLLRRR": {
+   "a": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "-LLRLRR": {
+   "a": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 0, kappa 6/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 2/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 6/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "+LR": {
+   "a": {
+    "lift 0, kappa 4/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 0/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 4/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 0/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "-LLLR": {
+   "a": {
+    "lift 0, kappa 0/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 4/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 0/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 4/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "+LLLLLR": {
+   "a": {
+    "lift 0, kappa 4/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 0/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 4/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 0/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "-LLLRLR": {
+   "a": {
+    "lift 0, kappa 0/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 4/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 0/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 4/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "+LLLRRR": {
+   "a": {
+    "lift 0, kappa 4/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 0/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 4/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 0/8": [
+     0,
+     0
+    ]
+   }
+  },
+  "+LLRLRR": {
+   "a": {
+    "lift 0, kappa 0/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 4/8": [
+     0,
+     0
+    ]
+   },
+   "b": {
+    "lift 0, kappa 0/8": [
+     0,
+     0
+    ],
+    "lift 1, kappa 4/8": [
+     0,
+     0
+    ]
+   }
+  }
+ },
+ "verdict": "NEGATIVE as sealed",
+ "readings": {
+  "route 1": 432,
+  "route 2": 432
+ }
+}

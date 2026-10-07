@@ -1,0 +1,30 @@
+{
+ "complete": true,
+ "P2": true,
+ "P1": true,
+ "P3": true,
+ "P4": true,
+ "P5": {
+  "a": {
+   "-LR": false,
+   "+LLLR": false,
+   "-LLLLLR": false,
+   "+LLLRLR": false,
+   "-LLLRRR": false,
+   "-LLRLRR": false
+  },
+  "b": {
+   "-LR": false,
+   "+LLLR": false,
+   "-LLLLLR": false,
+   "+LLLRLR": false,
+   "-LLLRRR": false,
+   "-LLRLRR": false
+  }
+ },
+ "verdict": "NEGATIVE as sealed",
+ "readings": {
+  "route 1": 432,
+  "route 2": 432
+ }
+}

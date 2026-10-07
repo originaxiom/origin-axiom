@@ -52,6 +52,12 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   - A thread result, sm:B1550 on +LR's forced cover: each parity carries one generation of each type.
   - The census by rule: of the odd-trace threads to length 6 (all twelve), no other carries any on
     its forced cover. Other covers of other threads carry content (sm:B1549, sm:B1530).
+  - To length 8, main's B1602 (cited) finds a third carrier on the forced cover, −LLRLRLRR, reading (+3, +1), not
+    generation-shaped.
+- **W8–W11, the weave's own vacuum.**
+  - The common point's spin part carries the three as a chiral triplet with interior room (W9, W10).
+  - F-HE's frame reads no generation there, on any thread at any tick (W11: sm:B1509's T2 and T3; sm:B1552, sealed, 864
+    readings).
   - On +LR's third level that is main's orbifold standard, with the cover forced. Summed, the three sectors are one module
     of +LR pulled back.
 - **READING (main's GENESIS FK14; GENESIS FK7).**

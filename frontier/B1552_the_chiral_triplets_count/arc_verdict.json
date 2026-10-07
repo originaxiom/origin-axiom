@@ -1,0 +1,148 @@
+{
+ "id": "B1552",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": [
+  "B1550",
+  "B1549",
+  "B1538",
+  "B1535",
+  "B1530",
+  "B1515"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "weave_or_thread": "weave",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE (sm:B1515's dictionary unchanged) read at the weave's spin vacuum, the common point rho_Q (a -> i, b -> j), with two candidate rank-four modules",
+  "object": "the twelve odd-trace states of GENESIS to word length 6 at their third tick (the weave dossier's chiral twins -LR, +LLLR, -LLLLLR, +LLLRLR, -LLLRRR, -LLRLRR and vector-like twins +LR, -LLLR, +LLLLLR, -LLLRLR, +LLLRRR, +LLRLRR), at every kappa in mu_8 where the module has an interior class, the three parities, both lifts of the common point, modules (a) lambda (x) (rho_Q + rho_Q) and (b) lambda rho_Q + conj(lambda) rho_Q, two draws: 432 readings in each of two routes",
+  "reach": "class",
+  "hypotheses": [
+   "run as sealed (c9d03b92, on the owner's ruling 'Seal and run now', ahead of main's requested review) and read out once on 2026-10-07 at 20:10:05Z on complete records (432 of 432 readings per route); the banked identity held before the run; one start per worker, no stop",
+   "route 1 at 50 digits with sm:B1549's rank decisions; route 2 in double precision on unitary modules with every rank gap recorded (all at least 1e6, P4)",
+   "the frame's dictionary at this vacuum is GENESIS F-HE's, which FK11 keeps UNEARNED; other frames, other vacua (a thread's geometry with the weave's spin part), characters of other orders, other ticks and longer words are not read",
+   "LB1, LB2 and LB3 are verified by named checks"
+  ]
+ },
+ "claim_one_line": "THE CHIRAL TRIPLET'S COUNT, NEGATIVE as sealed. F-HE's count (I(W1), I(Lambda^2 W1)), its dictionary unchanged, read at the weave's own spin vacuum (the common point, forced by GENESIS PF1's reading and the joint action) on the weave's chiral triplet: every odd-trace state of GENESIS to word length 6 at tick 3, both candidate modules, both lifts, every kappa with an interior class, two draws, two independent routes. All 864 readings are (0, 0); the routes, the draws and the three parities agree everywhere. The extension lowers the interior dimension of W1 and of its dual alike. So the weave gives the three, alike, separate and with a hand, but this frame reads no generation on them at the weave's vacuum; generation content in the record stays at a thread's hyperbolic geometry (+LR, sm:B1550). After the read-out the seat found the zero is a theorem it already had: sm:B1509's T2 and T3 at the common point (no cusp cohomology, since the puncture acts by -1; the stable letter semisimple, since the moves' group there is finite) give I(W1) = 0 at every class on every state at every tick, so the run was decidable at design time.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-07)": "6e5f5f2e",
+    "main (at the sweep, 2026-10-07)": "3c56a10f",
+    "audit/fork-2026-09-20 (at the sweep, 2026-10-07)": "8b89d8fb",
+    "audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-07)": "c161981d",
+    "the new web seat's branch (at the sweep, 2026-10-07)": "d40c1ab6",
+    "seat/kind-hypatia-uk0vv9 (at the sweep, 2026-10-07)": "6a537f89",
+    "seat/outside-bench (at the sweep, 2026-10-07)": "13d2c5b6",
+    "seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-07)": "5d58b935",
+    "seat/project-thread-hctlox (at the sweep, 2026-10-07)": "8b6df98f",
+    "sep16-branch (at the sweep, 2026-10-07)": "3205984b"
+   },
+   "terms": [
+    "spin doublet",
+    "chiral triplet",
+    "parity-twisted",
+    "quaternion point",
+    "common point",
+    "binary tetrahedral",
+    "spin cover",
+    "Q16",
+    "complex triplet",
+    "twisted cohomology",
+    "H^1(F; rho",
+    "spin vacuum"
+   ],
+   "hits": [
+    {
+     "where": "this branch: docs/dossiers/the_weave_2026-10-07 (W8-W10)",
+     "bearing": "the instrument's structure: Lemma V, the spin doublet, the chiral triplet; the object this arc counts"
+    },
+    {
+     "where": "main: frontier/B1600_the_weave_verified",
+     "bearing": "W1-W4 verified by main's own code; the weave program opened, W6 first, main to review the instrument before any seal"
+    },
+    {
+     "where": "main: B1601 PREREGISTRATION (sealed, unread at the sweep)",
+     "bearing": "the common point as each odd-trace thread's geometry at a prime of norm 3; the disclosed kill 'meeting the common point does not give content (+LLLR)', in the hyperbolic frame"
+    },
+    {
+     "where": "this branch: frontier/B1550_the_three_parities",
+     "bearing": "in the hyperbolic frame on the root's forced A4 cover the generation sector carries the three parities: content at a thread's geometry"
+    },
+    {
+     "where": "this branch: frontier/B1530_the_interior_extensions",
+     "bearing": "m135's banked (-1, -1), reproduced by this arc's identity I1"
+    },
+    {
+     "where": "main: B1479-B1483",
+     "bearing": "the hand is in the sign; W10's chiral twin agrees on the amphichiral words"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "twisted cohomology once-punctured torus quaternion representation Q8 mapping class group finite image",
+    "Prym representation mapping class group finite abelian or quaternion cover torus Looijenga image",
+    "flavour symmetry complex triplet three chiral generations discrete group A4 x Z8 or Delta(27) complex representation",
+    "quantum representation mapping class group once-punctured torus level 4 finite image theta functions Weil representation eighth roots"
+   ],
+   "sources": [
+    {
+     "cite": "I. Biswas, S. Gupta, M. Mj, J. P. Whang, Surface group representations in SL2(C) with finite mapping class orbits, arXiv:1707.00071",
+     "where": "abstract",
+     "read": "2026-10-07",
+     "says": "at genus one the finite mapping-class orbits are the finite and special dihedral representations; the common point is such an orbit of size one, and the frame's count there is not in it"
+    },
+    {
+     "cite": "E. Looijenga, Prym representations of mapping class groups, Geom. Dedicata 64 (1997) 69-83",
+     "where": "as summarised in the Prym literature found by the query",
+     "read": "2026-10-07",
+     "says": "the mapping class group on the homology of finite abelian covers, arithmetic images; the spin doublet here is the isotypic part of a non-abelian Q8 cover, with finite image"
+    },
+    {
+     "cite": "J. Korinman, On the (in)finiteness of the image of Reshetikhin-Turaev representations, arXiv:1412.2671",
+     "where": "abstract",
+     "read": "2026-10-07",
+     "says": "a criterion for infinite image, applied to the once- and twice-punctured tori; no count of this kind"
+    },
+    {
+     "cite": "C. Daly, Projective rigidity of once-punctured torus bundles via the twisted Alexander polynomial, arXiv:2411.04431",
+     "where": "abstract",
+     "read": "2026-10-07",
+     "says": "twisted cohomology of punctured-torus bundles at the hyperbolic holonomy; not at the common point"
+    }
+   ]
+  },
+  "standing": "EXTENDS"
+ },
+ "load_bearing": [
+  {
+   "id": "LB1",
+   "input": "sm:B1549's count path (three_lib.cohom, interior, generic, frame_mats, count_of) reads the frame's count correctly",
+   "source": "sm:B1549, banked",
+   "status": "VERIFIED",
+   "check": "frontier/B1552_the_chiral_triplets_count/verification/identity.py",
+   "how": "I1 reproduces sm:B1530's banked (-1, -1) at m135's two members through the same path"
+  },
+  {
+   "id": "LB2",
+   "input": "the population's structure: on the chiral twins each parity has an interior two-dimensional H1 at kappa = +-i, on the vector-like twins a four-dimensional one at kappa = +-1 (the weave dossier's W10 and the held instrument)",
+   "source": "docs/dossiers/the_weave_2026-10-07/the_chiral_triplet.py",
+   "status": "VERIFIED",
+   "check": "frontier/B1552_the_chiral_triplets_count/verification/identity.py",
+   "how": "I2: the two routes give the same structure multisets on +LR and -LR; the run reads the structure at every reading in both routes"
+  },
+  {
+   "id": "LB3",
+   "input": "the common point and its lift to the tick's stable letter",
+   "source": "the weave dossier, W2 and W3",
+   "status": "VERIFIED",
+   "check": "frontier/B1552_the_chiral_triplets_count/verification/chiral_lib.py",
+   "how": "route 1 finds the lifts from the tick's own relators; route 2 uses the inherited lift; every relator is checked to be 1 in every module (route 1 by sm:B1549's guard, route 2 by its assert)"
+  }
+ ]
+}

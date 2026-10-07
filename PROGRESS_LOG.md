@@ -17919,3 +17919,24 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - The line on the root's cover has room four at the spin sign ε. The spin cover (ker ε, the root's binary tetrahedral
   cover) has room four (SnapPy confirms), where one module could carry more than one generation.
 - Next: the derivation note and the relay to main; then sm:B1551, the spin cover.
+
+## 2026-10-07 (evening) — sm:B1552 THE CHIRAL TRIPLET'S COUNT, NEGATIVE as sealed
+
+- **The weave's chain from the principle.**
+  - Non-cancellation and the joint action force the common point (W2).
+  - The records' three parities, twisted by its spin doublet, form a chiral triplet under L and R (W10).
+  - At tick 3, on one sign twin of every odd-trace word, one vacuum character carries the triplet alone.
+- **The count.** sm:B1552 read F-HE's count there on every odd-trace state to length 6, in two routes and both modules.
+  All 864 readings are (0, 0).
+- **So the weave's vacuum gives the three and the hand, but no generation in this frame.** Generation content stays at a
+  thread's geometry (+LR).
+- **After the read-out: the zero is a theorem the seat already had (W11).** sm:B1509's T2 and T3 give I(W₁) = 0 at every
+  class on every thread at every tick: the puncture acts by −1, so there is no cusp cohomology, and the stable letter is
+  semisimple, since the moves' group there is finite. `the_spin_zero.py` checks it on the 864 readings and on 758
+  states. The arc could have been decided at design time; the sweep missed this seat's own sm:B1509.
+- **Main's S82 read.** W10 verified by main; the design reviewed post-seal; B1602 finds a third carrier on the forced
+  cover at length 8 (−LLRLRLRR, (+3, +1)), so "only ±LR" is a length-6 census. Relay THE CHIRAL TRIPLET'S COUNT sent.
+- **Next:**
+  - settle with main: verify B1601 and B1602's carrier with own code;
+  - the hatch: a vacuum joining a thread's geometry to the weave's spin part (λ ⊗ ρ_hyp ⊗ ρ_Q), which has cusp
+    cohomology.

@@ -1,0 +1,20 @@
+{
+ "(1) T2 on sm:B1552's record": {
+  "readings": 864,
+  "the count's first entry 0": 864,
+  "T2's quantities held at every reading": true,
+  "failures": []
+ },
+ "(2) the act on V is in a finite group, every state to length 12": {
+  "states": 758,
+  "acts (state, lift)": 1516,
+  "96th power the identity": 1516,
+  "worst deviation": 1.4496639098456568e-13
+ },
+ "(3) the tick's act is the power of the state's act, every state to length 6, ticks 1-3": {
+  "(state, lift, tick)": 144,
+  "agree": 144,
+  "worst deviation": 1.8870845572026155e-14
+ },
+ "all held": true
+}

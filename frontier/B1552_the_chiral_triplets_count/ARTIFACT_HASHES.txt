@@ -1,0 +1,15 @@
+# B1552 -- sha-256 of the sealed files (the seal c9d03b92), of the record (committed unread at 69a357a3), and of the
+# identity and the read-out (run once, 20:10:05Z).
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1552_the_chiral_triplets_count/)
+556910b631c715867352057dad3401a50b41e949c077bdcf9ef58178f0c20e69  PREREGISTRATION.md
+9025eea62de9c6ec88df9c0548fc41385c3c0c0e47015a627faef4c5444dc1ff  verification/chiral_lib.py
+f58b51635c54505c6872f73194810200521e7fedfcdcf9012ca95485fa080a94  verification/identity.py
+a8880bd2478c5ba7d8c19fc81776cbed79e27d603a9159b09e9f6df1e1bba4f7  verification/run.py
+7e8c365b93ed1d0ee4f762c0e2f78be16581c7e148a5cb4373b4fc16bd005610  verification/read_out.py
+51ffd08f040de37c54df20e0f4aa4032b2ef59077b999d177d74be91e395c19f  verification/pre_seal_controls.json
+5e37b3286fcb11da00a12ab0d517781633ae3da2ab64b2b38a51d319917b99cc  verification/run_1.jsonl.gz
+ef76dd93d1a566eb7a65d57649eff4da3e9086ece60b678a3ef48776d4d921b1  verification/run_2.jsonl.gz
+2ac25e505be97b22a9172fb4fe420faee7ea7bf330ffc660ea5343c96a08e466  verification/identity.json
+9fe00fd382a3ea1a7def6eb22d93c04c77f31613d1d7381535bc9b03efd2078b  verification/read_out.json
+f4bce29445c3925f58b60793f8374a50b822569c3f13beadeea590cec5fca5bd  verification/read_out_log.txt
+967b41d9d8b1fb996b75ee25af902303a96188ff2e67ee429d94acc13e6d787f  verification/read_out_time.txt

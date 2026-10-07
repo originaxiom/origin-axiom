@@ -1,5 +1,40 @@
 # Changelog
 
+## sm:B1552 banked: THE CHIRAL TRIPLET'S COUNT — F-HE's count at the weave's own spin vacuum is (0, 0) at every reading (NEGATIVE as sealed), and by sm:B1509's T2 and T3 on every thread at every tick; the weave's work of the day
+
+- **The run.**
+  - Sealed at `c9d03b92` on the owner's ruling "Seal and run now", ahead of main's requested review.
+  - The identity held 18:24:35–18:24:42Z.
+  - The run went 18:24:54Z to 20:09:36Z, rc 0, three workers, one start each and no stop.
+  - The record was committed unread at `69a357a3`, and `read_out.py` ran once at 20:10:05Z.
+- **The verdict: NEGATIVE.** P1–P4 hold on complete records (432 of 432 readings per route): the two routes, the draws,
+  the three parities and the gaps all agree. P5 holds on no chiral twin in either module.
+- **The counts.** All 864 readings read (0, 0). The extension lowers the interior dimensions of W₁ and its dual alike, and
+  of Λ²W₁ and its dual alike.
+- **What it means.**
+  - The weave gives the three, alike, separate at the third tick and with a hand.
+  - The frame reads no generation on them at the weave's own vacuum.
+  - Generation content in the record stays at a thread's hyperbolic geometry (+LR, sm:B1550).
+- **After the read-out: the zero is a theorem (the weave dossier's W11, `the_spin_zero.py`).**
+  - sm:B1509's T2 and T3, read at the common point, give I(W₁) = 0 at every class on every thread at every tick.
+  - The reasons: the puncture acts by −1, so there is no cusp cohomology; the stable letter is semisimple, since the
+    moves' group there is finite.
+  - The check: T2's quantities at all 864 readings, and the act's finite order on 758 states.
+  - The arc was decidable at design time. The seal's sweep missed this seat's own sm:B1509; recorded for the
+    reconciliation with main.
+- **Main's S82 read** (W10 verified; the design reviewed post-seal; B1602's third carrier at length 8). The relay THE
+  CHIRAL TRIPLET'S COUNT answers it, and the weave pages cite B1602.
+- **The weave's work of the day** (`docs/dossiers/the_weave_2026-10-07/`, `docs/THE_WEAVES_LAWS.md`):
+  - **W6:** the forced-cover census, complete, 12 of 12.
+  - **W7:** the parity sectors at the resolving tick sit on pairs.
+  - **W8:** the frame at the weave's vacuum. Lemma V: no rank-one line on a once-punctured-torus bundle is interior.
+  - **W9:** the spin doublet, ℤ/8 (Q₁₆ with the swap), with room on every thread.
+  - **W10:** the chiral triplet, a group of order 96 splitting the parity-twisted spin space into two complex-conjugate
+    triplets. One sign twin of every odd-trace word carries one alone. The hand rule holds on 758 states.
+  - **Theorem S and the trichotomy.**
+  - **W2 from the principle:** non-cancellation leaves the quaternion point.
+  - **Three relays to main.**
+
 ## B1550 banked: THE THREE PARITIES — the root's generation sector is wider than its sign members, and every generation on it carries one of the three non-zero parities (NEGATIVE as sealed)
 
 - **The run.** Sealed at `db9d9902`, with the seal-ledger row added at `86ca1244`.

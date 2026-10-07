@@ -4135,6 +4135,16 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
        reading (three needs 3); the Λ² side reaches 5.
      - Open on N₄₅: members not trivial on every cusp, members with ν⁴ = 1, the room-three circles' points of order three
        or more (held pending the owner's ruling).
+   - **The chiral triplet's count: sm:B1552 banked (2026-10-07), NEGATIVE as sealed (a WEAVE arc).**
+     - The weave's spin vacuum (the common point, forced by W2) with the three parities carries a chiral triplet T ⊕ T̄
+       under L and R (the weave dossier's W10).
+     - F-HE's count read it on the twelve odd-trace states to length 6 at tick 3: two modules, both lifts, every κ with
+       room, two draws, two routes. All 864 readings are (0, 0).
+     - **After the read-out it is a theorem (the weave dossier's W11).** sm:B1509's T2 and T3 give I(W₁) = 0 at every
+       class on every state at every tick: the puncture acts by −1 (no cusp cohomology), and the stable letter is
+       semisimple (the moves' group there is finite). It was decidable at design time.
+     - Open: a vacuum joining a thread's geometry to the spin part (λ ⊗ ρ_hyp ⊗ ρ_Q, whose puncture fixes a vector);
+       other frames (GENESIS FK11).
    - **The three parities: sm:B1550 banked (2026-10-07), NEGATIVE as sealed.**
      - GENESIS's SE1 makes the root's act a 3-cycle on the three non-zero parities of its two records (Δ ≡ Φ₃ mod 2).
      - The root's tetrahedral cover is the kernel of its unique A₄ quotient and its congruence cover of level √−3.

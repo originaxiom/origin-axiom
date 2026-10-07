@@ -389,11 +389,47 @@ fixes and every thread carries (W3).
   weave's own spin vacuum carry, under the joint action of L and R, a chiral triplet: three alike, cycled by the deck at
   the third tick, interior, with complex character.
 - **Where it sits alone.** On exactly one sign twin of every odd-trace word, one vacuum character carries it alone.
-- **Not shown: that each of the three is a generation.** That needs a frame with the Standard Model's dictionary on the
-  spin module. F-HE on the forced spin cover is the candidate, and it is not sealed; main reviews first.
+- **Each of the three is not a generation in F-HE's frame.** sm:B1552 read it, sealed: (0, 0) at all 864 readings. W11
+  proves the zero on every thread at every tick.
 - **Not shown: that the third tick counts.** That is GENESIS FK7, the deck kept.
 - **The swap.** If the swap were a legal move it would join T and T̄ into one real six (GENESIS GM5c). The hand on V
   needs the swap to stay outside the moves, or a vacuum that tells κ from κ̄.
+
+## W11. The frame's count at the spin vacuum is zero (sm:B1552; `the_spin_zero.py`)
+
+**The sealed count (sm:B1552, NEGATIVE as sealed).**
+- F-HE's count was read on W10's chiral triplet: the twelve odd-trace states to length 6 at tick 3, two candidate modules,
+  both lifts, every κ with room, two draws, two routes.
+- All 864 readings are (0, 0). The routes, the draws and the three parities agree everywhere.
+- It was sealed on the owner's ruling, ahead of main's review.
+
+**The theorem behind it (PROVED; WEAVE + WAVE).** At the weave's spin vacuum, I(W₁) = 0 for every non-zero class.
+- **Scope.** Every state at every tick, every κ, every sum of twists λ ρ_Q.
+- **The proof** is sm:B1509's T2 and T3 (this seat, 2026-10-01) read at the common point:
+  - the puncture acts on A by −1, so A has no cusp cohomology;
+  - Q₈ fixes no vector, so A has no fibre invariants;
+  - T2: I(W₁) = −r₁, with r₁ = 1 exactly when e ∪ c = 0. Its proof does not use h¹(A) = 1;
+  - T3: e ∪ c = 0 needs a Jordan block of S_A at eigenvalue 1;
+  - S_A is κ times an element of W10's finite group (W9's ℤ/8 on the doublet), so it is semisimple.
+- **So the frame reads no generation and no anti-generation at the weave's spin vacuum,** on any thread, at any tick, in
+  any rank.
+
+**The checks (COMPUTED).**
+- (1) T2's quantities on sm:B1552's record hold at all 864 readings: r₁(W₁) = 0, h⁰(W₁*) = 1, r₁(W₁*) = 2, and
+  n(W₁) = n(W₁*) = n(A) − 1.
+- (2) The act on V of every state to length 12 (758, both lifts) has 96th power the identity.
+- (3) On the states to length 6 at ticks 1–3 (every resolving tick), the tick's act is the k-th power of the state's act.
+
+**What it means.**
+- The weave's spin vacuum gives the three, alike, separate and with a hand, but no content in this frame.
+- **A count needs one of two things:**
+  - cusp cohomology of A, as at the hyperbolic vacuum's parabolic puncture (sm:B1530, sm:B1550);
+  - or a Jordan block of the stable letter at eigenvalue 1 (sm:B1509).
+- **The next vacuum to read is one that joins a thread's geometry to the spin part:** λ ⊗ ρ_hyp ⊗ ρ_Q.
+  - Its puncture acts by (−U) ⊗ (−1) = U, unipotent, so the rule allows content.
+  - Taken on every thread under a stated rule, it would be a weave census.
+- **What the seat got wrong.** W11 could be read before sm:B1552's seal. The run confirmed the theorem; it was not needed
+  to learn the answer.
 
 ## What the weave gives, and what it does not
 
@@ -405,11 +441,12 @@ fixes and every thread carries (W3).
 | W4 | PROVED | one irreducible triplet, the same on every odd-trace thread; even-trace threads split it; the weave's group on it is real (T_d ≅ S₄; O_h with P) |
 | S | PROVED | Theorem S (`docs/THE_WEAVES_LAWS.md`): no state has its three parities separate and carried into one another at its own tick; every odd-trace thread has them so at every third tick |
 | W5 | READING (main's GENESIS FK14; GENESIS FK7) | the three generations are this triplet at every third tick: three, alike, carried into one another by the deck, which is the shift by one tick |
-| W6 | PROVED (WEAVE); COMPUTED (THREAD) | Theorem G: whatever one parity carries, all three carry. A thread result: on +LR each parity carries one generation of each type. The census: no other odd-trace thread to length 6 carries any on its forced cover (twelve of twelve, at orders 4 and 3) |
+| W6 | PROVED (WEAVE); COMPUTED (THREAD) | Theorem G: whatever one parity carries, all three carry. A thread result: on +LR each parity carries one generation of each type. The census: no other odd-trace thread to length 6 carries any on its forced cover (twelve of twelve, at orders 4 and 3); to length 8 main's B1602 (cited) finds a third, −LLRLRLRR, reading (+3, +1) |
 | W7 | COMPUTED (WEAVE, by rule) | in Theorem S's sense, at every state's resolving tick to length 6: members only on the pair of parities a state's symmetry exchanges (±LLRR, ±LLR, ±LLLLR), never on the parity it fixes, never on all three |
 | W8 | PROVED (Lemma V, WEAVE + WAVE); COMPUTED | the frame at the weave's own vacuum (the common point) reads rank-one lines: the three parity lines alike on every thread, all on the end; no member on any state at any tick |
 | W9 | COMPUTED (WEAVE, two routes) | the weave's spin doublet H¹(F₂; ρ_Q): the moves act by ℤ/8 (Q₁₆ with the swap); every thread has interior classes on it; twisted by the parities, three alike interior sectors on every odd-trace thread at tick 3 |
 | W10 | COMPUTED (WEAVE) | V, the three parity-twisted spin doublets: under L and R a group of order 96 with V = T ⊕ T̄, two complex-conjugate triplets (a chiral three); the swap exchanges them (order 192). On exactly one sign twin of every odd-trace word, one vacuum character at tick 3 carries T alone (m003, not m004, of the root's pair) |
+| W11 | NEGATIVE (sm:B1552, sealed); PROVED (WEAVE + WAVE) | F-HE's count at the weave's spin vacuum: (0, 0) at all 864 sealed readings, and zero at every class on every thread at every tick (sm:B1509's T2 and T3: no cusp cohomology, a semisimple stable letter). The spin vacuum carries the three but no content in this frame |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -438,8 +475,10 @@ fixes and every thread carries (W3).
 - `the_mixing.py` → `the_mixing.json`: the weave's group on the triplet and the mixing of its subgroups (READING).
 - `the_weaves_laws.py` → `the_weaves_laws.json`: the trichotomy along the wave, the triplet's group (T_d, O_h, real), and
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
-- `draft_chiral_counts/DESIGN_FOR_REVIEW.md`: HELD for main's review. The frame's count at W10's chiral triplet, with
-  two candidate modules for the spin vacuum. Nothing is sealed or computed.
+- `draft_chiral_counts/DESIGN_FOR_REVIEW.md`: the design sent to main. It was sealed as sm:B1552 on the owner's ruling,
+  ahead of main's review (W11).
+- `the_spin_zero.py` → `the_spin_zero.json`: W11. sm:B1509's T2 checked on sm:B1552's record, and T3's hypothesis on
+  every state to length 12.
 - `the_chiral_triplet.py` → `the_chiral_triplet.json`: W10, the group on the parity-twisted spin space, its two
   conjugate triplets, and where a single vacuum character carries one alone.
 - `the_spin_hand.py` → `the_spin_hand.json`: W9's hand rule on all 758 states to length 12, and the states that are

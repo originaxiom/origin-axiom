@@ -12117,5 +12117,30 @@
     "a count at a class is not a selection: whether the third level's threes are the physical generations, and which object and state the genesis takes, are GENESIS FK14's and FK9's"
    ]
   }
+ },
+ {
+  "id": "B1552",
+  "claim_killed": "THE CHIRAL TRIPLET'S COUNT (the owner's goal, 'derive three generations from oa principle'): that the weave's chiral triplet (the weave dossier's W10: the three parity-twisted spin doublets of the common point, split by L and R into two complex-conjugate triplets; one sign twin of every odd-trace word carries one alone at a vacuum character at tick 3) carries one generation per sector in F-HE's count read at the weave's spin vacuum. Sealed at c9d03b92 on the owner's ruling; run as sealed; the record committed unread; read out once. All 864 readings (two routes, both candidate modules, the twelve odd-trace states to length 6, both lifts, every kappa with an interior class, two draws) read (0, 0).",
+  "kill_form": "the-count-vanishes-at-the-weave's-vacuum (the class index is (0, 0) at every reading in both modules; the extension lowers the interior dimensions of W1 and its dual alike, and of Lambda^2 W1 and its dual alike). After the read-out it is a theorem the seat already had: sm:B1509's T2 and T3 at the common point (the puncture acts by -1, so no cusp cohomology; the stable letter is semisimple, since the moves' group there is finite) give I(W1) = 0 at every class on every thread at every tick (the weave dossier's W11, the_spin_zero.py)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "The theorem's two exits: a vacuum with cusp cohomology, or one whose stable letter has a Jordan block at eigenvalue 1. The candidate is a vacuum joining a thread's geometry to the weave's spin part (lambda (x) rho_hyp (x) rho_Q, whose puncture acts by a unipotent and fixes a vector), read on every thread's forced cover under one rule; or another frame at the weave's vacuum (GENESIS FK11). Generation content stays where the record finds it, at a thread's hyperbolic geometry (+LR, sm:B1550).",
+  "priority": "P1",
+  "revival_score": 3,
+  "depth_note": "Entered 2026-10-07 at banking time, with content: a NEGATIVE read as sealed, its population complete for its question (every odd-trace state to length 6 at tick 3, both modules, two routes).",
+  "note": "ENTERED 2026-10-07 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: frontier/B1552_the_chiral_triplets_count/verification/chiral_lib.py (both routes), identity.py (the banked identity), run.py (the sealed run, records run_1.jsonl.gz and run_2.jsonl.gz with run_sha256.txt) and read_out.py (the sealed read-out, once).",
+  "routed_from": "sm-branch-2026-10-07-banking",
+  "scope": {
+   "frame": "F-HE at the weave's spin vacuum (the common point), two candidate modules",
+   "object": "the twelve odd-trace states of GENESIS to word length 6 at tick 3: 432 readings per route",
+   "reach": "class",
+   "hypotheses": [
+    "run as sealed (c9d03b92) and read out once on 2026-10-07",
+    "the dictionary is GENESIS F-HE's (FK11 UNEARNED); other frames and other vacua not read; other states, ticks and kappa at the spin vacuum are decided by W11's theorem"
+   ]
+  }
  }
 ]

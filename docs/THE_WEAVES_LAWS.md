@@ -90,6 +90,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | main's sign (B1482) | the − states need exactly the central −I, which "words in L, R and P never give"; positivity (GENESIS GM5d, CHOSEN) is what excludes it | main's GENESIS v1.14 | WEAVE |
 | main's Proposition 1 | every word state has a canonical cover with abs(2 − tr φ) ends; three ends exactly on L³R | main's GENESIS v1.23 | WEAVE |
 | main's room laws | T-COMPANION-NO-ROOM; T-ROOM-NEEDS-GENUS: room is zero at fibre genus one, so it needs a non-abelian cover of degree ≥ 3 | main's GENESIS v1.23 | WEAVE + WAVE |
+| **the spin vacuum's zero (new; after sm:B1552)** | at the weave's spin vacuum (any sum of twists λ ρ_Q of the common point) I(W₁) = 0 for every non-zero class: the puncture acts by −1, so A has no cusp cohomology, and the stable letter is κ times an element of a finite group, so it is semisimple. sm:B1509's T2 and T3 then give r₁ = 0. So F-HE's frame reads no generation and no anti-generation there | the weave dossier's W11 (proof, with sm:B1552's 864 sealed readings and a census of 758 states) | WEAVE + WAVE |
 
 ### 1c. Bounded censuses: laws by rule, not by proof
 
@@ -103,6 +104,11 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 - **The three-ended covers.** Ten states (sm:B1549).
 - **The forced A₄ cover.** The twelve odd-trace states to length 6 (W6). Members are only on ±LR, and generations only on
   +LR. The census is complete at orders 4 and 3.
+  - Main's B1602 (cited, not yet verified here) reads the forced covers to length 8. It finds a third odd-trace carrier,
+    −LLRLRLRR, whose member reads (+3, +1), not generation-shaped, and even-trace content on 17 of 42 threads. So "only
+    ±LR" is a length-6 census, not a law.
+- **The chiral triplet's count (sm:B1552, sealed, NEGATIVE).** The twelve odd-trace states to length 6 at tick 3, two
+  modules, two routes: (0, 0) at all 864 readings. The spin vacuum's zero (§1b) extends it to every state and tick.
 
 ## 2. What looks universal and is one thread's
 
@@ -186,8 +192,8 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      the moves act on it with finite order.
    - **With the parities, three alike interior sectors.** These appear on every odd-trace thread at its third tick. They
      are one module of the thread, 2 ⊕ 2′ ⊕ 2″, whose summands are told apart by a cube root of unity on the base.
-   - **That is weave-level content, not +LR's alone.** Whether it is a generation needs a frame for the spin module; F-HE
-     on the forced spin cover is the candidate, for main's review.
+   - **That is weave-level room, not +LR's alone.** In F-HE's frame it is not a generation: sm:B1552 read (0, 0) at every
+     sealed reading, and the spin vacuum's zero (§1b) proves it on every thread at every tick.
    - **READING, the hand.** Without the swap the doublet's group is abelian, and its two complex-conjugate lines are kept
      apart by every L,R-thread. That is a candidate for a hand that is not a marking. The swap exchanges them, as GENESIS
      FK3's C-type bit (B1083) would.
@@ -200,17 +206,19 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - At tick 3, on exactly one sign twin of every odd-trace word, one vacuum character carries T alone: three alike,
        separate, interior and chiral. On the root's pair that twin is m003; m004 carries T ⊕ T̄ together.
      - This is the most the weave gives toward three generations: the number, the alikeness, the separation, interior
-       content and a hand, all from the joint action with no thread chosen.
-     - Whether each of the three is a generation needs a frame with the Standard Model's dictionary on the spin module.
-       Whether the third tick counts is GENESIS FK7.
+       room and a hand, all from the joint action with no thread chosen.
+     - In F-HE's frame none of the three is a generation (the spin vacuum's zero). Another frame or dictionary (GENESIS
+       FK11), or another vacuum, is open. Whether the third tick counts is GENESIS FK7.
 6. **Masses.**
    - A kept, unbroken deck gives a texture the data refute (B1273, B1361; sL-5), so the deck must break at order one, or
      the Higgs must be parity-neutral.
    - At a state's own tick the three parities split 1 + 2 or 1 + 1 + 1 under its isometries, never 3 (Theorem S).
    - The 1 + 2 is the pattern B1507's lead (i) asks about on s961, as S₃'s "2 + 1". It is not compared with data here.
-7. **In the hyperbolic frame, content is a thread's** (in the weave's spin vacuum it is not: item 5). What the parities
-   carry in the hyperbolic frame depends on the thread and the cover:
-   - on the forced A₄ cover, members only on ±LR and generations only on +LR (to length 6, complete);
+7. **Content is a thread's.** At the weave's spin vacuum the frame reads none on any thread (the spin vacuum's zero). A
+   count needs cusp cohomology or a Jordan block of the stable letter (sm:B1509's T2 and T3), and a thread's hyperbolic
+   geometry has the first. What the parities carry in the hyperbolic frame depends on the thread and the cover:
+   - on the forced A₄ cover, members only on ±LR and generations only on +LR (to length 6, complete). To length 8 main's
+     B1602 (cited) finds a third carrier, −LLRLRLRR, reading (+3, +1);
    - elsewhere, other threads carry content (§2).
    - THE_BAR grades "only +LR" at p ≈ 0.29 on twelve threads: no selection is claimed.
    - Two of the record's generation findings on word states sit on parities, each at the tick where its thread
@@ -235,9 +243,11 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - that its own vacuum carries them on the end in its abelian part (Lemma V), and as three alike interior sectors
        in its spin part on every odd-trace thread at tick 3 (W9).
      - that, with the parities, L and R carry them as a chiral triplet T ⊕ T̄, alone at one vacuum character on exactly
-       one sign twin of every odd-trace word (W10).
+       one sign twin of every odd-trace word (W10);
+     - that in F-HE's frame the spin vacuum carries no generation, on any thread at any tick (W11).
    - **Open:**
-     - whether those interior sectors are generations: a frame for the spin module (F-HE on the forced spin cover);
+     - content: not at the spin vacuum in F-HE's frame (W11). Open: a vacuum that joins a thread's geometry to the spin
+       part (λ ⊗ ρ_hyp ⊗ ρ_Q, whose puncture fixes a vector), or another frame (GENESIS FK11);
      - the deck kept (GENESIS FK7);
      - the hand (GENESIS FK4 and FK12; main's sign);
      - the masses;
@@ -286,7 +296,9 @@ Each line gives the cheapest test across the weave (other threads) and along the
   Theorem C's bound holds at the weave's vacuum.
   - **Its structure is done by Shapiro (W9).** The spin cover's interior lines are the spin doublet's classes. They
     exist on every thread, and with the parities there are three alike on every odd-trace thread at tick 3.
-  - **Open:** the frame's counts there, which need main's review and a seal.
+  - **The frame's counts: done.** sm:B1552 (sealed on the owner's ruling, ahead of main's review) reads (0, 0) at all
+    864 readings, and the spin vacuum's zero (§1b) proves it on every thread at every tick.
+  - **Open:** whether Theorem C's bound holds at the weave's vacuum.
 - **R15. The family tensor on the parity triplet.** On the weave's T_d the invariant cubic is xyz, so B1271's zero does
   not transfer as stated.
 
@@ -294,7 +306,8 @@ Each line gives the cheapest test across the weave (other threads) and along the
 
 - **The reviews.** Three reviews, read-only, 2026-10-07. Their findings are folded in above, and line references are in
   the session record.
-- **The new laws.** `docs/dossiers/the_weave_2026-10-07/the_weaves_laws.py` → `the_weaves_laws.json`.
+- **The new laws.** `docs/dossiers/the_weave_2026-10-07/the_weaves_laws.py` → `the_weaves_laws.json`; the spin vacuum's
+  zero, `the_spin_zero.py` → `the_spin_zero.json` (W11).
 - **The dossier.** `docs/dossiers/the_weave_2026-10-07/NOTE.md`.
 - **The synthesis.** `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - **The rule.** `docs/THE_WEAVE.md`.

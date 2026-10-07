@@ -10366,6 +10366,29 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1552": {
+   "slug": "the chiral triplets count",
+   "motifs": [
+    "closing",
+    "kappa",
+    "z3_generation",
+    "torsion",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B155": {
    "slug": "golden phase bridge",
    "motifs": [
