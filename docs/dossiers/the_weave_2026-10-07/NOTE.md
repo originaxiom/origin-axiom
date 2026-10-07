@@ -349,7 +349,13 @@ fixes and every thread carries (W3).
 - **With L and R (the sign adds nothing): a group of order 96.**
   - Its commutant on V is two-dimensional, and V = T ⊕ T̄: two irreducible triplets, complex conjugate to each other.
   - Their characters are not real. That is a three with a hand: B356's "chiral candidate" exists on V.
-- **With the swap: a group of order 192, and V is irreducible.** The swap exchanges T and T̄.
+- **What the group is.** It is the fibre product of S₄ and ℤ/8 over the sign, A₄ ⋊ ℤ/8. Its derived subgroup is A₄
+  (order 12), its center is ℤ/4, its abelianization is ℤ/8, and it has 20 classes.
+  - Each move is odd on both factors at once: a reflection on the parity triplet (T_d) and a rotation by an odd
+    multiple of 45° on the spin doublet. So the weave glues the real S₄ of the triplet to the phase of the spin line.
+  - T is S₄'s triplet times a faithful character of ℤ/8, and that is why it is complex.
+- **With the swap: a group of order 192, and V is irreducible.** The swap exchanges T and T̄. This group has 19
+  classes, center ℤ/2 and derived subgroup of order 48.
 - **The group is finite.** So every thread at every tick acts on V with finite order and carries interior classes
   there.
 
@@ -425,6 +431,8 @@ fixes and every thread carries (W3).
 - `the_mixing.py` → `the_mixing.json`: the weave's group on the triplet and the mixing of its subgroups (READING).
 - `the_weaves_laws.py` → `the_weaves_laws.json`: the trichotomy along the wave, the triplet's group (T_d, O_h, real), and
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
+- `draft_chiral_counts/DESIGN_FOR_REVIEW.md`: HELD for main's review. The frame's count at W10's chiral triplet, with
+  two candidate modules for the spin vacuum. Nothing is sealed or computed.
 - `the_chiral_triplet.py` → `the_chiral_triplet.json`: W10, the group on the parity-twisted spin space, its two
   conjugate triplets, and where a single vacuum character carries one alone.
 - `the_spin_hand.py` → `the_spin_hand.json`: W9's hand rule on all 758 states to length 12, and the states that are
