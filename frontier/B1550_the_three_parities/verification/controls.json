@@ -1,0 +1,693 @@
+{
+ "K1": {
+  "orbits re-read": 17,
+  "member orbits among them": 9,
+  "disagreements": [],
+  "holds": true
+ },
+ "K2": [
+  {
+   "state": "+LRLRLR",
+   "character": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "route": "P",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "seen: the root's tetrahedral cover, sign orbit A's representative",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.060500882177070385,
+      4.561651880469931e-53
+     ],
+     [
+      6.306676849986584e-06,
+      9.013857430828988e-48
+     ],
+     [
+      0.0003433381660403015,
+      5.3456857974257005e-55
+     ],
+     [
+      0.0003433381660403015,
+      6.170704185751328e-46
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 9.8
+  },
+  {
+   "state": "+LRLRLR",
+   "character": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "route": "S",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "seen: the root's tetrahedral cover, sign orbit A's representative",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.027826688655486247,
+      2.7112672412784605e-52
+     ],
+     [
+      2.192117972281222e-06,
+      5.096710233243433e-49
+     ],
+     [
+      0.012340055795689267,
+      0.0
+     ],
+     [
+      0.000393666304021795,
+      1.759165888025079e-48
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 33.4
+  },
+  {
+   "state": "+LRLRLR",
+   "character": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    2
+   ],
+   "route": "P",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "seen: the root's tetrahedral cover, sign orbit B's representative",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.06586563589325813,
+      0.0
+     ],
+     [
+      2.0185652669630798e-05,
+      9.097780005596109e-49
+     ],
+     [
+      0.0004560958355903261,
+      4.2765486379405604e-54
+     ],
+     [
+      0.0004560958355903261,
+      3.538788221177256e-46
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 10.5
+  },
+  {
+   "state": "+LRLRLR",
+   "character": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    2
+   ],
+   "route": "S",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "seen: the root's tetrahedral cover, sign orbit B's representative",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.03726156629352451,
+      0.0
+     ],
+     [
+      4.22622285500623e-05,
+      3.961017632349603e-50
+     ],
+     [
+      0.012340055795689267,
+      0.0
+     ],
+     [
+      0.0061990093870991116,
+      4.0640311247759867e-48
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 38.0
+  },
+  {
+   "state": "+LLLR",
+   "character": [
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "route": "P",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "banked: sm:B1549 and main's B1492, a sign member of L8a15",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.06135893374009455,
+      0.0
+     ],
+     [
+      0.0002677164173067726,
+      2.3616893132155893e-50
+     ],
+     [
+      0.0005753689456461551,
+      9.741422401820813e-53
+     ],
+     [
+      0.00045200870486732954,
+      6.336553306489718e-50
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 3.4
+  },
+  {
+   "state": "+LLLR",
+   "character": [
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "route": "S",
+   "expect": [
+    -1,
+    -1
+   ],
+   "source": "banked: sm:B1549 and main's B1492, a sign member of L8a15",
+   "got": [
+    -1,
+    -1
+   ],
+   "structure": {
+    "h0": 0,
+    "h1": 1,
+    "r1": 0,
+    "n": 1,
+    "gaps": [
+     [
+      0.0787695227003001,
+      5.080155016313825e-52
+     ],
+     [
+      0.0006765789127665923,
+      2.474921905807658e-50
+     ],
+     [
+      0.10531577713923312,
+      4.1202602175458215e-52
+     ],
+     [
+      0.018924840758347557,
+      8.079189585689606e-49
+     ]
+    ]
+   },
+   "holds": true,
+   "seconds": 8.6
+  }
+ ],
+ "K3": {
+  "rows": [
+   {
+    "state": "+LR",
+    "m": 2,
+    "characters": 64,
+    "group order": 12,
+    "element orders": {
+     "1": 1,
+     "2": 3,
+     "3": 8
+    },
+    "phi mod 2 order": 3,
+    "wbar": 0,
+    "cusps": 4,
+    "twist": "",
+    "H1 free rank": 3,
+    "H1 torsion": [
+     2,
+     2
+    ],
+    "holds": true
+   },
+   {
+    "state": "+LR",
+    "m": 4,
+    "characters": 1024,
+    "group order": 12,
+    "element orders": {
+     "1": 1,
+     "2": 3,
+     "3": 8
+    },
+    "phi mod 2 order": 3,
+    "wbar": 0,
+    "cusps": 4,
+    "twist": "",
+    "H1 free rank": 3,
+    "H1 torsion": [
+     2,
+     2
+    ],
+    "holds": true
+   },
+   {
+    "state": "-LR",
+    "m": 2,
+    "characters": 16,
+    "group order": 12,
+    "element orders": {
+     "1": 1,
+     "2": 3,
+     "3": 8
+    },
+    "phi mod 2 order": 3,
+    "wbar": 3,
+    "cusps": 4,
+    "twist": "aB",
+    "H1 free rank": 3,
+    "H1 torsion": [
+     5
+    ],
+    "holds": true
+   },
+   {
+    "state": "-LR",
+    "m": 4,
+    "characters": 256,
+    "group order": 12,
+    "element orders": {
+     "1": 1,
+     "2": 3,
+     "3": 8
+    },
+    "phi mod 2 order": 3,
+    "wbar": 3,
+    "cusps": 4,
+    "twist": "aB",
+    "H1 free rank": 3,
+    "H1 torsion": [
+     5
+    ],
+    "holds": true
+   },
+   {
+    "state": "+LLLR",
+    "m": 2,
+    "characters": 16,
+    "group order": 12,
+    "element orders": {
+     "1": 1,
+     "2": 3,
+     "3": 8
+    },
+    "phi mod 2 order": 3,
+    "wbar": 0,
+    "cusps": 4,
+    "twist": "",
+    "H1 free rank": 3,
+    "H1 torsion": [
+     3,
+     9
+    ],
+    "holds": true
+   },
+   {
+    "state": "+LLLR",
+    "m": 4,
+    "characters": 256,
+    "group order": 12,
+    "element orders": {
+     "1": 1,
+     "2": 3,
+     "3": 8
+    },
+    "phi mod 2 order": 3,
+    "wbar": 0,
+    "cusps": 4,
+    "twist": "",
+    "H1 free rank": 3,
+    "H1 torsion": [
+     3,
+     9
+    ],
+    "holds": true
+   },
+   {
+    "state": "-LLLR",
+    "m": 2,
+    "characters": 64,
+    "group order": 12,
+    "element orders": {
+     "1": 1,
+     "2": 3,
+     "3": 8
+    },
+    "phi mod 2 order": 3,
+    "wbar": 3,
+    "cusps": 4,
+    "twist": "aBaaBaBaBaBaaBaBaBaB",
+    "H1 free rank": 3,
+    "H1 torsion": [
+     2,
+     14
+    ],
+    "holds": true
+   },
+   {
+    "state": "-LLLR",
+    "m": 4,
+    "characters": 1024,
+    "group order": 12,
+    "element orders": {
+     "1": 1,
+     "2": 3,
+     "3": 8
+    },
+    "phi mod 2 order": 3,
+    "wbar": 3,
+    "cusps": 4,
+    "twist": "aBaaBaBaBaBaaBaBaBaB",
+    "H1 free rank": 3,
+    "H1 torsion": [
+     2,
+     14
+    ],
+    "holds": true
+   }
+  ],
+  "holds": true
+ },
+ "K4": {
+  "cases": {
+   "as expected: PROVED, P6-P9 hold": true,
+   "the partner generation-shaped: P9 false, still PROVED": true,
+   "a root order-4 member generation-shaped: P7, P8 false, NEGATIVE": true,
+   "the root's sign members not generation-shaped: P6, P8 false, NEGATIVE": true,
+   "draws disagree: P5 false, OPEN": true,
+   "a missing task: incomplete, OPEN": true,
+   "a duplicated task: incomplete, OPEN": true,
+   "routes disagree on structure: P2 false, OPEN": true,
+   "below the cap: P4 false, OPEN": true,
+   "a control failed: P1 false, OPEN": true,
+   "a murky gap: P4 false, OPEN": true
+  },
+  "holds": true
+ },
+ "K5": {
+  "covers": [
+   {
+    "state": "+LR",
+    "h1": 4,
+    "r1": 4,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LR",
+    "h1": 4,
+    "r1": 4,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLR",
+    "h1": 4,
+    "r1": 4,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LLLR",
+    "h1": 4,
+    "r1": 4,
+    "n(1)": 0,
+    "primes agree": true
+   }
+  ],
+  "holds": true
+ },
+ "K6": {
+  "covers": [
+   {
+    "cover": "m004",
+    "state": "+LR",
+    "lattice": [
+     1,
+     0,
+     1
+    ],
+    "wbar": 0,
+    "cusps": 1,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 1,
+     "[4, 0, 0, True]": 2
+    },
+    "sign members": 0
+   },
+   {
+    "cover": "M_2",
+    "state": "+LRLR",
+    "lattice": [
+     1,
+     0,
+     1
+    ],
+    "wbar": 0,
+    "cusps": 1,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 1,
+     "[4, 0, 0, True]": 2
+    },
+    "sign members": 0
+   },
+   {
+    "cover": "M_3",
+    "state": "+LRLRLR",
+    "lattice": [
+     1,
+     0,
+     1
+    ],
+    "wbar": 0,
+    "cusps": 1,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 7,
+     "[4, 0, 0, True]": 56
+    },
+    "sign members": 0
+   },
+   {
+    "cover": "the root's 4-fold (Z/2)^2 cover",
+    "state": "+LR",
+    "lattice": [
+     2,
+     0,
+     2
+    ],
+    "wbar": 0,
+    "cusps": 2,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 3,
+     "[4, 0, 0, True]": 12
+    },
+    "sign members": 0
+   },
+   {
+    "cover": "a double cover of M_3",
+    "state": "+LRLRLR",
+    "lattice": [
+     1,
+     0,
+     2
+    ],
+    "wbar": 0,
+    "cusps": 2,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 15,
+     "[4, 0, 0, True]": 92,
+     "[4, 1, 1, True]": 8,
+     "[4, 2, 2, True]": 12
+    },
+    "sign members": 0
+   },
+   {
+    "cover": "a double cover of M_3",
+    "state": "+LRLRLR",
+    "lattice": [
+     1,
+     0,
+     2
+    ],
+    "wbar": 1,
+    "cusps": 1,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 7,
+     "[4, 0, 0, True]": 56
+    },
+    "sign members": 0
+   },
+   {
+    "cover": "a double cover of M_3",
+    "state": "+LRLRLR",
+    "lattice": [
+     2,
+     0,
+     1
+    ],
+    "wbar": 0,
+    "cusps": 2,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 15,
+     "[4, 0, 0, True]": 92,
+     "[4, 1, 1, True]": 8,
+     "[4, 2, 2, True]": 12
+    },
+    "sign members": 0
+   },
+   {
+    "cover": "a double cover of M_3",
+    "state": "+LRLRLR",
+    "lattice": [
+     2,
+     0,
+     1
+    ],
+    "wbar": 1,
+    "cusps": 1,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 7,
+     "[4, 0, 0, True]": 56
+    },
+    "sign members": 0
+   },
+   {
+    "cover": "a double cover of M_3",
+    "state": "+LRLRLR",
+    "lattice": [
+     2,
+     1,
+     1
+    ],
+    "wbar": 0,
+    "cusps": 2,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 15,
+     "[4, 0, 0, True]": 92,
+     "[4, 1, 1, True]": 8,
+     "[4, 2, 2, True]": 12
+    },
+    "sign members": 0
+   },
+   {
+    "cover": "a double cover of M_3",
+    "state": "+LRLRLR",
+    "lattice": [
+     2,
+     1,
+     1
+    ],
+    "wbar": 1,
+    "cusps": 1,
+    "(order, n in P, n in S, routes agree): characters": {
+     "[1, 0, 0, True]": 1,
+     "[2, 0, 0, True]": 7,
+     "[4, 0, 0, True]": 56
+    },
+    "sign members": 0
+   }
+  ],
+  "holds": true
+ },
+ "all hold": true,
+ "seconds": 366.5
+}
