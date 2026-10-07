@@ -1,0 +1,29 @@
+{
+ "(1) the weave's group on the triplet": {
+  "order": 48,
+  "determinants": {
+   "1": 24,
+   "-1": 24
+  },
+  "element orders": {
+   "1": 1,
+   "2": 19,
+   "3": 8,
+   "4": 12,
+   "6": 8
+  },
+  "rotations (determinant 1)": 24,
+  "-1 in the group": true
+ },
+ "(2) Z3 = the golden thread's 3-cycle; K = a Klein four-group of the weave: |U|^2 (canonical form) -> pairs": {
+  "((0.0, 0.333333, 0.666667), (0.5, 0.333333, 0.166667), (0.5, 0.333333, 0.166667))": 36,
+  "((0.333333, 0.333333, 0.333333), (0.333333, 0.333333, 0.333333), (0.333333, 0.333333, 0.333333))": 12
+ },
+ "(2) Z3 = the golden thread's 3-cycle; K = one involution: the fixed column |U_i|^2 (sorted) -> involutions": {
+  "(0.0, 0.5, 0.5)": 6,
+  "(0.166667, 0.166667, 0.666667)": 6,
+  "(0.333333, 0.333333, 0.333333)": 6
+ },
+ "the tri-bimaximal |U|^2 in canonical form": "((0.0, 0.333333, 0.666667), (0.5, 0.333333, 0.166667), (0.5, 0.333333, 0.166667))",
+ "a Klein four-group of the weave gives tri-bimaximal mixing": true
+}
