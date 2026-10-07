@@ -1,0 +1,342 @@
+{
+ "started": "2026-10-07T08:44:54Z",
+ "ended": "2026-10-07T08:47:40Z",
+ "hash mismatches": [],
+ "K2": [
+  [
+   [
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "P",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "S",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    3,
+    0,
+    1,
+    0
+   ],
+   "P",
+   [
+    -1,
+    0
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    3,
+    0,
+    1,
+    0
+   ],
+   "S",
+   [
+    -1,
+    0
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2
+   ],
+   "P",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2
+   ],
+   "S",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0
+   ],
+   "P",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0
+   ],
+   "S",
+   [
+    -1,
+    -1
+   ],
+   true
+  ]
+ ],
+ "K3": [
+  [
+   "P",
+   [
+    -1,
+    -2
+   ],
+   true
+  ],
+  [
+   "S",
+   [
+    -1,
+    -2
+   ],
+   true
+  ]
+ ],
+ "K4": {
+  "cases": {
+   "all good, +LLLR alone: PROVED": true,
+   "draws disagree: P5 false, OPEN": true,
+   "a second cover with three: NEGATIVE": true,
+   "a missing task: incomplete, OPEN": true,
+   "a duplicated task: incomplete, OPEN": true,
+   "routes disagree on structure: P2 false, OPEN": true,
+   "below the cap: P4 false, OPEN": true,
+   "a control failed: P1 false, OPEN": true,
+   "a murky gap: P4 false, OPEN": true
+  },
+  "holds": true
+ },
+ "K5": {
+  "covers": [
+   {
+    "state": "-LLR",
+    "lattice": [
+     3,
+     1,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LLRLR",
+    "lattice": [
+     3,
+     0,
+     1
+    ],
+    "wbar": 1,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LLLLLR",
+    "lattice": [
+     3,
+     1,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LLLLRR",
+    "lattice": [
+     3,
+     2,
+     1
+    ],
+    "wbar": 2,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRRR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRRR",
+    "lattice": [
+     3,
+     0,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRRR",
+    "lattice": [
+     3,
+     1,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLRRR",
+    "lattice": [
+     3,
+     2,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLLLLR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLLRRR",
+    "lattice": [
+     3,
+     0,
+     1
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLLLLRR",
+    "lattice": [
+     1,
+     0,
+     3
+    ],
+    "wbar": 0,
+    "h1": 3,
+    "r1": 3,
+    "n(1)": 0,
+    "primes agree": true
+   }
+  ],
+  "holds": true
+ },
+ "holds": true
+}
