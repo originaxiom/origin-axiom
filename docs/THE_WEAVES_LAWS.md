@@ -44,6 +44,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | the direction is a marking | Conjugating by L (the change of marking LR → RL, one manifold) carries a thread's 3-cycle into the class of its inverse | every odd-trace thread | proof; computed on ±LR | WEAVE |
 | Theorem G | On the forced A₄ cover of every odd-trace thread, a member orbit sits a third on each parity, and on the third level it gives one sector per parity, cycled by the deck, each with the member's count | every odd-trace thread | proof (Shapiro) | WEAVE, at tick 3 |
 | **Lemma V (new)** | On a hyperbolic once-punctured-torus bundle no rank-one line is interior: h¹(ν) ≤ 1, and when it is 1, ν is trivial on the cusp and the class restricts to it injectively (finite order needed only when ν is trivial on the fibre). So the frame at the weave's own vacuum, the common point, whose module four(ρ_Q) = 1 ⊕ 3 is a sum of such lines by Shapiro, has no member on any state at any tick | every state at every tick; 72 parity lines and 768 characters of order dividing 4 on the 24 states to length 6 at their resolving tick | proof (Wang sequence; the puncture loop); checked exactly | WEAVE + WAVE |
+| **the spin doublet (new)** | The fibre's cohomology with coefficients in the common point, H¹(F₂; ρ_Q), is two-dimensional and every thread's class in it is interior (ρ_Q([a, b]) = −1). L and R act on it as commuting rotations (cyclic of order 8; Q₁₆ with the swap), so every thread acts with finite order and has interior classes; twisted by the parities, the three are alike for every lift at the resolving tick of every odd-trace and every involution state | 24 states to length 6; route 2 (Fox calculus) on five | computed | WEAVE |
 | the gcd law (lifted) | An orbit of the forced cover is one module at the ticks 3 does not divide and three sectors at every third tick. That is B1507's gcd(n, 3), lifted from m004 to every odd-trace thread by the trichotomy | every odd-trace thread, every tick | proof | WEAVE + WAVE |
 
 **Theorem S, the proof.**
@@ -166,15 +167,19 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - a source (GENESIS GAP3).
    - By T1 and H-FREE-CUSP it cannot come from bulk matter with the Standard Model unbroken, on any state at any tick.
    - The three and the hand are separate ingredients.
-5. **The weave's own vacuum is empty (Lemma V).**
-   - At the common point, the one vacuum every move fixes, the frame reads the three parity lines.
-   - On every thread at its resolving tick they are alike, one line each, but all three are on the end, and no line of
-     that vacuum is interior on any state at any tick.
-   - So the weave alone gives the three and their alikeness, but no matter on them.
-   - Matter needs a thread's own geometry (the hyperbolic vacuum, where W6 and W7 find members) or a cover that is not a
-     once-punctured-torus bundle.
-   - The weave forces one such cover: the spin cover (W3's 2T kernel, fibre genus 3), where main's T-ROOM-NEEDS-GENUS puts
-     room.
+5. **The weave's own vacuum: its abelian part is empty, and its spin part is not.**
+   - **The abelian part (Lemma V).** At the common point, the one vacuum every move fixes, F-HE's module four(ρ_Q) = 1 ⊕ 3
+     reads the three parity lines. On every thread they are alike, but all three are on the end. No line of that part is
+     interior on any state at any tick.
+   - **The spin part (W9).** The common point itself, the spin doublet, carries interior classes on every thread, because
+     the moves act on it with finite order.
+   - **With the parities, three alike interior sectors.** These appear on every odd-trace thread at its third tick. They
+     are one module of the thread, 2 ⊕ 2′ ⊕ 2″, whose summands are told apart by a cube root of unity on the base.
+   - **That is weave-level content, not +LR's alone.** Whether it is a generation needs a frame for the spin module; F-HE
+     on the forced spin cover is the candidate, for main's review.
+   - **READING, the hand.** Without the swap the doublet's group is abelian, and its two complex-conjugate lines are kept
+     apart by every L,R-thread. That is a candidate for a hand that is not a marking. The swap exchanges them, as GENESIS
+     FK3's C-type bit (B1083) would.
 6. **Masses.**
    - A kept, unbroken deck gives a texture the data refute (B1273, B1361; sL-5), so the deck must break at order one, or
      the Higgs must be parity-neutral.
@@ -203,9 +208,10 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - that they are alike under the weave;
      - that they are separate at every third tick;
      - that their symmetry is real;
-     - that its own vacuum carries them empty, on the end (Lemma V).
+     - that its own vacuum carries them on the end in its abelian part (Lemma V), and as three alike interior sectors
+       in its spin part on every odd-trace thread at tick 3 (W9).
    - **Open:**
-     - the content: matter on the three alike needs a thread's geometry or the forced spin cover;
+     - whether those interior sectors are generations: a frame for the spin module (F-HE on the forced spin cover);
      - the deck kept (GENESIS FK7);
      - the hand (GENESIS FK4 and FK12; main's sign);
      - the masses;
@@ -252,6 +258,9 @@ Each line gives the cheapest test across the weave (other threads) and along the
 - **R16. The weave's vacuum on the forced spin cover.** Read Lemma V's lines where it does not apply, on the 2T cover of
   every odd-trace thread (fibre genus 3), as rank-one characters with their interior classes. Check also whether
   Theorem C's bound holds at the weave's vacuum.
+  - **Its structure is done by Shapiro (W9).** The spin cover's interior lines are the spin doublet's classes. They
+    exist on every thread, and with the parities there are three alike on every odd-trace thread at tick 3.
+  - **Open:** the frame's counts there, which need main's review and a seal.
 - **R15. The family tensor on the parity triplet.** On the weave's T_d the invariant cubic is xyz, so B1271's zero does
   not transfer as stated.
 

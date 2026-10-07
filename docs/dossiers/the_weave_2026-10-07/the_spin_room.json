@@ -1,0 +1,1288 @@
+{
+ "(A) the doublet's group": {
+  "L and R": {
+   "order": 8,
+   "element orders": {
+    "1": 1,
+    "2": 1,
+    "4": 2,
+    "8": 4
+   },
+   "sum |tr|^2 / order": 2.0,
+   "abelian": true
+  },
+  "L, R and the sign": {
+   "order": 8,
+   "element orders": {
+    "1": 1,
+    "2": 1,
+    "4": 2,
+    "8": 4
+   },
+   "sum |tr|^2 / order": 2.0,
+   "abelian": true
+  },
+  "all four moves": {
+   "order": 16,
+   "element orders": {
+    "1": 1,
+    "2": 1,
+    "4": 10,
+    "8": 4
+   },
+   "sum |tr|^2 / order": 1.0,
+   "abelian": false
+  }
+ },
+ "(B, C) every state": [
+  {
+   "state": "+LR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     4,
+     4
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      4,
+      4
+     ],
+     "(0, 1/2)": [
+      4,
+      4
+     ],
+     "(1/2, 1/2)": [
+      4,
+      4
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      0,
+      0
+     ],
+     "(0, 1/2)": [
+      0,
+      0
+     ],
+     "(1/2, 1/2)": [
+      0,
+      0
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLR",
+   "resolving tick": 2,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     1,
+     7
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLR",
+   "resolving tick": 2,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     1,
+     7
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLLR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLLR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     4
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      0,
+      0
+     ],
+     "(0, 1/2)": [
+      0,
+      0
+     ],
+     "(1/2, 1/2)": [
+      0,
+      0
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      4,
+      4
+     ],
+     "(0, 1/2)": [
+      4,
+      4
+     ],
+     "(1/2, 1/2)": [
+      4,
+      4
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLRR",
+   "resolving tick": 1,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     4,
+     4
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      0,
+      0
+     ],
+     "(0, 1/2)": [
+      0,
+      0
+     ],
+     "(1/2, 1/2)": [
+      4,
+      4
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      4,
+      4
+     ],
+     "(0, 1/2)": [
+      4,
+      4
+     ],
+     "(1/2, 1/2)": [
+      0,
+      0
+     ]
+    }
+   ],
+   "the three parities alike": false
+  },
+  {
+   "state": "-LLRR",
+   "resolving tick": 1,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLLLR",
+   "resolving tick": 2,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     3,
+     5
+    ],
+    [
+     1,
+     7
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLLLR",
+   "resolving tick": 2,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     1,
+     7
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLLRR",
+   "resolving tick": 2,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     1,
+     7
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLLRR",
+   "resolving tick": 2,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     1,
+     7
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLRLR",
+   "resolving tick": 2,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     1,
+     7
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLRLR",
+   "resolving tick": 2,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     1,
+     7
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLLLLR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     4,
+     4
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      4,
+      4
+     ],
+     "(0, 1/2)": [
+      4,
+      4
+     ],
+     "(1/2, 1/2)": [
+      4,
+      4
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      0,
+      0
+     ],
+     "(0, 1/2)": [
+      0,
+      0
+     ],
+     "(1/2, 1/2)": [
+      0,
+      0
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLLLLR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLLLRR",
+   "resolving tick": 1,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLLLRR",
+   "resolving tick": 1,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     4
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      4,
+      4
+     ],
+     "(0, 1/2)": [
+      0,
+      0
+     ],
+     "(1/2, 1/2)": [
+      4,
+      4
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      0,
+      0
+     ],
+     "(0, 1/2)": [
+      4,
+      4
+     ],
+     "(1/2, 1/2)": [
+      0,
+      0
+     ]
+    }
+   ],
+   "the three parities alike": false
+  },
+  {
+   "state": "+LLLRLR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLLRLR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     4
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      0,
+      0
+     ],
+     "(0, 1/2)": [
+      0,
+      0
+     ],
+     "(1/2, 1/2)": [
+      0,
+      0
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      4,
+      4
+     ],
+     "(0, 1/2)": [
+      4,
+      4
+     ],
+     "(1/2, 1/2)": [
+      4,
+      4
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLLRRR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     4,
+     4
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      4,
+      4
+     ],
+     "(0, 1/2)": [
+      4,
+      4
+     ],
+     "(1/2, 1/2)": [
+      4,
+      4
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      0,
+      0
+     ],
+     "(0, 1/2)": [
+      0,
+      0
+     ],
+     "(1/2, 1/2)": [
+      0,
+      0
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLLRRR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "+LLRLRR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     4
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      0,
+      0
+     ],
+     "(0, 1/2)": [
+      0,
+      0
+     ],
+     "(1/2, 1/2)": [
+      0,
+      0
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      4,
+      4
+     ],
+     "(0, 1/2)": [
+      4,
+      4
+     ],
+     "(1/2, 1/2)": [
+      4,
+      4
+     ]
+    }
+   ],
+   "the three parities alike": true
+  },
+  {
+   "state": "-LLRLRR",
+   "resolving tick": 3,
+   "own tick, untwisted doublet: kappa (eighths of a turn) per lift": [
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "resolving tick, parity-twisted doublets: kappa per parity, per inherited lift": [
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    },
+    {
+     "(1/2, 0)": [
+      2,
+      6
+     ],
+     "(0, 1/2)": [
+      2,
+      6
+     ],
+     "(1/2, 1/2)": [
+      2,
+      6
+     ]
+    }
+   ],
+   "the three parities alike": true
+  }
+ ],
+ "route 2 control": [
+  {
+   "state": "+LR",
+   "eigenvalue (eighths)": 4,
+   "multiplicity": 2,
+   "route 2 h1 at kappa and at its inverse": [
+    2,
+    2
+   ]
+  },
+  {
+   "state": "+LR",
+   "eigenvalue (eighths)": 0,
+   "multiplicity": 2,
+   "route 2 h1 at kappa and at its inverse": [
+    2,
+    2
+   ]
+  },
+  {
+   "state": "-LR",
+   "eigenvalue (eighths)": 2,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "-LR",
+   "eigenvalue (eighths)": 6,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "-LR",
+   "eigenvalue (eighths)": 2,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "-LR",
+   "eigenvalue (eighths)": 6,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "+LLR",
+   "eigenvalue (eighths)": 1,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "+LLR",
+   "eigenvalue (eighths)": 7,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "+LLR",
+   "eigenvalue (eighths)": 3,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "+LLR",
+   "eigenvalue (eighths)": 5,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "-LLRR",
+   "eigenvalue (eighths)": 2,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "-LLRR",
+   "eigenvalue (eighths)": 6,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "-LLRR",
+   "eigenvalue (eighths)": 2,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "-LLRR",
+   "eigenvalue (eighths)": 6,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "+LLLR",
+   "eigenvalue (eighths)": 2,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "+LLLR",
+   "eigenvalue (eighths)": 6,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "+LLLR",
+   "eigenvalue (eighths)": 2,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  },
+  {
+   "state": "+LLLR",
+   "eigenvalue (eighths)": 6,
+   "multiplicity": 1,
+   "route 2 h1 at kappa and at its inverse": [
+    1,
+    1
+   ]
+  }
+ ],
+ "tally": {
+  "states": 24,
+  "own tick: every lift of finite order": 24,
+  "resolving tick: the three parities alike for every inherited lift": 22
+ }
+}

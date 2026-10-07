@@ -276,9 +276,56 @@ fixes and every thread carries (W3).
 - **All three lines are on the end.** They are main's T-COMPANION-NO-ROOM lines, and none is interior.
 - **The frame at the weave's vacuum has no members on any state at any tick (Lemma V).** So, if Theorem C's bound
   I(Λ²W₁) ≥ −n holds at this vacuum (to be checked, since four(ρ_Q) is reducible), it reads no generation anywhere.
-- **The three's content needs something else.** It needs either a thread's own geometry (the hyperbolic vacuum, where
-  W6 and W7 find members) or a cover that is not a once-punctured-torus bundle. The weave forces one such cover: the spin
-  cover, W3's 2T kernel, whose fibre has genus 3. That is where main's T-ROOM-NEEDS-GENUS puts room.
+- **The three's content needs something else.** It needs a thread's own geometry (the hyperbolic vacuum, where W6 and
+  W7 find members) or the vacuum's spin part, which four(ρ_Q) does not contain. W9 shows the spin part carries
+  interior classes on every thread. On the forced spin cover (W3's 2T kernel, fibre genus 3) those are the cover's own
+  lines, which is where main's T-ROOM-NEEDS-GENUS puts room.
+
+## W9. The weave's spin doublet (`the_spin_room.py`)
+
+**The object.**
+- **The space.** H¹(F₂; ρ_Q) is the fibre's cohomology with coefficients in the common point itself: the
+  two-dimensional spin representation a ↦ i, b ↦ j. It is two-dimensional, because H⁰ = 0 on the free group of rank two,
+  and it is the same space for every thread.
+- **Every thread's classes in it are interior.** ρ_Q([a, b]) = −1, so the cusp carries no invariant vector and its H¹
+  vanishes.
+- **The extension condition.** A thread's class extends exactly at the κ where the act S: [z] ↦ [g⁻¹ (z ∘ φ)] has
+  eigenvalue κ, with g the lift of W3 (±g changes S to −S).
+
+**The joint action (COMPUTED).**
+- **With L and R.** With their lifts they act as commuting rotations, by 45° and 135°, and the sign as one by 90°. The
+  group is cyclic of order 8, with two characters.
+- **With the swap.** It becomes Q₁₆, of order 16, irreducible, with real characters.
+
+**Every thread has room here (COMPUTED; two routes).**
+- **Route 1.** On all 24 states to length 6, every lift acts on the doublet with finite order (1, 2, 4 or 8). So every
+  thread has interior classes at its own tick: h¹ = 2 at one κ = ±1, or 1 + 1 at a conjugate pair of κ.
+- **Route 2.** Fox calculus on the bundle group reproduces the dimensions on five states: ±LR, +LLR, −LLRR and +LLLR.
+
+**With the parities (COMPUTED).**
+- **The modules.** At each state's resolving tick the parity-twisted doublets H¹(F₂; χ_p ⊗ ρ_Q) are read with the
+  deck-compatible tick, the act's own k-th power, and the inherited lift gᵏ. A marking that differs by an inner
+  automorphism shifts κ by χ_p of it: the same shift as W7's − states.
+- **The three are alike for every lift on 22 states.** That is all 12 odd-trace states at tick 3 and all 8 involution
+  states at tick 2.
+- **The two exceptions split 2 + 1.** These are +LLRR and −LLLLRR at tick 1.
+- **On the thread itself.** On an odd-trace thread, 3 ⊗ ρ_Q = 2 ⊕ 2′ ⊕ 2″, the three spin representations of 2T. So the
+  three sectors are one module of the thread, whose three summands carry the same content at three values of κ that
+  differ by a cube root of unity.
+
+**What it shows.**
+- **Only the abelian part of the weave's vacuum is empty (Lemma V).** Its spin part carries interior classes on every
+  thread.
+- **With the parities it gives three alike interior sectors on every odd-trace thread at its third tick,** not only
+  on +LR.
+- **Whether they are generations needs a frame for the spin module.** One is F-HE read on the forced spin cover, where
+  these classes are the cover's own rank-one lines (Shapiro). That is not sealed; main reviews it first.
+- **READING, the hand.**
+  - Without the swap the joint action is abelian. So the doublet splits into two complex-conjugate lines, and every
+    L,R-thread keeps them apart: a candidate for a hand that is not a marking.
+  - The swap exchanges them, as charge conjugation would. That fits GENESIS FK3, where B1083 types the swap as the
+    C-type bit.
+  - With the swap the group's characters are real.
 
 ## What the weave gives, and what it does not
 
@@ -293,6 +340,7 @@ fixes and every thread carries (W3).
 | W6 | PROVED (WEAVE); COMPUTED (THREAD) | Theorem G: whatever one parity carries, all three carry. A thread result: on +LR each parity carries one generation of each type. The census: no other odd-trace thread to length 6 read so far carries any on its forced cover (eleven of twelve at order 4) |
 | W7 | COMPUTED (WEAVE, by rule) | in Theorem S's sense, at every state's resolving tick to length 6: members only on the pair of parities a state's symmetry exchanges (±LLRR, ±LLR, ±LLLLR), never on the parity it fixes, never on all three |
 | W8 | PROVED (Lemma V, WEAVE + WAVE); COMPUTED | the frame at the weave's own vacuum (the common point) reads rank-one lines: the three parity lines alike on every thread, all on the end; no member on any state at any tick |
+| W9 | COMPUTED (WEAVE, two routes) | the weave's spin doublet H¹(F₂; ρ_Q): the moves act by ℤ/8 (Q₁₆ with the swap); every thread has interior classes on it; twisted by the parities, three alike interior sectors on every odd-trace thread at tick 3 |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -321,6 +369,8 @@ fixes and every thread carries (W3).
 - `the_mixing.py` → `the_mixing.json`: the weave's group on the triplet and the mixing of its subgroups (READING).
 - `the_weaves_laws.py` → `the_weaves_laws.json`: the trichotomy along the wave, the triplet's group (T_d, O_h, real), and
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
+- `the_spin_room.py` → `the_spin_room.json`: W9, the spin doublet's group, every state's room on it, the
+  parity-twisted doublets at the resolving tick, and the route-2 control.
 - `the_weaves_vacuum.py` → `the_weaves_vacuum.json`: W8, the frame at the weave's vacuum on all 24 states at their
   resolving tick (exact).
 - `the_parity_sectors.py` → `the_parity_sectors.json` (raw lines `the_parity_sectors.jsonl.gz`, sha-256 beside it):
