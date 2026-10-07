@@ -336,6 +336,52 @@ fixes and every thread carries (W3).
 - **That matches main's B1479 from a different object.** Main finds that on every amphichiral word to length 12 the −
   state is the one on which a hand can be registered. Here it is read off the weave's spin doublet.
 
+## W10. The chiral triplet (`the_chiral_triplet.py`)
+
+**The space.**
+- V is the sum of W9's three parity-twisted spin doublets, H¹(F₂; χ_p ⊗ ρ_Q) over the three parities. It is
+  six-dimensional and the same for every thread.
+- A move m with a lift g carries the χ-doublet to the (χ ∘ m)-doublet by z ↦ g⁻¹ (z ∘ m). So the moves act on V,
+  permuting the parities.
+- Every thread's class in V is interior.
+
+**The joint action (COMPUTED).**
+- **With L and R (the sign adds nothing): a group of order 96.**
+  - Its commutant on V is two-dimensional, and V = T ⊕ T̄: two irreducible triplets, complex conjugate to each other.
+  - Their characters are not real. That is a three with a hand: B356's "chiral candidate" exists on V.
+- **With the swap: a group of order 192, and V is irreducible.** The swap exchanges T and T̄.
+- **The group is finite.** So every thread at every tick acts on V with finite order and carries interior classes
+  there.
+
+**Every state at its resolving tick (COMPUTED, 24 states; the deck-compatible act, the inherited lift).**
+- **On every odd-trace state at tick 3 the act is a scalar on T and on T̄.** T's three classes, one per parity, sit at
+  one κ, and T̄'s at the conjugate κ̄.
+- **When κ ≠ κ̄ (eighths 2 and 6, κ = ±i), one vacuum character carries T alone.** It is three alike, separate,
+  interior and chiral.
+- **That happens on exactly one sign twin of every odd-trace word: the twin with n_L − n_R + 2·[sign −] ≡ 2 (mod 4)**
+  (W9's hand rule; odd-trace words have even length).
+  - To length 6 those twins are −LR, +LLLR, −LLLLLR, +LLLRLR, −LLLRRR and −LLRLRR.
+  - The other twin carries T and T̄ together at κ = ±1, which is vector-like.
+- **The root's pair.** m004 (+LR) carries T ⊕ T̄ together. m003 (−LR), its sign twin, carries T alone at κ = i and T̄
+  alone at κ = −i.
+  - That fits main's GENESIS v1.23 reading that "both of the physics' mechanisms need what the sign-twin's side has", and
+    main's B1479.
+- **Elsewhere at the resolving tick.**
+  - On three involution states (+LLR, −LLLLR, +LLLRR at tick 2) and on −LLRR (tick 1), the two triplets also sit apart
+    at single κ.
+  - On the other even-trace states the act is not a scalar on T, and the triplets share values of κ.
+
+**What it shows, and what it does not.**
+- **What the weave carries.** Without any one thread chosen, the parities of the shared records tensored with the
+  weave's own spin vacuum carry, under the joint action of L and R, a chiral triplet: three alike, cycled by the deck at
+  the third tick, interior, with complex character.
+- **Where it sits alone.** On exactly one sign twin of every odd-trace word, one vacuum character carries it alone.
+- **Not shown: that each of the three is a generation.** That needs a frame with the Standard Model's dictionary on the
+  spin module. F-HE on the forced spin cover is the candidate, and it is not sealed; main reviews first.
+- **Not shown: that the third tick counts.** That is GENESIS FK7, the deck kept.
+- **The swap.** If the swap were a legal move it would join T and T̄ into one real six (GENESIS GM5c). The hand on V
+  needs the swap to stay outside the moves, or a vacuum that tells κ from κ̄.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -350,6 +396,7 @@ fixes and every thread carries (W3).
 | W7 | COMPUTED (WEAVE, by rule) | in Theorem S's sense, at every state's resolving tick to length 6: members only on the pair of parities a state's symmetry exchanges (±LLRR, ±LLR, ±LLLLR), never on the parity it fixes, never on all three |
 | W8 | PROVED (Lemma V, WEAVE + WAVE); COMPUTED | the frame at the weave's own vacuum (the common point) reads rank-one lines: the three parity lines alike on every thread, all on the end; no member on any state at any tick |
 | W9 | COMPUTED (WEAVE, two routes) | the weave's spin doublet H¹(F₂; ρ_Q): the moves act by ℤ/8 (Q₁₆ with the swap); every thread has interior classes on it; twisted by the parities, three alike interior sectors on every odd-trace thread at tick 3 |
+| W10 | COMPUTED (WEAVE) | V, the three parity-twisted spin doublets: under L and R a group of order 96 with V = T ⊕ T̄, two complex-conjugate triplets (a chiral three); the swap exchanges them (order 192). On exactly one sign twin of every odd-trace word, one vacuum character at tick 3 carries T alone (m003, not m004, of the root's pair) |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -378,6 +425,8 @@ fixes and every thread carries (W3).
 - `the_mixing.py` → `the_mixing.json`: the weave's group on the triplet and the mixing of its subgroups (READING).
 - `the_weaves_laws.py` → `the_weaves_laws.json`: the trichotomy along the wave, the triplet's group (T_d, O_h, real), and
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
+- `the_chiral_triplet.py` → `the_chiral_triplet.json`: W10, the group on the parity-twisted spin space, its two
+  conjugate triplets, and where a single vacuum character carries one alone.
 - `the_spin_hand.py` → `the_spin_hand.json`: W9's hand rule on all 758 states to length 12, and the states that are
   their own mirror.
 - `the_spin_room.py` → `the_spin_room.json`: W9, the spin doublet's group, every state's room on it, the

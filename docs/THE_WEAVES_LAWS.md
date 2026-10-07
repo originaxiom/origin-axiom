@@ -46,6 +46,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | **Lemma V (new)** | On a hyperbolic once-punctured-torus bundle no rank-one line is interior: h¹(ν) ≤ 1, and when it is 1, ν is trivial on the cusp and the class restricts to it injectively (finite order needed only when ν is trivial on the fibre). So the frame at the weave's own vacuum, the common point, whose module four(ρ_Q) = 1 ⊕ 3 is a sum of such lines by Shapiro, has no member on any state at any tick | every state at every tick; 72 parity lines and 768 characters of order dividing 4 on the 24 states to length 6 at their resolving tick | proof (Wang sequence; the puncture loop); checked exactly | WEAVE + WAVE |
 | **the spin doublet (new)** | The fibre's cohomology with coefficients in the common point, H¹(F₂; ρ_Q), is two-dimensional and every thread's class in it is interior (ρ_Q([a, b]) = −1). L and R act on it as commuting rotations (cyclic of order 8; Q₁₆ with the swap), so every thread acts with finite order and has interior classes; twisted by the parities, the three are alike for every lift at the resolving tick of every odd-trace and every involution state | 24 states to length 6; route 2 (Fox calculus) on five | computed | WEAVE |
 | **the hand rule (new)** | The spin doublet's two conjugate lines sit at different κ exactly when n_L − n_R + 2·[sign −] ≢ 0 (mod 4); on every state that is its own mirror, the + state keeps them together and the − state apart, which is main's B1479 read off another object | 758 states to length 12 (34 own-mirror words, 68 states) | computed, against the formula | WEAVE |
+| **the chiral triplet (new)** | On the three parity-twisted spin doublets V (six-dimensional, every class interior) L and R act through a group of order 96 with V = T ⊕ T̄, two irreducible complex-conjugate triplets; the swap exchanges them (order 192, V irreducible). At tick 3 of every odd-trace state T's three classes sit at one κ and T̄'s at κ̄; κ ≠ κ̄ on exactly one sign twin of each odd-trace word (n_L − n_R + 2·[sign −] ≡ 2 mod 4), where one vacuum character carries T alone | the moves; 24 states to length 6 | computed | WEAVE |
 | the gcd law (lifted) | An orbit of the forced cover is one module at the ticks 3 does not divide and three sectors at every third tick. That is B1507's gcd(n, 3), lifted from m004 to every odd-trace thread by the trichotomy | every odd-trace thread, every tick | proof | WEAVE + WAVE |
 
 **Theorem S, the proof.**
@@ -168,7 +169,8 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - a source (GENESIS GAP3).
    - By T1 and H-FREE-CUSP it cannot come from bulk matter with the Standard Model unbroken, on any state at any tick.
    - The three and the hand are separate ingredients.
-5. **The weave's own vacuum: its abelian part is empty, and its spin part is not.**
+5. **The weave's own vacuum: its abelian part is empty, its spin part is not, and with the parities it carries a chiral
+   three (W9, W10).**
    - **The abelian part (Lemma V).** At the common point, the one vacuum every move fixes, F-HE's module four(ρ_Q) = 1 ⊕ 3
      reads the three parity lines. On every thread they are alike, but all three are on the end. No line of that part is
      interior on any state at any tick.
@@ -184,12 +186,22 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - **Where the lines are apart is a rule over all 758 states:** n_L − n_R + 2·[sign −] ≢ 0 (mod 4).
      - **On every state that is its own mirror,** the − state has them apart and the + state together. That is main's
        "the hand is in the sign" (B1479–B1483), found from a different object.
+   - **The chiral three (W10).**
+     - With the parities, L and R act on the six-dimensional parity-twisted spin space as a group of order 96. It splits
+       into two complex-conjugate triplets T and T̄, and the swap exchanges them.
+     - At tick 3, on exactly one sign twin of every odd-trace word, one vacuum character carries T alone: three alike,
+       separate, interior and chiral. On the root's pair that twin is m003; m004 carries T ⊕ T̄ together.
+     - This is the most the weave gives toward three generations: the number, the alikeness, the separation, interior
+       content and a hand, all from the joint action with no thread chosen.
+     - Whether each of the three is a generation needs a frame with the Standard Model's dictionary on the spin module.
+       Whether the third tick counts is GENESIS FK7.
 6. **Masses.**
    - A kept, unbroken deck gives a texture the data refute (B1273, B1361; sL-5), so the deck must break at order one, or
      the Higgs must be parity-neutral.
    - At a state's own tick the three parities split 1 + 2 or 1 + 1 + 1 under its isometries, never 3 (Theorem S).
    - The 1 + 2 is the pattern B1507's lead (i) asks about on s961, as S₃'s "2 + 1". It is not compared with data here.
-7. **Content is a thread's.** What the parities carry depends on the thread and the cover:
+7. **In the hyperbolic frame, content is a thread's** (in the weave's spin vacuum it is not: item 5). What the parities
+   carry in the hyperbolic frame depends on the thread and the cover:
    - on the forced A₄ cover, members only on ±LR and generations only on +LR (to length 6, one thread still running);
    - elsewhere, other threads carry content (§2).
    - THE_BAR grades "only +LR" at p ≈ 0.29 on twelve threads: no selection is claimed.
@@ -214,6 +226,8 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - that their symmetry is real;
      - that its own vacuum carries them on the end in its abelian part (Lemma V), and as three alike interior sectors
        in its spin part on every odd-trace thread at tick 3 (W9).
+     - that, with the parities, L and R carry them as a chiral triplet T ⊕ T̄, alone at one vacuum character on exactly
+       one sign twin of every odd-trace word (W10).
    - **Open:**
      - whether those interior sectors are generations: a frame for the spin module (F-HE on the forced spin cover);
      - the deck kept (GENESIS FK7);

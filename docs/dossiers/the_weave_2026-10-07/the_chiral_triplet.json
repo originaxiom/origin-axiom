@@ -1,0 +1,782 @@
+{
+ "(1, 2) L and R": {
+  "order": 96,
+  "commutant dimension": 2,
+  "pieces": [
+   {
+    "dimension": 3,
+    "character real": false,
+    "irreducible (norm 1)": true
+   },
+   {
+    "dimension": 3,
+    "character real": false,
+    "irreducible (norm 1)": true
+   }
+  ],
+  "the two pieces are complex conjugates": true
+ },
+ "(1) L, R and the sign": {
+  "order": 96,
+  "the same group": true
+ },
+ "(1, 2) all four moves": {
+  "order": 192,
+  "commutant dimension": 1,
+  "pieces": [
+   {
+    "dimension": 6
+   }
+  ]
+ },
+ "(3) every state at its resolving tick": [
+  {
+   "state": "+LR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      4,
+      4,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      4,
+      4,
+      4
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      0,
+      0
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "-LR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      2
+     ],
+     "kappa on the second triplet (eighths)": [
+      6,
+      6,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  },
+  {
+   "state": "+LLR",
+   "resolving tick": 2,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  },
+  {
+   "state": "-LLR",
+   "resolving tick": 2,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      6
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "+LLLR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      2
+     ],
+     "kappa on the second triplet (eighths)": [
+      6,
+      6,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  },
+  {
+   "state": "-LLLR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      0,
+      0
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      4,
+      4,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      4,
+      4,
+      4
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "+LLRR",
+   "resolving tick": 1,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      0,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      0,
+      4
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      4,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      4,
+      4
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "-LLRR",
+   "resolving tick": 1,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      2
+     ],
+     "kappa on the second triplet (eighths)": [
+      6,
+      6,
+      6
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  },
+  {
+   "state": "+LLLLR",
+   "resolving tick": 2,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      6
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "-LLLLR",
+   "resolving tick": 2,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  },
+  {
+   "state": "+LLLRR",
+   "resolving tick": 2,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  },
+  {
+   "state": "-LLLRR",
+   "resolving tick": 2,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      6
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "+LLRLR",
+   "resolving tick": 2,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      6,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      6,
+      6
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "-LLRLR",
+   "resolving tick": 2,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      6
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "+LLLLLR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      4,
+      4,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      4,
+      4,
+      4
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      0,
+      0
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "-LLLLLR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      2
+     ],
+     "kappa on the second triplet (eighths)": [
+      6,
+      6,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  },
+  {
+   "state": "+LLLLRR",
+   "resolving tick": 1,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      6,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      6
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "-LLLLRR",
+   "resolving tick": 1,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      4,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      4,
+      4
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      0,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      0,
+      4
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "+LLLRLR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      2
+     ],
+     "kappa on the second triplet (eighths)": [
+      6,
+      6,
+      6
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  },
+  {
+   "state": "-LLLRLR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      0,
+      0
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      4,
+      4,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      4,
+      4,
+      4
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "+LLLRRR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      4,
+      4,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      4,
+      4,
+      4
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      0,
+      0
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "-LLLRRR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      2
+     ],
+     "kappa on the second triplet (eighths)": [
+      6,
+      6,
+      6
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  },
+  {
+   "state": "+LLRLRR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      0,
+      0,
+      0
+     ],
+     "kappa on the second triplet (eighths)": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      4,
+      4,
+      4
+     ],
+     "kappa on the second triplet (eighths)": [
+      4,
+      4,
+      4
+     ]
+    }
+   ],
+   "the two triplets at different kappa": false
+  },
+  {
+   "state": "-LLRLRR",
+   "resolving tick": 3,
+   "lifts": [
+    {
+     "kappa on the first triplet (eighths)": [
+      6,
+      6,
+      6
+     ],
+     "kappa on the second triplet (eighths)": [
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "kappa on the first triplet (eighths)": [
+      2,
+      2,
+      2
+     ],
+     "kappa on the second triplet (eighths)": [
+      6,
+      6,
+      6
+     ]
+    }
+   ],
+   "the two triplets at different kappa": true
+  }
+ ],
+ "tally": {
+  "states": 24,
+  "the two pieces at different kappa": 10
+ }
+}
