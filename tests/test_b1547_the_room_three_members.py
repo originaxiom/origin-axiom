@@ -1,4 +1,4 @@
-"""B1547 -- THE ROOM-THREE MEMBERS: the lock at the seal (no count at a member read).
+"""B1547 -- THE ROOM-THREE MEMBERS: the lock (banked NEGATIVE, run as sealed; read out once 2026-10-07 04:29:29Z).
 
   - seal integrity: every file of ARTIFACT_HASHES.txt hashes as sealed, and SEAL_LEDGER carries the preregistration's digest;
   - the controls K1-K8 recorded in controls.json all hold: the population in both routes (the 46 common loops, the n of the
@@ -7,7 +7,10 @@
     in both routes, the strata at eight sample members in both routes, route F's class_basis;
   - the read-out's logic on synthetic rows (read_out.py and run.py import nothing heavy at import);
   - the sealed population: 1024 members, two routes, 2048 tasks, three draws per distinct stratum;
-  - the load-bearing record (WORKING_RULES 2026-10-06) is well formed, and the sealed verdict is OPEN.
+  - the load-bearing record (WORKING_RULES 2026-10-06) is well formed;
+  - the banked read-out, re-derived in memory from the gzipped record (its sha-256s checked): NEGATIVE, the least generic
+    I(W1) -2, no (-3, -3), no generation shape; the post-run tables re-derived (s - k <= 2 at every stratum reading);
+  - the verdict and its records (THEOREM_REGISTRY, the kill graph, FINDINGS).
 Nothing here writes a tracked file."""
 import hashlib
 import importlib.util
@@ -79,8 +82,50 @@ def test_the_sealed_population():
 def test_the_sealed_record():
     lb = _load("b1547_load_bearing_lock", ROOT / "scripts" / "checks" / "load_bearing.py")
     v = json.loads((ARC / "arc_verdict.json").read_text())
-    assert v["id"] == "B1547" and v["verdict"] == "OPEN" and v["instrument"] is False
+    assert v["id"] == "B1547" and v["instrument"] is False
     assert lb.validate(v["load_bearing"], v["scope"]) == []
     assert [e["id"] for e in v["load_bearing"]] == [f"LB{i}" for i in range(1, 9)]
+    assert all(e["status"] == "VERIFIED" for e in v["load_bearing"])
+
+
+def test_the_banked_read_out():
+    import gzip
+    raw = gzip.decompress((V / "run.jsonl.gz").read_bytes())
+    sha = dict(reversed(line.split()) for line in (V / "run_sha256.txt").read_text().splitlines() if line.strip())
+    assert hashlib.sha256(raw).hexdigest() == sha["run.jsonl"]
+    assert hashlib.sha256((V / "run.jsonl.gz").read_bytes()).hexdigest() == sha["run.jsonl.gz"]
+    rows = [json.loads(x) for x in raw.decode().splitlines() if x.strip()]
+    assert len(rows) == 2048 and len({(r["route"], r["index"]) for r in rows}) == 2048
+    RO = _load("b1547_read_out_bank", V / "read_out.py")
+    run = _load("b1547_run_bank", V / "run.py")
+    res = RO.evaluate(rows, run.tasks(), run.DRAWS, say=lambda s: None)
+    res["predictions"]["P1"] = bool(json.loads((V / "identity.json").read_text()).get("identity holds"))
+    res["verdict"] = RO.verdict(res)
+    rec = json.loads((V / "read_out.json").read_text())
+    want = {"P1": True, "P2": True, "P3": True, "P4": True, "P5": True, "P6": True, "P7": False, "P8": False, "P9": True,
+            "P10": False}
+    assert res["predictions"] == rec["predictions"] == want
+    assert res["verdict"] == rec["verdict"] == "NEGATIVE" and res["complete"] is True
+    assert res["the least generic I(W1)"] == rec["the least generic I(W1)"] == -2
+    assert res["strata with generic (-3, -3)"] == [] and res["strata with a generation-shaped generic reading (both routes)"] == []
+    assert res["route R: strata by (|U|, generic count)"] == rec["route R: strata by (|U|, generic count)"]
+    T = _load("b1547_post_run_bank", V / "post_run_tables.py")
+    tab = T.tables(rows)
+    banked = json.loads((V / "post_run_tables.json").read_text())
+    assert tab["R"]["generic counts by (|U|, count)"] == banked["R"]["generic counts by (|U|, count)"]
+    assert tab["R"]["largest s - k"] == banked["R"]["largest s - k"] == 2
+    assert tab["R"]["largest t - k"] == banked["R"]["largest t - k"] == 5
+    assert tab["F"]["generic counts by (|U|, count)"] == tab["R"]["generic counts by (|U|, count)"]
+
+
+def test_the_verdict_and_its_records():
+    v = json.loads((ARC / "arc_verdict.json").read_text())
+    assert v["verdict"] == "NEGATIVE" and v["creates_law"] is True
+    reg = (ROOT / "docs" / "THEOREM_REGISTRY.md").read_text()
+    assert "| T-THE-ROOM-THREE-MEMBERS |" in reg and "| B1547 |" in reg
+    kills = json.loads((ROOT / "frontier" / "B738_pathfinder_compiler" / "kill_graph.json").read_text())
+    k = [x for x in kills if x.get("id") == "B1547"]
+    assert len(k) == 1 and k[0]["kill_form"].startswith("the-third-ten-is-missing") and k[0]["fact_computed"] is True
     f = (ARC / "FINDINGS.md").read_text()
-    assert "cc (the SM-derivation seat), 2026-10-06." in f and "## Seen first" in f and "SEALED" in f
+    assert "cc (the SM-derivation seat), 2026-10-07." in f and "## Seen first" in f and "0 of 19" in f
+    assert "sweep" in f and "literature" in f and "NEGATIVE" in f

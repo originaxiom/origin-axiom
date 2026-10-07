@@ -10204,7 +10204,7 @@
     "K6"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -10245,23 +10245,30 @@
    "slug": "the room three members",
    "motifs": [
     "monoid",
-    "figure_eight",
-    "metallic",
     "golden",
     "z3_generation",
     "firewall"
    ],
    "refs": [
+    "B143",
     "K0",
     "K1",
     "K8",
+    "P1",
     "P10",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
     "P6",
-    "P8"
+    "P7",
+    "P8",
+    "P9",
+    "S72"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
-   "status": "banked",
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B154": {

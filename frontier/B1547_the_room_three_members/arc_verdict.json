@@ -1,6 +1,6 @@
 {
  "id": "B1547",
- "verdict": "OPEN",
+ "verdict": "NEGATIVE",
  "instrument": false,
  "depends_on": [
   "B1546",
@@ -15,22 +15,22 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
  "identifications": [],
  "scope": {
   "frame": "F-HE",
-  "object": "N_45 (sm:B1541) at the room-three members: the 1024 characters nu of order 8, trivial on every cusp, with nu^4 = chi0, the room-three order-2 character with the least key (the five room-three characters are one tau-orbit); at each member every distinct stratum X_U = K0^nu ∩ {c vanishes off U}, |U| <= 2 -- where three can live there (Corollary 1: Theorem C (ii) with sm:B1545's Lemma F') -- read at its generic class, three draws, in two routes at every member (2048 tasks), plus route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member",
+  "object": "N_45 (sm:B1541) at the room-three members: the 1024 characters nu of order 8, trivial on every cusp, with nu^4 = chi0 (the room-three order-2 character with the least key; the five room-three characters are one tau-orbit, so 5 x 1024 through the deck symmetry); at each member every distinct stratum X_U = K0^nu ∩ {c vanishes off U}, |U| <= 2 -- where three can live there (Corollary 1) -- read at its generic class, three draws, in route F and route R at every member (2048 tasks, 1,272 stratum readings per route), with route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member (1,920 readings)",
   "reach": "class",
   "hypotheses": [
-   "sealed: no count at a member has been read; this record is replaced at the bank",
+   "run as sealed (32cc4ff6) and read out once on 2026-10-07 at 04:29:29Z on complete records (2048 of 2048 tasks); the banked identity held before the run; two stops by exact PID, resumed by task with the sealed seeds (run_notes.md)",
    "at the hyperbolic point of N_45 and the 1024 members over chi0; the other four room-three characters through the deck symmetry tau (K3), the other order through nu-bar = nu^7",
-   "the least I(W1) and the largest Lambda^2 rank on the classes of support U are a generic class's (Lemma G), each read with three draws per route at two primes",
-   "the Lambda^2 count at special classes of a stratum whose generic class reads I(W1) = -3 with I(Lambda^2 W1) < -3 is not covered (the seal's section 10)",
-   "members not trivial on every cusp, members with nu^4 = 1, and members whose fourth power has order three or more are not read",
-   "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4 and THE_BAR's question"
+   "each stratum's least I(W1) and largest Lambda^2 rank are a generic class's (Lemma G), read with three draws per route at two primes; no stratum reached I(W1) = -3, so the seal's case (d) did not arise",
+   "no class at any member trivial on every cusp over the five room-three characters reads three, in either order, by the seal's section 3.5 (Theorem C's cap for r >= 1, Lemma F' for k >= 3, Corollary 1 and Lemma G for the rest)",
+   "members not trivial on every cusp, members with nu^4 = 1, members whose fourth power has order three or more, and other covers are not covered (FINDINGS section 5)",
+   "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4, FK14 and THE_BAR's question"
   ]
  },
- "claim_one_line": "THE ROOM-THREE MEMBERS, SEALED. On N_45, the golden cover, at the 1024 characters nu of order 8 trivial on every cusp with nu^4 = chi0, the room-three order-2 character with the least key (the five room-three characters are one tau-orbit): by Theorem C (ii) with sm:B1545's Lemma F', a class reading I(W1) = -3 lies in the cup map's kernel K0^nu and vanishes on at least three of the five cusps (Corollary 1), so it lies in a stratum X_U = K0^nu ∩ {c vanishes off U}, |U| <= 2, with support exactly U; a generic class of each distinct stratum has the least I(W1) and the least I(Lambda^2 W1) there (Lemma G). The structure census (route R, no count): 424 distinct strata at 220 members (164 interior, 132 on one cusp, 128 on two). The run reads three generic classes of every distinct stratum in route F and route R at every member (2048 tasks, 1,272 readings per route) and route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member. Controls K1-K8 hold. Predictions P1-P10 (P6 the floor 80%, P8 three 7%); PROVED if a stratum reads (-3, -3) in two routes; NEGATIVE if none reads I(W1) = -3 with I(Lambda^2 W1) <= -3, and then no class at any such member over the five carries three, in either order. No count at a member read. 0 of 19.",
+ "claim_one_line": "THE ROOM-THREE MEMBERS (NEGATIVE, run as sealed; read out once 2026-10-07 04:29:29Z). On N_45, the golden cover, at the characters of order 8 trivial on every cusp whose fourth power is one of the five room-three characters (5 x 1024, read at chi0's 1024 through the deck symmetry), a class reading three would lie in a stratum X_U of the cup map's kernel with support exactly U, |U| <= 2 (Corollary 1: Theorem C (ii) with sm:B1545's Lemma F'), and a generic class decides each stratum (Lemma G). Every distinct stratum read in two routes at every member (2048 tasks, 424 strata, three draws, 1,920 load-bearing checks), every reading alike across routes, Galois classes and draws: the least generic I(W1) is -2 -- interior (-2, -1), (-2, -3), (0, -3), (0, -5); on one cusp (-1, -2), (-2, 0); on two (-1, 0), (-2, 0) -- with no (-3, -3) and no generation shape. The W1 side is the one short: the dual connecting rank s exceeds k by at most 2 at every stratum reading (three needs 3), the boundary Massey rank at interior classes never reaching three, while t - k reaches 5. So no class at any such member carries three, in either order. 7 of 10 predictions, against 7.02 expected. 0 of 19.",
  "prior_work": {
   "repo": {
    "heads": {

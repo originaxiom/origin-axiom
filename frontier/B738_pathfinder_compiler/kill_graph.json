@@ -12037,5 +12037,31 @@
     "each family's least I(W) read at its generic class (Lemma G'''), three draws per route at two primes"
    ]
   }
+ },
+ {
+  "id": "B1547",
+  "claim_killed": "THE ROOM-THREE MEMBERS (after sm:B1546 and sm:B1545): that a class at one of N_45's order-8 characters trivial on every cusp over the five room-three characters -- b0 = 0, room exactly three, all five cusps trivial: the members that pass Theorem C and Lemma F' with nothing to spare -- reads three, (-3, -3), in either order. Corollary 1 puts such a class in a distinct stratum X_U of K0^nu with support U, |U| <= 2, and Lemma G decides each stratum at its generic class. Sealed at 32cc4ff6 and run as sealed; the record committed unread; read out once. Both routes agree at every member: the least generic I(W1) is -2, no stratum reads (-3, -3) or a generation shape.",
+  "kill_form": "the-third-ten-is-missing (the dual connecting rank s exceeds the support k by at most 2 at every stratum reading, so I(W1) >= -2: the boundary Massey rank at interior classes stops at two of the three the line's room n(L) = 3 allows; the Lambda^2 side has t - k up to 5)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Members over the five not trivial on every cusp (sm:B1545: three needs 3 - b0 trivial cusps); members with nu^4 = 1 (b0 = 1, n(1) = 4 on N_45); members whose fourth power has order three or more (the room-three circles, held pending the owner's ruling); other covers and companions (main's B1492/B1493 read the companions; this seat's three-orbit note); which class and cover the genesis selects (GENESIS FK14).",
+  "priority": "P1",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-07 at banking time, with content: a NEGATIVE read as sealed, its population complete for its question by Corollary 1 and Lemma G.",
+  "note": "ENTERED 2026-10-07 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: frontier/B1547_the_room_three_members/verification/member_lib.py (both routes), run.py (the sealed run, record run.jsonl.gz with run_sha256.txt), read_out.py (the sealed read-out, once) and post_run_tables.py (s - k <= 2 at every stratum reading).",
+  "routed_from": "sm-branch-2026-10-07-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "N_45 (sm:B1541) at the room-three members: the 1024 characters nu of order 8, trivial on every cusp, with nu^4 = chi0 (the room-three order-2 character with the least key; the five room-three characters are one tau-orbit, so 5 x 1024 through the deck symmetry); at each member every distinct stratum X_U = K0^nu ∩ {c vanishes off U}, |U| <= 2 -- where three can live there (Corollary 1) -- read at its generic class, three draws, in route F and route R at every member (2048 tasks, 1,272 stratum readings per route), with route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member (1,920 readings)",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point of N_45 and the 1024 members over chi0; the other four room-three characters through the deck symmetry tau (K3), the other order through nu-bar = nu^7",
+    "each stratum's least I(W1) and largest Lambda^2 rank are a generic class's (Lemma G), read with three draws per route at two primes; no stratum reached I(W1) = -3, so the seal's case (d) did not arise",
+    "no class at any member trivial on every cusp over the five room-three characters reads three, in either order, by the seal's section 3.5 (Theorem C's cap for r >= 1, Lemma F' for k >= 3, Corollary 1 and Lemma G for the rest)"
+   ]
+  }
  }
 ]

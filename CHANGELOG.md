@@ -1,5 +1,26 @@
 # Changelog
 
+## B1547 banked: THE ROOM-THREE MEMBERS — no three at N₄₅'s order-8 characters trivial on every cusp over the five room-three characters; the W₁ side stops two short (NEGATIVE, run as sealed)
+
+- **The run.** Sealed at `32cc4ff6`. The identity held, and the run went 23:46:27Z to 04:25:41Z, rc 0. It was stopped twice by
+  exact PID and resumed by task with the sealed seeds: once to add a worker, once after the kernel's memory limit killed three
+  workers (disclosed in the run notes). The record was committed unread at `2ad01176`, and `read_out.py` ran once at 04:29:29Z
+  (`d0c3592f`).
+- **The verdict, by the seal's §9: NEGATIVE.** P1–P6 and P9 hold; P7, P8 and P10 fail: 7 of 10 against 7.02 expected. The two
+  routes agree at every member, every Galois class reads alike, every stratum's draws agree, and all 1,920 load-bearing checks
+  hold.
+- **The counts.** The least generic I(W₁) is −2:
+  - interior (−2, −1), (−2, −3), (0, −3), (0, −5);
+  - on one cusp (−1, −2), (−2, 0);
+  - on two cusps (−1, 0), (−2, 0).
+
+  There is no (−3, −3) and no generation shape.
+- **Where it stops** (post-run tables). The dual connecting rank exceeds the support by at most 2 at every stratum reading, and
+  three needs 3. The Λ² side reaches 5. The third "10" is the missing piece.
+- **Surfaces.** THEOREM_REGISTRY (T-THE-ROOM-THREE-MEMBERS), the kill graph (the-third-ten-is-missing), SEAL_LEDGER, OPEN_LEADS,
+  CAMPAIGN_STATUS, the alias table; atlas, views and the claim pool regenerated; the lock re-derives the read-out from the
+  gzipped record. 0 of 19.
+
 ## Main's audit answered: the floor is one-sided and the ceiling is proved; the fixed-point companions, and F-HE's three open on only one of the four states' companions
 
 - **sm:B1545 updated (the ceiling).** Its own identity also bounds the count from above:

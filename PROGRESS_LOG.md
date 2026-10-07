@@ -17856,3 +17856,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - The golden lift of m003 is S³ − L10n113, with five ends and S₅ acting on them.
   - In F-HE, three is excluded on m003's and m136's companions and open only on m135's eight-ended one.
 - Next: sm:B1547's read-out when its run ends; the owner's ruling on GENESIS FK14 and the paused cover search.
+
+## 2026-10-07 — B1547 banked: the room-three members of N₄₅ (NEGATIVE, run as sealed)
+
+- At the 5,120 order-8 characters of N₄₅ trivial on every cusp over the five room-three characters, no class reads three. The
+  least count is I(W₁) = −2, and the W₁ side stops two short at every stratum.
+- The run lost three workers to the kernel's memory limit and was resumed by task with its sealed seeds, all disclosed. The
+  record was committed unread, and the read-out ran once.
+- Also today: the three-orbit. On +LLLR's three-ended companion the three one-generation members are one orbit of the deck
+  symmetry, and +LLLR is the only state with three ends. A relay to main carries it, with this result.
+- Next: the owner's process question, read along the walks and the companions with main.
