@@ -1,5 +1,22 @@
 # Changelog
 
+## B1549 banked: THE THREE-ENDED COVERS — the three-orbit does not single out +LLLR: −LLLLLR's three-ended cover carries the same three (NEGATIVE for the selection, run as sealed)
+
+- **The run.** Sealed at `033f8a8e`.
+  - The identity held 08:44:54–08:47:40Z.
+  - The run went 08:47:40Z to 09:30:13Z, rc 0. It was stopped once, at 09:14:54Z, by the session's 30-minute limit on
+    background commands. 226 rows were whole. It was resumed by task with the sealed seeds; `run_notes.md` discloses it.
+  - The record was committed unread at `04bc0333`, and `read_out.py` ran once at 09:30:50Z (`2839d7cf`).
+- **The verdict, by the seal's §9: NEGATIVE.** P1–P5 hold on complete records: 276 of 276 tasks, two routes at every member,
+  the orbit law, the theorems, the draws. P6, P7 and P8 fail.
+- **The counts.**
+  - Every sign member on every three-ended cover reads (−1, −1). That is six ℤ/2 × A₄ triplets, on −LLR, +LLLR, −LLLLLR
+    and +LLLLLLR.
+  - Order-4 members read (−1, 0) ×36, (0, −1) ×72 and (0, 0) ×12. None is generation-shaped.
+  - Two covers carry exactly three generation-shaped members, +LLLR's and −LLLLLR's.
+- **Surfaces:** THEOREM_REGISTRY T-THE-THREE-ENDED-COVERS, the kill graph (the-three-is-shared), the SEAL_LEDGER verdict
+  row, OPEN_LEADS, CAMPAIGN_STATUS, the alias table, views, the atlas and the claim pool.
+
 ## B1549 sealed: THE THREE-ENDED COVERS — does the three-orbit select +LLLR among every three-ended cover of the family?
 
 - **Why.** The owner's question of 2026-10-07: three generations "as a process in more steps".

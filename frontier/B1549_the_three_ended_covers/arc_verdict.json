@@ -1,6 +1,6 @@
 {
  "id": "B1549",
- "verdict": "OPEN",
+ "verdict": "NEGATIVE",
  "instrument": false,
  "depends_on": [
   "B1547",
@@ -13,21 +13,21 @@
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
- "creates_law": false,
+ "creates_law": true,
  "identifications": [],
  "scope": {
   "frame": "F-HE",
   "object": "every three-ended cover of the generated family to twelve ends (13 degree-3 fibre-direction covers of the 10 states whose companion's ends are divisible by 3), at every member nu with nu^4 = 1 (characters of order dividing 4 with an interior class of nu (x) the four): 46 free Z/3 orbits, 138 members, each read in two routes (the cover's presentation; Shapiro on the base) at 50 digits with three draws (276 tasks)",
   "reach": "class",
   "hypotheses": [
-   "sealed: no count at a member outside the banked controls has been read; this record is replaced at the bank",
-   "at the hyperbolic point of each state (sm:B1527's 60-digit holonomy), ranks by elimination at 50 digits with every gap recorded",
+   "run as sealed (033f8a8e) and read out once on 2026-10-07 at 09:30:50Z on complete records (276 of 276 tasks, three draws each); the banked identity held before the run; one stop at 09:14:54Z by the session's 30-minute limit on background commands, resumed by task with the sealed seeds (run_notes.md)",
+   "at the hyperbolic point of each state (sm:B1527's 60-digit holonomy), ranks by elimination at 50 digits with every gap clean (P4)",
    "the members' interior is one-dimensional, so the generic class is the class up to scale",
-   "characters of other orders, non-interior classes and the companions other than +LLLR's are not read (the seal's section 10)",
+   "characters of other orders, non-interior classes, the companions other than +LLLR's and states beyond twelve ends are not read",
    "a count at a class is not a selection: which object the genesis takes, a companion or a three-ended cover, and which basis of a triplet is physical, are GENESIS FK14's"
   ]
  },
- "claim_one_line": "THE THREE-ENDED COVERS, SEALED. Every state whose companion's ends are divisible by 3 has a three-ended cover (13 to twelve ends); on them 46 member orbits, each a free Z/3 orbit trivial on no end with a one-dimensional interior, six of sign characters (inducing Z/2 x A4 triplets) and forty of order 4 (Delta(48)); n(1) = 0 on each, so every member carries at most one generation. Sealed question: is +LLLR's cover the only one whose generation-shaped members number exactly three?",
+ "claim_one_line": "THE THREE-ENDED COVERS, NEGATIVE for the selection. On the 13 three-ended covers of the generated family to twelve ends (the 10 states whose companion's ends are divisible by 3), every member at characters of order dividing 4 read in two routes at 50 digits: every sign member reads one generation, (-1, -1) (six Z/2 x A4 orbits on -LLR, +LLLR, -LLLLLR, +LLLLLLR), no order-4 member is generation-shaped (they read (-1, 0), (0, -1) or (0, 0)), and two covers carry exactly three generation-shaped members -- +LLLR's (L8a15) and -LLLLLR's, with the same pattern -- so the three-orbit does not single out +LLLR among the three-ended covers.",
  "prior_work": {
   "repo": {
    "heads": {
@@ -40,7 +40,9 @@
     "seat/outside-bench (at the sweep, 2026-10-07)": "13d2c5b6",
     "seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-07)": "5d58b935",
     "seat/project-thread-hctlox (at the sweep, 2026-10-07)": "8b6df98f",
-    "sep16-branch (at the sweep, 2026-10-07)": "3205984b"
+    "sep16-branch (at the sweep, 2026-10-07)": "3205984b",
+    "main (after the run, 2026-10-07)": "3c1fadd9",
+    "seat/standard-model-derivation-0qt6ao (after the run, 2026-10-07)": "2839d7cf"
    },
    "terms": [
     "three-ended cover",
@@ -50,7 +52,11 @@
     "flavor group",
     "flavour group",
     "Delta(48)",
-    "Z/2 x A4"
+    "Z/2 x A4",
+    "orbit in one module",
+    "sign member",
+    "generation-shaped member",
+    "mirror shape"
    ],
    "hits": [
     {
@@ -68,6 +74,14 @@
     {
      "where": "seat/standard-model-derivation:frontier/B1255_generation_type ('flavour group')",
      "bearing": "the pattern behind twelve lost three-nesses (Q(sqrt(-3)) gives 1 + 2); the three members here are copies permuted transitively by a geometric Z/3, but in the deck-charge basis the triplet is again 1 + 2 over Q"
+    },
+    {
+     "where": "main:frontier/B1495_the_orbit_in_one_module ('orbit in one module', sealed at 3c1fadd9)",
+     "bearing": "main reads L8a15's three members as one rank-15 module W1(nu) + W1(tau nu) + W1(tau^2 nu), whose Lambda^2 count is -3 plus three cross terms; this arc finds -LLLLLR's three-ended cover carries an orbit of the same shape, where the same module can be read"
+    },
+    {
+     "where": "every head: 'mirror shape'",
+     "bearing": "other objects (B775, docs/WHAT_WOULD_COUNT.md); the (0, -1) shape at order-4 members is new on the record"
     }
    ]
   },

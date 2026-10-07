@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**833 recorded closures — of which 666 are CLASSIFIED by mechanism and
+**834 recorded closures — of which 667 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -116,6 +116,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `too-few-trivial-cusps (three needs 3 - b0 cusps where the character is trivial and the class vanishes; on these covers a member over a puncture character is trivial on at most two)` | 1 |  |
 | `the-low-rank-classes-sit-on-the-floor (Lemma M: at an interior class of the low-rank space, I(W) = -1 - mu with mu the rank of a Massey-type boundary term; mu = 0 at every class read, so the cup map's own rank r is matched by the dual rank s and I(W) = -1, two short of three; the square-plus-stratum classes read s = 3 against the 6 three would need)` | 1 |  |
 | `the-third-ten-is-missing (the dual connecting rank s exceeds the support k by at most 2 at every stratum reading, so I(W1) >= -2: the boundary Massey rank at interior classes stops at two of the three the line's room n(L) = 3 allows; the Lambda^2 side has t - k up to 5)` | 1 |  |
+| `the-three-is-shared (the generation-shaped members of every three-ended cover are exactly its sign members, one per member in free Z/3 orbits inducing Z/2 x A4 triplets; one such orbit sits on +LLLR's cover and one on -LLLLLR's, two each on -LLR's and +LLLLLLR's, so 'exactly three' is met twice)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
@@ -647,7 +648,7 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B774` |  | `other` |
 | `B791` |  | `other` |
 
-## How far each closure reaches (43 carry a scope tag)
+## How far each closure reaches (44 carry a scope tag)
 
 A closure is a statement about a frame applied to an object (`GENESIS.md` §6). It blocks only
 where its tag reaches: `single` (one state, with the deformations or levels its hypotheses name),
@@ -659,7 +660,7 @@ without a tag (790) predate the tag; read their object from their own text.
 | `F-AP` |  | 3 | 3 |
 | `F-CI` | 1 |  |  |
 | `F-FC` | 2 | 6 | 8 |
-| `F-HE` | 7 | 13 |  |
+| `F-HE` | 7 | 14 |  |
 
 | arc | frame | reach | object | read with |
 |---|---|---|---|---|
@@ -706,3 +707,4 @@ without a tag (790) predate the tag; read their object from their own text.
 | `B1545` | `F-HE` | class | sm:B1538's four room-3 covers of the silver pair, every member and class |  |
 | `B1546` | `F-HE` | class | N_45 at the trivial character, every class of cup rank one or two (with sm:B1544, every class) |  |
 | `B1547` | `F-HE` | class | N_45 (sm:B1541) at the room-three members: the 1024 characters nu of order 8, trivial on every cusp, with nu^4 = chi0 (… |  |
+| `B1549` | `F-HE` | class | every three-ended cover of the generated family to twelve ends (13 degree-3 fibre-direction covers of the 10 states who… |  |

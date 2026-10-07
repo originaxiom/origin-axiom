@@ -23,10 +23,10 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1295** |
-| words of findings prose | **1,136,660** |
-| test lock files referenced | **795** |
+| words of findings prose | **1,137,735** |
+| test lock files referenced | **796** |
 | arcs carrying an authored verdict | **1295** (100.0 %) |
-| recorded closures | **833** (666 classified, 167 routed-only) |
+| recorded closures | **834** (667 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -37,8 +37,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 860 |
-| NEGATIVE | 335 |
-| OPEN | 89 |
+| NEGATIVE | 336 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 103 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 104 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -72,9 +72,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE FLOOR AT EVERY MEMBER (PROVED, not sealed). Lemma F at members: at a finite-order member nu on any finite cover of a complete finite-volume hyperbolic 3-manifold, every class c of sm:B1515's frame has I(W1) >= k - m_A - b0, m_A the cusps where nu is trivial, k those where c is non-zero, b0 = [nu^4 = 1]; from the identity I = -b0 + h0(dN; W1*) - r1(W1), h0(T; W1*) = 2, 1, 0 on cusps where nu, nu^4, neither is trivial, and r1(W1) <= 3m_A + m_B - k. So three, in either order, needs 3 - b0 cusps where nu is trivial and the class vanishes, and a member non-trivial on every cusp counts at most one generation. Corollary G: on sm:B1538's four room-3 covers of the silver pair (four cusps of two punctures each), a character whose fourth power is a puncture character is trivial on at most two cusps (the punctures' values are constant on cusps and multiply to 1), so no member there carries three, at any class, in either order. The ingredients checked by own code at every member reading on sm:B1538's covers with three or more cusps (route R), and the puncture structure at every character of order dividing 24 on the four covers. 0 of 19.  
 `B1545_the_floor_at_every_member/FINDINGS.md`
 
-**NEGATIVE — `B1547`** (1811 words, 1 locks)  
-THE ROOM-THREE MEMBERS (NEGATIVE, run as sealed; read out once 2026-10-07 04:29:29Z). On N_45, the golden cover, at the characters of order 8 trivial on every cusp whose fourth power is one of the five room-three characters (5 x 1024, read at chi0's 1024 through the deck symmetry), a class reading three would lie in a stratum X_U of the cup map's kernel with support exactly U, |U| <= 2 (Corollary 1: Theorem C (ii) with sm:B1545's Lemma F'), and a generic class decides each stratum (Lemma G). Every distinct stratum read in two routes at every member (2048 tasks, 424 strata, three draws, 1,920 load-bearing checks), every reading alike across routes, Galois classes and draws: the least generic I(W1) is -2 -- interior (-2, -1), (-2, -3), (0, -3), (0, -5); on one cusp (-1, -2), (-2, 0); on two (-1, 0), (-2, 0) -- with no (-3, -3) and no generation shape. The W1 side is the one short: the dual connecting rank s exceeds k by at most 2 at every stratum reading (three needs 3), the boundary Massey rank at interior classes never reaching three, while t - k reaches 5. So no class at any such member carries three, in either order. 7 of 10 predictions, against 7.02 expected. 0 of 19.  
-`B1547_the_room_three_members/FINDINGS.md`
+**NEGATIVE — `B1549`** (1686 words, 1 locks)  
+THE THREE-ENDED COVERS, NEGATIVE for the selection. On the 13 three-ended covers of the generated family to twelve ends (the 10 states whose companion's ends are divisible by 3), every member at characters of order dividing 4 read in two routes at 50 digits: every sign member reads one generation, (-1, -1) (six Z/2 x A4 orbits on -LLR, +LLLR, -LLLLLR, +LLLLLLR), no order-4 member is generation-shaped (they read (-1, 0), (0, -1) or (0, 0)), and two covers carry exactly three generation-shaped members -- +LLLR's (L8a15) and -LLLLLR's, with the same pattern -- so the three-orbit does not single out +LLLR among the three-ended covers.  
+`B1549_the_three_ended_covers/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

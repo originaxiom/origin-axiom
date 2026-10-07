@@ -17883,3 +17883,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   inducing Δ(48).
 - The seal asks whether +LLLR's is the only cover with exactly three generation-shaped members. Counts are read only after
   the seal.
+
+## 2026-10-07 — B1549 banked: the three-ended covers (NEGATIVE for the selection, run as sealed)
+
+- On the thirteen three-ended covers of the family every sign member carries one generation, (−1, −1), in ℤ/2 × A₄
+  triplets on four states. No member of order four carries one.
+- +LLLR's and −LLLLLR's covers each carry exactly three, so the three-orbit does not single out +LLLR. Only +LLLR's
+  companion has three ends.
+- The run was stopped once by the session's background limit and resumed by task; disclosed.
+- Next: the relay to main. Main's B1495 reads the orbit as one module on L8a15, and −LLLLLR's cover is the second place to
+  read it.

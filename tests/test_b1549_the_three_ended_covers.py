@@ -1,4 +1,5 @@
 """B1549 -- THE THREE-ENDED COVERS: the seal's lock. Reads committed files only; writes nothing."""
+import ast
 import hashlib
 import json
 from pathlib import Path
@@ -38,7 +39,43 @@ def test_the_controls():
     assert t["all hold"] is False and all(x["got"] == [-1, -2] for x in t["K3"])
 
 
+def _evaluate():
+    import gzip
+    import importlib.util
+    import sys
+    v = A / "verification"
+    if str(v) not in sys.path:
+        sys.path.insert(0, str(v))
+    spec = importlib.util.spec_from_file_location("b1549_read_out", v / "read_out.py")
+    ro = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(ro)
+    rows = [json.loads(x) for x in gzip.open(v / "run.jsonl.gz", "rt").read().splitlines() if x.strip()]
+    pop = json.loads((v / "population.json").read_text())
+    ctl = json.loads((v / "controls.json").read_text())
+    idn = json.loads((v / "identity.json").read_text())
+    return ro.evaluate(rows, pop, ctl, idn["holds"]), rows
+
+
+def test_the_record_and_the_read_out():
+    import gzip
+    v = A / "verification"
+    sha = {line.split()[1]: line.split()[0] for line in (v / "run_sha256.txt").read_text().splitlines() if line.strip()}
+    assert hashlib.sha256(gzip.open(v / "run.jsonl.gz").read()).hexdigest() == sha["run.jsonl"]
+    (out, _), rows = _evaluate()
+    banked = json.loads((v / "read_out.json").read_text())
+    assert len(rows) == 276 and out["complete"]
+    assert out["verdict"] == banked["verdict"] == "NEGATIVE"
+    assert out["held"] == banked["held"] == ["P1", "P2", "P3", "P4", "P5"]
+    assert out["covers with exactly three generation-shaped members"] == ["+LLLR [1, 0, 3] w0", "-LLLLLR [3, 1, 1] w0"]
+    shapes = {}
+    for k, n in out["generic counts by (route, state, order, m_A, n, count)"].items():
+        route, state, order, mA, nn, count = ast.literal_eval(k)
+        shapes.setdefault((order, tuple(count)), 0)
+        shapes[(order, tuple(count))] += n
+    assert shapes == {(2, (-1, -1)): 36, (4, (-1, 0)): 72, (4, (0, -1)): 144, (4, (0, 0)): 24}
+
+
 def test_the_verdict_record():
     v = json.loads((A / "arc_verdict.json").read_text())
-    assert v["id"] == "B1549" and v["verdict"] in ("OPEN", "PROVED", "NEGATIVE")
+    assert v["id"] == "B1549" and v["verdict"] == "NEGATIVE" and v["creates_law"] is True
     assert v["prior_work"]["standing"] == "NEW-AS-SWEPT"

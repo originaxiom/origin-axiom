@@ -12063,5 +12063,31 @@
     "no class at any member trivial on every cusp over the five room-three characters reads three, in either order, by the seal's section 3.5 (Theorem C's cap for r >= 1, Lemma F' for k >= 3, Corollary 1 and Lemma G for the rest)"
    ]
   }
+ },
+ {
+  "id": "B1549",
+  "claim_killed": "THE THREE-ENDED COVERS (after this seat's three-orbit note and Proposition N): that the three-orbit selects +LLLR -- that among every three-ended cover of the generated family to twelve ends (13 covers of the 10 states with 3 dividing the companion's ends) only +LLLR's (L8a15) carries exactly three generation-shaped members. Sealed at 033f8a8e and run as sealed; the record committed unread; read out once. Both routes agree at all 138 members: every sign member reads (-1, -1), no order-4 member is generation-shaped, and -LLLLLR's cover carries exactly three as well, with +LLLR's pattern (one Z/2 x A4 sign orbit, two order-4 orbits at (-1, 0)).",
+  "kill_form": "the-three-is-shared (the generation-shaped members of every three-ended cover are exactly its sign members, one per member in free Z/3 orbits inducing Z/2 x A4 triplets; one such orbit sits on +LLLR's cover and one on -LLLLLR's, two each on -LLR's and +LLLLLLR's, so 'exactly three' is met twice)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Characters of other orders on the three-ended covers (3, 8, 12, ...); non-interior classes; the orbit summed into one module (main's B1495 on L8a15, and the same module on -LLLLLR's cover); the companions themselves, where only +LLLR's has three ends (Proposition A); which object the genesis takes, and which basis of a triplet is physical (GENESIS FK14); B1391's Schur limit on any hierarchy.",
+  "priority": "P1",
+  "revival_score": 2,
+  "depth_note": "Entered 2026-10-07 at banking time, with content: a NEGATIVE read as sealed, its population complete for its question (every member of every three-ended cover at characters of order dividing 4).",
+  "note": "ENTERED 2026-10-07 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: frontier/B1549_the_three_ended_covers/verification/three_lib.py (both routes), census.py (the population), run.py (the sealed run, record run.jsonl.gz with run_sha256.txt) and read_out.py (the sealed read-out, once).",
+  "routed_from": "sm-branch-2026-10-07-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "every three-ended cover of the generated family to twelve ends (13 degree-3 fibre-direction covers of the 10 states whose companion's ends are divisible by 3), at every member nu with nu^4 = 1: 46 free Z/3 orbits, 138 members, each read in two routes at 50 digits with three draws (276 tasks)",
+   "reach": "class",
+   "hypotheses": [
+    "at the hyperbolic point of each state; ranks by elimination at 50 digits, every gap clean",
+    "the members' interior is one-dimensional, so the generic class is the class up to scale",
+    "a count at a class is not a selection: which object the genesis takes is GENESIS FK14's"
+   ]
+  }
  }
 ]
