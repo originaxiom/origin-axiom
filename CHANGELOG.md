@@ -1,5 +1,30 @@
 # Changelog
 
+## B1550 banked: THE THREE PARITIES — the root's generation sector is wider than its sign members, and every generation on it carries one of the three non-zero parities (NEGATIVE as sealed)
+
+- **The run.** Sealed at `db9d9902`, with the seal-ledger row added at `86ca1244`.
+  - The identity held 11:34:47–11:36:50Z.
+  - The run went 11:36:50Z to 12:26:53Z, rc 0, with one start and no stop.
+  - The record was committed unread at `19cd2833`, and `read_out.py` ran once at 12:27:25Z (`35199ffd`).
+- **The verdict, by the seal's §9: NEGATIVE.** P1–P6 and P9 hold on complete records: 120 of 120 tasks, two routes at every
+  member, the orbit law, the theorems, the draws. P7 and P8 fail. That is 7 of 9, against 7.67 expected.
+- **The counts.**
+  - On the root's tetrahedral cover (its congruence cover of level √−3) the 24 sign members read (−1, −1).
+  - So do its 24 order-4 members trivial on two ends.
+  - Its 6 members with n = 4 read (1, 0).
+  - −LR's 6 sign members read (0, −3). +LLLR and −LLLR have no members.
+- **After the read-out** (`post_run_tables.py`, named as such):
+  - all 48 generation-shaped members carry one non-zero parity of the two records, by edge or by stabilizer, 16 to each;
+  - the golden map permutes the three as a 3-cycle, as GENESIS's SE1 forces.
+- **Surfaces:**
+  - THEOREM_REGISTRY T-THE-THREE-PARITIES;
+  - the kill graph (the-sector-is-wider);
+  - the SEAL_LEDGER verdict row;
+  - OPEN_LEADS, CAMPAIGN_STATUS, the alias table, PROGRESS_LOG;
+  - views, atlas, the recurrence atlas and the claim base regenerated.
+- **The derivation note** (`docs/dossiers/the_three_parities_2026-10-07/`): three from the principle, step by step with
+  statuses, and the spin cover with room four. The lock re-derives the read-out from the gzipped record.
+
 ## Relay to main and the audit lane: B1549, Proposition 1 defended, B1495's second place; the companions note's H₁ check
 
 - **The relay** (`SM_TO_CC_AND_CODEX_2026-10-07_THE_THREE_ENDED_COVERS_AND_PROPOSITION_1.md`):

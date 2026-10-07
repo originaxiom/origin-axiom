@@ -4135,6 +4135,18 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
        reading (three needs 3); the Λ² side reaches 5.
      - Open on N₄₅: members not trivial on every cusp, members with ν⁴ = 1, the room-three circles' points of order three
        or more (held pending the owner's ruling).
+   - **The three parities: sm:B1550 banked (2026-10-07), NEGATIVE as sealed.**
+     - GENESIS's SE1 makes the root's act a 3-cycle on the three non-zero parities of its two records (Δ ≡ Φ₃ mod 2).
+     - The root's tetrahedral cover is the kernel of its unique A₄ quotient and its congruence cover of level √−3.
+     - There, 48 members carry one generation each: the 24 sign members, and 24 order-4 members trivial on two ends. The
+       sealed claim (only the sign members) was too narrow.
+     - After the read-out every one of the 48 carries one non-zero parity, 16 to each, cycled by the golden map.
+     - −LR's members read (0, −3); ±LLLR have none.
+     - Open:
+       - one module of index three, on the spin cover (ker ε, the root's binary tetrahedral cover, room four): sm:B1551;
+       - characters of other orders, longer words and states of even trace;
+       - what the two kinds and two sign types are;
+       - which object the genesis takes (GENESIS FK14).
    - **The three-ended covers: sm:B1549 banked (2026-10-07), NEGATIVE for the selection, run as sealed.**
      - Every state whose companion's ends are divisible by 3 has a three-ended cover: thirteen to twelve ends, on ten
        states.

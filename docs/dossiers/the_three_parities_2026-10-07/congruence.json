@@ -1,0 +1,61 @@
+{
+ "traces (x + y omega; mod sqrt(-3))": {
+  "a": [
+   1,
+   -1,
+   0
+  ],
+  "b": [
+   2,
+   1,
+   0
+  ],
+  "ab": [
+   1,
+   -1,
+   0
+  ],
+  "t": [
+   -2,
+   0,
+   1
+  ],
+  "abAB": [
+   -2,
+   0,
+   1
+  ],
+  "ttt": [
+   -2,
+   0,
+   1
+  ]
+ },
+ "onto PSL(2, F_3)": true,
+ "generators of pi_1 N": 9,
+ "every generator = +-I mod sqrt(-3) by trace": true,
+ "the spin sign on the generators (exponents mod 2)": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  0,
+  1,
+  1
+ ],
+ "eps = [1,1,1,0,1|1] on the generators": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  0,
+  1,
+  1
+ ],
+ "the spin sign is eps": true,
+ "the spin sign is eps0 = [1,1,1,0,1|0]": false
+}

@@ -10338,19 +10338,23 @@
    "motifs": [
     "figure_eight",
     "trace_map",
+    "eisenstein",
     "golden",
     "z3_generation",
     "torsion",
     "firewall"
    ],
    "refs": [
+    "B206",
     "B298",
     "B326",
-    "K1",
-    "K3",
+    "K2",
     "K5",
     "K6",
     "P1",
+    "P2",
+    "P3",
+    "P4",
     "P5",
     "P6",
     "P7",
@@ -10358,8 +10362,8 @@
     "P9"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 7,
-   "status": "banked",
+   "obstacle_conf": 28,
+   "status": "open",
    "domain": "arithmetic"
   },
   "B155": {

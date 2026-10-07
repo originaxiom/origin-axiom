@@ -44,3 +44,57 @@ def test_the_controls():
     assert c["K6"]["holds"] and all(x["sign members"] == 0 for x in c["K6"]["covers"])
     assert all(x["got"] == [-1, -1] for x in c["K2"])
     assert all(r["group order"] == 12 and r["element orders"] == {"1": 1, "2": 3, "3": 8} for r in c["K3"]["rows"])
+
+
+def _evaluate():
+    import gzip
+    import importlib.util
+    import sys
+    v = A / "verification"
+    if str(v) not in sys.path:
+        sys.path.insert(0, str(v))
+    spec = importlib.util.spec_from_file_location("b1550_read_out", v / "read_out.py")
+    ro = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(ro)
+    rows = [json.loads(x) for x in gzip.open(v / "run.jsonl.gz", "rt").read().splitlines() if x.strip()]
+    pop = json.loads((v / "population.json").read_text())
+    ctl = json.loads((v / "controls.json").read_text())
+    idn = json.loads((v / "identity.json").read_text())
+    return ro.evaluate(rows, pop, ctl, idn["holds"]), rows
+
+
+def test_the_record_and_the_read_out():
+    import ast
+    import gzip
+    v = A / "verification"
+    sha = {line.split()[1]: line.split()[0] for line in (v / "run_sha256.txt").read_text().splitlines() if line.strip()}
+    assert hashlib.sha256(gzip.open(v / "run.jsonl.gz").read()).hexdigest() == sha["run.jsonl"]
+    (out, _), rows = _evaluate()
+    banked = json.loads((v / "read_out.json").read_text())
+    assert len(rows) == 120 and out["complete"]
+    assert out["verdict"] == banked["verdict"] == "NEGATIVE"
+    assert out["held"] == banked["held"] == ["P1", "P2", "P3", "P4", "P5", "P6", "P9"]
+    assert out["states with generation-shaped members"] == ["+LR"]
+    shapes = Counter()
+    for k, n in out["generic counts by (route, state, order, orbit size, m_A, n, count)"].items():
+        route, state, order, size, mA, nn, count = ast.literal_eval(k)
+        shapes[(state, order, size, tuple(count))] += n
+    assert shapes == {("+LR", 2, 12, (-1, -1)): 48, ("+LR", 4, 6, (-1, -1)): 48, ("+LR", 4, 3, (1, 0)): 12,
+                      ("-LR", 2, 6, (0, -3)): 12}
+
+
+def test_the_parity_labels_after_the_read_out():
+    t = json.loads((A / "verification" / "post_run_tables.json").read_text())
+    assert t["all generation-shaped members of the root's cover, per label"] == {"[0, 1]": 16, "[1, 0]": 16, "[1, 1]": 16}
+    for order in ("order 2", "order 4"):
+        g = t[order]["the golden map on the labels"]
+        assert g == {"[0, 1]": [[1, 1]], "[1, 0]": [[0, 1]], "[1, 1]": [[1, 0]]}
+        assert t[order]["generation-shaped members"] == 24 and t[order]["counts"] == ["[-1, -1]"]
+
+
+def test_the_verdict_record():
+    v = json.loads((A / "arc_verdict.json").read_text())
+    assert v["id"] == "B1550" and v["verdict"] == "NEGATIVE" and v["creates_law"] is True
+    assert v["prior_work"]["standing"] == "EXTENDS"
+    kg = json.loads((A.parents[1] / "frontier" / "B738_pathfinder_compiler" / "kill_graph.json").read_text())
+    assert any(e["id"] == "B1550" and e["kill_form"].startswith("the-sector-is-wider") for e in kg)

@@ -23,10 +23,10 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1296** |
-| words of findings prose | **1,138,488** |
-| test lock files referenced | **796** |
+| words of findings prose | **1,139,532** |
+| test lock files referenced | **797** |
 | arcs carrying an authored verdict | **1296** (100.0 %) |
-| recorded closures | **834** (667 classified, 167 routed-only) |
+| recorded closures | **835** (668 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -37,8 +37,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 860 |
-| NEGATIVE | 336 |
-| OPEN | 89 |
+| NEGATIVE | 337 |
+| OPEN | 88 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -55,7 +55,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 104 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 105 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -72,9 +72,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE FLOOR AT EVERY MEMBER (PROVED, not sealed). Lemma F at members: at a finite-order member nu on any finite cover of a complete finite-volume hyperbolic 3-manifold, every class c of sm:B1515's frame has I(W1) >= k - m_A - b0, m_A the cusps where nu is trivial, k those where c is non-zero, b0 = [nu^4 = 1]; from the identity I = -b0 + h0(dN; W1*) - r1(W1), h0(T; W1*) = 2, 1, 0 on cusps where nu, nu^4, neither is trivial, and r1(W1) <= 3m_A + m_B - k. So three, in either order, needs 3 - b0 cusps where nu is trivial and the class vanishes, and a member non-trivial on every cusp counts at most one generation. Corollary G: on sm:B1538's four room-3 covers of the silver pair (four cusps of two punctures each), a character whose fourth power is a puncture character is trivial on at most two cusps (the punctures' values are constant on cusps and multiply to 1), so no member there carries three, at any class, in either order. The ingredients checked by own code at every member reading on sm:B1538's covers with three or more cusps (route R), and the puncture structure at every character of order dividing 24 on the four covers. 0 of 19.  
 `B1545_the_floor_at_every_member/FINDINGS.md`
 
-**NEGATIVE — `B1549`** (1686 words, 1 locks)  
-THE THREE-ENDED COVERS, NEGATIVE for the selection. On the 13 three-ended covers of the generated family to twelve ends (the 10 states whose companion's ends are divisible by 3), every member at characters of order dividing 4 read in two routes at 50 digits: every sign member reads one generation, (-1, -1) (six Z/2 x A4 orbits on -LLR, +LLLR, -LLLLLR, +LLLLLLR), no order-4 member is generation-shaped (they read (-1, 0), (0, -1) or (0, 0)), and two covers carry exactly three generation-shaped members -- +LLLR's (L8a15) and -LLLLLR's, with the same pattern -- so the three-orbit does not single out +LLLR among the three-ended covers.  
-`B1549_the_three_ended_covers/FINDINGS.md`
+**NEGATIVE — `B1550`** (1797 words, 1 locks)  
+THE THREE PARITIES, NEGATIVE as sealed. On the tetrahedral covers (the kernel of pi_1 M -> A4 forced by an odd trace; for the root its congruence cover of level sqrt(-3)) of the four odd-trace states of word length at most 4, every member at characters of order dividing 4 read in two routes at 50 digits: the root's 24 sign members (edges) read (-1, -1), and so do its 24 order-4 members trivial on two ends, so the generation sector is not only the sign members (P7, P8 fail); its 6 members with n = 4 read (1, 0); -LR's 6 sign members read (0, -3); +LLLR and -LLLR have no members. After the read-out (named as such): all 48 generation-shaped members carry one non-zero parity of the two records (edge or stabilizer), 16 to each, and the golden map permutes the three as a 3-cycle, as GENESIS's SE1 forces.  
+`B1550_the_three_parities/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

@@ -1,0 +1,69 @@
+{
+ "order 2": {
+  "generation-shaped members": 24,
+  "per label": {
+   "[0, 1]": 8,
+   "[1, 0]": 8,
+   "[1, 1]": 8
+  },
+  "the golden map on the labels": {
+   "[0, 1]": [
+    [
+     1,
+     1
+    ]
+   ],
+   "[1, 0]": [
+    [
+     0,
+     1
+    ]
+   ],
+   "[1, 1]": [
+    [
+     1,
+     0
+    ]
+   ]
+  },
+  "counts": [
+   "[-1, -1]"
+  ]
+ },
+ "order 4": {
+  "generation-shaped members": 24,
+  "per label": {
+   "[0, 1]": 8,
+   "[1, 0]": 8,
+   "[1, 1]": 8
+  },
+  "the golden map on the labels": {
+   "[0, 1]": [
+    [
+     1,
+     1
+    ]
+   ],
+   "[1, 0]": [
+    [
+     0,
+     1
+    ]
+   ],
+   "[1, 1]": [
+    [
+     1,
+     0
+    ]
+   ]
+  },
+  "counts": [
+   "[-1, -1]"
+  ]
+ },
+ "all generation-shaped members of the root's cover, per label": {
+  "[0, 1]": 16,
+  "[1, 0]": 16,
+  "[1, 1]": 16
+ }
+}

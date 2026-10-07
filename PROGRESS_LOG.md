@@ -17900,3 +17900,22 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   once the puncture corrections are counted, checked on all 27 companions.
 - B1549's result went to main, with −LLLLLR's three-ended cover as the second object for main's B1495.
 - Next: the golden lead (A₅ on m003's companion), to be proposed to the owner.
+
+## 2026-10-07 — B1550 sealed: the three parities
+
+- An odd trace makes the act a 3-cycle on the three non-zero parities of the two records (Δ ≡ Φ₃ mod 2). GENESIS's SE1
+  gives the root one.
+- The tetrahedral cover, the kernel of the unique A₄ quotient, is the root's congruence cover of level √−3.
+- On the four odd-trace states of word length at most 4 the census found 60 members, none fixed by the golden map.
+- The seal asked whether the root's generation-shaped members are exactly its 24 parity-labelled sign members.
+
+## 2026-10-07 — B1550 banked: the three parities (NEGATIVE as sealed)
+
+- The root's 24 sign members carry one generation each, but so do 24 of its order-4 members, so the sealed claim was too
+  narrow.
+- After the read-out: all 48 carry one non-zero parity, 16 to each, cycled by the golden map. Every generation on the
+  root's canonical cover comes in a three made by the principle.
+- −LR's members read (0, −3); ±LLLR have none.
+- The line on the root's cover has room four at the spin sign ε. The spin cover (ker ε, the root's binary tetrahedral
+  cover) has room four (SnapPy confirms), where one module could carry more than one generation.
+- Next: the derivation note and the relay to main; then sm:B1551, the spin cover.
