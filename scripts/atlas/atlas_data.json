@@ -10271,6 +10271,27 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1549": {
+   "slug": "the three ended covers",
+   "motifs": [
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "K1",
+    "K3",
+    "K5",
+    "P1",
+    "P5",
+    "P6",
+    "P7",
+    "P8"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B154": {
    "slug": "silver bundle foundation",
    "motifs": [

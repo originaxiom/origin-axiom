@@ -1,0 +1,148 @@
+{
+ "id": "B1549",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1547",
+  "B1545",
+  "B1538",
+  "B1535",
+  "B1527",
+  "B1515"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "every three-ended cover of the generated family to twelve ends (13 degree-3 fibre-direction covers of the 10 states whose companion's ends are divisible by 3), at every member nu with nu^4 = 1 (characters of order dividing 4 with an interior class of nu (x) the four): 46 free Z/3 orbits, 138 members, each read in two routes (the cover's presentation; Shapiro on the base) at 50 digits with three draws (276 tasks)",
+  "reach": "class",
+  "hypotheses": [
+   "sealed: no count at a member outside the banked controls has been read; this record is replaced at the bank",
+   "at the hyperbolic point of each state (sm:B1527's 60-digit holonomy), ranks by elimination at 50 digits with every gap recorded",
+   "the members' interior is one-dimensional, so the generic class is the class up to scale",
+   "characters of other orders, non-interior classes and the companions other than +LLLR's are not read (the seal's section 10)",
+   "a count at a class is not a selection: which object the genesis takes, a companion or a three-ended cover, and which basis of a triplet is physical, are GENESIS FK14's"
+  ]
+ },
+ "claim_one_line": "THE THREE-ENDED COVERS, SEALED. Every state whose companion's ends are divisible by 3 has a three-ended cover (13 to twelve ends); on them 46 member orbits, each a free Z/3 orbit trivial on no end with a one-dimensional interior, six of sign characters (inducing Z/2 x A4 triplets) and forty of order 4 (Delta(48)); n(1) = 0 on each, so every member carries at most one generation. Sealed question: is +LLLR's cover the only one whose generation-shaped members number exactly three?",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-07)": "f1be6b2f",
+    "main (at the sweep, 2026-10-07)": "0b45b1fb",
+    "audit/fork-2026-09-20 (at the sweep, 2026-10-07)": "8b89d8fb",
+    "audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-07)": "c161981d",
+    "the new web seat's branch (at the sweep, 2026-10-07)": "d40c1ab6",
+    "seat/kind-hypatia-uk0vv9 (at the sweep, 2026-10-07)": "6a537f89",
+    "seat/outside-bench (at the sweep, 2026-10-07)": "13d2c5b6",
+    "seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-07)": "5d58b935",
+    "seat/project-thread-hctlox (at the sweep, 2026-10-07)": "8b6df98f",
+    "sep16-branch (at the sweep, 2026-10-07)": "3205984b"
+   },
+   "terms": [
+    "three-ended cover",
+    "three-ended",
+    "deck orbit",
+    "tetrahedral",
+    "flavor group",
+    "flavour group",
+    "Delta(48)",
+    "Z/2 x A4"
+   ],
+   "hits": [
+    {
+     "where": "every head: 'three-ended'",
+     "bearing": "main's B1491 and B1492 on L8a15 (+LLLR's companion, one of the thirteen covers) and this seat's three-orbit note; no head reads a three-ended cover of another state"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1356_the_three_on_y3 ('deck orbit')",
+     "bearing": "a deck-symmetric triple as a free Z/3 orbit with quotient holonomy T = A4 = 2T/+-1, on the G2 tower's Y3 in another frame; here A4 is the image of an induced representation of a punctured-torus bundle's group"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1391_the_generations_flavour ('flavour group')",
+     "bearing": "generations as the doublet of an isometry group D3 are degenerate at the symmetric point (Schur); the same limit holds for an exact A4 triplet"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1255_generation_type ('flavour group')",
+     "bearing": "the pattern behind twelve lost three-nesses (Q(sqrt(-3)) gives 1 + 2); the three members here are copies permuted transitively by a geometric Z/3, but in the deck-charge basis the triplet is again 1 + 2 over Q"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "Altarelli Feruglio Lin tri-bimaximal neutrino mixing from orbifolding A4 T2/Z2",
+    "discrete flavor symmetry A4 from hyperbolic 3-manifold covering deck transformation three generations"
+   ],
+   "sources": [
+    {
+     "cite": "G. Altarelli, F. Feruglio, Y. Lin, Tri-bimaximal neutrino mixing from orbifolding, Nucl. Phys. B 775 (2007) 31-44, hep-ph/0610165",
+     "where": "abstract",
+     "read": "2026-10-07",
+     "says": "A4 arises from a 6d model on the orbifold T2/Z2, the tetrahedral symmetry connecting its four fixed points; the nearest known geometric origin of A4"
+    },
+    {
+     "cite": "A. Adulpravitchai, A. Blum, M. Lindner, Non-Abelian discrete flavor symmetries from T2/Z_N orbifolds, arXiv:0906.0468",
+     "where": "abstract",
+     "read": "2026-10-07",
+     "says": "the discrete flavor groups that orbifolds of T2 can give"
+    },
+    {
+     "cite": "E. Ma, G. Rajasekaran, Phys. Rev. D 64 (2001) 113012; G. Altarelli, F. Feruglio, Nucl. Phys. B 720 (2005) 64",
+     "where": "the A4 assignments",
+     "read": "2026-10-07",
+     "says": "A4 with the lepton doublets in its triplet and the right-handed charged leptons in its singlets 1, 1', 1''"
+    },
+    {
+     "cite": "C. Luhn, S. Nasri, P. Ramond, The flavor group Delta(3n^2), J. Math. Phys. 48 (2007) 073501",
+     "where": "abstract",
+     "read": "2026-10-07",
+     "says": "the Delta(3n^2) groups, Delta(48) among them"
+    },
+    {
+     "cite": "M. Gentry, The HFG Programme: From Derivation to Selection (Substack post)",
+     "where": "the post",
+     "read": "2026-10-07",
+     "says": "observed mixing matrices near points defined by minimum-volume arithmetic hyperbolic 3-manifolds; no construction, flavor group or covers; it bears on nothing here"
+    }
+   ]
+  },
+  "standing": "NEW-AS-SWEPT"
+ },
+ "load_bearing": [
+  {
+   "id": "LB1",
+   "input": "Theorem C: I(W1) >= -b0 - n(nu^4) and I(Lambda^2 W1) in [-n(nu^3 (x) rho), 0]",
+   "source": "sm:B1535 (reviewed by the audit lane's R84)",
+   "status": "VERIFIED",
+   "check": "frontier/B1549_the_three_ended_covers/verification/read_out.py",
+   "how": "P4 at every reading, with n(1) = 0 on every cover checked exactly (K5)"
+  },
+  {
+   "id": "LB2",
+   "input": "Lemma F' and the ceiling: k - m_A - b0 <= I(W1) <= 2 m_A + m_B - b0",
+   "source": "sm:B1545 (with its update of 2026-10-07)",
+   "status": "VERIFIED",
+   "check": "frontier/B1549_the_three_ended_covers/verification/read_out.py",
+   "how": "P4 at every reading"
+  },
+  {
+   "id": "LB3",
+   "input": "the population: the thirteen covers, their member orbits and n = 1 at every member",
+   "source": "the seal's section 5 (census.py)",
+   "status": "VERIFIED",
+   "check": "frontier/B1549_the_three_ended_covers/verification/controls.py",
+   "how": "two routes and two rank methods at 50 digits (K1 and the census); P2 and P4 re-read the structure at every member"
+  },
+  {
+   "id": "LB4",
+   "input": "the code paths reproduce the banked counts",
+   "source": "main's B1492 and B1493; sm:B1545",
+   "status": "VERIFIED",
+   "check": "frontier/B1549_the_three_ended_covers/verification/controls.py",
+   "how": "K2 and K3 in both routes, re-run by identity.py before the run"
+  }
+ ]
+}
