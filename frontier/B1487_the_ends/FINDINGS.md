@@ -34,9 +34,11 @@ cusp is acyclic. The manifold's h¹ = 0 was **read, not assumed**, on all 304 li
 (B1481) lives exactly where cohomology vanishes.
 
 **T3 — no state of the generated family carries three, in either frame.** With the floor I(W₁) ≥ k − m_A − b0 of
-sm:B1545 applied to both orders, |I(W₁)| ≤ m_A + b0 on any finite cover; on a one-cusped state m_A ≤ 1, so
-|I(W₁)| ≤ 1 + b0 ≤ 2, and g generations need at least g − b0 cusps on which the character is trivial and the class
-dies. In F-CI, B1291 (proved) excludes three on any one-cusped manifold: the escape is ≥ 2 cusps. Every generated
+sm:B1545, the generation count −I(W₁) is at most m_A + b0 − k on any finite cover; on a one-cusped state m_A ≤ 1, so at
+most 1 + b0 generations, and g generations need at least g − b0 cusps on which the character is trivial and the class
+dies. *[Corrected 2026-10-07, the SM seat's relay: the sealed sentence claimed the two-sided bound |I(W₁)| ≤ m_A + b0
+"from both orders"; that step does not follow (the opposite order's dual is W₁ again) and the seat's records refute it;
+the ceiling is I(W₁) ≤ 2m_A + m_B − b0 (sm:B1545's update). The addendum of 2026-10-07 has the detail.]* In F-CI, B1291 (proved) excludes three on any one-cusped manifold: the escape is ≥ 2 cusps. Every generated
 state (GENESIS §3) and every level has one cusp. **Three is excluded on X_gen by counting ends, not by search.** □
 (The floor itself is the seat's theorem; it is a hypothesis of this arc's scope, followed on the page.)
 

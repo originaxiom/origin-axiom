@@ -3,9 +3,9 @@ import json, pathlib, subprocess, sys
 HERE = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B1489_the_sm_seats_nine_proposals_ruled"
 
 
-def test_genesis_is_at_v1_16_with_nine_rulings_and_the_amendment_reproduces_it():
+def test_genesis_carries_v1_16s_nine_rulings_and_the_amendment_reproduces_it():
     g = (HERE.parents[1] / "GENESIS.md").read_text()
-    assert "**Version 1.16 " in g and g.count("[v1.16") >= 9 and "the SM seat's P9, recorded under FK14" in g
+    assert "- **v1.16 · 2026-10-07 · main B1489.**" in g and g.count("[v1.16") >= 9 and "the SM seat's P9, recorded under FK14" in g
     r = subprocess.run([sys.executable, str(HERE / "adoption" / "amend.py"), "--check"], capture_output=True, text=True)
     assert r.returncode == 0, r.stdout + r.stderr
 

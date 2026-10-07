@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-10-07T02:42:37Z",
+ "built": "2026-10-07T03:29:16Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,10 +9,10 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "080189f89",
+  "git_head": "4e617453e",
   "git_tree_clean": false,
   "git_head_published": true,
-  "git_commits": 3547,
+  "git_commits": 3548,
   "git_shallow": false
  },
  "claims": [

@@ -10177,7 +10177,7 @@
     "P1"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 7,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "topology"
   },
@@ -10258,18 +10258,39 @@
   "B1490": {
    "slug": "the common cover verified",
    "motifs": [
+    "closing",
     "figure_eight",
     "eisenstein",
     "amphichiral_cp",
     "torsion"
    ],
    "refs": [
-    "B731"
+    "B731",
+    "B734"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 2,
-   "status": "dead",
+   "obstacle_conf": 3,
+   "status": "banked",
    "domain": "topology"
+  },
+  "B1491": {
+   "slug": "the correction and the companions",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "S68"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B149": {
    "slug": "sl4 ideal completeness",
