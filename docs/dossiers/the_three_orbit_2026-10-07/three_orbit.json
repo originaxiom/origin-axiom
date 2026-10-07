@@ -1,0 +1,104 @@
+{
+ "traces of positive words by length": {
+  "2": {
+   "least trace": 3,
+   "words of trace 5": []
+  },
+  "3": {
+   "least trace": 4,
+   "words of trace 5": []
+  },
+  "4": {
+   "least trace": 5,
+   "words of trace 5": [
+    "LLLR"
+   ]
+  },
+  "5": {
+   "least trace": 6,
+   "words of trace 5": []
+  },
+  "6": {
+   "least trace": 7,
+   "words of trace 5": []
+  },
+  "7": {
+   "least trace": 8,
+   "words of trace 5": []
+  },
+  "8": {
+   "least trace": 9,
+   "words of trace 5": []
+  }
+ },
+ "state": {
+  "name": "b++LLLR",
+  "H1": "Z/3 + Z",
+  "cusps": 1
+ },
+ "degree-3 covers with three cusps": 1,
+ "companion": {
+  "H1": "Z + Z + Z",
+  "census names": [
+   "o10_139426",
+   "8^3_3",
+   "L8a15"
+  ],
+  "isometric to L8a15": true
+ },
+ "sign characters": 8,
+ "isometries": 12,
+ "isometries cycling the three ends": 4,
+ "orbits (characters as values on the generators; the ends each is trivial on)": [
+  [
+   {
+    "character": "000",
+    "trivial on ends": [
+     0,
+     1,
+     2
+    ]
+   }
+  ],
+  [
+   {
+    "character": "001",
+    "trivial on ends": []
+   }
+  ],
+  [
+   {
+    "character": "010",
+    "trivial on ends": []
+   },
+   {
+    "character": "101",
+    "trivial on ends": []
+   },
+   {
+    "character": "110",
+    "trivial on ends": []
+   }
+  ],
+  [
+   {
+    "character": "011",
+    "trivial on ends": [
+     1
+    ]
+   },
+   {
+    "character": "100",
+    "trivial on ends": [
+     0
+    ]
+   },
+   {
+    "character": "111",
+    "trivial on ends": [
+     2
+    ]
+   }
+  ]
+ ]
+}
