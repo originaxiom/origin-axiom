@@ -1,5 +1,17 @@
 # Changelog
 
+## S69 THE SM SEAT'S NINE PROPOSALS RULED (B1489; GENESIS v1.16; Review 60's R60-6): three adopted with main's verification, four at the seat's grade, one in main's words with its limit named, one recorded under FK14 and not adopted as a programme — the proposals had waited three days while the page moved five versions.
+
+**The occasion.** Found at S65 while rowing the SM seat's lane: its nine GENESIS proposals P1–P9 (sm:B1537, 2026-10-04, written against main's v1.10 at main's own request) had never been ruled. Review 60 named it R60-6. The page had moved to v1.15 meanwhile; each proposal is ruled against the current text.
+
+**The rulings** (the table on B1489's page; GENESIS v1.16 by the arc's `adoption/amend.py`, nine marks). P1 (six gaps) was paid at v1.15 and credited there. P3 (sm:B1527 at FK9; Part H) adopted — Part H verified on main by an independent route (B1465). P7 (the one generation on the silver squares, the covers, the cap) adopted with main's grade: sm:B1530 verified by a second route (B1485), its two orders fused into a module that counts zero (B1486), the floor read as a mechanism (B1487: at most 1 + b0 on any one-cusped state; the one generation is a cusp on which the class dies). P2 (GAP6's scope: a flat count on an open end tells a module from its dual) adopted in main's words with its limit — the class index is mirror-even for every module, so such a count never sees the hand. P4, P5, P6, P8 adopted at the seat's grade, read on main at headline level; P6 as a statement about the named list that FK13 rules is not the object, with N₄₅'s later negatives added, and under FK14 each entry a search for ends. **P9 (where the supplies can grow: puncture characters, non-abelian covers, non-unitary characters) recorded and not adopted as a programme:** under FK14 each item is a search for ends, and a count found there is a selection until the fork is ruled and the selection rule and trial budget are named before the search.
+
+**Bookkeeping** (`proposals_check.py`): the seat's proposed file carries nine marks (P3 twice); every anchor is unique in the received v1.15; the 16 seat arcs the rulings cite all have harvest rows. A relay to the seat with the table. R60-1 also paid (the three seat lanes mirrored at S68).
+
+**What it means.** Nothing promoted, no status changed; the foundations page now carries the SM seat's lane at its true grade, with the ends reading beside every count of it. The owner's pending choice on the seat's search is untouched. **The imported expectation, stated separately:** none. **0 of 19.**
+
+Arc **B1489** (PROVED; a ruling arc; no law). Gates 44 of 44; full suite 7121 passed, 0 failed, 68 skipped.
+
 ## S68 THE ENDS (B1487; GENESIS v1.15; FK14; the rule of proper computing for counts): every count on the record is a count of ends — the class index is mirror-even for every module, the odd modules of the lift are acyclic on all 304 lifts of the 68 amphichiral states, and with the SM seat's floor no state of the generated family carries three generations in either frame, by counting ends and not by search.
 
 **The occasion.** The owner's question of 2026-10-07 — what the SM seat is not seeing in deriving generations, and what to do when the programme depends on proper computing — answered in chat and on the audit page at S67; this arc seals the computable part and lands what it decides on the foundations page. Sealed `aab434644` (sha256 27714d7d); the seal's push was blocked by the review that fired at forty merges (Review 60, B1488), written first.

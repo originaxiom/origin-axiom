@@ -1,0 +1,27 @@
+{
+ "id": "B1489",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1487",
+  "B1485",
+  "B1486",
+  "B1465",
+  "B1478"
+ ],
+ "rests_on_seat": [
+  "sm:B1530"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a ruling arc on the foundations page)",
+  "object": "GENESIS v1.15 -> v1.16 and the SM seat's proposals P1-P9 (sm:B1537)",
+  "reach": "general",
+  "hypotheses": "the seat's results are adopted at the grade stated per proposal; rulings at headline level are not re-runs"
+ },
+ "claim_one_line": "THE SM SEAT'S NINE PROPOSALS RULED (Review 60's R60-6; GENESIS v1.15 -> v1.16): P1 paid at v1.15; P3 adopted (sm:B1527 at FK9, Part H verified on main by B1465); P7 adopted with main's grade (the one generation on the silver squares verified by a second route, B1485; the orders fused, B1486; at most 1 + b0 on any one-cusped state, B1487); P2 adopted in main's words with its limit (a flat count tells a module from its dual, never sees the hand -- the class index is mirror-even for every module); P4, P5, P6, P8 adopted at the seat's grade, read on main at headline level, P6 as a statement about the named list that FK13 rules is not the object and under FK14; P9 recorded under FK14 and not adopted as a programme (each item a search for ends; a count found there a selection until the rule is named first). Bookkeeping checked: nine marks, unique anchors, 16 seat arcs cited and rowed. Nothing computed, no status changed, no count promoted. 0 of 19."
+}

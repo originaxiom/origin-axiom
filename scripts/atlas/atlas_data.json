@@ -10193,6 +10193,32 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1489": {
+   "slug": "the sm seats nine proposals ruled",
+   "motifs": [
+    "monoid",
+    "figure_eight",
+    "metallic",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "S65"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B148": {
    "slug": "kappa fricke metallic",
    "motifs": [

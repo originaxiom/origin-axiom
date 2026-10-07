@@ -22,9 +22,12 @@ def test_the_odd_modules_are_acyclic_and_the_four_has_no_interior_class_on_all_3
     assert not any(l["Sym3"]["a1"] > 0 for r in d for l in r["lifts"])
 
 
-def test_genesis_is_at_v1_15_and_the_amendment_reproduces_it():
+def test_genesis_carries_v1_15_and_the_amendment_reproduces_it():
     root = HERE.parents[1]
     g = (root / "GENESIS.md").read_text()
-    assert "**Version 1.15 " in g and "| FK14" in g and "**Six gaps**" in g and "mirror-even for" in g
+    assert "- **v1.15 · 2026-10-07 · main B1487.**" in g and "| FK14" in g and "**Six gaps**" in g and "mirror-even for" in g
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("amend_b1487", HERE / "adoption" / "amend.py"); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+    out = m.build(); assert "**Version 1.15 " in out and "| FK14" in out       # the amendment still builds from its received v1.14
     r = subprocess.run([sys.executable, str(HERE / "adoption" / "amend.py"), "--check"], capture_output=True, text=True)
     assert r.returncode == 0, r.stdout + r.stderr

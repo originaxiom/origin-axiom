@@ -59,7 +59,7 @@ spin structure (the curve E_s).
 4. **Three generations** stay on the SM seat's lane (its counts on covers of m003, a − state, read no three at the
    trivial character so far; one generation in one W on the two silver squares, sm:B1530). **Main owed that seat four
    things:** the second route on the silver squares (sm:B1530) — **done, B1485**; a ruling on its nine GENESIS proposals
-   (sm:B1537); one reading on N₄₅ recomputed from scratch; a literature check of its Lemma F. Its second ask, whether the
+   (sm:B1537) — **done, B1489 (GENESIS v1.16)**; one reading on N₄₅ recomputed from scratch; a literature check of its Lemma F. Its second ask, whether the
    two orders at m135's member fuse to a module that counts zero — **done, B1486: they do, at every member of both silver squares;
    the count is the order there as at m004's counted point.**
 5. **Design reads before any seal:** B929's normalisation (is one of the sixteen Hermitian structures canonical on the
