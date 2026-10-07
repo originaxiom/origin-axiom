@@ -1,0 +1,152 @@
+{
+ "started": "2026-10-07T11:34:47Z",
+ "ended": "2026-10-07T11:36:50Z",
+ "hash mismatches": [],
+ "K2": [
+  [
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "P",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "S",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    2
+   ],
+   "P",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    2
+   ],
+   "S",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "P",
+   [
+    -1,
+    -1
+   ],
+   true
+  ],
+  [
+   [
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "S",
+   [
+    -1,
+    -1
+   ],
+   true
+  ]
+ ],
+ "K3": true,
+ "K4": {
+  "cases": {
+   "as expected: PROVED, P6-P9 hold": true,
+   "the partner generation-shaped: P9 false, still PROVED": true,
+   "a root order-4 member generation-shaped: P7, P8 false, NEGATIVE": true,
+   "the root's sign members not generation-shaped: P6, P8 false, NEGATIVE": true,
+   "draws disagree: P5 false, OPEN": true,
+   "a missing task: incomplete, OPEN": true,
+   "a duplicated task: incomplete, OPEN": true,
+   "routes disagree on structure: P2 false, OPEN": true,
+   "below the cap: P4 false, OPEN": true,
+   "a control failed: P1 false, OPEN": true,
+   "a murky gap: P4 false, OPEN": true
+  },
+  "holds": true
+ },
+ "K5": {
+  "covers": [
+   {
+    "state": "+LR",
+    "h1": 4,
+    "r1": 4,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LR",
+    "h1": 4,
+    "r1": 4,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "+LLLR",
+    "h1": 4,
+    "r1": 4,
+    "n(1)": 0,
+    "primes agree": true
+   },
+   {
+    "state": "-LLLR",
+    "h1": 4,
+    "r1": 4,
+    "n(1)": 0,
+    "primes agree": true
+   }
+  ],
+  "holds": true
+ },
+ "holds": true
+}
