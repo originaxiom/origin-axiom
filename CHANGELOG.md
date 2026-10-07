@@ -1,5 +1,13 @@
 # Changelog
 
+## S78 THE PENCIL ON THE FIRST ROOM (B1498): at the eight order-four characters of o10_150691 where the four has two interior classes, every rank-five extension — the whole pencil — reads (0, −1); the two classes make no generation in any rank-five object, and only the rank-six extension by both at once reads −1, the second trivial line's.
+
+**The occasion.** B1497 found, on the family's first room, two interior classes of the four at one character — the seat's cap allowing two. The research (B1496) says the physics' object is ONE rank-five bundle; the rank-five extensions by one class form a pencil, and the seat's Lemma G says its generic member reads the least. Sealed `d5b6ca8eb` before any combination was read.
+
+**The result (P1, P3, P4 hold; P2 fails).** At all eight characters the pencil W₁(c₁ + λc₂) is constant: (0, −1) at the basis and at six values of λ — no generation in any rank-five object, though the room is 1, the second supply 2, the cap 2 and the floor 1 there. The rank-six extension by both classes reads −1: the second trivial line's generation (B1493's "the generation is the trivial line"), not the second class's. A scoped NEGATIVE with a kill-graph entry.
+
+**What it means.** On the first object of the family with room, every supply of the seat's count is present at one character and no rank-five object reads even one; a split pencil does not use the room. The hatch is the non-split deformation — a fused module in B1486's sense — and the order-eight characters, where the line is non-trivial. The chain toward a derivation stands as B1497 left it; this closes one branch of its last link. **The imported expectation, stated separately:** none. **0 of 19.** Arc **B1498** (NEGATIVE, scoped; no law). Gates 44 of 44; full suite 7157 passed, 0 failed, 68 skipped.
+
 ## S77 ROOM NEEDS GENUS (B1497; GENESIS v1.23; T-ROOM-NEEDS-GENUS): the room of the line is the lifted act's invariant closed homology of the fibre — a theorem, zero at genus one — so it needs a non-abelian cover of the register; the root has no room on any cover to degree eight, the sign-twin one at degree five, o10_150691, where the four has its first interior class at a trivial character, the second supply first reaches two, the cap is two, and every count is still one.
 
 **The occasion.** The research (B1496) said three is an index of closed-cycle cohomology on a cover; B1493–B1494 found the room absent on the states and their companions. Where in the grammar does the room come from? Sealed `b7706bb61` with the theorem proved on the seal and six cells; the censuses to degree seven (m003) and six (m004) seen before it and disclosed.

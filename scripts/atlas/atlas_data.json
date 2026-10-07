@@ -10399,6 +10399,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1498": {
+   "slug": "the pencil on the first room",
+   "motifs": [
+    "monoid",
+    "z3_generation"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B149": {
    "slug": "sl4 ideal completeness",
    "motifs": [

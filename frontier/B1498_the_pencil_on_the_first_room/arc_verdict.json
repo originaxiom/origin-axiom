@@ -1,0 +1,24 @@
+{
+ "id": "B1498",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1497",
+  "B1493",
+  "B1486",
+  "B1495"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-HE (the SM seat's dictionary; W1 = [[V, z], [0, 1]] at order-four characters, the line trivial)",
+  "object": "o10_150691 (m003's degree-five cover, the family's first room) at its eight order-four characters with two interior classes of the four",
+  "reach": "single",
+  "hypotheses": "numerical ranks (40 digits, 1e-24); the pencil read at six values of lambda (semicontinuity); the cover chosen (FK14)"
+ },
+ "claim_one_line": "THE PENCIL ON THE FIRST ROOM (sealed d5b6ca8eb / bcccca27): at the eight order-four characters of o10_150691 where the four has two interior classes c1, c2 (B1497), the rank-five extensions W1(a c1 + b c2) form a pencil; read at the basis and at six values of lambda, every member reads (I(W1), I(Lambda^2 W1)) = (0, -1) at all eight characters -- no generation in any rank-five object, though the room is 1, the second supply 2, the cap 2 and the floor 1 there; the rank-six extension by both classes reads -1 (the second trivial line's generation, not the second class's). NEGATIVE, scoped: the two classes at one character are not two generations, nor one. 0 of 19."
+}

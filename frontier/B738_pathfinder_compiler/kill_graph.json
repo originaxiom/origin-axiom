@@ -11188,5 +11188,28 @@
    "reach": "single",
    "hypotheses": "numerical ranks (40 digits, 1e-24); the members' classes as representatives; the pieces of one cross term read, the other two by the deck symmetry; the direct-sum orbit module only -- a glued module is not ruled"
   }
+ },
+ {
+  "id": "B1498",
+  "claim_killed": "That the two interior classes of the four at one order-four character of o10_150691 -- the family's first room, where the seat's cap allows two -- give a generation in some rank-five extension: every member of the pencil reads zero.",
+  "kill_form": "Sealed reading (d5b6ca8eb) of the pencil W1(c1 + lambda c2) at six lambda and the basis, at all eight characters, with B1492's stacked instrument and the relator check; the rank-six extension by both classes read for the record (-1).",
+  "hatch": "the fused/glued module in B1486's sense (an irreducible deformation of the extension, not a pencil of split ones); characters of order eight on o10_150691 (b0 = 0; the line nu^-4 non-trivial); other covers of m003 with room at higher degree; the second trivial line's -1 read as the b0 generation",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-07), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: room (1), second supply (2), cap (2) and floor (1) all present at one character and no rank-five extension reads one -- the count needs the extension to use the room, which a split pencil does not do; the next object is a non-split deformation.",
+  "faces_consulted": [
+   "B1497",
+   "B1493",
+   "B1486",
+   "B1495",
+   "sm:B1547"
+  ],
+  "fact_computed": "I(W1) = 0 and I(Lambda^2 W1) = -1 at every point of the pencil at all eight characters; rank-six I = -1",
+  "scope": {
+   "frame": "F-HE (the SM seat's dictionary; W1 = [[V, z], [0, 1]] at order-four characters, the line trivial)",
+   "object": "o10_150691 (m003's degree-five cover, the family's first room) at its eight order-four characters with two interior classes of the four",
+   "reach": "single",
+   "hypotheses": "numerical ranks (40 digits, 1e-24); the pencil read at six values of lambda (semicontinuity); the cover chosen (FK14)"
+  }
  }
 ]
