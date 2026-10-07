@@ -10834,10 +10834,24 @@
     "B354",
     "B448",
     "B794",
-    "B997"
+    "B997",
+    "S82"
    ],
    "obstacle": "measure",
    "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1602": {
+   "slug": "the forced cover on every thread",
+   "motifs": [
+    "figure_eight",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
    "status": "dead",
    "domain": "arithmetic"
   },

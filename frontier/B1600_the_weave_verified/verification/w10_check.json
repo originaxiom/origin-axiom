@@ -1,0 +1,412 @@
+{
+ "L,R": {
+  "order": 96,
+  "sum |chi|^2 / |G|": 2.0,
+  "character_of_V_real": true,
+  "commutant_dim": 2
+ },
+ "L,R,sign": {
+  "order": 96,
+  "sum |chi|^2 / |G|": 2.0,
+  "character_of_V_real": true,
+  "commutant_dim": 2
+ },
+ "L,R,swap": {
+  "order": 192,
+  "sum |chi|^2 / |G|": 1.0,
+  "character_of_V_real": true,
+  "commutant_dim": 1
+ },
+ "L,R isotypic pieces": {
+  "(np.float64(-0.40814), np.float64(0.00933))": 3,
+  "(np.float64(0.40814), np.float64(-0.00933))": 3
+ },
+ "L,R pieces": [
+  {
+   "dim": 3,
+   "sum |chi|^2 / |G|": 1.0,
+   "complex_character": true,
+   "character_values": [
+    [
+     -3.0,
+     0.0
+    ],
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     -0.707,
+     -0.707
+    ],
+    [
+     -0.707,
+     0.707
+    ],
+    [
+     -0.0,
+     -3.0
+    ],
+    [
+     0.0,
+     -1.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     1.0
+    ],
+    [
+     0.0,
+     3.0
+    ],
+    [
+     0.707,
+     -0.707
+    ],
+    [
+     0.707,
+     0.707
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     3.0,
+     0.0
+    ]
+   ]
+  },
+  {
+   "dim": 3,
+   "sum |chi|^2 / |G|": 1.0,
+   "complex_character": true,
+   "character_values": [
+    [
+     -3.0,
+     0.0
+    ],
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     -0.707,
+     -0.707
+    ],
+    [
+     -0.707,
+     0.707
+    ],
+    [
+     0.0,
+     -3.0
+    ],
+    [
+     0.0,
+     -1.0
+    ],
+    [
+     0.0,
+     -0.0
+    ],
+    [
+     -0.0,
+     1.0
+    ],
+    [
+     -0.0,
+     3.0
+    ],
+    [
+     0.707,
+     -0.707
+    ],
+    [
+     0.707,
+     0.707
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     3.0,
+     0.0
+    ]
+   ]
+  }
+ ],
+ "odd_words_tick3": [
+  {
+   "word": "+LR",
+   "trace": 3,
+   "tick3": [
+    {
+     "kappa": [
+      1.0,
+      -0.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      1.0,
+      0.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 0,
+   "T_alone_somewhere": false
+  },
+  {
+   "word": "-LR",
+   "trace": -3,
+   "tick3": [
+    {
+     "kappa": [
+      0.0,
+      1.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      0.0,
+      -1.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 2,
+   "T_alone_somewhere": true
+  },
+  {
+   "word": "+LLLR",
+   "trace": 5,
+   "tick3": [
+    {
+     "kappa": [
+      0.0,
+      1.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      0.0,
+      -1.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 2,
+   "T_alone_somewhere": true
+  },
+  {
+   "word": "-LLLR",
+   "trace": -5,
+   "tick3": [
+    {
+     "kappa": [
+      -1.0,
+      0.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      -1.0,
+      -0.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 0,
+   "T_alone_somewhere": false
+  },
+  {
+   "word": "+LLLLLR",
+   "trace": 7,
+   "tick3": [
+    {
+     "kappa": [
+      -1.0,
+      0.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      -1.0,
+      -0.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 0,
+   "T_alone_somewhere": false
+  },
+  {
+   "word": "-LLLLLR",
+   "trace": -7,
+   "tick3": [
+    {
+     "kappa": [
+      -0.0,
+      -1.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      -0.0,
+      1.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 2,
+   "T_alone_somewhere": true
+  },
+  {
+   "word": "+LLLRLR",
+   "trace": 13,
+   "tick3": [
+    {
+     "kappa": [
+      0.0,
+      1.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      0.0,
+      -1.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 2,
+   "T_alone_somewhere": true
+  },
+  {
+   "word": "-LLLRLR",
+   "trace": -13,
+   "tick3": [
+    {
+     "kappa": [
+      -1.0,
+      0.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      -1.0,
+      -0.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 0,
+   "T_alone_somewhere": false
+  },
+  {
+   "word": "+LLLRRR",
+   "trace": 11,
+   "tick3": [
+    {
+     "kappa": [
+      1.0,
+      -0.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      1.0,
+      0.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 0,
+   "T_alone_somewhere": false
+  },
+  {
+   "word": "-LLLRRR",
+   "trace": -11,
+   "tick3": [
+    {
+     "kappa": [
+      0.0,
+      1.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      0.0,
+      -1.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 2,
+   "T_alone_somewhere": true
+  },
+  {
+   "word": "+LLRLRR",
+   "trace": 15,
+   "tick3": [
+    {
+     "kappa": [
+      1.0,
+      -0.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      1.0,
+      0.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 0,
+   "T_alone_somewhere": false
+  },
+  {
+   "word": "-LLRLRR",
+   "trace": -15,
+   "tick3": [
+    {
+     "kappa": [
+      0.0,
+      1.0
+     ],
+     "scalar": true
+    },
+    {
+     "kappa": [
+      0.0,
+      -1.0
+     ],
+     "scalar": true
+    }
+   ],
+   "hand": 2,
+   "T_alone_somewhere": true
+  }
+ ],
+ "hand_rule_holds": true,
+ "tick3_scalar_on_both_everywhere": true
+}

@@ -1,0 +1,50 @@
+{
+ "thread": "b+-LLRLRLRR",
+ "cover_homology": "Z/19 + Z/779 + Z + Z + Z + Z",
+ "cusps": 4,
+ "members": [
+  {
+   "nu": [
+    -1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "h1": 4,
+   "r1": 3,
+   "n": 1,
+   "t0": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "interior": 1,
+   "other": 4,
+   "readings": [
+    {
+     "dead_on_cusps": [
+      false,
+      false,
+      false,
+      false
+     ],
+     "I_W1": 3,
+     "I_L2W1": 1,
+     "W1_counts": {
+      "a1": 7,
+      "r1": 3,
+      "n": 4
+     },
+     "W1dual_counts": {
+      "a1": 8,
+      "r1": 7,
+      "n": 1
+     }
+    }
+   ]
+  }
+ ]
+}

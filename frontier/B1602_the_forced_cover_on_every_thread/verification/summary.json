@@ -1,0 +1,225 @@
+{
+ "threads": 74,
+ "read": 74,
+ "missing": [],
+ "odd": 32,
+ "even": 42,
+ "T1_len6_odd_no_member": {
+  "threads": [
+   "b++LLLLLR",
+   "b+-LLLLLR",
+   "b++LLLRLR",
+   "b+-LLLRLR",
+   "b++LLLRRR",
+   "b+-LLLRRR",
+   "b++LLRLRR",
+   "b+-LLRLRR"
+  ],
+  "holds": true
+ },
+ "T2_len8_odd_no_member": {
+  "threads": 20,
+  "carriers": [
+   "b+-LLRLRLRR"
+  ],
+  "holds": false
+ },
+ "T3_every_even_carries": {
+  "even": 42,
+  "carriers": 17,
+  "non_carriers": [
+   "b++LLRLR",
+   "b+-LLRLR",
+   "b++LLLLRLR",
+   "b+-LLLLRLR",
+   "b++LLLLRRR",
+   "b+-LLLLRRR",
+   "b+-LLLRLLR",
+   "b++LLLRLRR",
+   "b+-LLLRLRR",
+   "b++LLLRRLR",
+   "b+-LLLRRLR",
+   "b++LLRLLRR",
+   "b+-LLRLLRR",
+   "b++LLRLRLR",
+   "b+-LLRLRLR",
+   "b++LLLLRLLR",
+   "b+-LLLLRLLR",
+   "b++LLLLRRRR",
+   "b+-LLLLRRRR",
+   "b++LLLRLRLR",
+   "b+-LLLRLRLR",
+   "b++LLLRRLRR",
+   "b+-LLLRRLRR",
+   "b++LLRLRRLR",
+   "b+-LLRLRRLR"
+  ],
+  "holds": false
+ },
+ "T4_trivial_character": {
+  "odd_with_trivial_class": [],
+  "first_half_holds": true,
+  "even_with_trivial_class": [
+   "b++LLR",
+   "b+-LLR",
+   "b++LLRR",
+   "b+-LLRR",
+   "b++LLLLR",
+   "b+-LLLLR",
+   "b++LLLLLLR",
+   "b+-LLLLLLR"
+  ],
+  "fraction_even": 0.19,
+  "second_half_holds": false
+ },
+ "odd_carriers": [
+  "b++LR",
+  "b+-LR",
+  "b+-LLRLRLRR"
+ ],
+ "even_by_class": {
+  "D4": {
+   "carriers": [
+    "b++LLR",
+    "b+-LLR",
+    "b++LLLLR",
+    "b+-LLLLR",
+    "b++LLLRR",
+    "b+-LLLRR",
+    "b++LLLLLLR",
+    "b+-LLLLLLR",
+    "b++LLLLLRR",
+    "b+-LLLLLRR",
+    "b++LLLRLLR"
+   ],
+   "non_carriers": [
+    "b++LLRLR",
+    "b+-LLRLR",
+    "b++LLLLRLR",
+    "b+-LLLLRLR",
+    "b++LLLLRRR",
+    "b+-LLLLRRR",
+    "b+-LLLRLLR",
+    "b++LLLRLRR",
+    "b+-LLLRLRR",
+    "b++LLLRRLR",
+    "b+-LLLRRLR",
+    "b++LLRLLRR",
+    "b+-LLRLLRR",
+    "b++LLRLRLR",
+    "b+-LLRLRLR"
+   ]
+  },
+  "V4": {
+   "carriers": [
+    "b++LLRR",
+    "b+-LLRR",
+    "b++LLLLRR",
+    "b+-LLLLRR",
+    "b++LLLLLLRR",
+    "b+-LLLLLLRR"
+   ],
+   "non_carriers": [
+    "b++LLLLRLLR",
+    "b+-LLLLRLLR",
+    "b++LLLLRRRR",
+    "b+-LLLLRRRR",
+    "b++LLLRLRLR",
+    "b+-LLLRLRLR",
+    "b++LLLRRLRR",
+    "b+-LLLRRLRR",
+    "b++LLRLRRLR",
+    "b+-LLRLRRLR"
+   ]
+  }
+ },
+ "member_structures_odd": [
+  [
+   1,
+   0,
+   1
+  ],
+  [
+   4,
+   0,
+   4
+  ],
+  [
+   4,
+   3,
+   1
+  ]
+ ],
+ "member_structures_even": [
+  [
+   1,
+   0,
+   1
+  ],
+  [
+   2,
+   0,
+   2
+  ],
+  [
+   2,
+   1,
+   1
+  ],
+  [
+   3,
+   1,
+   2
+  ],
+  [
+   3,
+   2,
+   1
+  ],
+  [
+   4,
+   0,
+   4
+  ],
+  [
+   4,
+   1,
+   3
+  ],
+  [
+   4,
+   2,
+   2
+  ],
+  [
+   6,
+   4,
+   2
+  ]
+ ],
+ "kernels_per_class": {
+  "A4": [
+   1
+  ],
+  "D4": [
+   2
+  ],
+  "V4": [
+   4
+  ]
+ },
+ "cusps_per_class": {
+  "A4": [
+   4
+  ],
+  "D4": [
+   2,
+   4
+  ],
+  "V4": [
+   2,
+   4
+  ]
+ },
+ "seconds_total": 10141.9
+}

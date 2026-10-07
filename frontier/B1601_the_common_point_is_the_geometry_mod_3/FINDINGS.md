@@ -106,3 +106,5 @@ trace, so ±LR is not singled out by it. What singles ±LR out among odd-trace t
 `linear_part_8.json`, `w5_four_at_the_common_point.py`, `w5.json`, the run logs, `stalled_runs/`;
 `../B1600_the_weave_verified/verification/forced_cover.py` and its four outputs; `adoption/amend.py` (GENESIS v1.25).
 Test: `tests/test_b1601_the_common_point_is_the_geometry_mod_3.py`.
+
+**Addendum (S82, 2026-10-07).** The items named W5 (§3) and W7 (§1) here collide with the SM seat's W5–W10, which were on its lane before this arc landed; on `docs/THE_WEAVE.md` and GENESIS from v1.26 they are **WM1** and **WM2**. The content is unchanged.

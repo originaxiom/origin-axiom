@@ -74,11 +74,11 @@ From `docs/dossiers/the_weave_2026-10-07/`:
 
 ## Main's additions (B1601, 2026-10-07; `frontier/B1601_the_common_point_is_the_geometry_mod_3/`)
 
-- **W5, the four at the common point.** The frames' own module, the four, is diagonal there in the basis (1, i, j, k):
+- **WM1 (named W5 at S81; renamed, the seat's W5–W10 having preceded it on its lane), the four at the common point.** The frames' own module, the four, is diagonal there in the basis (1, i, j, k):
   Ad(i) = (1, +, −, −), Ad(j) = (1, −, +, −). The four at the common point is the trivial line plus the three parity
   lines — "the generation is the trivial line" (B1493) and the triplet (W4) are the two parts of one module (the seat's
   "matches the quaternion axes", on the four). Exact.
-- **W7, the common point is the geometry mod 3** (sealed; a weave result; T-COMMON-POINT-MOD-3). On every odd-trace
+- **WM2 (named W7 at S81; renamed likewise), the common point is the geometry mod 3** (sealed; a weave result; T-COMMON-POINT-MOD-3). On every odd-trace
   thread to length eight (16 of 16) the fibre's traces (tr a, tr b, tr ab) at the geometric point generate exactly one
   prime of the thread's trace field, of norm three: the holonomy reduces there to the common point, and W3's forced A₄
   cover is the thread's own principal congruence cover at that prime (SL(2, 𝔽₃) = 2T) — on m004 at (√−3). On every

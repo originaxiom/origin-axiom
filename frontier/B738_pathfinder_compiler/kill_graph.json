@@ -11234,5 +11234,30 @@
    "reach": "single",
    "hypotheses": "B1486's fusion (second-order obstruction, Gauss-Newton) with the convergence criterion loosened to the 40-digit arithmetic floor (1e-30 absolute, ~1e-33 relative) after the sealed run, disclosed; two seeds; the count by B1492's stacked two-cusp index; the cover chosen (FK14)"
   }
+ },
+ {
+  "id": "B1602",
+  "claim_killed": "That content on the forced cover (members of the four at sign characters) is exclusive to +-LR among odd-trace threads, and generic on even-trace threads: at length eight -LLRLRLRR carries one member (reading (+3, +1), the floor's value with four live ends), and 25 of 42 even-trace threads carry nothing. Killed before the seal and recorded: that content follows arithmeticity (+LLR, not arithmetic, carries).",
+  "kill_form": "Sealed (fee144f6b) census of all 74 signed threads to length eight: every forced kernel (A4 / D4 / V4) built from SnapPy's presentation, the four read at every sign character with B1492's stacked index; the carrier's member read by the extension and index after the census (disclosed).",
+  "hatch": "orders three and four on the forced covers (not read); longer threads (length ten); what +LR, -LR and -LLRLRLRR share (3 ramified in the trace field is shared with four non-carriers; the hand rule's chiral twin with -LR but not +LR); the even-trace carriers as the two-syllable words -- a syllable law would be a thread-shape statement, not yet tested beyond length eight; the count at every member (only the carrier and two controls read)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-07), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: content on the weave's forced cover is rare on odd trace (3 of 32) because Theorem G makes it three-or-nothing; the third carrier's value is the ends' (the floor attained), the first time on main's record that the value follows the ends; what admits a thread is the open question for W6.",
+  "faces_consulted": [
+   "B1601",
+   "B1600",
+   "B1492",
+   "B1494",
+   "sm:B1550",
+   "sm:B1545"
+  ],
+  "fact_computed": "odd: carriers +LR (24 members (1,0,1), (-1,-1)), -LR (6 members (4,0,4), (0,-3)), -LLRLRLRR (1 member (4,3,1), (+3,+1), alive on all four cusps, m_A = 0); even: 17 of 42 carry; trivial-character interior classes on 8 even threads, no odd; 10,142 s",
+  "scope": {
+   "frame": "the weave (W3's forced cover: A4 for odd trace, D4 or V4 for even), the four at sign characters of the cover by B1492's stacked index; the count at one member by B1492's extension and index",
+   "object": "every signed thread to length eight (37 words, both signs: 32 of odd trace, 42 of even), every kernel of a surjection whose restriction to the fibre is the parity map; the new carrier -LLRLRLRR and the controls +LR, -LR read at a member",
+   "reach": "class",
+   "hypotheses": "numerical (40 digits, B1492's tolerance); sign characters only (orders three and four not read); the sign and choice variants of the extension read as separate kernels; the census parallel over disjoint lists; the count at the carrier read after the census, disclosed"
+  },
+  "weave_or_thread": "weave"
  }
 ]
