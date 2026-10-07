@@ -181,7 +181,12 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - **The silver pair's, at tick 1, on the two parities the thread carries into one another; the third reads none**
        (sm:B1530, read by parity after the fact). In Theorem S's sense, characters of the state whose fibre restriction
        is the parity.
-     - That is an observation on two threads, not a law. R2 tests it on the rest, in both senses.
+     - That is an observation on two threads, not a law.
+   - **R2 in Theorem S's sense found the same shape on all 24 states to length 6: content on pairs, never on three.**
+     - Members are on ±LLRR (tick 1), ±LLR and ±LLLLR (tick 2), on the pair each state's symmetry exchanges.
+     - None is on the parity it fixes, and none is on any odd-trace state at tick 3.
+     - So in that sense the parities carry two alike, not three.
+     - The three alike with content is +LR's alone, and only in Theorem G's sense.
 7. **So the weave derives the three, and leaves four things open.**
    - **Derived:**
      - that there are three;
@@ -206,7 +211,11 @@ Each line gives the cheapest test across the weave (other threads) and along the
   - Label L8a15's three members and −LLLLLR's three-ended cover by parity.
   - Census every state to length 6 at the tick where the weave's cover separates its parities (tick 3, 2 or 1), in
     Theorem S's sense: the characters of that tick whose fibre restriction is a non-zero parity, sector by sector.
-    Running: `docs/dossiers/the_weave_2026-10-07/the_parity_sectors.py`, with the rule named before the run.
+    **Done (W7 in the dossier; 24 of 24, one pass).** Members sit only on pairs:
+    - on ±LLR and ±LLLLR at tick 2, on the two parities the deck exchanges;
+    - on ±LLRR at tick 1, on the two parities the isometries exchange;
+    - never on the parity the state's symmetry fixes, never at the zero parity, and on no odd-trace state at tick 3.
+    The counts on ±LLR and ±LLLLR need a sealed arc.
   - Read ±LLLR at tick 2.
 - **R3. B1506's three vacua.** Do the three sectors of +LR at tick 3 differ by characters of order 4? Check also on −LR's
   sectors at ticks 1–6.

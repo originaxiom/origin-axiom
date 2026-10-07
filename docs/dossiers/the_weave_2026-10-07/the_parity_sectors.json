@@ -1,0 +1,1245 @@
+{
+ "rule": "every state to length 6 at its resolving tick; the characters whose fibre restriction is a parity, kappa in mu_12; route P",
+ "status": "complete: 24 of 24, one pass",
+ "control (sm:B1530)": "+LLRR at kappa = -1: members at (1/2, 0) and (0, 1/2), none at (1/2, 1/2), as banked. -LLRR: members at (1/2, 0) and (0, 1/2) with h1 = 2 and one interior class, as banked, read at kappa = -1 where sm:B1530 reads kappa = 1; at (0, 0) and (1/2, 1/2) h1 = 1 at kappa = 1, as sm:B1530's simple members. Consistent with the library's stable letter of a - state differing from sm:B1530's by ab mod 2.",
+ "states with members": [
+  "+LLR",
+  "-LLR",
+  "+LLRR",
+  "-LLRR",
+  "+LLLLR",
+  "-LLLLR"
+ ],
+ "states": [
+  {
+   "state": "+LR",
+   "trace": 3,
+   "resolving tick": 3,
+   "the tick's state": "+LRLRLR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LR",
+   "trace": -3,
+   "resolving tick": 3,
+   "the tick's state": "-LRLRLR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "+LLR",
+   "trace": 4,
+   "resolving tick": 2,
+   "the tick's state": "+LLRLLR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(0, 1/2)"
+   ],
+   "members": 2,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [
+     "0/12"
+    ],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": [
+     "0/12"
+    ]
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LLR",
+   "trace": -4,
+   "resolving tick": 2,
+   "the tick's state": "+LLRLLR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(0, 1/2)"
+   ],
+   "members": 2,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [
+     "0/12"
+    ],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": [
+     "0/12"
+    ]
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "+LLLR",
+   "trace": 5,
+   "resolving tick": 3,
+   "the tick's state": "+LLLRLLLRLLLR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LLLR",
+   "trace": -5,
+   "resolving tick": 3,
+   "the tick's state": "-LLLRLLLRLLLR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "+LLRR",
+   "trace": 6,
+   "resolving tick": 1,
+   "the tick's state": "+LLRR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(0, 1/2)",
+    "(1/2, 0)",
+    "(1/2, 1/2)"
+   ],
+   "members": 2,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [
+     "6/12"
+    ],
+    "(0, 1/2)": [
+     "6/12"
+    ],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "m_A": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "m_A": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ],
+   "the parity its isometries fix (the_weaves_laws.py, in either coordinates since the matrix is symmetric or the image is the swap)": "(1/2, 1/2)"
+  },
+  {
+   "state": "-LLRR",
+   "trace": -6,
+   "resolving tick": 1,
+   "the tick's state": "-LLRR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(0, 1/2)",
+    "(1/2, 0)",
+    "(1/2, 1/2)"
+   ],
+   "members": 2,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [
+     "6/12"
+    ],
+    "(0, 1/2)": [
+     "6/12"
+    ],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "6/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "6/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ],
+   "the parity its isometries fix (the_weaves_laws.py, in either coordinates since the matrix is symmetric or the image is the swap)": "(1/2, 1/2)"
+  },
+  {
+   "state": "+LLLLR",
+   "trace": 6,
+   "resolving tick": 2,
+   "the tick's state": "+LLLLRLLLLR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(0, 1/2)"
+   ],
+   "members": 2,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [
+     "0/12"
+    ],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": [
+     "0/12"
+    ]
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LLLLR",
+   "trace": -6,
+   "resolving tick": 2,
+   "the tick's state": "+LLLLRLLLLR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(0, 1/2)"
+   ],
+   "members": 2,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [
+     "0/12"
+    ],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": [
+     "0/12"
+    ]
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 2,
+     "r1": 1,
+     "n": 1,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "+LLLRR",
+   "trace": 8,
+   "resolving tick": 2,
+   "the tick's state": "+LLLRRLLLRR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(1/2, 0)"
+   ],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LLLRR",
+   "trace": -8,
+   "resolving tick": 2,
+   "the tick's state": "+LLLRRLLLRR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(1/2, 0)"
+   ],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "+LLRLR",
+   "trace": 10,
+   "resolving tick": 2,
+   "the tick's state": "+LLRLRLLRLR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(1/2, 1/2)"
+   ],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LLRLR",
+   "trace": -10,
+   "resolving tick": 2,
+   "the tick's state": "+LLRLRLLRLR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(1/2, 1/2)"
+   ],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "+LLLLLR",
+   "trace": 7,
+   "resolving tick": 3,
+   "the tick's state": "+LLLLLRLLLLLRLLLLLR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LLLLLR",
+   "trace": -7,
+   "resolving tick": 3,
+   "the tick's state": "-LLLLLRLLLLLRLLLLLR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "+LLLLRR",
+   "trace": 10,
+   "resolving tick": 1,
+   "the tick's state": "+LLLLRR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(0, 1/2)",
+    "(1/2, 0)",
+    "(1/2, 1/2)"
+   ],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ],
+   "the parity its isometries fix (the_weaves_laws.py, in either coordinates since the matrix is symmetric or the image is the swap)": "none (the isometries act trivially on the parities)"
+  },
+  {
+   "state": "-LLLLRR",
+   "trace": -10,
+   "resolving tick": 1,
+   "the tick's state": "-LLLLRR",
+   "parities fixed at tick 1 (library coordinates)": [
+    "(0, 1/2)",
+    "(1/2, 0)",
+    "(1/2, 1/2)"
+   ],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ],
+   "the parity its isometries fix (the_weaves_laws.py, in either coordinates since the matrix is symmetric or the image is the swap)": "none (the isometries act trivially on the parities)"
+  },
+  {
+   "state": "+LLLRLR",
+   "trace": 13,
+   "resolving tick": 3,
+   "the tick's state": "+LLLRLRLLLRLRLLLRLR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LLLRLR",
+   "trace": -13,
+   "resolving tick": 3,
+   "the tick's state": "-LLLRLRLLLRLRLLLRLR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "+LLLRRR",
+   "trace": 11,
+   "resolving tick": 3,
+   "the tick's state": "+LLLRRRLLLRRRLLLRRR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LLLRRR",
+   "trace": -11,
+   "resolving tick": 3,
+   "the tick's state": "-LLLRRRLLLRRRLLLRRR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "+LLRLRR",
+   "trace": 15,
+   "resolving tick": 3,
+   "the tick's state": "+LLRLRRLLRLRRLLRLRR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  },
+  {
+   "state": "-LLRLRR",
+   "trace": -15,
+   "resolving tick": 3,
+   "the tick's state": "-LLRLRRLLRLRRLLRLRR",
+   "parities fixed at tick 1 (library coordinates)": [],
+   "members": 0,
+   "members by parity (kappa as an exponent of zeta_12)": {
+    "zero": [],
+    "(1/2, 0)": [],
+    "(0, 1/2)": [],
+    "(1/2, 1/2)": []
+   },
+   "readings with h1 > 0": [
+    {
+     "parity": "zero",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 0)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": "6/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": "0/12",
+     "h1": 1,
+     "r1": 1,
+     "n": 0,
+     "m_A": 1
+    }
+   ]
+  }
+ ],
+ "members on the parity the thread's own symmetry fixes (the deck at tick 2; the isometries at tick 1)": "none",
+ "where the members are": "only on pairs: on +-LLR and +-LLLLR at tick 2 on the two parities the deck exchanges, at kappa = 1, structure (h1, r1, n) = (2, 1, 1), trivial on the cusp; on +-LLRR at tick 1 on the two parities the isometries exchange, at kappa = -1. None on any odd-trace state at tick 3, none at the zero parity."
+}

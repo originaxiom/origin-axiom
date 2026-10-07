@@ -199,6 +199,43 @@ computed). **This is a thread result:** the frame reads one thread's own holonom
 - **No comparison with data is made here.** The fences are in `docs/THREE_GENERATIONS_AND_THE_WEAVE.md` §3. Which sector
   keeps which subgroup is not forced.
 
+## W7. What the parities carry at the tick where the weave separates them (`the_parity_sectors.py`)
+
+**The census in Theorem S's sense** (design-time structure, no count; the rule named in the script before the run).
+- **The rule.**
+  - Every state of GENESIS to length 6 (24) is read at its resolving tick: 3 at odd trace, 2 for an involution mod 2, 1
+    at φ ≡ I mod 2.
+  - The characters read are those of the tick whose fibre restriction is a parity, with κ ∈ μ₁₂.
+  - At each, the structure of ν ⊗ ρ in route P is read. A member has n > 0.
+- **The control** is sm:B1530's banked silver pair.
+  - +LLRR at κ = −1 has members at (½, 0) and (0, ½) and none at (½, ½), as banked.
+  - −LLRR has the same two members, with h¹ = 2 and one interior class, as banked. They are read at κ = −1 where
+    sm:B1530 reads κ = 1.
+  - At (0, 0) and (½, ½), h¹ = 1 at κ = 1, as sm:B1530's simple members.
+  - This is consistent with the library's stable letter for a − state differing from sm:B1530's by ab mod 2.
+- **The record:** `the_parity_sectors.json`; the raw lines are in `the_parity_sectors.jsonl.gz` (sha-256 in
+  `the_parity_sectors_sha256.txt`).
+
+| class | states | tick | members |
+|---|---|---|---|
+| odd trace | ±LR, ±LLLR, ±LLLLLR, ±LLLRLR, ±LLLRRR, ±LLRLRR | 3 | none |
+| an involution mod 2 | ±LLR, ±LLLLR | 2 | on the two parities the deck exchanges, at κ = 1, (h¹, r¹, n) = (2, 1, 1), trivial on the one cusp; none on the parity it fixes |
+| an involution mod 2 | ±LLLRR, ±LLRLR | 2 | none |
+| φ ≡ I mod 2 | ±LLRR | 1 | on the two parities the isometries exchange, at κ = −1; none on (½, ½), which they fix |
+| φ ≡ I mod 2 | ±LLLLRR | 1 | none |
+
+**What it shows.**
+- **Members sit only on pairs.** In this sense the parities carry members on six states. On each, the members are on
+  exactly the two parities the state's own symmetry carries into one another, and never on the one it fixes.
+- **On no odd-trace state are they on all three.** At tick 3 the three are one orbit of the deck, and none of the
+  twelve carries a member at a parity character.
+- **No member at the zero parity anywhere.**
+- **What is and is not a generation.**
+  - These are members, not counts. sm:B1530's counts make each of ±LLRR's two a generation, (−1, −1).
+  - The members on ±LLR and ±LLLLR at tick 2 have no count yet. A count needs a sealed arc.
+- **The two constructions disagree on +LR.** Theorem G's sense (W6, the forced cover's own characters) finds the
+  three alike on +LR. This sense finds nothing on +LR at tick 3.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -210,6 +247,7 @@ computed). **This is a thread result:** the frame reads one thread's own holonom
 | S | PROVED | Theorem S (`docs/THE_WEAVES_LAWS.md`): no state has its three parities separate and carried into one another at its own tick; every odd-trace thread has them so at every third tick |
 | W5 | READING (main's GENESIS FK14; GENESIS FK7) | the three generations are this triplet at every third tick: three, alike, carried into one another by the deck, which is the shift by one tick |
 | W6 | PROVED (WEAVE); COMPUTED (THREAD) | Theorem G: whatever one parity carries, all three carry. A thread result: on +LR each parity carries one generation of each type. The census: no other odd-trace thread to length 6 read so far carries any on its forced cover (eleven of twelve at order 4) |
+| W7 | COMPUTED (WEAVE, by rule) | in Theorem S's sense, at every state's resolving tick to length 6: members only on the pair of parities a state's symmetry exchanges (±LLRR, ±LLR, ±LLLLR), never on the parity it fixes, never on all three |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -238,6 +276,5 @@ computed). **This is a thread result:** the frame reads one thread's own holonom
 - `the_mixing.py` → `the_mixing.json`: the weave's group on the triplet and the mixing of its subgroups (READING).
 - `the_weaves_laws.py` → `the_weaves_laws.json`: the trichotomy along the wave, the triplet's group (T_d, O_h, real), and
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
-- `the_parity_sectors.py`: R2 of the laws, in Theorem S's sense. Every state to length 6, at its resolving tick, the
-  characters whose fibre restriction is a parity, with the structure of ν ⊗ ρ. The rule and the control (sm:B1530 on the
-  silver pair) are named in the script before the run. The census is running.
+- `the_parity_sectors.py` → `the_parity_sectors.json` (raw lines `the_parity_sectors.jsonl.gz`, sha-256 beside it):
+  W7, R2 of the laws in Theorem S's sense; complete, 24 of 24, one pass.
