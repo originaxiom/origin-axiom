@@ -1,0 +1,27 @@
+{
+ "id": "B1487",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1291",
+  "B1481",
+  "B1485",
+  "B1486",
+  "B1483"
+ ],
+ "rests_on_seat": [
+  "sm:B1530"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-HE (the SM seat's) and F-CI (main's); the class index on manifolds with cusps",
+  "object": "the 68 amphichiral word states to length 12 with all 304 lifts; N_45's 380 reproduced readings; B1485's 10 readings",
+  "reach": "general",
+  "hypotheses": "T3 takes the SM seat's floor I(W1) >= k - m_A - b0 (sm:B1544, sm:B1545) as given, followed on the page and checked on 390 readings, not re-derived; T2's manifold step is read numerically (SnapPy HP lifts, tolerance 1e-25), not proved in general; B1291 for F-CI"
+ },
+ "claim_one_line": "THE ENDS (sealed aab434644 / 27714d7d; the owner's question of 2026-10-07). T1, a theorem: the class index I(E) = n(E) - n(E*) is mirror-even for every module -- dimensions do not change under pullback by a diffeomorphism or under conjugation -- so no choice of module makes a count see the hand; a sign enters a count only as the choice of order. T2: on every lift of all 68 amphichiral word states a peripheral curve (the fibre's boundary) has trace -2, so every odd symmetric power of the lift is acyclic on the cusp, and h1 = 0 on the manifold for Sym^1 and Sym^3 on all 304 lifts (read, not assumed): the hand lives where cohomology vanishes. T3: with the SM seat's floor (a hypothesis of the scope, checked on 390 readings on main, 0 violations, tight on m136's members) |I(W1)| <= m_A + b0, so a one-cusped state carries at most 1 + b0 and g generations need g - b0 special cusps; with B1291 for main's frame, NO STATE OF THE GENERATED FAMILY CARRIES THREE IN EITHER FRAME, by counting ends. E3: the four at the untwisted character has one boundary-type class and no interior one on all 304 lifts. Lands: GENESIS v1.15 (GAP2 a count of ends; GAP1 the mirror-even theorem and the harmonic frame's internal group; FK14: does the genesis generate states with several ends, or are generations not ends?; six gaps, the SM seat's P1 credited), the rules of proper computing for counts with the gate seat-positive-verified, a relay to the SM seat. One sealed sentence corrected: SnapPy's longitude is the fibre boundary on 39 of 68 states, the meridian on 29. 0 of 19."
+}

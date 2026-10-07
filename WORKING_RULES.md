@@ -366,3 +366,23 @@ because we cant bet our whole project against some possible errors bugs or mista
 
 **Enforced by:** nothing yet on main — it is MANUAL. The SM seat records each load-bearing input in its verdict files
 (`load_bearing`, validated by a checker on its branch); main has not adopted that field, and whether to is open.
+
+## Rule (2026-10-07, after the owner's audit question — adopted): A COUNT SAYS WHERE IT CAME FROM, AND NOTHING IS BUILT ON A RESULT ONE SEAT HAS READ
+
+The owner, 2026-10-07: "the programme now is all about those three generations and we depend on proper computing."
+
+1. **A count carries its decomposition.** Every reading of a class index on a manifold with cusps reports the terms of
+   the identity it rests on — the cusps on which the character is trivial, the cusps on which the class dies, the
+   invariant count b0 — and says which cusps. A generation that is a cusp is called a cusp.
+2. **No search without a rule.** A search over covers, characters or classes for a target number names, before it
+   starts, the rule that would select the hit and the number of trials it will spend. Without that, a hit is a
+   selection and is graded as one (`docs/THE_BAR.md`).
+3. **One seat's reading is cited, not built on.** A main arc that rests on another seat's result declares it
+   (`rests_on_seat` in its verdict file); each such item needs a VERIFIED row in `docs/HARVEST_LEDGER.md` — re-run or
+   re-derived on main. Gate `seat-positive-verified`.
+4. **A frame's count is labelled by what it can carry.** The foundations page says, for each frame on record, whether
+   its count depends on the spin structure and whether a mirror can change it (GENESIS v1.15, GAP1): the class index
+   never carries the hand; a sign can enter it only as the choice of order.
+
+**Enforced by:** the gate `seat-positive-verified` (rule 3, with `tests/test_gate_failing_paths.py`); rules 1, 2 and 4
+are MANUAL and registered in `docs/PRACTICES.md`.

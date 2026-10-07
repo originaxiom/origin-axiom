@@ -1084,3 +1084,19 @@ the tree at the same landing — under the arc it belongs to, or beside the rela
 grade (sealed, post-seal, unsealed). An exploratory check that is worth one sentence is worth a script that
 reproduces it. Before a landing, list the session's scratch folder and ask of each recent file whether a tracked
 sentence rests on it.
+
+## A count says where it came from, and a seat's result is built on only once verified — GATED (`seat-positive-verified`); the rest MANUAL (adopted 2026-10-07, B1487; the owner: "we depend on proper computing")
+
+**What happened.** The only generation-shaped reading at a hyperbolic point on any lane (sm:B1530, 2026-10-03) was read
+by one seat for four days while three further arcs on that lane built on it; main's second route (B1485) came only when
+the owner asked for an audit. And the lane's search for three had moved through covers of degree 12, 45 and 60 without a
+rule that would have told a hit from a selection.
+
+**The practice, four rules.** (1) Every count is reported with its cusp decomposition — the floor's k, m_A, b0 and which
+cusps — so a number cannot hide where it came from. (2) No search over covers, characters or classes without a
+pre-registered selection rule and a trial budget; a hit found otherwise is graded by `docs/THE_BAR.md` as a selection.
+(3) A main arc that builds on another seat's result declares it in its verdict file (`rests_on_seat: ["sm:B1530"]`) and
+every such item must carry a VERIFIED row in `docs/HARVEST_LEDGER.md` — **this is the gate**; a result read by one seat
+may be cited, not built on. (4) GENESIS says plainly what a frame's count can and cannot carry (v1.15: the class index is
+mirror-even for every module; the harmonic frame is spin-blind and its internal group contains the geometry's structure
+group). Rules 1, 2 and 4 are MANUAL; rule 3 is gated with a failing-path test.

@@ -274,3 +274,23 @@ def test_member_scope_fails_on_a_new_negative_that_says_the_object_and_spares_a_
     monkeypatch.setattr(gates, "MEMBER_SCOPE_BASELINE", 1)
     ok, _ = gates.gate_member_scope(reader=lambda rel: mapping[rel.replace(os.sep, "/")]); assert ok
 
+
+def test_seat_positive_verified_fails_on_an_undeclared_or_unverified_seat_result(monkeypatch):
+    """B1487: an arc that rests on a seat item without a VERIFIED harvest row fails; with the row it passes; a non-id fails."""
+    import json as _json
+    ledger = ("# ledger\n\n| # | seat | item | h | p | disposition | arc | date |\n|---|---|---|---|---|---|---|---|\n"
+              "| 1 | SM-derivation seat | sm:B9001 | \"x\" | `p` @ 0 | **VERIFIED by re-run** | B9 | d |\n"
+              "| 2 | SM-derivation seat | sm:B9002 | \"y\" | `p` @ 0 | **REGISTERED at headline level** | B9 | d |\n")
+    mapping = {
+        "docs/HARVEST_LEDGER.md": ledger,
+        "frontier/B99990_a/arc_verdict.json": _json.dumps({"id": "B99990", "verdict": "PROVED", "rests_on_seat": ["sm:B9001"]}),
+        "frontier/B99991_b/arc_verdict.json": _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["sm:B9002"]}),
+    }
+    monkeypatch.setattr(gates.glob, "glob", lambda pat: [os.path.join(gates.ROOT, k) for k in mapping if k.startswith("frontier/")])
+    reader = lambda rel: mapping[rel.replace(os.sep, "/")]
+    ok, msg = gates.gate_seat_positive_verified(reader=reader); assert not ok and "B99991" in msg and "sm:B9002" in msg
+    mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["sm:B9001"]})
+    ok, msg = gates.gate_seat_positive_verified(reader=reader); assert ok and "2 declared" in msg
+    mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["not-an-id"]})
+    ok, msg = gates.gate_seat_positive_verified(reader=reader); assert not ok and "not a seat item id" in msg
+    assert "seat-positive-verified" in gates.GATES

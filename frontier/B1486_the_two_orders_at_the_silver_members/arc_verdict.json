@@ -8,6 +8,9 @@
   "B1485",
   "B1466"
  ],
+ "rests_on_seat": [
+  "sm:B1530"
+ ],
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",

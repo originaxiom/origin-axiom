@@ -41,5 +41,6 @@
  "tracked-forbidden": "tests/test_b1290_index_formula.py::test_the_relay_gate_CAN_fail_and_spares_the_sanctioned_location",
  "views-fresh": "tests/test_gate_failing_paths.py::test_views_fresh_fails_when_no_view_moved_since_the_anchor",
  "views-generated": "tests/test_gate_failing_paths.py::test_views_generated_fails_when_a_generator_is_missing",
- "member-scope": "tests/test_gate_failing_paths.py::test_member_scope_fails_on_a_new_negative_that_says_the_object_and_spares_a_named_member"
+ "member-scope": "tests/test_gate_failing_paths.py::test_member_scope_fails_on_a_new_negative_that_says_the_object_and_spares_a_named_member",
+ "seat-positive-verified": "tests/test_gate_failing_paths.py::test_seat_positive_verified_fails_on_an_undeclared_or_unverified_seat_result"
 }

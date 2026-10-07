@@ -1587,6 +1587,42 @@ def gate_member_scope(reader=None):
         return False, "%d NEGATIVE verdict lines say 'the object' for one member's result (baseline %d): " % (len(hits), MEMBER_SCOPE_BASELINE) + "; ".join("%s: %s" % h for h in hits[-5:])
     return True, "ok (%d on the record, baseline %d%s)" % (len(hits), MEMBER_SCOPE_BASELINE, "; lower the baseline" if len(hits) < MEMBER_SCOPE_BASELINE else "")
 
+_SEAT_ID_RE = re.compile(r"^(sm:B\d{4}|xB\d{3}|LP\d{2}|R\d{3}[A-Z]?|memo \d+|B8\d{3})$")
+
+
+def seat_positive_rests(reader=None):
+    """every `rests_on_seat` entry of a main arc's verdict file: (arc id, seat item id, has a VERIFIED row, why)."""
+    reader = reader or (lambda rel: _read(rel))
+    rows = [l for l in reader("docs/HARVEST_LEDGER.md").split("\n") if l.startswith("| ") and not l.startswith("|---")]
+    out = []
+    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
+        try:
+            d = json.loads(reader(os.path.relpath(p, ROOT)))
+        except Exception:
+            continue
+        for sid in d.get("rests_on_seat", []) or []:
+            sid = str(sid)
+            if not _SEAT_ID_RE.match(sid):
+                out.append((d.get("id", "?"), sid, False, "not a seat item id"))
+                continue
+            pat = re.compile(r"(?<![A-Za-z0-9:])" + re.escape(sid) + r"(?![0-9])")
+            verified = any(pat.search(l) and "**VERIFIED" in l for l in rows)
+            out.append((d.get("id", "?"), sid, verified, "ok" if verified else "no VERIFIED row in docs/HARVEST_LEDGER.md"))
+    return out
+
+
+def gate_seat_positive_verified(reader=None):
+    """The rule of proper computing for counts (B1487, 2026-10-07): a main arc that BUILDS on another seat's result
+    declares it in its verdict file as `rests_on_seat: [...]`, and every such item must have a row in
+    docs/HARVEST_LEDGER.md whose disposition is VERIFIED (re-run or re-derived on main). A result read by one seat
+    only may be cited; it may not be built on. Declaring is MANUAL; the check is this gate."""
+    rests = seat_positive_rests(reader)
+    bad = [r for r in rests if not r[2]]
+    if bad:
+        return False, "%d arc(s) rest on a seat item without a VERIFIED row: " % len(bad) + "; ".join("%s rests on %s (%s)" % (a, s, why) for a, s, _, why in bad[:6])
+    return True, "ok (%d declared seat dependencies, all VERIFIED on main)" % len(rests)
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -1631,6 +1667,7 @@ GATES = {
     "seal-ledger-current": gate_seal_ledger_current,
     "pretense-phrases": gate_pretense_phrases,
     "member-scope": gate_member_scope,
+    "seat-positive-verified": gate_seat_positive_verified,
 }
 
 

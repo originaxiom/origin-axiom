@@ -10164,6 +10164,23 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1487": {
+   "slug": "the ends",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [
+    "P1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B1488": {
    "slug": "review 60 the first review that fired",
    "motifs": [

@@ -1,5 +1,5 @@
 {
- "measured_at_main_head": "385c6891e",
+ "measured_at_main_head": "195f71ddf",
  "main_root": "517783f2",
  "lanes": [
   {
@@ -29,8 +29,8 @@
   {
    "ref": "codeberg/chat1/web-seat",
    "branch": "web-seat",
-   "commits_total": 3535,
-   "commits_unique_vs_main": 11,
+   "commits_total": 3538,
+   "commits_unique_vs_main": 14,
    "merge_base": "16bef4d4",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -75,10 +75,22 @@
    "other_repository": false
   },
   {
+   "ref": "codeberg/<v>/project-thread-hctlox",
+   "branch": "project-thread-hctlox",
+   "commits_total": 3538,
+   "commits_unique_vs_main": 3,
+   "merge_base": "201bd35b",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
    "ref": "codeberg/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3161,
-   "commits_unique_vs_main": 286,
+   "commits_total": 3182,
+   "commits_unique_vs_main": 307,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -245,8 +257,8 @@
   {
    "ref": "origin/<v>/project-thread-hctlox",
    "branch": "project-thread-hctlox",
-   "commits_total": 3536,
-   "commits_unique_vs_main": 1,
+   "commits_total": 3538,
+   "commits_unique_vs_main": 3,
    "merge_base": "201bd35b",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -257,8 +269,8 @@
   {
    "ref": "origin/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3172,
-   "commits_unique_vs_main": 297,
+   "commits_total": 3182,
+   "commits_unique_vs_main": 307,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -279,9 +291,9 @@
    "other_repository": false
   }
  ],
- "lanes_with_unique_work": 18,
- "total_unique_commits_across_lanes": 2059,
- "same_repository_lanes": 17,
+ "lanes_with_unique_work": 19,
+ "total_unique_commits_across_lanes": 2098,
+ "same_repository_lanes": 18,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,
  "other_repository_lanes": [
