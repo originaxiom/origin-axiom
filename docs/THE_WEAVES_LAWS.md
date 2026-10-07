@@ -102,7 +102,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 - **Orbits of three.** Ten of the twelve three-fold levels to length 6 carry orbits of three (main's B1434).
 - **The three-ended covers.** Ten states (sm:B1549).
 - **The forced A₄ cover.** The twelve odd-trace states to length 6 (W6). Members are only on ±LR, and generations only on
-  +LR. The census is complete at order 3 and has eleven of twelve at order 4.
+  +LR. The census is complete at orders 4 and 3.
 
 ## 2. What looks universal and is one thread's
 
@@ -210,7 +210,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
    - The 1 + 2 is the pattern B1507's lead (i) asks about on s961, as S₃'s "2 + 1". It is not compared with data here.
 7. **In the hyperbolic frame, content is a thread's** (in the weave's spin vacuum it is not: item 5). What the parities
    carry in the hyperbolic frame depends on the thread and the cover:
-   - on the forced A₄ cover, members only on ±LR and generations only on +LR (to length 6, one thread still running);
+   - on the forced A₄ cover, members only on ±LR and generations only on +LR (to length 6, complete);
    - elsewhere, other threads carry content (§2).
    - THE_BAR grades "only +LR" at p ≈ 0.29 on twelve threads: no selection is claimed.
    - Two of the record's generation findings on word states sit on parities, each at the tick where its thread

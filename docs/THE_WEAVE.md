@@ -50,7 +50,7 @@ From `docs/dossiers/the_weave_2026-10-07/`:
 - **W6, what the parities carry.**
   - Whatever one parity carries, the other two carry the same (Theorem G). This holds for every odd-trace thread.
   - A thread result, sm:B1550 on +LR's forced cover: each parity carries one generation of each type.
-  - The census by rule: of the odd-trace threads to length 6 read so far (eleven of twelve), no other carries any on
+  - The census by rule: of the odd-trace threads to length 6 (all twelve), no other carries any on
     its forced cover. Other covers of other threads carry content (sm:B1549, sm:B1530).
   - On +LR's third level that is main's orbifold standard, with the cover forced. Summed, the three sectors are one module
     of +LR pulled back.

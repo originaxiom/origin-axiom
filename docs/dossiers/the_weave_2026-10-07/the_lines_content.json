@@ -265,6 +265,14 @@
   "on no single line (orbits fixed by all of V4)": [],
   "member orbits with no banked count": []
  },
+ "+LLRLRR": {
+  "trace": 15,
+  "members": 0,
+  "each line carries, on the third level (one local system per orbit with lines)": {},
+  "generations per line (local systems reading (-1, -1))": {},
+  "on no single line (orbits fixed by all of V4)": [],
+  "member orbits with no banked count": []
+ },
  "-LLRLRR": {
   "trace": -15,
   "members": 0,

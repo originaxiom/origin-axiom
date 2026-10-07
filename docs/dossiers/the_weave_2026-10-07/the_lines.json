@@ -189,6 +189,11 @@
   "members": 0,
   "member orbits": []
  },
+ "+LLRLRR": {
+  "trace": 15,
+  "members": 0,
+  "member orbits": []
+ },
  "-LLRLRR": {
   "trace": -15,
   "members": 0,

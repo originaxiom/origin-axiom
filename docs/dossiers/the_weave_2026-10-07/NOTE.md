@@ -155,13 +155,13 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 | −LLLLLR | −7 | 256, none | 729, none |
 | +LLLRLR | 13 | 256, none | 81, none |
 | −LLLRLR | −13 | 1024, none | 729, none |
-| +LLLRRR | 11 | 1024, none | running |
-| −LLLRRR | −11 | 256, none | running |
-| +LLRLRR | 15 | running | running |
-| −LLRLRR | −15 | 256, none | running |
+| +LLLRRR | 11 | 1024, none | 729, none |
+| −LLLRRR | −11 | 256, none | 81, none |
+| +LLRLRR | 15 | 4096, none | 81, none |
+| −LLRLRR | −15 | 256, none | 81, none |
 
-**Status at this commit: eleven of twelve threads read at order 4, and eight at order 3. The rest are running, and this
-table is completed when they finish.**
+**Status: complete.** All twelve threads are read at order 4 and at order 3, one pass each. The last, +LLRLRR at order 4
+(4,096 characters in 416 orbits), took 2 h 39 min (9,526 s) and has no member.
 
 - **Among the threads read, members appear only on the golden pair ±LR.**
   - The order-3 members there have m_A = 0 and ν⁴ ≠ 1, so Lemma F′ keeps them from being generations.
@@ -398,7 +398,7 @@ fixes and every thread carries (W3).
 | W4 | PROVED | one irreducible triplet, the same on every odd-trace thread; even-trace threads split it; the weave's group on it is real (T_d ≅ S₄; O_h with P) |
 | S | PROVED | Theorem S (`docs/THE_WEAVES_LAWS.md`): no state has its three parities separate and carried into one another at its own tick; every odd-trace thread has them so at every third tick |
 | W5 | READING (main's GENESIS FK14; GENESIS FK7) | the three generations are this triplet at every third tick: three, alike, carried into one another by the deck, which is the shift by one tick |
-| W6 | PROVED (WEAVE); COMPUTED (THREAD) | Theorem G: whatever one parity carries, all three carry. A thread result: on +LR each parity carries one generation of each type. The census: no other odd-trace thread to length 6 read so far carries any on its forced cover (eleven of twelve at order 4) |
+| W6 | PROVED (WEAVE); COMPUTED (THREAD) | Theorem G: whatever one parity carries, all three carry. A thread result: on +LR each parity carries one generation of each type. The census: no other odd-trace thread to length 6 carries any on its forced cover (twelve of twelve, at orders 4 and 3) |
 | W7 | COMPUTED (WEAVE, by rule) | in Theorem S's sense, at every state's resolving tick to length 6: members only on the pair of parities a state's symmetry exchanges (±LLRR, ±LLR, ±LLLLR), never on the parity it fixes, never on all three |
 | W8 | PROVED (Lemma V, WEAVE + WAVE); COMPUTED | the frame at the weave's own vacuum (the common point) reads rank-one lines: the three parity lines alike on every thread, all on the end; no member on any state at any tick |
 | W9 | COMPUTED (WEAVE, two routes) | the weave's spin doublet H¹(F₂; ρ_Q): the moves act by ℤ/8 (Q₁₆ with the swap); every thread has interior classes on it; twisted by the parities, three alike interior sectors on every odd-trace thread at tick 3 |

@@ -3,7 +3,7 @@
  "precision": "holonomy 160 digits, modules 100 (the banked library unchanged, its precision raised from the script)",
  "provenance": "+LR, -LR, +LLLR, -LLLR at order 4 by the_lines_census.py (the control against sm:B1550's banked census); the other eight at order 4 and all twelve at order 3 by the same census function run from the seat's working copy with the same precision settings",
  "order": 3,
- "status": "partial: still running +LLLRRR, -LLLRRR, +LLRLRR, -LLRLRR",
+ "status": "complete",
  "threads": [
   {
    "state": "+LR",
@@ -124,6 +124,46 @@
    "member orbits": [],
    "s cover": 866.0,
    "trace": -13
+  },
+  {
+   "state": "+LLLRRR",
+   "cusps": 4,
+   "characters": 729,
+   "orbits": 135,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 157.4,
+   "trace": 11
+  },
+  {
+   "state": "-LLLRRR",
+   "cusps": 4,
+   "characters": 81,
+   "orbits": 15,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 25.2,
+   "trace": -11
+  },
+  {
+   "state": "+LLRLRR",
+   "cusps": 4,
+   "characters": 81,
+   "orbits": 15,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 153.9,
+   "trace": 15
+  },
+  {
+   "state": "-LLRLRR",
+   "cusps": 4,
+   "characters": 81,
+   "orbits": 15,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 200.2,
+   "trace": -15
   }
  ]
 }
