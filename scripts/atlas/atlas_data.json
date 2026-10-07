@@ -10344,6 +10344,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1495": {
+   "slug": "the orbit in one module",
+   "motifs": [
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [
+    "S74"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 14,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B149": {
    "slug": "sl4 ideal completeness",
    "motifs": [

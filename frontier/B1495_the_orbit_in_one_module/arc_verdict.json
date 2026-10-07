@@ -1,0 +1,25 @@
+{
+ "id": "B1495",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1494",
+  "B1492",
+  "B1485",
+  "B1486",
+  "B1443"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-HE (the SM seat's dictionary: N(10') = -I(W), N(5bar') = -I(Lambda^2 W); V = nu (x) four, W1 = [[V, z], [0, 1]] at a sign member)",
+  "object": "L8a15 (+LLLR's three-ended companion) at its three sign members, one orbit of the deck Z/3; the orbit module W = W1(nu) + W1(tau nu) + W1(tau^2 nu) of rank 15",
+  "reach": "single",
+  "hypotheses": "numerical ranks (40 digits, 1e-24); the members' classes as representatives; the pieces of one cross term read, the other two by the deck symmetry; the direct-sum orbit module only -- a glued module is not ruled"
+ },
+ "claim_one_line": "THE ORBIT IN ONE MODULE (sealed 3c1fadd9e / 9197f21e): L8a15's three one-generation members, one orbit of the deck Z/3 (the SM seat's three-orbit, verified at S74), read as a single rank-15 module W = W1 + W2 + W3. I(W) = -3 by additivity -- three on the 10' side -- but I(Lambda^2 W) = -9: the three cross terms W_i x W_j (rank 25) read -2 each, equal and carried around the ends by the deck symmetry (each has h^0 = 5 on the one end where the product character is trivial), and the piece responsible is named: W_i x V_j and V_i x W_j read -1 each -- generation i's class seen through generation j's four -- while V_i x V_j reads 0. So the orbit counts (10', 5bar') = (3, 9), not (3, 3): the deck symmetry relates the three generations exactly, and their exterior square is not three generations' exterior square. NEGATIVE, scoped: the reading 'three generations = the deck orbit of a member' survives on the 10' side only and stays a selection under FK14; a glued module (three members fused, as B1486 fused two orders) and the two deck-fixed spin structures are not ruled. Disclosed: an import path one level short in the sealed file, corrected before any reading. 0 of 19."
+}

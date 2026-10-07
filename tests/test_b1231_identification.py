@@ -58,19 +58,21 @@ def test_the_ratchet_bites():
     g = _gates()
     ok_before, _ = g.gate_identification_register()
     assert ok_before, "register must be green before the bite test"
+    # Planted through the gate's own read seam, NOT by rewriting the tracked ledger: under a parallel suite the rewrite
+    # raced tests/test_b1241_master_identification_priced.py (which read 15 UNEARNED rows mid-plant, S75, 2026-10-07) --
+    # the class of "a check must not leave its own work behind" (2026-09-16). The tracked file is never touched.
     orig = LEDGER.read_text(encoding="utf-8")
+    planted = orig.replace("| I-7 |", "| I-99 | synthetic | A | B | ✘ | ✘ | **UNEARNED** | test | test |\n| I-7 |", 1)
+    assert planted != orig
+    g2 = _gates(); real_read = g2._read
+    g2._read = lambda rel: planted if rel == "docs/IDENTIFICATION_LEDGER.md" else real_read(rel)
     try:
-        LEDGER.write_text(orig.replace(
-            "| I-7 |",
-            "| I-99 | synthetic | A | B | ✘ | ✘ | **UNEARNED** | test | test |\n| I-7 |", 1),
-            encoding="utf-8")
-        g2 = _gates()                      # re-import: the gate reads the file at call time
         ok_after, detail = g2.gate_identification_register()
         assert not ok_after, "the ratchet did NOT bite on a new UNEARNED row"
         assert any("UNEARNED increased" in str(d) for d in detail), detail
     finally:
-        LEDGER.write_text(orig, encoding="utf-8")
-    assert _gates().gate_identification_register()[0], "register must be restored"
+        g2._read = real_read
+    assert LEDGER.read_text(encoding="utf-8") == orig and _gates().gate_identification_register()[0], "register must be untouched"
 
 
 def test_baseline_matches_the_register():

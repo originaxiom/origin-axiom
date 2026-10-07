@@ -6,7 +6,7 @@ I(W) = sum I(W_i) (additivity) and Lambda^2 W = (+) Lambda^2 W_i (+) (+)_{i<j} W
 This reads the cross terms I(W_i (x) W_j) (rank 25) with B1492's stacked instrument, and the orbit's two indices.
 Usage: cross.py <name>  (members from B1492's survey_<name>.json; or --control m136)."""
 import sys, json, pathlib
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "B1492_the_three_ended_companion_read" / "verification"))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / "B1492_the_three_ended_companion_read" / "verification"))   # parents[2] = frontier/ (the sealed file said parents[1], the arc directory: an import error, corrected before any reading)
 import multicusp as MC
 from mpmath import mpc, matrix, zeros
 HERE = pathlib.Path(__file__).resolve().parent

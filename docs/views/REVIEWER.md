@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1323** |
-| words of findings prose | **1,029,796** |
-| test lock files referenced | **768** |
-| arcs carrying an authored verdict | **1323** (100.0 %) |
-| recorded closures | **805** (638 classified, 167 routed-only) |
+| research arcs with findings | **1324** |
+| words of findings prose | **1,030,688** |
+| test lock files referenced | **769** |
+| arcs carrying an authored verdict | **1324** (100.0 %) |
+| recorded closures | **806** (639 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 892 |
-| NEGATIVE | 329 |
+| NEGATIVE | 330 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 75 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 76 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 NO ROOM ON ANY COMPANION, AND ONE COMPANION WITH ROOM (sealed 0b45b1fb0 / 3f1dbc5e; the owner's 'follow the light'). T-COMPANION-NO-ROOM: for every word state M with torsion T = coker(phi - I) and its fixed-point companion N (deck group T, the cusp lifting to |T| cusps), b1(N) = |T| and the trivial line has no interior class -- Shapiro over the torsion's characters, each non-trivial one having h^1(M; chi) = 1 because H^1(F; chi) -> H^1(dF; chi) is an isomorphism and the monodromy fixes the puncture circle; verified at every torsion character of all 758 own-level states to length twelve (exact, two primes) and on 265 companions built (|T| <= 60: each with |T| cusps, b1 = |T|, volume |T| times the state's; +LLLR's the only one with three ends). The census: m136's companion has room 0 at all 16 sign characters; m135's eight-ended companion has ROOM 2 at eight of 256 -- verified by its 255 double covers -- every one trivial on no end, where the seat's floor gives zero generations whatever the room and the four has no class to extend. N45 rebuilt on main from the seat's recipe (the unique 5-fold cyclic cover of a one-cusped degree-9 cover of m003 with five cusps and Z^9 + (Z/2)^2; n(1) = 4, |Sym| 240): its fifteen cusp-trivial fourth-power sign characters read ten at room 1 and five at room 3 -- the seat's numbers -- and the whole census reaches room 6. The mechanism: a count needs ends with trivial character where a class dies (the floor) and a line with room (the cap); on every companion read they never meet at one character, on N45 they meet and the count reaches two. GENESIS v1.20. 0 of 19.  
 `B1494_no_room_on_any_companion/FINDINGS.md`
 
-**NEGATIVE — `B1493`** (1442 words, 1 locks)  
-THE ROOM ON THE COMPANIONS (sealed 5ef37c794 / 33a721bb): the SM seat's Theorem C bounds the count at a finite-order character by b0 + n(nu^4), the room of the line L = nu^-4, and by the second supply n(nu^3 x four). Read on main: the line has NO room on either companion -- n(chi) = 0 at all 8 sign characters of L8a15 (h^1 = 0 where chi is trivial on no end, 1 and all boundary where it is trivial on one) and at all 32 of o10_150729 (h^1(chi) = m_A, all boundary). So at order eight (b0 = 0) the cap is 0 -- not three, not two, not one -- and at order four or two it is 1: NO CHARACTER OF ORDER <= 8 ON EITHER COMPANION CARRIES THREE GENERATIONS, OR TWO, in either order. Read directly on L8a15: the second supply is 0 at 28 of the 29 order-8 orbits and 1 at one (nu = (1, 1, zeta_8) and its conjugates, all alike); the nine order-4 orbits hold one member, (1, 1, i), reading (-1, 0); beyond the seal the order-8 members at (1, 1, zeta_8) read (0, 0) -- the cap attained. Every member read on L8a15 at any order counts exactly -b0: the generation is the trivial line and nothing else. Against the seat's N45 (five cusps, room 3 at five order-2 characters, count -2 at order eight): the room of the line is what moves the count, and it lives on covers chosen by a character, not on the companions the state determines. Disclosed: the sealed instrument used the SL(2) lift for the second supply; the m136 control had shown it (0 at members reading (-1, -1)) and was read against the theorem only after C3; corrected, re-run, sealed outputs kept. 0 of 19.  
-`B1493_the_room_on_the_companions/FINDINGS.md`
+**NEGATIVE — `B1495`** (892 words, 1 locks)  
+THE ORBIT IN ONE MODULE (sealed 3c1fadd9e / 9197f21e): L8a15's three one-generation members, one orbit of the deck Z/3 (the SM seat's three-orbit, verified at S74), read as a single rank-15 module W = W1 + W2 + W3. I(W) = -3 by additivity -- three on the 10' side -- but I(Lambda^2 W) = -9: the three cross terms W_i x W_j (rank 25) read -2 each, equal and carried around the ends by the deck symmetry (each has h^0 = 5 on the one end where the product character is trivial), and the piece responsible is named: W_i x V_j and V_i x W_j read -1 each -- generation i's class seen through generation j's four -- while V_i x V_j reads 0. So the orbit counts (10', 5bar') = (3, 9), not (3, 3): the deck symmetry relates the three generations exactly, and their exterior square is not three generations' exterior square. NEGATIVE, scoped: the reading 'three generations = the deck orbit of a member' survives on the 10' side only and stays a selection under FK14; a glued module (three members fused, as B1486 fused two orders) and the two deck-fixed spin structures are not ruled. Disclosed: an import path one level short in the sealed file, corrected before any reading. 0 of 19.  
+`B1495_the_orbit_in_one_module/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

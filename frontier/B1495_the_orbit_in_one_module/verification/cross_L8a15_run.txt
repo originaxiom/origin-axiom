@@ -1,0 +1,8 @@
+L8a15 members: [{'a': 1, 'b': 1, 'c': -1}, {'a': 1, 'b': -1, 'c': -1}, {'a': -1, 'b': -1, 'c': 1}]
+  W1 {'a': 1, 'b': 1, 'c': -1} -1 -1
+  W1 {'a': 1, 'b': -1, 'c': -1} -1 -1
+  W1 {'a': -1, 'b': -1, 'c': 1} -1 -1
+  cross 0 1 I = -2 relator ok True {'a0': 0, 'a1': 8, 't0': [1, 5, 1], 't0_sum': 7, 'r1': 8, 'n': 0}
+  cross 0 2 I = -2 relator ok True {'a0': 0, 'a1': 8, 't0': [1, 1, 5], 't0_sum': 7, 'r1': 8, 'n': 0}
+  cross 1 2 I = -2 relator ok True {'a0': 0, 'a1': 8, 't0': [5, 1, 1], 't0_sum': 7, 'r1': 8, 'n': 0}
+ORBIT L8a15 I(W) = -3 I(Lambda^2 W) = -9 (singles -3 + cross -6 )

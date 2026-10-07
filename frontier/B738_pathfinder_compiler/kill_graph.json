@@ -11163,5 +11163,30 @@
    "reach": "single",
    "hypotheses": "Theorem C as the seat proved it (sm:B1535; the audit lane's R84) for the bound on o10_150729 at orders four and eight and on L8a15 beyond the orbits read directly; numerical ranks (40 digits, 1e-24); one representative per D6 x Galois orbit at order eight with a 24-member equivariance control; the sealed instrument's second supply corrected after the run (the module), disclosed"
   }
+ },
+ {
+  "id": "B1495",
+  "claim_killed": "That L8a15's three one-generation members -- one orbit of the deck Z/3 on the companion of +LLLR, the only state with three ends -- form three generations when read as one module in the SM seat's dictionary: the direct-sum orbit module reads (10', 5bar') = (3, 9), the three cross terms between generations at -2 each.",
+  "kill_form": "Sealed reading (3c1fadd9e) of the three rank-25 cross terms W_i x W_j with B1492's stacked instrument on the three-cusped L8a15; the pieces of one cross term decomposed (W_i x V_j and V_i x W_j at -1 each, V_i x V_j at 0); the deck symmetry carries the others; control: m136's two members give a cross term of -1.",
+  "hatch": "a glued module in which the three members are fused rather than summed (B1486's fusions for two orders); the two deck-fixed spin structures and their hands; a dictionary in which the off-diagonal pieces of the exterior square are not 5bar' counts; the orbit on m003's companion (five) or m136's (four)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-07), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: three generations related by an exact Z/3 need their exterior square to carry no off-diagonal count; the direct sum carries one per ordered pair, from each generation's class seen through another's four. The orbit's 10' three stands; its 5bar' is 3 + 6.",
+  "faces_consulted": [
+   "B1494",
+   "B1492",
+   "B1486",
+   "B1485",
+   "B1443",
+   "sm:B1509",
+   "sm:B1535"
+  ],
+  "fact_computed": "I(W) = -3; I(W_i x W_j) = -2 for the three pairs (t0 patterns (1,5,1), (1,1,5), (5,1,1)); I(W_i x V_j) = I(V_i x W_j) = -1; I(V_i x V_j) = 0; I(Lambda^2 W) = -9",
+  "scope": {
+   "frame": "F-HE (the SM seat's dictionary: N(10') = -I(W), N(5bar') = -I(Lambda^2 W); V = nu (x) four, W1 = [[V, z], [0, 1]] at a sign member)",
+   "object": "L8a15 (+LLLR's three-ended companion) at its three sign members, one orbit of the deck Z/3; the orbit module W = W1(nu) + W1(tau nu) + W1(tau^2 nu) of rank 15",
+   "reach": "single",
+   "hypotheses": "numerical ranks (40 digits, 1e-24); the members' classes as representatives; the pieces of one cross term read, the other two by the deck symmetry; the direct-sum orbit module only -- a glued module is not ruled"
+  }
  }
 ]
