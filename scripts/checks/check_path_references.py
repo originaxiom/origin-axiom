@@ -71,6 +71,9 @@ EXEMPT_TARGETS = frozenset({
     # Main's released packet of 2026-10-02 (main @ e90b4f7e), named in main's own RELAY_LEDGER rows for its outbound relays,
     # which this branch's ledger carries verbatim from the currency pass of 2026-10-04. On main it resolves.
     "docs/handoffs/CC_TO_CODEX_2026-10-02_THE_RELEASED_PACKET.md",
+    # Main's research page for its B1496 (main @ d0b3122e), cited by this seat's relay of 2026-10-07 (THE THREE PARITIES) as
+    # the specification it answers; harvested by citation, not copied. On main it resolves.
+    "docs/THREE_GENERATIONS_RESEARCHED.md",
 })
 
 
