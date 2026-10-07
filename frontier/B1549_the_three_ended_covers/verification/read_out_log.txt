@@ -1,0 +1,2 @@
+complete True; held ['P1', 'P2', 'P3', 'P4', 'P5'] of ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8']; verdict NEGATIVE
+covers with exactly three generation-shaped members: ['+LLLR [1, 0, 3] w0', '-LLLLLR [3, 1, 1] w0']
