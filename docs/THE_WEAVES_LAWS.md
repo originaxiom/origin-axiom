@@ -152,6 +152,14 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - That is the owner's rule as a theorem about the parities: the property that makes three generations three alike
        things belongs to the interaction, not to an object.
      - What it leaves open is the same bit: whether the weave's cover is kept (GENESIS FK7).
+   - **READING: the weave's answer to that bit.**
+     - The moves themselves tell the three parities apart: L, R and the swap each fix a different one (W1). So the
+       parities are labels the grammar can read, not a redundancy of the description.
+     - A label the grammar reads is single-valued on a state only where the act fixes it, and that is the cover the
+       weave's congruence kernel cuts out, the resolving tick.
+     - So the weave reads the deck that permutes the labels as kept: a flavour symmetry, not a gauge redundancy.
+     - The step from "the grammar can read it" to "it must be single-valued" is a principle, not a theorem. It is offered
+       for GENESIS FK7, not claimed.
 3. **Three is a sum, never one module.**
    - Rank five counts at most two on any once-punctured-torus bundle at any tick (B1440).
    - One module at a state's own level never counts three (main's GAP2).
