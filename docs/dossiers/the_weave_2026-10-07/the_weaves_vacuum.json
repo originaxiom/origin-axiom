@@ -1,0 +1,730 @@
+{
+ "rule": "every state to length 6 at its resolving tick; the frame at the weave's vacuum (rank-one lines)",
+ "tally": {
+  "parity lines read": 72,
+  "of them interior": 0,
+  "members (order dividing 4)": 0
+ },
+ "states": [
+  {
+   "state": "+LR",
+   "resolving tick": 3,
+   "the tick's state": "+LRLRLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 64,
+   "members": []
+  },
+  {
+   "state": "-LR",
+   "resolving tick": 3,
+   "the tick's state": "-LRLRLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "+LLR",
+   "resolving tick": 2,
+   "the tick's state": "+LLRLLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "-LLR",
+   "resolving tick": 2,
+   "the tick's state": "+LLRLLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "+LLLR",
+   "resolving tick": 3,
+   "the tick's state": "+LLLRLLLRLLLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "-LLLR",
+   "resolving tick": 3,
+   "the tick's state": "-LLLRLLLRLLLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 64,
+   "members": []
+  },
+  {
+   "state": "+LLRR",
+   "resolving tick": 1,
+   "the tick's state": "+LLRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "-LLRR",
+   "resolving tick": 1,
+   "the tick's state": "-LLRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 32,
+   "members": []
+  },
+  {
+   "state": "+LLLLR",
+   "resolving tick": 2,
+   "the tick's state": "+LLLLRLLLLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 32,
+   "members": []
+  },
+  {
+   "state": "-LLLLR",
+   "resolving tick": 2,
+   "the tick's state": "+LLLLRLLLLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 32,
+   "members": []
+  },
+  {
+   "state": "+LLLRR",
+   "resolving tick": 2,
+   "the tick's state": "+LLLRRLLLRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "-LLLRR",
+   "resolving tick": 2,
+   "the tick's state": "+LLLRRLLLRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "+LLRLR",
+   "resolving tick": 2,
+   "the tick's state": "+LLRLRLLRLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 32,
+   "members": []
+  },
+  {
+   "state": "-LLRLR",
+   "resolving tick": 2,
+   "the tick's state": "+LLRLRLLRLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 32,
+   "members": []
+  },
+  {
+   "state": "+LLLLLR",
+   "resolving tick": 3,
+   "the tick's state": "+LLLLLRLLLLLRLLLLLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 64,
+   "members": []
+  },
+  {
+   "state": "-LLLLLR",
+   "resolving tick": 3,
+   "the tick's state": "-LLLLLRLLLLLRLLLLLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "+LLLLRR",
+   "resolving tick": 1,
+   "the tick's state": "+LLLLRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 32,
+   "members": []
+  },
+  {
+   "state": "-LLLLRR",
+   "resolving tick": 1,
+   "the tick's state": "-LLLLRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "+LLLRLR",
+   "resolving tick": 3,
+   "the tick's state": "+LLLRLRLLLRLRLLLRLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "-LLLRLR",
+   "resolving tick": 3,
+   "the tick's state": "-LLLRLRLLLRLRLLLRLR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 64,
+   "members": []
+  },
+  {
+   "state": "+LLLRRR",
+   "resolving tick": 3,
+   "the tick's state": "+LLLRRRLLLRRRLLLRRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 64,
+   "members": []
+  },
+  {
+   "state": "-LLLRRR",
+   "resolving tick": 3,
+   "the tick's state": "-LLLRRRLLLRRRLLLRRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  },
+  {
+   "state": "+LLRLRR",
+   "resolving tick": 3,
+   "the tick's state": "+LLRLRRLLRLRRLLRLRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 64,
+   "members": []
+  },
+  {
+   "state": "-LLRLRR",
+   "resolving tick": 3,
+   "the tick's state": "-LLRLRRLLRLRRLLRLRR",
+   "the parity lines": [
+    {
+     "parity": "(1/2, 0)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(0, 1/2)",
+     "kappa": -1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    },
+    {
+     "parity": "(1/2, 1/2)",
+     "kappa": 1,
+     "h1": 1,
+     "trivial on the cusp": true,
+     "n": 0
+    }
+   ],
+   "characters of order dividing 4 read": 16,
+   "members": []
+  }
+ ]
+}

@@ -43,6 +43,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | W4, the triplet's group (corrected here) | The parity-twisted cohomology is one triplet. L, R and the fibre's translations act on it as T_d, which is S₄ of order 24: L and R are reflections and −1 is not in it. The sign −I acts as the translation by ab and adds nothing. The swap P doubles the group to O_h (48). Every element is conjugate to its inverse, so all characters are real. One odd-trace thread with the fibre gives A₄ (12), which has a complex pair of characters | the moves | proof; computed | WEAVE |
 | the direction is a marking | Conjugating by L (the change of marking LR → RL, one manifold) carries a thread's 3-cycle into the class of its inverse | every odd-trace thread | proof; computed on ±LR | WEAVE |
 | Theorem G | On the forced A₄ cover of every odd-trace thread, a member orbit sits a third on each parity, and on the third level it gives one sector per parity, cycled by the deck, each with the member's count | every odd-trace thread | proof (Shapiro) | WEAVE, at tick 3 |
+| **Lemma V (new)** | On a hyperbolic once-punctured-torus bundle no rank-one line is interior: h¹(ν) ≤ 1, and when it is 1, ν is trivial on the cusp and the class restricts to it injectively (finite order needed only when ν is trivial on the fibre). So the frame at the weave's own vacuum, the common point, whose module four(ρ_Q) = 1 ⊕ 3 is a sum of such lines by Shapiro, has no member on any state at any tick | every state at every tick; 72 parity lines and 768 characters of order dividing 4 on the 24 states to length 6 at their resolving tick | proof (Wang sequence; the puncture loop); checked exactly | WEAVE + WAVE |
 | the gcd law (lifted) | An orbit of the forced cover is one module at the ticks 3 does not divide and three sectors at every third tick. That is B1507's gcd(n, 3), lifted from m004 to every odd-trace thread by the trichotomy | every odd-trace thread, every tick | proof | WEAVE + WAVE |
 
 **Theorem S, the proof.**
@@ -165,12 +166,21 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - a source (GENESIS GAP3).
    - By T1 and H-FREE-CUSP it cannot come from bulk matter with the Standard Model unbroken, on any state at any tick.
    - The three and the hand are separate ingredients.
-5. **Masses.**
+5. **The weave's own vacuum is empty (Lemma V).**
+   - At the common point, the one vacuum every move fixes, the frame reads the three parity lines.
+   - On every thread at its resolving tick they are alike, one line each, but all three are on the end, and no line of
+     that vacuum is interior on any state at any tick.
+   - So the weave alone gives the three and their alikeness, but no matter on them.
+   - Matter needs a thread's own geometry (the hyperbolic vacuum, where W6 and W7 find members) or a cover that is not a
+     once-punctured-torus bundle.
+   - The weave forces one such cover: the spin cover (W3's 2T kernel, fibre genus 3), where main's T-ROOM-NEEDS-GENUS puts
+     room.
+6. **Masses.**
    - A kept, unbroken deck gives a texture the data refute (B1273, B1361; sL-5), so the deck must break at order one, or
      the Higgs must be parity-neutral.
    - At a state's own tick the three parities split 1 + 2 or 1 + 1 + 1 under its isometries, never 3 (Theorem S).
    - The 1 + 2 is the pattern B1507's lead (i) asks about on s961, as S₃'s "2 + 1". It is not compared with data here.
-6. **Content is a thread's.** What the parities carry depends on the thread and the cover:
+7. **Content is a thread's.** What the parities carry depends on the thread and the cover:
    - on the forced A₄ cover, members only on ±LR and generations only on +LR (to length 6, one thread still running);
    - elsewhere, other threads carry content (§2).
    - THE_BAR grades "only +LR" at p ≈ 0.29 on twelve threads: no selection is claimed.
@@ -187,13 +197,15 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - None is on the parity it fixes, and none is on any odd-trace state at tick 3.
      - So in that sense the parities carry two alike, not three.
      - The three alike with content is +LR's alone, and only in Theorem G's sense.
-7. **So the weave derives the three, and leaves four things open.**
+8. **So the weave derives the three, and leaves five things open.**
    - **Derived:**
      - that there are three;
      - that they are alike under the weave;
      - that they are separate at every third tick;
-     - that their symmetry is real.
+     - that their symmetry is real;
+     - that its own vacuum carries them empty, on the end (Lemma V).
    - **Open:**
+     - the content: matter on the three alike needs a thread's geometry or the forced spin cover;
      - the deck kept (GENESIS FK7);
      - the hand (GENESIS FK4 and FK12; main's sign);
      - the masses;
@@ -237,6 +249,9 @@ Each line gives the cheapest test across the weave (other threads) and along the
 - **R13. Fixed points.** Apply main's fixed-points rule and the parity rule to every thread: +LR has 1 fixed point,
   +LLLR 3 and −LLLLLR 9.
 - **R14. Outside these files.** "Swap = Breath" is a reading, and the data are fenced.
+- **R16. The weave's vacuum on the forced spin cover.** Read Lemma V's lines where it does not apply, on the 2T cover of
+  every odd-trace thread (fibre genus 3), as rank-one characters with their interior classes. Check also whether
+  Theorem C's bound holds at the weave's vacuum.
 - **R15. The family tensor on the parity triplet.** On the weave's T_d the invariant cubic is xyz, so B1271's zero does
   not transfer as stated.
 

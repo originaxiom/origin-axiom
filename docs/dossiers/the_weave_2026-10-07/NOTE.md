@@ -236,6 +236,50 @@ computed). **This is a thread result:** the frame reads one thread's own holonom
 - **The two constructions disagree on +LR.** Theorem G's sense (W6, the forced cover's own characters) finds the
   three alike on +LR. This sense finds nothing on +LR at tick 3.
 
+## W8. The frame at the weave's own vacuum (`the_weaves_vacuum.py`)
+
+**Why.** Main's S80: W6 needs a weave instrument, defined by the joint action and read on all threads at once, and every
+frame on record is a thread instrument. The record's frames read a thread's own vacuum, its hyperbolic holonomy ρ, through
+four(ρ): X ↦ gXg* on Hermitian matrices. The weave has one vacuum of its own, the common point ρ_Q (W2), which every move
+fixes and every thread carries (W3).
+
+**The module (PROVED).**
+- four(ρ_Q) = 1 ⊕ 3. The 3 is the adjoint, which is W4's parity triplet thread by thread, and it does not see the sign
+  ±g of the extension.
+- So ν ⊗ four(ρ_Q) is a sum of rank-one lines. By Shapiro each is a character of the thread's resolving tick:
+  - ν on the thread itself;
+  - ν·λ_p on the tick, one for each parity orbit.
+
+**Lemma V (PROVED): no rank-one line on a once-punctured-torus bundle is interior.**
+- **The statement.** Let ν be a character of a hyperbolic once-punctured-torus bundle, of finite order when it is
+  trivial on the fibre. Then h¹(ν) ≤ 1. When h¹(ν) = 1, ν is trivial on the cusp and the class restricts to it
+  injectively, so n(ν) = 0.
+- **Proof.**
+  - **u = ν∣F trivial.** The Wang sequence gives h¹ = 1 only for the trivial character: the act's eigenvalues on H¹(F)
+    are not roots of unity. That class, the fibration's, is non-zero on the cusp.
+  - **u non-trivial: the fibre.** H⁰(F; u) = 0, so H¹(M; ν) injects into H¹(F; u), which is one-dimensional
+    (χ(F) = −1).
+  - **u non-trivial: the puncture.** H¹(F; u) → H¹(∂F) is onto, because the next term H²(F, ∂F; u) ≅ H₀(F; u) is 0. So
+    it is an isomorphism, and a class of M restricts non-trivially to the puncture loop.
+  - **u non-trivial: the cusp.** That loop lies on the cusp torus. If ν were non-trivial on the cusp, H¹ of the torus
+    would vanish and so would the restriction. So ν is trivial on the cusp, and the class restricts injectively. □
+- **Every tick is such a bundle.** So the lemma holds on every state at every tick: WEAVE + WAVE.
+
+**The census, by rule** (every state to length 6 at its resolving tick; one pass; exact over ℚ(i)).
+- **The parity lines.** Each of the three parities carries exactly one line on every one of the 24 states: h¹ = 1 at
+  one κ = ±1. The line is trivial on the cusp and restricts to it injectively. That is 72 lines, none interior.
+- **Every character of order dividing 4.** 768 were read on the 24 ticks. None has n > 0.
+
+**What it shows.**
+- **At the weave's own vacuum the three parities are alike on every thread, of every class.** At the resolving tick
+  each carries one line.
+- **All three lines are on the end.** They are main's T-COMPANION-NO-ROOM lines, and none is interior.
+- **The frame at the weave's vacuum has no members on any state at any tick (Lemma V).** So, if Theorem C's bound
+  I(Λ²W₁) ≥ −n holds at this vacuum (to be checked, since four(ρ_Q) is reducible), it reads no generation anywhere.
+- **The three's content needs something else.** It needs either a thread's own geometry (the hyperbolic vacuum, where
+  W6 and W7 find members) or a cover that is not a once-punctured-torus bundle. The weave forces one such cover: the spin
+  cover, W3's 2T kernel, whose fibre has genus 3. That is where main's T-ROOM-NEEDS-GENUS puts room.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -248,6 +292,7 @@ computed). **This is a thread result:** the frame reads one thread's own holonom
 | W5 | READING (main's GENESIS FK14; GENESIS FK7) | the three generations are this triplet at every third tick: three, alike, carried into one another by the deck, which is the shift by one tick |
 | W6 | PROVED (WEAVE); COMPUTED (THREAD) | Theorem G: whatever one parity carries, all three carry. A thread result: on +LR each parity carries one generation of each type. The census: no other odd-trace thread to length 6 read so far carries any on its forced cover (eleven of twelve at order 4) |
 | W7 | COMPUTED (WEAVE, by rule) | in Theorem S's sense, at every state's resolving tick to length 6: members only on the pair of parities a state's symmetry exchanges (±LLRR, ±LLR, ±LLLLR), never on the parity it fixes, never on all three |
+| W8 | PROVED (Lemma V, WEAVE + WAVE); COMPUTED | the frame at the weave's own vacuum (the common point) reads rank-one lines: the three parity lines alike on every thread, all on the end; no member on any state at any tick |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -276,5 +321,7 @@ computed). **This is a thread result:** the frame reads one thread's own holonom
 - `the_mixing.py` → `the_mixing.json`: the weave's group on the triplet and the mixing of its subgroups (READING).
 - `the_weaves_laws.py` → `the_weaves_laws.json`: the trichotomy along the wave, the triplet's group (T_d, O_h, real), and
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
+- `the_weaves_vacuum.py` → `the_weaves_vacuum.json`: W8, the frame at the weave's vacuum on all 24 states at their
+  resolving tick (exact).
 - `the_parity_sectors.py` → `the_parity_sectors.json` (raw lines `the_parity_sectors.jsonl.gz`, sha-256 beside it):
   W7, R2 of the laws in Theorem S's sense; complete, 24 of 24, one pass.
