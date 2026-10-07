@@ -1,0 +1,296 @@
+{
+ "summary": "In every established construction, \"three generations\" is the value of an index, never a derived number: for heterotic E8×E8 on a Calabi-Yau threefold with a stable SU(n) bundle V (c1 = 0), the net generation count is ind(V) = Σ(−1)^p h^p(X,V) = (1/2)∫c3(V) = ∫ch3(V) = −h^1(V) + h^2(V), reducing for the standard embedding V = TX to (1/2)χ(X) = h^{1,1} − h^{2,1} (CHSW 1985, whose own model gave FOUR generations on the quintic/(Z5×Z5)); in F-theory it is χ(R) = n_R − n_R* = ∫_{S_R} G4 over the matter surface, with vector-like pairs cancelling identically in the one-loop Chern–Simons derivation. The number three enters by selection — a free quotient X/G divides the cover's index by |G| (and does so character by character: H^1(cover) decomposes as 3 × regular representation of G, so every Wilson-line character χ sees exactly 3 in its isotypic piece — Tian–Yau χ = −18/3 = −6, quintic/(Z5×Z5) with Ind = −75/25 = −3, the (8,44)→(1,4) Z12 quotient with −36/12 = −3), and in systematic scans three is imposed as a filter (ind(V) = 3k, k | χ(X), k ∈ S(X)) that cuts 2190 positive monads to 21. The shape condition n_5̄ = n_10 for SU(5) is the exact identity ch3(Λ²V) = (n−4)ch3(V) + c1 ch2 at n = 5, c1 = 0 (re-verified symbolically here), equivalent to 4d anomaly cancellation; \"no exotics\" is the separate vanishing of h^2(V) = h^1(V*) and h^2(Λ²V) = h^1(Λ²V*), which the index does not control (Braun's quintic model has one vector-like 5–5̄ pair the index cannot see). Empirically three is the LEP Z-invisible-width count N_ν = 2.9963 ± 0.0074 after the 2020 luminosity reanalysis. None of the 22 surviving claims contains a derivation of three; the Q5 orbifold mechanism and the Q4 triadophilia/family-symmetry/asymptotic-freedom material did not survive into the confirmed pool and are covered only by my own on-bench arithmetic (|det(ω−1)| = 3, χ_orb(T⁶/Z3) = 72), not by cited sources.",
+ "findings": [
+  {
+   "claim": "Q1 DEFINITION (heterotic): the net number of generations is the Atiyah–Singer index of the internal Dirac operator twisted by the gauge bundle. For a stable holomorphic SU(n) bundle V on a CY threefold X with c1(TX) = c1(V) = 0: ind(V) = Σ_{p=0}^{3}(−1)^p h^p(X,V) = ∫_X ch(V)Td(X) = (1/2)∫_X c3(V) = ∫_X ch3(V); stability (slope 0) gives h^0 = h^3 = 0 (h^3 = h^0(V*) by Serre duality), so ind(V) = −h^1(X,V) + h^2(X,V) = −(families) + (anti-families), with families counted by h^1(X,V) and anti-families by h^2(X,V) = h^1(X,V*). For the standard embedding V = TX (SU(3), H = E6): h^1(X,TX) = h^{2,1} chiral 27's and h^1(X,T*X) = h^{1,1} 27-bar's, so N_gen = |(1/2)χ(X)| = |h^{1,1} − h^{2,1}|; three generations requires χ(X) = ±6. For a monad 0→V→⊕O(b_i)→⊕O(c_j)→0, c3(V) = (1/3)d_rst(Σ b^r b^s b^t − Σ c^r c^s c^t). The sign conventions differ across papers (Anderson: n_gen = h^1(V) = −ind(V); He–Lee–Lukas: ind = −h^1 + h^2 with a three-family model at ind = −3), but the formula is the same; ch3 = c3/2 at c1 = 0 (checked symbolically).",
+   "confidence": "high",
+   "sources": [
+    "arXiv:0808.3621 (Anderson thesis, eqs. 5.19, 5.24, 5.25, B.21; Table 5.1; Table 6.40/6.50)",
+    "arXiv:0911.0865 (He–Lee–Lukas, Sec. 1 and Eq. 18)",
+    "arXiv:1112.1097 (Braun–Candelas–Davies–Donagi, ½χ = h^{1,1} − h^{2,1} = ±3)",
+    "CHSW, Nucl. Phys. B258 (1985) 46 — original reference for |χ|/2 (not in the verified pool as full text; abstract via collaborate.princeton.edu)"
+   ],
+   "evidence": "Claims [0], [1], [10], [17] merged: all four verified verbatim against downloaded PDFs; the (1/2)c3 = ch3 identity and the HRR degree-6 term were independently checked with sympy by the verifiers and by me. Votes 3-0 on every member. The only caveat is that none of the surviving sources is the 1985 CHSW original; the formula is attributed there by the secondary literature (Anderson thesis cites Griffiths–Harris [21]; He 1001.2419; Shishanin 2021).",
+   "vote": "3-0 (×4)"
+  },
+  {
+   "claim": "Q1 DEFINITION (F-theory): on an elliptically fibered CY fourfold the chiral index of matter in representation R is the integral of the M-theory four-form flux over the matter surface, χ(R) = n_R − n_R* = ∫_{S_R} G4, where S_R is the four-cycle obtained by fibering the vanishing P1's of the resolved singularity enhancement over the matter curve C_R (Braun–Collinucci–Valandro eq. 4.53; Grimm–Hayashi eq. 2.1). The derivation matches the G4-induced 3d Chern–Simons couplings Θ_ΛΣ = ∫G4∧ω_Λ∧ω_Σ with the one-loop shift from massive charged fermions on the Coulomb branch, Θ_ΛΣ = (1/2)Σ_f (q_f)_Λ(q_f)_Σ sign(Σ_Γ (q_f)_Γ ξ^Γ) (eq. 2.26), giving χ(R) = t_R^{ΛΣ}Θ_ΛΣ (eq. 2.32). The supersymmetric flux must be (2,2), primitive, and have 'one leg in the fiber' (transversality: ∫G4 vanishes on every pullback of a base divisor and on the fibration over any base curve), so it cannot be Poincaré dual to a complete intersection of the Weierstrass hypersurface with two ambient divisors; BCV build it as γ_ρ = σ_ρ − [ρ]·F from an algebraic (2,2) cycle that appears when a6 = ρτ factorizes.",
+   "confidence": "high",
+   "sources": [
+    "arXiv:1111.1232 (Grimm–Hayashi, eqs. 2.1, 2.19, 2.26, 2.32, 3.30–3.31)",
+    "arXiv:1107.5337 (Braun–Collinucci–Valandro, eqs. 2.3–2.6, 4.53, 4.55, 4.75, 5.40, 5.51)",
+    "corroborating (verifier-cited, not in pool): arXiv:1108.1794 (Marsano–Schäfer-Nameki), arXiv:1109.3454 (Krause–Mayrhofer–Weigand), hep-th/9605053 (Becker–Becker), hep-th/9908088 (Dasgupta–Rajesh–Sethi)"
+   ],
+   "evidence": "Claims [4], [6], [7] merged: all three verified verbatim against the downloaded PDFs, 3-0 each. The verifiers note (i) BCV test the formula against IIB weak-coupling and hedge ('seems natural', 'we claim'), the first-principles derivation being Grimm–Hayashi; (ii) the matter-surface Ansatz (3.27) is proved only for SU(N) fundamental and antisymmetric matter; (iii) genus-one fibrations without a section need a generalized transversality condition (1508.00162), outside the Weierstrass scope here.",
+   "vote": "3-0 (×3)"
+  },
+  {
+   "claim": "Q1 'VECTOR-LIKE PAIRS DO NOT COUNT' has a precise mechanism: a vector-like pair contributes weights w and −w with opposite U(1) charges q^{−w} = −q^w and opposite sign factors, so its one-loop Chern–Simons contribution is q^w q^w sign(w) + (−q^w)(−q^w)(−sign(w)) = 0 (Grimm–Hayashi eq. 2.31); hence only the chiral indices χ(R) = n_R − n_R* appear in the flux formula. The index is independent of the weight w chosen to build the matter surface and of the resolution phase because the difference is proportional to Θ_{iα}, which the F-theory conditions (unbroken G, no gauged Kähler axions) set to zero (eqs. 3.30–3.31, 2.18). In the heterotic language the same statement is that h^1(V) and h^2(V) can both be nonzero with the index fixed: Braun's quintic quotient has H^1(X,Λ²W) = 1+3, H^2(X,Λ²W) = 1, i.e. three 5̄'s plus one vector-like 5–5̄ pair, net 3 — the pair is invisible to the index and removable by a bundle-modulus perturbation (μ-term).",
+   "confidence": "high",
+   "sources": [
+    "arXiv:1111.1232 (eqs. 2.18, 2.30, 2.31, 3.30, 3.31)",
+    "arXiv:0909.5682 (Braun, eq. 60 and p. 16)"
+   ],
+   "evidence": "Claim [5] (3-0, verbatim from the PDF) plus the vector-like-pair part of claim [15] (3-0). The verifier notes that later KK-mode refinements of the one-loop CS terms (1210.6034) affect Θ_00 and Θ_0Λ but not the vector-like cancellation, and that the phase-independence is upheld by the box-graph analysis (1402.2653).",
+   "vote": "3-0 (×2)"
+  },
+  {
+   "claim": "Q1 EMPIRICAL CONTENT: the number of light active neutrino species from the Z invisible width is N_ν = (Γ_inv/Γ_ℓ)(Γ_ℓ/Γ_ν)_SM with (Γ_ν/Γ_ℓ)_SM = 1.991 ± 0.001 (PDG eq. 1; the ratio is used instead of (Γ_ν)_SM to reduce model dependence; Γ_inv = Γ_Z − Γ_had − 3Γ_ℓ). The four-LEP combination gives N_ν = 2.984 ± 0.008 (Phys. Rep. 427, 257 (2006)); the 2020 reanalyses including correlated luminosity systematics and an improved Bhabha cross-section (Janot–Jadach PLB 803, 135319; Voutsinas et al. PLB 800, 135068) give N_ν = 2.9963 ± 0.0074 — three, with the 20-year 2σ deficit gone (0.5σ). The PDG 2024/2025 editions carry identical numbers; the LEP dataset is closed so nothing supersedes it.",
+   "confidence": "high",
+   "sources": [
+    "PDG 2020 review 'Number of Light Neutrino Types from Collider Experiments' (pdg.web.cern.ch/2020/reviews/rpp2020-rev-light-neutrino-types.pdf)",
+    "arXiv:1912.02067 (Janot–Jadach)",
+    "arXiv:1908.01704 (Voutsinas–Perez–Dam–Janot)",
+    "PDG 2025 listing (ccwww.kek.jp/pdg/2025/listings/rpp2025-list-number-neutrino-types.pdf)"
+   ],
+   "evidence": "Claims [8] and [9] merged, both read directly from the PDF and re-checked against the 2024/2025 editions, 3-0 each. Note: this counts light (m < m_Z/2) neutrinos coupling to the Z with SM strength, not generations per se; the other two legs of the empirical case named in the research question (per-family anomaly cancellation; three complete families with identical gauge quantum numbers) were not in the surviving pool and are cited here only as standard textbook facts.",
+   "vote": "3-0 (×2)"
+  },
+  {
+   "claim": "Q2 FREE QUOTIENT — the index divides by |G|, and does so character by character. For a finite group G acting freely on X: χ(X/G) = χ(X)/|G| (so |G| | χ(X), and since χ is even for a CY3, |G| | χ(X)/2); the index of a G-equivariant bundle descends by the same division, ind(Ṽ) = ind(V)/|G|, so three families downstairs requires ind(V) = 3|G| upstairs (He–Lee–Lukas; Anderson eq. 5.28/5.31; AGLP eq. 4.22). Riemann–Roch on the quotient gives the sharper necessary bound |G| | M(S1,S2) = gcd(χ(Y)/2, χ(−ι*K_X)), e.g. M(dP3,dP3) = 3, M(dP6,dP6) = 12 (Bini–Favale, all 100 table entries recomputed). The refinement the research question asks about holds: the cohomology of the quotient bundle W = V/γ is the G-invariant part of H^*(X,V) under the equivariant structure γ; for a slope-stable bundle γ is unique up to tensoring with a character χ ∈ Hom(G,C^×) (= flat line bundle = discrete Wilson line, classified by the torsion of H^2(X/G,Z)), so the Wilson line χ selects the χ-isotypic component of the cover's cohomology, and by the holomorphic Lefschetz formula for a free action the index refines to h^2(X̃,Ṽ)_n − h^1(X̃,Ṽ)_n = (dim n/|G|) ind(Ṽ) for every irrep n (BCDD footnote 11). Worked cases: quintic monad 0→V→5O(1)⊕5O(2)→5O(3)→0 has Ind(V) = −75, H^1(Q,V) = 3 Σ_{i,j} r1^i r2^j = 3 × regular rep of Z5×Z5, so every character gives 3 (Braun eq. 55); the (8,44) dP6×dP6 hypersurface with free Z12 has χ(Ṽ) = −36 (deformation of TX̃⊕O⊕O), and each Z12 character carries index −3 (BCDD Sec. 4.2); Tian–Yau's cover (14,23), χ = −18, with free Z3 has χ(Y/G) = −6, (6,9), and H^{p,q}(Y/G) = H^{p,q}(Y)^G with h^{1,1}(Y)^G = 2 + (2/3)(χ(Fix π1∘φ) + χ(Fix π2∘φ)) = 6 (3 fixed points per Fermat cubic), each Z3 isotypic sector carrying index −6/... i.e. 3 net generations (verifier's isotypic decomposition H^{1,1} = 6+4+4, H^{2,1} = 9+7+7). The bundle must descend (admit a G-equivariant structure), a non-trivial constraint that He–Lee–Lukas and Anderson explicitly do not analyse.",
+   "confidence": "high",
+   "sources": [
+    "arXiv:0909.5682 (Braun, Secs. 3.2, 4.3, eqs. 21, 55, 60)",
+    "arXiv:1112.1097 (BCDD, Sec. 4.2 and footnote 11)",
+    "arXiv:1104.0247 (Bini–Favale, Thm 2.1, Def. 2.2, Thm 3.1, Sec. 4.2)",
+    "arXiv:0911.0865 (He–Lee–Lukas, Sec. 1)",
+    "arXiv:0808.3621 (Anderson, eqs. 5.28, 5.31, Sec. 5.7.1)",
+    "corroborating (verifier-cited): arXiv:1106.4804 (AGLP, 'Γ-invariant part of H^1(X,L)⊗R_W'), arXiv:0805.2875, arXiv:0910.5464"
+   ],
+   "evidence": "Claims [2], [11], [13], [14], [16], [18], [19], [20] merged. All 3-0, all verified against downloaded primary PDFs with independent recomputation (Braun's ch3 = −75 and coker dimension 75; BCDD's −36/12 = −3; Bini–Favale's 10×10 table; the Tian–Yau fixed-point count 3 per factor via eigen-analysis). Two REFUTED claims touched this finding and are excluded: the 1112.1097 'isotypic rule' claim (0-3) overstated that H^1(X̃,Ṽ) contains 3 copies of the regular rep of Z12 — the paper proves the per-character INDEX is −3, not h^1_n = 3, which needs the separate vanishing of H^0, H^2, H^3 in that character; and the 1202.1757 equivariant-descent claim (1-2). The finding as stated uses only what the papers prove: the index refines per character; h^1 per character equals 3 where the paper establishes the vanishings (Braun's quintic, by explicit computation).",
+   "vote": "3-0 (×8); two adjacent claims refuted"
+  },
+  {
+   "claim": "Q2 WILSON LINES AND GAUGE BREAKING: a Wilson line is a homomorphism π1(X/G) = G → H (the GUT group), i.e. a flat H-bundle, used for the second-stage breaking: G = Z2 (generator 1_3 ⊕ −1_2 in SU(5)) breaks SU(5) → SU(3)×SU(2)×U(1); SO(10) needs Z_m×Z_n with m,n ≥ 3, so Z3×Z3 is minimal, breaking SO(10) → SU(3)×SU(2)×U(1)^2 (Anderson Sec. 5.7.1 citing GSW vol. 2). Z5 Wilson lines are central in SU(5) and cannot break it to the SM (Braun p. 2) — so on Braun's quintic quotient the character χ selects isotypic components but leaves the GUT group intact. CHSW's own 1985 model was already a free quotient with Wilson lines proposed: the quintic/(Z5×Z5) with standard embedding gives (1/2)χ/25 = 100/25 = 4 generations with E6; the first three-generation model needed a manifold with χ = −18 and a free Z3 (Tian–Yau, χ = −6), and the first three-generation SU(5) model on the quintic quotient needed a non-standard (monad) bundle (Braun 2009).",
+   "confidence": "high",
+   "sources": [
+    "arXiv:0808.3621 (Sec. 5.7.1)",
+    "arXiv:0909.5682 (Introduction)",
+    "CHSW Nucl. Phys. B258 (1985) 46 (abstract: 'E6 gauge group with four standard generations')",
+    "corroborating (verifier-cited): hep-th/0603015, arXiv:0712.3563 §4.1, arXiv:0911.1569"
+   ],
+   "evidence": "Claims [2], [3], [14] (gauge-breaking parts) merged, 3-0 each. The CHSW four-generation statement is verified only at abstract level; the identification of the manifold as quintic/(Z5×Z5) comes from Braun–Brelidze–Douglas–Ovrut 0712.3563 (verifier-cited). Caveat: the heterotic line-bundle standard models (AGLP 1106.4804, 1202.1757) that the research question names did not survive into the pool as a Q2 claim (one was refuted 1-2 on wording), so Wilson-line selection in the line-bundle class is attested here only through the verifier's quote of AGLP p. 5 ('Γ-invariant part of H^1(X,L)⊗R_W').",
+   "vote": "3-0 (×3)"
+  },
+  {
+   "claim": "Q3 THE SHAPE CONDITION: for an SU(5) heterotic bundle, n_10 = h^1(V), n_10̄ = h^1(V*) = h^2(V), n_5̄ = h^1(Λ²V), n_5 = h^1(Λ²V*) = h^2(Λ²V), n_1 = h^1(V⊗V*) (Braun eq. 54; Anderson Table 5.1). The net number of 5̄'s equals the net number of 10's because of the exact index identity ind(Λ²U) = (rk U − 4) ind(U) + c1(U)(ch2(U) + c2(TX)/4) (AGLP 1202.1757 eq. 4.18), i.e. at the Chern-root level ch3(Λ²V) = (n−4)ch3(V) + c1(V)ch2(V), which at n = 5, c1 = 0 gives ind(Λ²V) = ind(V) and N(10) = −ind(V) = −ind(Λ²V) = N(5̄) (eq. 4.21); equivalently 4d anomaly cancellation (Braun footnote 13). Re-verified here by sympy at ranks 2–7 (residual 0). Beyond the index, 'no exotics' means the separate vanishing of h^2(V) = h^1(V*) (no anti-10's), h^2(Λ²V) = h^1(Λ²V*) (no 5's beyond the Higgs pair) — conditions the index does not control; positive monads satisfy h^1(V*) = 0 (Anderson 6.40/6.50), and Braun's quintic quotient has exactly one vector-like 5–5̄ pair whose presence depends on the Wilson-line character (H^2(Q,Λ²V) is not a multiple of the regular representation, eq. 59).",
+   "confidence": "high",
+   "sources": [
+    "arXiv:1202.1757 (AGLP, eqs. 4.18, 4.21, Sec. 4.3, condition S1)",
+    "arXiv:0909.5682 (Braun, eq. 54, footnote 13, eqs. 59–60)",
+    "corroborating (verifier-cited): arXiv:1108.5610 eq. 2.15; arXiv:0808.3621 eq. 6.66 (the thesis claim itself was refuted 1-2 for an overbar-extraction ambiguity, not for the identity)"
+   ],
+   "evidence": "Claims [15] and [21] merged, 3-0 each, with two independent symbolic re-derivations by the verifiers and a third by me (ranks 2–7). The refuted Anderson-thesis claim (1-2) was rejected only because PDF text extraction dropped the overbars in eqs. 6.67–6.69, leaving the barred/unbarred assignment reconstructed — the identity c3(Λ²V) = (n−4)c3(V) itself is consistent with the two surviving sources.",
+   "vote": "3-0 (×2); one adjacent claim refuted on typography"
+  },
+  {
+   "claim": "Q4 SELECTION, NOT DERIVATION — landscape evidence: in the only surviving systematic scan, three is imposed as a filter and never derived. Of 2190 anomaly-free positive monads on 11 of the 101 toric CY hypersurfaces, 265 satisfy the 'mild' constraint ind(V) = 3k with k | χ(X), and only 21 (on 3 spaces, all already-known CICY hypersurfaces; 19 SU(3), 1 SU(4), 1 SU(5)) survive the 'strong' constraint Eq. (38): 1. ind(V) = 3k, k ≠ 0; 2. k | χ(X); 3. k ∈ S(X), the set of group orders allowed by the Candelas–Lütken–Schimmrigk divisibility of χ(N^k⊗TX^l) and σ(N^k⊗TX^l). Of ~44321 semi-positive monads, 2590 pass the mild and 280 the strong constraint (195 SU(3), 72 SU(4), 13 SU(5)). The paper's own language is 'impose a basic three-family constraint ... to filter out phenomenologically promising cases'; it contains no derivation of three. Every other construction in this report (Tian–Yau, quintic/(Z5×Z5), the Z12 quotient, F-theory flux) likewise chooses a space, bundle, group and flux whose index is three.",
+   "confidence": "high",
+   "sources": [
+    "arXiv:0911.0865 (He–Lee–Lukas, Secs. 4.2 and 5, Eq. 38, Tables 3–5)",
+    "corroborating (verifier-cited): arXiv:1108.1031"
+   ],
+   "evidence": "Claim [12], 3-0, every count re-summed by the verifier from Tables 2–5. Verifier qualification: 'never derived' is universal and this single paper supports it only for itself; the universal statement is consistent with every other surviving claim but is not proven by the pool. The Q4 survey items the research question named — anomaly arguments, asymptotic-freedom bounds, triadophilia (Candelas–de la Ossa–He–Szendrői 0706.3134), family symmetries A4/S3/Δ(27)/Z3 — produced NO surviving claim; 0706.3134 appears only as a verifier cross-check of the Tian–Yau Hodge numbers (6,9).",
+   "vote": "3-0"
+  },
+  {
+   "claim": "Q5 THE ORBIFOLD MECHANISM — NOT COVERED by any surviving claim; my on-bench arithmetic only (no source in the verified pool). (a) The order-3 rotation ω of the hexagonal (Eisenstein) lattice, in the basis (1, ζ3), is ω = [[0,−1],[1,−1]]; ω³ = I and |det(ω − 1)| = 3, so each T² factor has 3 fixed points and T⁶/Z3 has 3³ = 27. (b) The orbifold Euler number χ_orb = (1/|G|) Σ_{gh=hg} χ(X^{g,h}) = (1/3)(χ(T⁶) + 8·27) = (1/3)(0 + 216) = 72, matching the resolved Z-orbifold's (h^{1,1}, h^{2,1}) = (36, 0): 2(36 − 0) = 72, i.e. 36 net 27's (27 twisted + 9 untwisted) with E6×SU(3)×E8 and no Wilson lines. The Wilson-line cut 27 → 9 → 3 (one Wilson line per T² factor distinguishing its three fixed points by the gauge-embedding of the lattice shift, and the smooth count after blow-up) is standard (Dixon–Harvey–Vafa–Witten 1985/86; Ibáñez–Nilles–Quevedo 1987) but was not verified by any source in this run.",
+   "confidence": "low",
+   "sources": [
+    "on-bench sympy check (this synthesis, <scratchpad>): ω³ = I, |det(ω−1)| = 3, χ_orb(T⁶/Z3) = 72 = 2(36−0)",
+    "standard references NOT verified in this run: Dixon–Harvey–Vafa–Witten Nucl. Phys. B261 (1985) 678 and B274 (1986) 285; Ibáñez–Nilles–Quevedo Phys. Lett. B187 (1987) 25"
+   ],
+   "evidence": "No confirmed, refuted or pending claim in the pool addresses T⁶/Z3, its 27 fixed points, Wilson-line cutting or the blow-up. The three numbers above are elementary and I computed them; everything else in this finding is textbook recall and must be treated as UNVERIFIED for the deliverable's 'each claim marked verified/unverified' requirement.",
+   "vote": "none (not in pool)"
+  },
+  {
+   "claim": "FINAL TABLE — what 'three generations' requires, as established by the surviving sources: (1) an INDEX of closed-cycle cohomology: ind(V) = ∫ch3(V) = −h^1(V) + h^2(V) [heterotic; VERIFIED], ∫_{S_R} G4 [F-theory; VERIFIED], (1/2)χ = h^{1,1} − h^{2,1} [standard embedding; VERIFIED] — or fixed points of a global order-3 symmetry [orbifold; UNVERIFIED in this run, arithmetic checked]; (2) equal 10 and 5̄ counts: ind(Λ²V) = ind(V) at rank 5, c1 = 0 [VERIFIED, three independent symbolic checks]; (3) no chiral exotics: h^2(V) = h^1(V*) = 0 and h^2(Λ²V) = h^1(Λ²V*) = 0 as separate conditions the index does not impose [VERIFIED; the vector-like pair in Braun's model is the live example]; (4) characters of a free group selecting: on X/G the count is the χ-isotypic piece of the cover's cohomology, the index splitting as (dim n/|G|) ind per irrep, with the Wilson line = character = flat line bundle both selecting and (when non-central) breaking the GUT group [VERIFIED: Braun eq. 55, BCDD fn. 11, Bini–Favale Thm 2.1; the stronger 'h^1_n = 3 for every character' holds only where the vanishings are proved, which the refuted 1112.1097 claim skipped]; (5) nobody derives three: every surviving construction selects (space, bundle, group order, flux) and the one systematic scan imposes ind = 3k as a filter [VERIFIED for the pool; universal claim consistent but not proven]; (6) empirically, three = N_ν = 2.9963 ± 0.0074 [VERIFIED].",
+   "confidence": "high",
+   "sources": [
+    "all sources above"
+   ],
+   "evidence": "This row is the synthesis of the nine findings above; each cell's verification status is inherited from the finding it cites.",
+   "vote": "synthesis"
+  }
+ ],
+ "caveats": "(1) COVERAGE GAPS, not disagreements: Q5 (the T⁶/Z3 orbifold, 27 fixed points, Wilson-line cut 27→9→3, blow-up to χ = 72) has NO claim in the confirmed pool; the finding given is my own three-line sympy arithmetic plus textbook recall and must be read as unverified. Q4's survey items (anomaly arguments, asymptotic-freedom bounds, triadophilia 0706.3134, family symmetries A4/S3/Δ(27)/Z3 and what they explain vs assume) likewise produced no surviving claim; the only Q4 evidence is one landscape scan (0911.0865). (2) The isotypic-part refinement is established at the level of the INDEX per character (BCDD fn. 11, holomorphic Lefschetz for free actions) and at the level of h^1 only where the vanishings H^0 = H^2 = H^3 = 0 are proved in that character (Braun's quintic by explicit computation). The refuted 0-3 claim on 1112.1097 shows how easily this is overstated; do not cite 'every Wilson line gives three 10's' beyond the quintic case. (3) Sign conventions vary (ind = −3 vs +3 for three families; CHSW's |χ|/2 vs Anderson's signed ½χ); formulas agree once the generation/anti-generation assignment is fixed. (4) The original CHSW 1985 paper is attested only at abstract level; the |χ|/2 formula is cited from 2008–2012 secondary primaries (Anderson thesis, BCDD, He–Lee–Lukas), not from the 1985 text. The Tian–Yau original (Adv. Ser. Math. Phys. 1 (1987) 543) is attested through Bini–Favale and Bouchard, not read. (5) Three claims were refuted for wording or typography (Anderson thesis overbars lost in extraction; AGLP descent claim 1-2; the 1112.1097 isotypic overstatement 0-3); their underlying identities survive in other sources. (6) Source locators in two claims were wrong (Anderson 'p. ~230' is p. 166/PDF 179; 'p. 80 region' is PDF p. 89) — immaterial but flagged. (7) The F-theory matter-surface Ansatz is proved only for SU(N) fundamental and antisymmetric matter; the transversality condition as stated assumes a Weierstrass model with a section. (8) Time-sensitivity: none of the mathematics is time-sensitive; the LEP N_ν value is final (dataset closed), carried unchanged in PDG 2024/2025. (9) For this repository's own purposes (B1496's six sealed expectations), the pool confirms: the count is an index (expectation 1), selection by free quotient with Wilson-line characters selecting isotypic pieces (2), the 5̄ = 10 index identity (3), nobody derives three within this pool (4); the Z3-orbifold expectation (5) and the E8-family-triplet expectation (6) are unaddressed by the pool.",
+ "openQuestions": [
+  "Does every heterotic three-generation model on a free quotient have H^1(cover, V) ≅ 3 × (regular representation of G), or is that specific to Braun's quintic monad? The holomorphic Lefschetz formula forces only the INDEX to be a multiple of the regular representation; for BCDD's Z12 model the h^1 per character is established only via separate vanishing theorems, and for Tian–Yau the verifier's isotypic decomposition (H^{2,1} = 9+7+7, H^{1,1} = 6+4+4) is an on-bench recomputation, not a cited result.",
+  "Is there any construction in which the number three is derived rather than selected — e.g. from triadophilia-style minimality (CY with |χ| = 6 and smallest Hodge numbers), from an asymptotic-freedom or anomaly bound that excludes N ≠ 3, or from a family symmetry that fixes the representation content rather than assuming three copies? None of these entered the verified pool, so the 'nobody derives three' conclusion rests on the constructions surveyed, not on an exhaustive negative.",
+  "For the T⁶/Z3 orbifold: how exactly does the resolved count relate to the orbifold count with Wilson lines — i.e. does the smooth (36,0) model with a line-bundle sum reproduce the 27→9→3 Wilson-line cut as a choice of equivariant structure on the 27 exceptional divisors, and is that cut again a character-isotypic selection (characters of the lattice-shift group) as in the free-quotient case? Unverified here; it is the natural bridge between the 'fixed points of a global order-3 symmetry' and the 'index of closed-cycle cohomology' columns of the final table.",
+  "In F-theory, is the vector-like spectrum (the part the index ∫G4 cannot see) computable from the flux alone, e.g. via the cohomology of the line bundle induced on the matter curve, and does any F-theory three-generation model have zero vector-like exotics without tuning? The pool establishes only the chiral index and the cancellation of vector-like pairs in it."
+ ],
+ "refuted": [
+  {
+   "claim": "(Q3, the shape condition) For an SU(n) bundle with c1 = 0 one has c3(Lambda^2 V) = (n-4) c3(V) (eq. 6.66, attributed to eq. (339) of ref. [131]), so that if H^0(Lambda^2 V) = H^0(Lambda^2 V*) = 0 the index theorem on Lambda^2 V gives (n-4) ind(V) = -h^1(X, Lambda^2 V) + h^1(X, Lambda^2 V*) (eq. 5.26). For n = 5 this is the identity that makes the net number of 5-bars equal the net number of 10s: the thesis writes -n_5 + n_5bar = ind(V) = -n_10 (eq. 6.67), and for the positive rank-5 monads finds n_5 = h^1(X, Lambda^2 V*) = 0 generically (6.68), hence n_5bar = n_10 (6.69). Particle-cohomology dictionary (Table 5.1): n_10 = h^1(V), n_10bar = h^1(V*) = h^2(V), n_5bar = h^1(Lambda^2 V), n_5 = h^1(Lambda^2 V*), n_1 = h^1(V tensor V*); for E6: n_27 = h^1(V), n_27bar = h^1(V*); for SO(10): n_16 = h^1(V), n_16bar = h^1(V*), n_10 = h^1(Lambda^2 V). No-exotics beyond the index: positive monads have H^2(X,V) = H^1(X,V*) = 0 so no anti-generations (eqs. 6.40, 6.50). VERIFIED for eqs. 5.26, 6.66; CAVEAT: PDF text extraction dropped the overbars in 6.67-6.69 and Table 5.1, so the barred/unbarred assignment above is reconstructed from the branching 248 -> (5,10)+(5bar,10bar)+(10,5bar)+(10bar,5) printed in Table 5.1 -- check against the typeset PDF before citing the signs.",
+   "vote": "1-2",
+   "source": "https://arxiv.org/abs/0808.3621"
+  },
+  {
+   "claim": "[Q2, VERIFIED] The Wilson line (a homomorphism pi_1(X) = Z12 -> SU(5)_GUT) selects surviving zero modes by the isotypic rule: a massless field on X is a cohomology class of the cover whose Z12 character is conjugate to the Wilson-line character on its gauge representation, i.e. the invariant part of H^1(X~, V~ ⊗ R) under the combined action. Because H^1(X~,V~) contains 3 copies of the regular representation of Z12, every irrep appears three times, so ANY choice of Wilson line yields exactly three 10's -- confirming that the generation count on X/G with character chi equals the dimension of the chi-isotypic part of the cover's cohomology.",
+   "vote": "0-3",
+   "source": "https://arxiv.org/abs/1112.1097"
+  },
+  {
+   "claim": "Q2 (VERIFIED from the text): the chiral index of a Gamma-equivariant bundle divides by the group order when descending to the free quotient X-hat = X/Gamma, ind(U-hat) = ind(U)/|Gamma| (eq. 4.22), so a three-generation downstairs model requires the UPSTAIRS index condition -ind(V) = sum_a N(10_{e_a}) = 3|Gamma| (eq. 4.43, condition S1). The 200 upstairs GUT models of arXiv:1106.4804 all carry 3|Gamma| chiral 10s on the cover X; descent is only possible if every line bundle U_a admits a Gamma-equivariant structure (lift of the free action satisfying the cocycle condition phi_g o phi_h = phi_gh, eq. A.2), whose ambiguity is a character chi_a of Gamma per bundle.",
+   "vote": "1-2",
+   "source": "https://arxiv.org/abs/1202.1757"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://arxiv.org/abs/0808.3621",
+   "quality": "primary",
+   "angle": "Q1 definition and index formulas (primary/technical)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://collaborate.princeton.edu/en/publications/vacuum-configurations-for-superstrings/",
+   "quality": "primary",
+   "angle": "Q1 definition and index formulas (primary/technical)",
+   "claimCount": 4
+  },
+  {
+   "url": "https://arxiv.org/abs/1111.1232",
+   "quality": "primary",
+   "angle": "Q1 definition and index formulas (primary/technical)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/1107.5337",
+   "quality": "primary",
+   "angle": "Q1 definition and index formulas (primary/technical)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://pdg.web.cern.ch/2020/reviews/rpp2020-rev-light-neutrino-types.pdf",
+   "quality": "primary",
+   "angle": "Q1 definition and index formulas (primary/technical)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/0911.0865",
+   "quality": "primary",
+   "angle": "Q1 definition and index formulas (primary/technical)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/0909.5682",
+   "quality": "primary",
+   "angle": "Q2 free quotients and Wilson lines (construction history)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/1112.1097",
+   "quality": "primary",
+   "angle": "Q2 free quotients and Wilson lines (construction history)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/1104.0247",
+   "quality": "primary",
+   "angle": "Q2 free quotients and Wilson lines (construction history)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/1202.1757",
+   "quality": "primary",
+   "angle": "Q3 the shape condition: 10 vs 5-bar and no-exotics (technical identity)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/hep-th/0403291",
+   "quality": "primary",
+   "angle": "Q3 the shape condition: 10 vs 5-bar and no-exotics (technical identity)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/hep-th/0512149",
+   "quality": "primary",
+   "angle": "Q3 the shape condition: 10 vs 5-bar and no-exotics (technical identity)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/hep-th/0008008",
+   "quality": "primary",
+   "angle": "Q3 the shape condition: 10 vs 5-bar and no-exotics (technical identity)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/1106.4804",
+   "quality": "primary",
+   "angle": "Q3 the shape condition: 10 vs 5-bar and no-exotics (technical identity)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/hep-th/0502155",
+   "quality": "primary",
+   "angle": "Q3 the shape condition: 10 vs 5-bar and no-exotics (technical identity)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/0706.3134",
+   "quality": "primary",
+   "angle": "Q4 why three: derivation vs selection (contrarian/skeptical)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/hep-th/0611095",
+   "quality": "primary",
+   "angle": "Q4 why three: derivation vs selection (contrarian/skeptical)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/hep-th/0510170",
+   "quality": "primary",
+   "angle": "Q4 why three: derivation vs selection (contrarian/skeptical)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/1602.03003",
+   "quality": "primary",
+   "angle": "Q4 why three: derivation vs selection (contrarian/skeptical)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/hep-ph/0411286",
+   "quality": "primary",
+   "angle": "Q5 the Z3 orbifold mechanism (fixed points and Wilson lines)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/hep-th/9304045",
+   "quality": "primary",
+   "angle": "Q5 the Z3 orbifold mechanism (fixed points and Wilson lines)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/0802.2809",
+   "quality": "primary",
+   "angle": "Q5 the Z3 orbifold mechanism (fixed points and Wilson lines)",
+   "claimCount": 5
+  },
+  {
+   "url": "https://arxiv.org/abs/0812.3503",
+   "quality": "primary",
+   "angle": "Q5 the Z3 orbifold mechanism (fixed points and Wilson lines)",
+   "claimCount": 5
+  }
+ ],
+ "stats": {
+  "angles": 5,
+  "sourcesFetched": 23,
+  "claimsExtracted": 114,
+  "claimsVerified": 25,
+  "confirmed": 22,
+  "killed": 3,
+  "unverified": 0,
+  "afterSynthesis": 10,
+  "urlDupes": 4,
+  "budgetDropped": 3,
+  "agentCalls": 105
+ },
+ "agentCount": 105,
+ "totalTokens": 7853612,
+ "totalToolCalls": 1178
+}

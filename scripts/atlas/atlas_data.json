@@ -10358,6 +10358,22 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1496": {
+   "slug": "three generations researched",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B486"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B149": {
    "slug": "sl4 ideal completeness",
    "motifs": [

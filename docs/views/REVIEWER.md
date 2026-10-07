@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1324** |
-| words of findings prose | **1,030,688** |
-| test lock files referenced | **769** |
-| arcs carrying an authored verdict | **1324** (100.0 %) |
+| research arcs with findings | **1325** |
+| words of findings prose | **1,031,559** |
+| test lock files referenced | **770** |
+| arcs carrying an authored verdict | **1325** (100.0 %) |
 | recorded closures | **806** (639 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 892 |
+| PROVED | 893 |
 | NEGATIVE | 330 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1494`** (1639 words, 1 locks)  
-NO ROOM ON ANY COMPANION, AND ONE COMPANION WITH ROOM (sealed 0b45b1fb0 / 3f1dbc5e; the owner's 'follow the light'). T-COMPANION-NO-ROOM: for every word state M with torsion T = coker(phi - I) and its fixed-point companion N (deck group T, the cusp lifting to |T| cusps), b1(N) = |T| and the trivial line has no interior class -- Shapiro over the torsion's characters, each non-trivial one having h^1(M; chi) = 1 because H^1(F; chi) -> H^1(dF; chi) is an isomorphism and the monodromy fixes the puncture circle; verified at every torsion character of all 758 own-level states to length twelve (exact, two primes) and on 265 companions built (|T| <= 60: each with |T| cusps, b1 = |T|, volume |T| times the state's; +LLLR's the only one with three ends). The census: m136's companion has room 0 at all 16 sign characters; m135's eight-ended companion has ROOM 2 at eight of 256 -- verified by its 255 double covers -- every one trivial on no end, where the seat's floor gives zero generations whatever the room and the four has no class to extend. N45 rebuilt on main from the seat's recipe (the unique 5-fold cyclic cover of a one-cusped degree-9 cover of m003 with five cusps and Z^9 + (Z/2)^2; n(1) = 4, |Sym| 240): its fifteen cusp-trivial fourth-power sign characters read ten at room 1 and five at room 3 -- the seat's numbers -- and the whole census reaches room 6. The mechanism: a count needs ends with trivial character where a class dies (the floor) and a line with room (the cap); on every companion read they never meet at one character, on N45 they meet and the count reaches two. GENESIS v1.20. 0 of 19.  
-`B1494_no_room_on_any_companion/FINDINGS.md`
+**PROVED — `B1496`** (871 words, 1 locks)  
+THREE GENERATIONS, RESEARCHED FIRST (sealed 02a95f4e6 / 3b95d95f; the owner's 'so we dont expect eyes from the blind'). A deep-research run (5 angles, 23 sources, 114 claims, 22 confirmed by three votes each, 3 refuted, 105 agents) against six sealed expectations: the physical three is an INDEX of closed-cycle cohomology (ind(V) = int ch3(V) = -h^1 + h^2; |chi|/2 for the standard embedding; int_{S_R} G4 in F-theory), vector-like pairs cancelling identically -- HELD; it is obtained in every known construction by SELECTION, a free quotient dividing a cover's count by |G| and Wilson lines (characters of G) selecting the isotypic piece, the index refining per character by holomorphic Lefschetz -- HELD at the index level (an overstatement to h^1 = 3 per character refuted 0-3); the 5bar and 10 counts are equal by ch3(Lambda^2 V) = (n - 4) ch3(V) at n = 5 (re-derived on main), no-exotics a separate condition -- HELD; nobody derives three (one scan filters, every construction selects) -- HELD for the pool; the Z3 orbifold's 27 = 3^3 fixed points cut to three by Wilson lines -- arithmetic held on main, the mechanism UNVERIFIED in the run; the E8 family triplet UNADDRESSED. Two facts not expected: CHSW's 1985 model had four generations; Braun's quintic carries a vector-like pair the index cannot see. The record's two frames are the two mechanisms -- F-CI the orbifold count, F-HE the smooth count (room = closed cycles, companion = cover, members = characters, Shapiro = the index per character) -- and the family is blind to both by construction (no global order-3 isometry; no closed cycle); one dictionary error exposed: three generations is ONE rank-5 bundle of index three, never three rank-5 bundles -- B1495's (3, 9) is the direct sum's; THE_BAR's baseline: selection is the state of the art. docs/THREE_GENERATIONS_RESEARCHED.md. 0 of 19.  
+`B1496_three_generations_researched/FINDINGS.md`
 
 **NEGATIVE — `B1495`** (892 words, 1 locks)  
 THE ORBIT IN ONE MODULE (sealed 3c1fadd9e / 9197f21e): L8a15's three one-generation members, one orbit of the deck Z/3 (the SM seat's three-orbit, verified at S74), read as a single rank-15 module W = W1 + W2 + W3. I(W) = -3 by additivity -- three on the 10' side -- but I(Lambda^2 W) = -9: the three cross terms W_i x W_j (rank 25) read -2 each, equal and carried around the ends by the deck symmetry (each has h^0 = 5 on the one end where the product character is trivial), and the piece responsible is named: W_i x V_j and V_i x W_j read -1 each -- generation i's class seen through generation j's four -- while V_i x V_j reads 0. So the orbit counts (10', 5bar') = (3, 9), not (3, 3): the deck symmetry relates the three generations exactly, and their exterior square is not three generations' exterior square. NEGATIVE, scoped: the reading 'three generations = the deck orbit of a member' survives on the 10' side only and stays a selection under FK14; a glued module (three members fused, as B1486 fused two orders) and the two deck-fixed spin structures are not ruled. Disclosed: an import path one level short in the sealed file, corrected before any reading. 0 of 19.  

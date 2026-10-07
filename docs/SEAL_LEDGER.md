@@ -96,7 +96,7 @@ hash-first status.*
 | frontier/B1493_the_room_on_the_companions/PREREGISTRATION.md | 33a721bb | 5ef37c794 | 1 | yes |
 | frontier/B1494_no_room_on_any_companion/PREREGISTRATION.md | 3f1dbc5e | 0b45b1fb0 | 1 | yes |
 | frontier/B1495_the_orbit_in_one_module/PREREGISTRATION.md | 9197f21e | 3c1fadd9e | 1 | yes |
-| frontier/B1496_three_generations_researched/PREREGISTRATION.md | 3b95d95f | b970bc8f2 | 1 | NO |
+| frontier/B1496_three_generations_researched/PREREGISTRATION.md | 3b95d95f | 02a95f4e6 | 1 | yes |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -356,9 +356,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 345 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 345 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
