@@ -3,7 +3,8 @@
 
 The seat's data: exact holonomies in SL(2, Z[w]) (reps.txt: entries [x, y] = x + y w, w^2 + w + 1 = 0; a matrix as
 [a, b, c, d]).  Main's code: the arithmetic in Z[w] and Z[w]/4, the image of the figure-eight group K mod 4 (160 elements
-of 1920, index 12 -- level 4), the action of pi_1(target) on the 12 cosets, the orbit containing K and its stabiliser,
+of the 1920 of SL(2, Z[w]/4)/{+-I} -- NOT PSL(2, Z[w]/4), whose order is 960 (the record's E21 guard); index 12 -- level 4 in the
+standard sense: K contains the image of the SL kernel), the action of pi_1(target) on the 12 cosets, the orbit containing K and its stabiliser,
 the cover built in SnapPy from the permutation representation, and its measures: cusps, H_1, volume, |Sym|, chirality
 (an orientation-reversing isometry), and B1418's cusp counts |det(X - I)| over the cusp-fixing orientation-preserving
 isometries (the 'three' is a value 3).
@@ -64,7 +65,9 @@ def closure(gens, n):
 
 
 def psl_mod(n):
-    """all of PSL(2, Z[w]/n) by closure from generators"""
+    """all of SL(2, Z[w]/n) modulo +-I by closure from generators (the canonical form identifies +-A).  For n = 4 this is the
+    order-1920 group SL(2, Z[w]/4)/{+-I}, which is NOT PSL(2, Z[w]/4) (order 960; the centre of SL(2, Z[w]/4) has four
+    elements) -- the record's E21 class.  The name is kept for the file's history; the docstring is the truth."""
     gens = [((ONE, ONE), (ZERO, ONE)), ((ONE, W), (ZERO, ONE)), ((ONE, ZERO), (ONE, ONE)), ((ONE, ZERO), (W, ONE))]
     return closure(gens, n)
 
@@ -86,6 +89,26 @@ def perm_action(keys, Kbar, gens_mod):
     for g, h in gens_mod.items():
         perms[g] = [index[key_of(mmul(h, keys[k], N))] for k in names]
     return perms, index
+
+
+def orbit_perms(target, m004=None):
+    """(gens, rels, P, number of cosets): P[g] is the LEFT action i -> index of g * coset_i on the orbit of K's coset"""
+    m004 = m004 or M004_SEAT
+    gens, rels, rep = load(target)
+    G4 = psl_mod(4); Kbar = closure([red(m004[g], N) for g in "ab"] + [red(minv(m004[g]), N) for g in "ab"], N)
+    keys = cosets(Kbar, G4); assert len(keys) == 12, len(keys)
+    perms, index = perm_action(keys, Kbar, {g: red(rep[g], N) for g in gens})
+    k0 = min(canon(mmul(I2, h, N), N) for h in Kbar); i0 = index[k0]
+    orbit = {i0}; frontier = [i0]
+    while frontier:
+        nxt = []
+        for i in frontier:
+            for g in gens:
+                j = perms[g][i]
+                if j not in orbit: orbit.add(j); nxt.append(j)
+        frontier = nxt
+    orbit = sorted(orbit); relabel = {c: i for i, c in enumerate(orbit)}
+    return gens, rels, {g: [relabel[perms[g][c]] for c in orbit] for g in gens}, len(keys)
 
 
 if __name__ == "__main__":
@@ -126,26 +149,15 @@ if __name__ == "__main__":
         out["K_seat_conjugate_to_K_riley_mod4"] = found is not None
         json.dump(out, open(HERE / "controls.json", "w"), indent=1, default=str); print(json.dumps({k: v for k, v in out.items() if not isinstance(v, dict)}))
     elif cmd == "cover":
-        target = sys.argv[2]; gens, rels, rep = load(target); gens0, m004 = ["a", "b"], (RILEY if "--riley" in sys.argv else M004_SEAT)
-        G4 = psl_mod(4); Kbar = closure([red(m004[g], N) for g in gens0] + [red(minv(m004[g]), N) for g in gens0], N)
-        keys = cosets(Kbar, G4); assert len(keys) == 12, len(keys)
-        perms, index = perm_action(keys, Kbar, {g: red(rep[g], N) for g in gens})
-        # the orbit of the coset K (the identity's coset)
-        k0 = min(canon(mmul(I2, h, N), N) for h in Kbar); i0 = index[k0]
-        orbit = {i0}; frontier = [i0]
-        while frontier:
-            nxt = []
-            for i in frontier:
-                for g in gens:
-                    j = perms[g][i]
-                    if j not in orbit: orbit.add(j); nxt.append(j)
-            frontier = nxt
-        orbit = sorted(orbit); relabel = {c: i for i, c in enumerate(orbit)}
-        sub_perms = [[relabel[perms[g][c]] for c in orbit] for g in gens]
-        out = dict(target=target, cosets=len(keys), orbit_size=len(orbit), perms=sub_perms)
+        target = sys.argv[2]; gens, rels, P, ncos = orbit_perms(target, RILEY if "--riley" in sys.argv else M004_SEAT)
+        n = len(next(iter(P.values()))); sub_perms = [P[g] for g in gens]
+        # SnapPy's cover(perms) composes the permutations in word order (a right action); P is the LEFT action
+        # i -> index of h * coset_i, so its INVERSES are passed.  The sealed run passed P itself and built the other
+        # stabiliser (the right-action one); subgroup_h1.py found it, and the correction is disclosed.
+        inverse_perms = [[P[g].index(i) for i in range(n)] for g in gens]
+        out = dict(target=target, cosets=ncos, orbit_size=n, perms_left_action=sub_perms, perms_passed_to_snappy=inverse_perms)
         M = snappy.Manifold(target); G = M.fundamental_group(); assert G.generators() == gens
-        # SnapPy's cover from a permutation representation (one permutation per generator, as a list)
-        C = M.cover(sub_perms)
+        C = M.cover(inverse_perms)
         out["cover"] = dict(volume=float(C.volume()), volume_over_m004=float(C.volume()) / float(snappy.Manifold("m004").volume()), volume_over_target=float(C.volume()) / float(M.volume()),
                             cusps=C.num_cusps(), H1=str(C.homology()), tetrahedra=C.num_tetrahedra())
         print(json.dumps(out["cover"]), flush=True)

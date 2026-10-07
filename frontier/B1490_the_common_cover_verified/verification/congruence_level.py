@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """R60-3, first half (run once 2026-10-07, unsealed): LP01's sentence "the figure-eight group is a congruence subgroup of level 4
 in PSL(2, Z[w])".  K = <a, b>, Riley's a = [[1,1],[0,1]], b = [[1,0],[-w,1]] (w^2 + w + 1 = 0), of index 12 (Riley).  K contains
-Gamma(N) iff its image in PSL(2, Z[w]/N) has index 12 there.  |PSL(2, Z[w]/4)| = 3840/2 = 1920 (2 is inert; the local ring of
-order 16 over F_4), so level 4 iff the image has order 160; |PSL(2, F_4)| = 60, so level 2 iff order 5."""
+Gamma(N) iff its image in PSL(2, Z[w]/N) has index 12 there.  |SL(2, Z[w]/4)/{+-I}| = 3840/2 = 1920 (2 is inert; the local ring of
+order 16 over F_4) -- that quotient, not PSL(2, Z[w]/4) of order 960 (E21) -- so level 4 (K contains the image of the SL kernel) iff the
+image has order 160; |PSL(2, F_4)| = 60, so level 2 iff order 5."""
 import json, pathlib
 HERE = pathlib.Path(__file__).resolve().parent
 def run(N):

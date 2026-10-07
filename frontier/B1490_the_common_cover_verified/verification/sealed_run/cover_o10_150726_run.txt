@@ -1,0 +1,2 @@
+{"volume": 40.59766425638621, "volume_over_m004": 20.000000000000036, "volume_over_target": 4.000000000000008, "cusps": 4, "H1": "Z/2 + Z + Z + Z + Z + Z + Z", "tetrahedra": 40}
+{"total": 16, "orientation_reversing": 0, "chiral": true, "cusp_fixing_det_values": {"4": 16, "0": 16}, "three": false}

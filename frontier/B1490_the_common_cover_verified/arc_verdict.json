@@ -1,0 +1,25 @@
+{
+ "id": "B1490",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1418",
+  "B1291",
+  "B731",
+  "B734",
+  "B1487"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "F-CI (B1418's definitions: chirality by the isometry group, the three by the cusp counts |det(X - I)|)",
+  "object": "the common covers of m004 with o10_150726 (degree 20 over m004) and with m202 (degree 24); the figure-eight group's congruence level",
+  "reach": "single",
+  "hypotheses": "the LP seat's exact representations as input (checked); SnapPy's cover from a permutation representation (convention decided by an independent Reidemeister-Schreier abelianisation); the door not computed"
+ },
+ "claim_one_line": "THE COMMON COVER VERIFIED (sealed 080189f89 / 93b5777e; Review 60's R60-3; the owner's new seat LP's first cell rebuilt on main): the figure-eight group's image in SL(2, Z[w]/4)/{+-I} (order 1920) has order 160 -- index 12, so K contains Gamma(4): congruence of LEVEL 4 in the standard sense, as LP01 says; in PSL(2, Z[w]/4) proper (order 960; the record's E21 guard) the index is 6, which is B731/B734's 'level 8' convention -- two definitions, both counts right, a clarifying addendum on B731 and no retraction. The common covers rebuilt by main's own coset action: with o10_150726, degree 20 over m004 and 4 over the target, 6 cusps, H1 = Z/4 + Z^6, 16 isometries, chiral, cusp counts in {0, 4} only -- no three; with m202, degree 24 and 12, 6 cusps, Z^8, 12 isometries, chiral, no three -- every number as the seat found; the subgroups' abelianisations by an independent Reidemeister-Schreier agree. The sealed C4 FAILS: o10's cover keeps four hexagonal cusps and still has no three, because its isometry group (order 16) has no element of order three, while m202's cover keeps an order-3 isometry and loses the hexagonal cusps. So in F-CI a three needs both an order-3 isometry and a hexagonal end it fixes; chirality lifts to the tower above the root and the three does not. Disclosed: the sealed text called the order-1920 group PSL(2, Z[w]/4) and said B731 was wrong -- amended in place with notes, the E21 guard having caught it; and the sealed code passed left-action permutations to SnapPy's right-action cover(), building the other stabiliser; the independent abelianisation caught it, the sealed output is kept. 0 of 19."
+}

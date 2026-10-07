@@ -1,0 +1,28 @@
+{
+ "o10_150726": {
+  "orbit": 4,
+  "left_action_stabiliser": {
+   "rank": 6,
+   "torsion": [
+    4
+   ]
+  },
+  "right_action_stabiliser": {
+   "rank": 6,
+   "torsion": [
+    2
+   ]
+  }
+ },
+ "m202": {
+  "orbit": 12,
+  "left_action_stabiliser": {
+   "rank": 8,
+   "torsion": []
+  },
+  "right_action_stabiliser": {
+   "rank": 8,
+   "torsion": []
+  }
+ }
+}

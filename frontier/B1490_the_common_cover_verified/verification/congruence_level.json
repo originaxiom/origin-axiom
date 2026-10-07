@@ -4,5 +4,6 @@
  "image_order_mod_2": 10,
  "PSL_order_mod_2": 60,
  "level_4_given_index_12": true,
- "level_2": false
+ "level_2": false,
+ "note": "PSL_order_mod_4 counts SL(2, Z[w]/4)/{+-I} (1920); PSL(2, Z[w]/4) proper has order 960 and the index there is 6"
 }

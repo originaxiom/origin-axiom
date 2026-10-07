@@ -29,11 +29,15 @@ in PSL(2, ℤ[ω]) are classical and are checked here by the volume ratio and th
 
 **Seen before the seal — the controls (`controls.json`, `congruence_level.json`, `level_recount.json`).** The seat's
 reps of o10_150726, m202 and s959 have determinant one, send every relator of SnapPy's presentation to ±I, and their
-trace squares agree with SnapPy's holonomy; its m004 satisfies aaabABBAb = −I; |PSL(2, ℤ[ω]/4)| = 1920 by closure;
-the images of Riley's K and the seat's K mod 4 both have order 160 (index 12) and are conjugate in PSL(2, ℤ[ω]/4).
-**And a correction found by the control:** recounted in SL and in PSL, the PSL-index of π₁(m004)'s image is 6 at level
+trace squares agree with SnapPy's holonomy; its m004 satisfies aaabABBAb = −I; |SL(2, ℤ[ω]/4)/{±I}| = 1920 by closure *[amended after the run: the sealed text called this group PSL(2, ℤ[ω]/4), which the record's E21 guard forbids — PSL(2, ℤ[ω]/4) proper has order 960; see FINDINGS §3]*;
+the images of Riley's K and the seat's K mod 4 both have order 160 (index 12 in SL(2, ℤ[ω]/4)/{±I}) and are conjugate there.
+**And a correction found by the control:** recounted in SL and in SL/{±I}, the index of π₁(m004)'s image is 6 at level
 2, **12 at level 4**, 12 at level 8. B731's level-4 index of 6 was wrong; m004 is congruence at level 4, as LP01 says,
-not only at level 8. **No cover has been built or measured here.**
+not only at level 8. *[Amended after the run, 2026-10-07: B731's 6 is not wrong — it is the index in PSL(2, ℤ[ω]/4)
+proper (order 960, the centre of SL having four elements), where it is 6; in SL(2, ℤ[ω]/4)/{±I} (order 1920) it is 12.
+K contains the principal congruence subgroup Γ(4) — the image of the SL kernel, the standard definition — so "level 4"
+is right in that sense; B731/B734's "level 8" is the kernel of the reduction of PSL, the record's own convention since
+E21. Two definitions, both counts right; no retraction. FINDINGS §3.]* **No cover has been built or measured here.**
 
 ## 3. Disclosed
 
@@ -54,7 +58,7 @@ seat's and not B1418's file; B1418's definition is used (values of |det(X − I)
 
 **Reading rules.** VERIFIED iff C1 and C2 hold (the sealed cross-check cover of LP01's §4); C3 and C4 are reported as
 they come. Any difference from LP01's table is recorded on main and relayed to the seat before anything is built on
-either. The correction to B731 lands with this arc as an addendum on B731 and a row in RETRACTIONS, whatever C1–C4 do.
+either. The correction to B731 lands with this arc as an addendum on B731 and a row in RETRACTIONS, whatever C1–C4 do. *[Amended: a clarifying addendum, no retraction row — see §3's note.]*
 
 ## 5. What this arc will say about the ends (a reading, stated before the run so it cannot be fitted)
 

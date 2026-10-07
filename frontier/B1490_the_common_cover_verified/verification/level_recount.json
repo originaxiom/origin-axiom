@@ -28,5 +28,6 @@
   "2": 6,
   "4": 6,
   "8": 12
- }
+ },
+ "note": "PSL_* fields count SL(2, Z[w]/n) modulo +-I (order 1920 at n = 4), not PSL(2, Z[w]/n) proper (order 960 at n = 4, index 6 there: B731/B734's convention)"
 }

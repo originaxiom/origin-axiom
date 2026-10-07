@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1318** |
-| words of findings prose | **1,022,509** |
-| test lock files referenced | **764** |
-| arcs carrying an authored verdict | **1318** (100.0 %) |
+| research arcs with findings | **1319** |
+| words of findings prose | **1,023,741** |
+| test lock files referenced | **765** |
+| arcs carrying an authored verdict | **1319** (100.0 %) |
 | recorded closures | **804** (637 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 888 |
+| PROVED | 889 |
 | NEGATIVE | 328 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1489`** (898 words, 0 locks)  
-THE SM SEAT'S NINE PROPOSALS RULED (Review 60's R60-6; GENESIS v1.15 -> v1.16): P1 paid at v1.15; P3 adopted (sm:B1527 at FK9, Part H verified on main by B1465); P7 adopted with main's grade (the one generation on the silver squares verified by a second route, B1485; the orders fused, B1486; at most 1 + b0 on any one-cusped state, B1487); P2 adopted in main's words with its limit (a flat count tells a module from its dual, never sees the hand -- the class index is mirror-even for every module); P4, P5, P6, P8 adopted at the seat's grade, read on main at headline level, P6 as a statement about the named list that FK13 rules is not the object and under FK14; P9 recorded under FK14 and not adopted as a programme (each item a search for ends; a count found there a selection until the rule is named first). Bookkeeping checked: nine marks, unique anchors, 16 seat arcs cited and rowed. Nothing computed, no status changed, no count promoted. 0 of 19.  
-`B1489_the_sm_seats_nine_proposals_ruled/FINDINGS.md`
+**PROVED — `B1490`** (1232 words, 1 locks)  
+THE COMMON COVER VERIFIED (sealed 080189f89 / 93b5777e; Review 60's R60-3; the owner's new seat LP's first cell rebuilt on main): the figure-eight group's image in SL(2, Z[w]/4)/{+-I} (order 1920) has order 160 -- index 12, so K contains Gamma(4): congruence of LEVEL 4 in the standard sense, as LP01 says; in PSL(2, Z[w]/4) proper (order 960; the record's E21 guard) the index is 6, which is B731/B734's 'level 8' convention -- two definitions, both counts right, a clarifying addendum on B731 and no retraction. The common covers rebuilt by main's own coset action: with o10_150726, degree 20 over m004 and 4 over the target, 6 cusps, H1 = Z/4 + Z^6, 16 isometries, chiral, cusp counts in {0, 4} only -- no three; with m202, degree 24 and 12, 6 cusps, Z^8, 12 isometries, chiral, no three -- every number as the seat found; the subgroups' abelianisations by an independent Reidemeister-Schreier agree. The sealed C4 FAILS: o10's cover keeps four hexagonal cusps and still has no three, because its isometry group (order 16) has no element of order three, while m202's cover keeps an order-3 isometry and loses the hexagonal cusps. So in F-CI a three needs both an order-3 isometry and a hexagonal end it fixes; chirality lifts to the tower above the root and the three does not. Disclosed: the sealed text called the order-1920 group PSL(2, Z[w]/4) and said B731 was wrong -- amended in place with notes, the E21 guard having caught it; and the sealed code passed left-action permutations to SnapPy's right-action cover(), building the other stabiliser; the independent abelianisation caught it, the sealed output is kept. 0 of 19.  
+`B1490_the_common_cover_verified/FINDINGS.md`
 
 **NEGATIVE — `B1480`** (998 words, 0 locks)  
 THE INDEX AGAINST THE SIGN (the crossing plan's first item; sealed 20c22735c / 4700f7bb). NEGATIVE for one hypothesis and no wider: at own level, on the word states to length 12 in the Standard-Model frame, the class index's firing is NOT carried by one sign of the word -- 375 of 379 + states and 379 of 379 - states carry a firing module, 49 and 46 a generation-shaped background; on the 34 amphichiral words both signs fire (32 and 34), with generation-shaped backgrounds on eight + states and one - state (unpredicted, recorded, not believed). Sealed predictions: Q1 (the signs differ by a factor 1.5) FAILS, Q2 (some amphichiral - state fires) HOLDS, Q3 (one sign only) FAILS. So the bit of B1479 is not a switch for the count on the family's own levels; the cell it points to, not banked: on a - state a mirror moves the spin structure by a sign character, and B1459's theorem reverses the index under such a twist -- if the two coincide the mirror exchanges spin structures of opposite count. With it, two forks ruled by the principle at the owner's word that such forks are the mathematics' to settle: GENESIS v1.13 -- FK13 RULED (the family is the generated state space, the word states), FK4 restated with its stake (the sign needs an inverse letter, -I = (L R^-1 L)^2, and is the fermionic bit: does the principle generate the sign?); and the listening-log method adopted with a sweep first and a base rate. 0 of 19.  

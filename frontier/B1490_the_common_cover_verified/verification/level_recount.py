@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""B1490 control C0: the figure-eight group's congruence level, recounted in SL and in PSL at levels 2, 4, 8 (Riley's
+"""B1490 control C0: the figure-eight group's congruence level, recounted in SL and in SL/{+-I} at levels 2, 4, 8 (the field names
+below say PSL for SL/{+-I}; PSL(2, Z[w]/4) proper has order 960 -- the two conventions are compared in FINDINGS section 3) (Riley's
 matrices a = [[1,1],[0,1]], b = [[1,0],[-w,1]]).  B731 (2026-07-20) recorded PSL-index 6 at levels 2 and 4 and 12 at level 8
 ("congruence at level (8)"); LP01 (2026-10-06) says level 4.  |SL(2, Z[w]/n)| is counted by closure from generators."""
 import json, pathlib
