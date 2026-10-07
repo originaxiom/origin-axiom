@@ -1,0 +1,152 @@
+{
+ "m003": {
+  "monodromy": "-LR",
+  "trace": -3,
+  "|2 - tr|": 5,
+  "H1(M)": "Z/5 + Z",
+  "covers of degree d": 8,
+  "of them with d cusps": 1,
+  "companion H1 (free rank, torsion)": [
+   5,
+   []
+  ],
+  "n(1) = b1 - cusps": 0,
+  "volume": 10.149416064096537,
+  "volume / vol(M)": 4.999999999999999,
+  "census names": [
+   "o10_150729",
+   "10^5_3",
+   "L10n113",
+   "otet10_00027",
+   "ocube02_00025"
+  ],
+  "symmetry group": "Z/2 x S5",
+  "isometries": 240,
+  "cusp permutations realised": 120,
+  "cusp permutations realised, orientation kept": 60,
+  "quotients over 2 cusps (free rank, torsion): count": {
+   "(1, ())": 10
+  },
+  "some non-trivial character is trivial on 2 cusps": true,
+  "quotients over 3 cusps (free rank, torsion): count": {
+   "(0, ())": 10
+  },
+  "some non-trivial character is trivial on 3 cusps": false,
+  "quotients over 4 cusps (free rank, torsion): count": {
+   "(0, ())": 5
+  },
+  "some non-trivial character is trivial on 4 cusps": false,
+  "isometric to L10n113": true,
+  "isometric to o10_150729": true,
+  "L10n113 linking matrix": [
+   [
+    0,
+    1,
+    -1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    -1,
+    0
+   ],
+   [
+    -1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   [
+    0,
+    -1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    -1,
+    1,
+    0
+   ]
+  ],
+  "linking-matrix check over 2 components": true,
+  "linking-matrix check over 3 components": true
+ },
+ "m136": {
+  "monodromy": "+LLRR",
+  "trace": 6,
+  "|2 - tr|": 4,
+  "H1(M)": "Z/2 + Z/2 + Z",
+  "covers of degree d": 29,
+  "of them with d cusps": 1,
+  "companion H1 (free rank, torsion)": [
+   4,
+   []
+  ],
+  "n(1) = b1 - cusps": 0,
+  "volume": 14.655449506835508,
+  "volume / vol(M)": 4.000000000000001,
+  "census names": [
+   "L14n62847",
+   "ooct04_00057"
+  ],
+  "symmetry group": "nonabelian group of order 32",
+  "isometries": 32,
+  "cusp permutations realised": 8,
+  "cusp permutations realised, orientation kept": 4,
+  "quotients over 2 cusps (free rank, torsion): count": {
+   "(0, (2,))": 4,
+   "(0, (4,))": 2
+  },
+  "some non-trivial character is trivial on 2 cusps": true,
+  "quotients over 3 cusps (free rank, torsion): count": {
+   "(0, ())": 4
+  },
+  "some non-trivial character is trivial on 3 cusps": false,
+  "quotients over 4 cusps (free rank, torsion): count": {
+   "(0, ())": 1
+  },
+  "some non-trivial character is trivial on 4 cusps": false
+ },
+ "m135": {
+  "monodromy": "-LLRR",
+  "trace": -6,
+  "|2 - tr|": 8,
+  "H1(M)": "Z/2 + Z/4 + Z",
+  "covers of degree d": 315,
+  "of them with d cusps": 1,
+  "companion H1 (free rank, torsion)": [
+   8,
+   []
+  ],
+  "n(1) = b1 - cusps": 0,
+  "volume": 29.310899013670966,
+  "volume / vol(M)": 7.999999999999988,
+  "census names": [],
+  "symmetry group": "nonabelian group of order 256",
+  "isometries": 256,
+  "cusp permutations realised": 128,
+  "cusp permutations realised, orientation kept": 64,
+  "quotients over 2 cusps (free rank, torsion): count": {
+   "(4, ())": 28
+  },
+  "some non-trivial character is trivial on 2 cusps": true,
+  "quotients over 3 cusps (free rank, torsion): count": {
+   "(2, ())": 56
+  },
+  "some non-trivial character is trivial on 3 cusps": true,
+  "quotients over 4 cusps (free rank, torsion): count": {
+   "(1, ())": 32,
+   "(0, ())": 32,
+   "(0, (2,))": 4,
+   "(2, ())": 2
+  },
+  "some non-trivial character is trivial on 4 cusps": true
+ }
+}
