@@ -1,0 +1,86 @@
+{
+ "threads": 20,
+ "members": 242,
+ "readings": 442,
+ "C1_plus_LR_all_generation_shaped": {
+  "readings": 24,
+  "holds": true
+ },
+ "C2_minus_LR_all_0_minus_3": {
+  "readings": 24,
+  "holds": true
+ },
+ "C3_no_even_generation_shaped": {
+  "even_generation_shaped": {
+   "b++LLLLLLR": 6,
+   "b++LLLLLLRR": 8,
+   "b++LLLLR": 12,
+   "b++LLR": 12,
+   "b++LLRR": 12,
+   "b+-LLLLLLR": 4,
+   "b+-LLLLR": 12,
+   "b+-LLLLRR": 8,
+   "b+-LLR": 12,
+   "b+-LLRR": 12
+  },
+  "holds": false
+ },
+ "C4_floor_and_ceiling": {
+  "floor_fails": 0,
+  "ceiling_fails": 0,
+  "holds": true
+ },
+ "C5_at_most_five_kinds": {
+  "kinds": {
+   "(-1, -2)": 150,
+   "(-1, -1)": 122,
+   "(0, -3)": 24,
+   "(0, -2)": 48,
+   "(0, -1)": 64,
+   "(1, 0)": 1,
+   "(2, -2)": 32,
+   "(3, 1)": 1
+  },
+  "count": 8,
+  "holds": false
+ },
+ "generation_shaped_total": 122,
+ "generation_shaped_by_thread": {
+  "b++LLLLLLR": 6,
+  "b++LLLLLLRR": 8,
+  "b++LLLLR": 12,
+  "b++LLR": 12,
+  "b++LLRR": 12,
+  "b++LR": 24,
+  "b+-LLLLLLR": 4,
+  "b+-LLLLR": 12,
+  "b+-LLLLRR": 8,
+  "b+-LLR": 12,
+  "b+-LLRR": 12
+ },
+ "odd_threads_generation_shaped": {
+  "b++LR": 24
+ },
+ "readings_by_thread": {
+  "b++LLLLLLR": 8,
+  "b++LLLLLLRR": 16,
+  "b++LLLLLRR": 8,
+  "b++LLLLR": 20,
+  "b++LLLLRR": 16,
+  "b++LLLRLLR": 1,
+  "b++LLLRR": 8,
+  "b++LLR": 24,
+  "b++LLRR": 96,
+  "b++LR": 24,
+  "b+-LLLLLLR": 8,
+  "b+-LLLLLLRR": 16,
+  "b+-LLLLLRR": 8,
+  "b+-LLLLR": 20,
+  "b+-LLLLRR": 16,
+  "b+-LLLRR": 8,
+  "b+-LLR": 24,
+  "b+-LLRLRLRR": 1,
+  "b+-LLRR": 96,
+  "b+-LR": 24
+ }
+}

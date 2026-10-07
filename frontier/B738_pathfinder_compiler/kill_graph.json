@@ -11259,5 +11259,31 @@
    "hypotheses": "numerical (40 digits, B1492's tolerance); sign characters only (orders three and four not read); the sign and choice variants of the extension read as separate kernels; the census parallel over disjoint lists; the count at the carrier read after the census, disclosed"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1603",
+  "claim_killed": "That the generation-shaped reading (-1, -1), dead on every cusp, is the root's alone on the weave's forced covers (the SM seat's 'generations only on +LR', read at odd trace): on the even-trace forced covers it appears 98 times on ten threads, two of them not arithmetic; and that the class index is an index in the physics' sense: eight kinds of reading across 442 classes, only one with the rank-five shape.",
+  "kill_form": "Sealed (5d2787345) extension and stacked index (B1492) at every interior class of every member of B1602's census, the floor and ceiling checked on each (442 of 442 hold).",
+  "hatch": "the dictionary's earning condition: a module and count with the shape identity n_5bar = n_10 built in; the chirality from something other than the index (B1487: the index is mirror-even); the orders three and four; what the sign asymmetries (+LLLLLLR 6 vs - 4; -LLLLRR 8 vs + 0; +LLLLLLRR 8 vs - 0) follow; the even-trace pair structure (the seat's W7: the two exchanged parities) read line by line",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-07), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: 'generation-shaped' is a pattern label; the physical count is an index with a shape identity the class index lacks; what the weave's covers carry in that shape is widespread on even trace and rare on odd trace (Theorem G's three-or-nothing).",
+  "faces_consulted": [
+   "B1602",
+   "B1601",
+   "B1496",
+   "B1492",
+   "B1487",
+   "sm:B1545",
+   "sm:B1550"
+  ],
+  "fact_computed": "442 readings on 242 members, 20 threads; 122 generation-shaped (24 on +LR, 98 on ten even-trace threads); eight kinds; floor and ceiling 442/442",
+  "scope": {
+   "frame": "F-HE's count (I(W1), I(Lambda^2 W1)) by B1492's extension and stacked index at every member of every forced cover of B1602's census; the SM seat's floor and ceiling (sm:B1545) checked on each reading; the dictionary N(10') = -I(W1), N(5bar') = -I(Lambda^2 W1) UNEARNED (GENESIS FK11)",
+   "object": "the 20 carrier threads of B1602 (3 odd-trace, 17 even-trace), their forced kernels, 242 members, 442 interior classes",
+   "reach": "class",
+   "hypotheses": "numerical (40 digits, B1492's tolerance); sign characters only; every forced kernel read; 'generation-shaped' = (-1, -1) with the class dead on every cusp, a pattern label, not an earned count (the class index on a 3-manifold lacks the rank-five shape identity, B1496)"
+  },
+  "weave_or_thread": "weave"
  }
 ]

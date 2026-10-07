@@ -10855,6 +10855,22 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1603": {
+   "slug": "the count at every member",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "S82"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B160": {
    "slug": "quasicrystal bridge corroboration",
    "motifs": [

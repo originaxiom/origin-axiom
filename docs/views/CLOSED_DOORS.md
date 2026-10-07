@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**809 recorded closures — of which 642 are CLASSIFIED by mechanism and
+**810 recorded closures — of which 643 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -92,6 +92,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed reading (d5b6ca8eb) of the pencil W1(c1 + lambda c2) at six lambda and the basis, at all eight characters, with B1492's stacked instrument and the relator check; the rank-six extension by both classes read for the record (-1).` | 1 |  |
 | `Sealed (10786bcca) second-order obstruction and Gauss-Newton fusion (B1486's method) from two seeds, the module read at the arithmetic floor with B1492's two-cusp stacked index; commutant and invariant lines checked.` | 1 |  |
 | `Sealed (fee144f6b) census of all 74 signed threads to length eight: every forced kernel (A4 / D4 / V4) built from SnapPy's presentation, the four read at every sign character with B1492's stacked index; the carrier's member read by the extension and index after the census (disclosed).` | 1 |  |
+| `Sealed (5d2787345) extension and stacked index (B1492) at every interior class of every member of B1602's census, the floor and ceiling checked on each (442 of 442 hold).` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

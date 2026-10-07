@@ -1,0 +1,49 @@
+{
+ "thread": "b++LLLRLLR",
+ "deck": "D4",
+ "covers": [
+  {
+   "cover_homology": "Z/4 + Z/160 + Z + Z",
+   "cusps": 2,
+   "members": [
+    {
+     "nu": [
+      -1,
+      -1,
+      1,
+      -1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        false,
+        false
+       ],
+       "k": 2,
+       "I_W1": 1,
+       "I_L2W1": 0,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cover_homology": "Z/80 + Z + Z + Z + Z",
+   "cusps": 4,
+   "members": []
+  }
+ ]
+}

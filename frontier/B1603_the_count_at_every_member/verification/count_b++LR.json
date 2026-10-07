@@ -1,0 +1,900 @@
+{
+ "thread": "b++LR",
+ "deck": "A4",
+ "covers": [
+  {
+   "cover_homology": "Z/2 + Z/2 + Z + Z + Z + Z",
+   "cusps": 4,
+   "members": [
+    {
+     "nu": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    },
+    {
+     "nu": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "m_A": 0,
+     "interior": 1,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "k": 0,
+       "I_W1": -1,
+       "I_L2W1": -1,
+       "floor_holds": true,
+       "ceiling_holds": true,
+       "generation_shaped": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

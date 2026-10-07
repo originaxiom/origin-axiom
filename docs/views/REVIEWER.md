@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1331** |
-| words of findings prose | **1,038,033** |
-| test lock files referenced | **776** |
-| arcs carrying an authored verdict | **1331** (100.0 %) |
-| recorded closures | **809** (642 classified, 167 routed-only) |
+| research arcs with findings | **1332** |
+| words of findings prose | **1,038,785** |
+| test lock files referenced | **777** |
+| arcs carrying an authored verdict | **1332** (100.0 %) |
+| recorded closures | **810** (643 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 896 |
-| NEGATIVE | 333 |
+| NEGATIVE | 334 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 79 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 80 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE COMMON POINT IS THE GEOMETRY MOD 3 (sealed 3c56a10f1 / a5260bd9; a weave result): on every odd-trace thread to length eight (16 of 16) the fibre's traces (tr a, tr b, tr ab) at the geometric point generate exactly one prime of the thread's trace field, of residue degree one above 3 -- norm 3, multiplicity one, nothing else -- so the holonomy reduces there to the quaternion point, W2's common point; on every even-trace thread (21 of 21) the ideal is a power of one prime above 2 (norms 4, 8, 64, 1024), where the common point is the trivial representation, with nothing above 3. Corollary: W3's forced A4 cover is each odd-trace thread's own principal congruence cover at a prime of norm three (SL(2, F_3) = 2T). The lemma, proved: the Fricke maps' linear parts at the common point are quarter turns about two axes of the three parity lines, generating the cube's rotations S4 (the weave's group on the triplet), and odd trace iff a third turn about a body diagonal, whose axis is isotropic for x^2 + y^2 + z^2 exactly in characteristic three; over F_3 the parabolic Markov surface has the common point as its only point. W5: the four at the common point is the trivial line plus the three parity lines (exact). The SM seat's W6 census reproduced on main at order two on four threads (+LR 24 members (1, 0, 1); -LR 6 members (4, 0, 4); +-LLLR none). Since the mod-3 meeting is universal on odd trace, it is not what singles out +-LR for content; that stays arithmeticity's, unexplained. T-COMMON-POINT-MOD-3 (census law; lemma proved; theorem open). GENESIS v1.25. 0 of 19.  
 `B1601_the_common_point_is_the_geometry_mod_3/FINDINGS.md`
 
-**NEGATIVE — `B1602`** (1182 words, 1 locks)  
-THE FORCED COVER ON EVERY THREAD (sealed fee144f6b / 115e580f; a weave result): on all 74 signed threads to length eight the cover the common point forces (A4 on odd trace, D4 or V4 on even) carries members of the four at sign characters on +LR (24, each (1, 0, 1), reading (-1, -1)), on -LR (6, each (4, 0, 4), reading (0, -3)) and on ONE more odd-trace thread, -LLRLRLRR (trace -39): one member of shape (4, 3, 1) whose class is alive on all four cusps and reads (+3, +1) -- the seat's floor k - m_A - b0 = 3 attained exactly, the ends' value, not generation-shaped; its sign twin +LLRLRLRR carries nothing, nor do the other 28 odd-trace threads. On even trace 17 of 42 carry (the V4 words L^{2k}R^2, the D4 words L^k R and L^k R^2 with small exponents, +LLLRLLR) and 25 do not (every word of three or more syllables but one). Interior classes of the four at the trivial character only on the eight shortest even threads, on no odd one. T1 holds, T2 fails at -LLRLRLRR, T3 fails, T4 half. NEGATIVE as sealed: neither the +-LR exclusivity nor the even-trace genericity survives; 'content iff arithmetic' was killed before the seal (+LLR). What lets +-LR and -LLRLRLRR through is open (3 ramifies in all three trace fields, as in four non-carriers). 0 of 19.  
-`B1602_the_forced_cover_on_every_thread/FINDINGS.md`
+**NEGATIVE — `B1603`** (752 words, 1 locks)  
+THE COUNT AT EVERY MEMBER (sealed 5d2787345 / f7723803; a weave result by inheritance): the SM seat's dictionary read at all 442 interior classes of the 242 members on the 20 carrier threads of B1602's census. The seat's floor and ceiling hold on every reading (442 of 442). +LR's 24 members all read (-1, -1) dead on every cusp (C1), -LR's 24 classes all (0, -3) (C2). The generation shape is NOT the root's: 122 readings are generation-shaped, 98 of them on ten even-trace threads -- +-LLR 12 each, +-LLLLR 12 each, +-LLRR 12 each, +LLLLLLR 6, -LLLLLLR 4, -LLLLRR 8, +LLLLLLRR 8 -- threads the seat's odd-trace census never read, two of them (+-LLR, +-LLLLR) not arithmetic (C3 fails). Eight kinds across the census: (-1, -2) 150, (-1, -1) 122, (0, -1) 64, (0, -2) 48, (2, -2) 32, (0, -3) 24, (1, 0) 1, (3, 1) 1 (C5 fails). Only (-1, -1) has the rank-five index's shape n_5bar = n_10; the zoo says the class index on a 3-manifold is an analogue of the physical index, not an index -- the dictionary's earning condition (the shape identity) is the open instrument question. NEGATIVE as sealed (the root's exclusivity of the generation shape dies on the weave's even-trace covers). No three. 0 of 19.  
+`B1603_the_count_at_every_member/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

@@ -1,0 +1,5 @@
+{"thread": "b+-LR", "members": 6, "readings": 24, "kinds": [[0, -3]], "generation_shaped": 0, "floor_fails": 0, "ceiling_fails": 0}
+{"thread": "b+-LLRR", "members": 42, "readings": 96, "kinds": [[-1, -2], [-1, -1], [0, -2], [0, -1], [2, -2]], "generation_shaped": 12, "floor_fails": 0, "ceiling_fails": 0}
+{"thread": "b+-LLLRR", "members": 4, "readings": 8, "kinds": [[-1, -2], [0, -2]], "generation_shaped": 0, "floor_fails": 0, "ceiling_fails": 0}
+{"thread": "b+-LLLLLLR", "members": 4, "readings": 8, "kinds": [[-1, -2], [-1, -1]], "generation_shaped": 4, "floor_fails": 0, "ceiling_fails": 0}
+{"thread": "b++LLLLLLRR", "members": 12, "readings": 16, "kinds": [[-1, -2], [-1, -1]], "generation_shaped": 8, "floor_fails": 0, "ceiling_fails": 0}
