@@ -1,0 +1,129 @@
+{
+ "rule": "every odd-trace state of GENESIS to word length 6; characters of order dividing M on the forced A4 cover; the structure (h1, r1, n) of nu (x) rho in route P at every A4 orbit; members n > 0",
+ "precision": "holonomy 160 digits, modules 100 (the banked library unchanged, its precision raised from the script)",
+ "provenance": "+LR, -LR, +LLLR, -LLLR at order 4 by the_lines_census.py (the control against sm:B1550's banked census); the other eight at order 4 and all twelve at order 3 by the same census function run from the seat's working copy with the same precision settings",
+ "order": 3,
+ "status": "partial: still running +LLLRRR, -LLLRRR, +LLRLRR, -LLRLRR",
+ "threads": [
+  {
+   "state": "+LR",
+   "cusps": 4,
+   "characters": 81,
+   "orbits": 15,
+   "members": 6,
+   "member orbits": [
+    {
+     "size": 6,
+     "rep": [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0
+     ],
+     "h1": 2,
+     "r1": 0,
+     "n": 2,
+     "m_A": 0,
+     "order": 3,
+     "edge labels": [
+      "None"
+     ]
+    }
+   ],
+   "s cover": 0.1,
+   "trace": 3
+  },
+  {
+   "state": "-LR",
+   "cusps": 4,
+   "characters": 81,
+   "orbits": 15,
+   "members": 6,
+   "member orbits": [
+    {
+     "size": 6,
+     "rep": [
+      0,
+      1,
+      0,
+      2,
+      0,
+      1
+     ],
+     "h1": 2,
+     "r1": 0,
+     "n": 2,
+     "m_A": 0,
+     "order": 3,
+     "edge labels": [
+      "None"
+     ]
+    }
+   ],
+   "s cover": 0.0,
+   "trace": -3
+  },
+  {
+   "state": "+LLLR",
+   "cusps": 4,
+   "characters": 729,
+   "orbits": 99,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 2.9,
+   "trace": 5
+  },
+  {
+   "state": "-LLLR",
+   "cusps": 4,
+   "characters": 81,
+   "orbits": 15,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 0.3,
+   "trace": -5
+  },
+  {
+   "state": "+LLLLLR",
+   "cusps": 4,
+   "characters": 81,
+   "orbits": 15,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 1.9,
+   "trace": 7
+  },
+  {
+   "state": "-LLLLLR",
+   "cusps": 4,
+   "characters": 729,
+   "orbits": 99,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 22.9,
+   "trace": -7
+  },
+  {
+   "state": "+LLLRLR",
+   "cusps": 4,
+   "characters": 81,
+   "orbits": 15,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 73.7,
+   "trace": 13
+  },
+  {
+   "state": "-LLLRLR",
+   "cusps": 4,
+   "characters": 729,
+   "orbits": 99,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 866.0,
+   "trace": -13
+  }
+ ]
+}

@@ -98,6 +98,86 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   - Looijenga's Prym representations, Geom. Dedicata 64 (1997), study the mapping class group on such twisted cohomology.
   - Goldman, Geom. Topol. 7 (2003), studies the modular group on the one-holed torus's characters.
 
+## W6. What each line carries (`the_lines_census.py`, `the_lines.py`, `the_lines_content.py`)
+
+**Theorem G, the lines carry alike (PROVED).**
+- **Setting.** On an odd-trace thread M, N is its forced A₄ cover (W3) and M₃ = N/V₄ its third level.
+- **A member's line** is the non-zero parity of the edge the member lives on, or of the one translation t_p that fixes it.
+- **For an orbit of the deck group A₄ in which every member has a line:**
+  - every member of a V₄ orbit has the same line;
+  - the weave's 3-cycle carries line p to line φ(p);
+  - a third of the orbit sits on each line;
+  - on M₃ the orbit gives one sector per line, Ind from N of the member, cycled by the weave, each carrying the member's
+    count.
+- *Proof.*
+  - V₄ is abelian, so a translation keeps a member fixed by t_p fixed by t_p.
+  - Translations keep an edge's direction. An edge fixed by t_q has direction q, so the two labels agree.
+  - The 3-cycle acts on V₄ by conjugation as φ mod 2 acts on the parities.
+  - Shapiro's lemma carries the count to M₃. □
+- **Scope.**
+  - The proof uses only W3, so it holds on every odd-trace thread.
+  - An orbit fixed by all of V₄ (size 3) sits on no single line.
+  - The theorem does not say that any thread has members.
+
+**The census (design-time structure, no count; the rule named before the run).**
+- **The rule:** every odd-trace state of GENESIS to word length 6, twelve threads. On each thread, every A₄ orbit of
+  characters of order dividing 4 (and, as a second pass, 3) on the forced cover, with the structure (h¹, r¹, n) of ν ⊗ ρ in
+  route P.
+- **A member** is a character with n > 0. A generation-shaped count needs one: Theorem C bounds I(Λ²W₁) between −n and 0.
+  It also needs ν⁴ = 1 or a trivial end, by Lemma F′ (I(W₁) ≥ k − m_A − b0).
+- **Precision.** The banked library runs unchanged, with its precision raised from the script: holonomy at 160 digits,
+  modules at 100.
+  - At 50 digits −LLLLLR's cover failed the library's own relator guard, and no reading was taken there.
+  - At 100 digits the script reproduces sm:B1550's banked census of ±LR and ±LLLR exactly (54 and 6 members).
+
+| thread | trace | order 4: characters, members | order 3: characters, members |
+|---|---|---|---|
+| +LR | 3 | 1024, 54 in 8 orbits | 81, 6 (m_A = 0) |
+| −LR | −3 | 256, 6 in 1 orbit | 81, 6 (m_A = 0) |
+| +LLLR | 5 | 256, none | 729, none |
+| −LLLR | −5 | 1024, none | 81, none |
+| +LLLLLR | 7 | 4096, none | 81, none |
+| −LLLLLR | −7 | 256, none | 729, none |
+| +LLLRLR | 13 | 256, none | 81, none |
+| −LLLRLR | −13 | 1024, none | 729, none |
+| +LLLRRR | 11 | 1024, none | running |
+| −LLLRRR | −11 | 256, none | running |
+| +LLRLRR | 15 | running | running |
+| −LLRLRR | −15 | 256, none | running |
+
+**Status at this commit: eleven of twelve threads read at order 4, and eight at order 3. The rest are running, and this
+table is completed when they finish.**
+
+- **Among the threads read, members appear only on the golden pair ±LR.**
+  - The order-3 members there have m_A = 0 and ν⁴ ≠ 1, so Lemma F′ keeps them from being generations.
+- **Generations, by sm:B1550's sealed two-route counts, appear only on +LR among the threads read.**
+- **±LR are the only arithmetic odd-trace primitive threads** (Bowditch–Maclachlan–Reid, as reported by
+  Goodman–Heard–Hodgson). Members fall exactly there: a pattern on twelve threads, not a theorem.
+
+**What each line carries** (`the_lines_content.py`: the census, the lines and sm:B1550's banked counts joined; no count
+computed).
+- **+LR: every line carries six sectors on the third level,** each reading (−1, −1).
+  - That is one generation of each of six types: two sign types, edge-labelled, and four order-4 types, fixed by t_p.
+  - Up to the other order (complex conjugation) and the spin twist the six are three classes.
+  - The two orbits fixed by all of V₄ read (1, 0), on no single line.
+- **−LR: every line carries one sector reading (0, −3).** It is not a generation.
+- **Every other thread read: nothing.**
+- **In main's two standards (S79), +LR's three is the orbifold standard.** Per type it is three sectors of index one,
+  distinguished by the parity characters and cycled by an order-3 symmetry.
+  - The cover is forced, not chosen by a character.
+  - Three is never selected.
+- **Graded by THE BAR**, "only +LR carries" is a positive on one state, with p ≈ 0.29 on twelve threads. It is not
+  claimed as a selection.
+
+**The mixing (READING; `the_mixing.py`).**
+- **The weave's group on the triplet is O_h,** with rotations S₄.
+- **With the golden thread's 3-cycle as one sector's residual symmetry:**
+  - the swap P (or L·a, R·b, LPL) as the other's gives TM1, the one pattern of its kind the data still allow (JUNO 2025);
+  - the sign or a fibre translation gives TM2 (disfavoured);
+  - a single shear gives θ₁₃ = 0 (excluded);
+  - Klein groups give tri-bimaximal mixing (excluded) or democratic mixing (excluded).
+- **Mod 2 the golden thread is ST,** the rotation fixing τ = ω, and the swap is S, fixing τ = i.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -107,7 +187,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 | W3 | PROVED | on every odd-trace thread, the same A₄ and the same 2T from it |
 | W4 | PROVED | one irreducible triplet, the same on every odd-trace thread; even-trace threads split it |
 | W5 | READING (GENESIS FK14) | the three generations are this triplet: three, alike, carried into one another by the weave |
-| W6 | OPEN | what each line carries: a whole generation (5̄ + 10) with its chirality |
+| W6 | PROVED; COMPUTED | Theorem G: whatever one line carries, all three carry; on +LR each line carries one generation of each type, and no other odd-trace thread to length 6 read so far carries any (eleven of twelve at order 4) |
+| W6′ | OPEN | the chirality (the extension's order decides generation against anti-generation) and one module of index three (the smooth standard) |
+| W6″ | READING | the weave's S₄ with the golden 3-cycle and the swap gives TM1 mixing |
 | W7 | OPEN | which moves are in the weave (GENESIS GM5b, GM5c): the triplet's group has order 24 with L and R, 48 with all four |
 
 - **In the owner's terms (READING).**
@@ -116,11 +198,19 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   - A thread with odd trace carries the whole triplet; every thread GENESIS's SE1 admits is such a thread. A thread with
     even trace breaks it.
   - The triplet does not depend on which thread is chosen.
-- **What W6 needs.** The frame that reads a generation (sm:B1515's F-HE) is built on one thread's own holonomy, so it is
-  a thread instrument. A weave instrument for a generation's content is not built.
+- **What W6 settles, and what it does not.**
+  - The frame that reads a generation (sm:B1515's F-HE) is built on one thread's own holonomy, so the content is read
+    thread by thread.
+  - The weave decides how it is shared, by Theorem G, and the census reads it on every thread by rule.
+  - The synthesis against the physics is `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 
 ## Files
 
 - `moves_and_parities.py` → `moves_and_parities.json`: W1, every word to length 8.
 - `the_common_point.py` → `the_common_point.json`: W2–W4. sympy's `solve` drops roots it cannot write in radicals, so
   the points are read from Gröbner bases. The quaternion closures are numerical on a group of 48 elements.
+- `the_lines_census.py`: W6's census, one JSON line per thread. Its record is `the_lines_census.json`, with the order-3
+  pass in `the_lines_census_order3.json`.
+- `the_lines.py` → `the_lines.json`: Theorem G checked on every member orbit.
+- `the_lines_content.py` → `the_lines_content.json`: what each line carries.
+- `the_mixing.py` → `the_mixing.json`: the weave's group on the triplet and the mixing of its subgroups (READING).

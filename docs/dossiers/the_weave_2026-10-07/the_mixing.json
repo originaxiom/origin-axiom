@@ -24,6 +24,91 @@
   "(0.166667, 0.166667, 0.666667)": 6,
   "(0.333333, 0.333333, 0.333333)": 6
  },
+ "(3) Z3 = the golden thread's 3-cycle; the column each named involution fixes": {
+  "L": {
+   "fixed column": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "pattern": "theta13 = 0 (the tri-bimaximal third column)",
+   "determinant": -1
+  },
+  "R": {
+   "fixed column": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "pattern": "theta13 = 0 (the tri-bimaximal third column)",
+   "determinant": -1
+  },
+  "P (the swap)": {
+   "fixed column": [
+    0.166667,
+    0.166667,
+    0.666667
+   ],
+   "pattern": "TM1 (the tri-bimaximal first column)",
+   "determinant": 1
+  },
+  "-I (the sign)": {
+   "fixed column": [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   "pattern": "TM2 (the tri-bimaximal second column)",
+   "determinant": 1
+  },
+  "inner by a (a fibre translation)": {
+   "fixed column": [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   "pattern": "TM2 (the tri-bimaximal second column)",
+   "determinant": 1
+  },
+  "inner by b": {
+   "fixed column": [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   "pattern": "TM2 (the tri-bimaximal second column)",
+   "determinant": 1
+  },
+  "L . inner by a": {
+   "fixed column": [
+    0.166667,
+    0.166667,
+    0.666667
+   ],
+   "pattern": "TM1 (the tri-bimaximal first column)",
+   "determinant": -1
+  },
+  "R . inner by b": {
+   "fixed column": [
+    0.166667,
+    0.166667,
+    0.666667
+   ],
+   "pattern": "TM1 (the tri-bimaximal first column)",
+   "determinant": -1
+  },
+  "L P L": {
+   "fixed column": [
+    0.166667,
+    0.166667,
+    0.666667
+   ],
+   "pattern": "TM1 (the tri-bimaximal first column)",
+   "determinant": 1
+  }
+ },
+ "the golden 3-cycle's eigenvalues on the triplet are distinct": true,
+ "mod 2: the golden thread LR is ST (the order-3 rotation fixing omega), the swap P is S (fixing i)": true,
  "the tri-bimaximal |U|^2 in canonical form": "((0.0, 0.333333, 0.666667), (0.5, 0.333333, 0.166667), (0.5, 0.333333, 0.166667))",
  "a Klein four-group of the weave gives tri-bimaximal mixing": true
 }

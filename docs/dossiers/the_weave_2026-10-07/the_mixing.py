@@ -8,6 +8,10 @@ The triplet is W4's: the parity-twisted cohomology of the shared fibre, one line
       matrix diagonal in K's eigenbasis, so two sectors keeping K1 and K2 mix by U = V1^dagger V2. With K1 = Z3, the
       golden thread's own 3-cycle on the triplet, and K2 a Klein four-group of the weave, |U|^2 up to permutations of
       rows and columns; with K2 a single involution, the one column it fixes.
+  (3) The column each named move fixes: the swap P gives TM1, the one pattern of the kind the data still allow (JUNO
+      2025: TBM excluded, TM2 disfavoured at 3.6 sigma, TM1 within about 1 sigma); the single shears L, R give
+      theta13 = 0; the fibre translations and the sign give TM2. Mod 2 the golden thread LR is the order-3 rotation ST
+      that fixes tau = omega and the swap P is S, which fixes tau = i: the modular-flavour fixed points.
 Which sector keeps which subgroup is not forced by anything here; that is why the result is a reading.
 
     python3 the_mixing.py   ->  the_mixing.json beside this file"""
@@ -86,6 +90,30 @@ def main():
         str(k): v for k, v in sorted(klein.items())}
     out["(2) Z3 = the golden thread's 3-cycle; K = one involution: the fixed column |U_i|^2 (sorted) -> involutions"] = {
         str(k): v for k, v in sorted(cols.items())}
+    named = {"L": gens["L"], "R": gens["R"], "P (the swap)": gens["P"], "-I (the sign)": gens["-I"],
+             "inner by a (a fibre translation)": gens["inner by a"], "inner by b": gens["inner by b"],
+             "L . inner by a": gens["L"] @ gens["inner by a"], "R . inner by b": gens["R"] @ gens["inner by b"],
+             "L P L": gens["L"] @ gens["P"] @ gens["L"]}
+    tag = {(1 / 6, 1 / 6, 2 / 3): "TM1 (the tri-bimaximal first column)",
+           (1 / 3, 1 / 3, 1 / 3): "TM2 (the tri-bimaximal second column)",
+           (0.0, 0.5, 0.5): "theta13 = 0 (the tri-bimaximal third column)"}
+    rows = {}
+    for n, A in named.items():
+        assert np.array_equal(A @ A, I3), n
+        ev, EV = np.linalg.eigh(A.astype(float))
+        vals = list(np.round(ev).astype(int))
+        lone = [i for i in range(3) if vals.count(vals[i]) == 1][0]
+        col = tuple(sorted(float(x) for x in np.abs(VT.conj().T @ EV[:, lone]) ** 2))
+        lab = next(v for k, v in tag.items() if np.allclose(col, k, atol=1e-9))
+        rows[n] = {"fixed column": [round(x, 6) for x in col], "pattern": lab,
+                   "determinant": int(round(np.linalg.det(A)))}
+    out["(3) Z3 = the golden thread's 3-cycle; the column each named involution fixes"] = rows
+    out["the golden 3-cycle's eigenvalues on the triplet are distinct"] = len(
+        {complex(round(x.real, 9), round(x.imag, 9)) for x in w}) == 3
+    S2, ST = ((0, -1), (1, 0)), ((0, -1), (1, 1))
+    mod2 = lambda A: tuple(tuple(x % 2 for x in r) for r in A)
+    out["mod 2: the golden thread LR is ST (the order-3 rotation fixing omega), the swap P is S (fixing i)"] = (
+        mod2(((2, 1), (1, 1))) == mod2(ST) and mod2(((0, 1), (1, 0))) == mod2(S2))
     tbm = canon(np.array([[2 / 3, 1 / 3, 0], [1 / 6, 1 / 3, 1 / 2], [1 / 6, 1 / 3, 1 / 2]]))
     out["the tri-bimaximal |U|^2 in canonical form"] = str(tbm)
     out["a Klein four-group of the weave gives tri-bimaximal mixing"] = str(tbm) in out[

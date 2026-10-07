@@ -1,0 +1,261 @@
+{
+ "rule": "every odd-trace state of GENESIS to word length 6; characters of order dividing M on the forced A4 cover; the structure (h1, r1, n) of nu (x) rho in route P at every A4 orbit; members n > 0",
+ "precision": "holonomy 160 digits, modules 100 (the banked library unchanged, its precision raised from the script)",
+ "provenance": "+LR, -LR, +LLLR, -LLLR at order 4 by the_lines_census.py (the control against sm:B1550's banked census); the other eight at order 4 and all twelve at order 3 by the same census function run from the seat's working copy with the same precision settings",
+ "order": 4,
+ "status": "partial: still running +LLRLRR",
+ "threads": [
+  {
+   "state": "+LR",
+   "trace": 3,
+   "cusps": 4,
+   "characters": 1024,
+   "orbits": 128,
+   "members": 54,
+   "member orbits": [
+    {
+     "size": 12,
+     "rep": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      2
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "m_A": 0,
+     "order": 2
+    },
+    {
+     "size": 12,
+     "rep": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      2
+     ],
+     "h1": 1,
+     "r1": 0,
+     "n": 1,
+     "m_A": 0,
+     "order": 2
+    },
+    {
+     "size": 3,
+     "rep": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      1
+     ],
+     "h1": 4,
+     "r1": 0,
+     "n": 4,
+     "m_A": 0,
+     "order": 4
+    },
+    {
+     "size": 3,
+     "rep": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      3
+     ],
+     "h1": 4,
+     "r1": 0,
+     "n": 4,
+     "m_A": 0,
+     "order": 4
+    },
+    {
+     "size": 6,
+     "rep": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "h1": 3,
+     "r1": 2,
+     "n": 1,
+     "m_A": 2,
+     "order": 4
+    },
+    {
+     "size": 6,
+     "rep": [
+      0,
+      0,
+      3,
+      0,
+      3,
+      0
+     ],
+     "h1": 3,
+     "r1": 2,
+     "n": 1,
+     "m_A": 2,
+     "order": 4
+    },
+    {
+     "size": 6,
+     "rep": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "h1": 3,
+     "r1": 2,
+     "n": 1,
+     "m_A": 2,
+     "order": 4
+    },
+    {
+     "size": 6,
+     "rep": [
+      2,
+      0,
+      1,
+      2,
+      1,
+      0
+     ],
+     "h1": 3,
+     "r1": 2,
+     "n": 1,
+     "m_A": 2,
+     "order": 4
+    }
+   ]
+  },
+  {
+   "state": "-LR",
+   "trace": -3,
+   "cusps": 4,
+   "characters": 256,
+   "orbits": 40,
+   "members": 6,
+   "member orbits": [
+    {
+     "size": 6,
+     "rep": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+     ],
+     "h1": 4,
+     "r1": 0,
+     "n": 4,
+     "m_A": 0,
+     "order": 2
+    }
+   ]
+  },
+  {
+   "state": "+LLLR",
+   "trace": 5,
+   "cusps": 4,
+   "characters": 256,
+   "orbits": 40,
+   "members": 0,
+   "member orbits": []
+  },
+  {
+   "state": "-LLLR",
+   "trace": -5,
+   "cusps": 4,
+   "characters": 1024,
+   "orbits": 128,
+   "members": 0,
+   "member orbits": []
+  },
+  {
+   "state": "+LLLLLR",
+   "cusps": 4,
+   "characters": 4096,
+   "orbits": 416,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 97.5,
+   "trace": 7
+  },
+  {
+   "state": "-LLLLLR",
+   "cusps": 4,
+   "characters": 256,
+   "orbits": 40,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 8.1,
+   "trace": -7
+  },
+  {
+   "state": "+LLLRLR",
+   "cusps": 4,
+   "characters": 256,
+   "orbits": 40,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 235.1,
+   "trace": 13
+  },
+  {
+   "state": "-LLLRLR",
+   "cusps": 4,
+   "characters": 1024,
+   "orbits": 128,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 1283.7,
+   "trace": -13
+  },
+  {
+   "state": "+LLLRRR",
+   "cusps": 4,
+   "characters": 1024,
+   "orbits": 128,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 233.3,
+   "trace": 11
+  },
+  {
+   "state": "-LLLRRR",
+   "cusps": 4,
+   "characters": 256,
+   "orbits": 40,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 87.9,
+   "trace": -11
+  },
+  {
+   "state": "-LLRLRR",
+   "cusps": 4,
+   "characters": 256,
+   "orbits": 40,
+   "members": 0,
+   "member orbits": [],
+   "s cover": 654.0,
+   "trace": -15
+  }
+ ]
+}

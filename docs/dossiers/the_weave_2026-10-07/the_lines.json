@@ -1,0 +1,197 @@
+{
+ "+LR": {
+  "trace": 3,
+  "members": 54,
+  "member orbits": [
+   {
+    "size": 12,
+    "kind": [
+     "edge"
+    ],
+    "members per line": {
+     "[0, 1]": 4,
+     "[1, 0]": 4,
+     "[1, 1]": 4
+    },
+    "constant on V4 orbits": true,
+    "the golden map on lines": {
+     "[0, 1]": "[[1, 1]]",
+     "[1, 0]": "[[0, 1]]",
+     "[1, 1]": "[[1, 0]]"
+    },
+    "a well-defined 3-cycle": true
+   },
+   {
+    "size": 12,
+    "kind": [
+     "edge"
+    ],
+    "members per line": {
+     "[0, 1]": 4,
+     "[1, 0]": 4,
+     "[1, 1]": 4
+    },
+    "constant on V4 orbits": true,
+    "the golden map on lines": {
+     "[0, 1]": "[[1, 1]]",
+     "[1, 0]": "[[0, 1]]",
+     "[1, 1]": "[[1, 0]]"
+    },
+    "a well-defined 3-cycle": true
+   },
+   {
+    "size": 3,
+    "kind": [
+     "fixed by all of V4"
+    ]
+   },
+   {
+    "size": 3,
+    "kind": [
+     "fixed by all of V4"
+    ]
+   },
+   {
+    "size": 6,
+    "kind": [
+     "fixed by"
+    ],
+    "members per line": {
+     "[0, 1]": 2,
+     "[1, 0]": 2,
+     "[1, 1]": 2
+    },
+    "constant on V4 orbits": true,
+    "the golden map on lines": {
+     "[0, 1]": "[[1, 1]]",
+     "[1, 0]": "[[0, 1]]",
+     "[1, 1]": "[[1, 0]]"
+    },
+    "a well-defined 3-cycle": true
+   },
+   {
+    "size": 6,
+    "kind": [
+     "fixed by"
+    ],
+    "members per line": {
+     "[0, 1]": 2,
+     "[1, 0]": 2,
+     "[1, 1]": 2
+    },
+    "constant on V4 orbits": true,
+    "the golden map on lines": {
+     "[0, 1]": "[[1, 1]]",
+     "[1, 0]": "[[0, 1]]",
+     "[1, 1]": "[[1, 0]]"
+    },
+    "a well-defined 3-cycle": true
+   },
+   {
+    "size": 6,
+    "kind": [
+     "fixed by"
+    ],
+    "members per line": {
+     "[0, 1]": 2,
+     "[1, 0]": 2,
+     "[1, 1]": 2
+    },
+    "constant on V4 orbits": true,
+    "the golden map on lines": {
+     "[0, 1]": "[[1, 1]]",
+     "[1, 0]": "[[0, 1]]",
+     "[1, 1]": "[[1, 0]]"
+    },
+    "a well-defined 3-cycle": true
+   },
+   {
+    "size": 6,
+    "kind": [
+     "fixed by"
+    ],
+    "members per line": {
+     "[0, 1]": 2,
+     "[1, 0]": 2,
+     "[1, 1]": 2
+    },
+    "constant on V4 orbits": true,
+    "the golden map on lines": {
+     "[0, 1]": "[[1, 1]]",
+     "[1, 0]": "[[0, 1]]",
+     "[1, 1]": "[[1, 0]]"
+    },
+    "a well-defined 3-cycle": true
+   }
+  ]
+ },
+ "-LR": {
+  "trace": -3,
+  "members": 6,
+  "member orbits": [
+   {
+    "size": 6,
+    "kind": [
+     "fixed by"
+    ],
+    "members per line": {
+     "[0, 1]": 2,
+     "[1, 0]": 2,
+     "[1, 1]": 2
+    },
+    "constant on V4 orbits": true,
+    "the golden map on lines": {
+     "[0, 1]": "[[1, 1]]",
+     "[1, 0]": "[[0, 1]]",
+     "[1, 1]": "[[1, 0]]"
+    },
+    "a well-defined 3-cycle": true
+   }
+  ]
+ },
+ "+LLLR": {
+  "trace": 5,
+  "members": 0,
+  "member orbits": []
+ },
+ "-LLLR": {
+  "trace": -5,
+  "members": 0,
+  "member orbits": []
+ },
+ "+LLLLLR": {
+  "trace": 7,
+  "members": 0,
+  "member orbits": []
+ },
+ "-LLLLLR": {
+  "trace": -7,
+  "members": 0,
+  "member orbits": []
+ },
+ "+LLLRLR": {
+  "trace": 13,
+  "members": 0,
+  "member orbits": []
+ },
+ "-LLLRLR": {
+  "trace": -13,
+  "members": 0,
+  "member orbits": []
+ },
+ "+LLLRRR": {
+  "trace": 11,
+  "members": 0,
+  "member orbits": []
+ },
+ "-LLLRRR": {
+  "trace": -11,
+  "members": 0,
+  "member orbits": []
+ },
+ "-LLRLRR": {
+  "trace": -15,
+  "members": 0,
+  "member orbits": []
+ }
+}

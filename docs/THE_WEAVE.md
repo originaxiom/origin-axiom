@@ -43,10 +43,20 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   2T = SL(2, F₃), with A₄ below it. m000, m003 and m004 are among those threads.
 - **W4, the triplet.** The shared fibre carries one line for each non-zero parity. Every odd-trace thread acts on these
   lines as one irreducible triplet of A₄, and even-trace threads split it.
+- **W6, what the lines carry.**
+  - Whatever one line carries, the other two carry the same (Theorem G).
+  - On +LR each line carries one generation of each type.
+  - Of the odd-trace threads to length 6 read so far (eleven of twelve), no other carries any.
+  - On +LR's third level that is main's orbifold standard, with the cover forced.
 - **READING (GENESIS FK14).** The three generations are this triplet.
+- **READING, the mixing.** The weave's S₄ with the golden thread's 3-cycle and the swap gives TM1 mixing, the one pattern
+  of its kind the data still allow. The swap is main's Breath pulse.
 - **OPEN.**
-  - What each line carries: a whole generation, 5̄ + 10.
+  - The chirality: the extension's order decides generation against anti-generation.
+  - One module of index three, the smooth standard.
+  - Masses.
   - Which moves are in the weave: GENESIS GM5b, the sign, and GM5c, the swap.
+- **The synthesis against the physics:** `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 
 ## Where the rule is kept
 
