@@ -1,0 +1,1 @@
+fbdcd6e48ef117f6d6b132749f5aee0c2e534523a403dd98df9d14c1f9766272  room_census.json (the run of 2026-10-07, 08:00-08:03Z, before compression; gzip -n -9)
