@@ -9,6 +9,8 @@ that is what it is — the mathematics is in the definition column.
 | Inner term | What it actually is |
 |---|---|
 | **the object** | The figure-eight knot complement 4₁ (once-punctured-torus bundle, monodromy [[2,1],[1,1]]), and by extension its character varieties and quantum invariants. |
+| **thread** | One object the principle allows (m000, m003, m004, +LLLR, …): one closed path of the grammar's moves through the shared fibre, the two records. No thread is derived from another. "The object" above is one thread (2026-10-07; `docs/THE_WEAVE.md`). |
+| **the weave** | The owner's rule, named 2026-10-07: the joint action of every allowed move on the shared records, and what it forces, over all threads at once. A weave result takes every thread under a stated rule (none hand-picked), is defined by the joint action, and claims about all threads at once; anything read on one thread or its covers is a thread result (`docs/THE_WEAVE.md`). |
 | **bank / banked** | Committed to the repository with a passing lock (test) and ledger entries; the project's unit of "result". |
 | **B-number (B598, …)** | A banked frontier arc, numbered sequentially; lives in `frontier/B*/FINDINGS.md`. |
 | **seat / chat-N / cc2** | One AI assistant session among several run in parallel by the owner; seats cross-check each other (INTERNAL verification — see `PROVENANCE.md` §0). |

@@ -1,0 +1,59 @@
+{
+ "single moves": {
+  "L": {
+   "fixes": [
+    [
+     1,
+     0
+    ]
+   ],
+   "kind": "fixes one (a transposition)"
+  },
+  "R": {
+   "fixes": [
+    [
+     0,
+     1
+    ]
+   ],
+   "kind": "fixes one (a transposition)"
+  },
+  "P": {
+   "fixes": [
+    [
+     1,
+     1
+    ]
+   ],
+   "kind": "fixes one (a transposition)"
+  }
+ },
+ "pairs of moves: the group generated (order) and the product's kind": {
+  "LR": {
+   "order": 6,
+   "product": "cycles all three (a 3-cycle)"
+  },
+  "LP": {
+   "order": 6,
+   "product": "cycles all three (a 3-cycle)"
+  },
+  "RP": {
+   "order": 6,
+   "product": "cycles all three (a 3-cycle)"
+  }
+ },
+ "every hyperbolic word in L, R, P to length 8, both signs: (determinant, kind) -> objects": {
+  "det -1: cycles all three (a 3-cycle)": 676,
+  "det -1: fixes all three": 292,
+  "det -1: fixes one (a transposition)": 368,
+  "det 1: cycles all three (a 3-cycle)": 632,
+  "det 1: fixes all three": 270,
+  "det 1: fixes one (a transposition)": 316
+ },
+ "the named objects": {
+  "m004 (+LR)": "cycles all three (a 3-cycle)",
+  "m003 (-LR)": "cycles all three (a 3-cycle)",
+  "m000 (LP, Gieseking)": "cycles all three (a 3-cycle)"
+ },
+ "-I fixes all three parities": true
+}

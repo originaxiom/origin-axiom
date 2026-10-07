@@ -522,3 +522,47 @@ its load-bearing inputs, and its controls re-derive each one:
 - Lemma A's eigenspace split: in two routes, with two independent deck actions;
 - the count's identities and Theorem C: checked at every reading;
 - one generic count per subspace: across draws, routes and primes.
+
+## Rule (2026-10-07, the owner's instruction — adopted): THE WEAVE — WEAVE OR THREAD?
+
+The owner, verbatim, the same day:
+- **The rule:** "what about m000 m003 and all other objects that are allowed to emerge from our foundamental principle, not
+  manually chosen like m004. and, important, they should not necesary emerge from one of the other objects, but as an
+  interaction/relationship/emergence affecting all the object that the foundamental principle allows to happen or forces them.
+  the forced interaction on all interacted objects should provide what we need."
+- **The name:** "we should call this somehow, because we keep loosing oursels in naming. "the family" the object and go to wrong
+  direction. we need to know how to refer it, so we stop this wheel of me repeating every day".
+
+The owner has stated this rule daily for a year. Its fixed words (`docs/THE_WEAVE.md`):
+- **A thread** is one allowed object (m000, m003, m004, +LLLR, ...). It is one closed path of the grammar's moves through the
+  shared fibre, the two records. No thread is derived from another.
+- **The weave** is the joint action of every allowed move on the shared records, and everything it forces.
+
+**The test, before any arc or computation: weave or thread?** A weave result meets all three conditions:
+1. it takes every thread the principle allows, under a rule stated in advance, with a trial budget, and none hand-picked;
+2. its quantity is defined by the joint action on the shared fibre, or by what that action forces, not by one thread's own
+   geometry;
+3. its claim is about the weave, or about every thread of a stated kind, never about one thread.
+
+**Thread results.** Anything read on one thread or on covers of one thread is a thread result. It says so in its title or
+first paragraph, and it is never presented as the answer to a weave question.
+
+**Words that pull work back to one thread.**
+- "The object": `TERMINOLOGY.md`'s, which is m004.
+- "The family": read as a list examined one member at a time.
+- "The root": GENESIS's thread picked by its selectors.
+
+**How it composes with the standing rules.** It is the 2026-10-01 amendment to THE MANDATE, REWORDED, made operational.
+- That amendment's demonstrated physical map is not needed for a weave result. A weave result is defined on the fibre every
+  thread shares, so it needs no transport from one thread to another.
+- GENESIS IS CANONICAL holds unchanged. The question of which moves the weave contains is asked of main as GENESIS's open
+  GM5b and GM5c.
+- Every other standing rule applies unchanged.
+
+**First application, the same day.** `docs/dossiers/the_weave_2026-10-07/` (W1–W4) states, on all threads at once:
+- the three non-zero parities, which each move breaks and any two moves together cycle;
+- the quaternion point, the only structure every move fixes;
+- the same 2T and A₄ on every odd-trace thread;
+- one irreducible A₄ triplet on the shared fibre for every odd-trace thread.
+
+By this test sm:B1550 and the held sm:B1551 are thread results.

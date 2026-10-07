@@ -1,0 +1,282 @@
+{
+ "(1) the common point": {
+  "every move preserves tr [a, b]": true,
+  "every move's fixed-point ideal with the puncture parabolic (lex basis)": [
+   "x",
+   "y",
+   "z"
+  ],
+  "the points every move fixes, puncture parabolic": [
+   "(0, 0, 0)"
+  ],
+  "the points every move fixes, any puncture (with tr [a, b])": [
+   "(2, 2, 2): 2",
+   "(0, 0, 0): -2"
+  ],
+  "the points L alone fixes, puncture parabolic": [
+   "(0, 0, 0)"
+  ],
+  "each thread's fixed points on the Markov surface (orientation-reversing threads: their geometric point is fixed by the map followed by complex conjugation, not by the map)": {
+   "m004 (+LR)": {
+    "the eliminant in z = tr ab": "z**2*(z**2 - 3*z + 3)",
+    "points besides the origin (distinct roots of the eliminant other than 0)": 2,
+    "the basis is in shape position": true
+   },
+   "m003 (-LR)": {
+    "the eliminant in z = tr ab": "z**2*(z**2 - 3*z + 3)",
+    "points besides the origin (distinct roots of the eliminant other than 0)": 2,
+    "the basis is in shape position": true
+   },
+   "+LLR": {
+    "the eliminant in z = tr ab": "z**2*(z**4 - 5*z**2 + 8)",
+    "points besides the origin (distinct roots of the eliminant other than 0)": 4,
+    "the basis is in shape position": true
+   },
+   "+LLLR": {
+    "the eliminant in z = tr ab": "z**2*(z**4 - 2*z**3 - z**2 + z + 3)",
+    "points besides the origin (distinct roots of the eliminant other than 0)": 4,
+    "the basis is in shape position": true
+   },
+   "+LLRR": {
+    "the eliminant in z = tr ab": "z**2*(z**4 + 16)",
+    "points besides the origin (distinct roots of the eliminant other than 0)": 4,
+    "the basis is in shape position": false
+   },
+   "m000 (LP)": {
+    "the eliminant in z = tr ab": "z",
+    "points besides the origin (distinct roots of the eliminant other than 0)": 0,
+    "the basis is in shape position": true
+   }
+  }
+ },
+ "(2) its trace on every object": {
+  "every hyperbolic word in L, R, P to length 8, both signs: (det, parity action) -> image order -> objects": {
+   "det -1, cycles all three": {
+    "24": 676
+   },
+   "det -1, fixes all three": {
+    "8": 292
+   },
+   "det -1, fixes one": {
+    "16": 368
+   },
+   "det 1, cycles all three": {
+    "24": 632
+   },
+   "det 1, fixes all three": {
+    "8": 270
+   },
+   "det 1, fixes one": {
+    "16": 316
+   }
+  },
+  "the named objects": {
+   "m004 (+LR)": {
+    "trace": 3,
+    "det": 1,
+    "parity action": "cycles all three",
+    "image order": 24
+   },
+   "m003 (-LR)": {
+    "trace": -3,
+    "det": 1,
+    "parity action": "cycles all three",
+    "image order": 24
+   },
+   "m000 (LP)": {
+    "trace": 1,
+    "det": -1,
+    "parity action": "cycles all three",
+    "image order": 24
+   },
+   "+LLLR": {
+    "trace": 5,
+    "det": 1,
+    "parity action": "cycles all three",
+    "image order": 24
+   }
+  },
+  "the image's order is 24 (2T) exactly for the 3-cycles": true
+ },
+ "(3) the triplet": {
+  "the matrices (columns: the lines trivial on a, on b, on ab)": {
+   "L": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     -1,
+     0
+    ]
+   ],
+   "R": [
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "P": [
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "-I": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "inner by a": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "inner by b": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ]
+  },
+  "the group the moves and the fibre generate": {
+   "order": 48,
+   "traces": {
+    "-3": 1,
+    "-1": 15,
+    "0": 16,
+    "1": 15,
+    "3": 1
+   },
+   "determinants": {
+    "-1": 24,
+    "1": 24
+   },
+   "sum tr^2 / order": "1"
+  },
+  "the group L, R and the fibre generate": {
+   "order": 24,
+   "sum tr^2 / order": "1"
+  },
+  "against the adjoint of the quaternion point": {
+   "pairs (cohomology, adjoint) generated": 192,
+   "a function of the cohomology matrix (one adjoint for each)": false,
+   "equal traces at every pair": false,
+   "traces equal up to the determinant": false
+  },
+  "each object's group (its monodromy and the fibre) on the triplet": {
+   "m004 (+LR)": {
+    "parity action": "cycles all three",
+    "order": 12,
+    "sum tr^2 / order": "1",
+    "against the quaternion axes: pairs generated": 12,
+    "the same representation (equal traces at every pair)": true,
+    "det of the monodromy on the cohomology over its det on the axes": 1
+   },
+   "m003 (-LR)": {
+    "parity action": "cycles all three",
+    "order": 12,
+    "sum tr^2 / order": "1",
+    "against the quaternion axes: pairs generated": 12,
+    "the same representation (equal traces at every pair)": true,
+    "det of the monodromy on the cohomology over its det on the axes": 1
+   },
+   "m000 (LP)": {
+    "parity action": "cycles all three",
+    "order": 24,
+    "sum tr^2 / order": "1",
+    "against the quaternion axes: pairs generated": 24,
+    "the same representation (equal traces at every pair)": false,
+    "det of the monodromy on the cohomology over its det on the axes": -1
+   },
+   "+LLLR": {
+    "parity action": "cycles all three",
+    "order": 12,
+    "sum tr^2 / order": "1",
+    "against the quaternion axes: pairs generated": 12,
+    "the same representation (equal traces at every pair)": true,
+    "det of the monodromy on the cohomology over its det on the axes": 1
+   },
+   "+LLRR": {
+    "parity action": "fixes all three",
+    "order": 4,
+    "sum tr^2 / order": "3",
+    "against the quaternion axes: pairs generated": 8,
+    "the same representation (equal traces at every pair)": false,
+    "det of the monodromy on the cohomology over its det on the axes": 1
+   },
+   "+LLR": {
+    "parity action": "fixes one",
+    "order": 8,
+    "sum tr^2 / order": "2",
+    "against the quaternion axes: pairs generated": 8,
+    "the same representation (equal traces at every pair)": false,
+    "det of the monodromy on the cohomology over its det on the axes": -1
+   }
+  }
+ }
+}
