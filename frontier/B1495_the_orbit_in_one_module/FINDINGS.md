@@ -1,6 +1,6 @@
 # B1495 — THE ORBIT IN ONE MODULE: L8a15's three members read as one rank-15 module count three on the 10′ side and nine on the 5̄′ side — every cross term between two generations is −2, one from each generation's class seen through the other's four — so the deck symmetry relates the three generations and their exterior square is not one generation's
 
-**Verdict: NEGATIVE** (scoped: the SM seat's dictionary, the orbit module of L8a15's three sign members) — O1 and O2
+**Verdict: NEGATIVE** (scoped: the SM seat's dictionary — the one-bundle, smooth standard; see `ADDENDUM_2026-10-07_the_two_standards.md`: under the per-sector, orbifold standard the orbit reads (3, 3) — the orbit module of L8a15's three sign members) — O1 and O2
 hold, **O3 fails** (the cross terms are not zero) and **O4 fails too** (they are −2, not the control's −1). Scope: frame
 F-HE (the seat's 10′/5̄′ dictionary: N(10′) = −I(W), N(5̄′) = −I(Λ²W)); object L8a15, the companion of +LLLR, at its three
 sign members; reach single. cc (main), 2026-10-07. Sealed `3c1fadd9e` (sha256 9197f21e) before any cross term was read.

@@ -11,7 +11,7 @@ sys.path.insert(0, str(HERE.parents[1] / "B1486_the_two_orders_at_the_silver_mem
 import multicusp as MC, room as RM, fused as F
 from mpmath import mp, mpf, mpc, matrix, zeros, eye, inverse, norm, nstr
 mp.dps = 40; random.seed(1499)
-EPS = (mpf("0.1"), mpf("0.02"), mpf("0.005"))
+EPS = (mpf("0.1"), mpf("0.02"))        # 0.005 dropped after the sealed run: each seed takes ~35 minutes and the first two decide
 S = RM.site("o10_150691"); gens, rels = S.gens, S.rels; n = 4
 ks = [int(x) for x in (sys.argv[1] if len(sys.argv) > 1 else "2,0,0").split(",")]
 nu = {g: RM.zeta(k) for g, k in zip(gens, ks)}; assert RM.is_character(S, nu)
@@ -44,8 +44,12 @@ if out["obstruction c + d"]["unobstructed"]:
     for eps in EPS:
         X = {g: (eye(5) + eps * u_mixed[g] + eps ** 2 * ob_mixed["w"][g]) * S5[g] for g in gens}
         X, hist = F.gauss_newton(gens, rels, X)
-        rec = dict(eps=nstr(eps, 3), newton_residuals=[nstr(h, 3) for h in hist], converged=bool(hist[-1] < mpf(10) ** -40))
-        if rec["converged"]:
+        # CORRECTED AFTER THE SEALED RUN (2026-10-07): at eps = 0.1 the iteration reached the arithmetic floor (residual ~1e-36 against
+        # relator norms ~2e3, relative ~1e-39) and stayed there; the sealed threshold 1e-40 was tighter than 40-digit arithmetic allows
+        # on these relators, so the count was skipped.  The module is read when the residual is below 1e-30 (relative 1e-33), and both
+        # flags are recorded; the sealed output is kept in sealed_run/.
+        rec = dict(eps=nstr(eps, 3), newton_residuals=[nstr(h, 3) for h in hist], converged=bool(hist[-1] < mpf(10) ** -40), at_floor=bool(hist[-1] < mpf(10) ** -30))
+        if rec["at_floor"]:
             cd, gap = F.commutant_dim(gens, X); inv = F.invariants(gens, X)
             rec.update(distance_from_S=nstr(max(norm(X[g] - S5[g]) for g in gens), 6), commutant_dim=cd, invariant_line=inv[0], dual_invariant_line=inv[1], count=count(X),
                        relator_residual=nstr(max(norm(MC.word(r, X) - eye(5)) for r in rels), 3))

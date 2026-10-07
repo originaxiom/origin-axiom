@@ -10416,6 +10416,20 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1499": {
+   "slug": "the fusion on the first room",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B149": {
    "slug": "sl4 ideal completeness",
    "motifs": [

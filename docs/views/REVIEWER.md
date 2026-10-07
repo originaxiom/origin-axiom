@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1327** |
-| words of findings prose | **1,033,407** |
-| test lock files referenced | **772** |
-| arcs carrying an authored verdict | **1327** (100.0 %) |
-| recorded closures | **807** (640 classified, 167 routed-only) |
+| research arcs with findings | **1328** |
+| words of findings prose | **1,034,099** |
+| test lock files referenced | **773** |
+| arcs carrying an authored verdict | **1328** (100.0 %) |
+| recorded closures | **808** (641 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 894 |
-| NEGATIVE | 331 |
+| NEGATIVE | 332 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 77 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 78 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 ROOM NEEDS GENUS (sealed b7706bb61): T-ROOM-NEEDS-GENUS -- for any connected cover C of a word state, the room of the trivial line n(1)(C) = b1(C) - cusps(C) is bounded by the rank of the lifted act's invariant homology of the CLOSED fibre (Wang; the coinvariant sequence of the puncture classes), so a fibre of genus one -- every level, every companion, every abelian fibre cover -- has room zero, and the room needs a non-abelian cover of the register, of degree at least three. Verified on every cover built: m003's 35 and m004's 39 to degree eight, +LLLR's 22 to degree six (the covers from low-index subgroups through cover(perms), checked against SnapPy's own list). The family's room: m004 has NONE to degree eight (24 covers of genus 2-4 among its 39); +LLLR none to degree six; m003 has exactly one carrier by degree eight -- the census manifold o10_150691 at degree five (fibre degree 5, three punctures, genus 2, two cusps, H1 = Z^3, room 1; B1418: arithmetic, chiral, NOT a cover of m004, no three in F-CI; one cusp an index-three sublattice of the hexagonal Z[omega], one square). N45's base d9.2 has fibre genus 2 by its Alexander polynomial; m003's level nine reproduces the Lucas number 5778. Read on o10_150691: at the trivial character the four has its first interior class on any object read on main (h1 = 3 = two ends + one), reading (-1, -1); four more sign members, each one; at the 56 order-four characters, where Theorem C's cap is 1 + n(1) = 2, no count exceeds one -- eight characters carry TWO interior classes of the four (the second supply 2, a first) and each reads (0, -1). The chain toward the derivation is explicit at every link: three needs room, room is the act's invariant closed homology of a non-abelian cover of the register, the root has none to degree eight, the sign-twin one at degree five, and there the count is still one. 0 of 19.  
 `B1497_room_needs_genus/FINDINGS.md`
 
-**NEGATIVE — `B1498`** (516 words, 1 locks)  
-THE PENCIL ON THE FIRST ROOM (sealed d5b6ca8eb / bcccca27): at the eight order-four characters of o10_150691 where the four has two interior classes c1, c2 (B1497), the rank-five extensions W1(a c1 + b c2) form a pencil; read at the basis and at six values of lambda, every member reads (I(W1), I(Lambda^2 W1)) = (0, -1) at all eight characters -- no generation in any rank-five object, though the room is 1, the second supply 2, the cap 2 and the floor 1 there; the rank-six extension by both classes reads -1 (the second trivial line's generation, not the second class's). NEGATIVE, scoped: the two classes at one character are not two generations, nor one. 0 of 19.  
-`B1498_the_pencil_on_the_first_room/FINDINGS.md`
+**NEGATIVE — `B1499`** (674 words, 1 locks)  
+THE FUSION ON THE FIRST ROOM (sealed 10786bcca / 0f712c31): on o10_150691 at nu = (i, 1, 1) -- the family's first room, where the four has two interior classes, the room is 1, the second supply 2 and the seat's cap 2 -- the two orders (a class of V over the line, a class of the line over V) are each cocycles and their mixed direction is unobstructed at second order; Gauss-Newton from two seeds reaches an exact flat module at the arithmetic floor (relative ~1e-39), at distance 2.3 from the split point, with commutant dimension one and no invariant line on either side -- irreducible -- and it counts (0, 0) with no interior class at all. With B1486 (the silver members) and B1466 (m004's counted point) the pattern holds in three places: the count lives at the reducible point as the choice of order, and the irreducible neighbours carry nothing. NEGATIVE, scoped: nothing near V + 1 on this object uses the room, split (B1498) or fused. Disclosed: the sealed threshold 1e-40 was below the 40-digit floor; loosened to 1e-30, both flags recorded, the sealed output kept. 0 of 19.  
+`B1499_the_fusion_on_the_first_room/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

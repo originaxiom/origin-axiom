@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**807 recorded closures — of which 640 are CLASSIFIED by mechanism and
+**808 recorded closures — of which 641 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -90,6 +90,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed census (5ef37c794) of the line's interior classes at every sign character of both companions by the multi-cusp instrument of B1492 (controlled on m136 and on a closed manifold with room 1), the second supply n(nu^3 x four) at one representative per D6 x Galois orbit of the 448 order-8 characters of L8a15 with a 24-member equivariance control, the full reading at the nine order-4 orbits, and Theorem C (sm:B1535) for the bound.` | 1 |  |
 | `Sealed reading (3c1fadd9e) of the three rank-25 cross terms W_i x W_j with B1492's stacked instrument on the three-cusped L8a15; the pieces of one cross term decomposed (W_i x V_j and V_i x W_j at -1 each, V_i x V_j at 0); the deck symmetry carries the others; control: m136's two members give a cross term of -1.` | 1 |  |
 | `Sealed reading (d5b6ca8eb) of the pencil W1(c1 + lambda c2) at six lambda and the basis, at all eight characters, with B1492's stacked instrument and the relator check; the rank-six extension by both classes read for the record (-1).` | 1 |  |
+| `Sealed (10786bcca) second-order obstruction and Gauss-Newton fusion (B1486's method) from two seeds, the module read at the arithmetic floor with B1492's two-cusp stacked index; commutant and invariant lines checked.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 
