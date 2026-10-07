@@ -90,6 +90,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | main's sign (B1482) | the − states need exactly the central −I, which "words in L, R and P never give"; positivity (GENESIS GM5d, CHOSEN) is what excludes it | main's GENESIS v1.14 | WEAVE |
 | main's Proposition 1 | every word state has a canonical cover with abs(2 − tr φ) ends; three ends exactly on L³R | main's GENESIS v1.23 | WEAVE |
 | main's room laws | T-COMPANION-NO-ROOM; T-ROOM-NEEDS-GENUS: room is zero at fibre genus one, so it needs a non-abelian cover of degree ≥ 3 | main's GENESIS v1.23 | WEAVE + WAVE |
+| **the joined vacuum is empty (new)** | λ ⊗ ρ_hyp ⊗ ρ_Q, a thread's holonomy tensored with the common point, has no interior class: by Shapiro it is a summand of ρ_hyp on a finite cover, where restriction to the boundary is injective (Menal-Ferrer and Porti, 2012). So F-HE reads nothing there, though its puncture fixes a vector | the weave dossier's W12 (proof; checked at 50 digits on the 24 states to length 6) | WEAVE + WAVE |
 | **the spin vacuum's zero (new; after sm:B1552)** | at the weave's spin vacuum (any sum of twists λ ρ_Q of the common point) I(W₁) = 0 for every non-zero class: the puncture acts by −1, so A has no cusp cohomology, and the stable letter is κ times an element of a finite group, so it is semisimple. sm:B1509's T2 and T3 then give r₁ = 0. So F-HE's frame reads no generation and no anti-generation there | the weave dossier's W11 (proof, with sm:B1552's 864 sealed readings and a census of 758 states) | WEAVE + WAVE |
 
 ### 1c. Bounded censuses: laws by rule, not by proof
@@ -200,6 +201,17 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
      - **Where the lines are apart is a rule over all 758 states:** n_L − n_R + 2·[sign −] ≢ 0 (mod 4).
      - **On every state that is its own mirror,** the − state has them apart and the + state together. That is main's
        "the hand is in the sign" (B1479–B1483), found from a different object.
+     - **READING: the rule's number is each thread's linking with the weave's cusp.**
+       - A word's n_R − n_L is the Rademacher function Ψ of its class in PSL(2, ℤ): for R^{a₁}L^{b₁}⋯R^{aₙ}L^{bₙ},
+         Ψ = Σ(aᵢ − bᵢ).
+       - By Ghys's theorem ("Knots and dynamics", Proc. ICM 2006, vol. 1), Ψ is the linking number of the class's
+         modular knot with the trefoil.
+       - The modular knot is the class's periodic orbit in SL(2, ℝ)/SL(2, ℤ), the complement of the trefoil. In that one
+         space every thread is a periodic orbit, and the trefoil is its cusp.
+       - So the hand rule reads, mod 4 and shifted by twice the sign, how each thread links the cusp of the space that
+         holds every thread at once.
+       - The identification is classical. Reading it as the weave's hand is this page's, and nothing is computed from it
+         here.
    - **The chiral three (W10).**
      - With the parities, L and R act on the six-dimensional parity-twisted spin space as a group of order 96. It splits
        into two complex-conjugate triplets T and T̄, and the swap exchanges them.
@@ -215,8 +227,10 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
    - At a state's own tick the three parities split 1 + 2 or 1 + 1 + 1 under its isometries, never 3 (Theorem S).
    - The 1 + 2 is the pattern B1507's lead (i) asks about on s961, as S₃'s "2 + 1". It is not compared with data here.
 7. **Content is a thread's.** At the weave's spin vacuum the frame reads none on any thread (the spin vacuum's zero). A
-   count needs cusp cohomology or a Jordan block of the stable letter (sm:B1509's T2 and T3), and a thread's hyperbolic
-   geometry has the first. What the parities carry in the hyperbolic frame depends on the thread and the cover:
+   count needs cusp cohomology or a Jordan block of the stable letter (sm:B1509's T2 and T3). Joining a thread's geometry
+   to the common point gives cusp cohomology but no interior class (the joined vacuum is empty). Interior classes live in
+   the balanced four ρ_hyp ⊗ ρ̄_hyp of a thread's own geometry, on covers. What the parities carry in the hyperbolic frame
+   depends on the thread and the cover:
    - on the forced A₄ cover, members only on ±LR and generations only on +LR (to length 6, complete). To length 8 main's
      B1602 (cited) finds a third carrier, −LLRLRLRR, reading (+3, +1);
    - elsewhere, other threads carry content (§2).
@@ -246,8 +260,9 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
        one sign twin of every odd-trace word (W10);
      - that in F-HE's frame the spin vacuum carries no generation, on any thread at any tick (W11).
    - **Open:**
-     - content: not at the spin vacuum in F-HE's frame (W11). Open: a vacuum that joins a thread's geometry to the spin
-       part (λ ⊗ ρ_hyp ⊗ ρ_Q, whose puncture fixes a vector), or another frame (GENESIS FK11);
+     - content: not at the weave's vacua in F-HE's frame (W11, W12), so in F-HE it is a thread's. Open: another frame or
+       dictionary (GENESIS FK11). Main's F-CI finds deck orbits of three at tick 3 on every odd-trace thread in its
+       range (B1434), which with the deck kept (GENESIS FK7) is the record's closest weave-level three with content;
      - the deck kept (GENESIS FK7);
      - the hand (GENESIS FK4 and FK12; main's sign);
      - the masses;
@@ -307,7 +322,8 @@ Each line gives the cheapest test across the weave (other threads) and along the
 - **The reviews.** Three reviews, read-only, 2026-10-07. Their findings are folded in above, and line references are in
   the session record.
 - **The new laws.** `docs/dossiers/the_weave_2026-10-07/the_weaves_laws.py` → `the_weaves_laws.json`; the spin vacuum's
-  zero, `the_spin_zero.py` → `the_spin_zero.json` (W11).
+  zero, `the_spin_zero.py` → `the_spin_zero.json` (W11); the joined vacuum, `the_joined_vacuum.py` →
+  `the_joined_vacuum.json` (W12).
 - **The dossier.** `docs/dossiers/the_weave_2026-10-07/NOTE.md`.
 - **The synthesis.** `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - **The rule.** `docs/THE_WEAVE.md`.

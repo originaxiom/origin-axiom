@@ -425,11 +425,50 @@ fixes and every thread carries (W3).
 - **A count needs one of two things:**
   - cusp cohomology of A, as at the hyperbolic vacuum's parabolic puncture (sm:B1530, sm:B1550);
   - or a Jordan block of the stable letter at eigenvalue 1 (sm:B1509).
-- **The next vacuum to read is one that joins a thread's geometry to the spin part:** λ ⊗ ρ_hyp ⊗ ρ_Q.
-  - Its puncture acts by (−U) ⊗ (−1) = U, unipotent, so the rule allows content.
-  - Taken on every thread under a stated rule, it would be a weave census.
+- **The vacuum that joins a thread's geometry to the spin part, λ ⊗ ρ_hyp ⊗ ρ_Q, was named next. It is empty (W12).**
+  Its puncture fixes a vector, but none of its classes is interior.
 - **What the seat got wrong.** W11 could be read before sm:B1552's seal. The run confirmed the theorem; it was not needed
   to learn the answer.
+
+## W12. The joined vacuum has no interior class (`the_joined_vacuum.py`)
+
+**The module.** A = λ ⊗ ρ_hyp ⊗ ρ_Q: a thread's own holonomy, lifted to SL(2, ℂ), tensored with the weave's common point
+and a character.
+- The relay THE CHIRAL TRIPLET'S COUNT named it as the next read. Its puncture acts by (−U) ⊗ (−1) = U, which fixes a
+  vector, so W11 does not apply.
+
+**The theorem (PROVED, from the literature; WEAVE + WAVE).** No class of H¹(M; A) is interior, on any state at any tick.
+So F-HE, which extends by an interior class, reads nothing there.
+- **Shapiro.** H*(M; A) is a summand of H*(N; ρ_hyp), where N is the finite cover on which λ ⊗ ρ_Q is trivial.
+  Restriction to the boundary respects the splitting.
+- **Menal-Ferrer and Porti** (Osaka J. Math. 49, 2012). On a complete hyperbolic 3-manifold of finite volume,
+  H¹(N; ρ_n) → H¹(∂N; ρ_n) is injective for the n-dimensional representation composed with any lift of the holonomy.
+  ρ_hyp is the case n = 2.
+- **So the interior part of H¹(M; A) is zero.**
+
+**The check (COMPUTED, 50 digits).**
+- The population: all 24 states to length 6, at tick 1 and at the resolving tick, both signs of the stable letter, both
+  lifts of the common point, every parity that is a character there.
+- 44 (state, tick) pairs. 736 readings carry a class: every κ in μ₂₄ where the peripheral torus fixes a vector. At
+  every one, n = 0 and h¹ = r¹ = h⁰(T; A), so half lives and none of it is interior.
+- At the 992 controls (κ = e^{2πi/7} and κ = 2), h¹ = 0.
+
+**What it means.**
+- **Where F-HE's content can live.** The frame's own module at a thread's geometry is the balanced four
+  ρ_hyp ⊗ ρ̄_hyp, whose interior (cuspidal) classes need not vanish. The record's members live there, on covers, and thread
+  by thread (sm:B1550; main's B1602: +LR, −LR and −LLRLRLRR to length 8).
+- **The weave's own vacua carry none.** The spin vacuum reads zero (W11). The joined vacuum has no interior class (W12).
+- **So in F-HE the content of a generation is a thread's, not the weave's.** That is a law about the frame, and it puts
+  the open step at the frame (GENESIS FK11), not at another vacuum of this kind.
+
+**Main's F-CI frame, read for comparison (READING, cited).**
+- At the three-fold level, main's B1434 finds generation-shaped backgrounds in deck orbits of three on every odd-trace
+  state in its range (±LR, ±LLLR, ±LLLLLR), each counting one.
+- On the root those orbits sit on the twelve order-4 fibre characters, the square roots of the parities, not on the
+  parities (sm:B1506). On other threads they sit on other characters.
+- So F-CI's three is the deck's ℤ/3 at the weave's resolving tick on every odd-trace thread in range. Read with the deck
+  kept (GENESIS FK7), an orbit's deck-invariant sum counts three. That is the record's closest approach to three alike
+  generations from the weave, and it needs F-CI's dictionary (UNEARNED) and FK7.
 
 ## What the weave gives, and what it does not
 
@@ -447,6 +486,7 @@ fixes and every thread carries (W3).
 | W9 | COMPUTED (WEAVE, two routes) | the weave's spin doublet H¹(F₂; ρ_Q): the moves act by ℤ/8 (Q₁₆ with the swap); every thread has interior classes on it; twisted by the parities, three alike interior sectors on every odd-trace thread at tick 3 |
 | W10 | COMPUTED (WEAVE) | V, the three parity-twisted spin doublets: under L and R a group of order 96 with V = T ⊕ T̄, two complex-conjugate triplets (a chiral three); the swap exchanges them (order 192). On exactly one sign twin of every odd-trace word, one vacuum character at tick 3 carries T alone (m003, not m004, of the root's pair) |
 | W11 | NEGATIVE (sm:B1552, sealed); PROVED (WEAVE + WAVE) | F-HE's count at the weave's spin vacuum: (0, 0) at all 864 sealed readings, and zero at every class on every thread at every tick (sm:B1509's T2 and T3: no cusp cohomology, a semisimple stable letter). The spin vacuum carries the three but no content in this frame |
+| W12 | PROVED (WEAVE + WAVE); COMPUTED | the joined vacuum λ ⊗ ρ_hyp ⊗ ρ_Q has no interior class on any state at any tick (Menal-Ferrer–Porti through Shapiro): F-HE reads nothing there. In F-HE a generation's content is a thread's (the balanced four's cuspidal classes on covers) |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -477,6 +517,8 @@ fixes and every thread carries (W3).
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
 - `draft_chiral_counts/DESIGN_FOR_REVIEW.md`: the design sent to main. It was sealed as sm:B1552 on the owner's ruling,
   ahead of main's review (W11).
+- `the_joined_vacuum.py` → `the_joined_vacuum.json`: W12, the joined vacuum's structure on the 24 states to length 6
+  (50 digits).
 - `the_spin_zero.py` → `the_spin_zero.json`: W11. sm:B1509's T2 checked on sm:B1552's record, and T3's hypothesis on
   every state to length 12.
 - `the_chiral_triplet.py` → `the_chiral_triplet.json`: W10, the group on the parity-twisted spin space, its two

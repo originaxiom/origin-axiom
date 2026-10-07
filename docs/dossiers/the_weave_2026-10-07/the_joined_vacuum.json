@@ -1,0 +1,12597 @@
+{
+ "tally": {
+  "(state, tick)": 44,
+  "readings with a class": 736,
+  "n = 0 there": 736,
+  "h1 = r1 = h0(T; A) there": 736,
+  "controls": 992,
+  "controls with h1 = 0": 992
+ },
+ "states": [
+  {
+   "state": "+LR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLR",
+   "tick": 2,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLR",
+   "tick": 2,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLLR",
+   "tick": 2,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLR",
+   "tick": 2,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRR",
+   "tick": 2,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRR",
+   "tick": 2,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLRLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLRLR",
+   "tick": 2,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLRLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 9,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 15,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 3,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 21,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLRLR",
+   "tick": 2,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLLLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLLLR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLLR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLLRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 6,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 18,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRLR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRLR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRLR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRRR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRRR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLRLRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLRLRR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLRLRR",
+   "tick": 1,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 8,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 16,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 4,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      },
+      {
+       "kappa (24ths)": 20,
+       "h0(T; A)": 1,
+       "(h0, h1, r1, n)": [
+        0,
+        1,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLRLRR",
+   "tick": 3,
+   "rows": [
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": 1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 0,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 0,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      0
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      0,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "stable letter sign": -1,
+     "lift": 1,
+     "parity": [
+      1,
+      1
+     ],
+     "readings": [
+      {
+       "kappa (24ths)": 12,
+       "h0(T; A)": 2,
+       "(h0, h1, r1, n)": [
+        0,
+        2,
+        2,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "all held": true
+}

@@ -58,6 +58,8 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   - The common point's spin part carries the three as a chiral triplet with interior room (W9, W10).
   - F-HE's frame reads no generation there, on any thread at any tick (W11: sm:B1509's T2 and T3; sm:B1552, sealed, 864
     readings).
+  - Joining a thread's geometry to the common point gives no interior class either (W12). In F-HE a generation's content
+    is a thread's.
   - On +LR's third level that is main's orbifold standard, with the cover forced. Summed, the three sectors are one module
     of +LR pulled back.
 - **READING (main's GENESIS FK14; GENESIS FK7).**

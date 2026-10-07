@@ -23,7 +23,7 @@ block. Most results are negatives, and that is the result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1297** |
-| words of findings prose | **1,141,248** |
+| words of findings prose | **1,141,333** |
 | test lock files referenced | **797** |
 | arcs carrying an authored verdict | **1297** (100.0 %) |
 | recorded closures | **836** (669 classified, 167 routed-only) |
@@ -72,7 +72,7 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE FLOOR AT EVERY MEMBER (PROVED, not sealed). Lemma F at members: at a finite-order member nu on any finite cover of a complete finite-volume hyperbolic 3-manifold, every class c of sm:B1515's frame has I(W1) >= k - m_A - b0, m_A the cusps where nu is trivial, k those where c is non-zero, b0 = [nu^4 = 1]; from the identity I = -b0 + h0(dN; W1*) - r1(W1), h0(T; W1*) = 2, 1, 0 on cusps where nu, nu^4, neither is trivial, and r1(W1) <= 3m_A + m_B - k. So three, in either order, needs 3 - b0 cusps where nu is trivial and the class vanishes, and a member non-trivial on every cusp counts at most one generation. Corollary G: on sm:B1538's four room-3 covers of the silver pair (four cusps of two punctures each), a character whose fourth power is a puncture character is trivial on at most two cusps (the punctures' values are constant on cusps and multiply to 1), so no member there carries three, at any class, in either order. The ingredients checked by own code at every member reading on sm:B1538's covers with three or more cusps (route R), and the puncture structure at every character of order dividing 24 on the four covers. 0 of 19.  
 `B1545_the_floor_at_every_member/FINDINGS.md`
 
-**NEGATIVE — `B1552`** (1716 words, 0 locks)  
+**NEGATIVE — `B1552`** (1801 words, 0 locks)  
 THE CHIRAL TRIPLET'S COUNT, NEGATIVE as sealed. F-HE's count (I(W1), I(Lambda^2 W1)), its dictionary unchanged, read at the weave's own spin vacuum (the common point, forced by GENESIS PF1's reading and the joint action) on the weave's chiral triplet: every odd-trace state of GENESIS to word length 6 at tick 3, both candidate modules, both lifts, every kappa with an interior class, two draws, two independent routes. All 864 readings are (0, 0); the routes, the draws and the three parities agree everywhere. The extension lowers the interior dimension of W1 and of its dual alike. So the weave gives the three, alike, separate and with a hand, but this frame reads no generation on them at the weave's vacuum; generation content in the record stays at a thread's hyperbolic geometry (+LR, sm:B1550). After the read-out the seat found the zero is a theorem it already had: sm:B1509's T2 and T3 at the common point (no cusp cohomology, since the puncture acts by -1; the stable letter semisimple, since the moves' group there is finite) give I(W1) = 0 at every class on every state at every tick, so the run was decidable at design time.  
 `B1552_the_chiral_triplets_count/FINDINGS.md`
 

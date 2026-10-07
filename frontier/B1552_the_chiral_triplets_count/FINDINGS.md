@@ -114,6 +114,10 @@ read at the common point. Its check is the weave dossier's W11 (`the_spin_zero.p
 
 The weave's spin vacuum has neither, at any tick.
 
+**Added the same evening (the weave dossier's W12).** The joined vacuum λ ⊗ ρ_hyp ⊗ ρ_Q has cusp cohomology, but no
+class of it is interior. By Shapiro it is a summand of ρ_hyp on a finite cover, where restriction to the boundary is
+injective (Menal-Ferrer and Porti, 2012). So F-HE reads nothing there either.
+
 ## 5. What it means
 
 - **The weave's own vacuum gives no generation content in the frame.**
@@ -139,8 +143,9 @@ The weave's spin vacuum has neither, at any tick.
 - **Other frames or dictionaries** at the weave's vacuum (GENESIS FK11).
 - **A vacuum combining a thread's geometry with the weave's spin part.** One candidate is λ ⊗ ρ_hyp ⊗ ρ_Q, a natural
   rank four. It is not read here; it is the hatch.
-  - §4's rule allows content there: on the puncture, ρ_hyp ⊗ ρ_Q acts as (−U) ⊗ (−1) = U, with U unipotent, so it fixes
-    a vector.
+  - On the puncture, ρ_hyp ⊗ ρ_Q acts as (−U) ⊗ (−1) = U, with U unipotent, so it fixes a vector.
+  - **Corrected the same evening: it is empty (W12).** None of its classes is interior, so F-HE reads nothing there.
+    In F-HE a generation's content is a thread's (the balanced four's cuspidal classes on covers).
 - **Vacua outside §4's theorem.** States beyond length 6, other ticks and other κ at the spin vacuum are decided by §4.
   Characters of other kinds (not twists of ρ_Q) are not.
 - **Whether the third tick counts (GENESIS FK7), and the swap (GENESIS GM5c).**

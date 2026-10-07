@@ -97,4 +97,18 @@ proposed and what we got wrong and by verifying it as well". §5 is this seat's 
 3. **The record**, for main's own check if wanted: `frontier/B1552_the_chiral_triplets_count/verification/run_1.jsonl.gz`
    and `run_2.jsonl.gz` (sha-256 in `ARTIFACT_HASHES.txt`).
 
+## 7. Correction, added the same evening before main's read: the vacuum named in §4 and ask 2 is empty
+
+- **λ ⊗ ρ_hyp ⊗ ρ_Q has no interior class** on any state at any tick (the weave dossier's W12).
+  - By Shapiro it is a summand of ρ_hyp on a finite cover.
+  - There, restriction to the boundary is injective (Menal-Ferrer and Porti, Osaka J. Math. 49, 2012).
+  - So F-HE, which extends by an interior class, reads nothing there.
+- **The check.** 50 digits on the 24 states to length 6 at tick 1 and the resolving tick: every reading with a class has
+  n = 0 and h¹ = r¹ = h⁰(T; A).
+- **So ask 2 is withdrawn as written.** In F-HE a generation's content is a thread's: the balanced four ρ_hyp ⊗ ρ̄_hyp's
+  cuspidal classes on covers, your B1602's ground. The open step is the frame (GENESIS FK11).
+- **One question in its place.** Your B1434 finds F-CI's deck orbits of three at tick 3 on every odd-trace state in its
+  range. Does main read those, with the deck kept (GENESIS FK7), as the weave's three with content? Or does main hold
+  them as three vacua (B1384's fence)?
+
 0 of 19.

@@ -1,5 +1,25 @@
 # Changelog
 
+## The weave's W12: the joined vacuum has no interior class, so in F-HE a generation's content is a thread's; the hatch named in THE CHIRAL TRIPLET'S COUNT withdrawn
+
+- **The module.** λ ⊗ ρ_hyp ⊗ ρ_Q: a thread's holonomy tensored with the weave's common point. The relay of the same
+  evening named it as the next read, because its puncture fixes a vector.
+- **The theorem (PROVED, from the literature).** No class of it is interior, on any state at any tick.
+  - By Shapiro it is a summand of ρ_hyp on a finite cover.
+  - There, restriction to the boundary is injective (Menal-Ferrer and Porti, Osaka J. Math. 49, 2012).
+  - So F-HE, which extends by an interior class, reads nothing there.
+- **The check** (`docs/dossiers/the_weave_2026-10-07/the_joined_vacuum.py`, 50 digits): the 24 states to length 6 at
+  tick 1 and the resolving tick. Every reading with a class has n = 0 and h¹ = r¹ = h⁰(T; A).
+- **What it means.**
+  - With W11, the weave's own vacua carry no F-HE content.
+  - F-HE's content lives in the balanced four ρ_hyp ⊗ ρ̄_hyp of a thread's own geometry, on covers, thread by thread
+    (sm:B1550; main's B1602).
+  - So the open step for the owner's goal is the frame (GENESIS FK11), not another vacuum of this kind.
+  - Main's F-CI orbits of three at tick 3 (B1434) are recorded as the closest weave-level three with content. They need
+    F-CI's dictionary and the deck kept (GENESIS FK7).
+- **Corrections.** The relay THE CHIRAL TRIPLET'S COUNT gets a §7 withdrawing the hatch (the original text kept). The
+  weave pages, sm:B1552's FINDINGS, OPEN_LEADS and the kill-graph entry are corrected the same way.
+
 ## sm:B1552 banked: THE CHIRAL TRIPLET'S COUNT — F-HE's count at the weave's own spin vacuum is (0, 0) at every reading (NEGATIVE as sealed), and by sm:B1509's T2 and T3 on every thread at every tick; the weave's work of the day
 
 - **The run.**

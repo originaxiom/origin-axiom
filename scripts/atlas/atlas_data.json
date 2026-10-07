@@ -10385,7 +10385,7 @@
     "P6"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 11,
+   "obstacle_conf": 12,
    "status": "open",
    "domain": "arithmetic"
   },

@@ -116,7 +116,8 @@ So this section records which patterns the weave's group contains, and nothing m
 | 7 | READING (main's GENESIS FK14; GENESIS FK7) | the three generations are the three parity sectors at every third tick: the orbifold standard, with the cover forced and the deck kept |
 | 8 | READING (group theory only) | the weave's group contains S₄; with the golden 3-cycle the swap fixes the TM1 column; no comparison with data (§3) |
 | 9 | NEGATIVE (sm:B1552, sealed); PROVED (W11, WEAVE + WAVE) | F-HE's count at the weave's spin vacuum is zero at every class on every thread at every tick; W10's three carry no generation in this frame |
-| 10 | OPEN | content: a vacuum that joins a thread's geometry to the spin part (λ ⊗ ρ_hyp ⊗ ρ_Q, whose puncture fixes a vector), or another frame or dictionary (GENESIS FK11); the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
+| 9′ | PROVED (W12, WEAVE + WAVE) | the joined vacuum λ ⊗ ρ_hyp ⊗ ρ_Q has no interior class (Menal-Ferrer–Porti through Shapiro), so F-HE reads nothing there either. In F-HE a generation's content is a thread's: the balanced four's cuspidal classes on covers |
+| 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
 - **Steps 1–5″ are laws or rule-defined readings over every odd-trace thread,** not positives on a state. So is step 9,

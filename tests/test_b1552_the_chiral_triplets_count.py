@@ -69,3 +69,10 @@ def test_w11_the_zero_is_a_theorem_checked():
     assert d["all held"] is True
     assert d["(1) T2 on sm:B1552's record"]["readings"] == 864
     assert d["(2) the act on V is in a finite group, every state to length 12"]["states"] == 758
+
+
+def test_w12_the_joined_vacuum_has_no_interior_class():
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_joined_vacuum.json").read_text(encoding="utf-8"))
+    t = d["tally"]
+    assert d["all held"] is True and t["(state, tick)"] >= 24
+    assert t["readings with a class"] == t["n = 0 there"] == t["h1 = r1 = h0(T; A) there"] > 0

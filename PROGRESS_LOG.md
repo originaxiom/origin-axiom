@@ -17940,3 +17940,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - settle with main: verify B1601 and B1602's carrier with own code;
   - the hatch: a vacuum joining a thread's geometry to the weave's spin part (λ ⊗ ρ_hyp ⊗ ρ_Q), which has cusp
     cohomology.
+
+## 2026-10-07 (late) — the weave's W12: the joined vacuum is empty in F-HE
+
+- **The check, theory first.** Before designing the hatch named after sm:B1552, the seat checked it against the
+  literature. λ ⊗ ρ_hyp ⊗ ρ_Q is a summand of ρ_hyp on a finite cover, where no class is interior (Menal-Ferrer and
+  Porti). So F-HE reads nothing there.
+- **Checked at 50 digits** on the 24 states to length 6 (`the_joined_vacuum.py`).
+- **So in F-HE a generation's content is a thread's,** and the open step is the frame (GENESIS FK11).
+- **Read for comparison:** main's F-CI deck orbits of three at tick 3 (B1434). On the root they sit on the parities'
+  square roots, not on the parities (sm:B1506).
+- **Next:** report to the owner; the reconciliation with main (B1601, B1602, and B1434's odd-trace rows on this seat's
+  code).
