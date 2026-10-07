@@ -121,3 +121,5 @@ hexagonal — B1490's two conditions both fail, and the three is absent.
 `verification/multicusp.py` (sealed), `summary.py`, `fci_L8a15.py`; `survey_L8a15.json`, `survey_o10_150729.json`,
 `summary.json`, `fci_L8a15.json`, the run logs; the controls; `ARTIFACT_HASHES.txt` (the sealed instrument and
 controls). Test: `tests/test_b1492_the_three_ended_companion_read.py`.
+
+**Addendum (S84, 2026-10-08; B1604).** The instrument's validity condition, found by the Euler-characteristic control: at its 40 digits (SnapPy's high-precision holonomy, ~60) the stacked index is reliable only where the four's relator residual max |four(r) − I| sits well below the rank tolerance (10⁻²⁴ relative) — in practice below 10⁻²⁸; on covers with relators of hundreds of letters the residual reaches 10⁻¹⁸…10², the Fox matrices are noise and the ranks are not established. Check the residual (and χ = 0, T-NO-INDEX-IN-THREE) before any reading on a cover; for long covers use a polished holonomy at higher precision. The sign of SnapPy's SL(2, ℂ) lift on a cover's relators (a residual of exactly 2.83 = ‖−2I‖) is harmless: it cancels in the four.

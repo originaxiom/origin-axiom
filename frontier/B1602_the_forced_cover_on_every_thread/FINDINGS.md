@@ -74,3 +74,5 @@ it either on its own. No rule is claimed; the carrier is named.
 `verification/forced_every.py` (sealed), `summary.py`, `read_carrier.py`, `census_8.jsonl`, `summary.json`, the 74
 `forced_<thread>.json`, `read_*.json`, the run logs; `adoption/amend.py` (GENESIS v1.26, with the WM renaming).
 Test: `tests/test_b1602_the_forced_cover_on_every_thread.py`.
+
+**Addendum (S84, 2026-10-08; B1604's control).** On −LLRLRLRR's forced cover the four's relator residual at 40 digits is 6 × 10² (relators of 720–902 letters): the instrument's ranks there are noise, and **the third odd-trace carrier of T2 is withdrawn as an artifact**; T2 is undetermined at this precision, not failed — all nineteen length-eight odd-trace covers are unreliable by the audit (`B1604/verification/tiers.json`), as are −LLLRLR's and ±LLRLRR's (the seat's 160-digit census stands there: none carries). T1 holds where readable. The even-trace census stands on the 89 reliable and 28 marginal kernels (32 carriers among 81 reliable even covers; +LLLRLLR's (1, 0) withdrawn). The verdict (NEGATIVE as sealed) is unchanged: T3 fails on reliable data. The re-read at high precision is the next arc.

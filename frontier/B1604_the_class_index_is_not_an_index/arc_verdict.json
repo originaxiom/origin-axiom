@@ -1,0 +1,26 @@
+{
+ "id": "B1604",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1603",
+  "B1602",
+  "B1496",
+  "B1492",
+  "B1487"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "twisted cohomology of flat modules on cusped 3-manifolds and their finite covers; B1492's stacked index; the dictionary FK11",
+  "object": "every thread and every cover of one (the theorem); the control on seven forced covers of B1602's census; the precision audit on all 148 forced kernels of the 74 signed threads to length eight",
+  "reach": "general",
+  "hypotheses": "standard topology (chi of a compact 3-manifold with torus boundary, Poincare-Lefschetz duality with local coefficients); the control numerical at 40 digits; the audit's tiers by the four's relator residual (reliable < 1e-28, marginal to 1e-24, unreliable above); the audit post-seal, disclosed"
+ },
+ "claim_one_line": "THE CLASS INDEX IS NOT AN INDEX (sealed 12631d402 / faed67d2; T-NO-INDEX-IN-THREE): on a cusped 3-manifold or any finite cover every twisted Euler characteristic vanishes, so no count of flat-module cohomology there carries the physical index's shape identity n_5bar = n_10; by duality h^2(E) = n(E*) + sum t0(E*) - h^0(E*), so the stacked instrument's numbers must satisfy a0 - a1 + n(E*) + sum t0(E*) - a0(E*) = 0 at every module, and the class index is the interior rank in degree one minus that in degree two, governed by no characteristic class (B1603's kinds). Corollary: FK11 cannot be earned by any index on a thread or a cover; a generation count needs an even-dimensional object with a non-flat bundle, or a generation is a sector selected by a character (a selection). GENESIS v1.27. The control: chi = 0 at 196 modules on six clean covers -- and NOT on -LLRLRLRR's, where the four's relator residual at 40 digits is 6e2 (relators of 720-902 letters): the instrument's ranks there are noise. The audit it forced, over all 148 forced kernels: 89 reliable, 28 marginal, 31 unreliable (every length-eight odd-trace cover among them). Consequences written on the arcs: B1602's third carrier WITHDRAWN (T2 undetermined at 40 digits, not failed); B1603's kinds (1, 0), (3, 1) withdrawn -- on reliable covers 116 generation-shaped readings and six kinds; B1492 carries the instrument's validity condition (the four's residual far below the rank tolerance; check chi = 0). 0 of 19.",
+ "weave_or_thread": "weave"
+}

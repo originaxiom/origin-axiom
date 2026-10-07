@@ -10299,16 +10299,18 @@
    "motifs": [
     "monoid",
     "closing",
+    "golden",
     "z3_generation",
     "symplectic"
    ],
    "refs": [
-    "P9"
+    "P9",
+    "S84"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 5,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "arithmetic"
   },
   "B1493": {
    "slug": "the room on the companions",
@@ -10849,7 +10851,9 @@
     "z3_generation",
     "torsion"
    ],
-   "refs": [],
+   "refs": [
+    "S84"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 3,
    "status": "dead",
@@ -10864,12 +10868,26 @@
     "amphichiral_cp"
    ],
    "refs": [
-    "S82"
+    "S82",
+    "S84"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 12,
+   "obstacle_conf": 13,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1604": {
+   "slug": "the class index is not an index",
+   "motifs": [
+    "coupling",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 14,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B160": {
    "slug": "quasicrystal bridge corroboration",

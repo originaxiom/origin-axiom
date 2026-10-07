@@ -1,0 +1,6 @@
+{"thread": "b++LR", "modules": 68, "chi_zero": true, "chis": [0]}
+{"thread": "b++LLR", "modules": 36, "chi_zero": true, "chis": [0]}
+{"thread": "b+-LLR", "modules": 36, "chi_zero": true, "chis": [0]}
+{"thread": "b+-LLLLRR", "modules": 16, "chi_zero": true, "chis": [0]}
+{"thread": "b+-LLRLRLRR", "modules": 18, "chi_zero": false, "chis": [-5, -3, -2, -1, 0]}
+{"thread": "b++LLLLLLRR", "modules": 20, "chi_zero": true, "chis": [0]}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1332** |
-| words of findings prose | **1,038,785** |
-| test lock files referenced | **777** |
-| arcs carrying an authored verdict | **1332** (100.0 %) |
+| research arcs with findings | **1333** |
+| words of findings prose | **1,040,461** |
+| test lock files referenced | **778** |
+| arcs carrying an authored verdict | **1333** (100.0 %) |
 | recorded closures | **810** (643 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 896 |
+| PROVED | 897 |
 | NEGATIVE | 334 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1601`** (1790 words, 1 locks)  
-THE COMMON POINT IS THE GEOMETRY MOD 3 (sealed 3c56a10f1 / a5260bd9; a weave result): on every odd-trace thread to length eight (16 of 16) the fibre's traces (tr a, tr b, tr ab) at the geometric point generate exactly one prime of the thread's trace field, of residue degree one above 3 -- norm 3, multiplicity one, nothing else -- so the holonomy reduces there to the quaternion point, W2's common point; on every even-trace thread (21 of 21) the ideal is a power of one prime above 2 (norms 4, 8, 64, 1024), where the common point is the trivial representation, with nothing above 3. Corollary: W3's forced A4 cover is each odd-trace thread's own principal congruence cover at a prime of norm three (SL(2, F_3) = 2T). The lemma, proved: the Fricke maps' linear parts at the common point are quarter turns about two axes of the three parity lines, generating the cube's rotations S4 (the weave's group on the triplet), and odd trace iff a third turn about a body diagonal, whose axis is isotropic for x^2 + y^2 + z^2 exactly in characteristic three; over F_3 the parabolic Markov surface has the common point as its only point. W5: the four at the common point is the trivial line plus the three parity lines (exact). The SM seat's W6 census reproduced on main at order two on four threads (+LR 24 members (1, 0, 1); -LR 6 members (4, 0, 4); +-LLLR none). Since the mod-3 meeting is universal on odd trace, it is not what singles out +-LR for content; that stays arithmeticity's, unexplained. T-COMMON-POINT-MOD-3 (census law; lemma proved; theorem open). GENESIS v1.25. 0 of 19.  
-`B1601_the_common_point_is_the_geometry_mod_3/FINDINGS.md`
+**PROVED — `B1604`** (1321 words, 1 locks)  
+THE CLASS INDEX IS NOT AN INDEX (sealed 12631d402 / faed67d2; T-NO-INDEX-IN-THREE): on a cusped 3-manifold or any finite cover every twisted Euler characteristic vanishes, so no count of flat-module cohomology there carries the physical index's shape identity n_5bar = n_10; by duality h^2(E) = n(E*) + sum t0(E*) - h^0(E*), so the stacked instrument's numbers must satisfy a0 - a1 + n(E*) + sum t0(E*) - a0(E*) = 0 at every module, and the class index is the interior rank in degree one minus that in degree two, governed by no characteristic class (B1603's kinds). Corollary: FK11 cannot be earned by any index on a thread or a cover; a generation count needs an even-dimensional object with a non-flat bundle, or a generation is a sector selected by a character (a selection). GENESIS v1.27. The control: chi = 0 at 196 modules on six clean covers -- and NOT on -LLRLRLRR's, where the four's relator residual at 40 digits is 6e2 (relators of 720-902 letters): the instrument's ranks there are noise. The audit it forced, over all 148 forced kernels: 89 reliable, 28 marginal, 31 unreliable (every length-eight odd-trace cover among them). Consequences written on the arcs: B1602's third carrier WITHDRAWN (T2 undetermined at 40 digits, not failed); B1603's kinds (1, 0), (3, 1) withdrawn -- on reliable covers 116 generation-shaped readings and six kinds; B1492 carries the instrument's validity condition (the four's residual far below the rank tolerance; check chi = 0). 0 of 19.  
+`B1604_the_class_index_is_not_an_index/FINDINGS.md`
 
-**NEGATIVE — `B1603`** (752 words, 1 locks)  
-THE COUNT AT EVERY MEMBER (sealed 5d2787345 / f7723803; a weave result by inheritance): the SM seat's dictionary read at all 442 interior classes of the 242 members on the 20 carrier threads of B1602's census. The seat's floor and ceiling hold on every reading (442 of 442). +LR's 24 members all read (-1, -1) dead on every cusp (C1), -LR's 24 classes all (0, -3) (C2). The generation shape is NOT the root's: 122 readings are generation-shaped, 98 of them on ten even-trace threads -- +-LLR 12 each, +-LLLLR 12 each, +-LLRR 12 each, +LLLLLLR 6, -LLLLLLR 4, -LLLLRR 8, +LLLLLLRR 8 -- threads the seat's odd-trace census never read, two of them (+-LLR, +-LLLLR) not arithmetic (C3 fails). Eight kinds across the census: (-1, -2) 150, (-1, -1) 122, (0, -1) 64, (0, -2) 48, (2, -2) 32, (0, -3) 24, (1, 0) 1, (3, 1) 1 (C5 fails). Only (-1, -1) has the rank-five index's shape n_5bar = n_10; the zoo says the class index on a 3-manifold is an analogue of the physical index, not an index -- the dictionary's earning condition (the shape identity) is the open instrument question. NEGATIVE as sealed (the root's exclusivity of the generation shape dies on the weave's even-trace covers). No three. 0 of 19.  
+**NEGATIVE — `B1603`** (863 words, 1 locks)  
+THE COUNT AT EVERY MEMBER (sealed 5d2787345 / f7723803; a weave result by inheritance): the SM seat's dictionary read at all 442 interior classes of the 242 members on the 20 carrier threads of B1602's census. The seat's floor and ceiling hold on every reading (442 of 442). +LR's 24 members all read (-1, -1) dead on every cusp (C1), -LR's 24 classes all (0, -3) (C2). The generation shape is NOT the root's: 122 readings are generation-shaped, 98 of them on ten even-trace threads -- +-LLR 12 each, +-LLLLR 12 each, +-LLRR 12 each, +LLLLLLR 6, -LLLLLLR 4, -LLLLRR 8, +LLLLLLRR 8 -- threads the seat's odd-trace census never read, two of them (+-LLR, +-LLLLR) not arithmetic (C3 fails). Eight kinds across the census: (-1, -2) 150, (-1, -1) 122, (0, -1) 64, (0, -2) 48, (2, -2) 32, (0, -3) 24, (1, 0) 1, (3, 1) 1 (C5 fails). Only (-1, -1) has the rank-five index's shape n_5bar = n_10; the zoo says the class index on a 3-manifold is an analogue of the physical index, not an index -- the dictionary's earning condition (the shape identity) is the open instrument question. NEGATIVE as sealed (the root's exclusivity of the generation shape dies on the weave's even-trace covers). No three. 0 of 19. CORRECTED at S84 (B1604): the kinds (1, 0) and (3, 1) and +LLLLLLR's six are on covers the audit finds unreliable at 40 digits and are withdrawn; on reliable covers 116 generation-shaped readings and six kinds; the verdict and C3's failure stand.  
 `B1603_the_count_at_every_member/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  

@@ -1,0 +1,2074 @@
+[
+ {
+  "thread": "b++LLLLLLLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 9,
+  "residual": 3.18e-29,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 8,
+  "residual": 2.11e-29,
+  "tier": "reliable",
+  "members": 1,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 8,
+  "residual": 4.83e-17,
+  "tier": "unreliable",
+  "members": 3,
+  "generation_shaped": 6,
+  "kinds": [
+   [
+    -1,
+    -1
+   ]
+  ],
+  "trivial_n": 2
+ },
+ {
+  "thread": "b++LLLLLLRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": 14,
+  "residual": 5.25e-32,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLLRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": 14,
+  "residual": 1.26e-32,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLLRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": 14,
+  "residual": 2.01e-35,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLLRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": 14,
+  "residual": 3.35e-35,
+  "tier": "reliable",
+  "members": 10,
+  "generation_shaped": 8,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 7,
+  "residual": 2.77e-29,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLRLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 19,
+  "residual": 3.84e-22,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 12,
+  "residual": 4.37e-32,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    0,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 12,
+  "residual": 5.74e-29,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLLRRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 17,
+  "residual": 5.49e-27,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 6,
+  "residual": 1.13e-34,
+  "tier": "reliable",
+  "members": 1,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 6,
+  "residual": 7.27e-34,
+  "tier": "reliable",
+  "members": 13,
+  "generation_shaped": 12,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -1
+   ]
+  ],
+  "trivial_n": 2
+ },
+ {
+  "thread": "b++LLLLRLLR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": 22,
+  "residual": 1.69e-33,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRLLR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": 22,
+  "residual": 5.18e-33,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRLLR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": 22,
+  "residual": 1.07e-31,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRLLR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": 22,
+  "residual": 7.98e-35,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 16,
+  "residual": 1.1e-14,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 16,
+  "residual": 3.23e-31,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRLRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 25,
+  "residual": 1.15e-19,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": 10,
+  "residual": 3.55e-36,
+  "tier": "reliable",
+  "members": 6,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": 10,
+  "residual": 3.47e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": 10,
+  "residual": 1.85e-35,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": 10,
+  "residual": 5.6e-32,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRRLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 25,
+  "residual": 5.92e-19,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 14,
+  "residual": 3.71e-25,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 14,
+  "residual": 2.62e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRRRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": 18,
+  "residual": 1.06e-36,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRRRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": 18,
+  "residual": 1.77e-33,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRRRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": 18,
+  "residual": 6.41e-33,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLLRRRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": 18,
+  "residual": 1.75e-25,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 5,
+  "residual": 1.29e-32,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 18,
+  "residual": 0.000137,
+  "tier": "unreliable",
+  "members": 1,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    1,
+    0
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 18,
+  "residual": 1.51e-20,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLLRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 29,
+  "residual": 2.25e-17,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 13,
+  "residual": 9.01e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLRLR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": 34,
+  "residual": 1.28e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLRLR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": 34,
+  "residual": 1.94e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLRLR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": 34,
+  "residual": 1.34e-27,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLRLR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": 34,
+  "residual": 2.89e-31,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 20,
+  "residual": 1.45e-29,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 20,
+  "residual": 7.29e-26,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRLRRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 27,
+  "residual": 0.00662,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": -4
+ },
+ {
+  "thread": "b++LLLRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 8,
+  "residual": 8.88e-36,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    0,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 8,
+  "residual": 8.13e-28,
+  "tier": "marginal",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRRLLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 29,
+  "residual": 7.56e-18,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRRLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 20,
+  "residual": 3.31e-25,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRRLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 20,
+  "residual": 1.42e-32,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRRLRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": 30,
+  "residual": 1.27e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRRLRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": 30,
+  "residual": 6.69e-29,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRRLRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": 30,
+  "residual": 1.51e-31,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRRLRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": 30,
+  "residual": 2.87e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLLRRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 11,
+  "residual": 1.12e-27,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 4,
+  "residual": 2.83e-36,
+  "tier": "reliable",
+  "members": 11,
+  "generation_shaped": 8,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 4,
+  "residual": 5.7e-34,
+  "tier": "reliable",
+  "members": 5,
+  "generation_shaped": 4,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -2
+   ]
+  ],
+  "trivial_n": 2
+ },
+ {
+  "thread": "b++LLRLLRLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 37,
+  "residual": 22700000000000.0,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": -3
+ },
+ {
+  "thread": "b++LLRLLRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 22,
+  "residual": 1.17e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLLRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 22,
+  "residual": 3.32e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 10,
+  "residual": 2.11e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 10,
+  "residual": 6.47e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLRLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": 26,
+  "residual": 3.49e-18,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLRLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": 26,
+  "residual": 4.33e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLRLRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 39,
+  "residual": 2.53e-09,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 15,
+  "residual": 1.34e-18,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLRRLR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": 38,
+  "residual": 2.55e-31,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLRRLR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": 38,
+  "residual": 4.71e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLRRLR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": 38,
+  "residual": 7.29e-29,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRLRRLR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": 38,
+  "residual": 2.21e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": 6,
+  "residual": 1.34e-34,
+  "tier": "reliable",
+  "members": 5,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b++LLRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": 6,
+  "residual": 5.27e-38,
+  "tier": "reliable",
+  "members": 6,
+  "generation_shaped": 6,
+  "kinds": [
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -1
+   ]
+  ],
+  "trivial_n": 1
+ },
+ {
+  "thread": "b++LLRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": 6,
+  "residual": 3.88e-35,
+  "tier": "reliable",
+  "members": 6,
+  "generation_shaped": 6,
+  "kinds": [
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -1
+   ]
+  ],
+  "trivial_n": 1
+ },
+ {
+  "thread": "b++LLRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": 6,
+  "residual": 1.45e-37,
+  "tier": "reliable",
+  "members": 27,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    0,
+    -2
+   ],
+   [
+    0,
+    -1
+   ]
+  ],
+  "trivial_n": 2
+ },
+ {
+  "thread": "b++LR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": 3,
+  "residual": 2.63e-36,
+  "tier": "reliable",
+  "members": 24,
+  "generation_shaped": 24,
+  "kinds": [
+   [
+    -1,
+    -1
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLLLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -9,
+  "residual": 5.29e-27,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -8,
+  "residual": 7.44e-31,
+  "tier": "reliable",
+  "members": 1,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -8,
+  "residual": 5.09e-34,
+  "tier": "reliable",
+  "members": 3,
+  "generation_shaped": 4,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ]
+  ],
+  "trivial_n": 2
+ },
+ {
+  "thread": "b+-LLLLLLRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": -14,
+  "residual": 3.69e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLLRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": -14,
+  "residual": 2.78e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLLRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": -14,
+  "residual": 6.9e-36,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLLRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": -14,
+  "residual": 1.02e-34,
+  "tier": "reliable",
+  "members": 6,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -7,
+  "residual": 6.51e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLRLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -19,
+  "residual": 1.31e-23,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -12,
+  "residual": 8.86e-29,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -12,
+  "residual": 3.52e-30,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    0,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLLRRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -17,
+  "residual": 3.83e-26,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -6,
+  "residual": 2.62e-31,
+  "tier": "reliable",
+  "members": 13,
+  "generation_shaped": 12,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -1
+   ]
+  ],
+  "trivial_n": 2
+ },
+ {
+  "thread": "b+-LLLLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -6,
+  "residual": 3.89e-26,
+  "tier": "marginal",
+  "members": 1,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRLLR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": -22,
+  "residual": 2.58e-36,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRLLR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": -22,
+  "residual": 7.98e-33,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRLLR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": -22,
+  "residual": 1.81e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRLLR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": -22,
+  "residual": 4.62e-27,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -16,
+  "residual": 7.42e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -16,
+  "residual": 3.49e-22,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRLRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -25,
+  "residual": 3.94e-20,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": -10,
+  "residual": 3.31e-33,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": -10,
+  "residual": 1.25e-31,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": -10,
+  "residual": 1.17e-33,
+  "tier": "reliable",
+  "members": 10,
+  "generation_shaped": 8,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": -10,
+  "residual": 1.44e-28,
+  "tier": "marginal",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRRLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -25,
+  "residual": 31.8,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -14,
+  "residual": 1.12e-24,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -14,
+  "residual": 3.88e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRRRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": -18,
+  "residual": 1.3e-36,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRRRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": -18,
+  "residual": 1.66e-33,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRRRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": -18,
+  "residual": 1.94e-32,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLLRRRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": -18,
+  "residual": 2.05e-34,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -5,
+  "residual": 6.76e-34,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -18,
+  "residual": 2.31e-27,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -18,
+  "residual": 1.4e-24,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLLRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -29,
+  "residual": 5.21e-08,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -13,
+  "residual": 3.05e-18,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLRLR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": -34,
+  "residual": 2.73e-32,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLRLR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": -34,
+  "residual": 4.28e-33,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLRLR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": -34,
+  "residual": 1.2e-34,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLRLR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": -34,
+  "residual": 4.02e-34,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -20,
+  "residual": 7.41e-22,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -20,
+  "residual": 1.38e-29,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRLRRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -27,
+  "residual": 4.91e-22,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -8,
+  "residual": 7.23e-30,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -8,
+  "residual": 5.57e-30,
+  "tier": "reliable",
+  "members": 2,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    0,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRRLLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -29,
+  "residual": 1.15e-23,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRRLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -20,
+  "residual": 9.9e-22,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRRLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -20,
+  "residual": 1.12e-21,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRRLRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": -30,
+  "residual": 9.32e-29,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRRLRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": -30,
+  "residual": 4.48e-27,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRRLRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": -30,
+  "residual": 1.03e-33,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRRLRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": -30,
+  "residual": 4.08e-28,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLLRRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -11,
+  "residual": 4.26e-31,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -4,
+  "residual": 1.93e-35,
+  "tier": "reliable",
+  "members": 11,
+  "generation_shaped": 8,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -4,
+  "residual": 1.12e-31,
+  "tier": "reliable",
+  "members": 5,
+  "generation_shaped": 4,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -2
+   ]
+  ],
+  "trivial_n": 2
+ },
+ {
+  "thread": "b+-LLRLLRLR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -37,
+  "residual": 1.62e-10,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLLRR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -22,
+  "residual": 1.53e-26,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLLRR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -22,
+  "residual": 3.41e-27,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -10,
+  "residual": 1.91e-31,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -10,
+  "residual": 9.71e-34,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLRLR",
+  "kernel": 0,
+  "deck": "D4",
+  "trace": -26,
+  "residual": 3.97e-32,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLRLR",
+  "kernel": 1,
+  "deck": "D4",
+  "trace": -26,
+  "residual": 1.18e-22,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLRLRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -39,
+  "residual": 604.0,
+  "tier": "unreliable",
+  "members": 1,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    3,
+    1
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLRR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -15,
+  "residual": 8.66e-14,
+  "tier": "unreliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLRRLR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": -38,
+  "residual": 1.39e-31,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLRRLR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": -38,
+  "residual": 1.37e-29,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLRRLR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": -38,
+  "residual": 6.01e-30,
+  "tier": "reliable",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRLRRLR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": -38,
+  "residual": 1.92e-26,
+  "tier": "marginal",
+  "members": 0,
+  "generation_shaped": 0,
+  "kinds": [],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRR",
+  "kernel": 0,
+  "deck": "V4",
+  "trace": -6,
+  "residual": 2.21e-35,
+  "tier": "reliable",
+  "members": 5,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    -1,
+    -2
+   ]
+  ],
+  "trivial_n": 0
+ },
+ {
+  "thread": "b+-LLRR",
+  "kernel": 1,
+  "deck": "V4",
+  "trace": -6,
+  "residual": 2.57e-34,
+  "tier": "reliable",
+  "members": 6,
+  "generation_shaped": 2,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -1
+   ]
+  ],
+  "trivial_n": 1
+ },
+ {
+  "thread": "b+-LLRR",
+  "kernel": 2,
+  "deck": "V4",
+  "trace": -6,
+  "residual": 2.18e-36,
+  "tier": "reliable",
+  "members": 6,
+  "generation_shaped": 2,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -1
+   ]
+  ],
+  "trivial_n": 1
+ },
+ {
+  "thread": "b+-LLRR",
+  "kernel": 3,
+  "deck": "V4",
+  "trace": -6,
+  "residual": 1.23e-36,
+  "tier": "reliable",
+  "members": 25,
+  "generation_shaped": 8,
+  "kinds": [
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -2
+   ],
+   [
+    2,
+    -2
+   ]
+  ],
+  "trivial_n": 2
+ },
+ {
+  "thread": "b+-LR",
+  "kernel": 0,
+  "deck": "A4",
+  "trace": -3,
+  "residual": 4.64e-32,
+  "tier": "reliable",
+  "members": 6,
+  "generation_shaped": 0,
+  "kinds": [
+   [
+    0,
+    -3
+   ]
+  ],
+  "trivial_n": 0
+ }
+]

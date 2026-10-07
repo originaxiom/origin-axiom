@@ -1,0 +1,20 @@
+{
+ "thread": "b++LLLRRR",
+ "deck": "A4",
+ "covers": [
+  {
+   "generators": 6,
+   "relator_lengths": [
+    118,
+    68,
+    4,
+    116,
+    66
+   ],
+   "four_residual": "1.12e-27",
+   "sl2_residual_up_to_sign": "2.07e-34",
+   "reliable": false
+  }
+ ],
+ "all_reliable": false
+}

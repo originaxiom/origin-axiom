@@ -54,3 +54,5 @@ The three odd-trace carriers read as S82 left them: +LR (−1, −1) ×24, −LR
 
 `verification/count_every.py` (sealed), `summary.py`, `summary.json`, the 20 `count_<thread>.json`, the worker logs.
 Test: `tests/test_b1603_the_count_at_every_member.py`.
+
+**Addendum (S84, 2026-10-08; B1604's control and audit).** Readings on covers whose four-residual at 40 digits exceeds the rank tolerance are withdrawn: −LLRLRLRR's (3, 1), +LLLRLLR's (1, 0), and +LLLLLLR's six on its second kernel. On the reliable kernels (`B1604/verification/tiers.json`) the generation shape has **116** readings — +LR 24; ±LLR, ±LLLLR, ±LLRR 12 each; −LLLLLLR 4, −LLLLRR 8, +LLLLLLRR 8 — and the kinds are **six**: (−1, −2), (−1, −1), (0, −1), (0, −2), (2, −2), (0, −3). C3 fails on reliable data; C4 (the floor and ceiling) held on all 442 and holds on the reliable subset; C5 fails at six kinds as it did at eight. The verdict is unchanged.

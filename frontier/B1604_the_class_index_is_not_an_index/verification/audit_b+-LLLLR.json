@@ -1,0 +1,31 @@
+{
+ "thread": "b+-LLLLR",
+ "deck": "D4",
+ "covers": [
+  {
+   "generators": 5,
+   "relator_lengths": [
+    28,
+    34,
+    16,
+    4
+   ],
+   "four_residual": "2.62e-31",
+   "sl2_residual_up_to_sign": "2.01e-36",
+   "reliable": true
+  },
+  {
+   "generators": 5,
+   "relator_lengths": [
+    36,
+    12,
+    10,
+    34
+   ],
+   "four_residual": "3.89e-26",
+   "sl2_residual_up_to_sign": "6.36e-34",
+   "reliable": false
+  }
+ ],
+ "all_reliable": false
+}

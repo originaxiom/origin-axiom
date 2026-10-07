@@ -3,10 +3,10 @@
  "rows_old_parser": 24,
  "rows_both_shapes": 47,
  "distinct_sealed_paths_with_digest": 46,
- "sealed_files": 281,
- "in_rule_range": 72,
+ "sealed_files": 282,
+ "in_rule_range": 73,
  "with_markers": 3,
- "with_sections": 28,
+ "with_sections": 29,
  "with_neither": 41,
  "attested_with_quotes": 7,
  "attested_arcs": 6,
@@ -23,7 +23,7 @@
   ],
   "seal-ledger-current": [
    true,
-   "ok (351 sealed files listed)"
+   "ok (352 sealed files listed)"
   ],
   "pretense-phrases": [
    true,

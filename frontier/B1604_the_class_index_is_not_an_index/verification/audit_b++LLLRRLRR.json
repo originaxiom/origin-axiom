@@ -1,0 +1,53 @@
+{
+ "thread": "b++LLLRRLRR",
+ "deck": "V4",
+ "covers": [
+  {
+   "generators": 5,
+   "relator_lengths": [
+    6,
+    32,
+    37,
+    35
+   ],
+   "four_residual": "1.27e-30",
+   "sl2_residual_up_to_sign": "3.83e-36",
+   "reliable": true
+  },
+  {
+   "generators": 4,
+   "relator_lengths": [
+    52,
+    52,
+    40
+   ],
+   "four_residual": "6.69e-29",
+   "sl2_residual_up_to_sign": "1.36e-35",
+   "reliable": true
+  },
+  {
+   "generators": 5,
+   "relator_lengths": [
+    16,
+    16,
+    14,
+    16
+   ],
+   "four_residual": "1.51e-31",
+   "sl2_residual_up_to_sign": "1.98e-36",
+   "reliable": true
+  },
+  {
+   "generators": 4,
+   "relator_lengths": [
+    40,
+    52,
+    52
+   ],
+   "four_residual": "2.87e-28",
+   "sl2_residual_up_to_sign": "4.53e-35",
+   "reliable": false
+  }
+ ],
+ "all_reliable": false
+}
