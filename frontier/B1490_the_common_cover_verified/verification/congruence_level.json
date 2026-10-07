@@ -1,0 +1,8 @@
+{
+ "image_order_mod_4": 160,
+ "PSL_order_mod_4": 1920,
+ "image_order_mod_2": 10,
+ "PSL_order_mod_2": 60,
+ "level_4_given_index_12": true,
+ "level_2": false
+}

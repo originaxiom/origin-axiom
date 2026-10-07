@@ -1,0 +1,32 @@
+{
+ "2": {
+  "SL_image": 10,
+  "SL_group": 60,
+  "minus_I_in_image": true,
+  "PSL_image": 10,
+  "PSL_group": 60,
+  "PSL_index": 6
+ },
+ "4": {
+  "SL_image": 320,
+  "SL_group": 3840,
+  "minus_I_in_image": true,
+  "PSL_image": 160,
+  "PSL_group": 1920,
+  "PSL_index": 12
+ },
+ "8": {
+  "SL_image": 20480,
+  "SL_group": 245760,
+  "minus_I_in_image": true,
+  "PSL_image": 10240,
+  "PSL_group": 122880,
+  "PSL_index": 12
+ },
+ "level_4_index_12": true,
+ "B731_said": {
+  "2": 6,
+  "4": 6,
+  "8": 12
+ }
+}

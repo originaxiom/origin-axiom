@@ -1,0 +1,94 @@
+{
+ "o10_150726": {
+  "det_one": true,
+  "relators_pm_identity": true,
+  "snappy_presentation_matches": true,
+  "trace_squares (exact vs SnapPy)": [
+   [
+    "a",
+    -2.0,
+    -3.464102,
+    -2.0,
+    -3.464102
+   ],
+   [
+    "b",
+    -2.0,
+    -3.464102,
+    -2.0,
+    -3.464102
+   ],
+   [
+    "c",
+    -2.0,
+    -3.464102,
+    -2.0,
+    -3.464102
+   ],
+   [
+    "d",
+    -2.0,
+    -3.464102,
+    -2.0,
+    -3.464102
+   ]
+  ],
+  "traces_agree": true
+ },
+ "m202": {
+  "det_one": true,
+  "relators_pm_identity": true,
+  "snappy_presentation_matches": true,
+  "trace_squares (exact vs SnapPy)": [
+   [
+    "a",
+    -0.5,
+    0.866025,
+    -0.5,
+    0.866025
+   ],
+   [
+    "b",
+    -0.5,
+    0.866025,
+    -0.5,
+    0.866025
+   ]
+  ],
+  "traces_agree": true
+ },
+ "s959": {
+  "det_one": true,
+  "relators_pm_identity": true,
+  "snappy_presentation_matches": true,
+  "trace_squares (exact vs SnapPy)": [
+   [
+    "a",
+    4.0,
+    0.0,
+    4.0,
+    -0.0
+   ],
+   [
+    "b",
+    4.0,
+    -0.0,
+    4.0,
+    -0.0
+   ],
+   [
+    "c",
+    -0.5,
+    -0.866025,
+    -0.5,
+    -0.866025
+   ]
+  ],
+  "traces_agree": true
+ },
+ "|PSL(2, Z[w]/4)|": 1920,
+ "K_riley_mod4": 160,
+ "K_seat_mod4": 160,
+ "index_12_both": true,
+ "K_seat_conjugate_to_K_riley_mod4": true
+}
