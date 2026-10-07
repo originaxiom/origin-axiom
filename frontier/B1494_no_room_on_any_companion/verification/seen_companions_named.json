@@ -1,0 +1,82 @@
+[
+ {
+  "state": "+LLLR",
+  "bundle": "b++LLLR",
+  "H1_state": "Z/3 + Z",
+  "T": 3,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 3,
+    "cusps": 3,
+    "H1": "Z + Z + Z",
+    "b1": 3,
+    "b1_minus_ends": 0,
+    "sym": 12,
+    "chiral": true,
+    "volume_ratio": 3.0000000000000013,
+    "isosig": "mLvLALMQQcfghjkjljklklhialhalaaiiqp_BabbbaBBBbdC"
+   }
+  ]
+ },
+ {
+  "state": "+LLRR",
+  "bundle": "b++LLRR",
+  "H1_state": "Z/2 + Z/2 + Z",
+  "T": 4,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 4,
+    "cusps": 4,
+    "H1": "Z + Z + Z + Z",
+    "b1": 4,
+    "b1_minus_ends": 0,
+    "sym": 32,
+    "chiral": false,
+    "volume_ratio": 4.0,
+    "isosig": "qvvLPQwAPLQkfghffjilkmnpopopoaaaaaaaaaaaaaaaaa_abdcBaaBaBbaaBbaBaaB"
+   }
+  ]
+ },
+ {
+  "state": "-LLRR",
+  "bundle": "b+-LLRR",
+  "H1_state": "Z/2 + Z/4 + Z",
+  "T": 8,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 8,
+    "cusps": 8,
+    "H1": "Z + Z + Z + Z + Z + Z + Z + Z",
+    "b1": 8,
+    "b1_minus_ends": 0,
+    "sym": 256,
+    "chiral": false,
+    "volume_ratio": 7.999999999999987,
+    "isosig": "GvvvLzvLvLMLQQQAvPQQQQcjhququxwvvAzryptysCBFEDDBECFDEBFCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_abedgcfhBbabaBBbBbabBbabaBBbBbababbBabbB"
+   }
+  ]
+ },
+ {
+  "state": "-LR",
+  "bundle": "b+-LR",
+  "H1_state": "Z/5 + Z",
+  "T": 5,
+  "n_candidates": 1,
+  "companions": [
+   {
+    "degree": 5,
+    "cusps": 5,
+    "H1": "Z + Z + Z + Z + Z",
+    "b1": 5,
+    "b1_minus_ends": 0,
+    "sym": 240,
+    "chiral": false,
+    "volume_ratio": 4.999999999999998,
+    "isosig": "kvvLQQMkghifhifgjjjmtmiutlpmta_BaaBBaaBabBbbBbabaab"
+   }
+  ]
+ }
+]
