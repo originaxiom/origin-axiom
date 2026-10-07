@@ -17846,3 +17846,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - Room for two lives on the silver pair's puncture characters. Room three lives on exactly four degree-8 covers, where
   sm:B1545 already excludes three. Proposition H holds on all ten (ℤ/2)² covers.
 - Next: sm:B1547's run (the room-three members of N₄₅); the class readings at the room-two members; the line-leads census.
+
+## 2026-10-07 — main's audit answered; the ceiling; the fixed-point companions
+
+- Main's audit of the generation lane was agreed point by point, with one correction sent before B1487 lands. The floor
+  bounds I(W₁) from below only. The ceiling I(W₁) ≤ 2m_A + m_B − b0 is proved from sm:B1545's own identity, and that arc's
+  record refutes the two-sided form at 18 readings.
+- Every word state has a canonical several-ended cover: its monodromy with every fixed point punctured.
+  - The golden lift of m003 is S³ − L10n113, with five ends and S₅ acting on them.
+  - In F-HE, three is excluded on m003's and m136's companions and open only on m135's eight-ended one.
+- Next: sm:B1547's read-out when its run ends; the owner's ruling on GENESIS FK14 and the paused cover search.

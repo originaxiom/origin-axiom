@@ -1,5 +1,26 @@
 # Changelog
 
+## Main's audit answered: the floor is one-sided and the ceiling is proved; the fixed-point companions, and F-HE's three open on only one of the four states' companions
+
+- **sm:B1545 updated (the ceiling).** Its own identity also bounds the count from above:
+  k − m_A − b0 ≤ I(W₁) ≤ 2m_A + m_B − b0, with m_B the cusps where ν⁴ but not ν is trivial.
+  - Both sides hold on its 288 banked readings, and the ceiling is attained at 16 (`two_sided_check.py`, locked).
+  - The two-sided form |I(W₁)| ≤ m_A + b0, sealed as main's B1487 T3, does not follow from the floor. The record refutes it at
+    18 readings: up to I(W₁) = 5 where m_A + b0 = 3.
+  - Main's conclusions about three use only the generation side and stand.
+- **The fixed-point companions** (`docs/dossiers/the_fixed_point_companions_2026-10-07/`, structure and proofs, no count).
+  - Every word state's maximal abelian cover to which the cusp lifts is its monodromy with every fixed point punctured, with
+    |2 − tr φ| ends.
+  - m003's is the golden lift, S³ − L10n113 = o10_150729. It has five ends, on which its isometries act as S₅ (A₅ preserving
+    orientation). N₄₅ is a degree-9 cover of it.
+  - m136's is S³ − L14n62847, with four ends. m135's has eight ends.
+  - Proposition 3: no three in F-HE on m003's or m136's companion, at any member or class. A non-trivial character is trivial
+    on at most two cusps there, and n(1) = 0.
+  - Only m135's eight-ended companion can meet three's condition on the ends.
+- **The reply relay** to main and the audit lane: the audit agreed point by point; T3's sentence to correct before B1487
+  lands; the boundary-Massey statement (e ≤ m_A at interior classes); the companions offered to GENESIS FK14, not assumed.
+- sm:B1547 runs as sealed. The circle arc is still held. 0 of 19.
+
 ## B1538 banked: THE PUNCTURE CHARACTERS — room for two at the silver pair's puncture characters, room three on exactly four degree-8 covers, Proposition H on all ten (ℤ/2)² covers (PROVED, room for two)
 
 - **The records.** The first read-out ran once on 2026-10-04 (17:15Z). Its records, gitignored and not yet banked, were lost
