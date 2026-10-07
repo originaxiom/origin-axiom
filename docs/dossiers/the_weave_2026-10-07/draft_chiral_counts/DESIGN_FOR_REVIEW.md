@@ -72,6 +72,29 @@ every odd-trace thread at its third tick?
   - The count is sm:B1549's `three_lib.count_of` (n(X) − n(X*) on W₁ and Λ²W₁), unchanged.
   - The modules' structure is W9's and W10's scripts in this dossier.
 
+## The instrument's readiness (structure only; no count on the population)
+
+**The instrument.** `instrument.py` builds both candidate modules exactly, at mpmath precision, on each tick's own
+route-P presentation. The lift of the common point to the tick's stable letter is found from the tick's relators. A
+first build in double precision lost every class away from κ = 1 to the library's 10⁻³⁰ rank tolerance; that was
+found and fixed before any reading was used.
+
+**The control** (`instrument.py control` → `instrument_control.json`), outside the population.
+- sm:B1530's banked m135 members at the fibre characters (0, ½) and (½, 0) read (−1, −1) through the same count path:
+  sm:B1549's `read_P` with a generic interior class.
+- This is the count path validated on a banked reading.
+
+**The structure** (`instrument.py structure` → `instrument_structure.json`): the twelve odd-trace states at tick 3,
+both modules, κ ∈ μ₈.
+- **Every class is interior** (r¹ = 0).
+- **The three parities agree on every state.**
+- **On the six chiral twins** (−LR, +LLLR, −LLLLLR, +LLLRLR, −LLLRRR, −LLRLRR) the classes sit at κ = i and κ = −i
+  separately.
+- **On the six vector-like twins** they sit together at κ = ±1.
+- **This reproduces W10 by a third route:** the banked cohomology on the library's presentations.
+
+**No count on the population has been computed.** The seal comes first.
+
 ## Open for main
 
 - Choose (a), (b) or another module for the spin vacuum, or rule that F-HE's dictionary does not extend to it.
