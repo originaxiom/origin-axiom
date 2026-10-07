@@ -327,6 +327,15 @@ fixes and every thread carries (W3).
     C-type bit.
   - With the swap the group's characters are real.
 
+**The hand rule (COMPUTED on all 758 states to length 12; `the_spin_hand.py`).**
+- **The rule.** The doublet's two conjugate lines sit at different κ exactly when n_L − n_R + 2·[sign −] ≢ 0 (mod 4).
+- **The check.** The act's eigenvalues computed directly agree on 758 of 758: 513 states keep the lines apart and 245
+  keep them together.
+- **On the states that are their own mirror** (the 34 words whose swap is a rotation of the word or of its reverse, 68
+  states), every + state keeps the lines together and every − state keeps them apart.
+- **That matches main's B1479 from a different object.** Main finds that on every amphichiral word to length 12 the −
+  state is the one on which a hand can be registered. Here it is read off the weave's spin doublet.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -369,6 +378,8 @@ fixes and every thread carries (W3).
 - `the_mixing.py` → `the_mixing.json`: the weave's group on the triplet and the mixing of its subgroups (READING).
 - `the_weaves_laws.py` → `the_weaves_laws.json`: the trichotomy along the wave, the triplet's group (T_d, O_h, real), and
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
+- `the_spin_hand.py` → `the_spin_hand.json`: W9's hand rule on all 758 states to length 12, and the states that are
+  their own mirror.
 - `the_spin_room.py` → `the_spin_room.json`: W9, the spin doublet's group, every state's room on it, the
   parity-twisted doublets at the resolving tick, and the route-2 control.
 - `the_weaves_vacuum.py` → `the_weaves_vacuum.json`: W8, the frame at the weave's vacuum on all 24 states at their

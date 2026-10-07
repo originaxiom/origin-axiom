@@ -45,6 +45,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | Theorem G | On the forced A₄ cover of every odd-trace thread, a member orbit sits a third on each parity, and on the third level it gives one sector per parity, cycled by the deck, each with the member's count | every odd-trace thread | proof (Shapiro) | WEAVE, at tick 3 |
 | **Lemma V (new)** | On a hyperbolic once-punctured-torus bundle no rank-one line is interior: h¹(ν) ≤ 1, and when it is 1, ν is trivial on the cusp and the class restricts to it injectively (finite order needed only when ν is trivial on the fibre). So the frame at the weave's own vacuum, the common point, whose module four(ρ_Q) = 1 ⊕ 3 is a sum of such lines by Shapiro, has no member on any state at any tick | every state at every tick; 72 parity lines and 768 characters of order dividing 4 on the 24 states to length 6 at their resolving tick | proof (Wang sequence; the puncture loop); checked exactly | WEAVE + WAVE |
 | **the spin doublet (new)** | The fibre's cohomology with coefficients in the common point, H¹(F₂; ρ_Q), is two-dimensional and every thread's class in it is interior (ρ_Q([a, b]) = −1). L and R act on it as commuting rotations (cyclic of order 8; Q₁₆ with the swap), so every thread acts with finite order and has interior classes; twisted by the parities, the three are alike for every lift at the resolving tick of every odd-trace and every involution state | 24 states to length 6; route 2 (Fox calculus) on five | computed | WEAVE |
+| **the hand rule (new)** | The spin doublet's two conjugate lines sit at different κ exactly when n_L − n_R + 2·[sign −] ≢ 0 (mod 4); on every state that is its own mirror, the + state keeps them together and the − state apart, which is main's B1479 read off another object | 758 states to length 12 (34 own-mirror words, 68 states) | computed, against the formula | WEAVE |
 | the gcd law (lifted) | An orbit of the forced cover is one module at the ticks 3 does not divide and three sectors at every third tick. That is B1507's gcd(n, 3), lifted from m004 to every odd-trace thread by the trichotomy | every odd-trace thread, every tick | proof | WEAVE + WAVE |
 
 **Theorem S, the proof.**
@@ -180,6 +181,9 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
    - **READING, the hand.** Without the swap the doublet's group is abelian, and its two complex-conjugate lines are kept
      apart by every L,R-thread. That is a candidate for a hand that is not a marking. The swap exchanges them, as GENESIS
      FK3's C-type bit (B1083) would.
+     - **Where the lines are apart is a rule over all 758 states:** n_L − n_R + 2·[sign −] ≢ 0 (mod 4).
+     - **On every state that is its own mirror,** the − state has them apart and the + state together. That is main's
+       "the hand is in the sign" (B1479–B1483), found from a different object.
 6. **Masses.**
    - A kept, unbroken deck gives a texture the data refute (B1273, B1361; sL-5), so the deck must break at order one, or
      the Higgs must be parity-neutral.

@@ -1,0 +1,17 @@
+{
+ "states (both signs) to length 12": 758,
+ "the rule agrees on": 758,
+ "disagreements": [],
+ "lines apart / together": {
+  "apart": 513,
+  "together": 245
+ },
+ "states that are their own mirror: + state [apart, together]": [
+  0,
+  34
+ ],
+ "states that are their own mirror: - state [apart, together]": [
+  34,
+  0
+ ]
+}
