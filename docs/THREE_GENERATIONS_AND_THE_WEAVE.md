@@ -105,7 +105,7 @@ So this section records which patterns the weave's group contains, and nothing m
 |---|---|---|
 | 0 | DERIVED (GENESIS) | PF1–PF3 → two records, the shears L, R (GM2); the swap OPEN (GM5c); the sign OPEN (GM5b on this branch; on main a move of its own that positivity, GM5d, excludes) |
 | 1 | PROVED (W1) | three non-zero parities; one undistinguished three only when moves act together |
-| 2 | PROVED (W2) | the one structure every move fixes: the quaternion point |
+| 2 | PROVED (W2; GENESIS PF1's reading) | the moves fix exactly two characters on the whole character variety, the quaternion point (κ = −2) and the trivial one (κ = 2); non-cancellation (κ ≠ 2) leaves the quaternion point: the weave's vacuum, forced |
 | 3 | PROVED (W3) | from it, the same A₄ (and 2T) on every odd-trace thread; GENESIS's SE1 admits only such threads |
 | 4 | PROVED (W4) | one irreducible triplet on the shared fibre, the same on every odd-trace thread; the weave's group T_d ≅ S₄ (O_h with the swap), all characters real |
 | 5 | PROVED (Theorem G) | whatever one parity carries, all three carry |

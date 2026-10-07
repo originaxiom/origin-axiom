@@ -62,6 +62,13 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - **So the threads' geometries differ, and the one structure they all share is the quaternion point.**
   - A single shear already fixes only the origin on the Markov surface, so the point's uniqueness is not the joint
     action's. That every thread shares it is.
+- **From the principle (exact; sharpened 2026-10-07).**
+  - On the whole character variety, with no puncture condition, L and R fix exactly two characters. The Gröbner basis
+    of the fixed-point ideal is (x − z, y − z, z² − 2z), and the swap adds nothing.
+  - The two are the quaternion point (κ = tr [a, b] = −2) and the trivial character (κ = 2).
+  - GENESIS PF1's mathematical reading, non-cancellation as κ ≠ 2, removes the trivial character, where the cancellation
+    completes. GENESIS v1.1 calls that reading motivation, not a premise.
+  - So the weave's vacuum is forced by the principle and the joint action together.
 - **On record.**
   - Main's B141 has the quaternion point as the unique irreducible fixed point of the metallic map.
   - Main's B148 places it on the Markov surface.
