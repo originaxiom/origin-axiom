@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1329** |
-| words of findings prose | **1,035,061** |
-| test lock files referenced | **774** |
-| arcs carrying an authored verdict | **1329** (100.0 %) |
+| research arcs with findings | **1330** |
+| words of findings prose | **1,036,809** |
+| test lock files referenced | **775** |
+| arcs carrying an authored verdict | **1330** (100.0 %) |
 | recorded closures | **808** (641 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 895 |
+| PROVED | 896 |
 | NEGATIVE | 332 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1600`** (962 words, 1 locks)  
-THE WEAVE VERIFIED (the SM seat's W1-W4 of 2026-10-07, by main's own code). W1: the moves on the three non-zero parities of the two records -- L fixes (1,0), R fixes (0,1), the swap fixes (1,1), the sign fixes all three; any two moves generate S3 on the three: the three belongs to no single move. The parity lemma: on all 988 signed words to length eight, the act has odd trace iff it is a 3-cycle on the parities (448 odd). W2: on the Markov surface at the parabolic level the only point fixed by L and R -- hence by every move -- is (0, 0, 0), the quaternion point a -> i, b -> j (commutator -I); the only other common fixed point on any level is the trivial representation at tr[a,b] = +2. W3: for every one of the 54 odd-trace words to length six a tau in 2T (two signs) extends the quaternion point over the base and <i, j, tau> is exactly 2T of order 24; for even trace either tau lies in Q8 (image 8) or none exists in 2T. W4 (representation theory): A4 = 2T/{+-1} = (Z/2)^2 x| Z/3 acts on the three parity lines (h^1(F; chi) = 1 each) by its standard irreducible triplet when the act is a 3-cycle, and splits it for an involution. The weave's three -- the three parities, cycled by every odd-trace thread -- is forced by the moves acting together, with no thread chosen. Open and decisive: W6, whether each parity line carries a generation. A weave result. 0 of 19.  
-`B1600_the_weave_verified/FINDINGS.md`
+**PROVED — `B1601`** (1748 words, 1 locks)  
+THE COMMON POINT IS THE GEOMETRY MOD 3 (sealed 3c56a10f1 / a5260bd9; a weave result): on every odd-trace thread to length eight (16 of 16) the fibre's traces (tr a, tr b, tr ab) at the geometric point generate exactly one prime of the thread's trace field, of residue degree one above 3 -- norm 3, multiplicity one, nothing else -- so the holonomy reduces there to the quaternion point, W2's common point; on every even-trace thread (21 of 21) the ideal is a power of one prime above 2 (norms 4, 8, 64, 1024), where the common point is the trivial representation, with nothing above 3. Corollary: W3's forced A4 cover is each odd-trace thread's own principal congruence cover at a prime of norm three (SL(2, F_3) = 2T). The lemma, proved: the Fricke maps' linear parts at the common point are quarter turns about two axes of the three parity lines, generating the cube's rotations S4 (the weave's group on the triplet), and odd trace iff a third turn about a body diagonal, whose axis is isotropic for x^2 + y^2 + z^2 exactly in characteristic three; over F_3 the parabolic Markov surface has the common point as its only point. W5: the four at the common point is the trivial line plus the three parity lines (exact). The SM seat's W6 census reproduced on main at order two on four threads (+LR 24 members (1, 0, 1); -LR 6 members (4, 0, 4); +-LLLR none). Since the mod-3 meeting is universal on odd trace, it is not what singles out +-LR for content; that stays arithmeticity's, unexplained. T-COMMON-POINT-MOD-3 (census law; lemma proved; theorem open). GENESIS v1.25. 0 of 19.  
+`B1601_the_common_point_is_the_geometry_mod_3/FINDINGS.md`
 
 **NEGATIVE — `B1499`** (674 words, 1 locks)  
 THE FUSION ON THE FIRST ROOM (sealed 10786bcca / 0f712c31): on o10_150691 at nu = (i, 1, 1) -- the family's first room, where the four has two interior classes, the room is 1, the second supply 2 and the seat's cap 2 -- the two orders (a class of V over the line, a class of the line over V) are each cocycles and their mixed direction is unobstructed at second order; Gauss-Newton from two seeds reaches an exact flat module at the arithmetic floor (relative ~1e-39), at distance 2.3 from the split point, with commutant dimension one and no invariant line on either side -- irreducible -- and it counts (0, 0) with no interior class at all. With B1486 (the silver members) and B1466 (m004's counted point) the pattern holds in three places: the count lives at the reducible point as the choice of order, and the irreducible neighbours carry nothing. NEGATIVE, scoped: nothing near V + 1 on this object uses the room, split (B1498) or fused. Disclosed: the sealed threshold 1e-40 was below the 40-digit floor; loosened to 1e-30, both flags recorded, the sealed output kept. 0 of 19.  

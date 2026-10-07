@@ -1,0 +1,1 @@
+{"max_length": 8, "odd": 16, "even": 21, "all_det_one": true, "odd_all_body_diagonal": true, "odd_all_isotropic": true, "even_isotropic": ["LLLLRRRR"], "even_identity": ["LLLLRRRR"]}

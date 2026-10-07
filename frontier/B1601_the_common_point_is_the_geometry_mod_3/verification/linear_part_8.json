@@ -1,0 +1,855 @@
+{
+ "L_R_linear_parts_as_tabled": true,
+ "rows": [
+  {
+   "word": "LR",
+   "trace": 3,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLR",
+   "trace": 5,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLLLR",
+   "trace": 7,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLRLR",
+   "trace": 13,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     -1,
+     1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     2
+    ],
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLRRR",
+   "trace": 11,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     -1,
+     1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     2
+    ],
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLRLRR",
+   "trace": 15,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     -1,
+     1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     2
+    ],
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLLLLLR",
+   "trace": 9,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLLLRLR",
+   "trace": 19,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLLLRRR",
+   "trace": 17,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     -1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     2,
+     2,
+     1
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLLRLRR",
+   "trace": 25,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLLRRLR",
+   "trace": 25,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     -1,
+     1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     2
+    ],
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLRLLRR",
+   "trace": 29,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLRLRRR",
+   "trace": 27,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLLRRLLR",
+   "trace": 29,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     -1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     2,
+     2,
+     1
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLRLLRLR",
+   "trace": 37,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLRLRLRR",
+   "trace": 39,
+   "odd": true,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     2
+    ]
+   ],
+   "identity": false
+  },
+  {
+   "word": "LLR",
+   "trace": 4,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     0,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLRR",
+   "trace": 6,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLLR",
+   "trace": 6,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     0,
+     1,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLRR",
+   "trace": 8,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     0,
+     1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLRLR",
+   "trace": 10,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLLRR",
+   "trace": 10,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     0,
+     1,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLLLLR",
+   "trace": 8,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     0,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLLLRR",
+   "trace": 12,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     0,
+     -1,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLLRLR",
+   "trace": 16,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     -1,
+     1,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLLRRR",
+   "trace": 14,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     0,
+     1,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLRLLR",
+   "trace": 18,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLRLRR",
+   "trace": 20,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     -1,
+     1,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLRRLR",
+   "trace": 20,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     -1,
+     0,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLRLLRR",
+   "trace": 22,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     0,
+     1,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLRLRLR",
+   "trace": 26,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLLLLRR",
+   "trace": 14,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLLRLLR",
+   "trace": 22,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLLRRRR",
+   "trace": 18,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "fixed_vectors_mod_3": 26,
+   "isotropic_fixed_vector_mod_3": true,
+   "isotropic_examples": [
+    [
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     1,
+     2,
+     2
+    ]
+   ],
+   "identity": true
+  },
+  {
+   "word": "LLLRLRLR",
+   "trace": 34,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLLRRLRR",
+   "trace": 30,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  },
+  {
+   "word": "LLRLRRLR",
+   "trace": 38,
+   "odd": false,
+   "det": 1,
+   "fixed_space": [
+    [
+     1,
+     0,
+     0
+    ]
+   ],
+   "fixed_vectors_mod_3": 2,
+   "isotropic_fixed_vector_mod_3": false,
+   "isotropic_examples": [],
+   "identity": false
+  }
+ ],
+ "summary": {
+  "max_length": 8,
+  "odd": 16,
+  "even": 21,
+  "all_det_one": true,
+  "odd_all_body_diagonal": true,
+  "odd_all_isotropic": true,
+  "even_isotropic": [
+   "LLLLRRRR"
+  ],
+  "even_identity": [
+   "LLLLRRRR"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "B1601",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1600",
+  "B1423",
+  "B1492",
+  "B1493"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave (W2's common point, W3's forced cover); the fibre's character variety at the parabolic level (the Markov surface) and the trace ideal (tr a, tr b, tr ab) in the thread's trace field; the four at sign characters on the forced cover (B1492's stacked index) for the controls",
+  "object": "every primitive word in L and R with both letters to length eight, up to rotation and L <-> R, either sign: 16 geometries of odd trace and 21 of even; the controls on +LR, -LR, +LLLR, -LLLR",
+  "reach": "class",
+  "hypotheses": "exact: lex Groebner bases (grevlex + FGLM), the geometric component identified against SnapPy's cusp shape (60 digits), ideals by prime decompositions and valuations in an order maximal at the primes of gcd(N x, N y, N z), of the denominators, 2 and 3 (PARI); the law is a census law to length eight with the existence lemma proved and the theorem open; post-seal instrument changes mechanical and disclosed; the four controls numerical at 40 digits as B1492"
+ },
+ "claim_one_line": "THE COMMON POINT IS THE GEOMETRY MOD 3 (sealed 3c56a10f1 / a5260bd9; a weave result): on every odd-trace thread to length eight (16 of 16) the fibre's traces (tr a, tr b, tr ab) at the geometric point generate exactly one prime of the thread's trace field, of residue degree one above 3 -- norm 3, multiplicity one, nothing else -- so the holonomy reduces there to the quaternion point, W2's common point; on every even-trace thread (21 of 21) the ideal is a power of one prime above 2 (norms 4, 8, 64, 1024), where the common point is the trivial representation, with nothing above 3. Corollary: W3's forced A4 cover is each odd-trace thread's own principal congruence cover at a prime of norm three (SL(2, F_3) = 2T). The lemma, proved: the Fricke maps' linear parts at the common point are quarter turns about two axes of the three parity lines, generating the cube's rotations S4 (the weave's group on the triplet), and odd trace iff a third turn about a body diagonal, whose axis is isotropic for x^2 + y^2 + z^2 exactly in characteristic three; over F_3 the parabolic Markov surface has the common point as its only point. W5: the four at the common point is the trivial line plus the three parity lines (exact). The SM seat's W6 census reproduced on main at order two on four threads (+LR 24 members (1, 0, 1); -LR 6 members (4, 0, 4); +-LLLR none). Since the mod-3 meeting is universal on odd trace, it is not what singles out +-LR for content; that stays arithmeticity's, unexplained. T-COMMON-POINT-MOD-3 (census law; lemma proved; theorem open). GENESIS v1.25. 0 of 19.",
+ "weave_or_thread": "weave"
+}

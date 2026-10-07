@@ -71,3 +71,25 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   the moves L and R in, the sign and the swap OPEN (GM5b/c, FK4), the weave's group on the triplet read in both forms
   (24 and 48); every arc from B1491 carries `weave_or_thread` in its verdict file (B1491–B1499 are thread results);
   main opens the weave program, W6 first. The visual page for the owner: *The Weave, Drawn*.
+
+## Main's additions (B1601, 2026-10-07; `frontier/B1601_the_common_point_is_the_geometry_mod_3/`)
+
+- **W5, the four at the common point.** The frames' own module, the four, is diagonal there in the basis (1, i, j, k):
+  Ad(i) = (1, +, −, −), Ad(j) = (1, −, +, −). The four at the common point is the trivial line plus the three parity
+  lines — "the generation is the trivial line" (B1493) and the triplet (W4) are the two parts of one module (the seat's
+  "matches the quaternion axes", on the four). Exact.
+- **W7, the common point is the geometry mod 3** (sealed; a weave result; T-COMMON-POINT-MOD-3). On every odd-trace
+  thread to length eight (16 of 16) the fibre's traces (tr a, tr b, tr ab) at the geometric point generate exactly one
+  prime of the thread's trace field, of norm three: the holonomy reduces there to the common point, and W3's forced A₄
+  cover is the thread's own principal congruence cover at that prime (SL(2, 𝔽₃) = 2T) — on m004 at (√−3). On every
+  even-trace thread (21 of 21) the ideal is a power of one prime above 2, where the common point is the trivial
+  representation, and nothing above 3. The lemma: dL and dR at the common point are quarter turns about two axes of the
+  parity lines (the cube's rotations S₄, the weave's group on the triplet in main's form); odd trace ⟺ a third turn about
+  a body diagonal, whose axis is isotropic for x² + y² + z² exactly in characteristic three; over 𝔽₃ the parabolic
+  Markov surface has one point, the origin. So the weave's common structure is each thread's geometry seen modulo 3 —
+  and, being universal on odd trace, it is not what singles out ±LR for content.
+- **The seat's W6 census on main's code.** The forced A₄ cover built from SnapPy's presentation and the four read at every
+  sign character (`B1600/verification/forced_cover.py`): +LR 24 members (1, 0, 1); −LR 6 members (4, 0, 4); +LLLR and
+  −LLLR none — the seat's rows at order two reproduced exactly. Content on the forced cover is on ±LR only among the
+  four read; the candidate rule is arithmeticity (Bowditch–Maclachlan–Reid: ±LR the only arithmetic odd-trace threads),
+  unexplained.

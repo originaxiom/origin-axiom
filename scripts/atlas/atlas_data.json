@@ -10816,6 +10816,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1601": {
+   "slug": "the common point is the geometry mod 3",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B354",
+    "B448",
+    "B794",
+    "B997"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B160": {
    "slug": "quasicrystal bridge corroboration",
    "motifs": [

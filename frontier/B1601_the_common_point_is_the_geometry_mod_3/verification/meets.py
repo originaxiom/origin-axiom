@@ -29,6 +29,7 @@ import numpy as np
 import snappy
 from snappy import pari
 HERE = pathlib.Path(__file__).resolve().parent
+pari.allocatemem(2 ** 30, silent=True)       # post-seal: nfinit on a degree-24 field overflowed PARI's default 8 MB stack
 
 x, y, z = sp.symbols("x y z")
 Lm = {x: x, y: z, z: x * z - y}          # a -> a, b -> ab
@@ -91,7 +92,7 @@ def fixed_points(word):
     the non-origin irreducible factors)"""
     fx, fy, fz = fricke(word)
     eqs = [sp.expand(fx - x), sp.expand(fy - y), sp.expand(fz - z), x**2 + y**2 + z**2 - x * y * z]
-    G = sp.groebner(eqs, x, y, z, order="lex")
+    G = sp.groebner(eqs, x, y, z, order="grevlex").fglm("lex")      # the lex basis by FGLM (post-seal: the same ideal, the same basis; the lex run stalled at length eight)
     ex = list(G.exprs)
     zp = [g for g in ex if g.free_symbols <= {z}]
     xs = [g for g in ex if x in g.free_symbols]
@@ -101,16 +102,33 @@ def fixed_points(word):
         sol = {x: sp.solve(xs[0], x)[0], y: sp.solve(ys[0], y)[0], z: z}
         facs = [(f, m) for f, m in sp.factor_list(zp[0])[1] if f != z]
         return z, zp[0], sol, facs
-    G = sp.groebner(eqs + [u - PRIM[0] * x - PRIM[1] * y - PRIM[2] * z], x, y, z, u, order="lex")
+    eqs_u = eqs + [u - PRIM[0] * x - PRIM[1] * y - PRIM[2] * z]
+    G = sp.groebner(eqs_u, x, y, z, u, order="grevlex").fglm("lex")
     ex = list(G.exprs)
     up = [g for g in ex if g.free_symbols <= {u}][0]
+    facs = [(f, m) for f, m in sp.factor_list(up)[1] if f != u]
     sol = {}
     for v in (x, y, z):
         cands = [g for g in ex if v in g.free_symbols and g.free_symbols <= {v, u}]
-        assert len(cands) == 1 and cands[0].as_poly(v).degree() == 1, (word, ex)
-        sol[v] = sp.solve(cands[0], v)[0]
-    facs = [(f, m) for f, m in sp.factor_list(up)[1] if f != u]
-    return u, up, sol, facs
+        if len(cands) == 1 and cands[0].as_poly(v).degree() == 1:
+            sol[v] = sp.solve(cands[0], v)[0]
+    if len(sol) == 3:
+        return u, up, sol, facs
+    # post-seal: when the whole scheme is not in shape position (LLLLRRRR, whose origin is not curvilinear), each
+    # non-origin irreducible factor f of the u-eliminant is treated on its own: the basis of I + (f(u)) is in shape
+    # position on a reduced component; x, y, z are then polynomials in u modulo f, recorded per factor
+    per = {}
+    for f, m in facs:
+        Gf = sp.groebner(eqs_u + [f], x, y, z, u, order="grevlex").fglm("lex")
+        exf = list(Gf.exprs); solf = {}
+        for v in (x, y, z):
+            cands = [g for g in exf if v in g.free_symbols and g.free_symbols <= {v, u}]
+            if len(cands) == 1 and cands[0].as_poly(v).degree() == 1:
+                solf[v] = sp.solve(cands[0], v)[0]
+        if len(solf) == 3:
+            per[str(f)] = solf
+    assert per, (word, "no component in shape position")
+    return u, up, per, [(f, m) for f, m in facs if str(f) in per]
 
 
 # ---- numerics: the representation at a point and the cusp shape of the bundle ----
@@ -185,8 +203,9 @@ def cusp_shape(w, xv, yv, zv):
     s = 1 if abs(Lam[0, 0] + Lam[1, 1] - 2) < abs(Lam[0, 0] + Lam[1, 1] + 2) else -1
     Mx = Lam - s * mp.eye(2)
     p = mp.matrix([[-Mx[0, 1]], [Mx[0, 0]]]) if abs(Mx[0, 0]) + abs(Mx[0, 1]) > abs(Mx[1, 0]) + abs(Mx[1, 1]) else mp.matrix([[-Mx[1, 1]], [Mx[1, 0]]])
-    # C sends p to infinity: C = [[q1, q2],[p2, -p1]] with det 1 normalisation irrelevant for the translation ratio
-    C = mp.matrix([[0, 1], [p[1], -p[0]]]) if abs(p[0]) > abs(p[1]) else mp.matrix([[1, 0], [p[1], -p[0]]])
+    # C sends p to infinity: its second row annihilates p, its first row is p's conjugate (det = -|p|^2 != 0)
+    # (post-seal: the sealed choice was singular when p was already at infinity, p[1] = 0)
+    C = mp.matrix([[mp.conj(p[0]), mp.conj(p[1])], [p[1], -p[0]]])
     Ci = mp.inverse(C)
     tr = lambda Mx_: (C * Mx_ * Ci)
     L1, T1 = tr(Lam), tr(Tp)
@@ -220,9 +239,10 @@ def geometric_factor(w, var, sol, facs, dps=60):
     hits = []
     for f, m in facs:
         coeffs = [mp.mpf(int(c)) for c in sp.Poly(f, var).all_coeffs()]
+        sf = sol[str(f)] if x not in sol else sol
         for r in mp.polyroots(coeffs, maxsteps=500, extraprec=300):
             rs = sp.Float(mp.nstr(mp.re(r), dps), dps) + sp.I * sp.Float(mp.nstr(mp.im(r), dps), dps)
-            xv, yv, zv = (mp.mpc(sp.N(sol[v].subs(var, rs), dps)) for v in (x, y, z))
+            xv, yv, zv = (mp.mpc(sp.N(sf[v].subs(var, rs), dps)) for v in (x, y, z))
             if abs(mp.im(zv)) < mp.mpf(10) ** -20 and abs(mp.im(xv)) < mp.mpf(10) ** -20 and abs(mp.im(yv)) < mp.mpf(10) ** -20:
                 continue    # a real point is not the holonomy of a hyperbolic bundle
             tau, resid, comm, offdiag = cusp_shape(w, xv, yv, zv)
@@ -233,27 +253,40 @@ def geometric_factor(w, var, sol, facs, dps=60):
 
 # ---- the ideal in K ----
 def ideal_data(f, var, sol):
+    """the ideal (x, y, z) of K = Q[var]/(f): its support divides g = gcd(N(x), N(y), N(z)), so it is
+    prod_P P^{min(v_P(x), v_P(y), v_P(z))} over the primes P of K above the primes of g -- computed from prime
+    decompositions and valuations in an order maximal at those primes (nfinit([f, listP]); post-seal: PARI's full
+    nfinit factors a discriminant of hundreds of digits and stalled at length eight, and idealadd in a non-maximal order
+    is undefined).  Integrality of x, y, z: non-negative valuations above the primes of their denominators (elsewhere
+    they lie in Z[var])."""
     fp = sp.Poly(f, var)
     fs = str(fp.as_expr()).replace("**", "^").replace(str(var), "u")
-    nf = pari("nfinit(%s)" % fs)
     def elt(e):
         num, den = sp.fraction(sp.together(e))
-        p = sp.Poly(sp.rem(sp.expand(num), fp.as_expr(), var), var)
-        return pari("Mod(%s, %s)" % (str(p.as_expr() / den).replace("**", "^").replace(str(var), "u"), fs))
-    xe, ye, ze = elt(sol[x]), elt(sol[y]), elt(sol[z])
-    I = nf.idealadd(nf.idealadd(nf.idealhnf(xe), nf.idealhnf(ye)), nf.idealhnf(ze))
-    N = int(nf.idealnorm(I))
-    fac = nf.idealfactor(I)
-    primes = []
-    for i in range(fac.nrows()):
-        pr = fac[i, 0]; e = int(fac[i, 1])
-        primes.append({"p": int(pr.pr_get_p()), "f": int(pr.pr_get_f()), "e_in_ideal": e})
+        pp = sp.Poly(sp.rem(sp.expand(num), fp.as_expr(), var), var)
+        return pari("Mod(%s, %s)" % (str(pp.as_expr() / den).replace("**", "^").replace(str(var), "u"), fs))
+    els = {"x": elt(sol[x]), "y": elt(sol[y]), "z": elt(sol[z])}
+    norms = {k: e.norm() for k, e in els.items()}
+    g = int(pari.gcd(pari.gcd(norms["x"].numerator(), norms["y"].numerator()), norms["z"].numerator()))
+    dens = int(pari.lcm(pari.lcm(els["x"].lift().denominator(), els["y"].lift().denominator()), els["z"].lift().denominator()))
+    primes_of = lambda n: {int(q) for q in pari.factor(n)[0]} if n > 1 else set()
+    support = sorted(primes_of(g) | primes_of(dens) | {2, 3})
+    nf = pari("nfinit([%s, %s])" % (fs, support))
+    primes, N, integral = [], 1, True
+    for q in support:
+        for P in nf.idealprimedec(q):
+            vals = {k: int(nf.nfeltval(e, P)) for k, e in els.items()}
+            integral &= all(v >= 0 for v in vals.values())
+            v = min(vals.values())
+            if v > 0:
+                primes.append({"p": q, "f": int(P.pr_get_f()), "e": int(P.pr_get_e()), "e_in_ideal": v, "valuations": vals})
+                N *= q ** (int(P.pr_get_f()) * v)
     odd = N
     while odd % 2 == 0:
         odd //= 2
-    return {"field": str(fp.as_expr()), "degree": fp.degree(), "disc": int(nf[2]), "norm": N, "odd_part": odd, "primes": primes,
-            "integral": all(c.type() == "t_INT" for e in (xe, ye, ze) for c in nf.nfalgtobasis(e)),
-            "primes_above_3": [{"f": int(p.pr_get_f()), "e": int(p.pr_get_e())} for p in nf.idealprimedec(3)]}
+    return {"field": str(fp.as_expr()), "degree": fp.degree(), "element_norms": {k: str(v) for k, v in norms.items()}, "norm_gcd": g,
+            "order_maximal_at": support, "norm": N, "odd_part": odd, "primes": primes, "integral": bool(integral),
+            "primes_above_3": [{"f": int(P.pr_get_f()), "e": int(P.pr_get_e())} for P in nf.idealprimedec(3)]}
 
 
 DL = np.array([[1, 0, 0], [0, 0, 1], [0, -1, 0]]); DR = np.array([[0, 0, 1], [0, 1, 0], [-1, 0, 0]])
@@ -304,7 +337,8 @@ def run(w):
         f = sp.sympify(hits[0][0])
         row["max_intertwiner_residual"] = mp.nstr(max(h[3] for h in hits), 3)
         row["max_commutation_defect"] = mp.nstr(max(h[4] for h in hits), 3)
-        row.update(ideal_data(f, var, sol))
+        row["per_factor_basis"] = x not in sol
+        row.update(ideal_data(f, var, sol[str(f)] if x not in sol else sol))
     row["s_groebner"] = round(t1 - t0, 1); row["s"] = round(time.time() - t0, 1)
     return row
 
