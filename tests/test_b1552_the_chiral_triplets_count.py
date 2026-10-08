@@ -808,6 +808,46 @@ def test_w41_the_zero_modes_weight():
     assert abs(ZW.th(1, z, t + 1) - mp.exp(1j * mp.pi / 4) * ZW.th(1, z, t)) < 1e-12
 
 
+def test_w42_the_breaking_verified():
+    """W42 (the rule committed first; Part A a verification of main's B1620, not blind): 68 subgroups in 26 classes, and
+    57 / 24 / 16 viable under T-bar (x) T, T (x) T and Sym^2 T; every thread's own zero modes are parity-spanned or a body
+    diagonal. In process, from the closed form G = {z S : z^8 = 1, z^4 = sgn S}: 96 elements, the elements of order at
+    most 2 are the 8 diagonal sign matrices, and they have 16 subgroups (the Sym^2 T count)"""
+    import itertools
+    import numpy as np
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_breaking_verified.json")
+                   .read_text(encoding="utf-8"))
+    assert d["every check holds"] is True
+    lat = d["A1: the subgroup lattice"]
+    assert (lat["subgroups"], lat["conjugacy classes"], lat["abelian subgroups"]) == (68, 26, 57)
+    viable = d["A2: viable under each tensor (exact; B1620's definition)"]
+    assert [viable[t]["viable subgroups"] for t in ("T-bar (x) T", "T (x) T", "Sym^2 T")] == [57, 24, 16]
+    assert d["Part B: the threads' own zero modes"]["how many"] == 745
+    rots = []
+    for p in itertools.permutations(range(3)):
+        for s in itertools.product((1, -1), repeat=3):
+            S = np.zeros((3, 3), dtype=int)
+            for i in range(3):
+                S[p[i], i] = s[i]
+            if round(np.linalg.det(S)) == 1:
+                rots.append((S, sum(p[i] > p[j] for i in range(3) for j in range(i + 1, 3)) % 2))
+    G = [(k, S) for S, odd in rots for k in range(8) if k % 2 == odd]        # z = zeta_8^k, z^4 = (-1)^k = sgn S
+    assert len(G) == 96
+    small = [(k, S) for k, S in G if (2 * k) % 8 == 0 and np.array_equal(S @ S, np.eye(3, dtype=int))]
+    assert len(small) == 8 and all(np.count_nonzero(S - np.diag(np.diag(S))) == 0 for _, S in small)
+    key = lambda x: (x[0] % 8, tuple(x[1].ravel()))
+    ident = (0, tuple(np.eye(3, dtype=int).ravel()))
+    count = 0
+    for r in range(8):
+        for sub in itertools.combinations([x for x in small if key(x) != ident], r):
+            H = {key(x) for x in sub} | {ident}
+            mats = {key(x): x for x in sub}
+            mats[ident] = (0, np.eye(3, dtype=int))
+            if all(key(((a[0] + b[0]) % 8, a[1] @ b[1])) in H for a in mats.values() for b in mats.values()):
+                count += 1
+    assert count == 16
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

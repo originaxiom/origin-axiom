@@ -1,5 +1,24 @@
 # Changelog
 
+## The weave's W42: main's B1620 verified exactly, and every thread's own zero modes (main's two asks)
+
+- **Part A, a verification of main's B1620** (the rule first; B1620 read first, its code not run):
+  - the group on T, from W21's construction, is exactly G = {z S : z⁸ = 1, z⁴ = sgn S};
+  - 68 subgroups in 26 classes, 57 of them abelian;
+  - viable (three distinct non-zero masses), decided exactly in ℤ[ζ₂₄] and by a hand criterion that agrees on all 204
+    sectors: 57 under T̄ ⊗ T (the abelian subgroups), 24 under T ⊗ T (real character), 16 under Sym² T (the subgroups
+    of the parity signs E);
+  - no order-3 residual under Sym² T; the 10 subgroups containing the parity grading give permutation patterns only.
+- **Part B, main's ask 2:** a thread's own H¹ (the Wang sequence) is the fixed space of its monodromy, a coupling-free
+  reading of its word.
+  - Over all 745 threads to length 12, zero modes exist exactly when r ≡ ℓ (mod 4) (237 threads), so never at odd
+    length.
+  - Every grading-breaking zero mode is a body diagonal, the democratic line of main's B1621 tick; RL's projector is
+    B1621's T2 matrix.
+  - Which thread a sector reads is a choice: a thread result.
+- **Surfaces.** The rule `W42_RULE.md` (60f790748), the script and its JSON, the dossier (W42, a row, the header, the
+  files), the W42 test, and the regeneration test (now five fast scripts).
+
 ## The assurance round (the owner: "are we sure?"); relay section 42
 
 - **The owner asked** whether the record's mathematics, questions and scripts can be trusted, and approved a plan: a

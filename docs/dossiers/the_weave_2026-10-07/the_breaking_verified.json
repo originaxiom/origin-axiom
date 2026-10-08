@@ -1,0 +1,998 @@
+{
+ "status": "W42: Part A a VERIFICATION of main's B1620 (read first), from this seat's construction; Part B a census of every thread to length 12 (main's ask 2)",
+ "A0: the group": {
+  "elements": 96,
+  "every k a multiple of 3 (c an eighth root of unity)": true,
+  "G equals G' = {z S : z^8 = 1, z^4 = sgn S}": true,
+  "the named elements (k, rotation)": {
+   "L": [
+    21,
+    "quarter-turn"
+   ],
+   "R": [
+    3,
+    "quarter-turn"
+   ],
+   "RL": [
+    0,
+    "3-cycle"
+   ],
+   "RRL": [
+    3,
+    "edge half-turn"
+   ]
+  }
+ },
+ "A1: the subgroup lattice": {
+  "subgroups": 68,
+  "conjugacy classes": 26,
+  "abelian subgroups": 57,
+  "abelian classes": 20,
+  "non-abelian subgroups": 11,
+  "non-abelian classes": 6,
+  "abelian subgroups by order": {
+   "1": 1,
+   "2": 7,
+   "3": 4,
+   "4": 11,
+   "6": 4,
+   "8": 19,
+   "12": 4,
+   "16": 7
+  },
+  "non-abelian (order, image in the rotations, scalars)": [
+   [
+    12,
+    12,
+    1
+   ],
+   [
+    24,
+    6,
+    4
+   ],
+   [
+    24,
+    6,
+    4
+   ],
+   [
+    24,
+    6,
+    4
+   ],
+   [
+    24,
+    6,
+    4
+   ],
+   [
+    24,
+    12,
+    2
+   ],
+   [
+    32,
+    8,
+    4
+   ],
+   [
+    32,
+    8,
+    4
+   ],
+   [
+    32,
+    8,
+    4
+   ],
+   [
+    48,
+    12,
+    4
+   ],
+   [
+    96,
+    24,
+    4
+   ]
+  ]
+ },
+ "A2: viable under each tensor (exact; B1620's definition)": {
+  "T-bar (x) T": {
+   "viable subgroups": 57,
+   "their orders": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16
+   ],
+   "viable classes": 20,
+   "all abelian": true
+  },
+  "T (x) T": {
+   "viable subgroups": 24,
+   "their orders": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8
+   ],
+   "viable classes": 10,
+   "all abelian": true
+  },
+  "Sym^2 T": {
+   "viable subgroups": 16,
+   "their orders": [
+    1,
+    2,
+    4,
+    8
+   ],
+   "viable classes": 8,
+   "all abelian": true
+  }
+ },
+ "A2: the exact route and the criterion by hand agree on every subgroup and tensor": true,
+ "A2: sectors by the number of random points passed (of 3)": {
+  "0": 107,
+  "3": 97
+ },
+ "A3: the elements of order 3": {
+  "how many": 8,
+  "all have c = 1 and are 3-cycles": true,
+  "Sym^2 T fixed dimension along each": [
+   2
+  ],
+  "none viable under Sym^2 T": true,
+  "no viable subgroup under Sym^2 T has order divisible by 3": true
+ },
+ "A4: K and the subgroups containing it": {
+  "the inner automorphisms' lifts in normal form": {
+   "inner by a": [
+    {
+     "k": 0,
+     "S": [
+      [
+       1,
+       0,
+       0
+      ],
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ]
+    },
+    {
+     "k": 12,
+     "S": [
+      [
+       1,
+       0,
+       0
+      ],
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ]
+    }
+   ],
+   "inner by b": [
+    {
+     "k": 0,
+     "S": [
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       1
+      ]
+     ]
+    },
+    {
+     "k": 12,
+     "S": [
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  "they act as diagonal signs (the parity grading)": true,
+  "K (the lifts with c = 1): order": 4,
+  "K = V4 of diagonal signs": true,
+  "all four lifts generate a group of order": 8,
+  "subgroups containing K": 10,
+  "their orders": [
+   4,
+   8,
+   12,
+   16,
+   24,
+   32,
+   32,
+   32,
+   48,
+   96
+  ],
+  "viable orders among them": {
+   "T-bar (x) T": [
+    4,
+    8,
+    16
+   ],
+   "T (x) T": [
+    4,
+    8
+   ],
+   "Sym^2 T": [
+    4,
+    8
+   ]
+  },
+  "every invariant matrix of every viable one is diagonal in the parity basis": true,
+  "every pair of them gives a permutation (numerical illustration)": true
+ },
+ "the class table": [
+  {
+   "class": 0,
+   "size": 1,
+   "order": 1,
+   "abelian": true,
+   "image in the rotations": 1,
+   "scalars": 1,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": true
+  },
+  {
+   "class": 1,
+   "size": 3,
+   "order": 2,
+   "abelian": true,
+   "image in the rotations": 2,
+   "scalars": 1,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": true
+  },
+  {
+   "class": 2,
+   "size": 3,
+   "order": 2,
+   "abelian": true,
+   "image in the rotations": 2,
+   "scalars": 1,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": true
+  },
+  {
+   "class": 3,
+   "size": 1,
+   "order": 2,
+   "abelian": true,
+   "image in the rotations": 1,
+   "scalars": 2,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": true
+  },
+  {
+   "class": 4,
+   "size": 4,
+   "order": 3,
+   "abelian": true,
+   "image in the rotations": 3,
+   "scalars": 1,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": false
+  },
+  {
+   "class": 5,
+   "size": 1,
+   "order": 4,
+   "abelian": true,
+   "image in the rotations": 4,
+   "scalars": 1,
+   "conjugates containing K": 1,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": true
+  },
+  {
+   "class": 6,
+   "size": 3,
+   "order": 4,
+   "abelian": true,
+   "image in the rotations": 2,
+   "scalars": 2,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": true
+  },
+  {
+   "class": 7,
+   "size": 3,
+   "order": 4,
+   "abelian": true,
+   "image in the rotations": 4,
+   "scalars": 1,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": true
+  },
+  {
+   "class": 8,
+   "size": 3,
+   "order": 4,
+   "abelian": true,
+   "image in the rotations": 2,
+   "scalars": 2,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 9,
+   "size": 1,
+   "order": 4,
+   "abelian": true,
+   "image in the rotations": 1,
+   "scalars": 4,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 10,
+   "size": 4,
+   "order": 6,
+   "abelian": true,
+   "image in the rotations": 3,
+   "scalars": 2,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": false
+  },
+  {
+   "class": 11,
+   "size": 1,
+   "order": 8,
+   "abelian": true,
+   "image in the rotations": 4,
+   "scalars": 2,
+   "conjugates containing K": 1,
+   "T-bar (x) T": true,
+   "T (x) T": true,
+   "Sym^2 T": true
+  },
+  {
+   "class": 12,
+   "size": 3,
+   "order": 8,
+   "abelian": true,
+   "image in the rotations": 2,
+   "scalars": 4,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 13,
+   "size": 3,
+   "order": 8,
+   "abelian": true,
+   "image in the rotations": 4,
+   "scalars": 2,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 14,
+   "size": 6,
+   "order": 8,
+   "abelian": true,
+   "image in the rotations": 2,
+   "scalars": 4,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 15,
+   "size": 6,
+   "order": 8,
+   "abelian": true,
+   "image in the rotations": 4,
+   "scalars": 2,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 16,
+   "size": 1,
+   "order": 12,
+   "abelian": false,
+   "image in the rotations": 12,
+   "scalars": 1,
+   "conjugates containing K": 1,
+   "T-bar (x) T": false,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 17,
+   "size": 4,
+   "order": 12,
+   "abelian": true,
+   "image in the rotations": 3,
+   "scalars": 4,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 18,
+   "size": 1,
+   "order": 16,
+   "abelian": true,
+   "image in the rotations": 4,
+   "scalars": 4,
+   "conjugates containing K": 1,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 19,
+   "size": 3,
+   "order": 16,
+   "abelian": true,
+   "image in the rotations": 4,
+   "scalars": 4,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 20,
+   "size": 3,
+   "order": 16,
+   "abelian": true,
+   "image in the rotations": 4,
+   "scalars": 4,
+   "conjugates containing K": 0,
+   "T-bar (x) T": true,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 21,
+   "size": 1,
+   "order": 24,
+   "abelian": false,
+   "image in the rotations": 12,
+   "scalars": 2,
+   "conjugates containing K": 1,
+   "T-bar (x) T": false,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 22,
+   "size": 4,
+   "order": 24,
+   "abelian": false,
+   "image in the rotations": 6,
+   "scalars": 4,
+   "conjugates containing K": 0,
+   "T-bar (x) T": false,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 23,
+   "size": 3,
+   "order": 32,
+   "abelian": false,
+   "image in the rotations": 8,
+   "scalars": 4,
+   "conjugates containing K": 3,
+   "T-bar (x) T": false,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 24,
+   "size": 1,
+   "order": 48,
+   "abelian": false,
+   "image in the rotations": 12,
+   "scalars": 4,
+   "conjugates containing K": 1,
+   "T-bar (x) T": false,
+   "T (x) T": false,
+   "Sym^2 T": false
+  },
+  {
+   "class": 25,
+   "size": 1,
+   "order": 96,
+   "abelian": false,
+   "image in the rotations": 24,
+   "scalars": 4,
+   "conjugates containing K": 1,
+   "T-bar (x) T": false,
+   "T (x) T": false,
+   "Sym^2 T": false
+  }
+ ],
+ "Part B: the threads' own zero modes": {
+  "the threads": "every Lyndon word in L and R of length 2 to 12 (each thread once, no covers), read as in the_mixing_patterns_verified.word; both extensions +-g of the record's lifts",
+  "how many": 745,
+  "B1: c(w) = exp(i pi (r - l)/4) on every thread": true,
+  "B1: the exact product matches the float route on every thread": true,
+  "B2: zero modes exactly when r = l mod 4, of the predicted type": true,
+  "B3: zero-mode spaces by type (threads x extensions)": {
+   "all of T": 21,
+   "body diagonal": 144,
+   "none": 1181,
+   "parity line": 72,
+   "plane of two parity lines": 72
+  },
+  "B3: every one is spanned by parity lines or is a body diagonal": true,
+  "B3: the type is the same for every rotation of the word": true,
+  "by length": {
+   "2": {
+    "threads": 1,
+    "with zero modes": 1,
+    "with a body-diagonal zero mode": 1
+   },
+   "3": {
+    "threads": 2,
+    "with zero modes": 0,
+    "with a body-diagonal zero mode": 0
+   },
+   "4": {
+    "threads": 3,
+    "with zero modes": 1,
+    "with a body-diagonal zero mode": 0
+   },
+   "5": {
+    "threads": 6,
+    "with zero modes": 0,
+    "with a body-diagonal zero mode": 0
+   },
+   "6": {
+    "threads": 9,
+    "with zero modes": 5,
+    "with a body-diagonal zero mode": 5
+   },
+   "7": {
+    "threads": 18,
+    "with zero modes": 0,
+    "with a body-diagonal zero mode": 0
+   },
+   "8": {
+    "threads": 30,
+    "with zero modes": 14,
+    "with a body-diagonal zero mode": 6
+   },
+   "9": {
+    "threads": 56,
+    "with zero modes": 0,
+    "with a body-diagonal zero mode": 0
+   },
+   "10": {
+    "threads": 99,
+    "with zero modes": 51,
+    "with a body-diagonal zero mode": 42
+   },
+   "11": {
+    "threads": 186,
+    "with zero modes": 0,
+    "with a body-diagonal zero mode": 0
+   },
+   "12": {
+    "threads": 335,
+    "with zero modes": 165,
+    "with a body-diagonal zero mode": 90
+   }
+  },
+  "B4: the general extension's zero-mode line, by rotation and cycle (equal moduli on the cycle)": {
+   "identity, a cycle of length 1": true,
+   "face half-turn, a cycle of length 1": true,
+   "quarter-turn, a cycle of length 1": true,
+   "quarter-turn, a cycle of length 2": true,
+   "edge half-turn, a cycle of length 1": true,
+   "edge half-turn, a cycle of length 2": true,
+   "3-cycle, a cycle of length 3": true
+  },
+  "B5: the thread RL and main's B1621 tick": {
+   "k (c = exp(2 pi i k/24))": 0,
+   "rotation": "3-cycle",
+   "the mean (1 + g + g^2)/3 is the projector onto the fixed line": true,
+   "every entry has modulus 1/3": true,
+   "the fixed line": [
+    1,
+    -1,
+    1
+   ]
+  },
+  "the threads to length 6": [
+   {
+    "word": "LR",
+    "r - l": 0,
+    "k": 0,
+    "rotation": "3-cycle",
+    "+g": [
+     1,
+     "body diagonal"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLR",
+    "r - l": -1,
+    "k": 21,
+    "rotation": "edge half-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LRR",
+    "r - l": 1,
+    "k": 3,
+    "rotation": "edge half-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLLR",
+    "r - l": -2,
+    "k": 18,
+    "rotation": "3-cycle",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLRR",
+    "r - l": 0,
+    "k": 0,
+    "rotation": "face half-turn",
+    "+g": [
+     1,
+     "parity line"
+    ],
+    "-g": [
+     2,
+     "plane of two parity lines"
+    ]
+   },
+   {
+    "word": "LRRR",
+    "r - l": 2,
+    "k": 6,
+    "rotation": "3-cycle",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLLLR",
+    "r - l": -3,
+    "k": 15,
+    "rotation": "quarter-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLLRR",
+    "r - l": -1,
+    "k": 21,
+    "rotation": "edge half-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLRLR",
+    "r - l": -1,
+    "k": 21,
+    "rotation": "quarter-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLRRR",
+    "r - l": 1,
+    "k": 3,
+    "rotation": "edge half-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LRLRR",
+    "r - l": 1,
+    "k": 3,
+    "rotation": "quarter-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LRRRR",
+    "r - l": 3,
+    "k": 9,
+    "rotation": "quarter-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLLLLR",
+    "r - l": -4,
+    "k": 12,
+    "rotation": "3-cycle",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     1,
+     "body diagonal"
+    ]
+   },
+   {
+    "word": "LLLLRR",
+    "r - l": -2,
+    "k": 18,
+    "rotation": "face half-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLLRLR",
+    "r - l": -2,
+    "k": 18,
+    "rotation": "3-cycle",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLLRRR",
+    "r - l": 0,
+    "k": 0,
+    "rotation": "3-cycle",
+    "+g": [
+     1,
+     "body diagonal"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLRLRR",
+    "r - l": 0,
+    "k": 0,
+    "rotation": "3-cycle",
+    "+g": [
+     1,
+     "body diagonal"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLRRLR",
+    "r - l": 0,
+    "k": 0,
+    "rotation": "3-cycle",
+    "+g": [
+     1,
+     "body diagonal"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LLRRRR",
+    "r - l": 2,
+    "k": 6,
+    "rotation": "face half-turn",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LRLRRR",
+    "r - l": 2,
+    "k": 6,
+    "rotation": "3-cycle",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     0,
+     "none"
+    ]
+   },
+   {
+    "word": "LRRRRR",
+    "r - l": 4,
+    "k": 12,
+    "rotation": "3-cycle",
+    "+g": [
+     0,
+     "none"
+    ],
+    "-g": [
+     1,
+     "body diagonal"
+    ]
+   }
+  ]
+ },
+ "checks": {
+  "A0: G = G'": true,
+  "A1: 68 subgroups in 26 classes; 57 abelian in 20; 11 non-abelian in 6": true,
+  "A1: the abelian orders 1, 2, 3, 4, 6, 8, 12, 16 with 1, 7, 4, 11, 4, 19, 4, 7": true,
+  "A1: the non-abelian ones as predicted": true,
+  "A2: 57 / 24 / 16 viable, all abelian": true,
+  "A2: the orders as predicted": true,
+  "A2: the two routes agree": true,
+  "A3: no order-3 residual under Sym^2 T": true,
+  "A4: K = V4, 10 subgroups contain it, viable orders as predicted, every pattern a permutation": true,
+  "B1": true,
+  "B2": true,
+  "B3": true,
+  "B4": true,
+  "B5": true
+ },
+ "every check holds": true
+}

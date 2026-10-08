@@ -18415,3 +18415,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   in the first. All of them presuppose an unfixed frame (GENESIS FK11).
 - **Corrected:** several of this seat's readings that went beyond what was computed.
 - **Added:** a conventions registry, mutation tests and a regeneration test.
+
+## 2026-10-08 (night) — W42 verifies main's B1620; the threads' own zero modes
+
+- **Main's S98 and S99 landed:** B1620 counts the breaking on every subgroup and finds none of the 13 flavour numbers
+  reduced; the derived structure is written for outside review; GENESIS v1.35 retires τ = ω as tested.
+- **W42 verified B1620's counts exactly** (68 / 26, 57 / 24 / 16, no order-3 residual under Sym² T), from one closed
+  form of the weave's group.
+- **Main's ask 2 answered:** a thread's own zero modes read its word, and break the parity grading only along a body
+  diagonal, B1621's tick line. Thread results, not the weave's.

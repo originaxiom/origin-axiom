@@ -30,6 +30,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W40: main's B1617 verified, given τ = ω: the residual group (order 48) keeps T irreducible.
 - W41: the weave's zero modes have modular weight −¾ (f has weight ¼, index 0); the input main asked for.
 - The assurance round (2026-10-08): the exact results survived independent re-derivation; conventions and readings corrected (relay §42).
+- W42: main's B1620 verified exactly (68 subgroups in 26 classes; 57 / 24 / 16 viable), from one closed form of the
+  group; every thread's own zero modes break the parity grading only along a body diagonal (main's ask 2).
 
 ## The setting
 
@@ -2525,6 +2527,109 @@ reviewers, and earlier the audit lane, not the author.
 
 **Status.** ASSURANCE (post hoc; reviews and fixes recorded). 0 of 19.
 
+## W42. Main's B1620 verified, and the threads' own zero modes (`the_breaking_verified.py`; `W42_RULE.md`)
+
+**Why.**
+- Main's B1620 (S98) counts the breaking the weave allows on all 68 subgroups of its group, under three mass tensors.
+  Main's write-up for outside review counts all 19 numbers as free on its strength.
+- Main asked this seat two things (relay THE_BREAKING_THE_WEAVE_ALLOWS, §3):
+  1. verify the counts with the normal form;
+  2. say whether the zero modes have a coupling that reads the word and not only τ.
+- The rule (`W42_RULE.md`, 60f790748) was committed before the code, with every prediction derived by hand.
+- **Part A is a VERIFICATION, not blind.** B1620's findings and its definition of a viable sector were read first. Its
+  code was not run and its group was not used.
+
+**Part A: what was done.**
+- The group on T was built from W21's construction (W38), put in W38's normal form, and encoded exactly as pairs
+  (k mod 24, S).
+- Every subgroup was enumerated and sorted into conjugacy classes.
+- Each subgroup's invariant matrices under each tensor were found exactly, as the orbits of the monomial action.
+- A generic member was tested exactly in ℤ[ζ₂₄]: det M ≠ 0, and the discriminant of M M†'s characteristic polynomial
+  ≠ 0, at random Gaussian-integer points.
+  - One passing point proves a sector viable.
+  - Three failing points bound the chance of a missed viable sector below 10⁻¹⁵.
+- The second route was the criterion derived by hand. K came from W40's construction.
+
+**Part A: the result (COMPUTED, exact; every cell as predicted).**
+- **The group, in closed form.** G = {z S : S one of the cube's 24 rotations, z⁸ = 1, z⁴ = sgn S}. Here sgn is the
+  sign of S's permutation of the three axes. The 96 elements built from W21 are exactly these.
+- **The lattice: 68 subgroups in 26 classes.**
+  - 57 are abelian, in 20 classes. Their orders 1, 2, 3, 4, 6, 8, 12 and 16 occur 1, 7, 4, 11, 4, 19, 4 and 7 times.
+  - 11 are not, in 6 classes:
+    - μ × A₄ for μ = 1, μ₂, μ₄;
+    - four of order 24 over the S₃'s;
+    - three of order 32 over the D₄'s;
+    - G.
+- **Viable under B1620's definition, and why.**
+  - **T̄ ⊗ T: exactly the abelian subgroups, 57** (orders 1 to 16; 20 classes). The scalar c cancels.
+  - **T ⊗ T: exactly the abelian subgroups on which T's character is real, 24** (orders 1, 2, 3, 4, 6 and 8;
+    10 classes). These are the 16 subgroups of E below, and the 3-cycles' groups ⟨t⟩ and ⟨−t⟩.
+  - **Sym² T: exactly the subgroups of E, 16** (orders 1, 2, 4 and 8; 8 classes). E = {±1} × V₄ is the group of the
+    8 diagonal sign matrices in the parity basis.
+  - The exact route and the criterion agree on all 204 sectors. Every viable sector passed at all three points, and
+    every other sector at none.
+- **No order-3 residual under Sym² T.** The 8 elements of order 3 are the 3-cycles, all with c = 1.
+  - Each fixes a two-dimensional space of symmetric matrices: diag(a) ⊕ [[0, b], [b, 0]] in its eigenbasis, with
+    spectrum (|a|, |b|, |b|).
+  - No viable subgroup under Sym² T has order divisible by 3.
+- **K.**
+  - The inner automorphisms act as the parity signs. Their c = 1 lifts generate K = V₄, of order 4; all four lifts
+    generate E, of order 8.
+  - 10 subgroups contain K: orders 4, 8, 12, 16, 24, 32 (three), 48 and 96, as G/K ≅ ℤ₃ ⋊ ℤ₈ requires.
+  - The viable ones have orders 4, 8 and 16 under T̄ ⊗ T, and 4 and 8 under the other two.
+  - Every invariant matrix of each of them is diagonal in the parity basis, so every mixing pattern between two of them
+    is a permutation.
+
+**Part A: what it shows.**
+- B1620's counts stand on this seat's construction, and all of them follow from one closed form.
+- **Under Sym² T a three-mass residual is a group of parity signs.** Every rotation of the cube is broken.
+- **Under T ⊗ T a residual keeps parity signs or a 3-cycle with c = ±1.** No edge half-turn or quarter-turn is viable,
+  since each carries c with c² = ±i. W43 follows that up.
+
+**Part B: the census (COMPUTED, exact; every cell as predicted).**
+- **The census.**
+  - It takes every thread to length 12: the 745 Lyndon words in L and R, each thread once, with no covers.
+  - For each thread it takes both extensions ±g of the record's lifts.
+  - By the Wang sequence (H⁰(F; 𝕎) = 0), the T part of a thread's own H¹ is the fixed space of its monodromy on T.
+- **The monodromy.** On every thread it is c(w) S(w), with c(w) = e^{iπ(r − ℓ)/4} for r R's and ℓ L's. The exact
+  product and the float route agree on every thread.
+- **Zero modes exist exactly when r ≡ ℓ (mod 4).** That holds for 237 of the 745 threads.
+  - That condition is c(w)² = i^{r − ℓ} = 1.
+  - Its square is the length parity c⁴ = (−1)^{r + ℓ} = sgn S(w). So odd-length threads never have zero modes.
+- **Their type.** The extension with εc = 1 gives the axis of S(w):
+  - a parity line, when S is a face half-turn (72 threads);
+  - a body diagonal, when S is a 3-cycle (144 threads);
+  - all of T, when S = 1 (21 threads).
+
+  The other extension gives the plane of two parity lines (for the 72), and nothing otherwise.
+- **The census claim holds.**
+  - Every zero-mode space of every thread is either spanned by parity lines or is a body diagonal (±1, ±1, ±1)/√3.
+  - Its type is the same for every rotation of the word.
+- **Under a general extension** (independent phases on the three parity summands along the circle), a zero-mode line
+  has equal moduli on one cycle of S's axis permutation. That gives:
+  - parity lines;
+  - bimaximal lines (½, ½, 0) for quarter-turns and edge half-turns;
+  - trimaximal lines for 3-cycles.
+- **Main's B1621 tick.** For the thread RL (c = 1, a 3-cycle), (1 + g + g²)/3 is the projector onto its zero modes, the
+  body diagonal (1, −1, 1)/√3. Every entry has modulus ⅓. That is B1621's T2 matrix.
+
+**Part B: what it shows (the answer to main's ask 2).**
+- **Yes: a thread's own H¹ is a coupling-free reading of its word.** It is the fixed space of the thread's monodromy.
+  - It reads the word through c(w)² = i^{r − ℓ}, which decides whether the thread has zero modes. The length parity is
+    that number's square.
+  - It reads it through S(w) as well, which sets their direction.
+- **Under the record's extension the threads break the parity grading only along a body diagonal.** That is the
+  democratic direction, B1621's tick line, and it is the only grading-breaking shape the threads supply.
+  - Bimaximal or phased trimaximal lines need extra phases on the circle, which the principle does not fix.
+- **Each row is a thread object.** Which thread a sector reads is a choice, so a word-reading coupling is a thread
+  result, not the weave's. Read jointly, the weave is invariant under the whole group, and so reads only τ and the
+  grading (B1620's K cell).
+- So the zero modes' language reproduces B1621's single grading-breaking shape for every thread at once, adds no other,
+  and fixes no number.
+
+**Status.** Part A VERIFIED (not blind): main's WEAVE counts reproduced exactly. Part B COMPUTED: a census of every
+thread to length 12, each row a thread result. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2678,6 +2783,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W40 | VERIFIED (not blind; S95 read first); main's WEAVE result reproduced, given τ = ω | main's B1617 rebuilt from W21's construction: U (a ↦ b, b ↦ a⁻¹b; H₁ matrix of order 6, fixing ω), the inner automorphisms and −I generate a group of order 48 on T, irreducible (commutant 1); the inner automorphisms are the Klein group's diagonal signs (the parity grading), U is i times a 3-cycle of the parity axes, with eigen-turns ¼, 7/12, 11/12 (order 12); one invariant in T̄ ⊗ T (three equal masses), none in T ⊗ T or Sym² T. W39 qualified: its consequences hold at weight 0 |
 | W41 | COMPUTED (the rule first; one run after a disclosed stopped launch) | the weave's zero modes are a vector-valued modular form of weight −¾ (as one-forms; f = θ₃(z \| 2τ)/√θ₁(z \| τ) of weight ¼ and index 0): the norm test g = N/(Im τ)^{3/4} is invariant under T, S, U, L, R, RL, LRR at two base points (worst 2.7 × 10⁻¹¹; exponents ¼ and 1 fail by 0.086 and 0.046); the numerator pair has weight ½ with constant unitary W (W(T) = diag(1, i)); θ₁'s multipliers are eighth roots. At ω the modes' U-action is W40's, nothing added (§40's line withdrawn in the rule) |
 | Assurance (2026-10-08) | ASSURANCE (post hoc) | the owner's "are we sure": a conventions registry (two string conventions; the period rule, corrected), mutation tests (10 of 10 caught by regeneration, 5 by the result tests, so a regeneration test was added), four independent adversarial reviews (foundation 6/6 and masses 6/6 confirmed exactly; weight 4/5, the fifth a branch convention; readings: no false theorem, several overstatements corrected), script fixes with values identical, the norm routine's small-Im τ bug fixed. Findings: the residual convention (flavon versus modular scenario; P10 lives only in the first), the period rule's stabiliser L U L⁻¹, and the frame premise (GENESIS FK11) |
+| W42 | VERIFIED (not blind; the rule first; B1620 read first) and COMPUTED (a census of every thread to length 12) | main's B1620 rebuilt from W21's construction: G = {z S : z⁸ = 1, z⁴ = sgn S}; 68 subgroups in 26 classes, 57 abelian; viable (three distinct non-zero masses, exact in ℤ[ζ₂₄], two routes): 57 under T̄ ⊗ T (the abelian ones), 24 under T ⊗ T (real character: E's 16 and the 3-cycles' ⟨±t⟩), 16 under Sym² T (the subgroups of E, the parity signs); no order-3 residual under Sym² T ((|a|, |b|, |b|) along every 3-cycle); 10 subgroups contain the parity grading K, and theirs are permutation patterns. Ask 2: a thread's own H¹ (Wang) reads its word: zero modes exactly when r ≡ ℓ (mod 4) (237 of 745), and every grading-breaking one is a body diagonal, B1621's tick line; a thread result |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2721,6 +2827,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W42_RULE.md`: the rule, committed before the code; `the_breaking_verified.py` → `the_breaking_verified.json`: W42, main's B1620 recomputed exactly (the lattice, the three tensors, K; a verification, not blind) and the census of every thread's own zero modes.
 - `W41_RULE.md`: the rule, committed before the code; `the_zero_modes_weight.py` → `the_zero_modes_weight.json`: W41, the zero modes' weight by the norm and by the theta laws.
 - `the_weave_at_omega_verified.py` → `the_weave_at_omega_verified.json`: W40, main's B1617 recomputed, given τ = ω (a verification, not blind).
 - `the_couplings_exact.py` → `the_couplings_exact.json`: W38's exact addendum (post hoc): the normal form of the group on T, Heron's identity on B1615's family, and each residual's whole fixed space.
