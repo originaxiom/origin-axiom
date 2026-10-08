@@ -1,5 +1,33 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 cusp Ward checkpoint:
+reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/FINDINGS.md.
+23 native/9 reference/14 focused/288 regression first-pass at309df8c3f.
+
+- PB-CUSP-WARD-CANDIDATE: EXECUTED. Closing scope: this heat-regularized
+  covariant inverse current retains a nonzero propagator end response
+  and is not an exact effective-action variation at nonzero flux.
+  The old UV heat cancellation remains, not a completed anomaly cure.
+- PB-CUSP-ANOMALY-COMPLETION: Stage2T PARTIAL. NEXT_TEST asks for a
+  derived consistent action/current correction with actual end data.
+  Exact counterterms do not repair current curl. No all-regulator kill.
+- PB-CUSP-UNSIGNED-QUANTUM-TRACE: full loop and relative subtraction
+  still separate; the present phase test does not compute them.
+- PB-CUSP-REVIEW: outside global heat/domain/phase review owed; scalar
+  and finite-matrix safeguards are not that certificate.
+- PB-CUSP-CHARGED-CONDENSATE: magnetic instability and color-index
+  invariance retained; stable charged completion remains a separate duty.
+- Cross-seat join: request kernel-to-T lifts and projected interactions,
+  not inference of a flavor tensor from the full Weyl Hessian's symmetry.
+- Source-level B1620 fit concern: calibrate its outside-interval
+  residual threshold, retain score-zero positive witnesses, and avoid
+  turning failed local fits into exclusion. No fresh fit census claimed.
+- Preserve all source/silver alternatives, generated carriers and the
+  act/register/lift, observer/qualia and gravity duties.
+
+The full parameter-free SM/TOE remains active and unachieved.
+Earlier dated NEXT entries below retain their historical epoch.
+
 October 8 cusp-continuum checkpoint:
 reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/FINDINGS.md.
 29 native/12 reference/18 focused/274 regression PASS after89bcc19ea.

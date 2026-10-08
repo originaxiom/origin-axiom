@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-10-08 cusp propagator current and phase consistency
+
+October8 cusp Ward checkpoint:23 native/9 separate reference/14 focused
+and288 seventeen-packet regression tests PASS on first attempts at
+pushed seal309df8c3f. Same supplied curved E8 parent, complete spin/domain
+and stationary magnetic family. Report:
+reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/FINDINGS.md.
+The zero ultraviolet heat coefficient is retained, but the tested
+covariant inverse current has a propagator end term. On an explicit
+gapped external color probe, its slow-field limit recovers the old
+nonzero color coefficient. Its gauge-direction curl is nonzero at
+nonzero flux: THIS current is not an effective-action variation.
+No all-regulator or parent no-go. Next derive a consistent action/current
+and end response; an exact counterterm alone cannot repair this curl.
+Stage2T remains PARTIAL. Seven science/20 pinned-and-working inputs
+unchanged. Finite checks are not independent certification of the global
+analysis; outside review, full-suite/main-bank and four inherited
+governance failure categories remain. Magnetic saddles, zero-flux
+nonnegative minima and source/silver positives are preserved.
+Main014561417 read at source level, not fully replayed. Reply explains
+why the four-Weyl bilinear alone does not choose a weave flavor tensor.
+A PMNS fit-threshold concern is relayed with zero-residual positives
+preserved; no universal retraction. Full parameter-free SM/TOE ACTIVE,
+unachieved; stable physical families, genesis selection, normalized
+parameters, observer/qualia and gravity remain distinct obligations.
+Earlier dated NEXT statements below retain their historical epoch.
+
 ## 2026-10-08 physical cusp continuum and covariant heat response
 
 October 8 cusp-continuum checkpoint:29 native/12 separate reference/

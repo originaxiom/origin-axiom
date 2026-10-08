@@ -266,6 +266,21 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    unsigned length divergence without assuming full-loop cancellation.
    NEXT_TEST remains unexecuted for this new action/phase gate. Outside
    analytic review and all physical vacuum/genesis duties remain.
+   Stage2T October8 THIRD GATE EXECUTED at research grade:
+   weave_cusp_ward_2026_10_08/FINDINGS.md.23 native/9 reference/
+   14 focused/288 seventeen-packet regression first-pass at309df8c3f.
+   One covariant inverse current retains the propagator cusp end;
+   slow-field response recovers the nonzero physical color index and
+   its nonabelian gauge curl prevents an exact action interpretation.
+   The zero UV heat positive is preserved. No other regulator or
+   parent no-go. NEXT derive a consistent regulated action/current and
+   end response, with actual reference data and Wess-Zumino test;
+   an exact counterterm alone cannot repair this curl. Phase,
+   parity-even full-loop subtraction, stability and genesis remain
+   separate duties. NEXT_TEST is planning, not an executed completion.
+   Main014561417 source intake and mass-tensor reply are recorded;
+   numerical fit-threshold concern is scoped to its saved criterion,
+   with zero-residual positives retained, not a whole-branch kill.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

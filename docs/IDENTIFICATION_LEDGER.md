@@ -380,3 +380,17 @@ Locks: tests/test_physical_bridge_weave_cusp_heat.py.
 Finite signed trace does not identify a finite parity-even determinant.
 Stable three families, generated physical inputs, observer/qualia and
 gravity remain distinct obligations toward the full active goal.
+
+### Physical cusp Ward October8 path-local supplement
+
+Report: reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/FINDINGS.md.
+No shared I-number or empirical normalization assigned.
+
+| sides | exhibited map or failed identification | scope |
+|---|---|---|
+| Actual inverse phase-current prescription and gauge-direction response | Finite-cutoff supertrace with the noncommuting spatial insertion; proper-time product formula | Conditional limit includes integral a_R S_R', with both conjugate slots and gap control |
+| Zero covariant UV heat coefficient and gauge-invariant quantum action | NOT IDENTIFIED: a propagator end response survives and the candidate current has nonzero curl | Excludes this exact-current identification, not another action/end construction or the parent |
+| Full four-Weyl symmetric bilinear and weave flavor tensor | NOT IDENTIFIED by symmetry alone; actual kernel lift maps and gauge/Higgs contractions must be supplied and checked | Neither barT tensor T, T tensor T nor Sym2 T is selected by the full Hessian alone |
+
+Outside analytic acceptance, stable families, generated physical inputs
+and the remaining full SM/TOE requirements remain unearned.

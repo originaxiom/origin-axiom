@@ -1,5 +1,25 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 cusp Ward conditional sublemmas. Same supplied curved E8
+parent, stationary magnetic family, complete domain and internally
+parallel unbroken external fields. No shared B-law number allocated.
+PROOF: reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/PROOF.md.
+Safeguards: tests/test_physical_bridge_weave_cusp_ward.py.
+
+| Scoped result | Argument and finite safeguard |
+|---|---|
+| Regulated inverse phase-current gauge variation includes the propagator cutoff commutator | Finite-cutoff supertrace identity; test_actual_graded_ward_identity, test_omitted_end_and_wrong_sign_fail, test_independent_phase_block_counting |
+| Fixed-time uniform shell bounds justify the proper-time cusp limit with a gapped external operator | Authored global estimate from the prior normal kernel plus positivity and localized Hilbert-Schmidt bound; scalar safeguard test_external_background_is_gapped_at_finite_scale does NOT certify the global analysis |
+| Gauge-direction limit is integral a_R(s) S_R'(s), not only the zero UV heat term | Product grading, inverse proper-time formula and ordered limits; test_uv_heat_is_not_entire_ward_current, test_end_resolvent_integral.28 quadratures are numerical controls |
+| Smooth gapped four-torus probe has zero global topology but nonzero weighted color insertion | Explicit connection, conservative gap bound and exact tr(alpha F^2) integral; test_zero_topology_nonzero_weighted_current, test_external_background_is_gapped_at_finite_scale |
+| Slow-field dilation recovers the prior nonzero index-weighted color coefficient for nonzero flux | Authored dominated-convergence argument; test_ir_indices_and_first_endpoint, test_zero_and_opposite_flux, test_complete_color_mass_coefficients support the coefficients, not a numerical external heat kernel |
+| Equivariant candidate has nonzero gauge-direction curl and cannot be an exact action variation | Explicit nonabelian bracket and general gauge-orbit identity; test_actual_nonabelian_gauge_bracket, test_integrability_not_covariance. Exact counterterms cannot change the curl; other regulated actions/end systems remain open |
+
+23 native/9 reference/14 focused/288 regression first-pass.
+Previous continuum heat positive retained. No consistent quantum
+completion, outside analytic acceptance or stable SM vacuum claimed.
+Earlier dated NEXT entries below retain their historical epoch.
+
 October 8 cusp-continuum conditional sublemmas. Same supplied curved
 E8 parent, fixed complete cusp spin/domain and magnetic stationary family;
 internally parallel unbroken external gauge fields only. No shared B law.

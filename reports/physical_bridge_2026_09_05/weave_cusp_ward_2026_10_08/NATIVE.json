@@ -1,0 +1,248 @@
+{
+  "all_quantum_completions_excluded": false,
+  "bracket_integral_over_pi4_h2": "-24",
+  "candidate_phase_is_integrable": false,
+  "color_end_coefficients": {
+    "-1": [
+      [
+        "1/2",
+        "-1/2"
+      ],
+      [
+        "3/2",
+        "1/2"
+      ],
+      [
+        "5/2",
+        "2"
+      ],
+      [
+        "7/2",
+        "1/2"
+      ],
+      [
+        "9/2",
+        "-1"
+      ],
+      [
+        "11/2",
+        "-1/2"
+      ]
+    ],
+    "-2": [
+      [
+        "1/2",
+        "1"
+      ],
+      [
+        "5/2",
+        "1/2"
+      ],
+      [
+        "7/2",
+        "3/2"
+      ],
+      [
+        "9/2",
+        "1/2"
+      ],
+      [
+        "11/2",
+        "1/2"
+      ],
+      [
+        "13/2",
+        "1/2"
+      ],
+      [
+        "19/2",
+        "-1/2"
+      ],
+      [
+        "21/2",
+        "-1"
+      ]
+    ],
+    "-3": [
+      [
+        "3/2",
+        "1"
+      ],
+      [
+        "9/2",
+        "3/2"
+      ],
+      [
+        "11/2",
+        "1/2"
+      ],
+      [
+        "13/2",
+        "1/2"
+      ],
+      [
+        "15/2",
+        "1/2"
+      ],
+      [
+        "21/2",
+        "1/2"
+      ],
+      [
+        "27/2",
+        "1/2"
+      ],
+      [
+        "29/2",
+        "-1"
+      ],
+      [
+        "31/2",
+        "-1"
+      ]
+    ],
+    "0": [],
+    "1": [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "3/2",
+        "-1/2"
+      ],
+      [
+        "5/2",
+        "-2"
+      ],
+      [
+        "7/2",
+        "-1/2"
+      ],
+      [
+        "9/2",
+        "1"
+      ],
+      [
+        "11/2",
+        "1/2"
+      ]
+    ],
+    "2": [
+      [
+        "1/2",
+        "-1"
+      ],
+      [
+        "5/2",
+        "-1/2"
+      ],
+      [
+        "7/2",
+        "-3/2"
+      ],
+      [
+        "9/2",
+        "-1/2"
+      ],
+      [
+        "11/2",
+        "-1/2"
+      ],
+      [
+        "13/2",
+        "-1/2"
+      ],
+      [
+        "19/2",
+        "1/2"
+      ],
+      [
+        "21/2",
+        "1"
+      ]
+    ],
+    "3": [
+      [
+        "3/2",
+        "-1"
+      ],
+      [
+        "9/2",
+        "-3/2"
+      ],
+      [
+        "11/2",
+        "-1/2"
+      ],
+      [
+        "13/2",
+        "-1/2"
+      ],
+      [
+        "15/2",
+        "-1/2"
+      ],
+      [
+        "21/2",
+        "-1/2"
+      ],
+      [
+        "27/2",
+        "-1/2"
+      ],
+      [
+        "29/2",
+        "1"
+      ],
+      [
+        "31/2",
+        "1"
+      ]
+    ]
+  },
+  "color_response_at_zero": {
+    "-1": "1",
+    "-2": "3",
+    "-3": "3",
+    "0": "0",
+    "1": "-1",
+    "2": "-3",
+    "3": "-3"
+  },
+  "consistent_quantum_action_derived": false,
+  "covariant_heat_positive_retained": true,
+  "facts": {
+    "all_color_end_responses_recover_ir": true,
+    "all_parent_color_generator_norms_bounded": true,
+    "commuting_parameters_curl_control_zero": true,
+    "consistency_curl_is_nonzero": true,
+    "dropping_end_fails_nonzero_control": true,
+    "end_product_keeps_chiral_external_trace": true,
+    "end_propagator_laplace_transform": true,
+    "exact_control_value": true,
+    "external_dilation_preserves_finite_L_gap": true,
+    "finite_control_has_actual_grading": true,
+    "finite_gauge_variation_includes_end": true,
+    "first_flux_not_high_flux": true,
+    "gauge_covariance_has_factor_two": true,
+    "global_topological_integral_zero": true,
+    "heat_uv_and_propagator_end_are_distinct": true,
+    "integrable_end_derivative_has_index_limit": true,
+    "nonabelian_bracket_is_actual_color_generator": true,
+    "opposite_flux_and_zero_kept": true,
+    "ordinary_full_cutoff_control_zero": true,
+    "outward_sign_reversal_fails": true,
+    "positive_spectrum_shell_bound_control": true,
+    "smooth_gauge_insertion_is_nonzero": true,
+    "strict_external_gap_control": true
+  },
+  "full_loop_renormalization_derived": false,
+  "genesis_selection_derived": false,
+  "graded_control_phase_over_i": "-5/2",
+  "nonauthor_acceptance": false,
+  "physical_goal_achieved": false,
+  "predicates_passed": 23,
+  "stable_chiral_vacuum_derived": false,
+  "weighted_color_integral_over_pi4_h2": "-48"
+}
