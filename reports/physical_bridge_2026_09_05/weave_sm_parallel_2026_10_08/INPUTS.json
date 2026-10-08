@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "ref": "dc54ae3a2ed5ee2a51d163fd830177f6a50c651a",
+      "bytes": 11363,
+      "sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/probe.py",
+      "ref": "dc54ae3a2ed5ee2a51d163fd830177f6a50c651a",
+      "bytes": 12404,
+      "sha256": "6e7254ff85f2465d077bd90b1f4182e6eb916fc43e244c5b6554fdc9fe136d80"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/reference.py",
+      "ref": "dc54ae3a2ed5ee2a51d163fd830177f6a50c651a",
+      "bytes": 7701,
+      "sha256": "cda1b1e3211c3d01b06e92258f43d285933000194efc1628c2272ac7fd00257f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "ref": "dc54ae3a2ed5ee2a51d163fd830177f6a50c651a",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/NEXT_TEST.md",
+      "ref": "dc54ae3a2ed5ee2a51d163fd830177f6a50c651a",
+      "bytes": 5809,
+      "sha256": "8a47617e3b73ddd7abe2391454481ab53af451c4a002a42dc9709d019c34b3a6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md",
+      "ref": "dc54ae3a2ed5ee2a51d163fd830177f6a50c651a",
+      "bytes": 8455,
+      "sha256": "a8ef5d831e3801848c3b0ab24223e440faf40c837d26f1f5167e44f09dcea4f3"
+    }
+  ],
+  "focused_expected_tests": 23,
+  "comparison_profiles": [
+    "root_profile",
+    "spectrum_profile",
+    "grade_profile"
+  ],
+  "unearned_flags": [
+    "actual_zero_counts_computed",
+    "physical_chirality_achieved",
+    "genesis_selection_derived",
+    "all_parallel_frames_classified",
+    "physical_goal_achieved",
+    "nonauthor_acceptance"
+  ],
+  "literature": [
+    {
+      "url": "https://www.math.stonybrook.edu/~aknapp/pdf-files/1-27.pdf",
+      "sha256": "9c7c5ee2d5122e90fe1bcad6285778031f4d16810184db2bed8a1f16b7d1289c",
+      "read_scope": "p17 personally read, rendered and viewed; not whole paper",
+      "use": "Theorem3.8/corollary, connected centralizers of tori only"
+    }
+  ],
+  "intake": {
+    "main": "f008c0424",
+    "sm": "bc4ea1303",
+    "incoming_grade": "B1612 preregistration read; no new foreign result replayed"
+  }
+}

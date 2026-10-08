@@ -2402,3 +2402,20 @@ full G2 algebra; chosen completion fails SM rank, not all compensators.
 No two-field fermion gap or physical chirality computed. NEXT_TEST is
 post-run HAND/UNEXECUTED and outside this certificate. Nonauthor
 analytic/full-suite/main-bank duties and inherited governance remain.
+
+## SM parallel phase pre execution seal 2026 10 08
+
+Seven science files/six source pins UNEXECUTED. Same-action stationary
+SM-gauge phase, full gap and bounded parallel-pair/index-homotopy proof.
+Reasoned predictions, not blind; analytic acceptance remains separate.
+Commit/push/server confirmation before science import/run/collection.
+
+| File | SHA256 |
+|---|---|
+| weave_sm_parallel_2026_10_08/DESIGN.md | 0088964d0e272a8ac1c9836d0c9d3c60d4b2301dab2202c53c66520510d5da48 |
+| weave_sm_parallel_2026_10_08/PROOF.md | 99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c |
+| weave_sm_parallel_2026_10_08/INPUTS.json | 7377bb526448355ef05ad500422f9a2647221a5fb44f449e37a731205cc393c2 |
+| weave_sm_parallel_2026_10_08/probe.py | 432e8fe1ff674f7d72aec6aa54e86ec1769ffda8f8c2ede04d357d93c8286049 |
+| weave_sm_parallel_2026_10_08/reference.py | 54e011b21ec8a0ffe82a0e28c60c559faa666232dab7a38caf52cbf4a69a0048 |
+| weave_sm_parallel_2026_10_08/custody.rb | 07b59fa5db8fc3fd8abcbffde623dd1ee4dc8406d879cd2d693a345f4165fe4e |
+| tests/test_physical_bridge_weave_sm_parallel.py | 206cdef762a1a6abf12ed9545a3232b8980df48d9fd7689f28c2f3cf9579661b |

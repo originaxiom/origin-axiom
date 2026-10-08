@@ -1,0 +1,42 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/DESIGN.md",
+      "bytes": 5741,
+      "sha256": "0088964d0e272a8ac1c9836d0c9d3c60d4b2301dab2202c53c66520510d5da48"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/INPUTS.json",
+      "bytes": 2477,
+      "sha256": "7377bb526448355ef05ad500422f9a2647221a5fb44f449e37a731205cc393c2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/probe.py",
+      "bytes": 11338,
+      "sha256": "432e8fe1ff674f7d72aec6aa54e86ec1769ffda8f8c2ede04d357d93c8286049"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/reference.py",
+      "bytes": 7628,
+      "sha256": "54e011b21ec8a0ffe82a0e28c60c559faa666232dab7a38caf52cbf4a69a0048"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/custody.rb",
+      "bytes": 4739,
+      "sha256": "07b59fa5db8fc3fd8abcbffde623dd1ee4dc8406d879cd2d693a345f4165fe4e"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_sm_parallel.py",
+      "bytes": 5471,
+      "sha256": "206cdef762a1a6abf12ed9545a3232b8980df48d9fd7689f28c2f3cf9579661b"
+    }
+  ],
+  "status": "PRE-EXECUTION; no science import/run/collection",
+  "prior": "Positive stationary SM-gauge phase and gap; zero charged index in the bounded parallel ansatz",
+  "source_ref": "dc54ae3a2ed5ee2a51d163fd830177f6a50c651a"
+}
