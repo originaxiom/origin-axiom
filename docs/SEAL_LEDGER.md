@@ -2552,3 +2552,30 @@ Old stronger negative bounds and n=0 nonnegative SM-gauge minimum remain.
 NEXT_TEST is post-run UNEXECUTED/outside seal; derives the actual physical
 mass map before further vacuum search. Nonauthor analytic/full-suite/
 main-bank and inherited governance duties remain.
+
+## Physical four Weyl mass map pre-execution seal October 8
+
+Same supplied curved E8 action, complete punctured elliptic geometry,
+trivial extending spin, magnetic stationary family and complete domain.
+Prior: the actual W Hessian and gauge coupling identify the full physical
+mass map with the previous Hodge operator through explicit bundle
+isometries. Nonzero magnetic charged index expected, but a nonzero
+standalone zero-mode anomaly also expected. Not a stable physical SM,
+all-parent exclusion or a free anomaly-inflow completion.
+Seven science files and twelve sources pinned to f5da7ce4a.22 focused
+tests and238 fourteen-packet regression planned. Commit/push/server
+confirmation BEFORE scientific import/run/collection. Independent
+analytic/full-suite/main-bank and inherited governance duties remain.
+
+| File | SHA256 |
+|---|---|
+| weave_physical_mass_2026_10_08/DESIGN.md | dab4dc2fafa0e97c5e81152eaee3342c3dad0c58862cbcc82cbe5d3eadefe1f4 |
+| weave_physical_mass_2026_10_08/PROOF.md | 04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d |
+| weave_physical_mass_2026_10_08/INPUTS.json | f7d0b4b428b855815c6d503020d08497c957b5644bbc7c182d302028eba1446f |
+| weave_physical_mass_2026_10_08/probe.py | 48abceb8f23be7a1097653a49be13bf6126967a2368b6304c2db0b4133bdf124 |
+| weave_physical_mass_2026_10_08/reference.py | 34ac24b07a1463c19d32d36e0bc4208116bdbab6401120333ff39b47d567c285 |
+| weave_physical_mass_2026_10_08/custody.rb | d4ce5b34e2d673d2268c4d9e8f4ad6c4be7016b93c6fcdc87a76356c528ba373 |
+| tests/test_physical_bridge_weave_physical_mass.py | 3c971bee9f64562d5264567623152792db72568ffc8004c6d41dca5645724830 |
+
+Preseal governance26 PASS/four inherited FAIL, review378; literal receipt
+in the packet. No new failure category and no all-green bank claim.

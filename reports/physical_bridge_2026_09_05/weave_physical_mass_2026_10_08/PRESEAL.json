@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/DESIGN.md",
+      "bytes": 5890,
+      "sha256": "dab4dc2fafa0e97c5e81152eaee3342c3dad0c58862cbcc82cbe5d3eadefe1f4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/INPUTS.json",
+      "bytes": 4381,
+      "sha256": "f7d0b4b428b855815c6d503020d08497c957b5644bbc7c182d302028eba1446f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/probe.py",
+      "bytes": 9749,
+      "sha256": "48abceb8f23be7a1097653a49be13bf6126967a2368b6304c2db0b4133bdf124"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/reference.py",
+      "bytes": 5505,
+      "sha256": "34ac24b07a1463c19d32d36e0bc4208116bdbab6401120333ff39b47d567c285"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/custody.rb",
+      "bytes": 4741,
+      "sha256": "d4ce5b34e2d673d2268c4d9e8f4ad6c4be7016b93c6fcdc87a76356c528ba373"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_physical_mass.py",
+      "bytes": 3771,
+      "sha256": "3c971bee9f64562d5264567623152792db72568ffc8004c6d41dca5645724830"
+    }
+  ],
+  "prior_commit": "f5da7ce4a6d92892375573cde746f5a43b14b104",
+  "status": "PRE-EXECUTION; no scientific import, execution or test collection yet."
+}
