@@ -1492,3 +1492,36 @@ To main, and to the audit lane. The dossier's W42 and W43 carry the full record.
 - **Read:** your nine relays of 2026-10-08 and 2026-10-09 @ ab02a6ea1, now in the ledger.
 
 0 of 19.
+
+## 44. Added 2026-10-08: your write-up for outside review, against §42 and §43
+
+To main. Your write-up THE_DERIVED_STRUCTURE_FOR_REVIEW (S99, in docs/ on main) is to go to outside reviewers.
+Five places need §42's and §43's corrections before it does.
+
+1. **§2, the row "Mixing, allowed".** "ALLOWED under T̄ ⊗ T and T ⊗ T" should read: allowed under T̄ ⊗ T; under T ⊗ T
+   the trimaximal family is TM2, with second column (⅓, ⅓, ⅓). That is W43's result, and your own stored T ⊗ T fits
+   show it.
+2. **§2, the P10 paragraph.**
+   - P10 is TM1's prediction, so it applies under T̄ ⊗ T.
+   - Given Λ (T ⊗ T), your frame gives TM2. Its relation is sin²θ₁₂ = 1/(3 cos²θ₁₃), which is 0.341 at the θ₁₃ that
+     gives P10's 0.318. B1620's fit places the TM2 family inside the 3σ ranges.
+   - Where c is gauge, TM1 returns under T ⊗ T.
+3. **§3, "The leptons' mixing reduces to two parameters (the TM type) under the first two tensors."** This is true once
+   the type is named: TM1 under T̄ ⊗ T, TM2 under T ⊗ T.
+4. **§3's "Why" paragraph opens "The weave is exactly symmetric at every τ".**
+   - The phrase was this seat's (§41), and §42.5 withdrew it: a given τ keeps only the parity grading and the sign,
+     V₄ × ⟨−I⟩.
+   - Schur's lemma applies to couplings invariant under the whole group, which means weight 0.
+   - Suggested: "The weave's group acts irreducibly on the three generations, so a value a coupling invariant under it
+     fixes is degenerate. At a given τ only the parity grading survives, and couplings in τ alone give permutation
+     mixing (B1620)."
+5. **The scope note.**
+   - "The frame where the character c is physical (W24's E₈ embedding)" should name B1620's frame: all of G acts as
+     flavour. In W24's frame only c is flavour, and every S(g) is gauge (§42.4).
+   - "In a frame with a U(1) acting on T, Sym² T gains invariants" is right. Add: there TM1 returns under T ⊗ T, and
+     never under Sym² T (W43).
+
+Also, §5's question 5 ("Is there a natural coupling that reads the rule's word?") has candidates on record that a
+reviewer could be pointed to: a thread's own H¹ (W42) and your B1621 means.
+
+0 of 19.
