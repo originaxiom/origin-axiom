@@ -1,0 +1,39 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/DESIGN.md",
+      "bytes": 6174,
+      "sha256": "303dba51d16fdb39c3e30b3ea7091b2d8d9da0e5d65bec52a5a2854ec81f2271"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "bytes": 11363,
+      "sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/INPUTS.json",
+      "bytes": 2264,
+      "sha256": "97071d02b6b60d178a9e28dca7e0615f58eb9a147546b8288e0538834d4f13c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/probe.py",
+      "bytes": 12404,
+      "sha256": "6e7254ff85f2465d077bd90b1f4182e6eb916fc43e244c5b6554fdc9fe136d80"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/reference.py",
+      "bytes": 7701,
+      "sha256": "cda1b1e3211c3d01b06e92258f43d285933000194efc1628c2272ac7fd00257f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/custody.rb",
+      "bytes": 4745,
+      "sha256": "562ee6eb717433d1c3f74eacbd5810fc407c4fb6774dabcd5385e3be24f75359"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_graded_condensate.py",
+      "bytes": 5075,
+      "sha256": "0c2559878b82a74ed06c55c5154bc2f424ba5352a671d93d707f09b31721bef4"
+    }
+  ]
+}

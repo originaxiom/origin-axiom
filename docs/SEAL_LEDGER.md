@@ -2345,3 +2345,21 @@ Report: weave_global_condensate_2026_10_08/FINDINGS.md. Authored global
 smooth stationary completion with G2 algebra and unchanged cusp continuum;
 not generated physics, chiral SM, outside acceptance or full main banking.
 NEXT_TEST is a post-run hand proposal, not part of this certificate.
+
+
+## Matched grading condensate pre execution seal 2026 10 08
+
+Seven science files unexecuted. Same supplied action, global spin-induced
+SO3 condensate, full fermion essential gap and actual charged dual map.
+Predictions are reasoned, not blind; no SM claim. Commit, push and server
+confirmation before any source import, execution or test collection.
+
+| File | SHA256 |
+|---|---|
+| weave_graded_condensate_2026_10_08/DESIGN.md | 303dba51d16fdb39c3e30b3ea7091b2d8d9da0e5d65bec52a5a2854ec81f2271 |
+| weave_graded_condensate_2026_10_08/PROOF.md | 22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9 |
+| weave_graded_condensate_2026_10_08/INPUTS.json | 97071d02b6b60d178a9e28dca7e0615f58eb9a147546b8288e0538834d4f13c4 |
+| weave_graded_condensate_2026_10_08/probe.py | 6e7254ff85f2465d077bd90b1f4182e6eb916fc43e244c5b6554fdc9fe136d80 |
+| weave_graded_condensate_2026_10_08/reference.py | cda1b1e3211c3d01b06e92258f43d285933000194efc1628c2272ac7fd00257f |
+| weave_graded_condensate_2026_10_08/custody.rb | 562ee6eb717433d1c3f74eacbd5810fc407c4fb6774dabcd5385e3be24f75359 |
+| tests/test_physical_bridge_weave_graded_condensate.py | 0c2559878b82a74ed06c55c5154bc2f424ba5352a671d93d707f09b31721bef4 |

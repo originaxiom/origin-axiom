@@ -1,0 +1,62 @@
+{
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "ref": "385b0cd4849419c8523923eb575a7f3220c79bbd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md",
+      "bytes": 8932,
+      "sha256": "fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977",
+      "ref": "385b0cd4849419c8523923eb575a7f3220c79bbd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/reference.py",
+      "bytes": 4563,
+      "sha256": "bfef0dcf011078f206fa44392a60a6b498fe47c2ae03295c596fe26fbe2600bf",
+      "ref": "385b0cd4849419c8523923eb575a7f3220c79bbd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/PROOF.md",
+      "bytes": 10162,
+      "sha256": "05a4f2423a6ba030d8f041c0a3236c32117f1ee78b69feb2cc71ce5050b03e55",
+      "ref": "385b0cd4849419c8523923eb575a7f3220c79bbd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/NEXT_TEST.md",
+      "bytes": 4167,
+      "sha256": "84c0438dce7e43ee2087885f3b14699f0bc7344da04a5d0e4c003589e2285412",
+      "ref": "385b0cd4849419c8523923eb575a7f3220c79bbd"
+    }
+  ],
+  "focused_expected_tests": 20,
+  "comparison_profiles": [
+    "root_profile",
+    "spectrum_profile",
+    "pairing_profile"
+  ],
+  "unearned_flags": [
+    "physical_chirality_achieved",
+    "global_zero_counts_computed",
+    "genesis_selection_derived",
+    "physical_goal_achieved",
+    "nonauthor_acceptance"
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/pdf/math/0010233",
+      "version": "v1",
+      "sha256": "cdd0b5810dac8ce19fb4c5fae82919218968b073ac1a1a805dedbead6ebc2620",
+      "read_scope": "Section 2, pp9-13; pp10-13 rendered and visually checked; not a full-paper read",
+      "use": "Decomposition principle only; coupled spectrum and physics not borrowed"
+    }
+  ],
+  "intake": {
+    "main": "4125c0384",
+    "sm": "aa642bdc8",
+    "own": "385b0cd4849419c8523923eb575a7f3220c79bbd",
+    "incoming_grade": "Reports/relays read, not producers replayed"
+  }
+}
