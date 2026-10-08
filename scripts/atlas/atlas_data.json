@@ -10903,6 +10903,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1606": {
+   "slug": "three on the weave graded",
+   "motifs": [
+    "action",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "S85"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B160": {
    "slug": "quasicrystal bridge corroboration",
    "motifs": [

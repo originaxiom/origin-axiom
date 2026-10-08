@@ -1,1 +1,3 @@
+# sealed at 8dfd4df1e: ec5e6bdf5362183899b418104317bef970478c9e80e7203b4b95c1601a89ddad  verification/puncture_condition.py (unchanged after the seal)
 ec5e6bdf5362183899b418104317bef970478c9e80e7203b4b95c1601a89ddad  verification/puncture_condition.py
+7602375058ad93fdde972dad29dd1467c0cddd37b911b52dba0d0e2a6c15f643  verification/puncture_condition.json

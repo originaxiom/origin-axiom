@@ -93,3 +93,21 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   −LLLR none — the seat's rows at order two reproduced exactly. Content on the forced cover is on ±LR only among the
   four read; the candidate rule is arithmeticity (Bowditch–Maclachlan–Reid: ±LR the only arithmetic odd-trace threads),
   unexplained.
+
+## Main's verifications of the seat's W19–W24, and the grade (B1606, 2026-10-08; GENESIS v1.28)
+
+- **W20 verified** (`B1600/verification/w20_w22_check.py`): −χ(Aut⁺(F₂); 27) = 3 by the amalgam ℤ/4 ∗_{ℤ/2} ℤ/6 for the
+  principal sl₂ and for E₆(a₁), E₆(a₃); the fibre's terms vanish; the 78 reads 16. Not chiral (the seat's erratum).
+- **W21 verified** (`B1600/verification/w21_check.py`): the Hodge–Riemann form as the cup product on the ℤ/2-orbifold
+  presentation's bar 2-cycle, calibrated on the untwisted torus — hermitian, invariant under L, R and the sign, reversed by
+  the swap, signature (3, 3), **positive definite on the triplet with χ(L) at 7/8 of a turn (T) and negative on T̄**: the
+  three holomorphic zero modes span T, one per parity.
+- **W22 verified as qualified** (`B1606/verification/puncture_condition.py`): the six local solutions at the puncture
+  carry 2O with −1 acting as −1, split 2 ⊕ 4 under the moves' lifts — kept indices −3, −1, +1, +3, odd and never zero —
+  and ±3 with the parity grading.
+- **The grade (THE_BAR):** DERIVED on the weave — three, alike, chiral under the weave's own group, one per parity: the
+  flavour structure of three generations. READINGS — the triplet as the generations (FK14); holomorphic zero modes as
+  the left-handed matter (FK11). UNEARNED — which fields carry 𝕎 (W24's D4: the Lagrangian half is the frame choice);
+  gauge chirality. NEGATIVES — no index on a thread (B1604); the E₈ frames on the fibre give at most two complete
+  generations (W23); no forced six-dimensional object gives three by the heterotic dictionary (W24). **"Did we derive
+  three generations?" — no: the flavour three is derived, the gauge three is a selection.**

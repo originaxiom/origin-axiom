@@ -1,0 +1,27 @@
+{
+ "id": "B1606",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1605",
+  "B1604",
+  "B1601",
+  "B1600",
+  "B1496",
+  "B1487"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's chiral three (the SM seat's W19-W24): the parity-twisted spin bundle on the shared fibre, its puncture conditions, the Hodge type of its zero modes; THE_BAR for the grade",
+  "object": "the six local solutions at the puncture under the moves' lifts (exact linear algebra); the chain W19-W24 as rows 932-940 with main's verifications (W20, W21, W22)",
+  "reach": "general",
+  "hypotheses": "the index of a kept condition is dim Lambda_+ - 3 (the seat's Riemann-Roch, taken as stated); the lifts act on the six local solutions as u_q^-1 g u_p (the seat's D1, verified); the grade is a ruling under THE_BAR, not a computation; rests on the SM seat's dossier items W19-W24 (HARVEST rows 932-940: W20, W21, W22 VERIFIED on main; W19, W23, W24 registered), which are not seat arcs"
+ },
+ "claim_one_line": "THREE ON THE WEAVE, GRADED (sealed 8dfd4df1e / 7d1d3032): the SM seat's W22 as qualified by its W24 holds on main's code -- D1 (chi_p (x) rho_Q = u_p rho_Q u_p^-1, u = j, i, k); under the lifts of L and R the six local solutions at the puncture carry 2O (order 48) with -1 acting as -1, commutant 2, isotypic pieces 2 + 4, so the conditions the moves keep have dimensions 0, 2, 4, 6 and indices -3, -1, +1, +3: odd, never zero; with the parity grading the commutant is 1 and only 0 and 6 are kept: the index is +-3. With W21 (verified at S85: the three holomorphic zero modes span T) the weave's chiral three is on main's code end to end. THE GRADE (GENESIS v1.28, FK14 and FK11): derived on the weave -- three, alike, chiral under the weave's own group, one per parity, the number forced by the records' parities and the hand forced at the puncture (the flavour structure of three generations; the matter assignment of modular S4 flavour models, as the seat notes); readings -- that the triplet is the generations (FK14), that holomorphic zero modes are left-handed matter (FK11's dictionary); unearned -- which fields carry the bundle (W24's D4: the Lagrangian half is the frame choice), gauge chirality; negatives -- no index on a thread (B1604), at most two complete generations in the E8 frames on the fibre (W23), no forced six-dimensional object gives three by the heterotic dictionary (W24). The owner's question answered: three generations are NOT derived; the flavour three is. 0 of 19.",
+ "weave_or_thread": "weave"
+}
