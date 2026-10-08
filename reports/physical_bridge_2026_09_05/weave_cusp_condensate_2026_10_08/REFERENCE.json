@@ -1,0 +1,54 @@
+{
+  "end_profile": {
+    "R_threshold_histogram": {
+      "0": 54,
+      "1/16": 28,
+      "1/4": 1,
+      "5/4": 1,
+      "9/16": 28
+    },
+    "amplitude_squared": "1/4",
+    "free_spin_slot_channels": 108,
+    "h": "-1/4",
+    "odd_spectators": 54,
+    "root_population": 112,
+    "sl2_thresholds": {
+      "0": [
+        "0"
+      ],
+      "1": [
+        "1/16",
+        "9/16"
+      ],
+      "2": [
+        "1/4",
+        "1",
+        "5/4"
+      ]
+    }
+  },
+  "predicates": {
+    "Weyl_closure_240_roots": true,
+    "all112_root_strings_checked": true,
+    "expanded_energy_balances": true,
+    "flat_connection_fails": true,
+    "mixed_coefficient_control": true,
+    "nontrivial_Hermitian_Gram_used": true,
+    "nonzero_branch_coefficients": true,
+    "norms_finite_positive_coefficients": true,
+    "odd_population112": true,
+    "parallel_spin_charge": true,
+    "peripheral_root_action_identity": true,
+    "polynomial_raising_lowering_adjoint_0": true,
+    "polynomial_raising_lowering_adjoint_1": true,
+    "polynomial_raising_lowering_adjoint_2": true,
+    "positive_lifted_population58": true,
+    "reflection_closed": true,
+    "root_strings_threshold_histogram": true,
+    "root_system_has_both_signs": true,
+    "sl2_centralizer_spectators54": true,
+    "spectator_population_not_deleted": true,
+    "wrong_amplitude_fails": true
+  },
+  "predicates_passed": 21
+}

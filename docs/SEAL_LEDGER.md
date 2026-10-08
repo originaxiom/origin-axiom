@@ -2305,10 +2305,18 @@ No shared B identifier; no nonauthor/full-suite/main-bank acceptance.
 
 | File | SHA256 |
 |---|---|
-+| weave_cusp_condensate_2026_10_08/DESIGN.md | ef98423ebdf22e627f22beefe15b1e61effa3397f1d4a84ce9d68eab9f324630 |
+| weave_cusp_condensate_2026_10_08/DESIGN.md | ef98423ebdf22e627f22beefe15b1e61effa3397f1d4a84ce9d68eab9f324630 |
 | weave_cusp_condensate_2026_10_08/PROOF.md | fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977 |
 | weave_cusp_condensate_2026_10_08/INPUTS.json | 8fa2f79e6909e2b08ddfc666922eb49fbddf46cca51cc85f585bf0617f738763 |
 | weave_cusp_condensate_2026_10_08/probe.py | c2255da80a096a97470b8e8fe382a2807a86354b26919a0077f48288cd748953 |
 | weave_cusp_condensate_2026_10_08/reference.py | bfef0dcf011078f206fa44392a60a6b498fe47c2ae03295c596fe26fbe2600bf |
 | weave_cusp_condensate_2026_10_08/custody.rb | 1c2fa92d7fc38f48017f925a0aff895d5bc83a7272af37e470c6e2d1c82157f2 |
 | tests/test_physical_bridge_weave_cusp_condensate.py | 3dd1556cba718ea217fb84f504cb92b3654ade96feeb83c1831f09838cdc1457 |
+
+Coupled-cusp disposition: EXECUTED unchanged at440287106.50 native/
+21 separate reference/18 focused and74 five-packet regression PASS.
+Seven science files/five source pins unchanged; local nonzero vacuum and
+actual R-threshold lift, not global background, particles or physical SM.
+Report: weave_cusp_condensate_2026_10_08/FINDINGS.md. A stray leading plus
+in the first table row was removed after execution; digest/manifest/source
+bytes did not change. Nonauthor/full-suite/main-bank acceptance remains owed.

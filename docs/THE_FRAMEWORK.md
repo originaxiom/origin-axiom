@@ -1,5 +1,20 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October8 nonzero cusp research checkpoint:50 native/21 separate reference/
+18 focused and74 five-packet regression PASS unchanged at pushed pre-run
+440287106. The SAME supplied curved E8 action admits a finite-norm
+noncommuting local end with all vacuum residuals zero. Its actual
+R-boson block lifts58 of112 zero-angular channels;54 commuting channels
+remain, including108 free spin-slot channels. Counts are NOT particles.
+Report: reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/FINDINGS.md.
+Positive local dynamics/spectral change, NOT global stationary admission
+or an isolated physical chiral SM. Root-sl2 class only, not all ends.
+NEXT global core/spin-line/peripheral admission, then actual full coupled
+fermions, unbroken gauge group and anomalies; general condensates untested.
+SM621383064 W32 rule fetched/read, still preregistered, not a result.
+Full parameter-free SM/TOE ACTIVE/unachieved. Nonauthor analytic/full-suite/
+main-bank acceptance and inherited governance failures remain disclosed.
+
 October8 curved-action research checkpoint:36 native/22 separate reference/
 16 focused and56 four-packet regression PASS unchanged at pushed pre-run
 04f89c7c8. The supplied common E8 parent retains both spin companions and

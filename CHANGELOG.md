@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-08 coupled cusp condensate and changed spectral thresholds
+
+50 native/21 separate reference/18 focused and74 five-packet regression
+PASS unchanged at pre-run440287106. Same supplied curved E8 action now
+has an explicit nonzero stationary local end with finite kinetic/graph
+norms and curvature-balanced Higgs source. Actual R-scalar thresholds
+lift58 of112 root-class channels,54 remain; these are not particle counts.
+Peripheral map checked on every root; color-preserving example breaks
+old weak SU2. Not a global solution, full gap or physical chiral SM.
+Report: physical_bridge/weave_cusp_condensate_2026_10_08/FINDINGS.md.
+Next global core/spin-line/peripheral admission and full coupled spectrum.
+SM621383064 W32 rule read as preregistration, not outcome. Scope preserved;
+full SM/TOE active and analytic/full-suite/main-bank duties remain owed.
+
 ## 2026-10-08 curved interacting action and stationary common background
 
 36 native/22 separate-reference/16 focused and56 four-packet regression

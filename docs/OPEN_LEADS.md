@@ -1,5 +1,27 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 nonzero-cusp update: reports/physical_bridge_2026_09_05/
+weave_cusp_condensate_2026_10_08/FINDINGS.md;50 native/21 reference/
+18 focused/74 regression PASS. No architecture lead closed.
+
+- PB-CUSP-GLOBAL: a finite-norm, all-residual-zero local END is now explicit
+  on the same curved action. Check the global spin-line lift, compact core,
+  connection and full peripheral holonomy together. Do not equate curved
+  connection data with the old flat a,b representation.
+- PB-CUSP-ISOLATION:58/112 actual R-scalar channels acquire positive
+  thresholds for all112 odd-root condensates;54 commuting channels remain,
+  including108 free spin-slot channels. Root-class result only. General
+  nilpotent/Q-R backgrounds and actual decoupling mechanisms remain untested.
+- PB-CUSP-GAUGE: chosen root preserves color and breaks the old weak SU2.
+  Determine global gauge group and physical hypercharge before interpreting
+  a condensate as electroweak breaking; recompute all coupled fermions and
+  anomalies rather than reusing the old zero-background roster.
+- PB-FLUX-JOINT: W32 atSM621383064 fetched/read as a preregistration, not
+  a computed negative. Its flat-block/domain scope must survive any verdict.
+- PB-PARENT-ACTION: independent analytic review, full nonlinear domain,
+  quantum consistency and genesis selection remain; the local construction
+  is conditional on the supplied metric, twist and interacting action.
+
 October8 curved-action update: reports/physical_bridge_2026_09_05/
 weave_curved_action_2026_10_08/FINDINGS.md;36 native/22 reference/16 focused/
 56 regression PASS. No architecture lead closed.

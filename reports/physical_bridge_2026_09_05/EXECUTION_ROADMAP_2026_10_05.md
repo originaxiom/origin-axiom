@@ -102,6 +102,17 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    action/domain review owed; no full nonlinear PDE/quantum certificate.
    New W31 publication at1fabfa960 read, not rerun or imported as a no-go
    for this candidate. Main's B1609 remains a preregistration atf8b9a8fea.
+   Stage2J October8 nonzero cusp EXECUTED at research grade:
+   weave_cusp_condensate_2026_10_08/FINDINGS.md.50 native/21 reference/
+   18 focused and74 regression PASS unchanged at440287106. Finite-norm
+   noncommuting LOCAL end satisfies all vacuum equations on the SAME
+   action; actual R block lifts58/112 channels,54 remain. Not global
+   stationarity, full gap, physical masses or generations. NEXT check the
+   spin-line lift, core connection and full peripheral holonomy together;
+   no old a,b Wilson matrices silently held fixed on a curved connection.
+   Then compute the coupled fermions, unbroken gauge group and anomalies.
+   Higher nilpotent/Q-R end backgrounds remain untested, not killed.
+   W32 atSM621383064 is a read preregistration, not physical acceptance.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

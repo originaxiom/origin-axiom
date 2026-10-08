@@ -193,3 +193,17 @@ R38/R39 these scoped supplements are not counted by the I-number parser.
 | Positive rank-four metric/current / determinant-one rank-five data | H4 -> diag(H4,det H4^-1), J4 -> diag(J4,-tr J4) | Equivariance, positivity, bracket/adjoint preservation and whole-Cartan trace normalization | Conditional map, not a source action or harmonic-metric existence proof |
 
 Report: reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT.md.
+
+### Coupled cusp peripheral map, October 8 (path-local research supplement)
+
+No shared I-number or physical status reassigned. As in R38--R40, these
+conditional internal maps are not counted by the shared I-number parser.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| R91 SU6 central minus identity / weak SU2 center inside the same E8 | h=sum(k*a_k)=(-2,-2,-2,3,3,0,0,0), v=e4-e5; p=exp(i*pi*h)=exp(i*pi*v) | Every240 root has beta.(h-v) even; Cartan fixed; adjoint faithful, wrong torus element fails | Verified conditional internal group-element identity, NOT full subgroup equality, generated gauge physics or I-13 discharge |
+| Local R-boson mode / radial threshold | The kinetic-unitary map phi=e^(t/2)u with t=log y | Actual Dbar and mixed commutator quadratic coefficients give mu^2=m^2/4+(j-m)(j+m+1)/2; two root enumerators agree | Essential spectral channels of this supplied end, NOT normalizable particles, observed masses or a physical chiral index |
+
+Report: reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_cusp_condensate.py. Independent
+analytic/full-suite/main-bank acceptance and global extension remain owed.

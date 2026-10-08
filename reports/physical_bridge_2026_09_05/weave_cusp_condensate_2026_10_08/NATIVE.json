@@ -1,0 +1,90 @@
+{
+  "end_profile": {
+    "R_threshold_histogram": {
+      "0": 54,
+      "1/16": 28,
+      "1/4": 1,
+      "5/4": 1,
+      "9/16": 28
+    },
+    "amplitude_squared": "1/4",
+    "free_spin_slot_channels": 108,
+    "h": "-1/4",
+    "odd_spectators": 54,
+    "root_population": 112,
+    "sl2_thresholds": {
+      "0": [
+        "0"
+      ],
+      "1": [
+        "1/16",
+        "9/16"
+      ],
+      "2": [
+        "1/4",
+        "1",
+        "5/4"
+      ]
+    }
+  },
+  "facts": {
+    "A5_actual_chain": true,
+    "A5_color_weak_orthogonal": true,
+    "E8_complete_coordinate_roots": true,
+    "R_moment_has_no_quadratic_term": true,
+    "Weyl_form_quotient": true,
+    "actual_SU6_center_vector": true,
+    "actual_periphery_equal_on_every_root": true,
+    "all_nonzero_background_residuals_zero": true,
+    "baseline_graph_derivatives_finite": true,
+    "centralizer_roots_and_odd_spectators": true,
+    "changed_mixed_coefficient_detected": true,
+    "chosen_R_threshold_histogram": true,
+    "chosen_root_breaks_old_weak": true,
+    "chosen_root_preserves_color": true,
+    "combined_spin_periphery_descends": true,
+    "cusp_graph_cutoff_tail_vanishes": true,
+    "deleting_spectators_changes_population": true,
+    "derivative_cross_is_surface": true,
+    "different_torus_element_detected": true,
+    "dropping_curvature_energy_detected": true,
+    "every_odd_root_has_spectators": true,
+    "every_odd_root_same_threshold_histogram": true,
+    "expanded_curvature_balance": true,
+    "finite_connection_kinetic_norm": true,
+    "finite_spin_kinetic_norm": true,
+    "flat_critical_log_control_diverges": true,
+    "full_adjoint_sl2_decomposition": true,
+    "general_curvature": true,
+    "general_derivative": true,
+    "general_moment": true,
+    "mixed_potential_coefficient_from_action": true,
+    "non_normal_condensate": true,
+    "nonzero_angular_channel_confining": true,
+    "nonzero_branch_fixed": true,
+    "odd_root_population": true,
+    "radial_kinetic_is_unitary": true,
+    "radial_operator_with_kinetic_transport": true,
+    "scalar_thresholds_0": true,
+    "scalar_thresholds_1": true,
+    "scalar_thresholds_2": true,
+    "sl2_brackets": true,
+    "slice_holonomy_not_fixed": true,
+    "spectator_root_brackets_vanish": true,
+    "spin_and_gauge_covariant_parallel": true,
+    "unitary_sl2_0": true,
+    "unitary_sl2_1": true,
+    "unitary_sl2_2": true,
+    "wrong_amplitude_detected": true,
+    "wrong_connection_detected": true,
+    "zero_origin_control": true
+  },
+  "full_fermion_spectrum_derived": false,
+  "gapped_4D_reduction_derived": false,
+  "genesis_selects_condensate": false,
+  "global_anomaly_acceptance": false,
+  "global_stationary_background_derived": false,
+  "nonauthor_acceptance": false,
+  "physical_chiral_SM_derived": false,
+  "predicates_passed": 50
+}

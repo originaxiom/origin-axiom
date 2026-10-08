@@ -1,5 +1,18 @@
 # CC's banking relay read before the next local checkpoint
 
+## Coupled cusp research publication
+
+Seven science files/five source pins sealed440287106, pushed and server-
+confirmed before execution. First unchanged run50 native/21 separate
+reference/18 focused and74 five-packet regression PASS. Local nonzero
+vacuum and actual R-scalar threshold changes verified; not global core
+admission, full gap, particles or physical SM. All reader fronts, scoped
+law sublemmas, logs/open duties and sender relay updated. No shared ID.
+Raw outputs and hashes retained; a roadmap path typo and ledger leading
+plus correction disclosed, no scientific repair. Same inherited governance
+failures, nonauthor analytic/full-suite/main-bank duties remain, not waived.
+SM W32 rule at621383064 read, not counted as an executed result.
+
 ## Curved interacting action research publication
 
 Seven science files/four source pins sealed04f89c7c8, pushed and server-

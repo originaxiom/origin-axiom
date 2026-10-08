@@ -1,5 +1,22 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 coupled-cusp conditional research sublemmas. Same supplied parent,
+not generated physics or a new shared/main-bank law. PROOF and live locks:
+reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/ and
+tests/test_physical_bridge_weave_cusp_condensate.py;50 native/21 reference/
+18 focused/74 regression PASS unchanged at pre-run440287106.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Nonzero curvature-balanced local vacuum | A_x=-H/(4y),q=E/(2sqrt(y)),r=0 solves all same-action residuals; test_nonzero_all_vacuum_residuals and test_controls_cannot_drop_backreaction. Local stationarity/nonnegative Hessian, NOT global core matching |
+| Finite graph/kinetic end admission | Spin/gauge covariant parallelism, actual kinetic integrals and graph-tail estimates; test_finite_end_kinetic_and_graph_norms and PROOF2. Nonflat logarithmic profile is not excluded by flat critical-mode divergence |
+| Faithful peripheral identification | Explicit R91 A5 embedding h gives same torus action as weak v on all240 roots; test_actual_peripheral_identification_not_just_dimensions with wrong-element control. Same element, NOT same full subgroup or physical hypercharge |
+| Same-action R essential thresholds | Unitary kinetic transport gives m^2/4+(j-m)(j+m+1)/2; test_actual_R_hessian_and_unitary_radial_transport, test_sl2_scalar_thresholds_and_control, polynomial Gram reference and PROOF3. Boson block, NOT full fermion spectrum |
+| Full112-root class spectral census | Every odd root gives58 positive-threshold and54 zero-threshold R channels; test_all_odd_root_condensates_bounded_population, two_full_root_enumerations and root-string reference. The commuting54 also give108 free spin-slot channels. These are NOT particles; general nilpotent/Q-R/end backgrounds not excluded |
+
+Global stationary extension, full charged spectrum/anomalies, generated
+selection and independent analytic/main-bank acceptance remain obligations.
+
 October8 curved-action conditional research sublemmas; no new shared/main-bank
 law or independently accepted nonlinear field theory. PROOF and live locks
 under reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/ and

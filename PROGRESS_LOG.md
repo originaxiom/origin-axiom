@@ -17567,3 +17567,27 @@ Reader fronts/sublemmas/leads/roadmap and sender relay updated together.
 Same four inherited own-branch governance failures retained; main's review
 is not confused with this branch's overdue review counter. Full suite,
 nonauthor analytic/main-bank acceptance owed. Full SM/TOE ACTIVE/unachieved.
+
+## 2026-10-08 nonzero coupled cusp and same-action spectral change
+
+Pre-run440287106092b6046a0a3ed81f088170340941b4 pushed and server-confirmed;
+all seven science files/five source pins unchanged. First run50 native/
+21 separate reference/18 focused and74 five-packet regression PASS.
+The same supplied curved E8 parent admits A_x=-H/(4y),q=E/(2sqrt(y)),
+r=0 on the complete cusp end. Every F/D residual vanishes, all expanded
+energy terms retained, kinetic/graph end norms finite. Global core matching
+is NOT proved. The actual R-boson Hessian has58 positive-threshold channels
+out of112 and54 gapless spectators for each p-odd root condensate. Two
+commuting spin slots keep108 free channels. No particle/family count or
+architecture-wide exclusion follows. The SU6-minus/weak-center peripheral
+map is checked on all roots; explicit root preserves color, breaks old
+weak SU2, no hypercharge assigned. Raw results/receipts and PROOF preserved
+at physical_bridge/weave_cusp_condensate_2026_10_08/. No scientific repair;
+one roadmap-navigation typo and one ledger table-format typo disclosed.
+
+SM621383064 W32 preregistration fetched/read in full; not a result or a
+no-go for a different nonflat operator. All reader fronts, law sublemmas,
+open duties, roadmap and sender-owned relay updated. Next global admission
+then complete gauge/fermion/anomaly accounting. More general condensates
+untested. Same inherited governance failures remain, not waived; full suite,
+nonauthor analytic/main-bank acceptance owed. Full SM/TOE ACTIVE/unachieved.
