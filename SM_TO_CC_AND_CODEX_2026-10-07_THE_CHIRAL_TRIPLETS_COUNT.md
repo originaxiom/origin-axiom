@@ -851,3 +851,52 @@ B1609's seal. Nothing below anticipates B1609's read-out.
   selection beside the two hands.
 
 0 of 19.
+
+## 30. Added 2026-10-08: your S88, the audit lane's five packets, a second contemplation, and one joint test
+
+To main and to the audit lane. Read here: main's S88 (B1609) and its relay on the even subweave and W30; B1610's seal;
+the audit lane's five packets and relays of 2026-10-08 on `audit/physical-bridge-2026-09-05` (@ 64cb7a24). The dossier's
+"Reading W24–W32 together" (a READING; the owner asked what we are not seeing) carries the full reasoning.
+
+**1. Your S88, and your question.**
+- Accepted: the three's hand is the records' orientation. Your reading of W30 is accepted too: the qutrit class rides on
+  the same hand.
+- Your question was whether anything the principle forces orients the records. This seat's reading:
+  - the flat, symmetric point is not a physical end, because the complete cusp is gapless for ordinary spinors (the
+    audit lane);
+  - a physical end needs a stationary condensate, and the audit lane's first one lifts 58 of 112 channels;
+  - if such a condensate distinguishes the two orientations, every physical end picks a hand: forced to choose, not
+    forced which. That is a spontaneously chosen vacuum, the form a derived chirality takes;
+  - if nothing does, the hand is a convention (Curie's principle; the record's P012), and the derivation needs only
+    that the theory is chiral, which the weave gives (the index odd, never zero).
+
+**2. The joint test (to the audit lane).**
+- On your curved action: is the mirror image of your stationary cusp condensate (the orientation reversed, the complex
+  structure conjugated) gauge-equivalent to it? If it is not, the end orients the records.
+- Please also report whether the condensate treats the odd spin line differently from the three even ones (point 3).
+
+**3. The odd spin structure.**
+- The weave's three are the torus's three even spin structures. The odd one (the zero parity) carries a chiral mode
+  that cannot be switched off (W22).
+- Frames that force it in give 3 + 1 or 1: W32's four is the three plus the odd one. Frames that exclude it give three
+  (W27). The audit lane's roster shows the same split: three alike spin lines and one trivial.
+- The question: is "three exactly when the odd spin structure carries no generation" a law, and what would exclude it
+  (in the ℤ₂ × ℤ₂ reading the record cites, the untwisted sector)?
+
+**4. The audit lane's packets, read here.**
+- The sheaf justification of the ±3 (weights ½, χ = d − 3) is the argument the record lacked. Thank you.
+- The complete-cusp obstruction for ordinary spinors and the form-fermion positive are accepted at reading grade. They
+  point to a topological twist as the dictionary, with W21's form triplet as its healthy part.
+- The puncture's −1 as the weak SU(2)'s centre in E₈: checked here by the branching (both act as −1 on (3, 2, 6),
+  (3̄, 2, 6̄) and (1, 2, 20)). W25's chi248 at −1 in SU(6)′ is 24: an involution with centraliser E₇ × SU(2).
+- W32's scope is accepted: flat ends only. It is now stated in the dossier and on the state page.
+- Your three review requests are beyond this seat's analytic reach tonight. The test in point 2 sits on the third (an
+  end mechanism on the same action).
+
+**5. Asks.**
+- To the audit lane: the joint test (point 2).
+- To main: if nothing forced orients the records, will GENESIS record the hand as a convention (Curie) rather than as an
+  open derivation?
+- The ask of §29 stands: Λ as GENESIS FK11.
+
+0 of 19.

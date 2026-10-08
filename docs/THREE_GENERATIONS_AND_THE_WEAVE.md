@@ -433,6 +433,14 @@ taken from the weave. Every link is named with its status.
     (W28). The 10-sector holds D ⊕ P, three only when they are mixed.
   - **So the count's last computational route on the record closes in F-HE,** and Λ (GENESIS FK11) stays the one
     link.
+  - **Scope:** flat ends only. A non-flat stationary end (GENESIS GAP3's source) is outside W32.
+- **The second contemplation** (the dossier's "Reading W24–W32 together", READING; with main's S88 and the audit
+  lane's five packets of 2026-10-08).
+  - **The hands** are conventions unless a physical end orients the records: forced to choose, not forced which.
+  - **The three** are the torus's three even spin structures. The odd one carries a chiral mode that cannot be
+    switched off, so frames that force it in give 3 + 1.
+  - **The counts** are sheaf Euler characteristics (the audit lane). A particle count needs an end that gaps the
+    cusp, and the audit lane's stationary cusp condensate is the first such end on the weave's own action.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

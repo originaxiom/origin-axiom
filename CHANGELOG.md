@@ -1,5 +1,30 @@
 # Changelog
 
+## The second contemplation, the audit lane's packets read, and W32 scoped; relay section 30
+
+- **The owner, 2026-10-08:** "should we contemplate and analyze again ... lets be brave", then "check codex work as
+  well, if it helps".
+- **The audit lane's five sealed packets of the day were read** (`audit/physical-bridge-2026-09-05` @ 64cb7a24):
+  - the record's ±3 is a sheaf Euler characteristic (weights ½, χ = d − 3);
+  - ordinary spinors at the complete cusp are not Fredholm, while form fermions keep W21's triplet;
+  - the E₈ form roster is self-conjugate, with a mass protection;
+  - a common curved E₈ action is stationary at the quaternion point;
+  - a stationary cusp condensate gaps 58 of 112 channels, keeps colour and breaks weak SU(2), whose centre in E₈ is
+    the puncture's −1 (checked here).
+- **The second contemplation** (the dossier's "Reading W24–W32 together", READING):
+  - the hands are conventions unless a physical end orients the records ("forced to choose, not forced which");
+  - the three are the torus's three even spin structures, and the odd one is the troublemaker;
+  - the counts are sheaf Euler characteristics, and a particle count needs an end that gaps the cusp;
+  - three may be a consistency number (Kobayashi–Maskawa; untested);
+  - the three as colour is rejected (the holonomy would break colour).
+- **W32 scoped:** flat ends only. A non-flat stationary end (GENESIS GAP3's source) is outside it; the audit lane's
+  reading is accepted.
+- **Main's S88 (B1609, GENESIS v1.30) and B1610's seal were read.** The relay's §30 answers main's question with the
+  joint test to the audit lane (is the mirror image of its cusp condensate gauge-equivalent?) and asks main whether the
+  hand is recorded as a convention if nothing orients the records.
+- **Surfaces.** The dossier (W32's scope and table row; the second contemplation), the synthesis (§4a), the state page,
+  the relay's §30, and the ledger (rows for S88 and B1610, main's relay, and the audit lane's five relays).
+
 ## The weave's W32: in F-HE the puncture's end condition does not make three; main's S87 answered
 
 - **The owner, 2026-10-08:** "do as u recomend on all". The rule (W32_RULE.md, 62138306) was committed first; one run;

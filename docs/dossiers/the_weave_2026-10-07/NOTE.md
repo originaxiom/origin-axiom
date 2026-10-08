@@ -1913,6 +1913,10 @@ The moves are L and R: by main's S87 the swap and the tick reverse the orientati
 **Status.** COMPUTED (one run; the rule committed first), with P1 PROVED. A WEAVE result within the frame F-HE:
 NEGATIVE for the puncture route.
 
+**Scope (added 2026-10-08, the audit lane's reading, accepted).** W32 reads flat bundles built from the common point's
+blocks, with the end conditions the weave keeps. A non-flat stationary end is outside it: GENESIS GAP3's source, of
+which the audit lane's cusp condensate is the first instance on the weave's own action.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -1962,6 +1966,59 @@ the owner's approved plan of 2026-10-08: contemplate, close the arc, then W30 (s
    - one Lie type J;
    - one rank-closing VEV direction.
 
+## Reading W24–W32 together, with the audit lane's packets and main's S88 (READING; the owner: "lets be brave")
+
+Nothing here is computed. It reads the arcs since the first contemplation, main's S87 and S88 (B1607, B1609), and the
+audit lane's five sealed packets of 2026-10-08 on its branch `audit/physical-bridge-2026-09-05` (the puncture sheaf,
+the form fermions, the companion roster, the curved action, the cusp condensate). The owner asked what we are not
+seeing.
+
+1. **The hands are conventions unless something forced orients the records.**
+   - Curie's principle (the record's P012): a symmetric principle does not output an asymmetric choice. The Standard
+     Model and its mirror or CP image are one theory with the labels exchanged.
+   - Main's S88 (B1609): the three's hand is the records' orientation, not the McKay orientation. Main's next question
+     is whether anything the principle forces picks a sheet of the orientation double cover.
+   - **The brave form of the answer:** forced to choose, not forced which. The flat, symmetric point has no gap at the
+     cusp (the audit lane). A physical end needs a stationary condensate. If that condensate distinguishes the two
+     orientations, every physical end picks a hand, and the two choices are mirror images. That is how a derived
+     chirality looks in physics: a spontaneously chosen vacuum, not a selected law.
+2. **The three are the three even spin structures of the fibre torus; the odd one is the troublemaker.**
+   - A torus has three even spin structures and one odd one; the moves permute the even ones and fix the odd one.
+   - The odd one carries a chiral mode that cannot be switched off (W22: its index is odd, never zero).
+   - So frames that force it in give 3 + 1 or 1: F-HE's rank five (W32's four is the three plus the odd one). Frames
+     that exclude it give three: E₆ with 𝕎 (W27). The audit lane's roster shows the same split, three alike spin lines
+     and one trivial.
+   - The question "why three" becomes "why does the odd spin structure carry no generation". In the ℤ₂ × ℤ₂ orbifold
+     the record already cites (W24), the odd one is the untwisted sector and the generations come from the three
+     twisted ones.
+3. **The counts are sheaf Euler characteristics; a particle count needs an end that gaps the cusp.**
+   - The audit lane justified the record's formula as a sheaf Euler characteristic: parabolic weights ½ and
+     Riemann–Roch on the compactified curve give χ = d − 3.
+   - At the complete cusp, ordinary spinors have zero in their essential spectrum (not Fredholm). Twisted one-forms
+     keep W21's triplet with a finite norm and a gap. So the dictionary is likely a topological twist, with W21's form
+     triplet as its healthy part.
+   - Every roster read so far is self-conjugate (as W25 found). The missing physical step is a mechanism, an end on the
+     same action that gaps the continuum: GENESIS GAP3's source. The audit lane's stationary cusp condensate lifts 58
+     of 112 channels. It keeps colour and breaks the weak SU(2), whose centre in E₈ is the puncture's −1 (checked here
+     by the branching: both act as −1 on (3, 2, 6), (3̄, 2, 6̄) and (1, 2, 20); W25's chi248 at −1 in SU(6)′ is 24, an
+     involution with centraliser E₇ × SU(2)).
+4. **Three may be a consistency number, not an index (untested).** Three generations is the minimum for a CP phase in
+   quark mixing (Kobayashi–Maskawa). The weave allows at most three alike things and carries a complex structure on
+   them (W21's T, ω). A lower bound and an upper bound would meet at three without any index.
+5. **Rejected: the three as colour.** It fits on the surface: colours are exactly alike, the moves act as SU(3)'s Weyl
+   group, and Λ²(D ⊕ P) repeats SU(5)'s 10. But colour must commute with the fibre's holonomy, which tells the three
+   parity lines apart, so colour would be broken to its torus. The 10-pattern is SU(5) branching.
+
+**The riddle restated.** The hands were never derivable and need not be: what is derivable is that a physical end
+must choose one. The count's real question is the odd spin structure. Beneath both sits the physical step the audit lane
+is building: an end on the weave's own action that gaps the cusp.
+
+**Tests this reading proposes (none run here).**
+- Does the stationary cusp condensate distinguish the two orientations, that is, is its mirror image gauge-equivalent
+  to it? If it is not, the end chooses the hand. (The audit lane's action; relayed.)
+- Is "three exactly when the odd spin structure is excluded" a law across the record's frames?
+- Does the weave's natural flavour structure carry a phase no rephasing removes?
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -1998,7 +2055,7 @@ the owner's approved plan of 2026-10-08: contemplate, close the arc, then W30 (s
 | W29 | COMPUTED and PROVED (the lemma; the rule committed first; every cell as predicted except Z5's naming of the −I lift, corrected post hoc); a CHOSEN object (the ℤ₆ flux, not forced), NEGATIVE as a derivation | the ℤ₆ twist-eater (the weave's qubit ⊗ a qutrit) in E₈: its centraliser is exactly SU(3) × SU(2) (11; the qubit alone F₄ × SU(2), the qutrit alone SU(3) × G₂), its 6 is complex with multiplicity (3, 2), the 15's three single types are the three parities ((3̄, 1) each), the 20's eight single types are ℙ¹(𝔽₃)'s four lines in conjugate pairs ((1, 2) each), and its flux is e^{2πiY}; the swap has no lift (the hand visible). The moves split the 6 as 4 ⊕ 2 (the eigenspaces of the lift of (LR⁻¹L)²): quark generations −1, 1, 3 or 5, each SU(3)³-free with the Standard Model's ratio; locality gives five. Not a derivation: the flux breaks U(1)_Y (exact lemma), three is not forced, no chiral leptons, and the flux is not forced (step 4) QUALIFIED post hoc (P3): the set −1, 1, 3, 5 holds for the moves L and R; with the bare sign −I a move (GENESIS GM5b, open) it is −1 or 5; W28 unchanged |
 | W30 | COMPUTED and PROVED (Q1, Q2; the rule committed first, every cell as stated); a WEAVE result, NOT FORCED | is an order-3 flux forced on the shared fibre? The forced point's puncture −1 has order 2, so no representation of it carries an order-3 flux; the qutrit pairs form one class, kept by L, R and −I and sent to the conjugate class by the swap (the swap with complex conjugation keeps it), so the qutrit point is a common point only on one branch of the swap's fork (GENESIS GM5c, FK3); its rank-3 cusp condition is a choice; the moves act on it through SL(2, 𝔽₃) (order 24, 2 ⊕ 1); the record's order-3 structures are on threads or on the meridian. Allowed on a fork, not forced |
 | W31 | COMPUTED and PROVED (F1's lemma; F4's argument; the rule committed first, every cell as stated); a CHOSEN object (the ℤ₅ flux, not forced), NEGATIVE as a derivation | the ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅, the only twist-eater flux that keeps the whole Standard Model: its centraliser is exactly SU(5)_g (24); its matter is complete SU(5) generations (the 5 ten times, the 10 of SU(5)_g; Λ²5's type ten times, the 5̄ twice; both complex); its flux is a hypercharge rotation (exact). The moves act on ℂ⁵ through 2I = SL(2, 𝔽₅) (order 120, split 3 ⊕ 2, the 2-piece the spin representation with golden traces), and with the bare −I through the ℤ₅ Clifford group (3000). The swap sends the flux to its conjugate. No flux ζ^m gives an anomaly-free three: the SU(5)³-free counts are −1 and 2, or −2 and 1, under the moves, and none under locality. Not a derivation: no three, SU(5) unbroken by anything forced, the flux not forced |
-| W32 | COMPUTED and PROVED (P1; the rule committed first, every cell as stated); a WEAVE result within F-HE, NEGATIVE | the puncture's end condition in F-HE's two sectors: over every rank-5 bundle built from the common point's blocks that L and R keep (five), with the end conditions the weave keeps (naturality, W28; locality), no anomaly-free three. The weave's five (1, 3) is cured naturally only at one or four complete generations (b = −2 or +1; three needs b = 0). The 5̄-sector holds 𝕎, natural at ±3; the 10-sector holds D ⊕ P, natural at ±1 + {0, 3}, and three there needs the parities mixed. In F-HE the puncture does not make three; three complete generations need a frame whose 10-sector holds 𝕎 (W27's Λ) |
+| W32 | COMPUTED and PROVED (P1; the rule committed first, every cell as stated); a WEAVE result within F-HE, NEGATIVE | the puncture's end condition in F-HE's two sectors: over every rank-5 bundle built from the common point's blocks that L and R keep (five), with the end conditions the weave keeps (naturality, W28; locality), no anomaly-free three. The weave's five (1, 3) is cured naturally only at one or four complete generations (b = −2 or +1; three needs b = 0). The 5̄-sector holds 𝕎, natural at ±3; the 10-sector holds D ⊕ P, natural at ±1 + {0, 3}, and three there needs the parities mixed. In F-HE the puncture does not make three; three complete generations need a frame whose 10-sector holds 𝕎 (W27's Λ). Scope: flat ends only; a non-flat end (GENESIS GAP3's source) is outside it |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |

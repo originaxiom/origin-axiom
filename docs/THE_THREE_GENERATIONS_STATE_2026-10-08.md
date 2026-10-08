@@ -69,6 +69,7 @@ is a selection."** This seat agrees.
     anomaly-free counts 0, 1, 4 and ±2, never three.
   - The two sectors need opposite principles: three in the 5̄-sector (𝕎) needs the parities kept apart, three in the
     10-sector needs them mixed.
+  - Scope: flat ends only. A non-flat stationary end (GENESIS GAP3's source) is outside it.
 
 ## What would finish it
 
@@ -87,6 +88,15 @@ is a selection."** This seat agrees.
   each is derived on a subweave the weave does not select.
 - **The puncture's content (GENESIS GAP2's place) does not make three in F-HE (W32).** What remains is the dictionary,
   Λ (GENESIS FK11), and main's ruling on it.
+- **Main's S88 (B1609, GENESIS v1.30):** the three's hand is the records' orientation; main asks whether anything
+  the principle forces orients the records.
+- **The audit lane's packets of 2026-10-08:**
+  - the record's ±3 is a sheaf Euler characteristic (Riemann–Roch with weights ½);
+  - at the complete cusp, ordinary spinors have no gap, and twisted one-forms keep W21's triplet;
+  - a stationary cusp condensate gaps part of the continuum (GENESIS GAP3's source, on the weave's own action).
+- **The second contemplation (the dossier's "Reading W24–W32 together"):** the missing physical step is an end that
+  gaps the cusp. If that end distinguishes the two orientations, every physical end picks a hand: forced to choose,
+  not forced which.
 
 ## Questions open with main
 
