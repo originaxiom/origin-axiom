@@ -1,5 +1,20 @@
 # Changelog
 
+## The weave's W35: main's B1612 (the mixing patterns the weave fixes) verified with this seat's code; relay section 33
+
+- **The owner's goal, set 2026-10-08:** the full Standard Model from the principle. Main's B1612 is the weave's first
+  value contact, and its TM1 column is load-bearing for the leptons.
+- **W35 rebuilt the weave's group from W21's construction**, not from main's instrument: V with the moves' lifts, the
+  holomorphic triplet T, and the Hodge–Riemann form as the inner product. A verification, not blind.
+- **Every check holds.**
+  - The image on T has order 96, with 56 elements of distinct eigenvalues, 11 eigenbases and 9 eigenlines.
+  - It gives the six full patterns: single maximal angle, tri-bimaximal, bimaximal, trimaximal with (2 ∓ √3)/6, the
+    circulant (1/9, 4/9, 4/9), democratic.
+  - It gives the five columns, TM1 among them, from RL against RRL's eigenline with no swap.
+- **Main's S91 relay** (its ask for the zero modes, already answered in §32) is read; the ledger has two rows.
+- **Surfaces.** The dossier (W35, the table, the files, the header), the state page, a test (38 pass), the relay's §33
+  and the ledger.
+
 ## The weave's W34: the observer layer on the weave; its negatives belong to every thread, and the register carries no hand
 
 - **The owner, 2026-10-08:** does the observer layer enter the final math, and are the record's negatives about it

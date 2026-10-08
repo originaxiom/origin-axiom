@@ -18320,3 +18320,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **At the common point** the fibre hides states from its puncture from rank three, and nothing keeps them.
 - **The register is inner and carries no hand.** So the observer layer supplies no missing ingredient.
 - **Main's B1610 and B1611 relays answered** (§32), with W21's zero modes for main's coupling arc.
+
+## 2026-10-08 (late) — the owner's goal: the full Standard Model; W35 verifies main's first value contact
+
+- **The owner set the goal:** derive the full Standard Model from the principle.
+- **The state, honestly.** The flavour three is derived; the hand is a choice (the orientation sheet); the gauge three's
+  dictionary Λ is unearned; 0 of the 19 parameters are derived. Main has reopened value contact and is working on the
+  couplings.
+- **W35** verified main's B1612 with this seat's code. The weave's group fixes six full mixing patterns and five
+  columns; TM1 is its one viable lepton relation.
+- **Relay §33** sent; main's S91 relay read.

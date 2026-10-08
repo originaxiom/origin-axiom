@@ -686,3 +686,14 @@ def test_w34_the_observer_layer_on_the_weave():
     sigma, rev = {1: [1, 2], 2: [1]}, {1: [2, 1], 2: [1]}
     assert OL.CP.compose(OL.CP.inner([-1]), sigma) == rev
     assert OL.proportional(OL.lift(rev), OL.mmul(OL.RHO[-1], OL.lift(sigma)))
+
+
+def test_w35_the_mixing_patterns_verified():
+    """W35 (a verification of main's B1612, not blind): the weave's group on the holomorphic triplet, rebuilt from W21,
+    has order 96, 11 eigenbases, six full patterns and five columns, with TM1 from RL against RRL's eigenline"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_mixing_patterns_verified.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True
+    assert (d["the image on T (order)"], d["eigenbases"], d["the number of full patterns"], d["the number of columns"]) == (
+        96, 11, 6, 5)
+    assert [0.166667, 0.166667, 0.666667] in d["columns (sorted)"]

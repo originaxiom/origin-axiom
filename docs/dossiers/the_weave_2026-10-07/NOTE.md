@@ -18,6 +18,7 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W33: "three exactly when the odd spin structure is left out" is not a law; under the spinor rule three needs rank six.
 - W34 (the owner's question about the observer layer): its negatives belong to every thread, not to m004; the
   register carries no hand; it supplies no missing ingredient.
+- W35 (the owner's goal: the full Standard Model): main's B1612 mixing patterns verified with this seat's code.
 
 ## The setting
 
@@ -2087,6 +2088,41 @@ post hoc (below).
 labelled). Q2 and Q5 are WEAVE results; Q1 and Q3 are laws over the threads. NEGATIVE for the observer layer as the
 missing ingredient.
 
+## W35. Main's B1612 verified: the mixing patterns the weave's group fixes, rebuilt from this seat's construction (`the_mixing_patterns_verified.py`)
+
+**Why.** The owner's goal of 2026-10-08 is the full Standard Model from the principle, and main's B1612 is the weave's
+first value contact. Its TM1 column is load-bearing for the lepton side. The owner's rule: verify load-bearing math even
+when it is published.
+
+**What was done.** A VERIFICATION, not blind: B1612's read-out was read first (main @ 80f48eeb). The weave's group was
+rebuilt from W21's construction, not from main's instrument:
+- V = H¹(F₂; ⊕_p χ_p ⊗ ρ_Q) with the moves' lifts, and its closure;
+- the holomorphic triplet T;
+- the Hodge–Riemann form, positive on T, as the inner product.
+
+**The result (COMPUTED; every check holds).**
+- The image on T has order 96, and 56 of its elements have three distinct eigenvalues.
+- There are 11 eigenbases and 9 eigenlines.
+- **Six full patterns:** single maximal angle; tri-bimaximal; bimaximal; trimaximal with (2 ∓ √3)/6; the circulant
+  (1/9, 4/9, 4/9); democratic.
+- **Five columns:** (0, 0, 1), (0, ½, ½), TM1 (⅙, ⅙, ⅔), (¼, ¼, ½) and TM2 (⅓, ⅓, ⅓).
+- **B1612's named cells:**
+  - L against R is bimaximal;
+  - RL against ⟨RR, R⁻¹LL⟩ is tri-bimaximal;
+  - L against RL is trimaximal, with (2 − √3)/6;
+  - RL against RR's eigenline gives TM2, and against RRL's eigenline TM1.
+  - The order in which the products are taken does not matter: one simultaneous conjugation carries each pair to its
+    reverse.
+
+**What it shows.** B1612's structural half stands on this seat's construction.
+- The weave's group acts on the matter triplet as the cube's rotations (S₄, times scalars), and its residual symmetries
+  give exactly these patterns.
+- TM1 comes from the root's double tick RL against RRL, with no swap.
+- The contact half (the comparison with data) was not redone here. Its sum rule sin²θ₁₂ = 1 − 2/(3 cos²θ₁₃) follows
+  exactly from the TM1 column.
+
+**Status.** VERIFIED (not blind): main's WEAVE result, reproduced. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2232,6 +2268,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W32 | COMPUTED and PROVED (P1; the rule committed first, every cell as stated); a WEAVE result within F-HE, NEGATIVE | the puncture's end condition in F-HE's two sectors: over every rank-5 bundle built from the common point's blocks that L and R keep (five), with the end conditions the weave keeps (naturality, W28; locality), no anomaly-free three. The weave's five (1, 3) is cured naturally only at one or four complete generations (b = −2 or +1; three needs b = 0). The 5̄-sector holds 𝕎, natural at ±3; the 10-sector holds D ⊕ P, natural at ±1 + {0, 3}, and three there needs the parities mixed. In F-HE the puncture does not make three; three complete generations need a frame whose 10-sector holds 𝕎 (W27's Λ). Scope: flat ends only; a non-flat end (GENESIS GAP3's source) is outside it |
 | W33 | COMPUTED (the rule committed first, every cell as stated, one wording difference disclosed); a WEAVE result within the record's frames, NEGATIVE for the naive law | is "three exactly when the odd spin structure is left out" a law across E₆, SO(10) and SU(5)? No, under every counting convention: under naturality, E₆'s trivial bundle gives three (a rank count); under the spinor rule every sector's count is ± its number of doublet blocks, so three needs rank six (W23's conclusion as a law). The doublet blocks are label-blind; the three parity doublets count ±3, and with the zero parity's doublet added ±4. Corrects the second contemplation's point 2 |
 | W34 | COMPUTED (the rule committed first; Q2, Q3, Q5 as stated; Q1's sealed criterion missed on 11 states, resolved post hoc); WEAVE results (Q2, Q5) and laws over the threads (Q1, Q3), NEGATIVE for the observer layer as the missing ingredient | the record's observer-layer probes (B760, B761, B762; main's B1183, B1184), all on m004, taken to the weave. No private states holds on all 758 states to length 12 (Menal-Ferrer and Porti; 747 at 60 digits, the other 11 post hoc at 120): a property of the class. At the common point the fibre has private states from rank three (fiber_dim 0, 4, 6 for n = 2, 3, 4: the flat twists of the blocks' trivial pieces), and no thread and not the joint action keeps any. The 758 states have 536 names, the coincidences exactly the 222 reversal pairs: every thread is named among the threads up to its register. The weave cannot sign itself; the self-sign is the hand. The register is an inner automorphism (rev σ = ι_{a⁻¹}∘σ) and carries neither hand |
+| W35 | VERIFIED (not blind; B1612 read first); main's WEAVE result reproduced | main's B1612 rebuilt from W21's construction (V, the moves' lifts, the holomorphic triplet T, the Hodge–Riemann form as the inner product): the image on T has order 96 with 56 elements of distinct eigenvalues; 11 eigenbases, 9 eigenlines; six full patterns (single maximal angle, tri-bimaximal, bimaximal, trimaximal with (2 ∓ √3)/6, the circulant (1/9, 4/9, 4/9), democratic) and five columns ((0, 0, 1), (0, ½, ½), TM1, (¼, ¼, ½), TM2); every named cell as B1612 states, TM1 from RL against RRL's eigenline with no swap |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2273,6 +2310,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_mixing_patterns_verified.py` → `the_mixing_patterns_verified.json`: W35, main's B1612 rebuilt from W21's construction (a verification, not blind).
 - `the_observer_layer_on_the_weave.py` → `the_observer_layer_on_the_weave.json`: W34, B761's private states on GENESIS's 758 states (SnapPy, 60 digits), the private states at the common point and what the moves keep (exact), the self-name among the threads against the reversal pairs, and the register's lifts and action at the common point; its rule `W34_RULE.md`, committed first. POST HOC `the_observer_layer_posthoc.py` → `the_observer_layer_posthoc.json`: the 11 states the run's rank rule left undecided, recomputed from the polished holonomy at 120 digits.
 - `the_odd_spin_structure_across_frames.py` → `the_odd_spin_structure_across_frames.json`: W33, the census of bundles from the common point's blocks in E₆, SO(10) and SU(5) under the block rule, naturality and the spinor rule, the naive law, the spinor-rule law, the doublet sectors and the sources of each three; its rule `W33_RULE.md`, committed first.
 - `the_puncture_content.py` → `the_puncture_content.json`: W32, the census of rank-5 bundles from the common point's blocks that L and R keep, read in F-HE's two sectors under naturality, locality and W22's block rule, with the completion lemma and what three would need; its rule `W32_RULE.md`, committed first.

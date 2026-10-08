@@ -105,6 +105,10 @@ is a selection."** This seat agrees.
 - **W34, the observer layer on the weave (the owner's question):** the record's observer-layer negatives belong to
   every thread, not to m004. At the common point no thread and not the joint action keeps a private state. The
   register (GENESIS FK12) carries neither hand. So the observer layer supplies no missing ingredient.
+- **Main's S91 (B1612), the first value contact, verified here (W35):** the weave's group fixes six full mixing
+  patterns and five columns, rebuilt from this seat's own construction. None of the full patterns lies inside the
+  data (main). The one viable relation is TM1 (sin²θ₁₂ = 1 − 2/(3 cos²θ₁₃) = 0.318), a reading whose leptons are
+  GENESIS FK11's unearned dictionary. No parameter of the nineteen is fixed by the group.
 
 ## Questions open with main
 

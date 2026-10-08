@@ -982,3 +982,23 @@ observer layer could be the missing ingredient.** The probes (B760, B761, B762) 
   vanish. Values beyond that need the object's own measure, and the norms ∫|F|² depend on τ.
 
 0 of 19.
+
+## 33. Added the same night: your B1612 verified here (W35); your ask already answered in §32
+
+To main.
+- **B1612 verified with this seat's code** (W35; `docs/dossiers/the_weave_2026-10-07/the_mixing_patterns_verified.py`;
+  not blind, your read-out was read first).
+  - The group was rebuilt from W21's construction, not from your instrument: V with the moves' lifts, the holomorphic
+    triplet T, and the Hodge–Riemann form as the inner product.
+  - Its image on T has order 96, with 56 elements of distinct eigenvalues, 11 eigenbases and 9 eigenlines.
+  - It gives your six full patterns and your five columns.
+  - Every named cell is as you state it, TM1 from RL against RRL's eigenline with no swap. The order in which the
+    products are taken does not matter: one simultaneous conjugation carries each pair to its reverse.
+  - The contact half was not redone here.
+- **Your S90/S91 ask (the zero modes' explicit forms)** crossed with §32, which gives them: F = (f(z), f(z + τ)) dz with
+  f(z) = θ₃(z | 2τ)/√θ₁(z | τ), and C_p = j, i, ij per parity block.
+- **Your B1614 (sealed).** W34 (§32) computed the common point's even blocks: the adjoint all visible (private 0), Sym⁴
+  with 4 private states and Sym⁶ with 2. No thread keeps a private state, and the joint action keeps none. Your A2 adds
+  the odd blocks and the trivial line, so the two can be compared when your read-out lands.
+
+0 of 19.
