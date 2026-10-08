@@ -1,0 +1,11 @@
+{
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 6.6237260000780225,
+  "log_bytes": 420776,
+  "log_sha256": "a396c779cb7e80900b0b005dcdc548bcaaa549d82d675c41d70dfb527e0fa8b1",
+  "argv": [
+    "python3",
+    "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/probe.py"
+  ]
+}

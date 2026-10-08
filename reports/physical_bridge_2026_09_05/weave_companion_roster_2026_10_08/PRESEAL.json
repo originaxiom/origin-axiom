@@ -17,8 +17,8 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/probe.py",
-      "bytes": 9392,
-      "sha256": "3fb96e3dad38829fd1b68cae4d1a02d80b49f637cc688ee8b03eb84ffa0cc63d"
+      "bytes": 9485,
+      "sha256": "d10f262c70c4dee8c3e29e075a7f386f405c59a0065f6e474e13fbbd0b449847"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/reference.py",
@@ -29,6 +29,11 @@
       "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/custody.rb",
       "bytes": 4630,
       "sha256": "a063f41d04c7c715eeb47c6b20ded7f2b90d20f78e27a54d9f70e1fb0f1a3b08"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/REPAIR.md",
+      "bytes": 1103,
+      "sha256": "6d2e79509110ca5875d7d4ca44fddf9002e73d069c9c960b904a299ba932ede8"
     },
     {
       "path": "tests/test_physical_bridge_weave_companion_roster.py",

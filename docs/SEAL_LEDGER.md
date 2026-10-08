@@ -2237,3 +2237,25 @@ minimal (1,1) twists and unchanged cusp continuum, not full physics.
 | weave_companion_roster_2026_10_08/reference.py | c040a98306c91fa56fdee74c7ca2503e19858b0feb1e3b7e8fe1f976a64e1098 |
 | weave_companion_roster_2026_10_08/custody.rb | a063f41d04c7c715eeb47c6b20ded7f2b90d20f78e27a54d9f70e1fb0f1a3b08 |
 | tests/test_physical_bridge_weave_companion_roster.py | f63b1ac5b5e2516b68f3f502fbc29f6b9b8767b2e6011c949d99601f943db545 |
+
+Companion first-seal disposition: native exit1 at e6830c6d4, sole false
+predicate a structural rather than mathematical exponential equality.
+Byte-faithful FIRST_NATIVE.json and receipt retained; no reference or
+pytest was run after that failure. REPAIR.md discloses the post-hoc
+simplified equality plus wrong-exponent control. Predictions unchanged.
+
+## Companion equality repair pre execution seal 2026 10 08
+
+All eight science files below sealed before revised execution. Original
+source is retained at e6830c6d4. Not independent/full physical acceptance.
+
+| File | SHA256 |
+|---|---|
+| weave_companion_roster_2026_10_08/DESIGN.md | db518429bcc4c7eef4e47f547bd57b911d180c89a1c37a8aeac8869faaa75a94 |
+| weave_companion_roster_2026_10_08/PROOF.md | 3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0 |
+| weave_companion_roster_2026_10_08/INPUTS.json | e7b7a39da7e293acb8f39d64881097030bf2a2ffd67f784561f6d551fa1840eb |
+| weave_companion_roster_2026_10_08/probe.py | d10f262c70c4dee8c3e29e075a7f386f405c59a0065f6e474e13fbbd0b449847 |
+| weave_companion_roster_2026_10_08/reference.py | c040a98306c91fa56fdee74c7ca2503e19858b0feb1e3b7e8fe1f976a64e1098 |
+| weave_companion_roster_2026_10_08/custody.rb | a063f41d04c7c715eeb47c6b20ded7f2b90d20f78e27a54d9f70e1fb0f1a3b08 |
+| weave_companion_roster_2026_10_08/REPAIR.md | 6d2e79509110ca5875d7d4ca44fddf9002e73d069c9c960b904a299ba932ede8 |
+| tests/test_physical_bridge_weave_companion_roster.py | f63b1ac5b5e2516b68f3f502fbc29f6b9b8767b2e6011c949d99601f943db545 |
