@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/DESIGN.md",
+      "bytes": 4303,
+      "sha256": "e8e3ccd1c1d8bad6fd024aca69f98b4bd06df9c513a5778aae60a032217e2033"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md",
+      "bytes": 7819,
+      "sha256": "21739f08bbe2ed0b95fe4232b48cb2bba484a57779e9021cad06f8f62f8fc4bf"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/INPUTS.json",
+      "bytes": 7764,
+      "sha256": "998cca7830f0d19c2de274c80998b916a966dbee6e6a19a388b573984c87e35f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/probe.py",
+      "bytes": 6082,
+      "sha256": "b9695ef693f049941c8c74f429647b07bc5b36808ca1795740b23d65c71200c6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/reference.py",
+      "bytes": 4243,
+      "sha256": "c1de100faed68665ded16786b03563d80060b96a6e095de61caa87bfa976523a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/custody.rb",
+      "bytes": 4740,
+      "sha256": "8f2839e099e39c4588fae503ad0bdbc72877daa062303c27ada843c8d06749db"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_end_gaussian.py",
+      "bytes": 2724,
+      "sha256": "d90c7b9e275d38f46d73cb29d8f82a8c285d4c2f3e7f091f975fcdd83f704095"
+    }
+  ],
+  "prior_commit": "b636bd801c3c99ec6246ce85f984c4e05bbddc3d",
+  "status": "PRE-EXECUTION; push and server confirmation before scientific import, execution or collection"
+}
