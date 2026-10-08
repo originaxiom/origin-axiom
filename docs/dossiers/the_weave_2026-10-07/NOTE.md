@@ -2482,6 +2482,15 @@ review.
     B616.
   - A mid-run untracked file: B1238.
   - Two gates that scan gitignored worktrees.
+  - **The final tally** (the capped full run, then the unreached tests by file):
+    - every test but four ran;
+    - twelve distinct failures, none from this session's changes. The eleven above, plus B1282, which fails under
+      four-way parallel load and passes alone in 37 s;
+    - the four that never finished, each running past the 55-minute caps: B1350's order-six integrability test, B1278's
+      y9 test, and two B1279 tests.
+  - **Test hygiene for main.** Running the suite rewrites tracked outputs: a runtime field in B1301, longer digit
+    strings in B1350, a table in B1374, and two new data files in B1374 and B1375. These were restored, not committed.
+    The suite also needs a slow marker for its longest tests.
 
 **The findings that change the record.**
 1. **The residual convention (both seats).** The thread arcs (main's B1612 to B1616; W35, W38) take a residual to be
