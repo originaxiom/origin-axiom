@@ -1,5 +1,22 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October8 two-field research checkpoint:33 native/21 separate exact
+reference/15 focused and129 eight-packet regression PASS unchanged at
+pushed pre-run fd870418d. Both spin fields now have an explicit GLOBAL
+stationary completion in the same supplied curved E8 action. Cubic spin
+lift plus actual E6 central compensator restores old p on every root;
+full surviving algebra G2 has rank2, too small for the SM. This is one
+completion, NOT all compensators or an architecture-wide exclusion.
+Report: reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/FINDINGS.md.
+The preceding SO3 dual map fails for the full two-field algebra, but no
+physical chirality or two-field fermion gap follows. Prior gapped/paired
+E6 phase preserved. NEXT separately seal an SM-compatible parallel-phase
+control and bounded ansatz classification; NEXT_TEST is UNEXECUTED.
+Main a8686bea7 B1611 and SM bc4ea1303 W33 reports read, not replayed:
+CP allowed/not forced; strong odd-spin iff-three reading withdrawn.
+Full parameter-free SM/TOE ACTIVE/unachieved. Nonauthor analytic,
+full-suite/main-bank and inherited governance debts remain.
+
 October8 matched-grading research checkpoint:53 native/26 separate exact
 reference/20 focused and114 seven-packet regression PASS unchanged at
 pushed pre-run819197b5e. Same supplied E8 action now has a GLOBAL

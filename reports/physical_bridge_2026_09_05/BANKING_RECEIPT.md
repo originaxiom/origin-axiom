@@ -1,5 +1,16 @@
 # CC's banking relay read before the next local checkpoint
 
+October8 two-field research publication, not complete main banking:
+preseal fd870418d, seven science/four source pins unchanged;33 native,
+21 separate reference,15 focused and129 eight-packet regression PASS.
+Explicit global stationary two-field completion with correct p and
+actual G2 algebra; chosen completion fails SM rank, not all completions.
+Raw custody, reader fronts, sublemma/identification/lead registers,
+roadmap and sender-owned relay retained. No scientific failure/repair,
+no shared B/I allocation. Independent analytic/full-suite/main-bank
+acceptance and four inherited governance failure classes remain.
+NEXT_TEST is unexecuted and outside the certificate. Full SM/TOE active.
+
 October8 matched-grading research publication, not complete main banking:
 preseal819197b5e, seven science/five source pins unchanged;53 native,
 26 separate reference,20 focused and114 seven-packet regression PASS.

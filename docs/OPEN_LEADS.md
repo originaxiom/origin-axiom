@@ -1,5 +1,32 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 two-field update: reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/FINDINGS.md.
+33 native/21 reference/15 focused/129 regression PASS at fd870418d.
+No architecture-wide lead closed. Earlier dated entries are historical.
+
+- PB-CUSP-TWO-FIELDS: EXECUTED through global/gauge admission for the
+  explicit clock-shift completion. Both Q,R solve the SAME action;
+  old p restored by actual central quotient. Full G2 rank2 fails SM.
+  Its full fermion operator was not computed; defer SM-directed work
+  on this phase, not every two-field completion.
+- PB-CUSP-E6-COMPENSATORS: other pairs with the same central commutator
+  remain unclassified here. Borel--Friedman--Morgan located, abstract
+  only read; no maximal-centralizer theorem accepted from memory.
+- PB-CUSP-SM-PARALLEL: separately test NEXT_TEST's regular SU5 structure
+  factor, explicit principal-spin2 global candidate and actual SM
+  Wilson centralizer. Then assess its proposed bounded parallel-pair
+  classification/index homotopy. HAND/UNEXECUTED, not yet a theorem.
+- PB-CUSP-CHARGED: small SO3 dual proof no longer applies to this pair,
+  but physical chirality is not established. The previous gapped E6
+  phase and its full charged pairing remain certified controls.
+- PB-SOURCE-JOIN: nonparallel/source/boundary mechanisms and the silver
+  conditional formal positive remain separate duties; no cross-parent
+  graft of indices. Parent/phase/scale selection and gravity remain owed.
+- PB-INTAKE-CP-SPIN: main a8686bea7 B1611 and SM bc4ea1303 W33 now
+  published/read, not reproduced; no physical CP phase forced by the
+  former, strong odd-spin iff-three withdrawn by the latter. Their
+  own scopes and numerical conventions must survive any use.
+
 October8 matched-grading update:
 reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/FINDINGS.md.
 53 native/26 reference/20 focused/114 regression PASS at819197b5e.

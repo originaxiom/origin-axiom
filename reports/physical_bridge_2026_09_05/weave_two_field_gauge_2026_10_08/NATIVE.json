@@ -1,0 +1,170 @@
+{
+  "facts": {
+    "E8_240_norm2": true,
+    "regular_condensate_A2": true,
+    "same_old_peripheral": true,
+    "both_grade_two": true,
+    "commuting_spin_fields": true,
+    "moment_and_both_spin_residuals_zero": true,
+    "flat_connection_control_fails": true,
+    "wrong_norm_control_fails": true,
+    "noncommuting_pair_control_fails": true,
+    "generated_compact_algebra_is_full_su3": true,
+    "fractional_grading_needs_lift": true,
+    "spin_line_cancellation": true,
+    "finite_positive_total_Higgs_norm": true,
+    "E6_full_orthogonal_roots_rank6": true,
+    "E6_simple_Cartan_determinant3": true,
+    "two_other_regular_A2_factors": true,
+    "all_three_A2_commute": true,
+    "full_E6_tensor_branching": true,
+    "center_correct_in_E6": true,
+    "unique_oriented_center_matches_all_E8": true,
+    "omitting_compensator_fails": true,
+    "inverting_compensator_fails": true,
+    "clock_shift_unitary_det1": true,
+    "central_commutator_exact": true,
+    "adjoint8_invariants_zero": true,
+    "both_mixed_tensor_invariants_one": true,
+    "nondual_tensor_control_fails": true,
+    "G2_twelve_distinct_nonzero_roots": true,
+    "G2_exact_long_short_lengths": true,
+    "G2_reflection_closed": true,
+    "G2_cartan_not_dimension_guess": true,
+    "old_SO3_dual_map_positive_control": true,
+    "two_field_dual_intertwiner_zero": true
+  },
+  "predicates_passed": 33,
+  "root_profile": {
+    "E8": 240,
+    "E6": 72,
+    "trinification_adjoint_dimensions": [
+      8,
+      8,
+      8
+    ],
+    "mixed_dimensions": [
+      27,
+      27
+    ]
+  },
+  "gauge_profile": {
+    "adjoint_factor_invariants": [
+      0,
+      0,
+      8
+    ],
+    "mixed_factor_invariants": [
+      3,
+      3
+    ],
+    "dimension": 14,
+    "rank": 2,
+    "long_roots": 6,
+    "short_roots": 6
+  },
+  "phase_profile": {
+    "center_order": 3,
+    "total_peripheral_order": 2,
+    "uncompensated_mismatched_roots": 162,
+    "flat_root_choices": 9
+  },
+  "explicit_frame": {
+    "a": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "b": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    ],
+    "c": [
+      [
+        2,
+        -2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        -2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "mixed_signs": [
+      [
+        -1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "epsilon": -1,
+    "eta": -1,
+    "center_doubled_coordinates": [
+      "0",
+      "0",
+      "0",
+      "-4/3",
+      "-4/3",
+      "4/3",
+      "0",
+      "0"
+    ]
+  },
+  "physical_chirality_achieved": false,
+  "fermion_gap_computed": false,
+  "genesis_selection_derived": false,
+  "all_compensators_classified": false,
+  "physical_goal_achieved": false,
+  "nonauthor_acceptance": false
+}

@@ -1,0 +1,62 @@
+{
+  "pre_execution_seal": "fd870418d88e45a1b42bdc39e0845f4a23b8c247",
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 1.9880039999261498,
+    "log_bytes": 3170,
+    "log_sha256": "97c2ff9f4a099b62c3af2ccecd2009a3bcab4b9e7ede1ef5f87f142dcb86a3db",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.10903699998743832,
+    "log_bytes": 1420,
+    "log_sha256": "48d5229ad1744408fbc63c3eea08d132fc1a9b4c2d8ba6c19b16a4e4ea744b04",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 2.446629000129178,
+    "log_bytes": 99,
+    "log_sha256": "9e72b555c7b9af15a145e5f6620d4f4882027ff86ab3d253535ed3eb4ce8a03c",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_two_field_gauge.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "elapsed_seconds": 21.749205000000075,
+    "bytes": 181,
+    "sha256": "8432e10cabe56461f005f9cdfb06bd30239bc12d871344716f37f8867150599d",
+    "output": "........................................................................ [ 55%]\n.........................................................                [100%]\n129 passed in 20.95s\n"
+  },
+  "regression_tests": [
+    "tests/test_physical_bridge_weave_puncture_operator.py",
+    "tests/test_physical_bridge_weave_form_parent.py",
+    "tests/test_physical_bridge_weave_companion_roster.py",
+    "tests/test_physical_bridge_weave_curved_action.py",
+    "tests/test_physical_bridge_weave_cusp_condensate.py",
+    "tests/test_physical_bridge_weave_global_condensate.py",
+    "tests/test_physical_bridge_weave_graded_condensate.py",
+    "tests/test_physical_bridge_weave_two_field_gauge.py"
+  ],
+  "first_scientific_attempts": true,
+  "source_repair": false,
+  "full_suite_run": false,
+  "nonauthor_acceptance": false
+}

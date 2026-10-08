@@ -1,5 +1,20 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 two-field conditional sublemmas. Same supplied action, one
+explicit completion, not generated physics or shared main-bank laws.
+PROOF and live tests: reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/ and
+tests/test_physical_bridge_weave_two_field_gauge.py;33 native/21 separate
+reference/15 focused/129 regression PASS unchanged at fd870418d.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Two commuting spin fields admit a stationary global completion | L^3=S^-1 and L+L+L^-2; all F/D/spin residuals vanish, finite positive norms and nonnegative bosonic Hessian. PROOF global/domain argument; test_both_spin_weights_and_commutation, test_local_equations_and_failing_controls, test_cubic_lift_and_positive_norm. Supplied parent, metric and root |
+| Central factors restore the old peripheral in E8 | Actual E6 trinification roots and explicit clock/shift pair; equality on every240 root, omission/inversion fail. test_full_trinification_root_branch, test_central_quotient_checked_on_every_root, test_clock_shift_actual_unitary_commutator. Not a representation changing an order-two element into order three |
+| This completion has precisely g2 as connected gauge algebra | Entire E6 fixed content color8+3+bar3, twelve roots with lengths2 and2/3 and G2 Cartan angles; no E8 mixed invariant omitted. test_finite_group_and_all_summand_invariants, test_G2_actual_roots_not_dimension_guess, test_full_gauge_rank_cannot_contain_SM. One compensator only; not all central-commutator completions |
+| Previous defining-three dual proof does not extend to both fields | All Q,R,adjoint intertwiner equations have zero solution; old SO3 nonzero unitary map retained as positive control. test_old_pairing_control_and_new_dual_equations. Not a global chirality or no-other-pairing theorem |
+
+NEXT_TEST is a hand proposal outside this certificate, not a law.
+
 October8 matched-grading conditional sublemmas. Same supplied E8 parent,
 not generated physics or shared main-bank laws. PROOF and live locks:
 reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/ and

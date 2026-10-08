@@ -135,6 +135,17 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    nonsplit positives only through an actual compatible map. B1610 now
    published/read at main4125c0384; SMaa642bdc8 sends mirror/spin asks
    and accepts W32's flat scope, not outside analytic verification.
+   Stage2M October8 two-field gauge gate EXECUTED at research grade:
+   weave_two_field_gauge_2026_10_08/FINDINGS.md.33 native/21 reference/
+   15 focused/129 regression PASS unchanged at fd870418d. Both spin
+   fields globally admitted with the SAME action and old p; their full
+   compact algebra is SU3. Explicit E6 compensator leaves G2, too small
+   for SM; other compensators remain unclassified. Old small dual map
+   lost, but no physical chirality or two-field fermion gap claimed.
+   NEXT SM-compatible regular structure factor, a gapped gauge control
+   and a bounded test of whether parallelism forces charged pairing.
+   The concrete hand proposal is UNEXECUTED; no universal nilpotent or
+   architecture kill. Main B1611/SM W33 publications read, not replayed.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

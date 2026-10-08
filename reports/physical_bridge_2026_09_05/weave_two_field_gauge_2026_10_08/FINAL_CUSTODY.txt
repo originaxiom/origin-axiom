@@ -1,0 +1,2 @@
+{"mode":"final","science_files":7,"source_pins":4,"bytes_unchanged":true,"physical_goal_achieved":false,"nonauthor_acceptance":false}
+{"published_captures_byte_identical":true,"count":4}

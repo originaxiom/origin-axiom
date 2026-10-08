@@ -17665,3 +17665,32 @@ kernel/interactions as control and an admitted mechanism breaking the
 actual charged dual map while retaining positivity/stationarity/isolation.
 Independent analytic/full-suite/main-bank acceptance and inherited
 governance failure classes remain. Full SM/TOE ACTIVE and unachieved.
+
+
+## 2026-10-08 two-field global completion and its full gauge algebra
+
+Pre-run fd870418d committed, pushed and server-confirmed; seven science
+files/four source pins unchanged.33 native/21 separate exact reference/
+15 focused and129 eight-packet regression PASS, first scientific runs.
+Both spin fields now have an explicit global stationary completion in
+our SAME supplied curved E8 action. The cubic spin line and an actual
+E6 clock/shift compensator match old p on all240 roots. Positive finite
+norms and nonnegative bosonic Hessian retained; not only a cusp profile.
+
+The whole compact centralizer is G2, identified by its twelve-root
+system and rank2, not merely dimension14. This chosen completion cannot
+contain the SM rank4 algebra. Other compensators and nonparallel/source
+phases remain unclassified; no architecture-wide exclusion. The old
+SO3 defining-three dual map fails for both fields together, but this is
+NOT a computed chiral spectrum or full two-field fermion gap. Previous
+gapped E6 phase, charged pairing and all earlier positives preserved.
+
+Report: reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/FINDINGS.md.
+Native1.988004s, reference0.109037s, focused pytest1.74s, regression20.95s.
+Raw/hash/exit custody, fronts, sublemmas, identification/lead supplements,
+roadmap and sender-owned relay updated. NEXT_TEST is an unexecuted hand
+proposal: SM-preserving structure factor/gapped gauge control followed
+by a bounded parallel-pair classification and charged index homotopy.
+Main a8686bea7 B1611 and SM bc4ea1303 W33 published/read, not replayed.
+Nonauthor analytic/full-suite/main-bank and four inherited governance
+failure classes remain. Full parameter-free SM/TOE ACTIVE/unachieved.

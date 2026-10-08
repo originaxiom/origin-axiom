@@ -1,0 +1,60 @@
+{
+  "predicates": {
+    "Weyl_reconstruction_240": true,
+    "orthogonal_E6_rank6": true,
+    "trinification_two_A2_components": true,
+    "two_conjugate_27_tensors": true,
+    "all_E6_weights_accounted": true,
+    "all_E8_phase_equations_exact": true,
+    "center_trivial_on_E6_adjoint": true,
+    "center_nontrivial_on_mixed_E8": true,
+    "tensor_duality_matches_center": true,
+    "finite_Heisenberg_order27": true,
+    "adjoint_invariants_only_identity": true,
+    "both_mixed_invariants_one": true,
+    "wrong_same_tensor_has_none": true,
+    "two_spin_grade_equations": true,
+    "spin_fields_commute": true,
+    "moment_exact": true,
+    "positive_finite_norm_coefficient": true,
+    "dual_equation_full_rank": true,
+    "G2_lengths_rank": true,
+    "G2_reflection_closed": true,
+    "G2_simple_cartan_product3": true
+  },
+  "predicates_passed": 21,
+  "root_profile": {
+    "E8": 240,
+    "E6": 72,
+    "trinification_adjoint_dimensions": [
+      8,
+      8,
+      8
+    ],
+    "mixed_dimensions": [
+      27,
+      27
+    ]
+  },
+  "gauge_profile": {
+    "adjoint_factor_invariants": [
+      0,
+      0,
+      8
+    ],
+    "mixed_factor_invariants": [
+      3,
+      3
+    ],
+    "dimension": 14,
+    "rank": 2,
+    "long_roots": 6,
+    "short_roots": 6
+  },
+  "phase_profile": {
+    "center_order": 3,
+    "total_peripheral_order": 2,
+    "uncompensated_mismatched_roots": 162,
+    "flat_root_choices": 9
+  }
+}

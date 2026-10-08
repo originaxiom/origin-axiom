@@ -2391,3 +2391,14 @@ Commit/push/server confirmation required before scientific execution.
 | weave_two_field_gauge_2026_10_08/reference.py | b766854ee25354b327b6c0862050c2041d0d295f8eb087005ab7db20fb8a6241 |
 | weave_two_field_gauge_2026_10_08/custody.rb | 9db8af791e40eaeffa54f4ca4997b47c818f5b135192018b295ae08b05128067 |
 | tests/test_physical_bridge_weave_two_field_gauge.py | dd99a699ce444ef0263b8f24b3fe42b6e30e5add93543b807b5450647e7d2931 |
+
+
+Two-field disposition: EXECUTED unchanged at fd870418d.
+33 native/21 separate exact reference/15 focused/129 regression PASS.
+Seven science/four pinned-and-working dependencies unchanged; first
+scientific runs, no repair. Report: weave_two_field_gauge_2026_10_08/
+FINDINGS.md. Authored global stationary completion, old p restored and
+full G2 algebra; chosen completion fails SM rank, not all compensators.
+No two-field fermion gap or physical chirality computed. NEXT_TEST is
+post-run HAND/UNEXECUTED and outside this certificate. Nonauthor
+analytic/full-suite/main-bank duties and inherited governance remain.

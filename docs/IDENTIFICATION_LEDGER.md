@@ -236,3 +236,17 @@ conditional internal construction; genesis-to-physical-parent is unpaid.
 
 Report: reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/FINDINGS.md.
 Locks: tests/test_physical_bridge_weave_graded_condensate.py.
+
+
+### Two spin fields and the central quotient October 8 supplement
+
+No shared I-number or physical identification is reassigned.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Cubic-spin SU3 phase plus E6 centre / old E8 p | Explicit regular trinification, C_a=(D^-1,D,1), C_b=(P,P,1), spin factor exp(i*pi*K/3) | All240 root phases and Cartan, faithful E8 adjoint; inverse/omission controls fail | Conditional global group/bundle admission, not old flat a,b representation or generated vacuum |
+| Complete gauge fixed algebra / g2 | Full E6 branches, identity-tensor invariants and color8+3+bar3 roots | Twelve roots, rank2, exact2 and2/3 lengths, reflection closure and G2 Cartan angles | This chosen completion only; not all E6 almost-commuting pairs or physical SM |
+| Former three dual map / simultaneous two-field intertwiner | Nine-variable complex-linear equations for Q,R and both adjoints | Rank9, no nonzero solution; old SO3 positive control survives | Particular algebraic pairing map absent, NOT a physical chiral index |
+
+Report: reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_two_field_gauge.py.
