@@ -234,6 +234,18 @@ taken from the weave. Every link is named with its status.
     - and main's ruling on the dictionary.
   - This three comes from modular forms of weights 18 and 10, not from the parities. Whether the two threes are one
     is open.
+- **A mechanism in the literature with the weave's own three (READING; swept 2026-10-08, new to the record; the papers read in abstract and listing, not yet in full).**
+  - Realistic heterotic models in the free-fermionic formulation are ℤ/2 × ℤ/2 orbifolds. Their three generations
+    come one from each of the orbifold's three twisted sectors, the three non-zero elements of ℤ/2 × ℤ/2, and a cyclic
+    symmetry permutes the sectors (Faraggi, hep-ph/9311312, Phys. Lett. B 326 (1994) 62; hep-ph/9501288;
+    hep-th/9511093).
+  - The weave's three parities are those three non-zero elements: 2² − 1 (W1). The deck cycles them at the resolving
+    tick (Theorem S). Their group with the cycle is the forced cover's A₄ = (ℤ/2 × ℤ/2) ⋊ ℤ/3 (W3).
+  - **The limits.** The mechanism needs the free-fermionic point and extra structure. Donagi and Faraggi show that
+    quotients of the ℤ/2 × ℤ/2 orbifold by shifts on the three complex tori never give three (hep-th/0403272). Faraggi's
+    orbifold also acts on a six-torus with fixed tori, while the weave's ℤ/2 × ℤ/2 acts on one fibre torus.
+  - So this is a known physical route from exactly the weave's three to three generations, one per sector, and a
+    pointer to route 2's six-dimensional object. It is not a derivation.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.
