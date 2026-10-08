@@ -318,3 +318,18 @@ def test_w21_the_holomorphic_triplet_is_t():
     G = HT.gram_V()
     assert all(np.linalg.eigvalsh(named["T"].conj().T @ G @ named["T"]) > 1e-9)
     assert all(np.linalg.eigvalsh(named["T-bar"].conj().T @ G @ named["T-bar"]) < -1e-9)
+
+
+def test_w21_second_route_the_actual_periods():
+    """W21, second route (after the read-out): the holomorphic twisted forms theta_3(z | 2 tau) / sqrt(theta_1(z | tau))
+    and their parity conjugates have periods spanning T at three tau, the same subspace each time; theta_3 alone has
+    rho_Q's monodromy; Q on them is positive; the twisted Riemann bilinear relation holds"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_holomorphic_triplet_periods.json").read_text(encoding="utf-8"))
+    assert d["the holomorphic subspace is T at every tau"] and d["the holomorphic subspace is the same at every tau"]
+    assert d["theta_3(z | 2 tau) alone gives the monodromy at every tau"]
+    assert d["the twisted Riemann bilinear relation at the first tau (relative error)"] < 1e-9
+    assert len(d["rows"]) == 3
+    for r in d["rows"]:
+        assert all(e > 0 for e in r["Q on the holomorphic forms (eigenvalues)"])
+        assert r["Q on the spin doublet's holomorphic form"] > 0

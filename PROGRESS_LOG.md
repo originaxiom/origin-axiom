@@ -18075,3 +18075,6 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - the zero parity's extra singlet;
   - the records' orientation, which is the absolute hand.
 - **Next:** main's ruling on FK11 (the relay's §15).
+- **Later the same afternoon, a second route:** the actual holomorphic forms on the fibre (θ₃(z | 2τ)/√θ₁(z | τ) and
+  its parity conjugates). Their periods span T at three values of τ, the same subspace each time. The twisted Riemann
+  bilinear relation holds to 8 × 10⁻¹⁵. The hand does not rest on a sign convention.

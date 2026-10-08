@@ -1,0 +1,61 @@
+{
+ "route": "the actual holomorphic twisted forms and their periods (after W21's read-out)",
+ "rows": [
+  {
+   "tau": [
+    0.23,
+    1.07
+   ],
+   "which theta numerators give rho_Q's monodromy (1..4)": [
+    3
+   ],
+   "the holomorphic subspace is inside T": true,
+   "... meets T-bar only in 0": true,
+   "Q on the holomorphic forms (eigenvalues)": [
+    3.229825467,
+    3.229825467,
+    3.229825467
+   ],
+   "Q on the spin doublet's holomorphic form": 3.229825467017,
+   "2 int_E |F|^2 (the twisted Riemann bilinear relation)": 3.229825467017
+  },
+  {
+   "tau": [
+    -0.41,
+    0.83
+   ],
+   "which theta numerators give rho_Q's monodromy (1..4)": [
+    3
+   ],
+   "the holomorphic subspace is inside T": true,
+   "... meets T-bar only in 0": true,
+   "Q on the holomorphic forms (eigenvalues)": [
+    2.63736018,
+    2.63736018,
+    2.63736018
+   ],
+   "Q on the spin doublet's holomorphic form": 2.637360179908
+  },
+  {
+   "tau": [
+    0.12,
+    2.31
+   ],
+   "which theta numerators give rho_Q's monodromy (1..4)": [
+    3
+   ],
+   "the holomorphic subspace is inside T": true,
+   "... meets T-bar only in 0": true,
+   "Q on the holomorphic forms (eigenvalues)": [
+    8.549535252,
+    8.549535252,
+    8.549535252
+   ],
+   "Q on the spin doublet's holomorphic form": 8.549535252405
+  }
+ ],
+ "the holomorphic subspace is the same at every tau": true,
+ "the holomorphic subspace is T at every tau": true,
+ "theta_3(z | 2 tau) alone gives the monodromy at every tau": true,
+ "the twisted Riemann bilinear relation at the first tau (relative error)": 7.84e-15
+}

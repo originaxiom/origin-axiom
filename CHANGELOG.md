@@ -14,6 +14,9 @@
   the common point.
 - **What stays a reading:** the dictionary (GENESIS FK11), the gauge content of each generation, the zero parity's
   extra singlet, and the records' orientation.
+- **A second route, after the read-out: the actual periods.** The holomorphic twisted forms θ₃(z | 2τ)/√θ₁(z | τ)
+  and their parity conjugates have periods spanning T at three values of τ, the same subspace each time. The twisted
+  Riemann bilinear relation holds to 8 × 10⁻¹⁵. So the sign does not rest on a convention.
 - The dossier (W21), the synthesis (row 12), the laws page, a test, the relay's §15 and the ledger are updated.
 
 ## Erratum (the weave's W20): the count is not chiral, so it is an Euler characteristic of three, not three generations

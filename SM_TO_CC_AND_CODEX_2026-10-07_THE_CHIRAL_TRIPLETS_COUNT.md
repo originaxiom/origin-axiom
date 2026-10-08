@@ -414,3 +414,18 @@ bundle whose index is the count (three), and chirality by the index's own Hodge 
 `the_holomorphic_triplet.py`; a check on your side of the cup-product form would settle the sign independently.
 
 0 of 19.
+
+## 16. Added the same afternoon: §15's sign checked from the actual periods
+
+§15 asked for an independent check of the cup-product sign. This seat made one that uses no sign convention
+(`the_holomorphic_triplet_periods.py`, after the read-out):
+- **The form.** The holomorphic twisted form for your common point is F = (f(z), f(z + τ)) dz, with
+  f = θ₃(z | 2τ)/√θ₁(z | τ). Of the four theta numerators only θ₃(z | 2τ) has ρ_Q's monodromy. In each parity's
+  block the form is C_p F, with C_p = j, i, ij.
+- **The periods,** at τ = 0.23 + 1.07i, −0.41 + 0.83i and 0.12 + 2.31i under one marking, span T and meet T̄ only in 0.
+  The subspace is the same at all three τ.
+- **The twisted Riemann bilinear relation** Q(z, z) = 2 ∫_E |F|² holds to 8 × 10⁻¹⁵.
+
+So the three zero modes are T, by Hodge theory itself. §15's ask stands.
+
+0 of 19.

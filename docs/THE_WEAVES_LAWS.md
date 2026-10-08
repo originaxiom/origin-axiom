@@ -146,6 +146,8 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     and the holomorphic part is an eigenspace of the sign move's spin lift.
   - The topological Hodge–Riemann form is positive definite on T and negative definite on T̄. So the three zero modes
     are T, irreducible and not equivalent to its conjugate, and T̄ is the other chirality.
+  - The actual holomorphic forms (θ₃(z | 2τ)/√θ₁(z | τ) and its parity conjugates) have periods spanning T at three
+    values of τ, the same subspace each time.
   - A chiral three, the parities' own, as the index of a non-flat bundle on the weave's fibre. The dictionary (GENESIS
     FK11) stays a reading. The zero parity adds one singlet zero mode.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),

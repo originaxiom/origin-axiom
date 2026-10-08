@@ -1063,6 +1063,20 @@ complex structure of its own: the shared fibre's. The rule was committed before 
     turns about the parity axes).
   - W10's "S₄'s triplet times a character of ℤ/8" is the same statement, since 3 ⊗ sign = 3′ and χ_η¹² is the sign.
 
+**A second route, after the read-out: the actual periods** (`the_holomorphic_triplet_periods.py`). This route uses
+no sign convention of Q. It writes down the holomorphic forms and integrates them.
+- **The form.** For the common point, F = (f(z), f(z + τ)) dz with f(z) = θ₃(z | 2τ) / √θ₁(z | τ).
+  - Continued along the segments that represent a and b, it has exactly ρ_Q's monodromy. Of the four theta
+    numerators only θ₃(z | 2τ) does this, at every τ tried.
+  - It is holomorphic, with square-integrable square-root poles at the puncture. So it spans the holomorphic line.
+  - In each parity's block the form is C_p F, with C_p = j, i, ij in Q₈.
+- **At three values of τ** (0.23 + 1.07i, −0.41 + 0.83i, 0.12 + 2.31i, with one marking), the periods of the three
+  holomorphic forms span T and meet T̄ only in 0. The subspace is the same at all three: the period map is constant,
+  as the theorem says.
+- **The twisted Riemann bilinear relation.** At the first τ, Q on the holomorphic form equals 2 ∫_E |F|², computed
+  directly in polar coordinates about the puncture, to a relative error of 8 × 10⁻¹⁵. So the cup-product formula,
+  sign included, is the Hodge–Riemann form.
+
 **A second proof, found while writing up, and what it says the hand is.**
 - On the genus-3 cover w⁴ = 4x³ − g₂x − g₃ of every fibre, J: w ↦ iw is a spin lift of the elliptic involution,
   that is, of the sign move −I.
@@ -1117,8 +1131,8 @@ complex structure of its own: the shared fibre's. The rule was committed before 
 - **The absolute hand.** It is the records' orientation: the puncture loop is [a, b], not [b, a]. The mirror
   exchanges the hands.
 
-**Status.** PROVED (the theorem, by two proofs) and COMPUTED (the sign, with every control): a WEAVE result. The
-reading "three chiral generations" rests on the dictionary.
+**Status.** PROVED (the theorem, by two proofs) and COMPUTED (the sign, with every control, and again from the actual
+periods at three τ): a WEAVE result. The reading "three chiral generations" rests on the dictionary.
 
 ## What the weave gives, and what it does not
 
@@ -1145,7 +1159,7 @@ reading "three chiral generations" rests on the dictionary.
 | W18 | COMPUTED (WEAVE, 32 states; a prediction that failed at special classes) | the five's sectors on the forced cover: at the generic class each of the three parity lines carries the five's pair (1, 1) on every carrier, the shape of the orbifold standard on the weave's own modules; on every carrier exactly two classes of the gluing line drop it to (0, 1) (the engine's basis met one on four); (0, 2) on the chiral twins; nothing on the mod-16 words. The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 these are class-index pairs, a selection by forced characters, not counts |
 | W19 | READING (the facts classical) | the weave's own surface: the moves with the fibre's group generate Aut⁺(F₂), every thread's group inside it, so the weave's space is M₁,₂, the universal punctured elliptic curve, every thread at once (each over its closed geodesic). Its Euler characteristic is 1/12, not 0, so B1604's vanishing stops at the threads. The three parities are the fixed points of the elliptic involution off the puncture, one curve of degree 3. The even-dimensional object main's FK11 asks for; no bundle named, no count read |
 | W20 | COMPUTED (exact; a census of all 21 SL(2)s in E₆, two routes); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame, carried by the weave's own SL(2) (the moves on the records), counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 through the principal sl₂ and through every distinguished one, while every thread reads 0 (B1604). ±3 on 13 of 21 SL(2)s; the 78 reads 16. Not chiral: the 27 and 27̄ read alike, and by the heterotic dictionary the matter is vector-like (four of each in degree one) |
-| W21 | PROVED (the invariance of the holomorphic part, two proofs) and COMPUTED (the sign, every control first; the rule committed before the run) | the hand by Hodge type: on the shared fibre at the common point, the Dirac operator for the three even spin structures (the three parities) has one zero mode each, an index of three, and all three are holomorphic and span T. T̄ is the other chirality. T = μ ⊗ 3′ (the holomorphic spin line times the cube's rotations at the common point). The hand is the sign move's spin lift; the swap reverses the orientation and exchanges T and T̄. The zero parity adds one singlet. The dictionary stays a reading (GENESIS FK11) |
+| W21 | PROVED (the invariance of the holomorphic part, two proofs) and COMPUTED (the sign, every control first; the rule committed before the run; a second route after it, the actual periods at three τ) | the hand by Hodge type: on the shared fibre at the common point, the Dirac operator for the three even spin structures (the three parities) has one zero mode each, an index of three, and all three are holomorphic and span T. T̄ is the other chirality. T = μ ⊗ 3′ (the holomorphic spin line times the cube's rotations at the common point). The hand is the sign move's spin lift; the swap reverses the orientation and exchanges T and T̄. The zero parity adds one singlet. The dictionary stays a reading (GENESIS FK11) |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -1186,6 +1200,7 @@ reading "three chiral generations" rests on the dictionary.
 - `W20_RULE.md`: the rule, committed before the census; `the_weaves_count_in_e6.py` → `the_weaves_count_in_e6.json`: W20, the weave's Euler characteristic with coefficients in E₆'s 27 under every SL(2) in E₆.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
+- `the_holomorphic_triplet_periods.py` → `the_holomorphic_triplet_periods.json`: W21's second route, after the read-out: the holomorphic twisted forms θ₃(z | 2τ)/√θ₁(z | τ) and their periods at three τ, the holomorphic subspace (T at every τ, the same subspace), and the twisted Riemann bilinear relation.
 - `the_weaves_five.py` → `the_weaves_five.json`: W15, the spin doublet extended by the three parity lines, read with F-HE's pair.
 - `the_slope_law.py` → `the_slope_law.json`: W14, the slope law against the engine and F-CI's census on every odd-trace
   state to length 6; `the_slope_law_sample.py` → `the_slope_law_sample.json`: the law on 300 of +LLRLRR's modules.
