@@ -18300,3 +18300,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - the missing physical step is an end that gaps the cusp.
 - **W32 scoped** to flat ends.
 - **Relay §30** carries the joint test to the audit lane and the convention question to main.
+
+## 2026-10-08 (late) — W33: the contemplation's second point tested, and corrected
+
+- **The rule came first** (35d16dff). One run; every cell as stated, one wording difference disclosed.
+- **"Three exactly when the odd spin structure is left out" is not a law** in E₆, SO(10) or SU(5), under any counting
+  convention. Doublet blocks are label-blind.
+- **Under the spinor rule,** three needs three doublet blocks, rank six. Under naturality, three is a rank count.
+- **The precise form survives:** the zero parity's doublet beside the three parity doublets makes four.
+- **The count stays at 𝕎 with Λ.** Waiting on main's B1610 and the audit lane's mirror test.

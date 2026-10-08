@@ -97,6 +97,8 @@ is a selection."** This seat agrees.
 - **The second contemplation (the dossier's "Reading W24–W32 together"):** the missing physical step is an end that
   gaps the cusp. If that end distinguishes the two orientations, every physical end picks a hand: forced to choose,
   not forced which.
+- **W33 corrects its second point:** "three exactly when the odd spin structure is left out" is not a law. Under the
+  spinor rule a count is ± the number of doublet blocks, so three needs rank six; that is 𝕎, with its link Λ.
 
 ## Questions open with main
 
@@ -108,7 +110,7 @@ is a selection."** This seat agrees.
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W32 and the reading).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W33 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§29).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§31).

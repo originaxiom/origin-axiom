@@ -15,6 +15,7 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - Two checks followed the close, and both ran on 2026-10-08. W30: an order-3 flux is allowed on the swap's fork, not
   forced. W31: no ℤ₅ flux gives an anomaly-free three.
 - W32 (the owner's "do as u recomend on all"): in F-HE the puncture's end condition does not make three.
+- W33: "three exactly when the odd spin structure is left out" is not a law; under the spinor rule three needs rank six.
 
 ## The setting
 
@@ -1917,6 +1918,70 @@ NEGATIVE for the puncture route.
 blocks, with the end conditions the weave keeps. A non-flat stationary end is outside it: GENESIS GAP3's source, of
 which the audit lane's cusp condensate is the first instance on the weave's own action.
 
+## W33. Is "three exactly when the odd spin structure is left out" a law? No: the counts are label-blind on doublets (`the_odd_spin_structure_across_frames.py`; `W33_RULE.md`)
+
+**Why.** The owner's "do it" (2026-10-08), on the second contemplation's proposal: test its point 2 across the record's
+frames. The arc tests this seat's own claim.
+
+**Weave or thread?** Weave-type. It takes every bundle from the common point's blocks that L and R keep, in W23's three
+frames (E₆ rank 3, SO(10) rank 4, SU(5) rank 5), with the end conditions the joint action keeps. Every frame is a
+hypothesis (GENESIS GAP1).
+
+**The rule** (`W33_RULE.md`, committed 35d16dff before the run). One run; every cell came out as stated, with one wording
+difference.
+- The tables had been derived by hand and are listed as seen.
+- **The wording difference.** The rule called the naive law "vacuous" under (B) and (S). Only one direction is: no
+  three occurs. The other direction fails, since E₆'s P has no zero-parity block and no three. The computed verdict,
+  "fails", is the accurate reading.
+
+**The three conventions** are the ones the record has used:
+- (B) W22's block rule;
+- (N) naturality on every channel (W28, W32);
+- (S) the spinor rule: naturality on the gauge −1 channels only, following the audit lane's antiperiodic gauge +1
+  channels.
+
+**The read-out (COMPUTED).**
+
+| frame | bundle | zero parity's blocks | (B) | (N) | (S) |
+|---|---|---|---|---|---|
+| E₆ | P | no | 0 | 0, 3 | 0 |
+| E₆ | χ₀³ | yes | 0 | 0, 3 | 0 |
+| E₆ | D ⊕ χ₀ | yes | 1 | −1, 0, 1, 2 | ±1 |
+| SO(10) | χ₀ ⊕ P | yes | 0 | 0, 1, 3, 4 | 0 |
+| SO(10) | χ₀⁴ | yes | 0 | 0, 4 | 0 |
+| SO(10) | D ⊕ χ₀² | yes | 1 | −1, 1, 3 | ±1 |
+| SO(10) | D² | yes | 2 | ±2 | ±2 |
+
+- **SU(5), the anomaly-free counts:** (B) W23's set; (N) W32's table; (S) 0 for χ₀⁵ and χ₀² ⊕ P, none for D ⊕ χ₀³ and
+  D ⊕ P (±1 against ±3), ±2 for D² ⊕ χ₀.
+- **T3, the naive law,** fails under every convention.
+  - Under (N), E₆'s χ₀³, built from the zero parity alone, gives three, and so does SO(10)'s D ⊕ χ₀² (1 + 2).
+  - Under (B) and (S) no three occurs, while E₆'s P has no zero-parity block.
+- **T4.** Under (S), every sector's count is ± its number of doublet blocks, in every frame. So no three occurs below
+  rank six: W23's "three needs rank six", as a law.
+- **T5.**
+  - The three parity doublets 𝕎 count ±3 under (N) and (S).
+  - With the zero parity's doublet added (rank 8), the count is ±4, one irreducible piece of dimension 8.
+- **T6, the sources of each three under (N):**
+  - E₆'s P and SO(10)'s χ₀ ⊕ P: the three parity lines;
+  - E₆'s χ₀³: three trivial lines;
+  - SO(10)'s D ⊕ χ₀²: the doublet and two trivial lines.
+
+**What it shows.**
+- **The second contemplation's point 2 is withdrawn in its strong form.** The counts do not single out the odd spin
+  structure by its label: χ_p ⊗ ρ_Q ≅ ρ_Q, so doublet blocks are label-blind, and what a count sees is how many there
+  are.
+- **Its precise form stands (T5).** If the zero parity's doublet shares a sector with the three parity doublets, the
+  count is four, and no condition the weave keeps separates it.
+- **Below rank six, whether three can appear depends only on how the gauge +1 channels are counted.**
+  - Under naturality, three is a rank count, available to the trivial bundle. It is therefore not evidence of the
+    weave's three.
+  - Under the spinor rule, which the audit lane's spin analysis favours, three needs three doublet blocks.
+- **So the record's count stays where W23 and W27 put it:** 𝕎, at rank six, with its link Λ.
+
+**Status.** COMPUTED (one run; the rule committed first). A WEAVE result within the record's frames: NEGATIVE for the
+naive law, and a correction of this seat's own reading.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -1991,6 +2056,10 @@ seeing.
    - The question "why three" becomes "why does the odd spin structure carry no generation". In the ℤ₂ × ℤ₂ orbifold
      the record already cites (W24), the odd one is the untwisted sector and the generations come from the three
      twisted ones.
+   - **Corrected by W33 (the same evening, the rule committed first).** As a law across the frames this point fails.
+     The doublet blocks are label-blind (χ_p ⊗ ρ_Q ≅ ρ_Q), so the counts see how many doublets a sector has, not
+     which spin structure labels them. What survives is the precise form: the zero parity's doublet in the parity
+     doublets' sector makes four.
 3. **The counts are sheaf Euler characteristics; a particle count needs an end that gaps the cusp.**
    - The audit lane justified the record's formula as a sheaf Euler characteristic: parabolic weights ½ and
      Riemann–Roch on the compactified curve give χ = d − 3.
@@ -2056,6 +2125,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W30 | COMPUTED and PROVED (Q1, Q2; the rule committed first, every cell as stated); a WEAVE result, NOT FORCED | is an order-3 flux forced on the shared fibre? The forced point's puncture −1 has order 2, so no representation of it carries an order-3 flux; the qutrit pairs form one class, kept by L, R and −I and sent to the conjugate class by the swap (the swap with complex conjugation keeps it), so the qutrit point is a common point only on one branch of the swap's fork (GENESIS GM5c, FK3); its rank-3 cusp condition is a choice; the moves act on it through SL(2, 𝔽₃) (order 24, 2 ⊕ 1); the record's order-3 structures are on threads or on the meridian. Allowed on a fork, not forced |
 | W31 | COMPUTED and PROVED (F1's lemma; F4's argument; the rule committed first, every cell as stated); a CHOSEN object (the ℤ₅ flux, not forced), NEGATIVE as a derivation | the ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅, the only twist-eater flux that keeps the whole Standard Model: its centraliser is exactly SU(5)_g (24); its matter is complete SU(5) generations (the 5 ten times, the 10 of SU(5)_g; Λ²5's type ten times, the 5̄ twice; both complex); its flux is a hypercharge rotation (exact). The moves act on ℂ⁵ through 2I = SL(2, 𝔽₅) (order 120, split 3 ⊕ 2, the 2-piece the spin representation with golden traces), and with the bare −I through the ℤ₅ Clifford group (3000). The swap sends the flux to its conjugate. No flux ζ^m gives an anomaly-free three: the SU(5)³-free counts are −1 and 2, or −2 and 1, under the moves, and none under locality. Not a derivation: no three, SU(5) unbroken by anything forced, the flux not forced |
 | W32 | COMPUTED and PROVED (P1; the rule committed first, every cell as stated); a WEAVE result within F-HE, NEGATIVE | the puncture's end condition in F-HE's two sectors: over every rank-5 bundle built from the common point's blocks that L and R keep (five), with the end conditions the weave keeps (naturality, W28; locality), no anomaly-free three. The weave's five (1, 3) is cured naturally only at one or four complete generations (b = −2 or +1; three needs b = 0). The 5̄-sector holds 𝕎, natural at ±3; the 10-sector holds D ⊕ P, natural at ±1 + {0, 3}, and three there needs the parities mixed. In F-HE the puncture does not make three; three complete generations need a frame whose 10-sector holds 𝕎 (W27's Λ). Scope: flat ends only; a non-flat end (GENESIS GAP3's source) is outside it |
+| W33 | COMPUTED (the rule committed first, every cell as stated, one wording difference disclosed); a WEAVE result within the record's frames, NEGATIVE for the naive law | is "three exactly when the odd spin structure is left out" a law across E₆, SO(10) and SU(5)? No, under every counting convention: under naturality, E₆'s trivial bundle gives three (a rank count); under the spinor rule every sector's count is ± its number of doublet blocks, so three needs rank six (W23's conclusion as a law). The doublet blocks are label-blind; the three parity doublets count ±3, and with the zero parity's doublet added ±4. Corrects the second contemplation's point 2 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2097,6 +2167,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_odd_spin_structure_across_frames.py` → `the_odd_spin_structure_across_frames.json`: W33, the census of bundles from the common point's blocks in E₆, SO(10) and SU(5) under the block rule, naturality and the spinor rule, the naive law, the spinor-rule law, the doublet sectors and the sources of each three; its rule `W33_RULE.md`, committed first.
 - `the_puncture_content.py` → `the_puncture_content.json`: W32, the census of rank-5 bundles from the common point's blocks that L and R keep, read in F-HE's two sectors under naturality, locality and W22's block rule, with the completion lemma and what three would need; its rule `W32_RULE.md`, committed first.
 - `the_z5_twist_eater.py` → `the_z5_twist_eater.json`: W31, the ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅ (the group, the centraliser, the matter, the hypercharge and the orientation, the moves at the puncture, the counts for every flux); its rule `W31_RULE.md`, committed first.
 - `the_order_three_flux.py` → `the_order_three_flux.json`: W30, the puncture in every Sym^n of the forced point, the qutrit class and the moves on it (the swap's fork), the moves on the qutrit's ℂ³, the record's order-3 structures re-read; its rule `W30_RULE.md`, committed first.

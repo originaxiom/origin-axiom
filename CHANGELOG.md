@@ -1,5 +1,24 @@
 # Changelog
 
+## The weave's W33: "three exactly when the odd spin structure is left out" is not a law; the contemplation corrected
+
+- **The owner, 2026-10-08:** "do it". The rule (W33_RULE.md, 35d16dff) was committed first; one run; every cell came out
+  as stated, with one wording difference disclosed.
+- **The test.** The second contemplation's point 2, run over W23's three frames (E₆, SO(10), SU(5)) and every bundle
+  from the common point's blocks that L and R keep. It used the three counting conventions the record has used: W22's
+  block rule, naturality on every channel, and the spinor rule (the gauge −1 channels only).
+- **It is not a law, under any convention.** Under naturality, E₆'s trivial bundle gives three: a rank count. Doublet
+  blocks are label-blind (χ_p ⊗ ρ_Q ≅ ρ_Q).
+- **What holds.**
+  - Under the spinor rule, every sector's count is ± its number of doublet blocks. So three needs rank six (W23's
+    conclusion as a law).
+  - The three parity doublets count ±3; with the zero parity's doublet beside them, ±4.
+- **The contemplation's point 2 is withdrawn in its strong form;** its precise form survives.
+- **Surfaces.**
+  - The dossier: W33, the table, the files, the header, and a correction note in the contemplation.
+  - The synthesis (row 24, §4a), the laws, the state page.
+  - A test (36 pass), the relay's §31, and the ledger.
+
 ## The second contemplation, the audit lane's packets read, and W32 scoped; relay section 30
 
 - **The owner, 2026-10-08:** "should we contemplate and analyze again ... lets be brave", then "check codex work as

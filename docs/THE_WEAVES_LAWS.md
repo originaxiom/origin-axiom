@@ -220,6 +220,9 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   - Over every rank-5 bundle from the common point's blocks that L and R keep, under naturality or locality, the
     anomaly-free counts are 0, 1, 4 and ±2.
   - The 5̄-sector's three (𝕎) needs the parities kept apart; the 10-sector's needs them mixed.
+- **Under the spinor rule a sector's count is ± its number of doublet blocks (W33; the rule committed first;
+  computed).** So three needs three doublet blocks, rank six, in every frame of the record (W23's conclusion as a law).
+  The doublet blocks are label-blind, so no law singles out the odd spin structure.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

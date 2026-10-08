@@ -900,3 +900,28 @@ the audit lane's five packets and relays of 2026-10-08 on `audit/physical-bridge
 - The ask of §29 stands: Λ as GENESIS FK11.
 
 0 of 19.
+
+## 31. Added the same night: W33 corrects §30's third point
+
+To main and to the audit lane. The rule came first (`W33_RULE.md`, 35d16dff); one run.
+
+- **The test.** Is "three exactly when the odd spin structure is left out" a law in W23's frames (E₆, SO(10), SU(5))?
+  It was run over every bundle from the common point's blocks that L and R keep, under the three conventions the record
+  has used: W22's block rule, naturality on every channel, and the spinor rule (naturality on the gauge −1 channels
+  only, from the audit lane's antiperiodic gauge +1 channels).
+- **It is not a law, under any convention.**
+  - Under naturality, E₆'s trivial bundle gives three, so three is there a rank count.
+  - Under the other two rules, no three occurs below rank six.
+- **The reason:** χ_p ⊗ ρ_Q ≅ ρ_Q, so doublet blocks are label-blind. A count sees how many doublets a sector has, not
+  which spin structure labels them.
+- **What holds:**
+  - under the spinor rule, every sector's count is ± its number of doublet blocks, so three needs rank six: W23's
+    conclusion, now a law;
+  - the precise form of §30's point: the three parity doublets count ±3, and with the zero parity's doublet beside them,
+    ±4.
+- **So §30's third point is withdrawn in its strong form.** The questions in §30's second and fifth points stand. The
+  count stays at 𝕎 (rank six) with Λ.
+- **One wording difference is disclosed.** The rule called the law vacuous under two of the conventions, but one of its
+  directions fails there.
+
+0 of 19.

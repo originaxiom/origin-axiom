@@ -632,3 +632,23 @@ def test_w32_the_puncture_content():
     assert s10["index under naturality"] == [-1, 1, 2, 4]
     assert sorted(set(s10["index under naturality"]) & set(s5b["index under naturality"])) == [1, 4]
     assert [s10["index under W22's block rule"], s5b["index under W22's block rule"]] == [1, 3]
+
+
+def test_w33_the_odd_spin_structure_across_frames():
+    """W33 (the rule committed first): "three exactly when the odd spin structure is left out" is not a law; under the
+    spinor rule a sector's count is +- its doublet blocks; the three parity doublets count +-3, with the zero parity's
+    doublet +-4. The doublet sectors are recomputed in process"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_odd_spin_structure_across_frames.json").read_text(encoding="utf-8"))
+    assert all(v is True for v in d["T7 the verdict"].values())
+    assert d["T2 the counts"]["E6"]["c0^3"]["counts under (N)"] == [0, 3]
+    assert d["T4 under (S) every sector's count is +-(its doublet blocks), in every frame"] is True
+    sys.path.insert(0, str(here))
+    import the_odd_spin_structure_across_frames as OS
+    for with_zero, k in ((False, 3), (True, 4)):
+        A, B = OS.parity_doublets(with_zero)
+        UL = OS.PC.generic(OS.OT.intertwiners(A, B, A, A @ B))
+        UR = OS.PC.generic(OS.OT.intertwiners(A, B, A @ B, B))
+        s, _ = OS.sector(A, B, UL, UR)
+        assert s["(N)"] == [-k, k] and s["(S)"] == [-k, k]
