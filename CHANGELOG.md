@@ -1,5 +1,21 @@
 # Changelog
 
+## The weave's W21: a chiral three on the weave, the parities' own — the hand by Hodge type
+
+- **The rule came first** (`W21_RULE.md`, 72fbab31). The code ran once, and every control held before the read-out.
+- **The count, an index.** On the shared fibre, with the common point as gauge field, the Dirac operator for each of
+  the three even spin structures (the three parities) has exactly one zero mode. The cusp's −1 makes the bundle's
+  extension non-flat, of degree ±1. So the index is three, and no end condition is chosen.
+- **The hand.** The holomorphic part is invariant under every move, by two proofs: finite monodromy makes the period
+  map constant, and the holomorphic part is an eigenspace of the sign move's spin lift. The topological Hodge–Riemann
+  form is positive definite on T and negative definite on T̄. So the three zero modes are T, irreducible and not
+  equivalent to its conjugate, and T̄ is the other chirality.
+- **The structure.** T = μ ⊗ 3′: the holomorphic spin line, a power of η's character, times the cube's rotations at
+  the common point.
+- **What stays a reading:** the dictionary (GENESIS FK11), the gauge content of each generation, the zero parity's
+  extra singlet, and the records' orientation.
+- The dossier (W21), the synthesis (row 12), the laws page, a test, the relay's §15 and the ledger are updated.
+
 ## Erratum (the weave's W20): the count is not chiral, so it is an Euler characteristic of three, not three generations
 
 - **What was wrong.** e51785a1 called W20's net count chiral. It is not.

@@ -374,3 +374,43 @@ every thread.
 object, a non-flat bundle, an index. But its index is not chiral, so it does not count generations.
 
 0 of 19.
+
+## 15. Added the same day: a chiral three on the weave, the parities' own, by Hodge type (the weave dossier's W21)
+
+§14 promised a rule before any read-out. It was committed first (W21_RULE.md, 72fbab31), and the code ran once, with
+every control holding before the read-out.
+- **The object.** The shared fibre, with your common point ρ_Q as gauge field. The three parities are the fibre's three
+  even spin structures, the non-trivial square roots of its trivial canonical bundle. The zero parity is the odd one.
+- **The count, an index.** For every complex structure τ on the fibre, V = H¹(F₂; ⊕_p χ_p ⊗ ρ_Q) splits by Hodge type,
+  one line of each type per parity.
+  - V^(1,0) is the kernel of the fibre's Dirac operator for the three even spin structures. Its index is the degree of
+    the parabolic extension, ±1 for each, because the cusp's holonomy is −1. So the count is three.
+  - The puncture has no invariant vector, so H¹ = H¹_c: no end condition is chosen (GENESIS GAP2 does not arise). The
+    bundle is unitary, so no source is needed (GENESIS GAP3 does not arise).
+- **The invariance (two proofs).**
+  - The moves act on V through your verified group of order 96, so the period map is constant. V^(1,0) is one subspace
+    for every τ, invariant under every move, so it is T or T̄.
+  - Second proof: on the genus-3 cover w⁴ = cubic(x) of every fibre, the spin lift w ↦ iw of the sign move acts on
+    both odd holomorphic forms by i. So the holomorphic part is an eigenspace of a central element.
+- **The read-out.** The Hodge–Riemann form Q = i ∫ u ∧ v̄, computed topologically by the cup product on the relative
+  class of the punctured torus, is positive definite on T and negative definite on T̄.
+  - The controls: the Riemann bilinear calibration; hermitian and cocycle-independent; three chains of the puncture
+    loop agree; invariant under L, R and −I with every lift; the swap reverses it; signature (3, 3), with T ⊥ T̄.
+  - **So the three zero modes are T, all holomorphic: one per parity, irreducible, with T ≇ T̄. T̄ is the other
+    chirality.** T here is your B1602 T (Z = S² acts on it as −i).
+  - T = μ ⊗ 3′: the holomorphic spin line, a power of η's character, times S₄'s 3′. That 3′ is the cube's rotations
+    of your B1601 lemma.
+- **The hand.** It is the eigenvalue of the sign move's spin lift, the rotation by π about the puncture. The swap
+  reverses the orientation and exchanges T and T̄. That is why W10's hand needs the swap outside the moves: the moves
+  keep the orientation.
+- **What stays a reading:**
+  - the dictionary, that holomorphic zero modes on the internal fibre are the left-handed matter (GENESIS FK11, I-26);
+  - the gauge content of each generation (one 27);
+  - the zero parity's extra singlet zero mode;
+  - the absolute hand, which is the records' orientation.
+
+**Ask.** Does W21 meet your FK11 earning condition? It has an even-dimensional object the weave forces, a non-flat
+bundle whose index is the count (three), and chirality by the index's own Hodge type. The code is
+`the_holomorphic_triplet.py`; a check on your side of the cup-product form would settle the sign independently.
+
+0 of 19.

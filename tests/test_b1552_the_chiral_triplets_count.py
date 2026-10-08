@@ -291,3 +291,30 @@ def test_w20_the_third_route_the_orbifold_index():
         t = r["traces on the 27 at the elliptic elements"]
         assert r["-chi(G; 27), Brown"] == 3, name
         assert (round(t["S"]), round(t["U"]), round(t["U^2"]), round(t["-I"])) == (3, 0, 0, 27), name
+
+
+def test_w21_the_holomorphic_triplet_is_t():
+    """W21: the recorded read-out (every control held; Q positive definite on T, negative on T-bar; one line per parity;
+    T = mu (x) 3' through PSL(2, Z/4) = S4), and the controls and the sign recomputed in process (nothing written)"""
+    import sys
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_holomorphic_triplet.json").read_text(encoding="utf-8"))
+    assert d["controls"]["every control holds"]
+    r = d["read-out"]
+    assert r["(1) the holomorphic triplet (Q > 0)"] == "T"
+    assert r["(1) Q on the triplets"]["T"]["sign"] == "+" and r["(1) Q on the triplets"]["T-bar"]["sign"] == "-"
+    assert r["(1) the holomorphic triplet's rank in each parity's block"] == [1, 1, 1]
+    assert sorted(x["(2) mu = chi_eta^j, j (mod 24)"] for x in r["per braid-consistent lift choice"]) == [9, 21]
+    for x in r["per braid-consistent lift choice"]:
+        assert x["(3) Z on the holomorphic triplet (turns)"] == 0.75
+        assert x["(4) P = mu^-1 T_hol: order of its group"] == 24 and all(x["(4) P(L)^4 = 1, P(S)^2 = 1, (P(S) P(L))^3 = 1"])
+    assert r["(4) P is S4's"].startswith("3'")
+    sys.path.insert(0, str(here))
+    import the_holomorphic_triplet as HT
+    c = HT.controls()
+    assert c["every control holds"]
+    named, _ = HT.triplets()
+    G = HT.gram_V()
+    assert all(np.linalg.eigvalsh(named["T"].conj().T @ G @ named["T"]) > 1e-9)
+    assert all(np.linalg.eigvalsh(named["T-bar"].conj().T @ G @ named["T-bar"]) < -1e-9)

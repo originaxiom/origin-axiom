@@ -122,6 +122,7 @@ So this section records which patterns the weave's group contains, and nothing m
 | 9‴ | COMPUTED (W17, 32 of 32 to length 8) | on the thread itself the weave's SU(5)′ five (D ν³ ⊕ P ν⁻², glued by a weave class; the hypercharge ratio forced by the determinant) reads F-HE's generation shape (1, 1), dual (−1, −1), on the vector-like twin of every word with φ³ ≢ ±I (mod 16), a lone 5̄ on the chiral twin, nothing on the mod-16 words: one generation per thread, with the parities as the five's triplet. By main's B1604 (verified, W16) a class-index law, not a count |
 | 9⁗ | COMPUTED (W18, 32 states; a prediction failed at special classes) | on the forced cover, at the generic class, each of the three parity lines carries the five's pair (1, 1) on every carrier: three sectors selected by the weave's own characters, alike, cycled by the deck, the orbifold standard's shape. On every carrier exactly two classes of the gluing line drop it to (0, 1). The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 a class-index law: the sectors are a selection by forced characters, not counts |
 | 11 | COMPUTED (W20, exact; all 21 SL(2)s in E₆); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame on the weave itself: the moves' own SL(2) on the records, through E₆'s principal sl₂, counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 (h⁰ = 1, h¹ = 4, h² = 0), and 0 on every thread (B1604). Every distinguished sl₂ gives 3; ±3 on 13 of 21. Three routes agree; the count is the index of a non-flat bundle (the records' Hodge line), the form of FK11's condition. NOT chiral (an erratum): the 27 and 27̄ read alike, and the heterotic dictionary makes the matter vector-like. So an Euler characteristic of three, not three generations |
+| 12 | PROVED (two proofs) and COMPUTED (W21; the rule committed first, every control held before the read-out) | the hand by Hodge type, on the shared fibre at the common point. The fibre's Dirac operator for the three even spin structures (the three parities) has one zero mode each: an index of three. All three are holomorphic and span the weave's triplet T, irreducible and not equivalent to its conjugate; T̄ is the other chirality. So the weave carries a chiral three, and it is the parities' three. T = μ ⊗ 3′, the holomorphic spin line times the cube's rotations at the common point. The hand is the eigenvalue of the sign move's spin lift; the swap reverses the orientation and exchanges T and T̄. No end condition is chosen (the cusp's −1). The zero parity adds one singlet. The dictionary stays a reading (GENESIS FK11) |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -233,7 +234,7 @@ taken from the weave. Every link is named with its status.
     - the swap;
     - and main's ruling on the dictionary.
   - This three comes from modular forms of weights 18 and 10, not from the parities. Whether the two threes are one
-    is open.
+    is open. (W21's chiral three, below, is the parities' own.)
 - **A mechanism in the literature with the weave's own three (READING; swept 2026-10-08, new to the record; the papers read in abstract and listing, not yet in full).**
   - Realistic heterotic models in the free-fermionic formulation are ℤ/2 × ℤ/2 orbifolds. Their three generations
     come one from each of the orbifold's three twisted sectors, the three non-zero elements of ℤ/2 × ℤ/2, and a cyclic
@@ -246,6 +247,31 @@ taken from the weave. Every link is named with its status.
     orbifold also acts on a six-torus with fixed tori, while the weave's ℤ/2 × ℤ/2 acts on one fibre torus.
   - So this is a known physical route from exactly the weave's three to three generations, one per sector, and a
     pointer to route 2's six-dimensional object. It is not a derivation.
+- **W21: the chiral three is the parities', by Hodge type** (the weave dossier; the rule committed first, 72fbab31).
+  - **The object.** The shared fibre, with the common point as gauge field. The three parities are the fibre's three
+    even spin structures, the non-trivial square roots of its trivial canonical bundle.
+  - **The count, an index.** The fibre's Dirac operator for each even spin structure has exactly one zero mode. The
+    cusp's holonomy −1 makes the bundle's extension non-flat, of degree ±1. So the index is three, one per parity.
+    The puncture has no invariant vector, so no end condition is chosen.
+  - **The hand.** The three zero modes are all holomorphic and span the weave's triplet T. Its conjugate T̄ is the
+    other chirality.
+    - The proof: the holomorphic part is invariant under every move (the monodromy is finite, so the period map is
+      constant). The topological Hodge–Riemann form, positive exactly on holomorphic classes, is positive definite on
+      T and negative definite on T̄.
+    - Equivalently, the holomorphic part is one eigenspace of the sign move's spin lift, the rotation by π about the
+      puncture.
+    - Every control held before the read-out.
+  - **The structure.** T is the holomorphic spin line times S₄'s 3′, the cube's rotations at the common point, with
+    the line's character a power of η's. Modular S₄ flavor models put the three lepton doublets in such a triplet
+    (Penedo–Petcov, arXiv:1806.11040; Novichkov–Penedo–Petcov–Titov, arXiv:1811.04933; read in abstract).
+  - **What it settles:** a chiral three, on the weave, the same as the parities, as the index of a non-flat bundle on
+    an even-dimensional object the weave forces. That is the form of main's FK11 condition (GENESIS FK11).
+  - **What stays a reading:**
+    - the dictionary, that holomorphic zero modes on the internal fibre are the left-handed matter (GENESIS FK11,
+      I-26);
+    - the gauge content of each generation (one 27);
+    - the zero parity's extra singlet;
+    - the absolute hand, which is the records' orientation.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

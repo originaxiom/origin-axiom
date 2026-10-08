@@ -1,0 +1,128 @@
+{
+ "rule": "W21_RULE.md (committed before this ran)",
+ "controls": {
+  "(1) trivial coefficients: Q(dz, dz) = 2 Im tau": true,
+  "(2) hermitian on every parity and on M": true,
+  "(2) independent of the cocycles chosen": true,
+  "(3) the three chains of the puncture loop agree on V": true,
+  "(3) ... and on M": true,
+  "(4) Q invariant under each move, every lift": {
+   "L": true,
+   "R": true,
+   "-I": true,
+   "L on M": true,
+   "R on M": true,
+   "-I on M": true
+  },
+  "(4) the swap P reverses Q on V": true,
+  "(4) ... and on M": true,
+  "(5) signature on V (+, -, 0)": [
+   3,
+   3,
+   0
+  ],
+  "(5) signature on M (+, -, 0)": [
+   1,
+   1,
+   0
+  ],
+  "(6) T and T-bar are Q-orthogonal": true,
+  "the group of L and R on V (order)": 96,
+  "braid-consistent lift choices (indices into the lifts of L, R)": [
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    0
+   ]
+  ],
+  "every control holds": true
+ },
+ "read-out": {
+  "(1) Q on the triplets": {
+   "T": {
+    "eigenvalues of Q on it (any basis; the signs are what count)": [
+     1.328945918,
+     2.097240728,
+     2.573813354
+    ],
+    "definite": true,
+    "sign": "+"
+   },
+   "T-bar": {
+    "eigenvalues of Q on it (any basis; the signs are what count)": [
+     -3.19019279,
+     -1.918124121,
+     -0.891683089
+    ],
+    "definite": true,
+    "sign": "-"
+   }
+  },
+  "(1) the holomorphic triplet (Q > 0)": "T",
+  "(1) the holomorphic triplet's rank in each parity's block": [
+   1,
+   1,
+   1
+  ],
+  "per braid-consistent lift choice": [
+   {
+    "lifts (L, R)": [
+     0,
+     1
+    ],
+    "(3) Z on the holomorphic triplet (turns)": 0.75,
+    "(2) M's holomorphic line: mu(L), mu(R), Z (turns)": [
+     0.875,
+     0.125,
+     0.75
+    ],
+    "(2) mu = chi_eta^j, j (mod 24)": 21,
+    "(2) mu(R) = mu(L)^-1 (a character of the braid group)": true,
+    "(2) M's other line: Q < 0": true,
+    "(4) P = mu^-1 T_hol: order of its group": 24,
+    "(4) P(L)^4 = 1, P(S)^2 = 1, (P(S) P(L))^3 = 1": [
+     true,
+     true,
+     true
+    ],
+    "(4) traces of P at S, L, SL (a transposition, a 4-cycle, a 3-cycle)": [
+     -1.0,
+     1.0,
+     0.0
+    ],
+    "(4) P's characters are real": true
+   },
+   {
+    "lifts (L, R)": [
+     1,
+     0
+    ],
+    "(3) Z on the holomorphic triplet (turns)": 0.75,
+    "(2) M's holomorphic line: mu(L), mu(R), Z (turns)": [
+     0.375,
+     0.625,
+     0.75
+    ],
+    "(2) mu = chi_eta^j, j (mod 24)": 9,
+    "(2) mu(R) = mu(L)^-1 (a character of the braid group)": true,
+    "(2) M's other line: Q < 0": true,
+    "(4) P = mu^-1 T_hol: order of its group": 24,
+    "(4) P(L)^4 = 1, P(S)^2 = 1, (P(S) P(L))^3 = 1": [
+     true,
+     true,
+     true
+    ],
+    "(4) traces of P at S, L, SL (a transposition, a 4-cycle, a 3-cycle)": [
+     -1.0,
+     1.0,
+     0.0
+    ],
+    "(4) P's characters are real": true
+   }
+  ],
+  "(4) P is S4's": "3' (the rotations: 4-cycles are quarter turns)"
+ }
+}

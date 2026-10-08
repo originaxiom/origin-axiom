@@ -18058,3 +18058,20 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - W20 stands as an Euler characteristic of three on the weave and zero on every thread. It is not three generations.
 - **The goal is not met.** The next honest step is a chiral index: Theorem H's complex triplet T, read by a
   holomorphic index on the weave's orbifold, with the rule written first.
+
+## 2026-10-08 (afternoon) — the weave's W21: a chiral three on the weave, the parities' own, by Hodge type
+
+- **The rule came first** (W21_RULE.md, 72fbab31). The code ran once, and every control held first.
+- **The count, an index.** On the shared fibre at the common point, the Dirac operator for each of the three even spin
+  structures (the three parities) has one zero mode. The index is three, and no end condition is chosen.
+- **The hand.** The holomorphic part is invariant under every move, by two proofs. The Hodge–Riemann form is positive
+  definite on T and negative definite on T̄. So the three zero modes are T, irreducible and not equivalent to its
+  conjugate.
+- **What is now on the record toward the goal:** a chiral three, on the weave, the parities' own, as the index of a
+  non-flat bundle on an even-dimensional object the weave forces. That is the form of main's FK11 condition.
+- **The goal is not yet met in full.** Still readings:
+  - the dictionary: holomorphic zero modes on the internal fibre are the left-handed matter (GENESIS FK11);
+  - each generation's gauge content, one 27;
+  - the zero parity's extra singlet;
+  - the records' orientation, which is the absolute hand.
+- **Next:** main's ruling on FK11 (the relay's §15).
