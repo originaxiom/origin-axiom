@@ -9,6 +9,23 @@ arc wins. 0 of 19.*
 **Main's grade on GENESIS v1.28 (S86, B1606): "three generations are not derived; the flavour three is; the gauge three
 is a selection."** This seat agrees.
 
+## The owner's rulings of 2026-10-08 (`docs/THE_OWNERS_RULINGS_2026-10-08.md`)
+
+The owner ruled four forks in the order the seat proposed. Each ruling picks a working branch, and the other branch stays
+computed:
+1. **The ticks (GENESIS GM5c): "Even ticks observed."** P is part of the act but not a symmetry of what we observe.
+   The observed weave is ⟨L, R⟩ with root m004, its three chiral, and its hand a naming convention. Whether the vacuum
+   picks the sheet by itself stays open as research.
+2. **The dictionary (GENESIS FK11): "Tagged working postulate."** W27's Λ is used, and every result carries "given Λ".
+   GENESIS FK11 stays formally open.
+3. **The end condition (GENESIS FK10): "Flat counts only."** Naturality gives the flat ±3, and the physical end law
+   stays open.
+4. **The sign (GENESIS GM5d): "Keep positivity."**
+
+**What the record can now say.** On the even-tick branch and given Λ, the record derives three chiral, alike,
+anomaly-free Standard Model generations in a complex flavour triplet. The count ±3 is a flat count, and 0 of 19
+parameters are derived.
+
 ## Derived on the weave, from the principle with no frame
 
 | what | status | where |
@@ -36,6 +53,7 @@ is a selection."** This seat agrees.
 
 - **Three chiral 27s of E₆, alike, in the flavour triplet, anomaly-free, with three right-handed neutrinos.** STATED (Λ)
   and COMPUTED (W27). The label is "derived given one stated link" (`docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`).
+  The owner ruled on 2026-10-08 that Λ is a tagged working postulate (ruling 2 above).
 - **Λ's "each parity sector kept apart"** follows from the end condition breaking no symmetry of the bulk problem (W28).
   That is a STATED naturality condition.
 

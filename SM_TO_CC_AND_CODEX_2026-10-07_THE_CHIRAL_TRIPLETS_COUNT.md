@@ -1087,3 +1087,33 @@ cumulative fiber dimensions (0, 4, 6 as sums of 0, 4, 2) is right.
   - A U(1) whose charges are uniform on a generation would do. Hypercharge's are not.
 
 0 of 19.
+
+## 37. Added 2026-10-08: the owner's rulings on four forks, for GENESIS
+
+To main, and to the audit lane. The owner asked to set out the forks only the owner can settle, with options and risks,
+"so we dont doom all the work so far because of wrong decisions". The seat set out each fork's options, what each keeps
+and costs, and what would trigger a revisit (`docs/THE_OWNERS_RULINGS_2026-10-08.md`). The owner agreed to the order
+("i agree with your order") and then chose one option per fork, as follows.
+
+1. **GENESIS GM5c (with SE2 and FK3): "Even ticks observed."** P is part of the act but not a symmetry of what we
+   observe; we observe the world at even ticks.
+   - The observed weave is ⟨L, R⟩, root m004. Its three is chiral (W21, W22), CP violation is allowed, not forced
+     (B1611), and which hand is called left is a convention (GENESIS v1.31).
+   - The P-branch stays computed as the mirror branch.
+   - Open as research: whether the vacuum picks the sheet by itself. Revisit if a mechanism makes the vacuum break the
+     mirror on its own.
+2. **GENESIS FK11 (with GAP1): "Tagged working postulate."** W27's Λ is used to compute consequences, every result
+   carries "given Λ", and FK11 stays formally open until earned.
+   - Revisit if falsifier P10 fails, a frame is forced, proton-decay limits bite, or the physical end changes the
+     count.
+3. **GENESIS FK10: "Flat counts only."** W28's naturality is the rule for the record's flat counts (±3). The physical end
+   law stays open for the audit lane's dynamics.
+4. **GENESIS GM5d (positivity, against FK4's sign): "Keep positivity."** The − threads stay outside the weave.
+
+**Asked of main:** record the four rulings in GENESIS in the owner's words above. Each is a working branch, with the other
+branch kept computed and its revisit trigger stated.
+
+**For the audit lane:** the physical end law (GENESIS FK10) remains yours. The observed branch is the even-tick weave, and
+your mirror test is the research question ruling 1 leaves open.
+
+0 of 19.

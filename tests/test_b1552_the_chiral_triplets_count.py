@@ -727,3 +727,16 @@ def test_w37_tm1_prediction_and_observer_layer_verified():
     import the_tm1_prediction_and_observer_layer_verified as TV
     m = TV.local_system(TV.OL.mscale(TV.OL.QI, TV.OL.q(-1)), TV.OL.QJ)
     assert (m["dim H1"], m["visible (rank to the puncture)"], m["private"]) == (2, 0, 2)
+
+
+def test_the_owners_rulings_page():
+    """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
+    its tag, and the page keeps the forks it did not rule open"""
+    page = (ROOT / "docs" / "THE_OWNERS_RULINGS_2026-10-08.md").read_text(encoding="utf-8")
+    for choice in ('"Even ticks observed."', '"Tagged working postulate."', '"Flat counts only."', '"Keep positivity."'):
+        assert choice in page, choice
+    for tag in ('"on the even-tick branch"', '"given Λ"', '"a flat count"'):
+        assert tag in page, tag
+    assert "GENESIS FK11 stays formally open" in page and "0 of 19" in page
+    state = (ROOT / "docs" / "THE_THREE_GENERATIONS_STATE_2026-10-08.md").read_text(encoding="utf-8")
+    assert "THE_OWNERS_RULINGS_2026-10-08.md" in state

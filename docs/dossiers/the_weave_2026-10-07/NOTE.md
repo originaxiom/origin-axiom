@@ -22,6 +22,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W36: the audit lane's Standard Model centralizer in E₈ verified; no SU(5)_g chirality from any SU(5)_b bundle on a
   two-dimensional object.
 - W37: main's S92 verified: TM1's forward prediction (δ = 262.5° or 97.5°) and the observer layer on the weave.
+- **The owner's rulings of 2026-10-08** (`docs/THE_OWNERS_RULINGS_2026-10-08.md`): even ticks observed (GENESIS
+  GM5c); Λ a tagged working postulate (GENESIS FK11 open); naturality for flat counts only (GENESIS FK10
+  open); positivity kept. On the ruled branch the results for L and R alone apply.
 
 ## The setting
 

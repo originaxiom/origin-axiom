@@ -121,6 +121,9 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
     committed first).
     - Its negatives belong to every thread, and the register carries neither hand.
     - It supplies neither the hand nor Λ. Λ stays the one link.
+  - **The owner's ruling, 2026-10-08** (`docs/THE_OWNERS_RULINGS_2026-10-08.md`): Λ is a tagged working
+    postulate. Results that use it carry "given Λ", and GENESIS FK11 stays formally open until it is
+    earned. The observed branch is the even-tick weave ⟨L, R⟩ (ruling 1).
 
 ## Files
 

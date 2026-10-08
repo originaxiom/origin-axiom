@@ -1,5 +1,20 @@
 # Changelog
 
+## The owner's rulings of 2026-10-08 on four forks; relay section 37
+
+- **The owner asked** for the forks only the owner can settle, with options and risks, "so we dont doom all the work so
+  far because of wrong decisions". The seat set them out: each fork's options, what each keeps and costs, and a revisit
+  trigger.
+- **The owner agreed to the order and ruled:**
+  - GENESIS GM5c, "Even ticks observed";
+  - GENESIS FK11, "Tagged working postulate" (W27's Λ, results tagged "given Λ", FK11 formally open);
+  - GENESIS FK10, "Flat counts only";
+  - GENESIS GM5d, "Keep positivity".
+- **What the record can now say.** On the even-tick branch and given Λ, it derives three chiral, alike, anomaly-free
+  Standard Model generations in a complex flavour triplet, the count a flat ±3. 0 of 19.
+- **Surfaces.** The rulings page (`docs/THE_OWNERS_RULINGS_2026-10-08.md`), the state page, the one-link page, the
+  dossier's header, a test, the relay's §37 (asking main to record the rulings in GENESIS), and the ledger.
+
 ## Relay section 36: the audit lane's magnetic family is hypercharge flux, and would not give generations
 
 - **The audit lane's magnetic family** (stationary, a saddle) is pure hypercharge flux: Z = T/2 = −6Y on SU(5)_g's 5.

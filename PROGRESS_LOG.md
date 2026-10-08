@@ -18353,3 +18353,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **The audit lane's magnetic family is hypercharge flux.** Stabilized or not, it splits multiplets and gives no
   generations.
+
+## 2026-10-08 (late) — the owner's rulings on four forks
+
+- **The owner asked** for the open forks, with options and risks, before deciding.
+- **The owner agreed to the proposed order and ruled:**
+  - even ticks observed (GENESIS GM5c);
+  - Λ as a tagged working postulate (GENESIS FK11 open);
+  - naturality for flat counts only (GENESIS FK10 open);
+  - positivity kept (GENESIS GM5d).
+- **Recorded on the rulings page**, and relayed to main for GENESIS (§37).
