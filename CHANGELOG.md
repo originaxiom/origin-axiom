@@ -1,5 +1,17 @@
 # Changelog
 
+## The weave's W39 (a reading given Λ): the masses' tensor is T ⊗ T; relay section 39
+
+- **Given Λ, every left-handed field of a generation** (Q, u^c, d^c, L, e^c, ν^c) is a holomorphic zero mode, in T. So
+  a mass term's flavour tensor is T ⊗ T, not the T̄ ⊗ T that B1615 used.
+- **With E₆'s cubic and one 27 Higgs the Yukawas are symmetric** (Sym² T, B1616's tensor, for every sector).
+  - A Higgs without flavour gives no mass ((Sym² T)^G = 0).
+  - A Higgs from the generations' own 27s gives none ((T ⊗ T ⊗ T)^G = 0).
+  - Every residual-aligned spectrum, all irreducibles at once, is degenerate or zero (W38's exact addendum).
+- **The shared premise is the character c** of the weave's group on T. It is physical in W24's E₈ embedding
+  (centraliser F₄ × SU(2)), and gauge where a U(1) acts on T. That makes it a frame datum of GENESIS FK11.
+- **Surfaces.** The dossier (W39, a row, a header line), the state page, the relay's §39 and the ledger row.
+
 ## The weave's W38: main's S93 and S94 verified (the couplings, B1615; the neutrino masses, B1616), exactly on the whole fixed spaces; relay section 38
 
 - **W38 verifies both with this seat's code** (`docs/dossiers/the_weave_2026-10-07/the_couplings_verified.py`; not

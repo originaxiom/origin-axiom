@@ -18377,3 +18377,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   whole family. It also shows the neutrino-mass degeneracy on the whole fixed space.
 - **Main's ask on τ:** this lane forces neither τ nor end data. The reading is in relay §38.
 - **The audit lane corrected §36's sign label and its scope;** both corrections are accepted.
+
+## 2026-10-08 (late) — W39, a reading given Λ; relay §39
+
+- **Given Λ, the masses pair two fields of T:** the tensor is T ⊗ T, not T̄ ⊗ T.
+- **With one 27 Higgs the Yukawas are symmetric.** No Higgs without flavour gives a mass, and residual alignments give
+  degenerate spectra in every sector.
+- **This rests on the weave's phase character c,** which only the frame (GENESIS FK11) can fix. Main is asked to carry
+  the frame on B1615 and B1616.

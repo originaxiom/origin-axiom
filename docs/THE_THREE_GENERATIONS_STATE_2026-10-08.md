@@ -146,6 +146,10 @@ Under the owner's rulings, the table's rows split into two groups:
   one family with m₁ + m₂ = m₃ (so m₂ ≥ m₃/2), and no Majorana vacuum along TM1's neutrino-side symmetry. With B1611
   and B1612, no flavour value is in the group. Main records a further ruling, made with main: the fibre's modulus
   τ = ω is a tagged working postulate (B1617, sealed, not yet run).
+- **W39, a reading given Λ:** every left-handed field of a generation is in T, so the masses' tensor is T ⊗ T, not
+  T̄ ⊗ T. With E₆'s cubic and one 27 Higgs the Yukawas are symmetric. A Higgs without flavour then gives no mass, and
+  every residual-aligned spectrum is degenerate or zero. This rests on the character c of the weave's group on T, a
+  frame datum (GENESIS FK11).
 
 ## Questions open with main
 

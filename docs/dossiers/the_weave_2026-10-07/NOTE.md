@@ -26,6 +26,7 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   GM5c); Λ a tagged working postulate (GENESIS FK11 open); naturality for flat counts only (GENESIS FK10
   open); positivity kept. On the ruled branch the results for L and R alone apply.
 - W38: main's B1615 and B1616 verified: the weave's group fixes no mass, charged or neutrino.
+- W39 (a reading given Λ): the masses' tensor is T ⊗ T; a Higgs without flavour gives no mass.
 
 ## The setting
 
@@ -2282,6 +2283,41 @@ on the whole residual-fixed space.
 
 **Status of the addendum.** EXACT (post hoc; a verification, not blind). 0 of 19.
 
+## W39. Given Λ, the masses' tensor is T ⊗ T, not T̄ ⊗ T (a READING; nothing new is computed)
+
+**Why.** B1615 treats a Dirac mass as T̄ ⊗ T: a left-handed field in T paired with a right-handed one in T. W27's link Λ
+puts the fields differently. Every left-handed state of a generation is a holomorphic zero mode, so every left-handed
+Weyl field of the 27 (Q, u^c, d^c, L, e^c, ν^c) is in T. The right-handed fields are their conjugates, in T̄. Weave or
+thread: the invariants are the weave's (the group of every move); an alignment along one residual is a thread's choice.
+
+**The reading (by hand, from W38 and its exact addendum).**
+- **The tensor.** A mass term pairs two left-handed fields (Q u^c H, L e^c H, L ν^c H, ν^c ν^c). Given Λ its flavour
+  tensor is T ⊗ T with the Higgs's representation, never T̄ ⊗ T.
+- **With E₆'s cubic and one 27 Higgs, the Yukawa matrices are symmetric.** The d-symbol is symmetric, and so is the
+  bilinear of two anticommuting Weyl spinors. So the masses lie in Sym² T, which is B1616's tensor, now for every
+  sector, charged and neutral.
+- **The consequences, on the record's group G** (lifts in SU(2), as W21 and B1611–B1616 use them):
+  - A Higgs that carries no flavour gives no mass at all, since (Sym² T)^G = 0. (Under T̄ ⊗ T it gave (1, 1, 1).)
+  - A Higgs from the three generations' own 27s gives none either, since (T ⊗ T ⊗ T)^G = 0.
+  - Any mass therefore needs a Higgs carrying the character c̄²: T ⊗ T = c² ⊗ (1 + 2 + 3 + 3′), with
+    c(L)² = −i.
+  - Along any residual, all irreducibles at once, every spectrum has an exactly degenerate pair or vanishes (W38's
+    addendum). So given Λ, the residual-vacuum reading fails for the charged fermions too, not only for the neutrinos.
+  - With a Higgs in the antisymmetric part as well (an E₆ 351, outside the minimal Yukawa), the whole fixed spaces of
+    T ⊗ T are, by hand:
+    - along RL, the circulants, with three free masses;
+    - along L and R, (0, |p|, |q|): one generation massless;
+    - along RRL, nothing.
+- **The premise both seats share: the character c.** "No invariant in Sym² T" and "nothing fixed along RRL" rest on
+  c² ≠ 1.
+  - c² is fixed when no gauge transformation commuting with 𝕎's holonomy acts on T by a phase. In W24's E₈
+    embedding the centraliser is F₄ × SU(2), whose centre is ℤ₂, so c² is physical there.
+  - In a frame where such a U(1) exists, c is shifted by gauge, and the Higgs's own charge carries the phase. Then
+    Sym² T gains the singlet δ (three equal masses), and along RRL a 2 × 2 block of symmetric masses is free (by hand).
+  - Which frame holds is GENESIS FK11's datum, open under ruling 2.
+
+**Status.** READING given Λ (W27, the owner's ruling 2); the invariants are COMPUTED (W38). 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2431,6 +2467,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W36 | VERIFIED (step 1, exact) and a READING with one exact obstruction (step 4) | the audit lane's gapped Standard Model phase: its centralizer in E₈ is (SU(5)_b × U(1)_Y)/ℤ₅ and connected (the roots orthogonal to SU(5)_g are an A₄; the torus part is the kernel of the character (3, 2), connected). On a closed surface the 10's index is deg W and the 5̄'s deg Λ²W, both zero for every SU(5)_b bundle, so the fibre's bulk gives no SU(5)_g chirality; the record's counts are end contributions on the gapless channels, which a gap removes. A gapped chiral phase needs winding end data or an object of dimension four or more |
 | W37 | VERIFIED (not blind; S92 read first); main's WEAVE results reproduced | main's B1613: TM1's relations derived here from the matrix entries; at sin²θ₁₃ = 0.02248, sin²θ₂₃ = 0.470: sin²θ₁₂ = 0.31800, cos δ = −0.130278, δ = 97.49° or 262.51°, J = ±0.03378, the column exact on both branches. Main's B1614: the joint fixed points (0, 0, 0) and (2, 2, 2); the trivial line (2, 0, 2), each parity line (1, 1, 0), the adjoint (3, 3, 0), the doublet and each matter block (2, 0, 2) as (H¹, visible, private); χ_T(L) = e^{−iπ/4}, χ_T(R) = e^{+iπ/4}, χ_T(LR) = 0; the odd classes of rank 2 over 𝔽₂. Agrees with W34 where they overlap |
 | W38 | VERIFIED (not blind; S93 and S94 read first); main's WEAVE results reproduced | main's B1615 and B1616 rebuilt from W21's construction: no invariant bilinear or trilinear of T alone; T̄ ⊗ T = 1 + 2 + 3 + 3; a singlet Higgs gives (1, 1, 1); the fixed Dirac vacua give (0, 1, 1) or (½, ½, 1), and along RRL a family with m₁ + m₂ = m₃ (to 3 × 10⁻¹⁵); Sym² T = 1 + 2 + 3, Λ² T irreducible, no Majorana vacuum fixed along RRL, rigid spectra (1, 1, 1), (½, ½, 1), (0, 1, 1) elsewhere. The weave's group fixes no mass. Exact addendum (post hoc, for the audit lane): T is the cube's rotations twisted by a character (W21's μ ⊗ 3′); the sum rule is Heron's identity on the whole family, masses ∝ (r, (1 − r)/2, (1 + r)/2); every residual-fixed Majorana matrix, all pieces at once, has a degenerate pair; several Higgs irreducibles along one residual leave the masses free |
+| W39 | READING given Λ (no new computation) | given W27's Λ every left-handed field of a generation is in T, so a mass term's tensor is T ⊗ T, not B1615's T̄ ⊗ T; with E₆'s cubic and one 27 Higgs the Yukawas are symmetric (Sym² T, B1616's tensor, for every sector): no mass from a flavourless Higgs or from the generations' own 27s, any mass needs a Higgs carrying c̄², and every residual-aligned spectrum is degenerate or zero. Rests on the character c (physical in W24's E₈ embedding, centraliser F₄ × SU(2); gauge where a U(1) acts on T), a frame datum of GENESIS FK11 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |

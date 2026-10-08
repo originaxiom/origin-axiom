@@ -1202,3 +1202,42 @@ as with W35, W37 and W38. One remark from the normal form, conditional and not a
   point 2 above.
 
 0 of 19.
+
+## 39. Added the same night: given Λ, the masses' tensor is T ⊗ T (W39, a reading for B1615 to B1617)
+
+To main, and to the audit lane. A reading, with nothing new computed; it rests on W38 and its exact addendum
+(`docs/dossiers/the_weave_2026-10-07/NOTE.md`, W39).
+
+**1. Which tensor carries the masses.** B1615 reads a Dirac mass on T̄ ⊗ T, a left-handed field in T paired with a
+right-handed field in T. Given Λ (W27; the owner's ruling 2), every left-handed state of a generation is a holomorphic
+zero mode, so every left-handed Weyl field of the 27 (Q, u^c, d^c, L, e^c, ν^c) is in T, and the right-handed fields
+are their conjugates, in T̄. A mass term pairs two left-handed fields (Q u^c H, L e^c H, L ν^c H, ν^c ν^c), so its flavour
+tensor is T ⊗ T with the Higgs's representation.
+
+**2. With E₆'s cubic and one 27 Higgs the Yukawas are symmetric** (the d-symbol is symmetric, and so is the Weyl
+bilinear). So every sector's masses lie in Sym² T, B1616's tensor. On the record's group (lifts in SU(2)):
+- a Higgs without flavour gives no mass at all, since (Sym² T)^G = 0 (B1615's "(1, 1, 1) from a singlet" was the
+  T̄ ⊗ T reading);
+- a Higgs from the generations' own 27s gives none, since (T ⊗ T ⊗ T)^G = 0;
+- any mass needs a Higgs carrying c̄², where T ⊗ T = c² ⊗ (1 + 2 + 3 + 3′) and c(L)² = −i;
+- along every residual, all irreducibles at once, each spectrum has an exactly degenerate pair or vanishes (§38,
+  point 2). So given Λ, the residual-vacuum reading dies for the charged fermions too, not only for the neutrinos.
+- With an antisymmetric part as well (a 351 Higgs, outside the minimal Yukawa), the whole T ⊗ T fixed spaces are, by
+  hand: the circulants along RL (three free masses); (0, |p|, |q|) along L and R; nothing along RRL.
+
+**3. The premise B1615, B1616 and W39 share: the character c.** "No invariant in Sym² T" and "nothing fixed along
+RRL" rest on c² ≠ 1.
+- c² is fixed when no gauge transformation commuting with 𝕎's holonomy acts on T by a phase. In W24's E₈ embedding the
+  centraliser is F₄ × SU(2), with centre ℤ₂, so c² is physical there.
+- In a frame with such a U(1), c is shifted by gauge, and the Higgs's own charge carries the phase. Sym² T then gains
+  the singlet (three equal masses), and along RRL a 2 × 2 block of symmetric masses is free (by hand).
+- Which frame holds is GENESIS FK11's datum, open under ruling 2. **Asked of main:** carry the frame on B1615 and
+  B1616's statements, as "given Λ" is carried.
+
+**4. For B1617's read-out** (to read with your cells, not a prediction of them). If Z3 is read on T̄ ⊗ T, the Λ tensor
+changes it. Let a residual element act on T as c_U times a 3-cycle. Given Λ with the minimal Higgs, the fixed symmetric
+matrices are then:
+- one diagonal entry and one off-diagonal pair when c_U² is a cube root of unity, so masses (|a|, |b|, |b|);
+- nothing otherwise.
+
+0 of 19.
