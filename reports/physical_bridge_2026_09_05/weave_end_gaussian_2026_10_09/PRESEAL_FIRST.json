@@ -2,8 +2,8 @@
   "science_files": [
     {
       "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/DESIGN.md",
-      "bytes": 4677,
-      "sha256": "97661d13bb45b2037d2cbc7f8335c2a931ff104d15b8e258bca371d2f39e530e"
+      "bytes": 4303,
+      "sha256": "e8e3ccd1c1d8bad6fd024aca69f98b4bd06df9c513a5778aae60a032217e2033"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md",
@@ -22,8 +22,8 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/reference.py",
-      "bytes": 4806,
-      "sha256": "46d2374ad26ebf31675929c02b54cbfed55fbf3e658b99df92a7e8214e7d4048"
+      "bytes": 4243,
+      "sha256": "c1de100faed68665ded16786b03563d80060b96a6e095de61caa87bfa976523a"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/custody.rb",
@@ -36,6 +36,6 @@
       "sha256": "d90c7b9e275d38f46d73cb29d8f82a8c285d4c2f3e7f091f975fcdd83f704095"
     }
   ],
-  "prior_commit": "7eee750d7cea186d5882e23e77c811f14f828ada",
-  "status": "PRE-RERUN; first reference failure preserved; push and server confirmation before corrected execution"
+  "prior_commit": "b636bd801c3c99ec6246ce85f984c4e05bbddc3d",
+  "status": "PRE-EXECUTION; push and server confirmation before scientific import, execution or collection"
 }

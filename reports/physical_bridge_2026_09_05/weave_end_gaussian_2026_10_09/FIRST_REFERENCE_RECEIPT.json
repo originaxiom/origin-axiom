@@ -1,0 +1,11 @@
+{
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 8.75795100000687,
+  "log_bytes": 1898,
+  "log_sha256": "08fef0a29736d5022178c5e9f03ab557d6eee3f1439b8c197ab13f12363edc58",
+  "argv": [
+    "python3",
+    "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/reference.py"
+  ]
+}

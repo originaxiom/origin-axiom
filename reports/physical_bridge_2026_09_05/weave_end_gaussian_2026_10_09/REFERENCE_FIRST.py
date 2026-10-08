@@ -48,7 +48,7 @@ def anomaly(n):
 def run():
     facts={};ops=[annihilator(0),annihilator(1)]
     facts['canonical_anticommutators']=all(zero(A*B+B*A) and zero(A*B.adjoint()+B.adjoint()*A-(s.eye(4) if i==j else s.zeros(4))) for i,A in enumerate(ops) for j,B in enumerate(ops))
-    overlaps=[];eigen=True;ground=True;projection=True;diagnostics=[]
+    overlaps=[];eigen=True;ground=True;projection=True
     for m,z in ((3,4*s.I),(12,3+4*s.I),(12,3-4*s.I)):
         E=s.sqrt(m*m+z*s.conjugate(z));states=[]
         for mass,anchor in ((m,2),(-m,1)):
@@ -61,17 +61,9 @@ def run():
             Pg=v*v.adjoint();Pone=s.diag(0,1,1,0);Pzero=s.eye(4)-Pone
             decay=s.symbols('decay',real=True)
             ev=Pg+decay*Pzero+decay**2*(Pone-Pg)
-            trace_residual=s.simplify(s.trace(Pg)-1)
-            decomposition=HF+E*s.eye(4)-E*Pzero-2*E*(Pone-Pg)
-            diagnostics.append({'mass':int(mass),'z':str(z),
-                'raw_trace_equality':bool(s.trace(Pg)==1),
-                'trace_residual':str(trace_residual),
-                'idempotency_residual':[str(s.simplify(x)) for x in Pg*Pg-Pg],
-                'spectral_residual':[str(s.simplify(x)) for x in decomposition]})
-            projection &= zero(ev.subs(decay,0)-Pg) and zero(Pg*Pg-Pg) and zero(Pg-Pg.adjoint()) and trace_residual==0
-            projection &= not zero((2*Pg)*(2*Pg)-2*Pg)
+            projection &= zero(ev.subs(decay,0)-Pg) and zero(Pg*Pg-Pg) and s.trace(Pg)==1
             # Exact spectral decomposition, not an asserted exponential.
-            projection &= zero(decomposition)
+            projection &= zero(HF+E*s.eye(4)-E*Pzero-2*E*(Pone-Pg))
         overlaps.append(str(s.simplify((states[0].adjoint()*states[1])[0])))
     facts['fock_spectrum_and_unique_ground']=eigen and ground
     facts['gaussian_transfer_projects_to_ground']=projection
@@ -84,6 +76,6 @@ def run():
     facts={k:bool(v) for k,v in facts.items()}
     return {'predicates':facts,'predicates_passed':sum(facts.values()),'overlap_examples':overlaps,
       'boundary_net_profiles':{str(n):profile(n) for n in range(-3,4)},
-      'boundary_anomaly_vectors':{str(n):anomaly(n) for n in range(-3,4)},'projector_diagnostics':diagnostics,'nonauthor_acceptance':False}
+      'boundary_anomaly_vectors':{str(n):anomaly(n) for n in range(-3,4)},'nonauthor_acceptance':False}
 if __name__=='__main__':
     data=run();print(json.dumps(data,indent=2,sort_keys=True));raise SystemExit(0 if all(data['predicates'].values()) else 1)

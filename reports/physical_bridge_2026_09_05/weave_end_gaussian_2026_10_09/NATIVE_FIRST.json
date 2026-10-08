@@ -1,0 +1,144 @@
+{
+  "boundary_anomaly_vectors": {
+    "-1": [
+      "-1",
+      "-5",
+      "-9/2",
+      "-1002",
+      "-24"
+    ],
+    "-2": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ],
+    "-3": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ],
+    "0": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "1": [
+      "1",
+      "5",
+      "9/2",
+      "1002",
+      "24"
+    ],
+    "2": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "3": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ]
+  },
+  "boundary_net_profiles": {
+    "-1": {
+      "1": 0,
+      "2": 2,
+      "3": 2,
+      "4": -1,
+      "5": -1,
+      "6": -1
+    },
+    "-2": {
+      "1": -1,
+      "2": 2,
+      "3": 2,
+      "4": -1,
+      "5": -1,
+      "6": -1
+    },
+    "-3": {
+      "1": -1,
+      "2": 2,
+      "3": 2,
+      "4": -1,
+      "5": -1,
+      "6": -1
+    },
+    "0": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "1": {
+      "1": 0,
+      "2": -2,
+      "3": -2,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    },
+    "2": {
+      "1": 1,
+      "2": -2,
+      "3": -2,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    },
+    "3": {
+      "1": 1,
+      "2": -2,
+      "3": -2,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    }
+  },
+  "facts": {
+    "absolute_value_and_unit_phase_mutants_fail": true,
+    "actual_normal_source_target_signs": true,
+    "all_actual_horizontal_slots_retained": true,
+    "balanced_reference_opposes_actual_index": true,
+    "boundary_overlap_has_single_zero": true,
+    "complex_overlap_is_one_chiral_factor": true,
+    "cusp_kinetic_measure_and_constant_gauge_overlap": true,
+    "finite_collar_tail_retained": true,
+    "first_flux_zero_and_exotic_controls": true,
+    "full_end_anomaly_opposes_interior": true,
+    "horizontal_projection_is_not_pointwise_local": true,
+    "lorentzian_boundary_flux_zero": true,
+    "mass_anchored_ground_spinors": true,
+    "normal_boundary_complementing_controls": true,
+    "normal_mode_and_normalization": true,
+    "opposite_vacuum_overlap_zero_not_pure_phase": true,
+    "radial_hamiltonian_hermitian_and_square": true,
+    "sign_and_opposite_normal_controls": true,
+    "tangential_principal_anticommutes_boundary_chirality": true
+  },
+  "full_cusp_boundary_lift_derived": false,
+  "global_determinant_derived": false,
+  "mirror_free_cancellation_derived": false,
+  "nonauthor_acceptance": false,
+  "normal_gaussian_constructed": true,
+  "overlap_examples": [
+    "-4*I/5",
+    "-3/13 - 4*I/13",
+    "-3/13 + 4*I/13"
+  ],
+  "physical_goal_achieved": false,
+  "predicates_passed": 19
+}

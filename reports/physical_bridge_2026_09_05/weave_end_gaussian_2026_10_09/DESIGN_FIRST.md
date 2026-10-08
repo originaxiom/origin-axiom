@@ -1,13 +1,6 @@
 # Fermion vacuum at the actual normal end
 
-Original pre-execution design and pre-rerun correction, October9.
-CORRECTION before second execution: first reference failed7/8 at
-seal7eee750d7; see CORRECTION.md and byte-faithful first receipts.
-The symbolic trace comparison is replaced by an exact zero residual
-and explicit projector diagnostics, with a misnormalization control.
-Native, proof and targets unchanged. Reseal before the rerun.
-
-P0: the supplied curved E8 parent's actual
+PRE-EXECUTION October9. P0: the supplied curved E8 parent's actual
 horizontal normal channels M=partial_t+C, fixed stationary integer-flux
 background and parallel unbroken external fields. Compute a declared
 free local five-dimensional normal Gaussian and its boundary vacuum.
