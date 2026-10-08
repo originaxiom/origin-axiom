@@ -1,5 +1,25 @@
 # Changelog
 
+## The weave's W31: no ℤ₅ flux gives an anomaly-free three; the twist-eater programme closes
+
+- **The owner's approved plan, its last step.** The rule (W31_RULE.md, 55c26b10) was committed first; one run; every
+  cell came out as stated. Most values had been seen in the plan review and are listed as seen in the rule.
+- **The ℤ₅ flux is the only twist-eater flux that keeps the whole Standard Model.** In E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅:
+  - its centraliser is exactly SU(5)_g (24);
+  - its matter is complete SU(5) generations, 10 + 5̄, both complex;
+  - its flux is a hypercharge rotation (exact).
+- **The moves act on the flux's ℂ⁵ through 2I = SL(2, 𝔽₅)**, split 3 ⊕ 2, with golden traces on the spin piece. With the
+  bare −I: the ℤ₅ Clifford group (3000 modulo phases), commutant 1. The swap sends the flux to its conjugate (GENESIS
+  GM5c).
+- **No flux ζ^m gives an anomaly-free three.** The SU(5)³-free counts are −1 and 2, or −2 and 1, under the moves; none
+  under locality.
+- **NEGATIVE as a derivation.** Nothing forced breaks SU(5), F-MC's cascade skips SU(5) (B892), and the flux is not
+  forced. With W29 and W30, no twist-eater flux tried gives a forced three.
+- **Before the run** three code faults found on reading were fixed (a leftover block; repeated dictionary keys). A first
+  launch failed before the script started (a missing timing tool).
+- **Surfaces.** The dossier (W31; the table; files; the header), the synthesis (row 22, §4a, the closing line), the laws
+  page, the one-link page, the state page (W30 and W31), a test (34 pass), the relay's §28 and the ledger.
+
 ## The weave's W30: an order-3 flux is allowed on the swap's fork, not forced
 
 - **Step 4 of the owner's approved plan.** The rule (W30_RULE.md, e611b54e) was committed first; one run; every cell came

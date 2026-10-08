@@ -1,0 +1,554 @@
+{
+ "rule": "W31_RULE.md (committed 55c26b10 before this ran)",
+ "the object": "chosen, not forced: every claim is conditional on the shared fibre carrying a Z5 flux (a weave-type computation, joint over the moves, on a hand-picked structure)",
+ "F1 the group": {
+  "det C5, det S5": [
+   1.0,
+   1.0
+  ],
+  "order of <C5, S5>": 125,
+  "its scalars (the centre)": 5,
+  "C5 S5 C5^-1 S5^-1 = zeta 1": true,
+  "commutant on C^5 (1 = irreducible)": 1,
+  "Frobenius-Schur indicator of the 5 (0 = complex)": 0.0,
+  "lemma: zeta^w != 1 for w = 1..4, so an invariant subspace has dimension 0 or 5 (exact)": true,
+  "so no U(1) of SU(5)_b commutes with the pair (Schur)": true,
+  "as the rule stated (125; centre 5; irreducible; indicator 0)": true
+ },
+ "F2 the centraliser in E8": {
+  "the mean of chi248 at diag(h, 1) over the 125 (W25's chi248)": 24.0,
+  "the same by SW.average itself": 24.0,
+  "at h = 1, both forms": [
+   248.0,
+   248.0
+  ],
+  "the code check: chi248(diag(h, 1)) minus the explicit SU(5)_g x SU(5)_b form, largest over the 125": 1.2436480258895385e-13,
+  "they agree on every element (one expression; a check of the code, not a second route)": true,
+  "exactly SU(5)_g (24), as the rule stated": true
+ },
+ "F3 the matter": {
+  "multiplicity of the 5 in the 248 (the 10 of SU(5)_g)": 10.0,
+  "of the 5-bar (the 10-bar)": 10.0,
+  "Lambda^2 5 under <C5, S5>: [(dimension, multiplicity)]": [
+   [
+    5,
+    2
+   ]
+  ],
+  "its type's central character (zeta^e on zeta 1), e": 2,
+  "multiplicity of Lambda^2 5's type in the 248 (the 5-bar of SU(5)_g, twice)": 10.0,
+  "of its conjugate type (the 5 of SU(5)_g, twice)": 10.0,
+  "Frobenius-Schur indicators: the 5's type, Lambda^2 5's type (0 = complex)": [
+   0.0,
+   0.0
+  ],
+  "a check of the code: the 248 accounted for (the one-dimensional characters' multiplicities [trivial, the others summed] and 5 x the four types')": [
+   24.0,
+   24.0,
+   248.0
+  ],
+  "as the rule stated (10 and 10; two copies of one type; complex: complete SU(5) generations, 10 + 5-bar)": true
+ },
+ "F4 the flux, the hypercharge and the orientation": {
+  "exp(2 pi i (6j/5) Y) = zeta^(-2j) 1 on SU(5)_g's 5, Y = diag(-1/3 x3, 1/2 x2), j = 1..4 (exact: every exponent difference an integer)": true,
+  "... numerically": true,
+  "the centre kernel (zeta, zeta^-2) acts trivially on every term of the 248 (N-alities, exact)": true,
+  "so the flux zeta^m in SU(5)_b is zeta^(3m) = zeta^(-2m) in Z(SU(5)_g), a hypercharge rotation (exact)": true,
+  "a check of the code: chi248 at diag(zeta^m 1, 1) equals the branching's character at that hypercharge rotation, m = 1..4": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "the moves on the flux class (every flux)": {
+   "zeta^1": {
+    "L": {
+     "commutator of the image pair": "zeta^1",
+     "intertwiners (dimension)": 1
+    },
+    "R": {
+     "commutator of the image pair": "zeta^1",
+     "intertwiners (dimension)": 1
+    },
+    "-I": {
+     "commutator of the image pair": "zeta^1",
+     "intertwiners (dimension)": 1
+    },
+    "P (the swap)": {
+     "commutator of the image pair": "zeta^-1",
+     "intertwiners (dimension)": 0
+    },
+    "P o K (the swap with complex conjugation)": {
+     "commutator of the image pair": "zeta^1",
+     "intertwiners (dimension)": 1
+    }
+   },
+   "zeta^2": {
+    "L": {
+     "commutator of the image pair": "zeta^2",
+     "intertwiners (dimension)": 1
+    },
+    "R": {
+     "commutator of the image pair": "zeta^2",
+     "intertwiners (dimension)": 1
+    },
+    "-I": {
+     "commutator of the image pair": "zeta^2",
+     "intertwiners (dimension)": 1
+    },
+    "P (the swap)": {
+     "commutator of the image pair": "zeta^-2",
+     "intertwiners (dimension)": 0
+    },
+    "P o K (the swap with complex conjugation)": {
+     "commutator of the image pair": "zeta^2",
+     "intertwiners (dimension)": 1
+    }
+   },
+   "zeta^3": {
+    "L": {
+     "commutator of the image pair": "zeta^3",
+     "intertwiners (dimension)": 1
+    },
+    "R": {
+     "commutator of the image pair": "zeta^3",
+     "intertwiners (dimension)": 1
+    },
+    "-I": {
+     "commutator of the image pair": "zeta^3",
+     "intertwiners (dimension)": 1
+    },
+    "P (the swap)": {
+     "commutator of the image pair": "zeta^-3",
+     "intertwiners (dimension)": 0
+    },
+    "P o K (the swap with complex conjugation)": {
+     "commutator of the image pair": "zeta^3",
+     "intertwiners (dimension)": 1
+    }
+   },
+   "zeta^4": {
+    "L": {
+     "commutator of the image pair": "zeta^4",
+     "intertwiners (dimension)": 1
+    },
+    "R": {
+     "commutator of the image pair": "zeta^4",
+     "intertwiners (dimension)": 1
+    },
+    "-I": {
+     "commutator of the image pair": "zeta^4",
+     "intertwiners (dimension)": 1
+    },
+    "P (the swap)": {
+     "commutator of the image pair": "zeta^-4",
+     "intertwiners (dimension)": 0
+    },
+    "P o K (the swap with complex conjugation)": {
+     "commutator of the image pair": "zeta^4",
+     "intertwiners (dimension)": 1
+    }
+   }
+  },
+  "L, R and -I keep the flux (one intertwiner each); P sends it to its conjugate (none); P o K keeps it (one); every flux": true,
+  "the moves force trivial hypercharge Wilson lines (up to mu_5, a centre twist of the pair)": "PROVED by the rule's argument (W31_RULE.md, F4); nothing is computed",
+  "as the rule stated": true
+ },
+ "F5 the moves at the puncture (flux zeta)": {
+  "projective order of the lifts of L and R (SL(2, F5) = 2I: 120)": 120,
+  "their commutant on C^5": 2,
+  "their isotypic structure [(dimension, multiplicity)]": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "|tr|^2 on the 2-piece over the 120": [
+   0.0,
+   0.381966,
+   1.0,
+   2.618034,
+   4.0
+  ],
+  "phi^2 and phi^-2 among them (golden)": true,
+  "|tr|^2 on the 3-piece over the 120": [
+   0.0,
+   0.381966,
+   1.0,
+   2.618034,
+   9.0
+  ],
+  "projective order on the 2-piece, on the 3-piece (A5: 60 each)": [
+   60,
+   60
+  ],
+  "the 2-piece: the lifts normalised to det 1 there generate (2I: 120)": 120,
+  "... with traces (real)": [
+   [
+    -2.0,
+    -1.618034,
+    -1.0,
+    -0.618034,
+    0.0,
+    0.618034,
+    1.0,
+    1.618034,
+    2.0
+   ],
+   true
+  ],
+  "... the spin representation of 2I (traces 0, +-1, +-phi, +-phi^-1, +-2)": true,
+  "the 2-piece is 2I's spin representation and the 3-piece factors through A5 (projective order 60 there)": true,
+  "the lift of (L R^-1 L)^2: a phase times the reflection k -> c - k, with c": 4,
+  "... its eigenspace dimensions": [
+   2,
+   3
+  ],
+  "... its eigenspaces are the pieces": true,
+  "the bare -I's lift: a phase times the reflection k -> c - k, with c": 0,
+  "... the bare -I's eigenspace dimensions": [
+   2,
+   3
+  ],
+  "... the bare -I's eigenspaces are the pieces": false,
+  "the lifts of L and R keep the bare -I's eigenspaces": false,
+  "with the bare -I added: commutant": 1,
+  "with the bare -I added: projective order": 3000,
+  "on Lambda^2 C^5 the lifts' structure [(dimension, multiplicity)]": [
+   [
+    1,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    6,
+    1
+   ]
+  ],
+  "as the rule stated (120; commutant 2, split 3 + 2; golden on the 2-piece, 2I's spin representation, the 3-piece through A5; reflections 4 and 0, the first's eigenspaces the pieces, the second's not; with -I: commutant 1, order 3000; Lambda^2 = [1, 3, 6])": true
+ },
+ "F6 the counts, every flux": {
+  "the table": {
+   "zeta^1": {
+    "projective order of the lifts": 120,
+    "structure on the 5, on Lambda^2 5": [
+     [
+      [
+       2,
+       1
+      ],
+      [
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       3,
+       1
+      ],
+      [
+       6,
+       1
+      ]
+     ]
+    ],
+    "d5 (move-invariant)": [
+     0,
+     2,
+     3,
+     5
+    ],
+    "d10 (move-invariant)": [
+     0,
+     1,
+     3,
+     4,
+     6,
+     7,
+     9,
+     10
+    ],
+    "n(10) = -m + d5: under the moves": [
+     -1,
+     1,
+     2,
+     4
+    ],
+    "n(10) under locality": [
+     -1,
+     4
+    ],
+    "n(5-bar) = -10 {2m/5} + d10: under the moves": [
+     -4,
+     -3,
+     -1,
+     0,
+     2,
+     3,
+     5,
+     6
+    ],
+    "n(5-bar) under locality": [
+     -4,
+     6
+    ],
+    "the SU(5)^3-free counts (n(10) = n(5-bar)): under the moves": [
+     -1,
+     2
+    ],
+    "the SU(5)^3-free counts under locality": []
+   },
+   "zeta^2": {
+    "projective order of the lifts": 120,
+    "structure on the 5, on Lambda^2 5": [
+     [
+      [
+       2,
+       1
+      ],
+      [
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       3,
+       1
+      ],
+      [
+       6,
+       1
+      ]
+     ]
+    ],
+    "d5 (move-invariant)": [
+     0,
+     2,
+     3,
+     5
+    ],
+    "d10 (move-invariant)": [
+     0,
+     1,
+     3,
+     4,
+     6,
+     7,
+     9,
+     10
+    ],
+    "n(10) = -m + d5: under the moves": [
+     -2,
+     0,
+     1,
+     3
+    ],
+    "n(10) under locality": [
+     -2,
+     3
+    ],
+    "n(5-bar) = -10 {2m/5} + d10: under the moves": [
+     -8,
+     -7,
+     -5,
+     -4,
+     -2,
+     -1,
+     1,
+     2
+    ],
+    "n(5-bar) under locality": [
+     -8,
+     2
+    ],
+    "the SU(5)^3-free counts (n(10) = n(5-bar)): under the moves": [
+     -2,
+     1
+    ],
+    "the SU(5)^3-free counts under locality": []
+   },
+   "zeta^3": {
+    "projective order of the lifts": 120,
+    "structure on the 5, on Lambda^2 5": [
+     [
+      [
+       2,
+       1
+      ],
+      [
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       3,
+       1
+      ],
+      [
+       6,
+       1
+      ]
+     ]
+    ],
+    "d5 (move-invariant)": [
+     0,
+     2,
+     3,
+     5
+    ],
+    "d10 (move-invariant)": [
+     0,
+     1,
+     3,
+     4,
+     6,
+     7,
+     9,
+     10
+    ],
+    "n(10) = -m + d5: under the moves": [
+     -3,
+     -1,
+     0,
+     2
+    ],
+    "n(10) under locality": [
+     -3,
+     2
+    ],
+    "n(5-bar) = -10 {2m/5} + d10: under the moves": [
+     -2,
+     -1,
+     1,
+     2,
+     4,
+     5,
+     7,
+     8
+    ],
+    "n(5-bar) under locality": [
+     -2,
+     8
+    ],
+    "the SU(5)^3-free counts (n(10) = n(5-bar)): under the moves": [
+     -1,
+     2
+    ],
+    "the SU(5)^3-free counts under locality": []
+   },
+   "zeta^4": {
+    "projective order of the lifts": 120,
+    "structure on the 5, on Lambda^2 5": [
+     [
+      [
+       2,
+       1
+      ],
+      [
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       3,
+       1
+      ],
+      [
+       6,
+       1
+      ]
+     ]
+    ],
+    "d5 (move-invariant)": [
+     0,
+     2,
+     3,
+     5
+    ],
+    "d10 (move-invariant)": [
+     0,
+     1,
+     3,
+     4,
+     6,
+     7,
+     9,
+     10
+    ],
+    "n(10) = -m + d5: under the moves": [
+     -4,
+     -2,
+     -1,
+     1
+    ],
+    "n(10) under locality": [
+     -4,
+     1
+    ],
+    "n(5-bar) = -10 {2m/5} + d10: under the moves": [
+     -6,
+     -5,
+     -3,
+     -2,
+     0,
+     1,
+     3,
+     4
+    ],
+    "n(5-bar) under locality": [
+     -6,
+     4
+    ],
+    "the SU(5)^3-free counts (n(10) = n(5-bar)): under the moves": [
+     -2,
+     1
+    ],
+    "the SU(5)^3-free counts under locality": []
+   }
+  },
+  "as the rule's table": true,
+  "an anomaly-free three (|n| = 3 with n(10) = n(5-bar)) for some flux, under the moves or under locality": false,
+  "under locality, three 10s (|n(10)| = 3) occur for the fluxes zeta^m, m": [
+   2,
+   3
+  ],
+  "under locality, three 5-bars (|n(5-bar)| = 3) occur for m": []
+ },
+ "F7 the verdict": {
+  "what it gives (conditional): complete SU(5) generations, the hypercharge inside SU(5)_g, the moves acting through 2I with golden traces (F3, F4, F5)": true,
+  "NEGATIVE: no anomaly-free three for any Z5 flux, under the moves or under locality (F6)": true,
+  "NEGATIVE: SU(5)_g, the whole centraliser (F2), is not broken to the Standard Model by anything forced (F4: the moves force trivial hypercharge Wilson lines)": true,
+  "NEGATIVE: an unbroken SU(5) is not the Standard Model; F-MC's derived cascade skips SU(5) (SMT, B892; its B1237 addendum corrects the landing to su(3) + su(2) + u(1)^3 and leaves the skip; B874: a statement over R)": "cited",
+  "NEGATIVE: the flux is not forced: the forced point's puncture has order at most 2 (W30's Q1, re-read), so no flux of any order above 2 comes from the forced data": true,
+  "... the record's order-5 structures are properties of the modulus or of threads (B206: the shadow group is a property of the modulus; the golden-covers dossier: not a golden selection)": "cited",
+  "NEGATIVE: the swap sends every Z5 flux to its conjugate (F4), so it is a common point only on the swap's fork (GENESIS GM5c)": true,
+  "the Z5 route closes: NEGATIVE as a derivation": true
+ }
+}

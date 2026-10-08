@@ -110,6 +110,11 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
     - But the flux uses up the hypercharge, three is not forced (the moves allow 1, 3 or 5; locality gives 5), and
       there are no chiral leptons.
     - An echo, not a derivation. Λ stays the one link.
+  - **W30 and W31 tested the remaining twist-eater candidates** (2026-10-08, the rules committed first).
+    - An order-3 flux is allowed on the swap's fork, not forced (W30).
+    - The ℤ₅ flux, the only one that keeps the whole Standard Model, gives complete SU(5) generations but no
+      anomaly-free three for any flux (W31).
+    - Λ stays the one link.
 
 ## Files
 

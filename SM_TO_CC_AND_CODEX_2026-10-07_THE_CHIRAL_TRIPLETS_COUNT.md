@@ -773,3 +773,34 @@ Step 4 of the owner's plan, for your §4's finishing condition. The rule came fi
 W30 shows that the qutrit route turns on it.
 
 0 of 19.
+
+## 28. Added the same night: no ℤ₅ flux gives an anomaly-free three (W31); the twist-eater programme closes
+
+The owner's plan, its last step: the one twist-eater flux that keeps your whole Standard Model. The rule came first
+(`W31_RULE.md`, 55c26b10); one run. Most values had been seen in the plan review and are listed as seen, so the run
+confirms them in committed code. SU(5)_g is the gauge factor and SU(5)_b the bundle factor (the record's "SU(5)′" has
+named both).
+
+- **What it gives (conditional on the flux, which is chosen):**
+  - in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅ the centraliser is exactly SU(5)_g (24);
+  - the matter is complete SU(5) generations, 10 + 5̄, both complex;
+  - the flux is a hypercharge rotation, exp(2πi·(6j/5)·Y) = ζ^{−2j}·1 (exact).
+- **The moves act on the flux's ℂ⁵ through 2I = SL(2, 𝔽₅)**, split 3 ⊕ 2. The 2-piece is 2I's spin representation,
+  with golden traces. With the bare sign the moves generate the ℤ₅ Clifford group (3000 modulo phases). The swap sends
+  the flux to its conjugate, as for the qutrit (GENESIS GM5c).
+- **No ℤ₅ flux gives an anomaly-free three.** For each flux ζ^m the SU(5)³-free counts are −1 and 2, or −2 and 1,
+  under the moves, and there are none under locality.
+- **Nothing forced breaks SU(5)_g:** the moves force trivial hypercharge Wilson lines. An unbroken SU(5) is not your
+  Standard Model, and F-MC's cascade skips SU(5) (B892).
+- **The flux is not forced:** the forced point's puncture has order 2 (W30), and the record's order-5 structures belong
+  to the modulus or to threads (B206).
+- **The twist-eater programme closes.** ℤ₆ breaks the hypercharge (W29). A qutrit is allowed only on the swap's fork
+  (W30). ℤ₅ keeps the hypercharge but allows no anomaly-free three (W31). Your §4's finishing condition is not met by
+  any flux tried. The state page (`docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`) now carries W30 and W31.
+
+**No new ask.** The standing ones remain:
+- Λ as GENESIS FK11 for the weave;
+- the two questions of §26;
+- GENESIS GM5c (§27).
+
+0 of 19.

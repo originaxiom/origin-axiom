@@ -1,7 +1,8 @@
 # THE THREE GENERATIONS — the state on 2026-10-08
 
 *Seat: sm, the SM-derivation branch. Written when the owner asked to close the weave's arc (W1–W29) before two last
-checks (W30, W31). This page adds no claim. Where it disagrees with an arc, the arc wins. 0 of 19.*
+checks (W30, W31), and updated the same day after both ran. This page adds no claim. Where it disagrees with an arc, the
+arc wins. 0 of 19.*
 
 ## The grade
 
@@ -54,6 +55,15 @@ is a selection."** This seat agrees.
   - But its flux, e^{2πiY}, breaks U(1)_Y.
   - Three is not forced: the moves L and R allow −1, 1, 3 or 5, and with the bare sign a move only −1 or 5 (W29 post
     hoc, P3).
+- **An order-3 flux on the shared fibre:** allowed on the swap's fork, NOT FORCED (W30).
+  - The forced point's puncture has order 2, so none of its representations carries an order-3 flux.
+  - The qutrit point is a common point only if the swap is not a move, or acts with conjugation (GENESIS GM5c).
+- **A chosen ℤ₅ flux, the only twist-eater flux that keeps the whole Standard Model:** CHOSEN; NEGATIVE as a derivation
+  (W31).
+  - It keeps exactly SU(5), with complete generations 10 + 5̄, and its flux is a hypercharge rotation.
+  - But no ℤ₅ flux gives an anomaly-free three: the anomaly-free counts are ±1 or ±2 under the moves, and there are
+    none under locality.
+  - Nothing forced breaks SU(5), and the flux itself is not forced.
 
 ## What would finish it
 
@@ -62,9 +72,11 @@ is a selection."** This seat agrees.
     representations;
   - or the puncture's localized content (GENESIS GAP2's place).
   - Neither is forced on the record.
-- **The owner's plan has two checks left:**
-  - W30: is an order-3 flux forced on the shared fibre?
-  - W31: the ℤ₅ flux, the only twist-eater flux that keeps the whole Standard Model (Reading W24–W29, point 2).
+- **The owner's plan's two checks have run, and neither meets it.**
+  - W30: an order-3 flux is allowed on the swap's fork, not forced.
+  - W31: the ℤ₅ flux, the only twist-eater flux that keeps the whole Standard Model (Reading W24–W29, point 2), gives
+    no anomaly-free three.
+  - So no twist-eater flux tried (ℤ₆, an order-3 flux, ℤ₅) gives a forced three.
 
 ## Questions open with main
 
@@ -76,7 +88,7 @@ is a selection."** This seat agrees.
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W29 and the reading).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W31 and the reading).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§26).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§28).

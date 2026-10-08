@@ -12,7 +12,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 **CLOSED on 2026-10-08 at W29, by the owner's plan.**
 - The state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`.
 - Main's grade (GENESIS v1.28): the flavour three is derived; the gauge three is a selection.
-- Two checks follow the close: W30 (is an order-3 flux forced?) and W31 (the ℤ₅ flux).
+- Two checks followed the close, and both ran on 2026-10-08. W30: an order-3 flux is allowed on the swap's fork, not
+  forced. W31: no ℤ₅ flux gives an anomaly-free three.
 
 ## The setting
 
@@ -1776,6 +1777,89 @@ object is the question, not an input.
 **Status.** COMPUTED (one run; the rule committed first) and PROVED (Q1, Q2). A WEAVE result: an order-3 flux is
 allowed on the swap's fork, NOT FORCED.
 
+## W31. The ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅: complete SU(5) generations, but no anomaly-free three (`the_z5_twist_eater.py`; `W31_RULE.md`)
+
+**Why.** The last step of the owner's approved plan.
+- Holonomies that keep the whole Standard Model lie in its centraliser in E₈. A twist-eater flux that keeps it therefore
+  has order 5 (Reading W24–W29, point 2).
+- Main's grade (GENESIS v1.28, S86) names SU(5) among the holonomy groups with complex representations that would finish
+  the derivation if forced.
+
+**Weave or thread?** A weave-type computation on a chosen structure. Every cell is joint over the moves. The ℤ₅ flux is
+chosen, not forced, so every claim is conditional on it.
+
+**Labels.** SU(5)_g is the gauge factor; it contains the Standard Model. SU(5)_b is the bundle factor, the Standard
+Model's centraliser, where the clock C₅ and the shift S₅ live. The record's "SU(5)′" has named both (TERMINOLOGY's
+registry).
+
+**The rule** (`W31_RULE.md`, committed 55c26b10 before the run). One run.
+- Most values were seen in the plan review and are listed as seen. The run confirms them in committed code; it is not an
+  independent test.
+- Every cell came out as stated.
+- Before the run, reading the script found three faults: a leftover block and two sets of repeated dictionary keys, which
+  would have overwritten values. They were fixed, and the rule's sentence on A₅ was added to F5's test.
+- A first launch failed before the script started (a timing tool missing from the container), so it produced nothing.
+
+**The read-out (COMPUTED; F1's lemma PROVED; F4's Wilson-line argument PROVED in the rule, not computed).**
+- **F1.** ⟨C₅, S₅⟩ has order 125, centre ζ^j·1 and commutator ζ·1. It is irreducible on ℂ⁵ and complex (indicator 0), so
+  no U(1) of SU(5)_b commutes with it.
+- **F2.** Its centraliser in E₈ has dimension 24: exactly SU(5)_g. W25's chi248 at diag(h, 1) and the explicit
+  SU(5)_g × SU(5)_b form agree on all 125 elements, to 1.2·10⁻¹³. The two are one expression, so this checks the code.
+- **F3.** The 5 occurs 10 times (the 10 of SU(5)_g). Λ²5 is two copies of one type (central character ζ²), and that type
+  occurs 10 times (the 5̄ of SU(5)_g, twice). Both are complex: complete SU(5) generations, 10 + 5̄. The 248 is
+  accounted for: 24 + 24 one-dimensional, plus 4 × 50.
+- **F4.** The flux is a hypercharge rotation.
+  - exp(2πi·(6j/5)·Y) = ζ^{−2j}·1 on SU(5)_g's 5 (exact).
+  - Through the centre kernel (ζ, ζ⁻²), the flux ζ^m in SU(5)_b is ζ^{−2m} in Z(SU(5)_g).
+  - For every flux, L, R and −I keep it (one intertwiner each). The swap P sends it to its conjugate (none). P∘K keeps
+    it (one).
+- **F5.** The lifts of L and R on ℂ⁵ (flux ζ):
+  - projective order 120 (SL(2, 𝔽₅) ≅ 2I); commutant 2, split 3 ⊕ 2;
+  - the 2-piece is 2I's spin representation: normalised to det 1 there, the group has order 120 and traces 0, ±1, ±φ,
+    ±φ⁻¹, ±2, so |tr|² takes the golden values φ² and φ⁻². The 3-piece factors through A₅ (projective order 60);
+  - the pieces are the eigenspaces of the lift of (LR⁻¹L)², the reflection k ↦ 4 − k. The bare −I's lift is k ↦ −k; its
+    eigenspaces also have dimensions 3 and 2, but they are not the pieces;
+  - with the bare −I added: commutant 1, projective order 3000;
+  - on Λ²ℂ⁵: 1 ⊕ 3 ⊕ 6.
+- **F6.** The counts. The structure is the same for every flux: d₅ ∈ {0, 2, 3, 5} and d₁₀ ∈ {0, 1, 3, 4, 6, 7, 9, 10}.
+
+  | flux | n(10) under the moves | n(10) under locality | SU(5)³-free under the moves | SU(5)³-free under locality |
+  |---|---|---|---|---|
+  | ζ | −1, 1, 2, 4 | −1, 4 | −1, 2 | none |
+  | ζ² | −2, 0, 1, 3 | −2, 3 | −2, 1 | none |
+  | ζ³ | −3, −1, 0, 2 | −3, 2 | −1, 2 | none |
+  | ζ⁴ | −4, −2, −1, 1 | −4, 1 | −2, 1 | none |
+
+  - **No ℤ₅ flux gives an anomaly-free three**, under the moves or under locality.
+  - With ζ^{±2}, three 10s occur under locality, but never with three 5̄s.
+
+**What it shows.**
+- **What it gives, conditionally:** complete SU(5) generations, the hypercharge inside SU(5)_g, and the moves acting
+  through 2I with golden traces.
+- **NEGATIVE as a derivation:**
+  - no anomaly-free three for any ℤ₅ flux;
+  - SU(5)_g, the whole centraliser, is not broken to the Standard Model by anything forced: the moves force trivial
+    hypercharge Wilson lines (F4's argument);
+  - an unbroken SU(5) is not the Standard Model, and F-MC's derived cascade skips SU(5) (SMT, B892; its B1237 addendum
+    corrects the landing and leaves the skip);
+  - the flux is not forced. The forced point's puncture has order 2 (W30, Q1), and the record's order-5 structures are
+    properties of the modulus or of threads (B206; the golden-covers dossier);
+  - the swap sends the flux to its conjugate, so it is a common point only on the swap's fork (GENESIS GM5c), as in W30.
+- **Readings (not computed claims):**
+  - The anomaly-free counts are ±1 or ±2. W23 found at most two complete generations by a different construction.
+  - 3000 = 5² × 120, the order of the ℤ₅ qudit's Clifford group modulo phases. The moves L and R give a complement,
+    SL(2, 𝔽₅); the bare sign adds the translations. The qutrit shows the same (W30: 216 = 3² × 24).
+  - The moves' group here, 2I = SL(2, 𝔽₅), is the group B206 found as the golden object's spin shadow. Here it comes
+    from the flux's order alone, which agrees with B206's correction: the shadow group is a property of the modulus.
+- **The twist-eater programme gives no forced three:**
+  - ℤ₆ breaks the hypercharge (W29);
+  - a qutrit is allowed only on the swap's fork (W30);
+  - ℤ₅ keeps the hypercharge but allows no anomaly-free three (W31).
+  - Main's finishing condition is not met by any flux tried.
+
+**Status.** COMPUTED (one run; the rule committed first), with F1's lemma and F4's argument PROVED. A CHOSEN object (the
+ℤ₅ flux, not forced). NEGATIVE as a derivation.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -1860,9 +1944,10 @@ the owner's approved plan of 2026-10-08: contemplate, close the arc, then W30 (s
 | W28 | COMPUTED and PROVED (I5, exact; the rule committed first, every cell as predicted); a WEAVE result, the foundation | the end condition: the six local solutions are a vector-spinor (spin ½ ⊕ spin 3/2 under 2O); the two middle conditions (index ∓1) couple the parity sectors and break 𝕎's flavor group U(3) to a phase. The moves alone allow −3, −1, +1, +3; the flavor group alone −3, 0, +3; jointly only ±3, and locality (the puncture's holonomy −1, symmetry U(6)) gives ±3 too. So Λ's "kept apart" follows from the end condition breaking no symmetry of the bulk problem (a stated naturality condition). The common point is the qubit: Q₈ the Pauli group, the parities the three Pauli axes (mutually unbiased), the moves' lifts the Clifford group (2O, the normaliser of Q₈), acting through PSL(2, ℤ/4) ≅ S₄ as SU(2) level 1's projective modular data (one dictionary each for the semion and the anti-semion: the hand is in the phases); the parities are ℙ¹(𝔽₂), the three global forms SU(2), SO(3)₊, SO(3)₋, equivariantly; the common point is 't Hooft's twist-eater, which eats the centre symmetry |
 | W29 | COMPUTED and PROVED (the lemma; the rule committed first; every cell as predicted except Z5's naming of the −I lift, corrected post hoc); a CHOSEN object (the ℤ₆ flux, not forced), NEGATIVE as a derivation | the ℤ₆ twist-eater (the weave's qubit ⊗ a qutrit) in E₈: its centraliser is exactly SU(3) × SU(2) (11; the qubit alone F₄ × SU(2), the qutrit alone SU(3) × G₂), its 6 is complex with multiplicity (3, 2), the 15's three single types are the three parities ((3̄, 1) each), the 20's eight single types are ℙ¹(𝔽₃)'s four lines in conjugate pairs ((1, 2) each), and its flux is e^{2πiY}; the swap has no lift (the hand visible). The moves split the 6 as 4 ⊕ 2 (the eigenspaces of the lift of (LR⁻¹L)²): quark generations −1, 1, 3 or 5, each SU(3)³-free with the Standard Model's ratio; locality gives five. Not a derivation: the flux breaks U(1)_Y (exact lemma), three is not forced, no chiral leptons, and the flux is not forced (step 4) QUALIFIED post hoc (P3): the set −1, 1, 3, 5 holds for the moves L and R; with the bare sign −I a move (GENESIS GM5b, open) it is −1 or 5; W28 unchanged |
 | W30 | COMPUTED and PROVED (Q1, Q2; the rule committed first, every cell as stated); a WEAVE result, NOT FORCED | is an order-3 flux forced on the shared fibre? The forced point's puncture −1 has order 2, so no representation of it carries an order-3 flux; the qutrit pairs form one class, kept by L, R and −I and sent to the conjugate class by the swap (the swap with complex conjugation keeps it), so the qutrit point is a common point only on one branch of the swap's fork (GENESIS GM5c, FK3); its rank-3 cusp condition is a choice; the moves act on it through SL(2, 𝔽₃) (order 24, 2 ⊕ 1); the record's order-3 structures are on threads or on the meridian. Allowed on a fork, not forced |
+| W31 | COMPUTED and PROVED (F1's lemma; F4's argument; the rule committed first, every cell as stated); a CHOSEN object (the ℤ₅ flux, not forced), NEGATIVE as a derivation | the ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅, the only twist-eater flux that keeps the whole Standard Model: its centraliser is exactly SU(5)_g (24); its matter is complete SU(5) generations (the 5 ten times, the 10 of SU(5)_g; Λ²5's type ten times, the 5̄ twice; both complex); its flux is a hypercharge rotation (exact). The moves act on ℂ⁵ through 2I = SL(2, 𝔽₅) (order 120, split 3 ⊕ 2, the 2-piece the spin representation with golden traces), and with the bare −I through the ℤ₅ Clifford group (3000). The swap sends the flux to its conjugate. No flux ζ^m gives an anomaly-free three: the SU(5)³-free counts are −1 and 2, or −2 and 1, under the moves, and none under locality. Not a derivation: no three, SU(5) unbroken by anything forced, the flux not forced |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
-| W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 turns on the swap. Relabelled from a second "W7" on 2026-10-08 |
+| W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
 
 - **In the owner's terms (READING).**
   - The three is the shared records', not any thread's: every thread acts on the same three parities.
@@ -1901,6 +1986,7 @@ the owner's approved plan of 2026-10-08: contemplate, close the arc, then W30 (s
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_z5_twist_eater.py` → `the_z5_twist_eater.json`: W31, the ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅ (the group, the centraliser, the matter, the hypercharge and the orientation, the moves at the puncture, the counts for every flux); its rule `W31_RULE.md`, committed first.
 - `the_order_three_flux.py` → `the_order_three_flux.json`: W30, the puncture in every Sym^n of the forced point, the qutrit class and the moves on it (the swap's fork), the moves on the qutrit's ℂ³, the record's order-3 structures re-read; its rule `W30_RULE.md`, committed first.
 - `the_z6_twist_eater.py` → `the_z6_twist_eater.json`: W29, the ℤ₆ twist-eater in E₈ (the group, the centralisers, the matter by type, the flux and the orientation, the moves at the puncture, the anomalies); its rule `W29_RULE.md`, committed first; `the_z6_twist_eater_posthoc.py` → `the_z6_twist_eater_posthoc.json`, after the read-out: the lifts of −I and of (LR⁻¹L)², and which splits the 6.
 - `the_three_routes_and_the_qubit.py` → `the_three_routes_and_the_qubit.json`: W28, the end condition's index sets under the moves, the flavor group, the grading and locality, and the common point as the qubit (Pauli, Clifford, SU(2)₁, the global forms, the twist-eater); its rule `W28_RULE.md`, committed first.

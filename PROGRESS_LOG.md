@@ -18262,3 +18262,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   that is a choice.
 - **The record's order-3 structures stay on threads or on the meridian.**
 - **Next:** W31, the ℤ₅ flux.
+
+## 2026-10-08 (night, the approved plan's Phase D) — the weave's W31: no ℤ₅ flux gives an anomaly-free three
+
+- **The rule came first** (55c26b10). One run; every cell came out as stated (most values seen in the plan review).
+- **The ℤ₅ flux keeps exactly SU(5)_g**, with complete generations 10 + 5̄, and is a hypercharge rotation.
+- **The moves act through 2I = SL(2, 𝔽₅)**, split 3 ⊕ 2, golden on the spin piece.
+- **No flux gives an anomaly-free three:** −1 and 2, or −2 and 1, under the moves; none under locality.
+- **Nothing forced breaks SU(5), and the flux is not forced.** The twist-eater programme closes: ℤ₆ breaks the
+  hypercharge, a qutrit needs the swap's fork, ℤ₅ allows no three.
+- **The plan is complete** (Phases A to D). The goal, three generations derived from the principle, is not met: the
+  flavour three is derived; the gauge three stays a selection (main's grade).

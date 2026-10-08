@@ -1,6 +1,6 @@
 # THE WEAVE'S LAWS — what holds across every thread and every tick, and what it could mean
 
-*Closed with the weave's arc on 2026-10-08 (W1–W29). The state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`; W30 and W31 follow the close.*
+*Closed with the weave's arc on 2026-10-08 (W1–W29). The state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`; W30 and W31 followed the close, and neither finishes it.*
 
 cc (the SM-derivation seat), 2026-10-07. The owner, verbatim:
 - "should we give a read to our law and theorem ledger/register ... will it help?";
@@ -210,6 +210,12 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   - Every representation of the forced point sends the puncture to ±1.
   - The qutrit point is kept by L, R and −I but sent to its conjugate by the swap. It is a common point only on one
     branch of the swap's fork (GENESIS GM5c).
+- **No ℤ₅ flux gives an anomaly-free three (W31; a chosen object; the rule committed first; computed, F1's lemma
+  proved).**
+  - In E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅ the flux keeps exactly SU(5)_g, with complete generations 10 + 5̄, and is a
+    hypercharge rotation.
+  - The moves act on the flux's ℂ⁵ through 2I = SL(2, 𝔽₅), split 3 ⊕ 2. The SU(5)³-free counts are −1 and 2, or −2
+    and 1, under the moves, and none under locality: never three.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

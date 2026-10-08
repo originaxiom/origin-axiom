@@ -11,7 +11,7 @@ generations derived".
   reach this side: its fourth query produced no surviving claim.
 - **The weave's side:** `docs/THE_WEAVE.md` and `docs/dossiers/the_weave_2026-10-07/`.
 
-**Closed on 2026-10-08 (the owner's plan):** the state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`. Main's grade (GENESIS v1.28): the flavour three is derived; the gauge three is a selection. W30 and W31 follow the close.
+**Closed on 2026-10-08 (the owner's plan):** the state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`. Main's grade (GENESIS v1.28): the flavour three is derived; the gauge three is a selection. W30 and W31 followed the close, and neither finishes it: an order-3 flux is allowed on the swap's fork, not forced (W30), and no ℤ₅ flux gives an anomaly-free three (W31).
 
 **The derivation, written with its one link (2026-10-08):** `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md` (W27). The statement there is "derived given one stated link", never "derived from the principle" alone.
 
@@ -136,6 +136,7 @@ So this section records which patterns the weave's group contains, and nothing m
 | 19 | COMPUTED and PROVED (W28; the rule committed first, every cell as predicted); a WEAVE result, the foundation | the end condition's routes to three: the six local solutions are a vector-spinor (spin ½ ⊕ spin 3/2); the two middle conditions couple the sectors and break 𝕎's flavor group to a phase. The moves alone allow −3, −1, +1, +3, the flavor group alone −3, 0, +3, jointly only ±3; locality (the puncture's holonomy −1) gives ±3 too. So row 18's "kept apart" follows from the end condition breaking no symmetry of the bulk problem, a stated naturality condition. The common point read as the qubit, checked: the Pauli group, the moves the Clifford group acting through SU(2) level 1's projective modular data (the hand in the phases, invisible), the parities ℙ¹(𝔽₂) and the three global forms of su(2), the common point 't Hooft's twist-eater |
 | 20 | COMPUTED (W29; the rule committed first; one sub-claim's naming corrected post hoc); a CHOSEN object, NEGATIVE as a derivation | the ℤ₆ twist-eater (the weave's qubit ⊗ a qutrit, the step the contemplation proposed): its centraliser in E₈ is exactly SU(3) × SU(2), its quark doublets are complex, one antiquark singlet is labelled by each parity, and its flux is the hypercharge's 2π rotation e^{2πiY}; the swap has no lift, so the hand is visible. But the flux uses up the hypercharge (an exact lemma: no U(1) commutes with it), the moves allow −1, 1, 3 or 5 quark generations (each anomaly-free with the Standard Model's ratio) and locality gives five, the doublets are real (no chiral leptons), and nothing shown forces the qutrit flux. An echo, not a derivation QUALIFIED post hoc (P3): the set −1, 1, 3, 5 holds for the moves L and R; with the bare sign −I a move (GENESIS GM5b, open) it is −1 or 5 |
 | 21 | COMPUTED and PROVED (W30; the rule committed first) ; a WEAVE result, NOT FORCED | is an order-3 flux forced on the shared fibre (step 4)? No representation of the forced point carries one (its puncture −1 has order 2); the qutrit point exists and the grammar's moves keep it, but the swap sends it to its conjugate, so it is a common point only on one branch of the swap's fork (GENESIS GM5c, FK3), with a rank-3 cusp condition that is a choice. Allowed on a fork, not forced: the gauge-side complex structure is tied to the open swap |
+| 22 | COMPUTED and PROVED (W31; the rule committed first, every cell as stated); a CHOSEN object, NEGATIVE as a derivation | the ℤ₅ flux, the only twist-eater flux that keeps the whole Standard Model (the owner's plan, its last step): in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅ its centraliser is exactly SU(5)_g, its matter is complete SU(5) generations (10 + 5̄, both complex), and its flux is a hypercharge rotation (exact). The moves act through 2I = SL(2, 𝔽₅), split 3 ⊕ 2, with golden traces on the spin piece. But no flux ζ^m gives an anomaly-free three: the SU(5)³-free counts are −1 and 2, or −2 and 1, under the moves and none under locality; SU(5) is not broken by anything forced; the swap sends the flux to its conjugate (GENESIS GM5c); the flux is not forced. The twist-eater programme gives no forced three |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -412,6 +413,17 @@ taken from the weave. Every link is named with its status.
     common point only if the swap is not a move, or acts with conjugation (GENESIS GM5c, FK3).
   - **The qubit is blind to the swap; the qutrit makes it decide.** So the complex structure main's grade asks for is
     tied to the open swap.
+- **W31: no ℤ₅ flux gives an anomaly-free three** (the owner's plan, its last step; the rule committed first,
+  55c26b10; a chosen object).
+  - **It gives complete SU(5) generations.** The centraliser is exactly SU(5)_g, the matter is 10 + 5̄ (both
+    complex), and the flux is a hypercharge rotation (exact).
+  - **The moves act through 2I = SL(2, 𝔽₅),** split 3 ⊕ 2, with golden traces on the spin piece.
+  - **But no flux allows an anomaly-free three.** The SU(5)³-free counts are −1 and 2, or −2 and 1, under the
+    moves, and none under locality.
+  - **And nothing forced breaks SU(5)** (the moves force trivial hypercharge Wilson lines), the swap sends the flux
+    to its conjugate (GENESIS GM5c), and the flux itself is not forced.
+  - **With W29 and W30, the twist-eater programme gives no forced three.** Main's finishing condition is not met
+    by any flux tried.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

@@ -578,3 +578,32 @@ def test_w30_the_order_three_flux():
     assert len(OT.intertwiners(A, B, B.conj(), A.conj())) == 1
     assert len(OT.intertwiners(A, B, A, A @ B)) == 1
     assert np.allclose(OT.comm(A, B), OT.OMEGA * np.eye(3))
+
+
+def test_w31_the_z5_flux():
+    """W31 (the rule committed first): the Z5 flux keeps exactly SU(5)_g with complete generations, but no flux zeta^m
+    gives an anomaly-free three, under the moves or under locality. The flux zeta's count is recomputed in process"""
+    import sys
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_z5_twist_eater.json").read_text(encoding="utf-8"))
+    assert all(v is True or v == "cited" for v in d["F7 the verdict"].values())
+    assert d["F2 the centraliser in E8"]["the mean of chi248 at diag(h, 1) over the 125 (W25's chi248)"] == 24.0
+    assert d["F6 the counts, every flux"]["as the rule's table"] is True
+    assert d["F6 the counts, every flux"][
+        "an anomaly-free three (|n| = 3 with n(10) = n(5-bar)) for some flux, under the moves or under locality"] is False
+    f5 = d["F5 the moves at the puncture (flux zeta)"]
+    assert f5["projective order of the lifts of L and R (SL(2, F5) = 2I: 120)"] == 120
+    assert f5["with the bare -I added: projective order"] == 3000
+    sys.path.insert(0, str(here))
+    import the_z5_twist_eater as Z5
+    A, B = Z5.C5, Z5.S5
+    assert len(Z5.OT.intertwiners(A, B, B, A)) == 0                 # the swap sends zeta to zeta-bar
+    uL, uR, _ = Z5.lifts(A, B)
+    s5 = sorted((dd, m) for _, dd, m in Z5.Z.components([uL, uR], 5))
+    s10 = sorted((dd, m) for _, dd, m in Z5.Z.components([Z5.Z.compound(uL, 2), Z5.Z.compound(uR, 2)], 10))
+    assert s5 == [(2, 1), (3, 1)] and s10 == [(1, 1), (3, 1), (6, 1)]
+    n10 = {-1 + x for x in Z5.Z.subset_sums(s5)}
+    n5b = {-4 + x for x in Z5.Z.subset_sums(s10)}
+    assert sorted(n10 & n5b) == [-1, 2]
+    assert np.allclose(Z5.OT.comm(A, B), Z5.ZETA * np.eye(5))
