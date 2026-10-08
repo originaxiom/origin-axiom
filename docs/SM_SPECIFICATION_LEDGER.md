@@ -564,3 +564,28 @@ killed (v3103; m082(1,3)); GENESIS GM5b over-stated what the signed states need 
 **What this does not supply.** Any of the nineteen parameters; three generations; which hand; a count from the hand;
 the split; an index in a frame of the right parity. The order of work is `docs/THE_CROSSING_2026-10-07.md`; the
 re-read of the record that led to it is `docs/THE_REREAD_2026-10-06.md`.
+
+## Currency note — 2026-10-08, through B1618 (the weave: what it derives, what it allows, and where the values are not)
+
+*Added at B1618's seal push (the doc-currency gate: this ledger lagged 31 arcs). The window is the weave's
+(`docs/THE_WEAVE.md`; GENESIS v1.24–v1.34).*
+
+- **Three generations (S3).** On the weave, the flavour three is DERIVED — three, alike, chiral under the weave's own
+  group, one per parity (B1606, with the SM seat's W19–W22 verified) — and the gauge three is a selection (FK11; the
+  owner's ruling of 2026-10-08 makes W27's link Λ a tagged working postulate, results "given Λ").
+- **Chirality (S2).** The three's hand is the orientation sheet chosen at SE2 (B1609, B1610); the owner ruled "even
+  ticks observed" (GM5c), so the observed weave is ⟨L, R⟩ and which hand is called left is a convention.
+- **CP.** The weave's generalized CP is the record swap; CP violation is allowed, not forced; no phase is fixed by the
+  group (B1611).
+- **Mixing.** The weave's group fixes six mixing patterns, none in the data for leptons or quarks; it allows one viable
+  leptonic relation, TM1, without the swap — sin²θ₁₂ = 0.318 and δ_CP ≈ 262.5° given θ₂₃, registered as falsifier P10
+  (B1612, B1613; value contact reopened by the owner, `docs/KIND_TABLE.md`).
+- **Masses.** Not in the weave's group: three free couplings per sector at TM1's symmetry; residual vacua rigid or
+  m₁ + m₂ = m₃, the charged-lepton hierarchy out of reach (B1615); no residual Majorana vacuum survives the splittings
+  (B1616); given the owner's tagged postulate τ = ω, the masses are degenerate at ω (B1617), and B1618 asks whether
+  any weight changes that.
+- **The physical vacuum (the audit lane, headline level).** One supplied curved E₈ action admits a stable stationary
+  S(U(3) × U(2)) gauge vacuum with zero charged index; its magnetic family is unstable.
+
+**What this does not supply.** Any of the nineteen parameters. The flavour sector's values are not in the weave's
+symmetry; they need a forced modulus, dynamics or end data.

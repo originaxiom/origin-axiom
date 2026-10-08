@@ -199,3 +199,14 @@ and was not run.
 | the signed states need the inverse moves (GENESIS GM5b through v1.13) | one central move, −I, suffices and brings no inverse letter (B1482) | positivity is what excludes the − states; FK4 asks whether negating the records is a legal move |
 | swap the four for an odd module of the lift to make the count depend on the spin structure (main, in conversation, 2026-10-07) | every odd symmetric power of every lift is acyclic on the word states (the fibre boundary has trace −2 on every lift), and the class index is mirror-even for every module | count and hand live in complementary sectors; the hand enters a count only as the choice of order (B1486, B1487, GENESIS v1.15) |
 | no centralizer construction reaches chiral matter at rank four — read of the family rather than of the root (THE_SM_VERDICT §2.1) | B959 rests on H₁ = ℤ, a knot-complement fact: m004's | scoped on the page to the root (S65) |
+
+## Added 2026-10-08 (B1602–B1618): phrasings withdrawn in the weave's window
+
+| retracted phrase | why | the current statement |
+|---|---|---|
+| a third odd-trace carrier, −LLRLRLRR, reading (+3, +1) (B1602) | noise: the cover's relators were 720–902 letters and the four's residual at 40 digits was 6 × 10² (B1604's Euler control) | on odd trace the root's pair is alone to length eight, certified (B1605) |
+| the sense of the root's 3-cycle as the chirality bit (main, in conversation, 2026-10-07) | the sense flips under every odd rotation of the word and is kept by the mirror (B1607) | the McKay orientation is neither a thread invariant nor the mirror bit; the three's hand is the records' orientation (B1609) |
+| both hands are one bit, the founding torsor's swap bit (B1610's sealed headline) | the records' hand is on no founding rule; the sealed spectral detector was vacuous (E82) | the McKay hand is the swap bit given the arrow; the three's hand is the SE2 sheet (B1610) |
+| "the object sees everything: no private states" as a statement about the weave (the observer layer, B761, read beyond m004) | B761 is m004's adjoint data; the weave's matter is wholly private at the puncture (B1614), and interior classes exist on m004's own forced cover (B1602–B1605) | no private states holds for the adjoint on every thread (the SM seat's W34); the matter carrying the three is private (B1614) |
+| no residual-aligned vacuum gives a mass ratio below 0.1 (B1615's sealed C4) | the second triplet along RRL gives a family with m₁ + m₂ = m₃ and m₁/m₃ down to zero | the charged leptons' hierarchy is still out of reach (m₂ ≥ m₃/2 in that family) |
+| Σm ≈ 0.115 eV from the weave's neutrino sum rule (B1616's solver output) | the solver imposed the sum rule and not the rigid ratios; no residual Majorana spectrum survives the splittings | the weave's group fixes no neutrino mass (B1616) |
