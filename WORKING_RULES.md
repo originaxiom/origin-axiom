@@ -110,6 +110,17 @@ Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
 11. **Attribution and privacy.** Commits as `originaxiom`; no AI mentions in
     anything public-facing; scrub sandbox paths from committed files. After
     every merge to `main`: `git push codeberg main` (the mirror).
+    *Restated by the owner, 2026-10-08: "from now on commit with originaxiom
+    only, make it a rule".* A fresh container can reset git's identity. The
+    SM seat made 12 commits as `Claude` (d39778dd, W24's rule, to 5dfe88f8, W29) before
+    `scripts/gates/gates.py`'s attribution gate was run. So, before the first
+    commit of every session:
+    - run `git config user.name originaxiom`;
+    - run `git config user.email originaxiom@users.noreply.github.com`;
+    - after the commit, check `git log -1 --format=%an`;
+    - run the gates before every push.
+
+    Pushed history is not rewritten to change an author.
 12. **Report faithfully.** Negatives bank as computed facts with their
     discriminating computation in-sandbox (never asserted/cited/proxied);
     an unearned negative is as bad as numerology. Don't stop and celebrate
