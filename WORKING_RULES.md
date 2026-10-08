@@ -112,7 +112,7 @@ Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
     every merge to `main`: `git push codeberg main` (the mirror).
     *Restated by the owner, 2026-10-08: "from now on commit with originaxiom
     only, make it a rule".* A fresh container can reset git's identity. The
-    SM seat made 12 commits as `Claude` (d39778dd, W24's rule, to 5dfe88f8, W29) before
+    SM seat made 12 commits under the container's default author (d39778dd, W24's rule, to 5dfe88f8, W29) before
     `scripts/gates/gates.py`'s attribution gate was run. So, before the first
     commit of every session:
     - run `git config user.name originaxiom`;
