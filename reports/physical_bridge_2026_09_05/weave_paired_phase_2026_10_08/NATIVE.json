@@ -1,0 +1,126 @@
+{
+  "all_quantum_completions_excluded": false,
+  "anomaly_vectors": {
+    "-1": [
+      "1",
+      "5",
+      "9/2",
+      "1002",
+      "24"
+    ],
+    "-2": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "-3": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "0": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "1": [
+      "-1",
+      "-5",
+      "-9/2",
+      "-1002",
+      "-24"
+    ],
+    "2": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ],
+    "3": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ]
+  },
+  "consistent_residual": {
+    "U a a a v": "-1/2",
+    "U a f v": "-1/2",
+    "U a v f": "-1/2",
+    "U f a v": "-1/2",
+    "U f v a": "1/2",
+    "U v a a a": "1/2",
+    "U v a f": "1/2",
+    "U v f a": "1/2",
+    "V a a a u": "1/2",
+    "V a f u": "1/2",
+    "V a u f": "1/2",
+    "V f a u": "1/2",
+    "V f u a": "-1/2",
+    "V u a a a": "-1/2",
+    "V u a f": "-1/2",
+    "V u f a": "-1/2",
+    "a a f u v": "1/2",
+    "a a f v u": "-1/2",
+    "a a u v f": "1/2",
+    "a a v u f": "-1/2",
+    "a f a u v": "-1/2",
+    "a f a v u": "1/2",
+    "f f u v": "1",
+    "f f v u": "-1"
+  },
+  "exact_form_witness": {
+    "U a a v": "1/2",
+    "U a v a": "-1/2",
+    "U v a a": "-1/2",
+    "V a a u": "-1/2",
+    "V a u a": "1/2",
+    "V u a a": "1/2",
+    "a a a u v": "1/2",
+    "a a a v u": "-1/2",
+    "a f u v": "1",
+    "a f v u": "-1"
+  },
+  "facts": {
+    "actual_rectangular_polar_factorization": true,
+    "all_opposite_and_zero_indices_kept": true,
+    "both_kernel_projectors_retained": true,
+    "color_nonzero_with_first_flux_endpoint": true,
+    "compression_positive_not_commuting_assumption": true,
+    "consistent_nonabelian_residual_is_exact": true,
+    "covariant_polynomial_is_not_consistent": true,
+    "d_squared_and_signed_cyclic_controls": true,
+    "exotic_cannot_be_discarded": true,
+    "full248_gauge_weight_population": true,
+    "kernel_minus_cokernel_not_pair_count": true,
+    "massive_actual_gaussian_block": true,
+    "one_spectral_sign_is_not_a_dirac_pair": true,
+    "paired_compression_comes_from_mass_action": true,
+    "polar_map_keeps_complete_gauge_representation": true,
+    "positive_mass_has_no_gauge_phase": true,
+    "target_positive_square_intertwines": true,
+    "unmatched_target_compression_detected": true,
+    "vector_gauge_similarity_preserves_gaussian": true,
+    "wrong_cubic_coefficient_fails": true
+  },
+  "full_quantum_action_derived": false,
+  "gauge_invariant_nonzero_flux_phase": false,
+  "internally_local_regulator_derived": false,
+  "massive_gaussian_polynomial": "m**4 + 7*m**2 + 4",
+  "nonauthor_acceptance": false,
+  "phase_prescription_is_supplied": true,
+  "physical_goal_achieved": false,
+  "polar_kernel_dimensions": [
+    1,
+    2
+  ],
+  "predicates_passed": 20
+}

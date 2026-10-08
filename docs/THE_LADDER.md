@@ -1,5 +1,28 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October8 paired-phase checkpoint:20 native/8 separate reference/14
+focused and302 eighteen-packet regression tests PASS on first attempts
+at pushed seal5831f542f. Report:
+reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/FINDINGS.md.
+One supplied internally nonlocal polar-paired measure gives an integrable
+fermion phase for the same fixed stationary internal background and
+parallel unbroken external gauge fields. Massive Gaussian phases are1;
+the unpaired Weyl sector retains NONZERO consistent anomalies for n!=0.
+Exact nonabelian descent witness passes; wrong cubic and covariant
+controls fail. Consistency is not gauge invariance or a local full-parent
+completion. Previous heat and inverse-current results both survive in
+their stated prescriptions. Stage2T PARTIAL: next a justified local
+regulator/end comparison with both boundaries and actual gauge action.
+Seven science/22 pinned-and-working sources unchanged. Outside analytic
+review, full-suite/main-bank and four inherited governance failures
+remain. No new shared identifier or empirical parameter.
+All-head fetch leaves main014561417/SMd62458221 unchanged; no new
+cross-seat scientific result imported. Magnetic saddles, zero-flux
+nonnegative minima and source/silver positives retained. Full
+parameter-free SM/TOE ACTIVE and unachieved: stable families, generated
+parent/measure, normalized parameters, observer/qualia and gravity remain.
+Earlier dated NEXT statements below retain their historical epoch.
+
 October8 cusp Ward checkpoint:23 native/9 separate reference/14 focused
 and288 seventeen-packet regression tests PASS on first attempts at
 pushed seal309df8c3f. Same supplied curved E8 parent, complete spin/domain

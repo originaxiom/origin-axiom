@@ -1,0 +1,70 @@
+{
+  "anomaly_vectors": {
+    "-1": [
+      "1",
+      "5",
+      "9/2",
+      "1002",
+      "24"
+    ],
+    "-2": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "-3": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "0": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "1": [
+      "-1",
+      "-5",
+      "-9/2",
+      "-1002",
+      "-24"
+    ],
+    "2": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ],
+    "3": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ]
+  },
+  "massive_gaussian_polynomial": "m**4 + 7*m**2 + 4",
+  "nonauthor_acceptance": false,
+  "polar_kernel_dimensions": [
+    1,
+    2
+  ],
+  "predicates": {
+    "direct_eigenvalue_product": true,
+    "extra_pairs_do_not_change_virtual_character": true,
+    "first_and_higher_color_coefficients": true,
+    "full_tensor_population": true,
+    "independent_kernel_and_target_count": true,
+    "positive_regulator_ratio": true,
+    "positive_squared_masses": true,
+    "zero_and_opposite_coefficients": true
+  },
+  "predicates_passed": 8
+}

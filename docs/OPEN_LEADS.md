@@ -1,5 +1,31 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 paired-phase checkpoint:
+reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/FINDINGS.md.
+20 native/8 reference/14 focused/302 regression first-pass at5831f542f.
+
+- PB-CUSP-PAIRED-PHASE: EXECUTED. Closing scope: one specified internally
+  nonlocal paired measure yields an integrable local-chart phase whose
+  unpaired sector retains the nonzero consistent gauge anomaly at
+  nonzero flux. Not a gauge-invariant full-parent quantum completion.
+- PB-CUSP-ANOMALY-COMPLETION: Stage2T PARTIAL. NEXT local regulator/end
+  comparison from the same Gaussian, retaining reference transformations
+  and both boundaries. Test the admitted constant gauge mode; do not
+  silently identify graph-norm convergence with quantum continuity.
+- PB-CUSP-UNSIGNED-QUANTUM-TRACE: paired massive phase limit does not
+  renormalize the modulus or compute the combined boson/ghost/fermion loop.
+- PB-CUSP-REVIEW: outside Fredholm/form-core/determinant and old end
+  analysis review remains owed. Same-author checks are not that review.
+- PB-CUSP-CHARGED-CONDENSATE: nonzero-flux saddles and fixed-domain
+  color-index invariance remain constraints, not all-completion kills.
+- Existing source/silver, full generated architecture, foundational
+  act/register/lift, observer/qualia and gravity duties are preserved.
+- Cross-seat kernel/flavor-map request and source-level B1620 fit
+  calibration request remain open; no new recipient answer assumed.
+
+The full parameter-free SM/TOE remains active and unachieved.
+Earlier dated NEXT entries below retain their historical epoch.
+
 October8 cusp Ward checkpoint:
 reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/FINDINGS.md.
 23 native/9 reference/14 focused/288 regression first-pass at309df8c3f.

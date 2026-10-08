@@ -394,3 +394,18 @@ No shared I-number or empirical normalization assigned.
 
 Outside analytic acceptance, stable families, generated physical inputs
 and the remaining full SM/TOE requirements remain unearned.
+
+### Physical paired phase October8 path-local supplement
+
+Report: reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/FINDINGS.md.
+No shared I-number or empirical normalization assigned.
+
+| sides | exhibited map or distinction | scope |
+|---|---|---|
+| Actual physical mass and paired Gaussian blocks | Polar partial isometry U with both kernel projections; source E_N and target U E_N | Conditional complete-domain construction at fixed internal background, gauge-equivariant finite controls |
+| Existing conjugate left-handed fields and target right-handed slots | Prior trace duality retained before pairing; no additional physical charged spectator | One representative per conjugate pair, complete virtual character |
+| Supplied paired measure and a local parent regulator | NOT IDENTIFIED; pullback through U is generally internally nonlocal | No universal zero Jacobian, full determinant or foundational regulator claim |
+| Integrable phase and gauge-invariant phase | NOT IDENTIFIED; exact consistency passes while nonzero-flux anomaly coefficients remain nonzero | Small external-field chart, standard one-Weyl anomaly normalization supplied |
+
+Finite safeguards do not establish global determinant-line triviality.
+Full SM/TOE, observer/qualia and gravity remain unachieved.

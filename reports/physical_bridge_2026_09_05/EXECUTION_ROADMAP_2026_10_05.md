@@ -281,6 +281,21 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    Main014561417 source intake and mass-tensor reply are recorded;
    numerical fit-threshold concern is scoped to its saved criterion,
    with zero-residual positives retained, not a whole-branch kill.
+   Stage2T October8 FOURTH GATE EXECUTED at research grade:
+   weave_paired_phase_2026_10_08/FINDINGS.md.20 native/8 reference/
+   14 focused/302 eighteen-packet regression first-pass at5831f542f.
+   Actual mass polar pairing defines one supplied internally nonlocal
+   fermion phase; massive blocks have positive phase, finite kernels
+   retain the old NONZERO consistent anomaly at nonzero flux. Exact
+   nonabelian consistency and wrong-coefficient controls checked.
+   Integrability is achieved for this prescription, not gauge invariance
+   or the full quantum action. Previous heat/current results preserved.
+   NEXT compare with a justified local regulator/end phase, keeping
+   both boundaries and the transformation of any reference system.
+   Test admitted constant gauge modes and quantum continuity of the
+   cutoff limit explicitly. No cancellation coefficient chosen by fiat.
+   NEXT_TEST is unexecuted planning. Full-loop modulus, stability,
+   actual three-family kernels, interactions and genesis remain duties.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

@@ -1,5 +1,25 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 paired-phase conditional sublemmas. Supplied curved E8 parent,
+fixed stationary internal background and complete graph domain;
+internally parallel unbroken external fields. One supplied internally
+nonlocal measure, not all regulators or a foundational selection.
+PROOF: reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/PROOF.md.
+Safeguards: tests/test_physical_bridge_weave_paired_phase.py.
+
+| Scoped result | Argument and finite safeguard |
+|---|---|
+| Actual Fredholm mass admits equivariant polar pairing retaining both kernels | Closed-range polar decomposition with background-dependent positive complement gap; test_polar_map_and_both_projectors, test_unpaired_not_massive_pair_count, test_complete_gauge_intertwining. Essential threshold is not a bound on every discrete eigenvalue |
+| Matched finite form compressions yield positive massive Dirac Gaussian phases | Target U E_N and mass compression E_N dagger abs(M) E_N; test_mass_compression_is_actual_and_positive, test_gaussian_determinant_not_current_renaming, test_vector_invariance_and_unpaired_control. Phase limit only; no determinant-modulus convergence or local-measure identification |
+| Minimal nonabelian anomaly representative satisfies Wess-Zumino consistency | Exact signed cyclic word identity with ten-term rational exact-form witness; test_consistent_anomaly_has_exact_witness, test_exterior_instrument_signs. Overall single-Weyl normalization remains standard framework input |
+| Wrong cubic and covariant representatives fail the same exact-form criterion | Exhaustive degree-three primitive-word space with both ordinary parameters; test_wrong_cubic_fails_same_criterion, test_covariance_is_not_consistency. Not a statement that all conceivable anomaly expressions are classified |
+| Prescribed paired phase retains the complete index-weighted consistent anomaly | Massive positive vectorlike phase and finite unpaired Weyl determinants on a small chart; test_full_representation_coefficients, test_first_zero_and_opposite_flux plus the prior analytic index. Nonzero at nonzero flux, no new compensator |
+
+20 native/8 reference/14 focused/302 regression first-pass at5831f542f.
+The global analytic arguments are authored, not externally certified.
+No local six-dimensional regulator, stable chiral vacuum or full
+renormalized action derived. Earlier dated NEXT entries are historical.
+
 October8 cusp Ward conditional sublemmas. Same supplied curved E8
 parent, stationary magnetic family, complete domain and internally
 parallel unbroken external fields. No shared B-law number allocated.
