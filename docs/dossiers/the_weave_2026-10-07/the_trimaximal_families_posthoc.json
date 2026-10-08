@@ -1,0 +1,381 @@
+{
+ "status": "W43 POST HOC: the two outliers of the T-bar (x) T TM2 tally recomputed (no cell depends on them)",
+ "outliers found again": 2,
+ "rows": [
+  {
+   "orders (charged leptons, neutrinos)": [
+    8,
+    3
+   ],
+   "the run's dimension": 1,
+   "ranks at 8 points x 3 steps": [
+    0
+   ],
+   "the dimension recomputed": 0,
+   "points": {
+    "1e-05": [
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.30984,
+       0.257075
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.393365,
+       0.219802
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.069134,
+       0.257063
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.195676,
+       0.271651
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.222427,
+       0.010783
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.221555,
+       0.299846
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.348104,
+       0.296853
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.1267,
+       0.362428
+      ]
+     }
+    ],
+    "1e-06": [
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.30984,
+       0.257075
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.393365,
+       0.219802
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.069134,
+       0.257063
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.195676,
+       0.271651
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.222427,
+       0.010783
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.221555,
+       0.299846
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.348104,
+       0.296853
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.1267,
+       0.362428
+      ]
+     }
+    ],
+    "1e-07": [
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.30984,
+       0.257075
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.393365,
+       0.219802
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.069134,
+       0.257063
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.195676,
+       0.271651
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.222427,
+       0.010783
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.221555,
+       0.299846
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.348104,
+       0.296853
+      ]
+     },
+     {
+      "rank": 0,
+      "smallest gaps": [
+       0.1267,
+       0.362428
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "orders (charged leptons, neutrinos)": [
+    12,
+    2
+   ],
+   "the run's dimension": 3,
+   "ranks at 8 points x 3 steps": [
+    2
+   ],
+   "the dimension recomputed": 2,
+   "points": {
+    "1e-05": [
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.096242,
+       0.312728
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.105369,
+       0.311383
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.154491,
+       0.199408
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.177412,
+       0.254809
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.103392,
+       0.289687
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.016251,
+       0.341181
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.055829,
+       0.00996
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.210225,
+       0.173939
+      ]
+     }
+    ],
+    "1e-06": [
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.096242,
+       0.312728
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.105369,
+       0.311383
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.154491,
+       0.199408
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.177412,
+       0.254809
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.103392,
+       0.289687
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.016251,
+       0.341181
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.055829,
+       0.00996
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.210225,
+       0.173939
+      ]
+     }
+    ],
+    "1e-07": [
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.096242,
+       0.312728
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.105369,
+       0.311383
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.154491,
+       0.199408
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.177412,
+       0.254809
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.103392,
+       0.289687
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.016251,
+       0.341181
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.055829,
+       0.00996
+      ]
+     },
+     {
+      "rank": 2,
+      "smallest gaps": [
+       0.210225,
+       0.173939
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "both recomputed at 2 or below": true
+}

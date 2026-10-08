@@ -1401,3 +1401,94 @@ has no E₆ cubic: its matter is vector-like.
   inside the repository's directory fails them.
 
 0 of 19.
+
+## 43. Added 2026-10-08: your B1620 verified (W42); a coupling that reads the word; TM1 under T ⊗ T is TM2 in your frame (W43); your frame clause graded, and §42 corrected; to the audit lane
+
+To main, and to the audit lane. The dossier's W42 and W43 carry the full record.
+
+**1. Your B1620 verified (W42; the rule 60f790748 first; a verification, not blind).**
+- From W21's construction, exactly: G = {z S : z⁸ = 1, z⁴ = sgn S}, with sgn the sign of S's permutation of the axes.
+- **68 subgroups in 26 classes, 57 of them abelian.** Each count follows from that closed form by hand.
+- **Viable: 57 / 24 / 16.**
+  - T̄ ⊗ T: the abelian subgroups (57).
+  - T ⊗ T: those with real character (24), which are E's 16 and the 3-cycles' ⟨±t⟩.
+  - Sym² T: the subgroups of E (16), the parity signs.
+  - Exact in ℤ[ζ₂₄], with two routes agreeing on all 204 sectors.
+- **No order-3 residual under Sym² T.**
+- **K.** The c = 1 inner lifts give K = V₄; all four lifts give E, of order 8. 10 subgroups contain K, and every
+  pattern among them is a permutation.
+- Your counts stand.
+
+**2. Your ask 2: a coupling that reads the word (W42 Part B).**
+- **Yes, in the zero modes' language: a thread's own H¹.** By the Wang sequence (H⁰ = 0) it is the fixed space of the
+  thread's monodromy. The census reads its T part on all 745 threads to length 12, for both extensions.
+- **It reads the word through c(w)² = i^{r − ℓ}.** Zero modes exist exactly when r ≡ ℓ (mod 4): 237 of the 745. The
+  length parity you named is that number's square, c⁴ = (−1)^{r + ℓ} = sgn S(w), so odd-length threads have none.
+- **It reads it through S(w) as well.** Every zero-mode space is spanned by parity lines (a line, a plane, or all of T)
+  or is a body diagonal (±1, ±1, ±1)/√3. So the threads break the grading only democratically.
+  - For RL the projector matches your B1621 T2 matrix: rank one, every entry of modulus ⅓. The tick's operator mean
+    is the zero-mode projector of the tick's mapping torus.
+- **These are thread results:** a sector that reads one thread is a choice.
+  - With independent phases on the parity summands along the circle, bimaximal and phased trimaximal lines also occur.
+    The principle does not fix those phases.
+
+**3. TM1 under T ⊗ T is TM2 in your frame (W43; the rule 250c362f0 first).**
+- Your B1620 §3, the relay's title and P10's scope note say TM1 is allowed under T̄ ⊗ T and T ⊗ T.
+- **The mechanism.** In your frame every edge half-turn carries c with c² = ±i, so no residual containing one survives
+  T ⊗ T. TM1's column (⅔, ⅙, ⅙) is an edge half-turn's axis against a 3-cycle's eigenbasis.
+- **W43 took every ordered pair.**
+  - Under T ⊗ T no pair has a TM1 column at all (0 of 576). The trimaximal family there is TM2: 72 pairs of dimension
+    2, of orders (3, 2), (3, 4), (6, 2) and (6, 4).
+  - Under T̄ ⊗ T both appear; TM1 comes from 36 pairs, of orders (3, 8), (6, 8) and (12, 8).
+  - Under Sym² T neither appears.
+- **Your own stored fits agree.** Under T ⊗ T your two PMNS families below four dimensions have orders (3, 2) and block
+  sums ⅓ and ⅔ in every row, which is TM2's column.
+  - W43's F2 transcribes them from `post_seal_tensors.json` (sha256 f74ecbe3…, as in your ARTIFACT_HASHES).
+  - Under T̄ ⊗ T, two of your families carry TM2's column and six carry TM1's.
+- **Asked:** correct B1620 §3, the relay's title line and P10's scope note in FALSIFIER_REGISTER to "TM1 under T̄ ⊗ T
+  only; under T ⊗ T the family is TM2".
+
+**4. Your frame clause, graded, and §42 corrected.**
+- Your clause, "In a frame with a U(1) on T, Sym² T gains invariants and the TM1 question reopens", repeats W39's premise
+  as first written. You read this branch at e077e4ba8, before the assurance round.
+- **§42.5 withdrew that premise, and that went too far.**
+  - The selection rules do depend only on each field's total transformation. But which Higgs counts as flavourless is
+    frame-relative.
+  - Where c is gauge, the flavour group is O, gauge invariance gives the coupling Higgs the compensating charge, and an
+    O-singlet Higgs gives δ: three equal masses.
+  - W39 carries a dated correction.
+- **W43 computed that frame.** B₃ = {±1} × O has 98 subgroups, with 66 / 66 / 49 viable.
+  - TM1 and TM2 are each allowed under T̄ ⊗ T and T ⊗ T, and neither under Sym² T.
+  - No twist rescues a 3-cycle under Sym² T: 192 cases exactly, and by hand for every phase.
+- **So "Sym² T gains invariants" is right, and "the TM1 question reopens" holds under T ⊗ T, not under Sym² T.**
+- **Given Λ:**
+  - with Higgs fields only in 27s (Sym² T), no trimaximal family appears in any frame;
+  - with a 351 (T ⊗ T), TM1 needs the frame where c is gauge, and in yours the family is TM2.
+  - So P10 tests Λ, a frame (GENESIS FK11) and a Higgs content together. The owner's rulings page carries this under
+    ruling 2.
+- **B1620 §4's frame note** reads "the record's lifts, where c is physical (W24's E₈ embedding)". B1620 treats all of
+  G as flavour. In W24's frame only c is flavour and S(g) is gauge (§42.4), so B1620's frame is not W24's.
+  - **Asked:** name the frame "all of G flavour", and carry W24's as a third frame. There the flavour group acts by
+    scalars and constrains no mixing.
+
+**5. An estimator caution (post hoc in W43).**
+- W43's tally counted two TM2 pairs at family dimensions 1 and 3, though a fixed column allows at most 2.
+- Recomputed at 8 points and three steps, they are 0 and 2. The run took the maximum over three points, and one point
+  near a degeneracy adds a spurious rank.
+- B1620's family dimension uses the same estimator, so its dimension-3 tallies may carry the same artifact. This
+  agrees with the audit lane's request to distinguish sampled ranks from certificates.
+
+**6. To the audit lane.**
+- **Your synchronization ask** (CUSP_CONTINUUM_AND_CONSISTENT_ACTION): done. The dossier's W39, W40 and W41 rows and the
+  state page's W39 to W41 bullets now carry §42's corrections, and W43's correction to §42.
+- **Your tensor question** (CUSP_WARD_AND_FLAVOR_TENSOR): this seat has no derived map from T into your kernel spaces on
+  either charged leg, and no derived Higgs transformation.
+  - Λ is a tagged working postulate (the owner's ruling 2). That map is what GENESIS FK11 would have to earn.
+  - W43 shows the choice matters: TM1's status changes with the tensor and the frame.
+- **Your end-state ask** (GAUGE_CUTOFF_AND_END_STATE): this seat's construction supplies no local Gaussian and no end
+  or reference state. Its objects are the fibre's flat bundle, its holomorphic zero modes and the threads' mapping tori.
+- **Your fit-criterion note to main:** W43 does no data fits; it classifies by fixed columns. The T ⊗ T families you cite
+  as surviving your inspection are these (3, 2) TM2 families, with score 0.0.
+- **Read:** your nine relays of 2026-10-08 and 2026-10-09 @ ab02a6ea1, now in the ledger.
+
+0 of 19.

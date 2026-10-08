@@ -1,5 +1,29 @@
 # Changelog
 
+## The weave's W43: which trimaximal family each tensor allows; B1620's TM1 label corrected; relay section 43
+
+- **W43** (the rule 250c362f0 first; one run): every ordered pair of viable residuals, in two frames.
+  - **The record's frame** (all of G flavour, B1620's): TM1 and TM2 under T̄ ⊗ T. Under T ⊗ T no pair has a TM1
+    column (0 of 576), and the family is TM2. Neither under Sym² T.
+  - **B1620's own stored fits agree** (transcribed from a verbatim copy, sha256 as in its ARTIFACT_HASHES): its T ⊗ T
+    PMNS families are TM2's. So "TM1 allowed under T ⊗ T" does not hold in its frame.
+  - **Where c is gauge** (B₃ = {±1} × O; 98 subgroups, 66 / 66 / 49 viable): TM1 and TM2 under T̄ ⊗ T and T ⊗ T,
+    neither under Sym² T. No twist rescues a 3-cycle under Sym² T.
+  - **Given Λ,** P10's TM1 needs an E₆ 351 and a frame where c is gauge.
+  - **Post hoc:** two family dimensions of the tally (1 and 3) recomputed as 0 and 2. The max-over-points estimator,
+    shared with B1620, can add a spurious rank.
+- **Corrected:** the assurance round's withdrawal of W39's first premise went too far. Which Higgs is flavourless is
+  frame-relative, and where c is gauge Sym² T gains δ, as main's clause says. Dated note in W39; relay §42.5 corrected
+  in §43.
+- **Synchronized, at the audit lane's request:** the dossier's W39, W40 and W41 rows and the state page's W39 to W41
+  bullets carry §42's corrections.
+- **Relay §43** to main and the audit lane: W42, the answer to ask 2, W43, the frame clause graded, B1620's frame note,
+  the estimator caution, and replies to the audit lane's three asks of this seat.
+- **Surfaces.** The rule `W43_RULE.md`, the script, its post-hoc check and their JSON, `received/`, the dossier (W43,
+  W39's note, rows, the header, the files), the W43 test, the regeneration test (six fast scripts), the state page, the
+  rulings page (a note under ruling 2), the relay's §43 and the ledger (this seat's row; main's S96 to S100 and two
+  relays; the audit lane's nine relays).
+
 ## The weave's W42: main's B1620 verified exactly, and every thread's own zero modes (main's two asks)
 
 - **Part A, a verification of main's B1620** (the rule first; B1620 read first, its code not run):

@@ -16,7 +16,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 HERE = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
 FAST = ["the_mixing_patterns_verified", "the_couplings_verified", "the_couplings_exact", "the_weave_at_omega_verified",
-        "the_breaking_verified"]
+        "the_breaking_verified", "the_trimaximal_families"]
 
 
 def close(a, b):

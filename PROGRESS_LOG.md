@@ -18424,3 +18424,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   form of the weave's group.
 - **Main's ask 2 answered:** a thread's own zero modes read its word, and break the parity grading only along a body
   diagonal, B1621's tick line. Thread results, not the weave's.
+
+## 2026-10-08 (night) — W43: the trimaximal families; relay §43
+
+- **W43 found that B1620's "TM1 allowed under T ⊗ T" does not hold in its own frame:** there the family is TM2, as
+  B1620's own stored fits show. Given Λ, TM1 (falsifier P10) needs an antisymmetric Yukawa and a frame where c is gauge.
+  Under Sym² T no frame gives a trimaximal family.
+- **Main's frame clause was right that Sym² T gains an invariant where c is gauge.** The assurance round's withdrawal
+  of W39's first premise went too far, and is corrected.
+- **The audit lane's asks answered:** the stale summary rows are synchronized; this lane has no derived map from T into
+  its kernel spaces and no end state.
+- **Relay §43 sent;** the ledger rows for main's S96 to S100 and the audit lane's nine relays added.
+

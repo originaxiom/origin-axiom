@@ -1,0 +1,729 @@
+{
+ "status": "W43: the trimaximal families each tensor allows, in the record's frame and where c is gauge (the rule first; F2 transcribes B1620's stored fits, read before the rule)",
+ "F1: the record's frame": {
+  "T-bar (x) T": {
+   "viable residuals": 57,
+   "ordered pairs": 3249,
+   "pairs with a fixed TM1 column, by family dimension": {
+    "0": 36,
+    "2": 36
+   },
+   "pairs with a fixed TM2 column, by family dimension": {
+    "0": 467,
+    "1": 1,
+    "2": 179,
+    "3": 1
+   },
+   "TM1 allowed (a fixed column with family dimension 2)": true,
+   "TM2 allowed (a fixed column with family dimension 2)": true,
+   "orders (charged leptons, neutrinos) of the TM1 pairs of dimension 2": [
+    [
+     3,
+     8
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     12,
+     8
+    ]
+   ],
+   "orders (charged leptons, neutrinos) of the TM2 pairs of dimension 2": [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     12,
+     2
+    ],
+    [
+     12,
+     4
+    ],
+    [
+     12,
+     8
+    ]
+   ]
+  },
+  "T (x) T": {
+   "viable residuals": 24,
+   "ordered pairs": 576,
+   "pairs with a fixed TM1 column, by family dimension": {},
+   "pairs with a fixed TM2 column, by family dimension": {
+    "0": 80,
+    "2": 72
+   },
+   "TM1 allowed (a fixed column with family dimension 2)": false,
+   "TM2 allowed (a fixed column with family dimension 2)": true,
+   "orders (charged leptons, neutrinos) of the TM1 pairs of dimension 2": [],
+   "orders (charged leptons, neutrinos) of the TM2 pairs of dimension 2": [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     4
+    ]
+   ]
+  },
+  "Sym^2 T": {
+   "viable residuals": 16,
+   "ordered pairs": 256,
+   "pairs with a fixed TM1 column, by family dimension": {},
+   "pairs with a fixed TM2 column, by family dimension": {},
+   "TM1 allowed (a fixed column with family dimension 2)": false,
+   "TM2 allowed (a fixed column with family dimension 2)": false,
+   "orders (charged leptons, neutrinos) of the TM1 pairs of dimension 2": [],
+   "orders (charged leptons, neutrinos) of the TM2 pairs of dimension 2": []
+  }
+ },
+ "F2: B1620's stored PMNS families below four dimensions": {
+  "T-bar (x) T": {
+   "entries": [
+    {
+     "orders": [
+      3,
+      2
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "fixed columns": [
+      "TM2"
+     ],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      3,
+      2
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "fixed columns": [
+      "TM2"
+     ],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      3,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "fixed columns": [
+      "TM1"
+     ],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      3,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "fixed columns": [
+      "TM1"
+     ],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      3,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "fixed columns": [
+      "TM1"
+     ],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      3,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "fixed columns": [
+      "TM1"
+     ],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      3,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "fixed columns": [
+      "TM1"
+     ],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      6,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "fixed columns": [
+      "TM1"
+     ],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      8,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       1,
+       1
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [
+      "other"
+     ],
+     "reached": true
+    },
+    {
+     "orders": [
+      8,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       1,
+       1
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [
+      "other"
+     ],
+     "reached": true
+    },
+    {
+     "orders": [
+      8,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       2,
+       1
+      ],
+      [
+       1,
+       1,
+       1
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [
+      "other"
+     ],
+     "reached": true
+    },
+    {
+     "orders": [
+      8,
+      8
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       2,
+       1
+      ],
+      [
+       1,
+       1,
+       1
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [
+      "other"
+     ],
+     "reached": true
+    },
+    {
+     "orders": [
+      2,
+      8
+     ],
+     "family_dim": 3,
+     "piece_dims": [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      2,
+      8
+     ],
+     "family_dim": 3,
+     "piece_dims": [
+      [
+       1,
+       2
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      2,
+      8
+     ],
+     "family_dim": 3,
+     "piece_dims": [
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      2,
+      8
+     ],
+     "family_dim": 3,
+     "piece_dims": [
+      [
+       2,
+       1
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      8,
+      8
+     ],
+     "family_dim": 3,
+     "piece_dims": [
+      [
+       1,
+       2
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      8,
+      8
+     ],
+     "family_dim": 3,
+     "piece_dims": [
+      [
+       2,
+       1
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      8,
+      8
+     ],
+     "family_dim": 3,
+     "piece_dims": [
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "fixed columns": [],
+     "fixed rows": [],
+     "reached": true
+    }
+   ],
+   "a TM1 column in some entry": true,
+   "a TM2 column in some entry": true
+  },
+  "T (x) T": {
+   "entries": [
+    {
+     "orders": [
+      3,
+      2
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "fixed columns": [
+      "TM2"
+     ],
+     "fixed rows": [],
+     "reached": true
+    },
+    {
+     "orders": [
+      3,
+      2
+     ],
+     "family_dim": 2,
+     "piece_dims": [
+      [
+       1,
+       1,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "fixed columns": [
+      "TM2"
+     ],
+     "fixed rows": [],
+     "reached": true
+    }
+   ],
+   "a TM1 column in some entry": false,
+   "a TM2 column in some entry": true
+  },
+  "Sym^2 T": {
+   "entries": [],
+   "a TM1 column in some entry": false,
+   "a TM2 column in some entry": false
+  }
+ },
+ "F3: the frame where c is gauge (B3 = {+-1} x O acting by +-S)": {
+  "B3: order": 48,
+  "subgroups": 98,
+  "abelian": 66,
+  "Sym^2 T invariants of B3 (and of O): the identity alone": true,
+  "T-bar (x) T": {
+   "viable residuals": 66,
+   "ordered pairs": 4356,
+   "pairs with a fixed TM1 column, by family dimension": {
+    "0": 120,
+    "2": 72
+   },
+   "pairs with a fixed TM2 column, by family dimension": {
+    "0": 344,
+    "2": 72
+   },
+   "TM1 allowed (a fixed column with family dimension 2)": true,
+   "TM2 allowed (a fixed column with family dimension 2)": true,
+   "orders (charged leptons, neutrinos) of the TM1 pairs of dimension 2": [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   "orders (charged leptons, neutrinos) of the TM2 pairs of dimension 2": [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     4
+    ]
+   ]
+  },
+  "T (x) T": {
+   "viable residuals": 66,
+   "ordered pairs": 4356,
+   "pairs with a fixed TM1 column, by family dimension": {
+    "0": 120,
+    "2": 72
+   },
+   "pairs with a fixed TM2 column, by family dimension": {
+    "0": 344,
+    "2": 72
+   },
+   "TM1 allowed (a fixed column with family dimension 2)": true,
+   "TM2 allowed (a fixed column with family dimension 2)": true,
+   "orders (charged leptons, neutrinos) of the TM1 pairs of dimension 2": [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   "orders (charged leptons, neutrinos) of the TM2 pairs of dimension 2": [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     4
+    ]
+   ]
+  },
+  "Sym^2 T": {
+   "viable residuals": 49,
+   "ordered pairs": 2401,
+   "pairs with a fixed TM1 column, by family dimension": {},
+   "pairs with a fixed TM2 column, by family dimension": {},
+   "TM1 allowed (a fixed column with family dimension 2)": false,
+   "TM2 allowed (a fixed column with family dimension 2)": false,
+   "orders (charged leptons, neutrinos) of the TM1 pairs of dimension 2": [],
+   "orders (charged leptons, neutrinos) of the TM2 pairs of dimension 2": []
+  }
+ },
+ "F4: the 3-cycles with every twist in mu_24 under Sym^2 T": {
+  "rotations of order 3": 8,
+  "twists": 24,
+  "cases": 192,
+  "fixed dimensions seen": [
+   0,
+   2
+  ],
+  "none viable under Sym^2 T": true
+ },
+ "checks": {
+  "F1: the record's frame: TM1 and TM2 under T-bar (x) T; TM2 but not TM1 under T (x) T; neither under Sym^2 T": true,
+  "F1: the viable counts are W42's (57 / 24 / 16)": true,
+  "F2: B1620's T (x) T families carry TM2's column and never TM1's; its T-bar (x) T families both": true,
+  "F3: B3 has 98 subgroups, 66 abelian; viable 66 / 66 / 49; O's Sym^2 T invariant is the identity": true,
+  "F3: where c is gauge, TM1 and TM2 under T-bar (x) T and T (x) T, neither under Sym^2 T": true,
+  "F4: no twist of a 3-cycle is viable under Sym^2 T": true
+ },
+ "every check holds": true
+}

@@ -147,16 +147,20 @@ Under the owner's rulings, the table's rows split into two groups:
   and B1612, no flavour value is in the group. Main records a further ruling, made with main: the fibre's modulus
   τ = ω is a tagged working postulate (B1617, sealed, not yet run).
 - **W39, a reading given Λ:** every left-handed field of a generation is in T, so the masses' tensor is T ⊗ T, not
-  T̄ ⊗ T. With E₆'s cubic and one 27 Higgs the Yukawas are symmetric. A Higgs without flavour then gives no mass, and
-  every residual-aligned spectrum is degenerate or zero. This rests on the character c of the weave's group on T, a
-  frame datum (GENESIS FK11).
+  T̄ ⊗ T. With E₆'s cubic and Higgs fields in 27s the Yukawas are symmetric (Sym² T). Which Higgs counts as flavourless
+  is frame-relative (GENESIS FK11, open). In the record's frame and in W24's, a Higgs without flavour gives no mass at
+  weight 0. Where c is gauge (a U(1) on T), an O-singlet Higgs gives three equal masses (W39 as corrected after the
+  assurance round; W43).
 - **Main's S95 (B1617), verified here (W40), given τ = ω:** the residual group at ω (order 48) keeps T irreducible,
   because the inner automorphisms act as the parity signs at every τ. So the masses at ω are degenerate. W39's
-  consequences are qualified to weight-0 couplings; main's next cell takes modular-form Yukawas of weight k.
+  consequences are qualified to weight-0 couplings; main's next cell takes modular-form Yukawas of weight k. Under the
+  period rule the move fixing ω is L U L⁻¹, not U (the assurance round); the group results are the same. Main has since
+  retired τ = ω as tested (GENESIS v1.35, on main).
 - **W41, the zero modes' weight:** the modes are a modular form of weight −¾ (their coefficient has weight ¼); at ω
-  their U-action is W40's. The owner asked whether what lies outside the weave is the missing source. The reading: the
-  weave is exactly symmetric at every τ, so the values need a symmetry-breaking state chosen by a dynamics. In a τ-only
-  reading, mixing would be a permutation (relay §41; asked of main).
+  their U-action is W40's, up to a branch convention. The owner asked whether what lies outside the weave is the
+  missing source. The reading, as corrected in relay §42: a given τ keeps the parity grading (V₄ × ⟨−I⟩), not the
+  whole group; the values need a state that breaks the grading, whether chosen by a dynamics or supplied by explicit
+  end data. Main's B1620 confirmed that with couplings in τ alone every mixing matrix is a permutation.
 - **The assurance round (the owner: "are we sure?"), with four independent adversarial reviews.**
   - The exact group results (the foundation, the masses) survived independent exact re-derivation.
   - Corrected: the conventions (the period rule) and several readings (relay §42).
@@ -164,6 +168,15 @@ Under the owner's rulings, the table's rows split into two groups:
     - the residual convention splits the flavour arcs into a flavon scenario (TM1 and P10) and a modular one
       (degenerate at ω);
     - every flavour analysis presupposes a frame the record has not fixed (GENESIS FK11).
+- **Main's S98 (B1620), verified here (W42):** on all 68 subgroups of the weave's group (26 classes), the residuals
+  with three distinct masses number 57, 24 and 16 under T̄ ⊗ T, T ⊗ T and Sym² T. All of it follows from one closed
+  form, G = {z S : z⁸ = 1, z⁴ = sgn S}. The weave's symmetry reduces none of the 13 flavour numbers. Main's second ask:
+  a thread's own zero modes read its word (they exist exactly when r ≡ ℓ mod 4), and break the parity grading only
+  along a body diagonal, the line of main's B1621 tick. Those are thread results.
+- **W43, which trimaximal family each tensor allows:**
+  - B1620's "TM1 allowed under T ⊗ T" does not hold in its own frame: there the family is TM2.
+  - Given Λ, P10's TM1 needs an antisymmetric Yukawa (an E₆ 351) and a frame where c is gauge.
+  - Under Sym² T no trimaximal family appears in any frame.
 
 ## Questions open with main
 
@@ -175,7 +188,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W38 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W43 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§38).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§43).

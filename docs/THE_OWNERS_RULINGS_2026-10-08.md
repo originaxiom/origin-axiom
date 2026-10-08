@@ -47,6 +47,11 @@ your order") and then chose one option per fork. The rulings are relayed to main
   generations, anomaly-free, alike, in a complex flavour triplet, with three right-handed neutrinos, derived given Λ.
   That basis covers the couplings and predictions such as main's falsifier P10.
 - **What it does not settle.** GENESIS FK11 is not earned. "Derived" never appears without "given Λ".
+- **Added 2026-10-08 (W43): what P10 tests, given Λ.**
+  - In the record's frame no residual pair gives TM1 under the tensors Λ supplies. It needs an antisymmetric Yukawa (an
+    E₆ 351) together with a frame where c is gauge.
+  - Under Sym² T, the Yukawa of Higgs fields in 27s, no frame gives it.
+  - So P10 tests Λ together with a frame (GENESIS FK11's datum) and a Higgs content.
 - **The costs accepted with it** (W27):
   - each 27's extra fields (D and D^c, extra Higgs pairs, a singlet) must be heavy;
   - the six-dimensional reading is incomplete;

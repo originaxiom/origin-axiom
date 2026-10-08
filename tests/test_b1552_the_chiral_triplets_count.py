@@ -848,6 +848,35 @@ def test_w42_the_breaking_verified():
     assert count == 16
 
 
+def test_w43_the_trimaximal_families():
+    """W43 (the rule committed first): in the record's frame TM1 is allowed under T-bar (x) T only, the T (x) T family is
+    TM2, and Sym^2 T has neither; where c is gauge TM1 returns under T (x) T but not under Sym^2 T. In process: an edge
+    half-turn carries c with c^2 = i, so its square kills every T (x) T invariant; its axis against a 3-cycle's
+    eigenbasis is TM1's column (2/3, 1/6, 1/6); a parity line against it is TM2's (1/3, 1/3, 1/3)"""
+    import numpy as np
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_trimaximal_families.json")
+                   .read_text(encoding="utf-8"))
+    assert d["every check holds"] is True
+    rec = d["F1: the record's frame"]
+    assert rec["T (x) T"]["pairs with a fixed TM1 column, by family dimension"] == {}
+    assert rec["T (x) T"]["TM2 allowed (a fixed column with family dimension 2)"] is True
+    assert rec["T-bar (x) T"]["TM1 allowed (a fixed column with family dimension 2)"] is True
+    gauge = d["F3: the frame where c is gauge (B3 = {+-1} x O acting by +-S)"]
+    assert gauge["T (x) T"]["TM1 allowed (a fixed column with family dimension 2)"] is True
+    assert gauge["Sym^2 T"]["TM1 allowed (a fixed column with family dimension 2)"] is False
+    e = np.array([[-1, 0, 0], [0, 0, 1], [0, 1, 0]])                       # RRL's rotation, an edge half-turn
+    g = np.exp(1j * np.pi / 4) * e
+    g2 = g @ g
+    assert np.allclose(g2, 1j * np.eye(3))
+    M = np.random.default_rng(0).normal(size=(3, 3)) + 1j
+    assert np.allclose(g2 @ M @ g2.T, -M)                                  # so no T (x) T invariant survives it
+    w = np.exp(2j * np.pi / 3)
+    tri = np.array([[1, 1, 1], [1, w, w * w], [1, w * w, w]]).T / np.sqrt(3)
+    axis = np.array([0, 1, 1]) / np.sqrt(2)
+    assert np.allclose(np.sort(np.abs(tri.conj().T @ axis) ** 2), [1 / 6, 1 / 6, 2 / 3])
+    assert np.allclose(np.abs(tri.conj().T @ np.array([1, 0, 0])) ** 2, [1 / 3] * 3)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

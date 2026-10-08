@@ -32,6 +32,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - The assurance round (2026-10-08): the exact results survived independent re-derivation; conventions and readings corrected (relay §42).
 - W42: main's B1620 verified exactly (68 subgroups in 26 classes; 57 / 24 / 16 viable), from one closed form of the
   group; every thread's own zero modes break the parity grading only along a body diagonal (main's ask 2).
+- W43: B1620's "TM1 allowed under T ⊗ T" does not hold in its frame (the family is TM2); given Λ, TM1 needs a
+  frame where c is gauge and an antisymmetric Yukawa, and under Sym² T no trimaximal family appears in any frame.
 
 ## The setting
 
@@ -2348,6 +2350,18 @@ under the whole group (weight 0). That is the reading B1615 to B1617's Z3 also t
 Yukawas as modular forms of weight k. There the automorphy factor can supply the phase c̄². So "a Higgs without flavour
 gives no mass" holds at weight 0 only. The tensor point (T ⊗ T given Λ) is not affected.
 
+**Corrected again, 2026-10-08 (in W43's rule, before W43 ran).** One sentence of the assurance round's replacement above
+went too far: "'Sym² T gains the singlet' only renames a Higgs that carries c̄², and is withdrawn".
+- The selection rules do depend only on each field's total transformation. But which Higgs counts as flavourless is
+  frame-relative.
+- In a frame where c is gauge (a U(1) on T commuting with the holonomy):
+  - the flavour group is O;
+  - gauge invariance gives any Higgs that couples to T T the compensating charge;
+  - an O-singlet Higgs then gives Sym² T's invariant δ, three equal masses, as the first version said.
+- W43 computes that frame. There TM1 returns under T ⊗ T. Under Sym² T no trimaximal family appears in either frame.
+- So in the frames on record, "a Higgs without flavour gives no mass" holds in the record's frame and in W24's, and
+  fails where c is gauge.
+
 ## W40. Main's B1617 verified: the weave at τ = ω (`the_weave_at_omega_verified.py`)
 
 **Why.** Main's S95 reports B1617 (given the owner's tagged postulate τ = ω): NEGATIVE as sealed. This seat promised in
@@ -2630,6 +2644,78 @@ reviewers, and earlier the audit lane, not the author.
 **Status.** Part A VERIFIED (not blind): main's WEAVE counts reproduced exactly. Part B COMPUTED: a census of every
 thread to length 12, each row a thread result. 0 of 19.
 
+## W43. Which trimaximal family each tensor allows, in the record's frame and where c is gauge (`the_trimaximal_families.py`; `W43_RULE.md`)
+
+**Why.**
+- B1620's §3 and its relay title say TM1 (main's P10) is allowed under T̄ ⊗ T and T ⊗ T. W42 found that no odd
+  rotation is viable under T ⊗ T, and TM1's fixed column needs one.
+- B1620's own stored fits were read before the rule (copied verbatim to `received/`, sha256 as in its
+  ARTIFACT_HASHES). They show its T ⊗ T families are TM2's.
+- Main's relay also says: "In a frame with a U(1) on T, Sym² T gains invariants and the TM1 question reopens."
+- The rule (`W43_RULE.md`, 250c362f0) was committed before the code. It states that the assurance round's withdrawal of
+  W39's first premise went too far (see the note in W39).
+
+**What was done.**
+- **Two frames**, every subgroup of each taken as a residual, none chosen:
+  - the record's frame, where every element c(g) S(g) acts as flavour (B1620's);
+  - the frame where c is gauge, where the flavour group is O acting by S, with the ±1 that a charged Higgs leaves. That
+    is B₃ = {±1} × O, the 48 signed permutation matrices.
+- **For every ordered pair of viable residuals** (W42's exact viability), the fixed columns of the mixing |U|² were
+  found at four sampled members, and the family dimension was taken by B1620's rank rule.
+  - TM1's column is (⅔, ⅙, ⅙); TM2's is (⅓, ⅓, ⅓).
+  - "Allowed" means a fixed column with family dimension 2.
+- B1620's stored PMNS families below four dimensions were classified the same way, as a transcription.
+- Every 3-cycle was tested with every twist in μ₂₄ under Sym² T.
+
+**The result (COMPUTED; every cell as predicted).**
+- **The record's frame.**
+
+  | tensor | viable | TM1 | TM2 |
+  |---|---|---|---|
+  | T̄ ⊗ T | 57 | allowed: 36 pairs of dimension 2, orders (3, 8), (6, 8), (12, 8) | allowed: 179 pairs |
+  | T ⊗ T | 24 | **no pair has a TM1 column at all (0 of 576)** | allowed: 72 pairs, orders (3, 2), (3, 4), (6, 2), (6, 4) |
+  | Sym² T | 16 | none | none |
+
+- **B1620's stored fits, transcribed.**
+  - Under T ⊗ T its two PMNS families below four dimensions, both of orders (3, 2), carry TM2's column.
+  - Under T̄ ⊗ T, two carry TM2's column and six carry TM1's (orders (3, 8) and (6, 8)).
+- **The frame where c is gauge.**
+  - B₃ has 98 subgroups, 66 of them abelian.
+  - The viable residuals number 66 under T̄ ⊗ T, 66 under T ⊗ T (every element is real) and 49 under Sym² T (the
+    subgroups whose every element squares to 1).
+  - O's only invariant in Sym² T is the identity.
+  - TM1 and TM2 are each allowed under T̄ ⊗ T and under T ⊗ T, by 72 pairs each, of orders (3, 2), (3, 4), (6, 2) and
+    (6, 4). Neither is allowed under Sym² T.
+- **No twist rescues a 3-cycle.** All 192 cases (8 rotations of order 3 × 24 twists) are non-viable under Sym² T, with
+  fixed dimensions 0 or 2.
+- **Post hoc** (`the_trimaximal_families_posthoc.py`; no cell depends on it).
+  - The T̄ ⊗ T TM2 tally counted one pair at dimension 1 and one at 3. A fixed column allows at most 2.
+  - Recomputed at 8 fresh points and three steps, they are 0 and 2.
+  - The run's estimator takes the maximum over three points, so a point near a degeneracy can add a spurious rank.
+    B1620's estimator is the same.
+
+**What it shows.**
+- **B1620's "TM1 allowed under T ⊗ T" does not hold in its own frame.** Under T ⊗ T the trimaximal family is TM2.
+  - Every edge half-turn carries c with c² = ±i, so no residual containing one survives T ⊗ T.
+  - TM1's column (⅔, ⅙, ⅙) is an edge half-turn's axis against a 3-cycle's eigenbasis.
+  - B1620's own fits agree. Its TM1 statement holds for T̄ ⊗ T alone.
+- **Given Λ, P10's TM1 needs both a frame and a Higgs.**
+  - With E₆'s cubic and Higgs fields only in 27s (Sym² T), no residual pair gives TM1 or TM2 in either frame. Every
+    trimaximal column needs a 3-cycle residual, and no 3-cycle survives Sym² T under any twist.
+  - With an antisymmetric Yukawa (T ⊗ T, an E₆ 351), TM1 needs the frame where c is gauge. In the record's frame it is
+    TM2.
+  - Under B1615's T̄ ⊗ T, which is not Λ's tensor, TM1 holds in both frames.
+  - So P10 tests Λ together with a frame (GENESIS FK11's datum) and a Higgs content.
+- **Main's frame clause, graded.**
+  - "Sym² T gains invariants" is right: where c is gauge, an O-singlet Higgs gives δ, three equal masses.
+  - "The TM1 question reopens" holds under T ⊗ T, not under Sym² T.
+- **What is not covered.**
+  - Neither data fits nor CKM tallies were repeated in the frame where c is gauge.
+  - Twisted residuals from Higgs fields in other representations of O are not covered, except the 3-cycles' twists.
+
+**Status.** COMPUTED (the rule first; one run). It corrects a label in main's B1620 (TM1 under T ⊗ T) and grades main's
+frame clause. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2779,11 +2865,12 @@ is building: an end on the weave's own action that gaps the cusp.
 | W36 | VERIFIED (step 1, exact) and a READING with one exact obstruction (step 4) | the audit lane's gapped Standard Model phase: its centralizer in E₈ is (SU(5)_b × U(1)_Y)/ℤ₅ and connected (the roots orthogonal to SU(5)_g are an A₄; the torus part is the kernel of the character (3, 2), connected). On a closed surface the 10's index is deg W and the 5̄'s deg Λ²W, both zero for every SU(5)_b bundle, so the fibre's bulk gives no SU(5)_g chirality; the record's counts are end contributions on the gapless channels, which a gap removes. A gapped chiral phase needs winding end data or an object of dimension four or more |
 | W37 | VERIFIED (not blind; S92 read first); main's WEAVE results reproduced | main's B1613: TM1's relations derived here from the matrix entries; at sin²θ₁₃ = 0.02248, sin²θ₂₃ = 0.470: sin²θ₁₂ = 0.31800, cos δ = −0.130278, δ = 97.49° or 262.51°, J = ±0.03378, the column exact on both branches. Main's B1614: the joint fixed points (0, 0, 0) and (2, 2, 2); the trivial line (2, 0, 2), each parity line (1, 1, 0), the adjoint (3, 3, 0), the doublet and each matter block (2, 0, 2) as (H¹, visible, private); χ_T(L) = e^{−iπ/4}, χ_T(R) = e^{+iπ/4}, χ_T(LR) = 0; the odd classes of rank 2 over 𝔽₂. Agrees with W34 where they overlap |
 | W38 | VERIFIED (not blind; S93 and S94 read first); main's WEAVE results reproduced | main's B1615 and B1616 rebuilt from W21's construction: no invariant bilinear or trilinear of T alone; T̄ ⊗ T = 1 + 2 + 3 + 3; a singlet Higgs gives (1, 1, 1); the fixed Dirac vacua give (0, 1, 1) or (½, ½, 1), and along RRL a family with m₁ + m₂ = m₃ (to 3 × 10⁻¹⁵); Sym² T = 1 + 2 + 3, Λ² T irreducible, no Majorana vacuum fixed along RRL, rigid spectra (1, 1, 1), (½, ½, 1), (0, 1, 1) elsewhere. The weave's group fixes no mass. Exact addendum (post hoc, for the audit lane): T is the cube's rotations twisted by a character (W21's μ ⊗ 3′); the sum rule is Heron's identity on the whole family, masses ∝ (r, (1 − r)/2, (1 + r)/2); every residual-fixed Majorana matrix, all pieces at once, has a degenerate pair; several Higgs irreducibles along one residual leave the masses free |
-| W39 | READING given Λ (no new computation) | given W27's Λ every left-handed field of a generation is in T, so a mass term's tensor is T ⊗ T, not B1615's T̄ ⊗ T; with E₆'s cubic and one 27 Higgs the Yukawas are symmetric (Sym² T, B1616's tensor, for every sector): no mass from a flavourless Higgs or from the generations' own 27s, any mass needs a Higgs carrying c̄², and every residual-aligned spectrum is degenerate or zero. Rests on the character c (physical in W24's E₈ embedding, centraliser F₄ × SU(2); gauge where a U(1) acts on T), a frame datum of GENESIS FK11 |
-| W40 | VERIFIED (not blind; S95 read first); main's WEAVE result reproduced, given τ = ω | main's B1617 rebuilt from W21's construction: U (a ↦ b, b ↦ a⁻¹b; H₁ matrix of order 6, fixing ω), the inner automorphisms and −I generate a group of order 48 on T, irreducible (commutant 1); the inner automorphisms are the Klein group's diagonal signs (the parity grading), U is i times a 3-cycle of the parity axes, with eigen-turns ¼, 7/12, 11/12 (order 12); one invariant in T̄ ⊗ T (three equal masses), none in T ⊗ T or Sym² T. W39 qualified: its consequences hold at weight 0 |
-| W41 | COMPUTED (the rule first; one run after a disclosed stopped launch) | the weave's zero modes are a vector-valued modular form of weight −¾ (as one-forms; f = θ₃(z \| 2τ)/√θ₁(z \| τ) of weight ¼ and index 0): the norm test g = N/(Im τ)^{3/4} is invariant under T, S, U, L, R, RL, LRR at two base points (worst 2.7 × 10⁻¹¹; exponents ¼ and 1 fail by 0.086 and 0.046); the numerator pair has weight ½ with constant unitary W (W(T) = diag(1, i)); θ₁'s multipliers are eighth roots. At ω the modes' U-action is W40's, nothing added (§40's line withdrawn in the rule) |
+| W39 | READING given Λ (no new computation) | given W27's Λ every left-handed field of a generation is in T, so a mass term's tensor is T ⊗ T, not B1615's T̄ ⊗ T; with E₆'s cubic and one 27 Higgs the Yukawas are symmetric (Sym² T, B1616's tensor, for every sector): no mass from a flavourless Higgs or from the generations' own 27s, any mass needs a Higgs carrying c̄², and every residual-aligned spectrum is degenerate or zero. Rests on a frame, GENESIS FK11's datum: in W24's E₈ embedding only c is flavour (S(g) gauge); in the record's frame all of G is; where a U(1) acts on T, c is gauge and an O-singlet Higgs gives δ (the premise's first version, restored in part after the assurance round's over-withdrawal; W43) |
+| W40 | VERIFIED (not blind; S95 read first); main's WEAVE result reproduced, given τ = ω | main's B1617 rebuilt from W21's construction: U (a ↦ b, b ↦ a⁻¹b; H₁ matrix of order 6; it fixes ω under the standard Möbius rule, while under the period rule U fixes ω + 1 and L U L⁻¹ fixes ω, with the same group results, as corrected in the assurance round), the inner automorphisms and −I generate a group of order 48 on T, irreducible (commutant 1); the inner automorphisms are the Klein group's diagonal signs (the parity grading), U is i times a 3-cycle of the parity axes, with eigen-turns ¼, 7/12, 11/12 (order 12); one invariant in T̄ ⊗ T (three equal masses), none in T ⊗ T or Sym² T. W39 qualified: its consequences hold at weight 0 |
+| W41 | COMPUTED (the rule first; one run after a disclosed stopped launch) | the weave's zero modes are a vector-valued modular form of weight −¾ (as one-forms; f = θ₃(z \| 2τ)/√θ₁(z \| τ) of weight ¼ and index 0): the norm test g = N/(Im τ)^{3/4} is invariant under T, S, U, L, R, RL, LRR at two base points (worst 2.7 × 10⁻¹¹; exponents ¼ and 1 fail by 0.086 and 0.046); the numerator pair has weight ½ with constant unitary W (W(T) = diag(1, i)); θ₁'s multipliers are eighth roots. At ω the modes' U-action is W40's, nothing added (§40's line withdrawn in the rule), up to a branch convention: the two lifts, as the assurance round found |
 | Assurance (2026-10-08) | ASSURANCE (post hoc) | the owner's "are we sure": a conventions registry (two string conventions; the period rule, corrected), mutation tests (10 of 10 caught by regeneration, 5 by the result tests, so a regeneration test was added), four independent adversarial reviews (foundation 6/6 and masses 6/6 confirmed exactly; weight 4/5, the fifth a branch convention; readings: no false theorem, several overstatements corrected), script fixes with values identical, the norm routine's small-Im τ bug fixed. Findings: the residual convention (flavon versus modular scenario; P10 lives only in the first), the period rule's stabiliser L U L⁻¹, and the frame premise (GENESIS FK11) |
 | W42 | VERIFIED (not blind; the rule first; B1620 read first) and COMPUTED (a census of every thread to length 12) | main's B1620 rebuilt from W21's construction: G = {z S : z⁸ = 1, z⁴ = sgn S}; 68 subgroups in 26 classes, 57 abelian; viable (three distinct non-zero masses, exact in ℤ[ζ₂₄], two routes): 57 under T̄ ⊗ T (the abelian ones), 24 under T ⊗ T (real character: E's 16 and the 3-cycles' ⟨±t⟩), 16 under Sym² T (the subgroups of E, the parity signs); no order-3 residual under Sym² T ((|a|, |b|, |b|) along every 3-cycle); 10 subgroups contain the parity grading K, and theirs are permutation patterns. Ask 2: a thread's own H¹ (Wang) reads its word: zero modes exactly when r ≡ ℓ (mod 4) (237 of 745), and every grading-breaking one is a body diagonal, B1621's tick line; a thread result |
+| W43 | COMPUTED (the rule first; one run; B1620's stored fits read first and transcribed) | which trimaximal family each tensor allows. The record's frame: TM1 and TM2 under T̄ ⊗ T; under T ⊗ T no pair has a TM1 column (0 of 576) and the family is TM2 (B1620's own T ⊗ T fits are TM2's); neither under Sym² T. Where c is gauge (B₃ = {±1} × O; 98 subgroups, viable 66 / 66 / 49; O's Sym² T invariant δ): TM1 and TM2 under T̄ ⊗ T and T ⊗ T, neither under Sym² T; no twist of a 3-cycle survives Sym² T. Given Λ, P10's TM1 needs that frame and an E₆ 351. Post hoc: two family dimensions of the run's tally (1 and 3) recomputed as 0 and 2 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2827,6 +2914,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W43_RULE.md`: the rule, committed before the code; `the_trimaximal_families.py` → `the_trimaximal_families.json`: W43, the trimaximal families each tensor allows in the record's frame and where c is gauge; `received/B1620_post_seal_tensors.json`: B1620's stored fits, verbatim (sha256 as in its ARTIFACT_HASHES); POST HOC `the_trimaximal_families_posthoc.py` → `the_trimaximal_families_posthoc.json`: two outlying family dimensions recomputed.
 - `W42_RULE.md`: the rule, committed before the code; `the_breaking_verified.py` → `the_breaking_verified.json`: W42, main's B1620 recomputed exactly (the lattice, the three tensors, K; a verification, not blind) and the census of every thread's own zero modes.
 - `W41_RULE.md`: the rule, committed before the code; `the_zero_modes_weight.py` → `the_zero_modes_weight.json`: W41, the zero modes' weight by the norm and by the theta laws.
 - `the_weave_at_omega_verified.py` → `the_weave_at_omega_verified.json`: W40, main's B1617 recomputed, given τ = ω (a verification, not blind).
