@@ -1,0 +1,48 @@
+{
+  "charged_witness_weights": 12,
+  "different_local_kinetic_boundary_constructed": true,
+  "facts": {
+    "actual_conjugate_fields_compatible": true,
+    "actual_cusp_extreme_drifts": true,
+    "adjoint_green_pairing": true,
+    "all_covectors_operator_and_adjoint_complement": true,
+    "arbitrary_gauge_action_commutes": true,
+    "charged_witness_not_a_deleted_exotic": true,
+    "constant_mixing_fails_seam": true,
+    "drifts_agree_with_existing_end_blocks": true,
+    "finite_full_symbol_rank_controls": true,
+    "four_weyl_packaging_matches_full_operator": true,
+    "full_symbol_hermitian_and_norm": true,
+    "local_projector_hermitian_involution": true,
+    "lorentz_current_vanishes": true,
+    "new_sigma_mixes_angular_parity": true,
+    "new_trace_does_not_reuse_old_witness": true,
+    "normal_target_phase_and_reality_map": true,
+    "old_allowed_lambda_has_decaying_angular_symbol": true,
+    "old_reference_trace_keeps_the_witness": true,
+    "principal_from_actual_mass_and_metric": true,
+    "scalar_phase_fails_reality": true,
+    "spin_seam_descends": true
+  },
+  "full_symbol_ranks": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "interacting_boundary_completion": false,
+  "j0_reference_signs": [
+    1,
+    -1
+  ],
+  "nonauthor_acceptance": false,
+  "old_anomaly_transfers_to_new_boundary": false,
+  "old_reference_has_local_elliptic_lift": false,
+  "physical_goal_achieved": false,
+  "predicates_passed": 21,
+  "stable_chiral_spectrum_derived": false
+}

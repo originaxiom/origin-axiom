@@ -1,5 +1,23 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October9 full-angular boundary conditional sublemmas. Fixed supplied
+curved E8 parent, finite cusp cut and explicit fermion trace laws.
+PROOF: reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/PROOF.md.
+Safeguards: tests/test_physical_bridge_weave_boundary_lift.py.
+
+| Scoped result | Argument and finite safeguard |
+|---|---|
+| Actual full radial tangential symbol includes -gamma5 R r and squares to abs(p)^2+r^2 | Kinetic metric and unitary target identification from the physical mass; test_actual_physical_principal_and_normal_map, test_full_four_weyl_kinetic_packaging |
+| Exact preservation of the balanced horizontal trace prevents a pointwise elliptic extension | Charged j=0 scalar trace is an inward-decaying pure angular symbol vector; pointwise trace-inclusion argument in PROOF; test_actual_charged_extreme_not_removed, test_old_horizontal_trace_fails_angular_symbol |
+| A different off-diagonal slot involution complements the full operator and adjoint at every nonzero covector | Anticommutation with both full symbols, half rank and exact norm; test_local_positive_projector_and_all_covectors, test_separate_cauchy_space_verification |
+| The explicit pairing descends through the spin seam and respects actual conjugate-field traces | B(theta)=i diag(exp(i theta/2),exp(-i theta/2)), V conjugate(Sigma)V=-Sigma; test_spin_seam_and_bad_constant_control, test_conjugate_field_relation_not_extra_species |
+| Local kinetic trace has maximal Lorentz-current isotropy and pointwise gauge covariance | test_actual_adjoint_and_lorentz_flux, test_pointwise_gauge_covariance; no bosonic or supersymmetric boundary closure implied |
+| New boundary does not preserve the old horizontal subspace | It mixes opposite angular spin parity and rejects the old pure scalar witness; test_new_law_does_not_inherit_old_count. No index/anomaly transport by naming |
+
+21 native/9 reference/12 focused/336 regression first-pass at31e5a356e.
+No shared law number, outside analytic acceptance or complete boundary
+physics claimed. Both the scoped obstruction and kinetic positive stand.
+
 October9 normal-Gaussian conditional sublemmas. Supplied curved E8
 parent's horizontal normal channels, stationary flux and parallel
 unbroken external fields. A supplied balanced boundary reference on

@@ -441,3 +441,19 @@ No shared I-number or empirical normalization assigned.
 
 Outside analytic acceptance, genesis selection and the full parameter-free
 SM/TOE remain unachieved. Existing positive alternatives are preserved.
+
+### Physical full angular boundary October9 path-local supplement
+
+Report: reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/FINDINGS.md.
+No shared I-number or new empirical identification.
+
+| sides | exhibited map or distinction | scope |
+|---|---|---|
+| Original four-Weyl mass and full radial symbol | Physical kinetic normalization, target permutation and unitary normal factor Jdagger | Includes all angular covectors and the actual adjoint; finite cusp boundary |
+| Old horizontal trace and local elliptic full trace | Exact trace-preserving pointwise identification REFUTED by a charged j=0 angular Cauchy vector | Does not exclude nonlocal prescriptions, changed traces or additional fields |
+| New slot projector and physical spin/conjugate bundle | Explicit anti-periodic B(theta) with V conjugate(Sigma)V=-Sigma | Supplied global collar pairing, no new right-field species |
+| New local kinetic boundary and old net anomaly | NOT IDENTIFIED; the horizontal subspace is not preserved | Global charged index and interacting boundary law must be computed anew |
+| Constructive boundary pairing and genesis selection | NOT IDENTIFIED; finite cut, slot pairing and its angular dependence are declared inputs | No foundational parameter reduction, observer or qualia inference |
+
+The kinetic positive does not settle stable chirality, quantum consistency
+or the full parameter-free SM/TOE. Existing alternatives remain intact.

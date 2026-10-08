@@ -1,5 +1,35 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October9 full-angular boundary checkpoint:
+reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/FINDINGS.md.
+21 native/9 reference/12 focused/336 regression first-pass at31e5a356e.
+
+- PB-CUSP-HORIZONTAL-LOCAL-LIFT: EXECUTED. Closing scope: any smooth
+  pointwise extension preserving the declared balanced horizontal trace
+  fails the angular complementing symbol. Nonlocal and changed-trace
+  alternatives are not excluded.
+- PB-CUSP-LOCAL-KINETIC-BOUNDARY: CONSTRUCTED conditionally. Supplied
+  slot pairing passes full symbols, spin seam, conjugate-field relation,
+  gauge covariance and Lorentz current. No old charged count transfers.
+- PB-CUSP-ANOMALY-COMPLETION: Stage2T PARTIAL. NEXT the new law's
+  global representation-resolved index on a fixed finite truncation,
+  then compatible bosonic variation and stationary interacting theory.
+  A paired outcome would apply to this law, not to all generated ends.
+- PB-CUSP-UNSIGNED-QUANTUM-TRACE: no determinant modulus or full-loop
+  result added; neither full spectrum nor quantum completion follows
+  from a principal boundary symbol.
+- PB-CUSP-REVIEW: independent analytic domain, determinant and boundary
+  review remains owed. Same-author reference is not this acceptance.
+- Magnetic saddle constraints, zero-flux gauge minima, source/silver
+  positives and all generated-architecture alternatives are preserved.
+- Mainbded4d62e B1621 remains read at prereg/producer level only;
+  prior flavor-map and fit-calibration requests remain. SMd62458221
+  unchanged. No recipient acknowledgement is assumed.
+
+Full parameter-free SM/TOE remains active and unachieved. Genesis,
+stable families, normalized parameters, observer/qualia and gravity
+remain distinct duties. Earlier dated NEXT entries are historical.
+
 October9 normal-Gaussian checkpoint:
 reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/FINDINGS.md.
 19 native/8 reference/10 focused/324 regression pass after4605e1515;

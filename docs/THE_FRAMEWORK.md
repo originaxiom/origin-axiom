@@ -1,5 +1,29 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October9 full-angular boundary checkpoint:21 native/9 separate reference/
+12 focused and336 twenty-one-packet regression tests PASS on first
+attempts at pushed seal31e5a356e. Report:
+reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/FINDINGS.md.
+For the supplied curved E8 parent, a smooth pointwise boundary preserving
+the old balanced horizontal trace fails the full angular principal
+symbol. An actual charged j=0 extreme is the witness. This is not a
+no-go for other traces, nonlocal ends or the generated architecture.
+A DIFFERENT supplied slot-mixing boundary passes full operator/adjoint
+symbols, spin seam, conjugate-field reality, gauge covariance and
+Lorentz current. It changes the horizontal sector; the old net anomaly
+and spectrum do not transfer. A local fermion kinetic law is obtained,
+not a complete interacting boundary, stabilized vacuum or physical SM.
+Stage2T PARTIAL: next this exact law's global charged index, then
+same-action bosonic boundary variation, stationarity and spectrum.
+Seven science/29 pinned-and-working sources unchanged. No repair after
+execution. Outside analytic review, full suite/main banking and four
+inherited governance failure categories remain. Mainbded4d62e and
+SMd62458221 unchanged at intake; no cross-seat result newly certified.
+Source/silver positives, complete-domain results, act/register/lift
+and the full parameter-free SM/TOE objective remain. No three physical
+families, normalized parameters, observer/qualia or gravity derived.
+Earlier dated NEXT entries below retain their historical epoch.
+
 October9 normal-Gaussian checkpoint:19 native/8 separate reference/
 10 focused and324 twenty-packet regression tests PASS at reseal4605e1515.
 Report: reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/FINDINGS.md.

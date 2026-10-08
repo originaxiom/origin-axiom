@@ -326,6 +326,19 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    not a property supplied by the infinite inward half-line alone.
    NEXT_TEST is unexecuted for this full-lift admission. Stability,
    actual families, full-loop modulus, interactions and genesis remain.
+   Stage2T October9 SEVENTH GATE EXECUTED at research grade:
+   weave_boundary_lift_2026_10_09/FINDINGS.md.21 native/9 reference/
+   12 focused/336 twenty-one-packet regression first-pass at31e5a356e.
+   The unchanged horizontal reference fails pointwise full-angular
+   ellipticity; actual charged j=0 trace supplies the witness. Another
+   supplied local pairing passes full symbols, spin seam, reality,
+   gauge covariance and Lorentz current. The old spectrum and anomaly
+   DO NOT transfer to this different trace. No all-boundary exclusion.
+   NEXT its global charged index with full source/adjoint domains,
+   then same-action bosonic boundary variation and stationarity before
+   assigning particles or quantizing it. A paired result would scope
+   this pairing, not every end. Nonlocal/relative-phase alternatives,
+   source/silver positives and the full foundational goal remain.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

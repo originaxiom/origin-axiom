@@ -1,0 +1,30 @@
+{
+  "charged_witness_weights": 12,
+  "full_symbol_ranks": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "j0_reference_signs": [
+    1,
+    -1
+  ],
+  "nonauthor_acceptance": false,
+  "predicates": {
+    "bundle_transition_and_duality": true,
+    "independent_cauchy_spaces_are_complementary": true,
+    "independent_charged_witness_population": true,
+    "independent_clifford_algebra": true,
+    "independent_density_drift_action": true,
+    "new_condition_changes_old_horizontal_data": true,
+    "old_angular_intersection_is_nonzero": true,
+    "relative_phase_and_constant_seam_mutants": true,
+    "unitary_slot_graph": true
+  },
+  "predicates_passed": 9
+}
