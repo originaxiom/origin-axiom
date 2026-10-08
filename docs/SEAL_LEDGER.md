@@ -2320,3 +2320,20 @@ actual R-threshold lift, not global background, particles or physical SM.
 Report: weave_cusp_condensate_2026_10_08/FINDINGS.md. A stray leading plus
 in the first table row was removed after execution; digest/manifest/source
 bytes did not change. Nonauthor/full-suite/main-bank acceptance remains owed.
+
+## Global coupled condensate pre execution seal 2026 10 08
+
+Seven science files unexecuted. Commit, push and server confirmation precede
+imports and test collection. Global smooth same-action construction with
+an explicit compensator and full unbroken algebra; predictions disclosed,
+not physical SM or genesis selection. Working dependency bytes also checked.
+
+| File | SHA256 |
+|---|---|
+| weave_global_condensate_2026_10_08/DESIGN.md | bab2de4962491a1f0ef640bba08c55b451cc73d18b51cf046eb6b80a8e089344 |
+| weave_global_condensate_2026_10_08/PROOF.md | 05a4f2423a6ba030d8f041c0a3236c32117f1ee78b69feb2cc71ce5050b03e55 |
+| weave_global_condensate_2026_10_08/INPUTS.json | 8027988ca40a527f38e5fd82a09f56f6dfe104c2eb6058a49b4bf9c002aca06a |
+| weave_global_condensate_2026_10_08/probe.py | 083cc4271b9f5f2c0b2aae673c90db19b28f966a0cac62902a8ff0c93572cf87 |
+| weave_global_condensate_2026_10_08/reference.py | 86b222d0ab8b67e9318553464a6d7aea2c62aac750ea10ef3bf8a6484d12da8b |
+| weave_global_condensate_2026_10_08/custody.rb | 1ce307cae0c4beb2754c4e9d4a8663a742d59ba385ed0f2cfdb51f3229c71d4a |
+| tests/test_physical_bridge_weave_global_condensate.py | bd6c8524b425153cd8421fd85fed269100d4137bc5b418b262137154e971669c |
