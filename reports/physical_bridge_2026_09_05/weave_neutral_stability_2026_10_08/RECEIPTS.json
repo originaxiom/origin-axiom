@@ -1,0 +1,91 @@
+{
+  "pre_execution_seal": "57f3fd304e8cba57fd8107380482e9739c0305f1",
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 3.8798380000516772,
+    "log_bytes": 13118,
+    "log_sha256": "23130f172c069e76bf43f62d20d5eda36ea83143a55aacb9565d658dfe8ef0fc",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.0971750000026077,
+    "log_bytes": 12122,
+    "log_sha256": "c521b110e8f9fec86c76e9767a9bc24029e30cf63972ebc512b3dd35a9fd7292",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 7.443934000097215,
+    "log_bytes": 99,
+    "log_sha256": "c8d365576408b28b4753ab73fa1895b10eaffb29fbdc8011f555af2eaf54fc52",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_neutral_stability.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 34.815654000034556,
+    "bytes": 261,
+    "sha256": "9507b6a8b2a0afcf2c87013f0728ec3fdc77aadb98a69ca4cd3dc42490676128",
+    "tests": [
+      "tests/test_physical_bridge_weave_puncture_operator.py",
+      "tests/test_physical_bridge_weave_form_parent.py",
+      "tests/test_physical_bridge_weave_companion_roster.py",
+      "tests/test_physical_bridge_weave_curved_action.py",
+      "tests/test_physical_bridge_weave_cusp_condensate.py",
+      "tests/test_physical_bridge_weave_global_condensate.py",
+      "tests/test_physical_bridge_weave_graded_condensate.py",
+      "tests/test_physical_bridge_weave_two_field_gauge.py",
+      "tests/test_physical_bridge_weave_sm_parallel.py",
+      "tests/test_physical_bridge_weave_magnetic_stationarity.py",
+      "tests/test_physical_bridge_weave_neutral_stability.py"
+    ],
+    "tree_unchanged": true
+  },
+  "governance_preseal": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 22.33170900004916,
+    "bytes": 2384,
+    "sha256": "40446c8085fdfb12df106049d72113ba788b59f60a8947d3910f25112fa5d07c"
+  },
+  "first_scientific_attempts": true,
+  "source_repair": false,
+  "full_suite_run": false,
+  "nonauthor_acceptance": false,
+  "governance_final": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 18.634196999948472,
+    "bytes": 2384,
+    "sha256": "3065940d665351cf9e34f255cda582578d267a905b8f1c8b10965f192f0edd49"
+  },
+  "governance_final_summary": {
+    "pass": 26,
+    "fail": 4,
+    "inherited_categories": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "review_due_counter": 373
+  }
+}

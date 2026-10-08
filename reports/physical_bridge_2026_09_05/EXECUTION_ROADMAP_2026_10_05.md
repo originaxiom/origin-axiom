@@ -174,6 +174,21 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    a claimed stable phase or charged index. Concrete NEXT_TEST is HAND and
    UNEXECUTED, not a stabilization result. Source/boundary alternatives
    remain open in their proper parents. No all-non-BPS or architecture kill.
+   Stage2P October8 neutral-stability gate EXECUTED at research grade:
+   weave_neutral_stability_2026_10_08/FINDINGS.md.30 native/17 reference/
+   16 focused/180 eleven-packet regression PASS unchanged at57f3fd304.
+   Same-action neutral spin modulus gives n=0,c!=0 SM gauge minimum,
+   no Wilson, but unchanged zero charged index and unselected amplitude.
+   Full bosonic end has bottom -7/4 at abs(n)=1 and 1/4 otherwise.
+   First flux has infinite physical Morse index for EVERY finite c;
+   includes color-charged scalars, not just an electroweak Higgs mass.
+   Higher-flux positive tail does NOT decide global discrete stability.
+   NEXT Stage2Q: full mixed discrete Hessian at n=2 with actual psi,
+   analytic/coercive or certified spectral bounds, all sectors retained.
+   c=0 at least60-negative, n=0 nonnegative and first-flux essential
+   controls must all survive. NEXT_TEST is UNEXECUTED. Only a stable
+   admitted phase advances to the complete charged Weyl dictionary.
+   Main B1613/B1614 and SM W36 read, not replayed. No full physical SM.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

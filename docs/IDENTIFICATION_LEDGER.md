@@ -281,3 +281,20 @@ Locks: tests/test_physical_bridge_weave_magnetic_stationarity.py.
 | One fermion end block / charged spectrum | Only drift1/2+nq and its conjugate checked | Thresholds121/4 and81/4 at first flux | Full four-slot Weyl map and index NOT established; no chiral identification |
 
 Outside analytic acceptance and complete physical selection remain owed.
+
+### Neutral spin stability October 8 path-local supplement
+
+No shared I-number, normalization or full physical status is reassigned.
+Report: reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_neutral_stability.py.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Holomorphic spin section / admitted neutral field | Q=Q_principal+c*psi*Z on the trivial extending S | Global extension, L2/graph/L4 norms, actual residuals and full stationarity | Supplied spin and genuine amplitude modulus, not genesis selection |
+| Zero-flux commutant / connected SM gauge group | Separate principal/Z centralizers forced by asymptotic norm behavior | Prior faithful SU5_g and diag(-2,-2,-2,3,3); all residual squares zero | Classical minimum with flat moduli and zero charged index; no Wilson, no chiral SM |
+| Lowest Q end channels / color and weak representations | Actual Cartan weights on full E8 roots at q=2,3,m=-3 | Antitriplet-singlet and singlet-doublet actions, exact -7/4 and -3/4 thresholds | Scalar instabilities, not generations or solely electroweak breaking |
+| Escaping modes / physical negative directions | Complete-domain compact packets in lowest Q, full gauge-invariant quadratic form | Gauge slice at c=0; decaying perturbation and nonnegative vertical sector | Infinite first-flux Morse index for finite c, not all magnetic backgrounds |
+| Zero-flux neutral deformation / charged index | Fixed-domain graph-compact fermion homotopy | Prior Fredholm end and local elliptic compactness, authored analysis | Index stays zero, individual kernels may jump; nonzero-flux index uncomputed |
+
+Outside analytic review, full charged spectrum and foundational selection
+remain owed.

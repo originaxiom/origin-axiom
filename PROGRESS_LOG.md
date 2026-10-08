@@ -17764,3 +17764,35 @@ Explicit Weierstrass sections and Hermitian Hodge map earn global L2,
 graph and quartic admission, including the logarithmic endpoint control.
 The new neutral-spin-field follow-up is post-run reasoning, not execution
 or evidence of stability. No chirality or foundational selection claimed.
+
+## 2026-10-08 neutral spin deformation and complete magnetic end spectrum
+
+October 8 neutral-stability research checkpoint: 30 native/17 separate
+reference/16 focused and 180 eleven-packet regression tests PASS unchanged
+at pushed pre-run 57f3fd304. Same supplied E8 action now admits a neutral
+spin-Higgs modulus: A=A_n, Q=Q_principal+c*psi*Z, R=0. At n=0,c!=0
+the connected gauge group is S(U3 x U2), no extra Wilson, and the full
+classical Hessian is nonnegative. It has flat moduli and ZERO charged
+index, not a selected or chiral Standard Model.
+At abs(n)=1 the complete bosonic end has bottom -7/4, including a
+color-charged scalar instability. Escaping physical modes give infinite
+Morse index for EVERY finite c; the decaying neutral field cannot cure it.
+At abs(n)>=2 the essential bottom is 1/4, but global discrete stability
+remains OPEN. Positive tail is not global positivity; c=0 is still a saddle.
+Report: reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/FINDINGS.md.
+NEXT: the actual higher-flux mixed discrete operator and rigorous bounds;
+NEXT_TEST is UNEXECUTED. No other ends/sources/parents or architecture
+excluded. Odd spin, amplitude, action, metric and embedding remain supplied.
+B1613/B1614 at main6df009415 and SM W36 at2abff008c read, not replayed.
+Post-run main87f47afa0 B1615 and SM7c5d9726c magnetic/fork relays read;
+INTAKE_AFTER_RUN preserves numerical-proof and physical-index caveats.
+Full SM/TOE ACTIVE/unachieved; nonauthor analytic/full-suite/main-bank and
+inherited governance duties remain. Earlier dated NEXT entries are history.
+
+Seven science and five pinned-and-working sources unchanged. First native
+3.879838s, reference0.097175s, focused pytest6.64s, regression33.89s;
+literal exits/hashes in RECEIPTS.json. No scientific failed run or repair.
+Full coordinate residuals and positive kinetic normalization checked in
+addition to the two root/tensor rosters and exact operator squares.
+Global spin, relative compactness and infinite-domain spectrum are
+authored analytic arguments, not independently accepted by finite tests.

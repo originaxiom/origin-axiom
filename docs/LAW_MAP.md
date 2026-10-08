@@ -1,5 +1,25 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October 8 neutral-stability conditional sublemmas. Same supplied curved
+parent, punctured elliptic metric, spin and complete graph domain; not
+generated physics, new shared B laws or independent analytic acceptance.
+PROOF: reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md.
+LIVE locks: tests/test_physical_bridge_weave_neutral_stability.py.
+30 native/17 separate reference/16 focused/180 regression PASS at57f3fd304.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Exactly the trivial extending spin line admits a nonzero holomorphic L2 neutral section | Degree-zero compact extension, radial pole/log endpoint, Laurent orthogonality, derivative and quartic norms; test_neutral_spin_norm_poles_and_decay. Global uniqueness is authored analysis, not selection of this spin |
+| Neutral Q deformation remains stationary for every finite c and integer n | Commuting triple/Z, holomorphic psi, parallel moment -nZ and finite energy; test_neutral_deformation_moment_and_full_variation_conditions and test_amplitude_is_not_silently_quotiented_away. Energy independent of c, positive norm depends on abs(c)^2; genuine unselected modulus |
+| At n=0,c!=0 the same action has a nonnegative SM gauge minimum without Wilson | Asymptotic separation forces commutation with principal triple and Z; full residual squares vanish; test_zero_flux_is_full_positive_square_control_not_chirality plus PROOF. Flat moduli, supplied spin/frame; not quantum stability or chiral SM |
+| Full bosonic essential bottom is -7/4 at abs(n)=1 and 1/4 otherwise | All248 root/tensor weights, 360 scalar and136 vector slots, actual coordinate normalization, weighted adjoints and extreme channels; tests test_entire_E8_charge_weight_roster_two_routes, test_all_canonical_coupled_blocks_with_actual_adjoint, test_full_scalar_vector_populations_and_extremes, test_actual_charge_roster_matters_to_all_integer_argument. All-integer/end argument authored; finite grid is control only |
+| First-flux negative channels include color-antitriplet and weak-doublet scalars | Actual color/weak Cartan actions at q=2,3 and m=-3, not dimension matching; test_first_flux_negative_channels_are_physical_Q_extremes. Conjugate at negative flux, not fermion generations or acceptable color-preserving Higgs mechanism |
+| First-flux physical Morse index is infinite for every finite c in this family | Lowest Q gauge-slice modes, escaping disjoint packets and decaying relatively form-compact deformation; test_negative_moment_and_escaping_packet_controls plus PROOF. No higher-flux, changed-end, source, domain or architecture exclusion |
+| Neutral deformation of the zero-flux phase preserves its zero charged index | Same-domain decaying bounded zeroth-order fermion change, local ellipticity/Rellich and prior Fredholm gap; PROOF and prior weave_sm_parallel argument. Analytic extension, not a new numerical zero-mode count |
+
+Higher-flux DISCRETE stability remains open. NEXT_TEST is an unexecuted
+successor plan, not a theorem. No full n!=0 fermion index is supplied.
+
 October8 magnetic stationary-family conditional sublemmas. Supplied
 fixed-metric action/embedding/spin/complete domain; not generated physics,
 a new shared B arc or independently accepted main-bank laws.

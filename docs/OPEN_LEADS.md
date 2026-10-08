@@ -1,5 +1,37 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October 8 neutral-stability checkpoint:
+reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/FINDINGS.md.
+30 native/17 reference/16 focused/180 regression PASS at57f3fd304.
+
+- PB-CUSP-NEUTRAL-STABILIZER: EXECUTED for the stated family. The
+  zero-flux nonparallel minimum has connected SM gauge group without
+  Wilson, but zero charged index and an unfixed neutral amplitude.
+- Closing scope, FINDINGS: "in this supplied action, the family
+  A=A_n, Q=Q_principal+c*psi*Z, R=0 has infinite physical Morse index
+  at abs(n)=1 for every finite c." No architecture-wide lead is closed.
+  First-flux color-charged scalar channels are actual physical variations.
+- PB-CUSP-HIGHER-FLUX-STABILITY: OPEN. For abs(n)>=2 the end bottom
+  is positive, while c=0 retains at least30abs(n) negative directions.
+  Derive the global mixed operator with actual psi and prove a bound
+  covering every sector. See NEXT_TEST; no executed stabilization claim.
+- PB-CUSP-INDEX-CLASS: zero-flux neutral deformation is graph-compact,
+  so it does not change that charged index. At nonzero n the FULL Weyl
+  dictionary and index remain uncomputed here; no one-block shortcut.
+- PB-CUSP-REVIEW: independent review of global spin extension, canonical
+  charged blocks, gauge quotient, form compactness and spectral domains.
+  Same-author two-route checks are not nonauthor acceptance.
+- PB-SOURCE-JOIN and other source/silver alternatives remain carried in
+  their own parents; no finite index graft onto this model.
+- Main6df009415 B1613/B1614 and SM2abff008c W36 read, not reproduced.
+  W36's closed-surface SU5 degree argument is not a universal exclusion
+  of punctured hypercharge backgrounds or all two-dimensional physics.
+- Full chiral spectrum, anomalies, interactions, foundational selection,
+  act/register/lift retention, quantum consistency and gravity remain.
+  No phenomenal-awareness or full SM/TOE identification has been earned.
+
+Earlier dated NEXT/UNEXECUTED entries below retain their historical epoch.
+
 October8 magnetic checkpoint:
 reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/FINDINGS.md.
 31 native/19 separate reference/12 focused/164 regression PASS at c42c3b5b0.
