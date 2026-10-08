@@ -652,3 +652,37 @@ def test_w33_the_odd_spin_structure_across_frames():
         UR = OS.PC.generic(OS.OT.intertwiners(A, B, A @ B, B))
         s, _ = OS.sector(A, B, UL, UR)
         assert s["(N)"] == [-k, k] and s["(S)"] == [-k, k]
+
+
+def test_w34_the_observer_layer_on_the_weave():
+    """W34 (the rule committed first): the observer layer's negatives on every thread and on the weave. No private states
+    on the 758 states (747 at 60 digits, the other 11 post hoc at 120); at the common point private states 0, 4, 6 kept
+    by no thread and not jointly; 536 names, the coincidences exactly the reversal pairs; the register inner and in no
+    hand. Q2's table, the joint zeros and Q5's lemma are recomputed in process (exact)"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_observer_layer_on_the_weave.json").read_text(encoding="utf-8"))
+    q1 = d["Q1 the private states on every thread (B761's quantity)"]
+    assert q1["errors"] == [] and q1["the control m004 (b++LR): B761's (1, 1, 0) in each block"] is True
+    assert q1["per block (H1, rank, private) for k = 1, 2, 3 -> states"] == {"((1, 1, 0), (1, 1, 0), (1, 1, 0))": 747}
+    assert len(q1["undecided (a rank between 1e-40 and 1e-25 relative)"]) == 11
+    post = json.loads((here / "the_observer_layer_posthoc.json").read_text(encoding="utf-8"))
+    assert post["every undecided state now (1, 1, 0) in every block"] is True and len(post["rows"]) == 12
+    q2 = d["Q2 the private states at the common point (exact)"]
+    assert q2["fiber_dim(n) at the common point, n = 2, 3, 4"] == [0, 4, 6]
+    assert q2["thread by thread"]["states keeping a private state (predicted none)"] == []
+    assert q2["thread by thread"]["every odd-trace state keeps (1, 1, 2) (predicted)"] is True
+    q3 = d["Q3 the self-name among the threads"]
+    assert (q3["distinct names"], q3["reversal pairs (a word and its reverse, same sign, different states)"]) == (536, 222)
+    assert q3["shared names that are not reversal pairs"] == [] and q3["every + state is separated from its - state"]
+    q5 = d["Q5 the register and the hands (exact)"]
+    assert q5["the register keeps both hands"] is True and q5["the control: C flips the cyclic order (the McKay hand)"]
+    sys.path.insert(0, str(here))
+    import the_observer_layer_on_the_weave as OL
+    for k, want in ((1, (3, 3, 0)), (2, (7, 3, 4)), (3, (8, 6, 2))):
+        b = OL.Block(k)
+        assert (b.h1, b.rank_res, b.private) == want
+        assert b.kept([b.action(OL.CP.AUT["L"]), b.action(OL.CP.AUT["R"])]) == (0, 0)
+    sigma, rev = {1: [1, 2], 2: [1]}, {1: [2, 1], 2: [1]}
+    assert OL.CP.compose(OL.CP.inner([-1]), sigma) == rev
+    assert OL.proportional(OL.lift(rev), OL.mmul(OL.RHO[-1], OL.lift(sigma)))

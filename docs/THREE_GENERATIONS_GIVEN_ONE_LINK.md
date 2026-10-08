@@ -117,6 +117,10 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
     - The puncture's end condition, the last computational route, does not make three in F-HE: its two sectors need
       opposite principles (W32).
     - Λ stays the one link.
+  - **W34 asked whether the observer layer is the missing ingredient** (the owner's question, 2026-10-08, the rule
+    committed first).
+    - Its negatives belong to every thread, and the register carries neither hand.
+    - It supplies neither the hand nor Λ. Λ stays the one link.
 
 ## Files
 

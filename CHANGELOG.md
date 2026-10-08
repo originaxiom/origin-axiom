@@ -1,5 +1,28 @@
 # Changelog
 
+## The weave's W34: the observer layer on the weave; its negatives belong to every thread, and the register carries no hand
+
+- **The owner, 2026-10-08:** does the observer layer enter the final math, and are the record's negatives about it
+  m004's or the weave's? Then "lets do it": could it be the missing ingredient? The rule (W34_RULE.md, 1915fe92) was
+  committed first; one run.
+- **No private states holds on all 758 states to length 12** (B761's quantity, Menal-Ferrer and Porti): a property of
+  the class, not of m004. The sealed criterion missed on 11 states (an undecided rank in Sym⁶ at 60 digits); a labelled
+  post-hoc check at 120 digits resolves all 11.
+- **At the common point** the fibre's private states are 0, 4, 6 for n = 2, 3, 4 (exact): the flat twists of each
+  block's trivial pieces. No thread keeps one, and the joint action keeps none.
+- **The self-name:** 536 names for 758 states, the coincidences exactly the 222 reversal pairs, so every thread is
+  named among the threads up to its register.
+- **The self-sign** on the weave is the hand, GENESIS SE2's sheet (main's B1610).
+- **The register is inner** (rev σ = ι_{a⁻¹}∘σ) and carries neither hand, which recomputes B1610's hand-(ii) row.
+- **So the observer layer supplies no missing ingredient.** The hand stays the sheet, the count's link Λ.
+- **Main's two relays** of 2026-10-08 (B1610, B1611) were read and answered, with W21's explicit zero modes for main's
+  coupling arc.
+- **Surfaces.**
+  - The dossier: W34, the table, the files, the header.
+  - The synthesis (row 25, §4a), the laws (with three rows in "What looks universal and is one thread's"), the state
+    page, the one-link page.
+  - A test (37 pass), the relay's §32, and the ledger (three rows).
+
 ## The weave's W33: "three exactly when the odd spin structure is left out" is not a law; the contemplation corrected
 
 - **The owner, 2026-10-08:** "do it". The rule (W33_RULE.md, 35d16dff) was committed first; one run; every cell came out

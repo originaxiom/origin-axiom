@@ -99,6 +99,12 @@ is a selection."** This seat agrees.
   not forced which.
 - **W33 corrects its second point:** "three exactly when the odd spin structure is left out" is not a law. Under the
   spinor rule a count is ± the number of doublet blocks, so three needs rank six; that is 𝕎, with its link Λ.
+- **Main's S89 and S90 (B1610, B1611; GENESIS v1.31, v1.32):** the three's hand is the sheet of the orientation
+  double cover, GENESIS SE2's choice. The weave's generalized CP is the record swap, so CP violation is allowed, not
+  forced. The owner reopened value contact.
+- **W34, the observer layer on the weave (the owner's question):** the record's observer-layer negatives belong to
+  every thread, not to m004. At the common point no thread and not the joint action keeps a private state. The
+  register (GENESIS FK12) carries neither hand. So the observer layer supplies no missing ingredient.
 
 ## Questions open with main
 
@@ -110,7 +116,7 @@ is a selection."** This seat agrees.
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W33 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W34 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§31).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§32).

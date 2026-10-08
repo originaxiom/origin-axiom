@@ -223,6 +223,15 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 - **Under the spinor rule a sector's count is ± its number of doublet blocks (W33; the rule committed first;
   computed).** So three needs three doublet blocks, rank six, in every frame of the record (W23's conclusion as a law).
   The doublet blocks are label-blind, so no law singles out the odd spin structure.
+- **The observer layer on every thread (W34; the rule committed first; computed, one criterion resolved post hoc).**
+  - No private states: on all 758 states to length 12, dim H¹(M; Sym^{2k}) = 1 and the restriction to the cusp is
+    injective for k = 1, 2, 3 (Menal-Ferrer and Porti). B761's FLAT is the class's, not m004's.
+  - The self-name: the volume and the cusp shape separate the threads exactly up to the reversal of the word (536
+    names for 758 states; the 222 coincidences are the reversal pairs, one manifold each).
+  - At the common point: the fibre's private states are 0, 4, 6 for n = 2, 3, 4, kept by no thread (each acts on them
+    hyperbolically) and not by the joint action.
+  - The register is inner: rev(σ) = ι_{a⁻¹}∘σ, so the two orders are one thread, and their lifts differ by an element
+    of Q₈. It carries neither hand.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).
@@ -249,6 +258,9 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | the triplet's Yukawa is ε_ijk, so zero | B1271 | THREAD: m004's E₈ family tensor | not lifted. On the weave's T_d the invariant cubic is xyz, not ε_ijk, and with P neither is invariant. Recheck R15 |
 | the object "withholds a chiral generation" for every hyperbolic knot complement | the verdict of the object | THREAD: checked on m004 | among the states only +LR is a knot complement. Recheck R12 |
 | three generations force Pin⁺ | B1383 | THREAD: m004 and m000 | recheck R8 |
+| "no private states" (FLAT) | B761 | THREAD: m004 at its geometric representation | a law over the threads (W34): all 758 states to length 12 have none, so it is the class's property, as Gate 5-Q's Q2b reads a property every comparator shares. At the weave's common point the fibre has private states from rank three, kept by no thread and not by the joint action |
+| "the emitted word is a self-name" (QUINE) | B762; main's B1184 | THREAD: m004 in SnapPy's census | among the threads every state is named up to its reversal (W34): the name's one blind spot is the register |
+| "the object cannot sign itself" (NO-HATCH) | B760; main's B1183 | THREAD: m004 | on the weave the self-sign is the hand, the orientation sheet (main's B1610; W34 Q4), and the register carries neither hand (W34 Q5) |
 | L³R is the only state with three ends | main's GENESIS v1.22 | WEAVE (a proof) | a competing "why three": ends, not parities. Main reads both mechanisms as needing FK14 (main's GENESIS v1.23) |
 
 ## 3. What the laws could mean together (READING)

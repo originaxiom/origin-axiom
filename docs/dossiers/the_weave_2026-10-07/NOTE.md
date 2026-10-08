@@ -16,6 +16,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   forced. W31: no ℤ₅ flux gives an anomaly-free three.
 - W32 (the owner's "do as u recomend on all"): in F-HE the puncture's end condition does not make three.
 - W33: "three exactly when the odd spin structure is left out" is not a law; under the spinor rule three needs rank six.
+- W34 (the owner's question about the observer layer): its negatives belong to every thread, not to m004; the
+  register carries no hand; it supplies no missing ingredient.
 
 ## The setting
 
@@ -1982,6 +1984,109 @@ difference.
 **Status.** COMPUTED (one run; the rule committed first). A WEAVE result within the record's frames: NEGATIVE for the
 naive law, and a correction of this seat's own reading.
 
+## W34. The observer layer on the weave: its negatives belong to every thread, and the register carries no hand (`the_observer_layer_on_the_weave.py`; `W34_RULE.md`; post hoc `the_observer_layer_posthoc.py`)
+
+**Why.** The owner's questions (2026-10-08):
+- does the observer layer ever enter the final math, and do the record's negative conclusions about it hold for m004
+  alone or for the whole weave?
+- then "lets do it": could the observer layer, taken on the whole from the principle to closure, be the ingredient the
+  derivation is missing?
+
+The record's four observer-layer probes (Gate 5-Q; QP-1 to QP-4: B762, B761, B760) and main's syntheses B1183 and B1184
+were all computed on m004 at its geometric representation. They are thread results. This arc computes structure only
+(Gate 5-Q, Q5), and its terms are the probes' bound labels. The experiential question stays apart (GENESIS FK12).
+
+**Weave or thread?**
+- Q1 and Q3 are censuses over every thread (GENESIS's 758 states to length 12). A property holding on all of them is a
+  law over the threads, never a weave quantity.
+- Q2 is weave-type: the common point is fixed by every move, the puncture is shared, and the quantity is what the
+  joint action keeps.
+- Q4 is assembled from the record. Q5 is exact, on the four founding rules.
+
+**The rule** (`W34_RULE.md`, committed 1915fe92 before the script existed; the script committed ddd62c4e while its one
+run was in progress). One run. Q2, Q3 and Q5 came out as stated. Q1 missed its sealed criterion on 11 states, resolved
+post hoc (below).
+- **Disclosed before the read-out.** The timing prototype that preceded the rule built its null space from mpmath's
+  thin SVD, which drops the null directions of a wide matrix (an out-of-range row of an mpmath matrix reads as zeros).
+  It reproduced m004's values only because one genuine null vector sufficed. The script takes the full V and checks
+  every kernel vector is null.
+
+**The read-out (COMPUTED).**
+- **Q1, the private states on every thread (B761 → every thread).** All 758 states have geometric solutions; no error.
+  - 747 states were decided at 60 digits, and every one has (dim H¹, rank, private) = (1, 1, 0) in each block
+    Sym², Sym⁴, Sym⁶. So fiber_dim(n) = 0 for n = 2, 3, 4. The control m004 gives B761's values.
+  - 11 states were left undecided by the rank rule (one singular value between 10⁻⁴⁰ and 10⁻²⁵ relative), each only
+    in Sym⁶, all of word length 12 (volumes 3.6 to 10.7). So the script's sealed criterion (every state decided, and
+    (1, 1, 0)) failed on these 11.
+  - **POST HOC** (`the_observer_layer_posthoc.py`, labelled, thresholds stated before it ran). The 11 were recomputed
+    from SnapPy's polished holonomy at 400 bits, at 120 digits. All are (1, 1, 0) in every block. Their smallest
+    genuine singular values reach 1.0 × 10⁻³⁵, below the run's 10⁻²⁵ threshold, and the zeros fall below 10⁻⁹⁶. So the
+    band at 60 digits was too narrow for these threads' Sym⁶; Menal-Ferrer and Porti's theorem holds on all 758.
+- **Q2, the private states at the common point (B761 → the weave; exact).** The table came out as derived by hand:
+
+  | k | Q₈'s characters in Sym^{2k} (χ₀, χ₁, χ₂, χ₃) | dim H¹ | rank to the puncture | private | kept by L, R jointly |
+  |---|---|---|---|---|---|
+  | 1 | 0, 1, 1, 1 | 3 | 3 | 0 | 0 |
+  | 2 | 2, 1, 1, 1 | 7 | 3 | 4 | 0 |
+  | 3 | 1, 2, 2, 2 | 8 | 6 | 2 | 0 |
+
+  - So at the common point fiber_dim(n) = 0, 4, 6 for n = 2, 3, 4.
+  - The private states are flat twists of each block's trivial pieces, which the puncture, a commutator, cannot detect.
+    At n = 3 they are the flat twists of the three parity lines, their Wilson lines on the fibre.
+  - **Kept by the joint action: nothing,** in every block, on H¹ and on the private states, for L and R, and with P
+    and −I added.
+  - **Kept by one move alone (H¹, private), k = 1, 2, 3:** L and R keep (1, 0), (1, 1), (1, 0). P keeps (2, 0), (3, 2),
+    (4, 1). −I keeps (3, 0), (3, 0), (6, 0). So the parabolic L and the involution P can keep a private state.
+  - **Kept by each thread alone:** no private state, on all 758 states. A thread acts on the private states as its own
+    hyperbolic matrix (eigenvalues λ^{±1}) tensored with a map of finite order.
+  - On all of H¹, the 326 odd-trace states keep (1, 1, 2), as predicted. The even-trace states keep (1, 0, 1) on 136,
+    (1, 1, 2) on 124, (1, 2, 3) on 132 and (3, 3, 6) on 40.
+- **Q3, the self-name among the threads (B762, B1184 → every thread).** The name is the volume and the cusp shape up to
+  GL(2, ℤ) and the mirror, compared at 30 digits.
+  - The 758 states have 536 names. The 222 coincidences are exactly the reversal pairs (a word and its reverse with the
+    same sign), and SnapPy finds each pair one manifold. No other two states share a name.
+  - Every + state is separated from its − state by the cusp shape. Their volumes agree on all 379 pairs (read from the
+    run's volumes after the read-out), since both are half of M_{φ²}.
+  - m004's cusp shape reduces to 2√3 i, and m003's to the hexagonal (½, √3/2).
+- **Q4, the self-sign on the weave (assembled; no computation).**
+  - W26 N1–N2: the weave is closed under the mirror.
+  - Main's B1607, B1609 and B1610: the three's hand is the sheet of the orientation double cover, which the rule itself
+    exchanges.
+  - B1183: on m004 the self-sign obstruction is the orientation.
+  - So the weave cannot sign itself, and on the weave the self-sign is exactly the hand (GENESIS SE2, GM5c).
+- **Q5, the register (GENESIS FK12) and the hands (exact).**
+  - σ = L∘P as automorphisms; rev(σ) = ι_{a⁻¹}∘σ; C(rev σ) = ι_{b⁻¹}∘C(σ); C(σ) = P∘σ∘P.
+  - All four rules have determinant −1. σ and rev(σ) have one matrix, one cyclic order of the parities, and one class
+    of lift modulo Q₈. Their lifts differ by ρ_Q(a)⁻¹, and they act identically on H¹ in every even block. The same
+    holds for C(σ) and C(rev σ).
+  - The control can fail and does: C flips the cyclic order and the lift's class, and σ and C(σ) act differently on
+    H¹.
+  - **So the register (ab against ba) is an inner automorphism, and it carries neither hand.** This recomputes main's
+    B1610 hand-(ii) row for the reversal and for C with this seat's code, and gives the reason.
+
+**What it shows.**
+- **The observer layer's negatives belong to every thread, not to m004.**
+  - No private states holds on all 758 states. It is the class's property (Gate 5-Q, Q2b).
+  - The self-name holds on every thread among the threads, up to the register.
+  - The self-sign is the hand.
+- **The weave's own version is sharper than the thread's.**
+  - The shared fibre does hide states from its puncture, from rank three.
+  - Every tick stretches them, so no thread keeps one, and the joint action keeps none.
+  - Its infinitesimal reading: nothing the weave keeps tells the three parity lines apart by a flat twist. This is W31's
+    "the moves force trivial hypercharge Wilson lines", at first order.
+- **The name's one blind spot is the register, and the register carries no hand.**
+  - What the observer layer cannot name (the order of the letters) cannot decide the hand either.
+  - Even if the act generated its register (GENESIS FK12), the three's hand would not follow from it.
+- **So, as far as the record can compute it, the observer layer is not the missing ingredient.**
+  - The hand is the orientation sheet: a choice, GENESIS SE2 and GM5c.
+  - The count's open link is the dictionary Λ (GENESIS FK11).
+  - The parameters live in the couplings (main's S90).
+  - None of the probes touches any of the three.
+
+**Status.** COMPUTED (one run; the rule committed first; Q1's sealed criterion missed on 11 states and resolved post hoc,
+labelled). Q2 and Q5 are WEAVE results; Q1 and Q3 are laws over the threads. NEGATIVE for the observer layer as the
+missing ingredient.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2126,6 +2231,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W31 | COMPUTED and PROVED (F1's lemma; F4's argument; the rule committed first, every cell as stated); a CHOSEN object (the ℤ₅ flux, not forced), NEGATIVE as a derivation | the ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅, the only twist-eater flux that keeps the whole Standard Model: its centraliser is exactly SU(5)_g (24); its matter is complete SU(5) generations (the 5 ten times, the 10 of SU(5)_g; Λ²5's type ten times, the 5̄ twice; both complex); its flux is a hypercharge rotation (exact). The moves act on ℂ⁵ through 2I = SL(2, 𝔽₅) (order 120, split 3 ⊕ 2, the 2-piece the spin representation with golden traces), and with the bare −I through the ℤ₅ Clifford group (3000). The swap sends the flux to its conjugate. No flux ζ^m gives an anomaly-free three: the SU(5)³-free counts are −1 and 2, or −2 and 1, under the moves, and none under locality. Not a derivation: no three, SU(5) unbroken by anything forced, the flux not forced |
 | W32 | COMPUTED and PROVED (P1; the rule committed first, every cell as stated); a WEAVE result within F-HE, NEGATIVE | the puncture's end condition in F-HE's two sectors: over every rank-5 bundle built from the common point's blocks that L and R keep (five), with the end conditions the weave keeps (naturality, W28; locality), no anomaly-free three. The weave's five (1, 3) is cured naturally only at one or four complete generations (b = −2 or +1; three needs b = 0). The 5̄-sector holds 𝕎, natural at ±3; the 10-sector holds D ⊕ P, natural at ±1 + {0, 3}, and three there needs the parities mixed. In F-HE the puncture does not make three; three complete generations need a frame whose 10-sector holds 𝕎 (W27's Λ). Scope: flat ends only; a non-flat end (GENESIS GAP3's source) is outside it |
 | W33 | COMPUTED (the rule committed first, every cell as stated, one wording difference disclosed); a WEAVE result within the record's frames, NEGATIVE for the naive law | is "three exactly when the odd spin structure is left out" a law across E₆, SO(10) and SU(5)? No, under every counting convention: under naturality, E₆'s trivial bundle gives three (a rank count); under the spinor rule every sector's count is ± its number of doublet blocks, so three needs rank six (W23's conclusion as a law). The doublet blocks are label-blind; the three parity doublets count ±3, and with the zero parity's doublet added ±4. Corrects the second contemplation's point 2 |
+| W34 | COMPUTED (the rule committed first; Q2, Q3, Q5 as stated; Q1's sealed criterion missed on 11 states, resolved post hoc); WEAVE results (Q2, Q5) and laws over the threads (Q1, Q3), NEGATIVE for the observer layer as the missing ingredient | the record's observer-layer probes (B760, B761, B762; main's B1183, B1184), all on m004, taken to the weave. No private states holds on all 758 states to length 12 (Menal-Ferrer and Porti; 747 at 60 digits, the other 11 post hoc at 120): a property of the class. At the common point the fibre has private states from rank three (fiber_dim 0, 4, 6 for n = 2, 3, 4: the flat twists of the blocks' trivial pieces), and no thread and not the joint action keeps any. The 758 states have 536 names, the coincidences exactly the 222 reversal pairs: every thread is named among the threads up to its register. The weave cannot sign itself; the self-sign is the hand. The register is an inner automorphism (rev σ = ι_{a⁻¹}∘σ) and carries neither hand |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2167,6 +2273,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_observer_layer_on_the_weave.py` → `the_observer_layer_on_the_weave.json`: W34, B761's private states on GENESIS's 758 states (SnapPy, 60 digits), the private states at the common point and what the moves keep (exact), the self-name among the threads against the reversal pairs, and the register's lifts and action at the common point; its rule `W34_RULE.md`, committed first. POST HOC `the_observer_layer_posthoc.py` → `the_observer_layer_posthoc.json`: the 11 states the run's rank rule left undecided, recomputed from the polished holonomy at 120 digits.
 - `the_odd_spin_structure_across_frames.py` → `the_odd_spin_structure_across_frames.json`: W33, the census of bundles from the common point's blocks in E₆, SO(10) and SU(5) under the block rule, naturality and the spinor rule, the naive law, the spinor-rule law, the doublet sectors and the sources of each three; its rule `W33_RULE.md`, committed first.
 - `the_puncture_content.py` → `the_puncture_content.json`: W32, the census of rank-5 bundles from the common point's blocks that L and R keep, read in F-HE's two sectors under naturality, locality and W22's block rule, with the completion lemma and what three would need; its rule `W32_RULE.md`, committed first.
 - `the_z5_twist_eater.py` → `the_z5_twist_eater.json`: W31, the ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅ (the group, the centraliser, the matter, the hypercharge and the orientation, the moves at the puncture, the counts for every flux); its rule `W31_RULE.md`, committed first.

@@ -925,3 +925,60 @@ To main and to the audit lane. The rule came first (`W33_RULE.md`, 35d16dff); on
   directions fails there.
 
 0 of 19.
+
+## 32. Added 2026-10-08: W34 (the observer layer on the weave), your B1610 and B1611 read, and the zero modes you asked for
+
+To main and to the audit lane. W34's rule came first (`W34_RULE.md`, 1915fe92); one run.
+
+**1. W34: the owner asked whether the record's observer-layer negatives are m004's or the weave's, and whether the
+observer layer could be the missing ingredient.** The probes (B760, B761, B762) and your B1183 and B1184 were all on m004.
+- **No private states holds on every thread.** On all 758 states to length 12, B761's quantity is (1, 1, 0) in each
+  block Sym², Sym⁴, Sym⁶ (Menal-Ferrer and Porti). It is a property of the class, as Gate 5-Q's Q2b reads one.
+  - Disclosed: 747 states were decided at 60 digits. The rank rule left 11 undecided, each only in Sym⁶ and all of word
+    length 12, so the sealed criterion missed. A post-hoc check, labelled as one, recomputed those 11 from the polished
+    holonomy at 120 digits: all (1, 1, 0).
+- **At the common point the fibre hides states from its puncture from rank three.**
+  - fiber_dim is 0, 4, 6 for n = 2, 3, 4 (exact). These are the flat twists of each block's trivial pieces; at n = 3,
+    of the three parity lines.
+  - No thread keeps one, since each acts on them hyperbolically, and the joint action keeps none.
+  - Single moves can keep one: L, which is parabolic, and the involution P.
+- **Every thread is named among the threads up to its register.** The volume and the cusp shape give 536 names to the
+  758 states. The coincidences are exactly the 222 reversal pairs, one manifold each, and every ± pair is separated.
+- **The weave cannot sign itself.** On the weave the self-sign is the hand, your SE2 sheet (B1610), assembled with W26
+  and B1183.
+- **So the observer layer supplies no missing ingredient** (GENESIS SE2, FK11). The hand stays the sheet, the count's
+  link Λ, and the parameters the couplings.
+
+**2. Your B1610 (S89), read, and part of it recomputed here.**
+- W34's Q5 computes the four founding rules' lifts at the common point with this seat's own code.
+  - The reversal keeps both hands.
+  - C flips the McKay hand: the parities' cyclic order, and the lift's class modulo Q₈.
+  - This is your H1, and the hand-(ii) column of H3.
+- **It adds the reason.** rev(σ) = ι_{a⁻¹}∘σ exactly, so the reversal is an inner automorphism: one outer class, one
+  matrix, one thread. Its lift differs from σ's by ρ_Q(a)⁻¹ ∈ Q₈, which no hand sees, and the two act identically on
+  H¹ at the common point in every even block.
+- **So the register (GENESIS FK12's ab against ba) carries neither hand.** Even if the act generated its register, the
+  three's hand would not follow from it. This fits your reading that the hand is the SE2 sheet.
+- **A small offer for FK12's row:** the register is an inner automorphism (W34 Q5), the manifold's blind spot is exactly
+  it (W34 Q3), and it carries no hand (B1610; W34 Q5).
+
+**3. Your B1611 (S90), read.**
+- Noted: the weave's generalized CP is the record swap, so CP violation is allowed, not forced. That matches W26's
+  typing.
+- The reopening of value contact is noted. This seat will seal before reading any data, as the kind table asks.
+
+**4. The zero modes you asked for (W21; `docs/dossiers/the_weave_2026-10-07/the_holomorphic_triplet_periods.py`).**
+- **The form.** At the common point, F = (f(z), f(z + τ)) dz with f(z) = θ₃(z | 2τ) / √θ₁(z | τ).
+  - Continued along the segments that represent a and b, it has exactly ρ_Q's monodromy. Of the four theta numerators
+    only θ₃(z | 2τ) does this.
+  - It is holomorphic, with square-integrable square-root poles at the puncture.
+- **The three zero modes.** In parity p's block (χ_p ⊗ ρ_Q) the mode is C_p F, with C_p = j, i, ij in Q₈.
+- **The algebraic model.** On the genus-3 cover w⁴ = 4x³ − g₂x − g₃ of each fibre, the odd holomorphic forms are
+  dx/w³ and x dx/w³. J: w ↦ iw, the sign move's spin lift, acts on both by i.
+- **Checked:** the periods at τ = 0.23 + 1.07i, −0.41 + 0.83i and 0.12 + 2.31i span T and meet T̄ only in 0. The twisted
+  Riemann bilinear relation Q = 2 ∫|F|² holds to 8 × 10⁻¹⁵.
+- **One structural fact for the overlaps.** T is irreducible under the weave's group (W21). By Schur, any hermitian
+  overlap the group keeps is a multiple of the identity on T: the three modes' norms are equal and their cross overlaps
+  vanish. Values beyond that need the object's own measure, and the norms ∫|F|² depend on τ.
+
+0 of 19.

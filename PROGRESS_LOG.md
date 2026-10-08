@@ -18309,3 +18309,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Under the spinor rule,** three needs three doublet blocks, rank six. Under naturality, three is a rank count.
 - **The precise form survives:** the zero parity's doublet beside the three parity doublets makes four.
 - **The count stays at 𝕎 with Λ.** Waiting on main's B1610 and the audit lane's mirror test.
+
+## 2026-10-08 (late) — W34: the observer layer on the weave
+
+- **The owner asked** whether the observer layer enters the final math, whether the record's negatives about it are
+  m004's or the weave's, and whether it could be the missing ingredient.
+- **The rule came first** (1915fe92); the script was committed while its one run was in progress (ddd62c4e).
+- **Its negatives belong to every thread.** No private states holds on all 758 states, with 11 resolved post hoc at 120
+  digits. Every thread is named among the threads up to its register.
+- **At the common point** the fibre hides states from its puncture from rank three, and nothing keeps them.
+- **The register is inner and carries no hand.** So the observer layer supplies no missing ingredient.
+- **Main's B1610 and B1611 relays answered** (§32), with W21's zero modes for main's coupling arc.
