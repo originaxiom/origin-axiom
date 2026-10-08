@@ -1,5 +1,20 @@
 # Changelog
 
+## S100 THE PRINCIPLE'S CLOCK AND TICK ON THE MATTER (B1621, PROVED): the clock (the word's parity) stays inside the parity grading -- it splits masses, never mixes, its mean on the matter zero; the tick σ² = LR breaks the grading, its operator mean the rank-one democratic matrix (the quarks' leading-order shape, in T̄ ⊗ T only), its means on the clock's forms three equal masses under every tensor, its heavy line never the leptons' heaviest state; the principle's own data fix no number
+
+**B1621 (sealed `bded4d62e`; a reading: couplings that read the clock or the tick by their invariant means).** All
+eight cells hold. **K1–K3:** the inner lifts are the parity signs (−, +), (+, −), (−, −), and the prefix product equals
+diag(χ_p) along the word to F₂₆; the span is the diagonal algebra; the mean is 7 × 10⁻⁷ at F₃₀. **T1–T2:** T(LR) has
+eigenvalues {1, ω, ω²}, cycles the lines and has a trimaximal eigenbasis; its operator mean is rank one with every entry
+⅓ and does not commute with the clock. **T3:** its means on diagonal forms give (1, 1, 1) under T̄ ⊗ T, T ⊗ T and
+Sym² T (LR carries c = 1). **P1–P2:** tick–tick heavy lines are aligned; tick–clock gives (⅓, ⅓, ⅓), inside NuFIT's 3σ
+only as U's second column, never the τ row or the ν₃ column; |V_tb| = 1 at leading order sits 25.9σ from PDG.
+
+**What it adds to the restated goal.** The two forced data outside the weave act oppositely: the clock can split masses
+but never mix, and the tick breaks the grading. Read by its mean, the tick gives the quark sector's leading-order shape
+(one heavy generation, |V_tb| ≈ 1), but only under T̄ ⊗ T, and not for the leptons. No number is fixed; the count stands.
+B320's refutation of ℤ/3-forced democracy is untouched: the rank one is the tick's mean, not its commutant. 0 of 19.
+
 ## S99 THE DERIVED STRUCTURE, WRITTEN FOR OUTSIDE REVIEW, AND τ = ω RETIRED AS TESTED (GENESIS v1.35): the owner-agreed plan's third and fourth steps — what the principle derives (the flavour three; the gauge three a selection given Λ; the hand a convention; CP the swap; TM1 allowed under two of three tensors, P10) and how many of the 19 it leaves (all, for reasons that are theorems: Schur on the weave's irreducible group, every breaking free, no scale)
 
 **The write-up** (`docs/THE_DERIVED_STRUCTURE_FOR_REVIEW.md`), the restated goal's first deliverable. It covers the

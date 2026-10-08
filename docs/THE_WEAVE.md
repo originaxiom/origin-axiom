@@ -238,3 +238,15 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   - The two letter-reading parities are unbounded logarithmic walks, two records per factor φ⁶, and the b-walk is the
     a-walk inflated by φ.
   - The split is forced but elementary. Whether it carries physics needs a coupling that reads the word, not only τ.
+
+## Main's addition: the principle's clock and tick on the matter (B1621, PROVED)
+
+- **The clock** (the word's parity class) acts on T through the parity grading itself. Every coupling that reads it is
+  diagonal in the parity lines under every tensor: it can split masses (B1620's 1 + 2) but **never mix**, and its mean on
+  the matter is zero.
+- **The tick** σ² = LR cycles the parity lines and **breaks the grading**.
+  - Its operator mean is the rank-one democratic matrix: one heavy generation per sector, and no mixing at leading order
+    between two sectors reading it. That is the quarks' leading-order shape, but it is canonical only in T̄ ⊗ T.
+  - Its means on the clock's forms give three equal masses under all three tensors.
+  - For the leptons its heavy line fits only as U's second column, never the heaviest state.
+- **The principle's own data, read by their means, fix no number** (0 of 19); the observed mixing needs a chosen vacuum.

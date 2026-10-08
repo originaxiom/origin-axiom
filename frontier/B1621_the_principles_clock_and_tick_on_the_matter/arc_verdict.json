@@ -1,0 +1,27 @@
+{
+ "id": "B1621",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1620",
+  "B1618",
+  "B1617",
+  "B1612",
+  "B1083",
+  "B320"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's triplet T with the record's lifts (the character c physical, W24); the principle's two forced data outside the weave -- the clock (the fixed-point word's parity class) and the tick (sigma^2 = LR); couplings that read them by their invariant means (a reading)",
+  "object": "the inner lifts along every prefix to F_26; the clock's span and mean to F_30; T(LR) on T, its operator mean and its means on diagonal forms under T-bar(x)T, T(x)T and Sym^2 T; the leading-order mixing against B1612's transcription",
+  "reach": "general",
+  "hypotheses": "the reading 'a coupling reads the clock or the tick by its invariant mean' (other weightings not covered; free weights reach every matrix by Burnside); data only as B1612 transcribed"
+ },
+ "claim_one_line": "THE PRINCIPLE'S CLOCK AND TICK ON THE MATTER (sealed bded4d62e): the clock (the word's parity) acts on T through the parity grading itself -- every clock-reading coupling is diagonal in the parity lines under every tensor, it can split masses but never mix, and its mean on T is zero; the tick sigma^2 = LR (eigenvalues 1, omega, omega^2) cycles the lines and breaks the grading, its operator mean is the rank-one democratic matrix -- one heavy generation per sector and no leading-order mixing between two such sectors, the quarks' leading-order shape, canonical only in T-bar(x)T -- while its means on the clock's forms give three equal masses under all three tensors; for the leptons its heavy line (1/3,1/3,1/3) fits only as U's second column, never the sole heaviest state. The principle's own data, read by their means, fix no number. 0 of 19.",
+ "weave_or_thread": "weave"
+}

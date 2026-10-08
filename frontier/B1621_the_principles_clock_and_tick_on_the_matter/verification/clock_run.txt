@@ -1,0 +1,215 @@
+{
+ "K1": {
+  "inner_lifts_diagonal_in_parity_basis": true,
+  "inner_lifts_commute": true,
+  "line_characters_(a,b)": [
+   [
+    -1.0,
+    1.0
+   ],
+   [
+    1.0,
+    -1.0
+   ],
+   [
+    -1.0,
+    -1.0
+   ]
+  ],
+  "characters_real_signs": true,
+  "prefix_product_equals_diag_chi_to_N1": true,
+  "N1": 121393,
+  "worst_deviation": 3.483079698069702e-11
+ },
+ "K2": {
+  "span_dimension": 3,
+  "max_offdiagonal_entry": 2.0779319179408428e-16,
+  "span_is_the_diagonal_algebra": true
+ },
+ "K3": {
+  "N": 1346269,
+  "mean_of_each_line_character": [
+   7.427936021701458e-07,
+   -7.427936021701458e-07,
+   -7.427936021701458e-07
+  ],
+  "max_abs_mean": 7.427936021701458e-07
+ },
+ "T1": {
+  "eigen_turns": [
+   0.0,
+   0.333333,
+   0.666667
+  ],
+  "unitary": true,
+  "monomial_in_parity_basis": true,
+  "line_images": [
+   1,
+   2,
+   0
+  ],
+  "cyclic": true,
+  "eigvec_moduli_sq_in_parity_basis": [
+   [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   [
+    0.333333,
+    0.333333,
+    0.333333
+   ]
+  ],
+  "order_on_T": 3
+ },
+ "T2": {
+  "rank": 1,
+  "singular_values": [
+   1.0,
+   0.0,
+   0.0
+  ],
+  "entry_moduli_in_parity_basis": [
+   [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   [
+    0.333333,
+    0.333333,
+    0.333333
+   ]
+  ],
+  "commutes_with_the_clock": false
+ },
+ "T3": {
+  "Tbar_x_T": {
+   "normalised_spectra": [
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ],
+   "max_singular_value": 1.1182023685348987,
+   "degenerate_or_zero": true
+  },
+  "T_x_T": {
+   "normalised_spectra": [
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ],
+   "max_singular_value": 0.8738134800570603,
+   "degenerate_or_zero": true
+  },
+  "Sym2_T": {
+   "normalised_spectra": [
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     1.0,
+     1.0
+    ]
+   ],
+   "max_singular_value": 1.7917779557987814,
+   "degenerate_or_zero": true
+  }
+ },
+ "P1": {
+  "tick_tick_heavy_overlap": 1.0,
+  "tick_clock_heavy_row": [
+   0.333333,
+   0.333333,
+   0.333333
+  ]
+ },
+ "P2": {
+  "tau_row_trimaximal_inside_3sigma": false,
+  "nu3_column_trimaximal_inside_3sigma": false,
+  "every_row_and_column": {
+   "row_e": false,
+   "row_mu": false,
+   "row_tau": false,
+   "col_1": false,
+   "col_2": true,
+   "col_3": false
+  },
+  "Vtb_data": 0.999118,
+  "Vtb_sigma": 3.4e-05,
+  "Vtb_leading_order_pull_sigma": 25.94
+ }
+}

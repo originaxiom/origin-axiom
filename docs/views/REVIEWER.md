@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1349** |
-| words of findings prose | **1,054,804** |
-| test lock files referenced | **793** |
-| arcs carrying an authored verdict | **1349** (100.0 %) |
+| research arcs with findings | **1350** |
+| words of findings prose | **1,055,802** |
+| test lock files referenced | **794** |
+| arcs carrying an authored verdict | **1350** (100.0 %) |
 | recorded closures | **814** (647 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 909 |
+| PROVED | 910 |
 | NEGATIVE | 338 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1620`** (1976 words, 1 locks)  
-THE BREAKING THE WEAVE ALLOWS (sealed aa28a42e6): on all 68 subgroups of the weave's group three distinct masses need an abelian residual (57 of 68, exactly the abelian ones), every charged-fermion mass stays free, and no mixing family short of the full four reaches the CKM -- under T-bar(x)T, T(x)T and Sym^2 T alike, so the weave's symmetry reduces none of the 13 flavour parameters; the PMNS can be reduced to two (the TM type, P10) under T-bar(x)T and T(x)T, not at all under Sym^2 T; with couplings in tau alone every residual contains the inner automorphisms and every mixing matrix is a permutation, so the observed mixing needs a vacuum breaking the parity grading; outside the weave the rule's fixed-point word splits the three parity sectors 1 + 2 (the clock's parity bounded, the two letter-reading walks unbounded and one orbit of the inflation phi), an elementary forced split whose physical meaning is the next question. 0 of 19.  
-`B1620_the_breaking_the_weave_allows/FINDINGS.md`
+**PROVED — `B1621`** (998 words, 1 locks)  
+THE PRINCIPLE'S CLOCK AND TICK ON THE MATTER (sealed bded4d62e): the clock (the word's parity) acts on T through the parity grading itself -- every clock-reading coupling is diagonal in the parity lines under every tensor, it can split masses but never mix, and its mean on T is zero; the tick sigma^2 = LR (eigenvalues 1, omega, omega^2) cycles the lines and breaks the grading, its operator mean is the rank-one democratic matrix -- one heavy generation per sector and no leading-order mixing between two such sectors, the quarks' leading-order shape, canonical only in T-bar(x)T -- while its means on the clock's forms give three equal masses under all three tensors; for the leptons its heavy line (1/3,1/3,1/3) fits only as U's second column, never the sole heaviest state. The principle's own data, read by their means, fix no number. 0 of 19.  
+`B1621_the_principles_clock_and_tick_on_the_matter/FINDINGS.md`
 
 **NEGATIVE — `B1617`** (642 words, 1 locks)  
 THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19.  

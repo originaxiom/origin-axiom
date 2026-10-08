@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1349 of 1349 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1350 of 1350 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (909)
+## PROVED (910)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -921,6 +921,7 @@
 | `B1618` | THE WEIGHTED CELL AT OMEGA (sealed 434782554): given tau = omega, the Dirac masses are degenerate at omega for every weight -- the inner automorphisms (automorphy factor 1, acting as the parity signs) make every coupling diagonal in T's three parity lines at every tau, and U cycles the lines (a 3-cycle), so every U-eigenvector on the diagonal (phases 1, omega, omega^2) gives three equal masses; near omega the entries stay equal at leading order. No Majorana coupling survives at even weight (the odd-weight case not computed). So the tagged postulate tau = omega, which main recommended, cannot give the observed hierarchy within the weave; a hierarchy needs the parity sectors to separate -- the cusp. 0 of 19. |  | 1 |
 | `B1619` | THE CODEX LANES ROWED (R61-1; the owner's 'make sure u dont leave anything behind on the ledger'): 87 harvest rows (962-1048, newest first; the audit lane's 35 and the audit fork's 52 items) and 37 relay rows (the audit lane's 33, the SM seat's 4), each quoting its item's own title and first result line at the lane's tip, registered at headline level and not re-run on main; pins moved to the tips; the harvest debt is zero on all fourteen lanes. 0 of 19. |  | 1 |
 | `B1620` | THE BREAKING THE WEAVE ALLOWS (sealed aa28a42e6): on all 68 subgroups of the weave's group three distinct masses need an abelian residual (57 of 68, exactly the abelian ones), every charged-fermion mass stays free, and no mixing family short of the full four reaches the CKM -- under T-bar(x)T, T(x)T and Sym^2 T alike, so the weave's symmetry reduces none of the 13 flavour parameters; the PMNS can be reduced to two (the TM type, P10) under T-bar(x)T and T(x)T, not at all under Sym^2 T; with couplings in tau alone every residual contains the inner automorphisms and every mixing matrix is a permutation, so the observed mixing needs a vacuum breaking the parity grading; outside the weave the rule's fixed-point word splits the three parity sectors 1 + 2 (the clock's parity bounded, the two letter-reading walks unbounded and one orbit of the inflation phi), an elementary forced split whose physical meaning is the next question. 0 of 19. |  | 1 |
+| `B1621` | THE PRINCIPLE'S CLOCK AND TICK ON THE MATTER (sealed bded4d62e): the clock (the word's parity) acts on T through the parity grading itself -- every clock-reading coupling is diagonal in the parity lines under every tensor, it can split masses but never mix, and its mean on T is zero; the tick sigma^2 = LR (eigenvalues 1, omega, omega^2) cycles the lines and breaks the grading, its operator mean is the rank-one democratic matrix -- one heavy generation per sector and no leading-order mixing between two such sectors, the quarks' leading-order shape, canonical only in T-bar(x)T -- while its means on the clock's forms give three equal masses under all three tensors; for the leptons its heavy line (1/3,1/3,1/3) fits only as U's second column, never the sole heaviest state. The principle's own data, read by their means, fix no number. 0 of 19. |  | 1 |
 
 ## NEGATIVE (338)
 
