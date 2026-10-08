@@ -17960,3 +17960,43 @@ No scientific repair or criterion change. The end signature identifies
 the anomaly carrier; a complete determinant Ward identity is still owed.
 The scoped graph-compact color-index argument narrows the role of an
 interior condensate without excluding end changes or quantum response.
+
+## 2026-10-08 physical cusp continuum and covariant heat response
+
+October 8 cusp-continuum checkpoint:29 native/12 separate reference/
+18 focused and274 sixteen-packet regression tests PASS after resealed
+89bcc19ea. Same supplied curved E8 parent, complete cusp spin/domain
+and magnetic stationary family. The spatial-cutoff heat supertrace
+interpolates from zero UV to the known physical IR index through the
+actual continuum density. Coupled and tensor/spin-line full characters
+agree, with all conjugates, exotics and first-flux endpoints retained.
+Report: reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/FINDINGS.md.
+The continuum's UV contribution is opposite to the zero-mode trace in
+the stated covariant product heat prescription. This is a conditional
+positive, NOT a consistent quantum action or completed anomaly cure.
+Unsigned fermion heat still has infinite cusp-length trace; full-loop
+cancellations are uncomputed. NEXT: common action/propagator regulator,
+determinant phase and integrable Ward variation with outer end retained.
+Stage2T PARTIAL. Magnetic saddles, zero-flux nonnegative SM-gauge
+minima and source/silver positives remain; no stable three-family claim.
+First native attempt FAILED28/29 on erfc/erf canonicalization, preserved;
+checker repair resealed before rerun. Seven science/17 pinned-and-working
+sources unchanged after reseal. Outside analytic review, full-suite/
+main-bank and four inherited governance failure categories remain.
+Main aa28a42e6 unchanged; SM d62458221 assurance relay/producer read,
+not independently replayed. Keep its residual scenarios and supplied
+frame distinct; intake flags summary rows needing its own corrections.
+Parameter-free SM/TOE ACTIVE and unachieved. Act/register/lift-to-parent
+selection, physical parameters, observer/qualia and gravity remain duties.
+Earlier dated NEXT statements below retain their historical epoch.
+
+Second native6.141516s, first reference3.176079s, focused pytest9.47s,
+regression122.05s. Literal outputs/exits/hashes preserved. First native
+failed at1a9c71b1d; only exact special-function canonicalization repaired
+before pushed89bcc19ea. Full failed69943-byte output retained. No change
+to the equation, sign, tolerance or acceptance criterion. No outside
+analytic acceptance follows from separate same-author implementations.
+
+The source/target heat difference is finite while its two positive
+traces diverge. The next physical question is their common regulated
+action and end Ward variation, not an extra zero-mode index scan.

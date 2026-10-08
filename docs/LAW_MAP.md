@@ -1,5 +1,27 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October 8 cusp-continuum conditional sublemmas. Same supplied curved
+E8 parent, fixed complete cusp spin/domain and magnetic stationary family;
+internally parallel unbroken external gauge fields only. No shared B law.
+PROOF: reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/PROOF.md.
+LIVE safeguards: tests/test_physical_bridge_weave_cusp_heat.py.
+
+| Scoped result | Analytic argument and actual safeguard |
+|---|---|
+| Spatial-cutoff supertrace derivative is the actual end current tr(C exp(-s C^2))/sqrt(4pi s) | Compact insertion supercommutator plus outward cutoff derivative; test_actual_cutoff_sign, test_gaussian_and_derivative, test_wrong_cyclic_and_sign_controls. Global cusp estimates remain authored analysis, not a finite-matrix certificate |
+| Partner continuum density is -mu/[pi(p^2+mu^2)], independent of compact core mixing | M acting on incoming/outgoing waves and determinant ratio; test_scattering_orientation_and_mixing, test_direct_integrals.18 quadratures numerical only |
+| Complete heat supertrace is sum erf(mu sqrt(s))/2, IR physical index and UV zero in the specified ordered limit | Prior independent global index plus continuum integral; test_continuum_formula_endpoints, test_ir_index_and_five_anomalies. Outside analytic review owed; no exchange of spatial and UV limits asserted |
+| All physical coupled-pair odd heat contributions cancel while unpaired extremes retain the full gauge character | Actual496 horizontal slots and separate248 tensor/spin-line weights; test_coupled_pair_and_slot_population, test_independent_entire_gauge_characters, test_independent_all_odd_moments, test_first_flux_and_exotic_sector, test_zero_opposite_flux |
+| Color first odd moment is0 and third is48n(7n^2-2) | Exact symbolic all-integer polynomial plus actual full-weight finite controls; test_exact_color_small_time_coefficient. Leading color response -16n(7n^2-2)s^(3/2)/sqrt(pi), not an empirical parameter or absence of all finite-s roots |
+| Physical product covariant heat coefficient has zero UV limit for parallel unbroken external fields | Actual graded product with conjugate-counting factor and gauge curvature term; test_actual_graded_product, test_ultraviolet_does_not_truncate_continuum. NOT consistent effective-action variation, determinant phase or full-parent anomaly theorem |
+| Finite signed heat trace coexists with positive unsigned cusp-length divergence | Explicit horizontal density2 tr(exp(-s C^2))/sqrt(4pi s); test_even_density_is_not_supertrace. No complete boson/ghost/fermion loop result or all-regulator exclusion |
+
+29 native/12 reference/18 focused/274 regression PASS after resealed
+89bcc19ea; first native special-function checker failure preserved.
+Same-author analytic work, not independent main-bank acceptance.
+Full quantum action, stable vacuum and foundational selection remain.
+Earlier dated NEXT entries below retain their historical epoch.
+
 October 8 physical cusp conditional sublemmas. Same supplied curved
 E8 parent, complete cusp spin/domain and stationary magnetic family;
 conditional extension to color-equivariant graph-compact deformations.

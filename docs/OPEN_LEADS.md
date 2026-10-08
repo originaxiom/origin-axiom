@@ -1,5 +1,39 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October 8 cusp-continuum checkpoint:
+reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/FINDINGS.md.
+29 native/12 reference/18 focused/274 regression PASS after89bcc19ea.
+First native failure preserved; exact erfc canonicalization repaired
+and resealed before rerun. No shared lead number or universal closure.
+
+- PB-CUSP-HEAT-CONTINUUM: EXECUTED, conditional positive. Closing scope:
+  "The complete spatial-cutoff supertrace is not the zero-mode index at
+  every heat time." Actual end/scattering response gives its zero UV
+  and known IR endpoints in this supplied parent/domain, with the
+  spatial limit first. Global analytic review remains owed.
+- PB-CUSP-ANOMALY-COMPLETION: Stage2T still PARTIAL. The covariant
+  product heat-current coefficient vanishes in that prescription, but
+  a consistent determinant phase/action and end Ward identity are NOT
+  identified with that trace. NEXT_TEST: common regulator/subtraction,
+  propagators, Bose symmetry, integrability and low-energy end response.
+- PB-CUSP-UNSIGNED-QUANTUM-TRACE: positive fermion heat density has
+  infinite length integral at fixed heat time. Compute the full loop
+  combination and justified relative subtraction; no full-parent kill.
+- PB-CUSP-REVIEW: actual cusp heat estimates, continuum thresholds,
+  physical product/Pfaffian counting and ordered limits need outside
+  analytic scrutiny, not just symbolic matrices and quadrature.
+- PB-CUSP-CHARGED-CONDENSATE: old saddles and index-invariance theorem
+  remain. Stabilization is separate; the heat response is not a new
+  stable solution or a three-family spectrum.
+- Intake: SM d62458221 residual/frame/convention qualifications read,
+  not freshly replayed; summary synchronization requested in own relay.
+- Preserve source/silver and other generated carriers. Parent/metric/
+  spin/frame/domain selection, act/register/lifts, complete interactions,
+  physical values, global anomalies, observer/qualia and gravity carried.
+
+The full parameter-free SM/TOE remains active and unachieved.
+Earlier dated NEXT entries below retain their historical epoch.
+
 October 8 physical cusp-anomaly checkpoint:
 reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/FINDINGS.md.
 28 native/12 reference/18 focused/256 regression PASS at06c927011.

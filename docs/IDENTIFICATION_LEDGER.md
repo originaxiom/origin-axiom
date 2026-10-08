@@ -363,3 +363,20 @@ Locks: tests/test_physical_bridge_weave_cusp_anomaly.py.
 
 Renormalized determinant, stable physical vacuum and foundation-to-parent
 selection remain distinct unearned duties. No observer/qualia map claimed.
+
+### Physical cusp continuum October 8 path-local supplement
+
+No shared I-number or empirical normalization reassigned. Report:
+reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_cusp_heat.py.
+
+| sides | exhibited map and action | declared scope |
+|---|---|---|
+| Actual Weyl mass and continuum partner scattering | Apply M/sqrt(E) to incoming/outgoing waves; retain both shifted orientations and full charge roster | Exact end determinant ratio/density; global short-range scattering argument authored, not a whole-operator numerical spectrum |
+| Cusp current and heat interpolation | Compact insertion supercommutator fixes outward sign; continuum erfc plus independently known index gives erf | Conditional complete-domain heat statement; ordered limits explicit, outside analytic review owed |
+| Existing physical left/right fields and doubled product | Dtot=D4 tensor1+gamma5 tensor D, total grading, one conjugate representative or half full trace | Gauge-covariant heat square for parallel unbroken external fields, not additional Weyl species |
+| Vanishing covariant heat coefficient and consistent quantum action | No faithful determinant-phase/functional-variation map constructed in this packet | NOT IDENTIFIED; action/propagator regulator, integrability and outer-end current remain Stage2T duties |
+
+Finite signed trace does not identify a finite parity-even determinant.
+Stable three families, generated physical inputs, observer/qualia and
+gravity remain distinct obligations toward the full active goal.

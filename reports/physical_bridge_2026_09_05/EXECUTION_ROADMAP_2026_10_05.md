@@ -253,6 +253,19 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    NEXT_TEST is UNEXECUTED. No stable magnetic vacuum or full quantum
    completion has been earned; parent/genesis and source/silver duties
    are not displaced by this precise intermediate operator result.
+   Stage2T October8 SECOND GATE EXECUTED at research grade:
+   weave_cusp_heat_2026_10_08/FINDINGS.md.29 native/12 reference/
+   18 focused/274 regression PASS after89bcc19ea. First native failure
+   on erfc canonicalization preserved and checker repaired/resealed.
+   Actual continuum density interpolates from zero UV heat trace to
+   the physical IR index. Covariant product heat coefficient vanishes
+   in that ordered prescription; NOT consistent determinant completion.
+   NEXT: one common relative regulator/subtraction for action and
+   propagators, determinant/Pfaffian phase, integrable gauge variation
+   and outer-end current. Resolve low-energy nondecoupling and the
+   unsigned length divergence without assuming full-loop cancellation.
+   NEXT_TEST remains unexecuted for this new action/phase gate. Outside
+   analytic review and all physical vacuum/genesis duties remain.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

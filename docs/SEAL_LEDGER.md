@@ -2658,6 +2658,23 @@ or outside analytic/full-suite/main-bank acceptance claimed.
 | weave_cusp_heat_2026_10_08/custody.rb | 7b04cedbed1bd539eddcd1d0c2b817cd0e66531347ecfbb02379d14653bd2daf |
 | tests/test_physical_bridge_weave_cusp_heat.py | 83f9e515edec6d03d045fece7606d9338b9f5f19d6fae9cd0d308163b347dd87 |
 
+Disposition after pushed/server-confirmed89bcc19ea:29 native/12
+reference/18 focused/274 sixteen-packet regression PASS. Seven science
+and17 pinned-and-working sources unchanged after reseal. First failed
+native attempt retained; same exact equation and criterion, post-run
+special-function checker repair disclosed. Report: weave_cusp_heat_2026_10_08/FINDINGS.md.
+The complete heat supertrace includes actual continuum response; its
+UV zero does not replace the known IR index. Covariant product heat
+coefficient only, not a consistent determinant phase or quantum action.
+Unsigned length divergence, global analytic acceptance and full-loop
+accounting remain. NEXT_TEST action/phase gate is UNEXECUTED and outside
+the science seal. Nonzero-flux instability and full-goal duties remain.
+Reseal governance26 PASS/four inherited FAIL, review383 due. No full-
+suite or main-bank acceptance claimed.
+Publication governance26 PASS/four inherited FAIL, review384 due;
+no new failing file/category. Literal capture and staged-tree receipt
+are in the packet, preceding their own attachment to this publication.
+
 Preseal governance first capture is preserved in the packet. Its static
 test-vacuity scanner did not follow the assertion helper. Before any
 science run, each test was changed to assert the helper's boolean

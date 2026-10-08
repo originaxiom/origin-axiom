@@ -1,0 +1,9 @@
+{
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 21.950147999916226,
+  "bytes": 2384,
+  "sha256": "971921caae9f84e3f2952cf6c2d031dd43140149806d15345ef84f8f47c8a075",
+  "staged_content_tree": "df9639711e795dfe0e5ad5889618f06b29210166",
+  "staged_unchanged": true
+}

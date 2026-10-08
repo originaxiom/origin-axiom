@@ -1,0 +1,123 @@
+{
+  "first_attempt_seal": "1a9c71b1d70613db84e5fc638fd053ad7d4a15c7",
+  "pre_execution_reseal": "89bcc19eae02d743ebfcdc940a9e2cddfc678868",
+  "first_failed_native": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 6.506150000030175,
+    "log_bytes": 69943,
+    "log_sha256": "b3ec343f9ff70a6bc3c0e777d7cd44b189ad7d7fabb21ef7cd579a1c73c63247",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/probe.py"
+    ]
+  },
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 6.141515999799594,
+    "log_bytes": 69942,
+    "log_sha256": "759ea74f01feb620f54eada46e990b6d2878531ab453bbf4bb679048d7397f15",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 3.1760789998807013,
+    "log_bytes": 71074,
+    "log_sha256": "baa33b0337b7eae4cf99f6e23e91623c241e3200a3bb017ad82b3029d6f7ae5a",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 10.873864999972284,
+    "log_bytes": 99,
+    "log_sha256": "7589eabd6cfe1716ff8052132e17750f05c742925a2730fa68447bde61069823",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_cusp_heat.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 124.1180990000721,
+    "bytes": 352,
+    "sha256": "678ee3251c7fc0f6a14bb089b9ecfd22460cc3bda0103964950f11ae78e5e6cb",
+    "tests": [
+      "tests/test_physical_bridge_weave_puncture_operator.py",
+      "tests/test_physical_bridge_weave_form_parent.py",
+      "tests/test_physical_bridge_weave_companion_roster.py",
+      "tests/test_physical_bridge_weave_curved_action.py",
+      "tests/test_physical_bridge_weave_cusp_condensate.py",
+      "tests/test_physical_bridge_weave_global_condensate.py",
+      "tests/test_physical_bridge_weave_graded_condensate.py",
+      "tests/test_physical_bridge_weave_two_field_gauge.py",
+      "tests/test_physical_bridge_weave_sm_parallel.py",
+      "tests/test_physical_bridge_weave_magnetic_stationarity.py",
+      "tests/test_physical_bridge_weave_neutral_stability.py",
+      "tests/test_physical_bridge_weave_magnetic_index.py",
+      "tests/test_physical_bridge_weave_two_neutral_index.py",
+      "tests/test_physical_bridge_weave_physical_mass.py",
+      "tests/test_physical_bridge_weave_cusp_anomaly.py",
+      "tests/test_physical_bridge_weave_cusp_heat.py"
+    ],
+    "tree_unchanged": true
+  },
+  "governance_preseal_first": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 45.592349000042304,
+    "bytes": 2618,
+    "sha256": "f10f8ec24a2298936d96dbfe9eb09fac3857f8015b22d006157be8cd38b28bcd",
+    "staged_content_tree": "8d9e3d472efb3098cd3adb6e4874ca3363b0470a",
+    "staged_unchanged": true
+  },
+  "governance_preseal": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 43.90377499978058,
+    "bytes": 2384,
+    "sha256": "7c0d405d68b3190069223da36cd462e65e3ec51ebe0bcfec26bb2d5c3da66433",
+    "staged_content_tree": "e547b47f53f0bfc49cf9ca764549e31f6ab61858",
+    "staged_unchanged": true
+  },
+  "governance_reseal": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 54.0131630001124,
+    "bytes": 2384,
+    "sha256": "4dbf44baf46a37682005ff66e7a1a6dd407c696709f491a95b4038c73467b73a",
+    "staged_content_tree": "4180e899ce2e2bb7527594fdff5faacdd5edab44",
+    "staged_unchanged": true
+  },
+  "native_attempt_number": 2,
+  "reference_attempt_number": 1,
+  "focused_attempt_number": 1,
+  "post_execution_instrument_repair": "erfc residual rewritten into erf basis; same exact criterion",
+  "science_files_unchanged_after_reseal": 7,
+  "pinned_and_working_sources_unchanged": 17,
+  "full_suite_run": false,
+  "nonauthor_acceptance": false,
+  "governance_publication": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 21.950147999916226,
+    "bytes": 2384,
+    "sha256": "971921caae9f84e3f2952cf6c2d031dd43140149806d15345ef84f8f47c8a075",
+    "staged_content_tree": "df9639711e795dfe0e5ad5889618f06b29210166",
+    "staged_unchanged": true
+  }
+}
