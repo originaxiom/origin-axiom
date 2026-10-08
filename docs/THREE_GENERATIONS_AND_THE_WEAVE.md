@@ -139,7 +139,7 @@ taken from the weave. Every link is named with its status.
 
 | link | status | what |
 |---|---|---|
-| a | PROVED (W3); main's B1601 (cited) | every odd-trace thread maps onto 2T through the common point, and that map is its own geometry mod a prime of norm three |
+| a | PROVED (W3); main's B1601, VERIFIED (the weave dossier's W16, 37 of 37) | every odd-trace thread maps onto 2T through the common point, and that map is its own geometry mod a prime of norm three |
 | b | THEOREM, with its hypotheses counted (F-MC; `docs/THE_CLAIM.md` §1) | McKay sends 2T to E₆, and the cascade ends at the Standard Model's gauge algebra. So the E₆ of main's E₆/27 frame, which F-CI uses, is handed over by the weave on every odd-trace thread, not by the root alone |
 | c | COMPUTED, every odd-trace state to length 6 (W14, by the slope law, PROVED); main's B1434 rows VERIFIED (W13, W14) | at the weave's resolving tick, F-CI's generation-shaped backgrounds come in deck orbits of three on ten of the twelve odd-trace threads to length 6 (−LLLRLR also has sixteen deck-fixed ones, its own level's). Each counts one generation in all five charged sectors. **±LLRLRR carry none.** The parities themselves never carry any |
 | d | OPEN (GENESIS FK7; B1384's fence) | an orbit's three backgrounds are three vacua. Reading them as three generations needs the deck kept, and the three realised together. GENESIS lists "All legal states are physically realised together" as NOT DERIVED, and the weave rule, read as a principle, speaks of threads, not of a thread's vacua |
@@ -196,6 +196,12 @@ taken from the weave. Every link is named with its status.
   - At the generic class each of the three parity lines carries (1, 1) on every carrier: the orbifold standard's shape, with the characters forced rather than chosen.
   - On every carrier exactly two classes of the gluing line drop it to (0, 1), so it is a law away from two classes.
   - The zero parity's part, (1, 3), and the forced cover's total, (4, 6), do not have the shape.
+- **The even-dimensional object, and the dimension a count needs (the weave dossier's W19).**
+  - The weave's own space, every thread at once, is M₁,₂: the universal punctured elliptic curve. It is four
+    dimensional, with Euler characteristic 1/12.
+  - On a four-dimensional object an SU(5) index has the shape one to three, since ch₂(Λ²V) = 3·ch₂(V). The physical
+    shape needs six dimensions, or the E₆ frame, where one generation is one 27.
+  - Which bundle carries matter there is a ruling for the owner and main (GENESIS FK11), not a search.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

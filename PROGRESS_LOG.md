@@ -18011,3 +18011,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - The owner's and main's ruling on the surface and the bundle.
   - Main's B1605.
   - The mod-16 law's proof.
+
+## 2026-10-08 (morning) — W16 completed: main's B1601 verified on all 37 geometries; the dimension a count needs
+
+- **Main's B1601 is VERIFIED, 37 of 37,** by this seat's own route, with an exact check in every field. Every row agrees
+  with main's census. The last field, of degree 38, needed x itself as the generator, because y is its complex
+  conjugate there.
+- **The dimension.** The SU(5) shape identity n_5̄ = n_10 needs a six-dimensional object. On the weave's
+  four-dimensional surface the frame has to be E₆'s, with one 27 per generation, unless the weave forces a
+  six-dimensional object.
+- **The goal (three generations derived) is not met.** What it waits on:
+  - the owner's choice of route (E₆ on the weave's surface, or a six-dimensional object);
+  - main's ruling on the bundle;
+  - GENESIS FK7.

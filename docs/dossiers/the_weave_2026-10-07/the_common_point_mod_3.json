@@ -1,0 +1,1565 @@
+{
+ "precision (digits)": 1200,
+ "words": 37,
+ "rows": [
+  {
+   "word": "LR",
+   "trace": 3,
+   "odd trace": true,
+   "Newton residual (log10)": -1200.507622707957,
+   "third equation (log10)": -1200.808652703621,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 2,
+   "minimal polynomial of theta": "t^2 - 18*t + 84",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    3,
+    3,
+    3
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 0.2
+  },
+  {
+   "word": "LLR",
+   "trace": 4,
+   "odd trace": false,
+   "Newton residual (log10)": -1200.109682699285,
+   "third equation (log10)": -1199.8709411912475,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 4,
+   "minimal polynomial of theta": "t^4 - 12*t^3 - 12*t^2 + 64*t + 2816",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    8,
+    16,
+    8
+   ],
+   "their gcd": 8,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 8,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 3,
+     "valuations of x, y, z": [
+      3,
+      4,
+      3
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 0.2
+  },
+  {
+   "word": "LLLR",
+   "trace": 5,
+   "odd trace": true,
+   "Newton residual (log10)": -1200.158137705789,
+   "third equation (log10)": -1200.5527110231315,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 4,
+   "minimal polynomial of theta": "t^4 - 18*t^3 + 80*t^2 - 104*t + 1728",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    3,
+    6,
+    3
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 0.2
+  },
+  {
+   "word": "LLRR",
+   "trace": 6,
+   "odd trace": false,
+   "Newton residual (log10)": -1200.0022607752612,
+   "third equation (log10)": -1199.8001360339715,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 8,
+   "minimal polynomial of theta": "t^8 - 40*t^6 - 384*t^5 + 416*t^4 + 30720*t^3 + 246208*t^2 + 1010688*t + 3916864",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    64,
+    64,
+    256
+   ],
+   "their gcd": 64,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 64,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 6,
+     "valuations of x, y, z": [
+      6,
+      6,
+      8
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.4
+  },
+  {
+   "word": "LLLLR",
+   "trace": 6,
+   "odd trace": false,
+   "Newton residual (log10)": -1199.9021960252996,
+   "third equation (log10)": -1199.8000055760278,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 6,
+   "minimal polynomial of theta": "t^6 - 16*t^5 + 32*t^4 + 192*t^3 + 2816*t^2 - 8192*t + 29696",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    4,
+    16,
+    4
+   ],
+   "their gcd": 4,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 4,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 2,
+     "valuations of x, y, z": [
+      2,
+      4,
+      2
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 0.2
+  },
+  {
+   "word": "LLLRR",
+   "trace": 8,
+   "odd trace": false,
+   "Newton residual (log10)": -1199.9506510318035,
+   "third equation (log10)": -1199.8439432407638,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 8,
+   "minimal polynomial of theta": "t^8 - 4*t^7 - 45*t^6 - 156*t^5 - 1051*t^4 + 16522*t^3 + 180508*t^2 + 745328*t + 3219488",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    16,
+    32,
+    128
+   ],
+   "their gcd": 16,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 8,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 3,
+     "valuations of x, y, z": [
+      4,
+      3,
+      3
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.2
+  },
+  {
+   "word": "LLRLR",
+   "trace": 10,
+   "odd trace": false,
+   "Newton residual (log10)": -1200.9335914402293,
+   "third equation (log10)": -1201.109682699285,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 8,
+   "minimal polynomial of theta": "t^8 - 18*t^7 + 119*t^6 - 708*t^5 + 3618*t^4 - 7392*t^3 + 42040*t^2 - 12384*t + 170548",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    16,
+    4,
+    16
+   ],
+   "their gcd": 4,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 4,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 2,
+     "valuations of x, y, z": [
+      2,
+      2,
+      4
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.2
+  },
+  {
+   "word": "LLLLLR",
+   "trace": 7,
+   "odd trace": true,
+   "Newton residual (log10)": -1199.5970297666527,
+   "third equation (log10)": -1199.5557281006002,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 6,
+   "minimal polynomial of theta": "t^6 - 22*t^5 + 132*t^4 - 48*t^3 + 1552*t^2 - 16832*t + 36096",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    3,
+    12,
+    3
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 0.2
+  },
+  {
+   "word": "LLLLRR",
+   "trace": 10,
+   "odd trace": false,
+   "Newton residual (log10)": -1199.3908074178748,
+   "third equation (log10)": -1199.327704966787,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 12,
+   "minimal polynomial of theta": "t^12 - 50*t^10 - 480*t^9 - 2207*t^8 + 3840*t^7 + 109264*t^6 + 1540992*t^5 + 12968864*t^4 + 72619008*t^3 + 358095104*t^2 + 1023461376*t + 2481223936",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    64,
+    256,
+    1024
+   ],
+   "their gcd": 64,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 64,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 6,
+     "valuations of x, y, z": [
+      6,
+      8,
+      6
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.5
+  },
+  {
+   "word": "LLLRLR",
+   "trace": 13,
+   "odd trace": true,
+   "Newton residual (log10)": -1199.6011660296356,
+   "third equation (log10)": -1199.4892833137262,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 8,
+   "minimal polynomial of theta": "t^8 - 24*t^7 + 215*t^6 - 1073*t^5 + 4120*t^4 - 11696*t^3 + 33768*t^2 - 47582*t + 144579",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    6,
+    3,
+    12
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.3
+  },
+  {
+   "word": "LLLRRR",
+   "trace": 11,
+   "odd trace": true,
+   "Newton residual (log10)": -1199.2869715646104,
+   "third equation (log10)": -1199.1364565667784,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 8,
+   "minimal polynomial of theta": "t^8 - 15*t^7 + 117*t^6 - 639*t^5 + 2435*t^4 + 20022*t^3 + 61804*t^2 + 90027*t + 67764",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    6,
+    6,
+    3
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.2
+  },
+  {
+   "word": "LLRLRR",
+   "trace": 15,
+   "odd trace": true,
+   "Newton residual (log10)": -1199.609682699285,
+   "third equation (log10)": -1199.4021960252996,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 14,
+   "minimal polynomial of theta": "t^14 - 12*t^13 + 66*t^12 - 429*t^11 + 2252*t^10 + 12366*t^9 + 50961*t^8 + 408348*t^7 + 26327*t^6 + 922188*t^5 + 13516530*t^4 + 7356348*t^3 + 261998631*t^2 + 112389363*t + 2845455885",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    3,
+    3,
+    3
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.8
+  },
+  {
+   "word": "LLLLLLR",
+   "trace": 8,
+   "odd trace": false,
+   "Newton residual (log10)": -1200.0022607752612,
+   "third equation (log10)": -1200.054572034475,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 8,
+   "minimal polynomial of theta": "t^8 - 20*t^7 + 76*t^6 + 336*t^5 + 3024*t^4 - 27776*t^3 - 10240*t^2 - 90112*t + 1245184",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    8,
+    64,
+    8
+   ],
+   "their gcd": 8,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 8,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 3,
+     "valuations of x, y, z": [
+      3,
+      4,
+      3
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 0.3
+  },
+  {
+   "word": "LLLLLRR",
+   "trace": 12,
+   "odd trace": false,
+   "Newton residual (log10)": -1199.3761007163005,
+   "third equation (log10)": -1199.3218578919073,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 12,
+   "minimal polynomial of theta": "t^12 - 4*t^11 - 75*t^10 - 172*t^9 + 674*t^8 + 18784*t^7 + 75229*t^6 + 237458*t^5 + 4374012*t^4 + 33196968*t^3 + 212263088*t^2 + 755369792*t + 1979756672",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    16,
+    128,
+    512
+   ],
+   "their gcd": 16,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 8,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 3,
+     "valuations of x, y, z": [
+      4,
+      3,
+      3
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.5
+  },
+  {
+   "word": "LLLLRLR",
+   "trace": 16,
+   "odd trace": false,
+   "Newton residual (log10)": -1199.486433408887,
+   "third equation (log10)": -1199.4269387068396,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 12,
+   "minimal polynomial of theta": "t^12 - 24*t^11 + 228*t^10 - 1578*t^9 + 10980*t^8 - 56796*t^7 + 242897*t^6 - 980016*t^5 + 3131599*t^4 - 7186482*t^3 + 24246391*t^2 - 24015576*t + 84519608",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    32,
+    8,
+    64
+   ],
+   "their gcd": 8,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 8,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 3,
+     "valuations of x, y, z": [
+      3,
+      3,
+      4
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.5
+  },
+  {
+   "word": "LLLLRRR",
+   "trace": 14,
+   "odd trace": false,
+   "Newton residual (log10)": -1199.1711050508482,
+   "third equation (log10)": -1199.0830666248646,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 12,
+   "minimal polynomial of theta": "t^12 - 12*t^11 + 87*t^10 - 624*t^9 + 4184*t^8 - 14272*t^7 + 204256*t^6 + 1254304*t^5 + 7819696*t^4 + 27053888*t^3 + 50689120*t^2 + 46609408*t + 17634112",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    16,
+    16,
+    4
+   ],
+   "their gcd": 4,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 4,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 2,
+     "valuations of x, y, z": [
+      2,
+      4,
+      2
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.5
+  },
+  {
+   "word": "LLLRLLR",
+   "trace": 18,
+   "odd trace": false,
+   "Newton residual (log10)": -1198.9590808599237,
+   "third equation (log10)": -1198.852367323243,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 14,
+   "minimal polynomial of theta": "t^14 - 6*t^13 - 131*t^12 + 346*t^11 + 7429*t^10 + 3616*t^9 - 149252*t^8 - 302540*t^7 + 1929642*t^6 + 890680*t^5 - 23917724*t^4 + 90067744*t^3 + 166010352*t^2 - 579606336*t + 1647914596",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    16,
+    4,
+    64
+   ],
+   "their gcd": 4,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 4,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 2,
+     "valuations of x, y, z": [
+      4,
+      2,
+      2
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.9
+  },
+  {
+   "word": "LLLRLRR",
+   "trace": 20,
+   "odd trace": false,
+   "Newton residual (log10)": -2398.6374604256,
+   "third equation (log10)": -2398.5251527974406,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 20,
+   "minimal polynomial of theta": "t^20 - 12*t^19 + 84*t^18 - 648*t^17 + 3573*t^16 - 12150*t^15 + 110988*t^14 + 624936*t^13 + 4523254*t^12 + 39184254*t^11 + 148987553*t^10 + 1115203350*t^9 + 5412756684*t^8 + 26144314968*t^7 + 121954321184*t^6 + 305550173184*t^5 + 1059395579584*t^4 + 1702095809664*t^3 + 5086886391808*t^2 + 13870342505472*t + 12721962119168",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    72,
+    8,
+    16
+   ],
+   "their gcd": 8,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 8,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 3,
+     "valuations of x, y, z": [
+      3,
+      3,
+      4
+     ]
+    }
+   ],
+   "precision used (digits)": 2400,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 87.9
+  },
+  {
+   "word": "LLLRRLR",
+   "trace": 20,
+   "odd trace": false,
+   "Newton residual (log10)": -2398.9724930962007,
+   "third equation (log10)": -2398.844429248025,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 20,
+   "minimal polynomial of theta": "t^20 - 8*t^19 - 16*t^18 - 224*t^17 + 1054*t^16 + 5032*t^15 + 14298*t^14 + 209648*t^13 + 934173*t^12 + 15996284*t^11 + 112146305*t^10 + 476205948*t^9 + 2138481591*t^8 + 10778373852*t^7 + 68193661373*t^6 + 367076892932*t^5 + 1623820390002*t^4 + 5488251503724*t^3 + 12915282373023*t^2 + 28115871217840*t + 44060066952800",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    72,
+    400,
+    32
+   ],
+   "their gcd": 8,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 8,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 3,
+     "valuations of x, y, z": [
+      3,
+      4,
+      3
+     ]
+    }
+   ],
+   "precision used (digits)": 2400,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 86.9
+  },
+  {
+   "word": "LLRLLRR",
+   "trace": 22,
+   "odd trace": false,
+   "Newton residual (log10)": -1198.9483973371694,
+   "third equation (log10)": -1198.768610161098,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 12,
+   "minimal polynomial of theta": "t^12 - 32*t^10 - 476*t^9 - 624*t^8 + 22272*t^7 + 212107*t^6 + 1447176*t^5 + 6490372*t^4 + 24416512*t^3 + 80010704*t^2 + 178538368*t + 706417216",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    4,
+    64,
+    256
+   ],
+   "their gcd": 4,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 4,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 2,
+     "valuations of x, y, z": [
+      2,
+      6,
+      2
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.5
+  },
+  {
+   "word": "LLRLRLR",
+   "trace": 26,
+   "odd trace": false,
+   "Newton residual (log10)": -1198.8713538192694,
+   "third equation (log10)": -1198.6819564380885,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 14,
+   "minimal polynomial of theta": "t^14 - 106*t^12 - 376*t^11 + 1873*t^10 + 18310*t^9 + 73815*t^8 + 304002*t^7 + 1858442*t^6 + 7236172*t^5 + 16696100*t^4 + 17640616*t^3 - 19266844*t^2 - 208959224*t + 212867632",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    64,
+    4,
+    4
+   ],
+   "their gcd": 4,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 4,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 2,
+     "valuations of x, y, z": [
+      6,
+      2,
+      2
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.8
+  },
+  {
+   "word": "LLLLLLLR",
+   "trace": 9,
+   "odd trace": true,
+   "Newton residual (log10)": -1199.3007633254265,
+   "third equation (log10)": -1199.2543695311392,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 8,
+   "minimal polynomial of theta": "t^8 - 26*t^7 + 200*t^6 - 184*t^5 + 720*t^4 - 33696*t^3 + 108544*t^2 - 72192*t + 755712",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    3,
+    24,
+    3
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 0.3
+  },
+  {
+   "word": "LLLLLLRR",
+   "trace": 14,
+   "odd trace": false,
+   "Newton residual (log10)": -1199.7745597727478,
+   "third equation (log10)": -1199.7745597727478,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 16,
+   "minimal polynomial of theta": "t^16 - 80*t^14 - 672*t^13 - 1468*t^12 + 28800*t^11 + 272064*t^10 + 1295232*t^9 + 2256288*t^8 - 3091968*t^7 + 176323712*t^6 + 2335540224*t^5 + 18781316672*t^4 + 96793387008*t^3 + 358595802368*t^2 + 866352703488*t + 1537516155904",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    64,
+    1024,
+    4096
+   ],
+   "their gcd": 64,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 64,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 3,
+     "exponent": 2,
+     "valuations of x, y, z": [
+      2,
+      2,
+      4
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 2.3
+  },
+  {
+   "word": "LLLLLRLR",
+   "trace": 19,
+   "odd trace": true,
+   "Newton residual (log10)": -1198.9652898930838,
+   "third equation (log10)": -1198.9110256123306,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 12,
+   "minimal polynomial of theta": "t^12 - 30*t^11 + 360*t^10 - 2549*t^9 + 14618*t^8 - 70537*t^7 + 261975*t^6 - 903174*t^5 + 2704923*t^4 - 5737648*t^3 + 16057099*t^2 - 15563225*t + 35976927",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    6,
+    3,
+    24
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.6
+  },
+  {
+   "word": "LLLLLRRR",
+   "trace": 17,
+   "odd trace": true,
+   "Newton residual (log10)": -1200.206592712293,
+   "third equation (log10)": -1200.658137705789,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 12,
+   "minimal polynomial of theta": "t^12 - 19*t^11 + 171*t^10 - 1093*t^9 + 6254*t^8 - 20604*t^7 + 74514*t^6 + 712335*t^5 + 4079572*t^4 + 14070672*t^3 + 27836093*t^2 + 27664528*t + 10575936",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    6,
+    12,
+    3
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.5
+  },
+  {
+   "word": "LLLLRLLR",
+   "trace": 22,
+   "odd trace": false,
+   "Newton residual (log10)": -2398.450529378836,
+   "third equation (log10)": -2398.3734139208846,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 20,
+   "minimal polynomial of theta": "t^20 - 142*t^18 - 720*t^17 + 5663*t^16 + 73728*t^15 + 231652*t^14 - 1100064*t^13 - 12232465*t^12 - 49681152*t^11 - 44200734*t^10 + 510712560*t^9 + 3179113361*t^8 + 12658920576*t^7 + 34570845672*t^6 + 112449274752*t^5 + 486324177344*t^4 + 1387536264192*t^3 + 3455312288832*t^2 - 6314177574912*t + 40658490707008",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    256,
+    64,
+    1024
+   ],
+   "their gcd": 64,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 64,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 6,
+     "valuations of x, y, z": [
+      8,
+      6,
+      6
+     ]
+    }
+   ],
+   "precision used (digits)": 2400,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 85.6
+  },
+  {
+   "word": "LLLLRLRR",
+   "trace": 25,
+   "odd trace": true,
+   "Newton residual (log10)": -4799.572949281002,
+   "third equation (log10)": -4799.498801631767,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 24,
+   "minimal polynomial of theta": "t^24 - 12*t^23 + 66*t^22 - 552*t^21 + 4041*t^20 - 12778*t^19 + 50969*t^18 + 236618*t^17 + 4724101*t^16 + 48834724*t^15 + 245631493*t^14 + 1651184302*t^13 + 9686345309*t^12 + 63828947049*t^11 + 363477593406*t^10 + 1531703610784*t^9 + 5452147609431*t^8 + 13992449530611*t^7 + 38165367211924*t^6 + 106868288027325*t^5 + 334718115710521*t^4 + 685175741920098*t^3 + 1059370519199555*t^2 - 454997627024035*t + 3984716716426956",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    3,
+    6,
+    3
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 4800,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 138.2
+  },
+  {
+   "word": "LLLLRRLR",
+   "trace": 25,
+   "odd trace": true,
+   "Newton residual (log10)": -4798.842012660439,
+   "third equation (log10)": -4798.7672674299965,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 24,
+   "minimal polynomial of theta": "t^24 - 12*t^23 + 14*t^22 - 192*t^21 + 1825*t^20 + 9025*t^19 - 24793*t^18 + 2347*t^17 - 704751*t^16 + 6006791*t^15 + 96842474*t^14 + 413156693*t^13 + 2400932683*t^12 + 8133093617*t^11 + 34068975420*t^10 + 308890449555*t^9 + 1959122361141*t^8 + 10868073998729*t^7 + 52146701460248*t^6 + 192903626820830*t^5 + 624081294637672*t^4 + 1712916259486917*t^3 + 3599198230101312*t^2 + 5252570524352525*t + 6061783165601178",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    3,
+    39,
+    39
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 4800,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 137.6
+  },
+  {
+   "word": "LLLLRRRR",
+   "trace": 18,
+   "odd trace": false,
+   "Newton residual (log10)": -1199.3517457774292,
+   "third equation (log10)": -1199.2348145415003,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 16,
+   "minimal polynomial of theta": "t^16 + 92*t^14 - 240*t^13 + 8326*t^12 + 2592*t^11 + 935756*t^10 + 5717712*t^9 + 106656609*t^8 + 592909056*t^7 + 5069530480*t^6 + 14058167808*t^5 + 73062147328*t^4 - 53331701760*t^3 + 143621108224*t^2 - 1931601297408*t + 2978302600192",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    1024,
+    1024,
+    4096
+   ],
+   "their gcd": 1024,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 1024,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 10,
+     "valuations of x, y, z": [
+      10,
+      10,
+      12
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 2.3
+  },
+  {
+   "word": "LLLRLLRR",
+   "trace": 29,
+   "odd trace": true,
+   "Newton residual (log10)": -4798.726424727409,
+   "third equation (log10)": -4798.62203891214,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 28,
+   "minimal polynomial of theta": "t^28 - 12*t^27 + 90*t^26 - 888*t^25 + 5021*t^24 - 18692*t^23 + 98758*t^22 + 347500*t^21 + 1481031*t^20 + 52335423*t^19 + 148861118*t^18 + 2157453431*t^17 + 9485086981*t^16 + 64846942270*t^15 + 453423414630*t^14 + 1864396512709*t^13 + 14056140415714*t^12 + 39931780265196*t^11 + 262442980819703*t^10 + 561545775461928*t^9 + 2939747814466288*t^8 + 5752495953387068*t^7 + 18582024368783160*t^6 + 47531095537056161*t^5 + 55704973659157710*t^4 + 254407623925313044*t^3 + 259745455654934389*t^2 + 255408807178775093*t + 1676989755251074122",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    15,
+    3,
+    3
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 4800,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 179.7
+  },
+  {
+   "word": "LLLRLRLR",
+   "trace": 34,
+   "odd trace": false,
+   "Newton residual (log10)": -1198.649485361508,
+   "third equation (log10)": -1198.5329871842855,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 14,
+   "minimal polynomial of theta": "t^14 + 6*t^13 + 58*t^12 + 4*t^11 + 11*t^10 - 8140*t^9 - 12659*t^8 - 85006*t^7 + 369794*t^6 + 1330260*t^5 + 10956944*t^4 + 24139984*t^3 + 114592948*t^2 + 161390232*t + 647610256",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    16,
+    16,
+    4
+   ],
+   "their gcd": 4,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 4,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 2,
+     "valuations of x, y, z": [
+      4,
+      2,
+      2
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 2.5
+  },
+  {
+   "word": "LLLRLRRR",
+   "trace": 27,
+   "odd trace": true,
+   "Newton residual (log10)": -4798.536290557462,
+   "third equation (log10)": -4798.413087271145,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 26,
+   "minimal polynomial of theta": "t^26 - 12*t^25 + 134*t^24 - 1224*t^23 + 13508*t^22 - 81216*t^21 + 957081*t^20 - 3418971*t^19 + 47344575*t^18 - 147217623*t^17 + 1738786962*t^16 - 1411540650*t^15 + 76974457253*t^14 + 78197910345*t^13 + 1417220903566*t^12 - 3744250646427*t^11 - 6816586279233*t^10 - 132472303324458*t^9 - 81246099988215*t^8 - 197424343637925*t^7 + 3343325244746593*t^6 + 6801289132547838*t^5 + 15107867164812195*t^4 - 3219093892390806*t^3 + 26144300211562867*t^2 + 16336538471810511*t + 15207509017160895",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    15,
+    15,
+    615
+   ],
+   "their gcd": 15,
+   "order maximal at": [
+    3,
+    5
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 4800,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 163.1
+  },
+  {
+   "word": "LLLRRLLR",
+   "trace": 29,
+   "odd trace": true,
+   "Newton residual (log10)": -4799.138356258308,
+   "third equation (log10)": -4799.0002930231685,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 28,
+   "minimal polynomial of theta": "t^28 - 12*t^27 - 42*t^26 + 384*t^25 + 4829*t^24 - 5674*t^23 - 153568*t^22 - 867500*t^21 + 3430095*t^20 + 21008943*t^19 + 96527539*t^18 + 10063129*t^17 + 2957140108*t^16 + 22640049984*t^15 + 127955293099*t^14 + 335317063430*t^13 + 1251726171875*t^12 + 3603385304110*t^11 + 38993978017205*t^10 + 239797738090189*t^9 + 1290062538442809*t^8 + 5457164602099896*t^7 + 20308215384775840*t^6 + 67095343826288582*t^5 + 193999531766663139*t^4 + 439010119786878612*t^3 + 766442532680445113*t^2 + 899342338741039198*t + 549511201474905177",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    15,
+    123,
+    6
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 4800,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 179.9
+  },
+  {
+   "word": "LLLRRLRR",
+   "trace": 30,
+   "odd trace": false,
+   "Newton residual (log10)": -1198.5603798700365,
+   "third equation (log10)": -1198.424848461512,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 12,
+   "minimal polynomial of theta": "t^12 + 6*t^11 + 162*t^10 + 828*t^9 + 11620*t^8 + 45952*t^7 + 407412*t^6 + 1053080*t^5 + 6602400*t^4 + 7963136*t^3 + 45221952*t^2 + 1376384*t + 143104768",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    16,
+    4,
+    4
+   ],
+   "their gcd": 4,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 4,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 2,
+     "valuations of x, y, z": [
+      4,
+      2,
+      2
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 1.6
+  },
+  {
+   "word": "LLRLLRLR",
+   "trace": 37,
+   "odd trace": true,
+   "Newton residual (log10)": -1198.5227982877166,
+   "third equation (log10)": -1198.3451903021,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 12,
+   "minimal polynomial of theta": "t^12 - 24*t^11 + 240*t^10 - 1736*t^9 + 10957*t^8 - 49273*t^7 + 188852*t^6 - 623051*t^5 + 1449592*t^4 - 3843524*t^3 + 8539076*t^2 - 12195719*t + 31298151",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    3,
+    3,
+    24
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 1200,
+   "minimal polynomial found by": "degree by degree",
+   "main's law holds": true,
+   "seconds": 2.1
+  },
+  {
+   "word": "LLRLRLRR",
+   "trace": 39,
+   "odd trace": true,
+   "Newton residual (log10)": -2398.442448342985,
+   "third equation (log10)": -2398.244773010582,
+   "theta": "x + 0 y + 0 z",
+   "degree of K": 38,
+   "minimal polynomial of theta": "t^38 - 2*t^37 - 11*t^36 + 22*t^35 + 58*t^34 - 108*t^33 - 191*t^32 + 286*t^31 + 436*t^30 - 344*t^29 - 712*t^28 - 248*t^27 + 736*t^26 + 1576*t^25 + 7*t^24 - 2050*t^23 - 1847*t^22 - 1026*t^21 + 4213*t^20 + 8150*t^19 - 6614*t^18 - 14652*t^17 + 9959*t^16 + 13706*t^15 - 13200*t^14 - 6128*t^13 + 12460*t^12 + 852*t^11 - 7160*t^10 - 1808*t^9 + 1490*t^8 + 4720*t^7 - 99*t^6 - 4110*t^5 + 1153*t^4 + 762*t^3 - 222*t^2 - 81*t + 27",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    27,
+    27,
+    87
+   ],
+   "their gcd": 3,
+   "order maximal at": [
+    3
+   ],
+   "norm of (x, y, z)": 3,
+   "prime factors": [
+    {
+     "p": 3,
+     "residue degree": 1,
+     "exponent": 1,
+     "valuations of x, y, z": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "precision used (digits)": 2400,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 668.6
+  },
+  {
+   "word": "LLRLRRLR",
+   "trace": 38,
+   "odd trace": false,
+   "Newton residual (log10)": -4798.9995234515145,
+   "third equation (log10)": -4798.802363703703,
+   "theta": "x + 2 y + 3 z",
+   "degree of K": 24,
+   "minimal polynomial of theta": "t^24 - 42*t^22 - 480*t^21 - 2441*t^20 + 4512*t^19 + 99920*t^18 + 1225200*t^17 + 7393663*t^16 + 37743168*t^15 + 161940318*t^14 + 475657728*t^13 + 979009961*t^12 + 216295200*t^11 + 23480387996*t^10 + 234031546992*t^9 + 2395126480448*t^8 + 12558379609728*t^7 + 67914035359936*t^6 + 241611396214272*t^5 + 907868343546688*t^4 + 2309850403494912*t^3 + 5900781183144192*t^2 + 8562900074290176*t + 11615710537043968",
+   "exactly a fixed point on the cusp surface": true,
+   "x, y, z integral": [
+    true,
+    true,
+    true
+   ],
+   "norms of x, y, z": [
+    4096,
+    64,
+    64
+   ],
+   "their gcd": 64,
+   "order maximal at": [
+    2
+   ],
+   "norm of (x, y, z)": 64,
+   "prime factors": [
+    {
+     "p": 2,
+     "residue degree": 1,
+     "exponent": 6,
+     "valuations of x, y, z": [
+      8,
+      6,
+      6
+     ]
+    }
+   ],
+   "precision used (digits)": 4800,
+   "minimal polynomial found by": "one degree-64 relation, factored",
+   "main's law holds": true,
+   "seconds": 146.6
+  }
+ ],
+ "failed": [],
+ "main's law holds on every word": true,
+ "odd-trace words": 16,
+ "even-trace words": 21
+}

@@ -251,3 +251,36 @@ built in, and a chirality handle other than the index. W15 takes the three in tu
 3. Your 31 unreliable covers: this seat can re-read any of them at 160 digits. Name the priority.
 
 0 of 19.
+
+## 11. Added the same morning: B1601 verified on every geometry, and the dimension your earning condition needs
+
+- **Your B1601: VERIFIED, 37 of 37 (W16).** Row by row your census and this seat's agree: the trace, the field's
+  degree (2 to 38), the norm, and each prime's residue degree and exponent.
+  - On odd trace, 16 of 16: one prime of norm 3, with valuations (1, 1, 1).
+  - On even trace, 21 of 21: one prime above 2. The norm is 4 on eight words, 8 on seven, 64 on five (LLLLLLRR's of
+    residue degree three) and 1 024 on LLLLRRRR.
+  - Every field and every coordinate was checked exactly in K.
+  - The precision used was 1 200 digits on 27 fields, and 2 400 or 4 800 on the rest.
+  - **One instrument note for your re-reads.** On LLRLRLRR, y is exactly the complex conjugate of x. A generic
+    θ = x + 2y + 3z then needs coordinates of more than a hundred digits. x alone generates the degree-38 field with
+    a small polynomial, and with it the row is yours in eleven minutes.
+- **The dimension of the even-dimensional object (a sharpening of your FK11 condition; elementary, checked by the
+  splitting principle).**
+  - For an SU(5) bundle V whose lower Chern characters vanish, ch_k(Λ²V) = (5 − 2^(k−1))·ch_k(V).
+  - So the index of Λ²V is 3 times that of V on a four-dimensional object, up to the rank's Â-term. It equals that of
+    V only on a six-dimensional object, which is the Calabi–Yau threefold identity.
+  - **So the SU(5) frame's shape identity n_5̄ = n_10 needs a six-dimensional object.** On the weave's
+    four-dimensional surface (W19) an SU(5) index has the shape one to three.
+  - The E₆ frame needs no condition on the dimension: one generation is one 27, and its shape is in the
+    representation.
+  - So on W19's surface the dictionary would be E₆'s, with a non-flat E₆ bundle named by principle. Otherwise the
+    weave must force a six-dimensional object, and this seat has no candidate it would call forced.
+- **A rhyme, recorded as an observation only.** The class-index pairs this seat has read have the six-dimensional
+  index shape, (1, 1), on the thread itself (W17). At the resolving tick they have the four-dimensional shape,
+  (1, 3): W15's five, and W18's zero-parity part. Your B1604 says these pairs are not indices, so this may be
+  coincidence. It is listed for your eye, not built on.
+
+**Ask.** Do you read the earning condition as allowing the E₆ frame on a four-dimensional weave object? Or does the
+SU(5) frame's shape identity require a six-dimensional one?
+
+0 of 19.

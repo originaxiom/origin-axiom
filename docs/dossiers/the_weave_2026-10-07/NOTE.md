@@ -678,7 +678,7 @@ W15 takes the three in turn, on the weave's own modules.
   - What it takes: that reading (the dictionary, GENESIS FK11), the deck kept (FK7), and the mod-16 criterion.
   - The weave's five is evidence against F-HE's dictionary on the weave's modules, not evidence for this reading.
 
-## W16. Main's B1604 verified, B1602's third carrier withdrawn by main, and main's B1601 on this seat's code (`the_common_point_mod_3.py`)
+## W16. Main's B1601 and B1604 verified, and B1602's third carrier withdrawn by main (`the_common_point_mod_3.py`)
 
 **B1604 (main's T-NO-INDEX-IN-THREE): VERIFIED.**
 - **The theorem.** For a flat module E on a cusped 3-manifold, or on a finite cover of one, χ(N; E) = 0 and
@@ -700,26 +700,41 @@ W15 takes the three in turn, on the weave's own modules.
   letters, and E1 caught it. There is nothing to verify.
 - This seat's forced-cover census at 160 digits (W6, to length 6) never had a carrier beyond ±LR.
 
-**B1601 (main's T-COMMON-POINT-MOD-3), on this seat's code.**
+**B1601 (main's T-COMMON-POINT-MOD-3): VERIFIED, 37 of 37.**
+- **The law.** For every primitive word in L and R with both letters to length 8 (37 geometries), take the ideal
+  (x, y, z) = (tr a, tr b, tr ab) at the geometric point.
+  - On odd trace it is one prime of norm 3, and x, y and z each have valuation one there.
+  - On even trace it is a power of one prime above 2.
 - **The route,** independent of main's code:
   - the geometric point from sm:B1527's family_lib (sm:B1523's route F), polished by Newton on the Fricke
-    fixed-point equations with the cusp condition, at 1 200 digits;
-  - PARI: the minimal polynomial of θ = x + 2y + 3z (algdep, required to agree at two precisions), x, y and z in its
-    power basis (lindep), and an EXACT check in K that they are a fixed point of the state's Fricke map on the cusp
-    surface;
-  - the ideal (x, y, z) read at the primes q of g = gcd(N(x), N(y), N(z)), with the order made maximal at each q; the
-    exponent at each prime above q is the least of the three valuations.
-- **Two instrument notes.**
+    fixed-point equations with the cusp condition, at 1 200 digits, more where a field needs it;
+  - PARI: the minimal polynomial of θ = x + 2y + 3z, either degree by degree (algdep, required to agree at two
+    precisions) or as the irreducible factor at θ of one relation of degree 64;
+  - x, y and z in θ's power basis (lindep), then an EXACT check in K that they are a fixed point of the state's
+    Fricke map on the cusp surface;
+  - the ideal read at the primes q of g = gcd(N(x), N(y), N(z)), with the order made maximal at each q; the exponent
+    at each prime above q is the least of the three valuations.
+- **The result.** Every row agrees with main's census: the trace, the field's degree, the norm, and each prime's
+  residue degree and exponent.
+  - **Odd trace, 16 of 16:** norm 3, residue degree one, exponent one, valuations (1, 1, 1).
+  - **Even trace, 21 of 21:** one prime above 2. The norm is 4 on eight words, 8 on seven, 64 on five (LLLLLLRR's of
+    residue degree three) and 1 024 on LLLLRRRR.
+  - Every field and every coordinate was checked exactly in K, and x, y and z are integral on every word.
+  - The fields run from degree 2 to degree 38.
+  - The precision used: 1 200 digits on 27 fields (degree by degree); 2 400 on 4 and 4 800 on 6 (the factored
+    relation).
+- **Three instrument notes.**
   - PARI's full maximal order factors the polynomial discriminant. On LLLLRLRR's degree-24 field it was still
     factoring after 25 minutes; main's run stalled the same way. The norm argument makes it unnecessary: an element
     with a unit norm at ℓ is a unit in any order at ℓ, so the ideal lives at the primes of g.
   - PARI's idealfactor on an order maximal only at g's primes does not serve either. x, y and z carry index
     denominators in θ's basis, and PARI then factors at primes where the order is not maximal. The run reads each
     prime of g by its valuations alone.
-- **Status at this writing.**
-  - A first pass, with the full maximal order, read 26 of the 37 geometries, and every one agreed with main's census
-    before it stalled.
-  - The record's run (the norm route, four workers) is reading all 37. Its row follows in the next commit.
+  - On LLRLRLRR (trace 39, degree 38) y is exactly the complex conjugate of x. θ's polynomial is found, but x, y and z
+    then need coordinates of more than a hundred digits in θ's power basis. The coordinate x alone generates the
+    field with a small polynomial, and with θ = x the row is main's.
+- **For this dossier:** link a of the synthesis's chain is VERIFIED. Every odd-trace thread to length 8 reduces, at a
+  prime of norm three, to the common point. So W3's forced cover is each thread's own congruence cover there.
 
 ## W17. The weave's five on the thread itself: F-HE's generation shape on the vector-like twin of every carrier word (`the_weaves_five_tick1.py`)
 
@@ -886,6 +901,16 @@ space.
 - The Hodge bundle λ and the cotangent lines ψ₁ and ψ₂ at the two marked points are non-flat.
 - The common point's own bundles stay flat: its modules have finite monodromy (W3, W9).
 
+**The dimension a count needs (elementary; checked by the splitting principle).**
+- For an SU(5) bundle V whose lower Chern characters vanish, ch_k(Λ²V) = (5 − 2^(k−1))·ch_k(V).
+- So the index of Λ²V is three times that of V on a four-dimensional object, up to the rank's Â-term. The two are
+  equal only on a six-dimensional one, which is the Calabi–Yau threefold's identity.
+- So on this four-dimensional surface an SU(5) count has the shape one to three. The physical shape needs the E₆
+  frame, where one generation is one 27 and the shape is in the representation, or a six-dimensional object.
+- **An observation, not built on.** The class-index pairs read so far have the six-dimensional shape (1, 1) on the
+  thread itself (W17). At the resolving tick they have the four-dimensional shape (1, 3): W15's five, and W18's
+  zero-parity part. Main's B1604 says they are not indices, so this may be a coincidence.
+
 **What is not done.**
 - No bundle is named as the matter's, and no index is read.
 - Naming one by principle, before any count, is the next step. It is a ruling for the owner and main (GENESIS FK11),
@@ -917,7 +942,7 @@ space.
 | W13 | VERIFIED (main's B1434: four odd-trace rows on the engine route, all six through W14) | F-CI's generation-shaped backgrounds at the resolving tick come in deck orbits of three, each counting one, on ±LR, ±LLLR and ±LLLLLR; this seat's code agrees with B1434 row by row |
 | W14 | PROVED (the slope law); COMPUTED (the census) | F-CI's index is [s(α) = s(λ)] − [s(α − λ) = s(λ)] (slopes on the cusp torus), and its signs pair (the extension's order). At the resolving tick, ten of the twelve odd-trace threads to length 6 carry one-generation backgrounds in deck orbits of three; ±LLRLRR carry none. So F-CI's content is not a weave law; the three is |
 | W15 | PROVED (Theorem H; the extension index formula); COMPUTED (the census, 32 states); a prediction half held | the hand is the determinant of the weave's triplet T at tick 3, mirror-odd, on every odd-trace thread (W9's hand rule, now a theorem). The weave's own extension of a parity line by a spin doublet has index [c ∪ ℓ_p ≠ 0]: exactly one per parity, three or nothing, and silent exactly when φ³ ≡ ±I (mod 16) on all 32 odd-trace states to length 8 (±LLRLRR and ±LLLLLRRR). F-CI does not share that silence (it carries on ±LLLLLRRR). The weave's five (2 + 3) reads F-HE's anomalous (−1, −3). Main's conditions for FK11: the module and count, and the chirality handle, met; the shape identity not built into the class index |
-| W16 | VERIFIED (main's B1604: the proof re-derived, its control E1 the engine's B1297 identity at every index); main's B1601 being read on this seat's code (a first pass agreed on 26 of 37) | no flat count on a thread or a cover of one is an index, so GENESIS FK11 is unearnable there, and W15, W17 and W18 are class-index laws. B1602's third carrier was withdrawn by main |
+| W16 | VERIFIED (main's B1601, 37 of 37, exact in each field; main's B1604, the proof re-derived and its control E1 the engine's B1297 identity at every index) | the common point is each odd-trace thread's geometry mod a prime of norm three; no flat count on a thread or a cover of one is an index, so GENESIS FK11 is unearnable there, and W15, W17 and W18 are class-index laws. B1602's third carrier was withdrawn by main |
 | W17 | COMPUTED (WEAVE, 32 of 32 states to length 8, 480 readings) | the weave's five on the thread itself (the spin doublet and the parity triplet, twisted ν³ and ν⁻² so that SU(5)′'s determinant is trivial, glued by a weave class) reads F-HE's generation shape (1, 1), dual (−1, −1), on the vector-like twin of every word with φ³ ≢ ±I (mod 16); a lone 5̄ on the chiral twin; nothing on the mod-16 words. Main's three conditions for FK11 all have weave answers. The count is one per thread: the parities are the five's triplet, and three needs the deck kept (FK7) |
 | W18 | COMPUTED (WEAVE, 32 states; a prediction that failed at special classes) | the five's sectors on the forced cover: at the generic class each of the three parity lines carries the five's pair (1, 1) on every carrier, the shape of the orbifold standard on the weave's own modules; on every carrier exactly two classes of the gluing line drop it to (0, 1) (the engine's basis met one on four); (0, 2) on the chiral twins; nothing on the mod-16 words. The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 these are class-index pairs, a selection by forced characters, not counts |
 | W19 | READING (the facts classical) | the weave's own surface: the moves with the fibre's group generate Aut⁺(F₂), every thread's group inside it, so the weave's space is M₁,₂, the universal punctured elliptic curve, every thread at once (each over its closed geodesic). Its Euler characteristic is 1/12, not 0, so B1604's vanishing stops at the threads. The three parities are the fixed points of the elliptic involution off the puncture, one curve of degree 3. The even-dimensional object main's FK11 asks for; no bundle named, no count read |
@@ -954,7 +979,7 @@ space.
 - `the_hand_theorem.py` → `the_hand_theorem.json`: W15, Theorem H's ingredients on the generators, the tick-3 act on every odd-trace state to length 8, and the hand rule from the determinant on all 758 states to length 12.
 - `the_weave_extension.py` → `the_weave_extension.json`: W15, the weave's own extensions: the census to length 6, two further primes, and length 8 under the reduced rule.
 - `W15_PREDICTION.md`: the mod-16 prediction, committed before its test; `the_prediction_test.py` → `the_prediction_test.json`: its second part, F-CI on ±LLLLLRRR with the control ±LLLLLLLR.
-- `the_common_point_mod_3.py`: W16, main's B1601 on this seat's route (the point at 1 200 digits, the field checked exactly, the ideal at the primes of the norm gcd); its record `the_common_point_mod_3.json` follows the run.
+- `the_common_point_mod_3.py` → `the_common_point_mod_3.json`: W16, main's B1601 on this seat's route (the point at 1 200 digits or more, the field checked exactly, the ideal at the primes of the norm gcd), 37 geometries.
 - `the_weaves_five_tick1.py` → `the_weaves_five_tick1.json`: W17, the weave's SU(5)′ five on the thread itself, every odd-trace state to length 8.
 - `W18_PREDICTION.md`: the per-parity prediction, committed before its test; `the_parity_generations.py` → `the_parity_generations.json`: W18, the five's sectors on the forced cover by Shapiro (32 states) and directly at the resolving tick (twelve states).
 - `the_parity_generations_special.py` → `the_parity_generations_special.json`: W18, post hoc: the whole line of gluing classes on every carrier over GF(73) and GF(97), two special classes on each.

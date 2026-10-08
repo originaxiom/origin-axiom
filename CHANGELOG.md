@@ -1,5 +1,27 @@
 # Changelog
 
+## The weave's W16 completed: main's B1601 verified on all 37 geometries, exactly in each field; and the dimension the earning condition needs
+
+- **Main's B1601: VERIFIED, 37 of 37.** This seat's route is independent of main's: the geometric point from route F,
+  polished at 1 200 digits or more; the field and the coordinates checked exactly in K; the ideal read at the primes of
+  the norm gcd. Every row agrees with main's census: the trace, the degree (2 to 38), the norm, and each prime's
+  residue degree and exponent.
+  - Odd trace, 16 of 16: one prime of norm 3, valuations (1, 1, 1).
+  - Even trace, 21 of 21: one prime above 2, with norms 4, 8, 64 and 1 024.
+- **Three instrument notes** (in the dossier):
+  - the norm route replaces PARI's full maximal order, which stalled as on main;
+  - idealfactor on a partial order misreads index denominators;
+  - on LLRLRLRR y is the complex conjugate of x, so the coordinate x itself is the generator that works.
+- So link a of the synthesis's chain is VERIFIED: every odd-trace thread to length 8 reduces to the common point at a
+  prime of norm three.
+- **The dimension a count needs.** For an SU(5) bundle, ch_k(Λ²V) = (5 − 2^(k−1))·ch_k(V). So the physical shape
+  identity n_5̄ = n_10 needs a six-dimensional object; on the weave's four-dimensional surface (W19) an SU(5) count has
+  the shape one to three, and the E₆ frame (one 27 per generation) has no condition on the dimension.
+  - Recorded as an observation only: the class-index pairs read on the thread have the six-dimensional shape, and those
+    at the resolving tick the four-dimensional one.
+- **Also.** The relay's §11, with the question of the frame on the four-dimensional surface; the relay-ledger rows; the
+  test of W16 against main's census.
+
 ## The weave's W16–W19: main's B1604 verified and B1601 on this seat's code; the weave's five on the thread (one generation's pair, a class-index law) and on each parity line (a prediction that failed at special classes); and the weave's own surface, the even-dimensional object main's FK11 asks for
 
 - **W16 (B1604 VERIFIED; B1601 in progress).**

@@ -157,6 +157,44 @@ def test_w15_the_weaves_five_is_not_generation_shaped():
             assert pairs <= {(1, 3), (2, 3)} and dual <= {(-1, -3), (-2, -3)} and (1, 3) in pairs, sw
         assert all(p[0] != p[1] for p in pairs | dual if p != (0, 0))   # never the shape n_5bar = n_10
 
+# main's B1601 census (main's frontier/B1601_the_common_point_is_the_geometry_mod_3/verification/census_*_8_run.txt,
+# cited): word -> (trace, degree of K, norm of (x, y, z), [(p, residue degree, exponent)])
+MAIN_B1601 = {
+    "LR": (3, 2, 3, [(3, 1, 1)]), "LLLR": (5, 4, 3, [(3, 1, 1)]), "LLLLLR": (7, 6, 3, [(3, 1, 1)]),
+    "LLLRLR": (13, 8, 3, [(3, 1, 1)]), "LLLRRR": (11, 8, 3, [(3, 1, 1)]), "LLRLRR": (15, 14, 3, [(3, 1, 1)]),
+    "LLLLLLLR": (9, 8, 3, [(3, 1, 1)]), "LLLLLRLR": (19, 12, 3, [(3, 1, 1)]), "LLLLLRRR": (17, 12, 3, [(3, 1, 1)]),
+    "LLLLRLRR": (25, 24, 3, [(3, 1, 1)]), "LLLLRRLR": (25, 24, 3, [(3, 1, 1)]), "LLLRLLRR": (29, 28, 3, [(3, 1, 1)]),
+    "LLLRLRRR": (27, 26, 3, [(3, 1, 1)]), "LLLRRLLR": (29, 28, 3, [(3, 1, 1)]), "LLRLLRLR": (37, 12, 3, [(3, 1, 1)]),
+    "LLRLRLRR": (39, 38, 3, [(3, 1, 1)]),
+    "LLR": (4, 4, 8, [(2, 1, 3)]), "LLRR": (6, 8, 64, [(2, 1, 6)]), "LLLLR": (6, 6, 4, [(2, 1, 2)]),
+    "LLLRR": (8, 8, 8, [(2, 1, 3)]), "LLRLR": (10, 8, 4, [(2, 1, 2)]), "LLLLRR": (10, 12, 64, [(2, 1, 6)]),
+    "LLLLLLR": (8, 8, 8, [(2, 1, 3)]), "LLLLLRR": (12, 12, 8, [(2, 1, 3)]), "LLLLRLR": (16, 12, 8, [(2, 1, 3)]),
+    "LLLLRRR": (14, 12, 4, [(2, 1, 2)]), "LLLRLLR": (18, 14, 4, [(2, 1, 2)]), "LLLRLRR": (20, 20, 8, [(2, 1, 3)]),
+    "LLLRRLR": (20, 20, 8, [(2, 1, 3)]), "LLRLLRR": (22, 12, 4, [(2, 1, 2)]), "LLRLRLR": (26, 14, 4, [(2, 1, 2)]),
+    "LLLLLLRR": (14, 16, 64, [(2, 3, 2)]), "LLLLRLLR": (22, 20, 64, [(2, 1, 6)]),
+    "LLLLRRRR": (18, 16, 1024, [(2, 1, 10)]), "LLLRLRLR": (34, 14, 4, [(2, 1, 2)]),
+    "LLLRRLRR": (30, 12, 4, [(2, 1, 2)]), "LLRLRRLR": (38, 24, 64, [(2, 1, 6)]),
+}
+
+
+def test_w16_main_b1601_verified_on_every_word():
+    """W16: the ideal (tr a, tr b, tr ab) at the geometric point, on all 37 geometries to length 8, by this seat's route
+    (Newton at 1200 digits or more, the field and coordinates checked exactly, the ideal read at the primes of the
+    norm gcd), against main's census row by row"""
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_common_point_mod_3.json").read_text(encoding="utf-8"))
+    rows = {r["word"]: r for r in d["rows"]}
+    assert set(rows) == set(MAIN_B1601) and d["main's law holds on every word"] and d["failed"] == []
+    assert (d["odd-trace words"], d["even-trace words"]) == (16, 21)
+    for w, (tr, deg, norm, primes) in MAIN_B1601.items():
+        r = rows[w]
+        assert r["exactly a fixed point on the cusp surface"] and all(r["x, y, z integral"]), w
+        assert (r["trace"], r["degree of K"], r["norm of (x, y, z)"]) == (tr, deg, norm), w
+        assert [(p["p"], p["residue degree"], p["exponent"]) for p in r["prime factors"]] == primes, w
+        assert r["Newton residual (log10)"] < -500, w
+        if tr % 2:
+            assert r["prime factors"][0]["valuations of x, y, z"] == [1, 1, 1], w
+            assert r["their gcd"] % 3 == 0 and r["order maximal at"] and 3 in r["order maximal at"], w
+
 
 def test_w17_the_weaves_five_on_the_thread_reads_one_generation_on_the_vector_like_twins():
     d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_weaves_five_tick1.json").read_text(encoding="utf-8"))
