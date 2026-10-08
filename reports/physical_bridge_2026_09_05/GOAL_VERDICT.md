@@ -1,5 +1,19 @@
 # Verdict toward the full physical-theory goal - R95, updated 2026-10-04
 
+October8 research checkpoint: shared-puncture compact sheaf index d-3
+and local Green coefficient domains supported;35 native/33 separate
+reference/11 focused PASS at unchanged pre-run seal1f7982071. W21 one-form
+triplet preserved. The complete massless ORDINARY-SPIN cusp has a different
+norm and zero essential-spectrum channel: not a Fredholm physical index,
+not a general weave/cover/twisted-kinetic exclusion. Report:
+reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/FINDINGS.md.
+Next finite-distance global graph-domain proof and a specified form-based/
+twisted parent with full reality/gauge/spectrum/action/selection accounting.
+Silver cyclic positive now reported:56/54 native/reference,9 focused and31
+regression PASS; conditional all-order FORMAL gauge consistency, not
+convergence or physical stationarity. No graft between the two theories.
+Full SM/TOE unachieved; nonauthor/full-suite/main-bank acceptance owed.
+
 October4 R95: a specified LOCAL relative trace-sector map now reaches
 the SAME supplied E8 superpotential. Sym4 PSL2->SL5->E8 gives trace
 factor1200, relative form2400 omega_R94 and boundary primitive4800 c L_s.

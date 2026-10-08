@@ -1,5 +1,18 @@
 # Physical bridge audit — 2026-09-05
 
+[October8 shared-puncture operator benchmark](weave_puncture_operator_2026_10_08/FINDINGS.md):
+35 native/33 reference/11 tests PASS. Compact sheaf d-3 and local Green
+domains supported. W21 one-form triplet preserved; ordinary-spin kinetic
+conversion on a complete cusp is not automatically its physical index.
+Next full form/twisted parent action, reality, global domains and spectrum.
+No chosen physical half, generated selection or general architecture kill.
+
+[October6 silver cyclic result, preserved October8](silver_cyclic_transfer_2026_10_06/FINDINGS.md):
+56 native/54 reference/9 focused and31 regression PASS. Actual raw exit
+and byte/hash custody retained. Conditional FORMAL all-order gauge
+consistency, not convergence or stationary full physical multiplets.
+The approved roadmap now distinguishes these two constructions.
+
 [October6 first nonlinear correction](silver_nonlinear_boundary_2026_10_06/FINDINGS.md):
 22 native/22 separate reference/11 LIVE and22 regression PASS. Conditional
 formal cubic response curves the spectral tangent while preserving its

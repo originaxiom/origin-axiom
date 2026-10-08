@@ -1,0 +1,106 @@
+{
+  "complete_massless_standard_spin_cusp_fredholm_at_zero": false,
+  "facts": {
+    "actual_square_root_pole_solves_flat_chiral_equation": true,
+    "all_seven_sheaf_indices": true,
+    "all_six_puncture_channels_minus_I": true,
+    "bump_and_derivative_glue_in_H1": true,
+    "complete_cusp_spin_pole_not_integrable": true,
+    "dual_complement_indices_opposite": true,
+    "local_coefficient_does_not_imply_full_U6": true,
+    "log_log_divergence_exact_derivative": true,
+    "non_diagonal_rank3_domain": true,
+    "nonisotropic_control_detected": true,
+    "one_form_pole_stays_integrable": true,
+    "polar_current_reduces_to_coefficient_green_form": true,
+    "quaternion_commutator_minus_I": true,
+    "rank_0_maximal_isotropic_graded": true,
+    "rank_1_maximal_isotropic_graded": true,
+    "rank_2_maximal_isotropic_graded": true,
+    "rank_3_maximal_isotropic_graded": true,
+    "rank_4_maximal_isotropic_graded": true,
+    "rank_5_maximal_isotropic_graded": true,
+    "rank_6_maximal_isotropic_graded": true,
+    "regular_cusp_spin_control": true,
+    "sheaf_degree_minus_three": true,
+    "six_zero_vertical_plus_channels": true,
+    "smooth_spin_pole_integrable": true,
+    "spin_connection_confirms_correct_weight": true,
+    "twisted_tangent_holonomy_periodic": true,
+    "unitary_cusp_radial_operator_has_no_mass": true,
+    "untwisted_bounding_control_has_no_vertical_zero": true,
+    "weyl_bump_derivative_exact": true,
+    "weyl_bump_norm_exact": true,
+    "weyl_residual_squared_twelve_over_L_squared": true,
+    "weyl_residual_tends_to_zero": true,
+    "weyl_supports_escape_and_are_disjoint": true,
+    "weyl_symbol_eigenvector_all_real_lambda": true,
+    "wrong_conformal_weight_fails": true
+  },
+  "finite_distance_global_graph_index_certified": false,
+  "generated_action_or_domain_selected": false,
+  "grade": "conditional_local_and_sheaf_research_not_physical_spectrum",
+  "hodge_triplet_refuted": false,
+  "local_coefficient_domains": [
+    {
+      "grading_kept": true,
+      "green_zero": true,
+      "plus_rank": 0,
+      "total_rank": 6
+    },
+    {
+      "grading_kept": true,
+      "green_zero": true,
+      "plus_rank": 1,
+      "total_rank": 6
+    },
+    {
+      "grading_kept": true,
+      "green_zero": true,
+      "plus_rank": 2,
+      "total_rank": 6
+    },
+    {
+      "grading_kept": true,
+      "green_zero": true,
+      "plus_rank": 3,
+      "total_rank": 6
+    },
+    {
+      "grading_kept": true,
+      "green_zero": true,
+      "plus_rank": 4,
+      "total_rank": 6
+    },
+    {
+      "grading_kept": true,
+      "green_zero": true,
+      "plus_rank": 5,
+      "total_rank": 6
+    },
+    {
+      "grading_kept": true,
+      "green_zero": true,
+      "plus_rank": 6,
+      "total_rank": 6
+    }
+  ],
+  "physical_chiral_SM_derived": false,
+  "pole_norms": {
+    "cusp_spin": "divergent",
+    "one_form": "finite",
+    "smooth_spin": "finite"
+  },
+  "predicates_passed": 35,
+  "schema": "weave-puncture-operator-v1",
+  "sheaf_indices": [
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3
+  ],
+  "weyl_residual_squared": "12/L^2"
+}

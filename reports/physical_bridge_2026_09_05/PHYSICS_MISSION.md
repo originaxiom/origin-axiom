@@ -1,5 +1,19 @@
 # Approved physics mission and execution criteria
 
+October8 research checkpoint: shared-puncture compact sheaf index d-3
+and local Green coefficient domains supported;35 native/33 separate
+reference/11 focused PASS at unchanged pre-run seal1f7982071. W21 one-form
+triplet preserved. The complete massless ORDINARY-SPIN cusp has a different
+norm and zero essential-spectrum channel: not a Fredholm physical index,
+not a general weave/cover/twisted-kinetic exclusion. Report:
+reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/FINDINGS.md.
+Next finite-distance global graph-domain proof and a specified form-based/
+twisted parent with full reality/gauge/spectrum/action/selection accounting.
+Silver cyclic positive now reported:56/54 native/reference,9 focused and31
+regression PASS; conditional all-order FORMAL gauge consistency, not
+convergence or physical stationarity. No graft between the two theories.
+Full SM/TOE unachieved; nonauthor/full-suite/main-bank acceptance owed.
+
 October6 prerequisite advances at research grade: first nonlinear boundary
 correction preserves the supplied chiral linear tangent;22 exact/22 separate
 reference/11 LIVE and22 new/spectral regression PASS. Report
@@ -13,12 +27,12 @@ The owner approved this mission and its roadmap on September 30, 2026:
 This is the authoritative mission for this audit lane. It is a research
 objective, not an assertion that Origin Axiom already determines nature.
 
-Latest interface currency October 5: a direct tracker read now reports
-ACTIVE with objective "derive parameter free standard model of physics
-and full toe from origin-axiom principles" unchanged. Earlier October5
-usageLimited and paused readings below are historical, not current status.
-No completion, replacement goal or manual status repair was used to obtain
-this reading. Scientific completion is still unproved.
+Latest interface currency October8: direct tracker read reports
+usageLimited, objective "derive parameter free standard model of physics
+and full toe from origin-axiom principles" unchanged. This research turn
+does not reset the limit, claim autonomous tracker resumption or mark the
+goal complete. Earlier ACTIVE/paused readings below are historical.
+The scientific mission remains approved and unachieved.
 
 ## Goal
 

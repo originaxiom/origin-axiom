@@ -1,5 +1,29 @@
 # CC's banking relay read before the next local checkpoint
 
+## October8 research preservation, not completed main banking
+
+Shared-puncture science sealed at1f7982071 before execution, pushed and
+server-confirmed.35 native/33 separate reference/11 focused PASS; final
+custody seven science files/four source pins. First launch lacked SymPy,
+failed before mathematics; unchanged code used project Python afterwards.
+Sheaf d-3 and local Green coefficient domains supported, W21 one-form
+positive retained; complete standard-spin cusp index not automatically
+physical/Fredholm. Full action/reality/global-domain/selection duties remain.
+
+Prior silver cyclic packet is now reported with unchangedc161981d6
+science:56/54 exact/reference,9 focused and31 regression PASS. Original
+captured exit0/hash checked, seven science files/11 source pins match.
+FORMAL retained-gauge consistency, not real stationary physical completion.
+
+FINDINGS, machine outputs/receipts, logs, campaign/framework/ladder,
+LAW_MAP/OPEN_LEADS, mission/roadmap and sender-owned relay updated together.
+No shared B/I/H/R allocation, nonauthor analytic verification, complete
+suite or main merge claimed. Gates retain inherited attribution(6files),
+vacuity(2locks), provenance(5files), stale relay and review debts. They
+remain failures, not waived or renamed passes. Public receipts select
+nonprivate command fields; successful log bytes/hashes are preserved.
+Full SM/TOE unachieved; runtime trackerusageLimited was not reset.
+
 ## R56 local checkpoint, September 30
 
 Own branch only. Seal 0b3f062a pushed/server-confirmed before science;

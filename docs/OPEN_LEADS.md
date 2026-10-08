@@ -1,5 +1,28 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 shared-puncture and retained silver-formal research advancement.
+Reports under physical_bridge: weave_puncture_operator_2026_10_08/FINDINGS.md
+and silver_cyclic_transfer_2026_10_06/FINDINGS.md. No architecture lead closed.
+
+- PB-PUNCTURE-GRAPH: compact sheaf d-3 and local Green domains supported;
+  complete the finite-distance closed-domain elliptic/index equivalence.
+- PB-PUNCTURE-KINETIC: preserve W21 one-form modes; specify the form-based/
+  twisted parent kinetic action and complete conjugate/reality/gauge roster.
+  Massless ordinary-spin complete-cusp obstruction is not a no-go for it.
+- PB-PUNCTURE-SELECTION: derive the metric/cut/twist/asymptotic response
+  from that action; no hand-selected half or silently removed hypercharge.
+- PB-NONLINEAR: retained-gauge higher transfer is now conditionally FORMAL
+  at all orders with cyclic SDR; convergence and complete charged physical
+  multiplets/normal/D-term/source laws remain, not closed by the tree lemma.
+- PB-MULTIPLET/PB-ACTION/PB-ANOMALY: one stationary positive interacting
+  chiral sector, complete boundary and weak-doublet modes, actual anomalies.
+  Silver and weave remain distinct benchmarks until a common map is earned.
+
+35/33 native/reference and11 focused puncture PASS; prior silver56/54,
+9 focused and31 regression PASS preserved. Nonauthor/full-suite acceptance
+owed; physical SM/TOE unachieved. Historical entries below are qualified
+by this refinement, not erased or applied beyond their tested quantifier.
+
 October6 first nonlinear boundary correction EXECUTED at research grade:
 reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/FINDINGS.md.
 22 native/22 separate reference/11 LIVE and22 regression PASS; authored

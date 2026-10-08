@@ -1,0 +1,55 @@
+{
+  "schema": "silver-cyclic-execution-public-receipt-v1",
+  "seal_commit": "c161981d60db707ae8d5cebb47ea0fcc85df1c1b",
+  "server_confirmed_before_execution": true,
+  "published_on": "2026-10-08",
+  "captures": {
+    "native": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 54.01998400001321,
+      "log_bytes": 3033,
+      "log_sha256": "eab6fce9aa5eb45fac51e83383cd3429d80d5af66090b6a03aa85d826ac6a03c"
+    },
+    "reference": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.0590160000137985,
+      "log_bytes": 2862,
+      "log_sha256": "36292e18e38a47d0d3f04052c34cc35359a3d3c155756baa53878078a90de8f8"
+    },
+    "focused": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 62.08442299999297,
+      "log_bytes": 109,
+      "log_sha256": "068f34df61f988adb76d75caff66655350e8695f235e6253c50b27c76f1748b0"
+    },
+    "regression": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 400.1978939999826,
+      "log_bytes": 111,
+      "log_sha256": "14308d938c24adac6e700973b190cc19e70ad676227ce26cb391ae4d6feaf9fb"
+    }
+  },
+  "commands_scope": {
+    "native": "sealed probe.py",
+    "reference": "sealed reference.py",
+    "focused": "tests/test_physical_bridge_silver_cyclic_transfer.py",
+    "regression": [
+      "tests/test_physical_bridge_silver_cyclic_transfer.py",
+      "tests/test_physical_bridge_silver_nonlinear_boundary.py",
+      "tests/test_physical_bridge_silver_spectral_completion.py"
+    ]
+  },
+  "custody_rechecked": {
+    "science_files": 7,
+    "source_pins": 11,
+    "bytes_unchanged": true,
+    "profiles_compared": true
+  },
+  "nonauthor_acceptance": false,
+  "full_suite_pass_claimed": false,
+  "physical_goal_achieved": false
+}

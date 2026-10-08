@@ -1,5 +1,16 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 path-local research sublemmas, not new shared/main-bank laws.
+Sources credited: SM W21/W22/W28, main B1606, primary parabolic/Dirac
+theorems and the fork's preceding finite cyclic construction.
+
+| Conditional result | Exact scope and evidence |
+|---|---|
+| Compact puncture sheaf formula | Rank6 unitary canonical extension, all weights1/2, genus1; a length-d upper modification has chi=d-3. PROOF.md in reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08. Not a global physical graph-index identification.35 native/33 reference/11 tests PASS at1f7982071. |
+| Local coefficient Green classification | For the smooth finite-distance standard-spin leading data, grading-preserving maximal isotropic domains are Lambda_plus plus its orthogonal complement. Every rank0..6 possible before extra symmetry; U6 invariance is stronger than locality. Same PROOF/tests; not a global elliptic counterexample or refutation of W28 symmetry algebra. |
+| Cusp kinetic distinction | W21 one-form pole remains L2. Canonically transported ordinary-spin pole has divergent log-log norm; the complete massless standard-spin twisted cusp admits Weyl residual12/L^2 at zero. Same PROOF/tests; no Fredholm index there, not index0 or an all-action/weave exclusion. |
+| Silver retained-gauge formal consistency | At unchanged literal silver coefficient, actual cyclic equivariant SDR supports the authored all-order FORMAL retained-gauge tree argument. reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/PROOF.md;56/54 exact/reference,9 focused and31 regression PASS atc161981d6. Nonzero binary gauge action retained; convergence, charged physical completion and selected domain remain owed. |
+
 October6 path-local first nonlinear boundary correction, conditional
 research sublemmas, not shared B-law/main banking. Fork cyclic lemma,
 the preceding spectral tangent and R40/R61 duties credited.

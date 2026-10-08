@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-08 shared-puncture kinetic benchmark and silver result preservation
+
+35 exact native/33 separate reference/11 focused PASS unchanged after
+pushed/server-confirmed seal1f7982071. Compact sheaf d-3 and local Green
+domain classification supported; W21 one-form triplet retained. Complete
+massless standard-spin cusp is not Fredholm at zero, not an architecture
+kill. First environment launch failed before mathematics, preserved;
+unchanged source then used project Python. Full physical action, reality,
+spectrum, global domains and generated selection remain next. New packet
+weave_puncture_operator_2026_10_08/FINDINGS.md under physical_bridge.
+
+October6 silver cyclic results finally preserved under
+silver_cyclic_transfer_2026_10_06/FINDINGS.md:56/54 exact/reference,
+9 focused and31 regression PASS with actual exit/hash custody. Conditional
+all-order FORMAL retained-gauge consistency, not physical stationarity.
+Same-author research; no main-bank/full-suite/nonauthor acceptance claim.
+
 ## 2026-10-06 first nonlinear correction at the fixed silver tangent
 
 22 exact/22 separate reference/11 LIVE and22 new/spectral regression PASS

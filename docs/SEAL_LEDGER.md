@@ -2185,3 +2185,11 @@ before packet execution; nonauthor/global-PDE/full-suite acceptance owed.
 | `reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/reference.py` | `a3bf2838e5db90d3c30190e964da0901048b57a3ec3b302bae40ec7dea12ec72` |
 | `reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/custody.rb` | `960e3fd1e816d2c3e00106f461a022fec799f67502079fdbf6fa56bd25aafdfe` |
 | `tests/test_physical_bridge_weave_puncture_operator.py` | `8e6c130298653a80c0b37c2cc0c54de95a6cf07779c0b64307debe12922c3401` |
+
+October8 dispositions: both research seals above are EXECUTED and now
+reported. silver_cyclic_transfer_2026_10_06/FINDINGS.md preserves56 native/
+54 reference/9 focused and31 regression PASS atc161981d6. Shared-puncture
+weave_puncture_operator_2026_10_08/FINDINGS.md preserves35 native/33
+reference/11 focused PASS at1f7982071, unchanged source after a preserved
+environment-only launch failure. Sheaf/local/formal grades only; no
+stationary physical chiral SM, full-suite or nonauthor acceptance claim.

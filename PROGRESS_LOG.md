@@ -17430,3 +17430,41 @@ Nonauthor analytic/full-suite/main-bank acceptance owed; inherited four
 governance categories remain, no waiver. Sender relay published on own
 branch; no live delivery/acknowledgment claimed. Report
 reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/FINDINGS.md.
+
+## 2026-10-08 shared-puncture operator benchmark and preserved cyclic result
+
+Owner-approved physics continuation, branch audit/physical-bridge-2026-09-05.
+No new B/I/H/R identifier. Main B1606 and SM W21/W28 known inputs retained;
+new scientific packet sealed/pushed/server-confirmed at1f7982071 before
+execution. First launch lacked SymPy and stopped before mathematics;
+failure hash retained, unchanged source ran under existing Python3.12.1.
+35 native/33 separate rational/log-radius reference/11 focused PASS.
+Seven science files/four source pins and profiles agree at final custody.
+
+Compact sheaf index d-3 follows from canonical parabolic degree and a
+length-d upper modification. Local Green domain classification verified,
+including an index-zero rank3 coefficient choice before extra symmetry.
+This is not a global elliptic domain or physical fermion count. The W21
+one-form triplet survives both metrics. Its conversion into ordinary
+spinors on a complete hyperbolic cusp has divergent kinetic norm and a
+periodic twisted vertical channel; an explicit Weyl sequence establishes
+zero essential spectrum for that massless standard-spin operator.
+No Fredholm index there, not index0, no-kernel or architecture no-go.
+
+The prior silver cyclic result is now preserved, not abandoned:
+56 native/54 separate reference/9 focused and31 regression PASS.
+Regression log111 bytes SHA256
+14308d938c24adac6e700973b190cc19e70ad676227ce26cb391ae4d6feaf9fb;
+actual exit0, elapsed400.1978939999826s. Seven science files/11 pins still
+match original pushed sealc161981d6. Conditional all-order FORMAL gauge
+consistency is positive, not convergence or physical stationarity.
+
+Reports: physical_bridge/weave_puncture_operator_2026_10_08/FINDINGS.md
+and silver_cyclic_transfer_2026_10_06/FINDINGS.md. Ledgers/navigation/
+roadmap updated together. Sender-owned kinetic-scope relay preserved;
+no live receipt or recipient acceptance claimed. Next finite-distance
+global operator proof and form/twisted parent action with full reality,
+gauge/conjugate/weak-doublet spectrum, stationarity and anomaly accounting;
+derive physical cut/twist/response choice. No incompatible splice of
+silver and weave. Full SM/TOE unachieved, trackerusageLimited unchanged;
+inherited governance, nonauthor/full-suite/main-bank debts remain visible.

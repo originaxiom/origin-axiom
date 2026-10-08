@@ -1,0 +1,118 @@
+{
+  "all_order_charged_physical_completion": false,
+  "checks": {
+    "F_SDR": true,
+    "F_cell_chain0": true,
+    "F_cell_chain1": true,
+    "F_cell_cup_on_all_closed": true,
+    "F_cell_invertible": true,
+    "F_cyclic_d": true,
+    "F_cyclic_h": true,
+    "F_cyclic_isotropic": true,
+    "F_cyclic_p": true,
+    "F_dual_SDR": true,
+    "F_higher_gauge_leaf_contraction": true,
+    "F_nonvacuous_sign_control": true,
+    "N_SDR": true,
+    "N_cell_chain0": true,
+    "N_cell_chain1": true,
+    "N_cell_cup_on_all_closed": true,
+    "N_cell_invertible": true,
+    "N_cyclic_d": true,
+    "N_cyclic_h": true,
+    "N_cyclic_isotropic": true,
+    "N_cyclic_p": true,
+    "N_higher_gauge_leaf_contraction": true,
+    "N_nonvacuous_sign_control": true,
+    "W_SDR": true,
+    "W_cell_chain0": true,
+    "W_cell_chain1": true,
+    "W_cell_cup_on_all_closed": true,
+    "W_cell_invertible": true,
+    "W_cyclic_d": true,
+    "W_cyclic_h": true,
+    "W_cyclic_isotropic": true,
+    "W_cyclic_p": true,
+    "W_dual_SDR": true,
+    "W_higher_gauge_leaf_contraction": true,
+    "W_nonvacuous_sign_control": true,
+    "all24_gauge_generators_have_nonzero_5_and_10_actions": true,
+    "compact_gauge_binary_action_not_deleted": true,
+    "complete_bounded_tree_instrument": true,
+    "cusp_log_directions_not_principal_singleton": true,
+    "full248_roster_and_harmonic_Lagrangian_dimension": true,
+    "gauge_SDR": true,
+    "gauge_cyclic_d": true,
+    "gauge_cyclic_h": true,
+    "gauge_cyclic_isotropic": true,
+    "gauge_cyclic_p": true,
+    "gauge_higher_gauge_leaf_contraction": true,
+    "gauge_nonvacuous_sign_control": true,
+    "induced_exterior_and_neutral_logs_are_actual_holonomies": true,
+    "literal_relators_and_peripheral_split": true,
+    "neutral_invariant_trace": true,
+    "neutral_positive_induced_metric": true,
+    "two_unipotent_logs": true,
+    "wrong_dual_metric_not_cyclic": true,
+    "wrong_dual_metric_still_SDR": true
+  },
+  "failed": [],
+  "genesis_boundary_selected": false,
+  "non_author_acceptance": false,
+  "passed": 54,
+  "physical_action_stationary": false,
+  "physical_goal_achieved": false,
+  "profile": {
+    "Ah_dimensions": [
+      24,
+      100,
+      76
+    ],
+    "boundary_betti": {
+      "F": [
+        3,
+        6,
+        3
+      ],
+      "Fdual": [
+        3,
+        6,
+        3
+      ],
+      "N": [
+        6,
+        12,
+        6
+      ],
+      "W": [
+        2,
+        4,
+        2
+      ],
+      "Wdual": [
+        2,
+        4,
+        2
+      ],
+      "gauge": [
+        1,
+        2,
+        1
+      ]
+    },
+    "cusp_log_span": 2,
+    "full_H": [
+      100,
+      200,
+      100
+    ],
+    "full_coefficient_dimension": 248,
+    "gauge_basis_count": 24,
+    "tree_leaf_cases": {
+      "harmonic": 700,
+      "internal_propagator": 444,
+      "root_propagator": 128
+    },
+    "tree_positions": 1272
+  }
+}
