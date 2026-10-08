@@ -1,0 +1,258 @@
+{
+ "thread": "b++LLLLLLR",
+ "deck": "D4",
+ "bits": 400,
+ "dps": 70,
+ "tolerance": "1.0e-35",
+ "base_residual": "2.72e-70",
+ "covers": [
+  {
+   "generators": 9,
+   "relators": 8,
+   "max_relator_length": 11,
+   "cusps": 2,
+   "cusp_orbit_sizes": [
+    4,
+    4
+   ],
+   "b1": 2,
+   "four_residual": "2.11e-59",
+   "members": [
+    {
+     "nu": [
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "h1": 4,
+     "r1": 2,
+     "n": 2,
+     "t0": [
+      1,
+      1
+     ],
+     "chi": 0,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true
+       ],
+       "I_W1": -1,
+       "I_L2W1": -2
+      },
+      {
+       "dead_on_cusps": [
+        true,
+        true
+       ],
+       "I_W1": -1,
+       "I_L2W1": -2
+      }
+     ]
+    }
+   ],
+   "chi_fails": 0,
+   "sign_characters": 32,
+   "chi_checked": "every character",
+   "member_count": 1,
+   "structures": [
+    [
+     4,
+     2,
+     2
+    ]
+   ],
+   "kinds": [
+    [
+     -1,
+     -2
+    ]
+   ]
+  },
+  {
+   "generators": 9,
+   "relators": 8,
+   "max_relator_length": 12,
+   "cusps": 4,
+   "cusp_orbit_sizes": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "b1": 4,
+   "four_residual": "4.23e-61",
+   "members": [
+    {
+     "nu": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "h1": 6,
+     "r1": 4,
+     "n": 2,
+     "t0": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "chi": 0,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "I_W1": -1,
+       "I_L2W1": -2
+      },
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "I_W1": -1,
+       "I_L2W1": -2
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1
+     ],
+     "h1": 2,
+     "r1": 0,
+     "n": 2,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "chi": 0,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "I_W1": -1,
+       "I_L2W1": -1
+      },
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "I_W1": -1,
+       "I_L2W1": -1
+      }
+     ]
+    },
+    {
+     "nu": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     "h1": 2,
+     "r1": 0,
+     "n": 2,
+     "t0": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "chi": 0,
+     "readings": [
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "I_W1": -1,
+       "I_L2W1": -1
+      },
+      {
+       "dead_on_cusps": [
+        true,
+        true,
+        true,
+        true
+       ],
+       "I_W1": -1,
+       "I_L2W1": -1
+      }
+     ]
+    }
+   ],
+   "chi_fails": 0,
+   "sign_characters": 16,
+   "chi_checked": "every character",
+   "member_count": 3,
+   "structures": [
+    [
+     2,
+     0,
+     2
+    ],
+    [
+     6,
+     4,
+     2
+    ]
+   ],
+   "kinds": [
+    [
+     -1,
+     -2
+    ],
+    [
+     -1,
+     -1
+    ]
+   ]
+  }
+ ],
+ "s": 685.9
+}

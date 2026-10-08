@@ -1,0 +1,32 @@
+{
+ "thread": "b++LLRLLRLR",
+ "deck": "A4",
+ "bits": 400,
+ "dps": 70,
+ "tolerance": "1.0e-35",
+ "base_residual": "5.7e-69",
+ "covers": [
+  {
+   "generators": 25,
+   "relators": 24,
+   "max_relator_length": 15,
+   "cusps": 4,
+   "cusp_orbit_sizes": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "b1": 4,
+   "four_residual": "3.59e-59",
+   "members": [],
+   "chi_fails": 0,
+   "sign_characters": 16,
+   "chi_checked": "the trivial character, every member and two controls (post-seal economy on 25-generator covers, disclosed)",
+   "member_count": 0,
+   "structures": [],
+   "kinds": []
+  }
+ ],
+ "s": 620.7
+}

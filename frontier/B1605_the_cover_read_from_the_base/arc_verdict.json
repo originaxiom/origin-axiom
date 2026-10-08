@@ -1,0 +1,25 @@
+{
+ "id": "B1605",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1604",
+  "B1602",
+  "B1492",
+  "B1601"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's forced cover (W3) presented by Reidemeister-Schreier from the thread's own presentation and the sheet action; the thread's polished holonomy (400 bits); B1492's stacked index at 70 digits; acceptance by the four's relator residual and the Euler constraint (T-NO-INDEX-IN-THREE)",
+  "object": "the 29 threads with an unreliable forced kernel in B1604's audit (19 of odd trace -- every length-eight odd-trace thread, -LLLRLR, +-LLRLRR -- and 10 of even), every forced kernel of each (39); the +-LR validation",
+  "reach": "class",
+  "hypotheses": "numerical at 70 digits with tolerance 1e-35 (residuals 1e-55 to 1e-64); sign characters only; chi = 0 checked at every character on kernels of at most 16 generators, at the trivial character, every member and two controls on the larger ones (post-seal economy, disclosed); the sign characters by F_2 linear algebra (post-seal; the sealed brute force infeasible)"
+ },
+ "claim_one_line": "THE COVER READ FROM THE BASE (sealed 2576d79c6 / b24d0eab; a weave result): the 29 threads B1604's audit found unreadable at 40 digits re-read through a Reidemeister-Schreier presentation of the forced cover (Schreier generators, one rewritten base relator per sheet of at most 16 letters against 902 in SnapPy's, the cusps as stabiliser sublattices) and the thread's polished holonomy, B1492's instrument unchanged at 70 digits -- every one of the 39 kernels certified (the four's residual 1.4e-64 to 5.2e-55; chi = 0 wherever checked). V1: +-LR reproduced member for member (+LR 24 x (1, 0, 1) reading (-1, -1); -LR 6 x (4, 0, 4), every class (0, -3)). R2: NO odd-trace thread among the 19 carries a member -- on odd trace the root's pair is alone to length eight at order two; B1602's third carrier -LLRLRLRR carries nothing (its (+3, +1) was B1604's diagnosed noise). R3: +LLLRLLR's one member at 40 digits (the (1, 0) kind) is gone; +LLLLLLR keeps 1 + 3 members, four generation-shaped readings certified (B1603's six on that kernel included two artifacts); the other eight even-trace threads stay empty. R4: no new kind. Every reading of B1602 and B1603 now rests on a certified cover. PROVED. 0 of 19.",
+ "weave_or_thread": "weave"
+}

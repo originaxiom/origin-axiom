@@ -1,0 +1,78 @@
+{
+ "calibration": {
+  "tau": [
+   0.3,
+   1.1
+  ],
+  "i*(dz u dz-bar)(F)": [
+   4.4,
+   0.0
+  ],
+  "2 Im tau": 2.2,
+  "sign": 1
+ },
+ "annihilates_coboundaries": true,
+ "hermitian": true,
+ "eigenvalues": [
+  -4.0,
+  -4.0,
+  -4.0,
+  4.0,
+  4.0,
+  4.0
+ ],
+ "signature": [
+  3,
+  3
+ ],
+ "invariance": {
+  "L": {
+   "invariant": true,
+   "reversed": false
+  },
+  "R": {
+   "invariant": true,
+   "reversed": false
+  },
+  "sign": {
+   "invariant": true,
+   "reversed": false
+  },
+  "swap": {
+   "invariant": false,
+   "reversed": true
+  }
+ },
+ "pieces": [
+  {
+   "dim": 3,
+   "H_eigenvalues": [
+    4.0,
+    4.0,
+    4.0
+   ],
+   "chi_L": [
+    0.707107,
+    -0.707107
+   ],
+   "chi_L_turns": 0.875,
+   "definite": "positive"
+  },
+  {
+   "dim": 3,
+   "H_eigenvalues": [
+    -4.0,
+    -4.0,
+    -4.0
+   ],
+   "chi_L": [
+    0.707107,
+    0.707107
+   ],
+   "chi_L_turns": 0.125,
+   "definite": "negative"
+  }
+ ],
+ "T_positive_T_bar_negative": true,
+ "holomorphic_triplet_chi_L_turns": 0.875
+}

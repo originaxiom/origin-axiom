@@ -1,0 +1,48 @@
+{
+ "population": 29,
+ "odd": 19,
+ "even": 10,
+ "kernels": 39,
+ "V1_pm_LR_reproduced": true,
+ "R1_all_accepted": true,
+ "max_residual": 5.21e-55,
+ "R2_no_odd_carrier": true,
+ "R3_even_status_changes": {
+  "b+-LLRLRLRR": [
+   [
+    1
+   ],
+   [
+    0
+   ]
+  ],
+  "b++LLLRLLR": [
+   [
+    1,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ },
+ "R4_kinds": [
+  [
+   -1,
+   -2
+  ],
+  [
+   -1,
+   -1
+  ]
+ ],
+ "even_carriers": [
+  "b++LLLLLLR"
+ ],
+ "readings_on_population": 8,
+ "generation_shaped_on_population": 4,
+ "chi_checked_every_character_on": 2,
+ "chi_sampled_on": 37,
+ "seconds_total": 41338.1
+}

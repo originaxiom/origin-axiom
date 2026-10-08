@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1333** |
-| words of findings prose | **1,040,461** |
-| test lock files referenced | **778** |
-| arcs carrying an authored verdict | **1333** (100.0 %) |
+| research arcs with findings | **1334** |
+| words of findings prose | **1,041,568** |
+| test lock files referenced | **779** |
+| arcs carrying an authored verdict | **1334** (100.0 %) |
 | recorded closures | **810** (643 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 897 |
+| PROVED | 898 |
 | NEGATIVE | 334 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1604`** (1321 words, 1 locks)  
-THE CLASS INDEX IS NOT AN INDEX (sealed 12631d402 / faed67d2; T-NO-INDEX-IN-THREE): on a cusped 3-manifold or any finite cover every twisted Euler characteristic vanishes, so no count of flat-module cohomology there carries the physical index's shape identity n_5bar = n_10; by duality h^2(E) = n(E*) + sum t0(E*) - h^0(E*), so the stacked instrument's numbers must satisfy a0 - a1 + n(E*) + sum t0(E*) - a0(E*) = 0 at every module, and the class index is the interior rank in degree one minus that in degree two, governed by no characteristic class (B1603's kinds). Corollary: FK11 cannot be earned by any index on a thread or a cover; a generation count needs an even-dimensional object with a non-flat bundle, or a generation is a sector selected by a character (a selection). GENESIS v1.27. The control: chi = 0 at 196 modules on six clean covers -- and NOT on -LLRLRLRR's, where the four's relator residual at 40 digits is 6e2 (relators of 720-902 letters): the instrument's ranks there are noise. The audit it forced, over all 148 forced kernels: 89 reliable, 28 marginal, 31 unreliable (every length-eight odd-trace cover among them). Consequences written on the arcs: B1602's third carrier WITHDRAWN (T2 undetermined at 40 digits, not failed); B1603's kinds (1, 0), (3, 1) withdrawn -- on reliable covers 116 generation-shaped readings and six kinds; B1492 carries the instrument's validity condition (the four's residual far below the rank tolerance; check chi = 0). 0 of 19.  
-`B1604_the_class_index_is_not_an_index/FINDINGS.md`
+**PROVED — `B1605`** (1107 words, 1 locks)  
+THE COVER READ FROM THE BASE (sealed 2576d79c6 / b24d0eab; a weave result): the 29 threads B1604's audit found unreadable at 40 digits re-read through a Reidemeister-Schreier presentation of the forced cover (Schreier generators, one rewritten base relator per sheet of at most 16 letters against 902 in SnapPy's, the cusps as stabiliser sublattices) and the thread's polished holonomy, B1492's instrument unchanged at 70 digits -- every one of the 39 kernels certified (the four's residual 1.4e-64 to 5.2e-55; chi = 0 wherever checked). V1: +-LR reproduced member for member (+LR 24 x (1, 0, 1) reading (-1, -1); -LR 6 x (4, 0, 4), every class (0, -3)). R2: NO odd-trace thread among the 19 carries a member -- on odd trace the root's pair is alone to length eight at order two; B1602's third carrier -LLRLRLRR carries nothing (its (+3, +1) was B1604's diagnosed noise). R3: +LLLRLLR's one member at 40 digits (the (1, 0) kind) is gone; +LLLLLLR keeps 1 + 3 members, four generation-shaped readings certified (B1603's six on that kernel included two artifacts); the other eight even-trace threads stay empty. R4: no new kind. Every reading of B1602 and B1603 now rests on a certified cover. PROVED. 0 of 19.  
+`B1605_the_cover_read_from_the_base/FINDINGS.md`
 
 **NEGATIVE — `B1603`** (863 words, 1 locks)  
 THE COUNT AT EVERY MEMBER (sealed 5d2787345 / f7723803; a weave result by inheritance): the SM seat's dictionary read at all 442 interior classes of the 242 members on the 20 carrier threads of B1602's census. The seat's floor and ceiling hold on every reading (442 of 442). +LR's 24 members all read (-1, -1) dead on every cusp (C1), -LR's 24 classes all (0, -3) (C2). The generation shape is NOT the root's: 122 readings are generation-shaped, 98 of them on ten even-trace threads -- +-LLR 12 each, +-LLLLR 12 each, +-LLRR 12 each, +LLLLLLR 6, -LLLLLLR 4, -LLLLRR 8, +LLLLLLRR 8 -- threads the seat's odd-trace census never read, two of them (+-LLR, +-LLLLR) not arithmetic (C3 fails). Eight kinds across the census: (-1, -2) 150, (-1, -1) 122, (0, -1) 64, (0, -2) 48, (2, -2) 32, (0, -3) 24, (1, 0) 1, (3, 1) 1 (C5 fails). Only (-1, -1) has the rank-five index's shape n_5bar = n_10; the zoo says the class index on a 3-manifold is an analogue of the physical index, not an index -- the dictionary's earning condition (the shape identity) is the open instrument question. NEGATIVE as sealed (the root's exclusivity of the generation shape dies on the weave's even-trace covers). No three. 0 of 19. CORRECTED at S84 (B1604): the kinds (1, 0) and (3, 1) and +LLLLLLR's six are on covers the audit finds unreliable at 40 digits and are withdrawn; on reliable covers 116 generation-shaped readings and six kinds; the verdict and C3's failure stand.  

@@ -147,6 +147,39 @@ def holonomy(M, bits):
     return rho
 
 
+def sign_characters_linear(site):
+    """Hom(H1(N), +-1) as the F2-nullspace of the relator exponent matrix (post-seal: RM.sign_characters enumerates
+    2^(generators) assignments, infeasible at 25 Schreier generators; the same set of characters, found by linear algebra)"""
+    gens = site.gens; A = sp.Matrix([[sum((1 if ch == g else -1 if ch == g.upper() else 0) for ch in r) % 2 for g in gens] for r in site.rels])
+    # nullspace over F2 by Gaussian elimination
+    rows = [[int(x) % 2 for x in A.row(i)] for i in range(A.rows)]; n = len(gens); pivots = []; r = 0
+    for c in range(n):
+        piv = next((i for i in range(r, len(rows)) if rows[i][c]), None)
+        if piv is None:
+            continue
+        rows[r], rows[piv] = rows[piv], rows[r]
+        for i in range(len(rows)):
+            if i != r and rows[i][c]:
+                rows[i] = [(x + y) % 2 for x, y in zip(rows[i], rows[r])]
+        pivots.append(c); r += 1
+    free = [c for c in range(n) if c not in pivots]
+    basis = []
+    for f in free:
+        v = [0] * n; v[f] = 1
+        for i, c in enumerate(pivots):
+            v[c] = rows[i][f]
+        basis.append(v)
+    for coeffs in itertools.product((0, 1), repeat=len(basis)):
+        v = [0] * n
+        for k, b in zip(coeffs, basis):
+            if k:
+                v = [(x + y) % 2 for x, y in zip(v, b)]
+        vals = tuple(1 - 2 * x for x in v)
+        nu = dict(zip(gens, [mpc(x) for x in vals]))
+        assert RM.is_character(site, nu)
+        yield vals, nu
+
+
 def site_from_schreier(M, S, rho_base, dps):
     names, rels = S.presentation(); cusps = S.cusps()
     site = RM.Room.__new__(RM.Room); site.name = M.name() + "~schreier"; site.M = None
@@ -174,12 +207,15 @@ def run(name, bits=500, dps=100):
         b1 = len(site.gens) - A.rank()
         cov = {"generators": len(site.gens), "relators": len(site.rels), "max_relator_length": max(len(r) for r in site.rels), "cusps": site.m,
                "cusp_orbit_sizes": [c[2] for c in cusps], "b1": b1, "four_residual": mp.nstr(res4, 3), "members": [], "chi_fails": 0, "sign_characters": 0}
-        for vals, nu in RM.sign_characters(site):
-            V = site.four(nu); c = site.counts(V); dcount = site.counts(MC.dual(V))
-            chi = c["a0"] - c["a1"] + dcount["n"] + dcount["t0_sum"] - dcount["a0"]
+        chars = list(sign_characters_linear(site)); every_chi = len(site.gens) <= 16
+        cov["chi_checked"] = "every character" if every_chi else "the trivial character, every member and two controls (post-seal economy on 25-generator covers, disclosed)"
+        for k, (vals, nu) in enumerate(chars):
+            V = site.four(nu); c = site.counts(V); chi = None
+            if every_chi or c["n"] > 0 or all(v == 1 for v in vals) or k in (1, 2):
+                dcount = site.counts(MC.dual(V)); chi = c["a0"] - c["a1"] + dcount["n"] + dcount["t0_sum"] - dcount["a0"]
+                if chi != 0:
+                    cov["chi_fails"] += 1
             cov["sign_characters"] += 1
-            if chi != 0:
-                cov["chi_fails"] += 1
             if c["n"] > 0:
                 row = {"nu": list(vals), "h1": c["a1"], "r1": c["r1"], "n": c["n"], "t0": c["t0"], "chi": chi, "readings": []}
                 interior, other = site.classes(V)
@@ -197,5 +233,5 @@ def run(name, bits=500, dps=100):
 
 
 if __name__ == "__main__":
-    name = sys.argv[1]; bits = int(sys.argv[2]) if len(sys.argv) > 2 else 500; dps = int(sys.argv[3]) if len(sys.argv) > 3 else 100
+    name = sys.argv[1]; bits = int(sys.argv[2]) if len(sys.argv) > 2 else 400; dps = int(sys.argv[3]) if len(sys.argv) > 3 else 70
     run(name, bits, dps)

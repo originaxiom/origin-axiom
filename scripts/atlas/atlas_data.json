@@ -10889,6 +10889,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1605": {
+   "slug": "the cover read from the base",
+   "motifs": [
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "V1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B160": {
    "slug": "quasicrystal bridge corroboration",
    "motifs": [
