@@ -1,5 +1,14 @@
 # THE RETRACTED-PHRASE REGISTRY
 
+**Scope clarification, October8 physical bridge:** do not read the
+weave_sm_parallel bounded parallel classification as a classification of
+all stationary backgrounds. Its equations impose ZERO F/D residuals.
+weave_magnetic_stationarity_2026_10_08/PROOF.md supplies a nonzero-D
+stationary family, then a scoped physical instability. Reader fronts,
+LAW_MAP, OPEN_LEADS, roadmap and original FINDINGS carry the qualifier;
+frozen proofs and historical transcripts remain unchanged. Neither this
+clarification nor the new saddle calculation is an all-non-BPS exclusion.
+
 **Scope correction, 2026-09-06 (B1084 addendum / fetched B1259 audit):** retire
 the inference from a positive-dimensional fixed space for every element
 to a positive-dimensional common fixed space for every subgroup. The exact

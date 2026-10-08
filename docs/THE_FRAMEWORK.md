@@ -1,5 +1,27 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October8 magnetic-stationarity research checkpoint:31 native/19 separate
+reference/12 focused and164 ten-packet regression PASS unchanged at pushed
+pre-run c42c3b5b0. Same supplied curved E8 action admits a GLOBAL non-BPS
+stationary SM-gauge family A_n=s(w+2nZ), without an extra Wilson angle.
+For every nonzero integer n this specific family is a SADDLE: at least
+30|n| complex globally admitted negative directions, quadratic ratio
+-5|n| in supplied curvature units. NOT a full Morse index or particle count.
+Report: reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/FINDINGS.md.
+Scope correction: the previous parallel classification assumes ZERO F/D
+residuals, not all stationary configurations. Its bounded index result
+stands; no non-BPS or whole-architecture exclusion follows. One changed
+fermion end block here is NOT a full charged index or chiral spectrum.
+NEXT test an available neutral spin-Higgs deformation in the SAME action;
+NEXT_TEST is HAND/UNEXECUTED, with full mixed-Hessian and end-spectrum
+duties. Source/boundary and silver alternatives remain distinct/preserved.
+Initial intake: B1612 at80f48eeb4 and SM W34 prereg1915fe928. Post-run
+main c04b1acb2 B1613/B1614 preregs and SM eb4e97801 W34/W35 reports read,
+not replayed; see INTAKE_AFTER_RUN for the original/post-hoc distinction.
+Full SM/TOE ACTIVE/unachieved; independent analytic/full-suite/main-bank
+acceptance and inherited governance debts remain. Older NEXT entries
+below are historical; no shared B/I identifiers allocated.
+
 October8 SM-parallel research checkpoint:45 native/24 separate reference/
 23 focused and152 nine-packet regression PASS unchanged at pushed pre-run
 1f37a33d3. ONE supplied curved E8 action now admits a GLOBAL stationary
@@ -7,7 +29,7 @@ SM-gauge phase with positive norms, retained interactions and full fermion
 essential gap1/2 in supplied units. Connected group S(U3 x U2); weak
 embedding/Wilson choice remain supplied. Actual zero-mode counts uncomputed.
 Report: reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/FINDINGS.md.
-Authored fixed-embedding/old-p/complete-domain PARALLEL classification gives
+Authored fixed-embedding/old-p/complete-domain ZERO-RESIDUAL parallel classification gives
 zero complex charged index; outside analytic acceptance remains owed.
 Generic Y holonomy breaks the literal dual map, but compact-support
 Fredholm homotopy preserves index. Smooth compact-core-only deformations

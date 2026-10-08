@@ -266,3 +266,18 @@ No shared I-number or existing physical status is reassigned.
 Report: reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/FINDINGS.md.
 Locks: tests/test_physical_bridge_weave_sm_parallel.py. Outside analytic
 acceptance and the genesis-to-physical-parent map remain owed.
+
+### Magnetic stationary phase October 8 path-local supplement
+
+No shared I-number, empirical charge normalization or physical status
+is reassigned. Report: reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_magnetic_stationarity.py.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Same spin line / magnetic E8 connection | Cocharacter w+2nZ, integer n, Z=T/2 | Every root has integral Z charge; added even spin power preserves p; full stationary variation with parallel nonzero moment | Conditional supplied-action configuration, NOT genesis-selected flux or metric/gravity solution |
+| Magnetic Higgs commutant / SM connected group | Faithful prior SU5_g restricted by diag(-2,-2,-2,3,3) curvature | Full A4 root roster, eight surviving roots/four Cartans, zero-flux SU5 control | Same global S(U3 x U2) form; supplied weak frame, no chosen extra Wilson angle |
+| Holomorphic sections / physical unstable variations | Hermitian Hodge map into K^-k valued (0,1) connection forms | Divergence and linear curvature vanish; charged pure gauge control, exact quadratic curvature, explicit global pole basis, graph/L4 admission | At least30|n| complex negative directions, not generations or full Morse index; global proof authored |
+| One fermion end block / charged spectrum | Only drift1/2+nq and its conjugate checked | Thresholds121/4 and81/4 at first flux | Full four-slot Weyl map and index NOT established; no chiral identification |
+
+Outside analytic acceptance and complete physical selection remain owed.

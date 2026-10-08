@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-10-08 magnetic stationary phase and physical instability
+
+October8 magnetic-stationarity research checkpoint:31 native/19 separate
+reference/12 focused and164 ten-packet regression PASS unchanged at pushed
+pre-run c42c3b5b0. Same supplied curved E8 action admits a GLOBAL non-BPS
+stationary SM-gauge family A_n=s(w+2nZ), without an extra Wilson angle.
+For every nonzero integer n this specific family is a SADDLE: at least
+30|n| complex globally admitted negative directions, quadratic ratio
+-5|n| in supplied curvature units. NOT a full Morse index or particle count.
+Report: reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/FINDINGS.md.
+Scope correction: the previous parallel classification assumes ZERO F/D
+residuals, not all stationary configurations. Its bounded index result
+stands; no non-BPS or whole-architecture exclusion follows. One changed
+fermion end block here is NOT a full charged index or chiral spectrum.
+NEXT test an available neutral spin-Higgs deformation in the SAME action;
+NEXT_TEST is HAND/UNEXECUTED, with full mixed-Hessian and end-spectrum
+duties. Source/boundary and silver alternatives remain distinct/preserved.
+Initial intake: B1612 at80f48eeb4 and SM W34 prereg1915fe928. Post-run
+main c04b1acb2 B1613/B1614 preregs and SM eb4e97801 W34/W35 reports read,
+not replayed; see INTAKE_AFTER_RUN for the original/post-hoc distinction.
+Full SM/TOE ACTIVE/unachieved; independent analytic/full-suite/main-bank
+acceptance and inherited governance debts remain. Older NEXT entries
+below are historical; no shared B/I identifiers allocated.
+
 ## 2026-10-08 stationary SM gauge phase and bounded charged index
 
 October8 SM-parallel research checkpoint:45 native/24 separate reference/

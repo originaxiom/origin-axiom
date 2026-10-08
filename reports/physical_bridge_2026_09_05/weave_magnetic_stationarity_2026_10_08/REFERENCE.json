@@ -1,0 +1,114 @@
+{
+  "analytic_domain_independently_accepted": false,
+  "physical_goal_achieved": false,
+  "predicates": {
+    "SM_vs_SU5_and_six_broken_roots": true,
+    "abstract_full248_with_both_conjugates": true,
+    "actual_quadratic_curvature": true,
+    "all_signed_quadratics": true,
+    "both_flux_signs_same_lower_bound": true,
+    "cocharacter_pairing_has_primitive_charge": true,
+    "even_spin_power_independent": true,
+    "fermion_drift_not_a_count": true,
+    "k5_basis": true,
+    "kinetic_mass_ratio": true,
+    "principal_ladder_and_moment_cancellation": true,
+    "quartic_is_positive": true,
+    "radial_integrability_and_bad_endpoint": true,
+    "root_plane_bracket": true,
+    "sections_have_distinct_allowed_poles": true,
+    "trace_norm_and_charge_profile": true,
+    "worst_allowed_mode_decays_and_is_L4": true,
+    "wrong_amplitude_has_nonzero_matter_gradient": true,
+    "wrong_charge_stabilizing_control": true
+  },
+  "predicates_passed": 19,
+  "root_profile": {
+    "SM_roots": 8,
+    "adjoint_trace_Z2": 1800,
+    "bundle_roots": 20,
+    "charges": {
+      "-1": 30,
+      "-2": 30,
+      "-3": 20,
+      "-4": 15,
+      "-5": 6,
+      "-6": 5,
+      "0": 36,
+      "1": 30,
+      "2": 30,
+      "3": 20,
+      "4": 15,
+      "5": 6,
+      "6": 5
+    },
+    "gauge_roots": 20,
+    "norm_Z2": 30,
+    "unstable_root_multiplicity_per_sign": 6
+  },
+  "sample_profile": [
+    {
+      "conjugate_threshold": "841/4",
+      "k": 15,
+      "mass2": -15,
+      "n": -3,
+      "negative_complex_lower_bound": 90,
+      "q": -5,
+      "threshold": "961/4"
+    },
+    {
+      "conjugate_threshold": "361/4",
+      "k": 10,
+      "mass2": -10,
+      "n": -2,
+      "negative_complex_lower_bound": 60,
+      "q": -5,
+      "threshold": "441/4"
+    },
+    {
+      "conjugate_threshold": "81/4",
+      "k": 5,
+      "mass2": -5,
+      "n": -1,
+      "negative_complex_lower_bound": 30,
+      "q": -5,
+      "threshold": "121/4"
+    },
+    {
+      "conjugate_threshold": "1/4",
+      "k": 0,
+      "mass2": 0,
+      "n": 0,
+      "negative_complex_lower_bound": 0,
+      "q": 5,
+      "threshold": "1/4"
+    },
+    {
+      "conjugate_threshold": "81/4",
+      "k": 5,
+      "mass2": -5,
+      "n": 1,
+      "negative_complex_lower_bound": 30,
+      "q": 5,
+      "threshold": "121/4"
+    },
+    {
+      "conjugate_threshold": "361/4",
+      "k": 10,
+      "mass2": -10,
+      "n": 2,
+      "negative_complex_lower_bound": 60,
+      "q": 5,
+      "threshold": "441/4"
+    },
+    {
+      "conjugate_threshold": "841/4",
+      "k": 15,
+      "mass2": -15,
+      "n": 3,
+      "negative_complex_lower_bound": 90,
+      "q": 5,
+      "threshold": "961/4"
+    }
+  ]
+}

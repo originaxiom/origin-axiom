@@ -17730,3 +17730,37 @@ Silver's different-parent formal/spectral result remains intact.
 Mainf008c0424 B1612 read as preregistration, SMbc4ea1303 W33 not replayed.
 Nonauthor analytic/full-suite/main-bank and inherited governance debts
 remain. Full parameter-free SM/TOE ACTIVE and unachieved.
+
+## 2026-10-08 magnetic stationarity and a complete-domain instability
+
+October8 magnetic-stationarity research checkpoint:31 native/19 separate
+reference/12 focused and164 ten-packet regression PASS unchanged at pushed
+pre-run c42c3b5b0. Same supplied curved E8 action admits a GLOBAL non-BPS
+stationary SM-gauge family A_n=s(w+2nZ), without an extra Wilson angle.
+For every nonzero integer n this specific family is a SADDLE: at least
+30|n| complex globally admitted negative directions, quadratic ratio
+-5|n| in supplied curvature units. NOT a full Morse index or particle count.
+Report: reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/FINDINGS.md.
+Scope correction: the previous parallel classification assumes ZERO F/D
+residuals, not all stationary configurations. Its bounded index result
+stands; no non-BPS or whole-architecture exclusion follows. One changed
+fermion end block here is NOT a full charged index or chiral spectrum.
+NEXT test an available neutral spin-Higgs deformation in the SAME action;
+NEXT_TEST is HAND/UNEXECUTED, with full mixed-Hessian and end-spectrum
+duties. Source/boundary and silver alternatives remain distinct/preserved.
+Initial intake: B1612 at80f48eeb4 and SM W34 prereg1915fe928. Post-run
+main c04b1acb2 B1613/B1614 preregs and SM eb4e97801 W34/W35 reports read,
+not replayed; see INTAKE_AFTER_RUN for the original/post-hoc distinction.
+Full SM/TOE ACTIVE/unachieved; independent analytic/full-suite/main-bank
+acceptance and inherited governance debts remain. Older NEXT entries
+below are historical; no shared B/I identifiers allocated.
+
+All seven science/three pinned-and-working dependencies unchanged.
+First native1.331478s, reference0.064423s, focused pytest1.98s and
+regression29.60s; literal exit codes and hashes in RECEIPTS.json.
+No scientific failure/source repair. Full first variation uses a parallel
+nonzero moment; the physical quadratic sign retains quadratic curvature.
+Explicit Weierstrass sections and Hermitian Hodge map earn global L2,
+graph and quartic admission, including the logarithmic endpoint control.
+The new neutral-spin-field follow-up is post-run reasoning, not execution
+or evidence of stability. No chirality or foundational selection claimed.

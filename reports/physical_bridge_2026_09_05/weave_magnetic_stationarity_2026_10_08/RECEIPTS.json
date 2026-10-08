@@ -1,0 +1,64 @@
+{
+  "pre_execution_seal": "c42c3b5b073665e598f79bbb2f0cf9be0165c81c",
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 1.3314779999200255,
+    "log_bytes": 3454,
+    "log_sha256": "d40fb94802ee38d0ef78fcdf17a7881e744546175bc09a6f81e2ba7a47f3215f",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.0644229999743402,
+    "log_bytes": 2661,
+    "log_sha256": "75530bbe9d93aee103448b6ccf3f085f40cbc0b8b3e963fc61c595cc5d13747f",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 2.664064000127837,
+    "log_bytes": 99,
+    "log_sha256": "4d6c083db2365efe4880d85717ae4e2f5c1f90af6d9bdbd7d84c95312b9fef54",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_magnetic_stationarity.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "elapsed_seconds": 30.415171999949962,
+    "bytes": 261,
+    "sha256": "f44ff7de4611e758832f62bdaf589f85317d0430ad3406c06ddead87b5132af7",
+    "output": "........................................................................ [ 43%]\n........................................................................ [ 87%]\n....................                                                     [100%]\n164 passed in 29.60s\n"
+  },
+  "regression_tests": [
+    "tests/test_physical_bridge_weave_puncture_operator.py",
+    "tests/test_physical_bridge_weave_form_parent.py",
+    "tests/test_physical_bridge_weave_companion_roster.py",
+    "tests/test_physical_bridge_weave_curved_action.py",
+    "tests/test_physical_bridge_weave_cusp_condensate.py",
+    "tests/test_physical_bridge_weave_global_condensate.py",
+    "tests/test_physical_bridge_weave_graded_condensate.py",
+    "tests/test_physical_bridge_weave_two_field_gauge.py",
+    "tests/test_physical_bridge_weave_sm_parallel.py",
+    "tests/test_physical_bridge_weave_magnetic_stationarity.py"
+  ],
+  "first_scientific_attempts": true,
+  "source_repair": false,
+  "full_suite_run": false,
+  "nonauthor_acceptance": false
+}

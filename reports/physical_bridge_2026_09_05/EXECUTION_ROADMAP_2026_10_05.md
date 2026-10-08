@@ -152,7 +152,7 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    ONE supplied action now carries global stationarity, positive norms,
    full fermion gap and connected S(U3 x U2). Exact SM gauge phase,
    not physical chiral matter; embedding/holonomy are still supplied.
-   Authored bounded parallel classification and fixed-domain compact-core
+   Authored bounded ZERO-RESIDUAL parallel classification and compact-core
    index invariance give zero complex charged index. Literal dual map
    fails at generic Y, but Fredholm homotopy retains the index, not
    individual kernels. No exclusion of other ends/bundles/sources/domains.
@@ -162,6 +162,18 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    No more compact-core-only chirality search on this fixed domain.
    Silver formal/spectral positives remain separate and preserved.
    Outside analytic review, full suite and main-bank acceptance owed.
+   Stage2O October8 magnetic gate EXECUTED at conditional research grade:
+   weave_magnetic_stationarity_2026_10_08/FINDINGS.md.31 native/19 reference/
+   12 focused/164 ten-packet regression PASS unchanged at c42c3b5b0.
+   Global stationary nonzero-D SM-gauge family without extra Wilson angle;
+   at least30|n| complex physical negative directions in this exact family.
+   The previous classification was zero-residual, not all stationarity.
+   Old p stays but the actual end operator changes; no full fermion index.
+   NEXT Stage2P: test the existing neutral spin-Higgs field as a same-action
+   stabilizer, with full mixed bosonic Hessian/essential spectrum before
+   a claimed stable phase or charged index. Concrete NEXT_TEST is HAND and
+   UNEXECUTED, not a stabilization result. Source/boundary alternatives
+   remain open in their proper parents. No all-non-BPS or architecture kill.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

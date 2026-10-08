@@ -1,5 +1,24 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 magnetic stationary-family conditional sublemmas. Supplied
+fixed-metric action/embedding/spin/complete domain; not generated physics,
+a new shared B arc or independently accepted main-bank laws.
+PROOF: reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md.
+LIVE locks: tests/test_physical_bridge_weave_magnetic_stationarity.py.
+31 native/19 separate reference/12 focused/164 regression PASS at c42c3b5b0.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Integral hypercharge curvature preserves old p while reducing the Higgs commutant to connected S(U3 x U2) | Primitive Z, full240-root phases, actual gauge A4 and8 surviving roots; test_primitive_cocharacter_and_same_old_peripheral and test_gauge_centralizer_and_zero_flux_control. Same supplied frame, n!=0, no extra Wilson; n=0 restores SU5 |
+| Nonzero parallel moment mu=-nZ is a full stationary point | Invariant-trace/full-variation proof, finite-area cutoff and energy pi*n^2*kappa(Z^2)/g6^2; test_full_stationarity_conditions_and_failure_controls and test_spin_signs_and_trace_normalization. Fixed metric, not zero residual or Einstein/Minkowski solution |
+| Actual charged connection variations have negative quadratic ratio -5abs(n) | Full curvature expansion, positive kinetic normalization and physical gauge quotient; test_actual_quadratic_curvature_and_full_polynomial, test_physical_mass_sign_kinetic_and_opposite_charge, test_harmonic_fluctuation_is_not_pure_gauge. This bare no-extra-Wilson family only |
+| At least30abs(n) complex negative directions are globally admitted | L=K^-k, Hermitian Hodge map, explicit distinct-pole Weierstrass sections, cusp logarithmic endpoint, complete graph closure and finite quartic norm; test_cusp_endpoint_log_and_quartic_not_just_L2 and test_global_basis_lower_bound_on_both_flux_signs. Authored all-n/domain proof, not finite tests certifying completeness or a full Morse/particle count |
+| Same peripheral limit can accompany changed physical end operators | One gauge-root drift1/2+nq and conjugate threshold; test_one_fermion_drift_changes_without_claiming_index. Not graph-compact interior-only change, and NOT full charged index |
+
+The older classification below has its ZERO-RESIDUAL qualifier restored.
+Stable phases, full charged spectrum and the foundational selection map
+remain distinct obligations. NEXT_TEST is post-run HAND/UNEXECUTED.
+
 October8 SM-parallel conditional research sublemmas. Supplied action,
 embedding/metric/spin/domain; NOT generated physics or accepted main-bank
 laws. PROOF: reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/.
@@ -15,7 +34,7 @@ Analytic/general arguments below still require nonauthor review.
 | Full coupled fermion essential square starts at1/4 | Every j<=4 block, 248 singular channels and angular bound6; complete-domain compact-core argument in PROOF. test_complete_operator_blocks_through_spin_four, test_complete_threshold_and_R_populations, test_new_angular_bound_replaces_old_bound. No discrete multiplicity or physical mass prediction |
 | Charged index stays zero through flat Y holonomy | Explicit unitary dual forms at C=0; literal J fails at generic C, compact-support graph-compact homotopy replaces it. test_five_dual_form_and_spin_descent, test_exterior_dual_form_in_actual_ten, test_Wilson_map_failure_and_closed_compact_representative plus PROOF analytic argument. Individual kernels may jump |
 | Smooth compact-core field changes preserve this index class | PROOF fixed metric/bundle/SM blocks/domain, bounded zeroth-order change, local elliptic/Rellich compactness and Fredholm parametrix. Authored analytic corollary, NOT finite-test certified; excludes changed ends, bundles, sources and domains |
-| Fixed-embedding parallel exact-SM isolated phases have zero complex charged index | Full SM centralizer, isotypic projectors, all16 grade compositions, positive Gram-range reduction and actual SU2 flavor symmetry. test_exhaustive_grade_patterns_not_sampling, test_wrong_order_two_class_is_not_old_p, test_nonproportional_pair_is_kept_with_extra_U1, test_edge_commutation_and_moment_equations, test_flavor_rotation_preserves_W_not_just_norms, test_single_type_cases_and_gapless_zero_field_control plus PROOF. Fixed action/old p/parallel ansatz only, no whole-architecture exclusion |
+| Fixed-embedding ZERO-RESIDUAL parallel exact-SM isolated phases have zero complex charged index | Full SM centralizer, isotypic projectors, all16 grade compositions, positive Gram-range reduction and actual SU2 flavor symmetry. test_exhaustive_grade_patterns_not_sampling, test_wrong_order_two_class_is_not_old_p, test_nonproportional_pair_is_kept_with_extra_U1, test_edge_commutation_and_moment_equations, test_flavor_rotation_preserves_W_not_just_norms, test_single_type_cases_and_gapless_zero_field_control plus PROOF. Fixed action/old p/zero-residual parallel ansatz only, no whole-architecture exclusion |
 
 The preceding SM-parallel NEXT_TEST has now been executed in this separately
 sealed packet. New NEXT_TEST is a research plan, not a result.

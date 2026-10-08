@@ -1,5 +1,13 @@
 # A stationary gapped SM gauge phase with zero charged index
 
+Scope clarification, later October8: the bounded parallel classification
+below and in the frozen PROOF assumes ZERO F/D residuals, not merely
+stationarity. A nonzero parallel moment can be stationary; the separately
+sealed weave_magnetic_stationarity_2026_10_08/FINDINGS.md constructs such
+an SM-gauge family and proves its specific instability. This does not
+alter the earlier zero-residual example, its gap or its zero-index proof.
+No frozen science file or output of this packet has been changed.
+
 October 8 research checkpoint. The same supplied curved E8 action now
 admits a global stationary phase with connected gauge group
 S(U3 x U2) = [SU3 x SU2 x U1]/Z6, positive finite kinetic norms and

@@ -1,0 +1,132 @@
+{
+  "facts": {
+    "Hermitian_Hodge_adjoint_identity": true,
+    "L2_allowed_and_log_endpoint_excluded": true,
+    "actual_gauge_bundle_factors": true,
+    "all240_roots_norm2": true,
+    "all_integer_flux_preserves_old_p": true,
+    "both_flux_signs_negative_lower_bound": true,
+    "charged_pure_gauge_changes_curvature": true,
+    "charged_root_is_faithful": true,
+    "even_spin_power_removes_all_signs": true,
+    "exact_SM_root_centralizer": true,
+    "finite_area_energy_coefficient": true,
+    "first_five_global_sections": true,
+    "full_energy_polynomial": true,
+    "global_basis_distinct_poles": true,
+    "harmonic_condition_is_divergence_and_curl": true,
+    "moment_nonzero_parallel_central": true,
+    "nonconstant_central_flux_fails_connection_variation": true,
+    "noninteger_flux_opposite_control": true,
+    "old_spin_cocharacter": true,
+    "one_end_block_really_changes": true,
+    "opposite_charge_and_zero_flux_controls": true,
+    "point_decay_and_quartic_admission_exponents": true,
+    "positive_kinetic_and_negative_mass_ratio": true,
+    "primitive_E8_cocharacter": true,
+    "principal_triple": true,
+    "quadratic_curvature_retained": true,
+    "quartic_positive_not_discarded": true,
+    "spin_derivative_cancels": true,
+    "trace_from_entire_adjoint": true,
+    "wrong_amplitude_fails_matter_variation": true,
+    "zero_flux_restores_SU5": true
+  },
+  "full_Morse_index_computed": false,
+  "full_fermion_index_computed": false,
+  "genesis_selection_derived": false,
+  "global_steps": "Authored proof, not finite enumeration certification",
+  "nonauthor_acceptance": false,
+  "physical_chirality_achieved": false,
+  "physical_goal_achieved": false,
+  "predicates_passed": 31,
+  "root_profile": {
+    "SM_roots": 8,
+    "adjoint_trace_Z2": 1800,
+    "bundle_roots": 20,
+    "charges": {
+      "-1": 30,
+      "-2": 30,
+      "-3": 20,
+      "-4": 15,
+      "-5": 6,
+      "-6": 5,
+      "0": 36,
+      "1": 30,
+      "2": 30,
+      "3": 20,
+      "4": 15,
+      "5": 6,
+      "6": 5
+    },
+    "gauge_roots": 20,
+    "norm_Z2": 30,
+    "unstable_root_multiplicity_per_sign": 6
+  },
+  "sample_profile": [
+    {
+      "conjugate_threshold": "841/4",
+      "k": 15,
+      "mass2": -15,
+      "n": -3,
+      "negative_complex_lower_bound": 90,
+      "q": -5,
+      "threshold": "961/4"
+    },
+    {
+      "conjugate_threshold": "361/4",
+      "k": 10,
+      "mass2": -10,
+      "n": -2,
+      "negative_complex_lower_bound": 60,
+      "q": -5,
+      "threshold": "441/4"
+    },
+    {
+      "conjugate_threshold": "81/4",
+      "k": 5,
+      "mass2": -5,
+      "n": -1,
+      "negative_complex_lower_bound": 30,
+      "q": -5,
+      "threshold": "121/4"
+    },
+    {
+      "conjugate_threshold": "1/4",
+      "k": 0,
+      "mass2": 0,
+      "n": 0,
+      "negative_complex_lower_bound": 0,
+      "q": 5,
+      "threshold": "1/4"
+    },
+    {
+      "conjugate_threshold": "81/4",
+      "k": 5,
+      "mass2": -5,
+      "n": 1,
+      "negative_complex_lower_bound": 30,
+      "q": 5,
+      "threshold": "121/4"
+    },
+    {
+      "conjugate_threshold": "361/4",
+      "k": 10,
+      "mass2": -10,
+      "n": 2,
+      "negative_complex_lower_bound": 60,
+      "q": 5,
+      "threshold": "441/4"
+    },
+    {
+      "conjugate_threshold": "841/4",
+      "k": 15,
+      "mass2": -15,
+      "n": 3,
+      "negative_complex_lower_bound": 90,
+      "q": 5,
+      "threshold": "961/4"
+    }
+  ],
+  "stable_SM_phase_achieved": false
+}

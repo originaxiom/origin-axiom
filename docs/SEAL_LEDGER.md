@@ -2448,3 +2448,13 @@ Commit/push/server confirmation precedes scientific import/run/collection.
 | weave_magnetic_stationarity_2026_10_08/reference.py | 8512b67f4dea3b67ab8d774dfd225f6652aad43657ea57a4526a32e6d2fe690c |
 | weave_magnetic_stationarity_2026_10_08/custody.rb | 2ca228820d82f562918a7899bd5b4ea0569e487d30eafb563274751bb2923e1a |
 | tests/test_physical_bridge_weave_magnetic_stationarity.py | eeba8cb9249e6f8820e749d7d024ffa552fa314cf9245736998ada6986d35ad7 |
+
+Disposition after pushed/server-confirmed c42c3b5b0: first unchanged
+31 native/19 separate reference/12 focused/164 ten-packet regression PASS.
+Seven science/three pinned-and-working dependencies unchanged, no failure
+or repair. Report: weave_magnetic_stationarity_2026_10_08/FINDINGS.md.
+Stationary nonzero-D global SM-gauge family; actual admitted charged
+instability for this bare ansatz. Not full index, stable SM or architecture
+exclusion. Prior parallel classification requires ZERO residuals.
+NEXT_TEST is post-run HAND/UNEXECUTED and outside this seal. Outside
+analytic/full-suite/main-bank and inherited governance duties remain.

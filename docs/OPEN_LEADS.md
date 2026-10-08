@@ -1,5 +1,36 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 magnetic checkpoint:
+reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/FINDINGS.md.
+31 native/19 separate reference/12 focused/164 regression PASS at c42c3b5b0.
+
+- PB-CUSP-MAGNETIC: EXECUTED, conditional global stationary non-BPS
+  SM-gauge family with no extra Wilson. Its physical charged negative
+  directions give a saddle, not a stable phase. Closing scope from the
+  report: "this magnetic, no-extra-Wilson, zero-rhat, principal
+  qhat family in the specified bare action is stationary but unstable
+  for every nonzero integer n." No whole-architecture lead is closed.
+- PB-CUSP-NEUTRAL-STABILIZER: HAND/UNEXECUTED proposal in NEXT_TEST.
+  Test the same parent's neutral spin-Higgs section, actual norms/full
+  stationarity, mixed Hessian and essential spectrum. Adding a positive
+  local mass is NOT sufficient. Supplied amplitude must be priced.
+- PB-CUSP-INDEX-CLASS: same peripheral p does not fix the physical end
+  operator. Recompute the whole Weyl dictionary before any net index;
+  the present single-block threshold is not a spectrum or generation.
+- PB-CUSP-SM-PARALLEL: its older classification assumes ZERO F/D
+  residuals. Its gapped paired positive remains; no inference from it
+  excludes all nonzero-D stationary points.
+- PB-SOURCE-JOIN, PB-CUSP-REVIEW and PB-CUSP-CHARGED remain carried,
+  with their existing positive source/silver constructions preserved.
+  No grafting of a different parent's finite count onto this spectrum.
+- Current branch intake: B1612 at main80f48eeb4 read as a report, not
+  independently replayed or its empirical comparisons adopted. W34
+  at SM1915fe928 is a preregistration, not an executed observer result.
+- Foundation, act/register/lift, phase selection and gravity duties
+  remain. No physical observer/qualia identification or full SM/TOE.
+
+Older NEXT/UNEXECUTED entries below retain their historical epoch.
+
 October8 SM-parallel update:
 reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/FINDINGS.md.
 45 native/24 reference/23 focused/152 regression PASS unchanged at1f37a33d3.
@@ -12,7 +43,8 @@ Earlier NEXT/UNEXECUTED entries below retain their historical epoch.
 - Closing scope, PROOF.md final section: "within this fixed-embedding,
   fixed-action, old-p, complete-domain PARALLEL ansatz, a nonzero isolated
   phase with exact SM gauge algebra has zero complex charged index."
-  Authored general proof awaits outside acceptance. NOT all frames,
+  The quoted ansatz assumes ZERO F/D residuals. Its authored proof awaits
+  outside acceptance. NOT all stationary points, all frames,
   asymptotic profiles, source laws, actions or the whole architecture.
 - PB-CUSP-INDEX-CLASS: smooth compact-core-only changes at fixed metric,
   bundle/SM blocks/domain preserve that index by graph-compact homotopy.

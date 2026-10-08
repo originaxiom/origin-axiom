@@ -1,5 +1,23 @@
 # CC's banking relay read before the next local checkpoint
 
+October8 magnetic research publication, NOT complete main banking:
+preseal c42c3b5b0; seven science/three source pins unchanged.31 native,
+19 separate reference,12 focused and164 ten-packet regression PASS.
+Global stationary nonzero-D SM-gauge family, with actual charged
+instability in this ansatz. No physical chirality or full Morse count.
+The previous parallel classification is explicitly zero-residual; its
+frozen proof and tests are unchanged. Raw outputs/custody, reader fronts,
+scoped sublemmas/identifications/leads, roadmap and sender relay retained.
+No shared B/I allocation, scientific failure or repair. Neutral spin-Higgs
+NEXT_TEST is post-run HAND/UNEXECUTED. Outside analytic/full-suite/main-bank
+acceptance and four inherited governance categories remain outstanding.
+Full parameter-free SM/TOE ACTIVE, not achieved.
+
+First reporting gate additionally caught two LAW_MAP table-format rows;
+unescaped absolute-value bars were replaced by abs(n), with no scientific
+file/output repair. Both first and final gate outputs are preserved.
+Final26 PASS/four inherited FAIL categories; review counter371.
+
 October8 SM-parallel research publication, not complete main banking:
 preseal1f37a33d3, seven science/six source pins unchanged;45 native,
 24 separate reference,23 focused and152 nine-packet regression PASS.
