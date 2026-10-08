@@ -1,5 +1,24 @@
 # Changelog
 
+## The weave's W27: three generations, derived given one stated link
+
+- **The owner's choice** after W26: state the link, write the derivation up, and test it. The rule (W27_RULE.md,
+  6da777ea) was committed first; one run; every test passed as predicted.
+- **The write-up:** `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`.
+  - From the principle, F-MC's typed inputs and one link Λ (the weave's form of FK11), the matter is exactly three
+    chiral 27s of E₆.
+  - They are alike and in the weave's complex flavor triplet, each containing one Standard Model generation with
+    F-MC's hypercharge.
+  - The label is "derived given one stated link".
+- **The tests (exact).**
+  - Anomaly-free, per 27 and for three: 18 doublets, and every gauge and mixed gravitational sum zero.
+  - The count is ±3 only under Λ's parity grading.
+  - Read in six dimensions, Dobrescu–Poppitz's global SU(2) condition holds exactly when the number of parity sectors
+    is a multiple of three. Local anomalies would need a completion.
+  - Beyond the three: three right-handed neutrinos, plus heavy vector-like states.
+- **Mixing stays fenced** (THREE_GENERATIONS §3).
+- **Λ is the one input** W25 and W26 show the weave cannot supply. Earning it is GENESIS FK11.
+
 ## The weave's W26: the search beyond the weave — the weave is mirror-symmetric, and F-MC's order-3 orientation flips at every tick
 
 - **The owner's choice** after W25: search beyond the weave for a forced structure that fixes the gauge half. The

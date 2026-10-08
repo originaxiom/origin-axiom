@@ -18171,3 +18171,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - the weave's count three and its common hand;
   - the identification FK11 between them.
   - The weave closes the generation count, which THE_CLAIM listed as open; the identification is the one thing left.
+
+## 2026-10-08 (night, last) — the weave's W27: three generations, derived given one stated link
+
+- **The owner chose to state the link and write the derivation up.** The rule came first (6da777ea); one run; every
+  test passed.
+- **The write-up** (`docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`): principle + F-MC's typed inputs + one link Λ ⇒ exactly
+  three chiral 27s, each with a Standard Model generation. They are alike, carry one hand, and form a complex flavor
+  triplet.
+- **The tests.**
+  - Anomaly-free (exact).
+  - Three only under Λ's parity grading.
+  - The six-dimensional global SU(2) condition needs a multiple of three parity sectors, and three passes.
+  - Three right-handed neutrinos.
+- **The label is "derived given one stated link".** Λ is the input W25 and W26 show the weave cannot supply.

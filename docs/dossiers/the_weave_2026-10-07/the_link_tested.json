@@ -1,0 +1,119 @@
+{
+ "rule": "W27_RULE.md (committed 6da777ea before this ran)",
+ "T1 anomalies": {
+  "the 27's dimension (check)": 27,
+  "one 27": {
+   "SU(3)^3": "0",
+   "SU(3)^2 Y": "0",
+   "SU(2)^2 Y": "0",
+   "Y^3": "0",
+   "grav^2 Y": "0",
+   "SU(2) doublets": 6
+  },
+  "three 27s": {
+   "SU(3)^3": "0",
+   "SU(3)^2 Y": "0",
+   "SU(2)^2 Y": "0",
+   "Y^3": "0",
+   "grav^2 Y": "0",
+   "SU(2) doublets": 18
+  },
+  "control: one Standard Model generation with nu^c": {
+   "SU(3)^3": "0",
+   "SU(3)^2 Y": "0",
+   "SU(2)^2 Y": "0",
+   "Y^3": "0",
+   "grav^2 Y": "0",
+   "SU(2) doublets": 4
+  },
+  "control: the 27's remainder (D, D^c, H_u, H_d, S)": {
+   "SU(3)^3": "0",
+   "SU(3)^2 Y": "0",
+   "SU(2)^2 Y": "0",
+   "Y^3": "0",
+   "grav^2 Y": "0",
+   "SU(2) doublets": 2
+  },
+  "all free": true
+ },
+ "T2 the count under the link": {
+  "W24 D0: commutant of the moves' lifts on the six local solutions": 2,
+  "W24 D0: the indices the moves alone keep": [
+   -3,
+   -1,
+   1,
+   3
+  ],
+  "W24 D0: with the parity grading (the link keeps the sectors apart)": 1,
+  "under the link the index is +-3 only": true
+ },
+ "T3 the six-dimensional reading (Dobrescu-Poppitz's global SU(2) condition)": {
+  "SU(2) doublets of one Standard Model generation (Q's colours and L)": 4,
+  "rank of each parity sector's bundle (chi_p (x) rho_Q)": 2,
+  "by the number of parity sectors k": {
+   "1": {
+    "N(2+) - N(2-)": 8,
+    "= 0 mod 6": false
+   },
+   "2": {
+    "N(2+) - N(2-)": 16,
+    "= 0 mod 6": false
+   },
+   "3": {
+    "N(2+) - N(2-)": 24,
+    "= 0 mod 6": true
+   },
+   "4": {
+    "N(2+) - N(2-)": 32,
+    "= 0 mod 6": false
+   },
+   "5": {
+    "N(2+) - N(2-)": 40,
+    "= 0 mod 6": false
+   },
+   "6": {
+    "N(2+) - N(2-)": 48,
+    "= 0 mod 6": true
+   }
+  },
+  "passes exactly when k = 0 mod 3": true,
+  "the local gravitational count (all one 6d chirality): Weyl fermions per sector, unbalanced": 32
+ },
+ "T4 what the link with F-MC implies beyond the three (per generation, three of each)": {
+  "D": {
+   "SU(3)": "3",
+   "SU(2)": 1,
+   "Y": "-1/3"
+  },
+  "D^c": {
+   "SU(3)": "3-bar",
+   "SU(2)": 1,
+   "Y": "1/3"
+  },
+  "H_u": {
+   "SU(3)": "1",
+   "SU(2)": 2,
+   "Y": "1/2"
+  },
+  "H_d": {
+   "SU(3)": "1",
+   "SU(2)": 2,
+   "Y": "-1/2"
+  },
+  "S": {
+   "SU(3)": "1",
+   "SU(2)": 1,
+   "Y": "0"
+  },
+  "nu^c": {
+   "SU(3)": "1",
+   "SU(2)": 1,
+   "Y": "0"
+  }
+ },
+ "verdict": {
+  "T1 anomaly-free": true,
+  "T2 the count is three under the link": true,
+  "T3 the six-dimensional global condition selects k = 0 mod 3": true
+ }
+}

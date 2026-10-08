@@ -460,3 +460,23 @@ def test_w26_the_weave_is_mirror_symmetric():
     r1, words = WM.n1(8)
     assert r1["S phi^-1 S^-1 = matrix of reverse(phi) with L <-> R, for every one"]
     assert WM.n3(words)["the 3-cycle's direction flips at every tick on all of them"]
+
+
+def test_w27_the_link_tested():
+    """W27 (the rule committed first): with the one stated link, three 27s are anomaly-free (exact), the count is +-3
+    only under the parity grading, and the six-dimensional global SU(2) condition selects k = 0 mod 3 sectors. The
+    anomaly sums are recomputed in process"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_link_tested.json").read_text(encoding="utf-8"))
+    assert all(d["verdict"].values())
+    t1 = d["T1 anomalies"]
+    assert t1["the 27's dimension (check)"] == 27 and t1["all free"]
+    assert t1["three 27s"]["SU(2) doublets"] == 18
+    t3 = d["T3 the six-dimensional reading (Dobrescu-Poppitz's global SU(2) condition)"]
+    assert [k for k, v in t3["by the number of parity sectors k"].items() if v["= 0 mod 6"]] == ["3", "6"]
+    assert (ROOT / "docs" / "THREE_GENERATIONS_GIVEN_ONE_LINK.md").exists()
+    sys.path.insert(0, str(here))
+    import the_link_tested as LT
+    a = LT.anomalies(LT.TWENTY_SEVEN * 3)
+    assert LT.free(a) and a["SU(2) doublets"] == 18

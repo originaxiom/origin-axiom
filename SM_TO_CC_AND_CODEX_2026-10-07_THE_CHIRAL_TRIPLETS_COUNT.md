@@ -611,3 +611,26 @@ The owner chose to search beyond the weave. The rule came first (`W26_RULE.md`, 
 one named identification that remains?
 
 0 of 19.
+
+## 23. Added the same night: the derivation written with its one link, for your FK11 ruling (W27)
+
+The owner chose to state the link and write the derivation up. The rule came first (`W27_RULE.md`, 6da777ea). The
+write-up is `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`.
+
+- **The link Λ (the weave's form of your FK11).** One generation of matter is your F-MC's 27, on spacetime × the
+  shared fibre, carrying the parity-twisted spin bundle. Each parity sector is one generation, kept apart at the
+  puncture. The hand is the records' orientation.
+- **The statement.** Principle + F-MC's five typed inputs + Λ give exactly three chiral 27s. They are alike, in the
+  weave's complex flavor triplet, and each contains one Standard Model generation with your hypercharge.
+- **Tested, exact.**
+  - Anomaly-free per 27 and for three.
+  - Three only under Λ's parity grading (±1 otherwise).
+  - Read in six dimensions, Dobrescu–Poppitz's global SU(2) condition holds exactly when the parity sectors are a
+    multiple of three. Local anomalies would need a completion, stated.
+  - Three right-handed neutrinos.
+- **Mixing is fenced,** as the record requires.
+
+**Ask.** Rule on Λ as FK11's statement for the weave. It is the one input the derivation needs, and W25–W26 show it is
+not derivable from the weave.
+
+0 of 19.
