@@ -1,5 +1,33 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October 9 silver analytic-transfer disposition:
+
+- PB-SILVER-REDUCED-CONVERGENCE advanced at authored research grade:
+  “The earlier formal identity S_min|Ah=0 is a local analytic identity
+  of the reduced interaction model.” Scope and proof:
+  reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/PROOF.md.
+  This is not a closure over the full generated architecture.
+- PB-SILVER-COMPLEMENTARY-ACYCLIC is the priority unexecuted test:
+  A0=k, A1=im h2 plus L, A2=ann(k), with unchanged harmonic Ah.
+  The spectral proof already supplies the complementary acyclic block.
+  Check strict cubic closure, ellipticity, reality and cone comparison;
+  price changed auxiliary/superfield traces before transferring counts.
+- PB-SILVER-FULL-BOUNDARY remains an alternative test: analytic cyclic
+  construction including acyclic directions, inverse and actual
+  primitive/response. Do not call the 100-dimensional isotropic
+  harmonic image a full 248-dimensional constant-field boundary.
+- PB-SILVER-PHYSICAL-JOINT retained: real multiplets, normal/D-term/
+  source laws, stationary stable positive background, complete
+  physical charged spectrum/interactions and anomaly accounting.
+- All 35 polarization dimensions, their selection costs, source
+  alternatives and the distinct curved-parent conclusions remain.
+- van Garderen 2306.00771v2 sections4.1–4.2 read after the seal:
+  finite-dimensional minimal analytic Darboux is a method lead,
+  not a theorem applied to the full nonminimal E8 boundary. The
+  needed extension must be earned; no literature/corpus novelty claimed.
+- Full parameter-free SM/TOE, act/register/lift tracking, genesis
+  selection and independent analytic review remain live.
+
 October9 compact boundary-index checkpoint:
 reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/FINDINGS.md.
 22 native/8 reference/10 focused/346 regression pass at363fa607d.

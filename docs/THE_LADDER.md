@@ -1,5 +1,27 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October 9 silver analytic-transfer checkpoint: 39 native assertions,
+35 separate-reference assertions, 10 focused tests and 41 four-packet
+regression tests pass at pre-execution seal ab02a6ea1.
+Report: reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/FINDINGS.md.
+
+The unchanged silver coefficient now has an authored local convergence
+proof for its cyclic minimal interactions and Kuranishi lift. Exact
+bounds cover every Fourier mode; neutral fourth-order controls retain
+nonzero corrections and obstructions. Flatness still requires kappa=0.
+The lifted harmonic plane is isotropic, not the full boundary
+Lagrangian. Stage2E gains an analytic positive; full boundary
+convergence, reality, same-action response/normal laws, stationarity,
+stability, physical spectrum and anomalies remain the next joint.
+
+No earlier charged count changes, no polarization is selected and no
+result is transferred between the silver and curved-parent domains.
+Seven science files and 16 source pins stay unchanged. Four inherited
+governance failure categories, nonauthor analytic review, full-suite
+and main-bank acceptance remain. The complete parameter-free SM/TOE,
+including generated selection, parameters and gravity, is not achieved.
+Act/register and lifted data are retained; no observer/qualia is derived.
+
 October9 compact boundary-index checkpoint:22 native/8 separate
 reference/10 focused and346 twenty-two-packet regression tests PASS
 at pushed seal363fa607d. Report:

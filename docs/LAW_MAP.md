@@ -1,5 +1,23 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October 9 silver analytic-transfer conditional sublemmas.
+Fixed supplied E8 parent, literal silver coefficient, marked torus,
+compatible cyclic metric and earlier harmonic planes. Authored proof:
+reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/PROOF.md.
+Finite controls: tests/test_physical_bridge_silver_analytic_transfer.py.
+
+| Scoped result | Argument and verification limit |
+|---|---|
+| Actual cyclic Hodge homotopy is uniformly bounded on weighted Fourier spaces | Nilpotent inverse series, both marked directions and all 248 coefficients; exact C0=3828/31 and C1=11692/675. No assumption of unitary holonomy or finite frequency census |
+| Harmonic Kuranishi lift converges locally and has curvature exactly kappa=P[a,a]/2 | Contracting quadratic map and Catalan majorant; two-dimensional degree argument. Fourth-order tests check implementation, not arbitrary order by sampling |
+| Harmonic lift preserves the symplectic form and retained gauge action | Cyclic SDR plus uniqueness; harmonic k-stable L lifts isotropically with zero k-component of curvature, not necessarily flat |
+| Earlier S_min on Ah vanishes as an analytic reduced identity | Absolute convergence plus the prior strict-k tree argument; not convergence of the full canonical boundary transformation |
+| Convergent lift is not automatically flat | Explicit noncommuting gauge control and all four fixed neutral jet witnesses retain curvature obstructions |
+
+39 native/35 reference/10 focused and 41 regression pass.
+Same-author finite verification; outside analytic acceptance and full
+physical completion remain. No new shared law number.
+
 October9 compact boundary-index conditional sublemmas.
 Fixed supplied curved E8 four-Weyl parent, smooth compact finite cut,
 coefficient-blind local trace law and unbroken gauge decomposition.

@@ -1,0 +1,93 @@
+{
+  "pre_execution_seal": "ab02a6ea195e7558c9b28a1124196d0022ba18bb",
+  "native_attempt_number": 1,
+  "reference_attempt_number": 1,
+  "focused_attempt_number": 1,
+  "regression_attempt_number": 1,
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 12.759669000050053,
+    "log_bytes": 3869,
+    "log_sha256": "ead92b59bdf60115e33357cf8c45a368ba16f3ce25fb658c8278119d2f526952",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 2.0646669999696314,
+    "log_bytes": 3179,
+    "log_sha256": "0d48549614f10e1d13cba76ed6832ad7a5c3d25d3d4d979d3e84f4473503dfe1",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 15.65332999988459,
+    "log_bytes": 100,
+    "log_sha256": "bca17f19498ddedb2bb08f56b2371cb6939201570bda836f024678308b939e94",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_silver_analytic_transfer.py"
+    ]
+  },
+  "regression": {
+    "command": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_silver_spectral_completion.py",
+      "tests/test_physical_bridge_silver_nonlinear_boundary.py",
+      "tests/test_physical_bridge_silver_cyclic_transfer.py",
+      "tests/test_physical_bridge_silver_analytic_transfer.py"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 380.4323850001674,
+    "log_bytes": 111,
+    "log_sha256": "f5d3ebb27a487841a6ad7b89b316903b7e8805c34ea56ab1812fb395903354dc",
+    "tested_commit": "ab02a6ea195e7558c9b28a1124196d0022ba18bb",
+    "tree_unchanged": true
+  },
+  "governance_preseal": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 16.915726999985054,
+    "bytes": 2384,
+    "sha256": "7f2b8c21496db4875f8e988c3ef0c82c5da6b9ace225941d6f4dd47284eebbc4",
+    "staged_content_tree": "b1e94c4c1f68f4f06a702117ac9bf4218a7e3742",
+    "staged_unchanged": true
+  },
+  "governance_receipt_attached_after_tested_staged_tree": true,
+  "science_files": 7,
+  "source_pins": 16,
+  "working_source_pins": 15,
+  "other_branch_proof_pins": 1,
+  "science_and_sources_unchanged": true,
+  "full_suite_certified": false,
+  "nonauthor_acceptance": false,
+  "physical_goal_achieved": false,
+  "governance_publication": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 41.90728499996476,
+    "bytes": 2384,
+    "sha256": "d9534523444b93bdc8d380d20c837f75ecd8839faef3d5d0e4740f8794ced623",
+    "staged_content_tree": "0660d24e930f2f2f89588f963c436349fcd12b93",
+    "staged_unchanged": true
+  }
+}

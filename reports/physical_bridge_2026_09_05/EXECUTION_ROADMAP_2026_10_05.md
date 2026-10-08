@@ -54,6 +54,18 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    regression PASS. Cyclic equivariant contraction and conditional all-order
    FORMAL retained-gauge consistency; charged/reality/convergence/stationary
    physical completion still owed. Results preserved October8, not abandoned.
+   Stage2E October9 ANALYTIC EXTENSION EXECUTED at research grade:
+   silver_analytic_transfer_2026_10_09/FINDINGS.md.39 native/35 reference/
+   10 focused/41 four-packet regression pass at ab02a6ea1. Convergent
+   cyclic minimal interactions, exact Kuranishi curvature equation and
+   symplectic harmonic lift; not the full canonical boundary map.
+   NEXT first test the complementary coexact1-to-exact2 acyclic block
+   with the SAME harmonic Ah: strict bracket closure, ellipticity,
+   reality and cone comparison, then changed auxiliary/superfield
+   traces. This is an unexecuted alternative, not an accepted model.
+   Keep the original canonical-completion route if this fails its
+   physical gates. Same-action stationarity, stability, physical
+   spectrum/interactions, anomalies and generated selection remain.
    Stage2F October8 shared-weave operator intake EXECUTED at research grade:
    weave_puncture_operator_2026_10_08/FINDINGS.md.35 native/33 reference/11
    focused PASS. Compact sheaf formula d-3 and local Green domains supported;

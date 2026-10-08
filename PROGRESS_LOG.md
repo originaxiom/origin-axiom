@@ -18196,3 +18196,32 @@ All first scientific attempts pass. The zero concerns the fixed
 coefficient-blind compact boundary; a symmetric bilinear alone is
 explicitly controlled by a nonzero rectangular index. No failed
 scientific output or alternative positive was removed.
+
+## 2026-10-09 silver analytic transfer
+
+October 9 silver analytic-transfer checkpoint: 39 native assertions,
+35 separate-reference assertions, 10 focused tests and 41 four-packet
+regression tests pass at pre-execution seal ab02a6ea1.
+Report: reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/FINDINGS.md.
+
+The unchanged silver coefficient now has an authored local convergence
+proof for its cyclic minimal interactions and Kuranishi lift. Exact
+bounds cover every Fourier mode; neutral fourth-order controls retain
+nonzero corrections and obstructions. Flatness still requires kappa=0.
+The lifted harmonic plane is isotropic, not the full boundary
+Lagrangian. Stage2E gains an analytic positive; full boundary
+convergence, reality, same-action response/normal laws, stationarity,
+stability, physical spectrum and anomalies remain the next joint.
+
+No earlier charged count changes, no polarization is selected and no
+result is transferred between the silver and curved-parent domains.
+Seven science files and 16 source pins stay unchanged. Four inherited
+governance failure categories, nonauthor analytic review, full-suite
+and main-bank acceptance remain. The complete parameter-free SM/TOE,
+including generated selection, parameters and gravity, is not achieved.
+Act/register and lifted data are retained; no observer/qualia is derived.
+
+All scientific first attempts pass. The test log records 41 passed in
+379.74s; captured exit0 in380.432385s on the unchanged seal. The next
+unexecuted complementary-acyclic proposal is preserved in NEXT_TEST.md,
+including its changed auxiliary-field admission risk.

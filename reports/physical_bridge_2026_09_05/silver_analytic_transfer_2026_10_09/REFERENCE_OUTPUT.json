@@ -1,0 +1,149 @@
+{
+  "full_harmonic_dimensions": [
+    100,
+    200,
+    100
+  ],
+  "global_bounds": {
+    "C0": "3828/31",
+    "C1": "11692/675",
+    "c": "3828/31"
+  },
+  "homotopy_bounds": {
+    "F": "81/2",
+    "Fdual": "81/2",
+    "N": "3828/31",
+    "W": "21",
+    "Wdual": "21",
+    "gauge": "0"
+  },
+  "inverse_bounds": {
+    "F": "1433/225",
+    "Fdual": "1433/225",
+    "N": "11692/675",
+    "W": "53/18",
+    "Wdual": "53/18",
+    "gauge": "1/2"
+  },
+  "neutral_jets": [
+    {
+      "exact_jet_sha256": "1d415c30ac7c29c82edf3b442bdf12ecd10da2412110ab68fcfb3ef666ba0bcf",
+      "nonzero_corrections": [
+        true,
+        true,
+        true
+      ],
+      "nonzero_obstructions": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "exact_jet_sha256": "c4ab3e50bb3db8f6de693b815744ae0dd51a0bcf9a15b54df16d2d8d04f77f5a",
+      "nonzero_corrections": [
+        true,
+        true,
+        true
+      ],
+      "nonzero_obstructions": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "exact_jet_sha256": "a63f9771cbb9b20967ddca8f03db422d4175b27a09701c9ef9b4db1a2e85331f",
+      "nonzero_corrections": [
+        true,
+        true,
+        true
+      ],
+      "nonzero_obstructions": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "exact_jet_sha256": "f693d0c1142cbc2db0e955af1f14401353ce006fa6cb639b93bdd36f0488051c",
+      "nonzero_corrections": [
+        true,
+        true,
+        true
+      ],
+      "nonzero_obstructions": [
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "nilpotence_orders": {
+    "F": [
+      3,
+      3
+    ],
+    "Fdual": [
+      3,
+      3
+    ],
+    "N": [
+      5,
+      5
+    ],
+    "W": [
+      3,
+      3
+    ],
+    "Wdual": [
+      3,
+      3
+    ],
+    "gauge": [
+      1,
+      1
+    ]
+  },
+  "nonauthor_acceptance": false,
+  "physical_goal_achieved": false,
+  "predicates": {
+    "F_SDR": true,
+    "F_resolvent_truncation_control": true,
+    "F_wrong_sign_control": true,
+    "Fdual_SDR": true,
+    "Fdual_resolvent_truncation_control": true,
+    "Fdual_wrong_sign_control": true,
+    "N_SDR": true,
+    "N_resolvent_truncation_control": true,
+    "N_wrong_sign_control": true,
+    "W_SDR": true,
+    "W_resolvent_truncation_control": true,
+    "W_wrong_sign_control": true,
+    "Wdual_SDR": true,
+    "Wdual_resolvent_truncation_control": true,
+    "Wdual_wrong_sign_control": true,
+    "all_actual_cyclic_pairings": true,
+    "ballot_count_obeys_binary_recursion": true,
+    "contracting_ball": true,
+    "curvature_obstruction_identity": true,
+    "finite_positive_bounds": true,
+    "full_roster": true,
+    "gauge_SDR": true,
+    "gauge_resolvent_truncation_control": true,
+    "gauge_wrong_sign_control": true,
+    "harmonic_input_0": true,
+    "harmonic_input_1": true,
+    "harmonic_input_2": true,
+    "harmonic_input_3": true,
+    "large_ball_rejected": true,
+    "literal_logs_and_relators": true,
+    "neutral_metric_and_condition_bound": true,
+    "nonflat_and_flat_opposite_controls": true,
+    "nonlinear_slice": true,
+    "symplectic_jet_pairings": true,
+    "tree_bound": true
+  },
+  "predicates_passed": 35,
+  "some_neutral_nonlinear_correction": true
+}
