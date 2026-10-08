@@ -1,0 +1,147 @@
+{
+  "scope": "Supplied curved E8 parent, fixed complete cusp surface, trivial extending spin and graph domain; magnetic stationary family, integer n and finite c,d. Product external fields and gauge parameters are internally parallel and unbroken. Spatial cutoff removed at fixed positive heat time before UV limit.",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 11363,
+      "sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/probe.py",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 11011,
+      "sha256": "97012910ed303d475f39147ad4bb23ad5f95372dab29995d7ea091261aa9097f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 11161,
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/probe.py",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 7655,
+      "sha256": "e9e5103c9ab63602fa6dde2d6688b701b817ed2b3b147417029b192d88075dea"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/probe.py",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 12778,
+      "sha256": "57a5b7bbe710e7314baf8e85087b34e9a6d2d007d75b530afd6a8c375bc5d46d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 8666,
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/probe.py",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 8672,
+      "sha256": "a9ee314ba30cd72241aa9b361c69aa76c6f72eefaa780a5c974eb56af3de1d04"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 11792,
+      "sha256": "42431248d2622873acae6d6defabc503ff0d6e7dc5dd091c14e3d2789865f3a2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/probe.py",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 9749,
+      "sha256": "48abceb8f23be7a1097653a49be13bf6126967a2368b6304c2db0b4133bdf124"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/reference.py",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 5505,
+      "sha256": "34ac24b07a1463c19d32d36e0bc4208116bdbab6401120333ff39b47d567c285"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/PROOF.md",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 10104,
+      "sha256": "3a47346842499df5c0faff2aa7fec496d74f697b8d1d75132ee65e93cb40dd70"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/probe.py",
+      "ref": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
+      "bytes": 8150,
+      "sha256": "7696e51857c91f01ad0787bd72cb4880379d00ca285f316f513b5bc5ee51ddc6"
+    }
+  ],
+  "focused_expected_tests": 18,
+  "regression_expected_tests": 274,
+  "comparison_profiles": [
+    "odd_mass_characters",
+    "odd_moments",
+    "ir_anomaly_vectors"
+  ],
+  "unearned_flags": [
+    "consistent_ward_identity_derived",
+    "determinant_phase_derived",
+    "parity_even_quantum_action_renormalized",
+    "full_quantum_completion_derived",
+    "stable_chiral_vacuum_derived",
+    "genesis_selection_derived",
+    "nonauthor_acceptance",
+    "physical_goal_achieved"
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/0801.1969v2",
+      "read": "Sections1.4 and2.1; not whole paper",
+      "use": "Cusp renormalized trace defect, not an uncomputed determinant phase"
+    },
+    {
+      "url": "https://arxiv.org/html/1905.05207",
+      "read": "Section3 in full; not whole paper",
+      "use": "Partner scattering continuum mechanism; own sign and normalization derived"
+    },
+    {
+      "url": "https://arxiv.org/html/0802.0634v1",
+      "read": "Equation3.17 through3.4 and section4.2; not whole paper",
+      "use": "Gauge-dependent regulator and consistent versus covariant distinction"
+    }
+  ],
+  "main_head": "aa28a42e6",
+  "sm_head": "886753f34",
+  "empirical_inputs": [
+
+  ],
+  "nonauthor_acceptance": false
+}

@@ -2635,3 +2635,33 @@ Preseal governance26 PASS/four inherited FAIL; review380 due. No
 all-green acceptance or main-bank promotion is claimed.
 Publication governance26 PASS/four inherited FAIL, review381 due;
 literal capture and exact staged-content-tree receipt in the packet.
+
+## Cusp continuum heat pre-execution seal October 8
+
+Same supplied curved E8 parent, complete cusp spin/graph domain and
+magnetic stationary family; parallel unbroken external fields only.
+Prior: spatial-cutoff heat supertrace interpolates from zero UV to the
+physical IR index through its continuum. NOT a prior of consistent
+Ward identity or quantum action completion.18 focused and274 sixteen-
+packet regression tests planned. Seven science files and17 pinned
+sources at58848955b. Push/server confirmation before scientific import,
+execution or collection. First failures preserved. No shared identifier
+or outside analytic/full-suite/main-bank acceptance claimed.
+
+| File | SHA256 |
+|---|---|
+| weave_cusp_heat_2026_10_08/DESIGN.md | e3f94518e15829a82bc9b59339236918facf831e55147d57f33e04de5930aba3 |
+| weave_cusp_heat_2026_10_08/PROOF.md | f9a638cf8224f877ff41225f3bc356c7da6246500bedcbd8d46ca1f207522c9e |
+| weave_cusp_heat_2026_10_08/INPUTS.json | 04b8263d036a57f3917a899a070d6c8b682ba4dd6ef50006ba9679f659420e9c |
+| weave_cusp_heat_2026_10_08/probe.py | b3eaf99ffb769124442fb25a4c7f3550e11de45308ed8ec7317af0b38384392f |
+| weave_cusp_heat_2026_10_08/reference.py | 2c7397f70d8e0261db21a8d65f85b8f0a21f4c1cd97ade7e8112f7006fcd61be |
+| weave_cusp_heat_2026_10_08/custody.rb | 7b04cedbed1bd539eddcd1d0c2b817cd0e66531347ecfbb02379d14653bd2daf |
+| tests/test_physical_bridge_weave_cusp_heat.py | 83f9e515edec6d03d045fece7606d9338b9f5f19d6fae9cd0d308163b347dd87 |
+
+Preseal governance first capture is preserved in the packet. Its static
+test-vacuity scanner did not follow the assertion helper. Before any
+science run, each test was changed to assert the helper's boolean
+locally; no mathematical criterion changed. Rehashed before seal.
+
+Final preseal governance26 PASS/four inherited FAIL, review382 due.
+No new failing file/category. Not full-suite/main-bank acceptance.
