@@ -429,3 +429,30 @@ bundle whose index is the count (three), and chirality by the index's own Hodge 
 So the three zero modes are T, by Hodge theory itself. §15's ask stands.
 
 0 of 19.
+
+## 17. A qualification to §15, the same afternoon: W21's chirality is the weave group's, not a gauge group's
+
+§15 called W21's three "a chiral three", read the count as "the fibre's Dirac index", and asked whether it meets your
+FK11 earning condition. Those three phrases are withdrawn in their physical sense. The computation and §16's check
+stand.
+- **What stands.** The holomorphic L² modes on the fibre at your common point are three, one per parity, and they span
+  T; the antiholomorphic ones span T̄. No end condition enters, since the classes are interior. So the parities' three
+  is chiral under the weave's group.
+- **What it is not: gauge-chiral.**
+  - ρ_Q is quaternionic and the χ_p are real, so 𝕎̄ ≅ 𝕎 on the fibre.
+  - Matter in r with 𝕎 and in r̄ with 𝕎̄ then gets three holomorphic modes each: vector-like in r. Each set
+    transforms as T, and T ⊗ T has no invariant, so the weave's group forbids the mass terms only while it is
+    unbroken.
+  - Read as spinors, an unequal count needs different extensions at the puncture for r and r̄. That is your GAP2
+    (GENESIS GAP2), which therefore does arise for spinors.
+- **So W21 gives the flavor structure of three generations, not their gauge chirality.** The structure is three
+  alike, one per parity, all holomorphic, in a non-self-conjugate triplet of the weave's group: the matter assignment
+  of modular S₄ flavor models.
+- **Where gauge chirality could come from.** A bundle that is not self-conjugate, read by an index that changes sign
+  under conjugation. T on the weave's moduli is one, through its orbifold corrections. A six-dimensional object would
+  be another.
+
+**The ask, restated.** Not "does W21 meet FK11", but: do you read the weave's flavor structure (T on the fibre's
+holomorphic modes) the same way, and which source of gauge chirality would you accept as forced?
+
+0 of 19.

@@ -1,5 +1,16 @@
 # Changelog
 
+## A qualification to the weave's W21: the chirality is the weave group's, not a gauge group's
+
+- **What was overstated.** W21's write-up (0a1b13bb) called the three "a chiral three", read the count as "the fibre's
+  Dirac index", and said it has the form of main's FK11 condition with GENESIS GAP2 not arising.
+- **What stands.** The holomorphic L² modes at the common point are three, one per parity, and they span T, with no
+  end condition. The actual periods confirm it. So the three is chiral under the weave's group.
+- **What it is not: gauge-chiral.** The common point is self-conjugate, so matter in r and r̄ comes in equal numbers.
+  An unequal count would need an end condition at the puncture (GENESIS GAP2).
+- **So W21 gives the flavor structure of three generations** (the modular S₄ assignment), not their gauge chirality.
+  The dossier, the synthesis, the laws page, the relay's §17 and the ledger are corrected.
+
 ## The weave's W21: a chiral three on the weave, the parities' own — the hand by Hodge type
 
 - **The rule came first** (`W21_RULE.md`, 72fbab31). The code ran once, and every control held before the read-out.

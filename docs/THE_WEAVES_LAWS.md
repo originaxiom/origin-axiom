@@ -140,16 +140,18 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     weave's SL(2) is self-dual, so by the heterotic dictionary the matter is vector-like. It is an Euler
     characteristic of three, not three generations (GENESIS FK11, FK4).
 - **The hand by Hodge type (W21; rule committed first; proved, and the sign computed with every control).**
-  - On the shared fibre at the common point, the Dirac operator for the three even spin structures (the three
-    parities) has exactly one zero mode each: an index of three.
+  - On the shared fibre at the common point, each of the three even spin structures (the three parities) carries
+    exactly one holomorphic L² mode: three in all.
   - The holomorphic part is invariant under every move, by two proofs: finite monodromy makes the period map constant,
     and the holomorphic part is an eigenspace of the sign move's spin lift.
   - The topological Hodge–Riemann form is positive definite on T and negative definite on T̄. So the three zero modes
     are T, irreducible and not equivalent to its conjugate, and T̄ is the other chirality.
   - The actual holomorphic forms (θ₃(z | 2τ)/√θ₁(z | τ) and its parity conjugates) have periods spanning T at three
     values of τ, the same subspace each time.
-  - A chiral three, the parities' own, as the index of a non-flat bundle on the weave's fibre. The dictionary (GENESIS
-    FK11) stays a reading. The zero parity adds one singlet zero mode.
+  - A three chiral under the weave's group, the parities' own, with no end condition. It is not gauge-chiral (a
+    qualification the same afternoon). The common point is self-conjugate, so matter in r and r̄ comes in equal
+    numbers unless an end condition is chosen at the puncture (GENESIS GAP2). The dictionary (GENESIS FK11) stays a
+    reading. The zero parity adds one singlet zero mode.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

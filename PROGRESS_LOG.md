@@ -18078,3 +18078,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Later the same afternoon, a second route:** the actual holomorphic forms on the fibre (θ₃(z | 2τ)/√θ₁(z | τ) and
   its parity conjugates). Their periods span T at three values of τ, the same subspace each time. The twisted Riemann
   bilinear relation holds to 8 × 10⁻¹⁵. The hand does not rest on a sign convention.
+- **A qualification, the same afternoon.** W21's chirality is the weave group's, not a gauge group's.
+  - The common point is self-conjugate, so the conjugate local system has the same three holomorphic modes, and matter
+    in r and r̄ comes in equal numbers. An unequal count would need an end condition at the puncture (GENESIS GAP2).
+  - So W21 gives the flavor structure of three generations (one per parity, all holomorphic, in a non-self-conjugate
+    triplet: the modular S₄ assignment), not their gauge chirality.
+  - **The goal is not met.** Still open:
+    - a source of gauge chirality that the weave forces: T on the weave's moduli through its orbifold index, or a
+      six-dimensional object;
+    - the dictionary (GENESIS FK11).

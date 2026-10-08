@@ -1034,8 +1034,9 @@ complex structure of its own: the shared fibre's. The rule was committed before 
 - **The count.** For every complex structure τ, V splits by Hodge type, one line of each type per parity.
   - By Riemann–Roch: the parabolic extension has degree −1, because the puncture's holonomy is −1.
   - By Chevalley–Weil on the genus-3 cover w⁴ = cubic(x): its odd holomorphic forms are dx/w³ and x dx/w³.
-  - So dim V^(1,0) = 3. V^(1,0) is the kernel of the fibre's Dirac operator for the three even spin structures, with
-    the common point as gauge field: an index of one each, three in all.
+  - So dim V^(1,0) = 3. Read as spinors, with the extension that has square-root poles at the puncture, V^(1,0) is the
+    kernel of the fibre's Dirac operator for the three even spin structures, with the common point as gauge field:
+    an index of one each. (The extension is a choice for spinors; see the qualification below.)
 - **The invariance.** The moves act on V through a finite group (order 96). So the period map is constant, and V^(1,0)
   is the same subspace for every τ and invariant under every move. So it is T or T̄.
 - **What decides.** The Hodge–Riemann form Q = i ∫ u ∧ v̄ is topological, and it is positive exactly on V^(1,0). Its
@@ -1093,23 +1094,38 @@ no sign convention of Q. It writes down the holomorphic forms and integrates the
   - So "three alike and chiral" is the weave's. The Hodge type of each zero mode is the fibre's.
 
 **What it shows.**
-- **A chiral three on the weave, and it is the parities' three.**
-  - The fibre's Dirac operator at the common point has exactly one zero mode per even spin structure: an index of
-    three.
-  - All three have one chirality, and they span one irreducible triplet T, with T ≇ T̄.
-  - The other chirality is T̄.
-- **It settles three of the items W20 left open:**
-  - **the hand,** relative to the records' orientation: holomorphic means T. The swap reverses the orientation and
-    exchanges T and T̄. So W10's "the swap must stay outside the moves" says that the moves keep the orientation;
-  - **the same three as the parities:** yes, one zero mode per parity;
-  - **the form of main's FK11 earning condition** (B1604): an even-dimensional object the weave forces (the shared
-    fibre, of real dimension two), a non-flat bundle (the parabolic extension, of degree ±1 per spin structure because
-    of the cusp's −1), and its index as the count: 3, and chiral (GENESIS FK11).
-- **No end condition is chosen, and no source is needed.**
-  - The puncture's holonomy is −1, so the module has no invariant vector on the cusp. Then H¹ = H¹_c, and there is no
-    continuous spectrum in this channel and nothing to choose. GENESIS GAP2 does not arise here.
-  - The bundle is unitary and flat on the fibre, so the harmonic metric needs no source. GENESIS GAP3 does not arise
-    here either.
+- **Three holomorphic zero modes on the weave's fibre, one per parity, spanning one triplet T, with T ≇ T̄.** The
+  antiholomorphic ones span T̄. The count is h^(1,0) of the L² twisted cohomology: three.
+- **What it settles from W20's open items:**
+  - **the same three as the parities:** yes, one holomorphic mode per parity;
+  - **the hand under the weave's own group,** relative to the records' orientation: the holomorphic modes are T. The
+    swap reverses the orientation and exchanges T and T̄. So W10's "the swap must stay outside the moves" says that
+    the moves keep the orientation.
+- **No choice enters this statement.**
+  - For twisted 1-forms the L² condition is conformally invariant, and the classes are interior (the puncture's
+    holonomy is −1). So the Hodge decomposition is canonical, with no end condition.
+  - The bundle is unitary, so no source is needed (GENESIS GAP3 does not arise).
+
+**A qualification (the same afternoon).** It withdraws three phrases of the paragraph that stood here in 0a1b13bb:
+"a chiral three", the count read as "the fibre's Dirac index", and "the form of main's FK11 earning condition ...
+chiral", with "GENESIS GAP2 does not arise". The chirality shown is under the weave's group, not under a gauge group.
+- **Why gauge chirality is not shown.**
+  - The common point is self-conjugate: ρ_Q is quaternionic and the χ_p are real, so 𝕎̄ ≅ 𝕎 as local systems on
+    the fibre.
+  - In any dictionary where matter in a gauge representation r comes with 𝕎 and matter in r̄ with 𝕎̄, the canonical
+    count gives three holomorphic modes to each. That is vector-like in r.
+  - Each set transforms as T under the weave's group, and T ⊗ T has no invariant. So the weave's group forbids the
+    pairs' mass terms while it is unbroken, but the modulus breaks it.
+- **Where an unequal count would come from.**
+  - Read as spinors, the zero modes depend on the extension at the puncture. The extension with square-root poles
+    gives index +1 per block, and its dual gives −1.
+  - Choosing them differently for r and r̄ is an end condition (GENESIS GAP2). For spinors, then, GAP2 does arise.
+- **So W21 gives the flavor structure of three generations, not their chirality as the Standard Model has it.**
+  - That structure is three alike, one per parity, all holomorphic, in a triplet of the weave's group that is not
+    self-conjugate. It is the matter assignment of modular S₄ flavor models.
+  - Gauge chirality needs a bundle that is not self-conjugate, read by an index that changes sign under conjugation.
+    The flat bundle T on the weave's moduli is one such bundle, through its orbifold corrections. A six-dimensional
+    object would be another (GENESIS FK11).
 - **The literature (read in abstract only).**
   - Modular S₄ ≅ Γ₄ flavor models put the three lepton doublets in an S₄ triplet, 3 or 3′ (Penedo–Petcov, Nucl. Phys.
     B 939 (2019) 292, arXiv:1806.11040; Novichkov–Penedo–Petcov–Titov, JHEP 04 (2019) 005, arXiv:1811.04933). There
@@ -1122,6 +1138,8 @@ no sign convention of Q. It writes down the holomorphic forms and integrates the
     they are the three non-trivial parities.
 
 **What it does not show (the links that stay readings).**
+- **Gauge chirality** (the qualification above): the common point is self-conjugate, so matter in r and r̄ comes in
+  equal numbers unless an end condition at the puncture is chosen (GENESIS GAP2).
 - **The dictionary:** that holomorphic zero modes on the internal fibre are the left-handed matter. This is the
   standard compactification reading (GENESIS FK11, I-26).
 - **The gauge content of each generation:** one 27 of E₆, by F-MC and the dictionary.
@@ -1132,7 +1150,8 @@ no sign convention of Q. It writes down the holomorphic forms and integrates the
   exchanges the hands.
 
 **Status.** PROVED (the theorem, by two proofs) and COMPUTED (the sign, with every control, and again from the actual
-periods at three τ): a WEAVE result. The reading "three chiral generations" rests on the dictionary.
+periods at three τ): a WEAVE result for the flavor structure. Gauge chirality is not shown. The reading "three
+generations" rests on the dictionary and on a source of gauge chirality.
 
 ## What the weave gives, and what it does not
 
@@ -1159,7 +1178,7 @@ periods at three τ): a WEAVE result. The reading "three chiral generations" res
 | W18 | COMPUTED (WEAVE, 32 states; a prediction that failed at special classes) | the five's sectors on the forced cover: at the generic class each of the three parity lines carries the five's pair (1, 1) on every carrier, the shape of the orbifold standard on the weave's own modules; on every carrier exactly two classes of the gluing line drop it to (0, 1) (the engine's basis met one on four); (0, 2) on the chiral twins; nothing on the mod-16 words. The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 these are class-index pairs, a selection by forced characters, not counts |
 | W19 | READING (the facts classical) | the weave's own surface: the moves with the fibre's group generate Aut⁺(F₂), every thread's group inside it, so the weave's space is M₁,₂, the universal punctured elliptic curve, every thread at once (each over its closed geodesic). Its Euler characteristic is 1/12, not 0, so B1604's vanishing stops at the threads. The three parities are the fixed points of the elliptic involution off the puncture, one curve of degree 3. The even-dimensional object main's FK11 asks for; no bundle named, no count read |
 | W20 | COMPUTED (exact; a census of all 21 SL(2)s in E₆, two routes); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame, carried by the weave's own SL(2) (the moves on the records), counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 through the principal sl₂ and through every distinguished one, while every thread reads 0 (B1604). ±3 on 13 of 21 SL(2)s; the 78 reads 16. Not chiral: the 27 and 27̄ read alike, and by the heterotic dictionary the matter is vector-like (four of each in degree one) |
-| W21 | PROVED (the invariance of the holomorphic part, two proofs) and COMPUTED (the sign, every control first; the rule committed before the run; a second route after it, the actual periods at three τ) | the hand by Hodge type: on the shared fibre at the common point, the Dirac operator for the three even spin structures (the three parities) has one zero mode each, an index of three, and all three are holomorphic and span T. T̄ is the other chirality. T = μ ⊗ 3′ (the holomorphic spin line times the cube's rotations at the common point). The hand is the sign move's spin lift; the swap reverses the orientation and exchanges T and T̄. The zero parity adds one singlet. The dictionary stays a reading (GENESIS FK11) |
+| W21 | PROVED (the invariance of the holomorphic part, two proofs) and COMPUTED (the sign, every control first; the rule committed before the run; a second route after it, the actual periods at three τ) | the hand by Hodge type: on the shared fibre at the common point, the holomorphic zero modes for the three parities (one each) span T, and the antiholomorphic ones T̄. Chiral under the weave's group; vector-like under a gauge group, because the common point is self-conjugate (an unequal count would need an end condition, GENESIS GAP2): the flavor structure of three generations, not their gauge chirality. T = μ ⊗ 3′ (the holomorphic spin line times the cube's rotations at the common point). The hand is the sign move's spin lift; the swap reverses the orientation and exchanges T and T̄. The zero parity adds one singlet. The dictionary stays a reading (GENESIS FK11) |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
