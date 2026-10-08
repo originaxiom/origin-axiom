@@ -1,0 +1,26 @@
+{
+ "id": "B1610",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1609",
+  "B1607",
+  "B1600",
+  "B1083",
+  "B466"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave: B1083's founding K4-torsor (the four Fibonacci-type rules under swap- and reversal-conjugation) and the inverse rule, read at the common point (2T-classes, parity 3-cycle senses) and on W21's space V (the Hodge-Riemann form, T and T-bar)",
+  "object": "five automorphisms of F2 and their double ticks; their lifts in 2O; their matrices on V (W10's move_matrix)",
+  "reach": "general",
+  "hypotheses": "hand (i) read through W21's form Q (the sealed spectral detector is vacuous and withdrawn); hand (ii) read as the parity 3-cycle sense and the 2T-class of the order-6 lift; B1083's arrow (forced by the monoid's non-surjectivity) taken as banked"
+ },
+ "claim_one_line": "THE HANDS ON THE FOUNDING TORSOR (sealed f916539c6), NEGATIVE as sealed: the headline 'both hands are one bit, the torsor's C bit' is refuted. Hand (ii), the McKay orientation of the tick, is flipped by swap-conjugation C and by the arrow and kept by the reversal, so given the forced arrow (B1083) it is the C bit -- a naming. Hand (i), the records' orientation, is on no rule: all four founding rules and the inverse reverse W21's form and exchange T and T-bar, every double tick keeps them, so the records' orientation is carried by the parity of the tick count, and the three's hand (B1609) is the sheet of the orientation double cover -- GENESIS SE2's choice -- not a naming. The sealed hand-(i) detector (the double tick's turns on T) was vacuous: the spectrum is {1, omega, omega^2} for every rule; its column read a rounding artifact and is withdrawn (E82, filed). GENESIS v1.31. 0 of 19.",
+ "weave_or_thread": "weave"
+}

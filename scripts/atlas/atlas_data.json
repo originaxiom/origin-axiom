@@ -11014,6 +11014,29 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1610": {
+   "slug": "the hands on the founding torsor",
+   "motifs": [
+    "monoid",
+    "choice",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B466",
+    "H0",
+    "H1",
+    "H2",
+    "H3",
+    "S88"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B161": {
    "slug": "cancellation locus stratification",
    "motifs": [

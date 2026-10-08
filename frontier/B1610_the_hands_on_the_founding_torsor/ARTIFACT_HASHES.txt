@@ -1,1 +1,4 @@
+# sealed at f916539c6: abed3511e4d5d14f2f7af6cd8cdd4299ea8b567e08f8897411094969bf6ac2f4  verification/hands_on_the_torsor.py (unchanged after the seal)
 abed3511e4d5d14f2f7af6cd8cdd4299ea8b567e08f8897411094969bf6ac2f4  verification/hands_on_the_torsor.py
+e37eb8c18e487e13e8d46aec0c849ad5662d22c315ebdbe05bb68f56ba0140b7  verification/hands_on_the_torsor.json
+60e2d2c5e9b94bdf2c8c21f4bab2fe764db79589669e82976ac6b8e98aaeb77f  verification/controls.json

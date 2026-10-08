@@ -11285,5 +11285,31 @@
    "hypotheses": "numerical (40 digits, B1492's tolerance); sign characters only; every forced kernel read; 'generation-shaped' = (-1, -1) with the class dead on every cusp, a pattern label, not an earned count (the class index on a 3-manifold lacks the rank-five shape identity, B1496)"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1610",
+  "claim_killed": "That B1607's two hands are one bit on the founding torsor -- the swap-conjugation bit C, given the forced arrow -- with the relative hand fixed for every rule; and the sealed detector for the records' hand (the double tick's eigenvalue turns on T).",
+  "kill_form": "Sealed (f916539c6) exact reading of B1083's four founding rules and the inverse rule at the common point and on W21's space V: every rule reverses the Hodge-Riemann form and exchanges T and T-bar, every double tick keeps them, so the records' hand is on no rule; the double tick's spectrum on T is {1, omega, omega^2} for every rule, so the spectral detector was vacuous (its column read a rounding artifact, withdrawn).",
+  "hatch": "the records' hand is the sheet of the orientation double cover (GENESIS SE2): what in the principle, if anything, distinguishes the start's orientation -- the one-sided fixed point of the substitution, the register's positivity (B1083's arrow), the relation to a second relatum (B1327's type R); and whether the double-tick restriction (P not a move, GM5c) is itself forced",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-08), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the McKay hand of the tick is the torsor's C bit given the arrow (a naming); the three's hand (B1609) is not a naming but the sheet, carried by the parity of the tick count; its existence is the double-tick restriction, the SE2-type choice.",
+  "faces_consulted": [
+   "B1609",
+   "B1607",
+   "B1600",
+   "B1083",
+   "B466",
+   "B1327",
+   "B1174"
+  ],
+  "fact_computed": "five rules and their double ticks: parity senses, 2T-classes, the form on V (all reverse; all double ticks keep Q and T), the double tick's turns on T ({0, 1/3, 2/3} for every rule)",
+  "scope": {
+   "frame": "the weave: B1083's founding torsor and the inverse rule, at the common point and on W21's V",
+   "object": "five automorphisms of F2 and their double ticks",
+   "reach": "general",
+   "hypotheses": "hand (i) read through W21's form; hand (ii) as the parity sense and the 2T-class; B1083's arrow as banked"
+  },
+  "weave_or_thread": "weave"
  }
 ]

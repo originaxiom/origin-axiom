@@ -148,3 +148,13 @@ From `docs/dossiers/the_weave_2026-10-07/`:
 - On Γ the puncture keeps an odd index (2T: the spinor and its two ω-twists, the deck exchanging the twists; ±3 with the
   grading) and W21's form is kept: the three's hand is **the records' orientation** — the bit the seat's W30 finds
   carrying the qutrit flux class. B1607, W30 and B1609 meet at **GM5c**: is the swap a move?
+
+## Main's addition: the hands on the founding torsor (B1610, 2026-10-08; GENESIS v1.31; NEGATIVE as sealed)
+
+- On B1083's four founding rules (σ, its swap-conjugate, its reversal, both) and the inverse rule: the **McKay hand** of
+  the tick is flipped by swap-conjugation and by the arrow and kept by the reversal — given the forced arrow (B1083) it is
+  the torsor's swap bit, a naming.
+- The **records' hand is on no rule**: all five reverse W21's form and exchange T and T̄; every double tick keeps them.
+  So it is carried by the parity of the tick count, and **the three's hand (B1609) is the orientation sheet — SE2's
+  choice — not a naming.** The sealed headline "both hands are one bit" is refuted; the sealed spectral detector (the
+  double tick's turns on T, {1, ω, ω²} for every rule) was vacuous and is withdrawn (E82).

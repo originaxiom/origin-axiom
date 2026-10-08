@@ -1,0 +1,196 @@
+{
+ "H0": {
+  "orbit": {
+   "sigma": {
+    "a": "ab",
+    "b": "a"
+   },
+   "C": {
+    "a": "b",
+    "b": "ba"
+   },
+   "rev": {
+    "a": "ba",
+    "b": "a"
+   },
+   "C_rev": {
+    "a": "b",
+    "b": "ab"
+   }
+  },
+  "size": 4,
+  "closed": true,
+  "all_positive": true
+ },
+ "reads": {
+  "sigma": {
+   "images": {
+    "a": "ab",
+    "b": "a"
+   },
+   "det": -1,
+   "sense": "backward",
+   "lifts_found": 2,
+   "form_on_V": "reverses",
+   "double_tick_images": {
+    "a": "aba",
+    "b": "ab"
+   },
+   "double_tick_sense": "forward",
+   "double_tick_order6_class": 0,
+   "rule_order6_class": 1,
+   "double_tick_form_on_V": "keeps",
+   "double_tick_keeps_T": true,
+   "double_tick_turns_on_T": [
+    0.333333,
+    0.666667,
+    1.0
+   ],
+   "double_tick_turns_on_Tbar": [
+    0.0,
+    0.333333,
+    0.666667
+   ]
+  },
+  "C": {
+   "images": {
+    "a": "b",
+    "b": "ba"
+   },
+   "det": -1,
+   "sense": "forward",
+   "lifts_found": 2,
+   "form_on_V": "reverses",
+   "double_tick_images": {
+    "a": "ba",
+    "b": "bab"
+   },
+   "double_tick_sense": "backward",
+   "double_tick_order6_class": 1,
+   "rule_order6_class": 0,
+   "double_tick_form_on_V": "keeps",
+   "double_tick_keeps_T": true,
+   "double_tick_turns_on_T": [
+    0.333333,
+    0.666667,
+    1.0
+   ],
+   "double_tick_turns_on_Tbar": [
+    0.333333,
+    0.666667,
+    1.0
+   ]
+  },
+  "rev": {
+   "images": {
+    "a": "ba",
+    "b": "a"
+   },
+   "det": -1,
+   "sense": "backward",
+   "lifts_found": 2,
+   "form_on_V": "reverses",
+   "double_tick_images": {
+    "a": "aba",
+    "b": "ba"
+   },
+   "double_tick_sense": "forward",
+   "double_tick_order6_class": 0,
+   "rule_order6_class": 1,
+   "double_tick_form_on_V": "keeps",
+   "double_tick_keeps_T": true,
+   "double_tick_turns_on_T": [
+    0.333333,
+    0.666667,
+    1.0
+   ],
+   "double_tick_turns_on_Tbar": [
+    0.0,
+    0.333333,
+    0.666667
+   ]
+  },
+  "C_rev": {
+   "images": {
+    "a": "b",
+    "b": "ab"
+   },
+   "det": -1,
+   "sense": "forward",
+   "lifts_found": 2,
+   "form_on_V": "reverses",
+   "double_tick_images": {
+    "a": "ab",
+    "b": "bab"
+   },
+   "double_tick_sense": "backward",
+   "double_tick_order6_class": 1,
+   "rule_order6_class": 0,
+   "double_tick_form_on_V": "keeps",
+   "double_tick_keeps_T": true,
+   "double_tick_turns_on_T": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "double_tick_turns_on_Tbar": [
+    0.0,
+    0.333333,
+    0.666667
+   ]
+  },
+  "inverse": {
+   "images": {
+    "a": "b",
+    "b": "Ba"
+   },
+   "det": -1,
+   "sense": "forward",
+   "lifts_found": 2,
+   "form_on_V": "reverses",
+   "double_tick_images": {
+    "a": "Ba",
+    "b": "Abb"
+   },
+   "double_tick_sense": "backward",
+   "double_tick_order6_class": 1,
+   "rule_order6_class": 0,
+   "double_tick_form_on_V": "keeps",
+   "double_tick_keeps_T": true,
+   "double_tick_turns_on_T": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "double_tick_turns_on_Tbar": [
+    0.333333,
+    0.666667,
+    1.0
+   ]
+  }
+ },
+ "H3": {
+  "C": {
+   "hand_ii_sense_of_double_tick": "flips",
+   "hand_ii_class_of_double_tick": "flips",
+   "hand_i_turns_on_T": "keeps"
+  },
+  "reversal": {
+   "hand_ii_sense_of_double_tick": "keeps",
+   "hand_ii_class_of_double_tick": "keeps",
+   "hand_i_turns_on_T": "keeps"
+  },
+  "C and reversal": {
+   "hand_ii_sense_of_double_tick": "flips",
+   "hand_ii_class_of_double_tick": "flips",
+   "hand_i_turns_on_T": "flips"
+  },
+  "arrow": {
+   "hand_ii_sense_of_double_tick": "flips",
+   "hand_ii_class_of_double_tick": "flips",
+   "hand_i_turns_on_T": "flips"
+  },
+  "relative_hand_is_the_same_for_every_rule": false,
+  "with_the_arrow_fixed_both_hands_are_C": false
+ }
+}

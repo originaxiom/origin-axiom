@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1338** |
-| words of findings prose | **1,045,837** |
-| test lock files referenced | **782** |
-| arcs carrying an authored verdict | **1338** (100.0 %) |
-| recorded closures | **810** (643 classified, 167 routed-only) |
+| research arcs with findings | **1339** |
+| words of findings prose | **1,046,870** |
+| test lock files referenced | **783** |
+| arcs carrying an authored verdict | **1339** (100.0 %) |
+| recorded closures | **811** (644 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 902 |
-| NEGATIVE | 334 |
+| NEGATIVE | 335 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 80 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 81 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE EVEN SUBWEAVE (sealed f8b9a8fea / ab418b74; the instrument repaired after a floating-point crash, disclosed): on Gamma = Z/6 *_{Z/2} Z/6, the subweave where both hands are global choices, -chi(Gamma; 27) = 9 = 3 + 6 (Shapiro: the weave's three plus a sign-twisted six) through the principal sl2, E6(a1) and E6(a3) alike, the 78 30 = 16 + 14; at level 2 the 27 is 3.1 + 6.eps + 9.std and every McKay sector on Gamma counts nine (the 78: 30, 24, 24). So the weave's three is the S3-invariant part of a level-2 count and the count of no McKay sector: a global omega and the three are exclusive on the weave's surface, and the McKay orientation (27 against 27-bar) cannot be the three's hand. On Gamma the puncture keeps an odd index (2T: the spinor and its two omega-twists, the deck exchanging the twists; +-3 with the grading) and W21's form is kept, so the three's hand is the records' orientation -- the bit that also carries the qutrit flux class (the SM seat's W30). B1607, W30 and B1609 meet at GM5c. GENESIS v1.30. 0 of 19.  
 `B1609_the_even_subweave/FINDINGS.md`
 
-**NEGATIVE — `B1603`** (863 words, 1 locks)  
-THE COUNT AT EVERY MEMBER (sealed 5d2787345 / f7723803; a weave result by inheritance): the SM seat's dictionary read at all 442 interior classes of the 242 members on the 20 carrier threads of B1602's census. The seat's floor and ceiling hold on every reading (442 of 442). +LR's 24 members all read (-1, -1) dead on every cusp (C1), -LR's 24 classes all (0, -3) (C2). The generation shape is NOT the root's: 122 readings are generation-shaped, 98 of them on ten even-trace threads -- +-LLR 12 each, +-LLLLR 12 each, +-LLRR 12 each, +LLLLLLR 6, -LLLLLLR 4, -LLLLRR 8, +LLLLLLRR 8 -- threads the seat's odd-trace census never read, two of them (+-LLR, +-LLLLR) not arithmetic (C3 fails). Eight kinds across the census: (-1, -2) 150, (-1, -1) 122, (0, -1) 64, (0, -2) 48, (2, -2) 32, (0, -3) 24, (1, 0) 1, (3, 1) 1 (C5 fails). Only (-1, -1) has the rank-five index's shape n_5bar = n_10; the zoo says the class index on a 3-manifold is an analogue of the physical index, not an index -- the dictionary's earning condition (the shape identity) is the open instrument question. NEGATIVE as sealed (the root's exclusivity of the generation shape dies on the weave's even-trace covers). No three. 0 of 19. CORRECTED at S84 (B1604): the kinds (1, 0) and (3, 1) and +LLLLLLR's six are on covers the audit finds unreliable at 40 digits and are withdrawn; on reliable covers 116 generation-shaped readings and six kinds; the verdict and C3's failure stand.  
-`B1603_the_count_at_every_member/FINDINGS.md`
+**NEGATIVE — `B1610`** (1033 words, 1 locks)  
+THE HANDS ON THE FOUNDING TORSOR (sealed f916539c6), NEGATIVE as sealed: the headline 'both hands are one bit, the torsor's C bit' is refuted. Hand (ii), the McKay orientation of the tick, is flipped by swap-conjugation C and by the arrow and kept by the reversal, so given the forced arrow (B1083) it is the C bit -- a naming. Hand (i), the records' orientation, is on no rule: all four founding rules and the inverse reverse W21's form and exchange T and T-bar, every double tick keeps them, so the records' orientation is carried by the parity of the tick count, and the three's hand (B1609) is the sheet of the orientation double cover -- GENESIS SE2's choice -- not a naming. The sealed hand-(i) detector (the double tick's turns on T) was vacuous: the spectrum is {1, omega, omega^2} for every rule; its column read a rounding artifact and is withdrawn (E82, filed). GENESIS v1.31. 0 of 19.  
+`B1610_the_hands_on_the_founding_torsor/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  
