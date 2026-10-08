@@ -1,0 +1,149 @@
+{
+ "C1": {
+  "order_G": 96,
+  "order_G_with_swap": 192,
+  "classes_G": 20,
+  "classes_G_with_swap": 19
+ },
+ "controls": {
+  "T_invariant": true,
+  "T_irreducible": 1.0,
+  "T_complex": true,
+  "swap_normalises_G": true
+ },
+ "C2": {
+  "automorphisms": 96,
+  "inner": 24,
+  "outer_classes": 4,
+  "cp_candidates_on_T": 24,
+  "swap_conjugation_is_an_automorphism": true,
+  "swap_conjugation_sends_T_to_Tbar": true
+ },
+ "C3": {
+  "class_inverting_automorphisms": 24,
+  "some_class_not_real": true,
+  "type_I": false
+ },
+ "C4": {
+  "twisted_FS_of_T_over_cp_candidates": [
+   [
+    -0.333333,
+    0.0
+   ],
+   [
+    -0.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0
+   ]
+  ],
+  "consistent_cp_on_T_exists": true
+ },
+ "C5": {
+  "T(x)T": {
+   "commutant_dim": 4,
+   "pieces": [
+    {
+     "dim": 1,
+     "norm": 1.0,
+     "real_character": false,
+     "cp_candidates_mapping_r_to_conj": 24,
+     "abs_twisted_FS_of_r": [
+      1.0
+     ],
+     "consistent_cp_on_T_and_r": 10
+    },
+    {
+     "dim": 2,
+     "norm": 1.0,
+     "real_character": true,
+     "cp_candidates_mapping_r_to_conj": 24,
+     "abs_twisted_FS_of_r": [
+      0.5,
+      1.0
+     ],
+     "consistent_cp_on_T_and_r": 10
+    },
+    {
+     "dim": 3,
+     "norm": 1.0,
+     "real_character": false,
+     "cp_candidates_mapping_r_to_conj": 24,
+     "abs_twisted_FS_of_r": [
+      0.0,
+      0.333333,
+      1.0
+     ],
+     "consistent_cp_on_T_and_r": 10
+    },
+    {
+     "dim": 3,
+     "norm": 1.0,
+     "real_character": false,
+     "cp_candidates_mapping_r_to_conj": 24,
+     "abs_twisted_FS_of_r": [
+      0.0,
+      0.333333,
+      1.0
+     ],
+     "consistent_cp_on_T_and_r": 10
+    }
+   ],
+   "sectors_forcing_cp_violation": []
+  },
+  "T(x)Tbar": {
+   "commutant_dim": 4,
+   "pieces": [
+    {
+     "dim": 3,
+     "norm": 1.0,
+     "real_character": true,
+     "cp_candidates_mapping_r_to_conj": 24,
+     "abs_twisted_FS_of_r": [
+      0.0,
+      0.333333,
+      1.0
+     ],
+     "consistent_cp_on_T_and_r": 10
+    },
+    {
+     "dim": 2,
+     "norm": 1.0,
+     "real_character": true,
+     "cp_candidates_mapping_r_to_conj": 24,
+     "abs_twisted_FS_of_r": [
+      0.5,
+      1.0
+     ],
+     "consistent_cp_on_T_and_r": 10
+    },
+    {
+     "dim": 3,
+     "norm": 1.0,
+     "real_character": true,
+     "cp_candidates_mapping_r_to_conj": 24,
+     "abs_twisted_FS_of_r": [
+      0.0,
+      0.333333,
+      1.0
+     ],
+     "consistent_cp_on_T_and_r": 10
+    },
+    {
+     "dim": 1,
+     "norm": 1.0,
+     "real_character": true,
+     "cp_candidates_mapping_r_to_conj": 24,
+     "abs_twisted_FS_of_r": [
+      1.0
+     ],
+     "consistent_cp_on_T_and_r": 10
+    }
+   ],
+   "sectors_forcing_cp_violation": []
+  }
+ }
+}
+python3 cp_on_the_weave.py  205.18s user 3.46s system 578% cpu 36.069 total

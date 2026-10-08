@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1339** |
-| words of findings prose | **1,046,870** |
-| test lock files referenced | **783** |
-| arcs carrying an authored verdict | **1339** (100.0 %) |
+| research arcs with findings | **1340** |
+| words of findings prose | **1,047,663** |
+| test lock files referenced | **784** |
+| arcs carrying an authored verdict | **1340** (100.0 %) |
 | recorded closures | **811** (644 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 902 |
+| PROVED | 903 |
 | NEGATIVE | 335 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1609`** (1122 words, 1 locks)  
-THE EVEN SUBWEAVE (sealed f8b9a8fea / ab418b74; the instrument repaired after a floating-point crash, disclosed): on Gamma = Z/6 *_{Z/2} Z/6, the subweave where both hands are global choices, -chi(Gamma; 27) = 9 = 3 + 6 (Shapiro: the weave's three plus a sign-twisted six) through the principal sl2, E6(a1) and E6(a3) alike, the 78 30 = 16 + 14; at level 2 the 27 is 3.1 + 6.eps + 9.std and every McKay sector on Gamma counts nine (the 78: 30, 24, 24). So the weave's three is the S3-invariant part of a level-2 count and the count of no McKay sector: a global omega and the three are exclusive on the weave's surface, and the McKay orientation (27 against 27-bar) cannot be the three's hand. On Gamma the puncture keeps an odd index (2T: the spinor and its two omega-twists, the deck exchanging the twists; +-3 with the grading) and W21's form is kept, so the three's hand is the records' orientation -- the bit that also carries the qutrit flux class (the SM seat's W30). B1607, W30 and B1609 meet at GM5c. GENESIS v1.30. 0 of 19.  
-`B1609_the_even_subweave/FINDINGS.md`
+**PROVED — `B1611`** (793 words, 1 locks)  
+IS CP VIOLATION FORCED ON THE WEAVE? (sealed 43ec84e8b): no. The weave's group G (order 96 on V = T + T-bar) has 96 automorphisms (24 inner); 24 send the matter triplet T to T-bar; 24 invert every class, so G is not of type I; every irreducible of T(x)T (1 + 2 + 3 + 3) and T(x)T-bar (3 + 2 + 3 + 1) admits a consistent CP; post-seal, ten automorphisms are one consistent CP on every sector at once, conjugation by the swap's lift among them (indicator +1 everywhere). So the weave's generalized CP is the record swap: CP is a symmetry exactly when the swap is a move, and on the chiral double-tick weave CP violation is allowed, not forced; P and CP have one origin; the group fixes no CP phase (a phase needs forced couplings). The SM seat's third test answered. GENESIS v1.32. 0 of 19.  
+`B1611_is_cp_violation_forced_on_the_weave/FINDINGS.md`
 
 **NEGATIVE — `B1610`** (1033 words, 1 locks)  
 THE HANDS ON THE FOUNDING TORSOR (sealed f916539c6), NEGATIVE as sealed: the headline 'both hands are one bit, the torsor's C bit' is refuted. Hand (ii), the McKay orientation of the tick, is flipped by swap-conjugation C and by the arrow and kept by the reversal, so given the forced arrow (B1083) it is the C bit -- a naming. Hand (i), the records' orientation, is on no rule: all four founding rules and the inverse reverse W21's form and exchange T and T-bar, every double tick keeps them, so the records' orientation is carried by the parity of the tick count, and the three's hand (B1609) is the sheet of the orientation double cover -- GENESIS SE2's choice -- not a naming. The sealed hand-(i) detector (the double tick's turns on T) was vacuous: the spectrum is {1, omega, omega^2} for every rule; its column read a rounding artifact and is withdrawn (E82, filed). GENESIS v1.31. 0 of 19.  

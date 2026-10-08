@@ -1,0 +1,25 @@
+{
+ "id": "B1611",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1610",
+  "B1607",
+  "B1600",
+  "B252"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave: its group G (the lifts of L and R on W10's V = T + T-bar), the matter triplet T, the irreducibles of T(x)T and T(x)T-bar as the possible mass-term partners; generalized CP as an automorphism sending each irreducible present to its conjugate with twisted Frobenius-Schur indicator +-1",
+  "object": "G (order 96) and G with the swap (192); Aut(G) by generator images on the multiplication table; characters on T and on the irreducible pieces of T(x)T and T(x)T-bar",
+  "reach": "general",
+  "hypotheses": "the criterion of Holthausen-Lindner-Schmidt and Chen-Fallbacher-Mahanthappa-Ratz-Trautner (cited, re-derived in the instrument); the fields of a theory on the weave taken to be T, T-bar and the pieces of their bilinears (a Higgs-type partner is any of them); no data read"
+ },
+ "claim_one_line": "IS CP VIOLATION FORCED ON THE WEAVE? (sealed 43ec84e8b): no. The weave's group G (order 96 on V = T + T-bar) has 96 automorphisms (24 inner); 24 send the matter triplet T to T-bar; 24 invert every class, so G is not of type I; every irreducible of T(x)T (1 + 2 + 3 + 3) and T(x)T-bar (3 + 2 + 3 + 1) admits a consistent CP; post-seal, ten automorphisms are one consistent CP on every sector at once, conjugation by the swap's lift among them (indicator +1 everywhere). So the weave's generalized CP is the record swap: CP is a symmetry exactly when the swap is a move, and on the chiral double-tick weave CP violation is allowed, not forced; P and CP have one origin; the group fixes no CP phase (a phase needs forced couplings). The SM seat's third test answered. GENESIS v1.32. 0 of 19.",
+ "weave_or_thread": "weave"
+}

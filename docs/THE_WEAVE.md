@@ -158,3 +158,12 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   So it is carried by the parity of the tick count, and **the three's hand (B1609) is the orientation sheet — SE2's
   choice — not a naming.** The sealed headline "both hands are one bit" is refuted; the sealed spectral detector (the
   double tick's turns on T, {1, ω, ω²} for every rule) was vacuous and is withdrawn (E82).
+
+## Main's addition: CP on the weave (B1611, 2026-10-08; GENESIS v1.32)
+
+- The weave's group G (order 96 on V) is **not of type I**: 24 of its 96 automorphisms invert every class. Every
+  irreducible of T ⊗ T (1 + 2 + 3 + 3) and T ⊗ T̄ (3 + 2 + 3 + 1) admits a consistent CP; ten automorphisms are one
+  consistent CP on every sector at once, and **conjugation by the swap's lift is one of them** (indicator +1 everywhere).
+- So the weave's generalized CP is the record swap: CP is a symmetry exactly when the swap is a move. On the chiral
+  double-tick weave **CP violation is allowed, not forced**, and P and CP have one origin. The group fixes no CP phase; a
+  phase needs forced couplings.

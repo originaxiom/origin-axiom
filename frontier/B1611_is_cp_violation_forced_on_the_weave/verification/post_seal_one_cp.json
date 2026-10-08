@@ -1,0 +1,58 @@
+{
+ "irreducibles_checked": [
+  "T",
+  "T(x)T[0] dim 1",
+  "T(x)T[1] dim 2",
+  "T(x)T[2] dim 3",
+  "T(x)T[3] dim 3",
+  "T(x)Tbar[0] dim 3",
+  "T(x)Tbar[1] dim 2",
+  "T(x)Tbar[2] dim 3",
+  "T(x)Tbar[3] dim 1"
+ ],
+ "automorphisms": 96,
+ "one_cp_consistent_on_every_sector": 10,
+ "those_are_involutions_up_to_inner": true,
+ "swap_conjugation": {
+  "T": [
+   1.0,
+   0.0
+  ],
+  "T(x)T[0] dim 1": [
+   1.0,
+   -0.0
+  ],
+  "T(x)T[1] dim 2": [
+   1.0,
+   -0.0
+  ],
+  "T(x)T[2] dim 3": [
+   1.0,
+   0.0
+  ],
+  "T(x)T[3] dim 3": [
+   1.0,
+   0.0
+  ],
+  "T(x)Tbar[0] dim 3": [
+   1.0,
+   0.0
+  ],
+  "T(x)Tbar[1] dim 2": [
+   1.0,
+   -0.0
+  ],
+  "T(x)Tbar[2] dim 3": [
+   1.0,
+   0.0
+  ],
+  "T(x)Tbar[3] dim 1": [
+   1.0,
+   0.0
+  ]
+ },
+ "swap_conjugation_consistent_on_every_sector": true,
+ "indicator_signs_of_the_consistent_cps_on_T": [
+  1.0
+ ]
+}

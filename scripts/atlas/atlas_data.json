@@ -11037,6 +11037,22 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1611": {
+   "slug": "is cp violation forced on the weave",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B252",
+    "B340"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B161": {
    "slug": "cancellation locus stratification",
    "motifs": [

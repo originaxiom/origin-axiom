@@ -108,3 +108,12 @@ new arc under a new seal") governs. The tones row's sin²θ pairing is spent; it
 kind-correct moduli pairing (K2's own admissible row) had never been contacted and seals
 as B1075 with the second-shot status priced. An unearned negative is as bad as
 numerology — the dual protocol's words, applied to this table's own reading.
+
+## The reopening (the owner, 2026-10-08)
+
+Asked how main should proceed on the parameter side after the weave's structure was located (B1606–B1610), the owner
+chose **"Reopen broadly"**: the value-contact covenant of B1066 ("the licensed value-contact surface is EXHAUSTED") is
+lifted for the weave's results generally. Every contact still goes through this table and L91's checklist: an
+admissible pairing by kind (above), a prediction sealed before any data is read, the data's currency checked (B1063),
+the imported expectation stated separately, and the grade under THE_BAR — a match resting on the unearned dictionary
+(GENESIS FK11) or on a stated selection is a READING, not a derivation. Recorded at S90 (B1611's landing).
