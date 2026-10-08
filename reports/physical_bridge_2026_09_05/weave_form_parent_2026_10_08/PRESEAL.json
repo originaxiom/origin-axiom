@@ -1,0 +1,17 @@
+{
+  "schema": "weave-form-parent-preseal-v1",
+  "phase": "before_first_packet_execution",
+  "parent_commit": "23d15ed982f40a9098a8a0a6fbe10e797d795ee8",
+  "research_only": true,
+  "nonauthor_review_pending": true,
+  "full_suite_pending": true,
+  "science_files": [
+    {"path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/DESIGN.md", "bytes": 5577, "sha256": "085b096327e0fe90cf407b7f52680461ada21d2a38fa65b1d66a9e84c8ff8738"},
+    {"path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md", "bytes": 9042, "sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5"},
+    {"path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/INPUTS.json", "bytes": 2403, "sha256": "d7a2c199510b4b09729f5b0f962ebfcc6bc9ed32732043aff410483c5882beda"},
+    {"path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/probe.py", "bytes": 11143, "sha256": "e77925916e4e4b8c5c21fd1a38d3bf1550c78f4ca45e33fce89af6d064c39c11"},
+    {"path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/reference.py", "bytes": 7268, "sha256": "aaed97d5c8733daf904989bf6ea99a322534449f8611a47e171eb8a43be586d7"},
+    {"path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/custody.rb", "bytes": 4625, "sha256": "0f790e0203aa06f4d28be79d0541a82c622939d3e08eb70d55188c01b4c20ca4"},
+    {"path": "tests/test_physical_bridge_weave_form_parent.py", "bytes": 4887, "sha256": "6d31de6bad39a0c7979f47f2b911152d1e4730a2aa1880f5916c04ffbeacbeab"}
+  ]
+}

@@ -27,7 +27,12 @@ The owner approved this mission and its roadmap on September 30, 2026:
 This is the authoritative mission for this audit lane. It is a research
 objective, not an assertion that Origin Axiom already determines nature.
 
-Latest interface currency October8: direct tracker read reports
+Further October8 interface currency: direct tracker read now reports
+ACTIVE with the same full parameter-free SM/TOE objective. Autonomous
+research continues; this does not complete or redefine the mission.
+The usageLimited read below was the earlier checkpoint state.
+
+Earlier interface currency October8: direct tracker read reports
 usageLimited, objective "derive parameter free standard model of physics
 and full toe from origin-axiom principles" unchanged. This research turn
 does not reset the limit, claim autonomous tracker resumption or mark the

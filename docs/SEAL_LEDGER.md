@@ -2193,3 +2193,24 @@ weave_puncture_operator_2026_10_08/FINDINGS.md preserves35 native/33
 reference/11 focused PASS at1f7982071, unchanged source after a preserved
 environment-only launch failure. Sheaf/local/formal grades only; no
 stationary physical chiral SM, full-suite or nonauthor acceptance claim.
+
+## October8 form fermion parent research seal
+
+Quaternion compact-cover form kernels, supplied (1,1) diagonal-twist
+Lorentz/reality dictionary, complete form gauge roster and live Weyl
+mass controls. Seal before scientific import/test collection; no new
+shared identifier. Companion spectrum, full curved interacting parent,
+generated twist and physical SM remain owed. PRESEAL.json in
+reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08 records
+the complete seven-file source hashes. Research-only, outside/full-suite
+acceptance pending; inherited governance failures are not waived.
+
+| File | SHA256 |
+|---|---|
+| weave_form_parent_2026_10_08/DESIGN.md | 085b096327e0fe90cf407b7f52680461ada21d2a38fa65b1d66a9e84c8ff8738 |
+| weave_form_parent_2026_10_08/PROOF.md | 9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5 |
+| weave_form_parent_2026_10_08/INPUTS.json | d7a2c199510b4b09729f5b0f962ebfcc6bc9ed32732043aff410483c5882beda |
+| weave_form_parent_2026_10_08/probe.py | e77925916e4e4b8c5c21fd1a38d3bf1550c78f4ca45e33fce89af6d064c39c11 |
+| weave_form_parent_2026_10_08/reference.py | aaed97d5c8733daf904989bf6ea99a322534449f8611a47e171eb8a43be586d7 |
+| weave_form_parent_2026_10_08/custody.rb | 0f790e0203aa06f4d28be79d0541a82c622939d3e08eb70d55188c01b4c20ca4 |
+| tests/test_physical_bridge_weave_form_parent.py | 6d31de6bad39a0c7979f47f2b911152d1e4730a2aa1880f5916c04ffbeacbeab |
