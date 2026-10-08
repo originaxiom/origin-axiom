@@ -158,6 +158,9 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     its sign is the orientation. This supersedes the qualification just above.
   - One thread alone leaves a line, so a vector-like condition exists on a thread, but not on the weave (GENESIS
     GAP2).
+- **The E₈ frames on the fibre (W23; a census).** With W22's condition, every SU(n) bundle built from the common point's
+  blocks gives at most one chiral 27 (E₆), two 16s (SO(10)), or SU(5)'s (1, 3) or (2, 2). Three complete generations
+  are impossible there. The weave's five reads (1, 3), anomalous by −2 (GENESIS FK11).
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

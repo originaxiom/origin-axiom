@@ -1,0 +1,27 @@
+{
+ "E6 (27 with the SU(3) bundle): number of chiral 27s -> how many bundles": {
+  "0": 5,
+  "1": 4
+ },
+ "SO(10) (16 with the SU(4) bundle): chiral 16s -> bundles": {
+  "0": 11,
+  "1": 16,
+  "2": 10
+ },
+ "SU(5) (10 with W, 5-bar with Lambda^2 W): (N(10), N(5-bar)) -> bundles": {
+  "(0, 0)": 14,
+  "(1, 3)": 20,
+  "(2, 2)": 10
+ },
+ "the weave's five D + P (F-HE, W17): (N(10), N(5-bar))": [
+  1,
+  3
+ ],
+ "the most complete chiral generations each frame gives": {
+  "E6": 1,
+  "SO(10)": 2,
+  "SU(5)": 2
+ },
+ "three complete generations in any of these frames": false,
+ "SU(5) anomaly of the weave's five's bulk modes (N(10) - N(5-bar))": -2
+}

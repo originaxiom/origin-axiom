@@ -18103,3 +18103,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Still a reading:** which fields carry the parity-twisted spin bundle (GENESIS FK11). On the 2d fibre the E₈
   frames give (1, 3) or one 27. Complete generations need a six-dimensional frame, where 6d anomaly cancellation
   (Dobrescu–Poppitz) allows only multiples of three identical generations.
+- **W23, the same evening: the E₈ frames on the fibre.** Over every SU(n) bundle built from the common point's
+  blocks, with W22's condition, they give at most one chiral 27, two 16s, or SU(5)'s (1, 3) or (2, 2). Three complete
+  generations are impossible there.
+- **The goal is not met.** The standard dictionary does not finish the derivation on the fibre. What remains:
+  - matter carrying the rank-six bundle;
+  - the puncture's localized content (the weave's five is anomalous by −2 there);
+  - a six-dimensional object.

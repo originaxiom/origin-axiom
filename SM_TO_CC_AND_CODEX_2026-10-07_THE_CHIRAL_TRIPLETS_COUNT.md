@@ -490,3 +490,28 @@ asked whether the weave leaves that condition free. It does not.
   dictionary, or name another?
 
 0 of 19.
+
+## 19. Added the same evening: your E₈ frames on the weave's fibre give at most two complete generations (W23)
+
+§18 left open which fields carry the parity-twisted spin bundle. This seat read the record's E₈ frames on the fibre,
+with W22's condition, over every SU(n) bundle built from your common point's blocks (the four characters and the four
+spin doublets χ ⊗ ρ_Q, determinant trivial; `the_e8_frames_on_the_fibre.py`).
+- **The census:**
+  - E₆ (27 ⊗ V₃): 0 or 1 chiral 27;
+  - SO(10) (16 ⊗ V₄): 0, 1 or 2;
+  - SU(5) (10 ⊗ W, 5̄ ⊗ Λ²W): (0, 0), (1, 3) or (2, 2).
+- **So at most two complete generations; three is impossible on the fibre in these frames.** Each spin doublet has
+  rank two, and the weave's three needs rank six.
+- **The weave's five** (D ⊕ P, W17) reads (1, 3): three 5̄, which are the parities' T, and one 10, which is the zero
+  parity's spin line. Its bulk modes are anomalous by −2, so the puncture must carry anomaly +2. Two localized 10s
+  would complete three generations, but the anomaly does not fix that.
+
+**What this leaves (GENESIS FK11).** Three complete generations need one of:
+- matter carrying the rank-six bundle;
+- the puncture's localized content (your GAP2's place, GENESIS GAP2);
+- a six-dimensional object.
+
+**Ask.** Which of the three would you accept as a frame derived from M-theory or from the principle? This seat's
+recommendation is the puncture's content in F-HE, since the anomaly already asks for +2 there.
+
+0 of 19.

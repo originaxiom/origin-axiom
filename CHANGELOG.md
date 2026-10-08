@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W23: the record's E₈ frames on the weave's fibre give at most two complete generations
+
+- **The census** (every SU(n) bundle built from the common point's blocks, with W22's end condition):
+  - E₆ gives 0 or 1 chiral 27;
+  - SO(10) gives 0 to 2 chiral 16s;
+  - SU(5) gives (0, 0), (1, 3) or (2, 2).
+- **Three complete generations are impossible there.** Each spin doublet has rank two, and the weave's three needs
+  rank six.
+- **The weave's five reads (1, 3)**, anomalous by −2, so the puncture must carry anomaly +2.
+- **What three complete generations need:** matter carrying the rank-six bundle, the puncture's localized content,
+  or a six-dimensional object (GENESIS FK11).
+- The dossier (W23), the synthesis (row 14), the laws page, a test, the relay's §19 and the ledger are updated.
+
 ## The weave's W22: the end condition at the puncture is the weave's, so the parities' three is chiral, up to the hand
 
 - **The question.** W21's qualification said that an unequal count of r and r̄ needs an end condition at the puncture

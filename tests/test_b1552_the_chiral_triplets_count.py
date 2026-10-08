@@ -349,3 +349,15 @@ def test_w22_the_end_condition_the_weave_fixes():
     assert t["threads"] == 50 and t["with distinct eigenlines"] == 46
     assert d["(4) the fixed one is odd (Arf 1)"] and d["(4) fixed by every move"] == ["(1, 1)"]
     assert d["the weave fixes the condition up to the hand (Lambda_+ = 0 or C^2 in every block; index -3 or +3)"]
+
+
+def test_w23_the_e8_frames_on_the_fibre():
+    """W23: with W22's condition, every SU(n) bundle built from the common point's blocks gives at most one chiral 27
+    (E6), two 16s (SO(10)), or SU(5)'s (1, 3) or (2, 2): never three complete generations; the weave's five reads (1, 3)"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_e8_frames_on_the_fibre.json").read_text(encoding="utf-8"))
+    assert d["the most complete chiral generations each frame gives"] == {"E6": 1, "SO(10)": 2, "SU(5)": 2}
+    assert not d["three complete generations in any of these frames"]
+    assert set(d["SU(5) (10 with W, 5-bar with Lambda^2 W): (N(10), N(5-bar)) -> bundles"]) == {"(0, 0)", "(1, 3)", "(2, 2)"}
+    assert d["the weave's five D + P (F-HE, W17): (N(10), N(5-bar))"] == [1, 3]
+    assert d["SU(5) anomaly of the weave's five's bulk modes (N(10) - N(5-bar))"] == -2
