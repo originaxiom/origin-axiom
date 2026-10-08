@@ -1,0 +1,25 @@
+{
+ "form": {
+  "L": "keeps",
+  "R": "keeps",
+  "sign": "keeps",
+  "swap": "reverses"
+ },
+ "signature": [
+  3,
+  3
+ ],
+ "pieces": [
+  "T",
+  "Tbar"
+ ],
+ "sigma_order6_lift": [
+  0.5,
+  0.0
+ ],
+ "sigma_sense": "backward",
+ "order6_classes": [
+  4,
+  4
+ ]
+}
