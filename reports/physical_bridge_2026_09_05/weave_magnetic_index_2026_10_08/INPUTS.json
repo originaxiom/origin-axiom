@@ -1,0 +1,62 @@
+{
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "ref": "e1c47e5e84c98d108808b3dc4ec1dd55886990ca",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "ref": "e1c47e5e84c98d108808b3dc4ec1dd55886990ca",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/probe.py",
+      "ref": "e1c47e5e84c98d108808b3dc4ec1dd55886990ca",
+      "bytes": 12778,
+      "sha256": "57a5b7bbe710e7314baf8e85087b34e9a6d2d007d75b530afd6a8c375bc5d46d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "ref": "e1c47e5e84c98d108808b3dc4ec1dd55886990ca",
+      "bytes": 8666,
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/probe.py",
+      "ref": "e1c47e5e84c98d108808b3dc4ec1dd55886990ca",
+      "bytes": 8672,
+      "sha256": "a9ee314ba30cd72241aa9b361c69aa76c6f72eefaa780a5c974eb56af3de1d04"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "ref": "e1c47e5e84c98d108808b3dc4ec1dd55886990ca",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    }
+  ],
+  "focused_expected_tests": 16,
+  "comparison_profiles": [
+    "line_table",
+    "charge_index_profiles",
+    "unstable_bounds"
+  ],
+  "unearned_flags": [
+    "full_Morse_index_computed",
+    "physical_fermion_index_computed",
+    "two_field_stability_computed",
+    "stable_nonzero_flux_phase_achieved",
+    "genesis_selection_derived",
+    "nonauthor_acceptance",
+    "physical_goal_achieved"
+  ],
+  "literature_grade": "No new external theorem adopted; spin-power L2 indices, Fredholm homotopy and negative-subspace argument authored, not independently accepted.",
+  "intake": {
+    "main": "08b7f328f",
+    "sm": "7c5d9726c",
+    "incoming_grade": "B1616 preregistration, not result; previous B1615 and magnetic-index relay caveats retained."
+  },
+  "pre_execution": "No science import/run/collection before committed/pushed/server-confirmed seal."
+}

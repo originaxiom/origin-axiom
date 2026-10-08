@@ -2488,3 +2488,24 @@ infinite physical Morse index for every finite c. Higher-flux discrete
 stability OPEN. No architecture-wide exclusion or physical goal completion.
 NEXT_TEST is post-run UNEXECUTED and outside this seal. Nonauthor analytic,
 full-suite/main-bank and inherited governance duties remain.
+
+## Magnetic bosonic index pre-execution seal October 8
+
+Same supplied curved E8 parent, complete cusp domain and trivial extending
+spin. Prior: the R=0 neutral magnetic family has at least50 complex
+negative directions at every nonzero integer flux and finite amplitude.
+This is a bosonic residual index, not a fermion count or full Morse index.
+The stationary second-field family is a separate open stability question.
+Commit/push/server confirmation precedes scientific import/run/collection.
+Seven science files; six sources pinned to e1c47e5e8. Governance26 PASS,
+four inherited FAIL, review374. Research publication, not main-bank acceptance.
+
+| File | SHA256 |
+|---|---|
+| weave_magnetic_index_2026_10_08/DESIGN.md | 117d5d7c44294a13c394fc95771e53c1bca7eb9c9838b8e2a2ac3e28e4dca753 |
+| weave_magnetic_index_2026_10_08/PROOF.md | 8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7 |
+| weave_magnetic_index_2026_10_08/INPUTS.json | e7f2c7f0a335bd646699370f9ca5438606e15d9d30ed948986ab7775c384d524 |
+| weave_magnetic_index_2026_10_08/probe.py | e9e5103c9ab63602fa6dde2d6688b701b817ed2b3b147417029b192d88075dea |
+| weave_magnetic_index_2026_10_08/reference.py | 39c1fb41e0de3ee1fd4c9f7a3bfa78045f4183c4773f1823a4e49a24c7560553 |
+| weave_magnetic_index_2026_10_08/custody.rb | 1c0602470d5365c3694e5aa778f850b2b267d0aec72190bc8c8ceafef0bc16e5 |
+| tests/test_physical_bridge_weave_magnetic_index.py | 6ec07b46c0366d4be52030a384c03ded2a39ea666e4000ea1b857d37523694ca |

@@ -1,0 +1,42 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/DESIGN.md",
+      "bytes": 5454,
+      "sha256": "117d5d7c44294a13c394fc95771e53c1bca7eb9c9838b8e2a2ac3e28e4dca753"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "bytes": 11161,
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/INPUTS.json",
+      "bytes": 2498,
+      "sha256": "e7f2c7f0a335bd646699370f9ca5438606e15d9d30ed948986ab7775c384d524"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/probe.py",
+      "bytes": 7655,
+      "sha256": "e9e5103c9ab63602fa6dde2d6688b701b817ed2b3b147417029b192d88075dea"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/reference.py",
+      "bytes": 3804,
+      "sha256": "39c1fb41e0de3ee1fd4c9f7a3bfa78045f4183c4773f1823a4e49a24c7560553"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/custody.rb",
+      "bytes": 4742,
+      "sha256": "1c0602470d5365c3694e5aa778f850b2b267d0aec72190bc8c8ceafef0bc16e5"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_magnetic_index.py",
+      "bytes": 4157,
+      "sha256": "6ec07b46c0366d4be52030a384c03ded2a39ea666e4000ea1b857d37523694ca"
+    }
+  ],
+  "status": "PRE-EXECUTION; no science import/run/collection",
+  "prior": "R=0 neutral magnetic family has at least50 complex negative directions at every nonzero integer flux; two-field stability remains separate",
+  "source_ref": "e1c47e5e84c98d108808b3dc4ec1dd55886990ca"
+}
