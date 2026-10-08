@@ -1,6 +1,24 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
-October8 form-parent research checkpoint:32 native/25 separate reference/
+October8 complete companion-roster research checkpoint:35 native/20 separate
+integer-weight reference/15 focused and40 three-packet regression PASS at
+revised pre-run a534e1ae6. First symbolic-equality verifier failure preserved
+at e6830c6d4; the repair was resealed before running. All four spin structures
+and nine minimal supplied (1,1) twists checked, including full gauge weights.
+Single-twist finite left zero totals276 or220; companions have55 or27 per
+slot and no weak-doublet zero partner for the protected(1,2,8) form sector.
+The at-least16 bare-mass protection survives this full finite roster.
+However, the same companion sector has a zero-energy cusp continuum in
+that gauge representation. No isolated four-dimensional particle reduction
+or physical chiral SM follows. Double twisting changes both the continuum
+dictionary and the number of form copies; it is not a free repair.
+Report: reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/FINDINGS.md.
+NEXT the SAME full curved action, bosonic Hessian, Yukawas and actual cusp
+response/isolating mechanism; generated twist/end/phase selection, anomalies,
+parameters and gravity remain. Silver remains a separate positive control.
+Full SM/TOE ACTIVE/unachieved; nonauthor/full-suite/main banking owed.
+
+Earlier October8 form-parent research checkpoint:32 native/25 separate reference/
 14 focused and25 two-packet regression PASS at unchanged pre-run59ef9eda8.
 Supplied (1,1) R twist retains genuine Weyl scalar/form fields; quaternion
 compact-cover form kernels give55 scalar/111 one-Hodge-type coefficients.

@@ -1,5 +1,18 @@
 # CC's banking relay read before the next local checkpoint
 
+## Complete companion roster research publication
+
+Revised science a534e1ae6 pushed and server-confirmed before execution;
+eight science files and four source pins unchanged.35 native/20 separate
+integer-weight reference/15 focused and40 regression PASS. First native
+exit1 at e6830c6d4 preserved byte-faithfully; REPAIR.md discloses structural
+equality failure and resealed simplify(lhs-rhs) plus wrong-weight control.
+No physical count changed to fit an outcome. Proof and full raw weight
+rosters published at weave_companion_roster_2026_10_08/. Finite mass
+protection survives the companions; gapless continuum prevents claiming
+a gapped compactification. Same four inherited governance failures,
+full-suite/nonauthor/main-bank duties retained. Goal remains ACTIVE.
+
 ## Further October8 form parent research publication
 
 Seven science files/four source pins unchanged from pre-run59ef9eda8;

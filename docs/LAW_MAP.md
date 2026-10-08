@@ -1,5 +1,18 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 companion-roster research sublemmas, not new shared/main-bank laws.
+Proof and exact locks: reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/;
+revised pre-run a534e1ae6,35 native/20 reference/15 focused/40 regression PASS.
+First verifier failure preserved; nonauthor analytic acceptance owed.
+
+| Conditional result | Exact scope and evidence |
+|---|---|
+| Ordinary-spin extension and kernel | Complete elliptic cusp, irreducible quaternion rho, zero scalar background: norm excludes z^(-1/2), canonical weights1/2 and degree-1 give negative stable slope and zero rho spin kernel. Dual flat canonical extension also degree-1, not the ordinary dual. Line sectors select the cancelling two-torsion spin character. Authored PROOF with Mehta--Seshadri assumptions; not compact sheaf H1 or a physical Fredholm index. |
+| Full finite companion roster | Q8 E8 multiplicities55/27/27/27/56 rebuilt at every colour/weak/family torus weight. Companion spin slots have55 or27 zero coefficients; nontrivial-character27 and invariant55 have no weak doublets. Single-twist full independent left totals276 or220; no additional left mirror from H.c. |
+| Mass protection with all zero companions | The single(1,2,8_family) form summand retains only a skew invariant bilinear and has no matching finite companion zero mode. At least16 complex coefficients lack a bare symmetric Weyl mass at the retained-symmetry origin. Does not establish isolated physical particles or immunity to continuum interactions. |
+| Same-representation low energy continuum | Cusp gauge minus-one eigenspace has character2*Vrho and dimension112; two ordinary-spin slots give224 zero-angular gauge fibre channels, not224 normalizable particles. Escaping derivative Weyl sequence has squared residual10/L^2. The continuum includes the same protected gauge representation; zero kernel is not a gap. |
+| Bounded minimal-twist comparison | All nine a,b in{-1,0,1}, same compact spin line and no extra flat R connection: zero rosters self-conjugate. Single twist has one R, double twist two R and an allowed symmetric mass. Double twist removes spin slots in the charge dictionary but is not thereby a full curved action, mass-generation proof or universal twisting census. |
+
 October8 form-parent research sublemmas, not new shared/main-bank laws.
 SM W21/W24 prior algebra and the published (1,1) twist dictionary credited.
 32 native/25 separate reference/14 focused and25 regression PASS at59ef9eda8.

@@ -1,5 +1,28 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+Latest October8 companion checkpoint advances the finite kinetic roster,
+not the full interacting parent: reports/physical_bridge_2026_09_05/
+weave_companion_roster_2026_10_08/FINDINGS.md.35 native/20 reference/15
+focused and40 regression PASS after disclosed resealed verifier repair.
+All four spin structures and nine minimal twists included. No companion
+zero weak doublet can pair the protected form sector; the same gauge
+sector nevertheless has a zero-energy cusp continuum. No architecture
+lead closed and no finite zero-mode count promoted to physical families.
+
+- PB-PARENT-ACTION: write the SAME full curved nonabelian (1,1) action,
+  its R connection, curvature terms, parent Yukawas and bosonic Hessian.
+  Vary fields and cusp domain together; a supplied W=0 EFT is not enough.
+- PB-CUSP-ISOLATION: establish an admitted dynamical end/source/geometry
+  or a proved decoupling mechanism before dropping the massless continuum.
+  A cutoff or asymptotic mass is a new input until generated and admitted.
+- PB-COMPANION-ANALYTIC: nonauthor review of canonical versus ordinary
+  dual extension and global L2 kernel proof remains; finite tests are
+  not a PDE certificate. The zero-kernel/essential-spectrum distinction
+  must survive any nonzero background or new domain.
+- PB-FLUX-JOINT: W30 read at c52fcc47c and W31 rule at55c26b10e; attach
+  actual action/domain/forcing data to any flux count. Local Green domains
+  must not be narrowed to full-unitary-invariant projectors without a law.
+
 Further October8 form-parent research advancement. Exact form census and
 mass-control report: reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/FINDINGS.md.
 At least16 complex form coefficients have no bare quadratic mass while

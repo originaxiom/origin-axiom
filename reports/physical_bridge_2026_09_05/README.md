@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+[October8 complete companion roster](weave_companion_roster_2026_10_08/FINDINGS.md):
+35 native/20 separate reference/15 focused and40 regression PASS after
+resealed verifier repair, failed first run retained. All four spin lines
+and nine minimal twists included. The single-twist finite roster retains
+the mass-protected form sector, but the same gauge representation occurs
+in a cusp continuum reaching zero energy. Complete finite zero counting
+does not justify a gapped four-dimensional reduction. Next full same-parent
+curved action, Yukawas, bosonic Hessian and actual cusp response; no SM/TOE.
+
 [October8 form fermion benchmark](weave_form_parent_2026_10_08/FINDINGS.md):
 32 native/25 reference/14 focused and25 regression PASS. Supplied twist
 retains Weyl form fields and W21's triplet; full form roster55/111.

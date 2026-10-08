@@ -2238,6 +2238,15 @@ minimal (1,1) twists and unchanged cusp continuum, not full physics.
 | weave_companion_roster_2026_10_08/custody.rb | a063f41d04c7c715eeb47c6b20ded7f2b90d20f78e27a54d9f70e1fb0f1a3b08 |
 | tests/test_physical_bridge_weave_companion_roster.py | f63b1ac5b5e2516b68f3f502fbc29f6b9b8767b2e6011c949d99601f943db545 |
 
+Companion repaired-seal disposition: EXECUTED unchanged at a534e1ae6.
+35 native/20 separate integer-weight reference/15 focused and40 three-packet
+regression PASS. Original e6830c6d4 failed equality predicate and raw output
+preserved; revised source was resealed before execution. Report:
+weave_companion_roster_2026_10_08/FINDINGS.md. Finite roster mass protection
+and same-sector gapless continuum are conditional operator results, not a
+full interacting compactification, generated selection, SM/TOE or outside
+acceptance. Next action/Yukawa/bosonic/end laws on the SAME candidate.
+
 Companion first-seal disposition: native exit1 at e6830c6d4, sole false
 predicate a structural rather than mathematical exponential equality.
 Byte-faithful FIRST_NATIVE.json and receipt retained; no reference or

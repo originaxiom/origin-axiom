@@ -1,0 +1,93 @@
+{
+  "pre_run_seal": "a534e1ae6f63cf7fa20d29749957a38311f12f6d",
+  "first_failed_seal": "e6830c6d4977e3bd0535d96f8fe632243d4ad617",
+  "captures": {
+    "NATIVE.json": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 5.387438000179827,
+      "log_bytes": 420815,
+      "log_sha256": "a0f1b29151d9c269c6e9a93ca5373e7af2a0b43b3486cb05639a5254b435ceed",
+      "argv": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/probe.py"
+      ]
+    },
+    "REFERENCE.json": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.2231039998587221,
+      "log_bytes": 419774,
+      "log_sha256": "48e4b88e83ea0cfd23c8993901132c94360e81b2b8a7594eadf0926de79d680c",
+      "argv": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/reference.py"
+      ]
+    },
+    "FOCUSED.txt": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 7.628541999962181,
+      "log_bytes": 99,
+      "log_sha256": "defb3d0848c611a6a3aa31ef9221ce4864b83fb88821b893f3a8868293dc29d9",
+      "argv": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_weave_companion_roster.py"
+      ]
+    },
+    "REGRESSION.txt": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 13.321506000123918,
+      "log_bytes": 100,
+      "log_sha256": "9ff9cd074a41ae107937289d153fcafc2cce710d66770e46311665b52f2a0202",
+      "argv": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_weave_puncture_operator.py",
+        "tests/test_physical_bridge_weave_form_parent.py",
+        "tests/test_physical_bridge_weave_companion_roster.py"
+      ]
+    },
+    "GOVERNANCE.txt": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 51.1850699998904,
+      "log_bytes": 2384,
+      "log_sha256": "92b7e5a24988b3ec19ab64dac9dd22e17c6c92edc7a9037e82570bc97fe9d8d4",
+      "argv": [
+        "python3",
+        "scripts/gates/gates.py"
+      ]
+    }
+  },
+  "acceptance": {
+    "native_predicates": 35,
+    "reference_predicates": 20,
+    "focused_tests": 15,
+    "regression_tests": 40,
+    "science_files_unchanged": 8,
+    "source_pins": 4,
+    "nonauthor_acceptance": false,
+    "full_suite_run": false,
+    "physical_goal_achieved": false,
+    "governance_pass": 26,
+    "governance_fail": 4,
+    "governance_failures": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "review_due_merges": 357
+  }
+}

@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-08 complete companion roster and low energy cusp channels
+
+35 native/20 separate integer-weight reference/15 focused and40 three-packet
+regression PASS at revised pre-run a534e1ae6. Original symbolic-equality
+failure at e6830c6d4 preserved; mathematical equality repair resealed before
+rerun. All four spin lines and nine minimal supplied twists included.
+Companion zero modes have55 or27 coefficients and no weak-doublet partner,
+so the at-least16 form-sector bare-mass obstruction survives the complete
+finite zero roster. The same gauge sector has a gapless cusp continuum:
+not an isolated particle theory or chiral SM. Full same-parent action,
+Yukawas, positivity and actual cusp response are next. Report under
+physical_bridge/weave_companion_roster_2026_10_08/FINDINGS.md. Full SM/TOE
+active; independent analytic/main-bank/full-suite acceptance remains owed.
+
 ## 2026-10-08 form fermion dictionary and mass protection benchmark
 
 32 exact native/25 separate Fraction reference/14 focused and25 two-packet

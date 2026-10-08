@@ -17503,3 +17503,39 @@ Next all admitted spin companion kernels and the same curved interacting
 action, bosonic positivity, source/end and anomaly laws; generated twist,
 metric/phase selection, complex SM chirality, physical parameters and gravity
 remain owed. Silver formal results preserved separately, not grafted.
+
+## 2026-10-08 complete companion fermions and the cusp continuum
+
+Path-qualified research checkpoint, no shared B identifier. Pushed pre-run
+seal e6830c6d4 yielded one false native predicate: direct structural equality
+of two exponential norm expressions. All other predicates passed; no
+reference/test run followed that failure. Original source and byte-faithful
+failed output retained. Post-hoc simplify(lhs-rhs)==0 repair and wrong-weight
+control sealed, pushed and server-confirmed at a534e1ae6 before rerunning.
+
+Eight science files/four source pins unchanged thereafter.35 exact native,
+20 separate integer-weight reference,15 focused and40 three-packet regression
+PASS, with literal exit/hash custody. Authored analytic kernel proof uses the
+actual cusp norm, canonical degree and irreducible parabolic stability. All
+four compact spin lines and nine minimal supplied R twists included. Full
+E8 gauge weights rebuilt, not just dimensions. No outside analytic/PDE or
+main-bank acceptance assigned; four inherited governance failures remain.
+
+Ordinary-spin slots have55 or27 L2 zero coefficients and no weak doublet.
+The single-twist full finite left roster276 or220 thus retains at least16
+form coefficients with no invariant bare quadratic mass at the preserved
+symmetry origin. Complete SM charge excess remains zero in these specified
+zero-background operators, not the architecture. Importantly the same rho
+gauge sector has a cusp continuum at zero energy:112 channels per spin slot,
+224 for both, not224 normalizable particles. An escaping Weyl sequence has
+squared residual10/L^2. Zero kernel does not justify integrating out a sector.
+Double twisting alters both the spectrum dictionary and form-copy pairing.
+
+Report: physical_bridge/weave_companion_roster_2026_10_08/FINDINGS.md.
+Reader fronts, conditional sublemmas, roadmap, open duties and sender relay
+updated together. Main b7ce48c5c and SM55c26b10e fetched again after tests;
+W30 code and W31 rule read, not numerical replays or automatic acceptance.
+Next SAME curved interacting parent, bosonic Hessian, Yukawas and actual cusp
+response/isolating mechanism. Generated twist/phase, anomalies, physical
+families, parameters and gravity remain. Silver control preserved separately.
+Full parameter-free SM/TOE goal remains ACTIVE and unachieved.

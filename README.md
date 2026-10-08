@@ -1,12 +1,21 @@
 # Origin Axiom
 
+> October8 [complete companion roster and cusp continuum](reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/FINDINGS.md):
+> 35 native/20 separate reference/15 focused and40 regression PASS after
+> a disclosed, resealed symbolic-equality verifier repair. Companion zero
+> modes preserve the earlier bare-mass protection, but a cusp continuum
+> reaches zero energy in the same gauge sector. This is a conditional
+> physical-operator result, not a separated particle theory or chiral SM.
+> Full curved action, Yukawas and an admitted isolation mechanism next.
+
 > October8 [form fermion kinetic benchmark](reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/FINDINGS.md):
 > a supplied R twist retains genuine Weyl form fields and the shared-fibre
 > triplet.32 native/25 reference/14 focused and25 regression PASS. Full
 > form charge roster is paired, but a pseudoreal sector has no invariant
 > bare Weyl mass at the retained-symmetry origin. This is a conditional
 > kinetic positive, not three SM generations, a full compactification or
-> a derived twist. Companion spectrum, curved dynamics and selection next.
+> a derived twist. Companion spectrum advanced in the newer checkpoint
+> above; curved dynamics and generated selection remain.
 
 > October6 [first nonlinear boundary correction](reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/FINDINGS.md):
 > a conditional formal cubic generator curves the supplied spectral

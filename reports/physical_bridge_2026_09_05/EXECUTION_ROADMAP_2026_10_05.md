@@ -78,6 +78,17 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    require admission on that action. Supplied W=0 EFT is not a complete KK
    truncation or permission to discard parent Yukawas. Generated twist and
    physical phase, global anomalies and full SM/TOE remain unfinished.
+   Stage2H October8 complete companion kinetic roster EXECUTED at research
+   grade: weave_companion_roster_2026_10_08/FINDINGS.md.35 native/20 separate
+   integer reference/15 focused and40 regression PASS at revised pre-run
+   a534e1ae6; first symbolic-equality verifier failure retained. All four
+   spin lines/nine minimal twists and all gauge weights retained. Finite
+   companion zero modes do not pair the protected form sector, but the
+   same representation appears in a zero-energy cusp continuum. No gapped
+   four-dimensional truncation or chiral SM. NEXT write and vary the SAME
+   curved interacting parent, all boson/fermion/Yukawa/cusp terms; derive
+   positivity and an admitted isolation mechanism before new family counts.
+   Do not replace the parent with supplied W=0 or silently change the twist.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.
