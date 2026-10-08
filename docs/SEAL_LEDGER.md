@@ -2238,6 +2238,25 @@ minimal (1,1) twists and unchanged cusp continuum, not full physics.
 | weave_companion_roster_2026_10_08/custody.rb | a063f41d04c7c715eeb47c6b20ded7f2b90d20f78e27a54d9f70e1fb0f1a3b08 |
 | tests/test_physical_bridge_weave_companion_roster.py | f63b1ac5b5e2516b68f3f502fbc29f6b9b8767b2e6011c949d99601f943db545 |
 
+## Curved interacting parent pre execution seal 2026 10 08
+
+All seven science files unexecuted at this seal. Source reviewed before
+sealing, including exact moment normalization and the Stokes phase.
+Commit, push and server confirmation precede import or test collection.
+Supplied classical action and stationary origin, not selected physics;
+no shared B identifier and nonauthor/main-bank acceptance still owed.
+
+| File | SHA256 |
+|---|---|
+| weave_curved_action_2026_10_08/DESIGN.md | 1dd7246d781b74ce2c34c274888290784ae33e4b7773d627c5c591117bb02f1d |
+| weave_curved_action_2026_10_08/PROOF.md | c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f |
+| weave_curved_action_2026_10_08/INPUTS.json | 119b48fa5b45792873225760fcd0e5cff0207b4b8ef85585da750527a50dfaa6 |
+| weave_curved_action_2026_10_08/probe.py | dd53ae8840bdaac76e2545296681fcd43314842ac6cd5e302510fc8528786b4e |
+| weave_curved_action_2026_10_08/reference.py | 1b9dc914defe4e38c0d20206c2c40177ca9c72c99073f4a1aa226bc5f481976b |
+| weave_curved_action_2026_10_08/custody.rb | fbb88a36d354810afeef4972d27a01572e3a9d9edfe76456ebbe2053a6b1a208 |
+| tests/test_physical_bridge_weave_curved_action.py | acbab33e9ef6c520223d09dc5fcc20806f656b710837bf2613bdfe5672d1ac64 |
+
+
 Companion repaired-seal disposition: EXECUTED unchanged at a534e1ae6.
 35 native/20 separate integer-weight reference/15 focused and40 three-packet
 regression PASS. Original e6830c6d4 failed equality predicate and raw output

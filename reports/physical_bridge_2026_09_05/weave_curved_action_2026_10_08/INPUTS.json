@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "ref": "d0562ade0028adece9cf024446fb30b6ef35caab",
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+      "bytes": 8621,
+      "sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0"
+    },
+    {
+      "ref": "d0562ade0028adece9cf024446fb30b6ef35caab",
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/probe.py",
+      "bytes": 9485,
+      "sha256": "d10f262c70c4dee8c3e29e075a7f386f405c59a0065f6e474e13fbbd0b449847"
+    },
+    {
+      "ref": "59ef9eda8692307e02938273f969a5eebe535c0a",
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md",
+      "bytes": 9042,
+      "sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5"
+    },
+    {
+      "ref": "1f7982071d1ea04bb0c88002883f221b9d0b6a2c",
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+      "bytes": 9470,
+      "sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f"
+    }
+  ],
+  "focused_expected_tests": 16,
+  "comparison_profiles": [
+    "action_profile"
+  ],
+  "unearned_flags": [
+    "genesis_selects_action",
+    "gapped_4D_reduction_derived",
+    "physical_chiral_SM_derived",
+    "global_anomaly_acceptance",
+    "full_nonlinear_domain_theorem",
+    "nonauthor_acceptance"
+  ],
+  "primary_sources": [
+    {
+      "title": "Arkani-Hamed, Gregoire, Wacker hep-th/0101233v2",
+      "url": "https://arxiv.org/abs/hep-th/0101233v2",
+      "bytes": 189291,
+      "sha256": "5f5dd8fe2f999160a6321665bb6721872374e6a3e3b8ec7a5dd242e8d8215f6a",
+      "read_scope": "All 21 PDF pages, including references; pages 8, 10, 16, 17 visually inspected before this seal. Flat parent structure and gapless-limit discussion, not a derivation of the authored curved OA theory."
+    },
+    {
+      "title": "Andrews Dorey hep-th/0601098v2",
+      "url": "https://arxiv.org/abs/hep-th/0601098v2",
+      "sha256": "ac04d3a0b676bb94fd1c1474683d49652ae057f80d007f6ba838d85424b503e6",
+      "read_scope": "Section 3, Appendix A and end of section 6, with reading-custody refinement disclosed at ca539e331; not the full paper."
+    }
+  ],
+  "scope": "Supplied classical compact E8 action on M4 times the complete shared punctured elliptic fibre, quaternion flat connection, single SU2_A twist, all four compact spin lines; stationary origin, finite-energy graph domain; no source or new mass."
+}

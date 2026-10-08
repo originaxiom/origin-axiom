@@ -1,0 +1,39 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/DESIGN.md",
+      "bytes": 5960,
+      "sha256": "1dd7246d781b74ce2c34c274888290784ae33e4b7773d627c5c591117bb02f1d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/INPUTS.json",
+      "bytes": 2491,
+      "sha256": "119b48fa5b45792873225760fcd0e5cff0207b4b8ef85585da750527a50dfaa6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/probe.py",
+      "bytes": 10842,
+      "sha256": "dd53ae8840bdaac76e2545296681fcd43314842ac6cd5e302510fc8528786b4e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/reference.py",
+      "bytes": 5543,
+      "sha256": "1b9dc914defe4e38c0d20206c2c40177ca9c72c99073f4a1aa226bc5f481976b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/custody.rb",
+      "bytes": 4627,
+      "sha256": "fbb88a36d354810afeef4972d27a01572e3a9d9edfe76456ebbe2053a6b1a208"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_curved_action.py",
+      "bytes": 4365,
+      "sha256": "acbab33e9ef6c520223d09dc5fcc20806f656b710837bf2613bdfe5672d1ac64"
+    }
+  ]
+}
