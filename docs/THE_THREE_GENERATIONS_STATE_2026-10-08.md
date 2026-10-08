@@ -150,6 +150,9 @@ Under the owner's rulings, the table's rows split into two groups:
   T̄ ⊗ T. With E₆'s cubic and one 27 Higgs the Yukawas are symmetric. A Higgs without flavour then gives no mass, and
   every residual-aligned spectrum is degenerate or zero. This rests on the character c of the weave's group on T, a
   frame datum (GENESIS FK11).
+- **Main's S95 (B1617), verified here (W40), given τ = ω:** the residual group at ω (order 48) keeps T irreducible,
+  because the inner automorphisms act as the parity signs at every τ. So the masses at ω are degenerate. W39's
+  consequences are qualified to weight-0 couplings; main's next cell takes modular-form Yukawas of weight k.
 
 ## Questions open with main
 

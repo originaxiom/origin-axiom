@@ -26,7 +26,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   GM5c); Λ a tagged working postulate (GENESIS FK11 open); naturality for flat counts only (GENESIS FK10
   open); positivity kept. On the ruled branch the results for L and R alone apply.
 - W38: main's B1615 and B1616 verified: the weave's group fixes no mass, charged or neutrino.
-- W39 (a reading given Λ): the masses' tensor is T ⊗ T; a Higgs without flavour gives no mass.
+- W39 (a reading given Λ): the masses' tensor is T ⊗ T; at weight 0 a Higgs without flavour gives no mass.
+- W40: main's B1617 verified, given τ = ω: the residual group (order 48) keeps T irreducible.
 
 ## The setting
 
@@ -2318,6 +2319,46 @@ thread: the invariants are the weave's (the group of every move); an alignment a
 
 **Status.** READING given Λ (W27, the owner's ruling 2); the invariants are COMPUTED (W38). 0 of 19.
 
+**Qualified the same night (after main's S95).** W39's consequences hold for couplings that are constants, invariant
+under the whole group (weight 0). That is the reading B1615 to B1617's Z3 also take. Main's next cell (B1618) takes the
+Yukawas as modular forms of weight k. There the automorphy factor can supply the phase c̄². So "a Higgs without flavour
+gives no mass" holds at weight 0 only. The tensor point (T ⊗ T given Λ) is not affected.
+
+## W40. Main's B1617 verified: the weave at τ = ω (`the_weave_at_omega_verified.py`)
+
+**Why.** Main's S95 reports B1617 (given the owner's tagged postulate τ = ω): NEGATIVE as sealed. This seat promised in
+§38 to verify it with its own construction after the read-out. A VERIFICATION, not blind: the read-out was read first
+(main @ 5658257a).
+
+**What was done.** The residual symmetry at ω was built from W21's construction, with every lift in 2O, and restricted
+to T (as in W35 and W38). Its generators:
+- U: a ↦ b, b ↦ a⁻¹b (main's "L⁻¹ then R");
+- the inner automorphisms (conjugation by a and by b);
+- the sign −I.
+
+**The result (COMPUTED; every check holds).**
+- U's H₁ matrix [[0, −1], [1, 1]] has order 6 and fixes ω, under τ ↦ (aτ + b)/(cτ + d) and under the inverse matrix.
+- The residual group has order 48 on T, and T is irreducible under it (commutant 1). So B1617's Z2 fails, as main
+  found.
+- In W38's normal form:
+  - the inner automorphisms act as diagonal signs: the Klein group, the parity grading;
+  - U acts as i times a signed 3-cycle of the parity axes;
+  - −I acts as ±i times a parity sign.
+  - All of them lie in the L, R group of order 96.
+- U has order 12 on T, with eigen-turns ¼, 7/12 and 11/12 for one lift (shifted by ½ for the other).
+- Invariants under the residual group:
+  - T̄ ⊗ T has one, so three equal masses on B1615's tensor;
+  - T ⊗ T and Sym² T have none, so no mass at ω at weight 0 on W39's tensor given Λ.
+- Disclosed: the first run wrote three booleans as strings. The serialisation was fixed and the script rerun; the
+  values are identical.
+
+**What it shows.**
+- B1617 stands on this seat's construction. The inner automorphisms fix every τ, so the parity grading is a symmetry at
+  every τ, and at ω it joins U's 3-cycle into an A₄-type group that keeps T irreducible.
+- This is the case §38 point 5 named: the Klein group together with a 3-cycle.
+
+**Status.** VERIFIED (not blind): main's WEAVE result, reproduced, given τ = ω. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2468,6 +2509,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W37 | VERIFIED (not blind; S92 read first); main's WEAVE results reproduced | main's B1613: TM1's relations derived here from the matrix entries; at sin²θ₁₃ = 0.02248, sin²θ₂₃ = 0.470: sin²θ₁₂ = 0.31800, cos δ = −0.130278, δ = 97.49° or 262.51°, J = ±0.03378, the column exact on both branches. Main's B1614: the joint fixed points (0, 0, 0) and (2, 2, 2); the trivial line (2, 0, 2), each parity line (1, 1, 0), the adjoint (3, 3, 0), the doublet and each matter block (2, 0, 2) as (H¹, visible, private); χ_T(L) = e^{−iπ/4}, χ_T(R) = e^{+iπ/4}, χ_T(LR) = 0; the odd classes of rank 2 over 𝔽₂. Agrees with W34 where they overlap |
 | W38 | VERIFIED (not blind; S93 and S94 read first); main's WEAVE results reproduced | main's B1615 and B1616 rebuilt from W21's construction: no invariant bilinear or trilinear of T alone; T̄ ⊗ T = 1 + 2 + 3 + 3; a singlet Higgs gives (1, 1, 1); the fixed Dirac vacua give (0, 1, 1) or (½, ½, 1), and along RRL a family with m₁ + m₂ = m₃ (to 3 × 10⁻¹⁵); Sym² T = 1 + 2 + 3, Λ² T irreducible, no Majorana vacuum fixed along RRL, rigid spectra (1, 1, 1), (½, ½, 1), (0, 1, 1) elsewhere. The weave's group fixes no mass. Exact addendum (post hoc, for the audit lane): T is the cube's rotations twisted by a character (W21's μ ⊗ 3′); the sum rule is Heron's identity on the whole family, masses ∝ (r, (1 − r)/2, (1 + r)/2); every residual-fixed Majorana matrix, all pieces at once, has a degenerate pair; several Higgs irreducibles along one residual leave the masses free |
 | W39 | READING given Λ (no new computation) | given W27's Λ every left-handed field of a generation is in T, so a mass term's tensor is T ⊗ T, not B1615's T̄ ⊗ T; with E₆'s cubic and one 27 Higgs the Yukawas are symmetric (Sym² T, B1616's tensor, for every sector): no mass from a flavourless Higgs or from the generations' own 27s, any mass needs a Higgs carrying c̄², and every residual-aligned spectrum is degenerate or zero. Rests on the character c (physical in W24's E₈ embedding, centraliser F₄ × SU(2); gauge where a U(1) acts on T), a frame datum of GENESIS FK11 |
+| W40 | VERIFIED (not blind; S95 read first); main's WEAVE result reproduced, given τ = ω | main's B1617 rebuilt from W21's construction: U (a ↦ b, b ↦ a⁻¹b; H₁ matrix of order 6, fixing ω), the inner automorphisms and −I generate a group of order 48 on T, irreducible (commutant 1); the inner automorphisms are the Klein group's diagonal signs (the parity grading), U is i times a 3-cycle of the parity axes, with eigen-turns ¼, 7/12, 11/12 (order 12); one invariant in T̄ ⊗ T (three equal masses), none in T ⊗ T or Sym² T. W39 qualified: its consequences hold at weight 0 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2510,6 +2552,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
+- `the_weave_at_omega_verified.py` → `the_weave_at_omega_verified.json`: W40, main's B1617 recomputed, given τ = ω (a verification, not blind).
 - `the_couplings_exact.py` → `the_couplings_exact.json`: W38's exact addendum (post hoc): the normal form of the group on T, Heron's identity on B1615's family, and each residual's whole fixed space.
 - `the_tm1_prediction_and_observer_layer_verified.py` → `the_tm1_prediction_and_observer_layer_verified.json`: W37, main's B1613 and B1614 recomputed (a verification, not blind).
 - `the_sm_centralizer_in_e8.py` → `the_sm_centralizer_in_e8.json`: W36, the Standard Model's centralizer in E₈ by exact root arithmetic (a review of the audit lane's step 1).

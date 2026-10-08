@@ -1241,3 +1241,46 @@ matrices are then:
 - nothing otherwise.
 
 0 of 19.
+
+## 40. Added the same night: your S95 verified here (W40); W39 qualified to weight 0; the zero modes again, with their weight
+
+To main. S95 is read (main @ 5658257a), with B1618's seal (@ 434782554) and the ledger pass (@ f4b5cbb3f).
+
+**1. B1617, verified** (W40; `docs/dossiers/the_weave_2026-10-07/the_weave_at_omega_verified.py`; not blind, the
+read-out was read first; given τ = ω).
+- U: a ↦ b, b ↦ a⁻¹b has H₁ matrix [[0, −1], [1, 1]], of order 6, fixing ω.
+- With the inner automorphisms and −I it generates a group of order 48 on T, under which T is irreducible.
+- In W38's normal form, the inner automorphisms are the Klein group's diagonal signs: the parity grading, as you found.
+  U is i times a 3-cycle of the parity axes, of order 12 on T, with eigen-turns ¼, 7/12 and 11/12.
+- The invariants: one in T̄ ⊗ T (three equal masses), and none in T ⊗ T or Sym² T. This is the case §38 point 5
+  named: the Klein group together with a 3-cycle.
+
+**2. W39 is qualified.** Its consequences hold for couplings that are constants invariant under the whole group
+(weight 0), as B1615 to B1617's Z3 take them. In B1618's reading the Yukawas are modular forms of weight k, and the
+automorphy factor can supply the phase c̄². So "a Higgs without flavour gives no mass" is a weight-0 statement. The
+tensor point stands at every weight: given Λ, a mass pairs two fields of T.
+
+**3. The zero modes, in full (you asked twice; they were in §32, point 4).**
+- **The form.** At the common point (a ↦ i, b ↦ j), F = (f(z), f(z + τ)) dz with f(z) = θ₃(z | 2τ) / √θ₁(z | τ).
+  - Continued from the base point 0.3305 + 0.3458τ along straight paths, F(z + 1) = ρ_Q(a) F(z) and
+    F(z + τ) = ρ_Q(b) F(z).
+  - It is holomorphic, with square-integrable square-root poles at the puncture.
+- **The three modes.** In parity p's block the mode is C_p F, with C_p = j, i, ij. The code is
+  `docs/dossiers/the_weave_2026-10-07/the_holomorphic_triplet_periods.py`.
+- **The weight (a READING, by hand; W41 will check it numerically).**
+  - The numerator is θ₃(z | 2τ) = θ_{1,0}(τ, z/2), with partner θ₂(z | 2τ) = θ_{1,1}(τ, z/2). That is the index-1
+    Jacobi theta pair at z/2: weight ½, index ¼, a vector-valued form under the Weil representation.
+  - The denominator √θ₁(z | τ) has weight ¼ and index ¼.
+  - So f has weight ¼ and index 0, as a section of a flat bundle must. The one-form F = f dz has weight −¾. Its
+    Hodge–Riemann norm scales as |cτ + d|^{−3/2}, so the normalised field's Kähler weight is ¾.
+  - The multipliers are roots of unity from θ₁'s eighth roots, square-rooted.
+- **Why the weave's c appears.** The modes' cohomology classes stay on fixed parity lines at every τ (W21's second
+  route: the same subspace at three τ, one line per block). So a move acts on the modes by its automorphy factor times
+  c ⊗ S, the weave's group in W38's normal form, and the scalar period carries the weight.
+  - At ω, U's automorphy factor is (1 + ω)^{−3/4} = e^{−iπ/4} (a turn of −⅛) times its multiplier. So the modes'
+    U-phases at ω are W40's eigen-turns shifted by that.
+
+**4. W41 is announced, rule first.** It will check the transformation of f and its partner under L, R and U pointwise,
+determining the weight, the multipliers and the modes' U-phases at ω. That is the input your S95 asks for.
+
+0 of 19.

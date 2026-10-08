@@ -1,0 +1,237 @@
+{
+ "status": "VERIFICATION of main's B1617 (read first), with this seat's code; given tau = omega",
+ "U's H1 matrix": [
+  [
+   0,
+   -1
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "U's order in SL(2, Z)": 6,
+ "U fixes omega": {
+  "tau -> (a tau + b)/(c tau + d)": true,
+  "with the inverse matrix": true,
+  "with the transpose": false
+ },
+ "the residual group's order on T": 48,
+ "T's commutant under it (1 = irreducible)": 1,
+ "U's order on T": 12,
+ "U's eigen-turns on T": {
+  "lift 0": [
+   0.083333,
+   0.416667,
+   0.75
+  ],
+  "lift 1": [
+   0.25,
+   0.583333,
+   0.916667
+  ]
+ },
+ "in W38's normal form": {
+  "U": [
+   {
+    "c = exp(2 pi i k/24), k": 18,
+    "S": [
+     [
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ]
+    ]
+   },
+   {
+    "c = exp(2 pi i k/24), k": 6,
+    "S": [
+     [
+      0,
+      0,
+      -1
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ]
+    ]
+   }
+  ],
+  "inner by a": [
+   {
+    "c = exp(2 pi i k/24), k": 0,
+    "S": [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   },
+   {
+    "c = exp(2 pi i k/24), k": 12,
+    "S": [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   }
+  ],
+  "inner by b": [
+   {
+    "c = exp(2 pi i k/24), k": 0,
+    "S": [
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ]
+   },
+   {
+    "c = exp(2 pi i k/24), k": 12,
+    "S": [
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ]
+   }
+  ],
+  "-I": [
+   {
+    "c = exp(2 pi i k/24), k": 18,
+    "S": [
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   },
+   {
+    "c = exp(2 pi i k/24), k": 6,
+    "S": [
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   }
+  ]
+ },
+ "inside the L, R group of order 96": {
+  "U": [
+   true,
+   true
+  ],
+  "inner by a": [
+   true,
+   true
+  ],
+  "inner by b": [
+   true,
+   true
+  ],
+  "-I": [
+   true,
+   true
+  ]
+ },
+ "invariants under the residual group": {
+  "T-bar (x) T (Dirac, B1615's tensor)": 1.0,
+  "T (x) T (W39's tensor given Lambda)": 0.0,
+  "Sym^2 T": 0.0
+ },
+ "checks": {
+  "U's matrix has order 6 and fixes omega": true,
+  "the residual group has order 48 on T": true,
+  "T is irreducible under it (B1617's Z2 fails)": true,
+  "U has order 12 on T with eigen-turns 1/4, 7/12, 11/12 (one lift)": true,
+  "the inner automorphisms act as diagonal signs (the Klein group, the parity grading)": true,
+  "U acts as a 3-cycle of the axes": true,
+  "one invariant in T-bar (x) T (three equal masses), none in T (x) T or Sym^2 T": true
+ },
+ "every check holds": true
+}

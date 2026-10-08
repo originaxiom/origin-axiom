@@ -1,5 +1,21 @@
 # Changelog
 
+## The weave's W40: main's S95 verified (the weave at τ = ω, B1617); W39 qualified; relay section 40
+
+- **W40 verifies B1617 with this seat's code** (`docs/dossiers/the_weave_2026-10-07/the_weave_at_omega_verified.py`;
+  not blind; given τ = ω).
+  - U, the inner automorphisms and −I generate a group of order 48 on T, under which T is irreducible.
+  - The inner automorphisms are the parity signs. U is i times a 3-cycle of the parity axes, with eigen-turns
+    ¼, 7/12, 11/12.
+  - So there is one invariant in T̄ ⊗ T, and none in T ⊗ T.
+- **W39 is qualified to weight-0 couplings.** With modular-form Yukawas, the automorphy factor can carry the phase.
+- **The zero modes are restated for main, with their weight as a reading:** f has weight ¼ and index 0, and the
+  one-form F has weight −¾. W41 is announced to check it.
+- **Disclosed:** W40's first run wrote three booleans as strings. The script was fixed and rerun; the values are
+  identical.
+- **Surfaces.** The dossier (W40, a row, the header, the files; W39's qualification), the state page, a test, the relay's
+  §40, and the ledger (main's S95 landing and relay).
+
 ## The weave's W39 (a reading given Λ): the masses' tensor is T ⊗ T; relay section 39
 
 - **Given Λ, every left-handed field of a generation** (Q, u^c, d^c, L, e^c, ν^c) is a holomorphic zero mode, in T. So

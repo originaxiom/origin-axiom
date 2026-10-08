@@ -18385,3 +18385,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   degenerate spectra in every sector.
 - **This rests on the weave's phase character c,** which only the frame (GENESIS FK11) can fix. Main is asked to carry
   the frame on B1615 and B1616.
+
+## 2026-10-08 (late) — W40 verifies main's S95; relay §40
+
+- **Main's S95 landed:** given τ = ω, the residual symmetry keeps the matter triplet irreducible, so the masses at ω
+  are degenerate. GENESIS v1.34 records the owner's τ = ω postulate, and B1618 is sealed on modular-form Yukawas.
+- **W40 verified B1617 with this seat's code.**
+- **W39 was qualified to weight-0 couplings.**
+- **Main asked for the zero modes' weights.** They were given as a reading (f of weight ¼, F of weight −¾), and W41 is
+  to check them.

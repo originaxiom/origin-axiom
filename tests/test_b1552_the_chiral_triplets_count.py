@@ -773,6 +773,22 @@ def test_w38_exact_addendum():
                if r["fixed dimension (all pieces at once)"] > 0)
 
 
+def test_w40_the_weave_at_omega_verified():
+    """W40 (a verification of main's S95, not blind; given tau = omega): U (a -> b, b -> a^-1 b), the inner
+    automorphisms and -I generate a group of order 48 on T, irreducible; the inner automorphisms are the parity signs and
+    U a 3-cycle of order 12 on T. U's matrix and its fixed point recomputed in process"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_weave_at_omega_verified.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True
+    assert d["the residual group's order on T"] == 48 and d["T's commutant under it (1 = irreducible)"] == 1
+    assert d["U's eigen-turns on T"]["lift 1"] == [0.25, 0.583333, 0.916667]
+    MU = np.array(d["U's H1 matrix"])
+    w = np.exp(2j * np.pi / 3)
+    assert abs((MU[0, 0] * w + MU[0, 1]) / (MU[1, 0] * w + MU[1, 1]) - w) < 1e-12
+    assert np.array_equal(np.linalg.matrix_power(MU, 6), np.eye(2, dtype=int))
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
