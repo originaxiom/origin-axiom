@@ -1,0 +1,101 @@
+{
+ "sources": {
+  "pmns": "NuFIT 6.0, Esteban, Gonzalez-Garcia, Maltoni, Martinez-Soler, Pinheiro, Schwetz, arXiv:2410.05380v2 (HTML, fetched 2026-10-08), the 3-sigma ranges of |U| for the variant 'IC24 with SK-atm', stated as the global minimum over both orderings (so NO and IO below carry the same table). DEVIATION FROM THE SEAL, disclosed: the seal named the newest release on nu-fit.org (6.1 or later); nu-fit.org was unreachable on 2026-10-08 (expired TLS certificate) and no primary 6.1 |U| table was fetchable; the record's NuFIT 6.1 values (B1066) are angle fits from a secondary source without a |U| table.",
+  "ckm": "PDG, Review of Particle Physics 2025, section 12 'CKM quark-mixing matrix' (dated 1 December 2025), eq. (12.27), the global-fit magnitudes of all nine elements; https://pdg.lbl.gov/2025/reviews/rpp2025-rev-ckm-matrix.pdf fetched 2026-10-08; asymmetric uncertainties symmetrised to the larger side."
+ },
+ "D1": {
+  "NO": {
+   "survivors": [],
+   "trials": 216
+  },
+  "IO": {
+   "survivors": [],
+   "trials": 216
+  }
+ },
+ "D3": {
+  "NO": {
+   "survivors": [
+    {
+     "column": 3,
+     "U_column": 1,
+     "order": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "column": 4,
+     "U_column": 0,
+     "order": [
+      2,
+      0,
+      1
+     ]
+    }
+   ],
+   "trials": 90,
+   "columns": [
+    [
+     0.333333,
+     0.333333,
+     0.333333
+    ],
+    [
+     0.166667,
+     0.166667,
+     0.666667
+    ]
+   ]
+  },
+  "IO": {
+   "survivors": [
+    {
+     "column": 3,
+     "U_column": 1,
+     "order": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "column": 4,
+     "U_column": 0,
+     "order": [
+      2,
+      0,
+      1
+     ]
+    }
+   ],
+   "trials": 90,
+   "columns": [
+    [
+     0.333333,
+     0.333333,
+     0.333333
+    ],
+    [
+     0.166667,
+     0.166667,
+     0.666667
+    ]
+   ]
+  }
+ },
+ "D2": {
+  "survivors": [],
+  "trials": 252,
+  "closest": {
+   "pattern": "identity",
+   "max_pull_sigma": 330.8970588235294
+  }
+ },
+ "D4": {
+  "pmns_full_trials": 216,
+  "pmns_column_trials": 90,
+  "ckm_trials": 252
+ }
+}

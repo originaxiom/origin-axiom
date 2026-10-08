@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1340** |
-| words of findings prose | **1,047,663** |
-| test lock files referenced | **784** |
-| arcs carrying an authored verdict | **1340** (100.0 %) |
+| research arcs with findings | **1341** |
+| words of findings prose | **1,048,588** |
+| test lock files referenced | **785** |
+| arcs carrying an authored verdict | **1341** (100.0 %) |
 | recorded closures | **811** (644 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 903 |
+| PROVED | 904 |
 | NEGATIVE | 335 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1611`** (793 words, 1 locks)  
-IS CP VIOLATION FORCED ON THE WEAVE? (sealed 43ec84e8b): no. The weave's group G (order 96 on V = T + T-bar) has 96 automorphisms (24 inner); 24 send the matter triplet T to T-bar; 24 invert every class, so G is not of type I; every irreducible of T(x)T (1 + 2 + 3 + 3) and T(x)T-bar (3 + 2 + 3 + 1) admits a consistent CP; post-seal, ten automorphisms are one consistent CP on every sector at once, conjugation by the swap's lift among them (indicator +1 everywhere). So the weave's generalized CP is the record swap: CP is a symmetry exactly when the swap is a move, and on the chiral double-tick weave CP violation is allowed, not forced; P and CP have one origin; the group fixes no CP phase (a phase needs forced couplings). The SM seat's third test answered. GENESIS v1.32. 0 of 19.  
-`B1611_is_cp_violation_forced_on_the_weave/FINDINGS.md`
+**PROVED — `B1612`** (925 words, 1 locks)  
+THE MIXING PATTERNS THE WEAVE FIXES (sealed f008c0424; the first value contact under the owner's reopening): the weave's flavour group on T (faithful, order 96) fixes six full mixing patterns (bimaximal, tri-bimaximal, democratic, a trimaximal one with |U_e3|^2 = (2 - sqrt3)/6, a single-angle one, a circulant) and none lies inside the data -- 0 of 216 against NuFIT's 3-sigma |U| ranges, 0 of 252 against PDG 2025's CKM moduli (the identity closest, 331 sigma in |V_us|); it fixes two one-column relations that survive at 3 sigma, TM1 (2/3, 1/6, 1/6) and TM2 (1/3, 1/3, 1/3), and post-seal against NuFIT 6.1's theta_12 only TM1 stands (sin^2 theta_12 = 0.318, +1.5 sigma; TM2 +4.9 sigma). TM1 arises from the root's double tick RL and RRL, without the swap. So no mixing angle is a parameter-free number of the weave's group; the weave allows one viable one-parameter leptonic relation (a READING: FK11 and the residual subgroups are selections) and fixes nothing in the quark sector. 0 of 19.  
+`B1612_the_mixing_patterns_the_weave_fixes/FINDINGS.md`
 
 **NEGATIVE — `B1610`** (1033 words, 1 locks)  
 THE HANDS ON THE FOUNDING TORSOR (sealed f916539c6), NEGATIVE as sealed: the headline 'both hands are one bit, the torsor's C bit' is refuted. Hand (ii), the McKay orientation of the tick, is flipped by swap-conjugation C and by the arrow and kept by the reversal, so given the forced arrow (B1083) it is the C bit -- a naming. Hand (i), the records' orientation, is on no rule: all four founding rules and the inverse reverse W21's form and exchange T and T-bar, every double tick keeps them, so the records' orientation is carried by the parity of the tick count, and the three's hand (B1609) is the sheet of the orientation double cover -- GENESIS SE2's choice -- not a naming. The sealed hand-(i) detector (the double tick's turns on T) was vacuous: the spectrum is {1, omega, omega^2} for every rule; its column read a rounding artifact and is withdrawn (E82, filed). GENESIS v1.31. 0 of 19.  

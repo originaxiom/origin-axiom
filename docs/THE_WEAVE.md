@@ -167,3 +167,13 @@ From `docs/dossiers/the_weave_2026-10-07/`:
 - So the weave's generalized CP is the record swap: CP is a symmetry exactly when the swap is a move. On the chiral
   double-tick weave **CP violation is allowed, not forced**, and P and CP have one origin. The group fixes no CP phase; a
   phase needs forced couplings.
+
+## Main's addition: the mixing patterns the weave fixes (B1612, 2026-10-08; the first value contact)
+
+- The weave's group on T (faithful, order 96) fixes **six full mixing patterns** — bimaximal, tri-bimaximal, democratic,
+  a trimaximal one with |U_e3|² = (2 − √3)/6, a single-angle one, a circulant — and **none fits the data**: 0 of 216
+  against NuFIT's 3σ |U| ranges, 0 of 252 against PDG 2025's CKM moduli (the identity closest, 331σ in |V_us|).
+- It fixes two one-column relations that survive at 3σ: **TM1** (⅔, ⅙, ⅙) and TM2 (⅓, ⅓, ⅓). Against NuFIT 6.1's θ₁₂
+  only TM1 stands (sin²θ₁₂ = 0.318, +1.5σ; TM2 +4.9σ). TM1 comes from the root's double tick RL and RRL, **without the
+  swap**. A one-parameter relation the chiral weave allows, graded a reading (FK11; the residual subgroups selected).
+- So no mixing angle is a parameter-free number of the weave's group; the quark sector gets nothing from it.

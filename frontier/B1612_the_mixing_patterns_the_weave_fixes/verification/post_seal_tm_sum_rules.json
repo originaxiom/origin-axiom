@@ -1,0 +1,19 @@
+{
+ "source": "NuFIT 6.1 via arXiv:2604.04585 Table 1 (secondary; as recorded in B1066's log)",
+ "NO": {
+  "TM1_sin2_theta12": 0.318,
+  "TM1_pull_sigma": 1.49,
+  "TM1_theta13_spread": 0.00038,
+  "TM2_sin2_theta12": 0.341,
+  "TM2_pull_sigma": 4.93,
+  "TM2_theta13_spread": 0.00019
+ },
+ "IO": {
+  "TM1_sin2_theta12": 0.3179,
+  "TM1_pull_sigma": 1.48,
+  "TM1_theta13_spread": 0.0004,
+  "TM2_sin2_theta12": 0.34105,
+  "TM2_pull_sigma": 4.93,
+  "TM2_theta13_spread": 0.0002
+ }
+}

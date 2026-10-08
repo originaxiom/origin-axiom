@@ -1,0 +1,294 @@
+{
+ "M1": {
+  "order_G": 96,
+  "order_image_on_T": 96,
+  "faithful_on_T": true,
+  "elements_with_three_distinct_eigenvalues": 56
+ },
+ "M2": {
+  "distinct_eigenbases": 11,
+  "from_cyclic": 7
+ },
+ "M3": {
+  "distinct_full_patterns": 6,
+  "patterns": [
+   {
+    "count": 12,
+    "witness": [
+     [
+      "cyclic",
+      "L"
+     ],
+     [
+      "cyclic",
+      "R"
+     ]
+    ],
+    "matrix": [
+     [
+      0.0,
+      0.5,
+      0.5
+     ],
+     [
+      0.5,
+      0.25,
+      0.25
+     ],
+     [
+      0.5,
+      0.25,
+      0.25
+     ]
+    ],
+    "name": "BM"
+   },
+   {
+    "count": 12,
+    "witness": [
+     [
+      "cyclic",
+      "L"
+     ],
+     [
+      "cyclic",
+      "RL"
+     ]
+    ],
+    "matrix": [
+     [
+      0.044658,
+      0.333333,
+      0.622008
+     ],
+     [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     [
+      0.622008,
+      0.333333,
+      0.044658
+     ]
+    ],
+    "name": null
+   },
+   {
+    "count": 9,
+    "witness": [
+     [
+      "cyclic",
+      "L"
+     ],
+     [
+      "two-generated",
+      "RR,RllR"
+     ]
+    ],
+    "matrix": [
+     [
+      0.0,
+      0.0,
+      1.0
+     ],
+     [
+      0.5,
+      0.5,
+      0.0
+     ],
+     [
+      0.5,
+      0.5,
+      0.0
+     ]
+    ],
+    "name": null
+   },
+   {
+    "count": 6,
+    "witness": [
+     [
+      "cyclic",
+      "RL"
+     ],
+     [
+      "cyclic",
+      "RRRL"
+     ]
+    ],
+    "matrix": [
+     [
+      0.111111,
+      0.444444,
+      0.444444
+     ],
+     [
+      0.444444,
+      0.111111,
+      0.444444
+     ],
+     [
+      0.444444,
+      0.444444,
+      0.111111
+     ]
+    ],
+    "name": null
+   },
+   {
+    "count": 12,
+    "witness": [
+     [
+      "cyclic",
+      "RL"
+     ],
+     [
+      "two-generated",
+      "RR,rLL"
+     ]
+    ],
+    "matrix": [
+     [
+      0.0,
+      0.333333,
+      0.666667
+     ],
+     [
+      0.5,
+      0.333333,
+      0.166667
+     ],
+     [
+      0.5,
+      0.333333,
+      0.166667
+     ]
+    ],
+    "name": "TBM"
+   },
+   {
+    "count": 4,
+    "witness": [
+     [
+      "cyclic",
+      "RL"
+     ],
+     [
+      "two-generated",
+      "RR,RllR"
+     ]
+    ],
+    "matrix": [
+     [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     [
+      0.333333,
+      0.333333,
+      0.333333
+     ],
+     [
+      0.333333,
+      0.333333,
+      0.333333
+     ]
+    ],
+    "name": "democratic"
+   }
+  ],
+  "named_present": [
+   "BM",
+   "TBM",
+   "democratic"
+  ]
+ },
+ "M4": {
+  "distinct_fixed_columns": 5,
+  "columns": [
+   {
+    "column_sorted": [
+     0.0,
+     0.5,
+     0.5
+    ],
+    "count": 144,
+    "witness": [
+     [
+      "cyclic",
+      "L"
+     ],
+     "RR"
+    ]
+   },
+   {
+    "column_sorted": [
+     0.25,
+     0.25,
+     0.5
+    ],
+    "count": 96,
+    "witness": [
+     [
+      "cyclic",
+      "L"
+     ],
+     "rLL"
+    ]
+   },
+   {
+    "column_sorted": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "count": 60,
+    "witness": [
+     [
+      "cyclic",
+      "L"
+     ],
+     "RllR"
+    ]
+   },
+   {
+    "column_sorted": [
+     0.333333,
+     0.333333,
+     0.333333
+    ],
+    "count": 48,
+    "witness": [
+     [
+      "cyclic",
+      "RL"
+     ],
+     "RR"
+    ]
+   },
+   {
+    "column_sorted": [
+     0.166667,
+     0.166667,
+     0.666667
+    ],
+    "count": 48,
+    "witness": [
+     [
+      "cyclic",
+      "RL"
+     ],
+     "RRL"
+    ]
+   }
+  ],
+  "TM1_column_present": true,
+  "TM2_column_present": true
+ },
+ "M5": {
+  "full_patterns_times_permutations": 216,
+  "columns_times_placements": 45
+ }
+}

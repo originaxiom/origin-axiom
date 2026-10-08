@@ -1,0 +1,30 @@
+{
+ "M1": {
+  "order_G": 96,
+  "order_image_on_T": 96,
+  "faithful_on_T": true,
+  "elements_with_three_distinct_eigenvalues": 56
+ },
+ "M2": {
+  "distinct_eigenbases": 11,
+  "from_cyclic": 7
+ },
+ "M3": {
+  "distinct_full_patterns": 6,
+  "named_present": [
+   "BM",
+   "TBM",
+   "democratic"
+  ]
+ },
+ "M4": {
+  "distinct_fixed_columns": 5,
+  "TM1_column_present": true,
+  "TM2_column_present": true
+ },
+ "M5": {
+  "full_patterns_times_permutations": 216,
+  "columns_times_placements": 45
+ }
+}
+python3 mixing_on_the_weave.py  20.13s user 0.70s system 390% cpu 5.336 total

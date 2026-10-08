@@ -11053,6 +11053,28 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1612": {
+   "slug": "the mixing patterns the weave fixes",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B342",
+    "B343",
+    "B398",
+    "B467",
+    "B631",
+    "B861"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B161": {
    "slug": "cancellation locus stratification",
    "motifs": [
