@@ -260,3 +260,23 @@ def test_w18_post_hoc_two_special_classes_on_every_carrier():
         assert [x["pair"] for x in r["the special classes"]] == [[0, 1], [0, 1]], r["state"]
     assert d["two special classes on every carrier at both primes"] and d["every special class reads (0, 1)"]
     assert d["the basis met a special class (s = inf) on"] == ["-LLLLLLLR", "-LLLLRRLR", "-LLLR", "-LLLRLR"]
+
+
+def test_w20_the_weaves_count_in_e6_is_three_on_the_weave():
+    """W20: -chi(Aut+(F2); 27) under every SL(2) in E6; three through the principal and every distinguished sl2; the
+    census validated by E6's orbit dimensions and by two routes (the amalgam and Eichler-Shimura)"""
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_weaves_count_in_e6.json").read_text(encoding="utf-8"))
+    assert d["the orbits' dimensions match E6's list"] and d["the two routes agree for every k to 60"]
+    assert d["the routes agree on every orbit"] and len(d["rows"]) == 21
+    count = d["-chi(G; 27) by orbit"]
+    assert count["E6"] == count["E6(a1)"] == count["E6(a3)"] == 3
+    assert d["rows"]["E6"]["27 = (k: multiplicity of Sym^k)"] == {"0": 1, "8": 1, "16": 1}
+    assert d["the distinguished even diagrams (Bourbaki order)"]["E6(a1)"] == [2, 2, 2, 0, 2, 2]
+    assert sorted(d["orbits with -chi(G; 27) = 3"]) == ["A4", "D4(a1)", "D5", "E6", "E6(a1)", "E6(a3)"]
+    assert sum(1 for v in count.values() if abs(v) == 3) == 13
+    assert all(r["27-bar the same"] for r in d["rows"].values())
+    assert {d["rows"][n]["-chi(G; 78), route A"] for n in ("E6", "E6(a1)", "E6(a3)")} == {16}
+    assert d["the SU(5) frame's principal counts (5, 10)"] == {"5": {"A": 1, "B": 1}, "10": {"A": 2, "B": 2}}
+    # h1(SL(2, Z); Sym^k) is dim M_{k+2} + dim S_{k+2} for even k >= 2 (Eichler-Shimura): 3 at k = 16, 1 at k = 8
+    h1 = d["h1(SL(2, Z); Sym^k), k = 0..24"]
+    assert (h1["16"], h1["8"], h1["0"]) == (3, 1, 0)

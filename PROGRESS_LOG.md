@@ -18024,3 +18024,18 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - the owner's choice of route (E₆ on the weave's surface, or a six-dimensional object);
   - main's ruling on the bundle;
   - GENESIS FK7.
+
+## 2026-10-08 (morning, later) — the weave's W20: three on the weave, zero on every thread
+
+- **Route 1, with the rule committed first.** The record's E₆/27 frame (principal sl₂) is carried by the weave's own
+  SL(2), the moves on the records, and counted by the Euler characteristic of the weave's group:
+  −χ(Aut⁺(F₂); 27) = 3, exact.
+- **Every thread reads 0** (B1604). The weave as a whole reads 3, in the owner's sense: the count lives in what the
+  threads generate together.
+- **The census of all 21 SL(2)s in E₆.** Every distinguished one gives 3; ±3 appears on 13 of 21.
+- **The goal (three generations derived) is not yet met.** This is the nearest the record has come: a count of three,
+  on the weave, in the record's own frame. Still open:
+  - the dictionary (GENESIS FK11 on the weave);
+  - the hand (the 27 and the 27̄ read alike);
+  - the orbifold group against a cover;
+  - main's rulings, asked in the relay's §12.

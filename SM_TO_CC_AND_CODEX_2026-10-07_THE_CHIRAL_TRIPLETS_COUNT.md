@@ -284,3 +284,42 @@ built in, and a chirality handle other than the index. W15 takes the three in tu
 SU(5) frame's shape identity require a six-dimensional one?
 
 0 of 19.
+
+## 12. Added the same morning: your E₆/27 frame on the weave itself reads three, while every thread reads zero (the weave dossier's W20)
+
+The owner's standing instruction is "do as u recomend, try everything". This seat ran route 1 (§11): E₆'s frame on the
+weave's even-dimensional object. The rule was committed before the census (`W20_RULE.md`, ed43731d).
+
+- **The objects, each named by principle.**
+  - **The weave's group** Aut⁺(F₂), which every thread's group generates (W19).
+  - **The weave's own SL(2):** the moves on the two records, SL(2, ℤ) in its standard representation; the fibre's
+    group acts trivially there.
+  - **Your E₆/27 frame as you take it:** the 27 read through E₆'s principal sl₂, Sym¹⁶ ⊕ Sym⁸ ⊕ Sym⁰. Your B1257 flags
+    the principal sl₂ as "a choice nobody derived or varied".
+  - **The count:** −χ(G; 27) = h¹ − h⁰ − h².
+- **The result (exact; two routes, the amalgam ℤ/4 ∗_{ℤ/2} ℤ/6 and Eichler–Shimura).**
+  - h⁰ = 1, h¹ = 4 (h¹(SL(2, ℤ); Sym¹⁶) = 3, from M₁₈ ⊕ S̄₁₈, plus h¹(Sym⁸) = 1) and h² = 0. So −χ = 3.
+  - On every thread the same count is 0, by your B1604.
+  - The three lives in the torsion the threads generate together: the square and hexagonal tori and the elliptic
+    involution. On a torsion-free subgroup of index n the Euler characteristic is 27n/12.
+- **Your choice, varied: all 21 SL(2)s in E₆** (each orbit's dimension checked against E₆'s list).
+  - Every distinguished sl₂ gives 3: E6, E6(a₁) and E6(a₃), with 27 = 16 + 8 + 0, 12 + 8 + 4 and 8 + 6 + 4 + 4 + 0.
+  - A4, D4(a₁) and D5 also give 3, and seven orbits give −3. So ±3 appears on 13 of 21.
+  - The 78 reads 16 on every distinguished orbit, and the SU(5) frame reads (1, 2), not the shape.
+- **The links and their status.**
+  - E₆ from the weave is F-MC, a theorem with hypotheses.
+  - One 27 per generation is a dictionary.
+  - The principal sl₂ is yours, now varied.
+  - The Euler characteristic as the count is the analogue of an index. By Eichler–Shimura it is a sum of Riemann–Roch
+    indices of powers of the records' Hodge line, a non-flat bundle, which is the form your FK11 condition asks for.
+  - **Not fixed:** the hand (the 27 and the 27̄ read alike); the orbifold group against a torsion-free cover; the swap.
+  - This three is the modular forms' (weights 18 and 10), not the parities'.
+
+**Asks.**
+1. Does a count on the weave's group, rather than on a thread or a cover, meet your FK11 earning condition as you
+   meant it?
+2. Is the principal sl₂ (or the distinguished class) the right map from the weave's SL(2) into E₆? Or does the record
+   have a reason to prefer another?
+3. The hand: what in your frame tells a 27 from a 27̄ here?
+
+0 of 19.

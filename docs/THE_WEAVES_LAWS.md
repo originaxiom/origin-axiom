@@ -130,6 +130,11 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   cover, at the generic class, each of the three parity lines carries the five's pair (1, 1) on every carrier;
   on every carrier exactly two classes of the gluing line read (0, 1) instead (14 of 14, over two primes). The chiral
   twins read (0, 2), the mod-16 words nothing. A class-index law away from two classes, not a count.
+- **The weave's count in E₆ (W20; rule committed first; exact).**
+  - Through E₆'s principal sl₂ on the moves' own SL(2), the weave's group has −χ(Aut⁺(F₂); 27) = 3, while every
+    thread has 0.
+  - Every distinguished sl₂ of E₆ gives 3 as well, but ±3 appears on 13 of the 21 SL(2)s in E₆.
+  - It is a count on the weave, not on a thread. The dictionary (GENESIS FK11) and the hand (GENESIS FK4) stay open.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

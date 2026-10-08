@@ -121,6 +121,7 @@ So this section records which patterns the weave's group contains, and nothing m
 | 9″ | PROVED (Theorem H; the extension formula); COMPUTED (W15) | the hand is the determinant of the weave's triplet, mirror-odd. The weave's own extensions carry index one per parity, three or nothing, with the mod-16 law deciding which threads carry (32 of 32 to length 8). Against main's conditions for the dictionary: the module and count, and a chirality handle other than the index, are met; the shape identity is not built into the class index (the weave's five reads (−1, −3)) |
 | 9‴ | COMPUTED (W17, 32 of 32 to length 8) | on the thread itself the weave's SU(5)′ five (D ν³ ⊕ P ν⁻², glued by a weave class; the hypercharge ratio forced by the determinant) reads F-HE's generation shape (1, 1), dual (−1, −1), on the vector-like twin of every word with φ³ ≢ ±I (mod 16), a lone 5̄ on the chiral twin, nothing on the mod-16 words: one generation per thread, with the parities as the five's triplet. By main's B1604 (verified, W16) a class-index law, not a count |
 | 9⁗ | COMPUTED (W18, 32 states; a prediction failed at special classes) | on the forced cover, at the generic class, each of the three parity lines carries the five's pair (1, 1) on every carrier: three sectors selected by the weave's own characters, alike, cycled by the deck, the orbifold standard's shape. On every carrier exactly two classes of the gluing line drop it to (0, 1). The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 a class-index law: the sectors are a selection by forced characters, not counts |
+| 11 | COMPUTED (W20, exact; all 21 SL(2)s in E₆); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame on the weave itself: the moves' own SL(2) on the records, through E₆'s principal sl₂, counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 (h⁰ = 1, h¹ = 4, h² = 0), and 0 on every thread (B1604). Every distinguished sl₂ gives 3; ±3 on 13 of 21. Open: the hand (27 and 27̄ alike), the orbifold against a cover, the swap |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -202,6 +203,27 @@ taken from the weave. Every link is named with its status.
   - On a four-dimensional object an SU(5) index has the shape one to three, since ch₂(Λ²V) = 3·ch₂(V). The physical
     shape needs six dimensions, or the E₆ frame, where one generation is one 27.
   - Which bundle carries matter there is a ruling for the owner and main (GENESIS FK11), not a search.
+- **W20: three on the weave, zero on every thread.** This is route 1, run with the rule committed first.
+  - The record's E₆/27 frame reads the 27 through E₆'s principal sl₂ (main's B1257: "a choice nobody derived or
+    varied"). The weave carries it on its own SL(2), the moves acting on the two records.
+  - The weave's group Aut⁺(F₂) then has h⁰ = 1, h¹ = 4 and h² = 0 with coefficients in the 27. So −χ = 3: net three
+    in odd degree.
+  - Every thread reads 0, because every flat Euler characteristic of a cusped 3-manifold vanishes (B1604). The three
+    lives in the torsion that the threads generate together.
+  - **Varied over all 21 SL(2)s in E₆:** every distinguished one gives 3, but ±3 appears on 13 of the 21. The 78
+    reads 16, and the SU(5) frame reads (1, 2), not the shape.
+  - **Its links:**
+    - E₆ from the weave (F-MC);
+    - one 27 per generation;
+    - the principal sl₂, which is the record's own choice, now varied;
+    - the Euler characteristic as the count, which by Eichler–Shimura is a sum of Riemann–Roch indices of powers of
+      the records' Hodge line, a non-flat bundle.
+  - **Not fixed:**
+    - the hand, since the 27 and the 27̄ read alike;
+    - whether the orbifold group or a torsion-free cover is physical;
+    - the swap.
+  - This three comes from modular forms of weights 18 and 10, not from the parities. Whether the two threes are one
+    is open.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

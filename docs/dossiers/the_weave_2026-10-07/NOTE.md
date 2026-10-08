@@ -922,6 +922,66 @@ space.
 - **Literature:** Birman (1969); Harer and Zagier (1986), for χ(M₁,ₙ); Culler and Vogtmann (1986), for the virtual
   cohomological dimension of Out(Fₙ), 2n − 3. For Aut⁺(F₂) the value 2 follows from its free kernel F₂ over SL(2, ℤ).
 
+## W20. The weave's count in E₆: three on the weave, zero on every thread (`the_weaves_count_in_e6.py`; `W20_RULE.md`)
+
+**Route 1** (the owner's standing instruction; this seat's recommendation after W19): E₆'s frame on the weave's
+even-dimensional object, with everything named by principle before the census.
+
+**The objects** (the rule, committed first, ed43731d):
+- **the weave's group** G = Aut⁺(F₂), which every thread's group generates (W19);
+- **the weave's own SL(2):** the moves acting on the two records through SL(2, ℤ) in its standard representation H;
+- **E₆ and the 27:** E₆ is the common point's, by McKay (F-MC). One generation is one 27. The record's E₆/27 frame
+  reads the 27 through E₆'s principal sl₂ (main's B1257 flags that as "a choice nobody derived or varied");
+- **the count:** −χ(G; 27) = h¹ − h⁰ − h².
+
+**The principal count (seen by hand before the rule; now computed two ways).**
+- Under the principal sl₂, 27 = Sym¹⁶ ⊕ Sym⁸ ⊕ Sym⁰.
+- The weave's cohomology with these coefficients has h⁰ = 1, h¹ = 4 and h² = 0.
+  - The 4 is h¹(SL(2, ℤ); Sym¹⁶) = 3 (M₁₈ ⊕ S̄₁₈) plus h¹(Sym⁸) = 1 (M₁₀).
+  - The fibre adds nothing: H ⊗ Symᵏ is odd for these k, and −I kills it.
+- So **−χ(G; 27) = 3**: net three classes of the 27 in odd degree. On every single thread the same count is 0, since
+  every flat Euler characteristic of a cusped 3-manifold vanishes (B1604, W16).
+- The three is therefore the weave's in the owner's sense: no thread carries it, and the joint action does. It comes
+  from the torsion the threads generate together, the square and hexagonal tori and the elliptic involution. On a
+  torsion-free subgroup of index n the Euler characteristic is instead the rank times the orbifold value, 27n/12.
+
+**The census (the trial budget: every SL(2) in E₆, 21 orbits; two routes, the amalgam ℤ/4 ∗_{ℤ/2} ℤ/6 and
+Eichler–Shimura, agreeing on every orbit; every orbit's dimension equal to E₆'s list).**
+
+| orbits | −χ(G; 27) |
+|---|---|
+| **the three distinguished ones, E6, E6(a₁), E6(a₃)** (not in any proper Levi) | **+3 each** (27 = 16 + 8 + 0, 12 + 8 + 4, 8 + 6 + 4 + 4 + 0) |
+| A4, D4(a₁), D5 | +3 |
+| 3A1, A2, A2+2A1, A3+A1, D4, A5, D5(a₁) | −3 |
+| A2+A1, 2A2+A1, A4+A1 | −1 |
+| 2A2 | +7 |
+| 2A1, A3, A1, the zero orbit | −7, −13, −15, −27 |
+
+- **Controls.**
+  - The 78 reads 16 on all three distinguished orbits, not 3.
+  - The 27̄ reads as the 27 under every SL(2).
+  - The SU(5) frame through its principal SL(2) reads (1, 2) for (5, 10): not the shape.
+- **So the record's own choice gives three, and so does every SL(2) that fills E₆.** But ±3 is common: it appears on
+  13 of the 21 orbits.
+
+**Status.**
+- **COMPUTED, and exact:**
+  - χ(Aut⁺(F₂); 27) = −3 through the principal sl₂, and through each distinguished one;
+  - the census.
+- **The reading "three generations" (READING; GENESIS FK11 on the weave)** rests on four named links:
+  - E₆ from the weave (F-MC, a theorem with hypotheses);
+  - one 27 per generation (a dictionary);
+  - the principal sl₂ (canonical, and the record's own; now varied: every distinguished one agrees);
+  - the count by the weave's Euler characteristic (the analogue of an index; by Eichler–Shimura it is a sum of
+    Riemann–Roch indices of powers of the records' Hodge line λ, so a non-flat bundle carries it).
+- **What is not fixed:**
+  - the hand: the 27 and the 27̄ read alike (GENESIS FK4, GAP3);
+  - whether the weave's group with its torsion, rather than a torsion-free cover, is the physical object (GENESIS
+    FK7's question in another form);
+  - the swap's action (GENESIS GM5c), which may exchange the 27 and the 27̄.
+- **Not the parities' three.** This three comes from modular forms of weights 18 and 10, not from the three parities
+  of W1. Whether the two threes are one is open.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -946,6 +1006,7 @@ space.
 | W17 | COMPUTED (WEAVE, 32 of 32 states to length 8, 480 readings) | the weave's five on the thread itself (the spin doublet and the parity triplet, twisted ν³ and ν⁻² so that SU(5)′'s determinant is trivial, glued by a weave class) reads F-HE's generation shape (1, 1), dual (−1, −1), on the vector-like twin of every word with φ³ ≢ ±I (mod 16); a lone 5̄ on the chiral twin; nothing on the mod-16 words. Main's three conditions for FK11 all have weave answers. The count is one per thread: the parities are the five's triplet, and three needs the deck kept (FK7) |
 | W18 | COMPUTED (WEAVE, 32 states; a prediction that failed at special classes) | the five's sectors on the forced cover: at the generic class each of the three parity lines carries the five's pair (1, 1) on every carrier, the shape of the orbifold standard on the weave's own modules; on every carrier exactly two classes of the gluing line drop it to (0, 1) (the engine's basis met one on four); (0, 2) on the chiral twins; nothing on the mod-16 words. The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 these are class-index pairs, a selection by forced characters, not counts |
 | W19 | READING (the facts classical) | the weave's own surface: the moves with the fibre's group generate Aut⁺(F₂), every thread's group inside it, so the weave's space is M₁,₂, the universal punctured elliptic curve, every thread at once (each over its closed geodesic). Its Euler characteristic is 1/12, not 0, so B1604's vanishing stops at the threads. The three parities are the fixed points of the elliptic involution off the puncture, one curve of degree 3. The even-dimensional object main's FK11 asks for; no bundle named, no count read |
+| W20 | COMPUTED (exact; a census of all 21 SL(2)s in E₆, two routes); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame, carried by the weave's own SL(2) (the moves on the records), counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 through the principal sl₂ and through every distinguished one, while every thread reads 0 (B1604). ±3 on 13 of 21 SL(2)s; the 78 reads 16; the hand is not fixed (27 and 27̄ alike) |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -983,6 +1044,7 @@ space.
 - `the_weaves_five_tick1.py` → `the_weaves_five_tick1.json`: W17, the weave's SU(5)′ five on the thread itself, every odd-trace state to length 8.
 - `W18_PREDICTION.md`: the per-parity prediction, committed before its test; `the_parity_generations.py` → `the_parity_generations.json`: W18, the five's sectors on the forced cover by Shapiro (32 states) and directly at the resolving tick (twelve states).
 - `the_parity_generations_special.py` → `the_parity_generations_special.json`: W18, post hoc: the whole line of gluing classes on every carrier over GF(73) and GF(97), two special classes on each.
+- `W20_RULE.md`: the rule, committed before the census; `the_weaves_count_in_e6.py` → `the_weaves_count_in_e6.json`: W20, the weave's Euler characteristic with coefficients in E₆'s 27 under every SL(2) in E₆.
 - `the_weaves_five.py` → `the_weaves_five.json`: W15, the spin doublet extended by the three parity lines, read with F-HE's pair.
 - `the_slope_law.py` → `the_slope_law.json`: W14, the slope law against the engine and F-CI's census on every odd-trace
   state to length 6; `the_slope_law_sample.py` → `the_slope_law_sample.json`: the law on 300 of +LLRLRR's modules.

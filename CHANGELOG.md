@@ -1,5 +1,26 @@
 # Changelog
 
+## The weave's W20: three on the weave, zero on every thread — the record's E₆/27 frame counted by the weave's Euler characteristic
+
+- **Route 1, with the rule committed first** (`W20_RULE.md`, ed43731d).
+  - The weave's group Aut⁺(F₂), every thread's group inside it.
+  - The weave's own SL(2): the moves acting on the two records.
+  - E₆ from the common point (F-MC), with one 27 per generation, read through E₆'s principal sl₂ as the record's frame
+    does.
+  - The count: −χ(G; 27).
+- **The result (exact; two routes).** h⁰ = 1, h¹ = 4 and h² = 0, so −χ = 3. On every thread the same count is 0
+  (B1604): the three lives in the torsion that the threads generate together.
+- **The census of all 21 SL(2)s in E₆.**
+  - Every distinguished sl₂ gives 3.
+  - ±3 appears on 13 of the 21.
+  - The 78 reads 16, and the SU(5) frame reads (1, 2).
+- **Status.** COMPUTED for the count and the census. READING for "three generations" (GENESIS FK11 on the weave).
+  - The links: F-MC; one 27 per generation; the principal sl₂, which is the record's own choice, now varied; the
+    Euler characteristic as the count, which is a sum of Riemann–Roch indices of the records' Hodge line by
+    Eichler–Shimura.
+  - Not fixed: the hand (the 27 and the 27̄ read alike), the orbifold against a cover, and the swap.
+- **Also.** The relay's §12 with three asks; the dossier, the synthesis (step 11), the laws page; the test.
+
 ## The weave's W16 completed: main's B1601 verified on all 37 geometries, exactly in each field; and the dimension the earning condition needs
 
 - **Main's B1601: VERIFIED, 37 of 37.** This seat's route is independent of main's: the geometric point from route F,
