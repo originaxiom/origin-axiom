@@ -1,14 +1,26 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-October8 shared-puncture and retained silver-formal research advancement.
+Further October8 form-parent research advancement. Exact form census and
+mass-control report: reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/FINDINGS.md.
+At least16 complex form coefficients have no bare quadratic mass while
+the retained gauge symmetry is preserved; this is not SM chirality.
+Full FORM complex SM asymmetries are zero, not a general architecture kill.
+Next companion kernels for all admitted spin structures, the same full
+curved interacting action, bosonic positivity, end/source and anomaly law;
+then any flux/index joint. R twist/action/physical selection remain supplied.
+
+Earlier October8 shared-puncture and retained silver-formal advancement.
 Reports under physical_bridge: weave_puncture_operator_2026_10_08/FINDINGS.md
 and silver_cyclic_transfer_2026_10_06/FINDINGS.md. No architecture lead closed.
 
 - PB-PUNCTURE-GRAPH: compact sheaf d-3 and local Green domains supported;
   complete the finite-distance closed-domain elliptic/index equivalence.
-- PB-PUNCTURE-KINETIC: preserve W21 one-form modes; specify the form-based/
-  twisted parent kinetic action and complete conjugate/reality/gauge roster.
+- PB-PUNCTURE-KINETIC: form scalar/Weyl dictionary and complete FORM gauge
+  roster advanced by weave_form_parent_2026_10_08/FINDINGS.md; W21 retained.
+  Full companion kernels and curved parent action remain. No spin-only kill.
   Massless ordinary-spin complete-cusp obstruction is not a no-go for it.
+  SU2_A-neutral psi companions retain that kinetic duty: compare admitted
+  full-parent twists/cut/mass responses before claiming a gapped reduction.
 - PB-PUNCTURE-SELECTION: derive the metric/cut/twist/asymptotic response
   from that action; no hand-selected half or silently removed hypercharge.
 - PB-NONLINEAR: retained-gauge higher transfer is now conditionally FORMAL

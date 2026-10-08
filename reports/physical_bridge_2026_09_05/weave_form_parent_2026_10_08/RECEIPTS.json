@@ -1,0 +1,92 @@
+{
+  "schema": "weave-form-parent-receipts-v1",
+  "preexecution_seal": "59ef9eda8692307e02938273f969a5eebe535c0a",
+  "server_confirmed": true,
+  "science_files": 7,
+  "source_pins": 4,
+  "science_bytes_unchanged": true,
+  "native_predicates": 32,
+  "reference_predicates": 25,
+  "focused_tests": 14,
+  "regression_tests": 25,
+  "captures": {
+    "native": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.1170779999811202,
+      "log_bytes": 2758,
+      "log_sha256": "80695849898e3b278fe11c038c7cab57549b18d603d37630a2747cfb8720dbc9",
+      "argv": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/probe.py"
+      ]
+    },
+    "reference": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.18425599997863173,
+      "log_bytes": 1927,
+      "log_sha256": "0bfc75eb8a3e29d07533c84f30c6ce00def44b388d19fd375adce44263dc02bd",
+      "argv": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/reference.py"
+      ]
+    },
+    "focused": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.3574929998721927,
+      "log_bytes": 99,
+      "log_sha256": "c62745e94e7a8b4f6e18ad93272bd35fb6d50f215e36022f22123afcc03ac219",
+      "argv": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_weave_form_parent.py"
+      ]
+    },
+    "regression": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.3220939999446273,
+      "log_bytes": 99,
+      "log_sha256": "3cb2d175a9ccd7d30b0fdd4662a6ecd3ca3f82c57960eb4784fa09b7659cda02",
+      "argv": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_weave_puncture_operator.py",
+        "tests/test_physical_bridge_weave_form_parent.py"
+      ]
+    },
+    "governance": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 15.151106999954209,
+      "log_bytes": 2384,
+      "log_sha256": "8e61f3a5014ef74b132e961e3169d27dfe3d998c89216de4724af2f0d23c0409",
+      "argv": [
+        "python3",
+        "scripts/gates/gates.py"
+      ]
+    }
+  },
+  "governance_pass": 26,
+  "governance_fail": 4,
+  "governance_failures_inherited": [
+    "attribution",
+    "test-vacuity",
+    "seal-provenance",
+    "relay-debt"
+  ],
+  "overdue_review_merges": 353,
+  "nonauthor_review_pending": true,
+  "full_suite_pending": true,
+  "physical_goal_achieved": false
+}

@@ -1,5 +1,13 @@
 # Origin Axiom
 
+> October8 [form fermion kinetic benchmark](reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/FINDINGS.md):
+> a supplied R twist retains genuine Weyl form fields and the shared-fibre
+> triplet.32 native/25 reference/14 focused and25 regression PASS. Full
+> form charge roster is paired, but a pseudoreal sector has no invariant
+> bare Weyl mass at the retained-symmetry origin. This is a conditional
+> kinetic positive, not three SM generations, a full compactification or
+> a derived twist. Companion spectrum, curved dynamics and selection next.
+
 > October6 [first nonlinear boundary correction](reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/FINDINGS.md):
 > a conditional formal cubic generator curves the supplied spectral
 > tangent, removing its first normal gauge escape without changing the

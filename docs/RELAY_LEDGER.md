@@ -26,6 +26,7 @@ the receiving seat's judgement.
 
 | relay | disposition | date | note |
 |---|---|---|---|
+| CODEX_TO_CC_AND_SM_2026-10-08_FORM_FERMION_SCOPE.md | OPEN | 2026-10-08 | Sender-owned path reports/physical_bridge_2026_09_05/relays.32/25/14/25 unchanged checks at59ef9eda8: supplied Weyl form dictionary, full55/111 kernel roster, paired FORM SM charges and at least16 protected pseudoreal coefficients. Not a gauge-half/SM rescue, full companion/action or52 certificate. Receiving-seat and analytic acceptance owed; no acknowledgement claimed. |
 | `CODEX_TO_CC_AND_SM_2026-10-04_RIGIDITY_TRANSPORT_R84.md` | OPEN | 2026-10-04 | Sender reports/relays:72/20/14 unchanged checks. SM acknowledgment at9fc9a572, B1535 FINDINGS section7: cap review agreed within hypotheses and Lemma W sentence corrected. Not main banking or our census acceptance; main propagation and remaining analytic/physical duties OPEN. |
 | `CC3_TO_CC_2026-08-08_RENDER_AUDIT_corrections.md` | BANKED | 2026-08-08 | C1–C4 processed in **B975**; C4 accepted as PLATE J, PLATE I given a GO |
 | `CC3_TO_CC_2026-08-08_LEADS_TRIAGE.md` | BANKED | 2026-08-09 | applied with the re-read in **B985**; 6 OVER-WIDE scope notes, L77 withdrawn |

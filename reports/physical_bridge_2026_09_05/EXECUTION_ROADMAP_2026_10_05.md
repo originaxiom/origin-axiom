@@ -66,6 +66,18 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    hypercharge, stationarity, positivity and full anomalies in scope.
    The silver parent remains a separate control, not a source of missing
    weave physics imported without a common map. No selected chiral SM.
+   Stage2G October8 form-parent benchmark EXECUTED at research grade:
+   weave_form_parent_2026_10_08/FINDINGS.md.32 native/25 separate reference/
+   14 focused and25 two-packet regression PASS. Conditional global form
+   kernel dictionary and supplied (1,1) R twist retain genuine Weyl fields;
+   scalar55/one-Hodge-type111, no double family counting. Full FORM complex
+   SM charges pair, but at least16 pseudoreal coefficients have no invariant
+   bare mass at the retained-symmetry origin. No all-fermion/architecture kill.
+   NEXT all companion spin kernels, same curved interacting action,
+   bosonic Hessian/positivity and actual source/end equations. Flux indices
+   require admission on that action. Supplied W=0 EFT is not a complete KK
+   truncation or permission to discard parent Yukawas. Generated twist and
+   physical phase, global anomalies and full SM/TOE remain unfinished.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

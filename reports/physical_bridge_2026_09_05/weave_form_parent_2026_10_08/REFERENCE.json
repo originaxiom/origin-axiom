@@ -1,0 +1,84 @@
+{
+  "predicates": {
+    "signed_quaternion_noncommutativity": true,
+    "central_commutator_branch_pairs": true,
+    "integer_boundaries_zero": true,
+    "fraction_ranks_three_seven": true,
+    "Euler_genus_three": true,
+    "deck_H1_character": true,
+    "holomorphic_total_three": true,
+    "holomorphic_rho_once": true,
+    "holomorphic_nontrivial_characters_absent": true,
+    "adjoint_full248_dimension": true,
+    "adjoint_multiplicities_55_27_56": true,
+    "full248_reconstructed": true,
+    "W6_three_not_six": true,
+    "adjoint_holomorphic111": true,
+    "adjoint_H1_222": true,
+    "lambda_twisted_slots": true,
+    "psi_companions_retained": true,
+    "form_pullback_exponent_zero": true,
+    "radial_operator_polynomial_mass_quarter": true,
+    "adjoint_bilinear_unique_symmetric": true,
+    "doublet_bilinear_unique_nonsymmetric": true,
+    "protected_symmetric_mass_absent": true,
+    "two_doublet_symmetric_mass_present": true,
+    "weak_doublet_count_even": true,
+    "complete_one_form_gauge_dimension": true
+  },
+  "predicates_passed": 25,
+  "cover_H1_character": [
+    6,
+    -2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "cover_holomorphic_character": [
+    3,
+    -1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "adjoint_Q8_multiplicities": [
+    55,
+    27,
+    27,
+    27,
+    56
+  ],
+  "form_kernel_dimensions": {
+    "W6_scalar": 0,
+    "W6_one_Hodge_type": 3,
+    "adjoint_scalar": 55,
+    "adjoint_one_Hodge_type": 111,
+    "adjoint_real_degree1_complexification": 222
+  },
+  "parent_left_twisted_charges": [
+    2,
+    0,
+    -1,
+    -1
+  ],
+  "gauge_dimensions": [
+    55,
+    56,
+    111
+  ],
+  "weak_doublets_in_FORM_sector": 28,
+  "bilinear_profile": {
+    "ad8_invariants": 1,
+    "doublet_invariants": 1,
+    "protected_symmetric_masses": 0,
+    "two_doublet_symmetric_masses": 1,
+    "protected_lower_bound_complex_components": 16
+  },
+  "zero_angular_form_squared_mass": "1/4"
+}

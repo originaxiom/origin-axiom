@@ -1,5 +1,13 @@
 # Physical bridge audit — 2026-09-05
 
+[October8 form fermion benchmark](weave_form_parent_2026_10_08/FINDINGS.md):
+32 native/25 reference/14 focused and25 regression PASS. Supplied twist
+retains Weyl form fields and W21's triplet; full form roster55/111.
+Complex SM charge asymmetries zero within this sector; at least16
+pseudoreal coefficients have no invariant bare Weyl mass at the retained-
+symmetry origin. Companion spin kernels, full curved parent and generated
+selection remain; no full KK/action, physical families or TOE claimed.
+
 [October8 shared-puncture operator benchmark](weave_puncture_operator_2026_10_08/FINDINGS.md):
 35 native/33 reference/11 tests PASS. Compact sheaf d-3 and local Green
 domains supported. W21 one-form triplet preserved; ordinary-spin kinetic

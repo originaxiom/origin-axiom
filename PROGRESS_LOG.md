@@ -17468,3 +17468,38 @@ gauge/conjugate/weak-doublet spectrum, stationarity and anomaly accounting;
 derive physical cut/twist/response choice. No incompatible splice of
 silver and weave. Full SM/TOE unachieved, trackerusageLimited unchanged;
 inherited governance, nonauthor/full-suite/main-bank debts remain visible.
+
+## 2026-10-08 form fermion dictionary and complete gauge census
+
+Owner-approved continuation of the full parameter-free SM/TOE mission.
+Authoritative tracker now ACTIVE; earlier usageLimited checkpoint remains
+historical. Own audit/physical-bridge-2026-09-05 branch only. Seven science
+files sealed/committed/pushed/server-confirmed at59ef9eda8 before imports.
+32 exact native/25 separate Fraction reference/14 focused and25 two-packet
+regression PASS unchanged. Raw literal exits and successful hashes preserved.
+
+Quaternion cover compactification genus3 and full cell/deck data support
+the authored global form-kernel argument. Rank-six triplet retained;
+full adjoint has55 scalar and111 coefficients of one Hodge type. Supplied
+(1,1) R twist maps actual independent left Weyl fields to scalar/form
+and keeps two ordinary-spin companion slots visible. Form radial squared
+mass1/4 differs from the preceding ordinary-spin zero channel. No complete
+global physical index, companion spectrum or curved parent certificate.
+
+Entire FORM SU3/SU2/genericY charge roster pairs, weak-doublet count28;
+not a general weave/flux/architecture exclusion. Positive: the single
+(1,2,8_family) has only a skew invariant bilinear, so at least16 complex
+coefficients have no symmetry-preserving bare quadratic Weyl mass. Actual
+sl3/sl2 bilinear equations, full-rank two-doublet mass, unpaired complex-Weyl
+controls and positive kinetic/nonzero gauge data checked. No full52 or
+three physical generations claim. W=0 four-dimensional EFT is a supplied
+stationary control, not full KK closure or permission to omit parent Yukawas.
+
+Report physical_bridge/weave_form_parent_2026_10_08/FINDINGS.md; machine
+outputs/receipts, current views, laws/sublemmas, roadmap/leads and sender
+relay reconciled together.26 governance PASS/4 inherited FAIL at checkpoint,
+overdue review353 merges. No nonauthor/full-suite/main-bank acceptance.
+Next all admitted spin companion kernels and the same curved interacting
+action, bosonic positivity, source/end and anomaly laws; generated twist,
+metric/phase selection, complex SM chirality, physical parameters and gravity
+remain owed. Silver formal results preserved separately, not grafted.

@@ -1,6 +1,20 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-October8 research checkpoint: shared-puncture compact sheaf index d-3
+October8 form-parent research checkpoint:32 native/25 separate reference/
+14 focused and25 two-packet regression PASS at unchanged pre-run59ef9eda8.
+Supplied (1,1) R twist retains genuine Weyl scalar/form fields; quaternion
+compact-cover form kernels give55 scalar/111 one-Hodge-type coefficients.
+W21 triplet preserved, not multiplied into the gauge roster twice. Complete
+FORM complex SM charge asymmetries vanish, but at least16 pseudoreal
+coefficients have no invariant bare quadratic Weyl mass at the retained-
+symmetry origin. Positive kinetic Gram and nonzero gauge vertices remain.
+Report: reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/FINDINGS.md.
+Companion spin spectrum, full curved interacting action, global anomalies
+and generated twist/end/phase selection remain owed. Supplied W=0 EFT
+is not a full KK closure; no physical generations or architecture kill.
+Full SM/TOE ACTIVE/unachieved; nonauthor/full-suite/main banking owed.
+
+Earlier October8 research checkpoint: shared-puncture compact sheaf index d-3
 and local Green coefficient domains supported;35 native/33 separate
 reference/11 focused PASS at unchanged pre-run seal1f7982071. W21 one-form
 triplet preserved. The complete massless ORDINARY-SPIN cusp has a different

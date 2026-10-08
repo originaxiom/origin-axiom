@@ -1,0 +1,98 @@
+{
+  "facts": {
+    "Q8_commutator_is_minus_I": true,
+    "chain_boundaries_compose_to_zero": true,
+    "chain_ranks_three_seven": true,
+    "all_eight_deck_maps_equivariant": true,
+    "compact_H1_six_and_genus_three": true,
+    "H1_character_two_trivial_two_rho": true,
+    "holomorphic_character_one_trivial_one_rho": true,
+    "adjoint_character_rebuilt_through_exteriors": true,
+    "complete_Q8_adjoint_multiplicities": true,
+    "complete_form_kernel_roster": true,
+    "family_three_not_multiplied_again": true,
+    "all_four_independent_left_parent_slots_retained": true,
+    "untwisted_dictionary_detected": true,
+    "form_symbol_clifford": true,
+    "form_symbol_graded": true,
+    "square_root_pole_pulls_back_regular": true,
+    "form_radial_squared_mass_quarter": true,
+    "form_radial_not_ordinary_spin_massless": true,
+    "gauge_subgroup_dimensions_all_retained": true,
+    "all_generic_SM_charges_pair_in_FORM_sector": true,
+    "FORM_weak_mod_two_even": true,
+    "single_complex_left_Weyl_is_unpaired": true,
+    "adding_independent_left_mirror_changes_census": true,
+    "family_adjoint_invariant_bilinear_unique_symmetric": true,
+    "weak_doublet_invariant_bilinear_unique_skew": true,
+    "protected_16_bilinear_invariant_skew_full_rank": true,
+    "protected_symmetric_mass_zero": true,
+    "two_doublets_have_one_symmetric_mass": true,
+    "two_doublet_mass_invariant_full_rank": true,
+    "wrong_family_bilinear_rejected": true,
+    "nonzero_family_gauge_vertex_retained": true,
+    "positive_kinetic_Gram": true
+  },
+  "predicates_passed": 32,
+  "cover_H1_character": [
+    6,
+    -2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "cover_holomorphic_character": [
+    3,
+    -1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "adjoint_Q8_multiplicities": [
+    55,
+    27,
+    27,
+    27,
+    56
+  ],
+  "form_kernel_dimensions": {
+    "W6_scalar": 0,
+    "W6_one_Hodge_type": 3,
+    "adjoint_scalar": 55,
+    "adjoint_one_Hodge_type": 111,
+    "adjoint_real_degree1_complexification": 222
+  },
+  "parent_left_twisted_charges": [
+    2,
+    0,
+    -1,
+    -1
+  ],
+  "gauge_dimensions": [
+    55,
+    56,
+    111
+  ],
+  "weak_doublets_in_FORM_sector": 28,
+  "bilinear_profile": {
+    "ad8_invariants": 1,
+    "doublet_invariants": 1,
+    "protected_symmetric_masses": 0,
+    "two_doublet_symmetric_masses": 1,
+    "protected_lower_bound_complex_components": 16
+  },
+  "zero_angular_form_squared_mass": "1/4",
+  "complex_SM_asymmetry_in_FORM_sector": 0,
+  "complete_companion_spectrum_computed": false,
+  "full_curved_interacting_parent_certified": false,
+  "global_physical_Fredholm_index_certified": false,
+  "generated_twist_or_action_selected": false,
+  "physical_chiral_SM_derived": false,
+  "nonauthor_acceptance": false
+}

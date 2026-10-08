@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-08 form fermion dictionary and mass protection benchmark
+
+32 exact native/25 separate Fraction reference/14 focused and25 two-packet
+regression PASS unchanged at pre-run pushed/server-confirmed59ef9eda8.
+Quaternion compact-cover form kernel roster55/111 earned conditionally;
+supplied (1,1) R twist retains genuine Weyl fields and W21's triplet.
+Complete FORM complex SM charge asymmetries vanish, but at least16
+pseudoreal coefficients have no gauge-invariant bare quadratic Weyl mass.
+Nonzero gauge vertices/positive kinetic Gram retained. Companion spectrum,
+full curved action and generated twist remain owed; not a full KK theory,
+three physical generations or an architecture kill. Report
+reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/FINDINGS.md.
+Four inherited governance failures remain; full SM/TOE ACTIVE/unachieved.
+
 ## 2026-10-08 shared-puncture kinetic benchmark and silver result preservation
 
 35 exact native/33 separate reference/11 focused PASS unchanged after

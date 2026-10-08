@@ -1,5 +1,16 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 form-parent research sublemmas, not new shared/main-bank laws.
+SM W21/W24 prior algebra and the published (1,1) twist dictionary credited.
+32 native/25 separate reference/14 focused and25 regression PASS at59ef9eda8.
+
+| Conditional result | Exact scope and evidence |
+|---|---|
+| Global form kernel dictionary | Regular quaternion cover of a punctured elliptic curve compactifies to genus3; cell-complex H1 character2*1+2*rho, holomorphic1+rho. Complete-cusp L2 form argument gives rank-six triplet and full-adjoint scalar55/one-Hodge-type111. Authored PROOF.md in reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08; exact finite locks, outside analytic acceptance owed. Not a full physical Fredholm/companion spectrum certificate. |
+| Form kinetic versus ordinary spin | Supplied (1,1) R twist maps independent Weyl slots to scalar/form plus two retained spin companions. Form Clifford symbol and branch pullback pass; zero-angular scalar/form block has squared radial mass1/4. Same PROOF/locks; local spectral data only, not a derived twist or full curved parent. |
+| Complete form charge pairing | Entire111 roster under SU3_color x SU2_weak x SU3_family pairs generic Y charges and contains28 weak doublets. Same PROOF/NATIVE.json; no selected normalization, no claim for other operators/flux/defects/companions or the architecture. |
+| Pseudoreal Weyl mass protection | Unique invariant bilinear on the single(1,2,8_family) form summand is skew; symmetric bare Weyl mass is absent. At least16 complex coefficients protected at an H-preserving origin, hence against full-centralizer-invariant quadratic masses. Actual sl3/sl2 matrix equations, positive kinetic Gram and nonzero gauge vertices; two-doublet mass and unpaired complex-Weyl controls. Not a full52 claim, three generations or complete anomaly/KK certificate. |
+
 October8 path-local research sublemmas, not new shared/main-bank laws.
 Sources credited: SM W21/W22/W28, main B1606, primary parabolic/Dirac
 theorems and the fork's preceding finite cyclic construction.

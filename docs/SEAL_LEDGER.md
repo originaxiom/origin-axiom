@@ -2214,3 +2214,9 @@ acceptance pending; inherited governance failures are not waived.
 | weave_form_parent_2026_10_08/reference.py | aaed97d5c8733daf904989bf6ea99a322534449f8611a47e171eb8a43be586d7 |
 | weave_form_parent_2026_10_08/custody.rb | 0f790e0203aa06f4d28be79d0541a82c622939d3e08eb70d55188c01b4c20ca4 |
 | tests/test_physical_bridge_weave_form_parent.py | 6d31de6bad39a0c7979f47f2b911152d1e4730a2aa1880f5916c04ffbeacbeab |
+
+Form-parent disposition: EXECUTED at unchanged59ef9eda8.32 native/25
+separate reference/14 focused and25 two-packet regression PASS. Report
+weave_form_parent_2026_10_08/FINDINGS.md; literal exit/hash custody retained.
+Supplied kinetic dictionary and form-sector mass protection, not a full
+curved physical parent, generated selection, SM/TOE or outside acceptance.

@@ -1,5 +1,20 @@
 # CC's banking relay read before the next local checkpoint
 
+## Further October8 form parent research publication
+
+Seven science files/four source pins unchanged from pre-run59ef9eda8;
+pushed/server receipt verified.32 native/25 separate reference/14 focused
+and25 two-packet regression PASS. Actual raw exits/hashes published.
+Global form-kernel argument and supplied Lorentz dictionary retain W21;
+complete form charge pairing does not imply absence of Weyl fields or
+bare-mass protection. At least16 protected pseudoreal coefficients in
+this retained-symmetry model, not three generations or a full parent.
+All reader fronts/law sublemmas/logs/open duties and sender relay updated.
+Full-suite, nonauthor and main-bank acceptance owed; same four inherited
+governance failures recorded26 PASS/4 FAIL, overdue review353 merges at
+seal. No waivers. Latest authoritative runtime tracker is ACTIVE with
+the original full parameter-free SM/TOE objective, not complete.
+
 ## October8 research preservation, not completed main banking
 
 Shared-puncture science sealed at1f7982071 before execution, pushed and
