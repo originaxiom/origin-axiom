@@ -1,0 +1,716 @@
+{
+ "Tbar_x_T": {
+  "P1": {
+   "viable_subgroups": 57,
+   "viable_orders": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16
+   ],
+   "viable_all_abelian": true,
+   "profile_(order,inv_dim,viable,abelian):count": {
+    "(1, 9, True, True)": 1,
+    "(2, 5, True, True)": 6,
+    "(2, 9, True, True)": 1,
+    "(3, 3, True, True)": 4,
+    "(4, 3, True, True)": 4,
+    "(4, 5, True, True)": 6,
+    "(4, 9, True, True)": 1,
+    "(6, 3, True, True)": 4,
+    "(8, 3, True, True)": 10,
+    "(8, 5, True, True)": 9,
+    "(12, 1, False, False)": 1,
+    "(12, 3, True, True)": 4,
+    "(16, 3, True, True)": 7,
+    "(24, 1, False, False)": 1,
+    "(24, 2, False, False)": 4,
+    "(32, 2, False, False)": 3,
+    "(48, 1, False, False)": 1,
+    "(96, 1, False, False)": 1
+   }
+  },
+  "pairs": 3249,
+  "block_sums_shared_by_family": true,
+  "tally_(family_dim,ckm_block,pmns_block)": {
+   "(0, False, False)": 1089,
+   "(1, False, False)": 939,
+   "(2, False, False)": 480,
+   "(2, False, True)": 264,
+   "(3, False, True)": 144,
+   "(4, True, True)": 333
+  },
+  "ckm_fits_below_4": [],
+  "pmns_fits_below_4": [
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "block_sums": [
+     0.33333,
+     0.66667,
+     0.33333,
+     0.66667,
+     0.33333,
+     0.66667
+    ],
+    "orders": [
+     3,
+     2
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.66667,
+     0.33333,
+     0.66667,
+     0.33333,
+     0.66667,
+     0.33333
+    ],
+    "orders": [
+     3,
+     2
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "block_sums": [
+     0.16667,
+     0.83333,
+     0.16667,
+     0.83333,
+     0.66667,
+     0.33333
+    ],
+    "orders": [
+     3,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.83333,
+     0.16667,
+     0.83333,
+     0.16667,
+     0.33333,
+     0.66667
+    ],
+    "orders": [
+     3,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.83333,
+     0.16667,
+     0.33333,
+     0.66667,
+     0.83333,
+     0.16667
+    ],
+    "orders": [
+     3,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "block_sums": [
+     0.66667,
+     0.33333,
+     0.16667,
+     0.83333,
+     0.16667,
+     0.83333
+    ],
+    "orders": [
+     3,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.33333,
+     0.66667,
+     0.83333,
+     0.16667,
+     0.83333,
+     0.16667
+    ],
+    "orders": [
+     3,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "block_sums": [
+     0.16667,
+     0.83333,
+     0.66667,
+     0.33333,
+     0.16667,
+     0.83333
+    ],
+    "orders": [
+     6,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      1,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.5,
+     0.25,
+     0.25,
+     0.5,
+     0.75,
+     0.75
+    ],
+    "orders": [
+     8,
+     8
+    ],
+    "best_score": 0.0707,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      1,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.25,
+     0.25,
+     0.5,
+     0.75,
+     0.75,
+     0.5
+    ],
+    "orders": [
+     8,
+     8
+    ],
+    "best_score": 0.0707,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      1,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.75,
+     0.75,
+     0.5,
+     0.25,
+     0.25,
+     0.5
+    ],
+    "orders": [
+     8,
+     8
+    ],
+    "best_score": 0.0707,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      1,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.5,
+     0.75,
+     0.75,
+     0.5,
+     0.25,
+     0.25
+    ],
+    "orders": [
+     8,
+     8
+    ],
+    "best_score": 0.0707,
+    "reached": true
+   },
+   {
+    "family_dim": 3,
+    "piece_dims": [
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "block_sums": [
+     0.5,
+     0.5,
+     0.5,
+     1.5
+    ],
+    "orders": [
+     2,
+     8
+    ],
+    "best_score": 0.3627,
+    "reached": true
+   },
+   {
+    "family_dim": 3,
+    "piece_dims": [
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.5,
+     0.5,
+     1.5,
+     0.5
+    ],
+    "orders": [
+     2,
+     8
+    ],
+    "best_score": 0.3627,
+    "reached": true
+   },
+   {
+    "family_dim": 3,
+    "piece_dims": [
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "block_sums": [
+     1.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "orders": [
+     2,
+     8
+    ],
+    "best_score": 0.3627,
+    "reached": true
+   },
+   {
+    "family_dim": 3,
+    "piece_dims": [
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "block_sums": [
+     0.5,
+     1.5,
+     0.5,
+     0.5
+    ],
+    "orders": [
+     2,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 3,
+    "piece_dims": [
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.75,
+     0.25,
+     1.25,
+     0.75
+    ],
+    "orders": [
+     8,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 3,
+    "piece_dims": [
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "block_sums": [
+     0.75,
+     1.25,
+     0.25,
+     0.75
+    ],
+    "orders": [
+     8,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 3,
+    "piece_dims": [
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "block_sums": [
+     1.25,
+     0.75,
+     0.75,
+     0.25
+    ],
+    "orders": [
+     8,
+     8
+    ],
+    "best_score": 0.0,
+    "reached": true
+   }
+  ],
+  "ckm_min_family_dim_reaching_data": 4,
+  "pmns_min_family_dim_reaching_data": 2
+ },
+ "T_x_T": {
+  "P1": {
+   "viable_subgroups": 24,
+   "viable_orders": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8
+   ],
+   "viable_all_abelian": true,
+   "profile_(order,inv_dim,viable,abelian):count": {
+    "(1, 9, True, True)": 1,
+    "(2, 5, True, True)": 6,
+    "(2, 9, True, True)": 1,
+    "(3, 3, True, True)": 4,
+    "(4, 0, False, True)": 1,
+    "(4, 3, True, True)": 4,
+    "(4, 4, False, True)": 3,
+    "(4, 5, True, True)": 3,
+    "(6, 3, True, True)": 4,
+    "(8, 0, False, True)": 9,
+    "(8, 2, False, True)": 9,
+    "(8, 3, True, True)": 1,
+    "(12, 0, False, True)": 4,
+    "(12, 1, False, False)": 1,
+    "(16, 0, False, True)": 7,
+    "(24, 0, False, False)": 4,
+    "(24, 1, False, False)": 1,
+    "(32, 0, False, False)": 3,
+    "(48, 0, False, False)": 1,
+    "(96, 0, False, False)": 1
+   }
+  },
+  "pairs": 576,
+  "block_sums_shared_by_family": true,
+  "tally_(family_dim,ckm_block,pmns_block)": {
+   "(0, False, False)": 169,
+   "(1, False, False)": 117,
+   "(2, False, False)": 126,
+   "(2, False, True)": 72,
+   "(4, True, True)": 92
+  },
+  "ckm_fits_below_4": [],
+  "pmns_fits_below_4": [
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "block_sums": [
+     0.33333,
+     0.66667,
+     0.33333,
+     0.66667,
+     0.33333,
+     0.66667
+    ],
+    "orders": [
+     3,
+     2
+    ],
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "family_dim": 2,
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "block_sums": [
+     0.66667,
+     0.33333,
+     0.66667,
+     0.33333,
+     0.66667,
+     0.33333
+    ],
+    "orders": [
+     3,
+     2
+    ],
+    "best_score": 0.0,
+    "reached": true
+   }
+  ],
+  "ckm_min_family_dim_reaching_data": 4,
+  "pmns_min_family_dim_reaching_data": 2
+ },
+ "Sym2_T": {
+  "P1": {
+   "viable_subgroups": 16,
+   "viable_orders": [
+    1,
+    2,
+    4,
+    8
+   ],
+   "viable_all_abelian": true,
+   "profile_(order,inv_dim,viable,abelian):count": {
+    "(1, 6, True, True)": 1,
+    "(2, 4, True, True)": 6,
+    "(2, 6, True, True)": 1,
+    "(3, 2, False, True)": 4,
+    "(4, 0, False, True)": 1,
+    "(4, 2, False, True)": 3,
+    "(4, 3, True, True)": 4,
+    "(4, 4, True, True)": 3,
+    "(6, 2, False, True)": 4,
+    "(8, 0, False, True)": 9,
+    "(8, 1, False, True)": 9,
+    "(8, 3, True, True)": 1,
+    "(12, 0, False, True)": 4,
+    "(12, 1, False, False)": 1,
+    "(16, 0, False, True)": 7,
+    "(24, 0, False, False)": 4,
+    "(24, 1, False, False)": 1,
+    "(32, 0, False, False)": 3,
+    "(48, 0, False, False)": 1,
+    "(96, 0, False, False)": 1
+   }
+  },
+  "pairs": 256,
+  "block_sums_shared_by_family": true,
+  "tally_(family_dim,ckm_block,pmns_block)": {
+   "(0, False, False)": 25,
+   "(1, False, False)": 117,
+   "(2, False, False)": 54,
+   "(4, True, True)": 60
+  },
+  "ckm_fits_below_4": [],
+  "pmns_fits_below_4": [],
+  "ckm_min_family_dim_reaching_data": 4,
+  "pmns_min_family_dim_reaching_data": 4
+ }
+}
