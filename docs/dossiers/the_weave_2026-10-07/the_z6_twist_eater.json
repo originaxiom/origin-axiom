@@ -1,0 +1,401 @@
+{
+ "rule": "W29_RULE.md (committed 37441028 before this ran)",
+ "the object": "chosen, not forced: every claim is conditional on the shared fibre carrying the Z6 flux",
+ "Z1 the group": {
+  "det A, det B": [
+   1.0,
+   1.0
+  ],
+  "order of H6": 216,
+  "its scalars (the centre)": 6,
+  "A B A^-1 B^-1 = zeta 1": true,
+  "commutant on C^6 (1 = irreducible)": 1,
+  "Frobenius-Schur indicator of the 6 (0 = complex)": -0.0,
+  "Chinese remainder: C = Z (x) C3^-1 and S = X (x) S3 exactly": true,
+  "A^3, B^3 = iZ (x) 1, iX (x) 1: the weave's qubit units": true,
+  "lemma: zeta^w != 1 for w = 1..5, so an invariant subspace has dimension 0 or 6 (exact)": true,
+  "so no U(1) of SU(6)' commutes with H6 (Schur)": true
+ },
+ "Z2 centralisers in E8 [order, dimension]": {
+  "H6 (qubit x qutrit)": [
+   216,
+   11.0
+  ],
+  "the weave's qubit Q8 (rho_Q (x) 1_3)": [
+   8,
+   55.0
+  ],
+  "the qutrit alone (1_2 (x) H3)": [
+   27,
+   22.0
+  ],
+  "the flux <zeta 1> alone": [
+   6,
+   46.0
+  ]
+ },
+ "Z3 the 6": {
+  "multiplicity of the 6 in the 248": 6.0,
+  "of the 6-bar": 6.0,
+  "so its multiplicity space has dimension 6, (3, 2)": true
+ },
+ "Z3 the 15 = Lambda^2 6": {
+  "types": [
+   {
+    "dimension": 3,
+    "multiplicity in the 15": 1,
+    "signs of A^3, B^3 (iZ, iX on the qubit)": [
+     -1,
+     -1
+    ],
+    "multiplicity in the 248 (by characters)": 3.0
+   },
+   {
+    "dimension": 3,
+    "multiplicity in the 15": 1,
+    "signs of A^3, B^3 (iZ, iX on the qubit)": [
+     -1,
+     1
+    ],
+    "multiplicity in the 248 (by characters)": 3.0
+   },
+   {
+    "dimension": 3,
+    "multiplicity in the 15": 1,
+    "signs of A^3, B^3 (iZ, iX on the qubit)": [
+     1,
+     -1
+    ],
+    "multiplicity in the 248 (by characters)": 3.0
+   },
+   {
+    "dimension": 3,
+    "multiplicity in the 15": 2,
+    "signs of A^3, B^3 (iZ, iX on the qubit)": [
+     1,
+     1
+    ],
+    "multiplicity in the 248 (by characters)": 6.0
+   }
+  ],
+  "isotypic structure [(dimension, multiplicity)]": [
+   [
+    3,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "the doubly occurring type carries the qubit's trivial character": true,
+  "the three single types carry the three non-trivial characters (the parities)": {
+   "(-1, -1)": "Y: the weave's (1/2, 0), kernel b",
+   "(-1, 1)": "X: the weave's (1/2, 1/2), kernel ab",
+   "(1, -1)": "Z: the weave's (0, 1/2), kernel a"
+  },
+  "as predicted": true
+ },
+ "Z3 the 20 = Lambda^3 6": {
+  "types": [
+   {
+    "dimension": 2,
+    "multiplicity in the 20": 1,
+    "qutrit label (a, b) mod 3": [
+     0,
+     1
+    ],
+    "multiplicity in the 248 (by characters)": 2.0
+   },
+   {
+    "dimension": 2,
+    "multiplicity in the 20": 1,
+    "qutrit label (a, b) mod 3": [
+     0,
+     2
+    ],
+    "multiplicity in the 248 (by characters)": 2.0
+   },
+   {
+    "dimension": 2,
+    "multiplicity in the 20": 1,
+    "qutrit label (a, b) mod 3": [
+     1,
+     1
+    ],
+    "multiplicity in the 248 (by characters)": 2.0
+   },
+   {
+    "dimension": 2,
+    "multiplicity in the 20": 1,
+    "qutrit label (a, b) mod 3": [
+     2,
+     1
+    ],
+    "multiplicity in the 248 (by characters)": 2.0
+   },
+   {
+    "dimension": 2,
+    "multiplicity in the 20": 1,
+    "qutrit label (a, b) mod 3": [
+     1,
+     2
+    ],
+    "multiplicity in the 248 (by characters)": 2.0
+   },
+   {
+    "dimension": 2,
+    "multiplicity in the 20": 1,
+    "qutrit label (a, b) mod 3": [
+     1,
+     0
+    ],
+    "multiplicity in the 248 (by characters)": 2.0
+   },
+   {
+    "dimension": 2,
+    "multiplicity in the 20": 1,
+    "qutrit label (a, b) mod 3": [
+     2,
+     0
+    ],
+    "multiplicity in the 248 (by characters)": 2.0
+   },
+   {
+    "dimension": 2,
+    "multiplicity in the 20": 1,
+    "qutrit label (a, b) mod 3": [
+     2,
+     2
+    ],
+    "multiplicity in the 248 (by characters)": 2.0
+   },
+   {
+    "dimension": 2,
+    "multiplicity in the 20": 2,
+    "qutrit label (a, b) mod 3": [
+     0,
+     0
+    ],
+    "multiplicity in the 248 (by characters)": 4.0
+   }
+  ],
+  "isotypic structure [(dimension, multiplicity)]": [
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    2
+   ]
+  ],
+  "the doubly occurring type is qutrit-blind": true,
+  "the eight single types carry the eight non-zero qutrit labels": true,
+  "in conjugate pairs: the four lines of P^1(F3)": 4
+ },
+ "Z3 the adjoint (End C^6 = 1 + 35)": {
+  "the two generators commute (the adjoint is abelian)": true,
+  "jointly diagonal in one basis": true,
+  "number of distinct characters (pairs of sixth-root exponents)": 36,
+  "36 distinct characters, each once (so the 35 are the non-trivial ones)": true
+ },
+ "Z4 the flux and the orientation": {
+  "exp(2 pi i diag(1/6 x5, -5/6)) = zeta 1 (exact)": true,
+  "reading: with the 6 = 5_{1/6} + 1_{-5/6} under SU(5)' x U(1)_Y, the flux is exp(2 pi i Y)": "READING",
+  "the moves": {
+   "L": {
+    "commutator of the image pair": "zeta",
+    "intertwiners U (dimension of the solution space)": 1
+   },
+   "R": {
+    "commutator of the image pair": "zeta",
+    "intertwiners U (dimension of the solution space)": 1
+   },
+   "-I": {
+    "commutator of the image pair": "zeta",
+    "intertwiners U (dimension of the solution space)": 1
+   },
+   "P": {
+    "commutator of the image pair": "zeta-bar",
+    "intertwiners U (dimension of the solution space)": 0
+   }
+  },
+  "L, R and -I keep zeta and have one intertwiner each; the swap P sends zeta to zeta-bar and has none": true
+ },
+ "Z5 the moves at the puncture": {
+  "the lift of -I is the parity |k> -> |-k> up to a scalar": false,
+  "commutant of the lifts of L and R on the 6": 2,
+  "their isotypic structure on the 6": [
+   [
+    2,
+    1
+   ],
+   [
+    4,
+    1
+   ]
+  ],
+  "the pieces are the parity's eigenspaces (dimensions 4 and 2)": false,
+  "the 6-sector's index (-1 + d1): under the moves": [
+   -1,
+   1,
+   3,
+   5
+  ],
+  "... under locality (the flux is central: U(6))": [
+   -1,
+   5
+  ],
+  "the smooth E8 condition (traceless weights: d1 = 1, index 0) is move-invariant": false,
+  "the lifts' isotypic structure on Lambda^2 C^6 (the 15-sector)": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    6,
+    1
+   ]
+  ],
+  "the 15-sector's index (-5 + d2): under the moves": [
+   -5,
+   -4,
+   -3,
+   -2,
+   -1,
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "... under locality": [
+   -5,
+   10
+  ]
+ },
+ "Z6 the anomalies": {
+  "SU(3)^3 = 2 n(3,2) - n(3b,1) = 3 + 2 d1 - d2": "the formula",
+  "under the moves: the SU(3)^3-free (n(3,2), n(3b,1))": [
+   [
+    -1,
+    -2
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    5,
+    10
+   ]
+  ],
+  "... each has n(3b,1) = 2 n(3,2) (the Standard Model's ratio)": true,
+  "... every n(3,2) the moves allow has a free completion": true,
+  "under locality: the four rows": [
+   {
+    "n(3,2)": -1,
+    "n(3b,1)": -5,
+    "SU(3)^3": 3
+   },
+   {
+    "n(3,2)": -1,
+    "n(3b,1)": 10,
+    "SU(3)^3": -12
+   },
+   {
+    "n(3,2)": 5,
+    "n(3b,1)": -5,
+    "SU(3)^3": 15
+   },
+   {
+    "n(3,2)": 5,
+    "n(3b,1)": 10,
+    "SU(3)^3": 0
+   }
+  ],
+  "under locality: the free ones": [
+   [
+    5,
+    10
+   ]
+  ],
+  "the coloured doublets 3|n(3,2)| are odd for every move-invariant condition": true,
+  "the doublet sector (1,2) (x) 20 is real, so its index is 0 (CPT): no chiral lepton doublets": "stated"
+ },
+ "Z7 the verdict": {
+  "centraliser exactly SU(3) x SU(2) (11)": true,
+  "the quark doublets complex (the 6 has indicator 0, multiplicity 6)": true,
+  "the flux is exp(2 pi i Y) (exact identity; the reading through SU(5)')": true,
+  "(a) U(1)_Y broken (the lemma)": true,
+  "(b) three allowed by the moves but not forced; locality with SU(3)^3 gives": [
+   [
+    5,
+    10
+   ]
+  ],
+  "(b) three not forced": true,
+  "(c) odd coloured doublets and no chiral leptons": true,
+  "(d) the flux is not forced": "step 4 of the plan, open; not computed here",
+  "an echo, not a derivation": true
+ }
+}

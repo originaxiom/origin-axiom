@@ -195,6 +195,13 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   - The parities are the three global forms of su(2) (SU(2), SO(3)₊, SO(3)₋), equivariantly under every move.
   - The common point is 't Hooft's twist-eater, unique up to conjugation, and it eats the centre symmetry: each
     non-trivial centre transformation is conjugation by one Pauli unit, and is one parity.
+- **A chosen qutrit flux echoes the Standard Model, and does not derive it (W29; the rule committed first).**
+  - The weave's qubit tensored with a qutrit (the ℤ₆ twist-eater in SU(6)′ ⊂ E₈) has centraliser exactly SU(3) × SU(2),
+    complex quark doublets, and flux e^{2πiY}.
+  - **The law (exact):** a pair with commutator ζ·1₆ acts irreducibly. So the flux and an unbroken U(1)_Y exclude each
+    other.
+  - Its count is not three by any forced rule: the moves allow −1, 1, 3 or 5 quark generations, and locality gives
+    five.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

@@ -506,3 +506,29 @@ def test_w28_the_three_routes_and_the_qubit():
     assert TQ.index_set(TQ.isotypic(lifts)) == [-3, -1, 1, 3]
     assert TQ.index_set(TQ.isotypic(F)) == [-3, 0, 3]
     assert TQ.index_set(TQ.isotypic(lifts + F)) == [-3, 3]
+
+
+def test_w29_the_z6_twist_eater():
+    """W29 (the rule committed first; a chosen object): the Z6 twist-eater's centraliser in E8 is exactly SU(3) x SU(2)
+    (11), its 6 is complex with multiplicity 6, the moves split the 6 as 4 + 2 (quark generations -1, 1, 3, 5, each
+    SU(3)^3-free with n(3b,1) = 2 n(3,2)), locality gives five; the lemma (no U(1) of SU(6)' commutes) recomputed"""
+    import sys
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_z6_twist_eater.json").read_text(encoding="utf-8"))
+    v = d["Z7 the verdict"]
+    assert v["centraliser exactly SU(3) x SU(2) (11)"] and v["(a) U(1)_Y broken (the lemma)"]
+    assert v["(b) three not forced"] and v["an echo, not a derivation"]
+    assert d["Z2 centralisers in E8 [order, dimension]"]["the qutrit alone (1_2 (x) H3)"] == [27, 22.0]
+    z6 = d["Z6 the anomalies"]
+    assert z6["under the moves: the SU(3)^3-free (n(3,2), n(3b,1))"] == [[-1, -2], [1, 2], [3, 6], [5, 10]]
+    assert z6["under locality: the free ones"] == [[5, 10]]
+    post = json.loads((here / "the_z6_twist_eater_posthoc.json").read_text(encoding="utf-8"))
+    assert post["P2 the lift of (L R^-1 L)^2 = -I composed with conjugation by a b^-1"][
+        "the lifts of L and R keep them (they are the pieces)"]
+    sys.path.insert(0, str(here))
+    import the_z6_twist_eater as ZT
+    assert np.allclose(ZT.A @ ZT.B @ np.linalg.inv(ZT.A) @ np.linalg.inv(ZT.B), ZT.ZETA * np.eye(6))
+    assert ZT.SC.commutant([ZT.A, ZT.B], 6)[0] == 1
+    H = ZT.SW.closure([ZT.A, ZT.B], 6, cap=1000)
+    assert len(H) == 216 and ZT.SW.average(H)[0] == 11.0

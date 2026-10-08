@@ -1,0 +1,22 @@
+{
+ "status": "POST HOC: after the read-out of the_z6_twist_eater.py (W29_RULE.md committed 37441028)",
+ "P1 the lift of -I": {
+  "a phase times the reflection |k> -> |c - k>, with c": 5,
+  "the phase is the clock C (U_{-I} = C R_c up to a scalar)": true,
+  "its eigenspace dimensions": [
+   3,
+   3
+  ],
+  "the lifts of L and R keep them": false
+ },
+ "P2 the lift of (L R^-1 L)^2 = -I composed with conjugation by a b^-1": {
+  "equals a scalar times (A B^-1) U_{-I}": true,
+  "a phase times the reflection |k> -> |c - k>, with c": 4,
+  "its eigenspace dimensions": [
+   2,
+   4
+  ],
+  "the lifts of L and R keep them (they are the pieces)": true
+ },
+ "reading": "the moves contain -I only composed with an inner automorphism; the lift of (L R^-1 L)^2, a reflection with two fixed points, splits the 6 as 4 + 2, and those are the pieces. The bare -I's lift is a reflection without fixed points, with two 3-dimensional eigenspaces that the moves exchange. The rule's naming was wrong; the computed structure and every index set stand"
+}

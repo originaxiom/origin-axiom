@@ -1,5 +1,25 @@
 # Changelog
 
+## The weave's W29: the ℤ₆ twist-eater in E₈, an echo of the Standard Model's SU(3) × SU(2), not a derivation
+
+- **Step 3 of the owner's approved plan.** The rule (W29_RULE.md, 37441028) was committed first.
+  - A first launch was stopped before any read-out: a 35 GB allocation in the null-space helper, fixed.
+  - Then one run. Every cell came out as predicted, except Z5's naming of the sign move's lift, corrected post hoc.
+- **The candidate,** chosen and not forced: the weave's qubit tensored with a qutrit (the ℤ₆ Heisenberg pair in
+  SU(6)′ ⊂ E₈).
+- **The echo.**
+  - The centraliser is exactly SU(3) × SU(2) (11). The qubit alone gives F₄ × SU(2), and the qutrit alone SU(3) × G₂.
+  - The quark doublets are complex, and the 15's three single types are the three parities.
+  - The flux is e^{2πiY}, and the swap has no lift (the hand visible).
+- **Not a derivation:**
+  - the flux uses up the hypercharge (an exact lemma);
+  - the moves allow −1, 1, 3 or 5 quark generations, each anomaly-free with the Standard Model's ratio, and locality
+    gives five;
+  - there are no chiral leptons;
+  - the flux is not forced (step 4, open).
+- **The post-hoc correction.** The 4 ⊕ 2 pieces are the eigenspaces of the lift of (LR⁻¹L)², a reflection |k⟩ ↦
+  |4 − k⟩. The bare −I's lift exchanges two 3-dimensional halves.
+
 ## The weave's W28: the end condition's routes to three, and the common point as the qubit
 
 - **The owner approved the verification plan** after the two contemplation turns: the foundation first (steps 1 and

@@ -102,6 +102,12 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
     not either.
   - Earning it is GENESIS FK11's open question: a frame derived from the principle, or main's ruling that Λ is the
     dictionary.
+  - **W29 tested one candidate for the gauge side:** the weave's qubit with a qutrit flux (the ℤ₆ twist-eater), which
+    is chosen, not forced.
+    - It gives the Standard Model's SU(3) × SU(2) exactly, with complex quark doublets, and its flux is e^{2πiY}.
+    - But the flux uses up the hypercharge, three is not forced (the moves allow 1, 3 or 5; locality gives 5), and
+      there are no chiral leptons.
+    - An echo, not a derivation. Λ stays the one link.
 
 ## Files
 

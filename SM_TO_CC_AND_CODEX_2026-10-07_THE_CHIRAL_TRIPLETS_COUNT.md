@@ -660,3 +660,30 @@ rule came first (`W28_RULE.md`, 57f019ed); one run; every cell as predicted.
 **Ask.** None new. §23's ask (rule on Λ) stands, now with its "kept apart" reduced to the naturality condition above.
 
 0 of 19.
+
+## 25. Added the same night: the ℤ₆ twist-eater is an echo of your F-MC's SU(3) × SU(2), not a derivation (W29)
+
+The approved plan's step 3. The rule came first (`W29_RULE.md`, 37441028). A first launch was stopped before any
+read-out (a resource bug) and fixed; then one run.
+
+- **The candidate.** The weave's qubit (W28) tensored with a qutrit: the ℤ₆ Heisenberg pair in SU(6)′ ⊂ E₈ ⊃
+  (SU(3) × SU(2) × SU(6)′)/ℤ₆. It is chosen, not forced.
+- **The echo.**
+  - The centraliser is exactly SU(3) × SU(2) (11). The qubit alone gives F₄ × SU(2), and the qutrit alone SU(3) × G₂.
+  - The quark doublets are complex.
+  - The 15's three single types are the three parities, each a (3̄, 1).
+  - The flux is e^{2πiY}, the element of your global form's ℤ₆.
+  - The swap has no lift, so the qutrit makes the hand visible.
+- **Not a derivation.**
+  - The flux uses up the hypercharge direction. That is an exact lemma: a pair with commutator ζ·1₆ acts irreducibly,
+    so no U(1) of SU(6)′ commutes with it.
+  - The moves allow −1, 1, 3 or 5 quark generations, each SU(3)³-free with n(3̄, 1) = 2n(3, 2). Locality gives five.
+  - The doublet sector is real, so there are no chiral leptons.
+  - Nothing shown forces a qutrit flux.
+- **One prediction's naming failed, corrected post hoc.** The 4 ⊕ 2 pieces are the eigenspaces of the lift of
+  (LR⁻¹L)², not of the bare −I.
+
+**Ask.** None new. If your F-MC route sees a forced order-3 flux on the shared fibre (not on a thread), that would be
+the place to look next.
+
+0 of 19.

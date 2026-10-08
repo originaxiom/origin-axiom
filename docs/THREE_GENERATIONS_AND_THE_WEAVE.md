@@ -132,6 +132,7 @@ So this section records which patterns the weave's group contains, and nothing m
 | 17 | COMPUTED (W26, exact and SnapPy; the rule committed first, every cell as predicted); a WEAVE result, NEGATIVE for the candidates beyond the weave | the search beyond the weave (the owner's choice): the weave is closed under the mirror (S φ⁻¹ S⁻¹ = reverse(φ) with L ↔ R, all 224 words to length 10), and on all 42 threads to length 6 the mirror has the same volume and opposite Chern–Simons, so the threads' hyperbolic holonomies give the weave no hand; each move is a transposition of the parities mod 2, so the order-3 orientation (F-MC's 27 against 27̄) flips at every tick on all 98 odd-trace words; F-MC declares chirality an input. The record's best derivation: F-MC's gauge structure with its inputs, the weave's count three with its common hand, and FK11 between them |
 | 18 | STATED and TESTED (W27; the rule committed first; exact) | the derivation with its one link (the owner's choice): from the principle, F-MC's typed inputs and one link Λ (the weave's form of FK11: a generation is F-MC's 27 on spacetime × the shared fibre carrying 𝕎, each parity sector one generation, the hand the records' orientation) follow exactly three chiral 27s, alike, in the flavor triplet, each with one Standard Model generation. Tests: anomaly-free (exact, per 27 and for three); the count is ±3 only under Λ's parity grading; read in six dimensions, Dobrescu–Poppitz's global SU(2) condition holds exactly when the sectors are a multiple of three (local anomalies would need a completion); beyond the three, three right-handed neutrinos and heavy vector-like states. Mixing fenced (§3). Λ itself is the input W25 and W26 show the weave cannot supply |
 | 19 | COMPUTED and PROVED (W28; the rule committed first, every cell as predicted); a WEAVE result, the foundation | the end condition's routes to three: the six local solutions are a vector-spinor (spin ½ ⊕ spin 3/2); the two middle conditions couple the sectors and break 𝕎's flavor group to a phase. The moves alone allow −3, −1, +1, +3, the flavor group alone −3, 0, +3, jointly only ±3; locality (the puncture's holonomy −1) gives ±3 too. So row 18's "kept apart" follows from the end condition breaking no symmetry of the bulk problem, a stated naturality condition. The common point read as the qubit, checked: the Pauli group, the moves the Clifford group acting through SU(2) level 1's projective modular data (the hand in the phases, invisible), the parities ℙ¹(𝔽₂) and the three global forms of su(2), the common point 't Hooft's twist-eater |
+| 20 | COMPUTED (W29; the rule committed first; one sub-claim's naming corrected post hoc); a CHOSEN object, NEGATIVE as a derivation | the ℤ₆ twist-eater (the weave's qubit ⊗ a qutrit, the step the contemplation proposed): its centraliser in E₈ is exactly SU(3) × SU(2), its quark doublets are complex, one antiquark singlet is labelled by each parity, and its flux is the hypercharge's 2π rotation e^{2πiY}; the swap has no lift, so the hand is visible. But the flux uses up the hypercharge (an exact lemma: no U(1) commutes with it), the moves allow −1, 1, 3 or 5 quark generations (each anomaly-free with the Standard Model's ratio) and locality gives five, the doublets are real (no chiral leptons), and nothing shown forces the qutrit flux. An echo, not a derivation |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -376,6 +377,23 @@ taken from the weave. Every link is named with its status.
     - The parities are ℙ¹(𝔽₂), the three global forms SU(2), SO(3)₊ and SO(3)₋ (equivariantly).
     - The common point is 't Hooft's twist-eater, which eats the centre symmetry.
   - **What it does not do:** bear on the gauge content. That is the next step (W29, the ℤ₆ twist-eater).
+- **W29: the ℤ₆ twist-eater, an echo, not a derivation** (step 3; the rule committed first, 37441028).
+  - **The candidate.** The weave's qubit tensored with a qutrit: the ℤ₆ Heisenberg pair in SU(6)′ ⊂ E₈. It is chosen,
+    not forced, so the results are conditional.
+  - **What it gives.**
+    - The centraliser is exactly SU(3) × SU(2). The qubit alone gives F₄ × SU(2), and the qutrit alone SU(3) × G₂.
+    - The quark doublets (3, 2) come in a complex representation.
+    - Among the antiquark singlets (3̄, 1), one is labelled by each of the three parities.
+    - The flux is e^{2πiY}, the element of the Standard Model's ℤ₆.
+    - The swap has no lift, so with a qutrit the hand is visible.
+  - **Why it is not a derivation.**
+    - The flux uses up the hypercharge direction: an exact lemma, since no U(1) of SU(6)′ commutes with the pair.
+    - The moves allow −1, 1, 3 or 5 quark generations, each anomaly-free with two antiquark singlets per doublet.
+      Locality gives five, not three.
+    - The doublets are real, so there are no chiral leptons.
+    - Nothing shown forces the qutrit flux.
+  - **A naming error, corrected post hoc.** The rule named the sign move's lift as the plain reflection. The pieces are
+    the eigenspaces of the lift of (LR⁻¹L)² instead; every number stands.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

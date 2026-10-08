@@ -1632,6 +1632,91 @@ fixes. The quantities are joint commutants and the group all the lifts generate.
 
 **Status.** COMPUTED (Part I; Part II) and PROVED (I5, exact): a WEAVE result. It is a foundation, not a gauge result.
 
+## W29. The ℤ₆ twist-eater (qubit ⊗ qutrit) in E₈: an echo of the Standard Model's SU(3) × SU(2), not a derivation (`the_z6_twist_eater.py`; `W29_RULE.md`; post hoc `the_z6_twist_eater_posthoc.py`)
+
+**Why.** Step 3 of the owner's approved plan.
+- W25 showed that the weave's holonomy Q₈ makes every gauge reading self-conjugate.
+- The qubit's flux −1 is its own inverse. A qutrit flux ω is not.
+- Qubit ⊗ qutrit is the ℤ₆ Heisenberg pair H₆ = ⟨A, B⟩ (clock and shift in SU(6)′, commutator ζ = e^{2πi/6}). This arc
+  reads it in E₈ ⊃ (SU(3) × SU(2) × SU(6)′)/ℤ₆.
+
+**Weave or thread?** The object is chosen, not forced: nothing shown forces a qutrit flux (step 4, open). The
+computations are joint over all moves, so this is a weave-type computation on a hand-picked structure, and every claim
+is conditional on the flux.
+
+**The rule** (`W29_RULE.md`, committed 37441028 before the run). One run, read out once.
+- **A first launch was stopped before any read-out.** For the 36-dimensional adjoint, its null-space helper would have
+  allocated a matrix of about 35 GB.
+- **The fix, before the one run:**
+  - the thin SVD for tall matrices;
+  - the adjoint read by its joint eigenvalues (its two generators commute).
+- Every cell came out as predicted, except two sub-claims of Z5 (below).
+
+**The read-out (COMPUTED).**
+- **Z1, the group.**
+  - |H₆| = 216; its centre is the six scalars; the commutator is ζ·1. It is irreducible, with Frobenius–Schur
+    indicator 0: complex.
+  - Under the remainder ordering, C = Z ⊗ C₃⁻¹ and S = X ⊗ S₃ exactly, and A³, B³ = iZ ⊗ 1, iX ⊗ 1. So H₆ is the
+    weave's qubit units tensored with a qutrit pair.
+  - **The lemma (exact).** An invariant subspace W has ζ^{dim W} = 1, so it has dimension 0 or 6. Hence no U(1) of
+    SU(6)′ commutes with H₆.
+- **Z2, the centralisers in E₈:**
+  - H₆: **11**, exactly SU(3) × SU(2);
+  - the weave's qubit: 55, F₄ × SU(2);
+  - the qutrit alone: 22, SU(3) × G₂;
+  - the flux alone: 46.
+- **Z3, the matter.**
+  - The 6 and the 6̄ each occur 6 times: the multiplicity space is (3, 2).
+  - **The 15 = Λ²6** has one type twice, which carries the qubit's trivial character (6 in the 248), and three types
+    once. Those three carry the three non-trivial qubit characters, which are the three parities: Y, X and Z, the
+    weave's (½, 0), (½, ½) and (0, ½). Each occurs 3 times in the 248, so each is a (3̄, 1).
+  - **The 20 = Λ³6** has one qutrit-blind type twice (4 in the 248) and eight types once. Those eight carry the eight
+    non-zero qutrit labels, in four conjugate pairs (the four lines of ℙ¹(𝔽₃)). Each occurs 2 times in the 248, so
+    each is a (1, 2).
+  - The adjoint is 36 distinct characters.
+- **Z4, the flux and the orientation.**
+  - exp(2πi diag(1/6 ×5, −5/6)) = ζ·1 (exact). Read through SU(5)′ × U(1)_Y, the flux is e^{2πiY}, the hypercharge's
+    2π rotation (READING).
+  - L, R and −I keep ζ, with one intertwiner each. The swap P sends ζ to ζ̄ and has none.
+- **Z5, the moves at the puncture.**
+  - The lifts of L and R have commutant 2, with pieces of dimension 4 and 2.
+  - The 6-sector's index is −1, 1, 3 or 5 under the moves, and −1 or 5 under locality.
+  - The index-0 condition that a smooth E₈ field would give is not move-invariant.
+  - On Λ²ℂ⁶ the lifts' structure is 1 + 2 + 3 + 3 + 6, as predicted. So the 15-sector's index takes every value from
+    −5 to 10 under the moves, and −5 or 10 under locality.
+  - **Two sub-claims failed as stated:** the lift of −I is not the parity |k⟩ ↦ |−k⟩, and the pieces are not that
+    parity's eigenspaces.
+  - **POST HOC** (`the_z6_twist_eater_posthoc.py`):
+    - The bare −I's lift is C·R₅: the clock times the reflection |k⟩ ↦ |5 − k⟩. Its two eigenspaces have dimension 3,
+      and the moves exchange them.
+    - The moves contain −I only composed with conjugation by ab⁻¹, as (LR⁻¹L)². Its lift is a reflection |k⟩ ↦
+      |4 − k⟩, with eigenspaces of dimension 4 and 2, and those are the pieces.
+    - The structure and every index set stand. Only the naming was wrong.
+- **Z6, the anomalies.** SU(3)³ = 2n(3, 2) − n(3̄, 1).
+  - **Under the moves** the anomaly-free pairs are (−1, −2), (1, 2), (3, 6) and (5, 10). Each has n(3̄, 1) =
+    2n(3, 2), the Standard Model's two antiquark singlets per doublet. Three is one of four.
+  - **Under locality** only (5, 10) is free: five, not three.
+  - The coloured doublets 3|n(3, 2)| are odd for every move-invariant condition. The doublet sector is real (index 0),
+    so there are no chiral lepton doublets.
+
+**What it shows.**
+- **The echo (conditional on the flux).**
+  - The joint centraliser of the weave's qubit and a qutrit is exactly SU(3) × SU(2), the Standard Model's
+    non-abelian group. The qubit alone gives F₄ × SU(2), and the qutrit alone gives SU(3) × G₂.
+  - The quark doublets are complex. Among the antiquark singlets, one is labelled by each parity.
+  - The flux is the hypercharge's 2π rotation, the element of the Standard Model's ℤ₆.
+  - With a qutrit the hand becomes visible: the swap has no lift.
+- **Not a derivation**, for four reasons:
+  - (a) the flux uses up the hypercharge direction (the lemma), so U(1)_Y is broken;
+  - (b) three is allowed but not forced: the moves allow −1, 1, 3 or 5, and locality with SU(3)³ gives 5;
+  - (c) the coloured doublets are odd, and there are no chiral leptons;
+  - (d) nothing shown forces the qutrit flux (step 4, open).
+- **So the ℤ₆ lead closes as an echo.** W27's statement, with W28's naturality condition, stays the record's best.
+
+**Status.** COMPUTED (one run; the rule committed first; every cell as predicted except Z5's naming of the −I lift,
+corrected post hoc) and PROVED (the lemma). A weave-type computation on a CHOSEN object: conditional, and NEGATIVE as a
+derivation.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -1665,6 +1750,7 @@ fixes. The quantities are joint commutants and the group all the lifts generate.
 | W26 | COMPUTED (exact and SnapPy; the rule committed first, every cell as predicted); a WEAVE result, NEGATIVE for the two candidates beyond the weave | the search beyond the weave (the owner's choice). The weave is closed under the mirror: S φ⁻¹ S⁻¹ = reverse(φ) with L ↔ R for all 224 words to length 10, and on all 42 threads to length 6 the mirror has the same volume and opposite Chern–Simons, so the threads' hyperbolic holonomies give the weave no hand. Each move is a transposition of the parities mod 2, so the order-3 orientation that would decide F-MC's 27 against 27̄ flips at every tick on all 98 odd-trace words; F-MC declares chirality an input (THE_CLAIM §1). The weave's only hand is the records' orientation (forced only if the swap is not a move, GM5c). The record's best derivation: F-MC's gauge structure with its inputs, the weave's count three with its common hand, and FK11 between them |
 | W27 | STATED (the link Λ, an input) and COMPUTED (exact; the rule committed first) | the derivation written with its one link: principle + F-MC's typed inputs + Λ give exactly three chiral 27s, alike, in the flavor triplet, each with one Standard Model generation; anomaly-free (exact); the count ±3 only under Λ's parity grading; in six dimensions Dobrescu–Poppitz's global SU(2) condition selects a multiple of three sectors (local anomalies would need a completion); three right-handed neutrinos. Labeled "derived given one stated link" (`docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`) |
 | W28 | COMPUTED and PROVED (I5, exact; the rule committed first, every cell as predicted); a WEAVE result, the foundation | the end condition: the six local solutions are a vector-spinor (spin ½ ⊕ spin 3/2 under 2O); the two middle conditions (index ∓1) couple the parity sectors and break 𝕎's flavor group U(3) to a phase. The moves alone allow −3, −1, +1, +3; the flavor group alone −3, 0, +3; jointly only ±3, and locality (the puncture's holonomy −1, symmetry U(6)) gives ±3 too. So Λ's "kept apart" follows from the end condition breaking no symmetry of the bulk problem (a stated naturality condition). The common point is the qubit: Q₈ the Pauli group, the parities the three Pauli axes (mutually unbiased), the moves' lifts the Clifford group (2O, the normaliser of Q₈), acting through PSL(2, ℤ/4) ≅ S₄ as SU(2) level 1's projective modular data (one dictionary each for the semion and the anti-semion: the hand is in the phases); the parities are ℙ¹(𝔽₂), the three global forms SU(2), SO(3)₊, SO(3)₋, equivariantly; the common point is 't Hooft's twist-eater, which eats the centre symmetry |
+| W29 | COMPUTED and PROVED (the lemma; the rule committed first; every cell as predicted except Z5's naming of the −I lift, corrected post hoc); a CHOSEN object (the ℤ₆ flux, not forced), NEGATIVE as a derivation | the ℤ₆ twist-eater (the weave's qubit ⊗ a qutrit) in E₈: its centraliser is exactly SU(3) × SU(2) (11; the qubit alone F₄ × SU(2), the qutrit alone SU(3) × G₂), its 6 is complex with multiplicity (3, 2), the 15's three single types are the three parities ((3̄, 1) each), the 20's eight single types are ℙ¹(𝔽₃)'s four lines in conjugate pairs ((1, 2) each), and its flux is e^{2πiY}; the swap has no lift (the hand visible). The moves split the 6 as 4 ⊕ 2 (the eigenspaces of the lift of (LR⁻¹L)²): quark generations −1, 1, 3 or 5, each SU(3)³-free with the Standard Model's ratio; locality gives five. Not a derivation: the flux breaks U(1)_Y (exact lemma), three is not forced, no chiral leptons, and the flux is not forced (step 4) |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -1706,6 +1792,7 @@ fixes. The quantities are joint commutants and the group all the lifts generate.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_z6_twist_eater.py` → `the_z6_twist_eater.json`: W29, the ℤ₆ twist-eater in E₈ (the group, the centralisers, the matter by type, the flux and the orientation, the moves at the puncture, the anomalies); its rule `W29_RULE.md`, committed first; `the_z6_twist_eater_posthoc.py` → `the_z6_twist_eater_posthoc.json`, after the read-out: the lifts of −I and of (LR⁻¹L)², and which splits the 6.
 - `the_three_routes_and_the_qubit.py` → `the_three_routes_and_the_qubit.json`: W28, the end condition's index sets under the moves, the flavor group, the grading and locality, and the common point as the qubit (Pauli, Clifford, SU(2)₁, the global forms, the twist-eater); its rule `W28_RULE.md`, committed first.
 - `the_link_tested.py` → `the_link_tested.json`: W27, the link's tests (anomalies, the count under the link, the six-dimensional global condition, the 27's remainder); its rule `W27_RULE.md`, committed first; the write-up `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`.
 - `the_weaves_mirror.py` → `the_weaves_mirror.json`: W26, the mirror closure of the weave (exact), the threads' volumes and Chern–Simons against their mirrors (SnapPy), and the order-3 orientation tick by tick; its rule `W26_RULE.md`, committed first.

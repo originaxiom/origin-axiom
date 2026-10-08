@@ -18199,3 +18199,20 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The qubit reading checked.** The Pauli group, the Clifford group, SU(2) level 1's projective modular data (the hand
   not in them), the three global forms of su(2), and 't Hooft's twist-eater.
 - **The gauge content is untouched.** Next is W29, the ℤ₆ twist-eater.
+
+## 2026-10-08 (night, after W28) — the weave's W29: the ℤ₆ twist-eater, an echo, not a derivation
+
+- **Step 3 of the approved plan.** The rule came first (37441028). A first launch was stopped before any read-out (a
+  35 GB allocation in the null-space helper), fixed, then one run.
+- **As predicted:**
+  - centraliser exactly SU(3) × SU(2) (11);
+  - the 6 complex, with multiplicity (3, 2);
+  - the 15's three single types are the three parities, and the 20's eight are ℙ¹(𝔽₃)'s lines in conjugate pairs;
+  - the flux is e^{2πiY};
+  - the swap has no lift;
+  - the moves split the 6 as 4 ⊕ 2, so quark generations −1, 1, 3 or 5, each SU(3)³-free with n(3̄, 1) = 2n(3, 2);
+  - locality gives five.
+- **One miss, corrected post hoc.** The sign move's lift is not the plain parity; the pieces are the eigenspaces of
+  the lift of (LR⁻¹L)².
+- **The verdict:** an echo, not a derivation. The flux uses up the hypercharge, three is not forced, there are no
+  chiral leptons, and the flux is not forced. W27 with W28 stays the record's best statement.
