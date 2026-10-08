@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "ref": "55bbc00aec1d9401b515f7015ceda8ade3b66e76",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "ref": "55bbc00aec1d9401b515f7015ceda8ade3b66e76",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/probe.py",
+      "ref": "55bbc00aec1d9401b515f7015ceda8ade3b66e76",
+      "bytes": 11338,
+      "sha256": "432e8fe1ff674f7d72aec6aa54e86ec1769ffda8f8c2ede04d357d93c8286049"
+    }
+  ],
+  "focused_expected_tests": 12,
+  "comparison_profiles": [
+    "root_profile",
+    "sample_profile"
+  ],
+  "unearned_flags": [
+    "full_Morse_index_computed",
+    "full_fermion_index_computed",
+    "stable_SM_phase_achieved",
+    "physical_chirality_achieved",
+    "genesis_selection_derived",
+    "physical_goal_achieved",
+    "nonauthor_acceptance"
+  ],
+  "literature_grade": "No new paper theorem adopted. Constructive elliptic-function/domain argument authored in PROOF; not independent analytic acceptance.",
+  "intake": {
+    "main": "80f48eeb4",
+    "sm": "1915fe928",
+    "incoming_grade": "B1612 FINDINGS/relay and W34 preregistration read; not replayed or promoted"
+  },
+  "pre_execution": "No import/run/collection of this packet before remote-confirmed seal."
+}

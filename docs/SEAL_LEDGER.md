@@ -2430,3 +2430,21 @@ DESIGN's eight-packet label is corrected in RECEIPTS: eight predecessors
 plus this packet. No frozen source repair or scientific failure.
 Nonauthor analytic/full-suite/main-bank duties remain. NEXT_TEST is
 a post-run plan, not an executed successor or part of this seal.
+
+## Magnetic stationarity pre execution seal 2026 10 08
+
+Seven science files/three pinned sources UNEXECUTED. Explicit nonzero
+parallel moment tests full stationarity, then actual globally admitted
+charged negative directions. Same bare curved action; no full index or
+architecture-wide exclusion. Reasoned predictions, not blind discovery.
+Commit/push/server confirmation precedes scientific import/run/collection.
+
+| File | SHA256 |
+|---|---|
+| weave_magnetic_stationarity_2026_10_08/DESIGN.md | 4a1343eef59897069768ff3c53098e4c8f9ef352dd92a4c00d2c543b44b8cb33 |
+| weave_magnetic_stationarity_2026_10_08/PROOF.md | 939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f |
+| weave_magnetic_stationarity_2026_10_08/INPUTS.json | dc5510d5958c99c49c64755612abb09a949337c67e3d0415c4e026ce57650c29 |
+| weave_magnetic_stationarity_2026_10_08/probe.py | a9ee314ba30cd72241aa9b361c69aa76c6f72eefaa780a5c974eb56af3de1d04 |
+| weave_magnetic_stationarity_2026_10_08/reference.py | 8512b67f4dea3b67ab8d774dfd225f6652aad43657ea57a4526a32e6d2fe690c |
+| weave_magnetic_stationarity_2026_10_08/custody.rb | 2ca228820d82f562918a7899bd5b4ea0569e487d30eafb563274751bb2923e1a |
+| tests/test_physical_bridge_weave_magnetic_stationarity.py | eeba8cb9249e6f8820e749d7d024ffa552fa314cf9245736998ada6986d35ad7 |

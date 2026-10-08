@@ -1,0 +1,42 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/DESIGN.md",
+      "bytes": 4796,
+      "sha256": "4a1343eef59897069768ff3c53098e4c8f9ef352dd92a4c00d2c543b44b8cb33"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "bytes": 8666,
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/INPUTS.json",
+      "bytes": 1593,
+      "sha256": "dc5510d5958c99c49c64755612abb09a949337c67e3d0415c4e026ce57650c29"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/probe.py",
+      "bytes": 8672,
+      "sha256": "a9ee314ba30cd72241aa9b361c69aa76c6f72eefaa780a5c974eb56af3de1d04"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/reference.py",
+      "bytes": 5281,
+      "sha256": "8512b67f4dea3b67ab8d774dfd225f6652aad43657ea57a4526a32e6d2fe690c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/custody.rb",
+      "bytes": 4749,
+      "sha256": "2ca228820d82f562918a7899bd5b4ea0569e487d30eafb563274751bb2923e1a"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_magnetic_stationarity.py",
+      "bytes": 4076,
+      "sha256": "eeba8cb9249e6f8820e749d7d024ffa552fa314cf9245736998ada6986d35ad7"
+    }
+  ],
+  "status": "PRE-EXECUTION; no science import/run/collection",
+  "prior": "Stationary nonzero-residual SM-gauge family, predicted physical instability, no inferred chiral count",
+  "source_ref": "55bbc00aec1d9401b515f7015ceda8ade3b66e76"
+}
