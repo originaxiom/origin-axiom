@@ -175,3 +175,28 @@ written in reports a clean result.**
   with its input pattern and could not be re-run; it was sealed, so it could not be fixed (E52).
 - **A census that parametrises backgrounds by a lift enumerates only what lifts.** Two seats and main reported "the
   three-fold cover does not fire" for that reason (B1432, E54). Ask of every enumeration what it cannot reach.
+
+## The weave's instruments (2026-10-07/08, B1600–B1620)
+
+Each run on the bench the day its arc banked; reuse by importing the banked file (never by copying), as the later arcs do.
+- **The forced cover of a thread** — `frontier/B1602_the_forced_cover_on_every_thread/verification/forced_every.py`
+  (A₄/D₄/V₄ kernels by the fibre's image); **read it from the base** at any precision —
+  `frontier/B1605_the_cover_read_from_the_base/verification/schreier_cover.py` (Reidemeister–Schreier presentation,
+  polished holonomy; acceptance: the four's relator residual ≪ the rank tolerance and χ = 0, the E85 rule).
+- **The weave's space V = T ⊕ T̄ and the Hodge–Riemann form** — `frontier/B1600_the_weave_verified/verification/w10_check.py`
+  and `w21_check.py`; import W10's module only through the guarded loader in
+  `frontier/B1610_the_hands_on_the_founding_torsor/verification/hands_on_the_torsor.py` (W10 writes its banked JSON on
+  import; the guard redirects that one write — the truncation incident of S88).
+- **The weave's group as a finite group** (multiplication table, classes, automorphisms by generator images, isotypic
+  decomposition) — `Group` and `decompose` in `frontier/B1611_is_cp_violation_forced_on_the_weave/verification/cp_on_the_weave.py`.
+- **Residual-symmetry mixing patterns** — `frontier/B1612_the_mixing_patterns_the_weave_fixes/verification/mixing_on_the_weave.py`;
+  **mass terms** (Dirac and Majorana Clebsch–Gordan, Takagi) — B1615's and B1616's instruments; **the residual group at a
+  fixed modulus and its weighted eigenspaces** — B1617's and B1618's.
+- **The subgroup lattice of the weave's group and the parity statistics of the rule's fixed-point word** —
+  `frontier/B1620_the_breaking_the_weave_allows/verification/breaking_the_weave_allows.py`.
+- **The harvest debt across every lane** — `python3 scripts/checks/harvest_debt.py` (per-seat NEW / BACKLOG / relays);
+  `--json` for the lists; rows match an item when the seat cell names the seat and the item cell carries its id.
+
+**Two traps of the window.** A landing step that parses the suite's summary must read each count by its own keyword and
+gate on the exit status (E87: "1 failed, 7226 passed" read as 0 failed). A detector of a ℤ/2 must be shown to return both
+values on a planted pair before it is sealed (E82, B1610's spectrum {1, ω, ω²} was its own conjugate).
