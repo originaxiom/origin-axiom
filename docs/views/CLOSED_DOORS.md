@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**811 recorded closures — of which 644 are CLASSIFIED by mechanism and
+**812 recorded closures — of which 645 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -94,6 +94,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (fee144f6b) census of all 74 signed threads to length eight: every forced kernel (A4 / D4 / V4) built from SnapPy's presentation, the four read at every sign character with B1492's stacked index; the carrier's member read by the extension and index after the census (disclosed).` | 1 |  |
 | `Sealed (5d2787345) extension and stacked index (B1492) at every interior class of every member of B1602's census, the floor and ceiling checked on each (442 of 442 hold).` | 1 |  |
 | `Sealed (f916539c6) exact reading of B1083's four founding rules and the inverse rule at the common point and on W21's space V: every rule reverses the Hodge-Riemann form and exchanges T and T-bar, every double tick keeps them, so the records' hand is on no rule; the double tick's spectrum on T is {1, omega, omega^2} for every rule, so the spectral detector was vacuous (its column read a rounding artifact, withdrawn).` | 1 |  |
+| `Sealed (c5d30c59a) Clebsch-Gordan computation on the weave's matter triplet: the second triplet of T-bar (x) T with its vacuum along RRL's two-dimensional fixed space is a one-parameter family obeying m1 + m2 = m3 exactly, with m1/m3 reaching zero (post-seal scan of 519 841 points).` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

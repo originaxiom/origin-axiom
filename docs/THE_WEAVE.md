@@ -187,3 +187,11 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   along local systems** — the geometry (adjoint) and the parity lines wholly visible at the puncture, the matter carrying
   the three wholly private (the puncture acts on it as −1); **two odd classes** (the sheet = CP; the McKay orientation),
   not m004's one. Reading cell: χ_T(L) = e^{−iπ/4}, χ_T(R) = e^{+iπ/4}, χ_T(LR) = 0, the puncture's holonomy −1.
+
+## Main's addition: the couplings the weave allows (B1615, 2026-10-08; NEGATIVE as sealed)
+
+- The weave's group leaves the masses free — three per sector at TM1's charged-lepton symmetry — and admits no
+  invariant bilinear or trilinear of the matter alone; a singlet Higgs gives three equal masses.
+- Vacua along the weave's own residual subgroups give rigid spectra (0, 1, 1) or (½, ½, 1), or one family with the exact
+  sum rule **m₁ + m₂ = m₃** (m₂ ≥ m₃/2): the charged leptons' hierarchy is out of reach. The masses, like the phase and
+  the angles, are not in the weave's group.

@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1343** |
-| words of findings prose | **1,049,846** |
-| test lock files referenced | **787** |
-| arcs carrying an authored verdict | **1343** (100.0 %) |
-| recorded closures | **811** (644 classified, 167 routed-only) |
+| research arcs with findings | **1344** |
+| words of findings prose | **1,050,590** |
+| test lock files referenced | **788** |
+| arcs carrying an authored verdict | **1344** (100.0 %) |
+| recorded closures | **812** (645 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 906 |
-| NEGATIVE | 335 |
+| NEGATIVE | 336 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 81 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 82 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE OBSERVER LAYER ON THE WEAVE (sealed c04b1acb2; the owner's 'bank and run the awareness arc'): the observer layer computed on m004 (B752-B1184), re-posed on the weave. A1: the moves' joint fixed points are the trivial character (reducible) and the common point (irreducible) -- the weave's self-name. A2: at the common point the adjoint (the geometry) is wholly visible at the puncture (H1 = 3, injective), the parity lines too, while the doublet and the three matter blocks carrying the three are wholly private (H1 = 2 each, the puncture's cohomology zero since it acts as -1) -- 'no private states' splits along local systems. A3: the rule fixes the common point, normalises the moves and reverses W21's form, so it swaps the sheets and the weave cannot sign itself (B1327). A4: the sheet = det = CP-oddness, the McKay sign another: two odd classes on the weave, not m004's one. A5 (a reading's cell): chi_T(L) = e^{-i pi/4}, chi_T(R) = e^{+i pi/4}, chi_T(LR) = 0, the puncture's holonomy -1 (even). 0 of 19.  
 `B1614_the_observer_layer_on_the_weave/FINDINGS.md`
 
-**NEGATIVE — `B1610`** (1033 words, 1 locks)  
-THE HANDS ON THE FOUNDING TORSOR (sealed f916539c6), NEGATIVE as sealed: the headline 'both hands are one bit, the torsor's C bit' is refuted. Hand (ii), the McKay orientation of the tick, is flipped by swap-conjugation C and by the arrow and kept by the reversal, so given the forced arrow (B1083) it is the C bit -- a naming. Hand (i), the records' orientation, is on no rule: all four founding rules and the inverse reverse W21's form and exchange T and T-bar, every double tick keeps them, so the records' orientation is carried by the parity of the tick count, and the three's hand (B1609) is the sheet of the orientation double cover -- GENESIS SE2's choice -- not a naming. The sealed hand-(i) detector (the double tick's turns on T) was vacuous: the spectrum is {1, omega, omega^2} for every rule; its column read a rounding artifact and is withdrawn (E82, filed). GENESIS v1.31. 0 of 19.  
-`B1610_the_hands_on_the_founding_torsor/FINDINGS.md`
+**NEGATIVE — `B1615`** (744 words, 1 locks)  
+THE COUPLINGS THE WEAVE ALLOWS (sealed c5d30c59a), NEGATIVE as sealed: the weave's group leaves the masses free (three at TM1's charged-lepton symmetry RL), admits no invariant bilinear or trilinear of the matter alone, gives degenerate masses with a singlet Higgs, and with vacua along its own residual subgroups gives rigid spectra (0, 1, 1) or (1/2, 1/2, 1) or one family obeying the exact sum rule m1 + m2 = m3 (post-seal: m1/m3 in [0, 1/2], m2/m3 in [1/2, 1]); the sealed bound 'no ratio below 0.1' is refuted by that family, while the charged leptons' hierarchy (m_mu/m_tau = 0.059) stays out of reach (closest a factor ~17). The masses are not in the weave's group. Lead: the sum rule for neutrinos (Majorana analysis owed). 0 of 19.  
+`B1615_the_couplings_the_weave_allows/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

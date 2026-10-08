@@ -11098,6 +11098,7 @@
   "B1614": {
    "slug": "the observer layer on the weave",
    "motifs": [
+    "closing",
     "naming",
     "figure_eight",
     "kappa",
@@ -11112,6 +11113,17 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1615": {
+   "slug": "the couplings the weave allows",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 17,
+   "status": "dead",
+   "domain": "physics"
   },
   "B161": {
    "slug": "cancellation locus stratification",

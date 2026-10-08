@@ -11311,5 +11311,28 @@
    "hypotheses": "hand (i) read through W21's form; hand (ii) as the parity sense and the 2T-class; B1083's arrow as banked"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1615",
+  "claim_killed": "That no vacuum along the weave's own residual subgroups gives a mass ratio below 0.1 (the sealed C4's first clause).",
+  "kill_form": "Sealed (c5d30c59a) Clebsch-Gordan computation on the weave's matter triplet: the second triplet of T-bar (x) T with its vacuum along RRL's two-dimensional fixed space is a one-parameter family obeying m1 + m2 = m3 exactly, with m1/m3 reaching zero (post-seal scan of 519 841 points).",
+  "hatch": "the masses are not in the weave's group: a forced modulus (the fibre's tau) or dynamics; the sum rule m1 + m2 = m3 for the neutrinos (the Majorana analysis T(x)T(x)H, sealed) and its cosmological consequence (Sigma m ~ 0.115 eV at normal ordering)",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-08), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the charged leptons' hierarchy is out of reach of every residual-aligned vacuum (m2 >= m3/2 in the only continuous family); the masses are three free parameters per sector at TM1's symmetry.",
+  "faces_consulted": [
+   "B1612",
+   "B1611",
+   "B1606",
+   "B1126"
+  ],
+  "fact_computed": "invariant counts on T; T-bar(x)T = 3 + 3 + 2 + 1; spectra along RL, L, R, RRL fixed directions; the family's sum rule m1 + m2 = m3 and its range",
+  "scope": {
+   "frame": "the weave's group on T; residual-aligned vacua",
+   "object": "Clebsch-Gordan mass matrices",
+   "reach": "general",
+   "hypotheses": "FK11 unearned; the vacuum alignment a selection"
+  },
+  "weave_or_thread": "weave"
  }
 ]

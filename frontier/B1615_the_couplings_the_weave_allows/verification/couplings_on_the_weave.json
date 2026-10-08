@@ -1,0 +1,174 @@
+{
+ "C1": {
+  "TbarT": 1,
+  "TT": 0,
+  "Sym2T": 0,
+  "Alt2T": 0,
+  "TTT": 0,
+  "TTTbar": 0
+ },
+ "C3": {
+  "singular_values_normalised": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "C2": [
+  {
+   "piece": 0,
+   "dim": 3,
+   "trivial": false,
+   "multiplicity": 1
+  },
+  {
+   "piece": 1,
+   "dim": 3,
+   "trivial": false,
+   "multiplicity": 1
+  },
+  {
+   "piece": 2,
+   "dim": 2,
+   "trivial": false,
+   "multiplicity": 1
+  },
+  {
+   "piece": 3,
+   "dim": 1,
+   "trivial": true,
+   "multiplicity": 1
+  }
+ ],
+ "C4": {
+  "piece 0 (dim 3)": {
+   "RL": {
+    "fixed_dim": 1,
+    "ratios_m1_m3_m2_m3": [
+     [
+      0.0,
+      1.0
+     ]
+    ],
+    "ratios_fixed_by_symmetry": true
+   },
+   "L": {
+    "fixed_dim": 1,
+    "ratios_m1_m3_m2_m3": [
+     [
+      0.0,
+      1.0
+     ]
+    ],
+    "ratios_fixed_by_symmetry": true
+   },
+   "R": {
+    "fixed_dim": 1,
+    "ratios_m1_m3_m2_m3": [
+     [
+      0.0,
+      1.0
+     ]
+    ],
+    "ratios_fixed_by_symmetry": true
+   },
+   "RRL": {
+    "fixed_dim": 1,
+    "ratios_m1_m3_m2_m3": [
+     [
+      0.0,
+      1.0
+     ]
+    ],
+    "ratios_fixed_by_symmetry": true
+   }
+  },
+  "piece 1 (dim 3)": {
+   "RL": {
+    "fixed_dim": 1,
+    "ratios_m1_m3_m2_m3": [
+     [
+      0.5,
+      0.5
+     ]
+    ],
+    "ratios_fixed_by_symmetry": true
+   },
+   "L": {
+    "fixed_dim": 0
+   },
+   "R": {
+    "fixed_dim": 0
+   },
+   "RRL": {
+    "fixed_dim": 2,
+    "ratios_m1_m3_m2_m3": [
+     [
+      0.084083,
+      0.915917
+     ],
+     [
+      0.091218,
+      0.908782
+     ],
+     [
+      0.092352,
+      0.907648
+     ],
+     [
+      0.102385,
+      0.897615
+     ],
+     [
+      0.134035,
+      0.865965
+     ],
+     [
+      0.176592,
+      0.823408
+     ]
+    ],
+    "ratios_fixed_by_symmetry": false
+   }
+  },
+  "piece 2 (dim 2)": {
+   "RL": {
+    "fixed_dim": 0
+   },
+   "L": {
+    "fixed_dim": 1,
+    "ratios_m1_m3_m2_m3": [
+     [
+      0.5,
+      0.5
+     ]
+    ],
+    "ratios_fixed_by_symmetry": true
+   },
+   "R": {
+    "fixed_dim": 1,
+    "ratios_m1_m3_m2_m3": [
+     [
+      0.5,
+      0.5
+     ]
+    ],
+    "ratios_fixed_by_symmetry": true
+   },
+   "RRL": {
+    "fixed_dim": 1,
+    "ratios_m1_m3_m2_m3": [
+     [
+      0.5,
+      0.5
+     ]
+    ],
+    "ratios_fixed_by_symmetry": true
+   }
+  }
+ },
+ "C5": {
+  "RL_distinct_eigenvalues_on_T": 3,
+  "free_mass_parameters_at_residual_RL": 3
+ }
+}

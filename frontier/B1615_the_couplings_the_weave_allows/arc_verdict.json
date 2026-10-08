@@ -1,0 +1,24 @@
+{
+ "id": "B1615",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1612",
+  "B1611",
+  "B1606"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's group G on the matter triplet T; Yukawa-type couplings T-bar T H and T T H with H in each irreducible of the bilinears; vacua fixed by the weave's own residual subgroups (RL, L, R, RRL)",
+  "object": "G-invariant counts; the Clebsch-Gordan matrices of T-bar (x) T; the singular values of the mass matrices along the fixed directions",
+  "reach": "general",
+  "hypotheses": "which sector is which is FK11's dictionary (unearned); vacua aligned with residual subgroups are a selection; the neutrino (Majorana) case not computed"
+ },
+ "claim_one_line": "THE COUPLINGS THE WEAVE ALLOWS (sealed c5d30c59a), NEGATIVE as sealed: the weave's group leaves the masses free (three at TM1's charged-lepton symmetry RL), admits no invariant bilinear or trilinear of the matter alone, gives degenerate masses with a singlet Higgs, and with vacua along its own residual subgroups gives rigid spectra (0, 1, 1) or (1/2, 1/2, 1) or one family obeying the exact sum rule m1 + m2 = m3 (post-seal: m1/m3 in [0, 1/2], m2/m3 in [1/2, 1]); the sealed bound 'no ratio below 0.1' is refuted by that family, while the charged leptons' hierarchy (m_mu/m_tau = 0.059) stays out of reach (closest a factor ~17). The masses are not in the weave's group. Lead: the sum rule for neutrinos (Majorana analysis owed). 0 of 19.",
+ "weave_or_thread": "weave"
+}
