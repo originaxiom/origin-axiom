@@ -83,11 +83,26 @@ def test_section2_reversal_is_a_rotation_only_for_short_words():
 
 
 def test_section3_the_modulus():
+    """the geometric action on W21's period ratio is the period rule tau -> (delta tau + beta)/(gamma tau + alpha); the
+    standard Moebius rule used before the correction equals the period rule on the reversed word"""
     w = np.exp(2j * np.pi / 3)
     U = h1({1: [2], 2: [-1, 2]})
     assert U.tolist() == [[0, -1], [1, 1]]
-    act = lambda M, t: (M[0][0] * t + M[0][1]) / (M[1][0] * t + M[1][1])
-    assert abs(act(U, w) - w) < 1e-12
+    std = lambda M, t: (M[0][0] * t + M[0][1]) / (M[1][0] * t + M[1][1])
+    per = lambda M, t: (M[1][1] * t + M[0][1]) / (M[1][0] * t + M[0][0])
+    assert abs(std(U, w) - w) < 1e-12 and abs(per(U, w) - w) > 1e-3        # the two rules disagree on U ...
+    assert abs(per(U, w + 1) - (w + 1)) < 1e-12                             # ... U fixes omega + 1 under the period rule
+    Lm, Rm = np.array(CP.MAT["L"]), np.array(CP.MAT["R"])
+    LUL = (Lm @ U @ np.linalg.inv(Lm)).round().astype(int)
+    assert LUL.tolist() == [[1, -1], [1, 0]] and abs(per(LUL, w) - w) < 1e-12
+    t = 0.3 + 1.1j
+    for word in ("LR", "RRL", "LRLRR"):
+        M, Mrev = np.eye(2, dtype=int), np.eye(2, dtype=int)
+        for c in word:
+            M = M @ np.array(CP.MAT[c])
+        for c in word[::-1]:
+            Mrev = Mrev @ np.array(CP.MAT[c])
+        assert abs(std(M, t) - per(Mrev, t)) < 1e-12, word
     for n in range(2, 9):                                                    # positive words with both letters: trace >= 3
         for t in itertools.product("LR", repeat=n):
             if "L" in t and "R" in t:

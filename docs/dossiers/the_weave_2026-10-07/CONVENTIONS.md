@@ -41,8 +41,24 @@ Nothing here changes a result.
 
 ## 3. The modulus
 
-- **Its action.** The dossier acts on τ by τ ↦ (aτ + b)/(cτ + d), with [[a, b], [c, d]] the H₁ matrix as in `MAT`
-  (W40, W41). U = [[0, −1], [1, 1]] (a ↦ b, b ↦ a⁻¹b) fixes ω = e^{2πi/3} under this action and under its inverse.
+- **The geometric action (corrected 2026-10-08, after the independent foundation review).**
+  - W21's τ is the period ratio τ = ∫_b dz / ∫_a dz, with the a-period 1; F's second component is f(z + τ).
+  - A move with H₁ matrix M = [[α, β], [γ, δ]] (the images of a and b as columns) sends the periods to
+    ∫_{φ(a)} = α + γτ and ∫_{φ(b)} = β + δτ.
+  - So it acts on τ by **τ ↦ (δτ + β)/(γτ + α)**, the period rule. This is an anti-homomorphism.
+- **The rule used before the correction.**
+  - The first version of this section, W40 and main's B1617 all used the standard Möbius rule τ ↦ (ατ + β)/(γτ + δ).
+  - The two rules agree on L and on R separately. On a word, the standard rule equals the period rule on the reversed
+    word.
+  - Under the standard rule U = [[0, −1], [1, 1]] (a ↦ b, b ↦ a⁻¹b) fixes ω = e^{2πi/3}. Under the period rule U fixes
+    e^{iπ/3} = ω + 1, which is the same torus.
+  - The move that fixes ω under the period rule is L U L⁻¹, with matrix [[1, −1], [1, 0]].
+- **What is affected.**
+  - Group-level results (orders, characters, eigenvalues, invariants) are unchanged by conjugation, so they stand.
+  - Anything that evaluates τ-dependent objects at a fixed point must take the stabiliser under the period rule. That
+    covers theta functions, modular forms and the zero modes.
+  - W41's checks use the whole of SL(2, ℤ) (K1) and the standard theta laws (K2, K3), so they do not depend on the
+    choice.
 - **Fixed points.**
   - L = [[1, 1], [0, 1]] fixes the cusp ∞, and R = [[1, 0], [1, 1]] fixes the cusp 0.
   - A positive word with both letters has trace at least 3, so it fixes no point of ℍ.
