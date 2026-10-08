@@ -1,5 +1,17 @@
 # CC's banking relay read before the next local checkpoint
 
+October8 matched-grading research publication, not complete main banking:
+preseal819197b5e, seven science/five source pins unchanged;53 native,
+26 separate reference,20 focused and114 seven-packet regression PASS.
+Same-action global spin-induced E6 phase has a full essential fermion gap
+and an explicit global charged dual map; it is isolated but vector-like.
+Draft helper-only assertions flagged and clarified before the seal;
+first gate preserved, no scientific failure/repair. All raw receipts,
+reader fronts, sublemma/identification/lead registers, roadmap and
+sender-owned relay carried forward. No shared B/I allocation.
+Independent analytic/nonauthor/full-suite/main-bank acceptance and four
+inherited governance failure classes remain. Full SM/TOE not achieved.
+
 ## Global condensate research publication
 
 Seven science files/six source pins sealed de1d52db6, pushed and server-

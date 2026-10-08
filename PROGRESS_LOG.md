@@ -17621,3 +17621,47 @@ B1609 and SM8d659f56b W32 publications read, not locally reproduced;
 B1610 preregistered. All reader fronts/sublemmas/leads/roadmap and sender
 relay updated. Independent analytic/full-suite/main-bank duties and
 inherited governance failures retained. Full SM/TOE ACTIVE/unachieved.
+
+## 2026-10-08 global matched grading and isolated charged spectrum
+
+Seven science files/five source pins sealed819197b5e45a0457ba3ffbeeb28af32b24dc370b,
+pushed/server-confirmed before execution or test collection. First unchanged
+scientific run53 native/26 rational polynomial-reference/20 focused PASS;
+seven-packet regression114 PASS in35.50s. Custody checks both pinned Git
+and working dependency bytes. No scientific failed run or post-run repair.
+Before committing the seal, four helper-only assertions triggered the
+governance vacuity gate; calls now assert explicitly and first gate retained.
+A duplicate-file-target patch was rejected without application; relay-path/
+checksum-tool lookups corrected without touching scientific state.
+
+Positive: regular-A2 principal SO3 condensate has H=2v, so the existing
+spin line induces A=s v,qhat=E/2 globally. No extra flat compensator or
+fourth-root spin line. All vacuum residuals vanish, finite kinetic norms,
+nonnegative same-action bosonic Hessian. Full248 decomposition78V0+55V1+V2,
+actual72-root E6 commutant and complex27/bar27 branching checked.
+
+The COMPLETE physical-parent fermion blocks retain lambda,A,Q,R and all
+Yukawas, with exact normalized coefficients and trace-dual weight.
+Squared essential thresholds1/4:133,5/4:110,9/4:3,13/4:2; angular
+confinement plus compact-core theorem gives essential gap and finite
+isolated zero kernel. Its multiplicities are not computed. All figures
+are spectral channels in supplied curvature units, not particle counts
+or measured values.
+
+The actual global unitary J intertwines3 and dual3, H,E,F, spin-induced
+transitions and all charged graph domains. Hence charged27/bar27 kernels
+pair: this admitted isolated phase is vector-like. Precise limitation
+of this background, not a no-go for other nonflat/source/domain choices
+or the architecture. All four spin choices admit the same end; no odd
+line selected and no full mirror-geometry comparison yet.
+
+Report: physical_bridge/weave_graded_condensate_2026_10_08/FINDINGS.md.
+Latest main4125c0384 B1610 report/relay and SMaa642bdc8 contemplation/
+section30 read, not replayed. W32 flat scope now explicit. The incoming
+orientation-to-physical-chirality inference is not substituted for our
+operator test. All reader fronts, sublemmas, identification supplements,
+open duties, roadmap and sender-owned relay updated. Next full global
+kernel/interactions as control and an admitted mechanism breaking the
+actual charged dual map while retaining positivity/stationarity/isolation.
+Independent analytic/full-suite/main-bank acceptance and inherited
+governance failure classes remain. Full SM/TOE ACTIVE and unachieved.

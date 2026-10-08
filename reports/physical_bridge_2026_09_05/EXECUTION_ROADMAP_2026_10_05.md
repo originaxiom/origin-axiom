@@ -123,6 +123,18 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    then all coupled physical operator blocks and matched-domain/reality
    checks. A gap is not chirality. B1609 and W32 are now published/read
    at mainf916539c6/SM8d659f56b, not locally replayed; B1610 preregistered.
+   Stage2L October8 matched grading EXECUTED at research grade:
+   weave_graded_condensate_2026_10_08/FINDINGS.md.53 native/26 reference/
+   20 focused/114 regression PASS unchanged at819197b5e. Global spin-
+   induced SO3 phase supplies p without compensator; full E6 root system,
+   complete fermion essential gap and global charged dual map checked.
+   Isolated but vector-like, not an achieved chiral sector. All four spin
+   lines admit the same end; global discrete kernels/mirror moves remain
+   uncomputed. NEXT kernel/interactions as control and an admitted
+   non-paired mechanism on the SAME action/domain, using existing source/
+   nonsplit positives only through an actual compatible map. B1610 now
+   published/read at main4125c0384; SMaa642bdc8 sends mirror/spin asks
+   and accepts W32's flat scope, not outside analytic verification.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

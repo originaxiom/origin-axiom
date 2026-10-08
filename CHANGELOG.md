@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-08 matched peripheral grading and full fermion gap
+
+53 native/26 separate reference/20 focused and114 regression PASS
+unchanged at819197b5e. Same-action global SO3 condensate supplies p
+directly, with no flat compensator; full E6 commutant and actual charged
+branching checked. Complete fermion essential gap1/2 in supplied units,
+not a particle count. Global unitary J pairs charged27/bar27 kernels:
+this isolated phase is vector-like, not a chiral SM or architecture kill.
+Report: physical_bridge/weave_graded_condensate_2026_10_08/FINDINGS.md.
+Four spin lines share admission/end gap, not proven equal discrete
+spectra. New main B1610 and SM mirror/spin relay read. Next kernel/
+interactions and a compatible mechanism breaking the actual dual map.
+Draft helper-assertion gate failure preserved and fixed before seal;
+no scientific failed run or repair. Full analytic/main-bank/governance
+duties remain. Parameter-free SM/TOE ACTIVE and unachieved.
+
 ## 2026-10-08 global stationary condensate and its full gauge algebra
 
 53 native/24 separate reference/20 focused and94 six-packet regression

@@ -1,0 +1,71 @@
+{
+  "seal": "819197b5e45a0457ba3ffbeeb28af32b24dc370b",
+  "sources": 5,
+  "science_files": 7,
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 1.916357999900356,
+    "log_bytes": 4444,
+    "log_sha256": "f1697ab88e75648a043be77d75edf3bb0374f2a98f3364e76db0c85c5cc08428",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.12902199989184737,
+    "log_bytes": 3181,
+    "log_sha256": "0fd18d9ccb298b140a907cf0efc2c40c3d470a5284de3396354555a5bf8d90c8",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 3.020180999999866,
+    "log_bytes": 99,
+    "log_sha256": "bd35917cfd345444b36192831380ea050c36d273611fc64ebbc30fcec482e584",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_graded_condensate.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 36.58806399977766,
+    "bytes": 181,
+    "sha256": "7a562a1f9b7f9041c1930337471dfa03e5a0416672b656c5fa4155d21ca3645d",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_puncture_operator.py",
+      "tests/test_physical_bridge_weave_form_parent.py",
+      "tests/test_physical_bridge_weave_companion_roster.py",
+      "tests/test_physical_bridge_weave_curved_action.py",
+      "tests/test_physical_bridge_weave_cusp_condensate.py",
+      "tests/test_physical_bridge_weave_global_condensate.py",
+      "tests/test_physical_bridge_weave_graded_condensate.py"
+    ]
+  },
+  "python": "3.12.1",
+  "sympy": "1.14.0",
+  "same_author_reference": true,
+  "nonauthor_acceptance": false,
+  "full_suite_run": false,
+  "physical_goal_achieved": false
+}

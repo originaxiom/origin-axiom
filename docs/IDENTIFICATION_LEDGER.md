@@ -221,3 +221,18 @@ No shared I-number or existing physical identification is reassigned.
 
 Report: reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/FINDINGS.md.
 Locks: tests/test_physical_bridge_weave_global_condensate.py.
+
+### Matched grading and coupled operator October 8 path-local supplement
+
+No shared I-number or physical identification is reassigned. This is a
+conditional internal construction; genesis-to-physical-parent is unpaid.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Spin line / E8 bundle and old peripheral element | Cocharacter v=e4-e5, A=s v and regular-A2 principal triple H=2v | Integral torus action, compact center kernel and all240-root old-p identity; global spin cancellation | Compact SO3 image, not faithful SU2; supplied spin/metric/action, no extra flat compensator |
+| Actual full commutant / e6 | A2-orthogonal72-root system, six Cartans and explicit Cartan graph; saturates78 spin0 invariants | Entire248 decomposition and27/dual27 Weyl orbits checked | Connected classical gauge algebra, NOT the Standard Model or physical generations |
+| Coupled fermion fields / radial singular channels | Canonical kinetic maps and B=(D1,D2 dagger), with the R dual at weight -m-1 | Both Yukawa coefficients, full block squares, extreme slots, angular bound and compact-core hypotheses | Essential gap of this actual operator; discrete zero-mode dimensions and measured masses not inferred |
+| Charged3 coefficient / dual3 coefficient | Complex-linear unitary J=anti-diag(1,-1,1) | H,E,F, spin-induced transitions, kinetic norms and graph domains; fails on a supplied generator outside SO3 | Equal charged27/bar27 kernels on THIS nonflat phase; not equality of E6 representations or a universal chirality exclusion |
+
+Report: reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_graded_condensate.py.

@@ -1,5 +1,41 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 matched-grading update:
+reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/FINDINGS.md.
+53 native/26 reference/20 focused/114 regression PASS at819197b5e.
+No architecture-wide lead closed; earlier dated entries retain their epoch.
+
+- PB-CUSP-TWO-FIELDS: concrete POST-RUN HAND candidate, UNEXECUTED,
+  in weave_graded_condensate_2026_10_08/NEXT_TEST.md: Q,R along
+  commuting E13,E23, apparent curvature balance and full SU3 generated
+  algebra. A cubic spin lift/central E6 compensator may restore p.
+  Search existing work, then separately seal all global/gauge/full-operator
+  tests. No gap, chirality, generation or selection claim from this idea.
+
+- PB-CUSP-GRADED: executed in explicit principal-A2 variant. H=2v supplies
+  p, all global vacuum residuals vanish and norms are finite without a
+  flat compensator/fourth-root lift. Four-root algebra also checked;
+  conjugacy of the two triples not required or claimed.
+- PB-CUSP-ISOLATION: ADVANCED for this stationary parent/background:
+  complete fermion essential gap, zero Fredholm. Previous G2/root
+  completion remains ungapped. Independent analytic acceptance owed.
+- PB-CUSP-CHARGED: actual unbroken E6 and full complex27/bar27 branching.
+  Global unitary J pairs charged kernels on this SO3-induced background.
+  Next compute their actual multiplicities/interactions as a control,
+  and seek an admitted non-paired mechanism without silently importing
+  a different coefficient, action or domain. Gap alone is not chirality.
+- PB-CUSP-MIRROR-SPIN: SMaa642bdc8 section30 received. All four spin lines
+  admit the same gap; odd/even global kernel and move action uncomputed.
+  Geometric mirror/gauge-equivalence test remains separate from J pairing.
+  No conclusion that every physical end must condense or pick a hand.
+- PB-SOURCE-JOIN: inspect existing nonsplit/source/end positives for a
+  faithful stationary join to this operator before adding ingredients.
+  Distinct-parent counts are not interchangeable with the present spectrum.
+- PB-PARENT-ACTION: generated parent, metric, scale and vacuum selection,
+  quantum/anomaly completion, gravity, observer/qualia and independent
+  analytic/main-bank acceptance remain duties. B1610 now published/read
+  at main4125c0384; W32's explicit flat scope retained, neither replayed.
+
 October8 global-condensate update: reports/physical_bridge_2026_09_05/
 weave_global_condensate_2026_10_08/FINDINGS.md;53 native/24 reference/
 20 focused/94 regression PASS at de1d52db6. No architecture lead closed.

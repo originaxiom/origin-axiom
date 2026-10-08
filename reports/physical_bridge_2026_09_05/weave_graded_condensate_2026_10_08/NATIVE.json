@@ -1,0 +1,231 @@
+{
+  "facts": {
+    "A2_full_branching": true,
+    "Dbar_q_vanishes": true,
+    "E6_commutes_with_full_A2": true,
+    "E6_root_rank_and_population": true,
+    "E6_root_reflection_closure": true,
+    "E6_saturates_sl2_commutant": true,
+    "E6_simple_Cartan_graph": true,
+    "E8_240_distinct_norm2_roots": true,
+    "R_trace_pairing_matches_old_Hessian": true,
+    "R_zero_angular_threshold_profile": true,
+    "SO3_center_kernel_on_full_E8": true,
+    "all_condensate_roots_odd": true,
+    "all_four_spin_choices_preserve_pair_map": true,
+    "all_full_singular_channels_accounted": true,
+    "both_Yukawa_routes_agree": true,
+    "charged_27_single_Weyl_orbit": true,
+    "color_commutes": true,
+    "compact_triple_relations": true,
+    "confining_lower_bound_identity": true,
+    "conjugate_27_is_distinct": true,
+    "curvature_moment_vanishes": true,
+    "density_shift_control_fails": true,
+    "dual_intertwiner_unitary": true,
+    "dual_intertwines_H_E_F": true,
+    "dual_intertwines_peripheral": true,
+    "dual_intertwines_spin_transitions": true,
+    "escaping_form_sequence_excess": true,
+    "finite_positive_end_norm": true,
+    "flat_connection_control_fails": true,
+    "four_root_H_is_2v": true,
+    "four_root_cross_brackets_zero": true,
+    "full_adjoint_weight_profile": true,
+    "full_block_squares_diagonal": true,
+    "full_zero_angular_threshold_profile": true,
+    "gauge_and_F_derivative_normalization": true,
+    "integral_v_cocharacter": true,
+    "kinetic_rescalings_to_dt": true,
+    "missing_Yukawa_control_fails": true,
+    "new_no_odd_spin0_spectators": true,
+    "nonzero_angular_square_exact": true,
+    "old_odd_spectators_retained_as_control": true,
+    "outside_SO3_pairing_control_fails": true,
+    "peripheral_area_limit": true,
+    "peripheral_is_actual_old_p": true,
+    "positive_essential_threshold_not_zero": true,
+    "regular_A2_not_commuting_A1s": true,
+    "regular_A2_roots": true,
+    "sl2_decomposition_exact": true,
+    "spin_gauge_weights_cancel": true,
+    "trace_norm_positive_four_roots": true,
+    "uniform_angular_coefficient_bound": true,
+    "wrong_adjoint_control_fails": true,
+    "wrong_amplitude_control_fails": true
+  },
+  "genesis_selection_derived": false,
+  "global_zero_counts_computed": false,
+  "nonauthor_acceptance": false,
+  "pairing_profile": {
+    "J": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "complex_charged_pair": [
+      27,
+      27
+    ],
+    "net_27_chirality": 0
+  },
+  "physical_chirality_achieved": false,
+  "physical_goal_achieved": false,
+  "predicates_passed": 53,
+  "root_profile": {
+    "E6_Cartan": [
+      [
+        2,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        2,
+        -1,
+        0,
+        -1,
+        0
+      ],
+      [
+        -1,
+        -1,
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "E6_roots": 72,
+    "E6_simple_roots_doubled": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        -2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        -2,
+        0
+      ],
+      [
+        0,
+        2,
+        -2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "H_weights": {
+      "-2": 56,
+      "-4": 1,
+      "0": 134,
+      "2": 56,
+      "4": 1
+    },
+    "root_count": 240,
+    "spin_multiplicities": {
+      "0": 78,
+      "1": 55,
+      "2": 1
+    }
+  },
+  "spectrum_profile": {
+    "R_squared_thresholds": {
+      "1/4": 55,
+      "13/4": 1,
+      "5/4": 55,
+      "9/4": 1
+    },
+    "first_order_essential_gap_radius": "1/2",
+    "full_squared_thresholds": {
+      "1/4": 133,
+      "13/4": 2,
+      "5/4": 110,
+      "9/4": 3
+    },
+    "singular_channels": 248
+  }
+}

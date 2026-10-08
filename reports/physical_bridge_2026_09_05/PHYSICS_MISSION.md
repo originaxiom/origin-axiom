@@ -1,5 +1,25 @@
 # Approved physics mission and execution criteria
 
+October8 matched-grading research checkpoint:53 native/26 separate exact
+reference/20 focused and114 seven-packet regression PASS unchanged at
+pushed pre-run819197b5e. Same supplied E8 action now has a GLOBAL
+stationary spin-induced SO3 condensate supplying p without an added
+flat compensator. Full fermion essential square spectrum starts at1/4
+in supplied curvature units; zero is isolated/Fredholm, not yet counted.
+Connected unbroken algebra is E6 by its root system. A global unitary
+3-to-dual3 map intertwines the27/bar27 operators AND domains: this
+explicit isolated charged spectrum is vector-like, not the chiral SM.
+Report: reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/FINDINGS.md.
+All four extending spin lines admit the same end gap; no odd-line
+selection or full mirror-geometry comparison. NEXT actual global
+kernel/interactions and an admitted mechanism that breaks the charged
+dual map without sacrificing the gap, with existing source/nonsplit
+work checked first. No architecture-wide exclusion or value prediction.
+B1610 now published at main4125c0384; SMaa642bdc8 accepts W32's flat-end
+scope and sends mirror/spin questions. Reports read, not producer replay.
+Full SM/TOE ACTIVE/unachieved; analytic/full-suite/main-bank and inherited
+governance debts retained. Earlier dated entries below are historical.
+
 October8 global-condensate research checkpoint:53 native/24 separate
 reference/20 focused and94 six-packet regression PASS unchanged at pushed
 pre-run de1d52db6. The local cusp has an authored GLOBAL smooth stationary

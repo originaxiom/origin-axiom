@@ -1,5 +1,24 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 matched-grading conditional sublemmas. Same supplied E8 parent,
+not generated physics or shared main-bank laws. PROOF and live locks:
+reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/ and
+tests/test_physical_bridge_weave_graded_condensate.py;53 native/26 reference/
+20 focused/114 regression PASS unchanged at819197b5e.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Both proposed compact triples have H=2v | Explicit A2 matrices and four orthogonal root brackets; test_compact_triple_and_four_root_control. No conjugacy assertion between the triples |
+| Global spin-induced admission without compensator | Integral v induces the E8 bundle from S; A=s v,qhat=E/2 solves all residuals, finite norm and correct area/peripheral sign. test_actual_SO3_center_and_integral_cocharacter, test_peripheral_uses_old_SU6_element_and_area, test_same_action_stationary_nonflat_residuals, test_spin_cancellation_and_finite_norm; PROOF supplies global/domain argument. Compact image SO3, not faithful SU2 |
+| Full E6 commutant and complex branching |72 roots, rank6, explicit Cartan arms1,2,2 and saturated full248 sl2 invariants; distinct27 conjugate Weyl orbits. test_E6_identification_by_roots_not_dimension and test_actual_complex_charged_branching. Connected algebra only, not an SM identity |
+| Same-action full fermion block | Canonical kinetic transport, normalized gauge Killing and W maps give B=(D1,D2 dagger), including all extreme weights. test_canonical_kinetic_metrics, test_gauge_and_W_Yukawa_coefficients_agree, test_complete_blocks_include_extreme_slots, test_R_trace_pairing_and_independent_polynomial_metric. Not only an R-scalar calculation |
+| Full essential gap on this global background | All248 singular thresholds, angular confinement and compact-core decomposition give square essential spectrum[1/4,infinity); zero Fredholm. test_full_and_R_threshold_counts_are_distinct and test_gap_bounds_and_old_gapless_control plus PROOF analytic hypotheses. Does not compute zero multiplicities, selected scale or observed masses |
+| Global charged-operator pairing in this phase | Explicit complex-linear unitary J intertwines3/dual3 under H,E,F, transitions, all fields and graph closures; equal27/bar27 kernels. test_actual_linear_dual_intertwiner and test_dual_map_descends_but_not_to_all_SU3. Nonflat SO3 background only, not all sources/domains or architecture-wide no-go |
+| Four spin choices share admission and end gap | Induced core sign transitions preserve J and peripheral commutator; same end blocks. test_dual_map_descends_but_not_to_all_SU3 and PROOF. No claim that global discrete spectra coincide or that odd/even spin is selected |
+
+The preceding NEXT_TEST has now been tested in this separately sealed
+A2 variant. Earlier dated sublemma entries keep their original scopes.
+
 October8 global-condensate conditional research sublemmas, not generated
 physics or shared main-bank laws. PROOF and tests at
 reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/ and

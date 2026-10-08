@@ -2363,3 +2363,13 @@ confirmation before any source import, execution or test collection.
 | weave_graded_condensate_2026_10_08/reference.py | cda1b1e3211c3d01b06e92258f43d285933000194efc1628c2272ac7fd00257f |
 | weave_graded_condensate_2026_10_08/custody.rb | 562ee6eb717433d1c3f74eacbd5810fc407c4fb6774dabcd5385e3be24f75359 |
 | tests/test_physical_bridge_weave_graded_condensate.py | 0c2559878b82a74ed06c55c5154bc2f424ba5352a671d93d707f09b31721bef4 |
+
+Matched-grading disposition: EXECUTED unchanged at819197b5e.
+53 native/26 separate rational-Weyl reference/20 focused/114 regression
+PASS. Seven science/five pinned-and-working sources unchanged. Draft
+helper-assertion gate issue was fixed BEFORE the committed seal, first
+output preserved; no scientific failure or source repair. Report:
+weave_graded_condensate_2026_10_08/FINDINGS.md. Global stationary
+same-action E6 phase with full essential fermion gap; explicit charged
+dual map still gives pairing. Not chiral SM, selected parent or outside
+acceptance. Nonauthor/full-suite/main-bank duties remain.
