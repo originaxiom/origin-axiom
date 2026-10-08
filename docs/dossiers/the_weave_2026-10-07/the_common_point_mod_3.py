@@ -40,6 +40,7 @@ from cypari import pari
 
 # PARI is set up here, before SnapPy (loaded by family_lib) first touches it: a larger stack for the long words, once
 pari.allocatemem(10 ** 9, silent=True)
+sys.set_int_max_str_digits(0)          # numbers of thousands of digits pass between Python and PARI as strings
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
@@ -241,9 +242,12 @@ def one(w):
     # from monogenic needs more, and a theta in a proper subfield needs another combination
     # after the first attempt the minimal polynomial is found as the factor at theta of one degree-64 relation, at
     # rising precision (a field of degree 38 has a theta whose minimal polynomial needs more digits than a
-    # half-precision filter has); another theta is tried last
+    # half-precision filter has); then other thetas, and last the coordinate x itself (theta = x + 0 y + 0 z): on
+    # LLRLRLRR, where y is the complex conjugate of x, x + 2y + 3z needs coordinates of more than a hundred digits in
+    # its power basis, and x alone generates the field with a small polynomial
     for prec, mix, by_factor in ((dps0, (2, 3), False), (2 * dps0, (2, 3), True), (4 * dps0, (2, 3), True),
-                                 (8 * dps0, (2, 3), True), (4 * dps0, (3, 7), True), (8 * dps0, (5, 11), True)):
+                                 (8 * dps0, (2, 3), True), (4 * dps0, (3, 7), True), (8 * dps0, (5, 11), True),
+                                 (2 * dps0, (0, 0), True), (4 * dps0, (0, 0), True)):
         if prec != DPS:
             DPS = prec
             mp.mp.dps = DPS
