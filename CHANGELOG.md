@@ -1,5 +1,17 @@
 # Changelog
 
+## The tag pass after the owner's rulings
+
+- **Ruling 2 requires** every "derived" claim about the generations to carry its tag. The summary pages were scanned.
+- **Three places were tagged:**
+  - the one-link page's list of what the principle derives (the odd chirality and the hand are on the even-tick branch;
+    the ±3 is a flat count);
+  - the state page's table of what is derived on the weave (which rows hold with or without the swap, and which on the
+    even-tick branch);
+  - the state page's note on the two hands (the owner has since ruled the even-tick branch).
+- **The synthesis** now carries the rulings in its closing line and in row 0.
+- **Surfaces.** The state page, the one-link page and the synthesis. The tests and gates pass.
+
 ## The owner's rulings of 2026-10-08 on four forks; relay section 37
 
 - **The owner asked** for the forks only the owner can settle, with options and risks, "so we dont doom all the work so

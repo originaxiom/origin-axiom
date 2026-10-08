@@ -18363,3 +18363,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - naturality for flat counts only (GENESIS FK10 open);
   - positivity kept (GENESIS GM5d).
 - **Recorded on the rulings page**, and relayed to main for GENESIS (§37).
+
+## 2026-10-08 (late) — the tag pass
+
+- **The summary pages were scanned** for "derived" claims. Three were tagged with the rulings they rest on: the even-tick
+  branch, or a flat count.

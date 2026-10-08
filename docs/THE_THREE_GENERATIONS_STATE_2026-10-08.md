@@ -28,6 +28,10 @@ parameters are derived.
 
 ## Derived on the weave, from the principle with no frame
 
+Under the owner's rulings, the table's rows split into two groups:
+- the three, alike, the common point and the even-dimensional object hold with or without the swap;
+- the hand, the odd puncture index and ±3 hold on the even-tick branch (ruling 1), and ±3 is a flat count (ruling 3).
+
 | what | status | where |
 |---|---|---|
 | three: the three non-zero parities of the records, the only three the moves leave undistinguished | PROVED; VERIFIED on main (B1600) | W1 |
@@ -104,6 +108,8 @@ parameters are derived.
 - **Main's S87 (B1607, GENESIS v1.29) locates the hand.** The principle's tick is σ = L∘P, the swap followed by a move.
   The records' orientation and the McKay orientation are two complementary hands. Neither is derived on the weave;
   each is derived on a subweave the weave does not select.
+  The owner has since ruled the even-tick branch, ruling 1 of 2026-10-08: the subweave ⟨L, R⟩ is the observed one,
+  and which hand is called left is a naming convention.
 - **The puncture's content (GENESIS GAP2's place) does not make three in F-HE (W32).** What remains is the dictionary,
   Λ (GENESIS FK11), and main's ruling on it.
 - **Main's S88 (B1609, GENESIS v1.30):** the three's hand is the records' orientation; main asks whether anything

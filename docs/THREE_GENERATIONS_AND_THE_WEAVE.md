@@ -11,7 +11,7 @@ generations derived".
   reach this side: its fourth query produced no surviving claim.
 - **The weave's side:** `docs/THE_WEAVE.md` and `docs/dossiers/the_weave_2026-10-07/`.
 
-**Closed on 2026-10-08 (the owner's plan):** the state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`. Main's grade (GENESIS v1.28): the flavour three is derived; the gauge three is a selection. W30 and W31 followed the close, and neither finishes it: an order-3 flux is allowed on the swap's fork, not forced (W30), and no ℤ₅ flux gives an anomaly-free three (W31). In F-HE the puncture does not make three either (W32). The observer layer, taken to the weave, supplies no missing ingredient (W34).
+**Closed on 2026-10-08 (the owner's plan):** the state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`. Main's grade (GENESIS v1.28): the flavour three is derived; the gauge three is a selection. W30 and W31 followed the close, and neither finishes it: an order-3 flux is allowed on the swap's fork, not forced (W30), and no ℤ₅ flux gives an anomaly-free three (W31). In F-HE the puncture does not make three either (W32). The observer layer, taken to the weave, supplies no missing ingredient (W34). The owner's rulings of 2026-10-08 (`docs/THE_OWNERS_RULINGS_2026-10-08.md`): even ticks observed; Λ a tagged working postulate; naturality for flat counts only; positivity kept.
 
 **The derivation, written with its one link (2026-10-08):** `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md` (W27). The statement there is "derived given one stated link", never "derived from the principle" alone.
 
@@ -109,7 +109,7 @@ So this section records which patterns the weave's group contains, and nothing m
 
 | step | status | what |
 |---|---|---|
-| 0 | DERIVED (GENESIS) | PF1–PF3 → two records, the shears L, R (GM2); the swap OPEN (GM5c); the sign OPEN (GM5b on this branch; on main a move of its own that positivity, GM5d, excludes) |
+| 0 | DERIVED (GENESIS) | PF1–PF3 → two records, the shears L, R (GM2); the swap OPEN (GM5c; the owner's ruling of 2026-10-08: even ticks observed, the P-branch kept as the mirror branch); the sign OPEN (GM5b on this branch; on main a move of its own that positivity, GM5d, excludes) |
 | 1 | PROVED (W1) | three non-zero parities; one undistinguished three only when moves act together |
 | 2 | PROVED (W2; GENESIS PF1's reading) | the moves fix exactly two characters on the whole character variety, the quaternion point (κ = −2) and the trivial one (κ = 2); non-cancellation (κ ≠ 2) leaves the quaternion point: the weave's vacuum, forced |
 | 3 | PROVED (W3) | from it, the same A₄ (and 2T) on every odd-trace thread; GENESIS's SE1 admits only such threads |

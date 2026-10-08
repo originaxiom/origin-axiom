@@ -92,9 +92,11 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
 - **Derived from the principle** (no frame, no link):
   - three;
   - alike;
-  - an odd net chirality, three when the end condition breaks no symmetry of the bulk problem (W28);
+  - an odd net chirality, on the even-tick branch (the owner's ruling 1); three when the end condition breaks no
+    symmetry of the bulk problem (W28), a flat count (ruling 3);
   - a complex flavor triplet;
-  - the hand as the records' orientation.
+  - the hand as the records' orientation, on the even-tick branch (ruling 1), which hand is called left being a
+    naming convention.
 - **Derived given F-MC's typed inputs:** the gauge group, its global form, and the hypercharge direction (main's
   theorem).
 - **Derived given F-MC and Λ:** three chiral Standard Model generations, anomaly-free, alike, in a flavor triplet,
