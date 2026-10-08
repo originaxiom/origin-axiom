@@ -16693,3 +16693,24 @@ Arc **B1491** (PROVED; a correction and a registration; no law). Next sealed cel
 **The scope (the owner's condition).** Audited for weave against thread: B1615's and B1616's residual-vacuum cells tested vacua fixed by four chosen elements (RL, L, R, RRL), not every subgroup — their statements about residual vacua hold for those four; their weave-level content is the Schur part (the weave's group acts irreducibly on the triplet). Dated addenda on both arcs and on their verdict lines. The classification of every subgroup is the breaking arc, B1620, sealed next after preparation (the owner: "lets treat this seriously, lets get informed and ready properly").
 
 **The owner's decisions of the evening, recorded.** The goal restated as derive the Standard Model's structure and how many free numbers the principle leaves and why; the breaking arc (A: every subgroup of the weave's group; B: the principle's own tick — its forced arrow and inflation φ, outside the weave — and whether it separates the three parity sectors); a write-up for outside review; τ = ω retired as a tested postulate. **0 of 19.** Gates 44 of 44; full suite 7227 passed, 0 failed, 68 skipped (exit status 0).
+
+## 2026-10-08 — S98 THE BREAKING THE WEAVE ALLOWS (B1620, PROVED): on all 68 subgroups of the weave's group, under all three mass tensors, the weave's symmetry reduces none of the 13 flavour parameters; with couplings in τ alone every mixing matrix is a permutation, so the observed mixing needs a vacuum that breaks the parity grading; TM1 allowed under T̄ ⊗ T and T ⊗ T, not under Sym² T (P10 scoped); outside the weave the rule's word splits the parity sectors 1 + 2; B1618's odd-weight case paid, B1619 corrected, the seats harvested
+
+**B1620 (sealed `aa28a42e6`; the owner-agreed restated goal: structure plus how many free numbers).** All six sealed
+cells hold. **A1:** 68 subgroups in 26 classes. **A2:** three distinct masses exactly on the abelian subgroups (57 of 68),
+masses free. **A3:** the minimal mixing freedom is 0, in fixed patterns that include B1612's six, none in the data; no
+family short of the full four reaches the CKM; the PMNS needs two (TM type), sharper than the sealed "one". **B1–B3:**
+the parity classes at ¼ to 7 × 10⁻⁸ at N = F₃₅; (−1)ⁿ bounded; the a- and b-walks unbounded, two records per factor φ⁶
+(exact ratios 1 + 2/√5 and 5 + 2√5), the b-walk the a-walk inflated by φ; the 3-cycle exact at every F_j.
+
+**Post seal (disclosed), after reading the SM seat's W39 and the audit lane's relay.** Part A was regraded under three
+tensors. T̄ ⊗ T: 57 viable, CKM 4, PMNS 2. T ⊗ T: 24, CKM 4, PMNS 2. Sym² T: 16, CKM 4, PMNS 4, because no order-3
+residual is viable, so no TM1 (P10 carries a scope note). For couplings in τ alone: every viable residual containing the
+inner automorphisms gives a dimension-0 family of permutations under every tensor — the SM seat's §41 ask, confirmed. A
+rank bug (relative-only threshold) was caught and fixed before any reading was taken.
+
+**The same landing.** B1618's odd-weight Majorana case is paid by addendum: degenerate at ω, so no hierarchy at ω in
+either term at any weight. B1619 is corrected by addendum: the two-neutral test was EXECUTED at `f5da7ce4a`, at the
+codex's word, checked. The SM seat's W38–W41 and conventions registry, and the audit lane's physical four-Weyl packet,
+are rowed (1049–1056); pins sm `e077e4ba`, audit `c8c910a7`; the harvest debt is zero on every lane. A relay goes to both
+seats. 0 of 19.

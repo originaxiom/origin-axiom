@@ -1,0 +1,105 @@
+{
+ "I1": {
+  "inner_lift_indices": [
+   91,
+   30
+  ],
+  "sign_index": 93,
+  "order_K": 4,
+  "order_K_with_sign": 16,
+  "K_abelian": true,
+  "T_on_K_piece_dims": [
+   1,
+   1,
+   1
+  ]
+ },
+ "I2": {
+  "subgroups_containing_K": 10,
+  "their_orders": [
+   4,
+   8,
+   12,
+   16,
+   24,
+   32,
+   32,
+   32,
+   48,
+   96
+  ]
+ },
+ "Tbar_x_T": {
+  "viable_containing_K": 3,
+  "viable_orders": [
+   4,
+   8,
+   16
+  ],
+  "family_dims": [
+   0
+  ],
+  "distinct_patterns": [
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "every_pattern_a_permutation": true
+ },
+ "T_x_T": {
+  "viable_containing_K": 2,
+  "viable_orders": [
+   4,
+   8
+  ],
+  "family_dims": [
+   0
+  ],
+  "distinct_patterns": [
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "every_pattern_a_permutation": true
+ },
+ "Sym2_T": {
+  "viable_containing_K": 2,
+  "viable_orders": [
+   4,
+   8
+  ],
+  "family_dims": [
+   0
+  ],
+  "distinct_patterns": [
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "every_pattern_a_permutation": true
+ }
+}

@@ -11221,6 +11221,33 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1620": {
+   "slug": "the breaking the weave allows",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "quasicrystal",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B1",
+    "B107",
+    "B2",
+    "B3",
+    "B811",
+    "B991",
+    "P1",
+    "P10"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 31,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B162": {
    "slug": "kappa sweep",
    "motifs": [

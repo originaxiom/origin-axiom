@@ -218,3 +218,23 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   diagonal in T's three parity lines at every τ, and U cycles the three lines; near ω the entries stay equal at leading
   order. **The tagged postulate τ = ω cannot be the source of the fermion hierarchy within the weave.** A hierarchy needs
   the parity sectors to separate — the cusp, where the three theta characteristics go as different powers of q.
+
+## Main's addition: the breaking the weave allows (B1620, PROVED) — every subgroup, three tensors, and the principle's own word
+
+The owner agreed on 2026-10-08 to restate the goal as the Standard Model's structure plus how many free numbers the
+principle leaves. This arc takes every subgroup of the weave's group as a possible residual, none chosen.
+
+- **Masses.** Three distinct masses need an abelian residual: 57 of the 68 subgroups, exactly the abelian ones. Every
+  such residual leaves the masses free.
+- **Mixing.** No mixing family short of the full four reaches the CKM. This holds under T̄ ⊗ T, T ⊗ T and Sym² T, the
+  last two being the SM seat's W39 given Λ. **The weave's symmetry reduces none of the 13 flavour parameters.**
+- **The PMNS** can be reduced to two parameters (the TM type, P10) under T̄ ⊗ T and T ⊗ T. Under Sym² T it cannot be
+  reduced at all: no order-3 residual is viable there, so no TM1.
+- **Couplings in τ alone** always keep the inner automorphisms, and with them every mixing matrix is a permutation, at
+  every τ and under every tensor. So the observed mixing needs **a vacuum that breaks the parity grading** (the seat's
+  relay §41, confirmed; B1618's odd-weight addendum agrees for the Majorana term).
+- **Outside the weave,** the rule's fixed-point word splits the three parity sectors 1 + 2.
+  - The clock's parity (−1)ⁿ is bounded. It is the (−, −) line, and it counts letters without reading them.
+  - The two letter-reading parities are unbounded logarithmic walks, two records per factor φ⁶, and the b-walk is the
+    a-walk inflated by φ.
+  - The split is forced but elementary. Whether it carries physics needs a coupling that reads the word, not only τ.

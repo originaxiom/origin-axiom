@@ -1,5 +1,26 @@
 # Changelog
 
+## S98 THE BREAKING THE WEAVE ALLOWS (B1620, PROVED): on all 68 subgroups of the weave's group, under all three mass tensors, the weave's symmetry reduces none of the 13 flavour parameters; with couplings in τ alone every mixing matrix is a permutation, so the observed mixing needs a vacuum that breaks the parity grading; TM1 allowed under T̄ ⊗ T and T ⊗ T, not under Sym² T (P10 scoped); outside the weave the rule's word splits the parity sectors 1 + 2; B1618's odd-weight case paid, B1619 corrected, the seats harvested
+
+**B1620 (sealed `aa28a42e6`; the owner-agreed restated goal: structure plus how many free numbers).** All six sealed
+cells hold. **A1:** 68 subgroups in 26 classes. **A2:** three distinct masses exactly on the abelian subgroups (57 of 68),
+masses free. **A3:** the minimal mixing freedom is 0, in fixed patterns that include B1612's six, none in the data; no
+family short of the full four reaches the CKM; the PMNS needs two (TM type), sharper than the sealed "one". **B1–B3:**
+the parity classes at ¼ to 7 × 10⁻⁸ at N = F₃₅; (−1)ⁿ bounded; the a- and b-walks unbounded, two records per factor φ⁶
+(exact ratios 1 + 2/√5 and 5 + 2√5), the b-walk the a-walk inflated by φ; the 3-cycle exact at every F_j.
+
+**Post seal (disclosed), after reading the SM seat's W39 and the audit lane's relay.** Part A was regraded under three
+tensors. T̄ ⊗ T: 57 viable, CKM 4, PMNS 2. T ⊗ T: 24, CKM 4, PMNS 2. Sym² T: 16, CKM 4, PMNS 4, because no order-3
+residual is viable, so no TM1 (P10 carries a scope note). For couplings in τ alone: every viable residual containing the
+inner automorphisms gives a dimension-0 family of permutations under every tensor — the SM seat's §41 ask, confirmed. A
+rank bug (relative-only threshold) was caught and fixed before any reading was taken.
+
+**The same landing.** B1618's odd-weight Majorana case is paid by addendum: degenerate at ω, so no hierarchy at ω in
+either term at any weight. B1619 is corrected by addendum: the two-neutral test was EXECUTED at `f5da7ce4a`, at the
+codex's word, checked. The SM seat's W38–W41 and conventions registry, and the audit lane's physical four-Weyl packet,
+are rowed (1049–1056); pins sm `e077e4ba`, audit `c8c910a7`; the harvest debt is zero on every lane. A relay goes to both
+seats. 0 of 19.
+
 ## S97 CORRECTION OF S96's SUITE LINE AND THE SCOPE OF THE RESIDUAL-VACUUM CELLS: S96 was committed with "0 failed" while its suite had one failure (a lock pinning a harvest pin B1619 moved) — the landing script misparsed the summary (E87, filed); the lock repaired; B1615 and B1616's residual-vacuum claims scoped to the four elements they tested, at the owner's "not conclusions on threads alone but in whole weave"
 
 **The correction.** S96's suite printed "1 failed, 7226 passed, 68 skipped": `test_b1467_seats_evening` asserted the audit lane's harvest pin `ddd345a8`, which B1619 had moved to the lane's tip (an E86 instance). The landing script's pattern read the summary without its failure count and wrote "0 failed"; S96 (`760499985`) was committed and pushed with that line. Caught minutes later on reading the raw summary. The lock is repaired to the rows' own reading ("@ ddd345a8"); the class **E87 the misparsed verdict line** is filed with its standing rule (each count read by its own keyword; the suite's exit status recorded and gated on; fail closed on "failed" or "error"). S96's logs stand as written, corrected here.

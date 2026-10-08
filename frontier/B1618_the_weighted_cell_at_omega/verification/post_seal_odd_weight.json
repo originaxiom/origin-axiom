@@ -1,0 +1,55 @@
+{
+ "inner_fixed_dim_in_Sym2T": 3,
+ "iota_eigenvalues_on_Sym2T": [
+  [
+   -1.0,
+   -0.0
+  ],
+  [
+   1.0,
+   -0.0
+  ]
+ ],
+ "cells": [
+  {
+   "iota_eigenvalue": [
+    -1.0,
+    0.0
+   ],
+   "dim": 3,
+   "U_preserves": true,
+   "at_omega": [
+    {
+     "U_eigenvalue_turns": 0.5,
+     "takagi_normalised": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "U_eigenvalue_turns": 0.833333,
+     "takagi_normalised": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "U_eigenvalue_turns": 0.166667,
+     "takagi_normalised": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ],
+   "generic_tau_takagi_normalised": [
+    0.286925445,
+    0.852489057,
+    1.0
+   ]
+  }
+ ],
+ "every_omega_spectrum_degenerate_or_zero": true
+}

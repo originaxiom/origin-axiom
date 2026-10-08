@@ -1,0 +1,164 @@
+{
+ "P1": {
+  "subgroups": 68,
+  "unitary_defect_after_averaging": 1.7985613534252352e-14,
+  "abelian": 57,
+  "sum_of_characters": 57,
+  "sum_of_characters_iff_abelian": true,
+  "orders_abelian": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   12,
+   16
+  ]
+ },
+ "P3": {
+  "pairs": 3249,
+  "tally_(family_dim,ckm_block_pass,pmns_block_pass)": {
+   "(0, False, False)": 1089,
+   "(1, False, False)": 939,
+   "(2, False, False)": 480,
+   "(2, False, True)": 264,
+   "(3, False, True)": 144,
+   "(4, True, True)": 333
+  },
+  "ckm_block_passes_below_4": [],
+  "pmns_block_passes_below_4": [
+   {
+    "orders": [
+     2,
+     8
+    ],
+    "piece_dims": [
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "family_dim": 3,
+    "nominal_params": 8,
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "orders": [
+     3,
+     2
+    ],
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "family_dim": 2,
+    "nominal_params": 4,
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "orders": [
+     3,
+     2
+    ],
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "family_dim": 2,
+    "nominal_params": 4,
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "orders": [
+     3,
+     8
+    ],
+    "piece_dims": [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "family_dim": 2,
+    "nominal_params": 4,
+    "best_score": 0.0,
+    "reached": true
+   },
+   {
+    "orders": [
+     8,
+     8
+    ],
+    "piece_dims": [
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      1,
+      1
+     ]
+    ],
+    "family_dim": 2,
+    "nominal_params": 4,
+    "best_score": 0.063,
+    "reached": true
+   },
+   {
+    "orders": [
+     8,
+     8
+    ],
+    "piece_dims": [
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "family_dim": 3,
+    "nominal_params": 8,
+    "best_score": 0.0,
+    "reached": true
+   }
+  ],
+  "ckm_min_family_dim_reaching_data": 4,
+  "pmns_min_family_dim_reaching_data": 2
+ },
+ "P4": {
+  "distinct_fixed_patterns": 8,
+  "B1612_patterns": 6,
+  "fixed_patterns_include_B1612s": true
+ }
+}

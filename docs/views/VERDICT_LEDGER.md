@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1348 of 1348 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1349 of 1349 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (908)
+## PROVED (909)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -920,6 +920,7 @@
 | `B1614` | THE OBSERVER LAYER ON THE WEAVE (sealed c04b1acb2; the owner's 'bank and run the awareness arc'): the observer layer computed on m004 (B752-B1184), re-posed on the weave. A1: the moves' joint fixed points are the trivial character (reducible) and the common point (irreducible) -- the weave's self-name. A2: at the common point the adjoint (the geometry) is wholly visible at the puncture (H1 = 3, injective), the parity lines too, while the doublet and the three matter blocks carrying the three are wholly private (H1 = 2 each, the puncture's cohomology zero since it acts as -1) -- 'no private states' splits along local systems. A3: the rule fixes the common point, normalises the moves and reverses W21's form, so it swaps the sheets and the weave cannot sign itself (B1327). A4: the sheet = det = CP-oddness, the McKay sign another: two odd classes on the weave, not m004's one. A5 (a reading's cell): chi_T(L) = e^{-i pi/4}, chi_T(R) = e^{+i pi/4}, chi_T(LR) = 0, the puncture's holonomy -1 (even). 0 of 19. |  | 1 |
 | `B1618` | THE WEIGHTED CELL AT OMEGA (sealed 434782554): given tau = omega, the Dirac masses are degenerate at omega for every weight -- the inner automorphisms (automorphy factor 1, acting as the parity signs) make every coupling diagonal in T's three parity lines at every tau, and U cycles the lines (a 3-cycle), so every U-eigenvector on the diagonal (phases 1, omega, omega^2) gives three equal masses; near omega the entries stay equal at leading order. No Majorana coupling survives at even weight (the odd-weight case not computed). So the tagged postulate tau = omega, which main recommended, cannot give the observed hierarchy within the weave; a hierarchy needs the parity sectors to separate -- the cusp. 0 of 19. |  | 1 |
 | `B1619` | THE CODEX LANES ROWED (R61-1; the owner's 'make sure u dont leave anything behind on the ledger'): 87 harvest rows (962-1048, newest first; the audit lane's 35 and the audit fork's 52 items) and 37 relay rows (the audit lane's 33, the SM seat's 4), each quoting its item's own title and first result line at the lane's tip, registered at headline level and not re-run on main; pins moved to the tips; the harvest debt is zero on all fourteen lanes. 0 of 19. |  | 1 |
+| `B1620` | THE BREAKING THE WEAVE ALLOWS (sealed aa28a42e6): on all 68 subgroups of the weave's group three distinct masses need an abelian residual (57 of 68, exactly the abelian ones), every charged-fermion mass stays free, and no mixing family short of the full four reaches the CKM -- under T-bar(x)T, T(x)T and Sym^2 T alike, so the weave's symmetry reduces none of the 13 flavour parameters; the PMNS can be reduced to two (the TM type, P10) under T-bar(x)T and T(x)T, not at all under Sym^2 T; with couplings in tau alone every residual contains the inner automorphisms and every mixing matrix is a permutation, so the observed mixing needs a vacuum breaking the parity grading; outside the weave the rule's fixed-point word splits the three parity sectors 1 + 2 (the clock's parity bounded, the two letter-reading walks unbounded and one orbit of the inflation phi), an elementary forced split whose physical meaning is the next question. 0 of 19. |  | 1 |
 
 ## NEGATIVE (338)
 

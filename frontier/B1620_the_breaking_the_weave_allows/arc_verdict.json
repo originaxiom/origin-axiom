@@ -1,0 +1,28 @@
+{
+ "id": "B1620",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1611",
+  "B1612",
+  "B1615",
+  "B1616",
+  "B1617",
+  "B1618",
+  "B1083"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's group G (order 96, the record's lifts of L and R on W10's V, faithful on the triplet T; the frame where the character c is physical, W24); every subgroup as a possible residual of one sector, none chosen; the mass term in T-bar(x)T (as sealed), T(x)T and Sym^2 T (the SM seat's W39, post seal); and the rule sigma's fixed-point word, outside the weave",
+  "object": "the 68 subgroups of G in 26 classes; every ordered pair of three-mass subgroups and the real dimension of its mixing family; the parity classes and characters of the Fibonacci word's prefixes to N = F_35",
+  "reach": "general",
+  "hypotheses": "masses as singular values of an invariant matrix; mixing from the left-handed rotations; data only as B1612 transcribed (PDG 2025 CKM, NuFIT 6.0 |U| 3-sigma ranges); the block test necessary, reach decided by a fit; GENESIS FK11 open (in a frame with a U(1) on T, Sym^2 T gains invariants)"
+ },
+ "claim_one_line": "THE BREAKING THE WEAVE ALLOWS (sealed aa28a42e6): on all 68 subgroups of the weave's group three distinct masses need an abelian residual (57 of 68, exactly the abelian ones), every charged-fermion mass stays free, and no mixing family short of the full four reaches the CKM -- under T-bar(x)T, T(x)T and Sym^2 T alike, so the weave's symmetry reduces none of the 13 flavour parameters; the PMNS can be reduced to two (the TM type, P10) under T-bar(x)T and T(x)T, not at all under Sym^2 T; with couplings in tau alone every residual contains the inner automorphisms and every mixing matrix is a permutation, so the observed mixing needs a vacuum breaking the parity grading; outside the weave the rule's fixed-point word splits the three parity sectors 1 + 2 (the clock's parity bounded, the two letter-reading walks unbounded and one orbit of the inflation phi), an elementary forced split whose physical meaning is the next question. 0 of 19.",
+ "weave_or_thread": "weave"
+}
