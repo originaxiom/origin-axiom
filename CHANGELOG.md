@@ -1,5 +1,25 @@
 # Changelog
 
+## The weave: the owner's contemplation written down, W29 qualified, and a citation-rule slip repaired
+
+- **Phase A of the owner's approved plan** (contemplate, close the arc, then W30 and W31). The dossier gains a READING
+  section, "Reading W24–W29 together", with a pointer in the synthesis.
+  - Every route has ended in one free 𝔽₂, the hand. What does not depend on the hand is an asymmetry in the weave's own
+    group, not yet a gauge chirality.
+  - A flux that keeps the whole Standard Model has order 5, so W31 tests ℤ₅.
+  - The binary polyhedral groups appear along the moves, as a reading.
+  - Two questions go to main: whether F-MC's chirality bit is the orientation's convention, and whether a map exists
+    between F-MC's trit and the weave's three (B1231's discipline).
+- **W29 qualified post hoc** (P3, computed). Its ℤ₆ index set (−1, 1, 3, 5) holds for the moves L and R. With the bare
+  sign −I a move (GENESIS GM5b, open), the set collapses to −1 or 5. W28's qubit is unchanged.
+- **A rule slip repaired** (ERROR_LEDGER, 2026-10-08).
+  - The W-steps never ran the repository-wide citation lock, and 29 paragraphs cited GENESIS ids without the word.
+  - The 24 living paragraphs now name GENESIS.
+  - The 5 in the append-only logs are exempted by sha-256 in `tests/test_b1516_genesis_v1.py`.
+- **Surfaces.** The dossier's NOTE (the reading; W29's qualification and row), the synthesis (pointer; row 20), the
+  laws page, W29's post-hoc script and JSON, the W29 test, the citation lock, ERROR_LEDGER, and the relay's and the
+  rules' citations.
+
 ## The weave's W29: the ℤ₆ twist-eater in E₈, an echo of the Standard Model's SU(3) × SU(2), not a derivation
 
 - **Step 3 of the owner's approved plan.** The rule (W29_RULE.md, 37441028) was committed first.

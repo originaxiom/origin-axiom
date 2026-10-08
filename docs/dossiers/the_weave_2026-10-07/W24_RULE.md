@@ -135,7 +135,7 @@ arithmetic) except where noted.
     hand), because the reality of the 248 sends the condition to its conjugate.
   - The (26, 2) is irreducible, so F₄ × SU(2) preserves no Lagrangian half of it. Every chiral gauge reading of the
     weave's bundle therefore breaks F₄ by a choice.
-  - That choice is the dictionary that the stop hook names (FK11). What a six-dimensional object must supply is a forced
+  - That choice is the dictionary that the stop hook names (GENESIS FK11). What a six-dimensional object must supply is a forced
     complex structure on the gauge side, meaning a bundle whose holonomy has complex representations (S4).
 
 ### E, the verdict

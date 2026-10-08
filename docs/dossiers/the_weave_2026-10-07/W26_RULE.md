@@ -52,7 +52,7 @@ SnapPy's hyperbolic structures (numerical, about 15 digits).
 
 - **As predicted.** The search beyond the weave closes negative for these two candidates.
   - The gauge content of three generations needs F-MC's typed inputs (main's derivation of the gauge algebra, with the
-    chirality bit) plus the identification FK11.
+    chirality bit) plus the identification GENESIS FK11.
   - The weave contributes the count (three, the parities'; THE_CLAIM lists the generation count as open) and the
     consistent hand of the three (W22).
   - That is the record's best statement of the derivation. It is principle plus F-MC's inputs plus one named

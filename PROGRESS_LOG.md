@@ -18216,3 +18216,21 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the lift of (LR⁻¹L)².
 - **The verdict:** an echo, not a derivation. The flux uses up the hypercharge, three is not forced, there are no
   chiral leptons, and the flux is not forced. W27 with W28 stays the record's best statement.
+
+## 2026-10-08 (night, the approved plan's Phase A) — the contemplation written down; W29 qualified; a citation slip repaired
+
+- **The owner approved the plan:** contemplate, close the arc, then W30 (step 4) and W31 (the ℤ₅ flux). A review of
+  the plan corrected it before anything ran:
+  - W31's ℤ₅ values move into its rule, as values seen in the review;
+  - W30 turns on the swap;
+  - the reading drops its overreach.
+- **The reading** ("Reading W24–W29 together", READING):
+  - the hand is the one free 𝔽₂ of every route;
+  - a flux that keeps the Standard Model has order 5;
+  - the binary polyhedral groups appear along the moves;
+  - two questions for main.
+- **W29 qualified post hoc (P3).** The ℤ₆ set −1, 1, 3, 5 holds for L and R. With the bare sign a move (GENESIS GM5b)
+  it is −1 or 5. The qubit is unchanged.
+- **The slip.** The repository-wide GENESIS citation lock had not been run since W16. The 24 living paragraphs are
+  repaired, and the 5 historical log paragraphs are exempted by hash (ERROR_LEDGER). The rule, re-stated: run every
+  repository-scanning test and the gates before each push.

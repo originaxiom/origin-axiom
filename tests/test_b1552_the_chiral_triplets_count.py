@@ -526,6 +526,10 @@ def test_w29_the_z6_twist_eater():
     post = json.loads((here / "the_z6_twist_eater_posthoc.json").read_text(encoding="utf-8"))
     assert post["P2 the lift of (L R^-1 L)^2 = -I composed with conjugation by a b^-1"][
         "the lifts of L and R keep them (they are the pieces)"]
+    p3 = post["P3 which moves the index sets assume"]
+    assert p3["Z6: ... of L, R and the bare -I"] == 1 and p3[
+        "Z6: the 6-sector's index set with the bare -I a move (-1 + d1)"] == [-1, 5]
+    assert p3["the qubit: ... of L, R and the bare -I"] == 2
     sys.path.insert(0, str(here))
     import the_z6_twist_eater as ZT
     assert np.allclose(ZT.A @ ZT.B @ np.linalg.inv(ZT.A) @ np.linalg.inv(ZT.B), ZT.ZETA * np.eye(6))

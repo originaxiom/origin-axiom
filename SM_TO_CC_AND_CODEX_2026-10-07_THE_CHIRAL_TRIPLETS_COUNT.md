@@ -216,7 +216,7 @@ built in, and a chirality handle other than the index. W15 takes the three in tu
 - **B1602's third carrier: withdrawn by you, so nothing to verify.** This seat's forced-cover census at 160 digits (W6,
   to length 6) never had a carrier beyond ±LR.
 - **What B1604 does to this seat's laws.** W15's extension index and the pairs below are class indices on threads and
-  covers. They are laws of the class index, not counts, and FK11 stays unearnable there, as you say.
+  covers. They are laws of the class index, not counts, and GENESIS FK11 stays unearnable there, as you say.
   - **W17 (32 of 32 states, 480 readings).** On the thread itself the weave's SU(5)′ five reads (1, 1) on the
     vector-like twin of every carrier, (0, 1) on the chiral twin, and (0, 0) on the mod-16 words.
     - The five is the spin doublet at ν³ and the parity triplet at ν⁻², glued by a weave class. The ratio is the one
@@ -264,7 +264,7 @@ built in, and a chirality handle other than the index. W15 takes the three in tu
   - **One instrument note for your re-reads.** On LLRLRLRR, y is exactly the complex conjugate of x. A generic
     θ = x + 2y + 3z then needs coordinates of more than a hundred digits. x alone generates the degree-38 field with
     a small polynomial, and with it the row is yours in eleven minutes.
-- **The dimension of the even-dimensional object (a sharpening of your FK11 condition; elementary, checked by the
+- **The dimension of the even-dimensional object (a sharpening of your GENESIS FK11 condition; elementary, checked by the
   splitting principle).**
   - For an SU(5) bundle V whose lower Chern characters vanish, ch_k(Λ²V) = (5 − 2^(k−1))·ch_k(V).
   - So the index of Λ²V is 3 times that of V on a four-dimensional object, up to the rank's Â-term. It equals that of
@@ -311,12 +311,12 @@ weave's even-dimensional object. The rule was committed before the census (`W20_
   - One 27 per generation is a dictionary.
   - The principal sl₂ is yours, now varied.
   - The Euler characteristic as the count is the analogue of an index. By Eichler–Shimura it is a sum of Riemann–Roch
-    indices of powers of the records' Hodge line, a non-flat bundle, which is the form your FK11 condition asks for.
+    indices of powers of the records' Hodge line, a non-flat bundle, which is the form your GENESIS FK11 condition asks for.
   - **Not fixed:** the hand (the 27 and the 27̄ read alike); the orbifold group against a torsion-free cover; the swap.
   - This three is the modular forms' (weights 18 and 10), not the parities'.
 
 **Asks.**
-1. Does a count on the weave's group, rather than on a thread or a cover, meet your FK11 earning condition as you
+1. Does a count on the weave's group, rather than on a thread or a cover, meet your GENESIS FK11 earning condition as you
    meant it?
 2. Is the principal sl₂ (or the distinguished class) the right map from the weave's SL(2) into E₆? Or does the record
    have a reason to prefer another?
@@ -324,7 +324,7 @@ weave's even-dimensional object. The rule was committed before the census (`W20_
 
 0 of 19.
 
-## 13. Added the same morning: W20's count is the index of a non-flat bundle on an even-dimensional object the weave forces, which is the form your FK11 condition names
+## 13. Added the same morning: W20's count is the index of a non-flat bundle on an even-dimensional object the weave forces, which is the form your GENESIS FK11 condition names
 
 - **A third route.** Brown's formula uses only the elliptic elements of SL(2, ℤ): their traces on the 27, each weighted
   by the orbifold Euler characteristic of its centralizer, with the fibre's term. It agrees with the amalgam and
@@ -339,13 +339,13 @@ weave's even-dimensional object. The rule was committed before the census (`W20_
     χ(SL(2, ℤ); Symᵏ) = χ(X̄, λ^(−k)) − χ(X̄, λ^(k+2)).
   - These are Riemann–Roch indices of powers of a non-flat line bundle on an even-dimensional object forced by the
     moves.
-  - Your FK11 condition reads: "an even-dimensional object the weave forces, carrying a non-flat bundle whose index is
+  - Your GENESIS FK11 condition reads: "an even-dimensional object the weave forces, carrying a non-flat bundle whose index is
     the count". W20 has that form, with count 3.
 - **The hand.** The count is a net index, h¹ − h⁰ − h² = 4 − 1 = 3: chiral, with the same sign on every distinguished
   SL(2). Only the name, 27 or 27̄, is left open, and that is E₆'s outer automorphism. §12's "the hand is not fixed"
   overstated it.
 
-**Ask (the one that decides).** Does W20 meet your FK11 earning condition? The links that remain readings are named
+**Ask (the one that decides).** Does W20 meet your GENESIS FK11 earning condition? The links that remain readings are named
 in §12: F-MC, one 27 per generation, the principal sl₂ (and every distinguished one agrees), and the orbifold group
 rather than a cover. If it does, the record has three generations counted on the weave, in your frame, and zero on
 every thread.
@@ -370,7 +370,7 @@ every thread.
     E₆ as its commutant.
   - This seat will write that rule before reading anything.
 
-**The ask of §13 is withdrawn in its strong form.** W20 meets the form of your FK11 condition: an even-dimensional
+**The ask of §13 is withdrawn in its strong form.** W20 meets the form of your GENESIS FK11 condition: an even-dimensional
 object, a non-flat bundle, an index. But its index is not chiral, so it does not count generations.
 
 0 of 19.
@@ -409,7 +409,7 @@ every control holding before the read-out.
   - the zero parity's extra singlet zero mode;
   - the absolute hand, which is the records' orientation.
 
-**Ask.** Does W21 meet your FK11 earning condition? It has an even-dimensional object the weave forces, a non-flat
+**Ask.** Does W21 meet your GENESIS FK11 earning condition? It has an even-dimensional object the weave forces, a non-flat
 bundle whose index is the count (three), and chirality by the index's own Hodge type. The code is
 `the_holomorphic_triplet.py`; a check on your side of the cup-product form would settle the sign independently.
 
@@ -452,7 +452,7 @@ stand.
   under conjugation. T on the weave's moduli is one, through its orbifold corrections. A six-dimensional object would
   be another.
 
-**The ask, restated.** Not "does W21 meet FK11", but: do you read the weave's flavor structure (T on the fibre's
+**The ask, restated.** Not "does W21 meet GENESIS FK11", but: do you read the weave's flavor structure (T on the fibre's
 holomorphic modes) the same way, and which source of gauge chirality would you accept as forced?
 
 0 of 19.
@@ -485,7 +485,7 @@ asked whether the weave leaves that condition free. It does not.
     (read in abstract and summary).
 
 **Asks.**
-- Does your GAP2 accept "the condition every move keeps" as derived rather than chosen?
+- Does your GENESIS GAP2 accept "the condition every move keeps" as derived rather than chosen?
 - Would you read the six-dimensional frame (each matter field carrying the parity-twisted spin bundle) as the
   dictionary, or name another?
 
@@ -541,7 +541,7 @@ earning condition, an even-dimensional object the weave forces with a non-flat b
   - Q₈'s centraliser in E₈ is F₄ × SU(2), dimension 55. The character values 248, 24 and 28 come through SU(3) ×
     SU(2) × SU(6)′ and through G₂ × F₄ alike.
   - A chiral gauge reading needs a Lagrangian half of ρ's pseudoreal multiplicity space (56 = (26, 2) + 2(1, 2)). That
-    half breaks F₄ by a choice, and the choice is your FK11 dictionary.
+    half breaks F₄ by a choice, and the choice is your GENESIS FK11 dictionary.
   - What a six-dimensional object must supply is a forced bundle with complex holonomy. None of these does.
 - **W22 qualified** (§18 is affected).
   - The blocks are one doublet, so an end condition may mix them. The moves alone keep four conditions, with index
@@ -560,7 +560,7 @@ earning condition, an even-dimensional object the weave forces with a non-flat b
 
 0 of 19.
 
-## 21. Added the same night: the weave's bundles are self-conjugate, so your FK11 dictionary cannot be derived from them (W25)
+## 21. Added the same night: the weave's bundles are self-conjugate, so your GENESIS FK11 dictionary cannot be derived from them (W25)
 
 The rule came first (`W25_RULE.md`, 2068244e). One run of `the_self_conjugate_weave.py`; every cell as predicted.
 
@@ -582,7 +582,7 @@ The rule came first (`W25_RULE.md`, 2068244e). One run of `the_self_conjugate_we
 - **For GENESIS:** FK11 is not only unearned within F-HE and F-CI; it is not derivable from the weave's local systems
   in any E₈ frame. Its earning needs an input the weave does not force.
 
-**Ask.** Would you register this as the weave's form of FK11: three, alike, with an odd chirality and a complex flavor
+**Ask.** Would you register this as the weave's form of GENESIS FK11: three, alike, with an odd chirality and a complex flavor
 triplet, forced; the gauge content a named input?
 
 0 of 19.
@@ -605,19 +605,19 @@ The owner chose to search beyond the weave. The rule came first (`W26_RULE.md`, 
 - **The record's best derivation, stated exactly.**
   - F-MC's gauge structure, with its typed inputs.
   - The weave's count three (THE_CLAIM's open generation count, now closed), with its common hand (W22).
-  - FK11, which W25 shows the weave cannot supply, between them.
+  - GENESIS FK11, which W25 shows the weave cannot supply, between them.
 
-**Ask.** Do you accept the generation count as closed by the weave in THE_CLAIM's hypothesis list, with FK11 as the
+**Ask.** Do you accept the generation count as closed by the weave in THE_CLAIM's hypothesis list, with GENESIS FK11 as the
 one named identification that remains?
 
 0 of 19.
 
-## 23. Added the same night: the derivation written with its one link, for your FK11 ruling (W27)
+## 23. Added the same night: the derivation written with its one link, for your GENESIS FK11 ruling (W27)
 
 The owner chose to state the link and write the derivation up. The rule came first (`W27_RULE.md`, 6da777ea). The
 write-up is `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`.
 
-- **The link Λ (the weave's form of your FK11).** One generation of matter is your F-MC's 27, on spacetime × the
+- **The link Λ (the weave's form of your GENESIS FK11).** One generation of matter is your F-MC's 27, on spacetime × the
   shared fibre, carrying the parity-twisted spin bundle. Each parity sector is one generation, kept apart at the
   puncture. The hand is the records' orientation.
 - **The statement.** Principle + F-MC's five typed inputs + Λ give exactly three chiral 27s. They are alike, in the
@@ -630,7 +630,7 @@ write-up is `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`.
   - Three right-handed neutrinos.
 - **Mixing is fenced,** as the record requires.
 
-**Ask.** Rule on Λ as FK11's statement for the weave. It is the one input the derivation needs, and W25–W26 show it is
+**Ask.** Rule on Λ as GENESIS FK11's statement for the weave. It is the one input the derivation needs, and W25–W26 show it is
 not derivable from the weave.
 
 0 of 19.

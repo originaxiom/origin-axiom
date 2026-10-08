@@ -18,5 +18,16 @@
   ],
   "the lifts of L and R keep them (they are the pieces)": true
  },
- "reading": "the moves contain -I only composed with an inner automorphism; the lift of (L R^-1 L)^2, a reflection with two fixed points, splits the 6 as 4 + 2, and those are the pieces. The bare -I's lift is a reflection without fixed points, with two 3-dimensional eigenspaces that the moves exchange. The rule's naming was wrong; the computed structure and every index set stand"
+ "P3 which moves the index sets assume": {
+  "Z6: commutant on the 6 of the lifts of L and R": 2,
+  "Z6: ... of L, R and the bare -I": 1,
+  "Z6: the 6-sector's index set with the bare -I a move (-1 + d1)": [
+   -1,
+   5
+  ],
+  "the qubit (W28, the six local solutions): commutant of L and R": 2,
+  "the qubit: ... of L, R and the bare -I": 2,
+  "so W29's sets (-1, 1, 3, 5) hold for the moves L and R; with the bare sign a move they collapse to locality's; W28's are unchanged": true
+ },
+ "reading": "the moves contain -I only composed with an inner automorphism; the lift of (L R^-1 L)^2, a reflection with two fixed points, splits the 6 as 4 + 2, and those are the pieces. The bare -I's lift is a reflection without fixed points, with two 3-dimensional eigenspaces that the moves exchange. The rule's naming was wrong; the computed structure and every index set stand for the moves L and R. With the bare sign -I a move (GENESIS GM5b, FK4, open), the 6-sector's set collapses to -1 or 5, locality's (P3); W28's qubit is unchanged"
 }

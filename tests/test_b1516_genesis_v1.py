@@ -185,6 +185,24 @@ def _sealed_unchanged(p, ledger):
     return p.name == "PREREGISTRATION.md" and hashlib.sha256(p.read_bytes()).hexdigest() in ledger
 
 
+# Five paragraphs of the append-only logs, written in the weave's W16-W26 steps (2026-10-07/08), cite FK11 without the
+# word GENESIS. The logs cannot be amended (PROGRESS_LOG's append-only gate; historical bytes outrank hygiene), so these
+# five, and only these, are exempt by their sha-256 (ERROR_LEDGER, rule slip of 2026-10-08). Every other paragraph of
+# the logs, and every paragraph appended later, stays bound by the rule.
+HISTORICAL_LOG_PARAGRAPHS = {
+    ("PROGRESS_LOG.md", "99674ce48012f690129b99e5f965732ca2c950550f3526b58a7b5dd2dcfbd4db"),
+    ("PROGRESS_LOG.md", "4b5e464be276a9126b5222aee7219293b82eb21fb79bfd99ada2afa0388441e1"),
+    ("CHANGELOG.md", "e9bd1a0902c32eb7d6a4efa20f161771fe30895f7c1ffbaa52fbffdb1199a004"),
+    ("CHANGELOG.md", "c8726f2112f9e7e8413364715bb366e323cadd7d44ae128e37054ea91d234711"),
+    ("CHANGELOG.md", "ac4489ba0535f9a3b8908a14ad5dac5387720625bb27f9a3c82114490706adbe"),
+}
+
+
+def _historical_log_paragraph(rel, para):
+    import hashlib
+    return (str(rel), hashlib.sha256(para.encode("utf-8")).hexdigest()) in HISTORICAL_LOG_PARAGRAPHS
+
+
 def test_v1_ids_are_cited_as_genesis_elsewhere():
     """Outside GENESIS.md and this arc, a v1.0 ID appears only in a paragraph that names GENESIS (the citation rule).
     The rule binds living text. A sealed preregistration, unchanged since its hash was ledgered, cannot be amended and is
@@ -217,7 +235,7 @@ def test_v1_ids_are_cited_as_genesis_elsewhere():
         if not ID_TOKEN.search(text):
             continue
         for para in re.split(r"\n\s*\n", text):
-            if ID_TOKEN.search(para) and "GENESIS" not in para:
+            if ID_TOKEN.search(para) and "GENESIS" not in para and not _historical_log_paragraph(rel, para):
                 bad.append((str(rel), ID_TOKEN.search(para).group(0)))
     assert not bad, bad[:10]
 

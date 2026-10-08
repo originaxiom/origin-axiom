@@ -202,6 +202,8 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     other.
   - Its count is not three by any forced rule: the moves allow −1, 1, 3 or 5 quark generations, and locality gives
     five.
+  - **Qualified post hoc (P3).** That set holds for the moves L and R. With the bare sign −I a move (GENESIS GM5b,
+    open), it is −1 or 5. W28's qubit is unchanged.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).
