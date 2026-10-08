@@ -1,5 +1,32 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October9 normal-Gaussian checkpoint:19 native/8 separate reference/
+10 focused and324 twenty-packet regression tests PASS at reseal4605e1515.
+Report: reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/FINDINGS.md.
+The supplied parent's actual horizontal normal mass now has an explicit
+free five-dimensional Gaussian, filled vacuum and complex overlap
+-z/sqrt(m^2+|z|^2). A declared balanced boundary reference has the opposite
+net index and all five anomaly coefficients, retaining a charged Weyl
+factor rather than a freely removable phase. This is NOT a mirror-free
+completion or a local boundary law for the full six-dimensional cusp.
+The zero-angular projector itself is nonlocal; the full boundary-symbol,
+bundle and finite-area embedding tests remain. End-mode gauge coupling
+is conditional on admission to a finite-area completed system, not
+inferred by assigning the auxiliary inward half-line the cusp's area.
+Stage2T PARTIAL: next test that full lift or a specified relative phase.
+First reference7/8 failure preserved; exact projector diagnostics repaired
+and resealed before rerun. Seven science/25 pinned-and-working sources
+unchanged. Outside analytic review, full suite and main banking remain
+owed; four inherited governance failure categories are disclosed.
+Fresh fetch: mainbded4d62e adds B1621 preregistration and producer, read
+but NOT independently executed or treated as a result; SMd62458221
+unchanged. Prior flavor-map and fit-calibration requests are preserved.
+Nonzero-flux saddles, zero-flux minima, source/silver positives and the
+full generated architecture remain. Parameter-free SM/TOE ACTIVE and
+unachieved; genesis, stable families, normalized interactions, observer/
+qualia and gravity are not derived by this conditional construction.
+Earlier dated NEXT entries below retain their historical epoch.
+
 October8 gauge-cutoff checkpoint:18 native/8 separate reference/12
 focused and314 nineteen-packet regression tests PASS on first attempts
 at pushed sealac781525a. Report:

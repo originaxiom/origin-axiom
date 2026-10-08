@@ -309,6 +309,23 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    the paired prescription. NEXT_TEST remains unexecuted for that
    construction. Outside analytic review and all stable-family,
    full-loop, interaction and genesis duties remain.
+   Stage2T October9 SIXTH GATE EXECUTED at research grade:
+   weave_end_gaussian_2026_10_09/FINDINGS.md.19 native/8 reference/
+   10 focused/324 twenty-packet regression pass after4605e1515.
+   First reference7/8 failure preserved; exact projector-check repair
+   resealed before rerun. Actual normal mass has a finite Gaussian
+   vacuum, with complex opposite-mass overlap retaining one Weyl
+   factor. Declared balanced reference has opposite net index and
+   perturbative anomalies with charged end modes retained.
+   NOT a mirror-free completion or a local full-cusp boundary law.
+   NEXT test the full angular symbol and bundle lift, both boundary
+   factors, core embedding and gauge action; alternatively specify
+   and justify a relative phase without a physical wall. No arbitrary
+   removal of the Weyl modulus or auxiliary/reference sector.
+   Finite-area gauge coupling is conditional on a completed embedding,
+   not a property supplied by the infinite inward half-line alone.
+   NEXT_TEST is unexecuted for this full-lift admission. Stability,
+   actual families, full-loop modulus, interactions and genesis remain.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

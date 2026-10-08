@@ -1,5 +1,35 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October9 normal-Gaussian checkpoint:
+reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/FINDINGS.md.
+19 native/8 reference/10 focused/324 regression pass after4605e1515;
+first reference failure and pre-rerun repair preserved.
+
+- PB-CUSP-NORMAL-GAUSSIAN: EXECUTED. Closing scope: the actual horizontal
+  mass admits a finite-mode Gaussian state and complex Weyl overlap;
+  a supplied balanced normal boundary reference has the opposite net
+  index and perturbative coefficients, with charged end modes retained.
+- PB-CUSP-ANOMALY-COMPLETION: Stage2T PARTIAL. NEXT full-angular local
+  boundary-symbol/bundle lift, both boundary states and gauge action,
+  plus finite-area core embedding; or an explicitly specified relative
+  phase without a physical wall. See this packet's NEXT_TEST.md.
+- PB-CUSP-UNSIGNED-QUANTUM-TRACE: finite Gaussian overlap is not an
+  infinite determinant modulus or a combined boson/ghost/fermion loop.
+- PB-CUSP-REVIEW: outside global-domain, determinant and boundary review
+  still owed. Same-author symbolic checks are not outside acceptance.
+- PB-CUSP-CHARGED-CONDENSATE: nonzero-flux saddle constraints retained;
+  the boundary count is not a stabilized chiral family construction.
+- Mainbded4d62e B1621 preregistration and producer read, not executed:
+  its invariant-mean coupling is a disclosed reading. Clock/tick
+  matrices still need maps to actual kernels and interactions before
+  physical identification. No result inferred from a sealed prediction.
+- Prior source/silver positives, fit-calibration request, full generated
+  architecture and act/register/lift obligations are preserved.
+  Observer/qualia and gravity remain distinct questions.
+
+The full parameter-free SM/TOE remains active and unachieved.
+Earlier dated NEXT entries below retain their historical epoch.
+
 October8 gauge-cutoff checkpoint:
 reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/FINDINGS.md.
 18 native/8 reference/12 focused/314 regression first-pass at ac781525a.

@@ -424,3 +424,20 @@ No shared I-number or empirical normalization assigned.
 
 Outside analytic acceptance and the full parameter-free SM/TOE remain
 unachieved. Existing positive alternatives are not excluded.
+
+### Physical normal Gaussian October9 path-local supplement
+
+Report: reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/FINDINGS.md.
+No shared I-number or empirical normalization assigned.
+
+| sides | exhibited map or distinction | scope |
+|---|---|---|
+| Actual horizontal mass and radial Gaussian | M=partial_t+C gives D5=gamma5 partial_t+Dslash4+C with source gamma5=+ | Fixed supplied normal model; not a six-dimensional quantum completion |
+| Finite negative eigenspinor and boundary Weyl factor | Canonical Fock ground state and complex overlap -z/sqrt(m^2+abs(z)^2) | Complex phase and one zero retained; no ultraviolet determinant identification |
+| Coupled boundary reference and spin-line reference | Both balanced, hence same net -signature(C)/2 | NOT IDENTIFIED as complete boundary conditions; extra vectorlike pairs may differ |
+| Normal boundary reference and local full-cusp boundary law | NOT IDENTIFIED; horizontal projector has nonzero angular-multiplication commutator | Need full symbol, bundle, adjoint and gauge-action map |
+| Auxiliary inward half-line and finite-area physical system | NOT IDENTIFIED; kinetic-density cancellation alone does not supply a global gauge zero mode | Coupling statement conditional on admission to a finite-area completed theory |
+| Opposite anomaly vector and mirror-free cancellation | NOT IDENTIFIED; this realization retains charged Weyl modes and a nontrivial modulus | Relative-phase alternatives are not excluded by this boundary calculation |
+
+Outside analytic acceptance, genesis selection and the full parameter-free
+SM/TOE remain unachieved. Existing positive alternatives are preserved.

@@ -18096,3 +18096,40 @@ regression314 passed in55.38s at a clean unchanged seal commit.
 Literal receipts retained; no post-execution repair. Two cutoffs kept
 separate, fixed compact UV cancellation and uncut end response retained.
 An explicit local quantum completion is still the next unexecuted duty.
+
+## 2026-10-09 Normal end Gaussian and boundary admission
+
+October9 normal-Gaussian checkpoint:19 native/8 separate reference/
+10 focused and324 twenty-packet regression tests PASS at reseal4605e1515.
+Report: reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/FINDINGS.md.
+The supplied parent's actual horizontal normal mass now has an explicit
+free five-dimensional Gaussian, filled vacuum and complex overlap
+-z/sqrt(m^2+|z|^2). A declared balanced boundary reference has the opposite
+net index and all five anomaly coefficients, retaining a charged Weyl
+factor rather than a freely removable phase. This is NOT a mirror-free
+completion or a local boundary law for the full six-dimensional cusp.
+The zero-angular projector itself is nonlocal; the full boundary-symbol,
+bundle and finite-area embedding tests remain. End-mode gauge coupling
+is conditional on admission to a finite-area completed system, not
+inferred by assigning the auxiliary inward half-line the cusp's area.
+Stage2T PARTIAL: next test that full lift or a specified relative phase.
+First reference7/8 failure preserved; exact projector diagnostics repaired
+and resealed before rerun. Seven science/25 pinned-and-working sources
+unchanged. Outside analytic review, full suite and main banking remain
+owed; four inherited governance failure categories are disclosed.
+Fresh fetch: mainbded4d62e adds B1621 preregistration and producer, read
+but NOT independently executed or treated as a result; SMd62458221
+unchanged. Prior flavor-map and fit-calibration requests are preserved.
+Nonzero-flux saddles, zero-flux minima, source/silver positives and the
+full generated architecture remain. Parameter-free SM/TOE ACTIVE and
+unachieved; genesis, stable families, normalized interactions, observer/
+qualia and gravity are not derived by this conditional construction.
+Earlier dated NEXT entries below retain their historical epoch.
+
+Second native9.382986s, reference14.027743s; focused10 passed in21.78s.
+Regression324 passed in176.36s at unchanged4605e1515; no full-suite claim.
+First native19/19 and reference7/8 are retained with their exit receipts;
+first focused tests never ran. The repair changes an unsimplified symbolic
+trace comparison, not the overlap, proof or charged spectrum. Current
+diagnostics show four syntactic mismatches and six exactly zero trace,
+projector and spectral residuals. Full boundary lift is the next duty.

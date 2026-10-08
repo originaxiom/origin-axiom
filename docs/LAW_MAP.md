@@ -1,5 +1,26 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October9 normal-Gaussian conditional sublemmas. Supplied curved E8
+parent's horizontal normal channels, stationary flux and parallel
+unbroken external fields. A supplied balanced boundary reference on
+a five-dimensional normal model, not a full six-dimensional boundary.
+PROOF: reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md.
+Safeguards: tests/test_physical_bridge_weave_end_gaussian.py.
+
+| Scoped result | Argument and finite safeguard |
+|---|---|
+| Actual normal mass gives Hermitian radial H with H^2=-Dslash4^2+C^2 | Source/target signs derived from M and Mdagger; test_actual_normal_operator_and_hamiltonian |
+| Finite fermionic Gaussian projects onto the occupied negative eigenspinor | Independent four-state canonical anticommutators, spectrum and exact projection residuals; test_independent_canonical_fock_quantization. First trace-check failure preserved and repaired before rerun |
+| Mass-anchored opposite-vacuum overlap is -z/sqrt(m^2+abs(z)^2) | Explicit frames and separate Fock route; test_exact_complex_vacuum_overlap, test_weyl_zero_is_not_a_discardable_modulus. Finite-mode identity, no infinite determinant theorem |
+| Normal boundary gamma5 Psi=sigma Psi has inward-decaying zero mode exactly when sigma*mu<0 | Explicit normal ODE, five-dimensional complementing symbol and Lorentzian flux; test_boundary_admission_is_for_normal_model, test_profile_sign_norm_and_finite_collar |
+| Declared balanced reference has end index -signature(C)/2 and opposite perturbative anomaly vector | Algebraic per-channel identity with actual coupled blocks and complete496 slots; test_balanced_reference_and_complete_spectrum, test_full_anomaly_not_just_a_color_number. Independent line reference compares net only |
+| Normalized boundary profile does not suppress a retained constant gauge mode | Exact kinetic-density cancellation and finite-collar tail; test_profile_sign_norm_and_finite_collar. Requires a finite-area global embedding; the auxiliary infinite inward half-line alone has no such gauge mode |
+| Horizontal Fourier projection is not pointwise local | Nonzero commutator with angular multiplication; test_horizontal_projection_does_not_supply_local_full_lift. Does not exclude every local extension of the supplied reference |
+
+19 native/8 reference/10 focused/324 regression pass at4605e1515.
+No shared law number. Outside analytic acceptance, full boundary lift,
+stable chiral families and the parameter-free SM/TOE remain unachieved.
+
 October8 gauge-cutoff conditional sublemmas. Same supplied curved E8
 parent, fixed complete domain, stationary finite-condensate background
 and parallel unbroken external fields; compact gauge variations admitted.
