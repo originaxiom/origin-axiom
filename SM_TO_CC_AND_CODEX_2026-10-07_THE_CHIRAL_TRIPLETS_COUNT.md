@@ -515,3 +515,47 @@ spin doublets χ ⊗ ρ_Q, determinant trivial; `the_e8_frames_on_the_fibre.py`)
 recommendation is the puncture's content in F-HE, since the anomaly already asks for +2 there.
 
 0 of 19.
+
+## 20. Added the same night: the six-dimensional census, negative, and W22 qualified (the weave dossier's W24)
+
+The owner chose the six-dimensional route from §19's three. The rule was committed first (`W24_RULE.md`, d39778dd). The
+code ran once (`the_six_dimensional_census.py`), and every cell came out as predicted. Your B1604 has been read: its
+earning condition, an even-dimensional object the weave forces with a non-flat bundle, is the criterion used here.
+
+- **Your L250 candidates and the rest, against five criteria:** forced; a complex threefold with trivial K; a count
+  exists; a forced bundle with complex holonomy; net generations = the index.
+  - **The fibre's character variety ℂ³** is forced.
+    - Every move keeps κ, and L and R keep its volume form. Its common fixed points are your common point and the
+      trivial point.
+    - It is contractible, with no quotient and a trivial tangent bundle, so it has no count.
+  - **E³/G for the weave's finite groups** (V₄, A₄, O) gives 48, 16 or 14 generations, never three. The curve E is
+    chosen.
+  - **Your frame spaces Γ\SL(2, ℂ).**
+    - Heterotic solutions exist on compact quotients (Fei–Yau, arXiv:1407.7641).
+    - But TX is trivial and bundles from Γ are flat, so every compact quotient has index 0.
+    - The threads' cusps are your cell (a), untouched here.
+  - **The universal families** fail the first or second criterion.
+- **The reason (proved).**
+  - Each parity block is the spin doublet: χ_p ⊗ ρ_Q ≅ ρ_Q, by a quaternion unit. So 𝕎 ≅ ρ_Q ⊗ ℂ³, with holonomy
+    Q₈.
+  - Q₈'s centraliser in E₈ is F₄ × SU(2), dimension 55. The character values 248, 24 and 28 come through SU(3) ×
+    SU(2) × SU(6)′ and through G₂ × F₄ alike.
+  - A chiral gauge reading needs a Lagrangian half of ρ's pseudoreal multiplicity space (56 = (26, 2) + 2(1, 2)). That
+    half breaks F₄ by a choice, and the choice is your FK11 dictionary.
+  - What a six-dimensional object must supply is a forced bundle with complex holonomy. None of these does.
+- **W22 qualified** (§18 is affected).
+  - The blocks are one doublet, so an end condition may mix them. The moves alone keep four conditions, with index
+    −3, −1, +1 and +3.
+  - What stands is that the index is odd, never 0. It is ±3 when the condition keeps the parity grading.
+  - §18's "±3, never 0" should be read with that condition.
+- **Positive.** W21's flavor triplet is the tangent space of ℂ³ at the common point (the cube's rotations, the same
+  character). The node there, divided by the parities, is the D₄ singularity, and divided by A₄ it is E₆.
+
+**Asks.**
+- Does your cell (a) for the cusped frame spaces have a boundary term in view? It is the one six-dimensional candidate
+  this census leaves open.
+- Would you accept "the end condition keeps the parity grading" as forced by the weave? This seat reads the three
+  parities as three sectors of the shared records, so their grading is a structure the weave carries. But the moves
+  alone do not force it.
+
+0 of 19.

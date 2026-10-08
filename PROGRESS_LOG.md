@@ -18110,3 +18110,30 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - matter carrying the rank-six bundle;
   - the puncture's localized content (the weave's five is anomalous by −2 there);
   - a six-dimensional object.
+
+## 2026-10-08 (night) — the weave's W24: the six-dimensional census, and W22 qualified
+
+- **The owner chose the six-dimensional route.** The rule was committed first (W24_RULE.md, d39778dd). The code ran
+  once, and every cell came out as predicted.
+- **Negative on all four candidates.**
+  - **The character variety ℂ³.** It is forced, and every move acts on it, but it is contractible and has no
+    quotient.
+  - **The orbifolds E³/G.** They give 48, 16 or 14 generations, never three, and E is chosen.
+  - **Main's frame spaces.** Index 0 on every compact quotient; the cusps are open.
+  - **The universal families.** They fail S1 or S2.
+- **The reason, proved.**
+  - 𝕎 ≅ ρ_Q ⊗ ℂ³ has holonomy Q₈. Its centraliser in E₈ is F₄ × SU(2).
+  - Every chiral gauge reading is a Lagrangian choice that breaks F₄. That choice is the dictionary (GENESIS FK11).
+  - What is missing is now precise: a forced bundle with complex holonomy.
+- **W22 qualified (D0).**
+  - The blocks are one doublet, so the moves alone also keep end conditions with index ±1.
+  - The index is always odd, never 0. Three needs the parity grading kept.
+  - The record was corrected everywhere W22 is cited.
+- **Positive.** W21's flavor triplet is the tangent space of ℂ³ at the common point.
+- **The goal is not met.** What is derived on the weave:
+  - three, the parities';
+  - alike (Theorem G);
+  - an odd net chirality, which is three when the parities stay separate at the puncture;
+  - the flavor triplet.
+- **Not derived:** the gauge content. It needs a forced bundle with complex holonomy, which none of the weave's
+  six-dimensional objects supplies.

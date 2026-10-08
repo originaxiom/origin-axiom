@@ -158,9 +158,19 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     its sign is the orientation. This supersedes the qualification just above.
   - One thread alone leaves a line, so a vector-like condition exists on a thread, but not on the weave (GENESIS
     GAP2).
+  - **Qualified by W24's D0.** The blocks are one doublet, so conditions may mix them. The moves alone keep four
+    (index −3, −1, +1, +3). The law that stands is that the index is odd, never 0. The value ±3 needs the condition to
+    keep the parity grading.
 - **The E₈ frames on the fibre (W23; a census).** With W22's condition, every SU(n) bundle built from the common point's
   blocks gives at most one chiral 27 (E₆), two 16s (SO(10)), or SU(5)'s (1, 3) or (2, 2). Three complete generations
   are impossible there. The weave's five reads (1, 3), anomalous by −2 (GENESIS FK11).
+- **The six-dimensional census (W24; the rule committed first; computed exactly, and D4 proved).**
+  - The fibre's character variety ℂ³ is the forced six-dimensional object: every move keeps κ, and L and R keep its
+    volume form. It is contractible, with no quotient, so it has no count.
+  - The weave's finite groups' orbifolds E³/G give 48, 16 or 14 generations, never three, with E chosen.
+  - The weave's local systems have quaternionic holonomy. 𝕎 ≅ ρ_Q ⊗ ℂ³, and the centraliser of Q₈ in E₈ is
+    F₄ × SU(2). So every chiral gauge reading is a choice that breaks F₄: the dictionary.
+  - W21's flavor triplet is the tangent space of ℂ³ at the common point.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

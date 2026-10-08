@@ -1,5 +1,34 @@
 # Changelog
 
+## The weave's W24: the six-dimensional census — no object the weave forces in dimension six gives three; and W22 qualified
+
+- **The owner's choice** (2026-10-08): search for a six-dimensional object the weave forces, where the heterotic
+  dictionary counts generations. The rule (W24_RULE.md, d39778dd) was committed first. The code ran once, and every
+  cell came out as predicted.
+- **The fibre's character variety ℂ³ is the forced six-dimensional object.**
+  - Every move keeps κ, and L and R keep its volume form. Its common fixed points are the common point and the trivial
+    point.
+  - But it is contractible, the moves give no quotient, and its tangent bundle is trivial. It has no count.
+- **The compact orbifolds E³/G** of the weave's finite groups give 48, 16 or 14 generations (V₄, A₄, O, with or
+  without discrete torsion). Never three, and the curve E is chosen.
+- **Main's frame spaces** have index 0 on every compact quotient; the cusps are open. The universal families fail.
+- **The reason (proved).**
+  - Each parity block is the spin doublet (χ_p ⊗ ρ_Q ≅ ρ_Q), so 𝕎 ≅ ρ_Q ⊗ ℂ³ with holonomy Q₈.
+  - Q₈'s centraliser in E₈ is F₄ × SU(2), dimension 55, by characters through two branchings.
+  - A chiral gauge reading needs a Lagrangian half of a pseudoreal multiplicity space. That half breaks F₄ by a
+    choice, and the choice is the dictionary (GENESIS FK11).
+- **What is positive.**
+  - W21's flavor triplet is the tangent space of ℂ³ at the common point.
+  - The node there, divided by the parities, is the D₄ singularity; divided by A₄, the E₆ singularity.
+- **W22 qualified (audit cell D0).**
+  - The blocks are one doublet, so an end condition may mix them. The moves alone keep four conditions, with index −3,
+    −1, +1 and +3.
+  - The index is always odd, never 0. It is ±3 when the condition keeps the parity grading.
+  - The qualification is recorded in every place W22 is cited.
+- **The goal is not met** by this route.
+- The dossier (W24, W22's qualification, a line in W23), the synthesis (rows 13 and 15, §4a), the laws page, a test,
+  the relay's §20 and the ledger are updated.
+
 ## The weave's W23: the record's E₈ frames on the weave's fibre give at most two complete generations
 
 - **The census** (every SU(n) bundle built from the common point's blocks, with W22's end condition):

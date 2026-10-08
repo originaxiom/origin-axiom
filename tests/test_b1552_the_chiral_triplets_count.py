@@ -361,3 +361,46 @@ def test_w23_the_e8_frames_on_the_fibre():
     assert set(d["SU(5) (10 with W, 5-bar with Lambda^2 W): (N(10), N(5-bar)) -> bundles"]) == {"(0, 0)", "(1, 3)", "(2, 2)"}
     assert d["the weave's five D + P (F-HE, W17): (N(10), N(5-bar))"] == [1, 3]
     assert d["SU(5) anomaly of the weave's five's bulk modes (N(10) - N(5-bar))"] == -2
+
+
+def test_w24_the_six_dimensional_census():
+    """W24 (the rule committed first): the character variety is forced but has no count; E^3/G gives 48, 16, 14, never
+    three; W = rho_Q (x) C^3 with Q8's centraliser in E8 of dimension 55 (F4 x SU(2)), by two branchings; W21's triplet
+    is the tangent space at the common point; and the audit of W22 (D0): the moves alone keep four end conditions, index
+    -3, -1, +1, +3 (odd, never 0), and with the parity grading only +-3. The gauge-side numbers are recomputed in process"""
+    import sys
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_six_dimensional_census.json").read_text(encoding="utf-8"))
+    A, B, D = d["A the character variety"], d["B the local model at the common point"], d["D the gauge side"]
+    assert A["A1 L and R preserve Omega = dx dy dz (Jacobian +1); P reverses it (-1)"]
+    assert all(v["equals the record's table"] and v["preserves kappa"] for v in A["A1 the moves on the character variety"].values())
+    assert A["A2 the points L and R both fix"] == [[0, 0, 0], [2, 2, 2]]
+    assert A["A3 their group: order"] == 24 and A["A3 the same triplet (W21's flavour triplet is the tangent space at the common point)"]
+    assert A["A4 Euler characteristic of the level sets (9 - nodes - 3)"] == {"generic": 6, "-2": 5, "2": 2}
+    assert A["A4 consistent (no contribution from infinity)"]
+    assert B["B1 on X_-2 each parity fixes only the common point"]
+    assert B["B2 signed permutations preserving kappa: order"] == 24 and B["B2 ... with determinant 1: order"] == 12
+    assert B["B2 ... the linear 3-cycle (x, y, z) -> (y, z, x)"]
+    assert [v[0] for v in B["B3 the lifts to SU(2) (order; Du Val type by McKay)"].values()] == [8, 24, 48]
+    b4 = B["B4 E^3 / G, any elliptic curve E"]
+    assert [b4[k]["chi_orb"] for k in b4] == ["96", "32", "28"]
+    assert [b4[k]["chi_orb with discrete torsion"] for k in b4] == ["-96", "-32", "-28"]
+    assert not B["B4 three among them"]
+    assert D["D0 commutant of the moves' lifts on the six local solutions"] == 2
+    assert D["D0 the conditions every move keeps and their indices"] == [-3, -1, 1, 3]
+    assert sorted(p["dimension"] for p in D["D0 the invariant pieces"]) == [2, 4]
+    assert not any(p["a sum of parity blocks"] for p in D["D0 the invariant pieces"])
+    assert D["D0 with the parity grading added: commutant"] == 1
+    assert D["D1 every parity block is the spin doublet (W = rho_Q (x) C^3)"]
+    assert D["D2 the two routes agree"] and D["D2 the centraliser's dimension (multiplicity of the trivial representation)"] == "55"
+    assert D["D3 multiplicity of rho"] == "56" and D["D3 multiplicity of each parity character"] == "27"
+    assert d["E the verdict"]["none passes"]
+    # recomputed in process: the audit's commutants
+    sys.path.insert(0, str(here))
+    import the_six_dimensional_census as SC
+    import the_common_point as CP
+    lifts = [SC.blocks_action(CP.AUT[m], g) for m in ("L", "R") for g in CP.extend(CP.AUT[m])]
+    assert SC.commutant(lifts, 6)[0] == 2
+    grading = [np.kron(np.diag([SC.chi_word(u, [gen]) for u in SC.CT.PAR]), np.eye(2)) for gen in (1, 2)]
+    assert SC.commutant(lifts + grading, 6)[0] == 1

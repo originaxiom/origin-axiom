@@ -123,8 +123,9 @@ So this section records which patterns the weave's group contains, and nothing m
 | 9⁗ | COMPUTED (W18, 32 states; a prediction failed at special classes) | on the forced cover, at the generic class, each of the three parity lines carries the five's pair (1, 1) on every carrier: three sectors selected by the weave's own characters, alike, cycled by the deck, the orbifold standard's shape. On every carrier exactly two classes of the gluing line drop it to (0, 1). The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 a class-index law: the sectors are a selection by forced characters, not counts |
 | 11 | COMPUTED (W20, exact; all 21 SL(2)s in E₆); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame on the weave itself: the moves' own SL(2) on the records, through E₆'s principal sl₂, counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 (h⁰ = 1, h¹ = 4, h² = 0), and 0 on every thread (B1604). Every distinguished sl₂ gives 3; ±3 on 13 of 21. Three routes agree; the count is the index of a non-flat bundle (the records' Hodge line), the form of FK11's condition. NOT chiral (an erratum): the 27 and 27̄ read alike, and the heterotic dictionary makes the matter vector-like. So an Euler characteristic of three, not three generations |
 | 12 | PROVED (two proofs) and COMPUTED (W21; the rule committed first, every control held before the read-out; the actual periods agree at three τ) | the hand by Hodge type, on the shared fibre at the common point: the holomorphic zero modes for the three parities, one each, span the weave's triplet T, irreducible and not equivalent to its conjugate; the antiholomorphic ones span T̄. T = μ ⊗ 3′, the holomorphic spin line times the cube's rotations at the common point. So the parities' three is chiral under the weave's group, with no end condition. It is NOT gauge-chiral (a qualification the same afternoon): the common point is self-conjugate, so matter in r and r̄ comes in equal numbers unless an end condition is chosen at the puncture (GENESIS GAP2). The flavor structure of three generations (the modular S₄ assignment), not their gauge chirality. The zero parity adds one singlet. The dictionary stays a reading (GENESIS FK11) |
-| 13 | PROVED and COMPUTED (W22, WEAVE) | the end condition at the puncture is the weave's: the moves' lifts generate 2O and act irreducibly on the two local solutions in every parity block, so the only conditions every move keeps give each block index +1 or −1. The parities' three is chiral (index ±3), its sign the orientation; the odd spin structure is the only one every move fixes. One thread alone leaves a line, so a vector-like condition exists there; on the weave it does not. GENESIS GAP2 closed for this operator up to the hand; row 12's qualification superseded. A six-dimensional chiral fermion carrying 𝕎 gives three chiral fermions, one per parity. Which fields carry 𝕎 is the dictionary: on the 2d fibre the E₈ frames give F-HE's (1, 3) or one 27, not complete generations (GENESIS FK11) |
+| 13 | PROVED and COMPUTED (W22, WEAVE) | the end condition at the puncture is the weave's: the moves' lifts generate 2O and act irreducibly on the two local solutions in every parity block, so the only conditions every move keeps give each block index +1 or −1. The parities' three is chiral (index ±3), its sign the orientation; the odd spin structure is the only one every move fixes. One thread alone leaves a line, so a vector-like condition exists there; on the weave it does not. GENESIS GAP2 closed for this operator up to the hand; row 12's qualification superseded. A six-dimensional chiral fermion carrying 𝕎 gives three chiral fermions, one per parity. Which fields carry 𝕎 is the dictionary: on the 2d fibre the E₈ frames give F-HE's (1, 3) or one 27, not complete generations (GENESIS FK11). QUALIFIED by W24's D0 (2026-10-08): the three blocks are one doublet (χ_p ⊗ ρ_Q ≅ ρ_Q), so conditions may mix them, and the moves alone keep four (index −3, −1, +1, +3). The index is always odd, never 0; it is ±3 when the condition keeps the parity grading (the flavor symmetry of 𝕎 ≅ ρ_Q ⊗ ℂ³) |
 | 14 | COMPUTED (W23, WEAVE; a census, negative) | the record's E₈ frames on the weave's fibre, with W22's condition, over every bundle built from the common point's blocks: E₆ gives at most one chiral 27, SO(10) at most two 16s, SU(5) (1, 3) or (2, 2). Three complete generations are impossible there, since each spin doublet has rank two. The weave's five reads (1, 3), anomalous by −2, so the puncture must carry anomaly +2. What three complete generations need: matter carrying the rank-six bundle, the puncture's localized content, or a six-dimensional object (GENESIS FK11) |
+| 15 | COMPUTED (W24, exact; the rule committed first, every cell as predicted) and PROVED (its D4); a WEAVE census, NEGATIVE | the six-dimensional search (the owner's choice): the fibre's character variety ℂ³ is forced (every move preserves κ; L and R keep the volume form) but contractible, with no quotient and a trivial tangent bundle, so it has no count; the compact orbifolds E³/G of the weave's finite groups give 48, 16 or 14 generations (V₄, A₄, O), never three, and E is chosen; main's frame spaces have index 0 on any compact quotient (the cusps open); the universal families fail. The reason: 𝕎 ≅ ρ_Q ⊗ ℂ³ has holonomy Q₈, whose centraliser in E₈ is F₄ × SU(2), so a chiral gauge reading needs a Lagrangian half of a pseudoreal multiplicity space: a choice that breaks F₄, which is the dictionary (GENESIS FK11). Positive: W21's flavor triplet is the tangent space of ℂ³ at the common point; the net chirality on the fibre is odd |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -292,12 +293,40 @@ taken from the weave. Every link is named with its status.
   - What stays open: which fields carry the parity-twisted spin bundle, that is, the dictionary. On the
     two-dimensional fibre the E₈ frames give F-HE's (1, 3) or one 27, so complete generations need a six-dimensional
     frame (GENESIS FK11).
+  - **Qualified by W24's audit (D0), 2026-10-08.**
+    - The three blocks are one doublet (χ_p ⊗ ρ_Q ≅ ρ_Q, by a quaternion unit), so an end condition may mix them.
+    - Under the moves' lifts the six local solutions split as 2 ⊕ 4. So the moves alone keep four conditions, with
+      index −3, −1, +1 and +3.
+    - The index is always odd, never 0.
+    - It is ±3 when the condition keeps the parity grading, which here is the flavor symmetry of 𝕎 ≅ ρ_Q ⊗ ℂ³.
   - **What stays a reading:**
     - the dictionary, that holomorphic zero modes on the internal fibre are the left-handed matter (GENESIS FK11,
       I-26);
     - the gauge content of each generation (one 27);
     - the zero parity's extra singlet;
     - the absolute hand, which is the records' orientation.
+- **W24: the six-dimensional census** (the owner's choice, 2026-10-08; the rule committed first, d39778dd).
+  - **The search.** For a six-dimensional object the weave forces, on which the heterotic dictionary counts
+    generations.
+  - **The fibre's character variety ℂ³** is forced. Every move acts on it, L and R keep its volume form, and its common
+    fixed points are the common point and the trivial point. But it is contractible, the moves give no quotient, and its
+    tangent bundle is trivial, so it has no count.
+  - **The compact orbifolds E³/G** of the weave's finite groups give 48, 16 or 14 generations (V₄, A₄, O), never three.
+    The curve E is chosen.
+    - The parities are the ℤ₂ × ℤ₂ whose three twisted sectors give one generation each in the free-fermionic models
+      (Faraggi, hep-ph/9311312).
+    - On E³ each sector has sixteen fixed tori, which symmetric shifts do not reduce (Donagi–Faraggi, hep-th/0403272).
+  - **Main's frame spaces** have index 0 on any compact quotient; their cusps are open. The universal families fail.
+  - **The reason (proved).**
+    - 𝕎 ≅ ρ_Q ⊗ ℂ³ has holonomy Q₈. Its centraliser in E₈ is F₄ × SU(2), dimension 55, by characters through two
+      branchings.
+    - A chiral gauge reading needs a Lagrangian half of a pseudoreal multiplicity space. That half breaks F₄ by a
+      choice, and the choice is the dictionary (GENESIS FK11).
+    - What a six-dimensional object must supply is a forced bundle with complex holonomy. None of the four does.
+  - **What is positive.**
+    - W21's flavor triplet is the tangent space of ℂ³ at the common point.
+    - The net chirality on the fibre is odd.
+    - The node at the common point, divided by the parities, is the D₄ singularity; divided by A₄, the E₆ singularity.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.
