@@ -1,5 +1,15 @@
 # Changelog
 
+## S95 THE WEAVE AT τ = ω (B1617, NEGATIVE as sealed) AND THE OWNER'S TAGGED POSTULATE τ = ω ON GENESIS v1.34: given τ = ω the residual symmetry (order 48; the inner automorphisms act as the parity signs at every τ) keeps the matter triplet irreducible — degenerate masses at ω, quasi-degenerate near it; weighted modular-form Yukawas are the owed cell
+
+**The occasion.** The weave's group fixes no flavour value (S90–S94), and the fibre's modulus τ is not forced. Asked how to proceed, the owner ruled in this session: τ = ω, a tagged working postulate (over keeping τ free or computing both orbifold points). B1617 computed what the choice leaves.
+
+**B1617 (NEGATIVE as sealed; sealed `da3027e03`).** U = L⁻¹ then R (H₁ matrix [[0, −1], [1, 1]]) fixes ω; the move matrices compose in reverse order. The residual group — U, the sign, conjugation by a and by b — has order 48 and preserves T; the inner automorphisms act on V as the parity characters. **T is irreducible under it** (the sealed split into three lines fails): the parity grading, an exact symmetry at every τ, with U's 3-cycle acts on T as A₄ on its triplet. So an ordinary vacuum at ω gives one Dirac coupling and three equal masses (the sealed three free couplings fail) and no Majorana mass. U's lift has order 12 on T with eigen-turns ¼, 7/12, 11/12.
+
+**What it says (GENESIS v1.34).** Given τ = ω, the masses are degenerate at the point and quasi-degenerate near it — not the observed hierarchy. The cell that decides whether τ = ω can give more is owed: Yukawas as modular forms of weight k sit at ω in U's eigenspaces at the automorphy phases, not the invariant line; the weight should come from W20/W21's Hodge-line powers. Relayed, with the ask for the zero modes' forms and weights.
+
+**What it means.** The tagged postulate is recorded and its first consequence computed: no hierarchy from weight-0 vacua. **The imported expectation, stated separately:** none (no data read). **0 of 19.** Arc **B1617** (NEGATIVE as sealed; a weave result; no law). Gates 44 of 44; full suite 7223 passed, 0 failed, 68 skipped.
+
 ## S94 THE NEUTRINO MASSES ON THE WEAVE (B1616, NEGATIVE as sealed) AND THE OWNER'S RULINGS ON GENESIS v1.33: TM1's own neutrino-side symmetry admits no Majorana vacuum and every other residual vacuum gives a degenerate spectrum the oscillation splittings exclude — the weave's group fixes no flavour value; the owner's four rulings of 2026-10-08, relayed by the SM seat, recorded
 
 **The occasion.** B1615 left the Majorana case owed and found a sum rule in the Dirac sector along RRL, TM1's neutrino-side symmetry. The owner asked for a report mid-landing. The SM seat relayed the owner's rulings on four forks (§37) and asked main to record them in GENESIS; its W36 and W37 (main's S92 reproduced) arrived the same evening.

@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1345** |
-| words of findings prose | **1,051,173** |
-| test lock files referenced | **789** |
-| arcs carrying an authored verdict | **1345** (100.0 %) |
-| recorded closures | **813** (646 classified, 167 routed-only) |
+| research arcs with findings | **1346** |
+| words of findings prose | **1,051,815** |
+| test lock files referenced | **790** |
+| arcs carrying an authored verdict | **1346** (100.0 %) |
+| recorded closures | **814** (647 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 906 |
-| NEGATIVE | 337 |
+| NEGATIVE | 338 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 83 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 84 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE OBSERVER LAYER ON THE WEAVE (sealed c04b1acb2; the owner's 'bank and run the awareness arc'): the observer layer computed on m004 (B752-B1184), re-posed on the weave. A1: the moves' joint fixed points are the trivial character (reducible) and the common point (irreducible) -- the weave's self-name. A2: at the common point the adjoint (the geometry) is wholly visible at the puncture (H1 = 3, injective), the parity lines too, while the doublet and the three matter blocks carrying the three are wholly private (H1 = 2 each, the puncture's cohomology zero since it acts as -1) -- 'no private states' splits along local systems. A3: the rule fixes the common point, normalises the moves and reverses W21's form, so it swaps the sheets and the weave cannot sign itself (B1327). A4: the sheet = det = CP-oddness, the McKay sign another: two odd classes on the weave, not m004's one. A5 (a reading's cell): chi_T(L) = e^{-i pi/4}, chi_T(R) = e^{+i pi/4}, chi_T(LR) = 0, the puncture's holonomy -1 (even). 0 of 19.  
 `B1614_the_observer_layer_on_the_weave/FINDINGS.md`
 
-**NEGATIVE — `B1616`** (583 words, 1 locks)  
-THE NEUTRINO MASSES ON THE WEAVE (sealed 08b7f328f), NEGATIVE as sealed: a Majorana mass for the weave's triplet lives in Sym^2 T = 1 + 2 + 3 (no invariant); along RRL, TM1's neutrino-side symmetry, no irreducible has a fixed vacuum; along RL, L, R the spectra are rigid with exact degeneracies ((1,1,1), (1/2,1/2,1), (0,1,1)), each excluded by the two measured, non-zero splittings -- the residual-vacuum reading of the neutrino masses dies on oscillation data; the solver's Sigma m (0.115 / 0.100 eV) imposed the sum rule alone and is not a prediction; the cosmological comparison void. With B1611, B1612, B1615 the weave's group fixes no flavour value. GENESIS v1.33 also records the owner's four rulings of 2026-10-08 as relayed. 0 of 19.  
-`B1616_the_neutrino_masses_on_the_weave/FINDINGS.md`
+**NEGATIVE — `B1617`** (642 words, 1 locks)  
+THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19.  
+`B1617_the_weave_at_tau_omega/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

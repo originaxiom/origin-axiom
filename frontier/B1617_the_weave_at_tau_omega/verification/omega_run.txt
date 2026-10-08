@@ -1,0 +1,104 @@
+{
+ "Z0": {
+  "H1_of_L_after_R": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "H1_L_times_H1_R": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "move_matrix_of_L_after_R_equals_ML_MR": false,
+  "move_matrix_of_L_after_R_equals_MR_ML": true,
+  "U_word": "lR",
+  "U_images": {
+   "a": "b",
+   "b": "Ab"
+  },
+  "U_fixes_omega": {
+   "action_by_matrix": true,
+   "by_transpose": false,
+   "by_inverse": true
+  }
+ },
+ "Z1_lifts_found": {
+  "U": true,
+  "iota": true,
+  "inn_a": true,
+  "inn_b": true
+ },
+ "Z1": {
+  "order": 48,
+  "preserves_T": true,
+  "inner_a_on_V_diagonal_signs": [
+   -1.0,
+   -1.0,
+   1.0,
+   1.0,
+   -1.0,
+   -1.0
+  ],
+  "inner_b_on_V_diagonal_signs": [
+   1.0,
+   1.0,
+   -1.0,
+   -1.0,
+   -1.0,
+   -1.0
+  ]
+ },
+ "Z2": {
+  "T_commutant_under_residual": 1,
+  "pieces": [
+   {
+    "dim": 3,
+    "chi_U": [
+     0.0,
+     -0.0
+    ]
+   }
+  ]
+ },
+ "Z4": {
+  "U_eigen_turns_on_T": [
+   0.25,
+   0.583333,
+   0.916667
+  ],
+  "U_order_on_T": 12,
+  "charge_differences_turns": [
+   0.333333,
+   0.333334,
+   0.666666,
+   0.666667
+  ]
+ },
+ "Z3": {
+  "Dirac T-bar(x)T": {
+   "fixed_dim": 1,
+   "free_couplings": 1,
+   "sample_spectra_m1_m3_m2_m3": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "distinct_spectra_sampled": 1
+  },
+  "Majorana Sym2 T": {
+   "fixed_dim": 0
+  }
+ }
+}

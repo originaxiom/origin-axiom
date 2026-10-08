@@ -203,3 +203,11 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   group fixes no neutrino mass**; with B1611, B1612, B1615, no flavour value at all.
 - **The owner's rulings of 2026-10-08** (relayed by the SM seat, recorded on GENESIS v1.33): even ticks observed (GM5c);
   Λ a tagged working postulate, results "given Λ" (FK11); flat counts only (FK10); positivity kept (GM5d).
+
+## Main's addition: the weave at τ = ω (B1617, NEGATIVE as sealed; the owner's tagged postulate, GENESIS v1.34)
+
+- **The owner ruled (2026-10-08): τ = ω is a tagged working postulate** — results "given τ = ω", the choice formally open.
+- At ω the residual symmetry — U (fixing ω), the sign, and the inner automorphisms, which act on the matter as the parity
+  signs at every τ — has order 48 and keeps T irreducible: an ordinary vacuum gives three equal masses, no Majorana mass;
+  near ω the degeneracy splits by powers of ε (U's charges on T: ¼, 7/12, 11/12 of a turn) — quasi-degenerate, not the
+  observed hierarchy. **Owed:** Yukawa couplings as weighted modular forms (U's eigenspaces at the automorphy phases).

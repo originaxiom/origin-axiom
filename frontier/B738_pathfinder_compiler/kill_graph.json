@@ -11356,5 +11356,29 @@
    "hypotheses": "given Lambda; vacuum alignment a selection"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1617",
+  "claim_killed": "That given tau = omega the residual symmetry splits the matter triplet into three lines and leaves three free Dirac couplings (the sealed Z2, Z3).",
+  "kill_form": "Sealed (da3027e03): the residual group at omega (U, the sign, conjugation by a and b) has order 48 and keeps T irreducible; one invariant Dirac direction (three equal masses), no Majorana term.",
+  "hatch": "Yukawa couplings as modular forms of weight k: at omega they lie in U's eigenspaces at the automorphy phases, not the invariant line (the weight from W20/W21's Hodge-line powers); a vacuum near omega with the weight-dependent residual charges",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-08), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: at omega the masses are degenerate for weight-0 vacua; hierarchy, if any, must come from weighted forms or from the deformation epsilon.",
+  "faces_consulted": [
+   "B1616",
+   "B1615",
+   "B1612",
+   "B1611",
+   "B1601"
+  ],
+  "fact_computed": "the residual group's order (48), T irreducible under it, the inner automorphisms as parity signs, U's eigen-turns on T (1/4, 7/12, 11/12)",
+  "scope": {
+   "frame": "given tau = omega; weight-0 vacua",
+   "object": "the residual group on V",
+   "reach": "general",
+   "hypotheses": "given tau = omega; given Lambda"
+  },
+  "weave_or_thread": "weave"
  }
 ]

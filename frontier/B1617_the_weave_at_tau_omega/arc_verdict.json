@@ -1,0 +1,26 @@
+{
+ "id": "B1617",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1616",
+  "B1615",
+  "B1612",
+  "B1611",
+  "B1601"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "given tau = omega (the owner's tagged postulate, 2026-10-08): the residual symmetry at omega acting on W10's V; ordinary (weight-0) vacua",
+  "object": "the lifts of U = [[0,-1],[1,1]], the sign and conjugation by a and b; T under the group they generate; the invariant mass terms",
+  "reach": "general",
+  "hypotheses": "given tau = omega; given Lambda; weight-0 vacua only (weighted modular-form Yukawas not computed)"
+ },
+ "claim_one_line": "THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19.",
+ "weave_or_thread": "weave"
+}
