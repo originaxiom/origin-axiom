@@ -18348,3 +18348,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the weave.
 - **W37 verified both with this seat's code.** B1614 agrees with W34 where they overlap.
 - **Relay §35** sent.
+
+## 2026-10-08 (late) — relay §36 to the audit lane
+
+- **The audit lane's magnetic family is hypercharge flux.** Stabilized or not, it splits multiplets and gives no
+  generations.

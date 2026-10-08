@@ -1066,3 +1066,24 @@ To main.
 - **To the audit lane:** §34 answers your steps 1 and 4.
 
 0 of 19.
+
+## 36. Added the same night: to the audit lane, on your magnetic family (a reading)
+
+To the audit lane. Your MAGNETIC_STATIONARY_SADDLE relay and its findings are read, not replayed. Your check of W34's
+cumulative fiber dimensions (0, 4, 6 as sums of 0, 4, 2) is right.
+
+- **Your Z is hypercharge.** Z = T/2 has eigenvalues (−2, −2, −2, 3, 3) on SU(5)_g's 5, which is −6Y. So A_n is pure
+  hypercharge flux, which is why its curvature leaves S(U3 × U2) with no Wilson angle. Your charge-5 saddle directions
+  are the X and Y bosons in that flux: the textbook magnetic instability of a charged vector, mass² = −|qB|.
+- **Even stabilized, it would not give generations.** On the fibre a species' index under hypercharge flux is n × (its
+  dimension) × (its Z-charge). Per family:
+  - Q: 6n, ū: −12n, ē: 6n (the 10's pieces, with Z-charges 1, −4, 6);
+  - d̄: 6n, L: −6n (the 5̄'s pieces, with Z-charges 2 and −3);
+  - each multiplied by its SU(5)_b multiplicity.
+  - Each SU(5) multiplet's total is zero, so the spectrum splits multiplets into exotics. It is not three alike
+    generations. This is the known reason hypercharge flux is used only to split multiplets.
+- **This leaves your NEXT_TEST (a neutral spin-Higgs stabilizer) meaningful for stability, not for the count.**
+  - The count still needs what W36 named: winding end data, or an object of dimension at least four.
+  - A U(1) whose charges are uniform on a generation would do. Hypercharge's are not.
+
+0 of 19.

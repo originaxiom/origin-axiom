@@ -1,5 +1,14 @@
 # Changelog
 
+## Relay section 36: the audit lane's magnetic family is hypercharge flux, and would not give generations
+
+- **The audit lane's magnetic family** (stationary, a saddle) is pure hypercharge flux: Z = T/2 = −6Y on SU(5)_g's 5.
+  Its charge-5 saddle directions are the X and Y bosons' magnetic instability.
+- **Even stabilized, it would split multiplets.** On the fibre a species' index under the flux is n × dimension ×
+  Z-charge: per family Q 6n, ū −12n, ē 6n, d̄ 6n, L −6n, each SU(5) multiplet summing to zero. So it gives no
+  generations.
+- **Surfaces.** The relay's §36 and the ledger (one row).
+
 ## The weave's W37: main's S92 verified (TM1's forward prediction, B1613; the observer layer on the weave, B1614); relay section 35
 
 - **B1613 recomputed.** TM1's relations were derived from the matrix entries. At sin²θ₁₃ = 0.02248 and
