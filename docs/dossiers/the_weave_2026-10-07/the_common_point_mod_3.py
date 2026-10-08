@@ -28,6 +28,7 @@ The words: every primitive word in L and R with both letters to length 8, up to 
     python3 the_common_point_mod_3.py   ->  the_common_point_mod_3.json beside it
 """
 import json
+import os
 import sys
 import time
 from math import gcd
@@ -114,10 +115,14 @@ def seed(word, A, B):
     return best[1]
 
 
-def exact(word, vals, mix=(2, 3)):
+def exact(word, vals, mix=(2, 3), by_factor=False):
     """K = Q(theta), theta = x + 2y + 3z, in the PARI variable t; x, y, z in the power basis of theta (lindep), then
     checked EXACTLY in K: the Fricke fixed-point equations T_w(v) = v and the cusp condition x^2 + y^2 + z^2 = xyz. The
-    ideal (x, y, z) of O_K: its norm, its prime factors, and the valuations of x, y and z at each."""
+    ideal (x, y, z) of O_K: its norm, its prime factors, and the valuations of x, y and z at each.
+
+    The minimal polynomial is found degree by degree (algdep, required to agree at two precisions), or, with by_factor,
+    by one algdep at degree 64 whose irreducible factor vanishing at theta is taken; either way the exact check in K
+    is the certificate."""
     pari.set_real_precision(DPS)
     assert int(pari.default("realprecision")) >= DPS
 
@@ -130,38 +135,61 @@ def exact(word, vals, mix=(2, 3)):
     xs = [to_pari(c) for c in vals]
     tiny = pari("1E-%d" % (DPS // 2))                     # compared in PARI: a Python float would underflow
     P = coords = None
-    tried = 0
-    pari.set_real_precision(DPS // 2)
-    th_lo = to_pari(x + mix[0] * y + mix[1] * z)                # the same number at half the precision
-    pari.set_real_precision(DPS)
-    for d in range(1, 61):
-        try:
-            cand = pari.algdep(th, d)
-            cand_lo = pari.algdep(th_lo, d)
-        except Exception:                     # PARI refuses degree one for a non-real number
-            continue
-        # the true minimal polynomial is found alike at both precisions; a spurious relation is not
-        if cand != cand_lo and cand != -cand_lo:
-            continue
-        if not (pari.poldegree(cand) == d and pari.polisirreducible(cand) and pari.abs(pari.subst(cand, "x", th)) < tiny):
-            continue
-        # below the true degree LLL also returns relations with huge coefficients that pass the residual test; a
-        # candidate is accepted only when x, y, z expressed in its field satisfy the Fricke equations EXACTLY
-        tried += 1
+
+    def certify(cand, d):
+        """x, y, z in the power basis of theta (lindep) and the exact Fricke check in K, or None"""
         Pt = pari.subst(cand, "x", pari("t"))
         cs = []
         for c in xs:
             vec = pari.lindep([c] + [th ** k for k in range(d)])
             if vec[0] == 0:
-                break
+                return None
             cs.append(pari.Mod(sum(-vec[k + 1] / vec[0] * pari("t") ** k for k in range(d)), Pt))
-        if len(cs) < 3:
-            continue
         image = fricke(word, cs)
         cx, cy, cz = cs
         if all(image[i] == cs[i] for i in range(3)) and cx ** 2 + cy ** 2 + cz ** 2 - cx * cy * cz == 0:
-            P, coords = cand, cs
-            break
+            return cs
+        return None
+
+    if by_factor:
+        cand = pari.algdep(th, 64)
+        fa = pari.factor(cand)
+        best = None
+        for i in range(int(pari.matsize(fa)[0])):
+            f = fa[i, 0]
+            if pari.poldegree(f) < 1:
+                continue
+            r = pari.abs(pari.subst(f, "x", th))
+            if best is None or r < best[0]:
+                best = (r, f)
+        f = best[1] if pari.pollead(best[1]) > 0 else -best[1]
+        d = int(pari.poldegree(f))
+        if pari.polisirreducible(f) and best[0] < tiny:
+            cs = certify(f, d)
+            if cs is not None:
+                P, coords = f, cs
+    else:
+        pari.set_real_precision(DPS // 2)
+        th_lo = to_pari(x + mix[0] * y + mix[1] * z)            # the same number at half the precision
+        pari.set_real_precision(DPS)
+        for d in range(1, 61):
+            try:
+                cand = pari.algdep(th, d)
+                cand_lo = pari.algdep(th_lo, d)
+            except Exception:                 # PARI refuses degree one for a non-real number
+                continue
+            # the true minimal polynomial is found alike at both precisions; a spurious relation is not
+            if cand != cand_lo and cand != -cand_lo:
+                continue
+            if not (pari.poldegree(cand) == d and pari.polisirreducible(cand)
+                    and pari.abs(pari.subst(cand, "x", th)) < tiny):
+                continue
+            # below the true degree LLL also returns relations with huge coefficients that pass the residual test;
+            # a candidate is accepted only when x, y, z expressed in its field satisfy the Fricke equations EXACTLY
+            cs = certify(cand, d)
+            if cs is not None:
+                P, coords = cand, cs
+                break
     assert P is not None, "no minimal polynomial found"
     d = int(pari.poldegree(P))
     Pt = pari.subst(P, "x", pari("t"))
@@ -211,19 +239,28 @@ def one(w):
     info, dps0 = None, DPS
     # theta = x + a y + b z is tried first at the working precision; a field of high degree whose theta is far
     # from monogenic needs more, and a theta in a proper subfield needs another combination
-    for prec, mix in ((dps0, (2, 3)), (2 * dps0, (2, 3)), (2 * dps0, (3, 7)), (4 * dps0, (2, 3)), (4 * dps0, (5, 11))):
+    # after the first attempt the minimal polynomial is found as the factor at theta of one degree-64 relation, at
+    # rising precision (a field of degree 38 has a theta whose minimal polynomial needs more digits than a
+    # half-precision filter has); another theta is tried last
+    for prec, mix, by_factor in ((dps0, (2, 3), False), (2 * dps0, (2, 3), True), (4 * dps0, (2, 3), True),
+                                 (8 * dps0, (2, 3), True), (4 * dps0, (3, 7), True), (8 * dps0, (5, 11), True)):
         if prec != DPS:
             DPS = prec
             mp.mp.dps = DPS
             vals, res, res3 = polish(w, vals)
         try:
-            info = exact(w, vals, mix)
+            info = exact(w, vals, mix, by_factor)
             info["precision used (digits)"] = DPS
+            info["minimal polynomial found by"] = "one degree-64 relation, factored" if by_factor else "degree by degree"
             break
         except AssertionError:
             pass
     DPS = dps0
-    assert info is not None, ("no primitive element found", w)
+    if info is None:
+        mp.mp.dps = 60
+        return {"word": w, "trace": tr, "odd trace": tr % 2 == 1, "failed": "no primitive element found",
+                "main's law holds": False, "seconds": round(time.time() - t0, 1), "prime factors": [],
+                "degree of K": None, "norm of (x, y, z)": None}
     mp.mp.dps = 60
     odd = tr % 2 == 1
     ps = info["prime factors"]
@@ -239,15 +276,28 @@ def run():
     from multiprocessing import Pool
     words = [w for w in WL.states(8)]
     order = sorted(words, key=lambda w: -abs(int(CP.mat(w, 1).trace())))     # the long fields first
+    # a long run may resume from a cache of finished rows (one JSON line each), named by the environment variable
+    # B1601_CACHE; every row in the record is produced by this code
+    cache = os.environ.get("B1601_CACHE")
     done = {}
+    if cache and Path(cache).exists():
+        for ln in Path(cache).read_text(encoding="utf-8").splitlines():
+            r = json.loads(ln)
+            if not r.get("failed"):
+                done[r["word"]] = r
+    todo = [w for w in order if w not in done]
     with Pool(4) as pool:
-        for row in pool.imap_unordered(one, order, chunksize=1):
+        for row in pool.imap_unordered(one, todo, chunksize=1):
             done[row["word"]] = row
+            if cache:
+                with open(cache, "a", encoding="utf-8") as fh:
+                    fh.write(json.dumps(row, ensure_ascii=False) + "\n")
             print(row["word"], row["trace"], row["degree of K"], row["norm of (x, y, z)"],
                   [(q["p"], q["residue degree"], q["exponent"]) for q in row["prime factors"]], row["main's law holds"],
                   row["seconds"], flush=True)
     rows = [done[w] for w in words]
     return {"precision (digits)": DPS, "words": len(rows), "rows": rows,
+            "failed": [r["word"] for r in rows if r.get("failed")],
             "main's law holds on every word": all(r["main's law holds"] for r in rows),
             "odd-trace words": sum(r["odd trace"] for r in rows), "even-trace words": sum(not r["odd trace"] for r in rows)}
 
