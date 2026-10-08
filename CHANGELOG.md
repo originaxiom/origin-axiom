@@ -1,5 +1,41 @@
 # Changelog
 
+## The weave's W16–W19: main's B1604 verified and B1601 on this seat's code; the weave's five on the thread (one generation's pair, a class-index law) and on each parity line (a prediction that failed at special classes); and the weave's own surface, the even-dimensional object main's FK11 asks for
+
+- **W16 (B1604 VERIFIED; B1601 in progress).**
+  - **Main's B1601, by an independent route.** Route F's point is polished at 1 200 digits. The field and the
+    coordinates are checked exactly in K. The ideal is read at the primes of the norm gcd, where the order is made
+    maximal.
+    - A first pass agreed with main's census on 26 of 37 geometries before PARI's full maximal order stalled.
+    - The full run is in progress; its record follows in the next commit.
+  - **Main's B1604 (T-NO-INDEX-IN-THREE).** The proof is re-derived. Its control E1 is the B1297 identity that
+    sm:B1374's engine asserts at every index, so every reading of W13–W18 passed it.
+  - **B1602's third carrier** was withdrawn by main.
+- **W17 (COMPUTED, 32 of 32 states, 480 readings).** On the thread itself the weave's SU(5)′ five reads (1, 1) on the
+  vector-like twin of every carrier, (0, 1) on the chiral twin, and nothing on the mod-16 words.
+  - The five is the spin doublet at ν³ and the parity triplet at ν⁻², glued by a weave class.
+  - Under B1604 this is a class-index law, not a count.
+- **W18 (prediction committed first, b5223cbb; it failed at special classes).** On the forced cover, at the generic
+  class, each of the three parity lines carries the five's pair (1, 1) on every carrier: the orbifold standard's shape,
+  with forced characters.
+  - On every carrier exactly two classes of the gluing line read (0, 1) instead (post hoc, 14 of 14, two
+    primes); the engine's basis met one of them on four carriers.
+  - The zero parity's part, (1, 3), and the cover's total, (4, 6), do not have the shape.
+  - Two routes agree: Shapiro at tick 1, and the direct read at tick 3.
+- **W19 (READING; the facts classical).** The weave's own surface.
+  - The moves, with the fibre's group, generate Aut⁺(F₂), and every thread's group embeds in it. Its space is M₁,₂,
+    the universal punctured elliptic curve: every thread at once.
+  - Its Euler characteristic is 1/12, not 0.
+  - The three parities are the elliptic involution's fixed points off the puncture: one curve of degree 3.
+  - It is the even-dimensional object that main's FK11 condition asks for. No bundle is named, and no count is read.
+- **The goal (three generations derived) is not met.**
+  - On threads and their covers the dictionary is unearnable (B1604, verified).
+  - The three are the weave's: forced, alike and separate. At the generic class each parity line carries one
+    generation's pair, which is a selection by forced characters.
+  - The route left is a non-flat bundle on the weave's surface, named by principle (owner and main), together with
+    GENESIS FK7.
+- **Also.** The relay's §10; the relay-ledger rows for main's S84; the laws page, the synthesis and the dossier.
+
 ## The weave's W15: the hand is a theorem (the determinant of the weave's triplet), the weave's own extensions carry index one per parity with a mod-16 law, and main's conditions for the dictionary read on the weave's modules (two of three met)
 
 - **Theorem H (PROVED for every odd-trace word).**

@@ -119,6 +119,8 @@ So this section records which patterns the weave's group contains, and nothing m
 | 9 | NEGATIVE (sm:B1552, sealed); PROVED (W11, WEAVE + WAVE) | F-HE's count at the weave's spin vacuum is zero at every class on every thread at every tick; W10's three carry no generation in this frame |
 | 9′ | PROVED (W12, WEAVE + WAVE) | the joined vacuum λ ⊗ ρ_hyp ⊗ ρ_Q has no interior class (Menal-Ferrer–Porti through Shapiro), so F-HE reads nothing there either. In F-HE a generation's content is a thread's: the balanced four's cuspidal classes on covers |
 | 9″ | PROVED (Theorem H; the extension formula); COMPUTED (W15) | the hand is the determinant of the weave's triplet, mirror-odd. The weave's own extensions carry index one per parity, three or nothing, with the mod-16 law deciding which threads carry (32 of 32 to length 8). Against main's conditions for the dictionary: the module and count, and a chirality handle other than the index, are met; the shape identity is not built into the class index (the weave's five reads (−1, −3)) |
+| 9‴ | COMPUTED (W17, 32 of 32 to length 8) | on the thread itself the weave's SU(5)′ five (D ν³ ⊕ P ν⁻², glued by a weave class; the hypercharge ratio forced by the determinant) reads F-HE's generation shape (1, 1), dual (−1, −1), on the vector-like twin of every word with φ³ ≢ ±I (mod 16), a lone 5̄ on the chiral twin, nothing on the mod-16 words: one generation per thread, with the parities as the five's triplet. By main's B1604 (verified, W16) a class-index law, not a count |
+| 9⁗ | COMPUTED (W18, 32 states; a prediction failed at special classes) | on the forced cover, at the generic class, each of the three parity lines carries the five's pair (1, 1) on every carrier: three sectors selected by the weave's own characters, alike, cycled by the deck, the orbifold standard's shape. On every carrier exactly two classes of the gluing line drop it to (0, 1). The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 a class-index law: the sectors are a selection by forced characters, not counts |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -176,6 +178,24 @@ taken from the weave. Every link is named with its status.
     (link b), unbroken by the weave's vacuum. The shape identity then holds by group theory, and a thread with
     φ³ ≢ ±I (mod 16) carries three generations of 27, one per parity, with Theorem H's hand. It is a dictionary
     (FK11), not derived.
+- **W17 turns the second condition.**
+  - On the thread itself, the weave's natural five reads F-HE's generation shape on every reading of every
+    vector-like carrier thread: the spin doublet and the parity triplet, with the hypercharge ratio that SU(5)′'s
+    determinant forces.
+  - So all three of main's conditions have answers on the weave's modules, in F-HE's dictionary.
+  - **What changes:** the count is one generation per thread, and the parities are the five's triplet. Three
+    generations then needs the three deck-related vacua kept as three sectors (main's orbifold standard; GENESIS FK7).
+- **Main's B1604 closes this frame as a derivation** (verified here, the weave dossier's W16).
+  - On a thread, or on any finite cover of one, every twisted Euler characteristic vanishes. The class index is
+    therefore an interior rank in degree one minus one in degree two, governed by no characteristic class.
+  - So W15's and W17's pairs are laws of the class index, not counts. GENESIS FK11 is unearnable on threads and
+    their covers (main's v1.27).
+  - Main names what would earn it: an even-dimensional object the weave forces, carrying a non-flat bundle whose
+    index is the count; or the orbifold standard read as what it is, a sector selected by a character.
+- **W18 reads that selection on the weave's own five** (prediction committed first; it failed at special classes).
+  - At the generic class each of the three parity lines carries (1, 1) on every carrier: the orbifold standard's shape, with the characters forced rather than chosen.
+  - On every carrier exactly two classes of the gluing line drop it to (0, 1), so it is a law away from two classes.
+  - The zero parity's part, (1, 3), and the forced cover's total, (4, 6), do not have the shape.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

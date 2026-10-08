@@ -1,0 +1,7557 @@
+{
+ "prime": 20089,
+ "+LR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "-LR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "+LLLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "-LLLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "+LLLLLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "-LLLLLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "+LLLRLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "-LLLRLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "+LLLRRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "-LLLRRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "+LLRLRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  }
+ ],
+ "-LLRLRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  }
+ ],
+ "+LLLLLLLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "-LLLLLLLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "+LLLLLRLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "-LLLLLRLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "+LLLLLRRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  }
+ ],
+ "-LLLLLRRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    0,
+    0
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    0
+   ]
+  }
+ ],
+ "+LLLLRLRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "-LLLLRLRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "+LLLLRRLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "-LLLLRRLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "+LLLRLLRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "-LLLRLLRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "+LLLRLRRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "-LLLRLRRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "+LLLRRLLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "-LLLRRLLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "+LLRLLRLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "-LLRLLRLR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "+LLRLRLRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 0,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 8,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 16,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 4,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 12,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "basis 1",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 20,
+   "h1 of the gluing module": 2,
+   "class": "generic",
+   "W: (I(W), I(L2 W))": [
+    1,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    -1,
+    -1
+   ]
+  }
+ ],
+ "-LLRLRLRR": [
+  {
+   "lift": 0,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 0,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 2,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 6,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 10,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 14,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 18,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  },
+  {
+   "lift": 1,
+   "nu (24ths)": 22,
+   "h1 of the gluing module": 1,
+   "class": "basis 0",
+   "W: (I(W), I(L2 W))": [
+    0,
+    1
+   ],
+   "W*: (I, I(L2))": [
+    0,
+    -1
+   ]
+  }
+ ],
+ "summary": {
+  "+LR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 0.9
+  },
+  "-LR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 0.6
+  },
+  "+LLLR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 0.9
+  },
+  "-LLLR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 1.0
+  },
+  "+LLLLLR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 1.5
+  },
+  "-LLLLLR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 0.8
+  },
+  "+LLLRLR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 1.6
+  },
+  "-LLLRLR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 1.5
+  },
+  "+LLLRRR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 1.7
+  },
+  "-LLLRRR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 0.9
+  },
+  "+LLRLRR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     0,
+     0
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     0
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 2.3
+  },
+  "-LLRLRR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     0
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     0
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 1.2
+  },
+  "+LLLLLLLR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 1.2
+  },
+  "-LLLLLLLR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 1.3
+  },
+  "+LLLLLRLR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 2.9
+  },
+  "-LLLLLRLR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 1.4
+  },
+  "+LLLLLRRR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     0
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     0
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 1.6
+  },
+  "-LLLLLRRR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     0,
+     0
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     0
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 1.5
+  },
+  "+LLLLRLRR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 2.3
+  },
+  "-LLLLRLRR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 2.1
+  },
+  "+LLLLRRLR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 2.5
+  },
+  "-LLLLRRLR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 2.2
+  },
+  "+LLLRLLRR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 2.6
+  },
+  "-LLLRLLRR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 2.4
+  },
+  "+LLLRLRRR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 3.1
+  },
+  "-LLLRLRRR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 1.4
+  },
+  "+LLLRRLLR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 3.1
+  },
+  "-LLLRRLLR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 2.7
+  },
+  "+LLRLLRLR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 3.6
+  },
+  "-LLRLLRLR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 3.2
+  },
+  "+LLRLRLRR": {
+   "readings": 18,
+   "pairs for W": [
+    [
+     1,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     -1,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20
+   ],
+   "seconds": 4.8
+  },
+  "-LLRLRLRR": {
+   "readings": 12,
+   "pairs for W": [
+    [
+     0,
+     1
+    ]
+   ],
+   "pairs for W*": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "nus (24ths)": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+   ],
+   "seconds": 2.1
+  }
+ }
+}

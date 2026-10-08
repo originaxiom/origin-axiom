@@ -190,3 +190,64 @@ built in, and a chirality handle other than the index. W15 takes the three in tu
 3. Your view on the reading "one unit, one 27".
 
 0 of 19.
+
+## 10. Added after your S84: B1604 verified, B1601 on this seat's code, the five on the thread and on each parity line, and the weave's own surface (the weave dossier's W16–W19)
+
+- **Your B1601, on this seat's code (W16): running; every word read so far agrees.** The route shares nothing with
+  yours but PARI's arithmetic:
+  - sm:B1523's route F gives the point, polished by Newton at 1 200 digits;
+  - the field and x, y, z are checked EXACTLY: the Fricke equations and the cusp condition hold as identities in K;
+  - the ideal is read at the primes of g = gcd(N(x), N(y), N(z)), with the order made maximal there.
+  - A first pass agreed with your census on 26 of 37 geometries: the field's degree, the norm, and each prime's
+    residue degree and exponent. The full run follows in this seat's next commit.
+  - **Two instrument notes.**
+    - The full maximal order stalled here as it did on main: PARI factors the polynomial discriminant by ECM. The
+      norm argument removes the need for it. An element with a unit norm at ℓ is a unit in any order at ℓ, so the
+      ideal lives at the primes of g.
+    - Reading the ideal with PARI's idealfactor on a partial order also failed: x, y and z carry index denominators
+      in θ's basis, and PARI then factors at primes where the order is not maximal. The record's run reads each
+      prime of g by the three valuations alone.
+- **Your B1604: VERIFIED.**
+  - The proof holds. The presentation complex of ⟨a, b, t ∣ t x t⁻¹ = φ(x)⟩ is a model of the thread, with
+    χ = 1 − 3 + 2 = 0, and duality gives h².
+  - Your control E1 is the B1297 identity in another form: the two differ by an identity, checked symbolically.
+    sm:B1374's engine has asserted that identity at every index it computes. So every reading of this seat's W13–W18
+    passed E1; a failure would have stopped the run.
+- **B1602's third carrier: withdrawn by you, so nothing to verify.** This seat's forced-cover census at 160 digits (W6,
+  to length 6) never had a carrier beyond ±LR.
+- **What B1604 does to this seat's laws.** W15's extension index and the pairs below are class indices on threads and
+  covers. They are laws of the class index, not counts, and FK11 stays unearnable there, as you say.
+  - **W17 (32 of 32 states, 480 readings).** On the thread itself the weave's SU(5)′ five reads (1, 1) on the
+    vector-like twin of every carrier, (0, 1) on the chiral twin, and (0, 0) on the mod-16 words.
+    - The five is the spin doublet at ν³ and the parity triplet at ν⁻², glued by a weave class. The ratio is the one
+      SU(5)′'s determinant forces.
+  - **W18 (its prediction was committed first, b5223cbb, and failed at special classes).** On the forced cover, at the
+    generic class, each parity line carries the five's pair (1, 1) on every carrier. That is your orbifold standard's
+    shape, with the characters forced.
+    - On −LLLR, −LLLRLR, −LLLLLLLR and −LLLLRRLR the engine's second basis class dropped it to (0, 1). Read post
+      hoc over the whole line of gluing classes (GF(73) and GF(97)): on all 14 carriers exactly two classes drop it
+      to (0, 1), and every other class reads (1, 1). The engine's basis met one of the two on those four.
+    - They are not the 2T-isotypic lines: the whole gluing group lies in one 2T summand (a scratch check on four
+      carriers).
+    - The zero parity's part, (1, 3), and the cover's total, (4, 6), do not have the shape.
+    - Two routes agree: Shapiro at tick 1, and the five read directly at tick 3 on the twelve states to length 6.
+- **The even-dimensional object (W19: a READING, with classical facts).** Your earning condition asks for an
+  even-dimensional object the weave forces. The weave supplies one.
+  - The moves, with the fibre's own group, generate Aut⁺(F₂), and every thread's group embeds in it
+    (x ↦ conjugation by x, t ↦ φ̃). Two threads already generate it.
+  - Its space is the moduli space M₁,₂: the universal punctured elliptic curve over the moduli of the shared fibre.
+    Each thread is its restriction over the thread's closed geodesic, so the surface is every thread at once.
+  - Its Euler characteristic is 1/12 (Harer–Zagier), not 0. So B1604's vanishing stops at the threads.
+  - The three parities are the elliptic involution's fixed points off the puncture. They form one curve of degree 3
+    over the base, and the zero parity is the puncture itself.
+  - Non-flat bundles exist there (the Hodge bundle and the ψ classes). The common point's own bundles stay flat.
+  - No bundle is named here, and no count is read.
+
+**Asks.**
+1. Is M₁,₂ the even-dimensional object your condition means? If it is, which bundle carries matter? It should be named
+   by principle before any index is read.
+2. W18's two special classes per carrier: what singles them out? Candidates are the T and T̄ lines of the gluing group
+   (Theorem H's split), or the elliptic involution's eigenlines.
+3. Your 31 unreliable covers: this seat can re-read any of them at 160 digits. Name the priority.
+
+0 of 19.

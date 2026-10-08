@@ -1,0 +1,741 @@
+{
+ "rule": "(stated before this ran; it is not a prediction): every carrier of W18 (the 14 vector-like twins of the words\nwith phi^3 != +-I mod 16), lift 0, the first nu at which the gluing group is two-dimensional, and every class\nc = b0 + s b1 (s in GF(p)) and c = b1, over GF(p) for the two smallest primes p = 1 mod 24, 73 and 97 (the cube and\nfourth roots of unity are then in the field, so the whole line is read). At each class the first index I(W_c (x) P) is\nread; where it differs from 1, the second, I(L2 W_c (x) P), is read too.",
+ "rows": [
+  {
+   "state": "+LR",
+   "p": 73,
+   "nu (24ths)": 4,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 24,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 49,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLR",
+   "p": 73,
+   "nu (24ths)": 0,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 23,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": "inf",
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLLLR",
+   "p": 73,
+   "nu (24ths)": 4,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 24,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 49,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRLR",
+   "p": 73,
+   "nu (24ths)": 0,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 50,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": "inf",
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRRR",
+   "p": 73,
+   "nu (24ths)": 4,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 24,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 49,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLLLLR",
+   "p": 73,
+   "nu (24ths)": 0,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 23,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": "inf",
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLLLRLR",
+   "p": 73,
+   "nu (24ths)": 0,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 16,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 37,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLRLRR",
+   "p": 73,
+   "nu (24ths)": 4,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 3,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 70,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLRRLR",
+   "p": 73,
+   "nu (24ths)": 0,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 50,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": "inf",
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRLLRR",
+   "p": 73,
+   "nu (24ths)": 0,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 27,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 46,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRLRRR",
+   "p": 73,
+   "nu (24ths)": 4,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 3,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 70,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRRLLR",
+   "p": 73,
+   "nu (24ths)": 0,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 36,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 53,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLRLLRLR",
+   "p": 73,
+   "nu (24ths)": 0,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 27,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 46,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLRLRLRR",
+   "p": 73,
+   "nu (24ths)": 0,
+   "classes read": 74,
+   "I(W (x) P) tally": {
+    "1": 72,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 16,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 37,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LR",
+   "p": 97,
+   "nu (24ths)": 4,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 16,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 81,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLR",
+   "p": 97,
+   "nu (24ths)": 0,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 86,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": "inf",
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLLLR",
+   "p": 97,
+   "nu (24ths)": 4,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 16,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 81,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRLR",
+   "p": 97,
+   "nu (24ths)": 0,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 11,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": "inf",
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRRR",
+   "p": 97,
+   "nu (24ths)": 4,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 16,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 81,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLLLLR",
+   "p": 97,
+   "nu (24ths)": 0,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 86,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": "inf",
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLLLRLR",
+   "p": 97,
+   "nu (24ths)": 0,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 49,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 56,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLRLRR",
+   "p": 97,
+   "nu (24ths)": 4,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 6,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 91,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLLRRLR",
+   "p": 97,
+   "nu (24ths)": 0,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 11,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": "inf",
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRLLRR",
+   "p": 97,
+   "nu (24ths)": 0,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 22,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 75,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLLRLRRR",
+   "p": 97,
+   "nu (24ths)": 4,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 6,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 91,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLLRRLLR",
+   "p": 97,
+   "nu (24ths)": 0,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 8,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 48,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "-LLRLLRLR",
+   "p": 97,
+   "nu (24ths)": 0,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 22,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 75,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "state": "+LLRLRLRR",
+   "p": 97,
+   "nu (24ths)": 0,
+   "classes read": 98,
+   "I(W (x) P) tally": {
+    "1": 96,
+    "0": 2
+   },
+   "the special classes": [
+    {
+     "s": 49,
+     "pair": [
+      0,
+      1
+     ]
+    },
+    {
+     "s": 56,
+     "pair": [
+      0,
+      1
+     ]
+    }
+   ]
+  }
+ ],
+ "two special classes on every carrier at both primes": true,
+ "every special class reads (0, 1)": true,
+ "the basis met a special class (s = inf) on": [
+  "-LLLLLLLR",
+  "-LLLLRRLR",
+  "-LLLR",
+  "-LLLRLR"
+ ]
+}

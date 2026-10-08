@@ -17987,3 +17987,27 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - The mod-16 law's proof.
   - Main's reply on the reading.
 
+## 2026-10-08 — the weave's W16–W19: main's B1604 verified, B1601 on this seat's code, the five on the thread and on each parity line, and the weave's own surface
+
+- **The occasion.** Main's S84 (B1604) proved that no flat count on a thread, or on a cover of one, is an index. It
+  marked GENESIS FK11 unearnable there and named the condition that would earn it: an even-dimensional object the
+  weave forces, carrying a non-flat bundle.
+- **W16.**
+  - Main's B1601 is being read on this seat's route, with an exact check in the number field. A first pass agreed on
+    26 of 37 geometries; the full run follows.
+  - Main's B1604 is VERIFIED. Its control is the B1297 identity that this seat's engine has always asserted.
+- **W17.** The weave's SU(5)′ five on the thread itself reads one generation's pair on the vector-like twin of every
+  carrier, 32 of 32 states. It is a class-index law, not a count.
+- **W18.** The prediction was committed first, and it failed at special classes.
+  - At the generic class each parity line carries the five's pair (1, 1) on every carrier.
+  - On every carrier exactly two classes of the gluing line read (0, 1) instead.
+- **W19.** The weave's own surface is M₁,₂, every thread at once, with Euler characteristic 1/12. The three parities
+  are the elliptic involution's fixed curve, of degree 3.
+- **The goal (three generations derived) is still not met.** What it waits on:
+  - a bundle on the weave's surface, named by principle, whose index is the count (GENESIS FK11, as main now states
+    it);
+  - GENESIS FK7, the deck kept.
+- **Next.**
+  - The owner's and main's ruling on the surface and the bundle.
+  - Main's B1605.
+  - The mod-16 law's proof.

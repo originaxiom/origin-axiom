@@ -156,3 +156,69 @@ def test_w15_the_weaves_five_is_not_generation_shaped():
         else:
             assert pairs <= {(1, 3), (2, 3)} and dual <= {(-1, -3), (-2, -3)} and (1, 3) in pairs, sw
         assert all(p[0] != p[1] for p in pairs | dual if p != (0, 0))   # never the shape n_5bar = n_10
+
+
+def test_w17_the_weaves_five_on_the_thread_reads_one_generation_on_the_vector_like_twins():
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_weaves_five_tick1.json").read_text(encoding="utf-8"))
+    summ = d["summary"]
+    assert len(summ) == 32 and sum(v["readings"] for v in summ.values()) == 480
+    shapes = Counter()
+    for sw, v in summ.items():
+        nL, nR = sw.count("L"), sw.count("R")
+        vector_like = (nL - nR + (2 if sw[0] == "-" else 0)) % 4 == 0      # Theorem H's twin
+        silent = _trace(sw) % 16 in (1, 15)                                  # W15's mod-16 law
+        expect = (0, 0) if silent else ((1, 1) if vector_like else (0, 1))
+        assert [tuple(x) for x in v["pairs for W"]] == [expect], sw
+        assert [tuple(x) for x in v["pairs for W*"]] == [(-expect[0], -expect[1])], sw
+        shapes[expect] += 1
+    assert shapes == {(1, 1): 14, (0, 1): 14, (0, 0): 4}
+
+
+
+def test_w18_the_five_on_each_parity_line_the_prediction_failed_at_special_classes():
+    """W18: the five's sectors on the forced A4 cover (Shapiro). Predictions 2-5 held; 1 failed: on four carriers of sign
+    minus the second basis class reads (0, 1) on each parity line; the generic class reads (1, 1) on every carrier"""
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_parity_generations.json").read_text(encoding="utf-8"))
+    pred = d["the predictions"]
+    assert [pred[k] for k in sorted(pred)] == [False, True, True, True, True]
+    assert sorted(len(v) for v in d["by kind"].values()) == [4, 14, 14]
+    mixed = set()
+    for sw, st in d["states"].items():
+        rows = st["rows (route A)"]
+        assert len(rows) == st["readings (route A)"]
+        nL, nR = sw.count("L"), sw.count("R")
+        vector_like = (nL - nR + (2 if sw[0] == "-" else 0)) % 4 == 0
+        silent = _trace(sw) % 16 in (1, 15)
+        kind = "mod-16 word" if silent else ("carrier" if vector_like else "chiral twin")
+        assert st["kind"] == kind, sw
+        for r in rows:
+            p = tuple(r["W"]["P"])
+            if kind == "carrier":
+                if r["class"] == "basis 1" and p == (0, 1):
+                    mixed.add(sw)
+                    assert tuple(r["W"]["forced cover"]) == (1, 6)
+                else:
+                    assert p == (1, 1) and tuple(r["W"]["forced cover"]) == (4, 6), (sw, r["class"])
+            elif kind == "chiral twin":
+                assert p == (0, 2) and tuple(r["W"]["forced cover"]) == (0, 9), sw
+            else:
+                assert p == (0, 0) and tuple(r["W"]["forced cover"]) == (0, 0), sw
+            assert tuple(r["W*"]["P"]) == (-p[0], -p[1]), sw
+        if "route B (tick 3)" in st:
+            assert st["route B: the three parities alike"] and st["route B agrees with route A (Shapiro)"], sw
+    assert mixed == {"-LLLR", "-LLLRLR", "-LLLLLLLR", "-LLLLRRLR"}
+    assert sum("route B (tick 3)" in st for st in d["states"].values()) == 12
+
+
+def test_w18_post_hoc_two_special_classes_on_every_carrier():
+    """W18, post hoc: on the whole projective line of gluing classes, every carrier has exactly two classes at which each
+    parity line's pair drops to (0, 1), at GF(73) and GF(97); the engine's basis met one of them on four carriers"""
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_parity_generations_special.json").read_text(encoding="utf-8"))
+    rows = d["rows"]
+    assert len(rows) == 28 and {r["p"] for r in rows} == {73, 97}
+    for r in rows:
+        assert r["classes read"] == r["p"] + 1
+        assert r["I(W (x) P) tally"] == {"1": r["p"] - 1, "0": 2}, r["state"]
+        assert [x["pair"] for x in r["the special classes"]] == [[0, 1], [0, 1]], r["state"]
+    assert d["two special classes on every carrier at both primes"] and d["every special class reads (0, 1)"]
+    assert d["the basis met a special class (s = inf) on"] == ["-LLLLLLLR", "-LLLLRRLR", "-LLLR", "-LLLRLR"]

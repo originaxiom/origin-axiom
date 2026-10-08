@@ -118,6 +118,18 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   - Predicted before the test (`docs/dossiers/the_weave_2026-10-07/W15_PREDICTION.md`): the ten remaining states of
     length 8 fire (they did), and F-CI shares the silence on ±LLLLLRRR. It does not: F-CI carries 3 064 and 336
     backgrounds there. So F-CI's silence on ±LLRLRR and the extensions' were a coincidence.
+- **The weave's five on the thread itself (W17, by rule; 32 states to length 8, 480 readings).**
+  - The spin doublet D and the parity triplet P of the common point, twisted Dν³ ⊕ Pν⁻² (SU(5)′'s determinant), and
+    glued by a weave class.
+  - It reads F-HE's generation shape (1, 1), dual (−1, −1), on the vector-like twin (Theorem H) of every word with
+    φ³ ≢ ±I (mod 16); (0, 1) on the chiral twin; (0, 0) on the mod-16 words. 32 of 32, every reading.
+  - One generation per thread: the parities are the five's triplet.
+  - By main's B1604 (verified in the weave dossier's W16) the class index is not an index: on a thread every twisted
+    Euler characteristic vanishes. So this is a law of the class index on the weave's five, not a count.
+- **The five on each parity line (W18; prediction committed first, failed at special classes).** On the forced
+  cover, at the generic class, each of the three parity lines carries the five's pair (1, 1) on every carrier;
+  on every carrier exactly two classes of the gluing line read (0, 1) instead (14 of 14, over two primes). The chiral
+  twins read (0, 2), the mod-16 words nothing. A class-index law away from two classes, not a count.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).
@@ -285,8 +297,12 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
    - **Open:**
      - content: not at the weave's vacua in F-HE's frame (W11, W12), so in F-HE it is a thread's. In F-CI it is most
        threads', not ±LLRLRR's (W14). In the weave's own extensions it is the mod-16 law's threads' (W15). The shape
-       identity n_5̄ = n_10 is built into none of these counts: the weave's five reads F-HE's anomalous (−1, −3).
-       Open: the dictionary (GENESIS FK11), for which main's three conditions are now two met and one not;
+       identity n_5̄ = n_10 is not built into the class index at the resolving tick (the five there reads (−1, −3)),
+       but on the thread itself the weave's SU(5)′ five reads it by law on every vector-like carrier (W17), one
+       generation per thread. Main's B1604 (verified in W16) then proved that no such count on a thread or a cover is
+       an index: every twisted Euler characteristic vanishes there. So the dictionary (GENESIS FK11) is unearnable on
+       threads, whatever these laws say, and it needs an even-dimensional object the weave forces, with a non-flat
+       bundle; the three, in this frame, needs the deck kept (FK7);
      - the deck kept (GENESIS FK7);
      - the hand (GENESIS FK4 and FK12; main's sign);
      - the masses;
