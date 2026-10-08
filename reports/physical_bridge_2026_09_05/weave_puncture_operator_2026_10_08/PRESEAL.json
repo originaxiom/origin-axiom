@@ -1,0 +1,45 @@
+{
+  "schema": "weave-puncture-preseal-v1",
+  "phase": "before_first_packet_execution",
+  "parent_commit": "c161981d60db707ae8d5cebb47ea0fcc85df1c1b",
+  "research_only": true,
+  "nonauthor_review_pending": true,
+  "full_suite_pending": true,
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/DESIGN.md",
+      "bytes": 6418,
+      "sha256": "c614e53f65785bdda685cda58139299f4df08a47ce2693a26c200d837d6dfb96"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+      "bytes": 9470,
+      "sha256": "0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/INPUTS.json",
+      "bytes": 2385,
+      "sha256": "2162aabfaf58a9821ba5c7ab3b8c550a3eec6a4186889e18a6fa3743dcc1b240"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/probe.py",
+      "bytes": 8281,
+      "sha256": "3474603ed114ef24c26909abeacc97f1fafddc179705e83536acca8cfc8c1a6f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/reference.py",
+      "bytes": 2186,
+      "sha256": "a3bf2838e5db90d3c30190e964da0901048b57a3ec3b302bae40ec7dea12ec72"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/custody.rb",
+      "bytes": 5016,
+      "sha256": "960e3fd1e816d2c3e00106f461a022fec799f67502079fdbf6fa56bd25aafdfe"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_puncture_operator.py",
+      "bytes": 2144,
+      "sha256": "8e6c130298653a80c0b37c2cc0c54de95a6cf07779c0b64307debe12922c3401"
+    }
+  ]
+}

@@ -2165,3 +2165,23 @@ full-suite/main-bank acceptance pending; auxiliary metric explicitly priced.
 | `reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/reference.py` | `9fad6aeddb15d52f62ee1ba88313edceaa3126201abc13552d4084a964f759d9` |
 | `reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/custody.rb` | `8cbc2f9adff9dc69052cc44bd1cd6d740833d1f35a76ef6718e9975b5ebc9fff` |
 | `tests/test_physical_bridge_silver_cyclic_transfer.py` | `a4c741d0a19439eff049e6d83e3db3a00275411e75a9f6d3a30cd399a0423f24` |
+
+
+## October8 shared-puncture operator research seal
+
+Conditional sheaf index and local coefficient Green-form classification;
+preserve W21 one-form Hodge modes while testing the ordinary spinor
+kinetic norm on smooth and complete-cusp realizations. The twisted cusp
+Weyl/Fredholm argument is explicit, not the untwisted one-cusp theorem.
+No new B/I/H/R identifier, selected physical domain or chiral SM. Seal
+before packet execution; nonauthor/global-PDE/full-suite acceptance owed.
+
+| File | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/DESIGN.md` | `c614e53f65785bdda685cda58139299f4df08a47ce2693a26c200d837d6dfb96` |
+| `reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md` | `0102fc971479acc9d57a05c6234dcbf4ada7007269d96bc4931719bebabf929f` |
+| `reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/INPUTS.json` | `2162aabfaf58a9821ba5c7ab3b8c550a3eec6a4186889e18a6fa3743dcc1b240` |
+| `reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/probe.py` | `3474603ed114ef24c26909abeacc97f1fafddc179705e83536acca8cfc8c1a6f` |
+| `reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/reference.py` | `a3bf2838e5db90d3c30190e964da0901048b57a3ec3b302bae40ec7dea12ec72` |
+| `reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/custody.rb` | `960e3fd1e816d2c3e00106f461a022fec799f67502079fdbf6fa56bd25aafdfe` |
+| `tests/test_physical_bridge_weave_puncture_operator.py` | `8e6c130298653a80c0b37c2cc0c54de95a6cf07779c0b64307debe12922c3401` |

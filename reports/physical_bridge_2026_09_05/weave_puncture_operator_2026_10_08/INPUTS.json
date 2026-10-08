@@ -1,0 +1,60 @@
+{
+  "schema": "weave-puncture-inputs-v1",
+  "sources": [
+    {
+      "ref": "51ddf7e689d42adfb5fb11f5eaa1c112ace2ef51",
+      "path": "frontier/B1606_three_on_the_weave_graded/FINDINGS.md",
+      "bytes": 4824,
+      "sha256": "ee71328a1d28231f7e342634f898e1927fa9f852df1c5c37678cc2490902a820"
+    },
+    {
+      "ref": "5dfe88f8c3fc575d5353f798744028e32d78de05",
+      "path": "docs/dossiers/the_weave_2026-10-07/the_puncture_condition.py",
+      "bytes": 6289,
+      "sha256": "3aadb084435675ea7da6dd763b9742c3c6f3c81f0cbf0108c50efaeb5edc77e1"
+    },
+    {
+      "ref": "5dfe88f8c3fc575d5353f798744028e32d78de05",
+      "path": "docs/dossiers/the_weave_2026-10-07/NOTE.md",
+      "bytes": 149859,
+      "sha256": "c0f787236463d78a3a759606e9496ea0689bfc88949517b0bbf1f6a84d7ef8ae"
+    },
+    {
+      "ref": "5dfe88f8c3fc575d5353f798744028e32d78de05",
+      "path": "docs/dossiers/the_weave_2026-10-07/W28_RULE.md",
+      "bytes": 10666,
+      "sha256": "91932af70619d78d6600a0913a447dd908f93491fdd918a8cd489de104173d16"
+    }
+  ],
+  "external_primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/math/0010233",
+      "sha256": "cdd0b5810dac8ce19fb4c5fae82919218968b073ac1a1a805dedbead6ebc2620",
+      "read_sections": "3: Lemma 1, Theorem 1 with proof, untwisted Corollary 1; relevant pages visually inspected"
+    },
+    {
+      "url": "https://repository.ias.ac.in/20407/1/305.pdf",
+      "sha256": "f039f19dc7a507301572930bbc54e3a94cf7dac2449f7cdebed098a3ef7dd7b9",
+      "read_sections": "pp 213-214: Proposition 1.9, Corollary 1.10, Definition 1.11; formula extraction cross-check"
+    },
+    {
+      "url": "https://arxiv.org/html/1311.4182",
+      "read_sections": "Dirac conformal covariance; Theorem 4.1 N=0"
+    },
+    {
+      "url": "https://arxiv.org/html/1307.3021v1",
+      "read_sections": "boundary domain/ellipticity/Fredholm distinctions sections 3 and 4"
+    }
+  ],
+  "supplied_inputs": [
+    "genus-one punctured shared fibre and unitary W",
+    "ordinary spin versus one-form kinetic realization",
+    "smooth finite-distance versus complete-cusp metric",
+    "spin structure extending across compactified puncture",
+    "absence of asymptotic mass/weighted kinetic terms",
+    "local coefficient projector; not physical domain selection"
+  ],
+  "focused_expected_tests": 11,
+  "physical_identifications_earned": false,
+  "nonauthor_acceptance": false
+}
