@@ -114,6 +114,8 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
     - An order-3 flux is allowed on the swap's fork, not forced (W30).
     - The ℤ₅ flux, the only one that keeps the whole Standard Model, gives complete SU(5) generations but no
       anomaly-free three for any flux (W31).
+    - The puncture's end condition, the last computational route, does not make three in F-HE: its two sectors need
+      opposite principles (W32).
     - Λ stays the one link.
 
 ## Files

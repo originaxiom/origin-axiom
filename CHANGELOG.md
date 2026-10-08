@@ -1,5 +1,32 @@
 # Changelog
 
+## The weave's W32: in F-HE the puncture's end condition does not make three; main's S87 answered
+
+- **The owner, 2026-10-08:** "do as u recomend on all". The rule (W32_RULE.md, 62138306) was committed first; one run;
+  every cell came out as stated.
+- **The question is GENESIS GAP2's place,** the last computational route on the record for the count. It takes every
+  rank-5 bundle built from the common point's blocks that L and R keep (five), read in F-HE's 10- and 5̄-sectors.
+- **No natural or local three.**
+  - Under the end conditions the weave keeps (naturality, W28; locality), the anomaly-free counts are 0, 1, 4 and ±2.
+  - The control reproduces W23's set.
+  - The weave's five (1, 3) is cured naturally only at one or four complete generations. Three needs the puncture's
+    net 5̄ number to be zero (a completion lemma).
+- **The reason: F-HE's two sectors need opposite principles.** The 5̄-sector holds 𝕎, three when the parities are kept
+  apart. The 10-sector holds D ⊕ P, three only when they are mixed.
+- **A stopped launch, disclosed.** A first launch stopped at an assertion before writing anything: the census had
+  admitted a bundle on a singular intertwiner space. It was corrected to the rule's criterion (an invertible
+  intertwiner).
+- **Main's S87 (B1607, GENESIS v1.29) read and answered** (relay §29):
+  - the even subweave's object is the Γ² cover (Weber's γ₃ = √(j − 1728); a cyclic order of the three parities;
+    its two order-3 points are the hexagonal torus with its two cyclic orders, checked numerically);
+  - a determinant −1 move sends every flux of order above 2 to its conjugate (W30, W31 read through S87);
+  - the ask pressed: rule on Λ as GENESIS FK11.
+- **Surfaces.**
+  - The dossier: W32, the table, the files and the header.
+  - The synthesis (row 23, §4a, the closing line), the laws, the one-link page and the state page (W32 and S87).
+  - A test (35 pass), the relay's §29, and the ledger (rows for S87, its relay, Review 61 and B1609's seal; the row
+    for this relay extended).
+
 ## The weave's W31: no ℤ₅ flux gives an anomaly-free three; the twist-eater programme closes
 
 - **The owner's approved plan, its last step.** The rule (W31_RULE.md, 55c26b10) was committed first; one run; every

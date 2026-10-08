@@ -18273,3 +18273,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   hypercharge, a qutrit needs the swap's fork, ℤ₅ allows no three.
 - **The plan is complete** (Phases A to D). The goal, three generations derived from the principle, is not met: the
   flavour three is derived; the gauge three stays a selection (main's grade).
+
+## 2026-10-08 (night, the owner's "do as u recomend on all") — W32 and main's S87
+
+- **Main's S87 read.**
+  - The principle's tick is σ = L∘P.
+  - The two hands are located: the records' orientation and the McKay orientation. Neither is derived on the weave.
+- **Main's question answered:** the even subweave's object is the Γ² cover (γ₃ = √(j − 1728)): tori with a cyclic order
+  of their three parities.
+- **W32, the rule first** (62138306): in F-HE the puncture's end condition gives anomaly-free counts 0, 1, 4 and ±2,
+  never three. The two sectors need opposite principles.
+- **The count's last computational route on the record closes in F-HE.** What remains is main's ruling on Λ (GENESIS
+  FK11), now pressed in relay §29.
+- **Commits** from here on: author originaxiom (the attribution gate), committer the session's identity (the owner
+  allowed it on 2026-10-08).

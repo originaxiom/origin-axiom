@@ -216,6 +216,10 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     hypercharge rotation.
   - The moves act on the flux's ℂ⁵ through 2I = SL(2, 𝔽₅), split 3 ⊕ 2. The SU(5)³-free counts are −1 and 2, or −2
     and 1, under the moves, and none under locality: never three.
+- **In F-HE the puncture's end condition never makes three (W32; the rule committed first; computed, P1 proved).**
+  - Over every rank-5 bundle from the common point's blocks that L and R keep, under naturality or locality, the
+    anomaly-free counts are 0, 1, 4 and ±2.
+  - The 5̄-sector's three (𝕎) needs the parities kept apart; the 10-sector's needs them mixed.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

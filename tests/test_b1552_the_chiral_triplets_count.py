@@ -607,3 +607,28 @@ def test_w31_the_z5_flux():
     n5b = {-4 + x for x in Z5.Z.subset_sums(s10)}
     assert sorted(n10 & n5b) == [-1, 2]
     assert np.allclose(Z5.OT.comm(A, B), Z5.ZETA * np.eye(5))
+
+
+def test_w32_the_puncture_content():
+    """W32 (the rule committed first): over every rank-5 bundle from the common point's blocks that L and R keep, F-HE's
+    anomaly-free counts under the end conditions the weave keeps are 0, 1, 4 and +-2, never three. The weave's five is
+    recomputed in process"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_puncture_content.json").read_text(encoding="utf-8"))
+    assert all(v is True for v in d["P7 the verdict"].values())
+    assert d["P2 the census"]["how many"] == 5
+    assert d["P4 naturality: the anomaly-free counts"]["D + P"] == [1, 4]
+    assert d["P4 a natural three (|n| = 3) for some bundle"] is False
+    assert d["P5 a local three for some bundle"] is False
+    sys.path.insert(0, str(here))
+    import the_puncture_content as PC
+    A, B = PC.direct_sum(["D", "c1", "c2", "c3"])
+    UL = PC.generic(PC.OT.intertwiners(A, B, A, A @ B))
+    UR = PC.generic(PC.OT.intertwiners(A, B, A @ B, B))
+    assert UL is not None and UR is not None
+    s10 = PC.sector(A, B, UL, UR)
+    s5b = PC.sector(PC.Z.compound(A, 2), PC.Z.compound(B, 2), PC.Z.compound(UL, 2), PC.Z.compound(UR, 2))
+    assert s10["index under naturality"] == [-1, 1, 2, 4]
+    assert sorted(set(s10["index under naturality"]) & set(s5b["index under naturality"])) == [1, 4]
+    assert [s10["index under W22's block rule"], s5b["index under W22's block rule"]] == [1, 3]

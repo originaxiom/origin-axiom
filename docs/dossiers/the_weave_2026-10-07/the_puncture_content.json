@@ -1,0 +1,534 @@
+{
+ "rule": "W32_RULE.md (committed 62138306 before this ran)",
+ "the frame": "F-HE (GENESIS GAP1: a hypothesis); the 10 of SU(5)_g carries W, the 5-bar carries Lambda^2 W",
+ "the moves": "L and R (main's S87: the swap and the tick sigma = L o P reverse the orientation the index needs)",
+ "P1 the completion lemma": {
+  "the five reads (1, 3) under W22's rule (W23); localized net numbers (a, b) cancel its anomaly iff a - b = 2": true,
+  "then n(10) - n(5-bar) = (1 + a) - (3 + b) = 0, and the count is 3 + b (exact)": true,
+  "so three complete generations need the puncture's net 5-bar number b = 0": true
+ },
+ "P2 the census": {
+  "the bundles L and R keep (rank 5, trivial determinant)": [
+   "c0^2 + P",
+   "c0^5",
+   "D + P",
+   "D + c0^3",
+   "D^2 + c0"
+  ],
+  "how many": 5
+ },
+ "P3 the control (W22's block rule)": {
+  "readings": {
+   "c0^2 + P": [
+    0,
+    0
+   ],
+   "c0^5": [
+    0,
+    0
+   ],
+   "D + P": [
+    1,
+    3
+   ],
+   "D + c0^3": [
+    1,
+    3
+   ],
+   "D^2 + c0": [
+    2,
+    2
+   ]
+  },
+  "the set is W23's SU(5) set {(0, 0), (1, 3), (2, 2)}": true
+ },
+ "P4 and P5 the bundles": {
+  "c0^2 + P": {
+   "W (the 10-sector)": {
+    "rank": 5,
+    "r_minus": 0,
+    "bulk commutant dimension": 7,
+    "naturality structure": [
+     [
+      2,
+      1
+     ],
+     [
+      3,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      5,
+      1
+     ]
+    ],
+    "index under naturality": [
+     0,
+     2,
+     3,
+     5
+    ],
+    "index under locality": [
+     0,
+     5
+    ],
+    "index under W22's block rule": 0
+   },
+   "Lambda^2 W (the 5-bar sector)": {
+    "rank": 10,
+    "r_minus": 0,
+    "bulk commutant dimension": 28,
+    "naturality structure": [
+     [
+      1,
+      1
+     ],
+     [
+      9,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      10,
+      1
+     ]
+    ],
+    "index under naturality": [
+     0,
+     1,
+     9,
+     10
+    ],
+    "index under locality": [
+     0,
+     10
+    ],
+    "index under W22's block rule": 0
+   },
+   "anomaly-free counts under naturality": [
+    0
+   ],
+   "anomaly-free counts under locality": [
+    0
+   ],
+   "W22's block rule: (n(10), n(5-bar))": [
+    0,
+    0
+   ]
+  },
+  "c0^5": {
+   "W (the 10-sector)": {
+    "rank": 5,
+    "r_minus": 0,
+    "bulk commutant dimension": 25,
+    "naturality structure": [
+     [
+      5,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      5,
+      1
+     ]
+    ],
+    "index under naturality": [
+     0,
+     5
+    ],
+    "index under locality": [
+     0,
+     5
+    ],
+    "index under W22's block rule": 0
+   },
+   "Lambda^2 W (the 5-bar sector)": {
+    "rank": 10,
+    "r_minus": 0,
+    "bulk commutant dimension": 100,
+    "naturality structure": [
+     [
+      10,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      10,
+      1
+     ]
+    ],
+    "index under naturality": [
+     0,
+     10
+    ],
+    "index under locality": [
+     0,
+     10
+    ],
+    "index under W22's block rule": 0
+   },
+   "anomaly-free counts under naturality": [
+    0
+   ],
+   "anomaly-free counts under locality": [
+    0
+   ],
+   "W22's block rule: (n(10), n(5-bar))": [
+    0,
+    0
+   ]
+  },
+  "D + P": {
+   "W (the 10-sector)": {
+    "rank": 5,
+    "r_minus": 2,
+    "bulk commutant dimension": 4,
+    "naturality structure": [
+     [
+      2,
+      1
+     ],
+     [
+      3,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      2,
+      1
+     ],
+     [
+      3,
+      1
+     ]
+    ],
+    "index under naturality": [
+     -1,
+     1,
+     2,
+     4
+    ],
+    "index under locality": [
+     -1,
+     1,
+     2,
+     4
+    ],
+    "index under W22's block rule": 1
+   },
+   "Lambda^2 W (the 5-bar sector)": {
+    "rank": 10,
+    "r_minus": 6,
+    "bulk commutant dimension": 13,
+    "naturality structure": [
+     [
+      1,
+      1
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      6,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      4,
+      1
+     ],
+     [
+      6,
+      1
+     ]
+    ],
+    "index under naturality": [
+     -3,
+     -2,
+     0,
+     1,
+     3,
+     4,
+     6,
+     7
+    ],
+    "index under locality": [
+     -3,
+     1,
+     3,
+     7
+    ],
+    "index under W22's block rule": 3
+   },
+   "anomaly-free counts under naturality": [
+    1,
+    4
+   ],
+   "anomaly-free counts under locality": [
+    1
+   ],
+   "W22's block rule: (n(10), n(5-bar))": [
+    1,
+    3
+   ]
+  },
+  "D + c0^3": {
+   "W (the 10-sector)": {
+    "rank": 5,
+    "r_minus": 2,
+    "bulk commutant dimension": 10,
+    "naturality structure": [
+     [
+      2,
+      1
+     ],
+     [
+      3,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      2,
+      1
+     ],
+     [
+      3,
+      1
+     ]
+    ],
+    "index under naturality": [
+     -1,
+     1,
+     2,
+     4
+    ],
+    "index under locality": [
+     -1,
+     1,
+     2,
+     4
+    ],
+    "index under W22's block rule": 1
+   },
+   "Lambda^2 W (the 5-bar sector)": {
+    "rank": 10,
+    "r_minus": 6,
+    "bulk commutant dimension": 25,
+    "naturality structure": [
+     [
+      4,
+      1
+     ],
+     [
+      6,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      4,
+      1
+     ],
+     [
+      6,
+      1
+     ]
+    ],
+    "index under naturality": [
+     -3,
+     1,
+     3,
+     7
+    ],
+    "index under locality": [
+     -3,
+     1,
+     3,
+     7
+    ],
+    "index under W22's block rule": 3
+   },
+   "anomaly-free counts under naturality": [
+    1
+   ],
+   "anomaly-free counts under locality": [
+    1
+   ],
+   "W22's block rule: (n(10), n(5-bar))": [
+    1,
+    3
+   ]
+  },
+  "D^2 + c0": {
+   "W (the 10-sector)": {
+    "rank": 5,
+    "r_minus": 4,
+    "bulk commutant dimension": 5,
+    "naturality structure": [
+     [
+      1,
+      1
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      1,
+      1
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    "index under naturality": [
+     -2,
+     -1,
+     2,
+     3
+    ],
+    "index under locality": [
+     -2,
+     -1,
+     2,
+     3
+    ],
+    "index under W22's block rule": 2
+   },
+   "Lambda^2 W (the 5-bar sector)": {
+    "rank": 10,
+    "r_minus": 4,
+    "bulk commutant dimension": 16,
+    "naturality structure": [
+     [
+      3,
+      1
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    "locality structure": [
+     [
+      4,
+      1
+     ],
+     [
+      6,
+      1
+     ]
+    ],
+    "index under naturality": [
+     -2,
+     1,
+     2,
+     4,
+     5,
+     8
+    ],
+    "index under locality": [
+     -2,
+     2,
+     4,
+     8
+    ],
+    "index under W22's block rule": 2
+   },
+   "anomaly-free counts under naturality": [
+    -2,
+    2
+   ],
+   "anomaly-free counts under locality": [
+    -2,
+    2
+   ],
+   "W22's block rule: (n(10), n(5-bar))": [
+    2,
+    2
+   ]
+  }
+ },
+ "P4 naturality: the anomaly-free counts": {
+  "c0^2 + P": [
+   0
+  ],
+  "c0^5": [
+   0
+  ],
+  "D + P": [
+   1,
+   4
+  ],
+  "D + c0^3": [
+   1
+  ],
+  "D^2 + c0": [
+   -2,
+   2
+  ]
+ },
+ "P4 a natural three (|n| = 3) for some bundle": false,
+ "P5 locality: the anomaly-free counts": {
+  "c0^2 + P": [
+   0
+  ],
+  "c0^5": [
+   0
+  ],
+  "D + P": [
+   1
+  ],
+  "D + c0^3": [
+   1
+  ],
+  "D^2 + c0": [
+   -2,
+   2
+  ]
+ },
+ "P5 a local three for some bundle": false,
+ "P6 what three would need on the weave's five": {
+  "the permutation lifts on the three parity lines: structure": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "the plane x1 + x2 + x3 = 0 is kept by them": true,
+  "it is kept by the bulk commutant": false,
+  "n(10) with D's local solutions and the plane kept": 3,
+  "n(5-bar) = 3 is natural (in the naturality set)": true,
+  "n(10) = 3 is natural": false,
+  "so three in the 10-sector needs the parities mixed, and three in the 5-bar sector needs them kept apart": true
+ },
+ "P7 the verdict": {
+  "the census is the rule's five": true,
+  "naturality as the rule's table": true,
+  "locality as the rule's list": true,
+  "the control is W23's set": true,
+  "no natural or local three for any bundle built from the common point's blocks": true,
+  "the weave's five is cured naturally only at one or four complete generations (b = -2 or +1)": true,
+  "NEGATIVE: in F-HE the puncture's end condition does not make three": true
+ }
+}

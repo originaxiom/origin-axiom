@@ -11,7 +11,7 @@ generations derived".
   reach this side: its fourth query produced no surviving claim.
 - **The weave's side:** `docs/THE_WEAVE.md` and `docs/dossiers/the_weave_2026-10-07/`.
 
-**Closed on 2026-10-08 (the owner's plan):** the state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`. Main's grade (GENESIS v1.28): the flavour three is derived; the gauge three is a selection. W30 and W31 followed the close, and neither finishes it: an order-3 flux is allowed on the swap's fork, not forced (W30), and no ℤ₅ flux gives an anomaly-free three (W31).
+**Closed on 2026-10-08 (the owner's plan):** the state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`. Main's grade (GENESIS v1.28): the flavour three is derived; the gauge three is a selection. W30 and W31 followed the close, and neither finishes it: an order-3 flux is allowed on the swap's fork, not forced (W30), and no ℤ₅ flux gives an anomaly-free three (W31). In F-HE the puncture does not make three either (W32).
 
 **The derivation, written with its one link (2026-10-08):** `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md` (W27). The statement there is "derived given one stated link", never "derived from the principle" alone.
 
@@ -137,6 +137,7 @@ So this section records which patterns the weave's group contains, and nothing m
 | 20 | COMPUTED (W29; the rule committed first; one sub-claim's naming corrected post hoc); a CHOSEN object, NEGATIVE as a derivation | the ℤ₆ twist-eater (the weave's qubit ⊗ a qutrit, the step the contemplation proposed): its centraliser in E₈ is exactly SU(3) × SU(2), its quark doublets are complex, one antiquark singlet is labelled by each parity, and its flux is the hypercharge's 2π rotation e^{2πiY}; the swap has no lift, so the hand is visible. But the flux uses up the hypercharge (an exact lemma: no U(1) commutes with it), the moves allow −1, 1, 3 or 5 quark generations (each anomaly-free with the Standard Model's ratio) and locality gives five, the doublets are real (no chiral leptons), and nothing shown forces the qutrit flux. An echo, not a derivation QUALIFIED post hoc (P3): the set −1, 1, 3, 5 holds for the moves L and R; with the bare sign −I a move (GENESIS GM5b, open) it is −1 or 5 |
 | 21 | COMPUTED and PROVED (W30; the rule committed first) ; a WEAVE result, NOT FORCED | is an order-3 flux forced on the shared fibre (step 4)? No representation of the forced point carries one (its puncture −1 has order 2); the qutrit point exists and the grammar's moves keep it, but the swap sends it to its conjugate, so it is a common point only on one branch of the swap's fork (GENESIS GM5c, FK3), with a rank-3 cusp condition that is a choice. Allowed on a fork, not forced: the gauge-side complex structure is tied to the open swap |
 | 22 | COMPUTED and PROVED (W31; the rule committed first, every cell as stated); a CHOSEN object, NEGATIVE as a derivation | the ℤ₅ flux, the only twist-eater flux that keeps the whole Standard Model (the owner's plan, its last step): in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅ its centraliser is exactly SU(5)_g, its matter is complete SU(5) generations (10 + 5̄, both complex), and its flux is a hypercharge rotation (exact). The moves act through 2I = SL(2, 𝔽₅), split 3 ⊕ 2, with golden traces on the spin piece. But no flux ζ^m gives an anomaly-free three: the SU(5)³-free counts are −1 and 2, or −2 and 1, under the moves and none under locality; SU(5) is not broken by anything forced; the swap sends the flux to its conjugate (GENESIS GM5c); the flux is not forced. The twist-eater programme gives no forced three |
+| 23 | COMPUTED and PROVED (W32; the rule committed first, every cell as stated); a WEAVE result within F-HE, NEGATIVE | the puncture's content (GENESIS GAP2's place, the last computational route for the count): over every rank-5 bundle built from the common point's blocks that L and R keep, with the end conditions the weave keeps (naturality, locality), F-HE's anomaly-free counts are 0, 1, 4 and ±2, never three. The weave's five (1, 3) is cured naturally only at one or four generations. The two sectors need opposite principles: three in the 5̄-sector (𝕎) needs the parities kept apart, three in the 10-sector needs them mixed. Three complete generations need a frame whose 10-sector holds 𝕎: row 18's link Λ |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -424,6 +425,14 @@ taken from the weave. Every link is named with its status.
     to its conjugate (GENESIS GM5c), and the flux itself is not forced.
   - **With W29 and W30, the twist-eater programme gives no forced three.** Main's finishing condition is not met
     by any flux tried.
+- **W32: in F-HE the puncture's end condition does not make three** (the owner's "do as u recomend on all"; the
+  rule committed first, 62138306).
+  - **Over every bundle from the common point's blocks that the moves keep,** with the end conditions the weave keeps,
+    the anomaly-free counts are 0, 1, 4 and ±2.
+  - **The two sectors need opposite principles.** The 5̄-sector holds 𝕎, three when the parities are kept apart
+    (W28). The 10-sector holds D ⊕ P, three only when they are mixed.
+  - **So the count's last computational route on the record closes in F-HE,** and Λ (GENESIS FK11) stays the one
+    link.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

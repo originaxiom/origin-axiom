@@ -14,6 +14,7 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - Main's grade (GENESIS v1.28): the flavour three is derived; the gauge three is a selection.
 - Two checks followed the close, and both ran on 2026-10-08. W30: an order-3 flux is allowed on the swap's fork, not
   forced. W31: no ℤ₅ flux gives an anomaly-free three.
+- W32 (the owner's "do as u recomend on all"): in F-HE the puncture's end condition does not make three.
 
 ## The setting
 
@@ -1860,6 +1861,58 @@ registry).
 **Status.** COMPUTED (one run; the rule committed first), with F1's lemma and F4's argument PROVED. A CHOSEN object (the
 ℤ₅ flux, not forced). NEGATIVE as a derivation.
 
+## W32. The puncture's end condition in F-HE's two sectors: never three (`the_puncture_content.py`; `W32_RULE.md`)
+
+**Why.** The owner's "do as u recomend on all" (2026-10-08). The recommendation's third item was the puncture's content
+(GENESIS GAP2's place), the one computational route left for the count. W23 left it open: the weave's five reads (1, 3)
+in F-HE and needs +2 at the puncture, which the anomaly alone does not fix.
+
+**Weave or thread?** Weave-type. It takes every rank-5 bundle built from the common point's blocks that L and R keep,
+with the end conditions the joint action keeps. F-HE is a frame (GENESIS GAP1), so every count is conditional on it.
+The moves are L and R: by main's S87 the swap and the tick reverse the orientation the index needs.
+
+**The rule** (`W32_RULE.md`, committed 62138306 before the run). One run; every cell came out as stated.
+- The values had been derived by hand and are listed as seen.
+- A first launch stopped at an assertion in the census before writing anything. The code had admitted a bundle on a
+  non-zero intertwiner space, which need not hold an isomorphism. The census was corrected to the rule's criterion
+  (the class kept, so an invertible intertwiner), and the script then ran once.
+
+**The read-out (COMPUTED; P1 PROVED).**
+- **P1.** Localized content that cancels the five's anomaly leaves 3 + b complete generations, where b is the
+  puncture's net 5̄ number. Three needs b = 0.
+- **P2.** L and R keep five bundles: χ₀⁵, χ₀² ⊕ P, D ⊕ χ₀³, D ⊕ P (the weave's five) and D² ⊕ χ₀.
+- **P3, the control.** W22's block rule gives (0, 0), (0, 0), (1, 3), (1, 3) and (2, 2): W23's set.
+- **P4 (naturality) and P5 (locality):**
+
+  | bundle | n(10), natural | n(5̄), natural | anomaly-free, natural | anomaly-free, local |
+  |---|---|---|---|---|
+  | χ₀⁵ | 0, 5 | 0, 10 | 0 | 0 |
+  | χ₀² ⊕ P | 0, 2, 3, 5 | 0, 1, 9, 10 | 0 | 0 |
+  | D ⊕ χ₀³ | −1, 1, 2, 4 | −3, 1, 3, 7 | 1 | 1 |
+  | D ⊕ P | −1, 1, 2, 4 | −3, −2, 0, 1, 3, 4, 6, 7 | 1, 4 | 1 |
+  | D² ⊕ χ₀ | −2, −1, 2, 3 | −2, 1, 2, 4, 5, 8 | −2, 2 | −2, 2 |
+
+  - **No natural or local three for any bundle.**
+  - The weave's five is cured naturally only at one or four complete generations (b = −2 or +1).
+- **P6, what three would need, on the weave's five.**
+  - n(5̄) = 3 is natural: 𝕎 = D ⊗ P at +3 (W28).
+  - n(10) = 3 is not. It needs the plane x₁ + x₂ + x₃ = 0 in the parity lines' local solutions. The lifts with
+    permutation entries keep that plane (their structure on the three lines is 1 ⊕ 2); the bulk commutant does not.
+  - **So three in the 5̄-sector needs the parities kept apart, and three in the 10-sector needs them mixed.**
+
+**What it shows.**
+- **In F-HE the puncture does not make three.** The end condition is how the puncture enters a count (GENESIS GAP2).
+  Under every condition the weave keeps, no bundle from the common point's blocks gives an anomaly-free three.
+- **Why: F-HE's two sectors need opposite principles.**
+  - The 5̄-sector holds 𝕎 = D ⊗ P, where naturality gives the weave's ±3 (W28).
+  - The 10-sector holds D ⊕ P itself. There naturality makes the three parity lines all or nothing, and the doublet
+    counts ±1, so the count is ±1 + {0, 3}, never three.
+- **So three complete generations need a frame whose 10-sector holds 𝕎 (rank six).** That is W27's six-dimensional
+  reading with its link Λ (GENESIS FK11), which stays the one link.
+
+**Status.** COMPUTED (one run; the rule committed first), with P1 PROVED. A WEAVE result within the frame F-HE:
+NEGATIVE for the puncture route.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -1945,6 +1998,7 @@ the owner's approved plan of 2026-10-08: contemplate, close the arc, then W30 (s
 | W29 | COMPUTED and PROVED (the lemma; the rule committed first; every cell as predicted except Z5's naming of the −I lift, corrected post hoc); a CHOSEN object (the ℤ₆ flux, not forced), NEGATIVE as a derivation | the ℤ₆ twist-eater (the weave's qubit ⊗ a qutrit) in E₈: its centraliser is exactly SU(3) × SU(2) (11; the qubit alone F₄ × SU(2), the qutrit alone SU(3) × G₂), its 6 is complex with multiplicity (3, 2), the 15's three single types are the three parities ((3̄, 1) each), the 20's eight single types are ℙ¹(𝔽₃)'s four lines in conjugate pairs ((1, 2) each), and its flux is e^{2πiY}; the swap has no lift (the hand visible). The moves split the 6 as 4 ⊕ 2 (the eigenspaces of the lift of (LR⁻¹L)²): quark generations −1, 1, 3 or 5, each SU(3)³-free with the Standard Model's ratio; locality gives five. Not a derivation: the flux breaks U(1)_Y (exact lemma), three is not forced, no chiral leptons, and the flux is not forced (step 4) QUALIFIED post hoc (P3): the set −1, 1, 3, 5 holds for the moves L and R; with the bare sign −I a move (GENESIS GM5b, open) it is −1 or 5; W28 unchanged |
 | W30 | COMPUTED and PROVED (Q1, Q2; the rule committed first, every cell as stated); a WEAVE result, NOT FORCED | is an order-3 flux forced on the shared fibre? The forced point's puncture −1 has order 2, so no representation of it carries an order-3 flux; the qutrit pairs form one class, kept by L, R and −I and sent to the conjugate class by the swap (the swap with complex conjugation keeps it), so the qutrit point is a common point only on one branch of the swap's fork (GENESIS GM5c, FK3); its rank-3 cusp condition is a choice; the moves act on it through SL(2, 𝔽₃) (order 24, 2 ⊕ 1); the record's order-3 structures are on threads or on the meridian. Allowed on a fork, not forced |
 | W31 | COMPUTED and PROVED (F1's lemma; F4's argument; the rule committed first, every cell as stated); a CHOSEN object (the ℤ₅ flux, not forced), NEGATIVE as a derivation | the ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅, the only twist-eater flux that keeps the whole Standard Model: its centraliser is exactly SU(5)_g (24); its matter is complete SU(5) generations (the 5 ten times, the 10 of SU(5)_g; Λ²5's type ten times, the 5̄ twice; both complex); its flux is a hypercharge rotation (exact). The moves act on ℂ⁵ through 2I = SL(2, 𝔽₅) (order 120, split 3 ⊕ 2, the 2-piece the spin representation with golden traces), and with the bare −I through the ℤ₅ Clifford group (3000). The swap sends the flux to its conjugate. No flux ζ^m gives an anomaly-free three: the SU(5)³-free counts are −1 and 2, or −2 and 1, under the moves, and none under locality. Not a derivation: no three, SU(5) unbroken by anything forced, the flux not forced |
+| W32 | COMPUTED and PROVED (P1; the rule committed first, every cell as stated); a WEAVE result within F-HE, NEGATIVE | the puncture's end condition in F-HE's two sectors: over every rank-5 bundle built from the common point's blocks that L and R keep (five), with the end conditions the weave keeps (naturality, W28; locality), no anomaly-free three. The weave's five (1, 3) is cured naturally only at one or four complete generations (b = −2 or +1; three needs b = 0). The 5̄-sector holds 𝕎, natural at ±3; the 10-sector holds D ⊕ P, natural at ±1 + {0, 3}, and three there needs the parities mixed. In F-HE the puncture does not make three; three complete generations need a frame whose 10-sector holds 𝕎 (W27's Λ) |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -1986,6 +2040,7 @@ the owner's approved plan of 2026-10-08: contemplate, close the arc, then W30 (s
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_puncture_content.py` → `the_puncture_content.json`: W32, the census of rank-5 bundles from the common point's blocks that L and R keep, read in F-HE's two sectors under naturality, locality and W22's block rule, with the completion lemma and what three would need; its rule `W32_RULE.md`, committed first.
 - `the_z5_twist_eater.py` → `the_z5_twist_eater.json`: W31, the ℤ₅ flux in E₈ ⊃ (SU(5)_g × SU(5)_b)/ℤ₅ (the group, the centraliser, the matter, the hypercharge and the orientation, the moves at the puncture, the counts for every flux); its rule `W31_RULE.md`, committed first.
 - `the_order_three_flux.py` → `the_order_three_flux.json`: W30, the puncture in every Sym^n of the forced point, the qutrit class and the moves on it (the swap's fork), the moves on the qutrit's ℂ³, the record's order-3 structures re-read; its rule `W30_RULE.md`, committed first.
 - `the_z6_twist_eater.py` → `the_z6_twist_eater.json`: W29, the ℤ₆ twist-eater in E₈ (the group, the centralisers, the matter by type, the flux and the orientation, the moves at the puncture, the anomalies); its rule `W29_RULE.md`, committed first; `the_z6_twist_eater_posthoc.py` → `the_z6_twist_eater_posthoc.json`, after the read-out: the lifts of −I and of (LR⁻¹L)², and which splits the 6.

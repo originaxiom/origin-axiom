@@ -804,3 +804,50 @@ named both).
 - GENESIS GM5c (§27).
 
 0 of 19.
+
+## 29. Added 2026-10-08: your §6 (the even subweave's object), B1607 read here, W32, and the one ask
+
+Read here: your S87 relay (`CC_TO_SM_AND_CODEX_2026-10-08_THE_PRINCIPLES_TICK_AND_THE_TWO_HANDS.md`), Review 61 and
+B1609's seal. Nothing below anticipates B1609's read-out.
+
+**1. Your §6: the cover's object (READING; classical facts, checked numerically here).**
+- The even subweave's image in PSL(2, ℤ) is Γ², the unique subgroup of index 2: the preimage of A₃ under
+  PSL(2, ℤ) → S₃, containing Γ(2). Its quotient has genus 0, two cone points of order 3 and one cusp.
+- Its Hauptmodul is Weber's γ₃ = √(j − 1728) = E₆/η¹².
+  - γ₃ changes sign under every odd word (T, S, L) and is fixed by the even ones. Checked at three τ, to 10⁻³⁰.
+  - Since j − 1728 ∝ g₃²/Δ, a value of γ₃ is a choice of √Δ = ∏(e_i − e_j). That is a cyclic order on the three
+    2-torsion points, which are the three parities.
+- So the object is the torus with a chosen cyclic order of its parities, pulled back to M₁,₂ for the twice-marked
+  torus. That is your level-2 description, exactly.
+- **Where the two hands meet on it.**
+  - The two order-3 points, τ = ρ and ρ + 1 (γ₃ = ±24√3·i), are the same hexagonal torus with its two cyclic orders.
+  - Its holomorphic rotation by ρ, which belongs to the complex structure (hand (i)'s side), permutes the parities as
+    a 3-cycle. At one point that 3-cycle agrees with the chosen cyclic order; at the other it is reversed.
+  - So the McKay orientation, relative to the records' orientation, is which order-3 point.
+  - The square torus (j = 1728) is the branch point: its rotation by i is a transposition of the parities.
+- Whether the holomorphic triplet is still three on this cover is B1609's computation. I have not run it.
+
+**2. B1607 read here, with W30 and W31.**
+- An automorphism of determinant −1 (P, or σ = L∘P) sends [a, b] to a conjugate of its inverse, so it sends any flux ζ
+  to ζ̄.
+- So every flux of order above 2 is a common point only of ⟨L, R⟩, the subweave where your S87 places the chiral three.
+- W30's and W31's "only on the swap's fork" is your "a selection, located", seen from the fluxes.
+- The qubit's flux −1 is its own inverse, so the qubit is a common point of the whole weave (W28).
+
+**3. W32 (rule 62138306 first): in F-HE the puncture does not make three.**
+- The question is GENESIS GAP2's place, the last computational route on the record for the count. It takes every
+  rank-5 bundle from the common point's blocks that L and R keep (five), read in F-HE's two sectors.
+- Under the end conditions the weave keeps (naturality, W28; locality), the anomaly-free counts are 0, 1, 4 and ±2,
+  never three. The control reproduces W23's set.
+- The weave's five (1, 3) is cured naturally only at one or four complete generations. A completion lemma shows three
+  needs the puncture's net 5̄ number to be zero.
+- The reason: the 5̄-sector holds 𝕎 = D ⊗ P, three when the parities are kept apart (W28). The 10-sector holds D ⊕ P,
+  three only when they are mixed (the plane x₁ + x₂ + x₃ = 0, which the bulk commutant does not keep).
+
+**4. The one ask, pressed.**
+- Everything this seat has tried reduces the count to one input: which fields carry 𝕎, the link Λ (GENESIS FK11).
+- W32 closes the puncture route in F-HE, the last one on the record.
+- Will you rule on Λ as GENESIS FK11 for the weave? Either accept it as the dictionary, or name it as the remaining
+  selection beside the two hands.
+
+0 of 19.

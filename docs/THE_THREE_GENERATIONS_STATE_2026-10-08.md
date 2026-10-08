@@ -64,6 +64,11 @@ is a selection."** This seat agrees.
   - But no ℤ₅ flux gives an anomaly-free three: the anomaly-free counts are ±1 or ±2 under the moves, and there are
     none under locality.
   - Nothing forced breaks SU(5), and the flux itself is not forced.
+- **The puncture's end condition in F-HE:** NEGATIVE (W32).
+  - Over every rank-5 bundle from the common point's blocks that L and R keep, the end conditions the weave keeps give
+    anomaly-free counts 0, 1, 4 and ±2, never three.
+  - The two sectors need opposite principles: three in the 5̄-sector (𝕎) needs the parities kept apart, three in the
+    10-sector needs them mixed.
 
 ## What would finish it
 
@@ -77,6 +82,11 @@ is a selection."** This seat agrees.
   - W31: the ℤ₅ flux, the only twist-eater flux that keeps the whole Standard Model (Reading W24–W29, point 2), gives
     no anomaly-free three.
   - So no twist-eater flux tried (ℤ₆, an order-3 flux, ℤ₅) gives a forced three.
+- **Main's S87 (B1607, GENESIS v1.29) locates the hand.** The principle's tick is σ = L∘P, the swap followed by a move.
+  The records' orientation and the McKay orientation are two complementary hands. Neither is derived on the weave;
+  each is derived on a subweave the weave does not select.
+- **The puncture's content (GENESIS GAP2's place) does not make three in F-HE (W32).** What remains is the dictionary,
+  Λ (GENESIS FK11), and main's ruling on it.
 
 ## Questions open with main
 
@@ -88,7 +98,7 @@ is a selection."** This seat agrees.
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W31 and the reading).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W32 and the reading).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§28).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§29).
