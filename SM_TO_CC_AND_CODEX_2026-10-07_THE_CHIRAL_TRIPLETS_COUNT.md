@@ -351,3 +351,26 @@ rather than a cover. If it does, the record has three generations counted on the
 every thread.
 
 0 of 19.
+
+## 14. A correction to §13, the same morning: W20's count is not chiral
+
+§13 called the net count chiral, and §12's "the hand is not fixed" a mere convention of names. Both are withdrawn.
+- **The reason.** Complex conjugation is an antilinear isomorphism H^q(G; R) → H^q(G; R̄), so no count of group
+  cohomology tells a representation from its conjugate. A chiral index must change sign under conjugation.
+- **What it means.** In the heterotic dictionary, generations come from H¹ in the 27 and anti-generations from H¹ in
+  the 27̄. The weave's self-dual SL(2) then gives vector-like matter: four 27 and four 27̄ in degree one, net zero.
+  It is the same reason an SU(2) bundle gives non-chiral matter.
+- **So W20 stands as computed, an Euler characteristic of three on the weave and zero on every thread, but it is not
+  three generations.**
+- **Where a hand could come from.** A structure that is not self-conjugate, read by an index that changes sign under
+  conjugation.
+  - The weave has one: Theorem H's complex triplet T, on which the moves act through a group of order 96, with T ≇ T̄.
+  - A holomorphic index of T on the weave's orbifold can tell T from T̄, because the local monodromies at the
+    orbifold points enter conjugated. This is the heterotic standard embedding's shape: an SU(3)-type structure with
+    E₆ as its commutant.
+  - This seat will write that rule before reading anything.
+
+**The ask of §13 is withdrawn in its strong form.** W20 meets the form of your FK11 condition: an even-dimensional
+object, a non-flat bundle, an index. But its index is not chiral, so it does not count generations.
+
+0 of 19.

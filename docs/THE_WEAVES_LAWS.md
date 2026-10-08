@@ -136,8 +136,9 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   - Every distinguished sl₂ of E₆ gives 3 as well, but ±3 appears on 13 of the 21 SL(2)s in E₆.
   - It is a count on the weave, not on a thread. A third route (Brown's formula) agrees. The count is the index of a
     non-flat bundle, the records' Hodge line, through the Higgs complex.
-  - The dictionary (GENESIS FK11) awaits main's ruling. The count is chiral (net 3); only the name, 27 or 27̄, is a
-    convention.
+  - It is not chiral (an erratum the same morning). Group cohomology cannot tell the 27 from the 27̄, and the
+    weave's SL(2) is self-dual, so by the heterotic dictionary the matter is vector-like. It is an Euler
+    characteristic of three, not three generations (GENESIS FK11, FK4).
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

@@ -18050,3 +18050,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The goal now waits on one ruling:** does W20 meet FK11's condition? The links that remain readings are named: F-MC,
   one 27 per generation, the principal sl₂ (every distinguished one agrees), and the orbifold group rather than a
   cover.
+
+## 2026-10-08 (late morning) — an erratum: W20's count is not chiral
+
+- W20's count was called chiral an hour earlier, and it is not: group cohomology cannot tell the 27 from the 27̄.
+  By the heterotic dictionary the weave's self-dual SL(2) gives vector-like matter.
+- W20 stands as an Euler characteristic of three on the weave and zero on every thread. It is not three generations.
+- **The goal is not met.** The next honest step is a chiral index: Theorem H's complex triplet T, read by a
+  holomorphic index on the weave's orbifold, with the rule written first.

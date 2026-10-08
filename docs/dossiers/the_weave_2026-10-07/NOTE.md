@@ -984,12 +984,20 @@ Eichler–Shimura, agreeing on every orbit; every orbit's dimension equal to E�
 - So −χ(G; 27) = 3 is the index of a non-flat bundle on an even-dimensional object that the weave forces. That is the
   form main's FK11 condition names.
 
-**The hand, restated.**
-- The count is a net index: h¹ − h⁰ − h² = 4 − 1 = 3, and a non-zero net count is chirality.
-- Its sign is the same, +3, on every distinguished SL(2).
-- What the count leaves open is which of two conjugate names the three carry, 27 or 27̄. That is E₆'s outer
-  automorphism, a naming convention, not a second physical choice.
-- The line below, "the hand: the 27 and the 27̄ read alike", is right about the names and overstated about the hand.
+**The hand: an erratum (the same morning; it withdraws the paragraph that stood here in e51785a1).** That paragraph
+called the net count chiral. It is not, and cannot be.
+- Complex conjugation is an antilinear isomorphism H^q(G; R) → H^q(G; R̄). So no count of group cohomology tells a
+  representation from its conjugate. A chiral index must change sign under conjugation.
+- In the established heterotic dictionary, generations come from H¹ of the bundle in the 27 and anti-generations from
+  H¹ in the 27̄. A self-conjugate structure then gives vector-like matter: here four 27 and four 27̄ in degree one, net
+  zero. It is the same reason an SU(2) bundle gives non-chiral matter.
+- **So W20's three is the weave's Euler characteristic in the 27, not a count of chiral generations.** The weave's
+  SL(2) is self-dual, and its flat cohomology, or the Hodge structure on it, cannot carry a hand.
+- What could carry one is a structure that is not self-conjugate, read by an index that changes sign under
+  conjugation. The weave has such a structure: Theorem H's complex triplet T (W10, W15), on which the moves act
+  through a group of order 96 with T ≇ T̄. A holomorphic index on the weave's orbifold can tell T from T̄, because the
+  local monodromies at the orbifold points enter conjugated. That is the next step, not a result.
+
 
 **Status.**
 - **COMPUTED, and exact:**
@@ -1002,7 +1010,7 @@ Eichler–Shimura, agreeing on every orbit; every orbit's dimension equal to E�
   - the count by the weave's Euler characteristic (the analogue of an index; by Eichler–Shimura it is a sum of
     Riemann–Roch indices of powers of the records' Hodge line λ, so a non-flat bundle carries it).
 - **What is not fixed:**
-  - the hand: the 27 and the 27̄ read alike (GENESIS FK4, GAP3);
+  - the hand: the 27 and the 27̄ read alike, and the count is not chiral (see the erratum above; GENESIS FK4, GAP3);
   - whether the weave's group with its torsion, rather than a torsion-free cover, is the physical object (GENESIS
     FK7's question in another form);
   - the swap's action (GENESIS GM5c), which may exchange the 27 and the 27̄.
@@ -1033,7 +1041,7 @@ Eichler–Shimura, agreeing on every orbit; every orbit's dimension equal to E�
 | W17 | COMPUTED (WEAVE, 32 of 32 states to length 8, 480 readings) | the weave's five on the thread itself (the spin doublet and the parity triplet, twisted ν³ and ν⁻² so that SU(5)′'s determinant is trivial, glued by a weave class) reads F-HE's generation shape (1, 1), dual (−1, −1), on the vector-like twin of every word with φ³ ≢ ±I (mod 16); a lone 5̄ on the chiral twin; nothing on the mod-16 words. Main's three conditions for FK11 all have weave answers. The count is one per thread: the parities are the five's triplet, and three needs the deck kept (FK7) |
 | W18 | COMPUTED (WEAVE, 32 states; a prediction that failed at special classes) | the five's sectors on the forced cover: at the generic class each of the three parity lines carries the five's pair (1, 1) on every carrier, the shape of the orbifold standard on the weave's own modules; on every carrier exactly two classes of the gluing line drop it to (0, 1) (the engine's basis met one on four); (0, 2) on the chiral twins; nothing on the mod-16 words. The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 these are class-index pairs, a selection by forced characters, not counts |
 | W19 | READING (the facts classical) | the weave's own surface: the moves with the fibre's group generate Aut⁺(F₂), every thread's group inside it, so the weave's space is M₁,₂, the universal punctured elliptic curve, every thread at once (each over its closed geodesic). Its Euler characteristic is 1/12, not 0, so B1604's vanishing stops at the threads. The three parities are the fixed points of the elliptic involution off the puncture, one curve of degree 3. The even-dimensional object main's FK11 asks for; no bundle named, no count read |
-| W20 | COMPUTED (exact; a census of all 21 SL(2)s in E₆, two routes); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame, carried by the weave's own SL(2) (the moves on the records), counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 through the principal sl₂ and through every distinguished one, while every thread reads 0 (B1604). ±3 on 13 of 21 SL(2)s; the 78 reads 16; the hand is not fixed (27 and 27̄ alike) |
+| W20 | COMPUTED (exact; a census of all 21 SL(2)s in E₆, two routes); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame, carried by the weave's own SL(2) (the moves on the records), counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 through the principal sl₂ and through every distinguished one, while every thread reads 0 (B1604). ±3 on 13 of 21 SL(2)s; the 78 reads 16. Not chiral: the 27 and 27̄ read alike, and by the heterotic dictionary the matter is vector-like (four of each in degree one) |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |

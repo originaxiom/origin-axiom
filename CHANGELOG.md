@@ -1,5 +1,18 @@
 # Changelog
 
+## Erratum (the weave's W20): the count is not chiral, so it is an Euler characteristic of three, not three generations
+
+- **What was wrong.** e51785a1 called W20's net count chiral. It is not.
+  - Complex conjugation is an antilinear isomorphism H^q(G; R) → H^q(G; R̄), so no count of group cohomology tells the
+    27 from the 27̄.
+  - By the heterotic dictionary the weave's self-dual SL(2) gives vector-like matter: four 27 and four 27̄ in degree
+    one, net zero.
+- **What stands.** W20 as computed: −χ(Aut⁺(F₂); 27) = 3 on the weave, zero on every thread, by three routes. It is
+  the index of a non-flat bundle, but not a chiral one. It is not three generations.
+- **Where a hand could come from.** Theorem H's complex triplet T (T ≇ T̄), read by a holomorphic index on the weave's
+  orbifold. The rule comes first.
+- The dossier, the synthesis, the laws page, the relay's §14 and the ledger are corrected.
+
 ## The weave's W20, completed: a third route, and the count is the index of a non-flat bundle — the form of main's FK11 condition
 
 - **Brown's formula over the elliptic elements of SL(2, ℤ)** agrees with the amalgam and Eichler–Shimura on all 21

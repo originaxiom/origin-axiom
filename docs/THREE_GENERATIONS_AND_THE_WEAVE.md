@@ -121,7 +121,7 @@ So this section records which patterns the weave's group contains, and nothing m
 | 9″ | PROVED (Theorem H; the extension formula); COMPUTED (W15) | the hand is the determinant of the weave's triplet, mirror-odd. The weave's own extensions carry index one per parity, three or nothing, with the mod-16 law deciding which threads carry (32 of 32 to length 8). Against main's conditions for the dictionary: the module and count, and a chirality handle other than the index, are met; the shape identity is not built into the class index (the weave's five reads (−1, −3)) |
 | 9‴ | COMPUTED (W17, 32 of 32 to length 8) | on the thread itself the weave's SU(5)′ five (D ν³ ⊕ P ν⁻², glued by a weave class; the hypercharge ratio forced by the determinant) reads F-HE's generation shape (1, 1), dual (−1, −1), on the vector-like twin of every word with φ³ ≢ ±I (mod 16), a lone 5̄ on the chiral twin, nothing on the mod-16 words: one generation per thread, with the parities as the five's triplet. By main's B1604 (verified, W16) a class-index law, not a count |
 | 9⁗ | COMPUTED (W18, 32 states; a prediction failed at special classes) | on the forced cover, at the generic class, each of the three parity lines carries the five's pair (1, 1) on every carrier: three sectors selected by the weave's own characters, alike, cycled by the deck, the orbifold standard's shape. On every carrier exactly two classes of the gluing line drop it to (0, 1). The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 a class-index law: the sectors are a selection by forced characters, not counts |
-| 11 | COMPUTED (W20, exact; all 21 SL(2)s in E₆); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame on the weave itself: the moves' own SL(2) on the records, through E₆'s principal sl₂, counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 (h⁰ = 1, h¹ = 4, h² = 0), and 0 on every thread (B1604). Every distinguished sl₂ gives 3; ±3 on 13 of 21. Three routes agree; the count is the index of a non-flat bundle (the records' Hodge line), the form of FK11's condition; chiral (net 3), only the name 27 or 27̄ conventional. Open: the orbifold against a cover, the swap, main's ruling |
+| 11 | COMPUTED (W20, exact; all 21 SL(2)s in E₆); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame on the weave itself: the moves' own SL(2) on the records, through E₆'s principal sl₂, counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 (h⁰ = 1, h¹ = 4, h² = 0), and 0 on every thread (B1604). Every distinguished sl₂ gives 3; ±3 on 13 of 21. Three routes agree; the count is the index of a non-flat bundle (the records' Hodge line), the form of FK11's condition. NOT chiral (an erratum): the 27 and 27̄ read alike, and the heterotic dictionary makes the matter vector-like. So an Euler characteristic of three, not three generations |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -222,8 +222,12 @@ taken from the weave. Every link is named with its status.
     shape: 27/6 − tr₂₇(S)/2 = 4.5 − 1.5 = 3, a bulk term less the square torus's twisted sector.
   - **The count is the index of a non-flat bundle:** χ(Symᵏ) = χ(X̄, λ^(−k)) − χ(X̄, λ^(k+2)), via the Higgs complex
     of the records' variation of Hodge structure. That is the form main's FK11 condition names.
-  - **The hand:** the net index, 3, is non-zero, so the count is chiral, with the same sign on every distinguished
-    SL(2). Only the name, 27 or 27̄, is left open: E₆'s outer automorphism, a convention.
+  - **The hand (an erratum the same morning):** the count is not chiral. Group cohomology cannot tell a
+    representation from its conjugate. By the heterotic dictionary the weave's self-dual SL(2) gives vector-like
+    matter, four 27 and four 27̄, net zero.
+    - So W20's three is the weave's Euler characteristic in the 27, not three chiral generations.
+    - A hand needs a structure that is not self-conjugate, such as Theorem H's complex triplet T, read by an index
+      that changes sign under conjugation.
   - **Not fixed:**
     - whether the orbifold group or a torsion-free cover is physical;
     - the swap;
