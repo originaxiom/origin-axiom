@@ -789,6 +789,25 @@ def test_w40_the_weave_at_omega_verified():
     assert np.array_equal(np.linalg.matrix_power(MU, 6), np.eye(2, dtype=int))
 
 
+def test_w41_the_zero_modes_weight():
+    """W41 (the rule committed first): the weave's zero modes have weight -3/4 as one-forms. g = N / (Im tau)^(3/4) is
+    invariant under the moves, the numerator pair (theta_3, theta_2)(z | 2 tau) has weight 1/2 with a constant unitary W,
+    and theta_1's multiplier is an eighth root of unity. The law under T recomputed in process with the tau-series:
+    W(T) = diag(1, i) and eps1(T) = exp(i pi / 4)"""
+    import sys
+    import mpmath as mp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_zero_modes_weight.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True
+    assert d["the largest relative change of g"] < 1e-6
+    sys.path.insert(0, str(here))
+    import the_zero_modes_weight as ZW
+    t, z = complex(0.23, 1.07), complex(0.13, 0.07)
+    assert abs(ZW.th(3, z, 2 * (t + 1)) - ZW.th(3, z, 2 * t)) < 1e-12
+    assert abs(ZW.th(2, z, 2 * (t + 1)) - 1j * ZW.th(2, z, 2 * t)) < 1e-12
+    assert abs(ZW.th(1, z, t + 1) - mp.exp(1j * mp.pi / 4) * ZW.th(1, z, t)) < 1e-12
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

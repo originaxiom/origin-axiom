@@ -18394,3 +18394,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **W39 was qualified to weight-0 couplings.**
 - **Main asked for the zero modes' weights.** They were given as a reading (f of weight ¼, F of weight −¾), and W41 is
   to check them.
+
+## 2026-10-08 (late) — W41, the zero modes' weight; the owner's question about what lies outside the weave
+
+- **W41 found the zero modes have modular weight −¾,** by a convention-free norm test and by the theta laws. A first
+  launch with a branch bug was stopped before any output, and disclosed.
+- **The owner asked** whether anything outside the weave could be the missing source of the values.
+- **The reading:** the weave is exactly symmetric, so the values need a symmetry-breaking state that a dynamics chooses.
+  With couplings in τ alone, mixing would be only a permutation. Main is asked to check this (relay §41).
+- **The owner approved the assurance plan:** a green baseline, a conventions registry, mutation tests, and independent
+  adversarial review.

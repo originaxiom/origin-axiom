@@ -153,6 +153,10 @@ Under the owner's rulings, the table's rows split into two groups:
 - **Main's S95 (B1617), verified here (W40), given τ = ω:** the residual group at ω (order 48) keeps T irreducible,
   because the inner automorphisms act as the parity signs at every τ. So the masses at ω are degenerate. W39's
   consequences are qualified to weight-0 couplings; main's next cell takes modular-form Yukawas of weight k.
+- **W41, the zero modes' weight:** the modes are a modular form of weight −¾ (their coefficient has weight ¼); at ω
+  their U-action is W40's. The owner asked whether what lies outside the weave is the missing source. The reading: the
+  weave is exactly symmetric at every τ, so the values need a symmetry-breaking state chosen by a dynamics. In a τ-only
+  reading, mixing would be a permutation (relay §41; asked of main).
 
 ## Questions open with main
 

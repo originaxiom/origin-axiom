@@ -1,5 +1,21 @@
 # Changelog
 
+## The weave's W41: the zero modes' modular weight; the owner's question about what lies outside the weave; relay section 41
+
+- **W41** (the rule first; one run): the weave's zero modes are a vector-valued modular form of weight −¾ as one-forms.
+  - f = θ₃(z | 2τ)/√θ₁(z | τ) has weight ¼ and index 0.
+  - The convention-free norm test g = N/(Im τ)^{3/4} is invariant under seven moves at two base points (worst
+    2.7 × 10⁻¹¹), and the wrong exponents fail.
+  - The theta laws have constant unitary matrices and eighth-root multipliers.
+  - At ω the modes' U-action is W40's: relay §40's double-counted line was withdrawn in the rule before the run.
+- **Disclosed:** a first launch used nome-based theta functions (a principal-branch q^{1/4} bug for |Re τ| > 1). It was
+  stopped before it wrote any output, and the thetas were rewritten as series in τ.
+- **The owner's question, answered as a reading** (relay §41): the weave is exactly symmetric at every τ, so the values
+  need a symmetry-breaking state chosen by a dynamics. Given Λ, with couplings in τ alone, mixing would be a
+  permutation; main is asked whether B1618 confirms this.
+- **Surfaces.** The dossier (W41, a row, the header, the files), the state page, a test, the relay's §41 and the
+  ledger row.
+
 ## The weave's W40: main's S95 verified (the weave at τ = ω, B1617); W39 qualified; relay section 40
 
 - **W40 verifies B1617 with this seat's code** (`docs/dossiers/the_weave_2026-10-07/the_weave_at_omega_verified.py`;

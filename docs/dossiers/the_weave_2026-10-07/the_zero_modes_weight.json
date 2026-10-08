@@ -1,0 +1,223 @@
+{
+ "status": "W41: the rule (W41_RULE.md) committed before this file existed; one run (a first launch stopped before any output, disclosed in the docstring)",
+ "the series against mpmath at tau0 (max abs difference)": 6.69e-22,
+ "K1: g = N / (Im tau)^(3/4) under the moves": {
+  "tau0": {
+   "g(tau)": 3.07002011729,
+   "under the moves": {
+    "T": {
+     "gamma tau": [
+      1.23,
+      1.07
+     ],
+     "relative change of g": 1.82e-14
+    },
+    "S": {
+     "gamma tau": [
+      -0.192019,
+      0.893304
+     ],
+     "relative change of g": 4.44e-15
+    },
+    "U": {
+     "gamma tau": [
+      -0.462789,
+      0.402589
+     ],
+     "relative change of g": 8.22e-15
+    },
+    "L (the record's)": {
+     "gamma tau": [
+      1.23,
+      1.07
+     ],
+     "relative change of g": 1.82e-14
+    },
+    "R (the record's)": {
+     "gamma tau": [
+      0.537211,
+      0.402589
+     ],
+     "relative change of g": 8.88e-16
+    },
+    "RL = R L": {
+     "gamma tau": [
+      0.63549,
+      0.174899
+     ],
+     "relative change of g": 5.77e-15
+    },
+    "LRR = L R R": {
+     "gamma tau": [
+      1.391227,
+      0.159435
+     ],
+     "relative change of g": 2.68e-11
+    }
+   }
+  },
+  "tau1": {
+   "g(tau)": 3.03291944452,
+   "under the moves": {
+    "T": {
+     "gamma tau": [
+      0.59,
+      0.83
+     ],
+     "relative change of g": 1.39e-14
+    },
+    "S": {
+     "gamma tau": [
+      0.478413,
+      0.968495
+     ],
+     "relative change of g": 1.82e-14
+    },
+    "U": {
+     "gamma tau": [
+      -0.568949,
+      0.800386
+     ],
+     "relative change of g": 8.88e-15
+    },
+    "L (the record's)": {
+     "gamma tau": [
+      0.59,
+      0.83
+     ],
+     "relative change of g": 1.39e-14
+    },
+    "R (the record's)": {
+     "gamma tau": [
+      0.431051,
+      0.800386
+     ],
+     "relative change of g": 7.33e-15
+    },
+    "RL = R L": {
+     "gamma tau": [
+      0.505751,
+      0.258004
+     ],
+     "relative change of g": 4.44e-15
+    },
+    "LRR = L R R": {
+     "gamma tau": [
+      1.467719,
+      0.297704
+     ],
+     "relative change of g": 1.79e-14
+    }
+   }
+  }
+ },
+ "K1 controls: S at tau0 with other exponents": {
+  "exponent 0.25": 0.0863,
+  "exponent 1.0": 0.0462
+ },
+ "K2, K3: the laws of the numerator pair and of theta_1": {
+  "T": {
+   "W (fitted at tau0)": [
+    [
+     "(1-0j)",
+     "-0j"
+    ],
+    [
+     "(-0+0j)",
+     "1j"
+    ]
+   ],
+   "W unitary": true,
+   "residual at three more z (tau0, tau1)": [
+    2.85e-16,
+    3.82e-16
+   ],
+   "W the same at tau1": 8.14e-16,
+   "eps1": "(0.707106781+0.707106781j)",
+   "eps1 constant": 2.48e-16,
+   "eps1 an eighth root of unity": true,
+   "M_f = W / sqrt(eps1)": [
+    [
+     "(0.923879533-0.382683432j)",
+     "-0j"
+    ],
+    [
+     "(-0+0j)",
+     "(0.382683432+0.923879533j)"
+    ]
+   ]
+  },
+  "S": {
+   "W (fitted at tau0)": [
+    [
+     "(0.5-0.5j)",
+     "(0.5-0.5j)"
+    ],
+    [
+     "(0.5-0.5j)",
+     "(-0.5+0.5j)"
+    ]
+   ],
+   "W unitary": true,
+   "residual at three more z (tau0, tau1)": [
+    7.02e-16,
+    4.97e-16
+   ],
+   "W the same at tau1": 4.64e-15,
+   "eps1": "(-0.707106781-0.707106781j)",
+   "eps1 constant": 4.58e-16,
+   "eps1 an eighth root of unity": true,
+   "M_f = W / sqrt(eps1)": [
+    [
+     "(0.653281482+0.27059805j)",
+     "(0.653281482+0.27059805j)"
+    ],
+    [
+     "(0.653281482+0.27059805j)",
+     "(-0.653281482-0.27059805j)"
+    ]
+   ]
+  },
+  "U": {
+   "W (fitted at tau0)": [
+    [
+     "(0.5-0.5j)",
+     "(0.5+0.5j)"
+    ],
+    [
+     "(0.5-0.5j)",
+     "(-0.5-0.5j)"
+    ]
+   ],
+   "W unitary": true,
+   "residual at three more z (tau0, tau1)": [
+    7.66e-16,
+    8.4e-16
+   ],
+   "W the same at tau1": 2.85e-15,
+   "eps1": "-1j",
+   "eps1 constant": 6.52e-16,
+   "eps1 an eighth root of unity": true,
+   "M_f = W / sqrt(eps1)": [
+    [
+     "(0.707106781-0j)",
+     "0.707106781j"
+    ],
+    [
+     "(0.707106781-0j)",
+     "-0.707106781j"
+    ]
+   ]
+  }
+ },
+ "checks": {
+  "the theta series agree with mpmath at tau0 (to 1e-15)": true,
+  "K1: g invariant to 1e-6 under every listed move at both base points": true,
+  "K1: the controls fail by more than 1e-2": true,
+  "K2: W constant (three more z, and tau1) to 1e-10 and unitary": true,
+  "K3: eps1 constant and an eighth root of unity": true,
+  "K4: f has weight 1/4 and index 0, so F has weight -3/4": true
+ },
+ "the largest relative change of g": 2.68e-11,
+ "every check holds": true
+}

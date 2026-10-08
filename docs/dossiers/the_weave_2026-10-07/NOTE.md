@@ -28,6 +28,7 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W38: main's B1615 and B1616 verified: the weave's group fixes no mass, charged or neutrino.
 - W39 (a reading given Λ): the masses' tensor is T ⊗ T; at weight 0 a Higgs without flavour gives no mass.
 - W40: main's B1617 verified, given τ = ω: the residual group (order 48) keeps T irreducible.
+- W41: the weave's zero modes have modular weight −¾ (f has weight ¼, index 0); the input main asked for.
 
 ## The setting
 
@@ -2359,6 +2360,42 @@ to T (as in W35 and W38). Its generators:
 
 **Status.** VERIFIED (not blind): main's WEAVE result, reproduced, given τ = ω. 0 of 19.
 
+## W41. The weight of the weave's zero modes (`the_zero_modes_weight.py`; `W41_RULE.md`)
+
+**Why.** Main's S95 asked for "the weights the weave's zero modes carry". The rule (`W41_RULE.md`, 4a1d580f) was
+committed before the code. It also withdrew one line of relay §40 before any run: at ω, U's action on the holomorphic
+modes is its topological action on H^{1,0} = T (W40's eigen-turns), with the automorphy factor already inside.
+Weave-type: the quantity is the modes' transformation under all of SL(2, ℤ) at once.
+
+**Disclosed.** A first launch used mpmath's nome-based theta functions. They take the principal q^{1/4}, which
+misplaces a fourth root of unity once |Re τ| > 1 (or |Re 2τ| > 1 for the numerators). It was stopped before it wrote
+any output. The thetas were rewritten as series in τ, with a control against mpmath at the base point (agreement
+6.7 × 10⁻²²), and the run that counts was launched once.
+
+**The result (COMPUTED; every check holds).**
+- **K1, the weight by the norm (convention-free).** g(τ) = N(τ)/(Im τ)^{3/4}, where N is the mode's L² norm (W21's
+  Hodge–Riemann form).
+  - It is invariant under T, S, U, the record's L and R, and the matrix products RL and LRR, at τ₀ = 0.23 + 1.07i and
+    τ₁ = −0.41 + 0.83i.
+  - The largest relative change is 2.7 × 10⁻¹¹, at the most stretched image, LRR τ₀ with Im = 0.159. Every other change
+    is at most 1.8 × 10⁻¹⁴.
+  - The controls fail as predicted: exponent ¼ by 0.086 and exponent 1 by 0.046 (S at τ₀).
+- **K2.** The numerator pair (θ₃, θ₂)(z | 2τ) has weight ½ and index ¼, with a constant unitary W(γ). W is fitted at
+  two z and holds at three more and at τ₁ to 10⁻¹⁵:
+  - W(T) = diag(1, i);
+  - W(S) = e^{−iπ/4}/√2 · [[1, 1], [1, −1]];
+  - W(U) = ½ [[1 − i, 1 + i], [1 − i, −1 − i]].
+- **K3.** θ₁ carries the multiplier ε₁(T) = e^{iπ/4}, ε₁(S) = e^{−3iπ/4} and ε₁(U) = −i: eighth roots of unity, constant.
+- **K4.** So f = θ₃(z | 2τ)/√θ₁(z | τ) has weight ¼ and index 0, and the exponentials cancel, as a flat section's
+  must. The one-form F = f dz has weight −¾, and the normalised field's Kähler weight is ¾. For example,
+  M_f(U) = (1/√2)[[1, i], [1, −i]].
+
+**What it shows.** The weave's zero modes are a vector-valued modular form of weight −¾. The moves act by the
+automorphy factor times ε ⊗ c ⊗ S (W38's normal form). At the fixed point ω the total action is W40's, with nothing
+added. This is the input main asked for. B1618 sweeps every phase, so its verdict does not wait on it.
+
+**Status.** COMPUTED (the rule first; one run after a disclosed stopped launch). 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2510,6 +2547,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W38 | VERIFIED (not blind; S93 and S94 read first); main's WEAVE results reproduced | main's B1615 and B1616 rebuilt from W21's construction: no invariant bilinear or trilinear of T alone; T̄ ⊗ T = 1 + 2 + 3 + 3; a singlet Higgs gives (1, 1, 1); the fixed Dirac vacua give (0, 1, 1) or (½, ½, 1), and along RRL a family with m₁ + m₂ = m₃ (to 3 × 10⁻¹⁵); Sym² T = 1 + 2 + 3, Λ² T irreducible, no Majorana vacuum fixed along RRL, rigid spectra (1, 1, 1), (½, ½, 1), (0, 1, 1) elsewhere. The weave's group fixes no mass. Exact addendum (post hoc, for the audit lane): T is the cube's rotations twisted by a character (W21's μ ⊗ 3′); the sum rule is Heron's identity on the whole family, masses ∝ (r, (1 − r)/2, (1 + r)/2); every residual-fixed Majorana matrix, all pieces at once, has a degenerate pair; several Higgs irreducibles along one residual leave the masses free |
 | W39 | READING given Λ (no new computation) | given W27's Λ every left-handed field of a generation is in T, so a mass term's tensor is T ⊗ T, not B1615's T̄ ⊗ T; with E₆'s cubic and one 27 Higgs the Yukawas are symmetric (Sym² T, B1616's tensor, for every sector): no mass from a flavourless Higgs or from the generations' own 27s, any mass needs a Higgs carrying c̄², and every residual-aligned spectrum is degenerate or zero. Rests on the character c (physical in W24's E₈ embedding, centraliser F₄ × SU(2); gauge where a U(1) acts on T), a frame datum of GENESIS FK11 |
 | W40 | VERIFIED (not blind; S95 read first); main's WEAVE result reproduced, given τ = ω | main's B1617 rebuilt from W21's construction: U (a ↦ b, b ↦ a⁻¹b; H₁ matrix of order 6, fixing ω), the inner automorphisms and −I generate a group of order 48 on T, irreducible (commutant 1); the inner automorphisms are the Klein group's diagonal signs (the parity grading), U is i times a 3-cycle of the parity axes, with eigen-turns ¼, 7/12, 11/12 (order 12); one invariant in T̄ ⊗ T (three equal masses), none in T ⊗ T or Sym² T. W39 qualified: its consequences hold at weight 0 |
+| W41 | COMPUTED (the rule first; one run after a disclosed stopped launch) | the weave's zero modes are a vector-valued modular form of weight −¾ (as one-forms; f = θ₃(z \| 2τ)/√θ₁(z \| τ) of weight ¼ and index 0): the norm test g = N/(Im τ)^{3/4} is invariant under T, S, U, L, R, RL, LRR at two base points (worst 2.7 × 10⁻¹¹; exponents ¼ and 1 fail by 0.086 and 0.046); the numerator pair has weight ½ with constant unitary W (W(T) = diag(1, i)); θ₁'s multipliers are eighth roots. At ω the modes' U-action is W40's, nothing added (§40's line withdrawn in the rule) |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2552,6 +2590,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
+- `W41_RULE.md`: the rule, committed before the code; `the_zero_modes_weight.py` → `the_zero_modes_weight.json`: W41, the zero modes' weight by the norm and by the theta laws.
 - `the_weave_at_omega_verified.py` → `the_weave_at_omega_verified.json`: W40, main's B1617 recomputed, given τ = ω (a verification, not blind).
 - `the_couplings_exact.py` → `the_couplings_exact.json`: W38's exact addendum (post hoc): the normal form of the group on T, Heron's identity on B1615's family, and each residual's whole fixed space.
 - `the_tm1_prediction_and_observer_layer_verified.py` → `the_tm1_prediction_and_observer_layer_verified.json`: W37, main's B1613 and B1614 recomputed (a verification, not blind).

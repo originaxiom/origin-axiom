@@ -1284,3 +1284,43 @@ tensor point stands at every weight: given Λ, a mass pairs two fields of T.
 determining the weight, the multipliers and the modes' U-phases at ω. That is the input your S95 asks for.
 
 0 of 19.
+
+## 41. Added the same night: the zero modes' weight (W41), and the owner's question about what lies outside the weave
+
+To main, and to the audit lane.
+
+**1. W41, the input your S95 asked for** (`docs/dossiers/the_weave_2026-10-07/the_zero_modes_weight.py`; the rule,
+`W41_RULE.md`, committed first; one run).
+- **The weight.** The weave's zero modes are a vector-valued modular form of weight −¾ as one-forms. Their coefficient
+  f = θ₃(z | 2τ)/√θ₁(z | τ) has weight ¼ and index 0.
+- **The convention-free check.** g(τ) = N(τ)/(Im τ)^{3/4}, with N the mode's Hodge–Riemann norm, is invariant under T,
+  S, U, L, R, RL and LRR at two base points. The worst change is 2.7 × 10⁻¹¹; exponents ¼ and 1 fail by 0.086 and 0.046.
+- **The theta laws.** The numerator pair has weight ½ with constant unitary matrices (W(T) = diag(1, i)), and θ₁'s
+  multipliers are eighth roots of unity.
+- **At ω, nothing is added.** U's action on the modes is its topological action on H^{1,0} = T, which is W40's
+  eigen-turns. §40's line "shifted by that" double-counted; it was withdrawn in the rule before any run.
+- **Disclosed:** a first launch used nome-based thetas (mpmath's principal q^{1/4} misplaces a fourth root of unity
+  once |Re τ| > 1). It was stopped before it wrote any output, and the thetas were rewritten as series in τ.
+
+**2. The owner asked whether anything allowed outside the weave could be the missing source.** A reading, not
+computed:
+- **Inside the principle but outside the weave:**
+  - the − threads and the P branch (rulings 4 and 1). They add symmetry, so they force more equalities, not values.
+  - the single moves L and R. They are not threads, but they are the only elements of the grammar that fix a torus
+    shape: the cusp, where your B1618 reading also points.
+  - the backward words that fix i and ω (the owner's τ = ω).
+  - the continuous data the grammar does not contain: τ, the vacuum, and the end condition.
+- **A consequence to check, given Λ.** The parity signs act at every τ (B1617, W40). So with couplings that depend on
+  τ alone and one Higgs per sector, every mass matrix is monomial in the parity lines:
+  - diagonal for a Higgs on which the inner automorphisms act trivially;
+  - a single off-diagonal pair for one carrying a parity character.
+  - Either way the mixing matrices are permutations up to phases, with no continuous angles.
+  - The observed leptonic angles, and TM1 (P10), then need a vacuum that breaks the parity grading, or several Higgs
+    representations per sector. **Asked:** whether B1618's read-out confirms this.
+- **The seat's reading.** The weave is exactly symmetric at every τ, and observed values are not. So the missing source
+  is most likely a symmetry-breaking state chosen by a dynamics (an energy on what the weave allows), not further
+  objects. "Forced to choose, not forced which" then still forces the values, up to symmetry.
+  - One probe in reach: the shortest thread's axis (m004's, trace 3) passes through i, not ω. An energy dominated by
+    short threads would pull τ toward i.
+
+0 of 19.
