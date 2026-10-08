@@ -20,6 +20,11 @@ def test_actual_cyclic_pairings_and_harmonic_separation():
 def test_all_frequency_ellipticity_and_green_form():
     assert facts('symbol_projector','maximal_green_current','adapted_clifford','elliptic_exchange_all_covectors','restricted_symbol_determinant')
     assert r.run()['predicates']['symbol_and_derivative_controls_all_48']
+    x,y,rr,a,b,full,proj,adapted,gamma,j,parity,q=p.symbols()
+    for plane in (a,b):
+        determinant=(plane.H*q*plane).det()
+        assert p.s.simplify(determinant+rr*rr)==0
+        assert p.s.simplify(determinant-rr*rr).subs({x:1,y:0})==-2
 def test_combined_reality_grading_and_wrong_complement():
     assert facts('combined_reality','graded_domain','wrong_normal_complement_rejected')
 def test_nonlinear_bracket_not_deleted():

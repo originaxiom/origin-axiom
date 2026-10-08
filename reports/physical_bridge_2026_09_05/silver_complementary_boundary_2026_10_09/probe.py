@@ -62,7 +62,7 @@ def run():
     ck('maximal_green_current',full.rank()==4 and z(full.H*gamma*full))
     ck('adapted_clifford',z(adapted*adapted-r*s.eye(8)) and z(adapted.H-adapted))
     ck('elliptic_exchange_all_covectors',z(proj*adapted+adapted*proj-adapted))
-    ck('restricted_symbol_determinant',s.factor((a.H*q*a).det())==-r*r and s.factor((b.H*q*b).det())==-r*r)
+    ck('restricted_symbol_determinant',s.simplify((a.H*q*a).det()+r*r)==0 and s.simplify((b.H*q*b).det()+r*r)==0)
     ck('combined_reality',z(j*proj.conjugate()*j-proj))
     ck('graded_domain',z(parity*proj-proj*parity))
     wrong=s.diag(a,a)
