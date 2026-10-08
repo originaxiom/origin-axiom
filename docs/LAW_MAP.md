@@ -1,5 +1,25 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October 8 physical-mass conditional sublemmas. Same supplied curved E8
+parent, complete cusp spin/domain and stationary magnetic family only;
+no shared B-law allocation or parameter-free selection.
+PROOF: reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md.
+LIVE locks: tests/test_physical_bridge_weave_physical_mass.py.
+
+| Scoped result | Proof and actual test locks |
+|---|---|
+| Four-Weyl mass map derives from W Hessian and gauge Killing coupling | Full polarized W and transpose gauge coupling; test_W_hessian_from_full_functional, test_mixed_commutator_and_nonzero_vertex, test_actual_mass_map_all_entries. The nonzero bosonic D soft mass is not inserted as a fermion bilinear |
+| Physical gaugino and Hodge C3 slot are linked by a bundle isometry, not field addition | Uin uses i*Omega^2/sqrt(2); Uout uses trace-dual weighted bundles. test_input_isometry_uses_gaugino_metric, test_output_isometry_uses_trace_dual_metrics, test_variable_metric_derivative_not_dropped, test_input_phase_not_slot_matching, test_complete_mass_square_intertwined |
+| Complete graph index equals net left representation minus conjugate | Actual trace-dual formal transpose and equal graph norms; test_formal_transpose_uses_dual_charge_and_momentum, test_both_R_couplings_retained, test_physical_neutral_gaugino_is_retained. Global domain extension is authored analytic proof, not certified by a finite symbol check |
+| All248 weights and physical SM representation multiplicities are retained | Actual color/weak/Z Cartans versus separate SU5 tensor branches; test_entire_root_population_and_conjugates, test_actual_color_weak_representations_not_dimensions, test_separate_tensor_route_and_no_goal_promotion |
+| Same-family physical net indices are(-1,2,2,-1,-1,-1) for q=1..6 at n>=2 | Actual weight bound/parity, complete cusp index and graph-compact finite c,d; test_higher_flux_physical_indices_and_sign, test_all_integer_scope_has_actual_weight_bound. At n=1 charge1 is0; test_first_flux_endpoint_is_not_erased. Opposite flux reverses; n=0 zero; test_zero_flux_positive_control_keeps_zero_index. Not full kernel counts |
+| Full charged zero-mode perturbative traces are nonzero | Coefficients(-3,-6,-6,-1008,-30) at n>=2;(-1,-5,-9/2,-1002,-24) at n=1 in SU3^3,SU3^2 Z,SU2^2 Z,Z^3,gravity^2 Z order. test_all_five_anomaly_coefficients, test_charge_pair_counting_is_not_doubled, test_exotic_sector_cannot_be_omitted, test_anomaly_free_and_vector_pair_controls. Standalone-zero-mode diagnostic, not full determinant/inflow or architecture exclusion |
+
+The magnetic backgrounds remain saddles; n=0 nonnegative SM-gauge
+minima remain. Global analytic review and full quantum completion owed.
+
+Earlier dated open statements below retain their historical epoch.
+
 October 8 full two-neutral-field conditional sublemmas. Same supplied
 action, geometry, spin and complete domain; not generated physics or
 new shared B laws. PROOF: reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md.

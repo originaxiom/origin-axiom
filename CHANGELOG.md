@@ -1,5 +1,37 @@
 # Changelog
 
+## 2026-10-08 physical charged index and anomaly completion duty
+
+October 8 physical-fermion checkpoint: 33 native/15 separate reference/
+22 focused and 238 fourteen-packet regression tests PASS unchanged at
+pushed pre-run05c63c15a. In the SAME supplied curved E8 action and complete
+cusp domain, explicit bundle isometries identify the actual four-Weyl
+mass operator, including its physical gaugino, with the full Hodge map.
+Its magnetic stationary family has NONZERO net charged physical index:
+for positive charges1..6, (-1,2,2,-1,-1,-1) when n>=2; charge1 is0 at
+n=1; opposite flux reverses signs and n=0 has zero charged index.
+Report: reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/FINDINGS.md.
+This is conditional physical chirality at a SADDLE, not three families
+or a stable observed vacuum. The full charged zero-mode anomaly vector
+(SU3^3,SU3^2 Z,SU2^2 Z,Z^3,gravity^2 Z) is(-3,-6,-6,-1008,-30)
+for n>=2 and(-1,-5,-9/2,-1002,-24) at n=1. The standalone zero-mode
+theory needs compensation; the complete noncompact determinant/end
+response has NOT been calculated. No whole-parent/architecture kill.
+NEXT Stage2T: derive the actual parent/end quantum compensation before
+a costly charged-condensate search. NEXT_TEST is UNEXECUTED. Stable
+zero-flux SM-gauge minima, source/silver positives and other ends remain.
+Main760499985 and SM5af9a3bf6 intake reads producers, not fresh replays:
+W38 now answers the exact full-fixed-space request conditional on its
+numerically recognized normal form. W39's physical tensor and B1618's
+sign restriction remain explicit. Main's harvest is registration only;
+its two-neutral "unrun" headline is stale at the cited f5da7ce4a.
+Seven science/twelve pinned-and-working sources unchanged. Authored
+global dictionary, not nonauthor analytic/full-suite/main-bank acceptance.
+Inherited governance duties remain. Full parameter-free SM/TOE ACTIVE
+and unachieved; parent/spin/metric/end selection, act/register/lifts,
+observer/qualia and gravity are not derived by these indices.
+Earlier dated NEXT entries below retain their historical epoch.
+
 ## 2026-10-08 full two-neutral-field obstruction and physical next test
 
 October 8 full two-neutral-field checkpoint: 29 native/18 separate

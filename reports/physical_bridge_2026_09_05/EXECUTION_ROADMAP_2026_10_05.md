@@ -221,6 +221,23 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    requires stability. Neutral instability neither proves inconsistency
    of the action nor excludes another charged stationary condensate.
    Retain source/silver positives and the foundation-to-parent duty.
+   Stage2S October8 physical mass dictionary EXECUTED at research grade:
+   weave_physical_mass_2026_10_08/FINDINGS.md.33 native/15 reference/
+   22 focused/238 fourteen-packet regression PASS unchanged at05c63c15a.
+   Actual four-Weyl map, trace-dual transpose and bundle isometries earn
+   conditional nonzero physical charged indices at nonzero flux. Full
+   representation and conjugate roster retained; not three generations.
+   Zero-mode SU3 cubic and mixed anomalies are nonzero. This constrains
+   a standalone zero-mode theory, not the uncomputed full determinant.
+   Saddles and zero-flux nonnegative SM-gauge controls both preserved.
+   NEXT Stage2T: actual parent/end quantum anomaly compensation and
+   allowed finite-norm gauge modes, before costly charged condensation.
+   NEXT_TEST is UNEXECUTED; no uncomputed inflow or universal exclusion.
+   Investigate equivariant-index stability under color-preserving
+   graph-compact deformations as a separate conditional question.
+   Then, if admitted, solve the full stable charged vacuum and kernels/
+   interactions on that same completion. Outside analytic review,
+   source/silver alternatives and genesis-to-parent selection remain.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

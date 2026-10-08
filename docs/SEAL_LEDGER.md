@@ -2579,3 +2579,17 @@ analytic/full-suite/main-bank and inherited governance duties remain.
 
 Preseal governance26 PASS/four inherited FAIL, review378; literal receipt
 in the packet. No new failure category and no all-green bank claim.
+
+Disposition after pushed/server-confirmed05c63c15a: first unchanged
+33 native/15 separate reference/22 focused/238 fourteen-packet regression
+PASS. Seven science/twelve pinned-and-working sources unchanged; no
+scientific failure or repair. Report: weave_physical_mass_2026_10_08/FINDINGS.md.
+Actual four-Weyl map and complete-domain isometries earn conditional
+nonzero charged physical indices on the admitted magnetic saddles.
+Full charged zero-mode perturbative anomalies nonzero; no standalone
+quantum completion, full determinant verdict or architecture exclusion.
+Stage2T NEXT_TEST is post-run UNEXECUTED/outside seal. Outside analytic,
+full-suite/main-bank and inherited governance duties remain.
+Publication governance initially caught one new attribution token in
+unsealed intake prose; corrected with the first output preserved.
+Final26 PASS/four inherited FAIL, review379 due. No science repair.

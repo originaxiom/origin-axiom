@@ -1,5 +1,39 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October 8 physical-mass checkpoint:
+reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/FINDINGS.md.
+33 native/15 reference/22 focused/238 regression PASS at05c63c15a.
+
+- PB-CUSP-PHYSICAL-MASS-DICTIONARY: EXECUTED, conditional positive.
+  Closing scope: "the actual four-Weyl mass operator has nonzero net
+  charged chirality on the admitted magnetic stationary family".
+  Explicit W Hessian, gauge Killing coupling, metric/volume isometries,
+  charge-dual transpose and complete graph domain. Not stable SM,
+  total-kernel count, three families or genesis selection.
+- PB-CUSP-ANOMALY-COMPLETION: NEXT Stage2T, UNEXECUTED. Complete
+  zero-mode indices give nonzero SU3 cubic and mixed anomaly traces.
+  Derive the SAME parent regulator/end response and allowed gauge
+  zero modes before declaring its full quantum consistency. Neither
+  automatic inflow cancellation nor a whole-parent exclusion follows.
+- PB-CUSP-COLOR-INDEX-DEFORMATION: OPEN conditional question. Does
+  a color-preserving graph-compact deformation with the same Fredholm
+  end preserve the color-equivariant anomaly? Not proved in this packet.
+- PB-CUSP-CHARGED-CONDENSATE: OPEN, investigate after consistency gate;
+  neutral saddle result does not exclude all charged condensates.
+- PB-CUSP-REVIEW: now includes physical gaugino/volume identification,
+  complete adjoint domains, opposite-charge cokernel map and full
+  representation traces. Same-author checks are not outside acceptance.
+- Other-seat update: W38 at SM5af9a3bf6 supplies exact whole-fixed-space
+  symbolic identities conditional on numerical normal-form recognition;
+  prior request no longer unanswered. Producers read, not replayed.
+  B1618 retains its Dirac tensor and even-sign Majorana restrictions.
+  B1619 registers lanes only; cited f5da7ce4a already executes two-neutral.
+- Preserve stable zero-flux SM gauge/zero index and source/silver
+  positives. Foundation-to-parent/end selection, full stable spectrum,
+  interactions, global anomalies, observer/qualia and gravity remain.
+
+Earlier dated OPEN/NEXT entries below retain their historical epoch.
+
 October 8 full two-neutral-field checkpoint:
 reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/FINDINGS.md.
 29 native/18 reference/20 focused/216 regression PASS at5a881c0ca.

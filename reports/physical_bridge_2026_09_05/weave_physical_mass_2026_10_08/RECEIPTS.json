@@ -1,0 +1,99 @@
+{
+  "pre_execution_seal": "05c63c15a7804dde53b660e6ace20184d626b7d2",
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 9.601671000011265,
+    "log_bytes": 16551,
+    "log_sha256": "8b4afdee1f112da1de5927b3ce4e665945b4a55ffc1ad27909ddd860ca1b673b",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 1.290737000061199,
+    "log_bytes": 15534,
+    "log_sha256": "cf1e8757051dd311d53662a1eb1855e1a55d2dc51a4872b789c932ec65f77f31",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 10.54884700011462,
+    "log_bytes": 99,
+    "log_sha256": "f496e752af12c322fba71f75d5b82fcaa4248e51014cf996bdb53b2fb39e5ac9",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_physical_mass.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 49.661584000103176,
+    "bytes": 341,
+    "sha256": "518dbfdf3d9cb6ac3563c217204fc59bd590103455c36f778aa6705b4950dc78",
+    "tests": [
+      "tests/test_physical_bridge_weave_puncture_operator.py",
+      "tests/test_physical_bridge_weave_form_parent.py",
+      "tests/test_physical_bridge_weave_companion_roster.py",
+      "tests/test_physical_bridge_weave_curved_action.py",
+      "tests/test_physical_bridge_weave_cusp_condensate.py",
+      "tests/test_physical_bridge_weave_global_condensate.py",
+      "tests/test_physical_bridge_weave_graded_condensate.py",
+      "tests/test_physical_bridge_weave_two_field_gauge.py",
+      "tests/test_physical_bridge_weave_sm_parallel.py",
+      "tests/test_physical_bridge_weave_magnetic_stationarity.py",
+      "tests/test_physical_bridge_weave_neutral_stability.py",
+      "tests/test_physical_bridge_weave_magnetic_index.py",
+      "tests/test_physical_bridge_weave_two_neutral_index.py",
+      "tests/test_physical_bridge_weave_physical_mass.py"
+    ],
+    "tree_unchanged": true
+  },
+  "governance_preseal": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 25.46270200004801,
+    "bytes": 2384,
+    "sha256": "4b698e1a91ddbedea76da5ba29a49a5e2c8b8c90c256f0b1c55ce89aeeec41fd",
+    "staged_content_tree": "b9c8b2d8413fa5c4429ae3b8a45146a2f3b5d9fe",
+    "staged_unchanged": true
+  },
+  "governance_first_publication": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 18.352075000060722,
+    "bytes": 2503,
+    "sha256": "5a2ad02bbd8592896c89989ec84c56ce4c4633b0bcfe66b18bd26b48ea203a73",
+    "staged_content_tree": "ff1e307ea44883ca1c3a6861372d4723b75d4b53",
+    "staged_unchanged": true
+  },
+  "governance_final": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 16.021371999988332,
+    "bytes": 2384,
+    "sha256": "b0b1eba9ba680c7dc7bebd321c58c97dd03bdbc9900e9e20964dc5c5d7a4da52",
+    "staged_content_tree": "2aa810d10ad471884a476446ee199a52ccc52a02",
+    "staged_unchanged": true
+  },
+  "publication_prose_repair": "Removed newly introduced attribution token from unsealed intake branch name; first gate retained; no science repair.",
+  "first_scientific_attempts": true,
+  "source_repair": false,
+  "science_files_unchanged": 7,
+  "pinned_and_working_sources_unchanged": 12,
+  "full_suite_run": false,
+  "nonauthor_acceptance": false
+}

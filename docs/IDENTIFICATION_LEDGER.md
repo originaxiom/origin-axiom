@@ -330,3 +330,20 @@ Locks: tests/test_physical_bridge_weave_two_neutral_index.py.
 Nonauthor analytic acceptance remains owed. Physical mass/anomaly
 dictionary is the next unexecuted diagnostic. Stability and foundational
 selection still required for a physical vacuum; qualia not identified.
+
+### Physical four Weyl dictionary October 8 path-local supplement
+
+No shared I-number or empirical normalization reassigned. Report:
+reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_physical_mass.py.
+
+| sides | exhibited map and faithful action | status within declared scope |
+|---|---|---|
+| Actual left Weyl fields and earlier Hodge slots | Uin(lambda,a,u,v)=((a,u,v),i*Omega^2*lambda/sqrt(2)); Uout(g,p1,p2,t)=(g,2i*t,p2/Omega,-p1/Omega); every W-Hessian/gauge column and metric checked | EARNED conditionally in supplied action, with authored complete-domain argument; C3 adds no field |
+| Physical cokernel and opposite-charge left kernel | Trace-dual background matrices, momentum reversal and bilinear transpose; graph isometries and common adjoint domains | EARNED conditionally as net physical index, not total zero-mode spectrum; no conjugate left field erased |
+| Abstract weights and gauge representations | Actual color/weak/Z Cartans on all248 roots/Cartans agree with SU5 tensor branches | EARNED representation map at supplied embedding; Z/6 physical normalization not newly derived |
+| Zero-mode traces and full quantum consistency | Finite perturbative coefficients computed; no complete parent determinant/end cancellation map | NOT CLAIMED as full consistency or universal inconsistency; Stage2T duty |
+
+Global analytic acceptance remains outside review. Nonzero-flux saddles,
+zero-flux nonnegative SM-gauge controls and genesis selection debts all
+remain. No observer/qualia identification or full SM/TOE completion.
