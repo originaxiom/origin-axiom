@@ -18234,3 +18234,20 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The slip.** The repository-wide GENESIS citation lock had not been run since W16. The 24 living paragraphs are
   repaired, and the 5 historical log paragraphs are exempted by hash (ERROR_LEDGER). The rule, re-stated: run every
   repository-scanning test and the gates before each push.
+
+## 2026-10-08 (night, the approved plan's Phase B) — the weave closed at W29, graded by main
+
+- **Main's S86 (B1606, GENESIS v1.28) read first.** Main verified the qualified W22 and graded the weave: the flavour
+  three is derived; the gauge three is a selection. Main's §4 names what would finish it: a forced complex structure on
+  the gauge side, or the puncture's localized content. That is what W30 and W31 test.
+- **The close.**
+  - The state page `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`, locked against the arcs' JSON.
+  - Closing lines on the weave's pages.
+  - Dated notes on the boards.
+  - TERMINOLOGY's new rows and overloaded-symbol entries.
+- **Relay §26.**
+  - The grade agreed.
+  - W25–W29 for main's next grade.
+  - Main's S85 asks answered (Q's sign convention; Λ₊ = ℂ² per block).
+  - Two questions.
+  - THE_CLAIM's row and the adopted THE_WEAVE left to main.

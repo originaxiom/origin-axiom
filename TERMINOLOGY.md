@@ -11,6 +11,8 @@ that is what it is — the mathematics is in the definition column.
 | **the object** | The figure-eight knot complement 4₁ (once-punctured-torus bundle, monodromy [[2,1],[1,1]]), and by extension its character varieties and quantum invariants. |
 | **thread** | One object the principle allows (m000, m003, m004, +LLLR, …): one closed path of the grammar's moves through the shared fibre, the two records. No thread is derived from another. "The object" above is one thread (2026-10-07; `docs/THE_WEAVE.md`). |
 | **the weave** | The owner's rule, named 2026-10-07: the joint action of every allowed move on the shared records, and what it forces, over all threads at once. A weave result takes every thread under a stated rule (none hand-picked), is defined by the joint action, and claims about all threads at once; anything read on one thread or its covers is a thread result (`docs/THE_WEAVE.md`). |
+| **the common point** | The one point of the shared fibre's characters that every move fixes with the puncture parabolic: a ↦ i, b ↦ j in SU(2), the quaternion group Q₈, with [a, b] ↦ −1 (the weave dossier's W2). It is the qubit's Pauli group, and 't Hooft's twist-eater (W28). |
+| **the link Λ** | The one stated input of the conditional derivation of three generations (W27, `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`): a generation is F-MC's 27 on spacetime × the shared fibre, carrying 𝕎, one parity sector each, the hand the records' orientation. It is the weave's form of GENESIS FK11. Not to be confused with Λ₊ (an end condition at the puncture) or Λ² (an exterior square). |
 | **bank / banked** | Committed to the repository with a passing lock (test) and ledger entries; the project's unit of "result". |
 | **B-number (B598, …)** | A banked frontier arc, numbered sequentially; lives in `frontier/B*/FINDINGS.md`. |
 | **seat / chat-N / cc2** | One AI assistant session among several run in parallel by the owner; seats cross-check each other (INTERNAL verification — see `PROVENANCE.md` §0). |
@@ -615,6 +617,13 @@ P/PC disambiguation. — **G1–G3** = the three roles of gravity (B1165 addendu
 distinct from any future charter G-labels. — **L110/L113** each name TWO leads (annotated in place in
 OPEN_LEADS; no renumbering). Rule (B964's, generalized): every load-bearing overloaded symbol gets a row
 here before its next use.
+
+**Added 2026-10-08 (the weave's W29–W31): SU(5)′ and Λ.**
+- **SU(5)′** names opposite factors of E₈ ⊃ (SU(5) × SU(5)′)/ℤ₅ in different files.
+  - The gauge factor in B1509, B1513 and B1514 (the audit lane's R40).
+  - The bundle factor, the Standard Model's centraliser, in the weave dossier's W17, W23 and W29.
+  - From W31 on, the weave dossier writes SU(5)_g (gauge) and SU(5)_b (bundle). Say which.
+- **Λ** is the link of W27 (a stated input). Λ₊ is an end condition at the puncture (W22, W28). Λ² is an exterior square (W29). Say which.
 
 ## Added 2026-09-02 (B1235, harvested from the physics seat's R3) — `RL` vs `LR` for the same matrix
 

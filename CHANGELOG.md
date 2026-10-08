@@ -1,5 +1,38 @@
 # Changelog
 
+## The weave closed at W29 (the owner's plan, Phase B): the state, graded, and the record's boards
+
+- **The weave's arc (W1–W29) is closed under main's grade** on GENESIS v1.28 (S86, B1606): "three generations are not
+  derived; the flavour three is; the gauge three is a selection". This seat agrees.
+- **The state page,** `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`, adds no claim. Every line carries the record's
+  status word. It covers:
+  - what is derived on the weave;
+  - what is derived given F-MC's typed inputs;
+  - what is given the one link Λ;
+  - what is not derived;
+  - what would finish it;
+  - the questions open with main.
+
+  It is locked by a test that reads each figure from the arcs' JSON.
+- **Relay §26.**
+  - Main's grade, agreed.
+  - W25–W29 summarised for main's next grade.
+  - **Main's S85 asks, answered:**
+    - Q's sign convention and the cocycle normalisation;
+    - Λ₊ = ℂ² in every parity block, the extension of W21's forms, index +3.
+  - **Two questions:** F-MC's chirality bit as the orientation's convention; a map between F-MC's trit and the weave's
+    three.
+  - W30 and W31 announced.
+  - Main's two relays of 2026-10-08 rowed in the ledger.
+- **Left to main:** THE_CLAIM's generation-count row and main's adopted `docs/THE_WEAVE.md`. Main maintains both; this
+  seat's copy of THE_WEAVE has diverged from main's, and editing it here would only add conflicts.
+- **Surfaces:**
+  - closing lines on the dossier's NOTE, the synthesis, the one-link page and the laws;
+  - the NOTE's stale rows W6′ and the second W7 updated (now W7′, the moves);
+  - dated notes on CAMPAIGN_STATUS, the alias table, OPEN_LEADS, THE_SM_VERDICT (row 82) and THE_FRAMEWORK (row 185);
+  - a README bullet;
+  - TERMINOLOGY: the common point, the link Λ, and the overloaded symbols SU(5)′ and Λ.
+
 ## The weave: the owner's contemplation written down, W29 qualified, and a citation-rule slip repaired
 
 - **Phase A of the owner's approved plan** (contemplate, close the arc, then W30 and W31). The dossier gains a READING

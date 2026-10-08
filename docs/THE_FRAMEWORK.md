@@ -182,7 +182,7 @@ where registerable means the 27's generation structure survives.
 | **the global ℤ₆ form: [SU(3)×SU(2)×U(1)]/ℤ₆** | **DERIVED (B862)** — resolves an ambiguity **the SM itself cannot fix** |
 | **hypercharge = the unique gaugeable U(1)** | **DERIVED (B864)** — ψ, χ anomalous over chiral matter; b = c = 0 forced. *Direction only; normalisation is homogeneous and not derivable* |
 | **the TERMINATION THEOREM** — the cascade halts because the SM is the **terminal registerable algebra** | B863 |
-| three generations, structurally; D₂ carries the hierarchy | B897, B928 *[scope restored 2026-09-02, B1235 addendum: generation-SHAPED at the tiling level, mechanism-hood FENCED — B897's own words (`docs/LAW_MAP.md:194`); B298: the object does not force three; B891: three sectors of ONE 27. "Banked" = the shape and the carrier (D₂), not three replicated families.]* |
+| three generations, structurally; D₂ carries the hierarchy | B897, B928 *[scope restored 2026-09-02, B1235 addendum: generation-SHAPED at the tiling level, mechanism-hood FENCED — B897's own words (`docs/LAW_MAP.md:194`); B298: the object does not force three; B891: three sectors of ONE 27. "Banked" = the shape and the carrier (D₂), not three replicated families.]* *[2026-10-08, the SM seat's weave closed at W29: main's grade on GENESIS v1.28 is that the flavour three is derived on the weave (three, alike, chiral under the weave's own group) and the gauge three is a selection; the state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`.]* |
 | menu completeness P5; padding lemma; gates G4–G7 | B873, B865, B868–B871 |
 | the Sakharov preconditions, structurally | B867 |
 

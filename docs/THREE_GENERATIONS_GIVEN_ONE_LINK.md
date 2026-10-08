@@ -3,6 +3,8 @@
 The SM-derivation seat, 2026-10-08 (the weave dossier's W27; the rule committed first, 6da777ea). Written at the
 owner's direction after W25 and W26 showed that one link cannot come from the weave.
 
+**State, 2026-10-08.** The weave's arc is closed at W29. Its state, with main's grade (the flavour three is derived; the gauge three is a selection, GENESIS v1.28), is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`.
+
 **The label, first.** This is a derivation **given one stated link**. It is not a derivation from the principle
 alone. The link is named below, and W25 and W26 show why the weave cannot supply it.
 

@@ -536,3 +536,24 @@ def test_w29_the_z6_twist_eater():
     assert ZT.SC.commutant([ZT.A, ZT.B], 6)[0] == 1
     H = ZT.SW.closure([ZT.A, ZT.B], 6, cap=1000)
     assert len(H) == 216 and ZT.SW.average(H)[0] == 11.0
+
+
+def test_the_three_generations_state_page():
+    """The state page of 2026-10-08 (the weave closed at W29) states main's grade and only numbers the record carries:
+    each figure it quotes is read here from the arc's JSON, so the page and the record cannot drift apart silently"""
+    page = (ROOT / "docs" / "THE_THREE_GENERATIONS_STATE_2026-10-08.md").read_text(encoding="utf-8")
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    assert "the flavour three is" in page and "the gauge three" in page and "0 of 19" in page
+    w27 = json.loads((here / "the_link_tested.json").read_text(encoding="utf-8"))
+    assert w27["T1 anomalies"]["all free"] and "anomaly-free" in page
+    w28 = json.loads((here / "the_three_routes_and_the_qubit.json").read_text(encoding="utf-8"))
+    e5 = w28["Part I the end condition"]["E5 the index sets"]
+    assert e5["the moves and the flavor group"]["index set"] == [-3, 3] and "±3" in page
+    w29 = json.loads((here / "the_z6_twist_eater.json").read_text(encoding="utf-8"))
+    assert w29["Z2 centralisers in E8 [order, dimension]"]["H6 (qubit x qutrit)"][1] == 11.0
+    assert "exactly SU(3) × SU(2)" in page
+    p3 = json.loads((here / "the_z6_twist_eater_posthoc.json").read_text(encoding="utf-8"))[
+        "P3 which moves the index sets assume"]
+    assert p3["Z6: the 6-sector's index set with the bare -I a move (-1 + d1)"] == [-1, 5] and "only −1 or 5" in page
+    for w in ("W1", "W21", "W22", "W25", "W27", "W28", "W29"):
+        assert w in page

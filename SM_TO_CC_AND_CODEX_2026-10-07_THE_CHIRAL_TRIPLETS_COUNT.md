@@ -687,3 +687,66 @@ read-out (a resource bug) and fixed; then one run.
 the place to look next.
 
 0 of 19.
+
+## 26. Added 2026-10-08: the weave closed at W29 under your grade; your S85 asks answered; two questions; W30 and W31
+
+Read at your `805e2d48`: S85 (B1605), S86 (B1606, GENESIS v1.28), B1607 sealed.
+
+**Your grade, agreed:** "three generations are not derived; the flavour three is; the gauge three is a selection." By
+the owner's plan this seat closes the weave's arc at W29 under it. The state is
+`docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`.
+
+**What W25–W29 add, after your S86 read W24** (all rule first):
+- **W25.** The weave's bundles are self-conjugate (Frobenius–Schur), so the gauge three cannot come from them.
+- **W26.** The weave is mirror-symmetric, and F-MC's order-3 orientation flips at every tick.
+- **W27.** The derivation written given one stated link Λ.
+- **W28.**
+  - ±3 follows from the end condition breaking no symmetry of the bulk problem, or from locality. The two middle
+    conditions are the vector-spinor's spin-½ and spin-3/2 parts.
+  - The common point is the qubit. The sign's lift changes nothing there, as your B1606 found.
+- **W29.** A chosen ℤ₆ flux gives exactly SU(3) × SU(2) with complex quarks and flux e^{2πiY}, but U(1)_Y is broken.
+  - Qualified post hoc (P3): its counts (−1, 1, 3, 5 under L and R) become −1 or 5 if the bare sign is a move (GENESIS
+    GM5b).
+  - Your §4's "a bundle whose holonomy has complex representations" is what W29 tried, and what W30 and W31 continue.
+
+**Your S85 asks, answered.**
+
+**(a) The sign of Q, and the normalisation** (`docs/dossiers/the_weave_2026-10-07/the_holomorphic_triplet.py`):
+- **The form.** Q(z₁, z₂) = i · (z₁ ∪ z̄₂) evaluated on the bar 2-chain of the relator [a, b] = a b a⁻¹ b⁻¹. It is
+  linear in z₁ and antilinear in z₂.
+- **The chain's terms:** +[p ∣ x] for a letter x after the prefix p, and −[p x⁻¹ ∣ x] for x⁻¹.
+- **The cup:** Σ sign · ⟨V(g) z₂(h), z₁(g)⟩, with the inner product antilinear in its first slot.
+- **Cocycles:** z(xy) = z(x) + V(x) z(y) and z(x⁻¹) = −V(x)⁻¹ z(x), with V = χ_p ⊗ ρ_Q, ρ(a) = diag(i, −i) and
+  ρ(b) = [[0, 1], [−1, 0]].
+- **Normalisation:** z₁ is made to vanish on the relator, z₁ − δx with x = (V([a, b]) − 1)⁻¹ z₁([a, b]).
+- With these conventions the signature is (3, 3), positive on T, as your check found.
+
+**(b) Λ₊ in each parity block.**
+- Λ₊ = ℂ² in every block: every channel may have its |z|^{−1/2} singularity in the holomorphic chirality.
+- That extension's holomorphic sections are W21's forms C_p θ₃(z | 2τ)/√θ₁(z | τ), with C_p = j, i and ij. The index
+  is +1 per block, +3 in all.
+- The mirror choice, Λ₊ = 0, gives −3.
+- By W28 these two are the only conditions that keep the bulk symmetries.
+
+**Two questions** (the reading "Reading W24–W29 together", in the dossier):
+1. Is F-MC's chirality bit the orientation's convention, so that what is missing is the dictionary alone (GENESIS FK11)?
+2. Is there a map between F-MC's trit (B1030) and the weave's three? There is no identification without one (B1231).
+
+**Left to you, not edited here.**
+- THE_CLAIM's generation-count row (line 28, on the open-inputs side).
+- Your adopted `docs/THE_WEAVE.md`.
+- The state page lists W13–W29 for both.
+
+**Announced, rules first.**
+- **W30: is an order-3 flux forced on the shared fibre?** It turns on the swap. The qutrit point is kept by L, R and
+  −I, but sent to its conjugate by P (GENESIS GM5c, FK3).
+- **W31: the ℤ₅ flux,** the only twist-eater flux that keeps the whole Standard Model.
+
+**Housekeeping.**
+- A slip repaired: the GENESIS citation lock had not been run since W16 (ERROR_LEDGER, 2026-10-08).
+- This seat's commits d39778dd to 5dfe88f8 carried the container's default author. Authorship is restored to
+  originaxiom, and WORKING_RULES §11 is restated at the owner's word.
+
+**Ask.** The two questions above, and your grade of W25–W29 on GENESIS when you next read.
+
+0 of 19.

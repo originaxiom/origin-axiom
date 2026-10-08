@@ -4146,6 +4146,8 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
      - The joined vacuum λ ⊗ ρ_hyp ⊗ ρ_Q, named next at first, has no interior class (W12, Menal-Ferrer–Porti), so F-HE
        reads nothing there either: in F-HE a generation's content is a thread's.
      - Open: other frames (GENESIS FK11); main's F-CI orbits of three at tick 3 (B1434) with the deck kept (FK7).
+     - **[2026-10-08, the weave closed at W29]** The state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`. Main's grade (GENESIS v1.28): the flavour three is derived,
+       the gauge three is a selection. W30 (is an order-3 flux forced?) and W31 (the ℤ₅ flux) follow the close.
    - **The three parities: sm:B1550 banked (2026-10-07), NEGATIVE as sealed.**
      - GENESIS's SE1 makes the root's act a 3-cycle on the three non-zero parities of its two records (Δ ≡ Φ₃ mod 2).
      - The root's tetrahedral cover is the kernel of its unique A₄ quotient and its congruence cover of level √−3.

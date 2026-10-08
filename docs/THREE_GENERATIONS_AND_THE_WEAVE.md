@@ -11,6 +11,8 @@ generations derived".
   reach this side: its fourth query produced no surviving claim.
 - **The weave's side:** `docs/THE_WEAVE.md` and `docs/dossiers/the_weave_2026-10-07/`.
 
+**Closed on 2026-10-08 (the owner's plan):** the state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`. Main's grade (GENESIS v1.28): the flavour three is derived; the gauge three is a selection. W30 and W31 follow the close.
+
 **The derivation, written with its one link (2026-10-08):** `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md` (W27). The statement there is "derived given one stated link", never "derived from the principle" alone.
 
 **Scope.** Nothing here is promoted. Statuses are DERIVED (GENESIS), PROVED (here, by code beside the dossier),

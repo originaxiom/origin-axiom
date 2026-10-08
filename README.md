@@ -66,6 +66,7 @@ criterion in the fibre torsion and the sign decides which.
 
   None is yet a generation in physics. The class-index backgrounds carry no harmonic metric without a source, the free-cusp count
   depends on the end, and the harmonic frame has not produced a matching pair.
+- **The three generations, graded (2026-10-08).** On the weave, the joint action of every allowed move, the flavour three is derived: three, alike, chiral under the weave's own group. The gauge three is a selection (main's grade on GENESIS v1.28). The state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`.
 - **Values.** 0 of the Standard Model's 19 parameters. The dictionary from geometry to particles (identification I-26) is
   unearned.
 - **What closes the distance.** Five gaps, none closable on one state: the dictionary, the ends, the source, selection with a

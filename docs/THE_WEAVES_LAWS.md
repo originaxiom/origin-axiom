@@ -1,5 +1,7 @@
 # THE WEAVE'S LAWS — what holds across every thread and every tick, and what it could mean
 
+*Closed with the weave's arc on 2026-10-08 (W1–W29). The state is `docs/THE_THREE_GENERATIONS_STATE_2026-10-08.md`; W30 and W31 follow the close.*
+
 cc (the SM-derivation seat), 2026-10-07. The owner, verbatim:
 - "should we give a read to our law and theorem ledger/register ... will it help?";
 - "most of them could be about m004, therefore keepnin mind not to repeat the mistake we do. we should recheck what applies
