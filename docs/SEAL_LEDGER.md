@@ -2519,3 +2519,24 @@ in the specified R=0 family, not a Weyl index or full Morse count.
 Two-field stationarity is admitted; its stability remains uncomputed.
 NEXT_TEST is post-run UNEXECUTED and outside this seal. Independent
 analytic/full-suite/main-bank and inherited governance duties remain.
+
+## Two neutral field index pre-execution seal October 8
+
+Same supplied action, complete cusp domain and trivial extending spin.
+Prior: the FULL two-field complex forces at least10 complex physical
+negative directions for all n!=0 and finite c,d after the auxiliary
+H3 kernel is removed at d!=0; d=0 retains the old50 bound. Not a Weyl
+index, full Morse count or an exclusion of all stationary phases.
+Seven science files and eight sources pinned to c32e06d4d.
+Commit/push/server confirmation BEFORE science import/run/collection.
+Preseal governance26 PASS/four inherited FAIL, review376; no green bank.
+
+| File | SHA256 |
+|---|---|
+| weave_two_neutral_index_2026_10_08/DESIGN.md | 72fc66e9eaca0cfbf4ead145f58f8dcc085096ec41b521905f69d14b289e91e3 |
+| weave_two_neutral_index_2026_10_08/PROOF.md | 7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b |
+| weave_two_neutral_index_2026_10_08/INPUTS.json | 6bcd818d8d4c58b3b0271f2a580b5632d436466cc03fcbc480563ee61b9ea68b |
+| weave_two_neutral_index_2026_10_08/probe.py | 97012910ed303d475f39147ad4bb23ad5f95372dab29995d7ea091261aa9097f |
+| weave_two_neutral_index_2026_10_08/reference.py | f0bd0dc86f4a048d0d798603708f20348040fedd95f665b99e5f6999834fabba |
+| weave_two_neutral_index_2026_10_08/custody.rb | 23952b620d0586549c5b4696d892cc8116e53f470ded79d9f7335adc808db436 |
+| tests/test_physical_bridge_weave_two_neutral_index.py | df714e7f07d5793abeb764e85c93b94284d5b3ca96b61c01087fe6b5d354cd61 |

@@ -1,0 +1,42 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/DESIGN.md",
+      "bytes": 5456,
+      "sha256": "72fc66e9eaca0cfbf4ead145f58f8dcc085096ec41b521905f69d14b289e91e3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/INPUTS.json",
+      "bytes": 3166,
+      "sha256": "6bcd818d8d4c58b3b0271f2a580b5632d436466cc03fcbc480563ee61b9ea68b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/probe.py",
+      "bytes": 11011,
+      "sha256": "97012910ed303d475f39147ad4bb23ad5f95372dab29995d7ea091261aa9097f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/reference.py",
+      "bytes": 4799,
+      "sha256": "f0bd0dc86f4a048d0d798603708f20348040fedd95f665b99e5f6999834fabba"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/custody.rb",
+      "bytes": 4745,
+      "sha256": "23952b620d0586549c5b4696d892cc8116e53f470ded79d9f7335adc808db436"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_two_neutral_index.py",
+      "bytes": 4504,
+      "sha256": "df714e7f07d5793abeb764e85c93b94284d5b3ca96b61c01087fe6b5d354cd61"
+    }
+  ],
+  "status": "PRE-EXECUTION; no science import/run/collection",
+  "source_ref": "c32e06d4dec6cdce735c9227b36b5071fe52517b",
+  "prior": "Full two-field deformation complex predicts at least10 complex physical negative directions after removing auxiliary H3; R=0 retains old50. Not physical Weyl index."
+}

@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "ref": "c32e06d4dec6cdce735c9227b36b5071fe52517b",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "ref": "c32e06d4dec6cdce735c9227b36b5071fe52517b",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/probe.py",
+      "ref": "c32e06d4dec6cdce735c9227b36b5071fe52517b",
+      "bytes": 12778,
+      "sha256": "57a5b7bbe710e7314baf8e85087b34e9a6d2d007d75b530afd6a8c375bc5d46d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "ref": "c32e06d4dec6cdce735c9227b36b5071fe52517b",
+      "bytes": 8666,
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/probe.py",
+      "ref": "c32e06d4dec6cdce735c9227b36b5071fe52517b",
+      "bytes": 8672,
+      "sha256": "a9ee314ba30cd72241aa9b361c69aa76c6f72eefaa780a5c974eb56af3de1d04"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "ref": "c32e06d4dec6cdce735c9227b36b5071fe52517b",
+      "bytes": 11161,
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/probe.py",
+      "ref": "c32e06d4dec6cdce735c9227b36b5071fe52517b",
+      "bytes": 7655,
+      "sha256": "e9e5103c9ab63602fa6dde2d6688b701b817ed2b3b147417029b192d88075dea"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "ref": "c32e06d4dec6cdce735c9227b36b5071fe52517b",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    }
+  ],
+  "focused_expected_tests": 20,
+  "comparison_profiles": [
+    "line_index_table",
+    "index_profiles",
+    "positive_bounds",
+    "hodge_populations"
+  ],
+  "unearned_flags": [
+    "auxiliary_is_physical_field",
+    "physical_Weyl_dictionary_derived",
+    "full_Morse_count_computed",
+    "stable_nonzero_flux_phase_achieved",
+    "all_stationary_phases_excluded",
+    "genesis_selection_derived",
+    "nonauthor_acceptance",
+    "physical_goal_achieved"
+  ],
+  "literature_grade": "Primary abstracts only for compact Higgs Morse references; no new external theorem adopted. Global complete-cusp complex, Fredholm homotopy, auxiliary-kernel removal and negative-subspace argument are authored, not independently accepted.",
+  "intake": {
+    "main": "08b7f328f",
+    "sm": "7c5d9726c",
+    "incoming_grade": "Unchanged on fresh fetch; B1616 preregistration is not a result."
+  },
+  "pre_execution": "No scientific import/run/collection before committed/pushed/server-confirmed seal."
+}
