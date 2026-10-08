@@ -1,0 +1,145 @@
+{
+ "prediction": "W15_PREDICTION.md, item 2",
+ "rows": {
+  "+LLLLLRRR": {
+   "state": "+LLLLLRRR",
+   "tick": 3,
+   "|G|": 4860,
+   "torsion": [
+    18,
+    270
+   ],
+   "N": 540,
+   "primes": [
+    20521,
+    21061,
+    21601
+   ],
+   "distinct slopes": 434,
+   "firing": 103680,
+   "generation_shaped": 3064,
+   "lifted": 256,
+   "nu^c with the generation's sign": 1672,
+   "orbit sizes": {
+    "1": 16,
+    "3": 3048
+   },
+   "signs": {
+    "-1": 1532,
+    "1": 1532
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 1243.1
+  },
+  "-LLLLLRRR": {
+   "state": "-LLLLLRRR",
+   "tick": 3,
+   "|G|": 4864,
+   "torsion": [
+    16,
+    304
+   ],
+   "N": 912,
+   "primes": [
+    25537,
+    26449,
+    27361
+   ],
+   "distinct slopes": 480,
+   "firing": 96336,
+   "generation_shaped": 336,
+   "lifted": 240,
+   "nu^c with the generation's sign": 96,
+   "orbit sizes": {
+    "3": 336
+   },
+   "signs": {
+    "-1": 168,
+    "1": 168
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 15,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 792.3
+  },
+  "+LLLLLLLR": {
+   "state": "+LLLLLLLR",
+   "tick": 3,
+   "|G|": 700,
+   "torsion": [
+    10,
+    70
+   ],
+   "N": 420,
+   "primes": [
+    20161,
+    21001,
+    21841
+   ],
+   "distinct slopes": 72,
+   "firing": 14304,
+   "generation_shaped": 480,
+   "lifted": 48,
+   "nu^c with the generation's sign": 48,
+   "orbit sizes": {
+    "3": 480
+   },
+   "signs": {
+    "-1": 240,
+    "1": 240
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 67.9
+  },
+  "-LLLLLLLR": {
+   "state": "-LLLLLLLR",
+   "tick": 3,
+   "|G|": 704,
+   "torsion": [
+    8,
+    88
+   ],
+   "N": 264,
+   "primes": [
+    20593,
+    20857,
+    21121
+   ],
+   "distinct slopes": 80,
+   "firing": 12728,
+   "generation_shaped": 336,
+   "lifted": 48,
+   "nu^c with the generation's sign": 48,
+   "orbit sizes": {
+    "3": 336
+   },
+   "signs": {
+    "-1": 168,
+    "1": 168
+   },
+   "every class paired with its opposite": true,
+   "the parities": {
+    "how many": 3,
+    "their slope class has": 3,
+    "firing modules with a parity as the extension character": 0
+   },
+   "seconds": 39.8
+  }
+ },
+ "the predicted silent states carry none": false,
+ "the control carries some": true,
+ "the prediction holds": false
+}

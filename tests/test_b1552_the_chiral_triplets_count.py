@@ -97,3 +97,62 @@ def test_w14_the_slope_law_and_the_census():
     assert sorted(k for k, r in rows.items() if r["generation_shaped"] == 0) == ["+LLRLRR", "-LLRLRR"]
     sample = json.loads((D / "the_slope_law_sample.json").read_text(encoding="utf-8"))
     assert sample["all agree"] and sample["sampled"] == 300 and sample["firing by the law"] > 0
+
+
+def _trace(sw):
+    """the trace of a signed word's matrix, L = [[1, 1], [0, 1]], R = [[1, 0], [1, 1]] (GENESIS §2)"""
+    a, b, c, d = 1, 0, 0, 1
+    for ch in sw[1:]:
+        if ch == "L":
+            a, b, c, d = a, a + b, c, c + d
+        else:
+            a, b, c, d = a + b, b, c + d, d
+    return (a + d) * (1 if sw[0] == "+" else -1)
+
+
+def test_w15_the_hand_theorem():
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_hand_theorem.json").read_text(encoding="utf-8"))
+    assert all(d["summary"].values()), d["summary"]
+    assert d["(iv) det on T by generator (eighths, the two lifts)"] == {"L": [1, 5], "R": [3, 7], "-I": [2, 6]}
+    direct = d["(iii) the direct tick-3 act, every odd-trace state to length 8 (both signs)"]
+    assert direct["odd-trace states read"] == 32 == direct["tick-3 act = det(w|T) I on T"]
+    hand = d["(v) the hand rule from the determinant, GENESIS's states to length 12"]
+    assert hand["odd trace"] == 326 == hand["agrees with n_L - n_R + 2[sign -] = 2 mod 4"]
+    assert hand["odd-trace words"] == 163 == hand["odd-trace words with exactly one twin apart"]
+
+
+def test_w15_the_weaves_own_extensions_and_the_mod_16_law():
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_weave_extension.json").read_text(encoding="utf-8"))
+    summ = dict(d["summary"])
+    summ.update(d["(c) length 8, reduced rule"]["summary"])
+    assert len(d["summary"]) == 12 and len(d["(c) length 8, reduced rule"]["summary"]) == 20
+    for sw, v in summ.items():
+        assert v["readings"] > 0
+        assert set(v["values"]) <= {1}                                # every firing reading is +1
+        assert v["non-zero"] in (0, v["readings"])                     # three or nothing: all or none
+        silent = v["non-zero"] == 0
+        assert silent == (_trace(sw) % 16 in (1, 15)), sw              # the mod-16 law
+    assert sorted(k for k, v in summ.items() if v["non-zero"] == 0) == ["+LLLLLRRR", "+LLRLRR", "-LLLLLRRR", "-LLRLRR"]
+    for prime, rows in d["(b) two further primes"].items():
+        assert rows["+LR"]["non-zero"] == rows["+LR"]["readings"] and rows["+LLRLRR"]["non-zero"] == 0, prime
+
+
+def test_w15_the_prediction_recorded_and_its_second_part_failed():
+    D = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    assert "t ≡ ±1 (mod 16)" in (D / "W15_PREDICTION.md").read_text(encoding="utf-8")
+    d = json.loads((D / "the_prediction_test.json").read_text(encoding="utf-8"))
+    assert d["the control carries some"] and not d["the predicted silent states carry none"] and not d["the prediction holds"]
+    assert {s: r["generation_shaped"] for s, r in d["rows"].items()} == {"+LLLLLRRR": 3064, "-LLLLLRRR": 336,
+                                                                         "+LLLLLLLR": 480, "-LLLLLLLR": 336}
+
+
+def test_w15_the_weaves_five_is_not_generation_shaped():
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_weaves_five.json").read_text(encoding="utf-8"))
+    for sw, v in d["summary"].items():
+        pairs = {tuple(x) for x in v["pairs for W"]}
+        dual = {tuple(x) for x in v["pairs for W*"]}
+        if sw in ("+LLRLRR", "-LLRLRR"):
+            assert pairs == dual == {(0, 0)}, sw
+        else:
+            assert pairs <= {(1, 3), (2, 3)} and dual <= {(-1, -3), (-2, -3)} and (1, 3) in pairs, sw
+        assert all(p[0] != p[1] for p in pairs | dual if p != (0, 0))   # never the shape n_5bar = n_10

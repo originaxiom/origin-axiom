@@ -17965,3 +17965,25 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   on ten threads of twelve. The three is the weave's. The open step is the frame (GENESIS FK11).
 - **Next.** The arithmetic of which threads carry F-CI content: the deck acts as an Eisenstein cube root of unity on the
   (t + 1)-part of the tick-3 group, of order |t − 2|(t + 1)².
+
+## 2026-10-07 (late night) — the weave's W15: the hand theorem, the weave's own extensions and their mod-16 law
+
+- **The occasion.** Main's S83 named the earning condition for GENESIS FK11: a module and a count on the weave, the shape
+  identity built in, and a chirality handle other than the index.
+- **Theorem H.** At tick 3 an odd-trace thread acts on the weave's triplet T as the scalar det(w|T). The hand rule is
+  now a theorem for every odd-trace word, and the hand is mirror-odd: a chirality handle that is not an index.
+- **The weave's own extensions.** A parity line extended by a spin doublet along a weave class has index one per
+  parity, three or nothing. On all 32 odd-trace states to length 8 the silent ones are exactly those with φ³ ≡ ±I
+  (mod 16).
+- **A prediction committed before its test.** It held for the extensions and failed for F-CI, which carries on
+  ±LLLLLRRR. The ±LLRLRR coincidence is closed.
+- **The weave's five reads F-HE's anomalous (−1, −3).** The shape identity is not in the class index.
+- **The goal (three generations derived) is still not met.**
+  - The three, the alikeness, the hand, the gauge algebra (F-MC) and index-one units on the mod-16 law's threads are
+    the weave's.
+  - A generation's gauge content per unit needs the dictionary (FK11), now down to one named step: each unit one 27.
+- **Next.**
+  - B1601's census on this seat's code (running).
+  - The mod-16 law's proof.
+  - Main's reply on the reading.
+

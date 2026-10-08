@@ -45,8 +45,9 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | Theorem G | On the forced A₄ cover of every odd-trace thread, a member orbit sits a third on each parity, and on the third level it gives one sector per parity, cycled by the deck, each with the member's count | every odd-trace thread | proof (Shapiro) | WEAVE, at tick 3 |
 | **Lemma V (new)** | On a hyperbolic once-punctured-torus bundle no rank-one line is interior: h¹(ν) ≤ 1, and when it is 1, ν is trivial on the cusp and the class restricts to it injectively (finite order needed only when ν is trivial on the fibre). So the frame at the weave's own vacuum, the common point, whose module four(ρ_Q) = 1 ⊕ 3 is a sum of such lines by Shapiro, has no member on any state at any tick | every state at every tick; 72 parity lines and 768 characters of order dividing 4 on the 24 states to length 6 at their resolving tick | proof (Wang sequence; the puncture loop); checked exactly | WEAVE + WAVE |
 | **the spin doublet (new)** | The fibre's cohomology with coefficients in the common point, H¹(F₂; ρ_Q), is two-dimensional and every thread's class in it is interior (ρ_Q([a, b]) = −1). L and R act on it as commuting rotations (cyclic of order 8; Q₁₆ with the swap), so every thread acts with finite order and has interior classes; twisted by the parities, the three are alike for every lift at the resolving tick of every odd-trace and every involution state | 24 states to length 6; route 2 (Fox calculus) on five | computed | WEAVE |
-| **the hand rule (new)** | The spin doublet's two conjugate lines sit at different κ exactly when n_L − n_R + 2·[sign −] ≢ 0 (mod 4); on every state that is its own mirror, the + state keeps them together and the − state apart, which is main's B1479 read off another object | 758 states to length 12 (34 own-mirror words, 68 states) | computed, against the formula | WEAVE |
-| **the chiral triplet (new)** | On the three parity-twisted spin doublets V (six-dimensional, every class interior) L and R act through a group of order 96 with V = T ⊕ T̄, two irreducible complex-conjugate triplets; the swap exchanges them (order 192, V irreducible). At tick 3 of every odd-trace state T's three classes sit at one κ and T̄'s at κ̄; κ ≠ κ̄ on exactly one sign twin of each odd-trace word (n_L − n_R + 2·[sign −] ≡ 2 mod 4), where one vacuum character carries T alone | the moves; 24 states to length 6 | computed | WEAVE |
+| **the hand rule (new)** | The spin doublet's two conjugate lines sit at different κ exactly when n_L − n_R + 2·[sign −] ≢ 0 (mod 4); on every state that is its own mirror, the + state keeps them together and the − state apart, which is main's B1479 read off another object | 758 states to length 12 (34 own-mirror words, 68 states) | computed, against the formula; PROVED for every odd-trace word by Theorem H (below) | WEAVE |
+| **the chiral triplet (new)** | On the three parity-twisted spin doublets V (six-dimensional, every class interior) L and R act through a group of order 96 with V = T ⊕ T̄, two irreducible complex-conjugate triplets; the swap exchanges them (order 192, V irreducible). At tick 3 of every odd-trace state T's three classes sit at one κ and T̄'s at κ̄; κ ≠ κ̄ on exactly one sign twin of each odd-trace word (n_L − n_R + 2·[sign −] ≡ 2 mod 4), where one vacuum character carries T alone | the moves; 24 states to length 6 | computed; the scalar at tick 3 PROVED for every odd-trace word by Theorem H | WEAVE |
+| **Theorem H, the hand (new)** | T is the sum of one line in each parity's doublet, so every move acts on T by a monomial matrix that permutes the lines as the move permutes the parities. A monomial 3 × 3 matrix whose permutation is a 3-cycle cubes to its determinant times I. So at tick 3 an odd-trace word acts on T as the scalar det(w∣T), a character of the moves (eighths: L 1 or 5, R 3 or 7, the sign 2 or 6, by the lift), and on T̄ as the conjugate. T and T̄ sit apart exactly when det(w∣T) = ±i, which is the hand rule, on exactly one sign twin of each odd-trace word. The swap carries T to T̄: the hand is mirror-odd, and it is not an index | every odd-trace word; checked on the generators, against the direct tick-3 act on 32 states to length 8 and on 326 states to length 12 | proof; checked | WEAVE + WAVE |
 | the gcd law (lifted) | An orbit of the forced cover is one module at the ticks 3 does not divide and three sectors at every third tick. That is B1507's gcd(n, 3), lifted from m004 to every odd-trace thread by the trichotomy | every odd-trace thread, every tick | proof | WEAVE + WAVE |
 
 **Theorem S, the proof.**
@@ -93,6 +94,7 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
 | **the slope law (new)** | for characters trivial on the cusp, each non-trivial one has a one-dimensional H¹ whose class has a slope on the cusp torus (its value on u⁻¹t over its value on [a, b], never zero). F-CI's doublet [[α, c_λ β], [0, β]] has index [s(α) = s(λ)] − [s(α − λ) = s(λ)], and 0 when λ, α or α − λ is trivial. Corollary: (λ, α) ↦ (−λ, α − λ) reverses the index, so main's B1434 P6 (signs split equally) is a theorem, and the sign is the extension's order | the weave dossier's W14 (proof: main's B1297 identity, H²(M; α) restricting isomorphically to the cusp, sm:B1509's T3; checked against sm:B1506's engine at every module on ±LR and ±LLLR, and on a sample of +LLRLRR's) | WEAVE + WAVE |
 | **the joined vacuum is empty (new)** | λ ⊗ ρ_hyp ⊗ ρ_Q, a thread's holonomy tensored with the common point, has no interior class: by Shapiro it is a summand of ρ_hyp on a finite cover, where restriction to the boundary is injective (Menal-Ferrer and Porti, 2012). So F-HE reads nothing there, though its puncture fixes a vector | the weave dossier's W12 (proof; checked at 50 digits on the 24 states to length 6) | WEAVE + WAVE |
 | **the spin vacuum's zero (new; after sm:B1552)** | at the weave's spin vacuum (any sum of twists λ ρ_Q of the common point) I(W₁) = 0 for every non-zero class: the puncture acts by −1, so A has no cusp cohomology, and the stable letter is κ times an element of a finite group, so it is semisimple. sm:B1509's T2 and T3 then give r₁ = 0. So F-HE's frame reads no generation and no anti-generation there | the weave dossier's W11 (proof, with sm:B1552's 864 sealed readings and a census of 758 states) | WEAVE + WAVE |
+| **the weave's own extensions (new)** | for a parity line B_p (trivial on the cusp, h¹ = 1, class ℓ_p on the end) and a twisted spin doublet A (acyclic on the cusp), the extension X = [[A, c B_p], [0, B_p]] along a class c ∈ H¹(A ⊗ B_p*) has class index I(X) = [c ∪ ℓ_p ≠ 0], and I(X*) = −I(X) | the weave dossier's W15 (proof: main's B1297 identity; checked against sm:B1374's engine on 510 readings) | WEAVE + WAVE |
 
 ### 1c. Bounded censuses: laws by rule, not by proof
 
@@ -109,6 +111,15 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     deck-fixed ones: its own level's (main's s639), pulled back.
   - **±LLRLRR carry none.** So F-CI's content at the resolving tick is not a weave law.
   - The parities never carry F-CI content: they form one slope class, closed under differences.
+- **The weave's own extensions at the resolving tick, every odd-trace state to length 8 (W15, by rule).**
+  - Index exactly +1 on every reading of 28 states; 0 on every reading of ±LLRLRR (±15) and ±LLLLLRRR (±17).
+  - **The mod-16 law:** silent exactly when φ³ ≡ ±I (mod 16), that is t ≡ ±1 (mod 16): 32 of 32. A census law; the
+    proof is open.
+  - Predicted before the test (`docs/dossiers/the_weave_2026-10-07/W15_PREDICTION.md`): the ten remaining states of
+    length 8 fire (they did), and F-CI shares the silence on ±LLLLLRRR. It does not: F-CI carries 3 064 and 336
+    backgrounds there. So F-CI's silence on ±LLRLRR and the extensions' were a coincidence.
+- **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
+  dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).
 - **The forced A₄ cover.** The twelve odd-trace states to length 6 (W6). Members are only on ±LR, and generations only on
   +LR. The census is complete at orders 4 and 3.
@@ -265,11 +276,17 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
        in its spin part on every odd-trace thread at tick 3 (W9).
      - that, with the parities, L and R carry them as a chiral triplet T ⊕ T̄, alone at one vacuum character on exactly
        one sign twin of every odd-trace word (W10);
-     - that in F-HE's frame the spin vacuum carries no generation, on any thread at any tick (W11).
+     - that in F-HE's frame the spin vacuum carries no generation, on any thread at any tick (W11);
+     - that the hand is the determinant of the weave's triplet at tick 3, mirror-odd, on every odd-trace thread
+       (Theorem H);
+     - that the weave's own extensions (a parity line extended by a spin doublet along a weave class) carry index one
+       per parity, three or nothing (W15). Which threads carry is decided, on all 32 odd-trace states to length 8, by
+       the mod-16 law: none exactly when φ³ ≡ ±I (mod 16). That is a census law, with the proof open.
    - **Open:**
-     - content: not at the weave's vacua in F-HE's frame (W11, W12), so in F-HE it is a thread's. In F-CI it is ten
-       threads' of twelve at the resolving tick, not ±LLRLRR's (W14). So no frame on record makes it the weave's. Open:
-       another frame or dictionary (GENESIS FK11);
+     - content: not at the weave's vacua in F-HE's frame (W11, W12), so in F-HE it is a thread's. In F-CI it is most
+       threads', not ±LLRLRR's (W14). In the weave's own extensions it is the mod-16 law's threads' (W15). The shape
+       identity n_5̄ = n_10 is built into none of these counts: the weave's five reads F-HE's anomalous (−1, −3).
+       Open: the dictionary (GENESIS FK11), for which main's three conditions are now two met and one not;
      - the deck kept (GENESIS FK7);
      - the hand (GENESIS FK4 and FK12; main's sign);
      - the masses;

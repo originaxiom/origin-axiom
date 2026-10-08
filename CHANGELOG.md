@@ -1,5 +1,32 @@
 # Changelog
 
+## The weave's W15: the hand is a theorem (the determinant of the weave's triplet), the weave's own extensions carry index one per parity with a mod-16 law, and main's conditions for the dictionary read on the weave's modules (two of three met)
+
+- **Theorem H (PROVED for every odd-trace word).**
+  - W10's triplet T is the sum of one line per parity, so moves act on it by monomial matrices. A monomial 3 × 3 matrix
+    over a 3-cycle cubes to its determinant.
+  - So at tick 3 an odd-trace word acts on T as the scalar det(w|T), a character of the moves. The hand rule is a
+    theorem.
+  - The hand is mirror-odd (the swap carries T to T̄) and not an index: main's third condition for GENESIS FK11.
+  - Checked on 32 states (direct) and 326 (the rule).
+- **The weave's own extensions.**
+  - A parity line extended by a twisted spin doublet along a weave class has index [c ∪ ℓ_p ≠ 0] (main's B1297
+    identity).
+  - At the resolving tick it is exactly +1 on every reading of 28 odd-trace states to length 8, and 0 on ±LLRLRR and
+    ±LLLLLRRR: three alike units of index one, or nothing.
+  - **The mod-16 law:** silent exactly when φ³ ≡ ±I (mod 16), on 32 of 32. The proof is open.
+- **A prediction, committed before its test** (`W15_PREDICTION.md`).
+  - The extensions on the rest of length 8 obeyed it.
+  - F-CI did not: it carries 3 064 and 336 backgrounds on ±LLLLLRRR. So the shared silence on ±LLRLRR was a coincidence.
+- **The weave's five.** The spin doublet extended by the three parity lines (the 2 + 3 shape) reads F-HE's anomalous
+  (1, 3) and dual (−1, −3) on every firing thread. The shape identity is not built into the class index.
+- **Main's conditions for the dictionary.** The module and count, and the chirality handle, are met; the shape identity
+  is not.
+  - A READING that would meet it: one complete 27 of the weave's E₆ per index-one unit. FK11 stays UNEARNED.
+- **Also.** Main's B1601 is being verified on this seat's code, with an exact check in the number field; the first
+  words agree. The relay's §9; the relay-ledger rows for main's S83; the laws page, the synthesis and the dossier
+  updated.
+
 ## The weave's W13 and W14: main's B1434 verified, the slope law for F-CI's index, and F-CI's census on every odd-trace thread to length 6 — ten carry one-generation backgrounds in threes at the resolving tick, ±LLRLRR carry none
 
 - **W13 (VERIFIED).** sm:B1506's census engine, carried from m004's tower to any state's mapping torus, reproduces

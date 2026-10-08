@@ -1,0 +1,172 @@
+{
+ "(0) the group of L and R on V": {
+  "order": 96,
+  "commutant dimension": 2,
+  "pieces": [
+   {
+    "dimension": 3,
+    "character real": false,
+    "irreducible (norm 1)": true
+   },
+   {
+    "dimension": 3,
+    "character real": false,
+    "irreducible (norm 1)": true
+   }
+  ],
+  "the two pieces are complex conjugates": true
+ },
+ "(i) each triplet is the sum of one line in each parity's doublet": true,
+ "(ii, iv) the generators": {
+  "L": [
+   {
+    "lift": [
+     0.707107,
+     0.707107,
+     0.0,
+     0.0
+    ],
+    "monomial on T and on the conjugate": true,
+    "permutation = the move's on the parities": true,
+    "det on T (eighths)": 5,
+    "det on the conjugate (eighths)": 3,
+    "the two dets are conjugate": true
+   },
+   {
+    "lift": [
+     -0.707107,
+     -0.707107,
+     0.0,
+     0.0
+    ],
+    "monomial on T and on the conjugate": true,
+    "permutation = the move's on the parities": true,
+    "det on T (eighths)": 1,
+    "det on the conjugate (eighths)": 7,
+    "the two dets are conjugate": true
+   }
+  ],
+  "R": [
+   {
+    "lift": [
+     -0.707107,
+     0.0,
+     0.707107,
+     0.0
+    ],
+    "monomial on T and on the conjugate": true,
+    "permutation = the move's on the parities": true,
+    "det on T (eighths)": 7,
+    "det on the conjugate (eighths)": 1,
+    "the two dets are conjugate": true
+   },
+   {
+    "lift": [
+     0.707107,
+     0.0,
+     -0.707107,
+     0.0
+    ],
+    "monomial on T and on the conjugate": true,
+    "permutation = the move's on the parities": true,
+    "det on T (eighths)": 3,
+    "det on the conjugate (eighths)": 5,
+    "the two dets are conjugate": true
+   }
+  ],
+  "-I": [
+   {
+    "lift": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "monomial on T and on the conjugate": true,
+    "permutation = the move's on the parities": true,
+    "det on T (eighths)": 2,
+    "det on the conjugate (eighths)": 6,
+    "the two dets are conjugate": true
+   },
+   {
+    "lift": [
+     0.0,
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "monomial on T and on the conjugate": true,
+    "permutation = the move's on the parities": true,
+    "det on T (eighths)": 6,
+    "det on the conjugate (eighths)": 2,
+    "the two dets are conjugate": true
+   }
+  ],
+  "P": [
+   {
+    "lift": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "carries T to the conjugate triplet": true
+   },
+   {
+    "lift": [
+     0.0,
+     -0.707107,
+     -0.707107,
+     0.0
+    ],
+    "carries T to the conjugate triplet": true
+   }
+  ]
+ },
+ "(iv) det on T by generator (eighths, the two lifts)": {
+  "L": [
+   1,
+   5
+  ],
+  "R": [
+   3,
+   7
+  ],
+  "-I": [
+   2,
+   6
+  ]
+ },
+ "(iv) det on T mod 4 eighths (lift-independent)": {
+  "L": [
+   1
+  ],
+  "R": [
+   3
+  ],
+  "-I": [
+   2
+  ]
+ },
+ "(iii) the direct tick-3 act, every odd-trace state to length 8 (both signs)": {
+  "odd-trace states read": 32,
+  "act at tick 1 monomial with a 3-cycle": 32,
+  "tick-3 act = det(w|T) I on T": 32,
+  "and the conjugate on the other triplet": 32
+ },
+ "(v) the hand rule from the determinant, GENESIS's states to length 12": {
+  "states (both signs)": 758,
+  "odd trace": 326,
+  "det = +-i (the triplets apart)": 163,
+  "agrees with n_L - n_R + 2[sign -] = 2 mod 4": 326,
+  "odd-trace words with exactly one twin apart": 163,
+  "odd-trace words": 163
+ },
+ "summary": {
+  "(i) holds": true,
+  "(ii) holds": true,
+  "(iii) holds on every odd-trace state to length 8": true,
+  "(v) holds on every odd-trace state to length 12": true,
+  "(vi) the swap carries T to the conjugate triplet": true
+ }
+}

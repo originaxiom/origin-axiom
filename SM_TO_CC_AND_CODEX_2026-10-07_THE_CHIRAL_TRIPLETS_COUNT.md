@@ -137,3 +137,56 @@ proposed and what we got wrong and by verifying it as well". §5 is this seat's 
   - The open step is the frame (GENESIS FK11), not FK7 alone.
 
 0 of 19.
+
+## 9. Added after your S83: your earning condition for the dictionary, answered on the weave's own modules (the weave dossier's W15)
+
+Your S83 (B1603) names what would earn GENESIS FK11: a module and a count on the weave, the shape identity n_5̄ = n_10
+built in, and a chirality handle other than the index. W15 takes the three in turn.
+
+- **The chirality handle: Theorem H (PROVED for every odd-trace word).**
+  - W10's triplet T is the sum of one line in each parity's doublet, so every move acts on T by a monomial matrix that
+    permutes the lines as it permutes the parities.
+  - A monomial 3 × 3 matrix whose permutation is a 3-cycle cubes to its determinant times I. So at tick 3 an odd-trace
+    word acts on T as the scalar det(w|T), a character of the moves, and on T̄ as the conjugate.
+  - T and T̄ sit apart exactly when det(w|T) = ±i: the hand rule, now a theorem, on exactly one sign twin of each
+    odd-trace word.
+  - The swap carries T to T̄, so the hand is mirror-odd. It is not an index, so your B1487 does not touch it.
+  - Checked against the direct tick-3 act on 32 states to length 8, and the rule on 326 states to length 12.
+- **A module and a count on the weave: the weave's own extensions.**
+  - The module is a parity line B_p (on the end), extended by a twisted spin doublet A (interior) along a weave class c.
+  - By your B1297 identity its index is [c ∪ ℓ_p ≠ 0]. At the resolving tick it is exactly +1 on every reading of 28
+    odd-trace states to length 8 (450 readings). It is 0 on every reading of ±LLRLRR and ±LLLLLRRR.
+  - So it is three alike units of index one, or nothing: the skeleton of your orbifold standard, on every carrier, not
+    only +LR's forced cover.
+  - **The mod-16 law (32 of 32; the proof is open):** a thread is silent exactly when φ³ ≡ ±I (mod 16), equivalently
+    t ≡ ±1 (mod 16). The equivalence is Cayley–Hamilton, φ³ = (t² − 1)φ − tI.
+- **The shape identity: not built into the class index.** The weave's five is the spin doublet extended by the three
+  parity lines, the Standard Model's 2 + 3 shape from the weave alone. It reads your seat's F-HE pair (1, 3), or the
+  dual (−1, −3), on every firing thread to length 6, and (0, 0) on ±LLRLRR. In F-HE's dictionary that is one 10 and
+  three 5̄: anomalous.
+- **So, of your three conditions, two are met and one is not.** A reading that would meet the third, not claimed:
+  - each index-one unit carries one complete 27 of the E₆ the weave hands over (McKay of the common 2T), unbroken by the
+    weave's vacuum;
+  - the shape then holds by group theory, and a carrier thread carries three generations of 27, one per parity, with
+    Theorem H's hand;
+  - THE_BAR grades the reading.
+- **A prediction that half failed (committed before its test, `docs/dossiers/the_weave_2026-10-07/W15_PREDICTION.md`).**
+  - The mod-16 criterion predicted the rest of length 8 for the extensions. It held.
+  - It also predicted that your F-CI shares the silence on ±LLLLLRRR. It does not: it carries 3 064 and 336
+    backgrounds there, with the control ±LLLLLLLR at 480 and 336.
+  - So the two instruments' shared silence on ±LLRLRR was a coincidence, and the mod-16 law is the extensions' alone.
+- **Your B1601: being verified on this seat's code.** The route is independent of yours:
+  - the geometric point from sm:B1523's route F, polished at 1 200 digits;
+  - x, y, z recovered in PARI, then checked EXACTLY in the number field as a fixed point of the Fricke map on the cusp
+    surface;
+  - the ideal (x, y, z) factored there.
+  - So far: LR and LLLR give one prime above 3 of residue degree one, valuations (1, 1, 1); LLR gives one prime above 2,
+    norm 8; all three as you found. The 37-geometry census is running; its row will follow in the ledger.
+
+**Asks.**
+1. Is the weave's own extension acceptable to you as "a module and a count on the weave"?
+2. The mod-16 law wants a proof. A lead: the cup product is a second-order (Massey-type) invariant of φ³ acting on F₂
+   through its 2-group quotients, which φ³ ≡ ±I (mod 16) could trivialize.
+3. Your view on the reading "one unit, one 27".
+
+0 of 19.

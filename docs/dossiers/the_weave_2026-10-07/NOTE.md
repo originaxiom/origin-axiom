@@ -567,6 +567,117 @@ The law against the engine: +LR: 256 modules, 0 mismatches; −LR: 400 modules, 
     where the forced orbits alone decide, and they give nothing. +LLLRRR, with 115 classes against 219 orbits, carries
     1 584.
 
+## W15. The hand theorem, the weave's own extensions and their mod-16 law, and the weave's five (`the_hand_theorem.py`, `the_weave_extension.py`, `the_prediction_test.py`, `the_weaves_five.py`)
+
+**The occasion.** Main's S83 (B1603) named what would earn the dictionary, GENESIS FK11:
+- a module and a count on the weave;
+- the shape identity n_5̄ = n_10 built in;
+- a chirality handle other than the index (main's B1487: the class index is mirror-even for every module).
+
+W15 takes the three in turn, on the weave's own modules.
+
+**Theorem H, the hand (PROVED for every odd-trace word; checked).**
+- **(i)** W10's triplet T is the sum of three lines, one in each parity's doublet; so is its conjugate T̄.
+- **(ii)** So a move with a lift acts on T by a monomial matrix. It permutes the lines as the move permutes the
+  parities mod 2.
+- **(iii)** A monomial 3 × 3 matrix whose permutation is a 3-cycle has its cube equal to its determinant times the
+  identity. An odd-trace word cycles the parities, so at tick 3 it acts on T as the scalar det(w|T), and on T̄ as the
+  conjugate.
+- **(iv)** det(w|T) is a character of the moves. In eighths of a turn, with the two lifts: L 1 or 5, R 3 or 7, the sign
+  2 or 6. Mod 4 it does not depend on the lifts.
+- **(v)** So T and T̄ sit at different κ exactly when det(w|T) = ±i, that is, when n_L − n_R + 2·[sign −] ≡ 2 (mod 4).
+  That is W9's hand rule, now a theorem. Exactly one sign twin of each odd-trace word has it, since the sign adds 2.
+- **(vi)** The swap carries T to T̄, so a thread's mirror sits at the conjugate κ: the hand is mirror-odd.
+- **The checks.**
+  - (i), (ii) and (iv) on the generators, with both lifts.
+  - (iii) against the tick-3 act computed directly on all 32 odd-trace states to length 8: 32 of 32.
+  - (v) on all 326 odd-trace states of GENESIS to length 12: 326 of 326. On each of the 163 odd-trace words exactly one
+    twin is chiral.
+- **What it gives.** The hand is the determinant of the weave's triplet: a character of the moves, read on each thread
+  at its resolving tick. It is mirror-odd and it is not an index. That is main's third condition, met on every
+  odd-trace thread.
+- **What it does not give.**
+  - Which of T and T̄ is left-handed: one bit, a dictionary's.
+  - Index chirality at the weave's vacuum. That vacuum is unitary and every class there is interior, so a count of zero
+    modes pairs κ with κ̄ and is vector-like; W11 is one case of this.
+
+**The weave's own extensions (the index formula PROVED on the page; the census COMPUTED by rule).**
+- **The module.**
+  - For each non-zero parity p, B_p is the parity character made trivial on the cusp (W8). h¹(B_p) = 1, and its class
+    ℓ_p is on the end.
+  - A = ρ_Q ⊗ χ_q ⊗ κ is a twisted spin doublet (W9): acyclic on the cusp, every class interior.
+  - A class c ∈ H¹(A ⊗ B_p*), a weave class, gives the rank-three module X = [[A, c B_p], [0, B_p]].
+  - Every ingredient is the weave's, so X is defined on every odd-trace thread at once.
+- **The formula.** By main's B1297 identity: h⁰ vanishes for X and X*, A is acyclic on the cusp, and B_p is trivial on
+  it. So I(X) = 1 − r₁(X), and r₁(X) = 1 exactly when ℓ_p lifts to X, that is, when c ∪ ℓ_p = 0. Hence
+  **I(X) = [c ∪ ℓ_p ≠ 0] and I(X*) = −I(X).**
+- **The census, by rule** (sm:B1374's engine over GF(p), p ≡ 1 mod 24, with its two identity checks on every reading).
+  - **(a) Every odd-trace state to length 6 at tick 3.** Every p; q ∈ {0, p₁, p₂, p₃}; every 24th root of unity κ where
+    H¹(A ⊗ B_p*) ≠ 0; every basis class and one generic combination. Of 360 readings, 300 are +1: every reading on ten
+    threads. The 60 readings of ±LLRLRR (traces ±15) are all 0: there ℓ_p lifts to every extension.
+  - **(b) Two further primes**, 50 329 and 90 073, on ±LR and ±LLRLRR: the same.
+  - **(c) Every odd-trace state of length 8** (twenty; odd trace forces even length), under the reduced rule q = 0, κ a
+    fourth root of unity. The rule cuts nothing: at tick 3, ρ_Q ⊗ χ_q is conjugate to ρ_Q by a unit quaternion (the
+    stable letter acts by a scalar), and (a) confirms it; by Theorem H the eigenvalues at tick 3 are fourth roots of
+    unity. Of 150 readings, 135 are +1, on eighteen states. The 15 readings of ±LLLLLRRR (traces ±17) are all 0.
+  - **At every resolving tick.** By Shapiro a later tick 3k reduces to tick 3 at other κ, all read. So the silent
+    threads are silent at every tick 3k.
+- **The mod-16 law (COMPUTED, 32 of 32; the proof OPEN).**
+  - A thread's weave extensions are silent exactly when its trace satisfies t ≡ ±1 (mod 16).
+  - By Cayley–Hamilton φ³ = (t² − 1)φ − tI, and φ is not scalar mod 2 when t is odd. So t ≡ ±1 (mod 16) exactly when
+    **φ³ ≡ ±I (mod 16)**: the resolving tick's monodromy is ±1 on the fibre's homology mod 16.
+  - Every odd-trace thread has φ³ ≡ ±I mod 4. The firing threads stop there or at mod 8 (t ≡ ±7 mod 16). The silent
+    ones reach mod 16.
+- **The prediction, and its test** (`W15_PREDICTION.md`, committed at `7c79b8c7` before either run).
+  - **Part 1 held.** The rest of length 8 was predicted to fire (traces ±25, ±27, ±29, ±37, ±39), and every reading did.
+  - **Part 2 failed.** F-CI at tick 3 carries on ±LLLLLRRR: 3 064 generation-shaped backgrounds on +LLLLLRRR (16
+    deck-fixed, 3 048 in deck orbits of three) and 336 on −LLLLLRRR (`the_prediction_test.json`). The control
+    ±LLLLLLLR carries 480 and 336.
+  - So the shared silence of the two instruments on ±LLRLRR was a coincidence, not a common cause. The mod-16 law is the
+    weave's extensions' alone, as the prediction said it would be in that case.
+- **What it shows.**
+  - **A module and a count on the weave (main's first condition).** On every odd-trace thread with φ³ ≢ ±I (mod 16),
+    each parity's line, extended by the weave's spin doublet along any weave class, has index exactly one: three alike
+    units cycled by the deck. That is the skeleton of main's orbifold standard (three sectors of index one,
+    distinguished by characters), on every such thread, not only on +LR's forced cover.
+  - **Three or nothing.** No thread carries one or two: Theorem G, read on the weave's own extensions.
+  - **A weave law of the weave's content, with a criterion.** It takes every odd-trace thread, its module is the joint
+    action's, and its claim is about all threads at once: three units where φ³ ≢ ±I (mod 16), none where φ³ ≡ ±I. It
+    is a census law to length 8, not a theorem. Content is not on every thread: the silent class is a quarter of the
+    odd residues mod 16.
+
+**The weave's five (COMPUTED by rule; read with F-HE's pair, no dictionary claimed).**
+- **The module.** The spin doublet A = ρ_Q ⊗ κ (rank two) extended by the three parity lines (rank three) along weave
+  classes: W = [[A, (c₁B₁, c₂B₂, c₃B₃)], [0, B₁ ⊕ B₂ ⊕ B₃]]. It has the Standard Model's 5 = 2 + 3 shape, built only
+  from the weave.
+- **The rule.** Every odd-trace state to length 6 at tick 3; every κ at which all three H¹(A ⊗ B_p*) are non-zero; every
+  combination of basis classes and one generic; W and its dual, the other order.
+- **The result.**
+  - On the ten firing threads, (I(W), I(Λ²W)) = (1, 3), or (2, 3) for some classes on the vector-like twins. The dual
+    reads (−1, −3) or (−2, −3).
+  - On ±LLRLRR it reads (0, 0).
+  - det W is trivial on the vector-like twins and −1 on the chiral ones.
+- **Read in F-HE's dictionary** (N(10′) = −I(W), N(5̄′) = −I(Λ²W)), the dual is one 10 and three 5̄: one 5̄ per parity,
+  and one 10 for the shared doublet. That is anomalous (n_5̄ ≠ n_10).
+- **So the shape identity is not built into the class index.** The weave's own 2 + 3 reads the anomalous shape on every
+  firing thread. Main's second condition is not met by any count on record applied to the weave's modules.
+
+**What W15 settles, against main's three conditions.**
+- **(1) A module and a count on the weave: met.** The weave's extension has index one per parity, three or nothing,
+  with the mod-16 law deciding which.
+- **(3) A chirality handle other than the index: met.** Theorem H: the determinant of T, mirror-odd, on every
+  odd-trace thread.
+- **(2) The shape identity built in: not met** by the class index (the weave's five).
+- **A frame that would meet (2), stated as a READING, not claimed.**
+  - The weave hands over E₆ on every odd-trace thread (McKay of the common 2T; F-MC, link b), and F-MC's matter is the
+    27.
+  - Suppose each index-one weave unit carries one complete 27, with E₆ unbroken by the weave's vacuum. Then the shape
+    identity holds by group theory (27 ⊃ 10 + 5̄, net).
+  - A thread with φ³ ≢ ±I (mod 16) then carries three generations of 27, one per parity, cycled by the deck, with the
+    hand of Theorem H.
+  - What it takes: that reading (the dictionary, GENESIS FK11), the deck kept (FK7), and the mod-16 criterion.
+  - The weave's five is evidence against F-HE's dictionary on the weave's modules, not evidence for this reading.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -586,6 +697,7 @@ The law against the engine: +LR: 256 modules, 0 mismatches; −LR: 400 modules, 
 | W12 | PROVED (WEAVE + WAVE); COMPUTED | the joined vacuum λ ⊗ ρ_hyp ⊗ ρ_Q has no interior class on any state at any tick (Menal-Ferrer–Porti through Shapiro): F-HE reads nothing there. In F-HE a generation's content is a thread's (the balanced four's cuspidal classes on covers) |
 | W13 | VERIFIED (main's B1434: four odd-trace rows on the engine route, all six through W14) | F-CI's generation-shaped backgrounds at the resolving tick come in deck orbits of three, each counting one, on ±LR, ±LLLR and ±LLLLLR; this seat's code agrees with B1434 row by row |
 | W14 | PROVED (the slope law); COMPUTED (the census) | F-CI's index is [s(α) = s(λ)] − [s(α − λ) = s(λ)] (slopes on the cusp torus), and its signs pair (the extension's order). At the resolving tick, ten of the twelve odd-trace threads to length 6 carry one-generation backgrounds in deck orbits of three; ±LLRLRR carry none. So F-CI's content is not a weave law; the three is |
+| W15 | PROVED (Theorem H; the extension index formula); COMPUTED (the census, 32 states); a prediction half held | the hand is the determinant of the weave's triplet T at tick 3, mirror-odd, on every odd-trace thread (W9's hand rule, now a theorem). The weave's own extension of a parity line by a spin doublet has index [c ∪ ℓ_p ≠ 0]: exactly one per parity, three or nothing, and silent exactly when φ³ ≡ ±I (mod 16) on all 32 odd-trace states to length 8 (±LLRLRR and ±LLLLLRRR). F-CI does not share that silence (it carries on ±LLLLLRRR). The weave's five (2 + 3) reads F-HE's anomalous (−1, −3). Main's conditions for FK11: the module and count, and the chirality handle, met; the shape identity not built into the class index |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -616,6 +728,10 @@ The law against the engine: +LR: 256 modules, 0 mismatches; −LR: 400 modules, 
   Theorem S, for `docs/THE_WEAVES_LAWS.md`.
 - `draft_chiral_counts/DESIGN_FOR_REVIEW.md`: the design sent to main. It was sealed as sm:B1552 on the owner's ruling,
   ahead of main's review (W11).
+- `the_hand_theorem.py` → `the_hand_theorem.json`: W15, Theorem H's ingredients on the generators, the tick-3 act on every odd-trace state to length 8, and the hand rule from the determinant on all 758 states to length 12.
+- `the_weave_extension.py` → `the_weave_extension.json`: W15, the weave's own extensions: the census to length 6, two further primes, and length 8 under the reduced rule.
+- `W15_PREDICTION.md`: the mod-16 prediction, committed before its test; `the_prediction_test.py` → `the_prediction_test.json`: its second part, F-CI on ±LLLLLRRR with the control ±LLLLLLLR.
+- `the_weaves_five.py` → `the_weaves_five.json`: W15, the spin doublet extended by the three parity lines, read with F-HE's pair.
 - `the_slope_law.py` → `the_slope_law.json`: W14, the slope law against the engine and F-CI's census on every odd-trace
   state to length 6; `the_slope_law_sample.py` → `the_slope_law_sample.json`: the law on 300 of +LLRLRR's modules.
 - `the_class_index_orbits.py` → `the_class_index_orbits.json`: W13, main's B1434 odd-trace rows on this seat's engine.
