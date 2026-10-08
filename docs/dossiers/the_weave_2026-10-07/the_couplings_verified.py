@@ -189,8 +189,8 @@ def main():
                                                                    "T (x) T (x) T-bar"))),
         "T-bar (x) T = 3 + 3 + 2 + 1, each once": dirac["piece dimensions"] == [1, 2, 3, 3] and cd == 4,
         "a singlet Higgs gives (1, 1, 1)": dirac["the singlet Higgs's spectrum"] == [1.0, 1.0, 1.0],
-        "rigid Dirac spectra are (0, 1, 1) and (1/2, 1/2, 1)": spectra_dirac <= {(0.0, 1.0, 1.0), (0.5, 0.5, 1.0),
-                                                                              (1.0, 1.0, 1.0)},
+        "rigid Dirac spectra are (0, 1, 1) and (1/2, 1/2, 1)": {(0.0, 1.0, 1.0), (0.5, 0.5, 1.0)} <= spectra_dirac <= {
+            (0.0, 1.0, 1.0), (0.5, 0.5, 1.0), (1.0, 1.0, 1.0)},
         "along RRL one triplet has a two-dimensional family with m1 + m2 = m3": (
             len(rrl_triplet_family) == 1 and rrl_triplet_family[0]["piece dimension"] == 3
             and rrl_triplet_family[0]["family: max |m1 + m2 - m3| / m3 over 4000 samples"] < 1e-9),

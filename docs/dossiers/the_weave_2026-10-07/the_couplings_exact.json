@@ -11,7 +11,7 @@
   }
  },
  "every element is c(g) S(g) in the Klein axes' basis (all 96)": true,
- "c and S are homomorphisms (checked on the projective group)": true,
+ "c and S are homomorphisms (checked on all 96 x 96 products)": true,
  "the residual elements": {
   "L": {
    "c = exp(2 pi i k/24), k": 21,
@@ -35,6 +35,7 @@
   }
  },
  "End(T)'s four pieces invariant under every residual": true,
+ "End(T)'s four pieces pairwise inequivalent (character Gram matrix over the 24 rotations)": true,
  "Dirac: each piece's fixed vacua (exact)": [
   {
    "residual": "L",
@@ -276,7 +277,8 @@
  "checks": {
   "the projective image is S4 (order 24; 9, 8, 6 elements of orders 2, 3, 4)": true,
   "T = c (x) the cube's rotations, on all 96 elements": true,
-  "RL a 3-cycle, RRL an edge half-turn, L and R quarter-turns": true,
+  "RL a 3-cycle, RRL an edge half-turn (order 2, not diagonal), L and R quarter-turns": true,
+  "End(T)'s four pieces are invariant and pairwise inequivalent": true,
   "the RRL family lies in the off-diagonal symmetric piece and Heron's polynomial vanishes identically": true,
   "the antisymmetric piece gives (0, 1, 1) wherever it is fixed": true,
   "every residual-fixed Majorana matrix, all pieces at once, has an exactly degenerate pair": true,

@@ -11,10 +11,36 @@
   ]
  ],
  "U's order in SL(2, Z)": 6,
- "U fixes omega": {
-  "tau -> (a tau + b)/(c tau + d)": true,
-  "with the inverse matrix": true,
-  "with the transpose": false
+ "which fixes omega (both rules)": {
+  "standard rule: U fixes omega": true,
+  "period rule: U fixes omega + 1": true,
+  "period rule: L U L^-1 fixes omega": true
+ },
+ "the period rule's stabiliser of omega, L U L^-1": {
+  "its H1 matrix": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    0
+   ]
+  ],
+  "the residual group's order on T": 48,
+  "T's commutant under it": 1,
+  "its eigen-turns on T (both lifts)": [
+   [
+    0.083333,
+    0.416667,
+    0.75
+   ],
+   [
+    0.25,
+    0.583333,
+    0.916667
+   ]
+  ]
  },
  "the residual group's order on T": 48,
  "T's commutant under it (1 = irreducible)": 1,
@@ -225,7 +251,8 @@
   "Sym^2 T": 0.0
  },
  "checks": {
-  "U's matrix has order 6 and fixes omega": true,
+  "U has order 6; under the period rule U fixes omega + 1 and L U L^-1 fixes omega": true,
+  "the period rule's stabiliser gives the same order, irreducibility and eigen-turns": true,
   "the residual group has order 48 on T": true,
   "T is irreducible under it (B1617's Z2 fails)": true,
   "U has order 12 on T with eigen-turns 1/4, 7/12, 11/12 (one lift)": true,

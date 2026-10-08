@@ -6,6 +6,8 @@ The residual symmetry at omega is built from W21's construction, as in W35 and W
     fixes omega;
   - the inner automorphisms (conjugation by a and by b), which fix every tau;
   - the sign -I.
+The fixed-point convention is CONVENTIONS.md section 3: under the period rule (the geometric action on W21's period
+ratio) U fixes omega + 1, the same torus, and L U L^-1 fixes omega; the group-level results are computed for both.
 Each is lifted to V through every element of 2O that realises it at the common point (the_common_point.extend), and
 restricted to the matter triplet T in the Hodge-Riemann form's orthonormal basis (the_mixing_patterns_verified.on_T).
 Then: the group's order on T; T's commutant under it; U's eigen-turns on T; the inner automorphisms and U in W38's
@@ -51,7 +53,9 @@ def closure(gens, cap=5000):
     fr = [np.eye(gens[0].shape[0], dtype=complex)]
     k = lambda M: tuple(np.round(np.concatenate([M.real.ravel(), M.imag.ravel()]), 6))
     G[k(fr[0])] = fr[0]
-    while fr and len(G) < cap:
+    while fr:
+        if len(G) > cap:
+            raise RuntimeError("closure exceeded %d elements" % cap)
         nx = []
         for X in fr:
             for g in gens:
@@ -83,9 +87,15 @@ def main():
     U = {1: [2], 2: [-1, 2]}
     autos = {"U": U, "inner by a": CP.inner([1]), "inner by b": CP.inner([2]), "-I": CP.AUT["-I"]}
     MU = h1(U)
-    fixes = {"tau -> (a tau + b)/(c tau + d)": bool(abs(mobius(MU, OMEGA) - OMEGA) < 1e-12),
-             "with the inverse matrix": bool(abs(mobius(np.round(np.linalg.inv(MU)).astype(int), OMEGA) - OMEGA) < 1e-12),
-             "with the transpose": bool(abs(mobius(MU.T, OMEGA) - OMEGA) < 1e-12)}
+    # the geometric action on W21's period ratio is the period rule tau -> (delta tau + beta)/(gamma tau + alpha)
+    # (CONVENTIONS.md section 3): U fixes omega + 1 there, and L U L^-1 fixes omega; under the standard rule U fixes omega
+    period = lambda M, t: (M[1][1] * t + M[0][1]) / (M[1][0] * t + M[0][0])
+    L_inv = {1: [1], 2: [-1, 2]}
+    LUL = CP.compose(CP.compose(CP.AUT["L"], U), L_inv)
+    MLUL = h1(LUL)
+    fixes = {"standard rule: U fixes omega": bool(abs(mobius(MU, OMEGA) - OMEGA) < 1e-12),
+             "period rule: U fixes omega + 1": bool(abs(period(MU, OMEGA + 1) - (OMEGA + 1)) < 1e-12),
+             "period rule: L U L^-1 fixes omega": bool(abs(period(MLUL, OMEGA) - OMEGA) < 1e-12)}
     lifts = {n: [MV.on_T(C, K, CT.on_V(phi, g)) for g in CP.extend(phi)] for n, phi in autos.items()}
     gens = [x for v in lifts.values() for x in v]
     R = closure(gens)
@@ -96,7 +106,7 @@ def main():
     turns = {}
     for i, gU in enumerate(lifts["U"]):
         ev = np.linalg.eigvals(gU)
-        turns["lift %d" % i] = sorted(round(float((np.angle(e) / (2 * np.pi)) % 1), 6) for e in ev)
+        turns["lift %d" % i] = sorted(round(round(float(np.angle(e) / (2 * np.pi)), 6) % 1, 6) for e in ev)
     uorder = next(n for n in range(1, 100) if np.allclose(np.linalg.matrix_power(lifts["U"][0], n), np.eye(3), atol=1e-8))
 
     # W38's normal form: B, the Klein axes' basis; each element c S with S a signed permutation of determinant one
@@ -122,6 +132,16 @@ def main():
     normal = {n: [nf(g) for g in v] for n, v in lifts.items()}
     in_G = {n: [bool(any(np.allclose(g, h, atol=1e-8) for h in GT)) for g in v] for n, v in lifts.items()}
 
+    # the same residual group built with the period rule's stabiliser of omega (L U L^-1): conjugate, so the same results
+    autos_p = dict(autos)
+    autos_p["U"] = LUL
+    lifts_p = {n: [MV.on_T(C, K, CT.on_V(phi, g)) for g in CP.extend(phi)] for n, phi in autos_p.items()}
+    gens_p = [x for v in lifts_p.values() for x in v]
+    turns_p = sorted(sorted(round(round(float(np.angle(e) / (2 * np.pi)), 6) % 1, 6) for e in np.linalg.eigvals(g))
+                     for g in lifts_p["U"])
+    period_stabiliser = {"its H1 matrix": MLUL.tolist(), "the residual group's order on T": len(closure(gens_p)),
+                         "T's commutant under it": commutant_dim(gens_p, 3), "its eigen-turns on T (both lifts)": turns_p}
+
     inv = {
         "T-bar (x) T (Dirac, B1615's tensor)": invariants(R, lambda g: abs(np.trace(g)) ** 2),
         "T (x) T (W39's tensor given Lambda)": invariants(R, lambda g: np.trace(g) ** 2),
@@ -131,7 +151,8 @@ def main():
         "status": "VERIFICATION of main's B1617 (read first), with this seat's code; given tau = omega",
         "U's H1 matrix": MU.tolist(),
         "U's order in SL(2, Z)": next(n for n in range(1, 13) if np.array_equal(np.linalg.matrix_power(MU, n), np.eye(2, dtype=int))),
-        "U fixes omega": fixes,
+        "which fixes omega (both rules)": fixes,
+        "the period rule's stabiliser of omega, L U L^-1": period_stabiliser,
         "the residual group's order on T": order,
         "T's commutant under it (1 = irreducible)": comm,
         "U's order on T": uorder,
@@ -145,7 +166,12 @@ def main():
                       for n in ("inner by a", "inner by b") for x in normal[n])
     u_cycle = all(x is not None and all(x["S"][i][i] == 0 for i in range(3)) for x in normal["U"])
     res["checks"] = {
-        "U's matrix has order 6 and fixes omega": res["U's order in SL(2, Z)"] == 6 and any(fixes.values()),
+        "U has order 6; under the period rule U fixes omega + 1 and L U L^-1 fixes omega": (
+            res["U's order in SL(2, Z)"] == 6 and fixes["period rule: U fixes omega + 1"]
+            and fixes["period rule: L U L^-1 fixes omega"]),
+        "the period rule's stabiliser gives the same order, irreducibility and eigen-turns": (
+            period_stabiliser["the residual group's order on T"] == order and period_stabiliser["T's commutant under it"] == comm
+            and sorted(turns.values()) == turns_p),
         "the residual group has order 48 on T": order == 48,
         "T is irreducible under it (B1617's Z2 fails)": comm == 1,
         "U has order 12 on T with eigen-turns 1/4, 7/12, 11/12 (one lift)": uorder == 12 and any(

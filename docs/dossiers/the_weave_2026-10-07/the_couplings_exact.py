@@ -10,7 +10,9 @@ The argument.
       representation of S4 is linear (the faithful irreducibles of S4's double covers have dimensions 2 and 4), so
       T = c (x) R: c a character of G, R the rotation group of the cube. In the basis of the normal Klein group's three
       axes, with the phases fixed once by a 3-cycle, every element is c(g) S(g), S(g) a signed permutation matrix of
-      determinant one. This is checked on all 96 elements, and c is checked to be a homomorphism.
+      determinant one. This is checked on all 96 elements, and c is checked to be a homomorphism. This identification
+      is numerical (float decisions with tolerances 1e-6 to 1e-8, guarded by asserts); the algebra below is exact. An
+      independent exact closure in Q(zeta_8) (the adversarial review of 2026-10-08) confirms it.
   (2) Exact (sympy; integer matrices and the exact roots of unity c(g)), in that basis:
       - End(T) = T-bar (x) T, M -> g M g^dagger = S M S^T (c cancels): the identity (1), the traceless diagonal (2),
         the off-diagonal symmetric (3) and the antisymmetric (3') matrices, invariant and pairwise inequivalent;
@@ -38,7 +40,6 @@ sys.path.insert(0, str(HERE))
 import the_couplings_verified as CV  # noqa: E402  (W38: the group on T from W21's construction)
 
 OUT = HERE / "the_couplings_exact.json"
-TOL = 1e-9
 
 
 def pkey(g):
@@ -174,6 +175,19 @@ def main():
     invariant = all(in_span(S * b * S.T, basis)
                     for (_, S) in res_g.values() for basis in pieces.values() for b in basis)
 
+    # pairwise inequivalence, exactly: the characters of the four pieces over the 24 rotations S(g) are orthonormal
+    rotations = {tuple(map(tuple, S.tolist())): sp.Matrix(S.tolist()) for _, _, S in data}
+
+    def char(basis, S):
+        P = sp.Matrix.hstack(*[b.reshape(9, 1) for b in basis])
+        K = sp.Matrix.hstack(*[(S * (P[:, k].reshape(3, 3)) * S.T).reshape(9, 1) for k in range(P.shape[1])])
+        return ((P.T * P).inv() * P.T * K).trace()
+
+    names = list(pieces)
+    table = {n: [char(pieces[n], S) for S in rotations.values()] for n in names}
+    gram = [[sp.Rational(sum(a * b for a, b in zip(table[m], table[n])), len(rotations)) for n in names] for m in names]
+    inequivalent = len(rotations) == 24 and sp.Matrix(gram) == sp.eye(4)
+
     def fixed(basis, act):
         n = len(basis)
         A = sp.zeros(9, n)
@@ -263,11 +277,12 @@ def main():
         "G's order on T": len(GT),
         "PGL(T) image: order and element orders": {"order": len(PG), "orders": {str(k): v for k, v in sorted(orders.items())}},
         "every element is c(g) S(g) in the Klein axes' basis (all 96)": len(data) == 96,
-        "c and S are homomorphisms (checked on the projective group)": hom_ok,
+        "c and S are homomorphisms (checked on all 96 x 96 products)": hom_ok,
         "the residual elements": {w: {"c = exp(2 pi i k/24), k": k, "S": str(S.tolist()),
                                       "S's order": next(n for n in range(1, 13) if S ** n == sp.eye(3))}
                                   for w, (k, S) in res_g.items()},
         "End(T)'s four pieces invariant under every residual": invariant,
+        "End(T)'s four pieces pairwise inequivalent (character Gram matrix over the 24 rotations)": inequivalent,
         "Dirac: each piece's fixed vacua (exact)": dirac,
         "Dirac: the RRL family (exact)": fam,
         "Dirac: each residual's whole fixed space (all pieces at once)": whole_dirac,
@@ -277,9 +292,11 @@ def main():
         "the projective image is S4 (order 24; 9, 8, 6 elements of orders 2, 3, 4)":
             len(PG) == 24 and orders == {1: 1, 2: 9, 3: 8, 4: 6},
         "T = c (x) the cube's rotations, on all 96 elements": len(data) == 96 and hom_ok,
-        "RL a 3-cycle, RRL an edge half-turn, L and R quarter-turns": (
+        "RL a 3-cycle, RRL an edge half-turn (order 2, not diagonal), L and R quarter-turns": (
             res["the residual elements"]["RL"]["S's order"] == 3 and res["the residual elements"]["RRL"]["S's order"] == 2
+            and not res_g["RRL"][1].is_diagonal()
             and res["the residual elements"]["L"]["S's order"] == 4 and res["the residual elements"]["R"]["S's order"] == 4),
+        "End(T)'s four pieces are invariant and pairwise inequivalent": invariant and inequivalent,
         "the RRL family lies in the off-diagonal symmetric piece and Heron's polynomial vanishes identically": (
             name_f.startswith("3 (off") and heron == 0),
         "the antisymmetric piece gives (0, 1, 1) wherever it is fixed": all(
