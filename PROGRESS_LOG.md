@@ -18137,3 +18137,22 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - the flavor triplet.
 - **Not derived:** the gauge content. It needs a forced bundle with complex holonomy, which none of the weave's
   six-dimensional objects supplies.
+
+## 2026-10-08 (night, later) — the weave's W25: the weave's bundles are self-conjugate
+
+- **The stop hook's objection:** the gauge content is not derived. W25 asks whether it can be, from what the weave
+  forces. The rule was committed first (2068244e); one run; every cell as predicted.
+- **Proved and computed.**
+  - The fibre's holonomy Q₈ has only real and quaternionic irreducibles.
+  - The weave's group on the puncture's local solutions is quaternionic.
+  - So on the fibre, every gauge reading is self-conjugate.
+- **Where chirality could enter.**
+  - One parity singled out: E₆ is in the centraliser. That is a selection.
+  - The order-3 move in the holonomy: 2T, with a complex character. That happens on a thread, which is
+    odd-dimensional.
+  - The weave's S₄ exchanges ω and ω².
+- **The goal is not met, and now the reason is a theorem.** The gauge content of three generations cannot be derived
+  from the weave's local systems. It needs an input the weave does not force:
+  - a selected parity;
+  - a thread's own orientation of the 3-cycle;
+  - or a new structure outside the common point's local systems.

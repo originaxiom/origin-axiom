@@ -1,5 +1,28 @@
 # Changelog
 
+## The weave's W25: the weave's bundles are self-conjugate, so no gauge reading of them is chiral without a choice
+
+- **The question** (after the stop hook's objection that gauge content is not derived): can any gauge reading of the
+  weave's forced bundles be chiral without a choice? The rule (W25_RULE.md, 2068244e) was committed first. The code
+  ran once, and every cell came out as predicted.
+- **The lemma (Frobenius–Schur).** A gauge group commuting with a bundle's holonomy can be chiral only if some
+  irreducible of the holonomy in the 248 is complex.
+- **The read-out.**
+  - The fibre's holonomy Q₈ has only real and quaternionic irreducibles.
+  - The group the weave forces on the puncture's six local solutions (order 192) is quaternionic.
+  - Only the cohomology triplets T and T̄ are complex. They are flavor, not gauge.
+  - In E₈, the centraliser of Q₈ is 55-dimensional (F₄ × SU(2)).
+  - One parity's element alone has an 82-dimensional centraliser, which contains E₆.
+  - The odd-trace extension (2T) has a 25-dimensional centraliser, with the complex character ω fifteen times.
+- **The theorem.** On the fibre, where the index lives, every gauge reading is self-conjugate.
+  - Chirality needs one parity singled out (a selection), or the order-3 move in the holonomy (a thread, which is
+    odd-dimensional).
+  - The weave's S₄ exchanges ω and ω².
+  - So the dictionary (GENESIS FK11) cannot be derived from the weave's local systems.
+- **The goal (three generations derived with gauge content) is not met.** It needs an input the weave does not force.
+- The dossier (W25), the synthesis (row 16, §4a), the laws page, a test (27 pass), the relay's §21 and the ledger are
+  updated.
+
 ## The weave's W24: the six-dimensional census — no object the weave forces in dimension six gives three; and W22 qualified
 
 - **The owner's choice** (2026-10-08): search for a six-dimensional object the weave forces, where the heterotic

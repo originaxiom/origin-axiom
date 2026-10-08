@@ -1,0 +1,62 @@
+{
+ "rule": "W25_RULE.md (committed 2068244e before this ran)",
+ "F1 Frobenius-Schur indicators of the fibre's holonomy (Q8): +1 real, -1 quaternionic, 0 complex": {
+  "Q8's order": 8,
+  "rho_Q (the spin doublet)": -1.0,
+  "trivial": 1.0,
+  "parity with kernel <i>": 1.0,
+  "parity with kernel <j>": 1.0,
+  "parity with kernel <k>": 1.0
+ },
+ "F2 the group on the six local solutions (moves' lifts, holonomy, grading)": {
+  "order": 192,
+  "commutant (1 = irreducible)": 1,
+  "Frobenius-Schur indicator": -1.0
+ },
+ "F2 ... the moves' lifts alone": {
+  "order": 48,
+  "commutant": 2,
+  "Frobenius-Schur indicator of the whole six": -2.0
+ },
+ "F3 Frobenius-Schur indicators on the cohomology and the tangent space": {
+  "order on V": 96,
+  "T": 0.0,
+  "T-bar": 0.0,
+  "the parity triplet (the moves' linear parts at the common point, the cube's rotations)": 1.0,
+  "... its order": 24
+ },
+ "F4 centralisers in E8 (dimensions by characters)": {
+  "Q8 (W's holonomy, all three parities)": {
+   "order": 8,
+   "centraliser dimension": 55.0
+  },
+  "one parity's element alone, <W(a)>": {
+   "order": 4,
+   "centraliser dimension": 82.0
+  },
+  "one parity's element alone, <W(b)>": {
+   "order": 4,
+   "centraliser dimension": 82.0
+  },
+  "the order-3 move L^-1 R L^-2: its lifts in 2O": 2,
+  "the odd-trace extension: Q8 with the order-3 move's lift": {
+   "order": 24,
+   "centraliser dimension": 25.0,
+   "multiplicity of the complex character omega (trivial on Q8)": 15.0,
+   "multiplicity of omega^2": 15.0,
+   "block permutations met (identity, the 3-cycle, its inverse)": [
+    0,
+    1,
+    2
+   ]
+  }
+ },
+ "F5 the verdict": {
+  "every irreducible of the fibre's holonomy Q8 is real or quaternionic": true,
+  "the six local solutions are quaternionic under the weave's forced group": true,
+  "T and T-bar are complex (the weave's complex structure is the moves', on cohomology)": true,
+  "one parity's element alone has a centraliser containing E6 (82 = 78 + 3 + 1)": true,
+  "the odd-trace extension carries a complex character in the 248": true,
+  "so: on the fibre every gauge reading is self-conjugate; chirality needs a selected parity or the order-3 move in the holonomy (a thread)": true
+ }
+}

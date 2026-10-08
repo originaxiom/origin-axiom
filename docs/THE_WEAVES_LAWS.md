@@ -171,6 +171,13 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   - The weave's local systems have quaternionic holonomy. 𝕎 ≅ ρ_Q ⊗ ℂ³, and the centraliser of Q₈ in E₈ is
     F₄ × SU(2). So every chiral gauge reading is a choice that breaks F₄: the dictionary.
   - W21's flavor triplet is the tangent space of ℂ³ at the common point.
+- **The weave's bundles are self-conjugate (W25; the rule committed first; computed, and the lemma proved).**
+  - The fibre's holonomy Q₈ has only real and quaternionic irreducibles. The group the weave forces on the puncture's
+    six local solutions (order 192) is quaternionic.
+  - So every gauge reading on the fibre is self-conjugate.
+  - Chirality-capable gauge groups need one parity singled out (E₆ ⊂ the centraliser of ⟨e_p⟩), or the order-3 move
+    in the holonomy (2T, on an odd-trace thread). The weave's S₄ exchanges ω and ω².
+  - The dictionary (GENESIS FK11) is therefore not derivable from the weave's local systems.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

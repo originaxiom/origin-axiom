@@ -126,6 +126,7 @@ So this section records which patterns the weave's group contains, and nothing m
 | 13 | PROVED and COMPUTED (W22, WEAVE) | the end condition at the puncture is the weave's: the moves' lifts generate 2O and act irreducibly on the two local solutions in every parity block, so the only conditions every move keeps give each block index +1 or −1. The parities' three is chiral (index ±3), its sign the orientation; the odd spin structure is the only one every move fixes. One thread alone leaves a line, so a vector-like condition exists there; on the weave it does not. GENESIS GAP2 closed for this operator up to the hand; row 12's qualification superseded. A six-dimensional chiral fermion carrying 𝕎 gives three chiral fermions, one per parity. Which fields carry 𝕎 is the dictionary: on the 2d fibre the E₈ frames give F-HE's (1, 3) or one 27, not complete generations (GENESIS FK11). QUALIFIED by W24's D0 (2026-10-08): the three blocks are one doublet (χ_p ⊗ ρ_Q ≅ ρ_Q), so conditions may mix them, and the moves alone keep four (index −3, −1, +1, +3). The index is always odd, never 0; it is ±3 when the condition keeps the parity grading (the flavor symmetry of 𝕎 ≅ ρ_Q ⊗ ℂ³) |
 | 14 | COMPUTED (W23, WEAVE; a census, negative) | the record's E₈ frames on the weave's fibre, with W22's condition, over every bundle built from the common point's blocks: E₆ gives at most one chiral 27, SO(10) at most two 16s, SU(5) (1, 3) or (2, 2). Three complete generations are impossible there, since each spin doublet has rank two. The weave's five reads (1, 3), anomalous by −2, so the puncture must carry anomaly +2. What three complete generations need: matter carrying the rank-six bundle, the puncture's localized content, or a six-dimensional object (GENESIS FK11) |
 | 15 | COMPUTED (W24, exact; the rule committed first, every cell as predicted) and PROVED (its D4); a WEAVE census, NEGATIVE | the six-dimensional search (the owner's choice): the fibre's character variety ℂ³ is forced (every move preserves κ; L and R keep the volume form) but contractible, with no quotient and a trivial tangent bundle, so it has no count; the compact orbifolds E³/G of the weave's finite groups give 48, 16 or 14 generations (V₄, A₄, O), never three, and E is chosen; main's frame spaces have index 0 on any compact quotient (the cusps open); the universal families fail. The reason: 𝕎 ≅ ρ_Q ⊗ ℂ³ has holonomy Q₈, whose centraliser in E₈ is F₄ × SU(2), so a chiral gauge reading needs a Lagrangian half of a pseudoreal multiplicity space: a choice that breaks F₄, which is the dictionary (GENESIS FK11). Positive: W21's flavor triplet is the tangent space of ℂ³ at the common point; the net chirality on the fibre is odd |
+| 16 | COMPUTED (W25, exact characters; the rule committed first, every cell as predicted) and PROVED (the lemma); a WEAVE theorem | the weave's forced bundles are self-conjugate: the fibre's holonomy Q₈ has only real and quaternionic irreducibles, and the group the weave forces on the six local solutions (order 192) is quaternionic, so on the fibre, where the index lives, every gauge reading is self-conjugate (Frobenius–Schur). A chirality-capable gauge group appears only when one parity is singled out (centraliser 82 ⊃ E₆: a selection) or when the order-3 move is in the holonomy (2T, centraliser 25, ω fifteen times: an odd-trace thread, odd-dimensional, B1604); the weave's S₄ exchanges ω and ω². So three chiral generations with gauge content cannot be derived from the weave's local systems: the dictionary (GENESIS FK11) needs an input the weave does not force |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -327,6 +328,21 @@ taken from the weave. Every link is named with its status.
     - W21's flavor triplet is the tangent space of ℂ³ at the common point.
     - The net chirality on the fibre is odd.
     - The node at the common point, divided by the parities, is the D₄ singularity; divided by A₄, the E₆ singularity.
+- **W25: the weave's bundles are self-conjugate** (the rule committed first, 2068244e).
+  - **The lemma (Frobenius–Schur).** A gauge group commuting with a bundle's holonomy can be chiral only if some
+    irreducible of the holonomy in the 248 is complex.
+  - **The weave's holonomies.**
+    - The fibre's holonomy Q₈ has only real and quaternionic irreducibles.
+    - The group the weave forces on the six local solutions (order 192) is quaternionic.
+    - Only the cohomology's T and T̄ are complex. They are the flavor triplet, not a holonomy of the gauge bundle.
+  - **So on the fibre, where the index lives, every gauge reading is self-conjugate.**
+  - **Chirality-capable gauge groups appear in two places only.**
+    - One parity singled out: the centraliser of ⟨e_p⟩ in E₈ is 82-dimensional and contains E₆. That is a selection.
+    - The order-3 move in the holonomy: 2T, centraliser 25, with the complex character ω fifteen times. That happens
+      on an odd-trace thread, which is odd-dimensional (B1604).
+    - The weave's S₄ conjugates every 3-cycle to its inverse, so it exchanges ω and ω².
+  - **The consequence.** Three chiral generations with gauge content cannot be derived from the weave's local systems
+    alone. The dictionary (GENESIS FK11) needs an input the weave does not force.
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

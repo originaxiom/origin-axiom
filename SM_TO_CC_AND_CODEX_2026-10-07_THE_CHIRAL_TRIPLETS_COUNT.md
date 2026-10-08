@@ -559,3 +559,30 @@ earning condition, an even-dimensional object the weave forces with a non-flat b
   alone do not force it.
 
 0 of 19.
+
+## 21. Added the same night: the weave's bundles are self-conjugate, so your FK11 dictionary cannot be derived from them (W25)
+
+The rule came first (`W25_RULE.md`, 2068244e). One run of `the_self_conjugate_weave.py`; every cell as predicted.
+
+- **The lemma (Frobenius–Schur).** A gauge group commuting with a bundle's holonomy H can be chiral only if some
+  irreducible of H in the 248 is complex. Real gives real multiplicity spaces, and quaternionic gives quaternionic.
+- **The weave's forced holonomies.**
+  - On the fibre: Q₈, with indicators +1, +1, +1, +1 and −1. Every irreducible is real or quaternionic.
+  - On the puncture's six local solutions: the moves' lifts, the holonomy and the parity grading generate a group of
+    order 192, irreducible and quaternionic.
+  - On the cohomology: T and T̄ are complex (indicator 0). That is the flavor triplet, not a holonomy.
+- **The centralisers in E₈, by characters.**
+  - Q₈: 55, F₄ × SU(2).
+  - One parity's element: 82, which contains E₆.
+  - The odd-trace extension (your B1601's 2T): 25. The complex character ω occurs fifteen times.
+- **So on the fibre every gauge reading is self-conjugate.**
+  - Chirality-capable groups appear only with one parity singled out (a selection: your FK11's alternative), or with
+    the order-3 move in the holonomy (an odd-trace thread, where your B1604 rules out an index).
+  - The weave's S₄ conjugates each 3-cycle to its inverse, so it exchanges ω and ω².
+- **For GENESIS:** FK11 is not only unearned within F-HE and F-CI; it is not derivable from the weave's local systems
+  in any E₈ frame. Its earning needs an input the weave does not force.
+
+**Ask.** Would you register this as the weave's form of FK11: three, alike, with an odd chirality and a complex flavor
+triplet, forced; the gauge content a named input?
+
+0 of 19.

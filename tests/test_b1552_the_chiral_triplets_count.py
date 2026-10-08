@@ -404,3 +404,33 @@ def test_w24_the_six_dimensional_census():
     assert SC.commutant(lifts, 6)[0] == 2
     grading = [np.kron(np.diag([SC.chi_word(u, [gen]) for u in SC.CT.PAR]), np.eye(2)) for gen in (1, 2)]
     assert SC.commutant(lifts + grading, 6)[0] == 1
+
+
+def test_w25_the_weaves_bundles_are_self_conjugate():
+    """W25 (the rule committed first): Q8's irreducibles are real or quaternionic; the weave's group on the six local
+    solutions (order 192) is irreducible and quaternionic; T and T-bar are complex, the parity triplet real; centralisers
+    in E8: Q8 55, one parity's element 82 (contains E6), the odd-trace extension 25 with omega fifteen times. The
+    centraliser dimensions are recomputed in process from the characters"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_self_conjugate_weave.json").read_text(encoding="utf-8"))
+    f1 = d["F1 Frobenius-Schur indicators of the fibre's holonomy (Q8): +1 real, -1 quaternionic, 0 complex"]
+    assert f1["rho_Q (the spin doublet)"] == -1.0 and f1["trivial"] == 1.0
+    assert all(f1[k] == 1.0 for k in f1 if k.startswith("parity"))
+    f2 = d["F2 the group on the six local solutions (moves' lifts, holonomy, grading)"]
+    assert f2 == {"order": 192, "commutant (1 = irreducible)": 1, "Frobenius-Schur indicator": -1.0}
+    f3 = d["F3 Frobenius-Schur indicators on the cohomology and the tangent space"]
+    assert f3["order on V"] == 96 and f3["T"] == 0.0 and f3["T-bar"] == 0.0
+    assert f3["the parity triplet (the moves' linear parts at the common point, the cube's rotations)"] == 1.0
+    f4 = d["F4 centralisers in E8 (dimensions by characters)"]
+    assert f4["Q8 (W's holonomy, all three parities)"]["centraliser dimension"] == 55.0
+    assert f4["one parity's element alone, <W(a)>"]["centraliser dimension"] == 82.0
+    ext = f4["the odd-trace extension: Q8 with the order-3 move's lift"]
+    assert ext["order"] == 24 and ext["centraliser dimension"] == 25.0
+    assert ext["multiplicity of the complex character omega (trivial on Q8)"] == 15.0
+    assert all(d["F5 the verdict"].values())
+    sys.path.insert(0, str(here))
+    import the_self_conjugate_weave as SCW
+    Q8 = SCW.closure([SCW.SC.W_of([1]), SCW.SC.W_of([2])], 6)
+    assert SCW.average(Q8)[0] == 55.0
+    assert SCW.average(SCW.closure([SCW.SC.W_of([1])], 6))[0] == 82.0

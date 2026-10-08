@@ -1372,6 +1372,75 @@ choice of the frame.
 **Status.** COMPUTED (exact, one run after the rule, every cell as predicted) and PROVED (D4). A WEAVE census, NEGATIVE
 for the six-dimensional route on these four candidates. The owner's goal, three generations derived, is not met by it.
 
+## W25. The weave's bundles are self-conjugate: no gauge reading of them is chiral without a choice (`the_self_conjugate_weave.py`; `W25_RULE.md`)
+
+**Why.** The stop hook's objection after W24: three generations are not derived with their gauge content. W24's D4
+found the reason in one E₈ frame. This asks whether it is general, and where chirality could enter.
+
+**The lemma** (standard; Frobenius–Schur).
+- A gauge group commuting with a bundle's holonomy H has chiral matter only if some multiplicity space Hom_H(σ, 248) is
+  a complex representation of it.
+- The 248 is real. So if σ is real, its multiplicity space is real; if σ is quaternionic, quaternionic. Only a complex
+  σ, with σ̄ ≇ σ, can give a multiplicity space that is not self-conjugate.
+- So if every irreducible of H in the 248 is real or quaternionic, every gauge reading is self-conjugate. Chirality
+  then needs a choice: a Lagrangian half (W24's D4), or a complex character added by hand.
+
+**The read-out (COMPUTED; the rule committed first, 2068244e; one run; every cell as predicted).**
+- **F1, the fibre's holonomy.** Q₈'s indicators are +1 for the trivial character and the three parities, and −1 for
+  ρ_Q. Every irreducible is real or quaternionic.
+- **F2, the six local solutions.**
+  - The group the weave forces there has order 192: the moves' lifts, the fibre's holonomy and the parity grading.
+  - It is irreducible on ℂ⁶ and quaternionic (indicator −1).
+  - The moves' lifts alone (order 48) give 2 ⊕ 4, both quaternionic (indicator −2 on the six).
+- **F3, the cohomology and the tangent space.**
+  - On V the moves' group has order 96. Its triplets T and T̄ have indicator 0: complex.
+  - The parity triplet, the cube's rotations, has +1: real.
+  - So the weave's complex structure lives on the zero modes (the flavor triplet T), not on the local systems.
+- **F4, the centralisers in E₈** (by characters, through SU(3) × SU(2) × SU(6)′).
+  - **Q₈, 𝕎's holonomy with all three parities:** 55, F₄ × SU(2), as in W24. All its multiplicity spaces are
+    self-conjugate.
+  - **One parity's element alone,** ⟨𝕎(a)⟩ or ⟨𝕎(b)⟩, of order 4: 82 = 78 + 3 + 1. Its centraliser contains E₆, whose
+    27 is complex. So a reading with one parity singled out can be chiral.
+  - **The odd-trace extension:** Q₈ with the lift of the order-3 move L⁻¹RL⁻², a group of order 24 (2T, the image of
+    every odd-trace thread, B1601).
+    - Its centraliser has dimension 25.
+    - The complex character ω occurs in the 248 fifteen times, and ω² fifteen times.
+    - Read by the branching (ℂ⁶ = 2 ⊕ 2′ ⊕ 2″, and Λ²ℂ⁶ has two invariants), its Lie algebra is
+      su(3) ⊕ su(2) ⊕ u(1)² ⊕ 2(3 + 3̄): so(7) ⊕ u(1) ⊕ su(2). The identification is by dimension, rank and
+      branching; the dimension is computed.
+    - The complex characters ω and ω² are what a chiral reading could use.
+
+**What it shows (F5, PROVED from F1–F4).**
+- **On the fibre, every gauge reading of the weave's forced bundles is self-conjugate.**
+  - The fibre is the even-dimensional object where the index lives (W21, W22), and its forced holonomy is Q₈.
+  - Every irreducible of Q₈ is real or quaternionic.
+  - So the three zero modes of W22 sit in self-conjugate gauge representations, under any gauge group commuting with
+    the bundle.
+- **A gauge group that can be chiral appears in only two places.**
+  - **When one parity is singled out.** The centraliser of ⟨e_p⟩ contains E₆. That is a selection, which the weave's
+    rule forbids, and GENESIS FK11 names it as the alternative to an index.
+  - **When the order-3 move is part of the holonomy.** Its eigenvalues ω and ω² are complex. That happens on an
+    odd-trace thread, an odd-dimensional object, where B1604 rules out an index. On the weave the moves generate the
+    cube's rotations S₄, in which every 3-cycle is conjugate to its inverse. So the weave exchanges ω and ω², and
+    their difference, the chirality, is not the weave's. Only A₄ would keep ω and ω² apart, and the quarter turns L
+    and R are not in A₄.
+- **So no even-dimensional frame built from the weave's forced local systems gives gauge-chiral generations without a
+  choice.**
+  - The dictionary (GENESIS FK11) is not a gap that more computation on these structures can close.
+  - It needs an input the weave does not force: a selected parity, a thread's own order-3 orientation, or a structure
+    outside the common point's local systems.
+- **What the weave does force, all of it on the record:**
+  - three, the parities' (W1);
+  - alike (Theorem G);
+  - an odd net chirality on the fibre, three when the parity grading is kept (W22 as qualified);
+  - a complex flavor triplet T = μ ⊗ 3′, which is the tangent space of the character variety at the common point (W21,
+    W24);
+  - the hand, which is the records' orientation.
+
+**Status.** COMPUTED (exact characters, numerical closures of groups of at most 192 elements) and PROVED (the lemma and
+F5). A WEAVE theorem, and the precise form of the dictionary's status: three chiral generations with gauge content
+cannot be derived from the weave's forced local systems alone.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -1401,6 +1470,7 @@ for the six-dimensional route on these four candidates. The owner's goal, three 
 | W22 | PROVED and COMPUTED (WEAVE) | the end condition at the puncture: the moves' lifts generate 2O and act irreducibly on the two local solutions in every parity block, so the only conditions every move keeps make each block's index +1 or −1: the parities' three is chiral (index ±3), its sign the orientation. One thread alone leaves a line (a vector-like condition); the weave does not. GENESIS GAP2 closed for this operator up to the hand. Which fields carry 𝕎 is the dictionary; on the 2d fibre the E₈ frames give (1, 3) or one 27, not complete generations (GENESIS FK11). QUALIFIED by W24's D0: the blocks are one doublet, so conditions may mix them; the moves alone keep four (index −3, −1, +1, +3). The index is always odd, never 0; it is ±3 when the condition keeps the parity grading (the flavor symmetry of 𝕎 ≅ ρ_Q ⊗ ℂ³) |
 | W23 | COMPUTED (WEAVE; a census, negative) | the record's E₈ frames on the weave's fibre with W22's condition: over every SU(n) bundle built from the common point's blocks, E₆ gives 0 or 1 chiral 27, SO(10) 0–2 chiral 16s, SU(5) (0, 0), (1, 3) or (2, 2). At most two complete generations; three is impossible, since each spin doublet has rank two. The weave's five reads (1, 3), anomalous by −2, so the puncture must carry anomaly +2. Three complete generations need matter carrying the rank-six bundle, the puncture's localized content, or a six-dimensional object (GENESIS FK11) |
 | W24 | COMPUTED (exact; the rule committed first, every cell as predicted) and PROVED (D4); a WEAVE census, NEGATIVE | the six-dimensional census (the owner's choice): the fibre's character variety ℂ³ is forced (the moves preserve κ and, for L and R, the volume form; the common point and the trivial point are the only common fixed points) but contractible, with no quotient and a trivial tangent bundle; the orbifolds E³/G of the weave's finite groups give 48, 16, 14 generations (V₄, A₄, O), never three, with E chosen; main's frame spaces have index 0 on any compact quotient (cusps open); the universal families fail S1 or S2. The reason: 𝕎 ≅ ρ_Q ⊗ ℂ³ has holonomy Q₈, whose centraliser in E₈ is F₄ × SU(2); a chiral gauge reading needs a Lagrangian half of a pseudoreal multiplicity space, which breaks F₄ by a choice, the dictionary (FK11). Positive: W21's flavor triplet is the tangent space at the common point; the net chirality is odd; the node mod the parities is D₄, mod A₄ is E₆. The audit D0 qualifies W22 |
+| W25 | COMPUTED (exact characters; the rule committed first, every cell as predicted) and PROVED (the lemma, F5); a WEAVE theorem | the weave's forced bundles are self-conjugate. The fibre's holonomy Q₈ has only real and quaternionic irreducibles, and the weave's group on the six local solutions (order 192) is quaternionic, so every gauge reading on the fibre, the even-dimensional object where the index lives, is self-conjugate. Chirality-capable gauge groups appear only when one parity is singled out (the centraliser of ⟨e_p⟩, 82, contains E₆: a selection) or when the order-3 move is in the holonomy (2T, centraliser 25, ω fifteen times: a thread, odd-dimensional, B1604). The weave's S₄ conjugates every 3-cycle to its inverse and exchanges ω and ω². So the dictionary (GENESIS FK11) cannot be derived from the weave's local systems; it needs an input the weave does not force |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -1442,6 +1512,7 @@ for the six-dimensional route on these four candidates. The owner's goal, three 
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_self_conjugate_weave.py` → `the_self_conjugate_weave.json`: W25, the Frobenius–Schur indicators of the weave's forced holonomies and the centralisers in E₈ of Q₈, of one parity's element and of the odd-trace extension; its rule `W25_RULE.md`, committed first.
 - `the_six_dimensional_census.py` → `the_six_dimensional_census.json`: W24, the six-dimensional census (the character variety, the local orbifolds, the gauge side, and the audit of W22); its rule `W24_RULE.md`, committed first.
 - `the_puncture_condition.py` → `the_puncture_condition.json`: W22, the moves' lifts at the puncture (2O, irreducible in every parity block), the threads' eigenlines, and the spin structure every move fixes.
 - `the_holomorphic_triplet_periods.py` → `the_holomorphic_triplet_periods.json`: W21's second route, after the read-out: the holomorphic twisted forms θ₃(z | 2τ)/√θ₁(z | τ) and their periods at three τ, the holomorphic subspace (T at every τ, the same subspace), and the twisted Riemann bilinear relation.
