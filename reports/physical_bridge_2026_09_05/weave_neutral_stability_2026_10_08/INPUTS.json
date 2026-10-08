@@ -1,0 +1,55 @@
+{
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "ref": "ad7ce4268437e4d8538d37602293dca719b17966",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "ref": "ad7ce4268437e4d8538d37602293dca719b17966",
+      "bytes": 8666,
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/probe.py",
+      "ref": "ad7ce4268437e4d8538d37602293dca719b17966",
+      "bytes": 8672,
+      "sha256": "a9ee314ba30cd72241aa9b361c69aa76c6f72eefaa780a5c974eb56af3de1d04"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "ref": "ad7ce4268437e4d8538d37602293dca719b17966",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/probe.py",
+      "ref": "ad7ce4268437e4d8538d37602293dca719b17966",
+      "bytes": 11338,
+      "sha256": "432e8fe1ff674f7d72aec6aa54e86ec1769ffda8f8c2ede04d357d93c8286049"
+    }
+  ],
+  "focused_expected_tests": 16,
+  "comparison_profiles": [
+    "module_profile",
+    "spectra",
+    "unstable_charge_profile"
+  ],
+  "unearned_flags": [
+    "higher_flux_global_stability_proved",
+    "nonzero_flux_fermion_index_computed",
+    "physical_chirality_achieved",
+    "amplitude_or_spin_selected",
+    "physical_goal_achieved",
+    "nonauthor_acceptance"
+  ],
+  "literature_grade": "No new external theorem adopted; global spin, graph-domain and essential-spectrum steps are authored analytic arguments, not independent acceptance.",
+  "intake": {
+    "main": "6df009415",
+    "sm": "2abff008c",
+    "incoming_grade": "B1613/B1614 FINDINGS and relay, W36 relay read; not replayed or promoted"
+  },
+  "pre_execution": "No science import/run/collection before committed/pushed/server-confirmed seal."
+}

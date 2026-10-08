@@ -2458,3 +2458,23 @@ instability for this bare ansatz. Not full index, stable SM or architecture
 exclusion. Prior parallel classification requires ZERO residuals.
 NEXT_TEST is post-run HAND/UNEXECUTED and outside this seal. Outside
 analytic/full-suite/main-bank and inherited governance duties remain.
+
+## Neutral spin and magnetic stability pre execution seal 2026 10 08
+
+Seven science files/five pinned-and-working sources UNEXECUTED. Same
+supplied action, full E8 bosonic Hessian, integer n and finite neutral
+amplitude c. Predicted zero-flux SM minimum but zero charged index;
+first-flux essential instability unchanged by c; higher-flux DISCRETE
+stability open. Authored global analysis, not outside acceptance.
+Commit/push/server confirmation precedes scientific import/run/collection.
+Preseal governance26 PASS/four inherited FAIL, review372; not a green bank.
+
+| File | SHA256 |
+|---|---|
+| weave_neutral_stability_2026_10_08/DESIGN.md | fde27a71a9109fddba25fac10baa3eb8ef346e73f2c6732b080177ff618ea8c0 |
+| weave_neutral_stability_2026_10_08/PROOF.md | a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862 |
+| weave_neutral_stability_2026_10_08/INPUTS.json | 43da4ce91b4c7df3ec3f0061a1f82f19748ccb6161518d01dbd45d8c2fc01eef |
+| weave_neutral_stability_2026_10_08/probe.py | 57a5b7bbe710e7314baf8e85087b34e9a6d2d007d75b530afd6a8c375bc5d46d |
+| weave_neutral_stability_2026_10_08/reference.py | d9e1f5e995bc0f22e47197f4ffa86cf367eda3053ee6c9054dc8b9556c70f838 |
+| weave_neutral_stability_2026_10_08/custody.rb | 178ed5e1c4e8df4c65ce3c3c6073a30770725c49ca74ef2dc706918d033951c3 |
+| tests/test_physical_bridge_weave_neutral_stability.py | 0b3bb388024243bd74d92392992f537f1185377385d206fd9c9a89b66935d13d |

@@ -1,0 +1,42 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/DESIGN.md",
+      "bytes": 5885,
+      "sha256": "fde27a71a9109fddba25fac10baa3eb8ef346e73f2c6732b080177ff618ea8c0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/INPUTS.json",
+      "bytes": 2177,
+      "sha256": "43da4ce91b4c7df3ec3f0061a1f82f19748ccb6161518d01dbd45d8c2fc01eef"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/probe.py",
+      "bytes": 12778,
+      "sha256": "57a5b7bbe710e7314baf8e85087b34e9a6d2d007d75b530afd6a8c375bc5d46d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/reference.py",
+      "bytes": 6561,
+      "sha256": "d9e1f5e995bc0f22e47197f4ffa86cf367eda3053ee6c9054dc8b9556c70f838"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/custody.rb",
+      "bytes": 4745,
+      "sha256": "178ed5e1c4e8df4c65ce3c3c6073a30770725c49ca74ef2dc706918d033951c3"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_neutral_stability.py",
+      "bytes": 4933,
+      "sha256": "0b3bb388024243bd74d92392992f537f1185377385d206fd9c9a89b66935d13d"
+    }
+  ],
+  "status": "PRE-EXECUTION; no science import/run/collection",
+  "prior": "Neutral spin modulus gives zero-flux SM minimum; first-flux essential instability persists; higher-flux discrete stability open",
+  "source_ref": "ad7ce4268437e4d8538d37602293dca719b17966"
+}
