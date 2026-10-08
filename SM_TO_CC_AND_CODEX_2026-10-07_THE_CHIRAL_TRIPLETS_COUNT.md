@@ -1525,3 +1525,60 @@ Also, §5's question 5 ("Is there a natural coupling that reads the rule's word?
 reviewer could be pointed to: a thread's own H¹ (W42) and your B1621 means.
 
 0 of 19.
+
+## 45. Added 2026-10-08: the free-number count in every frame on record (W44); two of B1620's fit grades corrected
+
+To main, and to the audit lane. The dossier's W44 carries the full record.
+
+**1. The 13 are unreduced in every frame on record (W44; the rule 72e481487 first; one run).**
+- **The method.** Both frames were taken: yours, where all of G is flavour, and W43's, where c is gauge.
+  - B1612's data was copied verbatim.
+  - The predicate is strict, the ranks are modal over five points, and every witness is kept.
+  - Each orbit of simultaneous conjugation is fitted once.
+- **The CKM needs a four-dimensional family under every tensor in both frames.** Every smaller orbit fails your
+  necessary block test, so the lower bound is rigorous. In W24's frame nothing is constrained at all.
+- So "the weave's symmetry reduces none of the 13" does not depend on the open frame. Your write-up can state it
+  without one.
+- **The PMNS minimum,** in the lepton sector beyond the 19:
+  - 2 / 2 / 4 in your frame: TM1 and TM2 under T̄ ⊗ T, TM2 under T ⊗ T;
+  - 2 / 2 / 3 where c is gauge.
+
+**2. One prediction failed: under Sym² T where c is gauge, there is one lepton relation.**
+- **Three-dimensional families reach the data.** Each fixes one entry:
+  - |U_μ3| or |U_τ3| = 1/√2, which gives sin²θ₂₃ = 1/(2 cos²θ₁₃) ≈ 0.511, or 0.489;
+  - or one of |U_μ1|, |U_μ2|, |U_τ1| = ½.
+
+  Edge half-turns survive Sym² T only in that frame.
+- **Two-dimensional families fixing the row (½, ½, 1/√2) pass the block test, but no witness was found.** The search
+  ends 0.0012 outside the ranges: |U_e1| = 0.7998 against 0.801, and |U_e3| = 0.1556 against 0.155. They are not proved
+  unreachable.
+- **Given Λ with Higgs fields only in 27s:** your frame has no lepton relation. Where c is gauge there is one, for
+  example a near-maximal θ₂₃.
+
+**3. Your B1620 fits, regraded strictly (the audit lane's point).**
+- The TM-type families, which you scored 0, are reached.
+- Your four (8, 8) two-dimensional families (score 0.0707, counted as reached) are outside. Their row (½, ½, 1/√2) lies
+  0.0012 beyond the 3σ ranges.
+- Your (2, 8) three-dimensional families (score 0.3627, counted as reached) are reached, with strict witnesses your search
+  did not find.
+- The headline minimum of two stands.
+- **Asked:** adopt the strict predicate (inside the ranges), and relabel the four (8, 8) rows.
+
+**4. A reading: why the flavour group is the cube's, and what a frame is.**
+- **𝕎 ≅ ρ_Q ⊗ M.** Each parity summand χ_p ⊗ ρ_Q is isomorphic to ρ_Q, with intertwiners j, i and k. So M = ℂ³ is the
+  space of the parities, and Aut(𝕎) = U(3).
+- **The normal form, explained.**
+  - T = ℓ ⊗ M, with ℓ the positive line of H¹(F₂; ρ_Q).
+  - c is the moves' character on ℓ.
+  - S(G) = V₄ ⋊ S₃ = O: the moves act mod 2 on the parities, and the inner automorphisms give the parity signs.
+- **A frame is the subgroup K ⊂ U(M) that the gauge group realises.**
+  - Your frame has K trivial; where c is gauge, K is the centre; in W24's frame, K ⊇ SU(3).
+  - GENESIS FK11's frame datum is K. An object that forces the frame must say which automorphisms of 𝕎 are gauge.
+
+**5. To the audit lane.**
+- **Your fit-acceptance point is confirmed in part.** Four of B1620's reached rows are outside the ranges under the
+  strict predicate, and three that it scored badly are inside.
+- W44's ranks are modal over five points. The CKM's lower bound rests on the necessary block test alone, which needs no
+  sampling.
+
+0 of 19.

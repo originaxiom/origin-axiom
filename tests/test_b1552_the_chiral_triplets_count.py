@@ -877,6 +877,30 @@ def test_w43_the_trimaximal_families():
     assert np.allclose(np.abs(tri.conj().T @ np.array([1, 0, 0])) ** 2, [1 / 3] * 3)
 
 
+def test_w44_the_free_numbers_by_frame():
+    """W44 (the rule committed first; one prediction failed and recorded): the CKM needs a four-dimensional family in both
+    frames under every tensor, so the 13 are unreduced whatever the frame; the PMNS minimum is 2 / 2 / 4 in the record's
+    frame and 2 / 2 / 3 where c is gauge (predicted 4). In process: the data file's hash, and the overlaps behind the
+    one-relation families (an edge axis against a parity line, 1/2; against another edge axis, 1/4)"""
+    import hashlib
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_free_numbers_by_frame.json").read_text(encoding="utf-8"))
+    tensors = ("T-bar (x) T", "T (x) T", "Sym^2 T")
+    assert [d["the minima, F_all"][t]["PMNS"] for t in tensors] == [2, 2, 4]
+    assert [d["the minima, F_c"][t]["PMNS"] for t in tensors] == [2, 2, 3]
+    assert all(d[f][t]["CKM"] == 4 for f in ("the minima, F_all", "the minima, F_c") for t in tensors)
+    assert all(d[f][t]["CKM: below it, every orbit fails the block test"]
+               for f in ("the minima, F_all", "the minima, F_c") for t in tensors)
+    checks = d["checks"]
+    assert checks["D1: F_all, the minima are PMNS 2 / 2 / 4 and CKM 4 / 4 / 4"] is True
+    assert checks["D2: F_c, the same minima"] is False                     # the failed prediction, kept as failed
+    assert hashlib.sha256((here / "received" / "B1612_data.json").read_bytes()).hexdigest() == (
+        "61ea1565a2a8b4e053c33cc3b29e37484f6c9c2aeca54f9b6a83c89137e0d606")
+    edge, edge2, line = np.array([1, 1, 0]) / np.sqrt(2), np.array([0, 1, 1]) / np.sqrt(2), np.array([1, 0, 0])
+    assert np.isclose(abs(edge @ line) ** 2, 0.5) and np.isclose(abs(edge @ edge2) ** 2, 0.25)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

@@ -1,5 +1,23 @@
 # Changelog
 
+## The weave's W44: the free-number count in every frame on record; relay sections 44 and 45
+
+- **W44** (the rule 72e481487 first; one run; B1612's data verbatim; a strict fit predicate, modal ranks, every
+  witness kept):
+  - the CKM needs a four-dimensional family under every tensor in both frames (every smaller orbit fails the necessary
+    block test), so the 13 are unreduced whatever the frame;
+  - the PMNS minimum is 2 / 2 / 4 in the record's frame and 2 / 2 / 3 where c is gauge;
+  - **a failed prediction, recorded as failed:** under Sym² T where c is gauge one lepton relation survives (|U_μ3|
+    or |U_τ3| = 1/√2, or ½), with two-dimensional families 0.0012 outside;
+  - B1620's fits regraded strictly: its four (8, 8) rows (score 0.0707) are outside the ranges, and its (2, 8) rows
+    (0.3627) have witnesses.
+- **A reading:** 𝕎 ≅ ρ_Q ⊗ ℂ³, so the flavour group S(G) = V₄ ⋊ S₃ is the moves mod 2 on the parities with their
+  signs, and a frame is the subgroup of U(3) = Aut(𝕎) that the gauge group realises.
+- **Relay §44:** main's write-up for outside review checked against §42 and §43 (five places to correct). **Relay
+  §45:** W44, the regraded fits, the reading.
+- **Surfaces.** The rule, the script and its JSON, `received/B1612_data.json`, the dossier (W44, the reading, a row, the
+  header, the files), the W44 test, the state page, the relay and the ledger.
+
 ## The weave's W43: which trimaximal family each tensor allows; B1620's TM1 label corrected; relay section 43
 
 - **W43** (the rule 250c362f0 first; one run): every ordered pair of viable residuals, in two frames.

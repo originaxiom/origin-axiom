@@ -34,6 +34,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   group; every thread's own zero modes break the parity grading only along a body diagonal (main's ask 2).
 - W43: B1620's "TM1 allowed under T ⊗ T" does not hold in its frame (the family is TM2); given Λ, TM1 needs a
   frame where c is gauge and an antisymmetric Yukawa, and under Sym² T no trimaximal family appears in any frame.
+- W44: the 13 are unreduced in every frame on record (the CKM needs the full four everywhere); the lepton sector
+  allows at most two relations, and under Sym² T where c is gauge one (a failed prediction: 3, not 4).
 
 ## The setting
 
@@ -2716,6 +2718,101 @@ thread to length 12, each row a thread result. 0 of 19.
 **Status.** COMPUTED (the rule first; one run). It corrects a label in main's B1620 (TM1 under T ⊗ T) and grades main's
 frame clause. 0 of 19.
 
+## W44. The free-number count in every frame on record, with a strict fit predicate (`the_free_numbers_by_frame.py`; `W44_RULE.md`)
+
+**Why.**
+- "The weave's symmetry reduces none of the 13" is load-bearing in main's write-up for outside review. It was
+  established in one frame, where all of G acts as flavour.
+- W43 showed that the trimaximal family depends on the frame, and the frame is open (GENESIS FK11).
+- The audit lane questioned B1620's fits: its PMNS score accepts an excursion of up to one half-width outside a range.
+- The rule (`W44_RULE.md`, 72e481487) was committed before the code.
+- The data are B1612's transcription, copied verbatim to `received/B1612_data.json` with the sha256 in B1612's
+  ARTIFACT_HASHES. B1620's findings, scripts and stored fits were read first.
+
+**What was done.**
+- **Two frames:**
+  - F_all, where every element c(g) S(g) is flavour (B1620's);
+  - F_c, where c is gauge and the residuals are the subgroups of B₃ = {±1} × O.
+- **The pairs.** Every ordered pair of viable residuals, one representative per orbit of simultaneous conjugation. That
+  is 538, 120 and 80 orbits in F_all, and 632, 632 and 362 in F_c.
+- **The block sums** tr(P_a P_b), exact from the residuals' isotypic projectors, and B1620's necessary block test.
+- **The family dimension:** the most common rank over five points.
+- **Fits** for every orbit below dimension 4 that passes a block test, with the strict predicate: every |U_ij| inside
+  NuFIT's 3σ range to 10⁻⁶, or every |V_ij| within 3σ of PDG. Every witness is kept.
+- **At dimension 4,** a witness in the standard parametrisation. The pair of trivial residuals realises it.
+
+**The result (COMPUTED; D1 and D3 as predicted; D2 failed in one cell).**
+
+| frame | tensor | viable | PMNS: smallest family with a witness | CKM: smallest family with a witness |
+|---|---|---|---|---|
+| F_all | T̄ ⊗ T | 57 | 2 (TM1 and TM2) | 4 |
+| F_all | T ⊗ T | 24 | 2 (TM2) | 4 |
+| F_all | Sym² T | 16 | 4 | 4 |
+| F_c | T̄ ⊗ T | 66 | 2 (TM1 and TM2) | 4 |
+| F_c | T ⊗ T | 66 | 2 (TM1 and TM2) | 4 |
+| F_c | Sym² T | 49 | **3** (predicted 4) | 4 |
+
+- **The CKM needs dimension 4 everywhere.** In both frames and under every tensor, every orbit below dimension 4 fails
+  the necessary block test, so the lower bound is rigorous. A witness exists at dimension 4 (largest pull 0.006).
+- **Below each PMNS minimum, every orbit fails the block test, with one exception.** Under Sym² T in F_c,
+  two-dimensional families pass the test, but no witness was found.
+- **D2 failed in that cell.** Under Sym² T in F_c, three-dimensional families reach the PMNS data.
+  - Each fixes one entry: |U_μ3| or |U_τ3| = 1/√2, or one of |U_μ1|, |U_μ2|, |U_τ1| = ½.
+  - These are the overlaps of an edge half-turn's axis with a parity line or with another edge axis.
+  - Edge half-turns survive Sym² T only in this frame. In F_all they carry c with c² = ±i.
+  - |U_μ3| = 1/√2 means sin²θ₂₃ = 1/(2 cos²θ₁₃) ≈ 0.511. Its mirror |U_τ3| = 1/√2 gives 0.489.
+- **The two-dimensional families there fix a whole row at (½, ½, 1/√2).** Every start converges to |U_e1| = 0.7998
+  and |U_e3| = 0.1556, which is 0.0012 outside NuFIT's 3σ ranges (0.801 and 0.155). They are not found, not proved
+  unreachable.
+- **D3, B1620's fits regraded strictly.**
+  - The TM-type families, which B1620 scored 0, are reached.
+  - B1620's four (8, 8) two-dimensional families (score 0.0707, counted as reached) are outside. Their row is the same
+    (½, ½, 1/√2), 0.0012 beyond the ranges, as the audit lane suspected.
+  - B1620's (2, 8) three-dimensional families (score 0.3627, also counted as reached) have strict witnesses.
+  - The minimum of two stands.
+
+**What it shows.**
+- **The 13 are unreduced in every frame on record.**
+  - The nine charged masses are free on every viable residual (W42).
+  - The CKM needs a four-dimensional family in both frames; in W24's frame nothing is constrained at all.
+  - So "the weave's symmetry reduces none of the 13" does not depend on the open frame.
+- **The lepton sector, beyond the 19, depends on the frame and the tensor.**
+  - Under T̄ ⊗ T and T ⊗ T, at most two relations: TM1 or TM2, as W43 found.
+  - Under Sym² T, none in F_all and one in F_c (a fixed entry 1/√2 or ½). In W24's frame, none.
+- **So the count reads:** 0 of 19 fixed by the weave's symmetry, in every frame. A residual chosen by a vacuum can add
+  at most two lepton relations, and the frame and the Higgs content decide which.
+- **Given Λ with Higgs fields only in 27s (Sym² T):**
+  - in the record's frame there is no lepton relation;
+  - where c is gauge there is one, such as a near-maximal θ₂₃.
+
+**Status.** COMPUTED (the rule first; one run). One prediction failed and is recorded as failed. B1620's count is
+confirmed and extended to both frames, and two of its fit grades are corrected. 0 of 19.
+
+## Reading: why the flavour group is the cube's, and what a frame is (READING, by hand)
+
+- **The parity summands are one local system.**
+  - Each summand χ_p ⊗ ρ_Q of 𝕎 is isomorphic to ρ_Q as a local system on the fibre. The intertwiners are the
+    quaternion units j, i and k, for χ = (−, +), (+, −) and (−, −) (checked exactly).
+  - So 𝕎 ≅ ρ_Q ⊗ M, where M = ℂ³ is a multiplicity space whose basis is the three parities.
+  - As a flat bundle, 𝕎's automorphism group is U(M) = U(3).
+- **That gives the normal form.**
+  - V = H¹(F₂; ρ_Q) ⊗ M and T = ℓ ⊗ M, where ℓ is the Hodge–Riemann-positive line of the two-dimensional
+    H¹(F₂; ρ_Q).
+  - A move acts on T as c(g) ⊗ S(g): c is its character on the single holomorphic mode ℓ, and S(g) is its action on M.
+  - The move permutes the parity characters through SL(2, ℤ) → GL(2, 𝔽₂) ≅ S₃, and the intertwiners contribute signs.
+  - The inner automorphisms contribute the parity signs V₄.
+  - So S(G) = V₄ ⋊ S₃ = O, the cube's rotation group. **The flavour group is the cube's because the moves mod 2 act on
+    the parities, and the parities carry signs.**
+- **A frame is a subgroup of U(M).**
+  - Which part of G is gauge is the question of which subgroup K ⊂ U(M) the gauge group realises, through its
+    centraliser of 𝕎's holonomy.
+  - The three frames on record:
+    - K trivial (B1620's, all of G flavour);
+    - K the centre U(1) (c gauge, W43's);
+    - K ⊇ SU(3) (W24's E₈ embedding, where every S(g) is gauge).
+  - The weave fixes S(G) ⊂ U(M), but not K. So GENESIS FK11's frame datum is exactly K. An object that forces the frame
+    has to say which automorphisms of 𝕎 are gauge.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2871,6 +2968,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | Assurance (2026-10-08) | ASSURANCE (post hoc) | the owner's "are we sure": a conventions registry (two string conventions; the period rule, corrected), mutation tests (10 of 10 caught by regeneration, 5 by the result tests, so a regeneration test was added), four independent adversarial reviews (foundation 6/6 and masses 6/6 confirmed exactly; weight 4/5, the fifth a branch convention; readings: no false theorem, several overstatements corrected), script fixes with values identical, the norm routine's small-Im τ bug fixed. Findings: the residual convention (flavon versus modular scenario; P10 lives only in the first), the period rule's stabiliser L U L⁻¹, and the frame premise (GENESIS FK11) |
 | W42 | VERIFIED (not blind; the rule first; B1620 read first) and COMPUTED (a census of every thread to length 12) | main's B1620 rebuilt from W21's construction: G = {z S : z⁸ = 1, z⁴ = sgn S}; 68 subgroups in 26 classes, 57 abelian; viable (three distinct non-zero masses, exact in ℤ[ζ₂₄], two routes): 57 under T̄ ⊗ T (the abelian ones), 24 under T ⊗ T (real character: E's 16 and the 3-cycles' ⟨±t⟩), 16 under Sym² T (the subgroups of E, the parity signs); no order-3 residual under Sym² T ((|a|, |b|, |b|) along every 3-cycle); 10 subgroups contain the parity grading K, and theirs are permutation patterns. Ask 2: a thread's own H¹ (Wang) reads its word: zero modes exactly when r ≡ ℓ (mod 4) (237 of 745), and every grading-breaking one is a body diagonal, B1621's tick line; a thread result |
 | W43 | COMPUTED (the rule first; one run; B1620's stored fits read first and transcribed) | which trimaximal family each tensor allows. The record's frame: TM1 and TM2 under T̄ ⊗ T; under T ⊗ T no pair has a TM1 column (0 of 576) and the family is TM2 (B1620's own T ⊗ T fits are TM2's); neither under Sym² T. Where c is gauge (B₃ = {±1} × O; 98 subgroups, viable 66 / 66 / 49; O's Sym² T invariant δ): TM1 and TM2 under T̄ ⊗ T and T ⊗ T, neither under Sym² T; no twist of a 3-cycle survives Sym² T. Given Λ, P10's TM1 needs that frame and an E₆ 351. Post hoc: two family dimensions of the run's tally (1 and 3) recomputed as 0 and 2 |
+| W44 | COMPUTED (the rule first; one run; one prediction failed) | the free-number count in both frames on record, B1612's data verbatim, a strict fit predicate, modal ranks, every witness kept: the CKM needs a four-dimensional family under every tensor in both frames (every smaller orbit fails the necessary block test), so the 13 are unreduced whatever the frame; the PMNS minimum is 2 under T̄ ⊗ T and T ⊗ T (TM1 or TM2), 4 under Sym² T in the record's frame, and 3 under Sym² T where c is gauge (predicted 4: one fixed entry, |U_μ3| or |U_τ3| = 1/√2, or ½), with two-dimensional families 0.0012 outside. B1620's fits regraded: its four (8, 8) families (score 0.0707) are outside the ranges, its (2, 8) families (0.3627) have strict witnesses. A reading: S(G) = V₄ ⋊ S₃ is the moves mod 2 on the parities with their signs, and a frame is the subgroup of U(3) = Aut(𝕎) the gauge group realises |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2914,6 +3012,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W44_RULE.md`: the rule, committed before the code; `the_free_numbers_by_frame.py` → `the_free_numbers_by_frame.json`: W44, the free-number count in both frames on record with a strict fit predicate, and B1620's PMNS fits regraded; `received/B1612_data.json`: B1612's data transcription, verbatim (sha256 as in its ARTIFACT_HASHES).
 - `W43_RULE.md`: the rule, committed before the code; `the_trimaximal_families.py` → `the_trimaximal_families.json`: W43, the trimaximal families each tensor allows in the record's frame and where c is gauge; `received/B1620_post_seal_tensors.json`: B1620's stored fits, verbatim (sha256 as in its ARTIFACT_HASHES); POST HOC `the_trimaximal_families_posthoc.py` → `the_trimaximal_families_posthoc.json`: two outlying family dimensions recomputed.
 - `W42_RULE.md`: the rule, committed before the code; `the_breaking_verified.py` → `the_breaking_verified.json`: W42, main's B1620 recomputed exactly (the lattice, the three tensors, K; a verification, not blind) and the census of every thread's own zero modes.
 - `W41_RULE.md`: the rule, committed before the code; `the_zero_modes_weight.py` → `the_zero_modes_weight.json`: W41, the zero modes' weight by the norm and by the theta laws.

@@ -177,6 +177,13 @@ Under the owner's rulings, the table's rows split into two groups:
   - B1620's "TM1 allowed under T ⊗ T" does not hold in its own frame: there the family is TM2.
   - Given Λ, P10's TM1 needs an antisymmetric Yukawa (an E₆ 351) and a frame where c is gauge.
   - Under Sym² T no trimaximal family appears in any frame.
+- **W44, the free-number count in every frame on record:**
+  - The 13 are unreduced whatever the frame: the CKM needs a four-dimensional family in both frames (a rigorous lower
+    bound), and W24's frame constrains nothing.
+  - In the lepton sector a chosen residual gives at most two relations.
+  - Under Sym² T where c is gauge it gives one: |U_μ3| or |U_τ3| = 1/√2, or ½. That was a failed prediction (3, not 4),
+    recorded as failed.
+  - Two of B1620's fit grades are corrected.
 
 ## Questions open with main
 
@@ -188,7 +195,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W43 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W44 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§43).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§45).

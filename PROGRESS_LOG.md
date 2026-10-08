@@ -18436,3 +18436,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   its kernel spaces and no end state.
 - **Relay §43 sent;** the ledger rows for main's S96 to S100 and the audit lane's nine relays added.
 
+## 2026-10-08 (night) — W44: the free-number count in every frame; relay §44 and §45
+
+- **Main's write-up for outside review** was checked against §42 and §43: five places to correct before it goes out
+  (relay §44).
+- **W44: the 13 are unreduced in every frame on record.** The CKM needs the full four in both frames, a rigorous lower
+  bound. The lepton sector allows at most two relations from a chosen residual.
+- **A failed prediction:** under Sym² T where c is gauge, one lepton relation survives (a fixed entry 1/√2 or ½).
+  Recorded as failed.
+- **Two of B1620's fit grades corrected,** as the audit lane suspected.
+
