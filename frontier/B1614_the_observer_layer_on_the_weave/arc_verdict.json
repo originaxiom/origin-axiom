@@ -1,0 +1,28 @@
+{
+ "id": "B1614",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1610",
+  "B1611",
+  "B1600",
+  "B1184",
+  "B1183",
+  "B761",
+  "B1327"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the observer layer's four rungs (QP-1 self-name, QP-2 private states, QP-4 self-signing, the one-class theorem), re-posed on the weave; one cell of the holonomy reading (firewalled)",
+  "object": "the joint fixed points of the moves on the character variety; group cohomology of F2 with the weave's local systems at the common point and its restriction to the puncture loop; the rule's action; the odd bits as characters of L, R, P, iota, sigma; chi_T of the moves",
+  "reach": "general",
+  "hypotheses": "'private' = the kernel of the restriction to the puncture at the common point, per local system; A5's meaning is a reading; nothing here is a statement about experience"
+ },
+ "claim_one_line": "THE OBSERVER LAYER ON THE WEAVE (sealed c04b1acb2; the owner's 'bank and run the awareness arc'): the observer layer computed on m004 (B752-B1184), re-posed on the weave. A1: the moves' joint fixed points are the trivial character (reducible) and the common point (irreducible) -- the weave's self-name. A2: at the common point the adjoint (the geometry) is wholly visible at the puncture (H1 = 3, injective), the parity lines too, while the doublet and the three matter blocks carrying the three are wholly private (H1 = 2 each, the puncture's cohomology zero since it acts as -1) -- 'no private states' splits along local systems. A3: the rule fixes the common point, normalises the moves and reverses W21's form, so it swaps the sheets and the weave cannot sign itself (B1327). A4: the sheet = det = CP-oddness, the McKay sign another: two odd classes on the weave, not m004's one. A5 (a reading's cell): chi_T(L) = e^{-i pi/4}, chi_T(R) = e^{+i pi/4}, chi_T(LR) = 0, the puncture's holonomy -1 (even). 0 of 19.",
+ "weave_or_thread": "weave"
+}

@@ -1,0 +1,24 @@
+{
+ "id": "B1613",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1612",
+  "B1611",
+  "B1066"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's one viable mixing relation, the TM1 column (B1612), in the standard parametrisation",
+  "object": "the TM1 relations c12^2 c13^2 = 2/3 and |U_mu1| = |U_tau1| with NuFIT 6.1's theta_13, theta_23 (secondary)",
+  "reach": "general",
+  "hypotheses": "TM1 is a READING (FK11 and the residual subgroups are selections); the inputs secondary"
+ },
+ "claim_one_line": "TM1'S FORWARD PREDICTION (sealed 540e12dd0): the weave's one viable mixing relation (B1612) fixes sin^2 theta_12 = 1 - 2/(3 cos^2 theta_13) = 0.318 and, with theta_23 measured, delta_CP up to its mirror: cos delta = -0.130 at NuFIT 6.1's central values, delta = 262.5 degrees (252.7-292.9 over theta_23's 3-sigma range; J = -0.034) or the mirror 97.5 degrees (67-107, outside NuFIT 6.1's 3-sigma range). Registered as falsifier P10 (theta_12 at S1; delta_CP at S2, DUNE and Hyper-K). A READING: a failure kills the TM1 reading, not the weave. 0 of 19.",
+ "weave_or_thread": "weave"
+}

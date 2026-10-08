@@ -177,3 +177,13 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   only TM1 stands (sin²θ₁₂ = 0.318, +1.5σ; TM2 +4.9σ). TM1 comes from the root's double tick RL and RRL, **without the
   swap**. A one-parameter relation the chiral weave allows, graded a reading (FK11; the residual subgroups selected).
 - So no mixing angle is a parameter-free number of the weave's group; the quark sector gets nothing from it.
+
+## Main's additions: TM1's forward prediction (B1613) and the observer layer on the weave (B1614), 2026-10-08
+
+- **B1613.** The TM1 reading fixes sin²θ₁₂ = 0.318 and, with θ₂₃ measured, δ_CP ≈ 262.5° (252.7°–292.9° over θ₂₃'s 3σ
+  range; the mirror branch 67°–107° is outside NuFIT 6.1's range), J ≈ −0.034 — registered as falsifier P10.
+- **B1614.** The observer layer (computed on m004, B752–B1184) re-posed on the weave: a **self-name** (the common point is
+  the moves' unique irreducible fixed point); **no self-signing** (the rule swaps the sheets); **private states split
+  along local systems** — the geometry (adjoint) and the parity lines wholly visible at the puncture, the matter carrying
+  the three wholly private (the puncture acts on it as −1); **two odd classes** (the sheet = CP; the McKay orientation),
+  not m004's one. Reading cell: χ_T(L) = e^{−iπ/4}, χ_T(R) = e^{+iπ/4}, χ_T(LR) = 0, the puncture's holonomy −1.

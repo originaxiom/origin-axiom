@@ -1,0 +1,45 @@
+{
+ "F1": {
+  "max_deviation_from_TM1_column": 1.942890293094024e-16,
+  "identity_holds": true
+ },
+ "F2": {
+  "central": {
+   "sin2_theta12_TM1": 0.318,
+   "theta23_deg": 43.28,
+   "cos_delta": -0.13028,
+   "delta_deg_branches": [
+    97.49,
+    262.51
+   ],
+   "J_branches": [
+    0.03378,
+    -0.03378
+   ]
+  },
+  "one_sigma": {
+   "upper_half_plane_deg": [
+    93.19,
+    101.22
+   ],
+   "lower_half_plane_deg": [
+    258.78,
+    266.81
+   ]
+  },
+  "three_sigma_theta23_41.27_to_49.86": {
+   "upper_half_plane_deg": [
+    67.07,
+    107.32
+   ],
+   "lower_half_plane_deg": [
+    252.68,
+    292.93
+   ]
+  }
+ },
+ "F3": {
+  "theta23_deg_segments_where_TM1_fails_within_theta13_3sigma": [],
+  "n_points": 0
+ }
+}

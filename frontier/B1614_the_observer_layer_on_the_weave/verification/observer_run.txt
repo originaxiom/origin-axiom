@@ -1,0 +1,205 @@
+{
+ "A1": {
+  "joint_fixed_points": [
+   {
+    "x": "0",
+    "y": "0",
+    "z": "0"
+   },
+   {
+    "x": "2",
+    "y": "2",
+    "z": "2"
+   }
+  ],
+  "kappa": [
+   "-2",
+   "2"
+  ],
+  "irreducible": [
+   true,
+   false
+  ]
+ },
+ "A2": {
+  "trivial": {
+   "dim": 1,
+   "H1": 2,
+   "H1_puncture": 1,
+   "restriction_rank": 0,
+   "private": 2,
+   "rho_c_is_minus_one": false
+  },
+  "parity line (1, 0)": {
+   "dim": 1,
+   "H1": 1,
+   "H1_puncture": 1,
+   "restriction_rank": 1,
+   "private": 0,
+   "rho_c_is_minus_one": false
+  },
+  "parity line (0, 1)": {
+   "dim": 1,
+   "H1": 1,
+   "H1_puncture": 1,
+   "restriction_rank": 1,
+   "private": 0,
+   "rho_c_is_minus_one": false
+  },
+  "parity line (1, 1)": {
+   "dim": 1,
+   "H1": 1,
+   "H1_puncture": 1,
+   "restriction_rank": 1,
+   "private": 0,
+   "rho_c_is_minus_one": false
+  },
+  "doublet rho_Q": {
+   "dim": 2,
+   "H1": 2,
+   "H1_puncture": 0,
+   "restriction_rank": 0,
+   "private": 2,
+   "rho_c_is_minus_one": true
+  },
+  "matter block chi(1, 0) x rho_Q": {
+   "dim": 2,
+   "H1": 2,
+   "H1_puncture": 0,
+   "restriction_rank": 0,
+   "private": 2,
+   "rho_c_is_minus_one": true
+  },
+  "matter block chi(0, 1) x rho_Q": {
+   "dim": 2,
+   "H1": 2,
+   "H1_puncture": 0,
+   "restriction_rank": 0,
+   "private": 2,
+   "rho_c_is_minus_one": true
+  },
+  "matter block chi(1, 1) x rho_Q": {
+   "dim": 2,
+   "H1": 2,
+   "H1_puncture": 0,
+   "restriction_rank": 0,
+   "private": 2,
+   "rho_c_is_minus_one": true
+  },
+  "adjoint Ad rho_Q": {
+   "dim": 3,
+   "H1": 3,
+   "H1_puncture": 3,
+   "restriction_rank": 3,
+   "private": 0,
+   "rho_c_is_minus_one": false
+  }
+ },
+ "A3": {
+  "sigma_on_common_point": [
+   "0",
+   "0",
+   "0"
+  ],
+  "fixes_common_point": true,
+  "sigma_L_sigma_inv": [
+   [
+    2,
+    -1
+   ],
+   [
+    1,
+    0
+   ]
+  ],
+  "sigma_R_sigma_inv": [
+   [
+    1,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "conjugates_have_det_1": true,
+  "sigma_on_form": "reverses",
+  "exchanges_the_sheets": true
+ },
+ "A4": {
+  "table": {
+   "L": {
+    "sheet": 1,
+    "det": 1,
+    "cp_odd": 1,
+    "mckay_sign": -1
+   },
+   "R": {
+    "sheet": 1,
+    "det": 1,
+    "cp_odd": 1,
+    "mckay_sign": -1
+   },
+   "P": {
+    "sheet": -1,
+    "det": -1,
+    "cp_odd": -1,
+    "mckay_sign": -1
+   },
+   "iota": {
+    "sheet": 1,
+    "det": 1,
+    "cp_odd": 1,
+    "mckay_sign": 1
+   },
+   "sigma": {
+    "sheet": -1,
+    "det": -1,
+    "cp_odd": -1,
+    "mckay_sign": 1
+   }
+  },
+  "sheet_equals_det": true,
+  "sheet_equals_cp": true,
+  "mckay_equals_sheet": false,
+  "rank_of_the_odd_bits_over_F2": 2
+ },
+ "A5": {
+  "L": {
+   "chi_T": [
+    0.707107,
+    -0.707107
+   ],
+   "odd_part_Im": -0.707107,
+   "abs": 1.0
+  },
+  "R": {
+   "chi_T": [
+    0.707107,
+    0.707107
+   ],
+   "odd_part_Im": 0.707107,
+   "abs": 1.0
+  },
+  "LR": {
+   "chi_T": [
+    -0.0,
+    0.0
+   ],
+   "odd_part_Im": 0.0,
+   "abs": 0.0
+  },
+  "the commutator of the moves L R L^-1 R^-1": {
+   "chi_T": [
+    -0.0,
+    0.0
+   ],
+   "odd_part_Im": 0.0,
+   "abs": 0.0
+  },
+  "the puncture loop c = [a, b] (its holonomy on every matter block, from A2)": {
+   "is_minus_one": true,
+   "odd_part_Im": 0.0
+  }
+ }
+}

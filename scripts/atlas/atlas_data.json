@@ -11075,6 +11075,44 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1613": {
+   "slug": "tm1s forward prediction",
+   "motifs": [
+    "measurement",
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B342",
+    "P1",
+    "P10",
+    "P9",
+    "S1",
+    "S2"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1614": {
+   "slug": "the observer layer on the weave",
+   "motifs": [
+    "naming",
+    "figure_eight",
+    "kappa",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B752",
+    "S91"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B161": {
    "slug": "cancellation locus stratification",
    "motifs": [

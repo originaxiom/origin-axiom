@@ -78,3 +78,13 @@ above: the object emits relations and finite labels; the vacuum plus a measureme
 - **What would be a falsifier and is not yet one:** a derived split of the triplet from the doublet would turn
   "0.7143 against 0.7172" from the classical supersymmetric result into a prediction of this programme. None is derived
   (lead L250).
+
+## 2026-10-08 — P10 (B1612, B1613): the weave's TM1 reading, the first entry with a numerical forward prediction
+
+*Added by the main seat at S92 under the owner's reopening of value contact (2026-10-08). The weave's group fixes no full
+mixing matrix inside the data; it allows exactly one viable leptonic relation, the TM1 column (⅔, ⅙, ⅙), from the
+root's double tick RL and RRL without the swap (B1612). B1613 computed what it forces.*
+
+| P | claim | falsifier (wording fixed here) | sharpness | status | earned? |
+|---|---|---|---|---|---|
+| **P10** | the weave's TM1 reading: (a) sin²θ₁₂ = 1 − 2/(3 cos²θ₁₃) ≈ 0.318; (b) with θ₂₃ measured, δ_CP is fixed up to its mirror — 252.7°–292.9° (or 67.1°–107.3°) over θ₂₃'s present 3σ range, central 262.5°, J ≈ −0.034 | (a) a θ₁₂ measurement more than 3σ from 1 − 2/(3 cos²θ₁₃); (b) a δ_CP measurement outside both branches at the measured θ₂₃ | **S1** for (a) (reactor precision on θ₁₂); **S2** for (b) (DUNE, Hyper-Kamiokande) | (a) +1.5σ against NuFIT 6.1 (B1612's post-seal, a secondary source); (b) the lower branch inside NuFIT 6.1's 3σ δ_CP range, the upper outside | **a READING**: it rests on FK11 (which sector is the leptons) and on the residual subgroups selected; a failure kills the TM1 reading, not the weave |
