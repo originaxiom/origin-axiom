@@ -2337,3 +2337,11 @@ not physical SM or genesis selection. Working dependency bytes also checked.
 | weave_global_condensate_2026_10_08/reference.py | 86b222d0ab8b67e9318553464a6d7aea2c62aac750ea10ef3bf8a6484d12da8b |
 | weave_global_condensate_2026_10_08/custody.rb | 1ce307cae0c4beb2754c4e9d4a8663a742d59ba385ed0f2cfdb51f3229c71d4a |
 | tests/test_physical_bridge_weave_global_condensate.py | bd6c8524b425153cd8421fd85fed269100d4137bc5b418b262137154e971669c |
+
+Global-condensate disposition: EXECUTED unchanged at de1d52db6.53 native/
+24 separate reference/20 focused and94 six-packet regression PASS. Seven
+science files/six source pins, including working dependencies, unchanged.
+Report: weave_global_condensate_2026_10_08/FINDINGS.md. Authored global
+smooth stationary completion with G2 algebra and unchanged cusp continuum;
+not generated physics, chiral SM, outside acceptance or full main banking.
+NEXT_TEST is a post-run hand proposal, not part of this certificate.

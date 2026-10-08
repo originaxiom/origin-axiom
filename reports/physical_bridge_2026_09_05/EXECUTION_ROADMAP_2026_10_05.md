@@ -113,6 +113,16 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    Then compute the coupled fermions, unbroken gauge group and anomalies.
    Higher nilpotent/Q-R end backgrounds remain untested, not killed.
    W32 atSM621383064 is a read preregistration, not physical acceptance.
+   Stage2K October8 global completion EXECUTED at research grade:
+   weave_global_condensate_2026_10_08/FINDINGS.md.53 native/24 reference/
+   20 focused/94 regression PASS unchanged at de1d52db6. Authored global
+   smooth stationary root condensate with explicit SU6 compensator and
+   correct peripheral p; full unbroken G2, same54 odd cusp spectators.
+   This advances admission, not chiral SM. NEXT_TEST hand candidate is
+   UNEXECUTED: larger grading producing p itself, fewer supplied inputs,
+   then all coupled physical operator blocks and matched-domain/reality
+   checks. A gap is not chirality. B1609 and W32 are now published/read
+   at mainf916539c6/SM8d659f56b, not locally replayed; B1610 preregistered.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

@@ -1,5 +1,26 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 global-condensate update: reports/physical_bridge_2026_09_05/
+weave_global_condensate_2026_10_08/FINDINGS.md;53 native/24 reference/
+20 focused/94 regression PASS at de1d52db6. No architecture lead closed.
+
+- PB-CUSP-GLOBAL: advanced for the explicit root/SU6 completion: smooth
+  global spin-line/gauge construction, same p, all residuals zero and finite
+  norms. Independent analytic acceptance remains; not every completion.
+- PB-CUSP-GAUGE: this completion has actual unbroken G2, not the old SM
+  group. Complete fermion spectrum/anomaly accounting not imported from
+  the flat background. Other holonomies are not excluded by this result.
+- PB-CUSP-GRADED: test the UNEXECUTED four-orthogonal-root candidate in
+  weave_global_condensate_2026_10_08/NEXT_TEST.md. Hand prediction H=2v
+  could remove the extra compensator and odd-centralizer obstruction.
+  Seal separately; verify full coupled operator, not only the R block.
+- PB-CUSP-ISOLATION:54 commuting channels still survive the current global
+  core. A possible gap in a different candidate would still require a
+  chiral spectrum and actual interaction/anomaly checks, not just an index.
+- PB-FLUX-JOINT: B1609/W32 now published at mainf916539c6/SM8d659f56b,
+  producers and reports read, not locally replayed. Their fixed-bundle/move/
+  domain assumptions do not certify or exclude this nonflat action.
+
 October8 nonzero-cusp update: reports/physical_bridge_2026_09_05/
 weave_cusp_condensate_2026_10_08/FINDINGS.md;50 native/21 reference/
 18 focused/74 regression PASS. No architecture lead closed.

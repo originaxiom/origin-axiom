@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-08 global stationary condensate and its full gauge algebra
+
+53 native/24 separate reference/20 focused and94 six-packet regression
+PASS unchanged at pushed/server-confirmed de1d52db6. The same supplied
+E8 action has an explicit global finite-norm nonzero background: spin-line
+root and actual SU6 commutator match the required peripheral p, keeping
+all vacuum equations. Full parent centralizer is G2 by its root system,
+not the SM; the prior54 odd end channels remain. Report under
+physical_bridge/weave_global_condensate_2026_10_08/FINDINGS.md.
+Next larger grading/condensate without compensator, then full physical
+operator; concrete hand candidate UNEXECUTED, no gap or chirality claim.
+New B1609/W32 publications read, not locally accepted; B1610 preregistered.
+Full SM/TOE active; analytic/full-suite/main-bank and governance debts kept.
+
 ## 2026-10-08 coupled cusp condensate and changed spectral thresholds
 
 50 native/21 separate reference/18 focused and74 five-packet regression

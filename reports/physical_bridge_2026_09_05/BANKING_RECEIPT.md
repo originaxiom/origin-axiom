@@ -1,5 +1,18 @@
 # CC's banking relay read before the next local checkpoint
 
+## Global condensate research publication
+
+Seven science files/six source pins sealed de1d52db6, pushed and server-
+confirmed before execution. First unchanged53 native/24 exact phase-orbit
+reference/20 focused/94 six-packet regression PASS. Current dependency
+bytes checked in addition to their pinned Git artifacts. Global smooth
+stationary admission on the SAME fixed-metric action; full algebra G2 and
+same cusp continuum, not SM/chirality/selected physics. Raw outputs and
+receipts preserved, no scientific repair. NEXT_TEST is an unexecuted
+hand-derived candidate and explicitly outside this certificate. Reader
+fronts/law sublemmas/open duties and sender relay updated; shared IDs not
+consumed. Nonauthor/full-suite/main-bank and inherited gate debts remain.
+
 ## Coupled cusp research publication
 
 Seven science files/five source pins sealed440287106, pushed and server-

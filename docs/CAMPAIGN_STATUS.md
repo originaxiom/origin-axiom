@@ -1,5 +1,21 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October8 global-condensate research checkpoint:53 native/24 separate
+reference/20 focused and94 six-packet regression PASS unchanged at pushed
+pre-run de1d52db6. The local cusp has an authored GLOBAL smooth stationary
+completion on the SAME supplied action: spin-line root and explicit flat
+SU6 compensator match the old peripheral element on all E8 roots.
+Full unbroken algebra is G2, established by its entire root system, not
+just dimension14. The54 odd cusp spectators remain; no isolated chiral SM.
+Report: reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/FINDINGS.md.
+NEXT test a larger condensate whose own grading supplies p without the
+compensator, then the full coupled physical operator. NEXT_TEST is a
+hand-derived UNEXECUTED candidate, not covered by this certificate.
+Mainf916539c6 B1609 and SM8d659f56b W32 now published/read, not locally
+replayed; B1610 remains preregistered. No finite-index/physics conflation.
+Full parameter-free SM/TOE ACTIVE/unachieved; independent analytic,
+full-suite/main-bank and inherited governance duties remain outstanding.
+
 October8 nonzero cusp research checkpoint:50 native/21 separate reference/
 18 focused and74 five-packet regression PASS unchanged at pushed pre-run
 440287106. The SAME supplied curved E8 action admits a finite-norm

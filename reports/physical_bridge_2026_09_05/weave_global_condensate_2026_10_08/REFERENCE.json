@@ -1,0 +1,53 @@
+{
+  "global_profile": {
+    "compensator_phases_mod8": [
+      2,
+      2,
+      2,
+      6,
+      6,
+      6
+    ],
+    "invariant_dimensions": {
+      "15": 1,
+      "20": 0,
+      "35": 0,
+      "6": 0
+    },
+    "odd_cusp_spectators": 54,
+    "root_lengths": {
+      "2": 6,
+      "2/3": 6
+    },
+    "root_spin_limit": "i",
+    "unbroken_dimension": 14,
+    "unbroken_rank": 2
+  },
+  "predicates": {
+    "54_spectators_unchanged": true,
+    "A_preserves_opposite_pair_form": true,
+    "B_sixth_is_minus_identity": true,
+    "G2_not_SM_dimension": true,
+    "G2_whole_root_lengths": true,
+    "Weyl_closure_has240_roots": true,
+    "actual_compensator_orthogonal_to_root": true,
+    "adjoint_kernel_zero": true,
+    "changed_holonomy_detected": true,
+    "commutator_phases_actual": true,
+    "compensator_has_order4": true,
+    "core_sign_gives_quarter_turn": true,
+    "det_A_one_from_exponents": true,
+    "endomorphism_kernel_only_diagonal_cycle": true,
+    "fifteen_has_one_actual_cycle": true,
+    "global_peripheral_on_all_roots": true,
+    "missing_compensator_detected": true,
+    "signed_B_determinant_one": true,
+    "six_has_no_invariant": true,
+    "spin_bounds_at_end": true,
+    "twenty_has_no_invariant": true,
+    "unsigned_B_control": true,
+    "wrong_commutator_sign_detected": true,
+    "wrong_core_orientation_changes_phase": true
+  },
+  "predicates_passed": 24
+}

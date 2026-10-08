@@ -1,5 +1,21 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 global-condensate conditional research sublemmas, not generated
+physics or shared main-bank laws. PROOF and tests at
+reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/ and
+tests/test_physical_bridge_weave_global_condensate.py;53 native/24 reference/
+20 focused/94 regression PASS unchanged at de1d52db6.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Global spin-root condensate | L^2=S^-1 on the punctured surface, A_spin=sH/2, qhat=identity/2. Global gluing and all local vacuum coefficients checked by test_spin_root_gluing_cancels_globally and test_all_global_vacuum_coefficients; PROOF gives smooth global/domain argument, not arbitrary weak-solution or Einstein theorem |
+| Correct peripheral compensation | Core orientation gives exp(i*pi*H/2); explicit noncommuting SU6 holonomies compensate it to the old p on every root. test_core_orientation_not_arbitrary, test_holonomy_commutator_and_wrong_marking, test_total_periphery_on_every_root; quarter sign and central quotient retained |
+| Full connected unbroken algebra | Exact common kernels in6,15,20,35 are0,1,0,0. All248 weights retained; color8+3+bar3 forms the full G2 root system, not a dimension match. test_complete_G2_root_system, exact exterior-square and separate phase-orbit controls |
+| Finite global kinetic and stationary domain | Bounded physical fields and finite area give finite norms; all residuals vanish, so first variation zero and bosonic Hessian nonnegative on the same graph class. PROOF and test_global_energy_norms. Complete classical fixed-metric admission, not generated action or quantum stability |
+| Core extension does not remove cusp continuum | Same p and local asymptotic operator preserve54 odd commuting directions/two spin slots. test_global_core_does_not_delete_end_spectators plus prior escaping sequence; scoped to this completion, not other condensates or the architecture |
+
+NEXT_TEST is an unexecuted hand candidate, NOT a law from this certificate.
+
 October8 coupled-cusp conditional research sublemmas. Same supplied parent,
 not generated physics or a new shared/main-bank law. PROOF and live locks:
 reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/ and

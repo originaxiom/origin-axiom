@@ -207,3 +207,17 @@ conditional internal maps are not counted by the shared I-number parser.
 Report: reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/FINDINGS.md.
 Locks: tests/test_physical_bridge_weave_cusp_condensate.py. Independent
 analytic/full-suite/main-bank acceptance and global extension remain owed.
+
+### Global condensate admission October 8 path-local supplement
+
+The explicit global extension is now constructed for the stated root/SU6
+completion. Independent acceptance and other completions remain separate.
+No shared I-number or existing physical identification is reassigned.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| New root SU2 and compensator / old E8 peripheral p | Transport entire regular frame by reflection e5+e6; combine spin quarter phase with explicit SU6 commutator | Equality on all240 roots and Cartan, faithful adjoint; wrong sign and missing quarter fail | Exact internal group map and authored global bundle admission, not same flat a,b holonomies or a genesis-selected connection |
+| Full surviving parent generators / g2 | Exact holonomy kernels give color8+3+bar3; actual weight metric and reflections | All twelve roots, two Cartans, lengths2 and2/3, G2 Cartan matrix | Connected compact algebra of this global classical completion, not an SM group or a particle-count identification |
+
+Report: reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_global_condensate.py.

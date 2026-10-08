@@ -17591,3 +17591,33 @@ open duties, roadmap and sender-owned relay updated. Next global admission
 then complete gauge/fermion/anomaly accounting. More general condensates
 untested. Same inherited governance failures remain, not waived; full suite,
 nonauthor analytic/main-bank acceptance owed. Full SM/TOE ACTIVE/unachieved.
+
+## 2026-10-08 global nonzero condensate on the same physical parent
+
+Seven science files/six source pins sealed de1d52db6bbef567a02304ade5ae19551ad46324,
+pushed and server-confirmed before scientific execution. First unchanged
+run53 native/24 exact phase-orbit reference/20 focused/94 six-packet
+regression PASS. Dependencies checked against both pinned Git and working
+bytes. No failed science or repair; initial handoff-folder lookup corrected
+by git ls-tree before reading. Full raw captures and receipts preserved.
+
+The local root condensate now has an authored GLOBAL smooth stationary
+completion on the complete punctured elliptic fibre. Spin-line gluing,
+curvature balance and explicit SU6 flat compensator give the exact old
+peripheral p in the same E8 bundle, not the same flat connection. Norms
+are finite; all residuals vanish; full bosonic Hessian nonnegative on the
+specified graph class. No Einstein equation, selected action or quantum
+acceptance follows. Actual common kernels in6,15,20,35 are0,1,0,0 and
+the whole unbroken root system is G2, not the SM. The54 odd cusp spectator
+directions persist. This is an admission positive with an honest physical
+limitation, not an architecture-wide kill.
+
+Report: physical_bridge/weave_global_condensate_2026_10_08/FINDINGS.md.
+Next hand-derived proposal in NEXT_TEST.md is UNEXECUTED/outside this
+certificate: a larger grading could supply p without an extra compensator.
+It needs its own seal, full coupled operator/reality/gauge and chirality
+checks. No predicted gap or centralizer is promoted. New mainf916539c6
+B1609 and SM8d659f56b W32 publications read, not locally reproduced;
+B1610 preregistered. All reader fronts/sublemmas/leads/roadmap and sender
+relay updated. Independent analytic/full-suite/main-bank duties and
+inherited governance failures retained. Full SM/TOE ACTIVE/unachieved.

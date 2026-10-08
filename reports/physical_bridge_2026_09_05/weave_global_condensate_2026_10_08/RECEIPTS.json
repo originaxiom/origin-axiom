@@ -1,0 +1,64 @@
+{
+  "seal": "de1d52db6bbef567a02304ade5ae19551ad46324",
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 5.588725999929011,
+    "log_bytes": 3042,
+    "log_sha256": "da27628a3338dad7ea835861bb5ad2907a053cc80b651864b3a9fafd968c6ab2",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.2054079999215901,
+    "log_bytes": 1389,
+    "log_sha256": "d305c0b3be7208441c9807292418b624baa565cd25c5eb9fdefc3abaa6ab2c41",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 8.426704999990761,
+    "log_bytes": 99,
+    "log_sha256": "b2335ac9e0d9bfddf34520389c7b3328c8b7c6451e3b7c80416e4722863eff81",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_global_condensate.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 40.211859999923036,
+    "log_bytes": 180,
+    "log_sha256": "5ccd227c79b9fa333ee8ee02d7e0a1f99e8cc501e58ab4783872bf7ca309e6d6",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_puncture_operator.py",
+      "tests/test_physical_bridge_weave_form_parent.py",
+      "tests/test_physical_bridge_weave_companion_roster.py",
+      "tests/test_physical_bridge_weave_curved_action.py",
+      "tests/test_physical_bridge_weave_cusp_condensate.py",
+      "tests/test_physical_bridge_weave_global_condensate.py"
+    ]
+  },
+  "executable_version": "Python 3.12.1; regression executable path normalized to python3 for repository privacy",
+  "nonauthor_acceptance": false
+}
