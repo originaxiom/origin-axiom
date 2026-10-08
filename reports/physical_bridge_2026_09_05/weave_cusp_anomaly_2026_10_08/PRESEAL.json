@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/DESIGN.md",
+      "bytes": 5541,
+      "sha256": "75935e99f472728c5505d237d6c9fa036ca18176d2b06329ebad8626ec8cc075"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/PROOF.md",
+      "bytes": 10104,
+      "sha256": "3a47346842499df5c0faff2aa7fec496d74f697b8d1d75132ee65e93cb40dd70"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/INPUTS.json",
+      "bytes": 5363,
+      "sha256": "cdc50245d467e884c46098fe5c34e9c412c11ef25c48c7583801219057175057"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/probe.py",
+      "bytes": 8150,
+      "sha256": "7696e51857c91f01ad0787bd72cb4880379d00ca285f316f513b5bc5ee51ddc6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/reference.py",
+      "bytes": 3280,
+      "sha256": "524932ad3dfa8f1d334a7aa27a6bae315b287bb73adfc827ef8b6829aa088f40"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/custody.rb",
+      "bytes": 4740,
+      "sha256": "d8e0a74d55896e3773e4d62e238fdfc54a179ae83e346b213e486942ca542e0d"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_cusp_anomaly.py",
+      "bytes": 3571,
+      "sha256": "915eabe48f91026e302bfd8b2e81820ce66abf813dcbaf4455df7b2bde1ab2aa"
+    }
+  ],
+  "prior_commit": "c8c910a7788fce785a160487dbff9d10297e6572",
+  "status": "PRE-EXECUTION; no scientific import, execution or test collection yet."
+}

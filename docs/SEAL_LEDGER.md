@@ -2593,3 +2593,27 @@ full-suite/main-bank and inherited governance duties remain.
 Publication governance initially caught one new attribution token in
 unsealed intake prose; corrected with the first output preserved.
 Final26 PASS/four inherited FAIL, review379 due. No science repair.
+
+## Physical cusp end signature pre-execution seal October 8
+
+Same supplied curved E8 parent, complete punctured elliptic surface,
+trivial extending spin and complete domain. P0 covers the displayed
+magnetic family, all integer n and finite c,d; an additional conditional
+claim covers color-equivariant graph-compact perturbations on this domain.
+Prior: coupled horizontal end signature equals the existing physical index;
+this locates its anomaly, not a derived quantum cancellation. Gauge zero
+modes remain admitted; a positive end gap need not give trace-class heat.
+Seven science files and fifteen pinned sources at c8c910a77.18 focused
+and256 fifteen-packet regression tests planned. Commit/push/server
+confirmation BEFORE scientific import, execution or test collection.
+No shared identifier; nonauthor analytic/full-suite/main-bank duties remain.
+
+| File | SHA256 |
+|---|---|
+| weave_cusp_anomaly_2026_10_08/DESIGN.md | 75935e99f472728c5505d237d6c9fa036ca18176d2b06329ebad8626ec8cc075 |
+| weave_cusp_anomaly_2026_10_08/PROOF.md | 3a47346842499df5c0faff2aa7fec496d74f697b8d1d75132ee65e93cb40dd70 |
+| weave_cusp_anomaly_2026_10_08/INPUTS.json | cdc50245d467e884c46098fe5c34e9c412c11ef25c48c7583801219057175057 |
+| weave_cusp_anomaly_2026_10_08/probe.py | 7696e51857c91f01ad0787bd72cb4880379d00ca285f316f513b5bc5ee51ddc6 |
+| weave_cusp_anomaly_2026_10_08/reference.py | 524932ad3dfa8f1d334a7aa27a6bae315b287bb73adfc827ef8b6829aa088f40 |
+| weave_cusp_anomaly_2026_10_08/custody.rb | d8e0a74d55896e3773e4d62e238fdfc54a179ae83e346b213e486942ca542e0d |
+| tests/test_physical_bridge_weave_cusp_anomaly.py | 915eabe48f91026e302bfd8b2e81820ce66abf813dcbaf4455df7b2bde1ab2aa |
