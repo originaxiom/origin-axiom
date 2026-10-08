@@ -1,5 +1,20 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October8 curved-action research checkpoint:36 native/22 separate reference/
+16 focused and56 four-packet regression PASS unchanged at pushed pre-run
+04f89c7c8. The supplied common E8 parent retains both spin companions and
+their Yukawas; the kinetic metric generates its actual moment map, and
+the full scalar energy recovers flat Yang--Mills. At quaternion A0,Q=R=0,
+all F/D residuals vanish and the full bosonic quadratic form is nonnegative.
+This advances action/stationarity admission, not genesis selection or a
+physical chiral SM. The same zero-energy cusp continuum remains.
+Report: reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/FINDINGS.md.
+NEXT nonzero coupled background or actual end response on that SAME action,
+with asymptotic operator, full spectrum, anomalies and generated selection.
+Full SM/TOE ACTIVE/unachieved; nonauthor/full-suite/main banking owed.
+Post-run fetch: mainf8b9a8fea has Review61 and unrun B1609; SM1fabfa960
+publishes W31. Sources read, not independently replayed or universal kills.
+
 October8 complete companion-roster research checkpoint:35 native/20 separate
 integer-weight reference/15 focused and40 three-packet regression PASS at
 revised pre-run a534e1ae6. First symbolic-equality verifier failure preserved

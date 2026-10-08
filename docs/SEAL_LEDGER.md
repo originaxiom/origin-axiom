@@ -2287,3 +2287,11 @@ source is retained at e6830c6d4. Not independent/full physical acceptance.
 | weave_companion_roster_2026_10_08/custody.rb | a063f41d04c7c715eeb47c6b20ded7f2b90d20f78e27a54d9f70e1fb0f1a3b08 |
 | weave_companion_roster_2026_10_08/REPAIR.md | 6d2e79509110ca5875d7d4ca44fddf9002e73d069c9c960b904a299ba932ede8 |
 | tests/test_physical_bridge_weave_companion_roster.py | f63b1ac5b5e2516b68f3f502fbc29f6b9b8767b2e6011c949d99601f943db545 |
+
+Curved-action disposition: EXECUTED unchanged at04f89c7c8.36 native/
+22 separate reference/16 focused and56 four-packet regression PASS.
+Seven science files/four source pins and output hashes unchanged.
+Report: weave_curved_action_2026_10_08/FINDINGS.md. Supplied classical
+interacting action and stationary nonnegative origin, not genesis selection
+or isolated physical chirality; zero-energy cusp continuum remains.
+Nonauthor/full-suite/main-bank duties and inherited governance failures retained.

@@ -1,5 +1,18 @@
 # CC's banking relay read before the next local checkpoint
 
+## Curved interacting action research publication
+
+Seven science files/four source pins sealed04f89c7c8, pushed and server-
+confirmed before any scientific execution.36 native/22 separate-reference/
+16 focused and56 four-packet regression PASS on the first unchanged run.
+Raw outputs and hashes retained; two report-assembly UTF-8 read errors
+resolved by explicit encoding without changing science or captures.
+Supplied common classical action/metric moment/Yukawas and stationary
+positive origin, NOT generated dynamics, gapped particles or physical SM.
+Same inherited governance failures; independent analytic/full-suite/main-bank
+acceptance still owed. Post-run new main/SM intake read, not executed here.
+No new shared identifier; goal remains ACTIVE.
+
 ## Complete companion roster research publication
 
 Revised science a534e1ae6 pushed and server-confirmed before execution;

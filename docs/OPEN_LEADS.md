@@ -1,5 +1,22 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 curved-action update: reports/physical_bridge_2026_09_05/
+weave_curved_action_2026_10_08/FINDINGS.md;36 native/22 reference/16 focused/
+56 regression PASS. No architecture lead closed.
+
+- PB-PARENT-ACTION: supplied classical common action, all Yukawas,
+  metric-derived moment map and stationary positive origin now constructed
+  with exact checks. Independent superspace/curved-domain analytic review,
+  quantum/global anomalies and genesis selection remain; not a W=0 truncation.
+- PB-CUSP-ISOLATION: at this SAME action/origin the zero-energy spin continuum
+  persists. Next test nonzero coupled F/D backgrounds and actual end response,
+  including asymptotic spectrum and complete charged roster. An inserted
+  constant mass is a comparator only, not a physical repair.
+- PB-FLUX-JOINT: W31 now published at1fabfa960, source/readout read, no local
+  producer replay. Keep its Z5 flux, move-invariance and domain scope attached;
+  do not promote its finite counts to a physical spectrum or architecture kill.
+  Main Review61/B1608 read and B1609 prereg retained atf8b9a8fea.
+
 Latest October8 companion checkpoint advances the finite kinetic roster,
 not the full interacting parent: reports/physical_bridge_2026_09_05/
 weave_companion_roster_2026_10_08/FINDINGS.md.35 native/20 reference/15

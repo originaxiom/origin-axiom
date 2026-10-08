@@ -1,0 +1,90 @@
+{
+  "seal_commit": "04f89c7c8f2b987e8109bbc704e626667c693543",
+  "source_pins": 4,
+  "science_files": 7,
+  "captures": {
+    "native": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 8.617647000122815,
+      "log_bytes": 2580,
+      "log_sha256": "68bcad7280b9ff33681764b01c5d825224be6c8021c44c4f4c1be31e862985d7",
+      "argv": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/probe.py"
+      ]
+    },
+    "reference": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.07816100004129112,
+      "log_bytes": 1659,
+      "log_sha256": "fd63e9d1ce0c167f26b34bd13d00b8820f946cacb258421e648adcaa1f8a845f",
+      "argv": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/reference.py"
+      ]
+    },
+    "focused": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 8.971067000180483,
+      "log_bytes": 99,
+      "log_sha256": "1775db21bf347c155d5a3ab458d37cad7ffd208c0dfaa59231e167b28a621e71",
+      "argv": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_weave_curved_action.py"
+      ]
+    },
+    "regression": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 13.349973999895155,
+      "log_bytes": 100,
+      "log_sha256": "0e0f099952f7ba68e7e3cc1362a75278ceb855d9f68b9b49991d94b8369b08b4",
+      "argv": [
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_weave_puncture_operator.py",
+        "tests/test_physical_bridge_weave_form_parent.py",
+        "tests/test_physical_bridge_weave_companion_roster.py",
+        "tests/test_physical_bridge_weave_curved_action.py"
+      ]
+    },
+    "preseal_governance": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 19.15384200005792,
+      "log_bytes": 2384,
+      "log_sha256": "acbebf04384806f72a655dde70454f9e63771e83b039061f9ba0408542ab986d"
+    },
+    "final_custody": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.6155260000377893,
+      "log_bytes": 134,
+      "log_sha256": "19a261099a5e5a97f907b46cfb01867f5bb3d607c558506f50589bebb7ae85ca"
+    },
+    "final_governance": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 45.660617999965325,
+      "log_bytes": 2384,
+      "log_sha256": "068e15478f19d834040d645eb019d36bd1a0cd40487598be1b8e85cdfe4a7eff"
+    }
+  },
+  "note": "Research publication; independent analytic/full-suite/main-bank acceptance owed. Two report-assembly reads hit host UTF-8 encoding errors before publication; scientific sources and raw outputs were unchanged.",
+  "newer_heads_after_execution": {
+    "main": "f8b9a8fea",
+    "SM": "1fabfa960"
+  },
+  "physical_goal_achieved": false
+}

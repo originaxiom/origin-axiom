@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-08 curved interacting action and stationary common background
+
+36 native/22 separate-reference/16 focused and56 four-packet regression
+PASS unchanged at pre-run04f89c7c8. Actual metric-derived gauge moment,
+universal flat-YM quartic, retained cubic Yukawas and curved surface identity
+support one supplied classical E8 parent for the full companion roster.
+Quaternion A0,Q=R=0 is stationary with nonnegative bosonic Hessian; same
+zero-energy cusp continuum remains. Not genesis-selected action, isolated
+4D particles or chiral SM. Report: physical_bridge/weave_curved_action_2026_10_08/FINDINGS.md.
+Next nonzero coupled background/actual end response and full operator/
+spectrum/anomalies. Post-run mainf8b9a8fea/SM1fabfa960 fetched: Review61,
+B1609 prereg and W31 publication read, not automatically verified.
+Same inherited governance/full-suite/nonauthor debts; full SM/TOE active.
+
 ## 2026-10-08 complete companion roster and low energy cusp channels
 
 35 native/20 separate integer-weight reference/15 focused and40 three-packet

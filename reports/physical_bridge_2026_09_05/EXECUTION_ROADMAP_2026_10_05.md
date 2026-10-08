@@ -89,6 +89,19 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    curved interacting parent, all boson/fermion/Yukawa/cusp terms; derive
    positivity and an admitted isolation mechanism before new family counts.
    Do not replace the parent with supplied W=0 or silently change the twist.
+   Stage2I October8 curved action EXECUTED at research grade:
+   weave_curved_action_2026_10_08/FINDINGS.md.36 native/22 separate reference/
+   16 focused and56 four-packet regression PASS unchanged at04f89c7c8.
+   One supplied gauged N=1 parent retains all companions and Yukawas;
+   moment map follows from the kinetic metric, flat YM potential and
+   curved surface terms check. Quaternion A0,Q=R=0 is stationary with
+   nonnegative bosonic Hessian. This does NOT isolate the finite zero
+   roster: the same cusp continuum still reaches zero. NEXT nonzero
+   coupled F/D-flat backgrounds or actual end law changing that operator,
+   then full charged spectrum/anomalies and genesis selection. Independent
+   action/domain review owed; no full nonlinear PDE/quantum certificate.
+   New W31 publication at1fabfa960 read, not rerun or imported as a no-go
+   for this candidate. Main's B1609 remains a preregistration atf8b9a8fea.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

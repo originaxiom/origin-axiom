@@ -1,5 +1,22 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 curved-action conditional research sublemmas; no new shared/main-bank
+law or independently accepted nonlinear field theory. PROOF and live locks
+under reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/ and
+tests/test_physical_bridge_weave_curved_action.py.36 native/22 reference/
+16 focused and56 regression PASS at unchanged pre-run04f89c7c8.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Same-metric gauge moment | Affine connection metric1/2 and spin metricOmega contract to F+Omega([q,q dagger]+[r,r dagger]), with connection surface term; test_moment_cross_cancels_gauge_curvature includes changed-metric negative controls |
+| Full non-Abelian quartic identity | Half moment square plus twice mixed commutator norm equals half all six real-scalar commutator norms in universal cyclic trace algebra; test_all_scalar_commutators and separate625 exact Pauli controls; not an inferred identity from commuting samples |
+| Parent/Yukawa and surface consistency | Ten-dimensional epsilon reduction, first variation, all six cubic Hessian terms, nonzero family vertex, Stokes phase and space-dependent gauge compensation checked; test_parent_reduction_keeps_surface_primitive, test_first_variation_keeps_surface_pairing, test_full_cubic_yukawa_hessian, test_space_dependent_gauge_control; not evaluated global couplings |
+| Curved positive residual versus rough energy | R/4 spin contribution and gauge/surface terms retained; test_curvature_gauge_surface_identity and test_rough_energy_is_not_residual_energy; an isolated negative curvature term is not a tachyon verdict |
+| Stationary interacting origin without physical isolation | All F/D residuals vanish at flat quaternion A0,Q=R=0, Hessian positive norm sum with gauge/moduli zero directions; test_stationary_origin_full_boson_hessian. Same graph-domain spin cusp retains zero essential threshold; test_cusp_gap_not_created_by_stability and prior analytic Weyl sequence; no general end/background no-go |
+
+Metric/action/twist/domain supplied; analytic, nonlinear/quantum and genesis
+selection duties remain. These statements do not identify particles or qualia.
+
 October8 companion-roster research sublemmas, not new shared/main-bank laws.
 Proof and exact locks: reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/;
 revised pre-run a534e1ae6,35 native/20 reference/15 focused/40 regression PASS.

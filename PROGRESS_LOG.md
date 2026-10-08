@@ -17539,3 +17539,31 @@ Next SAME curved interacting parent, bosonic Hessian, Yukawas and actual cusp
 response/isolating mechanism. Generated twist/phase, anomalies, physical
 families, parameters and gravity remain. Silver control preserved separately.
 Full parameter-free SM/TOE goal remains ACTIVE and unachieved.
+
+## 2026-10-08 curved interacting action on the shared fibre
+
+Science sealed04f89c7c8f2b987e8109bbc704e626667c693543, pushed and server-
+confirmed before scientific execution. First unchanged run:36 native/
+22 separate-reference/16 focused and56 four-packet regression PASS.
+Seven science files/four source pins verified. Full raw outputs and hashes
+retained. Supplied classical E8 parent includes both spin companions,
+actual kinetic-metric moment, all cubic Yukawas, flat-YM commutator energy
+and curvature/surface terms. At quaternion A0,Q=R=0 every F/D residual
+vanishes; the full bosonic quadratic energy is a nonnegative norm sum.
+This earns classical action/stationarity admission on explicit hypotheses,
+not selected dynamics, a nonlinear weak-solution theorem or quantum physics.
+
+The zero-energy cusp continuum survives on that same action. No finite
+zero-mode roster promoted to isolated chiral particles. Next nonzero coupled
+background or actual end response, with full asymptotic operator, charged
+spectrum/anomalies and genesis selection. Silver remains a separate positive
+control. Report: physical_bridge/weave_curved_action_2026_10_08/FINDINGS.md.
+
+Post-execution all-branch fetch advances main to f8b9a8fea (Review61/B1608
+completed; B1609 preregistration) and SM to1fabfa960 (W31 now published).
+New source/findings/relay/tests read, not independently executed. Its Z5
+flux/move-domain exclusion is not imported as an architecture no-go.
+Reader fronts/sublemmas/leads/roadmap and sender relay updated together.
+Same four inherited own-branch governance failures retained; main's review
+is not confused with this branch's overdue review counter. Full suite,
+nonauthor analytic/main-bank acceptance owed. Full SM/TOE ACTIVE/unachieved.
