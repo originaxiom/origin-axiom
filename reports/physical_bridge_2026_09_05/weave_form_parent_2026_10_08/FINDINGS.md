@@ -120,3 +120,10 @@ complete-suite pass is claimed. Reader fronts, logs, law/sublemma rows,
 open duties and sender-owned relay are reconciled in this publication.
 INTAKE.md records the later main b7ce48c5c and SM e611b54e1 read-grade
 updates; scientific pins are unchanged and W30 is not an executed result.
+
+Primary-source custody clarification: the field tables, action, coupled
+fermion discussion and Majorana passages were read before the seal.
+The final section3 spherical-multiplet summary was checked afterwards;
+the preregistered INPUTS description "section 3 complete" was premature
+as a pre-run completeness statement. No spherical masses or multiplicities
+were used for the cusp census. The scientific seal is preserved, not edited.
