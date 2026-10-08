@@ -82,7 +82,8 @@ Standard Model generations in a complex flavour triplet:
 Main's B1617 records a ruling the owner made with main on the same day, not in this seat's session: the fibre's
 modulus τ = ω is a tagged working postulate. Results carry "given τ = ω", and the choice stays formally open (main
 @ da3027e0, B1617's preregistration). This page points to it and does not restate it. This seat's reading of why the
-threads cannot force τ is in the relay's §38.
+threads cannot force τ is in the relay's §38, corrected in §42:
+selecting τ needs a stated functional, and potentials built from the threads select i or ω depending on the kernel.
 
 ## Not ruled
 

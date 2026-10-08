@@ -157,6 +157,13 @@ Under the owner's rulings, the table's rows split into two groups:
   their U-action is W40's. The owner asked whether what lies outside the weave is the missing source. The reading: the
   weave is exactly symmetric at every τ, so the values need a symmetry-breaking state chosen by a dynamics. In a τ-only
   reading, mixing would be a permutation (relay §41; asked of main).
+- **The assurance round (the owner: "are we sure?"), with four independent adversarial reviews.**
+  - The exact group results (the foundation, the masses) survived independent exact re-derivation.
+  - Corrected: the conventions (the period rule) and several readings (relay §42).
+  - Found:
+    - the residual convention splits the flavour arcs into a flavon scenario (TM1 and P10) and a modular one
+      (degenerate at ω);
+    - every flavour analysis presupposes a frame the record has not fixed (GENESIS FK11).
 
 ## Questions open with main
 

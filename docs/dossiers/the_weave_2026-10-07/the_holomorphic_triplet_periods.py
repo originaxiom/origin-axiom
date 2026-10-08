@@ -83,23 +83,41 @@ def periods(tau, n=2000):
     return za, zb, equiv
 
 
+def reduced_basis(tau):
+    """a Lagrange-Gauss reduced basis (w1, w2) of the lattice Z + tau Z (same lattice, so the same torus)"""
+    w1, w2 = complex(1), complex(tau)
+    while True:
+        if abs(w2) < abs(w1):
+            w1, w2 = w2, w1
+        n = round((w2 / w1).real)
+        if n == 0:
+            return w1, w2
+        w2 = w2 - n * w1
+
+
 def l2_norm(tau, npts=48):
-    """2 int_E (|f(z)|^2 + |f(z + tau)|^2) dx dy over the parallelogram centred on the puncture, polar in (s, t)"""
+    """2 int_E (|f(z)|^2 + |f(z + tau)|^2) dx dy over a parallelogram centred on the puncture, polar in (s, t).
+
+    The integrand is periodic on the lattice Z + tau Z (F's monodromy is unitary), so any fundamental parallelogram
+    gives the same integral. It is taken on a reduced basis of the lattice: on the skewed (1, tau) parallelogram the
+    polar quadrature loses accuracy at small Im tau (2.7e-11 at Im tau = 0.159, 5e-7 at 0.049; found by the independent
+    review of 2026-10-08). The caller's mpmath precision is restored on return.
+    """
     th1, thN = thetas(tau)
-    mp.mp.dps = 15
+    w1, w2 = reduced_basis(tau)
     xs, ws = np.polynomial.legendre.leggauss(npts)
     total = 0.0
-    for k in range(4):
-        a0, a1 = -np.pi / 4 + k * np.pi / 2, np.pi / 4 + k * np.pi / 2
-        for xt, wt in zip(xs, ws):
-            th = (a1 - a0) / 2 * xt + (a1 + a0) / 2
-            R = 0.5 / max(abs(np.cos(th)), abs(np.sin(th)))
-            for xr, wr in zip(xs, ws):
-                r = R / 2 * (xr + 1)
-                z = r * np.cos(th) + r * np.sin(th) * tau
-                h = abs(thN(3, z)) ** 2 / abs(th1(z)) + abs(thN(3, z + tau)) ** 2 / abs(th1(z + tau))
-                total += wt * (a1 - a0) / 2 * wr * R / 2 * float(h) * r
-    mp.mp.dps = 20
+    with mp.workdps(15):
+        for k in range(4):
+            a0, a1 = -np.pi / 4 + k * np.pi / 2, np.pi / 4 + k * np.pi / 2
+            for xt, wt in zip(xs, ws):
+                th = (a1 - a0) / 2 * xt + (a1 + a0) / 2
+                R = 0.5 / max(abs(np.cos(th)), abs(np.sin(th)))
+                for xr, wr in zip(xs, ws):
+                    r = R / 2 * (xr + 1)
+                    z = r * np.cos(th) * w1 + r * np.sin(th) * w2
+                    h = abs(thN(3, z)) ** 2 / abs(th1(z)) + abs(thN(3, z + tau)) ** 2 / abs(th1(z + tau))
+                    total += wt * (a1 - a0) / 2 * wr * R / 2 * float(h) * r
     return 2 * total * tau.imag
 
 

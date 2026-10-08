@@ -34,7 +34,7 @@ def copy(tmp_path_factory):
     repository root by its frontier/ directory, and some read files there)"""
     repo = tmp_path_factory.mktemp("repo")
     for top in ROOT.iterdir():
-        if top.name not in ("docs", ".git", ".claude"):
+        if top.name != "docs" and not top.name.startswith("."):
             (repo / top.name).symlink_to(top)
     for sub in (ROOT / "docs").iterdir():
         if sub.name != "dossiers":

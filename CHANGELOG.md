@@ -1,5 +1,32 @@
 # Changelog
 
+## The assurance round (the owner: "are we sure?"); relay section 42
+
+- **The owner asked** whether the record's mathematics, questions and scripts can be trusted, and approved a plan: a
+  green baseline, a conventions registry, mutation tests, and independent adversarial review.
+- **Four independent adversarial reviews** (fresh agents, no shared context):
+  - the foundation: all six claims confirmed in exact Q(ζ₈) arithmetic;
+  - the masses: all six confirmed exactly;
+  - the weight: four of five confirmed, the fifth (the phase at ω) a branch convention;
+  - the readings: no false theorem, but several overstatements.
+- **Found and fixed:**
+  - the period rule: the move fixing ω is L U L⁻¹, and the registry's §3 is corrected;
+  - the norm routine's accuracy at small Im τ: it now integrates on a reduced basis; error 2 × 10⁻¹⁵ where the old
+    routine had 6.3 × 10⁻⁴ at Im τ = 0.028;
+  - eight script issues, with values identical on rerun.
+- **Found, and relayed to main:**
+  - the residual convention splits the flavour arcs into a flavon scenario (TM1 and P10) and a modular one (degenerate
+    at ω);
+  - every flavour analysis presupposes a frame the record has not fixed (GENESIS FK11).
+- **This seat's readings corrected:** §38 point 4, W39's premise (replaced), and §41. "Most likely a dynamics" and
+  "short threads pull τ toward i" are withdrawn.
+- **Tools:**
+  - `CONVENTIONS.md` with its test;
+  - mutation tests: ten injected bugs, all caught by regeneration, five by the result tests;
+  - a standing regeneration test.
+- **Surfaces.** The dossier (the assurance section, notes in W38 to W41, W39's premise replaced, a row, the files),
+  the scripts, the tests, the rulings page, the state page, the relay's §42 and the ledger row.
+
 ## The weave's W41: the zero modes' modular weight; the owner's question about what lies outside the weave; relay section 41
 
 - **W41** (the rule first; one run): the weave's zero modes are a vector-valued modular form of weight −¾ as one-forms.

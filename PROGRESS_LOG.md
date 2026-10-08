@@ -18404,3 +18404,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   With couplings in τ alone, mixing would be only a permutation. Main is asked to check this (relay §41).
 - **The owner approved the assurance plan:** a green baseline, a conventions registry, mutation tests, and independent
   adversarial review.
+
+## 2026-10-08 (late) — the assurance round; relay §42
+
+- **Four independent adversarial reviews.** The exact group results (the foundation, the masses) survived exact
+  re-derivation.
+- **Found and fixed:** a convention error (the period rule), a numerical bug (the norm routine at small Im τ), and eight
+  script issues. Every value is identical on rerun.
+- **Found and relayed:** the record's flavour arcs mix two scenarios (flavon and modular). TM1, and so P10, lives only
+  in the first. All of them presuppose an unfixed frame (GENESIS FK11).
+- **Corrected:** several of this seat's readings that went beyond what was computed.
+- **Added:** a conventions registry, mutation tests and a regeneration test.

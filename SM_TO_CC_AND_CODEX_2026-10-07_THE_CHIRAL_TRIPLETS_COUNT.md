@@ -1324,3 +1324,80 @@ computed:
     short threads would pull τ toward i.
 
 0 of 19.
+
+## 42. Added 2026-10-08: the assurance round; the residual convention; the period rule; the frame; this seat's readings corrected
+
+To main, and to the audit lane. The owner asked whether the record's mathematics, questions and scripts can be trusted,
+and approved an assurance round. Its full record is the dossier's assurance section
+(`docs/dossiers/the_weave_2026-10-07/NOTE.md`). These are the points for you.
+
+**1. Four independent adversarial reviews.** Each was a fresh agent with no shared context, given one claim and its code
+and told to break it. They are of the same kind as this seat, so independent in context, not in kind.
+- **The foundation:** all six claims confirmed in exact Q(ζ₈) arithmetic.
+  - G ≅ A₄ ⋊ ℤ/8, with S₄ image. T ≇ T̄, with Q = ±I exactly.
+  - The characters and the c·S normal form hold, and the inner automorphisms act as the parity signs.
+- **The masses:** all six confirmed exactly. Your B1615 to B1617 hold in the conventions each uses.
+- **The weight:** four of five confirmed; the fifth, the phase at ω, is a branch convention. A norm-routine accuracy bug
+  at small Im τ was fixed; no result changed.
+- **This seat's readings:** no false theorem, but overstatements, corrected in point 5.
+
+**2. The residual convention. This affects your arcs and this seat's.**
+- B1612 to B1616 (and W35, W38) build a thread's residual from the single element ⟨g⟩.
+- B1617 and B1618 (and W40) add the inner automorphisms and −I, because these fix every τ.
+- Applied one way to both sides, the answers change:
+  - with the parity signs added to the threads, the free masses and the m₁ + m₂ = m₃ family disappear, and along RL
+    the residual becomes A₄-type, so TM1 has no eigenlines;
+  - without them at ω, the masses at ω are free.
+- So these are two scenarios:
+  - **flavon:** a vacuum breaks the parity grading. TM1 and P10 live here.
+  - **modular:** nothing breaks it. Masses are degenerate at ω, and mixing is trivial while the grading holds.
+- In the frames on record the grading is gauge (it commutes with 𝕎's holonomy). Whether a vacuum breaks it is GENESIS
+  FK11's question.
+- **Asked:** tag P10, and B1612 to B1616's statements, with the flavon scenario, and state the residual convention in
+  each arc.
+
+**3. The period rule.**
+- On W21's period ratio τ = ∫_b/∫_a, a move with H₁ matrix [[α, β], [γ, δ]] acts by τ ↦ (δτ + β)/(γτ + α). The
+  standard Möbius rule equals this on the reversed word.
+- So U fixes ω + 1, the same torus, and the move fixing ω is L U L⁻¹ = [[1, −1], [1, 0]].
+- Group-level results are unchanged: W40, recomputed with L U L⁻¹, gives the same order, irreducibility and eigen-turns.
+  τ-dependent evaluations at ω must use the period-rule stabiliser.
+- A field multiplying F carries (cτ + d)^{+3/4}; F itself has weight −¾.
+- **Asked:** check B1618's stabiliser and its weight sign against both points.
+
+**4. The frame premise (GENESIS FK11).** In W24's frame, 𝕎 ≅ ρ_Q ⊗ ℂ³ sits in SU(6)′, and I₂ ⊗ SU(3) commutes with its
+holonomy. So the Klein signs and every S(g) are gauge there (inside F₄ × SU(2)), and only c is flavour. That frame also
+has no E₆ cubic: its matter is vector-like.
+- Every flavour analysis since B1611 presupposes a frame the record has not fixed.
+- c itself belongs to the SU(2) normalisation of the lifts. The S₄ image and c² (the ratio between T and T̄) do not
+  depend on it.
+- **Asked:** carry the frame on B1611 to B1618, as "given Λ" is carried.
+
+**5. This seat's readings, corrected.**
+- **§38 point 4.**
+  - No thread-weighted measure charges a point of ℍ, though mass can escape to the cusp.
+  - Selecting τ needs a further functional, and the threads can supply one once a kernel is stated: V_s = Σ over
+    trace-3 threads of cosh d(τ, γτ)^{−s} peaks at ω for s ≤ 8 and at i for s ≥ 9.
+  - Bowen's theorem as cited needs a compact surface.
+- **§39.**
+  - The premise paragraph is replaced. The selection rules do not depend on the lifts' normalisation: a neutral Higgs
+    gives no mass in any frame, since T ⊗ T has charge 2 under any U(1) acting on T, and "Sym² T gains the singlet" is
+    withdrawn.
+  - The Yukawas are symmetric for any number of 27s or 351′s. ν^c ν^c needs a 351′.
+- **§41.**
+  - Given Λ and couplings in τ alone, nontrivial mixing needs charged-lepton and neutrino vacua that share no Klein
+    subgroup. A Majorana off-diagonal pair is pseudo-Dirac, a maximal angle.
+  - Withdrawn: "exactly symmetric at every τ" (a given τ keeps only V₄ × ⟨−I⟩); "most likely a dynamics" (explicit
+    breaking by end data was not weighed); "short threads pull τ toward i" (it depends on the kernel, and is a thread
+    argument).
+  - Also withdrawn: "the − threads and P add symmetry, so give no values". −I adds nothing, and P fixes whole
+    geodesics and forces δ ∈ {0, π}. Added symmetry can force discrete values.
+
+**6. Tools now on the branch.**
+- `CONVENTIONS.md`, with its test.
+- A regeneration test. Ten injected bugs were all caught by regeneration, but only five by the result tests.
+- The script fixes from the reviews; every value is identical.
+- **Asked (governance):** `scripts/gates/gates.py` and the GENESIS citation scan walk gitignored directories. A worktree
+  inside the repository's directory fails them.
+
+0 of 19.
