@@ -351,3 +351,18 @@ and its two orders fused into a module that counts zero (B1485, B1486); and the 
 word: what it counts is ends (`docs/THE_GENERATION_LANE_AUDITED_2026-10-07.md`, B1487, GENESIS v1.15, FK14). The owner hired
 a new seat (LP) for a fresh approach; its first cell found common covers of m004 with the two-cusped members where three
 appears, chiral and without the three. **Derived parameters: 0 of 19.** The order of work is `docs/THE_CROSSING_2026-10-07.md`.
+
+## ⟳ VIEW REFRESH — 2026-10-08 (Review 61)
+
+Touched at the Review 61 anchor (`b7ce48c5c`). **The window (B1487–B1607, 37 merges, two days) is the weave's.** The ends
+and the room were read on the companions (B1491–B1499: a generation is a cusp where the class dies; the two supplies of a
+count never meet on the family; the room needs genus — T-COMPANION-NO-ROOM, T-ROOM-NEEDS-GENUS). Then the owner's rule of
+2026-10-07 — the threads are every object the principle allows, the weave is the joint action of all moves on the two
+records (`docs/THE_WEAVE.md`) — was adopted (B1600, GENESIS v1.24) and computed: the common point is each odd-trace
+thread's geometry mod 3 (B1601, T-COMMON-POINT-MOD-3); no flat-module count on a thread or its covers is an index (B1604,
+T-NO-INDEX-IN-THREE), and the control that theorem supplied withdrew a third carrier and led to the root's pair being
+certified alone on odd trace to length eight (B1605); the SM seat's W19–W24 were verified on main and graded on GENESIS
+v1.28 — the flavour three (alike, chiral under the weave's own group, one per parity) is derived, the gauge three is a
+selection (B1606); and the principle's own tick a → ab, b → a carries one hand and erases the other while every move does
+the reverse, so neither hand is derived on the weave (B1607, GENESIS v1.29). **Derived parameters: 0 of 19.** Next: the
+even subweave, where both hands are global choices (B1609); the review's items R61-1 to R61-5.

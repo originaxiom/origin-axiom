@@ -1,0 +1,25 @@
+{
+ "id": "B1608",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1488",
+  "B1487",
+  "B1604",
+  "B1607"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the review loop)",
+  "object": "the record's review loop, gates and lanes in the window B1487-B1607 (aab434644..b7ce48c5c, 37 merges)",
+  "reach": "general",
+  "hypotheses": "the tools' counts taken as given; the lanes' newest items read at headline level; the fresh clone run at the covered commit b7ce48c5c, not at the review's own"
+ },
+ "claim_one_line": "REVIEW 61: THE WEAVE'S WINDOW. Thirty-seven merges since Review 60 (due; the block is at forty); fresh clone PASS at b7ce48c5; nine lanes registered and mirrored; the loop: five of Review 60's items paid, R60-2 and R60-5 carried with their ancestor keys. The headline: three things wrong were caught before anything was built on them -- B1602's third odd-trace carrier by B1604's theorem (every twisted Euler characteristic of a cusped 3-manifold vanishes) run as a control on the instrument, B1607's sealed letter by its own run, a version-pinned lock by S87's suite -- filed as E85 (the uncontrolled-precision reading: an instrument with a conserved quantity runs it on every reading) and E86 (the moving-target pin). Fifteen seals, all before results, five with disclosed post-seal changes (the seal tool cannot tell disclosed from undisclosed: R61-4); seat-positive-verified cannot see a main arc resting on a seat's dossier item (R61-3). LAW_MAP +5, THEOREM_REGISTRY +6, GENESIS v1.14 -> v1.29; eight terms glossed; the eight navigation views refreshed; no promotion to the chain. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

@@ -10949,6 +10949,19 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1608": {
+   "slug": "review 61 the weaves window",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "S87"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B160": {
    "slug": "quasicrystal bridge corroboration",
    "motifs": [

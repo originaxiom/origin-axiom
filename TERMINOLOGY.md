@@ -778,3 +778,27 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
   generation is a cusp on which the character is trivial and the class dies (B1487, GENESIS GAP2, FK14).
 - **the crossing plan** — `docs/THE_CROSSING_2026-10-07.md`: what is in hand, what blocks, the order of work, the kills
   named in advance; written after the re-read of the record (`docs/THE_REREAD_2026-10-06.md`).
+
+## Added at Review 61 (2026-10-08) — the terms minted in the B1487–B1607 window
+
+- **the common point** — the quaternion point of the fibre's characters, a ↦ i, b ↦ j: the one point every move fixes
+  (W2). On every odd-trace thread to length eight the fibre's trace ideal at the geometric point is one prime of norm 3,
+  so the holonomy reduces to the common point there and the thread's forced A₄ cover is its congruence cover at that
+  prime (B1601, T-COMMON-POINT-MOD-3).
+- **odd-trace thread** — a thread whose monodromy has odd trace; equivalently (the parity lemma, W1) its word acts on the
+  three parities by a 3-cycle. Such words have even length (B1601). Even-trace threads act by a transposition or trivially.
+- **the forced cover** — the cover of a thread given by the kernel of the map of its π₁ onto A₄ (odd trace), D₄ (the act
+  fixes one parity) or V₄ (it fixes all three) whose restriction to the fibre is the parity map (W3, B1602); read from the
+  base by a Reidemeister–Schreier presentation (B1605).
+- **the seat's floor and ceiling** — the SM seat's lower and upper bounds on the class index at a sign character in
+  terms of the count of ends k, the room m_A and b₀ — the floor I(W₁) ≥ k − m_A − b₀ (attained, +3, by the withdrawn
+  third carrier); both held at all 442 readings of B1603.
+- **the second supply** — the interior classes of the four twisted by a cube of the character (n(ν³ ⊗ four)), the
+  supply of a count besides the room of the line (B1493).
+- **the four's residual** — max |four(r) − I| over a cover's relators at the precision of a run; the validity condition of
+  any stacked-index reading (below 10⁻²⁸ reliable, at or above 10⁻²⁴ unreliable; B1604, B1492 addendum, E85).
+- **generation-shaped readings** — class-index readings (I(W₁), I(Λ²W₁)) = (−1, −1), the only kind with the rank-5
+  index shape n(5̄) = n(10); an analogue of a generation, not an index (B1603, B1604).
+- **the two hands** — the records' orientation (T against T̄; reversed by the rule a → ab, b → a and by the swap, kept by
+  every move) and the McKay orientation (ω against ω²; kept by the rule, inverted by every move); the double tick keeps
+  both; neither is derived on the weave (B1607, GENESIS v1.29).

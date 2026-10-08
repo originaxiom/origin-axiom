@@ -1,0 +1,39 @@
+window aab434644..b7ce48c5c: 37 commits (37 on the first-parent line), 21 arcs with a verdict (B1487 … B1607)
+remotes: mirrors ['origin', 'codeberg']; missing mirrors none; other remotes not read: ['golden_gate']
+loop: Review 60 block -- open ['R60-2', 'R60-5']; carried 0 (oldest: []); open items left in superseded blocks: none
+branches: 9 unmerged leaves; unregistered: none; on one remote only: none; remotes out of step: none
+   fork-2026-09-20                          +262  tip 2026-10-04  registered
+   kind-hypatia-uk0vv9                      +1  tip 2026-10-06  registered
+   outside-bench                            +14  tip 2026-09-18  registered
+   paper-review-verification-kaz3f5         +22  tip 2026-10-01  registered
+   physical-bridge-2026-09-05               +290  tip 2026-10-06  registered
+   project-thread-hctlox                    +3  tip 2026-10-06  registered
+   sep16-branch                             +98  tip 2026-09-29  registered
+   standard-model-derivation-0qt6ao         +395  tip 2026-10-08  registered
+   web-seat                                 +14  tip 2026-10-06  registered
+seals: 15 in the window; with defects: 5
+   B1490_the_common_cover_verified                      2/7 hashes, sealed before results  DEFECTS: changed: verification/common_cover_main.py, verification/congruence_level.py, verification/congruence_level.json, verification/level_recount.py, verification/level_recount.json
+   B1492_the_three_ended_companion_read                 3/3 hashes, sealed before results
+   B1493_the_room_on_the_companions                     5/7 hashes, sealed before results  DEFECTS: changed: verification/room.py, verification/control_m136.json
+   B1494_no_room_on_any_companion                       5/6 hashes, sealed before results  DEFECTS: changed: verification/companions.py
+   B1495_the_orbit_in_one_module                        1/2 hashes, sealed before results  DEFECTS: changed: verification/cross.py
+   B1497_room_needs_genus                               4/4 hashes, sealed before results
+   B1498_the_pencil_on_the_first_room                   1/1 hashes, sealed before results
+   B1499_the_fusion_on_the_first_room                   0/1 hashes, sealed before results  DEFECTS: changed: verification/fusion.py
+   B1601_the_common_point_is_the_geometry_mod_3         11/11 hashes, sealed before results
+   B1602_the_forced_cover_on_every_thread               82/82 hashes, sealed before results
+   B1603_the_count_at_every_member                      23/23 hashes, sealed before results
+   B1604_the_class_index_is_not_an_index                84/84 hashes, sealed before results
+   B1605_the_cover_read_from_the_base                   35/35 hashes, sealed before results
+   B1606_three_on_the_weave_graded                      2/2 hashes, sealed before results
+   B1607_the_principles_tick_at_the_common_point        2/2 hashes, sealed before results
+provenance: 14658 added lines scanned, 0 hits, 0 in public-facing files
+advancement: LAW_MAP +5 rows, THEOREM_REGISTRY +6 rows
+errors: new classes none; instances none
+new vocabulary (word pairs in >= 3 of the window's claims and in none before) not in TERMINOLOGY.md: second supply, length eight, odd-trace thread, trivial line, seat's floor, trivial end, negative scoped, room sealed, one-cusped state, characters where, generation-shaped readings, forced cover, four's residual, third carrier, read main, common point
+gates: 44 named by a test; not named by any: none
+gate controls: 44 registered failing-path tests; unregistered: none
+fresh-clone: PASS @ b7ce48c5 (gates all PASS; belt ok)
+relays open: outbound 62 {'CLOUD_CODEX': 3, 'ALL_SEATS': 3, 'CODEX': 17, 'SM': 8, 'CODEX_AND_SM': 3, 'SM_AND_CODEX': 27, 'LP': 1}; inbound 21 {'CC3': 3, 'README': 1, 'HANDOFF': 3, 'LINEAGE': 1, 'RETURN': 1, 'CODEX': 6, 'SM': 5, 'CHAT1': 1}; declined 38; banked 465
+chain gap (the review adjudicates the top; promotions are pinned in docs/CHAIN_COVERAGE.json): 791 of the record's arcs on a surface and not in the chain; top: B1098 (8), B959 (7), B1100 (7), B952 (7), B1086 (6), B1000 (6), B1484 (6), B1070 (6)
+sample seed: aab434644; to be read in full (seeded by the anchor): B1491, B1495, B1499, B1603, B1607

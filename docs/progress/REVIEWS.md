@@ -5917,10 +5917,10 @@ the ends; the rules of counting with one gate) — main acted on its own recomme
 ### Action items (Review 60)
 
 - [x] R60-1: mirror the three seat lanes to codeberg (SM-derivation at `33b14d53`, web-seat at `d40c1ab6`, LP at `8b6df98f`) once the push is unblocked by this review, and record the heads in the next landing (owner: cc; source: §2) — **paid 2026-10-07 (S68's landing):** all three fast-forwarded; origin = codeberg on each
-- [ ] R60-2: row the audit lane's 35 and the audit fork's 52 unrowed items at headline and verdict level in one harvest arc, newest first (owner: cc; source: §8; the remainder of R58-4 after R59-3)
+- [>] R60-2: row the audit lane's 35 and the audit fork's 52 unrowed items at headline and verdict level in one harvest arc, newest first (owner: cc; source: §8; the remainder of R58-4 after R59-3)
 - [x] R60-3: verify LP01 on this bench — the congruence claim for the figure-eight group and one of the three common covers (degree 20 over m004, 4 over o10_150726) with B1418's instrument — and rule what its "chirality reaches the tower, three does not" means for FK14 (owner: cc; source: §8) — **paid 2026-10-07 (B1490):** level 4 in the standard sense (B731's level 8 is the other convention; both right), two covers rebuilt and measured, every number as the seat's; for FK14: in F-CI a three needs both an order-3 isometry and a hexagonal end it fixes — the covers keep one or the other, never both
 - [x] R60-4: paid at S72 (2026-10-07) — the three gates' failing-path tests in `tests/test_gate_failing_paths.py` now also assert the gate's registration under its name (`gates.GATES["path-refs"] is gates.gate_path_refs`, and likewise); the review criterion reads 44 named by a test, none unnamed (owner: cc; source: §5; carried from Review 58's gate audit)
-- [ ] R60-5: pay what main owes the SM seat — one N₄₅ reading from scratch (ζ⁰ eigenspace, interior part, generic class, (−1, −10)), the literature on Lemma F — and R58-5's four literature checks under the owner's rule of 2026-10-06 (owner: cc; source: §1, §3)
+- [>] R60-5: pay what main owes the SM seat — one N₄₅ reading from scratch (ζ⁰ eigenspace, interior part, generic class, (−1, −10)), the literature on Lemma F — and R58-5's four literature checks under the owner's rule of 2026-10-06 (owner: cc; source: §1, §3)
 - [x] R60-6: rule the SM seat's nine GENESIS proposals P1–P9 against v1.15, P6 and P7 against FK13/FK14 (owner: cc; source: §3) — **paid 2026-10-07 (B1489, GENESIS v1.16):** P1 paid at v1.15; P3, P7 adopted with main's verification; P2 in main's words with its limit; P4, P5, P6, P8 at the seat's grade; P9 recorded under FK14
 - [x] R60-7: paid at S72 (2026-10-07) — `census_swap.py`'s module-level replacement of `realness.setup` is now a context manager scoped to one verdict (the import has no side effect; the verdicts unchanged; both arcs' tests pass); disclosed in dated addenda on B1476 and B1477 (owner: cc; source: S63)
 - [x] R58-4: resolved into R60-2 at its third carry — the harvest's concrete remainder (the audit lane's 35 and the audit fork's 52 unrowed items; R59-3 paid the rest) is now a named item with an owner (carried from R59)
@@ -5932,3 +5932,136 @@ the ends; the rules of counting with one gate) — main acted on its own recomme
 - [x] R56-3: closed as declined (Review 59's reason stands: CLAIMS.md's rewrite is Stage 6 of THE_FOUNDATION_LOCK_PLAN and a declared debt of `doc_currency`)
 
 **anchor-commit: `aab434644`**
+
+# Review 61 (2026-10-08) — the weave's window: what the record's own controls caught, and what the three now is
+
+Thirty-seven merges since Review 60 against a period of twenty — due, not yet blocking (the block is at forty); written
+before the next seal. A window of 37 first-parent commits (`aab434644..b7ce48c5c`) and 21 arcs with a verdict,
+B1487–B1499 and B1600–B1607, the SM seat's reserved range 1500–1599 jumped by main's numbering at S80. The window is
+the weave's: the ends and the room (B1487–B1499: a generation is a cusp where the class dies; the two supplies of a
+count never meet on the family; the room needs genus), then the owner's rule of 2026-10-07 — threads are every allowed
+object, the weave is the joint action of all moves — adopted (B1600) and computed (B1601–B1607): the common point is
+each odd-trace thread's geometry mod 3; the class index is not an index (no flat-module count on a thread is one); the
+root's pair is alone on odd trace to length eight, certified; the SM seat's W19–W24 verified on main and graded — the
+flavour three derived, the gauge three a selection; and the principle's own tick computed — two hands, complementary,
+neither derived on the weave. All three core lines below are the tools' output (`scripts/review/review_tools.py`,
+`--json` and `--fresh-clone`), not written by hand.
+
+**fresh-clone: PASS @ b7ce48c5** (gates all PASS; belt ok) · **sample seed: aab434644**; to be read in full: B1491, B1495, B1499, B1603, B1607 ·
+**gate controls: 44 registered** failing-path tests; unregistered: none.
+
+## 1. The loop (Review 60's block, closed or carried)
+
+Review 60's seven own items: five paid in the window (R60-1 at S68, R60-3 at S70 as B1490, R60-4 and R60-7 at S72,
+R60-6 at S69 as B1489). **R60-2** (the audit lane's 35 and the audit fork's 52 unrowed items) is at its first carry:
+nothing in the window touched those lanes (their tips are 2026-10-04 and 2026-10-06, unchanged since Review 60) and the
+harvest-debt gate's ratchet ages the rows on its own; carried as R61-1 with a date. **R60-5** (what main owes the SM
+seat: N₄₅'s ζ⁰ eigenspace read from scratch; the literature on Lemma F; the four literature checks of 2026-09) is at
+its first carry, **part-paid:** B1494 rebuilt N₄₅ on main (degree 45 over m003, five cusps, ℤ⁹ ⊕ (ℤ/2)², the unique
+candidate) and reproduced the seat's rooms at its 2048 sign characters; the (−1, −10) generic class, Lemma F's
+literature and the four checks are not done; carried as R61-2 with the paid part struck. Nothing from earlier blocks
+is open (the tools: open items left in superseded blocks: none).
+
+## 2. The branch inventory (B763 rule)
+
+Nine unmerged leaves, all registered, all on both remotes, none out of step (the tools; the mirrors were made at every
+landing of the window). The SM-derivation lane, 395 commits ahead of main, is read to `5dfe88f8c` (its
+sm:B1549–B1552 and its weave dossier W1–W29, rows 905–945); the LP seat (three commits ahead of main, tip 2026-10-06)
+is unchanged since its LP01 run, rowed at Review 60; the web seat, the hypatia lane, the audit lane and the audit fork are unchanged
+since Review 60 (R61-1). No lane appeared mid-suite in this window; `lane_survey` ran green on every landing.
+
+## 3. Protocol integrity — the headline
+
+**Three times in this window something wrong was caught before anything was built on it; the one that mattered was
+caught by a theorem run as a control.** (i) B1602's census read a third odd-trace carrier (−LLRLRLRR, one member reading (+3, +1)); B1604
+proved that every twisted Euler characteristic vanishes on a cusped 3-manifold and ran the identity χ = 0 as a control
+on the instrument — it held on 196 modules of six clean covers and failed on that one: the cover's SnapPy relators are
+720–902 letters and the four's relator residual at 40 digits was 6 × 10², noise read as a reading. The carrier was
+withdrawn by addendum, B1603's kinds restated on reliable covers (116 generation-shaped readings, six kinds), B1492
+given a validity condition (the four's residual far below the rank tolerance; χ = 0 checked), and B1605 re-read all 29
+unreliable covers from the base at 400 bits — every kernel certified, the root's pair alone. **The standing rule it
+names: an instrument with a conserved quantity runs that quantity as a control on every reading (E85, §5).** (ii) B1607
+sealed "σ = P∘R" and the run returned False: the rule is L∘P and P∘R is the mirror rule, same matrix — a letter, caught
+by the sealed computation, corrected post-seal and disclosed; nothing downstream used it. (iii) After S87's suite a
+lock failed on a legitimate change: B1606's test pinned GENESIS's header to "Version 1.28" and v1.29 landed — the pin
+repaired to a monotone check in two tests, the suite not repeated for it, disclosed on the log (E86, §5).
+
+**Seals.** Fifteen in the window, every one sealed before its results and on both remotes. Five have files changed
+after the seal (the tools' "defects"): B1490 (the E21 naming and the B731 note, amended in place with dated notes, the
+ledger recording two commits), B1493 (`room.py`'s second supply used the SL(2) lift where the seat's ρ₁ is the four —
+corrected, the sealed outputs kept in `sealed_run/`), B1494 (`companions.py`), B1495 (`cross.py`), B1499 (`fusion.py`'s
+threshold 10⁻⁴⁰ unreachable at a residual floor of 10⁻³⁶ — loosened to 10⁻³⁰ "at the floor", the sealed run kept). **Each
+page discloses its change and keeps its sealed run**; the seal tool cannot tell a disclosed change from an undisclosed
+one, and should (R61-4). **The gate `seat-positive-verified` (B1487) was honoured in the letter and found a gap in its
+reach:** B1606 rests on the seat's W19–W24, which are dossier items, not seat arcs, so `rests_on_seat` is empty by the
+gate's own rule and the verification lives in the harvest rows (W20, W21, W22 VERIFIED on main before the grade). A
+main arc resting on a seat's dossier item escapes the gate (R61-3).
+
+## 4. Provenance spot-sweep
+
+14 658 added lines scanned, 0 hits, 0 in public-facing files. The window's new tracked pages (THE_WEAVE,
+THREE_GENERATIONS_RESEARCHED, the generation-lane audit) make no claim of outside verification; the deep-research
+report of B1496 is archived as a report and graded on the page.
+
+## 5. Advancement, errors, vocabulary
+
+LAW_MAP +5 rows (THE ENDS, THE ROOM, THE ROOM NEEDS GENUS, THE COMMON POINT IS THE GEOMETRY MOD 3, THE CLASS INDEX IS
+NOT AN INDEX), THEOREM_REGISTRY +6 (T-INDEX-IS-MIRROR-EVEN, T-THREE-NEEDS-ENDS, T-COMPANION-NO-ROOM,
+T-ROOM-NEEDS-GENUS, T-COMMON-POINT-MOD-3, T-NO-INDEX-IN-THREE). GENESIS moved v1.14 → v1.29 in the window (fifteen amendments), every step
+by an adoption script with `--check`. **Errors: the tools found no ledger rows filed in the window; two classes are
+filed at this review** — **E85 the UNCONTROLLED-PRECISION READING** (a numerical instrument read outside the precision
+its inputs allow, with no conserved quantity run as a control; instance: B1602's third carrier, caught by B1604's χ = 0)
+and **E86 the MOVING-TARGET PIN** (a lock that asserts the current value of something that legitimately moves, so the
+next honest change fails the suite; instance: B1606's test on GENESIS's version, found at S87). **Vocabulary not in
+TERMINOLOGY** (the tools' candidates, the load-bearing ones glossed at this review under "Added at Review 61"): the
+common point, odd-trace thread, the forced cover, the floor and the ceiling (the seat's), the second supply, the four's
+residual, generation-shaped reading, the two hands; the rest of the list ("length eight", "trivial line", "negative
+scoped", "read main") are phrases, not terms. Gates not named by any test: none (R60-4 paid).
+
+## 6. The chain gap, adjudicated
+
+791 of the record's arcs are on a synthesis surface and not in the chain; the top by surface degree unchanged (B1098,
+B959, B1100, B952, B1086, B1000). **No promotion this review**, for the reason of Reviews 59 and 60. The window's own
+candidates for the chain are its theorems (T-COMMON-POINT-MOD-3, T-NO-INDEX-IN-THREE) and the grade of B1606; they
+enter the claim pool as rows and wait for a card.
+
+## 7. The sample, read
+
+Five arcs drawn by the anchor. Checked on each: the verdict file carries the scope tag (all five; reach general,
+single, single, class, general), a lock exists and ran in the window's suites, "Seen first" and "Disclosed" sections
+are present on all five (the unevenness Review 60 named is gone in this window). **B1491** (PROVED, thread): the
+correction of T3 on the seat's relay and the fixed-point companions — no preregistration, a correction arc by
+construction. **B1495** (NEGATIVE, thread, sealed): the orbit module reads (3, 9) — its `cross.py` changed after the
+seal, disclosed; its claim line was sharpened at S79 by the two-standards addendum (the orbifold standard, which the
+orbit satisfies, against the smooth). **B1499** (NEGATIVE scoped, thread, sealed): the fusion on the first room reads
+(0, 0) — the threshold loosened to the residual floor, disclosed. **B1603** (NEGATIVE, weave, sealed): the count at
+every member — corrected at S84 by addendum after the precision audit (the (1, 0) and (3, 1) kinds withdrawn); the
+correction is on the page and on the verdict line. **B1607** (PROVED, weave, sealed): the letter (§3). Two of the five
+needed a correction after their seal and both carry it: the record's correction routine worked twice in the sample.
+
+## 8. Harvest and relays
+
+Harvest in the window: rows 905–945 — the SM seat's sm:B1549–B1552 (among them: the three-orbit does not single out
++LLLR; the count at the spin vacuum is zero at all 864 readings, NEGATIVE) and its weave dossier W1–W29 (W1–W4, W10, W20, W21,
+W22, W26 VERIFIED on main by own code; W16 is the seat's verification of main's B1601 and B1604; W19, W23–W25, W27–W29 registered; W29 NEGATIVE as a derivation by the seat's
+own rule), the LP seat's LP01. Relays: 62 outbound open (up from 43: main wrote to the seat at every landing of the
+window and the seat answers by its dossier, not by closing rows — R61-5), 21 inbound open, 465 banked, 38 declined.
+Remaining debt: R61-1.
+
+## 9. What this review cannot say
+
+It did not re-read the merged commits line by line; it ran the suite at every landing of the window (S65–S87) and once
+in a fresh clone. Its sample is five of twenty-one, all by the reviewer. It took the harvest gate's counts as given and
+read the lanes' newest items at headline level, verifying by own code only what main built on. It cannot say whether
+the owner's open decisions of 2026-10-07 (A, (a)) are still open or moot under the weave; main acted on its
+recommendation, reversibly, and the weave has since moved the question.
+
+### Action items (Review 61)
+- [>] R61-1: row the audit lane's 35 and the audit fork's 52 unrowed items at headline and verdict level in one harvest arc, newest first, before Review 62 (owner: cc; source: §1; carried from R60-2, itself the remainder of R58-4 after R59-3)
+- [>] R61-2: pay what main owes the SM seat — N₄₅'s ζ⁰ eigenspace, interior part, generic class (−1, −10), from scratch (the room at its sign characters is paid, B1494); the literature on Lemma F; the four literature checks (T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE, T-MASS-TERM) under the owner's rule of 2026-10-06 (owner: cc; source: §1; carried from R60-5, which absorbed R58-5)
+- [ ] R61-3: extend `seat-positive-verified` to a seat's dossier items — a main arc that rests on a seat's W-item names it (`rests_on_seat` accepts `sm:W21`-style ids) and the gate requires a HARVEST row marked VERIFIED for it; failing-path test and GATE_CONTROLS row (owner: cc; source: §3)
+- [ ] R61-4: the seal tool distinguishes a disclosed post-seal change (a page that names the changed file and keeps `sealed_run/`) from an undisclosed one, and reports only the latter as a defect (owner: cc; source: §3)
+- [ ] R61-5: a relay-closure pass with the SM seat at the next harvest — the 27 open rows to SM_AND_CODEX of the window closed where the seat's dossier answered them, and the seat's two open asks of main (its sign convention for Q; the explicit Λ₊) answered or declined (owner: cc; source: §8)
+- [x] R61-6: E85 and E86 filed in ERROR_LEDGER with their standing rules; the window's eight load-bearing terms glossed in TERMINOLOGY (this review)
+
+**anchor-commit: `b7ce48c5c`**
