@@ -1,5 +1,22 @@
 # Changelog
 
+## The weave's W22: the end condition at the puncture is the weave's, so the parities' three is chiral, up to the hand
+
+- **The question.** W21's qualification said that an unequal count of r and r̄ needs an end condition at the puncture
+  (GENESIS GAP2). Does the weave leave that condition free?
+- **It does not.**
+  - At the puncture the holonomy is −1, which is central. So each parity block has two local solutions, and a
+    chirality-keeping condition is a subspace of them, with index dim − 1.
+  - The moves' lifts generate 2O and act irreducibly on that space in every block. So the only conditions every move
+    keeps give index ±1 per block: ±3 in all, never 0.
+  - One thread alone leaves a line (46 of 50 threads to length 6 have lifts with two eigenlines). The odd spin
+    structure is the only one every move fixes.
+- **So the parities' three is chiral by the weave's symmetry,** and its sign is the orientation. The qualification
+  was too strong: it applied one rule to 𝕎 and 𝕎̄ as independent sectors.
+- **Still open: which fields carry 𝕎** (the dictionary, GENESIS FK11). On the 2d fibre the E₈ frames give F-HE's
+  (1, 3) or one 27, not complete generations.
+- The dossier (W22), the synthesis (row 13), the laws page, a test, the relay's §18 and the ledger are updated.
+
 ## A qualification to the weave's W21: the chirality is the weave group's, not a gauge group's
 
 - **What was overstated.** W21's write-up (0a1b13bb) called the three "a chiral three", read the count as "the fibre's

@@ -18087,3 +18087,19 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     - a source of gauge chirality that the weave forces: T on the weave's moduli through its orbifold index, or a
       six-dimensional object;
     - the dictionary (GENESIS FK11).
+
+## 2026-10-08 (evening) — the weave's W22: the end condition at the puncture is the weave's
+
+- **The question:** is the end condition at the puncture free (GENESIS GAP2), as W21's qualification assumed?
+- **No.** The moves' lifts generate 2O, irreducible on the two local solutions in every parity block. So the only
+  conditions every move keeps give index ±1 per block. The parities' three is chiral (±3), with its sign the
+  orientation. One thread alone leaves a line; the weave does not.
+- **The qualification to W21 was too strong** and is superseded.
+- **The goal is not met yet.** What is now derived on the weave:
+  - three, the parities';
+  - alike (Theorem G);
+  - chiral, by the weave's symmetry at the puncture;
+  - the flavor structure T.
+- **Still a reading:** which fields carry the parity-twisted spin bundle (GENESIS FK11). On the 2d fibre the E₈
+  frames give (1, 3) or one 27. Complete generations need a six-dimensional frame, where 6d anomaly cancellation
+  (Dobrescu–Poppitz) allows only multiples of three identical generations.

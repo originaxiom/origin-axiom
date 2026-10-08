@@ -152,6 +152,12 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     qualification the same afternoon). The common point is self-conjugate, so matter in r and r̄ comes in equal
     numbers unless an end condition is chosen at the puncture (GENESIS GAP2). The dictionary (GENESIS FK11) stays a
     reading. The zero parity adds one singlet zero mode.
+- **The end condition the weave fixes (W22; proved, and computed).**
+  - The moves' lifts generate 2O and act irreducibly on the two local solutions at the puncture, in every parity block.
+  - So the only conditions every move keeps give each block index +1 or −1. The parities' three is chiral (±3), and
+    its sign is the orientation. This supersedes the qualification just above.
+  - One thread alone leaves a line, so a vector-like condition exists on a thread, but not on the weave (GENESIS
+    GAP2).
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

@@ -1,0 +1,70 @@
+{
+ "(1) the group of the lifts of L and R: order": 48,
+ "(1) its commutant on the local solutions C^2 (1 = irreducible)": 1,
+ "(2) each parity block's stabilizer": {
+  "(2, 0)": {
+   "lifts of the moves fixing the block (words to length 6)": 90,
+   "commutant on C^2": 1,
+   "order of the group they generate": 16
+  },
+  "(0, 2)": {
+   "lifts of the moves fixing the block (words to length 6)": 90,
+   "commutant on C^2": 1,
+   "order of the group they generate": 16
+  },
+  "(2, 2)": {
+   "lifts of the moves fixing the block (words to length 6)": 84,
+   "commutant on C^2": 1,
+   "order of the group they generate": 16
+  }
+ },
+ "(3) threads to length 6 whose every lift has two distinct eigenlines (a line a vector-like condition can use)": {
+  "threads": 50,
+  "with distinct eigenlines": 46,
+  "without (lift +-1 or a scalar)": [
+   "+LLRLLR",
+   "+LRLRLR",
+   "+LRRLRR",
+   "-LLRR"
+  ]
+ },
+ "(4) the spin structures": {
+  "(0, 0)": {
+   "values on (1,0), (0,1), (1,1)": [
+    0,
+    0,
+    1
+   ],
+   "Arf invariant": 0
+  },
+  "(0, 1)": {
+   "values on (1,0), (0,1), (1,1)": [
+    0,
+    1,
+    0
+   ],
+   "Arf invariant": 0
+  },
+  "(1, 0)": {
+   "values on (1,0), (0,1), (1,1)": [
+    1,
+    0,
+    0
+   ],
+   "Arf invariant": 0
+  },
+  "(1, 1)": {
+   "values on (1,0), (0,1), (1,1)": [
+    1,
+    1,
+    1
+   ],
+   "Arf invariant": 1
+  }
+ },
+ "(4) fixed by every move": [
+  "(1, 1)"
+ ],
+ "(4) the fixed one is odd (Arf 1)": true,
+ "the weave fixes the condition up to the hand (Lambda_+ = 0 or C^2 in every block; index -3 or +3)": true
+}

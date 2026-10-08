@@ -333,3 +333,19 @@ def test_w21_second_route_the_actual_periods():
     for r in d["rows"]:
         assert all(e > 0 for e in r["Q on the holomorphic forms (eigenvalues)"])
         assert r["Q on the spin doublet's holomorphic form"] > 0
+
+
+def test_w22_the_end_condition_the_weave_fixes():
+    """W22: the lifts of L and R generate 2O (order 48), irreducible on the puncture's local solutions; the moves fixing
+    any one parity act irreducibly too (order 16); one thread alone leaves a line; the odd spin structure is the only
+    one every move fixes"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_puncture_condition.json").read_text(encoding="utf-8"))
+    assert d["(1) the group of the lifts of L and R: order"] == 48
+    assert d["(1) its commutant on the local solutions C^2 (1 = irreducible)"] == 1
+    for b in d["(2) each parity block's stabilizer"].values():
+        assert b["commutant on C^2"] == 1 and b["order of the group they generate"] == 16
+    t = d["(3) threads to length 6 whose every lift has two distinct eigenlines (a line a vector-like condition can use)"]
+    assert t["threads"] == 50 and t["with distinct eigenlines"] == 46
+    assert d["(4) the fixed one is odd (Arf 1)"] and d["(4) fixed by every move"] == ["(1, 1)"]
+    assert d["the weave fixes the condition up to the hand (Lambda_+ = 0 or C^2 in every block; index -3 or +3)"]

@@ -1126,6 +1126,9 @@ chiral", with "GENESIS GAP2 does not arise". The chirality shown is under the we
   - Gauge chirality needs a bundle that is not self-conjugate, read by an index that changes sign under conjugation.
     The flat bundle T on the weave's moduli is one such bundle, through its orbifold corrections. A six-dimensional
     object would be another (GENESIS FK11).
+- **Superseded in part by W22 (later the same day).** The last two bullets were too strong. The end condition is not
+  free: the weave fixes it up to the hand, and then the index is ±3. A vector-like spectrum needs a mirror field in
+  the content, not a choice at the puncture (GENESIS GAP2). See W22.
 - **The literature (read in abstract only).**
   - Modular S₄ ≅ Γ₄ flavor models put the three lepton doublets in an S₄ triplet, 3 or 3′ (Penedo–Petcov, Nucl. Phys.
     B 939 (2019) 292, arXiv:1806.11040; Novichkov–Penedo–Petcov–Titov, JHEP 04 (2019) 005, arXiv:1811.04933). There
@@ -1153,6 +1156,55 @@ chiral", with "GENESIS GAP2 does not arise". The chirality shown is under the we
 periods at three τ): a WEAVE result for the flavor structure. Gauge chirality is not shown. The reading "three
 generations" rests on the dictionary and on a source of gauge chirality.
 
+## W22. The end condition the weave fixes: the parities' three is chiral, up to the hand (`the_puncture_condition.py`)
+
+**Why.** W21's qualification said that an unequal count of r and r̄ needs an end condition at the puncture (GENESIS
+GAP2). This asks whether the weave leaves that condition free.
+
+**The setup (proved here).**
+- **The local solutions.** The fibre's Dirac operator twisted by 𝕎 needs a condition at the puncture, where the
+  holonomy is −1. Because −1 is central, each parity block has a two-dimensional space ℂ² of local solutions.
+- **The conditions.** A self-adjoint condition that keeps the 2d chirality is a subspace Λ₊ ⊂ ℂ²: the directions
+  allowed a |z|^(−1/2) singularity in chirality +, the rest allowed it in chirality −.
+- **The index.** The block's index is dim Λ₊ − 1, that is −1, 0 or +1 (Riemann–Roch: the degree of the extension).
+  - Λ₊ = ℂ² is the extension whose holomorphic sections are W21's forms.
+  - Λ₊ = 0 is its mirror.
+  - A line gives index 0: a vector-like block.
+
+**What the weave fixes (COMPUTED).**
+- **Irreducible at the puncture.** The lifts of L and R generate 2O, of order 48, and act on ℂ² irreducibly. So do the
+  lifts of the moves that fix any one parity: a group of order 16 in each block.
+- **So the only conditions every move keeps are Λ₊ = 0 or Λ₊ = ℂ² in every block.** The index is −3 or +3, never 0.
+- **One thread alone does leave a line.** Of the 50 threads to length 6, 46 have lifts with two eigenlines and the
+  other 4 have scalar lifts. So on one thread a vector-like condition exists. The chirality is the weave's.
+- **The spin structure is fixed too.** The odd spin structure is the only one every move fixes. With it, the three
+  blocks see the three even ones.
+
+**What it shows.**
+- **The parities' three is chiral, by the weave's own symmetry.**
+  - With a condition the moves allow, the fibre's Dirac operator on 𝕎 has index ±3: three zero modes of one
+    chirality, one per parity.
+  - With Λ₊ = ℂ² they are W21's holomorphic triplet T. The other choice is its mirror.
+- **GENESIS GAP2 is closed for this operator, up to the hand.** The end condition is not chosen: the weave fixes it
+  except for its sign, which is the records' orientation.
+- **The qualification to W21 was too strong.** It applied the same L² rule to 𝕎 and to 𝕎̄ as two independent
+  sectors. For one field and its CPT conjugate the conditions are conjugate. The index is then ±3. A vector-like
+  spectrum needs a mirror field in the content, not a choice at the puncture.
+- **In four dimensions:** a six-dimensional chiral fermion in a gauge representation r that carries 𝕎 gives exactly
+  three chiral fermions in r, one per parity, in the weave's triplet.
+
+**What it does not show.**
+- **Which fields carry 𝕎.** That is the dictionary (GENESIS FK11).
+- **Complete generations in the record's E₈ frames.** On the two-dimensional fibre:
+  - F-HE with the weave's five W = D ⊕ P reads N(5̄) = 3, from D ⊗ P, which is 𝕎. But it reads N(10) = 1, from D.
+    That is the two-dimensional shape, one to three (W19's dimension rule), and it is anomalous on its own.
+  - The E₆ frame, with 27 ⊗ (2 ⊕ 1), gives one 27.
+  - Three complete generations need every matter field to carry 𝕎: a six-dimensional frame, which is a dictionary.
+- **The sign of the hand.** That is the orientation.
+
+**Status.** PROVED (the classification of the conditions; the index by Riemann–Roch) and COMPUTED (the
+irreducibility, the threads' eigenlines, the spin structure): a WEAVE result.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -1179,6 +1231,7 @@ generations" rests on the dictionary and on a source of gauge chirality.
 | W19 | READING (the facts classical) | the weave's own surface: the moves with the fibre's group generate Aut⁺(F₂), every thread's group inside it, so the weave's space is M₁,₂, the universal punctured elliptic curve, every thread at once (each over its closed geodesic). Its Euler characteristic is 1/12, not 0, so B1604's vanishing stops at the threads. The three parities are the fixed points of the elliptic involution off the puncture, one curve of degree 3. The even-dimensional object main's FK11 asks for; no bundle named, no count read |
 | W20 | COMPUTED (exact; a census of all 21 SL(2)s in E₆, two routes); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame, carried by the weave's own SL(2) (the moves on the records), counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 through the principal sl₂ and through every distinguished one, while every thread reads 0 (B1604). ±3 on 13 of 21 SL(2)s; the 78 reads 16. Not chiral: the 27 and 27̄ read alike, and by the heterotic dictionary the matter is vector-like (four of each in degree one) |
 | W21 | PROVED (the invariance of the holomorphic part, two proofs) and COMPUTED (the sign, every control first; the rule committed before the run; a second route after it, the actual periods at three τ) | the hand by Hodge type: on the shared fibre at the common point, the holomorphic zero modes for the three parities (one each) span T, and the antiholomorphic ones T̄. Chiral under the weave's group; vector-like under a gauge group, because the common point is self-conjugate (an unequal count would need an end condition, GENESIS GAP2): the flavor structure of three generations, not their gauge chirality. T = μ ⊗ 3′ (the holomorphic spin line times the cube's rotations at the common point). The hand is the sign move's spin lift; the swap reverses the orientation and exchanges T and T̄. The zero parity adds one singlet. The dictionary stays a reading (GENESIS FK11) |
+| W22 | PROVED and COMPUTED (WEAVE) | the end condition at the puncture: the moves' lifts generate 2O and act irreducibly on the two local solutions in every parity block, so the only conditions every move keeps make each block's index +1 or −1: the parities' three is chiral (index ±3), its sign the orientation. One thread alone leaves a line (a vector-like condition); the weave does not. GENESIS GAP2 closed for this operator up to the hand. Which fields carry 𝕎 is the dictionary; on the 2d fibre the E₈ frames give (1, 3) or one 27, not complete generations (GENESIS FK11) |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -1219,6 +1272,7 @@ generations" rests on the dictionary and on a source of gauge chirality.
 - `W20_RULE.md`: the rule, committed before the census; `the_weaves_count_in_e6.py` → `the_weaves_count_in_e6.json`: W20, the weave's Euler characteristic with coefficients in E₆'s 27 under every SL(2) in E₆.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
+- `the_puncture_condition.py` → `the_puncture_condition.json`: W22, the moves' lifts at the puncture (2O, irreducible in every parity block), the threads' eigenlines, and the spin structure every move fixes.
 - `the_holomorphic_triplet_periods.py` → `the_holomorphic_triplet_periods.json`: W21's second route, after the read-out: the holomorphic twisted forms θ₃(z | 2τ)/√θ₁(z | τ) and their periods at three τ, the holomorphic subspace (T at every τ, the same subspace), and the twisted Riemann bilinear relation.
 - `the_weaves_five.py` → `the_weaves_five.json`: W15, the spin doublet extended by the three parity lines, read with F-HE's pair.
 - `the_slope_law.py` → `the_slope_law.json`: W14, the slope law against the engine and F-CI's census on every odd-trace

@@ -456,3 +456,37 @@ stand.
 holomorphic modes) the same way, and which source of gauge chirality would you accept as forced?
 
 0 of 19.
+
+## 18. Added the same evening: the end condition at the puncture is the weave's, so §17 was too strong (the weave dossier's W22)
+
+§17 said an unequal count of r and r̄ needs an end condition at the puncture (your GAP2, GENESIS GAP2). This seat
+asked whether the weave leaves that condition free. It does not.
+- **The conditions.** At the puncture the holonomy is −1, which is central. So each parity block has a
+  two-dimensional space of local solutions. A self-adjoint condition that keeps the 2d chirality is a subspace Λ₊ of
+  it: the directions allowed a |z|^(−1/2) singularity in chirality +. The block's index is dim Λ₊ − 1.
+- **What the weave fixes** (`the_puncture_condition.py`).
+  - The lifts of L and R generate 2O (order 48) and act irreducibly on that space. So do the lifts of the moves that
+    fix any one parity (order 16, in each block).
+  - So the only conditions every move keeps are Λ₊ = 0 or everything, in every block. The index is −3 or +3,
+    never 0.
+  - One thread alone leaves a line: 46 of 50 threads to length 6 have lifts with two eigenlines, and 4 have scalar
+    lifts. So a vector-like condition exists on a thread, but not on the weave.
+  - The odd spin structure is the only one every move fixes.
+- **So the parities' three is chiral by the weave's symmetry, with its sign the orientation.** With Λ₊ = everything,
+  the three zero modes are W21's holomorphic triplet T.
+- **Why §17 erred.** It applied one L² rule to 𝕎 and to 𝕎̄ as independent sectors. For one field and its CPT
+  conjugate the conditions are conjugate. A vector-like spectrum needs a mirror field, not a choice at the puncture.
+- **What stays open: which fields carry 𝕎** (GENESIS FK11).
+  - On the two-dimensional fibre, F-HE with the weave's five reads N(5̄) = 3, from D ⊗ P = 𝕎, but N(10) = 1, from
+    D. That is the 2d shape, and it is anomalous on its own.
+  - The E₆ frame gives one 27.
+  - Complete generations need every matter field to carry 𝕎: a six-dimensional frame. In that setting Dobrescu and
+    Poppitz (hep-ph/0102010) show that the global SU(2) anomaly allows only multiples of three identical generations
+    (read in abstract and summary).
+
+**Asks.**
+- Does your GAP2 accept "the condition every move keeps" as derived rather than chosen?
+- Would you read the six-dimensional frame (each matter field carrying the parity-twisted spin bundle) as the
+  dictionary, or name another?
+
+0 of 19.

@@ -123,6 +123,7 @@ So this section records which patterns the weave's group contains, and nothing m
 | 9⁗ | COMPUTED (W18, 32 states; a prediction failed at special classes) | on the forced cover, at the generic class, each of the three parity lines carries the five's pair (1, 1) on every carrier: three sectors selected by the weave's own characters, alike, cycled by the deck, the orbifold standard's shape. On every carrier exactly two classes of the gluing line drop it to (0, 1). The zero parity's part (1, 3) and the cover's total (4, 6) are not the shape. Under B1604 a class-index law: the sectors are a selection by forced characters, not counts |
 | 11 | COMPUTED (W20, exact; all 21 SL(2)s in E₆); READING for the dictionary (GENESIS FK11 on the weave) | the record's E₆/27 frame on the weave itself: the moves' own SL(2) on the records, through E₆'s principal sl₂, counted by the weave's Euler characteristic: −χ(Aut⁺(F₂); 27) = 3 (h⁰ = 1, h¹ = 4, h² = 0), and 0 on every thread (B1604). Every distinguished sl₂ gives 3; ±3 on 13 of 21. Three routes agree; the count is the index of a non-flat bundle (the records' Hodge line), the form of FK11's condition. NOT chiral (an erratum): the 27 and 27̄ read alike, and the heterotic dictionary makes the matter vector-like. So an Euler characteristic of three, not three generations |
 | 12 | PROVED (two proofs) and COMPUTED (W21; the rule committed first, every control held before the read-out; the actual periods agree at three τ) | the hand by Hodge type, on the shared fibre at the common point: the holomorphic zero modes for the three parities, one each, span the weave's triplet T, irreducible and not equivalent to its conjugate; the antiholomorphic ones span T̄. T = μ ⊗ 3′, the holomorphic spin line times the cube's rotations at the common point. So the parities' three is chiral under the weave's group, with no end condition. It is NOT gauge-chiral (a qualification the same afternoon): the common point is self-conjugate, so matter in r and r̄ comes in equal numbers unless an end condition is chosen at the puncture (GENESIS GAP2). The flavor structure of three generations (the modular S₄ assignment), not their gauge chirality. The zero parity adds one singlet. The dictionary stays a reading (GENESIS FK11) |
+| 13 | PROVED and COMPUTED (W22, WEAVE) | the end condition at the puncture is the weave's: the moves' lifts generate 2O and act irreducibly on the two local solutions in every parity block, so the only conditions every move keeps give each block index +1 or −1. The parities' three is chiral (index ±3), its sign the orientation; the odd spin structure is the only one every move fixes. One thread alone leaves a line, so a vector-like condition exists there; on the weave it does not. GENESIS GAP2 closed for this operator up to the hand; row 12's qualification superseded. A six-dimensional chiral fermion carrying 𝕎 gives three chiral fermions, one per parity. Which fields carry 𝕎 is the dictionary: on the 2d fibre the E₈ frames give F-HE's (1, 3) or one 27, not complete generations (GENESIS FK11) |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -278,6 +279,18 @@ taken from the weave. Every link is named with its status.
       does not meet main's FK11 condition in its physical sense (GENESIS FK11).
     - Gauge chirality needs a bundle that is not self-conjugate, such as T itself on the weave's moduli, read by an
       orbifold index.
+- **W22: the end condition is the weave's** (the weave dossier; it supersedes the qualification just above).
+  - At the puncture the holonomy is −1, which is central. So each parity block has two local solutions, and a
+    chirality-keeping condition is a subspace of them, with index dim − 1.
+  - The moves' lifts generate 2O, irreducible on those two solutions in every block. So the only conditions every
+    move keeps give index +1 or −1 per block: ±3 in all, never 0.
+  - One thread alone leaves a line (its lift's eigenlines), so a vector-like condition exists on a thread. On the
+    weave it does not.
+  - **So the parities' three is chiral by the weave's symmetry, with its sign the orientation** (GENESIS GAP2 closed
+    for this operator up to the hand).
+  - What stays open: which fields carry the parity-twisted spin bundle, that is, the dictionary. On the
+    two-dimensional fibre the E₈ frames give F-HE's (1, 3) or one 27, so complete generations need a six-dimensional
+    frame (GENESIS FK11).
   - **What stays a reading:**
     - the dictionary, that holomorphic zero modes on the internal fibre are the left-handed matter (GENESIS FK11,
       I-26);
