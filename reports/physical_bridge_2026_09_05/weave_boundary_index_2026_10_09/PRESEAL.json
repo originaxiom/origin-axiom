@@ -1,0 +1,42 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/DESIGN.md",
+      "bytes": 4086,
+      "sha256": "23b373c3274ff6509d59b4bc179a71710286c072bcf14b5a6eb34cf1677a78bc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/PROOF.md",
+      "bytes": 9783,
+      "sha256": "bfda6878689b9ecd73a1ecbcbcc0d0c17364501f05612f94eaf0a44730806bd5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/probe.py",
+      "bytes": 5131,
+      "sha256": "8ef93ff0b2c287c89b03473ea7f6211b14bf916b419b93eea7a615b5ba5e4379"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/reference.py",
+      "bytes": 4297,
+      "sha256": "39b3f9f02a00568b210beabb37571e2cd5e4fd83b97b188127a98e2c14ebc02d"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_boundary_index.py",
+      "bytes": 3174,
+      "sha256": "f1da7caf87132b7d364735e59ceb39d7747c2acc7c2cfed03fb73a04af40bc42"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/INPUTS.json",
+      "bytes": 10407,
+      "sha256": "37d37591cff5a6513934a26a27383633ed1ae8d296aae6ea1e894cf4e829575e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/custody.rb",
+      "bytes": 4742,
+      "sha256": "088481e1facdcd44265b955d37304af47434aabbbcda97363b32ecc5d1a5fbbd"
+    }
+  ],
+  "scope": "Pre-execution compact boundary index proof and distinct winding controls; analytic result is not a full kernel census.",
+  "physical_goal_achieved": false,
+  "nonauthor_acceptance": false
+}
