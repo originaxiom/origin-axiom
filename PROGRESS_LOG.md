@@ -16742,3 +16742,24 @@ only as U's second column, never the τ row or the ν₃ column; |V_tb| = 1 at l
 but never mix, and the tick breaks the grading. Read by its mean, the tick gives the quark sector's leading-order shape
 (one heavy generation, |V_tb| ≈ 1), but only under T̄ ⊗ T, and not for the leptons. No number is fixed; the count stands.
 B320's refutation of ℤ/3-forced democracy is untouched: the rank one is the tick's mean, not its commutant. 0 of 19.
+
+## 2026-10-09 — REVIEW 62 (B1622): THE FLAVOUR WINDOW — twenty-nine merges since Review 61 (due; the block is at forty); fresh clone PASS at d85301ad; the loop: R61-1 paid, R61-2 at its second carry, R61-3/4/5 carried once; the headline: the window's one false line was the landing step's (S96's '0 failed', E87), and three slips caught before use (the four-element residual cells scoped; B1619's misread packet, E58; B1620's rank from noise, E85); Codeberg over its quota (R62-1, the owner's account)
+
+**The block** is `docs/progress/REVIEWS.md`, "Review 62"; its arc is B1622. The tools ran with `--fresh-clone`: PASS at
+`d85301ad`, gates all PASS, belt ok. 44 gates are named by a test and 44 have registered failing-path tests. The 12 seals
+were all made before their results; the one defect is the mirror. Provenance: 7 135 added lines, 0 hits. LAW_MAP +5,
+THEOREM_REGISTRY +0 (R62-6 queues the window's exhaustive statements); GENESIS v1.29 → v1.35.
+
+**Filed at the review:** an E85 instance (B1620's rank floor) and an E58 instance (B1619's headline), and six terms
+glossed (the parity grading, the clock, the tick, the mass tensor, the family dimension, a residual).
+
+**Sample read** (B1608, B1609, B1610, B1612, B1617): scope tags, locks, "Seen first" and "Disclosed" on all five, and
+every post-seal change on its page.
+
+**Action items:**
+- R62-1: the Codeberg mirror (the owner frees the quota; then main and the two lanes are pushed);
+- R62-2 to R62-5: carries (R62-2 at its second carry);
+- R62-6: the theorem rows;
+- R62-7: done.
+
+No promotion to the chain. 0 of 19.

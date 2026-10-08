@@ -566,3 +566,24 @@ v1.28 — the flavour three (alike, chiral under the weave's own group, one per 
 selection (B1606); and the principle's own tick a → ab, b → a carries one hand and erases the other while every move does
 the reverse, so neither hand is derived on the weave (B1607, GENESIS v1.29). **Derived parameters: 0 of 19.** Next: the
 even subweave, where both hands are global choices (B1609); the review's items R61-1 to R61-5.
+
+## ⟳ VIEW REFRESH — 2026-10-09 (Review 62)
+
+Touched at the Review 62 anchor (`d85301ad5`). **The window (B1608–B1621, 29 merges, two days) is the weave's flavour
+campaign, under the owner's reopening of value contact.**
+- The hands: the even subweave and the founding torsor (B1609, B1610). CP is the record swap, allowed and not forced
+  (B1611).
+- The weave's group fixes six mixing patterns, none in the data, and allows TM1 (falsifier P10: sin²θ₁₂ ≈ 0.318,
+  δ_CP ≈ 262.5° given θ₂₃; B1612, B1613).
+- No mass comes from the group (B1615, B1616). The owner's tagged postulate τ = ω gives degenerate masses at every weight
+  (B1617, B1618) and is retired as tested (GENESIS v1.35).
+- The owner restated the goal as the Standard Model's structure and how many free numbers the principle leaves. On every
+  one of the group's 68 subgroups, under three mass tensors, **the weave's symmetry reduces none of the 13 flavour
+  parameters**. Couplings in τ alone give only permutation mixing, so the observed mixing needs a vacuum that breaks the
+  parity grading (B1620).
+- The principle's own clock stays inside that grading. Its tick breaks it, and its mean gives only the quarks'
+  leading-order shape, under one tensor (B1621).
+- The derived structure is written for outside review (`docs/THE_DERIVED_STRUCTURE_FOR_REVIEW.md`).
+
+**Derived parameters: 0 of 19.** Next: the dynamics that chooses the vacuum (an energy on what the weave allows, or end
+data at the cusp), the seats' answers, and the review's items R62-1 to R62-6 (R62-1, the Codeberg quota, is the owner's).

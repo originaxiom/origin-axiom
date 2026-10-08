@@ -1,0 +1,25 @@
+{
+ "id": "B1622",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1608",
+  "B1619",
+  "B1620",
+  "B1621"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the review loop)",
+  "object": "the record's review loop, gates and lanes in the window B1608-B1621 (b7ce48c5c..d85301ad5, 29 merges)",
+  "reach": "general",
+  "hypotheses": "the tools' counts taken as given; the lanes' newest items read at headline level; the fresh clone run at the covered commit d85301ad, not at the review's own"
+ },
+ "claim_one_line": "REVIEW 62: THE FLAVOUR WINDOW. Twenty-nine merges since Review 61 (due; the block is at forty); fresh clone PASS at d85301ad; nine lanes registered, two behind on Codeberg because the remote refuses pushes over its storage quota (R62-1, the owner's account). The loop: R61-1 paid, R61-2 at its second carry, R61-3/4/5 carried once; the relay backlog 62 -> 72. The headline: the window's one false line was the landing step's (S96's '0 failed', E87), and three more slips were caught before use -- B1615/B1616's four-element residual cells scoped at the owner's weave condition, B1619's misread lane packet (E58, filed here), B1620's rank from rounding noise (E85, filed here). Twelve seals before results, post-seal changes all disclosed; LAW_MAP +5, THEOREM_REGISTRY +0 (R62-6), GENESIS v1.29 -> v1.35; six terms glossed; no promotion. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

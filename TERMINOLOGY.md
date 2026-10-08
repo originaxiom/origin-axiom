@@ -802,3 +802,22 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
 - **the two hands** — the records' orientation (T against T̄; reversed by the rule a → ab, b → a and by the swap, kept by
   every move) and the McKay orientation (ω against ω²; kept by the rule, inverted by every move); the double tick keeps
   both; neither is derived on the weave (B1607, GENESIS v1.29).
+
+## Added at Review 62 (2026-10-09) — the terms minted in the B1608–B1621 window
+
+- **the parity grading** — the action of the inner automorphisms (conjugation by a and by b) on the weave's triplet T:
+  diagonal in T's three parity lines, with the lines' characters (a, b) = (−, +), (+, −), (−, −) as entries. It fixes
+  every τ with automorphy factor 1, so a coupling that depends on τ alone keeps it, and then every mixing matrix is a
+  permutation (B1617, B1618, B1620).
+- **the clock** — the parity class (A_n, B_n) mod 2 of the n-letter prefix of the rule's fixed-point word. It acts on T
+  through the parity grading itself, so a coupling that reads it can split masses but never mix (B1620 part B, B1621).
+- **the tick** — σ² = LR, the rule's double step, as it acts on T: eigenvalues {1, ω, ω²}, cycling the parity lines.
+  It breaks the parity grading; its operator mean is the rank-one democratic matrix (B1621).
+- **the mass tensor** — the representation a mass term's flavour indices live in: T̄ ⊗ T (a left-handed field in T
+  paired with a right-handed one in T, B1615's reading), T ⊗ T (given Λ every left-handed field is in T, the SM seat's
+  W39), or Sym² T (E₆'s cubic with one 27 Higgs). A flavour statement names its tensor (B1620).
+- **the family dimension** — the real dimension of the set of mixing matrices a pair of residual subgroups allows: the
+  rank of the map from the pair's free couplings to the nine |V_ij|² and the Jarlskog J, with an absolute floor (B1620;
+  E85). The full mixing is 4.
+- **a residual (subgroup)** — a subgroup of the weave's group that a sector's mass term is taken to keep. Three distinct
+  masses need an abelian residual (B1620, A2).

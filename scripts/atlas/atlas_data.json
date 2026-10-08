@@ -11269,6 +11269,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1622": {
+   "slug": "review 62 the flavour window",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "S96",
+    "S97",
+    "S98"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B162": {
    "slug": "kappa sweep",
    "motifs": [

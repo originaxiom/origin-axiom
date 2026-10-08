@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1350** |
-| words of findings prose | **1,055,802** |
+| research arcs with findings | **1351** |
+| words of findings prose | **1,056,297** |
 | test lock files referenced | **794** |
-| arcs carrying an authored verdict | **1350** (100.0 %) |
+| arcs carrying an authored verdict | **1351** (100.0 %) |
 | recorded closures | **814** (647 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 910 |
+| PROVED | 911 |
 | NEGATIVE | 338 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1621`** (998 words, 1 locks)  
-THE PRINCIPLE'S CLOCK AND TICK ON THE MATTER (sealed bded4d62e): the clock (the word's parity) acts on T through the parity grading itself -- every clock-reading coupling is diagonal in the parity lines under every tensor, it can split masses but never mix, and its mean on T is zero; the tick sigma^2 = LR (eigenvalues 1, omega, omega^2) cycles the lines and breaks the grading, its operator mean is the rank-one democratic matrix -- one heavy generation per sector and no leading-order mixing between two such sectors, the quarks' leading-order shape, canonical only in T-bar(x)T -- while its means on the clock's forms give three equal masses under all three tensors; for the leptons its heavy line (1/3,1/3,1/3) fits only as U's second column, never the sole heaviest state. The principle's own data, read by their means, fix no number. 0 of 19.  
-`B1621_the_principles_clock_and_tick_on_the_matter/FINDINGS.md`
+**PROVED — `B1622`** (495 words, 0 locks)  
+REVIEW 62: THE FLAVOUR WINDOW. Twenty-nine merges since Review 61 (due; the block is at forty); fresh clone PASS at d85301ad; nine lanes registered, two behind on Codeberg because the remote refuses pushes over its storage quota (R62-1, the owner's account). The loop: R61-1 paid, R61-2 at its second carry, R61-3/4/5 carried once; the relay backlog 62 -> 72. The headline: the window's one false line was the landing step's (S96's '0 failed', E87), and three more slips were caught before use -- B1615/B1616's four-element residual cells scoped at the owner's weave condition, B1619's misread lane packet (E58, filed here), B1620's rank from rounding noise (E85, filed here). Twelve seals before results, post-seal changes all disclosed; LAW_MAP +5, THEOREM_REGISTRY +0 (R62-6), GENESIS v1.29 -> v1.35; six terms glossed; no promotion. 0 of 19.  
+`B1622_review_62_the_flavour_window/FINDINGS.md`
 
 **NEGATIVE — `B1617`** (642 words, 1 locks)  
 THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19.  

@@ -1,5 +1,26 @@
 # Changelog
 
+## REVIEW 62 (B1622): THE FLAVOUR WINDOW — twenty-nine merges since Review 61 (due; the block is at forty); fresh clone PASS at d85301ad; the loop: R61-1 paid, R61-2 at its second carry, R61-3/4/5 carried once; the headline: the window's one false line was the landing step's (S96's '0 failed', E87), and three slips caught before use (the four-element residual cells scoped; B1619's misread packet, E58; B1620's rank from noise, E85); Codeberg over its quota (R62-1, the owner's account)
+
+**The block** is `docs/progress/REVIEWS.md`, "Review 62"; its arc is B1622. The tools ran with `--fresh-clone`: PASS at
+`d85301ad`, gates all PASS, belt ok. 44 gates are named by a test and 44 have registered failing-path tests. The 12 seals
+were all made before their results; the one defect is the mirror. Provenance: 7 135 added lines, 0 hits. LAW_MAP +5,
+THEOREM_REGISTRY +0 (R62-6 queues the window's exhaustive statements); GENESIS v1.29 → v1.35.
+
+**Filed at the review:** an E85 instance (B1620's rank floor) and an E58 instance (B1619's headline), and six terms
+glossed (the parity grading, the clock, the tick, the mass tensor, the family dimension, a residual).
+
+**Sample read** (B1608, B1609, B1610, B1612, B1617): scope tags, locks, "Seen first" and "Disclosed" on all five, and
+every post-seal change on its page.
+
+**Action items:**
+- R62-1: the Codeberg mirror (the owner frees the quota; then main and the two lanes are pushed);
+- R62-2 to R62-5: carries (R62-2 at its second carry);
+- R62-6: the theorem rows;
+- R62-7: done.
+
+No promotion to the chain. 0 of 19.
+
 ## S100 THE PRINCIPLE'S CLOCK AND TICK ON THE MATTER (B1621, PROVED): the clock (the word's parity) stays inside the parity grading -- it splits masses, never mixes, its mean on the matter zero; the tick σ² = LR breaks the grading, its operator mean the rank-one democratic matrix (the quarks' leading-order shape, in T̄ ⊗ T only), its means on the clock's forms three equal masses under every tensor, its heavy line never the leptons' heaviest state; the principle's own data fix no number
 
 **B1621 (sealed `bded4d62e`; a reading: couplings that read the clock or the tick by their invariant means).** All

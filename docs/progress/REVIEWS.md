@@ -6059,9 +6059,154 @@ recommendation, reversibly, and the weave has since moved the question.
 ### Action items (Review 61)
 - [x] R61-1: **paid at S96 (B1619): 87 harvest rows and 37 relay rows, the harvest debt zero on every lane** — row the audit lane's 35 and the audit fork's 52 unrowed items at headline and verdict level in one harvest arc, newest first, before Review 62 (owner: cc; source: §1; carried from R60-2, itself the remainder of R58-4 after R59-3)
 - [>] R61-2: pay what main owes the SM seat — N₄₅'s ζ⁰ eigenspace, interior part, generic class (−1, −10), from scratch (the room at its sign characters is paid, B1494); the literature on Lemma F; the four literature checks (T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE, T-MASS-TERM) under the owner's rule of 2026-10-06 (owner: cc; source: §1; carried from R60-5, which absorbed R58-5)
-- [ ] R61-3: extend `seat-positive-verified` to a seat's dossier items — a main arc that rests on a seat's W-item names it (`rests_on_seat` accepts `sm:W21`-style ids) and the gate requires a HARVEST row marked VERIFIED for it; failing-path test and GATE_CONTROLS row (owner: cc; source: §3)
-- [ ] R61-4: the seal tool distinguishes a disclosed post-seal change (a page that names the changed file and keeps `sealed_run/`) from an undisclosed one, and reports only the latter as a defect (owner: cc; source: §3)
-- [ ] R61-5: a relay-closure pass with the SM seat at the next harvest — the 27 open rows to SM_AND_CODEX of the window closed where the seat's dossier answered them, and the seat's two open asks of main (its sign convention for Q; the explicit Λ₊) answered or declined (owner: cc; source: §8)
+- [>] R61-3: extend `seat-positive-verified` to a seat's dossier items — a main arc that rests on a seat's W-item names it (`rests_on_seat` accepts `sm:W21`-style ids) and the gate requires a HARVEST row marked VERIFIED for it; failing-path test and GATE_CONTROLS row (owner: cc; source: §3)
+- [>] R61-4: the seal tool distinguishes a disclosed post-seal change (a page that names the changed file and keeps `sealed_run/`) from an undisclosed one, and reports only the latter as a defect (owner: cc; source: §3)
+- [>] R61-5: a relay-closure pass with the SM seat at the next harvest — the 27 open rows to SM_AND_CODEX of the window closed where the seat's dossier answered them, and the seat's two open asks of main (its sign convention for Q; the explicit Λ₊) answered or declined (owner: cc; source: §8)
 - [x] R61-6: E85 and E86 filed in ERROR_LEDGER with their standing rules; the window's eight load-bearing terms glossed in TERMINOLOGY (this review)
 
 **anchor-commit: `b7ce48c5c`**
+
+# Review 62 (2026-10-09) — the flavour window: the weave's symmetry counted on every subgroup, and the one false line the landing step wrote
+
+Twenty-nine merges since Review 61 against a period of twenty: due, not yet blocking (the block is at forty). Written
+after S100 and before the next seal. The window has 29 first-parent commits (`b7ce48c5c..d85301ad5`) and 14 arcs with a
+verdict, B1608–B1621.
+
+**What the window did.** The weave's flavour campaign, under the owner's reopening of value contact (2026-10-08):
+- the hands (B1609, B1610) and CP as the swap (B1611);
+- the mixing patterns the weave fixes, none in the data (B1612), and TM1's forward prediction, falsifier P10 (B1613);
+- the observer layer on the weave (B1614);
+- the couplings, the neutrino masses, τ = ω and the weighted cell: no value from the weave's symmetry (B1615–B1618);
+- the codex lanes rowed (B1619);
+- after the owner's restatement of the goal (structure plus how many free numbers): every subgroup under three mass
+  tensors, the weave reducing none of the 13 (B1620), and the principle's clock and tick (B1621).
+
+GENESIS moved v1.29 → v1.35. τ = ω was tagged and then retired as tested. The write-up for outside review is on main.
+All three core lines below are the tools' output (`scripts/review/review_tools.py`, `--json` and `--fresh-clone`).
+
+**fresh-clone: PASS @ d85301ad** (gates all PASS; belt ok) · **sample seed: b7ce48c5c**; to be read in full: B1608, B1609, B1610, B1612, B1617 ·
+**gate controls: 44 registered** failing-path tests; unregistered: none.
+
+## 1. The loop (Review 61's block, closed or carried)
+
+Review 61's six items:
+- **Paid:** R61-1 at S96 (B1619: 87 harvest rows and 37 relay rows, the debt zero), and R61-6 at the review itself.
+- **R61-2** (what main owes the SM seat: N₄₅'s generic class from scratch, Lemma F's literature, the four checks) was
+  not touched. The window was the flavour campaign. Carried as R62-2, **its second carry** (R60-5 → R61-2 → R62-2).
+  At the next review it is resolved, declined with a reason, or waived.
+- **R61-3** (seat-positive-verified for dossier items) and **R61-4** (the seal tool telling disclosed post-seal changes
+  from undisclosed ones) were not touched; first carry, as R62-3 and R62-4.
+- **R61-5** (the relay-closure pass) got worse: outbound open relays went 62 → 72, because main wrote to the seats at
+  every landing and the seats answer in their dossiers, not by closing rows. First carry, as R62-5.
+
+## 2. The branch inventory (B763 rule)
+
+Nine unmerged leaves, all registered. **Two are out of step on the mirror:** the SM-derivation lane (3 commits) and the
+audit lane (2) are behind on Codeberg. **Since the evening of 2026-10-08, Codeberg refuses every push with "Forgejo:
+Quota exceeded".** Main on Codeberg stops at S98 (`014561417`); S99, B1621's seal and S100 are on origin only. That is
+the owner's account to resolve; nothing on the remote was deleted (R62-1). The lanes moved in the window: the SM seat
+to `e077e4ba0` (W30–W41, its verifications of main's B1615–B1617) and the audit lane to `c8c910a77` (the physical
+four-Weyl packet); both are rowed (1049–1056).
+
+## 3. Protocol integrity — the headline
+
+**The window's one false line was written by the landing step, not by an arc.** S96's suite printed "1 failed, 7226
+passed, 68 skipped". The landing script's pattern read the summary without its optional failure field and wrote
+"0 failed", and S96 was pushed with that line. The failure itself was a lock pinning a harvest pin that B1619 moved (an
+E86 instance). It was caught minutes later on reading the raw summary, and S97 corrected the line and repaired the lock.
+**E87 was filed with its standing rule: each count read by its own keyword, and every landing gated on the suite's exit
+status. Every landing since has been certified that way (S97–S100).**
+
+Three more things were wrong and were caught before anything was built on them:
+- **The owner's condition** "not conclusions on threads alone but in whole weave" found that B1615's and B1616's
+  residual-vacuum cells tested four chosen elements, not every subgroup. Both were scoped by dated addenda, and B1620
+  then took every subgroup.
+- **B1619 wrote that the audit lane's two-neutral test was "sealed and unrun"** when it had been executed. The codex
+  caught it, and an addendum corrects it. It is filed at this review as an **E58 instance**: the packet was judged from
+  its design and seal files, not its findings.
+- **B1620's post-seal rank function counted rounding noise as rank.** Its own control caught it (permutation patterns
+  reporting dimension 2), and every post-seal run was repeated with an absolute floor. Filed at this review as an
+  **E85 instance**.
+
+**Seals.** Twelve in the window, every one sealed before its results. The tools' one "defect" is B1621's seal missing
+from Codeberg, which is the quota, not the seal. The post-seal changes are each disclosed on their page:
+- B1609 computed the 78's sectors after the seal;
+- B1612 deviated in its data source (nu-fit.org's certificate had expired, so NuFIT 6.0 from the arXiv table);
+- B1618 gained its odd-weight addendum;
+- B1620 has three post-seal checks.
+
+The seal tool still cannot tell a disclosed change from an undisclosed one (R62-4).
+
+## 4. Provenance spot-sweep
+
+7 135 added lines scanned, 0 hits, 0 in public-facing files. The write-up for outside review
+(`docs/THE_DERIVED_STRUCTURE_FOR_REVIEW.md`) claims no outside verification. It asks for it, and sending it is the
+owner's decision.
+
+## 5. Advancement, errors, vocabulary
+
+- **Tables.** LAW_MAP +5 rows (S93's rows for B1606, B1609–B1610 and the window's structure); THEOREM_REGISTRY +0. The
+  window's exhaustive statements are candidates for the registry, not yet filed (R62-6):
+  - on every subgroup and under three tensors, the weave's symmetry reduces none of the 13 (B1620);
+  - couplings in τ alone give permutation mixing (B1620);
+  - the clock acts within the parity grading (B1621).
+- **GENESIS** went v1.29 → v1.35 in six amendments, each by an adoption script with `--check`.
+- **Errors.**
+  - **E87 the MISPARSED VERDICT LINE** was filed at S97.
+  - Instances in the window: E82 (B1610's self-conjugate detector) and E86 (B1467's pin).
+  - Filed at this review: E85 (B1620's rank floor) and E58 (B1619's headline).
+- **Vocabulary.** The tools' candidates ("weave sealed", "weave allows") are phrases. Six load-bearing terms of the
+  window are glossed under "Added at Review 62": the parity grading, the clock, the tick, the mass tensor, the family
+  dimension, a residual.
+
+## 6. The chain gap, adjudicated
+
+805 of the record's arcs are on a synthesis surface and not in the chain. The top by surface degree: B1098 (8), B959,
+B1100, B952 (7), B1086, B1000, B1484, B1070 (6). **No promotion this review**, for the reason of Reviews 59–61. The
+window's candidates are B1620's count and B1621's two data. They go to the claim pool through R62-6.
+
+## 7. The sample, read
+
+Five arcs drawn by the anchor. On all five the verdict carries the scope tag, a lock exists and ran in the window's
+suites, and "Seen first" and "Disclosed" are present.
+- **B1608** (PROVED, a process arc): Review 61 itself. It has no preregistration by construction.
+- **B1609** (PROVED, weave, sealed): the even subweave. The 78's sectors were computed after the seal, disclosed, and the
+  sealed run is kept.
+- **B1610** (NEGATIVE, weave, sealed): the hands on the founding torsor. Its sealed detector's spectrum was its own
+  conjugate (E82). The headline was refuted, the mechanism corrected, and both are on the page.
+- **B1612** (PROVED, weave, sealed): the mixing patterns. The data-source deviation and two post-seal computations are
+  disclosed.
+- **B1617** (NEGATIVE, weave, sealed): the weave at τ = ω under the owner's tagged postulate. B1618 and its addendum
+  closed the weights, and the postulate was retired as tested at S99.
+
+One of the five needed a correction after its seal, and it carries it.
+
+## 8. Harvest and relays
+
+**Harvest:** rows 941–1056 in the window. These cover the SM seat's W30–W41; the audit lane's 35 and the audit fork's
+52 items (B1619); and the audit lane's physical four-Weyl packet and its currency repair. The harvest debt is zero on
+every lane.
+
+**Relays:** 72 outbound open, 21 inbound open, 465 banked, 38 declined. The SM seat answered main's S93–S95 relays in
+its dossier (W38 and W40 verify B1615–B1617 with its own code), but the rows stay open until the closure pass (R62-5).
+
+## 9. What this review cannot say
+
+- It did not re-read the merged commits line by line. It ran the suite at every landing of the window (S88–S100) and
+  once in a fresh clone at `d85301ad`.
+- Its sample is five of fourteen, all by the reviewer.
+- It read the lanes' newest items at headline level, except where main built on them. W39's tensor reading was taken
+  up and computed in B1620; the seat's verifications of main (W38, W40) were read, not re-run.
+- It cannot say when the Codeberg mirror will be whole again.
+- It cannot say whether the owner will send the write-up, or to whom.
+
+### Action items (Review 62)
+- [ ] R62-1: restore the Codeberg mirror — the owner frees space or raises the quota on the account; then main pushes main (S99, B1621's seal, S100 and after) and mirrors the SM and audit lanes (owner: the owner, then cc; source: §2)
+- [>] R62-2: pay what main owes the SM seat — N₄₅'s ζ⁰ eigenspace, interior part, generic class (−1, −10), from scratch; the literature on Lemma F; the four literature checks (T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE, T-MASS-TERM) — **second carry; at the next review resolved, declined with its reason, or waived** (owner: cc; source: §1; carried from R61-2, itself from R60-5, which absorbed R58-5)
+- [>] R62-3: extend `seat-positive-verified` to a seat's dossier items (`rests_on_seat` accepts `sm:W21`-style ids; the gate requires a HARVEST row marked VERIFIED); failing-path test and GATE_CONTROLS row (owner: cc; source: §1; carried from R61-3)
+- [>] R62-4: the seal tool distinguishes a disclosed post-seal change (the page names the changed file and keeps its sealed run) from an undisclosed one, and reports only the latter (owner: cc; source: §3; carried from R61-4)
+- [>] R62-5: the relay-closure pass — close the outbound rows to the SM seat that its dossier answered (W38–W41 answer S93–S95; the rest by reading each), and the open asks of main answered or declined (owner: cc; source: §8; carried from R61-5)
+- [ ] R62-6: file the window's exhaustive statements in THEOREM_REGISTRY with their cards — the weave's symmetry reduces none of the 13 on every subgroup under three tensors (B1620); τ-only couplings give permutation mixing (B1620); the clock acts within the parity grading (B1621) (owner: cc; source: §5)
+- [x] R62-7: the E85 instance (B1620's rank floor) and the E58 instance (B1619's headline) filed in ERROR_LEDGER; six terms glossed in TERMINOLOGY (this review)
+
+**anchor-commit: `d85301ad5`**

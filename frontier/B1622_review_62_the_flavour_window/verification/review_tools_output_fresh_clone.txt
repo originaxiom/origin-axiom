@@ -1,0 +1,36 @@
+window b7ce48c5c..d85301ad5: 29 commits (29 on the first-parent line), 14 arcs with a verdict (B1608 … B1621)
+remotes: mirrors ['origin', 'codeberg']; missing mirrors none; other remotes not read: ['golden_gate']
+loop: Review 61 block -- open ['R61-3', 'R61-4', 'R61-5']; carried 1 (oldest: [('R61-2', 1)]); open items left in superseded blocks: none
+branches: 9 unmerged leaves; unregistered: none; on one remote only: none; remotes out of step: ['physical-bridge-2026-09-05', 'standard-model-derivation-0qt6ao']
+   fork-2026-09-20                          +262  tip 2026-10-04  registered
+   kind-hypatia-uk0vv9                      +1  tip 2026-10-06  registered
+   outside-bench                            +14  tip 2026-09-18  registered
+   paper-review-verification-kaz3f5         +22  tip 2026-10-01  registered
+   physical-bridge-2026-09-05               +330  tip 2026-10-08  registered
+   project-thread-hctlox                    +3  tip 2026-10-06  registered
+   sep16-branch                             +98  tip 2026-09-29  registered
+   standard-model-derivation-0qt6ao         +427  tip 2026-10-08  registered
+   web-seat                                 +14  tip 2026-10-06  registered
+seals: 12 in the window; with defects: 1
+   B1609_the_even_subweave                              6/6 hashes, sealed before results
+   B1610_the_hands_on_the_founding_torsor               3/3 hashes, sealed before results
+   B1611_is_cp_violation_forced_on_the_weave            5/5 hashes, sealed before results
+   B1612_the_mixing_patterns_the_weave_fixes            7/7 hashes, sealed before results
+   B1613_tm1s_forward_prediction                        2/2 hashes, sealed before results
+   B1614_the_observer_layer_on_the_weave                2/2 hashes, sealed before results
+   B1615_the_couplings_the_weave_allows                 4/4 hashes, sealed before results
+   B1616_the_neutrino_masses_on_the_weave               2/2 hashes, sealed before results
+   B1617_the_weave_at_tau_omega                         2/2 hashes, sealed before results
+   B1618_the_weighted_cell_at_omega                     4/4 hashes, sealed before results
+   B1620_the_breaking_the_weave_allows                  8/8 hashes, sealed before results
+   B1621_the_principles_clock_and_tick_on_the_matter    2/2 hashes, sealed before results  DEFECTS: seal not on every remote
+provenance: 7135 added lines scanned, 0 hits, 0 in public-facing files
+advancement: LAW_MAP +5 rows, THEOREM_REGISTRY +0 rows
+errors: new classes ['E85', 'E86', 'E87']; instances {'E82': 1, 'E86': 1}
+new vocabulary (word pairs in >= 3 of the window's claims and in none before) not in TERMINOLOGY.md: weave sealed, weave allows
+gates: 44 named by a test; not named by any: none
+gate controls: 44 registered failing-path tests; unregistered: none
+fresh-clone: PASS @ d85301ad (gates all PASS; belt ok)
+relays open: outbound 72 {'CLOUD_CODEX': 3, 'ALL_SEATS': 3, 'CODEX': 17, 'SM': 8, 'CODEX_AND_SM': 3, 'SM_AND_CODEX': 37, 'LP': 1}; inbound 21 {'CC3': 3, 'README': 1, 'HANDOFF': 3, 'LINEAGE': 1, 'RETURN': 1, 'CODEX': 6, 'SM': 5, 'CHAT1': 1}; declined 38; banked 465
+chain gap (the review adjudicates the top; promotions are pinned in docs/CHAIN_COVERAGE.json): 805 of the record's arcs on a surface and not in the chain; top: B1098 (8), B959 (7), B1100 (7), B952 (7), B1086 (6), B1000 (6), B1484 (6), B1070 (6)
+sample seed: b7ce48c5c; to be read in full (seeded by the anchor): B1608, B1609, B1610, B1612, B1617
