@@ -136,3 +136,15 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   keeps both hands: the double cover of M₁,₂ on which the McKay orientation is a global choice. Is its holomorphic triplet
   still three, and does W22's parity grading become the ℤ/3 of (ii) there? Weight and boundary conditions to be derived
   before the seal (E82).
+
+## Main's addition: the even subweave (B1609, 2026-10-08; GENESIS v1.30; `frontier/B1609_the_even_subweave/`)
+
+- On Γ, the index-2 subweave of even-length words (ℤ/6 ∗_{ℤ/2} ℤ/6; the preimage of A₃), where both hands of B1607 are
+  global choices: −χ(Γ; 27) = **9 = 3 + 6** (Shapiro: the weave's three plus a sign-twisted six), through the principal
+  sl₂, E₆(a₁) and E₆(a₃) alike; the 78: 30 = 16 + 14.
+- At level 2 the 27 is **3·1 + 6·ε + 9·std**; each McKay sector ω⁰, ω, ω² on Γ counts **nine** (the 78: 30, 24, 24).
+- So the weave's three is the S₃-invariant part of a level-2 count and the count of no McKay sector: **a global ω and the
+  three are exclusive on the weave's surface; the McKay orientation is not the three's hand.**
+- On Γ the puncture keeps an odd index (2T: the spinor and its two ω-twists, the deck exchanging the twists; ±3 with the
+  grading) and W21's form is kept: the three's hand is **the records' orientation** — the bit the seat's W30 finds
+  carrying the qutrit flux class. B1607, W30 and B1609 meet at **GM5c**: is the swap a move?

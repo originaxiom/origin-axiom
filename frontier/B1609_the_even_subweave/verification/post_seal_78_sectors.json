@@ -1,0 +1,30 @@
+{
+ "E6 (principal)": {
+  "omega^0": 9,
+  "omega": 9,
+  "omega^2": 9,
+  "level2": 27,
+  "std_sector_on_SL": 9
+ },
+ "E6(a1)": {
+  "omega^0": 9,
+  "omega": 9,
+  "omega^2": 9,
+  "level2": 27,
+  "std_sector_on_SL": 9
+ },
+ "E6(a3)": {
+  "omega^0": 9,
+  "omega": 9,
+  "omega^2": 9,
+  "level2": 27,
+  "std_sector_on_SL": 9
+ },
+ "78 through the principal sl2": {
+  "omega^0": 30,
+  "omega": 24,
+  "omega^2": 24,
+  "level2": 78,
+  "std_sector_on_SL": 24
+ }
+}

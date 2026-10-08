@@ -1,0 +1,25 @@
+{
+ "id": "B1609",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1607",
+  "B1606",
+  "B1600",
+  "B1256"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave: the even subweave Gamma (even-length words; the preimage of A_3) where both hands of B1607 are global choices; E6's 27 and 78 through the three distinguished sl2's; the six local solutions at the puncture (B1606's model)",
+  "object": "integer Euler characteristics of SL(2, Z), Gamma and Gamma(2) with coefficients (amalgams and Shapiro's lemma); the group of the lifts of even words on C^6",
+  "reach": "general",
+  "hypotheses": "the counts over the even subgroup of Aut+(F2) equal Gamma's because the fibre terms are odd under -I (as at B1600); B1606's model of the six local solutions; the seat's W30 (registered, row 946) is read, not verified, and the reading's link to it is stated, not computed"
+ },
+ "claim_one_line": "THE EVEN SUBWEAVE (sealed f8b9a8fea / ab418b74; the instrument repaired after a floating-point crash, disclosed): on Gamma = Z/6 *_{Z/2} Z/6, the subweave where both hands are global choices, -chi(Gamma; 27) = 9 = 3 + 6 (Shapiro: the weave's three plus a sign-twisted six) through the principal sl2, E6(a1) and E6(a3) alike, the 78 30 = 16 + 14; at level 2 the 27 is 3.1 + 6.eps + 9.std and every McKay sector on Gamma counts nine (the 78: 30, 24, 24). So the weave's three is the S3-invariant part of a level-2 count and the count of no McKay sector: a global omega and the three are exclusive on the weave's surface, and the McKay orientation (27 against 27-bar) cannot be the three's hand. On Gamma the puncture keeps an odd index (2T: the spinor and its two omega-twists, the deck exchanging the twists; +-3 with the grading) and W21's form is kept, so the three's hand is the records' orientation -- the bit that also carries the qutrit flux class (the SM seat's W30). B1607, W30 and B1609 meet at GM5c. GENESIS v1.30. 0 of 19.",
+ "weave_or_thread": "weave"
+}

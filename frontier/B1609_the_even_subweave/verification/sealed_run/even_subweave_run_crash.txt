@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+    controls() if "--controls" in sys.argv else cells()
+                                                ^^^^^^^
+    E3["Z3_sectors_on_Gamma"] = {"omega^0": -sum(chi_Gamma(k) for k in (16, 8, 0)), "omega": -sum(chi_Gamma(k, "omega") for k in (16, 8, 0)), "omega^2": -sum(chi_Gamma(k, "omega2") for k in (16, 8, 0))}
+                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    E3["Z3_sectors_on_Gamma"] = {"omega^0": -sum(chi_Gamma(k) for k in (16, 8, 0)), "omega": -sum(chi_Gamma(k, "omega") for k in (16, 8, 0)), "omega^2": -sum(chi_Gamma(k, "omega2") for k in (16, 8, 0))}
+                                                                                                  ^^^^^^^^^^^^^^^^^^^^^
+    return fixed_dim(module("U", k, twist)) + fixed_dim(module("SUS", k, twist)) - fixed_dim(module("MI", k, twist))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    o = order_of(A)
+        ^^^^^^^^^^^
+    if o > 100: raise RuntimeError("order")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: order
+python3 even_subweave.py  9.01s user 0.24s system 92% cpu 9.959 total

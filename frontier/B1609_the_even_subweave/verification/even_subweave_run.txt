@@ -1,0 +1,175 @@
+{
+ "E1": {
+  "chi_SL": {
+   "0": 1,
+   "2": -1,
+   "4": -1,
+   "6": -1,
+   "8": -1,
+   "10": -3,
+   "12": -1,
+   "14": -3,
+   "16": -3,
+   "18": -3,
+   "20": -3,
+   "22": -5
+  },
+  "chi_SL_eps": {
+   "0": 0,
+   "2": 0,
+   "4": -2,
+   "6": 0,
+   "8": -2,
+   "10": -2,
+   "12": -2,
+   "14": -2,
+   "16": -4,
+   "18": -2,
+   "20": -4,
+   "22": -4
+  },
+  "chi_Gamma": {
+   "0": 1,
+   "2": -1,
+   "4": -3,
+   "6": -1,
+   "8": -3,
+   "10": -5,
+   "12": -3,
+   "14": -5,
+   "16": -7,
+   "18": -5,
+   "20": -7,
+   "22": -9
+  },
+  "shapiro_holds": true,
+  "orders": {
+   "S": 4,
+   "U": 6,
+   "SUS": 6
+  }
+ },
+ "E2": {
+  "minus_chi_SL": {
+   "E6 (principal)": 3,
+   "E6(a1)": 3,
+   "E6(a3)": 3,
+   "78 through the principal sl2": 16
+  },
+  "minus_chi_Gamma": {
+   "E6 (principal)": 9,
+   "E6(a1)": 9,
+   "E6(a3)": 9,
+   "78 through the principal sl2": 30
+  },
+  "minus_chi_SL_eps_twisted": {
+   "E6 (principal)": 6,
+   "E6(a1)": 6,
+   "E6(a3)": 6,
+   "78 through the principal sl2": 14
+  }
+ },
+ "E3": {
+  "chi_Gamma2": {
+   "0": -1,
+   "2": -3,
+   "4": -5,
+   "6": -7,
+   "8": -9,
+   "10": -11,
+   "12": -13,
+   "14": -15,
+   "16": -17,
+   "18": -19,
+   "20": -21,
+   "22": -23
+  },
+  "chi_SL_std": {
+   "0": -1,
+   "2": -1,
+   "4": -1,
+   "6": -3,
+   "8": -3,
+   "10": -3,
+   "12": -5,
+   "14": -5,
+   "16": -5,
+   "18": -7,
+   "20": -7,
+   "22": -7
+  },
+  "shapiro_level2_holds": true,
+  "level2_count_27": 27,
+  "S3_decomposition_of_27": {
+   "trivial": 3,
+   "sign": 6,
+   "std (times 2)": 9
+  },
+  "Z3_sectors_on_Gamma": {
+   "omega^0": 9,
+   "omega": 9,
+   "omega^2": 9
+  },
+  "omega_sector_equals_std_sector": true,
+  "sectors_sum_to_level2_count": true
+ },
+ "E4": {
+  "order_full": 48,
+  "order_even": 24,
+  "commutant_even": 3,
+  "isotypic_dimensions": [
+   2,
+   2,
+   2
+  ],
+  "kept_dimensions": [
+   0,
+   2,
+   4,
+   6
+  ],
+  "kept_indices": [
+   -3,
+   -1,
+   1,
+   3
+  ],
+  "minus_one_in_even_group": true,
+  "LR_lift_order": 6,
+  "LR_eigenvalues_on_pieces": [
+   [
+    "(0.5-0.866025j)",
+    "(0.5+0.866025j)"
+   ],
+   [
+    "(-1+0j)",
+    "(0.5-0.866025j)"
+   ],
+   [
+    "(-1+0j)",
+    "(0.5+0.866025j)"
+   ]
+  ],
+  "deck_L_maps_pieces_to": [
+   0,
+   2,
+   1
+  ],
+  "even_and_grading": {
+   "order": 96,
+   "commutant": 1,
+   "isotypic_dimensions": [
+    6
+   ],
+   "kept_dimensions": [
+    0,
+    6
+   ],
+   "kept_indices": [
+    -3,
+    3
+   ]
+  }
+ }
+}
+python3 even_subweave.py  19.40s user 0.40s system 141% cpu 13.978 total
