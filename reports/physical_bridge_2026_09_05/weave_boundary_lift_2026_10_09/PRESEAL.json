@@ -1,0 +1,42 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/DESIGN.md",
+      "bytes": 3749,
+      "sha256": "ec90035af6efc79ee21436120d8be13bd6df71453a4a11f65741b4c4e86af74e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/PROOF.md",
+      "bytes": 7741,
+      "sha256": "bb61e6692d221e43a376477f9e901fccc0716686ef9833634e8a342eab9f5060"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/INPUTS.json",
+      "bytes": 8774,
+      "sha256": "ba368b0fc0b8ab121fc59b78b9ebd8bc56d9a4d37c7c0a7fd10da16b48e61509"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/probe.py",
+      "bytes": 5798,
+      "sha256": "dd5e6d51edd1119b468ce1448e26b658dda5530b5932aba84fa8ed016f9f1cbc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/reference.py",
+      "bytes": 4193,
+      "sha256": "5f042e3586f2f6b08c2a828064e5ae2ec77104afd509feb02f720ed5f07e3d31"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/custody.rb",
+      "bytes": 4741,
+      "sha256": "aa700a536a46838ef30724ce2020fb1ab6c0cb1df63a9be5f9eda285b8989e3c"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_boundary_lift.py",
+      "bytes": 2785,
+      "sha256": "01682c12075c35aa35f90e2fb32005209eca31c9236ee05e4d7bcf0642e33454"
+    }
+  ],
+  "scope": "Pre-execution; full angular kinetic boundary test with inherited sources and explicit supplied comparator.",
+  "physical_goal_achieved": false,
+  "nonauthor_acceptance": false
+}
