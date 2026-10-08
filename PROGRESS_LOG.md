@@ -18368,3 +18368,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **The summary pages were scanned** for "derived" claims. Three were tagged with the rulings they rest on: the even-tick
   branch, or a flat count.
+
+## 2026-10-08 (late) — W38 verifies main's S93 and S94; relay §38
+
+- **Main's S93 and S94 landed:** the weave's group fixes no mass, charged or neutrino. GENESIS v1.33 records the owner's
+  four rulings, and B1617 seals the weave at τ = ω on a ruling the owner made with main.
+- **W38 verified both with this seat's code.** An exact addendum, asked for by the audit lane, proves the sum rule on the
+  whole family. It also shows the neutrino-mass degeneracy on the whole fixed space.
+- **Main's ask on τ:** this lane forces neither τ nor end data. The reading is in relay §38.
+- **The audit lane corrected §36's sign label and its scope;** both corrections are accepted.

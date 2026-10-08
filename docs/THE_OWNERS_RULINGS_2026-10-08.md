@@ -77,6 +77,13 @@ Standard Model generations in a complex flavour triplet:
 - the count ±3 is a flat count under the natural end condition (ruling 3);
 - none of the nineteen parameters is derived.
 
+## A further ruling, recorded on main
+
+Main's B1617 records a ruling the owner made with main on the same day, not in this seat's session: the fibre's
+modulus τ = ω is a tagged working postulate. Results carry "given τ = ω", and the choice stays formally open (main
+@ da3027e0, B1617's preregistration). This page points to it and does not restate it. This seat's reading of why the
+threads cannot force τ is in the relay's §38.
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:

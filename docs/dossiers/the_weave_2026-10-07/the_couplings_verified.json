@@ -1,0 +1,278 @@
+{
+ "status": "VERIFICATION of main's B1615 and B1616 (read first), with this seat's code",
+ "the group's order on T": 96,
+ "invariant dimensions (characters)": {
+  "T (x) T-bar": 1.0,
+  "T (x) T": 0.0,
+  "Sym^2 T": 0.0,
+  "Lambda^2 T": 0.0,
+  "T (x) T (x) T": 0.0,
+  "T (x) T (x) T-bar": 0.0
+ },
+ "Dirac (T-bar (x) T = End T)": {
+  "commutant dimension": 4,
+  "piece dimensions": [
+   1,
+   2,
+   3,
+   3
+  ],
+  "fixed vacua": [
+   {
+    "piece dimension": 1,
+    "residual": "L",
+    "fixed dimension": 1,
+    "spectrum": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 1,
+    "residual": "R",
+    "fixed dimension": 1,
+    "spectrum": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 1,
+    "residual": "RL",
+    "fixed dimension": 1,
+    "spectrum": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 1,
+    "residual": "RRL",
+    "fixed dimension": 1,
+    "spectrum": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 2,
+    "residual": "L",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.5,
+     0.5,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 2,
+    "residual": "R",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.5,
+     0.5,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 2,
+    "residual": "RL",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 2,
+    "residual": "RRL",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.5,
+     0.5,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 3,
+    "residual": "L",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 3,
+    "residual": "R",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 3,
+    "residual": "RL",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.5,
+     0.5,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 3,
+    "residual": "RRL",
+    "fixed dimension": 2,
+    "family: max |m1 + m2 - m3| / m3 over 4000 samples": 2.89e-15,
+    "family: m1/m3 sampled range": [
+     0.0001,
+     0.4999
+    ]
+   },
+   {
+    "piece dimension": 3,
+    "residual": "L",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 3,
+    "residual": "R",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 3,
+    "residual": "RL",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 3,
+    "residual": "RRL",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "the singlet Higgs's spectrum": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "Majorana (Sym^2 T)": {
+  "Sym^2 T: commutant dimension": 3,
+  "Sym^2 T: piece dimensions": [
+   1,
+   2,
+   3
+  ],
+  "Lambda^2 T: commutant dimension (1 = irreducible)": 1,
+  "fixed vacua": [
+   {
+    "piece dimension": 1,
+    "residual": "L",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 1,
+    "residual": "R",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 1,
+    "residual": "RL",
+    "fixed dimension": 1,
+    "spectrum": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 1,
+    "residual": "RRL",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 2,
+    "residual": "L",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 2,
+    "residual": "R",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 2,
+    "residual": "RL",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 2,
+    "residual": "RRL",
+    "fixed dimension": 0
+   },
+   {
+    "piece dimension": 3,
+    "residual": "L",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 3,
+    "residual": "R",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 3,
+    "residual": "RL",
+    "fixed dimension": 1,
+    "spectrum": [
+     0.5,
+     0.5,
+     1.0
+    ]
+   },
+   {
+    "piece dimension": 3,
+    "residual": "RRL",
+    "fixed dimension": 0
+   }
+  ]
+ },
+ "RL has three distinct eigenvalues on T": true,
+ "checks": {
+  "order 96": true,
+  "(T (x) T-bar)^G = 1; T (x) T, Sym^2, Lambda^2, T (x) T (x) T, T (x) T (x) T-bar have none": true,
+  "T-bar (x) T = 3 + 3 + 2 + 1, each once": true,
+  "a singlet Higgs gives (1, 1, 1)": true,
+  "rigid Dirac spectra are (0, 1, 1) and (1/2, 1/2, 1)": true,
+  "along RRL one triplet has a two-dimensional family with m1 + m2 = m3": true,
+  "Sym^2 T = 1 + 2 + 3; Lambda^2 T irreducible": true,
+  "along RRL no Majorana vacuum is fixed": true,
+  "rigid Majorana spectra are (1, 1, 1), (1/2, 1/2, 1), (0, 1, 1)": true,
+  "RL has three distinct eigenvalues": true
+ },
+ "every check holds": true
+}

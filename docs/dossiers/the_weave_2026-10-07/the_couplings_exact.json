@@ -1,0 +1,287 @@
+{
+ "status": "POST HOC exact addendum to W38 (a verification of main's B1615 and B1616, not blind), answering the audit lane's two verification requests",
+ "G's order on T": 96,
+ "PGL(T) image: order and element orders": {
+  "order": 24,
+  "orders": {
+   "1": 1,
+   "2": 9,
+   "3": 8,
+   "4": 6
+  }
+ },
+ "every element is c(g) S(g) in the Klein axes' basis (all 96)": true,
+ "c and S are homomorphisms (checked on the projective group)": true,
+ "the residual elements": {
+  "L": {
+   "c = exp(2 pi i k/24), k": 21,
+   "S": "[[1, 0, 0], [0, 0, -1], [0, 1, 0]]",
+   "S's order": 4
+  },
+  "R": {
+   "c = exp(2 pi i k/24), k": 3,
+   "S": "[[0, -1, 0], [1, 0, 0], [0, 0, 1]]",
+   "S's order": 4
+  },
+  "RL": {
+   "c = exp(2 pi i k/24), k": 0,
+   "S": "[[0, 0, 1], [1, 0, 0], [0, 1, 0]]",
+   "S's order": 3
+  },
+  "RRL": {
+   "c = exp(2 pi i k/24), k": 3,
+   "S": "[[-1, 0, 0], [0, 0, 1], [0, 1, 0]]",
+   "S's order": 2
+  }
+ },
+ "End(T)'s four pieces invariant under every residual": true,
+ "Dirac: each piece's fixed vacua (exact)": [
+  {
+   "residual": "L",
+   "piece": "1 (the identity)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "residual": "L",
+   "piece": "2 (traceless diagonal)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "1/2",
+    "1/2",
+    "1"
+   ]
+  },
+  {
+   "residual": "L",
+   "piece": "3 (off-diagonal symmetric)",
+   "fixed dimension": 0
+  },
+  {
+   "residual": "L",
+   "piece": "3' (antisymmetric)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "0",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "residual": "R",
+   "piece": "1 (the identity)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "residual": "R",
+   "piece": "2 (traceless diagonal)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "1/2",
+    "1/2",
+    "1"
+   ]
+  },
+  {
+   "residual": "R",
+   "piece": "3 (off-diagonal symmetric)",
+   "fixed dimension": 0
+  },
+  {
+   "residual": "R",
+   "piece": "3' (antisymmetric)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "0",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "residual": "RL",
+   "piece": "1 (the identity)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "residual": "RL",
+   "piece": "2 (traceless diagonal)",
+   "fixed dimension": 0
+  },
+  {
+   "residual": "RL",
+   "piece": "3 (off-diagonal symmetric)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "1/2",
+    "1/2",
+    "1"
+   ]
+  },
+  {
+   "residual": "RL",
+   "piece": "3' (antisymmetric)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "0",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "residual": "RRL",
+   "piece": "1 (the identity)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "residual": "RRL",
+   "piece": "2 (traceless diagonal)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "1/2",
+    "1/2",
+    "1"
+   ]
+  },
+  {
+   "residual": "RRL",
+   "piece": "3 (off-diagonal symmetric)",
+   "fixed dimension": 2
+  },
+  {
+   "residual": "RRL",
+   "piece": "3' (antisymmetric)",
+   "fixed dimension": 1,
+   "masses (m/m3), exact": [
+    "0",
+    "1",
+    "1"
+   ]
+  }
+ ],
+ "Dirac: the RRL family (exact)": {
+  "residual": "RRL",
+  "piece": "3 (off-diagonal symmetric)",
+  "basis": [
+   "[[0, 0, 0], [0, 0, 1], [0, 1, 0]]",
+   "[[0, 1, -1], [1, 0, 0], [-1, 0, 0]]"
+  ],
+  "(tr X)^2 - 2 tr X^2 on the family (X = M^dagger M)": "0",
+  "det(X - lam) factored": "-(-lam + x*xbar)*(-lam**2 + lam*x*xbar + 4*lam*z*zbar - 4*z**2*zbar**2)",
+  "masses (m/m3) at sample members, exact": {
+   "(1, 0)": [
+    "0",
+    "1",
+    "1"
+   ],
+   "(0, 1)": [
+    "0",
+    "1",
+    "1"
+   ],
+   "(1, 1)": [
+    "1/2",
+    "1/2",
+    "1"
+   ],
+   "(1, -1)": [
+    "1/2",
+    "1/2",
+    "1"
+   ],
+   "(1, 2)": [
+    "-1/16 + sqrt(33)/16",
+    "17/16 - sqrt(33)/16",
+    "1"
+   ],
+   "(2, 1)": [
+    "2 - sqrt(3)",
+    "-1 + sqrt(3)",
+    "1"
+   ],
+   "(1, I)": [
+    "1/2",
+    "1/2",
+    "1"
+   ]
+  }
+ },
+ "Dirac: each residual's whole fixed space (all pieces at once)": {
+  "L": {
+   "dimension": 3,
+   "the pieces' fixed dimensions add up to it": true,
+   "it holds every matrix diagonal in S's eigenbasis (three free masses)": true
+  },
+  "R": {
+   "dimension": 3,
+   "the pieces' fixed dimensions add up to it": true,
+   "it holds every matrix diagonal in S's eigenbasis (three free masses)": true
+  },
+  "RL": {
+   "dimension": 3,
+   "the pieces' fixed dimensions add up to it": true,
+   "it holds every matrix diagonal in S's eigenbasis (three free masses)": true
+  },
+  "RRL": {
+   "dimension": 5,
+   "the pieces' fixed dimensions add up to it": true,
+   "it holds every matrix diagonal in S's eigenbasis (three free masses)": true
+  }
+ },
+ "Majorana: each residual's whole fixed space (all pieces at once)": {
+  "L": {
+   "c(g) = exp(2 pi i k/24), k": 21,
+   "fixed dimension (all pieces at once)": 1,
+   "discriminant of det(X - lam) on the whole fixed space": "0",
+   "every member has an exactly degenerate pair": true,
+   "det(X - lam) factored": "-lam*(-lam + 2*t0*tb0)**2"
+  },
+  "R": {
+   "c(g) = exp(2 pi i k/24), k": 3,
+   "fixed dimension (all pieces at once)": 1,
+   "discriminant of det(X - lam) on the whole fixed space": "0",
+   "every member has an exactly degenerate pair": true,
+   "det(X - lam) factored": "-lam*(-lam + 2*t0*tb0)**2"
+  },
+  "RL": {
+   "c(g) = exp(2 pi i k/24), k": 0,
+   "fixed dimension (all pieces at once)": 2,
+   "discriminant of det(X - lam) on the whole fixed space": "0",
+   "every member has an exactly degenerate pair": true,
+   "det(X - lam) factored": "(-lam + t0*tb0 - t0*tb1 - t1*tb0 + t1*tb1)**2*(-lam + t0*tb0 + 2*t0*tb1 + 2*t1*tb0 + 4*t1*tb1)"
+  },
+  "RRL": {
+   "c(g) = exp(2 pi i k/24), k": 3,
+   "fixed dimension (all pieces at once)": 0
+  }
+ },
+ "checks": {
+  "the projective image is S4 (order 24; 9, 8, 6 elements of orders 2, 3, 4)": true,
+  "T = c (x) the cube's rotations, on all 96 elements": true,
+  "RL a 3-cycle, RRL an edge half-turn, L and R quarter-turns": true,
+  "the RRL family lies in the off-diagonal symmetric piece and Heron's polynomial vanishes identically": true,
+  "the antisymmetric piece gives (0, 1, 1) wherever it is fixed": true,
+  "every residual-fixed Majorana matrix, all pieces at once, has an exactly degenerate pair": true,
+  "along RRL no Majorana matrix is fixed": true,
+  "with Higgs fields in several pieces along one residual the Dirac masses are free": true
+ },
+ "every check holds": true
+}

@@ -25,6 +25,7 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - **The owner's rulings of 2026-10-08** (`docs/THE_OWNERS_RULINGS_2026-10-08.md`): even ticks observed (GENESIS
   GM5c); Λ a tagged working postulate (GENESIS FK11 open); naturality for flat counts only (GENESIS FK10
   open); positivity kept. On the ruled branch the results for L and R alone apply.
+- W38: main's B1615 and B1616 verified: the weave's group fixes no mass, charged or neutrino.
 
 ## The setting
 
@@ -2204,6 +2205,83 @@ verify load-bearing math. A VERIFICATION, not blind: both read-outs were read fi
 
 **Status.** VERIFIED (not blind): main's WEAVE results, reproduced. 0 of 19.
 
+## W38. Main's B1615 and B1616 verified: the weave's group fixes no mass (`the_couplings_verified.py`)
+
+**Why.** Main's S93 and S94 close the flavour question as a negative: with B1611 (the phase) and B1612 (the angles), the
+weave's group fixes no flavour value, not the masses (B1615) and not the neutrino masses (B1616). It is load-bearing for
+the parameter side, so it is verified here: a VERIFICATION, not blind, both read-outs read first (main @ dfb57904).
+
+**What was done.** The group on the matter triplet T was rebuilt as in W35, from W21's construction, in the orthonormal
+basis of the Hodge–Riemann form. Then:
+- the invariants by characters;
+- Dirac masses on End(T) (M ↦ g M g†): the isotypic pieces from a generic commutant element, and each piece's matrices
+  fixed by each residual element L, R, RL and RRL, the masses being singular values;
+- Majorana masses on the symmetric matrices (M ↦ g M gᵀ), the same way.
+
+**The result (COMPUTED; every check holds).**
+- **Invariants.** (T ⊗ T̄)^G has dimension 1. T ⊗ T, Sym² T, Λ² T, T ⊗ T ⊗ T and T ⊗ T ⊗ T̄ have none: no mass term or
+  cubic of the matter alone.
+- **Dirac.** T̄ ⊗ T = 1 + 2 + 3 + 3, each once (commutant 4).
+  - A singlet Higgs gives (1, 1, 1).
+  - The fixed vacua give only (0, 1, 1), along L, R, RL and RRL in one triplet, and (½, ½, 1): in the doublet along L,
+    R and RRL, and in the other triplet along RL.
+  - Along RRL that triplet has a two-dimensional fixed space: a family obeying m₁ + m₂ = m₃. The largest violation over
+    4000 samples is 3 × 10⁻¹⁵ of m₃, and m₁/m₃ ranges over [0, ½].
+- **Majorana.** Sym² T = 1 + 2 + 3, and Λ² T is irreducible.
+  - Along RRL no vacuum is fixed.
+  - Along RL the spectra are (1, 1, 1) and (½, ½, 1); along L and R they are (0, 1, 1).
+- RL has three distinct eigenvalues on T, so at TM1's charged-lepton symmetry the masses are three free parameters.
+
+**What it shows.**
+- B1615 and B1616 stand on this seat's construction. The weave's group alone gives three equal masses, rigid degenerate
+  spectra, or one family with m₂ ≥ m₃/2.
+- So the charged leptons' hierarchy (m_μ/m_τ ≈ 0.059, imported) is out of reach. Every rigid Majorana spectrum has
+  an exactly degenerate pair, which the two measured neutrino splittings exclude.
+- B1615's sealed bound "no ratio below 0.1" failed on the RRL family, as main disclosed: here m₁/m₃ is sampled down to
+  10⁻⁴.
+- With W35 and W37, all four of main's flavour arcs since the reopening are reproduced here. The values need a forced
+  modulus τ, dynamics, or end data (W36), which is main's question to this seat.
+
+**Status.** VERIFIED (not blind): main's WEAVE results, reproduced. 0 of 19.
+
+**Addendum, the same night: exact and POST HOC (`the_couplings_exact.py`).** It answers the audit lane's two
+verification requests. B1615's sum rule was shown on a numerical grid, and the audit lane asked for an exact certificate
+on the whole family. B1616's degeneracy was checked one irreducible at a time, and the audit lane asked whether it holds
+on the whole residual-fixed space.
+- **The normal form.**
+  - The group's image in PGL(T) is S₄: order 24, with 9, 8 and 6 elements of orders 2, 3 and 4.
+  - In the basis of the normal Klein group's three axes, each of the 96 elements is c(g) S(g). Here S(g) is a signed
+    permutation matrix of determinant one and c is a character. So T is the cube's rotation group twisted by c: W21's
+    T = μ ⊗ 3′, made explicit.
+  - L and R are quarter-turns about two perpendicular axes, with c(L) = e^{−iπ/4} and c(R) = e^{iπ/4}. RL is a 3-cycle
+    with c = 1, and RRL is an edge half-turn.
+- **End(T) = 1 + 2 + 3 + 3′.** The four pieces are the identity, the traceless diagonal, the off-diagonal symmetric and
+  the antisymmetric matrices, and they are pairwise inequivalent, so B1615's multiplicity-one premise holds. The
+  antisymmetric piece gives (0, 1, 1) wherever it is fixed, because every antisymmetric 3 × 3 matrix has spectrum
+  (0, s, s).
+- **B1615's family, exactly.**
+  - Along RRL the off-diagonal symmetric piece's fixed matrices are M = x A + z B, with A = E₂₃ + E₃₂ and
+    B = E₁₂ + E₂₁ − E₁₃ − E₃₁.
+  - On them (tr X)² − 2 tr X² vanishes identically, with X = M†M. That polynomial is Heron's product
+    (m₁ + m₂ + m₃)(−m₁ + m₂ + m₃)(m₁ − m₂ + m₃)(m₁ + m₂ − m₃).
+  - The masses are |x| and (s ∓ |x|)/2, with s = √(|x|² + 8|z|²). With r = |x|/s they are proportional to
+    (r, (1 − r)/2, (1 + r)/2).
+  - So m₁ + m₂ = m₃ on every member, and m₁/m₃ covers [0, ½] exactly, reaching ½ at r = 1/3.
+- **Each residual's whole fixed space, all pieces at once.**
+  - **Dirac.** Along each residual the pieces' fixed spaces add up to the commutant: dimension 3 for L, R and RL, and 5
+    for RRL. The commutant holds every matrix diagonal in the residual's eigenbasis.
+    - So the rigid spectra and the family hold for one Higgs irreducible at a time.
+    - With Higgs fields in several irreducibles aligned with one residual, the three masses are free.
+    - Either way, no value is fixed.
+  - **Majorana.**
+    - Along RL the whole fixed space is two-dimensional, and det(X − λ) = (λ − |t₀ − t₁|²)² (λ − |t₀ + 2t₁|²). Every
+      member has a degenerate pair.
+    - Along L and R it is one-dimensional, with masses (0, √2|t|, √2|t|).
+    - Along RRL nothing is fixed.
+    - So B1616's statement holds on the whole residual-fixed space, not only piece by piece.
+
+**Status of the addendum.** EXACT (post hoc; a verification, not blind). 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2352,6 +2430,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W35 | VERIFIED (not blind; B1612 read first); main's WEAVE result reproduced | main's B1612 rebuilt from W21's construction (V, the moves' lifts, the holomorphic triplet T, the Hodge–Riemann form as the inner product): the image on T has order 96 with 56 elements of distinct eigenvalues; 11 eigenbases, 9 eigenlines; six full patterns (single maximal angle, tri-bimaximal, bimaximal, trimaximal with (2 ∓ √3)/6, the circulant (1/9, 4/9, 4/9), democratic) and five columns ((0, 0, 1), (0, ½, ½), TM1, (¼, ¼, ½), TM2); every named cell as B1612 states, TM1 from RL against RRL's eigenline with no swap |
 | W36 | VERIFIED (step 1, exact) and a READING with one exact obstruction (step 4) | the audit lane's gapped Standard Model phase: its centralizer in E₈ is (SU(5)_b × U(1)_Y)/ℤ₅ and connected (the roots orthogonal to SU(5)_g are an A₄; the torus part is the kernel of the character (3, 2), connected). On a closed surface the 10's index is deg W and the 5̄'s deg Λ²W, both zero for every SU(5)_b bundle, so the fibre's bulk gives no SU(5)_g chirality; the record's counts are end contributions on the gapless channels, which a gap removes. A gapped chiral phase needs winding end data or an object of dimension four or more |
 | W37 | VERIFIED (not blind; S92 read first); main's WEAVE results reproduced | main's B1613: TM1's relations derived here from the matrix entries; at sin²θ₁₃ = 0.02248, sin²θ₂₃ = 0.470: sin²θ₁₂ = 0.31800, cos δ = −0.130278, δ = 97.49° or 262.51°, J = ±0.03378, the column exact on both branches. Main's B1614: the joint fixed points (0, 0, 0) and (2, 2, 2); the trivial line (2, 0, 2), each parity line (1, 1, 0), the adjoint (3, 3, 0), the doublet and each matter block (2, 0, 2) as (H¹, visible, private); χ_T(L) = e^{−iπ/4}, χ_T(R) = e^{+iπ/4}, χ_T(LR) = 0; the odd classes of rank 2 over 𝔽₂. Agrees with W34 where they overlap |
+| W38 | VERIFIED (not blind; S93 and S94 read first); main's WEAVE results reproduced | main's B1615 and B1616 rebuilt from W21's construction: no invariant bilinear or trilinear of T alone; T̄ ⊗ T = 1 + 2 + 3 + 3; a singlet Higgs gives (1, 1, 1); the fixed Dirac vacua give (0, 1, 1) or (½, ½, 1), and along RRL a family with m₁ + m₂ = m₃ (to 3 × 10⁻¹⁵); Sym² T = 1 + 2 + 3, Λ² T irreducible, no Majorana vacuum fixed along RRL, rigid spectra (1, 1, 1), (½, ½, 1), (0, 1, 1) elsewhere. The weave's group fixes no mass. Exact addendum (post hoc, for the audit lane): T is the cube's rotations twisted by a character (W21's μ ⊗ 3′); the sum rule is Heron's identity on the whole family, masses ∝ (r, (1 − r)/2, (1 + r)/2); every residual-fixed Majorana matrix, all pieces at once, has a degenerate pair; several Higgs irreducibles along one residual leave the masses free |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2393,6 +2472,8 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
+- `the_couplings_exact.py` → `the_couplings_exact.json`: W38's exact addendum (post hoc): the normal form of the group on T, Heron's identity on B1615's family, and each residual's whole fixed space.
 - `the_tm1_prediction_and_observer_layer_verified.py` → `the_tm1_prediction_and_observer_layer_verified.json`: W37, main's B1613 and B1614 recomputed (a verification, not blind).
 - `the_sm_centralizer_in_e8.py` → `the_sm_centralizer_in_e8.json`: W36, the Standard Model's centralizer in E₈ by exact root arithmetic (a review of the audit lane's step 1).
 - `the_mixing_patterns_verified.py` → `the_mixing_patterns_verified.json`: W35, main's B1612 rebuilt from W21's construction (a verification, not blind).

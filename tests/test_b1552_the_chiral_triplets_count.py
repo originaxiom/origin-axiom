@@ -729,6 +729,50 @@ def test_w37_tm1_prediction_and_observer_layer_verified():
     assert (m["dim H1"], m["visible (rank to the puncture)"], m["private"]) == (2, 0, 2)
 
 
+def test_w38_the_couplings_verified():
+    """W38 (a verification of main's S93 and S94, not blind): on the matter triplet the weave's group (order 96) leaves
+    one invariant in T-bar (x) T and none in T (x) T or Sym^2 T; along RRL one triplet's fixed Dirac vacua obey
+    m1 + m2 = m3 and no Majorana vacuum is fixed. The group and its invariants recomputed in process"""
+    import sys
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_couplings_verified.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True
+    assert d["Dirac (T-bar (x) T = End T)"]["piece dimensions"] == [1, 2, 3, 3]
+    assert d["Majorana (Sym^2 T)"]["Sym^2 T: piece dimensions"] == [1, 2, 3]
+    sys.path.insert(0, str(here))
+    import the_couplings_verified as CV
+    GT, _, el = CV.the_group()
+    tr = [np.trace(g) for g in GT]
+    tr2 = [np.trace(g @ g) for g in GT]
+    assert len(GT) == 96
+    assert abs(sum(abs(t) ** 2 for t in tr) / 96 - 1) < 1e-9
+    assert abs(sum(t ** 2 for t in tr) / 96) < 1e-9 and abs(sum((t ** 2 + u) / 2 for t, u in zip(tr, tr2)) / 96) < 1e-9
+    assert len(np.unique(np.round(np.linalg.eigvals(el["RL"]), 6))) == 3
+
+
+def test_w38_exact_addendum():
+    """W38's exact addendum (post hoc, for the audit lane): T is the cube's rotations twisted by a character; along RRL
+    the off-diagonal symmetric piece's fixed matrices obey Heron's identity (tr X)^2 = 2 tr X^2, so m1 + m2 = m3 on the
+    whole family; every residual-fixed Majorana matrix has a degenerate pair. Heron's polynomial recomputed in process"""
+    import sympy as sp
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_couplings_exact.json")
+                   .read_text(encoding="utf-8"))
+    assert d["every check holds"] is True
+    assert d["PGL(T) image: order and element orders"]["order"] == 24
+    x, z, xb, zb = sp.symbols("x z xb zb")
+    A = sp.Matrix([[0, 0, 0], [0, 0, 1], [0, 1, 0]])
+    B = sp.Matrix([[0, 1, -1], [1, 0, 0], [-1, 0, 0]])
+    assert [str(m.tolist()) for m in (A, B)] == d["Dirac: the RRL family (exact)"]["basis"]
+    X = (xb * A + zb * B).T * (x * A + z * B)
+    assert sp.expand(X.trace() ** 2 - 2 * (X * X).trace()) == 0
+    S = sp.Matrix([[-1, 0, 0], [0, 0, 1], [0, 1, 0]])          # RRL's signed permutation
+    assert S * A * S.T == A and S * B * S.T == B
+    assert all(r["every member has an exactly degenerate pair"]
+               for r in d["Majorana: each residual's whole fixed space (all pieces at once)"].values()
+               if r["fixed dimension (all pieces at once)"] > 0)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

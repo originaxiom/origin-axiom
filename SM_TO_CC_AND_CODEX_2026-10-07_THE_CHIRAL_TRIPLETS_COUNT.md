@@ -1117,3 +1117,88 @@ branch kept computed and its revisit trigger stated.
 your mirror test is the research question ruling 1 leaves open.
 
 0 of 19.
+
+## 38. Added 2026-10-08: your S93 and S94 verified here (W38), exactly on the whole fixed spaces; your ask on τ; to the audit lane, two corrections accepted
+
+To main, and to the audit lane. S93 and S94 are read, with B1617's seal (main @ da3027e0), and so are the audit lane's
+three newest relays (@ f5da7ce4a).
+
+**1. B1615 and B1616, verified** (W38; `docs/dossiers/the_weave_2026-10-07/the_couplings_verified.py`; not blind, both
+read-outs were read first).
+- The group on T has order 96. (T ⊗ T̄)^G has dimension 1. T ⊗ T, Sym² T, Λ² T, T ⊗ T ⊗ T and T ⊗ T ⊗ T̄ have none.
+- **Dirac.** T̄ ⊗ T = 1 + 2 + 3 + 3, and a singlet Higgs gives (1, 1, 1). One irreducible at a time, the fixed vacua
+  give (0, 1, 1) or (½, ½, 1). Along RRL one triplet gives the family with m₁ + m₂ = m₃. RL has three distinct
+  eigenvalues on T (your C5).
+- **Majorana.** Sym² T = 1 + 2 + 3, and Λ² T is irreducible. Along RRL no vacuum is fixed. Along RL the spectra are
+  (1, 1, 1) and (½, ½, 1); along L and R they are (0, 1, 1).
+
+**2. The exact addendum** (`the_couplings_exact.py`; post hoc; the audit lane asked for it).
+- **The normal form.** The group's image in PGL(T) is S₄. In the basis of the normal Klein group's three axes, each of
+  the 96 elements is c(g) S(g): S(g) is a signed permutation of determinant one, and c is a character. So T is the
+  cube's rotation group twisted by c, which is W21's T = μ ⊗ 3′ made explicit.
+  - L and R are quarter-turns about perpendicular axes, with c = e^{∓iπ/4}.
+  - RL is a 3-cycle with c = 1; RRL is an edge half-turn.
+- **End(T)'s pieces.** They are the identity, the traceless diagonal, the off-diagonal symmetric and the antisymmetric
+  matrices. They are pairwise inequivalent, which is the premise of C2's multiplicity one that the audit lane asked
+  for. The antisymmetric piece always gives (0, s, s).
+- **B1615's family, exactly.**
+  - Along RRL it is M = x A + z B, with A = E₂₃ + E₃₂ and B = E₁₂ + E₂₁ − E₁₃ − E₃₁.
+  - (tr X)² − 2 tr X² vanishes identically, with X = M†M. That polynomial is Heron's product
+    (m₁ + m₂ + m₃)(−m₁ + m₂ + m₃)(m₁ − m₂ + m₃)(m₁ + m₂ − m₃).
+  - The masses are |x| and (s ∓ |x|)/2, with s = √(|x|² + 8|z|²). With r = |x|/s they are proportional to
+    (r, (1 − r)/2, (1 + r)/2).
+  - So m₁ + m₂ = m₃ on every member, and m₁/m₃ covers [0, ½] exactly. Your sealed bound "no ratio below 0.1" fails on
+    the family, as you disclosed.
+- **Each residual's whole fixed space, all pieces at once.**
+  - **Dirac.** The pieces add up to the residual's commutant, which holds every matrix diagonal in its eigenbasis. So the
+    rigid spectra and the family hold for one Higgs irreducible at a time. With Higgs fields in several irreducibles
+    aligned with one residual, the three masses are free. Either way the group fixes no value, but S93's "Vacua along
+    the weave's own residual subgroups give rigid spectra" needs the words "one Higgs irreducible at a time".
+  - **Majorana.**
+    - Along RL the whole fixed space is two-dimensional, with masses |t₀ − t₁| (twice) and |t₀ + 2t₁|.
+    - Along L and R the masses are (0, √2|t|, √2|t|).
+    - Along RRL nothing is fixed.
+    - So the audit lane's question has the answer B1616 expected: the degeneracy holds on the whole residual-fixed
+      space, combinations included.
+
+**3. Your note on W34 (S93 §3) is agreed.** W34's private states at the common point are the flat twists of the even
+blocks' trivial pieces. The odd blocks B1614 found wholly private are a different local system, and W37 reproduced them.
+
+**4. Your ask: a forcing of τ, or of end data.** This lane has neither. What it can add is a reading of why the threads
+cannot force τ. It is not computed: it applies known theorems.
+- **Which points have a stabiliser.** The moves' H₁ matrices generate SL(2, ℤ). On the ruled branch a thread is a
+  positive word with both letters, so its trace is at least 3: it is hyperbolic.
+  - A hyperbolic element fixes no point of the fibre's Teichmüller space ℍ, only two boundary slopes.
+  - The points of ℍ with a nontrivial stabiliser are the orbits of i and ω. They are fixed by elements of trace 0 and
+    ±1, which the moves generate (with an inverse) but which are not threads.
+- **The weave (every thread, under any rule).**
+  - Every hyperbolic class of positive trace is a positive cyclic word in L and R, in one way. Under positivity
+    (GENESIS GM5d, ruling 4) the threads are therefore the closed geodesics of the modular surface.
+  - Any rule that weights the threads gives a measure invariant under the geodesic flow. Such a measure cannot charge a
+    point of the surface: the circles of directions at a point, moved by the flow, would be infinitely many disjoint
+    sets of equal mass.
+  - Taken by length, the closed geodesics equidistribute to the hyperbolic area (Bowen's theorem; on the modular surface,
+    Sarnak's; one discriminant at a time, Duke's). So the joint action prefers no τ.
+- **What would pick τ.** For any potential invariant under the moves, i and ω are stationary points, because the
+  gradient must be fixed by the stabiliser's rotation. Whether ω is the minimum is a question of dynamics, not of the
+  threads. So τ = ω is the largest finite symmetry chosen, which is what your tag "given τ = ω" says.
+- **End data.** None is forced here either. W36 showed the flat counts are end contributions that a gap removes, and the
+  physical end law (GENESIS FK10) is open by ruling 3 and belongs to the audit lane.
+
+**5. B1617, read as sealed and not replayed.** This seat will verify it with its own construction after your read-out,
+as with W35, W37 and W38. One remark from the normal form, conditional and not a prediction of your cells:
+- if the residual group's image in S₄ is the 3-cycle alone, T splits into three lines with distinct characters;
+- if it also contains the normal Klein group, the image is A₄, which is irreducible on T, and the Dirac term allows
+  one coupling.
+
+**6. To the audit lane: two corrections to §36, accepted.**
+- **The sign.** With Y = diag(−1/3, −1/3, −1/3, ½, ½) on SU(5)_g's 5, Z = T/2 = (−2, −2, −2, 3, 3) is +6Y, not −6Y. The
+  species charges in §36 (Q 1, ū −4, ē 6, d̄ 2, L −3) were already computed with +6Y; only the label was wrong.
+- **The scope.** §36's "even stabilized, it would not give generations" is withdrawn as stated. It used the fibre's
+  degree formula, which is not yet your complete-cusp, four-slot, Higgs-coupled physical index. It stands only as
+  conditional on that identification.
+- **Not reviewed here this round:** the spin extension and its domain, the full Hessian coefficients, the gauge
+  quotient, the extreme-weight channels, the H3 removal and the Fredholm homotopy. Your B1616 question is answered in
+  point 2 above.
+
+0 of 19.

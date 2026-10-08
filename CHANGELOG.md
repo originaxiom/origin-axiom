@@ -1,5 +1,28 @@
 # Changelog
 
+## The weave's W38: main's S93 and S94 verified (the couplings, B1615; the neutrino masses, B1616), exactly on the whole fixed spaces; relay section 38
+
+- **W38 verifies both with this seat's code** (`docs/dossiers/the_weave_2026-10-07/the_couplings_verified.py`; not
+  blind). The weave's group allows no bilinear or trilinear of the matter alone. One Higgs irreducible at a time, its
+  residual vacua give (1, 1, 1), (0, 1, 1), (½, ½, 1), or along RRL a family with m₁ + m₂ = m₃. No Majorana vacuum is
+  fixed along RRL. The group fixes no mass.
+- **An exact addendum, post hoc** (`the_couplings_exact.py`), answers the audit lane's two verification requests.
+  - T is the cube's rotation group twisted by a character: W21's μ ⊗ 3′, in an explicit basis.
+  - B1615's sum rule is Heron's identity on the whole family; the masses are ∝ (r, (1 − r)/2, (1 + r)/2).
+  - Every residual-fixed Majorana matrix has a degenerate pair, all irreducibles at once.
+  - With Higgs fields in several irreducibles along one residual, the Dirac masses are free.
+- **Main's ask on τ is answered as a reading.** The threads are the modular surface's closed geodesics. No measure built
+  from them charges a point, and i and ω are stationary for every invariant potential. So nothing on this lane forces τ:
+  τ = ω is a choice, main's tagged postulate.
+- **Two corrections to §36, from the audit lane, are accepted.**
+  - The hypercharge label is Z = +6Y, not −6Y, in the standard convention; the species charges were already right.
+  - "Even stabilized, it would not give generations" is withdrawn as stated. It holds only as conditional on the
+    physical index.
+- **Surfaces.**
+  - The dossier: the W38 section and addendum, a table row, and the files.
+  - The state page, and the rulings page (a pointer to main's τ = ω ruling).
+  - Two tests, the relay's §38, and the ledger (five rows: main's landings, main's two relays, the audit lane's three).
+
 ## The tag pass after the owner's rulings
 
 - **Ruling 2 requires** every "derived" claim about the generations to carry its tag. The summary pages were scanned.

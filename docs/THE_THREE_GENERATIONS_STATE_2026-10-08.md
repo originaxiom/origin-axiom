@@ -141,6 +141,11 @@ Under the owner's rulings, the table's rows split into two groups:
   97.5°), registered as falsifier P10, a reading. On the weave the observer layer splits by local system: the adjoint
   and the parity lines are visible at the puncture, while the doublet and the matter carrying the three are wholly
   private.
+- **Main's S93 and S94 (B1615, B1616), verified here (W38):** the weave's group fixes no mass. It forbids every
+  bilinear and trilinear of the matter alone. Its residual vacua give three equal masses, rigid degenerate spectra, or
+  one family with m₁ + m₂ = m₃ (so m₂ ≥ m₃/2), and no Majorana vacuum along TM1's neutrino-side symmetry. With B1611
+  and B1612, no flavour value is in the group. Main records a further ruling, made with main: the fibre's modulus
+  τ = ω is a tagged working postulate (B1617, sealed, not yet run).
 
 ## Questions open with main
 
@@ -152,7 +157,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W34 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W38 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§32).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§38).
