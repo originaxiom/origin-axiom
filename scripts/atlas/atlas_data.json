@@ -11174,7 +11174,7 @@
    "refs": [],
    "obstacle": "gauge_dict",
    "obstacle_conf": 1,
-   "status": "banked",
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B161": {

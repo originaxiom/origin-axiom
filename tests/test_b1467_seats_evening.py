@@ -14,4 +14,4 @@ def test_the_amend_and_the_correction():
     assert "the seat's literal claim holds." not in o.split("## L244")[1][:1200]
     e = open(os.path.join(ROOT, "docs", "ERROR_LEDGER.md")).read(); assert "E54 instance (this bench, L244, 2026-10-03)" in e
     h = open(os.path.join(ROOT, "docs", "HARVEST_LEDGER.md")).read()
-    assert all(("| sm:B15%d |" % k) in h for k in (27, 28, 29, 30, 31, 32)) and "| audit R80/R81 |" in h and "`2eb3841f`" in h and "`ddd345a8`" in h
+    assert all(("| sm:B15%d |" % k) in h for k in (27, 28, 29, 30, 31, 32)) and "| audit R80/R81 |" in h and "`2eb3841f`" in h and "@ ddd345a8" in h   # the rows' own reading of the audit lane, not its moving pin (E86, found S96)
