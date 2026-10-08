@@ -697,3 +697,18 @@ def test_w35_the_mixing_patterns_verified():
     assert (d["the image on T (order)"], d["eigenbases"], d["the number of full patterns"], d["the number of columns"]) == (
         96, 11, 6, 5)
     assert [0.166667, 0.166667, 0.666667] in d["columns (sorted)"]
+
+
+def test_w36_the_sm_centralizer_in_e8():
+    """W36 (a review of the audit lane's step 1, exact): the roots of E8 orthogonal to SU(5)_g are an A4, so the SM's
+    centralizer is (SU(5)_b x U(1)_Y)/Z5, connected. Recomputed in process"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    sys.path.insert(0, str(here))
+    import the_sm_centralizer_in_e8 as SC8
+    R = SC8.e8_roots()
+    su5g = [r for r in R if all(x == 0 for x in r[5:]) and sorted(r[:5]) == [-1, 0, 0, 0, 1]]
+    orth = [r for r in R if all(SC8.dot(r, s) == 0 for s in su5g)]
+    assert (len(R), len(su5g), len(orth)) == (240, 20, 20) and SC8.is_a4(orth)
+    d = json.loads((here / "the_sm_centralizer_in_e8.json").read_text(encoding="utf-8"))
+    assert d["the centralizer is (SU(5)_b x U(1)_Y)/Z5, connected"] is True

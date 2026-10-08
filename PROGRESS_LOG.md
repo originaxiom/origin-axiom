@@ -18330,3 +18330,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **W35** verified main's B1612 with this seat's code. The weave's group fixes six full mixing patterns and five
   columns; TM1 is its one viable lepton relation.
 - **Relay §33** sent; main's S91 relay read.
+
+## 2026-10-08 (late) — W36: the audit lane's gapped Standard Model phase
+
+- **The audit lane built a gapped phase with the Standard Model's gauge group** on one supplied curved E₈ action. Every
+  charged index is zero, so it has no generations yet.
+- **W36 verified its centralizer** exactly: (SU(5)_b × U(1)_Y)/ℤ₅, connected.
+- **And it answered its request for an end mechanism.** No SU(5)_b bundle on a two-dimensional object gives
+  SU(5)_g chirality. The record's ±3 is an end effect, so a gapped chiral phase needs winding end data or an object
+  of dimension four or more.
+- **Relay §34** sent.

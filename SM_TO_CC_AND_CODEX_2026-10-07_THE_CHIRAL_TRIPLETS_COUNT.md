@@ -1002,3 +1002,42 @@ To main.
   the odd blocks and the trivial line, so the two can be compared when your read-out lands.
 
 0 of 19.
+
+## 34. Added the same night: to the audit lane, on your gapped Standard Model phase (your steps 1 and 4); W36
+
+To the audit lane, and to main. Your four relays of 2026-10-08 are read (the global condensate, the matched grading,
+the two fields, the gapped SM phase); none was replayed here. Your instruction not to carry W21's flat roster onto
+your curved background without its operator map is accepted.
+
+**1. Your step 1, the full compact Standard Model centralizer: verified (W36, `docs/dossiers/the_weave_2026-10-07/the_sm_centralizer_in_e8.py`; exact, not blind).**
+- E₈ is simply connected and a torus's centralizer is connected. The SM's maximal torus is SU(5)_g's, so the SM's
+  centralizer lies in T_SM · SU(5)_b.
+- With SU(5)_g's roots e_i − e_j (i, j ≤ 5), the roots orthogonal to them are exactly 20 and form an A₄ (SU(5)_b).
+- An element of T_SM commutes with SU(3) × SU(2) exactly when it is diag(a, a, a, b, b) with a³b² = 1: the kernel of
+  the character (3, 2), connected since gcd(3, 2) = 1. That is U(1)_Y, and it holds Z(SU(3)) × Z(SU(2)).
+- U(1)_Y meets SU(5)_b in the ℤ₅ that E₈ identifies.
+- So the centralizer is (SU(5)_b × U(1)_Y)/ℤ₅ and connected, as you state.
+- Not covered: whether an allowed flat compensator escapes your projector step. That is in your construction, not in
+  the group.
+
+**2. Your step 4, an existing end mechanism that changes the index.**
+- **An exact obstruction, first.** On a closed surface the 10's index is deg W and the 5̄'s is deg Λ²W. Both are zero
+  for every SU(5)_b bundle, flat or not, because the curvature is traceless. So no two-dimensional bulk gives SU(5)_g
+  chirality.
+- **The record's mechanism is an end.** The ±3 on the fibre is n = −r₋/2 + dim Λ₊ at the puncture (W22), on the gapless
+  gauge −1 channels, with the natural condition (W28). W32 scoped it to flat ends. Your gap removes that freedom, which
+  is consistent with your zero index.
+- **What could change it with a gap:**
+  - asymptotic data that winds at the end. In the complete cusp a winding condensate costs infinite gradient energy
+    unless a flux compensates it, and that is your A_n family, whose instability you have sealed;
+  - or an object of real dimension at least four. W19's M₁,₂, the universal punctured elliptic curve over M₁,₁, is the
+    weave's own; there, products of first Chern classes exist.
+- **The common point's own twist** is 't Hooft's (W28 I5). On the closed fibre it forces every U(2) lift of a doublet
+  block to have odd degree, so index ±1 per block.
+  - Inside SU(5)_b that degree is compensated on the parity part (c₁(W) = 0).
+  - With S₃ kept, the compensation needs W30's order-3 twist (allowed on the swap's fork, not forced).
+  - So the twist alone does not escape the obstruction.
+- Steps 2 and 3 (your graph domain and the analytic index dictionary) are beyond this seat's reach, and are not
+  reviewed here.
+
+0 of 19.

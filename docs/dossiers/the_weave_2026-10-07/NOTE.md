@@ -19,6 +19,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W34 (the owner's question about the observer layer): its negatives belong to every thread, not to m004; the
   register carries no hand; it supplies no missing ingredient.
 - W35 (the owner's goal: the full Standard Model): main's B1612 mixing patterns verified with this seat's code.
+- W36: the audit lane's Standard Model centralizer in E₈ verified; no SU(5)_g chirality from any SU(5)_b bundle on a
+  two-dimensional object.
 
 ## The setting
 
@@ -2123,6 +2125,42 @@ rebuilt from W21's construction, not from main's instrument:
 
 **Status.** VERIFIED (not blind): main's WEAVE result, reproduced. 0 of 19.
 
+## W36. The audit lane's gapped Standard Model phase: its centralizer checked, and what a two-dimensional object cannot give (`the_sm_centralizer_in_e8.py`)
+
+**Why.** The owner's goal is the full Standard Model. The audit lane's newest packet builds, on one supplied curved E₈
+action, a global stationary phase with the Standard Model's gauge group and a full fermion gap. Every charged index in
+it is zero, so it has no generations. Its relay asks four things; this answers two.
+
+**Its step 1: the centralizer (a review; the claim read first; exact).**
+- E₈ is simply connected, and a torus's centralizer is connected. The SM's maximal torus is SU(5)_g's, so the SM's
+  centralizer lies in T_SM · SU(5)_b.
+- **The roots.** With SU(5)_g's roots e_i − e_j (i, j ≤ 5), the roots orthogonal to them are exactly 20, and they form
+  an A₄: SU(5)_b.
+- **The torus part.** An element of T_SM commutes with SU(3) × SU(2) exactly when it is diag(a, a, a, b, b) with
+  a³b² = 1. That is the kernel of the character (3, 2), connected since gcd(3, 2) = 1: it is U(1)_Y, and it holds
+  Z(SU(3)) × Z(SU(2)).
+- U(1)_Y meets SU(5)_b in SU(5)_g's centre ℤ₅, the one E₈ identifies.
+- **So the centralizer is (SU(5)_b × U(1)_Y)/ℤ₅, and it is connected, as the audit lane states.** VERIFIED (exact,
+  not blind).
+
+**Its step 4: an existing end mechanism that changes the index (a READING, with one exact piece).**
+- **The exact piece.** On a closed surface the index of the 10 is deg W, and of the 5̄ deg Λ²W. Both are zero for every
+  SU(5)_b bundle, flat or not, since the curvature is traceless. So the fibre's bulk gives no net SU(5)_g chirality.
+- **The record's nonzero counts on the fibre are end contributions:** n = −r₋/2 + dim Λ₊ (W22) at the puncture, on the
+  gapless gauge −1 channels (W28; W32 scoped them to flat ends). A gapped cusp removes that freedom, which is consistent
+  with the audit lane's zero.
+- **What could change it with a gap.** Either asymptotic data with winding at the end, or an object of real dimension
+  at least four (W19's M₁,₂, where products of first Chern classes exist).
+  - In the complete cusp a winding condensate has infinite gradient energy unless a flux compensates it. That is the
+    audit lane's magnetic family A_n, which they predict unstable.
+- **The common point's own twist.** It is 't Hooft's (W28 I5). On the closed fibre it forces every U(2) lift to have
+  odd degree, so ±1 per doublet block.
+  - Inside SU(5)_b that degree is compensated on the parity part (c₁(W) = 0).
+  - With S₃ kept, the compensation needs the order-3 twist of W30, which is allowed on the swap's fork and not forced.
+
+**Status.** Step 1 VERIFIED (exact). Step 4 a READING with one exact obstruction: no SU(5)_g chirality from any SU(5)_b
+bundle on a two-dimensional object.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2269,6 +2307,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W33 | COMPUTED (the rule committed first, every cell as stated, one wording difference disclosed); a WEAVE result within the record's frames, NEGATIVE for the naive law | is "three exactly when the odd spin structure is left out" a law across E₆, SO(10) and SU(5)? No, under every counting convention: under naturality, E₆'s trivial bundle gives three (a rank count); under the spinor rule every sector's count is ± its number of doublet blocks, so three needs rank six (W23's conclusion as a law). The doublet blocks are label-blind; the three parity doublets count ±3, and with the zero parity's doublet added ±4. Corrects the second contemplation's point 2 |
 | W34 | COMPUTED (the rule committed first; Q2, Q3, Q5 as stated; Q1's sealed criterion missed on 11 states, resolved post hoc); WEAVE results (Q2, Q5) and laws over the threads (Q1, Q3), NEGATIVE for the observer layer as the missing ingredient | the record's observer-layer probes (B760, B761, B762; main's B1183, B1184), all on m004, taken to the weave. No private states holds on all 758 states to length 12 (Menal-Ferrer and Porti; 747 at 60 digits, the other 11 post hoc at 120): a property of the class. At the common point the fibre has private states from rank three (fiber_dim 0, 4, 6 for n = 2, 3, 4: the flat twists of the blocks' trivial pieces), and no thread and not the joint action keeps any. The 758 states have 536 names, the coincidences exactly the 222 reversal pairs: every thread is named among the threads up to its register. The weave cannot sign itself; the self-sign is the hand. The register is an inner automorphism (rev σ = ι_{a⁻¹}∘σ) and carries neither hand |
 | W35 | VERIFIED (not blind; B1612 read first); main's WEAVE result reproduced | main's B1612 rebuilt from W21's construction (V, the moves' lifts, the holomorphic triplet T, the Hodge–Riemann form as the inner product): the image on T has order 96 with 56 elements of distinct eigenvalues; 11 eigenbases, 9 eigenlines; six full patterns (single maximal angle, tri-bimaximal, bimaximal, trimaximal with (2 ∓ √3)/6, the circulant (1/9, 4/9, 4/9), democratic) and five columns ((0, 0, 1), (0, ½, ½), TM1, (¼, ¼, ½), TM2); every named cell as B1612 states, TM1 from RL against RRL's eigenline with no swap |
+| W36 | VERIFIED (step 1, exact) and a READING with one exact obstruction (step 4) | the audit lane's gapped Standard Model phase: its centralizer in E₈ is (SU(5)_b × U(1)_Y)/ℤ₅ and connected (the roots orthogonal to SU(5)_g are an A₄; the torus part is the kernel of the character (3, 2), connected). On a closed surface the 10's index is deg W and the 5̄'s deg Λ²W, both zero for every SU(5)_b bundle, so the fibre's bulk gives no SU(5)_g chirality; the record's counts are end contributions on the gapless channels, which a gap removes. A gapped chiral phase needs winding end data or an object of dimension four or more |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2310,6 +2349,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_sm_centralizer_in_e8.py` → `the_sm_centralizer_in_e8.json`: W36, the Standard Model's centralizer in E₈ by exact root arithmetic (a review of the audit lane's step 1).
 - `the_mixing_patterns_verified.py` → `the_mixing_patterns_verified.json`: W35, main's B1612 rebuilt from W21's construction (a verification, not blind).
 - `the_observer_layer_on_the_weave.py` → `the_observer_layer_on_the_weave.json`: W34, B761's private states on GENESIS's 758 states (SnapPy, 60 digits), the private states at the common point and what the moves keep (exact), the self-name among the threads against the reversal pairs, and the register's lifts and action at the common point; its rule `W34_RULE.md`, committed first. POST HOC `the_observer_layer_posthoc.py` → `the_observer_layer_posthoc.json`: the 11 states the run's rank rule left undecided, recomputed from the polished holonomy at 120 digits.
 - `the_odd_spin_structure_across_frames.py` → `the_odd_spin_structure_across_frames.json`: W33, the census of bundles from the common point's blocks in E₆, SO(10) and SU(5) under the block rule, naturality and the spinor rule, the naive law, the spinor-rule law, the doublet sectors and the sources of each three; its rule `W33_RULE.md`, committed first.

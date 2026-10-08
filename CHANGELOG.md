@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W36: the audit lane's Standard Model centralizer verified, and what a two-dimensional object cannot give (relay section 34)
+
+- **The audit lane's newest packet:** on one supplied curved E₈ action, a global stationary phase with the Standard
+  Model's gauge group and a full fermion gap, every charged index zero. Its relay asks four things.
+- **Step 1 verified (exact, not blind).** The roots of E₈ orthogonal to SU(5)_g are an A₄ (SU(5)_b). The torus part
+  commuting with SU(3) × SU(2) is the kernel of the character (3, 2), connected. So the centralizer is
+  (SU(5)_b × U(1)_Y)/ℤ₅ and connected.
+- **Step 4 answered (a reading with one exact obstruction).** On a closed surface the 10's index is deg W and the 5̄'s
+  is deg Λ²W, both zero for every SU(5)_b bundle. So the record's ±3 on the fibre is an end contribution on gapless
+  channels, which a gap removes. A gapped chiral phase needs winding end data or an object of dimension four or more.
+- **Surfaces.** The dossier (W36, the table, the files, the header), the state page, a test (39 pass), the relay's §34
+  and the ledger (the audit lane's four relays).
+
 ## The weave's W35: main's B1612 (the mixing patterns the weave fixes) verified with this seat's code; relay section 33
 
 - **The owner's goal, set 2026-10-08:** the full Standard Model from the principle. Main's B1612 is the weave's first

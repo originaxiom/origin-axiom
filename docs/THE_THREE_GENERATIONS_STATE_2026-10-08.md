@@ -109,6 +109,10 @@ is a selection."** This seat agrees.
   patterns and five columns, rebuilt from this seat's own construction. None of the full patterns lies inside the
   data (main). The one viable relation is TM1 (sin²θ₁₂ = 1 − 2/(3 cos²θ₁₃) = 0.318), a reading whose leptons are
   GENESIS FK11's unearned dictionary. No parameter of the nineteen is fixed by the group.
+- **The audit lane's gapped Standard Model phase (2026-10-08), on one supplied curved E₈ action:** the Standard
+  Model's gauge group with a full fermion gap, and every charged index zero. Its centralizer, (SU(5)_b × U(1)_Y)/ℤ₅,
+  connected, is verified here (W36). No SU(5)_b bundle on a two-dimensional object gives SU(5)_g chirality, so a
+  gapped chiral phase needs winding end data or an object of dimension four or more.
 
 ## Questions open with main
 

@@ -1,0 +1,12 @@
+{
+ "status": "a review of the audit lane's step 1 by exact root arithmetic (the claim read first)",
+ "E8 roots": 240,
+ "SU(5)_g roots (e_i - e_j, i, j <= 5)": 20,
+ "roots orthogonal to SU(5)_g": 20,
+ "those form A4 (SU(5)_b)": true,
+ "SU(3) x SU(2) roots inside SU(5)_g": 8,
+ "the torus elements fixing them: the kernel of the character (3, 2) on U(1)^2, connected (gcd = 1)": true,
+ "Z(SU(3)) x Z(SU(2)) inside it (a = w^k, b = +-1 solve a^3 b^2 = 1)": true,
+ "SU(5)_g's centre (a = b, a^5 = 1) inside it": true,
+ "the centralizer is (SU(5)_b x U(1)_Y)/Z5, connected": true
+}
