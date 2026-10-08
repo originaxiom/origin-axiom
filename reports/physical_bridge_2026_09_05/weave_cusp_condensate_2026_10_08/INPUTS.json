@@ -1,0 +1,17 @@
+{
+  "sources": [
+    {"ref": "bb6c807678fccf7333163d6b4ec0ada7cddac36d", "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md", "bytes": 13228, "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"},
+    {"ref": "bb6c807678fccf7333163d6b4ec0ada7cddac36d", "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/probe.py", "bytes": 10842, "sha256": "dd53ae8840bdaac76e2545296681fcd43314842ac6cd5e302510fc8528786b4e"},
+    {"ref": "bb6c807678fccf7333163d6b4ec0ada7cddac36d", "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md", "bytes": 8621, "sha256": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0"},
+    {"ref": "bb6c807678fccf7333163d6b4ec0ada7cddac36d", "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/probe.py", "bytes": 9485, "sha256": "d10f262c70c4dee8c3e29e075a7f386f405c59a0065f6e474e13fbbd0b449847"},
+    {"ref": "bb6c807678fccf7333163d6b4ec0ada7cddac36d", "path": "reports/physical_bridge_2026_09_05/mixed_current.py", "bytes": 9872, "sha256": "0fb26165ddb8699ab4c1184deb197187d916dc1e03624b37ebc996c8e6d672a1"}
+  ],
+  "focused_expected_tests": 18,
+  "comparison_profiles": ["end_profile"],
+  "unearned_flags": ["global_stationary_background_derived", "full_fermion_spectrum_derived", "gapped_4D_reduction_derived", "physical_chiral_SM_derived", "genesis_selects_condensate", "global_anomaly_acceptance", "nonauthor_acceptance"],
+  "primary_sources": [
+    {"title": "Hitchin Spinor-valued Higgs fields", "url": "https://arxiv.org/abs/2404.12981v1", "bytes": 203177, "sha256": "af98baf79ce5702ca83dcb10a5e85be080f560db8d0dea5bf33e4dc1970c310b", "read_scope": "Full paper personally read; PDF page12 visually checked. Compact spinor Higgs and nilpotent extension context, not this complete-cusp existence result."},
+    {"title": "Xie Yonekura Generalized Hitchin system Spectral curve and N=1 dynamics", "url": "https://arxiv.org/abs/1310.0467v2", "bytes": 316251, "sha256": "ae81b4e5f53870de118cb960a63665cd56a16f0b90bda319053ae3808fb8e187", "read_scope": "Introduction and section2.1 personally read; equation2.1 on PDF page5 visually checked. Not the full paper. Its M5/(2,0) parent is not identified with our supplied (1,1) parent."}
+  ],
+  "scope": "Local complete-cusp end of the supplied common E8 curved action, existing quaternion peripheral transition and bounding spin,112 p-odd root-sl2 condensates, R-boson quadratic block and commuting spin spectators. No global core solution, full spectrum, physical generations or architecture-wide exclusion."
+}
