@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/DESIGN.md",
+      "bytes": 4577,
+      "sha256": "bbb765ae183ab8207f4addf93fd715edd77ed3ee951ec78dce90c397cc97237f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/PROOF.md",
+      "bytes": 7795,
+      "sha256": "2300e028c044ce7a38cd87ec4f897b2f5e936b0b47e0fed093c5d166b2e2c22e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/INPUTS.json",
+      "bytes": 7343,
+      "sha256": "e6970bda82ba5533f59f4b3889f67e506a49c8b202904f8fb0bc67d59496ecb7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/probe.py",
+      "bytes": 4698,
+      "sha256": "b93a4b9c833a08d64718647045f37194e20dabf230ca997fb37bf2411a09d8d2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/reference.py",
+      "bytes": 2948,
+      "sha256": "58e5f93c1cf523bb58c88af286d5f3fcde4bcfb4c15eb94df7f5ea3ea57e3191"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/custody.rb",
+      "bytes": 4739,
+      "sha256": "7186ccbdc5edc32821cb71a8a002e9d66c64d1a9fb0407e91757bbe8b89b832d"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_gauge_limit.py",
+      "bytes": 2825,
+      "sha256": "c09255d6d8007e5d7edfdcc6c3107482831aaaeda80d94e9c4d88401e0010c92"
+    }
+  ],
+  "prior_commit": "65bdbedb13e622dacf2f706dfb6c60108fce037d",
+  "status": "PRE-EXECUTION; push and server confirmation required before first scientific import, execution or test collection"
+}
