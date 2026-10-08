@@ -17,8 +17,8 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/probe.py",
-      "bytes": 8203,
-      "sha256": "50a2edd7ccde3322bedd4bcc3a1755bfb600ba5746b5f1e0b6bbc85a02cd71f7"
+      "bytes": 8112,
+      "sha256": "b3eaf99ffb769124442fb25a4c7f3550e11de45308ed8ec7317af0b38384392f"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/reference.py",
@@ -37,6 +37,5 @@
     }
   ],
   "prior_commit": "58848955b5f06fed3ffd57dfa9496eebe6dfdc6f",
-  "status": "RESEALED BEFORE SECOND ATTEMPT; post-execution special-function canonicalization repair only; first failed native run preserved.",
-  "first_attempt_seal": "1a9c71b1d70613db84e5fc638fd053ad7d4a15c7"
+  "status": "PRE-EXECUTION; no scientific import, execution or test collection yet."
 }

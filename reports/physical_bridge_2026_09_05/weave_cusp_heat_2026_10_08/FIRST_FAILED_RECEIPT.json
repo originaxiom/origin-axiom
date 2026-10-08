@@ -1,0 +1,11 @@
+{
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 6.506150000030175,
+  "log_bytes": 69943,
+  "log_sha256": "b3ec343f9ff70a6bc3c0e777d7cd44b189ad7d7fabb21ef7cd579a1c73c63247",
+  "argv": [
+    "python3",
+    "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/probe.py"
+  ]
+}

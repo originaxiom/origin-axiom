@@ -2665,3 +2665,20 @@ locally; no mathematical criterion changed. Rehashed before seal.
 
 Final preseal governance26 PASS/four inherited FAIL, review382 due.
 No new failing file/category. Not full-suite/main-bank acceptance.
+
+First native attempt at1a9c71b1d FAILED:28/29, only the erfc/erf
+canonicalization predicate false. Reference/tests did not start.
+Full failed output/receipt/server/manifest preserved. Post-execution
+instrument repair in REPAIR.md, not a first-pass success. Same identity
+and criterion; rewrite to a common special-function basis before simplify.
+Corrected seven science files rehashed BEFORE SECOND attempt:
+
+| File | SHA256 |
+|---|---|
+| weave_cusp_heat_2026_10_08/DESIGN.md | e3f94518e15829a82bc9b59339236918facf831e55147d57f33e04de5930aba3 |
+| weave_cusp_heat_2026_10_08/PROOF.md | f9a638cf8224f877ff41225f3bc356c7da6246500bedcbd8d46ca1f207522c9e |
+| weave_cusp_heat_2026_10_08/INPUTS.json | 04b8263d036a57f3917a899a070d6c8b682ba4dd6ef50006ba9679f659420e9c |
+| weave_cusp_heat_2026_10_08/probe.py | 50a2edd7ccde3322bedd4bcc3a1755bfb600ba5746b5f1e0b6bbc85a02cd71f7 |
+| weave_cusp_heat_2026_10_08/reference.py | 2c7397f70d8e0261db21a8d65f85b8f0a21f4c1cd97ade7e8112f7006fcd61be |
+| weave_cusp_heat_2026_10_08/custody.rb | 7b04cedbed1bd539eddcd1d0c2b817cd0e66531347ecfbb02379d14653bd2daf |
+| tests/test_physical_bridge_weave_cusp_heat.py | 83f9e515edec6d03d045fece7606d9338b9f5f19d6fae9cd0d308163b347dd87 |

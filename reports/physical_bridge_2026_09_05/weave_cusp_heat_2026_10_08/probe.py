@@ -107,7 +107,8 @@ def run():
     pos=s.symbols('m',positive=True)
     cont=-s.erfc(pos*s.sqrt(t))/2
     facts['continuum_derivative_and_limits']=s.simplify(s.diff(cont,t)-pos*s.exp(-t*pos**2)/s.sqrt(4*s.pi*t))==0 and s.limit(cont,t,0)==-Q(1,2) and s.limit(cont,t,s.oo)==0
-    facts['continuum_plus_index_is_erf']=s.simplify(cont+Q(1,2)-s.erf(pos*s.sqrt(t))/2)==0
+    # erfc(x)=1-erf(x); simplify alone need not choose this common basis.
+    facts['continuum_plus_index_is_erf']=s.simplify((cont+Q(1,2)-s.erf(pos*s.sqrt(t))/2).rewrite(s.erf))==0
     delta,beta,tau=s.symbols('delta beta tau',real=True)
     C=s.Matrix([[delta,tau*beta],[tau*beta,-delta]])
     facts['coupled_pairs_cancel_all_odd_functions']=C.trace()==0 and zero(C*C-(delta**2+tau**2*beta**2)*s.eye(2))
