@@ -1,0 +1,42 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/DESIGN.md",
+      "bytes": 4374,
+      "sha256": "2346edb8e887b28035aa0c157485e59d035eb4601e837d25c72171e9fd1ae85b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "bytes": 8116,
+      "sha256": "78693f6656fff74e67c2d94d4fe84a100b02f5ca7ab50ec8b98ae375ccf449c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/probe.py",
+      "bytes": 5641,
+      "sha256": "6af12e52aad28358cddcc28f514cc94a45e64a4dee1a6a5c979fd998eaf1fe64"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/reference.py",
+      "bytes": 5386,
+      "sha256": "46eb344f0a6509b8a673f15d1af7efd790d509a755e68969ab9c844b3b117b34"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/INPUTS.json",
+      "bytes": 7358,
+      "sha256": "ea570d6df5d27fdf5efa11cf8c192898dfd8080ac1991b49fcb7df087c04b812"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/custody.rb",
+      "bytes": 4796,
+      "sha256": "832e991aa5a27bd781a392106f5ba6ab509dda50a78b40b19d1cd29e6b09e681"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_complementary_boundary.py",
+      "bytes": 2908,
+      "sha256": "51093381f5524f9def047e27d74c2020bff7058b335f656eaf12374852f2713a"
+    }
+  ],
+  "scope": "Pre-execution strict complementary boundary, conditional cone and physical auxiliary cost; not a completed real physical theory.",
+  "physical_goal_achieved": false,
+  "nonauthor_acceptance": false
+}

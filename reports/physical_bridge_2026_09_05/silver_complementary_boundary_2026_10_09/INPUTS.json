@@ -1,0 +1,177 @@
+{
+  "sources": [
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b",
+      "working_copy_required": true
+    },
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py",
+      "bytes": 10325,
+      "sha256": "908ac5f016cbbcdceb7b06061bba45dafef12b500faf234dade145136a6b9553",
+      "working_copy_required": true
+    },
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py",
+      "bytes": 11472,
+      "sha256": "1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16",
+      "working_copy_required": true
+    },
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/probe.py",
+      "bytes": 10808,
+      "sha256": "6cb7faaabb09b3726374e0d9b8c19b0ff2aa3b6a102bec211044502dcba6ea64",
+      "working_copy_required": true
+    },
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF.md",
+      "bytes": 9305,
+      "sha256": "d3eb15c5bb5e4d90c319e662eb65f906c10decf45772953ccdcb632b48de0f5b",
+      "working_copy_required": true
+    },
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/PROOF.md",
+      "bytes": 7204,
+      "sha256": "32947d8cc8688e82462746112cbee011ae275ea326861a6fde57646750cc1d7c",
+      "working_copy_required": true
+    },
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b",
+      "working_copy_required": true
+    },
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/FERMION_END.md",
+      "bytes": 8379,
+      "sha256": "0129da83b4dc65b2d8cfa79106c2954b4875c6cffac1209b79933aea17b274f4",
+      "working_copy_required": true
+    },
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/COMMON_MODEL_CANDIDATE_2026_10_05.md",
+      "bytes": 5751,
+      "sha256": "ecb7cdce2aba2a4bd6595f2d02f71af92334ea654c8003f70c105f6e4ee5ad27",
+      "working_copy_required": true
+    },
+    {
+      "ref": "72195d01fcded95081432d2b98c8ed39c53f00f1",
+      "path": "reports/physical_bridge_2026_09_05/capture_checked_run.rb",
+      "bytes": 1224,
+      "sha256": "54973dda238951ff15249cc54068f3ab6919049f73c947fb3d12cdbf67b6c602",
+      "working_copy_required": true
+    },
+    {
+      "ref": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_cyclic_boundary_2026_10_04/PROOF.md",
+      "bytes": 3613,
+      "sha256": "18cc6415d845eff4174853beda4ae00adfd3f2cb9ef010a6fc8fd934a8084c81",
+      "working_copy_required": false
+    },
+    {
+      "ref": "ecd1e1ce83312535b403fb872ca544f4e876c49b",
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/probe.py",
+      "bytes": 12355,
+      "sha256": "8ae953a9741135436544ebdc4db96c66893b3220bdc3d8667c347a948082ba42",
+      "working_copy_required": true
+    },
+    {
+      "ref": "ecd1e1ce83312535b403fb872ca544f4e876c49b",
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/reference.py",
+      "bytes": 12265,
+      "sha256": "9fad6aeddb15d52f62ee1ba88313edceaa3126201abc13552d4084a964f759d9",
+      "working_copy_required": true
+    },
+    {
+      "ref": "ecd1e1ce83312535b403fb872ca544f4e876c49b",
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/PROOF.md",
+      "bytes": 10819,
+      "sha256": "4ecca881878431c4177ab13ed7b74bf8514a5ed050defc8c59232b47008c35a6",
+      "working_copy_required": true
+    },
+    {
+      "ref": "ecd1e1ce83312535b403fb872ca544f4e876c49b",
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/INPUTS.json",
+      "bytes": 3500,
+      "sha256": "d4870015a4c74251361db5040e26f7e1676395d34f88d3661dd99e5635f805f2",
+      "working_copy_required": true
+    },
+    {
+      "ref": "ecd1e1ce83312535b403fb872ca544f4e876c49b",
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/NEXT_TEST.md",
+      "bytes": 2293,
+      "sha256": "321cb2939213d3e2916b12ad6fbc197d5a12316caea14b3e6a754a5ea406de2f",
+      "working_copy_required": true
+    },
+    {
+      "ref": "206b7f4fe1a73e892ccc6a41bc7cf19ea1a66485",
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/probe.py",
+      "bytes": 5720,
+      "sha256": "9f21e6d6068a65bff9ff7789ea2a29fd300edfb96e08a36ed55de8257d0a41f4",
+      "working_copy_required": true
+    },
+    {
+      "ref": "206b7f4fe1a73e892ccc6a41bc7cf19ea1a66485",
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/PROOF.md",
+      "bytes": 8587,
+      "sha256": "b1fc46adf8f9e6c397635badd425b8dbed359e792233180840564e2948a22890",
+      "working_copy_required": true
+    },
+    {
+      "ref": "206b7f4fe1a73e892ccc6a41bc7cf19ea1a66485",
+      "path": "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/NEXT_TEST.md",
+      "bytes": 3115,
+      "sha256": "9d5b2469f139908eb9b8eda16bd64eb2d2b1b9c82ce030bdd076588509989358",
+      "working_copy_required": true
+    }
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/1307.3021v1",
+      "read_scope": "sections 3.4--3.6 and example 3.19 personally; not full paper",
+      "access_date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/html/1812.06072v2",
+      "read_scope": "Appendix A.2 and B.1 equations B.1--B.7 personally; not full paper",
+      "access_date": "2026-10-09"
+    }
+  ],
+  "non_author_review": "pending",
+  "full_suite_certified": false,
+  "full_E8_higher_charged_structure_constants_recomputed": false,
+  "auxiliary_metric_not_identified_with_physical_background": true,
+  "scope": "Strict complementary acyclic boundary for the fixed silver E8 coefficient, with elliptic Hodge domain and explicitly changed auxiliary conditions; not a full physical model.",
+  "focused_expected_tests": 9,
+  "comparison_profiles": [
+    "block_profiles",
+    "full_harmonic_dimensions",
+    "symbol_reference_covectors",
+    "conditional_cone_preserved"
+  ],
+  "unearned_flags": [
+    "full_E8_structure_constants_recomputed",
+    "boundary_selected",
+    "full_real_action_completed",
+    "physical_spectrum_identified",
+    "stationary_chiral_completion",
+    "nonauthor_acceptance",
+    "physical_goal_achieved"
+  ],
+  "regression_tests": [
+    "tests/test_physical_bridge_silver_spectral_completion.py",
+    "tests/test_physical_bridge_silver_nonlinear_boundary.py",
+    "tests/test_physical_bridge_silver_cyclic_transfer.py",
+    "tests/test_physical_bridge_silver_analytic_transfer.py",
+    "tests/test_physical_bridge_silver_complementary_boundary.py"
+  ]
+}
