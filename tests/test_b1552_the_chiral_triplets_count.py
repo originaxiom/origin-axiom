@@ -480,3 +480,29 @@ def test_w27_the_link_tested():
     import the_link_tested as LT
     a = LT.anomalies(LT.TWENTY_SEVEN * 3)
     assert LT.free(a) and a["SU(2) doublets"] == 18
+
+
+def test_w28_the_three_routes_and_the_qubit():
+    """W28 (the rule committed first): the six local solutions are a vector-spinor (spin 1/2 + spin 3/2); the moves
+    alone allow -3, -1, 1, 3, the flavor group alone -3, 0, 3, jointly and under locality only +-3; the common point is
+    the qubit (Pauli, Clifford, SU(2)_1's projective modular data, the three global forms, the twist-eater). The index
+    sets are recomputed in process"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_three_routes_and_the_qubit.json").read_text(encoding="utf-8"))
+    assert all(d["verdict"].values())
+    e5 = d["Part I the end condition"]["E5 the index sets"]
+    assert e5["the moves (the lifts of L and R)"]["index set"] == [-3, -1, 1, 3]
+    assert e5["the flavor group"]["index set"] == [-3, 0, 3]
+    assert e5["the moves and the flavor group"]["index set"] == [-3, 3]
+    assert e5["locality: the commutant of the puncture's own holonomy"]["index set"] == [-3, 3]
+    i4 = d["Part II the common point as the qubit"]["I4 the three global forms of su(2)"]
+    assert i4["their number (|P^1(F2)|)"] == 3
+    sys.path.insert(0, str(here))
+    import the_three_routes_and_the_qubit as TQ
+    lifts = TQ.lifts_of()
+    hol = [TQ.SC.W_of([1]), TQ.SC.W_of([2])]
+    _, F = TQ.SC.commutant(hol, 6)
+    assert TQ.index_set(TQ.isotypic(lifts)) == [-3, -1, 1, 3]
+    assert TQ.index_set(TQ.isotypic(F)) == [-3, 0, 3]
+    assert TQ.index_set(TQ.isotypic(lifts + F)) == [-3, 3]

@@ -634,3 +634,29 @@ write-up is `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`.
 not derivable from the weave.
 
 0 of 19.
+
+## 24. Added the same night: the end condition's routes to three, and the common point as the qubit (W28)
+
+The owner approved a verification plan after reading the whole arc back. This is its foundation (steps 1 and 2). The
+rule came first (`W28_RULE.md`, 57f019ed); one run; every cell as predicted.
+
+- **The count, without a sector postulate.**
+  - At the puncture the six local solutions are a vector-spinor: spin ½ ⊕ spin 3/2 under 2O.
+  - W24's two middle conditions (index ∓1) are those two parts. Each couples the three parity sectors and breaks 𝕎's
+    flavor group U(3) to a phase.
+  - The moves alone allow −3, −1, +1, +3, and the flavor group alone −3, 0, +3. Jointly only ±3. Locality (the
+    puncture's holonomy is −1) gives ±3 too.
+  - So §23's "kept apart" (Λ's parity grading) follows from the end condition breaking no symmetry of the bulk
+    problem. That requirement is a naturality condition, stated, not derived.
+- **The common point as the qubit, checked.**
+  - Q₈ is the Pauli group, and the parities are the three Pauli axes.
+  - The moves' lifts are the Clifford group (2O, the normaliser of Q₈). They act through PSL(2, ℤ/4) ≅ S₄ as SU(2)
+    level 1's projective modular data, and the semion and the anti-semion match equally (the hand is not in these
+    data).
+  - The parities are ℙ¹(𝔽₂), the three global forms SU(2), SO(3)₊ and SO(3)₋ (equivariantly under every move).
+  - The common point is 't Hooft's twist-eater.
+- **Not touched:** the gauge content. The next step is the ℤ₆ twist-eater (W29).
+
+**Ask.** None new. §23's ask (rule on Λ) stands, now with its "kept apart" reduced to the naturality condition above.
+
+0 of 19.

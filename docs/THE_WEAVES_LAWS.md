@@ -161,6 +161,10 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   - **Qualified by W24's D0.** The blocks are one doublet, so conditions may mix them. The moves alone keep four
     (index −3, −1, +1, +3). The law that stands is that the index is odd, never 0. The value ±3 needs the condition to
     keep the parity grading.
+  - **Sharpened by W28 (the rule committed first; computed).** The six local solutions are a vector-spinor (spin ½ ⊕
+    spin 3/2), and the two middle conditions break 𝕎's flavor group to a phase. The moves alone allow −3, −1, +1, +3;
+    the flavor group alone allows −3, 0, +3; jointly only ±3. Locality (the puncture's holonomy −1) gives ±3 too. So
+    the law: **the index is ±3 for every end condition that breaks no symmetry of the bulk problem.**
 - **The E₈ frames on the fibre (W23; a census).** With W22's condition, every SU(n) bundle built from the common point's
   blocks gives at most one chiral 27 (E₆), two 16s (SO(10)), or SU(5)'s (1, 3) or (2, 2). Three complete generations
   are impossible there. The weave's five reads (1, 3), anomalous by −2 (GENESIS FK11).
@@ -184,6 +188,13 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     threads gives the weave a hand.
   - Each move is a transposition of the parities mod 2, so the order-3 orientation flips at every tick.
   - The weave's only hand is the records' orientation on the shared fibre.
+- **The common point is the qubit (W28; the rule committed first; computed, and I5 exact).**
+  - Q₈ is the Pauli group. The parities are the three Pauli axes, mutually unbiased, and ℙ¹(𝔽₂).
+  - The moves' lifts are the Clifford group (2O, the normaliser of Q₈), acting through PSL(2, ℤ/4) ≅ S₄ as SU(2) level
+    1's projective modular data. The semion and the anti-semion match equally, so the hand is not in these data.
+  - The parities are the three global forms of su(2) (SU(2), SO(3)₊, SO(3)₋), equivariantly under every move.
+  - The common point is 't Hooft's twist-eater, unique up to conjugation, and it eats the centre symmetry: each
+    non-trivial centre transformation is conjugation by one Pauli unit, and is one parity.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

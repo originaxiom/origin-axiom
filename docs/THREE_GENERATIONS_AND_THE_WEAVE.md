@@ -131,6 +131,7 @@ So this section records which patterns the weave's group contains, and nothing m
 | 16 | COMPUTED (W25, exact characters; the rule committed first, every cell as predicted) and PROVED (the lemma); a WEAVE theorem | the weave's forced bundles are self-conjugate: the fibre's holonomy Q₈ has only real and quaternionic irreducibles, and the group the weave forces on the six local solutions (order 192) is quaternionic, so on the fibre, where the index lives, every gauge reading is self-conjugate (Frobenius–Schur). A chirality-capable gauge group appears only when one parity is singled out (centraliser 82 ⊃ E₆: a selection) or when the order-3 move is in the holonomy (2T, centraliser 25, ω fifteen times: an odd-trace thread, odd-dimensional, B1604); the weave's S₄ exchanges ω and ω². So three chiral generations with gauge content cannot be derived from the weave's local systems: the dictionary (GENESIS FK11) needs an input the weave does not force |
 | 17 | COMPUTED (W26, exact and SnapPy; the rule committed first, every cell as predicted); a WEAVE result, NEGATIVE for the candidates beyond the weave | the search beyond the weave (the owner's choice): the weave is closed under the mirror (S φ⁻¹ S⁻¹ = reverse(φ) with L ↔ R, all 224 words to length 10), and on all 42 threads to length 6 the mirror has the same volume and opposite Chern–Simons, so the threads' hyperbolic holonomies give the weave no hand; each move is a transposition of the parities mod 2, so the order-3 orientation (F-MC's 27 against 27̄) flips at every tick on all 98 odd-trace words; F-MC declares chirality an input. The record's best derivation: F-MC's gauge structure with its inputs, the weave's count three with its common hand, and FK11 between them |
 | 18 | STATED and TESTED (W27; the rule committed first; exact) | the derivation with its one link (the owner's choice): from the principle, F-MC's typed inputs and one link Λ (the weave's form of FK11: a generation is F-MC's 27 on spacetime × the shared fibre carrying 𝕎, each parity sector one generation, the hand the records' orientation) follow exactly three chiral 27s, alike, in the flavor triplet, each with one Standard Model generation. Tests: anomaly-free (exact, per 27 and for three); the count is ±3 only under Λ's parity grading; read in six dimensions, Dobrescu–Poppitz's global SU(2) condition holds exactly when the sectors are a multiple of three (local anomalies would need a completion); beyond the three, three right-handed neutrinos and heavy vector-like states. Mixing fenced (§3). Λ itself is the input W25 and W26 show the weave cannot supply |
+| 19 | COMPUTED and PROVED (W28; the rule committed first, every cell as predicted); a WEAVE result, the foundation | the end condition's routes to three: the six local solutions are a vector-spinor (spin ½ ⊕ spin 3/2); the two middle conditions couple the sectors and break 𝕎's flavor group to a phase. The moves alone allow −3, −1, +1, +3, the flavor group alone −3, 0, +3, jointly only ±3; locality (the puncture's holonomy −1) gives ±3 too. So row 18's "kept apart" follows from the end condition breaking no symmetry of the bulk problem, a stated naturality condition. The common point read as the qubit, checked: the Pauli group, the moves the Clifford group acting through SU(2) level 1's projective modular data (the hand in the phases, invisible), the parities ℙ¹(𝔽₂) and the three global forms of su(2), the common point 't Hooft's twist-eater |
 | 10 | OPEN | content from the weave: another frame or dictionary (GENESIS FK11). In main's F-CI, deck orbits of three at tick 3 on every odd-trace thread in its range (B1434), each background counting one, give three with the deck kept (GENESIS FK7); the swap kept out of the moves, which W10's hand needs (GENESIS GM5c); masses; the six types |
 
 **Graded by GENESIS's `docs/THE_BAR.md`.**
@@ -356,6 +357,25 @@ taken from the weave. Every link is named with its status.
   - **The record's best derivation:** F-MC's gauge structure with its typed inputs, the weave's count three with
     its common hand, and the identification FK11 between them. The weave closes THE_CLAIM's open generation count;
     the identification remains.
+- **W28: the end condition's routes to three, and the common point as the qubit** (the owner's approved plan, steps 1
+  and 2; the rule committed first, 57f019ed).
+  - **The two middle conditions** of W24's audit are the vector-spinor's parts: the six local solutions are spin ½ ⊗
+    spin 1 = spin ½ ⊕ spin 3/2 under 2O. The index −1 condition is the diagonal {(v, v, v)}.
+  - **Each couples the three sectors at the puncture and breaks 𝕎's flavor group U(3) to a phase.**
+  - **The joint action decides.**
+    - The moves alone allow −3, −1, +1, +3.
+    - The flavor group alone allows −3, 0, +3.
+    - Together they allow only ±3. Locality, using only the puncture's own holonomy −1, gives ±3 too.
+  - **So the parity grading is not needed as a postulate about sectors.** It follows from the end condition breaking no
+    symmetry of the bulk problem. That requirement is a naturality condition, stated, not derived.
+  - **The qubit reading, checked.**
+    - Q₈ is the Pauli group, and the parities are the three Pauli axes (mutually unbiased).
+    - The moves' lifts are the Clifford group (2O, the normaliser of Q₈). They act through PSL(2, ℤ/4) ≅ S₄, as SU(2)
+      level 1's projective modular data. One dictionary each matches the semion and the anti-semion, so the hand is in
+      the phases and invisible here.
+    - The parities are ℙ¹(𝔽₂), the three global forms SU(2), SO(3)₊ and SO(3)₋ (equivariantly).
+    - The common point is 't Hooft's twist-eater, which eats the centre symmetry.
+  - **What it does not do:** bear on the gauge content. That is the next step (W29, the ℤ₆ twist-eater).
 - **A prediction that half failed.** The mod-16 criterion was committed before its test (W15). The extensions on the
   rest of length 8 obeyed it. F-CI did not: it carries on ±LLLLLRRR. So the two instruments' shared silence on ±LLRLRR
   was a coincidence.

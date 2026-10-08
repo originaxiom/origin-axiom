@@ -1223,6 +1223,15 @@ irreducibility, the threads' eigenlines, the spin structure): a WEAVE result.
   parity blocks apart (or the operator's flavor symmetry). GAP2 is closed for this operator, up to the hand, under that
   condition. With the moves alone it is closed up to four choices, none of them vector-like.
 
+**Added by W28 (2026-10-08, the rule committed first).**
+- **What the two middle conditions are.** The six local solutions are a vector-spinor, spin ½ ⊗ spin 1 = spin ½ ⊕
+  spin 3/2 under 2O. The index −1 condition is the diagonal {(v, v, v)}, and the index +1 condition is its complement.
+  Both couple the three parity sectors at the puncture, and both break the flavor group U(3) to a phase.
+- **Three natural requirements each give ±3:** the end condition keeps the flavor group, or the parity grading (part
+  of it), or it is local (the puncture's own holonomy is −1, so its symmetry is all of U(6)).
+- **The joint action.** The moves alone allow −3, −1, +1, +3. The flavor group alone allows −3, 0, +3. Together they
+  allow only ±3.
+
 ## W23. The record's E₈ frames on the weave's fibre give at most two complete generations (`the_e8_frames_on_the_fibre.py`)
 
 **Why.** W22 left one link open: which matter fields carry the parity-twisted spin bundle. The record's standard
@@ -1531,6 +1540,98 @@ label is "derived given one stated link".
 **Status.** STATED (Λ, an input) and COMPUTED (T1–T4, exact). The label is "derived given one stated link", never
 "derived from the principle" alone.
 
+## W28. The end condition's routes to three, and the common point as the qubit (`the_three_routes_and_the_qubit.py`; `W28_RULE.md`)
+
+**Why.** The owner approved the verification plan after the two contemplation turns: the foundation first (steps 1
+and 2), then the ℤ₆ twist-eater (step 3, W29).
+- **Part I** asks what W24's two middle end conditions are, and whether a natural requirement other than the parity
+  grading excludes them.
+- **Part II** checks the contemplation's reading of the common point as the qubit.
+- Nothing here bears on the gauge content.
+
+**Weave or thread?** Weave. Every cell takes all the moves' lifts and all three parities, at the point every move
+fixes. The quantities are joint commutants and the group all the lifts generate.
+
+**The rule** (`W28_RULE.md`, committed 57f019ed before the run). One run; every cell as predicted.
+
+**Part I, the end condition (COMPUTED; exact up to floating point on groups of order at most 48).**
+- **E1, the block form.** Every lift of L and R is Π ⊗ G: an unsigned permutation of the three parity blocks, which is
+  the move's action on the parities mod 2, with one G ∈ 2O in every block.
+  - In ρ_Q ⊗ ℂ³ coordinates every lift is Ad(G) ⊗ G, with Ad(G) a signed permutation of determinant 1.
+  - So the six local solutions are vector ⊗ doublet.
+  - P and −I have the same form.
+- **E2, the two middle conditions.** They are the diagonal V₂ = {(v, v, v)} and the sum-zero V₄. Their projections
+  span the commutant.
+  - Under the group of order 48 the lifts generate, V₂ has character tr G (the spin doublet) and V₄ has
+    (tr G)³ − 2 tr G (spin 3/2).
+  - Both have norm 1 and Frobenius–Schur indicator −1.
+  - V₂ is the Clebsch–Gordan copy Σ_p u_p v ⊗ e_p of the doublet: the γ-trace part of a vector-spinor.
+- **E3, the flavor group.** The flat automorphisms of 𝕎 form M₃(ℂ) (dimension 9), acting as X ⊗ 1 on ρ_Q ⊗ ℂ³.
+  - The lifts normalise it.
+  - Its invariant subspaces are λ ⊗ ℂ³ (isotypic structure: the 3, twice), so the indices are −3, 0 and +3.
+- **E4.** The part of the flavor algebra that keeps V₂ (or V₄) is the scalars, dimension 1. So every flavor symmetry
+  other than a phase moves the two middle conditions.
+- **E5, the index sets.** The puncture's holonomy is −1 on all six, and its commutant is all of M₆.
+
+  | requirement | commutant | indices |
+  |---|---|---|
+  | the moves | 2 (the 2 and the 4) | −3, −1, +1, +3 |
+  | the flavor group | 4 (the 3, twice) | −3, 0, +3 |
+  | the parity grading | 12 | −3, …, +3 |
+  | the moves and the flavor group | 1 | ±3 |
+  | the moves and the parity grading | 1 | ±3 |
+  | locality (the puncture's own symmetry, U(6)) | 1 | ±3 |
+
+**Part II, the common point as the qubit (COMPUTED; I5 exact by sympy).**
+- **I1, the Pauli group.**
+  - ρ(a) = iZ, ρ(b) = iY and ρ(ab) = iX, so Q₈ is the qubit's Pauli group in SU(2).
+  - Each parity is one Pauli axis, and its kernel is the holonomies along that axis: (0, ½) is Z, (½, 0) is Y and
+    (½, ½) is X.
+  - The three eigenbases are mutually unbiased.
+- **I2, the Clifford group.** The lifts are:
+  - L, e^{iπZ/4} (a quarter turn about Z, the phase gate up to a phase);
+  - R, e^{−iπY/4};
+  - P, (iZ + iY)/√2;
+  - −I, iX.
+
+  The lifts of L and R generate 2O (48), which is the normaliser of Q₈ in SU(2): it normalises Q₈, |Aut(Q₈)| = 24,
+  and the kernel is ±1. Its 24 rotations are exactly those of the Clifford group ⟨H, S⟩.
+- **I3, SU(2) at level 1.**
+  - For both the semion SU(2)₁ and the anti-semion (E₇)₁: S² = 1 and (ST)³ = S².
+  - Verlinde's loops are W_A = Z and W_B = X, and they anticommute (the common point's −1).
+  - T fixes W_A and sends W_B to a multiple of W_A W_B.
+  - The images in SO(3) are the weave's 24 rotations.
+  - Exactly one cube rotation carries the weave's (ρ(a), ρ(b), g_L, g_R) to each theory's (W_A, W_B, T, ST⁻¹S⁻¹): for
+    the semion x ↦ −y, y ↦ −x, z ↦ −z; for the anti-semion x ↦ −y, y ↦ x, z ↦ z.
+  - The weave's images satisfy s² = (st)³ = t⁴ = 1. So the moves act on the common point through the (2, 3, 4)
+    triangle group, PSL(2, ℤ/4) ≅ S₄.
+- **I4, the three global forms of su(2).**
+  - The maximal isotropic subgroups of 𝔽₂² are three (ℙ¹(𝔽₂)), and the three parities' kernels are exactly they:
+    (0, ½) ↦ SU(2), (½, 0) ↦ SO(3)₊, (½, ½) ↦ SO(3)₋, with a electric and b magnetic (Aharony–Seiberg–Tachikawa).
+  - Mutual locality is the parity's character.
+  - The correspondence is equivariant under every move. L is θ → θ + 2π, fixing SU(2) and swapping SO(3)₊ and SO(3)₋.
+- **I5, 't Hooft's twist-eater.**
+  - Exact: q₀|p|² = (p · {p, q})/2 and p₀|q|² = (q · {p, q})/2. So anticommuting unit quaternions are pure and
+    orthogonal, and every SU(2) pair with commutator −1 is conjugate to the common point.
+  - Its centraliser is ±1.
+  - Each non-trivial centre transformation (A, B) ↦ (ε_a A, ε_b B) is conjugation by one unit and is one parity: the
+    twist-eater eats the centre symmetry.
+
+**What it shows.**
+- **The count.** ±3 follows from one natural requirement: the end condition breaks no symmetry of the bulk problem
+  (the moves and 𝕎's flat automorphisms). Locality gives the same.
+  - The middle conditions are the vector-spinor's spin-½ and spin-3/2 parts. They couple the sectors at the puncture
+    and break flavor to a phase.
+  - So Λ's "kept apart" (W27) is a consequence of that requirement, not a separate postulate about sectors.
+  - The requirement itself is a naturality condition, stated, not derived.
+- **The reading, now checked.**
+  - The common point is the qubit, and the moves are its Clifford group, acting through SU(2) level 1's projective
+    modular data.
+  - The parities are the three Pauli axes, ℙ¹(𝔽₂), and the three global forms of su(2).
+  - The hand is invisible to all of it: the semion and the anti-semion match equally, which is consistent with W26.
+
+**Status.** COMPUTED (Part I; Part II) and PROVED (I5, exact): a WEAVE result. It is a foundation, not a gauge result.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -1563,6 +1664,7 @@ label is "derived given one stated link".
 | W25 | COMPUTED (exact characters; the rule committed first, every cell as predicted) and PROVED (the lemma, F5); a WEAVE theorem | the weave's forced bundles are self-conjugate. The fibre's holonomy Q₈ has only real and quaternionic irreducibles, and the weave's group on the six local solutions (order 192) is quaternionic, so every gauge reading on the fibre, the even-dimensional object where the index lives, is self-conjugate. Chirality-capable gauge groups appear only when one parity is singled out (the centraliser of ⟨e_p⟩, 82, contains E₆: a selection) or when the order-3 move is in the holonomy (2T, centraliser 25, ω fifteen times: a thread, odd-dimensional, B1604). The weave's S₄ conjugates every 3-cycle to its inverse and exchanges ω and ω². So the dictionary (GENESIS FK11) cannot be derived from the weave's local systems; it needs an input the weave does not force |
 | W26 | COMPUTED (exact and SnapPy; the rule committed first, every cell as predicted); a WEAVE result, NEGATIVE for the two candidates beyond the weave | the search beyond the weave (the owner's choice). The weave is closed under the mirror: S φ⁻¹ S⁻¹ = reverse(φ) with L ↔ R for all 224 words to length 10, and on all 42 threads to length 6 the mirror has the same volume and opposite Chern–Simons, so the threads' hyperbolic holonomies give the weave no hand. Each move is a transposition of the parities mod 2, so the order-3 orientation that would decide F-MC's 27 against 27̄ flips at every tick on all 98 odd-trace words; F-MC declares chirality an input (THE_CLAIM §1). The weave's only hand is the records' orientation (forced only if the swap is not a move, GM5c). The record's best derivation: F-MC's gauge structure with its inputs, the weave's count three with its common hand, and FK11 between them |
 | W27 | STATED (the link Λ, an input) and COMPUTED (exact; the rule committed first) | the derivation written with its one link: principle + F-MC's typed inputs + Λ give exactly three chiral 27s, alike, in the flavor triplet, each with one Standard Model generation; anomaly-free (exact); the count ±3 only under Λ's parity grading; in six dimensions Dobrescu–Poppitz's global SU(2) condition selects a multiple of three sectors (local anomalies would need a completion); three right-handed neutrinos. Labeled "derived given one stated link" (`docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`) |
+| W28 | COMPUTED and PROVED (I5, exact; the rule committed first, every cell as predicted); a WEAVE result, the foundation | the end condition: the six local solutions are a vector-spinor (spin ½ ⊕ spin 3/2 under 2O); the two middle conditions (index ∓1) couple the parity sectors and break 𝕎's flavor group U(3) to a phase. The moves alone allow −3, −1, +1, +3; the flavor group alone −3, 0, +3; jointly only ±3, and locality (the puncture's holonomy −1, symmetry U(6)) gives ±3 too. So Λ's "kept apart" follows from the end condition breaking no symmetry of the bulk problem (a stated naturality condition). The common point is the qubit: Q₈ the Pauli group, the parities the three Pauli axes (mutually unbiased), the moves' lifts the Clifford group (2O, the normaliser of Q₈), acting through PSL(2, ℤ/4) ≅ S₄ as SU(2) level 1's projective modular data (one dictionary each for the semion and the anti-semion: the hand is in the phases); the parities are ℙ¹(𝔽₂), the three global forms SU(2), SO(3)₊, SO(3)₋, equivariantly; the common point is 't Hooft's twist-eater, which eats the centre symmetry |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -1604,6 +1706,7 @@ label is "derived given one stated link".
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_three_routes_and_the_qubit.py` → `the_three_routes_and_the_qubit.json`: W28, the end condition's index sets under the moves, the flavor group, the grading and locality, and the common point as the qubit (Pauli, Clifford, SU(2)₁, the global forms, the twist-eater); its rule `W28_RULE.md`, committed first.
 - `the_link_tested.py` → `the_link_tested.json`: W27, the link's tests (anomalies, the count under the link, the six-dimensional global condition, the 27's remainder); its rule `W27_RULE.md`, committed first; the write-up `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`.
 - `the_weaves_mirror.py` → `the_weaves_mirror.json`: W26, the mirror closure of the weave (exact), the threads' volumes and Chern–Simons against their mirrors (SnapPy), and the order-3 orientation tick by tick; its rule `W26_RULE.md`, committed first.
 - `the_self_conjugate_weave.py` → `the_self_conjugate_weave.json`: W25, the Frobenius–Schur indicators of the weave's forced holonomies and the centralisers in E₈ of Q₈, of one parity's element and of the odd-trace extension; its rule `W25_RULE.md`, committed first.

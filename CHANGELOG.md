@@ -1,5 +1,25 @@
 # Changelog
 
+## The weave's W28: the end condition's routes to three, and the common point as the qubit
+
+- **The owner approved the verification plan** after the two contemplation turns: the foundation first (steps 1 and
+  2). The rule (W28_RULE.md, 57f019ed) was committed first; one run; every cell as predicted.
+- **The end condition (Part I).**
+  - The six local solutions at the puncture are a vector-spinor: spin ½ ⊕ spin 3/2 under 2O.
+  - W24's two middle conditions (index ∓1) are its two parts. They couple the parity sectors and break 𝕎's flavor
+    group U(3) to a phase.
+  - The moves alone allow −3, −1, +1, +3. The flavor group alone allows −3, 0, +3. Jointly only ±3, and locality gives
+    ±3 too.
+  - So W27's "kept apart" follows from the end condition breaking no symmetry of the bulk problem, a stated naturality
+    condition.
+- **The common point as the qubit (Part II).**
+  - Q₈ is the Pauli group, and the parities are the three Pauli axes.
+  - The moves' lifts are the Clifford group, acting as SU(2) level 1's projective modular data through
+    PSL(2, ℤ/4) ≅ S₄. The semion and the anti-semion match equally, so the hand is not in these data.
+  - The parities are ℙ¹(𝔽₂) and the three global forms of su(2).
+  - The common point is 't Hooft's twist-eater.
+- **Not touched:** the gauge content. That is W29.
+
 ## The weave's W27: three generations, derived given one stated link
 
 - **The owner's choice** after W26: state the link, write the derivation up, and test it. The rule (W27_RULE.md,

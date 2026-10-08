@@ -37,7 +37,7 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
 | 2 | **three**: the three non-zero parities of the records, the only three the moves leave undistinguished | PROVED | W1 |
 | 3 | **alike**: whatever one parity carries, all three carry | PROVED | Theorem G (W6) |
 | 4 | the common point ρ_Q (a ↦ i, b ↦ j), the one point every move fixes with the puncture parabolic; the bundle 𝕎 = ⊕_p χ_p ⊗ ρ_Q ≅ ρ_Q ⊗ ℂ³ | PROVED | W2; W24 D1 |
-| 5 | **chiral**: at the puncture the moves fix the end condition up to the hand; the index is odd, never 0, and **exactly ±3 when the parity sectors are kept apart** | COMPUTED and PROVED | W22 with W24's D0 |
+| 5 | **chiral**: at the puncture the moves fix the end condition up to the hand; the index is odd, never 0, and **exactly ±3 when the parity sectors are kept apart**, which follows from the end condition breaking no symmetry of the bulk problem (W28: the flavor group, or locality) | COMPUTED and PROVED | W22 with W24's D0; W28 |
 | 6 | **the flavor triplet**: the holomorphic zero modes span T = μ ⊗ 3′, irreducible, not equivalent to its conjugate; T is the tangent space of the fibre's character variety at the common point | PROVED and COMPUTED (two routes) | W21; W24 A3 |
 | 7 | **the gauge structure**: [SU(3) × SU(2) × U(1)]/ℤ₆, the hypercharge direction, E₆'s 27 | F-MC: a closed theorem with five typed inputs, one of them the chirality bit | THE_CLAIM §1 (main) |
 | 8 | **Λ**, the one link | STATED (an input; shown not derivable from the weave) | this page; W25, W26 |
@@ -54,6 +54,10 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
   - Without the parity grading, the moves alone also allow index ±1 (W24 D0, commutant 2).
   - With the grading Λ asserts, the commutant is 1, so the index is ±3 only.
   - This is the one place where Λ's "each parity sector is one generation" does work, and it makes the count three.
+  - **W28 (after W27).** The grading is not needed as a separate postulate. The two ±1 conditions are the
+    vector-spinor's spin-½ and spin-3/2 parts, and they break 𝕎's flavor group U(3) to a phase. So every end condition
+    that breaks no symmetry of the bulk problem (the moves and the flavor group), or that is local (the puncture's
+    holonomy is −1), has index ±3. That requirement is a naturality condition, stated, not derived.
 - **The six-dimensional reading (T3, passed, with a stated limit).**
   - Read in six dimensions, each parity sector is a rank-2 bundle carrying 8 SU(2) doublets of one 6d chirality.
   - Dobrescu–Poppitz's global condition (hep-ph/0102010: N(2₊) − N(2₋) ≡ 0 mod 6, from π₆(SU(2)) = ℤ₁₂) then holds
@@ -86,7 +90,7 @@ alone. The link is named below, and W25 and W26 show why the weave cannot supply
 - **Derived from the principle** (no frame, no link):
   - three;
   - alike;
-  - an odd net chirality, three when the parities stay separate;
+  - an odd net chirality, three when the end condition breaks no symmetry of the bulk problem (W28);
   - a complex flavor triplet;
   - the hand as the records' orientation.
 - **Derived given F-MC's typed inputs:** the gauge group, its global form, and the hypercharge direction (main's

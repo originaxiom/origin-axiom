@@ -1,0 +1,623 @@
+{
+ "rule": "W28_RULE.md (committed 57f019ed before this ran)",
+ "Part I the end condition": {
+  "E1 the lifts, move by move": {
+   "L": {
+    "block permutation (row i <- column j)": [
+     [
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ]
+    ],
+    "Pi (x) G": true,
+    "Pi is the move's action on the parities' kernels mod 2": true,
+    "intertwines the holonomy": true,
+    "in rho_Q (x) C^3 coordinates: S (x) G, S the rotation Ad(G) on (u_1, u_2, u_3)": true,
+    "S": [
+     [
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ]
+    ]
+   },
+   "R": {
+    "block permutation (row i <- column j)": [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      1,
+      0
+     ]
+    ],
+    "Pi (x) G": true,
+    "Pi is the move's action on the parities' kernels mod 2": true,
+    "intertwines the holonomy": true,
+    "in rho_Q (x) C^3 coordinates: S (x) G, S the rotation Ad(G) on (u_1, u_2, u_3)": true,
+    "S": [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ],
+     [
+      0,
+      1,
+      0
+     ]
+    ]
+   },
+   "P": {
+    "block permutation (row i <- column j)": [
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    "Pi (x) G": true,
+    "Pi is the move's action on the parities' kernels mod 2": true,
+    "intertwines the holonomy": true,
+    "in rho_Q (x) C^3 coordinates: S (x) G, S the rotation Ad(G) on (u_1, u_2, u_3)": true,
+    "S": [
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1
+     ]
+    ]
+   },
+   "-I": {
+    "block permutation (row i <- column j)": [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    "Pi (x) G": true,
+    "Pi is the move's action on the parities' kernels mod 2": true,
+    "intertwines the holonomy": true,
+    "in rho_Q (x) C^3 coordinates: S (x) G, S the rotation Ad(G) on (u_1, u_2, u_3)": true,
+    "S": [
+     [
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  "E1 every lift of L and R is Pi (x) G, Pi the move's action on the parities mod 2": true,
+  "E1 the lifts of L and R intertwine the holonomy": true,
+  "E1 in rho_Q (x) C^3 coordinates every lift of L and R is Ad(G) (x) G: the six are vector (x) doublet": true,
+  "E2 V2 = {(v, v, v)} and V4 = {v1 + v2 + v3 = 0} are invariant under every lift": true,
+  "E2 the commutant (W24 D0: 2) is spanned by their projections": true,
+  "E2 the group the lifts generate on the six: order": 48,
+  "E2 V2's character is tr G (the spin doublet)": true,
+  "E2 V4's character is (tr G)^3 - 2 tr G (spin 3/2 restricted to 2O)": true,
+  "E2 norms of the two characters (1 = irreducible)": [
+   1.0,
+   1.0
+  ],
+  "E2 Frobenius-Schur indicators (-1 = quaternionic)": [
+   -1.0,
+   -1.0
+  ],
+  "E2 V2 is the Clebsch-Gordan copy {sum_p u_p v (x) e_p} of the doublet in rho_Q (x) C^3": true,
+  "E3 the flat automorphisms of W (the commutant of W(a), W(b)): dimension": 9,
+  "E3 in rho_Q (x) C^3 coordinates they are X (x) 1, X in M3(C)": true,
+  "E3 the lifts normalise the flavor algebra": true,
+  "E3 the flavor algebra's isotypic structure on the six [(dimension, multiplicity)]": [
+   [
+    3,
+    2
+   ]
+  ],
+  "E3 its invariant subspaces' indices": [
+   -3,
+   0,
+   3
+  ],
+  "E4 the part of the flavor algebra that keeps V2: dimension, and is it the scalars": [
+   1,
+   true
+  ],
+  "E4 ... that keeps V4": [
+   1,
+   true
+  ],
+  "E5 the puncture's holonomy W([a, b]) = -1 on all six": true,
+  "E5 the commutant of the puncture's holonomy: dimension (36 = all of M6)": 36,
+  "E5 the index sets": {
+   "the moves (the lifts of L and R)": {
+    "commutant": 2,
+    "isotypic structure [(dimension, multiplicity)]": [
+     [
+      2,
+      1
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    "index set": [
+     -3,
+     -1,
+     1,
+     3
+    ]
+   },
+   "the flavor group": {
+    "commutant": 4,
+    "isotypic structure [(dimension, multiplicity)]": [
+     [
+      3,
+      2
+     ]
+    ],
+    "index set": [
+     -3,
+     0,
+     3
+    ]
+   },
+   "the parity grading": {
+    "commutant": 12,
+    "isotypic structure [(dimension, multiplicity)]": [
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "index set": [
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "the moves and the flavor group": {
+    "commutant": 1,
+    "isotypic structure [(dimension, multiplicity)]": [
+     [
+      6,
+      1
+     ]
+    ],
+    "index set": [
+     -3,
+     3
+    ]
+   },
+   "the moves and the parity grading": {
+    "commutant": 1,
+    "isotypic structure [(dimension, multiplicity)]": [
+     [
+      6,
+      1
+     ]
+    ],
+    "index set": [
+     -3,
+     3
+    ]
+   },
+   "locality: the commutant of the puncture's own holonomy": {
+    "commutant": 1,
+    "isotypic structure [(dimension, multiplicity)]": [
+     [
+      6,
+      1
+     ]
+    ],
+    "index set": [
+     -3,
+     3
+    ]
+   }
+  },
+  "E5 every index set as the rule predicted": true,
+  "E5 neither the moves alone nor the flavor group alone fixes the count; jointly they force +-3": true
+ },
+ "Part II the common point as the qubit": {
+  "I1 the Pauli group": {
+   "rho(a) = iZ, rho(b) = iY, rho(ab) = iX": true,
+   "the quaternion units i, j, k are iZ, iY, iX": true,
+   "the parities": {
+    "(1/2, 0)": {
+     "unit u_p": "j",
+     "Pauli axis": "Y",
+     "kernel on the records mod 2": "b",
+     "the kernel's holonomy lies on that axis": true
+    },
+    "(0, 1/2)": {
+     "unit u_p": "i",
+     "Pauli axis": "Z",
+     "kernel on the records mod 2": "a",
+     "the kernel's holonomy lies on that axis": true
+    },
+    "(1/2, 1/2)": {
+     "unit u_p": "k",
+     "Pauli axis": "X",
+     "kernel on the records mod 2": "ab",
+     "the kernel's holonomy lies on that axis": true
+    }
+   },
+   "each parity is one Pauli axis, its kernel the holonomies along it": true,
+   "the three eigenbases are mutually unbiased": true
+  },
+  "I2 the Clifford group": {
+   "L": {
+    "lifts in 2O": 2,
+    "axis (X, Y, Z) and angle of Ad(g)": [
+     [
+      0.0,
+      0.0,
+      -1.0
+     ],
+     90.0
+    ],
+    "equals, up to sign": "e^{i pi Z/4}, a quarter turn about Z (the phase gate up to a phase)",
+    "holds": true
+   },
+   "R": {
+    "lifts in 2O": 2,
+    "axis (X, Y, Z) and angle of Ad(g)": [
+     [
+      0.0,
+      1.0,
+      0.0
+     ],
+     90.0
+    ],
+    "equals, up to sign": "e^{-i pi Y/4}, a quarter turn about Y",
+    "holds": true
+   },
+   "P": {
+    "lifts in 2O": 2,
+    "axis (X, Y, Z) and angle of Ad(g)": [
+     [
+      0.0,
+      0.707107,
+      0.707107
+     ],
+     180.0
+    ],
+    "equals, up to sign": "(iZ + iY)/sqrt2, a half turn about (Z + Y)/sqrt2",
+    "holds": true
+   },
+   "-I": {
+    "lifts in 2O": 2,
+    "axis (X, Y, Z) and angle of Ad(g)": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ],
+     180.0
+    ],
+    "equals, up to sign": "iX",
+    "holds": true
+   },
+   "every lift as named in the rule": true,
+   "the lifts of L and R generate: order": 48,
+   "it normalises Q8": true,
+   "|Aut(Q8)|": 24,
+   "kernel of the conjugation map 2O -> Aut(Q8)": 2,
+   "so 2O is the normaliser of Q8 in SU(2) (onto Aut(Q8); the centraliser of Q8 in SU(2) is +-1, Schur)": true,
+   "images in SO(3): the weave's lifts, the Clifford group <H, S>": [
+    24,
+    24
+   ],
+   "the same 24 rotations": true
+  },
+  "I3 SU(2) at level 1": {
+   "SU(2)_1 (the semion)": {
+    "S^2 = 1 and (ST)^3 = S^2": true,
+    "Verlinde's loops W_A, W_B are Z, X": true,
+    "W_A W_B = -W_B W_A (the common point's commutator -1)": true,
+    "T fixes W_A and sends W_B to a multiple of W_A W_B": true,
+    "image of <S, T> in SO(3): order": 24,
+    "the same rotations as the weave's": true,
+    "the cube's rotations M with M (rho(a), rho(b), g_L, g_R) M^-1 = (W_A, W_B, T, S T^-1 S^-1)": [
+     [
+      [
+       0,
+       -1,
+       0
+      ],
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       -1
+      ]
+     ]
+    ]
+   },
+   "(E7)_1 (the anti-semion)": {
+    "S^2 = 1 and (ST)^3 = S^2": true,
+    "Verlinde's loops W_A, W_B are Z, X": true,
+    "W_A W_B = -W_B W_A (the common point's commutator -1)": true,
+    "T fixes W_A and sends W_B to a multiple of W_A W_B": true,
+    "image of <S, T> in SO(3): order": 24,
+    "the same rotations as the weave's": true,
+    "the cube's rotations M with M (rho(a), rho(b), g_L, g_R) M^-1 = (W_A, W_B, T, S T^-1 S^-1)": [
+     [
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       1
+      ]
+     ]
+    ]
+   },
+   "exactly one M for each (the projective data match both; the hand is in the phases)": true,
+   "the semion's M is x -> -y, y -> -x, z -> -z": true,
+   "the weave's images: t = Ad g_L, s = Ad(g_L g_R^-1 g_L); s^2 = (st)^3 = t^4 = 1": true,
+   "L R^-1 L as a matrix (S-duality, up to sign)": [
+    [
+     0,
+     1
+    ],
+    [
+     -1,
+     0
+    ]
+   ],
+   "so the moves act on the common point through the (2, 3, 4) triangle group, PSL(2, Z/4) = S4, order": 24
+  },
+  "I4 the three global forms of su(2)": {
+   "maximal isotropic subgroups of F2^2": [
+    [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ]
+    ]
+   ],
+   "their number (|P^1(F2)|)": 3,
+   "the parities": {
+    "(1/2, 0)": {
+     "kernel": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "a Lagrangian": true,
+     "global form": "SO(3)+ (the 't Hooft line)"
+    },
+    "(0, 1/2)": {
+     "kernel": [
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "a Lagrangian": true,
+     "global form": "SU(2) (the Wilson line genuine)"
+    },
+    "(1/2, 1/2)": {
+     "kernel": [
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     "a Lagrangian": true,
+     "global form": "SO(3)- (the dyonic line)"
+    }
+   },
+   "each parity's kernel is a Lagrangian, all three met": true,
+   "mutual locality is the character: chi_v(x) = (-1)^omega(v, x)": true,
+   "equivariant: kernel(u o phi) = M_phi^-1 kernel(u) for every move": true,
+   "the moves on the global forms (genuine line v -> M v)": {
+    "L": {
+     "SO(3)+ (the 't Hooft line)": "SO(3)- (the dyonic line)",
+     "SU(2) (the Wilson line genuine)": "SU(2) (the Wilson line genuine)",
+     "SO(3)- (the dyonic line)": "SO(3)+ (the 't Hooft line)"
+    },
+    "R": {
+     "SO(3)+ (the 't Hooft line)": "SO(3)+ (the 't Hooft line)",
+     "SU(2) (the Wilson line genuine)": "SO(3)- (the dyonic line)",
+     "SO(3)- (the dyonic line)": "SU(2) (the Wilson line genuine)"
+    },
+    "P": {
+     "SO(3)+ (the 't Hooft line)": "SU(2) (the Wilson line genuine)",
+     "SU(2) (the Wilson line genuine)": "SO(3)+ (the 't Hooft line)",
+     "SO(3)- (the dyonic line)": "SO(3)- (the dyonic line)"
+    },
+    "-I": {
+     "SO(3)+ (the 't Hooft line)": "SO(3)+ (the 't Hooft line)",
+     "SU(2) (the Wilson line genuine)": "SU(2) (the Wilson line genuine)",
+     "SO(3)- (the dyonic line)": "SO(3)- (the dyonic line)"
+    }
+   },
+   "L is theta -> theta + 2 pi (fixes SU(2), swaps SO(3)+ and SO(3)-)": true
+  },
+  "I5 't Hooft's twist-eater": {
+   "q0 |p|^2 = (p . {p, q})/2 and p0 |q|^2 = (q . {p, q})/2 (exact)": true,
+   "so anticommuting unit quaternions are pure, and then orthogonal (exact)": true,
+   "so every pair in SU(2) with commutator -1 is conjugate to the common point (SO(3) is transitive on orthonormal pairs)": true,
+   "commutant of the common point on C^2 (1: its centraliser in SU(2) is +-1)": 1,
+   "the centre symmetry (A, B) -> (e_a A, e_b B)": {
+    "(1, -1)": {
+     "conjugation by": [
+      "i"
+     ],
+     "the parity with these signs": [
+      "(0, 1/2)"
+     ]
+    },
+    "(-1, 1)": {
+     "conjugation by": [
+      "j"
+     ],
+     "the parity with these signs": [
+      "(1/2, 0)"
+     ]
+    },
+    "(-1, -1)": {
+     "conjugation by": [
+      "k"
+     ],
+     "the parity with these signs": [
+      "(1/2, 1/2)"
+     ]
+    }
+   },
+   "each non-trivial element is conjugation by one unit, and is one parity (the twist-eater eats the centre symmetry)": true
+  }
+ },
+ "verdict": {
+  "E1 block form and the vector-spinor coordinates": true,
+  "E2 the middle conditions are spin 1/2 and spin 3/2": true,
+  "E3 the flavor group M3, normalised by the lifts, indices -3, 0, 3": true,
+  "E4 the middle conditions keep only the scalars of the flavor algebra": true,
+  "E5 the index sets as predicted": true,
+  "I1 Pauli": true,
+  "I2 Clifford": true,
+  "I3 SU(2)_1, one dictionary each for the semion and the anti-semion": true,
+  "I4 the global forms": true,
+  "I5 the twist-eater": true
+ }
+}

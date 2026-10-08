@@ -18185,3 +18185,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - The six-dimensional global SU(2) condition needs a multiple of three parity sectors, and three passes.
   - Three right-handed neutrinos.
 - **The label is "derived given one stated link".** Λ is the input W25 and W26 show the weave cannot supply.
+
+## 2026-10-08 (night, after the contemplation) — the weave's W28: the end condition's routes to three, and the qubit
+
+- **The owner approved the verification plan:** steps 1 and 2 first, then the ℤ₆ twist-eater. The rule came first
+  (57f019ed); one run; every cell as predicted.
+- **The count.**
+  - The six local solutions are a vector-spinor. The two ±1 end conditions are its spin-½ and spin-3/2 parts, and they
+    break 𝕎's flavor group to a phase.
+  - The moves and the flavor group jointly allow only ±3, and so does locality.
+  - So the parity grading W27 needed is a consequence of a natural requirement: the end condition breaks no symmetry
+    of the bulk problem.
+- **The qubit reading checked.** The Pauli group, the Clifford group, SU(2) level 1's projective modular data (the hand
+  not in them), the three global forms of su(2), and 't Hooft's twist-eater.
+- **The gauge content is untouched.** Next is W29, the ℤ₆ twist-eater.
