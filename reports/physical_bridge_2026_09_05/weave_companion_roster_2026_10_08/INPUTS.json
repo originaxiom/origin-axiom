@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "ref": "59ef9eda8692307e02938273f969a5eebe535c0a",
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/probe.py",
+      "bytes": 11143,
+      "sha256": "e77925916e4e4b8c5c21fd1a38d3bf1550c78f4ca45e33fce89af6d064c39c11"
+    },
+    {
+      "ref": "59ef9eda8692307e02938273f969a5eebe535c0a",
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md",
+      "bytes": 9042,
+      "sha256": "9c496728d230798a4db14841f91fe2ef272720be69950292164b4c697414bbd5"
+    },
+    {
+      "ref": "c52fcc47ce18ca440f6f336d51ea50f6fd65080e",
+      "path": "docs/dossiers/the_weave_2026-10-07/the_order_three_flux.py",
+      "bytes": 9509,
+      "sha256": "3a4444b0daf6e7e36434eaaf8a8a4e0c8b7e5731f1c1d932538dc51fddd31dd5"
+    },
+    {
+      "ref": "55c26b10e",
+      "path": "docs/dossiers/the_weave_2026-10-07/W31_RULE.md",
+      "bytes": 7862,
+      "sha256": "edaad7488ac2697fc9fe3ad0cce9e4ad7577a9c434c1176192810ec2d708746c"
+    }
+  ],
+  "focused_expected_tests": 15,
+  "comparison_profiles": [
+    "module_weights",
+    "module_dimensions",
+    "spin_line_selection",
+    "spin_kernel_dimensions",
+    "twist_profiles",
+    "complete_zero_weights",
+    "spin_Weyl_residual_coefficient"
+  ],
+  "unearned_flags": [
+    "full_curved_action_derived",
+    "gapped_4D_reduction_derived",
+    "physical_chiral_SM_derived",
+    "global_anomaly_acceptance",
+    "nonauthor_acceptance"
+  ],
+  "primary_sources": [
+    {
+      "title": "Mehta Seshadri 1980",
+      "url": "https://repository.ias.ac.in/20407/1/305.pdf",
+      "sha256": "f039f19dc7a507301572930bbc54e3a94cf7dac2449f7cdebed098a3ef7dd7b9",
+      "read_scope": "Proposition 1.9 through Definition 1.13, including full Proposition 1.12 proof, before this seal; page 11 visually inspected."
+    },
+    {
+      "title": "Andrews Dorey hep-th/0601098v2",
+      "url": "https://arxiv.org/abs/hep-th/0601098v2",
+      "sha256": "ac04d3a0b676bb94fd1c1474683d49652ae057f80d007f6ba838d85424b503e6",
+      "read_scope": "Section 3, Appendix A and end of section 6, with reading-custody refinement already disclosed at ca539e331; not the full paper."
+    }
+  ],
+  "scope": "Supplied minimal linear kinetic operators on the complete shared elliptic cusp; zero scalar background; all four spin lines; nine a,b in {-1,0,1}; no added flat R line."
+}

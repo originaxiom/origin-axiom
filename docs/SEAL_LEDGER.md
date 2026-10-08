@@ -2220,3 +2220,20 @@ separate reference/14 focused and25 two-packet regression PASS. Report
 weave_form_parent_2026_10_08/FINDINGS.md; literal exit/hash custody retained.
 Supplied kinetic dictionary and form-sector mass protection, not a full
 curved physical parent, generated selection, SM/TOE or outside acceptance.
+
+## Companion roster pre execution seal 2026 10 08
+
+Research checkpoint; no shared B identifier. All seven science files are
+unexecuted at this seal. Commit, push and server confirmation precede any
+import or test collection. Scope: complete zero roster of the supplied
+minimal (1,1) twists and unchanged cusp continuum, not full physics.
+
+| File | SHA256 |
+|---|---|
+| weave_companion_roster_2026_10_08/DESIGN.md | db518429bcc4c7eef4e47f547bd57b911d180c89a1c37a8aeac8869faaa75a94 |
+| weave_companion_roster_2026_10_08/PROOF.md | 3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0 |
+| weave_companion_roster_2026_10_08/INPUTS.json | e7b7a39da7e293acb8f39d64881097030bf2a2ffd67f784561f6d551fa1840eb |
+| weave_companion_roster_2026_10_08/probe.py | 3fb96e3dad38829fd1b68cae4d1a02d80b49f637cc688ee8b03eb84ffa0cc63d |
+| weave_companion_roster_2026_10_08/reference.py | c040a98306c91fa56fdee74c7ca2503e19858b0feb1e3b7e8fe1f976a64e1098 |
+| weave_companion_roster_2026_10_08/custody.rb | a063f41d04c7c715eeb47c6b20ded7f2b90d20f78e27a54d9f70e1fb0f1a3b08 |
+| tests/test_physical_bridge_weave_companion_roster.py | f63b1ac5b5e2516b68f3f502fbc29f6b9b8767b2e6011c949d99601f943db545 |
