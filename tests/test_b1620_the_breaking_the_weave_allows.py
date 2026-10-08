@@ -63,3 +63,14 @@ def test_b1618_odd_weight_addendum():
     o = json.load(open(ROOT / "frontier" / "B1618_the_weighted_cell_at_omega" / "verification" / "post_seal_odd_weight.json"))
     assert o["inner_fixed_dim_in_Sym2T"] == 3 and o["every_omega_spectrum_degenerate_or_zero"]
     assert [c["iota_eigenvalue"] for c in o["cells"]] == [[-1.0, 0.0]] and o["cells"][0]["dim"] == 3
+
+
+def test_genesis_v1_35_tau_omega_retired_and_the_write_up():
+    import subprocess, sys
+    g = open(ROOT / "GENESIS.md", encoding="utf-8").read()
+    assert int(g.split("**Version 1.")[1].split()[0]) >= 35                    # a lower bound (E86): later amendments may follow
+    assert "τ = ω RETIRED AS TESTED" in g and "THE BREAKING THE WEAVE ALLOWS (B1620, PROVED)" in g
+    r = subprocess.run([sys.executable, str(ARC / "adoption" / "amend.py"), "--check"], capture_output=True)
+    assert r.returncode == 0
+    w = open(ROOT / "docs" / "THE_DERIVED_STRUCTURE_FOR_REVIEW.md", encoding="utf-8").read()
+    assert "0 of 19" in w and "reduces none of the 13" in w and "P10" in w

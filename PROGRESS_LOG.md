@@ -16714,3 +16714,16 @@ either term at any weight. B1619 is corrected by addendum: the two-neutral test 
 codex's word, checked. The SM seat's W38–W41 and conventions registry, and the audit lane's physical four-Weyl packet,
 are rowed (1049–1056); pins sm `e077e4ba`, audit `c8c910a7`; the harvest debt is zero on every lane. A relay goes to both
 seats. 0 of 19.
+
+## 2026-10-08 — S99 THE DERIVED STRUCTURE, WRITTEN FOR OUTSIDE REVIEW, AND τ = ω RETIRED AS TESTED (GENESIS v1.35): the owner-agreed plan's third and fourth steps — what the principle derives (the flavour three; the gauge three a selection given Λ; the hand a convention; CP the swap; TM1 allowed under two of three tensors, P10) and how many of the 19 it leaves (all, for reasons that are theorems: Schur on the weave's irreducible group, every breaking free, no scale)
+
+**The write-up** (`docs/THE_DERIVED_STRUCTURE_FOR_REVIEW.md`), the restated goal's first deliverable. It covers the
+setting in five lines; the derived structure with each item's status and arcs; the count, all 19 free, and why: Schur's
+lemma on the weave's irreducible group, and on the whole lattice of its breakings the breaking itself is free (B1620); the
+one forced asymmetry outside the weave, the word's 1 + 2 split; P10, scoped by tensor; and five questions for a
+reviewer. It is written for review; sending it is the owner's decision (the standing hold on sends).
+
+**GENESIS v1.35** (`frontier/B1620_the_breaking_the_weave_allows/adoption/amend.py`, against the received v1.34, sha
+checked). τ = ω is retired as tested: given τ = ω, no weight gives a hierarchy at ω or near it in either term (B1617,
+B1618 and its odd-weight addendum); results "given τ = ω" stay conditional, and the choice of τ is open as before.
+B1620's result is recorded. The lock checks the amendment and the write-up. 0 of 19.

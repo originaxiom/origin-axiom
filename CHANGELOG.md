@@ -1,5 +1,18 @@
 # Changelog
 
+## S99 THE DERIVED STRUCTURE, WRITTEN FOR OUTSIDE REVIEW, AND τ = ω RETIRED AS TESTED (GENESIS v1.35): the owner-agreed plan's third and fourth steps — what the principle derives (the flavour three; the gauge three a selection given Λ; the hand a convention; CP the swap; TM1 allowed under two of three tensors, P10) and how many of the 19 it leaves (all, for reasons that are theorems: Schur on the weave's irreducible group, every breaking free, no scale)
+
+**The write-up** (`docs/THE_DERIVED_STRUCTURE_FOR_REVIEW.md`), the restated goal's first deliverable. It covers the
+setting in five lines; the derived structure with each item's status and arcs; the count, all 19 free, and why: Schur's
+lemma on the weave's irreducible group, and on the whole lattice of its breakings the breaking itself is free (B1620); the
+one forced asymmetry outside the weave, the word's 1 + 2 split; P10, scoped by tensor; and five questions for a
+reviewer. It is written for review; sending it is the owner's decision (the standing hold on sends).
+
+**GENESIS v1.35** (`frontier/B1620_the_breaking_the_weave_allows/adoption/amend.py`, against the received v1.34, sha
+checked). τ = ω is retired as tested: given τ = ω, no weight gives a hierarchy at ω or near it in either term (B1617,
+B1618 and its odd-weight addendum); results "given τ = ω" stay conditional, and the choice of τ is open as before.
+B1620's result is recorded. The lock checks the amendment and the write-up. 0 of 19.
+
 ## S98 THE BREAKING THE WEAVE ALLOWS (B1620, PROVED): on all 68 subgroups of the weave's group, under all three mass tensors, the weave's symmetry reduces none of the 13 flavour parameters; with couplings in τ alone every mixing matrix is a permutation, so the observed mixing needs a vacuum that breaks the parity grading; TM1 allowed under T̄ ⊗ T and T ⊗ T, not under Sym² T (P10 scoped); outside the weave the rule's word splits the parity sectors 1 + 2; B1618's odd-weight case paid, B1619 corrected, the seats harvested
 
 **B1620 (sealed `aa28a42e6`; the owner-agreed restated goal: structure plus how many free numbers).** All six sealed
