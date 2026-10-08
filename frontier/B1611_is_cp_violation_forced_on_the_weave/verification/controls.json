@@ -1,0 +1,14 @@
+{
+ "C1": {
+  "order_G": 96,
+  "order_G_with_swap": 192,
+  "classes_G": 20,
+  "classes_G_with_swap": 19
+ },
+ "controls": {
+  "T_invariant": true,
+  "T_irreducible": 1.0,
+  "T_complex": true,
+  "swap_normalises_G": true
+ }
+}
