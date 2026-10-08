@@ -409,3 +409,18 @@ No shared I-number or empirical normalization assigned.
 
 Finite safeguards do not establish global determinant-line triviality.
 Full SM/TOE, observer/qualia and gravity remain unachieved.
+
+### Physical gauge cutoff October8 path-local supplement
+
+Report: reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/FINDINGS.md.
+No shared I-number or empirical normalization assigned.
+
+| sides | exhibited map or distinction | scope |
+|---|---|---|
+| Actual four-Weyl mass and local heat operator | Physical kinetic normalization, target permutation and full Q/R potential trace identity | Supplied parent and complete domain; local analytic expansion is an explicit framework input |
+| Classical gauge cutoff approximation and quantum gauge continuity | NOT IDENTIFIED; eta_R approaches1 in the scalar graph norm while this inverse current does not converge | One old covariant current, not every quantum measure or a license to remove constant gauge transformations |
+| Vanishing compact response and end cancellation | NOT IDENTIFIED; trace and parameter cutoffs have distinct roles and different ordered limits | Actual end/reference transformation still required for a local completed action |
+| Lost end evaluation and an observer or qualia mechanism | NOT IDENTIFIED; a discontinuous functional on a specified completion is exhibited | No consciousness claim, foundational input reduction or empirical identification |
+
+Outside analytic acceptance and the full parameter-free SM/TOE remain
+unachieved. Existing positive alternatives are not excluded.

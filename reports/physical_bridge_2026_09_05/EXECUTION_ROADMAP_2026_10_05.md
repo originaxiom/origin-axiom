@@ -296,6 +296,19 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    cutoff limit explicitly. No cancellation coefficient chosen by fiat.
    NEXT_TEST is unexecuted planning. Full-loop modulus, stability,
    actual three-family kernels, interactions and genesis remain duties.
+   Stage2T October8 FIFTH GATE EXECUTED at research grade:
+   weave_gauge_limit_2026_10_08/FINDINGS.md.18 native/8 reference/
+   12 focused/314 nineteen-packet regression first-pass at ac781525a.
+   The actual local heat density cancels with Q/R potentials retained.
+   Compact gauge-parameter response is zero after the UV limit; the
+   old uncut inverse current retains a nonzero end response at nonzero
+   flux. Classical graph convergence does not imply quantum continuity.
+   No new local Gaussian or anomaly cancellation is supplied.
+   NEXT construct the end/reference state and gauge transformation
+   from the same local regulated Gaussian; compare both limits and
+   the paired prescription. NEXT_TEST remains unexecuted for that
+   construction. Outside analytic review and all stable-family,
+   full-loop, interaction and genesis duties remain.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

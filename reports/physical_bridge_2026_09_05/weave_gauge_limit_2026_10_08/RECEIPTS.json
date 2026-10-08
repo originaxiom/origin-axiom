@@ -1,0 +1,96 @@
+{
+  "pre_execution_seal": "ac781525ad886af8ce32e356e60f76acee913df7",
+  "native_attempt_number": 1,
+  "reference_attempt_number": 1,
+  "focused_attempt_number": 1,
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 2.127604000037536,
+    "log_bytes": 1846,
+    "log_sha256": "8a46e0f04eccfa390de9f79806f184a457aa337bbef4d15878403c294064b648",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 2.0218199999071658,
+    "log_bytes": 1173,
+    "log_sha256": "4af8dfe7c0b1b94562dcd37debbcf4bf3ec790e8c9b29e1000e06249b048c044",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 4.205871999962255,
+    "log_bytes": 99,
+    "log_sha256": "3bffd3f7945a8a3e6833649af990451deb5f98684526776803c402a99f13f303",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_gauge_limit.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 56.1392259998247,
+    "bytes": 421,
+    "sha256": "68b19fc46f827e9c8c370461940d9f6e2faa76ee750c7414ceb1166c9f8e3586",
+    "tests": [
+      "tests/test_physical_bridge_weave_puncture_operator.py",
+      "tests/test_physical_bridge_weave_form_parent.py",
+      "tests/test_physical_bridge_weave_companion_roster.py",
+      "tests/test_physical_bridge_weave_curved_action.py",
+      "tests/test_physical_bridge_weave_cusp_condensate.py",
+      "tests/test_physical_bridge_weave_global_condensate.py",
+      "tests/test_physical_bridge_weave_graded_condensate.py",
+      "tests/test_physical_bridge_weave_two_field_gauge.py",
+      "tests/test_physical_bridge_weave_sm_parallel.py",
+      "tests/test_physical_bridge_weave_magnetic_stationarity.py",
+      "tests/test_physical_bridge_weave_neutral_stability.py",
+      "tests/test_physical_bridge_weave_magnetic_index.py",
+      "tests/test_physical_bridge_weave_two_neutral_index.py",
+      "tests/test_physical_bridge_weave_physical_mass.py",
+      "tests/test_physical_bridge_weave_cusp_anomaly.py",
+      "tests/test_physical_bridge_weave_cusp_heat.py",
+      "tests/test_physical_bridge_weave_cusp_ward.py",
+      "tests/test_physical_bridge_weave_paired_phase.py",
+      "tests/test_physical_bridge_weave_gauge_limit.py"
+    ],
+    "tested_commit": "ac781525ad886af8ce32e356e60f76acee913df7",
+    "tree_unchanged": true
+  },
+  "governance_preseal": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 17.418677000096068,
+    "bytes": 2384,
+    "sha256": "7e810f0e96447da106582873f832ad893fe93577dcc316f54b84b4679e42d757",
+    "staged_content_tree": "162c3d43ccdf1c033116163c942d12d879b9e05e",
+    "staged_unchanged": true
+  },
+  "science_files_unchanged": 7,
+  "pinned_and_working_sources_unchanged": 23,
+  "full_suite_run": false,
+  "nonauthor_acceptance": false,
+  "governance_publication": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 18.712597999954596,
+    "bytes": 2384,
+    "sha256": "421048483feb7c17870e91b7ce2bcf994ecc63cb60ff1a881f49c7077ea13881",
+    "staged_content_tree": "bf7ecca54f0f297b69eeff4d2d82b8a0d197c43c",
+    "staged_unchanged": true
+  }
+}

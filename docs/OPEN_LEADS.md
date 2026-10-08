@@ -1,5 +1,29 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 gauge-cutoff checkpoint:
+reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/FINDINGS.md.
+18 native/8 reference/12 focused/314 regression first-pass at ac781525a.
+
+- PB-CUSP-GAUGE-CONTINUITY: EXECUTED. Closing scope: the previously
+  tested inverse current is discontinuous in the classical scalar graph
+  topology; compact-support UV cancellation does not imply constant-mode
+  cancellation. No quantum completion or universal no-go follows.
+- PB-CUSP-ANOMALY-COMPLETION: Stage2T PARTIAL. NEXT specify a local
+  regulated Gaussian, end/reference state and their actual gauge action.
+  Compute both gauge-parameter limits and compare with the paired phase.
+- PB-CUSP-UNSIGNED-QUANTUM-TRACE: no full-loop or modulus result added.
+- PB-CUSP-REVIEW: outside local-to-global heat, limit and determinant
+  review remains owed; same-author finite checks do not discharge it.
+- PB-CUSP-CHARGED-CONDENSATE: magnetic saddle constraints retained;
+  no stable chiral family created by the cutoff result.
+- Main377c17f21 outside-review write-up read, not independently replayed;
+  prior flavor-map and fit-calibration requests remain open.
+- Source/silver alternatives, full generated architecture, act/register/
+  lift, observer/qualia and gravity duties preserved. The full parameter-
+  free SM/TOE remains active and unachieved.
+
+Earlier dated NEXT entries below retain their historical epoch.
+
 October8 paired-phase checkpoint:
 reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/FINDINGS.md.
 20 native/8 reference/14 focused/302 regression first-pass at5831f542f.

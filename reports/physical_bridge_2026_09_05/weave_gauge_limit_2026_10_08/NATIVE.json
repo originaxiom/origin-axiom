@@ -1,0 +1,86 @@
+{
+  "all_quantum_completions_excluded": false,
+  "anomaly_cancellation_derived": false,
+  "anomaly_vectors": {
+    "-1": [
+      "1",
+      "5",
+      "9/2",
+      "1002",
+      "24"
+    ],
+    "-2": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "-3": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "0": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "1": [
+      "-1",
+      "-5",
+      "-9/2",
+      "-1002",
+      "-24"
+    ],
+    "2": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ],
+    "3": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ]
+  },
+  "compact_parameter_current_limit": 0,
+  "cutoff_norm_constant": "2160 - 5868*exp(-1)",
+  "facts": {
+    "actual_Q_R_are_off_block": true,
+    "actual_metric_normalized_principal_slots": true,
+    "actual_potential_has_zero_two_traces": true,
+    "arbitrary_matrix_heat_identity": true,
+    "complete_roster_not_a_selected_subsector": true,
+    "connection_square_trace_cancels": true,
+    "diagonal_potential_mutant_is_detected": true,
+    "full_virtual_rank_and_curvature_cancel": true,
+    "graph_cost_decays_not_end_value": true,
+    "graph_cost_positive_with_tail": true,
+    "lost_physical_slot_fails": true,
+    "nonzero_color_and_first_flux_kept": true,
+    "off_block_potential_first_jets_do_not_shift_density": true,
+    "omitted_kinetic_metric_fails": true,
+    "overlapping_shell_is_not_zero": true,
+    "separated_trace_shell_has_zero_parameter": true,
+    "transition_joins_value_and_first_derivative": true,
+    "zero_and_opposite_flux_kept": true
+  },
+  "local_gaussian_phase_derived": false,
+  "nonauthor_acceptance": false,
+  "overlap_integral": "-1/2",
+  "physical_goal_achieved": false,
+  "predicates_passed": 18,
+  "virtual_rank_degree": [
+    0,
+    0
+  ]
+}

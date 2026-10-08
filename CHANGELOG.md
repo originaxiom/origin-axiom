@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-10-08 classical gauge limit and quantum end response
+
+October8 gauge-cutoff checkpoint:18 native/8 separate reference/12
+focused and314 nineteen-packet regression tests PASS on first attempts
+at pushed sealac781525a. Report:
+reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/FINDINGS.md.
+For the same supplied parent, fixed domain and stationary family,
+the old covariant inverse current vanishes on compact gauge parameters
+after the UV limit, but can retain a nonzero response on the constant
+normalizable gauge mode. The cutoffs converge classically; this quantum
+current is discontinuous in that norm. Actual potential/curvature
+cancellation is checked with all physical slots. No local Gaussian,
+anomaly cure or universal completion exclusion is inferred.
+Stage2T PARTIAL: next derive the local end/reference state and its
+actual gauge transformation from the same regulated Gaussian.
+Seven science/23 pinned-and-working sources unchanged. Outside analytic
+review, full-suite/main-bank and four inherited governance failures
+remain. Main377c17f21 review report read, not independently replayed;
+SMd62458221 unchanged. Their reporting scope does not replace this lane's
+full parameter-free SM/TOE goal. Nonzero-flux saddles, zero-flux minima,
+source/silver positives and foundational act/register/lift duties remain.
+No observer/qualia, parameter or gravity derivation claimed.
+Earlier dated NEXT entries below retain their historical epoch.
+
 ## 2026-10-08 paired phase and consistent anomaly
 
 October8 paired-phase checkpoint:20 native/8 separate reference/14

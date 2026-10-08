@@ -1,5 +1,24 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 gauge-cutoff conditional sublemmas. Same supplied curved E8
+parent, fixed complete domain, stationary finite-condensate background
+and parallel unbroken external fields; compact gauge variations admitted.
+PROOF: reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/PROOF.md.
+Safeguards: tests/test_physical_bridge_weave_gauge_limit.py.
+
+| Scoped result | Argument and finite safeguard |
+|---|---|
+| Actual metric-normalized principal slots are Dz,Dz,Dbar,Dbar and Q/R potentials are off-block | test_actual_mass_principal_map, test_actual_higgs_potential_structure; arbitrary Q/R block formula, noncommuting finite matrix control |
+| Local heat-density difference is insensitive to the actual off-block potential | Arbitrary-matrix first-jet trace identity including induced connection squares; test_arbitrary_matrix_local_heat_identity, test_potential_inclusion_and_mutant, test_independent_differential_expansion |
+| Compactly smeared internal UV supertrace vanishes for the full physical virtual bundle | Rank and degree-two cancellation of E_internal tensor (2S-1-S^2), actual potential result and standard local heat theorem; test_all_physical_curvature_slots supports the finite algebra, not the analytic theorem |
+| Disjoint gauge and trace shells remove the inverse-current end insertion at fixed compact support | Pointwise trace-diagonal support argument in PROOF; test_distinct_cutoffs_and_overlap_control is a finite safeguard, not a substitute for that argument |
+| Smooth compact gauge parameters converge to the constant in the classical scalar graph norm | Explicit exponential cusp bounds; test_cutoff_norm_and_endpoint_control, test_classical_limit_does_not_set_end_value; C1 polynomial control with tail, smooth analytic transition |
+| This inverse current is not continuous in that norm at nonzero flux | Compact UV limit zero versus prior nonzero uncut slow-field response; test_full_old_anomaly_profiles_are_preserved safeguards coefficients, while the global limit is an authored analytic argument |
+
+18 native/8 reference/12 focused/314 regression first-pass at ac781525a.
+No local phase constructed or all-completion exclusion. Outside analytic
+acceptance and full physical SM/TOE duties remain. No shared law number.
+
 October8 paired-phase conditional sublemmas. Supplied curved E8 parent,
 fixed stationary internal background and complete graph domain;
 internally parallel unbroken external fields. One supplied internally

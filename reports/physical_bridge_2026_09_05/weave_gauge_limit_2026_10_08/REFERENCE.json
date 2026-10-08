@@ -1,0 +1,71 @@
+{
+  "anomaly_vectors": {
+    "-1": [
+      "1",
+      "5",
+      "9/2",
+      "1002",
+      "24"
+    ],
+    "-2": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "-3": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "0": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "1": [
+      "-1",
+      "-5",
+      "-9/2",
+      "-1002",
+      "-24"
+    ],
+    "2": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ],
+    "3": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ]
+  },
+  "cutoff_norm_constant": "2160 - 5868*exp(-1)",
+  "nonauthor_acceptance": false,
+  "overlap_integral": "-1/2",
+  "predicates": {
+    "differential_coefficients_reproduce_action": true,
+    "direct_operator_heat_trace_matches": true,
+    "full_tensor_population": true,
+    "independent_character_has_no_rank_or_degree": true,
+    "independent_color_keeps_first_endpoint": true,
+    "nonzero_diagonal_connection_control": true,
+    "positive_cutoff_constant": true,
+    "tail_is_not_suppressed_by_missing_term": true
+  },
+  "predicates_passed": 8,
+  "virtual_rank_degree": [
+    0,
+    0
+  ]
+}

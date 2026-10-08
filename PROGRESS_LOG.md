@@ -18066,3 +18066,33 @@ ten-term nonabelian descent witness retained; no post-execution repair.
 The prescribed polar pairing handles the massive phase, not the
 divergent modulus or a physical derivation of the regulator. The next
 local end comparison is unexecuted; no anomaly cancellation claimed.
+
+## 2026-10-08 gauge cutoff continuity and quantum end response
+
+October8 gauge-cutoff checkpoint:18 native/8 separate reference/12
+focused and314 nineteen-packet regression tests PASS on first attempts
+at pushed sealac781525a. Report:
+reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/FINDINGS.md.
+For the same supplied parent, fixed domain and stationary family,
+the old covariant inverse current vanishes on compact gauge parameters
+after the UV limit, but can retain a nonzero response on the constant
+normalizable gauge mode. The cutoffs converge classically; this quantum
+current is discontinuous in that norm. Actual potential/curvature
+cancellation is checked with all physical slots. No local Gaussian,
+anomaly cure or universal completion exclusion is inferred.
+Stage2T PARTIAL: next derive the local end/reference state and its
+actual gauge transformation from the same regulated Gaussian.
+Seven science/23 pinned-and-working sources unchanged. Outside analytic
+review, full-suite/main-bank and four inherited governance failures
+remain. Main377c17f21 review report read, not independently replayed;
+SMd62458221 unchanged. Their reporting scope does not replace this lane's
+full parameter-free SM/TOE goal. Nonzero-flux saddles, zero-flux minima,
+source/silver positives and foundational act/register/lift duties remain.
+No observer/qualia, parameter or gravity derivation claimed.
+Earlier dated NEXT entries below retain their historical epoch.
+
+Native2.127604s, reference2.021820s, focused12 passed in3.43s;
+regression314 passed in55.38s at a clean unchanged seal commit.
+Literal receipts retained; no post-execution repair. Two cutoffs kept
+separate, fixed compact UV cancellation and uncut end response retained.
+An explicit local quantum completion is still the next unexecuted duty.
