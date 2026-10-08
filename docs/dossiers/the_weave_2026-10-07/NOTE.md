@@ -964,6 +964,33 @@ Eichler–Shimura, agreeing on every orbit; every orbit's dimension equal to E�
 - **So the record's own choice gives three, and so does every SL(2) that fills E₆.** But ±3 is common: it appears on
   13 of the 21 orbits.
 
+**A third route, and the count as an orbifold index** (`the_weaves_count_orbifold.py`, after the census).
+- Brown's formula for a group with a torsion-free subgroup of finite index uses only the elements of finite order. The
+  count is a sum over the elliptic elements of SL(2, ℤ), each weighted by the orbifold Euler characteristic of its
+  centralizer and by its trace on the module. The fibre's term is taken with the records' traces.
+- It agrees with both routes on all 21 orbits.
+- On every distinguished orbit the 27 has trace 3 at S (the square torus), 0 at U and U² (the hexagonal torus), and 27
+  at −I. So −χ = 27/6 − 3/2 = 3: a bulk term less the square torus's twisted sector. That is the shape of an orbifold
+  index.
+
+**The count is the index of a non-flat bundle** (proved here, in a few lines).
+- The records' variation of Hodge structure Symᵏ H has, on the compactified moduli X̄ of the shared fibre, the Higgs
+  bundle E = λᵏ ⊕ λ^(k−2) ⊕ … ⊕ λ^(−k), with λ the records' Hodge line.
+- Its Higgs field λ^(k−2p) → λ^(k−2p−2) ⊗ Ω¹(log ∞) is Kodaira–Spencer's isomorphism Ω¹(log ∞) ≅ λ² on every piece
+  but the two ends. So the Higgs complex is quasi-isomorphic to λ^(−k) ⊕ λ^(k+2)[−1], and
+  χ(SL(2, ℤ); Symᵏ) = χ(X̄, λ^(−k)) − χ(X̄, λ^(k+2)).
+- These are Riemann–Roch indices of powers of a non-flat line bundle: dim M_(k+2) + dim S_(k+2) = h¹, as
+  Eichler–Shimura has it.
+- So −χ(G; 27) = 3 is the index of a non-flat bundle on an even-dimensional object that the weave forces. That is the
+  form main's FK11 condition names.
+
+**The hand, restated.**
+- The count is a net index: h¹ − h⁰ − h² = 4 − 1 = 3, and a non-zero net count is chirality.
+- Its sign is the same, +3, on every distinguished SL(2).
+- What the count leaves open is which of two conjugate names the three carry, 27 or 27̄. That is E₆'s outer
+  automorphism, a naming convention, not a second physical choice.
+- The line below, "the hand: the 27 and the 27̄ read alike", is right about the names and overstated about the hand.
+
 **Status.**
 - **COMPUTED, and exact:**
   - χ(Aut⁺(F₂); 27) = −3 through the principal sl₂, and through each distinguished one;
@@ -1045,6 +1072,7 @@ Eichler–Shimura, agreeing on every orbit; every orbit's dimension equal to E�
 - `W18_PREDICTION.md`: the per-parity prediction, committed before its test; `the_parity_generations.py` → `the_parity_generations.json`: W18, the five's sectors on the forced cover by Shapiro (32 states) and directly at the resolving tick (twelve states).
 - `the_parity_generations_special.py` → `the_parity_generations_special.json`: W18, post hoc: the whole line of gluing classes on every carrier over GF(73) and GF(97), two special classes on each.
 - `W20_RULE.md`: the rule, committed before the census; `the_weaves_count_in_e6.py` → `the_weaves_count_in_e6.json`: W20, the weave's Euler characteristic with coefficients in E₆'s 27 under every SL(2) in E₆.
+- `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `the_weaves_five.py` → `the_weaves_five.json`: W15, the spin doublet extended by the three parity lines, read with F-HE's pair.
 - `the_slope_law.py` → `the_slope_law.json`: W14, the slope law against the engine and F-CI's census on every odd-trace
   state to length 6; `the_slope_law_sample.py` → `the_slope_law_sample.json`: the law on 300 of +LLRLRR's modules.

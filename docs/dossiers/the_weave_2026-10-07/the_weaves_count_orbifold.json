@@ -1,0 +1,295 @@
+{
+ "route": "Brown's formula over the elliptic elements of SL(2, Z), with the fibre's term",
+ "agrees with W20's two routes on all 21 orbits": true,
+ "the distinguished orbits": {
+  "E6": {
+   "-chi(G; 27), Brown": 3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 0.0,
+    "U^2": -0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "E6(a1)": {
+   "-chi(G; 27), Brown": 3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 0.0,
+    "U^2": -0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "E6(a3)": {
+   "-chi(G; 27), Brown": 3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": -0.0,
+    "U^2": 0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  }
+ },
+ "-chi(G; 27) by orbit (Brown)": {
+  "0": -27,
+  "A1": -15,
+  "2A1": -7,
+  "3A1": -3,
+  "A2": -3,
+  "A2+A1": -1,
+  "2A2": 7,
+  "A2+2A1": -3,
+  "A3": -13,
+  "2A2+A1": -1,
+  "A3+A1": -3,
+  "A4": 3,
+  "D4": -3,
+  "A4+A1": -1,
+  "A5": -3,
+  "D5": 3,
+  "E6": 3,
+  "D4(a1)": 3,
+  "D5(a1)": -3,
+  "E6(a3)": 3,
+  "E6(a1)": 3
+ },
+ "rows": {
+  "0": {
+   "-chi(G; 27), Brown": -27,
+   "traces on the 27 at the elliptic elements": {
+    "S": 27.0,
+    "U": 27.0,
+    "U^2": 27.0,
+    "-I": 27
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -13.5
+  },
+  "A1": {
+   "-chi(G; 27), Brown": -15,
+   "traces on the 27 at the elliptic elements": {
+    "S": 15.0,
+    "U": 21.0,
+    "U^2": 9.0,
+    "-I": 3.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -7.5
+  },
+  "2A1": {
+   "-chi(G; 27), Brown": -7,
+   "traces on the 27 at the elliptic elements": {
+    "S": 7.0,
+    "U": 16.0,
+    "U^2": 0.0,
+    "-I": -5.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -3.5
+  },
+  "3A1": {
+   "-chi(G; 27), Brown": -3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 12.0,
+    "U^2": 0.0,
+    "-I": 3.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "A2": {
+   "-chi(G; 27), Brown": -3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 9.0,
+    "U^2": 9.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "A2+A1": {
+   "-chi(G; 27), Brown": -1,
+   "traces on the 27 at the elliptic elements": {
+    "S": -1.0,
+    "U": 6.0,
+    "U^2": -0.0,
+    "-I": 3.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": 0.5
+  },
+  "2A2": {
+   "-chi(G; 27), Brown": 7,
+   "traces on the 27 at the elliptic elements": {
+    "S": -5.0,
+    "U": 0.0,
+    "U^2": -0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": 2.5
+  },
+  "A2+2A1": {
+   "-chi(G; 27), Brown": -3,
+   "traces on the 27 at the elliptic elements": {
+    "S": -1.0,
+    "U": 4.0,
+    "U^2": 0.0,
+    "-I": -5.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": 0.5
+  },
+  "A3": {
+   "-chi(G; 27), Brown": -13,
+   "traces on the 27 at the elliptic elements": {
+    "S": 7.0,
+    "U": 1.0,
+    "U^2": 9.0,
+    "-I": -5.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -3.5
+  },
+  "2A2+A1": {
+   "-chi(G; 27), Brown": -1,
+   "traces on the 27 at the elliptic elements": {
+    "S": -1.0,
+    "U": 0.0,
+    "U^2": -0.0,
+    "-I": 3.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": 0.5
+  },
+  "A3+A1": {
+   "-chi(G; 27), Brown": -3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 0.0,
+    "U^2": 0.0,
+    "-I": 3.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "A4": {
+   "-chi(G; 27), Brown": 3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": -0.0,
+    "U^2": 0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "D4": {
+   "-chi(G; 27), Brown": -3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 9.0,
+    "U^2": 9.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "A4+A1": {
+   "-chi(G; 27), Brown": -1,
+   "traces on the 27 at the elliptic elements": {
+    "S": -1.0,
+    "U": 0.0,
+    "U^2": 0.0,
+    "-I": 3.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": 0.5
+  },
+  "A5": {
+   "-chi(G; 27), Brown": -3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 0.0,
+    "U^2": -0.0,
+    "-I": 3.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "D5": {
+   "-chi(G; 27), Brown": 3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 0.0,
+    "U^2": -0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "E6": {
+   "-chi(G; 27), Brown": 3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 0.0,
+    "U^2": -0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "D4(a1)": {
+   "-chi(G; 27), Brown": 3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 0.0,
+    "U^2": -0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "D5(a1)": {
+   "-chi(G; 27), Brown": -3,
+   "traces on the 27 at the elliptic elements": {
+    "S": -1.0,
+    "U": 4.0,
+    "U^2": 0.0,
+    "-I": -5.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": 0.5
+  },
+  "E6(a3)": {
+   "-chi(G; 27), Brown": 3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": -0.0,
+    "U^2": 0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  },
+  "E6(a1)": {
+   "-chi(G; 27), Brown": 3,
+   "traces on the 27 at the elliptic elements": {
+    "S": 3.0,
+    "U": 0.0,
+    "U^2": -0.0,
+    "-I": 27.0
+   },
+   "the bulk term, 27/12 twice": 4.5,
+   "the square torus's term": -1.5
+  }
+ }
+}

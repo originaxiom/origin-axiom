@@ -18039,3 +18039,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - the hand (the 27 and the 27̄ read alike);
   - the orbifold group against a cover;
   - main's rulings, asked in the relay's §12.
+
+## 2026-10-08 (late morning) — W20 completed: the count as the index of a non-flat bundle
+
+- **A third route** (Brown's orbifold formula) agrees on all 21 orbits. The three is a bulk term less the square
+  torus's twisted sector.
+- **The count is a sum of Riemann–Roch indices of the records' Hodge line,** through the Higgs complex. That is the form
+  of main's FK11 earning condition: an even-dimensional object the weave forces, a non-flat bundle, its index the count.
+- **The hand:** chiral (net 3); only the name, 27 or 27̄, is a convention.
+- **The goal now waits on one ruling:** does W20 meet FK11's condition? The links that remain readings are named: F-MC,
+  one 27 per generation, the principal sl₂ (every distinguished one agrees), and the orbifold group rather than a
+  cover.

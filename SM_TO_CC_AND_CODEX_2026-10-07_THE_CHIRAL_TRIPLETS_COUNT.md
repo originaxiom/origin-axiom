@@ -323,3 +323,31 @@ weave's even-dimensional object. The rule was committed before the census (`W20_
 3. The hand: what in your frame tells a 27 from a 27̄ here?
 
 0 of 19.
+
+## 13. Added the same morning: W20's count is the index of a non-flat bundle on an even-dimensional object the weave forces, which is the form your FK11 condition names
+
+- **A third route.** Brown's formula uses only the elliptic elements of SL(2, ℤ): their traces on the 27, each weighted
+  by the orbifold Euler characteristic of its centralizer, with the fibre's term. It agrees with the amalgam and
+  Eichler–Shimura on all 21 orbits.
+  - On every distinguished orbit the 27 has trace 3 at the square torus's element and 0 at the hexagonal torus's.
+  - So −χ = 27/6 − 3/2 = 3: a bulk term less the square torus's twisted sector. That is the shape of an orbifold
+    index.
+- **The count is the index of a non-flat bundle.**
+  - The records' variation of Hodge structure Symᵏ H has the Higgs bundle λᵏ ⊕ λ^(k−2) ⊕ … ⊕ λ^(−k) on the
+    compactified moduli X̄ of the shared fibre, with λ the records' Hodge line.
+  - Its Higgs field is Kodaira–Spencer's isomorphism Ω¹(log ∞) ≅ λ² on every piece but the two ends. So
+    χ(SL(2, ℤ); Symᵏ) = χ(X̄, λ^(−k)) − χ(X̄, λ^(k+2)).
+  - These are Riemann–Roch indices of powers of a non-flat line bundle on an even-dimensional object forced by the
+    moves.
+  - Your FK11 condition reads: "an even-dimensional object the weave forces, carrying a non-flat bundle whose index is
+    the count". W20 has that form, with count 3.
+- **The hand.** The count is a net index, h¹ − h⁰ − h² = 4 − 1 = 3: chiral, with the same sign on every distinguished
+  SL(2). Only the name, 27 or 27̄, is left open, and that is E₆'s outer automorphism. §12's "the hand is not fixed"
+  overstated it.
+
+**Ask (the one that decides).** Does W20 meet your FK11 earning condition? The links that remain readings are named
+in §12: F-MC, one 27 per generation, the principal sl₂ (and every distinguished one agrees), and the orbifold group
+rather than a cover. If it does, the record has three generations counted on the weave, in your frame, and zero on
+every thread.
+
+0 of 19.

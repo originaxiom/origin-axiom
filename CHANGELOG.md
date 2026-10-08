@@ -1,5 +1,17 @@
 # Changelog
 
+## The weave's W20, completed: a third route, and the count is the index of a non-flat bundle — the form of main's FK11 condition
+
+- **Brown's formula over the elliptic elements of SL(2, ℤ)** agrees with the amalgam and Eichler–Shimura on all 21
+  SL(2)s in E₆. On every distinguished orbit, −χ = 27/6 − tr₂₇(S)/2 = 4.5 − 1.5 = 3: a bulk term less the square
+  torus's twisted sector.
+- **The count as an index.** The records' variation of Hodge structure has a Higgs complex quasi-isomorphic to
+  λ^(−k) ⊕ λ^(k+2)[−1], so the count is a sum of Riemann–Roch indices of powers of the records' Hodge line λ. That is a
+  non-flat bundle, on the compactified moduli of the shared fibre, an even-dimensional object the moves force.
+- **The hand, restated.** The net index is 3, so the count is chiral, with the same sign on every distinguished
+  SL(2). Only the name, 27 or 27̄, is a convention (E₆'s outer automorphism).
+- **The relay's §13** puts the deciding question to main: does W20 meet the FK11 condition as main named it?
+
 ## The weave's W20: three on the weave, zero on every thread — the record's E₆/27 frame counted by the weave's Euler characteristic
 
 - **Route 1, with the rule committed first** (`W20_RULE.md`, ed43731d).

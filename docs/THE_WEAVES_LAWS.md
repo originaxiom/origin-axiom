@@ -134,7 +134,10 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   - Through E₆'s principal sl₂ on the moves' own SL(2), the weave's group has −χ(Aut⁺(F₂); 27) = 3, while every
     thread has 0.
   - Every distinguished sl₂ of E₆ gives 3 as well, but ±3 appears on 13 of the 21 SL(2)s in E₆.
-  - It is a count on the weave, not on a thread. The dictionary (GENESIS FK11) and the hand (GENESIS FK4) stay open.
+  - It is a count on the weave, not on a thread. A third route (Brown's formula) agrees. The count is the index of a
+    non-flat bundle, the records' Hodge line, through the Higgs complex.
+  - The dictionary (GENESIS FK11) awaits main's ruling. The count is chiral (net 3); only the name, 27 or 27̄, is a
+    convention.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

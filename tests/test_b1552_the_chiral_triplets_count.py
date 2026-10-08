@@ -280,3 +280,14 @@ def test_w20_the_weaves_count_in_e6_is_three_on_the_weave():
     # h1(SL(2, Z); Sym^k) is dim M_{k+2} + dim S_{k+2} for even k >= 2 (Eichler-Shimura): 3 at k = 16, 1 at k = 8
     h1 = d["h1(SL(2, Z); Sym^k), k = 0..24"]
     assert (h1["16"], h1["8"], h1["0"]) == (3, 1, 0)
+
+
+def test_w20_the_third_route_the_orbifold_index():
+    """W20, third route: Brown's formula over the elliptic elements of SL(2, Z) (traces at the square and hexagonal tori)
+    agrees with the amalgam and Eichler-Shimura on all 21 orbits; on every distinguished orbit tr(S) = 3, tr(U) = 0"""
+    d = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_weaves_count_orbifold.json").read_text(encoding="utf-8"))
+    assert d["agrees with W20's two routes on all 21 orbits"]
+    for name, r in d["the distinguished orbits"].items():
+        t = r["traces on the 27 at the elliptic elements"]
+        assert r["-chi(G; 27), Brown"] == 3, name
+        assert (round(t["S"]), round(t["U"]), round(t["U^2"]), round(t["-I"])) == (3, 0, 0, 27), name
