@@ -1,5 +1,44 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October 8 physical cusp-anomaly checkpoint:
+reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/FINDINGS.md.
+28 native/12 reference/18 focused/256 regression PASS at06c927011.
+
+- PB-CUSP-END-INDEX-DICTIONARY: EXECUTED, conditional positive.
+  Closing scope: "the coupled cusp end reproduces the entire previously
+  derived physical charged index" in the same supplied parent/family.
+  Actual matrices, both adjoint orientations and all extreme weights;
+  the same anomaly is located, not canceled or removed.
+- PB-CUSP-GAUGE-ADMISSION: EXECUTED. Unbroken constant internal gauge
+  modes have finite positive classical norm and preserve the complete
+  graph domain. No parameter-free coupling or quantum measure derived.
+- PB-CUSP-COLOR-INDEX-DEFORMATION: EXECUTED conditional theorem.
+  Closing scope: "for any color-equivariant graph-compact V on this
+  fixed domain, M+tV remains Fredholm ... and each color-isotypical
+  index stays constant". Authored parametrix proof in PROOF.md; no
+  universal condensate/end/parent exclusion or full quantum verdict.
+- PB-CUSP-ANOMALY-COMPLETION: Stage2T PARTIAL, quantum part OPEN.
+  Positive gap does not give trace-class heat. NEXT_TEST specifies the
+  next duty, not a computation: derive the actual regulator/end Ward
+  variation, retaining continuum and outer end for admitted gauge modes.
+  UV, IR and cusp-cutoff limits must not be conflated. No automatic
+  inflow inferred from finite end signature; no missing-sector choice
+  justified merely by a desired cancellation. NEXT_TEST is UNEXECUTED.
+- PB-CUSP-CHARGED-CONDENSATE: remains OPEN after the quantum gate.
+  Compact-core color-preserving condensation alone cannot change this
+  net anomaly; stability and full kernels still need separate work.
+- PB-CUSP-REVIEW: includes actual end orientation, half-sign index map,
+  escaping heat sequence and color-equivariant graph-compact theorem.
+  Same-author computations are not nonauthor analytic acceptance.
+- Intake: main aa28a42e6 corrects four-residual scope and B1620 is only
+  preregistered. SM886753f34 adds period-rule and producer/regeneration
+  repairs. Read, not freshly replayed or adopted as physical results.
+- Preserve zero-flux SM-gauge minima and source/silver alternatives.
+  Act/register/lift-to-parent selection, complete interactions, stable
+  three families, global anomalies, observer/qualia and gravity remain.
+
+Earlier dated OPEN/NEXT entries below retain their historical epoch.
+
 October 8 physical-mass checkpoint:
 reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/FINDINGS.md.
 33 native/15 reference/22 focused/238 regression PASS at05c63c15a.

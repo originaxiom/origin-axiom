@@ -238,6 +238,21 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    Then, if admitted, solve the full stable charged vacuum and kernels/
    interactions on that same completion. Outside analytic review,
    source/silver alternatives and genesis-to-parent selection remain.
+   Stage2T October8 FIRST GATE EXECUTED at research grade:
+   weave_cusp_anomaly_2026_10_08/FINDINGS.md.28 native/12 reference/
+   18 focused/256 fifteen-packet regression PASS unchanged at06c927011.
+   Coupled horizontal end signature locates the physical charged index;
+   finite-norm gauge modes act on the complete domain. No anomaly
+   cancellation: this is the same zero-mode character, not new matter.
+   Positive heat operators are not trace-class despite their gap.
+   Color-equivariant graph-compact changes preserve the cubic anomaly
+   on this domain; changed ends/fields/domains and quantum response open.
+   NEXT remains Stage2T: derive a justified parent regulator, its
+   end trace defect and gauge-dependent Ward identity. Distinguish
+   cutoff, ultraviolet and infrared limits; retain the outer end.
+   NEXT_TEST is UNEXECUTED. No stable magnetic vacuum or full quantum
+   completion has been earned; parent/genesis and source/silver duties
+   are not displaced by this precise intermediate operator result.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

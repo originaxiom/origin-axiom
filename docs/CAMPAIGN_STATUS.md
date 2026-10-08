@@ -1,5 +1,30 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October 8 cusp-anomaly checkpoint:28 native/12 separate reference/
+18 focused and256 fifteen-packet regression tests PASS unchanged at
+pushed pre-run06c927011. Same supplied curved E8 parent, complete cusp
+spin/domain and admitted stationary magnetic family. The actual coupled
+horizontal end signature reproduces the full physical charged index;
+paired channels cancel, extreme weights remain. This is the SAME
+nonzero zero-mode anomaly, not a new compensating sector.
+Report: reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/FINDINGS.md.
+Unbroken gauge modes have finite positive norm and preserve the complete
+domain. The internal heat operators are not trace-class despite their
+gap. Color-equivariant graph-compact deformations on this fixed domain
+preserve the cubic color anomaly; not all ends/domains/parents excluded.
+Stage2T PARTIAL: gauge admission/end dictionary/deformation result done;
+regulated parent/end quantum Ward identity NEXT and UNEXECUTED.
+No borrowed determinant phase or automatic inflow. Nonzero-flux saddles,
+zero-flux nonnegative SM-gauge minimum and source/silver positives remain.
+Main aa28a42e6 narrows the old residual scope and preregisters B1620;
+SM886753f34 adds convention and producer-check repairs. Read, not replayed
+here. Seven science/fifteen pinned-and-working sources unchanged.
+Same-author analytic work; nonauthor review, full-suite/main-bank and
+inherited governance duties remain. Parameter-free SM/TOE ACTIVE and
+unachieved; foundational act/register/lift retention, selection,
+observer/qualia and gravity remain separate obligations.
+Earlier dated NEXT statements below retain their historical epoch.
+
 October 8 physical-fermion checkpoint: 33 native/15 separate reference/
 22 focused and 238 fourteen-packet regression tests PASS unchanged at
 pushed pre-run05c63c15a. In the SAME supplied curved E8 action and complete

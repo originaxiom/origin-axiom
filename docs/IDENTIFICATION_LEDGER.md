@@ -347,3 +347,19 @@ Locks: tests/test_physical_bridge_weave_physical_mass.py.
 Global analytic acceptance remains outside review. Nonzero-flux saddles,
 zero-flux nonnegative SM-gauge controls and genesis selection debts all
 remain. No observer/qualia identification or full SM/TOE completion.
+
+### Physical cusp signature October 8 path-local supplement
+
+No shared I-number or empirical normalization reassigned. Report:
+reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_cusp_anomaly.py.
+
+| sides | exhibited map and faithful action | declared scope |
+|---|---|---|
+| Physical coupled end and Hermitian horizontal mass matrices | Factor actual radial derivative, retain h=0 block and h=1 ADJOINT, include every extreme | Finite end signature/2 equals same-family physical index; all248/496 population kept, not a full determinant eta invariant |
+| End character and four-dimensional charged anomaly | Apply actual color/weak/Z trace to same representation index; separate full-root and positive-charge tensor routes | Locates SAME zero-mode anomaly; NOT identified with a compensating sector or a quantum inflow phase |
+| Finite-norm gauge section and charged fermion action | Constant unbroken T, normalized overlap, Area/g6^2 norm and compact-support graph approximants | Actual classical gauge action on complete domain, not derived coupling value or gauge-invariant quantum measure |
+| Compact interior change and anomaly persistence | Color-equivariant parametrix on fixed graph domain; index invariant in each color multiplicity space | Conditional analytic theorem; does not cover end/domain/field changes or a parent quantum response |
+
+Renormalized determinant, stable physical vacuum and foundation-to-parent
+selection remain distinct unearned duties. No observer/qualia map claimed.

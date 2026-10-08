@@ -1,0 +1,376 @@
+{
+  "anomaly_compensation_derived": false,
+  "end_anomaly_vectors": {
+    "-1": [
+      "1",
+      "5",
+      "9/2",
+      "1002",
+      "24"
+    ],
+    "-2": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "-3": [
+      "3",
+      "6",
+      "6",
+      "1008",
+      "30"
+    ],
+    "0": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "1": [
+      "-1",
+      "-5",
+      "-9/2",
+      "-1002",
+      "-24"
+    ],
+    "2": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ],
+    "3": [
+      "-3",
+      "-6",
+      "-6",
+      "-1008",
+      "-30"
+    ]
+  },
+  "end_index_profiles": {
+    "-1": {
+      "1": 0,
+      "2": -2,
+      "3": -2,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    },
+    "-2": {
+      "1": 1,
+      "2": -2,
+      "3": -2,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    },
+    "-3": {
+      "1": 1,
+      "2": -2,
+      "3": -2,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    },
+    "0": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "1": {
+      "1": 0,
+      "2": 2,
+      "3": 2,
+      "4": -1,
+      "5": -1,
+      "6": -1
+    },
+    "2": {
+      "1": -1,
+      "2": 2,
+      "3": 2,
+      "4": -1,
+      "5": -1,
+      "6": -1
+    },
+    "3": {
+      "1": -1,
+      "2": 2,
+      "3": 2,
+      "4": -1,
+      "5": -1,
+      "6": -1
+    }
+  },
+  "facts": {
+    "adjoint_reverses_end_orientation": true,
+    "all_actual_drifts_nonzero_half_integral": true,
+    "all_five_end_anomalies_match_physical": true,
+    "angular_parity_and_log_endpoints_retained": true,
+    "anomaly_is_not_its_own_compensation": true,
+    "bulk_only_misses_actual_index": true,
+    "constant_gauge_norm_and_coupling": true,
+    "end_sign_change_requires_zero_crossing": true,
+    "endpoint_not_uniform_higher_flux": true,
+    "escaping_bump_norm_and_bounded_energy": true,
+    "every_module_signature_equals_global_index": true,
+    "extreme_closed_formula_has_both_sides": true,
+    "four_slot_bulk_density_cancels": true,
+    "full248_and496_population": true,
+    "full_gauge_weight_index_from_actual_end": true,
+    "gauge_cutoff_graph_errors_vanish": true,
+    "gauge_cutoff_not_an_assumed_zero_error": true,
+    "global_line_equals_bulk_plus_end": true,
+    "line_end_combination_is_physical_index": true,
+    "missing_spin_field_changes_virtual_density": true,
+    "paired_masses_are_opposite_for_all_amplitudes": true,
+    "pairing_control_changes_kernel_not_index": true,
+    "positive_heat_trace_bound_diverges": true,
+    "radial_factor_is_actual_hermitian_matrix": true,
+    "two_shifts_keep_every_slot": true,
+    "virtual_rank_and_two_form_zero": true,
+    "wrong_second_orientation_fails": true,
+    "zero_and_opposite_flux_controls": true
+  },
+  "genesis_selection_derived": false,
+  "module_end_indices": [
+    [
+      0,
+      -4,
+      1
+    ],
+    [
+      0,
+      -3,
+      1
+    ],
+    [
+      0,
+      -2,
+      1
+    ],
+    [
+      0,
+      -1,
+      1
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      2,
+      -1
+    ],
+    [
+      0,
+      3,
+      -1
+    ],
+    [
+      0,
+      4,
+      -1
+    ],
+    [
+      1,
+      -4,
+      -1
+    ],
+    [
+      1,
+      -3,
+      -1
+    ],
+    [
+      1,
+      -2,
+      -1
+    ],
+    [
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      4,
+      1
+    ],
+    [
+      2,
+      -4,
+      1
+    ],
+    [
+      2,
+      -3,
+      1
+    ],
+    [
+      2,
+      -2,
+      1
+    ],
+    [
+      2,
+      -1,
+      0
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      2,
+      -1
+    ],
+    [
+      2,
+      3,
+      -1
+    ],
+    [
+      2,
+      4,
+      -1
+    ],
+    [
+      3,
+      -4,
+      -1
+    ],
+    [
+      3,
+      -3,
+      -1
+    ],
+    [
+      3,
+      -2,
+      -1
+    ],
+    [
+      3,
+      -1,
+      0
+    ],
+    [
+      3,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      0
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      3,
+      3,
+      1
+    ],
+    [
+      3,
+      4,
+      1
+    ],
+    [
+      4,
+      -4,
+      1
+    ],
+    [
+      4,
+      -3,
+      1
+    ],
+    [
+      4,
+      -2,
+      0
+    ],
+    [
+      4,
+      -1,
+      0
+    ],
+    [
+      4,
+      0,
+      0
+    ],
+    [
+      4,
+      1,
+      0
+    ],
+    [
+      4,
+      2,
+      0
+    ],
+    [
+      4,
+      3,
+      -1
+    ],
+    [
+      4,
+      4,
+      -1
+    ]
+  ],
+  "nonauthor_acceptance": false,
+  "physical_goal_achieved": false,
+  "physical_index_located_in_end": true,
+  "predicates_passed": 28,
+  "regulated_parent_determinant_computed": false,
+  "stable_chiral_vacuum_derived": false
+}

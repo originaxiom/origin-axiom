@@ -1,5 +1,27 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October 8 physical cusp conditional sublemmas. Same supplied curved
+E8 parent, complete cusp spin/domain and stationary magnetic family;
+conditional extension to color-equivariant graph-compact deformations.
+No shared B-law number or foundational physical selection.
+PROOF: reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/PROOF.md.
+LIVE locks: tests/test_physical_bridge_weave_cusp_anomaly.py.
+
+| Scoped result | Analytic argument and actual safeguards |
+|---|---|
+| Four-slot virtual internal bundle has zero rank and first Chern term | E*(2S-1-S^2), including Todd factor; test_actual_virtual_bundle_local_density, test_four_physical_slots_cancel_bulk_not_end. Zero-Higgs endpoint of existing Fredholm homotopy, NOT full six-dimensional anomaly polynomial |
+| Complete line index differs from interior density by the actual radial mass sign | J(a)=(a-1)/2+C(a), C(a)=sign(1-a)/2 for even a and0 otherwise; global pole formula and zero-angular parity. test_global_line_bulk_and_end_not_degree_substitution, test_parity_and_logarithmic_endpoints |
+| Coupled horizontal pairs cancel in signature, unpaired extremes carry the full physical index | Factor Jrad B=partial_t+C; h=1 adjoint reverses orientation, all drifts half-integral. test_radial_matrix_from_actual_first_order_operator, test_principal_homotopy_paired_signs_cancel, test_adjoint_orientation_is_not_optional, test_every_extreme_and_both_shifts_retained, test_module_end_signatures_match_global_indices. All-integer proof in PROOF; finite grid only a control |
+| Full gauge-weight end character gives the SAME five anomaly coefficients | All248 weights and496 slots, first-flux endpoint, root/tensor cross-check. test_first_flux_endpoint_survives, test_full_gauge_representations_and_anomalies, test_end_term_is_not_an_added_cancellation, test_separate_tensor_end_route. No new compensating sector or determinant phase |
+| Internally constant unbroken gauge mode has finite positive norm and admitted action | Cutoff lost norm/derivative norm O(exp(-T0)); actual representation overlap and Area/g6^2. test_gauge_graph_cutoffs_are_admitted_not_zero_by_fiat, test_constant_gauge_norm_has_finite_coupling plus global domain proof. g6/metric supplied |
+| Positive heat operators are not trace-class despite the essential gap | Disjoint end bumps, uniform Rayleigh bound and Jensen give a divergent positive heat trace. test_gap_does_not_make_heat_trace_finite plus authored escaping-sequence argument; no determinant regularization inferred |
+| Color-equivariant graph-compact deformations preserve the cubic color anomaly on this fixed domain | Parametrix and isotypical Fredholm homotopy proof; test_pair_lifting_keeps_net_index_control is a finite illustration, NOT certification of the analytic theorem. End/domain/field changes, gap closure, broken color and full quantum compensation outside scope |
+
+28 native/12 separate reference/18 focused/256 regression PASS first
+unchanged at06c927011. Global analytic/outside acceptance remains owed.
+Stage2T quantum Ward identity remains unexecuted, not a universal kill.
+Earlier dated open statements below retain their historical epoch.
+
 October 8 physical-mass conditional sublemmas. Same supplied curved E8
 parent, complete cusp spin/domain and stationary magnetic family only;
 no shared B-law allocation or parameter-free selection.

@@ -2617,3 +2617,21 @@ No shared identifier; nonauthor analytic/full-suite/main-bank duties remain.
 | weave_cusp_anomaly_2026_10_08/reference.py | 524932ad3dfa8f1d334a7aa27a6bae315b287bb73adfc827ef8b6829aa088f40 |
 | weave_cusp_anomaly_2026_10_08/custody.rb | d8e0a74d55896e3773e4d62e238fdfc54a179ae83e346b213e486942ca542e0d |
 | tests/test_physical_bridge_weave_cusp_anomaly.py | 915eabe48f91026e302bfd8b2e81820ce66abf813dcbaf4455df7b2bde1ab2aa |
+
+Disposition after pushed/server-confirmed06c927011: first unchanged
+28 native/12 separate reference/18 focused/256 fifteen-packet regression
+PASS. Seven science/fifteen pinned-and-working sources unchanged; no
+failed scientific attempt, source repair or criterion change.
+Report: weave_cusp_anomaly_2026_10_08/FINDINGS.md.
+The coupled end signature locates the full physical charged index;
+it is the SAME anomaly, not an extra cancellation. Finite-norm gauge
+action is admitted and positive heat operators are not trace-class.
+Color-equivariant graph-compact changes preserve the anomaly on this
+domain; not all parents/ends/fields or quantum completions excluded.
+Stage2T PARTIAL: regulator/end Ward identity NEXT and UNEXECUTED;
+NEXT_TEST is post-run and outside the science seal. Global analytic,
+full-suite/main-bank and inherited governance duties remain.
+Preseal governance26 PASS/four inherited FAIL; review380 due. No
+all-green acceptance or main-bank promotion is claimed.
+Publication governance26 PASS/four inherited FAIL, review381 due;
+literal capture and exact staged-content-tree receipt in the packet.
