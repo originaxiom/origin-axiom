@@ -1,0 +1,168 @@
+{
+  "scope": "One supplied internally nonlocal polar-paired fermion phase prescription on the fixed curved E8 parent and complete cusp domain, restricted to parallel unbroken external fields. Not a local full-parent quantum action or all-regulator exclusion.",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 11363,
+      "sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 14021,
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 12292,
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/probe.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 11011,
+      "sha256": "97012910ed303d475f39147ad4bb23ad5f95372dab29995d7ea091261aa9097f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 11161,
+      "sha256": "8ca99b10c3da48289e47d76cf78870e904558861e19b1e0f9b9dce59079473a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/probe.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 7655,
+      "sha256": "e9e5103c9ab63602fa6dde2d6688b701b817ed2b3b147417029b192d88075dea"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 12932,
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/probe.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 12778,
+      "sha256": "57a5b7bbe710e7314baf8e85087b34e9a6d2d007d75b530afd6a8c375bc5d46d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 8666,
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/probe.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 8672,
+      "sha256": "a9ee314ba30cd72241aa9b361c69aa76c6f72eefaa780a5c974eb56af3de1d04"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 11792,
+      "sha256": "42431248d2622873acae6d6defabc503ff0d6e7dc5dd091c14e3d2789865f3a2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 11351,
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/probe.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 9749,
+      "sha256": "48abceb8f23be7a1097653a49be13bf6126967a2368b6304c2db0b4133bdf124"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/reference.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 5505,
+      "sha256": "34ac24b07a1463c19d32d36e0bc4208116bdbab6401120333ff39b47d567c285"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 10104,
+      "sha256": "3a47346842499df5c0faff2aa7fec496d74f697b8d1d75132ee65e93cb40dd70"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/probe.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 8150,
+      "sha256": "7696e51857c91f01ad0787bd72cb4880379d00ca285f316f513b5bc5ee51ddc6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 11911,
+      "sha256": "f9a638cf8224f877ff41225f3bc356c7da6246500bedcbd8d46ca1f207522c9e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/probe.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 8203,
+      "sha256": "50a2edd7ccde3322bedd4bcc3a1755bfb600ba5746b5f1e0b6bbc85a02cd71f7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/reference.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 4334,
+      "sha256": "2c7397f70d8e0261db21a8d65f85b8f0a21f4c1cd97ade7e8112f7006fcd61be"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/PROOF.md",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 10134,
+      "sha256": "6e3dc4e96a75716035e85a85716221d721418e62bcdbf9531b0ff40f8a4a35e7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/probe.py",
+      "ref": "c8d60490a0960491aced076d1654c4d09c415368",
+      "bytes": 6174,
+      "sha256": "2aff1667a727631c0b5804efb1e0a105d3f7576b73c681a1e0543f61d19edacb"
+    }
+  ],
+  "focused_expected_tests": 14,
+  "regression_expected_tests": 302,
+  "comparison_profiles": [
+    "anomaly_vectors",
+    "polar_kernel_dimensions",
+    "massive_gaussian_polynomial"
+  ],
+  "unearned_flags": [
+    "internally_local_regulator_derived",
+    "gauge_invariant_nonzero_flux_phase",
+    "full_quantum_action_derived",
+    "all_quantum_completions_excluded",
+    "nonauthor_acceptance",
+    "physical_goal_achieved"
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/0802.0634v1",
+      "read": "Sections4.2,4.3.2,9.1 and9.3; not whole paper",
+      "use": "Standard compact four-dimensional Weyl anomaly framework; nonabelian descent algebra verified here"
+    },
+    {
+      "url": "https://arxiv.org/html/0807.1696",
+      "read": "SectionsII.1 throughII.3; not whole paper",
+      "use": "Gaussian determinant and vector versus chiral transformations; finite invertible massive blocks only"
+    }
+  ],
+  "main_head": "014561417",
+  "sm_head": "d624582213762764bf4c7171bf553b1cf607fc5c",
+  "empirical_inputs": [],
+  "nonauthor_acceptance": false
+}

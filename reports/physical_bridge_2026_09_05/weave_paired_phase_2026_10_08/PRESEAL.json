@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/DESIGN.md",
+      "bytes": 4758,
+      "sha256": "62f640f89cfdf74c7cca52e4cc4c80d896f595637bef085a198b3887916fd824"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/PROOF.md",
+      "bytes": 8266,
+      "sha256": "4177cf899a621b324a658602e4638f6e3e5217b80f91dff349ec415ccc9c599d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/INPUTS.json",
+      "bytes": 7218,
+      "sha256": "6dd959101d66c8a7751cf8b89be835eb542e6785d4c4478e4643d8a4ed7fe1c2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/probe.py",
+      "bytes": 7502,
+      "sha256": "2be9d9b6cd2b3397647b72bc7271d8ec16223a7ce04d322d7a06a05c6a0d194a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/reference.py",
+      "bytes": 2143,
+      "sha256": "b8fe43a5a1806d01771327adf71a50fdc21e84295693f9da351d45313e0922e8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/custody.rb",
+      "bytes": 4740,
+      "sha256": "93094bf8f24b56bd6e331b369098f0cd6e77fd66dc73beebc3ace031180d44cf"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_paired_phase.py",
+      "bytes": 3030,
+      "sha256": "ff901194b7bf43d0afc6780ea146333d58766d20001e70d16801826a2204f040"
+    }
+  ],
+  "prior_commit": "c8d60490a0960491aced076d1654c4d09c415368",
+  "status": "PRE-EXECUTION; push and server confirmation required before first scientific import, execution or test collection"
+}
