@@ -6057,7 +6057,7 @@ the owner's open decisions of 2026-10-07 (A, (a)) are still open or moot under t
 recommendation, reversibly, and the weave has since moved the question.
 
 ### Action items (Review 61)
-- [>] R61-1: row the audit lane's 35 and the audit fork's 52 unrowed items at headline and verdict level in one harvest arc, newest first, before Review 62 (owner: cc; source: §1; carried from R60-2, itself the remainder of R58-4 after R59-3)
+- [x] R61-1: **paid at S96 (B1619): 87 harvest rows and 37 relay rows, the harvest debt zero on every lane** — row the audit lane's 35 and the audit fork's 52 unrowed items at headline and verdict level in one harvest arc, newest first, before Review 62 (owner: cc; source: §1; carried from R60-2, itself the remainder of R58-4 after R59-3)
 - [>] R61-2: pay what main owes the SM seat — N₄₅'s ζ⁰ eigenspace, interior part, generic class (−1, −10), from scratch (the room at its sign characters is paid, B1494); the literature on Lemma F; the four literature checks (T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE, T-MASS-TERM) under the owner's rule of 2026-10-06 (owner: cc; source: §1; carried from R60-5, which absorbed R58-5)
 - [ ] R61-3: extend `seat-positive-verified` to a seat's dossier items — a main arc that rests on a seat's W-item names it (`rests_on_seat` accepts `sm:W21`-style ids) and the gate requires a HARVEST row marked VERIFIED for it; failing-path test and GATE_CONTROLS row (owner: cc; source: §3)
 - [ ] R61-4: the seal tool distinguishes a disclosed post-seal change (a page that names the changed file and keeps `sealed_run/`) from an undisclosed one, and reports only the latter as a defect (owner: cc; source: §3)

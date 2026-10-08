@@ -1,1 +1,3 @@
+# sealed at 434782554: 2b45f6f2604543a99fed203af72f684551a4fac7f96744fea14cd9c09356b52d  verification/weighted_at_omega.py (unchanged after the seal)
 2b45f6f2604543a99fed203af72f684551a4fac7f96744fea14cd9c09356b52d  verification/weighted_at_omega.py
+2c6ccb34479f8845aa5dfa7df5197ca10325432e81b48815bbd5bf6481f56afd  verification/weighted_at_omega.json

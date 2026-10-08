@@ -11152,6 +11152,31 @@
    "status": "open",
    "domain": "physics"
   },
+  "B1618": {
+   "slug": "the weighted cell at omega",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1619": {
+   "slug": "the codex lanes rowed",
+   "motifs": [
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B161": {
    "slug": "cancellation locus stratification",
    "motifs": [

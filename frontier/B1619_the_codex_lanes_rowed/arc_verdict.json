@@ -1,0 +1,22 @@
+{
+ "id": "B1619",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1608"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a harvest arc: the ledger)",
+  "object": "the codex operator's two lanes (audit, audit fork) and the SM seat's unrowed relays",
+  "reach": "general",
+  "hypotheses": "headline level: titles and first result lines quoted at the lanes' tips; nothing re-run on main"
+ },
+ "claim_one_line": "THE CODEX LANES ROWED (R61-1; the owner's 'make sure u dont leave anything behind on the ledger'): 87 harvest rows (962-1048, newest first; the audit lane's 35 and the audit fork's 52 items) and 37 relay rows (the audit lane's 33, the SM seat's 4), each quoting its item's own title and first result line at the lane's tip, registered at headline level and not re-run on main; pins moved to the tips; the harvest debt is zero on all fourteen lanes. 0 of 19.",
+ "weave_or_thread": "neither (a harvest arc)"
+}

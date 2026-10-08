@@ -211,3 +211,10 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   signs at every τ — has order 48 and keeps T irreducible: an ordinary vacuum gives three equal masses, no Majorana mass;
   near ω the degeneracy splits by powers of ε (U's charges on T: ¼, 7/12, 11/12 of a turn) — quasi-degenerate, not the
   observed hierarchy. **Owed:** Yukawa couplings as weighted modular forms (U's eigenspaces at the automorphy phases).
+
+## Main's addition: the weighted cell at ω (B1618) — τ = ω gives no hierarchy
+
+- Given τ = ω, the Dirac masses are degenerate at ω for **every weight**: the inner automorphisms make every coupling
+  diagonal in T's three parity lines at every τ, and U cycles the three lines; near ω the entries stay equal at leading
+  order. **The tagged postulate τ = ω cannot be the source of the fermion hierarchy within the weave.** A hierarchy needs
+  the parity sectors to separate — the cusp, where the three theta characteristics go as different powers of q.

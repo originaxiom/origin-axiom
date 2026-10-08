@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1346** |
-| words of findings prose | **1,051,815** |
-| test lock files referenced | **790** |
-| arcs carrying an authored verdict | **1346** (100.0 %) |
+| research arcs with findings | **1348** |
+| words of findings prose | **1,052,828** |
+| test lock files referenced | **792** |
+| arcs carrying an authored verdict | **1348** (100.0 %) |
 | recorded closures | **814** (647 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 906 |
+| PROVED | 908 |
 | NEGATIVE | 338 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1614`** (813 words, 1 locks)  
-THE OBSERVER LAYER ON THE WEAVE (sealed c04b1acb2; the owner's 'bank and run the awareness arc'): the observer layer computed on m004 (B752-B1184), re-posed on the weave. A1: the moves' joint fixed points are the trivial character (reducible) and the common point (irreducible) -- the weave's self-name. A2: at the common point the adjoint (the geometry) is wholly visible at the puncture (H1 = 3, injective), the parity lines too, while the doublet and the three matter blocks carrying the three are wholly private (H1 = 2 each, the puncture's cohomology zero since it acts as -1) -- 'no private states' splits along local systems. A3: the rule fixes the common point, normalises the moves and reverses W21's form, so it swaps the sheets and the weave cannot sign itself (B1327). A4: the sheet = det = CP-oddness, the McKay sign another: two odd classes on the weave, not m004's one. A5 (a reading's cell): chi_T(L) = e^{-i pi/4}, chi_T(R) = e^{+i pi/4}, chi_T(LR) = 0, the puncture's holonomy -1 (even). 0 of 19.  
-`B1614_the_observer_layer_on_the_weave/FINDINGS.md`
+**PROVED — `B1619`** (422 words, 1 locks)  
+THE CODEX LANES ROWED (R61-1; the owner's 'make sure u dont leave anything behind on the ledger'): 87 harvest rows (962-1048, newest first; the audit lane's 35 and the audit fork's 52 items) and 37 relay rows (the audit lane's 33, the SM seat's 4), each quoting its item's own title and first result line at the lane's tip, registered at headline level and not re-run on main; pins moved to the tips; the harvest debt is zero on all fourteen lanes. 0 of 19.  
+`B1619_the_codex_lanes_rowed/FINDINGS.md`
 
 **NEGATIVE — `B1617`** (642 words, 1 locks)  
 THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19.  

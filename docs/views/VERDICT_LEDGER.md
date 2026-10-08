@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1346 of 1346 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1348 of 1348 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (906)
+## PROVED (908)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -918,6 +918,8 @@
 | `B1612` | THE MIXING PATTERNS THE WEAVE FIXES (sealed f008c0424; the first value contact under the owner's reopening): the weave's flavour group on T (faithful, order 96) fixes six full mixing patterns (bimaximal, tri-bimaximal, democratic, a trimaximal one with |U_e3|^2 = (2 - sqrt3)/6, a single-angle one, a circulant) and none lies inside the data -- 0 of 216 against NuFIT's 3-sigma |U| ranges, 0 of 252 against PDG 2025's CKM moduli (the identity closest, 331 sigma in |V_us|); it fixes two one-column relations that survive at 3 sigma, TM1 (2/3, 1/6, 1/6) and TM2 (1/3, 1/3, 1/3), and post-seal against NuFIT 6.1's theta_12 only TM1 stands (sin^2 theta_12 = 0.318, +1.5 sigma; TM2 +4.9 sigma). TM1 arises from the root's double tick RL and RRL, without the swap. So no mixing angle is a parameter-free number of the weave's group; the weave allows one viable one-parameter leptonic relation (a READING: FK11 and the residual subgroups are selections) and fixes nothing in the quark sector. 0 of 19. |  | 1 |
 | `B1613` | TM1'S FORWARD PREDICTION (sealed 540e12dd0): the weave's one viable mixing relation (B1612) fixes sin^2 theta_12 = 1 - 2/(3 cos^2 theta_13) = 0.318 and, with theta_23 measured, delta_CP up to its mirror: cos delta = -0.130 at NuFIT 6.1's central values, delta = 262.5 degrees (252.7-292.9 over theta_23's 3-sigma range; J = -0.034) or the mirror 97.5 degrees (67-107, outside NuFIT 6.1's 3-sigma range). Registered as falsifier P10 (theta_12 at S1; delta_CP at S2, DUNE and Hyper-K). A READING: a failure kills the TM1 reading, not the weave. 0 of 19. |  | 1 |
 | `B1614` | THE OBSERVER LAYER ON THE WEAVE (sealed c04b1acb2; the owner's 'bank and run the awareness arc'): the observer layer computed on m004 (B752-B1184), re-posed on the weave. A1: the moves' joint fixed points are the trivial character (reducible) and the common point (irreducible) -- the weave's self-name. A2: at the common point the adjoint (the geometry) is wholly visible at the puncture (H1 = 3, injective), the parity lines too, while the doublet and the three matter blocks carrying the three are wholly private (H1 = 2 each, the puncture's cohomology zero since it acts as -1) -- 'no private states' splits along local systems. A3: the rule fixes the common point, normalises the moves and reverses W21's form, so it swaps the sheets and the weave cannot sign itself (B1327). A4: the sheet = det = CP-oddness, the McKay sign another: two odd classes on the weave, not m004's one. A5 (a reading's cell): chi_T(L) = e^{-i pi/4}, chi_T(R) = e^{+i pi/4}, chi_T(LR) = 0, the puncture's holonomy -1 (even). 0 of 19. |  | 1 |
+| `B1618` | THE WEIGHTED CELL AT OMEGA (sealed 434782554): given tau = omega, the Dirac masses are degenerate at omega for every weight -- the inner automorphisms (automorphy factor 1, acting as the parity signs) make every coupling diagonal in T's three parity lines at every tau, and U cycles the lines (a 3-cycle), so every U-eigenvector on the diagonal (phases 1, omega, omega^2) gives three equal masses; near omega the entries stay equal at leading order. No Majorana coupling survives at even weight (the odd-weight case not computed). So the tagged postulate tau = omega, which main recommended, cannot give the observed hierarchy within the weave; a hierarchy needs the parity sectors to separate -- the cusp. 0 of 19. |  | 1 |
+| `B1619` | THE CODEX LANES ROWED (R61-1; the owner's 'make sure u dont leave anything behind on the ledger'): 87 harvest rows (962-1048, newest first; the audit lane's 35 and the audit fork's 52 items) and 37 relay rows (the audit lane's 33, the SM seat's 4), each quoting its item's own title and first result line at the lane's tip, registered at headline level and not re-run on main; pins moved to the tips; the harvest debt is zero on all fourteen lanes. 0 of 19. |  | 1 |
 
 ## NEGATIVE (338)
 

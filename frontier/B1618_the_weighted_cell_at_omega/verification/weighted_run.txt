@@ -1,0 +1,69 @@
+{
+ "Q1_Q2": {
+  "Dirac T-bar(x)T": {
+   "inner_fixed_dim": 3,
+   "U_preserves_it": true,
+   "eigen_phases_24ths": [
+    0,
+    8,
+    16
+   ],
+   "spectra": [
+    {
+     "phase_24ths": 0,
+     "singular_values_normalised": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "phase_24ths": 8,
+     "singular_values_normalised": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "phase_24ths": 16,
+     "singular_values_normalised": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ],
+   "every_spectrum_degenerate": true
+  },
+  "Majorana Sym2 T": {
+   "inner_fixed_dim": 0,
+   "U_preserves_it": true,
+   "eigen_phases_24ths": [],
+   "spectra": [],
+   "every_spectrum_degenerate": true
+  }
+ },
+ "Q3": {
+  "parity_characters_of_T_lines_(a,b)": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    -1,
+    -1
+   ]
+  ],
+  "U_permutes_lines": [
+   1,
+   2,
+   0
+  ],
+  "U_is_a_3_cycle_on_the_lines": true
+ }
+}

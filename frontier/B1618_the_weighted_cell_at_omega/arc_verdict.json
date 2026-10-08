@@ -1,0 +1,24 @@
+{
+ "id": "B1618",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1617",
+  "B1616",
+  "B1615"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "given tau = omega: Yukawa couplings as modular forms of any weight, at omega and near it, on the weave's matter triplet",
+  "object": "the subspace fixed by the inner automorphisms and the sign in T-bar(x)T and Sym^2 T; U's eigenspaces on it at every 24th-root phase",
+  "reach": "general",
+  "hypotheses": "given tau = omega; given Lambda; the sign's eigenvalue +1 (even weight) for the Majorana term"
+ },
+ "claim_one_line": "THE WEIGHTED CELL AT OMEGA (sealed 434782554): given tau = omega, the Dirac masses are degenerate at omega for every weight -- the inner automorphisms (automorphy factor 1, acting as the parity signs) make every coupling diagonal in T's three parity lines at every tau, and U cycles the lines (a 3-cycle), so every U-eigenvector on the diagonal (phases 1, omega, omega^2) gives three equal masses; near omega the entries stay equal at leading order. No Majorana coupling survives at even weight (the odd-weight case not computed). So the tagged postulate tau = omega, which main recommended, cannot give the observed hierarchy within the weave; a hierarchy needs the parity sectors to separate -- the cusp. 0 of 19.",
+ "weave_or_thread": "weave"
+}

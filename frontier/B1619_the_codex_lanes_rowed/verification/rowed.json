@@ -1,0 +1,401 @@
+{
+ "tips": {
+  "audit": "f5da7ce4a",
+  "auditfork": "8b89d8fb2",
+  "sm": "7c5d9726c"
+ },
+ "old_pins": [
+  "`ddd345a8`",
+  "`12fe9ac77`",
+  "`0471ce84`"
+ ],
+ "harvest_rows": [
+  {
+   "n": 962,
+   "item": "EXECUTION_ROADMAP_2026_10_05"
+  },
+  {
+   "n": 963,
+   "item": "COMMON_MODEL_CANDIDATE_2026_10_05"
+  },
+  {
+   "n": 964,
+   "item": "QUANTUM_SELECTION_INTAKE_2026_10_05"
+  },
+  {
+   "n": 965,
+   "item": "TRACE_PARENT"
+  },
+  {
+   "n": 966,
+   "item": "TRACE_PARENT_PROOF"
+  },
+  {
+   "n": 967,
+   "item": "REGISTER_ACTION"
+  },
+  {
+   "n": 968,
+   "item": "REGISTER_ACTION_PROOF"
+  },
+  {
+   "n": 969,
+   "item": "JOINED_WILSON"
+  },
+  {
+   "n": 970,
+   "item": "JOINED_WILSON_CORRECTION"
+  },
+  {
+   "n": 971,
+   "item": "JOINED_WILSON_PROOF"
+  },
+  {
+   "n": 972,
+   "item": "AFFINE_SPIN"
+  },
+  {
+   "n": 973,
+   "item": "AFFINE_SPIN_PROOF"
+  },
+  {
+   "n": 974,
+   "item": "MIXED_CURRENT"
+  },
+  {
+   "n": 975,
+   "item": "MIXED_CURRENT_CORRECTION"
+  },
+  {
+   "n": 976,
+   "item": "MIXED_CURRENT_PROOF"
+  },
+  {
+   "n": 977,
+   "item": "BRANCH_INTAKE_POST_R90_2026_10_04"
+  },
+  {
+   "n": 978,
+   "item": "REGISTER_WILSON"
+  },
+  {
+   "n": 979,
+   "item": "REGISTER_WILSON_PROOF"
+  },
+  {
+   "n": 980,
+   "item": "silver_charged_boundary_2026_10_04"
+  },
+  {
+   "n": 981,
+   "item": "FLAT_DOMAIN_AUDIT"
+  },
+  {
+   "n": 982,
+   "item": "silver_cyclic_boundary_2026_10_04"
+  },
+  {
+   "n": 983,
+   "item": "FLAT_DOMAIN_PROOF"
+  },
+  {
+   "n": 984,
+   "item": "silver_boundary_variation_2026_10_04"
+  },
+  {
+   "n": 985,
+   "item": "COMPACT_GLUING_KINETIC"
+  },
+  {
+   "n": 986,
+   "item": "COMPACT_GLUING_KINETIC_PROOF"
+  },
+  {
+   "n": 987,
+   "item": "PARENT_GLUING_CHARACTER"
+  },
+  {
+   "n": 988,
+   "item": "silver_boundary_tensors_2026_10_04"
+  },
+  {
+   "n": 989,
+   "item": "PARENT_GLUING_CHARACTER_PROOF"
+  },
+  {
+   "n": 990,
+   "item": "GLUING_FREEDOM"
+  },
+  {
+   "n": 991,
+   "item": "silver_boundary_complex_2026_10_04"
+  },
+  {
+   "n": 992,
+   "item": "GLUING_FREEDOM_PROOF"
+  },
+  {
+   "n": 993,
+   "item": "ARCHITECTURE_ADMISSION_INTAKE_2026_10_04"
+  },
+  {
+   "n": 994,
+   "item": "JOINED_BACKGROUND"
+  },
+  {
+   "n": 995,
+   "item": "RIGIDITY_TRANSPORT"
+  },
+  {
+   "n": 996,
+   "item": "silver_normal_response_2026_10_04"
+  },
+  {
+   "n": 997,
+   "item": "silver_global_boundary_2026_10_04"
+  },
+  {
+   "n": 998,
+   "item": "silver_cusp_polarization_2026_10_04"
+  },
+  {
+   "n": 999,
+   "item": "spin_swap_audit_2026_10_04"
+  },
+  {
+   "n": 1000,
+   "item": "interface_sewing_2026_10_04"
+  },
+  {
+   "n": 1001,
+   "item": "free_boundary_completion_2026_10_04"
+  },
+  {
+   "n": 1002,
+   "item": "silver_boundary_admission_2026_10_04"
+  },
+  {
+   "n": 1003,
+   "item": "physics_door_review_2026_10_04"
+  },
+  {
+   "n": 1004,
+   "item": "JOINED_BACKGROUND_PROOF"
+  },
+  {
+   "n": 1005,
+   "item": "selection_null_review_2026_10_04"
+  },
+  {
+   "n": 1006,
+   "item": "phase_common_line_2026_10_04"
+  },
+  {
+   "n": 1007,
+   "item": "phase_component_interaction_2026_10_04"
+  },
+  {
+   "n": 1008,
+   "item": "RIGIDITY_TRANSPORT_PROOF"
+  },
+  {
+   "n": 1009,
+   "item": "phase_component_matter_2026_10_04"
+  },
+  {
+   "n": 1010,
+   "item": "global_quotient_admission_2026_09_27"
+  },
+  {
+   "n": 1011,
+   "item": "MIXING_SELECTION"
+  },
+  {
+   "n": 1012,
+   "item": "MIXING_SELECTION_PROOF"
+  },
+  {
+   "n": 1013,
+   "item": "CS_SECTOR_SCOPE"
+  },
+  {
+   "n": 1014,
+   "item": "CS_SECTOR_SCOPE_PROOF"
+  },
+  {
+   "n": 1015,
+   "item": "charged_l2_bridge_2026_09_27"
+  },
+  {
+   "n": 1016,
+   "item": "goal_reassessment_2026_09_27"
+  },
+  {
+   "n": 1017,
+   "item": "monomial_gauge_centralizer_2026_09_27"
+  },
+  {
+   "n": 1018,
+   "item": "whole_picture_audit_2026_09_20"
+  },
+  {
+   "n": 1019,
+   "item": "common_hypercharge_gate_2026_09_27"
+  },
+  {
+   "n": 1020,
+   "item": "monomial_harmonic_background_2026_09_27"
+  },
+  {
+   "n": 1021,
+   "item": "monomial_matter_locus_2026_09_27"
+  },
+  {
+   "n": 1022,
+   "item": "monomial_exceptional_locus_2026_09_27"
+  },
+  {
+   "n": 1023,
+   "item": "five_point_monomial_gate_2026_09_27"
+  },
+  {
+   "n": 1024,
+   "item": "finite_irreducible_sl5_2026_09_27"
+  },
+  {
+   "n": 1025,
+   "item": "global_sl5_seed_2026_09_27"
+  },
+  {
+   "n": 1026,
+   "item": "coupled_boundary_gate_2026_09_27"
+  },
+  {
+   "n": 1027,
+   "item": "m6_parent_admission_2026_09_27"
+  },
+  {
+   "n": 1028,
+   "item": "deck_descent_2026_09_27"
+  },
+  {
+   "n": 1029,
+   "item": "projective_cyclic_pairing_2026_09_25"
+  },
+  {
+   "n": 1030,
+   "item": "projective_full_parameter_2026_09_25"
+  },
+  {
+   "n": 1031,
+   "item": "projective_global_metric_2026_09_21"
+  },
+  {
+   "n": 1032,
+   "item": "report_guided_resweep_2026_09_20"
+  },
+  {
+   "n": 1033,
+   "item": "projective_cover_characters_2026_09_25"
+  },
+  {
+   "n": 1034,
+   "item": "projective_local_pairing_2026_09_25"
+  },
+  {
+   "n": 1035,
+   "item": "projective_deformation_tangent_2026_09_25"
+  },
+  {
+   "n": 1036,
+   "item": "projective_geometric_pairing_2026_09_25"
+  },
+  {
+   "n": 1037,
+   "item": "projective_escape_2026_09_21"
+  },
+  {
+   "n": 1038,
+   "item": "projective_fluctuations_2026_09_25"
+  },
+  {
+   "n": 1039,
+   "item": "projective_cusp_spectrum_2026_09_21"
+  },
+  {
+   "n": 1040,
+   "item": "balanced_parent_2026_09_20"
+  },
+  {
+   "n": 1041,
+   "item": "balanced_vertex_2026_09_20"
+  },
+  {
+   "n": 1042,
+   "item": "isotropic_parent_core_2026_09_20"
+  },
+  {
+   "n": 1043,
+   "item": "core_gluing_invariance_2026_09_20"
+  },
+  {
+   "n": 1044,
+   "item": "parent_twist_gap_2026_09_20"
+  },
+  {
+   "n": 1045,
+   "item": "complete_domain_2026_09_20"
+  },
+  {
+   "n": 1046,
+   "item": "full_flag_growth_2026_09_20"
+  },
+  {
+   "n": 1047,
+   "item": "nonsplit_cusp_growth_2026_09_20"
+  },
+  {
+   "n": 1048,
+   "item": "nonsplit_admissibility_2026_09_20"
+  }
+ ],
+ "relay_rows": [
+  "CODEX_TO_CC_2026-10-04_SPIN_SWAP_COVERAGE_BEFORE_VERDICT.md",
+  "CODEX_TO_CC_AND_SM_2026-10-03_CS_VALUE_IS_NOT_THE_ACTION_R82.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_AFFINE_SPIN_R92.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_COMPACT_GLUING_KINETICS_R88.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_EFFECTIVE_QUARTIC_AND_EXACT_ORDER_R83.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_FLAT_DOMAIN_SCOPE_R89.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_GLUING_FREEDOM_R86.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_JOINED_BACKGROUND_R85.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_JOINED_WILSON_R93.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_MIXED_CURRENT_R91.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_PARENT_GLUING_CHARACTER_R87.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_REGISTER_ACTION_R94.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_REGISTER_WILSON_R90.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_RIGIDITY_TRANSPORT_R84.md",
+  "CODEX_TO_CC_AND_SM_2026-10-04_TRACE_PARENT_R95.md",
+  "CODEX_TO_CC_AND_SM_2026-10-05_APEX_SCOPE.md",
+  "CODEX_TO_CC_AND_SM_2026-10-05_SILVER_OPERATOR_GATE.md",
+  "CODEX_TO_CC_AND_SM_2026-10-05_SMOOTH_BOUNDARY_GATE.md",
+  "CODEX_TO_CC_AND_SM_2026-10-05_SPECTRAL_COMPLETION.md",
+  "CODEX_TO_CC_AND_SM_2026-10-06_FIRST_NONLINEAR_CORRECTION.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_COMPANION_ROSTER_AND_CUSP_CONTINUUM.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_CURVED_ACTION_AND_STATIONARY_ORIGIN.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_FORM_FERMION_SCOPE.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_GAPPED_SM_PHASE_AND_INDEX_CLASS.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_GLOBAL_CONDENSATE_AND_NEXT_GRADING.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_MAGNETIC_INDEX_AND_SECOND_FIELD.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_MAGNETIC_STATIONARY_SADDLE.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_MATCHED_GRADING_GAP_AND_PAIRING.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_NEUTRAL_HIGGS_AND_FULL_STABILITY.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_NONZERO_CUSP_AND_ACTUAL_THRESHOLDS.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_PUNCTURE_KINETIC_SCOPE.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_TWO_FIELDS_GLOBAL_GAUGE_GATE.md",
+  "CODEX_TO_CC_AND_SM_2026-10-08_TWO_NEUTRAL_INDEX_AND_PHYSICAL_DICTIONARY.md",
+  "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md",
+  "SM_TO_CC_AND_CODEX_2026-10-07_THE_WEAVES_CHIRAL_TRIPLET.md",
+  "SM_TO_CC_AND_CODEX_2026-10-07_THE_WEAVES_INSTRUMENT_AND_LAWS.md",
+  "SM_TO_CC_AND_CODEX_2026-10-07_THE_WEAVES_SPIN_DOUBLET.md"
+ ]
+}
