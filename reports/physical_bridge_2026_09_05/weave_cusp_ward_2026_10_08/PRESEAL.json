@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/DESIGN.md",
+      "bytes": 5417,
+      "sha256": "8df875a1a8ef07894c2c26155cae0e11a6dc973e771a32f04aad31d6e424ca65"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/PROOF.md",
+      "bytes": 10134,
+      "sha256": "6e3dc4e96a75716035e85a85716221d721418e62bcdbf9531b0ff40f8a4a35e7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/INPUTS.json",
+      "bytes": 6845,
+      "sha256": "a4e3d8e7e5eeea9b7ed85514381da8346b13430f88c37438f2f6169dd0439219"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/probe.py",
+      "bytes": 6174,
+      "sha256": "2aff1667a727631c0b5804efb1e0a105d3f7576b73c681a1e0543f61d19edacb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/reference.py",
+      "bytes": 3711,
+      "sha256": "1e95ef083384ec41f8dde86b8df2d4c1433bf73378e10a49cedbadecceb47549"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/custody.rb",
+      "bytes": 4737,
+      "sha256": "4b73719a118d5898a2334cc645895cc665d12fa57650398046580818f71d1b3f"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_cusp_ward.py",
+      "bytes": 3274,
+      "sha256": "ba1283a92e24080536e0c7808d46ca544bacb54feae63cc15f337962182e05fb"
+    }
+  ],
+  "prior_commit": "dcd39212ece249034a94216bd347e3a2a1b1737c",
+  "status": "PRE-EXECUTION: no scientific import, execution or test collection before pushed server-confirmed seal"
+}
