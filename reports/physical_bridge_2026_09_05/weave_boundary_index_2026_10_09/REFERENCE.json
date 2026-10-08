@@ -1,0 +1,61 @@
+{
+  "charged_neutral_dimensions": [
+    212,
+    36
+  ],
+  "multiplicity_ranks": [
+    5,
+    10,
+    10,
+    5,
+    1,
+    5
+  ],
+  "nonauthor_acceptance": false,
+  "physical_goal_achieved": false,
+  "predicates": {
+    "differential_antilinear_kernel_pairing_sign": true,
+    "dropping_surface_term_is_detected": true,
+    "independent_rectangular_kernel_cokernel_count": true,
+    "laurent_relative_winding_controls": true,
+    "laurent_seam_adjoint_and_cross_sector_pairing": true,
+    "opposite_sign_control_fails": true,
+    "separate_tensor_roster_keeps_all_charges": true,
+    "variable_metric_green_identity_including_surface": true
+  },
+  "predicates_passed": 8,
+  "rectangular_control": [
+    [
+      3,
+      0,
+      3
+    ],
+    [
+      0,
+      3,
+      -3
+    ]
+  ],
+  "winding_samples": [
+    [
+      -3,
+      3
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      3,
+      -3
+    ]
+  ]
+}

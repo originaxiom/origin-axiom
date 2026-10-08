@@ -457,3 +457,19 @@ No shared I-number or new empirical identification.
 
 The kinetic positive does not settle stable chirality, quantum consistency
 or the full parameter-free SM/TOE. Existing alternatives remain intact.
+
+### Physical compact boundary index October9 path-local supplement
+
+Report: reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/FINDINGS.md.
+No new shared I-number, empirical identification or change to counts.
+
+| sides | exhibited map or distinction | scope |
+|---|---|---|
+| Conjugate physical left kernel and Hilbert-adjoint kernel | Natural Weyl trace-dual conjugation; actual allowed/adjoint traces checked in the collar | Fixed smooth compact domain; no global extension of the outward normal frame assumed |
+| Zero charged index and no matter | NOT IDENTIFIED; only the difference of finite kernel counts is zero | Additional vector-like zero modes are not counted |
+| Compact boundary and previous complete-cusp domain | NOT IDENTIFIED; different domains and compactness hypotheses | Earlier magnetic and source/silver indices are preserved |
+| Opposite relative boundary windings and chiral families | NOT IDENTIFIED; local matrices and winding are explicit, their relative index and full action are not computed | Supplied representation projectors are not yet a selected covariant full-E8 response |
+| Fixed-domain coefficient homotopy and stationary physical path | NOT IDENTIFIED; Fredholm index invariant along an operator interpolation | No claim that flux/holonomy/stationarity are fixed along the interpolation |
+
+The full parameter-free SM/TOE and foundation-to-action selection duties
+remain. No observer or qualia identification is introduced.

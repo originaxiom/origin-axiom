@@ -339,6 +339,20 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    assigning particles or quantizing it. A paired result would scope
    this pairing, not every end. Nonlocal/relative-phase alternatives,
    source/silver positives and the full foundational goal remain.
+   Stage2T October9 EIGHTH GATE EXECUTED at research grade:
+   weave_boundary_index_2026_10_09/FINDINGS.md.22 native/8 reference/
+   10 focused/346 twenty-two-packet regression pass at363fa607d.
+   The supplied coefficient-blind compact boundary has zero charged
+   index by the authored fixed-domain proof, with actual conjugate
+   and adjoint traces. No full kernel census or all-boundary kill.
+   Explicit representation-dependent winding pairs retain local
+   symbol/spin/reality but change the equal-endpoint hypothesis;
+   their global index and full-E8 covariant action are not supplied.
+   NEXT recover a generated field/source/boundary-class change, then
+   derive its relative index and same-action stationary positive
+   interacting spectrum. Do not rescan lower-order coefficients in
+   the fixed paired law. Preserve source/silver/nonlocal positives
+   and the complete parameter-free SM/TOE mission.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

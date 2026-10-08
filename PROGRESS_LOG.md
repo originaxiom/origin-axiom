@@ -18165,3 +18165,34 @@ Regression336 passed in65.43s, capture66.361629s on unchanged31e5a356e.
 No post-run correction. The angular reconstruction and j=0 physical
 witness are retained with a constructive spin/reality-compatible
 counterexample to any attempted all-boundary exclusion.
+
+## 2026-10-09 compact boundary index and winding controls
+
+October9 compact boundary-index checkpoint:22 native/8 separate
+reference/10 focused and346 twenty-two-packet regression tests PASS
+at pushed seal363fa607d. Report:
+reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/FINDINGS.md.
+Authored global argument: the exact coefficient-blind local four-Weyl
+boundary has zero representation-resolved index on a smooth compact
+finite cusp truncation, for smooth gauge-preserving lower-order
+deformations. Actual source/adjoint traces and spin/reality are kept.
+This is not the complete-cusp problem, a kernel census or a universal
+chirality exclusion. Earlier source/silver positives remain intact.
+A supplied representation-sensitive winding pair keeps the local
+elliptic/spin/conjugate checks but changes the equal-endpoint hypothesis.
+Its index, covariant full-E8 boundary mechanism and physical selection
+are not derived. Stage2T PARTIAL: next a generated change of domain/
+boundary/field class, then one-action stationarity, stability, spectrum
+and anomalies; do not rescan smooth coefficients in the fixed paired law.
+Seven science/35 pinned-and-working sources unchanged; first governance
+helper-assertion flags corrected before science, original bytes retained.
+Four inherited governance failure categories, outside analytic review,
+full-suite/main acceptance and the complete physical SM/TOE remain.
+Main d85301ad5 and SM1eaf423c4 fetched; no new cross-seat outcome certified.
+No three physical families, parameter-free selection, observer/qualia
+or gravity follows. Earlier dated NEXT entries retain their epoch.
+
+All first scientific attempts pass. The zero concerns the fixed
+coefficient-blind compact boundary; a symmetric bilinear alone is
+explicitly controlled by a nonzero rectangular index. No failed
+scientific output or alternative positive was removed.

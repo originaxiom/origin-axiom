@@ -1,5 +1,26 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October9 compact boundary-index checkpoint:
+reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/FINDINGS.md.
+22 native/8 reference/10 focused/346 regression pass at363fa607d.
+
+- PB-CUSP-LOCAL-CHARGED-INDEX: EXECUTED at authored analytic grade.
+  Closing scope: the exact coefficient-blind compact four-Weyl
+  boundary has zero charged index under its smooth H-preserving
+  lower-order deformations. Not a kernel census, complete cusp,
+  singular source, silver domain or all-boundary exclusion.
+- PB-CUSP-LOCAL-KINETIC-BOUNDARY: previous positive RETAINED. Its
+  admissibility does not imply net chirality or complete boson dynamics.
+- PB-CUSP-BOUNDARY-WINDING-RESPONSE: explicit local spin/reality-
+  compatible winding pair CONSTRUCTED. Global relative index and a
+  covariant full-E8 field/surface law generating that winding remain
+  the next duties; no integer or family count is selected here.
+- PB-CUSP-ANOMALY-COMPLETION: Stage2T remains PARTIAL. Move to a
+  justified domain/field change and then same-action stationary
+  positive interacting spectrum, not more coefficient scans within
+  this paired compact class. Source/silver and nonlocal alternatives
+  remain separate candidates with their original costs.
+
 October9 full-angular boundary checkpoint:
 reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/FINDINGS.md.
 21 native/9 reference/12 focused/336 regression first-pass at31e5a356e.

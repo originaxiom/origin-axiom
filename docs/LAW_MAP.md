@@ -1,5 +1,23 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October9 compact boundary-index conditional sublemmas.
+Fixed supplied curved E8 four-Weyl parent, smooth compact finite cut,
+coefficient-blind local trace law and unbroken gauge decomposition.
+Proof: reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/PROOF.md.
+Controls: tests/test_physical_bridge_weave_boundary_index.py.
+
+| Scoped result | Argument and safeguard |
+|---|---|
+| Actual physical transpose pairing maps conjugate source modes to the adjoint kernel on this boundary | Explicit bilinear surface cancellation and complementary adjoint trace; test_actual_adjoint_domain_and_surface_pairing, test_antilinear_sign_not_assumed_self_adjoint |
+| This fixed compact boundary has zero index in each charged representation under smooth gauge-preserving lower-order deformations | Authored Fredholm/domain, coefficient-bundle trivialization and compact homotopy argument; equal conjugate endpoints plus opposite indices. Finite tests check algebraic prerequisites, not the analytic theorem or all kernels |
+| Formal trace symmetry alone does not force each sector index to vanish | Rectangular charged block has indices+3/-3 in a symmetric full bilinear; test_formal_trace_symmetry_does_not_kill_every_index |
+| Explicit representation-sensitive boundary pairs retain local admission but have relative windings n/-n | test_representation_sensitive_winding_escape_is_local, test_winding_changes_the_equal_endpoint_hypothesis; their global index and physical action/selection are not computed |
+
+22 native/8 reference/10 focused/346 regression pass at363fa607d.
+No new shared law number or nonauthor analytic acceptance. The existing
+silver compact-homotopy method is credited; different domains and
+source/silver positives are not excluded by this result.
+
 October9 full-angular boundary conditional sublemmas. Fixed supplied
 curved E8 parent, finite cusp cut and explicit fermion trace laws.
 PROOF: reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/PROOF.md.

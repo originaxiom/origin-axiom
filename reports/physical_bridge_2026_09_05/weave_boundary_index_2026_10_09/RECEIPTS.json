@@ -1,0 +1,111 @@
+{
+  "pre_execution_seal": "363fa607d12c59d54f8631a93c183cfd920a9a17",
+  "native_attempt_number": 1,
+  "reference_attempt_number": 1,
+  "focused_attempt_number": 1,
+  "regression_attempt_number": 1,
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 3.209620999870822,
+    "log_bytes": 1922,
+    "log_sha256": "cfb8d9e051a80097de88b6526cb66014c9e59af76557563bf130f38f41f3dcdf",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 3.311790999956429,
+    "log_bytes": 965,
+    "log_sha256": "868fe0d7edaf5cfea099a981130602df90e10479dbfd768cf2463222d799f189",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 6.6763850001152605,
+    "log_bytes": 99,
+    "log_sha256": "040de2bb8b86054f422d9ea0e15c1362141ec610d1e4c78867e66dbcdc69d140",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_boundary_index.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 194.33060599979945,
+    "bytes": 432,
+    "sha256": "b344c58e5ead53ed4bb766bc17121462fa25bd12de1aee0c0f573c4880ce7e22",
+    "tests": [
+      "tests/test_physical_bridge_weave_puncture_operator.py",
+      "tests/test_physical_bridge_weave_form_parent.py",
+      "tests/test_physical_bridge_weave_companion_roster.py",
+      "tests/test_physical_bridge_weave_curved_action.py",
+      "tests/test_physical_bridge_weave_cusp_condensate.py",
+      "tests/test_physical_bridge_weave_global_condensate.py",
+      "tests/test_physical_bridge_weave_graded_condensate.py",
+      "tests/test_physical_bridge_weave_two_field_gauge.py",
+      "tests/test_physical_bridge_weave_sm_parallel.py",
+      "tests/test_physical_bridge_weave_magnetic_stationarity.py",
+      "tests/test_physical_bridge_weave_neutral_stability.py",
+      "tests/test_physical_bridge_weave_magnetic_index.py",
+      "tests/test_physical_bridge_weave_two_neutral_index.py",
+      "tests/test_physical_bridge_weave_physical_mass.py",
+      "tests/test_physical_bridge_weave_cusp_anomaly.py",
+      "tests/test_physical_bridge_weave_cusp_heat.py",
+      "tests/test_physical_bridge_weave_cusp_ward.py",
+      "tests/test_physical_bridge_weave_paired_phase.py",
+      "tests/test_physical_bridge_weave_gauge_limit.py",
+      "tests/test_physical_bridge_weave_end_gaussian.py",
+      "tests/test_physical_bridge_weave_boundary_lift.py",
+      "tests/test_physical_bridge_weave_boundary_index.py"
+    ],
+    "tested_commit": "363fa607d12c59d54f8631a93c183cfd920a9a17",
+    "tree_unchanged": true
+  },
+  "governance_preseal_first": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 43.03838900011033,
+    "bytes": 2672,
+    "sha256": "d1e39cd00851e41bda76c6c7b0419d78d43d354a0578b35ed73b6415d17dcd08",
+    "staged_content_tree": "af91fc463482517b89eabf5d6f98440b9797769c",
+    "staged_unchanged": true
+  },
+  "governance_preseal": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 43.400897999992594,
+    "bytes": 2384,
+    "sha256": "2b54f2cea6234bb4cb8bbea827dbd87fb2f59f3e9ed8c4698768318ff7765e33",
+    "staged_content_tree": "0816a6b1e9dc54c08737ca8a241b9624beea92c2",
+    "staged_unchanged": true
+  },
+  "science_files_unchanged": 7,
+  "pinned_and_working_sources_unchanged": 35,
+  "full_suite_run": false,
+  "nonauthor_acceptance": false,
+  "physical_goal_achieved": false,
+  "governance_publication": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 48.3789800000377,
+    "bytes": 2384,
+    "sha256": "8bb151d89a83f0e1e2c8b9d5ea3b3a06536f0c8c7c7bf003fdf0f97434c0746b",
+    "staged_content_tree": "a3d400b0da30a533cf64ffefe8a8a9ca9a4d0736",
+    "staged_unchanged": true
+  },
+  "publication_envelope": "Governance tested the recorded staged content tree; literal governance logs and this receipt were attached afterward. Scientific files and pinned sources remain those of the sealed tested commit."
+}
