@@ -178,6 +178,12 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
   - Chirality-capable gauge groups need one parity singled out (E₆ ⊂ the centraliser of ⟨e_p⟩), or the order-3 move
     in the holonomy (2T, on an odd-trace thread). The weave's S₄ exchanges ω and ω².
   - The dictionary (GENESIS FK11) is therefore not derivable from the weave's local systems.
+- **The weave is mirror-symmetric (W26; the rule committed first; exact, and SnapPy to length 6).**
+  - The mirror of every thread is a thread: S φ⁻¹ S⁻¹ = reverse(φ) with L ↔ R.
+  - Volumes agree and Chern–Simons invariants are opposite in every mirror pair. So no orientation-odd structure of the
+    threads gives the weave a hand.
+  - Each move is a transposition of the parities mod 2, so the order-3 orientation flips at every tick.
+  - The weave's only hand is the records' orientation on the shared fibre.
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

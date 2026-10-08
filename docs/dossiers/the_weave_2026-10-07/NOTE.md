@@ -1441,6 +1441,57 @@ found the reason in one E₈ frame. This asks whether it is general, and where c
 F5). A WEAVE theorem, and the precise form of the dictionary's status: three chiral generations with gauge content
 cannot be derived from the weave's forced local systems alone.
 
+## W26. The search beyond the weave: the weave is mirror-symmetric, and F-MC's order-3 orientation flips at every tick (`the_weaves_mirror.py`; `W26_RULE.md`)
+
+**Why.** The owner's choice after W25: search beyond the weave, for a forced structure outside the common point's local
+systems that fixes the gauge half. The owner named two candidates:
+- the threads' hyperbolic holonomies, which are complex and flip under the mirror;
+- main's F-MC arithmetic route: the prime of norm three gives 2T (every odd-trace thread, B1601), and McKay gives E₆,
+  whose 27 against 27̄ is the ℤ₃ = 2T/Q₈ character ω against ω².
+
+**The read-out (COMPUTED; the rule committed first, 186cb3d0; one run; every cell as predicted).**
+- **N1, the weave is closed under the mirror (exact).**
+  - For all 224 primitive cyclic words with both letters to length 10: S φ⁻¹ S⁻¹ is the matrix of φ′ = reverse(φ)
+    with L and R exchanged. So M_φ′ = −M_φ, and the mirror of every thread is a thread.
+  - Also exact: reverse(φ) = (PS) φ⁻¹ (PS)⁻¹, so M_reverse(φ) = M_φ.
+  - 26 of the 224 are amphichiral: φ′ or swap(φ) is a rotation of φ. To length 6 they are LR, LLRR, LLLRRR, LLRLRR
+    and LLRRLR.
+  - Disclosed: the amphichirality criterion was widened from "φ′ a rotation of φ" during code review, before the run.
+    The reason is the identity M_reverse(u) = M_u.
+- **N2, the orientation-odd invariants pair up** (SnapPy 3.3.2, all 42 hyperbolic threads to length 6, both signs).
+  - Every thread and its mirror have the same volume and opposite Chern–Simons invariant (mod ½).
+  - SnapPy's isometries to the mirror reverse orientation (cusp-map determinant −1). An orientation-preserving one
+    exists only for the amphichiral threads.
+  - The amphichiral threads have CS 0 (the + signs) or ¼ (the − signs; m003 is −LR, at ¼, as in THE_CLAIM's B1226).
+- **N3, the order-3 orientation alternates at every tick (exact).**
+  - L and R are each a transposition of the three parities mod 2. L fixes (1, 0); R fixes (0, 1).
+  - So on all 98 odd-trace words to length 10, the direction of the 3-cycle the monodromy induces on the parities
+    (in the shared basis) flips at every tick.
+  - Every odd-trace word has even length, so the flips close up around the circle.
+- **N4 (a record fact).** F-MC's chirality is a declared input in main's own hypothesis list. THE_CLAIM §1 counts "two
+  𝔽₂ bits (time's arrow; chirality — the conjugation bit, = τ)" among the five typed external data.
+
+**What it shows (N5).**
+- **The hyperbolic holonomies give no hand to the weave.** Every orientation-odd structure a thread carries
+  (holonomy, cusp shape, Chern–Simons) has its complex conjugate on the mirror thread, which the weave also contains.
+  Across the weave they cancel in pairs.
+- **F-MC's McKay chirality is not a property of a thread.**
+  - The ℤ₃ character of 2T (ω or ω²), which decides 27 against 27̄, is a property of a tick, and it flips at every
+    tick.
+  - F-MC itself counts chirality as an input.
+  - So neither named candidate supplies a forced complex structure on the gauge side.
+- **The weave's only hand is the records' orientation on the shared fibre** (W21). It is forced only if the swap P is
+  not a move (GENESIS GM5c, OPEN). In physics, the name of a hand is a convention.
+- **The record's best statement of the derivation is now this:**
+  - the gauge structure from F-MC, with its typed inputs, the chirality bit among them;
+  - the count from the weave (three, the parities'), with their common hand (W22);
+  - one named identification between the two: GENESIS FK11, which W25 shows the weave cannot supply.
+  - THE_CLAIM lists the generation count among the open inputs. The weave closes that input; the identification
+    remains.
+
+**Status.** COMPUTED (exact on N1 and N3; SnapPy numerics on N2, agreeing to 10⁻⁹). A WEAVE result, NEGATIVE for the
+two named candidates beyond the weave.
+
 ## What the weave gives, and what it does not
 
 | step | status | what |
@@ -1471,6 +1522,7 @@ cannot be derived from the weave's forced local systems alone.
 | W23 | COMPUTED (WEAVE; a census, negative) | the record's E₈ frames on the weave's fibre with W22's condition: over every SU(n) bundle built from the common point's blocks, E₆ gives 0 or 1 chiral 27, SO(10) 0–2 chiral 16s, SU(5) (0, 0), (1, 3) or (2, 2). At most two complete generations; three is impossible, since each spin doublet has rank two. The weave's five reads (1, 3), anomalous by −2, so the puncture must carry anomaly +2. Three complete generations need matter carrying the rank-six bundle, the puncture's localized content, or a six-dimensional object (GENESIS FK11) |
 | W24 | COMPUTED (exact; the rule committed first, every cell as predicted) and PROVED (D4); a WEAVE census, NEGATIVE | the six-dimensional census (the owner's choice): the fibre's character variety ℂ³ is forced (the moves preserve κ and, for L and R, the volume form; the common point and the trivial point are the only common fixed points) but contractible, with no quotient and a trivial tangent bundle; the orbifolds E³/G of the weave's finite groups give 48, 16, 14 generations (V₄, A₄, O), never three, with E chosen; main's frame spaces have index 0 on any compact quotient (cusps open); the universal families fail S1 or S2. The reason: 𝕎 ≅ ρ_Q ⊗ ℂ³ has holonomy Q₈, whose centraliser in E₈ is F₄ × SU(2); a chiral gauge reading needs a Lagrangian half of a pseudoreal multiplicity space, which breaks F₄ by a choice, the dictionary (FK11). Positive: W21's flavor triplet is the tangent space at the common point; the net chirality is odd; the node mod the parities is D₄, mod A₄ is E₆. The audit D0 qualifies W22 |
 | W25 | COMPUTED (exact characters; the rule committed first, every cell as predicted) and PROVED (the lemma, F5); a WEAVE theorem | the weave's forced bundles are self-conjugate. The fibre's holonomy Q₈ has only real and quaternionic irreducibles, and the weave's group on the six local solutions (order 192) is quaternionic, so every gauge reading on the fibre, the even-dimensional object where the index lives, is self-conjugate. Chirality-capable gauge groups appear only when one parity is singled out (the centraliser of ⟨e_p⟩, 82, contains E₆: a selection) or when the order-3 move is in the holonomy (2T, centraliser 25, ω fifteen times: a thread, odd-dimensional, B1604). The weave's S₄ conjugates every 3-cycle to its inverse and exchanges ω and ω². So the dictionary (GENESIS FK11) cannot be derived from the weave's local systems; it needs an input the weave does not force |
+| W26 | COMPUTED (exact and SnapPy; the rule committed first, every cell as predicted); a WEAVE result, NEGATIVE for the two candidates beyond the weave | the search beyond the weave (the owner's choice). The weave is closed under the mirror: S φ⁻¹ S⁻¹ = reverse(φ) with L ↔ R for all 224 words to length 10, and on all 42 threads to length 6 the mirror has the same volume and opposite Chern–Simons, so the threads' hyperbolic holonomies give the weave no hand. Each move is a transposition of the parities mod 2, so the order-3 orientation that would decide F-MC's 27 against 27̄ flips at every tick on all 98 odd-trace words; F-MC declares chirality an input (THE_CLAIM §1). The weave's only hand is the records' orientation (forced only if the swap is not a move, GM5c). The record's best derivation: F-MC's gauge structure with its inputs, the weave's count three with its common hand, and FK11 between them |
 | W6′ | OPEN | the deck kept (GENESIS FK7); the chirality (the extension's order decides generation against anti-generation); one module of index three (the smooth standard) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7 | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads |
@@ -1512,6 +1564,7 @@ cannot be derived from the weave's forced local systems alone.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_weaves_mirror.py` → `the_weaves_mirror.json`: W26, the mirror closure of the weave (exact), the threads' volumes and Chern–Simons against their mirrors (SnapPy), and the order-3 orientation tick by tick; its rule `W26_RULE.md`, committed first.
 - `the_self_conjugate_weave.py` → `the_self_conjugate_weave.json`: W25, the Frobenius–Schur indicators of the weave's forced holonomies and the centralisers in E₈ of Q₈, of one parity's element and of the odd-trace extension; its rule `W25_RULE.md`, committed first.
 - `the_six_dimensional_census.py` → `the_six_dimensional_census.json`: W24, the six-dimensional census (the character variety, the local orbifolds, the gauge side, and the audit of W22); its rule `W24_RULE.md`, committed first.
 - `the_puncture_condition.py` → `the_puncture_condition.json`: W22, the moves' lifts at the puncture (2O, irreducible in every parity block), the threads' eigenlines, and the spin structure every move fixes.

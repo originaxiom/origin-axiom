@@ -1,0 +1,642 @@
+{
+ "rule": "W26_RULE.md (committed 186cb3d0 before this ran)",
+ "N1 the weave is closed under the mirror": {
+  "cyclic primitive words with both letters, to length 10": 224,
+  "S phi^-1 S^-1 = matrix of reverse(phi) with L <-> R, for every one": true,
+  "the mirror is a positive word (a thread) for every one": true,
+  "reverse(phi) = (P S) phi^-1 (P S)^-1, so M_reverse(phi) = M_phi": true,
+  "amphichiral (phi' or swap(phi) a rotation of phi)": 26,
+  "amphichiral, to length 6": [
+   "LR",
+   "LLRR",
+   "LLLRRR",
+   "LLRLRR",
+   "LLRRLR"
+  ]
+ },
+ "N3 the order-3 orientation on the parities, tick by tick": {
+  "odd-trace cyclic words to length 10": 98,
+  "the 3-cycle's direction flips at every tick on all of them": true,
+  "the directions at each tick, words to length 6": {
+   "LR": [
+    1,
+    -1
+   ],
+   "LLLR": [
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "LRRR": [
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "LLLLLR": [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "LLLRLR": [
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "LLLRRR": [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "LLRLRR": [
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "LLRRLR": [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "LRLRRR": [
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "LRRRRR": [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    -1
+   ]
+  },
+  "L and R mod 2 as permutations of the parities (a transposition each)": {
+   "L": {
+    "permutation": [
+     0,
+     2,
+     1
+    ],
+    "fixed": [
+     "(1, 0)"
+    ]
+   },
+   "R": {
+    "permutation": [
+     2,
+     1,
+     0
+    ],
+    "fixed": [
+     "(0, 1)"
+    ]
+   }
+  },
+  "every odd-trace word has even length": true
+ },
+ "N2 the orientation-odd invariants pair up (SnapPy)": {
+  "threads read (both signs)": 42,
+  "every pair: same volume, opposite CS": true,
+  "isometries to the mirror reverse orientation (both kinds exist only when amphichiral)": true,
+  "amphichiral threads have CS in {0, 1/4} (mod 1/2)": true,
+  "rows": {
+   "+LR": {
+    "mirror": "+LR",
+    "volume": 2.029883212819,
+    "volume of the mirror": 2.029883212819,
+    "CS": -0.0,
+    "CS of the mirror": -0.0,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "-LR": {
+    "mirror": "-LR",
+    "volume": 2.029883212819,
+    "volume of the mirror": 2.029883212819,
+    "CS": 0.25,
+    "CS of the mirror": 0.25,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "+LLR": {
+    "mirror": "+LRR",
+    "volume": 2.666744783449,
+    "volume of the mirror": 2.666744783449,
+    "CS": -0.020833333333,
+    "CS of the mirror": 0.020833333333,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLR": {
+    "mirror": "-LRR",
+    "volume": 2.666744783449,
+    "volume of the mirror": 2.666744783449,
+    "CS": 0.229166666667,
+    "CS of the mirror": -0.229166666667,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LRR": {
+    "mirror": "+LLR",
+    "volume": 2.666744783449,
+    "volume of the mirror": 2.666744783449,
+    "CS": 0.020833333333,
+    "CS of the mirror": -0.020833333333,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LRR": {
+    "mirror": "-LLR",
+    "volume": 2.666744783449,
+    "volume of the mirror": 2.666744783449,
+    "CS": -0.229166666667,
+    "CS of the mirror": 0.229166666667,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLLR": {
+    "mirror": "+LRRR",
+    "volume": 2.989120282929,
+    "volume of the mirror": 2.989120282929,
+    "CS": -0.03689313319,
+    "CS of the mirror": 0.03689313319,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLLR": {
+    "mirror": "-LRRR",
+    "volume": 2.989120282929,
+    "volume of the mirror": 2.989120282929,
+    "CS": 0.21310686681,
+    "CS of the mirror": -0.21310686681,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLRR": {
+    "mirror": "+LLRR",
+    "volume": 3.663862376709,
+    "volume of the mirror": 3.663862376709,
+    "CS": 0.0,
+    "CS of the mirror": 0.0,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "-LLRR": {
+    "mirror": "-LLRR",
+    "volume": 3.663862376709,
+    "volume of the mirror": 3.663862376709,
+    "CS": 0.25,
+    "CS of the mirror": 0.25,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "+LRRR": {
+    "mirror": "+LLLR",
+    "volume": 2.989120282929,
+    "volume of the mirror": 2.989120282929,
+    "CS": 0.03689313319,
+    "CS of the mirror": -0.03689313319,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LRRR": {
+    "mirror": "-LLLR",
+    "volume": 2.989120282929,
+    "volume of the mirror": 2.989120282929,
+    "CS": -0.21310686681,
+    "CS of the mirror": 0.21310686681,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLLLR": {
+    "mirror": "+LRRRR",
+    "volume": 3.1772932786,
+    "volume of the mirror": 3.1772932786,
+    "CS": -0.049063042342,
+    "CS of the mirror": 0.049063042342,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLLLR": {
+    "mirror": "-LRRRR",
+    "volume": 3.1772932786,
+    "volume of the mirror": 3.1772932786,
+    "CS": 0.200936957658,
+    "CS of the mirror": -0.200936957658,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLLRR": {
+    "mirror": "+LLRRR",
+    "volume": 4.17775107319,
+    "volume of the mirror": 4.17775107319,
+    "CS": -0.019849770985,
+    "CS of the mirror": 0.019849770985,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLLRR": {
+    "mirror": "-LLRRR",
+    "volume": 4.17775107319,
+    "volume of the mirror": 4.17775107319,
+    "CS": 0.230150229015,
+    "CS of the mirror": -0.230150229015,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLRLR": {
+    "mirror": "+LRLRR",
+    "volume": 4.751701965518,
+    "volume of the mirror": 4.751701965518,
+    "CS": -0.021618706497,
+    "CS of the mirror": 0.021618706497,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLRLR": {
+    "mirror": "-LRLRR",
+    "volume": 4.751701965518,
+    "volume of the mirror": 4.751701965518,
+    "CS": 0.228381293503,
+    "CS of the mirror": -0.228381293503,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLRRR": {
+    "mirror": "+LLLRR",
+    "volume": 4.17775107319,
+    "volume of the mirror": 4.17775107319,
+    "CS": 0.019849770985,
+    "CS of the mirror": -0.019849770985,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLRRR": {
+    "mirror": "-LLLRR",
+    "volume": 4.17775107319,
+    "volume of the mirror": 4.17775107319,
+    "CS": -0.230150229015,
+    "CS of the mirror": 0.230150229015,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LRLRR": {
+    "mirror": "+LLRLR",
+    "volume": 4.751701965518,
+    "volume of the mirror": 4.751701965518,
+    "CS": 0.021618706497,
+    "CS of the mirror": -0.021618706497,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LRLRR": {
+    "mirror": "-LLRLR",
+    "volume": 4.751701965518,
+    "volume of the mirror": 4.751701965518,
+    "CS": -0.228381293503,
+    "CS of the mirror": 0.228381293503,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LRRRR": {
+    "mirror": "+LLLLR",
+    "volume": 3.1772932786,
+    "volume of the mirror": 3.1772932786,
+    "CS": 0.049063042342,
+    "CS of the mirror": -0.049063042342,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LRRRR": {
+    "mirror": "-LLLLR",
+    "volume": 3.1772932786,
+    "volume of the mirror": 3.1772932786,
+    "CS": -0.200936957658,
+    "CS of the mirror": 0.200936957658,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLLLLR": {
+    "mirror": "+LRRRRR",
+    "volume": 3.296902414327,
+    "volume of the mirror": 3.296902414327,
+    "CS": -0.058465711232,
+    "CS of the mirror": 0.058465711232,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLLLLR": {
+    "mirror": "-LRRRRR",
+    "volume": 3.296902414327,
+    "volume of the mirror": 3.296902414327,
+    "CS": 0.191534288768,
+    "CS of the mirror": -0.191534288768,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLLLRR": {
+    "mirror": "+LLRRRR",
+    "volume": 4.464658911549,
+    "volume of the mirror": 4.464658911549,
+    "CS": -0.035765683534,
+    "CS of the mirror": 0.035765683534,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLLLRR": {
+    "mirror": "-LLRRRR",
+    "volume": 4.464658911549,
+    "volume of the mirror": 4.464658911549,
+    "CS": 0.214234316466,
+    "CS of the mirror": -0.214234316466,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLLRLR": {
+    "mirror": "+LRLRRR",
+    "volume": 5.133548425107,
+    "volume of the mirror": 5.133548425107,
+    "CS": -0.039681193212,
+    "CS of the mirror": 0.039681193212,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLLRLR": {
+    "mirror": "-LRLRRR",
+    "volume": 5.133548425107,
+    "volume of the mirror": 5.133548425107,
+    "CS": 0.210318806788,
+    "CS of the mirror": -0.210318806788,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LLLRRR": {
+    "mirror": "+LLLRRR",
+    "volume": 4.813819186104,
+    "volume of the mirror": 4.813819186104,
+    "CS": -0.0,
+    "CS of the mirror": -0.0,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "-LLLRRR": {
+    "mirror": "-LLLRRR",
+    "volume": 4.813819186104,
+    "volume of the mirror": 4.813819186104,
+    "CS": 0.25,
+    "CS of the mirror": 0.25,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "+LLRLRR": {
+    "mirror": "+LLRLRR",
+    "volume": 5.625378249567,
+    "volume of the mirror": 5.625378249567,
+    "CS": -0.0,
+    "CS of the mirror": -0.0,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "-LLRLRR": {
+    "mirror": "-LLRLRR",
+    "volume": 5.625378249567,
+    "volume of the mirror": 5.625378249567,
+    "CS": 0.25,
+    "CS of the mirror": 0.25,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "+LLRRLR": {
+    "mirror": "+LRLLRR",
+    "volume": 5.625378249567,
+    "volume of the mirror": 5.625378249567,
+    "CS": 0.0,
+    "CS of the mirror": 0.0,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "-LLRRLR": {
+    "mirror": "-LRLLRR",
+    "volume": 5.625378249567,
+    "volume of the mirror": 5.625378249567,
+    "CS": 0.25,
+    "CS of the mirror": 0.25,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": true,
+    "isometries to the mirror: cusp-map determinants": [
+     -1,
+     1
+    ]
+   },
+   "+LLRRRR": {
+    "mirror": "+LLLLRR",
+    "volume": 4.464658911549,
+    "volume of the mirror": 4.464658911549,
+    "CS": 0.035765683534,
+    "CS of the mirror": -0.035765683534,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LLRRRR": {
+    "mirror": "-LLLLRR",
+    "volume": 4.464658911549,
+    "volume of the mirror": 4.464658911549,
+    "CS": -0.214234316466,
+    "CS of the mirror": 0.214234316466,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LRLRRR": {
+    "mirror": "+LLLRLR",
+    "volume": 5.133548425107,
+    "volume of the mirror": 5.133548425107,
+    "CS": 0.039681193212,
+    "CS of the mirror": -0.039681193212,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LRLRRR": {
+    "mirror": "-LLLRLR",
+    "volume": 5.133548425107,
+    "volume of the mirror": 5.133548425107,
+    "CS": -0.210318806788,
+    "CS of the mirror": 0.210318806788,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "+LRRRRR": {
+    "mirror": "+LLLLLR",
+    "volume": 3.296902414327,
+    "volume of the mirror": 3.296902414327,
+    "CS": 0.058465711232,
+    "CS of the mirror": -0.058465711232,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   },
+   "-LRRRRR": {
+    "mirror": "-LLLLLR",
+    "volume": 3.296902414327,
+    "volume of the mirror": 3.296902414327,
+    "CS": -0.191534288768,
+    "CS of the mirror": 0.191534288768,
+    "CS + CS' = 0 (mod 1/2)": true,
+    "amphichiral": false,
+    "isometries to the mirror: cusp-map determinants": [
+     -1
+    ]
+   }
+  }
+ },
+ "N4 F-MC's chirality is an input in main's own list": "THE_CLAIM section 1: 'two F2 bits (time's arrow; chirality - the conjugation bit, = tau)' among the five typed external data",
+ "N5 neither candidate supplies a forced gauge-side complex structure at the weave level": true
+}

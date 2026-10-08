@@ -18156,3 +18156,18 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - a selected parity;
   - a thread's own orientation of the 3-cycle;
   - or a new structure outside the common point's local systems.
+
+## 2026-10-08 (night, latest) — the weave's W26: the search beyond the weave
+
+- **The owner chose to search beyond the weave,** naming two candidates: the threads' hyperbolic holonomies and F-MC's
+  arithmetic route. The rule came first (186cb3d0); one run; every cell as predicted.
+- **Both are negative at the weave level.**
+  - The weave is mirror-symmetric. Every thread's mirror is a thread, with the same volume and opposite
+    Chern–Simons, so the threads' orientation-odd structures cancel in pairs.
+  - F-MC's order-3 orientation, which decides 27 against 27̄, flips at every tick, because each move is a
+    transposition of the parities. F-MC declares chirality an input.
+- **The goal is not met.** The record's best derivation is now stated exactly:
+  - F-MC's gauge structure, with its inputs;
+  - the weave's count three and its common hand;
+  - the identification FK11 between them.
+  - The weave closes the generation count, which THE_CLAIM listed as open; the identification is the one thing left.

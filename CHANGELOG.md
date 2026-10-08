@@ -1,5 +1,25 @@
 # Changelog
 
+## The weave's W26: the search beyond the weave — the weave is mirror-symmetric, and F-MC's order-3 orientation flips at every tick
+
+- **The owner's choice** after W25: search beyond the weave for a forced structure that fixes the gauge half. The
+  rule (W26_RULE.md, 186cb3d0) was committed first; one run; every cell as predicted.
+- **The threads' hyperbolic holonomies give the weave no hand.**
+  - The mirror of every thread is a thread: S φ⁻¹ S⁻¹ = reverse(φ) with L ↔ R (exact, all 224 words to length 10).
+  - On all 42 threads to length 6 (SnapPy), each thread and its mirror have the same volume and opposite
+    Chern–Simons.
+- **F-MC's McKay chirality is not a thread's.** Each move is a transposition of the parities mod 2. So the order-3
+  orientation (ω against ω², 27 against 27̄) flips at every tick on all 98 odd-trace words to length 10. F-MC itself
+  counts chirality as an input (THE_CLAIM §1).
+- **The record's best derivation.**
+  - F-MC's gauge structure, with its typed inputs.
+  - The weave's count three, with its common hand.
+  - One named identification between them (GENESIS FK11).
+  - The weave closes THE_CLAIM's open generation count.
+- **The goal is not met.** Both named candidates are negative.
+- The dossier (W26), the synthesis (row 17, §4a), the laws page, a test (28 pass), the relay's §22 and the ledger are
+  updated.
+
 ## The weave's W25: the weave's bundles are self-conjugate, so no gauge reading of them is chiral without a choice
 
 - **The question** (after the stop hook's objection that gauge content is not derived): can any gauge reading of the

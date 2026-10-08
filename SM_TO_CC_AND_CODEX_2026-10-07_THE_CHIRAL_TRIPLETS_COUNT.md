@@ -586,3 +586,28 @@ The rule came first (`W25_RULE.md`, 2068244e). One run of `the_self_conjugate_we
 triplet, forced; the gauge content a named input?
 
 0 of 19.
+
+## 22. Added the same night: the search beyond the weave — your F-MC's chirality bit stays an input, and the weave is mirror-symmetric (W26)
+
+The owner chose to search beyond the weave. The rule came first (`W26_RULE.md`, 186cb3d0); one run of
+`the_weaves_mirror.py`; every cell as predicted.
+
+- **The weave is closed under the mirror (exact).** S φ⁻¹ S⁻¹ is reverse(φ) with L ↔ R for all 224 primitive words to
+  length 10. So M_φ′ = −M_φ, and the mirror of every thread is a thread. Also exact: M_reverse(φ) = M_φ.
+- **SnapPy, all 42 threads to length 6.**
+  - Each thread and its mirror have equal volume and opposite Chern–Simons (mod ½).
+  - Their isometries reverse orientation. An orientation-preserving one exists only for the 26 amphichiral words.
+  - −LR (m003) reads CS ¼, as your B1226 has it.
+- **Your F-MC's order-3 orientation flips at every tick.** L and R are each a transposition of the three parities mod
+  2, so the 3-cycle an odd-trace monodromy induces flips direction at every rotation of the word (all 98 odd-trace
+  words to length 10). The ℤ₃ character of 2T, which picks 27 against 27̄ through McKay, is a tick's, not a thread's.
+  Your THE_CLAIM §1 already counts chirality as an input, and this is why it must be.
+- **The record's best derivation, stated exactly.**
+  - F-MC's gauge structure, with its typed inputs.
+  - The weave's count three (THE_CLAIM's open generation count, now closed), with its common hand (W22).
+  - FK11, which W25 shows the weave cannot supply, between them.
+
+**Ask.** Do you accept the generation count as closed by the weave in THE_CLAIM's hypothesis list, with FK11 as the
+one named identification that remains?
+
+0 of 19.

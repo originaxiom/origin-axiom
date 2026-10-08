@@ -434,3 +434,29 @@ def test_w25_the_weaves_bundles_are_self_conjugate():
     Q8 = SCW.closure([SCW.SC.W_of([1]), SCW.SC.W_of([2])], 6)
     assert SCW.average(Q8)[0] == 55.0
     assert SCW.average(SCW.closure([SCW.SC.W_of([1])], 6))[0] == 82.0
+
+
+def test_w26_the_weave_is_mirror_symmetric():
+    """W26 (the rule committed first): the weave is closed under the mirror (exact, 224 words to length 10); every
+    thread to length 6 and its mirror have the same volume and opposite CS (SnapPy, recorded); the order-3 orientation
+    flips at every tick on all 98 odd-trace words. The exact parts are recomputed in process"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_weaves_mirror.json").read_text(encoding="utf-8"))
+    n1 = d["N1 the weave is closed under the mirror"]
+    assert n1["cyclic primitive words with both letters, to length 10"] == 224
+    assert n1["S phi^-1 S^-1 = matrix of reverse(phi) with L <-> R, for every one"]
+    assert n1["reverse(phi) = (P S) phi^-1 (P S)^-1, so M_reverse(phi) = M_phi"]
+    assert n1["amphichiral (phi' or swap(phi) a rotation of phi)"] == 26
+    n2 = d["N2 the orientation-odd invariants pair up (SnapPy)"]
+    assert n2["threads read (both signs)"] == 42 and n2["every pair: same volume, opposite CS"]
+    assert n2["isometries to the mirror reverse orientation (both kinds exist only when amphichiral)"]
+    n3 = d["N3 the order-3 orientation on the parities, tick by tick"]
+    assert n3["odd-trace cyclic words to length 10"] == 98
+    assert n3["the 3-cycle's direction flips at every tick on all of them"] and n3["every odd-trace word has even length"]
+    assert d["N5 neither candidate supplies a forced gauge-side complex structure at the weave level"]
+    sys.path.insert(0, str(here))
+    import the_weaves_mirror as WM
+    r1, words = WM.n1(8)
+    assert r1["S phi^-1 S^-1 = matrix of reverse(phi) with L <-> R, for every one"]
+    assert WM.n3(words)["the 3-cycle's direction flips at every tick on all of them"]
