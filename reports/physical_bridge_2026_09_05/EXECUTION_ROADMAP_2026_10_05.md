@@ -189,6 +189,20 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    controls must all survive. NEXT_TEST is UNEXECUTED. Only a stable
    admitted phase advances to the complete charged Weyl dictionary.
    Main B1613/B1614 and SM W36 read, not replayed. No full physical SM.
+   Stage2Q October8 magnetic-index gate EXECUTED at research grade:
+   weave_magnetic_index_2026_10_08/FINDINGS.md.27 native/16 reference/
+   16 focused/196 twelve-packet regression PASS unchanged at a99a2bae9.
+   Authored global index argument forces at least50 complex physical
+   negative directions for all nonzero integer n and finite c, R=0.
+   This decides that higher-flux discrete question, not all magnetic
+   phases; zero-flux minimum and first-flux infinite instability survive.
+   It is a BOSONIC index, not the four-slot physical charged-Weyl map.
+   NEXT Stage2R: full Q/R mixed Hessian for the admitted stationary
+   second neutral spin field R=d*psi*Z, first at n=2. Retain graph
+   domain, gauge quotient and all old controls; no large-amplitude
+   stabilization claim without a global bound. NEXT_TEST is UNEXECUTED.
+   Source/silver alternatives, independent analytic/full-suite review
+   and foundational selection duties remain. Full SM/TOE still active.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

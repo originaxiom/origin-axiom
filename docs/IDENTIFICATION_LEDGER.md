@@ -298,3 +298,18 @@ Locks: tests/test_physical_bridge_weave_neutral_stability.py.
 
 Outside analytic review, full charged spectrum and foundational selection
 remain owed.
+
+### Magnetic bosonic index October 8 path-local supplement
+
+No shared I-number or empirical normalization is reassigned.
+Report: reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_magnetic_index.py.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Magnetic charge/weight and global holomorphic line | Connection d-i(m+2nq)s induces E=S^(-m-2nq); Q in SE and A in E-valued (0,1) forms | Spin transitions, exact pole/log endpoints, adjoint Hodge map and fixed-domain homotopy | Authored conditional bundle/operator identification, not compact degree shorthand |
+| Bosonic residual index and negative physical subspace | V2_gf=(norm(B_q)^2-nq*norm^2)/g6^2, positive index forces kernel | Actual kinetic factors, moment/gauge split, graph approximants, gauge invariance at stationarity | At least50 complex negative directions for R=0, n!=0, finite c; not the Weyl index, generations or complete Morse count |
+| Existing second spin field and admitted stationary deformation | R=d*psi*Z with Q=Q_principal+c*psi*Z | Unchanged full stationary residuals/moment; added linear fluctuation term is nonzero | Same action/domain, full two-field stability uncomputed; R=0 obstruction not silently transported |
+
+Global analytic acceptance and genesis-to-physical-parent derivation
+remain outstanding. No physical chirality or qualia identification.

@@ -17796,3 +17796,38 @@ Full coordinate residuals and positive kinetic normalization checked in
 addition to the two root/tensor rosters and exact operator squares.
 Global spin, relative compactness and infinite-domain spectrum are
 authored analytic arguments, not independently accepted by finite tests.
+
+## 2026-10-08 global magnetic index and next two-field test
+
+October 8 magnetic-index research checkpoint: 27 native/16 separate
+reference/16 focused and 196 twelve-packet regression tests PASS unchanged
+at pushed pre-run a99a2bae9. An authored global bosonic-index argument
+gives at least50 complex physical negative directions for EVERY nonzero
+integer n and finite c in A=A_n, Q=Q_principal+c*psi*Z, R=0.
+This resolves the higher-flux DISCRETE question for that family: a
+positive essential bottom does not stabilize it. Not a full Morse count,
+physical Weyl index, generation count or architecture-wide exclusion.
+Report: reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/FINDINGS.md.
+The earlier first-flux infinite instability and zero-flux nonnegative
+SM gauge minimum with zero charged index remain intact.
+The SAME action also admits R=d*psi*Z with unchanged stationarity.
+Its mixed fluctuation equations differ; two-field stability is NOT
+settled by the R=0 index. NEXT: separately seal its full Hessian/domain
+test, first at n=2; NEXT_TEST is UNEXECUTED, not a claimed escape.
+Global proof needs independent analytic review. Full-suite/main-bank
+and inherited governance duties remain; no shared B/I number allocated.
+Main08b7f328f B1616 is a preregistration; SM7c5d9726c unchanged.
+Full SM/TOE remains ACTIVE/unachieved; action/metric/spin/selection,
+act/register/lift, physical chirality, interactions/anomalies and gravity
+remain distinct duties. Earlier dated OPEN/NEXT entries are history.
+
+Exact complete-cusp spin-power indices retain logarithmic endpoints,
+adjoint Hodge kernels and global pole-dimension upper bounds. A gapped
+operator homotopy and graph-compact neutral term preserve the coupled
+bosonic index. Compact graph approximants earn finite-quartic negative
+paths and a physical gauge quotient, not a fermion count. Charge bounds
+12,18,12,6,0,2 sum to50; all-integer statement uses the actual weight
+inequality and parity, not a finite flux sample. Seven scientific files
+and six pinned-and-working sources unchanged; no failed science or repair.
+Native4.189310s, reference0.158291s, focused pytest5.40s, regression48.54s.
+Literal exits/hashes in RECEIPTS.json. Full analytic review remains owed.

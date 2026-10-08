@@ -1,0 +1,543 @@
+{
+  "analytic_grade": "Global Fredholm/domain proof authored, not certified by finite predicates",
+  "charge_index_profiles": {
+    "-1": {
+      "-1": 12,
+      "-2": 18,
+      "-3": 12,
+      "-4": 6,
+      "-5": 0,
+      "-6": 2,
+      "0": 10,
+      "1": 12,
+      "2": 12,
+      "3": 8,
+      "4": 9,
+      "5": 6,
+      "6": 3
+    },
+    "-2": {
+      "-1": 12,
+      "-2": 18,
+      "-3": 12,
+      "-4": 6,
+      "-5": 0,
+      "-6": 2,
+      "0": 10,
+      "1": 18,
+      "2": 12,
+      "3": 8,
+      "4": 9,
+      "5": 6,
+      "6": 3
+    },
+    "-3": {
+      "-1": 12,
+      "-2": 18,
+      "-3": 12,
+      "-4": 6,
+      "-5": 0,
+      "-6": 2,
+      "0": 10,
+      "1": 18,
+      "2": 12,
+      "3": 8,
+      "4": 9,
+      "5": 6,
+      "6": 3
+    },
+    "0": {
+      "-1": 12,
+      "-2": 12,
+      "-3": 8,
+      "-4": 6,
+      "-5": 0,
+      "-6": 2,
+      "0": 10,
+      "1": 12,
+      "2": 12,
+      "3": 8,
+      "4": 6,
+      "5": 0,
+      "6": 2
+    },
+    "1": {
+      "-1": 12,
+      "-2": 12,
+      "-3": 8,
+      "-4": 9,
+      "-5": 6,
+      "-6": 3,
+      "0": 10,
+      "1": 12,
+      "2": 18,
+      "3": 12,
+      "4": 6,
+      "5": 0,
+      "6": 2
+    },
+    "2": {
+      "-1": 18,
+      "-2": 12,
+      "-3": 8,
+      "-4": 9,
+      "-5": 6,
+      "-6": 3,
+      "0": 10,
+      "1": 12,
+      "2": 18,
+      "3": 12,
+      "4": 6,
+      "5": 0,
+      "6": 2
+    },
+    "3": {
+      "-1": 18,
+      "-2": 12,
+      "-3": 8,
+      "-4": 9,
+      "-5": 6,
+      "-6": 3,
+      "0": 10,
+      "1": 12,
+      "2": 18,
+      "3": 12,
+      "4": 6,
+      "5": 0,
+      "6": 2
+    }
+  },
+  "facts": {
+    "actual_hodge_dual_exponent_and_index_antisymmetry": true,
+    "actual_moment_gauge_split_and_wrong_coefficient": true,
+    "actual_roster_all_n_beta_bound_reduces_to_first_flux": true,
+    "all_extreme_and_paired_drifts_remain_half_integral": true,
+    "beta_zero_endpoint_is_not_counted": true,
+    "canonical_line_drift_from_derivative": true,
+    "canonical_line_metric_is_unitary": true,
+    "constant_and_first_pole_spin_controls": true,
+    "dropping_log_endpoint_changes_index_control": true,
+    "every_fixed_finite_neutral_amplitude_decays": true,
+    "exact_log_endpoint_and_first_forbidden_pole": true,
+    "fifty_bound_is_full_weight_count": true,
+    "forgetting_spin_shift_or_compact_degree_misses_index": true,
+    "full_moment_kinetic_factors_have_same_soft_shift": true,
+    "gauge_root_only_index_control_is_zero": true,
+    "graph_approximation_keeps_a_strict_negative_margin": true,
+    "hermitian_hodge_coefficient_cancels_derivative": true,
+    "opposite_flux_conjugate_profile": true,
+    "pole_basis_dimension_and_distinct_orders": true,
+    "positive_beta_exact_parity_difference": true,
+    "positive_flux_exact_bosonic_index_profile": true,
+    "principal_homotopy_full_blocks_not_scalar_guess": true,
+    "second_neutral_field_stationary_but_changes_fluctuations": true,
+    "simple_pole_is_absent_not_a_missing_basis_element": true,
+    "two_opposite_log_equality_controls": true,
+    "whole248_weight_population_retained": true,
+    "zero_flux_does_not_get_negative_shift": true
+  },
+  "full_Morse_index_computed": false,
+  "genesis_selection_derived": false,
+  "line_table": [
+    {
+      "a": -24,
+      "h0": 0,
+      "h1": 12,
+      "index": -12,
+      "pole_bound": -12
+    },
+    {
+      "a": -23,
+      "h0": 0,
+      "h1": 12,
+      "index": -12,
+      "pole_bound": -12
+    },
+    {
+      "a": -22,
+      "h0": 0,
+      "h1": 11,
+      "index": -11,
+      "pole_bound": -11
+    },
+    {
+      "a": -21,
+      "h0": 0,
+      "h1": 11,
+      "index": -11,
+      "pole_bound": -11
+    },
+    {
+      "a": -20,
+      "h0": 0,
+      "h1": 10,
+      "index": -10,
+      "pole_bound": -10
+    },
+    {
+      "a": -19,
+      "h0": 0,
+      "h1": 10,
+      "index": -10,
+      "pole_bound": -10
+    },
+    {
+      "a": -18,
+      "h0": 0,
+      "h1": 9,
+      "index": -9,
+      "pole_bound": -9
+    },
+    {
+      "a": -17,
+      "h0": 0,
+      "h1": 9,
+      "index": -9,
+      "pole_bound": -9
+    },
+    {
+      "a": -16,
+      "h0": 0,
+      "h1": 8,
+      "index": -8,
+      "pole_bound": -8
+    },
+    {
+      "a": -15,
+      "h0": 0,
+      "h1": 8,
+      "index": -8,
+      "pole_bound": -8
+    },
+    {
+      "a": -14,
+      "h0": 0,
+      "h1": 7,
+      "index": -7,
+      "pole_bound": -7
+    },
+    {
+      "a": -13,
+      "h0": 0,
+      "h1": 7,
+      "index": -7,
+      "pole_bound": -7
+    },
+    {
+      "a": -12,
+      "h0": 0,
+      "h1": 6,
+      "index": -6,
+      "pole_bound": -6
+    },
+    {
+      "a": -11,
+      "h0": 0,
+      "h1": 6,
+      "index": -6,
+      "pole_bound": -6
+    },
+    {
+      "a": -10,
+      "h0": 0,
+      "h1": 5,
+      "index": -5,
+      "pole_bound": -5
+    },
+    {
+      "a": -9,
+      "h0": 0,
+      "h1": 5,
+      "index": -5,
+      "pole_bound": -5
+    },
+    {
+      "a": -8,
+      "h0": 0,
+      "h1": 4,
+      "index": -4,
+      "pole_bound": -4
+    },
+    {
+      "a": -7,
+      "h0": 0,
+      "h1": 4,
+      "index": -4,
+      "pole_bound": -4
+    },
+    {
+      "a": -6,
+      "h0": 0,
+      "h1": 3,
+      "index": -3,
+      "pole_bound": -3
+    },
+    {
+      "a": -5,
+      "h0": 0,
+      "h1": 3,
+      "index": -3,
+      "pole_bound": -3
+    },
+    {
+      "a": -4,
+      "h0": 0,
+      "h1": 2,
+      "index": -2,
+      "pole_bound": -2
+    },
+    {
+      "a": -3,
+      "h0": 0,
+      "h1": 2,
+      "index": -2,
+      "pole_bound": -2
+    },
+    {
+      "a": -2,
+      "h0": 0,
+      "h1": 1,
+      "index": -1,
+      "pole_bound": -1
+    },
+    {
+      "a": -1,
+      "h0": 0,
+      "h1": 1,
+      "index": -1,
+      "pole_bound": -1
+    },
+    {
+      "a": 0,
+      "h0": 1,
+      "h1": 1,
+      "index": 0,
+      "pole_bound": 0
+    },
+    {
+      "a": 1,
+      "h0": 1,
+      "h1": 1,
+      "index": 0,
+      "pole_bound": 0
+    },
+    {
+      "a": 2,
+      "h0": 1,
+      "h1": 1,
+      "index": 0,
+      "pole_bound": 0
+    },
+    {
+      "a": 3,
+      "h0": 1,
+      "h1": 0,
+      "index": 1,
+      "pole_bound": 1
+    },
+    {
+      "a": 4,
+      "h0": 1,
+      "h1": 0,
+      "index": 1,
+      "pole_bound": 1
+    },
+    {
+      "a": 5,
+      "h0": 2,
+      "h1": 0,
+      "index": 2,
+      "pole_bound": 2
+    },
+    {
+      "a": 6,
+      "h0": 2,
+      "h1": 0,
+      "index": 2,
+      "pole_bound": 2
+    },
+    {
+      "a": 7,
+      "h0": 3,
+      "h1": 0,
+      "index": 3,
+      "pole_bound": 3
+    },
+    {
+      "a": 8,
+      "h0": 3,
+      "h1": 0,
+      "index": 3,
+      "pole_bound": 3
+    },
+    {
+      "a": 9,
+      "h0": 4,
+      "h1": 0,
+      "index": 4,
+      "pole_bound": 4
+    },
+    {
+      "a": 10,
+      "h0": 4,
+      "h1": 0,
+      "index": 4,
+      "pole_bound": 4
+    },
+    {
+      "a": 11,
+      "h0": 5,
+      "h1": 0,
+      "index": 5,
+      "pole_bound": 5
+    },
+    {
+      "a": 12,
+      "h0": 5,
+      "h1": 0,
+      "index": 5,
+      "pole_bound": 5
+    },
+    {
+      "a": 13,
+      "h0": 6,
+      "h1": 0,
+      "index": 6,
+      "pole_bound": 6
+    },
+    {
+      "a": 14,
+      "h0": 6,
+      "h1": 0,
+      "index": 6,
+      "pole_bound": 6
+    },
+    {
+      "a": 15,
+      "h0": 7,
+      "h1": 0,
+      "index": 7,
+      "pole_bound": 7
+    },
+    {
+      "a": 16,
+      "h0": 7,
+      "h1": 0,
+      "index": 7,
+      "pole_bound": 7
+    },
+    {
+      "a": 17,
+      "h0": 8,
+      "h1": 0,
+      "index": 8,
+      "pole_bound": 8
+    },
+    {
+      "a": 18,
+      "h0": 8,
+      "h1": 0,
+      "index": 8,
+      "pole_bound": 8
+    },
+    {
+      "a": 19,
+      "h0": 9,
+      "h1": 0,
+      "index": 9,
+      "pole_bound": 9
+    },
+    {
+      "a": 20,
+      "h0": 9,
+      "h1": 0,
+      "index": 9,
+      "pole_bound": 9
+    },
+    {
+      "a": 21,
+      "h0": 10,
+      "h1": 0,
+      "index": 10,
+      "pole_bound": 10
+    },
+    {
+      "a": 22,
+      "h0": 10,
+      "h1": 0,
+      "index": 10,
+      "pole_bound": 10
+    },
+    {
+      "a": 23,
+      "h0": 11,
+      "h1": 0,
+      "index": 11,
+      "pole_bound": 11
+    },
+    {
+      "a": 24,
+      "h0": 11,
+      "h1": 0,
+      "index": 11,
+      "pole_bound": 11
+    }
+  ],
+  "nonauthor_acceptance": false,
+  "physical_fermion_index_computed": false,
+  "physical_goal_achieved": false,
+  "predicates_passed": 27,
+  "stable_nonzero_flux_phase_achieved": false,
+  "two_field_stability_computed": false,
+  "unstable_bounds": {
+    "-1": {
+      "-1": 12,
+      "-2": 18,
+      "-3": 12,
+      "-4": 6,
+      "-5": 0,
+      "-6": 2
+    },
+    "-2": {
+      "-1": 12,
+      "-2": 18,
+      "-3": 12,
+      "-4": 6,
+      "-5": 0,
+      "-6": 2
+    },
+    "-3": {
+      "-1": 12,
+      "-2": 18,
+      "-3": 12,
+      "-4": 6,
+      "-5": 0,
+      "-6": 2
+    },
+    "0": {},
+    "1": {
+      "1": 12,
+      "2": 18,
+      "3": 12,
+      "4": 6,
+      "5": 0,
+      "6": 2
+    },
+    "2": {
+      "1": 12,
+      "2": 18,
+      "3": 12,
+      "4": 6,
+      "5": 0,
+      "6": 2
+    },
+    "3": {
+      "1": 12,
+      "2": 18,
+      "3": 12,
+      "4": 6,
+      "5": 0,
+      "6": 2
+    }
+  }
+}

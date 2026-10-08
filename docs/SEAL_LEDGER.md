@@ -2509,3 +2509,13 @@ four inherited FAIL, review374. Research publication, not main-bank acceptance.
 | weave_magnetic_index_2026_10_08/reference.py | 39c1fb41e0de3ee1fd4c9f7a3bfa78045f4183c4773f1823a4e49a24c7560553 |
 | weave_magnetic_index_2026_10_08/custody.rb | 1c0602470d5365c3694e5aa778f850b2b267d0aec72190bc8c8ceafef0bc16e5 |
 | tests/test_physical_bridge_weave_magnetic_index.py | 6ec07b46c0366d4be52030a384c03ded2a39ea666e4000ea1b857d37523694ca |
+
+Disposition after pushed/server-confirmed a99a2bae9: first unchanged
+27 native/16 separate reference/16 focused/196 twelve-packet regression
+PASS. Seven science and six pinned-and-working sources unchanged; no
+scientific failure or repair. Report: weave_magnetic_index_2026_10_08/FINDINGS.md.
+At least50 complex physical negative directions for all n!=0, finite c
+in the specified R=0 family, not a Weyl index or full Morse count.
+Two-field stationarity is admitted; its stability remains uncomputed.
+NEXT_TEST is post-run UNEXECUTED and outside this seal. Independent
+analytic/full-suite/main-bank and inherited governance duties remain.

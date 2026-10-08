@@ -1,5 +1,35 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October 8 magnetic-index checkpoint:
+reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/FINDINGS.md.
+27 native/16 reference/16 focused/196 regression PASS at a99a2bae9.
+
+- PB-CUSP-HIGHER-FLUX-STABILITY: EXECUTED and conditionally obstructed
+  for R=0. Closing scope in FINDINGS: "every member of
+  A=A_n, Q=Q_principal+c*psi*Z, R=0 with nonzero integer n and finite c
+  has at least 50 complex physical negative directions". Authored
+  analytic proof, not a full Morse count or architecture-wide closure.
+- PB-CUSP-TWO-NEUTRAL-STABILITY: OPEN. The admitted R=d*psi*Z field
+  changes the full residual map. Derive all mixed Q/R/connection terms
+  and the physical gauge quotient before a stability verdict. NEXT_TEST
+  is unexecuted; n=2 is a diagnostic, not a generated physical choice.
+- PB-CUSP-NEUTRAL-STABILIZER: zero-flux SM gauge minimum, flat neutral
+  moduli and zero charged index preserved. The first-flux infinite
+  negative result remains stronger than the new finite lower bound.
+- PB-CUSP-INDEX-CLASS: the index computed here is BOSONIC. The complete
+  nonzero-flux Weyl dictionary and physical index remain uncomputed in
+  this packet. No flat-cover or bulk-degree substitution.
+- PB-CUSP-REVIEW: exact global spin powers, L2 logarithmic endpoints,
+  adjoint graph domains, uniformly Fredholm homotopy and finite-energy
+  negative paths need nonauthor analytic acceptance.
+- PB-SOURCE-JOIN and source/silver alternatives remain in their own
+  parents. No changed-end, source, domain or architecture exclusion.
+- Foundational parent/spin/metric/selection, act/register/lift retention,
+  chiral interactions/anomalies, quantum and gravity duties remain.
+  Full-suite/main-bank and inherited governance debts remain.
+
+Earlier OPEN/NEXT entries below retain their historical epoch.
+
 October 8 neutral-stability checkpoint:
 reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/FINDINGS.md.
 30 native/17 reference/16 focused/180 regression PASS at57f3fd304.

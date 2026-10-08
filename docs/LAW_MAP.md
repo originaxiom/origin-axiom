@@ -1,5 +1,25 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October 8 magnetic-index conditional sublemmas. Same supplied curved
+E8 action, complete punctured elliptic surface, trivial extending spin
+and graph domain. No new shared B laws or outside analytic acceptance.
+PROOF: reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md.
+LIVE locks: tests/test_physical_bridge_weave_magnetic_index.py.
+27 native/16 separate reference/16 focused/196 regression PASS at a99a2bae9.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Spin-power L2 holomorphic dimensions have an exact pole cutoff including logarithmic equality | b(a)=floor(a/2) for a<=0, ceil(a/2)-1 otherwise; Weierstrass basis and single-residue upper bound. test_l2_endpoint_including_logarithm, test_exact_function_dimension_keeps_simple_pole_obstruction. Global extension/spanning argument authored |
+| Complete Dolbeault index is J(a)=h(b(a))-h(b(2-a)) | Actual Hermitian Hodge adjoint, complete graph closure and nonzero half-integral cusp drift. test_hodge_duality_and_all_four_kernel_terms, test_actual_line_metric_and_drift. Not compact degree substitution |
+| Coupled bosonic index is preserved under principal homotopy and finite neutral c | Every paired and extreme Fredholm drift retained; c*psi graph-compact on the same domain. test_principal_homotopy_keeps_extremes_and_gap, test_neutral_perturbation_decays_on_same_end. Not stationary homotopy or a physical Weyl map |
+| For nq>0 the full E8 charge indices are12,18,12,6,0,2 | Both entire248 root/tensor rosters and exact spin-shifted line indices; beta>=0 and parity earn all-integer scope. test_full_root_and_tensor_weight_population, test_actual_roster_bound_underlies_all_integer_claim, test_charge_resolved_fifty_bound_all_tested_flux_signs |
+| R=0 magnetic family has at least50 complex physical negative directions for all n!=0 and finite c | Full negative moment with positive kinetic factors, finite graph approximants and gauge quotient. test_soft_sign_actual_kinetic_and_gauge_split, test_graph_approximants_keep_negative_margin plus authored PROOF. Lower bound, not full Morse or particle count; n=0 minimum preserved |
+| Second existing neutral spin field preserves stationarity but changes the operator | Q=Q_principal+c*psi*Z, R=d*psi*Z; all F residuals zero, parallel moment -nZ. test_second_spin_background_is_not_silently_excluded plus global norm argument. Its full stability remains open |
+
+The previous higher-flux OPEN statement is superseded only for the
+specified R=0 family. Two-field stability, full Weyl spectrum and other
+parents/ends/sources remain separate. Earlier dated entries are history.
+
 October 8 neutral-stability conditional sublemmas. Same supplied curved
 parent, punctured elliptic metric, spin and complete graph domain; not
 generated physics, new shared B laws or independent analytic acceptance.
