@@ -1,5 +1,15 @@
 # Changelog
 
+## S94 THE NEUTRINO MASSES ON THE WEAVE (B1616, NEGATIVE as sealed) AND THE OWNER'S RULINGS ON GENESIS v1.33: TM1's own neutrino-side symmetry admits no Majorana vacuum and every other residual vacuum gives a degenerate spectrum the oscillation splittings exclude — the weave's group fixes no flavour value; the owner's four rulings of 2026-10-08, relayed by the SM seat, recorded
+
+**The occasion.** B1615 left the Majorana case owed and found a sum rule in the Dirac sector along RRL, TM1's neutrino-side symmetry. The owner asked for a report mid-landing. The SM seat relayed the owner's rulings on four forks (§37) and asked main to record them in GENESIS; its W36 and W37 (main's S92 reproduced) arrived the same evening.
+
+**B1616 (NEGATIVE as sealed; sealed `08b7f328f`).** Sym² T = 1 + 2 + 3, Λ² T irreducible. Along RRL no irreducible of Sym² T has a fixed vacuum (the sealed N2 fails). Along RL, L and R the fixed vacua give rigid spectra with exact degeneracies — (1, 1, 1), (½, ½, 1), (0, 1, 1) — each excluded by the two measured, non-zero splittings. The solver's Σm (0.115 eV NO, 0.100 eV IO) imposed the sum rule alone and ignored the rigid ratios: artifacts, disclosed, not predictions; the cosmological comparison is void and no cosmological datum was read.
+
+**What it says (GENESIS v1.33).** The weave's group fixes no neutrino mass; with B1611 (the phase), B1612 (the angles) and B1615 (the charged-fermion masses), it fixes no flavour value at all. Values need a forced modulus, dynamics or end data (the seat's W36: a chiral count needs winding end data or an object of dimension four or more). **The owner's rulings**, relayed and recorded: GM5c even ticks observed; FK11 Λ a tagged working postulate (results "given Λ"); FK10 flat counts only; GM5d positivity kept. Rows 958–961; the pin at `0471ce84`; relayed.
+
+**What it means.** The flavour sector's values are not in the weave's symmetry — a closed question now, sealed four times. The next arcs ask what could force the modulus. **The imported expectation, stated separately:** the splittings were known. **0 of 19.** Arc **B1616** (NEGATIVE as sealed; a weave result; no law). Gates 44 of 44; full suite 7220 passed, 0 failed, 68 skipped.
+
 ## S93 THE COUPLINGS THE WEAVE ALLOWS (B1615, NEGATIVE as sealed): the weave's group leaves the masses free, forbids every bilinear and trilinear of the matter alone, and with vacua along its own residual subgroups gives rigid spectra or one family with the exact sum rule m₁ + m₂ = m₃ — the charged-lepton hierarchy out of reach; with B1611 and B1612 the group side is exhausted for the nineteen
 
 **The occasion.** Nine of the nineteen are fermion masses. B1611 put the CP phase and B1612 the mixing angles outside the weave's group; B1615 asks the same of the masses — the couplings the group allows and the spectra its own residual symmetries give. The seal's push was blocked by the doc-currency gate (LAW_MAP lagging 11 arcs); five LAW_MAP rows for the week's results (B1606, B1609–B1610, B1611, B1612–B1613, B1614) rode with it as a separate commit (`2c968525d`), disclosed.

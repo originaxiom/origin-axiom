@@ -11334,5 +11334,27 @@
    "hypotheses": "FK11 unearned; the vacuum alignment a selection"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1616",
+  "claim_killed": "That a Majorana vacuum along TM1's neutrino-side symmetry RRL exists on the weave and that a residual-aligned neutrino spectrum obeys a sum rule fixing the absolute masses (Sigma m ~ 0.115 eV at normal ordering).",
+  "kill_form": "Sealed (08b7f328f) decomposition of Sym^2 T under the weave's group and the Takagi masses along the fixed directions of RRL, RL, L, R: no fixed vacuum along RRL; elsewhere rigid degenerate spectra excluded by the two measured splittings.",
+  "hatch": "neutrino masses from a forced modulus (the fibre's tau), from dynamics, or from end data; a seesaw with right-handed partners outside the triplet",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-08), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the weave's group fixes no neutrino mass; the TM1 mixing reading (P10) is untouched.",
+  "faces_consulted": [
+   "B1615",
+   "B1612",
+   "B1611"
+  ],
+  "fact_computed": "Sym^2 T = 1 + 2 + 3; fixed spaces along RRL (none), RL, L, R; rigid spectra",
+  "scope": {
+   "frame": "the weave's group; Majorana masses in Sym^2 T; residual-aligned vacua",
+   "object": "Takagi masses",
+   "reach": "general",
+   "hypotheses": "given Lambda; vacuum alignment a selection"
+  },
+  "weave_or_thread": "weave"
  }
 ]

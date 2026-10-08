@@ -11125,6 +11125,19 @@
    "status": "dead",
    "domain": "physics"
   },
+  "B1616": {
+   "slug": "the neutrino masses on the weave",
+   "motifs": [],
+   "refs": [
+    "P10",
+    "P4",
+    "P5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B161": {
    "slug": "cancellation locus stratification",
    "motifs": [

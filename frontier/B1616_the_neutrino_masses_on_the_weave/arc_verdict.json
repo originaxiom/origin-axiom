@@ -1,0 +1,24 @@
+{
+ "id": "B1616",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1615",
+  "B1612",
+  "B1611"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's group on the matter triplet T; Majorana masses in Sym^2 T with a Higgs-type field in each irreducible; vacua fixed by RRL, RL, L, R",
+  "object": "the Takagi masses of the symmetric Clebsch-Gordan mass matrices along the fixed directions",
+  "reach": "general",
+  "hypotheses": "given Lambda (FK11, the owner's ruling as relayed); the vacuum alignment a selection; the oscillation splittings from NuFIT 6.0 (B1612's read)"
+ },
+ "claim_one_line": "THE NEUTRINO MASSES ON THE WEAVE (sealed 08b7f328f), NEGATIVE as sealed: a Majorana mass for the weave's triplet lives in Sym^2 T = 1 + 2 + 3 (no invariant); along RRL, TM1's neutrino-side symmetry, no irreducible has a fixed vacuum; along RL, L, R the spectra are rigid with exact degeneracies ((1,1,1), (1/2,1/2,1), (0,1,1)), each excluded by the two measured, non-zero splittings -- the residual-vacuum reading of the neutrino masses dies on oscillation data; the solver's Sigma m (0.115 / 0.100 eV) imposed the sum rule alone and is not a prediction; the cosmological comparison void. With B1611, B1612, B1615 the weave's group fixes no flavour value. GENESIS v1.33 also records the owner's four rulings of 2026-10-08 as relayed. 0 of 19.",
+ "weave_or_thread": "weave"
+}

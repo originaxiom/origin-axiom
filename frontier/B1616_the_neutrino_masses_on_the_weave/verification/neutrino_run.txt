@@ -1,0 +1,228 @@
+{
+ "N1": {
+  "Sym2_pieces_dims": [
+   1,
+   2,
+   3
+  ],
+  "Sym2_commutant": 3,
+  "Alt2_dim": 3,
+  "Alt2_irreducible": 1.0
+ },
+ "N2": {
+  "piece 0 (dim 1)": {
+   "RRL": {
+    "fixed_dim": 0
+   },
+   "RL": {
+    "fixed_dim": 1,
+    "m1_m3_range": [
+     0.9999999999999998,
+     0.9999999999999998
+    ],
+    "m2_m3_range": [
+     1.0,
+     1.0
+    ],
+    "relations": {
+     "m1 + m2 = m3": false,
+     "m1 = m2": true,
+     "m2 = m3": true,
+     "m1 = 0": false,
+     "m2 - m1 = m3": false,
+     "2 m2 = m1 + m3": true
+    }
+   },
+   "L": {
+    "fixed_dim": 0
+   },
+   "R": {
+    "fixed_dim": 0
+   }
+  },
+  "piece 1 (dim 3)": {
+   "RRL": {
+    "fixed_dim": 0
+   },
+   "RL": {
+    "fixed_dim": 1,
+    "m1_m3_range": [
+     0.49999999999999944,
+     0.49999999999999944
+    ],
+    "m2_m3_range": [
+     0.4999999999999995,
+     0.4999999999999995
+    ],
+    "relations": {
+     "m1 + m2 = m3": true,
+     "m1 = m2": true,
+     "m2 = m3": false,
+     "m1 = 0": false,
+     "m2 - m1 = m3": false,
+     "2 m2 = m1 + m3": false
+    }
+   },
+   "L": {
+    "fixed_dim": 1,
+    "m1_m3_range": [
+     1.252003990459257e-16,
+     1.252003990459257e-16
+    ],
+    "m2_m3_range": [
+     1.0,
+     1.0
+    ],
+    "relations": {
+     "m1 + m2 = m3": true,
+     "m1 = m2": false,
+     "m2 = m3": true,
+     "m1 = 0": true,
+     "m2 - m1 = m3": true,
+     "2 m2 = m1 + m3": false
+    }
+   },
+   "R": {
+    "fixed_dim": 1,
+    "m1_m3_range": [
+     1.7249520051298133e-16,
+     1.7249520051298133e-16
+    ],
+    "m2_m3_range": [
+     0.9999999999999999,
+     0.9999999999999999
+    ],
+    "relations": {
+     "m1 + m2 = m3": true,
+     "m1 = m2": false,
+     "m2 = m3": true,
+     "m1 = 0": true,
+     "m2 - m1 = m3": true,
+     "2 m2 = m1 + m3": false
+    }
+   }
+  },
+  "piece 2 (dim 2)": {
+   "RRL": {
+    "fixed_dim": 0
+   },
+   "RL": {
+    "fixed_dim": 0
+   },
+   "L": {
+    "fixed_dim": 0
+   },
+   "R": {
+    "fixed_dim": 0
+   }
+  }
+ },
+ "N3": {
+  "families_with_a_sum_rule": [
+   [
+    "piece 0 (dim 1)",
+    "RL",
+    "2 m2 = m1 + m3"
+   ],
+   [
+    "piece 1 (dim 3)",
+    "L",
+    "m1 + m2 = m3"
+   ],
+   [
+    "piece 1 (dim 3)",
+    "R",
+    "m1 + m2 = m3"
+   ],
+   [
+    "piece 1 (dim 3)",
+    "RL",
+    "m1 + m2 = m3"
+   ]
+  ]
+ },
+ "N4": [
+  {
+   "piece": "piece 0 (dim 1)",
+   "residual": "RL",
+   "rule": "2 m2 = m1 + m3",
+   "NO": [],
+   "IO": []
+  },
+  {
+   "piece": "piece 1 (dim 3)",
+   "residual": "L",
+   "rule": "m1 + m2 = m3",
+   "NO": [
+    {
+     "masses_eV": [
+      0.028077,
+      0.02938,
+      0.057457
+     ],
+     "sum_eV": 0.114914
+    }
+   ],
+   "IO": [
+    {
+     "masses_eV": [
+      0.049088,
+      0.049845,
+      0.000757
+     ],
+     "sum_eV": 0.099691
+    }
+   ]
+  },
+  {
+   "piece": "piece 1 (dim 3)",
+   "residual": "R",
+   "rule": "m1 + m2 = m3",
+   "NO": [
+    {
+     "masses_eV": [
+      0.028077,
+      0.02938,
+      0.057457
+     ],
+     "sum_eV": 0.114914
+    }
+   ],
+   "IO": [
+    {
+     "masses_eV": [
+      0.049088,
+      0.049845,
+      0.000757
+     ],
+     "sum_eV": 0.099691
+    }
+   ]
+  },
+  {
+   "piece": "piece 1 (dim 3)",
+   "residual": "RL",
+   "rule": "m1 + m2 = m3",
+   "NO": [
+    {
+     "masses_eV": [
+      0.028077,
+      0.02938,
+      0.057457
+     ],
+     "sum_eV": 0.114914
+    }
+   ],
+   "IO": [
+    {
+     "masses_eV": [
+      0.049088,
+      0.049845,
+      0.000757
+     ],
+     "sum_eV": 0.099691
+    }
+   ]
+  }
+ ]
+}

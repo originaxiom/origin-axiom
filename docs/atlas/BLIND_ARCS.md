@@ -67,3 +67,4 @@ never blind in substance — the lexicon had no word for what they were about:
 
 *A blind arc had meant 'matches no motif'. For twelve of them it meant 'the index cannot ask the
 question this arc answers'. That is the distinction B821 warned the raw count conflates.*
+| `B1616` | GAP | The neutrino masses on the weave (2026-10-08): Majorana mass matrices in Sym² T of the weave's flavour triplet, their Takagi spectra along residual-aligned vacua, and the oscillation splittings that exclude them — a real object topic (the mass spectra of the flavour triplet) the lexicon has no motif for. |

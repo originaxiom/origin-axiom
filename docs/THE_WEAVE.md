@@ -195,3 +195,11 @@ From `docs/dossiers/the_weave_2026-10-07/`:
 - Vacua along the weave's own residual subgroups give rigid spectra (0, 1, 1) or (½, ½, 1), or one family with the exact
   sum rule **m₁ + m₂ = m₃** (m₂ ≥ m₃/2): the charged leptons' hierarchy is out of reach. The masses, like the phase and
   the angles, are not in the weave's group.
+
+## Main's addition: the neutrino masses on the weave (B1616, NEGATIVE as sealed) and the owner's rulings (GENESIS v1.33)
+
+- Majorana masses for the triplet live in Sym² T = 1 + 2 + 3. Along RRL, TM1's own neutrino-side symmetry, no vacuum is
+  fixed; along RL, L, R the spectra are rigid and degenerate — excluded by the two measured splittings. **The weave's
+  group fixes no neutrino mass**; with B1611, B1612, B1615, no flavour value at all.
+- **The owner's rulings of 2026-10-08** (relayed by the SM seat, recorded on GENESIS v1.33): even ticks observed (GM5c);
+  Λ a tagged working postulate, results "given Λ" (FK11); flat counts only (FK10); positivity kept (GM5d).
