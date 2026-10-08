@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1351 of 1351 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1352 of 1352 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (911)
+## PROVED (912)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -923,6 +923,7 @@
 | `B1620` | THE BREAKING THE WEAVE ALLOWS (sealed aa28a42e6): on all 68 subgroups of the weave's group three distinct masses need an abelian residual (57 of 68, exactly the abelian ones), every charged-fermion mass stays free, and no mixing family short of the full four reaches the CKM -- under T-bar(x)T, T(x)T and Sym^2 T alike, so the weave's symmetry reduces none of the 13 flavour parameters; the PMNS can be reduced to two (the TM type, P10) under T-bar(x)T and T(x)T, not at all under Sym^2 T; with couplings in tau alone every residual contains the inner automorphisms and every mixing matrix is a permutation, so the observed mixing needs a vacuum breaking the parity grading; outside the weave the rule's fixed-point word splits the three parity sectors 1 + 2 (the clock's parity bounded, the two letter-reading walks unbounded and one orbit of the inflation phi), an elementary forced split whose physical meaning is the next question. 0 of 19. |  | 1 |
 | `B1621` | THE PRINCIPLE'S CLOCK AND TICK ON THE MATTER (sealed bded4d62e): the clock (the word's parity) acts on T through the parity grading itself -- every clock-reading coupling is diagonal in the parity lines under every tensor, it can split masses but never mix, and its mean on T is zero; the tick sigma^2 = LR (eigenvalues 1, omega, omega^2) cycles the lines and breaks the grading, its operator mean is the rank-one democratic matrix -- one heavy generation per sector and no leading-order mixing between two such sectors, the quarks' leading-order shape, canonical only in T-bar(x)T -- while its means on the clock's forms give three equal masses under all three tensors; for the leptons its heavy line (1/3,1/3,1/3) fits only as U's second column, never the sole heaviest state. The principle's own data, read by their means, fix no number. 0 of 19. |  | 1 |
 | `B1622` | REVIEW 62: THE FLAVOUR WINDOW. Twenty-nine merges since Review 61 (due; the block is at forty); fresh clone PASS at d85301ad; nine lanes registered, two behind on Codeberg because the remote refuses pushes over its storage quota (R62-1, the owner's account). The loop: R61-1 paid, R61-2 at its second carry, R61-3/4/5 carried once; the relay backlog 62 -> 72. The headline: the window's one false line was the landing step's (S96's '0 failed', E87), and three more slips were caught before use -- B1615/B1616's four-element residual cells scoped at the owner's weave condition, B1619's misread lane packet (E58, filed here), B1620's rank from rounding noise (E85, filed here). Twelve seals before results, post-seal changes all disclosed; LAW_MAP +5, THEOREM_REGISTRY +0 (R62-6), GENESIS v1.29 -> v1.35; six terms glossed; no promotion. 0 of 19. |  | 0 |
+| `B1623` | THE OWED LITERATURE CHECKS (R62-2): T-RANK-BOUND not found in this form (its inputs, half lives half dies and the Wang sequence, standard); T-SLOPE-LAW related, not the same (Dedekind-Rademacher/Meyer evaluate signature and eta over the same word, not the slope); T-PERIODIC-CURVE (A) implied by Tillmann-Yao AGT 25 (2025) Prop. 17 with Heusener-Porti, its torsion formula (B) not found; T-MASS-TERM not found; Lemma F related (Menal-Ferrer-Porti 2012), not found. Lemma F's step (2) verified on main for the seat's four (the Lorentz action on Hermitian matrices): the (2,2) entries vanish by the z and z-bar conditions; the agent's caution came from main's brief misdescribing rho. The N45 from-scratch reading declined: no claim on main rests on it (B1604: a class-index reading on a thread's cover is not an index); the 380/380 re-run stands. 0 of 19. |  | 0 |
 
 ## NEGATIVE (338)
 

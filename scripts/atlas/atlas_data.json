@@ -11284,6 +11284,23 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1623": {
+   "slug": "the owed literature checks",
+   "motifs": [
+    "closing",
+    "action",
+    "trace_map",
+    "dickson_tower",
+    "z3_generation",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B162": {
    "slug": "kappa sweep",
    "motifs": [

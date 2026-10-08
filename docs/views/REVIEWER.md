@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1351** |
-| words of findings prose | **1,056,297** |
+| research arcs with findings | **1352** |
+| words of findings prose | **1,057,266** |
 | test lock files referenced | **794** |
-| arcs carrying an authored verdict | **1351** (100.0 %) |
+| arcs carrying an authored verdict | **1352** (100.0 %) |
 | recorded closures | **814** (647 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 911 |
+| PROVED | 912 |
 | NEGATIVE | 338 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1622`** (495 words, 0 locks)  
-REVIEW 62: THE FLAVOUR WINDOW. Twenty-nine merges since Review 61 (due; the block is at forty); fresh clone PASS at d85301ad; nine lanes registered, two behind on Codeberg because the remote refuses pushes over its storage quota (R62-1, the owner's account). The loop: R61-1 paid, R61-2 at its second carry, R61-3/4/5 carried once; the relay backlog 62 -> 72. The headline: the window's one false line was the landing step's (S96's '0 failed', E87), and three more slips were caught before use -- B1615/B1616's four-element residual cells scoped at the owner's weave condition, B1619's misread lane packet (E58, filed here), B1620's rank from rounding noise (E85, filed here). Twelve seals before results, post-seal changes all disclosed; LAW_MAP +5, THEOREM_REGISTRY +0 (R62-6), GENESIS v1.29 -> v1.35; six terms glossed; no promotion. 0 of 19.  
-`B1622_review_62_the_flavour_window/FINDINGS.md`
+**PROVED — `B1623`** (969 words, 0 locks)  
+THE OWED LITERATURE CHECKS (R62-2): T-RANK-BOUND not found in this form (its inputs, half lives half dies and the Wang sequence, standard); T-SLOPE-LAW related, not the same (Dedekind-Rademacher/Meyer evaluate signature and eta over the same word, not the slope); T-PERIODIC-CURVE (A) implied by Tillmann-Yao AGT 25 (2025) Prop. 17 with Heusener-Porti, its torsion formula (B) not found; T-MASS-TERM not found; Lemma F related (Menal-Ferrer-Porti 2012), not found. Lemma F's step (2) verified on main for the seat's four (the Lorentz action on Hermitian matrices): the (2,2) entries vanish by the z and z-bar conditions; the agent's caution came from main's brief misdescribing rho. The N45 from-scratch reading declined: no claim on main rests on it (B1604: a class-index reading on a thread's cover is not an index); the 380/380 re-run stands. 0 of 19.  
+`B1623_the_owed_literature_checks/FINDINGS.md`
 
 **NEGATIVE — `B1617`** (642 words, 1 locks)  
 THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19.  

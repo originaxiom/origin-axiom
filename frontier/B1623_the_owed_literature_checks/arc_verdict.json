@@ -1,0 +1,28 @@
+{
+ "id": "B1623",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1438",
+  "B1440",
+  "B1444",
+  "B1445",
+  "B1494",
+  "B1604",
+  "B1622"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a literature and verification arc: Review 62's R62-2)",
+  "object": "the literature status of T-RANK-BOUND, T-SLOPE-LAW, T-PERIODIC-CURVE, T-MASS-TERM and the SM seat's Lemma F (sm:B1544); Lemma F's step (2) for the seat's four; the N₄₅ from-scratch reading",
+  "reach": "general",
+  "hypotheses": "a bounded web search by a subagent (about 25 queries); references spot-checked; 'not found' is that search's result, not a proof of novelty"
+ },
+ "claim_one_line": "THE OWED LITERATURE CHECKS (R62-2): T-RANK-BOUND not found in this form (its inputs, half lives half dies and the Wang sequence, standard); T-SLOPE-LAW related, not the same (Dedekind-Rademacher/Meyer evaluate signature and eta over the same word, not the slope); T-PERIODIC-CURVE (A) implied by Tillmann-Yao AGT 25 (2025) Prop. 17 with Heusener-Porti, its torsion formula (B) not found; T-MASS-TERM not found; Lemma F related (Menal-Ferrer-Porti 2012), not found. Lemma F's step (2) verified on main for the seat's four (the Lorentz action on Hermitian matrices): the (2,2) entries vanish by the z and z-bar conditions; the agent's caution came from main's brief misdescribing rho. The N45 from-scratch reading declined: no claim on main rests on it (B1604: a class-index reading on a thread's cover is not an index); the 380/380 re-run stands. 0 of 19.",
+ "weave_or_thread": "neither (a literature and verification arc)"
+}

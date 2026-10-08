@@ -16763,3 +16763,24 @@ every post-seal change on its page.
 - R62-7: done.
 
 No promotion to the chain. 0 of 19.
+
+## 2026-10-09 — S101 THE OWED LITERATURE CHECKS (B1623, R62-2 resolved) AND THE WINDOW'S THEOREM ROWS (R62-6): Lemma F's step (2) verified on main for the seat's four; Lemma F and three of main's four NEEDS-LIT theorems not found as stated; T-PERIODIC-CURVE (A) implied by Tillmann–Yao; the N₄₅ from-scratch reading declined with its reason; T-WEAVE-REDUCES-NONE, T-TAU-ONLY-PERMUTATION and T-CLOCK-IN-GRADING filed
+
+**B1623 (R62-2 at its second carry, resolved).** A research agent searched the literature for the four theorems
+registered NEEDS-LIT and for the SM seat's Lemma F. References were spot-checked on main.
+- T-RANK-BOUND: not found in this form (its inputs, half lives half dies and the Wang sequence, are standard).
+- T-SLOPE-LAW: related, not the same (Dedekind–Rademacher and Meyer evaluate signature and η over the same word, not the
+  slope).
+- T-PERIODIC-CURVE: (A) implied by Tillmann–Yao, AGT 25 (2025) Proposition 17, with Heusener–Porti; (B), the torsion
+  formula, not found.
+- T-MASS-TERM: not found.
+- Lemma F: related (Menal-Ferrer–Porti 2012), not found.
+
+**Lemma F's step (2), verified on main.** The agent's caution about the step came from main's brief, which misdescribed
+the seat's ρ. For the seat's four, the Lorentz action on Hermitian matrices, the (2, 2) entries vanish by the z and z̄
+conditions; the step stands.
+
+**The N₄₅ from-scratch reading is declined.** No claim on main rests on it (B1604: a class-index reading on a thread's
+cover is not an index), and the 380/380 re-run stands.
+
+**R62-6:** three theorem rows filed. 0 of 19.
