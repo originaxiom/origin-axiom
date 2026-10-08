@@ -313,3 +313,20 @@ Locks: tests/test_physical_bridge_weave_magnetic_index.py.
 
 Global analytic acceptance and genesis-to-physical-parent derivation
 remain outstanding. No physical chirality or qualia identification.
+
+### Full two-neutral-field complex October 8 path-local supplement
+
+No shared I-number, empirical normalization or physical status reassigned.
+Report: reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_two_neutral_index.py.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Full physical A/Q/R fluctuations and degree-one complex | D0 actual complex gauge tangent; D1 actual F Hessian; D2 its Jacobi relation | Entire action expansion, gauge adjoint and all four weighted metrics | C1 physical, C3 auxiliary; no four-Weyl identification earned here |
+| Hodge kernel and physical negative subspace | ker T=H1+H3; H3=0 from charge times nonzero d*psi in D2 adjoint | Pointwise interior injection, failure at d=0, actual soft term -nq, finite graph paths and gauge quotient | At least10 complex negative directions for displayed n!=0 finite c,d family; d=0 old50 proof, not particles/full Morse/all phases |
+| Global spin-power line indices and full Hodge index | beta=m+2nq, sum[2J(1-beta)-J(-beta)-J(2-beta)] | Both shifted coordinate blocks, full root/tensor roster, logarithmic endpoints and graph-compact finite neutral fields | Conditional mathematical index; signs/dimensions alone do not derive fermion content |
+| Flavor-related coefficients and genuine independent profiles | Constant SU2 on(Q,R), determinant d/2 in principal/neutral directions | Kinetic, W and full moment invariance, coefficient rank | Cannot rotate a d!=0 two-profile background into R=0; no generated selection |
+
+Nonauthor analytic acceptance remains owed. Physical mass/anomaly
+dictionary is the next unexecuted diagnostic. Stability and foundational
+selection still required for a physical vacuum; qualia not identified.

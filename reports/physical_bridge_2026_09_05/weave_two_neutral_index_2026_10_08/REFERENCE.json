@@ -1,0 +1,364 @@
+{
+  "hodge_populations": {
+    "auxiliary_C3": 136,
+    "h0": 248,
+    "h1": 248,
+    "physical_C1": 360,
+    "total": 496
+  },
+  "independent_analytic_acceptance": false,
+  "index_profiles": {
+    "-1": {
+      "-1": 0,
+      "-2": 6,
+      "-3": 4,
+      "-4": -3,
+      "-5": -6,
+      "-6": -1,
+      "0": 0,
+      "1": 0,
+      "2": -6,
+      "3": -4,
+      "4": 3,
+      "5": 6,
+      "6": 1
+    },
+    "-2": {
+      "-1": -6,
+      "-2": 6,
+      "-3": 4,
+      "-4": -3,
+      "-5": -6,
+      "-6": -1,
+      "0": 0,
+      "1": 6,
+      "2": -6,
+      "3": -4,
+      "4": 3,
+      "5": 6,
+      "6": 1
+    },
+    "-3": {
+      "-1": -6,
+      "-2": 6,
+      "-3": 4,
+      "-4": -3,
+      "-5": -6,
+      "-6": -1,
+      "0": 0,
+      "1": 6,
+      "2": -6,
+      "3": -4,
+      "4": 3,
+      "5": 6,
+      "6": 1
+    },
+    "0": {
+      "-1": 0,
+      "-2": 0,
+      "-3": 0,
+      "-4": 0,
+      "-5": 0,
+      "-6": 0,
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "1": {
+      "-1": 0,
+      "-2": -6,
+      "-3": -4,
+      "-4": 3,
+      "-5": 6,
+      "-6": 1,
+      "0": 0,
+      "1": 0,
+      "2": 6,
+      "3": 4,
+      "4": -3,
+      "5": -6,
+      "6": -1
+    },
+    "2": {
+      "-1": 6,
+      "-2": -6,
+      "-3": -4,
+      "-4": 3,
+      "-5": 6,
+      "-6": 1,
+      "0": 0,
+      "1": -6,
+      "2": 6,
+      "3": 4,
+      "4": -3,
+      "5": -6,
+      "6": -1
+    },
+    "3": {
+      "-1": 6,
+      "-2": -6,
+      "-3": -4,
+      "-4": 3,
+      "-5": 6,
+      "-6": 1,
+      "0": 0,
+      "1": -6,
+      "2": 6,
+      "3": 4,
+      "4": -3,
+      "5": -6,
+      "6": -1
+    }
+  },
+  "line_index_table": [
+    {
+      "beta": -24,
+      "index": 1
+    },
+    {
+      "beta": -23,
+      "index": -1
+    },
+    {
+      "beta": -22,
+      "index": 1
+    },
+    {
+      "beta": -21,
+      "index": -1
+    },
+    {
+      "beta": -20,
+      "index": 1
+    },
+    {
+      "beta": -19,
+      "index": -1
+    },
+    {
+      "beta": -18,
+      "index": 1
+    },
+    {
+      "beta": -17,
+      "index": -1
+    },
+    {
+      "beta": -16,
+      "index": 1
+    },
+    {
+      "beta": -15,
+      "index": -1
+    },
+    {
+      "beta": -14,
+      "index": 1
+    },
+    {
+      "beta": -13,
+      "index": -1
+    },
+    {
+      "beta": -12,
+      "index": 1
+    },
+    {
+      "beta": -11,
+      "index": -1
+    },
+    {
+      "beta": -10,
+      "index": 1
+    },
+    {
+      "beta": -9,
+      "index": -1
+    },
+    {
+      "beta": -8,
+      "index": 1
+    },
+    {
+      "beta": -7,
+      "index": -1
+    },
+    {
+      "beta": -6,
+      "index": 1
+    },
+    {
+      "beta": -5,
+      "index": -1
+    },
+    {
+      "beta": -4,
+      "index": 1
+    },
+    {
+      "beta": -3,
+      "index": -1
+    },
+    {
+      "beta": -2,
+      "index": 1
+    },
+    {
+      "beta": -1,
+      "index": -1
+    },
+    {
+      "beta": 0,
+      "index": 0
+    },
+    {
+      "beta": 1,
+      "index": 1
+    },
+    {
+      "beta": 2,
+      "index": -1
+    },
+    {
+      "beta": 3,
+      "index": 1
+    },
+    {
+      "beta": 4,
+      "index": -1
+    },
+    {
+      "beta": 5,
+      "index": 1
+    },
+    {
+      "beta": 6,
+      "index": -1
+    },
+    {
+      "beta": 7,
+      "index": 1
+    },
+    {
+      "beta": 8,
+      "index": -1
+    },
+    {
+      "beta": 9,
+      "index": 1
+    },
+    {
+      "beta": 10,
+      "index": -1
+    },
+    {
+      "beta": 11,
+      "index": 1
+    },
+    {
+      "beta": 12,
+      "index": -1
+    },
+    {
+      "beta": 13,
+      "index": 1
+    },
+    {
+      "beta": 14,
+      "index": -1
+    },
+    {
+      "beta": 15,
+      "index": 1
+    },
+    {
+      "beta": 16,
+      "index": -1
+    },
+    {
+      "beta": 17,
+      "index": 1
+    },
+    {
+      "beta": 18,
+      "index": -1
+    },
+    {
+      "beta": 19,
+      "index": 1
+    },
+    {
+      "beta": 20,
+      "index": -1
+    },
+    {
+      "beta": 21,
+      "index": 1
+    },
+    {
+      "beta": 22,
+      "index": -1
+    },
+    {
+      "beta": 23,
+      "index": 1
+    },
+    {
+      "beta": 24,
+      "index": -1
+    }
+  ],
+  "physical_goal_achieved": false,
+  "positive_bounds": {
+    "-1": {
+      "-2": 6,
+      "-3": 4
+    },
+    "-2": {
+      "-2": 6,
+      "-3": 4
+    },
+    "-3": {
+      "-2": 6,
+      "-3": 4
+    },
+    "0": {},
+    "1": {
+      "2": 6,
+      "3": 4
+    },
+    "2": {
+      "2": 6,
+      "3": 4
+    },
+    "3": {
+      "2": 6,
+      "3": 4
+    }
+  },
+  "predicates": {
+    "actual_six_kernel_terms_and_endpoint": true,
+    "all_signed_parity_controls": true,
+    "auxiliary_population_is_not_discarded": true,
+    "auxiliary_scalar_injection_needs_nonzero_R": true,
+    "beta_endpoint_and_higher_flux_bound": true,
+    "duality_odd_index": true,
+    "finite_negative_margin_after_compact_approximation": true,
+    "first_flux_exception_retained": true,
+    "full_SU5_tensor_roster": true,
+    "higher_flux_profiles": true,
+    "integer_shifts_cannot_close_homotopy_gap": true,
+    "negative_flux_uses_conjugate_charges": true,
+    "noncommuting_control_fails": true,
+    "only_positive_indices_used_for_ten_bound": true,
+    "opposite_flux_profiles": true,
+    "paired_and_extreme_drift_parity": true,
+    "separate_complex_compositions": true,
+    "zero_flux_index_is_zero": true
+  },
+  "predicates_passed": 18
+}

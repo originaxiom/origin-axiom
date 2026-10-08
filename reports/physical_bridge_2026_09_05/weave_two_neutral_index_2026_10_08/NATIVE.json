@@ -1,0 +1,382 @@
+{
+  "all_stationary_phases_excluded": false,
+  "analytic_grade": "Authored global complex/domain proof; finite checks are not outside acceptance",
+  "auxiliary_is_physical_field": false,
+  "facts": {
+    "Hodge_norm_has_no_hidden_auxiliary_cross": true,
+    "R_zero_recovers_pinned_full_quadratic": true,
+    "R_zero_stronger_bound_is_preserved": true,
+    "actual_three_maps_form_a_complex": true,
+    "all_integer_beta_bound_including_first_endpoint": true,
+    "auxiliary_removal_is_not_assumed_at_R_zero": true,
+    "both_field_moment_remains_parallel": true,
+    "both_shift_channel_counts_complete": true,
+    "both_shifted_full_homotopy_blocks": true,
+    "declared_metric_gives_actual_gauge_adjoint": true,
+    "dropping_new_R_terms_changes_the_answer": true,
+    "every_extreme_retained_and_half_integral": true,
+    "finite_neutral_terms_decay_on_same_end": true,
+    "first_flux_essential_instability_control": true,
+    "first_flux_zero_endpoint_changes_charge_one": true,
+    "full248_population_retained": true,
+    "full496_slots_keep136_auxiliary_separate": true,
+    "full_flavor_symmetry_not_only_field_norms": true,
+    "full_two_field_action_expansion": true,
+    "higher_flux_complete_index_profile": true,
+    "noncommuting_background_breaks_both_compositions": true,
+    "nonproportional_pair_cannot_be_rotated_away": true,
+    "nonzero_R_removes_auxiliary_kernel_pointwise": true,
+    "opposite_flux_and_zero_flux_controls": true,
+    "physical_negative_path_margin": true,
+    "positive_index_bound_is_ten_not_total_signed_index": true,
+    "second_block_derived_from_actual_metrics": true,
+    "zero_endpoint_and_signed_parity": true,
+    "zero_flux_keeps_all_positive_residual_squares": true
+  },
+  "full_Morse_count_computed": false,
+  "genesis_selection_derived": false,
+  "hodge_populations": {
+    "auxiliary_C3": 136,
+    "h0": 248,
+    "h1": 248,
+    "physical_C1": 360,
+    "total": 496
+  },
+  "index_profiles": {
+    "-1": {
+      "-1": 0,
+      "-2": 6,
+      "-3": 4,
+      "-4": -3,
+      "-5": -6,
+      "-6": -1,
+      "0": 0,
+      "1": 0,
+      "2": -6,
+      "3": -4,
+      "4": 3,
+      "5": 6,
+      "6": 1
+    },
+    "-2": {
+      "-1": -6,
+      "-2": 6,
+      "-3": 4,
+      "-4": -3,
+      "-5": -6,
+      "-6": -1,
+      "0": 0,
+      "1": 6,
+      "2": -6,
+      "3": -4,
+      "4": 3,
+      "5": 6,
+      "6": 1
+    },
+    "-3": {
+      "-1": -6,
+      "-2": 6,
+      "-3": 4,
+      "-4": -3,
+      "-5": -6,
+      "-6": -1,
+      "0": 0,
+      "1": 6,
+      "2": -6,
+      "3": -4,
+      "4": 3,
+      "5": 6,
+      "6": 1
+    },
+    "0": {
+      "-1": 0,
+      "-2": 0,
+      "-3": 0,
+      "-4": 0,
+      "-5": 0,
+      "-6": 0,
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "1": {
+      "-1": 0,
+      "-2": -6,
+      "-3": -4,
+      "-4": 3,
+      "-5": 6,
+      "-6": 1,
+      "0": 0,
+      "1": 0,
+      "2": 6,
+      "3": 4,
+      "4": -3,
+      "5": -6,
+      "6": -1
+    },
+    "2": {
+      "-1": 6,
+      "-2": -6,
+      "-3": -4,
+      "-4": 3,
+      "-5": 6,
+      "-6": 1,
+      "0": 0,
+      "1": -6,
+      "2": 6,
+      "3": 4,
+      "4": -3,
+      "5": -6,
+      "6": -1
+    },
+    "3": {
+      "-1": 6,
+      "-2": -6,
+      "-3": -4,
+      "-4": 3,
+      "-5": 6,
+      "-6": 1,
+      "0": 0,
+      "1": -6,
+      "2": 6,
+      "3": 4,
+      "4": -3,
+      "5": -6,
+      "6": -1
+    }
+  },
+  "line_index_table": [
+    {
+      "beta": -24,
+      "index": 1
+    },
+    {
+      "beta": -23,
+      "index": -1
+    },
+    {
+      "beta": -22,
+      "index": 1
+    },
+    {
+      "beta": -21,
+      "index": -1
+    },
+    {
+      "beta": -20,
+      "index": 1
+    },
+    {
+      "beta": -19,
+      "index": -1
+    },
+    {
+      "beta": -18,
+      "index": 1
+    },
+    {
+      "beta": -17,
+      "index": -1
+    },
+    {
+      "beta": -16,
+      "index": 1
+    },
+    {
+      "beta": -15,
+      "index": -1
+    },
+    {
+      "beta": -14,
+      "index": 1
+    },
+    {
+      "beta": -13,
+      "index": -1
+    },
+    {
+      "beta": -12,
+      "index": 1
+    },
+    {
+      "beta": -11,
+      "index": -1
+    },
+    {
+      "beta": -10,
+      "index": 1
+    },
+    {
+      "beta": -9,
+      "index": -1
+    },
+    {
+      "beta": -8,
+      "index": 1
+    },
+    {
+      "beta": -7,
+      "index": -1
+    },
+    {
+      "beta": -6,
+      "index": 1
+    },
+    {
+      "beta": -5,
+      "index": -1
+    },
+    {
+      "beta": -4,
+      "index": 1
+    },
+    {
+      "beta": -3,
+      "index": -1
+    },
+    {
+      "beta": -2,
+      "index": 1
+    },
+    {
+      "beta": -1,
+      "index": -1
+    },
+    {
+      "beta": 0,
+      "index": 0
+    },
+    {
+      "beta": 1,
+      "index": 1
+    },
+    {
+      "beta": 2,
+      "index": -1
+    },
+    {
+      "beta": 3,
+      "index": 1
+    },
+    {
+      "beta": 4,
+      "index": -1
+    },
+    {
+      "beta": 5,
+      "index": 1
+    },
+    {
+      "beta": 6,
+      "index": -1
+    },
+    {
+      "beta": 7,
+      "index": 1
+    },
+    {
+      "beta": 8,
+      "index": -1
+    },
+    {
+      "beta": 9,
+      "index": 1
+    },
+    {
+      "beta": 10,
+      "index": -1
+    },
+    {
+      "beta": 11,
+      "index": 1
+    },
+    {
+      "beta": 12,
+      "index": -1
+    },
+    {
+      "beta": 13,
+      "index": 1
+    },
+    {
+      "beta": 14,
+      "index": -1
+    },
+    {
+      "beta": 15,
+      "index": 1
+    },
+    {
+      "beta": 16,
+      "index": -1
+    },
+    {
+      "beta": 17,
+      "index": 1
+    },
+    {
+      "beta": 18,
+      "index": -1
+    },
+    {
+      "beta": 19,
+      "index": 1
+    },
+    {
+      "beta": 20,
+      "index": -1
+    },
+    {
+      "beta": 21,
+      "index": 1
+    },
+    {
+      "beta": 22,
+      "index": -1
+    },
+    {
+      "beta": 23,
+      "index": 1
+    },
+    {
+      "beta": 24,
+      "index": -1
+    }
+  ],
+  "nonauthor_acceptance": false,
+  "physical_Weyl_dictionary_derived": false,
+  "physical_goal_achieved": false,
+  "positive_bounds": {
+    "-1": {
+      "-2": 6,
+      "-3": 4
+    },
+    "-2": {
+      "-2": 6,
+      "-3": 4
+    },
+    "-3": {
+      "-2": 6,
+      "-3": 4
+    },
+    "0": {},
+    "1": {
+      "2": 6,
+      "3": 4
+    },
+    "2": {
+      "2": 6,
+      "3": 4
+    },
+    "3": {
+      "2": 6,
+      "3": 4
+    }
+  },
+  "predicates_passed": 29,
+  "stable_nonzero_flux_phase_achieved": false
+}

@@ -1,5 +1,27 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October 8 full two-neutral-field conditional sublemmas. Same supplied
+action, geometry, spin and complete domain; not generated physics or
+new shared B laws. PROOF: reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md.
+LIVE locks: tests/test_physical_bridge_weave_two_neutral_index.py.
+29 native/18 separate reference/20 focused/216 regression PASS unchanged
+at5a881c0ca. Global analytic argument remains authored, not outside accepted.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Full two-field Hessian is norm(D0 dagger x)^2+norm(D1 x)^2-nq norm(x)^2 after gauge fixing | All A/Q/R variations, moment, mixed commutator and positive kinetic factors; test_full_two_field_quadratic_expansion, test_positive_metrics_fix_the_gauge_adjoint. Actual action, not an imported index |
+| D0,D1,D2 form the full elliptic complex, with an auxiliary C3 slot | Holomorphic commuting background and Jacobi; test_three_actual_maps_compose_to_zero, test_noncommuting_substitute_breaks_complex, test_full_Hodge_norm_keeps_the_auxiliary_block. C3 not a physical field |
+| Both shifted blocks remain Fredholm through the principal operator homotopy | Actual weighted coordinate derivation, every extreme and half-integral drift; test_second_shifted_block_from_actual_coordinate_metrics, test_both_principal_homotopies_and_extremes plus authored complete-domain argument. Not a stationary homotopy |
+| Full Hodge index is sum[2J(1-beta)-J(-beta)-J(2-beta)] | Exact L2 endpoints, entire248 root/tensor rosters, actual weight bound; test_exact_spin_power_index_and_endpoint, test_full_root_and_tensor_populations_agree, test_actual_weight_bound_underlies_all_integer_scope. Not a physical Weyl identification |
+| At d!=0 the auxiliary H3 kernel vanishes in every nonzero charge | First D2 adjoint component is nonzero interior multiplication by conjugate(d*psi) times charge; test_R_adjoint_component_is_pointwise_injective, test_auxiliary_removal_is_not_assumed_at_d_zero plus global nowhere-zero section proof |
+| Every displayed neutral magnetic background at n!=0 has at least10 complex physical negative directions | Positive indices6 and4 force H1 after H3 removal; negative soft shift, graph approximation and stationary gauge quotient; test_charge_profiles_and_positive_lower_bound, test_previous_negative_and_positive_controls_survive plus PROOF. d=0 stronger50 and first-flux infinite bounds retained; not full Morse or all condensates |
+| R is a genuine independent profile, while n=0 SM minima remain nonnegative | Full constant SU2 flavor action and rank-two coefficient matrix; test_flavor_symmetry_and_independent_profiles, test_zero_flux_is_nonnegative_full_squares. Flat inputs and zero charged index remain, not selected chiral physics |
+
+Next physical mass-map/anomaly diagnostic is UNEXECUTED; no auxiliary
+slot is identified with a gaugino by dimension alone. Other stationary
+condensates, source/silver constructions and architecture remain open.
+Earlier dated open statements below are superseded only in this scope.
+
 October 8 magnetic-index conditional sublemmas. Same supplied curved
 E8 action, complete punctured elliptic surface, trivial extending spin
 and graph domain. No new shared B laws or outside analytic acceptance.

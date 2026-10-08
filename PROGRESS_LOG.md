@@ -17831,3 +17831,50 @@ inequality and parity, not a finite flux sample. Seven scientific files
 and six pinned-and-working sources unchanged; no failed science or repair.
 Native4.189310s, reference0.158291s, focused pytest5.40s, regression48.54s.
 Literal exits/hashes in RECEIPTS.json. Full analytic review remains owed.
+
+## 2026-10-08 full two-neutral-field complex and scoped instability
+
+October 8 full two-neutral-field checkpoint: 29 native/18 separate
+reference/20 focused and 216 thirteen-packet regression tests PASS
+unchanged at pushed pre-run 5a881c0ca. Same supplied curved E8 action,
+complete punctured elliptic surface, trivial extending spin and domain:
+A=A_n, Q=Q_principal+c*psi*Z, R=d*psi*Z has at least10 complex physical
+negative directions for ALL nonzero integer n and finite c,d.
+The full elliptic complex retains both fields and removes its auxiliary
+H3 kernel before counting physical modes. Not a Weyl index, full Morse
+count or an exclusion of all condensates/actions/generated architecture.
+Report: reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/FINDINGS.md.
+The first-flux infinite instability and n=0 nonnegative SM-gauge
+minimum with zero charged index remain; no inference that40 modes lifted.
+NEXT: derive the SAME-action four-Weyl mass map and anomaly diagnostic,
+with explicit slot/charge/metric/domain identification. NEXT_TEST is
+UNEXECUTED. This refines the earlier stability-first research sequence:
+an operator diagnostic on a saddle is useful; final physical vacuum
+acceptance still owes stability. Charged condensation remains untested.
+Main da3027e03 adds B1616 and B1617 preregistration; SM7c5d9726c.
+INTAKE_AFTER_RUN keeps numerical/exact and full-space/single-irrep
+scope questions separate from proof and owner postulates from derivation.
+Seven science/eight sources unchanged. Independent analytic review,
+full-suite/main-bank and inherited governance duties remain.
+Full SM/TOE ACTIVE/unachieved. Source/silver positives, act/register/lift
+retention and foundational selection duties remain. Earlier NEXT entries
+below retain their historical epoch. No shared B/I number allocated.
+
+Actual maps D0,D1,D2 and all four graded metrics give the full Hessian
+identity. H3=0 for d!=0 follows from the nowhere-zero interior neutral
+section, not a uniform cusp mass bound. The two spin-shifted Fredholm
+blocks retain every extreme; the second is checked from coordinate
+adjoints and norms. Exact global indices(-6,6,4,-3,-6,-1) at higher
+positive nq force six plus four H1 modes after auxiliary removal.
+The abs(n)=1 charge-one endpoint is0, not-6. Graph approximants earn
+finite-quartic negative paths and injection into the physical quotient.
+Old d=0 bound50 and first-flux infinite Morse result are preserved.
+
+Native8.894446s, reference0.150091s, focused pytest13.25s,
+regression94.68s. First unchanged runs; no scientific failure or repair.
+Detailed source custody, literal outputs and exits in RECEIPTS.json.
+A stationary saddle may support a useful physical mass/anomaly
+diagnostic without being a stable observed vacuum. No actual fermion
+index or anomaly is computed in this packet. The next plan makes this
+distinction explicit rather than carrying the stability-first ordering
+into an unnecessarily costly charged-condensate search.

@@ -2540,3 +2540,15 @@ Preseal governance26 PASS/four inherited FAIL, review376; no green bank.
 | weave_two_neutral_index_2026_10_08/reference.py | f0bd0dc86f4a048d0d798603708f20348040fedd95f665b99e5f6999834fabba |
 | weave_two_neutral_index_2026_10_08/custody.rb | 23952b620d0586549c5b4696d892cc8116e53f470ded79d9f7335adc808db436 |
 | tests/test_physical_bridge_weave_two_neutral_index.py | df714e7f07d5793abeb764e85c93b94284d5b3ca96b61c01087fe6b5d354cd61 |
+
+Disposition after pushed/server-confirmed5a881c0ca: first unchanged
+29 native/18 separate reference/20 focused/216 thirteen-packet regression
+PASS. Seven science/eight pinned-and-working sources unchanged; no failed
+scientific attempt or repair. Report: weave_two_neutral_index_2026_10_08/FINDINGS.md.
+Full complex and auxiliary H3 removal force at least10 complex physical
+negative directions for all n!=0 and finite c,d in the displayed family.
+No full Morse count, physical Weyl identification or all-phase exclusion.
+Old stronger negative bounds and n=0 nonnegative SM-gauge minimum remain.
+NEXT_TEST is post-run UNEXECUTED/outside seal; derives the actual physical
+mass map before further vacuum search. Nonauthor analytic/full-suite/
+main-bank and inherited governance duties remain.

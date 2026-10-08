@@ -1,5 +1,44 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October 8 full two-neutral-field checkpoint:
+reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/FINDINGS.md.
+29 native/18 reference/20 focused/216 regression PASS at5a881c0ca.
+
+- PB-CUSP-TWO-NEUTRAL-STABILITY: EXECUTED, conditional obstruction.
+  Closing scope: "every member of A=A_n, Q=Q_principal+c*psi*Z,
+  R=d*psi*Z with n!=0 and finite c,d has at least 10 complex physical
+  negative directions". Same supplied action/geometry/spin/domain;
+  not full Morse or an exclusion of other condensates or architecture.
+- PB-CUSP-PHYSICAL-MASS-DICTIONARY: NEXT, UNEXECUTED. Derive the
+  complete four-Weyl operator from W Hessian plus gauge coupling.
+  Exhibit trace/charge/metric/domain maps before relating it to the
+  auxiliary Hodge complex. Then resolve physical representations and
+  anomaly coefficients; never infer them from a bosonic index.
+- PB-CUSP-CHARGED-CONDENSATE: OPEN, not excluded by neutral instability.
+  Does a charged deformation admit a color-preserving stationary
+  minimum with suitable electroweak pattern and consistent fermions?
+  No such minimum or desired representation has been derived here.
+- Research-order refinement: a stationary saddle supports an operator
+  diagnostic before full vacuum construction. Final physical-vacuum
+  acceptance still requires stability; no instability is hidden.
+- Preserve n=0 nonnegative SM-gauge minimum/zero charged index, the
+  d=0 stronger50 bound and first-flux infinite Morse result. Comparing
+  lower bounds does not prove that a given number of modes was lifted.
+- PB-CUSP-REVIEW: actual complex metrics, both shifted end blocks,
+  logarithmic endpoints, global Fredholm homotopy, auxiliary-kernel
+  removal and graph-approximation/gauge quotient need outside review.
+- PB-SOURCE-JOIN and source/silver alternatives remain in their own
+  parents. Formal cyclic transfer is not convergent physical source
+  completion; do not graft its conditional indices onto this action.
+- Main da3027e03 B1616 read, not replayed: numerical single-irrep
+  calculation needs an exact full fixed-space scope check. Withdrawn
+  sum-rule values remain withdrawn. B1617 is only preregistration;
+  tau=omega and Lambda remain supplied, not parameter-free derivations.
+- Foundational act/register/lift, parent/spin/metric/selection, full
+  interactions/anomalies, quantum/gravity and governance debts remain.
+
+Earlier dated OPEN/NEXT entries below retain their historical epoch.
+
 October 8 magnetic-index checkpoint:
 reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/FINDINGS.md.
 27 native/16 reference/16 focused/196 regression PASS at a99a2bae9.

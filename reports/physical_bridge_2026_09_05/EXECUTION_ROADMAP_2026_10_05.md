@@ -203,6 +203,24 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    stabilization claim without a global bound. NEXT_TEST is UNEXECUTED.
    Source/silver alternatives, independent analytic/full-suite review
    and foundational selection duties remain. Full SM/TOE still active.
+   Stage2R October8 full two-neutral-field gate EXECUTED at research grade:
+   weave_two_neutral_index_2026_10_08/FINDINGS.md.29 native/18 reference/
+   20 focused/216 thirteen-packet regression PASS unchanged at5a881c0ca.
+   At least10 complex physical negative directions for all n!=0 and
+   finite c,d in the displayed neutral family. Full complex H3 removed
+   before physical counting; not a Weyl index or full Morse count.
+   n=0 SM-gauge minimum/zero charged index and stronger old bounds remain.
+   NEXT Stage2S: SAME-action physical four-Weyl mass map, full charged
+   dictionary and anomaly diagnostic, first at diagnostic n=2.
+   Derive W Hessian and gauge couplings with exact metrics, charge trace
+   pairings and complete domains; no auxiliary-slot identification by
+   resemblance. NEXT_TEST is UNEXECUTED; no fermion/anomaly claim yet.
+   Explicit refinement of earlier stability-first research order:
+   a saddle permits a useful mass/anomaly diagnostic before an expensive
+   charged-condensate search. Final physical-vacuum acceptance still
+   requires stability. Neutral instability neither proves inconsistency
+   of the action nor excludes another charged stationary condensate.
+   Retain source/silver positives and the foundation-to-parent duty.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

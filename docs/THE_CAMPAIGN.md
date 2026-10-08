@@ -1,5 +1,31 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October 8 full two-neutral-field checkpoint: 29 native/18 separate
+reference/20 focused and 216 thirteen-packet regression tests PASS
+unchanged at pushed pre-run 5a881c0ca. Same supplied curved E8 action,
+complete punctured elliptic surface, trivial extending spin and domain:
+A=A_n, Q=Q_principal+c*psi*Z, R=d*psi*Z has at least10 complex physical
+negative directions for ALL nonzero integer n and finite c,d.
+The full elliptic complex retains both fields and removes its auxiliary
+H3 kernel before counting physical modes. Not a Weyl index, full Morse
+count or an exclusion of all condensates/actions/generated architecture.
+Report: reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/FINDINGS.md.
+The first-flux infinite instability and n=0 nonnegative SM-gauge
+minimum with zero charged index remain; no inference that40 modes lifted.
+NEXT: derive the SAME-action four-Weyl mass map and anomaly diagnostic,
+with explicit slot/charge/metric/domain identification. NEXT_TEST is
+UNEXECUTED. This refines the earlier stability-first research sequence:
+an operator diagnostic on a saddle is useful; final physical vacuum
+acceptance still owes stability. Charged condensation remains untested.
+Main da3027e03 adds B1616 and B1617 preregistration; SM7c5d9726c.
+INTAKE_AFTER_RUN keeps numerical/exact and full-space/single-irrep
+scope questions separate from proof and owner postulates from derivation.
+Seven science/eight sources unchanged. Independent analytic review,
+full-suite/main-bank and inherited governance duties remain.
+Full SM/TOE ACTIVE/unachieved. Source/silver positives, act/register/lift
+retention and foundational selection duties remain. Earlier NEXT entries
+below retain their historical epoch. No shared B/I number allocated.
+
 October 8 magnetic-index research checkpoint: 27 native/16 separate
 reference/16 focused and 196 twelve-packet regression tests PASS unchanged
 at pushed pre-run a99a2bae9. An authored global bosonic-index argument
