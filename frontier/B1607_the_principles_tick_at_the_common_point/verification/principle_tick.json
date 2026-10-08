@@ -1,0 +1,886 @@
+{
+ "C1": {
+  "sigma_matrix": [
+   [
+    "1",
+    "1"
+   ],
+   [
+    "1",
+    "0"
+   ]
+  ],
+  "det": -1,
+  "trace": 1,
+  "sigma_equals_P_after_R_exactly": false,
+  "sigma_equals_R_after_P_exactly": false,
+  "sigma_squared": {
+   "a": "aba",
+   "b": "ab"
+  },
+  "LR": {
+   "a": "aab",
+   "b": "ab"
+  },
+  "RL": {
+   "a": "ab",
+   "b": "abb"
+  },
+  "sigma_squared_matrix": [
+   [
+    "2",
+    "1"
+   ],
+   [
+    "1",
+    "1"
+   ]
+  ],
+  "LR_matrix": [
+   [
+    "2",
+    "1"
+   ],
+   [
+    "1",
+    "1"
+   ]
+  ],
+  "RL_matrix": [
+   [
+    "1",
+    "1"
+   ],
+   [
+    "1",
+    "2"
+   ]
+  ],
+  "sigma_squared_matrix_equals_LR_matrix": true,
+  "sigma_squared_vs_LR_conjugator": "BA",
+  "sigma_squared_vs_RL_conjugator": null,
+  "sigma_inverse": {
+   "a": "b",
+   "b": "Ba"
+  },
+  "mirror_rule_is_iota_sigma_iota": true,
+  "mirror_rule_matrix": [
+   [
+    "1",
+    "1"
+   ],
+   [
+    "1",
+    "0"
+   ]
+  ],
+  "bundles": {
+   "b-+L": {
+    "orientable": false,
+    "volume": 1.014941606,
+    "H1": "Z",
+    "is_m000": true,
+    "is_m004": false
+   },
+   "b--L": {
+    "orientable": false,
+    "volume": 1.014941606,
+    "H1": "Z",
+    "is_m000": true,
+    "is_m004": false
+   },
+   "b-+R": {
+    "orientable": false,
+    "volume": 1.014941606,
+    "H1": "Z",
+    "is_m000": true,
+    "is_m004": false
+   },
+   "b--R": {
+    "orientable": false,
+    "volume": 1.014941606,
+    "H1": "Z",
+    "is_m000": true,
+    "is_m004": false
+   },
+   "b-+LR": {
+    "orientable": false,
+    "volume": 1.831931188,
+    "H1": "Z/2 + Z",
+    "is_m000": false,
+    "is_m004": false
+   },
+   "b--LR": {
+    "orientable": false,
+    "volume": 1.831931188,
+    "H1": "Z/2 + Z",
+    "is_m000": false,
+    "is_m004": false
+   },
+   "b++LR": {
+    "orientable": true,
+    "volume": 2.029883213,
+    "H1": "Z",
+    "is_m000": false,
+    "is_m004": true
+   },
+   "b+-LR": {
+    "orientable": true,
+    "volume": 2.029883213,
+    "H1": "Z/5 + Z",
+    "is_m000": false,
+    "is_m004": false
+   }
+  },
+  "m000": {
+   "orientable": false,
+   "volume": 1.014941606,
+   "H1": "Z"
+  },
+  "m004": {
+   "orientable": true,
+   "volume": 2.029883213,
+   "H1": "Z"
+  },
+  "m004_volume_is_twice_m000": true,
+  "m000_double_covers": [
+   {
+    "orientable": true,
+    "is_m004": true,
+    "H1": "Z"
+   }
+  ],
+  "m000_orientable_double_cover_is_m004": true
+ },
+ "C2": {
+  "2T_elements": 24,
+  "2O_elements": 48,
+  "lifts": {
+   "rule": [
+    {
+     "coords": [
+      "1/2",
+      "-1/2",
+      "-1/2",
+      "-1/2"
+     ],
+     "order": 6,
+     "in_2T": true,
+     "axis_action": {
+      "i": "+k",
+      "j": "+i",
+      "k": "+j"
+     }
+    },
+    {
+     "coords": [
+      "-1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+     ],
+     "order": 3,
+     "in_2T": true,
+     "axis_action": {
+      "i": "+k",
+      "j": "+i",
+      "k": "+j"
+     }
+    }
+   ],
+   "mirror_rule": [
+    {
+     "coords": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "-1/2"
+     ],
+     "order": 6,
+     "in_2T": true,
+     "axis_action": {
+      "i": "-k",
+      "j": "+i",
+      "k": "-j"
+     }
+    },
+    {
+     "coords": [
+      "-1/2",
+      "-1/2",
+      "-1/2",
+      "1/2"
+     ],
+     "order": 3,
+     "in_2T": true,
+     "axis_action": {
+      "i": "-k",
+      "j": "+i",
+      "k": "-j"
+     }
+    }
+   ],
+   "inverse_rule": [
+    {
+     "coords": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+     ],
+     "order": 6,
+     "in_2T": true,
+     "axis_action": {
+      "i": "+j",
+      "j": "+k",
+      "k": "+i"
+     }
+    },
+    {
+     "coords": [
+      "-1/2",
+      "-1/2",
+      "-1/2",
+      "-1/2"
+     ],
+     "order": 3,
+     "in_2T": true,
+     "axis_action": {
+      "i": "+j",
+      "j": "+k",
+      "k": "+i"
+     }
+    }
+   ],
+   "L": [
+    {
+     "coords": [
+      "sqrt(2)/2",
+      "sqrt(2)/2",
+      "0",
+      "0"
+     ],
+     "order": 8,
+     "in_2T": false,
+     "axis_action": {
+      "i": "+i",
+      "j": "+k",
+      "k": "-j"
+     }
+    },
+    {
+     "coords": [
+      "-sqrt(2)/2",
+      "-sqrt(2)/2",
+      "0",
+      "0"
+     ],
+     "order": 8,
+     "in_2T": false,
+     "axis_action": {
+      "i": "+i",
+      "j": "+k",
+      "k": "-j"
+     }
+    }
+   ],
+   "R": [
+    {
+     "coords": [
+      "sqrt(2)/2",
+      "0",
+      "-sqrt(2)/2",
+      "0"
+     ],
+     "order": 8,
+     "in_2T": false,
+     "axis_action": {
+      "i": "+k",
+      "j": "+j",
+      "k": "-i"
+     }
+    },
+    {
+     "coords": [
+      "-sqrt(2)/2",
+      "0",
+      "sqrt(2)/2",
+      "0"
+     ],
+     "order": 8,
+     "in_2T": false,
+     "axis_action": {
+      "i": "+k",
+      "j": "+j",
+      "k": "-i"
+     }
+    }
+   ],
+   "P": [
+    {
+     "coords": [
+      "0",
+      "sqrt(2)/2",
+      "sqrt(2)/2",
+      "0"
+     ],
+     "order": 4,
+     "in_2T": false,
+     "axis_action": {
+      "i": "+j",
+      "j": "+i",
+      "k": "-k"
+     }
+    },
+    {
+     "coords": [
+      "0",
+      "-sqrt(2)/2",
+      "-sqrt(2)/2",
+      "0"
+     ],
+     "order": 4,
+     "in_2T": false,
+     "axis_action": {
+      "i": "+j",
+      "j": "+i",
+      "k": "-k"
+     }
+    }
+   ],
+   "iota": [
+    {
+     "coords": [
+      "0",
+      "0",
+      "0",
+      "1"
+     ],
+     "order": 4,
+     "in_2T": true,
+     "axis_action": {
+      "i": "-i",
+      "j": "-j",
+      "k": "+k"
+     }
+    },
+    {
+     "coords": [
+      "0",
+      "0",
+      "0",
+      "-1"
+     ],
+     "order": 4,
+     "in_2T": true,
+     "axis_action": {
+      "i": "-i",
+      "j": "-j",
+      "k": "+k"
+     }
+    }
+   ]
+  },
+  "order6_in_2T": 8,
+  "order6_2T_classes": [
+   4,
+   4
+  ],
+  "order6_class_of": {
+   "rule": [
+    1
+   ],
+   "mirror_rule": [
+    1
+   ],
+   "inverse_rule": [
+    0
+   ]
+  },
+  "L_lift_conjugates_rule_lift_to_class": 0,
+  "R_lift_conjugates_rule_lift_to_class": 0,
+  "k_conjugate_of_rule_lift": [
+   "1/2",
+   "1/2",
+   "1/2",
+   "-1/2"
+  ],
+  "rule_lift_class": 1
+ },
+ "C3": {
+  "moves": {
+   "L": {
+    "perm": [
+     0,
+     2,
+     1
+    ],
+    "type": "transposition",
+    "sense": null
+   },
+   "R": {
+    "perm": [
+     2,
+     1,
+     0
+    ],
+    "type": "transposition",
+    "sense": null
+   },
+   "P": {
+    "perm": [
+     1,
+     0,
+     2
+    ],
+    "type": "transposition",
+    "sense": null
+   },
+   "sigma": {
+    "perm": [
+     2,
+     0,
+     1
+    ],
+    "type": "3-cycle",
+    "sense": "backward"
+   },
+   "sigma_inverse": {
+    "perm": [
+     1,
+     2,
+     0
+    ],
+    "type": "3-cycle",
+    "sense": "forward"
+   },
+   "sigma_squared": {
+    "perm": [
+     1,
+     2,
+     0
+    ],
+    "type": "3-cycle",
+    "sense": "forward"
+   },
+   "LR": {
+    "perm": [
+     1,
+     2,
+     0
+    ],
+    "type": "3-cycle",
+    "sense": "forward"
+   },
+   "RL": {
+    "perm": [
+     2,
+     0,
+     1
+    ],
+    "type": "3-cycle",
+    "sense": "backward"
+   },
+   "mirror_rule": {
+    "perm": [
+     2,
+     0,
+     1
+    ],
+    "type": "3-cycle",
+    "sense": "backward"
+   },
+   "iota": {
+    "perm": [
+     0,
+     1,
+     2
+    ],
+    "type": "identity",
+    "sense": null
+   }
+  },
+  "odd_trace_words_to_8": 30,
+  "rows": [
+   {
+    "word": "LR",
+    "length": 2,
+    "trace": 3,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLLR",
+    "length": 4,
+    "trace": 5,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LRRR",
+    "length": 4,
+    "trace": 5,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLLLLR",
+    "length": 6,
+    "trace": 7,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRRRRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLLRLR",
+    "length": 6,
+    "trace": 13,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRLRRR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LLLRRR",
+    "length": 6,
+    "trace": 11,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLRRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLRLRR",
+    "length": 6,
+    "trace": 15,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLRLRR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LLRRLR",
+    "length": 6,
+    "trace": 15,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRLLRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LRLRRR",
+    "length": 6,
+    "trace": 13,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLRLR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LRRRRR",
+    "length": 6,
+    "trace": 7,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLLLR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLLLLLLR",
+    "length": 8,
+    "trace": 9,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRRRRRRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLLLLRLR",
+    "length": 8,
+    "trace": 19,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRLRRRRR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LLLLLRRR",
+    "length": 8,
+    "trace": 17,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLRRRRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLLLRLRR",
+    "length": 8,
+    "trace": 25,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLRLRRRR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LLLLRRLR",
+    "length": 8,
+    "trace": 25,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRLLRRRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLLRLLRR",
+    "length": 8,
+    "trace": 29,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLRRLRRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLLRLRRR",
+    "length": 8,
+    "trace": 27,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLRLRRR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LLLRRLLR",
+    "length": 8,
+    "trace": 29,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRRLLRRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLLRRRLR",
+    "length": 8,
+    "trace": 27,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRLLLRRR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LLLRRRRR",
+    "length": 8,
+    "trace": 17,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLLLRRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLRLLRLR",
+    "length": 8,
+    "trace": 37,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRLRRLRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLRLRLRR",
+    "length": 8,
+    "trace": 39,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLRLRLRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLRLRRRR",
+    "length": 8,
+    "trace": 25,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLLRLRR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LLRRLRLR",
+    "length": 8,
+    "trace": 39,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRLRLLRR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LLRRLRRR",
+    "length": 8,
+    "trace": 29,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLRLLRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LLRRRLRR",
+    "length": 8,
+    "trace": 29,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLRLLLRR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LLRRRRLR",
+    "length": 8,
+    "trace": 25,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LRLLLLRR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LRLRRLRR",
+    "length": 8,
+    "trace": 37,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLRLLRLR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   },
+   {
+    "word": "LRLRRRRR",
+    "length": 8,
+    "trace": 19,
+    "type": "3-cycle",
+    "sense": "backward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLLLRLR",
+    "mirror_sense": "backward",
+    "reverse_sense": "forward"
+   },
+   {
+    "word": "LRRRRRRR",
+    "length": 8,
+    "trace": 9,
+    "type": "3-cycle",
+    "sense": "forward",
+    "even_rotations_constant": true,
+    "odd_rotations_inverted": true,
+    "mirror": "LLLLLLLR",
+    "mirror_sense": "forward",
+    "reverse_sense": "backward"
+   }
+  ],
+  "every_odd_trace_word_a_3_cycle": true,
+  "every_odd_trace_word_even_length": true,
+  "sense_constant_on_even_rotations": true,
+  "sense_inverted_on_odd_rotations": true,
+  "sense_a_thread_invariant": false,
+  "mirror_keeps_sense": true,
+  "reverse_inverts_sense": true,
+  "counts": {
+   "forward": 19,
+   "backward": 11
+  },
+  "LR_sense": "forward",
+  "sigma_sense": "backward",
+  "sigma_inverse_sense": "forward",
+  "lift_test_orientations_of_the_parity_triangle": [
+   -1,
+   1
+  ],
+  "oriented_fibre_orients_the_parity_triangle": false
+ }
+}

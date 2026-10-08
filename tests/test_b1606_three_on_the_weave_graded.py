@@ -29,5 +29,5 @@ def test_w21_and_w20_as_recorded_on_b1600():
 
 def test_genesis_carries_the_grade():
     g = open(ROOT / "GENESIS.md", encoding="utf-8").read()
-    assert "**Version 1.28 " in g and "THREE ON THE WEAVE, GRADED (main, B1606" in g
+    assert int(g.split("**Version 1.")[1].split()[0]) >= 28 and "THREE ON THE WEAVE, GRADED (main, B1606" in g   # the version only moves forward; never pin the header
     assert "the flavour three is derived, the gauge three is a selection" in g

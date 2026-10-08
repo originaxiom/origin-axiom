@@ -10924,6 +10924,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1607": {
+   "slug": "the principles tick at the common point",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B14",
+    "B16",
+    "B19",
+    "B466",
+    "B469",
+    "B749",
+    "S85"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B160": {
    "slug": "quasicrystal bridge corroboration",
    "motifs": [

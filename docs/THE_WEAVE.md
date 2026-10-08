@@ -111,3 +111,28 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   gauge chirality. NEGATIVES — no index on a thread (B1604); the E₈ frames on the fibre give at most two complete
   generations (W23); no forced six-dimensional object gives three by the heterotic dictionary (W24). **"Did we derive
   three generations?" — no: the flavour three is derived, the gauge three is a selection.**
+
+## Main's addition: the principle's tick and the two hands (B1607, 2026-10-08; GENESIS v1.29; `frontier/B1607_the_principles_tick_at_the_common_point/`)
+
+- **The rule contains the swap.** σ: a → ab, b → a is L∘P exactly (P∘R is the mirror rule a → ba, b → a; both have the
+  golden matrix LP, det −1). σ² = LR exactly. σ's mapping torus is the Gieseking m000; m004 is its orientation double
+  cover and σ its deck involution (B466). GM5c is the question whether the principle's own tick is a move of the weave.
+- **At the quaternion point** σ lifts to ±(1 − i − j − k)/2 ∈ 2T (i → k → j); the mirror rule's lift is the k-conjugate
+  (the same 2T-class: the common point does not see the rule from its mirror); σ⁻¹'s lift (1 + i + j + k)/2 is in the
+  other class of order-6 elements; the lifts of L and R ((1 + i)/√2, (1 − j)/√2; order 8, outside 2T) exchange the classes.
+- **On the parities** L, R, P are transpositions, σ a 3-cycle, σ² = LR the inverse 3-cycle. The sense of a thread's parity
+  3-cycle is inverted by every odd rotation of its word (all 30 odd-trace words to length 8; 16 up to the swap), kept by
+  the mirror, inverted by reversal; the 64 lifts of the three 2-torsion points give triangles of both orientations, so the
+  oriented fibre orients no parity triangle. **The seat's W26 verified on main:** the McKay orientation (ω vs ω²) flips at
+  every tick, is not a thread invariant and is not the mirror bit.
+- **The two hands, complementary.** (i) The records' orientation (T vs T̄ on the weave's surface; W21's form is reversed
+  by the swap): reversed by the rule and by P, kept by every move. (ii) The McKay orientation: kept by the rule, inverted
+  by every move. The double tick keeps both; the full weave keeps neither. If P is a move, the weave's three is achiral
+  and its object the non-orientable quotient; the chiral three (W21/W22/B1606) lives on ⟨L, R⟩ = SL(2, ℤ), whose object
+  is the orientation double cover (m004 over m000 at the root), and the hand of (i) is the choice of its sheet, which the
+  rule — the deck involution — does not make. **Neither hand is derived on the weave; each is derived on a subweave the
+  weave does not select: a selection, located.**
+- **Next (B1608, design first).** The even subweave — the index-2 subgroup of SL(2, ℤ), the preimage of A₃, ⊃ Γ(2) —
+  keeps both hands: the double cover of M₁,₂ on which the McKay orientation is a global choice. Is its holomorphic triplet
+  still three, and does W22's parity grading become the ℤ/3 of (ii) there? Weight and boundary conditions to be derived
+  before the seal (E82).

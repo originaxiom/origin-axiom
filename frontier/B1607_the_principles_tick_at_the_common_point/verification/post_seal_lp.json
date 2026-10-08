@@ -1,0 +1,37 @@
+{
+ "sigma_equals_L_after_P": true,
+ "mirror_equals_P_after_R": true,
+ "sigma_equals_P_after_R": false,
+ "which_compositions_equal_sigma": [
+  "L∘P"
+ ],
+ "which_compositions_equal_mirror": [
+  "P∘R"
+ ],
+ "table": {
+  "L∘R": {
+   "a": "aab",
+   "b": "ab"
+  },
+  "L∘P": {
+   "a": "ab",
+   "b": "a"
+  },
+  "R∘L": {
+   "a": "ab",
+   "b": "abb"
+  },
+  "R∘P": {
+   "a": "b",
+   "b": "ab"
+  },
+  "P∘L": {
+   "a": "b",
+   "b": "ba"
+  },
+  "P∘R": {
+   "a": "ba",
+   "b": "a"
+  }
+ }
+}
