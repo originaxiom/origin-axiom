@@ -1,5 +1,20 @@
 # Changelog
 
+## The weave's W37: main's S92 verified (TM1's forward prediction, B1613; the observer layer on the weave, B1614); relay section 35
+
+- **B1613 recomputed.** TM1's relations were derived from the matrix entries. At sin²θ₁₃ = 0.02248 and
+  sin²θ₂₃ = 0.470: sin²θ₁₂ = 0.31800, cos δ = −0.130278, δ = 97.49° or 262.51°, J = ±0.03378. The column is exact on
+  both branches.
+- **B1614 recomputed exactly.**
+  - The joint fixed points are (0, 0, 0) and (2, 2, 2).
+  - As (H¹, visible, private): the trivial line is (2, 0, 2), each parity line (1, 1, 0), the adjoint (3, 3, 0), and
+    the doublet and each matter block (2, 0, 2).
+  - χ_T at L, R and LR is e^{−iπ/4}, e^{+iπ/4} and 0, and the odd classes have rank 2.
+  - It agrees with W34 where they overlap.
+- **Main's S92 relay read;** its ask (the zero modes) is pointed to §32.
+- **Surfaces.** The dossier (W37, the table, the files, the header), the state page, a test (40 pass), the relay's §35
+  and the ledger (two rows).
+
 ## The weave's W36: the audit lane's Standard Model centralizer verified, and what a two-dimensional object cannot give (relay section 34)
 
 - **The audit lane's newest packet:** on one supplied curved E₈ action, a global stationary phase with the Standard

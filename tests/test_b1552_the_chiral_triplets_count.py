@@ -712,3 +712,18 @@ def test_w36_the_sm_centralizer_in_e8():
     assert (len(R), len(su5g), len(orth)) == (240, 20, 20) and SC8.is_a4(orth)
     d = json.loads((here / "the_sm_centralizer_in_e8.json").read_text(encoding="utf-8"))
     assert d["the centralizer is (SU(5)_b x U(1)_Y)/Z5, connected"] is True
+
+
+def test_w37_tm1_prediction_and_observer_layer_verified():
+    """W37 (a verification of main's S92, not blind): TM1's cos(delta) = -0.1303 at B1613's inputs, J = +-0.03378; on the
+    weave the doublet and the matter blocks are wholly private at the puncture, the adjoint and the parity lines visible.
+    One local system recomputed in process"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_tm1_prediction_and_observer_layer_verified.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True
+    assert d["B1613"]["cos delta"].startswith("-0.13027")
+    sys.path.insert(0, str(here))
+    import the_tm1_prediction_and_observer_layer_verified as TV
+    m = TV.local_system(TV.OL.mscale(TV.OL.QI, TV.OL.q(-1)), TV.OL.QJ)
+    assert (m["dim H1"], m["visible (rank to the puncture)"], m["private"]) == (2, 0, 2)

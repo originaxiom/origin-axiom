@@ -18340,3 +18340,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   SU(5)_g chirality. The record's ±3 is an end effect, so a gapped chiral phase needs winding end data or an object
   of dimension four or more.
 - **Relay §34** sent.
+
+## 2026-10-08 (late) — resumed; W37 verifies main's S92
+
+- **The owner set the goal to "resume".** Work continued where it stood.
+- **Main's S92 landed:** TM1's forward prediction (δ_CP = 262.5° given θ₂₃, falsifier P10) and the observer layer on
+  the weave.
+- **W37 verified both with this seat's code.** B1614 agrees with W34 where they overlap.
+- **Relay §35** sent.

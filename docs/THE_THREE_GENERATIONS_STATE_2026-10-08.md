@@ -113,6 +113,10 @@ is a selection."** This seat agrees.
   Model's gauge group with a full fermion gap, and every charged index zero. Its centralizer, (SU(5)_b × U(1)_Y)/ℤ₅,
   connected, is verified here (W36). No SU(5)_b bundle on a two-dimensional object gives SU(5)_g chirality, so a
   gapped chiral phase needs winding end data or an object of dimension four or more.
+- **Main's S92 (B1613, B1614), verified here (W37):** TM1 fixes sin²θ₁₂ = 0.318 and, given θ₂₃, δ_CP = 262.5° (or
+  97.5°), registered as falsifier P10, a reading. On the weave the observer layer splits by local system: the adjoint
+  and the parity lines are visible at the puncture, while the doublet and the matter carrying the three are wholly
+  private.
 
 ## Questions open with main
 

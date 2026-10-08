@@ -1,0 +1,149 @@
+{
+ "status": "VERIFICATION of main's B1613 and B1614 (read first), with this seat's code",
+ "B1613": {
+  "inputs": {
+   "sin^2 t13": "0.02248",
+   "sin^2 t23": "0.470"
+  },
+  "sin^2 t12 (TM1)": "0.31800202",
+  "theta23 (deg)": "43.2801",
+  "cos delta": "-0.13027772",
+  "branches": [
+   {
+    "delta (deg)": "97.4856",
+    "the column's deviation from TM1": "1.34e-51",
+    "J from the matrix": "0.0337754",
+    "J from the formula": "0.0337754"
+   },
+   {
+    "delta (deg)": "262.514",
+    "the column's deviation from TM1": "1.34e-51",
+    "J from the matrix": "-0.0337754",
+    "J from the formula": "-0.0337754"
+   }
+  ],
+  "checks": {
+   "sin^2 t12 = 0.318": true,
+   "cos delta = -0.1303": true,
+   "delta = 97.49 or 262.51": true,
+   "the TM1 column holds on both branches": true,
+   "J = +-0.03378": true
+  }
+ },
+ "B1614": {
+  "the moves' joint fixed points (x, y, z)": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    2,
+    2
+   ]
+  ],
+  "local systems at the common point": {
+   "the line chi0": {
+    "dim V": 1,
+    "rho(c)": "1",
+    "dim H1": 2,
+    "visible (rank to the puncture)": 0,
+    "private": 2
+   },
+   "the line chi1": {
+    "dim V": 1,
+    "rho(c)": "1",
+    "dim H1": 1,
+    "visible (rank to the puncture)": 1,
+    "private": 0
+   },
+   "the line chi2": {
+    "dim V": 1,
+    "rho(c)": "1",
+    "dim H1": 1,
+    "visible (rank to the puncture)": 1,
+    "private": 0
+   },
+   "the line chi3": {
+    "dim V": 1,
+    "rho(c)": "1",
+    "dim H1": 1,
+    "visible (rank to the puncture)": 1,
+    "private": 0
+   },
+   "the doublet rho_Q": {
+    "dim V": 2,
+    "rho(c)": "-1",
+    "dim H1": 2,
+    "visible (rank to the puncture)": 0,
+    "private": 2
+   },
+   "the matter block chi1 (x) rho_Q": {
+    "dim V": 2,
+    "rho(c)": "-1",
+    "dim H1": 2,
+    "visible (rank to the puncture)": 0,
+    "private": 2
+   },
+   "the matter block chi2 (x) rho_Q": {
+    "dim V": 2,
+    "rho(c)": "-1",
+    "dim H1": 2,
+    "visible (rank to the puncture)": 0,
+    "private": 2
+   },
+   "the matter block chi3 (x) rho_Q": {
+    "dim V": 2,
+    "rho(c)": "-1",
+    "dim H1": 2,
+    "visible (rank to the puncture)": 0,
+    "private": 2
+   },
+   "the adjoint (Sym^2)": {
+    "dim V": 3,
+    "rho(c)": "1",
+    "dim H1": 3,
+    "visible (rank to the puncture)": 3,
+    "private": 0
+   }
+  },
+  "the triplet's characters at L, R, LR (re, im)": {
+   "L": [
+    0.707106781,
+    -0.707106781
+   ],
+   "R": [
+    0.707106781,
+    0.707106781
+   ],
+   "LR": [
+    0.0,
+    0.0
+   ]
+  },
+  "the odd classes (det, the parities' sign) on L, R, P": {
+   "L": [
+    0,
+    1
+   ],
+   "R": [
+    0,
+    1
+   ],
+   "P": [
+    1,
+    1
+   ]
+  },
+  "checks": {
+   "fixed points: the trivial character and the common point": true,
+   "the adjoint and the parity lines wholly visible": true,
+   "the doublet and the matter blocks wholly private (H1 = 2 each)": true,
+   "the trivial line wholly private": true,
+   "chi_T(L) = e^(-i pi/4), chi_T(R) = e^(+i pi/4), chi_T(LR) = 0": true,
+   "the odd classes have rank 2 over F2": true
+  }
+ },
+ "every check holds": true
+}

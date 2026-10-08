@@ -21,6 +21,7 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W35 (the owner's goal: the full Standard Model): main's B1612 mixing patterns verified with this seat's code.
 - W36: the audit lane's Standard Model centralizer in E₈ verified; no SU(5)_g chirality from any SU(5)_b bundle on a
   two-dimensional object.
+- W37: main's S92 verified: TM1's forward prediction (δ = 262.5° or 97.5°) and the observer layer on the weave.
 
 ## The setting
 
@@ -2161,6 +2162,45 @@ it is zero, so it has no generations. Its relay asks four things; this answers t
 **Status.** Step 1 VERIFIED (exact). Step 4 a READING with one exact obstruction: no SU(5)_g chirality from any SU(5)_b
 bundle on a two-dimensional object.
 
+## W37. Main's S92 verified: TM1's forward prediction (B1613) and the observer layer on the weave (B1614) (`the_tm1_prediction_and_observer_layer_verified.py`)
+
+**Why.** The owner's goal of 2026-10-08 is the full Standard Model. B1613 is the record's first numerical forward
+prediction (falsifier P10), and B1614 answers, on main, the owner's question that W34 answered here. The owner's rule:
+verify load-bearing math. A VERIFICATION, not blind: both read-outs were read first (main @ 6df00941).
+
+**B1613 (COMPUTED; every check holds).**
+- **The relations were derived here from the matrix entries.**
+  - TM1 is |U_e1|² = c₁₂²c₁₃² = 2/3, so sin²θ₁₂ = 1 − 2/(3 cos²θ₁₃).
+  - |U_μ1| = |U_τ1| gives cos δ = −(s₁₂² − c₁₂²s₁₃²) cos 2θ₂₃ / (2 s₁₂c₁₂s₁₃ sin 2θ₂₃).
+- **At B1613's inputs** (NuFIT 6.1 via the record: sin²θ₁₃ = 0.02248, sin²θ₂₃ = 0.470), at 50 digits:
+  - sin²θ₁₂ = 0.31800 and θ₂₃ = 43.280°;
+  - cos δ = −0.130278, so δ = 97.486° or 262.514°;
+  - J = ±0.0337754, the matrix and the formula agreeing.
+  - The TM1 column holds on the full matrix on both branches, to 10⁻⁵¹.
+
+**B1614 (COMPUTED; exact; every check holds).**
+- **The moves' joint fixed points** on the character variety are (0, 0, 0), the common point, and (2, 2, 2), the trivial
+  character.
+- **Each local system at the common point, (dim H¹, visible at the puncture, private):**
+  - the trivial line: (2, 0, 2);
+  - each parity line: (1, 1, 0);
+  - the adjoint: (3, 3, 0);
+  - the doublet, and each matter block χ_p ⊗ ρ_Q: (2, 0, 2), since the puncture acts as −1 and its cohomology is zero.
+- **The triplet's characters**, with W21's lifts: χ_T(L) = e^{−iπ/4}, χ_T(R) = e^{+iπ/4}, χ_T(LR) = 0.
+- **The odd classes** (det, the sign of the parities' permutation) are L (0, 1), R (0, 1) and P (1, 1): rank 2 over 𝔽₂.
+
+**What it shows.**
+- Both of main's S92 arcs stand on this seat's code.
+- B1614 and W34 agree where they overlap: the adjoint is visible, and the trivial pieces are private. Each adds what
+  the other lacks.
+  - B1614 adds the odd blocks: the doublet and the matter are wholly private.
+  - W34 adds what the weave keeps: no private state is kept by any thread, nor jointly. It also adds the thread
+    censuses and the register lemma.
+- **The matter that carries the three is wholly private at the puncture.** Its cohomology restricts to zero there.
+  That is the observer layer's form of W36's statement that the fibre's counts are end effects.
+
+**Status.** VERIFIED (not blind): main's WEAVE results, reproduced. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2308,6 +2348,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W34 | COMPUTED (the rule committed first; Q2, Q3, Q5 as stated; Q1's sealed criterion missed on 11 states, resolved post hoc); WEAVE results (Q2, Q5) and laws over the threads (Q1, Q3), NEGATIVE for the observer layer as the missing ingredient | the record's observer-layer probes (B760, B761, B762; main's B1183, B1184), all on m004, taken to the weave. No private states holds on all 758 states to length 12 (Menal-Ferrer and Porti; 747 at 60 digits, the other 11 post hoc at 120): a property of the class. At the common point the fibre has private states from rank three (fiber_dim 0, 4, 6 for n = 2, 3, 4: the flat twists of the blocks' trivial pieces), and no thread and not the joint action keeps any. The 758 states have 536 names, the coincidences exactly the 222 reversal pairs: every thread is named among the threads up to its register. The weave cannot sign itself; the self-sign is the hand. The register is an inner automorphism (rev σ = ι_{a⁻¹}∘σ) and carries neither hand |
 | W35 | VERIFIED (not blind; B1612 read first); main's WEAVE result reproduced | main's B1612 rebuilt from W21's construction (V, the moves' lifts, the holomorphic triplet T, the Hodge–Riemann form as the inner product): the image on T has order 96 with 56 elements of distinct eigenvalues; 11 eigenbases, 9 eigenlines; six full patterns (single maximal angle, tri-bimaximal, bimaximal, trimaximal with (2 ∓ √3)/6, the circulant (1/9, 4/9, 4/9), democratic) and five columns ((0, 0, 1), (0, ½, ½), TM1, (¼, ¼, ½), TM2); every named cell as B1612 states, TM1 from RL against RRL's eigenline with no swap |
 | W36 | VERIFIED (step 1, exact) and a READING with one exact obstruction (step 4) | the audit lane's gapped Standard Model phase: its centralizer in E₈ is (SU(5)_b × U(1)_Y)/ℤ₅ and connected (the roots orthogonal to SU(5)_g are an A₄; the torus part is the kernel of the character (3, 2), connected). On a closed surface the 10's index is deg W and the 5̄'s deg Λ²W, both zero for every SU(5)_b bundle, so the fibre's bulk gives no SU(5)_g chirality; the record's counts are end contributions on the gapless channels, which a gap removes. A gapped chiral phase needs winding end data or an object of dimension four or more |
+| W37 | VERIFIED (not blind; S92 read first); main's WEAVE results reproduced | main's B1613: TM1's relations derived here from the matrix entries; at sin²θ₁₃ = 0.02248, sin²θ₂₃ = 0.470: sin²θ₁₂ = 0.31800, cos δ = −0.130278, δ = 97.49° or 262.51°, J = ±0.03378, the column exact on both branches. Main's B1614: the joint fixed points (0, 0, 0) and (2, 2, 2); the trivial line (2, 0, 2), each parity line (1, 1, 0), the adjoint (3, 3, 0), the doublet and each matter block (2, 0, 2) as (H¹, visible, private); χ_T(L) = e^{−iπ/4}, χ_T(R) = e^{+iπ/4}, χ_T(LR) = 0; the odd classes of rank 2 over 𝔽₂. Agrees with W34 where they overlap |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -2349,6 +2390,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_tm1_prediction_and_observer_layer_verified.py` → `the_tm1_prediction_and_observer_layer_verified.json`: W37, main's B1613 and B1614 recomputed (a verification, not blind).
 - `the_sm_centralizer_in_e8.py` → `the_sm_centralizer_in_e8.json`: W36, the Standard Model's centralizer in E₈ by exact root arithmetic (a review of the audit lane's step 1).
 - `the_mixing_patterns_verified.py` → `the_mixing_patterns_verified.json`: W35, main's B1612 rebuilt from W21's construction (a verification, not blind).
 - `the_observer_layer_on_the_weave.py` → `the_observer_layer_on_the_weave.json`: W34, B761's private states on GENESIS's 758 states (SnapPy, 60 digits), the private states at the common point and what the moves keep (exact), the self-name among the threads against the reversal pairs, and the register's lifts and action at the common point; its rule `W34_RULE.md`, committed first. POST HOC `the_observer_layer_posthoc.py` → `the_observer_layer_posthoc.json`: the 11 states the run's rank rule left undecided, recomputed from the polished holonomy at 120 digits.

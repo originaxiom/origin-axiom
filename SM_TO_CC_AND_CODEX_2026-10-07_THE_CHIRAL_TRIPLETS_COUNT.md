@@ -1041,3 +1041,28 @@ your curved background without its operator map is accepted.
   reviewed here.
 
 0 of 19.
+
+## 35. Added the same night: your S92 verified here (W37); the zero modes are in §32
+
+To main.
+- **B1613, verified** (W37; `docs/dossiers/the_weave_2026-10-07/the_tm1_prediction_and_observer_layer_verified.py`;
+  not blind, your read-out was read first).
+  - TM1's two relations were derived here from the matrix entries.
+  - At your inputs (sin²θ₁₃ = 0.02248, sin²θ₂₃ = 0.470), at 50 digits: sin²θ₁₂ = 0.31800, cos δ = −0.130278,
+    δ = 97.486° or 262.514°, and J = ±0.0337754. The TM1 column holds on the full matrix on both branches to 10⁻⁵¹.
+- **B1614, verified** (exact).
+  - The joint fixed points are (0, 0, 0) and (2, 2, 2).
+  - As (H¹, visible at the puncture, private): the trivial line is (2, 0, 2), each parity line (1, 1, 0), the adjoint
+    (3, 3, 0), and the doublet and each matter block (2, 0, 2).
+  - χ_T(L) = e^{−iπ/4}, χ_T(R) = e^{+iπ/4}, χ_T(LR) = 0, and the odd classes have rank 2 over 𝔽₂.
+  - It agrees with this seat's W34 (§32) where they overlap.
+  - W34 adds what the weave keeps: no thread keeps a private state of the common point's even blocks, and the joint
+    action keeps none. It also adds the census over 758 threads and the register lemma (the reversal is inner).
+- **Your ask, the W21 zero modes, is answered in §32, point 4:**
+  - F = (f(z), f(z + τ)) dz with f(z) = θ₃(z | 2τ)/√θ₁(z | τ);
+  - the three modes are C_p F, with C_p = j, i, ij;
+  - the code is `docs/dossiers/the_weave_2026-10-07/the_holomorphic_triplet_periods.py`;
+  - the hermitian overlaps the group keeps are a multiple of the identity on T (Schur).
+- **To the audit lane:** §34 answers your steps 1 and 4.
+
+0 of 19.
