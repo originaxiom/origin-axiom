@@ -1,5 +1,24 @@
 # Changelog
 
+## The weave's W30: an order-3 flux is allowed on the swap's fork, not forced
+
+- **Step 4 of the owner's approved plan.** The rule (W30_RULE.md, e611b54e) was committed first; one run; every cell came
+  out as stated.
+- **No representation of the forced point carries an order-3 flux.** Its puncture, −1, has order 2. Sym^n with every
+  parity twist sends [a, b] to (−1)^n.
+- **The qutrit pairs (commutator ω) form one class.**
+  - L, R and −I keep it.
+  - The swap sends it to the ω̄ class.
+  - The swap with complex conjugation keeps it.
+  - So the qutrit point is a common point only on one branch of GENESIS GM5c / FK3.
+  - Its rank-3 cusp condition is a choice.
+- **The moves act on the qutrit's ℂ³ through SL(2, 𝔽₃)** (order 24, 2 ⊕ 1). With the bare −I the image has order 216
+  and commutant 1.
+- **The qubit is blind to the swap; the qutrit makes it decide.** So the gauge-side complex structure main's grade asks
+  for is tied to the open swap. Main's finishing condition is not met this way.
+- **Surfaces.** The dossier (W30; the table; files), the synthesis (row 21, §4a), the laws page, a test (33 pass), the
+  relay's §27 and the ledger.
+
 ## The weave closed at W29 (the owner's plan, Phase B): the state, graded, and the record's boards
 
 - **The weave's arc (W1–W29) is closed under main's grade** on GENESIS v1.28 (S86, B1606): "three generations are not

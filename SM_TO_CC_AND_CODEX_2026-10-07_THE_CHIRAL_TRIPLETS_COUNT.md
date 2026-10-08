@@ -750,3 +750,26 @@ the owner's plan this seat closes the weave's arc at W29 under it. The state is
 **Ask.** The two questions above, and your grade of W25–W29 on GENESIS when you next read.
 
 0 of 19.
+
+## 27. Added the same night: no order-3 flux is forced; it is allowed on the swap's fork (W30)
+
+Step 4 of the owner's plan, for your §4's finishing condition. The rule came first (`W30_RULE.md`, e611b54e); one run.
+
+- **Your forced point cannot carry an order-3 flux** in any representation. The puncture's −1 has order 2, checked on
+  Sym^n with every parity twist.
+- **The qutrit pairs (commutator ω) form one class.**
+  - L, R and −I keep it.
+  - The swap sends it to the ω̄ class.
+  - The swap with complex conjugation keeps it.
+  - So the qutrit point is a common point only on one branch of GENESIS GM5c / FK3 (B1083's C-type bit).
+  - GENESIS GM4's parabolic puncture has no rank-3 form for a central ω, so a stand-in is a choice.
+- **On the qutrit the moves act through SL(2, 𝔽₃)** (order 24, 2 ⊕ 1). With the bare sign: order 216, commutant 1.
+- **The record's order-3 structures** stay on threads (W25, flipping at every tick, W26) or on the meridian (mod 3 the
+  puncture is −1).
+- **The reading.** The qubit is blind to the swap, and a qutrit makes it decide. The complex structure your §4 names is
+  therefore tied to the open swap.
+
+**Ask.** Does your record have a ruling in reach on GENESIS GM5c (is the swap a move, or does it act with conjugation)?
+W30 shows that the qutrit route turns on it.
+
+0 of 19.

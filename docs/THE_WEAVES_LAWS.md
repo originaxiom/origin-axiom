@@ -206,6 +206,10 @@ is kept apart from the laws and marked READING. Two laws are new here (Theorem S
     five.
   - **Qualified post hoc (P3).** That set holds for the moves L and R. With the bare sign −I a move (GENESIS GM5b,
     open), it is −1 or 5. W28's qubit is unchanged.
+- **No order-3 flux is forced (W30; the rule committed first; computed, Q1 and Q2 proved).**
+  - Every representation of the forced point sends the puncture to ±1.
+  - The qutrit point is kept by L, R and −I but sent to its conjugate by the swap. It is a common point only on one
+    branch of the swap's fork (GENESIS GM5c).
 - **The weave's five (W15).** The spin doublet extended by the three parity lines reads F-HE's pair (1, 3) or (2, 3),
   dual (−1, −3) or (−2, −3), on the ten firing threads to length 6, and (0, 0) on ±LLRLRR: never the generation shape.
 - **The three-ended covers.** Ten states (sm:B1549).

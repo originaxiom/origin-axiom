@@ -557,3 +557,24 @@ def test_the_three_generations_state_page():
     assert p3["Z6: the 6-sector's index set with the bare -I a move (-1 + d1)"] == [-1, 5] and "only −1 or 5" in page
     for w in ("W1", "W21", "W22", "W25", "W27", "W28", "W29"):
         assert w in page
+
+
+def test_w30_the_order_three_flux():
+    """W30 (the rule committed first): no representation of the forced point carries an order-3 flux; the qutrit class
+    is kept by L, R and -I and sent to its conjugate by the swap (kept by the swap with conjugation); the moves act on
+    the qutrit through SL(2, F3). The swap's fork is recomputed in process"""
+    import sys
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_order_three_flux.json").read_text(encoding="utf-8"))
+    assert all(d["Q7 the verdict"].values())
+    q5 = d["Q5 the moves on the qutrit's C^3"]
+    assert q5["projective order of the lifts of L and R (SL(2, F3) = 2T: 24)"] == 24
+    assert q5["with the bare -I added: commutant"] == 1
+    sys.path.insert(0, str(here))
+    import the_order_three_flux as OT
+    A, B = OT.C3, OT.S3
+    assert len(OT.intertwiners(A, B, B, A)) == 0
+    assert len(OT.intertwiners(A, B, B.conj(), A.conj())) == 1
+    assert len(OT.intertwiners(A, B, A, A @ B)) == 1
+    assert np.allclose(OT.comm(A, B), OT.OMEGA * np.eye(3))

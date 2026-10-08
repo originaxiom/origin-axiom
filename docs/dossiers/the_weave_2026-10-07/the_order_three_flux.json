@@ -1,0 +1,182 @@
+{
+ "rule": "W30_RULE.md (committed e611b54e before this ran)",
+ "Q1 the lemma's check: the puncture in every Sym^n of the forced point": {
+  "0": {
+   "Sym^n is a representation (on a b)": true,
+   "[a, b] -> (-1)^n": true,
+   "chi_p (x) Sym^n, all three parities, the same": true
+  },
+  "1": {
+   "Sym^n is a representation (on a b)": true,
+   "[a, b] -> (-1)^n": true,
+   "chi_p (x) Sym^n, all three parities, the same": true
+  },
+  "2": {
+   "Sym^n is a representation (on a b)": true,
+   "[a, b] -> (-1)^n": true,
+   "chi_p (x) Sym^n, all three parities, the same": true
+  },
+  "3": {
+   "Sym^n is a representation (on a b)": true,
+   "[a, b] -> (-1)^n": true,
+   "chi_p (x) Sym^n, all three parities, the same": true
+  },
+  "4": {
+   "Sym^n is a representation (on a b)": true,
+   "[a, b] -> (-1)^n": true,
+   "chi_p (x) Sym^n, all three parities, the same": true
+  },
+  "5": {
+   "Sym^n is a representation (on a b)": true,
+   "[a, b] -> (-1)^n": true,
+   "chi_p (x) Sym^n, all three parities, the same": true
+  },
+  "6": {
+   "Sym^n is a representation (on a b)": true,
+   "[a, b] -> (-1)^n": true,
+   "chi_p (x) Sym^n, all three parities, the same": true
+  },
+  "7": {
+   "Sym^n is a representation (on a b)": true,
+   "[a, b] -> (-1)^n": true,
+   "chi_p (x) Sym^n, all three parities, the same": true
+  },
+  "8": {
+   "Sym^n is a representation (on a b)": true,
+   "[a, b] -> (-1)^n": true,
+   "chi_p (x) Sym^n, all three parities, the same": true
+  }
+ },
+ "Q1 no order-3 flux from the forced rank-2 data (order of the puncture's image at most 2)": true,
+ "Q2 the qutrit pairs": {
+  "det C3, det S3": [
+   1.0,
+   1.0
+  ],
+  "[C3, S3] = w 1": true,
+  "each centre twist (w^i C3, w^j S3) conjugate to (C3, S3): intertwiner dimensions": {
+   "(0, 0)": 1,
+   "(0, 1)": 1,
+   "(0, 2)": 1,
+   "(1, 0)": 1,
+   "(1, 1)": 1,
+   "(1, 2)": 1,
+   "(2, 0)": 1,
+   "(2, 1)": 1,
+   "(2, 2)": 1
+  },
+  "one class": true
+ },
+ "Q3 the moves on the qutrit class (intertwiner dimensions, every twist)": {
+  "(0, 0)": {
+   "L": 1,
+   "R": 1,
+   "-I": 1,
+   "P (the swap)": 0,
+   "P o K (the swap with complex conjugation)": 1
+  },
+  "(0, 1)": {
+   "L": 1,
+   "R": 1,
+   "-I": 1,
+   "P (the swap)": 0,
+   "P o K (the swap with complex conjugation)": 1
+  },
+  "(0, 2)": {
+   "L": 1,
+   "R": 1,
+   "-I": 1,
+   "P (the swap)": 0,
+   "P o K (the swap with complex conjugation)": 1
+  },
+  "(1, 0)": {
+   "L": 1,
+   "R": 1,
+   "-I": 1,
+   "P (the swap)": 0,
+   "P o K (the swap with complex conjugation)": 1
+  },
+  "(1, 1)": {
+   "L": 1,
+   "R": 1,
+   "-I": 1,
+   "P (the swap)": 0,
+   "P o K (the swap with complex conjugation)": 1
+  },
+  "(1, 2)": {
+   "L": 1,
+   "R": 1,
+   "-I": 1,
+   "P (the swap)": 0,
+   "P o K (the swap with complex conjugation)": 1
+  },
+  "(2, 0)": {
+   "L": 1,
+   "R": 1,
+   "-I": 1,
+   "P (the swap)": 0,
+   "P o K (the swap with complex conjugation)": 1
+  },
+  "(2, 1)": {
+   "L": 1,
+   "R": 1,
+   "-I": 1,
+   "P (the swap)": 0,
+   "P o K (the swap with complex conjugation)": 1
+  },
+  "(2, 2)": {
+   "L": 1,
+   "R": 1,
+   "-I": 1,
+   "P (the swap)": 0,
+   "P o K (the swap with complex conjugation)": 1
+  }
+ },
+ "Q3 L, R and -I keep it; P sends it to the w-bar class; P o K keeps it (all nine twists)": true,
+ "Q3 for contrast, the qubit point (iZ, iY): the same moves": {
+  "L": 1,
+  "R": 1,
+  "-I": 1,
+  "P (the swap)": 1,
+  "P o K (the swap with complex conjugation)": 1
+ },
+ "Q3 the qubit's swap keeps its class (-1 is its own inverse)": true,
+ "Q5 the moves on the qutrit's C^3": {
+  "projective order of the lifts of L and R (SL(2, F3) = 2T: 24)": 24,
+  "their commutant on C^3": 2,
+  "their isotypic structure [(dimension, multiplicity)]": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "the lift of (L R^-1 L)^2: a phase times the reflection k -> c - k, with c": 2,
+  "the bare -I's lift: a phase times the reflection k -> c - k, with c": 0,
+  "with the bare -I added: projective order": 216,
+  "with the bare -I added: commutant": 1,
+  "as the rule stated (24; commutant 2, split 2 + 1; reflections 2 and 0; with -I: commutant 1)": true
+ },
+ "Q6 the record's order-3 structures, re-read": {
+  "W25: the odd-trace extension (a thread object): order, centraliser, multiplicity of the complex character w": [
+   24,
+   25.0,
+   15.0
+  ],
+  "W26: the 3-cycle's direction flips at every tick (all odd-trace words to length 10)": true,
+  "mod 3 the fibre's puncture goes to -1; the order-3 part is on the meridian (sm:B1536's preregistration; B284; main's B1601)": "cited",
+  "B1280 (PROVED): order-3 central twists on the stable letter give N = 0": "cited",
+  "B955 is a knot-group fact (H1 = Z); the fibre has H1 = Z^2": "cited"
+ },
+ "Q7 the verdict": {
+  "the forced data give no order-3 flux (Q1)": true,
+  "the qutrit class exists, one class (Q2)": true,
+  "the grammar's moves keep it, the swap does not, the swap with conjugation does (Q3)": true,
+  "so it is a common point only on one branch of the swap's fork (GENESIS GM5c, FK3)": true,
+  "the record's order-3 structures are on threads or on the meridian (Q6)": true,
+  "an order-3 flux is allowed on a fork, not forced": true
+ }
+}

@@ -1730,6 +1730,52 @@ derivation.
 - W28's qubit is unchanged: the bare −I's lift already lies in the group of L and R (commutant 2 either way).
 - The verdict stands, and it strengthens: with the sign a move, three is not even allowed.
 
+## W30. Is an order-3 flux forced on the shared fibre? Allowed on the swap's fork, not forced (`the_order_three_flux.py`; `W30_RULE.md`)
+
+**Why.** Step 4 of the owner's approved plan, after the close.
+- Main's grade (GENESIS v1.28) says the derivation would be finished by a forced complex structure on the gauge side.
+- A qutrit flux ω is the smallest such structure.
+- This arc asks whether anything forces one.
+
+**Weave or thread?** Weave-type. Every move acts jointly on the shared fibre's own representations, and the rank-3
+object is the question, not an input.
+
+**The rule** (`W30_RULE.md`, committed e611b54e before the run). One run.
+- Most values were seen in the plan review and are listed as seen.
+- Every cell came out as stated.
+
+**The read-out (COMPUTED; Q1 and Q2 PROVED).**
+- **Q1.** In every Sym^n of the forced point (n = 0, …, 8), and with every parity twist, [a, b] goes to (−1)^n. So the
+  forced rank-2 data give no order-3 flux in any representation. A homomorphism cannot raise an element's order; this
+  cell checks the code.
+- **Q2.** The qutrit pairs (C₃, S₃) with commutator ω form one class: all nine centre twists are conjugate.
+- **Q3.** On every twist:
+  - L, R and −I keep the class (intertwiner dimension 1);
+  - the swap P sends it to the ω̄ class (dimension 0);
+  - the swap with complex conjugation keeps it (dimension 1).
+  - On the qubit point the swap keeps its class, since −1 is its own inverse.
+- **Q5.** On the qutrit's ℂ³ the lifts of L and R have projective order 24 (SL(2, 𝔽₃) ≅ 2T) and commutant 2, split
+  2 ⊕ 1.
+  - The lift of (LR⁻¹L)² is the reflection k ↦ 2 − k, and the bare −I's lift is k ↦ −k.
+  - With the bare −I added: projective order 216, commutant 1.
+- **Q6.** The record's order-3 structures are on threads or on the meridian:
+  - W25's odd-trace extension (order 24, centraliser 25, ω fifteen times) is a thread object;
+  - its orientation flips at every tick (W26);
+  - mod 3 the puncture goes to −1 (sm:B1536; B284; main's B1601).
+
+**What it shows.**
+- **An order-3 flux is allowed on a fork, not forced.**
+  - The forced data cannot produce one.
+  - The qutrit point exists, and the grammar's moves keep it. But it is a common point only if the swap is not a move,
+    or acts with complex conjugation, the C-type bit (GENESIS GM5c, FK3; B1083).
+  - Its cusp condition in rank 3 is a choice (GENESIS GM4's parabolic puncture has no rank-3 form for a central ω).
+- **Where the qubit and the qutrit part.** The qubit is blind to the swap. The qutrit makes the swap decide. So the
+  gauge-side complex structure main's grade asks for is tied to one open fork of the grammar, the swap.
+- **Main's finishing condition is not met by this route.**
+
+**Status.** COMPUTED (one run; the rule committed first) and PROVED (Q1, Q2). A WEAVE result: an order-3 flux is
+allowed on the swap's fork, NOT FORCED.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -1813,6 +1859,7 @@ the owner's approved plan of 2026-10-08: contemplate, close the arc, then W30 (s
 | W27 | STATED (the link Λ, an input) and COMPUTED (exact; the rule committed first) | the derivation written with its one link: principle + F-MC's typed inputs + Λ give exactly three chiral 27s, alike, in the flavor triplet, each with one Standard Model generation; anomaly-free (exact); the count ±3 only under Λ's parity grading; in six dimensions Dobrescu–Poppitz's global SU(2) condition selects a multiple of three sectors (local anomalies would need a completion); three right-handed neutrinos. Labeled "derived given one stated link" (`docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`) |
 | W28 | COMPUTED and PROVED (I5, exact; the rule committed first, every cell as predicted); a WEAVE result, the foundation | the end condition: the six local solutions are a vector-spinor (spin ½ ⊕ spin 3/2 under 2O); the two middle conditions (index ∓1) couple the parity sectors and break 𝕎's flavor group U(3) to a phase. The moves alone allow −3, −1, +1, +3; the flavor group alone −3, 0, +3; jointly only ±3, and locality (the puncture's holonomy −1, symmetry U(6)) gives ±3 too. So Λ's "kept apart" follows from the end condition breaking no symmetry of the bulk problem (a stated naturality condition). The common point is the qubit: Q₈ the Pauli group, the parities the three Pauli axes (mutually unbiased), the moves' lifts the Clifford group (2O, the normaliser of Q₈), acting through PSL(2, ℤ/4) ≅ S₄ as SU(2) level 1's projective modular data (one dictionary each for the semion and the anti-semion: the hand is in the phases); the parities are ℙ¹(𝔽₂), the three global forms SU(2), SO(3)₊, SO(3)₋, equivariantly; the common point is 't Hooft's twist-eater, which eats the centre symmetry |
 | W29 | COMPUTED and PROVED (the lemma; the rule committed first; every cell as predicted except Z5's naming of the −I lift, corrected post hoc); a CHOSEN object (the ℤ₆ flux, not forced), NEGATIVE as a derivation | the ℤ₆ twist-eater (the weave's qubit ⊗ a qutrit) in E₈: its centraliser is exactly SU(3) × SU(2) (11; the qubit alone F₄ × SU(2), the qutrit alone SU(3) × G₂), its 6 is complex with multiplicity (3, 2), the 15's three single types are the three parities ((3̄, 1) each), the 20's eight single types are ℙ¹(𝔽₃)'s four lines in conjugate pairs ((1, 2) each), and its flux is e^{2πiY}; the swap has no lift (the hand visible). The moves split the 6 as 4 ⊕ 2 (the eigenspaces of the lift of (LR⁻¹L)²): quark generations −1, 1, 3 or 5, each SU(3)³-free with the Standard Model's ratio; locality gives five. Not a derivation: the flux breaks U(1)_Y (exact lemma), three is not forced, no chiral leptons, and the flux is not forced (step 4) QUALIFIED post hoc (P3): the set −1, 1, 3, 5 holds for the moves L and R; with the bare sign −I a move (GENESIS GM5b, open) it is −1 or 5; W28 unchanged |
+| W30 | COMPUTED and PROVED (Q1, Q2; the rule committed first, every cell as stated); a WEAVE result, NOT FORCED | is an order-3 flux forced on the shared fibre? The forced point's puncture −1 has order 2, so no representation of it carries an order-3 flux; the qutrit pairs form one class, kept by L, R and −I and sent to the conjugate class by the swap (the swap with complex conjugation keeps it), so the qutrit point is a common point only on one branch of the swap's fork (GENESIS GM5c, FK3); its rank-3 cusp condition is a choice; the moves act on it through SL(2, 𝔽₃) (order 24, 2 ⊕ 1); the record's order-3 structures are on threads or on the meridian. Allowed on a fork, not forced |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 turns on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -1854,6 +1901,7 @@ the owner's approved plan of 2026-10-08: contemplate, close the arc, then W30 (s
 - `the_weaves_count_orbifold.py` → `the_weaves_count_orbifold.json`: W20's third route, Brown's formula over the elliptic elements, with the traces at the square and hexagonal tori.
 - `W21_RULE.md`: the rule, committed before the run; `the_holomorphic_triplet.py` → `the_holomorphic_triplet.json`: W21, the Hodge–Riemann form on V and on the spin doublet by the cup product, its controls, and which triplet is holomorphic (`--controls` runs the controls alone).
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
+- `the_order_three_flux.py` → `the_order_three_flux.json`: W30, the puncture in every Sym^n of the forced point, the qutrit class and the moves on it (the swap's fork), the moves on the qutrit's ℂ³, the record's order-3 structures re-read; its rule `W30_RULE.md`, committed first.
 - `the_z6_twist_eater.py` → `the_z6_twist_eater.json`: W29, the ℤ₆ twist-eater in E₈ (the group, the centralisers, the matter by type, the flux and the orientation, the moves at the puncture, the anomalies); its rule `W29_RULE.md`, committed first; `the_z6_twist_eater_posthoc.py` → `the_z6_twist_eater_posthoc.json`, after the read-out: the lifts of −I and of (LR⁻¹L)², and which splits the 6.
 - `the_three_routes_and_the_qubit.py` → `the_three_routes_and_the_qubit.json`: W28, the end condition's index sets under the moves, the flavor group, the grading and locality, and the common point as the qubit (Pauli, Clifford, SU(2)₁, the global forms, the twist-eater); its rule `W28_RULE.md`, committed first.
 - `the_link_tested.py` → `the_link_tested.json`: W27, the link's tests (anomalies, the count under the link, the six-dimensional global condition, the 27's remainder); its rule `W27_RULE.md`, committed first; the write-up `docs/THREE_GENERATIONS_GIVEN_ONE_LINK.md`.

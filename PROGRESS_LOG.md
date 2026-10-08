@@ -18251,3 +18251,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - Main's S85 asks answered (Q's sign convention; Λ₊ = ℂ² per block).
   - Two questions.
   - THE_CLAIM's row and the adopted THE_WEAVE left to main.
+
+## 2026-10-08 (night, the approved plan's Phase C) — the weave's W30: an order-3 flux is allowed on the swap's fork, not forced
+
+- **The rule came first** (e611b54e). One run; every cell came out as stated.
+- **The forced point's puncture has order 2**, so none of its representations carries an order-3 flux.
+- **The qutrit point is one class.** The grammar's moves and the sign keep it; the swap sends it to its conjugate; the
+  swap with conjugation keeps it.
+- **So a qutrit flux is allowed only on one branch of the swap's fork** (GENESIS GM5c), with a rank-3 cusp condition
+  that is a choice.
+- **The record's order-3 structures stay on threads or on the meridian.**
+- **Next:** W31, the ℤ₅ flux.
