@@ -17694,3 +17694,39 @@ by a bounded parallel-pair classification and charged index homotopy.
 Main a8686bea7 B1611 and SM bc4ea1303 W33 published/read, not replayed.
 Nonauthor analytic/full-suite/main-bank and four inherited governance
 failure classes remain. Full parameter-free SM/TOE ACTIVE/unachieved.
+
+## 2026-10-08 stationary SM gauge phase and its charged index
+
+Seven science files/six pinned-and-working dependencies unchanged after
+pre-run1f37a33d3, committed/pushed/server-confirmed before execution.
+First45 native/24 separate reference/23 focused and152 nine-packet
+regression PASS. No scientific failed attempt or source repair.
+
+ONE supplied curved E8 action now admits a global stationary SM-gauge
+phase with full essential fermion gap and positive finite kinetic norms.
+Regular SU5 structure/principal spin-two SO3 image supplies old p without
+a fractional spin root or nonabelian compensator. Gauge SU5 is reduced
+by a chosen Y Wilson line to connected S(U3 x U2), with actual Z6 kernel.
+The weak embedding and Wilson angle are supplied, normalization unearned.
+All companions and Yukawas retained; no actual zero-mode count yet.
+
+Explicit dual maps pair charged blocks at zero Wilson line. Generic Y
+breaks that literal map, but fixed-domain compact-support Fredholm
+homotopy keeps every complex charged index zero. Smooth compact-core
+field changes at fixed bundle/domain cannot change it either. The
+authored bounded parallel-pair proof enumerates all16 grade patterns,
+keeps a nonproportional stationary pair as an extra-U1 control, and
+reduces exact-SM isolated cases to the paired principal phase. This
+does NOT exclude changed ends/bundles/sources/domains or the architecture.
+
+Report: reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/FINDINGS.md.
+Native2.086249s, reference0.309154s, focused pytest2.84s, regression20.73s.
+DESIGN's eight-packet label corrected in receipts: eight predecessors
+plus new packet, actual nine-file run. Frozen design/source unchanged.
+Fronts, scoped sublemmas, identifications/leads, roadmap and sender relay
+updated. NEXT recover existing operator-class-changing end/source/boundary
+positives and derive same-action admission before assigning chirality.
+Silver's different-parent formal/spectral result remains intact.
+Mainf008c0424 B1612 read as preregistration, SMbc4ea1303 W33 not replayed.
+Nonauthor analytic/full-suite/main-bank and inherited governance debts
+remain. Full parameter-free SM/TOE ACTIVE and unachieved.

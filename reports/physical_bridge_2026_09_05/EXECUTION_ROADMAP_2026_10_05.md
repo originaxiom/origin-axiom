@@ -146,6 +146,22 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    and a bounded test of whether parallelism forces charged pairing.
    The concrete hand proposal is UNEXECUTED; no universal nilpotent or
    architecture kill. Main B1611/SM W33 publications read, not replayed.
+   Stage2N October8 SM-parallel gate EXECUTED at conditional research grade:
+   weave_sm_parallel_2026_10_08/FINDINGS.md.45 native/24 reference/
+   23 focused/152 nine-packet regression PASS unchanged at1f37a33d3.
+   ONE supplied action now carries global stationarity, positive norms,
+   full fermion gap and connected S(U3 x U2). Exact SM gauge phase,
+   not physical chiral matter; embedding/holonomy are still supplied.
+   Authored bounded parallel classification and fixed-domain compact-core
+   index invariance give zero complex charged index. Literal dual map
+   fails at generic Y, but Fredholm homotopy retains the index, not
+   individual kernels. No exclusion of other ends/bundles/sources/domains.
+   NEXT Stage2O: recover existing index-changing asymptotic/source/boundary
+   candidates; identify the exact operator-class change, derive the SAME
+   action's admission and then seal its complete charged-spectrum test.
+   No more compact-core-only chirality search on this fixed domain.
+   Silver formal/spectral positives remain separate and preserved.
+   Outside analytic review, full suite and main-bank acceptance owed.
 3. Cover support: read B1541's published outcome before rerunning it; test
    exact connecting-map rank-change loci on the degree-45 carrier first.
    Generic samples cannot exclude exceptional characteristic-zero classes.

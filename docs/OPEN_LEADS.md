@@ -1,5 +1,37 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October8 SM-parallel update:
+reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/FINDINGS.md.
+45 native/24 reference/23 focused/152 regression PASS unchanged at1f37a33d3.
+Earlier NEXT/UNEXECUTED entries below retain their historical epoch.
+
+- PB-CUSP-SM-PARALLEL: EXECUTED at conditional research grade. A single
+  stationary global SM-gauge phase has finite positive norms, retained
+  interactions and the full fermion essential gap. Weak frame and Wilson
+  line supplied, not genesis-derived. Its charged index is zero.
+- Closing scope, PROOF.md final section: "within this fixed-embedding,
+  fixed-action, old-p, complete-domain PARALLEL ansatz, a nonzero isolated
+  phase with exact SM gauge algebra has zero complex charged index."
+  Authored general proof awaits outside acceptance. NOT all frames,
+  asymptotic profiles, source laws, actions or the whole architecture.
+- PB-CUSP-INDEX-CLASS: smooth compact-core-only changes at fixed metric,
+  bundle/SM blocks/domain preserve that index by graph-compact homotopy.
+  A literal dual map failing is not enough to produce net chirality.
+  Recover existing candidates that change end/topological/domain data;
+  NEXT_TEST supplies gates but no successor computation.
+- PB-SOURCE-JOIN: preserve silver spectral/cyclic formal positives in
+  their own parent. Derive physical boundary/source/normal response,
+  stationarity and full modes without grafting those indices here.
+- PB-CUSP-REVIEW: request nonauthor scrutiny of full SM centralizer,
+  isotypic-projector step, analytic domain/Rellich hypotheses and
+  index-to-Weyl map. Same-author reference checks are not acceptance.
+- PB-CUSP-CHARGED: actual global zero counts, interactions, anomalies
+  and any physical generation interpretation remain separate tests.
+  Mainf008c0424 B1612 read as preregistration, not an executed mixing
+  result; SMbc4ea1303 W33 not replayed. No incoming spectrum adopted.
+- Foundation/phase/scale selection, act/register/lift retention and
+  gravity remain carried obligations. No physical qualia identification.
+
 October8 two-field update: reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/FINDINGS.md.
 33 native/21 reference/15 focused/129 regression PASS at fd870418d.
 No architecture-wide lead closed. Earlier dated entries are historical.

@@ -1,0 +1,302 @@
+{
+  "facts": {
+    "entire_root_system": true,
+    "two_actual_A4_systems": true,
+    "defining_weights_faithful": true,
+    "entire248_branching_including_bars": true,
+    "correct_central_quotient": true,
+    "individual_gauge_SU5_faithful": true,
+    "bundle_center_equals_gauge_Y": true,
+    "full_SM_centralizer_roots": true,
+    "torus_centralizer_has_no_mixed_roots": true,
+    "weak_color_Y_embedding": true,
+    "gauge_five_Y_eigenblocks": true,
+    "actual_SM_root_system": true,
+    "central_holonomy_opposite_control": true,
+    "SM_representation_labels_not_generations": true,
+    "six_distinct_global_kernel_roots": true,
+    "compact_principal_triple": true,
+    "root_chain_matches_cartan": true,
+    "integral_spin_induction_and_old_p": true,
+    "all_vacuum_residuals_zero": true,
+    "wrong_amplitude_fails": true,
+    "finite_positive_norm": true,
+    "entire_sl2_decomposition": true,
+    "SU5_saturates_compact_commutant": true,
+    "all_j_through4_blocks_squared": true,
+    "full_threshold_histogram": true,
+    "full_and_R_populations_distinct": true,
+    "essential_gap_lower_edge": true,
+    "correct_angular_bound_not_old4": true,
+    "five_dual_form_unitary": true,
+    "exterior_dual_form_unitary": true,
+    "dual_descends_through_spin_line": true,
+    "generic_Wilson_literal_J_control_fails": true,
+    "compact_support_representative_closed": true,
+    "cutoff_without_exact_correction_fails": true,
+    "all16_grade_compositions": true,
+    "two_allowed_old_p_grade_patterns": true,
+    "wrong_involution_class_distinguished": true,
+    "nonproportional_middle_stationary_control": true,
+    "middle_trivial_summand_and_extra_U1": true,
+    "arbitrary_middle_two_column_rank_bound": true,
+    "all_edge_commutators_are_adjacent_minors": true,
+    "single_isotypic_type_prime_dimension": true,
+    "principal_edge_norms_forced": true,
+    "actual_SU2_flavor_symmetry": true,
+    "zero_field_flat_end_control": true
+  },
+  "predicates_passed": 45,
+  "root_profile": {
+    "gauge_A4_roots": 20,
+    "bundle_A4_roots": 20,
+    "SM_roots": 8,
+    "SM_dimension": 12,
+    "centralizer_SM_roots": 20,
+    "center_kernel": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ]
+    ]
+  },
+  "spectrum_profile": {
+    "spins": {
+      "0": 24,
+      "1": 11,
+      "2": 21,
+      "3": 11,
+      "4": 1
+    },
+    "full": {
+      "1/4": 35,
+      "5/4": 22,
+      "9/4": 74,
+      "13/4": 42,
+      "21/4": 44,
+      "25/4": 25,
+      "37/4": 4,
+      "41/4": 2
+    },
+    "R": {
+      "5/4": 11,
+      "1/4": 11,
+      "13/4": 21,
+      "9/4": 32,
+      "21/4": 22,
+      "25/4": 12,
+      "37/4": 2,
+      "41/4": 1
+    },
+    "angular_bound": 6,
+    "essential_square_edge": "1/4"
+  },
+  "grade_profile": {
+    "compositions": [
+      {
+        "multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "mean": "2",
+        "integral": true,
+        "negative_eigenvalues": 2
+      },
+      {
+        "multiplicities": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "mean": "9/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "mean": "8/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          1,
+          1,
+          3
+        ],
+        "mean": "7/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "mean": "7/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          1,
+          2,
+          2
+        ],
+        "mean": "6/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          1,
+          3,
+          1
+        ],
+        "mean": "1",
+        "integral": true,
+        "negative_eigenvalues": 2
+      },
+      {
+        "multiplicities": [
+          1,
+          4
+        ],
+        "mean": "4/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "mean": "6/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          2,
+          1,
+          2
+        ],
+        "mean": "1",
+        "integral": true,
+        "negative_eigenvalues": 4
+      },
+      {
+        "multiplicities": [
+          2,
+          2,
+          1
+        ],
+        "mean": "4/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          2,
+          3
+        ],
+        "mean": "3/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          3,
+          1,
+          1
+        ],
+        "mean": "3/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          3,
+          2
+        ],
+        "mean": "2/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          4,
+          1
+        ],
+        "mean": "1/5",
+        "integral": false,
+        "negative_eigenvalues": null
+      },
+      {
+        "multiplicities": [
+          5
+        ],
+        "mean": "0",
+        "integral": true,
+        "negative_eigenvalues": 0
+      }
+    ],
+    "accepted": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        3,
+        1
+      ]
+    ],
+    "old_involution_fixed_dimension": 136,
+    "four_minus_fixed_dimension": 120,
+    "principal_edge_norms": [
+      4,
+      6,
+      6,
+      4
+    ]
+  },
+  "actual_zero_counts_computed": false,
+  "physical_chirality_achieved": false,
+  "genesis_selection_derived": false,
+  "all_parallel_frames_classified": false,
+  "physical_goal_achieved": false,
+  "nonauthor_acceptance": false
+}

@@ -1,0 +1,64 @@
+{
+  "pre_execution_seal": "1f37a33d3d5d0590fc09c7faa0db2d9fb76b90f3",
+  "native": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 2.0862490001600236,
+    "log_bytes": 6304,
+    "log_sha256": "2e7a6025327f1ee82b82fff2277e72ef2e6c8c6c2b6810bd87ea99c73d4bb81a",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/probe.py"
+    ]
+  },
+  "reference": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.309154000133276,
+    "log_bytes": 5170,
+    "log_sha256": "572039470691fc1691c9370a6d7274ad20347769e4a58ecebfae7155571a94ed",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/reference.py"
+    ]
+  },
+  "focused": {
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 3.4914630001876503,
+    "log_bytes": 99,
+    "log_sha256": "1757ba09517343bcddae745df5f6dc0628d6eed79b6930c4e730723070d2eb06",
+    "argv": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_weave_sm_parallel.py"
+    ]
+  },
+  "regression": {
+    "exit_code": 0,
+    "elapsed_seconds": 21.492425000062212,
+    "bytes": 261,
+    "sha256": "334b2fc0a6f926ea068a3d240d66862f9b193cd9736999405aeb6ca009459c92",
+    "output": "........................................................................ [ 47%]\n........................................................................ [ 94%]\n........                                                                 [100%]\n152 passed in 20.73s\n"
+  },
+  "regression_tests": [
+    "tests/test_physical_bridge_weave_puncture_operator.py",
+    "tests/test_physical_bridge_weave_form_parent.py",
+    "tests/test_physical_bridge_weave_companion_roster.py",
+    "tests/test_physical_bridge_weave_curved_action.py",
+    "tests/test_physical_bridge_weave_cusp_condensate.py",
+    "tests/test_physical_bridge_weave_global_condensate.py",
+    "tests/test_physical_bridge_weave_graded_condensate.py",
+    "tests/test_physical_bridge_weave_two_field_gauge.py",
+    "tests/test_physical_bridge_weave_sm_parallel.py"
+  ],
+  "first_scientific_attempts": true,
+  "source_repair": false,
+  "full_suite_run": false,
+  "nonauthor_acceptance": false,
+  "design_regression_label_correction": "DESIGN says eight-packet regression; the executed scope is eight predecessors plus this packet, nine packets and 152 tests. Frozen design unchanged."
+}

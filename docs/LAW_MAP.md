@@ -1,5 +1,25 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October8 SM-parallel conditional research sublemmas. Supplied action,
+embedding/metric/spin/domain; NOT generated physics or accepted main-bank
+laws. PROOF: reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/.
+Live safeguards: tests/test_physical_bridge_weave_sm_parallel.py.
+45 native/24 separate reference/23 focused/152 regression PASS at1f37a33d3.
+Analytic/general arguments below still require nonauthor review.
+
+| Scoped sublemma | Argument and LIVE safeguard |
+|---|---|
+| Regular A4 factors and centre trade act faithfully | Full E8 branching and joint kernel(zeta^j,zeta^(-2j)); bundle centre equals exp(2*pi*i*T/10). test_entire248_includes_correct_conjugates, test_actual_global_quotient_and_centre_trade. Representation labels, not particles |
+| Global stationary principal-spin2 phase supplies old p | Integral w induces spin bundle, all residuals vanish, norm10*pi times positive trace and nonnegative Hessian. test_principal_triple_actual_grading_and_old_p, test_same_action_stationarity_not_just_gauge_labels, test_finite_positive_background_norm; PROOF gives global/domain argument. Compact image SO3, not faithful SU2 |
+| This phase admits faithful connected S(U3 x U2) | Complete triple commutant SU5; explicit Y flat holonomy gives3+2 blocks and six-element kernel. test_SM_global_form_and_opposite_Wilson_control, test_entire_sl2_content_and_commutant_saturation. Weak frame/angle supplied; B862/R93 credited, normalization not derived |
+| Full coupled fermion essential square starts at1/4 | Every j<=4 block, 248 singular channels and angular bound6; complete-domain compact-core argument in PROOF. test_complete_operator_blocks_through_spin_four, test_complete_threshold_and_R_populations, test_new_angular_bound_replaces_old_bound. No discrete multiplicity or physical mass prediction |
+| Charged index stays zero through flat Y holonomy | Explicit unitary dual forms at C=0; literal J fails at generic C, compact-support graph-compact homotopy replaces it. test_five_dual_form_and_spin_descent, test_exterior_dual_form_in_actual_ten, test_Wilson_map_failure_and_closed_compact_representative plus PROOF analytic argument. Individual kernels may jump |
+| Smooth compact-core field changes preserve this index class | PROOF fixed metric/bundle/SM blocks/domain, bounded zeroth-order change, local elliptic/Rellich compactness and Fredholm parametrix. Authored analytic corollary, NOT finite-test certified; excludes changed ends, bundles, sources and domains |
+| Fixed-embedding parallel exact-SM isolated phases have zero complex charged index | Full SM centralizer, isotypic projectors, all16 grade compositions, positive Gram-range reduction and actual SU2 flavor symmetry. test_exhaustive_grade_patterns_not_sampling, test_wrong_order_two_class_is_not_old_p, test_nonproportional_pair_is_kept_with_extra_U1, test_edge_commutation_and_moment_equations, test_flavor_rotation_preserves_W_not_just_norms, test_single_type_cases_and_gapless_zero_field_control plus PROOF. Fixed action/old p/parallel ansatz only, no whole-architecture exclusion |
+
+The preceding SM-parallel NEXT_TEST has now been executed in this separately
+sealed packet. New NEXT_TEST is a research plan, not a result.
+
 October8 two-field conditional sublemmas. Same supplied action, one
 explicit completion, not generated physics or shared main-bank laws.
 PROOF and live tests: reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/ and

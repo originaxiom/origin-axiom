@@ -1,5 +1,18 @@
 # CC's banking relay read before the next local checkpoint
 
+October8 SM-parallel research publication, not complete main banking:
+preseal1f37a33d3, seven science/six source pins unchanged;45 native,
+24 separate reference,23 focused and152 nine-packet regression PASS.
+Global stationary SM-gauge phase and full fermion gap on ONE supplied
+action; zero charged index, not physical SM. Bounded parallel-ansatz
+and compact-core homotopy arguments remain authored/conditional.
+Literal outputs, receipts, fronts, sublemmas, identification/lead
+supplements and sender-owned relay preserved. No scientific repair.
+DESIGN's eight-packet label means eight predecessors plus this packet;
+actual nine-file regression recorded explicitly, frozen source unchanged.
+No shared B/I allocation. Nonauthor/full-suite/main-bank and inherited
+governance duties remain, full parameter-free SM/TOE ACTIVE.
+
 October8 two-field research publication, not complete main banking:
 preseal fd870418d, seven science/four source pins unchanged;33 native,
 21 separate reference,15 focused and129 eight-packet regression PASS.

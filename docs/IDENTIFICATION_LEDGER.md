@@ -250,3 +250,19 @@ No shared I-number or physical identification is reassigned.
 
 Report: reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/FINDINGS.md.
 Locks: tests/test_physical_bridge_weave_two_field_gauge.py.
+
+### SM parallel phase October 8 path-local supplement
+
+No shared I-number or existing physical status is reassigned.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Regular bundle/gauge SU5 factors and E8 | Full projected weight decomposition with joint centre kernel(zeta^j,zeta^(-2j)) | Entire240-root phases and Cartan; faithful adjoint, each separate factor faithful | Conditional internal embedding, not generated E8 or matter multiplicity |
+| Principal spin-two bundle and old peripheral p | Integral w=(0,0,0,-1,1,-2,0,2), A=s w, exp(i*pi*w)=exp(i*pi*v) | Root chain, cocharacters, spin transitions and all vacuum residuals | Global SO3-induced phase in supplied action/metric, not observer-selected physics |
+| Remaining gauge generators and connected SM group | Gauge SU5 five splits3+2 under exp(2*pi*i*T/7); explicit S(U3 x U2) homomorphism/kernel | Full commutant saturated, eight roots/four Cartans, Z6 kernel, central-holonomy opposite control | Supplied NEW weak root and Wilson angle; Y=T/12 conventional, no I-23 normalization discharge; B862/R93 credited |
+| Gauge bundle-centre twist and Y holonomy | exp(2*pi*i*c_b)=exp(2*pi*i*T/10) | Every E8 root phase and faithful adjoint | Includes these discrete twists in the flat Y homotopy, not all bundles |
+| Charged operator and net complex Weyl index | Complete same-action mass block M_R, index dim ker M_R minus dim ker adjoint | J5 and exterior J10 at zero Wilson line; literal J fails generically, replaced by fixed-domain graph-compact homotopy | Authored conditional physical-operator dictionary and zero index; actual zero counts uncomputed, no physical chirality |
+
+Report: reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/FINDINGS.md.
+Locks: tests/test_physical_bridge_weave_sm_parallel.py. Outside analytic
+acceptance and the genesis-to-physical-parent map remain owed.

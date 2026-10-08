@@ -1,5 +1,23 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October8 SM-parallel research checkpoint:45 native/24 separate reference/
+23 focused and152 nine-packet regression PASS unchanged at pushed pre-run
+1f37a33d3. ONE supplied curved E8 action now admits a GLOBAL stationary
+SM-gauge phase with positive norms, retained interactions and full fermion
+essential gap1/2 in supplied units. Connected group S(U3 x U2); weak
+embedding/Wilson choice remain supplied. Actual zero-mode counts uncomputed.
+Report: reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/FINDINGS.md.
+Authored fixed-embedding/old-p/complete-domain PARALLEL classification gives
+zero complex charged index; outside analytic acceptance remains owed.
+Generic Y holonomy breaks the literal dual map, but compact-support
+Fredholm homotopy preserves index. Smooth compact-core-only deformations
+on the same bundle/domain also cannot change it. This is NOT a kill of
+other asymptotic classes, physical sources/domains or the full architecture.
+NEXT recover existing index-changing end/source/boundary candidates and
+derive their same-action admission; see NEXT_TEST, not an executed result.
+Earlier NEXT entries below are historical. Full SM/TOE ACTIVE/unachieved;
+nonauthor/full-suite/main-bank and inherited governance duties remain.
+
 October8 two-field research checkpoint:33 native/21 separate exact
 reference/15 focused and129 eight-packet regression PASS unchanged at
 pushed pre-run fd870418d. Both spin fields now have an explicit GLOBAL
