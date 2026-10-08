@@ -2373,3 +2373,21 @@ weave_graded_condensate_2026_10_08/FINDINGS.md. Global stationary
 same-action E6 phase with full essential fermion gap; explicit charged
 dual map still gives pairing. Not chiral SM, selected parent or outside
 acceptance. Nonauthor/full-suite/main-bank duties remain.
+
+
+## Two field gauge pre execution seal 2026 10 08
+
+Seven science files UNEXECUTED; four prior source pins. Same-action
+stationarity, cubic spin lift, actual central quotient and full G2
+centralizer predicted. One explicit compensator, not all completions.
+Commit/push/server confirmation required before scientific execution.
+
+| File | SHA256 |
+|---|---|
+| weave_two_field_gauge_2026_10_08/DESIGN.md | 00b50142d1f8d30054dd2e383bcd2a6f07213c7b0dbfd2aa562db8fd5d759a64 |
+| weave_two_field_gauge_2026_10_08/PROOF.md | 6fde4ee72a8e041c2c70af31a36e56b9c78c31feffe1b8cc485ffdd1e184d7f5 |
+| weave_two_field_gauge_2026_10_08/INPUTS.json | 983a6d8e6180bc5f865d4d91ae6b241e92273961188f64513ad58d6b23f69cb2 |
+| weave_two_field_gauge_2026_10_08/probe.py | eb7e9c3f8402c968ffdac87fdb1aede5e722fd590a2b40e610412c04077056a2 |
+| weave_two_field_gauge_2026_10_08/reference.py | b766854ee25354b327b6c0862050c2041d0d295f8eb087005ab7db20fb8a6241 |
+| weave_two_field_gauge_2026_10_08/custody.rb | 9db8af791e40eaeffa54f4ca4997b47c818f5b135192018b295ae08b05128067 |
+| tests/test_physical_bridge_weave_two_field_gauge.py | dd99a699ce444ef0263b8f24b3fe42b6e30e5add93543b807b5450647e7d2931 |

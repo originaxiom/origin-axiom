@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "ref": "7b48bdcf7a5d64974a1de917063712e12a2472a8",
+      "bytes": 13228,
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/PROOF.md",
+      "ref": "7b48bdcf7a5d64974a1de917063712e12a2472a8",
+      "bytes": 10162,
+      "sha256": "05a4f2423a6ba030d8f041c0a3236c32117f1ee78b69feb2cc71ce5050b03e55"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "ref": "7b48bdcf7a5d64974a1de917063712e12a2472a8",
+      "bytes": 11363,
+      "sha256": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/NEXT_TEST.md",
+      "ref": "7b48bdcf7a5d64974a1de917063712e12a2472a8",
+      "bytes": 4373,
+      "sha256": "3d09e873a5e120f3c6163d39c72a6dbc71cdbee38a9fce855a398a31ef7eabc3"
+    }
+  ],
+  "focused_expected_tests": 15,
+  "comparison_profiles": [
+    "root_profile",
+    "gauge_profile",
+    "phase_profile"
+  ],
+  "unearned_flags": [
+    "physical_chirality_achieved",
+    "fermion_gap_computed",
+    "genesis_selection_derived",
+    "all_compensators_classified",
+    "physical_goal_achieved",
+    "nonauthor_acceptance"
+  ],
+  "intake": {
+    "main": "a8686bea7",
+    "sm": "bc4ea1303",
+    "own": "7b48bdcf7a5d64974a1de917063712e12a2472a8",
+    "incoming_grade": "W29/W30 source and B1611/W33 reports read; incoming computations not replayed"
+  }
+}

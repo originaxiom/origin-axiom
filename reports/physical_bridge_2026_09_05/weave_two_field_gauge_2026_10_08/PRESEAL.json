@@ -1,0 +1,42 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/DESIGN.md",
+      "bytes": 5623,
+      "sha256": "00b50142d1f8d30054dd2e383bcd2a6f07213c7b0dbfd2aa562db8fd5d759a64"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/PROOF.md",
+      "bytes": 7353,
+      "sha256": "6fde4ee72a8e041c2c70af31a36e56b9c78c31feffe1b8cc485ffdd1e184d7f5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/INPUTS.json",
+      "bytes": 1669,
+      "sha256": "983a6d8e6180bc5f865d4d91ae6b241e92273961188f64513ad58d6b23f69cb2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/probe.py",
+      "bytes": 9566,
+      "sha256": "eb7e9c3f8402c968ffdac87fdb1aede5e722fd590a2b40e610412c04077056a2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/reference.py",
+      "bytes": 7697,
+      "sha256": "b766854ee25354b327b6c0862050c2041d0d295f8eb087005ab7db20fb8a6241"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/custody.rb",
+      "bytes": 4743,
+      "sha256": "9db8af791e40eaeffa54f4ca4997b47c818f5b135192018b295ae08b05128067"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_two_field_gauge.py",
+      "bytes": 3614,
+      "sha256": "dd99a699ce444ef0263b8f24b3fe42b6e30e5add93543b807b5450647e7d2931"
+    }
+  ],
+  "status": "PRE-EXECUTION; all scientific sources frozen before execution/import/collection",
+  "prior": "Stationary global two-field completion expected; chosen compensator expected to leave G2, not SM",
+  "source_ref": "7b48bdcf7a5d64974a1de917063712e12a2472a8"
+}
