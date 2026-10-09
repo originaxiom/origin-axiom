@@ -1,0 +1,1 @@
+ddcc3b8f748bc4f2f1df14c8c971fe8a082ad140481dd927fc52ba6d0421cfc6  verification/weave_word_coupling.py
