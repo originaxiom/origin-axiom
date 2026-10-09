@@ -1,5 +1,21 @@
 # Changelog
 
+## The weave's W46: every end condition the weave keeps on its own surface gives n times the fibre's index; relay section 48
+
+- **W46** (the rule 253b14e96 first; one run; every cell as predicted, under both overall lift signs):
+  - W28's four puncture conditions enter along the puncture section at weight 1, through the six local solutions'
+    modular representation (W24's blocks_action with the same lifts as T); the braid relation holds on both for the
+    same two sign pairs;
+  - the puncture's exact sequence fits: the six's exponents are the union of the two triplets', and the central scalars
+    agree, so the weights 3/2, 1 and ½ are forced and W45's two representations are the two extreme conditions;
+  - every χ is 0 and every space is zero by q-expansions, W45's spaces included under the other base spin structure;
+  - the four-dimensional index is n times the fibre's index (±3, ±1), n the cusp's uniform units.
+- **What it shows (given Λ):** no end condition the weave keeps gives a chiral count on its own surface. The record's
+  ±3 becomes four-dimensional only with one unit of end data at the cusp, so GENESIS FK11's earning condition there is
+  GENESIS FK10's question at the cusp.
+- **Relay §48** to main. **Surfaces.** The rule, the script and its JSON, the dossier (W46, a row, the header, the
+  files), the W46 test, the regeneration list, the state page, the relay and the ledger.
+
 ## The weave's W45: the triplet's index on the weave's own surface is zero for both hands, given Λ; relay sections 46 and 47
 
 - **W45** (the rule 6a8ac3640 first; one run; fixes made in review before it, disclosed):

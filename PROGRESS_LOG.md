@@ -18457,3 +18457,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   could not fail, and two checks that could pass with nothing kept.
 - **Post hoc:** only end data at the cusp moves the index, by 3n for n units on every component (GENESIS FK10).
 - **Relay §47 sent;** ledger rows for main's S102 and the audit lane's new relay added.
+
+## 2026-10-09 — W46: every end condition the weave keeps on its own surface; relay §48
+
+- **W46 ran once, after its rule.** Given Λ, for W28's four puncture conditions and the cusp's uniform units, the
+  four-dimensional index is n times the fibre's index, and with the natural cusp condition there is no zero mode at
+  all, under both base spin structures. Every cell held as predicted.
+- **The puncture's exact sequence was checked:** W45's two representations are the two extreme puncture conditions.
+- **So the record's ±3 becomes four-dimensional only with one unit of end data at the cusp** (GENESIS FK10). Relay §48
+  sent.

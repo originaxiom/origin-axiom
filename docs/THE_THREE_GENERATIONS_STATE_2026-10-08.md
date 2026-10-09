@@ -70,6 +70,10 @@ Under the owner's rulings, the table's rows split into two groups:
   - On the weave's own surface (W19's M₁,₂), given Λ, the triplet's four-dimensional Dirac index at the weight the
     geometry forces is 0 for both hands, with no zero modes at all: NEGATIVE in the canonical reading (W45). Post hoc:
     one unit of end data at the cusp on every component would add 3, and nothing forces it (GENESIS FK10).
+  - Every end condition the weave keeps on that surface, at the puncture (W28's four) and at the cusp, gives a
+    four-dimensional index of n times the fibre's index, n the cusp's units; with the natural cusp condition there is
+    no zero mode at all: NEGATIVE (W46). The record's ±3 is the fibre's count; it becomes four-dimensional only with
+    one unit of end data at the cusp (GENESIS FK10).
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -194,6 +198,14 @@ Under the owner's rulings, the table's rows split into two groups:
     index is 0 for both hands, and every space is zero by a second route. Three first appears at weight 23/2.
   - So, in its canonical reading, the weave's own surface does not earn GENESIS FK11. Post hoc: the index moves only
     with end data at the cusp, and n units on every component give 3n (GENESIS FK10).
+- **W46, every end condition the weave keeps on its own surface (given Λ):**
+  - W28's four puncture conditions enter along the puncture section at weight 1, through the six local solutions'
+    modular representation, built from the same lifts as T. The puncture's exact sequence fixes the weights 3/2, 1 and
+    ½, so W45's two representations are the two extreme puncture conditions.
+  - Every χ is 0 and every space is zero, under both base spin structures. The four-dimensional index is n times the
+    fibre's index (±3 or ±1), n the cusp's units.
+  - So GENESIS FK11's earning condition on the weave's surface is GENESIS FK10's question at the cusp: is one unit of
+    end data forced there? Nothing in the record supplies it.
 
 ## Questions open with main
 
@@ -205,7 +217,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W45 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W46 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§47).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§48).

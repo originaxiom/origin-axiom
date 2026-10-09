@@ -1,0 +1,421 @@
+{
+ "status": "W46: the four-dimensional index for every end condition the weave keeps (the rule first)",
+ "the lift sign pairs: [braid relation on T, on the six]": {
+  "L +1, R +1": [
+   true,
+   true
+  ],
+  "L +1, R -1": [
+   false,
+   false
+  ],
+  "L -1, R +1": [
+   false,
+   false
+  ],
+  "L -1, R -1": [
+   true,
+   true
+  ]
+ },
+ "the lift pairs W21 keeps (lift_choices)": 2,
+ "the calibration": {
+  "eta^2: chi_1": 1.0,
+  "eta^2: M_1": [
+   1,
+   [
+    5.068069319560197e-07,
+    1.0494030714146074e-16
+   ]
+  ]
+ },
+ "the record's lifts": {
+  "H1: structure": {
+   "the braid relation on T": true,
+   "the braid relation on the six": true,
+   "rho6(S)^2 = -I": true,
+   "S~^4 on the six is I": true,
+   "S~^4 on T is -I": true,
+   "V2 and V4 are invariant under the lifts": true,
+   "tr rho(S): V2, V4": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "tr rho(ST): V2, V4": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     -1.0,
+     0.0
+    ]
+   ],
+   "exponents: T, T-bar, six, V2, V4": [
+    [
+     0.125,
+     0.375,
+     0.875
+    ],
+    [
+     0.125,
+     0.625,
+     0.875
+    ],
+    [
+     0.125,
+     0.125,
+     0.375,
+     0.625,
+     0.875,
+     0.875
+    ],
+    [
+     0.125,
+     0.875
+    ],
+    [
+     0.125,
+     0.375,
+     0.625,
+     0.875
+    ]
+   ],
+   "rho(S)^2 as a scalar: T, six, T-bar": [
+    [
+     -0.0,
+     1.0
+    ],
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     -0.0,
+     -1.0
+    ]
+   ],
+   "the six's exponents are the union of T's and T-bar's": true,
+   "the central scalars on the exact sequence (weights 0, -1/2, -1)": [
+    [
+     -0.0,
+     1.0
+    ],
+    [
+     -0.0,
+     1.0
+    ],
+    [
+     0.0,
+     1.0
+    ]
+   ],
+   "the central scalars agree": true,
+   "the twisted weights 3/2, 1, 1/2 are allowed": [
+    true,
+    true,
+    true
+   ]
+  },
+  "H2/H3: the formula": {
+   "chi_1(V2)": 0.0,
+   "chi_1(V4)": 0.0,
+   "chi_1(six)": 0.0,
+   "chi_3/2(T)": 0.0,
+   "chi_1/2(T-bar)": 0.0
+  },
+  "H4: the second route (null count, gap)": {
+   "V2: M_1": [
+    0,
+    [
+     2.746217151540607e-07,
+     null
+    ]
+   ],
+   "V2: S_1 of the dual": [
+    0,
+    [
+     2.746217151533943e-07,
+     null
+    ]
+   ],
+   "V4: M_1": [
+    0,
+    [
+     1.455770490971233e-07,
+     null
+    ]
+   ],
+   "V4: S_1 of the dual": [
+    0,
+    [
+     1.4557704909509438e-07,
+     null
+    ]
+   ],
+   "six: M_1": [
+    0,
+    [
+     1.4004838136880076e-07,
+     null
+    ]
+   ],
+   "six: S_1 of the dual": [
+    0,
+    [
+     1.4004838136897434e-07,
+     null
+    ]
+   ]
+  },
+  "H5: the four-dimensional index, by condition and cusp units n": {
+   "0": {
+    "-1": 3.0,
+    "0": -0.0,
+    "1": -3.0
+   },
+   "V2": {
+    "-1": 1.0,
+    "0": -0.0,
+    "1": -1.0
+   },
+   "V4": {
+    "-1": -1.0,
+    "0": -0.0,
+    "1": 1.0
+   },
+   "L6": {
+    "-1": -3.0,
+    "0": -0.0,
+    "1": 3.0
+   },
+   "L6 by its H0 (chi_{1/2 + 12n}(T-bar))": {
+    "-1": -3.0,
+    "0": 0.0,
+    "1": 3.0
+   }
+  }
+ },
+ "the other overall sign": {
+  "H1: structure": {
+   "the braid relation on T": true,
+   "the braid relation on the six": true,
+   "rho6(S)^2 = -I": true,
+   "S~^4 on the six is I": true,
+   "S~^4 on T is -I": true,
+   "V2 and V4 are invariant under the lifts": true,
+   "tr rho(S): V2, V4": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "tr rho(ST): V2, V4": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     -1.0,
+     0.0
+    ]
+   ],
+   "exponents: T, T-bar, six, V2, V4": [
+    [
+     0.375,
+     0.625,
+     0.875
+    ],
+    [
+     0.125,
+     0.375,
+     0.625
+    ],
+    [
+     0.125,
+     0.375,
+     0.375,
+     0.625,
+     0.625,
+     0.875
+    ],
+    [
+     0.375,
+     0.625
+    ],
+    [
+     0.125,
+     0.375,
+     0.625,
+     0.875
+    ]
+   ],
+   "rho(S)^2 as a scalar: T, six, T-bar": [
+    [
+     -0.0,
+     1.0
+    ],
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     -0.0,
+     -1.0
+    ]
+   ],
+   "the six's exponents are the union of T's and T-bar's": true,
+   "the central scalars on the exact sequence (weights 0, -1/2, -1)": [
+    [
+     -0.0,
+     1.0
+    ],
+    [
+     -0.0,
+     1.0
+    ],
+    [
+     0.0,
+     1.0
+    ]
+   ],
+   "the central scalars agree": true,
+   "the twisted weights 3/2, 1, 1/2 are allowed": [
+    true,
+    true,
+    true
+   ]
+  },
+  "H2/H3: the formula": {
+   "chi_1(V2)": 0.0,
+   "chi_1(V4)": 0.0,
+   "chi_1(six)": 0.0,
+   "chi_3/2(T)": 0.0,
+   "chi_1/2(T-bar)": -0.0
+  },
+  "H4: the second route (null count, gap)": {
+   "V2: M_1": [
+    0,
+    [
+     3.098689467676748e-07,
+     null
+    ]
+   ],
+   "V2: S_1 of the dual": [
+    0,
+    [
+     3.0986894676920687e-07,
+     null
+    ]
+   ],
+   "V4: M_1": [
+    0,
+    [
+     1.455770490952753e-07,
+     null
+    ]
+   ],
+   "V4: S_1 of the dual": [
+    0,
+    [
+     1.4557704909506637e-07,
+     null
+    ]
+   ],
+   "six: M_1": [
+    0,
+    [
+     1.455770490971422e-07,
+     null
+    ]
+   ],
+   "six: S_1 of the dual": [
+    0,
+    [
+     1.4557704908376113e-07,
+     null
+    ]
+   ],
+   "T: M_3/2": [
+    0,
+    [
+     1.9494265741191996e-07,
+     null
+    ]
+   ],
+   "T: S_1/2 of the dual": [
+    0,
+    [
+     1.6843752230685643e-07,
+     null
+    ]
+   ],
+   "T-bar: M_1/2": [
+    0,
+    [
+     1.6843752230602067e-07,
+     null
+    ]
+   ],
+   "T-bar: S_3/2 of the dual": [
+    0,
+    [
+     1.9494265741403074e-07,
+     null
+    ]
+   ]
+  },
+  "H5: the four-dimensional index, by condition and cusp units n": {
+   "0": {
+    "-1": 3.0,
+    "0": 0.0,
+    "1": -3.0
+   },
+   "V2": {
+    "-1": 1.0,
+    "0": 0.0,
+    "1": -1.0
+   },
+   "V4": {
+    "-1": -1.0,
+    "0": 0.0,
+    "1": 1.0
+   },
+   "L6": {
+    "-1": -3.0,
+    "0": 0.0,
+    "1": 3.0
+   },
+   "L6 by its H0 (chi_{1/2 + 12n}(T-bar))": {
+    "-1": -3.0,
+    "0": -0.0,
+    "1": 3.0
+   }
+  }
+ },
+ "checks": {
+  "H1: the braid relation holds on T and on the six for exactly the same two of the four sign pairs": true,
+  "H1: rho6(S)^2 = -I; S~^4 is I on the six and -I on T": true,
+  "H1: V2 and V4 invariant; tr rho(S) = 0, 0; tr rho(ST) = 1, -1": true,
+  "H1: the exponents of V2 and V4 are {1/8, 7/8} and {1/8, 3/8, 5/8, 7/8}": true,
+  "H1: the six's exponents are the union of T's and T-bar's (the lifts as built)": true,
+  "H1: the central scalars fit the exact sequence, and the twisted weights 3/2, 1, 1/2 are allowed": true,
+  "H2: chi_1(V2) = chi_1(V4) = 0 and chi_1(six) = chi_3/2(T) + chi_1/2(T-bar) = 0": true,
+  "H2: the calibration eta^2 at weight 1 gives 1": true,
+  "H3: under the other overall sign the braid relation holds and every chi is 0, W45's included": true,
+  "H4: eta^2 has dimension 1": true,
+  "H4: every space of the second route is zero, under both signs": true,
+  "H5: the index is n(|Lambda+| - 3) for every condition and n in {-1, 0, 1}, under both signs": true
+ },
+ "every check holds": true
+}

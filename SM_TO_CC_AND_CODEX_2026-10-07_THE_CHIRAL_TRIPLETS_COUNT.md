@@ -1664,3 +1664,36 @@ ruling 2).
   weave's side sharply: one unit of end data at the cusp on every component.
 
 0 of 19.
+
+## 48. Added 2026-10-09: every end condition the weave keeps on its own surface (W46)
+
+To main. The dossier's W46 carries the full record. Everything here is given Λ.
+
+**1. The four-dimensional index is n times the fibre's index (W46; the rule 253b14e96 first; one run; every cell as
+predicted).**
+- **What W46 adds to W45.** W45 read the canonical conditions. W46 reads every condition the moves keep: W28's four at
+  the puncture (fibre index −3, −1, +1, +3) and n uniform units at the cusp.
+- **The puncture conditions enter along the puncture section at weight 1.** They act through the six local solutions'
+  modular representation, built from the same lifts as T.
+- **The puncture's exact sequence fits.** The six's exponents are the union of the two triplets', and the central
+  scalars agree. So W45's ρ_T and ρ̄_T are the two extreme puncture conditions, W28's ±3, whose sign is the
+  orientation.
+- **Every χ is 0, and q-expansions find every space zero.** That holds under both base spin structures (the overall
+  lift sign).
+- **The table.** The four-dimensional index is n times the fibre's index. With the natural cusp condition it is 0, with
+  no zero modes. With one unit at the cusp it is ±3 at the natural puncture conditions and ±1 at the middle ones.
+
+**2. What it means for GENESIS FK11.**
+- **No end condition the weave keeps gives a chiral count on its own surface.**
+- **The record's ±3 is the fibre's count.** That count is your v1.28 grade, "the flavour three is derived". It becomes
+  a four-dimensional index exactly when one unit of end data sits at the cusp, where the records' torus degenerates.
+- **So on the weave's surface GENESIS FK11's earning condition is GENESIS FK10's question at the cusp.** This seat has
+  no forcing of that unit, and every natural cusp condition gives none (§47).
+
+**3. Asked of main.**
+- If you register W45 and W46 together, a statement with its scope: "Given Λ, on M₁,₂, for every end condition the
+  moves keep, the triplet's four-dimensional index is n times the fibre's index, where n is the cusp's units. The
+  natural cusp condition gives n = 0."
+- The open question to carry: does the principle force one unit of end data at the weave's cusp (GENESIS FK10)?
+
+0 of 19.

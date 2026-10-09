@@ -951,6 +951,41 @@ def test_w45_the_index_on_the_weaves_surface():
     assert abs(chi(Fraction(23, 2), np.exp(1j * np.pi / 4), 0, (1 / 8, 3 / 8, 7 / 8)) - 3) < 1e-9
 
 
+def test_w46_the_end_conditions_on_the_weaves_surface():
+    """W46 (the rule committed first; one run; every cell as predicted): given Lambda, for every end condition the weave
+    keeps on its own surface (W28's four at the puncture; n uniform units at the cusp) the four-dimensional index is n
+    times the fibre's index, and every space is zero at n = 0, under both base spin structures. In process: the six
+    local solutions' monodromy from W24's blocks_action with the record's lifts (rho6(S)^2 = -I; exponents the union of
+    the two triplets'), and chi_1 = 0 on V2 and V4 from the formula"""
+    import sys
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_end_conditions_on_the_weaves_surface.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True and all(d["checks"].values())
+    want = {"0": -3, "V2": -1, "V4": 1, "L6": 3}
+    for lab in ("the record's lifts", "the other overall sign"):
+        r = d[lab]
+        tab = r["H5: the four-dimensional index, by condition and cusp units n"]
+        for name, f in want.items():
+            assert [tab[name][k] for k in ("-1", "0", "1")] == [-f, 0.0, f]
+        assert all(v[0] == 0 for v in r["H4: the second route (null count, gap)"].values())
+    sys.path.insert(0, str(here))
+    import the_mixing_patterns_verified as MV
+    import the_six_dimensional_census as SC
+    (_, gL, gR) = MV.H.lift_choices()[0]
+    aL, aR = SC.blocks_action(MV.CP.AUT["L"], gL), SC.blocks_action(MV.CP.AUT["R"], gR)
+    S6 = np.linalg.inv(aL @ np.linalg.inv(aR) @ aL)
+    assert np.allclose(S6 @ S6, -np.eye(6), atol=1e-9)
+    lam = sorted(round(float(np.angle(z) / (2 * np.pi)) % 1.0, 9) for z in np.linalg.eigvals(aL))
+    assert lam == [0.125, 0.125, 0.375, 0.625, 0.875, 0.875]
+    st = d["the record's lifts"]["H1: structure"]
+    for i, (trS, trST) in enumerate(zip(st["tr rho(S): V2, V4"], st["tr rho(ST): V2, V4"])):
+        ex = st["exponents: T, T-bar, six, V2, V4"][3 + i]
+        chi1 = (0.25 * (1j * complex(*trS)).real + 2 / (3 * np.sqrt(3)) * (1j * complex(*trST)).real
+                + len(ex) / 2 - sum(ex))
+        assert abs(chi1) < 1e-9
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

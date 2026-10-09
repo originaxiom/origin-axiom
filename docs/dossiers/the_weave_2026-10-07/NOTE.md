@@ -39,6 +39,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W45 (given Λ): on the weave's own surface the triplet's four-dimensional Dirac index is 0 for both hands at the
   weight the geometry forces, with no zero modes at all; T lives on the metaplectic cover. Post hoc: only end data at
   the cusp moves the index, by 3n for n units on every component.
+- W46 (given Λ): for every end condition the weave keeps on its own surface, the four-dimensional index is n times the
+  fibre's index, n the cusp's units; with the natural cusp condition there is no zero mode at all. The record's ±3
+  becomes four-dimensional only with one unit of end data at the cusp (GENESIS FK10).
 
 ## The setting
 
@@ -2932,6 +2935,82 @@ confirmed and extended to both frames, and two of its fit grades are corrected. 
 line of the rule's reading was loose and is recorded with its sharp value; the end-data reading is post hoc. In its
 canonical reading the weave's own surface does not earn GENESIS FK11, which stays open. 0 of 19.
 
+## W46. Every end condition the weave keeps on its own surface: the four-dimensional index is n times the fibre's index (`the_end_conditions_on_the_weaves_surface.py`; `W46_RULE.md`)
+
+**Why.**
+- W45 read the weave's own surface with the canonical conditions at its two ends, given Λ, and found index 0 with no
+  zero modes. Two ends remained to be read in full.
+  - The puncture section: W22 and W28 give the six local solutions and four conditions the moves keep, with fibre
+    index −3, −1, +1 and +3.
+  - The cusp: W45's post-hoc reading gives units of end data there.
+- The rule (`W46_RULE.md`, 253b14e96) was committed before the code. It reads all four puncture conditions and the
+  cusp's uniform units, so it reads every end condition the weave keeps on its own surface.
+- Weave-type: one surface, every move at once, and every condition the moves keep, none chosen.
+
+**The object (the rule's READING, by hand).**
+- A puncture condition is a subspace Λ₊ of the six local solutions L₆ that the moves keep: 0, V2, V4 or L₆ (W28 E2).
+  𝕎 gets exponent −½ along the puncture section P on Λ₊, and +½ elsewhere.
+- Along P the two extensions differ by Λ₊ ⊗ λ^{−1/2}. With K_Y^{1/2}|_P = λ^{3/2} that has weight 1. So the index for
+  Λ₊ is W45's plus χ₁ of the moves' action on Λ₊.
+- The six are a pushforward (W24's blocks_action) and T a pullback (W21's on_V), from the same lifts. So their
+  monodromies are blocks_action and the inverse of on_V, with σ₁ = L, σ₂ = R⁻¹, S = S̃⁻¹ and T = L, as in W45.
+- At the puncture: 0 → H⁰(all allowed) ⊗ λ⁻¹ → L₆ ⊗ λ^{−1/2} → H¹(canonical) → 0.
+- n uniform units at the cusp add n times the fibre's index.
+
+**The result (COMPUTED; H1 to H5 as predicted, under both overall lift signs).**
+- **H1, the structure.**
+  - The braid relation holds on T and on the six for exactly the same two of the four sign pairs: the record's lifts,
+    and both negated.
+  - ρ₆(S)² = −I, and S̃⁴ is I on the six, while on T it is −I.
+  - V2 and V4 are invariant. tr ρ(S) = 0 on both, and tr ρ(ST) = 1 on V2 and −1 on V4.
+  - The exponents with the record's lifts:
+
+| | T | T̄ | the six | V2 | V4 |
+|---|---|---|---|---|---|
+| the record's lifts | ⅛, ⅜, ⅞ | ⅛, ⅝, ⅞ | ⅛, ⅛, ⅜, ⅝, ⅞, ⅞ | ⅛, ⅞ | ⅛, ⅜, ⅝, ⅞ |
+| both negated | ⅜, ⅝, ⅞ | ⅛, ⅜, ⅝ | ⅛, ⅜, ⅜, ⅝, ⅝, ⅞ | ⅜, ⅝ | ⅛, ⅜, ⅝, ⅞ |
+
+  - Under both signs the six's exponents are the union of T's and T̄'s.
+  - The central scalars fit the exact sequence. ρ(S)² e^{iπw} is i for T at w = 0, for the six at w = −½ and for T̄ at
+    w = −1. So the twisted weights are forced: 3/2, 1 and ½.
+  - So W45's two representations are the two extreme puncture conditions, W28's ±3, whose sign is the orientation.
+    ρ_T is the canonical condition's H¹, and ρ̄_T is the all-allowed condition's H⁰.
+- **H2, the formula.** χ₁(V2) = χ₁(V4) = χ₁(six) = 0, and χ_{3/2}(ρ_T) = χ_{1/2}(ρ̄_T) = 0. The calibration η² at
+  weight 1 gives 1.
+- **H3, the other overall sign.** That sign is the base direction's other square root, v_η¹². The braid relation holds,
+  and every χ is 0 again, W45's included.
+- **H4, the second route** (q-expansions, W45's method). M₁ and the dual S₁ are zero for V2, V4 and the six under both
+  signs. Under the other sign W45's four spaces are zero too. η² has dimension 1, with a gap of 5.1 × 10⁻⁷ against
+  1.0 × 10⁻¹⁶. Every zero count's smallest singular value lies between 1.4 × 10⁻⁷ and 3.1 × 10⁻⁷.
+- **H5, the table.** The four-dimensional index for each puncture condition and n uniform units at the cusp. It is the
+  same under both signs, and the L₆ row equals its H⁰ form, χ_{1/2+12n}(ρ̄_T).
+
+| puncture condition | fibre index | n = −1 | n = 0 | n = +1 |
+|---|---|---|---|---|
+| 0 (canonical) | −3 | +3 | 0 | −3 |
+| V2 | −1 | +1 | 0 | −1 |
+| V4 | +1 | −1 | 0 | +1 |
+| L₆ (all allowed) | +3 | −3 | 0 | +3 |
+
+- Post hoc, from the stored output: the dual pairs have equal smallest singular values to nine digits. For example,
+  M_{3/2}(ρ_T) and S_{3/2} of ρ̄_T's dual agree under the other sign.
+
+**What it shows (given Λ).**
+- **The four-dimensional index is n times the fibre's index** for every end condition the moves keep at the puncture
+  and every uniform condition at the cusp. With the natural cusp condition, n = 0, there is no zero mode at all, for
+  every puncture condition and either base spin structure.
+- **So no end condition the weave keeps gives a chiral count on its own surface.**
+- **The record's ±3 is the fibre's count** (W22, W28; a flat count under the natural puncture condition, the owner's
+  ruling 3). It becomes a four-dimensional ±3 exactly when one unit of end data sits at the cusp.
+- **So GENESIS FK11's earning condition on the weave's surface is GENESIS FK10's question at the cusp:** is one unit of
+  end data forced there? Nothing in the record supplies it. Every natural cusp condition gives n = 0 (W45).
+- **Why, in one line (the rule's argument, by hand, now consistent with both routes).** Every piece's exponents are at
+  least ⅛, η³'s. A zero mode divided by η³ is a holomorphic form of weight at most 0 with no invariant vector, so it
+  vanishes.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). It closes the end conditions the weave keeps on
+its own surface. GENESIS FK11 stays open, and its question on this surface is GENESIS FK10's at the cusp. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -3089,6 +3168,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W43 | COMPUTED (the rule first; one run; B1620's stored fits read first and transcribed) | which trimaximal family each tensor allows. The record's frame: TM1 and TM2 under T̄ ⊗ T; under T ⊗ T no pair has a TM1 column (0 of 576) and the family is TM2 (B1620's own T ⊗ T fits are TM2's); neither under Sym² T. Where c is gauge (B₃ = {±1} × O; 98 subgroups, viable 66 / 66 / 49; O's Sym² T invariant δ): TM1 and TM2 under T̄ ⊗ T and T ⊗ T, neither under Sym² T; no twist of a 3-cycle survives Sym² T. Given Λ, P10's TM1 needs that frame and an E₆ 351. Post hoc: two family dimensions of the run's tally (1 and 3) recomputed as 0 and 2 |
 | W44 | COMPUTED (the rule first; one run; one prediction failed) | the free-number count in both frames on record, B1612's data verbatim, a strict fit predicate, modal ranks, every witness kept: the CKM needs a four-dimensional family under every tensor in both frames (every smaller orbit fails the necessary block test), so the 13 are unreduced whatever the frame; the PMNS minimum is 2 under T̄ ⊗ T and T ⊗ T (TM1 or TM2), 4 under Sym² T in the record's frame, and 3 under Sym² T where c is gauge (predicted 4: one fixed entry, |U_μ3| or |U_τ3| = 1/√2, or ½), with two-dimensional families 0.0012 outside. B1620's fits regraded: its four (8, 8) families (score 0.0707) are outside the ranges, its (2, 8) families (0.3627) have strict witnesses. A reading: S(G) = V₄ ⋊ S₃ is the moves mod 2 on the parities with their signs, and a frame is the subgroup of U(3) = Aut(𝕎) the gauge group realises |
 | W45 | COMPUTED (the rule first; one run; fixes in review before it, disclosed); a WEAVE result given Λ, NEGATIVE for GENESIS FK11 in its canonical reading | the triplet's index on the weave's own surface M₁,₂. T is a representation of the metaplectic cover, not a local system on M₁,₂: S̃⁴ (conjugation by a b⁻¹ a⁻¹ b) acts as −I for every lift sign, while the inner lifts give it I. The four-dimensional Dirac operator with the odd spin structure forces weight 3/2. The formula, calibrated exactly, keeps exactly the two identifications the braid relation allows. χ_{3/2}(ρ_T) = 0 and χ_½(ρ̄_T) = χ_{5/2}(ρ̄_T) = 0, with every space zero (q-expansions, gaps of nine orders); three first at weight 23/2. Post hoc: the index moves only with end data at the cusp, and n units on every component give 3n; the canonical condition is n = 0 |
+| W46 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | every end condition the weave keeps on its own surface: W28's four puncture conditions enter along the puncture section at weight 1 (the six local solutions' modular representation, from the same lifts as T), and the cusp's uniform units shift the weight by 12. The puncture's exact sequence fixes the weights 3/2, 1, ½ (central scalars, exponents), so W45's two representations are the two extreme puncture conditions. Every χ is 0 and every space is zero, under both base spin structures; the four-dimensional index is n times the fibre's index (±3, ±1). So the record's ±3 becomes four-dimensional only with one unit of end data at the cusp (GENESIS FK10) |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -3132,6 +3212,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W46_RULE.md`: the rule, committed before the code; `the_end_conditions_on_the_weaves_surface.py` → `the_end_conditions_on_the_weaves_surface.json`: W46, every end condition the weave keeps on its own surface (the six local solutions' modular representation, the puncture's exact sequence, the formula, q-expansions, and the table by puncture condition and cusp units).
 - `W45_RULE.md`: the rule, committed before the code; `the_index_on_the_weaves_surface.py` → `the_index_on_the_weaves_surface.json`: W45, the triplet's index on the weave's own surface (the structure on Aut⁺(F₂), the formula's calibrations, the four identifications, and the dimensions by q-expansions).
 - `W44_RULE.md`: the rule, committed before the code; `the_free_numbers_by_frame.py` → `the_free_numbers_by_frame.json`: W44, the free-number count in both frames on record with a strict fit predicate, and B1620's PMNS fits regraded; `received/B1612_data.json`: B1612's data transcription, verbatim (sha256 as in its ARTIFACT_HASHES).
 - `W43_RULE.md`: the rule, committed before the code; `the_trimaximal_families.py` → `the_trimaximal_families.json`: W43, the trimaximal families each tensor allows in the record's frame and where c is gauge; `received/B1620_post_seal_tensors.json`: B1620's stored fits, verbatim (sha256 as in its ARTIFACT_HASHES); POST HOC `the_trimaximal_families_posthoc.py` → `the_trimaximal_families_posthoc.json`: two outlying family dimensions recomputed.
