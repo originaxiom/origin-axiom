@@ -277,3 +277,14 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   in a run of length ≥ k (time deep in the cusp) is (k+1)/2^k at every length, with no atom.
 - So the unit of end data a chiral three needs at the cusp (the SM seat's W45, W46) is **not dynamical**. If it is
   forced, it is forced as a boundary datum: a physical end mechanism or a postulate. FK10 stays open, sharper.
+
+## Main's additions: the tick's point (B1630), the cusp's unit tagged (GENESIS v1.39), and the window's negatives audited (B1631)
+
+- **The tick's point (B1630, PROVED; a reading, given τ = i).** The tick's axis passes through τ = i, not ω. At i the
+  residual group fixes the clock's line and swaps the two letter lines. So every mass spectrum, under every tensor and
+  weight, is one value apart and two equal (never three distinct), with the single on the clock's line: the line the
+  rule's word singled out.
+- **The cusp's unit, a tagged working postulate** (the owner, 2026-10-09). Given Λ and the unit, the weave's own surface
+  carries a four-dimensional index of ±3 (W46). The three is dim T; only the unit is postulated.
+- **The negatives audited (B1631, at the owner's instruction).** All 27 instruments of B1609–B1630 reproduce bit for
+  bit, five arcs were re-derived independently, and every data input matched its source. No negative was an artifact.

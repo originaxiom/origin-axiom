@@ -1,0 +1,26 @@
+{
+ "id": "B1630",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1629",
+  "B1617",
+  "B1618",
+  "B1620",
+  "B1621"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "given tau = i (a reading; the tick's axis passes through i); the weave's triplet with the record's lifts",
+  "object": "the residual group at i and the mass terms under three tensors at every automorphy phase",
+  "reach": "general",
+  "hypotheses": "given tau = i; given Lambda for the T(x)T tensors; Z3's generic test post seal (disclosed); verified independently (B1631)"
+ },
+ "claim_one_line": "THE TICK'S POINT (sealed 87d769c7a): the principle's tick LR has its axis through tau = i, not omega; at i the residual group (order 32 on V) fixes the clock's parity line (-,-) and swaps the two letter lines, so under every tensor and weight every mass spectrum is one value apart and two equal -- never three distinct -- with the single on the clock's line: the same line the rule's word singled out (B1620); the clock's line mixes only with itself (the pair's internal mixing free). A leading-order 1 + 2 shape, no value. 0 of 19.",
+ "weave_or_thread": "weave"
+}

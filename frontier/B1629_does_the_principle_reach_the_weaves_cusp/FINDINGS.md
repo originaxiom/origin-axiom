@@ -27,7 +27,7 @@ The top is taken at both cusp representatives, ∞ and 0 (related by S), over th
 
 | | result |
 |---|---|
-| **P2** (the tick and the threads) | among all 2536 primitive threads of length ≤ 14, **the tick LR is the unique lowest**, top **√5/2 = 1.1180**; the second lowest is **√2**. These are B482's Markov values √5 and 2√2, a control the repaired measure reproduces. L^k R climbs about k/2 (6.93 at k = 12). The highest thread reaches 7.43 |
+| **P2** (the tick and the threads) | among all 2536 primitive threads of length ≤ 14, **the tick LR is the unique lowest**, top **√5/2 = 1.1180**; the second lowest is **√2**. These are B482's Markov values √5 and 2√2, a control the repaired measure reproduces. L^k R climbs as √(k² + 4k)/2 (6.93 = 4√3 at k = 12), exactly, by the independent check of B1631. The highest thread reaches 7.43 |
 | **P3** (the clock's word, read as moves) | linear longest runs 2 and 1; cyclic 3 and 1; its prefix words top at **2.29** (L³R's height) |
 | **P4** (time near the cusp, the weave's uniform measure) | the fraction of letters lying in a run of length ≥ k is **(k + 1)/2^k** (0.75, 0.5, 0.3125, … 0.035 at k = 8), the same at every n = 10 … 18: geometric decay with depth, no atom |
 
@@ -55,3 +55,12 @@ The top is taken at both cusp representatives, ∞ and 0 (related by S), over th
 
 `verification/cusp_reach.py` (sealed, unchanged), `cusp_reach.json`, `sealed_run/`; `post_seal_cusp.py` and its outputs;
 `adoption/amend.py` (GENESIS v1.37 → v1.38). Kill-graph entry B1629. Test: `tests/test_b1629_does_the_principle_reach_the_cusp.py`.
+
+## 6. Independently verified (B1631, 2026-10-09)
+
+A verifier agent recomputed every claim without main's code, by two height methods: the continued-fraction value at 40
+digits, and the minimum of the quadratic form det(v, Mv) over integer vectors. A third method, tracing the axis
+through the fundamental domain, agreed. Among all 2536 threads (the standard necklace counts), the tick LR is the unique
+lowest (√5/2), then LLRR (√2), then √221/10, accumulating at 3/2. L^k R has height √(k² + 4k)/2 exactly. The fraction
+(k+1)/2^k holds to 2.3 × 10⁻⁵ at n = 18, with the analytic reason that runs are geometric. No discrepancy.
+

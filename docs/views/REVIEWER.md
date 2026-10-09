@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1358** |
-| words of findings prose | **1,060,812** |
-| test lock files referenced | **796** |
-| arcs carrying an authored verdict | **1358** (100.0 %) |
+| research arcs with findings | **1360** |
+| words of findings prose | **1,062,609** |
+| test lock files referenced | **797** |
+| arcs carrying an authored verdict | **1360** (100.0 %) |
 | recorded closures | **816** (649 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 916 |
+| PROVED | 918 |
 | NEGATIVE | 340 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1627`** (309 words, 0 locks)  
-THE CUSP'S UNIT KEPT OPEN: GENESIS v1.37 registers the SM seat's W45 and W46 together under FK11 -- given Lambda, on M_{1,2}, for every end condition the moves keep, the triplet's four-dimensional index is n times the fibre's index (n the cusp's units; the natural condition gives n = 0), so FK11's earning condition on the weave's surface is FK10's question at the cusp -- and records the owner's ruling of 2026-10-09 as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt arc baseline lowered 85 -> 83. 0 of 19.  
-`B1627_the_cusp_unit_kept_open/FINDINGS.md`
+**PROVED — `B1631`** (721 words, 0 locks)  
+THE CUSP'S UNIT TAGGED, AND THE NEGATIVES AUDITED: the owner's decision of 2026-10-09 makes the unit of end data at the weave's cusp a tagged working postulate (GENESIS v1.39; with W46 the weave's surface then gives a four-dimensional index +-3, given Lambda and the unit); and at the owner's instruction the window B1609-B1630 was audited -- 27 of 27 instruments reproduce bit for bit in an isolated copy, B1618, B1621, B1628, B1629 and B1630 re-derived independently from their statements (B1615-B1617 and B1620 already by the SM seat), every data input matched at its source (NuFIT 6.0, JUNO, PDG 2025), every seal before its results: no negative was an artifact; three statements sharpened (L^k R's exact height, the free mixing inside a degenerate pair, iota = -i). 0 of 19.  
+`B1631_the_cusp_unit_tagged_and_the_negatives_audited/FINDINGS.md`
 
-**NEGATIVE — `B1629`** (820 words, 1 locks)  
+**NEGATIVE — `B1629`** (933 words, 1 locks)  
 DOES THE PRINCIPLE REACH THE WEAVE'S CUSP? (sealed 0ec9e2673; NEGATIVE as sealed -- C1 failed on a cyclic-reading slip, C2 on a one-sided height, repaired post seal and disclosed): nothing the principle forces visits the cusp -- the tick LR is the unique lowest closed geodesic among 2536 threads (top sqrt5/2, then sqrt2: B482's Markov values), the clock's word read as moves tops at 2.29, and the weave's uniform measure spends a fraction (k+1)/2^k of its letters in runs >= k at every length (no atom); so the unit of end data a chiral three needs at the cusp (W45, W46) is not dynamical -- a boundary datum if forced at all (GENESIS v1.38). 0 of 19.  
 `B1629_does_the_principle_reach_the_weaves_cusp/FINDINGS.md`
 

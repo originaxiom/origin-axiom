@@ -11420,6 +11420,32 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1630": {
+   "slug": "the ticks point",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1631": {
+   "slug": "the cusp unit tagged and the negatives audited",
+   "motifs": [
+    "coupling",
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "physics"
+  },
   "B163": {
    "slug": "kappa sweep resolved",
    "motifs": [

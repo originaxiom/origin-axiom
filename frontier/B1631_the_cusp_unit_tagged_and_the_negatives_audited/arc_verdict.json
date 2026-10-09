@@ -1,0 +1,27 @@
+{
+ "id": "B1631",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1629",
+  "B1630",
+  "B1628",
+  "B1621",
+  "B1618",
+  "B1620"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (an audit and adoption arc)",
+  "object": "GENESIS FK10 (the owner's decision); every instrument and negative of the window B1609-B1630",
+  "reach": "general",
+  "hypotheses": "the audit covers the window only; independent re-derivations by verifier agents from the statements; B1610 not independently re-derived"
+ },
+ "claim_one_line": "THE CUSP'S UNIT TAGGED, AND THE NEGATIVES AUDITED: the owner's decision of 2026-10-09 makes the unit of end data at the weave's cusp a tagged working postulate (GENESIS v1.39; with W46 the weave's surface then gives a four-dimensional index +-3, given Lambda and the unit); and at the owner's instruction the window B1609-B1630 was audited -- 27 of 27 instruments reproduce bit for bit in an isolated copy, B1618, B1621, B1628, B1629 and B1630 re-derived independently from their statements (B1615-B1617 and B1620 already by the SM seat), every data input matched at its source (NuFIT 6.0, JUNO, PDG 2025), every seal before its results: no negative was an artifact; three statements sharpened (L^k R's exact height, the free mixing inside a degenerate pair, iota = -i). 0 of 19.",
+ "weave_or_thread": "neither (an audit and adoption arc)"
+}

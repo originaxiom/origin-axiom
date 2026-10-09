@@ -1,0 +1,172 @@
+{
+ "line_characters": [
+  [
+   -1,
+   1
+  ],
+  [
+   1,
+   -1
+  ],
+  [
+   -1,
+   -1
+  ]
+ ],
+ "Tbar_x_T": {
+  "inner_fixed_dim": 3,
+  "cells": [
+   {
+    "iota": 1.0,
+    "S_turn": 0.0,
+    "eigenspace_dim": 2,
+    "kinds": {
+     "pair + single": 12
+    },
+    "single_lines": {
+     "('mixed', [0.0, 5e-06, 0.999995])": 12
+    },
+    "examples": [
+     [
+      0.975653,
+      0.975653,
+      1.0
+     ],
+     [
+      0.573042,
+      0.573042,
+      1.0
+     ]
+    ]
+   },
+   {
+    "iota": 1.0,
+    "S_turn": 0.5,
+    "eigenspace_dim": 1,
+    "kinds": {
+     "pair + single": 12
+    },
+    "single_lines": {
+     "('mixed', [0.0, 5e-06, 0.999995])": 12
+    },
+    "examples": [
+     [
+      0.0,
+      1.0,
+      1.0
+     ],
+     [
+      0.0,
+      1.0,
+      1.0
+     ]
+    ]
+   }
+  ],
+  "any_three_distinct": false
+ },
+ "T_x_T": {
+  "inner_fixed_dim": 3,
+  "cells": [
+   {
+    "iota": -1.0,
+    "S_turn": 0.25,
+    "eigenspace_dim": 1,
+    "kinds": {
+     "pair + single": 12
+    },
+    "single_lines": {
+     "(-1, -1)": 12
+    },
+    "examples": [
+     [
+      0.0,
+      1.0,
+      1.0
+     ],
+     [
+      0.0,
+      1.0,
+      1.0
+     ]
+    ]
+   },
+   {
+    "iota": -1.0,
+    "S_turn": 0.75,
+    "eigenspace_dim": 2,
+    "kinds": {
+     "pair + single": 12
+    },
+    "single_lines": {
+     "(-1, -1)": 12
+    },
+    "examples": [
+     [
+      0.750919,
+      0.750919,
+      1.0
+     ],
+     [
+      0.267248,
+      1.0,
+      1.0
+     ]
+    ]
+   }
+  ],
+  "any_three_distinct": false
+ },
+ "Sym2_T": {
+  "inner_fixed_dim": 3,
+  "cells": [
+   {
+    "iota": -1.0,
+    "S_turn": 0.25,
+    "eigenspace_dim": 1,
+    "kinds": {
+     "pair + single": 12
+    },
+    "single_lines": {
+     "(-1, -1)": 12
+    },
+    "examples": [
+     [
+      0.0,
+      1.0,
+      1.0
+     ],
+     [
+      0.0,
+      1.0,
+      1.0
+     ]
+    ]
+   },
+   {
+    "iota": -1.0,
+    "S_turn": 0.75,
+    "eigenspace_dim": 2,
+    "kinds": {
+     "pair + single": 12
+    },
+    "single_lines": {
+     "(-1, -1)": 12
+    },
+    "examples": [
+     [
+      0.85578,
+      1.0,
+      1.0
+     ],
+     [
+      0.843051,
+      0.843051,
+      1.0
+     ]
+    ]
+   }
+  ],
+  "any_three_distinct": false
+ }
+}

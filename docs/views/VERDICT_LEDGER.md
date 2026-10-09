@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1358 of 1358 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1360 of 1360 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (916)
+## PROVED (918)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -928,6 +928,8 @@
 | `B1625` | THE SM SEAT'S CORRECTIONS TO B1620 TAKEN: TM1 is allowed under T-bar(x)T only -- under T(x)T the two-parameter family is TM2 (B1620's stored T(x)T fits fix the column (1/3,1/3,1/3); W43: 0 of 576 pairs carry a TM1 column) -- so P10 applies under T-bar(x)T; the frame is 'all of G flavour', not W24's; the PMNS fit predicate made strict (four (8,8) rows outside, the minimum still 2); the 13 unreduced in every frame on record (W44); W45 registered under FK11 (index 0 on the weave's own surface in the canonical reading; a chiral three there is one unit of end data at the cusp). GENESIS v1.36. 0 of 19. |  | 0 |
 | `B1626` | THE RELAY-CLOSURE PASS (R62-5): of main's 65 open relays to the SM seat and the audit lane, 40 closed as answered (each note names where) and 25 kept open with the outstanding ask named -- outbound open rows 72 -> 33; a first attempt used a disposition the ledger's grammar does not parse and was repaired before landing; the audit lane's 22 commits read at relay level (nine relays rowed, pin bbe0efc4); main's S104 misreading corrected -- the lane's dictionary fixes the full symmetric bilinear, not the flavour tensor on T, and main has no derived map from T into its kernel spaces (FK11). 0 of 19. |  | 0 |
 | `B1627` | THE CUSP'S UNIT KEPT OPEN: GENESIS v1.37 registers the SM seat's W45 and W46 together under FK11 -- given Lambda, on M_{1,2}, for every end condition the moves keep, the triplet's four-dimensional index is n times the fibre's index (n the cusp's units; the natural condition gives n = 0), so FK11's earning condition on the weave's surface is FK10's question at the cusp -- and records the owner's ruling of 2026-10-09 as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt arc baseline lowered 85 -> 83. 0 of 19. |  | 0 |
+| `B1630` | THE TICK'S POINT (sealed 87d769c7a): the principle's tick LR has its axis through tau = i, not omega; at i the residual group (order 32 on V) fixes the clock's parity line (-,-) and swaps the two letter lines, so under every tensor and weight every mass spectrum is one value apart and two equal -- never three distinct -- with the single on the clock's line: the same line the rule's word singled out (B1620); the clock's line mixes only with itself (the pair's internal mixing free). A leading-order 1 + 2 shape, no value. 0 of 19. |  | 1 |
+| `B1631` | THE CUSP'S UNIT TAGGED, AND THE NEGATIVES AUDITED: the owner's decision of 2026-10-09 makes the unit of end data at the weave's cusp a tagged working postulate (GENESIS v1.39; with W46 the weave's surface then gives a four-dimensional index +-3, given Lambda and the unit); and at the owner's instruction the window B1609-B1630 was audited -- 27 of 27 instruments reproduce bit for bit in an isolated copy, B1618, B1621, B1628, B1629 and B1630 re-derived independently from their statements (B1615-B1617 and B1620 already by the SM seat), every data input matched at its source (NuFIT 6.0, JUNO, PDG 2025), every seal before its results: no negative was an artifact; three statements sharpened (L^k R's exact height, the free mixing inside a degenerate pair, iota = -i). 0 of 19. |  | 0 |
 
 ## NEGATIVE (340)
 

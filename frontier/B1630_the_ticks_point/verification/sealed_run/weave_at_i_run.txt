@@ -1,0 +1,222 @@
+{
+ "Z0": {
+  "LR_H1": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "discriminant": 5,
+  "axis_center": 0.5,
+  "axis_radius_squared": 1.25,
+  "i_on_axis": true,
+  "omega_on_axis": false,
+  "i_on_axis_exact": true,
+  "omega_on_axis_exact": false
+ },
+ "Z1": {
+  "S_word": "RlR",
+  "S_images": {
+   "a": "b",
+   "b": "BAb"
+  },
+  "S_fixes_i": true,
+  "residual_order_on_V": 32
+ },
+ "Z2": {
+  "line_characters": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    -1,
+    -1
+   ]
+  ],
+  "S_monomial_on_lines": true,
+  "S_line_images": [
+   1,
+   0,
+   2
+  ],
+  "lines_fixed_by_S": [
+   [
+    -1,
+    -1
+   ]
+  ],
+  "T_commutant_dim_under_residual": 2
+ },
+ "Z3": {
+  "Tbar_x_T": {
+   "inner_fixed_dim": 3,
+   "cells": [
+    {
+     "iota": 1.0,
+     "dim": 3,
+     "S_preserves": true,
+     "spectra": [
+      {
+       "S_turn": 0.0,
+       "kind": "pair + single",
+       "normalised": [
+        0.792741,
+        0.792741,
+        1.0
+       ],
+       "single_line": null
+      },
+      {
+       "S_turn": 0.5,
+       "kind": "pair + single",
+       "normalised": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "single_line": null
+      },
+      {
+       "S_turn": 0.0,
+       "kind": "pair + single",
+       "normalised": [
+        0.447166,
+        1.0,
+        1.0
+       ],
+       "single_line": null
+      }
+     ],
+     "eigenvalues_off_48th_roots": 0,
+     "kinds": [
+      "pair + single"
+     ]
+    },
+    {
+     "iota": -1.0,
+     "dim": 0
+    }
+   ],
+   "any_three_distinct": false
+  },
+  "T_x_T": {
+   "inner_fixed_dim": 3,
+   "cells": [
+    {
+     "iota": 1.0,
+     "dim": 0
+    },
+    {
+     "iota": -1.0,
+     "dim": 3,
+     "S_preserves": true,
+     "spectra": [
+      {
+       "S_turn": 0.75,
+       "kind": "pair + single",
+       "normalised": [
+        0.261441,
+        0.261441,
+        1.0
+       ],
+       "single_line": null
+      },
+      {
+       "S_turn": 0.25,
+       "kind": "pair + single",
+       "normalised": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "single_line": null
+      },
+      {
+       "S_turn": 0.75,
+       "kind": "pair + single",
+       "normalised": [
+        0.218399,
+        1.0,
+        1.0
+       ],
+       "single_line": null
+      }
+     ],
+     "eigenvalues_off_48th_roots": 0,
+     "kinds": [
+      "pair + single"
+     ]
+    }
+   ],
+   "any_three_distinct": false
+  },
+  "Sym2_T": {
+   "inner_fixed_dim": 3,
+   "cells": [
+    {
+     "iota": 1.0,
+     "dim": 0
+    },
+    {
+     "iota": -1.0,
+     "dim": 3,
+     "S_preserves": true,
+     "spectra": [
+      {
+       "S_turn": 0.75,
+       "kind": "pair + single",
+       "normalised": [
+        0.001203,
+        1.0,
+        1.0
+       ],
+       "single_line": null
+      },
+      {
+       "S_turn": 0.25,
+       "kind": "pair + single",
+       "normalised": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "single_line": null
+      },
+      {
+       "S_turn": 0.75,
+       "kind": "pair + single",
+       "normalised": [
+        0.000614,
+        0.000614,
+        1.0
+       ],
+       "single_line": null
+      }
+     ],
+     "eigenvalues_off_48th_roots": 0,
+     "kinds": [
+      "pair + single"
+     ]
+    }
+   ],
+   "any_three_distinct": false
+  }
+ },
+ "Z4": {
+  "S_eigen_turns_on_T": [
+   0.375,
+   0.375,
+   0.875
+  ],
+  "S_order_on_T": 8
+ }
+}

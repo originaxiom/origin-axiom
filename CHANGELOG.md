@@ -1,5 +1,28 @@
 # Changelog
 
+## S109 THE TICK'S POINT (B1630, PROVED), THE CUSP'S UNIT TAGGED (the owner, GENESIS v1.39), AND THE WINDOW'S NEGATIVES AUDITED (B1631): the tick passes through τ = i and there every spectrum is a pair and a single on the clock's line; given Λ and the unit the weave's surface carries a four-dimensional ±3; 27 of 27 instruments reproduce bit for bit and five arcs re-derived independently — no negative was an artifact
+
+**B1630 (sealed `87d769c7a`; given τ = i).** The tick's axis passes through i and not through ω. At i the residual
+group (order 32) fixes the clock's line and swaps the two letter lines. So under every tensor and weight every spectrum
+is a pair and a single, never three distinct, with the single on the clock's line: the line the rule's word singled out
+(B1620). Z3's sealed run tested only basis vectors of two-dimensional eigenspaces; generic couplings were tested post
+seal (disclosed), and the conclusion is the sealed one.
+
+**The owner's decisions (2026-10-09).**
+- The unit of end data at the weave's cusp is a tagged working postulate (GENESIS v1.39, superseding the relayed "keep
+  FK10 open"). With W46, the weave's surface then carries an index of ±3, given Λ and the unit.
+- The instruction to make sure negatives are not script bugs, misinformation or broken integrity.
+
+**B1631, the audit.**
+- **Reproducibility:** 27 of 27 instruments of B1609–B1630 reproduce bit for bit in an isolated copy.
+- **Independent re-derivation:** B1618, B1621, B1628, B1629 and B1630 were re-derived from their statements by fresh
+  verifiers that never read main's code (B1615–B1617 and B1620 earlier by the SM seat).
+- **Inputs:** NuFIT 6.0, JUNO and PDG 2025 each match at the source.
+- **Integrity:** every seal precedes its results.
+
+**No negative was an artifact.** Three statements sharpened: L^k R's exact height √(k²+4k)/2; the free mixing inside a
+degenerate pair; ι = −i on T. 0 of 19.
+
 ## S108 DOES THE PRINCIPLE REACH THE WEAVE'S CUSP? (B1629, NEGATIVE as sealed; GENESIS v1.38): no — the tick LR is the unique lowest closed geodesic of the weave (√5/2, then √2: B482's Markov values), the clock's word stays low, and the weave's uniform measure spends (k+1)/2^k of its letters in runs ≥ k (no atom at the cusp); so the unit of end data a chiral three needs there (W45, W46) is not dynamical — FK10 sharpened; two sealed slips repaired post seal and disclosed
 
 **B1629 (sealed `0ec9e2673`; the owner's "go" to the outline's 2b).**

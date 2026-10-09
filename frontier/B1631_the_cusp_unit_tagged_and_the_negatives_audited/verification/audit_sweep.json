@@ -1,0 +1,326 @@
+[
+ {
+  "arc": "B1609_the_even_subweave",
+  "script": "even_subweave.py",
+  "rc": 0,
+  "seconds": 14.2,
+  "outputs": [
+   {
+    "json": "B1609_the_even_subweave/verification/even_subweave.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1609_the_even_subweave",
+  "script": "post_seal_78_sectors.py",
+  "rc": 0,
+  "seconds": 5.3,
+  "outputs": [
+   {
+    "json": "B1609_the_even_subweave/verification/post_seal_78_sectors.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1610_the_hands_on_the_founding_torsor",
+  "script": "hands_on_the_torsor.py",
+  "rc": 0,
+  "seconds": 3.4,
+  "outputs": [
+   {
+    "json": "B1610_the_hands_on_the_founding_torsor/verification/hands_on_the_torsor.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1611_is_cp_violation_forced_on_the_weave",
+  "script": "cp_on_the_weave.py",
+  "rc": 0,
+  "seconds": 36.5,
+  "outputs": [
+   {
+    "json": "B1611_is_cp_violation_forced_on_the_weave/verification/cp_on_the_weave.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1611_is_cp_violation_forced_on_the_weave",
+  "script": "post_seal_one_cp.py",
+  "rc": 0,
+  "seconds": 35.0,
+  "outputs": [
+   {
+    "json": "B1611_is_cp_violation_forced_on_the_weave/verification/post_seal_one_cp.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1612_the_mixing_patterns_the_weave_fixes",
+  "script": "compare.py",
+  "rc": 0,
+  "seconds": 0.1,
+  "outputs": [
+   {
+    "json": "B1612_the_mixing_patterns_the_weave_fixes/verification/comparison.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1612_the_mixing_patterns_the_weave_fixes",
+  "script": "mixing_on_the_weave.py",
+  "rc": 0,
+  "seconds": 3.9,
+  "outputs": [
+   {
+    "json": "B1612_the_mixing_patterns_the_weave_fixes/verification/mixing_on_the_weave.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1612_the_mixing_patterns_the_weave_fixes",
+  "script": "post_seal_tm_sum_rules.py",
+  "rc": 0,
+  "seconds": 0.1,
+  "outputs": [
+   {
+    "json": "B1612_the_mixing_patterns_the_weave_fixes/verification/post_seal_tm_sum_rules.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1613_tm1s_forward_prediction",
+  "script": "tm1_forward.py",
+  "rc": 0,
+  "seconds": 0.3,
+  "outputs": [
+   {
+    "json": "B1613_tm1s_forward_prediction/verification/tm1_forward.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1614_the_observer_layer_on_the_weave",
+  "script": "observer_on_the_weave.py",
+  "rc": 0,
+  "seconds": 3.8,
+  "outputs": [
+   {
+    "json": "B1614_the_observer_layer_on_the_weave/verification/observer_on_the_weave.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1615_the_couplings_the_weave_allows",
+  "script": "couplings_on_the_weave.py",
+  "rc": 0,
+  "seconds": 20.8,
+  "outputs": [
+   {
+    "json": "B1615_the_couplings_the_weave_allows/verification/couplings_on_the_weave.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1615_the_couplings_the_weave_allows",
+  "script": "post_seal_family_scan.py",
+  "rc": 0,
+  "seconds": 42.8,
+  "outputs": [
+   {
+    "json": "B1615_the_couplings_the_weave_allows/verification/post_seal_family_scan.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1616_the_neutrino_masses_on_the_weave",
+  "script": "neutrino_masses_on_the_weave.py",
+  "rc": 0,
+  "seconds": 5.1,
+  "outputs": [
+   {
+    "json": "B1616_the_neutrino_masses_on_the_weave/verification/neutrino_masses_on_the_weave.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1617_the_weave_at_tau_omega",
+  "script": "weave_at_omega.py",
+  "rc": 0,
+  "seconds": 3.7,
+  "outputs": [
+   {
+    "json": "B1617_the_weave_at_tau_omega/verification/weave_at_omega.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1618_the_weighted_cell_at_omega",
+  "script": "post_seal_odd_weight.py",
+  "rc": 0,
+  "seconds": 3.8,
+  "outputs": [
+   {
+    "json": "B1618_the_weighted_cell_at_omega/verification/post_seal_odd_weight.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1618_the_weighted_cell_at_omega",
+  "script": "weighted_at_omega.py",
+  "rc": 0,
+  "seconds": 3.7,
+  "outputs": [
+   {
+    "json": "B1618_the_weighted_cell_at_omega/verification/weighted_at_omega.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1620_the_breaking_the_weave_allows",
+  "script": "breaking_the_weave_allows.py",
+  "rc": 0,
+  "seconds": 10.5,
+  "outputs": [
+   {
+    "json": "B1620_the_breaking_the_weave_allows/verification/breaking_the_weave_allows.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1620_the_breaking_the_weave_allows",
+  "script": "post_seal_inner.py",
+  "rc": 0,
+  "seconds": 9.4,
+  "outputs": [
+   {
+    "json": "B1620_the_breaking_the_weave_allows/verification/post_seal_inner.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1620_the_breaking_the_weave_allows",
+  "script": "post_seal_pairs.py",
+  "rc": 0,
+  "seconds": 153.8,
+  "outputs": [
+   {
+    "json": "B1620_the_breaking_the_weave_allows/verification/post_seal_pairs.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1620_the_breaking_the_weave_allows",
+  "script": "post_seal_tensors.py",
+  "rc": 0,
+  "seconds": 70.2,
+  "outputs": [
+   {
+    "json": "B1620_the_breaking_the_weave_allows/verification/post_seal_tensors.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1621_the_principles_clock_and_tick_on_the_matter",
+  "script": "clock_and_tick.py",
+  "rc": 0,
+  "seconds": 6.2,
+  "outputs": [
+   {
+    "json": "B1621_the_principles_clock_and_tick_on_the_matter/verification/clock_and_tick.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1624_the_gate_sees_the_dossier",
+  "script": "w19_check.py",
+  "rc": 0,
+  "seconds": 0.1,
+  "outputs": [
+   {
+    "json": "B1624_the_gate_sees_the_dossier/verification/w19_check.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1628_the_data_and_the_two_trimaximal_relations",
+  "script": "two_relations.py",
+  "rc": 0,
+  "seconds": 0.0,
+  "outputs": [
+   {
+    "json": "B1628_the_data_and_the_two_trimaximal_relations/verification/two_relations.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1629_does_the_principle_reach_the_weaves_cusp",
+  "script": "cusp_reach.py",
+  "rc": 0,
+  "seconds": 10.7,
+  "outputs": [
+   {
+    "json": "B1629_does_the_principle_reach_the_weaves_cusp/verification/cusp_reach.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1629_does_the_principle_reach_the_weaves_cusp",
+  "script": "post_seal_cusp.py",
+  "rc": 0,
+  "seconds": 3.7,
+  "outputs": [
+   {
+    "json": "B1629_does_the_principle_reach_the_weaves_cusp/verification/post_seal_cusp.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1630_the_ticks_point",
+  "script": "post_seal_generic.py",
+  "rc": 0,
+  "seconds": 4.0,
+  "outputs": [
+   {
+    "json": "B1630_the_ticks_point/verification/post_seal_generic.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ },
+ {
+  "arc": "B1630_the_ticks_point",
+  "script": "weave_at_i.py",
+  "rc": 0,
+  "seconds": 3.9,
+  "outputs": [
+   {
+    "json": "B1630_the_ticks_point/verification/weave_at_i.json",
+    "status": "IDENTICAL"
+   }
+  ]
+ }
+]
