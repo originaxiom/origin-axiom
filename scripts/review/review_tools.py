@@ -56,14 +56,27 @@ def parse_hash_file(text):
         (good if m else bad).append((m.group(1), m.group(2)) if m else s)
     return good, bad
 
-def seal_check(hash_text, read_file, seal_commit, verdict_commit, is_ancestor, remotes_have):
-    """one arc: hashes against the files as they are now; the seal strictly before the verdict; the seal on every remote"""
+def sealed_hash_lines(text):
+    """the paths a hash file records at their SEALED version ('# sealed at <commit>: <sha256>  <path> ...' comment lines)"""
+    return {m.group(2) for m in re.finditer(r"^#\s*sealed at [0-9a-f]{7,40}:\s*([0-9a-f]{64})\s+\*?(\S+)", text, re.M)}
+
+def seal_check(hash_text, read_file, seal_commit, verdict_commit, is_ancestor, remotes_have, disclosure_text="", sealed_copy=None):
+    """one arc: hashes against the files as they are now; the seal strictly before the verdict; the seal on every remote.
+    R61-4: a file changed after the seal is DISCLOSED when the arc's own pages (`disclosure_text`: FINDINGS and addenda) name
+    it AND the arc keeps its sealed run (`sealed_copy(rel)` true -- a sealed_run directory or file; the sealed instrument itself
+    is in git at the seal commit) or the hash file records the file's sealed hash on a '# sealed at' line.  Disclosed changes are reported, not counted as defects; an undisclosed change is a defect as before."""
     good, bad = parse_hash_file(hash_text); changed, missing, ok = [], [], 0
     for h, rel in good:
         data = read_file(rel)
         if data is None: missing.append(rel)
         elif hashlib.sha256(data).hexdigest() == h: ok += 1
         else: changed.append(rel)
+    kept = sealed_hash_lines(hash_text)
+    def disclosed(rel):
+        named = os.path.basename(rel) in disclosure_text
+        return named and (rel in kept or bool(sealed_copy and sealed_copy(rel)))
+    changed_disclosed = [r for r in changed if disclosed(r)]
+    changed = [r for r in changed if not disclosed(r)]
     if verdict_commit is None: order = "no verdict yet"
     elif seal_commit == verdict_commit: order = "SEALED WITH ITS RESULTS"
     elif is_ancestor(seal_commit, verdict_commit): order = "sealed before results"
@@ -75,7 +88,7 @@ def seal_check(hash_text, read_file, seal_commit, verdict_commit, is_ancestor, r
     if missing: defects.append("missing: " + ", ".join(missing))
     if order.isupper() or order.startswith("SEAL"): defects.append(order)
     if not remotes_have: defects.append("seal not on every remote")
-    return dict(ok=ok, lines=len(good), order=order, on_remotes=bool(remotes_have), defects=defects)
+    return dict(ok=ok, lines=len(good), order=order, on_remotes=bool(remotes_have), defects=defects, changed_disclosed=changed_disclosed)
 
 def provenance_hits(added_lines, phrases=PHRASES):
     """added_lines: [(path, text)] lines added in the window; a hit is a phrase of external-verification pretense"""
@@ -249,7 +262,9 @@ def gather(anchor):
         vc = (git("log", "--diff-filter=A", "--format=%h", "--", str(arc / "arc_verdict.json")).split() or [None])[-1]
         anc = lambda a, b: subprocess.run(["git", "merge-base", "--is-ancestor", a, b], cwd=ROOT).returncode == 0
         rd = lambda rel, arc=arc: ((ROOT / arc / rel).resolve().read_bytes() if (ROOT / arc / rel).resolve().exists() else None)
-        c = seal_check((ROOT / p).read_text(), rd, sc, vc, anc, all(anc(sc, r + "/main") for r in remotes))
+        pages = "".join(f.read_text(errors="replace") for f in sorted((ROOT / arc).glob("*.md")) if f.name != "PREREGISTRATION.md")
+        kept = lambda rel, arc=arc: any("sealed_run" in q.name for q in (ROOT / arc).rglob("*sealed_run*"))   # the arc keeps its sealed run (R61-4's wording); the sealed instrument is in git at the seal
+        c = seal_check((ROOT / p).read_text(), rd, sc, vc, anc, all(anc(sc, r + "/main") for r in remotes), pages, kept)
         c.update(arc=arc.name, seal=sc, verdict=vc); seals.append(c)
     R["seals"] = seals
     addl = []
@@ -299,7 +314,7 @@ def render(R):
     b = R["branches"]; L.append("branches: %d unmerged leaves; unregistered: %s; on one remote only: %s; remotes out of step: %s" % (len(b["rows"]), b["unregistered"] or "none", b["on_one_remote_only"] or "none", b["out_of_step"] or "none"))
     for d in b["rows"]: L.append("   %-40s +%d  tip %s  %s" % (d["leaf"], d["ahead_of_main"], d["tip_date"], "registered" if d["registered"] else "UNREGISTERED"))
     L.append("seals: %d in the window; with defects: %d" % (len(R["seals"]), sum(1 for s in R["seals"] if s["defects"])))
-    for s in R["seals"]: L.append("   %-52s %d/%d hashes, %s%s" % (s["arc"][:52], s["ok"], s["lines"], s["order"], ("  DEFECTS: " + "; ".join(s["defects"])) if s["defects"] else ""))
+    for s in R["seals"]: L.append("   %-52s %d/%d hashes, %s%s%s" % (s["arc"][:52], s["ok"], s["lines"], s["order"], ("  DEFECTS: " + "; ".join(s["defects"])) if s["defects"] else "", ("  disclosed post-seal: " + ", ".join(s.get("changed_disclosed", []))) if s.get("changed_disclosed") else ""))
     p = R["provenance"]; L.append("provenance: %d added lines scanned, %d hits, %d in public-facing files" % (p["lines_scanned"], len(p["hits"]), sum(1 for h in p["hits"] if h["public_facing"])))
     for h in p["hits"]: L.append("   %s%s: %s" % ("" if h["public_facing"] else "(reader note) ", h["path"], h["text"][:120]))
     L.append("advancement: LAW_MAP +%d rows, THEOREM_REGISTRY +%d rows" % (len(R["law_map_rows_added"]), len(R["theorem_rows_added"])))

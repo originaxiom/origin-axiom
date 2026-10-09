@@ -107,3 +107,23 @@ def test_relay_split_by_direction():
                      "| `CODEX_TO_CC_2026-09-02_Z.md` | OPEN | 2026-09-10 | r |", "| `CC_TO_CLOUD_2026-08-25_W.md` | DECLINED | 2026-08-25 | why |", "| `A_HANDOFF.md` | BANKED | 2026-09-01 | B1 |"])
     r = rt.relay_split(led)
     assert r["outbound"] == {"CODEX": 1, "SM": 1} and r["inbound"] == {"CODEX": 1} and r["declined"] == 1 and r["banked"] == 1
+
+
+def test_seal_check_tells_a_disclosed_change_from_an_undisclosed_one():
+    """R61-4 / R62-4: a post-seal change named on the arc's pages with its sealed version kept is reported, not a defect;
+    named without a kept version, or kept without being named, it stays a defect (each half can fail)."""
+    data = {"a.py": b"print(1)\n"}
+    h = hashlib.sha256(data["a.py"]).hexdigest()
+    anc = lambda a, b: (a, b) == ("s1", "v1")
+    now = {"a.py": b"print(2)\n"}.get
+    plain = "%s  a.py\n" % h
+    kept_line = "# sealed at abc1234: %s  a.py (sealed)\n%s  a.py\n" % (h, h)
+    page = "Disclosed: a.py was repaired after the seal; the sealed run is kept."
+    d = rt.seal_check(plain, now, "s1", "v1", anc, True, page, lambda rel: True)
+    assert not d["defects"] and d["changed_disclosed"] == ["a.py"]
+    d2 = rt.seal_check(kept_line, now, "s1", "v1", anc, True, page, None)
+    assert not d2["defects"] and d2["changed_disclosed"] == ["a.py"], "a '# sealed at' line keeps the sealed version"
+    assert rt.seal_check(plain, now, "s1", "v1", anc, True, page, lambda rel: False)["defects"] == ["changed: a.py"]
+    assert rt.seal_check(plain, now, "s1", "v1", anc, True, "nothing named here", lambda rel: True)["defects"] == ["changed: a.py"]
+    assert rt.seal_check(plain, now, "s1", "v1", anc, True)["defects"] == ["changed: a.py"], "the old call is unchanged"
+

@@ -1,5 +1,24 @@
 # Changelog
 
+## S102 THE SEAL TOOL TELLS A DISCLOSED CHANGE FROM AN UNDISCLOSED ONE (Review 62's R62-4): `seal_check` reports a post-seal change that the arc's pages name, with its sealed run kept or its sealed hash recorded, as disclosed, not a defect; run on Review 61's window it found two of the five changes not yet disclosed on the page (B1490, B1495), now completed
+
+**The repair** (`scripts/review/review_tools.py`). A file changed after its seal counts as disclosed when two things
+hold:
+- the arc's own pages (FINDINGS and addenda) name it;
+- the arc keeps its sealed run, or its hash file records the file's sealed hash on a `# sealed at` line.
+
+Disclosed changes are reported, not counted as defects; undisclosed ones stay defects. The planted-input test fails each
+half separately (`tests/test_review_tools.py`).
+
+**What it found when run on Review 61's window.** Review 61 wrote that every page "discloses its change and keeps its
+sealed run". Three of the five arcs met the tool's criterion (B1493, B1494, B1499). Two did not:
+- **B1490:** its FINDINGS gave the reason for the change (the E21 naming) but did not name the five files. A dated
+  addendum now names them.
+- **B1495:** the sealed `cross.py` could not import, so it never ran, and no sealed hash was recorded. A `# sealed at`
+  line now records it.
+
+The window's only remaining defect is B1621's seal missing from Codeberg (the quota, R62-1). 0 of 19.
+
 ## S101 THE OWED LITERATURE CHECKS (B1623, R62-2 resolved) AND THE WINDOW'S THEOREM ROWS (R62-6): Lemma F's step (2) verified on main for the seat's four; Lemma F and three of main's four NEEDS-LIT theorems not found as stated; T-PERIODIC-CURVE (A) implied by Tillmann–Yao; the N₄₅ from-scratch reading declined with its reason; T-WEAVE-REDUCES-NONE, T-TAU-ONLY-PERMUTATION and T-CLOCK-IN-GRADING filed
 
 **B1623 (R62-2 at its second carry, resolved).** A research agent searched the literature for the four theorems
