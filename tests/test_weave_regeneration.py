@@ -82,3 +82,24 @@ print(json.dumps([ok_T, ok_U, ok_g]))
     r = subprocess.run([sys.executable, "-c", probe], cwd=copy, capture_output=True, text=True, timeout=900)
     assert r.returncode == 0, r.stderr[-2000:]
     assert json.loads(r.stdout.strip().splitlines()[-1]) == [True, True, True]
+
+
+def test_w51_probe(copy):
+    """W51's census takes about a minute, so a probe recomputes its stored values at i and rho, the flat joint
+    determinant at a generic point, and one boundary scan, from the script's own functions"""
+    probe = r'''
+import json, math, sys
+sys.path.insert(0, ".")
+import numpy as np
+import the_weaves_functionals_on_tau as WF
+d = json.load(open("the_weaves_functionals_on_tau.json"))
+cen = d["the census, by candidate"]
+ok_vals = all(abs(float(f(z)) - cen[n][k]["value"]) < 1e-9 * max(1.0, cen[n][k]["value"])
+              for n, f in WF.CANDIDATES.items() for k, z in (("i", WF.I_), ("rho", WF.RHO)))
+ok_e3 = abs(float(WF.e3(0.137 + 1.31j)) - 4.0) < 1e-10
+ok_scan = WF.boundary_critical(WF.e1, n=401) == {"x = 0": [], "x = 1/2": [], "the arc": []}
+print(json.dumps([bool(ok_vals), bool(ok_e3), bool(ok_scan)]))
+'''
+    r = subprocess.run([sys.executable, "-c", probe], cwd=copy, capture_output=True, text=True, timeout=900)
+    assert r.returncode == 0, r.stderr[-2000:]
+    assert json.loads(r.stdout.strip().splitlines()[-1]) == [True, True, True]

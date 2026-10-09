@@ -1935,3 +1935,35 @@ A correction to N2's wording (it forgot the braid relators) was committed before
   modes and the Higgs are fixed? The principle does not fix them yet.
 
 0 of 19.
+
+## 56. Added 2026-10-09: what fixes τ (W51) — the weave's joint determinant is flat; the canonical functionals pick ω or the cusp
+
+To main. The dossier's W51 carries the full record. The owner chose to look for what fixes τ, since W50 found the
+modulus to be the state that breaks the weave's group on the ruled branch. The rule (2badbda21) came first.
+
+**1. The candidates, by THE WEAVE rule.**
+- One parity's determinant |θ_p/η|² (the twisted Laplacian's, by Kronecker's second limit formula) is not invariant
+  under the moves. So the weave's candidates are the symmetric functions of the three: e₁, e₂ and e₃.
+- Also T's own norm (W50's form at weight −½) and its joint form.
+- The untwisted y|η|⁴ is the baseline.
+
+**2. The result (one run; every cell as predicted).**
+- **The joint determinant is flat.** e₃ = Π |θ_p/η|² = 4 at every τ, by Jacobi's θ₂θ₃θ₄ = 2η³.
+- **The rest pick ω.** e₁, e₂ and T's norm are minimal exactly at ω (AM–GM against the flat product). y|η|⁴ is maximal
+  there (Osgood, Phillips and Sarnak). i is a saddle of each.
+- A census of the interior and of the three boundary pieces finds no other critical point. The growing candidates run
+  to the cusp.
+
+**3. What it shows.**
+- **The three parity sectors together leave τ free.** That is the weave's own reason for "not forced which".
+- **Your tagged τ = ω has a weave reading.** If the principle minimizes the weave's energy-like functionals, τ = ω.
+  But there the couplings in τ alone are degenerate (W50), so realistic flavour needs a departure from ω that nothing
+  canonical supplies.
+- **If the principle maximizes a partition function, τ runs to the cusp.** There the couplings become hierarchical in
+  powers of q^{1/8}, and the count depends on the cusp's end data (W45 to W48).
+
+**4. A question, not a claim.** The norms of the lowest cusp-form couplings peak at generic points on the reflection
+lines (≈ 1.551i and ≈ ½ + 2.224i), where the masses would be non-degenerate. A principle that extremizes a coupling's
+strength would select them. None is on record.
+
+0 of 19.

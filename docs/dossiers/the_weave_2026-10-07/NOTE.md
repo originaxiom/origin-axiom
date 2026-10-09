@@ -55,6 +55,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   residual on T is four scalars, and couplings in τ alone give mixing far from a permutation. So T-TAU-ONLY-PERMUTATION
   and B1617's residual hold only where the inner automorphisms act. T is exactly the three even theta constants,
   η²¹·(θ₄², θ₂², θ₃²).
+- W51 (the owner's "look for what fixes τ"; rule first): the weave's joint determinant over its three parities is
+  exactly 4 (Jacobi), so flat in τ. Every other canonical functional is extremal only at ω (the symmetric sums and T's
+  norm minimal, the untwisted determinant maximal), with i a saddle, or runs to the cusp. So a canonical selection
+  gives ω, where the couplings are degenerate, or the cusp. Nothing canonical gives a generic τ.
 
 ## The setting
 
@@ -3422,6 +3426,77 @@ until W50. 0 of 19.
 result on the ruled branch. It qualifies main's T-TAU-ONLY-PERMUTATION and B1617 to the frame with the inner
 automorphisms. 0 of 19.
 
+## W51. What fixes τ? The weave's joint determinant is flat, and every other canonical functional picks ω or the cusp (`the_weaves_functionals_on_tau.py`; `W51_RULE.md`)
+
+**Why.**
+- W50 found the state that breaks the weave's group: the modulus τ. But at i and ω the couplings are degenerate, and
+  nothing on record fixes τ.
+- The owner chose to look for what fixes τ (2026-10-09). The rule (`W51_RULE.md`, 2badbda21) was committed before the
+  code.
+- **Weave or thread.** One parity's determinant |θ_p/η|² is invariant only under that parity's stabilizer, so it is
+  not the weave's. The weave's candidates are the functions of all three parities that every move keeps, fixed by
+  THE WEAVE rule with none hand-picked:
+  - x_p = |θ_p/η|², the determinant of the Laplacian twisted by parity p's character (Kronecker's second limit
+    formula);
+  - e₁ = Σ x_p, e₂ = Σ x_p x_q, and e₃ = Π x_p, the joint determinant;
+  - N_T = y^{−1/2} Σ |θ_p²/η³|², T's own norm (W50), and P_T, its joint form;
+  - D = y|η|⁴, the untwisted sector (the torus alone), as the baseline.
+
+**Disclosed.** In review before the run, the cusp-growth check was found to need a tenfold rise from y = 4 to y = 8.
+But e₁ grows like |q|^{−1/12}, about eightfold over that range, so a correct prediction would have read as a failure.
+The threshold was set to fourfold, which the asymptotics guarantee for every growing candidate, and D's decay was
+added as fact 7 states.
+
+**The result (COMPUTED; G1 to G4 as predicted).**
+- **G1, the joint determinant is flat.** e₃ = 4 at every grid point to 1.8 × 10⁻¹⁴. Jacobi's θ₂θ₃θ₄ = 2η³ holds to
+  1.7 × 10⁻¹⁵.
+- **G2 and G3, the census on the half fundamental domain.** Interior search, the three boundary pieces, and the
+  corners:
+
+| candidate | at i | at ω (ρ) | other critical points | toward the cusp |
+|---|---|---|---|---|
+| e₁ | saddle, 2 + 2√2 | the global minimum, 3·2^{2/3} | none | grows |
+| e₂ | saddle, 2 + 4√2 | the global minimum, 3·2^{4/3} | none | grows |
+| D = y\|η\|⁴ | saddle, 0.348301 | the global maximum, 0.355753 | none | → 0 |
+| N_T | saddle, 13.555 | the global minimum, 12.674 | none | grows |
+| P_T = 16 D^{−3/2} | saddle, 77.84 | the global minimum, 75.40 | none | grows |
+
+  - Every value matches its closed form to 10⁻⁸, from η(i) = Γ(¼)/(2π^{3/4}) and |η(ω)| = 3^{1/8}Γ(⅓)^{3/2}/(2π).
+- **G4.** No candidate has an extremum away from i, ω and the cusp.
+- **Extra read-outs (no prior): the norms y^k ‖Y_k‖² of W50's one-dimensional couplings.**
+  - The non-cusp forms grow toward the cusp: O₊ and O₋ at k = 3, and O₋ at k = 5. O₋ at k = 3 has its minimum at ω.
+    O₊ at k = 3 and O₋ at k = 5 have their minima at i, with one more critical point each on x = ½ (y ≈ 0.896 and
+    0.902).
+  - The cusp forms decay there, and their maxima sit at generic points on the CP-symmetric lines. D at k = 5 peaks at
+    τ ≈ 1.551i (0.575). D at k = 7 peaks at τ ≈ ½ + 2.224i (0.791), with further critical points at 2.226i and
+    ½ + 1.091i.
+
+**What it shows (a READING).**
+- **The weave's three parity sectors, taken together, leave τ free.** Their joint determinant is the constant 4, by
+  Jacobi's identity. That is the weave's own one-loop statement of "not forced which".
+- **Every other canonical functional is extremal only at the fixed points or at the cusp.**
+  - The symmetric sums and T's norm are minimized exactly at ω. AM–GM against the flat product proves it, and the
+    census finds no other critical point.
+  - The untwisted determinant is maximized at ω (Osgood, Phillips and Sarnak).
+  - i is a saddle of each.
+  - The growing ones run to the cusp.
+- **So a canonical selection gives ω or the cusp.**
+  - If the principle minimizes the weave's energy-like functionals, τ = ω. Main's tagged postulate then has a weave
+    reading: the minimum of the three parities' symmetric determinants. But there W50's couplings are degenerate.
+  - If it maximizes a partition function, τ runs to the cusp, where the couplings become hierarchical in powers of
+    q^{1/8} and the count depends on the cusp's end data (W45 to W48).
+  - Realistic flavour needs τ away from both, and nothing canonical supplies that. Forced to choose, not forced
+    which, now with the reason: the joint determinant is flat.
+- **The coupling norms point elsewhere, as a question.** If the principle extremized a coupling's strength, the
+  lowest cusp-form couplings would put τ at a generic point on a reflection line (≈ 1.551i or ≈ ½ + 2.224i).
+  - There the residual group on T is trivial, so the masses are non-degenerate.
+  - The lines are fixed by τ ↦ −τ̄ and τ ↦ 1 − τ̄, which modular flavour models read as generalized CP. Whether the
+    weave's couplings would then conserve CP is not computed here.
+  - No such principle is on record, so this is named, not claimed.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result. The canonical functionals fix
+τ only at ω or the cusp. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -3584,6 +3659,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W48 | COMPUTED (the rule first; one run; every cell as predicted); conditional on a dictionary beyond Λ (the records' torus as a worldsheet), NEGATIVE for three | the owner's outside source for the cusp's unit, tested: a source of weight w turns the triplet's index into χ_{3/2−w} (the table at w = +4 … −24, all four puncture conditions); a c = 24 source with a lattice of rank ℓ gives (24 − ℓ)/8, one mode per eight lattice-free chiral bosons; q-expansions confirm (dimensions 3, 2, 1, 0). Three needs the bosonic string's 24 lattice-free oscillators (26 dimensions); the heterotic left-movers give one; a Niemeier or Monster vacuum none |
 | W49 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result; a post-hoc READING for W50 | the weave's three are a multiplicity: T = ℓ ⊗ M, one zero mode ℓ of the spin doublet times M, the three imaginary quaternion units (the intertwiners send T's three parity lines to one line, with Q = +2 on it). Every lift acts as a scalar on ℓ times a rotation of the units (W42's 96, exactly), and the Hodge–Riemann form is 2·I on M. The puncture conditions that keep ±3 are exactly the products 0 and L₆; V2 and V4 are entangled and give ∓1: three or split. Post hoc: the inner automorphisms by a and b are not words in L and R (the braid kernel is Δ⁴ = conj(a b⁻¹ a⁻¹ b)), so on the ruled branch the parity grading is not a symmetry at a fixed τ (W50 tests it) |
 | W50 | COMPUTED (the rule first, corrected before the run; one run; every cell as predicted); a WEAVE result on the ruled branch | the parity grading at a fixed τ. The inner automorphisms by a and b are not words in L and R (to length 12 the words with H₁ matrix I are relators or conj(a b⁻¹ a⁻¹ b)^{±1}); they enter with the sign or the swap. On ⟨L, R⟩ the residual on T is 4 scalars at a generic τ, cyclic of order 8 at i, of order 12 at ω (W40's frame: 16 and 48). Couplings in τ alone for T ⊗ T split as D, O₊, O₋ with dimensions as predicted; the lowest symmetric ones are off-diagonal; at a generic τ the mixing is far from a permutation (0.67, 0.69), at i and ω degenerate. T is η²¹·(θ₄², θ₂², θ₃²) on the parities, through a unique monomial intertwiner |
+| W51 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result | what fixes τ: the candidates fixed by THE WEAVE rule (symmetric functions of the three parity sectors' determinants \|θ_p/η\|², T's own norm, and the untwisted y\|η\|⁴). The joint determinant is exactly 4 (Jacobi), so flat; e₁, e₂, N_T and P_T are minimal exactly at ω and y\|η\|⁴ maximal there, i a saddle of each, no other critical point (interior and boundary census). A canonical selection gives ω (degenerate couplings, W50) or the cusp. Extra: the lowest cusp-form couplings' norms peak at generic points on the reflection lines (≈ 1.551i, ≈ ½ + 2.224i) |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -3627,6 +3703,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W51_RULE.md`: the rule, committed before the code; `the_weaves_functionals_on_tau.py` → `the_weaves_functionals_on_tau.json`: W51, the weave's canonical functionals on the τ-line (the flat joint determinant, the critical-point census of the symmetric sums, T's norm and the untwisted determinant, and the coupling norms; a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W50_RULE.md`: the rule, committed before the code (with a correction before the run); `the_parity_grading_at_a_fixed_tau.py` → `the_parity_grading_at_a_fixed_tau.json`: W50, the parity grading at a fixed τ on the ruled branch (the word identities, the kernel to length 12, the residuals on T, the couplings in τ alone by piece and weight, the mixing at a generic τ, and T against the three even theta constants).
 - `W49_RULE.md`: the rule, committed before the code; `the_generations_are_a_multiplicity.py` → `the_generations_are_a_multiplicity.json`: W49, the triplet as ℓ ⊗ M (the intertwiners on T's parity lines, the lifts in the basis t_p, the Hodge–Riemann form, the puncture conditions in ρ_Q ⊗ M, and four extra read-outs).
 - `W48_RULE.md`: the rule, committed before the code; `the_outside_source_at_the_cusp.py` → `the_outside_source_at_the_cusp.json`: W48, the outside source's dressing law and the c = 24 candidates (the weight law at the four puncture conditions, the lattice and oscillator families, q-expansion dimensions, and the analytic facts).

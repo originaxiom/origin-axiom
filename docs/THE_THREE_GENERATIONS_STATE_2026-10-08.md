@@ -253,6 +253,16 @@ Under the owner's rulings, the table's rows split into two groups:
     alone. The modulus τ is the state that breaks the weave's group, and no functional on record fixes it.
   - T is exactly η²¹·(θ₄², θ₂², θ₃²) on the parities (½, 0), (0, ½), (½, ½): the three even theta constants of the
     records' torus.
+- **W51, what fixes τ (the owner's choice; rule first):**
+  - The weave's joint determinant over its three parities, Π |θ_p/η|², is exactly 4 by Jacobi's identity. So the
+    three sectors together leave τ free.
+  - Every other canonical functional is extremal only at the fixed points. The symmetric sums and T's own norm are
+    minimal exactly at ω, the untwisted determinant y|η|⁴ is maximal there, and i is a saddle of each. The growing ones
+    run to the cusp.
+  - So a canonical selection gives ω, where W50's couplings are degenerate, or the cusp. Nothing canonical gives a
+    generic τ: forced to choose, not forced which, with the flat joint determinant as the reason.
+  - An extra read-out, named as a question: the lowest cusp-form couplings' strengths peak at generic points on the
+    reflection lines (≈ 1.551i, ≈ ½ + 2.224i).
 
 ## Questions open with main
 
@@ -268,7 +278,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W50 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W51 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§55).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§56).

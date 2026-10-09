@@ -1128,6 +1128,40 @@ def test_w50_the_parity_grading_at_a_fixed_tau():
     assert abs(t3 ** 4 - t2 ** 4 - t4 ** 4) < 1e-12
 
 
+def test_w51_the_weaves_functionals_on_tau():
+    """W51 (the owner's 'look for what fixes tau'; the rule first; one run; every cell as predicted): the joint
+    determinant of the three parity sectors is exactly 4 (Jacobi), so flat in tau; the symmetric sums and T's norm are
+    minimized at omega and the untwisted determinant maximized there, with i a saddle and no other critical point. In
+    process: the theta and eta series at random points, the AM-GM bound, and the closed forms at i and omega"""
+    import math
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_weaves_functionals_on_tau.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True and all(d["checks"].values())
+    cen = d["the census, by candidate"]
+    assert {n: (c["i"]["type"], c["rho"]["type"]) for n, c in cen.items()} == {
+        "e1": ("saddle", "minimum"), "e2": ("saddle", "minimum"), "D": ("saddle", "maximum"),
+        "N_T": ("saddle", "minimum"), "P_T": ("saddle", "minimum")}
+    assert all(not c["critical points in the interior"] for c in cen.values())
+
+    def x(t):
+        n = np.arange(-20, 21)
+        q = np.exp(2j * np.pi * t)
+        eta = np.exp(1j * np.pi * t / 12) * np.prod([1 - q ** m for m in range(1, 80)])
+        th = [np.sum(np.exp(1j * np.pi * (n + 0.5) ** 2 * t)), np.sum(np.exp(1j * np.pi * n ** 2 * t)),
+              np.sum((-1.0) ** n * np.exp(1j * np.pi * n ** 2 * t))]
+        return [abs(v / eta) ** 2 for v in th]
+
+    rng = np.random.default_rng(51)
+    for _ in range(20):
+        t = rng.uniform(-0.5, 0.5) + 1j * rng.uniform(0.9, 3.0)
+        xs = x(t)
+        assert abs(xs[0] * xs[1] * xs[2] - 4) < 1e-10
+        assert sum(xs) >= 3 * 2 ** (2 / 3) - 1e-12
+    assert abs(sum(x(1j)) - (2 + 2 * math.sqrt(2))) < 1e-10
+    assert abs(sum(x(0.5 + 1j * math.sqrt(3) / 2)) - 3 * 2 ** (2 / 3)) < 1e-10
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

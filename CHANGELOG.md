@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W51: what fixes τ — the joint determinant is flat, and the canonical functionals pick ω or the cusp; relay section 56
+
+- **W51** (the owner's choice; the rule 2badbda21 first; one run; a check's threshold fixed in review before it,
+  disclosed; every cell as predicted):
+  - the joint determinant of the three parity sectors, Π |θ_p/η|², is exactly 4 (Jacobi), so flat in τ;
+  - the symmetric sums e₁ and e₂ and T's own norm are minimal exactly at ω, and the untwisted y|η|⁴ is maximal
+    there; i is a saddle of each, with no other critical point in the census;
+  - extra (no prior): the lowest cusp-form couplings' norms peak at generic points on the reflection lines.
+- **What it shows:** nothing canonical fixes a generic τ. A canonical selection gives ω (degenerate couplings) or the
+  cusp.
+- **Relay §56** to main. **Surfaces.** The rule, the script and its JSON, the dossier (W51, a row, the header, the
+  files), the W51 test and regeneration probe, the state page, the relay and the ledger.
+
 ## The weave's W50: on the ruled branch the modulus breaks the weave's group, and T is the three even theta constants; relay section 55
 
 - **W50** (the rule 790853e77 first, with a correction before the run, a9bc64812; one run, re-serialised once; every

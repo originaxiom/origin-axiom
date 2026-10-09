@@ -1,0 +1,393 @@
+{
+ "status": "W51: what fixes tau? the weave's canonical functionals (the rule first)",
+ "G1": {
+  "max |e3 - 4| on the grid": 1.7763568394002505e-14,
+  "max relative |theta_2 theta_3 theta_4 - 2 eta^3|": 1.6970293080308028e-15
+ },
+ "the closed forms (at i, at rho)": {
+  "e1": [
+   4.82842712474619,
+   4.762203155904598
+  ],
+  "e2": [
+   7.656854249492381,
+   7.559526299369239
+  ],
+  "D": [
+   0.3483009824214193,
+   0.35575276278285933
+  ],
+  "N_T": [
+   13.555409356703663,
+   12.674196657579355
+  ],
+  "P_T": [
+   77.83733058956798,
+   75.40455136956393
+  ]
+ },
+ "the census, by candidate": {
+  "e1": {
+   "the gradient at i and at rho": [
+    3.1086244689504383e-10,
+    6.2803698347351e-11
+   ],
+   "i": {
+    "type": "saddle",
+    "value": 4.828427124746191
+   },
+   "rho": {
+    "type": "minimum",
+    "value": 4.762203155904598
+   },
+   "critical points on the boundary pieces (corners excluded)": {
+    "x = 0": [],
+    "x = 1/2": [],
+    "the arc": []
+   },
+   "critical points in the interior": [],
+   "the grid's minimum (value, x, y)": [
+    4.7622031559,
+    0.5,
+    0.8660254038
+   ],
+   "the grid's maximum (value, x, y)": [
+    16.301713274,
+    0.0,
+    4.0
+   ],
+   "along x = 0 at y = 4, 6, 8": [
+    16.30171327398579,
+    46.28885503648537,
+    131.88685026291128
+   ]
+  },
+  "e2": {
+   "the gradient at i and at rho": [
+    7.993605777301126e-10,
+    1.7763568394002502e-10
+   ],
+   "i": {
+    "type": "saddle",
+    "value": 7.6568542494923815
+   },
+   "rho": {
+    "type": "minimum",
+    "value": 7.559526299369237
+   },
+   "critical points on the boundary pieces (corners excluded)": {
+    "x = 0": [],
+    "x = 1/2": [],
+    "the arc": []
+   },
+   "critical points in the interior": [],
+   "the grid's minimum (value, x, y)": [
+    7.5595262994,
+    0.5,
+    0.8660254038
+   ],
+   "the grid's maximum (value, x, y)": [
+    66.9281228918,
+    0.5,
+    4.0
+   ],
+   "along x = 0 at y = 4, 6, 8": [
+    66.92812288553743,
+    535.8373668708746,
+    4348.595976335817
+   ]
+  },
+  "D": {
+   "the gradient at i and at rho": [
+    3.3306690738754696e-11,
+    3.2368285245694684e-11
+   ],
+   "i": {
+    "type": "saddle",
+    "value": 0.34830098242141916
+   },
+   "rho": {
+    "type": "maximum",
+    "value": 0.3557527627828588
+   },
+   "critical points on the boundary pieces (corners excluded)": {
+    "x = 0": [],
+    "x = 1/2": [],
+    "the arc": []
+   },
+   "critical points in the interior": [],
+   "the grid's minimum (value, x, y)": [
+    0.0606584795,
+    0.0,
+    4.0
+   ],
+   "the grid's maximum (value, x, y)": [
+    0.3557527628,
+    0.5,
+    0.8660254038
+   ],
+   "along x = 0 at y = 4, 6, 8": [
+    0.06065847945523547,
+    0.011204656390247937,
+    0.0018397255650896055
+   ]
+  },
+  "N_T": {
+   "the gradient at i and at rho": [
+    2.930988785010413e-09,
+    1.1546319456101628e-09
+   ],
+   "i": {
+    "type": "saddle",
+    "value": 13.55540935670368
+   },
+   "rho": {
+    "type": "minimum",
+    "value": 12.67419665757936
+   },
+   "critical points on the boundary pieces (corners excluded)": {
+    "x = 0": [],
+    "x = 1/2": [],
+    "the arc": []
+   },
+   "critical points in the interior": [],
+   "the grid's minimum (value, x, y)": [
+    12.6741966576,
+    0.5,
+    0.8660254038
+   ],
+   "the grid's maximum (value, x, y)": [
+    535.506595262,
+    0.0,
+    4.0
+   ],
+   "along x = 0 at y = 4, 6, 8": [
+    535.5065952619927,
+    10117.73859435158,
+    202763.79805280178
+   ]
+  },
+  "P_T": {
+   "the gradient at i and at rho": [
+    1.4210854715202002e-08,
+    2.879232793781456e-08
+   ],
+   "i": {
+    "type": "saddle",
+    "value": 77.83733058956824
+   },
+   "rho": {
+    "type": "minimum",
+    "value": 75.40455136956403
+   },
+   "critical points on the boundary pieces (corners excluded)": {
+    "x = 0": [],
+    "x = 1/2": [],
+    "the arc": []
+   },
+   "critical points in the interior": [],
+   "the grid's minimum (value, x, y)": [
+    75.4045513696,
+    0.5,
+    0.8660254038
+   ],
+   "the grid's maximum (value, x, y)": [
+    1070.9833111277,
+    0.0,
+    4.0
+   ],
+   "along x = 0 at y = 4, 6, 8": [
+    1070.98331112768,
+    13490.317422966025,
+    202763.7980330741
+   ]
+  }
+ },
+ "the values match the closed forms": {
+  "e1": true,
+  "e2": true,
+  "D": true,
+  "N_T": true,
+  "P_T": true
+ },
+ "extra read-outs (not predicted)": {
+  "the coupling norms": {
+   "O+ at k = 3": {
+    "i": {
+     "type": "minimum",
+     "value": 0.6140725952941105
+    },
+    "rho": {
+     "type": "maximum",
+     "value": 0.6543354690984696
+    },
+    "critical points on the boundary pieces (corners excluded)": {
+     "x = 0": [],
+     "x = 1/2": [
+      0.89643069
+     ],
+     "the arc": []
+    },
+    "critical points in the interior": [],
+    "the grid's minimum (value, x, y)": [
+     0.6140725953,
+     0.0,
+     1.0
+    ],
+    "the grid's maximum (value, x, y)": [
+     12.9196741588,
+     0.5,
+     4.0
+    ],
+    "along x = 0 at y = 4, 6, 8": [
+     12.919674116098573,
+     43.59904365544681,
+     103.34585976058676
+    ]
+   },
+   "O- at k = 3": {
+    "i": {
+     "type": "saddle",
+     "value": 0.7418333759497765
+    },
+    "rho": {
+     "type": "minimum",
+     "value": 0.47428388151323997
+    },
+    "critical points on the boundary pieces (corners excluded)": {
+     "x = 0": [],
+     "x = 1/2": [],
+     "the arc": []
+    },
+    "critical points in the interior": [],
+    "the grid's minimum (value, x, y)": [
+     0.4742838815,
+     0.5,
+     0.8660254038
+    ],
+    "the grid's maximum (value, x, y)": [
+     28.0906801396,
+     0.0,
+     4.0
+    ],
+    "along x = 0 at y = 4, 6, 8": [
+     28.090680139619096,
+     94.80604516681817,
+     224.72544039541833
+    ]
+   },
+   "D at k = 5": {
+    "i": {
+     "type": "saddle",
+     "value": 0.5083398548690414
+    },
+    "rho": {
+     "type": "minimum",
+     "value": 0.4485168249056988
+    },
+    "critical points on the boundary pieces (corners excluded)": {
+     "x = 0": [
+      1.55058917
+     ],
+     "x = 1/2": [
+      1.56565414
+     ],
+     "the arc": []
+    },
+    "critical points in the interior": [],
+    "the grid's minimum (value, x, y)": [
+     0.0295116818,
+     0.5,
+     4.0
+    ],
+    "the grid's maximum (value, x, y)": [
+     0.5752692983,
+     0.0,
+     1.55
+    ],
+    "along x = 0 at y = 4, 6, 8": [
+     0.029511681816634674,
+     0.0004185020081294294,
+     3.2933548069356756e-06
+    ]
+   },
+   "O- at k = 5": {
+    "i": {
+     "type": "minimum",
+     "value": 0.3023842687543463
+    },
+    "rho": {
+     "type": "maximum",
+     "value": 0.533597477451659
+    },
+    "critical points on the boundary pieces (corners excluded)": {
+     "x = 0": [],
+     "x = 1/2": [
+      0.902262
+     ],
+     "the arc": []
+    },
+    "critical points in the interior": [],
+    "the grid's minimum (value, x, y)": [
+     0.3023842688,
+     0.0,
+     1.0
+    ],
+    "the grid's maximum (value, x, y)": [
+     209.7457493467,
+     0.5,
+     4.0
+    ],
+    "along x = 0 at y = 4, 6, 8": [
+     209.74574726524008,
+     1592.7567734086315,
+     6711.863934034802
+    ]
+   },
+   "D at k = 7": {
+    "i": {
+     "type": "minimum",
+     "value": 0.284528852525326
+    },
+    "rho": {
+     "type": "maximum",
+     "value": 0.41574278290083505
+    },
+    "critical points on the boundary pieces (corners excluded)": {
+     "x = 0": [
+      2.22641752
+     ],
+     "x = 1/2": [
+      1.0911566,
+      2.22412083
+     ],
+     "the arc": []
+    },
+    "critical points in the interior": [],
+    "the grid's minimum (value, x, y)": [
+     0.1815496645,
+     0.0,
+     4.0
+    ],
+    "the grid's maximum (value, x, y)": [
+     0.7907644479,
+     0.5,
+     2.2240810621
+    ],
+    "along x = 0 at y = 4, 6, 8": [
+     0.18154966449246723,
+     0.005792706890958821,
+     8.10401063854857e-05
+    ]
+   }
+  },
+  "the vectorised evaluator agrees with W50's": true
+ },
+ "checks": {
+  "G1: e3 = 4 to 1e-10 and Jacobi's identity on the grid": true,
+  "G2: e1 and e2: only i (saddle) and rho (the global minimum), the closed-form values, growth to the cusp": true,
+  "G3: D (rho the maximum), N_T and P_T (rho the minimum); i a saddle; the closed-form values": true,
+  "G4: no candidate has an extremum away from i, rho and the cusp": true
+ },
+ "every check holds": true
+}

@@ -18520,3 +18520,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   then give mixing far from a permutation. T is the three even theta constants.
 - **So the obstruction the owner named lifts on the ruled branch.** The modulus τ breaks the weave's group, and no
   functional on record fixes it. Relay §55 sent.
+
+## 2026-10-09 — W51: what fixes τ; relay §56
+
+- **W51 ran once, after its rule** (the owner's "look for what fixes τ"). The weave's joint determinant over its
+  three parities is exactly 4, so flat in τ. Every other canonical functional is extremal only at ω or i, or runs to
+  the cusp. Every cell held as predicted.
+- **So nothing canonical fixes a generic τ.** Minimizing gives ω, where the couplings are degenerate. Relay §56 sent.
