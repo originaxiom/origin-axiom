@@ -1,5 +1,19 @@
 # Changelog
 
+## The weave's W52: the free numbers counted — 11 of the 13 flavour numbers at the geometry's weight; relay section 57
+
+- **W52** (the owner's order: what fixes τ, then the count; the rule 670ad24e7 first; one run; C1 and C4 as
+  predicted; C2 and C3 failed as worded and were explained post hoc, 128 of 128):
+  - the free flavour numbers are τ and the couplings' coefficients, counted as the Jacobian rank of the 13 flavour
+    numbers for every weight assignment in both frames;
+  - at the geometry's weight (k = 3) the Standard Model frame leaves 11, with two relations in the quark sector;
+  - post hoc: a symmetric zero-diagonal coupling forces m₃ = m₁ + m₂ (the record's ×136, ×43, ×17 wall, B1273). That
+    excludes weight 1 everywhere and the E₆ frame at weight 3, and with the dependency pattern it reproduces every rank.
+- **The tally:** at most 17 of the 19 free at the geometry's weight in the Standard Model frame, if that structure fits
+  (W53). In the E₆ frame, all 19.
+- **Relay §57** to main. **Surfaces.** The rule, the script and its JSON, the post-hoc script and its JSON, the dossier
+  (W52, a row, the header, the files), the W52 test, the regeneration list, the state page, the relay and the ledger.
+
 ## The weave's W51: what fixes τ — the joint determinant is flat, and the canonical functionals pick ω or the cusp; relay section 56
 
 - **W51** (the owner's choice; the rule 2badbda21 first; one run; a check's threshold fixed in review before it,

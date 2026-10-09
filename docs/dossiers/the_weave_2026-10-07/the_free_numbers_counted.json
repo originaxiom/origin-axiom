@@ -1,0 +1,4089 @@
+{
+ "status": "W52: the free numbers counted in the weave's modular structure (the rule first)",
+ "C1: the dimensions by frame and weight": {
+  "T (x) T": {
+   "1": 1,
+   "3": 2,
+   "5": 4,
+   "7": 5
+  },
+  "Sym^2 T": {
+   "1": 1,
+   "3": 1,
+   "5": 3,
+   "7": 3
+  }
+ },
+ "C1: by piece": {
+  "D at k = 1": 0,
+  "D at k = 3": 0,
+  "D at k = 5": 1,
+  "D at k = 7": 1,
+  "O+ at k = 1": 1,
+  "O+ at k = 3": 1,
+  "O+ at k = 5": 2,
+  "O+ at k = 7": 2,
+  "O- at k = 1": 0,
+  "O- at k = 3": 1,
+  "O- at k = 5": 1,
+  "O- at k = 7": 2
+ },
+ "C2: the scan": {
+  "T (x) T: (1, 1, 1)": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 5,
+   "u and d grouped": true,
+   "predicted rank": 5,
+   "ranks at three points": [
+    4,
+    4,
+    4
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     1.2006287623525806,
+     4.843812475009034e-10
+    ],
+    [
+     1.3085550558187307,
+     4.152674884342418e-10
+    ],
+    [
+     1.3165493791146785,
+     7.888021591834639e-10
+    ]
+   ]
+  },
+  "T (x) T: (1, 1, 3)": {
+   "d": [
+    1,
+    1,
+    2
+   ],
+   "P": 7,
+   "N_var": 7,
+   "u and d grouped": true,
+   "predicted rank": 7,
+   "ranks at three points": [
+    6,
+    6,
+    6
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.22594242996067343,
+     3.177031040678963e-10
+    ],
+    [
+     0.42956214035623996,
+     5.071683458729808e-10
+    ],
+    [
+     0.43279725980574746,
+     5.258670062736452e-10
+    ]
+   ]
+  },
+  "T (x) T: (1, 1, 5)": {
+   "d": [
+    1,
+    1,
+    4
+   ],
+   "P": 11,
+   "N_var": 7,
+   "u and d grouped": true,
+   "predicted rank": 7,
+   "ranks at three points": [
+    6,
+    6,
+    6
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.4653690114186732,
+     3.325775821822706e-10
+    ],
+    [
+     0.45400593871643286,
+     3.556004310831806e-10
+    ],
+    [
+     0.20577471218739457,
+     6.335749177612745e-11
+    ]
+   ]
+  },
+  "T (x) T: (1, 1, 7)": {
+   "d": [
+    1,
+    1,
+    5
+   ],
+   "P": 13,
+   "N_var": 7,
+   "u and d grouped": true,
+   "predicted rank": 7,
+   "ranks at three points": [
+    6,
+    6,
+    6
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.22930467516939837,
+     8.055710926570009e-11
+    ],
+    [
+     0.25157170414217733,
+     1.4423671911087344e-10
+    ],
+    [
+     0.383867050126862,
+     1.2168312220375466e-10
+    ]
+   ]
+  },
+  "T (x) T: (1, 3, 1)": {
+   "d": [
+    1,
+    2,
+    1
+   ],
+   "P": 7,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 7,
+   "ranks at three points": [
+    7,
+    7,
+    7
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0859461306199024,
+     null
+    ],
+    [
+     0.05477806126130156,
+     null
+    ],
+    [
+     0.1301262185313262,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (1, 3, 3)": {
+   "d": [
+    1,
+    2,
+    2
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0025782301012129685,
+     null
+    ],
+    [
+     0.03228137424402516,
+     null
+    ],
+    [
+     0.0006196260763485305,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (1, 3, 5)": {
+   "d": [
+    1,
+    2,
+    4
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.11787193894830206,
+     1.0715979153788883e-16
+    ],
+    [
+     0.13773933190365326,
+     1.1227139244259974e-16
+    ],
+    [
+     0.14396256079263714,
+     1.2582524129990774e-16
+    ]
+   ]
+  },
+  "T (x) T: (1, 3, 7)": {
+   "d": [
+    1,
+    2,
+    5
+   ],
+   "P": 15,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.024798559515134603,
+     1.5110538289474207e-16
+    ],
+    [
+     0.10718003468655388,
+     1.0721610077441888e-16
+    ],
+    [
+     0.16465982077792346,
+     8.066329577636488e-17
+    ]
+   ]
+  },
+  "T (x) T: (1, 5, 1)": {
+   "d": [
+    1,
+    4,
+    1
+   ],
+   "P": 11,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 11,
+   "ranks at three points": [
+    10,
+    10,
+    10
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.021852267870206298,
+     8.803297522329624e-11
+    ],
+    [
+     0.004807510574298202,
+     1.2839379895933152e-11
+    ],
+    [
+     0.021206948441405638,
+     1.2321993278918092e-11
+    ]
+   ]
+  },
+  "T (x) T: (1, 5, 3)": {
+   "d": [
+    1,
+    4,
+    2
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.011522555277616506,
+     1.4391989236392674e-12
+    ],
+    [
+     0.0008696935832657235,
+     2.13342811630944e-11
+    ],
+    [
+     0.0011099986502622157,
+     1.645070284697286e-12
+    ]
+   ]
+  },
+  "T (x) T: (1, 5, 5)": {
+   "d": [
+    1,
+    4,
+    4
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.013801178450821364,
+     1.1026929707064622e-13
+    ],
+    [
+     0.07379049530004383,
+     3.11278826732981e-11
+    ],
+    [
+     0.008231383445221256,
+     2.719836453852223e-11
+    ]
+   ]
+  },
+  "T (x) T: (1, 5, 7)": {
+   "d": [
+    1,
+    4,
+    5
+   ],
+   "P": 19,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0027948657110155035,
+     5.339588952805909e-11
+    ],
+    [
+     3.163604902691339e-05,
+     1.2367090367055583e-10
+    ],
+    [
+     0.0192984327542404,
+     7.028733011982475e-12
+    ]
+   ]
+  },
+  "T (x) T: (1, 7, 1)": {
+   "d": [
+    1,
+    5,
+    1
+   ],
+   "P": 13,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 11,
+   "ranks at three points": [
+    10,
+    10,
+    10
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.008055080703644631,
+     7.449041965801037e-12
+    ],
+    [
+     0.025701198674252055,
+     6.425356612449207e-11
+    ],
+    [
+     0.016622128818909773,
+     5.114430710653738e-11
+    ]
+   ]
+  },
+  "T (x) T: (1, 7, 3)": {
+   "d": [
+    1,
+    5,
+    2
+   ],
+   "P": 15,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.007499079538614363,
+     1.767415571674095e-12
+    ],
+    [
+     0.022577873542502847,
+     1.208329787028273e-10
+    ],
+    [
+     0.05303980789999801,
+     6.034004853671304e-11
+    ]
+   ]
+  },
+  "T (x) T: (1, 7, 5)": {
+   "d": [
+    1,
+    5,
+    4
+   ],
+   "P": 19,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02071037154028044,
+     6.073121041822855e-12
+    ],
+    [
+     0.04266352329743151,
+     8.360891165942848e-11
+    ],
+    [
+     0.0019600548397933812,
+     1.5631106040348045e-11
+    ]
+   ]
+  },
+  "T (x) T: (1, 7, 7)": {
+   "d": [
+    1,
+    5,
+    5
+   ],
+   "P": 21,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.03273630191006434,
+     8.69250301288984e-12
+    ],
+    [
+     0.007720248293194651,
+     4.402700755748528e-11
+    ],
+    [
+     0.0075589628960821935,
+     7.468208539830525e-12
+    ]
+   ]
+  },
+  "T (x) T: (3, 1, 1)": {
+   "d": [
+    2,
+    1,
+    1
+   ],
+   "P": 7,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 7,
+   "ranks at three points": [
+    7,
+    7,
+    7
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.10311946409997058,
+     null
+    ],
+    [
+     0.029831106020357132,
+     null
+    ],
+    [
+     0.13157875490641358,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (3, 1, 3)": {
+   "d": [
+    2,
+    1,
+    2
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.20673133688115333,
+     null
+    ],
+    [
+     0.022173765756472102,
+     null
+    ],
+    [
+     0.0024868659958006325,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (3, 1, 5)": {
+   "d": [
+    2,
+    1,
+    4
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.12282025398635671,
+     7.558266767917795e-17
+    ],
+    [
+     0.02381383914841314,
+     1.702622947367266e-16
+    ],
+    [
+     0.10297887058009876,
+     3.9633128786803985e-17
+    ]
+   ]
+  },
+  "T (x) T: (3, 1, 7)": {
+   "d": [
+    2,
+    1,
+    5
+   ],
+   "P": 15,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.14312685334891956,
+     1.0057162510129163e-16
+    ],
+    [
+     0.11064528749978085,
+     4.9620954585634515e-17
+    ],
+    [
+     0.08670798846785634,
+     1.110244902624477e-16
+    ]
+   ]
+  },
+  "T (x) T: (3, 3, 1)": {
+   "d": [
+    2,
+    2,
+    1
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.1267003124101083,
+     null
+    ],
+    [
+     0.06722949425372252,
+     null
+    ],
+    [
+     0.24633462355922364,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (3, 3, 3)": {
+   "d": [
+    2,
+    2,
+    2
+   ],
+   "P": 11,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 11,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.06947597172171187,
+     null
+    ],
+    [
+     0.008254867022338231,
+     null
+    ],
+    [
+     0.11301461637332,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (3, 3, 5)": {
+   "d": [
+    2,
+    2,
+    4
+   ],
+   "P": 15,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.08949021651092527,
+     7.109415388691083e-17
+    ],
+    [
+     0.027112405344836006,
+     5.459583982187125e-17
+    ],
+    [
+     0.0968687420791068,
+     9.63330610306099e-17
+    ]
+   ]
+  },
+  "T (x) T: (3, 3, 7)": {
+   "d": [
+    2,
+    2,
+    5
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0553225655699818,
+     7.094757366165503e-17
+    ],
+    [
+     0.05504316010993443,
+     5.175341053089748e-17
+    ],
+    [
+     0.03407827872343918,
+     1.1263686341749154e-16
+    ]
+   ]
+  },
+  "T (x) T: (3, 5, 1)": {
+   "d": [
+    2,
+    4,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.04298089719955896,
+     3.4575056596766784e-14
+    ],
+    [
+     0.012971239085955615,
+     4.105741379612519e-12
+    ],
+    [
+     0.01302176119955939,
+     6.475085090951953e-13
+    ]
+   ]
+  },
+  "T (x) T: (3, 5, 3)": {
+   "d": [
+    2,
+    4,
+    2
+   ],
+   "P": 15,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.009060129664983757,
+     null
+    ],
+    [
+     0.014032749633913563,
+     null
+    ],
+    [
+     0.008413960983984697,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (3, 5, 5)": {
+   "d": [
+    2,
+    4,
+    4
+   ],
+   "P": 19,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0005970381685282995,
+     null
+    ],
+    [
+     0.027683852371273614,
+     null
+    ],
+    [
+     0.03433433696884737,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (3, 5, 7)": {
+   "d": [
+    2,
+    4,
+    5
+   ],
+   "P": 21,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.010100384790228156,
+     null
+    ],
+    [
+     0.011884192728736146,
+     null
+    ],
+    [
+     0.05198442064259259,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (3, 7, 1)": {
+   "d": [
+    2,
+    5,
+    1
+   ],
+   "P": 15,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.05713912712995852,
+     2.278553743618374e-13
+    ],
+    [
+     0.05006778598121274,
+     2.1161618731310678e-11
+    ],
+    [
+     0.007129025195573995,
+     5.706587723293096e-13
+    ]
+   ]
+  },
+  "T (x) T: (3, 7, 3)": {
+   "d": [
+    2,
+    5,
+    2
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02995932398388032,
+     null
+    ],
+    [
+     0.01633549624683005,
+     null
+    ],
+    [
+     0.07068745983799213,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (3, 7, 5)": {
+   "d": [
+    2,
+    5,
+    4
+   ],
+   "P": 21,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.055467452710330566,
+     null
+    ],
+    [
+     0.020824884056373814,
+     null
+    ],
+    [
+     0.01352526007691878,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (3, 7, 7)": {
+   "d": [
+    2,
+    5,
+    5
+   ],
+   "P": 23,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.06515189303247736,
+     null
+    ],
+    [
+     0.002856550515622265,
+     null
+    ],
+    [
+     0.0010664304674026254,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (5, 1, 1)": {
+   "d": [
+    4,
+    1,
+    1
+   ],
+   "P": 11,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 11,
+   "ranks at three points": [
+    10,
+    10,
+    10
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.006906443795469797,
+     9.918667117892805e-11
+    ],
+    [
+     0.006439144543678176,
+     5.286569799183991e-11
+    ],
+    [
+     0.0009012331447715463,
+     1.4638992311482976e-12
+    ]
+   ]
+  },
+  "T (x) T: (5, 1, 3)": {
+   "d": [
+    4,
+    1,
+    2
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0066236213614515324,
+     1.1877287066556706e-12
+    ],
+    [
+     0.03208557392011267,
+     9.992901199583843e-15
+    ],
+    [
+     0.00042362506728362963,
+     4.528965107813113e-12
+    ]
+   ]
+  },
+  "T (x) T: (5, 1, 5)": {
+   "d": [
+    4,
+    1,
+    4
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0007838820914252033,
+     2.957072900781996e-11
+    ],
+    [
+     0.0031945306065687554,
+     1.4151568420843492e-11
+    ],
+    [
+     0.02992264723695984,
+     3.3869025911079217e-11
+    ]
+   ]
+  },
+  "T (x) T: (5, 1, 7)": {
+   "d": [
+    4,
+    1,
+    5
+   ],
+   "P": 19,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.011471237580603328,
+     1.3300833316442274e-11
+    ],
+    [
+     0.0008969973310753062,
+     5.957447753012407e-12
+    ],
+    [
+     0.0010398694087232012,
+     3.1733117339466435e-12
+    ]
+   ]
+  },
+  "T (x) T: (5, 3, 1)": {
+   "d": [
+    4,
+    2,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.00719166677054316,
+     1.8512677229927624e-11
+    ],
+    [
+     0.0001272478302224586,
+     3.207727528563469e-11
+    ],
+    [
+     0.0011617779771618366,
+     1.917584942604099e-12
+    ]
+   ]
+  },
+  "T (x) T: (5, 3, 3)": {
+   "d": [
+    4,
+    2,
+    2
+   ],
+   "P": 15,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02519903172600517,
+     null
+    ],
+    [
+     0.017552433239039093,
+     null
+    ],
+    [
+     0.024307329355734465,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (5, 3, 5)": {
+   "d": [
+    4,
+    2,
+    4
+   ],
+   "P": 19,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.011080337660596122,
+     null
+    ],
+    [
+     0.017822660568809927,
+     null
+    ],
+    [
+     0.00953077362487985,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (5, 3, 7)": {
+   "d": [
+    4,
+    2,
+    5
+   ],
+   "P": 21,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02558167146518206,
+     null
+    ],
+    [
+     0.009493945259549684,
+     null
+    ],
+    [
+     0.00792224267306952,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (5, 5, 1)": {
+   "d": [
+    4,
+    4,
+    1
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0027581672854691173,
+     3.9092450612226205e-11
+    ],
+    [
+     0.05533282659460891,
+     4.0153409663671835e-12
+    ],
+    [
+     0.012409020178763826,
+     2.0523231322732663e-11
+    ]
+   ]
+  },
+  "T (x) T: (5, 5, 3)": {
+   "d": [
+    4,
+    4,
+    2
+   ],
+   "P": 19,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.08124916019379089,
+     null
+    ],
+    [
+     0.04613393439598251,
+     null
+    ],
+    [
+     0.0009415301235532538,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (5, 5, 5)": {
+   "d": [
+    4,
+    4,
+    4
+   ],
+   "P": 23,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.03544903629693762,
+     null
+    ],
+    [
+     0.0007171433793516348,
+     null
+    ],
+    [
+     0.05343847425280458,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (5, 5, 7)": {
+   "d": [
+    4,
+    4,
+    5
+   ],
+   "P": 25,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0020610487255534847,
+     null
+    ],
+    [
+     0.11481078994149076,
+     null
+    ],
+    [
+     0.035428966107684964,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (5, 7, 1)": {
+   "d": [
+    4,
+    5,
+    1
+   ],
+   "P": 19,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02372603485841749,
+     7.67237527666754e-12
+    ],
+    [
+     0.023722319828391913,
+     3.151874145384408e-11
+    ],
+    [
+     0.011366881457352153,
+     1.040158041890419e-10
+    ]
+   ]
+  },
+  "T (x) T: (5, 7, 3)": {
+   "d": [
+    4,
+    5,
+    2
+   ],
+   "P": 21,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.08701619989862738,
+     null
+    ],
+    [
+     0.07884303408953322,
+     null
+    ],
+    [
+     0.021213570815392727,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (5, 7, 5)": {
+   "d": [
+    4,
+    5,
+    4
+   ],
+   "P": 25,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.07011013456396593,
+     null
+    ],
+    [
+     0.04583081000854249,
+     null
+    ],
+    [
+     0.03994402792084686,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (5, 7, 7)": {
+   "d": [
+    4,
+    5,
+    5
+   ],
+   "P": 27,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.01671196147619437,
+     null
+    ],
+    [
+     0.0732848083668414,
+     null
+    ],
+    [
+     0.06735411293433659,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (7, 1, 1)": {
+   "d": [
+    5,
+    1,
+    1
+   ],
+   "P": 13,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 11,
+   "ranks at three points": [
+    10,
+    10,
+    10
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0049558900961704806,
+     7.996827465385928e-11
+    ],
+    [
+     0.0014843814949704168,
+     3.101312158352149e-11
+    ],
+    [
+     0.05898828128700543,
+     7.715940124317252e-11
+    ]
+   ]
+  },
+  "T (x) T: (7, 1, 3)": {
+   "d": [
+    5,
+    1,
+    2
+   ],
+   "P": 15,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.019064250117823433,
+     1.919888485415238e-13
+    ],
+    [
+     0.0024170733850534614,
+     2.3775857668682616e-11
+    ],
+    [
+     0.010434169222478959,
+     9.912950829972163e-12
+    ]
+   ]
+  },
+  "T (x) T: (7, 1, 5)": {
+   "d": [
+    5,
+    1,
+    4
+   ],
+   "P": 19,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0015195873885030878,
+     1.1889246623000295e-10
+    ],
+    [
+     0.0316884714158168,
+     6.697216882719991e-13
+    ],
+    [
+     0.07350367666841755,
+     1.5588421871249992e-11
+    ]
+   ]
+  },
+  "T (x) T: (7, 1, 7)": {
+   "d": [
+    5,
+    1,
+    5
+   ],
+   "P": 21,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.001432167698579846,
+     1.4919614826046395e-11
+    ],
+    [
+     0.0009533813991621794,
+     9.649381738576454e-12
+    ],
+    [
+     0.015824849356046552,
+     2.136517814331544e-11
+    ]
+   ]
+  },
+  "T (x) T: (7, 3, 1)": {
+   "d": [
+    5,
+    2,
+    1
+   ],
+   "P": 15,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.013722708260634122,
+     4.5161678442497356e-11
+    ],
+    [
+     0.05239417451416005,
+     1.0833172504250671e-12
+    ],
+    [
+     0.050759779091355706,
+     8.328714113484516e-13
+    ]
+   ]
+  },
+  "T (x) T: (7, 3, 3)": {
+   "d": [
+    5,
+    2,
+    2
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.001529394879925176,
+     null
+    ],
+    [
+     0.025864310340722185,
+     null
+    ],
+    [
+     0.06959594913804873,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (7, 3, 5)": {
+   "d": [
+    5,
+    2,
+    4
+   ],
+   "P": 21,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.028315305264056942,
+     null
+    ],
+    [
+     0.00865304647655402,
+     null
+    ],
+    [
+     0.017434347439911166,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (7, 3, 7)": {
+   "d": [
+    5,
+    2,
+    5
+   ],
+   "P": 23,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.03613387780125394,
+     null
+    ],
+    [
+     0.029817507217199973,
+     null
+    ],
+    [
+     0.024136705316582005,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (7, 5, 1)": {
+   "d": [
+    5,
+    4,
+    1
+   ],
+   "P": 19,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.025150890921251657,
+     6.770708275970085e-11
+    ],
+    [
+     0.047001478258945434,
+     3.501390404647602e-11
+    ],
+    [
+     0.008897641477444929,
+     3.3862981140948425e-11
+    ]
+   ]
+  },
+  "T (x) T: (7, 5, 3)": {
+   "d": [
+    5,
+    4,
+    2
+   ],
+   "P": 21,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.05372297020763693,
+     null
+    ],
+    [
+     0.06505246345954041,
+     null
+    ],
+    [
+     0.08292020855282839,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (7, 5, 5)": {
+   "d": [
+    5,
+    4,
+    4
+   ],
+   "P": 25,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02784276635576748,
+     null
+    ],
+    [
+     0.0998099981883066,
+     null
+    ],
+    [
+     0.007249247314240742,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (7, 5, 7)": {
+   "d": [
+    5,
+    4,
+    5
+   ],
+   "P": 27,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.04139846202593227,
+     null
+    ],
+    [
+     0.10124418445377217,
+     null
+    ],
+    [
+     0.015713224163454817,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (7, 7, 1)": {
+   "d": [
+    5,
+    5,
+    1
+   ],
+   "P": 21,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.07172851034830133,
+     8.591520563007158e-11
+    ],
+    [
+     0.03602556905552731,
+     3.08957093759153e-11
+    ],
+    [
+     0.07671558415790485,
+     4.173561474625426e-11
+    ]
+   ]
+  },
+  "T (x) T: (7, 7, 3)": {
+   "d": [
+    5,
+    5,
+    2
+   ],
+   "P": 23,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.03137626648285932,
+     null
+    ],
+    [
+     0.10736803504441199,
+     null
+    ],
+    [
+     0.03668639443440182,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (7, 7, 5)": {
+   "d": [
+    5,
+    5,
+    4
+   ],
+   "P": 27,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.07253022678040574,
+     null
+    ],
+    [
+     0.15826844344712257,
+     null
+    ],
+    [
+     0.1258689466633257,
+     null
+    ]
+   ]
+  },
+  "T (x) T: (7, 7, 7)": {
+   "d": [
+    5,
+    5,
+    5
+   ],
+   "P": 29,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02469159878450311,
+     null
+    ],
+    [
+     0.08358902853200381,
+     null
+    ],
+    [
+     0.04528642359951788,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 1, 1)": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 5,
+   "u and d grouped": true,
+   "predicted rank": 5,
+   "ranks at three points": [
+    4,
+    4,
+    4
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     1.2217297130189535,
+     1.0703961233015e-09
+    ],
+    [
+     1.3163950531181643,
+     6.326757968251467e-10
+    ],
+    [
+     1.3046704173706196,
+     6.110117914475659e-10
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 1, 3)": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 7,
+   "u and d grouped": true,
+   "predicted rank": 5,
+   "ranks at three points": [
+    5,
+    5,
+    5
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.32029612755755693,
+     null
+    ],
+    [
+     0.709565667986747,
+     null
+    ],
+    [
+     1.0169029275882695,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 1, 5)": {
+   "d": [
+    1,
+    1,
+    3
+   ],
+   "P": 9,
+   "N_var": 7,
+   "u and d grouped": true,
+   "predicted rank": 7,
+   "ranks at three points": [
+    6,
+    6,
+    6
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.2791449588753336,
+     1.9365131722989947e-10
+    ],
+    [
+     0.18110364677934454,
+     4.501913721588371e-10
+    ],
+    [
+     0.24348622706684858,
+     2.1768897112750248e-10
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 1, 7)": {
+   "d": [
+    1,
+    1,
+    3
+   ],
+   "P": 9,
+   "N_var": 7,
+   "u and d grouped": true,
+   "predicted rank": 7,
+   "ranks at three points": [
+    6,
+    6,
+    6
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.4041570920319107,
+     4.4651571132394687e-10
+    ],
+    [
+     0.17566128534980713,
+     9.733366490022072e-11
+    ],
+    [
+     0.32999820325947427,
+     1.5058879525958316e-10
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 3, 1)": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 5,
+   "ranks at three points": [
+    5,
+    5,
+    5
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.9326254163816787,
+     null
+    ],
+    [
+     1.095913394896867,
+     null
+    ],
+    [
+     1.0949486769255812,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 3, 3)": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 5,
+   "ranks at three points": [
+    5,
+    5,
+    5
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0640045554432016,
+     null
+    ],
+    [
+     0.729811058517431,
+     null
+    ],
+    [
+     1.1614419609098845,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 3, 5)": {
+   "d": [
+    1,
+    1,
+    3
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    7,
+    7,
+    7
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.20320397368398202,
+     7.080284495891257e-17
+    ],
+    [
+     0.19047249152767975,
+     1.33623043644915e-16
+    ],
+    [
+     0.4271277866074105,
+     1.919382034560263e-16
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 3, 7)": {
+   "d": [
+    1,
+    1,
+    3
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    7,
+    7,
+    7
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.06184867380473282,
+     1.5474283413883238e-16
+    ],
+    [
+     0.12798966382046809,
+     2.58117418879872e-16
+    ],
+    [
+     0.26966871457770153,
+     8.051323712224068e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 5, 1)": {
+   "d": [
+    1,
+    3,
+    1
+   ],
+   "P": 9,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.05316312829314616,
+     null
+    ],
+    [
+     0.04848826706515681,
+     null
+    ],
+    [
+     0.032723748944957304,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 5, 3)": {
+   "d": [
+    1,
+    3,
+    1
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.09925865604900481,
+     null
+    ],
+    [
+     0.039043729827166654,
+     null
+    ],
+    [
+     0.04591693498266796,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 5, 5)": {
+   "d": [
+    1,
+    3,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.03482108598195501,
+     6.226057489336348e-17
+    ],
+    [
+     0.07419937784603223,
+     1.9216911184948976e-17
+    ],
+    [
+     0.01926620939296665,
+     1.1088321541712743e-16
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 5, 7)": {
+   "d": [
+    1,
+    3,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02391595043085447,
+     1.1736385064698437e-16
+    ],
+    [
+     0.07769576836134985,
+     1.1243941402865303e-16
+    ],
+    [
+     0.011317200493678816,
+     1.0511881225118464e-16
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 7, 1)": {
+   "d": [
+    1,
+    3,
+    1
+   ],
+   "P": 9,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.027158094836260173,
+     null
+    ],
+    [
+     0.014666423468780332,
+     null
+    ],
+    [
+     0.010800858938459649,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 7, 3)": {
+   "d": [
+    1,
+    3,
+    1
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02020777784890018,
+     null
+    ],
+    [
+     0.057942084050224815,
+     null
+    ],
+    [
+     0.08062740934745291,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 7, 5)": {
+   "d": [
+    1,
+    3,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.003511394951593794,
+     3.0728408018251563e-17
+    ],
+    [
+     0.01722682679405588,
+     6.069298684011792e-17
+    ],
+    [
+     2.4246243968059572e-05,
+     2.6203725390580815e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (1, 7, 7)": {
+   "d": [
+    1,
+    3,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.024312429755312656,
+     1.3919325688059268e-16
+    ],
+    [
+     0.02245384509970669,
+     2.430826890187017e-16
+    ],
+    [
+     0.002212380492908749,
+     5.801072878548783e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 1, 1)": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 5,
+   "ranks at three points": [
+    5,
+    5,
+    5
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.4345592690137145,
+     null
+    ],
+    [
+     0.6953281165757177,
+     null
+    ],
+    [
+     0.5255038815985739,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 1, 3)": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 5,
+   "ranks at three points": [
+    5,
+    5,
+    5
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     1.1166194471353776,
+     null
+    ],
+    [
+     0.6971205872347045,
+     null
+    ],
+    [
+     0.7092538255857895,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 1, 5)": {
+   "d": [
+    1,
+    1,
+    3
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    7,
+    7,
+    7
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.24829649103242254,
+     2.429585938168668e-16
+    ],
+    [
+     0.17522653023965581,
+     9.187693318783152e-17
+    ],
+    [
+     0.18107541524316012,
+     1.2679707973353663e-16
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 1, 7)": {
+   "d": [
+    1,
+    1,
+    3
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    7,
+    7,
+    7
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.28379427473477886,
+     1.2424844761465744e-16
+    ],
+    [
+     0.4138095142889099,
+     8.969759634662036e-17
+    ],
+    [
+     0.048023523735427544,
+     4.3632502355364115e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 3, 1)": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 7,
+   "u and d grouped": true,
+   "predicted rank": 5,
+   "ranks at three points": [
+    5,
+    5,
+    5
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.3078867687219953,
+     null
+    ],
+    [
+     0.5802988828610426,
+     null
+    ],
+    [
+     0.524735860199591,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 3, 3)": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 5,
+   "u and d grouped": true,
+   "predicted rank": 5,
+   "ranks at three points": [
+    4,
+    4,
+    4
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.5373928590104279,
+     5.130323735045129e-10
+    ],
+    [
+     1.7320508071417084,
+     5.506920958826201e-10
+    ],
+    [
+     1.008672902175107,
+     8.676112417520115e-10
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 3, 5)": {
+   "d": [
+    1,
+    1,
+    3
+   ],
+   "P": 9,
+   "N_var": 7,
+   "u and d grouped": true,
+   "predicted rank": 7,
+   "ranks at three points": [
+    6,
+    6,
+    6
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.2967170416380458,
+     1.910058933731645e-10
+    ],
+    [
+     0.27217420063218634,
+     1.0863329801098537e-10
+    ],
+    [
+     0.3803793352763832,
+     1.2299792133408098e-10
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 3, 7)": {
+   "d": [
+    1,
+    1,
+    3
+   ],
+   "P": 9,
+   "N_var": 7,
+   "u and d grouped": true,
+   "predicted rank": 7,
+   "ranks at three points": [
+    6,
+    6,
+    6
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.512326841874223,
+     1.435503295085499e-10
+    ],
+    [
+     0.22167376841057657,
+     3.4613348413984987e-10
+    ],
+    [
+     0.34569371252916326,
+     8.681986306678549e-11
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 5, 1)": {
+   "d": [
+    1,
+    3,
+    1
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0754168377453129,
+     null
+    ],
+    [
+     0.04076847241097795,
+     null
+    ],
+    [
+     0.10323405632967261,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 5, 3)": {
+   "d": [
+    1,
+    3,
+    1
+   ],
+   "P": 9,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.07906797908300522,
+     null
+    ],
+    [
+     0.01241633082091597,
+     null
+    ],
+    [
+     0.15362719500444444,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 5, 5)": {
+   "d": [
+    1,
+    3,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.004932327985617077,
+     1.2981109263663947e-17
+    ],
+    [
+     0.05994412445719786,
+     2.0745715439214905e-17
+    ],
+    [
+     0.007302468603390158,
+     4.126173790704539e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 5, 7)": {
+   "d": [
+    1,
+    3,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.035658752718877765,
+     1.0003161166055541e-16
+    ],
+    [
+     0.00964830846219572,
+     4.816331467802304e-17
+    ],
+    [
+     0.017390864778614415,
+     8.568825707758591e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 7, 1)": {
+   "d": [
+    1,
+    3,
+    1
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.07352900966996846,
+     null
+    ],
+    [
+     0.015474024128714977,
+     null
+    ],
+    [
+     0.002952075242700296,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 7, 3)": {
+   "d": [
+    1,
+    3,
+    1
+   ],
+   "P": 9,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.050443410403077545,
+     null
+    ],
+    [
+     0.14119675623954817,
+     null
+    ],
+    [
+     0.0770386925129867,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 7, 5)": {
+   "d": [
+    1,
+    3,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.001678475047331265,
+     9.607928089278916e-17
+    ],
+    [
+     0.02553463515614615,
+     1.901294805661384e-17
+    ],
+    [
+     0.03104381568132707,
+     1.5732738321172095e-16
+    ]
+   ]
+  },
+  "Sym^2 T: (3, 7, 7)": {
+   "d": [
+    1,
+    3,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.04675660018457735,
+     2.6573216357369886e-17
+    ],
+    [
+     0.06234884649244173,
+     8.148858977869687e-17
+    ],
+    [
+     0.03661873711243487,
+     2.418781978268177e-16
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 1, 1)": {
+   "d": [
+    3,
+    1,
+    1
+   ],
+   "P": 9,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.09238241720591198,
+     null
+    ],
+    [
+     0.0725158938306003,
+     null
+    ],
+    [
+     0.07596976074437646,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 1, 3)": {
+   "d": [
+    3,
+    1,
+    1
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.1381988018896845,
+     null
+    ],
+    [
+     0.03873109893705341,
+     null
+    ],
+    [
+     0.07012106140364376,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 1, 5)": {
+   "d": [
+    3,
+    1,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.08446266357788701,
+     2.6882351931295127e-17
+    ],
+    [
+     0.04069601851439096,
+     4.456012766081907e-17
+    ],
+    [
+     0.0639268794701969,
+     3.011022599268625e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 1, 7)": {
+   "d": [
+    3,
+    1,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.014268685683041646,
+     8.951437677433514e-17
+    ],
+    [
+     0.0765060157117223,
+     3.666555238840521e-17
+    ],
+    [
+     0.008519057102339187,
+     5.769742778910722e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 3, 1)": {
+   "d": [
+    3,
+    1,
+    1
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.05235424230205923,
+     null
+    ],
+    [
+     0.04768944691240552,
+     null
+    ],
+    [
+     0.07220376350034573,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 3, 3)": {
+   "d": [
+    3,
+    1,
+    1
+   ],
+   "P": 9,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.006094896301550326,
+     null
+    ],
+    [
+     0.05520545713064711,
+     null
+    ],
+    [
+     0.08115843680324754,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 3, 5)": {
+   "d": [
+    3,
+    1,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.009094768811977126,
+     2.6916087525363493e-17
+    ],
+    [
+     0.04220577175593379,
+     6.794509931574839e-17
+    ],
+    [
+     0.0132957471820671,
+     1.1474738180047401e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 3, 7)": {
+   "d": [
+    3,
+    1,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.04756006391055386,
+     1.2030121518671926e-16
+    ],
+    [
+     0.04853334969102324,
+     7.393019518919776e-17
+    ],
+    [
+     0.017001699437253718,
+     1.1639700634985452e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 5, 1)": {
+   "d": [
+    3,
+    3,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.02198224041951066,
+     1.345510628241638e-11
+    ],
+    [
+     0.015046376804936574,
+     2.986401463928718e-12
+    ],
+    [
+     0.0021076103427810173,
+     8.522040822282247e-13
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 5, 3)": {
+   "d": [
+    3,
+    3,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.010136020258102549,
+     2.646161379330891e-12
+    ],
+    [
+     0.0017300873687080694,
+     1.0266067238590136e-11
+    ],
+    [
+     0.0055033643807593504,
+     1.9125141162164784e-11
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 5, 5)": {
+   "d": [
+    3,
+    3,
+    3
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.005927876510951271,
+     null
+    ],
+    [
+     0.024280849914065747,
+     null
+    ],
+    [
+     0.022805169170293495,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 5, 7)": {
+   "d": [
+    3,
+    3,
+    3
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.054668604288039276,
+     null
+    ],
+    [
+     0.02080451002844792,
+     null
+    ],
+    [
+     0.0004991395283552194,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 7, 1)": {
+   "d": [
+    3,
+    3,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.00033165653554255914,
+     7.095569366415238e-11
+    ],
+    [
+     0.003975650698850172,
+     8.797161830184972e-13
+    ],
+    [
+     0.017094166542635292,
+     1.0821457198879864e-12
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 7, 3)": {
+   "d": [
+    3,
+    3,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.024722015367249432,
+     8.451080671536667e-12
+    ],
+    [
+     0.030371954866542226,
+     4.788367615427718e-11
+    ],
+    [
+     0.025873991390389043,
+     1.2431535984822172e-11
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 7, 5)": {
+   "d": [
+    3,
+    3,
+    3
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.01898562117969348,
+     null
+    ],
+    [
+     0.066476813821825,
+     null
+    ],
+    [
+     0.03278870828757513,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (5, 7, 7)": {
+   "d": [
+    3,
+    3,
+    3
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.013897653276335945,
+     null
+    ],
+    [
+     0.02468061042407982,
+     null
+    ],
+    [
+     0.003192606114461072,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 1, 1)": {
+   "d": [
+    3,
+    1,
+    1
+   ],
+   "P": 9,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0047880362925680564,
+     null
+    ],
+    [
+     0.03609368166733708,
+     null
+    ],
+    [
+     0.08706981737464092,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 1, 3)": {
+   "d": [
+    3,
+    1,
+    1
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.09600813445399038,
+     null
+    ],
+    [
+     0.0204747098583214,
+     null
+    ],
+    [
+     0.0218730075277704,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 1, 5)": {
+   "d": [
+    3,
+    1,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.01896349755250621,
+     3.660629490960279e-17
+    ],
+    [
+     0.002813300747483415,
+     3.164974331096083e-18
+    ],
+    [
+     0.03759217283892381,
+     6.009781898553329e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 1, 7)": {
+   "d": [
+    3,
+    1,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.005106481368851398,
+     7.47667018930635e-17
+    ],
+    [
+     0.05890597502323334,
+     8.935405861289666e-17
+    ],
+    [
+     0.002967958442110374,
+     8.210999678196924e-18
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 3, 1)": {
+   "d": [
+    3,
+    1,
+    1
+   ],
+   "P": 9,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0300753919353501,
+     null
+    ],
+    [
+     0.123577662071259,
+     null
+    ],
+    [
+     0.05325988249147308,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 3, 3)": {
+   "d": [
+    3,
+    1,
+    1
+   ],
+   "P": 9,
+   "N_var": 11,
+   "u and d grouped": false,
+   "predicted rank": 9,
+   "ranks at three points": [
+    9,
+    9,
+    9
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.033745467922022834,
+     null
+    ],
+    [
+     0.042441772747258244,
+     null
+    ],
+    [
+     0.1107136542737888,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 3, 5)": {
+   "d": [
+    3,
+    1,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.11784487161236187,
+     2.9395156987317415e-17
+    ],
+    [
+     0.01600575725932832,
+     5.762156362289817e-18
+    ],
+    [
+     0.0268554991035747,
+     6.81130681995753e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 3, 7)": {
+   "d": [
+    3,
+    1,
+    3
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0023911159754263474,
+     2.0644624181989868e-17
+    ],
+    [
+     0.0380566522041746,
+     5.694892156180497e-17
+    ],
+    [
+     0.05397910084903277,
+     2.0013235743291915e-17
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 5, 1)": {
+   "d": [
+    3,
+    3,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.04101726907219692,
+     5.539948984493827e-13
+    ],
+    [
+     0.009986375978338052,
+     1.7208145592339816e-12
+    ],
+    [
+     0.008607683508707208,
+     1.4913500298303762e-12
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 5, 3)": {
+   "d": [
+    3,
+    3,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.010767257814584317,
+     3.8067638468732884e-11
+    ],
+    [
+     0.0014656659896279671,
+     1.7986427238753848e-13
+    ],
+    [
+     0.0001491562036990449,
+     1.4229141864158058e-12
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 5, 5)": {
+   "d": [
+    3,
+    3,
+    3
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.016310217879958896,
+     null
+    ],
+    [
+     0.03058608516983773,
+     null
+    ],
+    [
+     0.0159131766854356,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 5, 7)": {
+   "d": [
+    3,
+    3,
+    3
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.007697091582061371,
+     null
+    ],
+    [
+     0.008771003535915192,
+     null
+    ],
+    [
+     0.004108766878217256,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 7, 1)": {
+   "d": [
+    3,
+    3,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0009265659004851035,
+     6.804201446394183e-13
+    ],
+    [
+     0.0028801297618695413,
+     2.194634711095109e-11
+    ],
+    [
+     0.00309129660255304,
+     5.875186225872816e-12
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 7, 3)": {
+   "d": [
+    3,
+    3,
+    1
+   ],
+   "P": 13,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    12,
+    12,
+    12
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0009125865434729624,
+     3.4002604416543415e-13
+    ],
+    [
+     0.02584406647005328,
+     5.678077205991552e-12
+    ],
+    [
+     0.003788544130204317,
+     3.652077121780702e-11
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 7, 5)": {
+   "d": [
+    3,
+    3,
+    3
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.0114061364776416,
+     null
+    ],
+    [
+     0.02978409422881909,
+     null
+    ],
+    [
+     0.02997640271753536,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T: (7, 7, 7)": {
+   "d": [
+    3,
+    3,
+    3
+   ],
+   "P": 17,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 13,
+   "ranks at three points": [
+    13,
+    13,
+    13
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.009912809817738752,
+     null
+    ],
+    [
+     0.001323926534894894,
+     null
+    ],
+    [
+     0.010061057920879204,
+     null
+    ]
+   ]
+  }
+ },
+ "C3: the geometry's weight (all k = 3)": {
+  "T (x) T": {
+   "d": [
+    2,
+    2,
+    2
+   ],
+   "P": 11,
+   "N_var": 13,
+   "u and d grouped": false,
+   "predicted rank": 11,
+   "ranks at three points": [
+    11,
+    11,
+    11
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.06947597172171187,
+     null
+    ],
+    [
+     0.008254867022338231,
+     null
+    ],
+    [
+     0.11301461637332,
+     null
+    ]
+   ]
+  },
+  "Sym^2 T": {
+   "d": [
+    1,
+    1,
+    1
+   ],
+   "P": 5,
+   "N_var": 5,
+   "u and d grouped": true,
+   "predicted rank": 5,
+   "ranks at three points": [
+    4,
+    4,
+    4
+   ],
+   "gaps (smallest kept, largest dropped)": [
+    [
+     0.5373928590104279,
+     5.130323735045129e-10
+    ],
+    [
+     1.7320508071417084,
+     5.506920958826201e-10
+    ],
+    [
+     1.008672902175107,
+     8.676112417520115e-10
+    ]
+   ]
+  }
+ },
+ "C3: Sym^2 T's mixing at a sample point (|V_12|, |V_23|, |V_13|, J)": [
+  2.5772390190877775e-16,
+  1.1275770700825241e-15,
+  8.858425161755335e-17,
+  1.0142237902064146e-47
+ ],
+ "C4: the smallest structures with u and d not grouped": {
+  "T (x) T": {
+   "P": 7,
+   "assignments": [
+    "T (x) T: (1, 3, 1)",
+    "T (x) T: (3, 1, 1)"
+   ],
+   "ranks": [
+    [
+     7,
+     7,
+     7
+    ],
+    [
+     7,
+     7,
+     7
+    ]
+   ]
+  },
+  "Sym^2 T": {
+   "P": 5,
+   "assignments": [
+    "Sym^2 T: (1, 3, 1)",
+    "Sym^2 T: (1, 3, 3)",
+    "Sym^2 T: (3, 1, 1)",
+    "Sym^2 T: (3, 1, 3)"
+   ],
+   "ranks": [
+    [
+     5,
+     5,
+     5
+    ],
+    [
+     5,
+     5,
+     5
+    ],
+    [
+     5,
+     5,
+     5
+    ],
+    [
+     5,
+     5,
+     5
+    ]
+   ]
+  }
+ },
+ "extra read-outs (not predicted)": {
+  "singular values over the largest along x = 0 at y = 1.2, 2, 3": {
+   "T (x) T, k = 1, form 0": [
+    [
+     1.0,
+     0.662780814,
+     0.337219186
+    ],
+    [
+     1.0,
+     0.885030682,
+     0.114969318
+    ],
+    [
+     1.0,
+     0.97491217,
+     0.02508783
+    ]
+   ],
+   "T (x) T, k = 3, form 0": [
+    [
+     1.0,
+     0.769588505,
+     0.230411495
+    ],
+    [
+     1.0,
+     0.784312572,
+     0.215687428
+    ],
+    [
+     1.0,
+     0.95045791,
+     0.04954209
+    ]
+   ],
+   "T (x) T, k = 3, form 1": [
+    [
+     1.0,
+     1.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "Sym^2 T, k = 1, form 0": [
+    [
+     1.0,
+     0.662780814,
+     0.337219186
+    ],
+    [
+     1.0,
+     0.885030682,
+     0.114969318
+    ],
+    [
+     1.0,
+     0.97491217,
+     0.02508783
+    ]
+   ],
+   "Sym^2 T, k = 3, form 0": [
+    [
+     1.0,
+     0.769588505,
+     0.230411495
+    ],
+    [
+     1.0,
+     0.784312572,
+     0.215687428
+    ],
+    [
+     1.0,
+     0.95045791,
+     0.04954209
+    ]
+   ]
+  }
+ },
+ "checks": {
+  "C1: the coupling spaces' dimensions are d = 1, 2, 4, 5 (T (x) T) and 1, 1, 3, 3 (Sym^2 T)": true,
+  "C2: every assignment's Jacobian rank equals min(P, N_var) at all three points (128 assignments)": false,
+  "C3: at k = 3 everywhere, T (x) T has rank 11 and Sym^2 T rank 5 with |V_12| = |V_23| = |V_13| = 0": false,
+  "C4: the smallest P with u and d not grouped is 7 (T (x) T) and 5 (Sym^2 T), with rank P there": true
+ },
+ "every check holds": false
+}

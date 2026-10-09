@@ -59,6 +59,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   exactly 4 (Jacobi), so flat in τ. Every other canonical functional is extremal only at ω (the symmetric sums and T's
   norm minimal, the untwisted determinant maximal), with i a saddle, or runs to the cusp. So a canonical selection
   gives ω, where the couplings are degenerate, or the cusp. Nothing canonical gives a generic τ.
+- W52 (the owner's "then we count free numbers"; rule first; two cells failed as worded, explained post hoc): at the
+  geometry's weight, in the Standard Model frame, 11 of the 13 flavour numbers are free (τ, the scales, each sector's
+  ratio of two forms). The two predicted relations sit in the quark sector. A coupling that is the symmetric
+  zero-diagonal form alone forces m₃ = m₁ + m₂, the record's ×136 wall (B1273), so the lowest weights and the E₆ frame
+  there are excluded.
 
 ## The setting
 
@@ -3497,6 +3502,96 @@ added as fact 7 states.
 **Status.** COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result. The canonical functionals fix
 τ only at ω or the cusp. 0 of 19.
 
+## W52. The free numbers counted: at the geometry's weight 11 of the 13 flavour numbers are free, and the lowest couplings are excluded by a zero-diagonal identity (`the_free_numbers_counted.py`; `W52_RULE.md`)
+
+**Why.**
+- The owner's order (2026-10-09): "we look what fixes τ then we count free numbers". W51 settled the first half: τ
+  is free.
+- The rule (`W52_RULE.md`, 670ad24e7) was committed before the code.
+- **The setting.** On the ruled branch, given Λ (GENESIS FK11), with holomorphic couplings in τ alone (W50) and one
+  flavour-blind Higgs per sector.
+  - Each sector's Yukawa is a combination of the forms the weave fixes at its weight.
+  - The parameters are τ (two reals) and each sector's coefficients, less one phase per sector:
+    P = 2 + Σ (2d(k_s) − 1).
+  - The count is the rank of the 13 × P Jacobian of the 13 flavour numbers: nine log masses and the CKM's four.
+- **Weave or thread.** The forms are equivariant under the weave's whole group, τ is a state of the weave, and every
+  weight assignment in {1, 3, 5, 7}³ is read in both frames on record: T ⊗ T, the Standard Model's fields, and Sym² T,
+  E₆'s 27³. Weave-type.
+
+**Disclosed.** In review before the run, the scan was found to seed its random points from Python's hash() of the
+assignment, which changes from one process to the next. The seeds were made deterministic, by assignment index.
+
+**The result (COMPUTED; C1 and C4 as predicted; C2 and C3 FAILED as worded).**
+- **C1 (as predicted).** The coupling spaces have dimensions 1, 2, 4, 5 (T ⊗ T) and 1, 1, 3, 3 (Sym² T) at
+  k = 1, 3, 5, 7.
+- **C2 (FAILED).**
+  - At 68 of the 128 assignments the rank fell below the predicted min(P, N_var).
+  - The three random points agreed everywhere. The dropped singular values were 10⁻¹⁰ to 10⁻¹⁶ against kept ones of
+    10⁻⁴ or more, so these are structural degeneracies, not noise.
+  - Fact 4's "generic" was wrong. The computed ranks are the count, as the rule's last line says.
+- **C3 (FAILED in one half).**
+  - T ⊗ T at k = 3 for all three sectors has rank 11, as predicted.
+  - Sym² T at k = 3 has rank 4, not 5, with |V| a phase matrix to 10⁻¹⁵.
+- **C4 (as predicted).** The smallest P with mixing that is not a phase matrix is 7 in T ⊗ T, at (1, 3, 1) and
+  (3, 1, 1), and 5 in Sym² T, at (1, 3, ·) and (3, 1, ·), with rank P there.
+
+**Post hoc** (`the_free_numbers_counted_posthoc.py`; written after the read-out and labelled; W52's own output is
+unchanged). Two degeneracies, derived by hand after the run, account for every computed rank.
+- **P1, the zero-diagonal identity.**
+  - Take a symmetric coupling with zero diagonal, the O₊ shape [[0, x, y], [x, 0, z], [y, z, 0]]. The invariants of
+    Y^† Y satisfy t₂ = t₁²/4.
+  - So the masses obey **m₃ = m₁ + m₂ exactly**. The O₊ forms at k = 1 and 3 satisfy it to 3 × 10⁻¹⁶.
+  - A sector whose coupling is O₊ alone therefore has one free ratio, not two.
+- **P2, the dependency pattern.** The CKM and the up and down ratios depend only on τ and the up and down sectors' own
+  coefficients, and each sector's ratios only on τ and its own.
+  - The generic rank is then 3 (the scales) plus the largest matching between those observables and the parameters
+    they depend on, with P1 applied.
+  - That model reproduces all 128 computed ranks.
+- **P3, the quark sector at the geometry's weight.** With u and d both at k = 3, the quark sector's eight shape
+  numbers (four mass ratios and the CKM's four) come from six parameters: τ, and each sector's complex ratio of its two
+  forms. That leaves two relations.
+  - The scan shows these whatever the leptons' weight: (3, 3, 5) and (3, 3, 7) also have rank 11.
+  - With u or d at k ≥ 5 the relations go: (5, 3, 3) and (3, 5, 3) have rank 13.
+- **Extra read-outs (no prior).** Along x = 0 the O₊ forms' singular values run from (1, 0.66, 0.34) at y = 1.2 to
+  (1, 0.97, 0.03) at y = 3. Each obeys m₃ = m₁ + m₂: two nearly equal heavy masses and one light one, the opposite of
+  the observed pattern. The antisymmetric form alone always has (1, 1, 0).
+
+**What it shows (a READING on the computed facts).**
+- **The lowest couplings are excluded by the masses.**
+  - A coupling that is O₊ alone forces m₃ = m₁ + m₂. That is the only coupling at k = 1 in both frames and at k = 3
+    in E₆'s.
+  - The record already met this texture on another route. `docs/THE_DESTINATION_LEDGER_2026-09-06.md`, rows 6–14
+    (B1273, B1276), found that the zero-diagonal |ε_ijk| texture of its closing gives m₃ ≤ m₁ + m₂, violated ×136 for
+    the up quarks, ×43 for the down quarks and ×17 for the charged leptons.
+  - So every structure with such a sector is excluded: C4's smallest structures, and the E₆ frame at the geometry's
+    weight. Two routes now meet the same wall.
+  - The record's cure was a diagonal source. Here the wall is escaped by weight: by the antisymmetric piece O₋ at
+    k = 3 (in T ⊗ T only), or by the diagonal piece D from k = 5.
+- **The count at the geometry's weight (W45's T at 3/2, a weight-0 Higgs, so k = 3).**
+  - In the Standard Model frame, **11 of the 13 flavour numbers are free**: τ's two reals, the three scales, and the
+    up, down and lepton sectors' complex ratio of their two forms.
+  - Both predicted relations sit in the quark sector: eight quark shape numbers from six parameters.
+- **In the E₆ frame no structure survives below 13.** Once P1 removes the weights 1 and 3, every remaining structure
+  (k ≥ 5 everywhere) leaves all 13 free.
+- **The tally of the 19** (a reading on the record's typing):
+  - at the geometry's weight in the Standard Model frame: 11 flavour numbers, the three gauge couplings and v and m_H
+    from the reader, and θ_QCD as a bit (I-18, unearned);
+  - so at most 17 of the 19 are free on the ruled branch, given Λ, if that structure fits the data. In the E₆ frame,
+    all 19.
+- **Why each is free.**
+  - τ: the weave's joint determinant is flat (W51). The space of vacua is supplied and the point withheld, the
+    record's torsor pattern (`docs/THE_FORCED_AND_THE_FREE.md`).
+  - The coefficients: the weave fixes each form's shape, not its size.
+  - The weights: nothing fixes the Higgs's.
+  - The two relations come from the shape of the k = 3 couplings (zero diagonal, O₊ ⊕ O₋) and from τ being shared by
+    the up and down sectors.
+- **What decides it next.** Whether the measured quark masses and CKM satisfy those two relations is a fit (W53). If
+  they do, the principle predicts two quark-sector numbers. If not, the geometry's weight is excluded, and the count
+  rises to 13.
+
+**Status.** COMPUTED (the rule first; one run; C1 and C4 as predicted; C2 and C3 failed as worded, both explained
+post hoc by P1 and P2, 128 of 128); a WEAVE result on the ruled branch, given Λ. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -3660,6 +3755,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W49 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result; a post-hoc READING for W50 | the weave's three are a multiplicity: T = ℓ ⊗ M, one zero mode ℓ of the spin doublet times M, the three imaginary quaternion units (the intertwiners send T's three parity lines to one line, with Q = +2 on it). Every lift acts as a scalar on ℓ times a rotation of the units (W42's 96, exactly), and the Hodge–Riemann form is 2·I on M. The puncture conditions that keep ±3 are exactly the products 0 and L₆; V2 and V4 are entangled and give ∓1: three or split. Post hoc: the inner automorphisms by a and b are not words in L and R (the braid kernel is Δ⁴ = conj(a b⁻¹ a⁻¹ b)), so on the ruled branch the parity grading is not a symmetry at a fixed τ (W50 tests it) |
 | W50 | COMPUTED (the rule first, corrected before the run; one run; every cell as predicted); a WEAVE result on the ruled branch | the parity grading at a fixed τ. The inner automorphisms by a and b are not words in L and R (to length 12 the words with H₁ matrix I are relators or conj(a b⁻¹ a⁻¹ b)^{±1}); they enter with the sign or the swap. On ⟨L, R⟩ the residual on T is 4 scalars at a generic τ, cyclic of order 8 at i, of order 12 at ω (W40's frame: 16 and 48). Couplings in τ alone for T ⊗ T split as D, O₊, O₋ with dimensions as predicted; the lowest symmetric ones are off-diagonal; at a generic τ the mixing is far from a permutation (0.67, 0.69), at i and ω degenerate. T is η²¹·(θ₄², θ₂², θ₃²) on the parities, through a unique monomial intertwiner |
 | W51 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result | what fixes τ: the candidates fixed by THE WEAVE rule (symmetric functions of the three parity sectors' determinants \|θ_p/η\|², T's own norm, and the untwisted y\|η\|⁴). The joint determinant is exactly 4 (Jacobi), so flat; e₁, e₂, N_T and P_T are minimal exactly at ω and y\|η\|⁴ maximal there, i a saddle of each, no other critical point (interior and boundary census). A canonical selection gives ω (degenerate couplings, W50) or the cusp. Extra: the lowest cusp-form couplings' norms peak at generic points on the reflection lines (≈ 1.551i, ≈ ½ + 2.224i) |
+| W52 | COMPUTED (the rule first; one run; C1 and C4 as predicted; C2 and C3 failed as worded, explained post hoc 128 of 128); a WEAVE result given Λ | the free numbers counted: the 13 flavour numbers' Jacobian rank over τ and the couplings' coefficients, for every weight assignment in {1, 3, 5, 7}³ in both frames. At the geometry's weight (k = 3) the Standard Model frame leaves 11 (two quark-sector relations: eight quark shape numbers from six parameters). Post hoc: a symmetric zero-diagonal coupling forces m₃ = m₁ + m₂ (the record's ×136, ×43, ×17 wall, B1273), excluding k = 1 and E₆ at k = 3; with the dependency pattern this reproduces every rank. The tally: at most 17 of the 19 free there, if that structure fits (W53) |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -3703,6 +3799,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.
 - `W51_RULE.md`: the rule, committed before the code; `the_weaves_functionals_on_tau.py` → `the_weaves_functionals_on_tau.json`: W51, the weave's canonical functionals on the τ-line (the flat joint determinant, the critical-point census of the symmetric sums, T's norm and the untwisted determinant, and the coupling norms; a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W50_RULE.md`: the rule, committed before the code (with a correction before the run); `the_parity_grading_at_a_fixed_tau.py` → `the_parity_grading_at_a_fixed_tau.json`: W50, the parity grading at a fixed τ on the ruled branch (the word identities, the kernel to length 12, the residuals on T, the couplings in τ alone by piece and weight, the mixing at a generic τ, and T against the three even theta constants).
 - `W49_RULE.md`: the rule, committed before the code; `the_generations_are_a_multiplicity.py` → `the_generations_are_a_multiplicity.json`: W49, the triplet as ℓ ⊗ M (the intertwiners on T's parity lines, the lifts in the basis t_p, the Hodge–Riemann form, the puncture conditions in ρ_Q ⊗ M, and four extra read-outs).

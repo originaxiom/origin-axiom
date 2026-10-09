@@ -1,0 +1,532 @@
+{
+ "status": "W52 post hoc: the two degeneracies behind C2's and C3's failures (labelled post hoc)",
+ "P1": {
+  "max relative |t2 - t1^2/4| (and the diagonal's size)": 6.521243722894688e-17,
+  "max relative |m3 - m1 - m2|": 3.3882277497147365e-16
+ },
+ "P2: the model against the computed ranks": {
+  "T (x) T: (1, 1, 1)": {
+   "computed": 4,
+   "the model": 4
+  },
+  "T (x) T: (1, 1, 3)": {
+   "computed": 6,
+   "the model": 6
+  },
+  "T (x) T: (1, 1, 5)": {
+   "computed": 6,
+   "the model": 6
+  },
+  "T (x) T: (1, 1, 7)": {
+   "computed": 6,
+   "the model": 6
+  },
+  "T (x) T: (1, 3, 1)": {
+   "computed": 7,
+   "the model": 7
+  },
+  "T (x) T: (1, 3, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "T (x) T: (1, 3, 5)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "T (x) T: (1, 3, 7)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "T (x) T: (1, 5, 1)": {
+   "computed": 10,
+   "the model": 10
+  },
+  "T (x) T: (1, 5, 3)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (1, 5, 5)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (1, 5, 7)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (1, 7, 1)": {
+   "computed": 10,
+   "the model": 10
+  },
+  "T (x) T: (1, 7, 3)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (1, 7, 5)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (1, 7, 7)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (3, 1, 1)": {
+   "computed": 7,
+   "the model": 7
+  },
+  "T (x) T: (3, 1, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "T (x) T: (3, 1, 5)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "T (x) T: (3, 1, 7)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "T (x) T: (3, 3, 1)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "T (x) T: (3, 3, 3)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "T (x) T: (3, 3, 5)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "T (x) T: (3, 3, 7)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "T (x) T: (3, 5, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (3, 5, 3)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (3, 5, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (3, 5, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (3, 7, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (3, 7, 3)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (3, 7, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (3, 7, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (5, 1, 1)": {
+   "computed": 10,
+   "the model": 10
+  },
+  "T (x) T: (5, 1, 3)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (5, 1, 5)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (5, 1, 7)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (5, 3, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (5, 3, 3)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (5, 3, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (5, 3, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (5, 5, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (5, 5, 3)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (5, 5, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (5, 5, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (5, 7, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (5, 7, 3)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (5, 7, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (5, 7, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (7, 1, 1)": {
+   "computed": 10,
+   "the model": 10
+  },
+  "T (x) T: (7, 1, 3)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (7, 1, 5)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (7, 1, 7)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (7, 3, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (7, 3, 3)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (7, 3, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (7, 3, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (7, 5, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (7, 5, 3)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (7, 5, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (7, 5, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (7, 7, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "T (x) T: (7, 7, 3)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (7, 7, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "T (x) T: (7, 7, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "Sym^2 T: (1, 1, 1)": {
+   "computed": 4,
+   "the model": 4
+  },
+  "Sym^2 T: (1, 1, 3)": {
+   "computed": 5,
+   "the model": 5
+  },
+  "Sym^2 T: (1, 1, 5)": {
+   "computed": 6,
+   "the model": 6
+  },
+  "Sym^2 T: (1, 1, 7)": {
+   "computed": 6,
+   "the model": 6
+  },
+  "Sym^2 T: (1, 3, 1)": {
+   "computed": 5,
+   "the model": 5
+  },
+  "Sym^2 T: (1, 3, 3)": {
+   "computed": 5,
+   "the model": 5
+  },
+  "Sym^2 T: (1, 3, 5)": {
+   "computed": 7,
+   "the model": 7
+  },
+  "Sym^2 T: (1, 3, 7)": {
+   "computed": 7,
+   "the model": 7
+  },
+  "Sym^2 T: (1, 5, 1)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (1, 5, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (1, 5, 5)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (1, 5, 7)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (1, 7, 1)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (1, 7, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (1, 7, 5)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (1, 7, 7)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (3, 1, 1)": {
+   "computed": 5,
+   "the model": 5
+  },
+  "Sym^2 T: (3, 1, 3)": {
+   "computed": 5,
+   "the model": 5
+  },
+  "Sym^2 T: (3, 1, 5)": {
+   "computed": 7,
+   "the model": 7
+  },
+  "Sym^2 T: (3, 1, 7)": {
+   "computed": 7,
+   "the model": 7
+  },
+  "Sym^2 T: (3, 3, 1)": {
+   "computed": 5,
+   "the model": 5
+  },
+  "Sym^2 T: (3, 3, 3)": {
+   "computed": 4,
+   "the model": 4
+  },
+  "Sym^2 T: (3, 3, 5)": {
+   "computed": 6,
+   "the model": 6
+  },
+  "Sym^2 T: (3, 3, 7)": {
+   "computed": 6,
+   "the model": 6
+  },
+  "Sym^2 T: (3, 5, 1)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (3, 5, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (3, 5, 5)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (3, 5, 7)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (3, 7, 1)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (3, 7, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (3, 7, 5)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (3, 7, 7)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (5, 1, 1)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (5, 1, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (5, 1, 5)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (5, 1, 7)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (5, 3, 1)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (5, 3, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (5, 3, 5)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (5, 3, 7)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (5, 5, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "Sym^2 T: (5, 5, 3)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "Sym^2 T: (5, 5, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "Sym^2 T: (5, 5, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "Sym^2 T: (5, 7, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "Sym^2 T: (5, 7, 3)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "Sym^2 T: (5, 7, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "Sym^2 T: (5, 7, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "Sym^2 T: (7, 1, 1)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (7, 1, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (7, 1, 5)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (7, 1, 7)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (7, 3, 1)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (7, 3, 3)": {
+   "computed": 9,
+   "the model": 9
+  },
+  "Sym^2 T: (7, 3, 5)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (7, 3, 7)": {
+   "computed": 11,
+   "the model": 11
+  },
+  "Sym^2 T: (7, 5, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "Sym^2 T: (7, 5, 3)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "Sym^2 T: (7, 5, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "Sym^2 T: (7, 5, 7)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "Sym^2 T: (7, 7, 1)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "Sym^2 T: (7, 7, 3)": {
+   "computed": 12,
+   "the model": 12
+  },
+  "Sym^2 T: (7, 7, 5)": {
+   "computed": 13,
+   "the model": 13
+  },
+  "Sym^2 T: (7, 7, 7)": {
+   "computed": 13,
+   "the model": 13
+  }
+ },
+ "P2: agreements": 128,
+ "P3": {
+  "observables (four ratios and the CKM's four)": 8,
+  "parameters they depend on at k = 3, 3 (tau and two complex ratios)": 6,
+  "relations among them": 2
+ },
+ "checks": {
+  "P1: O+ alone has t2 = t1^2/4 and m3 = m1 + m2 to 1e-10": true,
+  "P2: the matching model reproduces every computed rank (128 of 128)": true
+ },
+ "every check holds": true
+}

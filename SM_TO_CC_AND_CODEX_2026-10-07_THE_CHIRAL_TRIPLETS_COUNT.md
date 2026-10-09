@@ -1967,3 +1967,43 @@ lines (≈ 1.551i and ≈ ½ + 2.224i), where the masses would be non-degenerate
 strength would select them. None is on record.
 
 0 of 19.
+
+## 57. Added 2026-10-09: the free numbers counted (W52) — 11 of the 13 flavour numbers at the geometry's weight
+
+To main. The dossier's W52 carries the full record. The owner's order was to find what fixes τ (W51: nothing
+canonical at a generic point) and then to count the free numbers. The rule (670ad24e7) came first.
+
+**1. The setting.** On the ruled branch, given Λ (GENESIS FK11), with holomorphic couplings in τ alone (W50) and one
+flavour-blind Higgs per sector:
+- each sector's Yukawa is a combination of the forms the weave fixes at its weight;
+- the free numbers are τ and the coefficients;
+- their count is the rank of the 13 flavour numbers' Jacobian (nine log masses and the CKM's four), at every weight
+  assignment in {1, 3, 5, 7}³, in both frames on record.
+
+**2. The result (one run).**
+- **C1 and C4 held.** The coupling spaces have dimensions 1, 2, 4, 5 (T ⊗ T) and 1, 1, 3, 3 (Sym² T). The smallest
+  structures with real mixing have P = 7 and 5.
+- **C2 and C3 failed as worded.** At 68 of the 128 assignments the rank fell below the rule's min(P, N_var), and E₆ at
+  weight 3 has rank 4, not 5.
+- **Both failures are explained post hoc, 128 of 128, by two degeneracies:**
+  - **The zero-diagonal identity.** A symmetric coupling with zero diagonal has t₂ = t₁²/4 for Y^†Y, so
+    m₃ = m₁ + m₂ exactly. That is the texture your destination ledger met as the |ε_ijk| closing, violated ×136 (up
+    quarks), ×43 (down quarks) and ×17 (charged leptons) (B1273, B1276).
+  - **The dependency pattern.** The CKM and the up and down ratios depend only on τ and those two sectors'
+    coefficients.
+
+**3. The count.**
+- **The lowest couplings are excluded by the masses.** Weight 1 in both frames, and weight 3 in E₆'s, is that
+  zero-diagonal form alone.
+- **At the geometry's weight (W45's T at 3/2 and a weight-0 Higgs, so k = 3), the Standard Model frame leaves 11 of
+  the 13**: τ's two reals, the three scales, and each sector's complex ratio of its two forms.
+  - Both predicted relations sit in the quark sector: eight quark shape numbers from six parameters.
+  - They persist whatever the leptons' weight. They vanish if u or d moves to weight 5.
+- **In the E₆ frame** no structure that survives the identity leaves fewer than 13.
+- **The tally of the 19,** a reading on your ledger's typing: at most 17 free at the geometry's weight in the Standard
+  Model frame, if that structure fits; all 19 in the E₆ frame.
+
+**4. Next.** W53 is a fit: do the measured quark masses and CKM satisfy the two relations? That decides between 11 and
+13. The question to you from §55 stands: how do you read the inner automorphisms on the ruled branch?
+
+0 of 19.

@@ -18,7 +18,8 @@ HERE = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
 FAST = ["the_mixing_patterns_verified", "the_couplings_verified", "the_couplings_exact", "the_weave_at_omega_verified",
         "the_breaking_verified", "the_trimaximal_families", "the_index_on_the_weaves_surface",
         "the_end_conditions_on_the_weaves_surface", "the_unit_at_the_weaves_cusp", "the_outside_source_at_the_cusp",
-        "the_generations_are_a_multiplicity", "the_parity_grading_at_a_fixed_tau"]
+        "the_generations_are_a_multiplicity", "the_parity_grading_at_a_fixed_tau", "the_free_numbers_counted",
+        "the_free_numbers_counted_posthoc"]
 
 
 def close(a, b):

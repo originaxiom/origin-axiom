@@ -263,6 +263,17 @@ Under the owner's rulings, the table's rows split into two groups:
     generic τ: forced to choose, not forced which, with the flat joint determinant as the reason.
   - An extra read-out, named as a question: the lowest cusp-form couplings' strengths peak at generic points on the
     reflection lines (≈ 1.551i, ≈ ½ + 2.224i).
+- **W52, the free numbers counted (the owner's order: τ first, then the count; rule first):**
+  - On the ruled branch, given Λ, with couplings in τ alone, the free flavour numbers are τ and the couplings'
+    coefficients. Their number is the rank of the 13 flavour numbers' Jacobian, computed for every weight assignment
+    in both frames.
+  - At the geometry's weight (k = 3), the Standard Model frame leaves 11 of the 13 free: τ's two reals, the three
+    scales, and each sector's complex ratio of its two forms. The two predicted relations sit in the quark sector.
+  - Two cells failed as worded and were explained post hoc, 128 of 128. A symmetric zero-diagonal coupling forces
+    m₃ = m₁ + m₂, the wall the record met as ×136, ×43 and ×17 (B1273). So weight 1, and the E₆ frame at weight 3, are
+    excluded by the masses. In the E₆ frame no structure leaves fewer than 13.
+  - The tally: at most 17 of the 19 are free at the geometry's weight in the Standard Model frame, if that structure
+    fits (W53, a fit). In the E₆ frame, all 19.
 
 ## Questions open with main
 
@@ -278,7 +289,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W51 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W52 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§56).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§57).

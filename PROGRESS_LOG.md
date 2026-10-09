@@ -18527,3 +18527,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   three parities is exactly 4, so flat in τ. Every other canonical functional is extremal only at ω or i, or runs to
   the cusp. Every cell held as predicted.
 - **So nothing canonical fixes a generic τ.** Minimizing gives ω, where the couplings are degenerate. Relay §56 sent.
+
+## 2026-10-09 — W52: the free numbers counted; relay §57
+
+- **W52 ran once, after its rule** (the owner's order: τ first, then the count). At the geometry's weight the Standard
+  Model frame leaves 11 of the 13 flavour numbers free, with two relations in the quark sector. Two cells failed as
+  worded.
+- **Post hoc, both failures are explained.** A symmetric zero-diagonal coupling forces m₃ = m₁ + m₂, the record's
+  ×136 wall, which also excludes the lowest weights. With the dependency pattern this reproduces all 128 ranks. Relay
+  §57 sent. The fit of the two quark relations (W53) decides between 11 and 13.

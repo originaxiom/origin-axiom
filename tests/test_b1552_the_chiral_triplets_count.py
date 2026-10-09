@@ -1162,6 +1162,29 @@ def test_w51_the_weaves_functionals_on_tau():
     assert abs(sum(x(0.5 + 1j * math.sqrt(3) / 2)) - 3 * 2 ** (2 / 3)) < 1e-10
 
 
+def test_w52_the_free_numbers_counted():
+    """W52 (the owner's 'then we count free numbers'; the rule first; one run; C1 and C4 as predicted, C2 and C3 failed
+    as worded and explained post hoc): at the geometry's weight the Standard Model frame leaves 11 of the 13 flavour
+    numbers; a symmetric zero-diagonal coupling forces m3 = m1 + m2. In process: that identity on random matrices"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_free_numbers_counted.json").read_text(encoding="utf-8"))
+    c = d["checks"]
+    assert [c[k] for k in c] == [True, False, False, True] and d["every check holds"] is False
+    assert d["C3: the geometry's weight (all k = 3)"]["T (x) T"]["ranks at three points"] == [11, 11, 11]
+    assert d["C3: the geometry's weight (all k = 3)"]["Sym^2 T"]["ranks at three points"] == [4, 4, 4]
+    scan = d["C2: the scan"]
+    assert sum(v["ranks at three points"] != [v["predicted rank"]] * 3 for v in scan.values()) == 68
+    assert all(scan[f"T (x) T: (3, 3, {k})"]["ranks at three points"] == [11] * 3 for k in (3, 5, 7))
+    p = json.loads((here / "the_free_numbers_counted_posthoc.json").read_text(encoding="utf-8"))
+    assert p["every check holds"] is True and p["P2: agreements"] == 128
+    rng = np.random.default_rng(52)
+    for _ in range(10):
+        x, y, z = rng.normal(size=3) + 1j * rng.normal(size=3)
+        m = np.sort(np.linalg.svd(np.array([[0, x, y], [x, 0, z], [y, z, 0]]), compute_uv=False))
+        assert abs(m[2] - m[0] - m[1]) < 1e-12 * m[2]
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
