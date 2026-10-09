@@ -130,3 +130,15 @@ dimension at k = 1.
 - One run. A failed launch (a crash before the read-out) is disclosed and fixed, not counted as a run.
 - Each cell is recorded as computed; a failed prediction is recorded as failed.
 - Post-hoc checks are labelled.
+
+## A correction before the run (2026-10-09, found in review of the script; no code had run)
+
+- **N2's wording is wrong as written.** It says every reduced word of length ≤ 12 with H₁ matrix I is empty or a word
+  for conj(u)^{±1}. That overlooks the braid group's relators. A reduced free word in L^{±1}, R^{±1} can represent the
+  identity of B₃, and then its H₁ matrix is I. The braid relation itself, L R⁻¹ L R L⁻¹ R, is one, of length 6.
+- **The claim fact 2 derives is about the automorphisms.**
+  - Every such word acts on F₂ as the identity or as conj(u)^{±1}.
+  - The words for conj(u)^{±1} have length 12 and use only L and R⁻¹, or only L⁻¹ and R.
+  - conj(a), conj(b) and their inverses never occur.
+- **The script tests that corrected claim.** The original wording stays above and is recorded as wrong. No other cell
+  changes.
