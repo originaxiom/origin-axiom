@@ -1,0 +1,18 @@
+{
+ "sources": {
+  "masses": "Huang and Zhou, 'Precise values of running quark and lepton masses in the Standard Model', Phys. Rev. D 103, 016010 (2021), arXiv:2009.04851v2 (13 Jan 2021); the PDF https://arxiv.org/pdf/2009.04851 fetched 2026-10-09, sha256 baeddc972002d60140ec54a8a2d378c51bc5e94ca8af9ac97c1164ff1621ceb6. Table 2 (quarks) and Table 3 (charged leptons), the row 'MZ, Full SM': the MS-bar running masses at mu = M_Z = 91.1876 GeV in the full Standard Model (six quarks and three leptons active), defined there above the electroweak scale as m_f = y_f v_F / sqrt(2) with v_F = 246 GeV. Each uncertainty is the printed sqrt(delta_exp^2 + delta_trunc^2). Their inputs are PDG 2020 (Zyla et al., their reference [5]).",
+  "transcription": "Copied by hand from the PDF's text layer (pdftotext -layout), the values exactly as printed, then converted to GeV. Not computed here."
+ },
+ "scale_GeV": 91.1876,
+ "scheme": "MS-bar, full Standard Model, m_f = y_f v_F / sqrt(2), v_F = 246 GeV",
+ "as_printed": {
+  "Table 2, MZ, Full SM": "mt / GeV 168.26 +- 0.75; mb / GeV 2.839 +- 0.026; mc / GeV 0.620 +- 0.017; ms / MeV 53.16 +- 4.61; md / MeV 2.67 +- 0.19; mu / MeV 1.23 +- 0.21",
+  "Table 3, MZ, Full SM": "mtau / GeV 1.72856 +- 0.00028; mmu / GeV 0.101766 +- 0.000023; me / MeV 0.48307 +- 0.00045"
+ },
+ "masses_GeV": {
+  "value": {"u": 0.00123, "c": 0.620, "t": 168.26, "d": 0.00267, "s": 0.05316, "b": 2.839,
+            "e": 0.00048307, "mu": 0.101766, "tau": 1.72856},
+  "sigma": {"u": 0.00021, "c": 0.017, "t": 0.75, "d": 0.00019, "s": 0.00461, "b": 0.026,
+            "e": 0.00000045, "mu": 0.000023, "tau": 0.00028}
+ }
+}
