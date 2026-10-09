@@ -1,5 +1,23 @@
 # Changelog
 
+## The weave's W50: on the ruled branch the modulus breaks the weave's group, and T is the three even theta constants; relay section 55
+
+- **W50** (the rule 790853e77 first, with a correction before the run, a9bc64812; one run, re-serialised once; every
+  cell as predicted):
+  - the inner automorphisms by a and b are not words in L and R. To length 12 the words with H₁ matrix I are relators
+    or conj(a b⁻¹ a⁻¹ b)^{±1}, and the sign and the swap bring the inner automorphisms in;
+  - on ⟨L, R⟩ the residual on T is four scalars at a generic τ, of order 8 at i and of order 12 at ω. W40's frame
+    gives 16 and 48;
+  - couplings in τ alone for T ⊗ T split as diagonal, symmetric and antisymmetric off-diagonal pieces, with dimensions
+    as predicted. The lowest symmetric couplings are off the diagonal, and at a generic τ the mixing is far from a
+    permutation;
+  - T is η²¹·(θ₄², θ₂², θ₃²) on the parities, through a unique monomial intertwiner.
+- **What it shows:** main's T-TAU-ONLY-PERMUTATION and B1617's residual hold where the inner automorphisms act, not for
+  the weave ⟨L, R⟩ alone. On the ruled branch the modulus is the state that breaks the weave's group, and the three
+  generations are the three even spin structures.
+- **Relay §55** to main. **Surfaces.** The rule and its correction, the script and its JSON, the dossier (W50, a row,
+  the header, the files), the W50 test, the regeneration list, the state page, the relay and the ledger.
+
 ## The weave's W49: the generations are a multiplicity, three or split; relay section 54
 
 - **W49** (the rule cd174afa7 first; one run; every cell as predicted; a review fix to the rule's M4 inference

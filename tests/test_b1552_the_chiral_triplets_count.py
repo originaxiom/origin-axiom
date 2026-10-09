@@ -1068,6 +1068,66 @@ def test_w49_the_generations_are_a_multiplicity():
     assert abs(s[0] / s[1] - np.sqrt(2)) < 1e-12
 
 
+def test_w50_the_parity_grading_at_a_fixed_tau():
+    """W50 (the rule first, corrected before the run; one run; every cell as predicted): the inner automorphisms are not
+    words in L and R, so on the ruled branch the residual on T at a generic tau is four scalars and couplings in tau
+    alone give mixing far from a permutation; T is eta^21 (theta_4^2, theta_2^2, theta_3^2). In process: the word
+    identities on free words, the coupling dimensions from W45's formula, and Jacobi's identity"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_parity_grading_at_a_fixed_tau.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True and all(d["checks"].values()) and d["every control holds"] is True
+    assert d["the rule's original N2 wording (every such word empty or for conj(u)^+-1), corrected before the run"] is False
+    n2 = d["N2: the words with H1 matrix I"]
+    assert n2["their automorphisms"] == {"the identity": 1944, "conj(u)": 196, "conj(u^-1)": 196}
+    n3 = d["N3: the residuals on T"]
+    assert n3["the ruled branch: generic tau (Delta^2)"] == {"order": 4, "commutant dimension": 9}
+    assert n3["W40's frame (with the inner automorphisms and -I): omega"] == {"order": 48, "commutant dimension": 1}
+    assert d["N6: the theta constants"]["the parity carried by each even theta constant"] == {
+        "(1/2, 0)": "theta_4^2", "(0, 1/2)": "theta_2^2", "(1/2, 1/2)": "theta_3^2"}
+    assert d["N5: the mixing at tau0"]["tau0"]["(a) O+ at k = 3 against D at k = 5"]["distance from the permutations"] > 0.5
+
+    def red(w):
+        out = []
+        for x in w:
+            if out and out[-1] == -x:
+                out.pop()
+            else:
+                out.append(x)
+        return out
+
+    def app(f, w):
+        out = []
+        for x in w:
+            out += f[x] if x > 0 else [-y for y in reversed(f[-x])]
+        return red(out)
+
+    def comp(*fs):
+        g = {1: [1], 2: [2]}
+        for f in fs:
+            g = {x: app(g, f[x]) for x in (1, 2)}
+        return g
+
+    conj = lambda u: {x: red(u + [x] + [-y for y in reversed(u)]) for x in (1, 2)}
+    L, Li, R, Ri = {1: [1], 2: [1, 2]}, {1: [1], 2: [-1, 2]}, {1: [1, 2], 2: [2]}, {1: [1, -2], 2: [2]}
+    s, P = {1: [-1], 2: [-2]}, {1: [2], 2: [1]}
+    assert comp(s, L, s, Li) == conj([-1]) and comp(s, R, s, Ri) == conj([2])
+    assert comp(P, L, P, Ri) == conj([2]) and comp(P, R, P, Li) == conj([-1])
+    D = comp(L, Ri, L)
+    assert comp(D, D, D, D) == conj([1, -2, -1, 2])
+    traces, sums = {"D": -1j, "O+": -1j, "O-": 1j}, {"D": 1.75, "O+": 0.75, "O-": 1.25}
+    for name, want in (("D", [0, 1, 1, 2, 2]), ("O+", [1, 2, 2, 3, 3]), ("O-", [1, 1, 2, 2, 3])):
+        chis = [3 * (k - 1) / 12 + 0.25 * (np.exp(1j * np.pi * k / 2) * traces[name]).real + 1.5 - sums[name]
+                for k in (3, 5, 7, 9, 11)]
+        assert np.allclose(chis, want)
+    tau = 0.21 + 1.04j
+    n = np.arange(-30, 31)
+    t2 = np.sum(np.exp(1j * np.pi * (n + 0.5) ** 2 * tau))
+    t3 = np.sum(np.exp(1j * np.pi * n ** 2 * tau))
+    t4 = np.sum((-1.0) ** n * np.exp(1j * np.pi * n ** 2 * tau))
+    assert abs(t3 ** 4 - t2 ** 4 - t4 ** 4) < 1e-12
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

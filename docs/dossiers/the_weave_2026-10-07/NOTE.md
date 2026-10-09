@@ -51,6 +51,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   with M the three imaginary quaternion units; the end conditions that keep three are exactly the ones blind to M
   (three or split). Post hoc: the inner automorphisms are not words in L and R, so on the ruled branch whether the
   parity grading holds at a fixed τ is W50's question.
+- W50 (rule first): on the ruled branch the parity grading is not a symmetry at a fixed τ. At a generic τ the weave's
+  residual on T is four scalars, and couplings in τ alone give mixing far from a permutation. So T-TAU-ONLY-PERMUTATION
+  and B1617's residual hold only where the inner automorphisms act. T is exactly the three even theta constants,
+  η²¹·(θ₄², θ₂², θ₃²).
 
 ## The setting
 
@@ -2423,6 +2427,10 @@ to T (as in W35 and W38). Its generators:
   which fix every τ. W38 and main's B1612 to B1616 build a thread's residual from the single element alone. The two are
   different scenarios, not one framework; see the assurance round below.
 
+**Added after W50 (2026-10-09).** The inner automorphisms by a and b are not words in L and R; they enter with the sign
+or the swap. So the residual built here, with them and −I, belongs to the frame where they act as moves. On the
+owner's ruled branch, the weave ⟨L, R⟩, the residual at ω is cyclic of order 12 and splits T into three lines (W50).
+
 ## W41. The weight of the weave's zero modes (`the_zero_modes_weight.py`; `W41_RULE.md`)
 
 **Why.** Main's S95 asked for "the weights the weave's zero modes carry". The rule (`W41_RULE.md`, 4a1d580f) was
@@ -2660,6 +2668,11 @@ reviewers, and earlier the audit lane, not the author.
 
 **Status.** Part A VERIFIED (not blind): main's WEAVE counts reproduced exactly. Part B COMPUTED: a census of every
 thread to length 12, each row a thread result. 0 of 19.
+
+**Added after W50 (2026-10-09).** The K cell's group theory stands: every invariant matrix of a subgroup containing K
+is diagonal in the parity basis. Its reading, "reads only τ and the grading", needs the inner automorphisms as moves.
+On the owner's ruled branch they are not words in L and R. There the residual at a generic τ is four scalars, and
+couplings in τ alone give mixing that is not a permutation (W50).
 
 ## W43. Which trimaximal family each tensor allows, in the record's frame and where c is gauge (`the_trimaximal_families.py`; `W43_RULE.md`)
 
@@ -3303,6 +3316,112 @@ in its string-vacuum form, returns a negative for three. 0 of 19.
 **Status.** COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result. The post-hoc point is a READING
 until W50. 0 of 19.
 
+## W50. The parity grading at a fixed τ: on the ruled branch the modulus breaks the weave's group, and T is the three even theta constants (`the_parity_grading_at_a_fixed_tau.py`; `W50_RULE.md`)
+
+**Why.**
+- W49 named the obstruction to the free numbers: T = ℓ ⊗ M, with geometry on ℓ and flavour on M. It also found a
+  premise to check.
+  - Main's T-TAU-ONLY-PERMUTATION, B1617's order-48 residual at ω, and this seat's W40 and relay §46 all take the inner
+    automorphisms by a and b as symmetries that fix every τ.
+  - Those automorphisms are not words in L and R.
+- On the owner's ruled branch (even ticks, positivity) the weave is ⟨L, R⟩. This arc computes what holds there.
+- The rule (`W50_RULE.md`, 790853e77) was committed before the code.
+- **Weave or thread.** The group is the joint action of every move on the ruled branch, and the couplings are
+  equivariant under all of it. A value of τ is a state of the weave, not a thread, and every τ is read. Weave-type.
+
+**Disclosed.**
+- **N2's wording was wrong, found in review before any code ran.**
+  - It said every reduced word with H₁ matrix I is empty or a word for conj(u)^{±1}. That overlooks the braid group's
+    relators, such as L R⁻¹ L R L⁻¹ R.
+  - A correction stating the claim fact 2 derives was committed before the run (a9bc64812). The script tests the
+    corrected claim and records the original wording beside it. That wording is false, as expected.
+- **A serialisation slip.** The run wrote one boolean ("L U L⁻¹ fixes ω") as the string "True", as W40's first run
+  once did. It was wrapped in bool() and the script rerun. The two outputs differ in that one value only.
+
+**The result (COMPUTED; N1 to N6 as predicted, N2 as corrected before the run; every control holds).**
+- **The controls.** In the basis t_p, ρ_T = (Δ, L⁻¹) is unitary, with tr ρ_T(S) = e^{iπ/4}, ρ_T(S)² = i, T-exponents
+  1/8, 3/8, 7/8 and tr ρ_T(ST) = 0 (W45). The inner automorphisms' lifts act trivially on D and by the parity
+  characters on O₊.
+- **N1, the words (exact).**
+  - The braid relation holds, and Δ⁴ = conj(a b⁻¹ a⁻¹ b).
+  - σ L σ L⁻¹ = conj(a⁻¹) and σ R σ R⁻¹ = conj(b), with σ the sign.
+  - P L P R⁻¹ = conj(b) and P R P L⁻¹ = conj(a⁻¹), with P the swap.
+- **N2, the kernel (exact, to length 12).**
+  - 1,062,880 reduced words were searched, and 2,336 have H₁ matrix I.
+  - 1,944 of them are relators: the identity automorphism, at lengths 6, 8, 10 and 12.
+  - 196 are conj(u) and 196 are conj(u⁻¹), every one of length 12 and of one sign.
+  - None is conj(a), conj(b) or an inverse. With the classical kernel ⟨Δ⁴⟩ of B₃ → SL(2, ℤ), ⟨L, R⟩ meets the inner
+    automorphisms only in ⟨conj(u)⟩.
+- **N3, the residuals on T.**
+
+| τ | ruled branch ⟨L, R⟩ | commutant | with the inner automorphisms and −I (W40's frame) | commutant |
+|---|---|---|---|---|
+| generic | Δ²: 4 scalars | 9 | order 16 (the parity grading) | 3 |
+| i | Δ: cyclic of order 8; eigen-turns 1/8, 1/8, 5/8 (a plane and a line) | 5 | not computed | — |
+| ω | L U L⁻¹: cyclic of order 12; three distinct eigenvalues; its cube a scalar | 3 | order 48, irreducible (W40) | 1 |
+
+- **N4, the couplings in τ alone** (T ⊗ T given Λ, a flavour-blind Higgs). These are vector-valued modular forms for
+  ρ_T^∨ ⊗ ρ_T^∨, split in the parity basis into D (diagonal), O₊ (symmetric off-diagonal) and O₋ (antisymmetric).
+  - Every dimension is as W45's formula predicted, with gaps of nine orders (2 × 10⁻⁷ against 4 × 10⁻¹⁶). W45's own
+    route agrees, and the S-relation holds off the arc to 4 × 10⁻¹⁵.
+
+| k | 1 | 3 | 5 | 7 | 9 | 11 |
+|---|---|---|---|---|---|---|
+| D | 0 | 0 | 1 | 1 | 2 | 2 |
+| O₊ | 1 | 1 | 2 | 2 | 3 | 3 |
+| O₋ | 0 | 1 | 1 | 2 | 2 | 3 |
+
+  - The six-dimensional symmetric couplings at k = 3 are one form. Its diagonal is zero, to 5 × 10⁻¹⁶ of its largest
+    entry.
+- **N5, the mixing at τ₀ = 0.17 + 1.13i.** The distance is from the nearest permutation.
+  - (a) O₊ at k = 3 against D at k = 5: distance 0.671. The singular values are 1, 0.749, 0.251 and 1, 0.673, 0.379.
+  - (b) Generic symmetric couplings at k = 5 against k = 7: distance 0.690.
+  - (c) D alone, k = 5 against k = 7: a permutation (distance 0).
+- **N6, the theta constants.**
+  - The T- and S-matrices of η²¹·(θ₂², θ₃², θ₄²) fit to 10⁻¹⁵: T-turns 1/8, 3/8, 7/8, and tr S = e^{iπ/4}.
+  - The intertwiners with ρ_T form one line (singular values 0.53, 0.32 and 10⁻¹³), and B is monomial and
+    invertible. B F obeys ρ_T's laws at a test point.
+  - The pairing (reported, not predicted): (½, 0) carries θ₄², (0, ½) carries θ₂², and (½, ½) carries θ₃².
+- **Extra read-outs (no prior): N5's couplings at the fixed points.**
+  - At ω every symmetric coupling has a degenerate pair, and the diagonal one has three equal moduli.
+  - At i the couplings have degenerate pairs or zeros, except the generic one at k = 5 (1, 0.94, 0.34).
+  - So no mixing is defined at either fixed point.
+
+**What it shows (a READING on the computed facts; given Λ, GENESIS FK11).**
+- **On the ruled branch the parity grading is not a symmetry at a fixed τ.**
+  - The inner automorphisms enter only with the sign or the swap, the forks the owner ruled out.
+  - At a generic τ the weave's residual on T is four scalars.
+  - So T-TAU-ONLY-PERMUTATION and B1617's order-48 residual hold in W40's frame, reproduced here (16 and 48), and not
+    for the weave ⟨L, R⟩ alone.
+  - This qualifies this seat's W40 and §46, which verified them in that frame without naming it.
+- **The modulus is the state that breaks the weave's group.**
+  - At a generic τ nothing of the group survives on T but scalars.
+  - Couplings in τ alone then include ones the inner automorphisms would forbid, among them the lowest symmetric
+    ones. They give non-degenerate masses and mixing far from a permutation.
+  - With them, the free numbers become values of modular forms at τ times the couplings' normalizations. That is the
+    structure of modular flavour symmetry, here read off the weave's own representation rather than chosen.
+- **Forced to choose, not forced which.**
+  - Every vacuum value of τ breaks the weave's group to its stabilizer: scalars at a generic point, a plane and a line
+    at i, three lines at ω.
+  - At i and at ω the couplings are degenerate. So realistic masses need τ away from the fixed points, and no
+    functional on record selects a point. Main's τ = ω, a tagged postulate, gives degenerate masses here too.
+- **T is the three even theta constants of the records' torus.**
+  - As a modular object the weave's triplet is η²¹·(θ₄², θ₂², θ₃²) on the parities (½, 0), (0, ½), (½, ½), through a
+    unique monomial intertwiner.
+  - Post hoc, a reading: that pairing is what the spin structures give, measured from the odd one (W45's base). The
+    odd characteristic [½, ½] plus a parity's character gives that parity's even characteristic, and θ₁, the odd one,
+    vanishes at the origin.
+  - So "the three generations are the three even spin structures" (the reading of W24 to W32, point 2) is now an
+    identification of representations, not a reading.
+- **Scope.**
+  - The couplings are holomorphic modular forms with a flavour-blind Higgs (a dictionary beyond Λ). A non-holomorphic
+    or Higgs-flavoured coupling is outside the arc.
+  - How many free numbers remain needs the weights fixed. The principle does not fix them, and this arc fits nothing.
+
+**Status.** COMPUTED (the rule first, with a disclosed correction before the run; one run, re-serialised once); a WEAVE
+result on the ruled branch. It qualifies main's T-TAU-ONLY-PERMUTATION and B1617 to the frame with the inner
+automorphisms. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -3464,6 +3583,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W47 | COMPUTED (the rule first; one run; a check's scope fixed in review, disclosed); a WEAVE result given Λ, NEGATIVE for a forcing | main's named arc: is one unit of end data at the weave's cusp forced? The flat line bundles on the surface are the 24 characters of the metaplectic group (the inner automorphisms die in the abelianization; S̃⁸ ↦ 24); six keep the forced weights. Every cusp exponent is an odd multiple of 1/24, so the natural cusp conditions coincide. The twisted index is 0 except −1 at r = 4 and r = 20, with actual forms behind them (q-expansions); |I| = 3 only with one cusp unit at a natural puncture condition. No forcing exists inside the weave; three needs a non-flat source at the cusp (GENESIS FK10) |
 | W48 | COMPUTED (the rule first; one run; every cell as predicted); conditional on a dictionary beyond Λ (the records' torus as a worldsheet), NEGATIVE for three | the owner's outside source for the cusp's unit, tested: a source of weight w turns the triplet's index into χ_{3/2−w} (the table at w = +4 … −24, all four puncture conditions); a c = 24 source with a lattice of rank ℓ gives (24 − ℓ)/8, one mode per eight lattice-free chiral bosons; q-expansions confirm (dimensions 3, 2, 1, 0). Three needs the bosonic string's 24 lattice-free oscillators (26 dimensions); the heterotic left-movers give one; a Niemeier or Monster vacuum none |
 | W49 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result; a post-hoc READING for W50 | the weave's three are a multiplicity: T = ℓ ⊗ M, one zero mode ℓ of the spin doublet times M, the three imaginary quaternion units (the intertwiners send T's three parity lines to one line, with Q = +2 on it). Every lift acts as a scalar on ℓ times a rotation of the units (W42's 96, exactly), and the Hodge–Riemann form is 2·I on M. The puncture conditions that keep ±3 are exactly the products 0 and L₆; V2 and V4 are entangled and give ∓1: three or split. Post hoc: the inner automorphisms by a and b are not words in L and R (the braid kernel is Δ⁴ = conj(a b⁻¹ a⁻¹ b)), so on the ruled branch the parity grading is not a symmetry at a fixed τ (W50 tests it) |
+| W50 | COMPUTED (the rule first, corrected before the run; one run; every cell as predicted); a WEAVE result on the ruled branch | the parity grading at a fixed τ. The inner automorphisms by a and b are not words in L and R (to length 12 the words with H₁ matrix I are relators or conj(a b⁻¹ a⁻¹ b)^{±1}); they enter with the sign or the swap. On ⟨L, R⟩ the residual on T is 4 scalars at a generic τ, cyclic of order 8 at i, of order 12 at ω (W40's frame: 16 and 48). Couplings in τ alone for T ⊗ T split as D, O₊, O₋ with dimensions as predicted; the lowest symmetric ones are off-diagonal; at a generic τ the mixing is far from a permutation (0.67, 0.69), at i and ω degenerate. T is η²¹·(θ₄², θ₂², θ₃²) on the parities, through a unique monomial intertwiner |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -3507,6 +3627,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W50_RULE.md`: the rule, committed before the code (with a correction before the run); `the_parity_grading_at_a_fixed_tau.py` → `the_parity_grading_at_a_fixed_tau.json`: W50, the parity grading at a fixed τ on the ruled branch (the word identities, the kernel to length 12, the residuals on T, the couplings in τ alone by piece and weight, the mixing at a generic τ, and T against the three even theta constants).
 - `W49_RULE.md`: the rule, committed before the code; `the_generations_are_a_multiplicity.py` → `the_generations_are_a_multiplicity.json`: W49, the triplet as ℓ ⊗ M (the intertwiners on T's parity lines, the lifts in the basis t_p, the Hodge–Riemann form, the puncture conditions in ρ_Q ⊗ M, and four extra read-outs).
 - `W48_RULE.md`: the rule, committed before the code; `the_outside_source_at_the_cusp.py` → `the_outside_source_at_the_cusp.json`: W48, the outside source's dressing law and the c = 24 candidates (the weight law at the four puncture conditions, the lattice and oscillator families, q-expansion dimensions, and the analytic facts).
 - `W47_RULE.md`: the rule, committed before the code; `the_unit_at_the_weaves_cusp.py` → `the_unit_at_the_weaves_cusp.json`: W47, every flat line bundle and every natural cusp condition on the weave's surface (the abelianization, the cusp exponents, the twisted index by the formula and by q-expansions, and the full table with cusp units).

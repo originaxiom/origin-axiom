@@ -241,6 +241,18 @@ Under the owner's rulings, the table's rows split into two groups:
     are entangled, and give ∓1.
   - Post hoc (a READING, W50 next): the inner automorphisms by a and b are not words in L and R. So on the ruled
     branch the parity grading that main's T-TAU-ONLY-PERMUTATION uses is not a symmetry at a fixed τ.
+- **W50, the parity grading at a fixed τ (rule first; the ruled branch):**
+  - The inner automorphisms by a and b enter only with the sign or the swap. To length 12 the words in L and R with H₁
+    matrix I are relators or conj(a b⁻¹ a⁻¹ b)^{±1}.
+  - On ⟨L, R⟩ the residual on T is four scalars at a generic τ, cyclic of order 8 at i and of order 12 at ω. With the
+    inner automorphisms and −I it is 16 and 48, as W40 and B1617 found.
+  - Couplings in τ alone for T ⊗ T have the dimensions W45's formula gives, and the lowest symmetric ones are off the
+    diagonal. At a generic τ their mixing is far from a permutation (distances 0.67 and 0.69). At i and ω the masses
+    are degenerate.
+  - So T-TAU-ONLY-PERMUTATION and B1617's residual hold where the inner automorphisms act, not for the weave ⟨L, R⟩
+    alone. The modulus τ is the state that breaks the weave's group, and no functional on record fixes it.
+  - T is exactly η²¹·(θ₄², θ₂², θ₃²) on the parities (½, 0), (0, ½), (½, ½): the three even theta constants of the
+    records' torus.
 
 ## Questions open with main
 
@@ -250,12 +262,13 @@ Under the owner's rulings, the table's rows split into two groups:
 - **The moves.** The counts depend on which moves the grammar allows: the sign (GENESIS GM5b, FK4) and the swap (GENESIS
   GM5c).
 - **The parity grading at a fixed τ.** On the ruled branch the weave is ⟨L, R⟩, which meets the inner automorphisms only
-  in the powers of conj(a b⁻¹ a⁻¹ b) (W49, post hoc). Do T-TAU-ONLY-PERMUTATION and B1617's residual hold for that
-  group, or only where the inner automorphisms act (W50)?
+  in the powers of conj(a b⁻¹ a⁻¹ b) (W49, post hoc; W50). On that branch T-TAU-ONLY-PERMUTATION and B1617's residual
+  do not hold, and couplings in τ alone give mixing that is not a permutation (W50). Does main read the inner
+  automorphisms as moves of the ruled weave?
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W49 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W50 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§54).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§55).

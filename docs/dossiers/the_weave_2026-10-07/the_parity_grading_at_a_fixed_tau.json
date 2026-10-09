@@ -1,0 +1,768 @@
+{
+ "status": "W50: is the parity grading a symmetry at a fixed tau on the ruled branch? (the rule first)",
+ "controls": {
+  "rho_T(S) and rho_T(T) are unitary in the basis t_p": true,
+  "tr rho_T(S)": [
+   0.707106781,
+   0.707106781
+  ],
+  "rho_T(S)^2 = i": true,
+  "rho_T(T)'s eigen-turns (W45: 1/8, 3/8, 7/8)": [
+   0.125,
+   0.375,
+   0.875
+  ],
+  "tr rho_T(ST)": [
+   0.0,
+   0.0
+  ],
+  "the inner automorphisms' lifts: trivial on D; their characters on O+": [
+   [
+    true,
+    [
+     -1.0,
+     1.0,
+     -1.0000000000000002
+    ]
+   ],
+   [
+    true,
+    [
+     -1.0,
+     1.0,
+     -1.0000000000000002
+    ]
+   ],
+   [
+    true,
+    [
+     -1.0,
+     -1.0,
+     1.0000000000000002
+    ]
+   ],
+   [
+    true,
+    [
+     -1.0,
+     -1.0,
+     1.0000000000000002
+    ]
+   ]
+  ]
+ },
+ "every control holds": true,
+ "N1: the word identities": {
+  "L R^-1 L = R^-1 L R^-1": true,
+  "Delta^4 = conj(a b^-1 a^-1 b)": true,
+  "sigma L sigma L^-1 = conj(a^-1)": true,
+  "sigma R sigma R^-1 = conj(b)": true,
+  "P L P R^-1 = conj(b)": true,
+  "P R P L^-1 = conj(a^-1)": true
+ },
+ "N2: the words with H1 matrix I": {
+  "reduced words searched": 1062880,
+  "words with H1 matrix I": 2336,
+  "their automorphisms": {
+   "the identity": 1944,
+   "conj(u)": 196,
+   "conj(u^-1)": 196
+  },
+  "their lengths, by automorphism": {
+   "the identity": [
+    6,
+    8,
+    10,
+    12
+   ],
+   "conj(u)": [
+    12
+   ],
+   "conj(u^-1)": [
+    12
+   ]
+  },
+  "each word for conj(u)^+-1 uses only L and R^-1, or only L^-1 and R": true
+ },
+ "N3: the residuals on T": {
+  "the Moebius checks": {
+   "Delta^2 has H1 matrix -I": true,
+   "U = L^-1 o R (so U lies in <L, R>)": true,
+   "Delta fixes i": true,
+   "L U L^-1 fixes omega": true,
+   "the H1 matrix of L U L^-1": [
+    [
+     1,
+     -1
+    ],
+    [
+     1,
+     0
+    ]
+   ]
+  },
+  "the ruled branch: generic tau (Delta^2)": {
+   "order": 4,
+   "commutant dimension": 9
+  },
+  "the ruled branch: i (Delta)": {
+   "order": 8,
+   "commutant dimension": 5,
+   "Delta's eigenvalue multiplicities and turns, by lift": [
+    [
+     [
+      1,
+      2
+     ],
+     [
+      0.125,
+      0.125,
+      0.625
+     ]
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     [
+      0.125,
+      0.625,
+      0.625
+     ]
+    ]
+   ]
+  },
+  "the ruled branch: omega (L U L^-1)": {
+   "order": 12,
+   "commutant dimension": 3,
+   "w's eigenvalue multiplicities and turns, by lift": [
+    [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      0.083333333,
+      0.416666667,
+      0.75
+     ]
+    ],
+    [
+     [
+      1,
+      1,
+      1
+     ],
+     [
+      0.25,
+      0.583333333,
+      0.916666667
+     ]
+    ]
+   ],
+   "w^3 is a scalar, for each lift": [
+    true,
+    true
+   ]
+  },
+  "W40's frame (with the inner automorphisms and -I): generic tau": {
+   "order": 16,
+   "commutant dimension": 3
+  },
+  "W40's frame (with the inner automorphisms and -I): omega": {
+   "order": 48,
+   "commutant dimension": 1
+  },
+  "Delta^2 acts on T as a scalar": true
+ },
+ "N4: the couplings in tau alone": {
+  "the pieces are invariant": true,
+  "dimensions by piece and weight": {
+   "D": {
+    "1": {
+     "dimension (null count)": 0,
+     "gap": [
+      2.10627712146087e-07,
+      null
+     ]
+    },
+    "3": {
+     "dimension (null count)": 0,
+     "gap": [
+      1.6277980745820578e-07,
+      null
+     ]
+    },
+    "5": {
+     "dimension (null count)": 1,
+     "gap": [
+      1.7196251995250516e-07,
+      4.59725316881003e-16
+     ]
+    },
+    "7": {
+     "dimension (null count)": 1,
+     "gap": [
+      1.7939095516987054e-07,
+      4.236696237953152e-16
+     ]
+    },
+    "9": {
+     "dimension (null count)": 2,
+     "gap": [
+      1.799400085064724e-07,
+      5.095707537256754e-16
+     ]
+    },
+    "11": {
+     "dimension (null count)": 2,
+     "gap": [
+      1.9103715326928114e-07,
+      4.93278745706232e-16
+     ]
+    }
+   },
+   "O+": {
+    "1": {
+     "dimension (null count)": 1,
+     "gap": [
+      1.8003729542338322e-07,
+      3.786095417497675e-16
+     ]
+    },
+    "3": {
+     "dimension (null count)": 1,
+     "gap": [
+      1.797597185257489e-07,
+      4.25464129685144e-16
+     ]
+    },
+    "5": {
+     "dimension (null count)": 2,
+     "gap": [
+      1.9328463042766146e-07,
+      3.875884039565226e-16
+     ]
+    },
+    "7": {
+     "dimension (null count)": 2,
+     "gap": [
+      2.01653785268474e-07,
+      4.4274827211415444e-16
+     ]
+    },
+    "9": {
+     "dimension (null count)": 3,
+     "gap": [
+      1.979143218072019e-07,
+      5.001880647309088e-16
+     ]
+    },
+    "11": {
+     "dimension (null count)": 3,
+     "gap": [
+      2.067894091854447e-07,
+      4.230739071104064e-16
+     ]
+    }
+   },
+   "O-": {
+    "1": {
+     "dimension (null count)": 0,
+     "gap": [
+      1.4950559585041438e-07,
+      null
+     ]
+    },
+    "3": {
+     "dimension (null count)": 1,
+     "gap": [
+      1.6553052000519078e-07,
+      3.9984364685355914e-16
+     ]
+    },
+    "5": {
+     "dimension (null count)": 1,
+     "gap": [
+      1.6261034790596364e-07,
+      4.393349871947486e-16
+     ]
+    },
+    "7": {
+     "dimension (null count)": 2,
+     "gap": [
+      1.652428198528388e-07,
+      3.7853117030803697e-16
+     ]
+    },
+    "9": {
+     "dimension (null count)": 2,
+     "gap": [
+      1.8170880421829284e-07,
+      5.148342843502239e-16
+     ]
+    },
+    "11": {
+     "dimension (null count)": 3,
+     "gap": [
+      1.737517433660303e-07,
+      4.545222661176624e-16
+     ]
+    }
+   }
+  },
+  "dimensions, as lists over k = 1, 3, ..., 11": {
+   "D": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   "O+": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    3
+   ],
+   "O-": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ]
+  },
+  "W45's dims agrees on every piece and weight": true,
+  "the largest relative S-relation residual at tau = 0.31 + 0.97i": 3.638157656200156e-15,
+  "the six-dimensional symmetric couplings at k = 3: count": 1,
+  "their largest diagonal entry over their largest entry, at tau0": [
+   5.376728933888561e-16
+  ]
+ },
+ "N5: the mixing at tau0": {
+  "tau0": {
+   "(a) O+ at k = 3 against D at k = 5": {
+    "distance from the permutations": 0.670933054,
+    "|V|": [
+     [
+      0.654199,
+      0.52148,
+      0.547798
+     ],
+     [
+      0.755773,
+      0.423132,
+      0.499766
+     ],
+     [
+      0.028827,
+      0.740957,
+      0.670933
+     ]
+    ],
+    "singular values over the largest: first, second": [
+     [
+      1.0,
+      0.748902993,
+      0.251097007
+     ],
+     [
+      1.0,
+      0.673292128,
+      0.378919616
+     ]
+    ],
+    "the smallest relative gap between singular values: first, second": [
+     0.251097007,
+     0.294372512
+    ]
+   },
+   "(b) generic symmetric, k = 5 against k = 7": {
+    "distance from the permutations": 0.690254508,
+    "|V|": [
+     [
+      0.690255,
+      0.658804,
+      0.29921
+     ],
+     [
+      0.187263,
+      0.514083,
+      0.837049
+     ],
+     [
+      0.698914,
+      0.549269,
+      0.458063
+     ]
+    ],
+    "singular values over the largest: first, second": [
+     [
+      1.0,
+      0.87136501,
+      0.344860381
+     ],
+     [
+      1.0,
+      0.82257366,
+      0.332848471
+     ]
+    ],
+    "the smallest relative gap between singular values: first, second": [
+     0.12863499,
+     0.17742634
+    ]
+   },
+   "(c) D alone, k = 5 against k = 7": {
+    "distance from the permutations": 0.0,
+    "|V|": [
+     [
+      0.0,
+      0.0,
+      1.0
+     ],
+     [
+      1.0,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.0,
+      0.0
+     ]
+    ],
+    "singular values over the largest: first, second": [
+     [
+      1.0,
+      0.673292128,
+      0.378919616
+     ],
+     [
+      1.0,
+      0.690809969,
+      0.482834375
+     ]
+    ],
+    "the smallest relative gap between singular values: first, second": [
+     0.294372512,
+     0.207975595
+    ]
+   }
+  }
+ },
+ "N6: the theta constants": {
+  "the fitted T- and S-matrices (relative residuals)": [
+   1.406805537245531e-15,
+   2.6121936634531527e-15
+  ],
+  "the T-matrix's eigen-turns": [
+   0.125,
+   0.375,
+   0.875
+  ],
+  "tr of the S-matrix": [
+   0.707106781,
+   0.707106781
+  ],
+  "the intertwiners' dimension": 1,
+  "the smallest singular values": [
+   0.525731112119094,
+   0.3249196962329021,
+   1.1607106226264936e-13
+  ],
+  "B (scaled)": [
+   [
+    [
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0
+    ],
+    [
+     0.0,
+     -1.0
+    ]
+   ],
+   [
+    [
+     0.0,
+     1.0
+    ],
+    [
+     -0.0,
+     0.0
+    ],
+    [
+     0.0,
+     -0.0
+    ]
+   ],
+   [
+    [
+     -0.0,
+     -0.0
+    ],
+    [
+     1.0,
+     -0.0
+    ],
+    [
+     -0.0,
+     -0.0
+    ]
+   ]
+  ],
+  "B is invertible": true,
+  "B is monomial": true,
+  "the parity carried by each even theta constant": {
+   "(1/2, 0)": "theta_4^2",
+   "(0, 1/2)": "theta_2^2",
+   "(1/2, 1/2)": "theta_3^2"
+  },
+  "B F obeys rho_T's laws at tau = 0.29 + 1.07i": true
+ },
+ "extra read-outs (not predicted)": {
+  "N5's couplings at i and at omega": {
+   "i": {
+    "(a) O+ at k = 3 against D at k = 5": {
+     "distance from the permutations": 0.707106781,
+     "|V|": [
+      [
+       0.0,
+       0.707107,
+       0.707107
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.707107,
+       0.707107
+      ]
+     ],
+     "singular values over the largest: first, second": [
+      [
+       1.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.5,
+       0.5
+      ]
+     ],
+     "the smallest relative gap between singular values: first, second": [
+      0.0,
+      0.0
+     ]
+    },
+    "(b) generic symmetric, k = 5 against k = 7": {
+     "distance from the permutations": 0.490095642,
+     "|V|": [
+      [
+       0.840358,
+       0.472491,
+       0.265613
+      ],
+      [
+       0.231527,
+       0.130176,
+       0.96408
+      ],
+      [
+       0.490096,
+       0.871669,
+       0.0
+      ]
+     ],
+     "singular values over the largest: first, second": [
+      [
+       1.0,
+       0.940587424,
+       0.34074002
+      ],
+      [
+       1.0,
+       1.0,
+       0.0
+      ]
+     ],
+     "the smallest relative gap between singular values: first, second": [
+      0.059412576,
+      0.0
+     ]
+    },
+    "(c) D alone, k = 5 against k = 7": {
+     "distance from the permutations": 0.0,
+     "|V|": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ],
+     "singular values over the largest: first, second": [
+      [
+       1.0,
+       0.5,
+       0.5
+      ],
+      [
+       1.0,
+       1.0,
+       0.0
+      ]
+     ],
+     "the smallest relative gap between singular values: first, second": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "omega": {
+    "(a) O+ at k = 3 against D at k = 5": {
+     "distance from the permutations": 0.582245164,
+     "|V|": [
+      [
+       0.57735,
+       0.57735,
+       0.57735
+      ],
+      [
+       0.218032,
+       0.790446,
+       0.572414
+      ],
+      [
+       0.786847,
+       0.204602,
+       0.582245
+      ]
+     ],
+     "singular values over the largest: first, second": [
+      [
+       1.0,
+       0.5,
+       0.5
+      ],
+      [
+       1.0,
+       1.0,
+       1.0
+      ]
+     ],
+     "the smallest relative gap between singular values: first, second": [
+      0.0,
+      0.0
+     ]
+    },
+    "(b) generic symmetric, k = 5 against k = 7": {
+     "distance from the permutations": 0.707106781,
+     "|V|": [
+      [
+       0.0,
+       0.706533,
+       0.70768
+      ],
+      [
+       0.707107,
+       0.500406,
+       0.499594
+      ],
+      [
+       0.707107,
+       0.500406,
+       0.499594
+      ]
+     ],
+     "singular values over the largest: first, second": [
+      [
+       1.0,
+       0.274294264,
+       0.274294264
+      ],
+      [
+       1.0,
+       0.739791103,
+       0.739791103
+      ]
+     ],
+     "the smallest relative gap between singular values: first, second": [
+      0.0,
+      0.0
+     ]
+    },
+    "(c) D alone, k = 5 against k = 7": {
+     "distance from the permutations": 0.0,
+     "|V|": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ]
+     ],
+     "singular values over the largest: first, second": [
+      [
+       1.0,
+       1.0,
+       1.0
+      ],
+      [
+       1.0,
+       1.0,
+       1.0
+      ]
+     ],
+     "the smallest relative gap between singular values: first, second": [
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ },
+ "the rule's original N2 wording (every such word empty or for conj(u)^+-1), corrected before the run": false,
+ "checks": {
+  "N1: the six word identities hold exactly": true,
+  "N2 (as corrected before the run): up to length 12 every word with H1 matrix I is the identity or conj(u)^+-1, those of length 12 and of one sign; no conj(a), conj(b)": true,
+  "N3: the residuals on T (ruled branch: 4, 8, 12; W40's frame: 16, 48) with their commutants": true,
+  "N4: the coupling spaces' dimensions by piece and weight; the symmetric couplings at k = 3 are off-diagonal": true,
+  "N5: at tau0 the mixings (a) and (b) are not permutations; with D alone every mixing is": true,
+  "N6: rho_T is eta^21 (theta_2^2, theta_3^2, theta_4^2)'s representation, through a monomial intertwiner": true
+ },
+ "every check holds": true
+}

@@ -1886,3 +1886,52 @@ the weave's symmetry and is forced by the principle, and name the obstruction an
   M₁,₂, where they move the records' base point), or only on the sign and swap branches?
 
 0 of 19.
+
+## 55. Added 2026-10-09: the parity grading at a fixed τ (W50) — on the ruled branch the modulus breaks the weave's group; T is the three even theta constants
+
+To main. The dossier's W50 carries the full record. It tests the premise §54 raised, with the rule first (790853e77).
+A correction to N2's wording (it forgot the braid relators) was committed before the run (a9bc64812).
+
+**1. The inner automorphisms on the ruled branch (exact).**
+- To length 12, the 2,336 reduced words in L^{±1}, R^{±1} with H₁ matrix I are:
+  - 1,944 relators, which act as the identity;
+  - 196 words for conj(a b⁻¹ a⁻¹ b) and 196 for its inverse.
+  - None is conj(a) or conj(b).
+- With the classical kernel ⟨Δ⁴⟩ of B₃ → SL(2, ℤ), ⟨L, R⟩ meets the inner automorphisms only there.
+- They enter with the sign (σ L σ L⁻¹ = conj(a⁻¹)) or the swap (P L P R⁻¹ = conj(b)), the forks the owner ruled out.
+
+**2. The residuals on T.**
+
+| τ | the weave ⟨L, R⟩ | with the inner automorphisms and −I |
+|---|---|---|
+| generic | four scalars | 16, the parity grading |
+| i | cyclic of order 8: a plane and a line | not computed |
+| ω | cyclic of order 12: three lines | 48, irreducible (your B1617) |
+
+**3. Couplings in τ alone (given Λ, T ⊗ T, a flavour-blind Higgs).**
+- They are vector-valued modular forms for ρ_T^∨ ⊗ ρ_T^∨. In the parity basis they split into the diagonal, symmetric
+  off-diagonal and antisymmetric pieces, with dimensions exactly as W45's formula predicts.
+- The lowest symmetric couplings (k = 1, 3) are entirely off the diagonal: the part the inner automorphisms forbid.
+- At a generic τ the mixing between two couplings is far from a permutation (distances 0.67 and 0.69). With the
+  diagonal piece alone it is a permutation, which is your theorem's frame.
+- At i and ω every coupling is degenerate.
+
+**4. What it shows.**
+- **T-TAU-ONLY-PERMUTATION and B1617's order-48 residual hold where the inner automorphisms act**: with the sign, the
+  swap, or the inner automorphisms added as symmetries. They do not hold for the weave ⟨L, R⟩ alone.
+- **This seat's W40 and §46 verified them in that frame without naming it.** That is corrected here.
+- **On the ruled branch the modulus τ is the state that breaks the weave's group.**
+  - The flavour numbers become values of modular forms at τ times the couplings' normalizations.
+  - No functional on record fixes τ, and at your tagged τ = ω the masses are degenerate.
+- **T is exactly the three even theta constants.** T is the representation of η²¹·(θ₂², θ₃², θ₄²), through a unique
+  monomial intertwiner: (½, 0) ↔ θ₄², (0, ½) ↔ θ₂², (½, ½) ↔ θ₃². That is the even spin structures measured from the
+  odd one, W45's base.
+
+**5. Asks.**
+- How do you read the inner automorphisms on the ruled branch: as moves of the weave (through M₁,₂'s point-pushing,
+  say), or only on the sign and swap forks? The answer decides which statement of T-TAU-ONLY-PERMUTATION the register
+  carries.
+- If the ruled branch stands, the next arc is the count. How many free numbers remain once the weights of the zero
+  modes and the Higgs are fixed? The principle does not fix them yet.
+
+0 of 19.

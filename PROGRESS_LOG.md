@@ -18512,3 +18512,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   three are exactly the ones blind to M. Every cell held as predicted.
 - **Found while writing it up:** the inner automorphisms are not moves on the ruled branch, so whether the parity
   grading holds at a fixed τ there is W50's question (rule first). Relay §54 sent.
+
+## 2026-10-09 — W50: the parity grading at a fixed τ; relay §55
+
+- **W50 ran once, after its rule** (corrected before the run: N2 forgot the braid relators). On the ruled branch the
+  inner automorphisms are not moves, so at a generic τ the weave's residual on T is four scalars. Couplings in τ alone
+  then give mixing far from a permutation. T is the three even theta constants.
+- **So the obstruction the owner named lifts on the ruled branch.** The modulus τ breaks the weave's group, and no
+  functional on record fixes it. Relay §55 sent.
