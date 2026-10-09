@@ -67,6 +67,9 @@ Under the owner's rulings, the table's rows split into two groups:
 - **Gauge chirality:** UNEARNED.
   - The weave's forced bundles are self-conjugate, so no gauge reading of them is chiral without a choice: NEGATIVE
     (W25).
+  - On the weave's own surface (W19's M₁,₂), given Λ, the triplet's four-dimensional Dirac index at the weight the
+    geometry forces is 0 for both hands, with no zero modes at all: NEGATIVE in the canonical reading (W45). Post hoc:
+    one unit of end data at the cusp on every component would add 3, and nothing forces it (GENESIS FK10).
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -184,6 +187,13 @@ Under the owner's rulings, the table's rows split into two groups:
   - Under Sym² T where c is gauge it gives one: |U_μ3| or |U_τ3| = 1/√2, or ½. That was a failed prediction (3, not 4),
     recorded as failed.
   - Two of B1620's fit grades are corrected.
+- **W45, the triplet's index on the weave's own surface (given Λ):**
+  - T is a representation of the metaplectic cover, not a local system on M₁,₂: (L R⁻¹ L)⁴ is conjugation by
+    a b⁻¹ a⁻¹ b, and on T it acts as −I for every lift sign, while the inner automorphisms' lifts give I.
+  - The four-dimensional Dirac operator with the only spin structure the moves keep forces weight 3/2. There the
+    index is 0 for both hands, and every space is zero by a second route. Three first appears at weight 23/2.
+  - So, in its canonical reading, the weave's own surface does not earn GENESIS FK11. Post hoc: the index moves only
+    with end data at the cusp, and n units on every component give 3n (GENESIS FK10).
 
 ## Questions open with main
 
@@ -195,7 +205,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W44 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W45 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§45).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§47).

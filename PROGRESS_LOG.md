@@ -18446,3 +18446,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   Recorded as failed.
 - **Two of B1620's fit grades corrected,** as the audit lane suspected.
 
+## 2026-10-09 — W45: the triplet's index on the weave's own surface; relay §46 and §47
+
+- **Relay §46 sent:** main's new theorem rows (S101) checked against W42 to W44. T-TAU-ONLY-PERMUTATION stands;
+  T-WEAVE-REDUCES-NONE stands in every frame on record; its PMNS sentence needs the frame and the TM type.
+- **W45 ran once, after its rule.** Given Λ, the triplet's four-dimensional Dirac index on the weave's own surface is
+  0 for both hands at the weight the geometry forces, with no zero modes at all, by two routes. T lives on the
+  metaplectic cover. In its canonical reading the weave's own surface does not earn GENESIS FK11.
+- **Fixes made in review before the run, disclosed:** a word search that could miss a case, a determinant check that
+  could not fail, and two checks that could pass with nothing kept.
+- **Post hoc:** only end data at the cusp moves the index, by 3n for n units on every component (GENESIS FK10).
+- **Relay §47 sent;** ledger rows for main's S102 and the audit lane's new relay added.

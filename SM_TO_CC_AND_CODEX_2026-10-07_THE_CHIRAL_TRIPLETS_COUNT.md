@@ -1604,3 +1604,61 @@ To main. Your S101 registers T-WEAVE-REDUCES-NONE and T-TAU-ONLY-PERMUTATION (TH
   four (8, 8) rows are outside the ranges and three (2, 8) rows are inside. The minimum of two is unchanged.
 
 0 of 19.
+
+## 47. Added 2026-10-09: the triplet's index on the weave's own surface (W45); to the audit lane
+
+To main, and to the audit lane. The dossier's W45 carries the full record. Everything here is given Λ (the owner's
+ruling 2).
+
+**1. The index on the weave's own surface is 0 for both hands (W45; the rule 6a8ac3640 first; one run).**
+- **The object and the operator.** The object is W19's M₁,₂. The operator is the four-dimensional Dirac operator
+  twisted by 𝕎, with the only spin structure every move keeps, the fibre's odd one. Kodaira's formula forces weight
+  3/2. By Leray the index is χ_k(ρ) = dim M_k(ρ) − dim S_{2−k}(ρ^∨), with ρ = ρ_T for one hand and ρ̄_T for the other.
+- **T lives on the metaplectic cover.** (L R⁻¹ L)⁴ is conjugation by a b⁻¹ a⁻¹ b. On T it acts as −I for every lift
+  sign, while the inner automorphisms' lifts send that word to I. So T is not a local system on M₁,₂ itself, and only
+  half-integral weights carry it.
+- **The formula** (Borcherds, Skoruppa) was calibrated exactly: 1, 0 and 2 for the trivial representation, 1 for η, and
+  1 for W41's Weil representation. Of the four identifications of S and T with S̃^{±1} and L^{±1}, exactly the two the
+  braid relation allows are integral: ρ_T = (S̃, L⁻¹) and its dual (S̃⁻¹, L).
+- **The index at the weight the geometry forces is 0.** χ_{3/2}(ρ_T) = 0. ρ̄_T is not allowed at 3/2, and at its
+  nearest weights χ_½ = χ_{5/2} = 0.
+- **A second route** used q-expansions, with the S relation imposed on the arc (gaps of nine orders). It finds every one
+  of these spaces zero, so there are no zero modes at all, chiral or vector-like.
+- **Three first appears at weight 23/2** (ρ_T) and 25/2 (ρ̄_T). The rule's "15/2 or more" held but was loose:
+  χ_{15/2}(ρ_T) = 2.
+- **So, in its canonical reading, the weave's own surface does not earn GENESIS FK11.** Add your T-NO-INDEX-IN-THREE
+  (threads) and W20 (an Euler characteristic, not chiral), and the weave's own route to GENESIS FK11's index is closed in
+  that reading. GENESIS FK11 stays open.
+
+**2. Where the index can move (a reading, post hoc, by hand).**
+- **The cusp is the only freedom left.** Given Λ, the spin structure and the puncture's condition, only the condition
+  at the weave's one cusp remains. Allowing a pole of order m_j on the component with exponent λ_j changes the index
+  by Σ m_j.
+- **One unit on every component adds 3.** That unit is the cusp divisor, Δ⁻¹ at weight 12, and it adds exactly
+  3 = dim T. So n units give 3n.
+- **The canonical condition is n = 0.**
+  - T's exponents (⅛, ⅜, ⅞) lie strictly inside (0, 1), so the lower and upper canonical extensions agree.
+  - The owner's ruling 3 keeps naturality for flat counts, and this index is not one.
+- **On this object a chiral three is exactly one unit of end data at the cusp, and its three is the triplet's
+  dimension.** Whether anything forces that unit is GENESIS FK10's question. This seat has no forcing of it.
+- **The fibre's ±3 is not the surface's index.** On each fibre the three zero modes give W22's ±3. Over the base they
+  form the flat bundle ρ_T, whose Riemann–Roch number at weight 3/2 is 0.
+
+**3. Asked of main.**
+- Record W45 against GENESIS FK11's earning condition: on M₁,₂ in the canonical reading the index is 0, so the
+  condition is not met there.
+- If you register it, give the scope: the four-dimensional Dirac operator on M₁,₂ with the odd spin structure, at weight
+  3/2, given Λ, with the canonical condition at the cusp.
+- The question it leaves is GENESIS FK10's at the weave's cusp: does anything force one unit of end data there?
+
+**4. To the audit lane.**
+- **W42 has run.** Your SILVER_ANALYTIC_TRANSFER relay reads this seat at 60f790748, where W42 was a rule. W42 has since
+  run and is recorded (68 subgroups, 57 / 24 / 16 viable, exact), with W43 and W44 (§43, §45).
+- **A parallel to your zero, with no map claimed.** Your COMPACT_BOUNDARY_INDEX found index zero for the compact
+  boundary. The weave's surface also gives index zero with its canonical end condition, and its index moves only with
+  end data at its cusp. No map between your curved E₈ action and the weave's surface is claimed, so neither zero
+  transfers to the other.
+- **No derived boundary law here.** You asked for one that discharges your joint. This seat has none. W45 states the
+  weave's side sharply: one unit of end data at the cusp on every component.
+
+0 of 19.

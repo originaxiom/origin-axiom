@@ -36,6 +36,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   frame where c is gauge and an antisymmetric Yukawa, and under Sym² T no trimaximal family appears in any frame.
 - W44: the 13 are unreduced in every frame on record (the CKM needs the full four everywhere); the lepton sector
   allows at most two relations, and under Sym² T where c is gauge one (a failed prediction: 3, not 4).
+- W45 (given Λ): on the weave's own surface the triplet's four-dimensional Dirac index is 0 for both hands at the
+  weight the geometry forces, with no zero modes at all; T lives on the metaplectic cover. Post hoc: only end data at
+  the cusp moves the index, by 3n for n units on every component.
 
 ## The setting
 
@@ -2813,6 +2816,119 @@ confirmed and extended to both frames, and two of its fit grades are corrected. 
   - The weave fixes S(G) ⊂ U(M), but not K. So GENESIS FK11's frame datum is exactly K. An object that forces the frame
     has to say which automorphisms of 𝕎 are gauge.
 
+## W45. The triplet's index on the weave's own surface: zero for both hands, given Λ (`the_index_on_the_weaves_surface.py`; `W45_RULE.md`)
+
+**Why.**
+- GENESIS FK11's earning condition (main, B1604) asks for an even-dimensional object the weave forces, carrying a
+  non-flat bundle whose index is the count.
+- W19 named the object, the weave's own surface M₁,₂. W20 read it in the 27 and found three, but not chiral. Its
+  erratum named the next step: a holomorphic index of the complex triplet T on the weave's orbifold.
+- The rule (`W45_RULE.md`, 6a8ac3640) was committed before the code. It fixes the operator, the weight that operator
+  forces, the formula and how its signs are fixed, the test that picks the convention, and a second route.
+- Weave or thread: the quantity is defined on the weave's own surface, by every move at once, through T's
+  representation of the whole modular group. No thread is chosen. Weave-type.
+
+**The object (the rule's READING, by hand).**
+- The four-dimensional Dirac operator on M₁,₂, twisted by 𝕎, with the fibre's odd spin structure, the only one every
+  move keeps.
+- Kodaira's formula gives K = π*λ³ up to the cusp, so the spinors carry weight 3/2.
+- By Leray the index is a Riemann–Roch number of vector-valued modular forms, χ_k(ρ) = dim M_k(ρ) − dim S_{2−k}(ρ^∨),
+  with ρ = ρ_T for one hand and ρ̄_T for the other. The sign is the hand, a convention. The magnitude is not.
+
+**Fixes made in review, before the run (disclosed).** The run was the first and only launch.
+- The search for the word u with S̃⁴ = conjugation by u tried only prefixes of the image of a, so it could miss a word
+  v aᵐ with m ≠ 0, 1. It now writes the image of a as v a v⁻¹ and searches the power. The word found, a b⁻¹ a⁻¹ b,
+  ends in b, so the old search would have found it too.
+- E1's determinant check listed the determinants of the group's diagonal elements with c = 1. Those are rotations, so
+  the check could not fail. It now builds the inner automorphisms' lifts by W40's construction, as W42's A4 does, and
+  reads u through them for every choice of lift.
+- Two checks could pass with nothing kept; they now require something kept. The points on the arc went from 70 to 120.
+
+**The result (COMPUTED; E1 to E4 as predicted).**
+- **E1, the structure (exact, in W42's normal form).**
+  - S̃ = L ∘ R⁻¹ ∘ L has H₁ matrix [[0, 1], [−1, 0]]. S̃⁴ is conjugation by u = a b⁻¹ a⁻¹ b, a commutator.
+  - On T the lifted S̃⁴ is −I for all four choices of lift signs, and S̃⁸ is 1.
+  - The inner automorphisms' lifts are ±diag(1, −1, −1) for a and ±diag(−1, −1, 1) for b: signs times the parity
+    signs, which have determinant 1.
+  - Read through those lifts, u gives I for every choice (determinant 1), where S̃⁴ gives −I (determinant −1).
+  - So the relation "S̃⁴ is conjugation by u" fails on T by the central sign, whatever lifts are chosen. The relation
+    holds in Aut⁺(F₂), the orbifold fundamental group of M₁,₂. So T is a representation of the metaplectic double
+    cover, not a local system on M₁,₂ itself, and only half-integral weights carry it.
+- **E2, the formula's calibration (exact).** 1, 0 and 2 for the trivial representation at weights 0, 2 and 12; 1 for η
+  at weight ½; 1 for W41's Weil representation at weight ½.
+- **E3, the four identifications** (σ₁ = L, σ₂ = R⁻¹, S̃ = σ₁σ₂σ₁):
+
+| S ↔, T ↔ | S² = (ST)³ | allowed weights | χ_k there | kept |
+|---|---|---|---|---|
+| S̃, L | no | 3/2, 7/2, 11/2, 15/2 | −¼, ¾, ¾, 7/4 | no |
+| S̃, L⁻¹ (ρ_T) | yes | 3/2, 7/2, 11/2, 15/2 | 0, 1, 1, 2 | yes |
+| S̃⁻¹, L (ρ̄_T) | yes | ½, 5/2, 9/2, 13/2 | 0, 0, 1, 1 | yes |
+| S̃⁻¹, L⁻¹ | no | ½, 5/2, 9/2, 13/2 | ¼, ¼, 5/4, 5/4 | no |
+
+- The two identifications the braid relation allows are exactly the two that are integral. ρ_T is the left action the
+  record's right action gives, and ρ̄_T is its conjugate.
+- tr ρ(ST) = 0 in all four, as predicted by hand, and tr ρ(S) = e^{±iπ/4}. The exponents of ρ(T) are ⅛, ⅜, ⅞ for ρ_T
+  and ⅛, ⅝, ⅞ for ρ̄_T.
+- **E4, the dimensions by the second route.** The q-expansions run to 24 terms in each component, and
+  f(−1/τ) = τᵏ ρ(S) f(τ) is imposed at 120 points of the unit arc between ω and ω + 1. Null singular values are
+  counted below 10⁻⁹ of the largest.
+
+| space | dimension | smallest non-null singular value | largest null one |
+|---|---|---|---|
+| η: M_½ | 1 | 5.1 × 10⁻⁷ | 1.2 × 10⁻¹⁶ |
+| Weil: M_½ | 1 | 2.2 × 10⁻⁷ | 1.8 × 10⁻¹⁶ |
+| ρ_T: M_{3/2} | 0 | 1.5 × 10⁻⁷ | none |
+| ρ_T's dual: S_½ | 0 | 1.9 × 10⁻⁷ | none |
+| ρ_T: M_{7/2} | 1 | 1.5 × 10⁻⁷ | 3.8 × 10⁻¹⁶ |
+| ρ̄_T: M_½ | 0 | 1.9 × 10⁻⁷ | none |
+| ρ̄_T's dual: S_{3/2} | 0 | 1.5 × 10⁻⁷ | none |
+| ρ̄_T: M_{5/2} | 0 | 1.5 × 10⁻⁷ | none |
+| ρ̄_T: M_{9/2} | 1 | 1.6 × 10⁻⁷ | 2.5 × 10⁻¹⁶ |
+
+- Every difference of dimensions equals χ, and every count has a gap of nine orders of magnitude.
+- Post hoc, from the stored output: the two hands' systems agree where duality says they must. M_{3/2}(ρ_T) and S_{3/2}
+  of ρ̄_T's dual have the same smallest singular value to nine digits, and so do S_½ of ρ_T's dual and M_½(ρ̄_T). So
+  the kept ρ̄_T is ρ_T's dual.
+
+**What it shows (given Λ).**
+- **The index is zero for both hands at the weight the geometry forces.**
+  - For ρ_T at weight 3/2, χ = 0 and both spaces are zero. There are no zero modes at all, neither chiral nor in
+    vector-like pairs.
+  - ρ̄_T's central character does not allow weight 3/2, so its spaces there vanish. At its nearest allowed weights, ½
+    and 5/2, the index is 0 and every space is zero.
+  - Below weight 7/2 neither hand has a non-zero index.
+- **The weave's even-dimensional object gives no chiral three in its canonical reading:** the four-dimensional Dirac
+  operator, the only spin structure the moves keep, and the canonical condition at the cusp.
+- **With main's T-NO-INDEX-IN-THREE (B1604, on threads) and W20 (an Euler characteristic, not chiral), this closes the
+  weave's own route to GENESIS FK11's index in that reading.** The chiral three needs end data (GENESIS FK10) or a frame
+  beyond the weave's surface, as the rule's reading said.
+- **One line of the rule's reading was loose.** It said three needs weight 15/2 or more. The table gives
+  χ_{15/2}(ρ_T) = 2, and by the closed form below three first appears at 23/2 for ρ_T and at 25/2 for ρ̄_T. The bound
+  held but was not sharp.
+- **The fibre's count and the surface's index are different numbers (a READING).** On each fibre the three zero modes
+  give the fibre's ±3 (W22, W28). Over the base they form the flat bundle with monodromy ρ_T, and at weight 3/2 its
+  Riemann–Roch number is 0. The fibre's count does not survive to the surface's index.
+
+**A reading (post hoc, by hand): where the index can move.**
+- **The closed form.** On the allowed weights, with tr ρ(ST) = 0 and the exponents above:
+  - χ_k(ρ_T) = ¼ + m/2 − (−1)^m/4 at k = 3/2 + 2m;
+  - χ_k(ρ̄_T) = −¼ + m/2 + (−1)^m/4 at k = ½ + 2m.
+- **Given Λ, the spin structure and the puncture's condition, the condition at the weave's one cusp is the only freedom
+  left in the index.** Allowing the component with exponent λ_j a pole of order m_j there changes the index by Σ m_j.
+- **One unit on every component is the cusp divisor, Δ⁻¹ at weight 12.** It adds exactly d = 3, since the formula
+  gives χ_{k+12} = χ_k + d. So n units of end data on every component give 3n at the weight the geometry forces.
+- **The canonical condition is n = 0.**
+  - T's exponents all lie strictly between 0 and 1, so the lower and upper canonical extensions agree.
+  - A unit of end data is therefore a choice, unless the principle forces one.
+  - The owner's ruling 3 keeps W28's naturality for flat counts only. This index, of the non-flat bundle λ^{3/2} ⊗ 𝒯,
+    is not a flat count.
+- **So on this object a chiral three is exactly one unit of end data at the cusp, and its three is the triplet's
+  dimension.** Whether anything forces that unit is GENESIS FK10's question, not answered here.
+
+**Status.** COMPUTED (the rule first; one run; fixes in review before it, disclosed). E1 to E4 held as predicted. One
+line of the rule's reading was loose and is recorded with its sharp value; the end-data reading is post hoc. In its
+canonical reading the weave's own surface does not earn GENESIS FK11, which stays open. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -2969,6 +3085,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W42 | VERIFIED (not blind; the rule first; B1620 read first) and COMPUTED (a census of every thread to length 12) | main's B1620 rebuilt from W21's construction: G = {z S : z⁸ = 1, z⁴ = sgn S}; 68 subgroups in 26 classes, 57 abelian; viable (three distinct non-zero masses, exact in ℤ[ζ₂₄], two routes): 57 under T̄ ⊗ T (the abelian ones), 24 under T ⊗ T (real character: E's 16 and the 3-cycles' ⟨±t⟩), 16 under Sym² T (the subgroups of E, the parity signs); no order-3 residual under Sym² T ((|a|, |b|, |b|) along every 3-cycle); 10 subgroups contain the parity grading K, and theirs are permutation patterns. Ask 2: a thread's own H¹ (Wang) reads its word: zero modes exactly when r ≡ ℓ (mod 4) (237 of 745), and every grading-breaking one is a body diagonal, B1621's tick line; a thread result |
 | W43 | COMPUTED (the rule first; one run; B1620's stored fits read first and transcribed) | which trimaximal family each tensor allows. The record's frame: TM1 and TM2 under T̄ ⊗ T; under T ⊗ T no pair has a TM1 column (0 of 576) and the family is TM2 (B1620's own T ⊗ T fits are TM2's); neither under Sym² T. Where c is gauge (B₃ = {±1} × O; 98 subgroups, viable 66 / 66 / 49; O's Sym² T invariant δ): TM1 and TM2 under T̄ ⊗ T and T ⊗ T, neither under Sym² T; no twist of a 3-cycle survives Sym² T. Given Λ, P10's TM1 needs that frame and an E₆ 351. Post hoc: two family dimensions of the run's tally (1 and 3) recomputed as 0 and 2 |
 | W44 | COMPUTED (the rule first; one run; one prediction failed) | the free-number count in both frames on record, B1612's data verbatim, a strict fit predicate, modal ranks, every witness kept: the CKM needs a four-dimensional family under every tensor in both frames (every smaller orbit fails the necessary block test), so the 13 are unreduced whatever the frame; the PMNS minimum is 2 under T̄ ⊗ T and T ⊗ T (TM1 or TM2), 4 under Sym² T in the record's frame, and 3 under Sym² T where c is gauge (predicted 4: one fixed entry, |U_μ3| or |U_τ3| = 1/√2, or ½), with two-dimensional families 0.0012 outside. B1620's fits regraded: its four (8, 8) families (score 0.0707) are outside the ranges, its (2, 8) families (0.3627) have strict witnesses. A reading: S(G) = V₄ ⋊ S₃ is the moves mod 2 on the parities with their signs, and a frame is the subgroup of U(3) = Aut(𝕎) the gauge group realises |
+| W45 | COMPUTED (the rule first; one run; fixes in review before it, disclosed); a WEAVE result given Λ, NEGATIVE for GENESIS FK11 in its canonical reading | the triplet's index on the weave's own surface M₁,₂. T is a representation of the metaplectic cover, not a local system on M₁,₂: S̃⁴ (conjugation by a b⁻¹ a⁻¹ b) acts as −I for every lift sign, while the inner lifts give it I. The four-dimensional Dirac operator with the odd spin structure forces weight 3/2. The formula, calibrated exactly, keeps exactly the two identifications the braid relation allows. χ_{3/2}(ρ_T) = 0 and χ_½(ρ̄_T) = χ_{5/2}(ρ̄_T) = 0, with every space zero (q-expansions, gaps of nine orders); three first at weight 23/2. Post hoc: the index moves only with end data at the cusp, and n units on every component give 3n; the canonical condition is n = 0 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -3012,6 +3129,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W45_RULE.md`: the rule, committed before the code; `the_index_on_the_weaves_surface.py` → `the_index_on_the_weaves_surface.json`: W45, the triplet's index on the weave's own surface (the structure on Aut⁺(F₂), the formula's calibrations, the four identifications, and the dimensions by q-expansions).
 - `W44_RULE.md`: the rule, committed before the code; `the_free_numbers_by_frame.py` → `the_free_numbers_by_frame.json`: W44, the free-number count in both frames on record with a strict fit predicate, and B1620's PMNS fits regraded; `received/B1612_data.json`: B1612's data transcription, verbatim (sha256 as in its ARTIFACT_HASHES).
 - `W43_RULE.md`: the rule, committed before the code; `the_trimaximal_families.py` → `the_trimaximal_families.json`: W43, the trimaximal families each tensor allows in the record's frame and where c is gauge; `received/B1620_post_seal_tensors.json`: B1620's stored fits, verbatim (sha256 as in its ARTIFACT_HASHES); POST HOC `the_trimaximal_families_posthoc.py` → `the_trimaximal_families_posthoc.json`: two outlying family dimensions recomputed.
 - `W42_RULE.md`: the rule, committed before the code; `the_breaking_verified.py` → `the_breaking_verified.json`: W42, main's B1620 recomputed exactly (the lattice, the three tensors, K; a verification, not blind) and the census of every thread's own zero modes.

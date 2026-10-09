@@ -901,6 +901,56 @@ def test_w44_the_free_numbers_by_frame():
     assert np.isclose(abs(edge @ line) ** 2, 0.5) and np.isclose(abs(edge @ edge2) ** 2, 0.25)
 
 
+def test_w45_the_index_on_the_weaves_surface():
+    """W45 (the rule committed first; one run; E1 to E4 as predicted): given Lambda, the triplet's four-dimensional Dirac
+    index on the weave's own surface is 0 for both hands at the weight the geometry forces (3/2 for rho_T; 1/2 and 5/2
+    for its conjugate), with every space zero by the second route; T is a representation of the metaplectic cover, not
+    a local system on M_{1,2}. In process: S~^4 = (L R^-1 L)^4 is conjugation by a b^-1 a^-1 b, and chi from the stored
+    traces and exponents, with the closed form and the cusp divisor's step of 3"""
+    import sys
+    from fractions import Fraction
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_index_on_the_weaves_surface.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True and all(d["checks"].values())
+    e1 = d["E1: the structure"]
+    assert e1["S~^4 is inner: the conjugating word u"] == "a b^-1 a^-1 b"
+    assert e1["u through the inner lifts: determinants"] == [1.0] and e1["the lifted S~^4: determinant"] == -1.0
+    kept = d["E3: the kept identifications and their chi_k"]
+    assert kept == {"S <-> S~, T <-> L^-1": {"3/2": 0.0, "7/2": 1.0, "11/2": 1.0, "15/2": 2.0},
+                    "S <-> S~^-1, T <-> L": {"1/2": 0.0, "5/2": 0.0, "9/2": 1.0, "13/2": 1.0}}
+    e4 = d["E4: the dimensions"]
+    assert e4["S <-> S~, T <-> L^-1"]["3/2"]["dim M_k (null count, gap)"][0] == 0
+    assert e4["S <-> S~, T <-> L^-1"]["3/2"]["dim S_(2-k) of the dual (null count, gap)"][0] == 0
+    assert e4["S <-> S~^-1, T <-> L"]["1/2"]["dim M_k (null count, gap)"][0] == 0
+    sys.path.insert(0, str(here))
+    import the_common_point as CP
+    St = {1: [1], 2: [2]}
+    for a in (CP.AUT["L"], {1: [1, -2], 2: [2]}, CP.AUT["L"]):
+        St = CP.compose(St, a)
+    St4 = {1: [1], 2: [2]}
+    for _ in range(4):
+        St4 = CP.compose(St4, St)
+    assert St4 == CP.inner([1, -2, -1, 2])
+
+    def chi(k, trS, trST, lam):
+        k = float(k)
+        return (3 * (k - 1) / 12 + 0.25 * (np.exp(1j * np.pi * k / 2) * trS).real
+                + 2 / (3 * np.sqrt(3)) * (np.exp(1j * np.pi * (2 * k + 1) / 6) * trST).real + 1.5 - sum(lam))
+    for name, sign, lam in (("S <-> S~, T <-> L^-1", 1, (1 / 8, 3 / 8, 7 / 8)), ("S <-> S~^-1, T <-> L", -1, (1 / 8, 5 / 8, 7 / 8))):
+        row = d["E3: the four identifications"][name]
+        trS = complex(*row["tr rho(S)"])
+        assert abs(trS - np.exp(sign * 1j * np.pi / 4)) < 1e-9 and row["tr rho(ST)"] == [0.0, 0.0]
+        assert np.allclose(row["exponents of rho(T)"], lam)
+        for k, v in kept[name].items():
+            assert abs(chi(Fraction(k), trS, 0, lam) - v) < 1e-9
+            m = int((Fraction(k) - (Fraction(3, 2) if sign == 1 else Fraction(1, 2))) / 2)
+            closed = 0.25 + m / 2 - (-1) ** m / 4 if sign == 1 else -0.25 + m / 2 + (-1) ** m / 4
+            assert abs(closed - v) < 1e-12
+            assert abs(chi(Fraction(k) + 12, trS, 0, lam) - v - 3) < 1e-9   # one unit at the cusp on every component
+    assert abs(chi(Fraction(23, 2), np.exp(1j * np.pi / 4), 0, (1 / 8, 3 / 8, 7 / 8)) - 3) < 1e-9
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

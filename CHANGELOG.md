@@ -1,5 +1,25 @@
 # Changelog
 
+## The weave's W45: the triplet's index on the weave's own surface is zero for both hands, given Λ; relay sections 46 and 47
+
+- **W45** (the rule 6a8ac3640 first; one run; fixes made in review before it, disclosed):
+  - T is a representation of the metaplectic cover, not a local system on M₁,₂: (L R⁻¹ L)⁴ is conjugation by
+    a b⁻¹ a⁻¹ b and acts on T as −I for every lift sign, while the inner automorphisms' lifts send that word to I;
+  - the four-dimensional Dirac operator with the only spin structure the moves keep forces weight 3/2, and by Leray
+    the index is a Riemann–Roch number of vector-valued modular forms, calibrated exactly on the trivial
+    representation, η and W41's Weil representation;
+  - exactly the two identifications the braid relation allows are integral, ρ_T and its dual;
+  - χ_{3/2}(ρ_T) = 0 and χ_½ = χ_{5/2} = 0 for ρ̄_T, and q-expansions find every one of those spaces zero (gaps of nine
+    orders): no zero modes at all; three first at weight 23/2 (the rule's "15/2 or more" was loose);
+  - so in its canonical reading the weave's own surface does not earn GENESIS FK11.
+- **A reading (post hoc):** the index moves only with end data at the weave's cusp, and n units on every component give
+  3n; the canonical condition is n = 0 (GENESIS FK10).
+- **Relay §46:** main's new theorem rows (S101) against W42 to W44. **Relay §47:** W45 to main, and to the audit lane
+  (W42 recorded since its last read; no derived boundary law here; a parallel zero, no map claimed). Ledger rows for
+  main's S102 and the audit lane's SILVER_ANALYTIC_TRANSFER relay.
+- **Surfaces.** The script and its JSON, the dossier (W45, a row, the header, the files), the W45 test, the
+  regeneration list, the state page, the relay and the ledger.
+
 ## The weave's W44: the free-number count in every frame on record; relay sections 44 and 45
 
 - **W44** (the rule 72e481487 first; one run; B1612's data verbatim; a strict fit predicate, modal ranks, every
