@@ -274,6 +274,19 @@ Under the owner's rulings, the table's rows split into two groups:
     excluded by the masses. In the E₆ frame no structure leaves fewer than 13.
   - The tally: at most 17 of the 19 are free at the geometry's weight in the Standard Model frame, if that structure
     fits (W53, a fit). In the E₆ frame, all 19.
+- **W53, the fit at the geometry's weight (the owner's choice: common-scale masses; rule and data first):**
+  - The data: Huang and Zhou 2021's running masses at M_Z, transcribed to the record with their source, and PDG 2025's
+    CKM. The fit compares in logs with a 10% running allowance and passes at χ² ≤ 5.99.
+  - It fails by orders of magnitude: χ²_min = 1887 (484 at a 20% allowance). The masses alone give 163, with more
+    parameters than numbers.
+  - The reason, predicted by hand and computed: near the cusp the weight-3 couplings put the lightest mass over the
+    heaviest at the same value in every hierarchical sector. Each sector alone is reached at its own τ (the up sector
+    to about 4%), and the weave gives them one.
+  - Two cells failed as worded. The rule wrongly took (3, 3, 3) for the only rank-11 structure, and the up sector alone
+    was not reached exactly. Post hoc, the quark masses alone (χ²_min = 41.4) exclude the other two, (3, 3, 5) and
+    (3, 3, 7).
+  - So no structure on record both fits and predicts a flavour relation. The count is 13 if some structure with u or d
+    at weight 5 or more fits, and then all 19 of the 19 are free on the ruled branch, given Λ (18 if I-18 is earned).
 
 ## Questions open with main
 
@@ -289,7 +302,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W52 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W53 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§57).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§58).

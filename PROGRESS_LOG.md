@@ -18536,3 +18536,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Post hoc, both failures are explained.** A symmetric zero-diagonal coupling forces m₃ = m₁ + m₂, the record's
   ×136 wall, which also excludes the lowest weights. With the dependency pattern this reproduces all 128 ranks. Relay
   §57 sent. The fit of the two quark relations (W53) decides between 11 and 13.
+
+## 2026-10-09 — W53: the fit at the geometry's weight; relay §58
+
+- **W53 ran once, after its rule and data** (the owner's choice: masses run to M_Z from a cited table, Huang and Zhou
+  2021, now on record with its source). W52's structure at the geometry's weight misses the 13 flavour numbers by
+  χ² = 1887, and the masses alone by 163.
+- **The reason was predicted by hand.** Near the cusp the lightest mass over the heaviest is the same in every
+  hierarchical sector, so the three sectors need three different τ, and the weave gives them one. Two cells failed as
+  worded. Post hoc, the quark masses alone exclude the other two rank-11 structures, so no structure on record both
+  fits and predicts a flavour relation. Relay §58 sent.

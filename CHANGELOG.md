@@ -1,5 +1,24 @@
 # Changelog
 
+## The weave's W53: the fit at the geometry's weight — excluded by the masses alone; no structure on record both fits and predicts; relay section 58
+
+- **W53** (the owner's choice: common-scale masses; the rule and its data 2d3ea1842 first; one run; F2, F3 and F4
+  went the way their priors leaned; M0(e) and F1 failed as worded):
+  - the data: Huang and Zhou 2021's running masses at M_Z (Phys. Rev. D 103, 016010), added to the record with the
+    PDF's sha256, and PDG 2025's CKM;
+  - W52's T ⊗ T at weight 3 against the 13 flavour numbers, in logs with a 10% running allowance:
+    χ²_min = 1887 against 5.99 (5957 at 5%, 484 at 20%). The masses alone give 163, with more parameters than numbers;
+  - the reason, predicted by hand and computed: near the cusp m₁/m₃ is the same in every hierarchical sector (at 5i,
+    1.05 to 1.15 × 10⁻³ against the predicted 1.07 × 10⁻³). Each sector alone is reached at its own τ, and the weave
+    gives them one;
+  - the rule wrongly took (3, 3, 3) for the only rank-11 structure; post hoc, the quark masses alone (χ²_min = 41.4)
+    exclude (3, 3, 5) and (3, 3, 7) as well.
+- **The count:** no structure on record both fits and predicts a flavour relation. The free flavour numbers are 13 if
+  some structure with u or d at weight 5 or more fits, and then all 19 of the 19 are free (18 if I-18 is earned).
+- **Relay §58** to main. **Surfaces.** The data file, the rule, the script and its JSON, the post-hoc script and its
+  JSON, the dossier (W53, a row, the header, the files, a note in W52), the W53 test and regeneration probe, the state
+  page, the relay and the ledger.
+
 ## The weave's W52: the free numbers counted — 11 of the 13 flavour numbers at the geometry's weight; relay section 57
 
 - **W52** (the owner's order: what fixes τ, then the count; the rule 670ad24e7 first; one run; C1 and C4 as

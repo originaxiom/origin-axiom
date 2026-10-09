@@ -104,3 +104,44 @@ print(json.dumps([bool(ok_vals), bool(ok_e3), bool(ok_scan)]))
     r = subprocess.run([sys.executable, "-c", probe], cwd=copy, capture_output=True, text=True, timeout=900)
     assert r.returncode == 0, r.stderr[-2000:]
     assert json.loads(r.stdout.strip().splitlines()[-1]) == [True, True, True]
+
+
+def test_w53_probe(copy):
+    """W53's fit takes over an hour, and its post-hoc check most of one, so a probe recomputes their stored best fits'
+    chi^2 from the stored tau and rho, and F4's window at 5i, from the scripts' own functions"""
+    probe = r'''
+import json, sys
+sys.path.insert(0, ".")
+import numpy as np
+import the_fit_at_the_geometrys_weight as FW
+import the_fit_at_the_geometrys_weight_posthoc as PH
+d = json.load(open("the_fit_at_the_geometrys_weight.json"))
+p = json.load(open("the_fit_at_the_geometrys_weight_posthoc.json"))
+
+
+def theta(f, key):
+    th = list(f["tau (reduced)"])
+    for m, ph in f[key]:
+        th += [float(np.log(m)), ph]
+    return np.array(th)
+
+
+ok = []
+for name, mo in (("masses only, a = 0.10", True), ("13 observables, a = 0.10", False)):
+    f = d["the fits (global minimum found)"][name]
+    chi = float(np.sum(FW.residuals(theta(f, "rho (modulus, phase)"), 0.10, mo) ** 2))
+    ok.append(abs(chi - f["chi^2"]) < 1e-6 * f["chi^2"])
+for name, mo in (("quark masses only, a = 0.10", True), ("quarks (ten observables), a = 0.10", False)):
+    f = p["P2, P3: the quark fits (global minimum found)"][name]
+    chi = float(np.sum(PH.q_residuals(theta(f, "rho_u, rho_d (modulus, phase)"), 0.10, mo) ** 2))
+    ok.append(abs(chi - f["chi^2"]) < 1e-6 * f["chi^2"])
+f4, _ = FW.F4()
+lo, hi = d["F4"]["m1/m3 over the window: min, max"]
+ok.append(f4["points in the window"] == d["F4"]["points in the window"]
+          and abs(f4["m1/m3 over the window: min, max"][0] - lo) < 1e-12
+          and abs(f4["m1/m3 over the window: min, max"][1] - hi) < 1e-12)
+print(json.dumps([bool(v) for v in ok]))
+'''
+    r = subprocess.run([sys.executable, "-c", probe], cwd=copy, capture_output=True, text=True, timeout=900)
+    assert r.returncode == 0, r.stderr[-2000:]
+    assert json.loads(r.stdout.strip().splitlines()[-1]) == [True, True, True, True, True]

@@ -2007,3 +2007,40 @@ flavour-blind Higgs per sector:
 13. The question to you from §55 stands: how do you read the inner automorphisms on the ruled branch?
 
 0 of 19.
+
+## 58. Added 2026-10-09: the fit at the geometry's weight (W53) — excluded by the masses alone
+
+To main. The dossier's W53 carries the full record. The owner chose the fit's data: masses run to one scale from a
+cited table. The rule and its data (2d3ea1842) came first.
+
+**1. The data and the fit.**
+- The masses are Huang and Zhou 2021 (Phys. Rev. D 103, 016010): MS-bar at M_Z in the full Standard Model,
+  transcribed with the PDF's sha256 to the dossier's `received/` folder. The CKM is PDG 2025 (|V_us|, |V_cb|, |V_ub|,
+  |V_td|; |V_td| stands in for J, whose sign is a convention).
+- The structure is §57's at the geometry's weight: T ⊗ T at k = 3, Y_s = e^{c_s}(F₊ + ρ_s F₋), 11 parameters against
+  13 numbers. It is compared in logs with a 10% running allowance (5% and 20% reported), and it passes at
+  χ² ≤ 5.99.
+
+**2. The result (one run).**
+- **The fit fails by orders of magnitude.** χ²_min = 1887, and 484 even at a 20% allowance.
+- **The masses alone fail.** χ²_min = 163, with eleven parameters for nine numbers.
+- **The reason was predicted by hand and confirmed.**
+  - Near the cusp the weight-3 couplings put m₁/m₃ at κ q^{1/4} in every sector whose hierarchy is set there. At 5i
+    the window gives 1.05 to 1.15 × 10⁻³ against the predicted 1.07 × 10⁻³.
+  - Each sector alone is reached at its own y: the down quarks at 3.19 or 5.11, the leptons at 2.47 or 5.91, and the
+    up quarks within 4% at 4.21. The weave gives them one τ.
+- **Two cells failed as worded.**
+  - The rule wrongly took (3, 3, 3) for the only rank-11 structure, against §57's own "whatever the leptons' weight".
+  - The up sector alone was not reached exactly.
+- **Post hoc, the quark masses alone give χ²_min = 41.4.** That excludes (3, 3, 5) and (3, 3, 7) as well.
+
+**3. The count.**
+- No structure on record both fits the data and predicts a flavour relation. The weights that predict one are
+  excluded: weight 1 by m₃ = m₁ + m₂ (your ×136 wall), and the three rank-11 structures by this fit.
+- The free flavour numbers are 13, if some structure with u or d at weight 5 or more fits at all. The tally is then all
+  19 of the 19 free on the ruled branch, given Λ (18 if I-18 is earned).
+
+**4. Next.** Whether any rank-13 structure fits at all is the open question. If none does, the modular structure is
+excluded as the Yukawas' source on the ruled branch. The question to you from §55 stands.
+
+0 of 19.

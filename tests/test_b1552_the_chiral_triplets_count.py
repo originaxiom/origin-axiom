@@ -1185,6 +1185,46 @@ def test_w52_the_free_numbers_counted():
         assert abs(m[2] - m[0] - m[1]) < 1e-12 * m[2]
 
 
+def test_w53_the_fit_at_the_geometrys_weight():
+    """W53 (the owner's choice: common-scale masses; the rule and its data first; one run; F2, F3 and F4 went the way
+    their priors leaned, M0(e) and F1 failed as worded; post hoc P1 to P4): the weave's modular structure at the
+    geometry's weight is excluded by the data, by the masses alone, and the quark masses alone exclude the other two
+    rank-11 structures. In process: the transcription against the table as printed"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_fit_at_the_geometrys_weight.json").read_text(encoding="utf-8"))
+    c = d["cells (as worded)"]
+    assert [c[k] for k in c] == [False, False, True, False, True]
+    m0 = d["M0"]
+    assert m0["(d) the 13 x 11 Jacobian's rank at three random points"] == [11, 11, 11] and m0["(e) holds"] is False
+    ranks = m0["(e) W52's assignments without an O+-alone sector: their recorded ranks"]
+    assert sorted(k for k, v in ranks.items() if v != [13] * 3) == [f"T (x) T: (3, 3, {k})" for k in (3, 5, 7)]
+    fits = d["the fits (global minimum found)"]
+    assert fits["masses only, a = 0.10"]["chi^2"] > 100 and fits["13 observables, a = 0.10"]["chi^2"] > 1000
+    assert fits["13 observables, a = 0.20"]["chi^2"] > 100 and fits["13 observables, a = 0.05"]["chi^2"] > 1000
+    f1 = d["F1"]
+    assert f1["d"]["the smallest residual"] < 1e-12 and f1["e"]["the smallest residual"] < 1e-12
+    assert 1e-3 < f1["u"]["the smallest residual"] < 0.05 and abs(f1["u"]["its tau"][1] - 4.2) < 0.05
+    lo, hi = d["F4"]["m1/m3 over the window: min, max"]
+    assert 0.95e-3 <= lo and hi <= 1.2e-3 and d["F4"]["points in the window"] >= 20
+    p = json.loads((here / "the_fit_at_the_geometrys_weight_posthoc.json").read_text(encoding="utf-8"))
+    assert list(p["read-outs (post hoc, no prior)"].values()) == [True, True, True, False]
+    q = p["P2, P3: the quark fits (global minimum found)"]
+    assert q["quark masses only, a = 0.10"]["chi^2"] > 30
+    assert all(p["consistency: the quark-only minimum does not exceed W53's 13-observable minimum"].values())
+    hz = json.loads((here / "received" / "HZ2021_running_masses_MZ.json").read_text(encoding="utf-8"))
+    printed = {}
+    for row in hz["as_printed"].values():
+        for item in row.split("; "):
+            name, unit, rest = item.split(" ", 2)[0], item.split(" / ")[1].split(" ")[0], item.split(" ", 3)[3]
+            value, sigma = (float(x) for x in rest.split(" +- "))
+            scale = 1e-3 if unit == "MeV" else 1.0
+            printed[name[1:]] = (value * scale, sigma * scale)
+    got = hz["masses_GeV"]
+    for n, (v, s) in printed.items():
+        assert abs(got["value"][n] - v) < 1e-12 and abs(got["sigma"][n] - s) < 1e-12, n
+    assert len(printed) == 9
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
