@@ -487,3 +487,13 @@ remain. No observer or qualia identification is introduced.
 Report: reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/FINDINGS.md.
 No observer, qualia, full physical spectrum or genesis-selected action
 is inferred. Existing physical identification duties remain.
+
+## October 9 complementary silver identification scope
+
+The Ah inclusions induce cohomology-cone quasi-isomorphisms in all
+degrees for the two supplied acyclic completions. This is an exhibited
+mathematical map, not an identification of whole spectra or nonlinear
+theories. The full physical field/operator map, metric, normal laws and
+stationarity remain unearned; BFV ghosts are not gauginos or particles.
+No existing I-status is promoted and no new shared I-number allocated.
+Report: reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/FINDINGS.md.

@@ -1,0 +1,131 @@
+{
+  "block_profiles": {
+    "F": {
+      "coexact_rank": 7,
+      "exact2_rank": 7,
+      "harmonic": [
+        3,
+        6,
+        3
+      ],
+      "rank": 10
+    },
+    "Fdual": {
+      "coexact_rank": 7,
+      "exact2_rank": 7,
+      "harmonic": [
+        3,
+        6,
+        3
+      ],
+      "rank": 10
+    },
+    "N": {
+      "coexact_rank": 18,
+      "exact2_rank": 18,
+      "harmonic": [
+        6,
+        12,
+        6
+      ],
+      "rank": 24
+    },
+    "W": {
+      "coexact_rank": 3,
+      "exact2_rank": 3,
+      "harmonic": [
+        2,
+        4,
+        2
+      ],
+      "rank": 5
+    },
+    "Wdual": {
+      "coexact_rank": 3,
+      "exact2_rank": 3,
+      "harmonic": [
+        2,
+        4,
+        2
+      ],
+      "rank": 5
+    },
+    "gauge": {
+      "coexact_rank": 0,
+      "exact2_rank": 0,
+      "harmonic": [
+        1,
+        2,
+        1
+      ],
+      "rank": 1
+    }
+  },
+  "boundary_selected": false,
+  "conditional_cone_preserved": true,
+  "facts": {
+    "F_actual_dual_cyclicity": true,
+    "F_acyclic_not_extra_modes": true,
+    "F_auxiliary_derivative_control": true,
+    "F_chain_projectors": true,
+    "F_contracting_inverse": true,
+    "F_harmonic_and_exact_separation": true,
+    "Fdual_acyclic_not_extra_modes": true,
+    "Fdual_auxiliary_derivative_control": true,
+    "Fdual_chain_projectors": true,
+    "Fdual_contracting_inverse": true,
+    "Fdual_harmonic_and_exact_separation": true,
+    "N_actual_trace_cyclicity": true,
+    "N_acyclic_not_extra_modes": true,
+    "N_auxiliary_derivative_control": true,
+    "N_chain_projectors": true,
+    "N_contracting_inverse": true,
+    "N_harmonic_and_exact_separation": true,
+    "W_actual_dual_cyclicity": true,
+    "W_acyclic_not_extra_modes": true,
+    "W_auxiliary_derivative_control": true,
+    "W_chain_projectors": true,
+    "W_contracting_inverse": true,
+    "W_harmonic_and_exact_separation": true,
+    "Wdual_acyclic_not_extra_modes": true,
+    "Wdual_auxiliary_derivative_control": true,
+    "Wdual_chain_projectors": true,
+    "Wdual_contracting_inverse": true,
+    "Wdual_harmonic_and_exact_separation": true,
+    "adapted_clifford": true,
+    "affine_reference_counterterm_sign": true,
+    "all_nonzero_auxiliary_gradients_rejected": true,
+    "bulk_cubic_retained": true,
+    "combined_reality": true,
+    "elliptic_exchange_all_covectors": true,
+    "full_parent_and_harmonics": true,
+    "gauge_actual_trace_cyclicity": true,
+    "gauge_acyclic_not_extra_modes": true,
+    "gauge_auxiliary_derivative_control": true,
+    "gauge_chain_projectors": true,
+    "gauge_contracting_inverse": true,
+    "gauge_harmonic_and_exact_separation": true,
+    "graded_domain": true,
+    "literal_logs_and_relators": true,
+    "maximal_green_current": true,
+    "nonzero_coexact_bracket_has_zero_gauge_moment": true,
+    "old_exact_boundary_still_not_strict": true,
+    "parallel_scalar_derivative_admitted": true,
+    "restricted_symbol_determinant": true,
+    "symbol_projector": true,
+    "wrong_normal_complement_rejected": true
+  },
+  "full_E8_structure_constants_recomputed": false,
+  "full_harmonic_dimensions": [
+    100,
+    200,
+    100
+  ],
+  "full_real_action_completed": false,
+  "nonauthor_acceptance": false,
+  "physical_goal_achieved": false,
+  "physical_spectrum_identified": false,
+  "predicates_passed": 50,
+  "stationary_chiral_completion": false,
+  "symbol_reference_covectors": 48
+}

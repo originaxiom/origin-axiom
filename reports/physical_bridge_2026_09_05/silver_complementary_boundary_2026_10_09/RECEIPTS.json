@@ -1,0 +1,109 @@
+{
+  "first_seal": "0102df1f55d90694b7d823484c23a6cfae0a7804",
+  "corrected_seal": "bbe0efc44c797a63d289d063c6db82a880c29ae7",
+  "first_native": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 32.619590000016615,
+    "log_bytes": 915,
+    "log_sha256": "1aa15b6b21d7939bba0dea97d11c421d633fbddc7a960d353e6bb0e68cd44990",
+    "argv": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/probe.py"
+    ]
+  },
+  "determinant_diagnostic": {
+    "command": [
+      "python3",
+      "-c",
+      "Post-failure symbolic determinant difference diagnostic; literal stdout published, local-path command retained locally."
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 1.895625000121072,
+    "log_bytes": 293,
+    "log_sha256": "acb95809a501ae61a66c9baccefe9cff41369aefc1bd4b47f6c75ff6f1ac7f7c"
+  },
+  "corrected_runs": {
+    "native": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 32.8183320001699,
+      "log_bytes": 3401,
+      "log_sha256": "61f14302d515c6e6c06595028fca15a502cc8ca997ddce03b2b3c7d0ca0be6a9",
+      "argv": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/probe.py"
+      ]
+    },
+    "reference": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.1138140000402927,
+      "log_bytes": 2311,
+      "log_sha256": "85de56bc62035e3beb8f11eedd9868d4bdced041c9e35a39f00626cdf4c1c628",
+      "argv": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/reference.py"
+      ]
+    },
+    "focused": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 39.989483000012115,
+      "log_bytes": 99,
+      "log_sha256": "c5edce4dbd6d3af751d66e932ca12d21be41354620e27381a58cef46a39c8de7",
+      "argv": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_complementary_boundary.py"
+      ]
+    },
+    "regression": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_spectral_completion.py",
+        "tests/test_physical_bridge_silver_nonlinear_boundary.py",
+        "tests/test_physical_bridge_silver_cyclic_transfer.py",
+        "tests/test_physical_bridge_silver_analytic_transfer.py",
+        "tests/test_physical_bridge_silver_complementary_boundary.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 546.9146499999333,
+      "log_bytes": 111,
+      "log_sha256": "46bcde00afa6a8e2b29e6fb93ada7b95df7beaa08708b82319c249129f403636"
+    }
+  },
+  "governance_preseal": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 50.706375000067055,
+    "bytes": 2384,
+    "sha256": "6588f806213464a6bb8414ec2abf69d13d893fbcb05964c26a3c7f6b21d6284b",
+    "staged_content_tree": "77e5c2ef56da800dad42de37808535af6bdf6099",
+    "staged_unchanged": true
+  },
+  "governance_publication": {
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 18.98199400003068,
+    "bytes": 2384,
+    "sha256": "033ce1613bfee4f10566345e666bb51f998ff20c01ae6deed7def722c4496c73",
+    "staged_content_tree": "09daf6646cb67b8fd9d1d46ad20c40007ce0dfdf",
+    "staged_unchanged": true
+  },
+  "scope": "Research checkpoint only; no full-suite, nonauthor acceptance or main banking.",
+  "raw_first_failure": "Literal bytes retained locally; original source in first pushed seal; log digest above.",
+  "physical_goal_achieved": false,
+  "governance_attachment_note": "Publication receipt/log and this note attached after the checked staged tree; scientific bytes unchanged. Governance is 26 PASS and four inherited FAIL categories, not all green."
+}

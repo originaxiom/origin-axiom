@@ -1,5 +1,26 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October 9 complementary silver disposition:
+
+- PB-SILVER-COMPLEMENTARY-ACYCLIC EXECUTED at authored research grade:
+  “The supplied complementary completion is a strict cyclic DG Lie
+  boundary with the same cohomology cone in all degrees.”
+  Scope: reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md.
+  Its physical scalar/gaugino restrictions are changed, not presumed.
+- PB-SILVER-PHYSICAL-JOINT: next vary the real superfield kinetic term,
+  derive the projected normal response, match the physical fermion
+  domain, and test the existing positive Dirichlet background. Then
+  compute stability, complete modes/interactions and anomalies.
+  The concrete unexecuted proposal is in this packet's NEXT_TEST.md.
+- PB-SILVER-FULL-BOUNDARY canonical completion remains an alternative
+  for the OLD exact law. It is not needed to close the NEW strict
+  law's holomorphic/BFV sector. Preserve the convergent reduced lift
+  and its remaining kappa obstruction, all 35 choices, and other
+  parents' distinct results.
+- Earlier dated “unexecuted complementary” entries below are historical
+  and superseded by this checkpoint, not work to rediscover.
+  No three-family, parameter-free, gravity or qualia claim follows.
+
 October 9 silver analytic-transfer disposition:
 
 - PB-SILVER-REDUCED-CONVERGENCE advanced at authored research grade:

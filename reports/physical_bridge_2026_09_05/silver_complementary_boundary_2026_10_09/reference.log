@@ -1,0 +1,113 @@
+{
+  "block_profiles": {
+    "F": {
+      "coexact_rank": 7,
+      "exact2_rank": 7,
+      "harmonic": [
+        3,
+        6,
+        3
+      ],
+      "rank": 10
+    },
+    "Fdual": {
+      "coexact_rank": 7,
+      "exact2_rank": 7,
+      "harmonic": [
+        3,
+        6,
+        3
+      ],
+      "rank": 10
+    },
+    "N": {
+      "coexact_rank": 18,
+      "exact2_rank": 18,
+      "harmonic": [
+        6,
+        12,
+        6
+      ],
+      "rank": 24
+    },
+    "W": {
+      "coexact_rank": 3,
+      "exact2_rank": 3,
+      "harmonic": [
+        2,
+        4,
+        2
+      ],
+      "rank": 5
+    },
+    "Wdual": {
+      "coexact_rank": 3,
+      "exact2_rank": 3,
+      "harmonic": [
+        2,
+        4,
+        2
+      ],
+      "rank": 5
+    },
+    "gauge": {
+      "coexact_rank": 0,
+      "exact2_rank": 0,
+      "harmonic": [
+        1,
+        2,
+        1
+      ],
+      "rank": 1
+    }
+  },
+  "conditional_cone_preserved": true,
+  "full_harmonic_dimensions": [
+    100,
+    200,
+    100
+  ],
+  "nonauthor_acceptance": false,
+  "physical_goal_achieved": false,
+  "predicates": {
+    "F_acyclic": true,
+    "F_chain_projectors": true,
+    "F_derivative_control": true,
+    "F_inverse": true,
+    "F_separation": true,
+    "Fdual_acyclic": true,
+    "Fdual_chain_projectors": true,
+    "Fdual_derivative_control": true,
+    "Fdual_inverse": true,
+    "Fdual_separation": true,
+    "N_acyclic": true,
+    "N_chain_projectors": true,
+    "N_derivative_control": true,
+    "N_inverse": true,
+    "N_separation": true,
+    "W_acyclic": true,
+    "W_chain_projectors": true,
+    "W_derivative_control": true,
+    "W_inverse": true,
+    "W_separation": true,
+    "Wdual_acyclic": true,
+    "Wdual_chain_projectors": true,
+    "Wdual_derivative_control": true,
+    "Wdual_inverse": true,
+    "Wdual_separation": true,
+    "affine_sign_control": true,
+    "all_cyclic_pairs": true,
+    "full_248_harmonics": true,
+    "gauge_acyclic": true,
+    "gauge_chain_projectors": true,
+    "gauge_derivative_control": true,
+    "gauge_inverse": true,
+    "gauge_separation": true,
+    "literal_logs_and_relators": true,
+    "noncommutative_cubic": true,
+    "nonzero_bracket_zero_mean": true,
+    "symbol_and_derivative_controls_all_48": true
+  },
+  "predicates_passed": 37,
+  "symbol_reference_covectors": 48
+}

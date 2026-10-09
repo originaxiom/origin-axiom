@@ -1,0 +1,14 @@
+[
+  {
+    "actual": "-(x**2 + y**2)**2",
+    "expected": "(-x**2 - y**2)*(x**2 + y**2)",
+    "difference": "0",
+    "structural_equal": false
+  },
+  {
+    "actual": "-(x**2 + y**2)**2",
+    "expected": "(-x**2 - y**2)*(x**2 + y**2)",
+    "difference": "0",
+    "structural_equal": false
+  }
+]

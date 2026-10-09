@@ -18225,3 +18225,30 @@ All scientific first attempts pass. The test log records 41 passed in
 379.74s; captured exit0 in380.432385s on the unchanged seal. The next
 unexecuted complementary-acyclic proposal is preserved in NEXT_TEST.md,
 including its changed auxiliary-field admission risk.
+
+## 2026-10-09 complementary silver boundary
+
+October 9 complementary silver boundary checkpoint: 50 native and
+37 separate-reference predicates, 9 focused and 50 five-packet regression
+tests pass after the preserved determinant-representation verifier repair.
+Report: reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/FINDINGS.md.
+
+With the SAME silver coefficient and harmonic Ah, coexact1 -> exact2
+gives a strict cyclic DG Lie boundary for the full E8 bracket, an
+elliptic combined-reality/graded Hodge domain and a complete cohomology-cone
+comparison. The holomorphic affine reference counterterm is explicit.
+This bypasses the full canonical-convergence duty for this new law,
+not the older exact completion. All 35 harmonic choices remain.
+
+The physical cost is verified too: nonzero exact auxiliary derivatives
+are rejected. NEXT derive the real vector/chiral superfield response and
+normal laws, match its physical operator to this domain, then test the
+existing positive Dirichlet background, stability, spectrum and anomalies
+together. No physical chiral SM or parameter selection is claimed.
+Seven science/19 source pins match bbe0efc44. Four inherited governance
+failure categories, outside review and full-suite/main acceptance remain.
+The full SM/TOE goal is active and unachieved; no qualia is derived.
+
+Regression exit 0, 50 passed in 545.72s; captured wall time 546.914650s.
+First failure and verifier repair remain preserved; conditional cone
+comparison is not a physical spectrum or nonauthor theorem acceptance.

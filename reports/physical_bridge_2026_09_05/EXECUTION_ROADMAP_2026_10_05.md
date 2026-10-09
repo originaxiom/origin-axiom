@@ -59,10 +59,16 @@ audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
    10 focused/41 four-packet regression pass at ab02a6ea1. Convergent
    cyclic minimal interactions, exact Kuranishi curvature equation and
    symplectic harmonic lift; not the full canonical boundary map.
-   NEXT first test the complementary coexact1-to-exact2 acyclic block
-   with the SAME harmonic Ah: strict bracket closure, ellipticity,
-   reality and cone comparison, then changed auxiliary/superfield
-   traces. This is an unexecuted alternative, not an accepted model.
+   Stage2E October9 COMPLEMENTARY EXTENSION EXECUTED at research grade:
+   silver_complementary_boundary_2026_10_09/FINDINGS.md.50 native/37
+   reference/9 focused/50 five-packet regression pass at bbe0efc44,
+   after the preserved determinant-representation verifier repair.
+   The coexact1-to-exact2 completion with SAME harmonic Ah is strict
+   cyclic, elliptic and combined-reality compatible; its full cone
+   cohomology is unchanged. Exact auxiliary derivatives are rejected.
+   NEXT the real superfield kinetic variation and projected normal
+   response, component/domain map, and existing Dirichlet background.
+   No full physical chiral model or parameter selection is asserted.
    Keep the original canonical-completion route if this fails its
    physical gates. Same-action stationarity, stability, physical
    spectrum/interactions, anomalies and generated selection remain.

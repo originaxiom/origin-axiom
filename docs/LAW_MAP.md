@@ -1,5 +1,24 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October 9 complementary silver boundary sublemmas, under the supplied
+R40 full E8 parent, literal coefficient, compatible cyclic Hodge metric
+and fork-owned harmonic polarization. Authored proof:
+reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md.
+Controls: tests/test_physical_bridge_silver_complementary_boundary.py.
+
+| Scoped result | Argument and verification limit |
+|---|---|
+| Complementary coexact1 to exact2 block is acyclic on the actual coefficient | D1 h2=1-P2 and h2 D1 is the coexact projector; two exact algorithms reconstruct all six coefficient blocks |
+| A0=k, A1=im h2+L, A2=ann(k) is a strict cyclic DG Lie boundary | k-equivariance and the invariant pairing give B(k,[A1,A1])=0; full E8 bracket retained, not re-enumerated by matrix controls |
+| Its full Hodge trace is elliptic, selfadjoint, graded and combined-reality compatible | Adapted symbol exchanges domain and complement for every nonzero covector; harmonic compatibility uses the same paired Ah |
+| Complete cohomology cone is unchanged | Ah inclusions into both acyclic completions induce quasi-isomorphisms in every degree; not a nonlinear or physical spectral equivalence |
+| Relative holomorphic action has zero boundary variation | Fixed flat reference counterterm cancels the affine term; isotropy cancels the remaining bilinear term; real kinetic action remains to join |
+| Auxiliary gradient admission is strictly smaller | A1 intersects im D0 trivially; retained parallel k traces pass that term, not automatically the full physical law |
+
+50 native/37 reference/9 focused/50 regression pass after the preserved
+symbolic-comparison repair. Outside review and physical completion
+remain; no new shared law number.
+
 October 9 silver analytic-transfer conditional sublemmas.
 Fixed supplied E8 parent, literal silver coefficient, marked torus,
 compatible cyclic metric and earlier harmonic planes. Authored proof:
