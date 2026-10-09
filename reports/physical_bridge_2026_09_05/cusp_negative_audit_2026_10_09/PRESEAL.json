@@ -1,0 +1,39 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/DESIGN.md",
+      "bytes": 3953,
+      "sha256": "703a6a43c4bd7d85efa9c0d3709edb03900591d78cabc9c0dc5e27ee64e59524"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/PROOF.md",
+      "bytes": 3891,
+      "sha256": "6dd463a75b70340b239a66caef67f72af1630987f523f876e1a8d155e8d60925"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/probe.py",
+      "bytes": 3417,
+      "sha256": "3c6b2162093dd76ee0f42135c21fb11e042a184377f37528e847f2b47f4ff3ba"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/reference.py",
+      "bytes": 3865,
+      "sha256": "4250ed60dbaf0dc60ef65b66e1bc10f096abc5e9b75987f0b938194f42576777"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/replay.rb",
+      "bytes": 3661,
+      "sha256": "94a8673ff32b2c4d4f3637cf78ceeacb03dcd819a4a3ec36312931497d8b6754"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/INPUTS.json",
+      "bytes": 1635,
+      "sha256": "5f092ff81f72eb2575b89e876cd10423e3a98ba5db218419082b2f8215e1478a"
+    },
+    {
+      "path": "tests/test_physical_bridge_cusp_negative_audit.py",
+      "bytes": 1995,
+      "sha256": "cfe6f33fa8d1674f99dea6efc0eb4addff949c5277c354fa4cd9e7c030f92b83"
+    }
+  ]
+}

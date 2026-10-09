@@ -1,0 +1,42 @@
+{
+  "main": "87d769c7aa031cebc87da3e9fd292d55bcaa45b5",
+  "arc": "frontier/B1629_does_the_principle_reach_the_weaves_cusp",
+  "sources": [
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/FINDINGS.md",
+      "bytes": 4691,
+      "sha256": "a7581b0b8d2171ac474e64aebaedcf34715e00fa01c3c1f59bfe4490f7c774d9"
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/PREREGISTRATION.md",
+      "bytes": 4401,
+      "sha256": "3c093d73f2eb17b7d2a04d4d2b84ac977e48b04c319c3633aac9ca6b0c3f3c3e"
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/ARTIFACT_HASHES.txt",
+      "bytes": 633,
+      "sha256": "df57600dcfbb9b4fcc9d88fc6fc397be2b24d42a7195cde19024e458e8ad531c"
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/verification/cusp_reach.py",
+      "bytes": 4932,
+      "sha256": "914683075bc1bb822482195b87c68f1c735314a9c07d501afb61676432f4e537"
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/verification/post_seal_cusp.py",
+      "bytes": 3961,
+      "sha256": "f095372a0251dfc44e92281febd2a5a3cb12681f9d0afd29820684242561145c"
+    },
+    {
+      "path": "frontier/B1629_does_the_principle_reach_the_weaves_cusp/verification/post_seal_cusp.json",
+      "bytes": 1440,
+      "sha256": "83e8742854ee77ca5a5ed974f4a2ab6bce52414a44d35c82c85e3b1beb319bf7"
+    },
+    {
+      "path": "tests/test_b1629_does_the_principle_reach_the_cusp.py",
+      "bytes": 1718,
+      "sha256": "498db59b33bff65559a228419ef43ca3e6b1808afb51a82ddeae22ee14971b84"
+    }
+  ],
+  "focused_tests": 7
+}
