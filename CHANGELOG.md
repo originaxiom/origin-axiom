@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-09 cusp-negative audit executed
+
+B1629's corrected producer fully reproduced after pre-run seal4fcee76ab;
+170 exact fractions and its complete finite height profile match two
+different methods. Eight native/six reference predicates and seven tests
+pass. The finite equality was overstated; its limiting law and geometric
+results survive. The broad dynamical exclusion is not established by
+this instrument. Report:
+reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/FINDINGS.md.
+Sender relay requests scoped corrections. Silver same-action work continues;
+no physical source or chiral SM has been derived by this audit.
+
 ## 2026-10-09 cross-seat audit standing instruction
 
 Recorded the owner's renewed two-sided audit requirement in PRACTICES

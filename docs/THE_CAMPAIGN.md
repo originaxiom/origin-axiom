@@ -1,5 +1,12 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October9 standing cross-seat audit: first bounded packet executed in
+reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/FINDINGS.md.
+B1629 computation passes replay. Finite equality is corrected to a
+finite formula and limit; its broader dynamical inference is not adopted.
+Return to silver's real-superfield response, with W47 classification/
+rank checks queued and physical maps between the two problems explicit.
+
 October 9 complementary silver boundary checkpoint: 50 native and
 37 separate-reference predicates, 9 focused and 50 five-packet regression
 tests pass after the preserved determinant-representation verifier repair.

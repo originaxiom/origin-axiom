@@ -1,0 +1,76 @@
+{
+  "seal": "4fcee76ab706a065c7d4b16dc29d0ac48ece64ac",
+  "runs": {
+    "replay": {
+      "command": [
+        "python3",
+        "<isolated-run>/frontier/B1629_does_the_principle_reach_the_weaves_cusp/verification/post_seal_cusp.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.4011480000335723,
+      "log_bytes": 1441,
+      "log_sha256": "8bae0e0c9f246890bc3725dc2637a09ecb77b1cf6dcc9451413c65afb688b656"
+    },
+    "native": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.33818600000813603,
+      "log_bytes": 6574,
+      "log_sha256": "aaa632c32e391e3f13e5b048c36a6ccb95fe7dc2d00896f02bd0c56152a9c07d"
+    },
+    "reference": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.2596700000576675,
+      "log_bytes": 5191,
+      "log_sha256": "de7e99c4e92bacdce0ca3d582be22da568f12ff26c8d3446e95b1f83961fdcdc"
+    },
+    "focused": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_cusp_negative_audit.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.7501829999964684,
+      "log_bytes": 98,
+      "log_sha256": "bc65fea56c68f1a807dc2339b23a78aedc6580de5b33f37938f9efa9ddcc4a82"
+    }
+  },
+  "path_redaction": "Only command arguments are made relative or replaced by <isolated-run>; stdout bytes and their hashes are unmodified.",
+  "governance_preseal": {
+    "staged_content_tree": "4f06b6260452a41c28e1c9e150861e8921479338",
+    "exit_code": 1,
+    "elapsed_seconds": 14.847948000067845,
+    "log_bytes": 2384,
+    "log_sha256": "6d4bd9d49c8f380fe6fb2a9807a3e921fdca06bb4a4eb97c2d595b7c7d1b3ddf",
+    "pass": 26,
+    "inherited_fail_categories": 4
+  },
+  "scope": "Research audit checkpoint; not full suite, main banking or physical-source derivation.",
+  "governance_publication": {
+    "staged_content_tree": "db748aa65860d02137acf451802fbed55e85d1cf",
+    "exit_code": 1,
+    "elapsed_seconds": 16.701341999927536,
+    "log_bytes": 2384,
+    "log_sha256": "ac5d5d9163e21e58504a1f904906be4ed526e208169a12c07e36083781829fb7",
+    "pass": 26,
+    "inherited_fail_categories": 4,
+    "staged_tree_unchanged_during_run": true,
+    "attachment": "This receipt was attached after the checked tree; sealed science and run logs unchanged."
+  }
+}

@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October9 cusp-negative audit EXECUTED at4fcee76ab: full B1629 corrected
+producer replay;170 exact fractions and full finite P2 height profile
+recovered independently;7 focused tests pass. Finite equality needs
+correction, its limiting and height results survive. The broader dynamical
+inference is not established by this instrument. Report:
+reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/FINDINGS.md.
+Silver same-action response remains next; W47 queued. No new physical
+source, outside analytic acceptance, full-suite certificate or achieved TOE.
+
 October 9 cross-seat audit intake: owner reaffirmed scrutiny of negatives,
 premises, writing, computation custody and scripts. Source-reading only
 at main87d769c7a and SM1add8f87c; no new science run or exclusion. First

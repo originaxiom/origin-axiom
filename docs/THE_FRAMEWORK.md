@@ -1,5 +1,13 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October9 cusp audit verifies an exact finite primitive-word tail and
+convergence bound, reproducing B1629's full corrected output and finite
+height profile. The limiting result is preserved; exact equality at
+every finite length and a universal dynamical exclusion are not supported.
+Scope and7 tests:
+reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/FINDINGS.md.
+The physical map to a silver boundary response remains to be earned.
+
 October 9 complementary silver boundary checkpoint: 50 native and
 37 separate-reference predicates, 9 focused and 50 five-packet regression
 tests pass after the preserved determinant-representation verifier repair.

@@ -5543,3 +5543,23 @@ reference/10 LIVE and18 regression PASS. No whole-architecture lead closed.
 Closing scope: conditional smooth kinetic domain only, no interacting
 chiral model or universal supersymmetry/architecture exclusion. The full
 parameter-free physical mission remains active and unfinished.
+
+## 2026-10-09 cusp-negative audit: scoped correction and surviving leads
+
+Report: reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/FINDINGS.md.
+B1629 producer and finite height profile reproduced;170 exact fractions
+and7 tests pass. Finite-equality wording needs correction, its limit
+survives. The broader dynamical exclusion is not established by the
+statistic; no physical source is thereby shown to exist.
+
+- Sender relay requests main's own wording/surface correction and the
+  missing implication to a dynamical end law. OPEN; acceptance unknown.
+- Silver same-action vector/chiral boundary variation and integrated
+  normal response remain the physical construction target.
+- W47's twist/domain completeness and q-expansion dimension certificate
+  remain queued. Single chiral twist modes reported there are preserved.
+- A map from any actual physical end response to W46's modular-surface n
+  needs to be exhibited before transferring a generation count.
+
+Closing scope: the bounded cusp audit is complete at research grade;
+FK10, generated selection and the parameter-free SM/TOE remain unfinished.

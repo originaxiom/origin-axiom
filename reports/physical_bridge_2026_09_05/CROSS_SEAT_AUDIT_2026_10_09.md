@@ -1,5 +1,13 @@
 # Standing cross-seat audit and current intake
 
+Subsequent outcome: the first bounded audit has executed.
+cusp_negative_audit_2026_10_09/FINDINGS.md records the full producer replay,
+170 different-method exact fractions, recovered finite height profile
+and seven passing tests at4fcee76ab. The finite-equality wording needs
+correction, the valid limit survives, and the broad dynamical inference
+is not adopted. W47 remains queued. The intake below is retained as
+the record of what was read before execution.
+
 Owner reaffirmed October 9, 2026: audit other seats' work, especially
 negative conclusions, for informed premises, accurate writing, computation
 integrity and script defects. This implements the existing two-sided

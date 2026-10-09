@@ -13,6 +13,14 @@ are READ intake, not reproduced conclusions. W48/B1630 are preregistrations
 at those pins. The same-real-action silver boundary target stays active;
 no unearned cross-operator negative or positive is imported into it.
 
+October9 audit overlay EXECUTED: cusp_negative_audit_2026_10_09/FINDINGS.md.
+B1629 corrected producer fully reproduced;170 exact fractions and full
+finite P2 height profile recovered by different methods;7 tests pass
+at4fcee76ab. Finite-equality wording fails, its limit survives. The broad
+non-dynamical inference is not established by this instrument. W47 stays
+queued. Continue silver's same-action projected response and earn any
+map between modular-surface end data and the physical boundary law.
+
 1. Apex scope: reproduce the cubic identity, test actual compact lifts of
    the existing Y3 backgrounds, and examine path-dependent mass selection.
    Completed at research-checkpoint grade: apex_scope_2026_10_05/FINDINGS.md.

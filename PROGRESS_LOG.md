@@ -18266,3 +18266,18 @@ refutation. No new scientific producer run, route closure, physical
 achievement or main-bank acceptance. The sender-owned audit relay is
 OPEN. B1629 first, W47 queued; silver's real-superfield response remains
 the construction target. Full parameter-free SM/TOE active and unachieved.
+
+## 2026-10-09 cusp-negative audit executed
+
+B1629 corrected producer fully reproduced unchanged at pre-run seal
+4fcee76ab. Two methods agree on170 exact fractions and independently
+recover its full finite height profile. Eight native/six reference
+predicates and7 focused tests pass. The finite-equality wording fails;
+the valid limit and height results survive. The broader non-dynamical
+inference is not established by this instrument. Full report:
+reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/FINDINGS.md.
+No failed audit run. Source/capture custody recorded; four inherited
+governance failure categories remain. Sender relay requests scoped
+corrections; receipt and acceptance unknown. Silver same-real-action
+boundary response remains next, W47 verification queued. No physical
+source, chiral SM, outside analytic acceptance or full TOE achieved.

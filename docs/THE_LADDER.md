@@ -1,5 +1,13 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October9 cusp audit: B1629's finite calculation reproduced, but its
+advertised exact all-length fraction is a limit. The broader dynamical
+exclusion is not established by the tested statistic. Full replay and
+170 exact different-method fractions:
+reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/FINDINGS.md.
+Valid height and limiting results survive; a physical end-selection
+law still needs its own action and map. No cusp source has been derived.
+
 October 9 complementary silver boundary checkpoint: 50 native and
 37 separate-reference predicates, 9 focused and 50 five-packet regression
 tests pass after the preserved determinant-representation verifier repair.

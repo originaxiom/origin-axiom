@@ -1,5 +1,21 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October9 cusp audit sublemmas, for the declared uniform primitive binary
+word ensemble and authored proof. Neither physical selection nor an
+exhaustive action no-go is established. Report/proof:
+reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/FINDINGS.md
+and its PROOF.md; tests/test_physical_bridge_cusp_negative_audit.py.
+
+| Scoped result | Argument and verification |
+|---|---|
+| Exact finite primitive marked-run fraction is a Mobius sum, rather than the unconditioned fraction at every length | Constant-word subtraction and minimal-period inversion in PROOF.md;170 exact cells agree with rooted-word enumeration; test_exact_finite_counterexample and test_independent_small_population |
+| Fixed-k tail tends to (k+1)/2^k as n tends to infinity | Conditioning error is at most excluded-word probability, bounded by n*2^(-n/2); authored argument plus test_conditioning_error_bound; symbolic ensemble only |
+| Vanishing Bernoulli occupancy tail coexists with arbitrarily long runs | Disjoint-block avoidance probability tends to zero; countable-tail proof in PROOF.md; finite arithmetic control in probe.py; no physical source is inferred |
+
+Corrected B1629 producer fully replayed at pre-run seal4fcee76ab; finite
+height profile preserved,7 tests pass. Broader geometric measures,
+physical end equations and outside analytic acceptance remain separate.
+
 October 9 complementary silver boundary sublemmas, under the supplied
 R40 full E8 parent, literal coefficient, compatible cyclic Hodge metric
 and fork-owned harmonic polarization. Authored proof:
