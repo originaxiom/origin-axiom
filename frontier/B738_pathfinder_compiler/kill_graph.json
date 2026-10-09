@@ -11403,5 +11403,29 @@
    "hypotheses": "1D pulls, asymmetric errors, theta13 propagated, correlations neglected; the graded set by the sealed data rule"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1629",
+  "claim_killed": "That anything the principle forces -- its tick, its clock read as moves, or the weave's uniform measure on threads -- visits the weave's cusp with positive weight, which a dynamical forcing of the cusp's unit of end data (FK10) would need.",
+  "kill_form": "Sealed (B1629's seal commit; the sealed instrument measured only the cusp's representative at infinity, repaired post seal and disclosed): the tick LR is the unique lowest closed geodesic among the 2536 threads of length <= 14 (top sqrt5/2; second sqrt2 -- B482's Markov values); the clock's word read as moves tops at 2.29; under the weave's uniform measure the fraction of letters in a run of length >= k is (k+1)/2^k at every length -- geometric decay, no atom at the cusp.",
+  "hatch": "a boundary condition supplied from outside the principle's dynamics: a physical end mechanism at the cusp (the audit lane's open end duty), or a postulate (declined by the owner on 2026-10-09)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-09), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the unit at the weave's cusp that W45-W46 need for a chiral three is not dynamical; FK10's forcing, if any, is a boundary datum.",
+  "faces_consulted": [
+   "B1627",
+   "B1621",
+   "B1620",
+   "B482",
+   "B1083"
+  ],
+  "fact_computed": "the symmetric top heights of every primitive thread of length <= 14 (min sqrt5/2 at LR alone; max 7.43), of L^k R (about k/2), of the clock's prefix words (max 2.29); the fraction of letters in runs >= k, (k+1)/2^k at n = 10..18",
+  "scope": {
+   "frame": "the weave's surface (the modular surface) and the principle's forced data",
+   "object": "closed geodesics of positive words and their cusp excursions",
+   "reach": "general",
+   "hypotheses": "the clock's word read letter for letter as moves is a reading; heights by the two cusp representatives over the word's rotations; the cusp-time proxy by run lengths (the continued-fraction coding)"
+  },
+  "weave_or_thread": "weave"
  }
 ]

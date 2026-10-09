@@ -11367,6 +11367,25 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1629": {
+   "slug": "does the principle reach the weaves cusp",
+   "motifs": [
+    "measurement",
+    "figure_eight",
+    "golden",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B482",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B162": {
    "slug": "kappa sweep",
    "motifs": [

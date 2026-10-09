@@ -1,0 +1,66 @@
+{
+ "C1": {
+  "word_length": 6765,
+  "longest_run_L": 3,
+  "longest_run_R": 1
+ },
+ "C2": {
+  "rule_prefix_words_max_top": 1.118034,
+  "rule_prefix_words_n": 120,
+  "all_threads_len_le_14_max_top": 7.433034,
+  "all_threads_len_le_14_n": 2536,
+  "L^k R_tops": {
+   "1": 1.118034,
+   "2": 0.866025,
+   "3": 0.763763,
+   "4": 0.707107,
+   "5": 0.67082,
+   "6": 0.645497,
+   "7": 0.626783,
+   "8": 0.612372,
+   "9": 0.600925,
+   "10": 0.591608,
+   "11": 0.583874,
+   "12": 0.57735
+  },
+  "LR_top": 1.118034
+ },
+ "C3": {
+  "10": {
+   "threads": 99,
+   "frac_above_2": 0.424242,
+   "frac_above_4": 0.030303,
+   "frac_above_8": 0.0
+  },
+  "12": {
+   "threads": 335,
+   "frac_above_2": 0.474627,
+   "frac_above_4": 0.035821,
+   "frac_above_8": 0.0
+  },
+  "14": {
+   "threads": 1161,
+   "frac_above_2": 0.524548,
+   "frac_above_4": 0.041344,
+   "frac_above_8": 0.0
+  },
+  "16": {
+   "threads": 4080,
+   "frac_above_2": 0.570833,
+   "frac_above_4": 0.046814,
+   "frac_above_8": 0.000245
+  },
+  "18": {
+   "threads": 14532,
+   "frac_above_2": 0.613474,
+   "frac_above_4": 0.052436,
+   "frac_above_8": 0.000206
+  }
+ },
+ "C4": {
+  "trace_L": 2,
+  "trace_LR": 3,
+  "min_thread_trace_len_le_12": 3
+ }
+}
+python3 cusp_reach.py  9.33s user 0.07s system 97% cpu 9.644 total

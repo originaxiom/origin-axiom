@@ -1,0 +1,26 @@
+{
+ "id": "B1629",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1627",
+  "B1621",
+  "B1620",
+  "B482",
+  "B1083"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's surface (the modular surface) and the principle's forced data (the tick, the clock read as moves)",
+  "object": "closed geodesics of positive words, their heights and cusp excursions; the weave's uniform measure",
+  "reach": "general",
+  "hypotheses": "the sealed instrument's one-sided height repaired post seal (disclosed); the clock read letter for letter as moves is a reading; the cusp-time proxy by run lengths"
+ },
+ "claim_one_line": "DOES THE PRINCIPLE REACH THE WEAVE'S CUSP? (sealed 0ec9e2673; NEGATIVE as sealed -- C1 failed on a cyclic-reading slip, C2 on a one-sided height, repaired post seal and disclosed): nothing the principle forces visits the cusp -- the tick LR is the unique lowest closed geodesic among 2536 threads (top sqrt5/2, then sqrt2: B482's Markov values), the clock's word read as moves tops at 2.29, and the weave's uniform measure spends a fraction (k+1)/2^k of its letters in runs >= k at every length (no atom); so the unit of end data a chiral three needs at the cusp (W45, W46) is not dynamical -- a boundary datum if forced at all (GENESIS v1.38). 0 of 19.",
+ "weave_or_thread": "weave"
+}

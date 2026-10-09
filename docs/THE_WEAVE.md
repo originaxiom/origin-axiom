@@ -269,3 +269,11 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   and the sealed 3σ bar is not met.
 - JUNO's first result (reported, not graded) puts TM2 at **3.64σ**. The data prefer TM1, and the open tensor-and-frame
   choice (FK11, given Λ) is close to a data constraint. P10′ (TM2) is in the falsifier register.
+
+## Main's addition: does the principle reach the weave's cusp? (B1629, NEGATIVE as sealed; GENESIS v1.38)
+
+- **No.** The tick LR is the unique lowest closed geodesic of the weave (√5/2; the next is √2, the Markov values of
+  B482). The clock's word, read as moves, stays below height 2.3. Under the weave's uniform measure, the share of letters
+  in a run of length ≥ k (time deep in the cusp) is (k+1)/2^k at every length, with no atom.
+- So the unit of end data a chiral three needs at the cusp (the SM seat's W45, W46) is **not dynamical**. If it is
+  forced, it is forced as a boundary datum: a physical end mechanism or a postulate. FK10 stays open, sharper.

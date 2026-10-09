@@ -16876,3 +16876,23 @@ went to both seats. B1612's secondary-source 4.93σ is not reproduced on primary
 
 **Disclosed:** B1628's seal push was blocked by the doc-currency gate (PRACTICES lagged 41 arcs against 40). A separate
 commit (`05c848381`) added the window's five practices before the push. 0 of 19.
+
+## 2026-10-09 — S108 DOES THE PRINCIPLE REACH THE WEAVE'S CUSP? (B1629, NEGATIVE as sealed; GENESIS v1.38): no — the tick LR is the unique lowest closed geodesic of the weave (√5/2, then √2: B482's Markov values), the clock's word stays low, and the weave's uniform measure spends (k+1)/2^k of its letters in runs ≥ k (no atom at the cusp); so the unit of end data a chiral three needs there (W45, W46) is not dynamical — FK10 sharpened; two sealed slips repaired post seal and disclosed
+
+**B1629 (sealed `0ec9e2673`; the owner's "go" to the outline's 2b).**
+
+**As sealed.** C3 and C4 hold. Two cells fail on my slips:
+- C1: the prefixes were read cyclically, so the wrap made a run of 3;
+- C2: the height was taken only at the cusp's representative at ∞, so long L-runs read low, and the minimum was not
+  computed.
+
+**The repair** (post seal, disclosed; the sealed run kept) measures at both cusp representatives:
+- the tick LR is the unique lowest of 2536 threads (√5/2; second √2, reproducing B482's Markov values);
+- L^k R climbs about k/2;
+- the clock's word read as moves tops at 2.29;
+- under the uniform measure, the fraction of letters in runs ≥ k is exactly (k+1)/2^k at every length.
+
+**What it says.** Nothing the principle forces visits the cusp, and the weave reaches it with vanishing weight. So the
+unit of end data that W45 and W46 need for a chiral three is not dynamical: if forced at all, it is a boundary datum.
+Recorded on GENESIS v1.38 under FK10, with a kill-graph entry and a relay asking the audit lane whether its end work
+supplies the unit. 0 of 19.
