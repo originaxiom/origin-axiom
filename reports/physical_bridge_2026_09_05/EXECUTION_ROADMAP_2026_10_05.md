@@ -21,6 +21,12 @@ non-dynamical inference is not established by this instrument. W47 stays
 queued. Continue silver's same-action projected response and earn any
 map between modular-surface end data and the physical boundary law.
 
+Post-publication main6c148ddd4 intake: main acknowledges the two B1629
+concerns in its addendum/relay. Remaining discovery-surface propagation
+and new reported lift/frame corrections are tracked in cusp_negative_audit_2026_10_09/
+POST_PUBLICATION_INTAKE.md. New computations at main/SM6877cc87d are READ
+and not yet physical dependencies. Return to silver's action variation.
+
 1. Apex scope: reproduce the cubic identity, test actual compact lifts of
    the existing Y3 backgrounds, and examine path-dependent mass selection.
    Completed at research-checkpoint grade: apex_scope_2026_10_05/FINDINGS.md.

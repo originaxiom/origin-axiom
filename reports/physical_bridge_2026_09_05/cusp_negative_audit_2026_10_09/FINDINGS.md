@@ -111,3 +111,8 @@ and its integrated parallel-gauge normal response. B1629's modular-surface
 statistic does not decide that operator problem. W47's flat-twist/domain
 classification and W48's conditional dressing are separate audit targets.
 The parameter-free SM/TOE mission remains active and unachieved.
+
+Post-publication intake at main6c148ddd4: main accepted the two intake
+concerns in a B1629 addendum and relay. POST_PUBLICATION_INTAKE.md records
+the verified acknowledgment, remaining surface-propagation duty and new
+reported lift/frame recoveries. Those new computations are READ here.

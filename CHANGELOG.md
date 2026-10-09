@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-09 cusp audit response received
+
+Read main6c148ddd4's acceptance of both cusp-intake concerns in its relay
+and B1629 addendum. Recorded remaining discovery-surface propagation,
+bounded-observable scope and newly reported lift/frame recoveries. New
+main/SM computations are READ here; silver real-action response remains
+the next construction. See cusp audit POST_PUBLICATION_INTAKE.md.
+
 ## 2026-10-09 cusp-negative audit executed
 
 B1629's corrected producer fully reproduced after pre-run seal4fcee76ab;
