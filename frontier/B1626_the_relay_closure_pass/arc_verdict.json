@@ -1,0 +1,24 @@
+{
+ "id": "B1626",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1622",
+  "B1619",
+  "B1625"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a ledger arc: Review 62's R62-5)",
+  "object": "main's 65 open outbound relays to the SM seat and the audit lane; the audit lane's 22 commits and nine relays; S104's relay line on the audit lane's tensor answer",
+  "reach": "general",
+  "hypotheses": "a subagent's mapping of acknowledgements and answers, three claims spot-checked and four rows regraded by main; the audit packets read at relay level, not re-run"
+ },
+ "claim_one_line": "THE RELAY-CLOSURE PASS (R62-5): of main's 65 open relays to the SM seat and the audit lane, 40 closed as answered (each note names where) and 25 kept open with the outstanding ask named -- outbound open rows 72 -> 33; a first attempt used a disposition the ledger's grammar does not parse and was repaired before landing; the audit lane's 22 commits read at relay level (nine relays rowed, pin bbe0efc4); main's S104 misreading corrected -- the lane's dictionary fixes the full symmetric bilinear, not the flavour tensor on T, and main has no derived map from T into its kernel spaces (FK11). 0 of 19.",
+ "weave_or_thread": "neither (a ledger arc)"
+}

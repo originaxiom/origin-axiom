@@ -11325,6 +11325,24 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1626": {
+   "slug": "the relay closure pass",
+   "motifs": [
+    "closing",
+    "metallic",
+    "golden",
+    "lorentzian"
+   ],
+   "refs": [
+    "P10",
+    "S104",
+    "S98"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B162": {
    "slug": "kappa sweep",
    "motifs": [

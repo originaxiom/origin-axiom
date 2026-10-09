@@ -1,5 +1,22 @@
 # Changelog
 
+## S105 THE RELAY-CLOSURE PASS (B1626, Review 62's R62-5) AND THE AUDIT LANE'S 22 COMMITS READ: 40 of main's 65 open relays to the seats closed as answered, 25 kept open with their asks named (outbound open 72 → 33); nine audit relays rowed (pin bbe0efc4); S104's misreading of the audit lane's tensor answer corrected — its dictionary fixes the full symmetric bilinear, not the flavour tensor on T, and main has no derived map (FK11)
+
+**The closure pass.** A subagent mapped every open outbound row to the seats' acknowledgements and answers. Main
+spot-checked three of its claims and regraded four rows. 40 rows are closed as answered, each naming where. 25 stay open,
+each naming its outstanding ask: mostly the audit lane's attack requests and the reconciliation of its August packet, and
+three optional readings of the SM seat's. A first attempt used a disposition the ledger's grammar cannot parse; the gate
+caught it and it was repaired before landing.
+
+**The audit lane** is read at relay level: 22 commits of research checkpoints on its supplied E₈ action, including a
+compact boundary index of zero. Nine relays are rowed, and the harvest debt is zero on every lane.
+
+**A correction of main's.** S104 told the lane that its dictionary fixing "Sym² T" would exclude TM1. The lane had said
+the opposite: the full bilinear is symmetric, the flavour factor need not be. Main has no derived map from T into the
+lane's kernel spaces; that is FK11's open dictionary.
+
+Review 62's main-owned items are now all paid (R62-2 to R62-7). R62-1, the Codeberg quota, is the owner's. 0 of 19.
+
 ## S104 THE SM SEAT'S CORRECTIONS TO B1620 TAKEN (B1625, GENESIS v1.36): TM1 under T̄ ⊗ T only, TM2 under T ⊗ T (B1620's own stored fits show it); the frame named 'all of G flavour'; the PMNS fit predicate made strict; the 13 unreduced in every frame on record (W44); the weave's own surface reads index 0 (W45, registered under FK11); the write-up and its page corrected; the seat's W42–W45 rowed
 
 **The correction.** The SM seat verified B1620 exactly (W42) and found it had mislabelled its lepton result (W43). The

@@ -16831,3 +16831,20 @@ lepton relation. W45: the triplet's index on the weave's own surface M₁,₂ is
 three there is one unit of end data at the cusp. It is recorded under FK11; the open question is FK10's.
 
 **Harvest:** rows 1057–1063, pin sm `f81a8fba`; a relay to both seats. 0 of 19.
+
+## 2026-10-09 — S105 THE RELAY-CLOSURE PASS (B1626, Review 62's R62-5) AND THE AUDIT LANE'S 22 COMMITS READ: 40 of main's 65 open relays to the seats closed as answered, 25 kept open with their asks named (outbound open 72 → 33); nine audit relays rowed (pin bbe0efc4); S104's misreading of the audit lane's tensor answer corrected — its dictionary fixes the full symmetric bilinear, not the flavour tensor on T, and main has no derived map (FK11)
+
+**The closure pass.** A subagent mapped every open outbound row to the seats' acknowledgements and answers. Main
+spot-checked three of its claims and regraded four rows. 40 rows are closed as answered, each naming where. 25 stay open,
+each naming its outstanding ask: mostly the audit lane's attack requests and the reconciliation of its August packet, and
+three optional readings of the SM seat's. A first attempt used a disposition the ledger's grammar cannot parse; the gate
+caught it and it was repaired before landing.
+
+**The audit lane** is read at relay level: 22 commits of research checkpoints on its supplied E₈ action, including a
+compact boundary index of zero. Nine relays are rowed, and the harvest debt is zero on every lane.
+
+**A correction of main's.** S104 told the lane that its dictionary fixing "Sym² T" would exclude TM1. The lane had said
+the opposite: the full bilinear is symmetric, the flavour factor need not be. Main has no derived map from T into the
+lane's kernel spaces; that is FK11's open dictionary.
+
+Review 62's main-owned items are now all paid (R62-2 to R62-7). R62-1, the Codeberg quota, is the owner's. 0 of 19.
