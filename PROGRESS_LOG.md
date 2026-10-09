@@ -16919,3 +16919,18 @@ seal (disclosed), and the conclusion is the sealed one.
 
 **No negative was an artifact.** Three statements sharpened: L^k R's exact height √(k²+4k)/2; the free mixing inside a
 degenerate pair; ι = −i on T. 0 of 19.
+
+## 2026-10-09 — S110 THE SM SEAT'S W45 ON MAIN (B1632, NEGATIVE as sealed; GENESIS v1.40): the weave's lifts form only a projective representation of the metaplectic group, so χ_{3/2} is 0 or 1 depending on the multiplier; for the seat's multiplier (W41) main reproduces 0 — the cusp unit's payoff (±3) rests on W41, now the load-bearing input; the older-window audit's first pass
+
+**B1632 (sealed; the owner's tagging of the unit made W45 load-bearing).** Main's own computation of W45 calibrates on
+the trivial representation and η. But as sealed it fails at C1: no identification of (S, T) with the weave's lifts
+satisfies the Mp2(Z) relations exactly. The lifts are projective. A post-seal diagnostic (disclosed) found 24 genuine
+rescalings per identification. For the seat's (S̃, L⁻¹), χ_{3/2} is 0 for five of the six allowed at weight 3/2 and 1 for
+one. For the seat's ρ_T (T's exponents ⅛, ⅜, ⅞) it is 0, which reproduces W45. **So the payoff, ±3 given Λ and the unit,
+rests on W41's multiplier.** GENESIS v1.40 says so, and a relay asks the SM seat for W41's derivation path so main can
+verify it.
+
+**The older-window audit (B1487–B1608), first pass, running.** Every instrument that runs bare reproduces identically.
+Many of the window's scripts take per-member arguments or need the full repository, so the sweep reports harness
+failures there, not instrument failures. B1490's banked level files carry a hand-added "note" key that the scripts do not
+write; the values are identical. A full reproduction needs each script's recorded arguments. 0 of 19.

@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1360** |
-| words of findings prose | **1,062,609** |
-| test lock files referenced | **797** |
-| arcs carrying an authored verdict | **1360** (100.0 %) |
-| recorded closures | **816** (649 classified, 167 routed-only) |
+| research arcs with findings | **1361** |
+| words of findings prose | **1,063,235** |
+| test lock files referenced | **798** |
+| arcs carrying an authored verdict | **1361** (100.0 %) |
+| recorded closures | **817** (650 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 918 |
-| NEGATIVE | 340 |
+| NEGATIVE | 341 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 86 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 87 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE CUSP'S UNIT TAGGED, AND THE NEGATIVES AUDITED: the owner's decision of 2026-10-09 makes the unit of end data at the weave's cusp a tagged working postulate (GENESIS v1.39; with W46 the weave's surface then gives a four-dimensional index +-3, given Lambda and the unit); and at the owner's instruction the window B1609-B1630 was audited -- 27 of 27 instruments reproduce bit for bit in an isolated copy, B1618, B1621, B1628, B1629 and B1630 re-derived independently from their statements (B1615-B1617 and B1620 already by the SM seat), every data input matched at its source (NuFIT 6.0, JUNO, PDG 2025), every seal before its results: no negative was an artifact; three statements sharpened (L^k R's exact height, the free mixing inside a degenerate pair, iota = -i). 0 of 19.  
 `B1631_the_cusp_unit_tagged_and_the_negatives_audited/FINDINGS.md`
 
-**NEGATIVE — `B1629`** (933 words, 1 locks)  
-DOES THE PRINCIPLE REACH THE WEAVE'S CUSP? (sealed 0ec9e2673; NEGATIVE as sealed -- C1 failed on a cyclic-reading slip, C2 on a one-sided height, repaired post seal and disclosed): nothing the principle forces visits the cusp -- the tick LR is the unique lowest closed geodesic among 2536 threads (top sqrt5/2, then sqrt2: B482's Markov values), the clock's word read as moves tops at 2.29, and the weave's uniform measure spends a fraction (k+1)/2^k of its letters in runs >= k at every length (no atom); so the unit of end data a chiral three needs at the cusp (W45, W46) is not dynamical -- a boundary datum if forced at all (GENESIS v1.38). 0 of 19.  
-`B1629_does_the_principle_reach_the_weaves_cusp/FINDINGS.md`
+**NEGATIVE — `B1632`** (626 words, 1 locks)  
+THE SM SEAT'S W45 ON MAIN (sealed; NEGATIVE as sealed): the formula calibrates (trivial, eta), but the weave's lifts on T form only a projective representation of Mp2(Z) -- no identification satisfies the relations exactly -- and among the genuine rescalings chi_{3/2} is 0 for five and 1 for one; for the seat's rho_T (T's exponents 1/8, 3/8, 7/8, the plain topological lift) main reproduces chi_{3/2} = 0. So the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier, now load-bearing and unverified on main -- the next computation. 0 of 19.  
+`B1632_w45_verified_on_main/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

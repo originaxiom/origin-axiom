@@ -1,5 +1,20 @@
 # Changelog
 
+## S110 THE SM SEAT'S W45 ON MAIN (B1632, NEGATIVE as sealed; GENESIS v1.40): the weave's lifts form only a projective representation of the metaplectic group, so χ_{3/2} is 0 or 1 depending on the multiplier; for the seat's multiplier (W41) main reproduces 0 — the cusp unit's payoff (±3) rests on W41, now the load-bearing input; the older-window audit's first pass
+
+**B1632 (sealed; the owner's tagging of the unit made W45 load-bearing).** Main's own computation of W45 calibrates on
+the trivial representation and η. But as sealed it fails at C1: no identification of (S, T) with the weave's lifts
+satisfies the Mp2(Z) relations exactly. The lifts are projective. A post-seal diagnostic (disclosed) found 24 genuine
+rescalings per identification. For the seat's (S̃, L⁻¹), χ_{3/2} is 0 for five of the six allowed at weight 3/2 and 1 for
+one. For the seat's ρ_T (T's exponents ⅛, ⅜, ⅞) it is 0, which reproduces W45. **So the payoff, ±3 given Λ and the unit,
+rests on W41's multiplier.** GENESIS v1.40 says so, and a relay asks the SM seat for W41's derivation path so main can
+verify it.
+
+**The older-window audit (B1487–B1608), first pass, running.** Every instrument that runs bare reproduces identically.
+Many of the window's scripts take per-member arguments or need the full repository, so the sweep reports harness
+failures there, not instrument failures. B1490's banked level files carry a hand-added "note" key that the scripts do not
+write; the values are identical. A full reproduction needs each script's recorded arguments. 0 of 19.
+
 ## S109 THE TICK'S POINT (B1630, PROVED), THE CUSP'S UNIT TAGGED (the owner, GENESIS v1.39), AND THE WINDOW'S NEGATIVES AUDITED (B1631): the tick passes through τ = i and there every spectrum is a pair and a single on the clock's line; given Λ and the unit the weave's surface carries a four-dimensional ±3; 27 of 27 instruments reproduce bit for bit and five arcs re-derived independently — no negative was an artifact
 
 **B1630 (sealed `87d769c7a`; given τ = i).** The tick's axis passes through i and not through ω. At i the residual

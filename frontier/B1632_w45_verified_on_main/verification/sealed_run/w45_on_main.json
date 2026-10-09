@@ -1,0 +1,85 @@
+{
+ "C0": {
+  "trivial_chi": {
+   "0": 1.0,
+   "2": 0.0,
+   "4": 1.0,
+   "6": 1.0,
+   "12": 2.0
+  },
+  "trivial_ok": true,
+  "eta_chi_half": 1.0,
+  "eta_allowed_half": true
+ },
+ "C1": {
+  "identifications": [
+   {
+    "S": "S~",
+    "T": "L",
+    "S2_central_scalar": true,
+    "S2_eq_ST_cubed": false,
+    "S8_eq_I": true,
+    "valid": false
+   },
+   {
+    "S": "S~",
+    "T": "L^-1",
+    "S2_central_scalar": true,
+    "S2_eq_ST_cubed": false,
+    "S8_eq_I": true,
+    "valid": false
+   },
+   {
+    "S": "S~",
+    "T": "R",
+    "S2_central_scalar": true,
+    "S2_eq_ST_cubed": false,
+    "S8_eq_I": true,
+    "valid": false
+   },
+   {
+    "S": "S~",
+    "T": "R^-1",
+    "S2_central_scalar": true,
+    "S2_eq_ST_cubed": false,
+    "S8_eq_I": true,
+    "valid": false
+   },
+   {
+    "S": "S~^-1",
+    "T": "L",
+    "S2_central_scalar": true,
+    "S2_eq_ST_cubed": false,
+    "S8_eq_I": true,
+    "valid": false
+   },
+   {
+    "S": "S~^-1",
+    "T": "L^-1",
+    "S2_central_scalar": true,
+    "S2_eq_ST_cubed": false,
+    "S8_eq_I": true,
+    "valid": false
+   },
+   {
+    "S": "S~^-1",
+    "T": "R",
+    "S2_central_scalar": true,
+    "S2_eq_ST_cubed": false,
+    "S8_eq_I": true,
+    "valid": false
+   },
+   {
+    "S": "S~^-1",
+    "T": "R^-1",
+    "S2_central_scalar": true,
+    "S2_eq_ST_cubed": false,
+    "S8_eq_I": true,
+    "valid": false
+   }
+  ],
+  "valid": []
+ },
+ "C2": {},
+ "C3": {}
+}

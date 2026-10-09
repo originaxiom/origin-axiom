@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**816 recorded closures — of which 649 are CLASSIFIED by mechanism and
+**817 recorded closures — of which 650 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -99,6 +99,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (da3027e03): the residual group at omega (U, the sign, conjugation by a and b) has order 48 and keeps T irreducible; one invariant Dirac direction (three equal masses), no Majorana term.` | 1 |  |
 | `Sealed (the B1628 seal commit, before any data read): on NuFIT 6.0 (arXiv:2410.05380, SK-atm variant) TM2's sin^2 t12 = 0.3409 sits 2.74 sigma from the best fit 0.308 and inside the 3-sigma range (0.275-0.345); TM1's 0.3182 sits 0.85 sigma.` | 1 |  |
 | `Sealed (B1629's seal commit; the sealed instrument measured only the cusp's representative at infinity, repaired post seal and disclosed): the tick LR is the unique lowest closed geodesic among the 2536 threads of length <= 14 (top sqrt5/2; second sqrt2 -- B482's Markov values); the clock's word read as moves tops at 2.29; under the weave's uniform measure the fraction of letters in a run of length >= k is (k+1)/2^k at every length -- geometric decay, no atom at the cusp.` | 1 |  |
+| `Sealed (B1632): no identification of (S, T) with the lifts satisfies the Mp2(Z) relations exactly; they hold up to scalars (a projective representation); of the six genuine rescalings of (S~, L^-1) allowing weight 3/2, five give chi_{3/2} = 0 and one gives 1.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

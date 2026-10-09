@@ -288,3 +288,11 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   carries a four-dimensional index of ±3 (W46). The three is dim T; only the unit is postulated.
 - **The negatives audited (B1631, at the owner's instruction).** All 27 instruments of B1609–B1630 reproduce bit for
   bit, five arcs were re-derived independently, and every data input matched its source. No negative was an artifact.
+
+## Main's addition: W45 on main (B1632, NEGATIVE as sealed; GENESIS v1.40)
+
+- Main computed W45's Riemann–Roch number with its own code (the Borcherds–Skoruppa formula, calibrated on the trivial
+  representation and η). The weave's lifts on T form only a **projective** representation of Mp2(Z), so χ_{3/2} is not
+  fixed by them: among the genuine rescalings it is 0 for five and 1 for one.
+- For the seat's ρ_T (T's exponents ⅛, ⅜, ⅞, W41's multiplier) main reproduces **χ_{3/2} = 0**. So the cusp unit's
+  payoff, ±3 given Λ and the unit, rests on **W41's multiplier**, which is now the load-bearing input to verify on main.

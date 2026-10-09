@@ -1,0 +1,24 @@
+{
+ "id": "B1632",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1631",
+  "B1630",
+  "B1627"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "given Lambda; the weave's own surface M_{1,2}; the cusp's unit a tagged postulate (GENESIS v1.39)",
+  "object": "the triplet's Riemann-Roch number chi_k(rho_T) by the Borcherds-Skoruppa formula",
+  "reach": "general",
+  "hypotheses": "the multiplier (the seat's W41) registered, not verified; W46's puncture conditions not covered"
+ },
+ "claim_one_line": "THE SM SEAT'S W45 ON MAIN (sealed; NEGATIVE as sealed): the formula calibrates (trivial, eta), but the weave's lifts on T form only a projective representation of Mp2(Z) -- no identification satisfies the relations exactly -- and among the genuine rescalings chi_{3/2} is 0 for five and 1 for one; for the seat's rho_T (T's exponents 1/8, 3/8, 7/8, the plain topological lift) main reproduces chi_{3/2} = 0. So the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier, now load-bearing and unverified on main -- the next computation. 0 of 19.",
+ "weave_or_thread": "weave"
+}

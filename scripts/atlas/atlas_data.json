@@ -11446,6 +11446,18 @@
    "status": "dead",
    "domain": "physics"
   },
+  "B1632": {
+   "slug": "w45 verified on main",
+   "motifs": [
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dormant",
+   "domain": "quantum"
+  },
   "B163": {
    "slug": "kappa sweep resolved",
    "motifs": [

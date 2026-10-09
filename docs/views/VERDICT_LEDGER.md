@@ -5,7 +5,7 @@
 
 # Arc verdict ledger (generated)
 
-1360 of 1360 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1361 of 1361 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
 ## PROVED (918)
@@ -931,7 +931,7 @@
 | `B1630` | THE TICK'S POINT (sealed 87d769c7a): the principle's tick LR has its axis through tau = i, not omega; at i the residual group (order 32 on V) fixes the clock's parity line (-,-) and swaps the two letter lines, so under every tensor and weight every mass spectrum is one value apart and two equal -- never three distinct -- with the single on the clock's line: the same line the rule's word singled out (B1620); the clock's line mixes only with itself (the pair's internal mixing free). A leading-order 1 + 2 shape, no value. 0 of 19. |  | 1 |
 | `B1631` | THE CUSP'S UNIT TAGGED, AND THE NEGATIVES AUDITED: the owner's decision of 2026-10-09 makes the unit of end data at the weave's cusp a tagged working postulate (GENESIS v1.39; with W46 the weave's surface then gives a four-dimensional index +-3, given Lambda and the unit); and at the owner's instruction the window B1609-B1630 was audited -- 27 of 27 instruments reproduce bit for bit in an isolated copy, B1618, B1621, B1628, B1629 and B1630 re-derived independently from their statements (B1615-B1617 and B1620 already by the SM seat), every data input matched at its source (NuFIT 6.0, JUNO, PDG 2025), every seal before its results: no negative was an artifact; three statements sharpened (L^k R's exact height, the free mixing inside a degenerate pair, iota = -i). 0 of 19. |  | 0 |
 
-## NEGATIVE (340)
+## NEGATIVE (341)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1275,6 +1275,7 @@
 | `B1617` | THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19. |  | 1 |
 | `B1628` | THE DATA AND THE WEAVE'S TWO TRIMAXIMAL RELATIONS (sealed c395a2cd5; NEGATIVE as sealed): TM1 (T-bar(x)T) predicts sin^2 t12 = 0.3182, 0.85 sigma from NuFIT 6.0; TM2 (T(x)T where all of G is flavour) predicts 0.3409, 2.74 sigma and inside the 3-sigma range -- the sealed bar (beyond 3 sigma) not met; JUNO's first result (0.3092 +/- 0.0087, reported not graded) puts TM2 at 3.64 sigma, outside its 3-sigma range. The data prefer TM1, so the open tensor-and-frame choice (FK11, given Lambda) is close to a data constraint; P10' entered. 0 of 19. |  | 1 |
 | `B1629` | DOES THE PRINCIPLE REACH THE WEAVE'S CUSP? (sealed 0ec9e2673; NEGATIVE as sealed -- C1 failed on a cyclic-reading slip, C2 on a one-sided height, repaired post seal and disclosed): nothing the principle forces visits the cusp -- the tick LR is the unique lowest closed geodesic among 2536 threads (top sqrt5/2, then sqrt2: B482's Markov values), the clock's word read as moves tops at 2.29, and the weave's uniform measure spends a fraction (k+1)/2^k of its letters in runs >= k at every length (no atom); so the unit of end data a chiral three needs at the cusp (W45, W46) is not dynamical -- a boundary datum if forced at all (GENESIS v1.38). 0 of 19. |  | 1 |
+| `B1632` | THE SM SEAT'S W45 ON MAIN (sealed; NEGATIVE as sealed): the formula calibrates (trivial, eta), but the weave's lifts on T form only a projective representation of Mp2(Z) -- no identification satisfies the relations exactly -- and among the genuine rescalings chi_{3/2} is 0 for five and 1 for one; for the seat's rho_T (T's exponents 1/8, 3/8, 7/8, the plain topological lift) main reproduces chi_{3/2} = 0. So the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier, now load-bearing and unverified on main -- the next computation. 0 of 19. |  | 1 |
 
 ## OPEN (91)
 

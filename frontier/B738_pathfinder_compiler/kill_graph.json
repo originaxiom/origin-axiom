@@ -11427,5 +11427,27 @@
    "hypotheses": "the clock's word read letter for letter as moves is a reading; heights by the two cusp representatives over the word's rotations; the cusp-time proxy by run lengths (the continued-fraction coding)"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1632",
+  "claim_killed": "That the weave's topological lifts on T, taken as they are, form a representation of Mp2(Z) whose Riemann-Roch number at weight 3/2 is fixed (the sealed C1-C3): W45's chi_{3/2} = 0 as a property of the lifts alone.",
+  "kill_form": "Sealed (B1632): no identification of (S, T) with the lifts satisfies the Mp2(Z) relations exactly; they hold up to scalars (a projective representation); of the six genuine rescalings of (S~, L^-1) allowing weight 3/2, five give chi_{3/2} = 0 and one gives 1.",
+  "hatch": "the zero modes' multiplier (the SM seat's W41: the modes transform by the topological action, T's exponents 1/8, 3/8, 7/8), verified on main, fixes the rescaling; for it chi_{3/2} = 0 is reproduced",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-09), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier; verify it on main next.",
+  "faces_consulted": [
+   "B1631",
+   "B1630",
+   "B1627"
+  ],
+  "fact_computed": "the projective scalars of S^2, (ST)^3 / S^2 and S^8 for eight identifications; all 24 genuine rescalings each; chi_k at every allowed weight from -1/2 to 27/2; the calibrations (trivial, eta)",
+  "scope": {
+   "frame": "given Lambda; the weave's own surface M_{1,2}",
+   "object": "the triplet as a vector-valued modular representation",
+   "reach": "general",
+   "hypotheses": "the Borcherds-Skoruppa formula as a Riemann-Roch number; the multiplier not computed"
+  },
+  "weave_or_thread": "weave"
  }
 ]
