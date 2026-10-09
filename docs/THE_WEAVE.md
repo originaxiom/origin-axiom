@@ -305,3 +305,18 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 - So the word reaches masses and mixing only through a choice of thread, a selection. Every datum the principle forces
   (τ alone, the clock, the tick, the cusp, the tick's point, the word) has now been read for the flavour values, and none
   fixes one.
+
+## Main's addition: the ruled branch and the theta lifts (B1634, PROVED; GENESIS v1.41)
+
+- **The SM seat's W50, verified on main.** The inner automorphisms by a and by b are not moves of the ruled weave:
+  ⟨L, R⟩ ≅ B₃ meets Inn(F₂) only in ⟨Δ⁴⟩ (to length 12: 1,944 relators, 196 + 196 words for conj(a b⁻¹ a⁻¹ b), none for
+  conj(a) or conj(b)). They enter only with the sign or the swap, both ruled out. So T-TAU-ONLY-PERMUTATION, B1617's
+  order-48 residual and B1630's single line at i hold where the inner automorphisms act, not on the ruled branch.
+- **On the ruled branch the modulus breaks the weave's group.** The residual on T is four scalars at a generic τ, cyclic of
+  order 8 at i (a plane containing the clock's line, a line in the letter lines' span) and cyclic of order 12 at ω (three
+  lines, each of weight ⅓ on every parity line). Couplings in τ alone are vector-valued modular forms; the flavour numbers
+  are their values at τ, which nothing forces (the seat's W51: the weave's joint determinant is flat).
+- **The weave's lifts are the theta constants.** The move matrices are a genuine representation of Mp2(ℤ), exactly the
+  multiplier of η²¹·(θ₂², θ₃², θ₄²): θ₃² on the clock's line, θ₂² and θ₄² on the letter lines. B1632's "only projective" was
+  a sign in main's lift helper. χ_{3/2} = 0 by the formula and by an independent count, so the cusp's unit gives ±3 given
+  Λ and the unit, on verified mathematics.

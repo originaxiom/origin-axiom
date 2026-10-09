@@ -11470,6 +11470,32 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1634": {
+   "slug": "w50 on main",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "V1",
+    "V2",
+    "V3",
+    "V4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B163": {
    "slug": "kappa sweep resolved",
    "motifs": [

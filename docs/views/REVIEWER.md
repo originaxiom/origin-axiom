@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1362** |
-| words of findings prose | **1,063,774** |
-| test lock files referenced | **799** |
-| arcs carrying an authored verdict | **1362** (100.0 %) |
+| research arcs with findings | **1363** |
+| words of findings prose | **1,065,761** |
+| test lock files referenced | **800** |
+| arcs carrying an authored verdict | **1363** (100.0 %) |
 | recorded closures | **817** (650 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 919 |
+| PROVED | 920 |
 | NEGATIVE | 341 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1633`** (539 words, 1 locks)  
-THE WEAVE'S WORD COUPLING (sealed; PROVED): a thread's own H^1 reads the rule's word and breaks the parity grading (the SM seat's W42), but averaged over all threads of length n with the weave's uniform measure the coupling is a scalar on T up to corrections exponentially small in n (0.236 at n = 2, 3.9e-6 at n = 38), the lifts equidistributing on the two cosets of an index-2 subgroup; odd lengths carry no zero modes, even lengths a mean of 5/12; the zero-mode fraction 5/16. The weave restores the full symmetry: the word reaches masses and mixing only through a choice of thread (a selection). 0 of 19.  
-`B1633_the_weaves_word_coupling/FINDINGS.md`
+**PROVED — `B1634`** (1987 words, 1 locks)  
+THE SM SEAT'S W50 ON MAIN, AND W45'S MULTIPLIER FROM THE THETA CONSTANTS (sealed; PROVED): <L, R> meets the inner automorphisms only in <Delta^4> = <conj(a b^-1 a^-1 b)> (to length 12: 1,944 relators, 196 + 196 words for conj(c^+-1), none for conj(a), conj(b)), so on the ruled branch the residual on T is four scalars at a generic tau, cyclic of order 8 at i and of order 12 at omega -- T-TAU-ONLY-PERMUTATION, B1617's order-48 residual and B1630's line hold where the inner automorphisms act, and on the ruled branch the modulus breaks the weave's group; the weave's own lifts on T (the move matrices, braid relation exact, Delta^4 -> -1) are a genuine Mp2(Z) representation equal to the multiplier of eta^21 (theta_2^2, theta_3^2, theta_4^2) exactly, theta_3^2 on the clock's line -- B1632's 'projective' was the lift helper's sign on S~ -- and chi_{3/2} = 0 by the formula and by an independent count (Gamma(4)'s forms as polynomials in theta squares), so the payoff +-3 rests on 'given Lambda and the unit' again (GENESIS v1.41). V3's sealed law-check failure at one point was mpmath's nome branch, diagnosed exactly. 0 of 19.  
+`B1634_w50_on_main/FINDINGS.md`
 
 **NEGATIVE — `B1632`** (626 words, 1 locks)  
-THE SM SEAT'S W45 ON MAIN (sealed; NEGATIVE as sealed): the formula calibrates (trivial, eta), but the weave's lifts on T form only a projective representation of Mp2(Z) -- no identification satisfies the relations exactly -- and among the genuine rescalings chi_{3/2} is 0 for five and 1 for one; for the seat's rho_T (T's exponents 1/8, 3/8, 7/8, the plain topological lift) main reproduces chi_{3/2} = 0. So the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier, now load-bearing and unverified on main -- the next computation. 0 of 19.  
+THE SM SEAT'S W45 ON MAIN (sealed; NEGATIVE as sealed): the formula calibrates (trivial, eta), but the weave's lifts on T form only a projective representation of Mp2(Z) -- no identification satisfies the relations exactly -- and among the genuine rescalings chi_{3/2} is 0 for five and 1 for one; for the seat's rho_T (T's exponents 1/8, 3/8, 7/8, the plain topological lift) main reproduces chi_{3/2} = 0. So the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier, now load-bearing and unverified on main -- the next computation. 0 of 19. [REFUTED IN PART by B1634 (2026-10-09): the 'projective' was the lift helper's sign on S~; the weave's move matrices are a genuine Mp2(Z) representation, exactly the theta constants' multiplier, and chi_{3/2} = 0 holds for it -- the payoff rests on 'given Lambda and the unit' (GENESIS v1.41); the computation stands.]  
 `B1632_w45_verified_on_main/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  

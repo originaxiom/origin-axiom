@@ -16946,3 +16946,12 @@ write; the values are identical. A full reproduction needs each script's recorde
 **What it says.** The word reaches the masses and the mixing only through a choice of thread, a selection. With B1620,
 B1621, B1629 and B1630, every datum the principle forces has been read for the flavour values: τ alone, the clock, the
 tick, the cusp, the tick's point and the word. None fixes one. The values need a selection or a dynamics. 0 of 19.
+## 2026-10-09 — S112 THE RULED BRANCH AND THE THETA LIFTS (B1634, PROVED; GENESIS v1.41)
+
+- B1634 sealed (`478abc379`) and run: V1, V2, V4 hold; V3's law check failed at one point (mpmath's nome branch, diagnosed
+  exactly). Post seal: the census to length 12 (the seat's exact numbers), the residuals of ⟨L, R⟩ alone, the move
+  matrices a genuine Mp2(ℤ) representation equal to the theta constants' multiplier, χ recounted by an independent route.
+- B1632's "projective" was main's lift helper's sign on S̃: claim refuted, computation kept. GENESIS v1.41 (the payoff
+  "given Λ and the unit" again; the inner automorphisms scoped off the ruled branch). Registry, retractions, error
+  ledger, kill graph, addenda on B1617, B1629, B1630, B1632.
+- Seats: SM seat's W47–W51 and §50–§56 rowed (1067–1076), audit lane's three (1077–1079) and its standing cross-seat audit (1080); one relay to both. 0 of 19.

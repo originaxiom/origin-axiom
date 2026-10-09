@@ -1,0 +1,25 @@
+{
+ "id": "B1634",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1632",
+  "B1630",
+  "B1617",
+  "B1620"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the ruled branch (GENESIS v1.33: even ticks, positivity; the weave <L, R>); given Lambda for the triplet's index",
+  "object": "the inner automorphisms in <L, R>; the weave's lifts on T as a representation of Mp2(Z); chi_k of that representation",
+  "reach": "general",
+  "hypotheses": "the convention rho(g) = lift(g)^-1 forced by the lifts composing in reverse; the couplings' mixing on the ruled branch (the seat's W50 section 3) and W51 registered, not recomputed"
+ },
+ "claim_one_line": "THE SM SEAT'S W50 ON MAIN, AND W45'S MULTIPLIER FROM THE THETA CONSTANTS (sealed; PROVED): <L, R> meets the inner automorphisms only in <Delta^4> = <conj(a b^-1 a^-1 b)> (to length 12: 1,944 relators, 196 + 196 words for conj(c^+-1), none for conj(a), conj(b)), so on the ruled branch the residual on T is four scalars at a generic tau, cyclic of order 8 at i and of order 12 at omega -- T-TAU-ONLY-PERMUTATION, B1617's order-48 residual and B1630's line hold where the inner automorphisms act, and on the ruled branch the modulus breaks the weave's group; the weave's own lifts on T (the move matrices, braid relation exact, Delta^4 -> -1) are a genuine Mp2(Z) representation equal to the multiplier of eta^21 (theta_2^2, theta_3^2, theta_4^2) exactly, theta_3^2 on the clock's line -- B1632's 'projective' was the lift helper's sign on S~ -- and chi_{3/2} = 0 by the formula and by an independent count (Gamma(4)'s forms as polynomials in theta squares), so the payoff +-3 rests on 'given Lambda and the unit' again (GENESIS v1.41). V3's sealed law-check failure at one point was mpmath's nome branch, diagnosed exactly. 0 of 19.",
+ "weave_or_thread": "weave"
+}

@@ -1,5 +1,29 @@
 # Changelog
 
+## S112 THE RULED BRANCH AND THE THETA LIFTS (B1634, PROVED; GENESIS v1.41): the SM seat's W50 verified on main — on the ruled branch the inner automorphisms by a and by b are not moves, so T-TAU-ONLY-PERMUTATION holds only where they act and the modulus τ is the state that breaks the weave's group; and the weave's own lifts on T are a genuine Mp2(ℤ) representation, exactly the theta constants' multiplier — B1632's "projective" was main's helper's sign, χ_{3/2} = 0 twice
+
+**B1634 (sealed `478abc379`).** V1, V2 and V4 held as sealed; V3's law check failed at one of two points, and the failure
+is mpmath's nome branch (exactly the four wrapped points of six; the direct series holds to 1.7·10⁻¹⁵). Read back before
+grading (the owner's audit rule), with these results:
+- V1/V2 at length ≤ 10 are forced by the exponent sum, so they were extended to length 12: 1,944 relators, 196 + 196 words
+  for conj(c^{±1}), none for conj(a), conj(b), every lift of a word fixing τ a scalar;
+- the residual of ⟨L, R⟩ alone is four scalars at a generic τ, order 8 at i, order 12 at ω;
+- **the move matrices satisfy the braid relation exactly with Δ⁴ ↦ −1, a genuine Mp2(ℤ) representation equal to the
+  multiplier of η²¹(θ₂², θ₃², θ₄²) with no rescaling**, θ₃² on the clock's line;
+- χ_k recounted independently (Γ(4)'s forms as polynomials in θ squares mod Jacobi's quadric): equal to the formula at
+  every weight from −½ to 27/2, χ_{3/2} = 0.
+
+**Corrections.** B1632's claim refuted, its computation kept: its lifts came from a helper that picks the first of ±g, and
+for S̃ it took the opposite sign (addendum, claim-line qualifier, kill-graph note, RETRACTIONS row, E82 instance). GENESIS
+v1.41 resolves v1.40's qualification (the payoff is "given Λ and the unit") and scopes the inner automorphisms off the
+ruled branch. THEOREM_REGISTRY: T-TAU-ONLY-PERMUTATION scoped; T-RULED-INNER and T-WEAVE-LIFT-IS-THETA added. Scoping
+addenda on B1617 and B1630. B1629 sharpened on the audit lane's two questions (the finite fraction against its limit,
+≤ 2.4%; "not dynamical" with its quantifier).
+
+**Seats.** The SM seat's thirteen commits rowed (1067–1076: W47–W51, §50–§56; W50 VERIFIED; the §54/§55 ask answered);
+the audit lane's three and its standing cross-seat audit (1077–1080). The paper's retraction count to forty. Relay `CC_TO_SM_AND_CODEX_2026-10-09_THE_RULED_BRANCH_AND_THE_THETA_LIFTS.md`.
+Next: the count of free numbers on the ruled branch (the seat's ask). 0 of 19.
+
 ## S111 THE WEAVE'S WORD COUPLING (B1633, PROVED): a thread's own H¹ reads the rule's word and breaks the parity grading, but averaged over all threads with the weave's uniform measure it is a scalar on the three generations up to corrections exponentially small in length — the weave restores the full symmetry; every datum the principle forces has now been read for the flavour values and none fixes one
 
 **B1633 (sealed; the outline's 2c).** Exact counts over the weave's group (order 96) give these results:

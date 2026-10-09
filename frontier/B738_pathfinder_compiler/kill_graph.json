@@ -11435,7 +11435,7 @@
   "hatch": "the zero modes' multiplier (the SM seat's W41: the modes transform by the topological action, T's exponents 1/8, 3/8, 7/8), verified on main, fixes the rescaling; for it chi_{3/2} = 0 is reproduced",
   "priority": "high",
   "routed_from": "main, at banking (2026-10-09), for tests/test_b833_negative_routing.py",
-  "note": "Read as a specification: the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier; verify it on main next.",
+  "note": "Read as a specification: the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier; verify it on main next. REVERSED IN PART (B1634, 2026-10-09): the hatch is paid -- the lifts are genuine once the helper's sign on S~ is removed; W41's multiplier is the weave's own lift, the theta constants' multiplier, and chi_{3/2} = 0 for it.",
   "faces_consulted": [
    "B1631",
    "B1630",
