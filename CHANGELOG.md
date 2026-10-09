@@ -1,5 +1,21 @@
 # Changelog
 
+## The weave's W49: the generations are a multiplicity, three or split; relay section 54
+
+- **W49** (the rule cd174afa7 first; one run; every cell as predicted; a review fix to the rule's M4 inference
+  disclosed):
+  - T meets each parity block in a line, and the quaternion intertwiners send the three lines to one line ℓ of the
+    spin doublet, with Q = +2 on it: T = ℓ ⊗ M, M the three imaginary units;
+  - every lift acts as a scalar on ℓ times a rotation of the units, and the lifts of L and R give W42's 96 exactly;
+  - the Hodge–Riemann form on T is 2·I in the parity basis carried to ℓ;
+  - the puncture conditions that keep ±3 (0 and L₆) are exactly the products, and V2 and V4 are entangled (∓1).
+- **What it shows:** one zero mode three times. Data built from the local system and the surface alone cannot tell the
+  generations apart, and an end condition that could tell them apart does not keep three.
+- **Post hoc (a READING; W50 next):** the inner automorphisms by a and b are not words in L and R (the braid kernel is
+  Δ⁴). So on the ruled branch the parity grading behind T-TAU-ONLY-PERMUTATION is not a symmetry at a fixed τ.
+- **Relay §54** to main. **Surfaces.** The script and its JSON, the dossier (W49, a row, the header, the files), the
+  W49 test, the regeneration list, the state page, the relay and the ledger.
+
 ## The weave's W48: the outside source tested — one mode per eight lattice-free chiral bosons; relay section 53
 
 - **W48** (the rule 1add8f87c first; one run; every cell as predicted; conditional on a dictionary beyond Λ):

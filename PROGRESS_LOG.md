@@ -18504,3 +18504,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   lattice-free chiral bosons, so three needs the 26-dimensional bosonic string's 24. The heterotic string gives one.
   Every cell held as predicted.
 - **In its string-vacuum form the outside source does not supply the unit** (GENESIS FK10 open). Relay §53 sent.
+
+## 2026-10-09 — W49: the generations are a multiplicity; relay §54
+
+- **W49 ran once, after its rule** (the owner's turn to the free numbers). The weave's triplet is one zero mode three
+  times, T = ℓ ⊗ M. Geometry acts on ℓ and flavour on the three quaternion units. The puncture conditions that keep
+  three are exactly the ones blind to M. Every cell held as predicted.
+- **Found while writing it up:** the inner automorphisms are not moves on the ruled branch, so whether the parity
+  grading holds at a fixed τ there is W50's question (rule first). Relay §54 sent.

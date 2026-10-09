@@ -1,0 +1,859 @@
+{
+ "status": "W49: the generations are a multiplicity, three or split (the rule first)",
+ "the unit of each parity (W28)": {
+  "(2, 0)": "j",
+  "(0, 2)": "i",
+  "(2, 2)": "k"
+ },
+ "the order of the moves' group on V (W21)": 96,
+ "controls": {
+  "Psi^-1 W(a) Psi = 1 (x) rho_Q(a)": true,
+  "Psi^-1 W(b) Psi = 1 (x) rho_Q(b)": true,
+  "every lift of L and R on the six is S (x) g, S a signed permutation": true,
+  "by lift": {
+   "L, lift 0": true,
+   "L, lift 1": true,
+   "R, lift 0": true,
+   "R, lift 1": true
+  }
+ },
+ "every control holds": true,
+ "M1: one line": {
+  "the dimension of T's intersection with each parity block": [
+   1,
+   1,
+   1
+  ],
+  "the singular values of T's rows off each block": [
+   [
+    1.025775961104,
+    0.923142635704,
+    0.0
+   ],
+   [
+    1.119847261621,
+    0.85687715284,
+    0.0
+   ],
+   [
+    1.102600653395,
+    0.944228153826,
+    0.0
+   ]
+  ],
+  "Phi_p of the three lines (D's H1 coordinates)": [
+   [
+    [
+     -0.0,
+     -0.707106781
+    ],
+    [
+     0.707106781,
+     0.0
+    ]
+   ],
+   [
+    [
+     0.47291549,
+     -0.513099711
+    ],
+    [
+     0.513099711,
+     0.47291549
+    ]
+   ],
+   [
+    [
+     -0.566200272,
+     0.305052472
+    ],
+    [
+     -0.305052472,
+     -0.566200272
+    ]
+   ]
+  ],
+  "the singular values of the 2 x 3 matrix of the three images": [
+   1.673654762403,
+   0.0
+  ],
+  "the three images span one line": true,
+  "Q(l^, l^)": [
+   2.0,
+   -0.0
+  ],
+  "Q on l's Q-orthogonal complement": [
+   -2.0,
+   0.0
+  ],
+  "l and its complement are invariant under every lift of L and R": true,
+  "the lifts' eigenvalues on l and on its complement": {
+   "L, lift 0": {
+    "on l (turns)": 0.875,
+    "on l's complement (turns)": 0.125
+   },
+   "L, lift 1": {
+    "on l (turns)": 0.375,
+    "on l's complement (turns)": 0.625
+   },
+   "R, lift 0": {
+    "on l (turns)": 0.625,
+    "on l's complement (turns)": 0.375
+   },
+   "R, lift 1": {
+    "on l (turns)": 0.125,
+    "on l's complement (turns)": 0.875
+   }
+  },
+  "the Gram matrix of Q on D": [
+   [
+    [
+     0.0,
+     -0.0
+    ],
+    [
+     -0.0,
+     -2.0
+    ]
+   ],
+   [
+    [
+     0.0,
+     2.0
+    ],
+    [
+     -0.0,
+     0.0
+    ]
+   ]
+  ]
+ },
+ "M2: the lifts in the basis t_p": {
+  "Phi_p(t_p) = l^ for each p": true,
+  "the lifts of L and R on T": {
+   "L, lift 0": {
+    "T invariant (residual)": 1.2057167801748246e-15,
+    "c on l (turns)": 0.875,
+    "Y / c": [
+     [
+      [
+       -0.0,
+       -0.0
+      ],
+      [
+       -0.0,
+       -0.0
+      ],
+      [
+       1.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       -1.0,
+       -0.0
+      ],
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0
+      ]
+     ]
+    ],
+    "Y / c is a signed permutation": true,
+    "det(Y / c)": [
+     1.0,
+     0.0
+    ]
+   },
+   "L, lift 1": {
+    "T invariant (residual)": 1.2057167801748246e-15,
+    "c on l (turns)": 0.375,
+    "Y / c": [
+     [
+      [
+       -0.0,
+       -0.0
+      ],
+      [
+       -0.0,
+       -0.0
+      ],
+      [
+       1.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       -1.0,
+       -0.0
+      ],
+      [
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0
+      ]
+     ]
+    ],
+    "Y / c is a signed permutation": true,
+    "det(Y / c)": [
+     1.0,
+     0.0
+    ]
+   },
+   "R, lift 0": {
+    "T invariant (residual)": 1.4084622046987039e-15,
+    "c on l (turns)": 0.625,
+    "Y / c": [
+     [
+      [
+       1.0,
+       -0.0
+      ],
+      [
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       1.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.0,
+       -0.0
+      ],
+      [
+       0.0,
+       0.0
+      ]
+     ]
+    ],
+    "Y / c is a signed permutation": true,
+    "det(Y / c)": [
+     1.0,
+     -0.0
+    ]
+   },
+   "R, lift 1": {
+    "T invariant (residual)": 1.4084622046987039e-15,
+    "c on l (turns)": 0.125,
+    "Y / c": [
+     [
+      [
+       1.0,
+       -0.0
+      ],
+      [
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       1.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.0,
+       -0.0
+      ],
+      [
+       0.0,
+       0.0
+      ]
+     ]
+    ],
+    "Y / c is a signed permutation": true,
+    "det(Y / c)": [
+     1.0,
+     -0.0
+    ]
+   }
+  },
+  "the lifts of the inner automorphisms on T": {
+   "inner by a, lift 0": {
+    "T invariant (residual)": 9.43092950529377e-16,
+    "on D": [
+     [
+      [
+       1.0,
+       -0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.0,
+       -0.0
+      ]
+     ]
+    ],
+    "its sign on l": [
+     1.0,
+     -0.0
+    ],
+    "the parity signs": [
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      1.0,
+      0.0
+     ],
+     [
+      -1.0,
+      0.0
+     ]
+    ],
+    "Y": [
+     [
+      [
+       -1.0,
+       -0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.0,
+       -0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.0,
+       -0.0
+      ]
+     ]
+    ],
+    "Y lies in the group of L and R": true,
+    "Y = sign * parity signs": true
+   },
+   "inner by a, lift 1": {
+    "T invariant (residual)": 9.43092950529377e-16,
+    "on D": [
+     [
+      [
+       -1.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0
+      ]
+     ]
+    ],
+    "its sign on l": [
+     -1.0,
+     0.0
+    ],
+    "the parity signs": [
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      1.0,
+      0.0
+     ],
+     [
+      -1.0,
+      0.0
+     ]
+    ],
+    "Y": [
+     [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       -0.0,
+       -0.0
+      ],
+      [
+       -1.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       -0.0,
+       -0.0
+      ],
+      [
+       1.0,
+       0.0
+      ]
+     ]
+    ],
+    "Y lies in the group of L and R": true,
+    "Y = sign * parity signs": true
+   },
+   "inner by b, lift 0": {
+    "T invariant (residual)": 9.610316408396535e-16,
+    "on D": [
+     [
+      [
+       1.0,
+       -0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       1.0,
+       -0.0
+      ]
+     ]
+    ],
+    "its sign on l": [
+     1.0,
+     -0.0
+    ],
+    "the parity signs": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -1.0,
+      0.0
+     ]
+    ],
+    "Y": [
+     [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       -0.0,
+       -0.0
+      ],
+      [
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ]
+     ],
+     [
+      [
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0
+      ],
+      [
+       -1.0,
+       -0.0
+      ]
+     ]
+    ],
+    "Y lies in the group of L and R": true,
+    "Y = sign * parity signs": true
+   },
+   "inner by b, lift 1": {
+    "T invariant (residual)": 9.610316408396535e-16,
+    "on D": [
+     [
+      [
+       -1.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       -0.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0
+      ]
+     ]
+    ],
+    "its sign on l": [
+     -1.0,
+     0.0
+    ],
+    "the parity signs": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -1.0,
+      0.0
+     ]
+    ],
+    "Y": [
+     [
+      [
+       -1.0,
+       -0.0
+      ],
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.0,
+       -0.0
+      ],
+      [
+       -0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       -0.0
+      ],
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0
+      ]
+     ]
+    ],
+    "Y lies in the group of L and R": true,
+    "Y = sign * parity signs": true
+   }
+  },
+  "the group the lifts of L and R generate on T: elements": 96,
+  "every element is z S with S a rotation of the cube, z^8 = 1, z^4 = sgn S": true
+ },
+ "M3: the Hodge-Riemann form on T": {
+  "the Gram matrix of Q on T in the basis t_p": [
+   [
+    [
+     2.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     -0.0
+    ]
+   ],
+   [
+    [
+     -0.0,
+     -0.0
+    ],
+    [
+     2.0,
+     -0.0
+    ],
+    [
+     -0.0,
+     -0.0
+    ]
+   ],
+   [
+    [
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0
+    ],
+    [
+     2.0,
+     0.0
+    ]
+   ]
+  ],
+  "Q(l^, l^)": [
+   2.0,
+   -0.0
+  ]
+ },
+ "M4: the puncture conditions in rho_Q (x) M": {
+  "0": {
+   "dimension": 0,
+   "dim X_W (the columns' span in C^2)": 0,
+   "dim Y_W (the rows' span in M)": 0,
+   "a product X (x) Y": true,
+   "flavour-blind, X (x) M": true,
+   "the ranks of five random vectors": []
+  },
+  "V2": {
+   "dimension": 2,
+   "dim X_W (the columns' span in C^2)": 2,
+   "dim Y_W (the rows' span in M)": 3,
+   "a product X (x) Y": false,
+   "flavour-blind, X (x) M": false,
+   "the ranks of five random vectors": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ]
+  },
+  "V4": {
+   "dimension": 4,
+   "dim X_W (the columns' span in C^2)": 2,
+   "dim Y_W (the rows' span in M)": 3,
+   "a product X (x) Y": false,
+   "flavour-blind, X (x) M": false,
+   "the ranks of five random vectors": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ]
+  },
+  "L6": {
+   "dimension": 6,
+   "dim X_W (the columns' span in C^2)": 2,
+   "dim Y_W (the rows' span in M)": 3,
+   "a product X (x) Y": true,
+   "flavour-blind, X (x) M": true,
+   "the ranks of five random vectors": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ]
+  }
+ },
+ "extra read-outs (not predicted)": {
+  "E1: the signed permutation is the lift's conjugation of the three units, for every lift": true,
+  "E1: by lift": {
+   "L, lift 0": true,
+   "L, lift 1": true,
+   "R, lift 0": true,
+   "R, lift 1": true,
+   "inner by a, lift 0": true,
+   "inner by a, lift 1": true,
+   "inner by b, lift 0": true,
+   "inner by b, lift 1": true
+  },
+  "E2: T-bar": {
+   "the dimension of T-bar's intersection with each block": [
+    1,
+    1,
+    1
+   ],
+   "each image lies on l's Q-orthogonal complement": true
+  },
+  "E3: V2's singular values": {
+   "s1 / s2 over 200 random vectors of V2: min, max": [
+    1.414213562373,
+    1.414213562373
+   ]
+  },
+  "E4: the fibre index by type": {
+   "the fibre index f = I(n = 1) - I(n = 0), by condition": {
+    "0": -3.0,
+    "V2": -1.0,
+    "V4": 1.0,
+    "L6": 3.0
+   },
+   "flavour-blind, by condition": {
+    "0": true,
+    "V2": false,
+    "V4": false,
+    "L6": true
+   },
+   "|f| = 3 exactly at the flavour-blind conditions": true
+  }
+ },
+ "checks": {
+  "M1: T meets each parity block in a line; Phi_p sends the three to one line l of D; l is invariant under every lift and Q-positive, its complement Q-negative": true,
+  "M2: the lifts of L and R act on T as c (on l) times a signed permutation; the inner automorphisms' lifts as a sign times the parity signs; the group on T is W42's z S, 96 elements": true,
+  "M3: the Hodge-Riemann form on T in the basis t_p is Q(l^, l^) times the identity": true,
+  "M4: V2 and V4 are entangled (generic rank 2; not X (x) Y); 0 and L6 are products and flavour-blind": true
+ },
+ "every check holds": true
+}

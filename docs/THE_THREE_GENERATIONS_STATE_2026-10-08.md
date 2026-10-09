@@ -232,6 +232,15 @@ Under the owner's rulings, the table's rows split into two groups:
     bosons. So three needs the 26-dimensional bosonic string's 24 transverse oscillators.
   - The heterotic left-movers, the record's natural home for E₈, give one. A Niemeier or Monster vacuum gives none.
   - In this form the outside source does not supply the unit, and GENESIS FK10 stays open.
+- **W49, the generations as a multiplicity (the owner's turn to the free numbers):**
+  - The weave's triplet is one zero mode three times: T = ℓ ⊗ M, with ℓ the spin doublet's holomorphic line and M the
+    three imaginary quaternion units. The intertwiners send T's three parity lines to one line.
+  - Every lift acts as a scalar on ℓ times a rotation of the units (W42's 96, exactly), and the Hodge–Riemann form is
+    2·I on M. Data built from the local system and the surface alone give three degenerate, orthogonal generations.
+  - Three or split: the puncture conditions that keep ±3 are exactly the ones blind to M (0 and L₆). V2 and V4 touch M,
+    are entangled, and give ∓1.
+  - Post hoc (a READING, W50 next): the inner automorphisms by a and b are not words in L and R. So on the ruled
+    branch the parity grading that main's T-TAU-ONLY-PERMUTATION uses is not a symmetry at a fixed τ.
 
 ## Questions open with main
 
@@ -240,10 +249,13 @@ Under the owner's rulings, the table's rows split into two groups:
   (B1231).
 - **The moves.** The counts depend on which moves the grammar allows: the sign (GENESIS GM5b, FK4) and the swap (GENESIS
   GM5c).
+- **The parity grading at a fixed τ.** On the ruled branch the weave is ⟨L, R⟩, which meets the inner automorphisms only
+  in the powers of conj(a b⁻¹ a⁻¹ b) (W49, post hoc). Do T-TAU-ONLY-PERMUTATION and B1617's residual hold for that
+  group, or only where the inner automorphisms act (W50)?
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W48 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W49 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§53).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§54).

@@ -1035,6 +1035,39 @@ def test_w48_the_outside_source_at_the_cusp():
     assert np.convolve(c4, c4)[:3].tolist() == [1, 480, 61920]
 
 
+def test_w49_the_generations_are_a_multiplicity():
+    """W49 (the owner's turn to the free numbers; the rule committed first; one run; every cell as predicted): the
+    weave's triplet is one zero mode three times, T = l (x) M. The intertwiners send T's three parity lines to one line
+    of the spin doublet (Q = +2 on it), every lift is a scalar on l times a rotation of the three units (W42's 96), the
+    Hodge-Riemann form is 2 I on M, and the puncture conditions that keep +-3 are exactly the products. In process: the
+    quaternion twirl and V2's entanglement from the units alone"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_generations_are_a_multiplicity.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True and all(d["checks"].values()) and d["every control holds"] is True
+    m1 = d["M1: one line"]
+    assert m1["the dimension of T's intersection with each parity block"] == [1, 1, 1]
+    assert m1["the three images span one line"] is True
+    assert m1["Q(l^, l^)"] == [2.0, 0.0] and m1["Q on l's Q-orthogonal complement"][0] == -2.0
+    assert d["M2: the lifts in the basis t_p"]["the group the lifts of L and R generate on T: elements"] == 96
+    gram = d["M3: the Hodge-Riemann form on T"]["the Gram matrix of Q on T in the basis t_p"]
+    assert all(abs(complex(*gram[i][j]) - (2 if i == j else 0)) < 1e-9 for i in range(3) for j in range(3))
+    m4 = d["M4: the puncture conditions in rho_Q (x) M"]
+    assert [m4[c]["a product X (x) Y"] for c in ("0", "V2", "V4", "L6")] == [True, False, False, True]
+    e = d["extra read-outs (not predicted)"]
+    assert e["E4: the fibre index by type"]["the fibre index f = I(n = 1) - I(n = 0), by condition"] == {
+        "0": -3.0, "V2": -1.0, "V4": 1.0, "L6": 3.0}
+    assert all(abs(x - np.sqrt(2)) < 1e-9 for x in e["E3: V2's singular values"][
+        "s1 / s2 over 200 random vectors of V2: min, max"])
+    units = [np.array([[0, 1], [-1, 0]], dtype=complex), np.array([[1j, 0], [0, -1j]]), np.array([[0, 1j], [1j, 0]])]
+    rng = np.random.default_rng(0)
+    A = rng.normal(size=(2, 2)) + 1j * rng.normal(size=(2, 2))
+    assert np.allclose(sum(u.conj().T @ A @ u for u in units), 2 * np.trace(A) * np.eye(2) - A)
+    v = rng.normal(size=2) + 1j * rng.normal(size=2)
+    s = np.linalg.svd(np.array([np.linalg.inv(u) @ v for u in units]).T, compute_uv=False)
+    assert abs(s[0] / s[1] - np.sqrt(2)) < 1e-12
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

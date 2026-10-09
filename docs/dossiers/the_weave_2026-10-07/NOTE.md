@@ -47,6 +47,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   source at the cusp (GENESIS FK10).
 - W48 (the owner's outside source, given Λ): a c = 24 source gives one chiral mode per eight lattice-free chiral bosons,
   so three needs the 26-dimensional bosonic string's 24, and the heterotic string gives one. GENESIS FK10 stays open.
+- W49 (the owner's turn to the free numbers): the weave's three generations are one zero mode three times, T = ℓ ⊗ M,
+  with M the three imaginary quaternion units; the end conditions that keep three are exactly the ones blind to M
+  (three or split). Post hoc: the inner automorphisms are not words in L and R, so on the ruled branch whether the
+  parity grading holds at a fixed τ is W50's question.
 
 ## The setting
 
@@ -3187,6 +3191,118 @@ is weave-type; whether any source applies is a dictionary question beyond the pr
 **Status.** COMPUTED (the rule first; one run; every cell as predicted). The owner's exploration of an outside source,
 in its string-vacuum form, returns a negative for three. 0 of 19.
 
+## W49. The generations are a multiplicity: one zero mode three times, so an end condition keeps three or splits it (`the_generations_are_a_multiplicity.py`; `W49_RULE.md`)
+
+**Why.**
+- The owner turned to the free numbers (2026-10-09): look for a state that breaks the weave's symmetry and is forced
+  by the principle, and name the obstruction and attack it.
+- **The obstruction as the record states it.**
+  - Main's T-TAU-ONLY-PERMUTATION: couplings in τ alone give permutation mixing, because the inner automorphisms act
+    on T as the parity signs at every τ.
+  - Main's §3: all 19 are free, by Schur's lemma on an irreducible group.
+- This arc checks the one link in a deeper form of that obstruction which was so far only a reading: W44's
+  𝕎 ≅ ρ_Q ⊗ M, carried to the triplet. The rule (`W49_RULE.md`, cd174afa7) was committed before the code.
+- **Weave or thread.** The objects are the weave's local system, its triplet T and the end conditions every move
+  keeps, read by every move at once. Weave-type.
+- **Notation.** D = H¹(F₂; ρ_Q) is the spin doublet (W21's code calls it M). Here M = ℂ³ is the multiplicity.
+
+**Disclosed before the run.** The script was reviewed against the rule, then run once.
+- **The rule's M4 inference was too weak for V4.**
+  - The rule says V2's and V4's vectors have rank 2 generically, "so neither is X ⊗ Y".
+  - That holds for the two-dimensional V2, since a two-dimensional product space has only rank-one vectors.
+  - It does not hold for the four-dimensional V4: ℂ² ⊗ Y, with Y a plane in M, also has rank 2 generically.
+  - The script adds a support test that decides both. A subspace W is a product exactly when
+    dim W = dim X_W · dim Y_W, where X_W and Y_W are the spans of its matrices' columns and rows. The prediction is
+    unchanged.
+- **"Both match W42's normal form" was made concrete.** The group the lifts of L and R generate on T must be W42's
+  set, and it must contain the inner automorphisms' lifts.
+- **Four extra read-outs (E1 to E4)** were fixed in the script before the run, with no prior.
+
+**The result (COMPUTED; M1 to M4 as predicted; every control holds).**
+- **The controls.**
+  - The units (j, i and k for the parities (½, 0), (0, ½) and (½, ½)) identify the weave's local system with ρ_Q ⊗ M
+    on the fibre: Ψ⁻¹ W(x) Ψ = 1 ⊗ ρ_Q(x) for x = a, b.
+  - Every lift of L and R on the six local solutions is S ⊗ g, with S a signed permutation of the parities.
+- **M1, one line.**
+  - T meets each parity block of V in a line.
+  - The intertwiners Φ_p(z) = u_p⁻¹ z send the three lines to one line ℓ of D: the 2 × 3 matrix of the images has
+    singular values 1.674 and 0.
+  - ℓ and its Q-orthogonal complement are each invariant under every lift of L and R.
+  - Q(ℓ̂, ℓ̂) = +2, and Q = −2 on the complement. So ℓ is D's holomorphic line, and T = ℓ ⊗ M.
+  - On ℓ, L's two lifts act by e^{2πi·7/8} and e^{2πi·3/8}, and R's by e^{2πi·5/8} and e^{2πi/8}. On the complement
+    they act by the complex conjugates.
+- **M2, geometry on ℓ, flavour on M.** In the basis t_p (T's line in block p, scaled so that Φ_p(t_p) = ℓ̂):
+  - each lift of L and R acts on T as its eigenvalue on ℓ times a rotation of the cube. L is a quarter-turn about the
+    (0, ½) axis and R a quarter-turn about the (½, 0) axis, the same for both lifts of each;
+  - each lift of the inner automorphisms acts as its sign on ℓ times the parity signs, (−1, +1, −1) for a and
+    (+1, −1, −1) for b;
+  - the lifts of L and R generate 96 elements on T, exactly W42's {z S : S a rotation of the cube, z⁸ = 1,
+    z⁴ = sgn S}, and the inner automorphisms' lifts lie among them;
+  - every restriction keeps T, to 1.4 × 10⁻¹⁵.
+- **M3, the pairing.** The Hodge–Riemann form on T in the basis t_p is 2·I₃: three equal norms, mutually orthogonal.
+- **M4, the puncture conditions in ρ_Q ⊗ M.** The last column is W46's fibre index, recomputed (E4).
+
+| condition | dim | dim X_W | dim Y_W | a product | X ⊗ M (blind to M) | generic rank | fibre index |
+|---|---|---|---|---|---|---|---|
+| 0 | 0 | 0 | 0 | yes | yes | none | −3 |
+| V2 | 2 | 2 | 3 | no | no | 2 | −1 |
+| V4 | 4 | 2 | 3 | no | no | 2 | +1 |
+| L₆ | 6 | 2 | 3 | yes | yes | 2 | +3 |
+
+- **The extra read-outs** (fixed before the run, with no prior).
+  - **E1.** Every signed permutation above is the lift's conjugation of the three units, g⁻¹ u_p g = Σ_q P_qp u_q, for
+    all eight lifts. So M is the triple of imaginary quaternion units, rotated by 2O's image in SO(3). V2 and V4 are
+    the spin-½ and spin-3/2 pieces of spin ½ ⊗ that vector (W46's names).
+  - **E2.** T̄ meets each block in a line, and the intertwiners send the three to ℓ's complement: T̄ = ℓ′ ⊗ M.
+  - **E3.** Every sampled vector of V2, as a 2 × 3 matrix, has singular values in the ratio √2 : 1 (200 vectors;
+    min = max = 1.414213562373). By hand it holds for every vector, since Σ_p u_p† A u_p = 2 tr(A)·1 − A over the
+    three units. So V2 is uniformly entangled and contains no product vector.
+  - **E4.** The fibre index is ±3 exactly at the conditions blind to M.
+
+**What it shows (a READING on the computed facts; T read as the generations given Λ, GENESIS FK11).**
+- **The three generations are a multiplicity.** The weave's holomorphic triplet is one zero mode ℓ of the spin
+  doublet, carried three times: T = ℓ ⊗ M, with M the three imaginary quaternion units. The three are one solution
+  with a three-valued label, not three solutions.
+- **Geometry acts on ℓ, flavour on M.**
+  - Every lift acts on T as a scalar on ℓ times a rotation of the three units. The Hodge–Riemann pairing is a scalar on
+    ℓ times the identity on M.
+  - Any datum built from the local system and the surface alone is unchanged by the local system's automorphisms
+    GL(M), so it is a scalar on M. That covers the pairing, the zero modes' values at a point of the torus, the natural
+    end conditions 0 and L₆, the cusp's units and the flat twists (W45 to W48).
+  - Such data give three degenerate, orthogonal generations.
+- **Three or split.** At the puncture, the conditions that keep ±3 are exactly the ones blind to M, 0 and L₆. The two
+  that touch M, V2 and V4, are entangled, and they give ∓1. So among the end conditions the weave keeps, one that keeps
+  three cannot tell the generations apart, and one that could tell them apart does not keep three.
+- **The free numbers.** Values that tell the generations apart need a tensor on M that breaks the weave's group.
+  Schur's lemma is the algebra of main's §3, and the multiplicity is its geometry. The record's candidates are:
+  - a flavon, or a Higgs with flavour structure, which the principle does not supply;
+  - G's own subgroup projectors (B1620, B1621), which leave the values free (W42 to W44);
+  - couplings in τ alone, modular forms valued in M. These give permutation mixing when the inner automorphisms act at
+    every τ (T-TAU-ONLY-PERMUTATION).
+
+**Found while writing this up (post hoc; a READING, to be tested as W50 with the rule first).**
+- **The inner automorphisms by a and by b are not words in L and R.**
+  - In Aut⁺(F₂), ⟨L, R⟩ is a quotient of the braid group B₃ (σ₁ = L, σ₂ = R⁻¹), and it maps onto SL(2, ℤ).
+  - The kernel of B₃ → SL(2, ℤ) is generated by Δ⁴, with Δ = σ₁σ₂σ₁. Δ⁴ is conjugation by u = a b⁻¹ a⁻¹ b (W45).
+  - So ⟨L, R⟩ meets the inner automorphisms only in the powers of conj(u), which acts on T as −I.
+- **They enter with the forks the owner ruled out** (by hand): the sign σ gives σ L σ L⁻¹ = conj(a⁻¹), and the swap
+  gives P L P R⁻¹ = conj(b).
+- **So on the ruled branch** (even ticks and positivity, the weave ⟨L, R⟩), the parity grading is not a symmetry at a
+  fixed τ.
+  - At a generic τ the weave's residual on T is generated by Δ², which acts on T as the scalar Z (W21).
+  - At i it is generated by Δ, whose square is that scalar, so T splits into a line and a plane. At ω it is generated
+    by σ₁σ₂, a 3-cycle of the units times a scalar, so T splits into three lines (by hand).
+  - W40's order-48 group at ω, irreducible on T, used the inner automorphisms and −I.
+- **This bears on main's T-TAU-ONLY-PERMUTATION and B1617, and on this seat's W40 and §46**, which verified them in the
+  frame where the inner automorphisms act. Their computations stand; the open point is which group they are about.
+- **W50 will test it, with the rule first:**
+  - the word identities;
+  - the residuals on T at a generic τ, at i and at ω on the ruled branch;
+  - whether couplings in τ alone, as modular forms on M (W45's ρ_T), give mixing that is not a permutation there.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result. The post-hoc point is a READING
+until W50. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -3347,6 +3463,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W46 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | every end condition the weave keeps on its own surface: W28's four puncture conditions enter along the puncture section at weight 1 (the six local solutions' modular representation, from the same lifts as T), and the cusp's uniform units shift the weight by 12. The puncture's exact sequence fixes the weights 3/2, 1, ½ (central scalars, exponents), so W45's two representations are the two extreme puncture conditions. Every χ is 0 and every space is zero, under both base spin structures; the four-dimensional index is n times the fibre's index (±3, ±1). So the record's ±3 becomes four-dimensional only with one unit of end data at the cusp (GENESIS FK10) |
 | W47 | COMPUTED (the rule first; one run; a check's scope fixed in review, disclosed); a WEAVE result given Λ, NEGATIVE for a forcing | main's named arc: is one unit of end data at the weave's cusp forced? The flat line bundles on the surface are the 24 characters of the metaplectic group (the inner automorphisms die in the abelianization; S̃⁸ ↦ 24); six keep the forced weights. Every cusp exponent is an odd multiple of 1/24, so the natural cusp conditions coincide. The twisted index is 0 except −1 at r = 4 and r = 20, with actual forms behind them (q-expansions); |I| = 3 only with one cusp unit at a natural puncture condition. No forcing exists inside the weave; three needs a non-flat source at the cusp (GENESIS FK10) |
 | W48 | COMPUTED (the rule first; one run; every cell as predicted); conditional on a dictionary beyond Λ (the records' torus as a worldsheet), NEGATIVE for three | the owner's outside source for the cusp's unit, tested: a source of weight w turns the triplet's index into χ_{3/2−w} (the table at w = +4 … −24, all four puncture conditions); a c = 24 source with a lattice of rank ℓ gives (24 − ℓ)/8, one mode per eight lattice-free chiral bosons; q-expansions confirm (dimensions 3, 2, 1, 0). Three needs the bosonic string's 24 lattice-free oscillators (26 dimensions); the heterotic left-movers give one; a Niemeier or Monster vacuum none |
+| W49 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result; a post-hoc READING for W50 | the weave's three are a multiplicity: T = ℓ ⊗ M, one zero mode ℓ of the spin doublet times M, the three imaginary quaternion units (the intertwiners send T's three parity lines to one line, with Q = +2 on it). Every lift acts as a scalar on ℓ times a rotation of the units (W42's 96, exactly), and the Hodge–Riemann form is 2·I on M. The puncture conditions that keep ±3 are exactly the products 0 and L₆; V2 and V4 are entangled and give ∓1: three or split. Post hoc: the inner automorphisms by a and b are not words in L and R (the braid kernel is Δ⁴ = conj(a b⁻¹ a⁻¹ b)), so on the ruled branch the parity grading is not a symmetry at a fixed τ (W50 tests it) |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -3390,6 +3507,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W49_RULE.md`: the rule, committed before the code; `the_generations_are_a_multiplicity.py` → `the_generations_are_a_multiplicity.json`: W49, the triplet as ℓ ⊗ M (the intertwiners on T's parity lines, the lifts in the basis t_p, the Hodge–Riemann form, the puncture conditions in ρ_Q ⊗ M, and four extra read-outs).
 - `W48_RULE.md`: the rule, committed before the code; `the_outside_source_at_the_cusp.py` → `the_outside_source_at_the_cusp.json`: W48, the outside source's dressing law and the c = 24 candidates (the weight law at the four puncture conditions, the lattice and oscillator families, q-expansion dimensions, and the analytic facts).
 - `W47_RULE.md`: the rule, committed before the code; `the_unit_at_the_weaves_cusp.py` → `the_unit_at_the_weaves_cusp.json`: W47, every flat line bundle and every natural cusp condition on the weave's surface (the abelianization, the cusp exponents, the twisted index by the formula and by q-expansions, and the full table with cusp units).
 - `W46_RULE.md`: the rule, committed before the code; `the_end_conditions_on_the_weaves_surface.py` → `the_end_conditions_on_the_weaves_surface.json`: W46, every end condition the weave keeps on its own surface (the six local solutions' modular representation, the puncture's exact sequence, the formula, q-expansions, and the table by puncture condition and cusp units).
