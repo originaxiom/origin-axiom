@@ -3098,6 +3098,44 @@ allowed twists, with a separate check that the other 18 give 0.
 predicted. Main's named arc returns a negative: the weave does not force the unit, and GENESIS FK10 stays open by the
 owner's ruling. 0 of 19.
 
+## Reading: an outside source for the cusp's unit (READING, by hand; the owner chose to explore one, 2026-10-09)
+
+Nothing here is computed beyond W45's closed form. A test follows only after a rule (W48).
+
+1. **What a source is.** On the weave's surface a source at the cusp is a meromorphic modular form g of weight w with
+   trivial multiplier. Dressing the zero modes by it allows f = g·F with F holomorphic. So the dressed space for a
+   piece ρ at weight k is g·M_{k−w}(ρ), and the dressed index is χ_{k−w}(ρ).
+2. **Only the weight counts.** A zero of g inside the surface takes back exactly what its pole at the cusp adds, so the
+   index depends on w alone.
+3. **The law for the triplet.** tr ρ_T(ST) = 0, so χ_{3/2+4j}(ρ_T) = j. The count rises by one for every −4 of weight.
+   One unit at the cusp is w = −12, and three needs exactly that.
+4. **The unit has one form.** A modular form of weight −12 with a simple pole at the cusp and no zeros on the open
+   surface is 1/Δ = 1/η²⁴, up to a constant. In conformal field theory it is the vacuum character of 24 chiral
+   oscillators (c = 24) with no zero-mode lattice. The left-movers of the bosonic string in light-cone gauge are such a
+   sector.
+5. **The natural candidates, read by the law** (canonical puncture condition):
+   - 1/Δ, 24 oscillators alone: w = −12, three;
+   - E₄/Δ, one E₈ lattice and 16 oscillators: w = −8, two;
+   - E₄²/Δ, the heterotic string's left-movers: w = −4, one. This holds for E₈ × E₈ and for Spin(32)/ℤ₂ alike, since
+     both lattices have the theta function E₄²;
+   - J = j − 744, the Monster's vacuum: w = 0, none.
+6. **What it shows.**
+   - Under the simplest dressing, the heterotic string gives one chiral mode, not three. That string is the record's
+     natural home for E₈.
+   - Only a pure c = 24 oscillator vacuum gives three.
+   - A lattice that carries the gauge charges carries weight, and that weight takes back part of the unit.
+7. **What it costs.**
+   - **A dictionary beyond Λ:** the records' torus read as a string worldsheet at one loop. The principle does not force
+     that reading (GENESIS FK11).
+   - **A count, not a spectrum.** The dressed index is a mathematical count. In the heterotic spectrum the q⁻¹ term is
+     the left-moving tachyon, which level matching removes, so a unit in the index is not a state in the spectrum.
+   - **The simplest dressing.** A sector with gauge charge is dressed by its coset theta function, a vector-valued
+     form, not by the full lattice theta. The count above treats the lattice as a scalar factor, the simplest case.
+   - **Numerology risk.** 24 appears often on the record: |O| = 24, |2T| = 24, and Mp₂(ℤ)^ab = ℤ/24. An exact match of
+     c/24 = 1 is not a derivation by itself.
+8. **The test it suggests (W48, rule first).** The dressed index and the q-expansion dimensions for the candidate
+   sources, at all four puncture conditions, so that the law and the counts above are computed, not read.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows

@@ -18490,3 +18490,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   most one. Every cell held as predicted.
 - **So nothing inside the weave forces the cusp's unit.** Three needs a non-flat source at the cusp (GENESIS FK10).
   Relay §51 sent.
+
+## 2026-10-09 — an outside source for the cusp's unit: the reading; relay §52
+
+- **The owner chose to explore an outside source.** The reading: only a source's weight counts, and three needs exactly
+  1/Δ, the vacuum of 24 chiral oscillators.
+- **Under the simplest dressing, the heterotic string gives one, not three.** W48 will test the law and the candidates,
+  rule first. Relay §52 sent (GENESIS FK10).

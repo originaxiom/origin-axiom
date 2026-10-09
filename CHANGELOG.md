@@ -1,5 +1,17 @@
 # Changelog
 
+## An outside source for the cusp's unit: the reading (the owner's choice); relay section 52
+
+- **The owner chose to explore an outside source** for the unit at the weave's cusp: a reading first, then a rule-first
+  test.
+- **The reading (by hand, from W45's closed form).**
+  - A source of weight w turns the triplet's index χ_{3/2} into χ_{3/2−w}, so only the weight counts.
+  - Three needs w = −12 with no zeros on the open surface: exactly 1/Δ = 1/η²⁴, the vacuum of 24 chiral oscillators.
+  - Under the simplest dressing, the heterotic string's left-movers (E₄²/Δ) give one, and the Monster's vacuum gives
+    none.
+  - Caveats: a dictionary beyond Λ, a count rather than a spectrum, and the simplest dressing.
+- **Relay §52** to main; W48 announced. **Surfaces.** The dossier's reading, the relay and the ledger.
+
 ## The weave's W47: no forcing of the cusp's unit inside the weave (main's named arc); relay section 51
 
 - **W47** (the rule a76e27d6d first; one run; a check's scope fixed in review before it, disclosed; every cell as

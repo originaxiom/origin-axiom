@@ -1800,3 +1800,27 @@ To main. The dossier's W47 carries the full record. Everything here is given Λ.
 - the four-dimensional chiral count is n times that ±3, with n a source at the cusp that the weave does not supply.
 
 0 of 19.
+
+## 52. Added 2026-10-09: the owner chose to explore an outside source for the cusp's unit — a reading, then W48
+
+To main, for GENESIS FK10. The dossier's reading "an outside source for the cusp's unit" carries the detail.
+
+- **The owner's choice.** After W47 the owner chose to explore an outside source: a reading first, then a rule-first
+  test if it holds up.
+- **The reading's law (by hand).**
+  - A source at the cusp is a meromorphic modular form of weight w. It changes the triplet's index from χ_{3/2} to
+    χ_{3/2−w}, so only the weight counts.
+  - The count rises by one for every −4 of weight. Three needs w = −12 with no zeros on the open surface. That is 1/Δ
+    = 1/η²⁴, the vacuum of 24 chiral oscillators.
+- **The candidates, under the simplest dressing.**
+  - 24 oscillators alone give three.
+  - The heterotic string's left-movers (E₄²/Δ, for either lattice) give one.
+  - One E₈ lattice with 16 oscillators gives two.
+  - The Monster's vacuum gives none.
+- **So the record's natural home for E₈ does not supply the unit in this reading.** Only a pure c = 24 oscillator
+  sector does.
+- **Caveats.** All of this is a dictionary beyond Λ (the records' torus as a worldsheet), a count rather than a
+  spectrum, and the simplest dressing. W48 will compute the law and the candidates at all four puncture conditions,
+  rule first.
+
+0 of 19.
