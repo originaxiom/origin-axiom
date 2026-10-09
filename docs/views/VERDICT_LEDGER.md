@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1353 of 1353 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1354 of 1354 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (913)
+## PROVED (914)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -925,6 +925,7 @@
 | `B1622` | REVIEW 62: THE FLAVOUR WINDOW. Twenty-nine merges since Review 61 (due; the block is at forty); fresh clone PASS at d85301ad; nine lanes registered, two behind on Codeberg because the remote refuses pushes over its storage quota (R62-1, the owner's account). The loop: R61-1 paid, R61-2 at its second carry, R61-3/4/5 carried once; the relay backlog 62 -> 72. The headline: the window's one false line was the landing step's (S96's '0 failed', E87), and three more slips were caught before use -- B1615/B1616's four-element residual cells scoped at the owner's weave condition, B1619's misread lane packet (E58, filed here), B1620's rank from rounding noise (E85, filed here). Twelve seals before results, post-seal changes all disclosed; LAW_MAP +5, THEOREM_REGISTRY +0 (R62-6), GENESIS v1.29 -> v1.35; six terms glossed; no promotion. 0 of 19. |  | 0 |
 | `B1623` | THE OWED LITERATURE CHECKS (R62-2): T-RANK-BOUND not found in this form (its inputs, half lives half dies and the Wang sequence, standard); T-SLOPE-LAW related, not the same (Dedekind-Rademacher/Meyer evaluate signature and eta over the same word, not the slope); T-PERIODIC-CURVE (A) implied by Tillmann-Yao AGT 25 (2025) Prop. 17 with Heusener-Porti, its torsion formula (B) not found; T-MASS-TERM not found; Lemma F related (Menal-Ferrer-Porti 2012), not found. Lemma F's step (2) verified on main for the seat's four (the Lorentz action on Hermitian matrices): the (2,2) entries vanish by the z and z-bar conditions; the agent's caution came from main's brief misdescribing rho. The N45 from-scratch reading declined: no claim on main rests on it (B1604: a class-index reading on a thread's cover is not an index); the 380/380 re-run stands. 0 of 19. |  | 0 |
 | `B1624` | THE GATE SEES THE DOSSIER (R62-3): seat-positive-verified now checks sm:W<n> dossier items against the SM seat's VERIFIED row (failing-path cases: registered only, another seat's row, a prefix-sharing item); run on the record it failed on B1606 resting on the unverified W19 -- the gap Review 61 predicted; W19's facts verified on main by two routes (M_{1,2} a complex surface; chi(Aut+(F_2)) = chi(F_2) chi(SL(2,Z)) = 1/12 = Harer-Zagier's chi(M_{1,2})); the gate passes with 8 declared dependencies all VERIFIED. 0 of 19. |  | 1 |
+| `B1625` | THE SM SEAT'S CORRECTIONS TO B1620 TAKEN: TM1 is allowed under T-bar(x)T only -- under T(x)T the two-parameter family is TM2 (B1620's stored T(x)T fits fix the column (1/3,1/3,1/3); W43: 0 of 576 pairs carry a TM1 column) -- so P10 applies under T-bar(x)T; the frame is 'all of G flavour', not W24's; the PMNS fit predicate made strict (four (8,8) rows outside, the minimum still 2); the 13 unreduced in every frame on record (W44); W45 registered under FK11 (index 0 on the weave's own surface in the canonical reading; a chiral three there is one unit of end data at the cusp). GENESIS v1.36. 0 of 19. |  | 0 |
 
 ## NEGATIVE (338)
 

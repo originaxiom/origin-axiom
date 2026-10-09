@@ -1,0 +1,25 @@
+{
+ "id": "B1625",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1620",
+  "B1612",
+  "B1613",
+  "B1621"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1620's frame (all of the weave's group is flavour), with the SM seat's c-gauge frame registered",
+  "object": "B1620's lepton statement, fit predicate and frame name; P10's scope; GENESIS v1.35's sentence; the theorem row; the write-up; the seat's W42-W45",
+  "reach": "general",
+  "hypotheses": "the seat's W44 and W45 read, not re-run; the corrections checked on B1620's stored fits"
+ },
+ "claim_one_line": "THE SM SEAT'S CORRECTIONS TO B1620 TAKEN: TM1 is allowed under T-bar(x)T only -- under T(x)T the two-parameter family is TM2 (B1620's stored T(x)T fits fix the column (1/3,1/3,1/3); W43: 0 of 576 pairs carry a TM1 column) -- so P10 applies under T-bar(x)T; the frame is 'all of G flavour', not W24's; the PMNS fit predicate made strict (four (8,8) rows outside, the minimum still 2); the 13 unreduced in every frame on record (W44); W45 registered under FK11 (index 0 on the weave's own surface in the canonical reading; a chiral three there is one unit of end data at the cusp). GENESIS v1.36. 0 of 19.",
+ "weave_or_thread": "weave"
+}

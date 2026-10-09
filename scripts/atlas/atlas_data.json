@@ -11312,6 +11312,19 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B1625": {
+   "slug": "the seats corrections to b1620 taken",
+   "motifs": [],
+   "refs": [
+    "P10",
+    "S101",
+    "S98"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B162": {
    "slug": "kappa sweep",
    "motifs": [

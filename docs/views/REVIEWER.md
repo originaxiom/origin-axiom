@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1353** |
-| words of findings prose | **1,057,759** |
+| research arcs with findings | **1354** |
+| words of findings prose | **1,058,427** |
 | test lock files referenced | **794** |
-| arcs carrying an authored verdict | **1353** (100.0 %) |
+| arcs carrying an authored verdict | **1354** (100.0 %) |
 | recorded closures | **814** (647 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 913 |
+| PROVED | 914 |
 | NEGATIVE | 338 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1624`** (493 words, 1 locks)  
-THE GATE SEES THE DOSSIER (R62-3): seat-positive-verified now checks sm:W<n> dossier items against the SM seat's VERIFIED row (failing-path cases: registered only, another seat's row, a prefix-sharing item); run on the record it failed on B1606 resting on the unverified W19 -- the gap Review 61 predicted; W19's facts verified on main by two routes (M_{1,2} a complex surface; chi(Aut+(F_2)) = chi(F_2) chi(SL(2,Z)) = 1/12 = Harer-Zagier's chi(M_{1,2})); the gate passes with 8 declared dependencies all VERIFIED. 0 of 19.  
-`B1624_the_gate_sees_the_dossier/FINDINGS.md`
+**PROVED — `B1625`** (668 words, 0 locks)  
+THE SM SEAT'S CORRECTIONS TO B1620 TAKEN: TM1 is allowed under T-bar(x)T only -- under T(x)T the two-parameter family is TM2 (B1620's stored T(x)T fits fix the column (1/3,1/3,1/3); W43: 0 of 576 pairs carry a TM1 column) -- so P10 applies under T-bar(x)T; the frame is 'all of G flavour', not W24's; the PMNS fit predicate made strict (four (8,8) rows outside, the minimum still 2); the 13 unreduced in every frame on record (W44); W45 registered under FK11 (index 0 on the weave's own surface in the canonical reading; a chiral three there is one unit of end data at the cusp). GENESIS v1.36. 0 of 19.  
+`B1625_the_seats_corrections_to_b1620_taken/FINDINGS.md`
 
 **NEGATIVE — `B1617`** (642 words, 1 locks)  
 THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19.  

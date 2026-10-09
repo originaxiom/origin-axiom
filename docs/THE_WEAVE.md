@@ -250,3 +250,14 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   - Its means on the clock's forms give three equal masses under all three tensors.
   - For the leptons its heavy line fits only as U's second column, never the heaviest state.
 - **The principle's own data, read by their means, fix no number** (0 of 19); the observed mixing needs a chosen vacuum.
+
+## Main's addition: the SM seat's corrections to B1620 taken (B1625, GENESIS v1.36)
+
+- **TM1 is allowed under T̄ ⊗ T only.** Under T ⊗ T the trimaximal family is TM2 (second column ⅓, ⅓, ⅓;
+  sin²θ₁₂ = 1/(3 cos²θ₁₃)), as B1620's own stored fits show. Under Sym² T neither is allowed. P10 (TM1) applies under
+  T̄ ⊗ T, so it tests Λ, a frame and a Higgs content together. B1620 had written "TM1 under T̄ ⊗ T and T ⊗ T".
+- **The frame is named:** B1620's is "all of the weave's group is flavour". Where c is gauge (the SM seat's W44), TM1
+  and TM2 return under T̄ ⊗ T and T ⊗ T, and Sym² T allows one lepton relation. In W24's frame nothing is constrained.
+  **The 13 are unreduced in every frame on record.**
+- **The weave's own surface reads index 0** (the SM seat's W45, given Λ, canonical cusp condition): a chiral three on
+  M₁,₂ is exactly one unit of end data at the cusp, which is FK10's question.

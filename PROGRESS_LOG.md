@@ -16816,3 +16816,18 @@ declared, the gate **failed** on W19: main had built the grade on it without ver
 **W19, verified in part on main** (`w19_check.py`, exact). M₁,₂ is a complex surface. χ(Aut⁺(F₂)) = χ(F₂)·χ(SL(2, ℤ)) =
 1/12, and Harer–Zagier's χ(M₁,₂) = 1/12; the two routes agree. Its orbifold-locus sentence stays unchecked and its
 identification stays a reading. The gate passes: 8 declared dependencies, all VERIFIED. 0 of 19.
+
+## 2026-10-09 — S104 THE SM SEAT'S CORRECTIONS TO B1620 TAKEN (B1625, GENESIS v1.36): TM1 under T̄ ⊗ T only, TM2 under T ⊗ T (B1620's own stored fits show it); the frame named 'all of G flavour'; the PMNS fit predicate made strict; the 13 unreduced in every frame on record (W44); the weave's own surface reads index 0 (W45, registered under FK11); the write-up and its page corrected; the seat's W42–W45 rowed
+
+**The correction.** The SM seat verified B1620 exactly (W42) and found it had mislabelled its lepton result (W43). The
+two-parameter PMNS family under T ⊗ T fixes the column (⅓, ⅓, ⅓), which is **TM2**; TM1 is allowed under T̄ ⊗ T only.
+Checked on B1620's stored fits and taken everywhere the error had reached: B1620's addendum, P10's note (P10 applies
+under T̄ ⊗ T), GENESIS v1.36, the theorem row, the write-up and its page. Filed as an E65 instance with the lenient fit
+predicate. That predicate accepted up to a half-width outside the ranges; under the strict one, four (8, 8) rows are
+outside, and the minimum stays 2.
+
+**Registered from the seat.** W44: the 13 are unreduced in every frame on record, and where c is gauge Sym² T allows one
+lepton relation. W45: the triplet's index on the weave's own surface M₁,₂ is 0 in the canonical reading, and a chiral
+three there is one unit of end data at the cusp. It is recorded under FK11; the open question is FK10's.
+
+**Harvest:** rows 1057–1063, pin sm `f81a8fba`; a relay to both seats. 0 of 19.

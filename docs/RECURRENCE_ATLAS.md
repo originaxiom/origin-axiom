@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-10-09 from 1350 frontier probes.
+> Last generated: 2026-10-09 from 1351 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1350 frontier probes; status {'open': 72, 'banked': 893, 'dead': 358, 'dormant': 27}
+  corpus: 1351 frontier probes; status {'open': 72, 'banked': 893, 'dead': 359, 'dormant': 27}
   the ONE conserved first integral: kappa (recurs 296x, 21%) -- genuine unity, MUST recur
   top recurring motifs: eisenstein(746), golden(733), firewall(652), figure_eight(595), amphichiral_cp(527), trace_map(491)
   recurrence is: structural-invariant 5319 mentions | conserved-integral 296 | TOOL 491
@@ -38,7 +38,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | closing | 415 | 30% | question | structural | topology | what closing the open object supplies and costs -- Dehn filling, the seam, the constitutive closure (B286/B287/B294) |
 | z3_generation | 382 | 28% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
 | measurement | 323 | 23% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
-| wrt_quantum | 297 | 22% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
+| wrt_quantum | 297 | 21% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | kappa | 296 | 21% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | lorentzian | 234 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
 | choice | 199 | 14% | question | structural | arithmetic | the residual bit(s): the torsor of closings, the basepoint bit, what the object can and cannot select (A7/B766/B1183/B1225) |

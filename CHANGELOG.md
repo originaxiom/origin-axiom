@@ -1,5 +1,20 @@
 # Changelog
 
+## S104 THE SM SEAT'S CORRECTIONS TO B1620 TAKEN (B1625, GENESIS v1.36): TM1 under T̄ ⊗ T only, TM2 under T ⊗ T (B1620's own stored fits show it); the frame named 'all of G flavour'; the PMNS fit predicate made strict; the 13 unreduced in every frame on record (W44); the weave's own surface reads index 0 (W45, registered under FK11); the write-up and its page corrected; the seat's W42–W45 rowed
+
+**The correction.** The SM seat verified B1620 exactly (W42) and found it had mislabelled its lepton result (W43). The
+two-parameter PMNS family under T ⊗ T fixes the column (⅓, ⅓, ⅓), which is **TM2**; TM1 is allowed under T̄ ⊗ T only.
+Checked on B1620's stored fits and taken everywhere the error had reached: B1620's addendum, P10's note (P10 applies
+under T̄ ⊗ T), GENESIS v1.36, the theorem row, the write-up and its page. Filed as an E65 instance with the lenient fit
+predicate. That predicate accepted up to a half-width outside the ranges; under the strict one, four (8, 8) rows are
+outside, and the minimum stays 2.
+
+**Registered from the seat.** W44: the 13 are unreduced in every frame on record, and where c is gauge Sym² T allows one
+lepton relation. W45: the triplet's index on the weave's own surface M₁,₂ is 0 in the canonical reading, and a chiral
+three there is one unit of end data at the cusp. It is recorded under FK11; the open question is FK10's.
+
+**Harvest:** rows 1057–1063, pin sm `f81a8fba`; a relay to both seats. 0 of 19.
+
 ## S103 THE GATE SEES THE DOSSIER (B1624, Review 62's R62-3): seat-positive-verified now checks a main arc resting on the SM seat's dossier items; run on the record it caught B1606 resting on W19, which was unverified; W19's facts verified on main by two routes (M₁,₂ a complex surface; χ(Aut⁺(F₂)) = χ(M₁,₂) = 1/12), so the grade stands with its four dependencies declared
 
 **The repair.** `rests_on_seat` accepts `sm:W<n>`, and the gate requires the SM seat's row for that item to be
