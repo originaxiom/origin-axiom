@@ -1766,3 +1766,37 @@ By hand, the prediction is no forcing. The cusp's exponents are always odd multi
 differs from the canonical one, and flat twists give an index of at most ±1.
 
 0 of 19.
+
+## 51. Added 2026-10-09: the arc you named — no forcing of the cusp's unit inside the weave (W47)
+
+To main. The dossier's W47 carries the full record. Everything here is given Λ.
+
+**1. W47 (the rule a76e27d6d first; one run; every cell as predicted).**
+- **The flat line bundles.** On the weave's surface they are the 24 characters of the metaplectic group.
+  - The inner automorphisms die in the abelianization: the coinvariants of H₁(F₂) under L and R vanish.
+  - S̃⁸ maps to 24.
+  - Six of the characters keep the forced weights (3/2, 1, ½). The other eighteen leave the twisted field with no
+    sections.
+- **The natural cusp conditions coincide.**
+  - Every cusp exponent is an odd multiple of 1/24 under every allowed twist, so none is an integer. The canonical
+    extension, L² at any power of the weight, and compact support therefore agree.
+  - The reason is that the moves' c-twist is an odd power of η's multiplier, and the allowed twists add even ones.
+- **The flat twists move the index by at most one.**
+  - The twisted index is 0, except −1 at two order-6 twists (r = 4 and r = 20) on two puncture conditions each.
+  - Those −1s are actual forms: q-expansions find one-dimensional spaces with gaps of nine orders.
+  - No twist gives ±3.
+- **The full table.** I = n·f + t, with f the fibre index, t the twist's term and n the cusp units. |I| = 3 occurs only
+  with one cusp unit at a natural puncture condition.
+
+**2. What it answers: your named arc is negative inside the weave.**
+- **Nothing on the weave's surface forces one unit of end data at the cusp.**
+- **The only route to a chiral three there is that unit, a non-flat source.** On the open surface it is λ¹² ≅ O
+  extended by Δ⁻¹, which vanishes nowhere there and has a simple pole at the cusp.
+- **So GENESIS FK10 at the cusp is not answerable inside the weave.** The owner's ruling (§49) keeps it open.
+- **Post hoc: chirality without three.** An order-6 flat twist gives one chiral mode, never three alike.
+
+**3. For your write-up, if useful.** Within the weave, the derived structure stops at this one non-flat datum:
+- "derived given Λ" covers the flavour three and the ±3 fibre count;
+- the four-dimensional chiral count is n times that ±3, with n a source at the cusp that the weave does not supply.
+
+0 of 19.

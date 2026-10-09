@@ -986,6 +986,33 @@ def test_w46_the_end_conditions_on_the_weaves_surface():
         assert abs(chi1) < 1e-9
 
 
+def test_w47_the_unit_at_the_weaves_cusp():
+    """W47 (main's named arc; the rule committed first; one run; every cell as predicted): nothing on the weave's surface
+    forces the cusp's unit. The flat line bundles are the 24 characters of the metaplectic group, six keep the forced
+    weights, every cusp exponent is an odd multiple of 1/24, the twisted index is 0 except -1 at r = 4 and r = 20, and
+    |I| = 3 only with one cusp unit at a natural puncture condition. In process: the coinvariants, the exponents' parity
+    and the formula's chi_{3/2} at r = 4"""
+    import numpy as np
+    import sympy as sp
+    from sympy.matrices.normalforms import smith_normal_form
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_unit_at_the_weaves_cusp.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True and all(d["checks"].values())
+    assert d["K1: the flat line bundles"]["the allowed r"] == [0, 4, 8, 12, 16, 20]
+    t3 = d["K3: the twisted index"]["the twisted index at n = 0, by r and puncture condition"]
+    nonzero = sorted((r, c) for r, row in t3.items() for c, v in row.items() if abs(v) > 1e-9)
+    assert nonzero == [("20", "L6"), ("20", "V2"), ("4", "0"), ("4", "V4")]
+    assert all(abs(t3[r][c] + 1) < 1e-9 for r, c in nonzero)
+    assert len(d["K5: where |I| = 3"]) == 20 and all(c in ("0", "L6") for _, c, _ in d["K5: where |I| = 3"])
+    snf = smith_normal_form(sp.Matrix([[0, 1, 0, 0], [0, 0, 1, 0]]), domain=sp.ZZ)   # [L - 1 | R - 1]
+    assert [abs(int(snf[i, i])) for i in range(2)] == [1, 1]
+    assert all((x + 4 * m) % 2 == 1 for x in (3, 9, 21) for m in range(6))
+    lam = [((x + 4) % 24) / 24 for x in (3, 9, 21)]                                    # rho_T (x) eps_4 at the cusp
+    trS = np.exp(1j * np.pi / 4) * np.exp(-1j * np.pi)                                  # tr rho_T(S) eps_4(S)
+    chi = 3 * 0.5 / 12 + 0.25 * (np.exp(3j * np.pi / 4) * trS).real + 1.5 - sum(lam)
+    assert abs(chi - 1) < 1e-12
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

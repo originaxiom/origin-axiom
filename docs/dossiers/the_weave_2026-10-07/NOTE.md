@@ -42,6 +42,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W46 (given Λ): for every end condition the weave keeps on its own surface, the four-dimensional index is n times the
   fibre's index, n the cusp's units; with the natural cusp condition there is no zero mode at all. The record's ±3
   becomes four-dimensional only with one unit of end data at the cusp (GENESIS FK10).
+- W47 (main's named arc, given Λ): nothing on the weave's surface forces the cusp's unit. The natural cusp conditions
+  coincide (no integer exponent), and the 24 flat line bundles move the index by at most one. Three needs a non-flat
+  source at the cusp (GENESIS FK10).
 
 ## The setting
 
@@ -3038,6 +3041,63 @@ canonical reading the weave's own surface does not earn GENESIS FK11, which stay
 **Status.** COMPUTED (the rule first; one run; every cell as predicted). It closes the end conditions the weave keeps on
 its own surface. GENESIS FK11 stays open, and its question on this surface is GENESIS FK10's at the cusp. 0 of 19.
 
+## W47. Is one unit of end data at the weave's cusp forced? No: nothing on the weave's surface supplies it (`the_unit_at_the_weaves_cusp.py`; `W47_RULE.md`)
+
+**Why.**
+- Main named the arc for GENESIS FK10 (S104's relay): "If you see a forcing of one unit of end data at the weave's
+  cusp (FK10), that is the arc."
+- W45 and W46 left exactly one freedom on the weave's surface for a chiral count: the cusp's units n, with the count
+  n times the fibre's index. The owner ruled the unit open, with no postulate.
+- Two kinds of candidate remained: an end condition at the cusp other than the canonical one, and a twist of the
+  triplet by a line bundle on the surface.
+- The rule (`W47_RULE.md`, a76e27d6d) was committed before the code. Weave-type: every flat line bundle the surface
+  admits and every natural condition, none chosen.
+
+**A fix made in review, before the run (disclosed).** The run was the first and only launch. The check of K5's formula
+I = n·f + t was first written over all 24 characters. For the 18 that do not keep the forced weights the twisted field
+has no sections, so its index is 0 for every n, as the rule's facts section says. The check was scoped to the six
+allowed twists, with a separate check that the other 18 give 0.
+
+**The result (COMPUTED; K1 to K5 as predicted).**
+- **K1, the flat line bundles (exact).**
+  - The coinvariants of H₁(F₂) under L and R vanish: the Smith invariants of [L − 1 | R − 1] are 1 and 1. So the
+    inner automorphisms die in the abelianization.
+  - S̃⁸ maps to 24 under σ ↦ 1. So the flat line bundles on the weave's surface are the 24 characters ε_r = v_η^r of
+    the metaplectic group.
+  - Exactly the six with r ≡ 0 mod 4 keep the forced weights 3/2, 1 and ½, and each of them keeps all three or none.
+- **K2, the cusp exponents.** Under every allowed twist, every exponent of T, T̄, the six, V2 and V4 is an odd
+  multiple of 1/24. With the record's lifts they are {3, 9, 21}/24 on T and {3, 21}/24 on V2, and a twist adds 4m/24.
+  No exponent is an integer, so the natural cusp conditions (canonical, L² at any power of the weight, compact support)
+  coincide.
+- **K3, the twisted index at n = 0.** It is 0 everywhere except −1 at r = 4 for the conditions 0 and V4, and −1 at
+  r = 20 for V2 and L₆. The L₆ row equals its H⁰ form, χ_{1/2}(ρ̄_T ⊗ ε_r), at every r. No twist gives ±3.
+- **K4, the second route.** q-expansion dimensions match the formula for every allowed twist and piece.
+  - The non-zero values are actual forms. At r = 4, M_{3/2}(ρ_T ⊗ ε₄) and M₁(V2 ⊗ ε₄) each have dimension 1, with gaps
+    of 1.8 × 10⁻⁷ and 2.2 × 10⁻⁷ against 4.9 × 10⁻¹⁶ and 1.0 × 10⁻¹⁶.
+  - At r = 20 the dual cusp spaces S_{3/2} (of T̄ ⊗ ε₂₀'s dual) and S₁ (of V2 ⊗ ε₂₀'s dual) have dimension 1.
+  - Every other space is zero.
+- **K5, the full table** over the four puncture conditions, the 24 characters and n ∈ {−1, 0, 1}.
+  - At every allowed twist, I = n·f + t, with f the fibre index and t the twist's term.
+  - |I| = 3 occurs at exactly 20 places, all at the conditions 0 or L₆ with t = 0 and n = ±1.
+  - A twist that does not keep the forced weights gives 0 throughout.
+
+**What it shows (given Λ).**
+- **Nothing on the weave's surface forces the unit.**
+  - Every natural cusp condition is the canonical one, because no exponent is an integer. The reason is that the
+    moves' c-twist is an odd power of η's multiplier.
+  - Every flat line bundle the surface admits moves the index by at most one, never by three.
+- **So main's named arc returns a negative: no forcing exists inside the weave.** The only route to a chiral three on
+  the weave's own surface is one unit of end data at the cusp, at a natural puncture condition.
+- **That unit is a non-flat source.** On the open surface it is the trivial bundle λ¹² ≅ O extended by Δ⁻¹, which
+  vanishes nowhere there and has a simple pole at the cusp.
+- **GENESIS FK10 at the cusp is not answerable inside the weave,** and the owner's ruling keeps it open.
+- **Post hoc: chirality without three.** The order-6 twists ε₄ and ε₂₀ give a single chiral mode, an actual form, on
+  some puncture conditions. A flat twist can make the surface chiral, but only by one mode, never by three alike.
+
+**Status.** COMPUTED (the rule first; one run; a check's scope fixed in review before it, disclosed). Every cell held as
+predicted. Main's named arc returns a negative: the weave does not force the unit, and GENESIS FK10 stays open by the
+owner's ruling. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -3196,6 +3256,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W44 | COMPUTED (the rule first; one run; one prediction failed) | the free-number count in both frames on record, B1612's data verbatim, a strict fit predicate, modal ranks, every witness kept: the CKM needs a four-dimensional family under every tensor in both frames (every smaller orbit fails the necessary block test), so the 13 are unreduced whatever the frame; the PMNS minimum is 2 under T̄ ⊗ T and T ⊗ T (TM1 or TM2), 4 under Sym² T in the record's frame, and 3 under Sym² T where c is gauge (predicted 4: one fixed entry, |U_μ3| or |U_τ3| = 1/√2, or ½), with two-dimensional families 0.0012 outside. B1620's fits regraded: its four (8, 8) families (score 0.0707) are outside the ranges, its (2, 8) families (0.3627) have strict witnesses. A reading: S(G) = V₄ ⋊ S₃ is the moves mod 2 on the parities with their signs, and a frame is the subgroup of U(3) = Aut(𝕎) the gauge group realises |
 | W45 | COMPUTED (the rule first; one run; fixes in review before it, disclosed); a WEAVE result given Λ, NEGATIVE for GENESIS FK11 in its canonical reading | the triplet's index on the weave's own surface M₁,₂. T is a representation of the metaplectic cover, not a local system on M₁,₂: S̃⁴ (conjugation by a b⁻¹ a⁻¹ b) acts as −I for every lift sign, while the inner lifts give it I. The four-dimensional Dirac operator with the odd spin structure forces weight 3/2. The formula, calibrated exactly, keeps exactly the two identifications the braid relation allows. χ_{3/2}(ρ_T) = 0 and χ_½(ρ̄_T) = χ_{5/2}(ρ̄_T) = 0, with every space zero (q-expansions, gaps of nine orders); three first at weight 23/2. Post hoc: the index moves only with end data at the cusp, and n units on every component give 3n; the canonical condition is n = 0 |
 | W46 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | every end condition the weave keeps on its own surface: W28's four puncture conditions enter along the puncture section at weight 1 (the six local solutions' modular representation, from the same lifts as T), and the cusp's uniform units shift the weight by 12. The puncture's exact sequence fixes the weights 3/2, 1, ½ (central scalars, exponents), so W45's two representations are the two extreme puncture conditions. Every χ is 0 and every space is zero, under both base spin structures; the four-dimensional index is n times the fibre's index (±3, ±1). So the record's ±3 becomes four-dimensional only with one unit of end data at the cusp (GENESIS FK10) |
+| W47 | COMPUTED (the rule first; one run; a check's scope fixed in review, disclosed); a WEAVE result given Λ, NEGATIVE for a forcing | main's named arc: is one unit of end data at the weave's cusp forced? The flat line bundles on the surface are the 24 characters of the metaplectic group (the inner automorphisms die in the abelianization; S̃⁸ ↦ 24); six keep the forced weights. Every cusp exponent is an odd multiple of 1/24, so the natural cusp conditions coincide. The twisted index is 0 except −1 at r = 4 and r = 20, with actual forms behind them (q-expansions); |I| = 3 only with one cusp unit at a natural puncture condition. No forcing exists inside the weave; three needs a non-flat source at the cusp (GENESIS FK10) |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -3239,6 +3300,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W47_RULE.md`: the rule, committed before the code; `the_unit_at_the_weaves_cusp.py` → `the_unit_at_the_weaves_cusp.json`: W47, every flat line bundle and every natural cusp condition on the weave's surface (the abelianization, the cusp exponents, the twisted index by the formula and by q-expansions, and the full table with cusp units).
 - `W46_RULE.md`: the rule, committed before the code; `the_end_conditions_on_the_weaves_surface.py` → `the_end_conditions_on_the_weaves_surface.json`: W46, every end condition the weave keeps on its own surface (the six local solutions' modular representation, the puncture's exact sequence, the formula, q-expansions, and the table by puncture condition and cusp units).
 - `W45_RULE.md`: the rule, committed before the code; `the_index_on_the_weaves_surface.py` → `the_index_on_the_weaves_surface.json`: W45, the triplet's index on the weave's own surface (the structure on Aut⁺(F₂), the formula's calibrations, the four identifications, and the dimensions by q-expansions).
 - `W44_RULE.md`: the rule, committed before the code; `the_free_numbers_by_frame.py` → `the_free_numbers_by_frame.json`: W44, the free-number count in both frames on record with a strict fit predicate, and B1620's PMNS fits regraded; `received/B1612_data.json`: B1612's data transcription, verbatim (sha256 as in its ARTIFACT_HASHES).

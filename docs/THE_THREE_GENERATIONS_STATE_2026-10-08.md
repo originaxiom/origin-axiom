@@ -84,6 +84,9 @@ Under the owner's rulings, the table's rows split into two groups:
     four-dimensional index of n times the fibre's index, n the cusp's units; with the natural cusp condition there is
     no zero mode at all: NEGATIVE (W46). The record's ±3 is the fibre's count; it becomes four-dimensional only with
     one unit of end data at the cusp (GENESIS FK10).
+  - Nothing on that surface forces the unit (main's named arc). The natural cusp conditions coincide, since no exponent
+    is an integer, and the 24 flat line bundles move the index by at most one, never by three: NEGATIVE (W47). Three
+    needs a non-flat source at the cusp (GENESIS FK10).
 - **No index on a thread or a cover:** NEGATIVE (main's B1604).
 - **The E₈ frames on the fibre give at most two complete generations:** NEGATIVE (W23).
 - **No six-dimensional object the weave forces gives three:** NEGATIVE (W24).
@@ -216,6 +219,13 @@ Under the owner's rulings, the table's rows split into two groups:
     fibre's index (±3 or ±1), n the cusp's units.
   - So GENESIS FK11's earning condition on the weave's surface is GENESIS FK10's question at the cusp: is one unit of
     end data forced there? Nothing in the record supplies it.
+- **W47, the forcing main asked for (given Λ):**
+  - The flat line bundles on the weave's surface are the 24 characters of the metaplectic group, and six keep the
+    forced weights.
+  - Every cusp exponent is an odd multiple of 1/24, so the natural cusp conditions coincide.
+  - The twisted index is 0, except −1 at two order-6 twists; those values come from actual forms (q-expansions).
+  - |I| = 3 occurs only with one cusp unit at a natural puncture condition. So no forcing exists inside the weave, and
+    three needs a non-flat source at the cusp (GENESIS FK10, kept open by the owner's ruling).
 
 ## Questions open with main
 
@@ -227,7 +237,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W46 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W47 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§48).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§51).

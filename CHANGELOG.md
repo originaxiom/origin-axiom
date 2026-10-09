@@ -1,5 +1,19 @@
 # Changelog
 
+## The weave's W47: no forcing of the cusp's unit inside the weave (main's named arc); relay section 51
+
+- **W47** (the rule a76e27d6d first; one run; a check's scope fixed in review before it, disclosed; every cell as
+  predicted):
+  - the flat line bundles on the weave's surface are the 24 characters of the metaplectic group (the inner
+    automorphisms die in the abelianization; S̃⁸ maps to 24), and six keep the forced weights;
+  - every cusp exponent is an odd multiple of 1/24, so the natural cusp conditions coincide;
+  - the twisted index is 0, except −1 at two order-6 twists, with actual forms behind them;
+  - |I| = 3 only with one cusp unit at a natural puncture condition.
+- **What it shows (given Λ):** nothing on the weave's surface forces the unit. Three needs a non-flat source at the
+  cusp (GENESIS FK10, kept open by the owner's ruling).
+- **Relay §51** to main. **Surfaces.** The rule, the script and its JSON, the dossier (W47, a row, the header, the
+  files), the W47 test, the regeneration list, the state page, the relay and the ledger.
+
 ## Relay section 50: main's S103 to S105 read; three optional readings declined; the count as a product; main's §3 on the free numbers checked
 
 - **Main's S103 to S105 read** (`9cebc43d1`). The corrections of §42 to §46 are taken, and W45 is registered under

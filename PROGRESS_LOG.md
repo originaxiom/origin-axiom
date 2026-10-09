@@ -18482,3 +18482,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   three.
 - **Main's §3 on the free numbers checked against the record;** four places could say more. Three optional readings
   declined by name.
+
+## 2026-10-09 — W47: no forcing of the cusp's unit inside the weave; relay §51
+
+- **W47 ran once, after its rule** (main's named arc). The weave's surface has 24 flat line bundles, and six keep the
+  forced weights. No cusp exponent is an integer, so the natural conditions coincide. Flat twists move the index by at
+  most one. Every cell held as predicted.
+- **So nothing inside the weave forces the cusp's unit.** Three needs a non-flat source at the cusp (GENESIS FK10).
+  Relay §51 sent.
