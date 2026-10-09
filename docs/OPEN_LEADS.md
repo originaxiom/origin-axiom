@@ -3667,6 +3667,8 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
 
 **S102 (2026-10-09): R62-4 paid (the seal tool reads disclosure).** Open from Review 62: R62-1 (Codeberg's quota, the owner's), R62-3 (seat-positive-verified for dossier items), R62-5 (the relay-closure pass).
 
+**S103 (2026-10-09): R62-3 paid (B1624; the gate sees the dossier; W19 verified in part).** Open from Review 62: R62-1 (Codeberg's quota, the owner's) and R62-5 (the relay-closure pass).
+
 **The fact it starts from (B1471, a by-product of the odd-n cells).** The SL(2,ℂ) lift of the holonomy is a spin structure, and Sym^odd sees it. On the 13 amphichiral rank-one members of the 112-family the mirror FIXES the spin structure on six (m004, m206, s961, t12839, o10_150696, o10_150707: odd-n torsion real) and SWAPS it on seven (m003, m207, s955, s957, s960, t12838, o10_150695: conj R_odd = R_odd^{ρ⊗ε} exactly, ε = (−1)^φ on five, a torsion character on s955 and s957) — every SWAP member a non-knot. **The record's prior:** B279 proved the mirror fixes both spin structures of m004 and of every knot complement, and shut an earlier handoff's "SWAP → chiral matter possible" on m004; B1118/B1141 name the spin lift as the load-bearing discrete bit ("fermionicity and chirality both hang on it"); A5 (torsion-free closure) is what chose the knot (B197's tie-break; xB012/B1234: A5 buys the golden face and costs the torsion). **Thesis under test, firewalled:** the family contains members on which the object's own ℤ/2 (orientation) acts nontrivially on its fermionic bit, and the construction excluded them at A5. No physics is banked by the thesis; B279's own unbanked link (η / parity) stays unbanked until Phase 2.
 
 **Phase 1 — the swap as a fact (three sealed arcs).**

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1352** |
-| words of findings prose | **1,057,266** |
+| research arcs with findings | **1353** |
+| words of findings prose | **1,057,759** |
 | test lock files referenced | **794** |
-| arcs carrying an authored verdict | **1352** (100.0 %) |
+| arcs carrying an authored verdict | **1353** (100.0 %) |
 | recorded closures | **814** (647 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 912 |
+| PROVED | 913 |
 | NEGATIVE | 338 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1623`** (969 words, 0 locks)  
-THE OWED LITERATURE CHECKS (R62-2): T-RANK-BOUND not found in this form (its inputs, half lives half dies and the Wang sequence, standard); T-SLOPE-LAW related, not the same (Dedekind-Rademacher/Meyer evaluate signature and eta over the same word, not the slope); T-PERIODIC-CURVE (A) implied by Tillmann-Yao AGT 25 (2025) Prop. 17 with Heusener-Porti, its torsion formula (B) not found; T-MASS-TERM not found; Lemma F related (Menal-Ferrer-Porti 2012), not found. Lemma F's step (2) verified on main for the seat's four (the Lorentz action on Hermitian matrices): the (2,2) entries vanish by the z and z-bar conditions; the agent's caution came from main's brief misdescribing rho. The N45 from-scratch reading declined: no claim on main rests on it (B1604: a class-index reading on a thread's cover is not an index); the 380/380 re-run stands. 0 of 19.  
-`B1623_the_owed_literature_checks/FINDINGS.md`
+**PROVED — `B1624`** (493 words, 1 locks)  
+THE GATE SEES THE DOSSIER (R62-3): seat-positive-verified now checks sm:W<n> dossier items against the SM seat's VERIFIED row (failing-path cases: registered only, another seat's row, a prefix-sharing item); run on the record it failed on B1606 resting on the unverified W19 -- the gap Review 61 predicted; W19's facts verified on main by two routes (M_{1,2} a complex surface; chi(Aut+(F_2)) = chi(F_2) chi(SL(2,Z)) = 1/12 = Harer-Zagier's chi(M_{1,2})); the gate passes with 8 declared dependencies all VERIFIED. 0 of 19.  
+`B1624_the_gate_sees_the_dossier/FINDINGS.md`
 
 **NEGATIVE — `B1617`** (642 words, 1 locks)  
 THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19.  

@@ -1,0 +1,24 @@
+{
+ "id": "B1624",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1487",
+  "B1606",
+  "B1622"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a gate repair and a verification: Review 62's R62-3)",
+  "object": "the seat-positive-verified gate and its failing-path test; B1606's dossier dependencies; the SM seat's W19's numerical facts",
+  "reach": "general",
+  "hypotheses": "the gate reads the ledger's disposition word; W19's orbifold-locus sentence and dimension rule not checked; its identification of the weave's object with M_{1,2} stays the seat's reading"
+ },
+ "claim_one_line": "THE GATE SEES THE DOSSIER (R62-3): seat-positive-verified now checks sm:W<n> dossier items against the SM seat's VERIFIED row (failing-path cases: registered only, another seat's row, a prefix-sharing item); run on the record it failed on B1606 resting on the unverified W19 -- the gap Review 61 predicted; W19's facts verified on main by two routes (M_{1,2} a complex surface; chi(Aut+(F_2)) = chi(F_2) chi(SL(2,Z)) = 1/12 = Harer-Zagier's chi(M_{1,2})); the gate passes with 8 declared dependencies all VERIFIED. 0 of 19.",
+ "weave_or_thread": "neither (a gate repair and a verification)"
+}

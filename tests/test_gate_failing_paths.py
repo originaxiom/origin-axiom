@@ -297,3 +297,12 @@ def test_seat_positive_verified_fails_on_an_undeclared_or_unverified_seat_result
     mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["not-an-id"]})
     ok, msg = gates.gate_seat_positive_verified(reader=reader); assert not ok and "not a seat item id" in msg
     assert "seat-positive-verified" in gates.GATES
+    # R62-3: a dossier item (sm:W<n>) is checked against the SM seat's row for it by its bare name
+    mapping["docs/HARVEST_LEDGER.md"] = ledger + ("| 3 | SM-derivation seat | W7 (a dossier item) | \"z\" | NOTE @ 0 | **VERIFIED on main** | B9 | d |\n"
+                                                  "| 4 | SM-derivation seat | W8 (another) | \"w\" | NOTE @ 0 | **REGISTERED** | B9 | d |\n"
+                                                  "| 5 | audit seat | W9 (not the SM seat's) | \"v\" | p @ 0 | **VERIFIED** | B9 | d |\n")
+    mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": ["sm:W7"]})
+    ok, msg = gates.gate_seat_positive_verified(reader=reader); assert ok, msg
+    for bad_w in ("sm:W8", "sm:W9", "sm:W70"):          # registered only; another seat's row; a different item sharing a prefix
+        mapping["frontier/B99991_b/arc_verdict.json"] = _json.dumps({"id": "B99991", "verdict": "PROVED", "rests_on_seat": [bad_w]})
+        ok, msg = gates.gate_seat_positive_verified(reader=reader); assert not ok and bad_w in msg, bad_w

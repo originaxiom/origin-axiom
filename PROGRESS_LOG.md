@@ -16803,3 +16803,16 @@ sealed run". Three of the five arcs met the tool's criterion (B1493, B1494, B149
   line now records it.
 
 The window's only remaining defect is B1621's seal missing from Codeberg (the quota, R62-1). 0 of 19.
+
+## 2026-10-09 — S103 THE GATE SEES THE DOSSIER (B1624, Review 62's R62-3): seat-positive-verified now checks a main arc resting on the SM seat's dossier items; run on the record it caught B1606 resting on W19, which was unverified; W19's facts verified on main by two routes (M₁,₂ a complex surface; χ(Aut⁺(F₂)) = χ(M₁,₂) = 1/12), so the grade stands with its four dependencies declared
+
+**The repair.** `rests_on_seat` accepts `sm:W<n>`, and the gate requires the SM seat's row for that item to be
+VERIFIED. The registered failing-path test now also fails on three bad cases: an item that is registered only, another
+seat's row with the same name, and a different item sharing a prefix.
+
+**What it found.** Review 61 found that B1606's grade rests on the seat's W19–W22, which the gate could not see. Now
+declared, the gate **failed** on W19: main had built the grade on it without verifying it.
+
+**W19, verified in part on main** (`w19_check.py`, exact). M₁,₂ is a complex surface. χ(Aut⁺(F₂)) = χ(F₂)·χ(SL(2, ℤ)) =
+1/12, and Harer–Zagier's χ(M₁,₂) = 1/12; the two routes agree. Its orbifold-locus sentence stays unchecked and its
+identification stays a reading. The gate passes: 8 declared dependencies, all VERIFIED. 0 of 19.

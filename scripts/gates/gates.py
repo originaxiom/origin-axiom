@@ -1587,7 +1587,7 @@ def gate_member_scope(reader=None):
         return False, "%d NEGATIVE verdict lines say 'the object' for one member's result (baseline %d): " % (len(hits), MEMBER_SCOPE_BASELINE) + "; ".join("%s: %s" % h for h in hits[-5:])
     return True, "ok (%d on the record, baseline %d%s)" % (len(hits), MEMBER_SCOPE_BASELINE, "; lower the baseline" if len(hits) < MEMBER_SCOPE_BASELINE else "")
 
-_SEAT_ID_RE = re.compile(r"^(sm:B\d{4}|xB\d{3}|LP\d{2}|R\d{3}[A-Z]?|memo \d+|B8\d{3})$")
+_SEAT_ID_RE = re.compile(r"^(sm:B\d{4}|sm:W\d{1,3}|xB\d{3}|LP\d{2}|R\d{3}[A-Z]?|memo \d+|B8\d{3})$")   # sm:W<n>: a dossier item (R61-3)
 
 
 def seat_positive_rests(reader=None):
@@ -1605,8 +1605,16 @@ def seat_positive_rests(reader=None):
             if not _SEAT_ID_RE.match(sid):
                 out.append((d.get("id", "?"), sid, False, "not a seat item id"))
                 continue
-            pat = re.compile(r"(?<![A-Za-z0-9:])" + re.escape(sid) + r"(?![0-9])")
-            verified = any(pat.search(l) and "**VERIFIED" in l for l in rows)
+            if sid.startswith("sm:W"):
+                # a dossier item is rowed by its bare name in the item column of an SM-derivation seat row (R61-3, R62-3)
+                w = sid[3:]
+                def _is_row(l, w=w):
+                    cells = [c.strip() for c in l.split("|")]
+                    return len(cells) > 3 and cells[2] == "SM-derivation seat" and re.match(r"^" + re.escape(w) + r"(?![0-9])", cells[3])
+                verified = any(_is_row(l) and "**VERIFIED" in l for l in rows)
+            else:
+                pat = re.compile(r"(?<![A-Za-z0-9:])" + re.escape(sid) + r"(?![0-9])")
+                verified = any(pat.search(l) and "**VERIFIED" in l for l in rows)
             out.append((d.get("id", "?"), sid, verified, "ok" if verified else "no VERIFIED row in docs/HARVEST_LEDGER.md"))
     return out
 

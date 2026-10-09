@@ -1,5 +1,18 @@
 # Changelog
 
+## S103 THE GATE SEES THE DOSSIER (B1624, Review 62's R62-3): seat-positive-verified now checks a main arc resting on the SM seat's dossier items; run on the record it caught B1606 resting on W19, which was unverified; W19's facts verified on main by two routes (M₁,₂ a complex surface; χ(Aut⁺(F₂)) = χ(M₁,₂) = 1/12), so the grade stands with its four dependencies declared
+
+**The repair.** `rests_on_seat` accepts `sm:W<n>`, and the gate requires the SM seat's row for that item to be
+VERIFIED. The registered failing-path test now also fails on three bad cases: an item that is registered only, another
+seat's row with the same name, and a different item sharing a prefix.
+
+**What it found.** Review 61 found that B1606's grade rests on the seat's W19–W22, which the gate could not see. Now
+declared, the gate **failed** on W19: main had built the grade on it without verifying it.
+
+**W19, verified in part on main** (`w19_check.py`, exact). M₁,₂ is a complex surface. χ(Aut⁺(F₂)) = χ(F₂)·χ(SL(2, ℤ)) =
+1/12, and Harer–Zagier's χ(M₁,₂) = 1/12; the two routes agree. Its orbifold-locus sentence stays unchecked and its
+identification stays a reading. The gate passes: 8 declared dependencies, all VERIFIED. 0 of 19.
+
 ## S102 THE SEAL TOOL TELLS A DISCLOSED CHANGE FROM AN UNDISCLOSED ONE (Review 62's R62-4): `seal_check` reports a post-seal change that the arc's pages name, with its sealed run kept or its sealed hash recorded, as disclosed, not a defect; run on Review 61's window it found two of the five changes not yet disclosed on the page (B1490, B1495), now completed
 
 **The repair** (`scripts/review/review_tools.py`). A file changed after its seal counts as disclosed when two things

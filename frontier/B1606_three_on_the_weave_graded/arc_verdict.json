@@ -12,7 +12,12 @@
   "B1496",
   "B1487"
  ],
- "rests_on_seat": [],
+ "rests_on_seat": [
+  "sm:W19",
+  "sm:W20",
+  "sm:W21",
+  "sm:W22"
+ ],
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",

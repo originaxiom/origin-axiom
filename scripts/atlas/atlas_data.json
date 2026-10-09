@@ -11301,6 +11301,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1624": {
+   "slug": "the gate sees the dossier",
+   "motifs": [
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
   "B162": {
    "slug": "kappa sweep",
    "motifs": [

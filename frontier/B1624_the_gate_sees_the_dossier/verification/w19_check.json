@@ -1,0 +1,7 @@
+{
+ "F1_dim_C_M12": 2,
+ "F2_chi_SL2Z": "-1/12",
+ "F3_chi_AutPlus_F2": "1/12",
+ "F4_chi_M12_harer_zagier": "1/12",
+ "F5_agree_and_nonzero": true
+}
