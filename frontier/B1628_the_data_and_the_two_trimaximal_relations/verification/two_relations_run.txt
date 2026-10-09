@@ -1,0 +1,60 @@
+{
+ "sources": {
+  "NuFIT_6.0_graded": "NuFIT 6.0, Esteban et al., arXiv:2410.05380v2 (HTML), Table 1, variant 'IC24 with SK atmospheric data' (B1612's variant); fetched 2026-10-09. Rule (2): nu-fit.org unreachable on 2026-10-09 (expired TLS certificate), so only (1) is graded.",
+  "JUNO_2025_reported_not_graded": "JUNO Collaboration, 'First measurement of reactor neutrino oscillations at JUNO', arXiv:2511.14593 (2025-11-18), abstract: sin^2 theta12 = 0.3092 +/- 0.0087 (normal ordering); rule (3): a single experiment's theta12, reported beside the fit, NOT graded; its 3-sigma range is derived here as best +/- 3 sigma (Gaussian), and theta13 is taken from NuFIT 6.0 (NO)."
+ },
+ "sets": {
+  "NuFIT_6.0_graded": {
+   "NO": {
+    "TM1": {
+     "sin2_theta12_predicted": 0.31823,
+     "theta13_spread": 0.000404,
+     "pull_sigma": 0.852,
+     "inside_3sigma_range": true
+    },
+    "TM2": {
+     "sin2_theta12_predicted": 0.34088,
+     "theta13_spread": 0.000202,
+     "pull_sigma": 2.74,
+     "inside_3sigma_range": true
+    },
+    "TM1_within_2sigma": true,
+    "TM2_beyond_3sigma": false
+   },
+   "IO": {
+    "TM1": {
+     "sin2_theta12_predicted": 0.31812,
+     "theta13_spread": 0.000391,
+     "pull_sigma": 0.843,
+     "inside_3sigma_range": true
+    },
+    "TM2": {
+     "sin2_theta12_predicted": 0.34094,
+     "theta13_spread": 0.000195,
+     "pull_sigma": 2.745,
+     "inside_3sigma_range": true
+    },
+    "TM1_within_2sigma": true,
+    "TM2_beyond_3sigma": false
+   }
+  },
+  "JUNO_2025_reported_not_graded": {
+   "NO": {
+    "TM1": {
+     "sin2_theta12_predicted": 0.31823,
+     "theta13_spread": 0.000404,
+     "pull_sigma": 1.037,
+     "inside_3sigma_range": true
+    },
+    "TM2": {
+     "sin2_theta12_predicted": 0.34088,
+     "theta13_spread": 0.000202,
+     "pull_sigma": 3.641,
+     "inside_3sigma_range": false
+    },
+    "TM1_within_2sigma": true,
+    "TM2_beyond_3sigma": true
+   }
+  }
+ }
+}

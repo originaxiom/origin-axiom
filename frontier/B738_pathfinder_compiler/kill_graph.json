@@ -11380,5 +11380,28 @@
    "hypotheses": "given tau = omega; given Lambda"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1628",
+  "claim_killed": "That present primary global data exclude TM2 -- the weave's two-parameter lepton relation under T(x)T in the frame where all of G is flavour -- beyond 3 sigma (the sealed R3, R4).",
+  "kill_form": "Sealed (the B1628 seal commit, before any data read): on NuFIT 6.0 (arXiv:2410.05380, SK-atm variant) TM2's sin^2 t12 = 0.3409 sits 2.74 sigma from the best fit 0.308 and inside the 3-sigma range (0.275-0.345); TM1's 0.3182 sits 0.85 sigma.",
+  "hatch": "a sharper theta12: JUNO's first result (arXiv:2511.14593, sin^2 t12 = 0.3092 +/- 0.0087, reported not graded) already puts TM2 at 3.64 sigma and outside its 3-sigma range; a global fit including it (NuFIT 6.1, unreachable on the day) or JUNO's full data would decide",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-10-09), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the data prefer TM1 (T-bar(x)T, or T(x)T where c is gauge) to TM2 (T(x)T where all of G is flavour) at 2.7 sigma on the graded fit and 3.6 sigma on JUNO alone; the tensor and frame choice (FK11) is therefore close to being constrained by data, not yet at 3 sigma on the global fit.",
+  "faces_consulted": [
+   "B1625",
+   "B1620",
+   "B1613",
+   "B1612"
+  ],
+  "fact_computed": "TM1 and TM2's sin^2 t12 at the measured t13 (0.3182, 0.3409; t13 spreads 4e-4, 2e-4) and their pulls on NuFIT 6.0 (0.85, 2.74 sigma, both orderings) and on JUNO's first result (1.04, 3.64 sigma, reported)",
+  "scope": {
+   "frame": "B1620's frame (all of G flavour), given Lambda for T(x)T",
+   "object": "the TM1 and TM2 sum rules against measured theta12",
+   "reach": "general",
+   "hypotheses": "1D pulls, asymmetric errors, theta13 propagated, correlations neglected; the graded set by the sealed data rule"
+  },
+  "weave_or_thread": "weave"
  }
 ]

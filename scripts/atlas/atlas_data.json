@@ -11354,6 +11354,19 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1628": {
+   "slug": "the data and the two trimaximal relations",
+   "motifs": [
+    "measurement"
+   ],
+   "refs": [
+    "P10"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B162": {
    "slug": "kappa sweep",
    "motifs": [

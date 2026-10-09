@@ -16863,3 +16863,16 @@ data at the cusp. It is recorded as relayed.
 
 **Next (the owner's "go"):** a sealed comparison on primary data of TM1's and TM2's θ₁₂ predictions. The two mass tensors
 allow different trimaximal relations, and B1612's secondary-source check put TM2 at 4.9σ. 0 of 19.
+
+## 2026-10-09 — S107 THE DATA AND THE WEAVE'S TWO TRIMAXIMAL RELATIONS (B1628, NEGATIVE as sealed): TM1 (T̄ ⊗ T) sits 0.85σ and TM2 (T ⊗ T, all of G flavour) 2.74σ from the measured solar angle on NuFIT 6.0 — the data prefer TM1 but the sealed 3σ bar is not met; JUNO's first result, reported beside it, puts TM2 at 3.64σ; P10′ entered; the PRACTICES commit before the seal push disclosed
+
+**B1628 (sealed `c395a2cd5` before any data was read; the owner's "go" to the outline's 2a).** The weave's lepton
+reduction is TM1 under T̄ ⊗ T and TM2 under T ⊗ T in the frame where all of G is flavour, and the two predict different
+θ₁₂. On NuFIT 6.0 (the graded set; nu-fit.org's newer table unreachable), TM1's 0.3182 sits 0.85σ and TM2's 0.3409
+sits 2.74σ, inside the 3σ range: R3 and R4 fail as sealed. JUNO's first measurement (0.3092 ± 0.0087, reported, not
+graded) puts TM2 at 3.64σ, outside its 3σ range. **The data prefer TM1, and the open tensor-and-frame choice (FK11,
+given Λ) is close to a data constraint.** P10′ (TM2) is in the falsifier register, the kill graph has B1628, and a relay
+went to both seats. B1612's secondary-source 4.93σ is not reproduced on primary NuFIT 6.0.
+
+**Disclosed:** B1628's seal push was blocked by the doc-currency gate (PRACTICES lagged 41 arcs against 40). A separate
+commit (`05c848381`) added the window's five practices before the push. 0 of 19.

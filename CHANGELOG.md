@@ -1,5 +1,18 @@
 # Changelog
 
+## S107 THE DATA AND THE WEAVE'S TWO TRIMAXIMAL RELATIONS (B1628, NEGATIVE as sealed): TM1 (T̄ ⊗ T) sits 0.85σ and TM2 (T ⊗ T, all of G flavour) 2.74σ from the measured solar angle on NuFIT 6.0 — the data prefer TM1 but the sealed 3σ bar is not met; JUNO's first result, reported beside it, puts TM2 at 3.64σ; P10′ entered; the PRACTICES commit before the seal push disclosed
+
+**B1628 (sealed `c395a2cd5` before any data was read; the owner's "go" to the outline's 2a).** The weave's lepton
+reduction is TM1 under T̄ ⊗ T and TM2 under T ⊗ T in the frame where all of G is flavour, and the two predict different
+θ₁₂. On NuFIT 6.0 (the graded set; nu-fit.org's newer table unreachable), TM1's 0.3182 sits 0.85σ and TM2's 0.3409
+sits 2.74σ, inside the 3σ range: R3 and R4 fail as sealed. JUNO's first measurement (0.3092 ± 0.0087, reported, not
+graded) puts TM2 at 3.64σ, outside its 3σ range. **The data prefer TM1, and the open tensor-and-frame choice (FK11,
+given Λ) is close to a data constraint.** P10′ (TM2) is in the falsifier register, the kill graph has B1628, and a relay
+went to both seats. B1612's secondary-source 4.93σ is not reproduced on primary NuFIT 6.0.
+
+**Disclosed:** B1628's seal push was blocked by the doc-currency gate (PRACTICES lagged 41 arcs against 40). A separate
+commit (`05c848381`) added the window's five practices before the push. 0 of 19.
+
 ## S106 THE CUSP'S UNIT KEPT OPEN (B1627, GENESIS v1.37): the SM seat's W45 and W46 registered together under FK11 — on the weave's own surface the four-dimensional index is n times the fibre's index, n the cusp's units, the natural condition n = 0 — and the owner's ruling of 2026-10-09 recorded as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt ratchet lowered
 
 **Registered (the SM seat's W46 with W45, its scope sentence verbatim).** Given Λ, on M₁,₂, for every end condition

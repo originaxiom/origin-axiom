@@ -261,3 +261,11 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   **The 13 are unreduced in every frame on record.**
 - **The weave's own surface reads index 0** (the SM seat's W45, given Λ, canonical cusp condition): a chiral three on
   M₁,₂ is exactly one unit of end data at the cusp, which is FK10's question.
+
+## Main's addition: the data and the two trimaximal relations (B1628, NEGATIVE as sealed)
+
+- The weave's lepton reduction is TM1 under T̄ ⊗ T (sin²θ₁₂ ≈ 0.318) and TM2 under T ⊗ T where all of G is flavour
+  (≈ 0.341). On NuFIT 6.0, **TM1 sits 0.85σ and TM2 2.74σ** from the measured θ₁₂, so TM2 is still inside the 3σ range
+  and the sealed 3σ bar is not met.
+- JUNO's first result (reported, not graded) puts TM2 at **3.64σ**. The data prefer TM1, and the open tensor-and-frame
+  choice (FK11, given Λ) is close to a data constraint. P10′ (TM2) is in the falsifier register.

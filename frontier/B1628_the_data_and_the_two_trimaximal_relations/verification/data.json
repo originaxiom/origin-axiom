@@ -1,0 +1,57 @@
+{
+ "note": "Transcribed 2026-10-09 AFTER the seal, by the sealed data rule.",
+ "sets": {
+  "NuFIT_6.0_graded": {
+   "source": "NuFIT 6.0, Esteban et al., arXiv:2410.05380v2 (HTML), Table 1, variant 'IC24 with SK atmospheric data' (B1612's variant); fetched 2026-10-09. Rule (2): nu-fit.org unreachable on 2026-10-09 (expired TLS certificate), so only (1) is graded.",
+   "orderings": {
+    "NO": {
+     "sin2_theta12": {
+      "best": 0.308,
+      "plus": 0.012,
+      "minus": 0.011,
+      "lo3": 0.275,
+      "hi3": 0.345
+     },
+     "sin2_theta13": {
+      "best": 0.02215,
+      "plus": 0.00056,
+      "minus": 0.00058
+     }
+    },
+    "IO": {
+     "sin2_theta12": {
+      "best": 0.308,
+      "plus": 0.012,
+      "minus": 0.011,
+      "lo3": 0.275,
+      "hi3": 0.345
+     },
+     "sin2_theta13": {
+      "best": 0.02231,
+      "plus": 0.00056,
+      "minus": 0.00056
+     }
+    }
+   }
+  },
+  "JUNO_2025_reported_not_graded": {
+   "source": "JUNO Collaboration, 'First measurement of reactor neutrino oscillations at JUNO', arXiv:2511.14593 (2025-11-18), abstract: sin^2 theta12 = 0.3092 +/- 0.0087 (normal ordering); rule (3): a single experiment's theta12, reported beside the fit, NOT graded; its 3-sigma range is derived here as best +/- 3 sigma (Gaussian), and theta13 is taken from NuFIT 6.0 (NO).",
+   "orderings": {
+    "NO": {
+     "sin2_theta12": {
+      "best": 0.3092,
+      "plus": 0.0087,
+      "minus": 0.0087,
+      "lo3": 0.2831,
+      "hi3": 0.3353
+     },
+     "sin2_theta13": {
+      "best": 0.02215,
+      "plus": 0.00056,
+      "minus": 0.00058
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-10-09 from 1353 frontier probes.
+> Last generated: 2026-10-09 from 1354 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1353 frontier probes; status {'open': 72, 'banked': 895, 'dead': 359, 'dormant': 27}
+  corpus: 1354 frontier probes; status {'open': 72, 'banked': 896, 'dead': 359, 'dormant': 27}
   the ONE conserved first integral: kappa (recurs 296x, 21%) -- genuine unity, MUST recur
   top recurring motifs: eisenstein(746), golden(734), firewall(652), figure_eight(595), amphichiral_cp(527), trace_map(492)
   recurrence is: structural-invariant 5322 mentions | conserved-integral 296 | TOOL 492
@@ -37,7 +37,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | torsion | 423 | 31% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | closing | 416 | 30% | question | structural | topology | what closing the open object supplies and costs -- Dehn filling, the seam, the constitutive closure (B286/B287/B294) |
 | z3_generation | 382 | 28% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
-| measurement | 323 | 23% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
+| measurement | 324 | 23% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
 | wrt_quantum | 297 | 21% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | kappa | 296 | 21% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | lorentzian | 235 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
@@ -70,7 +70,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | source_free | 2 | firewall | measurement(1), firewall(1), choice(1), figure_eight(1) |
 | cancellation | 71 | eisenstein | eisenstein(44), golden(43), firewall(35), trace_map(30) |
 | selector | 24 | eisenstein | eisenstein(17), golden(14), figure_eight(13), trace_map(12) |
-| measure | 136 | eisenstein | eisenstein(72), golden(71), firewall(60), figure_eight(58) |
+| measure | 137 | eisenstein | eisenstein(72), golden(71), firewall(60), measurement(58) |
 | units_scale | 118 | firewall | firewall(76), golden(69), eisenstein(63), metallic(56) |
 | gauge_dict | 69 | eisenstein | eisenstein(42), golden(35), firewall(34), amphichiral_cp(33) |
 | particle_dict | 136 | z3_generation | z3_generation(99), eisenstein(88), golden(75), firewall(66) |
@@ -123,7 +123,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 |---|---|
 | source_free | 2/5 |
 | bridge_construction | 11/25 |
-| measure | 136/227 |
+| measure | 137/228 |
 | selector | 24/39 |
 | gauge_dict | 69/111 |
 | spacetime_3p1 | 162/248 |

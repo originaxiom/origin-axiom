@@ -5,7 +5,7 @@
 
 # Arc verdict ledger (generated)
 
-1356 of 1356 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1357 of 1357 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
 ## PROVED (916)
@@ -929,7 +929,7 @@
 | `B1626` | THE RELAY-CLOSURE PASS (R62-5): of main's 65 open relays to the SM seat and the audit lane, 40 closed as answered (each note names where) and 25 kept open with the outstanding ask named -- outbound open rows 72 -> 33; a first attempt used a disposition the ledger's grammar does not parse and was repaired before landing; the audit lane's 22 commits read at relay level (nine relays rowed, pin bbe0efc4); main's S104 misreading corrected -- the lane's dictionary fixes the full symmetric bilinear, not the flavour tensor on T, and main has no derived map from T into its kernel spaces (FK11). 0 of 19. |  | 0 |
 | `B1627` | THE CUSP'S UNIT KEPT OPEN: GENESIS v1.37 registers the SM seat's W45 and W46 together under FK11 -- given Lambda, on M_{1,2}, for every end condition the moves keep, the triplet's four-dimensional index is n times the fibre's index (n the cusp's units; the natural condition gives n = 0), so FK11's earning condition on the weave's surface is FK10's question at the cusp -- and records the owner's ruling of 2026-10-09 as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt arc baseline lowered 85 -> 83. 0 of 19. |  | 0 |
 
-## NEGATIVE (338)
+## NEGATIVE (339)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1271,6 +1271,7 @@
 | `B1615` | THE COUPLINGS THE WEAVE ALLOWS (sealed c5d30c59a), NEGATIVE as sealed: the weave's group leaves the masses free (three at TM1's charged-lepton symmetry RL), admits no invariant bilinear or trilinear of the matter alone, gives degenerate masses with a singlet Higgs, and with vacua along its own residual subgroups gives rigid spectra (0, 1, 1) or (1/2, 1/2, 1) or one family obeying the exact sum rule m1 + m2 = m3 (post-seal: m1/m3 in [0, 1/2], m2/m3 in [1/2, 1]); the sealed bound 'no ratio below 0.1' is refuted by that family, while the charged leptons' hierarchy (m_mu/m_tau = 0.059) stays out of reach (closest a factor ~17). The masses are not in the weave's group. Lead: the sum rule for neutrinos (Majorana analysis owed). 0 of 19. SCOPE (S97 addendum): the residual-vacuum cells tested four chosen elements (RL, L, R, RRL), not every subgroup; the weave-level content is the Schur part; the full classification is B1620. |  | 1 |
 | `B1616` | THE NEUTRINO MASSES ON THE WEAVE (sealed 08b7f328f), NEGATIVE as sealed: a Majorana mass for the weave's triplet lives in Sym^2 T = 1 + 2 + 3 (no invariant); along RRL, TM1's neutrino-side symmetry, no irreducible has a fixed vacuum; along RL, L, R the spectra are rigid with exact degeneracies ((1,1,1), (1/2,1/2,1), (0,1,1)), each excluded by the two measured, non-zero splittings -- the residual-vacuum reading of the neutrino masses dies on oscillation data; the solver's Sigma m (0.115 / 0.100 eV) imposed the sum rule alone and is not a prediction; the cosmological comparison void. With B1611, B1612, B1615 the weave's group fixes no flavour value. GENESIS v1.33 also records the owner's four rulings of 2026-10-08 as relayed. 0 of 19. SCOPE (S97 addendum): the residual-vacuum cells tested four chosen elements (RL, L, R, RRL), not every subgroup; the weave-level content is the Schur part; the full classification is B1620. |  | 1 |
 | `B1617` | THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19. |  | 1 |
+| `B1628` | THE DATA AND THE WEAVE'S TWO TRIMAXIMAL RELATIONS (sealed c395a2cd5; NEGATIVE as sealed): TM1 (T-bar(x)T) predicts sin^2 t12 = 0.3182, 0.85 sigma from NuFIT 6.0; TM2 (T(x)T where all of G is flavour) predicts 0.3409, 2.74 sigma and inside the 3-sigma range -- the sealed bar (beyond 3 sigma) not met; JUNO's first result (0.3092 +/- 0.0087, reported not graded) puts TM2 at 3.64 sigma, outside its 3-sigma range. The data prefer TM1, so the open tensor-and-frame choice (FK11, given Lambda) is close to a data constraint; P10' entered. 0 of 19. |  | 1 |
 
 ## OPEN (91)
 

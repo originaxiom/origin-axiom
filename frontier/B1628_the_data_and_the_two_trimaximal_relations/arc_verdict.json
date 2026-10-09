@@ -1,0 +1,25 @@
+{
+ "id": "B1628",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1625",
+  "B1620",
+  "B1613",
+  "B1612"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1620's frame (all of the weave's group is flavour); TM2 under T(x)T given Lambda, TM1 under T-bar(x)T",
+  "object": "the TM1 and TM2 sum rules against measured theta12: NuFIT 6.0 graded, JUNO's first result reported",
+  "reach": "general",
+  "hypotheses": "1D pulls with asymmetric errors, theta13 propagated, theta12-theta13 correlation neglected; the graded set fixed by the sealed data rule (NuFIT 6.1 unreachable)"
+ },
+ "claim_one_line": "THE DATA AND THE WEAVE'S TWO TRIMAXIMAL RELATIONS (sealed c395a2cd5; NEGATIVE as sealed): TM1 (T-bar(x)T) predicts sin^2 t12 = 0.3182, 0.85 sigma from NuFIT 6.0; TM2 (T(x)T where all of G is flavour) predicts 0.3409, 2.74 sigma and inside the 3-sigma range -- the sealed bar (beyond 3 sigma) not met; JUNO's first result (0.3092 +/- 0.0087, reported not graded) puts TM2 at 3.64 sigma, outside its 3-sigma range. The data prefer TM1, so the open tensor-and-frame choice (FK11, given Lambda) is close to a data constraint; P10' entered. 0 of 19.",
+ "weave_or_thread": "weave"
+}
