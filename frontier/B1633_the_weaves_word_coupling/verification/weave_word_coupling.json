@@ -1,0 +1,340 @@
+{
+ "G_order": 96,
+ "unitary_defect": 1.7985613534252352e-14,
+ "W1_W2_W4": [
+  {
+   "n": 1,
+   "support_size": 2,
+   "tv_from_uniform_on_support": 0.0,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 2,
+   "support_size": 4,
+   "tv_from_uniform_on_support": 0.0,
+   "trace_Pi": 0.5,
+   "distance_from_scalar": 0.23570226039551584,
+   "fraction_with_zero_modes": 0.5
+  },
+  {
+   "n": 3,
+   "support_size": 8,
+   "tv_from_uniform_on_support": 0.0,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 4,
+   "support_size": 14,
+   "tv_from_uniform_on_support": 0.10714285714285712,
+   "trace_Pi": 0.375,
+   "distance_from_scalar": 0.07795119555779044,
+   "fraction_with_zero_modes": 0.375
+  },
+  {
+   "n": 5,
+   "support_size": 22,
+   "tv_from_uniform_on_support": 0.19886363636363635,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 6,
+   "support_size": 33,
+   "tv_from_uniform_on_support": 0.26420454545454547,
+   "trace_Pi": 0.375,
+   "distance_from_scalar": 0.04419417382415925,
+   "fraction_with_zero_modes": 0.3125
+  },
+  {
+   "n": 7,
+   "support_size": 42,
+   "tv_from_uniform_on_support": 0.2604166666666667,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 8,
+   "support_size": 45,
+   "tv_from_uniform_on_support": 0.23107638888888887,
+   "trace_Pi": 0.640625,
+   "distance_from_scalar": 0.016366933710907017,
+   "fraction_with_zero_modes": 0.40625
+  },
+  {
+   "n": 9,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.20572916666666666,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 10,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.18098958333333331,
+   "trace_Pi": 0.32421875,
+   "distance_from_scalar": 0.010252614419286179,
+   "fraction_with_zero_modes": 0.28515625
+  },
+  {
+   "n": 11,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.13411458333333334,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 12,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.11865234374999999,
+   "trace_Pi": 0.452148438,
+   "distance_from_scalar": 0.005031113774763487,
+   "fraction_with_zero_modes": 0.333984375
+  },
+  {
+   "n": 13,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.09806315104166667,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 14,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.08902994791666666,
+   "trace_Pi": 0.385498047,
+   "distance_from_scalar": 0.003538401725636374,
+   "fraction_with_zero_modes": 0.301757812
+  },
+  {
+   "n": 15,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.0726318359375,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 16,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.066741943359375,
+   "trace_Pi": 0.459655762,
+   "distance_from_scalar": 0.0015320884664510879,
+   "fraction_with_zero_modes": 0.328125
+  },
+  {
+   "n": 17,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.05248006184895833,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 18,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.05005645751953125,
+   "trace_Pi": 0.388046265,
+   "distance_from_scalar": 0.0015639741883871866,
+   "fraction_with_zero_modes": 0.303024292
+  },
+  {
+   "n": 19,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.038988749186197914,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 20,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.03754234313964844,
+   "trace_Pi": 0.433498383,
+   "distance_from_scalar": 0.0004936392435639146,
+   "fraction_with_zero_modes": 0.319267273
+  },
+  {
+   "n": 21,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.029082298278808594,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 22,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.028156757354736328,
+   "trace_Pi": 0.404337883,
+   "distance_from_scalar": 0.00046442018983156204,
+   "fraction_with_zero_modes": 0.307794571
+  },
+  {
+   "n": 23,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.021558125813802086,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 24,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.021117568016052246,
+   "trace_Pi": 0.427881956,
+   "distance_from_scalar": 0.00017789533886439205,
+   "fraction_with_zero_modes": 0.316717148
+  },
+  {
+   "n": 25,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.016127705574035645,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 26,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.015838176012039185,
+   "trace_Pi": 0.408221662,
+   "distance_from_scalar": 0.00012687658799333167,
+   "fraction_with_zero_modes": 0.309419215
+  },
+  {
+   "n": 27,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.012003287672996521,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 28,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.011878632009029388,
+   "trace_Pi": 0.422496185,
+   "distance_from_scalar": 5.1346335260931145e-05,
+   "fraction_with_zero_modes": 0.314723462
+  },
+  {
+   "n": 29,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.009023156017065048,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 30,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.008908974006772041,
+   "trace_Pi": 0.412417393,
+   "distance_from_scalar": 4.248556413058921e-05,
+   "fraction_with_zero_modes": 0.310889184
+  },
+  {
+   "n": 31,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.006717365235090256,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 32,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.006681730505079031,
+   "trace_Pi": 0.420035581,
+   "distance_from_scalar": 1.759722071159364e-05,
+   "fraction_with_zero_modes": 0.313763261
+  },
+  {
+   "n": 33,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.005047126207500696,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 34,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.005011297878809273,
+   "trace_Pi": 0.414098544,
+   "distance_from_scalar": 1.382453049031382e-05,
+   "fraction_with_zero_modes": 0.311547905
+  },
+  {
+   "n": 35,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.0037681622779928148,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 36,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.003758473409106955,
+   "trace_Pi": 0.418546094,
+   "distance_from_scalar": 6.9786108169406596e-06,
+   "fraction_with_zero_modes": 0.313205443
+  },
+  {
+   "n": 37,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.002831403849995695,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 38,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.002818855056830216,
+   "trace_Pi": 0.41527891,
+   "distance_from_scalar": 3.939330303892014e-06,
+   "fraction_with_zero_modes": 0.311977533
+  },
+  {
+   "n": 39,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.002117128239963982,
+   "trace_Pi": 0.0,
+   "distance_from_scalar": 0.0,
+   "fraction_with_zero_modes": 0.0
+  },
+  {
+   "n": 40,
+   "support_size": 48,
+   "tv_from_uniform_on_support": 0.002114141292622662,
+   "trace_Pi": 0.417722361,
+   "distance_from_scalar": 2.3885418087483465e-06,
+   "fraction_with_zero_modes": 0.312896373
+  }
+ ],
+ "W3_limit_uniform_on_each_coset": {
+  "odd": {
+   "support_size": 48,
+   "trace": 0.0,
+   "distance_from_scalar": 0.0,
+   "commutes_with_all_of_G": true
+  },
+  "even": {
+   "support_size": 48,
+   "trace": 0.416666667,
+   "distance_from_scalar": 1.2319816409097166e-16,
+   "commutes_with_all_of_G": true
+  }
+ }
+}

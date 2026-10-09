@@ -16934,3 +16934,15 @@ verify it.
 Many of the window's scripts take per-member arguments or need the full repository, so the sweep reports harness
 failures there, not instrument failures. B1490's banked level files carry a hand-added "note" key that the scripts do not
 write; the values are identical. A full reproduction needs each script's recorded arguments. 0 of 19.
+
+## 2026-10-09 — S111 THE WEAVE'S WORD COUPLING (B1633, PROVED): a thread's own H¹ reads the rule's word and breaks the parity grading, but averaged over all threads with the weave's uniform measure it is a scalar on the three generations up to corrections exponentially small in length — the weave restores the full symmetry; every datum the principle forces has now been read for the flavour values and none fixes one
+
+**B1633 (sealed; the outline's 2c).** Exact counts over the weave's group (order 96) give these results:
+- the lifts of length-n words fill one coset of an index-2 subgroup and equidistribute geometrically;
+- the averaged zero-mode projector's distance from a scalar falls from 0.236 at n = 2 to 3.9 × 10⁻⁶ at n = 38;
+- both cosets' limits commute with all of G;
+- odd lengths carry no zero modes (the seat's W42), even lengths a mean of 5/12, and the zero-mode fraction is 5/16.
+
+**What it says.** The word reaches the masses and the mixing only through a choice of thread, a selection. With B1620,
+B1621, B1629 and B1630, every datum the principle forces has been read for the flavour values: τ alone, the clock, the
+tick, the cusp, the tick's point and the word. None fixes one. The values need a selection or a dynamics. 0 of 19.

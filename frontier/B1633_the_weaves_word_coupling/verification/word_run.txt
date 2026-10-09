@@ -1,0 +1,33 @@
+{
+ "G": 96,
+ "W3": {
+  "odd": {
+   "support_size": 48,
+   "trace": 0.0,
+   "distance_from_scalar": 0.0,
+   "commutes_with_all_of_G": true
+  },
+  "even": {
+   "support_size": 48,
+   "trace": 0.416666667,
+   "distance_from_scalar": 1.2319816409097166e-16,
+   "commutes_with_all_of_G": true
+  }
+ },
+ "n=12": {
+  "n": 12,
+  "support_size": 48,
+  "tv_from_uniform_on_support": 0.11865234374999999,
+  "trace_Pi": 0.452148438,
+  "distance_from_scalar": 0.005031113774763487,
+  "fraction_with_zero_modes": 0.333984375
+ },
+ "n=40": {
+  "n": 40,
+  "support_size": 48,
+  "tv_from_uniform_on_support": 0.002114141292622662,
+  "trace_Pi": 0.417722361,
+  "distance_from_scalar": 2.3885418087483465e-06,
+  "fraction_with_zero_modes": 0.312896373
+ }
+}

@@ -11458,6 +11458,18 @@
    "status": "dormant",
    "domain": "quantum"
   },
+  "B1633": {
+   "slug": "the weaves word coupling",
+   "motifs": [
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B163": {
    "slug": "kappa sweep resolved",
    "motifs": [

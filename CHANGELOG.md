@@ -1,5 +1,17 @@
 # Changelog
 
+## S111 THE WEAVE'S WORD COUPLING (B1633, PROVED): a thread's own H¹ reads the rule's word and breaks the parity grading, but averaged over all threads with the weave's uniform measure it is a scalar on the three generations up to corrections exponentially small in length — the weave restores the full symmetry; every datum the principle forces has now been read for the flavour values and none fixes one
+
+**B1633 (sealed; the outline's 2c).** Exact counts over the weave's group (order 96) give these results:
+- the lifts of length-n words fill one coset of an index-2 subgroup and equidistribute geometrically;
+- the averaged zero-mode projector's distance from a scalar falls from 0.236 at n = 2 to 3.9 × 10⁻⁶ at n = 38;
+- both cosets' limits commute with all of G;
+- odd lengths carry no zero modes (the seat's W42), even lengths a mean of 5/12, and the zero-mode fraction is 5/16.
+
+**What it says.** The word reaches the masses and the mixing only through a choice of thread, a selection. With B1620,
+B1621, B1629 and B1630, every datum the principle forces has been read for the flavour values: τ alone, the clock, the
+tick, the cusp, the tick's point and the word. None fixes one. The values need a selection or a dynamics. 0 of 19.
+
 ## S110 THE SM SEAT'S W45 ON MAIN (B1632, NEGATIVE as sealed; GENESIS v1.40): the weave's lifts form only a projective representation of the metaplectic group, so χ_{3/2} is 0 or 1 depending on the multiplier; for the seat's multiplier (W41) main reproduces 0 — the cusp unit's payoff (±3) rests on W41, now the load-bearing input; the older-window audit's first pass
 
 **B1632 (sealed; the owner's tagging of the unit made W45 load-bearing).** Main's own computation of W45 calibrates on

@@ -1,1 +1,3 @@
+# sealed at a15da3840: ddcc3b8f748bc4f2f1df14c8c971fe8a082ad140481dd927fc52ba6d0421cfc6  verification/weave_word_coupling.py (unchanged after the seal)
 ddcc3b8f748bc4f2f1df14c8c971fe8a082ad140481dd927fc52ba6d0421cfc6  verification/weave_word_coupling.py
+59672af9ec50c6e8297b68b73bd504e75666af365d29c97ae4dc3fa68f6a880b  verification/weave_word_coupling.json

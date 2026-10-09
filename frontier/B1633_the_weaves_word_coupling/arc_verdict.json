@@ -1,0 +1,25 @@
+{
+ "id": "B1633",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1620",
+  "B1621",
+  "B1629",
+  "B1630"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's uniform measure on words in L, R; the weave's group G on T",
+  "object": "the averaged thread zero-mode projector (a thread's own H^1 on T)",
+  "reach": "general",
+  "hypotheses": "all words counted (not only primitive); a G-invariant inner product on T"
+ },
+ "claim_one_line": "THE WEAVE'S WORD COUPLING (sealed; PROVED): a thread's own H^1 reads the rule's word and breaks the parity grading (the SM seat's W42), but averaged over all threads of length n with the weave's uniform measure the coupling is a scalar on T up to corrections exponentially small in n (0.236 at n = 2, 3.9e-6 at n = 38), the lifts equidistributing on the two cosets of an index-2 subgroup; odd lengths carry no zero modes, even lengths a mean of 5/12; the zero-mode fraction 5/16. The weave restores the full symmetry: the word reaches masses and mixing only through a choice of thread (a selection). 0 of 19.",
+ "weave_or_thread": "weave"
+}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1361** |
-| words of findings prose | **1,063,235** |
-| test lock files referenced | **798** |
-| arcs carrying an authored verdict | **1361** (100.0 %) |
+| research arcs with findings | **1362** |
+| words of findings prose | **1,063,774** |
+| test lock files referenced | **799** |
+| arcs carrying an authored verdict | **1362** (100.0 %) |
 | recorded closures | **817** (650 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 918 |
+| PROVED | 919 |
 | NEGATIVE | 341 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1631`** (721 words, 0 locks)  
-THE CUSP'S UNIT TAGGED, AND THE NEGATIVES AUDITED: the owner's decision of 2026-10-09 makes the unit of end data at the weave's cusp a tagged working postulate (GENESIS v1.39; with W46 the weave's surface then gives a four-dimensional index +-3, given Lambda and the unit); and at the owner's instruction the window B1609-B1630 was audited -- 27 of 27 instruments reproduce bit for bit in an isolated copy, B1618, B1621, B1628, B1629 and B1630 re-derived independently from their statements (B1615-B1617 and B1620 already by the SM seat), every data input matched at its source (NuFIT 6.0, JUNO, PDG 2025), every seal before its results: no negative was an artifact; three statements sharpened (L^k R's exact height, the free mixing inside a degenerate pair, iota = -i). 0 of 19.  
-`B1631_the_cusp_unit_tagged_and_the_negatives_audited/FINDINGS.md`
+**PROVED — `B1633`** (539 words, 1 locks)  
+THE WEAVE'S WORD COUPLING (sealed; PROVED): a thread's own H^1 reads the rule's word and breaks the parity grading (the SM seat's W42), but averaged over all threads of length n with the weave's uniform measure the coupling is a scalar on T up to corrections exponentially small in n (0.236 at n = 2, 3.9e-6 at n = 38), the lifts equidistributing on the two cosets of an index-2 subgroup; odd lengths carry no zero modes, even lengths a mean of 5/12; the zero-mode fraction 5/16. The weave restores the full symmetry: the word reaches masses and mixing only through a choice of thread (a selection). 0 of 19.  
+`B1633_the_weaves_word_coupling/FINDINGS.md`
 
 **NEGATIVE — `B1632`** (626 words, 1 locks)  
 THE SM SEAT'S W45 ON MAIN (sealed; NEGATIVE as sealed): the formula calibrates (trivial, eta), but the weave's lifts on T form only a projective representation of Mp2(Z) -- no identification satisfies the relations exactly -- and among the genuine rescalings chi_{3/2} is 0 for five and 1 for one; for the seat's rho_T (T's exponents 1/8, 3/8, 7/8, the plain topological lift) main reproduces chi_{3/2} = 0. So the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier, now load-bearing and unverified on main -- the next computation. 0 of 19.  

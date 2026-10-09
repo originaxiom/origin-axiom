@@ -296,3 +296,12 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   fixed by them: among the genuine rescalings it is 0 for five and 1 for one.
 - For the seat's ρ_T (T's exponents ⅛, ⅜, ⅞, W41's multiplier) main reproduces **χ_{3/2} = 0**. So the cusp unit's
   payoff, ±3 given Λ and the unit, rests on **W41's multiplier**, which is now the load-bearing input to verify on main.
+
+## Main's addition: the weave's word coupling (B1633, PROVED)
+
+- A thread's own H¹ reads the rule's word and breaks the parity grading (the SM seat's W42). **Averaged over all threads
+  with the weave's uniform measure it is a scalar on the three generations**, up to corrections exponentially small in
+  the thread length (2.4 × 10⁻⁶ at length 40). Odd-length threads carry no zero modes; even ones carry 5/12 on average.
+- So the word reaches masses and mixing only through a choice of thread, a selection. Every datum the principle forces
+  (τ alone, the clock, the tick, the cusp, the tick's point, the word) has now been read for the flavour values, and none
+  fixes one.

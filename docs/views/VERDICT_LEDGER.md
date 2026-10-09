@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1361 of 1361 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1362 of 1362 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (918)
+## PROVED (919)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -930,6 +930,7 @@
 | `B1627` | THE CUSP'S UNIT KEPT OPEN: GENESIS v1.37 registers the SM seat's W45 and W46 together under FK11 -- given Lambda, on M_{1,2}, for every end condition the moves keep, the triplet's four-dimensional index is n times the fibre's index (n the cusp's units; the natural condition gives n = 0), so FK11's earning condition on the weave's surface is FK10's question at the cusp -- and records the owner's ruling of 2026-10-09 as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt arc baseline lowered 85 -> 83. 0 of 19. |  | 0 |
 | `B1630` | THE TICK'S POINT (sealed 87d769c7a): the principle's tick LR has its axis through tau = i, not omega; at i the residual group (order 32 on V) fixes the clock's parity line (-,-) and swaps the two letter lines, so under every tensor and weight every mass spectrum is one value apart and two equal -- never three distinct -- with the single on the clock's line: the same line the rule's word singled out (B1620); the clock's line mixes only with itself (the pair's internal mixing free). A leading-order 1 + 2 shape, no value. 0 of 19. |  | 1 |
 | `B1631` | THE CUSP'S UNIT TAGGED, AND THE NEGATIVES AUDITED: the owner's decision of 2026-10-09 makes the unit of end data at the weave's cusp a tagged working postulate (GENESIS v1.39; with W46 the weave's surface then gives a four-dimensional index +-3, given Lambda and the unit); and at the owner's instruction the window B1609-B1630 was audited -- 27 of 27 instruments reproduce bit for bit in an isolated copy, B1618, B1621, B1628, B1629 and B1630 re-derived independently from their statements (B1615-B1617 and B1620 already by the SM seat), every data input matched at its source (NuFIT 6.0, JUNO, PDG 2025), every seal before its results: no negative was an artifact; three statements sharpened (L^k R's exact height, the free mixing inside a degenerate pair, iota = -i). 0 of 19. |  | 0 |
+| `B1633` | THE WEAVE'S WORD COUPLING (sealed; PROVED): a thread's own H^1 reads the rule's word and breaks the parity grading (the SM seat's W42), but averaged over all threads of length n with the weave's uniform measure the coupling is a scalar on T up to corrections exponentially small in n (0.236 at n = 2, 3.9e-6 at n = 38), the lifts equidistributing on the two cosets of an index-2 subgroup; odd lengths carry no zero modes, even lengths a mean of 5/12; the zero-mode fraction 5/16. The weave restores the full symmetry: the word reaches masses and mixing only through a choice of thread (a selection). 0 of 19. |  | 1 |
 
 ## NEGATIVE (341)
 
