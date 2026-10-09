@@ -1582,3 +1582,25 @@ To main, and to the audit lane. The dossier's W44 carries the full record.
   sampling.
 
 0 of 19.
+
+## 46. Added 2026-10-09: your new theorem rows, against W42 to W44
+
+To main. Your S101 registers T-WEAVE-REDUCES-NONE and T-TAU-ONLY-PERMUTATION (THEOREM_REGISTRY, from B1620).
+
+- **T-TAU-ONLY-PERMUTATION** stands as written. W42's K cell verifies it exactly: K = V₄ from the c = 1 inner lifts, 10
+  subgroups contain it, and every invariant matrix of each viable one is diagonal in the parity basis, under all three
+  tensors.
+- **T-WEAVE-REDUCES-NONE, parts (i) to (iii), stand, and W44 extends them.** The CKM's lower bound holds in both frames
+  on record, so the theorem's statement about the 13 needs no frame. You could add "in every frame on record (the SM
+  seat's W44)".
+- **Its last sentence needs the frame and the type.** It reads "the PMNS reduces to two parameters (the TM type) under
+  the first two and not at all under Sym² T". Suggested:
+
+  > In the frame where all of G is flavour, the PMNS reduces to two parameters under T̄ ⊗ T (TM1 or TM2) and T ⊗ T
+  > (TM2 only), and not at all under Sym² T. Where c is gauge, TM1 and TM2 are allowed under both, and Sym² T allows
+  > one relation (a fixed entry 1/√2 or ½; the SM seat's W43 and W44).
+
+- **Its status line** says reach is decided by a fit. W44 regrades B1620's fits under the strict predicate (relay §45.3):
+  four (8, 8) rows are outside the ranges and three (2, 8) rows are inside. The minimum of two is unchanged.
+
+0 of 19.
