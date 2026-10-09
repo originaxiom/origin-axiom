@@ -18252,3 +18252,17 @@ The full SM/TOE goal is active and unachieved; no qualia is derived.
 Regression exit 0, 50 passed in 545.72s; captured wall time 546.914650s.
 First failure and verifier repair remain preserved; conditional cone
 comparison is not a physical spectrum or nonauthor theorem acceptance.
+
+## 2026-10-09 cross-seat audit standing instruction
+
+Recorded the owner's renewed two-sided audit requirement in PRACTICES
+and the physical-bridge execution roadmap. All advertised heads fetched;
+read B1629's findings, preregistration, both producers, corrected output
+and test; read W47's rule, top-level producer, added test and new relay.
+Exact pins, evidence labels and discriminating questions are in
+reports/physical_bridge_2026_09_05/CROSS_SEAT_AUDIT_2026_10_09.md.
+This is READ intake and planning, not reproduction or a mathematical
+refutation. No new scientific producer run, route closure, physical
+achievement or main-bank acceptance. The sender-owned audit relay is
+OPEN. B1629 first, W47 queued; silver's real-superfield response remains
+the construction target. Full parameter-free SM/TOE active and unachieved.

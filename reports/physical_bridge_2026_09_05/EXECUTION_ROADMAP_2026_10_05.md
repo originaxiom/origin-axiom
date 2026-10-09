@@ -4,6 +4,15 @@ Owner-approved October 5, 2026. This implements the approved plan; it does
 not replace the parameter-free Standard Model/TOE mission. Work stays on
 audit/physical-bridge-2026-09-05. No new shared B/I/H identifier is allocated.
 
+October 9 standing audit overlay: CROSS_SEAT_AUDIT_2026_10_09.md records
+the owner's renewed instruction to scrutinize cross-seat negatives,
+premises, code, computation custody and conclusion scope before use.
+Fetched main87d769c7a and SM1add8f87c. B1629's finite run statistic and
+dynamical inference are the first bounded audit; W47 is queued. These
+are READ intake, not reproduced conclusions. W48/B1630 are preregistrations
+at those pins. The same-real-action silver boundary target stays active;
+no unearned cross-operator negative or positive is imported into it.
+
 1. Apex scope: reproduce the cubic identity, test actual compact lifts of
    the existing Y3 backgrounds, and examine path-dependent mass selection.
    Completed at research-checkpoint grade: apex_scope_2026_10_05/FINDINGS.md.

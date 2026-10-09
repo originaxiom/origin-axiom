@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-09 cross-seat audit standing instruction
+
+Recorded the owner's renewed two-sided audit requirement in PRACTICES
+and the physical-bridge execution roadmap. Fetched all advertised heads;
+read B1629's producers/output/test and W47's rule/top-level producer/test.
+Source-read concerns and the bounded next audit are recorded in
+reports/physical_bridge_2026_09_05/CROSS_SEAT_AUDIT_2026_10_09.md.
+No scientific rerun, new exclusion, physical result or main-bank acceptance
+is claimed. B1629's finite-statistic/inference audit comes first; W47 is
+queued, W48/B1630 remain preregistrations at the pinned tips. Silver's
+same-real-action boundary target and the full SM/TOE goal are unchanged.
+
 ## 2026-10-09 complementary silver boundary
 
 October 9 complementary silver boundary checkpoint: 50 native and

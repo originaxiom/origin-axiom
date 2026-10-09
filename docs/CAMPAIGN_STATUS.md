@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October 9 cross-seat audit intake: owner reaffirmed scrutiny of negatives,
+premises, writing, computation custody and scripts. Source-reading only
+at main87d769c7a and SM1add8f87c; no new science run or exclusion. First
+bounded audit: B1629 finite statistic and dynamical inference, then W47
+classification/rank checks. Standing procedure and source pins:
+reports/physical_bridge_2026_09_05/CROSS_SEAT_AUDIT_2026_10_09.md.
+The silver real-superfield boundary construction remains the physical
+target; W48/B1630 are not results at these pins. Full SM/TOE unachieved.
+
 October 9 complementary silver boundary checkpoint: 50 native and
 37 separate-reference predicates, 9 focused and 50 five-packet regression
 tests pass after the preserved determinant-representation verifier repair.

@@ -75,6 +75,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | A **complete** suite run is required before claiming green — a killed run is a *different, weaker* check | **MANUAL** | see §Judgement |
 | Superseded review blocks carry no open action items | **GATED** | `review-actions` |
 | Gates **fail closed** — a gate whose subject is missing must FAIL, never go quiet | **GATED** | verified by deletion in a fresh clone; see §Restart resistance |
+| Cross-seat claims, especially route-closing negatives, are audited before load-bearing use; positives and this seat's own results face the same standard | **MANUAL** | Owner reaffirmation 2026-10-09: pin sources, inspect and replay producers, use discriminating controls, audit scope and preserve surviving positives. Packet-boundary intake and evidence labels in reports/physical_bridge_2026_09_05/CROSS_SEAT_AUDIT_2026_10_09.md; no claim of automatic correctness or completed review. |
 
 ### Cadence
 
