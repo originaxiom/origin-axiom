@@ -3008,6 +3008,16 @@ canonical reading the weave's own surface does not earn GENESIS FK11, which stay
   least ⅛, η³'s. A zero mode divided by η³ is a holomorphic form of weight at most 0 with no invariant vector, so it
   vanishes.
 
+**A reading (post hoc, by hand, from W42's stored census): the cusp and the threads that approach it.**
+- The cusp's monodromy is the move L itself. L has order 8 on T and on the six: L⁴ = −I on both (c(L)⁴ = −1 with a
+  quarter-turn; the 2O lift of a quarter-turn has order 8).
+- So the threads that approach the cusp, those with long runs of L, see their own zero modes repeat with period 8 in
+  the run's length. W42's census shows the step: LR has a body-diagonal zero mode for +g and none for −g, and L⁵R the
+  reverse, since L⁴ = −I exchanges the two extensions.
+- So nothing along the runs accumulates toward a unit at the cusp. The weave's own content supplies no unit there,
+  consistent with W45's natural conditions, which all give n = 0. These are thread results, read as a family; the
+  claim about the cusp is a reading.
+
 **Status.** COMPUTED (the rule first; one run; every cell as predicted). It closes the end conditions the weave keeps on
 its own surface. GENESIS FK11 stays open, and its question on this surface is GENESIS FK10's at the cusp. 0 of 19.
 
