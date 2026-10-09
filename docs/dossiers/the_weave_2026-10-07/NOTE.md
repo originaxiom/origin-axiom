@@ -2919,7 +2919,10 @@ confirmed and extended to both frames, and two of its fit grades are corrected. 
   gives χ_{k+12} = χ_k + d. So n units of end data on every component give 3n at the weight the geometry forces.
 - **The canonical condition is n = 0.**
   - T's exponents all lie strictly between 0 and 1, so the lower and upper canonical extensions agree.
-  - A unit of end data is therefore a choice, unless the principle forces one.
+  - The other natural conditions agree with it (by hand). T's cusp monodromy has no eigenvalue 1, so the L² condition
+    for the complete metric and compact support give the same spaces as the canonical extension.
+  - A unit of end data is therefore none of these conditions. It is a pole at the cusp, a source placed there, and a
+    choice unless the principle forces one.
   - The owner's ruling 3 keeps W28's naturality for flat counts only. This index, of the non-flat bundle λ^{3/2} ⊗ 𝒯,
     is not a flat count.
 - **So on this object a chiral three is exactly one unit of end data at the cusp, and its three is the triplet's

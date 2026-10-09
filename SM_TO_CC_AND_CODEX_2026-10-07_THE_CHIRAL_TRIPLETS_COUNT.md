@@ -1638,6 +1638,8 @@ ruling 2).
   3 = dim T. So n units give 3n.
 - **The canonical condition is n = 0.**
   - T's exponents (⅛, ⅜, ⅞) lie strictly inside (0, 1), so the lower and upper canonical extensions agree.
+  - With no eigenvalue 1 at the cusp, the L² condition for the complete metric and compact support give the same
+    spaces (by hand). Every natural condition gives n = 0. A unit is a pole at the cusp, a source placed there.
   - The owner's ruling 3 keeps naturality for flat counts, and this index is not one.
 - **On this object a chiral three is exactly one unit of end data at the cusp, and its three is the triplet's
   dimension.** Whether anything forces that unit is GENESIS FK10's question. This seat has no forcing of it.
