@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1355** |
-| words of findings prose | **1,059,039** |
+| research arcs with findings | **1356** |
+| words of findings prose | **1,059,348** |
 | test lock files referenced | **794** |
-| arcs carrying an authored verdict | **1355** (100.0 %) |
+| arcs carrying an authored verdict | **1356** (100.0 %) |
 | recorded closures | **814** (647 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 915 |
+| PROVED | 916 |
 | NEGATIVE | 338 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1626`** (612 words, 0 locks)  
-THE RELAY-CLOSURE PASS (R62-5): of main's 65 open relays to the SM seat and the audit lane, 40 closed as answered (each note names where) and 25 kept open with the outstanding ask named -- outbound open rows 72 -> 33; a first attempt used a disposition the ledger's grammar does not parse and was repaired before landing; the audit lane's 22 commits read at relay level (nine relays rowed, pin bbe0efc4); main's S104 misreading corrected -- the lane's dictionary fixes the full symmetric bilinear, not the flavour tensor on T, and main has no derived map from T into its kernel spaces (FK11). 0 of 19.  
-`B1626_the_relay_closure_pass/FINDINGS.md`
+**PROVED — `B1627`** (309 words, 0 locks)  
+THE CUSP'S UNIT KEPT OPEN: GENESIS v1.37 registers the SM seat's W45 and W46 together under FK11 -- given Lambda, on M_{1,2}, for every end condition the moves keep, the triplet's four-dimensional index is n times the fibre's index (n the cusp's units; the natural condition gives n = 0), so FK11's earning condition on the weave's surface is FK10's question at the cusp -- and records the owner's ruling of 2026-10-09 as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt arc baseline lowered 85 -> 83. 0 of 19.  
+`B1627_the_cusp_unit_kept_open/FINDINGS.md`
 
 **NEGATIVE — `B1617`** (642 words, 1 locks)  
 THE WEAVE AT TAU = OMEGA (sealed da3027e03), NEGATIVE as sealed: given the owner's tagged postulate tau = omega, the residual symmetry -- U (fixing omega), the sign, and the inner automorphisms, which act on the matter as the parity signs at every tau -- is a group of order 48 under which the triplet T stays irreducible (A4-type), so at omega an ordinary vacuum gives three equal Dirac masses and no Majorana mass; near omega the degeneracy splits by powers of epsilon (U's charges on T 1/4, 7/12, 11/12 of a turn): quasi-degenerate, not the observed hierarchy. The sealed prediction that T splits into three lines at omega fails. Owed: weighted modular-form Yukawas (eigenspaces of U at the automorphy phases). GENESIS v1.34 records the owner's ruling. 0 of 19.  

@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1355 of 1355 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1356 of 1356 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (915)
+## PROVED (916)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -927,6 +927,7 @@
 | `B1624` | THE GATE SEES THE DOSSIER (R62-3): seat-positive-verified now checks sm:W<n> dossier items against the SM seat's VERIFIED row (failing-path cases: registered only, another seat's row, a prefix-sharing item); run on the record it failed on B1606 resting on the unverified W19 -- the gap Review 61 predicted; W19's facts verified on main by two routes (M_{1,2} a complex surface; chi(Aut+(F_2)) = chi(F_2) chi(SL(2,Z)) = 1/12 = Harer-Zagier's chi(M_{1,2})); the gate passes with 8 declared dependencies all VERIFIED. 0 of 19. |  | 1 |
 | `B1625` | THE SM SEAT'S CORRECTIONS TO B1620 TAKEN: TM1 is allowed under T-bar(x)T only -- under T(x)T the two-parameter family is TM2 (B1620's stored T(x)T fits fix the column (1/3,1/3,1/3); W43: 0 of 576 pairs carry a TM1 column) -- so P10 applies under T-bar(x)T; the frame is 'all of G flavour', not W24's; the PMNS fit predicate made strict (four (8,8) rows outside, the minimum still 2); the 13 unreduced in every frame on record (W44); W45 registered under FK11 (index 0 on the weave's own surface in the canonical reading; a chiral three there is one unit of end data at the cusp). GENESIS v1.36. 0 of 19. |  | 0 |
 | `B1626` | THE RELAY-CLOSURE PASS (R62-5): of main's 65 open relays to the SM seat and the audit lane, 40 closed as answered (each note names where) and 25 kept open with the outstanding ask named -- outbound open rows 72 -> 33; a first attempt used a disposition the ledger's grammar does not parse and was repaired before landing; the audit lane's 22 commits read at relay level (nine relays rowed, pin bbe0efc4); main's S104 misreading corrected -- the lane's dictionary fixes the full symmetric bilinear, not the flavour tensor on T, and main has no derived map from T into its kernel spaces (FK11). 0 of 19. |  | 0 |
+| `B1627` | THE CUSP'S UNIT KEPT OPEN: GENESIS v1.37 registers the SM seat's W45 and W46 together under FK11 -- given Lambda, on M_{1,2}, for every end condition the moves keep, the triplet's four-dimensional index is n times the fibre's index (n the cusp's units; the natural condition gives n = 0), so FK11's earning condition on the weave's surface is FK10's question at the cusp -- and records the owner's ruling of 2026-10-09 as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt arc baseline lowered 85 -> 83. 0 of 19. |  | 0 |
 
 ## NEGATIVE (338)
 

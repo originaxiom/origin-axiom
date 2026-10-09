@@ -1,0 +1,22 @@
+{
+ "id": "B1627",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1625"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a registration arc)",
+  "object": "GENESIS FK10 and FK11; the SM seat's W45 and W46; the owner's ruling of 2026-10-09 as relayed; the lead-debt ratchet",
+  "reach": "general",
+  "hypotheses": "the seat's W45 and W46 registered, not re-run on main; the ruling recorded as the seat relays it"
+ },
+ "claim_one_line": "THE CUSP'S UNIT KEPT OPEN: GENESIS v1.37 registers the SM seat's W45 and W46 together under FK11 -- given Lambda, on M_{1,2}, for every end condition the moves keep, the triplet's four-dimensional index is n times the fibre's index (n the cusp's units; the natural condition gives n = 0), so FK11's earning condition on the weave's surface is FK10's question at the cusp -- and records the owner's ruling of 2026-10-09 as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt arc baseline lowered 85 -> 83. 0 of 19.",
+ "weave_or_thread": "weave"
+}

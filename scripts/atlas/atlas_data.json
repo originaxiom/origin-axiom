@@ -11343,6 +11343,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1627": {
+   "slug": "the cusp unit kept open",
+   "motifs": [
+    "trace_map"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B162": {
    "slug": "kappa sweep",
    "motifs": [

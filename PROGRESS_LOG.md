@@ -16848,3 +16848,18 @@ the opposite: the full bilinear is symmetric, the flavour factor need not be. Ma
 lane's kernel spaces; that is FK11's open dictionary.
 
 Review 62's main-owned items are now all paid (R62-2 to R62-7). R62-1, the Codeberg quota, is the owner's. 0 of 19.
+
+## 2026-10-09 — S106 THE CUSP'S UNIT KEPT OPEN (B1627, GENESIS v1.37): the SM seat's W45 and W46 registered together under FK11 — on the weave's own surface the four-dimensional index is n times the fibre's index, n the cusp's units, the natural condition n = 0 — and the owner's ruling of 2026-10-09 recorded as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt ratchet lowered
+
+**Registered (the SM seat's W46 with W45, its scope sentence verbatim).** Given Λ, on M₁,₂, for every end condition
+the moves keep, the triplet's four-dimensional index is n times the fibre's index, where n is the cusp's units; the
+natural cusp condition gives n = 0. So on the weave's own surface, FK11's earning condition is FK10's question at the
+cusp.
+
+**The owner's ruling of 2026-10-09 (relayed at the seat's §49):** keep FK10 open, with no postulate for the unit of end
+data at the cusp. It is recorded as relayed.
+
+**Bookkeeping.** Harvest rows 1064–1066, pin sm `013bc436`, and the lead-debt stale-arc baseline lowered 85 → 83.
+
+**Next (the owner's "go"):** a sealed comparison on primary data of TM1's and TM2's θ₁₂ predictions. The two mass tensors
+allow different trimaximal relations, and B1612's secondary-source check put TM2 at 4.9σ. 0 of 19.

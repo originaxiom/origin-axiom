@@ -1,5 +1,20 @@
 # Changelog
 
+## S106 THE CUSP'S UNIT KEPT OPEN (B1627, GENESIS v1.37): the SM seat's W45 and W46 registered together under FK11 — on the weave's own surface the four-dimensional index is n times the fibre's index, n the cusp's units, the natural condition n = 0 — and the owner's ruling of 2026-10-09 recorded as relayed: keep FK10 open, no postulate for the cusp's unit; the lead-debt ratchet lowered
+
+**Registered (the SM seat's W46 with W45, its scope sentence verbatim).** Given Λ, on M₁,₂, for every end condition
+the moves keep, the triplet's four-dimensional index is n times the fibre's index, where n is the cusp's units; the
+natural cusp condition gives n = 0. So on the weave's own surface, FK11's earning condition is FK10's question at the
+cusp.
+
+**The owner's ruling of 2026-10-09 (relayed at the seat's §49):** keep FK10 open, with no postulate for the unit of end
+data at the cusp. It is recorded as relayed.
+
+**Bookkeeping.** Harvest rows 1064–1066, pin sm `013bc436`, and the lead-debt stale-arc baseline lowered 85 → 83.
+
+**Next (the owner's "go"):** a sealed comparison on primary data of TM1's and TM2's θ₁₂ predictions. The two mass tensors
+allow different trimaximal relations, and B1612's secondary-source check put TM2 at 4.9σ. 0 of 19.
+
 ## S105 THE RELAY-CLOSURE PASS (B1626, Review 62's R62-5) AND THE AUDIT LANE'S 22 COMMITS READ: 40 of main's 65 open relays to the seats closed as answered, 25 kept open with their asks named (outbound open 72 → 33); nine audit relays rowed (pin bbe0efc4); S104's misreading of the audit lane's tensor answer corrected — its dictionary fixes the full symmetric bilinear, not the flavour tensor on T, and main has no derived map (FK11)
 
 **The closure pass.** A subagent mapped every open outbound row to the seats' acknowledgements and answers. Main

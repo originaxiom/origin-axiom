@@ -41,7 +41,7 @@ LEADS = ROOT / "docs" / "OPEN_LEADS.md"
 STALE_DAYS = 21
 # the ratchet: frozen 2026-10-01 at the counts the gate found on the day it was written. LOWER them when debt is paid.
 LEAD_STALE_BASELINE = 43
-ARC_STALE_BASELINE = 85
+ARC_STALE_BASELINE = 83                       # lowered 2026-10-09 (S106): 83 stale OPEN arcs, the ratchet holds the gain
 
 ESCALATED_RE = re.compile(r"ESCALATED\(\s*[0-9]{4}-[0-9]{2}-[0-9]{2}")
 BY_DESIGN_RE = re.compile(r"OPEN-BY-DESIGN\(")
