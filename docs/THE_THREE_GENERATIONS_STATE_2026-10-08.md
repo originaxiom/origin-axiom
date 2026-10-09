@@ -21,10 +21,15 @@ computed:
 3. **The end condition (GENESIS FK10): "Flat counts only."** Naturality gives the flat ±3, and the physical end law
    stays open.
 4. **The sign (GENESIS GM5d): "Keep positivity."**
+5. **Added 2026-10-09. The cusp's unit (GENESIS FK10): "Keep FK10 open."** No new postulate is added. On the weave's
+   own surface the four-dimensional count needs one unit of end data at the cusp, which the weave fixes at zero (W45,
+   W46). That count stays unearned.
 
 **What the record can now say.** On the even-tick branch and given Λ, the record derives three chiral, alike,
 anomaly-free Standard Model generations in a complex flavour triplet. The count ±3 is a flat count, and 0 of 19
-parameters are derived.
+parameters are derived. As a four-dimensional index on the weave's own surface the count is n times ±3, where n is the
+cusp's units of end data. The weave fixes n = 0, and the owner's ruling of 2026-10-09 keeps that unit open (GENESIS
+FK10).
 
 ## Derived on the weave, from the principle with no frame
 

@@ -18466,3 +18466,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The puncture's exact sequence was checked:** W45's two representations are the two extreme puncture conditions.
 - **So the record's ±3 becomes four-dimensional only with one unit of end data at the cusp** (GENESIS FK10). Relay §48
   sent.
+
+## 2026-10-09 — the owner's ruling: the cusp's unit kept open
+
+- **After W45 and W46, the owner chose "Keep FK10 open" (GENESIS FK10).** The unit of end data at the weave's cusp,
+  which would make the fibre's ±3 a four-dimensional index, is not postulated. Main is asked whether the principle
+  forces it (relay §48; the ruling in §49).

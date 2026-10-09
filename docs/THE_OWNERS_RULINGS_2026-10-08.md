@@ -90,6 +90,22 @@ modulus τ = ω is a tagged working postulate. Results carry "given τ = ω", an
 threads cannot force τ is in the relay's §38, corrected in §42:
 selecting τ needs a stated functional, and potentials built from the threads select i or ω depending on the kernel.
 
+## A ruling of 2026-10-09: the unit at the weave's cusp (GENESIS FK10)
+
+- **The question, after W45 and W46.** On the weave's own surface, given Λ, every end condition the moves keep gives a
+  four-dimensional index of n times the fibre's ±3, where n is the units of end data at the cusp. The weave itself
+  fixes n = 0. So a chiral three in four dimensions needs one unit of end data at the cusp, where the records' torus
+  degenerates (GENESIS FK10).
+- **The options the seat set out.**
+  - Keep GENESIS FK10 open, with no new postulate.
+  - Tag the unit as a working postulate, so that results carry "given the cusp unit".
+  - Pause the chirality line.
+- **The owner's choice: "Keep FK10 open."**
+  - No new postulate is added. Results stay "given Λ", and the four-dimensional count stays unearned.
+  - Main is asked whether the principle forces the unit (relay §48).
+- **Revisit when** a forcing of the unit is found, on main or on the audit lane, or when a physical end mechanism at
+  the cusp is derived.
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:

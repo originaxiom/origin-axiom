@@ -1,5 +1,13 @@
 # Changelog
 
+## The owner's ruling of 2026-10-09: the unit at the weave's cusp kept open (GENESIS FK10); relay section 49
+
+- **The ruling.** After W45 and W46, the seat set out three options for the unit of end data at the weave's cusp:
+  keep GENESIS FK10 open, tag the unit as a postulate, or pause the chirality line. The owner chose "Keep FK10 open".
+  No new postulate is added, and results stay "given Λ".
+- **Surfaces.** The rulings page (a dated section), the state page (ruling 5 and the summary paragraph), relay §49 and
+  the ledger.
+
 ## The weave's W46: every end condition the weave keeps on its own surface gives n times the fibre's index; relay section 48
 
 - **W46** (the rule 253b14e96 first; one run; every cell as predicted, under both overall lift signs):

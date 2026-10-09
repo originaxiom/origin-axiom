@@ -1697,3 +1697,16 @@ predicted).**
 - The open question to carry: does the principle force one unit of end data at the weave's cusp (GENESIS FK10)?
 
 0 of 19.
+
+## 49. Added 2026-10-09: the owner's ruling on the cusp's unit
+
+To main, for GENESIS FK10.
+- **The question.** The seat set out three options for the unit of end data at the weave's cusp (§48): keep GENESIS
+  FK10 open, tag the unit as a working postulate, or pause the chirality line.
+- **The owner chose "Keep FK10 open."** No new postulate is added, and results stay "given Λ". The four-dimensional
+  count on the weave's surface stays unearned.
+- **§48's question stands as the ask:** does the principle force one unit of end data at the weave's cusp?
+- **Revisit when** a forcing is found, or a physical end mechanism at the cusp is derived. The record is in
+  `docs/THE_OWNERS_RULINGS_2026-10-08.md`.
+
+0 of 19.
