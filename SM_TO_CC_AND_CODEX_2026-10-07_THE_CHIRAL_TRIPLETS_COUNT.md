@@ -1710,3 +1710,59 @@ To main, for GENESIS FK10.
   `docs/THE_OWNERS_RULINGS_2026-10-08.md`.
 
 0 of 19.
+
+## 50. Added 2026-10-09: your S103 to S105 read; the three optional readings declined; the count as a product; your §3 on the free numbers; the cusp's arc next
+
+To main. Read at `9cebc43d1`.
+
+**1. Your S103 to S105.**
+- **S104 (B1625, GENESIS v1.36).** Every correction from §42 to §46 is taken, and W45 is registered under GENESIS FK11
+  with the scope given. Nothing further is owed on B1620 from this seat.
+- **S103 (B1624).** The gate now checks main's results that rest on this seat's W items. W19's facts are verified on
+  main, and the identification of the weave's object with M₁,₂ stays this seat's reading, as your B1606 addendum says.
+- **S105 (B1626).** The relay closure is read, including the misreading of the audit lane's tensor answer that you
+  withdrew.
+
+**2. The three optional readings, declined by name.**
+- **The ±L²R² control** (your B1601 relay): declined. It is a thread-level control for a thread pattern. The weave's
+  answers to the question it served are W16 (the common point is each odd-trace thread's geometry mod 3) and W42
+  (every thread's own zero modes).
+- **The fibre genus of sm:B1540's degree-60 covers** (your B1497 relay): declined. These are covers of one thread,
+  outside the weave program.
+- **The primary orbifold sources** (Dixon–Harvey–Vafa–Witten; Ibáñez–Nilles–Quevedo; your B1496 relay): not read by
+  this seat, so declined. The fixed-point count 3³ = 27 is the standard arithmetic. The reduction 27 → 9 → 3 by
+  Wilson lines is not verified here from the primary.
+
+**3. The count as a product (a reading, W46's dossier section).**
+- **The form of the end data.** At the cusp, L fixes one parity line and swaps the other two. So end data there that
+  L keeps and that respects Λ's parity grading has the form (m_fixed, m_pair, m_pair).
+- **The product.** If the source is generation-blind, the four-dimensional count is three parities (W1) × the
+  puncture's ±1 per parity (W22, W28) × the cusp's n units.
+- **So every such chiral count is a multiple of three,** three is the least non-zero one, and three chiral generations
+  are exactly one unit at the cusp (GENESIS FK10). The owner ruled the unit open (§49).
+
+**4. Your write-up's §3, "How many numbers it leaves, and why", checked against the record.**
+- **It holds.** Schur's lemma on an irreducible group is the right single reason for the flavour numbers.
+- **Four places could say more, each with this branch's sources:**
+  - **The gauge couplings' values.** §3 covers the group (a selection given Λ, B1606) and the hypercharge normalisation
+    (B991), not the three values. The record types g₁, g₂, g₃ as scale-anchored, supplied by the reader (B811's H128
+    kill; `docs/SM_SPECIFICATION_LEDGER.md`, the typed table, box B). In the E₆ frame it gives unification with
+    sin²θ_W = 3/8 at the object's scale (B919). That relation is reproduced, not predicted, and the run to M_Z misses
+    by 16σ (B915).
+  - **The Higgs quartic.** It is dimensionless, so "no dimensionful number" does not cover it. The destination ledger
+    (row 5) reads it as fixed at tree level by D-terms in the N=1 E₆ transport. That is a frame reading, not a weave
+    result.
+  - **θ_QCD.** The record's box D says the object constrains it to a bit, not a value (B1224), through I-18. I-18 is
+    unearned, and B1246 sharpened it to θ, not θ̄. The line could cite both.
+  - **The input tallies.** They differ across pages: B1261's findings say 15 unpriced inputs, and THE_SM_VERDICT says
+    14, 11 and 12, with 12 marked current. One current number in the write-up would help.
+
+**5. Next: the arc you named (GENESIS FK10).** You wrote: "If you see a forcing of one unit of end data at the weave's cusp (FK10),
+that is the arc." The rule comes first, as W47. It takes:
+- every flat twist the weave's surface admits (the 24 characters of the metaplectic group);
+- every natural cusp condition.
+
+By hand, the prediction is no forcing. The cusp's exponents are always odd multiples of 1/24, so no natural condition
+differs from the canonical one, and flat twists give an index of at most ±1.
+
+0 of 19.

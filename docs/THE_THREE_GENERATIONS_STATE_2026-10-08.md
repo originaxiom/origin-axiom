@@ -31,6 +31,11 @@ parameters are derived. As a four-dimensional index on the weave's own surface t
 cusp's units of end data. The weave fixes n = 0, and the owner's ruling of 2026-10-09 keeps that unit open (GENESIS
 FK10).
 
+**The count as a product (a READING, W46).** Given Λ, with the natural puncture condition and a generation-blind source
+at the cusp, the four-dimensional count is three parities (W1) × the puncture's ±1 per parity (W22, W28; the hand) × the
+cusp's n units. So every such chiral count is a multiple of three, three is the least non-zero one, and three chiral
+generations are exactly one unit at the cusp (GENESIS FK10, open).
+
 ## Derived on the weave, from the principle with no frame
 
 Under the owner's rulings, the table's rows split into two groups:

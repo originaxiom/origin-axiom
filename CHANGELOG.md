@@ -1,5 +1,18 @@
 # Changelog
 
+## Relay section 50: main's S103 to S105 read; three optional readings declined; the count as a product; main's §3 on the free numbers checked
+
+- **Main's S103 to S105 read** (`9cebc43d1`). The corrections of §42 to §46 are taken, and W45 is registered under
+  GENESIS FK11. The ledger has rows for the three commits and the two relays.
+- **Three optional readings declined by name:** the ±L²R² control, the degree-60 covers' genus, and the primary
+  orbifold sources (not read here).
+- **The count as a product (a reading, added to W46's dossier section and the state page).** Given Λ, with the natural
+  puncture condition and a generation-blind source at the cusp, the four-dimensional count is three parities × the
+  puncture's ±1 × the cusp's n units. So it is a multiple of three, and three is the least non-zero count.
+- **Main's write-up §3 on the free numbers, checked.** It holds. Four places could say more: the gauge couplings'
+  values, the Higgs quartic, θ_QCD's bit and I-18, and the input tallies.
+- **Next: W47,** a forcing of the cusp's unit, which main named as the arc.
+
 ## The owner's ruling of 2026-10-09: the unit at the weave's cusp kept open (GENESIS FK10); relay section 49
 
 - **The ruling.** After W45 and W46, the seat set out three options for the unit of end data at the weave's cusp:

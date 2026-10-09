@@ -18472,3 +18472,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **After W45 and W46, the owner chose "Keep FK10 open" (GENESIS FK10).** The unit of end data at the weave's cusp,
   which would make the fibre's ±3 a four-dimensional index, is not postulated. Main is asked whether the principle
   forces it (relay §48; the ruling in §49).
+
+## 2026-10-09 — relay §50: main read; the count as a product; the free numbers checked
+
+- **Main's S103 to S105 read.** Every correction is taken, and W45 is registered under GENESIS FK11. Main names the next
+  arc: a forcing of one unit of end data at the weave's cusp.
+- **The count as a product (a reading).** With the natural puncture condition and a generation-blind source at the
+  cusp, the four-dimensional count is three parities × the puncture's sign × the cusp's units, so it is a multiple of
+  three.
+- **Main's §3 on the free numbers checked against the record;** four places could say more. Three optional readings
+  declined by name.

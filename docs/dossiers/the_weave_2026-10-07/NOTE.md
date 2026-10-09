@@ -3018,6 +3018,23 @@ canonical reading the weave's own surface does not earn GENESIS FK11, which stay
   consistent with W45's natural conditions, which all give n = 0. These are thread results, read as a family; the
   claim about the cusp is a reading.
 
+**A reading (post hoc, by hand): the count as a product, given Λ.**
+- At the cusp the move L fixes one parity line and swaps the other two.
+  - In the record's normal form, L's eigenlines on T are that parity line (exponent ⅞) and two complex combinations of
+    the swapped pair (⅛ and ⅝).
+  - So end data at the cusp that L keeps and that respects Λ's parity grading has the form (m_fixed, m_pair, m_pair).
+  - The four-dimensional index then moves by m_fixed + 2m_pair, times the puncture's sign.
+- **If the source at the cusp is generation-blind,** coupling to the three parity sectors alike as gauge charges do,
+  then m_fixed = m_pair = n.
+- **The count is then a product of three factors:**
+  - three parities (W1);
+  - the puncture's ±1 per parity (W22, W28), whose sign is the hand;
+  - the cusp's n units.
+- **So every generation-blind chiral count on the weave's surface is a multiple of three, and three is the least
+  non-zero one.** One unit is exactly three chiral generations.
+- **Whether any unit is forced, and which n, is GENESIS FK10's question,** kept open by the owner's ruling of
+  2026-10-09.
+
 **Status.** COMPUTED (the rule first; one run; every cell as predicted). It closes the end conditions the weave keeps on
 its own surface. GENESIS FK11 stays open, and its question on this surface is GENESIS FK10's at the cusp. 0 of 19.
 
