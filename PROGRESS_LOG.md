@@ -18497,3 +18497,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   1/Δ, the vacuum of 24 chiral oscillators.
 - **Under the simplest dressing, the heterotic string gives one, not three.** W48 will test the law and the candidates,
   rule first. Relay §52 sent (GENESIS FK10).
+
+## 2026-10-09 — W48: the outside source tested; relay §53
+
+- **W48 ran once, after its rule** (the owner's outside source). A c = 24 source gives one chiral mode per eight
+  lattice-free chiral bosons, so three needs the 26-dimensional bosonic string's 24. The heterotic string gives one.
+  Every cell held as predicted.
+- **In its string-vacuum form the outside source does not supply the unit** (GENESIS FK10 open). Relay §53 sent.

@@ -1013,6 +1013,28 @@ def test_w47_the_unit_at_the_weaves_cusp():
     assert abs(chi - 1) < 1e-12
 
 
+def test_w48_the_outside_source_at_the_cusp():
+    """W48 (the owner's outside source; the rule committed first; one run; every cell as predicted): a source of weight w
+    turns the triplet's index into chi_{3/2 - w}; a c = 24 source with a lattice of rank l gives (24 - l)/8, one mode
+    per eight lattice-free chiral bosons, so three needs 24 of them and the heterotic left-movers give one. In process:
+    the law chi_{3/2 + 4j}(rho_T) = j from the stored data's traces, and E4^2's first coefficients"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_outside_source_at_the_cusp.json").read_text(encoding="utf-8"))
+    assert d["every check holds"] is True and all(d["checks"].values())
+    lat = d["S1: the lattice family"]
+    assert [-v["0"] for v in lat.values()] == [3.0, 2.0, 1.0, 0.0]
+    assert [-v["0"] for v in d["S2: the oscillator family"].values()] == [1.0, 1.0, 2.0, 3.0]
+    dims = d["S3: the lattice family's dressed spaces"]
+    assert [v["T"]["dim M (null count, gap)"][0] for v in dims.values()] == [3, 2, 1, 0]
+    for j in range(-1, 7):
+        k = 1.5 + 4 * j
+        chi = 3 * (k - 1) / 12 + 0.25 * (np.exp(1j * np.pi * k / 2) * np.exp(1j * np.pi / 4)).real + 1.5 - 11 / 8
+        assert abs(chi - j) < 1e-9
+    c4 = [1, 240, 2160]
+    assert np.convolve(c4, c4)[:3].tolist() == [1, 480, 61920]
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

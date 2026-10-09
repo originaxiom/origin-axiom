@@ -226,6 +226,12 @@ Under the owner's rulings, the table's rows split into two groups:
   - The twisted index is 0, except −1 at two order-6 twists; those values come from actual forms (q-expansions).
   - |I| = 3 occurs only with one cusp unit at a natural puncture condition. So no forcing exists inside the weave, and
     three needs a non-flat source at the cusp (GENESIS FK10, kept open by the owner's ruling).
+- **W48, an outside source tested (the owner's choice; conditional on a dictionary beyond Λ):**
+  - A source of weight w turns the triplet's index into χ_{3/2−w}.
+  - A c = 24 chiral vacuum with a lattice of rank ℓ gives (24 − ℓ)/8: one chiral mode per eight lattice-free chiral
+    bosons. So three needs the 26-dimensional bosonic string's 24 transverse oscillators.
+  - The heterotic left-movers, the record's natural home for E₈, give one. A Niemeier or Monster vacuum gives none.
+  - In this form the outside source does not supply the unit, and GENESIS FK10 stays open.
 
 ## Questions open with main
 
@@ -237,7 +243,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W47 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W48 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§51).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§53).

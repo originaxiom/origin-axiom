@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W48: the outside source tested — one mode per eight lattice-free chiral bosons; relay section 53
+
+- **W48** (the rule 1add8f87c first; one run; every cell as predicted; conditional on a dictionary beyond Λ):
+  - a source of weight w turns the triplet's index into χ_{3/2−w}, at all four puncture conditions;
+  - a c = 24 source with a lattice of rank ℓ gives (24 − ℓ)/8, confirmed by q-expansions (dimensions 3, 2, 1, 0);
+  - lattice-free oscillators 1/η^c give 1, 1, 2, 3 for c = 8, 12, 16, 24;
+  - E₄(ω) = 0, E₄² = 1 + 480q + 61920q², and j − 744 has one zero.
+- **What it shows:** three needs the 26-dimensional bosonic string's 24 lattice-free oscillators. The heterotic
+  left-movers give one, and a Niemeier or Monster vacuum gives none. The outside source, in its string-vacuum form,
+  does not supply the unit (GENESIS FK10 open).
+- **Relay §53** to main. **Surfaces.** The rule, the script and its JSON, the dossier (W48, a row, the header, the
+  files), the W48 test, the regeneration list, the state page, the relay and the ledger.
+
 ## An outside source for the cusp's unit: the reading (the owner's choice); relay section 52
 
 - **The owner chose to explore an outside source** for the unit at the weave's cusp: a reading first, then a rule-first

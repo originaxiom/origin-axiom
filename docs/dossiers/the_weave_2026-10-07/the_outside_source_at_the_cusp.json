@@ -1,0 +1,676 @@
+{
+ "status": "W48: the outside source's dressing law and the c = 24 candidates (the rule first)",
+ "S1: the weight law (trivial multiplier), by w": {
+  "4": {
+   "0": 1.0,
+   "V2": 0.0,
+   "V4": 0.0,
+   "L6": -1.0,
+   "L6 by its H0 form": -1.0
+  },
+  "0": {
+   "0": -0.0,
+   "V2": -0.0,
+   "V4": -0.0,
+   "L6": -0.0,
+   "L6 by its H0 form": 0.0
+  },
+  "-4": {
+   "0": -1.0,
+   "V2": 0.0,
+   "V4": 0.0,
+   "L6": 1.0,
+   "L6 by its H0 form": 1.0
+  },
+  "-8": {
+   "0": -2.0,
+   "V2": -1.0,
+   "V4": 1.0,
+   "L6": 2.0,
+   "L6 by its H0 form": 2.0
+  },
+  "-12": {
+   "0": -3.0,
+   "V2": -1.0,
+   "V4": 1.0,
+   "L6": 3.0,
+   "L6 by its H0 form": 3.0
+  },
+  "-24": {
+   "0": -6.0,
+   "V2": -2.0,
+   "V4": 2.0,
+   "L6": 6.0,
+   "L6 by its H0 form": 6.0
+  }
+ },
+ "S1: the lattice family": {
+  "1/Delta (24 oscillators)": {
+   "0": -3.0,
+   "V2": -1.0,
+   "V4": 1.0,
+   "L6": 3.0,
+   "L6 by its H0 form": 3.0
+  },
+  "E4/Delta (an E8 lattice and 16 oscillators)": {
+   "0": -2.0,
+   "V2": -1.0,
+   "V4": 1.0,
+   "L6": 2.0,
+   "L6 by its H0 form": 2.0
+  },
+  "E4^2/Delta (the heterotic left-movers, E8 x E8 or Spin(32)/Z2)": {
+   "0": -1.0,
+   "V2": 0.0,
+   "V4": 0.0,
+   "L6": 1.0,
+   "L6 by its H0 form": 1.0
+  },
+  "(j + const) (a Niemeier lattice)": {
+   "0": -0.0,
+   "V2": -0.0,
+   "V4": -0.0,
+   "L6": -0.0,
+   "L6 by its H0 form": 0.0
+  }
+ },
+ "S2: the oscillator family": {
+  "1/eta^8": {
+   "0": -1.0,
+   "V2": -0.0,
+   "V4": -0.0,
+   "L6": 1.0,
+   "L6 by its H0 form": 1.0
+  },
+  "1/eta^12": {
+   "0": -1.0,
+   "V2": 0.0,
+   "V4": 1.0,
+   "L6": 2.0,
+   "L6 by its H0 form": 2.0
+  },
+  "1/eta^16": {
+   "0": -2.0,
+   "V2": -1.0,
+   "V4": 1.0,
+   "L6": 2.0,
+   "L6 by its H0 form": 2.0
+  },
+  "1/eta^24": {
+   "0": -3.0,
+   "V2": -1.0,
+   "V4": 1.0,
+   "L6": 3.0,
+   "L6 by its H0 form": 3.0
+  }
+ },
+ "S3: the lattice family's dressed spaces": {
+  "1/Delta (24 oscillators)": {
+   "T": {
+    "weight": "27/2",
+    "dim M (null count, gap)": [
+     3,
+     [
+      1.6956257646604943e-07,
+      5.43570803981581e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 3.0,
+    "dim M - dim S": 3
+   },
+   "T-bar": {
+    "weight": "25/2",
+    "dim M (null count, gap)": [
+     3,
+     [
+      1.6905540811469268e-07,
+      5.233600597851342e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 3.0,
+    "dim M - dim S": 3
+   },
+   "V2": {
+    "weight": "13",
+    "dim M (null count, gap)": [
+     2,
+     [
+      1.6857087121073766e-07,
+      4.0308829725963893e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 2.0,
+    "dim M - dim S": 2
+   },
+   "V4": {
+    "weight": "13",
+    "dim M (null count, gap)": [
+     4,
+     [
+      1.7096435167739668e-07,
+      4.555540416488347e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 4.0,
+    "dim M - dim S": 4
+   }
+  },
+  "E4/Delta (an E8 lattice and 16 oscillators)": {
+   "T": {
+    "weight": "19/2",
+    "dim M (null count, gap)": [
+     2,
+     [
+      1.6353532125186441e-07,
+      5.890972067852581e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 2.0,
+    "dim M - dim S": 2
+   },
+   "T-bar": {
+    "weight": "17/2",
+    "dim M (null count, gap)": [
+     2,
+     [
+      1.6063193510759881e-07,
+      5.504915945399785e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 2.0,
+    "dim M - dim S": 2
+   },
+   "V2": {
+    "weight": "9",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.5729937804946257e-07,
+      2.9247245230557315e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "V4": {
+    "weight": "9",
+    "dim M (null count, gap)": [
+     3,
+     [
+      1.7029901482637567e-07,
+      4.4384666275218376e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 3.0,
+    "dim M - dim S": 3
+   }
+  },
+  "E4^2/Delta (the heterotic left-movers, E8 x E8 or Spin(32)/Z2)": {
+   "T": {
+    "weight": "11/2",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.5846773239431808e-07,
+      4.367366950686715e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "T-bar": {
+    "weight": "9/2",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.5982290768504697e-07,
+      3.9075590820115053e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "V2": {
+    "weight": "5",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.6949686730082843e-07,
+      2.6067739679938734e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "V4": {
+    "weight": "5",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.476630783321028e-07,
+      3.1059192945376646e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   }
+  },
+  "(j + const) (a Niemeier lattice)": {
+   "T": {
+    "weight": "3/2",
+    "dim M (null count, gap)": [
+     0,
+     [
+      1.451585807149893e-07,
+      null
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     [
+      1.8886985089795462e-07,
+      null
+     ]
+    ],
+    "chi": 0.0,
+    "dim M - dim S": 0
+   },
+   "T-bar": {
+    "weight": "1/2",
+    "dim M (null count, gap)": [
+     0,
+     [
+      1.8886985089859564e-07,
+      null
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     [
+      1.4515858071349365e-07,
+      null
+     ]
+    ],
+    "chi": 0.0,
+    "dim M - dim S": 0
+   },
+   "V2": {
+    "weight": "1",
+    "dim M (null count, gap)": [
+     0,
+     [
+      2.746217151540607e-07,
+      null
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     [
+      2.746217151533943e-07,
+      null
+     ]
+    ],
+    "chi": 0.0,
+    "dim M - dim S": 0
+   },
+   "V4": {
+    "weight": "1",
+    "dim M (null count, gap)": [
+     0,
+     [
+      1.455770490971233e-07,
+      null
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     [
+      1.4557704909509438e-07,
+      null
+     ]
+    ],
+    "chi": 0.0,
+    "dim M - dim S": 0
+   }
+  }
+ },
+ "S3: the oscillator family's dressed spaces": {
+  "1/eta^8": {
+   "T": {
+    "weight": "11/2",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.757748872958535e-07,
+      5.027857509372659e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "T-bar": {
+    "weight": "9/2",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.4739326593104436e-07,
+      4.181530159132361e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "V2": {
+    "weight": "5",
+    "dim M (null count, gap)": [
+     1,
+     [
+      2.0467445457502923e-07,
+      2.569162166441913e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "V4": {
+    "weight": "5",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.515339311676734e-07,
+      4.446523787203383e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   }
+  },
+  "1/eta^12": {
+   "T": {
+    "weight": "15/2",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.716779153612928e-07,
+      5.666091871594238e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "T-bar": {
+    "weight": "13/2",
+    "dim M (null count, gap)": [
+     2,
+     [
+      1.8950673237382614e-07,
+      4.3347803102211717e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 2.0,
+    "dim M - dim S": 2
+   },
+   "V2": {
+    "weight": "7",
+    "dim M (null count, gap)": [
+     1,
+     [
+      2.0006126402640478e-07,
+      3.556248202544057e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "V4": {
+    "weight": "7",
+    "dim M (null count, gap)": [
+     2,
+     [
+      1.627612287821813e-07,
+      4.2511934935151577e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 2.0,
+    "dim M - dim S": 2
+   }
+  },
+  "1/eta^16": {
+   "T": {
+    "weight": "19/2",
+    "dim M (null count, gap)": [
+     2,
+     [
+      1.7988847597554071e-07,
+      6.708871536303285e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 2.0,
+    "dim M - dim S": 2
+   },
+   "T-bar": {
+    "weight": "17/2",
+    "dim M (null count, gap)": [
+     2,
+     [
+      1.827287639408582e-07,
+      5.575935573054965e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 2.0,
+    "dim M - dim S": 2
+   },
+   "V2": {
+    "weight": "9",
+    "dim M (null count, gap)": [
+     1,
+     [
+      1.944986432541963e-07,
+      4.583349058171796e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 1.0,
+    "dim M - dim S": 1
+   },
+   "V4": {
+    "weight": "9",
+    "dim M (null count, gap)": [
+     3,
+     [
+      1.7307978930911548e-07,
+      4.904360051624562e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 3.0,
+    "dim M - dim S": 3
+   }
+  },
+  "1/eta^24": {
+   "T": {
+    "weight": "27/2",
+    "dim M (null count, gap)": [
+     3,
+     [
+      1.695625764661548e-07,
+      6.633256984696664e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 3.0,
+    "dim M - dim S": 3
+   },
+   "T-bar": {
+    "weight": "25/2",
+    "dim M (null count, gap)": [
+     3,
+     [
+      1.6905540811571973e-07,
+      5.387774335777208e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 3.0,
+    "dim M - dim S": 3
+   },
+   "V2": {
+    "weight": "13",
+    "dim M (null count, gap)": [
+     2,
+     [
+      1.685708712092686e-07,
+      4.905686789299855e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 2.0,
+    "dim M - dim S": 2
+   },
+   "V4": {
+    "weight": "13",
+    "dim M (null count, gap)": [
+     4,
+     [
+      1.7096435167775905e-07,
+      5.334836202693485e-16
+     ]
+    ],
+    "dim S of the dual (null count, gap)": [
+     0,
+     null
+    ],
+    "chi": 4.0,
+    "dim M - dim S": 4
+   }
+  }
+ },
+ "S4: the analytic facts": {
+  "|E4(omega)|": 1.4897939348123359e-15,
+  "E4^2's first coefficients": [
+   1,
+   480,
+   61920
+  ],
+  "roots of E8 + E8": 480,
+  "roots of D16+": 480,
+  "j - 744 on the arc from omega to i: sign changes": 1,
+  "j at the arc's ends (omega, i)": [
+   0.0,
+   1728.0
+  ]
+ },
+ "checks": {
+  "S1: the weight law's table at the four puncture conditions, and the L6 row equals its H0 form": true,
+  "S1: the lattice family's canonical counts are (24 - l)/8 = 3, 2, 1, 0": true,
+  "S2: the oscillator family's canonical counts are 1, 1, 2, 3 for c = 8, 12, 16, 24": true,
+  "S2: at c = 24 the four conditions give -3, -1, +1, +3": true,
+  "S3: the q-expansion dimension differences equal chi for every candidate and piece": true,
+  "S3: T's dressed spaces have dimension 1, 2, 3 for l = 16, 8, 0, every dual cusp space zero": true,
+  "S4: E4(omega) = 0; E4^2 begins 1, 480, 61920; 480 roots each; j - 744 has one zero on the arc": true
+ },
+ "every check holds": true
+}

@@ -45,6 +45,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W47 (main's named arc, given Λ): nothing on the weave's surface forces the cusp's unit. The natural cusp conditions
   coincide (no integer exponent), and the 24 flat line bundles move the index by at most one. Three needs a non-flat
   source at the cusp (GENESIS FK10).
+- W48 (the owner's outside source, given Λ): a c = 24 source gives one chiral mode per eight lattice-free chiral bosons,
+  so three needs the 26-dimensional bosonic string's 24, and the heterotic string gives one. GENESIS FK10 stays open.
 
 ## The setting
 
@@ -3136,6 +3138,55 @@ Nothing here is computed beyond W45's closed form. A test follows only after a r
 8. **The test it suggests (W48, rule first).** The dressed index and the q-expansion dimensions for the candidate
    sources, at all four puncture conditions, so that the law and the counts above are computed, not read.
 
+## W48. The outside source tested: one mode per eight lattice-free chiral bosons, so the heterotic string gives one (`the_outside_source_at_the_cusp.py`; `W48_RULE.md`)
+
+**Why.** The owner chose to explore an outside source for the cusp's unit (GENESIS FK10): a reading first, then a
+rule-first test. The reading above gave a law and its candidates. This arc computes them. The rule (`W48_RULE.md`,
+1add8f87c) was committed before the code. It fixes the candidates by a rule: the vacuum characters of c = 24 chiral
+sectors, in a lattice family Θ_L/Δ (ℓ = 0, 8, 16, 24) and an oscillator family 1/η^c (c = 8, 12, 16, 24). The object
+is weave-type; whether any source applies is a dictionary question beyond the principle.
+
+**The result (COMPUTED; S1 to S4 as predicted).**
+- **S1, the weight law.** With a source of weight w and trivial multiplier, the dressed four-dimensional index at the
+  conditions (0, V2, V4, L₆) is:
+
+| w | 0 | V2 | V4 | L₆ |
+|---|---|---|---|---|
+| +4 | +1 | 0 | 0 | −1 |
+| 0 | 0 | 0 | 0 | 0 |
+| −4 | −1 | 0 | 0 | +1 |
+| −8 | −2 | −1 | +1 | +2 |
+| −12 | −3 | −1 | +1 | +3 |
+| −24 | −6 | −2 | +2 | +6 |
+
+  - The L₆ row equals its H⁰ form at every w.
+  - The lattice family's counts at the canonical condition are (24 − ℓ)/8: 3, 2, 1, 0 for 1/Δ, E₄/Δ, E₄²/Δ (the
+    heterotic left-movers, either lattice) and a Niemeier vacuum (j plus a constant).
+- **S2, the oscillator family.** The canonical counts are 1, 1, 2, 3 for 1/η⁸, 1/η¹², 1/η¹⁶ and 1/η²⁴. At c = 24 the
+  four conditions give −3, −1, +1, +3, W46's n = 1 row. Not predicted, and recorded: 1/η¹² gives −1, 0, +1, +2, which
+  is not of the form n times the fibre index.
+- **S3, the second route.** q-expansion dimensions match χ for every candidate and piece, with every gap near
+  1.6 × 10⁻⁷ against 5 × 10⁻¹⁶.
+  - T's dressed spaces have dimension 3, 2, 1, 0 for ℓ = 0, 8, 16, 24, at weights 27/2, 19/2, 11/2 and 3/2.
+  - Every dual cusp space is zero.
+- **S4, the analytic facts.** |E₄(ω)| = 1.5 × 10⁻¹⁵. E₄² = 1 + 480q + 61920q² + …, and E₈ ⊕ E₈ and D₁₆⁺ have 480
+  roots each. j − 744 has one zero on the arc from ω (j = 0) to i (j = 1728).
+
+**What it shows.**
+- **One chiral mode for every eight chiral bosons that carry no lattice.** That is the count of a c = 24 source on the
+  weave's surface. So three needs 24 lattice-free chiral bosons: the bosonic string's light-cone left-movers, in 26
+  dimensions.
+- **The heterotic string gives one.** It is the record's natural home for E₈: eight transverse bosons free, sixteen on
+  the lattice. A Niemeier or Monster vacuum gives none.
+- **So the outside source explored, a string vacuum as the dressing, does not supply the unit in any form natural to
+  the record.** GENESIS FK10 at the cusp stays open, as the owner ruled.
+- **Scope.** This is the simplest dressing: holomorphic chiral sectors, with a lattice treated as a scalar factor. It
+  rests on a dictionary beyond Λ, the records' torus read as a worldsheet. A sector's own coset theta function, or a
+  non-holomorphic dressing, is outside it.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted). The owner's exploration of an outside source,
+in its string-vacuum form, returns a negative for three. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -3295,6 +3346,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W45 | COMPUTED (the rule first; one run; fixes in review before it, disclosed); a WEAVE result given Λ, NEGATIVE for GENESIS FK11 in its canonical reading | the triplet's index on the weave's own surface M₁,₂. T is a representation of the metaplectic cover, not a local system on M₁,₂: S̃⁴ (conjugation by a b⁻¹ a⁻¹ b) acts as −I for every lift sign, while the inner lifts give it I. The four-dimensional Dirac operator with the odd spin structure forces weight 3/2. The formula, calibrated exactly, keeps exactly the two identifications the braid relation allows. χ_{3/2}(ρ_T) = 0 and χ_½(ρ̄_T) = χ_{5/2}(ρ̄_T) = 0, with every space zero (q-expansions, gaps of nine orders); three first at weight 23/2. Post hoc: the index moves only with end data at the cusp, and n units on every component give 3n; the canonical condition is n = 0 |
 | W46 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | every end condition the weave keeps on its own surface: W28's four puncture conditions enter along the puncture section at weight 1 (the six local solutions' modular representation, from the same lifts as T), and the cusp's uniform units shift the weight by 12. The puncture's exact sequence fixes the weights 3/2, 1, ½ (central scalars, exponents), so W45's two representations are the two extreme puncture conditions. Every χ is 0 and every space is zero, under both base spin structures; the four-dimensional index is n times the fibre's index (±3, ±1). So the record's ±3 becomes four-dimensional only with one unit of end data at the cusp (GENESIS FK10) |
 | W47 | COMPUTED (the rule first; one run; a check's scope fixed in review, disclosed); a WEAVE result given Λ, NEGATIVE for a forcing | main's named arc: is one unit of end data at the weave's cusp forced? The flat line bundles on the surface are the 24 characters of the metaplectic group (the inner automorphisms die in the abelianization; S̃⁸ ↦ 24); six keep the forced weights. Every cusp exponent is an odd multiple of 1/24, so the natural cusp conditions coincide. The twisted index is 0 except −1 at r = 4 and r = 20, with actual forms behind them (q-expansions); |I| = 3 only with one cusp unit at a natural puncture condition. No forcing exists inside the weave; three needs a non-flat source at the cusp (GENESIS FK10) |
+| W48 | COMPUTED (the rule first; one run; every cell as predicted); conditional on a dictionary beyond Λ (the records' torus as a worldsheet), NEGATIVE for three | the owner's outside source for the cusp's unit, tested: a source of weight w turns the triplet's index into χ_{3/2−w} (the table at w = +4 … −24, all four puncture conditions); a c = 24 source with a lattice of rank ℓ gives (24 − ℓ)/8, one mode per eight lattice-free chiral bosons; q-expansions confirm (dimensions 3, 2, 1, 0). Three needs the bosonic string's 24 lattice-free oscillators (26 dimensions); the heterotic left-movers give one; a Niemeier or Monster vacuum none |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -3338,6 +3390,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W48_RULE.md`: the rule, committed before the code; `the_outside_source_at_the_cusp.py` → `the_outside_source_at_the_cusp.json`: W48, the outside source's dressing law and the c = 24 candidates (the weight law at the four puncture conditions, the lattice and oscillator families, q-expansion dimensions, and the analytic facts).
 - `W47_RULE.md`: the rule, committed before the code; `the_unit_at_the_weaves_cusp.py` → `the_unit_at_the_weaves_cusp.json`: W47, every flat line bundle and every natural cusp condition on the weave's surface (the abelianization, the cusp exponents, the twisted index by the formula and by q-expansions, and the full table with cusp units).
 - `W46_RULE.md`: the rule, committed before the code; `the_end_conditions_on_the_weaves_surface.py` → `the_end_conditions_on_the_weaves_surface.json`: W46, every end condition the weave keeps on its own surface (the six local solutions' modular representation, the puncture's exact sequence, the formula, q-expansions, and the table by puncture condition and cusp units).
 - `W45_RULE.md`: the rule, committed before the code; `the_index_on_the_weaves_surface.py` → `the_index_on_the_weaves_surface.json`: W45, the triplet's index on the weave's own surface (the structure on Aut⁺(F₂), the formula's calibrations, the four identifications, and the dimensions by q-expansions).

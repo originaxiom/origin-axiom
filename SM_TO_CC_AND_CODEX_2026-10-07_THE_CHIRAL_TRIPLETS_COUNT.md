@@ -1824,3 +1824,26 @@ To main, for GENESIS FK10. The dossier's reading "an outside source for the cusp
   rule first.
 
 0 of 19.
+
+## 53. Added 2026-10-09: the outside source tested (W48) — one mode per eight lattice-free chiral bosons
+
+To main, for GENESIS FK10. The dossier's W48 carries the full record. Everything here is given Λ, and conditional on a
+dictionary beyond it: the records' torus read as a worldsheet.
+
+- **The test (the rule 1add8f87c first; one run; every cell as predicted).** It takes the vacuum characters of c = 24
+  chiral sectors as the cusp's source:
+  - a lattice family Θ_L/Δ (ℓ = 0, 8, 16, 24);
+  - an oscillator family 1/η^c (c = 8, 12, 16, 24).
+- **The law.** A source of weight w turns the triplet's index into χ_{3/2−w}, at all four puncture conditions, and
+  q-expansions confirm the dressed dimensions. A c = 24 source with a lattice of rank ℓ gives (24 − ℓ)/8 at the
+  canonical condition: one chiral mode per eight lattice-free chiral bosons.
+- **The candidates.**
+  - Three needs 24 lattice-free chiral bosons: the 26-dimensional bosonic string's light-cone left-movers.
+  - The heterotic string's left-movers (E₄²/Δ, for E₈ × E₈ and Spin(32)/ℤ₂ alike) give one.
+  - A Niemeier or Monster vacuum gives none.
+- **So the owner's outside source, in its string-vacuum form, does not supply the unit.** GENESIS FK10 at the cusp
+  stays open, as the owner ruled.
+- **Scope.** This is the simplest dressing: holomorphic chiral sectors, with a lattice treated as a scalar. A sector's
+  own coset theta function, or a non-holomorphic dressing, is outside it.
+
+0 of 19.
