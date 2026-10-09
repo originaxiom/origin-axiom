@@ -1100,3 +1100,22 @@ every such item must carry a VERIFIED row in `docs/HARVEST_LEDGER.md` — **this
 may be cited, not built on. (4) GENESIS says plainly what a frame's count can and cannot carry (v1.15: the class index is
 mirror-even for every module; the harmonic frame is spin-blind and its internal group contains the geometry's structure
 group). Rules 1, 2 and 4 are MANUAL; rule 3 is gated with a failing-path test.
+
+## The window's practices, B1608–B1626: what a landing reads, what a name is taken from, what a gate can see — MIXED (adopted 2026-10-09, Review 62 and its items)
+
+Five practices came out of the weave's flavour window. Each answers a slip that happened, and each is named for where it
+is enforced.
+1. **A suite is read by its keywords and its exit status** (E87; GATED in practice by the landing step). S96 was
+   committed with "0 failed" because a pattern's optional field defaulted to zero. Every landing since reads "N failed",
+   "N passed" and "N skipped" separately and gates on `SUITE_EXIT 0`.
+2. **A pattern is named from the computed object, never from the prediction it is hoped to match** (E65, B1625).
+   B1620 called its T ⊗ T family "TM1" because P10 is TM1; the family's fixed column was (⅓, ⅓, ⅓), TM2. A fit's
+   acceptance test is the stated test, with no slack. MANUAL.
+3. **A post-seal change is disclosed on the arc's own page, with its sealed run or sealed hash kept** (R62-4, S102).
+   The seal tool now reports such a change as disclosed and only an undisclosed one as a defect. Run on Review 61's
+   window, it found two disclosures that had not reached the page. GATED by the review tool.
+4. **A main arc that rests on a seat's dossier item declares it, and the gate checks it** (R62-3, B1624). `rests_on_seat`
+   accepts `sm:W<n>`. The first run caught B1606 resting on an unverified W19. GATED (`seat-positive-verified`).
+5. **A relay is closed by the recipient's answer, in the ledger's own grammar** (R62-5, B1626). An outbound row closes
+   as BANKED when every ask is answered, its note naming where and the arc that checked it. Otherwise it stays OPEN with
+   the outstanding ask named. A disposition the gate cannot parse makes a row invisible. GATED (`relay-debt`).
