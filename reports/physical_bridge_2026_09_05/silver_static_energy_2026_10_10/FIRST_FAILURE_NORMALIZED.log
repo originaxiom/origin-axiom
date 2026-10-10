@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<repository>/reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/probe.py", line 193, in <module>
+    if __name__=='__main__':print(json.dumps(run(),indent=2,sort_keys=True))
+                                             ^^^^^
+  File "<repository>/reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/probe.py", line 190, in run
+    assert all(facts.values()),[k for k,v in facts.items() if not v]
+AssertionError: ['covariant_IBP_keeps_surface']

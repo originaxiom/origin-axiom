@@ -120,7 +120,7 @@ def run():
     leftval=s.trace(bx*(s.diff(dx,x)+I*comm(X,dx)))
     mu=s.diff(bx,x)+I*comm(X,bx)
     bulk=-s.trace(dx*mu);surface=s.trace(bx*dx).subs(x,1)-s.trace(bx*dx).subs(x,0)
-    ck('covariant_IBP_keeps_surface',s.integrate(s.expand(leftval-bulk),(x,0,1))==surface)
+    ck('covariant_IBP_keeps_surface',s.expand(s.integrate(s.expand(leftval-bulk),(x,0,1))-surface)==0)
     ck('dropping_real_surface_detected',surface!=0 and s.integrate(s.expand(leftval-bulk),(x,0,1))!=0)
     ck('parallel_D_zero_mean_flux_cancels',s.integrate(s.cos(x),(x,0,2*s.pi))==0)
     ck('not_pointwise_flux_zero',s.cos(x).subs(x,0)==1)
