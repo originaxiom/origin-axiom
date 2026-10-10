@@ -1,0 +1,39 @@
+{
+  "full_dynamical_stability_proved": false,
+  "normalizations": {
+    "D_kinetic": "1/2",
+    "F_kinetic": "1/2",
+    "F_solution": "-c_dagger/2",
+    "Fc_source": "1/4",
+    "V": "norm(mu)^2/2+norm(c)^2/8"
+  },
+  "physical_goal_achieved": false,
+  "physical_kernel_computed": false,
+  "predicates": {
+    "Berezin_top": true,
+    "Clifford_creation_anticommutators": true,
+    "actual_complex_solution": true,
+    "creation_contraction_pairing": true,
+    "cubic_CS_source_operator": true,
+    "general_auxiliary_scale": true,
+    "nilpotent_exponential_inverse": true,
+    "nonparallel_D_flux_nonzero": true,
+    "omitted_surface_is_not_same_action": true,
+    "operator_W_first_spinor": true,
+    "operator_W_second_spinor": true,
+    "operator_gauge_half": true,
+    "operator_kinetic_half": true,
+    "operator_static_Z": true,
+    "operator_wrong_F_coefficient_rejected": true,
+    "parallel_flux_integral_zero": true,
+    "positive_and_zero_residual_directions": true,
+    "positive_potential_from_real_elimination": true,
+    "real_surface_exact_IBP": true,
+    "residual_positive_Hessian": true,
+    "theta_reversed_product_adjoints": true,
+    "wrong_conjugate_fails_real_EOM": true,
+    "wrong_kinetic_changes_physical_scale": true
+  },
+  "predicates_passed": 23,
+  "same_author_different_method": true
+}

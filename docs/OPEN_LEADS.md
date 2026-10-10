@@ -1,5 +1,27 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October10 canonical silver static-energy disposition:
+
+- PB-SILVER-SOURCE-NORMALIZATION EXECUTED at conditional research grade:
+  “Direct canonical action extraction gives the coefficient1/2 and real
+  auxiliary solution F=-c_dagger/2.” Scope: static_energy PROOF sections1-3
+  under reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10.
+  The prior displayed mismatch is resolved for this declared convention,
+  not a general erratum or a parent kill. Older dated OPEN row is history.
+- PB-SILVER-STATIC-ENERGY EXECUTED at conditional authored grade:
+  “The admitted zero-residual background minimizes the nonnegative static
+  potential with both actual boundary surfaces retained.” Same PROOF
+  sections2-5;43 native/23 separate-method/8 focused/25 regression pass.
+  New scalar derivative restrictions are retained, not waived.
+- PB-SILVER-PHYSICAL-JOINT remains OPEN: canonical same-action four-Weyl
+  phase/bundle map, physical/adjoint maximal domains, full charged kernel,
+  all interactions/anomalies/inflow, dynamical/quantum stability.
+  NEXT_TEST.md supplies the unexecuted order. No selected L or3 families.
+- All35 mathematical choices, larger covers, spin and other-parent
+  positives survive separately. Generated selection, normalized values,
+  gravity and full SM/TOE remain active. Outside review/full-suite/main
+  acceptance are owed; no architecture-wide absence or no-go is inferred.
+
 October10 silver real-response disposition:
 
 - PB-SILVER-REAL-RESPONSE EXECUTED at authored research grade:

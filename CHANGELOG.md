@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-10 silver canonical static energy
+
+Direct canonical expansion/actual real auxiliary variation gives a
+nonnegative residual-square potential in the SAME supplied silver E8
+action and boundary. Real B_n D and relative holomorphic surfaces are
+retained; derivative scalar boundary conditions survive elimination.
+The admitted harmonic background is a conditional STATIC minimum with
+nonnegative quadratic form, not a physical kernel/gap or full stability.
+43 native/23 separate-method/8 focused and25 three-packet regression
+PASS after preserved exact-polynomial verifier repair at55227f6d2.
+Report: reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/FINDINGS.md.
+All35 choices and structure flux retained. Next canonical physical
+four-Weyl map/domain/kernel and anomalies; selection and complete
+SM/TOE remain active/unachieved. No outside/main/full-suite acceptance.
+
 ## 2026-10-10 silver real-superfield response
 
 Derived the averaged Pi_k Z_n response from the supplied real action,

@@ -1,0 +1,9 @@
+{
+  "science_files": 7,
+  "local_source_pins": 7,
+  "foreign_source_pins": 2,
+  "science_match": true,
+  "local_sources_match": true,
+  "foreign_sources_match": true,
+  "primary_pdf_match": true
+}

@@ -1,0 +1,32 @@
+{
+  "command": [
+    "python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 16.7946369999554,
+  "log_bytes": 2384,
+  "log_sha256": "761ec5fe4553cf21860130edbf844f9ea1008fb8f5fe8c83cc54374627a8d382",
+  "checked_staged_tree": "667d87a86620a4e075002001362ea7a30b705926",
+  "checked_changed_files": 22,
+  "tree_after_run": "667d87a86620a4e075002001362ea7a30b705926",
+  "passed": 26,
+  "failed": 4,
+  "inherited_failure_categories": [
+    "attribution: six earlier raw files",
+    "test-vacuity: two earlier locks",
+    "seal-provenance: five earlier designs",
+    "relay-debt: 42 stale un-escalated debts"
+  ],
+  "relay_open_count": 112,
+  "review_due_merges": 412,
+  "no_new_packet_failure_listed": true,
+  "not_claimed": [
+    "full_suite_green",
+    "nonauthor_analytic_acceptance",
+    "main_bank_acceptance",
+    "physical_goal_achieved"
+  ],
+  "receipt_attached_after_checked_stage": true
+}

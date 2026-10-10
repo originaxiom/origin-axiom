@@ -1,0 +1,104 @@
+{
+  "initial_seal": "3d37ab670cb5c4fe5237a4cdc68a7f96a5afc563",
+  "authoritative_science_seal": "55227f6d282df06aafc77846ce52e80c1f935aa0",
+  "working_tree_held_read_only": true,
+  "capture_helper": "reports/physical_bridge_2026_09_05/capture_checked_run.rb",
+  "runs": {
+    "native": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/probe.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 1.6909690001048148,
+      "log_bytes": 597,
+      "log_sha256": "f272a45f797ef4b81362b1b8ba079244984f49dec9521214e419a5d21a4398c1"
+    },
+    "reference": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.539937000023201,
+      "log_bytes": 1318,
+      "log_sha256": "ea1abdbde964e4b560a45aab746085dd93893bde989087ef9189ecb68c2f04eb"
+    },
+    "ibp_diagnostic": {
+      "command": [
+        "python3",
+        "-c",
+        "import sympy as s; I=s.I; x=s.symbols(\"x\",real=True); X=s.diag(1,-1,0); Y=s.Matrix([[0,1,I],[1,0,2],[-I,2,0]]); T=s.Matrix([[0,I,1],[-I,1,0],[1,0,-1]]); com=lambda a,b:a*b-b*a; b=(1+x)*Y; d=(x*x+x)*Y+T; lhs=s.trace(b*(s.diff(d,x)+I*com(X,d))); mu=s.diff(b,x)+I*com(X,b); bulk=-s.trace(d*mu); surface=s.trace(b*d).subs(x,1)-s.trace(b*d).subs(x,0); value=s.integrate(s.expand(lhs-bulk),(x,0,1)); print(\"integrated:\",value); print(\"surface:\",surface); print(\"structural_equal:\",value==surface); print(\"exact_difference:\",s.expand(value-surface)); print(\"pointwise_IBP_difference:\",s.expand(lhs-bulk-s.diff(s.trace(b*d),x)))"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.6531599999871105,
+      "log_bytes": 131,
+      "log_sha256": "e2f19420c5e75a6d588b90e04c1cbd002feedbe3f69ef637f04f283ba6e6683e"
+    },
+    "native_resealed": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.114968999987468,
+      "log_bytes": 2361,
+      "log_sha256": "1c851849d7154c6d8a78b01fa53d226bce292c7a7c5a20d1a5cdca6312ea694f"
+    },
+    "reference_resealed": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.9773740000091493,
+      "log_bytes": 1318,
+      "log_sha256": "ea1abdbde964e4b560a45aab746085dd93893bde989087ef9189ecb68c2f04eb"
+    },
+    "focused": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_physical_bridge_silver_static_energy.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.25693599996157,
+      "log_bytes": 98,
+      "log_sha256": "5cff95d61a9ac81f8465c719917e8cc69bf2db1485e1515c020b8869cac47e81"
+    },
+    "regression": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_physical_bridge_silver_static_energy.py",
+        "tests/test_physical_bridge_silver_superfield_response.py",
+        "tests/test_physical_bridge_silver_complementary_boundary.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 17.692087000003085,
+      "log_bytes": 100,
+      "log_sha256": "4c74dca5aec1d5a7786c280396478cfcc2604125008b4801dd8a71367062127a"
+    },
+    "integrity": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.23638699995353818,
+      "log_bytes": 197,
+      "log_sha256": "929985d8ba719a9a934e6145821b28bbbcec8a8746f2ea777f2c9404e461176c",
+      "command_disclosure": "Captured Ruby hash audit of PRESEAL_REPAIR and INPUTS; exact local command retained in raw receipt, omitted here because it names the local PDF cache."
+    }
+  },
+  "first_failure_public_copy": "FIRST_FAILURE_NORMALIZED.log substitutes <repository> for the private workspace prefix; original raw log preserved locally and hash/byte custody above.",
+  "regression_scope": "25 tests: three named packets only, not a new entire repository or six-packet certificate."
+}

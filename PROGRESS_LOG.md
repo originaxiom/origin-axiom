@@ -18316,3 +18316,28 @@ Next same-action Hessian, physical phase/domain map, complete kernel and
 quantum anomalies, with generated selection and final SM/TOE still active.
 Cross-seat negatives remain queued for independent reproduction. No
 outside analytic review, full-suite certificate or main acceptance claimed.
+
+## 2026-10-10 canonical silver static energy executed
+
+Initial seal3d37ab670 pushed before both runs. Reference23/23 PASS;
+native failed one structural-equality check with exact difference zero.
+Failed stdout and independent diagnostic preserved; equality normalization
+alone repaired/resealed/pushed at55227f6d2 before authoritative reruns.
+43 native/23 separate-method/8 focused/25 three-packet regression PASS
+(17.04s tests/17.692087s captured). Seven science/nine source pins and
+primary PDF match. Report:
+reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/FINDINGS.md.
+Canonical direct action expansion gives auxiliary coefficients1/2 and
+F=-c_dagger/2. Relative holomorphic and real B_n D surface terms are kept;
+their cancellation uses whole A1 isotropy and parallel D/integrated gauge
+response. Scalar derivative laws survive elimination. Existing harmonic
+structure background is a conditional classical STATIC minimum of the
+nonnegative residual potential, with no negative quadratic direction.
+Structure flux, all35 harmonic choices and earlier counts remain unchanged.
+This is not a full Hamiltonian/gap/dynamical or quantum stability/spectrum.
+PDF visual checks informed the normalization, not an agent/source table
+assumption. Next SAME-action canonical four-Weyl map, maximal physical/
+adjoint domains, complete kernel/interactions/anomalies. Selection,
+normalized parameters, gravity and ultimate SM/TOE stay active/unachieved.
+Own sender relay committed; no receiver/main/outside/full-suite acceptance.
+Cross-seat negative audits remain queued; no architecture-wide kill.

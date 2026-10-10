@@ -1,5 +1,24 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October10 canonical static silver sublemmas. Scope: supplied compact E8
+parent, positive metric, relative reference and complementary boundary.
+Authored PROOF plus exact controls, not nonauthor analytical acceptance:
+reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md;
+tests/test_physical_bridge_silver_static_energy.py.
+
+| Scoped result | Verification and limit |
+|---|---|
+| Canonical direct S_K/W extraction gives F F_dagger/2 and D^2/2 | Native noncommuting Grassmann coefficients versus separate Jordan-Wigner operators; wrong normalization/sign controls fail |
+| Actual real elimination gives D=mu and F=-c_dagger/2 | Real coordinate variation and exact squares; non-real curvature detects omitted conjugation; not a symbol identity with another paper |
+| Relative CS and real B_n D surfaces cancel under the specified laws | Whole A1 isotropy, parallel k D and integrated Pi_k B_n; nonparallel D/constant gauge flux fail; nonzero structure flux retained |
+| Induced scalar derivative laws survive elimination | PROOF section4; strict A1 gives only the projected normal curvature law, not every trace; maximal physical domains remain owed |
+| Zero-residual harmonic background minimizes the declared static potential | V=norm(mu)^2/2+norm(H)^2/2; all-direction analytic Hessian plus Ward/interacting controls; not a complete Hamiltonian/gap/kernel certificate |
+
+43/23 exact predicates,8 focused and25 three-packet regression PASS at
+pushed55227f6d2 after preserved verifier repair. Earlier next-energy rows
+below are dated history; physical Weyl map/domain/kernel, anomalies,
+generated selection and ultimate SM/TOE are still not earned.
+
 October10 real-superfield silver sublemmas, in the supplied compact E8
 parent and complementary boundary. Authored argument and exact controls:
 reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md;

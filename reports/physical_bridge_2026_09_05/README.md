@@ -1,5 +1,25 @@
 # Physical bridge audit — 2026-09-05
 
+October10 silver static-energy checkpoint:43 native/23 separate-method/
+8 focused and25 three-packet regression PASS at pre-run55227f6d2,
+after the preserved exact-equality verifier repair. Report:
+reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/FINDINGS.md.
+Canonical action expansion gives auxiliary coefficients1/2 and actual
+F=-c_dagger/2. Real and relative holomorphic boundary terms are retained;
+parallel gauge D plus integrated Pi_k B_n cancels the real surface.
+The SAME admitted harmonic background has zero nonnegative residual
+potential: conditional classical STATIC minimum and nonnegative quadratic
+form. Full time-dependent/quantum stability, a gap and physical particle
+spectrum are NOT established. Scalar derivative restrictions remain.
+All35 harmonic choices, structure flux and earlier positives survive.
+NEXT canonical same-action four-Weyl map, maximal physical/adjoint domains
+and full kernel, then interactions/anomalies and generated selection.
+Earlier dated next-auxiliary/normalization entries below are historical;
+those scoped duties advance here, not the entire physical joint.
+Seven science/nine source pins match; outside review/full-suite/main
+acceptance and four inherited governance failure categories remain.
+Full parameter-free SM/TOE remains ACTIVE/unachieved.
+
 October10 silver real-response checkpoint:33 native/23 separate-method/
 8 focused and58 six-packet regression PASS after preserved reporting-only
 repair at pre-run8501f0ca9. Report:
