@@ -23,7 +23,7 @@ def test_equal_nonzero_canonical_kinetic_norms():
     assert all(r.run()['predicates']['tuple_chiral_kinetic_mu'+str(mu)] and r.run()['predicates']['tuple_gauge_kinetic_mu'+str(mu)] for mu in range(4))
 def test_full_operator_and_adjoint_not_only_symbol():
     assert facts('coefficient_A_skew_B_Hermitian','actual_connection_adjoint','component_maps_isometric',
-                 'full_operator_intertwining','full_adjoint_intertwining','B_zero_order_not_discarded','wrong_chi_degree_rejected')
+                 'full_operator_intertwining','full_adjoint_intertwining','B_zero_order_not_discarded','wrong_adjoint_operator_rejected')
     assert r.run()['predicates']['reference_full_Hodge_intertwiner']
 def test_maximal_Green_and_all_covector_ellipticity_controls():
     assert all(r.run()['predicates'][k] for k in ('creation_Clifford_all_pairs','physical_normal_Green_isotropic',

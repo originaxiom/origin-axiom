@@ -165,7 +165,7 @@ def run():
     ck('component_maps_isometric',So.H*So==s.eye(16) and Se.H*Se==s.eye(16) and So.H*Se==s.zeros(16))
     ck('full_operator_intertwining',mz(Qop*So-Se*R))
     ck('full_adjoint_intertwining',mz(Qop*Se-So*R.H))
-    ck('wrong_chi_degree_rejected',not mz(Qop*Se-So*R))
+    ck('wrong_adjoint_operator_rejected',not mz(Qop*Se-So*R))
     ck('B_zero_order_not_discarded',any(not mz(b) for b in bvec))
     result={'facts':facts,'predicates_passed':sum(facts.values()),
         'normalizations':{'chi_kinetic':'-i/2','psi_kinetic':'-i/2','raw_gaugino':'-psi D_plus chi/2','bulk_gaugino':'chi D_plus psi/2','curl':'epsilon psi D_minus psi/4'},
