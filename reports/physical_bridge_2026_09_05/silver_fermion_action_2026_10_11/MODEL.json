@@ -1,0 +1,16 @@
+{
+  "carrier": "unchanged silver compact core and flat E8 coefficient",
+  "boundary": "A0=k, A1=im h2 plus L, A2=ann_B(k); unchanged October9 complementary law",
+  "metric": "supplied positive physical metric, identified with cyclic coefficient metric",
+  "parent": "same October10 canonical SK + Sg + relative SW",
+  "D_minus": "d+i ad(A+i B) = D_A-ad B",
+  "D_plus": "D_A+ad B",
+  "canonical_fields": "chi=sqrt(2)lambda, psi=sqrt(2)rho",
+  "candidate_mass_operator": "R(lambda,rho)=(div_Dplus rho, curl_Dminus rho-Dplus lambda)",
+  "odd_map": "rho + lambda volume",
+  "even_map": "-lambda + star rho",
+  "essential_traces": "lambda internally parallel k; rho_t in A1; integrated Pi_k rho_n=0",
+  "conjugates": "actual E8 Hermitian duals, not independent new families",
+  "empirical_constants": [],
+  "does_not_claim": ["generated boundary", "full nonlinear supersymmetry domain", "fresh physical mode census", "full Hamiltonian", "anomalies and inflow", "three families", "gravity", "parameter-free SM or TOE"]
+}

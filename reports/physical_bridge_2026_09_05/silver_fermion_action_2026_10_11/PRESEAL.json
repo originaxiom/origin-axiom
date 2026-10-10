@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/DESIGN.md",
+      "bytes": 5036,
+      "sha256": "e93b0d3ad75e18055951e84e3827a491f7d54c3f1e5ddea58ae94d423e3ed1d9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "bytes": 10193,
+      "sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/probe.py",
+      "bytes": 9813,
+      "sha256": "a50f30912ac707da0b1da94ca5b24ed4f9261fab0dfe07111155f42d649471de"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/reference.py",
+      "bytes": 9368,
+      "sha256": "4a4688fce758540af9cc2b0483b2d1cc7382cde5bdb3521f3e06276458426a39"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/MODEL.json",
+      "bytes": 1015,
+      "sha256": "fd69b24efa7bfaa477b09008dcda487e5f7762d1ef3eceb10d05b688de546528"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/INPUTS.json",
+      "bytes": 1502,
+      "sha256": "29b9f15bb80e9fdae6d7f5ff684d7a79dd8728b38d4442843d6a000ba0a35f3a"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_fermion_action.py",
+      "bytes": 2978,
+      "sha256": "938190761a934370be5c2d821218816455fec3f70c0ea8c50069955d8bd656f1"
+    }
+  ],
+  "execution_status": "unexecuted candidate; no accepted output",
+  "prior_commit": "6efa49384563db643bc9aa90ae369d6d203d1336"
+}
