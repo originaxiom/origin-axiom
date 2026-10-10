@@ -1,0 +1,18 @@
+{
+  "parent": "supplied compact curved 4D N1 superfield E8 gauge sector",
+  "coefficient": "unchanged literal silver nonsplit W, exterior F and all dual/neutral/gauge blocks",
+  "structure_algebra": "first sl5 in the fixed two-A4 embedding",
+  "gauge_algebra": "commuting second sl5; compact reality su5",
+  "vector_trace": "internally parallel k, arbitrary external superfield",
+  "tangential_chiral_trace": "im h2 plus harmonic k-stable L; actual conjugate retained",
+  "natural_response_candidate": "integrated Pi_k Z_outward_normal = 0",
+  "reference": "fixed flat structure-valued Phi_star with the earlier affine CS counterterm",
+  "metric": "supplied positive internal metric and matching boundary Hermitian K; not selected",
+  "arithmetic": "exact rationals and symbolic polynomials",
+  "component_scope": "linearized projected response, all sixteen superspace slots",
+  "phase_scope": "declared nonzero component rescalings; canonical physical mass-operator phase map still owed",
+  "stationarity_scope": "conditional classical first variation, using previously imported compact Dirichlet existence",
+  "full_nonlinear_domain_certified": false,
+  "physical_family_count_certified": false,
+  "goal_achieved": false
+}

@@ -1,0 +1,57 @@
+{
+  "own_input_head": "1da6781fc48370d2b10fc77138fedd85523aba53",
+  "main_intake": "6c148ddd495d133213140995976ff08849793d5d",
+  "sm_intake": "6877cc87d31941a85f139e2f25e5e13694e22ce6",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "bytes": 8116,
+      "sha256": "78693f6656fff74e67c2d94d4fe84a100b02f5ca7ab50ec8b98ae375ccf449c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/NEXT_TEST.md",
+      "bytes": 3299,
+      "sha256": "d5064c8181d18cd088bda146e15c91f94ece7deb5bdd083193dd4cb416869274"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/probe.py",
+      "bytes": 5647,
+      "sha256": "03b40895a9e3c2fbf3b2c75bfb490d2991a604f792fdafdc9808dbf8f05634c9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/probe.py",
+      "bytes": 12355,
+      "sha256": "8ae953a9741135436544ebdc4db96c66893b3220bdc3d8667c347a948082ba42"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/PROOF.md",
+      "bytes": 8587,
+      "sha256": "b1fc46adf8f9e6c397635badd425b8dbed359e792233180840564e2948a22890"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/COMMON_MODEL_CANDIDATE_2026_10_05.md",
+      "bytes": 5751,
+      "sha256": "ecb7cdce2aba2a4bd6595f2d02f71af92334ea654c8003f70c105f6e4ee5ad27"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "bytes": 8962,
+      "sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e"
+    }
+  ],
+  "fork_sources": [
+    {
+      "commit": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_boundary_admission_2026_10_04/PROOF.md",
+      "bytes": 5314,
+      "sha256": "6e00718b4fcde40259555861b598ed0b59e72c2d604cc9f41117dff823dbba59"
+    },
+    {
+      "commit": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "path": "reports/silver_normal_response_2026_10_04/PROOF.md",
+      "bytes": 8334,
+      "sha256": "54fd1b181b5456b14974a5c2b31caaa0d2a9816bc9f7cc8164a20507617a59d1"
+    }
+  ],
+  "focused_tests": 8
+}
