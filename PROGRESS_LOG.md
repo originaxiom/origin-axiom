@@ -18293,3 +18293,26 @@ reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/POST_PUBLICATI
 Sender response relayed on this branch; main has not accepted the
 subsequent170-fraction packet. Silver real-superfield response remains
 next and the original parameter-free SM/TOE goal stays active.
+
+## 2026-10-10 silver real-superfield response executed
+
+Initial sealbc0685973 pushed before execution. First native run failed
+while summing SymPy booleans for output; raw failure and original producer
+preserved. Reporting-only repair resealed/pushed at8501f0ca9 before rerun.
+33 native/23 separate-method predicates,8 focused and58 six-packet
+regression tests PASS (393.63s test/394.386102s captured wall time).
+Seven science and nine source pins unchanged. Full report:
+reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/FINDINGS.md.
+Real action gives integrated parallel-gauge response Pi_k Z_n=0; normal
+gauge jets cancel; entire projected linear response agrees across two
+exterior engines. Secondary normal chi jets remain off shell but their
+averaged law follows on smooth linear solutions. Existing structure-SL5
+harmonic background has zero gauge response despite its nonzero structure
+flux: conditional first-variation stationarity, not stability or a spectrum.
+No charged count or harmonic choice selected/changed. The PDF skill
+prompted a visual primary-equation check; auxiliary coefficient mismatch
+is recorded for a direct energy/normalization derivation, not a no-go.
+Next same-action Hessian, physical phase/domain map, complete kernel and
+quantum anomalies, with generated selection and final SM/TOE still active.
+Cross-seat negatives remain queued for independent reproduction. No
+outside analytic review, full-suite certificate or main acceptance claimed.

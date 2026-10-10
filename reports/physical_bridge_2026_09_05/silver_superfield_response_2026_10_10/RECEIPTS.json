@@ -1,0 +1,95 @@
+{
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/probe.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 2.4379170001484454,
+      "log_bytes": 850,
+      "log_sha256": "3288fb0d005319c6f56128d7f2c25746c974214d9cdfee1f516135c66c0abf5b",
+      "name": "native",
+      "raw_capture_preserved": true
+    },
+    {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.141027000034228,
+      "log_bytes": 1629,
+      "log_sha256": "f86cc00bc422e15ba04d085ec2fbb5a1f1f60ee85ca9d2554a8c6f6bf1e11afe",
+      "name": "reference",
+      "raw_capture_preserved": true
+    },
+    {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.9797719998750836,
+      "log_bytes": 2466,
+      "log_sha256": "a508e2527eaf3f2d3d6fcfdca1333aac9dcfc6157bcc60a82f4e5cce66e9dda0",
+      "name": "native_resealed",
+      "raw_capture_preserved": true
+    },
+    {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.613492999924347,
+      "log_bytes": 1629,
+      "log_sha256": "f86cc00bc422e15ba04d085ec2fbb5a1f1f60ee85ca9d2554a8c6f6bf1e11afe",
+      "name": "reference_resealed",
+      "raw_capture_preserved": true
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_physical_bridge_silver_superfield_response.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 4.662573999958113,
+      "log_bytes": 98,
+      "log_sha256": "8e62d7be880144b2c3f8e7883ba7b79b8f96b64f84fe7a8f04565a768ac24836",
+      "name": "focused",
+      "raw_capture_preserved": true
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_physical_bridge_silver_spectral_completion.py",
+        "tests/test_physical_bridge_silver_nonlinear_boundary.py",
+        "tests/test_physical_bridge_silver_cyclic_transfer.py",
+        "tests/test_physical_bridge_silver_analytic_transfer.py",
+        "tests/test_physical_bridge_silver_complementary_boundary.py",
+        "tests/test_physical_bridge_silver_superfield_response.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 394.3861020000186,
+      "log_bytes": 111,
+      "log_sha256": "383793c4d1a80ac7e4115a1d443c919e21955b03dbeb5b6c900438e4051ba599",
+      "name": "regression",
+      "raw_capture_preserved": true
+    }
+  ],
+  "public_logs": "successful stdout copied unchanged; failed traceback separately privacy-normalized",
+  "note": "Commands are the captured science commands, not private capture paths. No original capture overwritten."
+}

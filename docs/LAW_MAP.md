@@ -1,5 +1,23 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October10 real-superfield silver sublemmas, in the supplied compact E8
+parent and complementary boundary. Authored argument and exact controls:
+reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md;
+tests/test_physical_bridge_silver_superfield_response.py.
+
+| Scoped result | Verification and limit |
+|---|---|
+| Vector kinetic surface is one half integral Tr(Z_n eta), eta=G^-1 delta G | Universal noncommutative variation plus exact matrix-jet control; only the traced [Z,eta] term cancels |
+| Internally parallel k variations give integrated Pi_k Z_n=0 | Twisted real nondegenerate pairing; zero-mean gauge flux survives while constant flux fails; not pointwise deletion |
+| Normal gauge jets cancel in the covariant Z law | Exact finite transformed derivative control; frozen normal vector jet fails; no extra normal Phi Dirichlet |
+| Projected secondary gaugino jets follow on smooth linear solutions, not off shell | Entire sixteen-slot polynomial agrees across exterior engines; integrated curl vanishes by Stokes; not full nonlinear operator-domain equality |
+| Existing structure-valued Dirichlet harmonic background satisfies the real response | E8 invariant orthogonality from commuting perfect factors, all24 gauge shadow controls; with inherited flatness/moment, conditional first-variation stationarity only |
+
+33 native/23 separate-method/8 focused and58 regression PASS after
+preserved reporting-only repair at8501f0ca9. Canonical normalization,
+quadratic energy, physical kernel/anomalies and generated selection
+remain; full TOE and outside analytic acceptance are not earned.
+
 October9 cusp audit sublemmas, for the declared uniform primitive binary
 word ensemble and authored proof. Neither physical selection nor an
 exhaustive action no-go is established. Report/proof:

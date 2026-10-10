@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<checkout>/reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/probe.py", line 188, in <module>
+    if __name__=='__main__':print(json.dumps(run(),indent=2,sort_keys=True))
+                                             ^^^^^
+  File "<checkout>/reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/probe.py", line 178, in run
+    out={'facts':facts,'predicates_passed':sum(facts.values()),
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/logic/boolalg.py", line 249, in _noop
+    raise TypeError('BooleanAtom not allowed in this context.')
+TypeError: BooleanAtom not allowed in this context.

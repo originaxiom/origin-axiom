@@ -1,5 +1,26 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October10 silver real-response disposition:
+
+- PB-SILVER-REAL-RESPONSE EXECUTED at authored research grade:
+  “Internally parallel k vector variations give averaged Pi_k Z_n=0;
+  the existing structure-valued harmonic background satisfies it.”
+  Scope: reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md.
+  33 native/23 separate-method/8 focused/58 regression pass. Conditional
+  first-variation stationarity, not a physical spectrum or stability.
+- PB-SILVER-PHYSICAL-JOINT remains OPEN: direct auxiliary elimination
+  and boundary energy, canonical four-Weyl map and maximal physical/
+  adjoint domain, full kernel/interactions and quantum anomalies.
+  Secondary normal chi jets are checked on linear solutions, not as
+  an off-shell equality of domains. NEXT_TEST.md is unexecuted.
+- PB-SILVER-SOURCE-NORMALIZATION OPEN: personally inspected primary
+  typeset equations display different auxiliary coefficients. Compute
+  the correct canonical normalization from the action; no parent kill.
+- Harmonic selection and three physical SM families are not supplied
+  by this checkpoint. Larger-cover positives remain separate/preserved.
+  Outside analytic review, full-suite/main banking and full TOE remain.
+  Earlier dated “real response next” entries below retain their epoch.
+
 October 9 complementary silver disposition:
 
 - PB-SILVER-COMPLEMENTARY-ACYCLIC EXECUTED at authored research grade:
