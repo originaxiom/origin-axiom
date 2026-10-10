@@ -175,6 +175,9 @@ def run():
         and s.trace(s.kronecker_product(st,k))==0 for st in structures for k in kb)
     facts['nonzero_structure_flux_retained']=s.trace(structures[0]**2)>0
     facts['gauge_flux_opposing_control']=s.trace(kb[-1]**2)==2
+    # SymPy relational booleans cannot be summed or encoded as JSON directly.
+    # Each predicate is still exact; convert only its result type.
+    facts={key:bool(value) for key,value in facts.items()}
     out={'facts':facts,'predicates_passed':sum(facts.values()),
          'component_polynomial':{str(u):str(s.expand(c)) for u,c in sorted(zc.items())},
          'superspace_slots':16,'gauge_generators':24,

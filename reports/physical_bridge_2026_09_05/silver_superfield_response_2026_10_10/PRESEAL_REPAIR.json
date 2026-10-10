@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/DESIGN.md",
+      "bytes": 4795,
+      "sha256": "3629603f1fcc88f8ec84cc1d4b7e5fabf211f7e3a445a2f6e527dfdc7866eabb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md",
+      "bytes": 9479,
+      "sha256": "da4a73d4559fadbd42d1862b9b4b417b1bba3eb5f4e107cba206456ee37c9eaf"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/probe.py",
+      "bytes": 9196,
+      "sha256": "076d448fcd890e6cc971d4a37e6219315a5baf62427b82b95bb7be669f7eba51"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/reference.py",
+      "bytes": 6100,
+      "sha256": "a6e4300d505996fe2825210b62c31f34fc86f38228ca27cccc7e99098d798d1c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/MODEL.json",
+      "bytes": 1225,
+      "sha256": "6c800a024d4f98bbbce34765bff25cc44421d97c182b46539fb54affc3dc9a44"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/INPUTS.json",
+      "bytes": 2234,
+      "sha256": "eb38b02ba75dadcae2c8222a04b9ac83d6a85e6336bf894a10ce8df2e44f418b"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_superfield_response.py",
+      "bytes": 2979,
+      "sha256": "0dafba6cb69166dc78f936da1d0607d9c0b017fdd148c4e2496eb68a4cd2dcb1"
+    }
+  ],
+  "supersedes_execution_envelope": "bc0685973f7557a0ce4d1b05bb7de1f16f1f38c7",
+  "repair": "reporting-only conversion of SymPy predicate results to Python bool"
+}
