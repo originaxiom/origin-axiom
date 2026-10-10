@@ -84,6 +84,21 @@ was presented as the *restriction-free recovery* from I-6's family of error, and
 **stated** restriction (two-character) with an **unstated** identification — worse, because the
 restriction was visible.
 
+## Path-local canonical silver fermion map, 2026-10-11
+
+No shared I-number, count or status changes. The physical Lorentz fields
+and twisted parent are supplied; this does not earn I-10 or the general
+listener/parameter map I-13. The scoped identification below is exhibited,
+not inferred from equal dimensions.
+
+| sides | explicit map and faithful action | scope |
+|---|---|---|
+| Canonically normalized four-Weyl mass operator R and its actual adjoint / graded flat Hodge Q | S_odd(lambda,rho)=rho+lambda vol3, S_even(f,v)=-f+star v; both isometric; Q S_odd=S_even R and Q S_even=S_odd R* including nonzero A/B terms; same integrated physical traces map onto alpha in A, beta in A^perp | EARNED as an authored conditional quadratic operator/domain map for the SAME supplied compact silver parent/metric/boundary; outside acceptance, nonlinear multiplet closure, fresh complete modes/anomalies and generated selection still owed |
+
+Proof and exact two-method controls:
+reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md.
+No other branch's carrier or physical parameter is identified by this row.
+
 ## Path-local R33 representation identification, 2026-09-19
 
 No shared I-number or physical status is reassigned. The following

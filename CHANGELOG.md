@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-11 silver canonical physical fermion joint
+
+Direct SAME-parent expansion gives gaugino D_plus and holomorphic curl
+D_minus, equal canonical kinetic norms and retained normal/curl surfaces.
+Explicit isometries intertwine the full Weyl mass operator and its actual
+adjoint with D+D*, on the SAME maximal elliptic complementary trace.
+The earlier cone index acquires a conditional tree-level Weyl dictionary;
+no fresh global kernel census or generated boundary/SM/TOE is claimed.
+22 native/27 separate-method/7 focused/32 four-packet regression PASS at
+refined pre-run e6e4b6ed2. Initial successful outputs preserved after one
+control-name scope refinement; seven science/five source hashes match.
+Report: reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/FINDINGS.md.
+Next whole-multiplet external supersymmetry/WZ preservation and complete
+modes/interactions/anomalies. All35 L choices and other-route positives
+survive; no architecture-wide negative. Outside/full-suite/main acceptance
+is not claimed. Full parameter-free SM/TOE remains active and unachieved.
+
 ## 2026-10-10 silver canonical static energy
 
 Direct canonical expansion/actual real auxiliary variation gives a

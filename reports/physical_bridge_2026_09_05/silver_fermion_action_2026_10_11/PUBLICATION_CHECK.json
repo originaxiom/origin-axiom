@@ -1,0 +1,47 @@
+{
+  "command": [
+    "python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 17.44521400006488,
+  "log_bytes": 2384,
+  "log_sha256": "f116fde5f89ecf7cea2c06e74ddc321700a1d9d2355107fe534baa102b1c38e2",
+  "checked_staged_tree": "869cfaff66a059b1881e8ecb1702e7a66f1b5835",
+  "tree_after_run": "869cfaff66a059b1881e8ecb1702e7a66f1b5835",
+  "checked_changed_files": 29,
+  "passed": 26,
+  "failed": 4,
+  "inherited_failure_categories": [
+    "attribution: six earlier raw files",
+    "test-vacuity: two earlier locks",
+    "seal-provenance: five earlier designs",
+    "relay-debt: 42 stale un-escalated debts"
+  ],
+  "relay_open_count": 113,
+  "review_due_merges": 415,
+  "no_new_packet_failure_listed": true,
+  "receipt_attached_after_checked_stage": true,
+  "publication_integrity": {
+    "command": [
+      "ruby",
+      "-EUTF-8",
+      "-rjson",
+      "-rdigest",
+      "-e",
+      "base=\"reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/\"; seal=JSON.parse(File.read(base+\"PRESEAL_REFINEMENT.json\")); inp=JSON.parse(File.read(base+\"INPUTS.json\")); (seal.fetch(\"science_files\")+inp.fetch(\"local_inputs\")).each{|r|p=r.fetch(\"path\");raise p unless File.size(p)==r.fetch(\"bytes\") && Digest::SHA256.file(p).hexdigest==r.fetch(\"sha256\")}; rec=JSON.parse(File.read(base+\"RECEIPTS.json\")); names={\"NATIVE_FIRST.log\"=>\"native_first\",\"REFERENCE_FIRST.log\"=>\"reference_first\",\"FOCUSED_FIRST.log\"=>\"focused\",\"REGRESSION_FIRST.log\"=>\"regression\",\"NATIVE_RUN.log\"=>\"native\",\"REFERENCE_RUN.log\"=>\"reference\",\"FOCUSED_RUN.log\"=>\"focused_final\",\"REGRESSION_RUN.log\"=>\"regression_final\",\"INTEGRITY_RUN.log\"=>\"integrity_final\",\"IDENTIFICATION_RUN.log\"=>\"identification\"};names.each{|name,stem|r=rec.fetch(\"all_runs\").fetch(stem);raise name unless File.size(base+name)==r.fetch(\"log_bytes\") && Digest::SHA256.file(base+name).hexdigest==r.fetch(\"log_sha256\") && r.fetch(\"exit_code\")==0}; native=JSON.parse(File.read(base+\"NATIVE_RUN.log\"));ref=JSON.parse(File.read(base+\"REFERENCE_RUN.log\"));raise \"predicate coverage\" unless native.fetch(\"facts\").size==22 && native.fetch(\"facts\").values.all? && ref.fetch(\"predicates\").size==27 && ref.fetch(\"predicates\").values.all?;puts JSON.generate({science_hashes:7,input_hashes:5,literal_stdout_hashes:10,native_predicates:22,reference_predicates:27,all_match:true})"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.12337099993601441,
+    "log_bytes": 131,
+    "log_sha256": "cc950ed1d9fcb46d72c544fbbb3fb2800c5866e48e89042afdb4a8526728a157"
+  },
+  "not_claimed": [
+    "full_suite_green",
+    "nonauthor_analytic_acceptance",
+    "main_bank_acceptance",
+    "physical_goal_achieved"
+  ]
+}

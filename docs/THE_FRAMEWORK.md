@@ -1,5 +1,25 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October11 silver physical-fermion checkpoint:22 native/27 separate-method/
+7 focused and32 four-packet regression PASS at refined pre-run e6e4b6ed2.
+Report: reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/FINDINGS.md.
+The SAME canonical parent gives gaugino D_plus and curl D_minus with
+equal kinetic norms and retained surfaces. Explicit isometries intertwine
+the FULL Weyl mass operator and actual adjoint with D+D*, on the SAME
+maximal elliptic complementary trace. The earlier cone index now has a
+conditional tree-level Weyl interpretation—not just matching dimensions.
+No fresh global PDE/kernel census or three families selected; all35 L
+choices survive. Secondary derivative jets are not extra H1 constraints.
+NEXT whole-superfield external N=1/WZ and gauge preservation, complete
+physical modes, normalized interactions and anomalies/inflow. Parent,
+metric/cut/boundary and polarization remain supplied; ultimate generated
+selection, parameters, gravity and full SM/TOE ACTIVE/unachieved.
+First successful outputs retained after one accurately renamed adjoint
+countercontrol; seven science/five source pins match. Outside review,
+full-suite/main banking and inherited governance debts remain unearned.
+Earlier dated map/domain-next entries below retain their historical epoch.
+
+
 October10 silver static-energy checkpoint:43 native/23 separate-method/
 8 focused and25 three-packet regression PASS at pre-run55227f6d2,
 after the preserved exact-equality verifier repair. Report:

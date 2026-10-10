@@ -1,0 +1,46 @@
+{
+  "boundary_selected": false,
+  "facts": {
+    "B_zero_order_not_discarded": true,
+    "G_exact_inverse": true,
+    "Phi_actual_chirality": true,
+    "V_actual_reality": true,
+    "Z_twisted_reality": true,
+    "actual_connection_adjoint": true,
+    "coefficient_A_skew_B_Hermitian": true,
+    "component_maps_isometric": true,
+    "direct_CS_holomorphic_curl": true,
+    "direct_K_raw_plus_connection": true,
+    "direct_gauge_kinetic_norm": true,
+    "full_adjoint_intertwining": true,
+    "full_operator_intertwining": true,
+    "gaugino_IBP_retains_surface": true,
+    "gaugino_surface_nonzero": true,
+    "kinetic_norm_nonzero": true,
+    "nonzero_B_gaugino_interaction": true,
+    "odd_adjoints_involutive": true,
+    "wrong_adjoint_operator_rejected": true,
+    "wrong_curl_connection_rejected": true,
+    "wrong_gaugino_connection_rejected": true,
+    "wrong_relative_kinetic_norm_rejected": true
+  },
+  "map": {
+    "canonical_rescaling": "chi=sqrt(2)lambda, psi=sqrt(2)rho",
+    "conjugate": "even: -bar_lambda_0+star_bar_rho_2",
+    "left_Weyl": "odd: rho_1+lambda_3"
+  },
+  "native_matrix_controls_not_global_PDE": true,
+  "nonauthor_analytic_review": false,
+  "nonlinear_full_domain_closed": false,
+  "normalizations": {
+    "bulk_gaugino": "chi D_plus psi/2",
+    "chi_kinetic": "-i/2",
+    "curl": "epsilon psi D_minus psi/4",
+    "psi_kinetic": "-i/2",
+    "raw_gaugino": "-psi D_plus chi/2"
+  },
+  "physical_goal_achieved": false,
+  "physical_kernel_census_recomputed": false,
+  "physical_operator_identified_conditionally": true,
+  "predicates_passed": 22
+}

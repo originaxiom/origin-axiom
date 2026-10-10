@@ -1,5 +1,12 @@
 # Derive the physical four-Weyl operator from this action
 
+October11 status: this proposal's canonical quadratic phase/operator and
+maximal linear physical/adjoint trace joint has executed conditionally in
+silver_fermion_action_2026_10_11/FINDINGS.md. The whole nonlinear multiplet,
+complete physical census/interactions/anomalies and generated selection
+remain OPEN. That packet NEXT_TEST.md is the current continuation; the
+original preregistration order below is retained as dated history.
+
 Unexecuted proposal. Keep the same coefficient, twisted parent, physical
 metric, relative surface primitive and A1; do not import a new carrier
 or replace the boundary to recover a desired index.

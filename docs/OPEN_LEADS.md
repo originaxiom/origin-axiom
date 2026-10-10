@@ -1,5 +1,25 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 silver physical-joint disposition:
+
+- PB-SILVER-CANONICAL-FERMION-MAP EXECUTED at conditional authored grade:
+  “The SAME parent yields a norm-preserving full R/R* to D+D* map on
+  the SAME maximal elliptic complementary trace.” Scope and equations:
+  reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md
+  sections1-3.22 native/27 separate-method/7 focused/32 regression PASS.
+  This advances the earlier physical operator debt, not genesis selection.
+- PB-SILVER-PHYSICAL-JOINT remains OPEN for full nonlinear multiplet
+  preservation/WZ compensation, complete physical kernel/multiplicities,
+  actual normalized interactions, anomalies/inflow and dynamical/quantum
+  consistency. The new packet NEXT_TEST.md fixes the next order. Earlier
+  dated “physical map next” entries retain their pre-execution epoch.
+- All35 mathematical L choices survive. Earlier net index now has a
+  conditional tree-level Weyl interpretation; no fresh full census or
+  three families selected. Larger-cover and spin positives remain separate
+  until their own parent/metric/domain matches. No wider carrier kill.
+- Boundary/parameter/vacuum selection, gravity and full parameter-free
+  SM/TOE remain active. Outside/full-suite/main acceptance is still owed.
+
 October10 canonical silver static-energy disposition:
 
 - PB-SILVER-SOURCE-NORMALIZATION EXECUTED at conditional research grade:

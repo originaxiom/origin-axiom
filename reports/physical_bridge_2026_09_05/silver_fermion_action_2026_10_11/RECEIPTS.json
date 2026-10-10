@@ -1,0 +1,159 @@
+{
+  "execution_seal": "e6e4b6ed256b131fd743a6c8c434a377caec2462",
+  "initial_seal": "a2b1c6601b1c3b1611d28ddc78c167fbeca51018",
+  "environment": {
+    "python": "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "ruby_encoding": "UTF-8"
+  },
+  "all_logs_literal": true,
+  "all_runs": {
+    "native_first": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 5.105164000065997,
+      "log_bytes": 1572,
+      "log_sha256": "7610bb772e85d5509321ca59b78c5580ec925199773cb80404846ed0ddc4f080"
+    },
+    "reference_first": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 13.625775000080466,
+      "log_bytes": 1451,
+      "log_sha256": "43e5661b2a4dfe7dd556fef5ba1516309a1ae5e692eb3bdc8fb15fc1d6ebd373"
+    },
+    "focused": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_physical_bridge_silver_fermion_action.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 18.602569999871776,
+      "log_bytes": 99,
+      "log_sha256": "c6e143160472e9e8ccbe6e7421d97cc03d117b9f0e7d4aee020d2509743011de"
+    },
+    "regression": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_physical_bridge_silver_fermion_action.py",
+        "tests/test_physical_bridge_silver_static_energy.py",
+        "tests/test_physical_bridge_silver_superfield_response.py",
+        "tests/test_physical_bridge_silver_complementary_boundary.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 34.766894000116736,
+      "log_bytes": 100,
+      "log_sha256": "3e8f8e0b1c394b98ea1dadd8ae03aafcc9ff2ad4e8d33420e280232489668726"
+    },
+    "native": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 4.93085900018923,
+      "log_bytes": 1578,
+      "log_sha256": "9fccc66b55d045adf533a2b08fe0f1d96d090e69380a5d099649b76aeca7663c"
+    },
+    "reference": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 14.313780999975279,
+      "log_bytes": 1451,
+      "log_sha256": "43e5661b2a4dfe7dd556fef5ba1516309a1ae5e692eb3bdc8fb15fc1d6ebd373"
+    },
+    "focused_final": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_physical_bridge_silver_fermion_action.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 19.16916300007142,
+      "log_bytes": 99,
+      "log_sha256": "bfcf23ecaae14e6414db6c9c44092818767d222303ad11e4ad3b5456d2692b41"
+    },
+    "regression_final": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_physical_bridge_silver_fermion_action.py",
+        "tests/test_physical_bridge_silver_static_energy.py",
+        "tests/test_physical_bridge_silver_superfield_response.py",
+        "tests/test_physical_bridge_silver_complementary_boundary.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 35.26810900005512,
+      "log_bytes": 100,
+      "log_sha256": "983fe12078536eeca43c1fc7860afab29995a662893190995792d537b26d8523"
+    },
+    "integrity_final": {
+      "command": [
+        "ruby",
+        "-EUTF-8",
+        "-rjson",
+        "-rdigest",
+        "-e",
+        "base=\"reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/\"; rows=JSON.parse(File.read(base+\"PRESEAL_REFINEMENT.json\")).fetch(\"science_files\")+JSON.parse(File.read(base+\"INPUTS.json\")).fetch(\"local_inputs\"); rows.each{|r|raise r.fetch(\"path\") unless File.size(r.fetch(\"path\"))==r.fetch(\"bytes\") && Digest::SHA256.file(r.fetch(\"path\")).hexdigest==r.fetch(\"sha256\")}; puts JSON.generate({science_files:7,local_inputs:5,all_hashes_match:true})"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.12969000008888543,
+      "log_bytes": 61,
+      "log_sha256": "c60ac69d5715f639eead4eaa8f2c5489707436dfdb24a04b5396e775f58a4cd9"
+    },
+    "identification": {
+      "command": [
+        "python3",
+        "scripts/checks/identification_audit.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.05441199988126755,
+      "log_bytes": 442,
+      "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+    },
+    "integrity": {
+      "command": [
+        "ruby",
+        "-EUTF-8",
+        "-rjson",
+        "-rdigest",
+        "-e",
+        "base=\"reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/\"; rows=JSON.parse(File.read(base+\"PRESEAL.json\")).fetch(\"science_files\")+JSON.parse(File.read(base+\"INPUTS.json\")).fetch(\"local_inputs\"); rows.each{|r|raise r.fetch(\"path\") unless File.size(r.fetch(\"path\"))==r.fetch(\"bytes\") && Digest::SHA256.file(r.fetch(\"path\")).hexdigest==r.fetch(\"sha256\")}; puts JSON.generate({science_files:7,local_inputs:5,all_hashes_match:true,producer_imports_reference:false})"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.141075000166893,
+      "log_bytes": 96,
+      "log_sha256": "68dcf4f7a195e886433794f1a76dc5af5e48aa4061811d34ed7b747a68a7b81e"
+    }
+  }
+}

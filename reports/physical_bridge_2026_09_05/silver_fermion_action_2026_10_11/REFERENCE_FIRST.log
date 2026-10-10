@@ -1,0 +1,43 @@
+{
+  "full_goal_achieved": false,
+  "global_PDE_solved": false,
+  "native_imported": false,
+  "nonauthor_review": false,
+  "normalizations": {
+    "bulk_gaugino": "chi D_plus psi/2",
+    "chi_kinetic": "-i/2",
+    "curl": "epsilon psi D_minus psi/4",
+    "psi_kinetic": "-i/2",
+    "raw_gaugino": "-psi D_plus chi/2"
+  },
+  "predicates": {
+    "adapted_symbol_exact_square": true,
+    "adapted_symbol_maps_to_complement": true,
+    "creation_Clifford_all_pairs": true,
+    "doubled_normal_Green_maximal": true,
+    "physical_normal_Green_isotropic": true,
+    "physical_trace_high_rank": true,
+    "principal_quaternion_norm": true,
+    "reference_full_Hodge_intertwiner": true,
+    "reference_norm_preservation": true,
+    "tuple_IBP_surface": true,
+    "tuple_all_epsilon_CS_curl": true,
+    "tuple_chiral_kinetic_mu0": true,
+    "tuple_chiral_kinetic_mu1": true,
+    "tuple_chiral_kinetic_mu2": true,
+    "tuple_chiral_kinetic_mu3": true,
+    "tuple_gauge_kinetic_mu0": true,
+    "tuple_gauge_kinetic_mu1": true,
+    "tuple_gauge_kinetic_mu2": true,
+    "tuple_gauge_kinetic_mu3": true,
+    "tuple_internal_plus_connection": true,
+    "tuple_nonzero_kinetic_mu0": true,
+    "tuple_nonzero_kinetic_mu1": true,
+    "tuple_nonzero_kinetic_mu2": true,
+    "tuple_nonzero_kinetic_mu3": true,
+    "tuple_odd_reality": true,
+    "tuple_wrong_internal_connection_rejected": true,
+    "unrestricted_chi_trace_rejected": true
+  },
+  "predicates_passed": 27
+}

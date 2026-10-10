@@ -1,5 +1,25 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 canonical four-Weyl silver sublemmas. Scope: SAME supplied
+compact twisted E8 parent, admitted flat coefficient, physical metric and
+strict complementary A. Authored proof, outside acceptance pending:
+reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md;
+tests/test_physical_bridge_silver_fermion_action.py.
+
+| Scoped result | Verification and limit |
+|---|---|
+| Actual parent gives gaugino D_plus and curl D_minus | Two odd exterior algorithms with actual dagger/noncommuting coefficients; wrong connections fail; not a universal published erratum |
+| Canonical chi and all three psi have equal nonzero kinetic norms | Direct W and chiral-shift extraction, four Lorentz-covector reference checks; full interacting Hamiltonian not certified |
+| S_odd=rho+lambda vol, S_even=-lambda+star rho intertwine R and R* with Q | Isometric full-coefficient maps including Higgs/connection, not only symbol or dimension; parent/metric supplied |
+| Same essential physical traces give the maximal elliptic Hodge domain | Integrated k projection, cyclic A1 pairing, exact all-covector symbol and prior Hilbert-complex proof; secondary derivative jets not extra H1 constraints |
+| Previous cone J is the conditional tree-level net Weyl index | Flat admitted background and charged H0=H3=0; no fresh rank/PDE census, L selection, full multiplet closure or anomalies/inflow |
+
+22/27 exact predicates,7 focused and32 four-packet regression PASS after
+control-label refinement sealed before reruns at e6e4b6ed2. Earlier dated
+map/domain debts below reflect their epoch; the nonlinear whole-multiplet,
+complete spectrum/interactions/quantum and generated-selection duties are
+still OPEN. Shared identification numbers and ultimate SM/TOE unchanged.
+
 October10 canonical static silver sublemmas. Scope: supplied compact E8
 parent, positive metric, relative reference and complementary boundary.
 Authored PROOF plus exact controls, not nonauthor analytical acceptance:

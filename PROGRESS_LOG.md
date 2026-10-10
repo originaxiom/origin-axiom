@@ -18341,3 +18341,26 @@ adjoint domains, complete kernel/interactions/anomalies. Selection,
 normalized parameters, gravity and ultimate SM/TOE stay active/unachieved.
 Own sender relay committed; no receiver/main/outside/full-suite acceptance.
 Cross-seat negative audits remain queued; no architecture-wide kill.
+
+## 2026-10-11 canonical silver physical fermion joint executed
+
+Initial science a2b1c6601 pushed before execution:22 native/27 reference,
+7 focused and32 four-packet tests passed. Adversarial self-review renamed
+one passed control from degree-error to wrong-adjoint, without changing
+its criterion/calculation. First successful outputs preserved; refinement
+resealed/pushed at e6e4b6ed2 before authoritative reruns, again22/27/7/32
+PASS. Captured regression35.268109s; seven science/five source hashes
+match. Literal stdout/exit/bytes/hashes retained. Report:
+reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/FINDINGS.md.
+SAME parent gives gaugino D_plus and curl D_minus, equal kinetic norms,
+retained surfaces and actual adjoints. Explicit isometries send left Weyl
+fields to odd forms and actual conjugates to even forms, intertwining the
+FULL R/R* operator with D+D* on the SAME maximal elliptic trace. This is
+a conditional tree-level physical meaning for the prior cone index, not
+a fresh global physical census or selection among35 harmonic choices.
+Normal derivative jets are not extra H1 traces. Next full superfield
+N=1/WZ/gauge preservation, complete modes/interactions/anomalies; generated
+selection, normalized values, gravity and ultimate SM/TOE still active.
+Sender-owned review relay OPEN; outside/full-suite/main acceptance not
+claimed. Initial prereg had diff checks, not all-green governance. Other
+seats' negatives remain queued/pinned rather than accepted on authority.
