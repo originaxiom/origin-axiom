@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/DESIGN.md",
+      "bytes": 5107,
+      "sha256": "accef82ab5290e5e3d233460ab96bfce88b8f8512d3db1f206528da4c6ad36d6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "bytes": 7485,
+      "sha256": "20d20923474012672616c752b57ecb087817bf0acabc7ca04c4b2b38b1d1792e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/probe.py",
+      "bytes": 9798,
+      "sha256": "3bab5231f122ef9079a3d2b6f208d5acc193d7f0bbe952f5d0a4170fb6a5112f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/reference.py",
+      "bytes": 5085,
+      "sha256": "1a1e0b1ad4af73faae4e7472f02f742b8ea301fa76fc04fa4498e4cffb512980"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/MODEL.json",
+      "bytes": 947,
+      "sha256": "2624f88c1bc0d2975fdb04c08432c61061caa192bf2dfdfb786f60b1454be6ad"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/INPUTS.json",
+      "bytes": 2629,
+      "sha256": "948dfdaf0ca66833ed92b3f5ccb479b609fbf503260b76ff21af96bf4a21c385"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_static_energy.py",
+      "bytes": 3516,
+      "sha256": "a2cae55345bc64bb7a7d9d16e5e98ed87b08a510be168612e4d094887e7a4290"
+    }
+  ],
+  "scope": "canonical static auxiliary/energy only; not physical kernel or full Hamiltonian",
+  "author_review": "same-author analytic proof plus separate algorithms; nonauthor review owed"
+}

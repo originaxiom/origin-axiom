@@ -1,0 +1,23 @@
+{
+  "scope": "supplied compact silver twisted E8 parent and complementary boundary, static Poincare sector",
+  "theta_squared": "2*t1*t2",
+  "bartheta_squared": "-2*b1*b2",
+  "berezin_top": "coefficient(t1*t2*b1*b2)*(-1/4)",
+  "chiral": "Phi=A+iB+theta_squared*F",
+  "vector": "V=theta_squared*bartheta_squared*D/2",
+  "kinetic_prefactor": "1/4",
+  "gauge_prefactor_plus_conjugate": "1/16",
+  "holomorphic_prefactor_plus_conjugate": "1/4",
+  "relative_CS_in_C_convention_prefactor": "-1/2",
+  "curvature": "H=dPhi+i*Phi^2",
+  "c": "2*Hodge_star(H)",
+  "boundary": "V parallel k; tangential chiral fluctuation A1=im(h2)+L; Pi_k Z_n=0 integrated",
+  "expected_F_kinetic": "1/2",
+  "expected_D_solution": "mu=div_A B",
+  "expected_F_solution": "-c_dagger/2",
+  "expected_V": "norm(mu)^2/2+norm(c)^2/8",
+  "physical_kernel_computed": false,
+  "boundary_selected": false,
+  "full_dynamical_stability_proved": false,
+  "physical_goal_achieved": false
+}
