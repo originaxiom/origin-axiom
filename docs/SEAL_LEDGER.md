@@ -782,3 +782,16 @@ and failed output are preserved. Mathematical criteria and proof unchanged.
 | `reports/nonsplit_admissibility_2026_09_20/verify_v2.py` | `7971b9ad51527d68429440bb025201c15087a0d2f55779fd080feca2be0b50da` |
 | `reports/nonsplit_admissibility_2026_09_20/test_verify_v2.py` | `8affad7d07f6e5a039492a46bfcb4ebe776f5d176334ef924b2557ed51a98ea7` |
 | `reports/nonsplit_admissibility_2026_09_20/CORRECTION_V2.md` | `1a9acea77e55d0070611fe563a351362bd7f472bb9b50ca0a108936164c32b6c` |
+
+## Fork local positive carrier audit 2026-10-11
+
+Pre-execution seal for a specific foundation implication. No shared B number,
+physical identification or canonical GENESIS change. Expected outcome is a
+proper quotient preserving all positive words and their substitutions; the
+all-length conclusion needs the analytic proof, not just its finite checks.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/positive_carrier/PREREGISTRATION.md` | `800af1a2f6b405d1ce317ccc121cf3dc305961f6394e9242e6bcfacccc719bf2` |
+| `reports/genesis_root_review_2026_10_11/positive_carrier/PROOF.md` | `97e48617c47b858f91f91e36fcdd28f405445fa132c33441354a3663e5e79dc7` |
+| `reports/genesis_root_review_2026_10_11/positive_carrier/verify.py` | `f6e7179685784933622b1c90e49819d6c98a4f8075d9793f35ca8d8bed2121bf` |
