@@ -1,0 +1,21 @@
+{
+  "scope": "same supplied compact twisted E8 theory; nonsplit silver coefficient; all k-stable harmonic polarization multiplicity strata",
+  "parent_selected": false,
+  "boundary_selected": false,
+  "physical_metric_identification": "supplied",
+  "external_metric": [
+    -1,
+    1,
+    1,
+    1
+  ],
+  "vector_action": "-Tr f_mu_nu f^mu_nu/4",
+  "mixed_boson_action": "-sum eta_mu Tr(X_mu^2+Y_mu^2)/2 plus retained external divergence",
+  "gauge": "compact real only; normal jets allowed; residual k(x) retained",
+  "charged_rank_invariant": "ell and j=dim(R intersect L); no count of continuous vacua",
+  "neutral_gauge_polarizations": "varied, not fixed silently",
+  "left_counting": "H1 plus gauge H3; H2/H0 are actual conjugates, not extra left particles",
+  "anomaly_grade": "conditional local SU5 cubic, not full quantum/inflow",
+  "empirical_constants": [],
+  "full_goal_achieved": false
+}
