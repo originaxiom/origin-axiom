@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/DESIGN.md",
+      "bytes": 5672,
+      "sha256": "65ff5ad31d80afe8743c03ced5f4bfa439049f0e91239f8306f27edb787c3e1e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "bytes": 13239,
+      "sha256": "6f3eee6acfed04e98f4df0d4fe98aff6d717be416a3aee05fb350d571934b8fa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/MODEL.json",
+      "bytes": 1018,
+      "sha256": "d37f2a308a9257805a64cdb04b4e222002c83aa6858eec3357d9e2376d99eb6b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/INPUTS.json",
+      "bytes": 4726,
+      "sha256": "2b3e608c11402d59a91c7ffa60a2ad5d1af386b99af6a7f464b502cc0963b2f9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/probe.py",
+      "bytes": 9829,
+      "sha256": "943f1336fbfe35c56a79a5c9b2cd031d87cc775fb3a1fbc195637bfcc225a1b6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/reference.py",
+      "bytes": 7224,
+      "sha256": "82b7db0034515eea4e2ced8477df031225dd6a405418521aa46f382b126672a5"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_adjoint_phase.py",
+      "bytes": 4093,
+      "sha256": "1f141788dc6913595b995366a1bb291149bb173b992c6901ca9f6cc1b291e339"
+    }
+  ],
+  "execution_status": "unexecuted; no candidate science import, run or test collection",
+  "prior_commit": "3ed471d728cf44779a6706b6862246f371fc8504"
+}

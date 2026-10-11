@@ -1,0 +1,17 @@
+{
+  "carrier": "same silver compact core, not R93's closed join",
+  "action": "unchanged canonical Sg+SK+relative SW; optional supplied common prefactor kappa>0",
+  "boundary": "fixed OLD A0=k, A1=im h2+L, A2=ann(k); Lg=Rg, all other L fixed",
+  "branch": "phi_v=phi_star+v H omega, H=diag(2,2,2,-3,-3), omega real harmonic and nonexact",
+  "deformed_differential": "Dv=Dstar+i v omega wedge ad(H), fixed trace domain",
+  "candidate_vector_kernel": "C_compact_k(H), not centralizer of holonomy alone",
+  "SM_map": "(g3,g2,z)->diag(z^-2 g3,z^3 g2), conventional 6Y=-H",
+  "candidate_cubic": "Y_ABC=i sqrt(2/kappa) integral Tr(h_A wedge [h_B,h_C])",
+  "candidate_fermion_cubic": "+Y_ABC z_C rho_A rho_B/2 in the frozen i-rho convention",
+  "candidate_small_v_mass": "5 abs(v) norm(omega)/sqrt(Vol) + O(v^2) in broken adjoint sector only",
+  "empirical_constants": [],
+  "selection_derived": false,
+  "global_normalized_overlaps_evaluated": false,
+  "finite_v_full_charged_census": false,
+  "full_goal_achieved": false
+}
