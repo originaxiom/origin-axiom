@@ -70,7 +70,9 @@ The next terms have superspace degree at least five and vanish, including
 for a supersymmetry variation whose minimal degree is one. Equivalently,
 delta V=(delta G-V delta G-delta G V)/2. This is NOT delta G/2. The
 inverse exponential relation delta G=2delta V+2(V delta V+delta V V)
-retains every nonabelian term. The same statements apply to its actual
+retains every nonabelian term. The false delta G/2 rule can nevertheless
+have zero forbidden slots, so that slot test alone does NOT certify the
+canonical component variation. The same statements apply to its actual
 normal derivative; no derivative of V or Lambda can be discarded there.
 Differentiating Lambda gives Lambda_n=2i chiral_shift P_h(delta_S V_n).
 The reference extracts the equivalent seed from delta_S G_n, because

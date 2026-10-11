@@ -1,0 +1,86 @@
+{
+  "native": {
+    "command": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/probe.py"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 41.815191000001505,
+    "log_bytes": 2185,
+    "log_sha256": "4c58d265cc9c946f91e490be90c9b0ce40a611966b054cc9cb5d082699de7897"
+  },
+  "reference": {
+    "command": [
+      "python3",
+      "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/reference.py"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 30.81069300021045,
+    "log_bytes": 1359,
+    "log_sha256": "57c799aa3061f801e3c76b6fbc215f5f2fa04f9c56c9718ee3a550419b2cd14c"
+  },
+  "focused": {
+    "command": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_silver_superfield_covariance.py"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 72.15539000020362,
+    "log_bytes": 109,
+    "log_sha256": "da35dfd2acde82585b5644e37fa6e8c47f8c606d50eb242f66e83d03b1b11f08"
+  },
+  "regression": {
+    "command": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_physical_bridge_silver_superfield_covariance.py",
+      "tests/test_physical_bridge_silver_fermion_action.py",
+      "tests/test_physical_bridge_silver_static_energy.py",
+      "tests/test_physical_bridge_silver_superfield_response.py",
+      "tests/test_physical_bridge_silver_complementary_boundary.py"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 106.69831200013869,
+    "log_bytes": 111,
+    "log_sha256": "b131b3aa11eb2521dc1585e00647c3ddcc849dc0e418a441cdb4672e994400ad"
+  },
+  "integrity": {
+    "command": [
+      "ruby",
+      "-EUTF-8",
+      "-rjson",
+      "-rdigest",
+      "-e",
+      "base=\"reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/\";rows=JSON.parse(File.read(base+\"PRESEAL.json\")).fetch(\"science_files\")+JSON.parse(File.read(base+\"INPUTS.json\")).fetch(\"local_inputs\");rows.each{|r|p=r.fetch(\"path\");raise p unless File.size(p)==r.fetch(\"bytes\") && Digest::SHA256.file(p).hexdigest==r.fetch(\"sha256\")};puts JSON.generate({science_files:7,local_inputs:5,all_hashes_match:true})"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.1286369999870658,
+    "log_bytes": 61,
+    "log_sha256": "c60ac69d5715f639eead4eaa8f2c5489707436dfdb24a04b5396e775f58a4cd9"
+  },
+  "identification": {
+    "command": [
+      "python3",
+      "scripts/checks/identification_audit.py"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.04742600000463426,
+    "log_bytes": 442,
+    "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+  }
+}

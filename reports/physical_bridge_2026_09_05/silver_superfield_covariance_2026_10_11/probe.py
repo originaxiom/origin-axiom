@@ -99,6 +99,7 @@ def run():
     bad=logvar(G,add(dSG,scale(mul(G,L),-I),scale(mul(Ld,G),I)))
     ck('wrong_compensator_sign_rejected',bool(forbid(bad)))
     ck('abelian_deltaV_rule_rejected',not eq(dv,scale(dG,Q(1,2))))
+    ck('abelian_rule_can_preserve_forbidden_slots',not forbid(scale(dG,Q(1,2))))
     # A residual real scalar gauge generates NONZERO admissible normal jets.
     lam=(1+x*x)*KX+(1+x)*s.kronecker_product(sig[1],sig[1])+x*s.kronecker_product(sig[2],sig[3])
     lc=chiral({0:lam});lb=dag(lc)

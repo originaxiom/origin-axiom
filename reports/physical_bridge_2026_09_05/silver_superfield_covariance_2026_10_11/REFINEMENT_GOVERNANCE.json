@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 14.687356000067666,
+  "log_bytes": 2384,
+  "log_sha256": "dc522ce1e38bcbd12ff74f94ff76778091fce811244fecac3d27789711042f1f",
+  "checked_staged_tree": "9c66567fd6d673b79f4046cc7abce6d48acb9120",
+  "tree_after_run": "9c66567fd6d673b79f4046cc7abce6d48acb9120",
+  "passed": 26,
+  "failed": 4,
+  "new_packet_failure_listed": false,
+  "receipt_attached_after_checked_stage": true
+}

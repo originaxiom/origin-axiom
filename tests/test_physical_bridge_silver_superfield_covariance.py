@@ -18,6 +18,8 @@ def test_all_external_covectors_and_chirality():
 def test_canonical_nonlinear_WZ_recovery():
     assert facts('nonzero_V_square_retained','exact_nonabelian_exponential_inverse','uncompensated_WZ_slots_nonzero','canonical_compensated_WZ_slots_zero','full_exponential_linearization','wrong_compensator_sign_rejected','abelian_deltaV_rule_rejected')
     assert refs('tuple_nonzero_nonlinearity','tuple_forbidden_slots_recovered','tuple_inverse_exponential_not_abelian','tuple_wrong_sign_rejected')
+    assert facts('abelian_rule_can_preserve_forbidden_slots')
+    assert refs('tuple_abelian_variation_forbidden_slots_blind')
 def test_whole_normal_response_keeps_actual_jets():
     assert facts('normal_WZ_jet_admitted','normal_compensator_jet_nonzero','full_normal_compensated_Ward_identity','normal_WZ_recovery','every_projected_response_slot_preserved')
     assert refs('tuple_full_eta_response_Ward','tuple_normal_WZ_recovered','tuple_nonzero_normal_compensation','tuple_integrated_entire_response')

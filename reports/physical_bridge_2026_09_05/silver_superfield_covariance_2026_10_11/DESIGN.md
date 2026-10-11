@@ -67,8 +67,11 @@ Require: actual reality/chirality, Q/D algebra, nonzero uncompensated
 forbidden WZ slots, zero compensated forbidden slots, full finite-exp
 linearization, nonzero normal compensator jets, complete Z Ward identity
 and its integrated projection, preserved nonzero structure/zero-mean flux.
-Wrong compensator sign, abelianized G or frozen normal Lambda jets must
-fail CANONICAL WZ recovery. Consistently deleting both appearances of a
+Wrong compensator sign or frozen normal Lambda jets must fail forbidden
+WZ-slot recovery. The abelianized LOG VARIATION delta V=delta G/2 must
+fail the exact canonical exponential variation, although its forbidden
+slots CAN still vanish; require that Ward-blind-style positive control
+too. Consistently deleting both appearances of a
 normal Lambda jet can remain invisible to Z's Ward identity, because
 those jets cancel there; require this positive control too. An inconsistent
 one-leg omission must fail Ward covariance and projection. An external-

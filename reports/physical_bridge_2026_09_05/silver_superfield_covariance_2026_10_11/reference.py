@@ -64,6 +64,7 @@ def run():
     ck('tuple_chiral_compensator',all(not bd(L,j) for j in range(2)))
     ck('tuple_forbidden_slots_recovered',bool(forbidden(ss(V))) and not forbidden(DV))
     ck('tuple_inverse_exponential_not_abelian',eq(DG,add(times(DV,2),times(add(prod(V,DV),prod(DV,V)),2))) and not eq(DV,times(DG,Q(1,2))))
+    ck('tuple_abelian_variation_forbidden_slots_blind',not forbidden(times(DG,Q(1,2))))
     ck('tuple_compensator_stays_in_gauge_factor',eq(project(L),L))
     bad=invexpvariation(V,add(ss(G),times(prod(G,L),-I),times(prod(Lb,G),I)))
     ck('tuple_wrong_sign_rejected',bool(forbidden(bad)))
