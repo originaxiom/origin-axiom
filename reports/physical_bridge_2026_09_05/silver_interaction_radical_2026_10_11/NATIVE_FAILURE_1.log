@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/probe.py", line 9, in <module>
+    import sympy as s
+ModuleNotFoundError: No module named 'sympy'

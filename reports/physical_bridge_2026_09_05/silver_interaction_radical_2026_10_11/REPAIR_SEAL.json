@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/DESIGN.md",
+      "bytes": 4687,
+      "sha256": "8f2bc81d8e0d1f0f93d75295669db190dd742b3a42f01c65591bafbc449d09b0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/PROOF.md",
+      "bytes": 3904,
+      "sha256": "07acffd7de75ceb915988ff3064e2b270d61cd9a861f9af2a68880274abc8e89"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/probe.py",
+      "bytes": 8044,
+      "sha256": "7415bb6846c4057465747ac3aaf00df5eb607c4505eafda1dab4a81481af1cff"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/reference.py",
+      "bytes": 8090,
+      "sha256": "8b8b5bd73bb2b5717456cc6b4d8628b1a4d5bf033b782f3be84553476b2a2608"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/INPUTS.json",
+      "bytes": 5184,
+      "sha256": "c6b350feb98b9ed26f304bee178f5693cd21e152131a7bfe2e6dc4a45c75688a"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_interaction_radical.py",
+      "bytes": 2957,
+      "sha256": "594f40bbdd43adab2b8649e12ac2139111a865dc3a7b2e39b39af0335acb4dec"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/REPAIR_1.md",
+      "bytes": 1047,
+      "sha256": "4a8a6e99b65ca635f33c7a1bcf38334fc88025e31ce0d4507ba6f6fd67af32aa"
+    }
+  ],
+  "first_failure_logs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/NATIVE_FAILURE_1.log",
+      "raw_bytes": 267,
+      "raw_sha256": "30a7273720d5fb96fdcfd9c92edba36f1cf7fb8b8d6453595dafb999ea536da5",
+      "public_bytes": 214,
+      "public_sha256": "ed4dd8265fca10b128ec925c234748d38bf6b802c8d4122b32b16d0dbcdc09e4",
+      "redaction": "Absolute checkout prefix only"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/REFERENCE_FAILURE_1.log",
+      "raw_bytes": 552,
+      "raw_sha256": "2530d1d2c79f297190d6ff07bed81de168acd2061d9362f328f63a02428619f8",
+      "public_bytes": 446,
+      "public_sha256": "584717b4fb3fabb48d7e77a497f8f606ef66bf086f483d2b5aa8467b239c5077",
+      "redaction": "Absolute checkout prefix only"
+    }
+  ],
+  "before_replay": true,
+  "model_and_criteria_unchanged": true,
+  "runner_versions": {
+    "first": "system Python3.9.6 without SymPy",
+    "replay": "existing Python3.12.1 with SymPy1.14.0"
+  }
+}

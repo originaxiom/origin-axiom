@@ -109,7 +109,7 @@ def run():
         p = profiles[label]
         pts = points[:p['r']+1]
         ck(label+'_Vandermonde_envelope_certificate', len(pts) == p['r']+1)
-        E = columns(c.cat(*(evaluations[t][label] for t in pts)))
+        E = columns(c.old.hcat(*(evaluations[t][label] for t in pts)))
         AE, BE = columns(c.mm(p['a'], E)), columns(c.mm(p['b'], E))
         summary[label] = {'primitive_dimension': dimension, 'envelope_rank': len(E[0]),
             'envelope_sha256': plane_hash(E), 'meridian_image_rank': len(AE[0]),

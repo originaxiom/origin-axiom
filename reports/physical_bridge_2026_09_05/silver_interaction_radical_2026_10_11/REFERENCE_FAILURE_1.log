@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/reference.py", line 172, in <module>
+    print(json.dumps(run(), sort_keys=True, indent=2))
+  File "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/reference.py", line 112, in run
+    E = columns(c.cat(*(evaluations[t][label] for t in pts)))
+TypeError: cat() takes 2 positional arguments but 5 were given
