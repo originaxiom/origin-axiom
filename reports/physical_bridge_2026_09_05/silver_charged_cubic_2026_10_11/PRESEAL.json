@@ -1,0 +1,35 @@
+{
+  "before_first_science_execution": true,
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/DESIGN.md",
+      "bytes": 5049,
+      "sha256": "c24e3a0a358a71fba40ca534d86a2b6f4a7ba44d1b20dd0e4c574b570e8795c2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/PROOF.md",
+      "bytes": 6707,
+      "sha256": "53cd127aaf00cbb6d0c3bc52d2f60c84ab227fe86541354b58f8b505bb2cb0e4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/probe.py",
+      "bytes": 7576,
+      "sha256": "ebdf5e7c929c315361cdfc18f97536cb347857b037e17fdd8602e90d4c6605ae"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/reference.py",
+      "bytes": 7215,
+      "sha256": "3340dfd0a43ffbd37313475f838609916a6f71f896b4c4bcec6efb700b0eec7b"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_charged_cubic.py",
+      "bytes": 2892,
+      "sha256": "9ff725b697ca438b6732084f6e98cbeb86a9100d83d0ba37cff10c2bc66b71d4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/INPUTS.json",
+      "bytes": 4683,
+      "sha256": "2c087a0d475927c0090a2116fc45c402e204e5c5074925fd47266386dcdbfc93"
+    }
+  ]
+}
