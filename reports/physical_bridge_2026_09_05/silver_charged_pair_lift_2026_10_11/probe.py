@@ -46,7 +46,7 @@ def element(x, variable=None):
     def polynomial(expr):
         out=field.zero
         for (power,),coefficient in s.Poly(s.expand(expr),variable,domain='EX').terms():
-            out+=field.convert(quadratic_polynomial(coefficient))*generator**power
+            out+=field.convert(quadratic_polynomial(coefficient),K)*generator**power
         return out
     return polynomial(num)/polynomial(den)
 

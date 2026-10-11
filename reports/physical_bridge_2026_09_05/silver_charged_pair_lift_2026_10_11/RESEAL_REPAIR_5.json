@@ -1,0 +1,17 @@
+{
+  "repaired_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+      "bytes": 14593,
+      "sha256": "f12bfac17d7d722bb2aa915e54811da2623648fbe20d163762aeb25ad94ec2eb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_5.md",
+      "bytes": 828,
+      "sha256": "b2cbe6b1bff6cd6ed6c54744633e81c751ea44b1d433ef71246a85097b8f76bc"
+    }
+  ],
+  "prior_seal": "983d5269fd8834bef00cb9d306843cf03a674cca",
+  "before_replay": true,
+  "scope": "explicit already-declared K argument to the exact fraction-field converter; all criteria/reference unchanged"
+}

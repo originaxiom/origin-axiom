@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 280, in <module>
+    if __name__=='__main__': print(json.dumps(run(),sort_keys=True,indent=2))
+                                              ^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 213, in run
+    fam = family(rep,data); dfam = {k:x.subs(q,1/q) for k,x in family(dualrep,data).items()}
+          ^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 98, in family
+    F = s.Matrix.vstack(*(fox(rq, w, q) for w in data['relators']))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 98, in <genexpr>
+    F = s.Matrix.vstack(*(fox(rq, w, q) for w in data['relators']))
+                          ^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 82, in fox
+    letters.update({g.upper():dm(m, variable).inv().to_Matrix() for g, m in rep.items()})
+                              ^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 57, in dm
+    row={j:element(a[i,j],variable) for j in range(a.cols) if a[i,j]!=0}
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 51, in element
+    return polynomial(num)/polynomial(den)
+           ^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 49, in polynomial
+    out+=field.convert(quadratic_polynomial(coefficient))*generator**power
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/domain.py", line 468, in convert
+    raise CoercionFailed("Cannot convert %s of type %s to %s" % (element, type(element), self))
+sympy.polys.polyerrors.CoercionFailed: Cannot convert ANP([1, 0], [1, 0, -2], QQ) of type <class 'sympy.polys.polyclasses.ANP'> to QQ<sqrt(2)>(q)
