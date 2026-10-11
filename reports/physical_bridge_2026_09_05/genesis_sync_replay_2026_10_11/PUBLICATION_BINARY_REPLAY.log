@@ -1,0 +1,5 @@
+PASS equal-byte/changed-byte opposing controls
+PASS four unchanged pre-execution source hashes
+PASS twenty-one pinned source blobs
+PASS three byte-faithful public first logs
+PASS all twenty-one named publication files equal staged bytes

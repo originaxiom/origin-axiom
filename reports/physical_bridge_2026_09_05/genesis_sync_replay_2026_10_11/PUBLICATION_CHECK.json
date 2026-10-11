@@ -1,0 +1,43 @@
+{
+  "checked_commit": "61840b246cd6f360b6bb20567d6dd79a69bd66b4",
+  "scope": "Read-only metadata custody repair replay and governance, not a new science or full-suite run",
+  "checks": {
+    "PUBLICATION_BINARY_REPLAY": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.8628489999100566,
+      "log_bytes": 237,
+      "log_sha256": "a02d1462fbc816299051f2819a12fdec1c51c59cc0c2fdaaca47898c8dfe139f",
+      "raw_receipt_sha256": "b85ec98d02c6b5152015c298ae7cee42343cf97eb357a71c3cf171468553f6c7"
+    },
+    "FOLLOWUP_GOVERNANCE": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 15.537739000050351,
+      "log_bytes": 2384,
+      "log_sha256": "c4520d1fe96a3c9886364e94858a3c31796260dc6ce0fb3b1522a7df69de1bc3",
+      "raw_receipt_sha256": "d9761fe12067688a2f408ec8d464a29e3f04ada13e9cc42f0c7a12df13eee364"
+    }
+  },
+  "exact_byte_custody_pass": true,
+  "opposing_equal_and_changed_byte_controls_pass": true,
+  "four_original_science_sources_unchanged": true,
+  "twenty_one_pinned_source_files_unchanged": true,
+  "three_first_scientific_logs_unchanged": true,
+  "seven_reseal_artifacts_unchanged": true,
+  "governance": {
+    "pass": 26,
+    "fail": 4,
+    "all_four_failure_lines_identical_to_first_publication": true,
+    "failure_lines_sha256": "175d7341a116591887aa637325f175bdbe1fd60f15177319c0bd220e92eaae41",
+    "full_suite_or_main_acceptance": false
+  },
+  "first_custody_failure_preserved": true,
+  "no_mathematical_criterion_or_input_changed": true,
+  "final_after_check_metadata_only": [
+    "FINDINGS.md",
+    "PUBLICATION_CHECK.json",
+    "PUBLICATION_BINARY_REPLAY.log",
+    "FOLLOWUP_GOVERNANCE.log"
+  ]
+}

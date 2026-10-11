@@ -126,3 +126,14 @@ log. PUBLICATION_REPAIR.md declares the byte comparison correction,
 not a mathematical change. Its resealed replay remains a separate check.
 Research commits bypass hooks with visible failures; no full-suite/main
 certificate is asserted.
+
+After metadata repair seal61840b246 was pushed, the exact-byte replay
+passed both opposing controls, all science/source/log hashes and all21
+named staged publication files. Seven repair/failure artifacts remain
+at their seal hashes. Governance rerun stays26 PASS/4 FAIL; all four
+failure lines are byte-identical to the first publication check. The first
+encoding-comparison failure remains preserved. Only this dated receipt
+and named followup logs/metadata enter after those read-only checks.
+The custody checker is repaired; the mathematical instruments, source
+proofs and criteria have not changed. Full-suite/main acceptance is
+still not claimed.
