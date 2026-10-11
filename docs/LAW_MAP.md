@@ -1,5 +1,20 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 selective interaction-radical sublemmas at fixed supplied
+constant-boundary/small-phase domain, authored CONDITIONAL application.
+Packet silver_interaction_radical_2026_10_11, latest science63bc22dbf;
+57/34 exact predicates and9 new within43 regression PASS. Existing
+affine submodule, full parent tensors and Stokes proof credited prior;
+no new shared number, outside analytic/full-suite/main or SM/TOE claim.
+
+| Scoped result | Proof and live safeguard |
+|---|---|
+| Actual charged primitive spaces land in V4, wedge2 V4 and ann(wedge2 V4), with the SAME flags for A/B images | BLOCK_REFINEMENT and test_verified_four_plane_mechanism_is_not_the_false_e5_line_hypothesis; entire pencil and independent envelope hashes, not only dimensions. V4 is a coefficient submodule, not spacetime |
+| Each wholly charged Stokes term vanishes separately by dimension-four volume or actual dual annihilation | BLOCK_REFINEMENT, test_all_four_tensor_terms_are_classified_individually; parent maps and allowed profiles retained. No all-domain, neutral, higher or quantum kill |
+| Constant envelope of degree-D polynomial profiles is recovered by D+1 distinct nonsingular values | PROOF1, test_reference_has_envelope_and_term_degree_certificates and test_exact_constant_envelopes_agree_not_only_dimensions; Vandermonde reconstruction, not a sampled null |
+| Boundary-parallel e5 need not split the affine bulk coefficient | Existing affine construction plus actual literal logs/holonomies, test_boundary_parallel_line_is_not_a_bulk_invariant_section; no lost affine data or global invariant e5 claim |
+| Opposing block controls reject zero-map and always-true detector mutations | CONTROL_WIRING_REPAIR and test_zero_or_always_true_detector_mutations_fail_the_bound_control; earlier detached controls disclosed, scientific output unchanged |
+
 October 11 actual charged-overlap sublemmas, authored CONDITIONAL analytic
 grade at fixed NEW selective domain/constant log-flat boundary/small phase.
 PROOF1-4/live tests in silver_charged_cubic_2026_10_11; 51 native/42 Fraction

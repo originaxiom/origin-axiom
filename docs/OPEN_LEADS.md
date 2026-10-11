@@ -1,5 +1,27 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 four-plane mechanism dispositions supersede the prior OPEN
+mechanism duty only; dated earlier entries retain their epoch.
+
+- PB-SILVER-INTERACTION-RADICAL EXECUTED at fixed SAME selective phase:
+  Q/u/e in V4,d/weak in wedge2 V4,Hu in actual dual annihilator.57/34
+  exact predicates and43 regression PASS. All direct charged Stokes
+  terms zero separately, not fitted cancellation; no all-domain kill.
+- PB-NORMALIZED-INTERACTIONS remains OPEN: actual seven-neutral traces,
+  neutral-Higgs/self vertices, NEW-domain cyclic massive transfer and
+  full light potential/norms. Direct zero is not an all-orders theorem.
+- PB-GENESIS-END-OPERATOR-LINK / PB-SILVER-SELECTIVE-BOUNDARY-SELECTION
+  OPEN: derive/price same fields/real/operator/domain/kinetic/cyclic/end
+  map and selection. Track V4 filtration; rank6/rank5 is not a map.
+  Do not replace a chosen zero-producing domain by a favorable fixture
+  and call selection derived. No observer/qualia or register-loss cause.
+- Three-family/Higgs/mu/SUSY/extras, parameters/I-23, gravity, global
+  quantum/inflow, outside/full-suite/main and archive replay remain.
+
+Source silver_interaction_radical_2026_10_11/FINDINGS.md and NEXT_TEST.
+Sender-owned relay OPEN; no main/recipient acceptance, bank number or
+architecture-wide absence. Full parameter-free SM/TOE active/unachieved.
+
 October 11 contemplation audit: source-level review, no new science run.
 
 - PB-CROSS-BRANCH-CLAIM-CURRENCY OPEN: reconcile THE_CLAIM's four/five

@@ -1,5 +1,23 @@
 # Physical-bridge mission status and next questions
 
+October11 interaction-radical checkpoint supersedes the uncomputed
+mechanism duty ONLY:57 native/34 separate Fraction predicates and43
+five-packet regression PASS,9 new, latest science63bc22dbf unchanged.
+Report: reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/FINDINGS.md.
+SAME selective constant-boundary phase: actual Q/u/e primitives in V4,
+d/weak in wedge2 V4, Hu in its actual dual annihilator. Every charged
+Stokes term independently ZERO; no fitted cancellation or normalization
+rescue. V4 is a coefficient submodule, NOT derived spacetime; e5 splits
+at the cusp only, not globally. First runner/helper failures and detached-
+control weakness preserved/repaired/resealed; broken detectors rejected.
+Chiral roster/full E8 bracket/gauge positives stand. No all-domain/higher/
+quantum/architecture kill or register-loss causation. NEXT actual neutral
+mixed/self tensors and NEW-domain massive cyclic transfer; upstream
+coefficient/operator/domain/kinetic/trace/end selection remains. No random
+plane rescue, rank6/rank5 identification or desired-end-unit selection.
+Three-family/Higgs/SUSY/extras/parameters/I-23/gravity/observer and outside/
+full-suite/main debts remain; full parameter-free SM/TOE ACTIVE/unachieved.
+
 October 11 actual charged-cubic checkpoint: 51 native/42 separate
 Fraction predicates and 34 four-packet regression PASS, 9 new, unchanged
 from pushed pre-run cba986752. Report: reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/FINDINGS.md.

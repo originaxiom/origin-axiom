@@ -1,0 +1,52 @@
+{
+  "scientific_source_commit": "63bc22dbf09c15b63cbfc73789afd0d8a9064579",
+  "initial_seal_commit": "3e6ad081e8fe18d111df95f38c51eb63f61a3c2a",
+  "runner_and_helper_repair_commit": "9339effac9e878e0f69f447504a13803204db7fd",
+  "post_first_run_block_seal_commit": "5fc53458f0fff14ad86510ebccff3929aed25796",
+  "native": {
+    "exit_code": 0,
+    "predicates_passed": 57,
+    "output": "NATIVE_FINAL.log",
+    "byte_identical_to_first_block_output": true
+  },
+  "reference": {
+    "exit_code": 0,
+    "predicates_passed": 34,
+    "output": "REFERENCE_FINAL.log",
+    "byte_identical_to_first_block_output": true,
+    "new_native_imported": false
+  },
+  "regression": {
+    "exit_code": 0,
+    "passed": 43,
+    "new_tests": 9,
+    "seconds": 169.08,
+    "output": "REGRESSION_FINAL.log",
+    "files": [
+      "tests/test_physical_bridge_silver_interaction_radical.py",
+      "tests/test_physical_bridge_silver_charged_cubic.py",
+      "tests/test_physical_bridge_silver_selective_boundary.py",
+      "tests/test_physical_bridge_silver_framed_coupled_domains.py",
+      "tests/test_physical_bridge_silver_fermion_action.py"
+    ]
+  },
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "scope": {
+    "same_author_two_methods": true,
+    "pinned_inputs": 22,
+    "latest_science_and_diagnostic_files": 8,
+    "boundary_changed": false,
+    "actual_charged_four_plane_mechanism": true,
+    "full_light_potential_computed": false,
+    "massive_induced_operators_computed": false,
+    "generated_selection": false,
+    "register_loss_causation": false,
+    "independent_analytic_acceptance": false,
+    "full_suite_run": false,
+    "main_banked": false,
+    "full_goal_achieved": false
+  }
+}

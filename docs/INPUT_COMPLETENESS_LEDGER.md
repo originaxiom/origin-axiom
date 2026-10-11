@@ -1,5 +1,17 @@
 # THE INPUT-COMPLETENESS LEDGER — mandatory checklist for any SM-facing cell
 
+October11 interaction-radical disclosure: SAME supplied parent/action/
+silver affine coefficient/reference/core/positive metric/NEW selective
+constant-boundary domain and phase. No plane, field, spectrum or physical
+input is changed to improve a result. Eight latest science/diagnostic
+files sealed before63bc22dbf,22 source blobs unchanged;57/34 exact checks
+and43 regression PASS explain direct zero by the V4/exterior/dual flag.
+Free-coordinate control values are NOT admitted modes or normalized
+Yukawas. No empirical target or derived physical spacetime/parameter.
+End/boundary selection, rank6/rank5 map, I-23, three families/Higgs/
+SUSY/extras/gravity/observer and full parameter-free SM/TOE remain unpaid.
+Register-loss causation, full light/higher/quantum potential not inferred.
+
 October 11 charged-cubic disclosure: SAME supplied full parent/embedding/
 silver coefficient/core/positive metric/NEW selective trace/phase; explicit
 already-priced constant log-flat boundary witness. No new empirical target,

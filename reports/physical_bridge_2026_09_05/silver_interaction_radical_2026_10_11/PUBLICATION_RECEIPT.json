@@ -1,0 +1,47 @@
+{
+  "scientific_commit": "63bc22dbf09c15b63cbfc73789afd0d8a9064579",
+  "science_and_diagnostic_files": 8,
+  "input_files": 22,
+  "all_source_hashes_match": true,
+  "index_working_paths_checked": 22,
+  "index_working_bytes_match": true,
+  "publication_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/NATIVE_FINAL.log",
+      "bytes": 9242,
+      "sha256": "c1423bfe62689d687b3a727f17148fa9c5645b66e04924d64799fe21d69ad9c5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/REFERENCE_FINAL.log",
+      "bytes": 7999,
+      "sha256": "124f8d526c33cd59744aec07c617f073d18ad830b708df1bafaa7a0fd7320380"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/REGRESSION_FINAL.log",
+      "bytes": 111,
+      "sha256": "5cbc504c67a128aa15365589392c57cf64fe3be3ff4bfee4a681820e828636c7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/GOVERNANCE_STAGED.log",
+      "bytes": 2384,
+      "sha256": "ab29c96086ff1df24cc6a50fc33778fb72305383a4ce54765a119731ec5f13f8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/FINDINGS.md",
+      "bytes": 9289,
+      "sha256": "8d6be22c0c34422755a33293bbe775725f2fba039a3ec830123045927d7bd042"
+    }
+  ],
+  "full_suite_run": false,
+  "governance_green": false,
+  "main_banked": false,
+  "governance": {
+    "exit_code": 1,
+    "pass_count": 26,
+    "fail_count": 4,
+    "failure_lines_identical_to_before": true,
+    "full_suite_run": false
+  },
+  "receipt_scope": "Custody covers22 staged publication paths before this receipt was added. Final index is checked again before commit; governance was run on21 earlier publication paths. No recursive or full-suite certificate.",
+  "earlier_diagnostics": "Runner/import and reference concatenation failures, post-first-run diagnosis and detector-control wiring are preserved in named logs and seals."
+}

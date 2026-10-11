@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-10-11 selective charged annihilator explained
+
+57 native/34 separate Fraction predicates and43 five-packet regression
+tests PASS,9 new. Same supplied coefficient/action/NEW domain; Q,u,e
+primitives lie in V4, d/weak in wedge2 V4, Hu in its actual dual annihilator.
+Every charged Stokes term vanishes independently; not phase cancellation,
+normalization rescue or a global splitting of the affine bulk coefficient.
+Free-coordinate nonzero and broken-detector opposites retained. Runner/
+helper failures and post-first-run control improvement preserved/resealed;
+latest science63bc22dbf pushed before replay, all22 inputs unchanged.
+
+PB-SILVER-INTERACTION-RADICAL executed at this direct-sector scope only.
+Chiral roster/full parent/gauge interactions retained; no architecture/
+higher/quantum kill or register-loss causation. Next actual neutral/full
+light interactions, NEW-domain massive transfer and upstream operator/
+cyclic/end selection, not random boundary tuning. Full SM/TOE unachieved.
+Report physical_bridge/silver_interaction_radical_2026_10_11/FINDINGS.md;
+sender-owned relay OPEN. Outside/full-suite/main and governance debt stand.
+
 ## 2026-10-11 cross-branch contemplation and claim calibration
 
 All eleven live heads fetched; foreign heads unchanged. Selected personal

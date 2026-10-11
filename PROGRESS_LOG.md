@@ -18702,3 +18702,32 @@ Qualia/register remains first-class open, not proved awareness. Dedicated
 report and sender-owned OPEN relay; no recipient acceptance, shared bank
 number or canonical genesis amendment. Full SM/TOE remains unachieved;
 prior outside/full-suite/governance/adoption and archive replay debts stand.
+
+## 2026-10-11 — actual selective charged annihilator mechanism
+
+57 native/34 separate Fraction predicates and43 five-packet regression
+tests PASS in169.08s,9 new including zero/always-true detector mutations.
+Science/diagnosis eight-file seal63bc22dbf and22 source pins unchanged.
+First native runner/import and reference binary-concatenation failures
+preserved, repaired/resealed before replay. First complete46/23 and first
+block57/34 outputs retained. Post-first-run four-plane diagnosis and later
+control wiring are explicit, not falsely labelled first-run prereg outcomes.
+Final57/34 stdout is byte-identical to first block output.
+
+Actual profiles Q/u/e in V4, d/weak in wedge2 V4, Hu in actual dual
+ann(wedge2 V4); images/envelopes agree, not only dimensions. Up terms
+annihilate the two-form subspace; down/lepton/udd volume terms need five
+directions in dimension4. BOTH terms zero, no fitted phase cancellation.
+Initial e5-incidence idea false; e5 boundary-parallel is NOT bulk-invariant.
+Same nonsplit affine parent, chiral roster and gauge interactions preserved.
+V4 is an internal coefficient submodule, not derived physical spacetime.
+
+PB-SILVER-INTERACTION-RADICAL executed ONLY for the fixed direct charged
+sector. Next actual neutral boundary traces/mixed-self tensors and NEW-
+domain cyclic massive transfer, while deriving/pricing upstream field/
+real/operator/domain/kinetic/trace/end map. No rank6/rank5 identification,
+chosen rescuing plane, all-higher/quantum/architecture kill, register-loss
+causation or observed SM. Three-family/Higgs/SUSY/extras/parameters/I-23/
+gravity/observer, archive replay and outside/full-suite/main debts remain.
+Path-local report, law sublemmas and OPEN relay; no new shared bank number.
+Full parameter-free SM/TOE remains ACTIVE and unachieved.
