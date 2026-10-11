@@ -4,29 +4,38 @@ on:
     branches:
       - chatgpt/weave-physics-archive-2026-10-11
     paths:
-      - reports/chatgpt_weave_2026_10_11/_transport/READY
+      - Weave_All_13_Runs_Artifact_Archive.zip
 permissions:
   contents: write
+concurrency:
+  group: weave-archive-01-13
+  cancel-in-progress: false
 jobs:
   preserve:
-    if: github.ref == 'refs/heads/chatgpt/weave-physics-archive-2026-10-11'
+    if: github.repository == 'originaxiom/origin-axiom' && github.ref == 'refs/heads/chatgpt/weave-physics-archive-2026-10-11'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Check out only the archive branch
+      - name: Check out the exact archive-upload commit
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          ref: chatgpt/weave-physics-archive-2026-10-11
+          ref: ${{ github.sha }}
           fetch-depth: 1
+          sparse-checkout-cone-mode: false
           sparse-checkout: |
-            reports/chatgpt_weave_2026_10_11
-      - name: Restore and check every original byte
+            /Weave_All_13_Runs_Artifact_Archive.zip
+            /reports/chatgpt_weave_2026_10_11/
+      - name: Restore and verify the complete original archive
         run: python3 reports/chatgpt_weave_2026_10_11/restore_archive.py
-      - name: Commit only the verified archive
+      - name: Verify the actual Git index and commit only this archive
+        shell: bash
         run: |
           set -euo pipefail
-          test "$(git branch --show-current)" = "chatgpt/weave-physics-archive-2026-10-11"
-          git add -f -- reports/chatgpt_weave_2026_10_11
+          test "$GITHUB_REF" = 'refs/heads/chatgpt/weave-physics-archive-2026-10-11'
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          git -c core.autocrlf=false add -f -- reports/chatgpt_weave_2026_10_11
+          python3 reports/chatgpt_weave_2026_10_11/restore_archive.py --verify-staged
+          git -c core.autocrlf=false add -f -- reports/chatgpt_weave_2026_10_11/RESTORE_RECEIPT.json
           if git diff --cached --quiet; then exit 0; fi
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Preserve original weave runs 01-13, initial audit, source, and all extracted artifacts'
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Preserve byte-verified weave runs 01-13, original archives, source, and all artifacts'
           git push origin HEAD:refs/heads/chatgpt/weave-physics-archive-2026-10-11

@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "execution_location": "ChatGPT working container, not GitHub Actions",
+  "checks": [
+    "complete_byte_verified_restoration",
+    "idempotent_restoration",
+    "git_index_all_291_files_modes_and_hashes_verified",
+    "corrupt_recovery_zip_rejected",
+    "conflicting_existing_original_rejected",
+    "incorrect_staged_mode_rejected"
+  ],
+  "successful_restoration_receipt": {
+    "status": "VERIFIED",
+    "archive_branch": "chatgpt/weave-physics-archive-2026-10-11",
+    "recovery_zip": "Weave_All_13_Runs_Artifact_Archive.zip",
+    "recovery_zip_bytes": 1266286,
+    "recovery_zip_sha256": "afdf14b8b0691db97345d5b947fb2bbea08de4872140667e1ccdcef860c1011e",
+    "numbered_runs": 13,
+    "original_archives": 14,
+    "original_member_files": 254,
+    "recovery_member_files": 291,
+    "manifest_files": 289,
+    "standalone_snapshots": 15,
+    "all_original_member_bytes_match": true,
+    "all_manifest_sha256_and_git_blobs_match": true,
+    "git_index_verified": true,
+    "scientific_programs_executed": false,
+    "complete_chat_export_included": false
+  },
+  "importer_sha256": "bf8ce848ae05207e79398a90d378b021b1fafd3fd6241b50cc2163b611b16650",
+  "local_prepublication_repair": "The first importer test correctly stopped at a population comparison: SHA256SUMS includes MANIFEST.json as well as the 289 manifest-listed files. The comparator was corrected to require exactly that population. All six tests then passed. No research artifact or recovery ZIP byte changed."
+}

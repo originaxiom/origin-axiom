@@ -1,0 +1,2 @@
+# Preserve every archived byte; do not apply newline or content filters.
+* -text -filter -ident
