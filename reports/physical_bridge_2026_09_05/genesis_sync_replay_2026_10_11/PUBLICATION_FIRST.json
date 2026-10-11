@@ -1,0 +1,35 @@
+{
+  "checked_staged_tree": "fae9d98114c81400e20fc249f0fc5f1cf2b2fc6b",
+  "checks": {
+    "PUBLICATION_GOVERNANCE": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 17.297655999893323,
+      "log_bytes": 2384,
+      "log_sha256": "b1887d59177e01f7475efd624f31ee8f2158128a3e1cbe1d16b5857b5224c847",
+      "raw_receipt_sha256": "218a0cdc04fff75b4295dc261719f262f49b9179c5445960be398340f5c72f2a"
+    },
+    "PUBLICATION_IDENTIFICATION": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.05759000009857118,
+      "log_bytes": 442,
+      "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215",
+      "raw_receipt_sha256": "ec62df3974714f78167157b5a65234baabb7a816026f7c67a0bddf344a845b14"
+    },
+    "PUBLICATION_INTEGRITY": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 1.101065999828279,
+      "log_bytes": 140,
+      "log_sha256": "f9eecb9885dc89d96f9c7daa8752870e15cc999821e7291b9f4d1f7d2681f602",
+      "raw_receipt_sha256": "b3818e6a40568011bf1fed24b2e6c1b44ce522d3a9fae5b6b97b09bb4c6557b6"
+    }
+  },
+  "governance_pass": 26,
+  "governance_fail": 4,
+  "identification_unearned": 9,
+  "full_suite_or_main_acceptance": false,
+  "first_integrity_failure": "Encoding-tagged String equality rejected identical Git/working bytes at CHANGELOG.md. Retained unchanged; no scientific artifact changed.",
+  "repair_scope": "Metadata checker only; binary byte equality and opposing changed-byte control; fixed21-file population. Pre-replay reseal required."
+}

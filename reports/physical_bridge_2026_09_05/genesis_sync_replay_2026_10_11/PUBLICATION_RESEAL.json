@@ -1,0 +1,41 @@
+{
+  "before_replay": true,
+  "scope": "metadata-only exact-byte custody repair, mathematical sources unchanged",
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/PUBLICATION_REPAIR.md",
+      "bytes": 1369,
+      "sha256": "30e5b381d62e78c4b4d92d75cd20d59da17b3b05a791a90303b20dd8fbb00e1c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/verify_publication.rb",
+      "bytes": 1741,
+      "sha256": "a37106636b4e2229e3972482a2c3fd8079668fd66f0b1eb7a4fb9944a4abf3ee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/PUBLICATION_PATHS.json",
+      "bytes": 1233,
+      "sha256": "ff7abae4092d48d1cf4ca32fe9dfc290a33d54459d20f1fdea75b1772af034c2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/PUBLICATION_FIRST.json",
+      "bytes": 1545,
+      "sha256": "2cbcda3abb6fd80181cf9efdb1ecb51b3c5bbc75c58db999b1a991d4704dd822"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/PUBLICATION_GOVERNANCE.log",
+      "bytes": 2384,
+      "sha256": "b1887d59177e01f7475efd624f31ee8f2158128a3e1cbe1d16b5857b5224c847"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/PUBLICATION_IDENTIFICATION.log",
+      "bytes": 442,
+      "sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/PUBLICATION_INTEGRITY.log",
+      "bytes": 140,
+      "sha256": "f9eecb9885dc89d96f9c7daa8752870e15cc999821e7291b9f4d1f7d2681f602"
+    }
+  ]
+}

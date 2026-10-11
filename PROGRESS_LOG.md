@@ -18530,3 +18530,32 @@ recovery ZIP, and its status correctly says incomplete. No upload or
 restoration/science execution was authorized or performed by this seat.
 Read-only source review does not certify the reported importer replays.
 Intake addendum records this later state without rewriting the older pin.
+
+## 2026-10-11 published genesis synchronization and focused reproduction
+
+All eleven advertised live server heads fetched; historical tracking refs
+retained without mistaking them for live branches. Genesis fork now
+30fdb6a16, source packet tests at4b047860e. Five proofs/preregistrations/
+final producers personally read and the unchanged producers reproduced:
+4,133 word-lift/371 bundle/8,234 positive-carrier/3,626 cocycle/136
+base-connection exact safeguards. Nine original word tests and30 new
+separate-method symbolic local controls PASS. Own dd108aa6b seal pushed
+before first execution;21 source/four own pins match, literal first logs
+and receipts preserved, detached source worktree clean. No local failure,
+repair or criterion weakening occurred.
+
+Published source full suite remains failed:6,663 pass/38 fail/26 errors/
+59 skip. Public transcript hash and64 failed/error node IDs match receipt;
+no full-suite replay or blanket inherited-cause diagnosis. No tests/
+scripts/src delta in the source audit interval, which alone does not
+exclude new metadata gate defects. No canonical genesis upgrade,
+physical carrier, Lambda, end unit or four-dimensional index selected.
+
+Report and sender-owned OPEN relay distinguish convention transport,
+coefficient information, geometric realization and physical necessity.
+Next physical coupled positive-mass domains keep OLD A0 and credit the
+phase's existing real slice; strict tangential closure may cancel the
+nonparallel remainder, an unexecuted test rather than an assumed wall.
+Upstream operator/determinant/end rule remains coordinated. No source
+branch or dirty worktree changed. Outside/main/full physical Standard
+Model/TOE remain unachieved; publication governance recorded separately.

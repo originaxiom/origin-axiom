@@ -1,0 +1,159 @@
+PASS source custody: 21 pinned files
+RUN unchanged producer: word_lifts/verify.py
+{
+  "status": "PASS",
+  "checks": 4133,
+  "matrix_extensions_checked": 3586,
+  "pair_table": [
+    {
+      "q": "",
+      "peripheral": "aBAb",
+      "L": {
+        "a": "a",
+        "b": "ab"
+      },
+      "R": {
+        "a": "ab",
+        "b": "b"
+      }
+    },
+    {
+      "q": "b",
+      "peripheral": "baBA",
+      "L": {
+        "a": "a",
+        "b": "ba"
+      },
+      "R": {
+        "a": "ab",
+        "b": "b"
+      }
+    },
+    {
+      "q": "A",
+      "peripheral": "BAba",
+      "L": {
+        "a": "a",
+        "b": "ab"
+      },
+      "R": {
+        "a": "ba",
+        "b": "b"
+      }
+    },
+    {
+      "q": "Ab",
+      "peripheral": "AbaB",
+      "L": {
+        "a": "a",
+        "b": "ba"
+      },
+      "R": {
+        "a": "ba",
+        "b": "b"
+      }
+    }
+  ],
+  "sigma_squared": {
+    "a": "aba",
+    "b": "ab"
+  },
+  "standard_LR": {
+    "a": "aab",
+    "b": "ab"
+  },
+  "all_length_scope": "Analytic proof in PROOF.md, not a census inference",
+  "physical_claim": false
+}
+RUN unchanged producer: bundle_transport/verify.py
+{
+  "status": "PASS",
+  "exact_checks": 371,
+  "pairs": [
+    {
+      "q": "",
+      "cohomology_signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cohomology_transport": true,
+      "local_transport": true
+    },
+    {
+      "q": "b",
+      "cohomology_signs": [
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "cohomology_transport": true,
+      "local_transport": true
+    },
+    {
+      "q": "A",
+      "cohomology_signs": [
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "cohomology_transport": true,
+      "local_transport": true
+    },
+    {
+      "q": "Ab",
+      "cohomology_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "cohomology_transport": true,
+      "local_transport": true
+    }
+  ],
+  "local_commutant": 2,
+  "graded_local_commutant": 1,
+  "triplet_ranks": [
+    3,
+    3
+  ],
+  "preserves_uniform_end_order": true,
+  "selects_end_order": false,
+  "physical_dictionary_derived": false,
+  "full_analytic_domain_verified": false
+}
+RUN unchanged producer: positive_carrier/verify.py
+PASS: 8234 exact assertions
+Freely reduced signed words through length five: 485
+Positive words through length ten including empty: 2047
+Substitution fixtures: 9 on 161 signed words each
+Nontrivial free kernel witness: abABabbABaBAbbaBBA
+All-length claims rely on PROOF.md, not finite enumeration.
+RUN unchanged producer: cohomology_carrier/verify_v2.py
+PASS: 3626 exact assertions
+F second witness: abABaabABAbaaBAA length 16
+F third witness: abABaabABAbaBaabABAbaaBAbAABabaBAAbaBaabAABabaBAAbaBAA length 54
+Derived fixtures: 8 in F second; 16 in F third
+Sign H1: G1=0; F2=G2=1 per nontrivial parity (analytic proof).
+Quaternion H1: G2=0; F2=G3=2 per parity (analytic proof).
+Lifted six-dimensional central projector ranks: [3, 3]
+All-word descent and equivariance rely on PROOF.md, not the finite fixtures.
+No surface, Hodge, physical field, end unit or action derived.
+RUN unchanged producer: cusp_connection/verify.py
+PASS: 136 exact safeguards
+Base: effective PSL(2,Z) modular orbifold, real dimension two
+F=-6*i*n*dA; flux=n; E=6*pi*n**2/g**2
+HDelta identification conditional; no unit selection or physical index certified
+PASS all five unchanged producers; no full-suite or physical identification certificate.

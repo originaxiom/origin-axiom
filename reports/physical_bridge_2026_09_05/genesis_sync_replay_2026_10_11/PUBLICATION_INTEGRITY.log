@@ -1,0 +1,4 @@
+PASS four unchanged pre-execution source hashes
+PASS twenty-one pinned source blobs
+PASS three byte-faithful public first logs
+CHANGELOG.md

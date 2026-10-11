@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-11",
+  "own_pre_execution_commit": "dd108aa6b",
+  "source_commit": "30fdb6a16087b54a154b359342d991f47c4f54eb",
+  "source_pins": 21,
+  "own_science_pins": 4,
+  "runs": {
+    "PRODUCER_FIRST": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 41.186597999883816,
+      "log_bytes": 3512,
+      "log_sha256": "af23a371cf0a62200fb93654b9f89da16b4a84b28112e3b7a454e9a6c6300700",
+      "raw_receipt_sha256": "f143b7868b1f752a7d83f282ce87970cd92331fd47ead1db9a8e71c33a1e5f9c",
+      "public_log": "PRODUCER_FIRST.log",
+      "command_scope": "python3.12 replay.py PINNED_SOURCE_WORKTREE"
+    },
+    "REFERENCE_FIRST": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.7699899999424815,
+      "log_bytes": 1320,
+      "log_sha256": "7f00d219996a4c3f2cd4395c136a37c706f73c33791db58e303bbe71ffc18ff0",
+      "raw_receipt_sha256": "49f99234f24b07f03c091237e431c0031f74fd4cbafd9001c34eb279c67c8c9e",
+      "public_log": "REFERENCE_FIRST.log",
+      "command_scope": "python3.12 reference.py"
+    },
+    "WORD_TEST_FIRST": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.12324900017119944,
+      "log_bytes": 1066,
+      "log_sha256": "73ca282f116250c4ebb9eef619752d123f7ff2632fd4a40eefe4ed7c47d5a4d8",
+      "raw_receipt_sha256": "8c4d121c479b362791b784f9353f607a983e7557a5f4d4cee5cfe3a276dfd258",
+      "public_log": "WORD_TEST_FIRST.log",
+      "command_scope": "python3.12 test_word_lifts.py at pinned word_lifts directory"
+    }
+  },
+  "source_suite_custody": {
+    "public_log_sha256": "4659026aa70c4858a93f8845f19cc20fd86c2c97a91d8b0d61fe478937462caf",
+    "failed_error_node_ids_matched": 64,
+    "suite_replayed_here": false,
+    "full_suite_green": false
+  },
+  "no_local_failures_or_repairs": true,
+  "outside_analytic_review_or_main_acceptance": false
+}

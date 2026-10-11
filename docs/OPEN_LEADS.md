@@ -18,9 +18,12 @@ lines below:
   versus fixed OLD A0/new C_k(H), surface/derivative/compensator checks.
 - PB-WEAVE-HISTORICAL-NEGATIVES OPEN CHRONOLOGICAL AUDIT: scientific
   bodies/producers of Runs1–10 not all read/replayed in this intake.
-- PB-GENESIS-END-OPERATOR-LINK OPEN COORDINATION: local4b047860e read,
-  safeguards not replayed. Does a derived operator/determinant/end law
-  require a nonzero integral sector? Base realization is not selection.
+- PB-GENESIS-END-OPERATOR-LINK OPEN COORDINATION: published30fdb6a16,
+  five unchanged producers reproduced at dd108aa6b with nine word tests
+  and30 separate-method controls. Algebraic retention/base realization
+  do not select a carrier, Lambda or end unit. Does a derived operator/
+  determinant/end law require a nonzero integral sector? The source
+  full suite remains failed; local passes do not cure its diagnostics.
 - PB-SILVER-UNWANTED-NEUTRAL/ADJOINT-LIFTING and larger three-family
   carriers remain duties; this commuting branch's12/6..12 are retained.
 

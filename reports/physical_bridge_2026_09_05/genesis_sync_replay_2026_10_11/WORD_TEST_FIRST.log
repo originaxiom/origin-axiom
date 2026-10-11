@@ -1,0 +1,14 @@
+test_complete_sealed_packet (__main__.WordLiftTests.test_complete_sealed_packet) ... ok
+test_composition_order_is_discriminating (__main__.WordLiftTests.test_composition_order_is_discriminating) ... ok
+test_cyclic_word_has_no_period (__main__.WordLiftTests.test_cyclic_word_has_no_period) ... ok
+test_delta_power_independent (__main__.WordLiftTests.test_delta_power_independent) ... ok
+test_false_identities_are_rejected (__main__.WordLiftTests.test_false_identities_are_rejected) ... ok
+test_pair_conjugation_independent_on_generators (__main__.WordLiftTests.test_pair_conjugation_independent_on_generators) ... ok
+test_reduction_against_second_algorithm (__main__.WordLiftTests.test_reduction_against_second_algorithm) ... ok
+test_signed_exponents_are_not_positive_words (__main__.WordLiftTests.test_signed_exponents_are_not_positive_words) ... ok
+test_substitution_against_second_algorithm (__main__.WordLiftTests.test_substitution_against_second_algorithm) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.047s
+
+OK

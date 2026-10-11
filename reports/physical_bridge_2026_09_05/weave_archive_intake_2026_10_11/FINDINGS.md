@@ -131,3 +131,16 @@ certificate. No ZIP upload, workflow trigger or write to that branch was
 performed by this seat: the owner's question authorized assessing help,
 not restoring another seat's branch. The local supplied ZIP remains
 available for an explicitly authorized archive publication.
+
+## Later genesis publication and reproduction
+
+The fork has since published30fdb6a16087b54a154b359342d991f47c4f54eb.
+At own pre-run dd108aa6b, all five unchanged final producers reproduced
+4,133/371/8,234/3,626/136 safeguards, nine word tests and30 separate-
+method local predicates PASS. The source public full-suite failure remains
+6,663 pass/38 fail/26 errors/59 skips; its record was verified, not its
+suite rerun. See genesis_sync_replay_2026_10_11/FINDINGS.md for exact
+scope, pins, literal outputs and the operator/end-law coordination.
+This later state supersedes the earlier local-only/not-replayed status,
+without rewriting its historical record. No archive science, ZIP upload
+or workflow execution accompanies this genesis reproduction.

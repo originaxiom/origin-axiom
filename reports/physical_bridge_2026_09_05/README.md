@@ -1,5 +1,17 @@
 # Physical bridge audit — 2026-09-05
 
+October11 later genesis synchronization: all eleven live heads fetched;
+fork30fdb6a16 is now published. Five unchanged producers reproduce
+4,133/371/8,234/3,626/136 checks; nine word tests and30 separate-method
+symbolic controls PASS at pre-run dd108aa6b. See
+reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/FINDINGS.md.
+Algebraic retention/base realization do not select a physical carrier,
+Lambda or the nonzero integral end unit. Source suite remains failed
+(6,663 pass/38 fail/26 errors/59 skips), not recertified by these runs.
+NEXT remains same-action framed coupled domains with OLD A0 fixed, plus
+upstream matter/operator and end law. No main/full-SM/TOE acceptance.
+Earlier dated source pins and duties retain their historical epoch.
+
 October11 charged-pair checkpoint supersedes the older next duty below:
 146 native/127 separate-method exact LOCAL controls and65 eight-packet
 regression PASS, including9 new tests. Report:

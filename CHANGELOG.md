@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-11 published genesis reproduction and coordination
+
+All eleven live server heads fetched; fork30fdb6a16 now published.
+Five unchanged final producers reproduce4,133/371/8,234/3,626/136
+exact safeguards; nine original word controls and30 new separate-method
+local predicates PASS at pushed pre-run dd108aa6b. Proof/source scopes,
+failed full-suite record and custody retained. No physical carrier,
+Lambda or end unit selected. Sender-owned relay OPEN; next same-action
+framed coupled domains and upstream matter/operator/end law unchanged.
+Report: physical bridge/genesis_sync_replay_2026_10_11/FINDINGS.md.
+This focused reproduction is not outside/full-suite/main or SM/TOE
+acceptance; the ultimate goal remains active.
+
 ## 2026-10-11 archive restoration followup
 
 Post-checkpoint fetch found archive branchd7e4afeb7: importer/workflow
