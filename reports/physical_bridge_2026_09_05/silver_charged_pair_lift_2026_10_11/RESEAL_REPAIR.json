@@ -1,0 +1,17 @@
+{
+  "repaired_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+      "bytes": 11955,
+      "sha256": "acd1d147d0b625025d487e4cecbe1554a7030e1cac58fc97476a989d4812f6c9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR.md",
+      "bytes": 936,
+      "sha256": "b386811b97efd11ae7b4fca219391ecf01a3d1274d928abe2a7465e6e32f2d72"
+    }
+  ],
+  "failed_seal": "be7c1bf1e0e8d41a15d7d3b440ac5cde8661eb12",
+  "before_replay": true,
+  "scope": "one explicit q-field argument; no model, proof, criterion or reference change"
+}

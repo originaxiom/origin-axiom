@@ -67,7 +67,7 @@ def family(rep, data):
     B = s.Matrix.vstack(*(rq[g]-I for g in GEN))
     F = s.Matrix.vstack(*(fox(rq, w, q) for w in data['relators']))
     R = s.Matrix.vstack(*(fox(rq, w, q) for w in data['cusp_words']))
-    R2 = -mm(mm(q*Q, fox(rep, data['cusp_words'][0])[:, :2*n]),
+    R2 = -mm(mm(q*Q, fox(rep, data['cusp_words'][0])[:, :2*n], q),
               s.diag(cy.inv(rep['t'])/q, cy.inv(rep['t'])/q), q)
     D = (P-I).col_join(q*Q-I); G = (I-q*Q).row_join(P-I)
     return dict(B=B, F=F, R=R, R2=R2, D=D, G=G, P=P, Q=Q)
