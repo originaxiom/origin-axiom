@@ -1,0 +1,37 @@
+{
+  "before_first_science_execution": true,
+  "python": "3.12.1",
+  "sympy": "1.14.0",
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/DESIGN.md",
+      "bytes": 3800,
+      "sha256": "ca71213b25fce4840a6fdb8b53b214ce76d241be22e69512570ad36e3bf4d5f9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/PROOF.md",
+      "bytes": 4835,
+      "sha256": "7d4e4611b0ba99d9f706975c38d910c8a35c33fc20ae51c5bb1f351d8c4ada6b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/probe.py",
+      "bytes": 8101,
+      "sha256": "c300d06f6dd60064237ddd95f01dc2e1338598d2cc29e56e6578655462612371"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/reference.py",
+      "bytes": 7855,
+      "sha256": "79d79bda345771edb28935a61c9f23f61415c649f6a6acf2546bb54e6333df81"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/INPUTS.json",
+      "bytes": 6441,
+      "sha256": "7d7365370ba4dc0b83fbb13e31e4c97d5378710fa2298dfdf19f14da7f6bde73"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_higgs_quartic.py",
+      "bytes": 2284,
+      "sha256": "4815d0e033e959143d9bf25f2257b950fcdc374669b5561291b2bbe098acdbf1"
+    }
+  ]
+}

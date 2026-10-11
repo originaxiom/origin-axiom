@@ -1,0 +1,155 @@
+{
+  "source_commit": "9172f479e71f67281a3bc81e5334a263b86b234c",
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+      "bytes": 15002,
+      "sha256": "b4b684aac6e5ff6391319199c266f1c2f588b647a77a9c7c46de49b76cced246"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/reference.py",
+      "bytes": 11464,
+      "sha256": "609dc02366cf72fae75511cdf24f79e070ff509a42e1755a0cd472feec6d8918"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/probe.py",
+      "bytes": 12355,
+      "sha256": "8ae953a9741135436544ebdc4db96c66893b3220bdc3d8667c347a948082ba42"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/reference.py",
+      "bytes": 12265,
+      "sha256": "9fad6aeddb15d52f62ee1ba88313edceaa3126201abc13552d4084a964f759d9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py",
+      "bytes": 10325,
+      "sha256": "908ac5f016cbbcdceb7b06061bba45dafef12b500faf234dade145136a6b9553"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py",
+      "bytes": 11472,
+      "sha256": "1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_tensors.py",
+      "bytes": 7298,
+      "sha256": "6bc0c5a1a6f39090308e24804ef19b7937155fcb02c9af3d2190387768f6f891"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/MODEL.json",
+      "bytes": 684,
+      "sha256": "4461045c6d69ec3c0a553be13d0047806d25a8f92e356cd5624074be94ccbcb9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_TENSORS.md",
+      "bytes": 6882,
+      "sha256": "caef6fe791721ca6b313f8fe478e60689d84992547ac6b95afaec1ed3e3f8f76"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/PROOF.md",
+      "bytes": 8828,
+      "sha256": "bb191480f617384355951de464278a2a353082a4d6461303e38ce2012530f68e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/PROOF.md",
+      "bytes": 10819,
+      "sha256": "4ecca881878431c4177ab13ed7b74bf8514a5ed050defc8c59232b47008c35a6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/PROOF.md",
+      "bytes": 12452,
+      "sha256": "0b584af9cf725570797c2efd8fad17e578bcb2b07a3c2792212aee7c1198a44a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "bytes": 13239,
+      "sha256": "6f3eee6acfed04e98f4df0d4fe98aff6d717be416a3aee05fb350d571934b8fa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md",
+      "bytes": 10671,
+      "sha256": "8557539bf0e764ea4350204403e26791473261f20f0b63b176618aa87b5be398"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "bytes": 10193,
+      "sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "bytes": 7485,
+      "sha256": "20d20923474012672616c752b57ecb087817bf0acabc7ca04c4b2b38b1d1792e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "bytes": 8116,
+      "sha256": "78693f6656fff74e67c2d94d4fe84a100b02f5ca7ab50ec8b98ae375ccf449c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/probe.py",
+      "bytes": 7576,
+      "sha256": "ebdf5e7c929c315361cdfc18f97536cb347857b037e17fdd8602e90d4c6605ae"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/reference.py",
+      "bytes": 7215,
+      "sha256": "3340dfd0a43ffbd37313475f838609916a6f71f896b4c4bcec6efb700b0eec7b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/PROOF.md",
+      "bytes": 6707,
+      "sha256": "53cd127aaf00cbb6d0c3bc52d2f60c84ab227fe86541354b58f8b505bb2cb0e4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/probe.py",
+      "bytes": 11181,
+      "sha256": "45e895bebf6e5cb3f8ad9dbf02d45d70cf255b3fe91e81b60dc7126aaf360c24"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py",
+      "bytes": 15270,
+      "sha256": "cfc66722cea08a12ddde8208c1472528dcda1cfb47126bc631cfe546337adf2f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/PROOF.md",
+      "bytes": 3904,
+      "sha256": "07acffd7de75ceb915988ff3064e2b270d61cd9a861f9af2a68880274abc8e89"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/probe.py",
+      "bytes": 8017,
+      "sha256": "524b1fb93cde786b61158911a2f9e6346400da3c6f4b889196db30d0a98c9cb1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/reference.py",
+      "bytes": 7368,
+      "sha256": "e4cc73841061bb44f72baa30d9d918147d2a49be2d4987c66ca25a08c5b3cd3e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/PROOF.md",
+      "bytes": 5465,
+      "sha256": "49e9f755942d8ce629737ccbedfe83b258b2d0cd1a48c1a911541b4bb34f627f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/FINDINGS.md",
+      "bytes": 8840,
+      "sha256": "8b5d6006859df030b84cf440c2d44f7d5b108cf3591fa6fe349a950c70bf490f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/PROOF.md",
+      "bytes": 10180,
+      "sha256": "4be9b7eb7e247201cdbd6b37874444a4f383a89004a067ec5722a5b5773b40fe"
+    }
+  ]
+}
