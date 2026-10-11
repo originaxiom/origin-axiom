@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import sympy as s\nI=s.I;X=s.Matrix([[0,1],[1,0]]);Y=s.Matrix([[0,-I],[I,0]]);Z=s.diag(1,-1)\nb=[Z,Y,X]\ndef coords(m): return s.Matrix([s.trace(c*m)/2 for c in b]).applyfunc(s.simplify)\nL=s.Matrix.hstack(*(coords(I*(Z*c-c*Z)) for c in b));H=s.Matrix.hstack(*(coords(I*(c*3*Z-3*Z*c)) for c in b))\nP=L.T*L+H.T*H;D=L-I*H\nprint({'P':str(P),'raw_D_adjoint_D':str(D.H*D),'raw_structural_equality':P==D.H*D,'expanded_residual':str((P-D.H*D).applyfunc(s.expand)),'target_unchanged':P==s.diag(0,40,40)})"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.776175000006333,
+  "log_bytes": 281,
+  "log_sha256": "3ef6ce6c8776b20f8fe73ac8455188c89aee6740438b45ada33eaf3a802bfee7"
+}

@@ -1,0 +1,1 @@
+{'P': 'Matrix([[0, 0, 0], [0, 40, 0], [0, 0, 40]])', 'raw_D_adjoint_D': 'Matrix([[0, 0, 0], [0, (2 - 6*I)*(2 + 6*I), 0], [0, 0, (-2 - 6*I)*(-2 + 6*I)]])', 'raw_structural_equality': False, 'expanded_residual': 'Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])', 'target_unchanged': True}

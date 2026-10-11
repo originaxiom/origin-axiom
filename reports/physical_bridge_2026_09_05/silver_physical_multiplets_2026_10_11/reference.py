@@ -92,7 +92,8 @@ def component_controls():
     L=s.Matrix.hstack(*(coords(I*comm(Z,c)) for c in basis))
     H=s.Matrix.hstack(*(coords(I*comm(c,3*Z)) for c in basis))
     G=L.col_join(-H);P=G.T*G;D=L-I*H
-    checks['real_block_mass_Gram_matches_complex_D_adjoint']=P==D.H*D and P==s.diag(0,40,40)
+    checks['real_block_mass_Gram_matches_complex_D_adjoint']=(P-D.H*D).applyfunc(s.expand)==s.zeros(3) and P==s.diag(0,40,40)
+    checks['wrong_unconjugated_complex_adjoint_rejected']=(P-D.T*D).applyfunc(s.expand)!=s.zeros(3)
     checks['mass_kernel_retains_real_gauge_generator']=len(P.nullspace())==1 and P*s.Matrix([1,0,0])==s.zeros(3,1)
     checks['imaginary_Higgs_potential_sign_fails']=P!=-L*L+H*H
     checks['real_block_wrong_complex_gauge_deletion_fails']=any(x!=0 for x in H)
