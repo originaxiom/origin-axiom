@@ -1,0 +1,56 @@
+{
+  "before_refinement_execution": true,
+  "post_first_run_diagnosis": true,
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/DESIGN.md",
+      "bytes": 4687,
+      "sha256": "8f2bc81d8e0d1f0f93d75295669db190dd742b3a42f01c65591bafbc449d09b0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/PROOF.md",
+      "bytes": 3904,
+      "sha256": "07acffd7de75ceb915988ff3064e2b270d61cd9a861f9af2a68880274abc8e89"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/probe.py",
+      "bytes": 9436,
+      "sha256": "cdb1321611ba7f42105e081e140e09f174c22a26469da03a564f99f360dddef9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/reference.py",
+      "bytes": 9337,
+      "sha256": "db8608f40f763c996b5b61c6dc45fb12103f54e1f244cfe654c8ebfa317d67b4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/INPUTS.json",
+      "bytes": 5184,
+      "sha256": "c6b350feb98b9ed26f304bee178f5693cd21e152131a7bfe2e6dc4a45c75688a"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_interaction_radical.py",
+      "bytes": 3570,
+      "sha256": "87ada3d59d9784bb0b122cad66521543a6309cbca73575094d21a162af60e50a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/BLOCK_REFINEMENT.md",
+      "bytes": 2540,
+      "sha256": "372f43c054b62b1c841c285676c3c26fb4a31f5135487c44ea34facd5cf401c6"
+    }
+  ],
+  "first_complete_outputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/NATIVE_FIRST_SUCCESS.log",
+      "bytes": 8182,
+      "sha256": "37009d50e3cb1e25e720fe7995c81981bef922b3e3e4e0adff5b10af553f5957",
+      "predicates_passed": 46
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/REFERENCE_FIRST_SUCCESS.log",
+      "bytes": 6939,
+      "sha256": "16bcdeba33cf0aa6972676063ef4b0868af68d9c1886748646cca4112f0dadcd",
+      "predicates_passed": 23
+    }
+  ],
+  "model_and_boundary_unchanged": true
+}

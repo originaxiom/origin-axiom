@@ -30,7 +30,8 @@ def test_exact_constant_envelopes_agree_not_only_dimensions():
     a, b = both()
     for label, field in a['profiles'].items():
         for key in ('envelope_rank', 'envelope_sha256', 'meridian_image_rank',
-                    'longitude_image_rank', 'e5_flag', 'meridian_e5_flag', 'longitude_e5_flag'):
+                    'longitude_image_rank', 'e5_flag', 'meridian_e5_flag', 'longitude_e5_flag',
+                    'V4_block', 'meridian_V4_block', 'longitude_V4_block'):
             assert field[key] == b['profiles'][label][key], (label, key)
 
 
@@ -64,8 +65,19 @@ def test_boundary_parallel_line_is_not_a_bulk_invariant_section():
 
 
 def test_no_boundary_retargeting_or_physical_completion_claim():
+    # Original scope remains unchanged by the post-first-run block diagnosis.
     for result in both():
         for key in ('boundary_changed', 'neutral_cubic_computed',
                     'higher_physical_operators_computed', 'generated_selection',
                     'register_loss_causation', 'outside_review', 'full_goal_achieved'):
             assert not result[key]
+
+
+def test_verified_four_plane_mechanism_is_not_the_false_e5_line_hypothesis():
+    for result in both():
+        for f in result['profiles'].values():
+            assert f['V4_block'] and f['meridian_V4_block'] and f['longitude_V4_block']
+            assert not f['e5_flag']
+        assert result['facts']['proper_global_V4_submodule']
+        assert all(t['first_term_zero'] and t['second_term_zero']
+                   for t in result['channels'].values())

@@ -44,6 +44,7 @@ def flag_zero(label, v):
 
 
 def pieces(kind, f, g, h, ps, t):
+    # Preserve both original terms; block flags are diagnostics only.
     xg, xh = r.mv(ps[1]['a'], g), r.mv(ps[2]['a'], h)
     yg = r.mv(c.add(ps[1]['b'], c.scale(c.I(len(g)), ps[1]['h']*t)), g)
     yh = r.mv(c.add(ps[2]['b'], c.scale(c.I(len(h)), ps[2]['h']*t)), h)
@@ -105,12 +106,21 @@ def run():
     ck('sufficient_common_distinct_degree_points', len(points) == needed
        and len(set(points)) == needed)
     summary = {}
+    ck('proper_global_V4_submodule', all(all(not x for x in m[4][:4]) for m in w.values()))
+    ck('cusp_split_not_global_e5_split', all(not x for m in (A, B)
+       for x in m[4]+[row[4] for row in m]))
     for label, _, _, dimension in FIELDS:
         p = profiles[label]
         pts = points[:p['r']+1]
         ck(label+'_Vandermonde_envelope_certificate', len(pts) == p['r']+1)
         E = columns(c.old.hcat(*(evaluations[t][label] for t in pts)))
         AE, BE = columns(c.mm(p['a'], E)), columns(c.mm(p['b'], E))
+        rows = ([4] if label in ('Q', 'u', 'e') else
+                [j for j, pair in enumerate(r.PAIRS) if 4 in pair]
+                if label in ('d', 'weak') else
+                [j for j, pair in enumerate(r.PAIRS) if 4 not in pair])
+        block_ok = [all(not y for j in rows for y in x[j]) for x in (E, AE, BE)]
+        ck(label+'_V4_exterior_or_actual_dual_block', all(block_ok))
         summary[label] = {'primitive_dimension': dimension, 'envelope_rank': len(E[0]),
             'envelope_sha256': plane_hash(E), 'meridian_image_rank': len(AE[0]),
             'longitude_image_rank': len(BE[0]),
@@ -118,6 +128,8 @@ def run():
             'meridian_e5_flag': all(flag_zero(label, v) for v in c.tr(AE)),
             'longitude_e5_flag': all(flag_zero(label, v) for v in c.tr(BE)),
             'envelope_degree_bound': p['r'], 'distinct_points': pts}
+        summary[label].update(V4_block=block_ok[0], meridian_V4_block=block_ok[1],
+                              longitude_V4_block=block_ok[2])
     channels = {}
     for name, (kind, labels) in CHANNELS.items():
         ps = [profiles[label] for label in labels]
@@ -150,6 +162,13 @@ def run():
     e12 = [int(pair == (0, 1)) for pair in r.PAIRS]
     ck('exterior_flag_detector_two_sided', flag_zero('d', e14) and not flag_zero('d', e12))
     ck('dual_flag_detector_two_sided', flag_zero('Hu', e12) and not flag_zero('Hu', e14))
+    ck('V4_vector_detector_two_sided', [1, 0, 0, 0, 0][4] == 0 and e5[4] != 0)
+    outer = [j for j, pair in enumerate(r.PAIRS) if 4 in pair]
+    inner = [j for j, pair in enumerate(r.PAIRS) if 4 not in pair]
+    ck('V4_exterior_detector_two_sided', all(not e12[j] for j in outer)
+       and any(e14[j] for j in outer))
+    ck('V4_dual_annihilator_detector_two_sided', all(not e14[j] for j in inner)
+       and any(e12[j] for j in inner))
     aa = [[int(i == j)*(1 if i == 0 else -1 if i == 1 else 0)
            for j in range(5)] for i in range(5)]
     af = c.wedge_derivative(aa)

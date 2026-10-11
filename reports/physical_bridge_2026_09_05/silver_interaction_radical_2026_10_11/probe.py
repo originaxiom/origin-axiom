@@ -73,6 +73,7 @@ def flag_map(label):
 
 
 def pieces(kind, f, g, h, ps):
+    # Original two-term operator; no flag or profile is changed by the diagnosis.
     C = c.up if kind == 'up' else c.down
     first = C(f, ps[1]['a']*g, (ps[2]['b']+ps[2]['h']*z*s.eye(len(h)))*h)
     second = C(f, (ps[1]['b']+ps[1]['h']*z*s.eye(len(g)))*g, ps[2]['a']*h)
@@ -113,6 +114,10 @@ def run():
             blocks['Fweakdual'] = {'a': -a.T, 'b': -b.T, 'M': MD}
             hashes['Fweakdual'] = c.plane_hash(MD)
     profiles, summary = {}, {}
+    v4 = s.eye(5)[:, :4]
+    ck('proper_global_V4_submodule', all(p.zero(x[4:5, :4]) for x in w.values()))
+    ck('cusp_split_not_global_e5_split', p.zero(A[4:5, :]) and p.zero(B[4:5, :])
+       and p.zero(A[:, 4:5]) and p.zero(B[:, 4:5]))
     for label, block, h, dimension in FIELDS:
         f = c.primitives(blocks[block], h, ck, label)
         oldF = f['F']
@@ -126,6 +131,13 @@ def run():
            and p.rank(F.row_join(oldF), z) == dimension)
         E, AE, BE = [envelope(p.mm(x, F, z)) for x in (s.eye(n), a, b)]
         flag = flag_map(label)
+        rows = ([4] if label in ('Q', 'u', 'e') else
+                [j for j, pair in enumerate(c.PAIRS) if 4 in pair]
+                if label in ('d', 'weak') else
+                [j for j, pair in enumerate(c.PAIRS) if 4 not in pair])
+        block_flag = s.eye(n)[rows, :]
+        block_ok = [p.zero(p.mm(block_flag, x, z), z) for x in (F, AE, BE)]
+        ck(label+'_V4_exterior_or_actual_dual_block', all(block_ok))
         profiles[label] = dict(f, F=F)
         summary[label] = {'primitive_dimension': dimension,
             'primitive_polynomials': [[str(s.expand(x)) for x in row] for row in F.tolist()],
@@ -134,6 +146,8 @@ def run():
             'e5_flag': p.zero(p.mm(flag, F, z), z),
             'meridian_e5_flag': p.zero(p.mm(flag, p.mm(a, F, z), z), z),
             'longitude_e5_flag': p.zero(p.mm(flag, p.mm(b, F, z), z), z)}
+        summary[label].update(V4_block=block_ok[0], meridian_V4_block=block_ok[1],
+                              longitude_V4_block=block_ok[2])
     channels = {}
     for name, (kind, labels) in CHANNELS.items():
         ps = [profiles[label] for label in labels]
@@ -162,6 +176,13 @@ def run():
     ck('e5_dual_annihilator_detector_two_sided',
        p.zero(flag_map('Hu')*s.eye(10)[:, c.PAIRS.index((0, 1))])
        and not p.zero(flag_map('Hu')*s.eye(10)[:, c.PAIRS.index((0, 4))]))
+    ck('V4_vector_detector_two_sided', s.eye(5)[4, 0] == 0 and s.eye(5)[4, 4] != 0)
+    outer_rows = [j for j, pair in enumerate(c.PAIRS) if 4 in pair]
+    inner_rows = [j for j, pair in enumerate(c.PAIRS) if 4 not in pair]
+    ck('V4_exterior_detector_two_sided', p.zero(s.eye(10)[outer_rows, :][:, 0])
+       and not p.zero(s.eye(10)[outer_rows, :][:, 3]))
+    ck('V4_dual_annihilator_detector_two_sided', p.zero(s.eye(10)[inner_rows, :][:, 3])
+       and not p.zero(s.eye(10)[inner_rows, :][:, 0]))
     aa = s.diag(1, -1, 0, 0, 0)
     af = p.cy.exterior_lie(aa)
     ps = [dict(a=aa, b=s.zeros(5), h=4), dict(a=aa, b=s.zeros(5), h=-1),
