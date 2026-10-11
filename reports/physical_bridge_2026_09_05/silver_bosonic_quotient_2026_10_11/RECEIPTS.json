@@ -1,0 +1,103 @@
+{
+  "pushed_execution_seal": "dea691be4ec0b290fa8adf2b350e5b311fe844bb",
+  "runtime": {
+    "python_path": "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "pytest_cacheprovider_disabled": true
+  },
+  "all_runs": {
+    "native": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 4.618330999976024,
+      "log_bytes": 2971,
+      "log_sha256": "6e40922419dbf68b5fd22e27395a1eb14375875dd6be138367f46b1f3a889ed7"
+    },
+    "reference": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.7481329999864101,
+      "log_bytes": 3019,
+      "log_sha256": "52757e8edcc06d3355b5072d820903a7418d550c8a62fa2f5c17eda7a9b80c76"
+    },
+    "focused": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_bosonic_quotient.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 5.201383000006899,
+      "log_bytes": 98,
+      "log_sha256": "31566cade897f6d98e6622202dcd1280a524292589ff50a81f302fd155ae6793"
+    },
+    "regression": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_bosonic_quotient.py",
+        "tests/test_physical_bridge_silver_superfield_covariance.py",
+        "tests/test_physical_bridge_silver_fermion_action.py",
+        "tests/test_physical_bridge_silver_static_energy.py",
+        "tests/test_physical_bridge_silver_superfield_response.py",
+        "tests/test_physical_bridge_silver_complementary_boundary.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 123.97906100004911,
+      "log_bytes": 111,
+      "log_sha256": "a6477eff150ed9e0844080ba0a21f810928f2dfc4057ce8ba02d4cb6744f6277"
+    },
+    "integrity": {
+      "command": [
+        "ruby",
+        "-EUTF-8",
+        "-rjson",
+        "-rdigest",
+        "-e",
+        "base=\"reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/\";rows=JSON.parse(File.read(base+\"PRESEAL.json\")).fetch(\"science_files\")+JSON.parse(File.read(base+\"INPUTS.json\")).fetch(\"local_inputs\");rows.each{|r|p=r.fetch(\"path\");raise p unless File.size(p)==r.fetch(\"bytes\") && Digest::SHA256.file(p).hexdigest==r.fetch(\"sha256\")};puts JSON.generate({science_files:7,local_inputs:6,all_hashes_match:true})"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.14399900007992983,
+      "log_bytes": 61,
+      "log_sha256": "951bbb8532bea2c63ad21524c41eaa9b476e909fe10ebf6266f05821678d5566"
+    },
+    "identification": {
+      "command": [
+        "python3",
+        "scripts/checks/identification_audit.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.07655899995006621,
+      "log_bytes": 442,
+      "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+    }
+  },
+  "native_predicates": 43,
+  "reference_predicates": 37,
+  "focused_tests": 7,
+  "six_packet_regression_tests": 47,
+  "outside_review": false,
+  "full_suite_green": false,
+  "main_bank_acceptance": false,
+  "physical_goal_achieved": false
+}

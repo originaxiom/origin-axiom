@@ -1,5 +1,24 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 silver real bosonic quotient disposition:
+
+- PB-SILVER-REAL-BOSONIC-QUOTIENT EXECUTED at conditional authored grade:
+  “Smooth scalar Hessian-null directions modulo ALLOWED compact real
+  gauge biject to the SAME harmonic H1/Weyl space, with actual mixed
+  boundary compatibility proved.” PROOF sections2-4 under
+  reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/.
+  43 native/37 separate-method/7 focused/47 regression PASS.
+  Finite controls do not numerically certify the global PDE.
+- PB-SILVER-PHYSICAL-JOINT remains OPEN: same-action vector/constraint
+  realization and complete all-degree charged/dual/neutral/gauge count,
+  normalized interactions, anomaly/inflow, time-dependent Hamiltonian and
+  quantum/large-gauge completion. NEXT_TEST.md records the unexecuted order.
+- Compact real gauge is not complex gauge; global k and all35 harmonic
+  choices survive. No three-family/boundary/vacuum/parameter selection,
+  gravity or SM/TOE completion. Outside/full-suite/main acceptance owed.
+  Older dated NEXT rows retain their epoch, not a current missing-quotient
+  claim; other carriers are not excluded.
+
 October11 silver whole-superfield disposition:
 
 - PB-SILVER-SUPERFIELD-COVARIANCE EXECUTED at conditional authored grade:

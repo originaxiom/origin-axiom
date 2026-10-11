@@ -1,5 +1,25 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 real bosonic quotient sublemmas. SAME supplied compact E8
+parent/harmonic structure background/metric/strict A and all L. Authored
+analytic proof, outside acceptance owed:
+reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md;
+tests/test_physical_bridge_silver_bosonic_quotient.py.
+
+| Scoped result | Verification and limit |
+|---|---|
+| div_Dplus a separates real kappa and moment m; compact gauge is Hessian-null | Actual dagger and full generic derivative Ward identities; mu=H=0 for nullity, not complex gauge |
+| P0 is the same degree-zero mixed Q^2 sector with kernel global k | Prior closed Hilbert-complex/elliptic realization, real positive form and all-covector Dirichlet symbol; authored analytic proof, no numeric gap |
+| Actual source/normal flux obey Fredholm compatibility | Global parallel k and Stokes; collar lift and inverse on k-perp, not a finite-to-global PDE inference |
+| Real Hessian-null quotient bijects to harmonic H1 with positive norm | Allowed compact gauge slice, both actual traces and real kinetic orthogonality; same Weyl H1, linear/tree level only |
+| Imaginary complex gauge and frozen normal derivatives fail | Nonunitary flat controls, distinct polynomial flux solver and real-block kernels; physical harmonic/stabilizer modes kept |
+
+43/37 exact controls,7 focused and47 six-packet regression PASS at
+dea691be4; seven science/six input pins match. Static derivative laws
+vanish on ZERO MODES only. No new population, nonlinear moduli,
+Hamiltonian, anomalies, generated selection or SM/TOE completion.
+Older complete-cusp split credited, its inverse/domain not transferred.
+
 October11 whole-superfield silver sublemmas. SAME supplied twisted E8
 parent/metric/strict A and all L; authored PROOF, outside acceptance owed:
 reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md;

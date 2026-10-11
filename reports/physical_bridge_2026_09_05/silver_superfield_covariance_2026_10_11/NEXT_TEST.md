@@ -37,3 +37,10 @@ quantum/large-gauge consistency and generated selection remain separate
 obligations. Transfer to another carrier only after matching its data to
 these hypotheses. Continue the pinned W47/W53/B1634 cross-seat audits;
 sampling/optimization negatives do not become architecture-wide no-goes.
+
+October11 disposition: the real bosonic quotient/mixed boundary duty above
+has executed at conditional authored grade in
+reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/FINDINGS.md.
+43/37 controls,7 focused and47 regression PASS. This dated prereg remains
+historical; the next complete vector/constraint and all-degree physical
+dictionary is in the new packet NEXT_TEST.md. Outside proof review owed.

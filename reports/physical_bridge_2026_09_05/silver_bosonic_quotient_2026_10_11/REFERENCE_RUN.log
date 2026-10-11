@@ -1,0 +1,82 @@
+{
+  "conditional_linear_quotient": true,
+  "different_finite_controls": [
+    {
+      "complex_H1": 1,
+      "endpoint_kernel": 2,
+      "real_gauge_rank": 1,
+      "real_kernel_before_gauge": 3,
+      "real_quotient_rank": 2
+    },
+    {
+      "complex_H1": 0,
+      "endpoint_kernel": 1,
+      "real_gauge_rank": 2,
+      "real_kernel_before_gauge": 2,
+      "real_quotient_rank": 0
+    },
+    {
+      "complex_H1": 3,
+      "endpoint_kernel": 2,
+      "real_gauge_rank": 2,
+      "real_kernel_before_gauge": 8,
+      "real_quotient_rank": 6
+    },
+    {
+      "complex_H1": 1,
+      "endpoint_kernel": 1,
+      "real_gauge_rank": 3,
+      "real_kernel_before_gauge": 5,
+      "real_quotient_rank": 2
+    }
+  ],
+  "full_goal_achieved": false,
+  "full_multiplet_or_Hamiltonian": false,
+  "generated_selection": false,
+  "global_silver_PDE_recomputed": false,
+  "native_imported": false,
+  "nonlinear_moduli": false,
+  "outside_review": false,
+  "physical_population_recomputed": false,
+  "predicates": {
+    "block_1_1_2_chain_and_positive_gauge_Gram": true,
+    "block_1_1_2_complex_gauge_not_moment_null": true,
+    "block_1_1_2_real_quotient_matches_complex_H1": true,
+    "block_1_1_2_slice_is_orthogonal_not_deleting_harmonics": true,
+    "block_1_1_2_whole_complex_adjoint_harmonic": true,
+    "block_1_1_2_zero_form_kernel_kept": true,
+    "block_2_0_1_chain_and_positive_gauge_Gram": true,
+    "block_2_0_1_complex_gauge_not_moment_null": true,
+    "block_2_0_1_real_quotient_matches_complex_H1": true,
+    "block_2_0_1_slice_is_orthogonal_not_deleting_harmonics": true,
+    "block_2_0_1_whole_complex_adjoint_harmonic": true,
+    "block_2_0_1_zero_form_kernel_kept": true,
+    "block_2_3_2_chain_and_positive_gauge_Gram": true,
+    "block_2_3_2_complex_gauge_not_moment_null": true,
+    "block_2_3_2_real_quotient_matches_complex_H1": true,
+    "block_2_3_2_slice_is_orthogonal_not_deleting_harmonics": true,
+    "block_2_3_2_whole_complex_adjoint_harmonic": true,
+    "block_2_3_2_zero_form_kernel_kept": true,
+    "block_3_1_1_chain_and_positive_gauge_Gram": true,
+    "block_3_1_1_complex_gauge_not_moment_null": true,
+    "block_3_1_1_real_quotient_matches_complex_H1": true,
+    "block_3_1_1_slice_is_orthogonal_not_deleting_harmonics": true,
+    "block_3_1_1_whole_complex_adjoint_harmonic": true,
+    "block_3_1_1_zero_form_kernel_kept": true,
+    "boundary_inconsistent_flux_rejected": true,
+    "boundary_linsolve_exists_with_kernel": true,
+    "boundary_mean_fixed_unique_solution": true,
+    "boundary_normal_derivatives_not_frozen": true,
+    "boundary_real_slice_preserves_harmonic_mean": true,
+    "boundary_source_and_flux_exact": true,
+    "boundary_wrong_flux_sign_rejected": true,
+    "cross_term_not_silently_dropped": true,
+    "formal_actual_adjoint": true,
+    "formal_cross_term_is_moment": true,
+    "formal_wrong_Higgs_sign_rejected": true,
+    "harmonic_real_positive_P": true,
+    "real_skew_connection_Hermitian_Higgs": true
+  },
+  "predicates_passed": 37,
+  "same_author": true
+}

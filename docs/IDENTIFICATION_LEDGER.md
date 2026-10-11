@@ -1,5 +1,18 @@
 # THE IDENTIFICATION LEDGER
 
+Local October11 real scalar/Weyl map (no shared I-number change):
+[a] modulo ALLOWED compact real gauge -> a+Dlambda in harmonic H1,
+where P lambda=kappa(a) and Pi_k D_A,n lambda=-Pi_k u_n.
+Global parallel k supplies Fredholm compatibility; the same Q^2
+degree-zero mixed inverse gives a unique representative modulo k, whose
+Dlambda is zero. This bijection is k-equivariant and real-kinetic
+orthogonal, with finite positive norm, and the previous full Weyl map
+acts on the SAME H1.43/37 finite controls and7 focused tests pass;
+PROOF2-4 in reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/.
+Authored analytic map, not outside review or numerical PDE certificate.
+No complete physical census, nonlinear moduli, generated observer/qualia,
+boundary/parameter selection or full SM/TOE identification is promoted.
+
 Local October11 twist/covariance map (no shared I-number change):
 2 tensor 2 -> normalized diagonal invariant (0,1,-1,0)/sqrt2 plus its
 rank-three complement. All three supplied spin/R diagonal generators
