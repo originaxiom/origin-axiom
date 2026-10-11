@@ -810,3 +810,14 @@ Imported source hashes are in the packet's ARTIFACT_HASHES.txt.
 | `reports/genesis_root_review_2026_10_11/cohomology_carrier/PREREGISTRATION.md` | `e69a3200d39d81497e0a3bad6a67a7c6969cf1016d85e1b00c8cbb4a324fe794` |
 | `reports/genesis_root_review_2026_10_11/cohomology_carrier/PROOF.md` | `6193c07eaeccdbb33ef1bc4d54522e62d2c2b9922367ce6b2fe60c6af6a916a4` |
 | `reports/genesis_root_review_2026_10_11/cohomology_carrier/verify.py` | `bed756a71f633c7a52b18e66caa8b2f4c09bba91ccc9bd5890b07d39f03049fc` |
+
+### Coefficient carrier equality correction before rerun
+
+First execution exited 1 on an unexpanded Gaussian-integer zero compared
+syntactically with zero. Original proof and source unchanged; failure retained.
+The new source compares exact polynomial entries and adds two-sided controls.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/cohomology_carrier/verify_v2.py` | `3ad420c2c716f3703680fc221301562f2a5bed4d9d955130bf7de77ce1b3f687` |
+| `reports/genesis_root_review_2026_10_11/cohomology_carrier/CORRECTION_V2.md` | `2c4bfc0f1038e9780f5ac1d50ebf9909cebe4cadf2c3a0a803b4dea38a97dd16` |

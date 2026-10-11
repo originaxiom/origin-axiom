@@ -1,0 +1,4 @@
+# Raw file retained locally; it contains a host path and is not published.
+ed766b5f32a3905e8c6fb6b7d91790e5dd35dd1424a633fdf52268b6ad913635  reports/genesis_root_review_2026_10_11/cohomology_carrier/NATIVE_FIRST.txt
+# Mechanically path-redacted copy for publication.
+8a5c7a1cb88c4feee432407218f4f7553f54054f566b3e42f17c99bce16f735f  reports/genesis_root_review_2026_10_11/cohomology_carrier/NATIVE_FIRST_PUBLIC.txt

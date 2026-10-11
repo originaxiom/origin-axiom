@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<repo>/reports/genesis_root_review_2026_10_11/cohomology_carrier/verify.py", line 156, in <module>
+    main()
+  File "<repo>/reports/genesis_root_review_2026_10_11/cohomology_carrier/verify.py", line 94, in main
+    check(dr*cob == s.zeros(2), ('relation kills coboundaries', parity))
+  File "<repo>/reports/genesis_root_review_2026_10_11/cohomology_carrier/verify.py", line 66, in check
+    assert condition, message
+AssertionError: ('relation kills coboundaries', (0, 0))
