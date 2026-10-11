@@ -1,0 +1,6 @@
+PASS: 8234 exact assertions
+Freely reduced signed words through length five: 485
+Positive words through length ten including empty: 2047
+Substitution fixtures: 9 on 161 signed words each
+Nontrivial free kernel witness: abABabbABaBAbbaBBA
+All-length claims rely on PROOF.md, not finite enumeration.
