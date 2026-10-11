@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-10-11 cross-branch contemplation and claim calibration
+
+All eleven live heads fetched; foreign heads unchanged. Selected personal
+source/argument audit, not a fresh reproduction of every lane. Canonical
+GENESIS v1.41 read completely. Conditional mathematics and admitted
+physical constructions credited; existence/SM/TOE not derived from
+minimality alone. THE_CLAIM's four/five count and historical one-wall
+wording remain currency duties, not a new theorem refutation.
+
+W53 local-fit evidence retained without a global certificate; W21/W49's
+scalar Hodge pairing narrows the normalization rescue hypothesis. B1629's
+word measure does not exclude every physical end mechanism; genesis's
+prior correction credited. Our charged zero and chiral positives stand
+at their prior grades. Register-loss causation is not proved. Next use
+the existing operator/domain/cyclic/end comparison and annihilator duty;
+no new scientific execution or canonical amendment. Report:
+physical_bridge/contemplation_audit_2026_10_11/FINDINGS.md. Relay OPEN.
+
 ## 2026-10-11 actual charged-cubic overlap and scoped zero
 
 51 native/42 Fraction predicates and 34 focused regression PASS, 9 new;

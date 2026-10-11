@@ -1,5 +1,25 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October 11 contemplation audit: source-level review, no new science run.
+
+- PB-CROSS-BRANCH-CLAIM-CURRENCY OPEN: reconcile THE_CLAIM's four/five
+  input wording and historical one-wall headline against canonical
+  GENESIS. Keep conditional structure separate from existence/physics.
+- PB-NEGATIVE-SCOPE-CERTIFICATION OPEN: preserve W53's failed finite
+  local optimization as evidence, not a global lower bound; cover
+  finite-field rechecks still need characteristic-zero certificates
+  where an exclusion depends on exact rank. No successful fit inferred.
+- PB-GENESIS-END-OPERATOR-LINK remains OPEN: B1629's uniform word-measure
+  result is not a coupled end-sector no-go; the genesis lane already
+  registered that narrowing. No nonzero sector is thereby selected.
+- PB-SILVER-INTERACTION-RADICAL and PB-NORMALIZED-INTERACTIONS remain
+  OPEN. Register-loss causation is unproved; direct charged zero is not
+  all higher physical vertices. Credit W21/W49 scalar Hodge norms:
+  arbitrary nonscalar kinetic retuning is not a derived fit remedy.
+
+Report contemplation_audit_2026_10_11/FINDINGS.md. No new bank number,
+universal absence, canonical amendment or recipient acceptance.
+
 October 11 charged-overlap dispositions supersede old uncomputed duty:
 
 - PB-SILVER-CHARGED-CUBIC EXECUTED: actual bulk/trace transgression,
