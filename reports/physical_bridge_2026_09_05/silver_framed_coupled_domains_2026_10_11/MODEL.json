@@ -1,0 +1,21 @@
+{
+  "scientific_claim_grade": "authored conditional analytic extension with exact local controls",
+  "background": "same Phi_star + v H omega, flat and moment zero",
+  "boundary_reset": false,
+  "old_boundary": "A0=k_C; A1=im h2 + L; A2=ann_B(k_C)",
+  "scalar_slice": "G=0; integrated Pi_old-k u_n=0",
+  "real_vector_kernel": "C_k(H), not all old k at v != 0",
+  "new_mechanism": "D_v,Sigma A0 subset A1 and normal two-form trace in A1 Hermitian perp",
+  "finite_complex_dimensions": [1, 2, 2, 1],
+  "finite_complex_mass": "arbitrary positive symbolic m, not a physical prediction",
+  "slab": "[0,pi] times a flat torus, B=0, real skew connection q times rotation in y",
+  "slab_modes": "arbitrary positive integer n and real q; n=0 broken/unbroken compared separately",
+  "slab_boundary_note": "componentwise old constant values and harmonic dy polarization; not silver global topology",
+  "gauge_quotient": "compact real only; imaginary exact scalar retained",
+  "positive_mass_interpretation": "singular values of symmetric Weyl tensor, not ordinary eigenvalues",
+  "domain_scope": "smooth compatible spectral core, not whole Dom(Delta) supersymmetry invariance",
+  "source_grade": "pinned local proofs and personally read Run12/Run13 reports; archive producers not rerun",
+  "outside_analytic_acceptance": false,
+  "selected_parent_or_boundary": false,
+  "full_parameter_free_SM_or_TOE": false
+}

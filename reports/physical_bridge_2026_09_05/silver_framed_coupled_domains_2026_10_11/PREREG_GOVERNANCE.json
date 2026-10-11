@@ -1,0 +1,22 @@
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "LC_ALL=C",
+    "LANG=C",
+    "python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 14.550336000043899,
+  "log_bytes": 2384,
+  "log_sha256": "a54086d5039b609bef1232b73d91b7059260be59b7c695966e4e53ad34ea2f66",
+  "staged_tree": "db22c6c2ef7bd1b1ec9968573907a632c7847109",
+  "counts": {
+    "pass": 26,
+    "fail": 4
+  },
+  "science_executed": false,
+  "full_suite_green": false
+}

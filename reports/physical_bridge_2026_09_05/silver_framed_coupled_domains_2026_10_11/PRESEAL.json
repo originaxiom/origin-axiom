@@ -1,0 +1,40 @@
+{
+  "before_first_science_execution": true,
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/DESIGN.md",
+      "bytes": 3860,
+      "sha256": "0d6612fbba5da2817d7d81c6000f84027772ad7eccdcfaccb01be0b2fa71f1f1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/PROOF.md",
+      "bytes": 10180,
+      "sha256": "4be9b7eb7e247201cdbd6b37874444a4f383a89004a067ec5722a5b5773b40fe"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/MODEL.json",
+      "bytes": 1400,
+      "sha256": "5fcbdf6b7417efb27bdceec74d1bb2b2bcdc5139d3aa847b436fb0722741e42c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/INPUTS.json",
+      "bytes": 4491,
+      "sha256": "46017cd3966d19ce87373d23b8ca48612953ac8dedfae2385057de7c559ddaac"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/probe.py",
+      "bytes": 6899,
+      "sha256": "2e95002c56dc14dcc728c6de6f59675e7978cc125477165eb7c46443696a3b62"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/reference.py",
+      "bytes": 5398,
+      "sha256": "7047b4bf185412b6b88fb007417ee64012219a96dfcd6a9b48cd608625b1e7bd"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_framed_coupled_domains.py",
+      "bytes": 2724,
+      "sha256": "fc5f6ce8ead2453eb96d4cb5bb77fa359224e6f484fc6f9af5f112885cb42b24"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-11",
+  "sources": [
+    {
+      "kind": "local_git_source",
+      "commit": "29098142e65447db1bb9bb6ea456d675be864122",
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "bytes": 8116,
+      "sha256": "78693f6656fff74e67c2d94d4fe84a100b02f5ca7ab50ec8b98ae375ccf449c4"
+    },
+    {
+      "kind": "local_git_source",
+      "commit": "29098142e65447db1bb9bb6ea456d675be864122",
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md",
+      "bytes": 9479,
+      "sha256": "da4a73d4559fadbd42d1862b9b4b417b1bba3eb5f4e107cba206456ee37c9eaf"
+    },
+    {
+      "kind": "local_git_source",
+      "commit": "29098142e65447db1bb9bb6ea456d675be864122",
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "bytes": 7485,
+      "sha256": "20d20923474012672616c752b57ecb087817bf0acabc7ca04c4b2b38b1d1792e"
+    },
+    {
+      "kind": "local_git_source",
+      "commit": "29098142e65447db1bb9bb6ea456d675be864122",
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "bytes": 10193,
+      "sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7"
+    },
+    {
+      "kind": "local_git_source",
+      "commit": "29098142e65447db1bb9bb6ea456d675be864122",
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md",
+      "bytes": 9777,
+      "sha256": "0666cc040c486f69d7b8cda4e581d7da31a265d2dd9a7cc4d18ae5beb30837d8"
+    },
+    {
+      "kind": "local_git_source",
+      "commit": "29098142e65447db1bb9bb6ea456d675be864122",
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md",
+      "bytes": 10671,
+      "sha256": "8557539bf0e764ea4350204403e26791473261f20f0b63b176618aa87b5be398"
+    },
+    {
+      "kind": "local_git_source",
+      "commit": "29098142e65447db1bb9bb6ea456d675be864122",
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "bytes": 13239,
+      "sha256": "6f3eee6acfed04e98f4df0d4fe98aff6d717be416a3aee05fb350d571934b8fa"
+    },
+    {
+      "kind": "local_git_source",
+      "commit": "29098142e65447db1bb9bb6ea456d675be864122",
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/FINDINGS.md",
+      "bytes": 9160,
+      "sha256": "41efc18eee5f3c9a1306b2f74059c1b0ca5253fcf3a10d1bfead4d1ba04c4822"
+    },
+    {
+      "kind": "local_git_source",
+      "commit": "29098142e65447db1bb9bb6ea456d675be864122",
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/NEXT_TEST.md",
+      "bytes": 1632,
+      "sha256": "45139a5b6c831cb32eabdbe9fcfae9fb08a2e0974c54f03155e48600f9d133b9"
+    },
+    {
+      "kind": "remote_git_source",
+      "commit": "b7a51ac7094ea5b1e800598238a51890d9345dfc",
+      "path": "reports/genesis_root_review_2026_10_11/CROSS_BRANCH_REPRODUCTION.md",
+      "bytes": 5852,
+      "sha256": "51315c4bca143c398ebaf910718f2a93091dee7632849ab5f1f440a1de945bd7"
+    },
+    {
+      "kind": "remote_git_source",
+      "commit": "b7a51ac7094ea5b1e800598238a51890d9345dfc",
+      "path": "reports/genesis_root_review_2026_10_11/UPSTREAM_DEPENDENCIES.md",
+      "bytes": 6165,
+      "sha256": "c194ce6e03fece1d17eb35e412083b3d17121cfcd86825764bd9f68882999a73"
+    },
+    {
+      "kind": "remote_git_source",
+      "commit": "b7a51ac7094ea5b1e800598238a51890d9345dfc",
+      "path": "reports/genesis_root_review_2026_10_11/CROSS_BRANCH_REFERENCE_FIRST.json",
+      "bytes": 1320,
+      "sha256": "7f00d219996a4c3f2cd4395c136a37c706f73c33791db58e303bbe71ffc18ff0"
+    },
+    {
+      "kind": "archive_report_not_producer_replay",
+      "archive_sha256": "afdf14b8b0691db97345d5b947fb2bbea08de4872140667e1ccdcef860c1011e",
+      "member": "chatgpt_weave_2026_10_11/runs/weave_quantum_run12/TECHNICAL_REPORT.md",
+      "bytes": 21479,
+      "sha256": "32cc242101817d9788c3fdf639002ca2d948ebc01aced659c192f69bbf1d2b55"
+    },
+    {
+      "kind": "archive_report_not_producer_replay",
+      "archive_sha256": "afdf14b8b0691db97345d5b947fb2bbea08de4872140667e1ccdcef860c1011e",
+      "member": "chatgpt_weave_2026_10_11/runs/weave_quantum_run13/TECHNICAL_REPORT.md",
+      "bytes": 26483,
+      "sha256": "f09082006dbb8b85eb5d8e65cb31d900643a80d200de678bd8c923c37ce46d59"
+    }
+  ],
+  "server_live_heads": 11,
+  "source_custody_not_analytic_acceptance": true
+}
