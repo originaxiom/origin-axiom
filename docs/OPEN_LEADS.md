@@ -3,6 +3,11 @@
 October11 charged-pair and archive dispositions supersede older duty
 lines below:
 
+- PB-GENESIS-PUNCTURE-SIGN SOURCE REVIEW/CUSTODY: newer66821919d proof,
+  producer and2681 stored predicates reviewed, not executed here. One
+  suitable sign plus joint moves suffices under supplied graded local
+  hypotheses; independent replay and actual field/domain transfer owed.
+  No physical index, silver transfer or modular unit selected.
 - PB-SILVER-CHARGED-PAIR-LIFTING PARTIALLY EXECUTED: generic small-v
   protected-only kernels, actual dual/exceptional incidence and first
   physical ranks;146/127 controls and65 regression PASS. Normalized higher

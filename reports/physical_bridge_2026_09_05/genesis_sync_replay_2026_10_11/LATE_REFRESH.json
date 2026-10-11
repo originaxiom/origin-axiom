@@ -1,0 +1,23 @@
+{
+  "source_commit": "66821919dcb1bd2e87bbecb77130f7be56eb81e3",
+  "scope": "late source reading and custody only, no new scientific producer or pytest execution",
+  "previous_replayed_files_unchanged": 16,
+  "puncture_source_seal": "c2baf707b863e65324aed7f63f3fb87a31f76e1d",
+  "source_seal_hashes_matched": 5,
+  "stored_predicates": 2681,
+  "stored_predicates_all_true": true,
+  "stored_output_sha256": "535df39d095a2b4f8afd2d9e5b515c634f35b5ee5f6efe5ac35de73b34333d01",
+  "new_puncture_producer_replayed_here": false,
+  "new_action_embedding_reconstructed_here": false,
+  "new_physical_index_accepted": false,
+  "baseline_reconciliation_public_log_hashes_matched": 2,
+  "baseline_tests_replayed_here": false,
+  "source_baseline_physical_trees_identical": true,
+  "source_baseline_test_trees_identical": true,
+  "source_reported_focused_counts": {
+    "pass": 47,
+    "fail": 3,
+    "error": 0
+  },
+  "does_not_clear_full_suite": true
+}

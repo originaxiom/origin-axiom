@@ -1,0 +1,18 @@
+{
+  "checked_staged_tree": "ee9f145388e722445286861cfe3aab599a4394ea",
+  "scope": "Four-file late source-reading/custody addendum; no scientific criteria or input changes",
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 15.829210000112653,
+  "log_bytes": 2384,
+  "log_sha256": "ba0ea17482185d0226312fa69a39042818a13ef27bbf40b5284666a98e2d4163",
+  "raw_receipt_sha256": "35110f85e44c69115b21d0d2a1964bed3e20bba880f852ce29204e2040479365",
+  "governance_pass": 26,
+  "governance_fail": 4,
+  "failure_lines_byte_identical_to_initial_check": true,
+  "full_suite_or_main_acceptance": false,
+  "final_after_check_metadata_only": [
+    "LATE_GOVERNANCE.log",
+    "LATE_PUBLICATION.json"
+  ]
+}

@@ -137,3 +137,38 @@ and named followup logs/metadata enter after those read-only checks.
 The custody checker is repaired; the mathematical instruments, source
 proofs and criteria have not changed. Full-suite/main acceptance is
 still not claimed.
+
+## Late server refresh at the newer genesis pin
+
+The final server check found66821919dcb1bd2e87bbecb77130f7be56eb81e3,
+which was fetched with all heads. Sixteen proof/preregistration/producer
+files from our five completed replays are unchanged there. Its newer
+puncture-symmetry proof, preregistration, source scope, producer, findings
+and receipt were read in full. Five source hashes match their pre-run
+seal c2baf707b; the stored JSON has2,681 true predicates with matching
+hash/size and no stored failures/missing/unexpected names. That is a
+source/custody review, NOT execution of this new producer here.
+
+The useful new conditional refinement is a single flavour sign D together
+with the two moves, replacing full continuous flavour invariance for
+excluding intermediate local subspaces. Its supplied flat SU6/E8 action
+extension retains all interaction slots. The proof also preserves the
+continuous ungraded Green-data family; two endpoints require the stated
+grading. The stipulated d-3 index is not automatically a physical index.
+No transfer to our different silver coefficient, Higgs background or
+boundary is made. This is a positive follow-up lead, not a universal
+selection theorem or three physical generations.
+
+The same refresh includes a focused baseline reconciliation. Its two
+published log hashes match and Git confirms identical physical-report/
+test trees at8b89d8fb and30fdb6a16. The seat reports47 pass/three fail
+at both pins, recovering existing spin and nonsplit-extension correction
+controls. That gives scoped inheritance evidence for those three original
+failures, not every full-suite failure; its test run was not repeated
+here. The old finite-twist witness is expressly NOT the later silver
+rank-five coefficient. The original failed full suite stays in force.
+
+PB-GENESIS-PUNCTURE-SIGN: source proof/custody reviewed; independent
+producer replay and actual field/domain transfer remain queued. The
+upstream operator/end law and our coupled framed-domain priority remain.
+No new math producer or source branch was changed in this late refresh.
