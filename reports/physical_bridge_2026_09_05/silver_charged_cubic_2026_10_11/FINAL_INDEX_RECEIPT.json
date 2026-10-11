@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-11",
+  "checked_tree": "434a988887e8c01c4771aaf6eb8e4afee71fa5a4",
+  "checked_files": 33,
+  "predicates_passed": 13,
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 1.7213269998319447,
+  "log_bytes": 7320,
+  "log_sha256": "82f8719424364340369eb63abaca3dbae7bbd1e269928cf8ec915e3ac3b180b1",
+  "private_capture_receipt_sha256": "c0a80dc037cbbf0326a37f6e44ecee6fc9864da265dce424d60bd0c16fa6f657",
+  "log": "FINAL_INDEX_CUSTODY.log",
+  "checker": {
+    "name": "final_index_checker.rb",
+    "bytes": 3540,
+    "sha256": "5177b15b7a94c303e1434daa99c7698aa485dd5b73a34065eefa8f116976e65b"
+  },
+  "after_checked_tree": [
+    "FINAL_INDEX_CUSTODY.log",
+    "final_index_checker.rb",
+    "FINAL_INDEX_RECEIPT.json"
+  ],
+  "scope": "These three final metadata files are added after the 13-predicate check of 33 named publication paths. They do not retroactively belong to the earlier 24-path governance snapshot. Immediately before commit, all 36 staged/working files, the 33 recorded hashes and all 25 sealed science/input hashes are rechecked; these three additions are matched to this literal capture/checker.",
+  "outside_analytic_acceptance": false,
+  "full_suite_green": false,
+  "full_goal_achieved": false
+}

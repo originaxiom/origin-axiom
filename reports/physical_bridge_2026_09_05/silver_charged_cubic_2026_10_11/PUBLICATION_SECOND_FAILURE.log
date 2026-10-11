@@ -1,0 +1,3 @@
+/tmp/oa-charged-cubic.rBQV1h/check_publication_final.rb:58:in `block in <main>': undefined method `tally' for []:Array (NoMethodError)
+	from /tmp/oa-charged-cubic.rBQV1h/check_publication_final.rb:57:in `all?'
+	from /tmp/oa-charged-cubic.rBQV1h/check_publication_final.rb:57:in `<main>'

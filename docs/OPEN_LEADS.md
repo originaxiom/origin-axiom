@@ -1,6 +1,29 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-October11 selective-boundary dispositions supersede older candidate notes:
+October 11 charged-overlap dispositions supersede old uncomputed duty:
+
+- PB-SILVER-CHARGED-CUBIC EXECUTED: actual bulk/trace transgression,
+  all wholly charged direct tensors ZERO on specified constant-boundary
+  phase; 51/42 exact predicates and 9 new within 34 regression PASS.
+  Parent tensor/full chiral-roster positives retained; no universal kill.
+- PB-SILVER-INTERACTION-RADICAL OPEN: identify the primitive flag/bracket/
+  volume-annihilator mechanism. Do not merely fit another polarization.
+- PB-SILVER-SELECTIVE-BOUNDARY-SELECTION and
+  PB-GENESIS-END-OPERATOR-LINK OPEN: derived coefficient/operator/domain
+  map must ALSO preserve cyclic interactions/trace/end data; index alone
+  is insufficient. No rank6/rank5 identity or desired-end-unit selection.
+- PB-NORMALIZED-INTERACTIONS/QUANTUM-BOUNDARY OPEN: charged ZERO is now
+  computed and normalization-invariant; neutral mixed/self tensors,
+  full light potential, heavy-induced operators/global kinetic norms,
+  nonlinear/global quantum/inflow and outside acceptance remain owed.
+- Light Higgs/mu/SUSY, 7 neutral chirals, larger-carrier3 families,
+  parameter/I-23/gravity/observer, main/full-suite and archived Run13
+  replay duties remain. A new vacuum/domain/metric needs its own test.
+
+Report silver_charged_cubic_2026_10_11. Only THIS direct classical
+charged sector is constrained; full parameter-free SM/TOE remains unachieved.
+
+October 11 selective-boundary dispositions supersede older candidate notes:
 
 - PB-SILVER-SELECTIVE-BOUNDARY-LIFT EXECUTED at authored conditional
   admission grade: complete NEW Ah=(12,100,88), SAME interacting parent/

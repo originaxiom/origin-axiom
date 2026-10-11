@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-11",
+  "kind": "publication custody, not a new scientific computation",
+  "pre_execution_commit": "cba986752e8c1b5c49f70c91909d4aa869886ded",
+  "checked_tree": "74f1220f4b31a6e2fc920f9932817f45601972a1",
+  "temporary_detached_snapshot_commit": "bdd4af63b3aa6e1b9c9341cd9bafab41af6bb769",
+  "checked_publication_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/NATIVE_FIRST.log",
+      "bytes": 4093,
+      "sha256": "338ce22c8379577569e1a1de842bd28916613f32b948e37589d5d1ca7efab958"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/REFERENCE_FIRST.log",
+      "bytes": 4498,
+      "sha256": "2ac7ff238133b869edb928bffe1c5b0801ff955e56e30238f546a6033f979dd6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/REGRESSION_FIRST.log",
+      "bytes": 110,
+      "sha256": "100ebf9247fa47fd7d3bee174535003dd39d3362dfae0e25f5c41e24897ff99e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/GOVERNANCE_BEFORE.log",
+      "bytes": 2384,
+      "sha256": "8e5f3a224b67aaf1ee3e9ab55bfc46f3272a3b91895828724e67b0cf64130c38"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/RECEIPTS.json",
+      "bytes": 6368,
+      "sha256": "d42259b8e32200199f36b3b54fe91edf75db6261a154c2ae43bdd9d6d00f2a07"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/FINDINGS.md",
+      "bytes": 7119,
+      "sha256": "78f8b4fc99600b99d9116836a4518692f989184541bb22a3ac0fd5187ba72188"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/NEXT_TEST.md",
+      "bytes": 2547,
+      "sha256": "0e7236c00ed9e28ab62465892b37278c28de48951dbf472fc831bdeae8f47b75"
+    },
+    {
+      "path": "docs/CAMPAIGN_STATUS.md",
+      "bytes": 511254,
+      "sha256": "11723c981083a5ed549431a60761ad79dc74acc113ecc8200e2309f2a8abbb07"
+    },
+    {
+      "path": "docs/THE_CAMPAIGN.md",
+      "bytes": 98720,
+      "sha256": "0226cf853329b8193b8b377b48a8599b7a136e43313f9c509c2d8c28e8918378"
+    },
+    {
+      "path": "docs/THE_FRAMEWORK.md",
+      "bytes": 203687,
+      "sha256": "2e92169373e62bbf5a087a0eecb0532bd116e1a777d0b8472d2225a144364f56"
+    },
+    {
+      "path": "docs/THE_LADDER.md",
+      "bytes": 179122,
+      "sha256": "9dd2b82dd2baa66d6001f59b44f521c40069f9b6538e7fced46cea71feb61a8e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+      "bytes": 40113,
+      "sha256": "9fbcb1e9eece8d54599a417e70854b5efc72dc2999fe8b73d41c2d0157fa18cc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/EXECUTION_ROADMAP_2026_10_05.md",
+      "bytes": 45805,
+      "sha256": "63f90df577a7998717f1b940a4b3dd872cfa60f73f03252cd7e15646a0d5bc7a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MISSION_STATUS_2026_09_10.md",
+      "bytes": 38441,
+      "sha256": "9f80d3db749a1f134072e19b21490be6b954c68014a6acd1a13768f0c0db6d74"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/README.md",
+      "bytes": 106784,
+      "sha256": "ae78da32cef42d89641fce94fb675f973bbef08588025121c66e4473461b372f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GOAL_VERDICT.md",
+      "bytes": 115466,
+      "sha256": "f060aac23f5e4817a65056be721db2b3422f59ff3641baccb019b8836d215a7c"
+    },
+    {
+      "path": "docs/LAW_MAP.md",
+      "bytes": 500555,
+      "sha256": "e23d2ee31178b39f494327e0bed3c92d6385225aa0329acd881be65ba7641828"
+    },
+    {
+      "path": "docs/INPUT_COMPLETENESS_LEDGER.md",
+      "bytes": 22842,
+      "sha256": "42e9086b8520c4c7474f1f748b032f2f9a1e4056dee2c52a151bc6058bf0549c"
+    },
+    {
+      "path": "docs/IDENTIFICATION_LEDGER.md",
+      "bytes": 66594,
+      "sha256": "4c59b7b0729f0f76476aaa11c4f3818e788a3eb9b76727323976dbcaa29429d0"
+    },
+    {
+      "path": "docs/OPEN_LEADS.md",
+      "bytes": 551848,
+      "sha256": "fc70b08d3ae1465c85c9def23fbfa2126d62314616d404ed404694e49f0e22f5"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1495836,
+      "sha256": "bb9c5fafb9f9cb3f7ffddaacc3b0eaf5d9b0100ad1d896bb0be9c775ba58176f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/CODEX_TO_GENESIS_CC_AND_SM_2026-10-11_CHARGED_CUBIC_ZERO_AND_RETAINED_STRUCTURE.md",
+      "bytes": 3424,
+      "sha256": "4f9ef13c83edfc46bd9f86d7e43a912192213a54a2a897d47811a3dfb622041b"
+    },
+    {
+      "path": "docs/RELAY_LEDGER.md",
+      "bytes": 124093,
+      "sha256": "5916faf16640ccee245d409823bd7985806a970378021f502e56afa0b514afdc"
+    },
+    {
+      "path": "PROGRESS_LOG.md",
+      "bytes": 1830643,
+      "sha256": "0d6e9334d6bd1fc8ba54efe0a065d9c595bfac92c485c2153b6b1ae3fca39023"
+    }
+  ],
+  "publication_final_predicates": 26,
+  "publication_first": {
+    "passed": 24,
+    "failed": 2,
+    "exit_code": 1,
+    "checker_only_repaired": true
+  },
+  "publication_second": {
+    "exit_code": 1,
+    "reason": "Array#tally not available in system Ruby2.6.10",
+    "checker_only_repaired": true
+  },
+  "publication_final": {
+    "passed": 26,
+    "failed": 0,
+    "exit_code": 0,
+    "checked24_bytes_unchanged_since_first_attempt": true
+  },
+  "checkers": [
+    {
+      "name": "publication_checker_first.rb",
+      "sha256": "c6c70b8db42d8fd7abab162493903349e3ebc9d809983da9decb3d4aef2fc503",
+      "bytes": 6361
+    },
+    {
+      "name": "publication_checker_second.rb",
+      "sha256": "3edad87fc32569f4b7befe3616475e917ba7ad3d4dccfb47b428a2f739b40edb",
+      "bytes": 6572
+    },
+    {
+      "name": "publication_checker_final.rb",
+      "sha256": "cdcf90f00103f979e994e69bf1be79ea7d19e8fb24dadc955afaabb6422cf42a",
+      "bytes": 6648
+    }
+  ],
+  "raw_runs": [
+    {
+      "name": "publication_first",
+      "log": "PUBLICATION_FIRST.log",
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 2.3733909998554736,
+      "log_bytes": 5858,
+      "log_sha256": "e993e2aba6824e62207f8127eb71494dcbfbd7ffcce26219452bff12ebefe0a6",
+      "private_capture_receipt_sha256": "27e8635969b99dbaa44aa5a9d2988d1f442da10224c5974fd24b5179a2bff268",
+      "command_representation": "Original private capture command is committed by its receipt SHA256; public checker sources and portable reproduction instructions are retained separately, without publishing personal workspace paths."
+    },
+    {
+      "name": "publication_final",
+      "log": "PUBLICATION_SECOND_FAILURE.log",
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 2.4184600000735372,
+      "log_bytes": 287,
+      "log_sha256": "b21a91d74d9e0567f69afc2e5a321362694b77f65135ab6b48448afcc8828410",
+      "private_capture_receipt_sha256": "3d89c325229b3b89906ca012f332ba667591acd5e2f80009b3c98a05fe959a3e",
+      "command_representation": "Original private capture command is committed by its receipt SHA256; public checker sources and portable reproduction instructions are retained separately, without publishing personal workspace paths."
+    },
+    {
+      "name": "publication_final2",
+      "log": "PUBLICATION_FINAL.log",
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 3.3827819998841733,
+      "log_bytes": 5860,
+      "log_sha256": "a4f4da8d5c057f5abbc47c2f787076b16ffafa4c7639c820f30be523f871d8d2",
+      "private_capture_receipt_sha256": "04b21907c8dd07d4c692befb9240ffd1fc814dd02078bd439286b1b2739f4be1",
+      "command_representation": "Original private capture command is committed by its receipt SHA256; public checker sources and portable reproduction instructions are retained separately, without publishing personal workspace paths."
+    },
+    {
+      "name": "governance_staged",
+      "log": "GOVERNANCE_STAGED.log",
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 15.101326000178233,
+      "log_bytes": 2384,
+      "log_sha256": "95a405650a08de38c7442afdc4b51c175508b08fee612917e6e342cfa76e8f55",
+      "private_capture_receipt_sha256": "5b0bb4977df1725b59ce2fceb97db3a839294579e8a24fb7771d9df7f582d0d5",
+      "command_representation": "Original private capture command is committed by its receipt SHA256; public checker sources and portable reproduction instructions are retained separately, without publishing personal workspace paths."
+    }
+  ],
+  "governance_staged": {
+    "pass": 26,
+    "fail": 4,
+    "inherited_categories": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "first_three_failure_lines_identical_to_pre_run": true,
+    "seal_digests": "PASS",
+    "banked_relays": 44,
+    "open_relays": 124,
+    "stale_relays": 42,
+    "review_due": 450,
+    "not_full_suite_green": true
+  },
+  "foreign_sync": {
+    "date": "2026-10-11",
+    "live_head_count": 11,
+    "heads": [
+      {
+        "branch_ref_sha256": "dcedf014d257af15e7f8adc29d93c3214a465e56dcced805aafe6471e795acea",
+        "commit": "b7a51ac7094ea5b1e800598238a51890d9345dfc",
+        "tracking_ref_matches": true,
+        "branch_alias": "genesis"
+      },
+      {
+        "branch_ref_sha256": "07b9a75a7132325a2661eee0c09f035d1c3d3ef4cf0eec5c3832182935a3d9d5",
+        "commit": "cba986752e8c1b5c49f70c91909d4aa869886ded",
+        "tracking_ref_matches": true,
+        "branch_alias": "physical"
+      },
+      {
+        "branch_ref_sha256": "b0f792c870fe85842ba597812d30be39774a54686cd6b07a652d91c1c40626c1",
+        "commit": "d40c1ab6ec7201c1a0763b6a70a1b265c86aa3ee",
+        "tracking_ref_matches": true,
+        "branch_alias": "web-seat"
+      },
+      {
+        "branch_ref_sha256": "df2e6aca4b74a76e83ff2ffa63993249a4325473d669bc68ce3a3c525b1aa9de",
+        "commit": "d7e4afeb7d0e13eb786f50893f02fe18b965520c",
+        "tracking_ref_matches": true,
+        "branch_alias": "archive"
+      },
+      {
+        "branch_ref_sha256": "480524622571e160607b092c6a6cc796884c27bbae16d70125525053fd3e9380",
+        "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+        "tracking_ref_matches": true,
+        "branch_alias": "auxiliary-1"
+      },
+      {
+        "branch_ref_sha256": "7a2d12746e886888c26d9f4fa147f3e54308b03631c9eec9d41ee1e75a2b94fd",
+        "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+        "tracking_ref_matches": true,
+        "branch_alias": "outside-bench"
+      },
+      {
+        "branch_ref_sha256": "94b12b879a3db37426aebc385aa6a513d8ff46276b7b98a9010021e109cb2d38",
+        "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+        "tracking_ref_matches": true,
+        "branch_alias": "paper-review"
+      },
+      {
+        "branch_ref_sha256": "a219eb21b08db04f05838c8fb29b1f627490235894a1ae7eac5dc3ae51a5eb75",
+        "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+        "tracking_ref_matches": true,
+        "branch_alias": "common-cover"
+      },
+      {
+        "branch_ref_sha256": "0d3190a1ebbfed64f2fa2c473671ca301e9816caec319c4d0ba39e0a9c2c1745",
+        "commit": "6877cc87d31941a85f139e2f25e5e13694e22ce6",
+        "tracking_ref_matches": true,
+        "branch_alias": "standard-model"
+      },
+      {
+        "branch_ref_sha256": "f921bd05e68b03740c450e565e0e6173e546193170b2dd404ddb6f153e9b5bf3",
+        "commit": "6c148ddd495d133213140995976ff08849793d5d",
+        "tracking_ref_matches": true,
+        "branch_alias": "main"
+      },
+      {
+        "branch_ref_sha256": "5f094e3897f71be1de4c339e122f77e3ea407a74fd01fe8e04fc3f1381ead532",
+        "commit": "3205984b48d1b98a80042cdc70916878973980f5",
+        "tracking_ref_matches": true,
+        "branch_alias": "september16"
+      }
+    ],
+    "all_advertised_heads_fetched": true,
+    "foreign_heads_unchanged_since_pre_execution_seal": true,
+    "foreign_science_newly_reproduced": false
+  },
+  "publication_diagnostic": "METADATA_DIAGNOSTICS.json",
+  "metadata_after_checked_tree": "These four literal logs, three byte-identical checker sources and two JSON records are added after the checked tree. They are metadata-only, not secretly included in that earlier staged-tree governance result. Final index custody checks their own bytes and rechecks all24 certified publication paths and all25 sealed science/input hashes.",
+  "private_path_fixture": "Checker sources contain synthetic /Users/example and /private/var/example controls, not real personal paths.",
+  "outside_analytic_acceptance": false,
+  "full_suite_green": false,
+  "main_acceptance": false,
+  "full_goal_achieved": false,
+  "scientific_commands_restarted": false,
+  "scientific_source_changed": false
+}

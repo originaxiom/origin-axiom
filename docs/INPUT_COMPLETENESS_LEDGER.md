@@ -1,6 +1,18 @@
 # THE INPUT-COMPLETENESS LEDGER — mandatory checklist for any SM-facing cell
 
-October11 selective-boundary disclosure: SAME supplied full E8 parent,
+October 11 charged-cubic disclosure: SAME supplied full parent/embedding/
+silver coefficient/core/positive metric/NEW selective trace/phase; explicit
+already-priced constant log-flat boundary witness. No new empirical target,
+fitted value, selected Higgs line, Yukawa parameter or added vertex.
+Six science files/19 sources sealed before cba986752; 51/42 predicates
+and 34 regression PASS compute actual zero charged overlap tensor, not
+global kinetic norms or the full potential. Zero is invariant under
+nonsingular normalization, not a recycled diagnostic named a parameter.
+Parent tensor constants are nonzero but not numerically normalized;
+this cannot turn zero into nonzero. I-23, selection, end unit, 3 families,
+gravity/observer and full parameter-free SM/TOE remain unearned.
+
+October 11 selective-boundary disclosure: SAME supplied full E8 parent,
 metric/compact silver core/reference/twist/embedding and phase; explicitly
 NEW color/weak F planes, W protected plane, neutral transported transverse
 partner, central-H versus trace-orthogonal gauge polarization and maximal

@@ -1,0 +1,32 @@
+{
+  "stage": "publication formatting extraction",
+  "first_attempt": "JavaScript JSON.parse failed on a truncated broad file-read result; no apply_patch was reached.",
+  "reported_error": "SyntaxError: Unexpected token 'W', \"Warning: t\"... is not valid JSON",
+  "second_attempt": "Read-only insertion extractor used repeated UTF-8 character indexing and remained running; the orchestrator treated a yielded session as failure. Identified its exact PID and terminated the metadata extractor only.",
+  "session": 32082,
+  "terminated_pid": 55268,
+  "recovery": "Use byte-indexed insertion extraction, handle yielded sessions explicitly, edit only uncommitted publication prose.",
+  "scientific_source_modified": false,
+  "scientific_commands_restarted": false,
+  "publication_decimal_spacing": "Formatting substitution introduced spaces inside four prose decimal durations; corrected against unchanged raw receipts before staging. No log or science file was edited.",
+  "first_custody": {
+    "exit": 1,
+    "passed": 24,
+    "failed": [
+      "actual_four_plane_hashes_agree",
+      "no_concrete_private_paths_in_publication"
+    ],
+    "unchanged_checked_tree": "74f1220f4b31a6e2fc920f9932817f45601972a1",
+    "causes": [
+      "Checker expected an absent RECEIPTS field named boundary_plane_sha256; receipts instead carries canonical_plane_hashes_agree, while both literal producer logs carry the matching four hashes.",
+      "Checker scanned the entire append-only historical PROGRESS_LOG and found inherited private paths. Corrected to reject NEW concrete private-path occurrences relative to the sealed baseline, preserving historical bytes."
+    ],
+    "repair": "Checker-only correction to actual receipt schema and new-publication privacy scope. All24 publication bytes and all25 science/input bytes unchanged."
+  },
+  "readonly_diagnostic_encoding": "A path-only diagnostic initially omitted Ruby UTF-8 mode and errored on historical UTF-8 text; rerun with explicit UTF-8 returned only PROGRESS_LOG.md. No file edit.",
+  "second_custody": {
+    "exit": 1,
+    "error": "NoMethodError: Array#tally unavailable on system Ruby2.6.10",
+    "repair": "Use each_with_object(Hash.new(0)) occurrence counting. No checked publication/science bytes changed."
+  }
+}

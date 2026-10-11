@@ -1,0 +1,150 @@
+{
+  "absolute_normalized_Yukawas": false,
+  "boundary_plane_sha256": {
+    "Fcolor": "186dc211d97444596f42454226849ed74c2328d1428113cf870ae01cc612f0e4",
+    "Fweak": "b63be1d5d16b1178a283514b73ddbb59c3ee1e38f85ae16f9665e8269746291a",
+    "Fweakdual": "dba3e98db41284e69eb5095c5bc6b8b21f76ff153b235715c53996dfd9881cb7",
+    "W": "7f0c072841e879bd7aedec978f4e6debe7ac3f55ee4b9b7a6b4e845468f601e7"
+  },
+  "channel_ranks": {
+    "down": 0,
+    "lepton": 0,
+    "udd": 0,
+    "up": 0
+  },
+  "channels": {
+    "down": {
+      "coordinate_polynomials": [
+        "0",
+        "0"
+      ],
+      "polynomial_degree_bound": 23,
+      "primitive_minor_ranks": [
+        4,
+        9,
+        8
+      ],
+      "rank": 0,
+      "tensor_shape": [
+        1,
+        1,
+        2
+      ]
+    },
+    "lepton": {
+      "coordinate_polynomials": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "polynomial_degree_bound": 22,
+      "primitive_minor_ranks": [
+        4,
+        8,
+        8
+      ],
+      "rank": 0,
+      "tensor_shape": [
+        1,
+        2,
+        2
+      ]
+    },
+    "udd": {
+      "coordinate_polynomials": [
+        "0"
+      ],
+      "polynomial_degree_bound": 24,
+      "primitive_minor_ranks": [
+        4,
+        9,
+        9
+      ],
+      "rank": 0,
+      "tensor_shape": [
+        1,
+        1,
+        1
+      ]
+    },
+    "up": {
+      "coordinate_polynomials": [
+        "0"
+      ],
+      "polynomial_degree_bound": 19,
+      "primitive_minor_ranks": [
+        4,
+        4,
+        9
+      ],
+      "rank": 0,
+      "tensor_shape": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "complete_light_potential": false,
+  "conditional_charged_overlap": true,
+  "facts": {
+    "Hu_actual_fixed_trace_plane": true,
+    "Hu_closed_trace": true,
+    "Hu_correct_physical_kernel_dimension": true,
+    "Hu_polynomial_degree_bound": true,
+    "Hu_whole_pencil_kernel": true,
+    "Q_actual_fixed_trace_plane": true,
+    "Q_closed_trace": true,
+    "Q_correct_physical_kernel_dimension": true,
+    "Q_polynomial_degree_bound": true,
+    "Q_whole_pencil_kernel": true,
+    "actual_parent_tensor_opposing_support": true,
+    "d_actual_fixed_trace_plane": true,
+    "d_closed_trace": true,
+    "d_correct_physical_kernel_dimension": true,
+    "d_polynomial_degree_bound": true,
+    "d_whole_pencil_kernel": true,
+    "down_full_parent_charge_sum": true,
+    "down_tensor_polynomial_degree": true,
+    "e_actual_fixed_trace_plane": true,
+    "e_closed_trace": true,
+    "e_correct_physical_kernel_dimension": true,
+    "e_polynomial_degree_bound": true,
+    "e_whole_pencil_kernel": true,
+    "lepton_actual_exchange_antisymmetry": true,
+    "lepton_full_parent_charge_sum": true,
+    "lepton_tensor_polynomial_degree": true,
+    "longitude_down_full_coefficient_Ward": true,
+    "longitude_up_full_coefficient_Ward": true,
+    "meridian_down_full_coefficient_Ward": true,
+    "meridian_up_full_coefficient_Ward": true,
+    "nonzero_transgression_recovery_and_phase_omission": true,
+    "original_affine_W_determinant_one_not_wholesale_parity": true,
+    "phase_Ward_and_missing_charge_twist_opposite": true,
+    "single_family_udd_identically_zero": true,
+    "u_actual_fixed_trace_plane": true,
+    "u_closed_trace": true,
+    "u_correct_physical_kernel_dimension": true,
+    "u_polynomial_degree_bound": true,
+    "u_whole_pencil_kernel": true,
+    "udd_full_parent_charge_sum": true,
+    "udd_tensor_polynomial_degree": true,
+    "up_actual_chiral_exchange_symmetry": true,
+    "up_full_parent_charge_sum": true,
+    "up_tensor_polynomial_degree": true,
+    "weak_actual_fixed_trace_plane": true,
+    "weak_closed_trace": true,
+    "weak_correct_physical_kernel_dimension": true,
+    "weak_polynomial_degree_bound": true,
+    "weak_space_is_not_a_marked_Higgs_line": true,
+    "weak_vector_norm_carries_positive_kinetic_Gram": true,
+    "weak_whole_pencil_kernel": true
+  },
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "global_PDE_solved": false,
+  "neutral_cubic_computed": false,
+  "outside_review": false,
+  "predicates_passed": 51
+}

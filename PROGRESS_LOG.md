@@ -18654,3 +18654,25 @@ Supplied internally nonlocal boundary is not a UV-local mechanism.
 Full SM/TOE ACTIVE/unachieved; outside/full-suite/main acceptance owed.
 Metadata orchestration TypeError and UTF-8/JSON diagnostic corrected
 without changing scientific bytes; diagnostics retained in receipts.
+
+## 2026-10-11 — actual charged cubic, not only representation support
+
+SCOPED NEGATIVE with positive method/roster retained. Six science files
+and 19 sources sealed/pushed cba986752 before first import. 51 native/42
+Fraction predicates and 34 four-packet regression PASS, 9 new; raw first
+logs/exit receipts retained, no science failure/repair/interrupt.
+Actual charged bulk cubic reduces by Stokes/cyclic descent to admitted
+boundary primitives in ONE NEW selective/constant log-flat/small-phase
+model. Canonical plane hashes agree. QUHu, Qd weak 2-vector, e weak 2x2
+and one-family udd are identically ZERO by native polynomial and separate
+degree-bound certificates. Synthetic nonzero/phase-omission controls hold.
+
+Positive finite normalization cannot recover zero. Prior H=(12, 26, 26, 12)
+chiral roster/full E8 bracket/gauge interactions preserved. No all-domain/
+metric/vacuum, higher-operator, quantum or architecture kill. 9 fronts,
+six LAW_MAP sublemmas, input/identification/leads and sender-owned OPEN
+relay updated. NEXT identify the annihilating primitive flags and require
+upstream field/operator/domain map to preserve cyclic/trace/end data,
+not merely an index. Neutral/full light potential, derived boundary/end
+rule, 3 families/Higgs/SUSY/parameters/I-23/gravity/observer and outside/
+full-suite/main acceptance remain. Full parameter-free SM/TOE remains unachieved.

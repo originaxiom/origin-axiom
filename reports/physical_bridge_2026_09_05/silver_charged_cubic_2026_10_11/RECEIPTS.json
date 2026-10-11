@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-11",
+  "pre_execution_commit": "cba986752e8c1b5c49f70c91909d4aa869886ded",
+  "sealed_and_pushed_before_first_import": true,
+  "sealed_science_files": 6,
+  "pinned_inputs": 19,
+  "all25_hashes_unchanged_through_completed_runs": true,
+  "runtime": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "pytest": "9"
+  },
+  "runs": {
+    "native_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "-u",
+        "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 11.405269999988377,
+      "log_bytes": 4093,
+      "log_sha256": "338ce22c8379577569e1a1de842bd28916613f32b948e37589d5d1ca7efab958",
+      "portable_command_spelling": true,
+      "private_capture_receipt_sha256": "4302b53b55b318b3ec45a07da1dc71ae02bb9dcb72680834888779304ad44e21",
+      "log": "NATIVE_FIRST.log"
+    },
+    "reference_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "-u",
+        "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 2.9074430000036955,
+      "log_bytes": 4498,
+      "log_sha256": "2ac7ff238133b869edb928bffe1c5b0801ff955e56e30238f546a6033f979dd6",
+      "portable_command_spelling": true,
+      "private_capture_receipt_sha256": "611e5da10bf11395aaf6db96ea5de53de52f09e75db43d0f68c5fd613b1f8979",
+      "log": "REFERENCE_FIRST.log"
+    },
+    "regression_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-p",
+        "no:randomly",
+        "tests/test_physical_bridge_silver_charged_cubic.py",
+        "tests/test_physical_bridge_silver_selective_boundary.py",
+        "tests/test_physical_bridge_silver_adjoint_phase.py",
+        "tests/test_physical_bridge_parent_tensors.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 98.51356399990618,
+      "log_bytes": 110,
+      "log_sha256": "100ebf9247fa47fd7d3bee174535003dd39d3362dfae0e25f5c41e24897ff99e",
+      "portable_command_spelling": true,
+      "private_capture_receipt_sha256": "f4ce228426a69b141b07f68c7638fbbda561f55bca43b06c78a0eb300cfc48a9",
+      "log": "REGRESSION_FIRST.log"
+    },
+    "governance_before": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 17.4152339999564,
+      "log_bytes": 2384,
+      "log_sha256": "8e5f3a224b67aaf1ee3e9ab55bfc46f3272a3b91895828724e67b0cf64130c38",
+      "portable_command_spelling": true,
+      "private_capture_receipt_sha256": "1134ce02432c323d65d73c73c6e3a886790a73ac77cfdce086e5892f9b9d510d",
+      "log": "GOVERNANCE_BEFORE.log"
+    }
+  },
+  "predicates": {
+    "native": 51,
+    "separate_Fraction": 42
+  },
+  "regression": {
+    "passed": 34,
+    "new": 9,
+    "files": 4
+  },
+  "science_failures": [],
+  "science_repairs": [],
+  "science_interruptions": [],
+  "channel_ranks": {
+    "down": 0,
+    "lepton": 0,
+    "udd": 0,
+    "up": 0
+  },
+  "reference_zero_certificates": {
+    "down": {
+      "degree_bound": 23,
+      "distinct_points": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "fixed_minor_ranks": [
+        4,
+        9,
+        8
+      ],
+      "rank": 0,
+      "zero_certified": true
+    },
+    "lepton": {
+      "degree_bound": 22,
+      "distinct_points": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "fixed_minor_ranks": [
+        4,
+        8,
+        8
+      ],
+      "rank": 0,
+      "zero_certified": true
+    },
+    "udd": {
+      "degree_bound": 24,
+      "distinct_points": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "fixed_minor_ranks": [
+        4,
+        9,
+        9
+      ],
+      "rank": 0,
+      "zero_certified": true
+    },
+    "up": {
+      "degree_bound": 19,
+      "distinct_points": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "fixed_minor_ranks": [
+        4,
+        4,
+        9
+      ],
+      "rank": 0,
+      "zero_certified": true
+    }
+  },
+  "canonical_plane_hashes_agree": true,
+  "scope": {
+    "authored_conditional_analytic_proof": true,
+    "specified_constant_log_flat_boundary_witness": true,
+    "same_supplied_parent_and_NEW_selective_domain": true,
+    "all_wholly_charged_direct_cubics_zero": true,
+    "zero_survives_positive_kinetic_normalization": true,
+    "neutral_cubic_computed": false,
+    "complete_light_potential": false,
+    "arbitrary_metric_or_all_domain_exclusion": false,
+    "all_order_or_quantum_exclusion": false,
+    "outside_analytic_acceptance": false,
+    "full_suite_green": false,
+    "main_acceptance": false,
+    "genesis_selection": false,
+    "observed_SM": false,
+    "full_goal_achieved": false
+  },
+  "governance_before": {
+    "pass": 26,
+    "fail": 4,
+    "seal_digests": "PASS",
+    "inherited_categories": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "stale_relays": 42,
+    "open_relays": 123,
+    "review_due": 449
+  }
+}

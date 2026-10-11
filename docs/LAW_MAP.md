@@ -1,6 +1,23 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
-October11 explicitly NEW selective-boundary sublemmas, authored
+October 11 actual charged-overlap sublemmas, authored CONDITIONAL analytic
+grade at fixed NEW selective domain/constant log-flat boundary/small phase.
+PROOF1-4/live tests in silver_charged_cubic_2026_10_11; 51 native/42 Fraction
+predicates and 9 new within 34 regression PASS at pushed cba986752.
+Existing R59 parent tensor/support and framed cubic descent credited.
+No global PDE/nonauthor/main certificate, new shared number or full SM/TOE.
+
+| Scoped result | Proof, live safeguard and boundary |
+|---|---|
+| A charged exact BULK profile is not removed by allowed physical gauge if its primitive has nonzero trace | PROOF1, charged A0=0 and injective D0_h on full torus for nonzero h z; test_actual_polynomial_profiles_satisfy_whole_pencil_and_plane. Conditional prior scalar/Weyl map, no restored boundary gauge values |
+| Actual charged cubic on admitted cohomology equals boundary primitive transgression | PROOF2, Stokes and full cyclic closure retain all terms; prior descent credited. Constant trace/pencil tests support application, not outside compact PDE proof or arbitrary cell-to-overlap identity |
+| A degree-one rank-r primitive pencil has adjugate kernel basis of degree at most r; triple coefficient degree at most sum(r_i)+2 | PROOF3, all remaining rows checked; test_zero_coefficients_have_degree_certificates_not_sampling_nulls. D+1 distinct nonsingular exact evaluations plus determinant bounds certify ZERO, insufficient-point polynomial opposite retained |
+| All four wholly charged direct tensors are zero on THIS selective constant-boundary small phase | PROOF2-3, test_two_exact_methods_classify_all_charged_channels; exact QUHu, Qd weak 2-vector, e alternating weak 2x2, single-family udd. Nonzero synthetic transgression controls, NOT all-domain/quantum/higher-operator kill |
+| Positive nonsingular kinetic normalization cannot recover a zero tensor | PROOF4, test_positive_kinetic_Gram_is_not_discarded, coupled Gram/profile transformation opposite. No evaluated global norm or nonzero measured coupling is claimed |
+| A weak bar5 space of dimension 2 does not intrinsically mark L versus Hd | PROOF4 and test_no_spectrum_basis_is_silently_declared_Higgs_selection. Actual two-mode tensor retained; no Higgs vacuum/mu/R-parity or observed-SM identification |
+
+
+October 11 explicitly NEW selective-boundary sublemmas, authored
 CONDITIONAL grade on the SAME supplied compact twisted full E8 parent.
 PROOF1-5/live tests in silver_selective_boundary_2026_10_11;
 38 native/34 Fraction predicates,10 new within34 regression PASS at

@@ -1,6 +1,23 @@
 # Physical-bridge mission status and next questions
 
-October11 selective-boundary checkpoint supersedes earlier unexecuted
+October 11 actual charged-cubic checkpoint: 51 native/42 separate
+Fraction predicates and 34 four-packet regression PASS, 9 new, unchanged
+from pushed pre-run cba986752. Report: reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/FINDINGS.md.
+For the specified NEW selective domain/constant log-flat boundary/small
+phase, all wholly charged DIRECT cubic tensors are EXACTLY ZERO:
+QUHu, Qd times both weak modes, e times the weak pair, one-family udd.
+Actual bulk Stokes transgression and polynomial degree certificates;
+not a sampled null, metric-product proxy or absence assertion.
+The prior chiral roster/full parent/gauge interactions remain valid.
+This roster alone does not deliver direct quark/lepton Yukawa vertices.
+No all-metric/domain/vacuum, higher-operator or quantum kill is proved.
+NEXT trace the interaction-annihilating primitive flags and require the
+upstream register-to-physical map to preserve cyclic/trace/end data, not
+only indices. Neutral/light potential, derived boundary/end selection,
+3 families, parameters/I-23, gravity/observer and external certification
+remain open. Full parameter-free SM/TOE remains unachieved.
+
+October 11 selective-boundary checkpoint supersedes earlier unexecuted
 candidate:38 native/34 separate Fraction predicates and34 four-packet
 regression PASS,10 new, unchanged from pushed pre-run142d3adf3.
 Report: reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/FINDINGS.md.

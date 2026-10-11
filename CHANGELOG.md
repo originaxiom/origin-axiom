@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-11 actual charged-cubic overlap and scoped zero
+
+51 native/42 Fraction predicates and 34 focused regression PASS, 9 new;
+six science files/19 sources sealed/pushed cba986752 before import.
+Actual SAME-parent charged cubic reduces by Stokes to admitted boundary
+primitives. QUHu, Qd weak vector, e weak-pair tensor and one-family udd
+are identically zero at specified NEW selective/constant-boundary phase,
+with independent degree certificates. No scientific repair/failure.
+Chiral roster/full parent/gauge interactions preserved; zero is not an
+all-domain/architecture/higher-operator/quantum kill or observed SM.
+
+Next interaction-annihilator mechanism and upstream cyclic/trace/end map,
+not merely index transfer or random-fit plane tuning. Neutral/full light
+potential, boundary/end selection, 3 families, parameters/gravity and
+outside/full-suite/main acceptance remain. Full SM/TOE remains unachieved.
+Report physical bridge/silver_charged_cubic_2026_10_11/FINDINGS.md.
+
 ## 2026-10-11 complete selective same-parent boundary witness
 
 38 native/34 Fraction predicates and34 focused regression PASS,10 new;

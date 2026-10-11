@@ -1,6 +1,19 @@
 # THE IDENTIFICATION LEDGER
 
-October11 selective-boundary local maps, no shared I-number change:
+October 11 actual charged-overlap map, no shared I-number change:
+acyclic charged physical H1 -> primitive with ACTUAL admitted boundary
+trace -> integrated SAME parent cubic by Stokes/cyclic descent.
+PROOF1-3/live tests in silver_charged_cubic_2026_10_11; 51/42 exact
+predicates and 34 regression PASS. EARNED at authored CONDITIONAL analytic
+grade on this specified constant-boundary model; outside review owed.
+Raw coordinate polynomial is NOT a normalized magnitude. Tensor ZERO
+survives every nonsingular positive kinetic basis transformation.
+Spectrum/index -> nonzero Yukawa is REFUTED for THIS construction,
+not architecture-wide. Genesis rank6/operator/action/trace/end map,
+Higgs/lepton choice, I-23, observer/qualia and full SM/TOE remain unearned;
+shared 9 baseline unchanged.
+
+October 11 selective-boundary local maps, no shared I-number change:
 actual unequal F planes/dual action -> maximal constant compact g;
 full cyclic L/trace -> complete strict NEW A; SAME action/response/
 real-gauge/physical R comparison -> conditional full tree roster
