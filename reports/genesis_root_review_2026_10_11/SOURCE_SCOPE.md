@@ -43,4 +43,4 @@ Literature searches during the candidate lemma triage concerned free-group centr
 
 ## Verification of this report
 
-The branch pins, cited paths and working-tree diff are checked as documentation. No new scientific instrument has run, no all-word proof is declared certified, and no full-repository test certificate is claimed. The auxiliary proof remains only a candidate; this distinction is intentional because the owner redirected emphasis to the root's conceptual dependencies.
+This receipt covers the initial reading-only refresh committed as `7687cf76b`; its branch pins, cited paths and working-tree diff were checked as documentation. The subsequent `word_lifts/` packet has its own sealed proof, exact first-run receipts and nine passing control tests. That follow-up is a scoped mathematical strengthening, not a full-repository certificate or a physical derivation. Its independent review and normal banking remain pending.

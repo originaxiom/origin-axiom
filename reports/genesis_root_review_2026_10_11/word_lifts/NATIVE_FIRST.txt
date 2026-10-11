@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "checks": 4133,
+  "matrix_extensions_checked": 3586,
+  "pair_table": [
+    {
+      "q": "",
+      "peripheral": "aBAb",
+      "L": {
+        "a": "a",
+        "b": "ab"
+      },
+      "R": {
+        "a": "ab",
+        "b": "b"
+      }
+    },
+    {
+      "q": "b",
+      "peripheral": "baBA",
+      "L": {
+        "a": "a",
+        "b": "ba"
+      },
+      "R": {
+        "a": "ab",
+        "b": "b"
+      }
+    },
+    {
+      "q": "A",
+      "peripheral": "BAba",
+      "L": {
+        "a": "a",
+        "b": "ab"
+      },
+      "R": {
+        "a": "ba",
+        "b": "b"
+      }
+    },
+    {
+      "q": "Ab",
+      "peripheral": "AbaB",
+      "L": {
+        "a": "a",
+        "b": "ba"
+      },
+      "R": {
+        "a": "ba",
+        "b": "b"
+      }
+    }
+  ],
+  "sigma_squared": {
+    "a": "aba",
+    "b": "ab"
+  },
+  "standard_LR": {
+    "a": "aab",
+    "b": "ab"
+  },
+  "all_length_scope": "Analytic proof in PROOF.md, not a census inference",
+  "physical_claim": false
+}
