@@ -104,7 +104,11 @@ def run():
     a=5*v-v*v/3;b=-2*v*v/3;c=-5*v-4*v*v/3
     det=s.expand(a*c-b*b)
     ck('Schur_keeps_massive_correction_and_small_v_scope',
-       det==-25*v*v+5*v**3 and det.subs(v,Fraction(1,10))!=0 and det.subs(v,5)==0)
+       det==-25*v*v-5*v**3 and det.subs(v,Fraction(1,10))!=0 and det.subs(v,-5)==0 and det.subs(v,5)!=0)
+    common=s.Matrix([[1,2,-1],[1,2,-1],[1,2,-1]])
+    mixed=s.diag(1,2,-1)
+    ck('same_one_form_wedge_determinant_zero',common.det()==0)
+    ck('different_spatial_profiles_are_not_that_input',mixed.det()!=0)
     q=(-2,-2,-2,3,3)
     ten=Counter(sum(q[i] for i in ab) for ab in combinations(range(5),2))
     bf=Counter(-x for x in q)
@@ -120,7 +124,8 @@ def run():
     ck('opposite_wrong_bar_tensor_nonzero',
        any(cubic_coeff(tenweights+fundamental,a,b,c)!=0 for a in range(4) for b in range(4) for c in range(4)))
     ck('full_charge_trace_and_doublet_parity',all(sum(row[k] for row in tenweights+dualweights)==0 for k in range(4)) and (3+1)%2==0)
-    # The kernel equations are z^3 g3det=1,z^-3 g2det=1 -> z^6=1.
+    # Kernel requires g3=z^2 I3, g2=z^-3 I2. Their determinant-one
+    # equations are z^6=1 and z^-6=1, not a separate block choice.
     residues=[r for r in range(12) if (6*r)%12==0]
     ck('exact_six_kernel_residues_not_name_matching',len(residues)==6 and residues==[0,2,4,6,8,10])
     result={'predicates':p,'predicates_passed':sum(p.values()),'local_cubic_controls':rows,

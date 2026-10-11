@@ -130,9 +130,12 @@ def run():
        all(mz((structure[i]+omega[i]*gauge)*structure[j]-structure[j]*(structure[i]+omega[i]*gauge)
               -(structure[i]*structure[j]-structure[j]*structure[i]))
            for i in range(3) for j in range(3)))
-    ck('pure_one_profile_adjoint_F_cubic_zero',
-       mz(sum((epsilon(i,j,k)*omega[i]*omega[j]*omega[k]*ss[i]*(ss[j]*ss[k]-ss[k]*ss[j])
-               for i,j,k in permutations(range(3))),s.zeros(2))))
+    common=sum((epsilon(i,j,k)*omega[i]*omega[j]*omega[k]*ss[0]*(ss[1]*ss[2]-ss[2]*ss[1])
+                for i,j,k in permutations(range(3))),s.zeros(2))
+    mixed=sum((epsilon(i,j,k)*omega[i]*omega[j]*omega[k]*ss[i]*(ss[j]*ss[k]-ss[k]*ss[j])
+               for i,j,k in permutations(range(3))),s.zeros(2))
+    ck('pure_one_profile_adjoint_F_cubic_zero',mz(common))
+    ck('wrong_three_spatial_profile_replacement_detected',not mz(mixed))
 
     # K=1,v=1 is an exact control normalization, not a core metric value.
     ad=s.diag(*ad_weights); z=s.zeros(24)
@@ -150,7 +153,7 @@ def run():
     ck('Schur_same_leading_not_same_exact_mass',
        mz(schur.diff(v).subs(v,0)-g) and not mz(schur-v*g))
     ck('small_v_does_not_license_all_v_no_crossing',
-       schur.subs(v,s.Rational(1,10)).det()!=0 and schur.subs(v,5).det()==0)
+       schur.subs(v,s.Rational(1,10)).det()!=0 and schur.subs(v,-5).det()==0 and schur.subs(v,5).det()!=0)
 
     q=[-x for x in h]  # actual conventional6Y weights
     ten=Counter(q[i]+q[j] for i,j in combinations(range(5),2))

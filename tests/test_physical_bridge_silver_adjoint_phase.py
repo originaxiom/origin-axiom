@@ -35,6 +35,9 @@ def test_full_actual_adjoint_and_projected_gauge_Higgs_mixing():
     for key in ('centralizer_real_dimension','leading_Weyl_rank','squared_singular_value_multiplicities'):
         assert a['adjoint_control'][key]==b['adjoint_control'][key]
     assert a['facts']['pure_one_profile_adjoint_F_cubic_zero'] and a['facts']['wrong_F_cubic_only_mass_rejected']
+    assert a['facts']['wrong_three_spatial_profile_replacement_detected']
+    assert b['predicates']['same_one_form_wedge_determinant_zero']
+    assert b['predicates']['different_spatial_profiles_are_not_that_input']
 def test_massive_complement_not_dropped_or_all_v_extrapolated():
     f=p.run()['facts']
     assert f['massive_complement_Schur_retained'] and f['Schur_same_leading_not_same_exact_mass']

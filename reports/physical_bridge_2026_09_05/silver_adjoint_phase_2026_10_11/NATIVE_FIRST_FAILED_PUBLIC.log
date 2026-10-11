@@ -1,0 +1,121 @@
+{
+  "adjoint_control": {
+    "centralizer_real_dimension": 12,
+    "full_adjoint_dimension": 24,
+    "leading_Weyl_rank": 24,
+    "squared_singular_value_multiplicities": {
+      "0": 24,
+      "25": 24
+    }
+  },
+  "branchings_6Y": {
+    "10": {
+      "-4": 3,
+      "1": 6,
+      "6": 1
+    },
+    "24": {
+      "-5": 6,
+      "0": 12,
+      "5": 6
+    },
+    "bar5": {
+      "-3": 2,
+      "2": 3
+    }
+  },
+  "conditional_same_action_phase": true,
+  "facts": {
+    "Cartan_addition_preserves_full_old_curvature_brackets": true,
+    "Cartan_addition_preserves_old_moment_commutators": true,
+    "SM_centralizer_12_with_v_zero_24_and_generic_4": true,
+    "SU2_doublet_mod2_complete_generation": true,
+    "Schur_same_leading_not_same_exact_mass": true,
+    "action_prefactor_changes_normalized_cubic_not_selection": true,
+    "actual_matrix_adjoint_weight_0_1": true,
+    "actual_matrix_adjoint_weight_0_2": true,
+    "actual_matrix_adjoint_weight_0_3": true,
+    "actual_matrix_adjoint_weight_0_4": true,
+    "actual_matrix_adjoint_weight_1_0": true,
+    "actual_matrix_adjoint_weight_1_2": true,
+    "actual_matrix_adjoint_weight_1_3": true,
+    "actual_matrix_adjoint_weight_1_4": true,
+    "actual_matrix_adjoint_weight_2_0": true,
+    "actual_matrix_adjoint_weight_2_1": true,
+    "actual_matrix_adjoint_weight_2_3": true,
+    "actual_matrix_adjoint_weight_2_4": true,
+    "actual_matrix_adjoint_weight_3_0": true,
+    "actual_matrix_adjoint_weight_3_1": true,
+    "actual_matrix_adjoint_weight_3_2": true,
+    "actual_matrix_adjoint_weight_3_4": true,
+    "actual_matrix_adjoint_weight_4_0": true,
+    "actual_matrix_adjoint_weight_4_1": true,
+    "actual_matrix_adjoint_weight_4_2": true,
+    "actual_matrix_adjoint_weight_4_3": true,
+    "actual_projected_fermion_mixing_rank24": true,
+    "all_six_trilinear_permutations_symmetric_and_nonzero": true,
+    "anomalous_single_rep_positive_opposite_control": true,
+    "broken_real_compact_rotation_keeps_i": true,
+    "closed_periodic_parallel_broken_positive_control_1": true,
+    "closed_periodic_parallel_broken_positive_control_5": true,
+    "direct_parent_Berezin_cubic_kappa_1": true,
+    "direct_parent_Berezin_cubic_kappa_9": true,
+    "dropping_complete_charged_component_is_detected": true,
+    "fixed_old_constant_boundary_rejects_that_section_1": true,
+    "fixed_old_constant_boundary_rejects_that_section_5": true,
+    "full_10_bar5_and_24_charge_branchings": true,
+    "full_SM_restriction_cubic_anomaly_polynomial_zero": true,
+    "full_adjoint_twenty_roots_and_four_Cartan": true,
+    "holonomy_central_comparator_1": true,
+    "holonomy_central_comparator_5": true,
+    "identity_full_holonomy_comparator_retained": true,
+    "massive_complement_Schur_retained": true,
+    "mixed_gravitational_hypercharge_trace_zero": true,
+    "projected_squared_singular_values_24_zero_24_positive": true,
+    "pure_one_profile_adjoint_F_cubic_zero": false,
+    "real_rotation_positive_mass_Gram": true,
+    "scalar_cubic_and_physical_Hessian_kappa_1": true,
+    "scalar_cubic_and_physical_Hessian_kappa_9": true,
+    "six_element_group_kernel_actual_embedding": true,
+    "small_v_does_not_license_all_v_no_crossing": false,
+    "structure_and_gauge_commutation_not_identical_dimensions": true,
+    "unbroken_constant_section_passes_fixed_boundary": true,
+    "wrong_F_cubic_only_mass_rejected": true,
+    "wrong_bar_anomaly_is_detected": true,
+    "wrong_cubic_factor_rejected_kappa_1": true,
+    "wrong_cubic_factor_rejected_kappa_9": true,
+    "wrong_standard_fermion_phase_rejected_kappa_1": true,
+    "wrong_standard_fermion_phase_rejected_kappa_9": true
+  },
+  "finite_v_charged_census": false,
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "global_PDE_solved": false,
+  "global_harmonic_overlaps_evaluated": false,
+  "local_cubic_controls": [
+    {
+      "T": "4*I",
+      "Y_distinct": "-4*sqrt(2)",
+      "fermion_monomials": 6,
+      "kappa": 1,
+      "scalar_polynomial": "-4*sqrt(2)*z0*z1*z2"
+    },
+    {
+      "T": "4*I",
+      "Y_distinct": "-4*sqrt(2)/3",
+      "fermion_monomials": 6,
+      "kappa": 9,
+      "scalar_polynomial": "-4*sqrt(2)*z0*z1*z2/3"
+    }
+  ],
+  "neutral_modes_not_lifted_by_this_branch": "6+j, j=0..6, fixed chosen neutral L",
+  "outside_review": false,
+  "predicates_passed": 58,
+  "unbroken_adjoint_chiral_profiles_small_v": 12
+}
+Traceback (most recent call last):
+  File "<worktree>/reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/probe.py", line 191, in <module>
+    run()
+  File "<worktree>/reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/probe.py", line 187, in run
+    assert all(f.values()),[k for k,b in f.items() if not b]
+AssertionError: ['pure_one_profile_adjoint_F_cubic_zero', 'small_v_does_not_license_all_v_no_crossing']

@@ -1,0 +1,26 @@
+{
+  "original_seal": "4a80979691b3809b8bde79a01b2db860bad6cb4c",
+  "execution_status": "first failures preserved; repairs unexecuted",
+  "repair_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/probe.py",
+      "bytes": 10096,
+      "sha256": "cf8c3f413c20159c3add9361b38d1344311e0f049f2922b72b441900699d628a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/reference.py",
+      "bytes": 7523,
+      "sha256": "9e122011fa922988063ae0ff206a8b0c3b275307674491e50ede2ac2471db1cc"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_adjoint_phase.py",
+      "bytes": 4310,
+      "sha256": "682e5db4afa8eca79a5e69616d7380220a47b53134bd20f3244714f9460e0613"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/REPAIR.md",
+      "bytes": 2047,
+      "sha256": "f7c6d5f383735031efa3fdd1eb42c8695c032ac218d0f3bf8d1ad6598e974025"
+    }
+  ]
+}

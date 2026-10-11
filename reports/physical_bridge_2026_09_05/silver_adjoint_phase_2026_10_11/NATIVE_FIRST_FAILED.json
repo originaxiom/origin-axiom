@@ -1,0 +1,15 @@
+{
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 1.8182540000416338,
+  "log_bytes": 4881,
+  "log_sha256": "43050aadeca87e745ad894cf5214aabbe6d5e8f7e9fec7e1b77f5bcc43b0f745",
+  "command": [
+    "python3",
+    "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/probe.py"
+  ],
+  "raw_private_path_transcript_preserved_locally": true,
+  "public_path_redaction_only": true,
+  "public_log_bytes": 4797,
+  "public_log_sha256": "9617822e55a5b252636893fe3eb54f2772844ca5996401fd33917a00eb40af21"
+}
