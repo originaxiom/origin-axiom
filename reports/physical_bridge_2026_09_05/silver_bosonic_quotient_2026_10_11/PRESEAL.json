@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/DESIGN.md",
+      "bytes": 5622,
+      "sha256": "587cc7b2fd104153a04043392d2fcf891a2072b19dbb7aecef1de51fa6c3170c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md",
+      "bytes": 9777,
+      "sha256": "0666cc040c486f69d7b8cda4e581d7da31a265d2dd9a7cc4d18ae5beb30837d8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/MODEL.json",
+      "bytes": 1271,
+      "sha256": "badb11e24c77cd6c246d31aea248c99065ff02df40efaf3073e1b87bcac933be"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/INPUTS.json",
+      "bytes": 1724,
+      "sha256": "0ed97e351f1359875513bc9d40ae882a0c74c180e7149f316aa2ebd4d81538d3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/probe.py",
+      "bytes": 7391,
+      "sha256": "8da5450cee5a98b5126fe8b958d4ab82841601531d3d87f92d4b7cffbf211d0b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/reference.py",
+      "bytes": 5128,
+      "sha256": "b7550cee5be4f9ab87a6e0a3c6a3ca99de5a5342ae5bce47fe2f41e2599fcc45"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_bosonic_quotient.py",
+      "bytes": 3961,
+      "sha256": "2f866156c2038e0f74fb02fc9ad13b92badc97d226748be41d1bad1d69d2cfd6"
+    }
+  ],
+  "execution_status": "candidate unexecuted; no accepted output",
+  "prior_commit": "35bcae06aed2a551875580d7cb8a4b7c99dff65b"
+}

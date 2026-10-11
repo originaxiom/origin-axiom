@@ -1,0 +1,19 @@
+{
+  "scope": "same supplied smooth compact E8 parent and strict complementary boundary, all harmonic L",
+  "background": "H=0, mu=0; entirely structure-valued; compact k extends globally parallel",
+  "real_fields": "a=u+i v, u v lambda Hermitian with actual dagger",
+  "physical_Hessian": "norm(D_minus a)^2 + norm(delta mu)^2",
+  "gauge": "ONLY compact real lambda with internally parallel k boundary value; normal jets free",
+  "slice": "kappa=0 and Pi_k Re a_n=0, latter a derived gauge choice not original essential condition",
+  "mixed_P": "D*D with trace in k and integrated projected normal derivative",
+  "Fredholm_condition": "source integral + outward flux = 0 against every globally parallel c in k",
+  "target": "smooth linear scalar Hessian null space modulo allowed real gauge maps bijectively to harmonic H1 of same cone/Weyl realization",
+  "finite_controls": "local nonabelian jets, nonlocal interval boundary analogy, exact nonreal finite complexes; NOT silver PDE or E8 census",
+  "full_nonlinear_moduli_derived": false,
+  "complete_physical_multiplet_Hamiltonian": false,
+  "physical_census_recomputed": false,
+  "numerical_gap_or_overlaps_computed": false,
+  "nonauthor_review": false,
+  "boundary_selected": false,
+  "full_SM_TOE_achieved": false
+}
