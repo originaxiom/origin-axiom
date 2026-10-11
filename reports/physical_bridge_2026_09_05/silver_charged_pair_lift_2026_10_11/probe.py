@@ -73,6 +73,16 @@ def family(rep, data):
     return dict(B=B, F=F, R=R, R2=R2, D=D, G=G, P=P, Q=Q)
 
 
+def bulk_leading_minor_certificate(fam, rep):
+    # PROOF2's exact generic-rank certificate: a polynomial square minor
+    # with invertible top coefficient is nonzero. It proves the SAME
+    # maximal ranks without a redundant large rational-function RREF.
+    n=rep['t'].rows; fiber=fam['F'][:,:2*n]; time=fam['B'][2*n:,:]
+    top=s.diag(rep['t'],rep['t'])
+    return (zero(s.diff(fiber,q)-top) and rank(top)==2*n
+            and zero(s.diff(time,q)-rep['t']) and rank(rep['t'])==n)
+
+
 def jets_q(a):
     # q=exp(z); coefficients, not derivatives, in degrees zero, one, two.
     return [a.subs(q, 1), s.diff(a, q).subs(q, 1),
@@ -175,7 +185,7 @@ def run():
            and zero(mm(fam['G'],fam['D'],q),q) and zero(mm(fam['R'],fam['B'],q)-fam['D'],q)
            and zero(mm(fam['R2'],fam['F'],q)-mm(fam['G'],fam['R'],q),q))
         ck(label+'_actual_R_maps_independent_of_character', zero(s.diff(fam['R'],q),q) and zero(s.diff(fam['R2'],q),q))
-        ck(label+'_bulk_generic_acyclic_exact', rank(fam['B'],q)==n and rank(fam['F'],q)==2*n)
+        ck(label+'_bulk_generic_acyclic_exact', bulk_leading_minor_certificate(fam,rep))
         ck(label+'_fiber_minor_leading_certificate', zero(s.diff(fam['F'][:,:2*n],q)-s.diag(rep['t'],rep['t'])))
         controls=[]
         for value in (1,2,3):

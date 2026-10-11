@@ -1,0 +1,17 @@
+{
+  "repaired_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+      "bytes": 12436,
+      "sha256": "fc911dfbe80011290a90a9331dd35b5e9ac1c4a09dc11e69013a8ec9b42bcac1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_2.md",
+      "bytes": 1532,
+      "sha256": "9887f6fc9fe1aa4c560a884a86cf0ae2d8df821eb667db9380c24c56b0896c9e"
+    }
+  ],
+  "prior_seal": "31538a4780fb7eecf321c8ac675c51ae2578bcf7",
+  "before_replay": true,
+  "scope": "post-execution algorithm optimization, pre-sealed leading-minor proof; same mathematical criterion"
+}

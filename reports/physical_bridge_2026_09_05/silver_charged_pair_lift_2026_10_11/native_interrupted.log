@@ -1,0 +1,83 @@
+Traceback (most recent call last):
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 229, in <module>
+    if __name__=='__main__': print(json.dumps(run(),sort_keys=True,indent=2))
+                                              ^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 178, in run
+    ck(label+'_bulk_generic_acyclic_exact', rank(fam['B'],q)==n and rank(fam['F'],q)==2*n)
+                                                                    ^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 37, in rank
+    return dm(a, variable).rank() if a.rows and a.cols else 0
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/domainmatrix.py", line 1250, in rank
+    rref, pivots = self.rref()
+                   ^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/domainmatrix.py", line 2228, in rref
+    return _dm_rref(self, method=method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/rref.py", line 63, in _dm_rref
+    M_rref, pivots = _dm_rref_GJ(Mf)
+                     ^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/rref.py", line 187, in _dm_rref_GJ
+    return _dm_rref_GJ_sparse(M)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/rref.py", line 202, in _dm_rref_GJ_sparse
+    M_rref_d, pivots, _ = sdm_irref(M.rep)
+                          ^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 1755, in sdm_irref
+    Akl = Ak[l] - Akj * Ai[l]
+                  ~~~~^~~~~~~
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/fields.py", line 505, in __mul__
+    return f.new(f.numer*g.numer, f.denom*g.denom)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/fields.py", line 309, in new
+    return f.raw_new(*numer.cancel(denom))
+                      ^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/rings.py", line 2325, in cancel
+    _, p, q = f.cofactors(g)
+              ^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/rings.py", line 2241, in cofactors
+    h, cff, cfg = f._gcd(g)
+                  ^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/rings.py", line 2276, in _gcd
+    return ring.dmp_inner_gcd(f, g)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/compatibility.py", line 677, in dmp_inner_gcd
+    H, F, G = dmp_inner_gcd(self.to_dense(f), self.to_dense(g), self.ngens-1, self.domain)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/euclidtools.py", line 1595, in dmp_inner_gcd
+    return dup_inner_gcd(f, g, K)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/euclidtools.py", line 1527, in dup_inner_gcd
+    return dup_ff_prs_gcd(f, g, K)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/euclidtools.py", line 1028, in dup_ff_prs_gcd
+    h = dup_subresultants(f, g, K)[-1]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/euclidtools.py", line 402, in dup_subresultants
+    return dup_inner_subresultants(f, g, K)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/euclidtools.py", line 373, in dup_inner_subresultants
+    h = dup_quo_ground(h, b, K)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/densearith.py", line 321, in dup_quo_ground
+    return [ K.quo(cf, c) for cf in f ]
+             ^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/field.py", line 29, in quo
+    return a / b
+           ~~^~~
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polyclasses.py", line 3147, in __truediv__
+    return f.quo(g)
+           ^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polyclasses.py", line 3057, in quo
+    return f.exquo(g)
+           ^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polyclasses.py", line 3051, in exquo
+    return f.new(F.mul(G.invert(mod)).rem(mod), mod, dom)
+                       ^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polyclasses.py", line 783, in invert
+    return F._invert(G)
+           ^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polyclasses.py", line 2097, in _invert
+    gcd, F_inv, _ = f._rep.xgcd(g._rep)
+                    ^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
