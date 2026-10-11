@@ -1,0 +1,808 @@
+{
+  "census": {
+    "aggregate": {
+      "anomaly_free_common_index_histogram": {
+        "-2": 28,
+        "-1": 84,
+        "0": 126,
+        "1": 84,
+        "2": 28
+      },
+      "boson_fermion_on_shell_dof_match": true,
+      "canonical_pattern_sha256": "7a863756e1d1c9a049e0e59dcafd3cf0b4953e847f2891d6b12abc23b797d3af",
+      "continuous_planes_not_counted_as_vacua": true,
+      "left_chiral_component_range": [
+        81,
+        181
+      ],
+      "local_cubic_anomaly_histogram": {
+        "-5": 14,
+        "-4": 56,
+        "-3": 140,
+        "-2": 238,
+        "-1": 322,
+        "0": 350,
+        "1": 322,
+        "2": 238,
+        "3": 140,
+        "4": 56,
+        "5": 14
+      },
+      "patterns_computed": 1890,
+      "wrong_H2_doublecount_rejected": true
+    },
+    "charged": {
+      "F": {
+        "absolute_H": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "boundary_H": [
+          3,
+          6,
+          3
+        ],
+        "restriction_rank": 4,
+        "strata": [
+          {
+            "E": {
+              "H": [
+                0,
+                3,
+                6,
+                0
+              ],
+              "J": -3
+            },
+            "dual": {
+              "H": [
+                0,
+                6,
+                3,
+                0
+              ],
+              "J": 3
+            },
+            "ell": 0,
+            "intersection": 0
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                3,
+                5,
+                0
+              ],
+              "J": -2
+            },
+            "dual": {
+              "H": [
+                0,
+                5,
+                3,
+                0
+              ],
+              "J": 2
+            },
+            "ell": 1,
+            "intersection": 0
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                4,
+                6,
+                0
+              ],
+              "J": -2
+            },
+            "dual": {
+              "H": [
+                0,
+                6,
+                4,
+                0
+              ],
+              "J": 2
+            },
+            "ell": 1,
+            "intersection": 1
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                3,
+                4,
+                0
+              ],
+              "J": -1
+            },
+            "dual": {
+              "H": [
+                0,
+                4,
+                3,
+                0
+              ],
+              "J": 1
+            },
+            "ell": 2,
+            "intersection": 0
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                4,
+                5,
+                0
+              ],
+              "J": -1
+            },
+            "dual": {
+              "H": [
+                0,
+                5,
+                4,
+                0
+              ],
+              "J": 1
+            },
+            "ell": 2,
+            "intersection": 1
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                5,
+                6,
+                0
+              ],
+              "J": -1
+            },
+            "dual": {
+              "H": [
+                0,
+                6,
+                5,
+                0
+              ],
+              "J": 1
+            },
+            "ell": 2,
+            "intersection": 2
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                4,
+                4,
+                0
+              ],
+              "J": 0
+            },
+            "dual": {
+              "H": [
+                0,
+                4,
+                4,
+                0
+              ],
+              "J": 0
+            },
+            "ell": 3,
+            "intersection": 1
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                5,
+                5,
+                0
+              ],
+              "J": 0
+            },
+            "dual": {
+              "H": [
+                0,
+                5,
+                5,
+                0
+              ],
+              "J": 0
+            },
+            "ell": 3,
+            "intersection": 2
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                6,
+                6,
+                0
+              ],
+              "J": 0
+            },
+            "dual": {
+              "H": [
+                0,
+                6,
+                6,
+                0
+              ],
+              "J": 0
+            },
+            "ell": 3,
+            "intersection": 3
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                5,
+                4,
+                0
+              ],
+              "J": 1
+            },
+            "dual": {
+              "H": [
+                0,
+                4,
+                5,
+                0
+              ],
+              "J": -1
+            },
+            "ell": 4,
+            "intersection": 2
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                6,
+                5,
+                0
+              ],
+              "J": 1
+            },
+            "dual": {
+              "H": [
+                0,
+                5,
+                6,
+                0
+              ],
+              "J": -1
+            },
+            "ell": 4,
+            "intersection": 3
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                7,
+                6,
+                0
+              ],
+              "J": 1
+            },
+            "dual": {
+              "H": [
+                0,
+                6,
+                7,
+                0
+              ],
+              "J": -1
+            },
+            "ell": 4,
+            "intersection": 4
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                6,
+                4,
+                0
+              ],
+              "J": 2
+            },
+            "dual": {
+              "H": [
+                0,
+                4,
+                6,
+                0
+              ],
+              "J": -2
+            },
+            "ell": 5,
+            "intersection": 3
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                7,
+                5,
+                0
+              ],
+              "J": 2
+            },
+            "dual": {
+              "H": [
+                0,
+                5,
+                7,
+                0
+              ],
+              "J": -2
+            },
+            "ell": 5,
+            "intersection": 4
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                7,
+                4,
+                0
+              ],
+              "J": 3
+            },
+            "dual": {
+              "H": [
+                0,
+                4,
+                7,
+                0
+              ],
+              "J": -3
+            },
+            "ell": 6,
+            "intersection": 4
+          }
+        ]
+      },
+      "W": {
+        "absolute_H": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "boundary_H": [
+          2,
+          4,
+          2
+        ],
+        "restriction_rank": 2,
+        "strata": [
+          {
+            "E": {
+              "H": [
+                0,
+                2,
+                4,
+                0
+              ],
+              "J": -2
+            },
+            "dual": {
+              "H": [
+                0,
+                4,
+                2,
+                0
+              ],
+              "J": 2
+            },
+            "ell": 0,
+            "intersection": 0
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                2,
+                3,
+                0
+              ],
+              "J": -1
+            },
+            "dual": {
+              "H": [
+                0,
+                3,
+                2,
+                0
+              ],
+              "J": 1
+            },
+            "ell": 1,
+            "intersection": 0
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                3,
+                4,
+                0
+              ],
+              "J": -1
+            },
+            "dual": {
+              "H": [
+                0,
+                4,
+                3,
+                0
+              ],
+              "J": 1
+            },
+            "ell": 1,
+            "intersection": 1
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                2,
+                2,
+                0
+              ],
+              "J": 0
+            },
+            "dual": {
+              "H": [
+                0,
+                2,
+                2,
+                0
+              ],
+              "J": 0
+            },
+            "ell": 2,
+            "intersection": 0
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                3,
+                3,
+                0
+              ],
+              "J": 0
+            },
+            "dual": {
+              "H": [
+                0,
+                3,
+                3,
+                0
+              ],
+              "J": 0
+            },
+            "ell": 2,
+            "intersection": 1
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                4,
+                4,
+                0
+              ],
+              "J": 0
+            },
+            "dual": {
+              "H": [
+                0,
+                4,
+                4,
+                0
+              ],
+              "J": 0
+            },
+            "ell": 2,
+            "intersection": 2
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                3,
+                2,
+                0
+              ],
+              "J": 1
+            },
+            "dual": {
+              "H": [
+                0,
+                2,
+                3,
+                0
+              ],
+              "J": -1
+            },
+            "ell": 3,
+            "intersection": 1
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                4,
+                3,
+                0
+              ],
+              "J": 1
+            },
+            "dual": {
+              "H": [
+                0,
+                3,
+                4,
+                0
+              ],
+              "J": -1
+            },
+            "ell": 3,
+            "intersection": 2
+          },
+          {
+            "E": {
+              "H": [
+                0,
+                4,
+                2,
+                0
+              ],
+              "J": 2
+            },
+            "dual": {
+              "H": [
+                0,
+                2,
+                4,
+                0
+              ],
+              "J": -2
+            },
+            "ell": 4,
+            "intersection": 2
+          }
+        ]
+      }
+    },
+    "gauge": [
+      {
+        "H": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "J": 0,
+        "intersection": 0
+      },
+      {
+        "H": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "J": 0,
+        "intersection": 1
+      }
+    ],
+    "gauge_profile": {
+      "absolute_H": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "boundary_H": [
+        1,
+        2,
+        1
+      ],
+      "coefficient_rank": 1,
+      "restriction_rank": 1
+    },
+    "neutral": [
+      {
+        "H": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "J": 0,
+        "intersection": 0
+      },
+      {
+        "H": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "J": 0,
+        "intersection": 1
+      },
+      {
+        "H": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "J": 0,
+        "intersection": 2
+      },
+      {
+        "H": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "J": 0,
+        "intersection": 3
+      },
+      {
+        "H": [
+          0,
+          10,
+          10,
+          0
+        ],
+        "J": 0,
+        "intersection": 4
+      },
+      {
+        "H": [
+          0,
+          11,
+          11,
+          0
+        ],
+        "J": 0,
+        "intersection": 5
+      },
+      {
+        "H": [
+          0,
+          12,
+          12,
+          0
+        ],
+        "J": 0,
+        "intersection": 6
+      }
+    ],
+    "neutral_profile": {
+      "absolute_H": [
+        0,
+        6,
+        6,
+        0
+      ],
+      "boundary_H": [
+        6,
+        12,
+        6
+      ],
+      "coefficient_rank": 24,
+      "restriction_rank": 6
+    },
+    "split_neutral_restriction_cone": {
+      "H": [
+        0,
+        13,
+        13,
+        0
+      ]
+    }
+  },
+  "full_Hamiltonian": false,
+  "full_goal_achieved": false,
+  "full_quantum_anomaly": false,
+  "generated_selection": false,
+  "global_PDE_certificate": false,
+  "interactions_normalized": false,
+  "new_native_imported": false,
+  "outside_review": false,
+  "predicates": {
+    "F_0_0_different_LES_stratum": true,
+    "F_1_0_different_LES_stratum": true,
+    "F_1_1_different_LES_stratum": true,
+    "F_2_0_different_LES_stratum": true,
+    "F_2_1_different_LES_stratum": true,
+    "F_2_2_different_LES_stratum": true,
+    "F_3_1_different_LES_stratum": true,
+    "F_3_2_different_LES_stratum": true,
+    "F_3_3_different_LES_stratum": true,
+    "F_4_2_different_LES_stratum": true,
+    "F_4_3_different_LES_stratum": true,
+    "F_4_4_different_LES_stratum": true,
+    "F_5_3_different_LES_stratum": true,
+    "F_5_4_different_LES_stratum": true,
+    "F_6_4_different_LES_stratum": true,
+    "F_actual_cup_and_restriction_annihilators": true,
+    "W_0_0_different_LES_stratum": true,
+    "W_1_0_different_LES_stratum": true,
+    "W_1_1_different_LES_stratum": true,
+    "W_2_0_different_LES_stratum": true,
+    "W_2_1_different_LES_stratum": true,
+    "W_2_2_different_LES_stratum": true,
+    "W_3_1_different_LES_stratum": true,
+    "W_3_2_different_LES_stratum": true,
+    "W_4_2_different_LES_stratum": true,
+    "W_actual_cup_and_restriction_annihilators": true,
+    "actual_bosonic_vs_full_odd_Weyl_counts": true,
+    "actual_mixed_boundary_flux_after_slice": true,
+    "adjoint_cubic_all_monomials_zero": true,
+    "component_wrong_scalar_sign_rejected": true,
+    "cubic_both_outcomes": true,
+    "different_248_joint_weight_enumeration": true,
+    "different_component_mixed_Ward_all_four_covectors": true,
+    "false_H2_doublecount_breaks_dof_match": true,
+    "false_linear_vector_cannot_supply_required_flux": true,
+    "full_cubic_multinomial_identity": true,
+    "gauge_all_degree_LES_0": true,
+    "gauge_all_degree_LES_1": true,
+    "imaginary_Higgs_potential_sign_fails": true,
+    "independent_null_Gauss_1": true,
+    "independent_null_Gauss_2": true,
+    "independent_null_Gauss_3": true,
+    "mass_kernel_retains_real_gauge_generator": true,
+    "neutral_actual_symplectic_cup": true,
+    "neutral_full_LES_0": true,
+    "neutral_full_LES_1": true,
+    "neutral_full_LES_2": true,
+    "neutral_full_LES_3": true,
+    "neutral_full_LES_4": true,
+    "neutral_full_LES_5": true,
+    "neutral_full_LES_6": true,
+    "neutral_independent_End25_restriction_and_trace": true,
+    "neutral_partner_actual_algebra": true,
+    "neutral_wrong_Euclidean_pairing_rejected": true,
+    "normal_response_gauge_invariance_with_external_jets": true,
+    "real_block_mass_Gram_matches_complex_D_adjoint": true,
+    "real_block_wrong_complex_gauge_deletion_fails": true,
+    "slice_real_normal_flux_zero_not_imposed_essentially": true,
+    "sparse_multiply_integer_only_positive_control": true,
+    "sparse_multiply_nonrational_positive_control": true,
+    "sparse_multiply_preserves_exact_field": true,
+    "sparse_multiply_preserves_zero_entry_field_type": true,
+    "sparse_multiply_rejects_mixed_quadratic_fields": true,
+    "split_neutral_independent_replay_changes_count": true,
+    "wrong_same_dimension_roster_rejected": true,
+    "wrong_unconjugated_complex_adjoint_rejected": true
+  },
+  "predicates_passed": 66,
+  "reference_superspace_expansion": false,
+  "same_author": true
+}

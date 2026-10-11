@@ -1,5 +1,29 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 same-action linear massless sublemmas. SAME supplied compact
+twisted E8 parent, nonsplit silver flat/moment-zero background, positive
+metric and strict A; all k-stable harmonic polarizations in the stated
+branching. PROOF in
+reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/;
+LIVE tests/test_physical_bridge_silver_physical_multiplets.py.
+Authored analytic application, outside acceptance owed.
+
+| Scoped result | Verification and limit |
+|---|---|
+| Actual vector response gives P0 only after the real scalar gauge slice | PROOF1-2; direct canonical mixed response with external/normal jets, source compatibility and preceding mixed inverse; not an imposed Neumann law or numerical global PDE certificate |
+| H0/H3 give vector/gaugino; H1 gives scalar/left-Weyl; H2 is the actual conjugate | Same positive forms and full operator maps; Maxwell/Gauss controls retain two polarizations; full1,890-pattern once-counted degrees agree, double-left-H2 fails |
+| Every charged (ell,j) stratum has an actual cone and dual cup-annihilator | Full chain differentials versus separate Fraction crossed-word/LES; fixed ell can change paired counts, but J=ell-t0; not a continuous-vacuum census |
+| Actual neutral trace symplectic completion realizes counts6..12; split13 replays twice | Bilinear Tr(XY), actual invariance/cup/ranks; Euclidean-unitary shortcut rejected; these are neutral chiral counts, not generations |
+| Both gauge-line strata retain24 endpoints, with optional adjoint chiral matter | Full actual marked cone/LES (1,j,j,1); neither line is derived or selected |
+| The full branching and local cubic anomaly filter are representation-faithful | Every248 joint weight and full cubic polynomial;350 of1,890 multiplicity patterns obey JW=JF; local SU5^3 only, not quantum/inflow or vacuum selection |
+| Schur sectors and dimension/intersection bounds exhaust this family's multiplicity patterns | PROOF4-5 plus witnesses; common anomaly-free index -2..2 cannot kill larger carriers or different boundary mechanisms |
+
+96/66 exact predicates and 12 focused tests within70 eight-packet regression PASS; seven science/16 pins
+match. Supplied choices, normalized interactions, viable SM phase,
+generated selection, observed parameters, gravity and full SM/TOE remain.
+No shared B/I number or main banking is asserted.
+
+
 October11 real bosonic quotient sublemmas. SAME supplied compact E8
 parent/harmonic structure background/metric/strict A and all L. Authored
 analytic proof, outside acceptance owed:

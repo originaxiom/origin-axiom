@@ -18407,3 +18407,35 @@ three families, generated parameters/gravity or SM/TOE completion.
 Sender review relay OPEN; prereg26 PASS/4 inherited FAIL categories;
 full-suite/main acceptance unclaimed. No new cross-seat numerical outcome
 adopted on authority. Ultimate goal active; qualia/observer not computed.
+
+## 2026-10-11 silver linear physical multiplets and complete rank strata
+
+Original pushed9e434bfaa and verifier repair seals7afab07d4/256fa904d:
+96 native/66 separate-method exact predicates PASS;12 focused tests within
+70 eight-packet regression PASS in1164.91s (1166.274799s captured), exit0.
+Seven science/16 input hashes match. Both failed reference attempts, first
+diagnostic syntax failure, successful diagnosis and unchanged native output
+are preserved with literal exits/bytes/digests. No expected spectrum or
+anomaly criterion changed. Report:
+reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/FINDINGS.md.
+SAME supplied parent/background/metric/strict A: actual mixed vector
+response becomes P0 AFTER the allowed external-dependent real scalar
+slice. H1 scalar/Weyl and H0/H3 vector/gaugino are counted once, with actual
+H2 conjugates and Gauss constraints retained. All charged intersection
+ranks, actual neutral trace/symplectic partners and both gauge lines give
+1,890 multiplicity patterns;350 local SU5^3-anomaly-free. Neutral6..12 and
+split13 agree twice. This family's +/-2 index is not a larger-carrier kill;
+continuous planes are not selected vacua. Earlier35 dimension pairs held.
+Next same-action bulk cubic/Yukawa/Kuranishi interpretation, lifting of
+unwanted matter and viable SM phase. Older convergent boundary transfer
+is credited, not substituted for a physical coupling. Parent, embedding,
+metric/cut/reference and nonlocal boundary/polarization remain supplied.
+Generated three families, vacuum/parameters/gravity and ultimate full
+SM/TOE remain active/unachieved. Outside/full-suite/main acceptance owed.
+Fresh all-head fetch: main6c148ddd4, SM6877cc87d, fork8b89d8fb unchanged;
+new archive branch points to main, not a new scientific result. W45-W47
+code/body personally read, not replayed; exceptional single-mode positives
+preserved and their broader no-forcing framing kept within audit scope.
+Sender-owned relay OPEN; no receiving-seat acknowledgment. Three prereg
+governance captures26 PASS/4 inherited FAIL; publication custody separate.
+No observer/qualia physics or goal-completion claim follows.

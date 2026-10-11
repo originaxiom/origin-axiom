@@ -50,3 +50,17 @@ Continue pinned B1634/W47/W53 cross-seat audits. Honor corrected positives;
 sample grids, thresholds and optimizer lows are not architecture-wide
 exclusions. Seal the next new question and opposing controls before
 execution; preserve failures and publish sender-owned OPEN relays.
+
+## October11 disposition
+
+Steps1-5 now executed at conditional linear research grade in
+../silver_physical_multiplets_2026_10_11/FINDINGS.md:96/66 exact predicates,
+12 new tests within70 eight-packet regression PASS. All intersection-rank
+strata extend the old35 dimension flags; full vectors, conjugate modes,
+neutral/gauge choices and local SU5^3 filter are retained. The global
+analytic map owes outside acceptance and is not a numerical PDE solve.
+Step6 remains NEXT: same-action physical cubic/Yukawa/Kuranishi and a
+viable phase, with normalized overlaps and unwanted modes accounted for.
+The new NEXT_TEST.md gives that order. Generated boundary/vacuum selection,
+three physical families, full quantum/Hamiltonian/anomaly duties,
+parameters, gravity and full SM/TOE remain unachieved.

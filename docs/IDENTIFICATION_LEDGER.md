@@ -1,5 +1,21 @@
 # THE IDENTIFICATION LEDGER
 
+Local October11 linear physical dictionary (no shared I-number change):
+same-action real scalar quotient H1 -> complex scalar/left-Weyl H1;
+actual conjugate H2 -> dual H1, counted once; real vector P0 kernel
+global k and H3 -> vector/gaugino, retaining residual gauge/Gauss.
+The actual mixed normal response maps onto P0 after the allowed
+spacetime-dependent real slice, not by matching a degree label.
+All248 joint weights identify10,W / bar10,Wdual / bar5,Lambda2W /
+5,(Lambda2W)dual / singlet,End0W / adjoint,trivial coefficient.
+PROOF1-5 and LIVE tests/test_physical_bridge_silver_physical_multiplets.py;
+96/66 exact controls and 12 focused tests within70 eight-packet regression PASS.
+EARNED at authored conditional LINEAR grade for the SAME supplied parent,
+background, metric and strict boundary; outside acceptance owed. This is
+not a quantum/selected SM, an observer/qualia map or OA's derivation of
+the supplied action/boundary. Shared identification statuses unchanged.
+
+
 Local October11 real scalar/Weyl map (no shared I-number change):
 [a] modulo ALLOWED compact real gauge -> a+Dlambda in harmonic H1,
 where P lambda=kappa(a) and Pi_k D_A,n lambda=-Pi_k u_n.

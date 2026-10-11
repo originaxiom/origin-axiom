@@ -1,0 +1,190 @@
+{
+  "original_pushed_execution_seal": "9e434bfaa63cff9450959d54384e1a6ad969546a",
+  "first_pushed_repair_seal": "7afab07d4b2c446d5dc1336fe5594b736a704eda",
+  "final_pushed_execution_seal": "256fa904dc70eb0760c0b29857fdf79706c46aaf",
+  "native_algorithm_unchanged_across_seals": true,
+  "runtime": {
+    "python_version": "3.12.1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "pytest_cacheprovider_disabled": true
+  },
+  "all_runs": {
+    "native": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 669.162103000097,
+      "log_bytes": 33997,
+      "log_sha256": "ca6ad0d015816ab9d2f46d58304dee07309cc91a7aacf2e19d75cc4c27df7818",
+      "log_file": "NATIVE_RUN.log"
+    },
+    "reference-final": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 37.81687800004147,
+      "log_bytes": 16527,
+      "log_sha256": "eeedfea433f37a49bd113ed49ff8282894e2c8111070b0cbb26d6571a75c689e",
+      "log_file": "REFERENCE_RUN.log"
+    },
+    "regression": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-v",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_physical_multiplets.py",
+        "tests/test_physical_bridge_silver_bosonic_quotient.py",
+        "tests/test_physical_bridge_silver_superfield_covariance.py",
+        "tests/test_physical_bridge_silver_fermion_action.py",
+        "tests/test_physical_bridge_silver_static_energy.py",
+        "tests/test_physical_bridge_silver_superfield_response.py",
+        "tests/test_physical_bridge_silver_complementary_boundary.py",
+        "tests/test_physical_bridge_silver_spectral_completion.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1166.2747989997733,
+      "log_bytes": 8651,
+      "log_sha256": "1b04f074b2ea57452c2f25f2663c7878d9abb8fc67d0fa48fa327575d9e7242c",
+      "log_file": "REGRESSION_RUN.log"
+    },
+    "integrity": {
+      "command": [
+        "ruby",
+        "-EUTF-8",
+        "-rjson",
+        "-rdigest",
+        "-e",
+        "a=JSON.parse(File.read(\"/tmp/oa-physical-multiplets.YxWbod/native.log\"));b=JSON.parse(File.read(\"/tmp/oa-physical-multiplets.YxWbod/reference-final.log\"));raise \"aggregate\" unless a.dig(\"census\",\"aggregate\")==b.dig(\"census\",\"aggregate\");%w[neutral_profile gauge_profile].each{|k|raise k unless a.dig(\"census\",k)==b.dig(\"census\",k)};%w[W F].each{|k|aa=a.dig(\"census\",\"charged\",k);bb=b.dig(\"census\",\"charged\",k);%w[absolute_H boundary_H restriction_rank].each{|p|raise p unless aa[p]==bb[p]};aa[\"strata\"].zip(bb[\"strata\"]).each{|x,y|raise k unless x.values_at(\"ell\",\"intersection\")==y.values_at(\"ell\",\"intersection\") && %w[E dual].all?{|p|x[p][\"H\"]==y[p][\"H\"]}}};%w[neutral gauge].each{|k|a.dig(\"census\",k).zip(b.dig(\"census\",k)).each{|x,y|raise k unless x[\"H\"]==y[\"H\"]}};rows=JSON.parse(File.read(\"reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/RESEAL_REPAIR_2.json\"))[\"science_files\"]+JSON.parse(File.read(\"reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/INPUTS.json\"))[\"local_inputs\"];rows.each{|r|raise r[\"path\"] unless File.size(r[\"path\"])==r[\"bytes\"] && Digest::SHA256.file(r[\"path\"]).hexdigest==r[\"sha256\"]};puts JSON.generate({science_files:7,local_inputs:16,all_hashes_match:true,native_predicates:a[\"predicates_passed\"],reference_predicates:b[\"predicates_passed\"],all_exact_profiles_and_pattern_hash_agree:true})"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.18736100010573864,
+      "log_bytes": 160,
+      "log_sha256": "b87eae7063ec20d7e49f43f59e1de730b3c78da31b3867b2c453bb832d9aa499",
+      "log_file": "INTEGRITY_RUN.log"
+    },
+    "identification": {
+      "command": [
+        "python3",
+        "scripts/checks/identification_audit.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.05508600012399256,
+      "log_bytes": 442,
+      "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215",
+      "log_file": "IDENTIFICATION_RUN.log"
+    },
+    "reference": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.9073499999940395,
+      "log_bytes": 1093,
+      "log_sha256": "a81c67c5880d57150407264bd4b83b527033eb6268d09dc5b2fbb3f7bcac0df0",
+      "log_file": "REFERENCE_FIRST_FAILED.log"
+    },
+    "reference-repaired": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 42.26891799992882,
+      "log_bytes": 17214,
+      "log_sha256": "31f57e55d7f796f75f2520213d9114882d5bfdc4fb477cbf1bc0401611cdb00a",
+      "log_file": "REFERENCE_REPAIRED_FIRST_FAILED.log"
+    },
+    "mass-comparator-diagnosis": {
+      "command": [
+        "python3",
+        "-c",
+        "import sympy as s\\nI=s.I;X=s.Matrix([[0,1],[1,0]]);Y=s.Matrix([[0,-I],[I,0]]);Z=s.diag(1,-1)\\nb=[Z,Y,X]\\ndef coords(m): return s.Matrix([s.trace(c*m)/2 for c in b]).applyfunc(s.simplify)\\nL=s.Matrix.hstack(*(coords(I*(Z*c-c*Z)) for c in b));H=s.Matrix.hstack(*(coords(I*(c*3*Z-3*Z*c)) for c in b))\\nP=L.T*L+H.T*H;D=L-I*H\\nprint({'P':str(P),'raw_D_adjoint_D':str(D.H*D),'raw_structural_equality':P==D.H*D,'expanded_residual':str((P-D.H*D).applyfunc(s.expand)),'target_unchanged':P==s.diag(0,40,40)})"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.037260000128299,
+      "log_bytes": 621,
+      "log_sha256": "ee0362455bdd9d2040d2b1a82ee106d66006203f30b398fe8e8065bf22809576",
+      "log_file": "MASS_DIAGNOSIS_FIRST_SYNTAX_FAILED.log"
+    },
+    "mass-comparator-diagnosis-corrected": {
+      "command": [
+        "python3",
+        "-c",
+        "import sympy as s\nI=s.I;X=s.Matrix([[0,1],[1,0]]);Y=s.Matrix([[0,-I],[I,0]]);Z=s.diag(1,-1)\nb=[Z,Y,X]\ndef coords(m): return s.Matrix([s.trace(c*m)/2 for c in b]).applyfunc(s.simplify)\nL=s.Matrix.hstack(*(coords(I*(Z*c-c*Z)) for c in b));H=s.Matrix.hstack(*(coords(I*(c*3*Z-3*Z*c)) for c in b))\nP=L.T*L+H.T*H;D=L-I*H\nprint({'P':str(P),'raw_D_adjoint_D':str(D.H*D),'raw_structural_equality':P==D.H*D,'expanded_residual':str((P-D.H*D).applyfunc(s.expand)),'target_unchanged':P==s.diag(0,40,40)})"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.776175000006333,
+      "log_bytes": 281,
+      "log_sha256": "3ef6ce6c8776b20f8fe73ac8455188c89aee6740438b45ada33eaf3a802bfee7",
+      "log_file": "MASS_COMPARATOR_DIAGNOSIS.log"
+    },
+    "prereg-governance": {
+      "command": [
+        "python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 17.243201999925077,
+      "log_bytes": 2384,
+      "log_sha256": "df0d06244b5561c5abf8c89d32682be9bd7ce8339fb9070d603f6af495e87e76",
+      "log_file": "PREREG_GOVERNANCE.log"
+    },
+    "repair-governance": {
+      "command": [
+        "python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 18.588190000038594,
+      "log_bytes": 2384,
+      "log_sha256": "a859f36284025b86ee9731bdbc10676ca7fdf64f7af0fca9516c47e44eeb5c4c",
+      "log_file": "REPAIR_GOVERNANCE.log"
+    },
+    "repair2-governance": {
+      "command": [
+        "python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 17.472567999968305,
+      "log_bytes": 2384,
+      "log_sha256": "cf0883f3fa0f3f0d5fa8834022bee55d0e0089b9a584b6dc11da53e5ffb4841c",
+      "log_file": "REPAIR_2_GOVERNANCE.log"
+    }
+  },
+  "native_predicates": 96,
+  "reference_predicates": 66,
+  "focused_tests_within_regression": 12,
+  "standalone_focused_invocation": false,
+  "eight_packet_regression_tests": 70,
+  "all_current_science_hashes": 7,
+  "all_local_input_hashes": 16,
+  "all_exact_profiles_and_pattern_hash_agree": true,
+  "canonical_pattern_sha256": "7a863756e1d1c9a049e0e59dcafd3cf0b4953e847f2891d6b12abc23b797d3af",
+  "preserved_failed_reference_attempts": 2,
+  "preserved_failed_diagnostic_invocation": 1,
+  "outside_review": false,
+  "full_suite_green": false,
+  "main_banked": false,
+  "full_goal_achieved": false
+}

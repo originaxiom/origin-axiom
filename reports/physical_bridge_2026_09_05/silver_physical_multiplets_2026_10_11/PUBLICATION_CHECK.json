@@ -1,0 +1,44 @@
+{
+  "command": [
+    "python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 18.632328999927267,
+  "log_bytes": 2384,
+  "log_sha256": "0f3a85f563b7f05b645cf5618eb7c24a04ef0099c77854b3acd24c023267c2d7",
+  "checked_staged_tree": "07def5d06038b002c6acbd49ab2617583d614f92",
+  "tree_after_run": "07def5d06038b002c6acbd49ab2617583d614f92",
+  "checked_changed_files": 25,
+  "passed": 26,
+  "failed": 4,
+  "inherited_failure_categories": [
+    "attribution",
+    "test-vacuity",
+    "seal-provenance",
+    "relay-debt"
+  ],
+  "inherited_stale_relay_debts": 42,
+  "relay_open_count": 116,
+  "review_due_merges": 424,
+  "no_new_packet_failure_listed": true,
+  "receipt_attached_after_checked_stage": true,
+  "science_bytes_unchanged_after_scoped_regression": true,
+  "publication_integrity": {
+    "command": [
+      "ruby",
+      "-EUTF-8",
+      "-rjson",
+      "-rdigest",
+      "-e",
+      "base=\"reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/\";\nrows=JSON.parse(File.read(base+\"RESEAL_REPAIR_2.json\"))[\"science_files\"]+JSON.parse(File.read(base+\"INPUTS.json\"))[\"local_inputs\"];\nrows.each {|r|raise r[\"path\"] unless File.size(r[\"path\"])==r[\"bytes\"] && Digest::SHA256.file(r[\"path\"]).hexdigest==r[\"sha256\"]};\nrec=JSON.parse(File.read(base+\"RECEIPTS.json\"));\nrec[\"all_runs\"].each {|k,r|p=base+r[\"log_file\"];raise p unless File.size(p)==r[\"log_bytes\"] && Digest::SHA256.file(p).hexdigest==r[\"log_sha256\"] && r[\"signal\"].nil?;\nwant=%w[reference reference-repaired mass-comparator-diagnosis prereg-governance repair-governance repair2-governance].include?(k) ? 1 : 0;raise k unless r[\"exit_code\"]==want};\na=JSON.parse(File.read(base+\"NATIVE_RUN.log\"));b=JSON.parse(File.read(base+\"REFERENCE_RUN.log\"));\nraise \"native coverage\" unless a[\"facts\"].size==96 && a[\"predicates_passed\"]==96 && a[\"facts\"].values.all?;\nraise \"reference coverage\" unless b[\"predicates\"].size==66 && b[\"predicates_passed\"]==66 && b[\"predicates\"].values.all?;\nraise \"aggregate\" unless a.dig(\"census\",\"aggregate\")==b.dig(\"census\",\"aggregate\");\n%w[neutral_profile gauge_profile].each {|p|raise p unless a.dig(\"census\",p)==b.dig(\"census\",p)};\n%w[W F].each {|p|x=a.dig(\"census\",\"charged\",p);y=b.dig(\"census\",\"charged\",p);%w[absolute_H boundary_H restriction_rank].each {|z|raise z unless x[z]==y[z]};raise p unless x[\"strata\"].size==y[\"strata\"].size;x[\"strata\"].zip(y[\"strata\"]).each {|u,v|raise p unless u.values_at(\"ell\",\"intersection\")==v.values_at(\"ell\",\"intersection\") && %w[E dual].all? {|z|u[z][\"H\"]==v[z][\"H\"]}}};\n%w[neutral gauge].each {|p|x=a.dig(\"census\",p);y=b.dig(\"census\",p);raise p unless x.size==y.size && x.zip(y).all? {|u,v|u[\"H\"]==v[\"H\"]}};\nraise \"split\" unless a.dig(\"census\",\"split_neutral_restriction_cone\",\"H\")==b.dig(\"census\",\"split_neutral_restriction_cone\",\"H\");\nlog=File.read(base+\"REGRESSION_RUN.log\");raise \"full scoped regression\" unless log.include?(\"70 passed in 1164.91s\") && log.scan(/^tests\\/test_physical_bridge_silver_physical_multiplets\\.py::[^\\n]* PASSED /).size==12 && log.scan(/^tests\\/[^\\n]* PASSED /).size==70;\nputs JSON.generate({science_hashes:7,input_hashes:16,literal_stdout_hashes:rec[\"all_runs\"].size,native_predicates:96,reference_predicates:66,focused_within_regression:12,regression:70,all_exact_profiles_agree:true,all_match:true})"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.14926399989053607,
+    "log_bytes": 211,
+    "log_sha256": "c73c4397e18cc60a5fac79fc2b9c4fa07b4b0ef8dad3522680ade41d3bd6042f"
+  },
+  "public_metadata_attachments_not_claimed_part_of_checked_tree": true
+}

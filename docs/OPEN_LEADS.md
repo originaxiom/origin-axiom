@@ -1,5 +1,34 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 same-action linear massless disposition:
+
+- PB-SILVER-LINEAR-MULTIPLET-DICTIONARY EXECUTED at conditional authored
+  grade: “Same-action vector P0 after allowed real gauge slice joins
+  scalar/Weyl H1 and actual H0/H3 gauge endpoints, with conjugates counted
+  once.” PROOF1-3, silver_physical_multiplets_2026_10_11 under
+  reports/physical_bridge_2026_09_05/.96/66 exact predicates;
+  12 focused tests within70 eight-packet regression PASS. Not a global numerical PDE or full Hamiltonian.
+- PB-SILVER-ALL-RANK-STRATA EXECUTED within this branching/boundary family:
+  “All charged/dual/neutral/gauge intersection ranks give1,890
+  multiplicity patterns,350 locally SU5^3-anomaly-free.” PROOF4-6 and
+  actual cones versus separate Fraction LES. Continuous L are not
+  selected vacua; this family's +/-2 index does not exclude other carriers.
+- PB-SILVER-PHYSICAL-JOINT remains OPEN for same-action physical cubic/
+  Yukawa/Kuranishi interpretation, actual lifting of unwanted modes,
+  viable SM phase, full time-dependent/quantum/large-gauge and anomaly/
+  inflow completion. New NEXT_TEST.md credits older reduced boundary
+  transfer rather than rediscovering or identifying it with bulk vertices.
+- PB-SILVER-GENERATED-BOUNDARY remains OPEN: parent, embedding, positive
+  metric, cut, fixed reference and nonlocal polarization remain supplied.
+  No boundary/source/vacuum selection, three physical families, observed
+  parameters, gravity, observer/qualia or full SM/TOE derived.
+- Larger-carrier and spin positives remain separate investigations until
+  actual parent/metric/domain hypotheses match. B1634/W47/W53 audit queue
+  remains read-versus-replay typed; no cross-seat outcome accepted on
+  authority. Outside/full-suite/main acceptance remains owed.
+  Earlier dated NEXT entries below retain their historical epoch.
+
+
 October11 silver real bosonic quotient disposition:
 
 - PB-SILVER-REAL-BOSONIC-QUOTIENT EXECUTED at conditional authored grade:
