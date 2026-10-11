@@ -1,5 +1,15 @@
 # THE IDENTIFICATION LEDGER
 
+Local October11 twist/covariance map (no shared I-number change):
+2 tensor 2 -> normalized diagonal invariant (0,1,-1,0)/sqrt2 plus its
+rank-three complement. All three supplied spin/R diagonal generators
+annihilate the singlet; connection cancellation makes that supplied
+parameter scalar internally.42/25 exact superfield controls and8 focused
+tests pass; PROOF1 in reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/.
+This earns the conditional acting twist map, NOT the emergence of Lorentz
+spin, R symmetry or N=1 from OA and not I-10/11/13. Parent/metric/boundary
+selection and full physical multiplet remain distinct unearned duties.
+
 **Opened 2026-09-01 (B1231). Governed by the Identification Rule in `WORKING_RULES.md`.**
 
 Every claim of the form *"X here IS Y there"* that the chain leans on. The discriminator is

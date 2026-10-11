@@ -1,0 +1,47 @@
+{
+  "command": [
+    "python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 18.716591000091285,
+  "log_bytes": 2384,
+  "log_sha256": "665ca67bd65b9b64f8d5a8c1640488d735130067d301ea63431b7357e0dca3a1",
+  "checked_staged_tree": "23501f1732b887441e63911fc0203e131ae257ac",
+  "tree_after_run": "23501f1732b887441e63911fc0203e131ae257ac",
+  "checked_changed_files": 26,
+  "passed": 26,
+  "failed": 4,
+  "inherited_failure_categories": [
+    "attribution: six earlier raw paths",
+    "test-vacuity: two earlier locks",
+    "seal-provenance: five earlier designs",
+    "relay-debt: 42 stale un-escalated debts"
+  ],
+  "relay_open_count": 114,
+  "review_due_merges": 418,
+  "no_new_packet_failure_listed": true,
+  "receipt_attached_after_checked_stage": true,
+  "publication_integrity": {
+    "command": [
+      "ruby",
+      "-EUTF-8",
+      "-rjson",
+      "-rdigest",
+      "-e",
+      "base=\"reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/\";seal=JSON.parse(File.read(base+\"PRESEAL_REFINEMENT.json\"));inp=JSON.parse(File.read(base+\"INPUTS.json\"));(seal.fetch(\"science_files\")+inp.fetch(\"local_inputs\")).each{|r|p=r.fetch(\"path\");raise p unless File.size(p)==r.fetch(\"bytes\") && Digest::SHA256.file(p).hexdigest==r.fetch(\"sha256\")};rec=JSON.parse(File.read(base+\"RECEIPTS.json\"));names={\"NATIVE_RUN.log\"=>\"native_final\",\"REFERENCE_RUN.log\"=>\"reference_final\",\"FOCUSED_RUN.log\"=>\"focused_final\",\"REGRESSION_RUN.log\"=>\"regression_final\",\"INTEGRITY_RUN.log\"=>\"integrity_final\",\"IDENTIFICATION_RUN.log\"=>\"identification\"};names.each{|n,k|r=rec.fetch(\"all_runs\").fetch(k);raise n unless File.size(base+n)==r.fetch(\"log_bytes\") && Digest::SHA256.file(base+n).hexdigest==r.fetch(\"log_sha256\") && r.fetch(\"exit_code\")==0};first=JSON.parse(File.read(base+\"FIRST_RECEIPTS.json\"));%w[native reference focused regression].each{|k|r=first.fetch(k);n=k.upcase+\"_FIRST.log\";raise n unless File.size(base+n)==r.fetch(\"log_bytes\") && Digest::SHA256.file(base+n).hexdigest==r.fetch(\"log_sha256\") && r.fetch(\"exit_code\")==0};na=JSON.parse(File.read(base+\"NATIVE_RUN.log\"));re=JSON.parse(File.read(base+\"REFERENCE_RUN.log\"));raise \"predicate coverage\" unless na.fetch(\"facts\").size==42 && na.fetch(\"facts\").values.all? && re.fetch(\"predicates\").size==25 && re.fetch(\"predicates\").values.all?;puts JSON.generate({science_hashes:7,input_hashes:5,literal_stdout_hashes:10,native_predicates:42,reference_predicates:25,all_match:true})"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 0.1594790001399815,
+    "log_bytes": 131,
+    "log_sha256": "caebd466174f6ef0a7901af7d8b256f950e2c30015d152848b2001d17044596f"
+  },
+  "not_claimed": [
+    "full_suite_green",
+    "nonauthor_analytic_acceptance",
+    "main_bank_acceptance",
+    "physical_goal_achieved"
+  ]
+}

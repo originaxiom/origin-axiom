@@ -1,5 +1,25 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 whole-superfield silver sublemmas. SAME supplied twisted E8
+parent/metric/strict A and all L; authored PROOF, outside acceptance owed:
+reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md;
+tests/test_physical_bridge_silver_superfield_covariance.py.
+
+| Scoped result | Verification and limit |
+|---|---|
+| Actual real delta_S=epsilon Q-bar_epsilon barQ has canonical WZ compensator | Actual odd dagger, full exp/log and all-covector Q algebra; supplied N=1, not OA emergence |
+| Full normal response transforms as delta_S Z_n+i[Z_n,Lambda] | Direct-product and eta algorithms retain actual normal jets; integrated fixed Pi equivariant in every slot |
+| Essential A/parallel-k and natural response are jointly covariant | Existing strict cyclic/k-stable boundary and fixed external-independent projectors; not a well-posed eliminated multiplet |
+| Consistent normal-jet omission is Ward-blind but fails normal WZ | Two-sided exact control; a Ward test alone cannot seal actual compensation |
+| False delta V=delta G/2 is forbidden-slot-blind but fails canonical variation | Noncommuting nonlinear controls; first successful outputs retained after scope refinement |
+| Supplied twist parameter is explicit diagonal singlet with triplet complement | All three generators and normalized rank projectors act; Lorentz/R symmetry and parent remain supplied |
+
+42/25 exact predicates,8 focused and40 five-packet regression PASS at
+refined pre-run2f5cfef7e; seven science/five source pins match. Classical
+small-gauge/action covariance with retained surfaces; large/quantum gauge,
+bosonic gauge quotient, complete spectrum/interactions/anomalies and
+generated selection are distinct OPEN duties. Full SM/TOE unachieved.
+
 October11 canonical four-Weyl silver sublemmas. Scope: SAME supplied
 compact twisted E8 parent, admitted flat coefficient, physical metric and
 strict complementary A. Authored proof, outside acceptance pending:

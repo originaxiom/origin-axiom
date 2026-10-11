@@ -1,5 +1,12 @@
 # Whole-superfield preservation, then the physical census
 
+October11 follow-through: the covariance packet executed at conditional
+authored grade,42/25/8/40 PASS after preserved scope refinement. See
+../silver_superfield_covariance_2026_10_11/FINDINGS.md and NEXT_TEST.md.
+This advances items1-2 below, not full item3. Bosonic real gauge quotient,
+closed full multiplet and complete modes/interactions/anomalies remain.
+The original unexecuted order below is retained as dated history.
+
 Unexecuted next packet. Keep the same parent, compact carrier, metric,
 relative primitive, A and every harmonic L. Do not choose a convenient
 subsector or graft another branch's SM conclusion onto this construction.

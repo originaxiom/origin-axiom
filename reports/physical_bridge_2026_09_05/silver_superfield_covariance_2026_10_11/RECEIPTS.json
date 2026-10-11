@@ -1,0 +1,101 @@
+{
+  "initial_seal": "4cc9a13ce73d113e456cdf9de302e82d2d465ea6",
+  "execution_seal": "2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab",
+  "all_logs_literal": true,
+  "environment": {
+    "python": "3.12.1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "pytest_cache_disabled": true
+  },
+  "all_runs": {
+    "native_final": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 44.539850999834016,
+      "log_bytes": 2240,
+      "log_sha256": "7fa484bf80d6a81b3db0817114fd204e9247a36b1ba4d64b073fdda5acbc3000"
+    },
+    "reference_final": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 33.0261429999955,
+      "log_bytes": 1418,
+      "log_sha256": "44bd956aacd35b63c25d9b305c9626bde9170470226c643d8a497844aa4ff222"
+    },
+    "focused_final": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_superfield_covariance.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 77.09071599994786,
+      "log_bytes": 109,
+      "log_sha256": "71f1d0f10ba397a6141ac147305f756938b592b0e31b7b48d78101d023aa1be8"
+    },
+    "regression_final": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_superfield_covariance.py",
+        "tests/test_physical_bridge_silver_fermion_action.py",
+        "tests/test_physical_bridge_silver_static_energy.py",
+        "tests/test_physical_bridge_silver_superfield_response.py",
+        "tests/test_physical_bridge_silver_complementary_boundary.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 111.794888000004,
+      "log_bytes": 111,
+      "log_sha256": "2cab6dccdc6dc21be32fe4dc43b725b03f4988fc1a0390a7d50c46027a864e4f"
+    },
+    "integrity_final": {
+      "command": [
+        "ruby",
+        "-EUTF-8",
+        "-rjson",
+        "-rdigest",
+        "-e",
+        "base=\"reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/\";rows=JSON.parse(File.read(base+\"PRESEAL_REFINEMENT.json\")).fetch(\"science_files\")+JSON.parse(File.read(base+\"INPUTS.json\")).fetch(\"local_inputs\");rows.each{|r|p=r.fetch(\"path\");raise p unless File.size(p)==r.fetch(\"bytes\") && Digest::SHA256.file(p).hexdigest==r.fetch(\"sha256\")};puts JSON.generate({science_files:7,local_inputs:5,all_hashes_match:true})"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.17487099999561906,
+      "log_bytes": 61,
+      "log_sha256": "c60ac69d5715f639eead4eaa8f2c5489707436dfdb24a04b5396e775f58a4cd9"
+    },
+    "identification": {
+      "command": [
+        "python3",
+        "scripts/checks/identification_audit.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.04742600000463426,
+      "log_bytes": 442,
+      "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+    }
+  },
+  "initial_successful_receipts": "FIRST_RECEIPTS.json",
+  "outside_review": false,
+  "full_suite_green": false,
+  "main_bank_acceptance": false,
+  "physical_goal_achieved": false
+}

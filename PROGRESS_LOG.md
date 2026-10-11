@@ -18364,3 +18364,22 @@ selection, normalized values, gravity and ultimate SM/TOE still active.
 Sender-owned review relay OPEN; outside/full-suite/main acceptance not
 claimed. Initial prereg had diff checks, not all-green governance. Other
 seats' negatives remain queued/pinned rather than accepted on authority.
+
+## 2026-10-11 silver whole-superfield covariance joint
+
+Refined pushed2f5cfef7e:42 native/25 separate-method predicates,8 focused
+(77.090716s captured),40 five-packet regression(111.794888s captured) PASS.
+Seven science/five dependency hashes match. Report:
+reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/FINDINGS.md.
+SAME supplied E8 action/strict A/integrated Pi_k response survive external
+off-shell N=1 with canonical nonabelian WZ recovery and actual normal jets.
+All projected slots, structure flux and genuine averaging remain. Explicit
+supplied twist singlet acts. Two verifier blind spots controlled separately;
+first successful logs kept and scope refinement pushed before replay.
+Not a full auxiliary-eliminated multiplet/physical census or parameter-free
+SM/TOE. Next real gauge quotient of scalar Hessian and full mode dictionary,
+normalized interactions/anomalies, then generated selection. All35 choices
+survive. Main/SM/fork science tips unchanged on fetch; no incoming result
+accepted on authority. Sender relay OPEN. Prereg/refinement governance each
+26 PASS/4 inherited FAIL categories; outside/full-suite/main acceptance owed.
+Full goal active/unachieved; no observer/qualia physics inferred.

@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-11 silver whole-superfield covariance
+
+The SAME supplied action and complementary boundary pass exact canonical
+WZ, complete normal-jet Ward and integrated response checks; supplied
+twist singlet acts.42/25 predicates,8 focused and40 five-packet regression
+PASS at pushed2f5cfef7e. First successes preserved after explicit
+exact-log/forbidden-slot scope refinement; seven science/five source pins
+match. Report: reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/FINDINGS.md.
+Next real bosonic gauge quotient and full multiplets/interactions/anomalies.
+Not well-posed full multiplet, generated selection or full SM/TOE.
+Four inherited governance categories, outside/full-suite/main acceptance
+remain; sender-owned relay OPEN. Ultimate goal active and unachieved.
+
 ## 2026-10-11 silver canonical physical fermion joint
 
 Direct SAME-parent expansion gives gaugino D_plus and holomorphic curl

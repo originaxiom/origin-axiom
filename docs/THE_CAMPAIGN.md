@@ -1,5 +1,28 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October11 silver whole-superfield checkpoint:42 native/25 separate-method/
+8 focused and40 five-packet regression PASS at refined pre-run2f5cfef7e.
+Report: reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/FINDINGS.md.
+The SAME supplied twisted E8 parent, strict A and integrated Pi_k Z_n law
+are classically off-shell N=1 covariant with canonical nonlinear WZ
+recovery and actual normal compensator jets. Every projected slot is kept;
+nonzero structure/zero-mean gauge flux survives. The supplied twist's
+scalar parameter has an explicit acting singlet map. This advances the
+prior response argument, not a new absence/first-discovery claim.
+Two verifier blind spots are explicitly controlled: a consistent normal
+jet omission can pass Ward but fail normal WZ; a false delta G/2 can pass
+forbidden slots but fail canonical variation. First successes retained,
+scope refined/resealed before replay. Seven science/five source pins match.
+NEXT bosonic Hessian kernel modulo ALLOWED real gauge, its mixed boundary
+gauge fixing/Fredholm compatibility, complete multiplets and normalized
+interactions/anomalies. Off-shell invariance is NOT well-posed full
+multiplet/Hamiltonian or a new physical census. Scalar derivative laws
+remain; no L or three families selected. Parent/metric/cut/boundary and
+relative reference are supplied. Generated selection, parameters, gravity
+and parameter-free SM/TOE remain ACTIVE/unachieved. Outside/full-suite/main
+acceptance and four inherited governance failure categories remain.
+Earlier dated NEXT entries below retain their epoch.
+
 October11 silver physical-fermion checkpoint:22 native/27 separate-method/
 7 focused and32 four-packet regression PASS at refined pre-run e6e4b6ed2.
 Report: reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/FINDINGS.md.

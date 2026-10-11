@@ -1,5 +1,23 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 silver whole-superfield disposition:
+
+- PB-SILVER-SUPERFIELD-COVARIANCE EXECUTED at conditional authored grade:
+  “The SAME essential and integrated natural superfield law is invariant
+  under external N=1 and allowed small gauge, with canonical WZ and actual
+  normal compensator jets retained.” PROOF sections2-4 under
+  reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/.
+  42 native/25 separate-method/8 focused/40 regression PASS; not a first
+  discovery or full auxiliary-eliminated multiplet certificate.
+- PB-SILVER-PHYSICAL-JOINT OPEN: real bosonic Hessian gauge quotient and
+  mixed boundary gauge fixing, full physical multiplicities/interactions,
+  Hamiltonian, anomaly/inflow and quantum/large-gauge completion.
+  NEXT_TEST.md explicitly distinguishes prospective equations from results.
+- All35 L choices survive. Parent/metric/cut/boundary/reference supplied;
+  no three-family/vacuum selection, parameters, gravity or SM/TOE achieved.
+  Outside/full-suite/main acceptance owed. Older dated NEXT rows retain
+  their pre-execution epoch; other carriers are not excluded by this scope.
+
 October11 silver physical-joint disposition:
 
 - PB-SILVER-CANONICAL-FERMION-MAP EXECUTED at conditional authored grade:
