@@ -1,0 +1,18 @@
+{
+  "old_boundary_reused": false,
+  "bulk_action_changed": false,
+  "new_boundary_gauge_law": "maximal constant compact stabilizer of supplied selective planes",
+  "gauge_partition": [3, 2],
+  "W_plane": [0, 1, 2],
+  "F_color_plane": [0, 1, 2, 4],
+  "F_weak_plane": [0, 1, 2, 3],
+  "charged_dual_law": "actual wedge annihilator",
+  "neutral_plane": "transverse symplectic partner of actual restriction image",
+  "gauge24_plane": "H dy plus trace-orthogonal-to-H dx",
+  "H": [2, 2, 2, -3, -3],
+  "phase": "sufficiently small nonzero real v, not selected",
+  "new_Ah_dimensions": [12, 100, 88],
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "outside_review": false
+}

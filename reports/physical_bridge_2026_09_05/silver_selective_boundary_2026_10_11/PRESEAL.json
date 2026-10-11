@@ -1,0 +1,40 @@
+{
+  "before_first_science_execution": true,
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/DESIGN.md",
+      "bytes": 5845,
+      "sha256": "8e1328c6d517e6231a3c78765248cd28b212b1836a109c578e9ca91078f9b7ef"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/PROOF.md",
+      "bytes": 12452,
+      "sha256": "0b584af9cf725570797c2efd8fad17e578bcb2b07a3c2792212aee7c1198a44a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/MODEL.json",
+      "bytes": 684,
+      "sha256": "4461045c6d69ec3c0a553be13d0047806d25a8f92e356cd5624074be94ccbcb9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/INPUTS.json",
+      "bytes": 5777,
+      "sha256": "c720cb367748f9d5ade3fd78608b46087834de6897cec75196b3e9876763fd92"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/probe.py",
+      "bytes": 11181,
+      "sha256": "45e895bebf6e5cb3f8ad9dbf02d45d70cf255b3fe91e81b60dc7126aaf360c24"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/reference.py",
+      "bytes": 7836,
+      "sha256": "65935d2859110a7d3756c035e6ce081251a7d5554fb41f65aa7478ccd9dd2f78"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_selective_boundary.py",
+      "bytes": 3645,
+      "sha256": "6d7b478d53db7643984c75ce97402903572fb6e30f96bc87ae5b8aa01590a00d"
+    }
+  ]
+}
