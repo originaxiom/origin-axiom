@@ -1,0 +1,2255 @@
+........................................................................ [  1%]
+........................................................................ [  2%]
+........................................................................ [  3%]
+........................................................................ [  4%]
+........................................................................ [  5%]
+........................................................................ [  6%]
+........................................................................ [  7%]
+........................................................................ [  8%]
+........................................................................ [  9%]
+........................................................................ [ 10%]
+........................................................................ [ 11%]
+........................................................................ [ 12%]
+........................................................................ [ 13%]
+........................................................................ [ 14%]
+........................................................................ [ 15%]
+........................................................................ [ 17%]
+........................................................................ [ 18%]
+........................................................................ [ 19%]
+...................................................................F.F.. [ 20%]
+..F.............................FF...................................... [ 21%]
+....ss.............s................s....s........s..................... [ 22%]
+......................................s......s.....s......Fs........s... [ 23%]
+....s.................s......s.......s.............s....s............... [ 24%]
+........................................................................ [ 25%]
+........................................................................ [ 26%]
+........................................................................ [ 27%]
+........................................................................ [ 28%]
+........................................................................ [ 29%]
+........................................................................ [ 30%]
+........................................................................ [ 31%]
+s....................s.................................................. [ 32%]
+........................................................................ [ 34%]
+................................................................s....... [ 35%]
+s......s................................................................ [ 36%]
+........................................................................ [ 37%]
+........................................................................ [ 38%]
+........................................................................ [ 39%]
+........................................................................ [ 40%]
+........................................................................ [ 41%]
+........................................................................ [ 42%]
+........................................................................ [ 43%]
+........................................................................ [ 44%]
+........................................................................ [ 45%]
+.........s...................s..s....s...s...s......................s... [ 46%]
+...................s.................................................... [ 47%]
+........................................................................ [ 48%]
+........................................................................ [ 49%]
+........................................................................ [ 51%]
+........................................................................ [ 52%]
+........................................................................ [ 53%]
+........................................................................ [ 54%]
+........................................................................ [ 55%]
+........................................................................ [ 56%]
+........................................................................ [ 57%]
+........................................................................ [ 58%]
+........................................................................ [ 59%]
+.ss..................s.................................................. [ 60%]
+................s.................s..................................... [ 61%]
+.....................s.....s...s.....s.................................. [ 62%]
+..F..................................................................... [ 63%]
+........................................................................ [ 64%]
+........................................................................ [ 65%]
+........................................................................ [ 66%]
+........................................................................ [ 68%]
+........................................................................ [ 69%]
+........................................................................ [ 70%]
+........................................................................ [ 71%]
+........................................................................ [ 72%]
+........................................................................ [ 73%]
+........................................................................ [ 74%]
+........................................................................ [ 75%]
+........................................................................ [ 76%]
+........................................................................ [ 77%]
+..........................................................F............. [ 78%]
+........................................................................ [ 79%]
+........................................................................ [ 80%]
+........................................................................ [ 81%]
+........................................................................ [ 82%]
+........................................................................ [ 84%]
+........................................................................ [ 85%]
+........................................................................ [ 86%]
+..........F............................................................. [ 87%]
+.............................F..........FFF..............EEEEEEEE....... [ 88%]
+..........................EEEEEEEE...................................... [ 89%]
+.......FF..EEEEEEEEEE..........F................................F....... [ 90%]
+........................................................................ [ 91%]
+............F.F......F..FFFFF........................................... [ 92%]
+.................................................FF........FFFFFF....... [ 93%]
+............F....F...................................................... [ 94%]
+........................................................................ [ 95%]
+........................................................................ [ 96%]
+......F................................................................. [ 97%]
+.....F...........................sssss.................................. [ 98%]
+....................F................................................... [ 99%]
+...                                                                      [100%]
+==================================== ERRORS ====================================
+____ ERROR at setup of test_exact_parent_matrices_act_on_actual_tetrahedron ____
+
+    @pytest.fixture(scope='module')
+    def result():
+>       return m.exact_run()
+               ^^^^^^^^^^^^^
+
+tests/test_physical_bridge_chat1_class_control.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+
+cython/core/triangulation.pyx:308: OSError
+_ ERROR at setup of test_proposed_indices_require_shape_and_subgroup_checks[0-12] _
+
+    @pytest.fixture(scope='module')
+    def result():
+>       return m.exact_run()
+               ^^^^^^^^^^^^^
+
+tests/test_physical_bridge_chat1_class_control.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+
+cython/core/triangulation.pyx:308: OSError
+_ ERROR at setup of test_proposed_indices_require_shape_and_subgroup_checks[1-24] _
+
+    @pytest.fixture(scope='module')
+    def result():
+>       return m.exact_run()
+               ^^^^^^^^^^^^^
+
+tests/test_physical_bridge_chat1_class_control.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+
+cython/core/triangulation.pyx:308: OSError
+_ ERROR at setup of test_proposed_indices_require_shape_and_subgroup_checks[2-36] _
+
+    @pytest.fixture(scope='module')
+    def result():
+>       return m.exact_run()
+               ^^^^^^^^^^^^^
+
+tests/test_physical_bridge_chat1_class_control.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+
+cython/core/triangulation.pyx:308: OSError
+_ ERROR at setup of test_rejector_does_not_turn_integer_volume_into_psl_cover __
+
+    @pytest.fixture(scope='module')
+    def result():
+>       return m.exact_run()
+               ^^^^^^^^^^^^^
+
+tests/test_physical_bridge_chat1_class_control.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+
+cython/core/triangulation.pyx:308: OSError
+_ ERROR at setup of test_exact_grade_and_fundamental_are_different_representations _
+
+    @pytest.fixture(scope='module')
+    def result():
+>       return m.exact_run()
+               ^^^^^^^^^^^^^
+
+tests/test_physical_bridge_chat1_class_control.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+
+cython/core/triangulation.pyx:308: OSError
+______ ERROR at setup of test_bad_graphs_and_peripheral_data_are_rejected ______
+
+    @pytest.fixture(scope='module')
+    def result():
+>       return m.exact_run()
+               ^^^^^^^^^^^^^
+
+tests/test_physical_bridge_chat1_class_control.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+
+cython/core/triangulation.pyx:308: OSError
+_______ ERROR at setup of test_native_outcome_is_derived_from_all_checks _______
+
+    @pytest.fixture(scope='module')
+    def result():
+>       return m.exact_run()
+               ^^^^^^^^^^^^^
+
+tests/test_physical_bridge_chat1_class_control.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+
+cython/core/triangulation.pyx:308: OSError
+__ ERROR at setup of test_lattice_integrality_and_a_corrupt_root_are_checked ___
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_marked_map_verifies_all_products_and_rejects_bad_assignment _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_root_space_actions_are_not_identified_from_orbit_counts _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+__ ERROR at setup of test_commuting_split_reconstructs_literal_action_exactly __
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_six_classes_have_the_same_cycles_but_distinct_internal_actions _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_map_is_equivariant_and_orientation_is_not_silently_fixed _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_family_lift_has_order_three_and_lie_centralizer_control _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+__ ERROR at setup of test_exact_arithmetic_and_input_provenance_are_retained ___
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[F13] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[Q(u)] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[F13] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[Q(u)] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+___ ERROR at setup of test_a_nonzero_intertwiner_is_not_an_isomorphism[F13] ____
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+___ ERROR at setup of test_a_nonzero_intertwiner_is_not_an_isomorphism[Q(u)] ___
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_semisimplification_is_a_different_coefficient_system_with_zero_index[F13] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_semisimplification_is_a_different_coefficient_system_with_zero_index[Q(u)] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_received_irreducibility_filter_misses_different_generator_eigenvalues _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_instrument_recovers_irreducible_and_reducible_semisimple_controls _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError: 
+E         error    libmamba Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER_HOME>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER_HOME>/.local/bin/sage', '-python', '-u', '<CERT_WORKTREE>/reports/phy...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER_HOME>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+=================================== FAILURES ===================================
+_______________________ test_block_logs_pin_the_numbers ________________________
+
+    def test_block_logs_pin_the_numbers():
+>       b1 = (ARC / "b1062_v2_block1.log").read_text()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_b1062_bridge.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<PYTHON_PREFIX>/lib/python3.12/pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<CERT_WORKTREE>/frontier/B1062_bridge_cell/b1062_v2_block1.log')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<CERT_WORKTREE>/frontier/B1062_bridge_cell/b1062_v2_block1.log'
+
+<PYTHON_PREFIX>/lib/python3.12/pathlib.py:1013: FileNotFoundError
+_______________________ test_window_log_pins_the_misses ________________________
+
+    def test_window_log_pins_the_misses():
+>       log = (ARC / "refresh_windows.log").read_text()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_b1063_refresh.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<PYTHON_PREFIX>/lib/python3.12/pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('<CERT_WORKTREE>/frontier/B1063_refresh_verdict/refresh_windows.log')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '<CERT_WORKTREE>/frontier/B1063_refresh_verdict/refresh_windows.log'
+
+<PYTHON_PREFIX>/lib/python3.12/pathlib.py:1013: FileNotFoundError
+_______________ test_eigenvalue_anatomy_per_eigenvector_relation _______________
+
+    def test_eigenvalue_anatomy_per_eigenvector_relation():
+        """L_i = c*M_i^k holds PER EIGENVECTOR on all four Dehn-filling components, c a root of unity."""
+        import numpy as np
+        expect = {"W1": (3, 1), "W2": (-3, 1), "principal": (4, -1), "secondary": (3, 1j)}
+        for comp, (k, c) in expect.items():
+            r = B.eigenvalue_anatomy(comp)
+            assert r["k"] == k
+            assert r["commute_offdiag"] < 1e-6                 # mu and [A,B] commute
+            assert r["per_eigenvector_dev"] < 1e-6             # L_i = c M_i^k per eigenvector
+            # the scalar c, up to complex conjugation: the numerical realization
+            # can land on either of the two conjugate reps (LAPACK-version- and
+            # seed-dependent branch), and c=+i / c=-i are the same Galois-conjugate
+            # arithmetic content. (Audit fix 2026-07-01: a fresh environment
+            # deterministically realized the conjugate, c=-i, for "secondary".)
+>           assert min(abs(r["c"] - c), abs(r["c"] - np.conj(c))) < 1e-3
+E           AssertionError: assert np.float64(1.414213562373094) < 0.001
+E            +  where np.float64(1.414213562373094) = min(1.4142135623730951, np.float64(1.414213562373094))
+E            +    where 1.4142135623730951 = abs(((0.9999999999999993-8.883627207833874e-16j) - 1j))
+E            +    and   np.float64(1.414213562373094) = abs(((0.9999999999999993-8.883627207833874e-16j) - np.complex128(-1j)))
+E            +      where np.complex128(-1j) = <ufunc 'conjugate'>(1j)
+E            +        where <ufunc 'conjugate'> = <module 'numpy' from '<PYTHON_PREFIX>/lib/python3.12/site-packages/numpy/__init__.py'>.conj
+
+tests/test_b106_dehn_filling_anatomy.py:56: AssertionError
+___________________ test_contragredient_sends_c_to_c_inverse ___________________
+
+    def test_contragredient_sends_c_to_c_inverse():
+        for comp in ("W1", "W2", "principal", "secondary"):
+            for seed in (0, 1):
+                r = B.contragredient_c(comp, seed)
+>               assert abs(r["c_times_cdual"] - 1) < 1e-3    # c * c_dual = 1, i.e. c_dual = c^{-1}, every realization
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E               assert 0.529886826082917 < 0.001
+E                +  where 0.529886826082917 = abs(((0.68556579674018-0.4265104691289416j) - 1))
+
+tests/test_b108_theta_to_c.py:29: AssertionError
+______________ test_hinge_theta_does_not_predict_order4_secondary ______________
+
+    def test_hinge_theta_does_not_predict_order4_secondary():
+        h = B.hinge_test()
+        rows = h["rows"]
+        assert all(rows[c]["is_root_of_unity"] for c in rows)
+        # canonical (B106/D4 seed=0) orders: W1/W2 = 1, principal = 2, secondary = 4
+        assert rows["W1"]["order"] == 1 and rows["W2"]["order"] == 1
+        assert rows["principal"]["order"] == 2
+>       assert rows["secondary"]["order"] == 4
+E       assert 1 == 4
+
+tests/test_b108_theta_to_c.py:40: AssertionError
+_________________ test_aggregate_re_derives_from_pinned_grids __________________
+
+    def test_aggregate_re_derives_from_pinned_grids():
+        # re-run the aggregate logic on the COMMITTED grids -> DISJOINT (no grid recompute)
+        r = subprocess.run([sys.executable, str(ARC / "aggregate.py")], cwd=str(ARC),
+                           capture_output=True, text=True, timeout=300)
+>       assert r.returncode == 0, r.stderr[-2000:]
+E       AssertionError: Traceback (most recent call last):
+E           File "<CERT_WORKTREE>/frontier/B1137_regulator_probe/aggregate.py", line 130, in <module>
+E             out = main(real_path, null_path, targets_json)
+E                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           File "<CERT_WORKTREE>/frontier/B1137_regulator_probe/aggregate.py", line 45, in main
+E             real = load_jsonl(real_path)
+E                    ^^^^^^^^^^^^^^^^^^^^^
+E           File "<CERT_WORKTREE>/frontier/B1137_regulator_probe/aggregate.py", line 12, in load_jsonl
+E             with open(path) as f:
+E                  ^^^^^^^^^^
+E         FileNotFoundError: [Errno 2] No such file or directory: 'results/real_grid.jsonl'
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<PYTHON_PREFIX>/bin/python3.12', '<CERT_WORKTREE>/fronti...th) as f:\n         ^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \'results/real_grid.jsonl\'\n').returncode
+
+tests/test_b1137_regulator_probe.py:62: AssertionError
+________________ test_archive_matches_manifest_except_disclosed ________________
+
+    def test_archive_matches_manifest_except_disclosed():
+        man = {}
+        for ln in open(os.path.join(PK, "ORIGINALS_MANIFEST.txt")):
+            if ln.startswith("#") or not ln.strip():
+                continue
+            h, rel = ln.split(None, 1)
+            man[rel.strip()] = h
+        mismatches = []
+        for rel, h in man.items():
+            p = os.path.join(PK, rel)
+            if not os.path.exists(p):
+                mismatches.append(("MISSING", rel))
+                continue
+            got = hashlib.sha256(open(p, "rb").read()).hexdigest()
+            if got != h and rel not in PATCHED:
+                mismatches.append(("HASH", rel))
+>       assert mismatches == [], mismatches
+E       AssertionError: [('MISSING', 'proof_queue/proof_queue/q3_proofs/q3_lemmas.log'), ('MISSING', 'proof_queue/proof_queue/q2_conductor/q2_...e/next_queue/n1_counting/character_run.log'), ('MISSING', 'next_queue/next_queue/n1_counting/jeffrey_extend.log'), ...]
+E       assert [('MISSING', ...nd.log'), ...] == []
+E         
+E         Left contains 9 more items, first extra item: ('MISSING', 'proof_queue/proof_queue/q3_proofs/q3_lemmas.log')
+E         Use -v to get more diff
+
+tests/test_b646_wave2.py:55: AssertionError
+________________________ test_all_twenty_gates_pass_now ________________________
+
+    def test_all_twenty_gates_pass_now():
+        out = subprocess.run([sys.executable, str(_ROOT / "scripts" / "gates" / "gates.py")],
+                             capture_output=True, text=True).stdout
+>       assert out.count("PASS") >= 20 and "FAIL" not in out
+E       AssertionError: assert (25 >= 20 and 'FAIL' not in '  PASS  ide...al review)\n'
+E        +  where 25 = <built-in method count of str object at 0x7fbbf325f000>('PASS')
+E        +    where <built-in method count of str object at 0x7fbbf325f000> = '  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  ap...ce: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 334 merges since last review (DUE — run the decadal review)\n'.count
+E         
+E         'FAIL' is contained here:
+E           cts: ok
+E             FAIL  attribution: ['reports/genesis_root_review_2026_10_11/REMOTE_HEADS.txt (5 vendor tokens, baseline 0)', 'reports/genesis_root_review_2026_10_11/SOURCE_SCOPE.md (5 vendor tokens, baseline 0)', 'reports/goal_reassessment_2026_09_27/ASSESSMENT.md (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor token...
+E         
+E         ...Full output truncated (25 lines hidden), use '-vv' to show)
+
+tests/test_b887_gate_audit.py:45: AssertionError
+________________ test_no_absolute_machine_paths_in_tracked_text ________________
+
+    def test_no_absolute_machine_paths_in_tracked_text(  # R28-9 (the fourth-pass audit)
+    ):
+        """Extends the guard to tracked text artifacts (.md/.txt/.json/.log). Sealed and
+        frozen records are exempt BY NAME (their bytes are hash-pinned); everything else
+        must use repo-relative, ~/, or <seat>/ placeholder forms."""
+        import re
+        import subprocess
+        tracked = subprocess.run(["git", "ls-files"], capture_output=True, text=True,
+                                 cwd=_ROOT).stdout.splitlines()
+        sealed_pat = re.compile(r"PREREG|SEALED|ARTIFACT_HASHES|SEALS\.txt|REDACTION_RECORD"
+                                r"|FORENSIC_SEAL|ORIGINALS_MANIFEST|reviews/S16_|/stageA/")
+        # byte-frozen artifacts: their sha8 is recorded elsewhere in the repo (manifests,
+        # SEAL_LEDGER rows, FINDINGS citations) -- the hash citation outranks path hygiene
+        frozen_by_hash = {
+            "frontier/B632_cubic_route/FAILED_RUN_1.txt",
+            "frontier/B643_flip_symmetry/b643_output.txt",
+            "frontier/B654_listening_synthesis/q_period_field_output.txt",
+            "frontier/B662_successor_campaign/cellC/cellC_output.txt",
+            "frontier/B662_successor_campaign/cellH/cellH_output_run1_controlfail.txt",
+            "frontier/B669_track_h_adjudication/h1_output.txt",
+            "frontier/B705_metallic_hearing_campaign/FINDINGS_C_CC2.md",
+            "frontier/B705_metallic_hearing_campaign/FINDINGS_D_CC2.md",
+            "frontier/B745_revivals_crossverify/output.txt",
+            "frontier/B749_genesis_forks/RESULTS.json",
+            "frontier/B754_p2_spectral/TARGETS.json",
+        }
+        frozen_prefixes = ("frontier/B742_negatives_hunt_p1/reviews/", "legacy/")
+        offenders = []
+        for rel in tracked:
+            if not rel.endswith((".md", ".txt", ".json", ".log")):
+                continue
+            if rel.startswith(frozen_prefixes) or sealed_pat.search(rel):
+                continue
+            if rel in frozen_by_hash:
+                continue
+            if rel == "PROGRESS_LOG.md" or rel.startswith("docs/progress/PROGRESS_"):
+                continue          # append-only records: historical bytes outrank path hygiene
+            if "cc2_packets" in rel:
+                continue                                  # archived packet records: history
+            try:
+                text = (_ROOT / rel).read_text(encoding="utf-8", errors="ignore")
+            except OSError:
+                continue
+            for frag in _FORBIDDEN:
+                if frag in text:
+                    offenders.append(rel)
+                    break
+>       assert not offenders, "absolute paths in tracked text:\n" + "\n".join(offenders[:20])
+E       AssertionError: absolute paths in tracked text:
+E         reports/charged_l2_bridge_2026_09_27/EXECUTION_RECEIPTS.json
+E         reports/charged_l2_bridge_2026_09_27/REGRESSION.log
+E         reports/common_hypercharge_gate_2026_09_27/REGRESSION.log
+E         reports/common_hypercharge_gate_2026_09_27/REGRESSION_RECEIPTS.json
+E         reports/coupled_boundary_gate_2026_09_27/INPUTS.json
+E         reports/finite_irreducible_sl5_2026_09_27/EXECUTION_RECEIPTS.json
+E         reports/finite_irreducible_sl5_2026_09_27/REGRESSION.log
+E         reports/five_point_monomial_gate_2026_09_27/EXECUTION_RECEIPTS.json
+E         reports/five_point_monomial_gate_2026_09_27/REGRESSION.log
+E         reports/global_quotient_admission_2026_09_27/ADDENDUM_RECEIPTS_2026_10_04.json
+E         reports/global_quotient_admission_2026_09_27/ADDENDUM_REGRESSION_2026_10_04.log
+E         reports/global_quotient_admission_2026_09_27/EXECUTION_RECEIPTS.json
+E         reports/global_quotient_admission_2026_09_27/FIRST_FAILURE.json
+E         reports/global_quotient_admission_2026_09_27/FIRST_FAILURE.log
+E         reports/global_quotient_admission_2026_09_27/REGRESSION.log
+E         reports/global_sl5_seed_2026_09_27/RUN_COMBINED_TESTS.txt
+E         reports/global_sl5_seed_2026_09_27/RUN_MERIDIAN_COMBINED.txt
+E         reports/global_sl5_seed_2026_09_27/RUN_TESTS.txt
+E         reports/global_sl5_seed_2026_09_27/RUN_TOPOLOGY.txt
+E         reports/isotropic_parent_core_2026_09_20/RECHECKS.md
+E       assert not ['reports/charged_l2_bridge_2026_09_27/EXECUTION_RECEIPTS.json', 'reports/charged_l2_bridge_2026_09_27/REGRESSION.log'...oupled_boundary_gate_2026_09_27/INPUTS.json', 'reports/finite_irreducible_sl5_2026_09_27/EXECUTION_RECEIPTS.json', ...]
+
+tests/test_no_hardcoded_paths.py:79: AssertionError
+________________ test_all_eight_exact_hyperbolic_zero_branches _________________
+
+    def test_all_eight_exact_hyperbolic_zero_branches():
+        rows = cd.line_modes()
+        assert len(rows) == 8 and {r['basis'] for r in rows} == set(cd.BASIS)
+        for row in rows:
+>           assert row['d'] == {} and row['delta'] == {}
+E           assert ({(0,): -a*(-s...)*tanh(r)**a)} == {}
+E             
+E             Left contains 1 more item:
+E             {(0,): -a*(-sinh(2*r)*tanh(r) + sinh(2*r)/tanh(r) - 2)/(sinh(2*r)*tanh(r)**a)}
+E             Use -v to get more diff)
+
+tests/test_physical_bridge_charged_domain.py:26: AssertionError
+_____________ test_nonzero_green_form_and_distinct_complex_domains _____________
+
+    def test_nonzero_green_form_and_distinct_complex_domains():
+        out = cd.boundary_identities()
+        assert out['green_pair'] == 1
+        assert out['radial_d_cutoff'] == {} and out['scalar_delta_cutoff'] == {}
+        assert out['scalar_d_cutoff'] != {} and out['radial_delta_cutoff'] != {}
+>       assert out['capacity_energy_identity'] == 0
+E       assert -(2*L*R**(2*L)*epsilon**(2*L) - R**(2*L)*Piecewise((Integral(Piecewise((0, (r < 1) & (1/r < 1)), (-8*L**3*gamma(-2*L)/...*L)*epsilon**(2*L)) + r*r**(2*L)/R**(4*L)), True)), (r, R, epsilon)), True)))/((R**L - epsilon**L)*(R**L + epsilon**L)) == 0
+
+tests/test_physical_bridge_charged_domain.py:94: AssertionError
+__________ test_independent_quadrature_and_actual_hyperbolic_measure ___________
+
+    def test_independent_quadrature_and_actual_hyperbolic_measure():
+        rows = cd.numerical_norm_controls()
+        assert len(rows) == 7*8*3
+>       assert max(r['quadrature_relative_error'] for r in rows) < 5e-12
+E       assert 1.9601911205313627e-09 < 5e-12
+E        +  where 1.9601911205313627e-09 = max(<generator object test_independent_quadrature_and_actual_hyperbolic_measure.<locals>.<genexpr> at 0x14fddb9f0>)
+
+tests/test_physical_bridge_charged_domain.py:107: AssertionError
+___________ test_general_zero_and_top_solutions_and_cusp_separation ____________
+
+    def test_general_zero_and_top_solutions_and_cusp_separation():
+>       out = cd.cusp_identities()
+              ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_charged_domain.py:116: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/charged_domain.py:273: in cusp_identities
+    leading_log_density=sp.limit(sp.log(density)/(z**2*sp.log(z)), z, sp.oo))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/series/limits.py:66: in limit
+    return Limit(e, z, z0, dir).doit(deep=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/series/limits.py:384: in doit
+    r = gruntz(e, z, z0, dir)
+        ^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/series/gruntz.py:695: in gruntz
+    r = limitinf(e0, z)
+        ^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/core/cache.py:72: in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/series/gruntz.py:452: in limitinf
+    c0, e0 = mrv_leadterm(e, x)
+             ^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/core/cache.py:72: in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/series/gruntz.py:513: in mrv_leadterm
+    f, logw = rewrite(exps, Omega, x, w)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+e = log(_Dummy_11698/_Dummy_11677**3)/(_Dummy_11677**2*log(_Dummy_11677))
+Omega = [(exp(-2*q*(C*z*exp(2*z) + U + c*exp(2*z))), _Dummy_11698), (exp(z), _Dummy_11677)]
+x = z, wsym = _w
+
+    @debug
+    @timeit
+    def rewrite(e, Omega, x, wsym):
+        """e(x) ... the function
+        Omega ... the mrv set
+        wsym ... the symbol which is going to be used for w
+    
+        Returns the rewritten e in terms of w and log(w). See test_rewrite1()
+        for examples and correct results.
+        """
+    
+        from sympy import AccumBounds
+        if not isinstance(Omega, SubsSet):
+            raise TypeError("Omega should be an instance of SubsSet")
+        if len(Omega) == 0:
+            raise ValueError("Length cannot be 0")
+        # all items in Omega must be exponentials
+        for t in Omega.keys():
+            if not isinstance(t, exp):
+                raise ValueError("Value should be exp")
+        rewrites = Omega.rewrites
+        Omega = list(Omega.items())
+    
+        nodes = build_expression_tree(Omega, rewrites)
+        Omega.sort(key=lambda x: nodes[x[1]].ht(), reverse=True)
+    
+        # make sure we know the sign of each exp() term; after the loop,
+        # g is going to be the "w" - the simplest one in the mrv set
+        for g, _ in Omega:
+            sig = sign(g.exp, x)
+            if sig != 1 and sig != -1 and not sig.has(AccumBounds):
+>               raise NotImplementedError('Result depends on the sign of %s' % sig)
+E               NotImplementedError: Result depends on the sign of -sign(q)
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/series/gruntz.py:611: NotImplementedError
+_ test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp _
+
+witness = {'V': {'a0': 0, 'a1': 1, 'a2': 1, 'checks': {'relator_boundary_zero': True, 'restriction_is_cocycle': True, 'restricti...o': True}, ...}, 'base_pairing_invariant': True, 'candidate_pairs_examined': 2300, 'character': {'a': 4, 'b': 12}, ...}
+
+    def test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp(witness):
+>       assert witness['generated_algebra_dimension'] == 16
+E       assert 9 == 16
+
+tests/test_physical_bridge_finite_twist.py:90: AssertionError
+____ test_non_self_duality_has_an_actual_obstruction_and_dual_character_map ____
+
+witness = {'V': {'a0': 0, 'a1': 1, 'a2': 1, 'checks': {'relator_boundary_zero': True, 'restriction_is_cocycle': True, 'restricti...o': True}, ...}, 'base_pairing_invariant': True, 'candidate_pairs_examined': 2300, 'character': {'a': 4, 'b': 12}, ...}
+
+    def test_non_self_duality_has_an_actual_obstruction_and_dual_character_map(witness):
+>       assert witness['intertwiner_dimension'] == 0
+E       assert 1 == 0
+
+tests/test_physical_bridge_finite_twist.py:99: AssertionError
+______ test_upstream_element_test_can_pass_without_testing_the_inference _______
+
+    def test_upstream_element_test_can_pass_without_testing_the_inference():
+        result = g.analyze()
+        assert result["upstream_B1259_selftest"]["returncode"] == 0
+        assert result["exact_G2_counterexample"]["common_fixed_dimension"] == 0
+        assert not result["actual_B1084_group"]["physical_chiral_index_computed"]
+>       assert json.loads(json.dumps(result, allow_nan=False))["upstream_B1259_selftest"]["commit"] == g.UPSTREAM
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_g2_isolation.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<PYTHON_PREFIX>/lib/python3.12/json/__init__.py:238: in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+<PYTHON_PREFIX>/lib/python3.12/json/encoder.py:200: in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <json.encoder.JSONEncoder object at 0x14ffa6750>
+o = {'actual_B1084_group': {'A1_E6_intersection_dimensions': [1, 1, 1, 1, 1, 1, ...], 'A1_orbit_sizes': [6, 12, 12], 'axis...', 'returncode': 0, 'scope': 'the original selftest samples single-element eigenvalues, not common fixed spaces', ...}}
+_one_shot = True
+
+    def iterencode(self, o, _one_shot=False):
+        """Encode the given object and yield each string
+        representation as available.
+    
+        For example::
+    
+            for chunk in JSONEncoder().iterencode(bigobject):
+                mysocket.write(chunk)
+    
+        """
+        if self.check_circular:
+            markers = {}
+        else:
+            markers = None
+        if self.ensure_ascii:
+            _encoder = encode_basestring_ascii
+        else:
+            _encoder = encode_basestring
+    
+        def floatstr(o, allow_nan=self.allow_nan,
+                _repr=float.__repr__, _inf=INFINITY, _neginf=-INFINITY):
+            # Check for specials.  Note that this type of test is processor
+            # and/or platform-specific, so do tests which don't depend on the
+            # internals.
+    
+            if o != o:
+                text = 'NaN'
+            elif o == _inf:
+                text = 'Infinity'
+            elif o == _neginf:
+                text = '-Infinity'
+            else:
+                return _repr(o)
+    
+            if not allow_nan:
+                raise ValueError(
+                    "Out of range float values are not JSON compliant: " +
+                    repr(o))
+    
+            return text
+    
+    
+        if (_one_shot and c_make_encoder is not None
+                and self.indent is None):
+            _iterencode = c_make_encoder(
+                markers, self.default, _encoder, self.indent,
+                self.key_separator, self.item_separator, self.sort_keys,
+                self.skipkeys, self.allow_nan)
+        else:
+            _iterencode = _make_iterencode(
+                markers, self.default, _encoder, self.indent, floatstr,
+                self.key_separator, self.item_separator, self.sort_keys,
+                self.skipkeys, _one_shot)
+>       return _iterencode(o, 0)
+               ^^^^^^^^^^^^^^^^^
+E       TypeError: keys must be str, int, float, bool or None, not numpy.int64
+
+<PYTHON_PREFIX>/lib/python3.12/json/encoder.py:258: TypeError
+_________ test_actual_twisted_connection_transports_both_spin_factors __________
+
+    def test_actual_twisted_connection_transports_both_spin_factors():
+        r = m.spin_connection_bridge()
+>       assert r['connection_matches'] and r['antihermitian']
+E       assert (False)
+
+tests/test_physical_bridge_global_mass_flux.py:16: AssertionError
+_________ test_full_constraint_J_H_derivatives_and_complex_covariance __________
+
+    def test_full_constraint_J_H_derivatives_and_complex_covariance():
+>       result = h.primitive_checks()
+                 ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_higgs_sector.py:9: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def primitive_checks():
+        geo, b = geometry(), base()
+        z = geo["z"]
+        np.testing.assert_allclose(constraints(z), 0, atol=1e-12)
+        rng = np.random.default_rng(202609057)
+        displaced = z+.02*rng.normal(size=294)
+        direction = rng.normal(size=294)
+        direction /= np.linalg.norm(direction)
+        eps = 1e-4
+        numerical = (constraints(displaced+eps*direction)-constraints(displaced-eps*direction))/(2*eps)
+        np.testing.assert_allclose(numerical, jacobian(displaced)@direction, atol=2e-10)
+        hplus, hminus = [full_tree_hessian(z+sign*eps*direction) for sign in [1, -1]]
+        first, second = derivatives(direction)[0]
+        numeric_first = geo["si"]@((hplus-hminus)/(2*eps))@geo["si"]
+        numeric_second = geo["si"]@((hplus+hminus-2*b["h0"])/eps**2)@geo["si"]
+        np.testing.assert_allclose(numeric_first, first, atol=2e-9)
+>       np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E       AssertionError: 
+E       Not equal to tolerance rtol=1e-07, atol=3e-07
+E       
+E       Mismatched elements: 12 / 86436 (0.0139%)
+E       First 5 mismatches are at indices:
+E        [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E        [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E        [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E        [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E        [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E       Max absolute difference among violations: 0.00000184
+E       Max relative difference among violations: 0.00001882
+E        ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E        DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: AssertionError
+____________ test_parameter_controls_remove_or_restore_light_modes _____________
+
+    def test_parameter_controls_remove_or_restore_light_modes():
+>       result = h.primitive_checks()
+                 ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_higgs_sector.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def primitive_checks():
+        geo, b = geometry(), base()
+        z = geo["z"]
+        np.testing.assert_allclose(constraints(z), 0, atol=1e-12)
+        rng = np.random.default_rng(202609057)
+        displaced = z+.02*rng.normal(size=294)
+        direction = rng.normal(size=294)
+        direction /= np.linalg.norm(direction)
+        eps = 1e-4
+        numerical = (constraints(displaced+eps*direction)-constraints(displaced-eps*direction))/(2*eps)
+        np.testing.assert_allclose(numerical, jacobian(displaced)@direction, atol=2e-10)
+        hplus, hminus = [full_tree_hessian(z+sign*eps*direction) for sign in [1, -1]]
+        first, second = derivatives(direction)[0]
+        numeric_first = geo["si"]@((hplus-hminus)/(2*eps))@geo["si"]
+        numeric_second = geo["si"]@((hplus+hminus-2*b["h0"])/eps**2)@geo["si"]
+        np.testing.assert_allclose(numeric_first, first, atol=2e-9)
+>       np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E       AssertionError: 
+E       Not equal to tolerance rtol=1e-07, atol=3e-07
+E       
+E       Mismatched elements: 12 / 86436 (0.0139%)
+E       First 5 mismatches are at indices:
+E        [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E        [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E        [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E        [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E        [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E       Max absolute difference among violations: 0.00000184
+E       Max relative difference among violations: 0.00001882
+E        ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E        DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E               -0.000149],
+E              [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: AssertionError
+________ test_complete_numerical_geometry_control_and_two_cusp_descent _________
+
+    def test_complete_numerical_geometry_control_and_two_cusp_descent():
+>       g = he.numerical_control()['geometry']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+________ test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters ________
+
+    def test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters():
+>       r = he.numerical_control()['algebra']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:55: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+____ test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers ____
+
+    def test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers():
+>       rows = he.numerical_control()['algebra']['c3_fixed']
+               ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+_______ test_sixfold_and_full_scalar_invariance_force_trivial_character ________
+
+    def test_sixfold_and_full_scalar_invariance_force_trivial_character():
+>       r = he.numerical_control()['algebra']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:74: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+____ test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial ____
+
+    def test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial():
+>       r = he.numerical_control()['algebra']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:81: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+____ test_every_scalar_lift_of_pair_free_character_has_central_obstruction _____
+
+    def test_every_scalar_lift_of_pair_free_character_has_central_obstruction():
+>       r = he.numerical_control()['algebra']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:90: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+_______ test_real_rotated_and_collinear_complex_vectors_are_full_rank[1] _______
+
+sign = 1
+
+    @pytest.mark.parametrize('sign', (1, -1))
+    def test_real_rotated_and_collinear_complex_vectors_are_full_rank(sign):
+        for S in ([sp.Rational(3, 5), sp.Rational(4, 5)]+[0]*8,
+                  [1+sp.I, 2+2*sp.I]+[0]*8):
+            s = sp.Matrix(S)
+            m = mi.mass_matrix(s, sign)
+>           assert mi.clean(m.H*m) == (s.H*s)[0]*sp.eye(16)
+E           assert Matrix([\n[10,...  0,  0, 10]]) == Matrix([\n[(1 ...)*(2 + 2*I)]])
+E             
+E             Use -v to get more diff
+
+tests/test_physical_bridge_mirror_interaction.py:97: AssertionError
+______ test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1] _______
+
+sign = -1
+
+    @pytest.mark.parametrize('sign', (1, -1))
+    def test_real_rotated_and_collinear_complex_vectors_are_full_rank(sign):
+        for S in ([sp.Rational(3, 5), sp.Rational(4, 5)]+[0]*8,
+                  [1+sp.I, 2+2*sp.I]+[0]*8):
+            s = sp.Matrix(S)
+            m = mi.mass_matrix(s, sign)
+>           assert mi.clean(m.H*m) == (s.H*s)[0]*sp.eye(16)
+E           assert Matrix([\n[10,...  0,  0, 10]]) == Matrix([\n[(1 ...)*(2 + 2*I)]])
+E             
+E             Use -v to get more diff
+
+tests/test_physical_bridge_mirror_interaction.py:97: AssertionError
+______ test_original_collinear_complex_example_has_exact_zero_residual[1] ______
+
+sign = 1
+
+    @pytest.mark.parametrize('sign', (1, -1))
+    def test_original_collinear_complex_example_has_exact_zero_residual(sign):
+>       r = control.check(sign)
+            ^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_mirror_interaction_normal_form_control.py:16: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py:21: in check
+    mutant[0, 0] += 1
+    ^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Matrix([
+[    0,      0,     0,      0,      0,     0,      0, 3 + I,        0,       0,        0,       0,       0,  ... 0,      0,      0,     0,      0,     0, -1 - 3*I,       0,        0,       0,       0,        0,       0,        0]])
+args = ((0, 0), 1)
+
+    def __setitem__(self, *args):
+>       raise TypeError("Cannot set values of {}".format(self.__class__))
+E       TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/immutable.py:69: TypeError
+_____ test_original_collinear_complex_example_has_exact_zero_residual[-1] ______
+
+sign = -1
+
+    @pytest.mark.parametrize('sign', (1, -1))
+    def test_original_collinear_complex_example_has_exact_zero_residual(sign):
+>       r = control.check(sign)
+            ^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_mirror_interaction_normal_form_control.py:16: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py:21: in check
+    mutant[0, 0] += 1
+    ^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Matrix([
+[     0,     0,      0,     0,     0,      0,     0, -3 - I,       0,        0,       0,        0,        0, ...  0,     0,     0,      0,     0,      0, 1 + 3*I,        0,       0,        0,        0,       0,        0,       0]])
+args = ((0, 0), 1)
+
+    def __setitem__(self, *args):
+>       raise TypeError("Cannot set values of {}".format(self.__class__))
+E       TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/immutable.py:69: TypeError
+_____ test_symbolic_complex_multiple_of_real_vector_not_only_one_point[1] ______
+
+sign = 1
+
+    @pytest.mark.parametrize('sign', (1, -1))
+    def test_symbolic_complex_multiple_of_real_vector_not_only_one_point(sign):
+>       assert control.check(sign)['symbolic_collinear']
+               ^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_mirror_interaction_normal_form_control.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py:21: in check
+    mutant[0, 0] += 1
+    ^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Matrix([
+[    0,      0,     0,      0,      0,     0,      0, 3 + I,        0,       0,        0,       0,       0,  ... 0,      0,      0,     0,      0,     0, -1 - 3*I,       0,        0,       0,       0,        0,       0,        0]])
+args = ((0, 0), 1)
+
+    def __setitem__(self, *args):
+>       raise TypeError("Cannot set values of {}".format(self.__class__))
+E       TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/immutable.py:69: TypeError
+_____ test_symbolic_complex_multiple_of_real_vector_not_only_one_point[-1] _____
+
+sign = -1
+
+    @pytest.mark.parametrize('sign', (1, -1))
+    def test_symbolic_complex_multiple_of_real_vector_not_only_one_point(sign):
+>       assert control.check(sign)['symbolic_collinear']
+               ^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_mirror_interaction_normal_form_control.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py:21: in check
+    mutant[0, 0] += 1
+    ^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Matrix([
+[     0,     0,      0,     0,     0,      0,     0, -3 - I,       0,        0,       0,        0,        0, ...  0,     0,     0,      0,     0,      0, 1 + 3*I,        0,       0,        0,        0,       0,        0,       0]])
+args = ((0, 0), 1)
+
+    def __setitem__(self, *args):
+>       raise TypeError("Cannot set values of {}".format(self.__class__))
+E       TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/immutable.py:69: TypeError
+______ test_normalization_does_not_make_a_wrong_complex_gap_claim_pass[1] ______
+
+sign = 1
+
+    @pytest.mark.parametrize('sign', (1, -1))
+    def test_normalization_does_not_make_a_wrong_complex_gap_claim_pass(sign):
+>       assert control.check(sign)['noncollinear_counterexample']
+               ^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_mirror_interaction_normal_form_control.py:29: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py:21: in check
+    mutant[0, 0] += 1
+    ^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Matrix([
+[    0,      0,     0,      0,      0,     0,      0, 3 + I,        0,       0,        0,       0,       0,  ... 0,      0,      0,     0,      0,     0, -1 - 3*I,       0,        0,       0,       0,        0,       0,        0]])
+args = ((0, 0), 1)
+
+    def __setitem__(self, *args):
+>       raise TypeError("Cannot set values of {}".format(self.__class__))
+E       TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/immutable.py:69: TypeError
+_____ test_normalization_does_not_make_a_wrong_complex_gap_claim_pass[-1] ______
+
+sign = -1
+
+    @pytest.mark.parametrize('sign', (1, -1))
+    def test_normalization_does_not_make_a_wrong_complex_gap_claim_pass(sign):
+>       assert control.check(sign)['noncollinear_counterexample']
+               ^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_mirror_interaction_normal_form_control.py:29: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py:21: in check
+    mutant[0, 0] += 1
+    ^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Matrix([
+[     0,     0,      0,     0,     0,      0,     0, -3 - I,       0,        0,       0,        0,        0, ...  0,     0,     0,      0,     0,      0, 1 + 3*I,        0,       0,        0,        0,       0,        0,       0]])
+args = ((0, 0), 1)
+
+    def __setitem__(self, *args):
+>       raise TypeError("Cannot set values of {}".format(self.__class__))
+E       TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>
+
+<PYTHON_PREFIX>/lib/python3.12/site-packages/sympy/matrices/immutable.py:69: TypeError
+_____________ test_mirror_only_limit_and_breaking_requires_locking _____________
+
+    def test_mirror_only_limit_and_breaking_requires_locking():
+        g = mq.gaussian_controls()
+        s = g['symbols']
+        a, b = s['B_m'], s['B_m_bar']
+        r, k, P, Pb, ym, ymb = (s[x] for x in ('r', 'kappa', 'Phi', 'Phi_bar', 'y_m', 'y_m_bar'))
+        only = sp.expand(g['numerator'].subs({s['y_p']: 0, s['y_p_bar']: 0}))
+>       assert only == sp.expand(r*ym*ymb*a*b+k*P*ym**2*a**2+k*Pb*ymb**2*b**2)
+E       assert -4*B_m**2*Phi**2*Phi_bar*kappa**3*y_m**2/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_m**2*Phi*kappa*r**2*y_m**2/(-4*Phi*Phi_b...y_m_bar**2/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_m_bar**2*Phi_bar*kappa*r**2*y_m_bar**2/(-4*Phi*Phi_bar*kappa**2 + r**2) == B_m**2*Phi*kappa*y_m**2 + B_m*B_m_bar*r*y_m*y_m_bar + B_m_bar**2*Phi_bar*kappa*y_m_bar**2
+E        +  where B_m**2*Phi*kappa*y_m**2 + B_m*B_m_bar*r*y_m*y_m_bar + B_m_bar**2*Phi_bar*kappa*y_m_bar**2 = <function expand at 0x10fe3a160>(((((((r * y_m) * y_m_bar) * B_m) * B_m_bar) + (((kappa * Phi) * (y_m ** 2)) * (B_m ** 2))) + (((kappa * Phi_bar) * (y_m_bar ** 2)) * (B_m_bar ** 2))))
+E        +    where <function expand at 0x10fe3a160> = sp.expand
+
+tests/test_physical_bridge_mirror_quartic.py:111: AssertionError
+________________ test_normal_form_instrument_can_pass_and_fail _________________
+
+    def test_normal_form_instrument_can_pass_and_fail():
+        x = sp.Symbol('x')
+        assert nf.residual((x*x-1)/(x-1), x+1) == 0
+        assert nf.residual((x*x-1)/(x-1), x+2) == -1
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests/test_physical_bridge_mirror_quartic_normal_form_control.py:26: Failed
+_______________________ test_no_ai_labels_in_living_docs _______________________
+
+    def test_no_ai_labels_in_living_docs():
+        offenders = []
+        for path in _iter_living_docs():
+            m = AI_LABEL_RE.search(path.read_text(encoding="utf-8"))
+            if m:
+                offenders.append(f"{path.relative_to(ROOT)} contains AI label {m.group(0)!r}")
+>       assert offenders == [], offenders
+E       AssertionError: ["docs/OPEN_LEADS.md contains AI label 'Chat1'"]
+E       assert ["docs/OPEN_L...abel 'Chat1'"] == []
+E         
+E         Left contains one more item: "docs/OPEN_LEADS.md contains AI label 'Chat1'"
+E         Use -v to get more diff
+
+tests/test_public_surface_scan.py:121: AssertionError
+_____________________________ test_all_gates_pass ______________________________
+
+    def test_all_gates_pass():
+        results = gates.run_all()
+        failures = {name: detail for name, (ok, detail) in results.items() if not ok}
+>       assert not failures, failures
+E       AssertionError: {'attribution': ['reports/genesis_root_review_2026_10_11/REMOTE_HEADS.txt (5 vendor tokens, baseline 0)', 'reports/gen...l_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md'], ...}
+E       assert not {'attribution': ['reports/genesis_root_review_2026_10_11/REMOTE_HEADS.txt (5 vendor tokens, baseline 0)', 'reports/gen...l_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md'], ...}
+
+tests/test_repo_gates.py:17: AssertionError
+_________________________ test_docwave_anchors_landed __________________________
+
+    def test_docwave_anchors_landed():
+        for rel, anchor in DOCWAVE_ANCHORS:
+>           assert anchor in _read(rel), f"doc-wave anchor lost: {rel} lacks {anchor!r}"
+E           AssertionError: doc-wave anchor lost: docs/THE_FRAMEWORK.md lacks 'Standard-Model-shaped'
+E           assert 'Standard-Model-shaped' in '# THE FRAMEWORK — the whole thing, put together\n\n**LATEST LOCAL RESULT, R38 (September 20): the parent map and the ... rule and the standing consolidation-refresh discipline in\n`docs/THE_CAMPAIGN.md` for the discipline this follows.*\n'
+E            +  where '# THE FRAMEWORK — the whole thing, put together\n\n**LATEST LOCAL RESULT, R38 (September 20): the parent map and the ... rule and the standing consolidation-refresh discipline in\n`docs/THE_CAMPAIGN.md` for the discipline this follows.*\n' = _read('docs/THE_FRAMEWORK.md')
+
+tests/test_stale_absence_lock.py:133: AssertionError
+=============================== warnings summary ===============================
+tests/test_repo_gates.py::test_review_counter_readable
+  <CERT_WORKTREE>/tests/test_repo_gates.py:26: UserWarning: decadal repo review DUE (334 merges since last review)
+    warnings.warn(f"decadal repo review DUE ({n} merges since last review)")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_b1062_bridge.py::test_block_logs_pin_the_numbers - FileNotF...
+FAILED tests/test_b1063_refresh.py::test_window_log_pins_the_misses - FileNot...
+FAILED tests/test_b106_dehn_filling_anatomy.py::test_eigenvalue_anatomy_per_eigenvector_relation
+FAILED tests/test_b108_theta_to_c.py::test_contragredient_sends_c_to_c_inverse
+FAILED tests/test_b108_theta_to_c.py::test_hinge_theta_does_not_predict_order4_secondary
+FAILED tests/test_b1137_regulator_probe.py::test_aggregate_re_derives_from_pinned_grids
+FAILED tests/test_b646_wave2.py::test_archive_matches_manifest_except_disclosed
+FAILED tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now - Assert...
+FAILED tests/test_no_hardcoded_paths.py::test_no_absolute_machine_paths_in_tracked_text
+FAILED tests/test_physical_bridge_charged_domain.py::test_all_eight_exact_hyperbolic_zero_branches
+FAILED tests/test_physical_bridge_charged_domain.py::test_nonzero_green_form_and_distinct_complex_domains
+FAILED tests/test_physical_bridge_charged_domain.py::test_independent_quadrature_and_actual_hyperbolic_measure
+FAILED tests/test_physical_bridge_charged_domain.py::test_general_zero_and_top_solutions_and_cusp_separation
+FAILED tests/test_physical_bridge_finite_twist.py::test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp
+FAILED tests/test_physical_bridge_finite_twist.py::test_non_self_duality_has_an_actual_obstruction_and_dual_character_map
+FAILED tests/test_physical_bridge_g2_isolation.py::test_upstream_element_test_can_pass_without_testing_the_inference
+FAILED tests/test_physical_bridge_global_mass_flux.py::test_actual_twisted_connection_transports_both_spin_factors
+FAILED tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance
+FAILED tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_complete_numerical_geometry_control_and_two_cusp_descent
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_sixfold_and_full_scalar_invariance_force_trivial_character
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_every_scalar_lift_of_pair_free_character_has_central_obstruction
+FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[1]
+FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1]
+FAILED tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_original_collinear_complex_example_has_exact_zero_residual[1]
+FAILED tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_original_collinear_complex_example_has_exact_zero_residual[-1]
+FAILED tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_symbolic_complex_multiple_of_real_vector_not_only_one_point[1]
+FAILED tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_symbolic_complex_multiple_of_real_vector_not_only_one_point[-1]
+FAILED tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_normalization_does_not_make_a_wrong_complex_gap_claim_pass[1]
+FAILED tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_normalization_does_not_make_a_wrong_complex_gap_claim_pass[-1]
+FAILED tests/test_physical_bridge_mirror_quartic.py::test_mirror_only_limit_and_breaking_requires_locking
+FAILED tests/test_physical_bridge_mirror_quartic_normal_form_control.py::test_normal_form_instrument_can_pass_and_fail
+FAILED tests/test_public_surface_scan.py::test_no_ai_labels_in_living_docs - ...
+FAILED tests/test_repo_gates.py::test_all_gates_pass - AssertionError: {'attr...
+FAILED tests/test_stale_absence_lock.py::test_docwave_anchors_landed - Assert...
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_exact_parent_matrices_act_on_actual_tetrahedron
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_proposed_indices_require_shape_and_subgroup_checks[0-12]
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_proposed_indices_require_shape_and_subgroup_checks[1-24]
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_proposed_indices_require_shape_and_subgroup_checks[2-36]
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_rejector_does_not_turn_integer_volume_into_psl_cover
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_exact_grade_and_fundamental_are_different_representations
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_bad_graphs_and_peripheral_data_are_rejected
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_native_outcome_is_derived_from_all_checks
+ERROR tests/test_physical_bridge_family_action.py::test_lattice_integrality_and_a_corrupt_root_are_checked
+ERROR tests/test_physical_bridge_family_action.py::test_marked_map_verifies_all_products_and_rejects_bad_assignment
+ERROR tests/test_physical_bridge_family_action.py::test_root_space_actions_are_not_identified_from_orbit_counts
+ERROR tests/test_physical_bridge_family_action.py::test_commuting_split_reconstructs_literal_action_exactly
+ERROR tests/test_physical_bridge_family_action.py::test_six_classes_have_the_same_cycles_but_distinct_internal_actions
+ERROR tests/test_physical_bridge_family_action.py::test_map_is_equivariant_and_orientation_is_not_silently_fixed
+ERROR tests/test_physical_bridge_family_action.py::test_family_lift_has_order_three_and_lie_centralizer_control
+ERROR tests/test_physical_bridge_family_action.py::test_exact_arithmetic_and_input_provenance_are_retained
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[F13]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[Q(u)]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[F13]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[Q(u)]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_a_nonzero_intertwiner_is_not_an_isomorphism[F13]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_a_nonzero_intertwiner_is_not_an_isomorphism[Q(u)]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_semisimplification_is_a_different_coefficient_system_with_zero_index[F13]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_semisimplification_is_a_different_coefficient_system_with_zero_index[Q(u)]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_received_irreducibility_filter_misses_different_generator_eigenvalues
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_instrument_recovers_irreducible_and_reducible_semisimple_controls
+38 failed, 6663 passed, 59 skipped, 1 warning, 26 errors in 4970.06s (1:22:50)

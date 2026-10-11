@@ -1,0 +1,319 @@
+{
+  "date": "2026-10-11",
+  "tested_commit": "4b047860e78e5434c2ed736bc0fd4635324c1bf6",
+  "baseline_for_pending_comparison": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+  "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest tests/ -q -p no:randomly",
+  "exit_code": 1,
+  "elapsed_seconds": 4970.06,
+  "counts": {
+    "passed": 6663,
+    "failed": 38,
+    "errors": 26,
+    "skipped": 59,
+    "warnings": 1
+  },
+  "scope": "Default complete tests/ run; OA_SLOW was not enabled. Report-local tests outside tests/ are not implicitly covered.",
+  "environment_observed_after_run": {
+    "python": "3.12.1",
+    "pytest": "9.0.3",
+    "sympy": "1.14.0",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "mpmath": "1.3.0",
+    "snappy": "3.3.2"
+  },
+  "raw_log_sha256": "b0d00798424932de3445dbba205eebadbbea1ecf3503d624c06cd0b9fa111fb8",
+  "raw_exit_file_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+  "public_log": "FULL_SUITE_FIRST_PUBLIC.log",
+  "public_log_sha256": "4659026aa70c4858a93f8845f19cc20fd86c2c97a91d8b0d61fe478937462caf",
+  "public_log_transform": "Replace certification worktree prefix with <CERT_WORKTREE>, Python installation prefix with <PYTHON_PREFIX>, remaining user-home prefix with <USER_HOME>, and the attribution gate's five word-bounded labels with <ATTRIBUTION_TOKEN>. Preserve diagnostic values, node identifiers, order and line breaks. Raw log retained privately at its hash.",
+  "final_worktree_changes": {
+    "tracked": "docs/RECURRENCE_ATLAS.md only: generation date and coupling motif count 363 to 364; not adopted.",
+    "untracked_nonignored": 0,
+    "ignored_files": 5,
+    "ignored_scope": "Only .pytest_cache metadata and its lastfailed/nodeids records."
+  },
+  "error_groups": [
+    {
+      "tests": 8,
+      "module": "test_physical_bridge_chat1_class_control.py",
+      "observed_error": "SnapPy could not resolve otet06_0000; no classification of the intended geometric claim follows."
+    },
+    {
+      "tests": 8,
+      "module": "test_physical_bridge_family_action.py",
+      "observed_error": "SymPy Hermite normal form received QQ domain where ZZ is required."
+    },
+    {
+      "tests": 10,
+      "module": "test_physical_bridge_finite_twist_reductivity.py",
+      "observed_error": "Sage's runtime wrapper could not open its mamba process lockfile; mathematical fixture did not complete."
+    }
+  ],
+  "new_audit_documentation_defects": [
+    "Two provenance files included branch-name tokens rejected by the attribution gate. Public lane aliases now preserve the same commit IDs and point to the original Git snapshot.",
+    "Six remote-source citations looked like local paths. Replaced with commit-specific source links after verifying each Git object exists."
+  ],
+  "remaining_failures": "See all 64 failed/error node IDs below and the full public transcript. Do not infer 64 independent mathematical defects from shared fixture errors.",
+  "baseline_test_replay_completed": false,
+  "full_suite_green": false,
+  "physics_claim_retracted": false,
+  "tests": [
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_b1062_bridge.py::test_block_logs_pin_the_numbers"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_b1063_refresh.py::test_window_log_pins_the_misses"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_b106_dehn_filling_anatomy.py::test_eigenvalue_anatomy_per_eigenvector_relation"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_b108_theta_to_c.py::test_contragredient_sends_c_to_c_inverse"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_b108_theta_to_c.py::test_hinge_theta_does_not_predict_order4_secondary"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_b1137_regulator_probe.py::test_aggregate_re_derives_from_pinned_grids"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_b646_wave2.py::test_archive_matches_manifest_except_disclosed"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_no_hardcoded_paths.py::test_no_absolute_machine_paths_in_tracked_text"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_charged_domain.py::test_all_eight_exact_hyperbolic_zero_branches"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_charged_domain.py::test_nonzero_green_form_and_distinct_complex_domains"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_charged_domain.py::test_independent_quadrature_and_actual_hyperbolic_measure"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_charged_domain.py::test_general_zero_and_top_solutions_and_cusp_separation"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_finite_twist.py::test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_finite_twist.py::test_non_self_duality_has_an_actual_obstruction_and_dual_character_map"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_g2_isolation.py::test_upstream_element_test_can_pass_without_testing_the_inference"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_global_mass_flux.py::test_actual_twisted_connection_transports_both_spin_factors"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_holonomy_equivariance.py::test_complete_numerical_geometry_control_and_two_cusp_descent"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_holonomy_equivariance.py::test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_holonomy_equivariance.py::test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_holonomy_equivariance.py::test_sixfold_and_full_scalar_invariance_force_trivial_character"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_holonomy_equivariance.py::test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_holonomy_equivariance.py::test_every_scalar_lift_of_pair_free_character_has_central_obstruction"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[1]"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1]"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_original_collinear_complex_example_has_exact_zero_residual[1]"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_original_collinear_complex_example_has_exact_zero_residual[-1]"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_symbolic_complex_multiple_of_real_vector_not_only_one_point[1]"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_symbolic_complex_multiple_of_real_vector_not_only_one_point[-1]"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_normalization_does_not_make_a_wrong_complex_gap_claim_pass[1]"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_interaction_normal_form_control.py::test_normalization_does_not_make_a_wrong_complex_gap_claim_pass[-1]"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_quartic.py::test_mirror_only_limit_and_breaking_requires_locking"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_physical_bridge_mirror_quartic_normal_form_control.py::test_normal_form_instrument_can_pass_and_fail"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_public_surface_scan.py::test_no_ai_labels_in_living_docs"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_repo_gates.py::test_all_gates_pass"
+    },
+    {
+      "status": "FAILED",
+      "nodeid": "tests/test_stale_absence_lock.py::test_docwave_anchors_landed"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_chat1_class_control.py::test_exact_parent_matrices_act_on_actual_tetrahedron"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_chat1_class_control.py::test_proposed_indices_require_shape_and_subgroup_checks[0-12]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_chat1_class_control.py::test_proposed_indices_require_shape_and_subgroup_checks[1-24]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_chat1_class_control.py::test_proposed_indices_require_shape_and_subgroup_checks[2-36]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_chat1_class_control.py::test_rejector_does_not_turn_integer_volume_into_psl_cover"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_chat1_class_control.py::test_exact_grade_and_fundamental_are_different_representations"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_chat1_class_control.py::test_bad_graphs_and_peripheral_data_are_rejected"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_chat1_class_control.py::test_native_outcome_is_derived_from_all_checks"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_family_action.py::test_lattice_integrality_and_a_corrupt_root_are_checked"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_family_action.py::test_marked_map_verifies_all_products_and_rejects_bad_assignment"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_family_action.py::test_root_space_actions_are_not_identified_from_orbit_counts"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_family_action.py::test_commuting_split_reconstructs_literal_action_exactly"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_family_action.py::test_six_classes_have_the_same_cycles_but_distinct_internal_actions"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_family_action.py::test_map_is_equivariant_and_orientation_is_not_silently_fixed"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_family_action.py::test_family_lift_has_order_three_and_lie_centralizer_control"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_family_action.py::test_exact_arithmetic_and_input_provenance_are_retained"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[F13]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[Q(u)]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[F13]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[Q(u)]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_a_nonzero_intertwiner_is_not_an_isomorphism[F13]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_a_nonzero_intertwiner_is_not_an_isomorphism[Q(u)]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_semisimplification_is_a_different_coefficient_system_with_zero_index[F13]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_semisimplification_is_a_different_coefficient_system_with_zero_index[Q(u)]"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_received_irreducibility_filter_misses_different_generator_eigenvalues"
+    },
+    {
+      "status": "ERROR",
+      "nodeid": "tests/test_physical_bridge_finite_twist_reductivity.py::test_instrument_recovers_irreducible_and_reducible_semisimple_controls"
+    }
+  ]
+}

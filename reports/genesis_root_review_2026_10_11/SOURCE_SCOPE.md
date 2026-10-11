@@ -9,23 +9,25 @@ Read the canonical GENESIS v1.41 core sections on the principle, grammar, state 
 The focused sources read include:
 
 - `WORKING_RULES.md`, including the all-branch prior-work rule, canonical genesis rule, weave/thread distinction and load-bearing verification requirement.
-- `frontier/B1422_the_foundations_reread/FINDINGS.md`.
-- `frontier/B1634_w50_on_main/FINDINGS.md` and its full sealed producer `verification/w50_on_main.py`; the post-seal producer was only partly read. No native replay in this review.
-- `frontier/B1629_does_the_principle_reach_the_weaves_cusp/FINDINGS.md` and `ADDENDUM_2026-10-09_the_audit_lanes_questions.md`, both read in full. The corrected quantifier takes precedence over the older headline.
-- `docs/EARLY_RECORD_INDEX.md`, focused genesis/commutator and existing-law entries, not every referenced historical proof.
+- [B1422 findings at pinned main](https://github.com/originaxiom/origin-axiom/blob/6c148ddd495d133213140995976ff08849793d5d/frontier/B1422_the_foundations_reread/FINDINGS.md).
+- [B1634 findings at pinned main](https://github.com/originaxiom/origin-axiom/blob/6c148ddd495d133213140995976ff08849793d5d/frontier/B1634_w50_on_main/FINDINGS.md) and its full sealed producer `verification/w50_on_main.py`; the post-seal producer was only partly read. No native replay in this review.
+- [B1629 findings at pinned main](https://github.com/originaxiom/origin-axiom/blob/6c148ddd495d133213140995976ff08849793d5d/frontier/B1629_does_the_principle_reach_the_weaves_cusp/FINDINGS.md) and `ADDENDUM_2026-10-09_the_audit_lanes_questions.md`, both read in full. The corrected quantifier takes precedence over the older headline.
+- [Early record index at pinned main](https://github.com/originaxiom/origin-axiom/blob/6c148ddd495d133213140995976ff08849793d5d/docs/EARLY_RECORD_INDEX.md), focused genesis/commutator and existing-law entries, not every referenced historical proof.
 - Commit records distinguishing the B1635 and B1636 preregistrations from B1634's result.
 
 ## Other live branches
 
+Lane labels in this table are public display names. Their exact commit IDs are in `REMOTE_HEADS.txt`; the original literal ref-name snapshot is retained in commit `7687cf76b`. This presentation correction changes no source pin or reading scope.
+
 | Branch | Reading performed in this refresh | Reproduction status |
 |---|---|---|
-| `claude/standard-model-derivation-0qt6ao` | W27 rule in full; W53 rule and the W53 section of the weave note; recent commit history. The entire weave dossier was not reread. | Reported results only; fit and free-number producers not executed here. |
+| `standard-model-lane` | W27 rule in full; W53 rule and the W53 section of the weave note; recent commit history. The entire weave dossier was not reread. | Reported results only; fit and free-number producers not executed here. |
 | `audit/physical-bridge-2026-09-05` | `reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/FINDINGS.md` in full; opening roadmap section and recent history. | Conditional construction read, not independently replayed here. The newest commit is a design. |
 | `chat1/web-seat` | Recent commit history and stated verification scope. | No fresh replay or full report audit. |
-| `claude/project-thread-hctlox` | Recent common-cover construction and cross-check commit records. | No fresh replay or full report audit. Geometric chirality is not adopted as particle chirality. |
-| `claude/kind-hypatia-uk0vv9` | Head and recent history inspected; relationship to newer main noted. | No new result adopted. |
-| `claude/outside-bench` | Head inspected: memo 236 on prior results already present in the paper. | Pointer only, not a new proof input. |
-| `claude/paper-review-verification-kaz3f5` | Head inspected: October 1 scope/correction sweep. | Pointer only, not a new proof input. |
+| `common-cover-lane` | Recent common-cover construction and cross-check commit records. | No fresh replay or full report audit. Geometric chirality is not adopted as particle chirality. |
+| `foundational-review-lane` | Head and recent history inspected; relationship to newer main noted. | No new result adopted. |
+| `outside-bench-lane` | Head inspected: memo 236 on prior results already present in the paper. | Pointer only, not a new proof input. |
+| `paper-verification-lane` | Head inspected: October 1 scope/correction sweep. | Pointer only, not a new proof input. |
 | `sep16-branch` | Head inspected: verdict schema repair. | No physical outcome inferred. |
 | `audit/fork-2026-09-20` | Working status and existing result/draft disposition checked. | Previous charged results preserved; new pure-spinor draft not executed. |
 

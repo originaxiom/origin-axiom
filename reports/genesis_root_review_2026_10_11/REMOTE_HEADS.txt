@@ -2,14 +2,17 @@ Snapshot date: 2026-10-11
 Source: successful fetch of refs/heads/* followed by git ls-remote --heads
 Remote: https://github.com/originaxiom/origin-axiom.git
 Historical tracking refs retained; this list is the ten advertised live heads.
+Public display uses neutral lane labels, not literal remote ref names.
+Every original commit ID is unchanged. The literal snapshot is preserved at
+7687cf76b:reports/genesis_root_review_2026_10_11/REMOTE_HEADS.txt.
 
 8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0 audit/fork-2026-09-20
 9e434bfaa63cff9450959d54384e1a6ad969546a audit/physical-bridge-2026-09-05
 d40c1ab6ec7201c1a0763b6a70a1b265c86aa3ee chat1/web-seat
-6a537f899c9c1882930475144a30ae76aa2966d8 claude/kind-hypatia-uk0vv9
-13d2c5b63ba7a3db9ea880016a43d3c688cee954 claude/outside-bench
-5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd claude/paper-review-verification-kaz3f5
-8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511 claude/project-thread-hctlox
-6877cc87d31941a85f139e2f25e5e13694e22ce6 claude/standard-model-derivation-0qt6ao
+6a537f899c9c1882930475144a30ae76aa2966d8 foundational-review-lane
+13d2c5b63ba7a3db9ea880016a43d3c688cee954 outside-bench-lane
+5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd paper-verification-lane
+8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511 common-cover-lane
+6877cc87d31941a85f139e2f25e5e13694e22ce6 standard-model-lane
 6c148ddd495d133213140995976ff08849793d5d main
 3205984b48d1b98a80042cdc70916878973980f5 sep16-branch
