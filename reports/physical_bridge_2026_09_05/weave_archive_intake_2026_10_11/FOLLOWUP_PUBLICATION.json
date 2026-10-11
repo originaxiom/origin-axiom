@@ -1,0 +1,27 @@
+{
+  "checked_staged_tree": "e0edcc8d31382c6a18c1352aa98a8a2515b5cc27",
+  "scope": "Four-file custody/status addendum after0ae860e44; no science or criteria changed",
+  "command": [
+    "python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 16.21423799986951,
+  "log_bytes": 2384,
+  "log_sha256": "4cee84f694e3369cfabb3517dcbfecb593670c376c1e1d393685cbab603cd61e",
+  "governance_pass": 26,
+  "governance_fail": 4,
+  "inherited_failure_categories": [
+    "attribution",
+    "test-vacuity",
+    "seal-provenance",
+    "relay-debt"
+  ],
+  "full_suite_or_main_acceptance": false,
+  "public_log_bytes_unchanged": true,
+  "final_after_check_metadata_only": [
+    "FOLLOWUP_GOVERNANCE_RUN.log",
+    "FOLLOWUP_PUBLICATION.json"
+  ]
+}

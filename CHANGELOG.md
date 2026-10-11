@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-11 archive restoration followup
+
+Post-checkpoint fetch found archive branchd7e4afeb7: importer/workflow
+and one original audit ZIP, not the complete recovery payload. Source
+read and server ZIP hash matched; no importer/scientific replay, upload
+or write to the other branch. Dated intake addendum preserves that
+distinction. Physical checkpoint0ae860e44 is server-confirmed and clean.
+
 ## 2026-10-11 charged pair lifting and archive intake
 
 146 native/127 separate-method exact controls and65 eight-packet regression

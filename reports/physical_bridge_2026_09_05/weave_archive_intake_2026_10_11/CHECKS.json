@@ -32,5 +32,15 @@
   "full_scientific_archive_review_complete": false,
   "full_chat_transcript_preserved": false,
   "independent_analytic_acceptance": false,
-  "physical_goal_achieved": false
+  "physical_goal_achieved": false,
+  "post_publication_refresh": {
+    "physical_checkpoint": "0ae860e449405c1d15fd82c2fc7ea440d70fa479",
+    "archive_remote_head": "d7e4afeb7d0e13eb786f50893f02fe18b965520c",
+    "source_files_read": ["restore_archive.py", "IMPORT_STATUS.md", "IMPORTER_LOCAL_TESTS.json", ".github/workflows/weave-archive-01-13.yml"],
+    "remote_independent_audit_zip_sha256": "87d8a4101847add9d8629f5fa781d0bc50dcfa8d4ad13f38653183ebd1480fb8",
+    "remote_audit_zip_matches_local_original": true,
+    "complete_recovery_zip_in_exact_branch_tree": false,
+    "importer_replayed_here": false,
+    "archive_upload_or_workflow_trigger_performed_here": false
+  }
 }

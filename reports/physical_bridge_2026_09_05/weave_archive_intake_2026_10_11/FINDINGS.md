@@ -110,3 +110,24 @@ physical selection or shared B/I number claimed.
 
 The archive helps materially with provenance, nonduplication and physical
 controls. It does not complete the parameter-free Standard Model or TOE.
+
+## Postpublication archive refresh
+
+After physical checkpoint0ae860e44 was pushed, the archive branch advanced
+to d7e4afeb7d0e13eb786f50893f02fe18b965520c. Its importer, workflow,
+IMPORT_STATUS and local-test record were read in full. The server now
+contains the original independent-audit ZIP with matching SHA256
+87d8a4101847add9d8629f5fa781d0bc50dcfa8d4ad13f38653183ebd1480fb8.
+The recovery ZIP is not in that exact branch tree; IMPORT_STATUS correctly
+labels the remote archive incomplete. Its six reported importer checks
+are local claims, not replayed here or a remote restoration certificate.
+
+The new importer pins the EXACT recovery ZIP hash already checked above,
+validates every payload/member hash before extraction, checks staged blob
+hashes/modes, refuses conflicting files and never runs scientific code.
+Its upload-triggered workflow is restricted to the archive branch.
+This is a read-only source audit, not an execution or a complete security
+certificate. No ZIP upload, workflow trigger or write to that branch was
+performed by this seat: the owner's question authorized assessing help,
+not restoring another seat's branch. The local supplied ZIP remains
+available for an explicitly authorized archive publication.

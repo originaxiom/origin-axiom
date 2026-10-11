@@ -18519,3 +18519,14 @@ Sender relay OPEN. All inputs priced, no observed target fitted; act/
 register/qualia preserved as upstream duties, not physical identities.
 Outside/full-suite/main acceptance and full parameter-free SM/TOE remain
 unachieved. Publication checks/custody recorded separately.
+
+### Later October11 archive custody refresh
+
+Physical checkpoint0ae860e44 pushed/server-confirmed, clean worktree.
+The final all-head fetch also advanced archive branch to d7e4afeb7.
+Its importer/workflow/status/local-test record read; server independent-
+audit ZIP SHA matches. Exact branch tree does not yet contain the complete
+recovery ZIP, and its status correctly says incomplete. No upload or
+restoration/science execution was authorized or performed by this seat.
+Read-only source review does not certify the reported importer replays.
+Intake addendum records this later state without rewriting the older pin.
