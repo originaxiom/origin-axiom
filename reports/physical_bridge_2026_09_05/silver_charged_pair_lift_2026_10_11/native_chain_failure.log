@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 280, in <module>
+    if __name__=='__main__': print(json.dumps(run(),sort_keys=True,indent=2))
+                                              ^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 214, in run
+    ck(label+'_literal_full_family_chain', zero(mm(fam['F'],fam['B'],q),q)
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 201, in ck
+    def ck(k, v): facts[k] = bool(v); assert facts[k], k
+                                      ^^^^^^^^^^^^^^^^^^
+AssertionError: W_literal_full_family_chain

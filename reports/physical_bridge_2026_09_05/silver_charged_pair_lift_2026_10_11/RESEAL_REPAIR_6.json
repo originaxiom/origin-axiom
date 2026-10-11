@@ -1,0 +1,17 @@
+{
+  "repaired_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+      "bytes": 15002,
+      "sha256": "b4b684aac6e5ff6391319199c266f1c2f588b647a77a9c7c46de49b76cced246"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_6.md",
+      "bytes": 1324,
+      "sha256": "352866b86caa8bd379756e4733f86403db6f500092cbdf89472ab89f04762dff"
+    }
+  ],
+  "prior_seal": "3f3f6fc24c8ea1c6892673b5619e1c9e63c23f0b",
+  "before_replay": true,
+  "scope": "canonical sparse filtering after exact conversion; whole chain criterion retained with stored-zero and plus1 controls"
+}

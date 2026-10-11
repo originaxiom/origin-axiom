@@ -54,7 +54,11 @@ def element(x, variable=None):
 def dm(a, variable=None):
     field=K if variable is None else K.frac_field(variable); data={}
     for i in range(a.rows):
-        row={j:element(a[i,j],variable) for j in range(a.cols) if a[i,j]!=0}
+        row={}
+        for j in range(a.cols):
+            if a[i,j]!=0:
+                value=element(a[i,j],variable)
+                if value:row[j]=value
         if row:data[i]=row
     return DomainMatrix(data,(a.rows,a.cols),field)
 
@@ -271,6 +275,10 @@ def run():
     ck('undeclared_quadratic_field_rejected',rejected)
     toy=s.Matrix([[1,z,0],[2,2*z,0],[0,0,z]])
     ck('fraction_free_rank_agrees_with_direct_small_field_and_rank_jump',rank(toy,z)==dm(toy,z).rank()==2 and rank(toy.subs(z,0))==1)
+    held_zero=s.Add(s.Pow(2+s.sqrt(2),-1,evaluate=False),-1+s.sqrt(2)/2,evaluate=False)
+    raw=DomainMatrix({0:{0:K.zero}},(1,1),K)
+    ck('stored_zero_sparse_predicate_trap_and_nonzero_opposite',not raw.is_zero_matrix and raw.rep[0][0]==K.zero
+       and zero(s.Matrix([[held_zero]])) and not zero(s.Matrix([[held_zero+1]])))
     return dict(facts=facts,predicates_passed=len(facts),blocks=blocks,first_mass_maps=jets_out,
                 common_generation_indices=list(range(-2,3)),conditional_small_v_charged_lift=True,
                 actual_normalized_mass_values=False,global_PDE_solved=False,Higgs_complete=False,
