@@ -1,0 +1,9 @@
+PASS: 3626 exact assertions
+F second witness: abABaabABAbaaBAA length 16
+F third witness: abABaabABAbaBaabABAbaaBAbAABabaBAAbaBaabAABabaBAAbaBAA length 54
+Derived fixtures: 8 in F second; 16 in F third
+Sign H1: G1=0; F2=G2=1 per nontrivial parity (analytic proof).
+Quaternion H1: G2=0; F2=G3=2 per parity (analytic proof).
+Lifted six-dimensional central projector ranks: [3, 3]
+All-word descent and equivariance rely on PROOF.md, not the finite fixtures.
+No surface, Hodge, physical field, end unit or action derived.
