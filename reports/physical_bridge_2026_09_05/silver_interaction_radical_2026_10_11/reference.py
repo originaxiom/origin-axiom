@@ -43,6 +43,14 @@ def flag_zero(label, v):
     return all(not r.tensor('up', e5, col, v) for col in c.tr(c.I(5)))
 
 
+def block_flag_zero(label, v):
+    rows = ([4] if label in ('Q', 'u', 'e') else
+            [j for j, pair in enumerate(r.PAIRS) if 4 in pair]
+            if label in ('d', 'weak') else
+            [j for j, pair in enumerate(r.PAIRS) if 4 not in pair])
+    return all(not v[j] for j in rows)
+
+
 def pieces(kind, f, g, h, ps, t):
     # Preserve both original terms; block flags are diagnostics only.
     xg, xh = r.mv(ps[1]['a'], g), r.mv(ps[2]['a'], h)
@@ -115,11 +123,7 @@ def run():
         ck(label+'_Vandermonde_envelope_certificate', len(pts) == p['r']+1)
         E = columns(c.old.hcat(*(evaluations[t][label] for t in pts)))
         AE, BE = columns(c.mm(p['a'], E)), columns(c.mm(p['b'], E))
-        rows = ([4] if label in ('Q', 'u', 'e') else
-                [j for j, pair in enumerate(r.PAIRS) if 4 in pair]
-                if label in ('d', 'weak') else
-                [j for j, pair in enumerate(r.PAIRS) if 4 not in pair])
-        block_ok = [all(not y for j in rows for y in x[j]) for x in (E, AE, BE)]
+        block_ok = [all(block_flag_zero(label, v) for v in c.tr(x)) for x in (E, AE, BE)]
         ck(label+'_V4_exterior_or_actual_dual_block', all(block_ok))
         summary[label] = {'primitive_dimension': dimension, 'envelope_rank': len(E[0]),
             'envelope_sha256': plane_hash(E), 'meridian_image_rank': len(AE[0]),
@@ -162,13 +166,12 @@ def run():
     e12 = [int(pair == (0, 1)) for pair in r.PAIRS]
     ck('exterior_flag_detector_two_sided', flag_zero('d', e14) and not flag_zero('d', e12))
     ck('dual_flag_detector_two_sided', flag_zero('Hu', e12) and not flag_zero('Hu', e14))
-    ck('V4_vector_detector_two_sided', [1, 0, 0, 0, 0][4] == 0 and e5[4] != 0)
-    outer = [j for j, pair in enumerate(r.PAIRS) if 4 in pair]
-    inner = [j for j, pair in enumerate(r.PAIRS) if 4 not in pair]
-    ck('V4_exterior_detector_two_sided', all(not e12[j] for j in outer)
-       and any(e14[j] for j in outer))
-    ck('V4_dual_annihilator_detector_two_sided', all(not e14[j] for j in inner)
-       and any(e12[j] for j in inner))
+    ck('V4_vector_detector_two_sided', all(block_flag_zero(k, [1, 0, 0, 0, 0])
+       and not block_flag_zero(k, e5) for k in ('Q', 'u', 'e')))
+    ck('V4_exterior_detector_two_sided', all(block_flag_zero(k, e12)
+       and not block_flag_zero(k, e14) for k in ('d', 'weak')))
+    ck('V4_dual_annihilator_detector_two_sided', block_flag_zero('Hu', e14)
+       and not block_flag_zero('Hu', e12))
     aa = [[int(i == j)*(1 if i == 0 else -1 if i == 1 else 0)
            for j in range(5)] for i in range(5)]
     af = c.wedge_derivative(aa)

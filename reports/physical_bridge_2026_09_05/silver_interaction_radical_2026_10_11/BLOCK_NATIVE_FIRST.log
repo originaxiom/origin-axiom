@@ -1,0 +1,404 @@
+{
+  "boundary_changed": false,
+  "boundary_plane_sha256": {
+    "Fcolor": "186dc211d97444596f42454226849ed74c2328d1428113cf870ae01cc612f0e4",
+    "Fweak": "b63be1d5d16b1178a283514b73ddbb59c3ee1e38f85ae16f9665e8269746291a",
+    "Fweakdual": "dba3e98db41284e69eb5095c5bc6b8b21f76ff153b235715c53996dfd9881cb7",
+    "W": "7f0c072841e879bd7aedec978f4e6debe7ac3f55ee4b9b7a6b4e845468f601e7"
+  },
+  "channels": {
+    "down": {
+      "classification": "annihilation",
+      "difference_zero": true,
+      "first_term_zero": true,
+      "second_term_zero": true,
+      "terms": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "lepton": {
+      "classification": "annihilation",
+      "difference_zero": true,
+      "first_term_zero": true,
+      "second_term_zero": true,
+      "terms": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "udd": {
+      "classification": "annihilation",
+      "difference_zero": true,
+      "first_term_zero": true,
+      "second_term_zero": true,
+      "terms": [
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "up": {
+      "classification": "annihilation",
+      "difference_zero": true,
+      "first_term_zero": true,
+      "second_term_zero": true,
+      "terms": [
+        [
+          "0",
+          "0"
+        ]
+      ]
+    }
+  },
+  "e5_boundary_parallel": true,
+  "e5_bulk_parallel": false,
+  "facts": {
+    "Hu_V4_exterior_or_actual_dual_block": true,
+    "Hu_actual_fixed_trace_plane": true,
+    "Hu_closed_trace": true,
+    "Hu_factor_removal_keeps_primitive_span": true,
+    "Hu_polynomial_degree_bound": true,
+    "Hu_reduced_whole_pencil": true,
+    "Hu_whole_pencil_kernel": true,
+    "Q_V4_exterior_or_actual_dual_block": true,
+    "Q_actual_fixed_trace_plane": true,
+    "Q_closed_trace": true,
+    "Q_factor_removal_keeps_primitive_span": true,
+    "Q_polynomial_degree_bound": true,
+    "Q_reduced_whole_pencil": true,
+    "Q_whole_pencil_kernel": true,
+    "V4_dual_annihilator_detector_two_sided": true,
+    "V4_exterior_detector_two_sided": true,
+    "V4_vector_detector_two_sided": true,
+    "actual_logs_nonzero_free_down_recovery": true,
+    "actual_logs_nonzero_free_up_recovery": true,
+    "cusp_split_not_global_e5_split": true,
+    "d_V4_exterior_or_actual_dual_block": true,
+    "d_actual_fixed_trace_plane": true,
+    "d_closed_trace": true,
+    "d_factor_removal_keeps_primitive_span": true,
+    "d_polynomial_degree_bound": true,
+    "d_reduced_whole_pencil": true,
+    "d_whole_pencil_kernel": true,
+    "down_charge_conservation": true,
+    "e5_divisibility_detector_two_sided": true,
+    "e5_dual_annihilator_detector_two_sided": true,
+    "e_V4_exterior_or_actual_dual_block": true,
+    "e_actual_fixed_trace_plane": true,
+    "e_closed_trace": true,
+    "e_factor_removal_keeps_primitive_span": true,
+    "e_polynomial_degree_bound": true,
+    "e_reduced_whole_pencil": true,
+    "e_whole_pencil_kernel": true,
+    "lepton_charge_conservation": true,
+    "literal_boundary_and_bulk_line_not_conflated": true,
+    "proper_global_V4_submodule": true,
+    "synthetic_nonzero_and_phase_omission": true,
+    "u_V4_exterior_or_actual_dual_block": true,
+    "u_actual_fixed_trace_plane": true,
+    "u_closed_trace": true,
+    "u_factor_removal_keeps_primitive_span": true,
+    "u_polynomial_degree_bound": true,
+    "u_reduced_whole_pencil": true,
+    "u_whole_pencil_kernel": true,
+    "udd_charge_conservation": true,
+    "up_charge_conservation": true,
+    "weak_V4_exterior_or_actual_dual_block": true,
+    "weak_actual_fixed_trace_plane": true,
+    "weak_closed_trace": true,
+    "weak_factor_removal_keeps_primitive_span": true,
+    "weak_polynomial_degree_bound": true,
+    "weak_reduced_whole_pencil": true,
+    "weak_whole_pencil_kernel": true
+  },
+  "free_coordinate_controls": {
+    "down": {
+      "indices": [
+        0,
+        4,
+        6
+      ],
+      "value_Qsqrt2": [
+        "-2/5",
+        "0"
+      ]
+    },
+    "up": {
+      "indices": [
+        0,
+        1,
+        1
+      ],
+      "value_Qsqrt2": [
+        "-6/5",
+        "0"
+      ]
+    }
+  },
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "higher_physical_operators_computed": false,
+  "neutral_cubic_computed": false,
+  "outside_review": false,
+  "predicates_passed": 57,
+  "profiles": {
+    "Hu": {
+      "V4_block": true,
+      "e5_flag": false,
+      "envelope_rank": 3,
+      "envelope_sha256": "7153ab66c4be73a116460dff6dce4f05ac6c698304db7653db4acdb0ac383be1",
+      "longitude_V4_block": true,
+      "longitude_e5_flag": false,
+      "longitude_image_rank": 2,
+      "meridian_V4_block": true,
+      "meridian_e5_flag": false,
+      "meridian_image_rank": 1,
+      "primitive_dimension": 1,
+      "primitive_polynomials": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "23328*z**2/5"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "62208/25"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-93312*z/25"
+        ],
+        [
+          "-279936*z/25"
+        ]
+      ]
+    },
+    "Q": {
+      "V4_block": true,
+      "e5_flag": false,
+      "envelope_rank": 3,
+      "envelope_sha256": "23b793db5380ab1177521624ebc4a2a2b62ed753e1170f5718155deec1d2b3c2",
+      "longitude_V4_block": true,
+      "longitude_e5_flag": false,
+      "longitude_image_rank": 2,
+      "meridian_V4_block": true,
+      "meridian_e5_flag": false,
+      "meridian_image_rank": 1,
+      "primitive_dimension": 1,
+      "primitive_polynomials": [
+        [
+          "-48/5"
+        ],
+        [
+          "-2*z**2"
+        ],
+        [
+          "-12*z/5"
+        ],
+        [
+          "-36*z/5"
+        ],
+        [
+          "0"
+        ]
+      ]
+    },
+    "d": {
+      "V4_block": true,
+      "e5_flag": false,
+      "envelope_rank": 3,
+      "envelope_sha256": "84e76eda685637bba3032cb1cab7d552ef4cf68ac18ea56181919b4970e7a24e",
+      "longitude_V4_block": true,
+      "longitude_e5_flag": false,
+      "longitude_image_rank": 2,
+      "meridian_V4_block": true,
+      "meridian_e5_flag": false,
+      "meridian_image_rank": 2,
+      "primitive_dimension": 1,
+      "primitive_polynomials": [
+        [
+          "8064*z/5"
+        ],
+        [
+          "169344/25"
+        ],
+        [
+          "145152/25"
+        ],
+        [
+          "0"
+        ],
+        [
+          "5376*z**2/5"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-16128*z/5"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ]
+    },
+    "e": {
+      "V4_block": true,
+      "e5_flag": false,
+      "envelope_rank": 3,
+      "envelope_sha256": "23b793db5380ab1177521624ebc4a2a2b62ed753e1170f5718155deec1d2b3c2",
+      "longitude_V4_block": true,
+      "longitude_e5_flag": false,
+      "longitude_image_rank": 2,
+      "meridian_V4_block": true,
+      "meridian_e5_flag": false,
+      "meridian_image_rank": 1,
+      "primitive_dimension": 1,
+      "primitive_polynomials": [
+        [
+          "-288/5"
+        ],
+        [
+          "-432*z**2"
+        ],
+        [
+          "-432*z/5"
+        ],
+        [
+          "-1296*z/5"
+        ],
+        [
+          "0"
+        ]
+      ]
+    },
+    "u": {
+      "V4_block": true,
+      "e5_flag": false,
+      "envelope_rank": 3,
+      "envelope_sha256": "23b793db5380ab1177521624ebc4a2a2b62ed753e1170f5718155deec1d2b3c2",
+      "longitude_V4_block": true,
+      "longitude_e5_flag": false,
+      "longitude_image_rank": 2,
+      "meridian_V4_block": true,
+      "meridian_e5_flag": false,
+      "meridian_image_rank": 1,
+      "primitive_dimension": 1,
+      "primitive_polynomials": [
+        [
+          "192/5"
+        ],
+        [
+          "128*z**2"
+        ],
+        [
+          "-192*z/5"
+        ],
+        [
+          "-576*z/5"
+        ],
+        [
+          "0"
+        ]
+      ]
+    },
+    "weak": {
+      "V4_block": true,
+      "e5_flag": false,
+      "envelope_rank": 6,
+      "envelope_sha256": "0e0937047e4640a44607907388f26d7fda8707f90f624d37f6324b1497e3c669",
+      "longitude_V4_block": true,
+      "longitude_e5_flag": false,
+      "longitude_image_rank": 4,
+      "meridian_V4_block": true,
+      "meridian_e5_flag": false,
+      "meridian_image_rank": 4,
+      "primitive_dimension": 2,
+      "primitive_polynomials": [
+        [
+          "11664*z/5",
+          "-5832*z/5"
+        ],
+        [
+          "23328/25",
+          "81648/25"
+        ],
+        [
+          "-46656/25",
+          "69984/25"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "5832*z**2/5"
+        ],
+        [
+          "11664*z**2/5",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "11664*z/5"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    }
+  },
+  "register_loss_causation": false
+}

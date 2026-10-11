@@ -3,6 +3,8 @@ import importlib.util
 from functools import lru_cache
 from pathlib import Path
 
+import pytest
+
 BASE = Path(__file__).resolve().parents[1]/'reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11'
 
 
@@ -81,3 +83,17 @@ def test_verified_four_plane_mechanism_is_not_the_false_e5_line_hypothesis():
         assert result['facts']['proper_global_V4_submodule']
         assert all(t['first_term_zero'] and t['second_term_zero']
                    for t in result['channels'].values())
+
+
+def test_zero_or_always_true_detector_mutations_fail_the_bound_control():
+    for name in ('probe', 'reference'):
+        sp = importlib.util.spec_from_file_location('mutated_radical_'+name, BASE/(name+'.py'))
+        mod = importlib.util.module_from_spec(sp)
+        sp.loader.exec_module(mod)
+        if name == 'probe':
+            original = mod.block_flag_map
+            mod.block_flag_map = lambda label: mod.s.zeros(*original(label).shape)
+        else:
+            mod.block_flag_zero = lambda label, vector: True
+        with pytest.raises(AssertionError, match='V4_vector_detector_two_sided'):
+            mod.run()

@@ -1,0 +1,64 @@
+{
+  "before_control_wiring_replay": true,
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/DESIGN.md",
+      "bytes": 4687,
+      "sha256": "8f2bc81d8e0d1f0f93d75295669db190dd742b3a42f01c65591bafbc449d09b0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/PROOF.md",
+      "bytes": 3904,
+      "sha256": "07acffd7de75ceb915988ff3064e2b270d61cd9a861f9af2a68880274abc8e89"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/probe.py",
+      "bytes": 9474,
+      "sha256": "8f0e0fdd38596764b7bc014ba2bc8ad4d102e1c197cd405bcc487f61ea2b0f79"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/reference.py",
+      "bytes": 9359,
+      "sha256": "cc918ffc21a86ab7d09b6247d048887f149884460d2481f3c5c51de38e3630f0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/INPUTS.json",
+      "bytes": 5184,
+      "sha256": "c6b350feb98b9ed26f304bee178f5693cd21e152131a7bfe2e6dc4a45c75688a"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_interaction_radical.py",
+      "bytes": 4214,
+      "sha256": "68999c1b266e113d5617d10d8305c8b56b897013aabb908e96c19fa19e3de9f1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/BLOCK_REFINEMENT.md",
+      "bytes": 2540,
+      "sha256": "372f43c054b62b1c841c285676c3c26fb4a31f5135487c44ea34facd5cf401c6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/CONTROL_WIRING_REPAIR.md",
+      "bytes": 1138,
+      "sha256": "eba5a0e19bc3a6043e29e7badd820e33fc4aafbf79e71479cbd74d42151dd883"
+    }
+  ],
+  "previous_outputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/BLOCK_NATIVE_FIRST.log",
+      "bytes": 9242,
+      "sha256": "c1423bfe62689d687b3a727f17148fa9c5645b66e04924d64799fe21d69ad9c5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/BLOCK_REFERENCE_FIRST.log",
+      "bytes": 7999,
+      "sha256": "124f8d526c33cd59744aec07c617f073d18ad830b708df1bafaa7a0fd7320380"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/REGRESSION_FIRST.log",
+      "bytes": 111,
+      "sha256": "6ee0c90d04cb4cd4fee27b8c25d2d79236bc7790d459cf84e14d7f7828b107d4"
+    }
+  ],
+  "model_and_criteria_unchanged": true,
+  "detector_mutation_test_added": true
+}
