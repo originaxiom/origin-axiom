@@ -1,0 +1,192 @@
+{
+  "EW_vacuum_derived": false,
+  "boundary_Ah": [
+    12,
+    100,
+    88
+  ],
+  "charged": {
+    "Fcolor": {
+      "E": {
+        "H": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "J": 1,
+        "ell": 4,
+        "rank": 10
+      },
+      "dual": {
+        "H": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "J": -1,
+        "ell": 2,
+        "rank": 9
+      }
+    },
+    "Fweak": {
+      "E": {
+        "H": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "J": 1,
+        "ell": 4,
+        "rank": 9
+      },
+      "dual": {
+        "H": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "J": -1,
+        "ell": 2,
+        "rank": 8
+      }
+    },
+    "W": {
+      "E": {
+        "H": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "J": 1,
+        "ell": 3,
+        "rank": 5
+      },
+      "dual": {
+        "H": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "J": -1,
+        "ell": 1,
+        "rank": 4
+      }
+    }
+  },
+  "chiral_components": 26,
+  "facts": {
+    "Fcolor_n_plus_one_degree_certificate_and_genuine_dual": true,
+    "Fweak_n_plus_one_degree_certificate_and_genuine_dual": true,
+    "W_n_plus_one_degree_certificate_and_genuine_dual": true,
+    "all_gauge_endpoints_by_exact_LES": true,
+    "complete_roster_without_dual_particle_duplication": true,
+    "credited_full_E8_roster_adjoint_cubic_all_monomials_zero": true,
+    "credited_full_E8_roster_different_248_joint_weight_enumeration": true,
+    "credited_full_E8_roster_full_cubic_multinomial_identity": true,
+    "credited_full_E8_roster_wrong_same_dimension_roster_rejected": true,
+    "distinct_equal_dimension_selective_subspaces": true,
+    "every_cubic_monomial_and_mixed_gravity": true,
+    "full_boundary_248_and_100_dimension_roster": true,
+    "full_cross_slot_stabilizer_and_common_plane_control": true,
+    "full_neutral_LES_opposite_and_absolute_roster": true,
+    "gauge24_actual_induced_action_0": true,
+    "gauge24_actual_induced_action_1": true,
+    "gauge24_actual_induced_action_10": true,
+    "gauge24_actual_induced_action_11": true,
+    "gauge24_actual_induced_action_2": true,
+    "gauge24_actual_induced_action_3": true,
+    "gauge24_actual_induced_action_4": true,
+    "gauge24_actual_induced_action_5": true,
+    "gauge24_actual_induced_action_6": true,
+    "gauge24_actual_induced_action_7": true,
+    "gauge24_actual_induced_action_8": true,
+    "gauge24_actual_induced_action_9": true,
+    "gauge24_independent_full_SU5_rejecting_control": true,
+    "gauge24_trace_polarization_isotropic_maximal": true,
+    "independent_End25_trace_cup_and_nonunitary_control": true,
+    "literal_gauge_marker_periods": true,
+    "neutral_transverse_cyclic_partner_with_identity_cross_pair": true,
+    "offblock_phase_degree_certificate_and_dual": true,
+    "supplied_partition_enters_constraints": true,
+    "weak_global_parity_bookkeeping_opposite": true
+  },
+  "full_H": [
+    12,
+    26,
+    26,
+    12
+  ],
+  "full_goal_achieved": false,
+  "gauge": {
+    "central": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "excluded_offblock_at_zero": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "excluded_offblock_small_phase": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "retained_nonabelian": [
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  "generated_selection": false,
+  "generation_count": 1,
+  "global_PDE_solved": false,
+  "maximal_boundary_gauge_dimension": 12,
+  "neutral": {
+    "H": [
+      0,
+      6,
+      6,
+      0
+    ],
+    "absolute_H": [
+      0,
+      6,
+      6,
+      0
+    ],
+    "boundary_H": [
+      6,
+      12,
+      6
+    ],
+    "equal_restriction_H": [
+      0,
+      12,
+      12,
+      0
+    ],
+    "restriction_rank": 6
+  },
+  "neutral_chirals": 7,
+  "new_boundary_supplied": true,
+  "new_native_imported": false,
+  "normalized_overlaps": false,
+  "on_shell_real_dof": 76,
+  "outside_review": false,
+  "predicates_passed": 34,
+  "same_author": true,
+  "tree_Higgs_pair": true,
+  "vector_components": 12
+}

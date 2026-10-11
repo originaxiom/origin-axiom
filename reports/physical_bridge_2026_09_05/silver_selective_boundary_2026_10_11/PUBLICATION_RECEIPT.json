@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-11",
+  "checked_staged_tree": "77f02e4e14f57eb3f1be8873723544b43e24efa4",
+  "temporary_detached_snapshot": "42c73fb7f18e1a6fd18b44f83f2e2035ac699628",
+  "snapshot_clean_after_check": true,
+  "scientific_code_changed": false,
+  "scientific_rerun": false,
+  "custody": {
+    "command": [
+      "ruby",
+      "-EUTF-8",
+      "PUBLICATION_CUSTODY_CHECK.rb",
+      "CHECKED_TREE",
+      "PRIVATE_CAPTURE_DIRECTORY",
+      "JSON_PATH_LIST"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 3.3399789999239147,
+    "log_bytes": 1291,
+    "log_sha256": "eb13dc614a664712a347ede9b500b08c7f457c4a35a9185a00dd40b652d08a22",
+    "command_note": "Original inline checker is published unchanged as a metadata-only script; private paths are not published.",
+    "private_capture_receipt_sha256": "1119d74ceaef47d38911e4ce8c45c10d8577213db99745a9ac3cf9481f41ad7a",
+    "log": "PUBLICATION_CUSTODY_FIRST.json",
+    "passed": 20,
+    "failed": 0
+  },
+  "governance": {
+    "command": [
+      "env",
+      "PYTHONDONTWRITEBYTECODE=1",
+      "LC_ALL=C",
+      "LANG=C",
+      "python3",
+      "scripts/gates/gates.py"
+    ],
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 14.799420999828726,
+    "log_bytes": 2384,
+    "log_sha256": "623e328ed18eb870f51d3f12bc886b72a8971557fe469633953305bfb287c6b9",
+    "command_note": "Portable executable spelling; exact private receipt SHA256 retained.",
+    "private_capture_receipt_sha256": "f3163e15b5e765e5da186bce16624339509c7e187fb968a447ee89ddc6eca51d",
+    "log": "GOVERNANCE_PUBLICATION_FIRST.log",
+    "pass": 26,
+    "fail": 4,
+    "seal_digests": "PASS",
+    "inherited_categories": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "same_first_three_lines": true,
+    "stale_debts": 42,
+    "open_relays": 123,
+    "banked_relays": 44,
+    "review_due": 448
+  },
+  "checked_publication_path_count": 25,
+  "checked_paths_file": "CHECKED_PATHS.json",
+  "late_metadata_additions": [
+    "PUBLICATION_CUSTODY_FIRST.json",
+    "GOVERNANCE_PUBLICATION_FIRST.log",
+    "PUBLICATION_RECEIPT.json",
+    "PUBLICATION_CUSTODY_CHECK.rb",
+    "CHECKED_PATHS.json",
+    "LATE_METADATA_FIRST_FAILURE.json"
+  ],
+  "late_metadata_scope": "These six files record the completed checks and the final metadata diagnostic only and were not part of the checked tree. No science/front/ledger/input/log byte changes follow that tree; final exact byte custody is checked separately before commit. This is not a recursive certificate of the receipt itself.",
+  "final_metadata_first_failure": {
+    "file": "LATE_METADATA_FIRST_FAILURE.json",
+    "exit_code": 1,
+    "scope": "Copied literal stdout of the first terminal metadata-only validator; not a failed scientific producer or the earlier twenty-predicate custody check.",
+    "cause_verified_by_focused_search": "Broad privacy regex matched only the publication checker's own generic path-pattern literal. No concrete user path occurred in the five late files.",
+    "correction": "Reject concrete path components, while allowing a generic prefix pattern; retain byte-equality checks, both raw publication logs and unchanged executed checker. Scientific files and the twenty-five checked publication paths remain unchanged."
+  },
+  "metadata_checker_diagnostics_before_success": [
+    "First orchestration-only head comparator treated the prior receipt object as an array and raised TypeError. Corrected comparator reads its heads array; all ten foreign heads match.",
+    "First orchestration-only front-header reader omitted UTF-8 and its attempted JSON parse raised SyntaxError on Ruby diagnostic output. Explicit ruby -EUTF-8 completed the header read. Neither diagnostic executed scientific producers or changed sealed files."
+  ],
+  "outside_analytic_review": false,
+  "full_suite_green": false,
+  "main_acceptance": false,
+  "receiving_acknowledgment": false,
+  "full_goal_achieved": false
+}

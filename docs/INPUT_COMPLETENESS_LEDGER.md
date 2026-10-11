@@ -1,5 +1,17 @@
 # THE INPUT-COMPLETENESS LEDGER — mandatory checklist for any SM-facing cell
 
+October11 selective-boundary disclosure: SAME supplied full E8 parent,
+metric/compact silver core/reference/twist/embedding and phase; explicitly
+NEW color/weak F planes, W protected plane, neutral transported transverse
+partner, central-H versus trace-orthogonal gauge polarization and maximal
+boundary gauge rule. Both independent reductions to supplied3+2 remain
+priced. NEW Ah=(12,100,88) is not OLD full-k law reset after breaking.
+Seven science files/21 sources pinned before142d3adf3;38/34 predicates
+and34 regression PASS do not select the input, end unit, three families,
+EW vacuum, supersymmetry breaking, parameters/I-23, gravity or observer/
+qualia. No empirical target or fit. Conditional internally nonlocal
+boundary admission, not UV-local mechanism/global PDE/quantum certificate.
+
 October11 Higgs scope disclosure: unchanged supplied parent, embedding,
 positive metric/core/equal gauge line/old boundary and silver F coefficient.
 Two previously banked planes are reconstructed, not fitted to data.

@@ -1,5 +1,23 @@
 # Physical bridge audit — 2026-09-05
 
+October11 selective-boundary checkpoint supersedes earlier unexecuted
+candidate:38 native/34 separate Fraction predicates and34 four-packet
+regression PASS,10 new, unchanged from pushed pre-run142d3adf3.
+Report: reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/FINDINGS.md.
+SAME full248 parent, explicitly NEW cyclic boundary/physical response;
+conditional full H=(12,26,26,12):12 vectors, one10+bar5 family, a weak
+doublet pair and7 neutral chirals,76 real degrees each for free bosons
+and fermions.11 nonabelian adjoints are absent by NEW boundary, not a
+bulk mass or refutation of OLD-domain persistence. Supplied3+2/planes/
+gauge24 polarization/maximality already select SM at v=0; not genesis,
+three generations, electroweak vacuum or observed SM. Outside/global
+PDE/nonlinear/quantum and full-suite/main acceptance remain owed.
+All11 live heads fetched, foreign heads unchanged; genesisb7a51ac70
+operator/end rule remains complementary, not a rank6/rank5 identity.
+NEXT derive/justify the selective response and compute actual global
+interactions/light potential on the SAME model. Full parameter-free
+SM/TOE ACTIVE/unachieved; parameter/gravity/observer duties preserved.
+
 October11 post-Higgs seat synchronization: all11 server heads fetched
 and tracking hashes matched; genesis remainsb7a51ac70. Focused source
 and puncture-output custody review, not a new producer replay. See

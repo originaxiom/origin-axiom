@@ -1,0 +1,19 @@
+{
+  "final_staged_tree": "5f4effea5cd9a6de97ac54b49a2d876ce317238d",
+  "checked_scientific_publication_tree": "77f02e4e14f57eb3f1be8873723544b43e24efa4",
+  "metadata_only": true,
+  "facts": {
+    "all_25_checked_paths_unchanged": true,
+    "only_five_late_metadata_additions": true,
+    "all_30_final_staged_paths_equal_working_bytes": true,
+    "first_custody_json_twenty_true_nonvacuous_checks": true,
+    "published_checker_equals_executed_inline_bytes": true,
+    "both_publication_logs_literal_private_capture_bytes": true,
+    "publication_receipt_log_hashes_and_exits_match": true,
+    "late_metadata_contains_no_private_paths": false
+  },
+  "passed": 7,
+  "failed": {
+    "late_metadata_contains_no_private_paths": false
+  }
+}

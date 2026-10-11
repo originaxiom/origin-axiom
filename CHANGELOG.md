@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-10-11 complete selective same-parent boundary witness
+
+38 native/34 Fraction predicates and34 focused regression PASS,10 new;
+seven science files/21 inputs sealed/pushed142d3adf3 before first science.
+Full NEW g-cyclic boundary and SAME interacting action/physical response
+conditionally give H=(12,26,26,12):one10+bar5 family, weak pair,7 neutral
+chirals,12 vectors.11 old nonabelian chirals removed by NEW domain, not
+bulk mass or universal OLD-domain refutation. Neutral transport/endpoints/
+actual duals/anomaly opposing controls retained. No scientific repair.
+Report: physical bridge/silver_selective_boundary_2026_10_11/FINDINGS.md.
+
+All11 live heads fetched, all foreign heads unchanged; genesisb7a51ac70
+current operator/end-law task is complementary. Sender relay OPEN.
+Next upstream selective-response selection and actual global interactions/
+light potential. Supplied partition/planes/gauge24 polarization/maximality,
+one family/7 neutral SUSY fields, analytic/full-suite/main/quantum/gravity/
+parameters remain. No observed SM, canonical genesis or full TOE claim.
+
 ## 2026-10-11 post-Higgs all-seat synchronization
 
 All11 advertised heads fetched and tracking refs match the server;

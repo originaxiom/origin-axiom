@@ -1,5 +1,24 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 explicitly NEW selective-boundary sublemmas, authored
+CONDITIONAL grade on the SAME supplied compact twisted full E8 parent.
+PROOF1-5/live tests in silver_selective_boundary_2026_10_11;
+38 native/34 Fraction predicates,10 new within34 regression PASS at
+pushed pre-run142d3adf3. Four reference root locks are credited prior.
+Both methods same author; no outside analytic/full-suite/main acceptance,
+new shared bank number, genesis selection or full parameter-free SM/TOE.
+
+| Scoped result | Proof, live safeguard and boundary |
+|---|---|
+| Equal-rank unequal color/weak F planes force maximal constant block gauge stabilizer s(u3 plus u2), dim12 | PROOF1, actual bar5 action and test_actual_selective_stabilizer_has_twelve_gauge_directions. Supplied3+2/maximality; common charged plane restores24 only for charged stabilizer, NOT independent gauge24 polarization |
+| Full g-invariant cyclic L gives strict closure with FULL E8 bracket and SAME projected response | PROOF2-3, invariant trace B(c,[u,w])=B([c,u],w)=0; test_full_248_boundary_lagrangian_and_new_endpoint_dimension. Conditional smooth Hodge/Green/domain proof, not global PDE or numerical full bracket enumeration |
+| Structure/gauge orthogonality survives abelian g centre by perfect commuting STRUCTURE sl5 | PROOF3 trace identity, not false g=[g,g]. Same-parent compact real quotient and Weyl comparison retain supplied analytic hypotheses; local controls do not certify nonlinear evolution |
+| New transverse gauge lines remove11 nonabelian linear chirals, retain12 vectors and one central chiral | PROOF4, actual marked trivial cone plus offblock rank1 phase pencil; test_new_gauge_lines_do_not_drop_endpoints_or_all_abelian_modes. Boundary removal not bulk mass, SM already selected at v=0 |
+| Neutral transverse partner survives actual cell-to-log harmonic transport and gives H=(0,6,6,0) | PROOF2/4, test_actual_neutral_cell_plane_is_transported_to_log_harmonics and test_neutral_trace_partner_recomputed_not_omitted; old equal-image opposite (0,12,12,0). Prior partner/count credited, no omitted neutral block |
+| Complete supplied tree roster is H=(12,26,26,12), one family plus weak pair and7 neutral chirals,76 on-shell real degrees each | PROOF3-4/actual physical R and real-gauge map; test_complete_physical_dof_does_not_count_H2_as_an_extra_particle. Conditional N=1 dictionary, H2 actual dual not new particles, not observed SM/three families |
+| Complete local SM cubic/mixed anomalies vanish with even weak-doublet parity | PROOF4, test_independent_anomaly_polynomials_and_weak_parity_controls; actual missing-state/parity opposites. Not global boundary/large-gauge/inflow or quantum anomaly certificate |
+
+
 October11 Higgs/adjoint scoping sublemmas, authored CONDITIONAL grade.
 Report: reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/.
 50 native/20 Fraction predicates,8 new within24 regression PASS at

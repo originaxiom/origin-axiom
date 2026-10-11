@@ -1,0 +1,197 @@
+{
+  "EW_vacuum_derived": false,
+  "boundary_Ah": [
+    12,
+    100,
+    88
+  ],
+  "charged": {
+    "Fcolor": {
+      "E": {
+        "H": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "J": 1,
+        "ell": 4,
+        "rank": 10
+      },
+      "dual": {
+        "H": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "J": -1,
+        "ell": 2,
+        "rank": 9
+      }
+    },
+    "Fweak": {
+      "E": {
+        "H": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "J": 1,
+        "ell": 4,
+        "rank": 9
+      },
+      "dual": {
+        "H": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "J": -1,
+        "ell": 2,
+        "rank": 8
+      }
+    },
+    "W": {
+      "E": {
+        "H": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "J": 1,
+        "ell": 3,
+        "rank": 5
+      },
+      "dual": {
+        "H": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "J": -1,
+        "ell": 1,
+        "rank": 4
+      }
+    }
+  },
+  "chiral_components": 26,
+  "facts": {
+    "Fcolor_actual_pencil_dual_and_protected_index": true,
+    "Fweak_actual_pencil_dual_and_protected_index": true,
+    "W_actual_pencil_dual_and_protected_index": true,
+    "actual_gauge24_plane_maximal_cyclic_lagrangian": true,
+    "actual_gauge_endpoints_all_degrees": true,
+    "all_SM_Cartan_cubic_and_mixed_anomalies_zero": true,
+    "boson_fermion_dof_and_H2_doublecount_opposite": true,
+    "complete_maximal_gauge_stabilizer_and_common_plane_opposite": true,
+    "complete_physical_chirals_vectors_and_actual_duals": true,
+    "declared_partition_enters_the_actual_action": true,
+    "excluded_offblock_actual_phase_pencil_and_dual": true,
+    "full248_harmonic_boundary_and_new_endpoints": true,
+    "gauge24_line_itself_does_not_restore_full_SU5": true,
+    "gauge24_plane_SM_action_0": true,
+    "gauge24_plane_SM_action_1": true,
+    "gauge24_plane_SM_action_10": true,
+    "gauge24_plane_SM_action_11": true,
+    "gauge24_plane_SM_action_2": true,
+    "gauge24_plane_SM_action_3": true,
+    "gauge24_plane_SM_action_4": true,
+    "gauge24_plane_SM_action_5": true,
+    "gauge24_plane_SM_action_6": true,
+    "gauge24_plane_SM_action_7": true,
+    "gauge24_plane_SM_action_8": true,
+    "gauge24_plane_SM_action_9": true,
+    "gauge_marked_absolute_restriction_is_dy": true,
+    "literal_character_and_cusp_marker_not_parity": true,
+    "neutral_actual_closed_cup_perfect_antisymmetric": true,
+    "neutral_actual_transverse_lagrangian": true,
+    "neutral_cell_to_actual_log_harmonic_transport": true,
+    "neutral_full_LES_and_nontransverse_opposite": true,
+    "neutral_full_invariant_trace_not_euclidean": true,
+    "neutral_literal_all_degree_chain": true,
+    "old_full_k_opposite_still_fails_selective_domain": true,
+    "retained_parallel_kernel_and_nonparallel_opposite": true,
+    "stabilizer_H_and_compact_reality": true,
+    "two_equal_dimension_distinct_actual_F_subspaces": true,
+    "weak_mod2_counts_with_opposing_single_doublet": true
+  },
+  "full_H": [
+    12,
+    26,
+    26,
+    12
+  ],
+  "full_goal_achieved": false,
+  "gauge": {
+    "central": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "excluded_offblock_at_zero": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "excluded_offblock_small_phase": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "retained_nonabelian": [
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  "generated_selection": false,
+  "generation_count": 1,
+  "global_PDE_solved": false,
+  "maximal_boundary_gauge_dimension": 12,
+  "neutral": {
+    "H": [
+      0,
+      6,
+      6,
+      0
+    ],
+    "absolute_H": [
+      0,
+      6,
+      6,
+      0
+    ],
+    "boundary_H": [
+      6,
+      12,
+      6
+    ],
+    "equal_restriction_H": [
+      0,
+      12,
+      12,
+      0
+    ],
+    "restriction_rank": 6,
+    "transported_log_plane_rank": 6
+  },
+  "neutral_chirals": 7,
+  "new_boundary_supplied": true,
+  "normalized_overlaps": false,
+  "old_boundary_reused": false,
+  "on_shell_real_dof": 76,
+  "outside_review": false,
+  "predicates_passed": 38,
+  "same_bulk_parent": true,
+  "tree_Higgs_pair": true,
+  "vector_components": 12
+}

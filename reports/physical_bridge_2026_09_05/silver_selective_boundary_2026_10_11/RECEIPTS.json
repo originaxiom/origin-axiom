@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-11",
+  "pre_execution_commit": "142d3adf3dd89dbfcc05f729170489f4da8e916d",
+  "science_sealed_and_pushed_before_first_execution": true,
+  "source_files": 7,
+  "pinned_inputs": 21,
+  "all_28_hashes_unchanged_at_end_of_scientific_runs": true,
+  "runtime": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "pytest": "9",
+    "environment": [
+      "PYTHONDONTWRITEBYTECODE=1",
+      "LC_ALL=C",
+      "LANG=C"
+    ]
+  },
+  "runs": {
+    "native_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "-u",
+        "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 64.92688699997962,
+      "log_bytes": 4214,
+      "log_sha256": "5c38684389d55b89ac7707eec96b1571527c32be1e3bda0c2ad7b111293423f6",
+      "public_command_note": "Executable spelling is portable; exact private capture receipt hash is retained below. No science-output bytes are sanitized.",
+      "private_capture_receipt_sha256": "cdcad1dabe24b9e6bbb1eb81459b43b7a9c2aa5a05c21a2067b60ea025d4c8ca",
+      "log": "NATIVE_FIRST.log"
+    },
+    "reference_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "-u",
+        "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 17.071070000063628,
+      "log_bytes": 4086,
+      "log_sha256": "f12b81db790ce94baccc2aaba99ed0431f5122fe592b9a2409a69dc6b9cb0a6f",
+      "public_command_note": "Executable spelling is portable; exact private capture receipt hash is retained below. No science-output bytes are sanitized.",
+      "private_capture_receipt_sha256": "3b809d378cd74940ef892474e0f532183cd1840549b8a2fc511a8200b90c6384",
+      "log": "REFERENCE_FIRST.log"
+    },
+    "regression_first": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-p",
+        "no:randomly",
+        "tests/test_physical_bridge_silver_selective_boundary.py",
+        "tests/test_physical_bridge_silver_higgs_scope.py",
+        "tests/test_physical_bridge_silver_framed_coupled_domains.py",
+        "tests/test_physical_bridge_silver_superfield_covariance.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 161.48633500002325,
+      "log_bytes": 111,
+      "log_sha256": "e2ed07b1303d68ba036ef671d037238673cf9bb2ef06376d9abb78c74fb80a21",
+      "public_command_note": "Executable spelling is portable; exact private capture receipt hash is retained below. No science-output bytes are sanitized.",
+      "private_capture_receipt_sha256": "92de8aada2280377e0a23f5ef2abb32c639b8405673663cc4a930d715a9695ca",
+      "log": "REGRESSION_FIRST.log"
+    },
+    "governance_before": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 15.275176000082865,
+      "log_bytes": 2384,
+      "log_sha256": "60b12e5bf59a75b46d77388a0aa57abd58c7366f47abe545ef2ba6fb241cf6cf",
+      "public_command_note": "Executable spelling is portable; exact private capture receipt hash is retained below. No science-output bytes are sanitized.",
+      "private_capture_receipt_sha256": "58abddf6af88c1e5a265219b2c82640c5c1bb0dd5f4e4e2c9d9cc95716b1f517",
+      "log": "GOVERNANCE_BEFORE.log"
+    }
+  },
+  "predicates": {
+    "native": 38,
+    "separate_Fraction": 34,
+    "reference_includes_four_credited_prior_root_controls": true
+  },
+  "regression": {
+    "passed": 34,
+    "new": 10,
+    "files": 4
+  },
+  "science_failures": [],
+  "science_repairs": [],
+  "science_interruptions": [],
+  "governance_before": {
+    "passed": 26,
+    "failed": 4,
+    "inherited_categories": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "seal_digests": "PASS",
+    "main_acceptance": false
+  },
+  "scientific_scope": {
+    "same_bulk_E8_parent": true,
+    "new_boundary_supplied": true,
+    "old_boundary_not_silently_reset": true,
+    "conditional_authored_analytic_proof": true,
+    "global_PDE_solved": false,
+    "full_nonlinear_evolution": false,
+    "quantum_boundary_inflow_certificate": false,
+    "outside_analytic_review": false,
+    "generated_selection": false,
+    "observed_SM": false,
+    "full_goal_achieved": false
+  },
+  "metadata_diagnostics": [
+    "First orchestration-only head comparator treated the prior receipt object as an array and raised TypeError. Corrected comparator reads its heads array; all ten foreign heads match.",
+    "First orchestration-only front-header reader omitted UTF-8 and its attempted JSON parse raised SyntaxError on Ruby diagnostic output. Explicit ruby -EUTF-8 completed the header read. Neither diagnostic executed scientific producers or changed sealed files."
+  ]
+}

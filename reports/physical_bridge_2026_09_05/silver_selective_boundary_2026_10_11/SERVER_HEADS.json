@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-11",
+  "remote": "https://github.com/originaxiom/origin-axiom.git",
+  "live_head_count": 11,
+  "heads": [
+    {
+      "branch_alias": "genesis",
+      "branch_ref_sha256": "dcedf014d257af15e7f8adc29d93c3214a465e56dcced805aafe6471e795acea",
+      "commit": "b7a51ac7094ea5b1e800598238a51890d9345dfc",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "physical",
+      "branch_ref_sha256": "07b9a75a7132325a2661eee0c09f035d1c3d3ef4cf0eec5c3832182935a3d9d5",
+      "commit": "142d3adf3dd89dbfcc05f729170489f4da8e916d",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "web-seat",
+      "branch_ref_sha256": "b0f792c870fe85842ba597812d30be39774a54686cd6b07a652d91c1c40626c1",
+      "commit": "d40c1ab6ec7201c1a0763b6a70a1b265c86aa3ee",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "archive",
+      "branch_ref_sha256": "df2e6aca4b74a76e83ff2ffa63993249a4325473d669bc68ce3a3c525b1aa9de",
+      "commit": "d7e4afeb7d0e13eb786f50893f02fe18b965520c",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "auxiliary-1",
+      "branch_ref_sha256": "480524622571e160607b092c6a6cc796884c27bbae16d70125525053fd3e9380",
+      "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "outside-bench",
+      "branch_ref_sha256": "7a2d12746e886888c26d9f4fa147f3e54308b03631c9eec9d41ee1e75a2b94fd",
+      "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "paper-review",
+      "branch_ref_sha256": "94b12b879a3db37426aebc385aa6a513d8ff46276b7b98a9010021e109cb2d38",
+      "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "common-cover",
+      "branch_ref_sha256": "a219eb21b08db04f05838c8fb29b1f627490235894a1ae7eac5dc3ae51a5eb75",
+      "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "standard-model",
+      "branch_ref_sha256": "0d3190a1ebbfed64f2fa2c473671ca301e9816caec319c4d0ba39e0a9c2c1745",
+      "commit": "6877cc87d31941a85f139e2f25e5e13694e22ce6",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "main",
+      "branch_ref_sha256": "f921bd05e68b03740c450e565e0e6173e546193170b2dd404ddb6f153e9b5bf3",
+      "commit": "6c148ddd495d133213140995976ff08849793d5d",
+      "tracking_ref_matches": true
+    },
+    {
+      "branch_alias": "september16",
+      "branch_ref_sha256": "5f094e3897f71be1de4c339e122f77e3ea407a74fd01fe8e04fc3f1381ead532",
+      "commit": "3205984b48d1b98a80042cdc70916878973980f5",
+      "tracking_ref_matches": true
+    }
+  ],
+  "foreign_heads_unchanged_since_previous_sync": true,
+  "branch_identifier_representation": "Readable operational aliases, exact commit IDs and SHA256 of each complete refs/heads identifier. Raw provider-specific branch names are omitted from this public receipt, not encoded. Aliases are metadata labels, not verification of each branch's science.",
+  "scope": "All advertised server heads fetched; historic tracking refs retained. Operational aliases do not assert branch science. Current genesis source reading is separate from the earlier five-packet reproduction and newer puncture source custody."
+}

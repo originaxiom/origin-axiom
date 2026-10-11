@@ -1,5 +1,32 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 selective-boundary dispositions supersede older candidate notes:
+
+- PB-SILVER-SELECTIVE-BOUNDARY-LIFT EXECUTED at authored conditional
+  admission grade: complete NEW Ah=(12,100,88), SAME interacting parent/
+  projected response/physical tree roster; not genesis-derived boundary.
+- PB-SILVER-SELECTIVE-BOUNDARY-SELECTION OPEN: derive/justify actual
+  polarization and response, BOTH charged and gauge24 reductions;
+  internally nonlocal trace law is not a selected UV-local mechanism.
+- PB-SILVER-LIGHT-HIGGS OPEN: weak pair without colored pair in NEW tree
+  kernel is achieved, but actual electroweak potential/vacuum/mu is not.
+- PB-SILVER-UNWANTED-NEUTRAL/ADJOINT-LIFTING OPEN:11 old nonabelian chirals
+  absent on NEW domain;7 neutral chirals remain. Preserve OLD-domain
+  theorem. Derive masses/SUSY breaking from SAME complete interactions.
+- PB-NORMALIZED-INTERACTIONS/QUANTUM-BOUNDARY OPEN: actual global overlaps,
+  light potential, heavy responses/proton decay, nonlinear evolution,
+  boundary/large-gauge/inflow quantum consistency and outside acceptance.
+- PB-GENESIS-END-OPERATOR-LINK and larger-carrier three families OPEN:
+  explicit field/real structure/operator/domain/base/end maps, no
+  rank6/rank5 identity or nonzero-unit selection by desired index.
+- Parameter/I-23, gravity, observer/qualia, full-suite/main and archive
+  Run13 producer replay retain their separate open duties.
+
+Report silver_selective_boundary_2026_10_11:38/34 exact predicates and
+10 new within34 regression PASS. One family plus pair and7 neutrals is
+NOT observed SM. All11 server heads fetched; genesisb7a51ac70 unchanged.
+No new universal absence/architecture kill; full SM/TOE ACTIVE/unachieved.
+
 October11 Higgs-scope dispositions supersede earlier unexecuted hypothesis:
 
 - PB-SILVER-SM-COMMUTANT-PERSISTENCE EXECUTED at conditional analytic

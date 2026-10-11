@@ -18627,3 +18627,30 @@ Unsealed/unexecuted selective-boundary drafts are explicitly not results;
 no new spectrum, input removal, canonical genesis or shared bank number.
 Ultimate parameter-free SM/TOE ACTIVE/unachieved; earlier certification
 debts, three-family/interactions/selection/quantum/gravity duties remain.
+
+## 2026-10-11 — complete new selective boundary on the same parent
+
+POSITIVE conditional construction, not selected physics. Seven science
+files and21 source blobs sealed/pushed142d3adf3 before first execution.
+38 native/34 separate Fraction predicates and34 four-packet regression
+PASS,10 new; raw first logs preserved, no science failure/repair/interrupt.
+Full NEW g_SM cyclic boundary Ah=(12,100,88), actual duals and transported
+neutral partner, SAME248E8 action/projected superfield response/real gauge/
+physical Weyl and smooth spectral organization. Tree H=(12,26,26,12):
+one10+bar5 family, weak-doublet pair,7 neutral chirals and12 vectors;
+76 real degrees each for bosons/fermions. Local anomaly/parity controls.
+11 nonabelian adjoints removed by NEW domain, not mass or OLD-domain
+refutation. Common charged plane control does not undo independent
+gauge24 polarization. U1 trace proof uses perfect commuting STRUCTURE.
+
+Nine fronts, seven scoped LAW_MAP rows, input/identification/leads and
+fresh sender-owned OPEN relay updated; no shared number/canonical genesis
+change. All11 live heads fetched, foreign heads unchanged; genesisb7a51ac70
+source reread, older reproduction credited, newer puncture not replayed.
+Next upstream boundary/end/operator selection and actual normalized global
+overlaps/light potential/heavy responses;3 families/7 neutrals/EW/SUSY/
+quantum/global analytic/parameter/I-23/gravity/observer duties remain.
+Supplied internally nonlocal boundary is not a UV-local mechanism.
+Full SM/TOE ACTIVE/unachieved; outside/full-suite/main acceptance owed.
+Metadata orchestration TypeError and UTF-8/JSON diagnostic corrected
+without changing scientific bytes; diagnostics retained in receipts.

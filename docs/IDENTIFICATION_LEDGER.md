@@ -1,5 +1,17 @@
 # THE IDENTIFICATION LEDGER
 
+October11 selective-boundary local maps, no shared I-number change:
+actual unequal F planes/dual action -> maximal constant compact g;
+full cyclic L/trace -> complete strict NEW A; SAME action/response/
+real-gauge/physical R comparison -> conditional full tree roster
+H=(12,26,26,12). All endpoints and conjugate profiles retained.
+PROOF1-4/live tests in silver_selective_boundary_2026_10_11;
+38/34 predicates and34 regression PASS at142d3adf3. EARNED only at
+authored CONDITIONAL grade for this supplied construction; outside/
+global analytic review owed. Genesis rank6 -> silver rank5/domain,
+derived boundary/physical dictionary, end unit, observer/qualia and
+full parameter-free SM/TOE NOT identified. Shared9 baseline/I-23 unchanged.
+
 Local October11 Higgs scope: full specified E8 slot actions -> embedded
 SM commutant by actual joint invariance; fixed c omega -> physical scalar/
 Weyl zero profile only under PROOF2's admitted same-model hypotheses.
