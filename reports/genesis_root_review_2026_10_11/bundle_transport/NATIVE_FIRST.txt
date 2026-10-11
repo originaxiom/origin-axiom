@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "exact_checks": 371,
+  "pairs": [
+    {
+      "q": "",
+      "cohomology_signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cohomology_transport": true,
+      "local_transport": true
+    },
+    {
+      "q": "b",
+      "cohomology_signs": [
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "cohomology_transport": true,
+      "local_transport": true
+    },
+    {
+      "q": "A",
+      "cohomology_signs": [
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "cohomology_transport": true,
+      "local_transport": true
+    },
+    {
+      "q": "Ab",
+      "cohomology_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "cohomology_transport": true,
+      "local_transport": true
+    }
+  ],
+  "local_commutant": 2,
+  "graded_local_commutant": 1,
+  "triplet_ranks": [
+    3,
+    3
+  ],
+  "preserves_uniform_end_order": true,
+  "selects_end_order": false,
+  "physical_dictionary_derived": false,
+  "full_analytic_domain_verified": false
+}
