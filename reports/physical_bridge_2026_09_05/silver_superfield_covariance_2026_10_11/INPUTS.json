@@ -1,0 +1,40 @@
+{
+  "local_inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md",
+      "bytes": 9479,
+      "sha256": "da4a73d4559fadbd42d1862b9b4b417b1bba3eb5f4e107cba206456ee37c9eaf"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "bytes": 7485,
+      "sha256": "20d20923474012672616c752b57ecb087817bf0acabc7ca04c4b2b38b1d1792e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "bytes": 8116,
+      "sha256": "78693f6656fff74e67c2d94d4fe84a100b02f5ca7ab50ec8b98ae375ccf449c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "bytes": 10193,
+      "sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/DESIGN.md",
+      "bytes": 5036,
+      "sha256": "e93b0d3ad75e18055951e84e3827a491f7d54c3f1e5ddea58ae94d423e3ed1d9"
+    }
+  ],
+  "prior_commit": "857a4483376a5e32fbe4dd830a8b3736290855ce",
+  "remote_audit_pins": {
+    "main": "6c148ddd495d133213140995976ff08849793d5d",
+    "sm": "6877cc87d31941a85f139e2f25e5e13694e22ce6",
+    "fork": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0"
+  },
+  "primary_read_urls": [
+    "https://arxiv.org/html/1812.06072v2",
+    "https://arxiv.org/html/1102.0285v1"
+  ],
+  "no_fresh_cross_seat_computation_accepted": true
+}

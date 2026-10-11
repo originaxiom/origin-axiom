@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/DESIGN.md",
+      "bytes": 6037,
+      "sha256": "cc3bd3a166bae7bfe3e86d8680fd31e8160d9e7d9cb20cc6df1ac4688cd1997d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md",
+      "bytes": 9224,
+      "sha256": "2d5214a7823d7e53e507188354eeaa6a48522e60dcd838255bcb88f4e0a76862"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/MODEL.json",
+      "bytes": 1570,
+      "sha256": "241921837dc550632e16cb3d6d9928cbd5991bc52c3c568006fdf877b27c750c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/INPUTS.json",
+      "bytes": 1519,
+      "sha256": "ad4f53f124faab964d2b3515876b002910303c853b8af3079c78b57b03111212"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/probe.py",
+      "bytes": 9515,
+      "sha256": "1a4c92ccfbc6e0aa4b07913422e3065d5a5d525d54aecf063e4db9b6c5c48003"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/reference.py",
+      "bytes": 8750,
+      "sha256": "7f064e1c94726b3f2f2787387cc1403eb72ad0f88da3fb9e581df2ee34ad9242"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_superfield_covariance.py",
+      "bytes": 4091,
+      "sha256": "1243f4f340d8c9cde2f76b1bdc945586947f386226dce79f4e1adc94f3f30657"
+    }
+  ],
+  "execution_status": "unexecuted candidate; no accepted output",
+  "prior_commit": "857a4483376a5e32fbe4dd830a8b3736290855ce"
+}

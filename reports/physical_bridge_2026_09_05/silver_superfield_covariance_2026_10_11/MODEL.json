@@ -1,0 +1,21 @@
+{
+  "scope": "same supplied compact twisted E8 parent and strict complementary silver boundary; all retained harmonic L",
+  "supertranslation": "epsilon Q - bar_epsilon barQ, actual odd conjugation",
+  "Q": "left_theta - i sigma bar_theta partial_external",
+  "barQ": "-left_bar + i theta sigma partial_external",
+  "compensator": "2i chiral_shift pure_theta(delta_S V), zero scalar; residual real scalar gauge retained",
+  "normal_compensator": "actual derivative of field-dependent compensator; not frozen",
+  "normal_response": "Pi_k Z_n = 0, integrated parallel-k projection in every superspace slot",
+  "control_algebra": "ordered nonabelian 4x4 matrices with commuting gauge and structure tensor factors, not an E8 recomputation",
+  "algorithms": ["bitmask exterior/direct product response/log variation", "tuple exterior/eta response/inverse exponential and symbolic 16x16 supercharges"],
+  "Ward_blind_control": "consistent omission of both normal compensator appearances can preserve Ward identity but fails actual normal WZ recovery",
+  "conditional_target": "classical off-shell superfield boundary and action covariance under supplied N=1 and small allowed gauge transformations",
+  "external_surface_assumption": "falloff or periodicity for external supersymmetry divergences",
+  "empirical_constants_used": false,
+  "nonauthor_review": false,
+  "full_E8_structure_constants_recomputed": false,
+  "well_posed_full_multiplet": false,
+  "physical_census_recomputed": false,
+  "generated_parent_or_boundary_selection": false,
+  "full_SM_TOE_achieved": false
+}
