@@ -832,3 +832,18 @@ fixed-sector energy and end norms; no unit selection or physical index claim.
 | `reports/genesis_root_review_2026_10_11/cusp_connection/PREREGISTRATION.md` | `18367cf77c92b2f246f0a0f870aedd0822a910ee2903c388a9aa59f3bf97ecfb` |
 | `reports/genesis_root_review_2026_10_11/cusp_connection/PROOF.md` | `676dea8c0ab74562c251134f294ec2294f41aa86aadd03beedff02161adf8908` |
 | `reports/genesis_root_review_2026_10_11/cusp_connection/verify.py` | `68ecd85af0f11bdac2f842960c4f149ea0f541c161158a43f7039e8cca800546` |
+
+### Puncture symmetry before first execution
+
+Path-local conditional algebra and action-extension proof, 2026-10-11.
+The two given moves plus one specified unitary sign are tested against
+the scalar-phase control; the doubled Green model retains its explicit
+hypotheses. No physical dictionary, cusp-unit selection or new B allocation.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/puncture_symmetry/PREREGISTRATION.md` | `7d0924583b8e4b109aa58f2b20d963655eb2c7effc29b7c9c99353513405499f` |
+| `reports/genesis_root_review_2026_10_11/puncture_symmetry/PROOF.md` | `eb5cb00e092be2569a33f6938598fd441c08fce902ccd2e6c99eab7afac21aa6` |
+| `reports/genesis_root_review_2026_10_11/puncture_symmetry/verify.py` | `7867a331a155ac88ef438a1fc9149e2dc975640da276031040ef4f781071f54f` |
+| `reports/genesis_root_review_2026_10_11/puncture_symmetry/SOURCE_SCOPE.md` | `1bd844a1034358db959459fef6d32129fddc1253ab27d10fddf775b3476eb306` |
+| `reports/genesis_root_review_2026_10_11/puncture_symmetry/LAW_MAP_PROPOSALS.md` | `6e1eac4c71dcab51da442ea5c096509a77d5e03321935c666b6763b0de6e133e` |
