@@ -1,5 +1,35 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 same-action framed phase disposition:
+
+- PB-SILVER-SAME-ACTION-SM-PHASE EXECUTED at conditional authored grade:
+  “The preceding silver chiral domain can admit an SM gauge phase within
+  the SAME supplied action and fixed boundary.” Closing scope in
+  reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/FINDINGS.md;
+  61/46 local controls,8 new within47 regression PASS. Not selected Lg/H/v
+  or a three-family/full physical Standard Model; outside acceptance owed.
+- PB-SILVER-PHYSICAL-CUBIC NORMALIZATION/DOMAIN MAP EXECUTED:
+  canonical i sqrt(2/kappa) bulk trilinear/phased Hessian and retained
+  Stokes descent agree twice. Actual global charged overlaps and their
+  physical values remain OPEN; no old unrelated Yukawa transported.
+- PB-SILVER-CHARGED-PAIR-LIFTING OPEN: actual induced omega cup on the
+  SAME analytic fixed trace complex, all rank-jump loci and conjugates;
+  finite-cochain comparison must act, not be inferred from its name.
+- PB-SILVER-UNWANTED-NEUTRAL/ADJOINT-LIFTING OPEN: this commuting Cartan
+  branch leaves6..12 neutral and12 unbroken adjoint chiral profiles.
+  Other admitted backgrounds/interactions are not ruled out; higher
+  moduli obstruction alone is not a computed particle mass.
+- PB-SILVER-FRAMING/BOUNDARY/VACUUM-SELECTION OPEN: fixed OLD A0 rejects
+  nonconstant periodic parallel broken sections at central holonomy.
+  Derive this physical registration/boundary law or explicitly test
+  a different one; do not import R93's closed-space enhancement.
+- PB-PHYSICAL-THREE-FAMILIES/LARGER-CARRIER TRANSFER OPEN: preserve cover
+  positives and exceptional classes; current +/-2 bound is THIS family.
+- PB-OUTSIDE-ANALYTIC/QUANTUM/INFLOW OPEN: review PROOF2-6 and actual
+  time-dependent constraints, then quantum consistency. Parent/metric/
+  reference, generated act/register/qualia map, all parameters and gravity
+  remain foundational duties. No full-suite/main acceptance asserted.
+
 October11 same-action linear massless disposition:
 
 - PB-SILVER-LINEAR-MULTIPLET-DICTIONARY EXECUTED at conditional authored

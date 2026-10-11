@@ -1,0 +1,208 @@
+{
+  "verified_science_commit": "11b80603a14c83486552aaa7c04d39b2e9fac07c",
+  "latest_science_and_repair_note": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/DESIGN.md",
+      "bytes": 5672,
+      "sha256": "65ff5ad31d80afe8743c03ced5f4bfa439049f0e91239f8306f27edb787c3e1e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "bytes": 13239,
+      "sha256": "6f3eee6acfed04e98f4df0d4fe98aff6d717be416a3aee05fb350d571934b8fa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/MODEL.json",
+      "bytes": 1018,
+      "sha256": "d37f2a308a9257805a64cdb04b4e222002c83aa6858eec3357d9e2376d99eb6b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/INPUTS.json",
+      "bytes": 4726,
+      "sha256": "2b3e608c11402d59a91c7ffa60a2ad5d1af386b99af6a7f464b502cc0963b2f9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/probe.py",
+      "bytes": 10096,
+      "sha256": "cf8c3f413c20159c3add9361b38d1344311e0f049f2922b72b441900699d628a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/reference.py",
+      "bytes": 7523,
+      "sha256": "9e122011fa922988063ae0ff206a8b0c3b275307674491e50ede2ac2471db1cc"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_adjoint_phase.py",
+      "bytes": 4310,
+      "sha256": "682e5db4afa8eca79a5e69616d7380220a47b53134bd20f3244714f9460e0613"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/REPAIR.md",
+      "bytes": 2047,
+      "sha256": "f7c6d5f383735031efa3fdd1eb42c8695c032ac218d0f3bf8d1ad6598e974025"
+    }
+  ],
+  "input_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py",
+      "bytes": 10325,
+      "sha256": "908ac5f016cbbcdceb7b06061bba45dafef12b500faf234dade145136a6b9553"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py",
+      "bytes": 11472,
+      "sha256": "1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/probe.py",
+      "bytes": 10808,
+      "sha256": "6cb7faaabb09b3726374e0d9b8c19b0ff2aa3b6a102bec211044502dcba6ea64"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF.md",
+      "bytes": 9305,
+      "sha256": "d3eb15c5bb5e4d90c319e662eb65f906c10decf45772953ccdcb632b48de0f5b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/probe.py",
+      "bytes": 9819,
+      "sha256": "86bf1b2389909589d91570c765c582f096aa79dec288e91b104bc0ab77cbb2d7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "bytes": 10193,
+      "sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/DESIGN.md",
+      "bytes": 5107,
+      "sha256": "accef82ab5290e5e3d233460ab96bfce88b8f8512d3db1f206528da4c6ad36d6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "bytes": 7485,
+      "sha256": "20d20923474012672616c752b57ecb087817bf0acabc7ca04c4b2b38b1d1792e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md",
+      "bytes": 9479,
+      "sha256": "da4a73d4559fadbd42d1862b9b4b417b1bba3eb5f4e107cba206456ee37c9eaf"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md",
+      "bytes": 9369,
+      "sha256": "29eeca6a93d85c5f2f8119743976c3b7bdc18b528913a3cdf3cafb579f545c44"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "bytes": 8116,
+      "sha256": "78693f6656fff74e67c2d94d4fe84a100b02f5ca7ab50ec8b98ae375ccf449c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md",
+      "bytes": 9777,
+      "sha256": "0666cc040c486f69d7b8cda4e581d7da31a265d2dd9a7cc4d18ae5beb30837d8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "bytes": 7852,
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/coefficient_parent.py",
+      "bytes": 15505,
+      "sha256": "0973a55c71fdaf65e0bb09fd2cf1caac54e4e832c85937556068f0e0609786fe"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_PROOF.md",
+      "bytes": 11331,
+      "sha256": "936f3110797e8a27e9522c2d29f601e32215bf5a3c1bd1a37b34614fe1de64c9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md",
+      "bytes": 10671,
+      "sha256": "8557539bf0e764ea4350204403e26791473261f20f0b63b176618aa87b5be398"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/probe.py",
+      "bytes": 16854,
+      "sha256": "258be9208655b933cc737428ecdea8e365fee838870d119400f95895df371395"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md",
+      "bytes": 8455,
+      "sha256": "a8ef5d831e3801848c3b0ab24223e440faf40c837d26f1f5167e44f09dcea4f3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_WILSON_PROOF.md",
+      "bytes": 7920,
+      "sha256": "efd23d23a2b25edd04345a0a302ea81d32dbd9555968566b04e9e825fe3342cd"
+    }
+  ],
+  "scientific_checks": {
+    "native": 61,
+    "reference": 46,
+    "new_tests_within_regression": 8,
+    "regression": 47,
+    "regression_seconds": 135.42,
+    "all_success_exit_codes_zero": true
+  },
+  "source_tree_read_only_during_regression": true,
+  "both_methods_same_author": true,
+  "outside_analytic_review": false,
+  "full_suite_passed": false,
+  "main_acceptance": false,
+  "physical_goal_achieved": false,
+  "publication_governance_status": "26 PASS / same4 inherited FAIL; not full-suite/main acceptance",
+  "public_raw_log_paths_redacted_only_when_needed": true,
+  "publication_checks": {
+    "checked_staged_tree": "839baab54875b6109f8b36ae4fb62a2cad5fa371",
+    "checked_changed_files": 26,
+    "publication_governance": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 22.53942000004463,
+      "log_bytes": 2384,
+      "log_sha256": "47082da001616ca660f2139b97caacadd14f2922d4f6856a7677d5ef18df14ed",
+      "pass_gates": 26,
+      "failed_gates": 4,
+      "inherited_categories": [
+        "attribution",
+        "test-vacuity",
+        "seal-provenance",
+        "relay-debt"
+      ],
+      "open_relays": 117,
+      "stale_unescalated": 42,
+      "review_due_merges": 427
+    },
+    "publication_identification": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.08209199993871152,
+      "log_bytes": 442,
+      "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+    },
+    "publication_integrity": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.2977680000476539,
+      "log_bytes": 268,
+      "log_sha256": "8edddeac1deb74e1dad6f20e0d67723989b025ee1bfa60f922e2f0fe82624927"
+    },
+    "final_metadata_added_after_checks_only": [
+      "FINDINGS.md",
+      "RECEIPTS.json",
+      "PUBLICATION_CHECK.json",
+      "PUBLICATION_GOVERNANCE_RUN.log",
+      "PUBLICATION_IDENTIFICATION_RUN.log",
+      "PUBLICATION_INTEGRITY_RUN.log"
+    ],
+    "scope": "science passed at11b80603a; final postcheck changes restricted to receipts/report provenance and captured outputs, not science or other fronts"
+  }
+}

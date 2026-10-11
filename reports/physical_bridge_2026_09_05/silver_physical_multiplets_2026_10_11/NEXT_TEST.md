@@ -1,5 +1,16 @@
 # Same-action interactions, unwanted modes and a viable gauge phase
 
+October11 partial execution disposition: silver_adjoint_phase_2026_10_11/
+FINDINGS.md now supplies the canonical bulk cubic normalization/Stokes
+descent and an exact same-action framed SM phase on Lg=Rg, with protected
+indices and actual leading gauge-Higgs mixing.61/46 local controls and
+8 new within47 regression PASS. It does NOT evaluate the global charged
+overlaps, lift the12 adjoint/6..12 neutral fields, select H/v/boundary,
+give three generations or complete quantum/physical SM. Its NEXT_TEST
+registers the actual same-complex omega-cup charged-pair map and every
+carried duty. The earlier UNEXECUTED checklist below is a dated plan,
+not a claim that all its items remain untouched or are all complete.
+
 UNEXECUTED next packet. Keep the full parameter-free SM/TOE goal active.
 Use the SAME compact twisted E8 parent, admitted flat/moment-zero silver
 background, compatible positive physical metric and strict A. This linear

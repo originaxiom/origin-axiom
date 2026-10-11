@@ -1,5 +1,17 @@
 # THE IDENTIFICATION LEDGER
 
+Local October11 framed phase map (no shared I-number change): the actual
+same-action vector P_v kernel -> C_k(H), with fixed OLD A0; faithful
+SU5 embedding -> connected S(U3 x U2), explicit Z6 kernel. The actual
+normalized R_v compression acts on lambda/rho profiles, not dimensions
+alone; phased canonical cubic -> physical leading Hessian. PROOF1-6 in
+reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/;
+61/46 exact local controls,8 new tests within47 regression PASS.
+EARNED at authored CONDITIONAL grade on the supplied model/domain;
+outside acceptance owed. No finite-v charged census or global normalized
+overlap evaluated. I-23, generated act/register/observer/qualia maps,
+selection and complete parameter-free SM/TOE remain unearned.
+
 Local October11 linear physical dictionary (no shared I-number change):
 same-action real scalar quotient H1 -> complex scalar/left-Weyl H1;
 actual conjugate H2 -> dual H1, counted once; real vector P0 kernel

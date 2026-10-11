@@ -1,5 +1,21 @@
 # THE INPUT-COMPLETENESS LEDGER — mandatory checklist for any SM-facing cell
 
+October11 framed-phase input disclosure: this is NOT a measured-value
+comparison. DESIGN/MODEL/INPUTS in
+reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/ were
+sealed before execution. Supplied inputs are the preceding compact
+twisted E8 parent/action/faithful embedding, silver structure background,
+physical positive metric, cut/reference/strict nonlocal boundary, charged
+and neutral L, plus equal gauge line Lg=Rg, two-block H, real v and
+optional positive parent prefactor kappa. Omega's period is a convention;
+its norm and Vol are not evaluated. Conventional6Y=-H does not earn I-23.
+The K=1 finite mass control is NOT a core metric or measured scale.
+No empirical constants, target fit, chosen RG scheme/scale or measured
+sigma comparison occurs. The cubic normalization formula is derived
+conditionally; its global overlaps and all physical parameters are not
+predicted. Each of these supplied choices remains a genesis/selection
+debt, not a free parameter that disappeared through canonical rescaling.
+
 *Purpose: "make sure we're accounting for every smallest detail that would affect the
 math." Every future cell that compares project quantities to measured physics fills this
 table in its prereg, before sealing. An unfilled row is a design defect, not a formality.*

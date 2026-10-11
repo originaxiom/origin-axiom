@@ -1,5 +1,27 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 silver framed phase sublemmas. SAME supplied action/positive
+metric/strict A, Lg=Rg, fixed charged/neutral planes. PROOF in
+reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/;
+LIVE tests/test_physical_bridge_silver_adjoint_phase.py.
+Authored conditional analytic proof, outside acceptance owed;61/46
+exact local controls and8 new tests within47 regression PASS.
+
+| Scoped result | Verification and limit |
+|---|---|
+| Canonical normalized cubic is i sqrt(2/kappa) T with the actual plus phased-Weyl Hessian | Direct parent Berezin versus tuple exterior/scalar Hessian, two positive prefactors; PROOF1. Global harmonic overlaps are NOT evaluated |
+| Bulk trilinear descends on the fixed strict trace complex | Actual Stokes term pairs A0 with [A1,A1] in A2; PROOF1, not ordinary H3=0 or zero BFV as physical Yukawa |
+| Equal gauge line gives a real nonexact scalar and exact stationary Cartan branch | Cone injection into absolute H1, real Hodge and full curvature/moment residuals; PROOF2-3, not selected line/H/v or core PDE computation |
+| Actual positive vector kernel is C_k(H), dim12 for v!=0 | Fixed OLD A0 and real mixed inverse; PROOF4. Periodic broken closed-circle modes at central/identity holonomy violate the boundary, so closed R93's enhancement cannot transfer |
+| Projected gauge-Higgs Weyl block has rank24 and positive broken leading mass | Actual R compression, real rotations, all24 adjoint coordinates and Schur correction; PROOF5, small-v only, no finite-v charged/pole-mass census |
+| Chargewise protected chiral index survives the SM phase | Same graded elliptic domain/order-zero homotopy and zero charged endpoints; PROOF6. Full5/10/24 weights and anomaly tensor verified; not quantum/inflow completeness |
+| This Cartan branch leaves twelve adjoint and6..12 neutral chiral profiles | Exact commuting operators and small-v adjoint gap, PROOF5. Cannot exclude other stationary same-action backgrounds, carriers or lifting mechanisms |
+
+Connected Z6 map credited to B862/R93; conventional6Y=-H is NOT earned
+I-23 or measured normalization. Parent/domain/vacuum/parameters/gravity
+and complete parameter-free SM/TOE remain unachieved. No shared B/I
+allocation or outside/full-suite/main acceptance asserted.
+
 October11 same-action linear massless sublemmas. SAME supplied compact
 twisted E8 parent, nonsplit silver flat/moment-zero background, positive
 metric and strict A; all k-stable harmonic polarizations in the stated

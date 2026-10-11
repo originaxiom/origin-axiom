@@ -1,5 +1,31 @@
 # Physical-bridge mission status and next questions
 
+October11 same-action silver framed SM-phase checkpoint:61 native/46
+separate-method exact LOCAL controls and47 six-packet regression PASS,
+including8 new tests. Report:
+reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/FINDINGS.md.
+On the equal gauge line Lg=Rg, the real Cartan branch is exactly flat,
+moment-zero and stationary for the SAME supplied action/fixed strict A.
+Its actual vector kernel is C_k(H), not a closed-space holonomy shortcut;
+the connected group is [SU3 x SU2 x U1]/Z6. Chargewise protected chiral
+indices survive by fixed-domain Fredholm homotopy, not old cone-count
+transfer. Canonical bulk cubic/phased fermion normalization agrees twice;
+global charged harmonic overlaps are not evaluated. Actual gauge-Higgs
+compression has rank24 and positive leading broken mass, but twelve
+unbroken adjoint chiral and6..12 neutral profiles remain. This branch
+does not lift them; other backgrounds/carriers are NOT excluded.
+Seven latest science/twenty input hashes match. Both first failures are
+preserved; repaired finite controls were resealed/pushed before replay.
+Authored conditional analytic result, outside acceptance owed.
+NEXT actual same-domain omega-cup charged-pair mass map and unwanted-
+field lifting, with generated boundary/vacuum selection in parallel.
+Lg/H/v/parent/metric/reference/cut/boundary and action prefactor remain
+supplied. This is an admitted phase, NOT selected SM, three generations,
+normalized observations, gravity or full parameter-free SM/TOE.
+Ultimate goal ACTIVE/unachieved; full-suite/main acceptance and four
+inherited governance categories remain. Earlier dated NEXT entries
+retain their epoch.
+
 October11 same-action silver linear multiplet checkpoint:96 native and66
 separate-method exact predicates; 12 focused tests within70 eight-packet regression PASS. Report:
 reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/FINDINGS.md.

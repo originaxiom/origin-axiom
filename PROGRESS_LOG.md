@@ -18439,3 +18439,48 @@ preserved and their broader no-forcing framing kept within audit scope.
 Sender-owned relay OPEN; no receiving-seat acknowledgment. Three prereg
 governance captures26 PASS/4 inherited FAIL; publication custody separate.
 No observer/qualia physics or goal-completion claim follows.
+
+## 2026-10-11 — silver same-action framed SM phase and physical cubic
+
+Original pre-execution seal4a80979691b3809b8bde79a01b2db860bad6cb4c;
+both first exact runs failed: wrong spatial-versus-field profile in a
+common-one-form cubic control and shared sign of the toy Schur crossing.
+Literal originals retained locally, public path-only redactions with
+separate hashes; different-profile and both crossing signs remain opposing
+controls. No parent, boundary or physical proof/criterion/target changed.
+Repair11b80603a14c83486552aaa7c04d39b2e9fac07c sealed/pushed BEFORE replay.
+Native61/61 and separately structured reference46/46 LOCAL predicates
+PASS;8 new tests within47 six-packet regression PASS in135.42s.
+Seven latest science, repair note and twenty source pins match. No fresh
+70-test multiplet census/full suite or external analytic acceptance.
+Report: reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/FINDINGS.md.
+
+SAME supplied compact twisted E8 parent, positive metric and fixed strict
+A. Equal gauge line gives real nonexact harmonic omega; real Cartan
+phi_v=phi_star+v H omega stays full flat/moment-zero/stationary. Actual
+allowed real gauge slice and positive P_v kernel give C_k(H), connected
+[SU3 x SU2 x U1]/Z6. R93's closed central-holonomy enhancement is NOT
+transferred: actual periodic broken parallel sections violate OLD A0,
+even at identity fundamental holonomy. Framing is a supplied physical
+choice, not an unnoticed periodic Wilson/gauge identification.
+
+The actual canonical bulk cubic/phased Weyl Hessian normalization agrees
+twice. Its Stokes primitive vanishes on the strict boundary, not by
+ordinary H3=0 or zero reduced BFV. Global harmonic overlaps remain
+unevaluated. The normalized gauge-Higgs R compression has rank24 and
+positive leading small-v broken mass; massive Schur terms remain.
+Chargewise fixed-domain Fredholm indices survive; individual old cone
+counts are NOT finite-v massless counts.12 unbroken adjoint and6..12
+neutral chiral fields remain; this Cartan branch alone cannot lift them.
+Larger carriers/other stationary backgrounds are not excluded.
+
+Next actual same-domain omega-cup charged-pair rank/mass map and unwanted-
+field lifting, outside analytic review and generated boundary/vacuum
+selection in parallel. All parent/metric/cut/reference/domain/Lg/H/v/
+prefactor choices disclosed, no measured target/constants fitted. Three
+physical families, all parameters, gravity, act/register/qualia map and
+full parameter-free SM/TOE remain active/unachieved. Main6c148ddd4,
+SM6877cc87d and fork8b89d8fb unchanged at fetch; no fresh cross-seat
+science accepted. Sender-owned review relay OPEN. Four inherited
+governance categories/full-suite/main acceptance remain; publication
+custody and exact staged scope recorded separately.

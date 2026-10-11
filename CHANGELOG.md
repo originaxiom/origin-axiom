@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-10-11 silver same-action framed SM phase and physical cubic
+
+Conditional admitted SM phase on the SAME supplied silver physical
+chiral domain, Lg=Rg. Exact flat/moment-zero Cartan branch, actual real
+vector kernel C_k(H), protected chargewise index and canonical phased
+bulk cubic map.61/46 local exact controls and8 new tests within47
+six-packet regression PASS in135.42s. Twelve unbroken adjoint and6..12
+neutral chiral profiles remain; this branch does not lift them. R93's
+closed central-holonomy enhancement is explicitly distinguished from
+fixed OLD A0, with central/identity-holonomy opposing controls. Report:
+reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/FINDINGS.md.
+Both first failures preserved and repaired/resealed/pushed before replay;
+no physical premise/target changed. Seven latest science/twenty input
+hashes match. Outside review, full-suite/main and four inherited governance
+categories remain. Next actual same-domain charged-pair cup/mass map and
+unwanted-field lifting, generated boundary/vacuum selection in parallel.
+Not selected SM, three generations, normalized observed parameters,
+gravity or complete parameter-free SM/TOE; goal active/unachieved.
+Sender-owned analytic-review relay OPEN; no receiver acceptance presumed.
+
 ## 2026-10-11 silver same-action linear multiplets and all rank strata
 
 Same-action vector response, real gauge slice and scalar/Weyl maps yield a
