@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py"
+  ],
+  "exit_code": null,
+  "signal": 2,
+  "elapsed_seconds": 174.20677799987607,
+  "log_bytes": 6619,
+  "log_sha256": "803bfbf7a3399ecb4ad4b85ea2a834f6bc1dcdc1a9240fe80fbd1d30da25643d",
+  "public_log_sha256": "053e27c71363013c853ee5c23b7745b74a5689f07a7b34a919a076ed075c9024",
+  "public_log_bytes": 6457,
+  "interrupted_not_passed": true,
+  "redaction": "only local worktree/user-directory prefixes; raw interruption unchanged outside repo"
+}

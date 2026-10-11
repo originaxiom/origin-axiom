@@ -30,7 +30,9 @@ cy = load('charged_lift_old_cyclic_native', HERE.parent/'silver_cyclic_transfer_
 
 
 def dm(a, variable=None):
-    return DomainMatrix.from_Matrix(a).convert_to(K if variable is None else K.frac_field(variable))
+    # Expand sums/products before EX -> algebraic-field conversion: otherwise
+    # repeated Fox sums can trigger redundant minimal-polynomial discovery.
+    return DomainMatrix.from_Matrix(a.applyfunc(s.expand)).convert_to(K if variable is None else K.frac_field(variable))
 
 
 def rank(a, variable=None):
@@ -230,6 +232,9 @@ def run():
     ck('exterior_then_twist_not_exterior_of_twist',old.wedge(2*w['t'])==4*old.wedge(w['t']) and old.wedge(2*w['t'])!=2*old.wedge(w['t']))
     polynomial=s.prod(z-j for j in range(5))
     ck('degree_bound_requires_n_plus_one_points',all(polynomial.subs(z,j)==0 for j in range(5)) and polynomial.subs(z,5)!=0 and s.degree(polynomial,z)==5)
+    held=s.Pow(s.Add(1,s.sqrt(2),evaluate=False),5,evaluate=False)*(z-1)
+    normalized=dm(s.Matrix([[held]]),z).to_Matrix()[0,0]
+    ck('exact_expansion_preserves_algebraic_coefficient_not_rational_shadow',s.expand(normalized-(41+29*s.sqrt(2))*(z-1))==0 and s.expand(normalized-41*(z-1))!=0)
     return dict(facts=facts,predicates_passed=len(facts),blocks=blocks,first_mass_maps=jets_out,
                 common_generation_indices=list(range(-2,3)),conditional_small_v_charged_lift=True,
                 actual_normalized_mass_values=False,global_PDE_solved=False,Higgs_complete=False,

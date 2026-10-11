@@ -1,0 +1,17 @@
+{
+  "repaired_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+      "bytes": 12903,
+      "sha256": "5487efacac16416899aea33ab04218741154b9484a198708a54fb4a53bfc546b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_3.md",
+      "bytes": 1431,
+      "sha256": "89df9f3b47ec14f929bab3b1c361b0b240843d76978988e3a971c12a74bc3abc"
+    }
+  ],
+  "prior_seal": "53f1b8470077b331f3e814724027685a6fc6cedc",
+  "before_replay": true,
+  "scope": "expand exact algebraic expressions before conversion; same rank method/family/criterion; new opposing conversion control"
+}

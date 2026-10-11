@@ -1,0 +1,89 @@
+Traceback (most recent call last):
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 239, in <module>
+    if __name__=='__main__': print(json.dumps(run(),sort_keys=True,indent=2))
+                                              ^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 183, in run
+    fam = family(rep,data); dfam = {k:x.subs(q,1/q) for k,x in family(dualrep,data).items()}
+                                                               ^^^^^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 70, in family
+    R2 = -mm(mm(q*Q, fox(rep, data['cusp_words'][0])[:, :2*n], q),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 41, in mm
+    return dm(a, variable).matmul(dm(b, variable)).to_Matrix()
+                                  ^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 33, in dm
+    return DomainMatrix.from_Matrix(a).convert_to(K if variable is None else K.frac_field(variable))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/domainmatrix.py", line 548, in convert_to
+    rep_K = rep.convert_to(K)
+            ^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 927, in convert_to
+    Ak = unop_dict(A, lambda e: K.convert_from(e, Kold))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 1452, in unop_dict
+    Bij = f(Aij)
+          ^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 927, in <lambda>
+    Ak = unop_dict(A, lambda e: K.convert_from(e, Kold))
+                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/domain.py", line 396, in convert_from
+    result = _convert(element, base)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/domain.py", line 664, in from_ExpressionDomain
+    return K1.from_sympy(a.ex)
+           ^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/fractionfield.py", line 74, in from_sympy
+    return self.field.from_expr(a)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/fields.py", line 280, in from_expr
+    frac = self._rebuild_expr(sympify(expr), mapping)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/fields.py", line 274, in _rebuild_expr
+    return _rebuild(expr)
+           ^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/fields.py", line 252, in _rebuild
+    return reduce(add, list(map(_rebuild, expr.args)))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/fields.py", line 254, in _rebuild
+    return reduce(mul, list(map(_rebuild, expr.args)))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/fields.py", line 267, in _rebuild
+    return domain.convert(expr)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/domain.py", line 456, in convert
+    return self.from_sympy(element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/algebraicfield.py", line 369, in from_sympy
+    return self(to_number_field(a, self.ext).native_coeffs())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py", line 499, in to_number_field
+    minpoly, coeffs = primitive_element(extension, gen, polys=True)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py", line 358, in primitive_element
+    g = minimal_polynomial(gen, x, polys=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 705, in minimal_polynomial
+    c = result.coeff(x**degree(result, x))
+                        ^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polytools.py", line 4832, in degree
+    p, _ = poly_from_expr(f, gen)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polytools.py", line 4640, in poly_from_expr
+    return _poly_from_expr(expr, opt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/polytools.py", line 4660, in _poly_from_expr
+    expr = expr.expand()
+           ^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/expr.py", line 3704, in expand
+    expr, hit = Expr._expand_hint(expr, hint, deep=deep, **hints)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/expr.py", line 3635, in _expand_hint
+    arg, arghit = Expr._expand_hint(arg, hint, **hints)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/expr.py", line 3619, in _expand_hint
+    @staticmethod
+
+KeyboardInterrupt
