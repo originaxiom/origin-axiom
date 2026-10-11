@@ -1,0 +1,15 @@
+{
+  "parent": "unchanged supplied compact twisted E8 action",
+  "embedding": "sl5_structure plus sl5_gauge with inherited six-slot decomposition",
+  "H": [2, 2, 2, -3, -3],
+  "old_A0": "full compact su5, NOT reset",
+  "old_gauge_line": "Lg=Rg",
+  "persistence_class": "fixed-frame SM-commuting zero-residual backgrounds",
+  "exceptional_F_subset": [0, 1, 2, 3],
+  "protected_F_subset": [0, 1, 2, 4],
+  "selective_assignment": "weak exceptional, color protected; NEW compatibility experiment only",
+  "full_new_boundary_constructed": false,
+  "generated_selection": false,
+  "outside_review": false,
+  "full_goal_achieved": false
+}
