@@ -1,0 +1,14 @@
+{
+  "parent": "unchanged supplied compact twisted E8, framed Cartan branch",
+  "boundary_metric_specialization": "period1 flat torus/log gauge and compatible constant coefficient metric of cyclic witness; supplied, not arbitrary-metric theorem",
+  "character": "derive primitive real abelianization from literal relators; not candidate nu",
+  "boundary": "fixed OLD A0=k; charged A0=0,A1=old coexact+fixed L,A2=all2",
+  "charged_deformation": "logs A,B -> A,B+z I; each coefficient twisted after construction",
+  "physical_phase": "z=i v h in deck convention, h actual gauge H weight; inverse parallel holonomy",
+  "finite_boundary_pencil": "D1(z) [U,L], U=old coexact, H1 old harmonic",
+  "expected_generic_charged_H": "(0,max(ell-t0,0),max(t0-ell,0),0), conditionally for generic fixed L and sufficiently small nonzero v",
+  "global_normalized_mass_values": false,
+  "selected_generations_or_Higgs": false,
+  "outside_review": false,
+  "physical_goal_achieved": false
+}

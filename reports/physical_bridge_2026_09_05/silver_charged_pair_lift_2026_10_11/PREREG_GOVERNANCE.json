@@ -1,0 +1,10 @@
+{
+  "command": "python3 scripts/gates/gates.py",
+  "checked_staged_tree": "8879aa10891a7284208c561b59bfeee461821988",
+  "exit_code": 1,
+  "passes": 26,
+  "failures": ["attribution: six unchanged older token-bearing files", "test-vacuity: two unchanged older locks", "seal-provenance: five unchanged older designs", "relay-debt: 42 unchanged stale obligations"],
+  "new_subject_failed": false,
+  "review_due_merges": 428,
+  "scope": "Summary of tool-captured governance output, not a literal transcript or full-suite/main certificate; checkpoint keeps inherited debt explicit"
+}

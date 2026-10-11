@@ -1,0 +1,41 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/DESIGN.md",
+      "bytes": 4739,
+      "sha256": "1327854b804f51659b37c03f63e33487b5fa084afea967bbc7383f4a0856f39c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/PROOF.md",
+      "bytes": 8828,
+      "sha256": "bb191480f617384355951de464278a2a353082a4d6461303e38ce2012530f68e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/MODEL.json",
+      "bytes": 972,
+      "sha256": "190492d8309fc548912395e27a71ffe6d54eb8464df37c37088e62cd2f3fc63c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/INPUTS.json",
+      "bytes": 5870,
+      "sha256": "bf7420e4169ba3fadf11784731493d6d4af127dd90d38c156f564f805a9ed3b7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+      "bytes": 11952,
+      "sha256": "cbe8ebb0e51bf314055c660b6509519a86d8968e04d1d0861d7493731f275588"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/reference.py",
+      "bytes": 11464,
+      "sha256": "609dc02366cf72fae75511cdf24f79e070ff509a42e1755a0cd472feec6d8918"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_charged_pair_lift.py",
+      "bytes": 3816,
+      "sha256": "1fe886e80a111db02c803f1bf5a61be5e8cea034baa5e7119b6f7766a57dc97a"
+    }
+  ],
+  "execution_status": "unexecuted; no candidate import, run or test collection",
+  "prior_commit": "9d8ec0c1cea8687321f39a2f65396b960a49d572"
+}
