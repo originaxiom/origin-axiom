@@ -1,5 +1,14 @@
 # THE IDENTIFICATION LEDGER
 
+Local October11 Higgs scope: full specified E8 slot actions -> embedded
+SM commutant by actual joint invariance; fixed c omega -> physical scalar/
+Weyl zero profile only under PROOF2's admitted same-model hypotheses.
+Actual F planes/duals -> generic charged kernel through the inherited
+authored comparison. Selective coefficient planes -> new admitted full
+physical boundary is NOT identified: old full-k action demonstrably fails.
+No new shared I-number or change to9 unearned baseline. Genesis module,
+observer/qualia, end selection and full SM/TOE remain distinct/unearned.
+
 Local October11 framed coupled extension, no shared I-number change:
 actual same-phase strict tangential/normal trace map replaces the OLD
 parallel-k step, NOT its boundary. Physical P_v eigenprofiles -> real

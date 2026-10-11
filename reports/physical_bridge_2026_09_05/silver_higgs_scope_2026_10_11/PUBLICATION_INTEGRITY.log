@@ -1,0 +1,11 @@
+{
+  "byte_opposing_controls": true,
+  "science": 7,
+  "source_pins": 17,
+  "first_logs": 3,
+  "named_staged_paths": 23,
+  "indexbad": [
+
+  ],
+  "all_pass": true
+}

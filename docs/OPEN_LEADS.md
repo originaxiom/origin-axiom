@@ -1,5 +1,25 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 Higgs-scope dispositions supersede earlier unexecuted hypothesis:
+
+- PB-SILVER-SM-COMMUTANT-PERSISTENCE EXECUTED at conditional analytic
+  grade: full-slot commutant25 and12 retained linear adjoint profiles
+  in the specified zero-residual/equal-line class. No universal kill.
+- PB-SILVER-LIGHT-HIGGS OPEN: the ALREADY banked exceptional pair survives;
+  a common old-SU5 plane does not generically split its colored partners.
+  Isolated phase resonances and other Higgs mechanisms not excluded.
+- PB-SILVER-SELECTIVE-BOUNDARY-LIFT OPEN: explicit SM-stable weak/color
+  assignment FAILS old full-k gauge law. Derive/admit its interacting
+  boundary or another gauge-coupled lift; not a completed physical model.
+- PB-SILVER-UNWANTED-NEUTRAL/ADJOINT-LIFTING OPEN: a different justified
+  action/domain/vacuum or quantum response is needed for this duty;
+  noncommuting quartic obstruction is not a quadratic mass.
+- PB-GENESIS-END-OPERATOR-LINK, normalized interactions/quantum consistency,
+  larger-carrier three families and generated selection remain OPEN.
+
+Report silver_higgs_scope_2026_10_11:50/20 exact predicates and8 new
+within24 regression PASS. Full parameter-free SM/TOE ACTIVE/unachieved.
+
 October11 framed coupled dispositions supersede older NEXT entries:
 
 - PB-WEAVE-RUN13-FRAMED-PHASE EXECUTED at authored conditional grade:

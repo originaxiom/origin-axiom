@@ -18586,3 +18586,25 @@ spectator/interactions and upstream operator/end rule; existing twelve
 adjoint/six-to-twelve neutral profiles and larger-family capacity remain.
 Full parameter-free SM/TOE ACTIVE/unachieved. No source branch changed;
 outside analytic/full-suite/main acceptance and governance debt remain.
+
+## 2026-10-11 — Higgs exception, full commutant and boundary requirement
+
+PROGRESS. silver_higgs_scope_2026_10_11 seals7 science files and17 inputs
+at pushed8d65c086d before imports/execution.50 native/20 separate Fraction
+predicates and24 three-packet regression PASS,8 new; literal first output
+bytes preserved, no science failure/repair/interruption. Full248 embedded
+SM commutant25 (35 without hypercharge) specifies a fixed-class tree
+adjoint persistence lemma, not an architecture-wide kill. The previously
+banked exceptional F plane is reconstructed with duals and preserved.
+Generic same-plane phase scaling cannot split its weak and colored pair.
+Actual SM-selective planes are stable under SM but fail OLD full-k law:
+new compatibility candidate, NOT an admitted physical boundary or input
+derivation. Noncommuting quartic test guards false joint-moduli inference.
+
+Nine fronts, six LAW_MAP sublemmas, input/identification/leads and OPEN
+sender relay updated. Next derive/admit a gauge-coupled boundary/lift or
+priced response, with full stationary Higgs potential/roster/interactions.
+Genesis operator/end rule, neutral/abelian modes, larger three-family
+carriers, normalized predictions, quantum consistency and gravity remain.
+Full parameter-free SM/TOE ACTIVE/unachieved. No shared bank number or
+foreign branch mutation; outside/full-suite/main acceptance still owed.

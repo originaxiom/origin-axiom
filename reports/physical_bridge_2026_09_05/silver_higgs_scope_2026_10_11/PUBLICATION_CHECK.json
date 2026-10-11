@@ -1,0 +1,78 @@
+{
+  "checked_staged_tree": "d423ad95351d9a357a4f5c8e8f6645987f0c50b0",
+  "checked_publication_paths": [
+    "docs/CAMPAIGN_STATUS.md",
+    "docs/THE_CAMPAIGN.md",
+    "docs/THE_FRAMEWORK.md",
+    "docs/THE_LADDER.md",
+    "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+    "reports/physical_bridge_2026_09_05/EXECUTION_ROADMAP_2026_10_05.md",
+    "reports/physical_bridge_2026_09_05/MISSION_STATUS_2026_09_10.md",
+    "reports/physical_bridge_2026_09_05/README.md",
+    "reports/physical_bridge_2026_09_05/GOAL_VERDICT.md",
+    "docs/LAW_MAP.md",
+    "docs/INPUT_COMPLETENESS_LEDGER.md",
+    "docs/IDENTIFICATION_LEDGER.md",
+    "docs/OPEN_LEADS.md",
+    "docs/RELAY_LEDGER.md",
+    "CHANGELOG.md",
+    "PROGRESS_LOG.md",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/FINDINGS.md",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/NEXT_TEST.md",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/RECEIPTS.json",
+    "reports/physical_bridge_2026_09_05/relays/CODEX_TO_GENESIS_CC_AND_SM_2026-10-11_HIGGS_SCOPE_AND_BOUNDARY_REQUIREMENT.md",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/NATIVE_FIRST.log",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/REFERENCE_FIRST.log",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/REGRESSION_FIRST.log"
+  ],
+  "science_unchanged_from_preseal": true,
+  "integrity": {
+    "exit_code": 0,
+    "elapsed_seconds": 1.2389060000423342,
+    "log_bytes": 163,
+    "log_sha256": "bb5edd1b23c3e862f242631c0acdf820850ffe0353d203b68c0177bd4cba17c9",
+    "private_receipt_sha256": "180e4f374e54aaf64a83b949f68b18b7919808e5ae80597fa7b002783babdc09",
+    "scope": "opposed exact-byte controls; 7 science,17 inputs,3 literal logs,23 named staged paths"
+  },
+  "governance": {
+    "command": [
+      "python3",
+      "scripts/gates/gates.py"
+    ],
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 15.049729000078514,
+    "log_bytes": 2384,
+    "log_sha256": "c884053e9d6d2ee611570e86dfb3d81c9a2420f3b1d06a5e3d2dad5efa9f2ace",
+    "private_receipt_sha256": "133819b7fe5914c9b07b04b542292e0505ef781b5aa9519d8ab3593951080aed",
+    "pass": 26,
+    "fail": 4,
+    "inherited_categories": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "first_three_failure_lines_byte_identical": true,
+    "stale_relay_debts": 42,
+    "fresh_OPEN_relay_added": true
+  },
+  "identification": {
+    "earned": 8,
+    "refuted": 7,
+    "unearned": 9,
+    "baseline": 9,
+    "pass": true
+  },
+  "metadata_only_after_checked_tree": [
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/FINDINGS.md (dated publication receipt)",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/RECEIPTS.json (publication pointer only)",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/PUBLICATION_GOVERNANCE.log",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/PUBLICATION_INTEGRITY.log",
+    "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/PUBLICATION_CHECK.json"
+  ],
+  "scientific_failures": 0,
+  "scientific_repairs": 0,
+  "full_suite_green": false,
+  "outside_analytic_or_main_acceptance": false
+}

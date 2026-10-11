@@ -1,0 +1,123 @@
+{
+  "F_planes": {
+    "exceptional": {
+      "H": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "dual_H": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "rank": 9,
+      "scaled_ranks": {
+        "-2": 9,
+        "3": 9
+      },
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "protected": {
+      "H": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "dual_H": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "rank": 10,
+      "scaled_ranks": {
+        "-2": 10,
+        "3": 10
+      },
+      "subset": [
+        0,
+        1,
+        2,
+        4
+      ]
+    }
+  },
+  "conditional_adjoints_persist": 12,
+  "facts": {
+    "10_W_no_SM_invariant": true,
+    "5_Fdual_no_SM_invariant": true,
+    "actual_F_harmonic_and_coexact_dimensions": true,
+    "actual_gauge_commutant_is_H": true,
+    "bar10_Wdual_no_SM_invariant": true,
+    "bar5_F_no_SM_invariant": true,
+    "common_exceptional_plane_keeps_colored_pair": true,
+    "common_protected_plane_removes_doublet_pair_too": true,
+    "dual_selective_planes_also_different": true,
+    "exceptional_actual_dual_reversal": true,
+    "exceptional_physical_weight_-2_generic_rank": true,
+    "exceptional_physical_weight_3_generic_rank": true,
+    "exceptional_prior_F_witness_reconstructed": true,
+    "full248_roster": true,
+    "full_SM_commutant_dimension25": true,
+    "joint_complex_modes_need_not_be_moduli": true,
+    "omitting_hypercharge_changes_full_commutant35": true,
+    "one_generator_curvature_zero_0": true,
+    "one_generator_curvature_zero_1": true,
+    "one_generator_curvature_zero_10": true,
+    "one_generator_curvature_zero_11": true,
+    "one_generator_curvature_zero_2": true,
+    "one_generator_curvature_zero_3": true,
+    "one_generator_curvature_zero_4": true,
+    "one_generator_curvature_zero_5": true,
+    "one_generator_curvature_zero_6": true,
+    "one_generator_curvature_zero_7": true,
+    "one_generator_curvature_zero_8": true,
+    "one_generator_curvature_zero_9": true,
+    "one_generator_moment_zero_0": true,
+    "one_generator_moment_zero_1": true,
+    "one_generator_moment_zero_10": true,
+    "one_generator_moment_zero_11": true,
+    "one_generator_moment_zero_2": true,
+    "one_generator_moment_zero_3": true,
+    "one_generator_moment_zero_4": true,
+    "one_generator_moment_zero_5": true,
+    "one_generator_moment_zero_6": true,
+    "one_generator_moment_zero_7": true,
+    "one_generator_moment_zero_8": true,
+    "one_generator_moment_zero_9": true,
+    "protected_actual_dual_reversal": true,
+    "protected_physical_weight_-2_generic_rank": true,
+    "protected_physical_weight_3_generic_rank": true,
+    "protected_prior_F_witness_reconstructed": true,
+    "quartic_countercontrol_not_quadratic_lifting": true,
+    "selective_bar5_space_NOT_OLD_full_k_stable": true,
+    "selective_bar5_space_SM_stable": true,
+    "selective_planes_are_distinct_equal_dimensions": true,
+    "twelve_independent_unbroken_Hermitian_generators": true
+  },
+  "full_SM_invariants": {
+    "10_W": 0,
+    "5_Fdual": 0,
+    "bar10_Wdual": 0,
+    "bar5_F": 0,
+    "gauge24": 1,
+    "structure24": 24
+  },
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "new_physical_boundary_constructed": false,
+  "normalized_mass_computed": false,
+  "old_full_k_selective_boundary_admitted": false,
+  "outside_review": false,
+  "predicates_passed": 50,
+  "without_hypercharge_commutant_dimension": 35
+}

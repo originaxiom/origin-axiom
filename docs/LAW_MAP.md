@@ -1,5 +1,20 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 Higgs/adjoint scoping sublemmas, authored CONDITIONAL grade.
+Report: reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/.
+50 native/20 Fraction predicates,8 new within24 regression PASS at
+pushed pre-run8d65c086d; same author, outside analytic acceptance owed.
+No shared bank number or full parameter-free SM/TOE claim.
+
+| Scoped result | Proof, live safeguard and boundary |
+|---|---|
+| Full embedded SM commutant in the inherited E8 roster is sl5_structure plus C H, dim25 | PROOF1; test_all_six_slots_have_only_the_claimed_invariants in tests/test_physical_bridge_silver_higgs_scope.py; omit-H opposing control35, fixed embedding not all E8 embeddings |
+| Every zero-residual SM-commuting background in the fixed equal gauge-line class retains12 linear adjoint chirals | PROOF2 ordinary nonexact harmonic omega, actual R and real-gauge period; finite matrix controls only, not global PDE certification or quantum/all-domain exclusion |
+| Twelve linear null adjoints do not imply twelve joint complex moduli | PROOF2 moment term -i[U,V] norm(omega)^2; test_linear_zero_modes_do_not_imply_joint_unobstructed_moduli; positive quartic is not a quadratic mass |
+| Nonzero phase scaling preserves the generic pencil rank for any common fixed plane | PROOF3 K(z) automorphism z to h z; actual physical-weight degree certificates and test_generic_pair_removal_also_removes_the_doublet_pair; sufficiently small punctured interval, not all v |
+| The already-banked exceptional F plane retains a full vectorlike pair including colored partners | Prior charged-pair PROOF and witness0123; reconstructed with actual duals in test_exception_is_preserved_not_turned_into_higgs_absence; not a newly selected Higgs vacuum |
+| Explicit selective weak/color planes are SM stable but not OLD SU5 gauge stable | PROOF4 actual bar5 matrix-unit action; test_new_selective_assignment_does_not_silently_pass_old_gauge_law; countercandidate NOT a full physical boundary or derived selection |
+
 October11 framed coupled sublemmas, SAME supplied action/phase/OLD A0.
 Authored conditional analytic PROOF1-5 in
 reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/;

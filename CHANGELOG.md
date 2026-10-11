@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-11 Higgs exception and actual boundary compatibility cost
+
+50 native/20 Fraction exact predicates and24 regression PASS,8 new;
+sealed/pushed8d65c086d before science, no scientific repair/failure.
+Full embedded SM commutant25 specifies the fixed-class tree persistence
+of12 linear adjoints. Prior exceptional F pair is preserved, not newly
+discovered. Common-plane phase ranks retain/lift weak and colored pairs
+together; selective SM planes FAIL old full-k gauge boundary stability.
+Report physical_bridge/silver_higgs_scope_2026_10_11/FINDINGS.md.
+Next justified gauge-coupled boundary/lift/response and full interactions;
+neutral/abelian/three-family/selection/quantum/parameter/gravity obligations
+remain. No universal architecture negative, new physical boundary, full
+parameter-free SM/TOE, outside/full-suite/main or receiver acceptance.
+
 ## 2026-10-11 framed coupled domain and massive physical organization
 
 48 native/44 separate-method exact local controls and30 four-packet

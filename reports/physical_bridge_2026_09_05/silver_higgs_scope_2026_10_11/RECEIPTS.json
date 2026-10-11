@@ -1,0 +1,112 @@
+{
+  "pre_execution_commit": "8d65c086dd2e3654f05214e4681ae563e2298a3f",
+  "pushed_before_first_science_execution": true,
+  "scientific_runs": {
+    "native_first": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 8.541431999998167,
+      "log_bytes": 3467,
+      "log_sha256": "b72753c8cf087ab52e1e487502dd3b2919645994ab1e0c85b4bfbaa0a931ee6f",
+      "interpreter": "Python 3.12.1",
+      "private_original_receipt_sha256": "ad96ea395dc7773e401c63100681534a83196ebd67cc2eeda2f019051513d45e",
+      "public_log": "NATIVE_FIRST.log",
+      "public_bytes_unchanged": true
+    },
+    "reference_first": {
+      "command": [
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.8947059998754412,
+      "log_bytes": 1968,
+      "log_sha256": "64c589f934d6442f3b1ae94b99e8137d1f30865d8bce0ab932a2a130117e7767",
+      "interpreter": "Python 3.12.1",
+      "private_original_receipt_sha256": "54344a01860a7f48fd1de5fbf0d33108ebf01c9bddf8833ce967ff86c9f5e2a9",
+      "public_log": "REFERENCE_FIRST.log",
+      "public_bytes_unchanged": true
+    },
+    "regression_first": {
+      "command": [
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-p",
+        "no:randomly",
+        "tests/test_physical_bridge_silver_higgs_scope.py",
+        "tests/test_physical_bridge_silver_adjoint_phase.py",
+        "tests/test_physical_bridge_silver_framed_coupled_domains.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 13.224516999907792,
+      "log_bytes": 100,
+      "log_sha256": "24fa07049d1c39567d62304ff369eb77ed16f734efa434071620a8bf3c1867dc",
+      "interpreter": "Python 3.12.1",
+      "private_original_receipt_sha256": "e140d34bc08b5d21f3ef1f594b2c0ebf16643ced75158f735a18667b00453f17",
+      "public_log": "REGRESSION_FIRST.log",
+      "public_bytes_unchanged": true
+    }
+  },
+  "native_predicates": 50,
+  "reference_predicates": 20,
+  "regression_passed": 24,
+  "new_tests": 8,
+  "scientific_failures": 0,
+  "scientific_interruptions": 0,
+  "scientific_repairs": 0,
+  "source_hashes_verified": 17,
+  "science_hashes_verified": 7,
+  "source_tree_read_only_during_runs": true,
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/DESIGN.md",
+      "bytes": 4986,
+      "sha256": "2d887b062fa166d45e350d97c4bd39b181c541b9f1c1dc5d9b91975d26057881"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/PROOF.md",
+      "bytes": 7437,
+      "sha256": "8ab9b7917f2488d3cda417e6e1b1c2e9b12dd8be0c3536afffead8312ccae19e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/MODEL.json",
+      "bytes": 631,
+      "sha256": "6ed0e737510d6c81e8137e4f4b649e1ed3fa83c37fb6a0e790aefaf135d39558"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/INPUTS.json",
+      "bytes": 3697,
+      "sha256": "d315df60fbe3c426c98a8f0781073bcdde2a9dc40ebab9839f13f18fb0d5587d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/probe.py",
+      "bytes": 5866,
+      "sha256": "db2ba36ee5897c6f2f417b3a735eb382c5c9e7977d5c0ae352f6c84fe71468a1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/reference.py",
+      "bytes": 4292,
+      "sha256": "6a169c30b7b2830eb067668e43e7d0c0fef8737cc3de37d0911df8d91d284838"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_higgs_scope.py",
+      "bytes": 2333,
+      "sha256": "10c0f5d3caeaf4519c60fcdf9a4ae5013798a486fff40fe3cfcc8abfd94db2d9"
+    }
+  ],
+  "outside_analytic_review": false,
+  "full_suite_acceptance": false,
+  "main_acceptance": false,
+  "full_goal_achieved": false,
+  "governance": "See PUBLICATION_CHECK.json: 26 PASS/4 inherited FAIL, no full-suite/main acceptance"
+}

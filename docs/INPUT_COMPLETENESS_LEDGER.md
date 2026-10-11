@@ -1,5 +1,14 @@
 # THE INPUT-COMPLETENESS LEDGER — mandatory checklist for any SM-facing cell
 
+October11 Higgs scope disclosure: unchanged supplied parent, embedding,
+positive metric/core/equal gauge line/old boundary and silver F coefficient.
+Two previously banked planes are reconstructed, not fitted to data.
+The selective assignment is explicitly a NEW SM-stable boundary hypothesis
+and FAILS the old full-k law; no full new physical domain is constructed.
+Seven science files/17 inputs pinned before8d65c086d;50/20 controls and
+24 regression PASS do not derive the embedding, boundary, end unit,
+Higgs potential, I-23, parameter-free SM or TOE. No empirical target.
+
 October11 framed coupled input disclosure: SAME supplied parent/metric/
 compact core/reference/Lg=Rg/charged-neutral planes/H/v/nonlocal A.
 No OLD A0 change and no new physical scale or empirical target. Seven

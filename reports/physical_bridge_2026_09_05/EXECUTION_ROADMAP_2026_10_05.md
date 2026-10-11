@@ -1,5 +1,22 @@
 # Common-model physics campaign: execution record
 
+October11 Higgs/adjoint scope checkpoint supersedes earlier NEXT:
+50 native/20 separate Fraction predicates and24 three-packet regression
+PASS,8 new, unchanged from pushed pre-execution8d65c086d. Report:
+reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/FINDINGS.md.
+Full248 embedded SM commutant25 (semisimple-only35). SAME fixed-class
+zero-residual/equal-line backgrounds retain12 linear adjoint chirals;
+not all jointly unobstructed moduli and NOT an architecture/quantum kill.
+The ALREADY banked exceptional F plane retains a pair. Common OLD
+full-SU5 planes generically retain/lift weak and colored pairs together.
+Selective weak/color planes are SM stable but FAIL OLD full-k gauge law;
+NEW boundary candidate, not admitted physical spectrum or derived input.
+NEXT justify/admit a gauge-coupled boundary/lift or priced response, with
+full stationary Higgs potential/roster/interactions. Neutral/abelian/
+three-family/selection/parameters/gravity duties and genesis operator/end
+coordination remain. Full parameter-free SM/TOE ACTIVE/unachieved;
+outside analytic/full-suite/main acceptance and governance debt remain.
+
 October11 framed coupled-domain checkpoint supersedes earlier NEXT:
 48 native/44 separate-method exact LOCAL controls and30 four-packet
 regression PASS, including8 new tests, unchanged at pushed56d4c3392.

@@ -1,0 +1,92 @@
+{
+  "F_planes": {
+    "exceptional": {
+      "H": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "dual_H": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "rank": 9,
+      "scaled_ranks": {
+        "-2": 9,
+        "3": 9
+      },
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "protected": {
+      "H": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "dual_H": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "rank": 10,
+      "scaled_ranks": {
+        "-2": 10,
+        "3": 10
+      },
+      "subset": [
+        0,
+        1,
+        2,
+        4
+      ]
+    }
+  },
+  "degree_bound_certificate": true,
+  "facts": {
+    "10_W_no_SM_invariant": true,
+    "5_Fdual_no_SM_invariant": true,
+    "OLD_SU5_stability_fails": true,
+    "SM_stability_actual_bar5": true,
+    "actual_F_dimensions": true,
+    "bar10_Wdual_no_SM_invariant": true,
+    "bar5_F_no_SM_invariant": true,
+    "commuting_single_generator_control": true,
+    "dual_selective_subspaces_not_equal": true,
+    "exceptional_exact_degree_certificate": true,
+    "exceptional_scaled_degree_certificate_-2": true,
+    "exceptional_scaled_degree_certificate_3": true,
+    "joint_full_commutant25": true,
+    "noncommuting_complex_quartic_control": true,
+    "protected_exact_degree_certificate": true,
+    "protected_scaled_degree_certificate_-2": true,
+    "protected_scaled_degree_certificate_3": true,
+    "semisimple_only35_not_SM": true,
+    "two_actual_planes_not_equal": true,
+    "unbroken_H_commutes_with_compact_root": true
+  },
+  "full_SM_invariants": {
+    "10_W": 0,
+    "5_Fdual": 0,
+    "bar10_Wdual": 0,
+    "bar5_F": 0,
+    "gauge24": 1,
+    "structure24": 24
+  },
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "new_native_imported": false,
+  "new_physical_boundary_constructed": false,
+  "outside_review": false,
+  "predicates_passed": 20,
+  "without_hypercharge_commutant_dimension": 35
+}
