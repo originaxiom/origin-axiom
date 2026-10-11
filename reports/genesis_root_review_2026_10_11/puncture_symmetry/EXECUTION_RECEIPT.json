@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-11",
+  "seal_commit": "c2baf707b863e65324aed7f63f3fb87a31f76e1d",
+  "seal_pushed_before_execution": true,
+  "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -u reports/genesis_root_review_2026_10_11/puncture_symmetry/verify.py",
+  "execution": {
+    "exit": 0,
+    "stdout": "NATIVE_FIRST.json",
+    "stdout_bytes": 78018,
+    "stdout_sha256": "535df39d095a2b4f8afd2d9e5b515c634f35b5ee5f6efe5ac35de73b34333d01",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exit_file_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "output_substitutions": [],
+    "attempt": 1,
+    "interrupted": false,
+    "source_changed_during_run": false
+  },
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "execution_permissions": "Default sandbox; no network or external runtime access needed."
+  },
+  "results": {
+    "required_checks": 2681,
+    "observed_checks": 2681,
+    "passed": 2681,
+    "failed": [],
+    "missing": [],
+    "unexpected": [],
+    "all_observed_values_literal_true": true
+  },
+  "controls": {
+    "word_and_holonomy_intertwiners": true,
+    "full_move_commutant": true,
+    "full_flat_stabilizer_kernels": true,
+    "non_scalar_sign_excludes_middle_spaces": true,
+    "scalar_phase_retains_middle_spaces": true,
+    "common_conjugation_preserves_cubic": true,
+    "single_slot_conjugation_rejected": true,
+    "imaginary_graph_green_null": true,
+    "nonzero_graph_not_graded": true,
+    "real_graph_not_null": true
+  },
+  "source_seals": [
+    {
+      "hash": "7d0924583b8e4b109aa58f2b20d963655eb2c7effc29b7c9c99353513405499f",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/PREREGISTRATION.md"
+    },
+    {
+      "hash": "eb5cb00e092be2569a33f6938598fd441c08fce902ccd2e6c99eab7afac21aa6",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/PROOF.md"
+    },
+    {
+      "hash": "7867a331a155ac88ef438a1fc9149e2dc975640da276031040ef4f781071f54f",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/verify.py"
+    },
+    {
+      "hash": "1bd844a1034358db959459fef6d32129fddc1253ab27d10fddf775b3476eb306",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/SOURCE_SCOPE.md"
+    },
+    {
+      "hash": "6e1eac4c71dcab51da442ea5c096509a77d5e03321935c666b6763b0de6e133e",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/LAW_MAP_PROPOSALS.md"
+    }
+  ],
+  "pre_execution_checks": {
+    "syntax_only_parse": "Passed without importing or executing the verifier.",
+    "staged_governance": {
+      "exit": 1,
+      "passed": 25,
+      "failed": 5,
+      "failed_categories": [
+        "attribution",
+        "path-refs",
+        "test-vacuity",
+        "seal-provenance",
+        "relay-debt"
+      ],
+      "new_packet_paths_implicated": false,
+      "seal_digests": "PASS",
+      "raw_gate_log_sha256": "55db1df9b69617d37e31ad62c5a95cc8ec07dcc29642f12ebd44fbef5e23214f"
+    }
+  },
+  "verification_grade": "Explicit conditional hand proof with exact algebraic safeguards. Neither independent analytic acceptance nor reconstruction of the supplied parent.",
+  "scope_flags": {
+    "joint_move_invariance_retained": true,
+    "gauge_embedding_supplied": true,
+    "flat_background_fixed": true,
+    "global_PDE_certified": false,
+    "physical_index_derived": false,
+    "doubled_boundary_identified_with_full_parent": false,
+    "cusp_unit_selected": false,
+    "Lambda_derived": false,
+    "full_suite_green": false,
+    "complete_TOE": false
+  },
+  "custody": {
+    "native_stdout_byte_identical": true,
+    "all_five_source_hashes_match_before_and_after": true,
+    "unrelated_dirty_files_preserved": true
+  },
+  "next_duties": [
+    "Review the conditional proofs and their source-to-physical identifications independently.",
+    "Derive the actual field/operator/end law and its symmetry/gradation requirements from earlier genesis inputs.",
+    "Keep modular end-integer selection separate until an operator or line-bundle map connects it.",
+    "Adopt the scoped law proposals through the existing registry without duplicating W28 or using another seat's bank number."
+  ]
+}
