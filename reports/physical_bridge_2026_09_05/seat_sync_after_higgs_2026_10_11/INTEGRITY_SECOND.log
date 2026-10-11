@@ -1,0 +1,4 @@
+PASS equal-byte/changed-byte opposing metadata controls
+PASS eight staged files equal checked tree and working bytes
+PASS append-only progress; five source blobs and stored output custody
+PASS eleven enumerated tracking-head hashes; no science execution

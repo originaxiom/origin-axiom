@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-11",
+  "scope": "Git-blob custody and stored-result parsing only; no producer execution or new independent mathematical certificate",
+  "source_commit": "b7a51ac7094ea5b1e800598238a51890d9345dfc",
+  "source_seal_commit": "c2baf707b863e65324aed7f63f3fb87a31f76e1d",
+  "files": [
+    {
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/PREREGISTRATION.md",
+      "bytes": 8703,
+      "sha256": "7d0924583b8e4b109aa58f2b20d963655eb2c7effc29b7c9c99353513405499f",
+      "receipt_hash_matches": true,
+      "unchanged_from_source_preseal": true
+    },
+    {
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/PROOF.md",
+      "bytes": 18431,
+      "sha256": "eb5cb00e092be2569a33f6938598fd441c08fce902ccd2e6c99eab7afac21aa6",
+      "receipt_hash_matches": true,
+      "unchanged_from_source_preseal": true
+    },
+    {
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/verify.py",
+      "bytes": 11286,
+      "sha256": "7867a331a155ac88ef438a1fc9149e2dc975640da276031040ef4f781071f54f",
+      "receipt_hash_matches": true,
+      "unchanged_from_source_preseal": true
+    },
+    {
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/SOURCE_SCOPE.md",
+      "bytes": 5137,
+      "sha256": "1bd844a1034358db959459fef6d32129fddc1253ab27d10fddf775b3476eb306",
+      "receipt_hash_matches": true,
+      "unchanged_from_source_preseal": true
+    },
+    {
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/LAW_MAP_PROPOSALS.md",
+      "bytes": 2718,
+      "sha256": "6e1eac4c71dcab51da442ea5c096509a77d5e03321935c666b6763b0de6e133e",
+      "receipt_hash_matches": true,
+      "unchanged_from_source_preseal": true
+    }
+  ],
+  "stored_native": {
+    "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/NATIVE_FIRST.json",
+    "bytes": 78018,
+    "sha256": "535df39d095a2b4f8afd2d9e5b515c634f35b5ee5f6efe5ac35de73b34333d01",
+    "receipt_bytes_match": true,
+    "receipt_hash_match": true,
+    "stored_predicates": 2681,
+    "all_stored_values_literal_true": true,
+    "reported_passed": 2681,
+    "reported_failed": [],
+    "reported_required": 2681,
+    "reported_missing": [],
+    "reported_unexpected": []
+  },
+  "reported_scope_flags": {
+    "physical_index_derived": false,
+    "E8_embedding_reconstructed": false,
+    "global_PDE_certified": false,
+    "doubled_boundary_identified_with_full_parent": false,
+    "cusp_unit_selected": false
+  }
+}

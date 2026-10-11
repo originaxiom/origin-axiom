@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-11 post-Higgs all-seat synchronization
+
+All11 advertised heads fetched and tracking refs match the server;
+genesisb7a51ac70 retains the operator/end-law priority. Focused full
+reading and five-file/78,018-byte puncture-output custody checks pass;
+2,681 stored true predicates are not a new independent producer replay.
+Our completed framed/Higgs checkpoints are relayed, separate from the
+unsealed selective-boundary drafts. Sender relay OPEN, no recipient
+acknowledgment or new canonical genesis/physical spectrum is assigned.
+Receipt: physical bridge/seat_sync_after_higgs_2026_10_11/FINDINGS.md.
+
 ## 2026-10-11 Higgs exception and actual boundary compatibility cost
 
 50 native/20 Fraction exact predicates and24 regression PASS,8 new;

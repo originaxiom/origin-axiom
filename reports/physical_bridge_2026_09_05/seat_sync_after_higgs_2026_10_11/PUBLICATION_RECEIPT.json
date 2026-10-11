@@ -1,0 +1,85 @@
+{
+  "checked_tree_first": "47cab8eb1b42013470df23d5756ead00d68785ce",
+  "checked_tree_corrected": "4b9dc9ecaa5b21a60686fb23b21ec6334eb5991c",
+  "checked_paths": [
+    "reports/physical_bridge_2026_09_05/seat_sync_after_higgs_2026_10_11/SERVER_HEADS.json",
+    "reports/physical_bridge_2026_09_05/seat_sync_after_higgs_2026_10_11/CUSTODY.json",
+    "reports/physical_bridge_2026_09_05/seat_sync_after_higgs_2026_10_11/FINDINGS.md",
+    "reports/physical_bridge_2026_09_05/relays/CODEX_TO_GENESIS_CC_AND_SM_2026-10-11_LATEST_SYNC_AND_TYPED_BOUNDARY_DUTY.md",
+    "reports/physical_bridge_2026_09_05/README.md",
+    "CHANGELOG.md",
+    "docs/RELAY_LEDGER.md",
+    "PROGRESS_LOG.md"
+  ],
+  "scope": "Metadata/source-reading checkpoint. No mathematical producer executed, no new theorem or physical spectrum banked.",
+  "runs": {
+    "integrity_first": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.1358620000537485,
+      "log_bytes": 80,
+      "log_sha256": "c143de105b9e69995f404119023daada0a65f784c0d2782b82cb1549bb957598",
+      "private_capture_receipt_sha256": "b86107f2adeafeb86504227c0171b8dcf14ae1d7209101b22c6e8544de500d6c",
+      "public_log": "INTEGRITY_FIRST.log"
+    },
+    "integrity_second": {
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.3725469999480993,
+      "log_bytes": 254,
+      "log_sha256": "8b0e3c40130a936ebf38829accb6c2910f5a6a4a2fe9325b72c907dc33afe2df",
+      "private_capture_receipt_sha256": "a32abc03cc66c83db716b89c7c74e8bafbb6b1d07c0a0bf5cbfb738333be79df",
+      "public_log": "INTEGRITY_SECOND.log"
+    },
+    "governance_first": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 15.356538999825716,
+      "log_bytes": 2503,
+      "log_sha256": "e3655b337bc629e7e5a559dcf852d1d9779df136b2a7a05f2dba2c86f0961d01",
+      "private_capture_receipt_sha256": "1c4bce523f19675fdadb98cc1b27472f5e4b15e0145b1d5a6ef8ca54aa5fc92c",
+      "public_log": "GOVERNANCE_FIRST.log"
+    },
+    "governance_second": {
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 15.622302999952808,
+      "log_bytes": 2384,
+      "log_sha256": "da0bbc5fbf460c1b7e5545500108947398dd407e54a6e297830e629ff37b81b5",
+      "private_capture_receipt_sha256": "4f9ac67955b9f7b412ea37b151476cc134cd192f4db7defb592922d5c73ed135",
+      "public_log": "GOVERNANCE_SECOND.log"
+    }
+  },
+  "corrections": [
+    "The first custody checker could not parse a literal non-ASCII character in command-line source. An explicit script encoding and Unicode escape repaired metadata parsing; the original log is retained.",
+    "The first staged governance run flagged raw provider-specific branch names in SERVER_HEADS.json. The public receipt now uses operational aliases, exact commit hashes and hashes of full refs. This is omission of unnecessary labels, not encoded prohibited prose. The first log is retained."
+  ],
+  "preparatory_diagnostics": [
+    "An inline conversion helper initially used Ruby symbol-key object syntax rather than JSON parsing; the unsuccessful diagnostic changed no file.",
+    "One combined Delete/Add patch for the same file was rejected atomically; the change was applied with an Update patch."
+  ],
+  "governance": {
+    "pass": 26,
+    "fail": 4,
+    "inherited_categories": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "first_three_failure_lines_byte_identical_to_preceding_higgs_checkpoint": true,
+    "all_gates_green": false,
+    "stale_relay_debts": 42
+  },
+  "scientific_execution": false,
+  "selective_boundary_sealed": false,
+  "selective_boundary_executed": false,
+  "full_suite_green": false,
+  "receiver_acceptance": false,
+  "full_goal_achieved": false,
+  "metadata_only_after_corrected_checked_tree": [
+    "FINDINGS.md publication note",
+    "PUBLICATION_RECEIPT.json",
+    "Four byte-faithful publication-check logs"
+  ]
+}

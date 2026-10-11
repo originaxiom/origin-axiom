@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+October11 post-Higgs seat synchronization: all11 server heads fetched
+and tracking hashes matched; genesis remainsb7a51ac70. Focused source
+and puncture-output custody review, not a new producer replay. See
+[sync receipt](seat_sync_after_higgs_2026_10_11/FINDINGS.md) and updated
+sender-owned OPEN relay. Genesis operator/end selection and our same-
+action consistency test remain complementary, not interchangeable.
+Selective-boundary drafts remain unsealed/unexecuted; no new physical
+spectrum or foundational selection is claimed from them.
+
 October11 Higgs/adjoint scope checkpoint supersedes earlier NEXT:
 50 native/20 separate Fraction predicates and24 three-packet regression
 PASS,8 new, unchanged from pushed pre-execution8d65c086d. Report:
