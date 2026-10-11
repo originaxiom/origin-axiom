@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-11",
+  "kind": "unchanged_sealed_test_replay",
+  "scope": "Four existing physical-bridge test files; no new mathematical producer, altered assertion or full-suite certificate.",
+  "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest tests/test_physical_bridge_global_mass_flux.py tests/test_physical_bridge_global_mass_flux_control.py tests/test_physical_bridge_finite_twist.py tests/test_physical_bridge_finite_twist_reductivity.py -q -p no:randomly",
+  "execution": {
+    "permissions": "Approved external runtime/cache access for both replays, unlike the sandboxed full-suite Sage setup failure.",
+    "baseline": "Isolated detached checkout at baseline commit.",
+    "current": "Research checkout remained read-only during replay; pre-existing unrelated changes retained.",
+    "stdout_stderr": "Captured together; terminal exit captured separately.",
+    "log_public_projection": "Replace the local Python installation prefix with <PYTHON_PREFIX>; no other substitutions.",
+    "log_projection_occurrences_per_log": 1
+  },
+  "environment": {
+    "python": "3.12.1",
+    "pytest": "9.0.3",
+    "sympy": "1.14.0",
+    "sage": "Existing sage launcher; no package upgrade or cache deletion performed."
+  },
+  "runs": [
+    {
+      "name": "baseline",
+      "commit": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+      "exit": 1,
+      "passed": 47,
+      "failed": 3,
+      "errors": 0,
+      "warnings": 1,
+      "pytest_seconds": 39.66,
+      "public_log": "BASELINE_FOCUSED_FIRST.txt",
+      "raw_log_sha256": "8945ba765ac159b96c9f6a8f1a59d562d0e1ee9a4ff64d72e130a94716a1a680",
+      "public_log_sha256": "2fe01e77efa5b8ea9367ef80eb80da5309e56b5ce175e95d978a2613bb3028ed"
+    },
+    {
+      "name": "current",
+      "commit": "30fdb6a16087b54a154b359342d991f47c4f54eb",
+      "exit": 1,
+      "passed": 47,
+      "failed": 3,
+      "errors": 0,
+      "warnings": 1,
+      "pytest_seconds": 27.37,
+      "public_log": "CURRENT_FOCUSED_FIRST.txt",
+      "raw_log_sha256": "3430056207ebcdfcbde858b578b51cee2c9d2d73566d6c977382c42f6cbb796d",
+      "public_log_sha256": "3ca34eb8a2cab75e145cb5d219c839e77e88d82cfd42207523d0d72915b4696c"
+    }
+  ],
+  "exit_file_sha256_both": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+  "same_failed_nodes": [
+    "tests/test_physical_bridge_global_mass_flux.py::test_actual_twisted_connection_transports_both_spin_factors",
+    "tests/test_physical_bridge_finite_twist.py::test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp",
+    "tests/test_physical_bridge_finite_twist.py::test_non_self_duality_has_an_actual_obstruction_and_dual_character_map"
+  ],
+  "identical_baseline_and_current_git_trees": {
+    "reports/physical_bridge_2026_09_05": "69baa44a22134da4e4d5627f2b217a9dadd78426",
+    "tests": "efbe2c589353c52adb6c0182091c9256d1e86dde"
+  },
+  "baseline_to_current_runtime_diff": {
+    "paths": [
+      "reports/physical_bridge_2026_09_05",
+      "tests",
+      "src",
+      "scripts",
+      "pyproject.toml",
+      "conftest.py"
+    ],
+    "git_diff_quiet_exit": 0
+  },
+  "original_correction_commits": {
+    "spin_connection": "833b939b3",
+    "finite_twist": "59e923022ad917d78b4c0702d1f10ab07f5200e8"
+  },
+  "refreshed_physical_commit": "a45771daa55890655100a2626bd1f7f151faaf0a",
+  "publication_read_not_replayed": "0ae860e449405c1d15fd82c2fc7ea440d70fa479",
+  "read_new_physical_files": [
+    "silver_charged_pair_lift_2026_10_11/FINDINGS.md",
+    "silver_charged_pair_lift_2026_10_11/PROOF.md",
+    "silver_charged_pair_lift_2026_10_11/NEXT_TEST.md",
+    "weave_archive_intake_2026_10_11/FINDINGS.md"
+  ],
+  "source_sha256": {
+    "reports/physical_bridge_2026_09_05/global_mass_flux.py": "91d70b40528ef06958e20e4733f76fe9221605751073a9583bec8611a2be280e",
+    "reports/physical_bridge_2026_09_05/global_mass_flux_control.py": "abed159981f6c4a6b16b6ac01b2fc65c1a7f25ed89f2a6f29c427afd0bea8d69",
+    "reports/physical_bridge_2026_09_05/finite_twist.py": "6d84b2ace7be4b4757b904223b9317cf7761d781d3836bd2226d0b4178c35091",
+    "reports/physical_bridge_2026_09_05/finite_twist_reductivity.py": "b643eda1077dd590eb8567a072da3e27b3cc82bf45be5d5f170f008ff7c7695a",
+    "tests/test_physical_bridge_global_mass_flux.py": "2a8bfa80fe59e944d42d636810c2ff98a3e429dbf0f38a889ddb858e222f1629",
+    "tests/test_physical_bridge_global_mass_flux_control.py": "8ed2ed597ab3c44a1e10f60add43a841a95c80201e7d44a48821b23cad102c1b",
+    "tests/test_physical_bridge_finite_twist.py": "015dfaf176836a3496b3ae01dbd5a951d62817053d400e16a12db63c10ab6b55",
+    "tests/test_physical_bridge_finite_twist_reductivity.py": "d1fd767ed256898387edc3fa30ae28ffff24d29ca97787c023538d9105b29892"
+  },
+  "output_inventory": {
+    "baseline_tracked_diff": [],
+    "baseline_nonignored_untracked": [],
+    "baseline_ignored": [
+      ".pytest_cache/.gitignore",
+      ".pytest_cache/CACHEDIR.TAG",
+      ".pytest_cache/README.md",
+      ".pytest_cache/v/cache/lastfailed",
+      ".pytest_cache/v/cache/nodeids"
+    ],
+    "current_replay": "Pre-existing unrelated dirty/untracked inventory unchanged at termination, before report creation."
+  },
+  "ancillary_failure": "Initial checksum command failed because Perl rejected inherited C.UTF-8 locale. Reissued with LC_ALL=C LANG=C LC_CTYPE=C and succeeded. Test captures were not overwritten.",
+  "publication_checks": {
+    "staged_tree_before_receipt_annotation": "1ffdb00b447b5feb423cd59c2334c5aab4edc77e",
+    "method": "Exported the complete Git index to a separate temporary directory; ran its gate script with Git metadata bound to this repository and the work tree bound to that export.",
+    "gate_exit": 1,
+    "passed": 25,
+    "failed": 5,
+    "failed_categories": [
+      "attribution",
+      "path-refs",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "failures_scope": "Reported attribution paths, unresolved citation, vacuous tests and provenance designs all lie outside this packet. Relay debt remains open. No failure exemption or baseline change.",
+    "gate_log_sha256": "e8acbd796d02b7de90b8ea8ed04cdee59b519075b5e19aa9a587cb8c6c1583e0",
+    "source_hash_checks": 8,
+    "public_log_hash_checks": 2,
+    "staged_diff_whitespace": "passed",
+    "scope_note": "This receipt annotation follows that staged check. It is not a green repository certificate."
+  },
+  "status": {
+    "three_original_failures_reproduced_on_baseline": true,
+    "corrective_tests_replayed": true,
+    "new_physical_pair_lift_independently_replayed": false,
+    "full_suite_green": false,
+    "physical_chirality_derived_by_this_replay": false,
+    "genesis_to_physics_link_derived": false
+  }
+}
