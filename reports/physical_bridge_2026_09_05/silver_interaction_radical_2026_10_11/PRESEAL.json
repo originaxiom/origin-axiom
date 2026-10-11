@@ -1,0 +1,35 @@
+{
+  "before_first_science_execution": true,
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/DESIGN.md",
+      "bytes": 4687,
+      "sha256": "8f2bc81d8e0d1f0f93d75295669db190dd742b3a42f01c65591bafbc449d09b0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/PROOF.md",
+      "bytes": 3904,
+      "sha256": "07acffd7de75ceb915988ff3064e2b270d61cd9a861f9af2a68880274abc8e89"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/probe.py",
+      "bytes": 8044,
+      "sha256": "7415bb6846c4057465747ac3aaf00df5eb607c4505eafda1dab4a81481af1cff"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/reference.py",
+      "bytes": 8085,
+      "sha256": "ae7522bff1c9ae17cbb18ef5d964182786be4d0fe8c66290975b7d20e1167daf"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/INPUTS.json",
+      "bytes": 5184,
+      "sha256": "c6b350feb98b9ed26f304bee178f5693cd21e152131a7bfe2e6dc4a45c75688a"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_interaction_radical.py",
+      "bytes": 2957,
+      "sha256": "594f40bbdd43adab2b8649e12ac2139111a865dc3a7b2e39b39af0335acb4dec"
+    }
+  ]
+}

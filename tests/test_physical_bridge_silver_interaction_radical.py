@@ -1,0 +1,71 @@
+"""Live exact identities and independent field-method comparisons, not log strings."""
+import importlib.util
+from functools import lru_cache
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parents[1]/'reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11'
+
+
+@lru_cache(None)
+def both():
+    out = []
+    for name in ('probe', 'reference'):
+        sp = importlib.util.spec_from_file_location('test_radical_'+name, BASE/(name+'.py'))
+        mod = importlib.util.module_from_spec(sp)
+        sp.loader.exec_module(mod)
+        out.append(mod.run())
+    return out
+
+
+def test_same_actual_boundary_and_all_primitive_dimensions():
+    a, b = both()
+    assert a['boundary_plane_sha256'] == b['boundary_plane_sha256']
+    assert len(a['boundary_plane_sha256']) == 4
+    expected = dict(Q=1, u=1, e=1, d=1, weak=2, Hu=1)
+    assert {k: v['primitive_dimension'] for k, v in a['profiles'].items()} == expected
+    assert {k: v['primitive_dimension'] for k, v in b['profiles'].items()} == expected
+
+
+def test_exact_constant_envelopes_agree_not_only_dimensions():
+    a, b = both()
+    for label, field in a['profiles'].items():
+        for key in ('envelope_rank', 'envelope_sha256', 'meridian_image_rank',
+                    'longitude_image_rank', 'e5_flag', 'meridian_e5_flag', 'longitude_e5_flag'):
+            assert field[key] == b['profiles'][label][key], (label, key)
+
+
+def test_all_four_tensor_terms_are_classified_individually():
+    a, b = both()
+    assert set(a['channels']) == set(b['channels']) == {'up', 'down', 'lepton', 'udd'}
+    for label, tensor in a['channels'].items():
+        for key in ('first_term_zero', 'second_term_zero', 'difference_zero', 'classification'):
+            assert tensor[key] == b['channels'][label][key], (label, key)
+        assert tensor['difference_zero']
+
+
+def test_reference_has_envelope_and_term_degree_certificates():
+    _, b = both()
+    for f in b['profiles'].values():
+        assert len(set(f['distinct_points'])) == f['envelope_degree_bound']+1
+    for t in b['channels'].values():
+        assert len(set(t['distinct_points'])) == t['degree_bound']+1
+
+
+def test_actual_log_nonzero_controls_agree_and_are_not_physical_modes():
+    a, b = both()
+    assert a['free_coordinate_controls'] == b['free_coordinate_controls']
+    assert all(a['free_coordinate_controls'].values())
+    assert all(a['facts'].values()) and all(b['facts'].values())
+
+
+def test_boundary_parallel_line_is_not_a_bulk_invariant_section():
+    for result in both():
+        assert result['e5_boundary_parallel'] and not result['e5_bulk_parallel']
+
+
+def test_no_boundary_retargeting_or_physical_completion_claim():
+    for result in both():
+        for key in ('boundary_changed', 'neutral_cubic_computed',
+                    'higher_physical_operators_computed', 'generated_selection',
+                    'register_loss_causation', 'outside_review', 'full_goal_achieved'):
+            assert not result[key]
