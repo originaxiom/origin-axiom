@@ -1,0 +1,17 @@
+{
+  "repaired_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+      "bytes": 14591,
+      "sha256": "14fe9f10ba95458da619405b3a7de2394640526eb4b8df8caee3cf0cd299b9da"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/REPAIR_4.md",
+      "bytes": 1818,
+      "sha256": "68683a62359a3bac51112da0b13a93119e4db5b627fb0274dc16e98ffeaed879"
+    }
+  ],
+  "prior_seal": "d6f6402383da7f74fce31a0cfa0517e1a34c6461",
+  "before_replay": true,
+  "scope": "exact guarded quadratic coefficient conversion; fraction-free K(z) elimination; independent Fraction method unchanged"
+}

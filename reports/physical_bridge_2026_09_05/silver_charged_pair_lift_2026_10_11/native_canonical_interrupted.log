@@ -1,0 +1,89 @@
+Traceback (most recent call last):
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 244, in <module>
+    if __name__=='__main__': print(json.dumps(run(),sort_keys=True,indent=2))
+                                              ^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 185, in run
+    fam = family(rep,data); dfam = {k:x.subs(q,1/q) for k,x in family(dualrep,data).items()}
+                                                               ^^^^^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 72, in family
+    R2 = -mm(mm(q*Q, fox(rep, data['cusp_words'][0])[:, :2*n], q),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 61, in fox
+    prefix = mm(prefix, letters[letter], variable); blocks[j] -= prefix
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 43, in mm
+    return dm(a, variable).matmul(dm(b, variable)).to_Matrix()
+           ^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py", line 35, in dm
+    return DomainMatrix.from_Matrix(a.applyfunc(s.expand)).convert_to(K if variable is None else K.frac_field(variable))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/domainmatrix.py", line 548, in convert_to
+    rep_K = rep.convert_to(K)
+            ^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 927, in convert_to
+    Ak = unop_dict(A, lambda e: K.convert_from(e, Kold))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 1452, in unop_dict
+    Bij = f(Aij)
+          ^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/sdm.py", line 927, in <lambda>
+    Ak = unop_dict(A, lambda e: K.convert_from(e, Kold))
+                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/domain.py", line 396, in convert_from
+    result = _convert(element, base)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/domain.py", line 664, in from_ExpressionDomain
+    return K1.from_sympy(a.ex)
+           ^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/domains/algebraicfield.py", line 369, in from_sympy
+    return self(to_number_field(a, self.ext).native_coeffs())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py", line 499, in to_number_field
+    minpoly, coeffs = primitive_element(extension, gen, polys=True)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py", line 358, in primitive_element
+    g = minimal_polynomial(gen, x, polys=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 703, in minimal_polynomial
+    result = _minpoly_compose(ex, x, domain)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 576, in _minpoly_compose
+    ex1 = _separate_sq(ex)
+          ^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/numberfields/minpoly.py", line 156, in _separate_sq
+    p = _mexpand(p1**2) - _mexpand(p2**2)
+                                   ~~^^~
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/expr.py", line 268, in __pow__
+    return self._pow(other)
+           ^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/decorators.py", line 248, in _func
+    return func(self, other)
+           ^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/decorators.py", line 118, in binary_op_wrapper
+    return func(self, other)
+           ^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/expr.py", line 264, in _pow
+    return Pow(self, other)
+           ^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/power.py", line 225, in __new__
+    obj = base._eval_power(exp)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/mul.py", line 743, in _eval_power
+    return Mul(*[Pow(b, expt, evaluate=False) for b in cargs]) * \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/operations.py", line 108, in __new__
+    c_part, nc_part, order_symbols = cls.flatten(args)
+                                     ^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/mul.py", line 405, in flatten
+    b, e = o.as_base_exp()
+           ^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/power.py", line 803, in as_base_exp
+    def as_base_exp(self):
+
+KeyboardInterrupt

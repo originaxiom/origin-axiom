@@ -18,6 +18,7 @@ HERE = Path(__file__).resolve().parent
 GEN = 'abt'
 q, z = s.symbols('q z')
 K = s.QQ.algebraic_field(s.sqrt(2))
+ROOT_ELEMENT = K.from_sympy(s.sqrt(2))
 
 
 def load(name, path):
@@ -29,14 +30,41 @@ def load(name, path):
 cy = load('charged_lift_old_cyclic_native', HERE.parent/'silver_cyclic_transfer_2026_10_06/probe.py')
 
 
+def quadratic_polynomial(x):
+    x=s.expand(x); b=x.coeff(s.sqrt(2)); a=s.expand(x-b*s.sqrt(2))
+    if not (a.is_Rational and b.is_Rational):
+        raise ValueError('coefficient outside the declared quadratic field')
+    return K.convert(a)+K.convert(b)*ROOT_ELEMENT
+
+
+def element(x, variable=None):
+    # Extract exact rational quadratic pairs; never rediscover minimal
+    # polynomials for nested rational expressions or silently approximate.
+    num,den=s.together(x).as_numer_denom()
+    if variable is None: return quadratic_polynomial(num)/quadratic_polynomial(den)
+    field=K.frac_field(variable); generator=field.gens[0]
+    def polynomial(expr):
+        out=field.zero
+        for (power,),coefficient in s.Poly(s.expand(expr),variable,domain='EX').terms():
+            out+=field.convert(quadratic_polynomial(coefficient))*generator**power
+        return out
+    return polynomial(num)/polynomial(den)
+
+
 def dm(a, variable=None):
-    # Expand sums/products before EX -> algebraic-field conversion: otherwise
-    # repeated Fox sums can trigger redundant minimal-polynomial discovery.
-    return DomainMatrix.from_Matrix(a.applyfunc(s.expand)).convert_to(K if variable is None else K.frac_field(variable))
+    field=K if variable is None else K.frac_field(variable); data={}
+    for i in range(a.rows):
+        row={j:element(a[i,j],variable) for j in range(a.cols) if a[i,j]!=0}
+        if row:data[i]=row
+    return DomainMatrix(data,(a.rows,a.cols),field)
 
 
 def rank(a, variable=None):
-    return dm(a, variable).rank() if a.rows and a.cols else 0
+    if not a.rows or not a.cols:return 0
+    matrix=dm(a,variable)
+    # Exact rank over K(variable), computed fraction-free in its associated
+    # polynomial ring. No parameter evaluations or statistical sampling.
+    return len(matrix.rref_den(method='CD',keep_domain=False)[2]) if variable is not None else matrix.rank()
 
 
 def mm(a, b, variable=None):
@@ -235,6 +263,14 @@ def run():
     held=s.Pow(s.Add(1,s.sqrt(2),evaluate=False),5,evaluate=False)*(z-1)
     normalized=dm(s.Matrix([[held]]),z).to_Matrix()[0,0]
     ck('exact_expansion_preserves_algebraic_coefficient_not_rational_shadow',s.expand(normalized-(41+29*s.sqrt(2))*(z-1))==0 and s.expand(normalized-41*(z-1))!=0)
+    reciprocal=dm(s.Matrix([[1/(2+s.sqrt(2))]])).to_Matrix()[0,0]
+    ck('quadratic_rational_expression_exact_not_float',s.expand(reciprocal-(1-s.sqrt(2)/2))==0)
+    rejected=False
+    try: dm(s.Matrix([[s.sqrt(3)]]))
+    except ValueError: rejected=True
+    ck('undeclared_quadratic_field_rejected',rejected)
+    toy=s.Matrix([[1,z,0],[2,2*z,0],[0,0,z]])
+    ck('fraction_free_rank_agrees_with_direct_small_field_and_rank_jump',rank(toy,z)==dm(toy,z).rank()==2 and rank(toy.subs(z,0))==1)
     return dict(facts=facts,predicates_passed=len(facts),blocks=blocks,first_mass_maps=jets_out,
                 common_generation_indices=list(range(-2,3)),conditional_small_v_charged_lift=True,
                 actual_normalized_mass_values=False,global_PDE_solved=False,Higgs_complete=False,
