@@ -821,3 +821,14 @@ The new source compares exact polynomial entries and adds two-sided controls.
 |---|---|
 | `reports/genesis_root_review_2026_10_11/cohomology_carrier/verify_v2.py` | `3ad420c2c716f3703680fc221301562f2a5bed4d9d955130bf7de77ce1b3f687` |
 | `reports/genesis_root_review_2026_10_11/cohomology_carrier/CORRECTION_V2.md` | `2c4bfc0f1038e9780f5ac1d50ebf9909cebe4cadf2c3a0a803b4dea38a97dd16` |
+
+### Modular base Hodge connection before first execution
+
+Path-local mathematical verification, 2026-10-11. Tests curvature, effective flux,
+fixed-sector energy and end norms; no unit selection or physical index claim.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/cusp_connection/PREREGISTRATION.md` | `18367cf77c92b2f246f0a0f870aedd0822a910ee2903c388a9aa59f3bf97ecfb` |
+| `reports/genesis_root_review_2026_10_11/cusp_connection/PROOF.md` | `676dea8c0ab74562c251134f294ec2294f41aa86aadd03beedff02161adf8908` |
+| `reports/genesis_root_review_2026_10_11/cusp_connection/verify.py` | `68ecd85af0f11bdac2f842960c4f149ea0f541c161158a43f7039e8cca800546` |
