@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-10-11 same-domain neutrals and complete direct light cubic
+
+23 native/11 separate Fraction predicates and51 six-packet regression
+tests PASS in330.25s,8 new. Six neutral connecting states retained,
+with authored full-mode trace-zero proof and exact transverse-space
+checks; central nonexact longitude retained. Both actual weak-Hu-central
+contractions ZERO with degree17/18-point and actual-log nonzero controls.
+Together with unchanged charged theorem this covers the entire DIRECT
+light chiral cubic on THIS supplied selective small-phase model.
+
+Gauge/parent/chiral positives stand; not an all-orders/quantum/free-theory
+or architecture kill. Six seal/test files pushed e4564d4c3 before first
+science;25 source pins unchanged. An original interrupted regression
+has UNKNOWN receipt; unchanged replay is recovered, not assumed green.
+Next same-domain massive Green/induced terms and upstream typed selection.
+
+Report silver_neutral_cubic_2026_10_11/FINDINGS.md; geometry note distinguishes
+shared fibration and its ends from a physical enclosing blanket/spacetime.
+Previous four-plane relay's missing ledger row registered OPEN, alongside
+the new relay. No new shared bank/I number, canonical amendment or sender
+assigned acceptance. Full SM/TOE and outside/full-suite/main debts remain.
+
 ## 2026-10-11 selective charged annihilator explained
 
 57 native/34 separate Fraction predicates and43 five-packet regression

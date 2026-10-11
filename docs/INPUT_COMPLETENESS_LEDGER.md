@@ -1,5 +1,21 @@
 # THE INPUT-COMPLETENESS LEDGER — mandatory checklist for any SM-facing cell
 
+October11 neutral/direct-light disclosure: SAME supplied full E8
+parent/action/silver affine coefficient/compact core/positive metric/
+NEW selective domain/constant-log boundary and physical z=i v. No
+plane, state, gauge law, parameter or empirical target changed. Six
+science/test blobs sealed e4564d4c3;25 source blobs unchanged.23/11
+exact checks and51 focused regression PASS do not independently
+certify the smooth Hilbert/PDE map. Six structure neutrals are relative
+connecting modes, not deleted states; central longitude is nonexact.
+Actual-log18/5 control is outside admitted modes, not a physical value.
+Complete DIRECT light cubic ZERO is normalization invariant, not a
+full/higher/quantum potential or all-architecture exclusion. Geometry
+fibration dimension4 is not derived spacetime or an enclosing boundary.
+End/domain/field selection, rank6/rank5 map, I-23,3 families, Higgs/SUSY/
+extras/gravity/observer/qualia and full parameter-free SM/TOE remain
+explicit unpaid duties. Outside/full-suite/main acceptance not supplied.
+
 October11 interaction-radical disclosure: SAME supplied parent/action/
 silver affine coefficient/reference/core/positive metric/NEW selective
 constant-boundary domain and phase. No plane, field, spectrum or physical

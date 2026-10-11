@@ -1,5 +1,20 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 neutral/direct-light sublemmas, authored CONDITIONAL smooth
+application on SAME selective constant-boundary/small-phase model.
+Packet silver_neutral_cubic_2026_10_11, seal e4564d4c3;23/11 exact predicates,
+8 new within51 selected regression PASS. Prior operator/domain and
+charged Stokes proof credited; no new bank number/outside acceptance.
+
+| Scoped result | Proof and live safeguard |
+|---|---|
+| Actual neutral transverse U leaves exactly6 connecting H1 states, not gauge deletions; U=R instead gives12 | PROOF1 and test_actual_neutral_spaces_agree_not_only_counts / test_equal_restriction_is_a_real_opposing_domain; actual space hashes, absolute/boundary maps and parallel primitives agree |
+| All smooth closed neutral tangential traces vanish under this strict Hodge domain | Authored PROOF1 full-mode positive-Hodge/LES argument, finite actual cell/log/partner hypotheses checked by probe/reference and test_actual_neutral_spaces_agree_not_only_counts; NOT a numerical global harmonic PDE certificate |
+| Nonexact central longitude couples by3 f_weak^T A_dual f_Hu, zero for both actual weak modes | PROOF3, test_central_pair_same_actual_planes_and_exact_zero / test_actual_nonzero_central_control_agrees; degree17/18 nonsingular points in characteristic0, actual-log18/5 opposing witness outside physical kernels |
+| Necessary U1/SU3-center/SU2-center constraints bound every direct gauge-invariant light cubic to six field types | PROOF4 and test_complete_necessary_catalogue_is_not_singlet_multiplicity / test_charge_omission_is_detected_by_actual_catalogue; independent ordered/unordered enumeration, not sufficient singlet multiplicities |
+| Entire direct light chiral cubic is zero on this model, with all7 neutrals and gauge interactions retained | PROOF2-4 joined with unchanged charged PROOF; test_all_seven_neutrals_preserved_and_no_higher_completion_claim. Analytic application conditional; normalization cannot restore zero, no all-orders/quantum/architecture kill |
+| Actual central detector rejects a deliberately zero implementation | test_zero_contraction_mutation_fails_its_bound_nonzero_control; nonzero opposing fixture calls the actual contraction, not detached index arithmetic |
+
 October11 selective interaction-radical sublemmas at fixed supplied
 constant-boundary/small-phase domain, authored CONDITIONAL application.
 Packet silver_interaction_radical_2026_10_11, latest science63bc22dbf;

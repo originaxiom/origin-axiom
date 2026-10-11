@@ -1,0 +1,80 @@
+{
+  "scientific_source_commit": "e4564d4c323d0568ce54a7a179d11fbab279f88b",
+  "input_source_commit": "0e5ab0c054bea0136e19eedc6b7d403cfcd2b58c",
+  "native": {
+    "exit_code": 0,
+    "predicates_passed": 23,
+    "output": "NATIVE_FINAL.log",
+    "first_execution": true
+  },
+  "reference": {
+    "exit_code": 0,
+    "predicates_passed": 11,
+    "output": "REFERENCE_FINAL.log",
+    "first_execution": true,
+    "new_native_imported": false
+  },
+  "original_regression": {
+    "terminal_status": "UNKNOWN",
+    "counted_as_pass": false,
+    "receipt_not_recovered_after_interruption": true
+  },
+  "regression": {
+    "exit_code": 0,
+    "passed": 51,
+    "new_tests": 8,
+    "seconds": 330.25,
+    "output": "REGRESSION_FINAL.log",
+    "unchanged_source_replay": true,
+    "files": [
+      "tests/test_physical_bridge_silver_neutral_cubic.py",
+      "tests/test_physical_bridge_silver_interaction_radical.py",
+      "tests/test_physical_bridge_silver_charged_cubic.py",
+      "tests/test_physical_bridge_silver_selective_boundary.py",
+      "tests/test_physical_bridge_silver_framed_coupled_domains.py",
+      "tests/test_physical_bridge_silver_fermion_action.py"
+    ]
+  },
+  "output_custody": {
+    "NATIVE_FINAL.log": {
+      "bytes": 3035,
+      "sha256": "12d4d109346d0918f426ae7ad7470ff49d73a6290e72ec52c3f765ce869bd445"
+    },
+    "REFERENCE_FINAL.log": {
+      "bytes": 2698,
+      "sha256": "ec3db507a255e921906e3ece5e4fd7052dba4893f1b5f78eb0c718ba747ee9fc"
+    },
+    "REGRESSION_FINAL.log": {
+      "bytes": 111,
+      "sha256": "0bb61d3847b53d07cfe0b1bdd5d726e2e5823f1d7cbf5391f4f46e736a38d1e4"
+    }
+  },
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "scope": {
+    "same_author_two_methods": true,
+    "source_pins": 25,
+    "sealed_science_test_files": 6,
+    "seal_input_committed_byte_rows_verified": 31,
+    "conditional_full_mode_Hodge_LES_proof": true,
+    "full_smooth_harmonic_PDE_numerically_solved": false,
+    "neutral_states_deleted": false,
+    "nonexact_central_retained": true,
+    "complete_direct_light_chiral_cubic_zero": true,
+    "boundary_changed": false,
+    "gauge_interactions_deleted": false,
+    "massive_induced_operators_computed": false,
+    "all_orders_flatness_proved": false,
+    "generated_selection": false,
+    "normalized_values": false,
+    "register_loss_causation": false,
+    "independent_analytic_acceptance": false,
+    "foreign_geometry_computations_replayed": false,
+    "physical_enclosing_boundary_derived": false,
+    "full_suite_run": false,
+    "main_banked": false,
+    "full_goal_achieved": false
+  }
+}

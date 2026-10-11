@@ -1,5 +1,34 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 neutral/direct-light dispositions supersede earlier uncomputed
+neutral duty ONLY; historical entries retain their epoch.
+
+- PB-SILVER-NEUTRAL-DIRECT-CUBIC EXECUTED:6 connecting modes with zero
+  trace, central nonexact longitude, both weak modes retained;23/11
+  exact predicates and51 regression PASS. Joined direct cubic ZERO
+  only on the specified supplied selective constant-boundary phase.
+- PB-NORMALIZED-INTERACTIONS OPEN: NEW-domain cyclic massive Green/
+  contraction and first induced light terms, full light potential/
+  norms and quantum/global response. Do not transpose old gauge-input
+  BFV or infer all-order flatness from direct ZERO.
+- PB-GENESIS-END-OPERATOR-LINK / PB-SILVER-SELECTIVE-BOUNDARY-SELECTION
+  OPEN: faithful coefficient/real/operator/domain/kinetic/cyclic/end
+  map and selection; preserve V4 and based/lift data. No rank6/rank5,
+  regulator/modular-cusp or desired-index/source identification.
+- PB-SILVER-FINITE-NEUTRAL-RESPONSE OPEN LEAD, NOT RESULT: boundary-
+  parallel primitives might organize a finite response. Test actual
+  stationary flatness/moment/source and fixed-domain laws; rotating
+  a primitive basis is not an induced physical interaction.
+- Physical realization of weave geometry/time/end data remains a map
+  duty. No enclosing blanket or cosmic final shape is inferred from
+  the fibration; act/register/observer/qualia questions retained.
+- Three-family/Higgs/mu/SUSY/extras, parameters/I-23, gravity, full quantum/
+  inflow and outside/full-suite/main/archive acceptance remain.
+
+Source silver_neutral_cubic_2026_10_11/FINDINGS.md and NEXT_TEST.md.
+Sender-owned new and prior four-plane relays OPEN; prior missing ledger
+row now registered. Full parameter-free SM/TOE ACTIVE/unachieved.
+
 October11 four-plane mechanism dispositions supersede the prior OPEN
 mechanism duty only; dated earlier entries retain their epoch.
 

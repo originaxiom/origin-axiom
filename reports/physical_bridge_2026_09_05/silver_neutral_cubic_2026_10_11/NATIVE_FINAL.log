@@ -1,0 +1,120 @@
+{
+  "boundary_changed": false,
+  "boundary_plane_sha256": {
+    "Fweak": "b63be1d5d16b1178a283514b73ddbb59c3ee1e38f85ae16f9665e8269746291a",
+    "Fweakdual": "dba3e98db41284e69eb5095c5bc6b8b21f76ff153b235715c53996dfd9881cb7"
+  },
+  "center_allowed_types": [
+    [
+      "Hu",
+      "N",
+      "weak"
+    ],
+    [
+      "Hu",
+      "Q",
+      "u"
+    ],
+    [
+      "N",
+      "N",
+      "N"
+    ],
+    [
+      "Q",
+      "d",
+      "weak"
+    ],
+    [
+      "d",
+      "d",
+      "u"
+    ],
+    [
+      "e",
+      "weak",
+      "weak"
+    ]
+  ],
+  "center_constraints_are_only_necessary": true,
+  "central_free_control": {
+    "indices": [
+      0,
+      1
+    ],
+    "value_Qsqrt2": [
+      "18/5",
+      "0"
+    ]
+  },
+  "central_pair": {
+    "coordinate_polynomials": [
+      "0",
+      "0"
+    ],
+    "polynomial_degree_bound": 17,
+    "shape": [
+      2,
+      1
+    ],
+    "zero": true
+  },
+  "facts": {
+    "Hu_actual_fixed_trace_plane": true,
+    "Hu_closed_trace": true,
+    "Hu_polynomial_degree_bound": true,
+    "Hu_whole_pencil_kernel": true,
+    "actual_central_contraction_nonzero_opposite": true,
+    "actual_neutral_harmonic_exact_trace_intersection_zero": true,
+    "actual_trace_symplectic_not_positive_Gram": true,
+    "all_parallel_primitives_and_actual_log_transport": true,
+    "central_abelian_self_bracket_with_nonabelian_opposite": true,
+    "central_actual_polynomial_degree": true,
+    "central_is_nonexact_longitude_not_deleted": true,
+    "charge_omission_expands_catalogue_opposite": true,
+    "complete_necessary_center_catalogue": true,
+    "equal_restriction_opposite_changes_the_mechanism": true,
+    "neutral_all_degree_chain_maps": true,
+    "neutral_coefficient_bracket_detector_nonzero_opposite": true,
+    "restriction_is_injective_and_neutral_transverse": true,
+    "same_actual_weak_and_dual_primitive_counts": true,
+    "six_connecting_classes_are_not_gauge_deletions": true,
+    "weak_actual_fixed_trace_plane": true,
+    "weak_closed_trace": true,
+    "weak_polynomial_degree_bound": true,
+    "weak_whole_pencil_kernel": true
+  },
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "higher_physical_operators_computed": false,
+  "neutral": {
+    "absolute_H": [
+      0,
+      6,
+      6,
+      0
+    ],
+    "allowed_absolute_H1": 0,
+    "boundary_H": [
+      6,
+      12,
+      6
+    ],
+    "connecting_dimension": 6,
+    "equal_line_absolute_H1": 6,
+    "equal_line_physical_H1": 12,
+    "parallel_primitive_dimension": 6,
+    "parallel_primitive_sha256": "0cb0e91f9dcc229d75b62fe0b95b31d82400dae4b85a218f10daebbf99570e80",
+    "physical_H1": 6,
+    "plane_sha256": "a3bba4f4a47e00bd399126ef05bc429b2333db4f6a8691e0fb32cf113b677f59",
+    "restriction_sha256": "fe32fc55b4fba2681ee98c3d6f724a69187dfb9d557f59ad6f202621440139cb",
+    "state_deleted": false,
+    "tangential_trace_zero": true
+  },
+  "neutral_chirals": 7,
+  "neutral_self_zero": true,
+  "normalized_values": false,
+  "outside_review": false,
+  "predicates_passed": 23,
+  "structure_neutral_mixed_zero": true
+}

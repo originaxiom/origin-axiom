@@ -1,0 +1,24 @@
+{
+  "result": "NOT_GREEN",
+  "exit_code": 1,
+  "pass": 26,
+  "fail": 4,
+  "staged_publication_paths_at_gate": 24,
+  "failure_categories_unchanged": true,
+  "first_three_failure_lines_identical": true,
+  "relay_open_count": {
+    "before": 124,
+    "after": 126,
+    "reason": "New neutral relay and previously committed four-plane relay's omitted ledger row registered OPEN."
+  },
+  "relay_unescalated_stale_count": {
+    "before": 42,
+    "after": 42
+  },
+  "review_due_merges": {
+    "before": 456,
+    "after": 457
+  },
+  "output": "GOVERNANCE_STAGED.log",
+  "certificate_limits": "This metadata, log and findings footer are added after the staged gate, not recursively certified by it. Focused regression certifies unchanged sealed science/test bytes, not full repository acceptance."
+}

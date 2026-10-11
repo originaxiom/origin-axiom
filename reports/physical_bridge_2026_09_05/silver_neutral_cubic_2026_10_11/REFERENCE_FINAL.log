@@ -1,0 +1,126 @@
+{
+  "boundary_changed": false,
+  "boundary_plane_sha256": {
+    "Fweak": "b63be1d5d16b1178a283514b73ddbb59c3ee1e38f85ae16f9665e8269746291a",
+    "Fweakdual": "dba3e98db41284e69eb5095c5bc6b8b21f76ff153b235715c53996dfd9881cb7"
+  },
+  "center_allowed_types": [
+    [
+      "Hu",
+      "N",
+      "weak"
+    ],
+    [
+      "Hu",
+      "Q",
+      "u"
+    ],
+    [
+      "N",
+      "N",
+      "N"
+    ],
+    [
+      "Q",
+      "d",
+      "weak"
+    ],
+    [
+      "d",
+      "d",
+      "u"
+    ],
+    [
+      "e",
+      "weak",
+      "weak"
+    ]
+  ],
+  "center_constraints_are_only_necessary": true,
+  "central_free_control": {
+    "indices": [
+      0,
+      1
+    ],
+    "value_Qsqrt2": [
+      "18/5",
+      "0"
+    ]
+  },
+  "central_pair": {
+    "distinct_points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "polynomial_degree_bound": 17,
+    "shape": [
+      2,
+      1
+    ],
+    "zero": true
+  },
+  "facts": {
+    "actual_central_contraction_nonzero_opposite": true,
+    "actual_neutral_coefficient_bracket_nonzero_opposite": true,
+    "all_six_connecting_modes_and_zero_bulk_invariants": true,
+    "central_nonexact_marked_longitude": true,
+    "complete_characteristic_zero_central_degree_certificate": true,
+    "exact_same_transverse_partner_not_equal_line": true,
+    "independent_crossed_word_chain_and_bulk_maps": true,
+    "literal_End25_actual_trace_symplectic_pair": true,
+    "necessary_catalogue_is_discriminating": true,
+    "opposite_retains_six_absolute_classes": true,
+    "same_actual_weak_and_genuine_dual_counts": true
+  },
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "higher_physical_operators_computed": false,
+  "neutral": {
+    "absolute_H": [
+      0,
+      6,
+      6,
+      0
+    ],
+    "allowed_absolute_H1": 0,
+    "boundary_H": [
+      6,
+      12,
+      6
+    ],
+    "connecting_dimension": 6,
+    "equal_line_absolute_H1": 6,
+    "equal_line_physical_H1": 12,
+    "parallel_primitive_dimension": 6,
+    "parallel_primitive_sha256": "0cb0e91f9dcc229d75b62fe0b95b31d82400dae4b85a218f10daebbf99570e80",
+    "physical_H1": 6,
+    "plane_sha256": "a3bba4f4a47e00bd399126ef05bc429b2333db4f6a8691e0fb32cf113b677f59",
+    "restriction_sha256": "fe32fc55b4fba2681ee98c3d6f724a69187dfb9d557f59ad6f202621440139cb",
+    "state_deleted": false,
+    "tangential_trace_zero": true
+  },
+  "neutral_chirals": 7,
+  "neutral_self_zero": true,
+  "new_native_imported": false,
+  "normalized_values": false,
+  "outside_review": false,
+  "predicates_passed": 11,
+  "same_author": true,
+  "structure_neutral_mixed_zero": true
+}
