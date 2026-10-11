@@ -1,5 +1,24 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 framed coupled sublemmas, SAME supplied action/phase/OLD A0.
+Authored conditional analytic PROOF1-5 in
+reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/;
+LIVE tests/test_physical_bridge_silver_framed_coupled_domains.py.
+48/44 local controls and8 new tests within30 regression PASS at56d4c3392.
+Both methods same author; outside/global analytic/main acceptance owed.
+Run13 massive organization is credited prior; new scope is the framed
+strict-normal cancellation, not a selected Standard Model or TOE.
+
+| Scoped result | Verification and limit |
+|---|---|
+| Nonparallel old A0 normal Green contraction vanishes on the ACTUAL normal complement | PROOF2, closed-boundary Hermitian adjoint and shape antisymmetry: minus pairing of D_Sigma c in A1 with beta in A1-perp. Arbitrary two-form claim fails |
+| Auxiliary and gaugino high normal responses follow on compatible framed solutions | PROOF2, w=Du in squared domain and D_Sigma A1 in ann(A0). Smooth spectral/evolution only; not extra closed H2 trace |
+| Same mixed action yields the real P_v and Delta_v quadratic split | PROOF1/3, real slice and integrated boundary pairing; previously proved C_k(H) inverse/kernel retained. No OLD A0 reset |
+| Positive real P_v profiles retain a physical imaginary exact scalar and paired Weyl masses | PROOF4, Df/m and actual R/J map, compact real Goldstone only; Run13 prior extended conditionally, not numerical silver mass values |
+| Co-closed positive profiles have actual Takagi mass m | PROOF4, antilinear K squared=m^2 and inherited cyclic domain; wrong linear interpretation fails. No protected-zero pairing forced |
+| Positive spectral count is a vector plus b chiral multiplets with 4a+2b physical degrees | PROOF4, full form tuple and REAL gauge removal; no new cohomology census or double H2 particles |
+| Coupled framed quadratic Gauss Hamiltonian is positive with matching longitudinal/scalar frequency | PROOF5, all real p/positive m; independent matrix vs Lagrangian controls. FREE core evolution, not nonlinear/quantum Hamiltonian |
+
 October11 charged-pair sublemmas, SAME supplied silver model and constant
 log-gauge flat torus metric witness. Authored conditional PROOF1-6 in
 reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/;

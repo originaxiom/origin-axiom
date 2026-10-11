@@ -1,5 +1,29 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 framed coupled dispositions supersede older NEXT entries:
+
+- PB-WEAVE-RUN13-FRAMED-PHASE EXECUTED at authored conditional grade:
+  actual strict-normal cancellation on OLD A0; full quadratic massive
+  organization and free Gauss reduction.48/44 exact controls and8 new
+  within30 regression PASS. Reference Run13 credited, not renamed new.
+- PB-WEAVE-RUN13-COUPLED-REFERENCE archived producer replay remains OPEN;
+  the new different-method controls are not a replay of its three scripts.
+- PB-SILVER-LIGHT-HIGGS and UNWANTED-NEUTRAL/ADJOINT-LIFTING OPEN:
+  test actual SM-invariant field slots/full same-action interactions;
+  hypothesized harmonic-adjoint persistence is unexecuted, not a kill.
+- PB-NORMALIZED-INTERACTIONS/QUANTUM-BOUNDARY OPEN: global Yukawa norms,
+  nonlinear boundary evolution, anomalies/large gauge not free spectra.
+- PB-GENESIS-END-OPERATOR-LINK OPEN COORDINATION at genesisb7a51ac70:
+  recipient reports matching30-reference replay, source blob verified;
+  no new-packet analytic acceptance. Retained module/determinant line/
+  matter twist/end unit need actual maps, not rank or power matches.
+- PB-PHYSICAL-THREE-FAMILIES/LARGER-CARRIER and generated selection OPEN;
+  current family bound, adjoint/neutral endpoints and qualia duties retained.
+
+Report: silver_framed_coupled_domains_2026_10_11 under physical_bridge.
+Full parameter-free SM/TOE ACTIVE/unachieved; no source branch mutation,
+outside/global analytic/full-suite/main acceptance or universal negative.
+
 October11 charged-pair and archive dispositions supersede older duty
 lines below:
 

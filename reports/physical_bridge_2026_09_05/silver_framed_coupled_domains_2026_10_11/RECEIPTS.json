@@ -1,0 +1,83 @@
+{
+  "preexecution_commit": "56d4c3392fcfe795d9b4f25bba1ea5cbd78433b6",
+  "preexecution_pushed": true,
+  "science_files": 7,
+  "inputs": {
+    "git": 12,
+    "archive_reports": 2
+  },
+  "runs": [
+    {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/probe.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.455779999960214,
+      "log_bytes": 2022,
+      "log_sha256": "919658289b77fd48a8743dc59de4eac7ef91640ad535ffd8141bac14012040fd",
+      "raw_receipt_sha256": "3afee0a3365fd5023300669d998a82584ccdc1ef7665e3459fbb5e9fa05dac11",
+      "public_log": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/NATIVE_FIRST.log"
+    },
+    {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/reference.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.1656729998067021,
+      "log_bytes": 1884,
+      "log_sha256": "222fef8844155d1c1dcb938b71acca7f1f491e7e5c52d078e42586cc44f9a04b",
+      "raw_receipt_sha256": "5e725a6b26301427dae2d5f4d6595717c8015cbb16e205bbb006dedd439cd7d6",
+      "public_log": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/REFERENCE_FIRST.log"
+    },
+    {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "LC_ALL=C",
+        "LANG=C",
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:randomly",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_physical_bridge_silver_framed_coupled_domains.py",
+        "tests/test_physical_bridge_silver_fermion_action.py",
+        "tests/test_physical_bridge_silver_bosonic_quotient.py",
+        "tests/test_physical_bridge_silver_adjoint_phase.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 24.062988999998197,
+      "log_bytes": 100,
+      "log_sha256": "8c58e730859a452db4edd9b83d9f57f7dbad1e4b68c2fc89a0378494b93c5c55",
+      "raw_receipt_sha256": "a11f7b4139fba5d1a870642d3c14f6367f8c06050bfdc4f3c8cae36e2bc4c679",
+      "public_log": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/FOCUSED_FIRST.log"
+    }
+  ],
+  "public_command_path_sanitization": true,
+  "checks": {
+    "native": 48,
+    "reference": 44,
+    "focused": 30,
+    "new_tests": 8
+  },
+  "scientific_failures_or_interruptions": 0,
+  "source_or_science_repair_after_run": false,
+  "independent_analytic_acceptance": false,
+  "full_suite_green": false
+}

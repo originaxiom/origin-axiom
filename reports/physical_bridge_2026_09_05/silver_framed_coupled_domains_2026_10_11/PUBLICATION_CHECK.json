@@ -1,0 +1,73 @@
+{
+  "checked_staged_tree": "98657559a8e62d604bc13575bfe64ef61b3650eb",
+  "checked_publication_paths": [
+    "docs/CAMPAIGN_STATUS.md",
+    "docs/THE_CAMPAIGN.md",
+    "docs/THE_FRAMEWORK.md",
+    "docs/THE_LADDER.md",
+    "reports/physical_bridge_2026_09_05/PHYSICS_MISSION.md",
+    "reports/physical_bridge_2026_09_05/EXECUTION_ROADMAP_2026_10_05.md",
+    "reports/physical_bridge_2026_09_05/MISSION_STATUS_2026_09_10.md",
+    "reports/physical_bridge_2026_09_05/README.md",
+    "reports/physical_bridge_2026_09_05/GOAL_VERDICT.md",
+    "docs/LAW_MAP.md",
+    "docs/INPUT_COMPLETENESS_LEDGER.md",
+    "docs/IDENTIFICATION_LEDGER.md",
+    "docs/OPEN_LEADS.md",
+    "docs/RELAY_LEDGER.md",
+    "CHANGELOG.md",
+    "PROGRESS_LOG.md",
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/FINDINGS.md",
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/NEXT_TEST.md",
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/RECEIPTS.json",
+    "reports/physical_bridge_2026_09_05/relays/CODEX_TO_GENESIS_CC_AND_SM_2026-10-11_FRAMED_COUPLED_DOMAINS.md",
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/NATIVE_FIRST.log",
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/REFERENCE_FIRST.log",
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/FOCUSED_FIRST.log"
+  ],
+  "scientific_files_unchanged_from_preseal": true,
+  "integrity_exit_code": 0,
+  "integrity_scope": "byte-comparison and opposed NUL controls; 7 sealed science; 14 source pins; 3 literal scientific logs; all 23 named staged paths",
+  "governance": {
+    "command": [
+      "env",
+      "PYTHONDONTWRITEBYTECODE=1",
+      "LC_ALL=C",
+      "LANG=C",
+      "python3",
+      "scripts/gates/gates.py"
+    ],
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 15.12724700011313,
+    "log_bytes": 2384,
+    "log_sha256": "918dacea24e4e6fef27b5be13b1a19c2668536dec28f06430bd2a95e4ac83267",
+    "raw_receipt_sha256": "955a5eb8ef5a2aa901c5bf2ec03a303fe8c8f93055c155d403f9e704b7388c43",
+    "pass": 26,
+    "fail": 4,
+    "inherited_categories": [
+      "attribution",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "first_three_failure_lines_byte_identical": true,
+    "stale_relay_debts": 42,
+    "fresh_OPEN_relay_added": true
+  },
+  "identification": {
+    "earned": 8,
+    "refuted": 7,
+    "unearned": 9,
+    "ratchet_baseline": 9,
+    "pass": true
+  },
+  "metadata_only_after_checked_tree": [
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/PUBLICATION_GOVERNANCE.log",
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/PUBLICATION_INTEGRITY.log",
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/PUBLICATION_CHECK.json",
+    "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/FINDINGS.md (dated receipt only)"
+  ],
+  "full_suite_green": false,
+  "outside_analytic_or_main_acceptance": false
+}

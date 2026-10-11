@@ -1,5 +1,15 @@
 # THE INPUT-COMPLETENESS LEDGER — mandatory checklist for any SM-facing cell
 
+October11 framed coupled input disclosure: SAME supplied parent/metric/
+compact core/reference/Lg=Rg/charged-neutral planes/H/v/nonlocal A.
+No OLD A0 change and no new physical scale or empirical target. Seven
+science files,12 Git source blobs and2 archived report hashes pinned
+before execution at56d4c3392. Artificial m and slab n/q are exact control
+variables, not silver predictions. Canonical normalization is inherited,
+not tuned to a desired degeneracy.48/44 controls and30 regression PASS
+do not select the model, cure I-23 or derive Lambda, end unit, observers
+or a parameter-free SM/TOE. Outside/global analytic review remains owed.
+
 October11 charged-pair disclosure: SAME supplied parent/background/
 embedding/positive metric/cut/reference/strict boundary/charged and neutral
 planes/Lg=Rg/H/v/prefactor, explicitly specialized to a constant log-gauge

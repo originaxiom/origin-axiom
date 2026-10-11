@@ -1,5 +1,24 @@
 # Physical bridge audit — 2026-09-05
 
+October11 framed coupled-domain checkpoint supersedes earlier NEXT:
+48 native/44 separate-method exact LOCAL controls and30 four-packet
+regression PASS, including8 new tests, unchanged at pushed56d4c3392.
+Report: reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/FINDINGS.md.
+Strict tangential closure plus ACTUAL squared normal complement cancels
+the nonparallel old-k remainder. SAME action/phase/OLD A0, real gauge,
+auxiliary/vector/fermion domain and positive-mass quadratic organization;
+Run13's reference massive split/Gauss/Takagi prior is explicitly credited.
+Common smooth core and positive FREE Gauss evolution, not whole H2
+supersymmetry invariance or nonlinear/quantum completion.12 adjoint/
+6..12 neutral and light-Higgs/three-family/selection duties remain.
+Genesisb7a51ac70 acknowledges earlier reproduction and reports identical
+30-check reference replay; that is not acceptance of this new proof.
+NEXT actual same-action Higgs/spectator/interactions and upstream
+operator/end law. Parent/boundary/parameters/gravity/observer/qualia and
+full parameter-free SM/TOE ACTIVE/unachieved. Outside/full-suite/main
+acceptance owed; four inherited governance categories remain.
+Earlier dated source pins and duties retain their historical epoch.
+
 October11 later genesis synchronization: all eleven live heads fetched;
 fork30fdb6a16 is now published. Five unchanged producers reproduce
 4,133/371/8,234/3,626/136 checks; nine word tests and30 separate-method

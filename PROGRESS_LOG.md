@@ -18559,3 +18559,30 @@ nonparallel remainder, an unexecuted test rather than an assumed wall.
 Upstream operator/determinant/end rule remains coordinated. No source
 branch or dirty worktree changed. Outside/main/full physical Standard
 Model/TOE remain unachieved; publication governance recorded separately.
+
+## 2026-10-11 framed coupled spectrum on the same action and boundary
+
+Strict tangential closure and the ACTUAL squared normal complement
+cancel the nonparallel OLD A0 remainder; this is an authored conditional
+domain proof, not an arbitrary-w zero or a new boundary. Auxiliary and
+gaugino high responses hold on compatible smooth eigenmodes/common core,
+not every H2 graph element. Run13's positive-mass split/Takagi/Gauss
+organization is credited and extended to the framed phase. Compact REAL
+gauge removes only the real Goldstone; imaginary exact scalar, actual
+dual slots and C_k(H) endpoints remain. Positive reduced FREE evolution,
+no nonlinear quantum Hamiltonian or evaluated silver mass/Yukawa values.
+
+Pre-run56d4c3392 sealed/pushed seven science files.48 native/44 distinct-
+method local controls and30 four-packet regression PASS, eight new;
+literal first logs/exit receipts retained, no science failure/repair.
+All11 live server heads fetched; genesisb7a51ac70 reports matching replay
+of our30-reference and receipt of earlier work. Its output Git blob is
+byte-identical; no third implementation/new-packet acceptance assigned.
+Older source chronology and failed full-suite record are preserved.
+
+Nine current-status fronts, LAW_MAP sublemmas, input/identification/leads
+and sender-owned OPEN relay updated. Next actual same-action Higgs/
+spectator/interactions and upstream operator/end rule; existing twelve
+adjoint/six-to-twelve neutral profiles and larger-family capacity remain.
+Full parameter-free SM/TOE ACTIVE/unachieved. No source branch changed;
+outside analytic/full-suite/main acceptance and governance debt remain.
