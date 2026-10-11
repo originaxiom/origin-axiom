@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-11",
+  "before_execution": true,
+  "source_commit": "30fdb6a16087b54a154b359342d991f47c4f54eb",
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/PREREGISTRATION.md",
+      "bytes": 4507,
+      "sha256": "1c566929ce2ab29ff94b718f5c122cf64595413bb549b42b9a9799a24893a43d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/SOURCES.json",
+      "bytes": 5642,
+      "sha256": "5b1bad31d264b802997165720df4ef3022d78246da9c49aa4caf4fa2dba85684"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/replay.py",
+      "bytes": 2019,
+      "sha256": "78a643f9a9b4ecf95b799319080fdfe8e1f4377d685e3f00e2b9583e476191fc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/genesis_sync_replay_2026_10_11/reference.py",
+      "bytes": 3364,
+      "sha256": "83751b9177d1e3d7f9a37437516aceb8584cb7db290a3cfe1f2e5f5a7ffdec6d"
+    }
+  ],
+  "capture_helper": {
+    "path": "reports/physical_bridge_2026_09_05/capture_checked_run.rb",
+    "sha256": "54973dda238951ff15249cc54068f3ab6919049f73c947fb3d12cdbf67b6c602"
+  },
+  "scope": "focused cross-branch replay and local reference; no full-suite or physical derivation certificate"
+}
