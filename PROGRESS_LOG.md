@@ -18484,3 +18484,38 @@ SM6877cc87d and fork8b89d8fb unchanged at fetch; no fresh cross-seat
 science accepted. Sender-owned review relay OPEN. Four inherited
 governance categories/full-suite/main acceptance remain; publication
 custody and exact staged scope recorded separately.
+
+## 2026-10-11 charged pair lifting and Weave archive intake
+
+Science sealed/pushed initiallybe7c1bf1e and after preserved repairs through
+996e8d7ee.146 native/127 separate-method exact controls PASS;65 eight-packet
+regression PASS in380.05s, nine new tests, read-only tree. Seven science
+files originally sealed;13 latest science/repair artifacts and25 unchanged
+input pins match. Three literal native failures/three interrupted attempts
+preserved; reference first pass unchanged. Sparse stored exact zeros caused
+a false chain failure; full criterion/opposing nonzero control retained.
+
+Conditional generic fixed charged planes leave protected-only chirality
+at sufficiently small nonzero phase in the SAME supplied action and
+constant log-gauge flat boundary metric witness. Actual duals/exceptional
+incidence retained. CommonJ=-2..2 only THIS family. W_J1 first mass rank0
+still permits eventual lifting; no normalized higher coefficient/mass.
+Vectorlike doublets lift with triplets, while protected scalar doublets
+are not excluded.12 adjoint/6..12 neutral profiles and Higgs/selection/
+quantum/three-family-larger-carrier duties remain. Dated report under
+physical bridge: silver_charged_pair_lift_2026_10_11/FINDINGS.md.
+
+Owner's Weave1–13 archive byte-verified:291 outer files,289 manifest
+entries,254 original nested files and15 standalone matches. Scientific
+code not run/restored/accepted here. Original-reference Run13 coupled
+positive-mass/Gauss work is a review lead; its parallel-k assumption
+differs from our fixed OLD A0/new C_k(H) phase. Genesis local4b047860e
+dependency/carrier/cusp proofs read without altering that dirty worktree
+or replaying its safeguards; remote fork still8b89d8fb at refresh. A base
+Hodge connection realizes a supplied sector, not selected end unit or
+4d matter. See weave_archive_intake_2026_10_11/FINDINGS.md.
+
+Sender relay OPEN. All inputs priced, no observed target fitted; act/
+register/qualia preserved as upstream duties, not physical identities.
+Outside/full-suite/main acceptance and full parameter-free SM/TOE remain
+unachieved. Publication checks/custody recorded separately.

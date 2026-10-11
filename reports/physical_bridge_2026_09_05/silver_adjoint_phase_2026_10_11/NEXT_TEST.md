@@ -49,3 +49,14 @@ Seal the next scientific design/proof/implementations and push exact
 hashes BEFORE importing/running/testing. Certify read-only; retain
 literal failures and reseal repairs. Separate algorithms sharing an
 author are not nonauthor acceptance. Publish every disposition/lead.
+
+## Later October11 disposition
+
+The charged duty above is PARTIALLY EXECUTED in the next sealed packet,
+silver_charged_pair_lift_2026_10_11:146/127 controls and65 regression PASS.
+Generic small-v fixed planes lift unprotected charged pairs; actual family
+maps/dual first ranks and exceptional incidence retained. Zero first cup
+is not no lift. Constant boundary metric is an explicit specialization;
+normalized higher masses and finite-v/metric extensions remain owed.
+Higgs,12 adjoint/6..12 neutral, generated selection and quantum duties
+remain. Its NEXT_TEST records Weave13 coupled-domain and genesis review.

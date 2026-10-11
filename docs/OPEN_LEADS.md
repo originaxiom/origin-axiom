@@ -1,5 +1,33 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October11 charged-pair and archive dispositions supersede older duty
+lines below:
+
+- PB-SILVER-CHARGED-PAIR-LIFTING PARTIALLY EXECUTED: generic small-v
+  protected-only kernels, actual dual/exceptional incidence and first
+  physical ranks;146/127 controls and65 regression PASS. Normalized higher
+  masses, finite-v/metric transports and external acceptance still owed.
+- PB-SILVER-LIGHT-HIGGS/FIXED-BOUNDARY-RESONANCE OPEN: generic vectorlike
+  doublets lift with triplets; any special phase needs full Fourier/bulk
+  operator and scalar potential. Protected scalar doublets not excluded.
+- PB-WEAVE-ARCHIVE-CUSTODY EXECUTED:13 runs/254 original members/289
+  manifest entries byte-verified; no scientific code run or accepted.
+- PB-WEAVE-RUN13-COUPLED-REFERENCE OPEN REVIEW/REPLAY: original-reference
+  positive-mass/Gauss organization, not the already mapped zero census.
+- PB-WEAVE-RUN13-FRAMED-PHASE OPEN DISTINCT DUTY: original parallel k
+  versus fixed OLD A0/new C_k(H), surface/derivative/compensator checks.
+- PB-WEAVE-HISTORICAL-NEGATIVES OPEN CHRONOLOGICAL AUDIT: scientific
+  bodies/producers of Runs1–10 not all read/replayed in this intake.
+- PB-GENESIS-END-OPERATOR-LINK OPEN COORDINATION: local4b047860e read,
+  safeguards not replayed. Does a derived operator/determinant/end law
+  require a nonzero integral sector? Base realization is not selection.
+- PB-SILVER-UNWANTED-NEUTRAL/ADJOINT-LIFTING and larger three-family
+  carriers remain duties; this commuting branch's12/6..12 are retained.
+
+Full parameter-free SM/TOE ACTIVE; see charged report and
+weave_archive_intake_2026_10_11. No universal negative/absence or
+cross-seat independent acceptance claimed.
+
 October11 same-action framed phase disposition:
 
 - PB-SILVER-SAME-ACTION-SM-PHASE EXECUTED at conditional authored grade:

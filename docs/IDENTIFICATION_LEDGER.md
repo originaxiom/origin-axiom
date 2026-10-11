@@ -1,5 +1,17 @@
 # THE IDENTIFICATION LEDGER
 
+Local October11 charged-pair map, no shared I-number change: explicit
+parameter-family log/cell and relative graph comparison acts on the
+ACTUAL fixed charged trace complex. Its full-cone derivative acts as
+physical first Weyl mass compression up to positive kinetic metrics.
+PROOF1-5/live tests in silver_charged_pair_lift_2026_10_11:146/127 exact
+controls and65 regression PASS. EARNED at authored CONDITIONAL grade for
+the supplied constant boundary metric witness; outside review owed.
+Archive Run13 -> newer framed-phase coupled domain is NOT identified:
+parallel-k hypothesis differs with OLD A0 fixed. Genesis base connection
+-> selected unit/4d matter is NOT identified. Register/observer/qualia,
+I-23 and parameter-free SM/TOE remain unearned; shared9 baseline unchanged.
+
 Local October11 framed phase map (no shared I-number change): the actual
 same-action vector P_v kernel -> C_k(H), with fixed OLD A0; faithful
 SU5 embedding -> connected S(U3 x U2), explicit Z6 kernel. The actual

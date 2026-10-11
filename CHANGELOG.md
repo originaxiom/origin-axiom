@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-11 charged pair lifting and archive intake
+
+146 native/127 separate-method exact controls and65 eight-packet regression
+PASS, nine new tests. Conditional generic protected-only charged kernels
+on the SAME supplied action/fixed boundary and explicit constant boundary
+metric witness; zero first mass rank does not kill higher lifting.
+All failures/interruptions and repair seals preserved.12 adjoint/6..12
+neutral, Higgs/selection/quantum duties remain. Report under physical
+bridge: silver_charged_pair_lift_2026_10_11/FINDINGS.md.
+
+Weave1–13 byte integrity verified, no archived science executed/restored/
+accepted. Run13 parallel-k assumption needs a new framed-phase check.
+Genesis local4b047860e read without changing its dirty worktree or claiming
+reproduction. Sender relay OPEN; outside/full-suite/main and full
+parameter-free SM/TOE acceptance remain unpaid.
+
 ## 2026-10-11 silver same-action framed SM phase and physical cubic
 
 Conditional admitted SM phase on the SAME supplied silver physical

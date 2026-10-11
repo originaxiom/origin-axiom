@@ -1,5 +1,15 @@
 # THE INPUT-COMPLETENESS LEDGER — mandatory checklist for any SM-facing cell
 
+October11 charged-pair disclosure: SAME supplied parent/background/
+embedding/positive metric/cut/reference/strict boundary/charged and neutral
+planes/Lg=Rg/H/v/prefactor, explicitly specialized to a constant log-gauge
+flat boundary metric witness. Seven science files and25 pins sealed
+before execution; inputs unchanged. Real chi derived from relators, not
+parity reused. No empirical target, RG fit or scale prediction. Global
+normalized overlaps/arbitrary-metric transport are not pencil ranks.
+Archive custody/local genesis readings add no physical-input derivation.
+I-23, selection and full parameter-free SM/TOE remain unpaid.
+
 October11 framed-phase input disclosure: this is NOT a measured-value
 comparison. DESIGN/MODEL/INPUTS in
 reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/ were

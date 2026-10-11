@@ -1,5 +1,24 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October11 charged-pair sublemmas, SAME supplied silver model and constant
+log-gauge flat torus metric witness. Authored conditional PROOF1-6 in
+reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/;
+LIVE tests/test_physical_bridge_silver_charged_pair_lift.py.
+146/127 exact controls,9 new tests within65 regression PASS. Both methods
+same author; no outside/full-suite/main acceptance or selected SM/TOE.
+
+| Scoped result | Verification and limit |
+|---|---|
+| Real character chi(a)=chi(b)=0,chi(t)=1; cusp periods0,1 | Literal exponent matrix; parity retained separately and fails as a real character. PROOF1 |
+| W and ORIGINAL wedge2W twisted once become generically bulk/full-boundary acyclic near punctured zero | Exact leading minors and analytic U(B+zI) cell map; PROOF2, not all finite v |
+| Fixed charged graph reduces to its constant boundary pencil near zero | All nonzero Fourier blocks and relative family comparison; PROOF3, supplied constant metric only |
+| Generic planes have protected-only counts, exceptional incidence can retain pairs | H1=ell-s,H2=t0-s; s=rankS_zL, generic min(ell,t0). PROOF4;80 coordinate/actual-dual witnesses, not continuous vacua |
+| n+1 exact evaluations certify generic rank of a degree-one n-row pencil | Minor degree bound/opposing polynomial, Fraction versus K(z); PROOF4, not unbounded sampling |
+| Full-cone Bockstein acts as physical first mass rank | Actual varying cell map/boundary differential and canonical Weyl compression up to positive metrics; PROOF5, not normalized masses |
+| Zero first mass map does not imply no eventual lift | W_J1 first rank0, protected-only small-v kernel; PROOF5, higher effective coefficients not evaluated |
+| Common complete chiral indices are -2..2 in this silver family | Wt0=2,Ft0=3 and all admitted dimensions; PROOF6, not a larger-carrier three-family exclusion |
+| Generic pair removal removes weak doublets with triplets | All nonzero SM H weights; PROOF6, protected scalar doublets/other Higgs mechanisms not excluded |
+
 October11 silver framed phase sublemmas. SAME supplied action/positive
 metric/strict A, Lg=Rg, fixed charged/neutral planes. PROOF in
 reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/;

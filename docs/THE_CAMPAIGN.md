@@ -1,5 +1,24 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October11 charged-pair checkpoint supersedes the older next duty below:
+146 native/127 separate-method exact LOCAL controls and65 eight-packet
+regression PASS, including9 new tests. Report:
+reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/FINDINGS.md.
+In the SAME supplied action/fixed boundary, with an explicit constant
+log-gauge flat torus metric witness, generic fixed charged planes have
+only protected chirality at sufficiently small nonzero phase. Actual
+duals and exceptional paired loci remain. First mass rank zero does NOT
+prevent eventual lifting; no normalized mass is predicted. CommonJ=-2..2
+is THIS family's bound, not a three-family architecture kill. Vectorlike
+weak doublets lift with triplets;12 adjoint/6..12 neutral chirals remain.
+The Weave1–13 archive has verified byte custody, not scientific acceptance.
+Run13's parallel-k coupled result needs a distinct check on this phase
+with OLD A0 fixed. Genesis at local4b047860e is read, not replayed.
+Next coupled domains/Higgs/normalized interactions and upstream matter/
+end selection; see weave_archive_intake_2026_10_11/FINDINGS.md.
+Both exact methods share an author; outside/full-suite/main acceptance
+remain owed. Full parameter-free SM/TOE stays ACTIVE and unachieved.
+
 October11 same-action silver framed SM-phase checkpoint:61 native/46
 separate-method exact LOCAL controls and47 six-packet regression PASS,
 including8 new tests. Report:
