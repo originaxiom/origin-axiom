@@ -1,0 +1,47 @@
+{
+  "science_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/DESIGN.md",
+      "bytes": 5867,
+      "sha256": "5fbde6a6deb0311ef16763a832d40f0b53b14da20eeab7ff38dd3f38d0398ba0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md",
+      "bytes": 10671,
+      "sha256": "8557539bf0e764ea4350204403e26791473261f20f0b63b176618aa87b5be398"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/MODEL.json",
+      "bytes": 900,
+      "sha256": "de54aebedee810248c8afb9823fcedd956fb4a707400fd5233af39f49241a724"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/INPUTS.json",
+      "bytes": 3932,
+      "sha256": "466be62e4794a3d036fc32b863220aa968bd5e88b4842712de8b00481540eac8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/probe.py",
+      "bytes": 16854,
+      "sha256": "258be9208655b933cc737428ecdea8e365fee838870d119400f95895df371395"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py",
+      "bytes": 15137,
+      "sha256": "f2d88c62497d99db46797822abf0490787190c86531800a2021ed0668837ea0c"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_physical_multiplets.py",
+      "bytes": 6319,
+      "sha256": "ae2a1c0035d56bb427ed983353123a10517b81ceca63dc3e925cbf19fde78b41"
+    }
+  ],
+  "repair_file": {
+    "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/REPAIR.md",
+    "bytes": 1495,
+    "sha256": "88413df6b458c5b2d9e2ec64d5652dc26504c55f9f602ab62c2352ed77ac0a44"
+  },
+  "original_execution_seal": "9e434bfaa63cff9450959d54384e1a6ad969546a",
+  "execution_status": "original native96 retained unchanged; reference failed before census; repaired reference not executed",
+  "native_result_sha256": "ca6ad0d015816ab9d2f46d58304dee07309cc91a7aacf2e19d75cc4c27df7818"
+}

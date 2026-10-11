@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 0.9073499999940395,
+  "log_bytes": 1093,
+  "log_sha256": "a81c67c5880d57150407264bd4b83b527033eb6268d09dc5b2fbb3f7bcac0df0"
+}

@@ -1,0 +1,23 @@
+{
+  "command": [
+    "python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 18.588190000038594,
+  "log_bytes": 2384,
+  "log_sha256": "a859f36284025b86ee9731bdbc10676ca7fdf64f7af0fca9516c47e44eeb5c4c",
+  "checked_staged_tree": "7676cb607b40507262885a7fc135d56d1677295e",
+  "tree_after_run": "7676cb607b40507262885a7fc135d56d1677295e",
+  "passed": 26,
+  "failed": 4,
+  "inherited_failure_categories": [
+    "attribution: six earlier raw paths",
+    "test-vacuity: two earlier locks",
+    "seal-provenance: five earlier designs",
+    "relay-debt: 42 stale un-escalated debts"
+  ],
+  "new_packet_failure_listed": false,
+  "receipt_attached_after_checked_stage": true
+}

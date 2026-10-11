@@ -14,7 +14,10 @@ b=load('multiplet_fraction_coefficient',OLD/'silver_operator_gate_2026_10_05/ref
 K=b.K;z=b.zeros;eye=b.eye;add=b.add;tr=b.transpose;rank=b.rank;inv=b.inverse;hc=b.hcat;vc=b.vcat
 base_mul=b.mul
 def mm(a,c):
-    out=z(len(a),len(c[0]))
+    fields={type(x) for matrix in (a,c) for row in matrix for x in row if isinstance(x,K)}
+    if len(fields)>1:raise TypeError('mixed quadratic fields in sparse multiply')
+    field=next(iter(fields),int)
+    out=[[field(0) for _ in c[0]] for _ in a]
     for i,row in enumerate(a):
         for k,x in enumerate(row):
             if x:
@@ -172,10 +175,18 @@ def aggregate(charged,neutral,gauge):
 
 @lru_cache(None)
 def census():
+    checks={}
+    pairs=[([[f(1),f(0)],[f(0),f(1)]],[[f(0),f(2)],[f(3),f(0)]]) for f in (K,b.Gaussian)]
+    checks['sparse_multiply_preserves_exact_field']=all(mm(a,c)==base_mul(a,c) for a,c in pairs)
+    checks['sparse_multiply_preserves_zero_entry_field_type']=all(type(x) is type(a[0][0]) for a,c in pairs for row in mm(a,c) for x in row)
+    try:mm([[K(1)]],[[b.Gaussian(1)]])
+    except TypeError:checks['sparse_multiply_rejects_mixed_quadratic_fields']=True
+    else:checks['sparse_multiply_rejects_mixed_quadratic_fields']=False
+    checks['sparse_multiply_integer_only_positive_control']=mm([[1,0],[0,1]],[[0,2],[3,0]])==[[0,2],[3,0]]
     data=json.loads((OLD/'silver_operator_gate_2026_10_05/candidate.json').read_text())
     v=b.four(data);c=[K(a,d) for a,d in data['cocycle_Qsqrt2_pairs']];w=b.extension(v,c)
-    checks={};charged={}
-    checks['sparse_multiply_preserves_exact_field']=mm([[K(1,2),0],[K(3),K(0,1)]],[[0,K(2)],[K(1,-1),0]])==base_mul([[K(1,2),0],[K(3),K(0,1)]],[[0,K(2)],[K(1,-1),0]])
+    charged={}
+    checks['sparse_multiply_nonrational_positive_control']=mm([[K(1,2),0],[K(3),K(0,1)]],[[0,K(2)],[K(1,-1),0]])==base_mul([[K(1,2),0],[K(3),K(0,1)]],[[0,K(2)],[K(1,-1),0]])
     for name,rep in [('W',w),('F',{g:b.exterior(a) for g,a in w.items()})]:
         E,D=[boundary(a,data) for a in (rep,b.dual(rep))];n=E['C'].n;t=E['t'];q=E['q'];strata=[]
         checks[name+'_actual_cup_and_restriction_annihilators']=zero(mm(mm(tr(E['R']),E['J']),D['R'])) and q+D['q']==t and rank(mm(mm(tr(E['H']),E['J']),D['H']))==t

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py", line 230, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py", line 223, in run
+    c=dict(census());checks={**component_controls(),**root_controls(),**c.pop('checks')}
+           ^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/reference.py", line 176, in census
+    v=b.four(data);c=[K(a,d) for a,d in data['cocycle_Qsqrt2_pairs']];w=b.extension(v,c)
+      ^^^^^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py", line 154, in four
+    assert z[0][0].b==z[1][1].b==0
+           ^^^^^^^^^
+AttributeError: 'int' object has no attribute 'b'
