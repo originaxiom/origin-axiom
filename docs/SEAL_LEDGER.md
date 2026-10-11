@@ -795,3 +795,18 @@ all-length conclusion needs the analytic proof, not just its finite checks.
 | `reports/genesis_root_review_2026_10_11/positive_carrier/PREREGISTRATION.md` | `800af1a2f6b405d1ce317ccc121cf3dc305961f6394e9242e6bcfacccc719bf2` |
 | `reports/genesis_root_review_2026_10_11/positive_carrier/PROOF.md` | `97e48617c47b858f91f91e36fcdd28f405445fa132c33441354a3663e5e79dc7` |
 | `reports/genesis_root_review_2026_10_11/positive_carrier/verify.py` | `f6e7179685784933622b1c90e49819d6c98a4f8075d9793f35ca8d8bed2121bf` |
+
+## Fork local coefficient carrier audit 2026-10-11
+
+Pre-execution seal, no shared B allocation. Compare canonical derived
+quotients for the supplied parity and quaternion coefficient modules.
+The hypothesis is two-sided: a metabelian quotient loses doublet H1,
+while the next derived quotient retains it with its lifted move action.
+This is not a surface, physical field, end-unit or action derivation.
+Imported source hashes are in the packet's ARTIFACT_HASHES.txt.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/cohomology_carrier/PREREGISTRATION.md` | `e69a3200d39d81497e0a3bad6a67a7c6969cf1016d85e1b00c8cbb4a324fe794` |
+| `reports/genesis_root_review_2026_10_11/cohomology_carrier/PROOF.md` | `6193c07eaeccdbb33ef1bc4d54522e62d2c2b9922367ce6b2fe60c6af6a916a4` |
+| `reports/genesis_root_review_2026_10_11/cohomology_carrier/verify.py` | `bed756a71f633c7a52b18e66caa8b2f4c09bba91ccc9bd5890b07d39f03049fc` |
