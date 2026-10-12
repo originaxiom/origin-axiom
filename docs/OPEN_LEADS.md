@@ -1,5 +1,15 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October12 SAME-candidate gauge/end test SPECIFIED, unexecuted:
+silver_gauge_end_transport_2026_10_12 under physical_bridge, actual
+source/input/proof/native/reference/runner/tests digests in SEAL_LEDGER.
+PB-GENESIS-END-OPERATOR-LINK: derive actual period/holonomy map then
+complete degree0-3 operator on e5/gauge10 and dual; retain angular/radial
+coupling. Constant harmonic exterior representative supplied, not actual
+framed pointwise/core match. Changed old rank-one premise is not a
+localization/architecture kill. No selected SM/TOE or prior compact-domain
+census transfer. Before new scientific execution; full physics goal ACTIVE.
+
 October12 PB-WEAVE-JOINING-HANDOFF finite gate replay COMPLETED, wider
 application/selection OPEN: Joining Gates1-3 unchanged instruments pass
 seven executions at pushed repaired seal18368ab83, original science/input

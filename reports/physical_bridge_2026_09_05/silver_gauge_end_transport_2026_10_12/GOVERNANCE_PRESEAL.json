@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-12",
+  "command": "/Users/dri/.pyenv/versions/3.12.1/bin/python3 scripts/gates/gates.py",
+  "checked_parent": "877d9d2ba2311c51e33ba0303e0acd86d7eda97a",
+  "scope": "pre-execution branch preparation",
+  "exit_code": 1,
+  "pass": 26,
+  "fail": 4,
+  "inherited_failures": {
+    "attribution": [
+      "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PRIOR_FULL.txt",
+      "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json",
+      "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json",
+      "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+      "reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt",
+      "reports/physical_bridge_2026_09_05/missing_evidence_inventory.json"
+    ],
+    "test_vacuity": [
+      "tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain",
+      "tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives"
+    ],
+    "seal_provenance": [
+      "reports/physical_bridge_2026_09_05/EXTENSION_2.md",
+      "reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md",
+      "reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md",
+      "reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md",
+      "reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md"
+    ],
+    "relay_debt": "44 banked, 0 declined, 128 open; 42 un-escalated stale debts"
+  },
+  "seal_digests": "PASS",
+  "new_packet_or_new_tests_implicated": false,
+  "review_due_count": 470,
+  "after_gate_additions": "This receipt only; no science/source/test input changed",
+  "science_executed": false,
+  "full_suite_main_or_outside_acceptance": false
+}

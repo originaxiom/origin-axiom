@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-12 actual gauge/end operator pre-execution specification
+
+Following reproduced joining gates: exact marked period/holonomy maps
+and full degree0-3 angular/radial Hodge operator specified. New end test
+on structure-e5/gauge10 and dual, NOT entire E8/core or compact census
+transfer. Local harmonic representative declared; framed pointwise/core
+matching not assumed. Two methods,50-digit controls and eight tests
+sealed before first science; source/input/proof/script hashes registered.
+Expected changed D0-triviality need not kill localization. Goal unchanged;
+no executed result or natural SM selection claimed at this checkpoint.
+
 ## 2026-10-12 joining-gate scientific replay complete
 
 Seven unchanged archive instruments executed from new scratch at pushed

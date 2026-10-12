@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-12",
+  "pre_design_head": "877d9d2ba2311c51e33ba0303e0acd86d7eda97a",
+  "candidate_path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+  "end_matrices_path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/results/gate3/END_MATRICES.json",
+  "gauge_H": [
+    2,
+    2,
+    2,
+    -3,
+    -3
+  ],
+  "gauge_phase_parameter": "theta=v*P supplied; no observed target",
+  "exterior_representative": "declared constant harmonic representative; not pointwise/global core match",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "empirical_constants": [],
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b",
+      "git_blob": "e1e4b140bc27df46d9bc41bfdfebf8464b17fa2d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/MODEL.json",
+      "bytes": 1018,
+      "sha256": "d37f2a308a9257805a64cdb04b4e222002c83aa6858eec3357d9e2376d99eb6b",
+      "git_blob": "28337eceff7d0419b58bca0ca9227bbfe78693da"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "bytes": 13239,
+      "sha256": "6f3eee6acfed04e98f4df0d4fe98aff6d717be416a3aee05fb350d571934b8fa",
+      "git_blob": "45d8d37c5d29da05326b02888b3bb9d2b41d889d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "bytes": 7485,
+      "sha256": "20d20923474012672616c752b57ecb087817bf0acabc7ca04c4b2b38b1d1792e",
+      "git_blob": "4133e436096b89a652de980b37ddc461bc74486d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "bytes": 10193,
+      "sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7",
+      "git_blob": "8c7059116f683828064daa06664ab271ce92e140"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/results/gate3/END_MATRICES.json",
+      "bytes": 3005,
+      "sha256": "442276d645616ba991221942af65ed21cabcb5a1e7cccf4986602ee3727267b2",
+      "git_blob": "c62bcb963459b5d24bd0d205ed9a78b744314694"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/results/gate3/EXACT_RESULTS.json",
+      "bytes": 2177,
+      "sha256": "cc89dbdd1a20e662212d3c4e42ede31743667e405eb695e8bb381a46d9d64f75",
+      "git_blob": "a11f9ae46605730ccb8bc0b5290b9e1fc2b15991"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/DESIGN.md",
+      "bytes": 4330,
+      "sha256": "bac64bd22dc5a9666eb53b725251446a6ff0f7959fdab76c2c778e81c56ca21e",
+      "git_blob": "7d33e1ee1afea637d25925e19f546605f4fb9a94"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/PROOF.md",
+      "bytes": 7062,
+      "sha256": "1f5df5fd3f53384163892c6e9fcf37f2ce197f2043340606a113958309a02593",
+      "git_blob": "695a8523a4b6c496f9658c37a3b57e69fe4c5e5e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/probe.py",
+      "bytes": 7602,
+      "sha256": "5607a4753908f1a61e7c1d89be0fa7af3742495c46f8f3404e5502c1cada9d49",
+      "git_blob": "085aea53906afdbecd1fa68bc64b211ad7d17bdc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/reference.py",
+      "bytes": 6581,
+      "sha256": "0dd3acbc9e9771c081996db5fcb8eeeabdf886a6e0abedc88ac049fdef525d86",
+      "git_blob": "a1b416a4c6228a753755db3b2c761215d597bcda"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/execute.py",
+      "bytes": 3539,
+      "sha256": "34f045ada0d074b820f330edc33d01f5256edd5b52c2e97d3024c40582b60632",
+      "git_blob": "8e9416ec9a327228126f57f7ec742504cbf74a53"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_gauge_end_transport.py",
+      "bytes": 3286,
+      "sha256": "d52fa8b4ca4d9f7bc177632f22465e15baae5d27c11d4360e134c697c8972df5",
+      "git_blob": "0e9642986e45d899fe152f8ff99e00a91b14ee24"
+    }
+  ],
+  "full_goal_achieved": false
+}
