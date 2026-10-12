@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-12 joining gates replay pre-execution specification
+
+Personal handoff reading is complete at its stated ledger scope; specified
+unchanged-instrument reproduction of Joining Gates1-3 in NEW scratch.
+Eight exact source/input members, current candidate equality, seven science
+commands, two-sided controls and nine non-scientific runner tests sealed
+via actual computed hashes. No scientific execution or outcome yet.
+Gate3 structure4+1 localization is not gauge3+2/SM selection; retain
+charged positive, neutral continuum and full core/end matching duties.
+Publish before execution; full parameter-free SM/TOE remains ACTIVE.
+
 ## 2026-10-12 full handoff technical/source reading checkpoint
 
 All13 reports/final scientific producers, initial audit code, cross-branch

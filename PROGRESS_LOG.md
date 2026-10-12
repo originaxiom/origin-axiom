@@ -18889,3 +18889,24 @@ core/end matching without desired-spectrum-driven boundary substitution.
 Prior physics results remain intact; full parameter-free SM/TOE objective
 ACTIVE and unachieved. Outside analytic/full-suite/main and inherited
 governance debts remain; reading checkpoint is not a completed main bank.
+
+---
+
+## 2026-10-12 — Joining Gates1–3 unchanged replay: pre-execution design
+
+Current source/domain/energy application review and pre-compute protocol
+performed at declared scopes. Prepare exact eight-member source/input
+manifest, fresh-scratch wrapper and nine synthetic custody/plumbing tests;
+actual file digests appended to SEAL_LEDGER before scientific execution.
+Seven science commands specified: Gate1 both methods; Gate2 exact and
+reference50/80; Gate3 exact and numerical50. Original80 timeout stays
+UNKNOWN, not pass or mathematical kill. No new scientific outcome yet.
+
+Owner asks whether the handoff naturally selects SM through E8. Source
+Gate3 explicitly distinguishes STRUCTURE4+1 flag from GAUGE3+2: it is
+gauge-blind. Existing compact selective model explicitly supplies its
+3+2 boundary/polarization. Retain the real localization opportunity
+without relabeling it parameter-free SM selection. Full global matrix
+join, end/background/parent selection, neutral coupling and full physics
+obligations remain OPEN. Own branch publication precedes scientific run;
+not main banking, outside analytic/full-suite acceptance or a TOE.

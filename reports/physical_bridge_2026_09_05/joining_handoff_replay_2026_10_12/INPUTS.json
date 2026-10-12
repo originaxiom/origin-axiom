@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-12",
+  "archive_path": "reports/physical_bridge_2026_09_05/joining_handoff_intake_2026_10_12/ORIGINAL_HANDOFF.zip",
+  "archive_bytes": 2856066,
+  "archive_sha256": "84b1c111b774730cbec30d431eb1b7efad6e706d8c6af070243171eff2163443",
+  "repository_candidate_path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+  "candidate_git_blob": "e1e4b140bc27df46d9bc41bfdfebf8464b17fa2d",
+  "candidate_sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b",
+  "pre_design_repo_commit": "54bf6d2303cd9f1b90a9c32d8ea341be44560efa",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "members": [
+    {
+      "gate": "gate1",
+      "member": "Origin_Axiom_Banking_Seat_FULL_Handoff/EXPANDED/02_JOINING_GATE_1/weave_record_operator_gate_2026_10_11/verify_bridge.py",
+      "destination": "gate1/verify_bridge.py",
+      "bytes": 9417,
+      "sha256": "6227c2cf7a5d8092904e7c7fa88b1cfadbaadff03fce860cbfccc1e2f406b3d5"
+    },
+    {
+      "gate": "gate1",
+      "member": "Origin_Axiom_Banking_Seat_FULL_Handoff/EXPANDED/02_JOINING_GATE_1/weave_record_operator_gate_2026_10_11/verify_reference.py",
+      "destination": "gate1/verify_reference.py",
+      "bytes": 5015,
+      "sha256": "1be9d73dda5934b26dcb94cc562a94c3efda0cdf8b7ba34ffae32ac99aebd573"
+    },
+    {
+      "gate": "gate1",
+      "member": "Origin_Axiom_Banking_Seat_FULL_Handoff/EXPANDED/02_JOINING_GATE_1/weave_record_operator_gate_2026_10_11/candidate.json",
+      "destination": "gate1/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    },
+    {
+      "gate": "gate2",
+      "member": "Origin_Axiom_Banking_Seat_FULL_Handoff/EXPANDED/03_JOINING_GATE_2/weave_joining_gate2_2026_10_11/verify_exact.py",
+      "destination": "gate2/verify_exact.py",
+      "bytes": 8286,
+      "sha256": "4409755e06bff1b759bcf53df69b88c5a6de42a490957ccefeb0cc63d64fc4aa"
+    },
+    {
+      "gate": "gate2",
+      "member": "Origin_Axiom_Banking_Seat_FULL_Handoff/EXPANDED/03_JOINING_GATE_2/weave_joining_gate2_2026_10_11/verify_reference.py",
+      "destination": "gate2/verify_reference.py",
+      "bytes": 6015,
+      "sha256": "83af49f3672262ebafdc0e43ce10c95781d97e5f247945225f9ad85aebbb7e62"
+    },
+    {
+      "gate": "gate3",
+      "member": "Origin_Axiom_Banking_Seat_FULL_Handoff/EXPANDED/04_JOINING_GATE_3/weave_joining_gate3_2026_10_11/verify_exact.py",
+      "destination": "gate3/verify_exact.py",
+      "bytes": 8898,
+      "sha256": "2f919e08e515f6dd8e5b20054766514171567849cd9b3e1ea922accaac4b7ae9"
+    },
+    {
+      "gate": "gate3",
+      "member": "Origin_Axiom_Banking_Seat_FULL_Handoff/EXPANDED/04_JOINING_GATE_3/weave_joining_gate3_2026_10_11/verify_numerical.py",
+      "destination": "gate3/verify_numerical.py",
+      "bytes": 5483,
+      "sha256": "3d57058aa01a69de915b75786bbfeb4565cf1b3a3254523af17868a0cd07bffe"
+    },
+    {
+      "gate": "gate3",
+      "member": "Origin_Axiom_Banking_Seat_FULL_Handoff/EXPANDED/04_JOINING_GATE_3/weave_joining_gate3_2026_10_11/candidate.json",
+      "destination": "gate3/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    }
+  ],
+  "grade": "Hashes/custody only, not an execution or scientific acceptance"
+}

@@ -1,5 +1,14 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October12 joining-gate reproduction SPECIFIED, not executed: packet
+joining_handoff_replay_2026_10_12 under physical_bridge. Exact archive
+members/candidate, unchanged runner/design/test hashes in SEAL_LEDGER;
+seven scientific commands in fresh scratch, preserve failures and grades.
+PB-WEAVE-JOINING-HANDOFF and PB-GENESIS-END-OPERATOR-LINK remain OPEN.
+Structure4+1 flag is gauge-SU5 blind, NOT natural gauge3+2 selection;
+do not conflate its localization lead with the independently supplied
+selective compact boundary or call an end tail a global particle.
+
 October12 OWNER-SUPPLIED FULL JOINING HANDOFF priority intake:
 PB-WEAVE-JOINING-HANDOFF OPEN. Original full through-Gate3 ZIP preserved
 under reports/physical_bridge_2026_09_05/joining_handoff_intake_2026_10_12/,
