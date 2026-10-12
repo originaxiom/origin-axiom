@@ -1,0 +1,48 @@
+{
+  "status": "STOPPED_NOT_PROGRAM_KILL",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 220.0293051740009,
+      "exact_predicates": 34
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 1,
+      "elapsed_seconds": 18.553847260998737
+    }
+  ],
+  "scope": "same supplied parent actual neutral class/cubic/flatness premises; no all-order vacuum/selection/quantum completion",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "255024825a29cd32a4e746d6e0f3a434bdd732e8",
+  "initial_source_hashes_match": true,
+  "error": "AssertionError: reference",
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 9670,
+      "sha256": "71d380e4489ca7ec59f6b3dbd53a04bd80565d186dfa19b39b6c5f8658efc4c2"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 2031,
+      "sha256": "37ffb5fe1d83449697b0bb9bc6221725a36f0b48f85e0b1578bdcd6bc24b5426"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

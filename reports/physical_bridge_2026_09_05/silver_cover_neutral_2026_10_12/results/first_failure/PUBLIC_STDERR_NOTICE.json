@@ -1,0 +1,12 @@
+{
+  "original_private_stderr": {
+    "bytes": 2031,
+    "sha256": "37ffb5fe1d83449697b0bb9bc6221725a36f0b48f85e0b1578bdcd6bc24b5426"
+  },
+  "public_sanitized_stderr": {
+    "path": "reference.stderr.SANITIZED.log",
+    "sha256": "b6104c58610f9cc20eed84b2c90c76b7bafc27d3046fb10023c8be84a52f3aa6"
+  },
+  "transformation": "repository and Python runtime absolute prefixes replaced explicitly; all traceback lines retained",
+  "byte_faithful_other_captures": true
+}

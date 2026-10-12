@@ -1,5 +1,16 @@
 # The error ledger (GOVERNANCE §13/§15; instituted 2026-07-16)
 
+October13 path-local neutral audit incident: original255024825 run
+native34 PASS/reference TypeError while serializing a cochain space.
+Separate dynamic imports instantiated incompatible quadratic-field K
+classes; new reference adapter now uses its own Fraction arithmetic.
+Original failure/traceback custody and UNKNOWN earlier interruption:
+reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/REPAIR_2026_10_13.md.
+No cohomology assertion/model/proof retargeted; full repaired packet
+resealed before retry. Metadata relative edit target was also rejected
+atomically and retried with explicit absolute paths (E8). E7 custody
+preserved; instrument failure is not a programme negative.
+
 *One entry per ERROR CLASS, not per incident. Reviews check the window's
 disclosed errors against this taxonomy: a recurrence strengthens the class's
 standing rule; a new class gets a new entry. The question is always "what

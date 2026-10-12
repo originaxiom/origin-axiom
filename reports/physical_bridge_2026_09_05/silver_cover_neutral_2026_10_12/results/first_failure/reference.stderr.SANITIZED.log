@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "<REPO>/reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/reference.py", line 188, in <module>
+    print(json.dumps(run(), sort_keys=True, indent=2))
+                     ^^^^^
+  File "<REPO>/reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/reference.py", line 89, in run
+    row, extra = relative(E, ck, 'N_'+sector)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO>/reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/reference.py", line 47, in relative
+    'relative_space_sha256': space_hash(Z), 'connecting_space_sha256': space_hash(connecting),
+                             ^^^^^^^^^^^^^
+  File "<REPO>/reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/reference.py", line 27, in space_hash
+    return old.plane_hash(a) if a[0] else hashlib.sha256(b'[]').hexdigest()
+           ^^^^^^^^^^^^^^^^^
+  File "<REPO>/reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/reference.py", line 26, in plane_hash
+    rows=c.reduced(c.tr(M))[0]
+         ^^^^^^^^^^^^^^^^^^
+  File "<REPO>/reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/reference.py", line 47, in reduced
+    out=[[x if isinstance(x,K) else K(x) for x in row] for row in a]
+                                    ^^^^
+  File "<REPO>/reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py", line 14, in __init__
+    self.a,self.b = F(a),F(b)
+                    ^^^^
+  File "<PYTHON_RUNTIME>/lib/python3.12/fractions.py", line 264, in __new__
+    raise TypeError("argument should be a string "
+TypeError: argument should be a string or a Rational instance

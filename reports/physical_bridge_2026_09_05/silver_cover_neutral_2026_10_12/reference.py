@@ -18,13 +18,15 @@ def load(name, path):
 
 
 d = load('cover_neutral_fraction_literal', HERE.parent/'silver_cover_domain_2026_10_12/reference.py')
-old = load('cover_neutral_fraction_chart', HERE.parent/'silver_charged_cubic_2026_10_11/reference.py')
 c = d.c; r = d.r; K = c.K
 ETA = (-1, -1, 1)
 
 
 def space_hash(a):
-    return old.plane_hash(a) if a[0] else hashlib.sha256(b'[]').hexdigest()
+    # Keep the quadratic-field elements in the arithmetic instance that
+    # created them. A separately loaded helper has a distinct K class.
+    pairs = pair_matrix(c.reduced(c.tr(a))[0]) if a[0] else []
+    return hashlib.sha256(json.dumps(pairs, separators=(',', ':')).encode()).hexdigest()
 
 
 def relative(E, ck, tag):

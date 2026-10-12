@@ -106,3 +106,18 @@ def test_limited_analytic_conclusions_after_live_mathematics():
                     'real_moment_vacuum_derived', 'global_normalized_profiles_computed',
                     'generated_selection', 'global_quantum_anomaly', 'outside_review', 'full_goal_achieved'):
             assert row[key] is False
+
+
+def test_fraction_space_hash_uses_actual_field_and_empty_image():
+    modules = {}
+    for name in ('probe', 'reference'):
+        spec = importlib.util.spec_from_file_location('cover_neutral_hash_'+name, BASE/(name+'.py'))
+        mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+        modules[name] = mod
+    native, ref = modules['probe'], modules['reference']
+    actual = [[1], [ref.K(0, 1)]]
+    expected = native.oldc.plane_hash(native.s.Matrix([1, native.s.sqrt(2)]))
+    assert ref.space_hash(actual) == expected
+    assert ref.space_hash(ref.c.scale(actual, ref.K(1, 1))) == expected
+    assert ref.space_hash([[1], [ref.K(0, -1)]]) != expected
+    assert ref.space_hash(ref.c.Z(2, 0)) == native.oldc.plane_hash(native.s.zeros(2, 0))

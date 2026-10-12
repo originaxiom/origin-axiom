@@ -1,0 +1,21 @@
+{
+  "status": "UNKNOWN_NO_COMPLETION_RECEIPT",
+  "observed_local_date": "2026-10-13",
+  "reported_seal_commit": "255024825a29cd32a4e746d6e0f3a434bdd732e8",
+  "exit_code": null,
+  "termination_cause": null,
+  "no_matching_scientific_process": true,
+  "files": [
+    {
+      "path": "probe.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "recovered empty files only; not a mathematical negative, successful run or guessed exit"
+}
