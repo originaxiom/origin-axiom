@@ -3,6 +3,10 @@
 October12 complete cover charged-cubic sublemmas, research grade.
 B1530 is INPUT antecedent only; new proof/test below, no shared bank.
 
+Specific observed positive/cancellation is ALSO locked by
+tests/test_physical_bridge_silver_cover_cubic_outcome.py,3 live PASS
+at separate post-result sealbae31e188; original scientific inputs intact.
+
 | Law (conditional action/domain scope) | Proof and actual lock | Limit |
 |---|---|---|
 | Full3-profile QdcL matter tensor is nonzero on this cover; eLL/udd cancel nonzero terms | B1530 INPUT only; silver_cover_cubic_2026_10_12/PROOF1-3 and FINDINGS; tests/test_physical_bridge_silver_cover_cubic.py::test_independent_complete_channel_classifications_agree / test_termwise_diagnosis_does_not_confuse_parity_with_cancellation | Supplied compact parent/domain; not normalized Yukawas/Higgs/selection |

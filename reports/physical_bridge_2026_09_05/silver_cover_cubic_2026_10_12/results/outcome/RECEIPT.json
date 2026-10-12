@@ -1,0 +1,25 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 25.8159949999972,
+  "lock_seal_commit": "bae31e188e236796feacbefc709823d3a6b27447",
+  "original_science_seal": "47664f443483c0236e13981b7a1ddab32409a013",
+  "original_pins_unchanged": 60,
+  "lock_hashes_unchanged": {
+    "tests/test_physical_bridge_silver_cover_cubic_outcome.py": "4abc8f8d07cae7a910a0383abcd8d0e7e1eaa5a2080576bb6df65f9626842683",
+    "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/POST_RESULT_LOCK.md": "aaf9ada8c6b233133145826fbc5a8acc81c22d647d6fa13854cecef809472b5a"
+  },
+  "status_before": "",
+  "status_after": "",
+  "files": [
+    {
+      "path": "stdout.log",
+      "bytes": 99,
+      "sha256": "16c4f7da9f02c55c6a094701095b56bc42ffe14121f87cc191b878789242451b"
+    },
+    {
+      "path": "stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

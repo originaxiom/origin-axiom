@@ -1,5 +1,9 @@
 # Physical bridge audit — 2026-09-05
 
+Additional3 post-result exact outcome guards PASS25.11s at pushed
+bae31e188; original60 source pins unchanged. Original17-test run
+retained separately. Scope/parent/end/Higgs selection unchanged.
+
 October12 actual cover-cubic checkpoint:153 native/83 Fraction exact
 PASS9.436/14.203s and17 live tests PASS41.38s(10 new/7 retained) at
 unchanged pushed47664f443;60 pins/tree unchanged. Report:

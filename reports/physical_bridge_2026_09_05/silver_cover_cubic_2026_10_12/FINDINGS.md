@@ -79,3 +79,14 @@ The signed silver laboratory, E8 parent, cover, metric, phase and boundary
 remain supplied, not secretly selected by the ruled positive genesis.
 Next derive a faithful generated source/end/register relation rather
 than fit those choices to this positive. No architecture negative.
+
+## Separately sealed outcome guards
+
+After the first observations, three specific mathematical outcome locks
+were authored and pushed atbae31e188 BEFORE collecting them. All3
+PASS25.11s, clean tree; original60 pins and two new lock hashes unchanged.
+They assert fresh exact QdcL nonzero,eLL/udd equality of nonzero terms,
+and two-odd support, not just agreement of verdict labels. These are
+post-result regression guards, not blind predictions. Original17-test
+receipt and raw153/83 first runs retained unchanged. Native final gate
+26PASS/four inheritedFAIL,135 OPEN relays/42 stale/review488 overdue.
