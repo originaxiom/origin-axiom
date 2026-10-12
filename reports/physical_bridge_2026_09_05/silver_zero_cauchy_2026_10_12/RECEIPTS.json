@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 1.968736192000506,
+      "exact_predicates": 26,
+      "numerical_checks": 16,
+      "numerical_grades": {
+        "finite_limit": 4,
+        "precision": 12
+      },
+      "command": [
+        "python3.12",
+        "-u",
+        "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/probe.py"
+      ]
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 1.7749537769996095,
+      "exact_predicates": 14,
+      "numerical_checks": 12,
+      "numerical_grades": {
+        "finite_limit": 2,
+        "precision": 10
+      },
+      "command": [
+        "python3.12",
+        "-u",
+        "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/reference.py"
+      ]
+    }
+  ],
+  "scope": "same local zero-energy end plane, not global particles or SM selection",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "seal_commit": "053f69c1f1048d8bedcf40790e5cc1fcf3c94b8e",
+  "initial_source_hashes_match": true,
+  "tracked_worktree_unchanged": true,
+  "source_inputs_unchanged": true,
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 37553,
+      "sha256": "9b17397b688805be3cd3759c3ca8814566ea41625d9873acdb53e9dd1abe8a34"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 24628,
+      "sha256": "e54191d89f794d79b866ec0bc002263cfe592eae3a67ad2c461c0d2493be06e8"
+    }
+  ],
+  "command_paths_normalized_for_public_custody": true,
+  "raw_operational_receipt_sha256": "d23939def5a256848acb90017bdcfc0e66f3f94e2dd446074cfa7bb76c698adf",
+  "regression": {
+    "exit_code": 0,
+    "tests_passed": 16,
+    "new_tests": 8,
+    "retained_prior_tests": 8,
+    "pytest_seconds": 9.74,
+    "checked_commit": "053f69c1f1048d8bedcf40790e5cc1fcf3c94b8e",
+    "worktree_clean_after": true,
+    "scope": "selected two-packet regression, not full repository suite"
+  },
+  "orchestration_notes": [
+    {
+      "event": "checksum utility locale failure before scientific execution",
+      "science_launched": false,
+      "remedy": "same files rehashed with LC_ALL/LC_CTYPE/LANG=C; no science or input changed"
+    },
+    {
+      "event": "initial combined governance/identity diagnostic ended with shell status0 despite four printed gate failures",
+      "science_launched": false,
+      "remedy": "direct standalone staged governance invocation captured exit1; 26 PASS/four inherited FAIL; no green certificate claimed"
+    }
+  ],
+  "governance": {
+    "preseal_exit_code": 1,
+    "pass": 26,
+    "fail": 4,
+    "failures": "attribution/test-vacuity/seal-provenance/relay-debt; inherited named paths, no new packet implicated",
+    "review_due": 472,
+    "full_suite": false,
+    "outside_review": false,
+    "main_bank": false
+  }
+}

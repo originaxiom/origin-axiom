@@ -1,0 +1,7 @@
+Selected first regression on unchanged pre-science commit053f69c1f1048d8bedcf40790e5cc1fcf3c94b8e.
+Command: python3.12 -m pytest -q tests/test_physical_bridge_silver_zero_cauchy.py tests/test_physical_bridge_silver_gauge_end_transport.py
+Console captured across two tool yields:
+............
+....                                                         [100%]
+16 passed in 9.74s
+Process exit0. Working tree clean afterward.8 new/8 retained, not full suite.

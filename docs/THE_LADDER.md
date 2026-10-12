@@ -1,5 +1,23 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October12 complete zero-end Cauchy checkpoint: native26/reference14
+exact predicates PASS;22 precision and6 finite-limit numerical controls
+separately graded;16 two-packet tests PASS9.74s(8 new/8 retained).
+Unchanged pushed pre-science053f69c1f, literal first logs/source custody.
+Report: reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/FINDINGS.md.
+Full local8-component Q has complete decaying plane4(2 odd/2 even),
+including mixed components; actual R/R* field map and Green current kept.
+Transverse stiffness does NOT erase the whole end kernel. These are
+NOT particles/generations or a global vectorlike theorem. Fixed-wall
+angular limits retain planes; joint neutral corner has2 L2/4 resonances.
+NEXT actual framed core/normal/real-gauge/bosonic/superfield join and
+frequency response, generated end/source/field selection; torsion gauge
+sectors remain open. No compact-domain index/roster transfer. Three
+families/interactions/parameters/gravity/register/observer/qualia and
+full-suite/nonauthor/main obligations persist. Four inherited governance
+FAIL categories, no new shared number or green banking certificate.
+Full parameter-free SM/TOE goal ACTIVE and unachieved.
+
 October12 same-candidate gauge/end checkpoint:34 native exact,12
 reference exact,6 numerical booleans and11 residual controls PASS; eight
 tests PASS7.73s at unchanged pushed pre-science66ad2d197. Raw18-exact

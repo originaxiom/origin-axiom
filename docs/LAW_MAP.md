@@ -1,5 +1,30 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October12 complete zero-end Cauchy checkpoint: native26/reference14
+exact predicates PASS;22 precision and6 finite-limit numerical controls
+separately graded;16 two-packet tests PASS9.74s(8 new/8 retained).
+Unchanged pushed pre-science053f69c1f, literal first logs/source custody.
+Report: reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/FINDINGS.md.
+Full local8-component Q has complete decaying plane4(2 odd/2 even),
+including mixed components; actual R/R* field map and Green current kept.
+Transverse stiffness does NOT erase the whole end kernel. These are
+NOT particles/generations or a global vectorlike theorem. Fixed-wall
+angular limits retain planes; joint neutral corner has2 L2/4 resonances.
+NEXT actual framed core/normal/real-gauge/bosonic/superfield join and
+frequency response, generated end/source/field selection; torsion gauge
+sectors remain open. No compact-domain index/roster transfer. Three
+families/interactions/parameters/gravity/register/observer/qualia and
+full-suite/nonauthor/main obligations persist. Four inherited governance
+FAIL categories, no new shared number or green banking certificate.
+Full parameter-free SM/TOE goal ACTIVE and unachieved.
+
+| Scoped conditional sublemma | Actual proof/lock and limit |
+|---|---|
+| Complete confined zero-energy local Q space has4 decaying directions,2 odd/2 even; mixed degrees essential | silver_zero_cauchy_2026_10_12/PROOF1-2 elimination/growing-branch argument; tests/test_physical_bridge_silver_zero_cauchy.py::test_complete_columns_solve_actual_full_operator_both_charge_signs and test_omitted_mixed_component_fails_same_equation. Authored analytic completeness, exact implementation, not full core/particle spectrum |
+| Actual rank4 cut plane is maximal-null for its normal Green matrix and has the inherited physical R/R* map | PROOF3; test_actual_trace_is_rank_four_maximal_null_and_wrong_current_fails / test_actual_Weyl_field_map_and_parity_not_eight_particles. Not full real-gauge/superfield interface admission or SM selection |
+| Fixed nonzero-wall K-to0 projector limit recovers sign-specific planes, not lost basis columns | PROOF4 Euler domination and test_Whittaker_and_Euler_projectors_agree_not_just_dimensions / test_angular_zero_profiles_are_four_with_two_each_parity. Finite small-angle tests graded1e-3 separately from precision controls |
+| Joint neutral corner has2 L2 exponentials and4 constant non-L2 threshold resonances | PROOF4; test_neutral_joint_corner_keeps_two_L2_and_four_threshold_resonances. Same normalized local metric, not a uniformly isolated global gap or a vanished neutral sector |
+
 October12 same-candidate gauge/end checkpoint:34 native exact,12
 reference exact,6 numerical booleans and11 residual controls PASS; eight
 tests PASS7.73s at unchanged pushed pre-science66ad2d197. Raw18-exact
