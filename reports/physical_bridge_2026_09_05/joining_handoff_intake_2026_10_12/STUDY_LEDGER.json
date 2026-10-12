@@ -23,7 +23,17 @@
     "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/README.md",
     "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/PLAN.md",
     "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/CHANGELOG.md",
-    "INPUT_SOURCE/A_Weave_of_Two_Records_Dritero_M.pdf"
+    "INPUT_SOURCE/A_Weave_of_Two_Records_Dritero_M.pdf",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/verify.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/verify_cover.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/verify_parity_conjugacy.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/attempts/run_initial.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/run.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/cover_run.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/parity_run.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/TECHNICAL_REPORT.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/README.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/CHANGELOG.md"
   ],
   "pdf_pages_text_and_visual": [
     1,
@@ -38,15 +48,13 @@
   ],
   "pending": {
     "initial_audit_producer_and_replay": true,
-    "run1_scripts_and_receipts": true,
-    "runs2_through13_current_full_review": true,
+    "run1_scripts_and_receipts": "All three producers and initial/final console logs read; raw JSON counts/reported-failure fields inspected. Full science replay still pending.",
+    "runs2_through13_current_full_review": "Run2 report/README/changelog fully read; Run2 source instruments and reports3-13 pending.",
     "cross_branch_assessment_and_sources": true,
     "joining_gates1_through3_reports_code_sources_replay": true
   },
-  "next_file": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/verify.py",
-  "partial_reading": {
-    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/verify.py": {"through_line": 170, "total_lines": 370}
-  },
+  "next_file": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/PLAN.md",
+  "partial_reading": {},
   "archive_scientific_producers_executed": [],
   "accepted_new_mathematical_physical_claims": [],
   "custody_only": {
@@ -70,5 +78,12 @@
   },
   "current_physics_report_commit": "12784b4391122b9c594f68f40f02cccef19a912d",
   "fresh_quartic_seal_deferred_for_intake": true,
-  "full_goal_achieved": false
+  "full_goal_achieved": false,
+  "read_only_receipt_queries": {
+    "run1_final_grouped_checks": 34,
+    "run1_initial_grouped_checks": 32,
+    "run1_cover": 10,
+    "run1_parity": 8,
+    "independent_science_replay": false
+  }
 }

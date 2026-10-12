@@ -78,3 +78,9 @@ OPEN/42 stale and reviewdue462. No science or full pytest suite run for
 this archival/read-only checkpoint. The log/receipt/this footer are
 after-gate additions, not recursively certified by that staged run.
 Original ZIP index/raw byte hash is checked again before commit/push.
+
+Later same-day reading progress: all three Run1 producers and their
+initial/final console logs now personally read; raw receipt counts inspected,
+not science replayed. Run2 full report/README/changelog read. Next Run2
+source instruments, then chronological remaining reports and Joining Gates.
+READING_NOTES/STUDY_LEDGER retain scope warnings without accepting claims.
