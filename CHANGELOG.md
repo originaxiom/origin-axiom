@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-12 full joining handoff preservation and personal intake
+
+Owner-supplied full handoff through Joining Gate3 preserved byte-for-byte
+as joining_handoff_intake_2026_10_12/ORIGINAL_HANDOFF.zip, SHA25684b1c111...
+Verified366 safe outer files, CRC,363 SHA manifest rows and350 original
+package member comparisons. The manifest omits Run9's manifest besides
+its two declared support exclusions; that file matches the original
+package exactly. Rechecked prior13-run custody, not new science.
+Personal paper/guides/initial audit/Run1 report read; remaining reports,
+instruments and joining proofs explicitly pending in STUDY_LEDGER.json.
+No archived scientific producer run/claim accepted or foundation edited.
+Unsealed next matter-quartic test waits for this source/end-law intake;
+earlier physics results preserved. Full parameter-free SM/TOE remains
+ACTIVE/unachieved; no outside/full-suite/main acceptance claimed.
+
+
 ## 2026-10-12 first massive-exchange Higgs quartic publication
 
 October11 science sealed f9122858c before execution:25 native/305

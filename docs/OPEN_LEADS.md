@@ -1,5 +1,19 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October12 OWNER-SUPPLIED FULL JOINING HANDOFF priority intake:
+PB-WEAVE-JOINING-HANDOFF OPEN. Original full through-Gate3 ZIP preserved
+under reports/physical_bridge_2026_09_05/joining_handoff_intake_2026_10_12/,
+SHA25684b1c111b774730cbec30d431eb1b7efad6e706d8c6af070243171eff2163443.
+File integrity rechecked; personal study/reproduction NOT complete.
+STUDY_LEDGER.json distinguishes fully read/pending and accepted claims
+(none). Read all reports/code/attempts/sources before independent sealed
+scientific replay, then judge its actual record->field/operator/end-law
+implication and matrix-valued charged+neutral completion. No canonical
+genesis/physics promotion, desired-boundary replacement or whole-program
+negative. This is the current order before the unsealed matter quartic;
+full parameter-free SM/TOE objective and earlier exact results retained.
+
+
 October12 first massive-exchange disposition supersedes the uncomputed
 FIRST HIGGS quartic duty only, not the entire higher-interaction duty.
 

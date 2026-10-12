@@ -1,0 +1,15 @@
+{
+  "result": "NOT_GREEN",
+  "exit_code": 1,
+  "pass": 26,
+  "fail": 4,
+  "staged_paths_at_gate": 8,
+  "known_failure_categories": ["attribution", "test-vacuity", "seal-provenance", "relay-debt"],
+  "new_intake_paths_implicated_in_failures": false,
+  "relay_open": 127,
+  "relay_stale": 42,
+  "review_due": 462,
+  "scientific_replay_or_full_suite_executed": false,
+  "after_gate_additions": "This receipt/log and README footer; not recursively certified by the preceding staged gate.",
+  "full_goal_achieved": false
+}

@@ -18805,3 +18805,32 @@ LAW_MAP/open duties/input disclosure/next probe and OPEN sender relay
 registered. Full parameter-free SM/TOE ACTIVE and unachieved; three
 families/Higgs/mu/SUSY/extras/parameters/I-23/gravity/observer/qualia,
 global nonlinear/quantum and outside/full-suite/main debts remain.
+
+## 2026-10-12 promised genesis/joining handoff received, personal intake
+
+Source: reports/physical_bridge_2026_09_05/joining_handoff_intake_2026_10_12/README.md.
+Original full through-Gate3 handoff2856066 bytes, SHA25684b1c111b774730cbec30d431eb1b7efad6e706d8c6af070243171eff2163443,
+preserved unchanged in own branch.366 safe members/CRC PASS. Read-only
+provided custody verifier363 SHA rows/350 original package comparisons
+PASS; independent Ruby coverage identifies additional omitted Run9
+manifest, byte-equal to its original package member. Prior13-run checksum/
+Git-blob289 rows/254 inner members/15 standalone custody rechecked and
+credited to earlier intake; no new scientific claim or archive-branch
+workflow execution. Source PDF duplicate hash/equality verified.
+
+Main agent personally read original9-page PDF in text and all rendered
+pages, six intake guides/index, initial276-line notes, archive verifier/
+preservation and Run1 full321-line report/plan/changelog. Scientific
+producers, remaining reports/cross-branch assessment and three joining
+gate proofs still pending; STUDY_LEDGER makes that boundary explicit.
+No subagent summary, archived scientific execution/acceptance, shared
+bank number/main merge or GENESIS edit. Original archive and failures
+untouched. Full mathematical/physical verdict NOT yet claimed.
+
+Priority is to read and audit the entire handoff and load-bearing proofs/
+code, then independently reproduce the joining claims and examine actual
+nonlinear charged+neutral core/end matching. Unsealed next matter-quartic
+calculation deferred for this input, not a pause or narrowed goal. Earlier
+12784b439 physics packet remains verified/pushed. Act/register/lift and
+observer/qualia duties retained; no awareness claim inferred. Full
+parameter-free Standard Model/full TOE remains ACTIVE and unachieved.

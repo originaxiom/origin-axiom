@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "numbered_runs": 13,
+  "original_archives": 14,
+  "original_zip_members": 254,
+  "manifest_files": 289,
+  "standalone_matches": 15,
+  "all_sha256_and_git_blob_hashes_match": true,
+  "scientific_code_executed": false,
+  "full_chat_transcript_included": false
+}
+No errors detected in compressed data of /Users/dri/Documents/gpt/Origin_Axiom_Banking_Seat_FULL_Handoff_Through_Joining_Gate_3.zip.
+{
+  "unlisted_run9_manifest_bytes": 1888,
+  "sha256": "1204234af84d789b16a9003324d9c455822c1de87c8c9c606f940d2aa651bcd0",
+  "byte_equal_to_original_package": true
+}
