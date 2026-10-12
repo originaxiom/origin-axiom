@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-12 handoff review through Run8: retain scope and quantum positives
+
+Personal full report/final-source reading through Run8, selected receipts
+and preserved correction diffs registered in joining_handoff_intake ledger.
+Primary sections checked for declared semion/SU(2)_2 data, return-channel
+premise and conformal embedding. Run3's separate-amplitude negative kept
+distinct from Run4's common-measure correction; Run6's geometric line map
+distinct from physical transport; Run7's declared quantum positive and
+Run8's full junction companions preserved without claiming genesis-derived
+SM/TOE. Failure-log/overwritten-shorter-log limitations disclosed. No archive
+producer replay, scientific acceptance, shared number or GENESIS mutation.
+Foreign refs refreshed unchanged; next Run9 and full joining-gate audit.
+Full physical goal ACTIVE/unachieved; reading checkpoint, not main bank.
+
 ## 2026-10-12 full joining handoff preservation and personal intake
 
 Owner-supplied full handoff through Joining Gate3 preserved byte-for-byte

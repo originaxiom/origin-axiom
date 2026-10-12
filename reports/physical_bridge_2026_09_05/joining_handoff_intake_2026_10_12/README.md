@@ -84,3 +84,12 @@ initial/final console logs now personally read; raw receipt counts inspected,
 not science replayed. Run2 full report/README/changelog read. Next Run2
 source instruments, then chronological remaining reports and Joining Gates.
 READING_NOTES/STUDY_LEDGER retain scope warnings without accepting claims.
+
+Later checkpoint: full reports/final producers/PLAN/README/CHANGELOG through
+Run8 personally read, with selected receipts and correction diffs. Primary
+sections checked for semion/SU(2)_2 input data, one-point return-channel
+premise and the doubled-matter conformal embedding. Source/code reading is
+not independent scientific replay. No new claim accepted or foundation
+edited. Next Run9 chronologically, then remaining reports/cross-branch
+assessment and all three joining gates. All foreign remote heads refreshed
+and unchanged. Full goal remains ACTIVE, unachieved.

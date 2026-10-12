@@ -33,7 +33,72 @@
     "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/parity_run.log",
     "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/TECHNICAL_REPORT.md",
     "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/README.md",
-    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/CHANGELOG.md"
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/CHANGELOG.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/PLAN.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/verify_cover_states.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/verify_quantum_reduction.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/cover_states_run.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/cover_states_alternate_tree.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/quantum_reduction_80dps.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/quantum_reduction_100dps.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/TECHNICAL_REPORT.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/README.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/CHANGELOG.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/PLAN.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/verify_exact.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/verify_amplitudes.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/exploratory/explore.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/exact_run.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/amplitude_100dps.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/TECHNICAL_REPORT.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/README.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/CHANGELOG.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/PLAN.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_exact.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_cocycles.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_ward_and_bundles.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/exact.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/cocycles.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/numerical_90dps.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/TECHNICAL_REPORT.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/README.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/CHANGELOG.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/PLAN.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/verify_exact.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/verify_lattice.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/initial_failure_50.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/exact.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/numerical_50.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/numerical_80.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/TECHNICAL_REPORT.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/README.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/CHANGELOG.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/PLAN.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/verify_exact.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/verify_numerical.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/explore_cohomology.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/results_exact.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/results_numerical_90.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/TECHNICAL_REPORT.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/README.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/CHANGELOG.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/PLAN.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/verify_exact.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/verify_physical_controls.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/verify_numerical.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/exact_run_initial.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/physical_controls.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/numerical_60.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/numerical_90.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/TECHNICAL_REPORT.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/README.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/CHANGELOG.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/PLAN.md",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/verify_exact.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/verify_numerical.py",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/history/exact_initial.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/results/exact.log",
+    "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/results/numerical_80.log"
   ],
   "pdf_pages_text_and_visual": [
     1,
@@ -49,11 +114,11 @@
   "pending": {
     "initial_audit_producer_and_replay": true,
     "run1_scripts_and_receipts": "All three producers and initial/final console logs read; raw JSON counts/reported-failure fields inspected. Full science replay still pending.",
-    "runs2_through13_current_full_review": "Run2 report/README/changelog fully read; Run2 source instruments and reports3-13 pending.",
+    "runs2_through13_current_full_review": "Reports/README/PLAN/CHANGELOG and final producers through Run8 personally read. Selected console receipts and retained initial-to-final source diffs read. Runs9-13 current chronological review and all scientific replay remain pending.",
     "cross_branch_assessment_and_sources": true,
     "joining_gates1_through3_reports_code_sources_replay": true
   },
-  "next_file": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/PLAN.md",
+  "next_file": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/TECHNICAL_REPORT.md",
   "partial_reading": {},
   "archive_scientific_producers_executed": [],
   "accepted_new_mathematical_physical_claims": [],
@@ -85,5 +150,58 @@
     "run1_cover": 10,
     "run1_parity": 8,
     "independent_science_replay": false
-  }
+  },
+  "source_comparison_read": [
+    {
+      "initial": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_exact.initial_signs.py.txt",
+      "final": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_exact.py",
+      "grade": "Full final producer plus complete initial-to-final diff read; initial failure console logs not supplied."
+    },
+    {
+      "initial": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_ward.initial_expensive_derivative.py.txt",
+      "final": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_ward_and_bundles.py",
+      "grade": "Full final producer plus complete diff; expensive mixed source derivative replaced, not claimed to have completed."
+    },
+    {
+      "initial": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/verify_lattice.initial.py.txt",
+      "final": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/verify_lattice.py",
+      "grade": "Complete diff; retained factor-two failure console read; target leading coefficient unchanged."
+    },
+    {
+      "initial": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/history/verify_exact_initial.py.txt",
+      "final": "EXPANDED/01_ARCHIVE_RUNS_01_TO_13/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/verify_exact.py",
+      "grade": "Complete diff; retained initial log read; one empty-iterator placeholder removed and five substantive controls added."
+    }
+  ],
+  "primary_source_sections_read": [
+    {
+      "url": "https://arxiv.org/html/0712.1377v4",
+      "sections": [
+        "5.3.1",
+        "5.3.5"
+      ],
+      "grade": "Personally compared displayed semion and SU(2)_2 input data with producer constants; not full paper or new OA selection theorem."
+    },
+    {
+      "url": "https://arxiv.org/html/0810.0106v2",
+      "sections": [
+        "2 (one-point return channel)"
+      ],
+      "grade": "Personally read return-channel and inserted-trace framework; not independent full singular-operator proof."
+    },
+    {
+      "url": "https://arxiv.org/html/2410.01094v1",
+      "sections": [
+        "IV.2.1"
+      ],
+      "grade": "Relevant embedding and current branching inspected; rest of source not claimed fully read."
+    }
+  ],
+  "refreshed_foreign_heads_unchanged": true,
+  "provenance_questions": [
+    "Run3 describes earlier failed console attempts but does not retain those logs; do not infer all failures preserved.",
+    "Run7 describes overwritten earlier successful shorter control logs; final controls and first exact log retained.",
+    "Read/code-inspection and independently reproduced physical claims remain separate grades.",
+    "Some test labels wrap upstream exhaustive assertions; a literal True in Run2 is not alone evidence of vacuous science."
+  ]
 }
