@@ -1,0 +1,251 @@
+{
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py",
+      "sha256": "908ac5f016cbbcdceb7b06061bba45dafef12b500faf234dade145136a6b9553"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py",
+      "sha256": "1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/probe.py",
+      "sha256": "6cb7faaabb09b3726374e0d9b8c19b0ff2aa3b6a102bec211044502dcba6ea64"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF.md",
+      "sha256": "d3eb15c5bb5e4d90c319e662eb65f906c10decf45772953ccdcb632b48de0f5b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/probe.py",
+      "sha256": "86bf1b2389909589d91570c765c582f096aa79dec288e91b104bc0ab77cbb2d7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/DESIGN.md",
+      "sha256": "accef82ab5290e5e3d233460ab96bfce88b8f8512d3db1f206528da4c6ad36d6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "sha256": "20d20923474012672616c752b57ecb087817bf0acabc7ca04c4b2b38b1d1792e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md",
+      "sha256": "da4a73d4559fadbd42d1862b9b4b417b1bba3eb5f4e107cba206456ee37c9eaf"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md",
+      "sha256": "29eeca6a93d85c5f2f8119743976c3b7bdc18b528913a3cdf3cafb579f545c44"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "sha256": "78693f6656fff74e67c2d94d4fe84a100b02f5ca7ab50ec8b98ae375ccf449c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md",
+      "sha256": "0666cc040c486f69d7b8cda4e581d7da31a265d2dd9a7cc4d18ae5beb30837d8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/coefficient_parent.py",
+      "sha256": "0973a55c71fdaf65e0bb09fd2cf1caac54e4e832c85937556068f0e0609786fe"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_PROOF.md",
+      "sha256": "936f3110797e8a27e9522c2d29f601e32215bf5a3c1bd1a37b34614fe1de64c9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md",
+      "sha256": "8557539bf0e764ea4350204403e26791473261f20f0b63b176618aa87b5be398"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/probe.py",
+      "sha256": "258be9208655b933cc737428ecdea8e365fee838870d119400f95895df371395"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md",
+      "sha256": "a8ef5d831e3801848c3b0ab24223e440faf40c837d26f1f5167e44f09dcea4f3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_WILSON_PROOF.md",
+      "sha256": "efd23d23a2b25edd04345a0a302ea81d32dbd9555968566b04e9e825fe3342cd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/probe.py",
+      "sha256": "8ae953a9741135436544ebdc4db96c66893b3220bdc3d8667c347a948082ba42"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/reference.py",
+      "sha256": "9fad6aeddb15d52f62ee1ba88313edceaa3126201abc13552d4084a964f759d9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/PROOF.md",
+      "sha256": "4ecca881878431c4177ab13ed7b74bf8514a5ed050defc8c59232b47008c35a6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "sha256": "6f3eee6acfed04e98f4df0d4fe98aff6d717be416a3aee05fb350d571934b8fa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/DESIGN.md",
+      "sha256": "65ff5ad31d80afe8743c03ced5f4bfa439049f0e91239f8306f27edb787c3e1e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/probe.py",
+      "sha256": "b4b684aac6e5ff6391319199c266f1c2f588b647a77a9c7c46de49b76cced246"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/reference.py",
+      "sha256": "609dc02366cf72fae75511cdf24f79e070ff509a42e1755a0cd472feec6d8918"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/PROOF.md",
+      "sha256": "bb191480f617384355951de464278a2a353082a4d6461303e38ce2012530f68e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/DESIGN.md",
+      "sha256": "00b05b7d30dafedbe2ae74d66929cb6d2dd27f0ec711c019aae3041d70b795c8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/PROOF.md",
+      "sha256": "070f7b3afddca748f20ea5a960b776fd73847444700f5618c96b6a51e76464e7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/probe.py",
+      "sha256": "7614b5ba379b62a2d97a776676412c6dddea99df4c05a985a21829fde4d4f861"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/reference.py",
+      "sha256": "0b2816d05fd0a76a4d92315e30fb68a64a68b439a3da27b09f012cce0877bf18"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/execute.py",
+      "sha256": "79d44f2c364fefc443b9a6daa5e1b8b72be4ef422c8d395a1b7a0707b241f8dd"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_cover_families.py",
+      "sha256": "19150def37fe20a4a9fab93baac306015c51646cf965bc88de3aefdd47d70c67"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/FIRST_FAILURE.md",
+      "sha256": "18cca35a31f6a277be6035183372a377d634a01c2617eb808da241abdb131f63"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/PROOF.md",
+      "sha256": "4be9b7eb7e247201cdbd6b37874444a4f383a89004a067ec5722a5b5773b40fe"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/PROOF.md",
+      "sha256": "0b584af9cf725570797c2efd8fad17e578bcb2b07a3c2792212aee7c1198a44a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/DESIGN.md",
+      "sha256": "72018eeb4731793440ed994fbe9d94f6e637c57a32759283a9b72f58127fa592"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/PROOF.md",
+      "sha256": "a8c55fabeb9c1580c773819ce0e91d85005151c74479ec34c6fa204d6f77d36b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/probe.py",
+      "sha256": "f5b09c58a624ecd6bdfadf09641013a2e497d1cf48fe3175a8dbe1236ff04cd1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/reference.py",
+      "sha256": "1ee985ee7a2ac1ac910967a5e451ebe932c698de475587952e8629fe201af025"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_cover_domain.py",
+      "sha256": "5e182891ea1e26cf542aade7ffbb76110b00642d83f44fd23761f0e2218ae78d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/execute.py",
+      "sha256": "1fa245de6808e861332158aa2e66adaf58c1e0c503ffaa0ebe203795698bf648"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/FIRST_FAILURE.md",
+      "sha256": "4f47c70346d9811ddf94995387aa57890a53ec3fa0b0b02c1726aedf44e6d7d6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/DESIGN.md",
+      "sha256": "940f5d09b4c8ddfbaa3b72040a4dfcf259d031a582a5b2d87a42e904a057c14f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/PROOF.md",
+      "sha256": "a5d28db3e68c817537160f22dac2b8150a47fe503a8a2062223316a35704dacc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/probe.py",
+      "sha256": "2c1a1f1529659fafe3633e735e7d4dd82ab931812c6d11771527f0cd7def1c5c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/reference.py",
+      "sha256": "acb32eca6cb2146748e99468f703481cd6a0feeaf204acedcc1bae275e3f49cd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/execute.py",
+      "sha256": "06beed2ef43faa615325598fbdadd47c4d63a0485650001a2fc753c13c1475d0"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_cover_currents.py",
+      "sha256": "9f42c3c6ac097ba23978d7e17502b5576299e1e48130cea4c40d66f33fea2fb2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_tensors.py",
+      "sha256": "6bc0c5a1a6f39090308e24804ef19b7937155fcb02c9af3d2190387768f6f891"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/PROOF.md",
+      "sha256": "53cd127aaf00cbb6d0c3bc52d2f60c84ab227fe86541354b58f8b505bb2cb0e4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/probe.py",
+      "sha256": "ebdf5e7c929c315361cdfc18f97536cb347857b037e17fdd8602e90d4c6605ae"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/reference.py",
+      "sha256": "3340dfd0a43ffbd37313475f838609916a6f71f896b4c4bcec6efb700b0eec7b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/DESIGN.md",
+      "sha256": "069f92ca8d2842794b155100b61c1f271ebb6283459ac67abed81f9fdc580000"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/PROOF.md",
+      "sha256": "330ff23227fe403c4727986d6767bb147d2871dd07b3320e329e836adba38469"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/probe.py",
+      "sha256": "9f829eb66383da546dbcb4f75e68c5c1fda6cad25ab1b724d74d8b14ed48eb0e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/reference.py",
+      "sha256": "f134e391173d620e83ebc86c6e53d007fb0ceb85a351350aae93267e796daa25"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/execute.py",
+      "sha256": "c30c5c49d03490a6d7c6694f8fc770a31f57c3cf1dd81f1e39f76b09e354c68d"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_cover_cubic.py",
+      "sha256": "3ebc6d86d24ce6cf9babac5950cff6750d6259c17ec0f053bd5e9fdf3c504b52"
+    }
+  ],
+  "scope": "complete direct wholly charged3-profile cubic of supplied cover/action/domain",
+  "empirical_predicates": [],
+  "scientific_imports_before_seal": 0
+}
