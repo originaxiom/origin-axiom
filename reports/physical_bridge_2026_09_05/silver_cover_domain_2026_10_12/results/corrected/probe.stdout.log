@@ -1,0 +1,388 @@
+{
+  "charged": {
+    "F": {
+      "H": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "sectors": [
+        {
+          "H": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "dual_H": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "H": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "dual_H": [
+            0,
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    },
+    "W": {
+      "H": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "sectors": [
+        {
+          "H": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "dual_H": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "H": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "dual_H": [
+            0,
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "exact_predicates": 42,
+  "facts": {
+    "-1,-1,1minus_actual_gauge_cone_duality": true,
+    "-1,-1,1minus_one_global_vector_sector": true,
+    "-1,-1,1plus_actual_gauge_cone_duality": true,
+    "-1,-1,1plus_one_global_vector_sector": true,
+    "-1,1,-1minus_actual_gauge_cone_duality": true,
+    "-1,1,-1minus_one_global_vector_sector": true,
+    "-1,1,-1plus_actual_gauge_cone_duality": true,
+    "-1,1,-1plus_one_global_vector_sector": true,
+    "1,-1,-1minus_actual_gauge_cone_duality": true,
+    "1,-1,-1minus_one_global_vector_sector": true,
+    "1,-1,-1plus_actual_gauge_cone_duality": true,
+    "1,-1,-1plus_one_global_vector_sector": true,
+    "F4_actual_charged_dual_kernel": true,
+    "F5_actual_charged_dual_kernel": true,
+    "F_charged_three_in_same_boundary": true,
+    "W3_actual_charged_dual_kernel": true,
+    "W4_actual_charged_dual_kernel": true,
+    "W_charged_three_in_same_boundary": true,
+    "broken_gauge_even_A0_to_A1_and_odd_A1_to_A2_both_acyclic": true,
+    "full_boundary_harmonic_dimension_from_actual_E8_coefficients": true,
+    "full_gauge_roots_and_Cartan_all_retained": true,
+    "full_roster_does_not_delete_extra_fields": true,
+    "global_A2_annihilator_keeps_odd_flux": true,
+    "minus_actual_log_harmonic_plane_transport": true,
+    "minus_full_neutral_counts_not_deleted": true,
+    "minus_literal_trace_selfduality_and_complete_boundary": true,
+    "minus_nonisotropic_same_dimension_plane_rejected": true,
+    "minus_restriction_is_actual_Lagrangian": true,
+    "minus_transverse_polarization_earned": true,
+    "one_A0_not_two": true,
+    "opposite_nonzero_sheet_flux_is_allowed": true,
+    "plus_actual_log_harmonic_plane_transport": true,
+    "plus_full_neutral_counts_not_deleted": true,
+    "plus_literal_trace_selfduality_and_complete_boundary": true,
+    "plus_nonisotropic_same_dimension_plane_rejected": true,
+    "plus_restriction_is_actual_Lagrangian": true,
+    "plus_transverse_polarization_earned": true,
+    "response_is_summed_not_pointwise": true,
+    "same_sheet_flux_is_rejected": true,
+    "unbroken_deck_gauge_H0_not_duplicated": true,
+    "wrong_difference_flux_detector_is_rejected": true,
+    "wrong_end_of_pushforward_rank_rejected": true
+  },
+  "full_goal_achieved": false,
+  "gauge": {
+    "-1,-1,1": {
+      "minus": {
+        "H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "absolute_H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "dimensions": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "ranks": [
+          1,
+          3,
+          1
+        ],
+        "restriction_rank": 1
+      },
+      "plus": {
+        "H": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "absolute_H": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "dimensions": [
+          2,
+          5,
+          4,
+          1
+        ],
+        "ranks": [
+          1,
+          3,
+          0
+        ],
+        "restriction_rank": 1
+      }
+    },
+    "-1,1,-1": {
+      "minus": {
+        "H": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "absolute_H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "dimensions": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "ranks": [
+          1,
+          2,
+          1
+        ],
+        "restriction_rank": 1
+      },
+      "plus": {
+        "H": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "absolute_H": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "dimensions": [
+          2,
+          5,
+          4,
+          1
+        ],
+        "ranks": [
+          1,
+          3,
+          0
+        ],
+        "restriction_rank": 1
+      }
+    },
+    "1,-1,-1": {
+      "minus": {
+        "H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "absolute_H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "dimensions": [
+          1,
+          5,
+          5,
+          1
+        ],
+        "ranks": [
+          1,
+          3,
+          1
+        ],
+        "restriction_rank": 1
+      },
+      "plus": {
+        "H": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "absolute_H": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "dimensions": [
+          2,
+          5,
+          4,
+          1
+        ],
+        "ranks": [
+          1,
+          3,
+          0
+        ],
+        "restriction_rank": 1
+      }
+    }
+  },
+  "generated_boundary": false,
+  "global_quantum_anomaly": false,
+  "neutral": {
+    "minus": {
+      "H": [
+        0,
+        7,
+        7,
+        0
+      ],
+      "absolute_H": [
+        0,
+        7,
+        7,
+        0
+      ],
+      "admitted_absolute_H1": 1,
+      "boundary_H": [
+        6,
+        12,
+        6
+      ],
+      "connecting_dimension": 6,
+      "physical_neutral_chirals": 7,
+      "plane_dimension": 6,
+      "restriction_rank": 6,
+      "union_rank": 12
+    },
+    "plus": {
+      "H": [
+        0,
+        6,
+        6,
+        0
+      ],
+      "absolute_H": [
+        0,
+        6,
+        6,
+        0
+      ],
+      "admitted_absolute_H1": 0,
+      "boundary_H": [
+        6,
+        12,
+        6
+      ],
+      "connecting_dimension": 6,
+      "physical_neutral_chirals": 6,
+      "plane_dimension": 6,
+      "restriction_rank": 6,
+      "union_rank": 12
+    }
+  },
+  "normalized_interactions": false,
+  "outside_review": false,
+  "physical_linear_roster": {
+    "SM_vector_generators": 12,
+    "charged_component_chirals": 45,
+    "charged_generations": 3,
+    "independent_vector_sectors": 1,
+    "left_chiral_components": 82,
+    "neutral_singlet_chirals": 13,
+    "scalar_partners_retained": true,
+    "separate_Higgs_mechanism": false,
+    "unbroken_adjoint_chirals": 24
+  },
+  "whole_boundary_conditional": true
+}

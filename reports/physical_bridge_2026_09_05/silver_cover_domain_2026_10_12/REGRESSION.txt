@@ -1,0 +1,13 @@
+Command: env PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -q -p no:cacheprovider tests/test_physical_bridge_silver_cover_domain.py tests/test_physical_bridge_silver_fermion_action.py
+Unchanged science/test reseal: b06dadb189688aea825e160fe1b0c1f6f6f4b190
+Native exit: 0
+Captured stdout arrived in chunks:
+.......... [first10 new tests]
+. [retained test progress]
+......                                                        [100%]
+17 passed in 222.73s (0:03:42)
+
+This is the preserved combined progress/result, not an uninterrupted raw
+byte transcript or full repository suite.10 new,7 retained physical tests.
+Science wrapper confirms unchanged tracked tree/44 source pins. No cache
+provider/bytecode writes; same-author algorithms, outside review owed.

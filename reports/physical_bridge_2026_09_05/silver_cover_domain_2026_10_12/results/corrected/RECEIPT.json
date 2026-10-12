@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 176.22298322999995,
+      "exact_predicates": 42,
+      "science_scope": "fresh complete-domain and roster checks"
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 25.428200242000457,
+      "exact_predicates": 31,
+      "science_scope": "fresh complete-domain and roster checks"
+    }
+  ],
+  "scope": "whole cover boundary and linear operator; selection/quantum acceptance owed",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "b06dadb189688aea825e160fe1b0c1f6f6f4b190",
+  "initial_source_hashes_match": true,
+  "tracked_worktree_unchanged": true,
+  "source_inputs_unchanged": true,
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 7410,
+      "sha256": "f2547d2633f91a00df22df4f22fc2b01f0a2b2ca9772949689009d9b10d67f58"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 5893,
+      "sha256": "7e01b7ac6f2f060fa12ce67ada1f2b78f9ef0d93eae7b5ffc8578418c940f34e"
+    }
+  ]
+}

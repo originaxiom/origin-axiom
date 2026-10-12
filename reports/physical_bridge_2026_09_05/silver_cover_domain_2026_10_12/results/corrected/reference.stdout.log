@@ -1,0 +1,311 @@
+{
+  "charged": {
+    "F": {
+      "H": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "sectors": [
+        {
+          "H": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "dual_H": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "H": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "dual_H": [
+            0,
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    },
+    "W": {
+      "H": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "sectors": [
+        {
+          "H": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "dual_H": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "H": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "dual_H": [
+            0,
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "checks": {
+    "-1,-1,1minus_full_gauge_LES_and_endpoint": true,
+    "-1,-1,1plus_full_gauge_LES_and_endpoint": true,
+    "-1,1,-1minus_full_gauge_LES_and_endpoint": true,
+    "-1,1,-1plus_full_gauge_LES_and_endpoint": true,
+    "1,-1,-1minus_full_gauge_LES_and_endpoint": true,
+    "1,-1,-1plus_full_gauge_LES_and_endpoint": true,
+    "End0_of_induced_is_not_induced_End0": true,
+    "F4_degree_certificate_charged_dual": true,
+    "F5_degree_certificate_charged_dual": true,
+    "F_same_model_charged_three": true,
+    "SM_twelve_generators_not_deck_doubled": true,
+    "W3_degree_certificate_charged_dual": true,
+    "W4_degree_certificate_charged_dual": true,
+    "W_same_model_charged_three": true,
+    "all_E8_coefficients_counted_once": true,
+    "extras_kept_instead_of_silent_SM_truncation": true,
+    "minus_complete_neutral_LES_selfduality": true,
+    "minus_full_neutral_trace_and_peripheral_data": true,
+    "minus_independent_literal_log_transport": true,
+    "minus_nonisotropic_control_kept": true,
+    "minus_restriction_is_actual_Lagrangian": true,
+    "minus_transverse_symplectic_partner": true,
+    "nonzero_phase_gauge_two_exact_acyclic_blocks": true,
+    "one_global_gauge_and_summed_annihilator": true,
+    "opposite_flux_is_allowed_not_two_neumann_laws": true,
+    "plus_complete_neutral_LES_selfduality": true,
+    "plus_full_neutral_trace_and_peripheral_data": true,
+    "plus_independent_literal_log_transport": true,
+    "plus_nonisotropic_control_kept": true,
+    "plus_restriction_is_actual_Lagrangian": true,
+    "plus_transverse_symplectic_partner": true
+  },
+  "exact_predicates": 31,
+  "full_goal_achieved": false,
+  "gauge": {
+    "-1,-1,1": {
+      "minus": {
+        "H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "absolute_H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "restriction_rank": 1
+      },
+      "plus": {
+        "H": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "absolute_H": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "restriction_rank": 1
+      }
+    },
+    "-1,1,-1": {
+      "minus": {
+        "H": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "absolute_H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "restriction_rank": 1
+      },
+      "plus": {
+        "H": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "absolute_H": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "restriction_rank": 1
+      }
+    },
+    "1,-1,-1": {
+      "minus": {
+        "H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "absolute_H": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "restriction_rank": 1
+      },
+      "plus": {
+        "H": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "absolute_H": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_H": [
+          1,
+          2,
+          1
+        ],
+        "restriction_rank": 1
+      }
+    }
+  },
+  "generated_boundary": false,
+  "global_quantum_anomaly": false,
+  "neutral": {
+    "minus": {
+      "H": [
+        0,
+        7,
+        7,
+        0
+      ],
+      "absolute_H": [
+        0,
+        7,
+        7,
+        0
+      ],
+      "admitted_absolute_H1": 1,
+      "boundary_H": [
+        6,
+        12,
+        6
+      ],
+      "connecting_dimension": 6,
+      "physical_neutral_chirals": 7,
+      "plane_dimension": 6,
+      "restriction_rank": 6,
+      "union_rank": 12
+    },
+    "plus": {
+      "H": [
+        0,
+        6,
+        6,
+        0
+      ],
+      "absolute_H": [
+        0,
+        6,
+        6,
+        0
+      ],
+      "admitted_absolute_H1": 0,
+      "boundary_H": [
+        6,
+        12,
+        6
+      ],
+      "connecting_dimension": 6,
+      "physical_neutral_chirals": 6,
+      "plane_dimension": 6,
+      "restriction_rank": 6,
+      "union_rank": 12
+    }
+  },
+  "normalized_interactions": false,
+  "outside_review": false,
+  "physical_linear_roster": {
+    "SM_vector_generators": 12,
+    "charged_component_chirals": 45,
+    "charged_generations": 3,
+    "independent_vector_sectors": 1,
+    "left_chiral_components": 82,
+    "neutral_singlet_chirals": 13,
+    "scalar_partners_retained": true,
+    "separate_Higgs_mechanism": false,
+    "unbroken_adjoint_chirals": 24
+  },
+  "whole_boundary_conditional": true
+}

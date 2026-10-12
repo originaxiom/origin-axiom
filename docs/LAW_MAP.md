@@ -2327,3 +2327,15 @@ nonauthor/main-bank acceptance remains pending.
 | The three peripheral-trivial nontrivial sign characters of the literal silver presentation define connected degree2 covers with two cusps; the induced coefficient is E plus eta E by an explicit unitary sheet map. | B1530 carrier/cover antecedent only; NEW packet PROOF1, native51/Fraction31; tests/test_physical_bridge_silver_cover_families.py::test_cover_population_and_actual_section_map | Mathematical cover/operator map, not gauge-rank doubling or selected carrier. |
 | In the specified inherited CHARGED projector family identical sheets give even generic index; new deck-invariant planes yield W/F kernel(0,3,0,0), actual dual(0,0,3,0). | B1530 literal coefficient antecedent only; NEW packet PROOF2-3; tests/test_physical_bridge_silver_cover_families.py::test_three_kernel_and_actual_dual_not_index_only | Conditional charged physical bridge; full cover domain/selection remains open, not an architecture no-go or completed three families. |
 | Parent sheet multiplication retains two-odd/one-even interactions; the connected cover does not split into copied parent theories. | B1530 coefficient antecedent only; NEW packet PROOF4; tests/test_physical_bridge_silver_cover_families.py::test_parent_interactions_not_decoupled_copies | Parent selection rule, not a nonzero evaluated global light Yukawa. |
+
+### October12 whole-cover research lemmas, UNBANKED physical continuation
+
+B1530 credits the carrier/coefficient antecedent ONLY. NEW proof/locks in
+reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12; no shared
+number, independent analytic/main acceptance or new antecedent claim.
+
+| Law with exact scope | New evidence and genuine antecedent | Limits |
+|---|---|---|
+| One diagonal globally parallel gauge A0 on the specified connected cover has summed integrated normal response and a full cyclic strict E8 boundary; independent cusp gauge kernels are not supplied. | B1530 carrier antecedent only; NEW PROOF2-3; tests/test_physical_bridge_silver_cover_domain.py::test_global_gauge_not_two_independent_cusp_gauges and test_sum_response_keeps_opposite_nonzero_flux | Supplied action/metric/domain, conditional analytic argument, not generated boundary or all-cover theorem. |
+| The chosen whole small-phase linear census keeps3 charged families,13 neutral chirals,2 unbroken adjoint chiral copies and one SM vector sector. | B1530 coefficient antecedent only; NEW PROOF4/native42/Fraction31; tests/test_physical_bridge_silver_cover_domain.py::test_complete_linear_roster_keeps_extra_physical_modes |82 chiral components and SUSY partners, not the complete observed SM or selected three. |
+| Odd neutral sector has one admitted absolute H1 direction plus6 connecting states on this cover/transverse plane. | B1530 coefficient antecedent only; NEW actual matrices/LES; tests/test_physical_bridge_silver_cover_domain.py::test_all_neutral_degrees_reconstructed_characteristic_zero | Old all-connecting zero-cubic mechanism is not applicable to this new sector; no nonzero global overlap inferred. |

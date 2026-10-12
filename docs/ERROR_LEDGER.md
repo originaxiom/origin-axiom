@@ -109,3 +109,12 @@ stopped, no reference launched. Original failure preserved, same-model
 detector corrected/resealed before retry with an opposing full-dual-rank
 control. Corrected51/31 new predicates and15 live tests pass. No geometry
 negative, weakened kernel criterion or silent failed-run replacement.
+
+October12 repeated E52 symbolic-detector instance: whole-cover native at
+d403a1872 compared factored/distributed identical sum flux by structural==.
+It stopped before spectrum, no reference launch; first10 tests failed there
+and7 retained passed. Original native stderr/receipt retained; simplified
+residual plus wrong-difference-flux guard resealed b06dadb18 BEFORE retry.
+Physical action/domain/proof and reference unchanged.42/31 exact and17
+live tests pass afterward. Explicitly a recurrence of a known checker
+mistake, not a novel mathematical negative or a silently erased failure.

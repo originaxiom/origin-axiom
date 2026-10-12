@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-12 whole-cover boundary and complete conditional field census
+
+42/31 exact and17 live tests PASS at unchanged pre-science b06dadb18.
+ONE global gauge/summed response, all neutral/adjoint/boundary modes kept:
+3 charged families,13 neutral chirals,2 adjoint chiral copies,one SM vector
+sector;82 chiral components, not45 or a completed observed SM. New odd
+absolute neutral direction retains an interaction lead. Supplied planes
+remain unselected; stationary reference alone cannot choose charged L.
+First flux detector stop preserved/repaired/resealed before retry.
+Report: reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/FINDINGS.md.
+Goal remains derive three physical generations,ACTIVE/unachieved.
+
 ## 2026-10-12 connected-cover charged three and the new boundary price
 
 51 native/31 Fraction new exact predicates,146/127 prior predicates

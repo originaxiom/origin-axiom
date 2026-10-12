@@ -1,0 +1,15 @@
+{
+  "source_count": 44,
+  "source_mismatches": [],
+  "raw_corrected_captures_match": true,
+  "public_first_stderr": {
+    "bytes": 550,
+    "sha256": "088c2b43edd335f40cac329d02d48aade849beeb308caf7e53ed1351ed8af7a5"
+  },
+  "original_first_stderr": {
+    "bytes": 642,
+    "sha256": "9bf597ddd371c540b14180ef189a52d88c50ef87caf6c5c25446adf4a80b6fb6",
+    "retained_locally": true
+  },
+  "redaction": "ONLY private checkout prefix replaced, public bytes not raw-equal"
+}

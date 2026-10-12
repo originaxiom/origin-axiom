@@ -1,5 +1,25 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October12 WHOLE cover-domain checkpoint:42 native/31 Fraction exact and
+17 live tests PASS222.73s,10 new/7 retained; pushed pre-science b06dadb18.
+44 source pins/tracked tree unchanged. Report:
+reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/FINDINGS.md.
+ONE connected silver double cover, full strict E8 boundary and summed
+response with one global gauge k. Conditional complete small-phase linear
+roster:3LEFT10+bar5 generations,13 neutral chirals,2 unbroken adjoint
+chiral copies(24components),one12-generator SM vector/gaugino sector,
+SUSY partners;82 chiral components, not45. Extra fields NOT deleted.
+Odd neutral sector retains ONE absolute H1 direction plus6 connecting
+modes: old all-connecting zero-cubic kill cannot be transferred. Actual
+light overlaps and quantum/global/boundary anomaly remain uncomputed.
+First factored/distributed flux detector failure preserved/resealed, no
+physics/proof change. Parent/cut/cover/metric/H/v/planes still supplied;
+stationary zero background is blind to charged-plane choice. NEXT actual
+currents/new neutral interactions and GENERATED end/source/register law.
+Goal derive three physical generations remains ACTIVE/unachieved; no
+outside/full-suite/main or complete observed SM/TOE acceptance.
+
+
 October12 connected-cover charged-kernel checkpoint:51/31 new exact
 predicates plus146/127 prior predicates rederived;15 live tests PASS366.35s,
 8 new/7 retained. Repaired pre-science seal aa89595c5,35 pins/tree unchanged.

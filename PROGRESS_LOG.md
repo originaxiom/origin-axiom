@@ -19077,3 +19077,21 @@ charged boundary has even index. One E8 parent with cross-deck interactions;
 full globally-parallel-k boundary/neutral/adjoint/anomaly/selection remains.
 Report and NEXT_TEST: reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12.
 Sender relay OPEN; no main, outside or full-suite acceptance inferred.
+
+## 2026-10-12 whole-cover E8 trace and complete linear spectrum
+
+Active objective derive three physical generations remains unachieved.
+Same connected double-cover candidate extended to ONE global diagonal
+k, summed response, whole-E8 strict boundary and all coefficient sectors.
+Native42/reference31 exact PASS176.223/25.428s;17 tests PASS222.73s,
+10 new/7 retained at unchanged pushed b06dadb18.44 pins/tree unchanged.
+First structural-equality flux detector failure6.735s preserved; reference
+not launched, first regression10fail/7pass, checker-only repair before retry.
+Complete conditional spectrum:3 charged10+bar5 LEFT families,13 neutral
+chirals,2 adjoint chiral copies and ONE12-generator SM vector/gaugino
+sector;82 independent chiral components plus SUSY partners, not full SM.
+NEW odd neutral absolute H1=1,6 connecting modes; no old all-connecting
+interaction negative transferred. Stationarity remains blind to supplied
+L. NEXT physical current/overlaps/anomalies and generated end choice.
+Packet reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12.
+No new shared identifier, outside/full-suite/main or goal acceptance.
