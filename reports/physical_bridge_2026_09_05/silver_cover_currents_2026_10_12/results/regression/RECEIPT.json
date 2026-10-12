@@ -1,0 +1,29 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 38.09613199999876,
+  "seal_commit": "7a830634d4095a51ea946087f5cdac78f3bf38c6",
+  "arguments": [
+    "python3",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_silver_cover_currents.py",
+    "tests/test_physical_bridge_silver_fermion_action.py"
+  ],
+  "status_before": "",
+  "status_after": "",
+  "files": [
+    {
+      "path": "stdout.log",
+      "bytes": 100,
+      "sha256": "0ea22fcfc2ce45c039c9c6245bde13c7a5312034e56e53c5683d506f7ba035a6"
+    },
+    {
+      "path": "stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

@@ -6121,3 +6121,20 @@ statistic; no physical source is thereby shown to exist.
 
 Closing scope: the bounded cusp audit is complete at research grade;
 FK10, generated selection and the parameter-free SM/TOE remain unfinished.
+
+## October12 actual current-map duty and its remaining source obligations
+
+PB-COVER-CURRENTS: CONDITIONAL current-map calculation complete on the
+stated same action/domain; closing sentence: "All three profiles of each
+charged block carry the one constant unbroken vector's current, under
+the inherited equivariant elliptic harmonic-projection/positive-action
+hypotheses." Source silver_cover_currents_2026_10_12/FINDINGS.md under
+reports/physical_bridge_2026_09_05,266/215 exact and17 live tests.
+Not closure of generated families/end/parent selection.
+PB-COVER-CHARGED-CUBIC: OPEN, compute complete3-profile matter tensors,
+including gauge-allowed dangerous operators; one-family antisymmetry
+is not a new-domain zero proof. PB-COVER-ODD-NEUTRAL: OPEN, actual absolute
+representative and interaction map. PB-COVER-GENERATED-END/QUANTUM/EXTRAS:
+remain OPEN in previous NEXT_TEST. Signed silver and positive ruled
+genesis must be reconciled by a generated physical map, not labelling.
+No missing-everywhere claim; prior-work sources in sealed DESIGN.

@@ -19095,3 +19095,16 @@ interaction negative transferred. Stationarity remains blind to supplied
 L. NEXT physical current/overlaps/anomalies and generated end choice.
 Packet reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12.
 No new shared identifier, outside/full-suite/main or goal acceptance.
+
+## 2026-10-12 actual cover-profile gauge current map
+
+266 native/215 Fraction exact and17 selected live tests PASS at unchanged
+pushed7a830634d,50 pins/tree unchanged, first outputs retained. Complete
+five-weight actual kernels1+2,12-generator faithful SM tensor maps,
+arbitrary positive-Gram normalized current and first-jet Ward checks.
+Conditional action-level positive, not a three-selector or I-23 earning.
+Prior13 neutral/two adjoint/SUSY extras retained. Next actual multi-family
+cubic/odd neutral and generated end law; signed silver laboratory not
+selected by ruled positive genesis. Goal ACTIVE/unachieved. No full-suite/
+nonauthor/main/quantum acceptance, no shared identifier.
+Packet reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12.

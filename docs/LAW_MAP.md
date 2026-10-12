@@ -1,5 +1,18 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October12 path-local current-map sublemmas, not a new shared bank or
+foundational selection. B1530 is INPUT coefficient antecedent only.
+Source reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12,
+PROOF1-5,266/215 exact and17 live tests; full-suite/nonauthor/main owed.
+
+| Law (scoped conditional lemma) | Antecedent, proof and actual lock | Limit |
+|---|---|---|
+| Five actual charged weight pencils have even1/odd2 injective admitted primitive traces | B1530 INPUT only; new PROOF1; tests/test_physical_bridge_silver_cover_currents.py::test_both_live_algorithms_and_actual_weighted_kernels | Supplied cover/end planes, not selected three |
+| Twelve unbroken SM generators act faithfully through explicit tensor/epsilon maps preserving those kernels | B1530 INPUT only; new PROOF2; test_every_explicit_gauge_intertwiner_and_faithfulness / test_kernel_equivariance_under_all_generators | Supplied SU5 frame and elliptic equivariant harmonic projection |
+| Same-parent constant-vector currents normalize to identity in family space for every positive physical Gram | B1530 INPUT only; new PROOF3; test_positive_nonorthogonal_normalization_and_rejecting_control | General authored argument; finite Gram only a fixture; K,V,c supplied, I-23 UNEARNED |
+| Covariant derivative has classical first-jet Ward identity; omitting the derivative fails | B1530 INPUT only; new PROOF4; test_classical_Ward_identity_with_nonzero_derivative_control | Not quantum/global/boundary anomaly certificate |
+| Current normalization works at any n and therefore does not select three | B1530 INPUT only; new PROOF5; test_current_is_nonzero_but_not_a_three_selector | Does not exclude a generated source/end selection law |
+
 October12 active-goal update: DERIVE THREE PHYSICAL GENERATIONS.
 A specified four-dimensional cusp-unit lift is verified, not a family
 derivation: corrected27 native/16 reference exact predicates and24

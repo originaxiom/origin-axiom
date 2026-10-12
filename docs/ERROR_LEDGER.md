@@ -118,3 +118,13 @@ residual plus wrong-difference-flux guard resealed b06dadb18 BEFORE retry.
 Physical action/domain/proof and reference unchanged.42/31 exact and17
 live tests pass afterward. Explicitly a recurrence of a known checker
 mistake, not a novel mathematical negative or a silently erased failure.
+
+October12 current-map verification retained ZERO scientific failures or
+reseals:266/215 exact and17 live PASS on7a830634d. Known symbolic-equality
+checker class avoided with simplified residuals. Two preparation read
+commands guessed silver_fermion_action's date and roadmap short filename;
+both returned visible missing-path errors, exact paths then located with
+rg --files and read. No absence/science verdict derived from those errors.
+User's McKay simultaneous-cascade assertion treated as a hypothesis;
+B266's final correction and newer weave2O read before replying. Its old
+homeless wording is route-scoped, not an architecture-wide E7 exclusion.

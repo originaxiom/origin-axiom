@@ -1,5 +1,20 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October12 actual cover-kernel current checkpoint:266 native/215 Fraction
+exact PASS17.106/1.740s,17 live tests PASS36.99s(10 new/7 retained) at
+unchanged pushed7a830634d;50 pins/tree unchanged. Report:
+reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/FINDINGS.md.
+All five actual charged weight pencils carry1+2 profiles. Explicit
+faithful12-generator SM intertwiners and equivariant harmonic projection
+give SAME-parent currents; positive global Gram cancels after normalization,
+not numerically computed. Conditional SU5 trace ratio3/5 is NOT I-23 earned
+or a measured coupling. Current normalization works at any n, not selection.
+Full13 neutral/two adjoint/SUSY extras retained; no Higgs/Yukawa computed.
+NEXT actual multi-family cubics, odd absolute neutral direction and generated
+end/source/register law. Signed silver laboratory not silently selected by
+the ruled positive genesis. Goal derive three physical generations ACTIVE,
+unachieved; no quantum/outside/full-suite/main or complete SM/TOE acceptance.
+
 October12 WHOLE cover-domain checkpoint:42 native/31 Fraction exact and
 17 live tests PASS222.73s,10 new/7 retained; pushed pre-science b06dadb18.
 44 source pins/tracked tree unchanged. Report:

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 17.1063844349992,
+      "exact_predicates": 266
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 1.74010824799916,
+      "exact_predicates": 215
+    }
+  ],
+  "scope": "same supplied parent charged kernels and currents; no selection/Yukawa/quantum completion",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "7a830634d4095a51ea946087f5cdac78f3bf38c6",
+  "initial_source_hashes_match": true,
+  "shared_actual_outputs_agree": true,
+  "tracked_worktree_unchanged": true,
+  "source_inputs_unchanged": true,
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 16005,
+      "sha256": "dee8a45870696b2b94e3e5d0b0b0776e52f4a805f12b61158043c9a65302c9f0"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 12363,
+      "sha256": "feaa771de5ff2ad099d4c59f824902e634ff4782e31bdfad33b49b923295848d"
+    }
+  ]
+}
