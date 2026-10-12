@@ -1,5 +1,20 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October12 incoming Joining Gates1-3 finite reproduction: seven unchanged
+archive processes PASS at pushed repaired pre-science seal18368ab83;
+Gate1 57/17 exact, Gate2 50 exact+8/48 at50/80 digits, Gate3 43 exact+
+72 numerical(64 strict/8 finite limits). Ten custody/plumbing tests PASS;
+nine scientific JSONs byte-equal originals, original archive/science
+sources and tracked worktree unchanged. First alias wrapper failure
+launched ZERO science, preserved/resealed. Report:
+reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/FINDINGS.md.
+Actual charged-localization lead retained, not global core/end matching,
+selected E8 parent or natural SM selection. Structure4+1 flag is gauge-
+SU5 blind; admitted compact SM phase supplies3+2/planes/polarization or
+Cartan H,v. NEXT actual gauge transport/D0-trivial channel and matrix/end
+join, neutral coupling and end selection; no architecture negative.
+No new shared bank number, outside/full-suite/main or SM/TOE acceptance.
+
 October12 publication of October11 first massive-exchange Higgs quartic:
 25 native/305 separate Fraction exact predicates and59 seven-packet
 regression PASS in700.12s,8 new, unchanged science/test seal f9122858c.

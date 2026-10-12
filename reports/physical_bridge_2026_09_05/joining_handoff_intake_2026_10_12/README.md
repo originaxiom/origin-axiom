@@ -1,5 +1,15 @@
 # Full joining handoff: personal intake in progress
 
+October12 later status supersedes earlier UNEXECUTED checkpoints below:
+all13 reports/final producers personally read at ledger scope; Gates1-3
+now reproduced from exact original source bytes in fresh scratch at pushed
+seal18368ab83. Seven processes exit0; nine generated scientific JSONs
+byte-equal originals; ten custody/plumbing tests pass. See adjoining
+joining_handoff_replay_2026_10_12/FINDINGS.md and literal receipts.
+Earlier paragraphs describe their historical stages, NOT current absence
+of gate replay. Runs1-13 science replay/global analytic/physical acceptance
+remain pending. Original archive unchanged, no canonical genesis promotion.
+
 October12. Owner supplied Origin_Axiom_Banking_Seat_FULL_Handoff_Through_Joining_Gate_3.zip
 and requested serious consideration of the promised genesis work.
 This packet preserves its original bytes and records a PERSONAL reading

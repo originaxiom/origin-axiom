@@ -1,0 +1,260 @@
+{
+  "precision_digits": 80,
+  "exact_checks": {
+    "Fraction_response_matches_direct_algebra": true,
+    "Fraction_determinant_factorization": true,
+    "Fraction_boundary_covariance": true,
+    "Fraction_associative_elimination": true,
+    "Fraction_seam_0": true,
+    "Fraction_transparent_cap_0": true,
+    "Fraction_seam_1": true,
+    "Fraction_transparent_cap_1": true
+  },
+  "exact_count": 8,
+  "numerical_count": 48,
+  "max_normalized_residual": "5.27109897161526e-81",
+  "numerical_checks": [
+    {
+      "name": "energy_vs_DtN_1.0_0_0.3",
+      "residual": "5.92998634306717e-82",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.0_0_0.3",
+      "residual": "1.18599726861343e-81",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.0_0_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.0_0_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.0_0_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.0_0_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.0_1_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.0_1_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.0_1_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.0_1_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.0_1_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.0_1_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.0_2_0.3",
+      "residual": "2.0630214989457e-81",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.0_2_0.3",
+      "residual": "1.97666211435572e-82",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.0_2_0.3",
+      "residual": "2.0630214989457e-81",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.0_2_1.2",
+      "residual": "1.64590046407263e-81",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.0_2_1.2",
+      "residual": "2.63554948580763e-82",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.0_2_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.5_0_0.3",
+      "residual": "1.31777474290382e-82",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.5_0_0.3",
+      "residual": "1.31777474290382e-82",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.5_0_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.5_0_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.5_0_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.5_0_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.5_1_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.5_1_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.5_1_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.5_1_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.5_1_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.5_1_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.5_2_0.3",
+      "residual": "1.50848091674625e-81",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.5_2_0.3",
+      "residual": "2.63554948580763e-82",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.5_2_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "energy_vs_DtN_1.5_2_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "weighted_ODE_1.5_2_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "boundary_derivative_1.5_2_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "Bessel_normalization_1.0_0.7_0.3",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "Bessel_DtN_independent_derivative_1.0_0.7_0.3",
+      "residual": "5.27109897161526e-81",
+      "passed": true
+    },
+    {
+      "name": "Bessel_radial_ODE_1.0_0.7_0.3_0.2",
+      "residual": "1.05421979432305e-81",
+      "passed": true
+    },
+    {
+      "name": "Bessel_radial_ODE_1.0_0.7_0.3_0.8",
+      "residual": "4.21687917729221e-81",
+      "passed": true
+    },
+    {
+      "name": "Bessel_normalization_1.5_1.1_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "Bessel_DtN_independent_derivative_1.5_1.1_1.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "Bessel_radial_ODE_1.5_1.1_1.2_0.2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "Bessel_radial_ODE_1.5_1.1_1.2_0.8",
+      "residual": "4.21687917729221e-81",
+      "passed": true
+    },
+    {
+      "name": "window_L2",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "window_derivative",
+      "residual": "1.28177756855992e-81",
+      "passed": true
+    },
+    {
+      "name": "window_second_derivative",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "sharp_flux_quadrature",
+      "residual": "0.0",
+      "passed": true
+    }
+  ],
+  "status": "PASS",
+  "scope": "same-author different-method controls; no interval certification or E8 PDE solve"
+}

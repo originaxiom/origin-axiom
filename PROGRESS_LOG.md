@@ -18923,3 +18923,32 @@ default scratch path and add real symlink-alias regression (ten tests).
 Archive/input/scientific code/tolerances/claims unchanged. Amend design
 and append new actual runner/design/test hashes, commit/push before retry;
 not scientific failure, failed physical model or a full-program negative.
+
+---
+
+## 2026-10-12 — Joining Gates1–3 finite reproduction completed
+
+Repaired pre-science seal18368ab83 pushed/server confirmed. Seven EXACT
+unchanged archive scientific processes run in fresh scratch, all exit0:
+Gate1 primary57/reference17 exact; Gate2 exact50/reference8 exact+48
+numerical at50 AND80; Gate3 exact43/numerical72(64 strict+8 finite limits).
+All nine generated scientific JSON files byte-equal original archive,
+executed source/input and tracked worktree unchanged. Ten custody/plumbing
+tests pass0.41s; not ten physical proofs. Full literal logs/exit/time/hash
+receipt preserved; first wrapper failure retained with ZERO science.
+
+Actual nonsplit/end relation, nonlinear cusp equations, canonical radial
+flux and charged localized finite-norm tail reproduced at finite/control
+grade. No full nonsplit core/end normal match/global spectrum/PDE or new
+independent detector. Harmonic-metric norm not residual energy; neutral
+continuum/opposite-charge channels retained; old80-digit Gate3 timeout
+UNKNOWN and not rerun. Structure4+1 is not gauge3+2 selection. Prior
+compact selective model/Cartan phase explicitly supply their SM data;
+this is not natural input-free SM through E8 and not an architecture kill.
+
+Next actual admitted gauge-phase peripheral transport/D0-triviality test,
+matrix/angular end response, full matching and selected end law. Other
+13-run science replays/analytic adoption remain pending. Canonical genesis,
+shared bank numbers/main/outside/full-suite/quantum acceptance unchanged.
+Full parameter-free SM/TOE remains ACTIVE and unachieved. Findings in
+joining_handoff_replay_2026_10_12 under physical_bridge; relays remain OPEN.

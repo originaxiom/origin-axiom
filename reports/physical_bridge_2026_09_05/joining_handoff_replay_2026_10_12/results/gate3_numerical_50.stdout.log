@@ -1,0 +1,320 @@
+{
+  "status": "PASS",
+  "dps": 50,
+  "checks": {
+    "Euler_integral_value_0_1": {
+      "pass": true,
+      "error": "4.782159227e-52"
+    },
+    "Euler_integral_derivative_0_1": {
+      "pass": true,
+      "error": "6.12626759e-52"
+    },
+    "Euler_integral_second_derivative_0_1": {
+      "pass": true,
+      "error": "1.869092595e-51"
+    },
+    "radial_field_equation_0_1": {
+      "pass": true,
+      "error": "1.336382355e-51"
+    },
+    "canonical_response_0_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "response_positive_0_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "first_order_partner_solution_0_1": {
+      "pass": true,
+      "error": "3.560092048e-51"
+    },
+    "Euler_integral_value_0_-1": {
+      "pass": true,
+      "error": "9.482968717e-52"
+    },
+    "Euler_integral_derivative_0_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "Euler_integral_second_derivative_0_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "radial_field_equation_0_-1": {
+      "pass": true,
+      "error": "2.67276471e-51"
+    },
+    "canonical_response_0_-1": {
+      "pass": true,
+      "error": "1.324343868e-51"
+    },
+    "response_positive_0_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "first_order_partner_solution_0_-1": {
+      "pass": true,
+      "error": "4.970251006e-52"
+    },
+    "partner_response_product_0": {
+      "pass": true,
+      "error": "1.289090285e-51"
+    },
+    "moving_cut_preserves_response_0": {
+      "pass": true,
+      "error": "1.177435425e-51"
+    },
+    "Euler_integral_value_1_1": {
+      "pass": true,
+      "error": "4.993138208e-52"
+    },
+    "Euler_integral_derivative_1_1": {
+      "pass": true,
+      "error": "1.763521373e-51"
+    },
+    "Euler_integral_second_derivative_1_1": {
+      "pass": true,
+      "error": "1.030347309e-51"
+    },
+    "radial_field_equation_1_1": {
+      "pass": true,
+      "error": "5.34552942e-51"
+    },
+    "canonical_response_1_1": {
+      "pass": true,
+      "error": "4.403874224e-51"
+    },
+    "response_positive_1_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "first_order_partner_solution_1_1": {
+      "pass": true,
+      "error": "5.774343296e-51"
+    },
+    "Euler_integral_value_1_-1": {
+      "pass": true,
+      "error": "3.609943947e-52"
+    },
+    "Euler_integral_derivative_1_-1": {
+      "pass": true,
+      "error": "6.368130441e-52"
+    },
+    "Euler_integral_second_derivative_1_-1": {
+      "pass": true,
+      "error": "1.339138063e-51"
+    },
+    "radial_field_equation_1_-1": {
+      "pass": true,
+      "error": "1.603658826e-50"
+    },
+    "canonical_response_1_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "response_positive_1_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "first_order_partner_solution_1_-1": {
+      "pass": true,
+      "error": "6.085228518e-52"
+    },
+    "partner_response_product_1": {
+      "pass": true,
+      "error": "7.32150333e-51"
+    },
+    "moving_cut_preserves_response_1": {
+      "pass": true,
+      "error": "2.755868332e-51"
+    },
+    "Euler_integral_value_2_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "Euler_integral_derivative_2_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "Euler_integral_second_derivative_2_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "radial_field_equation_2_1": {
+      "pass": true,
+      "error": "1.069105884e-50"
+    },
+    "canonical_response_2_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "response_positive_2_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "first_order_partner_solution_2_1": {
+      "pass": true,
+      "error": "4.549543019e-52"
+    },
+    "Euler_integral_value_2_-1": {
+      "pass": true,
+      "error": "4.797196407e-52"
+    },
+    "Euler_integral_derivative_2_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "Euler_integral_second_derivative_2_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "radial_field_equation_2_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "canonical_response_2_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "response_positive_2_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "first_order_partner_solution_2_-1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "partner_response_product_2": {
+      "pass": true,
+      "error": "7.395203458e-52"
+    },
+    "moving_cut_preserves_response_2": {
+      "pass": true,
+      "error": "2.734474702e-51"
+    },
+    "zero_sign_plus_whittaker_0": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "zero_sign_minus_whittaker_0": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "physical_tail_norm_0": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "opposite_static_response_0": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "zero_static_response_0": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "low_frequency_kinetic_0": {
+      "pass": true,
+      "error": "1.167877614e-17"
+    },
+    "low_frequency_partner_0": {
+      "pass": true,
+      "error": "1.256617745e-17"
+    },
+    "zero_sign_plus_whittaker_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "zero_sign_minus_whittaker_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "physical_tail_norm_1": {
+      "pass": true,
+      "error": "3.89475764e-52"
+    },
+    "opposite_static_response_1": {
+      "pass": true,
+      "error": "8.112090057e-52"
+    },
+    "zero_static_response_1": {
+      "pass": true,
+      "error": "0.0"
+    },
+    "low_frequency_kinetic_1": {
+      "pass": true,
+      "error": "1.574906667e-18"
+    },
+    "low_frequency_partner_1": {
+      "pass": true,
+      "error": "3.20269848e-18"
+    },
+    "zero_sign_plus_whittaker_2": {
+      "pass": true,
+      "error": "2.310065374e-52"
+    },
+    "zero_sign_minus_whittaker_2": {
+      "pass": true,
+      "error": "7.477803915e-53"
+    },
+    "physical_tail_norm_2": {
+      "pass": true,
+      "error": "2.541616315e-52"
+    },
+    "opposite_static_response_2": {
+      "pass": true,
+      "error": "7.793122831e-52"
+    },
+    "zero_static_response_2": {
+      "pass": true,
+      "error": "5.34552942e-51"
+    },
+    "low_frequency_kinetic_2": {
+      "pass": true,
+      "error": "2.141369796e-19"
+    },
+    "low_frequency_partner_2": {
+      "pass": true,
+      "error": "8.297754267e-19"
+    },
+    "finite_interval_actual_quadratic_action": {
+      "pass": true,
+      "error": "4.233957563e-52"
+    },
+    "zero_wall_limit_1": {
+      "pass": true,
+      "error": "7.49999493e-13"
+    },
+    "zero_wall_limit_-1": {
+      "pass": true,
+      "error": "7.49999493e-13"
+    }
+  },
+  "total_checks": 72,
+  "strict_count": 64,
+  "finite_limit_count": 8,
+  "max_strict_residual": "1.6036588260553173877e-50",
+  "max_finite_limit_residual": "7.4999949301650744928e-13",
+  "zero_response_examples": [
+    {
+      "x0": "0.2",
+      "ell": "1.2",
+      "kinetic_Z": "0.8960092481593437671248",
+      "opposite_N0": "1.11605990904031696976"
+    },
+    {
+      "x0": "1.0",
+      "ell": "1.2",
+      "kinetic_Z": "0.3578084173939164446046",
+      "opposite_N0": "2.794791713631168114069"
+    },
+    {
+      "x0": "3.0",
+      "ell": "1.2",
+      "kinetic_Z": "0.1572502441531910977132",
+      "opposite_N0": "6.35929060323628681818"
+    }
+  ],
+  "scope": "rank-one charged radial control, not full parabolic E8 matrix response or global core spectrum"
+}

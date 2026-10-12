@@ -1,0 +1,24 @@
+{
+  "scope": "same-author separate methods, no physical census/PDE theorem",
+  "checks": {
+    "all_affine_relators_have_fixed_diagonal": true,
+    "cocycle_linear_constraints": true,
+    "rational_rank_d0": true,
+    "rational_rank_d1": true,
+    "rational_rank_end": true,
+    "rational_rank_combined": true,
+    "rational_rank_c_not_coboundary": true,
+    "rational_end_trivial": true,
+    "h1_two_and_interior_one": true,
+    "kronecker_characteristic_polynomial": true,
+    "separate_reduction_word_length": true,
+    "fraction_word_det": true,
+    "fraction_word_trace": true,
+    "fraction_four_trace": true,
+    "fraction_full_parent_trace": true,
+    "parent_identity_not_falsely_detected": true,
+    "fixed_metric_norm_control": true
+  },
+  "passed": 17,
+  "failed": []
+}

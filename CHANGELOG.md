@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-12 joining-gate scientific replay complete
+
+Seven unchanged archive instruments executed from new scratch at pushed
+18368ab83: Gate1 57/17 exact; Gate2 50 exact and8 exact/48 numerical at
+50/80 digits; Gate3 43 exact and72 numerical(64 strict/8 finite limits).
+All exit0, nine generated scientific JSON files byte-equal originals,
+executed source/input and tracked tree unchanged. Ten custody/plumbing
+tests PASS in0.41s. Complete literal logs/receipts retained, original
+handoff unchanged; zero-science wrapper path failure retained separately.
+Finite reproducibility strengthens actual localization lead, NOT global
+PDE/particle spectrum or natural SM selection. Structure4+1 flag remains
+gauge-SU5 blind; compact model supplies3+2/planes/polarization, framed
+phase supplies Cartan H and v. Next same-candidate gauge transport/angular
+matrix/end-core matching and selection, not fitted boundary substitution.
+Intake/current fronts updated; no new shared number, main/outside/full-suite
+acceptance or completed parameter-free SM/TOE. Goal remains ACTIVE.
+
 ## 2026-10-12 joining replay wrapper path repair before science
 
 Sealed wrapper eb3a0900e stopped at macOS alias containment check:

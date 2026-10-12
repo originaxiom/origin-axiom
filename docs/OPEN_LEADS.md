@@ -1,5 +1,21 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October12 PB-WEAVE-JOINING-HANDOFF finite gate replay COMPLETED, wider
+application/selection OPEN: Joining Gates1-3 unchanged instruments pass
+seven executions at pushed repaired seal18368ab83, original science/input
+bytes unchanged; all nine generated scientific JSONs byte-equal originals.
+Gate1 57/17 exact, Gate2 50 exact+8/48 at50/80 digits, Gate3 43 exact+
+72 numerical(64 strict/8 limits); ten runner/custody tests pass. First
+macOS alias wrapper failure had ZERO science, preserved/resealed.
+Report joining_handoff_replay_2026_10_12/FINDINGS.md under physical_bridge.
+NOT independent new detector/global PDE, main bank, selected SM or TOE.
+Gate3 structure4+1 localizes charged end modes but is gauge-SU5 blind;
+neutral threshold and full core normal matching retained. NEXT actual
+admitted gauge transport/D0-trivial channel test and matrix response,
+not unmodified Whittaker transfer or desired3+2/family-driven boundary.
+No incoming13-run broad acceptance; other science replays remain pending.
+Full physical goal ACTIVE/unachieved; prior supplied-model positives stand.
+
 October12 joining-gate reproduction SPECIFIED, not executed: packet
 joining_handoff_replay_2026_10_12 under physical_bridge. Exact archive
 members/candidate, unchanged runner/design/test hashes in SEAL_LEDGER;

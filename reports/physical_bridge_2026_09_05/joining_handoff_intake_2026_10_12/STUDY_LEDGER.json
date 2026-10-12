@@ -201,13 +201,35 @@
     "initial_audit_producer_and_replay": "Full 332-line producer/notes/README/console read; independent science replay and full proof/source adoption pending.",
     "runs1_through13": "All thirteen technical reports and final scientific producers personally read chronologically. Selected receipts and correction diffs inspected; not blanket reading of every JSON/manifest/earlier lower-precision log. All independent science replay still pending.",
     "cross_branch_assessment_and_sources": "Assessment, builder and snapshot fully read; historical October11 physical-pin statements are not current outcomes. Full underlying source/application audit pending.",
-    "joining_gates1_through3": "All three technical reports, final producers, exploratory scripts, scope/plan/source files and selected execution receipts read. Thirteen explicit source-pin blobs agree with local pinned/current Git objects. Proof/application checks and independent scientific replay pending.",
+    "joining_gates1_through3": "All three reports/final producers personally read; final unchanged instruments now REPRODUCED in new scratch at pushed seal18368ab832605eba2eccda91dae8f68f76f8478b: seven processes, finite exact and numerical controls pass. Original instruments share an author. This is a new reviewing environment, not a new independent detector, global PDE or physical acceptance. Full analytic/application/core-end matching still pending.",
     "global_nonlinear_matrix_core_end_match": "NOT SOLVED. Do not replace by scalar flag-current projection or rank-one DtN."
   },
-  "next_file": "Complete remaining current operator/action source checks and pre-compute protocol, then commit/push independent reproduction seal before any scientific execution.",
+  "next_file": "Retrieve actual admitted gauge-phase peripheral transport and D0-trivial subspaces, then seal a same-candidate matrix/angular end compatibility test; full core normal matching and end selection remain open.",
   "partial_reading": {},
-  "archive_scientific_producers_executed": [],
+  "archive_scientific_producers_executed": [
+    "Gate1 verify_bridge.py",
+    "Gate1 verify_reference.py",
+    "Gate2 verify_exact.py",
+    "Gate2 verify_reference.py --dps 50",
+    "Gate2 verify_reference.py --dps 80",
+    "Gate3 verify_exact.py",
+    "Gate3 verify_numerical.py --dps 50"
+  ],
   "accepted_new_mathematical_physical_claims": [],
+  "reproduced_prior_finite_claims": {
+    "grade": "Unchanged-instrument replay only; no global analytic/physical acceptance or newly derived input",
+    "packet": "../joining_handoff_replay_2026_10_12/FINDINGS.md",
+    "science_seal": "18368ab832605eba2eccda91dae8f68f76f8478b",
+    "all_seven_processes_exit_zero": true,
+    "all_nine_generated_scientific_json_byte_equal_original": true,
+    "tracked_tree_and_executed_sources_unchanged": true,
+    "first_wrapper_path_failure_zero_science_launched": true,
+    "gate3_strict_numerical_checks": 64,
+    "gate3_finite_limit_checks": 8,
+    "gate3_80_digit_attempt": "Not executed here; old timeout remains UNKNOWN",
+    "runs1_through13_independent_science_replay": false,
+    "natural_input_free_SM_selection": false
+  },
   "custody_only": {
     "outer_files": 366,
     "sha_manifest_checked": 363,
@@ -336,6 +358,36 @@
     "scientific_correctness_certified": false
   },
   "upstream_current_proofs_fully_read": [
+    {
+      "ref": "18368ab832605eba2eccda91dae8f68f76f8478b",
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "blob": "4133e436096b89a652de980b37ddc461bc74486d",
+      "grade": "Full personal current proof reread during handoff application review; zero residual potential distinguished from harmonic-map norm, no new global PDE acceptance."
+    },
+    {
+      "ref": "18368ab832605eba2eccda91dae8f68f76f8478b",
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "blob": "8c7059116f683828064daa06664ab271ce92e140",
+      "grade": "Full personal current proof reread; physical fermion/domain convention review, not noncompact spectrum or new producer replay."
+    },
+    {
+      "ref": "18368ab832605eba2eccda91dae8f68f76f8478b",
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "blob": "b259e55a6dd836bb5850e05e7ea56ecdc4df01b9",
+      "grade": "Full personal current proof reread at reproduction preflight; supplied compact complementary domain not transferred unchanged to a noncompact end."
+    },
+    {
+      "ref": "18368ab832605eba2eccda91dae8f68f76f8478b",
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "blob": "45d8d37c5d29da05326b02888b3bb9d2b41d889d",
+      "grade": "Full personal current proof read for SM-selection question; H,v and four Cartan flat coordinates supplied, actual fixed-domain/gauge transport premises retained."
+    },
+    {
+      "ref": "18368ab832605eba2eccda91dae8f68f76f8478b",
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/FINDINGS.md",
+      "blob": "cc41e2007efae6ac0a872e1b08c26570921d0cfa",
+      "grade": "Full personal current findings reread: admitted one-family construction explicitly supplies3+2 planes and gauge polarization; not a natural-selection theorem."
+    },
     {
       "ref": "b7a51ac7094ea5b1e800598238a51890d9345dfc",
       "path": "reports/silver_normal_response_2026_10_04/PROOF.md",

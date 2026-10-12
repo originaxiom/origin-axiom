@@ -1,0 +1,56 @@
+[
+  {
+    "path": "gate1/RESULTS.json",
+    "bytes": 3288,
+    "sha256": "bc63644a0a2252511254e42c45157b99eed6541db149a16d71a1929d4eac9c90",
+    "byte_equal_original": true
+  },
+  {
+    "path": "gate1/MATRICES.json",
+    "bytes": 9847,
+    "sha256": "939078ac0fa0212ebd5f866134ed21c38113c1e8398317d91c762e9bd6561d78",
+    "byte_equal_original": true
+  },
+  {
+    "path": "gate1/REFERENCE_RESULTS.json",
+    "bytes": 782,
+    "sha256": "e40de34af15a4d669c96eb1555f2626763178d39ac0a1d10093d35033424cafd",
+    "byte_equal_original": true
+  },
+  {
+    "path": "gate2/EXACT_RESULTS.json",
+    "bytes": 2608,
+    "sha256": "268086dbf53783f95fb077062dac0f48886c7e29058675d127a8685122f3d510",
+    "byte_equal_original": true
+  },
+  {
+    "path": "gate2/REFERENCE_50.json",
+    "bytes": 5912,
+    "sha256": "ccd453b9422eeeb6525026904c77b35437908b809d4cfbbd60a8bc2520497a39",
+    "byte_equal_original": true
+  },
+  {
+    "path": "gate2/REFERENCE_80.json",
+    "bytes": 5833,
+    "sha256": "da947543a20628eb99057274af4b1222b3b2c3d8a4397c5364614b39bd5ad361",
+    "byte_equal_original": true
+  },
+  {
+    "path": "gate3/EXACT_RESULTS.json",
+    "bytes": 2177,
+    "sha256": "cc89dbdd1a20e662212d3c4e42ede31743667e405eb695e8bb381a46d9d64f75",
+    "byte_equal_original": true
+  },
+  {
+    "path": "gate3/END_MATRICES.json",
+    "bytes": 3005,
+    "sha256": "442276d645616ba991221942af65ed21cabcb5a1e7cccf4986602ee3727267b2",
+    "byte_equal_original": true
+  },
+  {
+    "path": "gate3/NUMERICAL_50.json",
+    "bytes": 7426,
+    "sha256": "6c43cdfc082e43b691e0ebe6555b96594b3e8505423274de672a6f3f7f07109b",
+    "byte_equal_original": true
+  }
+]
