@@ -30,6 +30,8 @@ def test_three_kernel_and_actual_dual_not_index_only():
     for row in a['models'].values():
         assert row['H']==[0,3,0,0] and row['dual_H']==[0,0,3,0]
         assert row['rank'] in (10,20) and row['sector_J']==[1,2]
+        assert row['dual_rank']==row['rank']-3
+        assert row['dual_rank']<row['rank']
 
 def test_all_three_witnesses_and_conjugate_opposing_cases():
     a=p.run();assert len(a['common_three_dimension_choices'])==8

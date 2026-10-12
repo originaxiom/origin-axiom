@@ -56,9 +56,10 @@ def run():
         EC=r.boundary(c.diag(a,a),c.diag(b,b));DC=r.boundary(c.diag(c.scale(c.tr(a),-1),c.scale(c.tr(a),-1)),c.diag(c.scale(c.tr(b),-1),c.scale(c.tr(b),-1)))
         dual,_=r.paired_plane(EC,DC,L)
         row,other=count(EC,L),count(DC,dual)
-        ck(label+'_degree_bound_actual_doubled_charged_and_dual_kernel',row['H']==[0,3,0,0] and other['H']==[0,0,3,0] and row['rank']==other['rank']==2*n)
+        ck(label+'_degree_bound_actual_doubled_charged_and_dual_kernel',row['H']==[0,3,0,0] and other['H']==[0,0,3,0] and row['rank']==2*n and other['rank']==2*n-3)
+        ck(label+'_impossible_dual_full_rank_rejected',other['rank']!=2*n and len(DC['U'][0])+len(dual[0])==2*n-3)
         ck(label+'_dual_annihilator_full_dimension',len(dual[0])==len(DC['H'][0])-len(L[0]) and r.rank(dual)==len(dual[0]))
-        models[label]={'H':row['H'],'dual_H':other['H'],'rank':row['rank'],
+        models[label]={'H':row['H'],'dual_H':other['H'],'rank':row['rank'],'dual_rank':other['rank'],
                        't0':EC['t0'],'ell':len(L[0]),'sector_J':[1,2],
                        'sector_subsets':[first[str(E['t0']+1)],first[str(E['t0']+2)]]}
     rows=[]

@@ -58,3 +58,9 @@ confirm server BEFORE importing science. Preserve first raw outputs,
 exits, timings, source hashes and tracked tree unchanged. Repairs reseal.
 Full suite, nonauthor review/main banking and inherited governance debt
 remain separate. Current goal stays active regardless of this outcome.
+
+AFTER first native failure, BEFORE retry: the dual rank criterion was
+self-contradictory with the already-declared dual H2=3. FIRST_FAILURE
+preserves the run. Correct ranks are2n and2n-3, with both printed and an
+opposing impossible-full-dual-rank control. The still-unexecuted reference
+has the same criterion repair. No mathematical or physical inputs change.

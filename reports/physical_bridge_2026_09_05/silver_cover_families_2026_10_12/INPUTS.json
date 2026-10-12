@@ -118,7 +118,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/DESIGN.md",
-      "sha256": "59721044ade64abacdda1d0ac70d392e8527bf9bf3469a1ba6183c4ab763248f"
+      "sha256": "00b05b7d30dafedbe2ae74d66929cb6d2dd27f0ec711c019aae3041d70b795c8"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/PROOF.md",
@@ -126,11 +126,11 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/probe.py",
-      "sha256": "068552c472ca3e9defd416a5195bec2efba140492d15097ded1519f88d41f720"
+      "sha256": "7614b5ba379b62a2d97a776676412c6dddea99df4c05a985a21829fde4d4f861"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/reference.py",
-      "sha256": "808183c24676ca140680aa4b31b0fac83c150814c684bbc1a557f012cb7fe051"
+      "sha256": "0b2816d05fd0a76a4d92315e30fb68a64a68b439a3da27b09f012cce0877bf18"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/execute.py",
@@ -138,7 +138,11 @@
     },
     {
       "path": "tests/test_physical_bridge_silver_cover_families.py",
-      "sha256": "1a31e62c21e34f892f4d39202f36befd5801444557e3287abcec7f4e17dd8a6a"
+      "sha256": "19150def37fe20a4a9fab93baac306015c51646cf965bc88de3aefdd47d70c67"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/FIRST_FAILURE.md",
+      "sha256": "18cca35a31f6a277be6035183372a377d634a01c2617eb808da241abdb131f63"
     }
   ],
   "remote_heads": {
@@ -148,5 +152,6 @@
   },
   "scope": "three connected peripheral-trivial sign covers; supplied charged operator/domains",
   "generated_selection": false,
-  "complete_cover_domain_verified": false
+  "complete_cover_domain_verified": false,
+  "repair": "dual rank detector only, after preserved first native failure; reference not yet executed"
 }

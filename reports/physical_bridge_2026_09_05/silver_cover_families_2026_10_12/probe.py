@@ -80,8 +80,9 @@ def run():
         ck(label+'_literal_doubled_kernel_not_index_only',row['H']==[0,3,0,0] and other['H']==[0,0,3,0] and row['J']==3 and other['J']==-3)
         ck(label+'_actual_dual_perfect_annihilator_dimension',dual.cols==DC['H'].cols-L.cols and p.rank(dual)==dual.cols)
         # Full cover coexact plus L has generic rank 2n, not a copied claim.
-        ck(label+'_full_doubled_rank_certificate',row['rank']==2*n and other['rank']==2*n)
-        models[label]={'H':row['H'],'dual_H':other['H'],'rank':row['rank'],
+        ck(label+'_full_doubled_rank_certificate',row['rank']==2*n and other['rank']==2*n-3)
+        ck(label+'_impossible_dual_full_rank_control_rejected',other['rank']!=2*n and DC['U'].cols+dual.cols==2*n-3)
+        models[label]={'H':row['H'],'dual_H':other['H'],'rank':row['rank'],'dual_rank':other['rank'],
                        't0':EC['t0'],'ell':L.cols,'sector_J':[1,2],
                        'sector_subsets':[first[str(E['t0']+1)],first[str(E['t0']+2)]]}
     rows=menu(old['blocks'])
