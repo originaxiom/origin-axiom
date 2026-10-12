@@ -1,0 +1,53 @@
+{
+  "exact_checks": {
+    "coframe_actual_volume": true,
+    "coframe_positive_determinant": true,
+    "coframe_hodge_curvature": true,
+    "coframe_actual_curvature_norm": true,
+    "effective_base_area_not_total_cover": true,
+    "SL_total_action_half_marked_cover": true,
+    "metaplectic_extra_kernel_is_another_half_not_family_count": true,
+    "coframe_finite_tail": true,
+    "zero_flux_minimum_of_this_action": true,
+    "orientation_sign_energy_equal": true,
+    "horizontal_four_form_zero_by_repeated_indices": true,
+    "vertical_four_form_control_nonzero": true,
+    "varying_fibre_area_has_actual_source": true,
+    "no_zero_moment_when_nonzero_unit": true,
+    "T_period_coordinates_correct": true,
+    "S_period_coordinates_correct": true
+  },
+  "exact_passed": 16,
+  "metric": [
+    [
+      "ell**2/y**2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "ell**2/y**2",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "A/y",
+      "A*x/y"
+    ],
+    [
+      "0",
+      "0",
+      "A*x/y",
+      "A*x**2/y + A*y"
+    ]
+  ],
+  "star_uv": "-6*I*A*n/ell**2",
+  "total_action": "3*pi*A*n**2/(ell**2*g**2)",
+  "tail_action": "9*A*n**2/(Y*ell**2*g**2)",
+  "unit_selected": false,
+  "three_physical_generations_derived": false,
+  "outside_review": false
+}

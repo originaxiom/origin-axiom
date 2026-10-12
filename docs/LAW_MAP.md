@@ -1,5 +1,30 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October12 active-goal update: DERIVE THREE PHYSICAL GENERATIONS.
+A specified four-dimensional cusp-unit lift is verified, not a family
+derivation: corrected27 native/16 reference exact predicates and24
+selected tests PASS11.37s, unchanged pushed reseal3afe53a18. Original
+unsimplified-J detector failure retained/resealed; no geometry/units changed.
+Report: reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/FINDINGS.md.
+Actual universal elliptic metric/Hodge/YM and SL central-fibre quotient
+give finite total gauge action; varying fibre area changes the equation.
+Nonzero central slope, incomplete puncture and F wedge F=0 GAUGE form
+are retained. Neither flux, energy coefficient3 nor finite action is a
+physical family index. Unit n=1 remains unselected; Lambda/physical
+operator/end law/complete charged spectrum and anomaly/interactions
+must be joined in ONE theory. No index transfer from W46 or silver.
+NEXT complete puncture/cusp coefficient/action/Weyl/domain map and
+generated sector selection. Full-suite/nonauthor/main and four inherited
+governance categories remain owed. Goal ACTIVE and unachieved; historical
+broader SM/TOE mission and other routes are preserved, not certified.
+
+| Scoped conditional sublemma | Proof/actual lock and limit |
+|---|---|
+| Period-normalized total metric is positive, Kähler and modular S/T invariant | weave_four_dimensional_unit_2026_10_12/PROOF1; tests/test_physical_bridge_weave_four_dimensional_unit.py::test_actual_metric_and_orthonormal_coframe_agree / test_actual_S_and_T_metric_descent_and_holomorphic_coordinates. Existing literature construction, not a complete puncture or derived physical metric |
+| Base Chern connection has closed four-dimensional Hodge response at constant fibre area; varying area changes it | PROOF2; test_full_Hodge_response_and_square_not_base_only / test_varying_fibre_area_really_changes_YM_equation. Pure gauge bulk stationarity only, not coupled physical vacuum/stability |
+| Actual SL total quotient action is half the marked effective-base/full-torus cover, with finite cusp tail | PROOF3; test_total_stack_action_keeps_central_involution_and_finite_tail. Positive pure-YM family retains zero/opposite units; no selected1 or generation-count normalization |
+| Horizontal curvature has zero degree4 gauge form but nonzero Kähler slope; vertical control gives nonzero degree4 | PROOF2/4; test_pure_base_degree_four_detector_recovers_mixed_curvature / test_nonzero_flux_is_not_zero_moment_or_a_selected_unit. Not a full geometric/boundary index or all-source/architecture no-go |
+
 October12 complete zero-end Cauchy checkpoint: native26/reference14
 exact predicates PASS;22 precision and6 finite-limit numerical controls
 separately graded;16 two-packet tests PASS9.74s(8 new/8 retained).

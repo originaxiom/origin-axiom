@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 2.1918756390005,
+      "exact_predicates": 27
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 0.8282579790029558,
+      "exact_predicates": 16
+    }
+  ],
+  "scope": "specified total metric/YM lift; no three-family operator",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "3afe53a18b47819820d7434bbe9078b4df0449a8",
+  "initial_source_hashes_match": true,
+  "tracked_worktree_unchanged": true,
+  "source_inputs_unchanged": true,
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 2103,
+      "sha256": "69e8570291baed10aaa22bb19ae913990e6c1cfe1d1ea353b9214de1dcc17a99"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 1291,
+      "sha256": "95c325b817343810055d50897d7649c76d84d375edd9024be1fbc46ca663b55f"
+    }
+  ]
+}

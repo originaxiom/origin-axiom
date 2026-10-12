@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-10-12 four-dimensional cusp-unit bridge and active three-family goal
+
+October12 active-goal update: DERIVE THREE PHYSICAL GENERATIONS.
+A specified four-dimensional cusp-unit lift is verified, not a family
+derivation: corrected27 native/16 reference exact predicates and24
+selected tests PASS11.37s, unchanged pushed reseal3afe53a18. Original
+unsimplified-J detector failure retained/resealed; no geometry/units changed.
+Report: reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/FINDINGS.md.
+Actual universal elliptic metric/Hodge/YM and SL central-fibre quotient
+give finite total gauge action; varying fibre area changes the equation.
+Nonzero central slope, incomplete puncture and F wedge F=0 GAUGE form
+are retained. Neither flux, energy coefficient3 nor finite action is a
+physical family index. Unit n=1 remains unselected; Lambda/physical
+operator/end law/complete charged spectrum and anomaly/interactions
+must be joined in ONE theory. No index transfer from W46 or silver.
+NEXT complete puncture/cusp coefficient/action/Weyl/domain map and
+generated sector selection. Full-suite/nonauthor/main and four inherited
+governance categories remain owed. Goal ACTIVE and unachieved; historical
+broader SM/TOE mission and other routes are preserved, not certified.
+
 ## 2026-10-12 complete zero-energy end plane executed
 
 October12 complete zero-end Cauchy checkpoint: native26/reference14

@@ -1,0 +1,91 @@
+{
+  "checks": {
+    "actual_metric_determinant": true,
+    "positive_metric_blocks": true,
+    "actual_four_dimensional_hodge_response": true,
+    "actual_star_square_on_all_six_twoforms": true,
+    "constant_area_sourcefree_YM": true,
+    "actual_connection_curvature": true,
+    "missing_fibre_volume_detected": true,
+    "variable_area_response_retained": true,
+    "variable_area_nonyangmills_control": true,
+    "actual_complex_structure_square": true,
+    "actual_wrong_complex_structure_rejected": true,
+    "actual_Kahler_compatibility": true,
+    "actual_holomorphic_coordinates_not_only_J_square": true,
+    "actual_closed_Kahler_form": true,
+    "actual_full_metric_S_automorphy": true,
+    "actual_curvature_S_automorphy": true,
+    "actual_full_metric_T_automorphy": true,
+    "actual_curvature_T_automorphy": true,
+    "minus_identity_acts_on_fibre_not_only_base": true,
+    "actual_positive_curvature_norm": true,
+    "actual_total_quotient_action": true,
+    "actual_finite_tail_action": true,
+    "zero_flux_not_excluded": true,
+    "opposite_sign_not_selected": true,
+    "nonzero_flux_not_zero_moment": true,
+    "actual_horizontal_degree_four_gauge_form_zero": true,
+    "genuine_vertical_curvature_opposing_control": true
+  },
+  "exact_passed": 27,
+  "metric": [
+    [
+      "ell**2/y**2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "ell**2/y**2",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "A/y",
+      "A*x/y"
+    ],
+    [
+      "0",
+      "0",
+      "A*x/y",
+      "A*(x**2 + y**2)/y"
+    ]
+  ],
+  "star_curvature": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "-6*I*A*n/ell**2"
+    ],
+    [
+      "0",
+      "0",
+      "6*I*A*n/ell**2",
+      "0"
+    ]
+  ],
+  "total_action": "3*pi*A*n**2/(ell**2*g**2)",
+  "tail_action": "9*A*n**2/(Y*ell**2*g**2)",
+  "kahler_moment": "6*n/ell**2",
+  "fibre_complete": false,
+  "unit_selected": false,
+  "physical_Dirac_index_computed": false,
+  "three_physical_generations_derived": false
+}
