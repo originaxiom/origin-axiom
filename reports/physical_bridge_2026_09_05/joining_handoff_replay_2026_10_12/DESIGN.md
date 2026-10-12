@@ -59,7 +59,7 @@ criterion deciding a mathematical claim. A timeout, nonzero exit, parser,
 hash or count failure stops the batch; preserve literal attempts and
 receipt. No silent repair/retry. Repair requires a dated new seal first.
 An unfinished process/turn remains UNKNOWN until actual completion.
-The nine focused pytest tests run AFTER the scientific batch, without
+The ten focused pytest tests run AFTER the scientific batch, without
 importing any archived producer; synthetic fixtures are explicitly
 runner safeguards, not independent mathematical/physical certificates.
 
@@ -115,3 +115,16 @@ certifies or excludes this nonsplit E8 kinetic/end construction.
 Analytic review duties, nonauthor acceptance, full-suite/main certification,
 anomalies, quantized interactions, observed parameters, spacetime/gravity,
 register/lift and observer/qualia remain distinct outstanding duties.
+
+## Dated runner-only repair BEFORE any scientific execution
+
+First sealed wrapper attempt at eb3a0900e stopped with `unsafe target`.
+PRE_SCIENCE_PATH_FAILURE_RECEIPT.json preserves the exact receipt: ZERO
+science commands launched, no extracted files, tracked tree unchanged.
+Cause: default tempfile path was /var while target.resolve() was
+/private/var on macOS. Canonicalize the default scratch directory too;
+add a synthetic symlink-alias regression test (nine tests become ten).
+No scientific script, input, seven-command ordering, timeout, predicate,
+mathematical assertion or tolerance changed. Reseal the amended design,
+runner and test hashes and push BEFORE retry. Original seal/attempt
+remain historical evidence, not falsely relabelled a successful run.

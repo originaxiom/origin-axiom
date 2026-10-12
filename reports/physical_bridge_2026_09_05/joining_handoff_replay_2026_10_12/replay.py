@@ -45,6 +45,17 @@ def require(value, message):
         raise RuntimeError(message)
 
 
+def new_output_directory(requested):
+    if requested is None:
+        # macOS /var aliases /private/var: canonicalize BOTH operands of
+        # the extraction containment check, not only the target operand.
+        return Path(tempfile.mkdtemp(prefix="oa-joining-replay-")).resolve()
+    out = requested.resolve()
+    require(out != REPO and REPO not in out.parents, "output inside repository")
+    out.mkdir(parents=True, exist_ok=False)
+    return out
+
+
 def validate(label, data):
     """Check named predicates, not merely an author-provided PASS label."""
     expected_exact = {"gate1_primary": 57, "gate1_reference": 17,
@@ -81,12 +92,7 @@ def main():
     parser.add_argument("--output", type=Path,
                         help="must be a NEW absolute directory outside the repo")
     args = parser.parse_args()
-    if args.output is None:
-        out = Path(tempfile.mkdtemp(prefix="oa-joining-replay-"))
-    else:
-        out = args.output.resolve()
-        require(out != REPO and REPO not in out.parents, "output inside repository")
-        out.mkdir(parents=True, exist_ok=False)
+    out = new_output_directory(args.output)
     print(f"OUTPUT_DIRECTORY={out}", flush=True)
     receipt = {"started_utc": stamp(), "status": "IN_PROGRESS",
                "commands": [], "output_directory": str(out),

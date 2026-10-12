@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-12 joining replay wrapper path repair before science
+
+Sealed wrapper eb3a0900e stopped at macOS alias containment check:
+ZERO scientific scripts launched. Preserve literal failure receipt.
+Canonicalize default scratch path and add real symlink regression;
+ten runner tests now specified. Science scripts/input/tolerances unchanged.
+New hashes resealed/pushed before retry, no mathematical failure claimed.
+
 ## 2026-10-12 joining gates replay pre-execution specification
 
 Personal handoff reading is complete at its stated ledger scope; specified

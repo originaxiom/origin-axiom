@@ -111,3 +111,17 @@ def test_false_gate3_numeric_predicate_stops_publication():
 def test_unknown_command_label_is_rejected():
     with pytest.raises(RuntimeError, match="unknown command"):
         runner.validate("future_unsealed_science", numeric3())
+
+
+def test_default_scratch_path_canonicalizes_directory_alias(tmp_path, monkeypatch):
+    real = tmp_path / "actual"
+    real.mkdir()
+    scratch = real / "fresh"
+    scratch.mkdir()
+    alias = tmp_path / "alias"
+    alias.symlink_to(real, target_is_directory=True)
+    monkeypatch.setattr(runner.tempfile, "mkdtemp", lambda **_: str(alias / "fresh"))
+    root = runner.new_output_directory(None)
+    assert root == scratch.resolve()
+    assert root in (root / "gate1" / "verify_bridge.py").resolve().parents
+    assert alias / "fresh" not in (root / "gate1" / "verify_bridge.py").resolve().parents

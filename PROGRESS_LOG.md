@@ -18910,3 +18910,16 @@ without relabeling it parameter-free SM selection. Full global matrix
 join, end/background/parent selection, neutral coupling and full physics
 obligations remain OPEN. Own branch publication precedes scientific run;
 not main banking, outside analytic/full-suite acceptance or a TOE.
+
+---
+
+## 2026-10-12 — Joining replay wrapper repair: ZERO science executed
+
+First wrapper attempt at pushed eb3a0900e stopped at `unsafe target`:
+default macOS /var scratch path differed from target.resolve()'s
+/private/var. Exact failure receipt preserved; no science command/file
+was executed/extracted and tracked tree remained unchanged. Canonicalize
+default scratch path and add real symlink-alias regression (ten tests).
+Archive/input/scientific code/tolerances/claims unchanged. Amend design
+and append new actual runner/design/test hashes, commit/push before retry;
+not scientific failure, failed physical model or a full-program negative.
