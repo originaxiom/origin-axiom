@@ -19062,3 +19062,18 @@ and wrong-J guard resealed before retry. Corrected native2.19s/reference
 Source6 local/2 immutable foreign pins and tracked tree unchanged.
 No root-only exclusion, source-body invention, count-to-field identification
 or completed physical spectrum claimed. Sender relay OPEN.
+
+## 2026-10-12 connected-cover charged operator family
+
+Goal derive three physical generations remains ACTIVE/unachieved.
+Sealed dbb424742; native285.578s failure preserved, no reference launched.
+Detector-only dual-rank repair9b43c0cab/capture seal aa89595c5 pushed before
+retry. Native51+146 prior predicates PASS318.545s, Fraction31+127 prior
+PASS25.131s;15 tests PASS366.35s,8 new/7 actual fermion-map regressions.
+35 sources/tracked tree unchanged. Complete1225 dimension menu, all three
+connected silver sign covers, actual W/F charged H=(0,3,0,0) and dual
+H=(0,0,3,0); not capacity. Three uses NEW domain planes; identical inherited
+charged boundary has even index. One E8 parent with cross-deck interactions;
+full globally-parallel-k boundary/neutral/adjoint/anomaly/selection remains.
+Report and NEXT_TEST: reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12.
+Sender relay OPEN; no main, outside or full-suite acceptance inferred.

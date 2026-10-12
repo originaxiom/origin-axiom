@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-12 connected-cover charged three and the new boundary price
+
+51 native/31 Fraction new exact predicates,146/127 prior predicates
+rederived,15 live tests PASS366.35s at unchanged pushed aa89595c5.
+Three connected double covers give a verified conditional three-mode W/F
+charged kernel, not full selected physical generations. Inherited charged
+domains have even index; new deck-sector planes supply the odd witness.
+Whole-cover gauge/neutral response, complete spectrum and generated end
+selection are NEXT. First impossible dual-rank detector failure preserved.
+Packet: reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/FINDINGS.md.
+No copied theories, new shared number, green full suite or goal completion.
+
 ## 2026-10-12 four-dimensional cusp-unit bridge and active three-family goal
 
 October12 active-goal update: DERIVE THREE PHYSICAL GENERATIONS.

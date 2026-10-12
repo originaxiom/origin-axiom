@@ -1,0 +1,11 @@
+Command: env PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -q -p no:cacheprovider tests/test_physical_bridge_silver_cover_families.py tests/test_physical_bridge_silver_fermion_action.py
+Unchanged scientific/test seal: aa89595c58c4658a7cca12a0eb9f7f0e26127542
+Exit code: 0
+Captured stdout:
+...............                                                          [100%]
+15 passed in 366.35s (0:06:06)
+
+Eight new cover tests, seven retained physical fermion tests. Not a full
+repository suite or independent author review. Scientific tree read-only;
+cache provider disabled, bytecode disabled. Wrapper separately confirms
+tracked worktree and all35 source files unchanged during science.

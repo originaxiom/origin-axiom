@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 318.54508225000245,
+      "exact_predicates": 51,
+      "replayed_prior_predicates": 146
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 25.130817748999107,
+      "exact_predicates": 31,
+      "replayed_prior_predicates": 127
+    }
+  ],
+  "scope": "connected-cover charged operator; full domain/selection owed",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "aa89595c58c4658a7cca12a0eb9f7f0e26127542",
+  "initial_source_hashes_match": true,
+  "tracked_worktree_unchanged": true,
+  "source_inputs_unchanged": true,
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 355618,
+      "sha256": "d328b293cbc90961ed297f5a20b2f14e22ab8e7375061d7711e8aed5aebeeab0"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 354386,
+      "sha256": "ba4b5b3e43708eaf50435df2b59f50781d1eb0f01e4f6e70b739985c3de52444"
+    }
+  ]
+}

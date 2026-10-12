@@ -1,0 +1,15 @@
+{
+  "source_count": 35,
+  "source_mismatches": [],
+  "public_first_stderr": {
+    "path": "results/first_failure/probe.public.stderr.log",
+    "bytes": 659,
+    "sha256": "76554133b3dcd1c03096147160f2b07c9fd43f567a9bfb11a254f0d7861c7ac9"
+  },
+  "raw_first_stderr": {
+    "bytes": 797,
+    "sha256": "f1cff0d85f1de220b123ee7461eed5b697dd5b969b52f86b1701c8a2fa923b33",
+    "retained_locally": true
+  },
+  "redaction": "ONLY private checkout prefix replaced by <REPO>; public capture is not byte-equal to raw"
+}

@@ -2312,3 +2312,18 @@ travel with these results; no global spectrum or cohomology lift claimed.
 after pre-run f43415ec8 pushed/server-confirmed. Nonauthor review, global
 index and coupled boson/normal/superfield completion remain duties. Fork
 finite cohomology/interior positives are retained, not assigned to this law.
+
+### October12 scoped research lemmas: connected-cover charged family
+
+UNBANKED research, no new shared identifier. B1530 below credits the
+literal carrier/coefficient antecedent and its abelian-cover context,
+NOT the new Weyl kernel or boundary choice. Evidence is the NEW branch
+packet reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12,
+with its full proof, independent producers and live locks. Formal
+nonauthor/main-bank acceptance remains pending.
+
+| Law with scope | Proof/controls | Physical scope |
+|---|---|---|
+| The three peripheral-trivial nontrivial sign characters of the literal silver presentation define connected degree2 covers with two cusps; the induced coefficient is E plus eta E by an explicit unitary sheet map. | B1530 carrier/cover antecedent only; NEW packet PROOF1, native51/Fraction31; tests/test_physical_bridge_silver_cover_families.py::test_cover_population_and_actual_section_map | Mathematical cover/operator map, not gauge-rank doubling or selected carrier. |
+| In the specified inherited CHARGED projector family identical sheets give even generic index; new deck-invariant planes yield W/F kernel(0,3,0,0), actual dual(0,0,3,0). | B1530 literal coefficient antecedent only; NEW packet PROOF2-3; tests/test_physical_bridge_silver_cover_families.py::test_three_kernel_and_actual_dual_not_index_only | Conditional charged physical bridge; full cover domain/selection remains open, not an architecture no-go or completed three families. |
+| Parent sheet multiplication retains two-odd/one-even interactions; the connected cover does not split into copied parent theories. | B1530 coefficient antecedent only; NEW packet PROOF4; tests/test_physical_bridge_silver_cover_families.py::test_parent_interactions_not_decoupled_copies | Parent selection rule, not a nonzero evaluated global light Yukawa. |

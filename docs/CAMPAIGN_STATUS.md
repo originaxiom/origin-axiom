@@ -1,5 +1,24 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October12 connected-cover charged-kernel checkpoint:51/31 new exact
+predicates plus146/127 prior predicates rederived;15 live tests PASS366.35s,
+8 new/7 retained. Repaired pre-science seal aa89595c5,35 pins/tree unchanged.
+Report: reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/FINDINGS.md.
+Three peripheral-trivial connected silver double covers, one E8 action;
+actual section/operator map and doubled W/F kernels both(0,3,0,0), duals
+(0,0,3,0). CONDITIONAL charged three, not a complete selected model. Full
+1225 dimension menu common indices-4..4; counts are not vacua. Identical
+inherited charged boundary gives EVEN index; three requires NEW deck-sector
+planes. Parent interactions mix sectors, not copied theories or evaluated
+light Yukawas. First self-contradictory dual-rank detector failure preserved
+and resealed; coefficient/action/planes unchanged. NEXT complete cover
+boundary with ONE globally parallel gauge k, normal response, full neutral/
+adjoint/boundary spectrum, interactions/anomalies and generated end choice.
+Three physical generations remains the ACTIVE, unachieved objective.
+Weave/complete-cusp and other architecture routes preserved. Outside/full-
+suite/main and four inherited governance categories remain owed.
+
+
 LATEST — October12 active-goal update: DERIVE THREE PHYSICAL GENERATIONS.
 A specified four-dimensional cusp-unit lift is verified, not a family
 derivation: corrected27 native/16 reference exact predicates and24
