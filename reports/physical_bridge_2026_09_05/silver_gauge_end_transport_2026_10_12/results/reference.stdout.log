@@ -1,0 +1,164 @@
+{
+  "exact_checks": {
+    "formal_relations_leave_only_T_over_real_periods": true,
+    "formal_peripheral_character_matches_actual_free_period": true,
+    "Fraction_dual_lattice_periods": true,
+    "Fraction_squared_angular_coefficient": true,
+    "complete_10_generic_and_minus_one_fixed_controls": true,
+    "central_phase_matter_and_gauge_distinguished": true,
+    "coordinate_weighted_adjoint_flat_leading": true,
+    "coordinate_weighted_adjoint_cancels_first_derivative": true,
+    "weighted_coordinate_full_one_form_block": true,
+    "weighted_coordinate_scalar_and_top": true,
+    "mixed_block_nonzero_cannot_be_truncated": true,
+    "opposite_wall_keeps_angular_term": true,
+    "shifted_response_positive_0.0_1": true,
+    "shifted_response_positive_0.0_-1": true,
+    "shifted_response_positive_0.25_1": true,
+    "shifted_response_positive_0.25_-1": true,
+    "nonzero_angular_static_product_not_zero": true,
+    "ordinary_normal_flux_mutation_detected": true
+  },
+  "exact_passed": 18,
+  "numerical_checks": {
+    "shifted_Euler_0.0_1": {
+      "passed": true,
+      "residual": "0.0"
+    },
+    "shifted_radial_equation_0.0_1": {
+      "passed": true,
+      "residual": "2.0045735325691467346e-51"
+    },
+    "shifted_Euler_0.0_-1": {
+      "passed": true,
+      "residual": "0.0"
+    },
+    "shifted_radial_equation_0.0_-1": {
+      "passed": true,
+      "residual": "5.3455294201843912923e-51"
+    },
+    "shifted_Euler_0.25_1": {
+      "passed": true,
+      "residual": "0.0"
+    },
+    "shifted_radial_equation_0.25_1": {
+      "passed": true,
+      "residual": "8.7700092049900169639e-52"
+    },
+    "shifted_Euler_0.25_-1": {
+      "passed": true,
+      "residual": "0.0"
+    },
+    "shifted_radial_equation_0.25_-1": {
+      "passed": true,
+      "residual": "2.6727647100921956461e-51"
+    },
+    "original_zero_angular_partner_recovered": {
+      "passed": true,
+      "residual": "2.0045735325691467346e-51"
+    },
+    "original_positive_sign_static_response_recovered": {
+      "passed": true,
+      "residual": "0.0"
+    },
+    "shifted_actual_finite_interval_action": {
+      "passed": true,
+      "residual": "3.9292702010529503932e-52"
+    }
+  },
+  "full_potential_matrix": [
+    [
+      "(ell**2*mu**2*exp(4*r/ell) + kx**2*exp(2*r/ell) + ky**2*exp(2*r/ell) + 1)/ell**2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "(2*ell*mu*exp(2*r/ell) + kx**2*exp(2*r/ell) + ky**2*exp(2*r/ell) + (ell*mu*exp(2*r/ell) + 1)**2)/ell**2",
+      "-2*I*kx*exp(r/ell)/ell**2",
+      "0",
+      "-2*I*ky*exp(r/ell)/ell**2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "2*I*kx*exp(r/ell)/ell**2",
+      "(ell**2*mu**2*exp(2*r/ell) - 2*ell*mu + kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "(ell**2*mu**2*exp(2*r/ell) + 2*ell*mu + kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "0",
+      "0",
+      "2*I*ky*exp(r/ell)/ell**2",
+      "0"
+    ],
+    [
+      "0",
+      "2*I*ky*exp(r/ell)/ell**2",
+      "0",
+      "0",
+      "(ell**2*mu**2*exp(2*r/ell) - 2*ell*mu + kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "(ell**2*mu**2*exp(2*r/ell) + 2*ell*mu + kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "-2*I*kx*exp(r/ell)/ell**2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "-2*I*ky*exp(r/ell)/ell**2",
+      "0",
+      "2*I*kx*exp(r/ell)/ell**2",
+      "(-2*ell*mu*exp(2*r/ell) + kx**2*exp(2*r/ell) + ky**2*exp(2*r/ell) + (ell*mu*exp(2*r/ell) - 1)**2)/ell**2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "(ell**2*mu**2*exp(4*r/ell) + kx**2*exp(2*r/ell) + ky**2*exp(2*r/ell) + 1)/ell**2"
+    ]
+  ],
+  "numerical_count": 11,
+  "precision": 50,
+  "static_nonzero_angular_response": {
+    "plus": "0.402943240653281023075669",
+    "minus": "2.07581235642658307836885",
+    "product": "0.836434557886651027646591"
+  },
+  "max_numerical_residual": "5.3455294201843912923e-51",
+  "global_core_match": false,
+  "new_native_imported": false,
+  "outside_review": false,
+  "generated_SM_selection": false,
+  "full_goal_achieved": false
+}

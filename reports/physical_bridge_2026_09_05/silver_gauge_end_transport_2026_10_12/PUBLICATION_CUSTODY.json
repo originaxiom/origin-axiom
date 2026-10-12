@@ -1,0 +1,78 @@
+{
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/MODEL.json",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/results/gate3/END_MATRICES.json",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/results/gate3/EXACT_RESULTS.json",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/DESIGN.md",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/PROOF.md",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/probe.py",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/reference.py",
+      "matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/execute.py",
+      "matches": true
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_gauge_end_transport.py",
+      "matches": true
+    }
+  ],
+  "all_13_source_code_test_pins_match": true,
+  "copied_literal_logs": [
+    {
+      "path": "probe.stderr.log",
+      "matches": true
+    },
+    {
+      "path": "probe.stdout.log",
+      "matches": true
+    },
+    {
+      "path": "reference.stderr.log",
+      "matches": true
+    },
+    {
+      "path": "reference.stdout.log",
+      "matches": true
+    }
+  ],
+  "all_4_logs_match": true,
+  "science_seal": "66ad2d197a44d2ce1d85492415f222b1beeba130",
+  "grade_correction_no_byte_change": true
+}

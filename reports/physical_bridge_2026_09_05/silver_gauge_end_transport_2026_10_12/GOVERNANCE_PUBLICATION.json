@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-12",
+  "command": "/Users/dri/.pyenv/versions/3.12.1/bin/python3 scripts/gates/gates.py",
+  "checked_parent": "66ad2d197a44d2ce1d85492415f222b1beeba130",
+  "scope": "staged publication after actual first runs and eight focused tests",
+  "exit_code": 1,
+  "pass": 26,
+  "fail": 4,
+  "inherited_failures": {
+    "attribution": [
+      "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PRIOR_FULL.txt",
+      "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json",
+      "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json",
+      "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+      "reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt",
+      "reports/physical_bridge_2026_09_05/missing_evidence_inventory.json"
+    ],
+    "test_vacuity": [
+      "tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain",
+      "tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives"
+    ],
+    "seal_provenance": [
+      "reports/physical_bridge_2026_09_05/EXTENSION_2.md",
+      "reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md",
+      "reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md",
+      "reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md",
+      "reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md"
+    ],
+    "relay_debt": "44 banked, 0 declined, 129 open; 42 un-escalated stale debts"
+  },
+  "seal_digests": "PASS",
+  "new_packet_or_new_tests_implicated": false,
+  "review_due_count": 471,
+  "after_gate_additions": "This receipt only; not recursively gate-certified; science/test/source bytes unchanged",
+  "science_executed": true,
+  "full_suite_main_or_outside_acceptance": false,
+  "staged_paths": [
+    "CHANGELOG.md",
+    "PROGRESS_LOG.md",
+    "docs/LAW_MAP.md",
+    "docs/OPEN_LEADS.md",
+    "docs/RELAY_LEDGER.md",
+    "docs/THE_CAMPAIGN.md",
+    "docs/THE_FRAMEWORK.md",
+    "docs/THE_LADDER.md",
+    "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_GENESIS_MAIN_SM_2026-10-12_GAUGE_END_OPERATOR.md",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/FINDINGS.md",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/GRADE_CLARIFICATION.md",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/NEXT_TEST.md",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/PUBLICATION_CUSTODY.json",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/PYTEST_RECEIPT.json",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/results/RECEIPT.json",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/results/probe.stderr.log",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/results/probe.stdout.log",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/results/reference.stderr.log",
+    "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/results/reference.stdout.log"
+  ],
+  "focused_tests": "8 passed,7.73s",
+  "grade_note": "Reference raw18-exact label is preserved; real grade12 exact and6 numerical booleans plus11 residual controls; no original output overwritten"
+}

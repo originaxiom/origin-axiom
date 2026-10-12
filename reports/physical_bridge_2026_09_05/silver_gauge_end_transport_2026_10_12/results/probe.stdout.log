@@ -1,0 +1,192 @@
+{
+  "checks": {
+    "actual_real_period_kernel": true,
+    "actual_peripheral_period_map": true,
+    "not_two_independently_chosen_periods": true,
+    "actual_10_weights_not_fundamental": true,
+    "actual_adjoint_zero_weights_retained": true,
+    "generic_10_has_no_D0_trivial_coefficient": true,
+    "identity_10_control_retains_all": true,
+    "minus_one_phase_keeps_actual_four": true,
+    "central_5_phase_is_not_trivial_matter": true,
+    "actual_inverse_lattice_one_form": true,
+    "actual_inverse_lattice_squared_norm": true,
+    "wrong_same_period_assignment_detected": true,
+    "actual_commuting_gauge_addition_retains_curvature_brackets": true,
+    "gauge_addition_is_antihermitian": true,
+    "actual_moment_addition_commutes_with_full_structure_Psi": true,
+    "full_degrees_1_3_3_1": true,
+    "normalized_flat_d_squared_zero": true,
+    "normalized_adjoint_squared_zero": true,
+    "Q_formal_selfadjoint": true,
+    "Q_square_second_derivative_minus_identity": true,
+    "Q_square_first_derivative_zero": true,
+    "Q_square_preserves_every_degree": true,
+    "scalar_and_top_potential": true,
+    "complete_one_form_matrix": true,
+    "transverse_line_is_invariant_not_full_matrix": true,
+    "nonzero_longitudinal_normal_mixing": true,
+    "all_three_dual_degree_diagonal_partners_retained": true,
+    "missing_form_weight_rejected": true,
+    "bare_normal_flux_rejected": true,
+    "angular_scalar_intertwiner_defect_exact": true,
+    "zero_angular_intertwiner_recovers": true,
+    "cannot_drop_mixed_matrix_by_zero_mutation": true,
+    "shifted_Whittaker_equation_exact": true,
+    "old_Whittaker_is_only_zero_angular_case": true
+  },
+  "passed": 34,
+  "period_relation_matrix": [
+    [
+      "2",
+      "2",
+      "0"
+    ],
+    [
+      "2",
+      "6",
+      "0"
+    ]
+  ],
+  "peripheral_map": [
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "1",
+      "1"
+    ]
+  ],
+  "real_period_kernel": [
+    [
+      "0"
+    ],
+    [
+      "0"
+    ],
+    [
+      "1"
+    ]
+  ],
+  "inverse_lattice_form": [
+    "1/2",
+    "3/2"
+  ],
+  "gauge10_weights": {
+    "4": 3,
+    "-1": 6,
+    "-6": 1
+  },
+  "adjoint_weights": {
+    "0": 12,
+    "5": 6,
+    "-5": 6
+  },
+  "one_form_potential": [
+    [
+      "(mu*exp(2*r/ell) + 1/ell)**2 + 2*mu*exp(2*r/ell)/ell + (kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "-2*I*kx*exp(r/ell)/ell**2",
+      "-2*I*ky*exp(r/ell)/ell**2"
+    ],
+    [
+      "2*I*kx*exp(r/ell)/ell**2",
+      "mu**2*exp(4*r/ell) - 2*mu*exp(2*r/ell)/ell + (kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "0"
+    ],
+    [
+      "2*I*ky*exp(r/ell)/ell**2",
+      "0",
+      "mu**2*exp(4*r/ell) - 2*mu*exp(2*r/ell)/ell + (kx**2 + ky**2)*exp(2*r/ell)/ell**2"
+    ]
+  ],
+  "full_potential_matrix": [
+    [
+      "(ell**2*mu**2*exp(4*r/ell) + kx**2*exp(2*r/ell) + ky**2*exp(2*r/ell) + 1)/ell**2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "(2*ell*mu*exp(2*r/ell) + kx**2*exp(2*r/ell) + ky**2*exp(2*r/ell) + (ell*mu*exp(2*r/ell) + 1)**2)/ell**2",
+      "-2*I*kx*exp(r/ell)/ell**2",
+      "0",
+      "-2*I*ky*exp(r/ell)/ell**2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "2*I*kx*exp(r/ell)/ell**2",
+      "(ell**2*mu**2*exp(2*r/ell) - 2*ell*mu + kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "(ell**2*mu**2*exp(2*r/ell) + 2*ell*mu + kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "0",
+      "0",
+      "2*I*ky*exp(r/ell)/ell**2",
+      "0"
+    ],
+    [
+      "0",
+      "2*I*ky*exp(r/ell)/ell**2",
+      "0",
+      "0",
+      "(ell**2*mu**2*exp(2*r/ell) - 2*ell*mu + kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "(ell**2*mu**2*exp(2*r/ell) + 2*ell*mu + kx**2 + ky**2)*exp(2*r/ell)/ell**2",
+      "-2*I*kx*exp(r/ell)/ell**2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "-2*I*ky*exp(r/ell)/ell**2",
+      "0",
+      "2*I*kx*exp(r/ell)/ell**2",
+      "(-2*ell*mu*exp(2*r/ell) + kx**2*exp(2*r/ell) + ky**2*exp(2*r/ell) + (ell*mu*exp(2*r/ell) - 1)**2)/ell**2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "(ell**2*mu**2*exp(4*r/ell) + kx**2*exp(2*r/ell) + ky**2*exp(2*r/ell) + 1)/ell**2"
+    ]
+  ],
+  "Whittaker_kappa": "sigma/2-|xi|^2/(4*abs(mu)*ell)",
+  "global_core_match": false,
+  "generated_SM_selection": false,
+  "global_particles_or_family_count": false,
+  "full_goal_achieved": false
+}

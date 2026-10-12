@@ -1,5 +1,26 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October12 same-candidate gauge/end checkpoint:34 native exact,12
+reference exact,6 numerical booleans and11 residual controls PASS; eight
+tests PASS7.73s at unchanged pushed pre-science66ad2d197. Raw18-exact
+label kept with explicit AFTER-run grading correction. Full8x8 matrices
+agree, actual real-period/cusp map and gauge10 holonomy retained. Supplied
+phase changes old angular-trivial premise but transverse localization
+survives via shifted equation; genuine radial/longitudinal mixing retained.
+Report: reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/FINDINGS.md.
+Local harmonic representative is not a known framed core match, scalar
+stiffness not a global chirality verdict. NEXT complete mixed Cauchy space,
+full core join, generated selection; integral/torsion gauge states not
+excluded by real-period audit. No new shared number, main/outside/full-
+suite or SM/TOE acceptance; full goal ACTIVE/unachieved.
+
+| Scoped conditional sublemma | Actual proof/lock and limit |
+|---|---|
+| Marked real period kernel maps to cusp(0,P), gauge10 transport not fundamental5 | PROOF1; test_actual_presented_period_space_and_not_two_free_boundary_periods / test_actual_gauge10_holonomy_and_special_fixed_spaces. Exact marked candidate, not integral/torsion flat-gauge census |
+| Complete normalized degree0-3 operator and weighted-coordinate adjoint give the SAME8x8 potential, with nonzero radial/angular mixing | PROOF2; test_two_methods_agree_on_entire_operator_not_only_counts / test_missing_weight_mutation_breaks_the_actual_complex / test_false_zero_mixing_is_rejected_by_nonzero_actual_block. Local supplied end, not global self-adjoint/fermion domain certificate |
+| Transverse wall remains solvable with shifted kappa; the old scalar partner identity fails at nonzero angular momentum | PROOF3; native shifted_Whittaker_equation_exact plus live reference Euler/action/product controls and test_actual_static_angular_response_not_old_zero_partner_product. Six float boolean checks not exact proofs; not the full mixed response |
+| Opposite charge and all form degrees survive this operator test | PROOF2-4; test_all_degrees_and_opposite_charge_are_retained / test_controls_do_not_claim_global_particles_or_selected_SM. No global particles, compact index transfer or selected SM/TOE |
+
 October12 incoming Joining Gates1-3 finite reproduction: seven unchanged
 archive processes PASS at pushed repaired pre-science seal18368ab83;
 Gate1 57/17 exact, Gate2 50 exact+8/48 at50/80 digits, Gate3 43 exact+

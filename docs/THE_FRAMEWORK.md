@@ -1,5 +1,19 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October12 same-candidate gauge/end checkpoint:34 native exact,12
+reference exact,6 numerical booleans and11 residual controls PASS; eight
+tests PASS7.73s at unchanged pushed pre-science66ad2d197. Raw18-exact
+label kept with explicit AFTER-run grading correction. Full8x8 matrices
+agree, actual real-period/cusp map and gauge10 holonomy retained. Supplied
+phase changes old angular-trivial premise but transverse localization
+survives via shifted equation; genuine radial/longitudinal mixing retained.
+Report: reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/FINDINGS.md.
+Local harmonic representative is not a known framed core match, scalar
+stiffness not a global chirality verdict. NEXT complete mixed Cauchy space,
+full core join, generated selection; integral/torsion gauge states not
+excluded by real-period audit. No new shared number, main/outside/full-
+suite or SM/TOE acceptance; full goal ACTIVE/unachieved.
+
 October12 incoming Joining Gates1-3 finite reproduction: seven unchanged
 archive processes PASS at pushed repaired pre-science seal18368ab83;
 Gate1 57/17 exact, Gate2 50 exact+8/48 at50/80 digits, Gate3 43 exact+

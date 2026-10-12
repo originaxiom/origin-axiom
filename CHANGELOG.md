@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-12 actual gauge transport and complete end operator executed
+
+Science unchanged at pushed66ad2d197: native34 exact; reference12 exact,
+6 numerical booleans and11 numerical residual controls50 digits; eight
+focused tests PASS7.73s. Literal outputs preserve misleading raw18-exact
+label; AFTER-first-run grading correction explicit, no science/test bytes
+changed. Full8x8 matrices agree across normalized/weighted-coordinate
+methods; real period/cusp map derived, special holonomy controls retained.
+Supplied gauge phase changes old D0-trivial premise; localization persists
+with shifted transverse Whittaker, while full normal/longitudinal coupling
+prevents a one-line chirality verdict. Local harmonic end is not known
+framed core trace. No global spectrum/selected SM/TOE or torsion-sector kill.
+NEXT complete Cauchy space/core matching and generated selection; full
+physics goal ACTIVE, source/neutral/architecture positives preserved.
+
 ## 2026-10-12 actual gauge/end operator pre-execution specification
 
 Following reproduced joining gates: exact marked period/holonomy maps

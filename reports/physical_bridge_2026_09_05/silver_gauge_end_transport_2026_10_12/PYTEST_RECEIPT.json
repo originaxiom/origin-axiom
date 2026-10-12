@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-12",
+  "command": "/Users/dri/.pyenv/versions/3.12.1/bin/python3 -m pytest -q tests/test_physical_bridge_silver_gauge_end_transport.py",
+  "exit_code": 0,
+  "stdout": "........                                                                 [100%]\n8 passed in 7.73s\n",
+  "scope": "Actual period/matrix/mutation/numerical controls on the sealed end model, not global PDE or physical SM acceptance",
+  "science_seal": "66ad2d197a44d2ce1d85492415f222b1beeba130",
+  "source_or_test_repair_after_science": false,
+  "full_suite_main_outside_acceptance": false
+}

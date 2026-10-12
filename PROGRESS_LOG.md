@@ -18972,3 +18972,31 @@ is priced BEFORE compute; no original localization positive discarded.
 Thirteen source/code/proof/test pins plus INPUTS digest enter seal table.
 Two methods,50-digit controls and eight focused tests registered before
 first execution; no result or physical SM/TOE completion asserted.
+
+---
+
+## 2026-10-12 — Actual gauge/end transport and operator executed
+
+Pre-science66ad2d197 pushed/server-confirmed. Native34 exact(4.82s),
+reference12 exact +6 numerical booleans +11 residual controls50 digits
+(3.02s), both first executions exit0; eight tests PASS7.73s. All13 source/
+science/test pins and tracked tree unchanged. Literal first logs retained.
+Own grading error caught AFTER science: raw reference/wrapper labelled
+18 booleans exact, six use mpmath; explicit12/6 clarification, original
+bytes unchanged. No mathematical failure, hidden repair or restart.
+
+Actual marked REAL period space maps to cusp(0,P), full gauge10 transport
+and inverse cusp lattice determine angular momentum. Supplied commuting
+unitary gauge addition admits a local combined end; not known framed core
+trace/full normal match. Entire8x8 degree0-3 potentials agree by two
+methods. Transverse localization survives with shifted Whittaker data;
+canonical flux retained, old one-line partner identity no longer applies
+at nonzero angular transport. Full mixed normal/longitudinal block retained;
+cannot infer lost global chirality from scalar stiffness. Neutral/opposite
+channels remain. Real connected Cartan branch is not a torsion flat census.
+
+NEXT complete zero/frequency Cauchy space before particle counts, same-core
+matching and independently motivated selection. H,v/amplitude/parent remain
+inputs; no natural SM/three-family/parameter/TOE achievement, outside/global
+PDE/main/full-suite acceptance. Live fronts/sublemma rows/relay registered;
+full parameter-free SM/TOE remains ACTIVE and unachieved.

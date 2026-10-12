@@ -1,5 +1,18 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October12 gauge/end transport subtest EXECUTED:34 native exact,12
+reference exact,6 numerical booleans,11 residual checks and eight tests
+PASS at pushed66ad2d197. Raw18-exact source label retained with explicit
+post-run grade correction, no science byte changes. Report:
+reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/FINDINGS.md.
+Actual connected phase/cusp transport modifies transverse Whittaker while
+retaining charged localization and full angular/radial degree0-3 operator.
+Complete mixed Cauchy response NOT yet solved; do not kill global chirality
+from positive scalar stiffness. Local harmonic representative is not known
+framed core trace. PB-GENESIS-END-OPERATOR-LINK / full normal join/selection
+remain OPEN; real periods do not enumerate integral/torsion gauge sectors.
+No main/outside/full-suite or derived SM/TOE acceptance. Goal ACTIVE.
+
 October12 SAME-candidate gauge/end test SPECIFIED, unexecuted:
 silver_gauge_end_transport_2026_10_12 under physical_bridge, actual
 source/input/proof/native/reference/runner/tests digests in SEAL_LEDGER.
