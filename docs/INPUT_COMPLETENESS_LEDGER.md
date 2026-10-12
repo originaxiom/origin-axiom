@@ -1,5 +1,22 @@
 # THE INPUT-COMPLETENESS LEDGER — mandatory checklist for any SM-facing cell
 
+October12 first Higgs-quartic disclosure: SAME supplied E8 action/parent,
+silver affine coefficient/compact core/reference positive metric/fixed
+selective domain and physical small nonzero z=i v. No field, plane,
+operator or empirical target changed.30 explicitly pinned source blobs,
+six science/test/design inputs unchanged from f9122858c.25/305 exact
+checks and59 selected regression PASS do not certify global smooth
+cyclicity/ellipticity/regularity or converge the full theory. HODGE_SCOPE
+is post-first-run analytic clarification, not a pre-run measurement.
+The actual neutral response uses global R, fixed transverse U and trace
+pairing, not an arbitrary Euclidean projector. The -1 coordinate response
+and -9/14 Gaussian are opposing fixtures, NOT normalized OA observables.
+Higgs-pair HOLOMORPHIC quartic ZERO; gauge/D-term scalar interactions
+remain. All quartics, quantum/three-family/Higgs/mu/SUSY/extras, upstream
+selection/map, normalized values/I-23, gravity/observer/qualia and outside/
+full-suite/main acceptance remain unpaid. Full SM/TOE unachieved.
+
+
 October11 neutral/direct-light disclosure: SAME supplied full E8
 parent/action/silver affine coefficient/compact core/positive metric/
 NEW selective domain/constant-log boundary and physical z=i v. No

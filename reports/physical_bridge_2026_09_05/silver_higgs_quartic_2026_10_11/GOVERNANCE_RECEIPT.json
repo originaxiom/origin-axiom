@@ -1,0 +1,24 @@
+{
+  "result": "NOT_GREEN",
+  "exit_code": 1,
+  "pass": 26,
+  "fail": 4,
+  "staged_publication_paths_at_gate": 22,
+  "first_three_failure_lines_identical": true,
+  "failure_categories_unchanged": true,
+  "relay_open_count": {
+    "before": 126,
+    "after": 127,
+    "reason": "New sender-owned Higgs relay registered OPEN; no receiver acknowledgment."
+  },
+  "relay_unescalated_stale_count": {
+    "before": 42,
+    "after": 42
+  },
+  "review_due_merges": {
+    "before": 459,
+    "after": 461
+  },
+  "output": "GOVERNANCE_STAGED.log",
+  "certificate_limits": "This log, metadata and findings/exec-note footer are added after the staged gate, not recursively certified by it. Focused regression certifies unchanged sealed science/test bytes, not full repository acceptance."
+}

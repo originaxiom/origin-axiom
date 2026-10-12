@@ -1,5 +1,30 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October12 first massive-exchange disposition supersedes the uncomputed
+FIRST HIGGS quartic duty only, not the entire higher-interaction duty.
+
+- PB-SILVER-FIRST-HIGGS-QUARTIC EXECUTED: same domain, actual global
+  neutral response and symmetric2x2 holomorphic Higgs-pair tensor ZERO,
+  rank0;25/305 exact checks,59 regression PASS,8 new, science f9122858c.
+  Conditional smooth cyclic application; gauge/D-term scalar terms stand.
+- PB-NORMALIZED-INTERACTIONS STILL OPEN: complete necessary quartic
+  inventory then genuine parent singlets; actual QQud matter and neutral
+  diagrams, every pair partition/light obstruction/normal source law,
+  full physical norms/scales/potential. Higgs holomorphic zero is NOT
+  all-order flatness, all-quartic result or absence of scalar interactions.
+- PB-GENESIS-END-OPERATOR-LINK STILL OPEN: derive a faithful generated
+  field/real/operator/domain/kinetic/cyclic/end map, with registering and
+  based/lift data kept. No rank6 weave/rank5 W identification or desired
+  spectrum-driven replacement boundary. Prior positives remain preserved.
+- Global smooth cyclic Green/regularity and first-nonzero-transfer
+  invariance await nonauthor review; finite exact algebra is not this
+  global PDE certificate. Three families/physical Higgs/mu/SUSY/extras/
+  parameters/I-23/gravity/observer/qualia and quantum duties remain.
+
+Source silver_higgs_quartic_2026_10_11/FINDINGS.md and NEXT_TEST.md.
+Sender-owned Higgs relay OPEN. Full parameter-free SM/TOE ACTIVE/unachieved.
+
+
 October11 neutral/direct-light dispositions supersede earlier uncomputed
 neutral duty ONLY; historical entries retain their epoch.
 

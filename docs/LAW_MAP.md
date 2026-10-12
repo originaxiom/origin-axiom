@@ -1,5 +1,19 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October12 publication of October11 first Higgs-quartic sublemmas,
+CONDITIONAL application on SAME supplied selective constant-boundary
+small-phase model. Packet silver_higgs_quartic_2026_10_11, science seal
+f9122858c;25/305 exact predicates,8 new within59 regression PASS.
+No new shared number, nonauthor/full-suite/main or SM/TOE acceptance.
+
+| Scoped result | Proof and live safeguard |
+|---|---|
+| The first massive physical chiral solution gives W_eff,4=-B([a,a],h2[a,a])/8 | Authored PROOF1/HODGE_SCOPE and inherited framed Takagi/domain map, conditional compact cyclic Green hypotheses; Gaussian control and test_physical_scope_and_remaining_duties. NOT old torus BFV transfer or a numerical global inverse |
+| Actual neutral response trace is P_M xi, onto coexact+U along exact+R; both spaces24 and complementary | PROOF3, test_actual_response_spaces_and_projection_agree; actual global crossed-word/Fox restriction and log transport, canonical spaces/projection hashes agree, U=R comparison rank42 rather than48 |
+| Actual Higgs-pair holomorphic quartic symmetric2x2 is zero, rank0, both weak modes kept | PROOF2-3/HODGE_SCOPE and test_actual_quartic_characteristic_zero_certificate; four native zero polynomials and73 exact nonsingular points, entry degree<=36/determinant<=72. NOT all quartics or zero gauge/D-term scalar interactions |
+| Actual response and parent moment detectors recover nonzero and reject zero mutations | test_actual_response_detector_recovers_nonzero / test_zero_response_detector_rejected / test_zero_moment_map_rejected; literal response -1 at(0,28) outside physical kernels, full sl5 moment Ward and two-sided projection controls |
+
+
 October11 neutral/direct-light sublemmas, authored CONDITIONAL smooth
 application on SAME selective constant-boundary/small-phase model.
 Packet silver_neutral_cubic_2026_10_11, seal e4564d4c3;23/11 exact predicates,

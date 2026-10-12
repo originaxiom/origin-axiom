@@ -1,0 +1,85 @@
+{
+  "scientific_seal_commit": "f9122858c2b6204b8c857ec4397234638cd62f24",
+  "source_commit": "9172f479e71f67281a3bc81e5334a263b86b234c",
+  "post_first_science_analytic_clarification_commit": "a99f6afa5",
+  "complete_first_stdout_commit": "87e1950c888a179a3291b14b4c10abb525348103",
+  "native": {
+    "exit_code": 0,
+    "predicates_passed": 25,
+    "output": "NATIVE_FIRST.log",
+    "first_execution": true
+  },
+  "reference": {
+    "exit_code": 0,
+    "predicates_passed": 305,
+    "output": "REFERENCE_FIRST.log",
+    "first_execution": true,
+    "new_native_imported": false,
+    "repeated_point_predicates_not_independent_theorems": true
+  },
+  "regression": {
+    "exit_code": 0,
+    "passed": 59,
+    "new_tests": 8,
+    "seconds": 700.12,
+    "output": "REGRESSION_FINAL.log",
+    "unchanged_tree_during_run": true,
+    "files": [
+      "tests/test_physical_bridge_silver_higgs_quartic.py",
+      "tests/test_physical_bridge_silver_neutral_cubic.py",
+      "tests/test_physical_bridge_silver_interaction_radical.py",
+      "tests/test_physical_bridge_silver_charged_cubic.py",
+      "tests/test_physical_bridge_silver_selective_boundary.py",
+      "tests/test_physical_bridge_silver_framed_coupled_domains.py",
+      "tests/test_physical_bridge_silver_fermion_action.py"
+    ]
+  },
+  "custody": {
+    "NATIVE_FIRST.log": {
+      "bytes": 4526,
+      "sha256": "823939f8a8e857e2148a5c218a57b427dc8667c58132db88782722b2c0347bdf"
+    },
+    "REFERENCE_FIRST.log": {
+      "bytes": 16917,
+      "sha256": "6d948b6dc3e14acb227d72fc5b9e7d2d99755252c183987f727aa1d7d3870ec3"
+    },
+    "REGRESSION_FINAL.log": {
+      "bytes": 111,
+      "sha256": "a8b65bff19de93f70cdb5bdf4611037e6d9291682ae818aabfc530aa03b9875d"
+    },
+    "GOVERNANCE_BEFORE.log": {
+      "bytes": 2384,
+      "sha256": "566d5a0c1923a37fea2bf0cb177c1fecd525e451555ce78ec5150ce3ec4851bf"
+    },
+    "HODGE_SCOPE.md": {
+      "bytes": 3656,
+      "sha256": "b2656226fc940acbbd7ebaf80b2f8592dfbf34d073b2ac123d5e7001da5fb2e5"
+    }
+  },
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "scope": {
+    "same_author_two_methods": true,
+    "explicitly_pinned_inputs": 30,
+    "sealed_science_test_files": 6,
+    "byte_hash_committed_rows_verified": 36,
+    "first_higgs_pair_holomorphic_quartic_zero": true,
+    "actual_global_restriction_response": true,
+    "unchanged_boundary": true,
+    "conditional_smooth_cyclic_Green_application": true,
+    "global_PDE_numerically_solved": false,
+    "all_quartics_computed": false,
+    "scalar_gauge_D_terms_deleted": false,
+    "all_orders_flatness_proved": false,
+    "normalized_values": false,
+    "three_generations_derived": false,
+    "generated_selection": false,
+    "observer_qualia_derived": false,
+    "nonauthor_acceptance": false,
+    "full_suite_run": false,
+    "main_banked": false,
+    "full_goal_achieved": false
+  }
+}
