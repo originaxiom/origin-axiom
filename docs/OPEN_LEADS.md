@@ -5,6 +5,16 @@ PB-WEAVE-JOINING-HANDOFF OPEN. Original full through-Gate3 ZIP preserved
 under reports/physical_bridge_2026_09_05/joining_handoff_intake_2026_10_12/,
 SHA25684b1c111b774730cbec30d431eb1b7efad6e706d8c6af070243171eff2163443.
 File integrity rechecked; personal study/reproduction NOT complete.
+October12 later checkpoint: all13 reports/final scientific producers,
+initial audit producer, cross-branch assessment and Joining Gates1-3 full
+reports/final producers personally read; explicit upstream source13 blobs
+unchanged at pinned/current Git objects. Still NO independent archive
+science replay or accepted theorem. Current source/application review,
+then sealed reproduction before the matrix-valued global join. Preserve
+Gate3's conditional charged localization positive and neutral continuum;
+do not reject it on Gate2's DIFFERENT harmonic-metric norm criterion or
+pretend scalar flux matching gives a selected global boundary. Reading
+stage complete at declared ledger coverage, verification/adoption OPEN.
 STUDY_LEDGER.json distinguishes fully read/pending and accepted claims
 (none). Read all reports/code/attempts/sources before independent sealed
 scientific replay, then judge its actual record->field/operator/end-law

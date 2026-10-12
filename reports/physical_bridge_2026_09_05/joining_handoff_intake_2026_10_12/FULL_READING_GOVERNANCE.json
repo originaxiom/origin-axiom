@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-12",
+  "kind": "full_report_final_producer_reading_checkpoint_not_scientific_bank",
+  "staged_paths_at_run": 6,
+  "command": "/Users/dri/.pyenv/versions/3.12.1/bin/python3 scripts/gates/gates.py",
+  "exit_code": 1,
+  "pass": 26,
+  "fail": 4,
+  "result": "NOT_GREEN",
+  "failure_categories": ["attribution", "test-vacuity", "seal-provenance", "relay-debt"],
+  "new_reading_checkpoint_paths_implicated": false,
+  "relay_open": 127,
+  "relay_stale": 42,
+  "review_due": 465,
+  "full_suite_executed": false,
+  "archived_scientific_producer_executed": false,
+  "accepted_new_scientific_claims": [],
+  "canonical_genesis_changed": false,
+  "after_gate_additions": "This governance receipt and four upstream-read custody entries in the study ledger. They are not recursively certified by the six-path run.",
+  "full_goal_achieved": false
+}

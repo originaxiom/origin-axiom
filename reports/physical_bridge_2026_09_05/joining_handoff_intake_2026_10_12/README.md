@@ -93,3 +93,16 @@ not independent scientific replay. No new claim accepted or foundation
 edited. Next Run9 chronologically, then remaining reports/cross-branch
 assessment and all three joining gates. All foreign remote heads refreshed
 and unchanged. Full goal remains ACTIVE, unachieved.
+
+Current checkpoint supersedes the pending READING stages above: all13
+technical reports/final scientific producers, initial audit producer,
+cross-branch assessment and all three joining reports/final producers have
+now been read personally. Selected correction histories/receipts and
+primary sections inspected. Thirteen explicit upstream source blobs agree
+with pinned AND current Git objects. No archive scientific producer has
+yet been executed independently and no new physical theorem accepted.
+Full current upstream proof/application review and sealed science replay
+remain before adoption. The strongest candidate lead is the field-generated
+charged end localization with actual peripheral holonomy; full matrix
+core/end matching, neutral continuum and input selection remain unresolved.
+Its harmonic-metric norm and physical residual potential must stay distinct.

@@ -18861,3 +18861,31 @@ All foreign remote heads refreshed unchanged. Next chronological reports
 then sealed independent load-bearing checks/core-end nonlinear matching.
 Prior12784b439 physical packet remains preserved. Full parameter-free
 Standard Model/full TOE goal ACTIVE and unachieved.
+
+## 2026-10-12 full handoff report/final-producer reading, verification still open
+
+Personal chronological reading now covers all13 technical reports and
+final scientific producers, initial audit332-line source, cross-branch
+assessment/builder/snapshot and Joining Gates1-3 full reports/final sources.
+Selected raw receipts/correction diffs and primary sections inspected.
+STUDY_LEDGER.json records179 fully-read paths rather than asserting every
+JSON, older console log or cited paper was audited. Thirteen explicit
+upstream source Git blobs match the archive's pins and current refs.
+Custody is not scientific acceptance. No archive scientific producer run,
+new theorem accepted, canonical GENESIS edit or shared bank number.
+
+Keep Gate1's compressed-information witness scoped to its actual carrier/
+coefficient; preserve its split noncommuting control. Gate2's divergent
+harmonic-metric norm is not physical residual potential. Gate3 claims an
+actual peripheral nonabelian end plus charged localization, retaining the
+neutral continuum and unfixed end amplitude. That is the concrete lead to
+independently verify, NOT a completed nonlinear full-core matching solution,
+selected charged polarization or derived principle-to-physics map. No
+global particle/family count follows from a tail or coefficient dimension.
+
+Next full current upstream application/proof review and protocol-compliant
+independent sealed replays, then genuine matrix-valued charged+neutral
+core/end matching without desired-spectrum-driven boundary substitution.
+Prior physics results remain intact; full parameter-free SM/TOE objective
+ACTIVE and unachieved. Outside analytic/full-suite/main and inherited
+governance debts remain; reading checkpoint is not a completed main bank.
