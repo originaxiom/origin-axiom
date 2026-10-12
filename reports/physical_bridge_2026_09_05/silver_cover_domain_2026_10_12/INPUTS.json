@@ -154,7 +154,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/DESIGN.md",
-      "sha256": "a3f10168ab19fac31941b03c0df842ce75e53f3762e2207595b46658a65f9bb7"
+      "sha256": "72018eeb4731793440ed994fbe9d94f6e637c57a32759283a9b72f58127fa592"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/PROOF.md",
@@ -162,7 +162,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/probe.py",
-      "sha256": "da41fba6b1fe782fa8899052282d6459c01bec102c643a342fa5f8cd4465b0d1"
+      "sha256": "f5b09c58a624ecd6bdfadf09641013a2e497d1cf48fe3175a8dbe1236ff04cd1"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/reference.py",
@@ -170,11 +170,15 @@
     },
     {
       "path": "tests/test_physical_bridge_silver_cover_domain.py",
-      "sha256": "7a27520a8a4ab5ab17efa86716135da76077c745c97431db59e1f9c74bf1d490"
+      "sha256": "5e182891ea1e26cf542aade7ffbb76110b00642d83f44fd23761f0e2218ae78d"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/execute.py",
       "sha256": "1fa245de6808e861332158aa2e66adaf58c1e0c503ffaa0ebe203795698bf648"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/FIRST_FAILURE.md",
+      "sha256": "4f47c70346d9811ddf94995387aa57890a53ec3fa0b0b02c1726aedf44e6d7d6"
     }
   ],
   "scope": "one connected silver double cover full boundary/charged/neutral/gauge linear dictionary",
@@ -184,5 +188,6 @@
     1
   ],
   "generated_boundary": false,
-  "normalized_interactions": false
+  "normalized_interactions": false,
+  "repair": "summed flux detector simplified, first failure preserved; unchanged physical input and reference"
 }

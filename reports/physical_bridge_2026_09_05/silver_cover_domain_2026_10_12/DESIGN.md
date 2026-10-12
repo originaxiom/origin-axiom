@@ -60,3 +60,10 @@ and exit preserved; source tree read-only. Reseal failures before repairs.
 Publish complete results including extras/new choices. Passing finite
 controls earns only the specified conditional full linear construction;
 generated boundary choice, quantum consistency and goal completion remain.
+
+AFTER first stopped run, BEFORE retry: one structural symbolic equality
+mistook distributed/factored forms of the sum flux for unequal. Native
+stopped before spectrum; reference not launched; first regression10 failures
+at the same detector/7 retained PASS. FIRST_FAILURE preserves the failure.
+Simplified residual plus a wrong-difference-flux guard repairs ONLY that
+detector. No physical input, count, domain or reference change. Reseal first.

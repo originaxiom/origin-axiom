@@ -1,0 +1,31 @@
+{
+  "status": "STOPPED_NOT_PROGRAM_KILL",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 1,
+      "elapsed_seconds": 6.7345791879997705
+    }
+  ],
+  "scope": "whole cover boundary and linear operator; selection/quantum acceptance owed",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "d403a1872b8f53e5d46128055016d793ad9c6994",
+  "initial_source_hashes_match": true,
+  "error": "AssertionError: probe",
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 642,
+      "sha256": "9bf597ddd371c540b14180ef189a52d88c50ef87caf6c5c25446adf4a80b6fb6"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

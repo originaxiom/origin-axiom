@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<REPO>/reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/probe.py", line 143, in <module>
+    if __name__=='__main__':print(json.dumps(run(),indent=2,sort_keys=True))
+                                             ^^^^^
+  File "<REPO>/reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/probe.py", line 95, in run
+    for key,value in list(facts.items()):assert value,key
+                                         ^^^^^^^^^^^^^^^^
+AssertionError: response_is_summed_not_pointwise

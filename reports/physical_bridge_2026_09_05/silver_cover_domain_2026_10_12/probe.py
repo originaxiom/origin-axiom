@@ -84,7 +84,8 @@ def boundary_controls():
     diag=s.Matrix([1,1])/s.sqrt(2);odd=s.Matrix([1,-1])/s.sqrt(2)
     return {'one_A0_not_two':diag.cols==1 and s.Matrix.hstack(diag,odd).rank()==2,
             'global_A2_annihilator_keeps_odd_flux':(diag.T*odd)[0]==0 and (diag.T*diag)[0]==1,
-            'response_is_summed_not_pointwise':(diag.T*s.Matrix([f0,f1]))[0]==(f0+f1)/s.sqrt(2),
+            'response_is_summed_not_pointwise':s.simplify((diag.T*s.Matrix([f0,f1]))[0]-(f0+f1)/s.sqrt(2))==0,
+            'wrong_difference_flux_detector_is_rejected':s.simplify((diag.T*s.Matrix([f0,f1]))[0]-(f0-f1)/s.sqrt(2))!=0,
             'opposite_nonzero_sheet_flux_is_allowed':(diag.T*s.Matrix([2,-2]))[0]==0 and s.Matrix([2,-2])!=s.zeros(2,1),
             'same_sheet_flux_is_rejected':(diag.T*s.Matrix([2,2]))[0]!=0}
 

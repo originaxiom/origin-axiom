@@ -17,6 +17,7 @@ def test_global_gauge_not_two_independent_cusp_gauges():
 def test_sum_response_keeps_opposite_nonzero_flux():
     assert p.run()['facts']['opposite_nonzero_sheet_flux_is_allowed']
     assert p.run()['facts']['same_sheet_flux_is_rejected']
+    assert p.run()['facts']['wrong_difference_flux_detector_is_rejected']
     assert r.run()['checks']['opposite_flux_is_allowed_not_two_neumann_laws']
 
 def test_all_neutral_degrees_reconstructed_characteristic_zero():
