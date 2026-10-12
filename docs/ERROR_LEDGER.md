@@ -128,3 +128,12 @@ rg --files and read. No absence/science verdict derived from those errors.
 User's McKay simultaneous-cascade assertion treated as a hypothesis;
 B266's final correction and newer weave2O read before replying. Its old
 homeless wording is route-scoped, not an architecture-wide E7 exclusion.
+
+October12 cover-cubic positive under uncertain lean-zero prior:153/83
+exact first runs and17 tests PASS, no scientific failure or reseal.
+Native classifies QdcL NONZERO and eLL/udd CANCELLATION, independently
+confirmed. Old one-family/old-domain negative NOT transferred.
+A post-run display helper used Ruby filter_map unavailable on this
+runtime; visible NoMethodError, replaced with map.compact only to read
+the unchanged JSON. No source, mathematical criterion or raw run changed.
+Polynomial chart determinants not relabelled physical small-v hierarchy.

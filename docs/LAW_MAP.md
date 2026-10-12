@@ -1,5 +1,15 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October12 complete cover charged-cubic sublemmas, research grade.
+B1530 is INPUT antecedent only; new proof/test below, no shared bank.
+
+| Law (conditional action/domain scope) | Proof and actual lock | Limit |
+|---|---|---|
+| Full3-profile QdcL matter tensor is nonzero on this cover; eLL/udd cancel nonzero terms | B1530 INPUT only; silver_cover_cubic_2026_10_12/PROOF1-3 and FINDINGS; tests/test_physical_bridge_silver_cover_cubic.py::test_independent_complete_channel_classifications_agree / test_termwise_diagnosis_does_not_confuse_parity_with_cancellation | Supplied compact parent/domain; not normalized Yukawas/Higgs/selection |
+| Normalized two-sheet product retains13 even-parity/14 forbidden coordinates per3-profile cubic, including two-odd vertices | B1530 INPUT only; PROOF1; test_even_deck_vertices_include_two_odd_profiles | Does not select cover, planes or3; not independent theories |
+| Multi-family antisymmetric tensor can be nonzero off diagonal despite every diagonal being zero | B1530 INPUT only; PROOF2/comparator; test_multifamily_exchange_with_nonzero_off_diagonal_comparator | Old one-family udd zero cannot exclude the new tensor; actual new udd nevertheless cancels |
+| Adjugate polynomial cubic zero requires degree+1 nonsingular points; nonzero status survives nonsingular kinetic normalization | B1530 INPUT only; PROOF3-4; test_degree_certificates_exhaust_polynomial_nulls_not_sampling | Authored generic proof; no normalized magnitude, physical v hierarchy or full potential |
+
 October12 path-local current-map sublemmas, not a new shared bank or
 foundational selection. B1530 is INPUT coefficient antecedent only.
 Source reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12,

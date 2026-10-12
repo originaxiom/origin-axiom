@@ -6138,3 +6138,16 @@ representative and interaction map. PB-COVER-GENERATED-END/QUANTUM/EXTRAS:
 remain OPEN in previous NEXT_TEST. Signed silver and positive ruled
 genesis must be reconciled by a generated physical map, not labelling.
 No missing-everywhere claim; prior-work sources in sealed DESIGN.
+
+## October12 complete wholly charged cubic: positive retained
+
+PB-COVER-CHARGED-CUBIC: completed CONDITIONAL computation. Closing sentence:
+"QdcL is NONZERO in the complete actual3-profile spaces; eLL and udd are
+exactly zero by cancellation of nonzero Stokes terms." Source
+reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/FINDINGS.md,
+153/83 exact and17 live tests. Not all-light/all-orders/architecture closure.
+PB-COVER-ODD-NEUTRAL remains OPEN: actual absolute direction,trace/map,
+full neutral/adjoint/higher couplings. PB-COVER-GENERATED-END/QUANTUM/
+HIGGS-EXTRAS: OPEN, do not identify L as Hd or fit a plane from this result.
+PB-COVER-NORMALIZED-CUBIC: OPEN, positive global Gram/physical profiles,
+not powers of determinant-scaled polynomial coordinates.

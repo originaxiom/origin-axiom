@@ -1,5 +1,22 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October12 actual cover-cubic checkpoint:153 native/83 Fraction exact
+PASS9.436/14.203s and17 live tests PASS41.38s(10 new/7 retained) at
+unchanged pushed47664f443;60 pins/tree unchanged. Report:
+reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/FINDINGS.md.
+Actual3-profile QdcL cubic NONZERO; eLL/udd ZERO by cancellation of
+nonzero terms, not one-family diagonals or parity-only projection.
+All81 charged slots and mixed deck vertices retained. Same supplied
+chiral theory has verified gauge currents AND holomorphic matter
+interaction; old selective-boundary zero does NOT transfer. Large
+adjugate coefficients/powers are not normalized masses/hierarchy.
+No independent LEFT5/Hu or selected Hd; not observed Yukawa sector.
+13 neutral/two adjoint/SUSY extras retained. NEXT changed odd absolute
+neutral direction, full neutral/adjoint and higher tensors, generated
+end/source/register/signed-sector map and quantum/extra-field duties.
+Goal derive three physical generations ACTIVE/unachieved; no outside/
+full-suite/main, generated boundary or complete physical SM/TOE acceptance.
+
 October12 actual cover-kernel current checkpoint:266 native/215 Fraction
 exact PASS17.106/1.740s,17 live tests PASS36.99s(10 new/7 retained) at
 unchanged pushed7a830634d;50 pins/tree unchanged. Report:

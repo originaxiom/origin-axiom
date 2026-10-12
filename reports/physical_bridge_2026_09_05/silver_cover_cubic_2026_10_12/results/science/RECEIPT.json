@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 9.435804130000179,
+      "exact_predicates": 153
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 14.202546811000502,
+      "exact_predicates": 83
+    }
+  ],
+  "scope": "same supplied parent complete charged cubic; no selection/Higgs/neutral/quantum completion",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "47664f443483c0236e13981b7a1ddab32409a013",
+  "initial_source_hashes_match": true,
+  "shared_actual_outputs_agree": true,
+  "tracked_worktree_unchanged": true,
+  "source_inputs_unchanged": true,
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 14267,
+      "sha256": "08a32332585ac330e680812dfb9b749b161c3c2f81a625e4ac9502bc8e367ddd"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 5635,
+      "sha256": "d5ba72a05cf950397e10358dbd52e37473c96482776c469e29e2be75c663ca4d"
+    }
+  ]
+}
