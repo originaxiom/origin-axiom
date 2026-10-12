@@ -43,7 +43,9 @@ def run():
     ck('variable_area_nonyangmills_control',s.simplify(s.diff(Sv[2,3].subs(Av,1+y),y))!=0)
     J=s.diag(s.Matrix([[0,-1],[1,0]]),s.Matrix([[-x/y,-(x*x+y*y)/y],[1/y,x/y]]))
     Omega=twoform(0,1,ell**2/y**2)+twoform(2,3,A)
-    ck('actual_complex_structure_square',J*J==-s.eye(4))
+    ck('actual_complex_structure_square',zero(J*J+s.eye(4)))
+    wrongJ=J.copy();wrongJ[2,2]+=1
+    ck('actual_wrong_complex_structure_rejected',not zero(wrongJ*wrongJ+s.eye(4)))
     ck('actual_Kahler_compatibility',zero(J.T*G-Omega) and zero(J.T*G*J-G))
     hol=s.Matrix([x+s.I*y,u+(x+s.I*y)*v]).jacobian([x,y,u,v])
     ck('actual_holomorphic_coordinates_not_only_J_square',zero(hol*J-s.I*hol))

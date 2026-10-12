@@ -36,6 +36,11 @@ def test_actual_S_and_T_metric_descent_and_holomorphic_coordinates(results):
     p=load('probe');G=p.metric(s.Integer(1),s.Integer(2),s.Integer(3),s.Integer(5))
     bad=s.diag(1,1,2,1)
     assert bad.T*G*bad!=G
+    x=s.symbols('x',real=True);y=s.symbols('y',positive=True)
+    J=s.diag(s.Matrix([[0,-1],[1,0]]),s.Matrix([[-x/y,-(x*x+y*y)/y],[1/y,x/y]]))
+    assert p.zero(J*J+s.eye(4))
+    J[2,2]+=1
+    assert not p.zero(J*J+s.eye(4))
 
 def test_varying_fibre_area_really_changes_YM_equation(modules):
     p,_=modules;y=s.symbols('y',positive=True);x=s.symbols('x',real=True)

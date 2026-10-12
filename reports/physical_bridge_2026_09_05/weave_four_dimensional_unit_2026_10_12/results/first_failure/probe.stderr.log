@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/probe.py", line 79, in <module>
+    if __name__=='__main__':print(json.dumps(run(),indent=2))
+                                             ^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/probe.py", line 46, in run
+    ck('actual_complex_structure_square',J*J==-s.eye(4))
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/probe.py", line 29, in ck
+    if not checks[label]:raise AssertionError(label)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: actual_complex_structure_square

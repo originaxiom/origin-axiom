@@ -1,0 +1,31 @@
+{
+  "status": "STOPPED_NOT_PROGRAM_KILL",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 1,
+      "elapsed_seconds": 0.987179918000038
+    }
+  ],
+  "scope": "specified total metric/YM lift; no three-family operator",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "3f5f990118bd48cfe407d4a7233bb920092a0605",
+  "initial_source_hashes_match": true,
+  "error": "AssertionError: probe",
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 849,
+      "sha256": "21cbb14c4b53ae8dee6b5443aff7e9b1a3704a3905cbe9e0410b8820083bd5e5"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

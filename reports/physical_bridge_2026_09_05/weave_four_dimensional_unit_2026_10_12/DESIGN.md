@@ -57,3 +57,10 @@ First stdout/stderr/exits retained, source tree unchanged while running.
 Failure stays byte-faithful and must be resealed before repair. PASS
 discharges this specified lift only; UNKNOWN or failure is not a no-go
 against other metrics/actions/ends. No full-suite/main bank/goal completion.
+
+AFTER first native failure at3f5f99011, before retry: one checker used
+structural equality on the unsimplified J-square, stopping before the
+reference launch. Raw logs/receipt are retained in results/first_failure.
+The detector now tests simplified residual and a wrong-J mutation. No
+metric, unit, field, proof or expected physical conclusion was changed.
+The new science/test/design/input hashes are resealed before retry.

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "active_goal": "derive three physical generations",
-  "pre_design_head": "cadd512bc3d8ae0d9816c692e7d6ca3298d075fb",
+  "pre_design_head": "3f5f990118bd48cfe407d4a7233bb920092a0605",
   "scope": "declared total-space metric and pullback connection, not a complete puncture or physical family index",
   "environment": {
     "python": "3.12.1",
@@ -10,9 +10,9 @@
   "source_files": [
     {
       "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/DESIGN.md",
-      "sha256": "ae4af348337102a70be1979aac7d4200c975aba58d1a8fb2b6ee4a0e844b6233",
-      "bytes": 3675,
-      "git_blob": "08ec124d0d751162eb798917281a03dfb9fd29cb"
+      "sha256": "e929a294f7888c39021ec762f6c2e6caa41009c257e45e2d1cec31f58dad4ce3",
+      "bytes": 4101,
+      "git_blob": "f8a8035fb76de09e0f682eb9ec95d05fe903722c"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/PROOF.md",
@@ -22,9 +22,9 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/probe.py",
-      "sha256": "9e69fbb72be552c13f8e092505e17827cb76f56c32e0083b75064f013578ca54",
-      "bytes": 4862,
-      "git_blob": "b133cebf262ef1008b73e6b2c562cd18fcdf491b"
+      "sha256": "33a4442c745c62d74e755323a5b2de7021530e7b56bb89e9f34c2b5771ef8fed",
+      "bytes": 4984,
+      "git_blob": "5a27e03e34b1aa43b3e3a32465e3f30709f388c3"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/reference.py",
@@ -40,9 +40,9 @@
     },
     {
       "path": "tests/test_physical_bridge_weave_four_dimensional_unit.py",
-      "sha256": "7cfe84f1809f71094ff4062acd9c4b4d85d51489a3c85e0f45fec43557fa0d74",
-      "bytes": 3837,
-      "git_blob": "397634655b492376ebada907c6e88c4884e3e98b"
+      "sha256": "128734397a95554243533f03a774d9c38a8d01dccf5680a9c17a96ee1a320068",
+      "bytes": 4062,
+      "git_blob": "915b9c977c486f1fa2d72b0a5a423c9147d4f41c"
     }
   ],
   "foreign_sources": [
@@ -79,5 +79,13 @@
   ],
   "empirical_constants": [],
   "grades": "pure exact symbolic safeguards; authored analytic application, no nonauthor acceptance",
-  "unexecuted_prior_readings": "SM W45/W46/W47 producer/rules read, not independently replayed in this packet"
+  "unexecuted_prior_readings": "SM W45/W46/W47 producer/rules read, not independently replayed in this packet",
+  "detector_only_correction": {
+    "after_first_failure": true,
+    "first_seal_commit": "3f5f990118bd48cfe407d4a7233bb920092a0605",
+    "first_native_exit": 1,
+    "reference_launched": false,
+    "changes": "simplified J-square residual, wrong-J control and regression guard; no changed geometry or units",
+    "preserved": "results/first_failure"
+  }
 }
