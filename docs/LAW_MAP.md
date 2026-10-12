@@ -1,5 +1,20 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October13 path-local actual-neutral sublemmas, conditional research grade.
+Source reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12,
+PROOF1-4/FINDINGS;34/34 exact and18 live PASS at919168eab.
+B1530 is INPUT coefficient antecedent ONLY, not the new proof or bank.
+
+| Law (same supplied cover/action/domain) | Proof and live mathematical lock | Limit |
+|---|---|---|
+| Connecting subspace is IMAGE B ker D; globally extendible even-gauge primitives map to0 | B1530 INPUT only; PROOF1/3; tests/test_physical_bridge_silver_cover_neutral.py::test_unbroken_adjoint_ordinary_and_connecting_profiles_kept | Not primitive-column count, deletion or a second vector |
+| Neutral relative sectors have6/7 directions; odd has6 connecting plusONE actual nonexact cocycle | B1530 INPUT only; PROOF1; test_actual_nonexact_odd_cocycle_equations_and_matrices / test_thirteen_neutral_modes_not_thirteen_globally_exact_modes | Explicit supplied coefficient and boundary; not a foundational family selector |
+| Transverse neutral plane forces zero tangential trace of every admitted closed neutral profile | B1530 INPUT only; PROOF1; test_actual_transverse_domain_and_equal_plane_opposite | Authored smooth-Hodge proof under inherited hypotheses; equal plane is an opposing domain |
+| All direct neutral profile cubics vanish by exact-slot Stokes or odd deck parity, not all-exactness | B1530 INPUT only; PROOF2; test_complete_neutral_proof_cases_with_nonzero_density_control / test_ungraded_or_changed_trace_cannot_inherit_this_zero_proof |2197 proof cases, not numerical global integration; higher interactions not excluded |
+| Gauge/structure mixed direct cubic absent by full E8 commuting factors; charged mixed slots absent by actual LEFT weights | B1530 INPUT only; PROOF3; test_all_E8_mixed_roots_and_actual_charged_neutral_catalogue | Actual conjugate H2 is not additional LEFT matter; charged QdcL remains |
+| Even neutral H2 restriction injective6; odd rank6 leaves interior kernel1; full physical-to-absolute map is iso | B1530 INPUT only; PROOF4; test_actual_degree_two_restriction_removes_quadratic_not_higher_slot | Same selfdual neutral coefficients and transverse/full A2 domain only |
+| Retained odd neutral has zero quadratic HOLomorphic flatness obstruction, not an all-order real vacuum certificate | B1530 INPUT only; PROOF4; test_actual_degree_two_restriction_removes_quadratic_not_higher_slot / test_limited_analytic_conclusions_after_live_mathematics | Admitted quadratic response exists conditionally; not computed, normalized, real-moment-solved or selected |
+
 October12 complete cover charged-cubic sublemmas, research grade.
 B1530 is INPUT antecedent only; new proof/test below, no shared bank.
 

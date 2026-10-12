@@ -1,5 +1,30 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October13 scoped completion: PB-COVER-ODD-NEUTRAL actual representative,
+full coboundary/trace and DIRECT neutral/adjoint chiral-cubic duties are
+complete CONDITIONALLY, not the higher/vacuum/selection obligations.
+Closing sentence: "All13 neutral modes are kept; direct neutral/adjoint
+chiral cubics vanish by stated Stokes/deck/representation mechanisms,
+while the actual charged QdcL positive remains." Source:
+reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/FINDINGS.md,
+34/34 exact and18 live PASS at919168eab,70 pins/tree unchanged.
+Historical older OPEN entries below retain their date and broader scope;
+this checkpoint supersedes their uncomputed-direct-cubic duty only.
+
+PB-COVER-ODD-NEUTRAL-HIGHER remains OPEN: interior odd H2 kernel1.
+PB-COVER-NIL-REPRESENTATIVE is a registered post-result lead: candidate
+y=x-B_eta(-C/2), with the actual structural C and global invariant flag,
+must pass literal equations/nonexactness/boundary and bracket controls.
+Connecting Bf is physical, not deleted. Potential exact flat-line
+consequence must be separately sealed/tested; not computed in this packet.
+PB-COVER-REAL-NEUTRAL-VACUUM remains OPEN: real moment/normal response,
+admitted stationary branch and Hessian, not flatness-to-mass identification.
+PB-COVER-GENERATED-BOUNDARY/END/PARENT/REGISTER remains OPEN: no fitted
+index selection or transfer from ruled positive genesis to signed lab.
+PB-COVER-HIGGS-EXTRAS/NORMALIZED-CUBIC/QUANTUM remains OPEN; all states,
+interactions and the current source choices persist. NEXT_TEST in this
+packet carries each duty; no everywhere-absence or architecture-wide kill.
+
 October12 WHOLE cover-domain checkpoint:42 native/31 Fraction exact and
 17 live tests PASS222.73s,10 new/7 retained; pushed pre-science b06dadb18.
 44 source pins/tracked tree unchanged. Report:

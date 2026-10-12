@@ -1,0 +1,521 @@
+{
+  "checks": {
+    "N_minus_actual_absolute_quotient_outside_coboundaries": true,
+    "N_minus_degree_two_global_parallel_cokernel": true,
+    "N_minus_equal_plane_is_opposite": true,
+    "N_minus_full_relative_cocycle_equations": true,
+    "N_minus_nonzero_connecting_image_not_primitive_column_count": true,
+    "N_minus_physical_H2_to_absolute_iso_premises": true,
+    "N_minus_same_full_trace_transverse_plane": true,
+    "N_plus_actual_absolute_quotient_outside_coboundaries": true,
+    "N_plus_degree_two_global_parallel_cokernel": true,
+    "N_plus_equal_plane_is_opposite": true,
+    "N_plus_full_relative_cocycle_equations": true,
+    "N_plus_nonzero_connecting_image_not_primitive_column_count": true,
+    "N_plus_physical_H2_to_absolute_iso_premises": true,
+    "N_plus_same_full_trace_transverse_plane": true,
+    "actual_neutral_density_nonzero_control": true,
+    "all_E8_gauge_structure_cross_brackets_zero": true,
+    "all_ordered_neutral_triples_from_weighted_multisets": true,
+    "complete_actual_charge_mixed_catalogue": true,
+    "conjugate_LEFT_insertion_changes_problem": true,
+    "even_obstruction_injectivity_and_odd_higher_slot": true,
+    "g_minus_actual_absolute_quotient_outside_coboundaries": true,
+    "g_minus_degree_two_global_parallel_cokernel": true,
+    "g_minus_full_relative_cocycle_equations": true,
+    "g_minus_nonzero_connecting_image_not_primitive_column_count": true,
+    "g_minus_physical_connecting_zero_trace": true,
+    "g_plus_actual_absolute_quotient_outside_coboundaries": true,
+    "g_plus_degree_two_global_parallel_cokernel": true,
+    "g_plus_full_relative_cocycle_equations": true,
+    "g_plus_nonexact_ordinary_period_kept": true,
+    "g_plus_nonzero_connecting_image_not_primitive_column_count": true,
+    "odd_absolute_actual_representative_not_global_exact": true,
+    "odd_values_are_nonzero_traceless_matrices": true,
+    "thirteen_not_all_exact_and_one_absolute_retained": true,
+    "wrong_ungraded_or_nontransverse_premise_rejected": true
+  },
+  "exact_predicates": 34,
+  "full_goal_achieved": false,
+  "gauge": {
+    "minus": {
+      "absolute_H": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "absolute_direction_dimension": 0,
+      "boundary_H": [
+        1,
+        2,
+        1
+      ],
+      "connecting_dimension": 1,
+      "connecting_space_sha256": "0ec24af1e918fa8aaaa21eaae40020f6c98260c29163459d873ae075fbb8e8cd",
+      "degree_two_interior_kernel": 0,
+      "degree_two_restriction_rank": 1,
+      "nonexact_ordinary_direction_dimension": 0,
+      "physical_H1": 1,
+      "relative_dimension": 1,
+      "relative_space_sha256": "0ec24af1e918fa8aaaa21eaae40020f6c98260c29163459d873ae075fbb8e8cd"
+    },
+    "plus": {
+      "absolute_H": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "absolute_direction_dimension": 0,
+      "boundary_H": [
+        1,
+        2,
+        1
+      ],
+      "connecting_dimension": 0,
+      "connecting_space_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "degree_two_interior_kernel": 0,
+      "degree_two_restriction_rank": 0,
+      "nonexact_ordinary_direction_dimension": 1,
+      "physical_H1": 1,
+      "relative_dimension": 0,
+      "relative_space_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "gauge_proof_cases": {
+    "000": "ONE_FORM",
+    "001": "DECK",
+    "010": "DECK",
+    "011": "STOKES",
+    "100": "DECK",
+    "101": "STOKES",
+    "110": "STOKES",
+    "111": "DECK"
+  },
+  "generated_selection": false,
+  "global_normalized_profiles_computed": false,
+  "global_quantum_anomaly": false,
+  "higher_odd_obstruction_computed": false,
+  "mixed_charge_catalogue": [
+    [
+      "G",
+      "G",
+      "G"
+    ],
+    [
+      "G",
+      "G",
+      "N"
+    ],
+    [
+      "G",
+      "N",
+      "N"
+    ],
+    [
+      "N",
+      "N",
+      "N"
+    ]
+  ],
+  "neutral": {
+    "minus": {
+      "absolute_H": [
+        0,
+        7,
+        7,
+        0
+      ],
+      "absolute_direction_dimension": 1,
+      "boundary_H": [
+        6,
+        12,
+        6
+      ],
+      "connecting_dimension": 6,
+      "connecting_space_sha256": "71271fefbfc61c35a932abbd645b019a1183308ed268c5041b887c0116bdd5c6",
+      "degree_two_interior_kernel": 1,
+      "degree_two_restriction_rank": 6,
+      "physical_H1": 7,
+      "physical_H2": 7,
+      "plane_sha256": "ac5b10200037af05cb585d9a8c34c9720a0bfb84c89218ac4ed9148b183d93b5",
+      "relative_dimension": 7,
+      "relative_space_sha256": "d2d29c7a13eb80c8b880144e15d4271eb019f001b05a8ebc7ae392d72675e940",
+      "restriction_rank": 6
+    },
+    "plus": {
+      "absolute_H": [
+        0,
+        6,
+        6,
+        0
+      ],
+      "absolute_direction_dimension": 0,
+      "boundary_H": [
+        6,
+        12,
+        6
+      ],
+      "connecting_dimension": 6,
+      "connecting_space_sha256": "5d217ee0535d31ddedc89961cc4e8576e702bd239184abcf994cdff3ba226192",
+      "degree_two_interior_kernel": 0,
+      "degree_two_restriction_rank": 6,
+      "physical_H1": 6,
+      "physical_H2": 6,
+      "plane_sha256": "a3bba4f4a47e00bd399126ef05bc429b2333db4f6a8691e0fb32cf113b677f59",
+      "relative_dimension": 6,
+      "relative_space_sha256": "5d217ee0535d31ddedc89961cc4e8576e702bd239184abcf994cdff3ba226192",
+      "restriction_rank": 6
+    }
+  },
+  "neutral_proof_case_counts": {
+    "DECK": 1099,
+    "STOKES": 1098
+  },
+  "new_native_imported": false,
+  "odd_absolute_cocycle_matrices": {
+    "a": [
+      [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-5",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "5",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-10",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-4",
+          "0"
+        ]
+      ]
+    ],
+    "b": [
+      [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-15",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-5",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "10",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-4",
+          "0"
+        ]
+      ]
+    ],
+    "t": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    ]
+  },
+  "odd_absolute_mode_retained": true,
+  "outside_review": false,
+  "quadratic_flatness_obstruction_zero_conditional": true,
+  "quadratic_response_computed": false,
+  "real_moment_vacuum_derived": false,
+  "remaining_direct_cubic_zero_conditional": true
+}

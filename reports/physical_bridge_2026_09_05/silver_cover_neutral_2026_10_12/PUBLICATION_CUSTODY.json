@@ -1,0 +1,56 @@
+{
+  "seal_commit": "919168eab1452cce85447f30248b2a9794e69854",
+  "source_pins": 70,
+  "disk_and_sealed_git_blobs_match": true,
+  "changed_original_pins": [
+    "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/reference.py",
+    "tests/test_physical_bridge_silver_cover_neutral.py"
+  ],
+  "added_pins": [
+    "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/REPAIR_2026_10_13.md",
+    "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/INITIAL_INPUTS.json"
+  ],
+  "first_native_and_repaired_native_same_sha256": true,
+  "captured_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/results/science/probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/results/science/probe.stdout.log",
+      "bytes": 9670,
+      "sha256": "71d380e4489ca7ec59f6b3dbd53a04bd80565d186dfa19b39b6c5f8658efc4c2",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/results/science/reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/results/science/reference.stdout.log",
+      "bytes": 9770,
+      "sha256": "e76f990501247605db2a45a50f634b81da72d182e27b380df1ab0224cb82c8cc",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/results/regression/stdout.log",
+      "bytes": 111,
+      "sha256": "469b1593a83f59469f45db1df28b4b3a93297c69db63a5afad2c1054ec9d4098",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/results/regression/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receipt_match": true
+    }
+  ],
+  "full_suite": false,
+  "nonauthor_analytic_review": false,
+  "main_acceptance": false,
+  "objective_achieved": false
+}

@@ -19126,3 +19126,23 @@ Additional outcome guards: new separately sealed test atbae31e188
 re-executes both producers,3 PASS25.11s,60 original/two new hashes
 unchanged and clean tree. First17-test/science captures retained.
 Native final26PASS/four inheritedFAIL,135 OPEN/42 stale/review488 owed.
+
+## 2026-10-13 actual neutral/cubic/limited-flatness publication
+
+October13 actual neutral checkpoint:34 native/34 Fraction exact and18
+selected live tests PASS253.90s at unchanged pushed reseal919168eab,
+70 pins/tree unchanged. All13 neutral modes kept:12 connecting plusONE
+actual odd nonexact class. Remaining neutral/adjoint direct CHIRAL cubics
+zero; earlier actual cover QdcL NONZERO stands, not the old selective zero.
+Odd quadratic holomorphic flatness obstruction0, one higher odd slot
+retained; response/real vacuum not computed. Next flag representative
+test and generated parent/end/register map. Source choices/Higgs/extras/
+normalization/quantum/outside/full-suite/main remain owed. Objective derive
+three physical generations and broader SM/TOE unchanged/unachieved.
+Initial interruption UNKNOWN and reference hashing failure preserved.
+Original68 pins:66 unchanged; local reference adapter/test repaired,
+INITIAL_INPUTS and repair record added. Complete first failure survives.
+Live18=11 new plus7 retained physical fermion-map tests, not full suite.
+Native prepublication26PASS/four inheritedFAIL; no baseline waiver.
+Sender relay and explicit higher/end/real-vacuum duties registered.
+No shared bank number, recipient acceptance or goal completion.

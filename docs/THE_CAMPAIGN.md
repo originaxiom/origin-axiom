@@ -1,5 +1,18 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October13 actual neutral checkpoint:34 native/34 Fraction exact and18
+selected live tests PASS253.90s at unchanged pushed reseal919168eab,
+70 pins/tree unchanged. All13 neutral modes kept:12 connecting plusONE
+actual odd nonexact class. Remaining neutral/adjoint direct CHIRAL cubics
+zero; earlier actual cover QdcL NONZERO stands, not the old selective zero.
+Odd quadratic holomorphic flatness obstruction0, one higher odd slot
+retained; response/real vacuum not computed. Next flag representative
+test and generated parent/end/register map. Source choices/Higgs/extras/
+normalization/quantum/outside/full-suite/main remain owed. Objective derive
+three physical generations and broader SM/TOE unchanged/unachieved.
+Initial interruption UNKNOWN and reference hashing failure preserved.
+Report: [actual neutral audit](../reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/FINDINGS.md).
+
 Additional3 post-result exact outcome guards PASS25.11s at pushed
 bae31e188; original60 source pins unchanged. Original17-test run
 retained separately. Scope/parent/end/Higgs selection unchanged.
