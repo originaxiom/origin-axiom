@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-12",
+  "pre_design_head": "b745fe4f4229d7de5260c67a59bffb3450988759",
+  "scope": "Complete local zero-energy Q Cauchy plane per specified Fourier/coefficient channel; not a global core spectrum or input-free SM",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "choices": {
+    "parent": "same supplied compact twisted E8 parent",
+    "coefficient": "structure e5/gauge10 channel and opposite wall sign",
+    "metric": "a=ell*exp(-r/ell), ell>0, flat normalized L2",
+    "angular": "K=|xi|>0 or separately K=0; tangent rotated to X",
+    "physical_map": "existing Sodd(lambda,rho)=rho+lambda*vol; Seven(f,v)=-f+*v",
+    "empirical_constants": []
+  },
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/DESIGN.md",
+      "bytes": 4126,
+      "sha256": "9f026403744371efb90e4bc786d7a29ea3db10385ca0196a4bdc7ae3af30bf83",
+      "git_blob": "8e44cdc241513fcb3c916d5ae2f574f7aaa86ccb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/PROOF.md",
+      "bytes": 6979,
+      "sha256": "72d65948fc0e800a46d17a7f4f36f98bb3bbf53594075356f1de23df62a75976",
+      "git_blob": "bec14d7812bdc5146d232cd359452d19b641002f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/probe.py",
+      "bytes": 7154,
+      "sha256": "f809381a979e1968b5c505b811779d115915d8a09eae2cca650ef7e731304633",
+      "git_blob": "95e300fb4a217db9c0c6c965bd23c56da6ae5bf6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/reference.py",
+      "bytes": 5021,
+      "sha256": "7042b19ad7bf8ac4ad00a89c5fe9f2e62a0dddf547f2c1875a2c959d374265de",
+      "git_blob": "e35885fe5c242caf2b7baa05ecfafc342ce7f674"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/execute.py",
+      "bytes": 3902,
+      "sha256": "28e107820015a673f62e40553360d22a1dd10c6c84816707722cf0d9c0e027ff",
+      "git_blob": "0a44358065007ddbe38280de9b42439abdc4aa99"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_zero_cauchy.py",
+      "bytes": 5398,
+      "sha256": "4be858408bb80f43003fb40a03b1d6b47febe03a7a0139b92038a603a71ac5da",
+      "git_blob": "e21b836e81c92b89f56a091ea238a5ad0294f9b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/probe.py",
+      "bytes": 7602,
+      "sha256": "5607a4753908f1a61e7c1d89be0fa7af3742495c46f8f3404e5502c1cada9d49",
+      "git_blob": "085aea53906afdbecd1fa68bc64b211ad7d17bdc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/PROOF.md",
+      "bytes": 7062,
+      "sha256": "1f5df5fd3f53384163892c6e9fcf37f2ce197f2043340606a113958309a02593",
+      "git_blob": "695a8523a4b6c496f9658c37a3b57e69fe4c5e5e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "bytes": 10193,
+      "sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7",
+      "git_blob": "8c7059116f683828064daa06664ab271ce92e140"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/joining_handoff_replay_2026_10_12/results/gate3/END_MATRICES.json",
+      "bytes": 3005,
+      "sha256": "442276d645616ba991221942af65ed21cabcb5a1e7cccf4986602ee3727267b2",
+      "git_blob": "c62bcb963459b5d24bd0d205ed9a78b744314694"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b",
+      "git_blob": "e1e4b140bc27df46d9bc41bfdfebf8464b17fa2d"
+    }
+  ],
+  "grades": {
+    "exact": "symbolic identities and actual current/kernel controls",
+    "precision": "finite numerical residual <1e-38 at 50 digits; not intervals",
+    "finite_limit": "small-K projector test <1e-3 at stated values; not exact zero-angle identity",
+    "cross_method": "24-digit recorded projectors agree to1e-20; same author, not nonauthor review"
+  },
+  "open_obligations": [
+    "frequency-dependent matrix response",
+    "same-field core/normal/real gauge/superfield join",
+    "integral/torsion gauge-state census",
+    "derived field/action/domain/vacuum/end selection",
+    "three complete physical generations",
+    "normalized viable Higgs/Yukawa/masses/mixing/extras",
+    "quantum/boundary/global anomaly/inflow",
+    "gravity/register/observer/qualia",
+    "outside analytic/full-suite/main acceptance"
+  ]
+}
