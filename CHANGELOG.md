@@ -1,5 +1,27 @@
 # Changelog
 
+## S118 THREE ROUTES AGREE, AND THE OWNER'S CROSSING QUESTION: the SM seat's W61, main's B1642 and the audit lane's residue audit, each sealed independently, find that the fibre's zero modes give no flavour structure by themselves — the hierarchy needs a datum acting on the multiplicity M; every lane rowed to its head
+
+- **The convergence.**
+  - The SM seat's W61 (sealed before B1642): T ⊗ T couplings ±ε(F, F) = 0 with an untwisted Higgs; T̄ ⊗ T degenerate.
+  - Main's B1642: antisymmetric, masses (1, 1, 0), with a parity Higgs at the puncture.
+  - The audit lane's residue audit, sealed from B1642's public preregistration before its results: skew, rank ≤ 2,
+    1 : 1 : 0. It predicted main's error, and is credited.
+- **The owner's question,** "did we do any crossing to physics from our mathematical program's principles": answered from
+  the record, and rowed first in the field slot (P-104).
+  - Four sealed crossings, B915 (a 16σ miss), B925, B929 (shape hit, value miss) and B1027 (all miss), plus B1005; none
+    gave a derived number.
+  - Each identified an object's number with a physical one by fiat; none crossed through a field.
+  - Next: a census against the KIND_TABLE and the freedom ledger, then the first crossing through a field, with the
+    double ratio as its target.
+- **Seats.**
+  - The SM seat's W58–W61 and §67–§72 (1102–1107, 1109–1110): Barger's triplet is T, its generations not the record's;
+    the C0 reading; the one-loop potential (τ at ω, the cusp or flat; the 3-torsion line, the SM's Z₆ by another name);
+    W60's parity Higgs; W61's couplings.
+  - The audit lane's eight commits (1108, 1111–1113): the surface fermion dictionary, the residue audit, the cross-seat
+    replays (main's golden records reproduced exactly), and the W60 parent-map requirement.
+  - Points P-098 to P-108; §68 answered (T ⊗ T). One relay. Gates 45 of 45; full suite 7287 passed, 0 failed, 68 skipped (exit status 0).
+
 ## S117 THE ZERO MODES' RESIDUE AT THE PUNCTURE (B1642, NEGATIVE as sealed): the first coupling computed with no free coefficient — Y_pq = ε_pqr κ_r θ_r²/(2πη³) — but antisymmetric, masses (1, 1, 0); not the golden coupling; the SM seat's W56–W58 rowed
 
 **B1642 (sealed `55bd29ab7`, before the SM seat's W59).**

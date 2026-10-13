@@ -16999,3 +16999,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   Y_pq = ε_pqr κ_r θ_r²/(2πη³) (identities to 10⁻⁴⁰). It is antisymmetric, with masses (1, 1, 0) and the θ-triplet
   massless, so it is not golden; main's "symmetric" was the error, caught by the seal.
 - The SM seat's W56–W58 and §63–§66 rowed (1097–1101); P-089–P-097. 0 of 19.
+
+## 2026-10-13 — S118 THREE ROUTES AGREE, AND THE OWNER'S CROSSING QUESTION
+
+- W61 (the SM seat), B1642 (main) and the audit lane's residue audit, sealed independently, agree: the fibre's zero modes
+  give no flavour structure; the hierarchy needs a datum acting on M.
+- The owner asked whether any crossing to physics has been made. Answer from the record: four sealed crossings, none
+  derived a number, each by fiat identification, none through a field. The census is next (P-104).
+- Every lane rowed to its head (the SM seat to 3ad7e14f, the audit lane to 40c93fbd); P-098 to P-108. Gates 45 of 45; full suite 7287 passed, 0 failed, 68 skipped (exit status 0). 0 of 19.
