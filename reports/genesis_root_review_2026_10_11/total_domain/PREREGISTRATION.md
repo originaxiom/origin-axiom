@@ -1,0 +1,17 @@
+# From the puncture trace to a closed total operator
+
+October13, 2026. P0: quantify over every smooth, globally compatible fixed-rank puncture subbundle Lambda of the existing rank-six coefficient, on the already supplied semi-flat total elliptic family with ordinary extending spin and its specified global lifted transitions. No new metric, physical parent, field or end source is chosen. The result concerns selfadjoint realization and the puncture normal family, not a full cusp spectral gap or physical generation index.
+
+The predicted outcome is positive admission: the vertically graded trace remains elliptic at the section with horizontal derivatives included. A direct local model argument plus the complete-base cutoff argument should then give a unique closure after that trace law is fixed. The prior is NOT that selfadjointness selects Lambda, a spin extension or a nonzero cusp unit. The analytical proof is authored and requires independent specialist review; finite symbolic checks are safeguards, not a machine proof of the functional analysis.
+
+## Conventions
+
+Retain total_metric_dirac's skew-Hermitian Clifford matrices c1,c2 horizontal and c3,c4 vertical, with c_i^2=-1. In a normal polar spin/gauge frame, h is periodic because both the ordinary spin rotation and actual puncture coefficient have sign minus. Density is dr dtheta dY1 dY2 after radial unitarization. The normal angular integer is m, distinct from the earlier cusp-line unit n. Vertical grading is GammaV=i c3 c4 and total grading is -c1 c2 c3 c4. At a frozen base point, the Fourier convention is partial_Y -> i xi.
+
+The frozen operator is N(xi)=c3 partial_r+i m c4/r+i(xi1 c1+xi2 c2), on the normal half-cylinder, with critical trace plane P from GammaV plus times Lambda and GammaV minus times its Hermitian orthogonal complement. Each critical spinor carries BOTH horizontal spin components. No actual punctured-fibre a,b transports are replaced by commuting torus characters.
+
+PASS requires Clifford and actual peripheral-sign checks; full differential square for symbolic m and xi; Green isotropy, half dimension, total grading, horizontal-symbol invariance and nonzero-angle Calderon test for the prescribed projectors; an explicit nonelliptic selfadjoint trace control; radial and cutoff identities, and a changed incomplete metric rejecting a completeness shortcut. Test every rank0 through6 in coordinate and complex-rotated coefficient frames, with a symbolic rational parametrization of every unit covector except one direction, which is checked separately. The all-subspace quantifier is supplied by the projector proof, not this finite sample. Failure of any identity is retained and repaired only after resealing.
+
+The closure proof must keep the finite-distance section and infinite-distance modular cusp distinct, verify derivative control for ALL angular integers, retain locally bounded lower-order terms from the full metric operator, and prove zero deficiency spaces by actual bounded-gradient cutoffs. No compact-resolvent or Fredholm conclusion is accepted from selfadjointness. The physical same-field Hessian and sector-selection obligations remain separate.
+
+Seal and push sources before scientific imports or test collection. Execute into a new output directory, retain all failures and successes, and compare sealed hashes before and after. Publication is on the existing audit branch only. No shared B-number, main merge, empirical comparison, global no-go or goal completion is implied.
