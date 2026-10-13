@@ -1,0 +1,1 @@
+7bc898e95cad32e82c71f21433a0b08add9f7ea27a69b4598175f6ed8ce74559  verification/golden_from_ramanujan.py
