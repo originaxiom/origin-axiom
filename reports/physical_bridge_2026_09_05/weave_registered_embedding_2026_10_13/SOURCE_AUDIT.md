@@ -39,7 +39,7 @@ including B21/B530; the local normalization and anti-Poisson relation are
 already prior through R94/R95. A broad remote grep was interrupted after
 huge unrelated lines; an initial grep also named a nonexistent SM ref.
 Neither is evidence of absence. The actual SM head is
-origin/claude/standard-model-derivation-0qt6ao6877cc87d. The new question
+the SM seat at6877cc87d. The new question
 is a finite comparison of named maps, not a universal novelty claim.
 
 The prototype is self-contained; source pins include its complete

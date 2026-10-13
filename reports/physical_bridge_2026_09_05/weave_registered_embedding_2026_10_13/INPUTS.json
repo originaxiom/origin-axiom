@@ -14,7 +14,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/SOURCE_AUDIT.md",
-      "sha256": "8b43b882190665ac491868d7fb9891f81ade43845cdcdfa428f6546573fd892e"
+      "sha256": "482fa9141d0c7bf9a9e02f3c2126d777a737685ddccf1ba74a0b61453b67ff9f"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py",
@@ -71,6 +71,10 @@
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/NEXT_TEST.md",
       "sha256": "4a34cba414f3d649c62a8e9b969e10d6b98b9178790bd3c111361bf3f0388411"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/METADATA_RESEAL.md",
+      "sha256": "1ba3080edf20c50d51615fba94d29e4e03a2573ff07771f8ef966c1ccc5c847d"
     }
   ],
   "scope": "two supplied E8 embeddings and the actual rank-six puncture coefficient; no new physical parent, selected domain or generations"
