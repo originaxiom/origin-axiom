@@ -18570,3 +18570,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the charged leptons, and the data exclude the tie (χ² ≥ 106). Otherwise only new Higgs content splits them.
 - **So the missing ingredient is located:** the Higgs sector's flavour structure, a dictionary datum. Every cell held as
   predicted. Relay §61 sent.
+
+## 2026-10-13 — Reading: the seed and the field; relay §62
+
+- **The owner's framing, recorded at the owner's request:** existence as an interaction between a seed (the principle)
+  and a field, as in nature. Read against W49–W55: the seed fixes the form and is indifferent to the field's state; the
+  19 numbers are where the field enters. Nothing computed.
+- **Next:** a conceptual hunt for a field compatible with the seed by the same minimality, with the owner's earlier
+  papers offered as a source. Relay §62 sent.

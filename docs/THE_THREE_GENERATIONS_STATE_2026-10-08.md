@@ -310,6 +310,11 @@ Under the owner's rulings, the table's rows split into two groups:
     keeps three fitting structures, 23 to 29 parameters).
   - So what tells the sectors apart is the Higgs sector's flavour structure, a dictionary datum (GENESIS FK11) that
     neither the weave nor F-MC supplies. The count stays: all 19 of the 19 free, given Λ (18 if I-18 is earned).
+- **Reading: the seed and the field (READING; the owner's framing, 2026-10-13; the dossier's section of that name):**
+  existence as an interaction between a seed (the principle) and a field. The seed fixes the form (three, the triplet,
+  the coupling shapes) and is indifferent to the field's state (W51); the 19 numbers are where the field's state
+  enters (τ, the Higgs's value and couplings, W55). The next question: what is a field compatible with the seed, and
+  what does their interaction select (GENESIS FK9, perhaps FK12)?
 
 ## Questions open with main
 
@@ -328,4 +333,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W55 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§61).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§62).

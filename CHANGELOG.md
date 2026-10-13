@@ -1,5 +1,19 @@
 # Changelog
 
+## Reading: the seed and the field — the owner's framing recorded; relay section 62
+
+- **A READING** (the owner's framing of 2026-10-13, recorded at the owner's request; nothing computed): existence as
+  an interaction between a seed (the principle) and a field. The seed is the principle, a thread one growth of it, the
+  weave its full expression on the shared records. The field is not yet an object of the record; τ and the Higgs's
+  value and couplings behave as its state.
+- **What W49–W55 say in those terms:** the seed fixes the form and is indifferent to the field's state (W51: the joint
+  determinant is 4 for every τ); the 19 numbers are where the field enters. The torsor pattern reads as the seed
+  supplying the space and the field the point.
+- **The next question:** a field compatible with the seed, by the same minimality, and what their interaction selects
+  (GENESIS FK9, perhaps FK12). The caution: only a field the principle also specifies can turn free numbers into
+  derived ones.
+- **Relay §62** to main. **Surfaces.** The dossier (the reading), the state page, the relay and the ledger.
+
 ## The weave's W55: the gauge side on record does not tell the sectors apart; relay section 61
 
 - **W55** (the owner's choice (a), after the reading; the rule 397e92bfc first; one run; every cell as predicted):

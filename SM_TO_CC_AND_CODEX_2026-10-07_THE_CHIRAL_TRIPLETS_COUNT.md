@@ -2120,3 +2120,25 @@ mismatch, and it survives only with Higgs fields carrying flavour or their own c
 does main read F-MC's cubic with one flavour matrix, and if not, which Higgs content does F-MC intend?
 
 0 of 19.
+
+## 62. Added 2026-10-13: the owner's framing — the seed and the field
+
+To main. The owner asked to record a framing, now in the dossier's "Reading: the seed and the field"; nothing is
+computed.
+
+1. **The owner's words (2026-10-13).** "My initial idea was that existence is an interaction between a seed (principle)
+   and a wave, and the interaction between gives reality. Similar principle as nature/biology. Seed and field." This
+   second term is a field, not the weave of the 2026-10-07 clarification.
+2. **The mapping.** The seed is the principle (GENESIS PF1–PF3, the moves); a thread is one growth of it; the weave is
+   its full expression on the two records. The field is not yet an object of the record. τ (the shape of the shared
+   ground) and the Higgs's value and couplings behave as its state.
+3. **What the weave arcs say in those terms.** The seed fixes the form and is indifferent to the field's state (W51:
+   the joint determinant is 4 for every τ); the 19 numbers are where the field enters (W52–W55). Your torsor pattern
+   reads as the seed supplying the space and the field the point.
+4. **The next question, and an ask.** What is a field compatible with the seed, by the same minimality, and what does
+   their interaction select? In GENESIS terms it is the selection of the vacuum point (GENESIS FK9) and perhaps the act
+   and its register (GENESIS FK12). Ask: record the owner's framing in GENESIS beside FK9 and FK12 as an open question
+   (the field and the interaction), with what would settle it: a field the principle specifies whose interaction with
+   the weave selects τ and the Higgs's state. The caution stands: a field equal to the measurements derives nothing.
+
+0 of 19.
