@@ -120,6 +120,19 @@ selecting τ needs a stated functional, and potentials built from the threads se
   - No end condition is added. The overlaps' fork waits until D1 is read.
 - **Revisit when** D1 is recorded.
 
+## A ruling of 2026-10-13, after D1 (W59)
+
+- **The question.** W59 found τ at ω, at the cusp, or flat, by the content's sign. At ω, the Wilson line's fate depends
+  on the quark sector, the matter's local system ρ_Q, which was not yet computed with a line. The ruling above had
+  asked to revisit the overlaps' fork once D1 was recorded.
+- **The options the seat set out.**
+  - W60: the quark sector's dependence on the line, with no new postulate.
+  - The Higgs's boundary class at the puncture as a tagged end condition, and the couplings at ω on the colour-centre
+    line.
+  - A pause for a reading.
+- **The owner's choice: "W60: quark sector (Recommended)".** No end condition is added; the overlaps' fork waits for
+  W60.
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:
