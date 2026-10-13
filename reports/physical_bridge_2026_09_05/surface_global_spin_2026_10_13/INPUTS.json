@@ -1,0 +1,60 @@
+{
+  "scope": "geometric modular spin/canonical transitions plus separate local6 controls, not based global gauge coherence",
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/DESIGN.md",
+      "sha256": "524097117c21e940222d359413d8801a4540b4b8ef5301d83fbb8f694233d4fb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
+      "sha256": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/SOURCE_AUDIT.md",
+      "sha256": "3d3c943d822ae20b91067f02fbbe6c2e0f31c66855bf52848f3230a3d6192797"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/probe.py",
+      "sha256": "2ac953da059fe2aee335b35df1fd6c43a849839ab424da5dc7d493e23675f217"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/reference.py",
+      "sha256": "63b1346de9710b6286f75ee7a7322944f848e0c8ae08dec88fa82641df409bb8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/execute.py",
+      "sha256": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664"
+    },
+    {
+      "path": "tests/test_physical_bridge_surface_global_spin.py",
+      "sha256": "0ca78d0eac276040bdb27feaab08f1065c1437cbe7022ac56cfce29f0a2babff"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_metric.py",
+      "sha256": "2124797777869d47541e7d5cecec9726d5bdb92b61dae4f483b66762cd43c279"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md",
+      "sha256": "299e95d002398359ee3a3c8a1421f7acf256618284c0ad1e4b8a70dee3072b55"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/SCOPE_REVIEW.md",
+      "sha256": "1a4a619888e36d2d073b0dec9cc146c692a8a7197e4cc0646dff4387516c9f67"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/PROOF.md",
+      "sha256": "dccf9f2ca192d99578204544d2c150380f6d92eaf18fc7044a7bd50ca2d1a1f2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py",
+      "sha256": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py",
+      "sha256": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5"
+    }
+  ],
+  "main_snapshot": "55bd29ab7",
+  "SM_snapshot": "bcc1396b9",
+  "foundation_snapshot": "0c6570bab"
+}
