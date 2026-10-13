@@ -1,5 +1,12 @@
 # The error ledger (GOVERNANCE §13/§15; instituted 2026-07-16)
 
+October13 nil-flat preregistration procedural hazard (E45): input/seal
+metadata were prepared after a draft governance call yielded a live
+handle. Its raw output is retained as UNQUIESCENT, not a certificate;
+all files will be staged and governance rerun quiescent before the
+science seal. No new scientific import/run or model alteration occurred.
+Record: reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/PRESEAL_NOTES.md.
+
 October13 path-local neutral audit incident: original255024825 run
 native34 PASS/reference TypeError while serializing a cochain space.
 Separate dynamic imports instantiated incompatible quadratic-field K
