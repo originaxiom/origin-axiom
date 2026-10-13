@@ -18587,3 +18587,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   weight but predicts nothing (39 or 55 parameters, rank 13). In F-MC's E₆ cubic no Higgs in 27s splits the down quarks
   from the charged leptons, which corrects W55's scope remark. Relay §63 sent.
 
+## 2026-10-13 — Reading: the seed of minimality and the field of maximality; W57's rule; relay §64
+
+- **The owner's second framing, recorded at the owner's request:** the field as a sea of maximality beside the seed's
+  minimality. Read against W54 and W56: a maximal field is what the fits look like, but the data are structured, so
+  the seed fixes shapes and the field supplies the rest by a measure. Nothing computed.
+- **W57's rule is committed:** is the world a typical draw from the seed's own measure, against anarchy? Relay §64 sent.
+

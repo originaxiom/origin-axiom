@@ -1,0 +1,35 @@
+{
+ "sources": {
+  "masses": "Huang and Zhou, 'Precise values of running quark and lepton masses in the Standard Model', Phys. Rev. D 103, 016010 (2021), arXiv:2009.04851v2 (13 Jan 2021); the same PDF as HZ2021_running_masses_MZ.json (sha256 baeddc972002d60140ec54a8a2d378c51bc5e94ca8af9ac97c1164ff1621ceb6, rechecked 2026-10-13). Table 2 (quarks) and Table 3 (charged leptons), the row 'mu = 10^12 GeV, Full SM': the MS-bar running masses at mu = 10^12 GeV in the full Standard Model, defined there as m_f = y_f v_F / sqrt(2) with v_F = 246 GeV. Each uncertainty is the table's combined one. Used by W57 as the second scale (a robustness read-out); the CKM moduli are kept at their low-scale values (B1612_data.json), their running neglected."
+ },
+ "scale_GeV": 1000000000000.0,
+ "scheme": "MS-bar, full Standard Model, m_f = y_f v_F / sqrt(2), v_F = 246 GeV",
+ "as_printed": {
+  "Table 2, 10^12, Full SM": "mt / GeV 85.07 +- 0.89; mb / GeV 1.194 +- 0.015; mc / GeV 0.283 +- 0.009; ms / MeV 24.76 +- 2.17; md / MeV 1.24 +- 0.09; mu / MeV 0.56 +- 0.10",
+  "Table 3, 10^12, Full SM": "mtau / GeV 1.73194 +- 0.00466; mmu / GeV 0.101936 +- 0.000277; me / MeV 0.48388 +- 0.00139"
+ },
+ "masses_GeV": {
+  "value": {
+   "u": 0.00056,
+   "c": 0.283,
+   "t": 85.07,
+   "d": 0.00124,
+   "s": 0.02476,
+   "b": 1.194,
+   "e": 0.00048388,
+   "mu": 0.101936,
+   "tau": 1.73194
+  },
+  "sigma": {
+   "u": 0.0001,
+   "c": 0.009,
+   "t": 0.89,
+   "d": 9e-05,
+   "s": 0.00217,
+   "b": 0.015,
+   "e": 1.39e-06,
+   "mu": 0.000277,
+   "tau": 0.00466
+  }
+ }
+}

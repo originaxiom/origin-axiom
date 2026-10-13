@@ -324,6 +324,11 @@ Under the owner's rulings, the table's rows split into two groups:
   - In F-MC's E₆ cubic, no Higgs content in 27s tells the down quarks from the charged leptons: their spectra are equal
     exactly. This corrects W55's scope remark; only content beyond the 27 (a 351′) can split them.
   - The count stays: all 19 of the 19 free, given Λ (18 if I-18 is earned).
+- **Reading: the seed of minimality and the field of maximality (READING; the owner's framing, 2026-10-13):** the field
+  as a sea where anything the seed allows is present, the seed fixing shapes and exponents, the field supplying the
+  rest by the seed's own invariant measure. Then the interaction may select a measure, not a point, and "deriving the
+  19" can mean deriving their distribution. The test (W57, rule first): is the world a typical draw from the seed's
+  own measure, against anarchy?
 
 ## Questions open with main
 
@@ -342,4 +347,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W56 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§63).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§64).

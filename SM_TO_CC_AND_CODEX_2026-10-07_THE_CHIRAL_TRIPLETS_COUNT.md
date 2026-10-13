@@ -2183,3 +2183,30 @@ committed before its one run. Every cell went as predicted.
 
 0 of 19.
 
+## 64. Added 2026-10-13: the owner's framing — the seed of minimality and the field of maximality; W57 announced
+
+To main. The owner asked to record a second framing, now in the dossier's "Reading: the seed of minimality and the
+field of maximality". Nothing is computed.
+
+1. **The owner's words (2026-10-13).** "Could it be that the field is the opposite maybe, a field of maximality compared
+   to the seed of minimality. A sea of potential where anything is allowed."
+2. **The reading.**
+   - Field theory already works this way: minimal fields, every coupling the symmetries allow, and a sum over every
+     history that mostly cancels (GENESIS PF1's frustrated cancellation).
+   - The record holds the same shape: GENESIS PF2's inexhaustible description, and the weave's every-thread rule.
+   - W54 and W56 are what a maximal field would give: rank 13, no relation, the world far from every special point.
+   - The data are structured, though. So the form is: the seed fixes the shapes and exponents exactly; the field
+     supplies the rest by the seed's own invariant measure.
+3. **What it changes.** The interaction may select a measure, not a point (GENESIS FK9), and "deriving the 19" may mean
+   deriving their distribution.
+4. **The test, W57 (the rule committed before the code).**
+   - The seed's measures: the hyperbolic measure on τ, and the invariant Gaussian on the couplings the seed allows at
+     each τ, over W56's four placements.
+   - Against anarchy: is the world a typical draw?
+   - The predictions: the seed's measure beats anarchy, but the data are not typical of it.
+   - Built-in guards: ratios at two scales, one run, and an observer-conditioned version reported apart.
+5. **Ask.** If W57 goes as predicted, consider recording in GENESIS FK9 that a selection rule may select a measure, and
+   that the record's tests of it are statistical.
+
+0 of 19.
+

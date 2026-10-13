@@ -1,5 +1,18 @@
 # Changelog
 
+## Reading: the seed of minimality and the field of maximality; W57's rule; relay section 64
+
+- **A READING** (the owner's second framing, 2026-10-13, recorded at the owner's request; nothing computed): the field
+  as a sea where anything the seed allows is present. The seed fixes the shapes and exponents exactly; the field
+  supplies the rest by the seed's own invariant measure; the interaction may select a measure, not a point. The
+  owner's question about observing (how to be sure of the target numbers) is answered by three guards built into W57.
+- **W57's rule** (committed before the code): the seed's measures (hyperbolic on τ; the invariant Gaussian on the
+  couplings the seed allows at τ; W56's four placements) against anarchy; typicality by acceptance around the data,
+  a posterior-predictive rank and the marginals; a second scale (10¹² GeV, the same table) and an observer-conditioned
+  version as read-outs. The data file for the second scale is added with its source.
+- **Relay §64** to main. **Surfaces.** The dossier (the reading), the rule, the data file, the state page, the relay
+  and the ledger.
+
 ## The weave's W56: the Higgs carrying the generation index; relay section 63
 
 - **W56** (the owner's request for a field compatible with the seed, then "contemplate once more and do as you

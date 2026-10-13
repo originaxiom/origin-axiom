@@ -4039,6 +4039,65 @@ to be shared by every thread, as the two records are. A field attached to one th
 **Status.** COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result on the ruled branch, given Λ.
 0 of 19.
 
+## Reading: the seed of minimality and the field of maximality (READING; the owner's framing, 2026-10-13)
+
+Nothing here is computed. The owner asked to have it recorded and agreed that a typicality test should follow, rule
+first (W57).
+
+**The owner's words (2026-10-13).** "Could it be that the field is the opposite maybe, a field of maximality compared to
+the seed of minimality. A sea of potential where anything is allowed."
+
+**Where physics already works this way.**
+- **The sum over histories.** Quantum theory adds every possible history with a phase e^{iS}. Almost all of it cancels,
+  and what cannot cancel is the classical world. A maximal sea plus a cancellation that does not complete is close to
+  the principle's own wording (GENESIS PF1, "existence as a frustrated cancellation").
+- **Every coupling the symmetries allow.** The Standard Model has as few fields as possible but every coupling its
+  symmetries allow, each with any value. That is why the 13 flavour numbers are free. Minimal fields with maximal
+  couplings is the working rule of field theory. The seat's literature research (2026-10-13) found it stated as the
+  "most general renormalizable" potential and Weinberg's effective-field-theory reading.
+- **Anarchy** (Hall, Murayama and Weiner, 2000). Couplings are drawn from the most uninformative invariant measure. It
+  predicted large neutrino mixing, which was then found. It fails for the quarks, whose hierarchies are not typical of
+  it.
+
+**Where the record already holds it.**
+- **GENESIS PF2:** the remainder is "a description that cannot be exhausted".
+- **The weave rule** takes every thread the grammar allows, none hand-picked: two letters generate infinitely many
+  threads.
+- So the seed is minimal in its rules and maximal in what it allows. The owner's proposal carries the same maximality to
+  the field's states.
+
+**What W49–W56 say in these terms.**
+- **The fits use all the freedom there is.** The structures that fit have rank 13 and no flavour relation (W54). A Higgs
+  carrying the generation index brings eight couplings per sector (W56).
+- **The world sits far from every special point the seed offers** (Reading W49–W54, point 2): i, ω, the cusp, every
+  symmetric texture. A selected point would be special; a draw from a sea would look like this.
+- **But the data are not structureless.** They show hierarchies of 10⁻⁵, a d–e pattern like Georgi and Jarlskog's, and
+  |V_us| ≈ √(m_d/m_s).
+- **So the honest form is a division of labour.** The seed fixes the shapes and the exponents, exactly. The field
+  supplies the rest maximally, and that part is statistical.
+
+**What it changes.**
+- **The interaction may select a measure, not a point.** The fourth item of W56's standard ("picks τ and the Higgs
+  state") becomes "picks τ and the Higgs state, or a measure on them".
+- **"Deriving the 19" can mean deriving their distribution** and showing that the observed values are typical under it.
+- **Nothing need be added.** The seed supplies its own measures:
+  - the hyperbolic measure on τ's space, the only one its moves keep;
+  - at each τ, the unitarily invariant Gaussian on the couplings the seed allows there.
+
+**The caution.**
+- "Anything is allowed" predicts nothing unless the measure is the seed's own and the test is stated before it is run,
+  against a null without the seed's structure (anarchy). Otherwise it is the observer-selection move that the reviews
+  of the owner's 2025 notes warned against.
+- **The owner's further question (2026-10-13):** how can one be sure the observed values are the right target, if
+  observing affects what is observed? Three guards answer it, and the test builds them in:
+  - **Lawful dependence on the scale.** Compare dimensionless ratios at a stated scale, and repeat at a second scale.
+  - **The analyst's own bias.** The rule comes first and there is one run.
+  - **Observer selection.** Report a version conditioned on a world that can hold observers, labelled and separate. It
+    is never used to rescue the main test.
+
+**Weave or thread.** The measures are the weave's, invariant under its whole group, and the claim concerns every state
+at once. A test of it is weave-type.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
