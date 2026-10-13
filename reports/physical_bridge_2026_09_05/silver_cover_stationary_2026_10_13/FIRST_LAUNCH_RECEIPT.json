@@ -1,0 +1,7 @@
+{
+  "status": "STOPPED_NOT_PROGRAM_KILL",
+  "commands": [],
+  "scope": "local exact jets and graded controls; authored conditional compact continuation, not global PDE or generated full SM",
+  "error": "ModuleNotFoundError: No module named 'sympy'",
+  "files": []
+}
