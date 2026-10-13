@@ -92,6 +92,12 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 cusp spin extension accounting
+
+The [cusp spin comparison](cusp_spin_extension/FINDINGS.md) makes W45's up-to-the-cusp qualification explicit. The ordinary and logarithmic canonical extensions give spin weights separated by6. Multiplication by eta^12 relates this shift to W46's other lift sign, but also imposes a leading-coefficient zero for every cusp exponent at least1/2. The exact-sequence argument and191 exact safeguards with six tests verify the correction after a preserved and resealed symbolic-boolean counting failure. The old zero table survives at its original weights and conditions.
+
+This is an extension comparison, not a new physical completion. All components of the shifted formal W46 expression are kept; the minus-three in the local-six contribution is not a generation count. The intended family-domain task is carried forward with the spin extension now explicit. An ordinary/logarithmic line comparison does not certify the total-space operator at a nodal cusp or derive the parent, metric, domain or cusp unit from genesis.
+
 ### October 13 finite distance puncture completion
 
 The [puncture Fredholm result](puncture_fredholm/FINDINGS.md) completes the analytic obligation explicitly left by the physical branch's existing puncture packet. An authored application of the cone-domain theorem gives all graded selfadjoint domains and compact resolvent for the specified ordinary spin Dirac operator with a smooth finite-distance completion. Explicit kernel and cokernel maps justify index dim Lambda minus three; the extreme pairs are (0,3) and (3,0). All 45 exact safeguards and five tests pass on the first run after the seal was pushed, with source hashes unchanged.
