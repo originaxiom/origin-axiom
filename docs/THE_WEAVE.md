@@ -335,3 +335,15 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   F = Σ|θ_p/η|⁴, and on the principle's own closed geodesic (the tick's, through i) F = 8 and the masses are exactly
   1 : φ⁻¹ : φ⁻², on no other geodesic or coupling tested. Numerically the golden level set is the union of the
   discriminant-5 geodesics (a conjecture).
+
+## Main's addition: the golden identity, and why discriminant 5 (B1638, B1639, PROVED)
+
+- **The lowest coupling's golden spectrum is a theorem on every geodesic of discriminant 5.** On the axis of a
+  hyperbolic move, the conjugate of g_p = (θ_p/η)² is g_p at a determinant-(tr² − 4) image. So on the tick's axis
+  F = Σ|θ_p/η|⁴ equals Σ_p g_p(τ)·g_p(Nτ), with N = [[−1, −2], [2, −1]], and that sum is 8 at every τ: a degree-5 modular
+  identity, (𝔣𝔣′)⁴ + (𝔣₁𝔣₁′)⁴ + (𝔣₂𝔣₂′)⁴ = 8 in Weber's functions.
+- **It is Ramanujan's form of Jacobi's quintic modular equation** (Berndt III, ch. 19, Entry 13(xii)), through
+  g₃¹² = 2⁸/(λ(1−λ))², which gives H¹² = 8¹² and so H = 8. No other closed geodesic tested has such an identity (the
+  analogues for discriminants 12, 21, 32 and 96 vary).
+- So the masses' φ meets the tick's φ in one degree-5 relation. The converse (golden only there) stays a conjecture,
+  and the coupling alone is not a charged sector's matrix (the sum rule).

@@ -1,5 +1,31 @@
 # Changelog
 
+## S114 THE GOLDEN IDENTITY (B1638, B1639, PROVED): the weave's lowest coupling is golden on every geodesic of discriminant 5 because of a degree-5 modular identity, Σ_p (θ_p(τ)θ_p(Nτ)/(η(τ)η(Nτ)))² = 8 — Ramanujan's form of Jacobi's quintic modular equation; B1629's claim line corrected; the seats' four days rowed
+
+**B1638 (sealed `2401dab14`).**
+- On the axis of a hyperbolic M, conj(g_p(τ)) = g_p(N_M τ), with g_p = (θ_p/η)² and N_M = [[d−a, −2b], [2c, d−a]]. So F
+  there is H_M = Σ_p g_p(τ)g_p(N_M τ).
+- For the tick, H = 8 at 40 random τ to 3·10⁻⁴⁹.
+- The other matchings vary, and so do the analogues for discriminants 12, 12, 21, 32 and 96. The discriminant-5 controls
+  give 8.
+
+**B1639 (sealed `081a02663`).**
+- N = [[1, 4], [4, 17]]·diag(5, 1)·[[−5, −6], [6, 7]], with both outer factors in Γ(2).
+- g₃¹² = 2⁸/(λ(1−λ))² (to 10⁻⁴⁶).
+- (1 + ss′ + cc′)⁶ = 2¹⁰αβ(1−α)(1−β) (to 2·10⁻⁴⁹). With Ramanujan's Entry 13(xii) this gives H¹² = 8¹², so H = 8.
+- **THEOREM:** the golden spectrum 1 : φ⁻¹ : φ⁻² on every discriminant-5 geodesic, given the cited classical result.
+- One sealed sub-clause failed: principal-branch patterns jump across their cuts. The proof uses the analytic branches.
+
+**B1637 (sealed `3ef9c3f8f`; running).** Main's independent refit of the SM seat's W53, and its open question.
+
+**Corrections and seats.**
+- B1629's claim line now carries the audit lane's correction (124/165 at finite n) and the bounded-observable scope of
+  "not dynamical".
+- The SM seat's W53 and §58 are rowed (1084–1085). Its inputs were verified at the source (sha256 and both rows).
+- The audit lane's 101 commits and 34 relays are rowed at headline level, among them the conditional cover three. The
+  fork lane's 49 commits and genesis root review are rowed (1086–1087).
+- One relay to both seats. Gates 44 of 44; full suite 7270 passed, 0 failed, 68 skipped (exit status 0). 0 of 19.
+
 ## S113 THE COUPLINGS ON THE RULED BRANCH AND THE GOLDEN SPECTRUM ON THE TICK'S GEODESIC (B1635, NEGATIVE as sealed; B1636, PROVED): the SM seat's W50 §3 verified by main's own route with one sentence corrected; the weave's lowest symmetric coupling is the three theta constants off-diagonal, obeys m₁ = m₂ + m₃, and on the principle's own closed geodesic has the τ-independent masses 1 : φ⁻¹ : φ⁻²
 
 **B1635 (sealed `cf5f8dd08`).** Couplings in τ alone, built as polynomial maps in θ₂², θ₃², θ₄² modulo Jacobi's quadric

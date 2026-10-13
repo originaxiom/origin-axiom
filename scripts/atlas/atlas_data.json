@@ -11536,6 +11536,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1638": {
+   "slug": "the golden identity",
+   "motifs": [
+    "coupling",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1639": {
+   "slug": "the golden identity from ramanujans quintic",
+   "motifs": [
+    "coupling",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B672"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B163": {
    "slug": "kappa sweep resolved",
    "motifs": [

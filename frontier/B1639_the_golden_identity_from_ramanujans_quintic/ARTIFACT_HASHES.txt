@@ -1,1 +1,3 @@
+# sealed at 081a02663: 7bc898e95cad32e82c71f21433a0b08add9f7ea27a69b4598175f6ed8ce74559  verification/golden_from_ramanujan.py (unchanged after the seal)
 7bc898e95cad32e82c71f21433a0b08add9f7ea27a69b4598175f6ed8ce74559  verification/golden_from_ramanujan.py
+4f444877f9d38ca113a6b69c52d0d398fdbdfb4b7b6374e49ab46d40bab41cd3  verification/golden_from_ramanujan.json

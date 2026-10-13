@@ -1,0 +1,23 @@
+{
+ "id": "B1638",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1636",
+  "B1635"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the ruled branch; the weave's lowest symmetric coupling (B1636); given Lambda for the coupling's reading",
+  "object": "the holomorphic identity sum_p g_p(tau) g_p(N tau) = 8, N = [[-1,-2],[2,-1]]; F = sum|theta_p/eta|^4 on discriminant-5 geodesics",
+  "reach": "general",
+  "hypotheses": "none for the identity; the coupling's physical reading given Lambda; no data"
+ },
+ "claim_one_line": "THE GOLDEN IDENTITY (sealed; PROVED numerically): sum_p (theta_p(tau) theta_p(N tau)/(eta(tau) eta(N tau)))^2 = 8 at 40 random tau to 3e-49, with N = [[-1,-2],[2,-1]] (det 5); on the axis of any hyperbolic M, conj(g_p(tau)) = g_p(N_M tau) with N_M = [[d-a,-2b],[2c,d-a]], so F = sum|theta_p/eta|^4 = H_M there -- for the tick LR, F = 8 and the lowest coupling is golden; the other matchings and five other closed geodesics (discriminants 12, 12, 21, 32, 96) are not constant (spreads 1.6-17), the discriminant-5 controls are. In Weber's functions: (f f')^4 + (f1 f1')^4 + (f2 f2')^4 = 8. Proof: B1639. 0 of 19.",
+ "weave_or_thread": "weave"
+}

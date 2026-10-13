@@ -1,1 +1,3 @@
+# sealed at 2401dab14: 8e8b0133c85add5a573ebb7b995189677982d1eda074e8dbda4fb179e54c038b  verification/golden_identity.py (unchanged after the seal)
 8e8b0133c85add5a573ebb7b995189677982d1eda074e8dbda4fb179e54c038b  verification/golden_identity.py
+3c8129a89bde06c0a05302356fe11b482e5ad11f713ed2d7e13d271fa975f22f  verification/golden_identity.json

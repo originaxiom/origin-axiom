@@ -16964,3 +16964,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   1 : φ⁻¹ : φ⁻² exactly, nowhere else tested; golden ⟺ Σ|θ_p/η|⁴ = 8 ⟺ (numerically) discriminant 5.
 - Seats: the SM seat's W52, §57, W53 rule rowed (1081–1083); one relay. The owner asked for a self-contained paper for an
   outside reader. 0 of 19.
+
+## 2026-10-13 — S114 THE GOLDEN IDENTITY (B1638, B1639, PROVED)
+
+- B1638: H = Σ_p g_p(τ)g_p(Nτ) = 8 everywhere to 49 digits; it equals F on the tick's axis, which is why the lowest
+  coupling is golden there; no other closed geodesic tested has such an identity.
+- B1639: H = 8 is a theorem, given Ramanujan's form of Jacobi's quintic modular equation (Berndt III, Entry 13(xii)).
+- B1637 sealed and running (W53 checked independently). B1629's claim line corrected (the audit lane). Seats: the SM
+  seat's W53 and §58; the audit lane's 101 commits and 34 relays; the fork lane's 49 commits rowed. Gates 44 of 44; full suite 7270 passed, 0 failed, 68 skipped (exit status 0). 0 of 19.

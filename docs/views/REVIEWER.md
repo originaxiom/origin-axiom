@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1365** |
-| words of findings prose | **1,067,900** |
-| test lock files referenced | **801** |
-| arcs carrying an authored verdict | **1365** (100.0 %) |
+| research arcs with findings | **1367** |
+| words of findings prose | **1,069,230** |
+| test lock files referenced | **802** |
+| arcs carrying an authored verdict | **1367** (100.0 %) |
 | recorded closures | **818** (651 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 921 |
+| PROVED | 923 |
 | NEGATIVE | 342 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1636`** (1087 words, 1 locks)  
-THE GOLDEN SPECTRUM ON THE TICK'S GEODESIC (sealed; PROVED): on the principle's own closed geodesic (the axis of LR, through i) the weave's lowest symmetric coupling has the tau-independent masses 1 : phi^-1 : phi^-2 (66 points, 3e-15), and on no other closed geodesic or reflection line tested and for no other coupling tested (spreads 0.12-0.47); every off-diagonal coupling obeys m1 = m2 + m3 (a theorem); post seal: the coupling is the three theta constants placed off-diagonal (Y_jk proportional to theta_l^2), its spectrum a function of F = sum_p |theta_p/eta|^4 alone (Jacobi's theta2 theta3 theta4 = 2 eta^3), golden exactly at F = 8, and the level set F = 8 is, to 1e-9 on 84 of 88 sampled points (the rest at crossings), the union of the geodesics of discriminant 5 -- a conjecture until proved. 0 of 19.  
-`B1636_the_golden_spectrum_on_the_ticks_geodesic/FINDINGS.md`
+**PROVED — `B1639`** (812 words, 1 locks)  
+THE GOLDEN IDENTITY FROM RAMANUJAN'S QUINTIC (sealed; PROVED given the cited theorem): N = [[1,4],[4,17]] diag(5,1) [[-5,-6],[6,7]] with both outer factors in Gamma(2), so lambda(N tau) has degree 5 over lambda(tau); with g_3^12 = 2^8/(lambda(1-lambda))^2, g_2 = g_3 s, g_4 = g_3 c (checked to 1e-46) and Ramanujan's (alpha beta)^1/2 + ((1-alpha)(1-beta))^1/2 + 2(16 alpha beta(1-alpha)(1-beta))^1/6 = 1, continued analytically, H^12 = 8^12, so H = 8 by continuity -- THEOREM: on every geodesic of discriminant 5 (the tick's axis and its images) sum|theta_p/eta|^4 = 8 and the weave's lowest symmetric coupling has masses exactly 1 : phi^-1 : phi^-2. R3's second clause (a fixed principal-branch pattern) failed as sealed: principal branches jump; the proof uses the analytic continuations. 0 of 19.  
+`B1639_the_golden_identity_from_ramanujans_quintic/FINDINGS.md`
 
 **NEGATIVE — `B1635`** (1052 words, 1 locks)  
 THE COUPLINGS IN TAU ALONE ON THE RULED BRANCH (sealed; NEGATIVE as sealed): by main's own route (polynomials in theta squares mod Jacobi's quadric) the SM seat's W50 section 3 is verified -- dimensions by piece exactly (D 0,0,1,1,2,2; O+ 1,1,2,2,3,3; O- 0,1,1,2,2,3 for k = 1..11; = the formula), its mixing distance 0.670933, non-degenerate masses and non-permutation mixing at a generic tau, every coupling degenerate at omega -- but two sealed cells fail: a non-degeneracy threshold of 0.05 (four couplings at 0.028-0.046) and 'at i every single piece is degenerate', which is false: O+ at k = 1 (mod 4) is not, and the lowest coupling at i has masses (1, 1/phi, 1/phi^2) exactly; the first count: 2 + sum_s (2 d(k_s) - 1) free real numbers given the weights, 4 for two sectors at the lowest weights. 0 of 19.  

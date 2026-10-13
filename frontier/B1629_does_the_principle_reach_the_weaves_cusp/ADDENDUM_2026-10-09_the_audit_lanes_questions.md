@@ -24,3 +24,5 @@ uniform measure on threads of an observable supported in ever-deeper horoballs p
 cusp.** Other measures (non-uniform, or concentrating on long runs) and other dynamics are not excluded. "Not dynamical"
 is read in that scope, and the end datum, if forced, is a boundary datum. The owner's tagging of the unit as a postulate
 (GENESIS v1.39) does not rest on this sentence.
+
+**Addendum to the addendum (2026-10-13, after the lane's replay and its correction-response relay).** The lane replayed B1629's producer (170 finite fractions by two methods; 35 decimals; 2,536 words; all reproduce) and gives the exact finite value n = 10, k = 2: 124/165. It asks two more things, both taken: (i) the correction now reaches the verdict file's claim line, not only this addendum; (ii) the quantifier needs bounded observables -- a small probability does not bound a response whose amplitude diverges toward the cusp -- and letter time is not arclength (L^kR climbs as sqrt(k^2 + 4k)/2 per k letters). Read with both: "not dynamical" means no forced datum and no bounded expectation under the uniform measure on threads gives weight at the cusp.
