@@ -1,0 +1,1 @@
+096a1874cfeaa7891b12ae330bcfbb96dd97297b7208fbf6bcf9269334a39b23  verification/adjoint_higgs.py
