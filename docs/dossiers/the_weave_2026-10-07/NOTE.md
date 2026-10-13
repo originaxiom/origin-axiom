@@ -117,6 +117,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W61 (the owner's "W61: the couplings"; rule first; every cell as predicted): at that state the Yukawas vanish in
   the T ⊗ T reading (±ε(F, F) = 0) and are three equal masses with no mixing in the T̄ ⊗ T reading, the same for
   up, down and lepton. The state supplies the Higgs, not flavour: the multiplicity (W49) again.
+- Reading A1–W61 together (the owner's "pause and reflect"; nothing computed): the dynamics picks the most
+  symmetric state, and the most symmetric state has no flavour. Every closed-form sector's τ-dependence is universal
+  (one Eisenstein function), so τ cannot rest at a generic point. The one sector not known to be universal is the
+  matter's six-dimensional term, through the puncture's diffraction. That is W62's question.
 
 ## The setting
 
@@ -4741,6 +4745,71 @@ result on the ruled branch, given Λ, at τ = ω, with the content a dictionary 
 
 **Status.** COMPUTED (the rule first, the hand derivation disclosed; one run; every cell as predicted). A WEAVE result
 given Λ, at τ = ω on a half-period line, in both readings of the mass term. 0 of 19.
+
+## Reading A1–W61 together (READING; the owner asked to pause and reflect, 2026-10-13)
+
+Nothing here is computed. It reads the stretch from the owner's approved plan (A1, A2, A3, C0, D1) to W61, and names
+one lead. Weave-type throughout; given Λ (GENESIS FK11).
+
+1. **What the stretch established.**
+   - **The field's states are allowed, not forced (A1).** τ and the Wilson lines are states, and the moves fix
+     neither.
+   - **A target (A2).** The double ratio 10.58 ± 0.11.
+   - **An outside route (W58).** It reached the record's triplet T from the data side. Its generations are T's
+     eigenlines, not the record's alike three, and its significance was overstated.
+   - **Couplings as overlaps (C0).** They factorize as one fibre number times a tensor on M. A Higgs neutral under the
+     common point gives zero, and a Higgs carrying a parity has no normalizable mode.
+   - **The one-loop potential (W59).** Every sector with a closed form depends on τ only through log(y|η|⁴) or E(τ, 3),
+     so τ goes to ω, to the cusp, or nowhere.
+   - **The quark sector (W60).** The quarks resist the colour-centre line. The full potential puts the line on a
+     half-period, where the matter feels nothing and one parity copy of the Higgs becomes massless.
+   - **The couplings there (W61).** Zero in the T ⊗ T reading, three equal masses in the T̄ ⊗ T reading.
+2. **The pattern: the dynamics picks the most symmetric state, and the most symmetric state has no flavour.**
+   - Each selection lands on a symmetric point: τ at ω, the line on a half-period, the Higgs in one parity, one of
+     three.
+   - At such a point the weave's residual symmetry still acts on M, the generations' label, by the cube's rotations
+     (W49). So every coupling the state supplies is a scalar on M: zero or equal.
+   - The three generations are one zero mode carried three times (W49). Their masses can differ only through a datum
+     that breaks M's symmetry by a large amount, as the data's ratios of 10⁻² to 10⁻⁵ require.
+   - The Higgs's choice of one parity (S₃ to S₂) is a breaking, but at tree level it does not reach the couplings
+     (W61).
+3. **The universality behind τ.**
+   - The trivial sector, the three parities jointly and the abelian lines give multiples of one function: E(τ, s) at
+     s = 1 (log det) or s = 3 (six dimensions).
+   - In two dimensions the matter's sector does too: (y|η|⁴)^{−1/4}, through the genus-3 cover (the D1 reading).
+   - A sum of multiples of one function cannot hold τ at a generic point. It sits at ω or runs to the cusp.
+   - The one sector whose six-dimensional τ-dependence is not known to be universal is the matter's.
+     - Its periodic orbits give a multiple of E(τ, 3) again: odd windings have trace 0, and the rest add to −(31/1024)
+       times E, by hand.
+     - But the puncture's half flux adds diffractive orbits, which pass through the puncture. Their t-power differs
+       from the periodic orbits', so their sum over the lattice is a different function of τ.
+   - **So the owner's first question, what fixes τ, now has a precise form.** Does the puncture's diffraction make the
+     matter's six-dimensional τ-dependence non-universal? If it does, sectors of opposite sign can hold τ at a generic
+     point.
+4. **Why a generic τ matters for flavour.**
+   - Away from i and ω the weave's residual on T is only scalars (W50). Couplings in τ alone then break the parity
+     grading and give mixing that is not a permutation (W50, N5).
+   - The q-expansion also supplies a moderate small parameter: |q|^{1/4} is about 0.19 at Im τ ≈ 1.07, the regime of
+     W58's preprint and of the cusp's first step of hierarchy (W53, W57).
+   - So the symmetric selection kills flavour. A generic τ held by a non-universal term is the one door the computed
+     dynamics has not closed.
+5. **The d–e wall, after the stretch.** A1 named three exits:
+   - free coefficients (the Standard Model frame);
+   - Higgs content beyond the 27 (F-MC's frame);
+   - a state of the field on the fibre. W59 to W61 closed this exit at the symmetric states: a half-period line splits
+     nothing, and the colour-centre line is resisted.
+   - It stays open at generic states, which are the same states as point 4's.
+6. **What is chosen, what is selected, what is free.**
+   - **Chosen** (dictionary data, GENESIS FK11): the content and its signs, the reading of the mass term, the hand.
+   - **Selected, given a content:** τ at ω (or the cusp), a half-period line, one Higgs parity.
+   - **Free:** all 19 of the 19 numbers (18 if I-18 is earned). 0 of 19.
+7. **The proposed next arc (W62), rule first.**
+   - Compute the matter sector's six-dimensional τ-dependence along the imaginary axis and the boundary arc. The
+     lattice method of W60 generalises to rectangular τ = iy with a five-point stencil.
+   - Compare it with the universal E(τ, 3).
+   - Then ask whether a content with sectors of opposite sign holds τ at a generic point.
+   - If the term is universal, the computed dynamics has no generic τ, and the flavour wall holds for every state the
+     record can select. If it is not, the wall's one door opens.
 
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 

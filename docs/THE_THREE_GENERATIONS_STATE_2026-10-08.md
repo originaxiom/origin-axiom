@@ -396,6 +396,13 @@ Under the owner's rulings, the table's rows split into two groups:
   - In the T̄ ⊗ T reading the Yukawas are three equal masses with no mixing, the same for up, down and lepton.
   - The state supplies the Higgs, not flavour: the multiplicity (W49) again. The hierarchy needs a datum acting on M,
     and nothing computed so far selects one. 0 of 19.
+- **Reading A1–W61 together (READING; the owner asked to pause and reflect; nothing computed):**
+  - The dynamics picks the most symmetric state (τ at ω, a half-period line, one Higgs parity), and at such a state
+    every coupling is a scalar on M: zero or equal.
+  - Every closed-form sector's τ-dependence is one Eisenstein function, so τ cannot rest at a generic point.
+  - The one sector not known to be universal is the matter's six-dimensional term, through the puncture's diffractive
+    orbits. Whether it holds τ at a generic point, where the residual on T is only scalars (W50), is W62's question,
+    proposed to the owner. 0 of 19.
 
 ## Questions open with main
 
@@ -414,4 +421,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W61 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§72).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§73).

@@ -18650,3 +18650,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   massless Higgs either does not couple to the generations at all, or couples to all three equally, depending on how the
   mass term is read. Either way no hierarchy appears. The three generations stay alike unless something acts on them
   differently, and nothing computed so far does.
+
+## 2026-10-13 — a reading of A1–W61 together; relay §73
+
+- **The owner asked to pause and reflect.** The reading finds one pattern: each time the dynamics chooses, it picks the
+  most symmetric state, and at the most symmetric state the three generations stay exactly alike. So no hierarchy can
+  come from those states.
+- **One door stays open.** Every computed piece of the potential depends on the shape τ through one function, which
+  can only hold τ at a symmetric point. The quarks' own term, through the puncture, has not been shown to share that
+  function. If it does not, it could hold τ at a generic point, where the generations can differ. The seat proposes
+  computing it next (W62), rule first.

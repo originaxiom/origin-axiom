@@ -1,5 +1,17 @@
 # Changelog
 
+## The weave's reading of A1–W61 together; relay section 73
+
+- **A reading** (the owner's "pause and reflect"; nothing computed): the dynamics picks the most symmetric state (τ at
+  ω, a half-period line, one Higgs parity), and at such a state every coupling is a scalar on M, zero or equal.
+- **The universality behind τ:** every closed-form sector's τ-dependence is one Eisenstein function, so τ cannot rest
+  at a generic point. The one sector not known to be universal is the matter's six-dimensional term, through the
+  puncture's diffractive orbits.
+- **W62 proposed** to the owner, rule first: that term along the imaginary axis and the boundary arc, against E(τ, 3).
+  0 of 19.
+- **Relay §73** to main. **Surfaces.** The dossier (the reading and a header bullet), the state page, the relay and the
+  ledger.
+
 ## The weave's W61: the couplings at the selected state; relay section 72
 
 - **W61** (the owner's "W61: the couplings"; the rule 95c294b53 first, the hand derivation disclosed; the script

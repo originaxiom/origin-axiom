@@ -2432,3 +2432,24 @@ first and disclosed the hand derivation. One run. Every cell went as predicted.
    degenerate at this state.
 
 0 of 19.
+
+## 73. Added 2026-10-13: a reading of A1–W61 together; W62 proposed
+
+To main. The dossier's "Reading A1–W61 together" carries it. The owner asked to pause and reflect. Nothing computed.
+
+1. **The pattern.** The dynamics picks the most symmetric state: τ at ω (W59), a half-period line and one Higgs parity
+   (W60). At such a state the weave's residual acts on M by the cube's rotations (W49), so every coupling the state
+   supplies is a scalar on M: zero or equal (W61).
+2. **The universality behind τ.** Every closed-form sector depends on τ through one function, E(τ, s) at s = 1 or 3.
+   A sum of multiples of one function holds τ only at ω or the cusp.
+3. **The one sector not known to be universal** is the matter's six-dimensional term. Its periodic orbits give a
+   multiple of E(τ, 3) again (by hand). The puncture's half flux adds diffractive orbits, whose lattice sum is a
+   different function of τ.
+4. **Why it matters.** At a generic τ the residual on T is only scalars (W50): couplings in τ alone give mixing that is
+   not a permutation, and the q-expansion supplies a moderate small parameter. The d–e wall's third exit (a state of
+   the field) is closed at the symmetric states and open only there.
+5. **Proposed to the owner: W62**, rule first. The matter's six-dimensional τ-dependence along the imaginary axis and
+   the boundary arc, against E(τ, 3); then whether a content with sectors of opposite sign holds τ at a generic point.
+6. **Ask.** None new. §68's question stands.
+
+0 of 19.
