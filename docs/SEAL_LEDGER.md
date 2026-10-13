@@ -847,3 +847,15 @@ hypotheses. No physical dictionary, cusp-unit selection or new B allocation.
 | `reports/genesis_root_review_2026_10_11/puncture_symmetry/verify.py` | `7867a331a155ac88ef438a1fc9149e2dc975640da276031040ef4f781071f54f` |
 | `reports/genesis_root_review_2026_10_11/puncture_symmetry/SOURCE_SCOPE.md` | `1bd844a1034358db959459fef6d32129fddc1253ab27d10fddf775b3476eb306` |
 | `reports/genesis_root_review_2026_10_11/puncture_symmetry/LAW_MAP_PROPOSALS.md` | `6e1eac4c71dcab51da442ea5c096509a77d5e03321935c666b6763b0de6e133e` |
+
+## Matter line compatibility pre-execution seal 2026-10-11
+
+Conditional fixed-parent flavour pairing and local line-connection covariance.
+No new physical parent, domain theorem or selected flux. The new verifier
+has only been syntax-parsed; commit and push before scientific execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/matter_line_compatibility/PREREGISTRATION.md` | `19d804d58b0127947545fbe53426eda05f644b2800572235d595ff2b2047fd2c` |
+| `reports/genesis_root_review_2026_10_11/matter_line_compatibility/PROOF.md` | `c53b2ecc73191692c6f24448b0d46668776f4a4025b62993b13b06d8f325f39f` |
+| `reports/genesis_root_review_2026_10_11/matter_line_compatibility/verify.py` | `25b8d389f1fb627751e27818ad51bd46d1df361dc3851346908903759791f257` |
