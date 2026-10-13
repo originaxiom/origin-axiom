@@ -1,5 +1,15 @@
 # Origin Axiom
 
+October13 physical-operator checkpoint: the ordinary Weyl kinetic
+control contains the actual spin operator; the canonical Kähler twist
+adds a fixed geometric connection.141/120 exact checks and40 selected
+tests pass. All companions remain. A post-result correction explicitly
+withdraws global domain identity inferred from a local bounded shift.
+No physical family count or selected end law follows. Next: actual
+global bundles/domain and same-parent cusp reduction. Full SM/TOE
+remains active and unachieved.
+Report: [surface operator dictionary](reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/FINDINGS.md).
+
 October13 physical-bridge checkpoint: a verified E8 coefficient map now
 retains the puncture lift while carrying the local registered variational
 relation. This is a conditional mathematical join, not three derived

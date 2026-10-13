@@ -1,5 +1,39 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October13 surface operator sublemmas, path-local authored research grade.
+Source reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13,
+PROOF/FINDINGS/SCOPE_REVIEW;141/120 exact and40 selected live PASS.
+The foundation's metric/domain/vertical-gap and own retained embedding
+are credited antecedents, not new banked arcs. These provisional entries
+preserve the sublemmas pending outside review/normal banking; no new B/I.
+All tests below are in tests/test_physical_bridge_surface_parent_dictionary.py.
+
+1. The supplied ordinary8D Weyl kinetic control has internal Euler
+   block -gamma5 tensor D_spin, with complex Weyl rank8. PROOF ordinary
+   control; test_actual_eight_dimensional_weyl_operator_and_companions.
+   Limit: not a scalar/boundary/quantum completion or a generation count.
+2. The holomorphic coordinate Jacobian y gives canonical norm
+   4y^3/(ell^2 A), not the real period density power2. PROOF metric;
+   test_actual_holomorphic_metric_not_period_density. Limit: specified
+   total metric/complex structure, not selection of those inputs.
+3. Canonical forms have D_can=D_spin+3i c1/(4ell), with entire exterior
+   connection and mixed term retained. PROOF metric;
+   test_full_form_connection_and_nonzero_twist and
+   test_full_mixed_curvature_not_mass_by_dimension. Limit: zero-scalar
+   derivative block, not a condensate or full physical spectrum.
+4. The R shift is locally bounded, Hermitian and preserves every graded
+   critical coefficient plane. PROOF domain plus SCOPE_REVIEW;
+   test_domain_admission_is_not_unchanged_index. Limit: NO global
+   bundle/domain identity from the half-line alone; no index transport.
+5. A bounded common-domain shift can change a chiral index at an end
+   threshold. PROOF whole-line control and the preceding live test.
+   Limit: illustrative exact control, not the surface's computed index.
+6. A nonzero scalar on all248 is not an adjoint E8 gauge generator,
+   while proper charged sectors remain possible. PROOF final section;
+   test_R_line_and_gauge_generator_cannot_be_identified_globally.
+   Limit: actual cocharacter/companion charge map still required;
+   no E8/architecture or charged-sector exclusion.
+
 October 13 retained-register sublemmas, path-local authored research grade.
 Source: reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13,
 PROOF.md and FINDINGS.md; 70/44 exact guards and 46 selected live tests PASS.

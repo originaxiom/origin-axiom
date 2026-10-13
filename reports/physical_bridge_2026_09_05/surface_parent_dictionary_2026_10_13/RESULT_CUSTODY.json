@@ -1,0 +1,92 @@
+{
+  "scientific_seal_commit": "7416a63b484711d90be9c62e42f8801b31931587",
+  "source_pins": 15,
+  "source_mismatches": [
+
+  ],
+  "raw_captures": [
+    {
+      "path": "results/science/RECEIPT.json",
+      "bytes": 1396,
+      "sha256": "724a1f55a175add9a0b47ab40cb1014a1a620a7df13cd3e2fa88a1cf1ac85bd4"
+    },
+    {
+      "path": "results/science/probe.stdout.log",
+      "bytes": 7229,
+      "sha256": "fb9f19f22e59c9b85e3cb2c7c1cc5083c6fe815dd9e79b7aec3d0d33ca05411e"
+    },
+    {
+      "path": "results/science/probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/science/reference.stdout.log",
+      "bytes": 4958,
+      "sha256": "57184f805d75ede81471c319483df25bd5e7ad6d785b6cb529b955f4e22781f5"
+    },
+    {
+      "path": "results/science/reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/selected_tests/RECEIPT.json",
+      "bytes": 945,
+      "sha256": "d5838e12865f63053e687eab803db6fcbdfc555e5662aa6e9924b70138be68a2"
+    },
+    {
+      "path": "results/selected_tests/pytest.stdout.log",
+      "bytes": 100,
+      "sha256": "636f875c1ade65979d79549840eb5d9424af6dedf6e93728a7969d703635db67"
+    },
+    {
+      "path": "results/selected_tests/pytest.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/governance_first/gates.stdout.log",
+      "bytes": 2384,
+      "sha256": "a2ec8650b4ba213d4e68ffccfeb22f4d19a6367a0d92830024f8815f8fe29ccc"
+    },
+    {
+      "path": "results/governance_first/gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/governance_first/PROCESS_RECEIPT.json",
+      "bytes": 671,
+      "sha256": "40bf867f2eec73e8299b92ea16fcadf41f41132eb14104867572e021fb8faee1"
+    },
+    {
+      "path": "results/governance_first/SUMMARY.json",
+      "bytes": 2033,
+      "sha256": "abc51bcda034266b431113f7def1a6dc1ec3846fa9e93a1f861fc0007a0071fc"
+    },
+    {
+      "path": "results/governance_final/gates.stdout.log",
+      "bytes": 2384,
+      "sha256": "a2ec8650b4ba213d4e68ffccfeb22f4d19a6367a0d92830024f8815f8fe29ccc"
+    },
+    {
+      "path": "results/governance_final/gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/governance_final/PROCESS_RECEIPT.json",
+      "bytes": 687,
+      "sha256": "45f862e3dbff6049785bcfaf805b7d8e1de23e78bbe9a123cdb7c3d1de3e3595"
+    },
+    {
+      "path": "results/governance_final/SUMMARY.json",
+      "bytes": 2079,
+      "sha256": "e9f780338fe55f00d31feb6926949717256e082308f067e791f6392e3bc64753"
+    }
+  ],
+  "scope": "first scientific outputs and selected-test custody, not global analytic or full-suite certification",
+  "publication_source_pins_unchanged": true,
+  "governance_scope": "26 pass/four inherited fail; raw first/final stdout byte-identical, not full-suite certification"
+}

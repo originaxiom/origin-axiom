@@ -1,5 +1,22 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October13 physical surface-operator checkpoint:141 native/120 separate
+Fraction exact predicates and40 selected live tests PASS19.07s at
+unchanged pushed seal7416a63b4,15 pins/tree. Ordinary8D Weyl kinetic
+control contains the actual retained6/D_spin; canonical Kähler parent
+instead has the geometrically fixed R connection3i dx/(4y) and
+D_can=D_spin+3i c1/(4ell). All248 companions and mixed terms remain.
+OWN post-result scope correction: bounded LOCAL shift/trace compatibility
+does not identify global spin and Spin-c bundles/domains. Original proof
+and run preserved; see SCOPE_REVIEW. No index/family count, selected
+parent/end or full nonlinear/quantum theory follows. Foundation domain
+and vertical-gap positives credited, not a full horizontal reduction.
+NEXT actual global transitions/domain and same-parent cusp projection/
+coupling, then generated stationary multiplet/end law. Compact silver
+charged3/interactions remain distinct. Outside/full-suite/main and
+Higgs/extras/normalization/gravity duties persist; full SM/TOE ACTIVE.
+Report: reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/FINDINGS.md.
+
 October13 retained-register embedding checkpoint:70 native/44 separate
 Fraction predicates and46 selected live tests PASS13.32s. Exact actual
 rank6 quaternion/parity coefficient and L/R lifts embed through the

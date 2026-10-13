@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 15.290789999999106,
+  "tracked_files": 12351,
+  "tracked_before_after_equal": true,
+  "tree_fingerprint": "30a02000c4d555a8b7e98a533d125b184e7d7bb6631c0e651668e266e6a9e750",
+  "raw_files": [
+    {
+      "name": "gates.stdout.log",
+      "bytes": 2384,
+      "sha256": "a2ec8650b4ba213d4e68ffccfeb22f4d19a6367a0d92830024f8815f8fe29ccc"
+    },
+    {
+      "name": "gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "staged publication governance with first-capture records; not full suite"
+}

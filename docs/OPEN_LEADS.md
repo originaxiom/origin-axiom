@@ -1,5 +1,23 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-SURFACE-KINETIC-DICTIONARY: completed CONDITIONALLY for TWO supplied
+parents on the specified metric. Closing sentence: "The ordinary Weyl
+control contains D_spin; the canonical Kähler block has the full exterior
+connection D_spin+3i c1/(4ell), with all companions retained." First141/120
+exact and40 selected live tests PASS at7416a63b4,15 unchanged pins.
+Source: reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/FINDINGS.md.
+OWN global-domain implication corrected in SCOPE_REVIEW: local bounded
+trace compatibility does not supply global bundle/domain identification.
+No family count, selected parent or full interacting completion inferred.
+PB-SURFACE-GLOBAL-CUSP-PARENT: OPEN. Transport actual spin/Spin-c and
+coefficient transitions, admit the canonical problem on its own global
+bundle, then compute the SAME parent's P D P and complement coupling
+with the full mixed and R terms. Critical plane transition covariance,
+complete multiplet stationary/end equations, cocharacter companions and
+quantum consistency remain separate. Foundation domain/vertical gap and
+compact silver charged3/QdcL retained, not joined by a shared count.
+NEXT_TEST in the new packet; no architecture-wide chirality exclusion.
+
 PB-RETAINED-REGISTER-MAP: completed CONDITIONALLY for the TWO specified
 E8 embeddings and actual local rank6 coefficient. Literal unitary map
 retains the quaternion sign and move action, full248 trace/cubic gives
@@ -9,8 +27,10 @@ singular common-point kernel or a physical theory. Closing sentence:
 "The common coefficient embedding is earned; an equality of their
 kernels or domains is not." Source:
 reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/FINDINGS.md.
-PB-RETAINED-TOTAL-PHYSICAL-PARENT: OPEN. Exhibit ONE physical Weyl/gauge/
-scalar parent and operator/domain on the actual elliptic total space,
+PB-RETAINED-TOTAL-PHYSICAL-PARENT: OPEN, partially discharged by the new
+surface kinetic dictionary above. A supplied Weyl Hessian now has an
+actual local map, not a full stationary multiplet/global domain. Exhibit
+ONE physical Weyl/gauge/scalar parent and operator/domain on the total space,
 with spin/gauge/kinetic transitions, mixed connection term, complementary
 modes and both ends. Derive or price Lambda/unit/end/embedding selection;
 only then compare complete charged/conjugate kernels and interactions.

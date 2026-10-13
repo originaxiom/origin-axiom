@@ -1,0 +1,30 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 19.704368999999133,
+  "selected_tests": [
+    "tests/test_physical_bridge_surface_parent_dictionary.py",
+    "tests/test_physical_bridge_weave_registered_embedding.py",
+    "tests/test_physical_bridge_weave_four_dimensional_unit.py",
+    "tests/test_physical_bridge_weave_curved_action.py"
+  ],
+  "scope": "selected live regression, not full suite or global PDE certificate",
+  "tracked_files": 12333,
+  "tracked_before_after_equal": true,
+  "tree_fingerprint": "44fca50ba68b5b3a6a1e6611aee1fe8993b894f614e9e1b0063c812b3d3cd3ff",
+  "source_pins": 15,
+  "source_mismatches": [
+
+  ],
+  "raw_files": [
+    {
+      "name": "pytest.stdout.log",
+      "bytes": 100,
+      "sha256": "636f875c1ade65979d79549840eb5d9424af6dedf6e93728a7969d703635db67"
+    },
+    {
+      "name": "pytest.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

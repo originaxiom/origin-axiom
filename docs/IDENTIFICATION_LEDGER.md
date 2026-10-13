@@ -1,5 +1,20 @@
 # THE IDENTIFICATION LEDGER
 
+October13 surface operator maps, no shared I-number change. EARNED at
+local exact/conditional supplied-kinetic grade: actual8D Clifford/Weyl
+Euler block -> -gamma5 tensor D_spin; canonical Chern connection and
+full Fock/exterior symbols -> D_can=D_spin+3i c1/(4ell), retaining all248.
+PROOF/FINDINGS in surface_parent_dictionary_2026_10_13;141/120 exact
+predicates and40 selected live PASS at7416a63b4. Global bundle/domain
+identity from a local bounded difference is NOT earned: SCOPE_REVIEW
+explicitly withdraws that implication beside the unchanged sealed proof.
+Actual transition/domain and same-parent cusp projection remain owed.
+R-line -> scalar E8 adjoint generator is REFUTED on the full248, not on
+a proper charged sector. Geometric1/8 -> integral flux/physical unit is
+NOT identified. No map selects this parent, Lambda, end law, three
+families, observer or qualia. Shared9 baseline and I-23 unchanged;
+outside analytic/full-suite/main acceptance and full SM/TOE remain owed.
+
 October 11 actual charged-overlap map, no shared I-number change:
 acyclic charged physical H1 -> primitive with ACTUAL admitted boundary
 trace -> integrated SAME parent cubic by Stokes/cyclic descent.

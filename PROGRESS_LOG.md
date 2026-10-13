@@ -19238,3 +19238,35 @@ Earlier compact charged/interaction positives stand. Four inherited
 governance failures and outside/full-suite/main remain owed. Full SM/TOE
 ACTIVE and unachieved. Report:
 reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/FINDINGS.md.
+
+## 2026-10-13 surface Weyl and canonical twist dictionary
+
+October13 physical surface-operator checkpoint:141 native/120 separate
+Fraction exact predicates and40 selected live tests PASS19.07s at
+unchanged pushed seal7416a63b4,15 pins/tree. Ordinary8D Weyl kinetic
+control contains the actual retained6/D_spin; canonical Kähler parent
+instead has the geometrically fixed R connection3i dx/(4y) and
+D_can=D_spin+3i c1/(4ell). All248 companions and mixed terms remain.
+OWN post-result scope correction: bounded LOCAL shift/trace compatibility
+does not identify global spin and Spin-c bundles/domains. Original proof
+and run preserved; see SCOPE_REVIEW. No index/family count, selected
+parent/end or full nonlinear/quantum theory follows. Foundation domain
+and vertical-gap positives credited, not a full horizontal reduction.
+NEXT actual global transitions/domain and same-parent cusp projection/
+coupling, then generated stationary multiplet/end law. Compact silver
+charged3/interactions remain distinct. Outside/full-suite/main and
+Higgs/extras/normalization/gravity duties persist; full SM/TOE ACTIVE.
+Report: reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/FINDINGS.md.
+First science141/120 and40=8 new plus32 retained selected tests; no
+source repair. Native includes ONE credited343-check upstream replay.
+Science times4.815684/3.116432s; selected capture19.704369s,12,333
+tracked files unchanged. Analytic global-domain overreach found after
+the finite tests is explicitly withdrawn beside the unchanged proof.
+This does not alter local equations or count as outside acceptance.
+Sender relay OPEN; no shared banking allocation or goal completion.
+
+Surface dictionary first staged governance26 PASS/four inherited FAIL
+categories, exit1 in16.089062s: six old attribution paths, two vacuous
+tests, five seal-provenance paths,42 stale relay debts;142 OPEN and
+review506 overdue. No new packet path flagged; no baseline/waiver changes.
+Full scientific/test/raw custody retained separately from failed gates.
