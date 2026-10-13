@@ -1,0 +1,80 @@
+{
+  "checks": {
+    "unitary full spin lift": true,
+    "actual Clifford transition 0": true,
+    "actual Clifford transition 1": true,
+    "actual Clifford transition 2": true,
+    "actual Clifford transition 3": true,
+    "whole ordinary differential covariance": true,
+    "whole canonical differential covariance": true,
+    "wrong R phase fails canonical covariance": true,
+    "whole Fock spin generator": true,
+    "canonical exterior coefficient weights": true,
+    "spin central loop is not erased": true,
+    "R central loop is minus one": true,
+    "canonical central loop cancels": true,
+    "geometric minusI spin square": true,
+    "geometric minusI canonical square": true,
+    "T geometric transition trivial": true,
+    "omitted vertical rotation not a spin transition": true,
+    "S full coordinate coframe rotation": true,
+    "canonical frame determinant 01": true,
+    "canonical frame determinant 02": true,
+    "canonical frame determinant 03": true,
+    "canonical frame determinant 12": true,
+    "canonical frame determinant 13": true,
+    "canonical frame determinant 23": true,
+    "actual Chern connection gauge law": true,
+    "nonflat R line still retained": true,
+    "actual coefficient S square": true,
+    "actual coefficient fourth power": true,
+    "coefficient modular central relation": true,
+    "inverse coefficient convention keeps fourth power": true,
+    "ordinary full local6 loop is not cancelled": true,
+    "canonical full local6 loop cancels": true,
+    "fibre puncture centre retained": true,
+    "whole E8 companions retained": true,
+    "whole adjoint central action not scalar": true
+  },
+  "records": {
+    "spin_weights": [
+      [
+        3,
+        2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        -3,
+        2
+      ]
+    ],
+    "canonical_weights": [
+      0,
+      -2,
+      -1,
+      -3
+    ],
+    "geometric_loop_signs": [
+      -1,
+      -1,
+      1
+    ],
+    "coefficient_S_powers": [
+      -1,
+      1
+    ],
+    "full_E8_central_parities": [
+      136,
+      112
+    ]
+  },
+  "all_passed": true,
+  "scope": "geometric global transitions and separate local6 centre controls; not based coherence or physical index"
+}

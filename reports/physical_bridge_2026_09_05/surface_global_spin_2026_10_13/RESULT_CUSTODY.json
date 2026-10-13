@@ -1,0 +1,85 @@
+{
+  "raw_captures": [
+    {
+      "path": "results/science/RECEIPT.json",
+      "sha256": "28f9447b20f8e8880d9b28a82e338350215b0796bc741538be96f48497cea81b",
+      "bytes": 5178
+    },
+    {
+      "path": "results/science/probe.stdout.log",
+      "sha256": "85c804996360829334f32d36f619d47f30d7ec3e790ea5f581978c303cd58bc7",
+      "bytes": 2238
+    },
+    {
+      "path": "results/science/probe.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/science/reference.stdout.log",
+      "sha256": "6c7135cf9f8da3db77e23eb019408204968d4d080454bc99385bbb9b9b54f1a8",
+      "bytes": 2122
+    },
+    {
+      "path": "results/science/reference.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/selected_tests/RECEIPT.json",
+      "sha256": "105ad36aa94b4391c06f207b7f4192d7ae81dc1780dadcf6946ae68c708a6cb6",
+      "bytes": 903
+    },
+    {
+      "path": "results/selected_tests/pytest.stdout.log",
+      "sha256": "ec62006ce44712f11f47de0d96b211ff3da085473984eba6aaf4a93dec3911b0",
+      "bytes": 111
+    },
+    {
+      "path": "results/selected_tests/pytest.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/governance_first/gates.stdout.log",
+      "bytes": 2384,
+      "sha256": "4df5cd57ef011cef13228bb421ffb73c66e416b80bdde0ed931031cac62ba7fd"
+    },
+    {
+      "path": "results/governance_first/gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/governance_first/PROCESS_RECEIPT.json",
+      "bytes": 593,
+      "sha256": "5bf58826d4346721a268ff80a7cf0b4a08258fd116e7e73fde332bfbf64c3467"
+    },
+    {
+      "path": "results/governance_first/SUMMARY.json",
+      "bytes": 1988,
+      "sha256": "f632d7488900573ff5f4f99051df0af664257fd031f5969151662cf2492a34c2"
+    },
+    {
+      "path": "results/governance_final/gates.stdout.log",
+      "bytes": 2384,
+      "sha256": "4df5cd57ef011cef13228bb421ffb73c66e416b80bdde0ed931031cac62ba7fd"
+    },
+    {
+      "path": "results/governance_final/gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/governance_final/PROCESS_RECEIPT.json",
+      "bytes": 598,
+      "sha256": "b33adf59d12e78638bb62ce4ef296265d519b8ce3e8f68be99e32acd4b950859"
+    },
+    {
+      "path": "results/governance_final/SUMMARY.json",
+      "bytes": 2028,
+      "sha256": "98f48b70092c2ce649c2814ebfa8f2cae101eb89cc176c2b216380bc8f37e2ce"
+    }
+  ],
+  "scope": "first scientific output custody, not complete physics or full-suite certificate"
+}

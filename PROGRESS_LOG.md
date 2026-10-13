@@ -19270,3 +19270,41 @@ categories, exit1 in16.089062s: six old attribution paths, two vacuous
 tests, five seal-provenance paths,42 stale relay debts;142 OPEN and
 review506 overdue. No new packet path flagged; no baseline/waiver changes.
 Full scientific/test/raw custody retained separately from failed gates.
+
+## 2026-10-13 geometric spin descent and raw residue scope
+
+October13 global geometric-spin checkpoint:35 native/32 separate exact
+controls PASS at861454234; whole operator/Chern transition and canonical
+central cancellation earned, with actual local6/full248 retained.
+Full based coefficient/puncture coherence and physical parent/domain
+remain OPEN; geometric coordinate identity is not a based-loop identity.
+Scoped residue audit atb50727678 passes8/16 exact controls: literal B1642
+raw tensor is skew, rank<=2, nonzero raw spectrum1:1:0, not the symmetric
+golden matrix. Entrywise residue positives and physical Higgs/vertex
+routes remain; a triangle-sign change is not a basis rephasing.
+Shared18 live tests PASS119.80s,21 source pins and12,372 tracked files
+unchanged. NEXT coupled based spin/gauge/transport relations, same-parent
+global domain/complement estimate and physical puncture/Higgs vertex.
+No plane/flux/parent chosen to get three; compact silver positives
+remain distinct. Outside/full-suite/main acceptance, normalized SM,
+Higgs/extras/anomaly/gravity duties persist; full SM/TOE ACTIVE/unachieved.
+Reports: reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/FINDINGS.md
+and reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/FINDINGS.md.
+First science35/32 in75.345015/0.652187s and8/16 in2.824136/0.228441s.
+No scientific failures or post-run source repairs; the residue helper
+name was corrected in static review BEFORE its seal/import. A seal-
+metadata patch initially used a relative destination and failed before
+any file change; the absolute destination then received generated hashes.
+Shared tests18=6 new global+4 new residue+8 retained parent; capture
+123.010208s, fingerprint99344d301422976a0b59cc45faff4f44567414a98a60c692e53873dd7ae97a7b.
+Main B1641 result now received with its explicit Gate12 limit; B1642
+received as preregistration, SM W59 read but not replayed and W60 pending.
+Sender relay OPEN; no shared B/I, recipient acceptance or goal completion.
+
+Global-spin/residue first staged governance26 PASS/four inherited FAIL,
+exit1,93.161014s,12,391 tracked files unchanged. Six old attribution
+paths/two vacuous tests/five seal-provenance paths/42 stale relays;
+143 OPEN,review509 overdue. No new source failure or baseline waiver.
+Approval-service usage error earlier prevented staging, not execution
+or a safety refusal; subsequent authorized staging succeeded. Both
+scientific seals remain already pushed; publication custody preserved.

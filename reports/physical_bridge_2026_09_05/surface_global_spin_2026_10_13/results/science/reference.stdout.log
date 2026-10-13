@@ -1,0 +1,77 @@
+{
+  "checks": {
+    "Fock spin generator charges": true,
+    "canonical exterior charges": true,
+    "rotation 0 exact unit circle": true,
+    "rotation 0 full ordinary covariance": true,
+    "rotation 0 full canonical covariance": true,
+    "rotation 0 wrong R phase rejected": true,
+    "rotation 1 exact unit circle": true,
+    "rotation 1 full ordinary covariance": true,
+    "rotation 1 full canonical covariance": true,
+    "rotation 1 wrong R phase rejected": true,
+    "rotation 2 exact unit circle": true,
+    "rotation 2 full ordinary covariance": true,
+    "rotation 2 full canonical covariance": true,
+    "rotation 2 wrong R phase rejected": true,
+    "rotation 3 exact unit circle": true,
+    "rotation 3 full ordinary covariance": true,
+    "rotation 3 full canonical covariance": true,
+    "rotation 3 wrong R phase rejected": true,
+    "rotation 4 exact unit circle": true,
+    "rotation 4 full ordinary covariance": true,
+    "rotation 4 full canonical covariance": true,
+    "rotation 5 exact unit circle": true,
+    "rotation 5 full ordinary covariance": true,
+    "rotation 5 full canonical covariance": true,
+    "ordinary loop all half integral charges": true,
+    "R half charge keeps its sign": true,
+    "canonical loop all integral charges": true,
+    "coefficient S square from unnormalized exact lifts": true,
+    "coefficient fourth power is plus identity": true,
+    "puncture quaternion sign not lost": true,
+    "all adjoint companions counted": true,
+    "adjoint coefficient centre is not scalar": true
+  },
+  "records": {
+    "spin_weights": [
+      [
+        3,
+        2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        -3,
+        2
+      ]
+    ],
+    "canonical_weights": [
+      0,
+      -2,
+      -1,
+      -3
+    ],
+    "geometric_loop_signs": [
+      -1,
+      -1,
+      1
+    ],
+    "coefficient_S_powers": [
+      -1,
+      1
+    ],
+    "full_E8_central_parities": [
+      136,
+      112
+    ]
+  },
+  "all_passed": true,
+  "scope": "independent finite exact Fock/rotation safeguards, not global based or PDE certificate"
+}

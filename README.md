@@ -1,5 +1,14 @@
 # Origin Axiom
 
+October13: full geometric spin/twist transitions now have an explicit
+operator map,35/32 exact controls. The canonical geometric sign cancels;
+the full based physical bundle/domain remains to be joined. An exact
+8/16 residue audit distinguishes the raw skew tensor from a symmetric
+golden mass matrix, preserving the entrywise residue ingredients.
+All18 selected tests pass; not a three-generation physical index or
+an architecture-wide Higgs exclusion. Full SM/TOE remains unachieved.
+Report: [global transitions](reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/FINDINGS.md).
+
 October13 physical-operator checkpoint: the ordinary Weyl kinetic
 control contains the actual spin operator; the canonical Kähler twist
 adds a fixed geometric connection.141/120 exact checks and40 selected

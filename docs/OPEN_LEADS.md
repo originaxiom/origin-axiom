@@ -1,5 +1,28 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-SURFACE-GEOMETRIC-TRANSITIONS: completed CONDITIONALLY for the
+specified full modular coordinate action. Closing sentence: "The
+ordinary spin and canonical R factors have explicit full-operator
+transition maps; their canonical product cancels the geometric sign."
+35/32 first exact controls and18 joint live PASS; sources unchanged.
+Source: reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/FINDINGS.md.
+PB-SURFACE-BASED-PHYSICAL-LIFT: OPEN. Couple actual spin, coefficient,
+fibre/puncture transport and R/reality data on ALL legal based
+relations, not merely a geometric S4 or one Delta4. Then admit the
+same-parent global domain and complementary TOTAL block. No index,
+physical parent or three-family selection inferred; NEXT_TEST records it.
+PB-PUNCTURE-PHYSICAL-VERTEX: OPEN, sharpened by exact residue audit.
+Literal B1642 raw Y is skew and has rank<=2; golden R4 identification
+is not earned. Preserve nonzero individual residue entries and derive
+the actual gauge/Higgs/fermion contraction and kinetic normalization.
+Source: reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/FINDINGS.md.
+PB-PHYSICAL-MEASURE-PRIOR: OPEN for a derived physical measure/action.
+W57's chosen distribution is not uniquely forced by modular invariance:
+bounded positive invariant densities yield alternatives. This is a
+premise scoping, not a statistical refit or field-of-maximality kill.
+Source: the new sender relay's explicit formula; full-parent dynamics
+and state selection must be admitted before such a physical inference.
+
 PB-SURFACE-KINETIC-DICTIONARY: completed CONDITIONALLY for TWO supplied
 parents on the specified metric. Closing sentence: "The ordinary Weyl
 control contains D_spin; the canonical Kähler block has the full exterior

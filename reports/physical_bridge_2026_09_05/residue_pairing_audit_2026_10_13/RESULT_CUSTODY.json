@@ -1,0 +1,30 @@
+{
+  "raw_captures": [
+    {
+      "path": "results/science/RECEIPT.json",
+      "sha256": "94e54fba2f3e54df604c7c0eac64052f5619565c0b478b732fad018781d475de",
+      "bytes": 3961
+    },
+    {
+      "path": "results/science/probe.stdout.log",
+      "sha256": "947afa524de4cf05daf5794c97cc6a3af733f35155f1d214f42e87be69fdf49d",
+      "bytes": 698
+    },
+    {
+      "path": "results/science/probe.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/science/reference.stdout.log",
+      "sha256": "b2d905a0a305c42291767cb9c1a6b3f879fa3196f6058b95cce4dae736a19a42",
+      "bytes": 1017
+    },
+    {
+      "path": "results/science/reference.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "scope": "first scientific output custody, not complete physics or full-suite certificate"
+}

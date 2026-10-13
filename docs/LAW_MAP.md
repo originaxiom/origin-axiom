@@ -1,5 +1,35 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October13 geometric-spin and residue sublemmas, path-local research
+grade, not numbered shared banking. Sources: PROOF/FINDINGS in
+surface_global_spin_2026_10_13 and residue_pairing_audit_2026_10_13
+under reports/physical_bridge_2026_09_05.35/32+8/16 exact and18 live
+PASS; outside/normal banking owed. Main B1641/B1642 are antecedent
+source context, not the new proof or an assigned B-number.
+
+1. The actual canonical frame has automorphy j^-3 and geometric
+   Spin-c coefficient weights0,-2,-1,-3. Global PROOF coframe/spin;
+   tests/test_physical_bridge_surface_global_spin.py::test_actual_coordinate_and_canonical_frame_map
+   and test_central_loop_signs_and_actual_coefficient. Limit: geometric
+   coordinate action, not full based physical gauge coherence.
+2. Both full surface fermion expressions transform with the actual
+   derivative and mixed terms; the R connection has its nonflat Chern
+   gauge law. Global PROOF connection;
+   test_full_variable_angle_operator_not_principal_only and
+   test_connection_descent_does_not_flatten_R_line. Limit: no ordinary/
+   canonical global domain identity or transported total index.
+3. Linear residue of the stated commuting-profile skew bilinear is
+   skew in family labels and has rank<=2. Residue PROOF;
+   tests/test_physical_bridge_residue_pairing_audit.py::test_actual_raw_matrix_and_opposing_tensor
+   and test_quaternion_pairing_sign_is_not_erased. Limit: literal B1642
+   Y_of, not a physical puncture-Higgs or architecture-wide no-go.
+4. Generic complex skew3 has squared-singular polynomial
+   lambda(lambda-m)^2, while symmetric opposing det=2abc. Residue PROOF;
+   test_whole_complex_spectrum_not_a_sample_fit and
+   test_separate_gaussian_records_agree. Limit: raw coordinate singular
+   values; nonsingular kinetic changes preserve rank, not necessarily
+   their equality. Additional physical vertex map remains owed.
+
 October13 surface operator sublemmas, path-local authored research grade.
 Source reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13,
 PROOF/FINDINGS/SCOPE_REVIEW;141/120 exact and40 selected live PASS.

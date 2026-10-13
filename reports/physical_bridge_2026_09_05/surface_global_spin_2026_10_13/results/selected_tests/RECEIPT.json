@@ -1,0 +1,29 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 123.01020799999242,
+  "selected_tests": [
+    "tests/test_physical_bridge_surface_global_spin.py",
+    "tests/test_physical_bridge_residue_pairing_audit.py",
+    "tests/test_physical_bridge_surface_parent_dictionary.py"
+  ],
+  "tracked_files": 12372,
+  "tracked_before_after_equal": true,
+  "tree_fingerprint": "99344d301422976a0b59cc45faff4f44567414a98a60c692e53873dd7ae97a7b",
+  "source_pins": 21,
+  "source_mismatches": [
+
+  ],
+  "raw_files": [
+    {
+      "name": "pytest.stdout.log",
+      "bytes": 111,
+      "sha256": "ec62006ce44712f11f47de0d96b211ff3da085473984eba6aaf4a93dec3911b0"
+    },
+    {
+      "name": "pytest.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "selected live geometric/bilinear/parent regression, not full suite or global physical spectrum"
+}

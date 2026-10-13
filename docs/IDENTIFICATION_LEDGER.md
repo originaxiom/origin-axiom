@@ -1,5 +1,17 @@
 # THE IDENTIFICATION LEDGER
 
+October13 global geometric maps and raw residue audit, no new shared
+I-number/baseline change. EARNED at supplied geometric exact grade:
+actual coframe/Chern/spin -> whole ordinary/canonical operator covariance,
+with canonical central cancellation. This is NOT a faithful full based
+gauge/physical-domain map. Literal B1642 Res(Fp^T epsilon Fq) -> symmetric
+golden mass matrix is REFUTED for the raw tensor by skewness/rank, not
+for every physical Higgs vertex. PROOF/FINDINGS/live controls in
+surface_global_spin_2026_10_13 and residue_pairing_audit_2026_10_13;
+35/32+8/16 exact and18 live PASS. Local6/total cohomology triplet and
+their domains remain distinct. Generated parent/unit/plane/physical
+families, observer/qualia, I-23 and full SM/TOE not identified.
+
 October13 surface operator maps, no shared I-number change. EARNED at
 local exact/conditional supplied-kinetic grade: actual8D Clifford/Weyl
 Euler block -> -gamma5 tensor D_spin; canonical Chern connection and

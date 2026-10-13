@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "actual quaternion epsilon skew": true,
+    "actual bilinear residue skew in every slot": true,
+    "actual residue determinant zero polynomial": true,
+    "whole complex Hermitian outer product": true,
+    "generic squared singular polynomial": true,
+    "symmetric opposing tensor genuinely different": true,
+    "no golden all-nonzero spectrum for raw tensor": true,
+    "raw entry residues need not vanish": true
+  },
+  "all_passed": true,
+  "records": {
+    "raw_rank_upper_bound": 2,
+    "raw_normalized_singular_values": [
+      1,
+      1,
+      0
+    ],
+    "symmetric_control_determinant": 12
+  },
+  "scope": "literal B1642 raw pairing; no physical route exclusion"
+}

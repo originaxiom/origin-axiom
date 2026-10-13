@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "actual coefficient transpose 00": true,
+    "actual coefficient transpose 01": true,
+    "actual coefficient transpose 02": true,
+    "actual coefficient transpose 10": true,
+    "actual coefficient transpose 11": true,
+    "actual coefficient transpose 12": true,
+    "actual coefficient transpose 20": true,
+    "actual coefficient transpose 21": true,
+    "actual coefficient transpose 22": true,
+    "skew determinant control 0": true,
+    "exact Hermitian spectrum identity 0": true,
+    "skew determinant control 1": true,
+    "exact Hermitian spectrum identity 1": true,
+    "skew determinant control 2": true,
+    "exact Hermitian spectrum identity 2": true,
+    "symmetric opposing determinant twelve": true
+  },
+  "all_passed": true,
+  "records": {
+    "raw_rank_upper_bound": 2,
+    "raw_normalized_singular_values": [
+      1,
+      1,
+      0
+    ],
+    "symmetric_control_determinant": 12
+  },
+  "scope": "finite Gaussian safeguards, no contour or physical vertex reconstruction"
+}

@@ -1,5 +1,23 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October13 global geometric-spin checkpoint:35 native/32 separate exact
+controls PASS at861454234; whole operator/Chern transition and canonical
+central cancellation earned, with actual local6/full248 retained.
+Full based coefficient/puncture coherence and physical parent/domain
+remain OPEN; geometric coordinate identity is not a based-loop identity.
+Scoped residue audit atb50727678 passes8/16 exact controls: literal B1642
+raw tensor is skew, rank<=2, nonzero raw spectrum1:1:0, not the symmetric
+golden matrix. Entrywise residue positives and physical Higgs/vertex
+routes remain; a triangle-sign change is not a basis rephasing.
+Shared18 live tests PASS119.80s,21 source pins and12,372 tracked files
+unchanged. NEXT coupled based spin/gauge/transport relations, same-parent
+global domain/complement estimate and physical puncture/Higgs vertex.
+No plane/flux/parent chosen to get three; compact silver positives
+remain distinct. Outside/full-suite/main acceptance, normalized SM,
+Higgs/extras/anomaly/gravity duties persist; full SM/TOE ACTIVE/unachieved.
+Reports: reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/FINDINGS.md
+and reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/FINDINGS.md.
+
 October13 physical surface-operator checkpoint:141 native/120 separate
 Fraction exact predicates and40 selected live tests PASS19.07s at
 unchanged pushed seal7416a63b4,15 pins/tree. Ordinary8D Weyl kinetic

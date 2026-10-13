@@ -1,0 +1,65 @@
+{
+  "seal_commit": "b50727678ff14920556f67d11fc724caebdfbfca",
+  "sources_before": {
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/DESIGN.md": "d147ffe074775a92d6888c9f6214edda7103c5382285208dbf45fdf4b8b8878e",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/PROOF.md": "c8b5ec3d19074c36c22256615a7203566dae32b005607fbeac7e10f400ef839b",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/probe.py": "b77786e27dbe012a0f90f80df6bff780b0216b3cb6c9c171ded9f30911ece2b7",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/reference.py": "ca28f14a280d4d19772f84980eced17de86e7abee3f147732911b48046e54244",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/execute.py": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/upstream_residue_coupling.py": "97705d5793af2a278506685ddb6e9f78f2aceb12cfe619e2afc3b7e900051763",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/upstream_PREREGISTRATION.md": "8074401a7b3d681e8c81e5ac130d94068ad0b44247847e6c5d70fd7e77946211",
+    "tests/test_physical_bridge_residue_pairing_audit.py": "1b99d8611fbf7b1f77cf1a4a0a7ccaa8c16399100eaa378e3134603c1a466a2c",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5"
+  },
+  "matches_seal": true,
+  "runs": [
+    {
+      "label": "probe",
+      "exit_code": 0,
+      "elapsed_seconds": 2.824135938004474,
+      "stdout": {
+        "file": "probe.stdout.log",
+        "bytes": 698,
+        "sha256": "947afa524de4cf05daf5794c97cc6a3af733f35155f1d214f42e87be69fdf49d"
+      },
+      "stderr": {
+        "file": "probe.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "label": "reference",
+      "exit_code": 0,
+      "elapsed_seconds": 0.22844058100599796,
+      "stdout": {
+        "file": "reference.stdout.log",
+        "bytes": 1017,
+        "sha256": "b2d905a0a305c42291767cb9c1a6b3f879fa3196f6058b95cce4dae736a19a42"
+      },
+      "stderr": {
+        "file": "reference.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "sources_after": {
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/DESIGN.md": "d147ffe074775a92d6888c9f6214edda7103c5382285208dbf45fdf4b8b8878e",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/PROOF.md": "c8b5ec3d19074c36c22256615a7203566dae32b005607fbeac7e10f400ef839b",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/probe.py": "b77786e27dbe012a0f90f80df6bff780b0216b3cb6c9c171ded9f30911ece2b7",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/reference.py": "ca28f14a280d4d19772f84980eced17de86e7abee3f147732911b48046e54244",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/execute.py": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/upstream_residue_coupling.py": "97705d5793af2a278506685ddb6e9f78f2aceb12cfe619e2afc3b7e900051763",
+    "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/upstream_PREREGISTRATION.md": "8074401a7b3d681e8c81e5ac130d94068ad0b44247847e6c5d70fd7e77946211",
+    "tests/test_physical_bridge_residue_pairing_audit.py": "1b99d8611fbf7b1f77cf1a4a0a7ccaa8c16399100eaa378e3134603c1a466a2c",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5"
+  },
+  "sources_unchanged": true,
+  "passed": true,
+  "records_agree": true,
+  "predicate_counts": [
+    8,
+    16
+  ]
+}

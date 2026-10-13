@@ -1,0 +1,20 @@
+{
+  "exit_code": 1,
+  "elapsed_seconds": 93.16101400001207,
+  "tracked_before_after_equal": true,
+  "tracked_files": 12391,
+  "tree_fingerprint": "d6313b83d47b6440293d9f10afba69ca4d265994859021fc66c6826c21efb439",
+  "raw_files": [
+    {
+      "name": "gates.stdout.log",
+      "sha256": "4df5cd57ef011cef13228bb421ffb73c66e416b80bdde0ed931031cac62ba7fd",
+      "bytes": 2384
+    },
+    {
+      "name": "gates.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "scope": "staged publication snapshot; not full suite"
+}
