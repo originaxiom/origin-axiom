@@ -1,0 +1,59 @@
+{
+  "checks": {
+    "actual L word inverse": true,
+    "actual R word inverse": true,
+    "S word not guessed from homology": true,
+    "S fourth is actual inner puncture word": true,
+    "S fourth not based identity": true,
+    "actual second modular word relation": true,
+    "main Delta convention retained": true,
+    "coefficient covariance L a": true,
+    "coefficient covariance R a": true,
+    "coefficient covariance L b": true,
+    "coefficient covariance R b": true,
+    "actual inner coefficient retains minus centre": true,
+    "coefficient fourth power differs from inner transport": true,
+    "ordinary sign matches rank6 on this relation": true,
+    "canonical sign misses rank6 on this relation": true,
+    "full actual root roster equals complete branching": true,
+    "both adjoint centre parities retained": true,
+    "complete branching gives same parities": true,
+    "full puncture involution is not scalar": true,
+    "matrix loop control can match both parities": true,
+    "ordinary matches odd only": true,
+    "canonical matches even only": true,
+    "no common scalar solves both parities": true,
+    "quaternion half period (1, 0)": true,
+    "quaternion half period (0, 1)": true,
+    "quaternion half period (1, 1)": true,
+    "one fibre trivial Higgs parity (1, 0)": true,
+    "one fibre trivial Higgs parity (0, 1)": true,
+    "one fibre trivial Higgs parity (1, 1)": true,
+    "third period is not a quaternion sign twist": true
+  },
+  "records": {
+    "S_word": {
+      "a": "b",
+      "b": "BAb"
+    },
+    "S4_inner_word": "BabA",
+    "Delta4_inner_word": "aBAb",
+    "coefficient_S4": 1,
+    "fibre_inner_sign": -1,
+    "full_E8_central_parities": [
+      136,
+      112
+    ],
+    "conditional_spin_residual_ranks": [
+      544,
+      448
+    ],
+    "half_period_Higgs_trivial_counts": [
+      1,
+      1,
+      1
+    ]
+  },
+  "all_passed": true,
+  "scope": "one conditional factorized transition relation and fibre parity positives; no physical global closure"
+}

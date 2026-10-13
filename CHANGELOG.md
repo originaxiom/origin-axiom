@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-13 one based prerequisite with complete companions
+
+At pushed pre-run67b2d5e77,30 native/24 separate exact checks and20
+selected live tests PASS65.09s;11 source pins and12,446 tracked files
+unchanged. S4 is actual Inner(BabA), not based identity. Ordinary spin
+matches rank6 under a declared prescription; no common scalar matches
+both full248 parities. Actual pointed-spin/path map is NOT established,
+so no physical bundle/architecture no-go. W60 half-period Higgs-parity
+cancellation reproduced algebraically as a fibre positive, not a total
+massless Higgs or certified potential minimum. NEXT actual complete
+transitions/own domain, total QDQ estimate and same-parent Higgs vertex.
+Report: reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/FINDINGS.md.
+
 ## 2026-10-13 preserve source fixed cross seat replay evidence
 
 Cross-seat intake capsule preserves31 byte-faithful scripts/raw records

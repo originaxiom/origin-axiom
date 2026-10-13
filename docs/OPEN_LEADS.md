@@ -1,5 +1,18 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-SURFACE-BASED-PREREQUISITE: one CONDITIONAL relation verified at
+67b2d5e77: S4=Inner(BabA), actual coefficient covariance; ordinary
+geometric sign matches rank6 under the declared identity-inner-geometric
+prescription. Full248 has136 even/112 odd and cannot use one common
+scalar fix. This is NOT a physical global-bundle obstruction: actual
+pointed spin transport and all relations remain PB-SURFACE-BASED-PHYSICAL-LIFT.
+30/24 exact and20 selected live PASS,11 pins/tree unchanged.
+PB-HIGGS-FIBRE-TO-TOTAL: OPEN. W60's half-period parity cancellation
+verified algebraically; one copy becomes fibre-trivial. Earn its SAME
+parent's horizontal mode, global norm, physical vertex and stationary
+response. No full physical Higgs or numerical minimum adopted.
+Both: reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/FINDINGS.md.
+
 PB-SURFACE-GEOMETRIC-TRANSITIONS: completed CONDITIONALLY for the
 specified full modular coordinate action. Closing sentence: "The
 ordinary spin and canonical R factors have explicit full-operator

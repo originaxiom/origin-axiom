@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October13 based prerequisite:30/24 exact and20 selected live PASS at
+67b2d5e77. One factorized ordinary-spin relation matches rank6; the
+full248 needs more than one common scalar. This is a conditional test,
+NOT the actual pointed-spin map or an E8/architecture obstruction.
+W60 Higgs parity cancellation verified as a FIBRE-mode opportunity;
+total mode/norm/vertex and sampled minimum certification remain distinct.
+NEXT actual complete pointed transitions, own global domain and QDQ
+estimate. Report: reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/FINDINGS.md.
+
 October13 custody supplement:31 earlier intake scripts/raw records are
 preserved in reports/physical_bridge_2026_09_05/cross_seat_replays_2026_10_13.
 Post-result archival timing and Python patch-version limitation disclosed;

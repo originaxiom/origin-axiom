@@ -1,0 +1,30 @@
+{
+  "scope": "original failed publication governance and pre-repair metadata",
+  "files": [
+    {
+      "path": "gates.stdout.log",
+      "bytes": 2505,
+      "sha256": "a8867a9d21104332ff8e168db59208b3acea7d921060032d36a6c3d8c45b9937"
+    },
+    {
+      "path": "gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROCESS_RECEIPT.json",
+      "bytes": 675,
+      "sha256": "f45473ce161ef8ee1ded70d9fe168a1474677283fad836c853e1a80960b76115"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 1877,
+      "sha256": "90becc1036c931ad1e98c45c5c5c5b75876d35658210f091d7e5ba24c969c98f"
+    },
+    {
+      "path": "ORIGINAL_INPUTS.json",
+      "bytes": 2539,
+      "sha256": "d98c56d3fdab97fb76f75b074dcd19f9988980ab6101b92f03ccbefa7f6350c8"
+    }
+  ]
+}

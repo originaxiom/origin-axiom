@@ -1,0 +1,45 @@
+{
+  "scope": "byte-faithful first scientific and selected-test outputs; no full-suite certificate",
+  "files": [
+    {
+      "path": "results/science/probe.stdout.log",
+      "bytes": 2004,
+      "sha256": "1728eab1ae096289914abe47c88765edb48879bf9714cf3def0fd966261622a7"
+    },
+    {
+      "path": "results/science/probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/science/reference.stdout.log",
+      "bytes": 1566,
+      "sha256": "50d078c1dbdcb3c36dd954465e5b0869b9906dd547fcec6443fefc752c38d571"
+    },
+    {
+      "path": "results/science/reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/science/RECEIPT.json",
+      "bytes": 4575,
+      "sha256": "1e6a4761f7ce0d5ced964b9e85e9d87d16b85b6d3867dc2400a752a74542af94"
+    },
+    {
+      "path": "results/selected_tests/tests.stdout.log",
+      "bytes": 110,
+      "sha256": "030f6b574d34d86cb5a0eda5b625b2f7d1369a50adc3f463a91e2e91c457c162"
+    },
+    {
+      "path": "results/selected_tests/tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/selected_tests/RECEIPT.json",
+      "bytes": 975,
+      "sha256": "581d03ce8e1bc26626da12763f3c9d6f315c05ecda06542172f3266782590293"
+    }
+  ]
+}

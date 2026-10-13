@@ -1,5 +1,27 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October13 based-transition prerequisite sublemmas, path-local research
+grade at67b2d5e77, not shared numbered banking. Source PROOF/FINDINGS in
+reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13;
+30/24 exact and20 selected live PASS. R79 and the retained embedding/
+geometric transition packets are antecedents. Outside acceptance owed.
+Locks below: tests/test_physical_bridge_based_transition_prerequisite.py.
+
+1. Actual based S4=Inner(BabA), (ST)3=S2; literal six-component lifts
+   intertwine the fibre substitutions. PROOF words;
+   test_based_words_not_homology_only and test_exact_square_root_free_normalization.
+   Limit: one stated convention/relation, not full pointed spin geometry.
+2. Under the declared factorized prescription one scalar cannot match
+   both136 even/112 odd full-adjoint puncture components. PROOF full
+   adjoint; test_rank_six_match_is_not_whole_adjoint_match and
+   test_accepting_and_rejecting_scalars_and_matrix_control. Limit: not
+   an E8/physical-bundle/architecture no-go without the actual path map.
+3. Quaternion matter intertwines all three half-period sign twists;
+   at its matching half-period a charge-three Higgs cancels exactly one
+   of three parity copies. PROOF W60 qualification;
+   test_half_period_positive_retains_which_copy. Limit: fibre coefficient
+   algebra, not total physical Higgs, normalized overlap or certified vacuum.
+
 October13 geometric-spin and residue sublemmas, path-local research
 grade, not numbered shared banking. Sources: PROOF/FINDINGS in
 surface_global_spin_2026_10_13 and residue_pairing_audit_2026_10_13

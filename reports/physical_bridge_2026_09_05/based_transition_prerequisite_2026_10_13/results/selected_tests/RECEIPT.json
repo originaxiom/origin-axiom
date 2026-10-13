@@ -1,0 +1,33 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 66.65041899998323,
+  "command": [
+    "python3",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_based_transition_prerequisite.py",
+    "tests/test_physical_bridge_surface_global_spin.py",
+    "tests/test_physical_bridge_surface_parent_dictionary.py"
+  ],
+  "tracked_files": 12446,
+  "tree_before": "900203385f5524aba05f84b5501395aa4d48618f4b3a5db5cfc02b8c6ea157bb",
+  "tree_after": "900203385f5524aba05f84b5501395aa4d48618f4b3a5db5cfc02b8c6ea157bb",
+  "tree_unchanged": true,
+  "raw_files": [
+    {
+      "name": "tests.stdout.log",
+      "bytes": 110,
+      "sha256": "030f6b574d34d86cb5a0eda5b625b2f7d1369a50adc3f463a91e2e91c457c162"
+    },
+    {
+      "name": "tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "20 selected live tests expected; not a full-repository suite"
+}
