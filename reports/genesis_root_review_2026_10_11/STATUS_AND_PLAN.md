@@ -92,6 +92,12 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 total selfadjoint realization
+
+The [total domain construction](total_domain/FINDINGS.md) supplies an authored selfadjoint realization for the existing full metric operator once a compatible graded puncture law is fixed. Its full section normal family is invertible at nonzero horizontal covectors, and a local graph/perturbation argument plus complete-base cutoffs removes a further selfadjoint extension choice at cusp infinity. All355 exact safeguards and six tests pass on the first run after pushed seal2bf25de9f, with all ten pinned sources unchanged. Specialist analytic review remains owed.
+
+This does not select Lambda or imply a Fredholm chiral block. The next spectral task is the actual cusp behavior and controlled harmonic projection together with the complement, not another closed-domain existence argument or flat-link calculation. The same-field physical parent and generated end/sector law remain independent duties. No physical mode count or unit is promoted by this result.
+
 ### October 13 total metric spin operator
 
 The [total metric calculation](total_metric_dirac/FINDINGS.md) derives the full ordinary spin Dirac differential expression for the physical branch's supplied elliptic-family metric. A mixed spin-connection term survives the radial unitary transformation; it is fixed geometry, not a new field or sector. Independent coordinate and frame reconstructions, with the full untwisted and line-twisted squared-operator identities, pass343 exact checks and six tests on the first run after pushed seal41d87b89d. This supplies the differential expression for the domain comparison, not a completed physical operator.
