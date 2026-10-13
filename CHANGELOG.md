@@ -1,5 +1,17 @@
 # Changelog
 
+## Reading: couplings as overlaps on the shared fibre (C0); relay section 68
+
+- **A READING** (C0 of the approved plan; nothing computed by a script; two points proved by hand):
+  - with T = ℓ ⊗ M (W49), an overlap on the fibre is one number times a tensor on M;
+  - in the T ⊗ T reading, a Higgs neutral under the common point gives zero (ε(ℓ, ℓ) = 0), so the Higgs must carry a
+    parity: W56's requirement, now forced;
+  - no normalizable massless mode carries a parity, since H¹(F₂; χ_p) is one boundary class.
+- **So:** W59 needs the owner's fork: the Higgs's boundary class as a tagged end condition, a Higgs from outside the
+  fibre, or D1 first. 0 of 19.
+- **Relay §68** to main (ask: T ⊗ T or T̄ ⊗ T as the mass term). **Surfaces.** The dossier (the reading, the header),
+  the state page, the relay and the ledger.
+
 ## The weave's W58: the level-four preprint checked — the record's T, not the record's three; relay section 67
 
 - **W58** (A3 of the approved plan; the rule c5f343d14 first, with the transcribed claims, the PDF's sha256 and what

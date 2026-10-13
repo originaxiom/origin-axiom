@@ -18614,3 +18614,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   but puts the generations on a different basis from the record's three. Its numbers are right as arithmetic. Its
   claimed significance is not: the coefficients come from a family that covers almost any number, and its sharpest
   agreement depends on fixing ε at 14/75 by hand. It is not a derivation; it gives the next arc two numbers to aim at.
+
+## 2026-10-13 — Reading: couplings as overlaps on the shared fibre; relay §68
+
+- **The design reading for "couplings as overlaps" found a wall before any code.** The three generations share one
+  wavefunction on the fibre, so overlaps cannot tell them apart by themselves. In the record's reading of the mass
+  term, a Higgs that does not carry a parity couples them to zero. One that carries a parity has no normalizable mode
+  on the fibre. The next arc needs the owner's choice of how to supply that Higgs.

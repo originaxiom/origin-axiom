@@ -98,6 +98,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   eigenlines, not the record's alike three. Its numbers reproduce; its significance does not survive the
   families it drew from (joint chance 16%), and its 0.02% anchor holds at 0.145% once ε is not fixed by
   hand. Not a derivation; it gives C1 two numbers and a candidate τ.
+- Reading, couplings as overlaps (C0; nothing computed by a script): with T = ℓ ⊗ M an overlap on the fibre is one
+  number times a tensor on M; a Higgs neutral under the common point gives zero (ε(ℓ, ℓ) = 0); one that carries a
+  parity has no normalizable massless mode (its class lives at the puncture). So W59 needs the owner's fork: the
+  Higgs's boundary class as a tagged end condition, a Higgs from outside the fibre, or D1 first.
 
 ## The setting
 
@@ -4344,6 +4348,77 @@ labelled); a WEAVE result on the ruled branch, given Λ. 0 of 19.
 **Status.** COMPUTED (the rule first, with what was seen before it disclosed; one run; five cells as predicted; K4 and
 K7 failed as worded and were traced in a labelled post hoc). It checks an outside claim; K1 and K2 concern the weave's
 T. 0 of 19.
+
+## Reading: couplings as overlaps on the shared fibre (READING, C0 of the approved plan; 2026-10-13)
+
+Nothing here is computed by a script. Points 2 and 3 are proved by hand below, from W49's computed T = ℓ ⊗ M. The
+plan (approved by the owner, 2026-10-13) asked for this design reading before W59, "couplings as overlaps", whose first
+target is the double ratio. It covers the candidates, equivariance and convergence at the puncture.
+
+**Weave or thread?** Weave-type: the zero modes are the weave's T (W21, W49), on the fibre every thread shares. Given Λ
+(GENESIS FK11) for T as the generations.
+
+1. **An overlap on the fibre factorizes** (from W49).
+   - The three generations are one zero mode carried three times: T = ℓ ⊗ M, with ℓ the spin doublet's holomorphic
+     line and M the three imaginary quaternion units.
+   - An overlap is an integral over the fibre of zero modes and a Higgs mode, contracted by pairings the local system
+     allows. If the Higgs mode is itself a section of a local system built from the weave, its M-content is a constant
+     tensor N.
+   - So every such coupling is Y_rs = c · N_rs: one fibre number c, the same for every pair of generations, times a
+     tensor on M.
+   - This is W49's "a datum from the local system and the surface alone is a scalar on M", extended to cubic couplings.
+     The fibre adds no generation dependence. Any generation dependence sits in N, the Higgs's flavour content: W56's
+     freedom.
+2. **A Higgs neutral under the common point gives zero** (proved here, in the T ⊗ T reading of W39).
+   - The common point's only invariant pairing ρ_Q ⊗ ρ_Q → ℂ is the antisymmetric ε.
+   - A cubic coupling of two holomorphic modes needs a Higgs of type (0, 1). Read as spinors that is a gauge field's
+     fibre component (gauge–Higgs). Read as one-forms it is a Beltrami differential, a variation of τ. Either way the
+     Higgs's channel contracts ℓ with ℓ.
+   - In the neutral channel the integrand carries ε(ℓ(z), ℓ(z)) = 0 at every point, whatever N is.
+   - So the fluctuations of the field's state that are neutral (of τ, or of a Wilson line common to all) do not couple
+     the three alike. A nonzero coupling needs the Higgs in the symmetric channel Sym² ρ_Q = ad ρ_Q, which for the
+     quaternion group is the sum of the three parity characters χ_p. So **the Higgs must carry a parity.**
+   - This is W56's "the Higgs carries the generation index", now forced by the geometry rather than chosen, since the
+     parities are the units that make up M (W49, E1).
+   - In B1615's T̄ ⊗ T reading the neutral channel survives, with ε(ℓ, ℓ′) ≠ 0, and gives N alone: three degenerate
+     generations unless N breaks the weave's group.
+3. **No normalizable massless Higgs carries a parity** (proved here).
+   - For a non-trivial character χ of F₂, H¹(F₂; χ) is one-dimensional: Z¹ = ℂ², B¹ = ℂ.
+   - The puncture loop c = [a, b] has χ(c) = 1. A cocycle z restricts to z(c) = (1 − χ(b)) z(a) − (1 − χ(a)) z(b).
+     That vanishes on coboundaries and not on the other class.
+   - So the parabolic part is 0, and so is the L² cohomology (in two dimensions the L² condition on one-forms is
+     conformally invariant, as in W21).
+   - The one class in each parity channel is a boundary class. A massless Higgs that carries a parity lives at the
+     puncture's end, as an end condition: GENESIS GAP2 for the fibre's puncture, of the kind GENESIS FK10 names at the
+     weave's cusp. It is not forced by the moves.
+   - **Convergence.** The zero modes have square-root poles (W21), so ℓ ⊗ ℓ ~ z⁻¹ and the overlap with any bounded
+     Higgs profile converges (∫ |z|⁻¹ d²z is finite). Whether a boundary class's profile is bounded at the puncture is
+     to be computed.
+4. **Where generation dependence on the fibre could come from.**
+   - **Within one sector.** With the Higgs in a parity channel p, the fibre number becomes c_p(τ), one per channel. So
+     the overlaps give three numbers, not one. Near the cusp the parity channels behave differently (θ₂ against θ₃ and
+     θ₄; W53's exponents), so c_p(τ) could be hierarchical. The record does not know these numbers.
+   - **Between sectors (the d–e split).** A hypercharge or B − L Wilson line on the fibre twists ℓ differently for
+     d-type and e-type fields (A1). That changes their c_p(τ) differently per channel, so their spectra can differ,
+     which a common rescaling cannot do. This is the concrete form of A1's third exit.
+   - **Splitting the three apart.** A flavour Wilson line in Aut(𝕎) = U(3) acting on M would give the three lines
+     different wavefunctions. That is allowed, not forced, and adds up to six real numbers.
+5. **What follows for W59.**
+   - C1 as first planned ("overlaps at a common state, the double ratio first") cannot reach the target without a Higgs
+     mode, and the fibre supplies none that is normalizable and carries a parity.
+   - **The fork.**
+     - (a) Accept the Higgs's boundary class at the puncture as a tagged end condition. It is one class per channel and
+       the moves permute the channels, so one normalisation serves all three. The couplings are then numbers:
+       Y = Σ_p h_p c_p(τ) N_p, with the state (τ, the Higgs's direction h) as the only freedom. W59 would compute c_p(τ),
+       then the hypercharge twist and the double ratio.
+     - (b) Take the Higgs from outside the fibre. Then the couplings are W53–W56's modular structure again, with the
+       coefficients free.
+     - (c) Go to D1 first, to see whether a potential selects a state at all.
+   - Which fork to take is the owner's ruling. Fork (a) adds an end condition the moves do not force, of the kind the
+     owner kept open for the cusp ("Keep FK10 open", 2026-10-09).
+
+**Status.** READING. Points 2 and 3 are proved by hand, point 1 follows from W49's computed T = ℓ ⊗ M, and points 4
+and 5 are design. Nothing is computed by a script. 0 of 19.
 
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 

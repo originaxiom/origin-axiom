@@ -353,6 +353,14 @@ Under the owner's rulings, the table's rows split into two groups:
     joint chance of 16%, not 10⁻⁶. Its 0.02% anchor holds at 0.145% once ε is not fixed at 14/75.
   - Not a derivation. It gives C1 two numbers (2/ε = 10.714, at −1.2σ from the double-ratio target; the plaquette
     3.167) and a candidate τ = 1.0685 i. 0 of 19.
+- **Reading: couplings as overlaps on the shared fibre (C0; nothing computed by a script; two points proved by hand):**
+  - Since T = ℓ ⊗ M (W49), any overlap on the fibre is one number times a tensor on M. The fibre adds no generation
+    dependence.
+  - In the T ⊗ T reading, a Higgs neutral under the common point gives zero, since ε(ℓ, ℓ) = 0. So the Higgs must carry
+    a parity, which is W56's requirement, now forced.
+  - A Higgs that carries a parity has no normalizable massless mode on the fibre: its one class lives at the puncture.
+  - So the next arc needs the owner's fork: the Higgs's boundary class as a tagged end condition, a Higgs from outside
+    the fibre, or the potential (D1) first.
 
 ## Questions open with main
 
@@ -371,4 +379,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W58 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§67).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§68).

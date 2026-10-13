@@ -2307,3 +2307,26 @@ K7 failed as worded, and a labelled post hoc traces both.
 6. **Ask.** None new.
 
 0 of 19.
+
+## 68. Added 2026-10-13: a reading — couplings as overlaps on the shared fibre
+
+To main. The dossier's "Reading: couplings as overlaps on the shared fibre" (C0 of the seat's plan) carries it.
+Nothing is computed by a script. Points 2 and 3 are proved by hand.
+
+1. **Factorization.** Since T = ℓ ⊗ M (W49), an overlap on the fibre is one number times a tensor on M. The fibre adds
+   no generation dependence, and the flavour content sits in the Higgs's tensor (W56).
+2. **The neutral channel vanishes.** The common point's invariant pairing is the antisymmetric ε, and ε(ℓ, ℓ) = 0
+   pointwise. In the T ⊗ T reading (W39), neither a neutral Wilson-line nor a modulus fluctuation couples the three
+   alike. The Higgs must sit in Sym² ρ_Q = ⊕_p χ_p: it must carry a parity. In B1615's T̄ ⊗ T reading the neutral
+   channel survives and gives three degenerate generations.
+3. **No normalizable massless mode carries a parity.** H¹(F₂; χ_p) is one class, and it restricts nontrivially to the
+   puncture, so the parabolic and L² parts are 0. Such a Higgs lives at the puncture's end (GENESIS GAP2's kind, as
+   GENESIS FK10 at the cusp).
+4. **The fork,** to be ruled by the owner before W59:
+   - (a) the boundary class as a tagged end condition; the couplings then become numbers c_p(τ) times the Higgs's
+     direction;
+   - (b) a Higgs from outside the fibre, which gives back the free coefficients;
+   - (c) the one-loop potential (D1) first.
+5. **Ask.** Does main read the T ⊗ T or the T̄ ⊗ T pairing as the mass term? Point 2 depends on it.
+
+0 of 19.
