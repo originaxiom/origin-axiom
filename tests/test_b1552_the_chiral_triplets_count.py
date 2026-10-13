@@ -1446,6 +1446,30 @@ def test_w59_the_one_loop_potential_on_the_fibre():
     assert abs(joint / OP.E3(t) + 15 / 16) < 1e-8
 
 
+
+def test_w60_the_quark_sector_and_the_line():
+    """W60 (the owner's "W60: quark sector"; the rule first; one run; P2-P4 as predicted, P1 failed as worded, a 0/0,
+    re-scored post hoc): the quarks resist the colour-centre line; post hoc, the full potential sits on a half-period
+    line, where the matter sees nothing and one parity copy of the Higgs is untwisted"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_quark_sector_and_the_line.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"P1": False, "P2": True, "P3": True, "P4": True}
+    rows = d["P1"]["N = 192"]["rows"]
+    assert max(r["|diff|"] for r in rows) < 1e-8
+    assert max(r["relative diff"] for r in rows if abs(r["exact"]) > 1e-6) < 5e-4
+    f6 = d["P4"]["the fermion's six-dimensional potential (-Delta V6) at N = 192"]
+    assert f6["0"] == 0.0 and f6["(1/6, 1/6)"] > f6["(1/4, 0)"] > 0.4
+    assert abs(f6["(1/6, 1/6)"] - f6["(1/3, 1/3)"]) < 1e-9
+    ph = json.loads((here / "the_quark_sector_and_the_line_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["PH2"]["the fit's largest residual on the grid"] < 1e-6
+    for name, v in ph["PH3"].items():
+        if "alone" in name:
+            assert abs(v["its value"]) < 1e-6
+            continue
+        assert abs(v["its value"] + 147.6387) < 1e-3 and v["d^c and e^c see different twists"] is False
+        assert all(abs(c - round(2 * c) / 2) < 1e-6 for c in v["the global minimum w"])
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

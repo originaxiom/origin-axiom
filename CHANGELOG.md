@@ -1,5 +1,22 @@
 # Changelog
 
+## The weave's W60: the quark sector with a Wilson line; relay section 71
+
+- **W60** (the owner's "W60: quark sector"; the rule 560c86dff first; the script bcc1396b9 before its one run; P2, P3
+  and P4 as predicted, P1 failed as worded on a 0/0 at a symmetric point):
+  - the spectrum of ρ_Q ⊗ L_φ at ω on a triangular lattice with the half flux in one plaquette, checked against the
+    exact abelian values (10⁻¹⁰, 10⁻⁴);
+  - the matter's potential has period ½ and enters only through doubled windings; the quarks, as fermions, resist the
+    colour-centre line;
+  - **post hoc (labelled; one failed launch fixed):** with a Higgs in the parity sectors the net potential sits on a
+    half-period line (−147.6), where the matter sees nothing (no d–e split) and one parity copy of the Higgs is
+    untwisted: a normalizable massless Higgs carrying a parity.
+- **So:** D1's route to a d–e split closes; the mode C0 lacked appears without an end condition; the overlaps arc
+  becomes computable. 0 of 19.
+- **Relay §71** to main. **Surfaces.** The rule, the script, its JSON and its post hoc, the dossier (W60, a row, the
+  header, the files), the W60 test and the regeneration list, the rulings page, the state page, the relay and the
+  ledger.
+
 ## The weave's W59: the one-loop potential on the shared fibre (D1); relay section 70
 
 - **W59** (the owner's "D1 first"; the rule 311f0cd96 first; the script 39c6a5125 before its one run; K1, K2, K3 and

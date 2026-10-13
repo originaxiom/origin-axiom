@@ -18635,3 +18635,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   or the cusp: never a generic shape. At ω a charged boson prefers the Wilson line of the colour centre, which only the
   quarks see. Whether the quarks themselves prefer it is the next computation. One prediction about the potential's
   fine structure failed and is recorded as failed.
+
+## 2026-10-13 — W60: the quark sector with a Wilson line; relay §71
+
+- **W60 ran once, after its rule.** The quarks resist the colour-centre line, so a Wilson line cannot split the down
+  quarks from the charged leptons at a symmetric state.
+- **A labelled post hoc found where the line does sit:** at a half-period, where the quarks and leptons feel nothing
+  and one copy of the Higgs becomes massless on the fibre. That supplies the Higgs mode the overlaps reading lacked,
+  with no new postulate.

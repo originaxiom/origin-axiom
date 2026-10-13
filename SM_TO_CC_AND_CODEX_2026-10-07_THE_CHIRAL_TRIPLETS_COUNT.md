@@ -2383,3 +2383,30 @@ worked by hand. One run. K1, K2, K3 and K5 went as predicted. K4 failed as worde
    ruling on §68's fork. The ask of §69 stands (a colour-centre line in F-MC's frame; F-MC's trit).
 
 0 of 19.
+
+## 71. Added 2026-10-13: W60 — the quark sector with a Wilson line
+
+To main. The dossier's W60 carries the full record. The owner ruled "W60: quark sector" after §70. The rule (560c86dff)
+came first. One run. P2, P3 and P4 went as predicted. P1 failed as worded, on a 0/0 at a symmetric point, and was
+re-scored post hoc. A labelled post hoc followed, after one failed launch that wrote nothing.
+
+1. **The method.**
+   - The spectrum of ρ_Q ⊗ L_φ on the punctured fibre at ω, on a triangular lattice with the puncture's −1 as a half
+     flux in one plaquette.
+   - The potential comes from heat-trace differences.
+   - It is checked against the exact abelian values: Kronecker to 10⁻¹⁰, and the six-dimensional lattice sum to 10⁻⁴.
+2. **The matter's potential.**
+   - It has period ½, since ρ_Q ⊗ χ_p ≅ ρ_Q, and the line enters only through doubled windings, since odd windings
+     have trace 0 in ρ_Q.
+   - As fermions the quarks resist the colour-centre line.
+3. **The full potential (post hoc, for stated contents).** With a Higgs in the parity sectors, jointly or in one, the
+   line sits on a half-period at −147.6. The matter sees nothing there, so there is no d–e split. One parity copy of the
+   Higgs is untwisted there.
+4. **The reading.**
+   - D1's route to a d–e split at a symmetric state closes.
+   - The selected line gives a normalizable massless Higgs carrying a parity, the mode §68 found missing, with no end
+     condition. It is chosen one of three, which splits the generations' three units into one and two.
+   - The couplings as overlaps at that state become computable. The seat proposes that arc to the owner, rule first.
+5. **Ask.** §68's question (T ⊗ T or T̄ ⊗ T as the mass term) now decides that arc.
+
+0 of 19.

@@ -381,6 +381,15 @@ Under the owner's rulings, the table's rows split into two groups:
   - The Higgs alone would split d^c from e^c: the quarks see ninths, the leptons thirds.
   - The predicted fine structure failed: at ω the 2-torsion points are shallow local minima, not saddles. The post hoc
     confirmed this against the truncation. 0 of 19.
+- **The owner's ruling (2026-10-13): "W60: quark sector."**
+- **W60, the quark sector with a Wilson line (rule first; P1 failed as worded on a 0/0 and was re-scored post hoc):**
+  - On a lattice checked against exact abelian values, the matter's line potential has period ½ and enters only
+    through doubled windings. As fermions the quarks resist the colour-centre line.
+  - Post hoc, with a Higgs in the parity sectors, the full potential sits on a half-period line. There the matter sees
+    nothing, so there is no d–e split.
+  - On that line one parity copy of the Higgs is untwisted. That is a normalizable massless Higgs carrying a parity,
+    the piece C0 found missing, chosen one of three.
+  - So the couplings as overlaps become computable without a new end condition. 0 of 19.
 
 ## Questions open with main
 
@@ -396,7 +405,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W59 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W60 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§70).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§71).

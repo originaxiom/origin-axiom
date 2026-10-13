@@ -20,7 +20,8 @@ FAST = ["the_mixing_patterns_verified", "the_couplings_verified", "the_couplings
         "the_end_conditions_on_the_weaves_surface", "the_unit_at_the_weaves_cusp", "the_outside_source_at_the_cusp",
         "the_generations_are_a_multiplicity", "the_parity_grading_at_a_fixed_tau", "the_free_numbers_counted",
         "the_free_numbers_counted_posthoc", "the_gauge_side_and_the_sectors",
-        "the_field_of_maximality", "the_level_four_preprint_checked", "the_level_four_preprint_checked_posthoc"]
+        "the_field_of_maximality", "the_level_four_preprint_checked", "the_level_four_preprint_checked_posthoc",
+        "the_quark_sector_and_the_line_posthoc"]
 
 
 def close(a, b):
