@@ -121,6 +121,13 @@ SEATS = [
     # items are aged like any other; items = its arc directories frontier/LPnn_*.
     dict(key="lp", label="listening thread (LP)", branch="project-thread-hctlox",
          remotes=("origin",), cell=("listening thread", "LP seat")),
+    # ADDED 2026-10-13 (S113): a two-commit branch that appeared on origin on 2026-10-11 under the repository's author field,
+    # forked from main -- "Prepare lossless one-ZIP import for weave runs 01-13": the owner's archive of thirteen earlier weave
+    # runs, staged for a checksum-verified restore (a restore script, a branch-only workflow, the independent-audit ZIP).
+    # Not a seat; registered so that it is watched, pinned at its head so it carries no items; whether and how the archive is
+    # restored and read is the owner's decision.
+    dict(key="weavearchive", label="weave archive import lane (not a seat)", branch="weave-physics-archive-2026-10-11",
+         remotes=("origin",), cell=("archive lane", "weave archive")),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

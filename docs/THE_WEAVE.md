@@ -320,3 +320,18 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   multiplier of η²¹·(θ₂², θ₃², θ₄²): θ₃² on the clock's line, θ₂² and θ₄² on the letter lines. B1632's "only projective" was
   a sign in main's lift helper. χ_{3/2} = 0 by the formula and by an independent count, so the cusp's unit gives ±3 given
   Λ and the unit, on verified mathematics.
+
+## Main's additions: the couplings on the ruled branch (B1635, NEGATIVE as sealed) and the golden spectrum on the tick's geodesic (B1636, PROVED)
+
+- **The couplings (B1635).** By main's own route the SM seat's W50 §3 holds: the coupling spaces by piece and weight, its
+  mixing distance 0.670933, three distinct masses and non-permutation mixing at a generic τ, every coupling degenerate at
+  ω. Its sentence "every coupling is degenerate at i" is false: degeneracy at i depends on the weight mod 4. Given the
+  sectors' weights, the flavour sector leaves 2 + Σ_s (2 d(k_s) − 1) free real numbers (the seat's W52 counts 11 of the
+  13 at the geometry's weight; registered).
+- **The golden spectrum (B1636).** The weave's lowest symmetric coupling is the three theta constants placed off-diagonal
+  (each pair of generations coupled by the third parity's θ²). Every such coupling obeys m₁ = m₂ + m₃ (a theorem; the
+  seat's W52 found it too; observed charged-fermion masses violate it by factors of 17 to 136, B1273, B1276, so this
+  coupling alone is not a charged sector's mass matrix). Its remaining ratio depends on τ only through
+  F = Σ|θ_p/η|⁴, and on the principle's own closed geodesic (the tick's, through i) F = 8 and the masses are exactly
+  1 : φ⁻¹ : φ⁻², on no other geodesic or coupling tested. Numerically the golden level set is the union of the
+  discriminant-5 geodesics (a conjecture).

@@ -11449,5 +11449,27 @@
    "hypotheses": "the Borcherds-Skoruppa formula as a Riemann-Roch number; the multiplier not computed"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1635",
+  "claim_killed": "That every coupling in tau alone on the ruled branch is degenerate at the tick's point i (the SM seat's W50 sentence; this arc's K5 clause ii).",
+  "kill_form": "Sealed (B1635): at i the one-dimensional O+ coupling at k = 1 has masses (1, 1/phi, 1/phi^2), and O+ at k = 5 and 9 is non-degenerate (k = 1 mod 4); everything is degenerate at i for k = 3 mod 4, and at omega for every k.",
+  "hatch": "the lowest coupling's spectrum on the tick's geodesic (B1636: constant and golden there)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-09), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: degeneracy at i is a property of the weight mod 4, not of the point; the golden spectrum is followed in B1636. K3's failure is a threshold of mine (0.05), the couplings non-degenerate.",
+  "faces_consulted": [
+   "B1634",
+   "B1630",
+   "B1620"
+  ],
+  "fact_computed": "dimensions by piece and weight (two routes); masses at three generic tau, i and omega; the seat's mixing distance; the count",
+  "scope": {
+   "frame": "the ruled branch (GENESIS v1.33, v1.41); given Lambda",
+   "object": "couplings in tau alone as vector-valued modular forms for rho_theta's tensors (T(x)T by piece; Tbar(x)T)",
+   "reach": "general",
+   "hypotheses": "the sectors' weights and the field dictionary not fixed; no data"
+  },
+  "weave_or_thread": "weave"
  }
 ]

@@ -1,5 +1,36 @@
 # Changelog
 
+## S113 THE COUPLINGS ON THE RULED BRANCH AND THE GOLDEN SPECTRUM ON THE TICK'S GEODESIC (B1635, NEGATIVE as sealed; B1636, PROVED): the SM seat's W50 §3 verified by main's own route with one sentence corrected; the weave's lowest symmetric coupling is the three theta constants off-diagonal, obeys m₁ = m₂ + m₃, and on the principle's own closed geodesic has the τ-independent masses 1 : φ⁻¹ : φ⁻²
+
+**B1635 (sealed `cf5f8dd08`).** Couplings in τ alone, built as polynomial maps in θ₂², θ₃², θ₄² modulo Jacobi's quadric
+(the formula beside them):
+- dimensions by piece are exactly the seat's, and so is its mixing distance (0.670933);
+- masses are non-degenerate and mixing is not a permutation at a generic τ;
+- every coupling is degenerate at ω;
+- the first count: 2 + Σ_s (2 d(k_s) − 1) free real numbers given the weights, 4 for two sectors at the lowest weights.
+
+Two sealed cells failed: a non-degeneracy threshold of mine (0.05; gaps of 0.028–0.046), and "at i every single piece is
+degenerate", which is false. Degeneracy at i depends on the weight mod 4, and the lowest coupling there has masses
+(1, 1/φ, 1/φ²). Kill-graph entry.
+
+**B1636 (sealed `6d3c2ee30`; the seal's push went out after the run, the doc-currency gate having blocked it, with
+`6c148ddd4`).**
+- On the tick's closed geodesic the lowest coupling's masses are 1 : φ⁻¹ : φ⁻² at 66 of 66 points (3·10⁻¹⁵).
+- Five other closed geodesics, three reflection lines and six other couplings all vary along the curves tested.
+- Every zero-diagonal coupling obeys m₁ = m₂ + m₃.
+
+Post seal:
+- the coupling is c·[[0, θ₄², θ₃²], [θ₄², 0, θ₂²], [θ₃², θ₂², 0]];
+- its spectrum depends on F = Σ|θ_p/η|⁴ alone (θ₂θ₃θ₄ = 2η³), golden at F = 8;
+- {F = 8} is, to 10⁻⁹ at 84 of 88 sampled points, the union of the geodesics of discriminant 5 (conjecture).
+
+The record already shows observed charged-fermion masses violate the sum rule by factors of 17 to 136 (B1273, B1276), so
+this coupling alone is not a charged sector's mass matrix.
+
+**Registry and seats.** T-OFFDIAG-SUM-RULE and T-GOLDEN-ON-THE-TICK added; a LAW_MAP row. The SM seat's W52 (11 of the 13
+at the geometry's weight; its zero-diagonal identity verified independently), §57 and the W53 rule rowed (1081–1083);
+one relay. A two-commit archive-import lane (the owner's thirteen earlier weave runs, staged for a checksum-verified restore) that appeared on origin on 2026-10-11 is registered in the harvest gate as watched, pinned at its head, no items. 0 of 19.
+
 ## S112 THE RULED BRANCH AND THE THETA LIFTS (B1634, PROVED; GENESIS v1.41): the SM seat's W50 verified on main — on the ruled branch the inner automorphisms by a and by b are not moves, so T-TAU-ONLY-PERMUTATION holds only where they act and the modulus τ is the state that breaks the weave's group; and the weave's own lifts on T are a genuine Mp2(ℤ) representation, exactly the theta constants' multiplier — B1632's "projective" was main's helper's sign, χ_{3/2} = 0 twice
 
 **B1634 (sealed `478abc379`).** V1, V2 and V4 held as sealed; V3's law check failed at one of two points, and the failure

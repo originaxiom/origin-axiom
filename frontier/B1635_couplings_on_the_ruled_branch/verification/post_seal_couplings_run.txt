@@ -1,0 +1,449 @@
+{
+ "Q1": {
+  "singular_values": [
+   1.0,
+   0.6180339887498949,
+   0.3819660112501052
+  ],
+  "against_1_invphi_invphi2": [
+   1.0,
+   0.6180339887498948,
+   0.38196601125010515
+  ],
+  "max_deviation": 1.1102230246251565e-16,
+  "normalized_matrix_abs": [
+   [
+    0.0,
+    0.707106781187,
+    1.0
+   ],
+   [
+    0.707106781187,
+    0.0,
+    0.707106781187
+   ],
+   [
+    1.0,
+    0.707106781187,
+    0.0
+   ]
+  ],
+  "normalized_matrix_phases_turns": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ]
+  ],
+  "eigenvalues_of_the_normalized_matrix": [
+   "(-1+0j)",
+   "(-0.61803398875+0j)",
+   "(1.61803398875-0j)"
+  ],
+  "characteristic_polynomial_coefficients": [
+   "(1+0j)",
+   "(-0-0j)",
+   "(-2+0j)",
+   "(-1+0j)"
+  ],
+  "theta_at_i": {
+   "u2_over_u4": "(1+0j)",
+   "u3_over_u2": "(1.4142135623730951+0j)",
+   "sqrt2": 1.4142135623730951
+  }
+ },
+ "Q2": {
+  "k=1 D": {
+   "i": null,
+   "omega": null
+  },
+  "k=1 O+": {
+   "i": {
+    "dim": 1,
+    "generic_gap": 0.236067977,
+    "min_gap_over_members": 0.236067977
+   },
+   "omega": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=1 O-": {
+   "i": null,
+   "omega": null
+  },
+  "k=1 sym": {
+   "i": {
+    "dim": 1,
+    "generic_gap": 0.236067977,
+    "min_gap_over_members": 0.236067977
+   },
+   "omega": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=3 D": {
+   "i": null,
+   "omega": null
+  },
+  "k=3 O+": {
+   "i": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=3 O-": {
+   "i": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=3 sym": {
+   "i": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=5 D": {
+   "i": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=5 O+": {
+   "i": {
+    "dim": 2,
+    "generic_gap": 0.238539468,
+    "min_gap_over_members": 0.000364555
+   },
+   "omega": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=5 O-": {
+   "i": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=5 sym": {
+   "i": {
+    "dim": 3,
+    "generic_gap": 0.245030128,
+    "min_gap_over_members": 0.001009563
+   },
+   "omega": {
+    "dim": 3,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=7 D": {
+   "i": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 1,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=7 O+": {
+   "i": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=7 O-": {
+   "i": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=7 sym": {
+   "i": {
+    "dim": 3,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 3,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=9 D": {
+   "i": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=9 O+": {
+   "i": {
+    "dim": 3,
+    "generic_gap": 0.202010744,
+    "min_gap_over_members": 0.000664639
+   },
+   "omega": {
+    "dim": 3,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=9 O-": {
+   "i": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=9 sym": {
+   "i": {
+    "dim": 5,
+    "generic_gap": 0.167041517,
+    "min_gap_over_members": 1.6323e-05
+   },
+   "omega": {
+    "dim": 5,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=11 D": {
+   "i": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 2,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=11 O+": {
+   "i": {
+    "dim": 3,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 3,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=11 O-": {
+   "i": {
+    "dim": 3,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 3,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  },
+  "k=11 sym": {
+   "i": {
+    "dim": 5,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   },
+   "omega": {
+    "dim": 5,
+    "generic_gap": 0.0,
+    "min_gap_over_members": 0.0
+   }
+  }
+ },
+ "Q3": {
+  "k=2": {
+   "generic_0": {
+    "dim": 2,
+    "generic_gap": 0.190018375,
+    "min_gap_over_members": 0.012462865
+   },
+   "generic_1": {
+    "dim": 2,
+    "generic_gap": 0.12828451,
+    "min_gap_over_members": 0.014566057
+   },
+   "generic_2": {
+    "dim": 2,
+    "generic_gap": 0.261885521,
+    "min_gap_over_members": 0.014252294
+   }
+  },
+  "k=4": {
+   "generic_0": {
+    "dim": 4,
+    "generic_gap": 0.137665168,
+    "min_gap_over_members": 0.034831143
+   },
+   "generic_1": {
+    "dim": 4,
+    "generic_gap": 0.279788304,
+    "min_gap_over_members": 0.040068599
+   },
+   "generic_2": {
+    "dim": 4,
+    "generic_gap": 0.188250763,
+    "min_gap_over_members": 0.042039059
+   }
+  },
+  "k=6": {
+   "generic_0": {
+    "dim": 5,
+    "generic_gap": 0.408871535,
+    "min_gap_over_members": 0.022495991
+   },
+   "generic_1": {
+    "dim": 5,
+    "generic_gap": 0.379867887,
+    "min_gap_over_members": 0.032272116
+   },
+   "generic_2": {
+    "dim": 5,
+    "generic_gap": 0.329771606,
+    "min_gap_over_members": 0.05180625
+   }
+  }
+ },
+ "Q4_O+_k1_along_the_ticks_axis": [
+  {
+   "tau": [
+    1.60548,
+    0.167077
+   ],
+   "masses": [
+    1.0,
+    0.618033989,
+    0.381966011
+   ]
+  },
+  {
+   "tau": [
+    1.535435,
+    0.421752
+   ],
+   "masses": [
+    1.0,
+    0.618033989,
+    0.381966011
+   ]
+  },
+  {
+   "tau": [
+    1.4076,
+    0.652888
+   ],
+   "masses": [
+    1.0,
+    0.618033989,
+    0.381966011
+   ]
+  },
+  {
+   "tau": [
+    1.22911,
+    0.847584
+   ],
+   "masses": [
+    1.0,
+    0.618033989,
+    0.381966011
+   ]
+  },
+  {
+   "tau": [
+    1.009926,
+    0.994975
+   ],
+   "masses": [
+    1.0,
+    0.618033989,
+    0.381966011
+   ]
+  },
+  {
+   "tau": [
+    0.762282,
+    1.086834
+   ],
+   "masses": [
+    1.0,
+    0.618033989,
+    0
+python3 post_seal_couplings.py  22.96s user 5.14s system 310% cpu 9.037 total

@@ -16955,3 +16955,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   "given Λ and the unit" again; the inner automorphisms scoped off the ruled branch). Registry, retractions, error
   ledger, kill graph, addenda on B1617, B1629, B1630, B1632.
 - Seats: SM seat's W47–W51 and §50–§56 rowed (1067–1076), audit lane's three (1077–1079) and its standing cross-seat audit (1080); one relay to both. 0 of 19.
+
+## 2026-10-09 — S113 THE COUPLINGS ON THE RULED BRANCH (B1635, NEGATIVE as sealed) AND THE GOLDEN SPECTRUM ON THE TICK'S GEODESIC (B1636, PROVED)
+
+- B1635: the seat's W50 §3 verified by main's route (dimensions, 0.670933, non-permutation mixing, degenerate at ω); two
+  cells failed (a threshold; 'degenerate at i' is false, the lowest coupling there is golden); the first count.
+- B1636: the lowest coupling is the theta constants off-diagonal; m₁ = m₂ + m₃; on the tick's geodesic its masses are
+  1 : φ⁻¹ : φ⁻² exactly, nowhere else tested; golden ⟺ Σ|θ_p/η|⁴ = 8 ⟺ (numerically) discriminant 5.
+- Seats: the SM seat's W52, §57, W53 rule rowed (1081–1083); one relay. The owner asked for a self-contained paper for an
+  outside reader. 0 of 19.

@@ -11496,6 +11496,46 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1635": {
+   "slug": "couplings on the ruled branch",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1636": {
+   "slug": "the golden spectrum on the ticks geodesic",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B963"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 14,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B163": {
    "slug": "kappa sweep resolved",
    "motifs": [

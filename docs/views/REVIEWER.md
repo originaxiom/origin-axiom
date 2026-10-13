@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1363** |
-| words of findings prose | **1,065,761** |
-| test lock files referenced | **800** |
-| arcs carrying an authored verdict | **1363** (100.0 %) |
-| recorded closures | **817** (650 classified, 167 routed-only) |
+| research arcs with findings | **1365** |
+| words of findings prose | **1,067,900** |
+| test lock files referenced | **801** |
+| arcs carrying an authored verdict | **1365** (100.0 %) |
+| recorded closures | **818** (651 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 920 |
-| NEGATIVE | 341 |
+| PROVED | 921 |
+| NEGATIVE | 342 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 87 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 88 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1634`** (1987 words, 1 locks)  
-THE SM SEAT'S W50 ON MAIN, AND W45'S MULTIPLIER FROM THE THETA CONSTANTS (sealed; PROVED): <L, R> meets the inner automorphisms only in <Delta^4> = <conj(a b^-1 a^-1 b)> (to length 12: 1,944 relators, 196 + 196 words for conj(c^+-1), none for conj(a), conj(b)), so on the ruled branch the residual on T is four scalars at a generic tau, cyclic of order 8 at i and of order 12 at omega -- T-TAU-ONLY-PERMUTATION, B1617's order-48 residual and B1630's line hold where the inner automorphisms act, and on the ruled branch the modulus breaks the weave's group; the weave's own lifts on T (the move matrices, braid relation exact, Delta^4 -> -1) are a genuine Mp2(Z) representation equal to the multiplier of eta^21 (theta_2^2, theta_3^2, theta_4^2) exactly, theta_3^2 on the clock's line -- B1632's 'projective' was the lift helper's sign on S~ -- and chi_{3/2} = 0 by the formula and by an independent count (Gamma(4)'s forms as polynomials in theta squares), so the payoff +-3 rests on 'given Lambda and the unit' again (GENESIS v1.41). V3's sealed law-check failure at one point was mpmath's nome branch, diagnosed exactly. 0 of 19.  
-`B1634_w50_on_main/FINDINGS.md`
+**PROVED — `B1636`** (1087 words, 1 locks)  
+THE GOLDEN SPECTRUM ON THE TICK'S GEODESIC (sealed; PROVED): on the principle's own closed geodesic (the axis of LR, through i) the weave's lowest symmetric coupling has the tau-independent masses 1 : phi^-1 : phi^-2 (66 points, 3e-15), and on no other closed geodesic or reflection line tested and for no other coupling tested (spreads 0.12-0.47); every off-diagonal coupling obeys m1 = m2 + m3 (a theorem); post seal: the coupling is the three theta constants placed off-diagonal (Y_jk proportional to theta_l^2), its spectrum a function of F = sum_p |theta_p/eta|^4 alone (Jacobi's theta2 theta3 theta4 = 2 eta^3), golden exactly at F = 8, and the level set F = 8 is, to 1e-9 on 84 of 88 sampled points (the rest at crossings), the union of the geodesics of discriminant 5 -- a conjecture until proved. 0 of 19.  
+`B1636_the_golden_spectrum_on_the_ticks_geodesic/FINDINGS.md`
 
-**NEGATIVE — `B1632`** (626 words, 1 locks)  
-THE SM SEAT'S W45 ON MAIN (sealed; NEGATIVE as sealed): the formula calibrates (trivial, eta), but the weave's lifts on T form only a projective representation of Mp2(Z) -- no identification satisfies the relations exactly -- and among the genuine rescalings chi_{3/2} is 0 for five and 1 for one; for the seat's rho_T (T's exponents 1/8, 3/8, 7/8, the plain topological lift) main reproduces chi_{3/2} = 0. So the postulate's payoff (+-3 given Lambda and the unit) rests on W41's multiplier, now load-bearing and unverified on main -- the next computation. 0 of 19. [REFUTED IN PART by B1634 (2026-10-09): the 'projective' was the lift helper's sign on S~; the weave's move matrices are a genuine Mp2(Z) representation, exactly the theta constants' multiplier, and chi_{3/2} = 0 holds for it -- the payoff rests on 'given Lambda and the unit' (GENESIS v1.41); the computation stands.]  
-`B1632_w45_verified_on_main/FINDINGS.md`
+**NEGATIVE — `B1635`** (1052 words, 1 locks)  
+THE COUPLINGS IN TAU ALONE ON THE RULED BRANCH (sealed; NEGATIVE as sealed): by main's own route (polynomials in theta squares mod Jacobi's quadric) the SM seat's W50 section 3 is verified -- dimensions by piece exactly (D 0,0,1,1,2,2; O+ 1,1,2,2,3,3; O- 0,1,1,2,2,3 for k = 1..11; = the formula), its mixing distance 0.670933, non-degenerate masses and non-permutation mixing at a generic tau, every coupling degenerate at omega -- but two sealed cells fail: a non-degeneracy threshold of 0.05 (four couplings at 0.028-0.046) and 'at i every single piece is degenerate', which is false: O+ at k = 1 (mod 4) is not, and the lowest coupling at i has masses (1, 1/phi, 1/phi^2) exactly; the first count: 2 + sum_s (2 d(k_s) - 1) free real numbers given the weights, 4 for two sectors at the lowest weights. 0 of 19.  
+`B1635_couplings_on_the_ruled_branch/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  
