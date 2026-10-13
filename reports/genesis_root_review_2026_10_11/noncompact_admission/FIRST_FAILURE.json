@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-13",
+  "preexecution_commit": "73bbbea5e1359a3b6424b774ce974f1f93478c93",
+  "server_confirmed_before_execution": true,
+  "command": "python3.12 -B -u reports/genesis_root_review_2026_10_11/noncompact_admission/verify.py",
+  "exit_code": 1,
+  "elapsed_seconds": 14.974471781999455,
+  "stdout": {"bytes": 0, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},
+  "stderr_private_original": {"bytes": 546, "sha256": "65ad1e846820bb1d553d809308657b0dc4fdcc67d72caa7e5324ccc12042e8f2"},
+  "failed_predicate": "tail_volume_bound",
+  "original_source_unchanged": true,
+  "full_run_passed": false,
+  "public_error_summary": "verify.py line106 calls check tail_volume_bound; line21 raises AssertionError: tail_volume_bound. Original path-bearing stderr is retained privately, not overwritten."
+}

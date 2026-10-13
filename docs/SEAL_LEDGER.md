@@ -873,3 +873,15 @@ The new verifier has only been syntax-parsed; push before execution.
 | `reports/genesis_root_review_2026_10_11/noncompact_admission/PROOF.md` | `899ecfc306683155d9c396c7f92365c0f4679f4a9498698ae7da973817d0f9a0` |
 | `reports/genesis_root_review_2026_10_11/noncompact_admission/verify.py` | `05b89f025aa62683455956b0b25dd7f848db4fe9e49f433491500ae8c1400b54` |
 | `reports/genesis_root_review_2026_10_11/noncompact_admission/candidate.json` | `6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b` |
+
+## Noncompact admission detector repair seal 2026-10-13
+
+First failure preserved; original proof, model and verifier unchanged.
+V2 replaces the unevaluated tail-integral comparison by its derivative,
+infinite limit and separate zero endpoint, plus a wrong-factor control.
+Only syntax parsed; commit and push before the second scientific run.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/noncompact_admission/verify_v2.py` | `f44e083f38ce85b0ebc0e12e686567f6ddc1874382d042478f7f63e7b34bb7ef` |
+| `reports/genesis_root_review_2026_10_11/noncompact_admission/CORRECTION_V2.md` | `0df27e3e3c334e6db0d665706879c86c1580b7dbd74cdede732955ccd46a9bdd` |
