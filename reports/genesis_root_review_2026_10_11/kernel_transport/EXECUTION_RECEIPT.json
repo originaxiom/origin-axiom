@@ -1,0 +1,50 @@
+{
+  "sources_before": {
+    "PREREGISTRATION.md": "19b5486c0d6c21551ae022b37d7666fc182bb2358c76ce2842000b33dab80588",
+    "PROOF.md": "a2ab03d02337b5203a0921ff54bb0f40e7dcb955eba5897b9f965c8008530fc6",
+    "verify.py": "2ea9808b8b222bd6b74ee127937e00fdb3f738dd2b5bf21e222ac9c3e8474bfb",
+    "test_verify.py": "6387d3d8b4046a54c8f2ac42e29c4e36ada50902992cc5387f676ab0a17e37dc",
+    "execute.py": "6c9251e8740827189de6a097fd59f50bc9d17dd190af03fe99606652cf80d7b0"
+  },
+  "runs": [
+    {
+      "label": "native",
+      "exit_code": 0,
+      "elapsed_seconds": 1.4075985029921867,
+      "stdout": {
+        "file": "native.stdout.log",
+        "bytes": 3099,
+        "sha256": "76b1ecaf5c78d11341b476bd4b2780b9df7652caebf1af7c8f190ec7544f1093"
+      },
+      "stderr": {
+        "file": "native.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "label": "tests",
+      "exit_code": 0,
+      "elapsed_seconds": 1.8389415910060052,
+      "stdout": {
+        "file": "tests.stdout.log",
+        "bytes": 98,
+        "sha256": "264fd5a4bdcbd362583216134ee84e86e2f1a2e348c7eeed3d1a686e5715f4e5"
+      },
+      "stderr": {
+        "file": "tests.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "sources_after": {
+    "PREREGISTRATION.md": "19b5486c0d6c21551ae022b37d7666fc182bb2358c76ce2842000b33dab80588",
+    "PROOF.md": "a2ab03d02337b5203a0921ff54bb0f40e7dcb955eba5897b9f965c8008530fc6",
+    "verify.py": "2ea9808b8b222bd6b74ee127937e00fdb3f738dd2b5bf21e222ac9c3e8474bfb",
+    "test_verify.py": "6387d3d8b4046a54c8f2ac42e29c4e36ada50902992cc5387f676ab0a17e37dc",
+    "execute.py": "6c9251e8740827189de6a097fd59f50bc9d17dd190af03fe99606652cf80d7b0"
+  },
+  "source_unchanged": true,
+  "all_scheduled_runs_passed": true
+}

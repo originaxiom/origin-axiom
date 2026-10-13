@@ -92,6 +92,12 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 complete flag complex transport
+
+The [kernel transport result](kernel_transport/FINDINGS.md) reuses the repository's existing bounded-norm lemma and applies it to the newly admitted nonsplit global harmonic metric, including W, exterior-square W and their duals. The differential domains and reduced L2 cohomology agree with those of the explicit reference metric despite the compulsory mixing. Harmonic representatives and adjoint domains need not agree. An additional explicit radial cochain map proves equal multiplicities for every positive flag amplitude in this supplied family. All 77 exact controls and six tests pass on the first run after the seal was pushed.
+
+This removes an explicit-global-profile prerequisite and a positive-amplitude choice from the counting problem, not from all physics. No mode count, closed-range theorem or selected end sector is inferred from equivalence alone. The supporting next task is now the weighted global reference complex and its core restriction maps in both charged slots; do not rescan positive amplitudes or reuse the different F11 coefficient's peripheral acyclicity. The primary genesis task remains deriving the physical dictionary and end class. The full objective is still active and unachieved.
+
 ### October 13 handoff through Gate 11
 
 The [new handoff review](gate11_review_2026_10_13/FINDINGS.md) personally reads the later reports, verifies archive custody and replays ten unchanged instruments: all279 predicates pass, with four floating residual differences disclosed rather than a claim of wholly bitwise reproduction. Five additional exact checks confirm that the source L/R matrices already satisfy the metaplectic presentation without rephasing. Gate11's valid obstruction concerns an unchanged ordinary extension to the enlarged sign group; it does not undo B1634 or create a missing lift on the current ruled branch. The archive's enlarged-alphabet continuation must be reconciled with GENESIS v1.41's recorded rulings before it is treated as the next task.

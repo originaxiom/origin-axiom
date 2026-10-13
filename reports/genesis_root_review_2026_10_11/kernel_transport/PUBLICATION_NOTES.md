@@ -1,0 +1,9 @@
+# Publication checks and retained limits
+
+October 13, 2026. Both pre-seal and result-stage governance runs exit 1 with 25 passing categories and the same five previously recorded failures: attribution, path references, test vacuity, seal provenance and relay debt. No new packet path is named. Seal digests pass. These existing failures have not been waived or relabeled green; a full repository suite was not rerun for this packet.
+
+The scientific first run remains successful: 77 exact predicates, six tests, two zero exits, empty stderr and unchanged hashes for all five sealed files. Every copied execution file is byte-identical to its original scratch output by cmp. A further receipt check verifies every raw stream's length/hash and all source digests.
+
+The first hand-written publication-integrity command failed with `TypeError: 'PosixPath' object is not subscriptable`, because a path join was mistyped as indexing. This was a receipt-check command after the scientific runs, not a scientific verifier failure. A corrected loop using path division checked each actual source and stream and passed. No scientific source, expected value, tolerance or first-run output was changed; the original failed check is disclosed here instead of being counted as verification.
+
+The staged whitespace check passes. Only the new packet and the two local dependency/status views are included in the result commit; unrelated dirty work remains untouched. This note follows the governance snapshot and is not recursively certified by it. The publication is branch research with an authored analytic proof, not independent specialist acceptance, canonical adoption, a new shared bank number or a completed physical theory. The write-page skill was used to preserve the existing repository format and keep derivations, inherited results and remaining assumptions distinct.
