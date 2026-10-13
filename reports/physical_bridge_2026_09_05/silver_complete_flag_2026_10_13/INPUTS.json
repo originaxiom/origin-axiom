@@ -1,0 +1,100 @@
+{
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "foreign_foundation_commit": "5586a3c2d29598f89c5a046e62c832f8f228073b",
+  "scope": "one complete cusp charged complex; supplied positive end; no target family count",
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/DESIGN.md",
+      "bytes": 5035,
+      "sha256": "29bcbd75a17c1b371ac8665795d8005706c5ac23327eb5554c6dfc2bcd025a0b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/PROOF.md",
+      "bytes": 8953,
+      "sha256": "e6a814a1c5cda51c17cee9b8055b48b6a581d9df12a77e6b082ae932743bb1a9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/SOURCE_AUDIT.md",
+      "bytes": 2981,
+      "sha256": "8ff218920cef2a2836e4b072484522760886e731b36c9e1d051ecdce33744d05"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/execute.py",
+      "bytes": 3893,
+      "sha256": "a7b56c9d4c6b5d7759faa17dad27df4fec64d6f128fc4265a60cb2769f7349cb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/probe.py",
+      "bytes": 9786,
+      "sha256": "4842b8c67052cf23d2b6d6fffc75b201fa56cb11e1c3abb28c659808c2e47b7d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/reference.py",
+      "bytes": 4927,
+      "sha256": "cdb5743bc304e4f394a21b0af932af97e1776d79dadb516d80614201b86044ee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/admission_PROOF.md",
+      "bytes": 9679,
+      "sha256": "899ecfc306683155d9c396c7f92365c0f4679f4a9498698ae7da973817d0f9a0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/complete_domain_PROOF.md",
+      "bytes": 9672,
+      "sha256": "bf4e414902ce2699484db67e720ffc155791559d5ff3e476330f7e1b9796c720"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/transport_PROOF.md",
+      "bytes": 11768,
+      "sha256": "a2ab03d02337b5203a0921ff54bb0f40e7dcb955eba5897b9f965c8008530fc6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/FINDINGS.md",
+      "bytes": 7118,
+      "sha256": "bf2f18d78d2d9c38f098dfb282684bda833901c636f6fe86b8e08ad140972209"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "bytes": 10193,
+      "sha256": "83ea7b7310615769810a51753624db22ce7366d8deeb12b879f3672471d29ae7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/candidate.json",
+      "bytes": 640,
+      "sha256": "6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/probe.py",
+      "bytes": 10325,
+      "sha256": "908ac5f016cbbcdceb7b06061bba45dafef12b500faf234dade145136a6b9553"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/reference.py",
+      "bytes": 11472,
+      "sha256": "1a91f151102c5615165cf423d434cd11c5f91b8451b1cc3cb365ca7e262dee16"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF.md",
+      "bytes": 9305,
+      "sha256": "d3eb15c5bb5e4d90c319e662eb65f906c10decf45772953ccdcb632b48de0f5b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/probe.py",
+      "bytes": 10808,
+      "sha256": "6cb7faaabb09b3726374e0d9b8c19b0ff2aa3b6a102bec211044502dcba6ea64"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/PROOF.md",
+      "bytes": 6979,
+      "sha256": "72d65948fc0e800a46d17a7f4f36f98bb3bbf53594075356f1de23df62a75976"
+    },
+    {
+      "path": "tests/test_physical_bridge_silver_complete_flag.py",
+      "bytes": 3415,
+      "sha256": "c03eb17d2e1039519074bf375368eeb3e73cf2ed2aed3c65782569c5f608cb4f"
+    }
+  ]
+}
