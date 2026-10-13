@@ -106,6 +106,20 @@ selecting τ needs a stated functional, and potentials built from the threads se
 - **Revisit when** a forcing of the unit is found, on main or on the audit lane, or when a physical end mechanism at
   the cusp is derived.
 
+## A ruling of 2026-10-13: the order after the overlaps reading (C0)
+
+- **The question, after C0** (the dossier's "Reading: couplings as overlaps on the shared fibre"). In the record's
+  T ⊗ T reading, a coupling as an overlap on the fibre needs a Higgs that carries a parity. No such Higgs has a
+  normalizable massless mode: its one class sits at the puncture's end (GENESIS GAP2's kind, as GENESIS FK10 at the
+  cusp).
+- **The options the seat set out.**
+  - D1 first: the one-loop potential on (τ, Wilson line), with no new postulate.
+  - The Higgs's boundary class at the puncture as a tagged end condition, so that the couplings become numbers.
+  - A Higgs from outside the fibre, which gives back the free coefficients.
+- **The owner's choice: "D1 first (Recommended)".**
+  - No end condition is added. The overlaps' fork waits until D1 is read.
+- **Revisit when** D1 is recorded.
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:

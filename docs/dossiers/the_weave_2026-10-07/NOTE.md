@@ -102,6 +102,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   number times a tensor on M; a Higgs neutral under the common point gives zero (ε(ℓ, ℓ) = 0); one that carries a
   parity has no normalizable massless mode (its class lives at the puncture). So W59 needs the owner's fork: the
   Higgs's boundary class as a tagged end condition, a Higgs from outside the fibre, or D1 first.
+- The owner ruled "D1 first" (2026-10-13). Reading, the design of D1 (nothing computed by a script): every sector's
+  two-dimensional one-loop determinant is a power of y|η|⁴ or a parity theta constant (the matter's through the genus-3
+  cover and Kokotov's formula), so τ sits at ω, runs to the cusp, or is flat. A hypercharge Wilson line splits d from
+  e at a symmetric point only on a 3-torsion line (the colour centre's), and those lines are symmetric only at ω.
 
 ## The setting
 
@@ -4408,9 +4412,9 @@ target is the double ratio. It covers the candidates, equivariance and convergen
      mode, and the fibre supplies none that is normalizable and carries a parity.
    - **The fork.**
      - (a) Accept the Higgs's boundary class at the puncture as a tagged end condition. It is one class per channel and
-       the moves permute the channels, so one normalisation serves all three. The couplings are then numbers:
-       Y = Σ_p h_p c_p(τ) N_p, with the state (τ, the Higgs's direction h) as the only freedom. W59 would compute c_p(τ),
-       then the hypercharge twist and the double ratio.
+       the moves permute the channels, so one normalisation serves all three. The couplings are then numbers,
+       Y = Σ_p h_p c_p(τ) N_p, with the state (τ and the Higgs's direction h) as the only freedom. W59 would
+       compute c_p(τ), then the hypercharge twist and the double ratio.
      - (b) Take the Higgs from outside the fibre. Then the couplings are W53–W56's modular structure again, with the
        coefficients free.
      - (c) Go to D1 first, to see whether a potential selects a state at all.
@@ -4419,6 +4423,85 @@ target is the double ratio. It covers the candidates, equivariance and convergen
 
 **Status.** READING. Points 2 and 3 are proved by hand, point 1 follows from W49's computed T = ℓ ⊗ M, and points 4
 and 5 are design. Nothing is computed by a script. 0 of 19.
+
+## Reading: the one-loop potential on the shared fibre (READING, the design of D1; 2026-10-13)
+
+Nothing here is computed by a script. The owner ruled "D1 first" after C0 (2026-10-13; recorded in
+`docs/THE_OWNERS_RULINGS_2026-10-08.md`). This reading sets out what the potential on the field's states (τ and a
+Wilson line w) can and cannot say before W59 computes it. Each claim is marked: **[E]** exact for every potential
+with the stated symmetry, **[D]** derived here by hand from cited theorems, or **[P]** planned for W59.
+
+**Weave or thread?** Weave-type: the sectors are the weave's local systems on the shared fibre, all at once. The field
+content (which fields, how many, bosons or fermions) is a dictionary datum (GENESIS FK11) that the weave does not fix.
+So the potential is stated sector by sector, and a claim about it holds for every content or names the content it
+needs.
+
+1. **What the potential is.** Integrating out the fibre's towers gives V = Σ_s ± n_s v(Δ_s): one term per sector s,
+   with sign + for bosons and − for fermions. Here v is the fibre's own one-loop term, the regularized log det (two
+   dimensions), or the six-dimensional Casimir sum (ζ at s = 3).
+2. **[E] The symmetric points.**
+   - **τ.** i and ω are stationary for every modular-invariant potential (relay §38).
+   - **w, at every τ.** V(w) = V(−w), since conjugate bundles have one spectrum. So the four 2-torsion lines are
+     stationary.
+   - **w, at τ = ω.** The order-3 rotation of the hexagonal torus permutes the three parities (W40, W50). So a content
+     that treats the parities alike (THE WEAVE's rule) is invariant under it. Its fixed points, 0 and two 3-torsion
+     points, are then stationary too.
+3. **[D] The sectors' two-dimensional determinants, in closed form.**
+   - **Trivial sector:** det′ Δ = A · y|η|⁴ (Kronecker's first limit formula), with y = Im τ and A the area.
+   - **A parity sector χ_p with a U(1) line w acting with charge q:**
+     det Δ = |θ_p(qw | τ)/η(τ)|² · exp(−2π q² (Im w)²/y). This is Kronecker's second limit formula (Ray and Singer).
+   - **The three parities jointly:** θ₂(z)θ₃(z)θ₄(z) = η³ θ₁(2z)/θ₁(z), so the product of the three is
+     |θ₁(2qw)/θ₁(qw)|² · exp(−6π q² (Im w)²/y).
+     - At w = 0 it is 4 (Jacobi): W51's flat joint determinant.
+     - 4 is also the degree of the unbranched four-fold cover on which the parities become trivial.
+   - **The common point ρ_Q** (the matter's sector, with its −1 at the puncture).
+     - ρ_Q's image is the quaternion group, so it becomes trivial on W21's genus-3 cover Σ_τ. That cover has degree 8
+       and is branched only over the puncture, with four cone points of angle 4π.
+     - Its Jacobian is isogenous to E_τ times an abelian surface that does not vary, since W21's period map is
+       constant.
+     - Kokotov's formula: det Δ_Σ = C · Area · det Im 𝔹 · |τ_B|². Here τ_B is the Bergman tau function on the stratum
+       H(1, 1, 1, 1). It is holomorphic and nowhere zero along the family. It has weight ½: weight 1 from det(C𝔹 + D),
+       and −½ from the stratum's homogeneity p = ½. So τ_B ∝ η.
+     - At fixed area, with ζ_Σ(0) = −3/2 (each cone point of angle 4π gives −1/8; the zero mode gives −1),
+       det Δ_Σ ∝ y^{1/2}|η|². This is modular invariant, as it must be.
+     - The cover's spectrum splits by the quaternion group's representations, with ρ_Q twice. Dividing out the trivial
+       and parity factors leaves **det Δ_{ρ_Q} ∝ (y|η|⁴)^{−1/4}.**
+   - **So, without a Wilson line,** every scalar sector's two-dimensional determinant is a power of y|η|⁴ or a parity
+     theta constant, and the parities together give a constant.
+     - For a content that treats the parities alike, V(τ) = N · log(y|η|⁴) + const, with N fixed by the content.
+     - Its only interior stationary points are i (a saddle) and ω (y|η|⁴ is largest there; W51).
+     - So τ sits at ω, runs to the cusp, or is flat (N = 0, as with supersymmetry). It is never at a generic point,
+       such as W58's 1.0685 i.
+   - **The limits of this.**
+     - A Dirac sector with zero modes brings in their norm, W41's invariant g(τ). Its τ-dependence is to be computed.
+     - The six-dimensional Casimir sum is not a determinant. For the matter's sector it has no closed form here.
+     - The Kokotov step is a derivation, not a computation. W59 checks the steps it can: the genus, the cone angles,
+       the ζ(0) bookkeeping, and the periods of the fixed abelian surface.
+4. **[D] Where a Wilson line can split the down quarks from the charged leptons at a symmetric point.**
+   - **The charges.** In units of 6Y: Q 1, u^c −4, d^c 2, L −3, e^c 6, H 3.
+   - **A 2-torsion line.** Each field sees its charge times the line, modulo the lattice: the doublets ½, the
+     singlets 0. That is the same for quarks and leptons. So **no 2-torsion hypercharge line splits d from e.**
+   - **A 3-torsion line.** 6Y mod 3 is 1, 2 and 2 for Q, u^c and d^c, and 0 for L, e^c and H. So the quarks are
+     twisted and the leptons and the Higgs are not.
+     - This is the ℤ₃ in the Standard Model's ℤ₆ (W29). Such a line acts on every field as the colour centre does. It
+       breaks no symmetry and twists only the quarks.
+   - **The 3-torsion lines are stationary for every content that treats the parities alike only at τ = ω** (point 2).
+   - **So the record's one route to a d–e split at a symmetric state is τ = ω with a 3-torsion hypercharge line**,
+     the colour centre's. Whether it is a minimum depends on the content.
+   - **The tension.** At ω the couplings W50 computed are degenerate. Whether the line lifts the degeneracy is to be
+     computed.
+5. **[P] W59, D1's computation (rule first).**
+   - Check point 3's closed forms numerically: Kronecker's formula against a direct ζ sum, the joint identity, and the
+     cover's bookkeeping.
+   - Map the stationary points of the abelian Wilson-line potential on the Jacobian, at τ = ω and at a generic τ:
+     - for the hypercharges above, in the Higgs's parity sector and in each parity sector;
+     - with both signs.
+   - At τ = ω on the 3-torsion line: each sector's characteristics, and whether the line is a minimum for either sign.
+   - The couplings at that state need C0's fork (a), which waits for the owner.
+
+**Status.** READING. Point 2 is exact. Points 3 and 4 are derived by hand from cited theorems: Kronecker's limit
+formulas, Jacobi's identities, and Kokotov's determinant formula with its tau function's weight. Nothing is computed by
+a script. 0 of 19.
 
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 

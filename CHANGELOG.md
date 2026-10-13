@@ -1,5 +1,18 @@
 # Changelog
 
+## The owner's ruling "D1 first"; Reading: the one-loop potential on the shared fibre; relay section 69
+
+- **The owner's ruling (2026-10-13):** "D1 first". No end condition is added for the Higgs, and C0's fork waits.
+  Recorded on the rulings page.
+- **A READING** (the design of D1; nothing computed by a script; claims marked exact or derived):
+  - every invariant potential is stationary at i and ω in τ, and on the 2-torsion Wilson lines; at ω also on two
+    3-torsion lines;
+  - each sector's two-dimensional determinant is in closed form, the matter's through W21's genus-3 cover and
+    Kokotov's formula, (y|η|⁴)^{−1/4}; so τ sits at ω, runs to the cusp, or is flat;
+  - a hypercharge line splits d from e at a symmetric point only on a 3-torsion line (the colour centre's).
+- **Relay §69** to main. **Surfaces.** The rulings page, the dossier (the reading, the header), the state page, the
+  relay and the ledger.
+
 ## Reading: couplings as overlaps on the shared fibre (C0); relay section 68
 
 - **A READING** (C0 of the approved plan; nothing computed by a script; two points proved by hand):

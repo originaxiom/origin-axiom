@@ -361,6 +361,16 @@ Under the owner's rulings, the table's rows split into two groups:
   - A Higgs that carries a parity has no normalizable massless mode on the fibre: its one class lives at the puncture.
   - So the next arc needs the owner's fork: the Higgs's boundary class as a tagged end condition, a Higgs from outside
     the fibre, or the potential (D1) first.
+- **The owner's ruling (2026-10-13): "D1 first."** No end condition is added, and the overlaps' fork waits for D1
+  (`docs/THE_OWNERS_RULINGS_2026-10-08.md`).
+- **Reading: the one-loop potential on the shared fibre (the design of D1; nothing computed by a script):**
+  - Every sector's two-dimensional determinant is a power of y|η|⁴ or a parity theta constant. The matter's comes
+    through the genus-3 cover and Kokotov's formula, which gives (y|η|⁴)^{−1/4}.
+  - So, for a content that treats the parities alike, τ sits at ω, runs to the cusp, or is flat. It is never at a
+    generic point.
+  - A hypercharge Wilson line splits d from e at a symmetric point only on a 3-torsion line (the colour centre's), and
+    those lines are symmetric only at ω.
+  - W59 computes these with the rule first.
 
 ## Questions open with main
 
@@ -379,4 +389,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W58 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§68).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§69).

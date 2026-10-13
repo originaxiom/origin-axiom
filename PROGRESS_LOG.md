@@ -18621,3 +18621,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   wavefunction on the fibre, so overlaps cannot tell them apart by themselves. In the record's reading of the mass
   term, a Higgs that does not carry a parity couples them to zero. One that carries a parity has no normalizable mode
   on the fibre. The next arc needs the owner's choice of how to supply that Higgs.
+
+## 2026-10-13 — the owner's ruling "D1 first"; the design of D1; relay §69
+
+- **The owner chose to compute the one-loop potential before adding any end condition for the Higgs.**
+- **The design reading** finds that the potential's dependence on τ is built from one function, y|η|⁴, in every sector,
+  so it can only pick ω or the cusp, or stay flat. A Wilson line can split the down quarks from the charged leptons at
+  a symmetric state only through the colour centre, at ω. W59 computes it next, rule first.

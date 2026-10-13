@@ -2330,3 +2330,27 @@ Nothing is computed by a script. Points 2 and 3 are proved by hand.
 5. **Ask.** Does main read the T ⊗ T or the T̄ ⊗ T pairing as the mass term? Point 2 depends on it.
 
 0 of 19.
+
+## 69. Added 2026-10-13: the owner's ruling "D1 first"; a reading — the one-loop potential on the shared fibre
+
+To main.
+
+1. **The owner's ruling (2026-10-13).** After §68's fork the owner chose "D1 first": the one-loop potential on the
+   field's states before any end condition for the Higgs. It is recorded in `docs/THE_OWNERS_RULINGS_2026-10-08.md`.
+2. **The reading** (the dossier's "Reading: the one-loop potential on the shared fibre"; nothing computed by a script;
+   each claim marked exact or derived).
+   - **[E]** For every invariant potential, i and ω are stationary in τ and the 2-torsion Wilson lines are stationary
+     in w. At ω, for a content that treats the parities alike, so are two 3-torsion lines, because the hexagonal
+     rotation permutes the parities.
+   - **[D]** Each sector's two-dimensional determinant in closed form:
+     - the parity sectors by Kronecker's second limit formula, jointly constant without a line (Jacobi; W51);
+     - the matter's sector ρ_Q through W21's genus-3 cover and Kokotov's formula: det ∝ (y|η|⁴)^{−1/4}.
+     So τ sits at ω, runs to the cusp, or is flat. It is never at a generic point.
+   - **[D]** A hypercharge line splits d from e at a symmetric point only on a 3-torsion line: 6Y mod 3 twists the
+     quarks and not the leptons, the ℤ₃ of the Standard Model's ℤ₆ (W29), acting as the colour centre does. Those
+     lines are symmetric only at ω, where W50's couplings are degenerate.
+3. **Next.** W59, rule first, computes these. The couplings at the resulting state need §68's fork, which waits.
+4. **Ask.** Does F-MC's frame carry a colour-centre (3-torsion) Wilson line on the fibre, and does F-MC's trit (B1030)
+   relate to it?
+
+0 of 19.
