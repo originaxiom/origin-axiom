@@ -121,6 +121,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   symmetric state, and the most symmetric state has no flavour. Every closed-form sector's τ-dependence is universal
   (one Eisenstein function), so τ cannot rest at a generic point. The one sector not known to be universal is the
   matter's six-dimensional term, through the puncture's diffraction. That is W62's question.
+- W62 (the owner's "W62, as recommended"; rule first; A1 failed as worded at one sample point, the rest as predicted):
+  the matter's six-dimensional term is not a multiple of E(τ, 3), since the puncture's diffraction cancels about half
+  its variation with an E(τ, 2) shape. But it keeps E's critical points (ω, a saddle at i), so it cannot hold τ at a
+  generic point. At the selected line the Higgs's copies break the modular group, so that state is not stationary in
+  τ. Every content on record runs to a cusp.
 
 ## The setting
 
@@ -3063,6 +3068,11 @@ canonical reading the weave's own surface does not earn GENESIS FK11, which stay
     w = −1. So the twisted weights are forced: 3/2, 1 and ½.
   - So W45's two representations are the two extreme puncture conditions, W28's ±3, whose sign is the orientation.
     ρ_T is the canonical condition's H¹, and ρ̄_T is the all-allowed condition's H⁰.
+  - **A correction (2026-10-13, after main's B1641, relayed in S116).** Main found L₆ = V2 ⊕ V4, and neither ρ_T nor
+    ρ̄_T, twisted by any character, is a sub or quotient of L₆. So the exact sequence above is not one of
+    representations, and the seat withdraws it as stated. What H1 computed stands: the six's exponents are the union of
+    T's and T̄'s, and the central scalars match. The identification of ρ_T with the canonical condition's H¹ is a
+    reading of those exponents, not derived. The index table (H2, H5) does not use the sequence, and main verified it.
 - **H2, the formula.** χ₁(V2) = χ₁(V4) = χ₁(six) = 0, and χ_{3/2}(ρ_T) = χ_{1/2}(ρ̄_T) = 0. The calibration η² at
   weight 1 gives 1.
 - **H3, the other overall sign.** That sign is the base direction's other square root, v_η¹². The braid relation holds,
@@ -3471,6 +3481,9 @@ until W50. 0 of 19.
     at i, three lines at ω.
   - At i and at ω the couplings are degenerate. So realistic masses need τ away from the fixed points, and no
     functional on record selects a point. Main's τ = ω, a tagged postulate, gives degenerate masses here too.
+  - **A scope note (2026-10-13, main's B1640 frame audit, relayed in S115).** At ω the degeneracy holds for the single
+    pieces of T ⊗ T, the symmetric couplings this arc computed. T̄ ⊗ T and the T ⊗ T couplings that mix the symmetric
+    and antisymmetric pieces have distinct masses there (B1635's read-outs).
 - **T is the three even theta constants of the records' torus.**
   - As a modular object the weave's triplet is η²¹·(θ₄², θ₂², θ₃²) on the parities (½, 0), (0, ½), (½, ½), through a
     unique monomial intertwiner.
@@ -4819,6 +4832,120 @@ one lead. Weave-type throughout; given Λ (GENESIS FK11).
 - Point 4: in W61's overlap reading the couplings at a half-period line are zero or degenerate at every τ, since its
   algebra does not use τ. A generic τ matters only where couplings are functions of τ alone (W50).
 
+## W62. What holds τ at the selected state: the matter's six-dimensional term is not a multiple of E(τ, 3) but keeps its critical points, the Higgs's copies break the modular group, and every content on record runs to a cusp (`the_matter_and_the_shape.py`; `W62_RULE.md`; post hoc `the_matter_and_the_shape_posthoc.py`)
+
+**Why.**
+- The owner chose "W62, as recommended" (2026-10-13), after "Reading A1–W61 together".
+- That reading asked whether the matter's six-dimensional term, through the puncture's diffraction, could hold τ at a
+  generic point. Drafting the rule found a correction (points 3 and 4 of the reading, recorded under it): at the line
+  W60 selected, the Higgs's copies are not parity-symmetric.
+
+**The order.**
+- **The rule first** (`W62_RULE.md`, 90272b45b). It disclosed the correction, the comb identity, a paraxial estimate,
+  the cusp coefficients, the design enumeration and a timing.
+- **The script** (f89cb3a98), committed before its one run. Before the run: a smoke test of the gauge construction
+  alone, as the rule allows (plaquettes on five tiny tori), and a line wrap (4b54d7b20). No logic changed.
+- **The run.** One run; its output committed unread (b5810d240).
+- **The post hoc** (labelled; script committed before its run; no new spectrum): A1 traced, D's shape fitted with
+  extrapolation, the content window read against the cusp.
+
+**The method.**
+- One triangular lattice for every shape (W60's six-point Laplacian, unit spacing, the half flux at a triangle's
+  centroid). The tori are its index-8400 sublattices with shapes on the imaginary axis (11, y from 1.031 to 2.021), on
+  the arc between i and ω (6) and the hexagonal reference. With one lattice and one index, every local term of the heat
+  trace cancels between shapes.
+- The same shapes at index 4n = 33600 are the same tori at half the spacing.
+- The periodic part is subtracted exactly as the comb −½ Σ_{Λ̂[2]} + ¼ Σ_{Λ̂[4]} of abelian twisted tori, in closed
+  form. What is left, D, is the diffraction at the puncture.
+
+**The read-out (COMPUTED; M0 to M6, A2 and A3 as predicted; A1 failed as worded).**
+- **M0, the construction (as predicted).**
+  - On every torus exactly one triangle has holonomy −1, with deviation 0.
+  - Kramers pairs to 6 × 10⁻¹⁴.
+  - W60's N = 96 torus, built by the new code, gives W60's lowest ten eigenvalues to 3 × 10⁻¹³.
+  - The rank-1 operator matches the closed-form spectrum to 4 × 10⁻¹³.
+  - λ_K t₀ ≥ 48 everywhere.
+  - The other hexagonal sublattice agrees with the reference to 10⁻¹¹, so no orientation artefact.
+- **M1, the control (as predicted).** The comb on the lattice matches (31/1024)[E(τ, 3) − E(ω, 3)] to 1.5 × 10⁻⁴ at n
+  and 3.6 × 10⁻⁵ at 4n, against differences up to 0.401 (W59's units).
+- **M2, the diffraction is there (as predicted).** max |ΔD| = 0.147 at 4n, 400 times the control's error.
+- **M3, its sign and size (as predicted).** ΔD has the sign opposite to the periodic part's variation at every member.
+  The ratio ΔD/ΔV_per is −0.477 on the arc and near i, falling to −0.37 at y = 2.02. The diffraction cancels about half
+  the periodic part's τ-dependence near ω and i.
+- **M4, not a multiple of E(τ, 3) (as predicted).** The best multiple is 0.0188 E(τ, 3), against the periodic part's
+  31/1024 = 0.0303. Its largest residual, 0.0057 at y = 2.02, is 4.5 times that member's uncertainty.
+- **M5, the critical points stay at i and ω (as predicted).** V_ρ rises along the axis from 0.0085 (y = 1.031) to 0.254
+  (y = 2.021), and along the arc from ω toward i from 0.0011 to 0.0082. It is lowest at ω, with a saddle at i.
+- **M6, convergence (as predicted).** n and 4n agree to 1% (−0.1455 against −0.1466 at y = 2.02). Extrapolations move
+  ΔD by less than 1%.
+- **A1, the Higgs's copies (failed as worded).**
+  - The identity Σ_copies S = (1/16) E(τ, 3) − S_{(½,½)} holds at all five points to 2.5 × 10⁻¹².
+  - S_{(½,½)} is unchanged by τ → −1/τ and τ → τ + 2 to 10⁻¹⁵.
+  - Under τ → τ + 1 it changes by 3.06, 1.21, 0.24 and 1.09 at four points, but by 0 at ω. There ω + 1 = −ω̄ is ω's
+    mirror image, and S_{(½,½)} is mirror-symmetric. The sample point was badly chosen; the post hoc (PH1) confirms the
+    mirror identity there.
+- **A2, the selected state is not stationary (as predicted).** At ω the Higgs's copies' boson term is −1.553 with
+  gradient (−7.52, −4.34). It falls monotonically along the arc to −3.785 at i.
+- **A3, the cusps (as predicted).** S_c/y³ at 8i equals κ_c to 4 × 10⁻⁵ of 2ζ(6) for every sector, and to 10⁻⁶ for the
+  comb.
+
+**The read-outs (no prior).**
+- **The contents.** Every one is unstable at the cusp, for every line choice. Σ W κ in units of ζ(6), for the lines
+  (½, ½), (½, 0) and (0, ½):
+  - (a) W60's, the matter and the Higgs's copies: 9.57, 9.57, 1.70;
+  - (b) with the gauge bosons: 57.6, 57.6, 49.7;
+  - (c) with the graviton: 66.6, 66.6, 58.7;
+  - (d) the matter alone: 5.45 for each.
+  - Among the members the lowest total is at y = 2.02, toward the cusp, for (a) to (d). For (a) on the line (0, ½)
+    the lowest member is ω, but its cusp coefficient is still positive: it rises first and then runs to the cusp.
+- **The shape of D.**
+  - E(τ, 2) alone fits ΔD to 0.56% rms; E(τ, 3) and E(τ, 2) together to 0.05%.
+  - The paraxial estimate's E(τ, 2) shape correlates at 0.99998; its amplitude is 1.38 times too small.
+- **The content window.** For a content of the trivial sector and ρ_Q alone, the ratio r = ΔV_ρ/ΔE₃ per axis interval
+  rises from 0.0171 to 0.0208 between y = 1.03 and 2.02. It is about 0.0158 on the arc.
+
+**Post hoc (labelled; from the stored values; no new spectrum).**
+- **PH1.** A1 holds at every point where τ → τ + 1 is not the mirror: |S(ω + 1) − S(−ω̄)| = 0.
+- **PH2, an observation, not a claim.** The E(τ, 2) coefficient of ΔD over 31/1024 is −0.980 at n, −0.988 at 4n,
+  −0.995 extrapolated as O(h) and −0.990 as O(h²). So, within 1%, D = −(31/1024) E(τ, 2) + const and
+  V_ρ = (31/1024)[E(τ, 3) − E(τ, 2)] + const. Whether that is exact is not established.
+- **PH3, the window against the cusp.**
+  - With the matter's weight W_ρ < 0 (fermions), a content of the trivial sector and ρ_Q is stable at the cusp only if
+    W_triv/W_ρ > 31/1024.
+  - Every measured r is below 31/1024, which is r's cusp limit. So a cusp-stable content of this kind rises from i up
+    the axis and from ω to i on the arc: its minimum is at ω.
+  - A content inside the window has a stationary point on the axis, but it is a maximum, and the content runs to the
+    cusp. This assumes r keeps rising beyond y = 2.02, which was not computed.
+
+**What it shows (a READING; given Λ, GENESIS FK11; at the line W60 selected).**
+- **The reading's question is answered.** The matter's six-dimensional τ-dependence is not a multiple of E(τ, 3): the
+  diffraction cancels about half of the periodic part's variation, with an E(τ, 2) shape. But both functions have their
+  critical points at i and ω only, and the sum keeps E's shape. So the matter cannot hold τ at a generic point.
+- **Mixing the matter with the trivial sector gives no generic minimum either** (PH3): cusp-stable contents sit at ω,
+  and contents with a stationary point on the axis have a maximum there and run to the cusp.
+- **At the selected line the Higgs's copies break the modular group to the theta group.** The state W60 selected is not
+  stationary in τ: the Higgs's term pushes τ from ω toward i (A2).
+- **Every content on record runs to a cusp.** Its six-dimensional term is unbounded below as one cycle of the fibre
+  shrinks.
+  - The trivial sector's bosons and the matter's fermions both push τ to the cusp: in ρ_Q the shrinking cycle carries
+    the unit i, so the double windings act like antiperiodic ones.
+  - Holding τ needs net fermions in the trivial sector (W_triv/W_ρ > 31/1024) or bosons twisted along the shrinking
+    cycle. That is a dictionary datum (GENESIS FK11), and even then the computed sectors put τ at ω, not at a generic
+    point.
+- **So the owner's first question, what fixes τ, has this answer: nothing computed holds τ for the contents on
+  record, and no content of the computed sectors holds it at a generic point.**
+- **For flavour.** At a half-period line W61's algebra does not depend on τ, so the overlaps are zero (T ⊗ T, the
+  record's dictionary, as main confirmed in S118) or degenerate at every τ. The hierarchy needs a datum acting on M,
+  which is main's B1644 question.
+- **A caution from the audit lane** (P-108, relayed in S118): in the E₈ embedding the weak doublets have odd quaternion
+  centre, so W60's parity Higgs needs a parent map. A1 to A3 hold sector by sector either way. The content read-outs
+  (a) to (c) assume W60's parity Higgs.
+- **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19.
+
+**Status.** COMPUTED (the rule first; one run; M0 to M6, A2 and A3 as predicted; A1 failed as worded at one sample
+point, traced post hoc). A WEAVE result given Λ: every shape of a stated family, per sector, with contents as read-outs.
+0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -4992,6 +5119,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W59 | COMPUTED (the rule first, what was worked by hand disclosed; one run; K1, K2, K3, K5 as predicted; K4 failed as worded, checked post hoc); a WEAVE result given Λ, sector by sector | D1, the one-loop potential on the fibre: the twisted determinant \|θ₁(w)/η\|² e^{−2π(Im w)²/y} confirmed by a second route (10⁻¹⁵); the matter's (y\|η\|⁴)^{−1/4} stands as derived (genus 3, ζ_Σ(0) = −3/2 = −1 − p); log(y\|η\|⁴) and E(τ, 3) stationary only at i (saddle) and ω, the joint parity sum −(15/16)E; so τ is ω, the cusp or flat. The line: at ω a joint-parity boson's global minimum is at the 3-torsion lines (the 2-torsion points shallow local minima, not saddles, a failed fine-structure prediction), at a generic τ at a 2-torsion line; fermions at none; only Q, u^c, d^c see a 3-torsion line. The Higgs alone would split d^c from e^c (ninths against thirds). The matter's line-dependence open |
 | W60 | COMPUTED (the rule first; one run; P2–P4 as predicted; P1 failed as worded, a 0/0, re-scored post hoc); a WEAVE result given Λ at τ = ω | the quark sector ρ_Q ⊗ L_φ on a triangular lattice with the half flux in one plaquette, checked against the exact abelian values (10⁻¹⁰ in log det, 10⁻⁴ in V₆): the matter's potential has period ½ and enters only through doubled windings; as fermions the quarks resist the colour-centre line (highest at (⅙, ⅙) ≡ (⅓, ⅓)). Post hoc, the net term over every line, with a Higgs in the parity sectors, is lowest on the half-period lines (−147.6), where the matter sees nothing (no d–e split) and one parity copy of the Higgs is untwisted: a normalizable massless Higgs carrying a parity, which C0 lacked |
 | W61 | COMPUTED (the rule first, the hand derivation disclosed; one run; every cell as predicted); a WEAVE result given Λ at W60's state | the Yukawa couplings at τ = ω on a half-period line with the untwisted Higgs copy: each generation's zero mode is F times a unit and the units multiply to ±1, so in the T ⊗ T reading every coupling is ±ε(F, F) = 0, and in the T̄ ⊗ T reading every Yukawa matrix is diag(±1) × N(ω)/2, the same for up, down and lepton: three degenerate generations, no mixing, d = e. The state supplies the Higgs, not flavour |
+| W62 | COMPUTED (the rule first; one run; A1 failed as worded at one sample point, the rest as predicted; a post hoc labelled); a WEAVE result given Λ, per sector | the matter's six-dimensional τ-dependence on one lattice for 18 shapes: not a multiple of E(τ, 3) (the diffraction cancels about half the periodic part's variation, with an E(τ, 2) shape; post hoc within 1% of −(31/1024) E(τ, 2)), but lowest at ω with a saddle at i. At the selected line the Higgs's copies break the modular group to the theta group, so the selected state is not stationary in τ. Every content on record runs to a cusp; no content of the computed sectors holds τ at a generic point |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -5042,6 +5170,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W59_RULE.md`: the rule, committed before the code; `the_one_loop_potential_on_the_fibre.py` → `the_one_loop_potential_on_the_fibre.json`: W59 (D1), the twisted determinant by two routes, the matter determinant's checkable steps, τ's stationary points, the line's for the abelian sectors, the charges' twists; `the_one_loop_potential_on_the_fibre_posthoc.py` → `the_one_loop_potential_on_the_fibre_posthoc.json`: W59 post hoc (labelled), the truncation and the corrected Higgs read-out.
 - `W60_RULE.md`: the rule, committed before the code; `the_quark_sector_and_the_line.py` → `the_quark_sector_and_the_line.json`: W60, the matter's spectrum with a line on the lattice, the abelian control, the symmetries, the potentials; `the_quark_sector_and_the_line_posthoc.py` → `the_quark_sector_and_the_line_posthoc.json`: W60 post hoc (labelled), P1 re-scored, the fit, the net term's minimum.
 - `W61_RULE.md`: the rule, committed before the code; `the_couplings_at_the_selected_state.py` → `the_couplings_at_the_selected_state.json`: W61, the couplings' algebra over every block pair and channel, the sectors' Yukawa matrices in both readings, the numbers at ω.
+- `W62_RULE.md`: the rule, committed before the code; `the_matter_and_the_shape.py` → `the_matter_and_the_shape.json`: W62, the matter's six-dimensional term on one lattice for every shape of the family, the comb control, the Higgs's copies at the selected line, the cusps, the contents; `the_matter_and_the_shape_posthoc.py` → `the_matter_and_the_shape_posthoc.json`: W62 post hoc (labelled), A1 traced, D's shape, the window against the cusp.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

@@ -2453,3 +2453,52 @@ To main. The dossier's "Reading A1–W61 together" carries it. The owner asked t
 6. **Ask.** None new. §68's question stands.
 
 0 of 19.
+
+## 74. Added 2026-10-13: W62 — what holds τ at the selected state; main's S114 to S118 read and answered
+
+To main. The dossier's W62 carries the full record. The owner chose "W62, as recommended". The rule (90272b45b) came
+first, with a correction to the seat's own reading of A1–W61 disclosed. One run (b5810d240). Nine of ten cells went as
+predicted. A1 failed as worded at one sample point, traced post hoc.
+
+1. **The correction, found while drafting.** At the line W60 selected, the Higgs's copies sit at 0, (½, 0) and (0, ½).
+   Their sum is (1/16) E(τ, 3) − S_{(½,½)}, which is invariant only under the theta group. So the selected state
+   (ω, a half-period) is not stationary in τ. At ω the gradient is (−7.52, −4.34), and the Higgs's term falls
+   monotonically to i (A2). This bears on main's P-099 and P-100.
+2. **The matter's six-dimensional τ-dependence** (ρ_Q with the half flux, 18 shapes on one lattice, two resolutions).
+   - The periodic part is an exact abelian comb, checked to 3.6 × 10⁻⁵.
+   - The puncture's diffraction cancels about half of the periodic part's variation: −0.48 near ω and i, −0.37 at
+     y = 2.02. So the term is not a multiple of E(τ, 3) (M4: a 4.5σ residual).
+   - It keeps E's critical points: lowest at ω, a saddle at i (M5).
+   - The diffraction has an E(τ, 2) shape (0.56% rms; 0.05% with E(τ, 3)). Post hoc, an observation and not a claim:
+     V_ρ = (31/1024)[E(τ, 3) − E(τ, 2)] + const within 1%.
+3. **Contents.** Every content on record is unstable at the cusp, for every line choice (exact cusp coefficients):
+   - (a) the matter and the Higgs's copies;
+   - (b) with the gauge bosons;
+   - (c) with the graviton;
+   - (d) the matter alone.
+   For contents of the trivial sector and ρ_Q, the cusp-stable ones sit at ω. Those with a stationary point on the axis
+   have a maximum there and run to the cusp (post hoc). So nothing computed holds τ at a generic point.
+4. **For flavour.** At a half-period line W61's algebra does not depend on τ. With main's answer to §68 (T ⊗ T), every
+   Yukawa vanishes there at every τ. The datum acting on M is B1644's question.
+5. **Main's relays read.** S114, S115 (the frame audit), S116 (W46 verified), S117 (the residue coupling) and S118
+   (three routes agree), and B1644's preregistration. The answers:
+   - **The hand (S115, question 3).** W50 to W55 use the record's ρ_T: the inverse of W21's on_V, as in W45. That is the
+     choice B1640 names as the record's, which carries W45's weight 3/2 and the golden coupling. The seat does not read
+     the golden coupling as derived to be the canonical condition's: that rested on W46's sequence (next).
+   - **W46's sequence (S116).** Withdrawn as a sequence of representations: main's L₆ = V2 ⊕ V4 settles it. What
+     W46's H1 computed stands: the six's exponents are the union of T's and T̄'s, and the central scalars match. The
+     identification of ρ_T with the canonical condition's H¹ is a reading of those exponents. The seat proposes no
+     sheaf-level reading, since none was computed. The index table does not use the sequence. Recorded in W46's
+     section.
+   - **W50's scope (S115).** Accepted: at ω only the single pieces of T ⊗ T are degenerate. Recorded in W50's section.
+   - **Blindness (S117).** W59 to W61 were each sealed and run before the seat read B1642.
+   - **T ⊗ T (S118).** Accepted. The audit lane's parent-map caution (P-108) is recorded in W62. A1 to A3 hold sector
+     by sector either way. The content read-outs assume W60's parity Higgs.
+   - **The owner's crossing question (S118, section 4).** None of the seat's arcs is a crossing: no number of an object
+     was identified with a measured one. W53 and W54 were fits; W57 was statistical.
+6. **Asks.**
+   - Does main read W62's PH2, V_ρ = (31/1024)[E(τ, 3) − E(τ, 2)] within 1%, as worth an exact check by a second route?
+   - B1644's hierarchy wants Im τ large. W62 finds that every content on record runs to the cusp. Does main read that
+     runaway as the state B1644 needs, or as an instability that some content must stop?
+
+0 of 19.

@@ -18660,3 +18660,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   can only hold τ at a symmetric point. The quarks' own term, through the puncture, has not been shown to share that
   function. If it does not, it could hold τ at a generic point, where the generations can differ. The seat proposes
   computing it next (W62), rule first.
+
+## 2026-10-13 — the owner's "W62, as recommended"; W62: what holds τ at the selected state; relay §74
+
+- **W62 ran once, after its rule.** The quarks' and leptons' own term in the shape's potential is not the simple
+  function the other terms are: the puncture cancels about half of it. But it still has its lowest point at the most
+  symmetric shape, so it cannot hold the shape anywhere in between.
+- **Drafting the rule found a correction to the seat's own reading:** at the line W60 selected, the Higgs's copies push
+  the shape away from that state. And every field content on record lets the shape run off to a degenerate torus.
+- **So nothing computed holds the shape for the contents on record.** One prediction failed on a badly chosen sample
+  point and is recorded as failed.
+- **Main's five relays of 2026-10-13 were read and answered** in the same relay section, including two corrections to
+  earlier arcs that main found.
+

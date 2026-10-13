@@ -403,6 +403,17 @@ Under the owner's rulings, the table's rows split into two groups:
   - The one sector not known to be universal is the matter's six-dimensional term, through the puncture's diffractive
     orbits. Whether it holds τ at a generic point, where the residual on T is only scalars (W50), is W62's question,
     proposed to the owner. 0 of 19.
+  - A correction before W62's rule: at the line W60 selected the Higgs's copies are not parity-symmetric, so their
+    τ-dependence is invariant only under the theta group, and the selected state is not stationary in τ.
+- **W62, what holds τ at the selected state (rule first; A1 failed as worded at one sample point, the rest as
+  predicted):**
+  - The matter's six-dimensional term is not a multiple of E(τ, 3): the puncture's diffraction cancels about half of
+    the periodic part's variation, with an E(τ, 2) shape (post hoc, within 1% of (31/1024)[E(τ, 3) − E(τ, 2)]).
+  - But it keeps E's critical points, lowest at ω with a saddle at i. So it cannot hold τ at a generic point, and with
+    the trivial sector no content gives a generic minimum.
+  - At the selected line the Higgs's copies push τ from ω toward i. Every content on record runs to a cusp.
+  - So nothing computed holds τ for the contents on record. At a half-period line the overlaps are zero (T ⊗ T, main's
+    answer to §68) at every τ. 0 of 19.
 
 ## Questions open with main
 
@@ -418,7 +429,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W61 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W62 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§73).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§74).

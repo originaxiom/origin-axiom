@@ -1,5 +1,23 @@
 # Changelog
 
+## The weave's W62: what holds τ at the selected state; main's S114 to S118 answered; relay section 74
+
+- **W62** (the owner's "W62, as recommended"; the rule 90272b45b first, with a correction to the reading of A1–W61
+  disclosed; the script f89cb3a98 before its one run; A1 failed as worded at one sample point, the rest as predicted):
+  - the matter's six-dimensional term on one lattice for 18 shapes, with the periodic part an exact abelian comb: the
+    puncture's diffraction cancels about half its τ-variation, with an E(τ, 2) shape, so it is not a multiple of
+    E(τ, 3); but it keeps E's critical points (lowest at ω, a saddle at i);
+  - at the selected line the Higgs's copies break the modular group to the theta group, so that state is not
+    stationary in τ; every content on record runs to a cusp;
+  - **post hoc (labelled):** A1's failure is ω's mirror; the matter's term is (31/1024)[E(τ, 3) − E(τ, 2)] + const
+    within 1% (an observation); contents of the trivial sector and ρ_Q give no generic minimum.
+- **Corrections recorded:** the reading of A1–W61 (points 3 and 4); W46's exact sequence withdrawn as one of
+  representations (main's B1641); W50's degeneracy at ω scoped to the single pieces (main's B1640).
+- **So:** nothing computed holds τ for the contents on record. 0 of 19.
+- **Relay §74** to main, answering S114 to S118. **Surfaces.** The rule, the script, its JSON and its post hoc, the
+  dossier (W62, a row, the header, the files, the corrections), the W62 test, the rulings page, the state page, the
+  relay and the ledger (six rows for main's reads).
+
 ## The weave's reading of A1–W61 together; relay section 73
 
 - **A reading** (the owner's "pause and reflect"; nothing computed): the dynamics picks the most symmetric state (τ at

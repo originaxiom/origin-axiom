@@ -1496,6 +1496,37 @@ def test_w61_the_couplings_at_the_selected_state():
         assert np.allclose(prod, prod[0, 0] * np.eye(2)) and abs(abs(prod[0, 0]) - 1) < 1e-12
 
 
+def test_w62_the_matter_and_the_shape():
+    """W62 (the owner's "W62, as recommended"; the rule first; one run; A1 failed as worded at one sample point, where
+    tau + 1 is omega's mirror): the matter's six-dimensional term is not a multiple of E(tau, 3) but keeps its critical
+    points; the Higgs's copies at the selected line break the modular group; every content on record runs to a cusp"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_matter_and_the_shape.json").read_text(encoding="utf-8"))
+    cells = {"M0": True, "M1": True, "M2": True, "M3": True, "M4": True, "M5": True, "M6": True, "A1": False,
+             "A2": True, "A3": True}
+    assert d["cells"] == cells and d["every cell holds"] is False
+    big = d["the values (W59 units, against the reference)"]["4n"]
+    for name, v in big.items():
+        if name.startswith(("axis", "arc")):
+            assert v["dD"] * v["dV_per exact"] < 0 and abs(v["dD"]) < abs(v["dV_per exact"])
+    for content in d["read-outs"]["the contents"].values():
+        for line, row in content.items():
+            if not line.startswith("the lowest"):
+                assert row["stable at that cusp"] is False
+    ph = json.loads((here / "the_matter_and_the_shape_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["PH1"]["A1 holds at every point where T is not the mirror"] is True
+    assert abs(ph["PH2"]["4n"]["E2 alone: coefficient / (31/1024)"] + 1) < 0.02
+    # in process: the comb's cusp coefficient is -(31/512) zeta(6), and the Higgs's copies at w = (1/2, 1/2) sum to
+    # E/16 - S_(1/2,1/2) term by term (1 + (-1)^m + (-1)^n + (-1)^(m+n) = 4 on even pairs)
+    import math
+    z6 = math.pi ** 6 / 945
+    row = sum((2.0 if m % 4 == 0 else -2.0) / m ** 6 for m in range(-4000, 4001) if m != 0 and m % 2 == 0)
+    assert abs(row + 31 / 512 * z6) < 1e-12
+    for m in range(-3, 4):
+        for n in range(-3, 4):
+            assert 1 + (-1) ** m + (-1) ** n + (-1) ** (m + n) == (4 if m % 2 == 0 and n % 2 == 0 else 0)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
