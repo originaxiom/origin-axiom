@@ -113,7 +113,7 @@ def run():
     ck('harmonic_flat_fixture_verified', eq(moment(flat), O) and all(eq(h, O) for h in curvature(flat)))
     ck('complex_transform_keeps_flat_not_moment', all(eq(h, O) for h in curvature(tf)) and not eq(moment(tf), O))
     ck('both_boundary_values_fixed', all(eq(a.subs(x, endpoint), b.subs(x, endpoint))
-       for a, b in zip(tf[1:], flat[1:]) for endpoint in (0, 1))
+       for a, b in zip(tf[1:], flat[1:]) for endpoint in (0, 1)))
     ck('normal_derivatives_not_frozen', all(not eq((tf[0]-flat[0]).subs(x, endpoint), O) for endpoint in (0, 1)))
     ck('Dirichlet_positive_frame_identity', all(eq(gf.subs(x, endpoint), s.eye(2)) for endpoint in (0, 1)))
     energy = sum((s.trace(da(lf, j, Af).H*da(lf, j, Af)+comm(Bf[j], lf).H*comm(Bf[j], lf)) for j in range(3)), s.Integer(0))

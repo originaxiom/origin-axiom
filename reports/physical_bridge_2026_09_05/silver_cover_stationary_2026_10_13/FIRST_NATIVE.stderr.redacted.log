@@ -1,0 +1,4 @@
+  File "[workspace]/reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/probe.py", line 115
+    ck('both_boundary_values_fixed', all(eq(a.subs(x, endpoint), b.subs(x, endpoint))
+      ^
+SyntaxError: '(' was never closed

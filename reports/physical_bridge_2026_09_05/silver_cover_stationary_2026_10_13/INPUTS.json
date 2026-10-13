@@ -422,8 +422,8 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/probe.py",
-      "bytes": 6789,
-      "sha256": "c8a59552b4eab7e6e7ffc1104d4fd0783d54b82d8ad63e2c8159aac4a52bed0b"
+      "bytes": 6790,
+      "sha256": "3ff5e8c570a0516bbafb65e3fa0cf771a1f93828b575ce17c0186f59efac913c"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/reference.py",
@@ -450,5 +450,6 @@
       "bytes": 7611,
       "sha256": "3015564c4312e97b82d3635e250b79a10b410aaa11221ccd8ae37ac16ca807d8"
     }
-  ]
+  ],
+  "repair_scope": "one native closing parenthesis after preserved syntax failure; all other original pins unchanged"
 }

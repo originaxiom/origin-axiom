@@ -1,0 +1,31 @@
+{
+  "status": "STOPPED_NOT_PROGRAM_KILL",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 1,
+      "elapsed_seconds": 0.04110268800286576
+    }
+  ],
+  "scope": "local exact jets and graded controls; authored conditional compact continuation, not global PDE or generated full SM",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "bfe3691073883869a93ed7bd82d6bfc142a7162d",
+  "initial_source_hashes_match": true,
+  "error": "AssertionError: probe",
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 279,
+      "sha256": "a0d79f71e494e3f69c6b8a11a9a6105aa658c19b31763233c41de2a5a6bb588a"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}
