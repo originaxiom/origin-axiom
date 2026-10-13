@@ -92,6 +92,12 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 vertical cusp complement
+
+The [vertical gap argument](vertical_cusp_gap/FINDINGS.md) supplies an authored uniform estimate above the three fibre zero modes for both extreme puncture conditions. After exact metric rescaling, quarter-phase end holonomy prevents escape while the puncture supports exactly three cylinder zero modes. Local compactness and the fixed finite-fibre kernel count then give a complement bound c sqrt(y/A). All 43 exact safeguards and five tests pass on the first run after pushed seal 5dfc0cf0e; all eleven pins remain unchanged. Independent analytic review remains owed.
+
+The next task is horizontal differentiation of the harmonic projection and its complementary coupling, followed by the effective cusp operator and total Fredholm/index comparison. The vertical complement estimate is no longer merely an assumption at the two extremes; it is not itself a total spectrum or physical generation result. Intermediate Lambda and physical selection remain separate questions. The same-field parent and generated end-sector duties are unchanged.
+
 ### October 13 total selfadjoint realization
 
 The [total domain construction](total_domain/FINDINGS.md) supplies an authored selfadjoint realization for the existing full metric operator once a compatible graded puncture law is fixed. Its full section normal family is invertible at nonzero horizontal covectors, and a local graph/perturbation argument plus complete-base cutoffs removes a further selfadjoint extension choice at cusp infinity. All355 exact safeguards and six tests pass on the first run after pushed seal2bf25de9f, with all ten pinned sources unchanged. Specialist analytic review remains owed.

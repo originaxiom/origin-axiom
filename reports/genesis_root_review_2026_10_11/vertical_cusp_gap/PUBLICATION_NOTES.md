@@ -1,0 +1,7 @@
+# Execution and publication custody
+
+Seal 5dfc0cf0e07312d5b98b68628ca10f4cbd20d024 was committed, pushed and server-confirmed before the first scientific import or test collection. One native job and one pytest job passed; no failure or repair was discarded. All eleven pinned files remained unchanged. The successful raw logs are explicitly tracked despite generic ignore rules.
+
+All branches were refreshed at the start. During the work the physical-bridge ref advanced from e05d62e01 to 2ffabadc756e484ac5d9ce7ff9300aaf1f4835ee. The exact diff and its full METADATA_RESEAL were read: it corrects source-reference formatting and reports prior scientific success without changing the mathematical test. Its new publication is not independently rerun or used as spectral evidence here. Attempts to read FINDINGS and NEXT_TEST at that seal found no such files; they are not treated as completed results. Other seats' work and unrelated dirty files remain untouched.
+
+The publication receives a quiescent staged governance check. The preceding check had 25 passing categories and five existing failures: attribution, path references, test vacuity, seal provenance and relay debt. Report the actual current outcome; local tests do not confer a full-suite certificate. Only this packet, this seat's status/dependency updates and an appended progress entry are included. No main merge, shared bank number or physical identification is performed.
