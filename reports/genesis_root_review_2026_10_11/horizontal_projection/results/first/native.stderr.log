@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/genesis_root_review_2026_10_11/horizontal_projection/verify.py", line 181, in <module>
+    result = checks()
+             ^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/genesis_root_review_2026_10_11/horizontal_projection/verify.py", line 121, in checks
+    check(f'{gamma}_actual_three_phases', cusp_phases(gamma) == expected[gamma])
+                                          ^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/genesis_root_review_2026_10_11/horizontal_projection/verify.py", line 42, in cusp_phases
+    raise ValueError('eigenvalue is not a unique eighth root')
+ValueError: eigenvalue is not a unique eighth root

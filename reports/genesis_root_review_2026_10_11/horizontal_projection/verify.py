@@ -37,7 +37,8 @@ def cusp_phases(gamma, sign=1):
     eighth = (1+s.I)/s.sqrt(2)
     phases = []
     for val, multiplicity in z.eigenvals().items():
-        matches = [j for j in range(8) if zero(val-eighth**j)]
+        # eigenvals may return sqrt(-I), not the Cartesian radical form.
+        matches = [j for j in range(8) if zero(s.expand_complex(val-eighth**j))]
         if len(matches) != 1:
             raise ValueError('eigenvalue is not a unique eighth root')
         phases.extend([s.Rational(matches[0], 8)]*multiplicity)
