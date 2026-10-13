@@ -11623,6 +11623,7 @@
     "coupling",
     "trace_map",
     "golden",
+    "z3_generation",
     "wrt_quantum"
    ],
    "refs": [
@@ -11632,7 +11633,27 @@
    "obstacle": "cancellation",
    "obstacle_conf": 3,
    "status": "banked",
-   "domain": "physics"
+   "domain": "arithmetic"
+  },
+  "B1642": {
+   "slug": "the golden coupling as the zero modes residue",
+   "motifs": [
+    "choice",
+    "coupling",
+    "kappa",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "B308",
+    "B323",
+    "B881",
+    "B884"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B164": {
    "slug": "isomonodromy 04cubic",

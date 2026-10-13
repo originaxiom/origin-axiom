@@ -11457,7 +11457,7 @@
   "hatch": "the lowest coupling's spectrum on the tick's geodesic (B1636: constant and golden there)",
   "priority": "high",
   "routed_from": "main, at banking (2026-10-09), for tests/test_b833_negative_routing.py",
-  "note": "Read as a specification: degeneracy at i is a property of the weight mod 4, not of the point; the golden spectrum is followed in B1636. K3's failure is a threshold of mine (0.05), the couplings non-degenerate.",
+  "note": "Read as a specification: degeneracy at i is a property of the weight mod 4, not of the point; the golden spectrum is followed in B1636. K3's failure is a threshold of mine (0.05), the couplings non-degenerate. [Scoped 2026-10-13 by B1640: 'at omega for every k' holds for the single pieces of T(x)T only; Tbar(x)T and mixed couplings are non-degenerate there.]",
   "faces_consulted": [
    "B1634",
    "B1630",
@@ -11469,6 +11469,29 @@
    "object": "couplings in tau alone as vector-valued modular forms for rho_theta's tensors (T(x)T by piece; Tbar(x)T)",
    "reach": "general",
    "hypotheses": "the sectors' weights and the field dictionary not fixed; no data"
+  },
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1642",
+  "claim_killed": "That the weave's golden coupling is the zero modes' own SU(2)-invariant pairing read at the fibre's puncture by a parity-carrying Higgs (this arc's R4; main's hand derivation called the pairing symmetric).",
+  "kill_form": "Sealed (B1642): the pairing is an antisymmetric form, so the residue coupling Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)| is antisymmetric; its masses are (1, 1, 0) at every tau and on the tick's axis, the theta-triplet the massless direction; the identities behind it (duplication, residue, characters) hold to 1e-40.",
+  "hatch": "a symmetric piece from a Higgs carrying the cube group's sign character, from a bulk (Hermitian) pairing on the fibre (the SM seat's W59 route), or from a second Higgs at the puncture (POINT_REGISTER P-097)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-13), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: a coupling CAN be computed from the zero modes with no free coefficient; the invariant one is the cube group's epsilon, and the golden coupling is the sign-character cubic, which needs a factor these zero modes do not supply.",
+  "faces_consulted": [
+   "B1641",
+   "B1636",
+   "B1639",
+   "B1634"
+  ],
+  "fact_computed": "the duplication identities and residues at 20 and 10 random points to 1e-40; the coupling's singular values at 10 random tau and 5 points on the tick's axis; the antisymmetry and null vector post-seal",
+  "scope": {
+   "frame": "the weave's fibre E_tau minus the puncture; given Lambda; zero Wilson line",
+   "object": "the zero modes F_p = C_p F (W21) and their SU(2)-invariant pairing read at the puncture",
+   "reach": "general",
+   "hypotheses": "a Higgs localized at the fibre's puncture, carrying parity, coupling through the residue"
   },
   "weave_or_thread": "weave"
  }

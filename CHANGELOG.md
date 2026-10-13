@@ -1,5 +1,22 @@
 # Changelog
 
+## S117 THE ZERO MODES' RESIDUE AT THE PUNCTURE (B1642, NEGATIVE as sealed): the first coupling computed with no free coefficient — Y_pq = ε_pqr κ_r θ_r²/(2πη³) — but antisymmetric, masses (1, 1, 0); not the golden coupling; the SM seat's W56–W58 rowed
+
+**B1642 (sealed `55bd29ab7`, before the SM seat's W59).**
+- **R1–R3, R5, R6 hold to 10⁻⁴⁰.** The zero modes' SU(2)-invariant pairing vanishes on the diagonal. Off it, the entries
+  are c θ_r(0)θ_r(z)/θ₁(z) by Jacobi's duplication identities, (i, j, k) → (θ₂, θ₄, θ₃), c = (−1, −1, i). The residues
+  at the puncture are c θ_r²/(2πη³), each entry carries the third block's character, and the non-invariant control does
+  not factor.
+- **R4 fails.** The coupling is antisymmetric, because the pairing is: Y = [v]×, masses (1, 1, 0) at every τ, the
+  θ-triplet massless. The preregistration's "symmetric" was main's error, caught by the sealed cell (an E1 instance).
+- **So a coupling can be computed rather than allowed, but this one is the wrong pattern.** The golden coupling needs a
+  symmetric, sign-carrying factor the zero modes do not supply (P-097).
+
+**Recorded.** T-RESIDUE-ANTISYMMETRIC in the registry; LAW_MAP; the claim pool; THE_WEAVE. The SM seat's nine commits
+(W56's result, the §64 reading, W57, the Wilson-line correction, the W58 rule; §63–§66) are rowed (1097–1101), with the
+pin moved to c5f343d14. Their points P-089–P-096 are rowed and P-084 corrected. One relay asks the seat to seal W59
+before reading B1642.
+
 ## S116 W46 ON MAIN, AND THE TWO OBJECTS (B1641, PROVED; GENESIS v1.43): the fibre loops of M₁,₂ act on the matter by the parity signs under the lifts that agree with the ruled moves, so the index's surface and the couplings' branch are one object with a parity selection rule; the SM seat's W46 verified on main
 
 **B1641 (sealed `99975fb63`).**

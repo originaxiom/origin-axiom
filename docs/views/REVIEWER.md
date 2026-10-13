@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1369** |
-| words of findings prose | **1,072,018** |
-| test lock files referenced | **804** |
-| arcs carrying an authored verdict | **1369** (100.0 %) |
-| recorded closures | **818** (651 classified, 167 routed-only) |
+| research arcs with findings | **1370** |
+| words of findings prose | **1,072,921** |
+| test lock files referenced | **805** |
+| arcs carrying an authored verdict | **1370** (100.0 %) |
+| recorded closures | **819** (652 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 925 |
-| NEGATIVE | 342 |
+| NEGATIVE | 343 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 88 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 89 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 W46 ON MAIN, AND THE TWO OBJECTS (sealed 99975fb63; PROVED): the fibre loops of M_{1,2} are the inner automorphisms; the record's uniform lift acts on T by the parity signs and on conj(a b^-1 a^-1 b) = Delta^4 by -1, agreeing with the ruled moves, while the geometric lift (trivial on fibre cohomology) gives +1 there -- they differ by the central sign, so the matter is spinorial around the commutator loop and the two objects are one with a parity selection rule: a parity-blind Higgs allows only diagonal couplings, a Higgs in T exactly the golden pattern (c(u,u,u) = 24 eta^6); the SM seat's W46 verified on main's lifts (L6's exponents (1,1,3,5,7,7)/8, pieces 2 + 4, every chi_1 = 0, chi_3/2(rho_T) = 0, the table n(|Lambda+| - 3)); and neither rho_T nor its conjugate is a sub or quotient of L6, so the hand is not the puncture condition's orientation at the representation level. 0 of 19.  
 `B1641_w46_on_main_and_the_two_objects/FINDINGS.md`
 
-**NEGATIVE — `B1635`** (1052 words, 1 locks)  
-THE COUPLINGS IN TAU ALONE ON THE RULED BRANCH (sealed; NEGATIVE as sealed): by main's own route (polynomials in theta squares mod Jacobi's quadric) the SM seat's W50 section 3 is verified -- dimensions by piece exactly (D 0,0,1,1,2,2; O+ 1,1,2,2,3,3; O- 0,1,1,2,2,3 for k = 1..11; = the formula), its mixing distance 0.670933, non-degenerate masses and non-permutation mixing at a generic tau, every coupling degenerate at omega -- but two sealed cells fail: a non-degeneracy threshold of 0.05 (four couplings at 0.028-0.046) and 'at i every single piece is degenerate', which is false: O+ at k = 1 (mod 4) is not, and the lowest coupling at i has masses (1, 1/phi, 1/phi^2) exactly; the first count: 2 + sum_s (2 d(k_s) - 1) free real numbers given the weights, 4 for two sectors at the lowest weights. 0 of 19. [Scoped 2026-10-13, B1640: 'every coupling degenerate at omega' holds for the single pieces of T(x)T (the sealed K5(i)); Tbar(x)T (nine members in this arc's own read-outs) and mixed T(x)T couplings are non-degenerate at omega. The count is under the modular-flavour ansatz (holomorphy, minimal Kahler, every field in T).]  
-`B1635_couplings_on_the_ruled_branch/FINDINGS.md`
+**NEGATIVE — `B1642`** (903 words, 1 locks)  
+THE ZERO MODES' RESIDUE AT THE PUNCTURE (sealed 55bd29ab7; NEGATIVE as sealed): the SU(2)-invariant pairing of the weave's zero modes F_p = C_p F vanishes on the diagonal and, by the duplication identities, its entries are c theta_r(0) theta_r(z)/theta_1(z) (c = -1, -1, i, to 1e-40) with residues c theta_r^2/(2 pi eta^3) -- a coupling computed with no free coefficient -- but it is ANTISYMMETRIC (the invariant pairing is an antisymmetric form): Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)|, masses (1, 1, 0) at every tau, the theta-triplet the massless direction; the golden coupling is the symmetric cubic, which these zero modes do not produce (the hand derivation's 'symmetric' was the error, caught by the sealed cell). 0 of 19.  
+`B1642_the_golden_coupling_as_the_zero_modes_residue/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

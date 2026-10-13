@@ -390,3 +390,14 @@ found with B1635's sealed instrument.
 - **The hand is not the puncture condition's orientation at the representation level:** neither ρ_T nor ρ̄_T is a sub or
   quotient of the six.
 
+## Main's addition: the zero modes' residue at the puncture (B1642, NEGATIVE as sealed)
+
+- **A coupling computed, not allowed.** The zero modes' SU(2)-invariant pairing, read at the fibre's puncture by a Higgs
+  carrying parity, gives Y_pq = ε_pqr κ_r θ_r²/(2πη³), with no free coefficient. The duplication identities and the
+  residue hold to 10⁻⁴⁰.
+- **But it is antisymmetric, because the pairing is.** Its masses are (1, 1, 0) at every τ, with the θ-triplet the
+  massless direction. It is not the golden coupling, which is the symmetric cubic and needs a sign-carrying factor the
+  zero modes do not supply. The preregistration's "symmetric" was main's error, caught by the sealed cell.
+- **Open (POINT_REGISTER P-097):** a symmetric piece from a Higgs with the cube group's sign character, from a bulk
+  (Hermitian) pairing (the SM seat's W59), or from a second Higgs at the puncture.
+

@@ -559,6 +559,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1638` | PROVED | L | | THE GOLDEN IDENTITY: Σ_p (θ_p(τ)θ_p(Nτ)/(η(τ)η(Nτ)))² = 8 everywhere (N of determinant 5; 3·10⁻⁴⁹ at 40 points); on the tick's axis it is Σ|θ_p/η|⁴ = 8, so the lowest coupling is golden; no other closed geodesic tested has such an identity … |
 | `B1639` | PROVED | L | | THE GOLDEN IDENTITY FROM RAMANUJAN'S QUINTIC: given Entry 13(xii) (Berndt III, ch. 19), H¹² = 8¹² and H = 8 — the golden spectrum 1 : φ⁻¹ : φ⁻² of the weave's lowest coupling is a theorem on every geodesic of discriminant 5 … |
 | `B1641` | PROVED | L | | THE FIBRE LOOPS ACT BY PARITY, AND W46 ON MAIN: M₁,₂'s point-pushes act on the triplet by the parity signs under the lifts that agree with the ruled moves (the geometric lift differs by −1 at Δ⁴), so couplings obey a parity selection rule — diagonal for a parity-blind Higgs, the golden pattern for a Higgs in T (c(u, u, u) = 24η⁶); the SM seat's four-dimensional index n(\|Λ₊\| − 3) verified on main's lifts; the hand is not the puncture orientation at the representation level |
+| `B1642` | NEGATIVE | L | | THE ZERO MODES' RESIDUE AT THE PUNCTURE: the first coupling computed with no free coefficient (Y_pq = ε_pqr κ_r θ_r²/(2πη³)), but antisymmetric — masses (1, 1, 0), the θ-triplet massless — so not the golden coupling |
 
 ## The exhibit that forced the rebuild
 

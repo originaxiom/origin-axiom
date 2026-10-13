@@ -16992,3 +16992,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   Higgs, the golden pattern for a Higgs in T (c(u, u, u) = 24η⁶).
 - W46 verified on main (L₆ = 2 + 4, every χ₁ = 0, the table n(|Λ₊| − 3)). The hand is not the puncture orientation at the
   representation level. One relay to the SM seat. Gates 45 of 45. Full suite: 7280 passed, 3 failed, 68 skipped — B1641 missing from the paper's claim pool (added) and a generated view stale after a mid-run edit (regenerated); then the 82 gate, harvest, lane, registry, spine and genesis test files with B1640's and B1641's locks re-run on the final tree: 463 passed, 0 failed, 7 skipped. 0 of 19.
+
+## 2026-10-13 — S117 THE ZERO MODES' RESIDUE AT THE PUNCTURE (B1642, NEGATIVE as sealed)
+
+- The first coupling computed with no free coefficient: the zero modes' invariant pairing at the fibre's puncture,
+  Y_pq = ε_pqr κ_r θ_r²/(2πη³) (identities to 10⁻⁴⁰). It is antisymmetric, with masses (1, 1, 0) and the θ-triplet
+  massless, so it is not golden; main's "symmetric" was the error, caught by the seal.
+- The SM seat's W56–W58 and §63–§66 rowed (1097–1101); P-089–P-097. 0 of 19.

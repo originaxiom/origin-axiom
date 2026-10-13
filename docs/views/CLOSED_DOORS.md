@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**818 recorded closures — of which 651 are CLASSIFIED by mechanism and
+**819 recorded closures — of which 652 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -101,6 +101,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1629's seal commit; the sealed instrument measured only the cusp's representative at infinity, repaired post seal and disclosed): the tick LR is the unique lowest closed geodesic among the 2536 threads of length <= 14 (top sqrt5/2; second sqrt2 -- B482's Markov values); the clock's word read as moves tops at 2.29; under the weave's uniform measure the fraction of letters in a run of length >= k is (k+1)/2^k at every length -- geometric decay, no atom at the cusp.` | 1 |  |
 | `Sealed (B1632): no identification of (S, T) with the lifts satisfies the Mp2(Z) relations exactly; they hold up to scalars (a projective representation); of the six genuine rescalings of (S~, L^-1) allowing weight 3/2, five give chi_{3/2} = 0 and one gives 1.` | 1 |  |
 | `Sealed (B1635): at i the one-dimensional O+ coupling at k = 1 has masses (1, 1/phi, 1/phi^2), and O+ at k = 5 and 9 is non-degenerate (k = 1 mod 4); everything is degenerate at i for k = 3 mod 4, and at omega for every k.` | 1 |  |
+| `Sealed (B1642): the pairing is an antisymmetric form, so the residue coupling Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)| is antisymmetric; its masses are (1, 1, 0) at every tau and on the tick's axis, the theta-triplet the massless direction; the identities behind it (duplication, residue, characters) hold to 1e-40.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

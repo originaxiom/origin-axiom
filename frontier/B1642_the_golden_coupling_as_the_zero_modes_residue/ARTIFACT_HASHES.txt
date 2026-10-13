@@ -1,1 +1,3 @@
+# sealed at 55bd29ab7: 97705d5793af2a278506685ddb6e9f78f2aceb12cfe619e2afc3b7e900051763  verification/residue_coupling.py (unchanged after the seal)
 97705d5793af2a278506685ddb6e9f78f2aceb12cfe619e2afc3b7e900051763  verification/residue_coupling.py
+30e606cdc7a7ebc97e7753da7df05e43a49f585e5f8f0614497097d58873120a  verification/residue_coupling.json

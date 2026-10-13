@@ -1,0 +1,26 @@
+{
+ "id": "B1642",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1641",
+  "B1636",
+  "B1638",
+  "B1639",
+  "B1634"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's fibre E_tau minus the puncture; given Lambda; zero Wilson line",
+  "object": "the zero modes F_p = C_p F (W21) and their SU(2)-invariant pairing read at the puncture",
+  "reach": "general",
+  "hypotheses": "a Higgs localized at the fibre's puncture, carrying parity, coupling through the residue; the square root's branch fixed once"
+ },
+ "claim_one_line": "THE ZERO MODES' RESIDUE AT THE PUNCTURE (sealed 55bd29ab7; NEGATIVE as sealed): the SU(2)-invariant pairing of the weave's zero modes F_p = C_p F vanishes on the diagonal and, by the duplication identities, its entries are c theta_r(0) theta_r(z)/theta_1(z) (c = -1, -1, i, to 1e-40) with residues c theta_r^2/(2 pi eta^3) -- a coupling computed with no free coefficient -- but it is ANTISYMMETRIC (the invariant pairing is an antisymmetric form): Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)|, masses (1, 1, 0) at every tau, the theta-triplet the massless direction; the golden coupling is the symmetric cubic, which these zero modes do not produce (the hand derivation's 'symmetric' was the error, caught by the sealed cell). 0 of 19.",
+ "weave_or_thread": "weave"
+}
