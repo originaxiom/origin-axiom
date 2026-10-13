@@ -70,6 +70,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   the three sectors need three different τ, and the weave gives them one. Post hoc the quark masses alone exclude the
   other two rank-11 structures. No structure on record both fits and predicts a flavour relation: the count is 13 if
   any structure fits.
+- W54 (the owner's choice: test the rank-13 structures; rule first; two cells failed as worded, both explained post
+  hoc): five structures fit, all in the Standard Model frame with every sector at weight 5 or 7, with 23 or more
+  parameters for 13 numbers, so they predict nothing; every structure with a sector at weight 3 fails, and so does
+  every Sym² T one. The count of 13 is realised: all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is
+  earned).
 
 ## The setting
 
@@ -3694,9 +3699,83 @@ showed M0 failing; P4 after the read-out, for F1; labelled; W53's own output is 
   branch, given Λ, or 18 if I-18 is earned.
 - **What stays open.** Whether any structure with u or d at weight ≥ 5 fits at all, where the coefficients outnumber
   the relations. If none does, the modular structure is excluded as the Yukawas' source on the ruled branch.
+- *Added after W54:* five rank-13 structures fit (all in T ⊗ T, every sector at weight 5 or 7), with 23 or more
+  parameters; every structure with a sector at weight 3 fails. So the modular structure survives, and the count is 13.
 
 **Status.** COMPUTED (the rule and its data first; one run; F2, F3 and F4 went the way their priors leaned; M0(e) and
 F1 failed as worded; post hoc P1 to P4); a WEAVE result on the ruled branch, given Λ. 0 of 19.
+
+## W54. The rank-13 structures: five fit, every sector at weight 5 or 7, and none predicts anything (`the_rank_thirteen_structures.py`; `W54_RULE.md`; post hoc `the_rank_thirteen_structures_posthoc.py`)
+
+**Why.**
+- The owner's choice (2026-10-09), after W53 excluded the three rank-11 structures: "Test the rank-13 structures."
+- The rule (`W54_RULE.md`, 0b1b37503) came before the code. The script (aa130c8ca) was committed during its one run,
+  before the read-out.
+- **The set.** Every structure on record not yet excluded, 32 in all: T ⊗ T with each k_s ∈ {3, 5, 7} and
+  (k_u, k_d) ≠ (3, 3) (24), and Sym² T with each k_s ∈ {5, 7} (8). They have rank 13, so they predict no relation; the
+  question is whether any fits at all.
+- **The fit.** W53's data, observables and tolerance (a = 0.10). A sector's Yukawa is Σ α_i F̂_i over W52's basis at
+  its weight. A structure fits if χ²_min ≤ 5.99.
+- **The search.** At a fixed τ the quark part depends only on α_u and α_d, and the lepton part only on α_e. So:
+  - a grid of 164 τ in the fundamental domain;
+  - at each, the best quark part for each of 12 quark weight pairs (16 starts) and the best lepton part for each of 5
+    lepton weights (8 starts);
+  - then a joint refinement of each structure from its 8 best grid points.
+- **Weave or thread.** The forms are the weave's, τ is a state of the weave, and the claim covers every structure in
+  the set at once. Weave-type.
+
+**The result (COMPUTED; one run; H0 and H2 as predicted; H1 and H3 FAILED as worded).**
+- **H2 (as predicted): five structures fit, all in the Standard Model frame.**
+  - (5, 7, 5) and (5, 7, 7) fit exactly (χ²_min ≈ 10⁻²¹), at τ ≈ 0.20 + 2.93i and 0.00 + 2.88i.
+  - (7, 7, 5) fits at 0.88, and (5, 5, 5) and (5, 5, 7) at 5.33.
+  - They have P = 23 to 27 real parameters for 13 numbers, so they predict nothing.
+- **H3 (FAILED as worded).** (7, 7, 5) fits, but (7, 7, 7) reached 6.38, just above 5.99, and (7, 7, 3) 147. Post
+  hoc P1 shows (7, 7, 7)'s value is the search's.
+- **H1 (FAILED as worded).** μ₇ ≈ 10⁻¹⁶ and μ₃ = 0.50, 0.15, 0.14, as predicted. But μ₅ ≈ 10⁻¹⁶ too: the weight-5 span
+  holds rank-one couplings at a generic τ, against the rule's count (post hoc P2).
+- **H0 (as predicted).** The dimensions (2, 4, 5 and 3, 3); the shape observables unchanged under τ → τ + 1 and
+  τ → −1/τ to 4 × 10⁻¹²; the Jacobian of (7, 5, 5) of rank 13.
+- **Extra read-outs (no prior).**
+  - **Every structure with any sector at weight 3 fails**, χ²_min ≥ 110: with a quark sector there, ≥ 273; with the
+    leptons there, 110 to 198. The leptons at weight 3 reach at best 1.1 on the grid, and only on W53's curves.
+  - **Every Sym² T structure fails**, χ²_min between 94 and 199.
+  - (7, 5, 5) and (7, 5, 7) fail at 26 and 28: u at 7 with d at 5 does not fit in this search, while u at 5 with d at
+    7 fits exactly.
+  - The quark pairs' best grid values: (5, 7) 5.8, (5, 5) 11, (7, 5) 30, (7, 7) 58, every pair with a 3 at least 273,
+    Sym² T's 137 to 268. The leptons at 5 and 7 reach their ratios exactly on the grid.
+  - No minimum sits on the box's edge y = 6.
+
+**Post hoc** (`the_rank_thirteen_structures_posthoc.py`; written after the read-out, for the two failed cells;
+labelled; W54's own output is unchanged).
+- **P1, (7, 7, 7).** From (7, 7, 5)'s τ, the quark pair (7, 7) refined over τ and its coefficients (48 starts) fits
+  exactly, Q = 3 × 10⁻²³, at τ ≈ 0.0006 + 1.019i. The leptons at weights 5 and 7 fit exactly there. So (7, 7, 5) and
+  (7, 7, 7) both fit exactly; W54's search fell short at (7, 7, 7).
+- **P2, the weight-5 rank-one couplings.**
+  - At each of H1's three τ the weight-5 span holds rank-one couplings: three found from 40 starts, against six at
+    weight 7.
+  - One of them uses D and the first O₊ form alone, so it is symmetric: a aᵀ.
+  - The rule's count treated the pieces as generic. A symmetric rank-one coupling in D ⊕ O₊ is a square, which the
+    count missed. (A reading, not computed here: the weight-5 symmetric space would hold the square of a
+    weight-5/2 triplet form.)
+
+**What it shows (a READING on the computed facts; given Λ, GENESIS FK11).**
+- **The count of 13 is realised.** The weave's modular structure can carry all 13 flavour numbers: in the Standard
+  Model frame, with every sector at weight 5 or 7, u at 5 or both quark sectors at 7. It does so with 23 or more real
+  parameters for 13 numbers, so it explains none of them.
+- **The geometry's weight is excluded in every structure.** Every structure with a sector at weight 3 fails, the
+  rank-11 ones by W53 and the rest here. The weight that fits is not the one W45's reading gives; it is a choice.
+- **The E₆ frame fails at every weight on record:** weights 1 and 3 by m₃ = m₁ + m₂ (W52), and 5 and 7 here.
+- **The count, for the owner's question** ("we look what fixes τ then we count free numbers"):
+  - τ: free; nothing canonical fixes it (W51), and the fits sit at non-special points.
+  - The 13 flavour numbers: all free. Every structure that predicts a relation is excluded by the data (W52, W53), and
+    the ones that fit predict none.
+  - With the three gauge couplings, v and m_H supplied by the reader and θ_QCD a bit only if I-18 is earned: all 19 of
+    the 19 free on the ruled branch, given Λ (18 if I-18 is earned).
+- **What could change it.** A principle that fixes the weights, τ or the coefficients; weights above 7, untested here,
+  only add coefficients.
+
+**Status.** COMPUTED (the rule first; one run; H0 and H2 as predicted; H1 and H3 failed as worded, both explained post
+hoc); a WEAVE result on the ruled branch, given Λ. 0 of 19.
 
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
@@ -3863,6 +3942,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W51 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result | what fixes τ: the candidates fixed by THE WEAVE rule (symmetric functions of the three parity sectors' determinants \|θ_p/η\|², T's own norm, and the untwisted y\|η\|⁴). The joint determinant is exactly 4 (Jacobi), so flat; e₁, e₂, N_T and P_T are minimal exactly at ω and y\|η\|⁴ maximal there, i a saddle of each, no other critical point (interior and boundary census). A canonical selection gives ω (degenerate couplings, W50) or the cusp. Extra: the lowest cusp-form couplings' norms peak at generic points on the reflection lines (≈ 1.551i, ≈ ½ + 2.224i) |
 | W52 | COMPUTED (the rule first; one run; C1 and C4 as predicted; C2 and C3 failed as worded, explained post hoc 128 of 128); a WEAVE result given Λ | the free numbers counted: the 13 flavour numbers' Jacobian rank over τ and the couplings' coefficients, for every weight assignment in {1, 3, 5, 7}³ in both frames. At the geometry's weight (k = 3) the Standard Model frame leaves 11 (two quark-sector relations: eight quark shape numbers from six parameters). Post hoc: a symmetric zero-diagonal coupling forces m₃ = m₁ + m₂ (the record's ×136, ×43, ×17 wall, B1273), excluding k = 1 and E₆ at k = 3; with the dependency pattern this reproduces every rank. The tally: at most 17 of the 19 free there, if that structure fits (W53) |
 | W53 | COMPUTED (the rule and its data first; one run; F2, F3 and F4 went the way their priors leaned; M0(e) and F1 failed as worded; post hoc P1 to P4); a WEAVE result given Λ | the fit at the geometry's weight: W52's T ⊗ T at k = 3 against the 13 flavour numbers (Huang and Zhou 2021's masses at M_Z, PDG 2025's CKM, in logs with a 10% running allowance). χ²_min = 1887 (5957 at 5%, 484 at 20%) against 5.99; the masses alone give 163 with eleven parameters for nine numbers. Near the cusp m₁/m₃ = κ q^{1/4} in every hierarchical sector (at 5i, 1.05 to 1.15 × 10⁻³ against 1.07 × 10⁻³), and each sector alone is reached at its own y (d 3.19 or 5.11, e 2.47 or 5.91, u within 4% at 4.21): one τ cannot serve three. M0(e) wrongly said (3, 3, 3) was the only rank-11 structure; post hoc the quark masses alone (χ²_min = 41.4) exclude (3, 3, 5) and (3, 3, 7). No structure on record both fits and predicts a flavour relation |
+| W54 | COMPUTED (the rule first; one run; H0 and H2 as predicted; H1 and H3 failed as worded, both explained post hoc); a WEAVE result given Λ | the rank-13 structures: all 32 not yet excluded (T ⊗ T with weights in {3, 5, 7}, (k_u, k_d) ≠ (3, 3); Sym² T with weights in {5, 7}) fitted to the 13 flavour numbers with W53's data. Five fit, all in T ⊗ T with every sector at 5 or 7: (5, 7, 5) and (5, 7, 7) exactly, (7, 7, 5) at 0.88, (5, 5, 5) and (5, 5, 7) at 5.33, with 23 to 27 parameters, so they predict nothing; post hoc (7, 7, 5) and (7, 7, 7) fit exactly at τ ≈ 0.0006 + 1.019i. Every structure with a sector at weight 3 fails (χ²_min ≥ 110), and every Sym² T one (94 to 199). The weight-5 span holds rank-one couplings at a generic τ (one of them a symmetric square), against the rule's count. The count of 13 is realised: all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is earned) |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -3906,6 +3986,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.
 - `W51_RULE.md`: the rule, committed before the code; `the_weaves_functionals_on_tau.py` → `the_weaves_functionals_on_tau.json`: W51, the weave's canonical functionals on the τ-line (the flat joint determinant, the critical-point census of the symmetric sums, T's norm and the untwisted determinant, and the coupling norms; a regeneration probe in `tests/test_weave_regeneration.py`).

@@ -1,5 +1,20 @@
 # Changelog
 
+## The weave's W54: the rank-13 structures — five fit, all with every sector at weight 5 or 7, none predicts; relay section 59
+
+- **W54** (the owner's choice: test the rank-13 structures; the rule 0b1b37503 first, the script aa130c8ca committed
+  during its run; one run; H0 and H2 as predicted, H1 and H3 failed as worded and were explained post hoc):
+  - all 32 structures not yet excluded, fitted to the 13 flavour numbers with W53's data: five fit, all in T ⊗ T with
+    every sector at weight 5 or 7, with 23 to 27 parameters, so they predict nothing;
+  - every structure with a sector at weight 3 fails, and every Sym² T one;
+  - post hoc: (7, 7, 7) fits exactly (the search had stopped at 6.38), and the weight-5 span holds rank-one couplings
+    at a generic τ, one of them a symmetric square, which the rule's count missed.
+- **The count:** τ free, the 13 flavour numbers free, all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is
+  earned). 0 of 19 derived.
+- **Relay §59** to main. **Surfaces.** The rule, the script and its JSON, the post-hoc script and its JSON, the dossier
+  (W54, a row, the header, the files, a note in W53), the W54 test and regeneration probe, the state page, the relay
+  and the ledger.
+
 ## The weave's W53: the fit at the geometry's weight — excluded by the masses alone; no structure on record both fits and predicts; relay section 58
 
 - **W53** (the owner's choice: common-scale masses; the rule and its data 2d3ea1842 first; one run; F2, F3 and F4

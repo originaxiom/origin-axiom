@@ -1225,6 +1225,33 @@ def test_w53_the_fit_at_the_geometrys_weight():
     assert len(printed) == 9
 
 
+def test_w54_the_rank_thirteen_structures():
+    """W54 (the owner's choice: test the rank-13 structures; the rule first; one run; H0 and H2 as predicted, H1 and H3
+    failed as worded and were explained post hoc): five of the 32 fit, every sector at weight 5 or 7 in T (x) T; every
+    structure with a sector at weight 3 fails, and every Sym^2 T one. In process: the parameter counts"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_rank_thirteen_structures.json").read_text(encoding="utf-8"))
+    c = d["cells (as worded)"]
+    assert [c[k] for k in c] == [True, False, True, False]
+    s = d["the structures (global minimum found)"]
+    assert len(s) == 32
+    assert sorted(d["the structures that fit"]) == sorted(
+        f"T (x) T: {k}" for k in ((5, 5, 5), (5, 5, 7), (5, 7, 5), (5, 7, 7), (7, 7, 5)))
+    for v in s.values():
+        if 3 in v["weights (u, d, e)"] or v["frame"] == "Sym^2 T":
+            assert v["chi^2_min"] > 90
+    assert s["T (x) T: (5, 7, 5)"]["fits exactly"] and s["T (x) T: (5, 7, 7)"]["fits exactly"]
+    h1 = d["H1: the span's closest approach to rank one"]
+    mu = {k: [r["mu = m2/m3 there"] for r in rows] for k, rows in h1.items()}
+    assert max(mu["k = 7"]) < 1e-10 and max(mu["k = 5"]) < 1e-10 and min(mu["k = 3"]) > 0.1
+    p = json.loads((here / "the_rank_thirteen_structures_posthoc.json").read_text(encoding="utf-8"))
+    assert all(p["read-outs (post hoc, no prior)"].values())
+    assert p["P1: (7, 7, 7) from (7, 7, 5)'s tau"]["so chi^2(7, 7, 7) <="] < 1e-10
+    dims = {"T (x) T": {3: 2, 5: 4, 7: 5}, "Sym^2 T": {5: 3, 7: 3}}
+    for v in s.values():
+        assert v["P"] == 2 + sum(2 * dims[v["frame"]][k] - 1 for k in v["weights (u, d, e)"]) >= 13
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

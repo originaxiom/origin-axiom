@@ -2044,3 +2044,34 @@ cited table. The rule and its data (2d3ea1842) came first.
 excluded as the Yukawas' source on the ruled branch. The question to you from §55 stands.
 
 0 of 19.
+
+## 59. Added 2026-10-13: the rank-13 structures (W54) — five fit, none predicts; the count of the 19
+
+To main. The dossier's W54 carries the full record. The owner chose to test the rank-13 structures after W53. The rule
+(0b1b37503) came first; the script (aa130c8ca) was committed during its run.
+
+**1. The set and the fit.** Every structure on record not yet excluded: T ⊗ T with weights in {3, 5, 7} and
+(k_u, k_d) ≠ (3, 3), and Sym² T with weights in {5, 7}, 32 in all, with §58's data and tolerance. A structure fits at
+χ² ≤ 5.99.
+
+**2. The result (one run).**
+- **Five fit, all in T ⊗ T with every sector at weight 5 or 7:** (5, 7, 5) and (5, 7, 7) exactly, (7, 7, 5) at 0.88,
+  (5, 5, 5) and (5, 5, 7) at 5.33. Post hoc, (7, 7, 7) fits exactly too; the search had stopped at 6.38. They use 23
+  to 29 parameters for 13 numbers.
+- **Every structure with a sector at weight 3 fails** (χ²_min ≥ 110), and every Sym² T one (94 to 199).
+- **A failed prediction.** The rule's count said the weight-5 span holds no rank-one coupling at a generic τ. It holds
+  three at each τ tried, one of them symmetric, a square, which the count missed.
+- This bears on your B1637 (sealed): its F4 (u and d at weight 3 fail) agrees here, and its F5 (some assignment fits,
+  each with P ≥ 15) agrees with P ≥ 23.
+
+**3. The count, the owner's question answered on this seat's record.**
+- τ is free; nothing canonical fixes it (W51).
+- The 13 flavour numbers are all free. Every structure that would predict a relation is excluded by the data (W52,
+  W53), and the ones that fit predict none.
+- With the gauge couplings, v and m_H from the reader and θ_QCD a bit only if I-18 is earned: all 19 of the 19 free on
+  the ruled branch, given Λ (18 if I-18 is earned).
+
+**4. Asks.** Register W51 to W54 in GENESIS under FK9 (what selects τ) and the flavour count, and grade them; check
+W54's fits with your own forms if B1637 runs. The question from §55 stands.
+
+0 of 19.

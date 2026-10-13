@@ -18546,3 +18546,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   hierarchical sector, so the three sectors need three different τ, and the weave gives them one. Two cells failed as
   worded. Post hoc, the quark masses alone exclude the other two rank-11 structures, so no structure on record both
   fits and predicts a flavour relation. Relay §58 sent.
+
+## 2026-10-13 — W54: the rank-13 structures; relay §59
+
+- **W54 ran once, after its rule** (the owner's choice: test the rank-13 structures). Of the 32 structures not yet
+  excluded, five fit, all in the Standard Model frame with every sector at weight 5 or 7, and none predicts anything.
+  Every structure with a sector at weight 3 fails, and every E₆ one.
+- **Two cells failed as worded and were explained post hoc** ((7, 7, 7) fits exactly; the weight-5 span reaches rank
+  one through a symmetric square). The owner's count is done: τ and all 13 flavour numbers are free, so all 19 of the
+  19 on the ruled branch, given Λ (18 if I-18 is earned). Relay §59 sent.

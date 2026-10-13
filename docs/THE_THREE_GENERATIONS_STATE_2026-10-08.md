@@ -287,6 +287,16 @@ Under the owner's rulings, the table's rows split into two groups:
     (3, 3, 7).
   - So no structure on record both fits and predicts a flavour relation. The count is 13 if some structure with u or d
     at weight 5 or more fits, and then all 19 of the 19 are free on the ruled branch, given Λ (18 if I-18 is earned).
+- **W54, the rank-13 structures (the owner's choice; rule first):**
+  - All 32 structures not yet excluded were fitted with W53's data. Five fit, all in the Standard Model frame with every
+    sector at weight 5 or 7: (5, 7, 5) and (5, 7, 7) exactly, (7, 7, 5) and, post hoc, (7, 7, 7) exactly, (5, 5, 5) and
+    (5, 5, 7) at χ² 5.3. They use 23 or more parameters for 13 numbers, so they predict nothing.
+  - Every structure with a sector at weight 3 fails, and every one in the E₆ frame.
+  - Two cells failed as worded: the weight-5 span reaches rank one at a generic τ (the rule's count missed a symmetric
+    square), and the search fell short at (7, 7, 7). Both explained post hoc.
+  - **The count, as the owner asked:** τ free (W51); the 13 flavour numbers all free, since every structure that would
+    predict a relation is excluded by the data; all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is
+    earned). 0 of 19 derived.
 
 ## Questions open with main
 
@@ -302,7 +312,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W53 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W54 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§58).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§59).

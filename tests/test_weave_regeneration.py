@@ -145,3 +145,25 @@ print(json.dumps([bool(v) for v in ok]))
     r = subprocess.run([sys.executable, "-c", probe], cwd=copy, capture_output=True, text=True, timeout=900)
     assert r.returncode == 0, r.stderr[-2000:]
     assert json.loads(r.stdout.strip().splitlines()[-1]) == [True, True, True, True, True]
+
+
+def test_w54_probe(copy):
+    """W54's search takes nearly two hours, so a probe recomputes its controls and its rank-one test from the script's
+    own functions and compares them with the stored values"""
+    probe = r'''
+import json, sys
+sys.path.insert(0, ".")
+import the_rank_thirteen_structures as RT
+d = json.load(open("the_rank_thirteen_structures.json"))
+h0, ok0 = RT.H0()
+h1, ok1 = RT.H1()
+key = "(c) the 13 x P Jacobian of T (x) T (7, 5, 5): rank, and its 13th singular value over the largest"
+same0 = h0["(a) the dimensions"] == d["H0"]["(a) the dimensions"] and h0[key][0] == d["H0"][key][0]
+stored = d["H1: the span's closest approach to rank one"]
+same1 = all(abs(a["mu = m2/m3 there"] - b["mu = m2/m3 there"]) < 1e-9 for k in stored
+            for a, b in zip(h1[k], stored[k]))
+print(json.dumps([bool(ok0), bool(not ok1), bool(same0), bool(same1)]))
+'''
+    r = subprocess.run([sys.executable, "-c", probe], cwd=copy, capture_output=True, text=True, timeout=900)
+    assert r.returncode == 0, r.stderr[-2000:]
+    assert json.loads(r.stdout.strip().splitlines()[-1]) == [True, True, True, True]
