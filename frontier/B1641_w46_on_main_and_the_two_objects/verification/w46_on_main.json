@@ -1,0 +1,230 @@
+{
+ "O1": {
+  "a": {
+   "record_is_plus_parity": true,
+   "record_is_minus_parity": false,
+   "geometric_is_identity": true,
+   "geometric_on_T_is_identity": true,
+   "parity_signs": [
+    -1,
+    1,
+    -1
+   ]
+  },
+  "b": {
+   "record_is_plus_parity": true,
+   "record_is_minus_parity": false,
+   "geometric_is_identity": true,
+   "geometric_on_T_is_identity": true,
+   "parity_signs": [
+    1,
+    -1,
+    -1
+   ]
+  },
+  "aBAb": {
+   "record_is_plus_parity": false,
+   "record_is_minus_parity": true,
+   "geometric_is_identity": true,
+   "geometric_on_T_is_identity": true,
+   "parity_signs": [
+    1,
+    1,
+    1
+   ]
+  }
+ },
+ "O2": {
+  "Delta4_is_inner_by": [
+   "aBAb"
+  ],
+  "moves_Delta4_on_T": null,
+  "geometric_conj_c_on_T": null,
+  "moves_Delta4_on_T_is_minus_I": true,
+  "moves_Delta4_on_T_scalar": "(-1.000000000000001+2.2898349882893854e-16j)",
+  "geometric_conj_c_on_T_is_plus_I": true,
+  "rho_Q_of_c": "(-1+0j)"
+ },
+ "O3": {
+  "parity_action_diagonal_in_lines": true,
+  "T^2_invariant_dim": 3,
+  "T^3_invariant_dim": 6,
+  "T^3_invariant_monomials": 6,
+  "T^3_invariant_monomials_all_distinct": true,
+  "c_character": {
+   "S": "1j",
+   "T": "1j"
+  },
+  "c_uuu_over_24eta6_max_rel_err": 2.364487558949199e-30,
+  "c_of_u_is_golden_coupling": true
+ },
+ "W1": {
+  "braid_six": true,
+  "valid_identifications": [
+   "S=S~, T=L",
+   "S=S~^-1, T=L^-1"
+  ],
+  "exponents_rho6_T_in_eighths": [
+   1,
+   1,
+   3,
+   5,
+   7,
+   7
+  ],
+  "commutant_dim": 2,
+  "piece_dims": [
+   2,
+   4
+  ]
+ },
+ "W2": {
+  "eta2_chi1": 1.0,
+  "by_identification": {
+   "S=S~, T=L": {
+    "weight_1_allowed": true,
+    "L6": 0.0,
+    "piece2": -0.0,
+    "piece4": -0.0
+   },
+   "S=S~^-1, T=L^-1": {
+    "weight_1_allowed": true,
+    "L6": 0.0,
+    "piece2": -0.0,
+    "piece4": -0.0
+   }
+  },
+  "chi_3/2_rho_T": 0.0,
+  "chi_1/2_rho_T_bar": -0.0
+ },
+ "W3": {
+  "S=S~, T=L": {
+   "table": {
+    "0,n=-1": [
+     3.0,
+     3
+    ],
+    "0,n=0": [
+     0.0,
+     0
+    ],
+    "0,n=1": [
+     -3.0,
+     -3
+    ],
+    "V2,n=-1": [
+     1.0,
+     1
+    ],
+    "V2,n=0": [
+     -0.0,
+     0
+    ],
+    "V2,n=1": [
+     -1.0,
+     -1
+    ],
+    "V4,n=-1": [
+     -1.0,
+     -1
+    ],
+    "V4,n=0": [
+     -0.0,
+     0
+    ],
+    "V4,n=1": [
+     1.0,
+     1
+    ],
+    "L6,n=-1": [
+     -3.0,
+     -3
+    ],
+    "L6,n=0": [
+     -0.0,
+     0
+    ],
+    "L6,n=1": [
+     3.0,
+     3
+    ]
+   },
+   "all_match": true
+  },
+  "S=S~^-1, T=L^-1": {
+   "table": {
+    "0,n=-1": [
+     3.0,
+     3
+    ],
+    "0,n=0": [
+     0.0,
+     0
+    ],
+    "0,n=1": [
+     -3.0,
+     -3
+    ],
+    "V2,n=-1": [
+     1.0,
+     1
+    ],
+    "V2,n=0": [
+     -0.0,
+     0
+    ],
+    "V2,n=1": [
+     -1.0,
+     -1
+    ],
+    "V4,n=-1": [
+     -1.0,
+     -1
+    ],
+    "V4,n=0": [
+     -0.0,
+     0
+    ],
+    "V4,n=1": [
+     1.0,
+     1
+    ],
+    "L6,n=-1": [
+     -3.0,
+     -3
+    ],
+    "L6,n=0": [
+     -0.0,
+     0
+    ],
+    "L6,n=1": [
+     3.0,
+     3
+    ]
+   },
+   "all_match": true
+  }
+ },
+ "H": {
+  "S=S~, T=L": {
+   "rho_T": {
+    "sub": [],
+    "quotient": []
+   },
+   "rho_T_bar": {
+    "sub": [],
+    "quotient": []
+   }
+  },
+  "S=S~^-1, T=L^-1": {
+   "rho_T": {
+    "sub": [],
+    "quotient": []
+   },
+   "rho_T_bar": {
+    "sub": [],
+    "quotient": []
+   }
+  }
+ }
+}

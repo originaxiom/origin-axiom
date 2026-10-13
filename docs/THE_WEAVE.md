@@ -374,3 +374,19 @@ found with B1635's sealed instrument.
 - **Owed, and queued in `docs/POINT_REGISTER.md`:** the two objects (the ±3 on M₁,₂ with its fibre loops, the couplings on
   the ruled branch without them) as the first cell of the W46 arc; the hand from the zero modes; the couplings as overlaps
   of the fibre's zero modes (L251); the near-fixed-point regime with fields at their own weights.
+
+## Main's addition: W46 on main, and the two objects (B1641, PROVED; GENESIS v1.43)
+
+- **W46 is verified on main.** On main's own lifts the six local solutions have exponents (⅛, ⅛, ⅜, ⅝, ⅞, ⅞) and split
+  into irreducibles of dimension 2 and 4; every χ₁ = 0 and χ_{3/2}(ρ_T) = 0; the four-dimensional index is n(|Λ₊| − 3).
+  "±3 given Λ and the unit" now rests on main.
+- **The two objects are one.** M₁,₂'s fibre loops are the inner automorphisms. Lifted so as to agree with the ruled
+  moves at Δ⁴ = conj(a b⁻¹ a⁻¹ b), they act on T by the parity signs (Δ⁴ by −1). The geometric lift, under which
+  point-pushing acts trivially on the fibre's cohomology, differs from the moves by that central sign: the matter is
+  spinorial around the commutator loop (the Banking Seat's Gate 11).
+- **The selection rule.** A parity-blind Higgs allows only diagonal couplings; a Higgs carrying parity (in T) allows
+  exactly the off-diagonal pattern, the golden coupling's, and the symmetric cubic c has η⁶'s character with
+  c(u, u, u) = 24η⁶. Whether a Higgs in T is allowed at the geometry's weight is the SM seat's W56.
+- **The hand is not the puncture condition's orientation at the representation level:** neither ρ_T nor ρ̄_T is a sub or
+  quotient of the six.
+

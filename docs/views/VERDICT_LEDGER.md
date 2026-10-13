@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1368 of 1368 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1369 of 1369 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (924)
+## PROVED (925)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -936,6 +936,7 @@
 | `B1638` | THE GOLDEN IDENTITY (sealed; PROVED numerically): sum_p (theta_p(tau) theta_p(N tau)/(eta(tau) eta(N tau)))^2 = 8 at 40 random tau to 3e-49, with N = [[-1,-2],[2,-1]] (det 5); on the axis of any hyperbolic M, conj(g_p(tau)) = g_p(N_M tau) with N_M = [[d-a,-2b],[2c,d-a]], so F = sum|theta_p/eta|^4 = H_M there -- for the tick LR, F = 8 and the lowest coupling is golden; the other matchings and five other closed geodesics (discriminants 12, 12, 21, 32, 96) are not constant (spreads 1.6-17), the discriminant-5 controls are. In Weber's functions: (f f')^4 + (f1 f1')^4 + (f2 f2')^4 = 8. Proof: B1639. 0 of 19. |  | 1 |
 | `B1639` | THE GOLDEN IDENTITY FROM RAMANUJAN'S QUINTIC (sealed; PROVED given the cited theorem): N = [[1,4],[4,17]] diag(5,1) [[-5,-6],[6,7]] with both outer factors in Gamma(2), so lambda(N tau) has degree 5 over lambda(tau); with g_3^12 = 2^8/(lambda(1-lambda))^2, g_2 = g_3 s, g_4 = g_3 c (checked to 1e-46) and Ramanujan's (alpha beta)^1/2 + ((1-alpha)(1-beta))^1/2 + 2(16 alpha beta(1-alpha)(1-beta))^1/6 = 1, continued analytically, H^12 = 8^12, so H = 8 by continuity -- THEOREM: on every geodesic of discriminant 5 (the tick's axis and its images) sum|theta_p/eta|^4 = 8 and the weave's lowest symmetric coupling has masses exactly 1 : phi^-1 : phi^-2. R3's second clause (a fixed principal-branch pattern) failed as sealed: principal branches jump; the proof uses the analytic continuations. 0 of 19. |  | 1 |
 | `B1640` | THE FRAME AUDIT (an audit arc, at the owner's request; GENESIS v1.42): on the ruled branch only the single pieces of T(x)T are degenerate at omega -- Tbar(x)T (B1618's Dirac tensor; nine members in B1635's own sealed read-outs, e.g. 1 : 0.674 : 0.448) and mixed T(x)T couplings are not, so tau = omega's retirement stands as 'no hierarchy found', not as a degeneracy; 'no choice is made' in the weave's multiplier is scoped -- rho = lift^-1 against its conjugate is two binary conventions, the record's allows W45's weight 3/2 and B1636's symmetric weight-1 (golden) coupling, the conjugate neither (its weight-1 coupling is antisymmetric only), so the index and the golden coupling come with the same hand and the hand is not derived; and rho_theta(RL) shares its eigenlines only with order-3 stabilisers, rho_theta(RRL) only with order-2 ones, so one tau cannot give the TM1 reading's residual pair. 0 of 19. |  | 1 |
+| `B1641` | W46 ON MAIN, AND THE TWO OBJECTS (sealed 99975fb63; PROVED): the fibre loops of M_{1,2} are the inner automorphisms; the record's uniform lift acts on T by the parity signs and on conj(a b^-1 a^-1 b) = Delta^4 by -1, agreeing with the ruled moves, while the geometric lift (trivial on fibre cohomology) gives +1 there -- they differ by the central sign, so the matter is spinorial around the commutator loop and the two objects are one with a parity selection rule: a parity-blind Higgs allows only diagonal couplings, a Higgs in T exactly the golden pattern (c(u,u,u) = 24 eta^6); the SM seat's W46 verified on main's lifts (L6's exponents (1,1,3,5,7,7)/8, pieces 2 + 4, every chi_1 = 0, chi_3/2(rho_T) = 0, the table n(|Lambda+| - 3)); and neither rho_T nor its conjugate is a sub or quotient of L6, so the hand is not the puncture condition's orientation at the representation level. 0 of 19. |  | 1 |
 
 ## NEGATIVE (342)
 

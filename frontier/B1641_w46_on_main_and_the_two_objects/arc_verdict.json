@@ -1,0 +1,27 @@
+{
+ "id": "B1641",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1634",
+  "B1632",
+  "B1617",
+  "B1600",
+  "B1640",
+  "B1635"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave on M_{1,2} and the ruled branch; given Lambda",
+  "object": "V = (+)_p H^1(F2; chi_p (x) rho_Q), T, the six local solutions L6; the inner automorphisms as fibre loops",
+  "reach": "general",
+  "hypotheses": "B1600's move_matrix and B1617's lifts; main's Borcherds-Skoruppa chi (B1632); coherence of the lifts checked at Delta^4 only (full coherence is Gate 12)"
+ },
+ "claim_one_line": "W46 ON MAIN, AND THE TWO OBJECTS (sealed 99975fb63; PROVED): the fibre loops of M_{1,2} are the inner automorphisms; the record's uniform lift acts on T by the parity signs and on conj(a b^-1 a^-1 b) = Delta^4 by -1, agreeing with the ruled moves, while the geometric lift (trivial on fibre cohomology) gives +1 there -- they differ by the central sign, so the matter is spinorial around the commutator loop and the two objects are one with a parity selection rule: a parity-blind Higgs allows only diagonal couplings, a Higgs in T exactly the golden pattern (c(u,u,u) = 24 eta^6); the SM seat's W46 verified on main's lifts (L6's exponents (1,1,3,5,7,7)/8, pieces 2 + 4, every chi_1 = 0, chi_3/2(rho_T) = 0, the table n(|Lambda+| - 3)); and neither rho_T nor its conjugate is a sub or quotient of L6, so the hand is not the puncture condition's orientation at the representation level. 0 of 19.",
+ "weave_or_thread": "weave"
+}

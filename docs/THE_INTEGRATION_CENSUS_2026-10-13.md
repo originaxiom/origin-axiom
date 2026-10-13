@@ -27,7 +27,7 @@ lanes and the ledgers, and checked by main against the ledger rows it cites.
 
 Ranked by how much rests on it.
 
-1. **W46 — the four-dimensional index is n times the fibre's index.** It carries GENESIS v1.37 and v1.39's "±3 given Λ
+1. ~~**W46 — the four-dimensional index is n times the fibre's index.**~~ **Paid 2026-10-13 by B1641** (verified on main; one exact-sequence reading does not hold at the representation level). It carries GENESIS v1.37 and v1.39's "±3 given Λ
    and the unit" and THE_WEAVE's statement about the weave's surface. B1632 and B1634 recomputed W45's χ_{3/2} only.
    W46's puncture weights (3/2, 1, ½) and its cusp shift were never recomputed. The fork lane's `cusp_spin_extension`
    adds a specific warning: testing W46's sign alone is not testing the extension change. **First in the queue.**

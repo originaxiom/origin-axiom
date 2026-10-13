@@ -11617,6 +11617,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1641": {
+   "slug": "w46 on main and the two objects",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "V2",
+    "V4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B164": {
    "slug": "isomonodromy 04cubic",
    "motifs": [

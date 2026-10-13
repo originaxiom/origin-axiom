@@ -1,5 +1,24 @@
 # Changelog
 
+## S116 W46 ON MAIN, AND THE TWO OBJECTS (B1641, PROVED; GENESIS v1.43): the fibre loops of M₁,₂ act on the matter by the parity signs under the lifts that agree with the ruled moves, so the index's surface and the couplings' branch are one object with a parity selection rule; the SM seat's W46 verified on main
+
+**B1641 (sealed `99975fb63`).**
+- **O1, O2.** The inner automorphisms of F₂ are M₁,₂'s fibre loops. The record's uniform lift gives the parity signs on
+  V, and −I for conj(a b⁻¹ a⁻¹ b) = Δ⁴, agreeing with the moves' Δ⁴ = −I on T. The block-wise geometric lift χ_p(c)ρ_Q(c)
+  gives the identity, so it differs from the moves by the central sign at Δ⁴ (the Banking Seat's Gate 11 obstruction,
+  computed).
+- **O3, the selection rule.** The parity invariants are the diagonal in T ⊗ T and the distinct triples in T ⊗ T ⊗ T. A
+  parity-blind Higgs gives diagonal couplings only; a Higgs in T the golden pattern; the cubic c has η⁶'s character, with
+  c(u, u, u) = 24η⁶ to 2·10⁻³⁰.
+- **W1–W3, W46 on main.** L₆'s exponents are (1, 1, 3, 5, 7, 7)/8, with irreducible pieces 2 + 4; every χ₁ = 0;
+  χ_{3/2}(ρ_T) = 0; the table is n(|Λ₊| − 3). The census's first verification debt is paid.
+- **H.** Neither ρ_T nor ρ̄_T is a sub or quotient of the six, so the hand is not the puncture condition's orientation at
+  the representation level (P-079 answered).
+
+**Recorded.** T-FIBRE-LOOPS-PARITY in the registry and LAW_MAP; THE_WEAVE section; HARVEST row 1064 VERIFIED; register
+rows P-017, P-018, P-079 and P-080 done; P-019 closed by reading (W41's −¾ is the fibre one-form's weight in (z, τ), not a weight of ρ_T's τ-only forms); P-083 done by a labelled post-seal check (ρ_T(S)² = i·I on main's ρ_T, so the SM seat's W56 parity rule holds by arithmetic within the record's hand). Slot Q2 is closed. P-087 rows the design of Q3's first arc from W49 (one zero mode three times: overlaps with a Higgs in 𝕎 give only δ or ε; a Higgs in the parity line bundles gives Y_pq = I_r(τ), golden iff I_r ∝ θ_r²), and P-088 a hand derivation to seal first: the zero modes' SU(2)-invariant bilinear vanishes on the diagonal and has residue c_r θ_r²/(2πη³) at the fibre's puncture, so a parity-carrying Higgs localized there would give exactly the golden coupling. One relay to the SM seat, asking how it
+reads the exact sequence. Gates 45 of 45. Full suite: 7280 passed, 3 failed, 68 skipped — B1641 missing from the paper's claim pool (added) and a generated view stale after a mid-run edit (regenerated); then the 82 gate, harvest, lane, registry, spine and genesis test files with B1640's and B1641's locks re-run on the final tree: 463 passed, 0 failed, 7 skipped.
+
 ## S115 THE FRAME AUDIT (B1640, PROVED; GENESIS v1.42) AND THE POINT REGISTER: three things the record took as forced are scoped — the degeneracy at ω, the multiplier's hand, positivity's reach — and every point the audit raised is rowed with a disposition and one queue, under a new gate
 
 **B1640, the frame audit** (at the owner's question: "where our naivities lies … what angle are we missing"). Three

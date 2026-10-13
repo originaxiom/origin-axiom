@@ -16984,3 +16984,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - The owner: "we … fail to address all the points we made … lets prevent that this time." `docs/POINT_REGISTER.md` rows
   all 86 points with a disposition and one queue; the gate `point-debt` (E88, the uncarried point). The owner: "if the
   principle is the seed, we miss the field" — the field is queue slot Q3. Gates 45 of 45; full suite 7280 passed, 0 failed, 68 skipped (exit status 0), and again on the final tree after the late register and doc edits (7280 passed, 0 failed, 68 skipped). 0 of 19.
+
+## 2026-10-13 — S116 W46 ON MAIN, AND THE TWO OBJECTS (B1641, PROVED; GENESIS v1.43)
+
+- The fibre loops of M₁,₂ act on T by the parity signs under the lifts that agree with the ruled moves; the geometric lift
+  differs by −1 at Δ⁴. So the two objects are one, with a parity selection rule: diagonal couplings for a parity-blind
+  Higgs, the golden pattern for a Higgs in T (c(u, u, u) = 24η⁶).
+- W46 verified on main (L₆ = 2 + 4, every χ₁ = 0, the table n(|Λ₊| − 3)). The hand is not the puncture orientation at the
+  representation level. One relay to the SM seat. Gates 45 of 45. Full suite: 7280 passed, 3 failed, 68 skipped — B1641 missing from the paper's claim pool (added) and a generated view stale after a mid-run edit (regenerated); then the 82 gate, harvest, lane, registry, spine and genesis test files with B1640's and B1641's locks re-run on the final tree: 463 passed, 0 failed, 7 skipped. 0 of 19.
