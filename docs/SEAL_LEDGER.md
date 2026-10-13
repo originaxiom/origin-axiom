@@ -924,3 +924,17 @@ First run stopped in symbolic field conversion; preserved and disclosed in FIRST
 |---|---|
 | `reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py` | `a1b21eafc41ce9271ac810386857802740d3014c8a42e9423d54f823e79ecfe1` |
 | `reports/genesis_root_review_2026_10_11/weighted_global_complex/test_verify.py` | `917b616f1c23fc49e960fa730b2a2e69898c4f02bb60f811177f5883889e5ab0` |
+
+
+## Theta cusp discriminant pre-execution seal 2026-10-13
+
+Closes the local HDelta transformation-law dependency by an authored classical theta proof. Integer-series safeguards retain wrong-sign, wrong-power and normalization controls. No physical end sector is selected. Only syntax parsed; push before execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/theta_cusp/PREREGISTRATION.md` | `767946ddfa2897caacb70364ae1948fa60e68baadbc5b72c387bb0c685b10f45` |
+| `reports/genesis_root_review_2026_10_11/theta_cusp/PROOF.md` | `9cb2760b9bc2ac2f988565dd1bb99b11bb0bfbe5f490071b33d8e0ca5b4cb2b9` |
+| `reports/genesis_root_review_2026_10_11/theta_cusp/SOURCE_SCOPE.md` | `220794c19ba09a09ede850417281dfbd1bce6fa9725aa7a415068a26c84e47b7` |
+| `reports/genesis_root_review_2026_10_11/theta_cusp/verify.py` | `b95a9084ebd6250834fe98fe2c548adb2803dbbdde3616aa5a6e4818d05a5fe2` |
+| `reports/genesis_root_review_2026_10_11/theta_cusp/test_verify.py` | `26a7a197c3d39cd309c29ef045c6f658ade7e6569bac7a654c007410ba318e8e` |
+| `reports/genesis_root_review_2026_10_11/theta_cusp/execute.py` | `1f4d2c0b610ee482a18fcb373104c058b4c053075737339fd762905ca4b5f43d` |
