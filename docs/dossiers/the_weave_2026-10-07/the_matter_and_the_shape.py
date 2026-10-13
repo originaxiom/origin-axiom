@@ -1,9 +1,10 @@
-"""W62: what holds tau at the selected state. The matter's six-dimensional tau-dependence (rho_Q with the puncture's half
-flux), computed on one triangular lattice for every torus shape of a stated family, against the exact periodic part
+"""W62: what holds tau at the selected state. The matter's six-dimensional tau-dependence (rho_Q with the puncture's
+half flux), computed on one triangular lattice for every torus shape of a stated family, against the exact periodic part
 (an abelian "comb") and E(tau, 3); and, in closed form, the Higgs's copies at the half-period line W60 selected. The
 rule (W62_RULE.md) was committed before this script.
 
-  M0  the construction: plaquettes, Kramers pairs, W60's N = 96 spectrum, the abelian spectrum in closed form, lambda_K t0
+  M0  the construction: plaquettes, Kramers pairs, W60's N = 96 spectrum, the abelian spectrum in closed form,
+      lambda_K t0
   M1  the comb on the lattice against (31/1024)[E(tau, 3) - E(omega, 3)]
   M2  the diffraction is there;  M3 its sign and size;  M4 not a multiple of E(tau, 3)
   M5  the matter's own critical points;  M6  convergence (n against 4n)
@@ -192,7 +193,8 @@ def i3(lam, t0):
 def E_cs(t, s, N=40):
     """E(tau, s) = Sum' y^s / |m + n tau|^(2s), by the Chowla-Selberg expansion"""
     x, y = t.real, t.imag
-    head = 2 * zeta(2 * s) * y ** s + 2 * math.sqrt(math.pi) * gamma(s - 0.5) * zeta(2 * s - 1) / gamma(s) * y ** (1 - s)
+    head = (2 * zeta(2 * s) * y ** s
+            + 2 * math.sqrt(math.pi) * gamma(s - 0.5) * zeta(2 * s - 1) / gamma(s) * y ** (1 - s))
     tail = 0.0
     for k in range(1, N + 1):
         sig = sum(dd ** (1 - 2 * s) for dd in range(1, k + 1) if k % dd == 0)
