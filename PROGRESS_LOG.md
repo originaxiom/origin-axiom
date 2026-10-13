@@ -15183,3 +15183,9 @@ Native 13/13, new tests 15 pass; twelve-file focused 190 pass / the
 same four prior failed IDs. Raw exits, original files and known
 governance debts are retained; no shared B or independent main bank.
 Report: reports/physical_bridge_2026_09_05/PARENT_VERTEX.md.
+
+### 2026-10-13 — Audit branch finite-distance puncture operator completion
+
+Completed the named analytic obligation in the physical puncture packet as an authored application of the cone-domain theorem. For its specified rank-six coefficient, extending spin and smooth finite-distance metric, the graded selfadjoint domains have compact resolvent and chiral Fredholm index dim Lambda minus three. The kernel/cokernel sheaf maps and extreme dimensions are explicit. All 45 exact guards and five tests pass on the first run after pushed seal afd46741e95302b3109384ec8022503d005837d9; sealed source hashes are unchanged.
+
+This is audit-branch publication, not normal banking or independent analytic acceptance. It selects no physical completion or domain and does not repair the different complete-cusp ordinary-spinor problem or establish a total-family index. Existing unrelated work is preserved. Report: reports/genesis_root_review_2026_10_11/puncture_fredholm/FINDINGS.md. The live dependency view now distinguishes this completed conditional realization from the remaining genesis-selection duty.

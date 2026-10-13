@@ -1,0 +1,166 @@
+{
+  "scope": "Finite safeguards for an authored cone theorem application, not analytic certification",
+  "checks": {
+    "actual generator a unitary": true,
+    "actual generator b unitary": true,
+    "global flat determinant trivial": true,
+    "actual puncture is minus identity": true,
+    "bounding spin times gauge is periodic": true,
+    "full symbolic spin and density transform": true,
+    "omitted radial normalization detected": true,
+    "omitted radial normalization has the half shift": true,
+    "spin frame antiperiodic": true,
+    "unitary radial measure": true,
+    "normalized measure is r negative half L2b": true,
+    "c symbol square": true,
+    "c symbol determinant": true,
+    "indicial roots plus minus n": true,
+    "zero angular indicial inverse has simple pole": true,
+    "only zero angular mode in sampled critical strip": true,
+    "no sampled indicial endpoint": true,
+    "plus homogeneous solution": true,
+    "minus homogeneous solution": true,
+    "critical quotient count": true,
+    "actual current loses radial and angular dependence": true,
+    "closed domain coefficient guard rank0 mixedFalse": true,
+    "closed domain coefficient guard rank1 mixedFalse": true,
+    "closed domain coefficient guard rank2 mixedFalse": true,
+    "closed domain coefficient guard rank3 mixedFalse": true,
+    "closed domain coefficient guard rank4 mixedFalse": true,
+    "closed domain coefficient guard rank5 mixedFalse": true,
+    "closed domain coefficient guard rank6 mixedFalse": true,
+    "closed domain coefficient guard rank0 mixedTrue": true,
+    "closed domain coefficient guard rank1 mixedTrue": true,
+    "closed domain coefficient guard rank2 mixedTrue": true,
+    "closed domain coefficient guard rank3 mixedTrue": true,
+    "closed domain coefficient guard rank4 mixedTrue": true,
+    "closed domain coefficient guard rank5 mixedTrue": true,
+    "closed domain coefficient guard rank6 mixedTrue": true,
+    "mixed rank3 is not diagonal": true,
+    "nonisotropic graph rejected": true,
+    "ungraded isotropic graph exists": true,
+    "ungraded graph is not preserved": true,
+    "flat determinant residue degree": true,
+    "complementary dual index": true,
+    "both extremes retain nonzero index": true,
+    "smooth critical norm is finite": true,
+    "complete cusp critical norm diverges": true,
+    "complete cusp primitive": true
+  },
+  "all_passed": true,
+  "profiles": [
+    {
+      "mixed": false,
+      "plus_rank": 0,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": -3
+    },
+    {
+      "mixed": false,
+      "plus_rank": 1,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": -2
+    },
+    {
+      "mixed": false,
+      "plus_rank": 2,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": -1
+    },
+    {
+      "mixed": false,
+      "plus_rank": 3,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": 0
+    },
+    {
+      "mixed": false,
+      "plus_rank": 4,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": 1
+    },
+    {
+      "mixed": false,
+      "plus_rank": 5,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": 2
+    },
+    {
+      "mixed": false,
+      "plus_rank": 6,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": 3
+    },
+    {
+      "mixed": true,
+      "plus_rank": 0,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": -3
+    },
+    {
+      "mixed": true,
+      "plus_rank": 1,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": -2
+    },
+    {
+      "mixed": true,
+      "plus_rank": 2,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": -1
+    },
+    {
+      "mixed": true,
+      "plus_rank": 3,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": 0
+    },
+    {
+      "mixed": true,
+      "plus_rank": 4,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": 1
+    },
+    {
+      "mixed": true,
+      "plus_rank": 5,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": 2
+    },
+    {
+      "mixed": true,
+      "plus_rank": 6,
+      "full_rank": 6,
+      "green_zero": true,
+      "grading_kept": true,
+      "predicted_chiral_index": 3
+    }
+  ],
+  "analytic_claim": "specified finite-distance chiral index = dim Lambda minus 3"
+}

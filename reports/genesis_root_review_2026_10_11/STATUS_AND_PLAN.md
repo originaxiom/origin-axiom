@@ -92,6 +92,14 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 finite distance puncture completion
+
+The [puncture Fredholm result](puncture_fredholm/FINDINGS.md) completes the analytic obligation explicitly left by the physical branch's existing puncture packet. An authored application of the cone-domain theorem gives all graded selfadjoint domains and compact resolvent for the specified ordinary spin Dirac operator with a smooth finite-distance completion. Explicit kernel and cokernel maps justify index dim Lambda minus three; the extreme pairs are (0,3) and (3,0). All 45 exact safeguards and five tests pass on the first run after the seal was pushed, with source hashes unchanged.
+
+This repairs a conditional implication rather than selecting a new model. Independent analytic acceptance remains owed. The coefficient, extending spin, completion and Lambda remain supplied. The complete-cusp obstruction is unchanged, and neither a modular-family index nor a physical three-generation spectrum follows from this fixed-fibre result. The next duty is to trace the same-field operator and end law to earlier inputs and to specify domain transport before using the family index. No new B-number or canonical genesis promotion is made.
+
+Publication-time branch update: physical b7443d3aaac0d0a5b68c860d967559859f5d7bd1 adds a sealed compact silver-cover stationary-continuation packet and two preserved launch/instrument failures. Its design and failure report were read, not its repaired mathematics replayed. At that pin it is a proposed continuation with no published successful execution, not evidence that genesis selection or this different fibre problem has been solved. Read its outcome before opening overlapping same-action work.
+
 ### October 13 actual weighted global flag count
 
 The [weighted global complex](weighted_global_complex/FINDINGS.md) now computes the supporting task left by the transport result. The complete positive flag end contracts to its entire decaying torus subcomplex; the authored radial and bounded joining argument gives a coefficient-relative compact model and closed ranges. In the pinned nonsplit candidate, all four coefficients W, its dual, exterior-square W and its dual have (H0,H1,H2,H3)=(0,2,2,0). Both finite constructions agree, as do 48 modular model/prime comparisons; 94 exact controls and eight tests pass after a preserved and resealed symbolic-normalization failure.
