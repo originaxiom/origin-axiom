@@ -1,0 +1,408 @@
+{
+ "status": "W57: the field of maximality (the rule first; one run)",
+ "the draws": {
+  "seed, per placement": 250000,
+  "anarchy": 1000000,
+  "pseudo-data": 200,
+  "R_D's forms": 8
+ },
+ "the data at M_Z: target and sigma": [
+  [
+   -11.826251511720479,
+   -5.603546203065667,
+   -6.969128684060813,
+   -3.9779009226279265,
+   -8.182637679231728,
+   -2.832367910819658,
+   -1.4916104333208975,
+   -3.17414149352803,
+   -5.59081099599704,
+   -4.758321365482266
+  ],
+  [
+   0.1979120617487184,
+   0.10378674926018663,
+   0.12307626351310923,
+   0.13268050100375323,
+   0.10000446994766284,
+   0.10000038659384412,
+   0.1000456546548568,
+   0.10176777363132819,
+   0.10286675687247873,
+   0.10242255543096566
+  ]
+ ],
+ "the data at 1e12 GeV: target and sigma": [
+  [
+   -11.931048221222872,
+   -5.705782828326693,
+   -6.8699529143356015,
+   -3.875834846136152,
+   -8.182915783380489,
+   -2.8326522811158665,
+   -1.4916104333208975,
+   -3.17414149352803,
+   -5.59081099599704,
+   -4.758321365482266
+  ],
+  [
+   0.20493220335147463,
+   0.10545533516107058,
+   0.12420054085790193,
+   0.13356208952761103,
+   0.10007742685187868,
+   0.10007309166349522,
+   0.1000456546548568,
+   0.10176777363132819,
+   0.10286675687247873,
+   0.10242255543096566
+  ]
+ ],
+ "controls": {
+  "(a) the vectorised k = 3 forms equal W53's": true,
+  "(b) the fraction of tau with y > 6, and the measure's 3/(6 pi)": [
+   0.159368,
+   0.15915494309189535
+  ],
+  "(c) anarchy's mean |V_us|^2, and Haar's 1/3": [
+   0.33344091785617974,
+   0.3333333333333333
+  ],
+  "(d) the fraction of seed draws set to the floor (a form underflowed in the cusp)": 0.000737
+ },
+ "main (S_mix against anarchy, the data at M_Z)": {
+  "accepted on the ladder (seed, anarchy)": {
+   "2": [
+    0,
+    0
+   ],
+   "4": [
+    0,
+    0
+   ],
+   "8": [
+    0,
+    0
+   ],
+   "16": [
+    0,
+    0
+   ],
+   "32": [
+    0,
+    0
+   ],
+   "64": [
+    421470,
+    406894
+   ]
+  },
+  "eps*": 64,
+  "T1: R = A_S / A_A at eps*": 1.0358225975315438,
+  "T1: anarchy accepted none (A_A set to 3/N)": false,
+  "T2: the data's count, and the pseudo-data's counts (min, median, max)": [
+   421470,
+   [
+    2557,
+    841068.0,
+    877618
+   ]
+  ],
+  "T2: p": 0.18407960199004975,
+  "T3: two-sided marginal p of each datum": {
+   "log m_u/m_t": 0.11768776462447075,
+   "log m_c/m_t": 0.00147999704000592,
+   "log m_d/m_b": 0.18919762160475678,
+   "log m_s/m_b": 0.001645996708006584,
+   "log m_e/m_tau": 0.16440967118065763,
+   "log m_mu/m_tau": 0.0040499919000162,
+   "log |V_us|": 0.5069389861220277,
+   "log |V_cb|": 0.09850780298439403,
+   "log |V_ub|": 0.1973016053967892,
+   "log |V_td|": 0.21703756592486814
+  }
+ },
+ "T4: anarchy's two-sided marginal p for log(m_u/m_t)": 1.999996000008e-06,
+ "read-out: each placement": {
+  "('B', 'B')": {
+   "accepted on the ladder (seed, anarchy)": {
+    "2": [
+     0,
+     0
+    ],
+    "4": [
+     0,
+     0
+    ],
+    "8": [
+     0,
+     0
+    ],
+    "16": [
+     0,
+     0
+    ],
+    "32": [
+     0,
+     0
+    ],
+    "64": [
+     90510,
+     406894
+    ]
+   },
+   "eps*": 64,
+   "T1: R = A_S / A_A at eps*": 0.8897649019154865,
+   "T1: anarchy accepted none (A_A set to 3/N)": false,
+   "T2: the data's count, and the pseudo-data's counts (min, median, max)": [
+    90510,
+    [
+     1903,
+     157859.5,
+     185002
+    ]
+   ],
+   "T2: p": 0.3383084577114428,
+   "T3: two-sided marginal p of each datum": {
+    "log m_u/m_t": 0.23356613147094824,
+    "log m_c/m_t": 7.999936000511995e-06,
+    "log m_d/m_b": 0.3763969888240894,
+    "log m_s/m_b": 0.0003279973760209918,
+    "log m_e/m_tau": 0.32694138446892423,
+    "log m_mu/m_tau": 0.005287957696338429,
+    "log |V_us|": 0.6910584715322277,
+    "log |V_cb|": 0.3569171446628427,
+    "log |V_ub|": 0.7829297365621075,
+    "log |V_td|": 0.8600651194790442
+   }
+  },
+  "('B', 'D')": {
+   "accepted on the ladder (seed, anarchy)": {
+    "2": [
+     0,
+     0
+    ],
+    "4": [
+     0,
+     0
+    ],
+    "8": [
+     0,
+     0
+    ],
+    "16": [
+     0,
+     0
+    ],
+    "32": [
+     0,
+     0
+    ],
+    "64": [
+     91345,
+     406894
+    ]
+   },
+   "eps*": 64,
+   "T1: R = A_S / A_A at eps*": 0.8979734279689551,
+   "T1: anarchy accepted none (A_A set to 3/N)": false,
+   "T2: the data's count, and the pseudo-data's counts (min, median, max)": [
+    91345,
+    [
+     269,
+     226465.0,
+     235802
+    ]
+   ],
+   "T2: p": 0.0845771144278607,
+   "T3: two-sided marginal p of each datum": {
+    "log m_u/m_t": 0.23344613243094056,
+    "log m_c/m_t": 0.002175982592139263,
+    "log m_d/m_b": 0.002199982400140799,
+    "log m_s/m_b": 0.002159982720138239,
+    "log m_e/m_tau": 0.002159982720138239,
+    "log m_mu/m_tau": 0.002159982720138239,
+    "log |V_us|": 0.23811009511923906,
+    "log |V_cb|": 0.015295877632978936,
+    "log |V_ub|": 0.002351981184150527,
+    "log |V_td|": 0.0027199782401740786
+   }
+  },
+  "('D', 'B')": {
+   "accepted on the ladder (seed, anarchy)": {
+    "2": [
+     0,
+     0
+    ],
+    "4": [
+     0,
+     0
+    ],
+    "8": [
+     0,
+     0
+    ],
+    "16": [
+     0,
+     0
+    ],
+    "32": [
+     0,
+     0
+    ],
+    "64": [
+     142703,
+     406894
+    ]
+   },
+   "eps*": 64,
+   "T1: R = A_S / A_A at eps*": 1.4028518483929475,
+   "T1: anarchy accepted none (A_A set to 3/N)": false,
+   "T2: the data's count, and the pseudo-data's counts (min, median, max)": [
+    142703,
+    [
+     5791,
+     208722.5,
+     223315
+    ]
+   ],
+   "T2: p": 0.18407960199004975,
+   "T3: two-sided marginal p of each datum": {
+    "log m_u/m_t": 0.0017999856001151991,
+    "log m_c/m_t": 0.0017999856001151991,
+    "log m_d/m_b": 0.3762369901040792,
+    "log m_s/m_b": 0.002159982720138239,
+    "log m_e/m_tau": 0.32659738722090226,
+    "log m_mu/m_tau": 0.0068079455364357085,
+    "log |V_us|": 0.2772217822257422,
+    "log |V_cb|": 0.012399900800793593,
+    "log |V_ub|": 0.001927984576123391,
+    "log |V_td|": 0.0029999760001919984
+   }
+  },
+  "('D', 'D')": {
+   "accepted on the ladder (seed, anarchy)": {
+    "2": [
+     0,
+     0
+    ],
+    "4": [
+     0,
+     0
+    ],
+    "8": [
+     0,
+     0
+    ],
+    "16": [
+     0,
+     0
+    ],
+    "32": [
+     0,
+     0
+    ],
+    "64": [
+     96912,
+     406894
+    ]
+   },
+   "eps*": 64,
+   "T1: R = A_S / A_A at eps*": 0.9527002118487862,
+   "T1: anarchy accepted none (A_A set to 3/N)": false,
+   "T2: the data's count, and the pseudo-data's counts (min, median, max)": [
+    96912,
+    [
+     249748,
+     249754.0,
+     249756
+    ]
+   ],
+   "T2: p": 0.004975124378109453,
+   "T3: two-sided marginal p of each datum": {
+    "log m_u/m_t": 0.001959984320125439,
+    "log m_c/m_t": 0.001959984320125439,
+    "log m_d/m_b": 0.001975984192126463,
+    "log m_s/m_b": 0.001959984320125439,
+    "log m_e/m_tau": 0.001959984320125439,
+    "log m_mu/m_tau": 0.001967984256125951,
+    "log |V_us|": 0.20349437204502363,
+    "log |V_cb|": 0.009439924480604156,
+    "log |V_ub|": 0.002015983872129023,
+    "log |V_td|": 0.0023839809281525747
+   }
+  }
+ },
+ "read-out: the data at 1e12 GeV": {
+  "accepted on the ladder (seed, anarchy)": {
+   "2": [
+    0,
+    0
+   ],
+   "4": [
+    0,
+    0
+   ],
+   "8": [
+    0,
+    0
+   ],
+   "16": [
+    0,
+    0
+   ],
+   "32": [
+    0,
+    0
+   ],
+   "64": [
+    423597,
+    409608
+   ]
+  },
+  "eps*": 64,
+  "T1: R = A_S / A_A at eps*": 1.0341521649967773,
+  "T1: anarchy accepted none (A_A set to 3/N)": false,
+  "T2: the data's count, and the pseudo-data's counts (min, median, max)": [
+   423597,
+   [
+    2569,
+    841673.5,
+    878187
+   ]
+  ],
+  "T2: p": 0.1791044776119403,
+  "T3: two-sided marginal p of each datum": {
+   "log m_u/m_t": 0.11672776654446691,
+   "log m_c/m_t": 0.00147999704000592,
+   "log m_d/m_b": 0.19173361653276694,
+   "log m_s/m_b": 0.00168999662000676,
+   "log m_e/m_tau": 0.1644036711926576,
+   "log m_mu/m_tau": 0.004047991904016192,
+   "log |V_us|": 0.5069389861220277,
+   "log |V_cb|": 0.09850780298439403,
+   "log |V_ub|": 0.1973016053967892,
+   "log |V_td|": 0.21703756592486814
+  }
+ },
+ "read-out: observer-conditioned (every m1/m3 < 1e-2; labelled; cannot rescue T2)": {
+  "kept (seed, anarchy)": [
+   63656,
+   0
+  ],
+  "anarchy keeps no draw": true
+ },
+ "cells (as worded)": {
+  "T1: R >= 10 at eps*": false,
+  "T2: p < 0.05 (the data are not a typical draw from S_mix)": false,
+  "T3: every two-sided marginal p >= 0.01 under S_mix": false,
+  "T4: anarchy's two-sided marginal p for log(m_u/m_t) < 0.001": true
+ },
+ "priors": {
+  "T1": 0.85,
+  "T2": 0.7,
+  "T3": 0.6,
+  "T4": 0.95
+ },
+ "every cell holds": false
+}
