@@ -885,3 +885,18 @@ Only syntax parsed; commit and push before the second scientific run.
 |---|---|
 | `reports/genesis_root_review_2026_10_11/noncompact_admission/verify_v2.py` | `f44e083f38ce85b0ebc0e12e686567f6ddc1874382d042478f7f63e7b34bb7ef` |
 | `reports/genesis_root_review_2026_10_11/noncompact_admission/CORRECTION_V2.md` | `0df27e3e3c334e6db0d665706879c86c1580b7dbd74cdede732955ccd46a9bdd` |
+
+## Complete flag complex transport pre-execution seal 2026-10-13
+
+Application of the existing bounded-norm lemma to the nonsplit global
+flag metric, and an authored radial cochain transport for positive
+amplitudes. Finite controls check the algebra, not global particle counts
+or analytic certification. Only syntax parsed; push before execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/kernel_transport/PREREGISTRATION.md` | `19b5486c0d6c21551ae022b37d7666fc182bb2358c76ce2842000b33dab80588` |
+| `reports/genesis_root_review_2026_10_11/kernel_transport/PROOF.md` | `a2ab03d02337b5203a0921ff54bb0f40e7dcb955eba5897b9f965c8008530fc6` |
+| `reports/genesis_root_review_2026_10_11/kernel_transport/verify.py` | `2ea9808b8b222bd6b74ee127937e00fdb3f738dd2b5bf21e222ac9c3e8474bfb` |
+| `reports/genesis_root_review_2026_10_11/kernel_transport/test_verify.py` | `6387d3d8b4046a54c8f2ac42e29c4e36ada50902992cc5387f676ab0a17e37dc` |
+| `reports/genesis_root_review_2026_10_11/kernel_transport/execute.py` | `6c9251e8740827189de6a097fd59f50bc9d17dd190af03fe99606652cf80d7b0` |
