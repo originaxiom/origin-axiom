@@ -1,0 +1,42 @@
+{
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/DESIGN.md",
+      "sha256": "d147ffe074775a92d6888c9f6214edda7103c5382285208dbf45fdf4b8b8878e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/PROOF.md",
+      "sha256": "c8b5ec3d19074c36c22256615a7203566dae32b005607fbeac7e10f400ef839b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/probe.py",
+      "sha256": "b77786e27dbe012a0f90f80df6bff780b0216b3cb6c9c171ded9f30911ece2b7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/reference.py",
+      "sha256": "ca28f14a280d4d19772f84980eced17de86e7abee3f147732911b48046e54244"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/execute.py",
+      "sha256": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/upstream_residue_coupling.py",
+      "sha256": "97705d5793af2a278506685ddb6e9f78f2aceb12cfe619e2afc3b7e900051763"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/upstream_PREREGISTRATION.md",
+      "sha256": "8074401a7b3d681e8c81e5ac130d94068ad0b44247847e6c5d70fd7e77946211"
+    },
+    {
+      "path": "tests/test_physical_bridge_residue_pairing_audit.py",
+      "sha256": "1b99d8611fbf7b1f77cf1a4a0a7ccaa8c16399100eaa378e3134603c1a466a2c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py",
+      "sha256": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5"
+    }
+  ],
+  "upstream_main": "55bd29ab7",
+  "scope": "literal raw residue tensor, not all physical vertices or contour reproduction"
+}
