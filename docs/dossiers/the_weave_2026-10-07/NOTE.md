@@ -80,6 +80,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   quarks to the charged leptons (a Kronecker lemma), and the data exclude the tie (χ² ≥ 106 at a 10% allowance; it
   would need 48%). Otherwise the sectors split only through Higgs content with new free numbers. What tells the
   sectors apart is the Higgs sector's flavour structure, a dictionary datum (GENESIS FK11).
+- W56 (the owner's request for a field compatible with the seed; "contemplate once more and do as you recommend"; rule
+  first; every cell as predicted): the Higgs cannot transform like a generation at the generations' weight, since no
+  coupling exists there. In the dual triplet it rescues the geometry's weight: the fit is exact once H_d carries the
+  index. But with 39 or 55 parameters it predicts nothing. In F-MC's E₆ cubic no Higgs content in 27s tells the down
+  quarks from the charged leptons (equal spectra, exactly), which corrects W55's scope remark.
 
 ## The setting
 
@@ -3881,6 +3886,16 @@ numbers.
 **Status.** COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result on the ruled branch, given Λ.
 0 of 19.
 
+**Added after W56 (a correction to this section's scope remark and reading; W55's cells and its answer stand).**
+- The sentence "Each further Higgs 27 with its own coupling, and each flavour direction in T, can split the sectors"
+  holds in the Standard Model frame only, and there only through free coefficients.
+- In F-MC's E₆ cubic the 6 × 6 down-type and charged-lepton matrices have equal spectra for any Higgs content in 27s,
+  any flavour structure and any neutral vacuum values (W56's K1, exact). So in that frame no 27 can split them.
+- "It survives only with Higgs fields that carry flavour or their own couplings" should read: it survives only with
+  Higgs content beyond the 27, such as W39's 351′.
+- W55's answer to (a) is strengthened, not changed: nothing on record tells the sectors apart in a way that fixes a
+  number.
+
 ## Reading: the seed and the field (READING; the owner's framing, 2026-10-13)
 
 Nothing here is computed. It reads W49–W55 in the owner's own terms, which the owner asked to have recorded.
@@ -3929,6 +3944,100 @@ and the analogy a description.
 
 **Weave or thread.** The seed, the field and their interaction are weave notions: a field compatible with the seed has
 to be shared by every thread, as the two records are. A field attached to one thread would be a thread result.
+
+## W56. The Higgs carrying the generation index: it cannot copy a generation, and as the dual triplet it rescues the geometry's weight but predicts nothing; no Higgs in 27s tells the down quarks from the charged leptons (`the_higgs_and_the_generation_index.py`; `W56_RULE.md`)
+
+**Why.**
+- **The owner's request (2026-10-13).** Look for a field compatible with the seed, by the same minimality ("Reading:
+  the seed and the field"). The owner shared notes of 2025 for this; they were read at the owner's request and are not
+  banked. Then: "contemplate once more and do as you recommend".
+- **The contemplation, recorded in the rule.**
+  - 15 of the 19 numbers are couplings of one field, the Higgs: the 13 flavour numbers and the 2 of its potential.
+  - W52 to W55 kept the Higgs flavour-blind, and W55 located the missing datum in its place relative to T.
+  - So the first field to test is the Higgs, placed in each way the seed itself allows.
+- **The standard a candidate field must meet** is written in the rule: nothing added; shared by every thread; acted on
+  by the seed's moves; its interaction picks τ and the Higgs state (GENESIS FK9); a testable number.
+- **The order.** The rule (`W56_RULE.md`, d8599653d) came before the code. The script (d1367ed81) was committed before
+  its one run, and the output (24915c6e0) before this record.
+
+**Disclosed.**
+- **The pre-run review** removed a dead line and added a guard for an empty coupling space. The guard did not fire.
+- **A convention read before the rule:** ρ_T(S)² = i·1, from W50's matrices. The parity predictions follow from it by
+  hand, and the output stores it.
+
+**The result (COMPUTED; one run; every cell as predicted).**
+- **K1, the E₆ identity.**
+  - **The setting.** The explicit trinification cubic, I₃ = det Q_L + det Q_R + det L − tr(Q_L L Q_Rᵀ), polarised. 200
+    random cases, each with one, two or three Higgs 27s, random flavour tensors and random vacuum values in all five
+    neutral components of L.
+  - **The identity holds.** The charged leptons' six singular values are the down-type ones times c, to 6 × 10⁻¹⁴. c = 1,
+    the same to 6 × 10⁻¹⁴ in every case.
+  - **The control breaks it, as it must.** Multiplying one neutral component by −3 in the lepton block only breaks the
+    identity in every case; the smallest spread is 0.17.
+  - **A check of the construction.** The cubic's charge-violating entries vanish, to 10⁻¹⁶.
+- **K2, the parity and the dimensions.** The holomorphic coupling forms by weight:
+
+| k | 1/2 | 3/2 | 5/2 | 7/2 | 9/2 | 11/2 | 13/2 | 15/2 |
+|---|---|---|---|---|---|---|---|---|
+| R_G = (conj ρ_T)^⊗3: the Higgs like a generation | 0 | 1 | 0 | 5 | 0 | 10 | 0 | 14 |
+| R_D = conj ρ_T ⊗ conj ρ_T ⊗ ρ_T: the Higgs in the dual triplet | 0 | 0 | 3 | 0 | 8 | 0 | 12 | 0 |
+
+  - **The parity holds exactly.** Every form sits on the predicted parity.
+  - **n = 8 at 9/2.** The hand estimate was about 10, less its usual overshoot.
+  - **The control** gives T ⊗ T at k = 3, 5 and 7 as 2, 4 and 5, W52's values.
+- **K3, the census at the geometry's weight** (Standard Model frame; W53's 13 observables at a = 0.10):
+
+| (H_u, H_d) | P | χ²_min | τ at the minimum |
+|---|---|---|---|
+| (B, B): W53, recorded | 11 | 1887 | — |
+| (D, D) | 55 | 10⁻²⁴ (exact) | 0.200 + 3.152i |
+| (B, D) | 39 | 10⁻²³ (exact) | 0.209 + 4.229i |
+| (D, B) | 27 | 27.7 | 0.001 + 5.496i |
+
+  - **(D, B) fails on d and e, as predicted.** Its pulls are d −3.0, b +2.4, e +2.4 and τ −2.6; every quark pull and
+    the CKM are zero. Both sectors are flavour-blind at k = 3 on one τ, and they want different hierarchies.
+  - **The box was not the limit.** No minimum sits on its edge.
+- **K4, the count.** Rank 13 at all nine points, with the 13th singular value over the largest between 0.003 and 0.05.
+  None of the structures predicts a flavour number.
+
+**What it shows (a READING on the computed facts; given Λ, GENESIS FK11).**
+- **The Higgs cannot be a fourth copy of a generation.** At the generations' weight the coupling has no form at all.
+  The multiplier's parity forbids it (K2).
+- **The Higgs's place was what the geometry's weight lacked.**
+  - With a flavour-blind Higgs the geometry's weight fails (W53).
+  - Once H_d carries the dual-triplet index it fits exactly, whether H_u is flavour-blind or dual.
+  - The piece W53's structure missed is the d–e split: (D, B), where only H_u carries the index, still fails on d and
+    e.
+- **But it predicts nothing.**
+  - P = 39 or 55 for 13 numbers, at rank 13.
+  - The freedom sits in the couplings: 8 complex coefficients for each dual-triplet sector, against 4 reals for the
+    Higgs's direction.
+  - So a field that only selects the direction cannot make this predictive. A principle that fixes the couplings
+    themselves is needed.
+  - The count stays all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is earned).
+- **The d–e wall.**
+  - **The Standard Model frame.** Under Λ the down quarks and the charged leptons transform alike and share H_d. So only
+    their free coefficients split them, in every placement.
+  - **F-MC's E₆ cubic: no Higgs content in 27s splits them**, because their spectra are equal exactly (K1, c = 1).
+    - This extends main's B1340 to the whole 27, with its vectorlike d–D and L–L′ mixing, any number of 27s and any
+      vacuum values. B1340 found M_d = M_eᵀ from 10·5̄·5̄_H in SU(5), and said "separating them needs a Georgi-Jarlskog
+      Higgs sector the record does not supply". The record's `docs/GUT_REQUIREMENTS_LEDGER.md` lists the mass
+      relations as "partial".
+    - The literature states the same for E₆. Babu, Bajc and Susič (JHEP 05 (2015) 108, arXiv:1504.00904) call it "the
+      unwanted mass relation M_D^T = M_E" when the 45-type doublet of a 351′ has no vacuum value.
+    - W55's scope remark is corrected in its section.
+  - **The data's pattern** is Georgi–Jarlskog-like (W55: ×3.1 and ×3.4).
+    - The seat's literature research (2026-10-13) found the latest GUT-scale fit's double ratio
+      (y_μ y_d)/(y_s y_e) = 10.58 ± 0.11 (MSSM; Antusch, Hinze and Saad, arXiv:2510.01312). Georgi and Jarlskog's
+      factors give 9, and the best alternative pair of group factors, 10.125, the authors put above 4σ.
+    - Read so, the data ask for a continuous splitting rather than one group-theory factor. That is literature, not
+      computed here.
+- **What it means for the field.** The field the data ask for must do two things. It must fix the couplings, not only
+  a direction. And it must carry the quark–lepton distinction that the seed and its frames keep symmetric. No Higgs
+  placement the seed offers at the geometry's weight does either.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result on the ruled branch, given Λ.
+0 of 19.
 
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
@@ -4097,6 +4206,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W53 | COMPUTED (the rule and its data first; one run; F2, F3 and F4 went the way their priors leaned; M0(e) and F1 failed as worded; post hoc P1 to P4); a WEAVE result given Λ | the fit at the geometry's weight: W52's T ⊗ T at k = 3 against the 13 flavour numbers (Huang and Zhou 2021's masses at M_Z, PDG 2025's CKM, in logs with a 10% running allowance). χ²_min = 1887 (5957 at 5%, 484 at 20%) against 5.99; the masses alone give 163 with eleven parameters for nine numbers. Near the cusp m₁/m₃ = κ q^{1/4} in every hierarchical sector (at 5i, 1.05 to 1.15 × 10⁻³ against 1.07 × 10⁻³), and each sector alone is reached at its own y (d 3.19 or 5.11, e 2.47 or 5.91, u within 4% at 4.21): one τ cannot serve three. M0(e) wrongly said (3, 3, 3) was the only rank-11 structure; post hoc the quark masses alone (χ²_min = 41.4) exclude (3, 3, 5) and (3, 3, 7). No structure on record both fits and predicts a flavour relation |
 | W54 | COMPUTED (the rule first; one run; H0 and H2 as predicted; H1 and H3 failed as worded, both explained post hoc); a WEAVE result given Λ | the rank-13 structures: all 32 not yet excluded (T ⊗ T with weights in {3, 5, 7}, (k_u, k_d) ≠ (3, 3); Sym² T with weights in {5, 7}) fitted to the 13 flavour numbers with W53's data. Five fit, all in T ⊗ T with every sector at 5 or 7: (5, 7, 5) and (5, 7, 7) exactly, (7, 7, 5) at 0.88, (5, 5, 5) and (5, 5, 7) at 5.33, with 23 to 27 parameters, so they predict nothing; post hoc (7, 7, 5) and (7, 7, 7) fit exactly at τ ≈ 0.0006 + 1.019i. Every structure with a sector at weight 3 fails (χ²_min ≥ 110), and every Sym² T one (94 to 199). The weight-5 span holds rank-one couplings at a generic τ (one of them a symmetric square), against the rule's count. The count of 13 is realised: all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is earned) |
 | W55 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | does the gauge side on record tell the sectors apart? With one flavour matrix serving every coupling (F-MC's E₆ cubic with its rank-closing vacuum values, SO(10) with one 10_H, minimal SU(5)) the down-type and charged-lepton matrices are P ⊗ λ and Pᵀ ⊗ λ (to 10⁻¹⁴), so the two sectors share their ratios; the data exclude that at χ² ≥ 106 (a = 0.10; 249 at 0.05, 32 at 0.20; admitted only at a 48% allowance). In the Standard Model frame the tie k_d = k_e keeps (5, 5, 5), (5, 7, 7), (7, 7, 7), with 23 to 29 parameters. No: the sectors split only through Higgs content with new free numbers, a dictionary datum |
+| W56 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | the Higgs carrying the generation index. Like a generation (T at 3/2) it has no coupling: the multiplier's parity, ρ_T(S)² = i. In the dual triplet it has 8 coupling forms at 9/2. At the geometry's weight (H_u, H_d) = (D, D) and (B, D) fit exactly with P = 55 and 39; (D, B) fails at χ² = 27.7 on d and e; all have rank 13, so none predicts. In F-MC's E₆ cubic the down-type and charged-lepton spectra are equal (c = 1, to 10⁻¹³) for any Higgs content in 27s; only content beyond the 27 splits them. W55's scope remark corrected |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -4141,6 +4251,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
 - `W55_RULE.md`: the rule, committed before the code; `the_gauge_side_and_the_sectors.py` → `the_gauge_side_and_the_sectors.json`: W55, the down–lepton tie's exact bound at three allowances and its threshold allowance, the Kronecker lemma on 400 cases, and the Standard Model frame's tie read from W54.
+- `W56_RULE.md`: the rule, committed before the code; `the_higgs_and_the_generation_index.py` → `the_higgs_and_the_generation_index.json`: W56, the E₆ identity from the trinification cubic on 200 cases with its control, the coupling forms of the two generation-type placements by weight, the census of the Higgs placements at the geometry's weight, and their ranks.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

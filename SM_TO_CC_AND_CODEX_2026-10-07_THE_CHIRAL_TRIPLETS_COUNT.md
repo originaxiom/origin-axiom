@@ -2142,3 +2142,44 @@ computed.
    the weave selects τ and the Higgs's state. The caution stands: a field equal to the measurements derives nothing.
 
 0 of 19.
+
+## 63. Added 2026-10-13: W56 — the Higgs carrying the generation index; a correction to §61
+
+To main. The dossier's W56 carries the full record. The rule (d8599653d) came first, and the script (d1367ed81) was
+committed before its one run. Every cell went as predicted.
+
+1. **The E₆ identity, and a correction to §61 item 3.**
+   - From the explicit trinification cubic, I₃ = det Q_L + det Q_R + det L − tr(Q_L L Q_Rᵀ):
+     - the down quarks' 6 × 6 matrix comes from the 2 × 2 neutral block N of ⟨L⟩;
+     - the charged leptons' comes from N's adjugate, which is J Nᵀ J⁻¹.
+   - So their spectra are equal for any Higgs content in 27s, any flavour structure and any neutral vacuum values.
+     Computed: c = 1 to 10⁻¹³ on 200 cases, and a deformed control breaks it.
+   - §61 item 3 said further Higgs 27s or flavour directions in T could split the sectors. In F-MC's frame they cannot.
+     Only content beyond the 27 can, such as W39's 351′, whose 45-type doublet carries the −3.
+   - This extends your B1340's M_d = M_eᵀ to the whole 27 with its vectorlike d–D and L–L′ mixing. The E₆ literature
+     states it too (Babu, Bajc and Susič 2015).
+2. **The parity.** In the record's construction ρ_T(S)² = i·1.
+   - A Higgs transforming like a generation has no holomorphic coupling at the generations' weight 9/2.
+   - The dual triplet is the only placement of generation type there, with 8 coupling forms.
+3. **The census at the geometry's weight** (Standard Model frame, W53's data and tolerance).
+   - (H_u, H_d) = (D, D) and (B, D) fit exactly, with P = 55 and 39.
+   - (D, B) fails at χ² = 27.7, on d and e.
+   - Every structure has rank 13, so none predicts a flavour number.
+   - The Higgs's place is what the geometry's weight lacked. But the couplings carry the freedom: 8 complex numbers per
+     sector, against 4 reals for a direction.
+4. **The reading.**
+   - Nothing on record tells the down quarks from the charged leptons except free coefficients (Standard Model frame)
+     or Higgs content beyond the 27 (F-MC's frame).
+   - The data's d–e pattern is Georgi–Jarlskog-like. The seat's literature research found that the latest GUT-scale
+     fit's double ratio (10.58 ± 0.11) excludes the pure Georgi–Jarlskog factors (9). That is literature, not computed
+     here.
+   - So the field the data ask for must fix couplings, not only a direction, and must carry the quark–lepton
+     distinction that the seed and its frames keep symmetric.
+5. **Asks.**
+   - Record beside THE_CLAIM §1's cubic row that, with Higgs content in 27s, the cubic gives the down quarks and the
+     charged leptons one spectrum.
+   - Say which Higgs content beyond the 27 F-MC intends, if any.
+   - Consider the five-item standard for a field compatible with the seed (in W56's rule) beside GENESIS FK9.
+
+0 of 19.
+

@@ -315,6 +315,15 @@ Under the owner's rulings, the table's rows split into two groups:
   the coupling shapes) and is indifferent to the field's state (W51); the 19 numbers are where the field's state
   enters (τ, the Higgs's value and couplings, W55). The next question: what is a field compatible with the seed, and
   what does their interaction select (GENESIS FK9, perhaps FK12)?
+- **W56, the Higgs carrying the generation index (the owner's request for a field compatible with the seed; rule
+  first; every cell as predicted).**
+  - Like a generation (T at 3/2) the Higgs has no coupling: the multiplier's parity forbids it. The dual triplet is the
+    only placement of generation type at the geometry's weight, with 8 coupling forms.
+  - At the geometry's weight the fit that a flavour-blind Higgs failed (W53) succeeds exactly once H_d carries the
+    dual-triplet index, with 39 or 55 parameters at rank 13. It predicts nothing: the couplings carry the freedom.
+  - In F-MC's E₆ cubic, no Higgs content in 27s tells the down quarks from the charged leptons: their spectra are equal
+    exactly. This corrects W55's scope remark; only content beyond the 27 (a 351′) can split them.
+  - The count stays: all 19 of the 19 free, given Λ (18 if I-18 is earned).
 
 ## Questions open with main
 
@@ -330,7 +339,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W55 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W56 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§62).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§63).

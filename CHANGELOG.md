@@ -1,5 +1,23 @@
 # Changelog
 
+## The weave's W56: the Higgs carrying the generation index; relay section 63
+
+- **W56** (the owner's request for a field compatible with the seed, then "contemplate once more and do as you
+  recommend"; the rule d8599653d first; the script d1367ed81 before its one run; every cell as predicted):
+  - **the E₆ identity:** from the explicit trinification cubic, the down-type and charged-lepton 6 × 6 spectra are
+    equal (c = 1, to 10⁻¹³) for any Higgs content in 27s, any flavour structure and any neutral vacuum values; a
+    deformed control breaks it. W55's scope remark is corrected: in F-MC's frame no 27 can split the sectors;
+  - **the parity:** a Higgs transforming like a generation has no coupling at the generations' weight (ρ_T(S)² = i);
+    the dual triplet is the only generation-type placement there, with 8 coupling forms at 9/2;
+  - **the census:** the geometry's weight fits exactly once H_d carries the dual-triplet index ((D, D) with P = 55,
+    (B, D) with P = 39); (D, B) fails at χ² = 27.7 on d and e; every structure has rank 13 and predicts nothing.
+- **So:** the Higgs's place was what the geometry's weight lacked, but the couplings, not the direction, carry the
+  freedom; nothing on record tells the down quarks from the charged leptons except free coefficients or content
+  beyond the 27. The count stays all 19 of the 19 free. 0 of 19 derived.
+- **Relay §63** to main. **Surfaces.** The rule, the script and its JSON, the dossier (W56, a row, the header, the
+  files, and a correction under W55), the W56 test and its regeneration probe, the state page, the relay and the
+  ledger.
+
 ## Reading: the seed and the field — the owner's framing recorded; relay section 62
 
 - **A READING** (the owner's framing of 2026-10-13, recorded at the owner's request; nothing computed): existence as

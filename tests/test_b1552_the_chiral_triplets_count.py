@@ -1275,6 +1275,62 @@ def test_w55_the_gauge_side_and_the_sectors():
         assert np.max(np.abs(got - prod) / prod) < 1e-10
 
 
+
+def test_w56_the_higgs_and_the_generation_index():
+    """W56 (the owner's request for a field compatible with the seed; the rule first; one run; every cell as
+    predicted): the Higgs cannot copy a generation at its weight; in the dual triplet it fits the geometry's weight but
+    predicts nothing; no Higgs content in 27s splits the down quarks from the charged leptons in the E6 cubic.
+    In process: the E6 identity from the trinification cubic on random cases, and the multiplier's parity"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_higgs_and_the_generation_index.json").read_text(encoding="utf-8"))
+    assert d["every cell holds"] is True and len(d["cells (as worded)"]) == 6
+    ks = [f"{0.5 + i:g}" for i in range(8)]
+    dims = d["K2: dim M_k (R_G, R_D)"]
+    assert [dims["R_G"][k]["dim"] for k in ks] == [0, 1, 0, 5, 0, 10, 0, 14]
+    assert [dims["R_D"][k]["dim"] for k in ks] == [0, 0, 3, 0, 8, 0, 12, 0]
+    assert d["K2: the control T (x) T at k = 3, 5, 7"] == [2, 4, 5] and d["K2: n = dim M_9/2 (R_D)"] == 8
+    c = d["K3: the census (Standard Model frame, the geometry's weight)"]
+    assert [c[s]["P (effective)"] for s in ("(D, D)", "(B, D)", "(D, B)")] == [55, 39, 27]
+    assert c["(D, D)"]["chi^2_min"] < 1e-10 and c["(B, D)"]["chi^2_min"] < 1e-10
+    assert 25 < c["(D, B)"]["chi^2_min"] < 30
+    assert all(r[0] == 13 for v in d["K4: rank and the 13th singular value over the largest, at three random points"]
+               .values() for r in v)
+    k1 = d["K1: the E6 identity"]
+    assert abs(k1["the common ratio c (first case), and its largest relative spread across cases"][0] - 1) < 1e-12
+    # the parity: rho_T(S)^2 = i, so (conj)^3 needs e^{-i pi k} = i and conj^2 (x) rho needs -i
+    assert all(complex(d["rho_T(S)^2 (the convention read before the rule)"][i][j]) == (1j if i == j else 0)
+               for i in range(3) for j in range(3))
+    for k in (0.5 + i for i in range(8)):
+        ph = np.exp(-1j * np.pi * k)
+        if abs(ph - 1j) > 1e-12:
+            assert dims["R_G"][f"{k:g}"]["dim"] == 0
+        if abs(ph + 1j) > 1e-12:
+            assert dims["R_D"][f"{k:g}"]["dim"] == 0
+    # in process: the E6 identity from the trinification cubic
+    def I3(x):
+        QL, QR, L = x[:9].reshape(3, 3), x[9:18].reshape(3, 3), x[18:].reshape(3, 3)
+        return np.linalg.det(QL) + np.linalg.det(QR) + np.linalg.det(L) - np.trace(QL @ L @ QR.T)
+
+    def polar(X, Y, Z):
+        return (I3(X + Y + Z) - I3(X + Y) - I3(X + Z) - I3(Y + Z) + I3(X) + I3(Y) + I3(Z)) / 6
+
+    E = np.eye(27, dtype=complex)
+    neutral = [18, 22, 23, 25, 26]
+    down, lept = ([1, 2], [10, 11]), ([19, 20], [21, 24])
+    rng = np.random.default_rng(56)
+    for _ in range(4):
+        Y = rng.normal(size=(3, 3, 3)) + 1j * rng.normal(size=(3, 3, 3))
+        S = Y + Y.transpose(1, 0, 2)
+        v = np.zeros((3, 27), dtype=complex)
+        v[:, neutral] = rng.normal(size=(3, 5)) + 1j * rng.normal(size=(3, 5))
+        mats = []
+        for rows, cols in (down, lept):
+            M = sum(np.kron(S[:, :, k], np.array([[polar(E[x], E[y], v[k]) for y in cols] for x in rows]))
+                    for k in range(3))
+            mats.append(np.sort(np.linalg.svd(M, compute_uv=False)))
+        assert np.max(np.abs(mats[1] / mats[0] - 1)) < 1e-10
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

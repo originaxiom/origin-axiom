@@ -167,3 +167,24 @@ print(json.dumps([bool(ok0), bool(not ok1), bool(same0), bool(same1)]))
     r = subprocess.run([sys.executable, "-c", probe], cwd=copy, capture_output=True, text=True, timeout=900)
     assert r.returncode == 0, r.stderr[-2000:]
     assert json.loads(r.stdout.strip().splitlines()[-1]) == [True, True, True, True]
+
+
+def test_w56_probe(copy):
+    """W56's census takes about 25 minutes, so a probe recomputes its E6 identity and its dimensions from the script's
+    own functions and compares them with the stored values"""
+    probe = r'''
+import json, sys
+sys.path.insert(0, ".")
+import the_higgs_and_the_generation_index as HG
+d = json.load(open("the_higgs_and_the_generation_index.json"))
+k1, ok1 = HG.K1()
+dims, ctrl, n, ok2 = HG.K2()
+st = d["K2: dim M_k (R_G, R_D)"]
+same2 = all(dims[r][k]["dim"] == st[r][k]["dim"] for r in st for k in st[r])
+key = "the common ratio c (first case), and its largest relative spread across cases"
+same1 = abs(k1[key][0] - d["K1: the E6 identity"][key][0]) < 1e-12
+print(json.dumps([bool(ok1), bool(ok2), bool(same1), bool(same2), n == HG.ND == 8]))
+'''
+    r = subprocess.run([sys.executable, "-c", probe], cwd=copy, capture_output=True, text=True, timeout=900)
+    assert r.returncode == 0, r.stderr[-2000:]
+    assert json.loads(r.stdout.strip().splitlines()[-1]) == [True, True, True, True, True]
