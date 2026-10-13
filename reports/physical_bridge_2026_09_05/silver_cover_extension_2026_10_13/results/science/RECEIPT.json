@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 78.60620164500142,
+      "exact_predicates": 67
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 19.347439252000186,
+      "exact_predicates": 68
+    }
+  ],
+  "scope": "exact whole induced extension and fixed boundary records; conditional charged cohomology/tensor, not all-q stationarity or generated SM",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "b9cb5273148f0ef92c6c74abee0ee3067a42495a",
+  "initial_source_hashes_match": true,
+  "shared_actual_outputs_agree": true,
+  "tracked_worktree_unchanged": true,
+  "source_inputs_unchanged": true,
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 9434,
+      "sha256": "ef3c9bed16b75b80740a041b1b3cd78307eec0748960d2cd3503fd9035b408fb"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 9467,
+      "sha256": "b76b02356b330ce876e59fc76a52f4e59cf13851db5a7b36820049b34706a136"
+    }
+  ]
+}

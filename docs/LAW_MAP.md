@@ -1,5 +1,18 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October13 exact charged-extension sublemmas, path-local research grade.
+Source reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13;
+67/68 exact and36 selected live PASS atb9cb52731,99 unchanged source pins.
+B1530 is INPUT coefficient antecedent only; no shared bank or selector.
+
+| Law conditional on the supplied compact model | Proof and actual lock | Limit |
+|---|---|---|
+| Full ordinary induced nil extension has valid inverses/relators, correct exterior rank20 and actual inverse-transpose duals | B1530 INPUT only; NEW PROOF1 and tests/test_physical_bridge_silver_cover_extension.py::test_literal_four_slots_and_independent_whole_polynomials / test_all_filtration_dimensions_and_actual_duals / test_exterior_before_induction_and_untruncated_nonnil_control | Exact polynomial maps, not a parity projection or Lambda2 of rank10 pushforward |
+| Filtered full Fox fiber/time determinant polynomials and their phase exceptions are independent of q | B1530 INPUT only; NEW PROOF2; test_phase_minor_needs_filtration_not_an_integer_scan and literal all-coefficient filtration/leading checks | All complex q on THIS exact line; one sufficiently small punctured nonzero-weight phase interval, no farther-phase or neutral assertion |
+| Fixed framed full boundary maps give W/F(0,3,0,0), actual duals(0,0,3,0) for all q | B1530 INPUT only; NEW PROOF3; test_fixed_full_boundary_retains_both_degrees_not_index_alone; actual varying second-cusp frame rechecked | Authored compact de Rham/domain/LES application; real stationary admission still local, no all-q moment or generated end selection |
+| Complete holomorphic charged tensor is q-independent in canonical boundary coordinates, with QdcL nonzero and eLL/udd cancelling | B1530 INPUT only; NEW PROOF4; test_complete_charged_tensor_keeps_cancellation_and_nonzero_terms, all81 slots and both terms rederived | Stokes-coordinate invariant, not copied bulk parity or constant normalized strengths; test_fixed_holomorphic_tensor_does_not_fix_kinetic_normalization |
+| No independent left5/Hu can be created by this particular flat line in the same completion and phase interval | B1530 INPUT only; NEW PROOF5 and actual dual H1=0 lock above | Not a no-go for nonsupersymmetric Higgs, other backgrounds/ends or the generated architecture; no extra-state/quantum/full SM/TOE claim |
+
 October13 stationary-continuation sublemmas, path-local research grade.
 Source reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13;
 24/24 exact and28 selected live tests atb7443d3aa. B1530 INPUT coefficient

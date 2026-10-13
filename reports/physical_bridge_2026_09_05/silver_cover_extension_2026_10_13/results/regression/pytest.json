@@ -1,0 +1,22 @@
+{
+  "command": [
+    "PINNED_PYTHON_3_12_1",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_silver_cover_extension.py",
+    "tests/test_physical_bridge_silver_cover_cubic.py",
+    "tests/test_physical_bridge_silver_cover_nil_flat.py",
+    "tests/test_physical_bridge_silver_cover_stationary.py"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 201.71203699999023,
+  "log_bytes": 111,
+  "log_sha256": "aed1eb6db1e271eebde7a9bb56f378d0d875f9242c9419e65f089f25b53e1514",
+  "privacy_redaction": "Only the absolute interpreter path was replaced; raw stdout is byte-faithful",
+  "raw_receipt_sha256": "fe21127bbb5ff3a6f08c137756ddc15b6b509bc4523b9e42d7a04fc691343795"
+}

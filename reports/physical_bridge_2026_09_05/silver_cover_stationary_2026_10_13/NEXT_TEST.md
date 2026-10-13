@@ -1,5 +1,12 @@
 # Finite extension transport and the foundational selection duty
 
+October13 disposition: the finite-q charged transport and Stokes test below
+is now completed CONDITIONALLY in ../silver_cover_extension_2026_10_13/FINDINGS.md,
+67/68 exact and36 live PASS atb9cb52731. Its full W/F/dual and81-slot
+argument is not an all-q real-moment theorem or normalized-coupling result.
+The proposal below remains historical; that packet's NEXT_TEST gives the
+current same-field/end-map and physical Higgs/extra-state duties.
+
 The full SM and TOE objective remains active. The present compact result
 is a conditional local stationary continuation, not the complete objective.
 Do not repeat the local moment-sign, Dirichlet-form or parity-copy checks

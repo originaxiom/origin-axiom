@@ -1,0 +1,239 @@
+{
+  "all_q_flat_cohomology_conditional": true,
+  "all_q_real_stationarity": false,
+  "checks": {
+    "F_actual_full_boundary_and_dual_tuple": true,
+    "F_fiber_diagonals_q_independent": true,
+    "F_fixed_transporter_would_change_based_cusp": true,
+    "F_full_new_flat_chain": true,
+    "F_literal_exterior_before_induction_a": true,
+    "F_literal_exterior_before_induction_b": true,
+    "F_literal_exterior_before_induction_t": true,
+    "F_literal_global_filtration": true,
+    "F_literal_phase_leading_minor": true,
+    "F_moving_off_diagonal_not_frozen_parity": true,
+    "F_nil_products_exact_not_jets": true,
+    "F_ordinary_inverses": true,
+    "F_peripheral_local_frames_fixed": true,
+    "F_second_frame_abAB": true,
+    "F_second_frame_abt": true,
+    "F_time_diagonals_q_independent": true,
+    "F_whole_polynomial_relators": true,
+    "Fdual_actual_inverse_transpose_not_renamed": true,
+    "Fdual_fiber_diagonals_q_independent": true,
+    "Fdual_fixed_transporter_would_change_based_cusp": true,
+    "Fdual_full_new_flat_chain": true,
+    "Fdual_literal_global_filtration": true,
+    "Fdual_literal_phase_leading_minor": true,
+    "Fdual_moving_off_diagonal_not_frozen_parity": true,
+    "Fdual_nil_products_exact_not_jets": true,
+    "Fdual_ordinary_inverses": true,
+    "Fdual_peripheral_local_frames_fixed": true,
+    "Fdual_second_frame_abAB": true,
+    "Fdual_second_frame_abt": true,
+    "Fdual_time_diagonals_q_independent": true,
+    "Fdual_whole_polynomial_relators": true,
+    "W_actual_full_boundary_and_dual_tuple": true,
+    "W_fiber_diagonals_q_independent": true,
+    "W_fixed_transporter_would_change_based_cusp": true,
+    "W_full_new_flat_chain": true,
+    "W_literal_global_filtration": true,
+    "W_literal_phase_leading_minor": true,
+    "W_moving_off_diagonal_not_frozen_parity": true,
+    "W_nil_products_exact_not_jets": true,
+    "W_ordinary_inverses": true,
+    "W_peripheral_local_frames_fixed": true,
+    "W_second_frame_abAB": true,
+    "W_second_frame_abt": true,
+    "W_time_diagonals_q_independent": true,
+    "W_whole_polynomial_relators": true,
+    "Wdual_actual_inverse_transpose_not_renamed": true,
+    "Wdual_fiber_diagonals_q_independent": true,
+    "Wdual_fixed_transporter_would_change_based_cusp": true,
+    "Wdual_full_new_flat_chain": true,
+    "Wdual_literal_global_filtration": true,
+    "Wdual_literal_phase_leading_minor": true,
+    "Wdual_moving_off_diagonal_not_frozen_parity": true,
+    "Wdual_nil_products_exact_not_jets": true,
+    "Wdual_ordinary_inverses": true,
+    "Wdual_peripheral_local_frames_fixed": true,
+    "Wdual_second_frame_abAB": true,
+    "Wdual_second_frame_abt": true,
+    "Wdual_time_diagonals_q_independent": true,
+    "Wdual_whole_polynomial_relators": true,
+    "actual_cocycle_full_relator_and_boundary_recheck": true,
+    "actual_nonzero_global_nil_ideal": true,
+    "all_eighty_one_fixed_map_cubic_slots_rederived": true,
+    "both_terms_cancellation_and_nonzero_recovery": true,
+    "exterior_pushforward_wrong_rank_control": true,
+    "opposite_ideal_control_keeps_quadratic": true,
+    "volume_transport_original_and_nil_determinant_one": true,
+    "wrong_inverse_detector_live": true
+  },
+  "exact_predicates": 67,
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "neutral_extras_lifted": false,
+  "new_Higgs": false,
+  "normalized_coupling_invariance": false,
+  "old_cubic_checks_rederived": 153,
+  "outside_review": false,
+  "records": {
+    "boundary_counts": {
+      "F": {
+        "H": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "dual_H": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "dual_plane_dimension": 3,
+        "dual_rank": 17,
+        "plane_dimension": 9,
+        "rank": 20
+      },
+      "W": {
+        "H": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "dual_H": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "dual_plane_dimension": 1,
+        "dual_rank": 7,
+        "plane_dimension": 7,
+        "rank": 10
+      }
+    },
+    "boundary_plane_sha256": {
+      "F_minus": "e7816b58b2a143186b3a6e50d75f2f1d586b37626d896d2a1d22a0ee3c362bb1",
+      "F_plus": "186dc211d97444596f42454226849ed74c2328d1428113cf870ae01cc612f0e4",
+      "W_minus": "81dae783fc2c5bdb677eb749ce151ae925711f64e8ae3d021b3effc23e186187",
+      "W_plus": "7f0c072841e879bd7aedec978f4e6debe7ac3f55ee4b9b7a6b4e845468f601e7"
+    },
+    "channel_classifications": {
+      "QdL": "NONZERO",
+      "eLL": "CANCELLATION",
+      "udd": "CANCELLATION"
+    },
+    "charged_cubic_slots": 81,
+    "slots": {
+      "F": {
+        "fiber_minor_sha256": "dcca274841b4c406870c05eb4d055a2c27339797b850031c7dba6ff6572c28d6",
+        "filtration_sizes": [
+          12,
+          8
+        ],
+        "generic_absolute_H": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "rank": 20,
+        "time_minor_sha256": "eaa3bf8613c8aaf85c77c252b9edf021a01746cac45ac36a280a6086b2360019",
+        "word_sha256": {
+          "aa": "3c32f8d2f1c97feae589ea5772a95bcde2ac5e766177d19291e2f4622d521b20",
+          "ab": "adb1ccab094beae2213fba0d8d1588b68cebe9581c28a8bcfe868966154ac061",
+          "abAB": "f30066ca120f956bfe91e618c45f279dfade0155b4b3020a048b90ab193415c7",
+          "abt": "19d07c533c616ed3a0a5753dfa6563bcfc8c4c9ea3593a47066b5ed87f8e7ff7",
+          "atA": "e110573a59815713fe7631940ce8445164e07016cae694ad7962ab1f000f0994",
+          "bA": "0dfadd7abb5cf76652251b7d67d0d950037f80d2c2aed8adf3fc9e0b1920055b",
+          "t": "6968febf05992662f57f3087ab3deaddd9f7bd0f0717dce32af70e18b367e18e",
+          "taTbba": "ec2d67288549b622e920cf94f990037bae5a69b6e492a293bba30b69c29ddcf4",
+          "tbTbbabbab": "ec2d67288549b622e920cf94f990037bae5a69b6e492a293bba30b69c29ddcf4"
+        }
+      },
+      "Fdual": {
+        "fiber_minor_sha256": "f6c4f91c7d7edf7040ded9bd296381a2722fb01ce6736842ba0929d030d3dd52",
+        "filtration_sizes": [
+          8,
+          12
+        ],
+        "generic_absolute_H": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "rank": 20,
+        "time_minor_sha256": "bb1dc950d2fd05c0650c2dee33491ec2f50732d1dd2d4bfdd4cb42b546e75d9c",
+        "word_sha256": {
+          "aa": "25360396d364d9b6bb6cce324c8316e435d0ecaab4caefedb76876a8016a3e1b",
+          "ab": "a034b4d36cf192a5ef967dd070929ddcc4df05b67d9c80caf8c465d5b660371c",
+          "abAB": "261d538589bd7a5d01abffc517e7764e0917ec5ab2285f077fe694653295d9a5",
+          "abt": "6b033d102be4dd7bf404cd3febf4917158402da3b283c721580fcc5723cfb0fb",
+          "atA": "959da517279d138fb3dc97328786dd153f7398875114f6c41321f22a59a57676",
+          "bA": "62937d2969acc0520720c8f65fefb9bcf3827ed45eefedcc9a905e2dc3dc9b22",
+          "t": "ffd793c5630eed19fe58c9289cbfcdcc75ce16a4889f015fef51dc66ee87292b",
+          "taTbba": "ec2d67288549b622e920cf94f990037bae5a69b6e492a293bba30b69c29ddcf4",
+          "tbTbbabbab": "ec2d67288549b622e920cf94f990037bae5a69b6e492a293bba30b69c29ddcf4"
+        }
+      },
+      "W": {
+        "fiber_minor_sha256": "2f95201ba953381b7add546c7078645d4f596e631b9963ff18b58b1a07f4ac0e",
+        "filtration_sizes": [
+          8,
+          2
+        ],
+        "generic_absolute_H": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "rank": 10,
+        "time_minor_sha256": "5cde488b9e16b9170d061e10ba447516afb0a6293bcc230a93543e4531cd6774",
+        "word_sha256": {
+          "aa": "b83c803eef279615ea3da2798ab40ab17ed3e83f125e668739c91be5f7d9ec2d",
+          "ab": "49ff148307617a1c59d1768df0b08b860b52f952e66ee99d144c4b4399ab9902",
+          "abAB": "d931d4e0d749e47dd0ecd026db75d9537d8e8a62e54a5ac9350eb846dd779c4e",
+          "abt": "9033c15e0b6c5c1be0bf160fef74226e40d1f4dc5c84dfab31eedfe550576e0f",
+          "atA": "5ae0d6c853bf04f7c1ba0ef2dbb0d648438077423f290295a47e2eaee63ef952",
+          "bA": "1d9849f35f0708e84a93e5b7447415117ba88cd36ba4f45acf83d28c068fb61a",
+          "t": "9a39f5af450bd6f0448dcba8c3eca3d1e1c1e09fb7b751f2cd91fb1a3361edec",
+          "taTbba": "0714d708ee669bf7bb63747d7e519447a7a6c23fc9f00f435b4ab9970d093eb0",
+          "tbTbbabbab": "0714d708ee669bf7bb63747d7e519447a7a6c23fc9f00f435b4ab9970d093eb0"
+        }
+      },
+      "Wdual": {
+        "fiber_minor_sha256": "9b57694a4f12af4439f7589a5583e4b92117d61abd69ffee76a48f9ee6a12f0b",
+        "filtration_sizes": [
+          2,
+          8
+        ],
+        "generic_absolute_H": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "rank": 10,
+        "time_minor_sha256": "3be69d2c73461495a54dc2ef635a0754d242a9d12ae37687423cba1555494bef",
+        "word_sha256": {
+          "aa": "10c3c758c58df99b749a0bdbdb6126f15d48e9bf01555fbc6683b1e89901b37f",
+          "ab": "f5dac48ff7f6df009817fcfba442a803d1d0932abd6a5659a9c429d08af108cd",
+          "abAB": "f29e4e3e9136e402eb30eea9961cf72fa6f89cbdf93a2064976500237701a64b",
+          "abt": "ed5c6db02faaff66df5517080ac466c2fbed3adab0cc7144c8dfe4f118d6a963",
+          "atA": "28ec4af828ea22bd8d327eaf1fac8dc4515e9671258c6f98f45e189959895183",
+          "bA": "d78f3c81a331043a7b48d7f70c62cc789f501187954384983a224f81731220ce",
+          "t": "2c1166b25eab08e1495cfc95fdaaa1995bacfd6289290698c7402b933eb9c486",
+          "taTbba": "0714d708ee669bf7bb63747d7e519447a7a6c23fc9f00f435b4ab9970d093eb0",
+          "tbTbbabbab": "0714d708ee669bf7bb63747d7e519447a7a6c23fc9f00f435b4ab9970d093eb0"
+        }
+      }
+    }
+  }
+}

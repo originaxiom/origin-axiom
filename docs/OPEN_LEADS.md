@@ -1,5 +1,17 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-COVER-FINITE-EXTENSION: completed CONDITIONALLY at the supplied compact
+scope. Closing sentence: "The ordinary induced nil extension preserves
+charged cohomology and the complete holomorphic cubic tensor for all q
+in one fixed small punctured physical phase interval." Source:
+reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/FINDINGS.md;
+67/68 exact and36 live PASS200.62s atb9cb52731,99 pins/tree unchanged.
+No old parity-copy, all-q real stationary admission, normalized strengths,
+new Hu or generated end choice. NEXT actual same-field/operator/end map
+before joining compact E8 and foundation fibre/family indices; Higgs,
+extra-state, quantum, parameter/gravity and register/qualia duties remain.
+No programme-wide negative; the full SM/TOE objective remains active.
+
 PB-COVER-REAL-MOMENT continuation completed CONDITIONALLY at the supplied
 compact-cover scope. Closing sentence: "One actual nil relative direction
 has a local same-action H=mu=0 continuation preserving the three charged
@@ -7,8 +19,8 @@ profiles through the whole operator and its missing-partner gaps."
 Source: reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FINDINGS.md;
 24/24 exact and28 live PASS,89 unchanged pins atb7443d3aa. This is an
 authored analytic existence/gap argument, not a numerical global profile
-or generated boundary selection. NEXT exact finite-q extension transport
-and possible all-q acyclic/Stokes test BEFORE scans; neutral/extras and
+or generated boundary selection. The exact finite-q charged acyclic/Stokes
+test is now completed conditionally by the checkpoint above; neutral/extras and
 Higgs, generated field/end/source/index law, quantum, normalization and
 gravity stay open. No all-neutral integration or all-architecture kill.
 
@@ -38,16 +50,15 @@ This supersedes the unexecuted flag-candidate duty below, NOT the whole
 PB-COVER-ODD-NEUTRAL-HIGHER or real-vacuum duty. Other neutral combinations
 and the odd interior H2 slot remain, not deleted by this particular line.
 
-PB-COVER-REAL-NEUTRAL-VACUUM: NEXT Dirichlet-structure real-moment
-continuation and actual full normal/auxiliary response. The existing
-canonical potential requires both curvature and mu zero; complex/imaginary
-configurational adjustment is NOT a compact gauge quotient. Operator
-invertibility/regularity and nonlinear smooth-map conditions must be
-proved/sealed before any new stationary-branch claim. Proposed argument
-and exact sign/source are in the new NEXT_TEST, not an executed PDE result.
-PB-COVER-NEW-BRANCH-SPECTRUM: OPEN if real branch established; finite-q
-background can break deck symmetry. Verify whole operator/Fredholm/kinetic
-continuation and current/cubic maps, not copy the old1+2 split unchecked.
+PB-COVER-REAL-NEUTRAL-VACUUM: ONE actual nil direction has an authored
+conditional local Dirichlet real-moment continuation and full response
+in silver_cover_stationary_2026_10_13. This is not every neutral direction,
+an all-q stationary solution or an independently accepted PDE theorem.
+Complex configurational adjustment is NOT a compact gauge quotient.
+PB-COVER-NEW-BRANCH-SPECTRUM: charged cohomology and holomorphic cubic
+transport now completed conditionally by silver_cover_extension_2026_10_13,
+without copying broken deck parity. Neutral/adjoint finite-q census,
+normalized kinetic/cubic strengths, quantum and other backgrounds remain OPEN.
 PB-COVER-GENERATED-BOUNDARY/END/PARENT/REGISTER and HIGGS-EXTRAS/
 NORMALIZED-CUBIC/QUANTUM: retain all prior duties. Exact cusp transport
 is preserved; awareness/qualia is not identified. No everywhere-absence

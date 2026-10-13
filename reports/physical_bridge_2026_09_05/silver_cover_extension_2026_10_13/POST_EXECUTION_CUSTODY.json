@@ -1,0 +1,28 @@
+{
+  "seal_commit": "b9cb5273148f0ef92c6c74abee0ee3067a42495a",
+  "scope": "execution interval before publication; later report-writing changes are not part of this unchanged-tree claim",
+  "before_selected_tests": {
+    "pin_count": 99,
+    "mismatches": [],
+    "tracked_files": 12272,
+    "tracked_tree_sha256": "ea3d807458d40755564bd62dae8d6c8b451d35c2478e28d4a80826c8fd56df67"
+  },
+  "after_selected_tests": {
+    "pin_count": 99,
+    "mismatches": [],
+    "tracked_files": 12272,
+    "tracked_tree_sha256": "ea3d807458d40755564bd62dae8d6c8b451d35c2478e28d4a80826c8fd56df67"
+  },
+  "selected_tests": 36,
+  "pytest_seconds": 200.62,
+  "capture_seconds": 201.71203699999023,
+  "exit_code": 0,
+  "scientific_methods_records_agree": true,
+  "source_pins_unchanged": true,
+  "tracked_tree_unchanged": true,
+  "first_scientific_run": "PASS",
+  "interruption_or_failed_scientific_run": false,
+  "independent_analytic_acceptance": false,
+  "full_suite": false,
+  "goal_achieved": false
+}

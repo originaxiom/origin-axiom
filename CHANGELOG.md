@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-10-13 exact charged extension and fixed cubic
+
+October13 exact charged-extension checkpoint:67 native/68 separate
+Fraction whole-polynomial predicates PASS78.606/19.347s;36 live tests
+PASS200.62s at unchanged pushed sealb9cb52731,99 pins/tree. ONE supplied
+compact cover's actual ordinary induced W/F and actual duals retain fixed
+filtration diagonals/phase exceptions and framed boundary maps for ALL
+complex q. Authored compact LES/Stokes argument gives W/F(0,3,0,0),
+duals(0,0,3,0), and the SAME full81-slot holomorphic tensor:QdcL NONZERO,
+eLL/udd cancellation. Bulk deck parity breaks; no copied1+2 projection.
+Only the old LOCAL real stationary branch is admitted; no all-q moment
+solution, normalized-coupling invariance, new left5/Hu, neutral/extras
+lifting, generated parent/end or quantum result. NEXT same-field generated
+field/end/source/index map, Higgs/extra/quantum duties; other completions
+preserved. Both methods share an author; outside/full-suite/main owed.
+Full SM/TOE ACTIVE and unachieved. Report:
+reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/FINDINGS.md.
+
+
 ## 2026-10-13 real stationary compact continuation
 
 October13 same-action stationary checkpoint:24 native/24 separate Gaussian
