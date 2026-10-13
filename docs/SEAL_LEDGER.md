@@ -900,3 +900,18 @@ or analytic certification. Only syntax parsed; push before execution.
 | `reports/genesis_root_review_2026_10_11/kernel_transport/verify.py` | `2ea9808b8b222bd6b74ee127937e00fdb3f738dd2b5bf21e222ac9c3e8474bfb` |
 | `reports/genesis_root_review_2026_10_11/kernel_transport/test_verify.py` | `6387d3d8b4046a54c8f2ac42e29c4e36ada50902992cc5387f676ab0a17e37dc` |
 | `reports/genesis_root_review_2026_10_11/kernel_transport/execute.py` | `6c9251e8740827189de6a097fd59f50bc9d17dd190af03fe99606652cf80d7b0` |
+
+## Weighted complete flag count pre-execution seal 2026-10-13
+
+Full positive and negative coefficient end complexes, both charged slots and their duals, with all degrees and split controls. Authored radial and joining proof plus exact finite matrices and a separate modular rank replay; no physical index is presumed. Only syntax has been parsed. Push before first scientific execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/weighted_global_complex/PREREGISTRATION.md` | `180b43eb315e66b17358ca7966932391589ab0b2a1f0a0f30cc8b9da61c50b33` |
+| `reports/genesis_root_review_2026_10_11/weighted_global_complex/PROOF.md` | `012955dbcda1815182b2f8057db11af18cad525a6ca7f46c6302e223b21a59f5` |
+| `reports/genesis_root_review_2026_10_11/weighted_global_complex/PRESEAL_NOTES.md` | `f3a4f6ea746b5922d3904ab8f7e7e2a3f91e9f78eff85d3a74453657481b528d` |
+| `reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py` | `c4fdac66ca9e1eb9d8dc6cd72b73335cecf5684b93da3a2af67580f74dde0767` |
+| `reports/genesis_root_review_2026_10_11/weighted_global_complex/reference.py` | `c9a3b8e535ff8c227778905d5bd8ec47e8809dd21498ddbb8cf054724553edbc` |
+| `reports/genesis_root_review_2026_10_11/weighted_global_complex/test_verify.py` | `d5697e8372d6b7fa087b34a82821d9102d97aef54958843e567f063f6a10f2d8` |
+| `reports/genesis_root_review_2026_10_11/weighted_global_complex/execute.py` | `ab20df094138b06468a9dc6ecd4953bd625882f3f8dbec14fb12fec84ba5c6b8` |
+| `reports/genesis_root_review_2026_10_11/noncompact_admission/candidate.json` | `6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b` |
