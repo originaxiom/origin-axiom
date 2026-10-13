@@ -1,5 +1,21 @@
 # Changelog
 
+## The weave's W57: the field of maximality tested — not a typical draw; relay section 65
+
+- **W57** (the owner's framing; the rule 9d1c308d2 first with the second-scale data; the script 74baa58e2 before its
+  one run; T4 as predicted; T1, T2 and T3 failed as worded):
+  - the seed's own measure (W56's placements, τ hyperbolic, the invariant Gaussian on the allowed couplings) against
+    anarchy, 10⁶ draws each: no draw of either within 32σ of the data in all ten numbers; at 64σ both accept 40%, so
+    the box test had no power (R = 1.04, p = 0.18); the second-generation ratios are atypical (p 0.0015 to 0.004);
+    anarchy fails the up hierarchy (2 × 10⁻⁶);
+  - **post hoc (labelled):** the data's nearest draw is 36.5σ away against a typical 2σ (p_nn = 0.005); no draw within
+    a factor 10 in all six mass ratios; three deep hierarchies in 25% of the flavour-blind placement's draws and none
+    of anarchy's; the observer-conditioned version leaves the second generation and the small mixings atypical.
+- **So:** a field of maximality in its simplest form is excluded; the seed supplies the first step of hierarchy; the
+  second generation and the small mixings need a selection on the couplings. 0 of 19 derived.
+- **Relay §65** to main. **Surfaces.** The script, its JSON and its post hoc, the dossier (W57, a row, the header, the
+  files), the W57 test and the regeneration list, the state page, the relay and the ledger.
+
 ## Reading: the seed of minimality and the field of maximality; W57's rule; relay section 64
 
 - **A READING** (the owner's second framing, 2026-10-13, recorded at the owner's request; nothing computed): the field

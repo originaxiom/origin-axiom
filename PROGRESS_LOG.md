@@ -18594,3 +18594,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the seed fixes shapes and the field supplies the rest by a measure. Nothing computed.
 - **W57's rule is committed:** is the world a typical draw from the seed's own measure, against anarchy? Relay §64 sent.
 
+## 2026-10-13 — W57: the field of maximality tested; relay §65
+
+- **W57 ran once, after its rule.** The world is not a typical draw from the seed's own measure: its nearest draw is
+  36.5σ away where a typical draw's is 2σ, and the second-generation ratios are atypical. The box test as worded had no
+  power (three cells failed as worded); a labelled post hoc gives the answer. The seed does make deep hierarchy common,
+  which anarchy never does. Relay §65 sent.
+- **The research report on the Higgs field** was delivered to the owner, and the seat proposed a plan to address it.
+

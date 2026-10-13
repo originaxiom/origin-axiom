@@ -329,6 +329,14 @@ Under the owner's rulings, the table's rows split into two groups:
   rest by the seed's own invariant measure. Then the interaction may select a measure, not a point, and "deriving the
   19" can mean deriving their distribution. The test (W57, rule first): is the world a typical draw from the seed's
   own measure, against anarchy?
+- **W57, the field of maximality (rule first; T4 as predicted, T1 to T3 failed as worded, explained post hoc):** the
+  world is not a typical draw from the seed's own measure.
+  - Its nearest draw is 36.5σ away, where a typical draw's is 2σ (post hoc p_nn = 0.005), and no draw matches the six
+    mass ratios within a factor 10. The second-generation ratios are atypical one by one.
+  - The seed does carry the first step of hierarchy: three deep hierarchies in 25% of the flavour-blind placement's
+    draws, none of anarchy's.
+  - What the seed's measure does not supply (the second generation, the small mixings) needs a selection on the
+    couplings. The count stays: all 19 of the 19 free.
 
 ## Questions open with main
 
@@ -344,7 +352,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W56 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W57 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§64).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§65).

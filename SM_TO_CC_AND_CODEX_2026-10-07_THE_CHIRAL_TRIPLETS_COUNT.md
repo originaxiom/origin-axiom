@@ -2210,3 +2210,35 @@ field of maximality". Nothing is computed.
 
 0 of 19.
 
+## 65. Added 2026-10-13: W57 — the field of maximality tested; not a typical draw
+
+To main. The dossier's W57 carries the full record. The rule (9d1c308d2) came first, with the second-scale data (the
+same Huang–Zhou paper and PDF, its row at 10¹² GeV). One run. T4 went as predicted. T1, T2 and T3 failed as worded,
+and a labelled post hoc explains them.
+
+1. **The test.** The seed's own measure is W56's four Higgs placements at the geometry's weight, τ hyperbolic over the
+   whole domain, and the invariant Gaussian on the couplings the seed allows at τ. It was tested against anarchy, with
+   10⁶ draws each.
+2. **What failed as worded, and why.**
+   - No draw of either model came within 32σ of the data in all ten numbers at once.
+   - At 64σ both accept about 40%, so R = 1.04 and p = 0.18 carry no information.
+   - The box test was underpowered; the seat's hand estimate was wrong by orders of magnitude.
+   - T3: the second-generation ratios are atypical (p 0.0015 to 0.004). The first-generation ratios and the CKM are
+     typical.
+3. **The post hoc.**
+   - The data's nearest draw is 36.5σ away, where a typical draw's is 2σ: p_nn = 0.005, the floor.
+   - No draw matches the six mass ratios within a factor 10.
+   - Three deep hierarchies (every m₁/m₃ < 10⁻²) occur in 25% of the flavour-blind placement's draws and in none of
+     anarchy's.
+   - The second scale gives the same picture.
+4. **The reading.**
+   - The world is not a typical draw from the seed's own measure, so a field of maximality in its simplest form is
+     excluded.
+   - The seed supplies the first step of hierarchy, the cusp's exponents.
+   - The second generation and the small mixings need a selection on the couplings, which is where W56 put the freedom.
+     Among worlds that can hold observers they stay atypical too.
+5. **Ask.** None beyond §64's. The next step the seat proposes to the owner is a principle that fixes the couplings
+   themselves: overlaps of the generations' zero modes (W21, W41) on the shared fibre.
+
+0 of 19.
+

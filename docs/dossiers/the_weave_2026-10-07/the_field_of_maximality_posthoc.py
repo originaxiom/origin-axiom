@@ -1,6 +1,6 @@
-"""W57, POST HOC (written after W57's one run and its read-out; labelled; W57's JSON is unchanged). W57's joint test never
-reached a resolving rung: no draw of either model came within 32 sigma of the data in all ten shape numbers at once,
-and at 64 sigma both accept about 40%. These checks read the same draws (regenerated from W57's own seeds) with
+"""W57, POST HOC (written after W57's one run and its read-out; labelled; W57's JSON is unchanged). W57's joint test
+never reached a resolving rung: no draw of either model came within 32 sigma of the data in all ten shape numbers at
+once, and at 64 sigma both accept about 40%. These checks read the same draws (regenerated from W57's own seeds) with
 statistics that need no box.
 
   P1  the nearest-neighbour distance d_min (max-norm in sigma units) from the data at M_Z to each model's draws:

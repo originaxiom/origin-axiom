@@ -1331,6 +1331,33 @@ def test_w56_the_higgs_and_the_generation_index():
             mats.append(np.sort(np.linalg.svd(M, compute_uv=False)))
         assert np.max(np.abs(mats[1] / mats[0] - 1)) < 1e-10
 
+
+def test_w57_the_field_of_maximality():
+    """W57 (the owner's framing of a field of maximality; the rule first; one run; T4 as predicted, T1 to T3 failed as
+    worded, explained post hoc): the world is not a typical draw from the seed's own measure, though the seed makes
+    deep hierarchy common where anarchy never does"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_field_of_maximality.json").read_text(encoding="utf-8"))
+    assert d["every cell holds"] is False and len(d["cells (as worded)"]) == 4
+    cells = list(d["cells (as worded)"].values())
+    assert cells == [False, False, False, True]
+    m = d["main (S_mix against anarchy, the data at M_Z)"]
+    assert m["eps*"] == 64 and all(m["accepted on the ladder (seed, anarchy)"][str(e)] == [0, 0]
+                                   for e in (2, 4, 8, 16, 32))
+    marg = m["T3: two-sided marginal p of each datum"]
+    assert [k for k, v in marg.items() if v < 0.01] == ["log m_c/m_t", "log m_s/m_b", "log m_mu/m_tau"]
+    assert d["T4: anarchy's two-sided marginal p for log(m_u/m_t)"] < 1e-5
+    c = d["controls"]
+    assert c["(a) the vectorised k = 3 forms equal W53's"] is True
+    frac = c["(b) the fraction of tau with y > 6, and the measure's 3/(6 pi)"]
+    assert abs(frac[0] - frac[1]) < 0.002
+    ph = json.loads((here / "the_field_of_maximality_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["the regenerated draws reproduce W57's stored count at 64 sigma"] is True
+    p2 = ph["P2: typicality by nearest-neighbour distance"]
+    assert p2["p_nn"] < 0.006 and p2["the data's d_min to S_mix"] > 30
+    p4 = ph["P4: shares (all three m1/m3 < 1e-2; all six mass ratios within a factor 10 of the data's)"]
+    assert p4["anarchy"] == [0.0, 0.0] and p4["('B', 'B')"][0] > 0.2 and all(v[1] == 0.0 for v in p4.values())
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
