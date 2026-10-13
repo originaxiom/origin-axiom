@@ -1,5 +1,17 @@
 # Changelog
 
+## After W57: W56's rule corrected (the Wilson line); the double ratio as a target; relay section 66
+
+- **A correction** (the owner approved the seat's plan, 2026-10-13): W56's rule said no Wilson line on the shared fibre
+  can split quarks from leptons. Invariance under the moves is the test for forced, not allowed; a flat Wilson line is
+  an allowed state of the field, as τ is, and along hypercharge or B − L could split d from e continuously. The d–e
+  wall restated: nothing the record forces splits them.
+- **A target:** the double ratio (y_μ y_d)/(y_s y_e) = 10.58 ± 0.11 (Antusch, Hinze and Saad, arXiv:2510.01312v2,
+  eq. 4.7, read from the PDF), added with its sha256 to the dossier's received data; the record's own data
+  give 10.58 ± 1.19. Data, not a result. 0 of 19.
+- **Relay §66** to main (W58, W59 and W60 announced). **Surfaces.** The dossier (two entries under W56, the header),
+  the data file, a test, the state page, the relay and the ledger.
+
 ## The weave's W57: the field of maximality tested — not a typical draw; relay section 65
 
 - **W57** (the owner's framing; the rule 9d1c308d2 first with the second-scale data; the script 74baa58e2 before its

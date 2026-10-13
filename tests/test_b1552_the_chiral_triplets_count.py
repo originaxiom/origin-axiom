@@ -1358,6 +1358,24 @@ def test_w57_the_field_of_maximality():
     p4 = ph["P4: shares (all three m1/m3 < 1e-2; all six mass ratios within a factor 10 of the data's)"]
     assert p4["anarchy"] == [0.0, 0.0] and p4["('B', 'B')"][0] > 0.2 and all(v[1] == 0.0 for v in p4.values())
 
+
+def test_the_double_ratio_target():
+    """The double ratio (y_mu y_d)/(y_s y_e), recorded after W57 as C1's first target: the source's value, the two
+    unified values it excludes, and the record's own value recomputed from W53's data"""
+    import math
+    rec = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "received"
+    t = json.loads((rec / "AHS2026_double_ratio.json").read_text(encoding="utf-8"))
+    dr = t["the double ratio"]
+    assert (dr["value"], dr["sigma"]) == (10.58, 0.11) and "64e1d141" in t["sources"]["double ratio"]
+    assert (dr["value"] - dr["Georgi-Jarlskog (c_e, c_mu) = (1/3, 3)"]) / dr["sigma"] > 14
+    assert (dr["value"] - dr["the best rational pair (4/9, 9/2)"]) / dr["sigma"] > 4
+    m = json.loads((rec / "HZ2021_running_masses_MZ.json").read_text(encoding="utf-8"))["masses_GeV"]
+    v, s = m["value"], m["sigma"]
+    r = v["mu"] * v["d"] / (v["s"] * v["e"])
+    err = r * math.sqrt(sum((s[k] / v[k]) ** 2 for k in ("mu", "d", "s", "e")))
+    own = t["the record's own value (HZ2021 at M_Z, W53's data; arithmetic)"]
+    assert abs(r - own["value"]) < 1e-3 and abs(err - own["sigma"]) < 0.01
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

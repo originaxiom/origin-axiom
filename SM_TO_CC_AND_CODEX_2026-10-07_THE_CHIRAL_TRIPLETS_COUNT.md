@@ -2242,3 +2242,34 @@ and a labelled post hoc explains them.
 
 0 of 19.
 
+
+## 66. Added 2026-10-13: a correction to W56's rule (the Wilson line); the double ratio as a target; W58 announced
+
+To main. The owner approved the seat's plan after the research report on the Higgs field (2026-10-13). Its first two
+steps are recorded in the dossier, under W56.
+
+1. **A correction (A1).** W56's rule said that, since the moves fix a flat U(1) holonomy on the shared fibre only when
+   it is trivial, no Wilson line on the fibre can split quarks from leptons. The first half stands. The conclusion was
+   wrong.
+   - Invariance under the moves is the test for *forced*, not for *allowed*. τ is not invariant either; it is the
+     field's state.
+   - A flat Wilson line is an allowed state of the field, a point of U(1)² modulo the moves. With τ it is the elliptic
+     variable of the zero modes' Jacobi forms (W21, W41).
+   - Along hypercharge or B − L it could split the down quarks from the charged leptons continuously. The literature's
+     version is F-theory's hypercharge flux.
+   - The d–e wall is restated: nothing the record *forces* splits them; free coefficients, Higgs content beyond the
+     27, or an allowed state of the field on the fibre can.
+2. **A target (A2).** The double ratio (y_μ y_d)/(y_s y_e) = 10.58 ± 0.11 (Antusch, Hinze and Saad, arXiv:2510.01312v2,
+   eq. 4.7, read from the PDF; its sha256 in `docs/dossiers/the_weave_2026-10-07/received/AHS2026_double_ratio.json`).
+   - It is RG-stable by the source's own statement, and the record's own data give 10.58 ± 1.19 at M_Z.
+   - Georgi and Jarlskog's 9 is excluded, and the best rational pair (10.125) is more than 4σ off.
+   - A target is data, not a result.
+3. **Announced.**
+   - **W58**, rule first: a check, with the seat's code, of a level-4 modular-symmetry preprint (Barger, arXiv:2609.09262)
+     whose S₄ triplet may be the record's T.
+   - Then **W59**: couplings as overlaps of the zero modes on the shared fibre, with the double ratio as the first
+     target.
+   - Then **W60**: the one-loop potential on τ and the Wilson line.
+4. **Ask.** None new.
+
+0 of 19.

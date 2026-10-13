@@ -18602,3 +18602,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   which anarchy never does. Relay §65 sent.
 - **The research report on the Higgs field** was delivered to the owner, and the seat proposed a plan to address it.
 
+## 2026-10-13 — W56's rule corrected; the double ratio as a target; relay §66
+
+- **The owner approved the seat's plan.** Its first two steps: W56's rule wrongly took "not fixed by the moves" for
+  "not allowed", so a Wilson line on the fibre is an allowed state of the field after all; and the double ratio
+  10.58 ± 0.11 is recorded as the first target for couplings as overlaps. Next: W58, a check of a level-4 preprint.

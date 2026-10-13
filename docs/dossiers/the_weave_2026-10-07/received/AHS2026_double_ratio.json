@@ -1,0 +1,23 @@
+{
+ "sources": {
+  "double ratio": "Antusch, Hinze and Saad, 'Updated Running Quark and Lepton Parameters at Various Scales', arXiv:2510.01312v2 [hep-ph] (23 Mar 2026); the PDF https://arxiv.org/pdf/2510.01312v2 fetched 2026-10-13, sha256 64e1d141cdfb2bcd3f45efe0b16e3ebdfa6130fd27f361d14353ecbb96d2aabd. Section 4.3, eqs. (4.6), (4.7) and (4.9), and section 4.1, eqs. (4.1) and (4.2) (MSSM, M_GUT = 2e16 GeV). The paper calls the double ratio 'highly stable under RG running and threshold corrections'. Read by the SM-derivation seat for A2 of its plan (the owner's approval, 2026-10-13)."
+ },
+ "as_printed": {
+  "(4.6)": "y_mu y_d / (y_s y_e) = 10.39 +1.12 -0.83 (PDG 2022)",
+  "(4.7)": "y_mu y_d / (y_s y_e) = 10.58 +- 0.11 (PDG 2024)",
+  "(4.9)": "(c_e, c_mu) = (4/9, 9/2), single operator dominance: y_mu y_d / (y_s y_e) = 10.125; 'the PDG 2024 result ... places it in tension at more than 4 sigma'",
+  "(4.1)": "(1 + eta_l) y_e / ((1 + eta_q) y_d) = 0.410 +- 0.007 (M_SUSY = 3 TeV, 2024 PDG); 0.408 +- 0.007 (10 TeV)",
+  "(4.2)": "(1 + eta_l) y_mu / ((1 + eta_q) y_s) = 4.33 +- 0.06 (M_SUSY = 3 TeV, 2024 PDG); 4.31 +- 0.06 (10 TeV)"
+ },
+ "the double ratio": {
+  "value": 10.58,
+  "sigma": 0.11,
+  "definition": "(y_mu y_d) / (y_s y_e)",
+  "Georgi-Jarlskog (c_e, c_mu) = (1/3, 3)": 9.0,
+  "the best rational pair (4/9, 9/2)": 10.125
+ },
+ "the record's own value (HZ2021 at M_Z, W53's data; arithmetic)": {
+  "value": 10.581,
+  "sigma": 1.19
+ }
+}

@@ -337,6 +337,13 @@ Under the owner's rulings, the table's rows split into two groups:
     draws, none of anarchy's.
   - What the seed's measure does not supply (the second generation, the small mixings) needs a selection on the
     couplings. The count stays: all 19 of the 19 free.
+- **After W57: a correction and a target (the owner approved the plan on 2026-10-13).**
+  - **The correction.** W56's rule said no Wilson line on the fibre can split quarks from leptons. Invariance under the
+    moves is the test for forced, not allowed. A flat Wilson line is an allowed state of the field, as τ is, and could
+    split d from e continuously. Nothing the record forces does.
+  - **The target.** The double ratio (y_μ y_d)/(y_s y_e) = 10.58 ± 0.11 (Antusch, Hinze and Saad 2026, eq. 4.7). Its
+    source is `docs/dossiers/the_weave_2026-10-07/received/AHS2026_double_ratio.json`. Georgi and Jarlskog's 9 is
+    excluded. Data, not a result.
 
 ## Questions open with main
 
@@ -355,4 +362,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W57 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§65).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§66).

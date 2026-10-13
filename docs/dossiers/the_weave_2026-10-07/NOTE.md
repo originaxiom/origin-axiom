@@ -90,6 +90,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   typical draw's is 2σ (p_nn = 0.005), and no draw matches the six mass ratios within a factor 10. But the seed makes
   three deep hierarchies common (25% in the flavour-blind placement) where anarchy never does. The second generation and
   the small mixings are what the seed's measure does not supply: a selection on the couplings.
+- After W57 (the owner approved the plan, 2026-10-13): W56's rule corrected (a flat Wilson line on the fibre is
+  an allowed state of the field, not a forced one, and could split d from e); the double ratio
+  (y_μ y_d)/(y_s y_e) = 10.58 ± 0.11 recorded as C1's target, with its source. Both under W56.
 
 ## The setting
 
@@ -4043,6 +4046,47 @@ to be shared by every thread, as the two records are. A field attached to one th
 
 **Status.** COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result on the ruled branch, given Λ.
 0 of 19.
+
+**Added after W57 (a correction to W56's rule; the owner approved it on 2026-10-13).**
+- **The rule's third leg of the d–e wall** says: "The moves fix a flat U(1) holonomy (y_a, y_b) on the shared fibre only
+  when it is trivial … So no Wilson line on the fibre can split quarks from leptons either." The first sentence is right
+  (L forces y_a = 1 and R forces y_b = 1). The conclusion is wrong.
+- **Why it is wrong.** Invariance under the moves is the test for being *forced*, not for being *allowed*. τ is not
+  invariant either: it is the field's state, a point of the moduli space and not a fixed point of the moves.
+  - By the same standard a flat Wilson line on the fibre is an allowed state of the field. It is a point of U(1)² taken
+    modulo the moves.
+  - Together with τ it is the elliptic variable z = β − ατ of the fibre's Jacobi forms, the theta functions the record's
+    zero modes are built from (W21, W41).
+  - What the moves forbid is a *forced* Wilson line, the question W31 asked.
+- **What it reopens.**
+  - A Wilson line along a direction that tells quarks from leptons shifts their zero modes on the fibre differently: the
+    hypercharge, or B − L in span(Y, χ) (THE_CLAIM §1). Such a line commutes with the Standard Model and breaks only the
+    unified relations.
+  - So it could split the down quarks from the charged leptons continuously. That is the kind of splitting the data's
+    double ratio asks for, about 10.5 rather than Georgi and Jarlskog's 9.
+  - The literature's version is F-theory's hypercharge flux, which leaves the holomorphic couplings unchanged and
+    changes the wavefunctions (the seat's research, 2026-10-13).
+  - Not computed here. The seat's planned arcs C1 (couplings as overlaps) and D1 (the one-loop potential on τ and the
+    Wilson line) take it up.
+- **The d–e wall, restated.** Nothing the record *forces* tells the down quarks from the charged leptons. What can is:
+  - free coefficients, in the Standard Model frame;
+  - Higgs content beyond the 27, in F-MC's frame;
+  - a state of the field on the shared fibre, such as a Wilson line, which is allowed and not forced.
+
+**Added after W57 (a target, recorded for C1; the owner approved it on 2026-10-13).**
+- **The double ratio** (y_μ y_d)/(y_s y_e) is a number the d–e splitting must reproduce. It is free of the overall
+  scales of the down and lepton sectors, and its source calls it "highly stable under RG running and threshold
+  corrections".
+- **The value.** 10.58 ± 0.11 from the PDG 2024 inputs (Antusch, Hinze and Saad 2026, eq. 4.7, read by the seat from
+  the PDF).
+  - Georgi and Jarlskog's (1/3, 3) gives 9, excluded.
+  - The best rational pair of single-operator coefficients, (4/9, 9/2), gives 10.125. The source puts it more than
+    4σ off.
+- **The record's own value**, by arithmetic from W53's data (`received/HZ2021_running_masses_MZ.json`, PDG 2020
+  inputs): 10.58 ± 1.19. It agrees, with a wider error, since m_s and m_d are less certain there.
+- **The file.** `received/AHS2026_double_ratio.json` holds the printed equations, the paper's sha256 and both values.
+- **Its use.** It is C1's first target: any Wilson line or overlap that splits d from e must give it. A target is
+  data, not a result. 0 of 19.
 
 ## Reading: the seed of minimality and the field of maximality (READING; the owner's framing, 2026-10-13)
 
