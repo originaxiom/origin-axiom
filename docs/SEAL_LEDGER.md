@@ -938,3 +938,17 @@ Closes the local HDelta transformation-law dependency by an authored classical t
 | `reports/genesis_root_review_2026_10_11/theta_cusp/verify.py` | `b95a9084ebd6250834fe98fe2c548adb2803dbbdde3616aa5a6e4818d05a5fe2` |
 | `reports/genesis_root_review_2026_10_11/theta_cusp/test_verify.py` | `26a7a197c3d39cd309c29ef045c6f658ade7e6569bac7a654c007410ba318e8e` |
 | `reports/genesis_root_review_2026_10_11/theta_cusp/execute.py` | `1f4d2c0b610ee482a18fcb373104c058b4c053075737339fd762905ca4b5f43d` |
+
+
+## Finite distance puncture Fredholm pre-execution seal 2026-10-13
+
+Authored cone-theorem application to the existing punctured elliptic fibre operator. Exact controls guard its literal coefficient, spin and density normalization, indicial data and graded Green domains. No physical completion or boundary subspace is selected. Only syntax was parsed before this seal; push before scientific execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/puncture_fredholm/PREREGISTRATION.md` | `7f8dac73a71ed8a41dfcb9cd07f1a936c1d93cad71a20218525d840e65d7f53c` |
+| `reports/genesis_root_review_2026_10_11/puncture_fredholm/PROOF.md` | `0977f84f75df44e11ce1f65bbe17e5b6d4a602e2ff3bb927ea991f81d93e2aaf` |
+| `reports/genesis_root_review_2026_10_11/puncture_fredholm/SOURCE_SCOPE.md` | `958b241d708734c1dd7e99097300ed47d359b13976a9d63940bcae2b31a4b4bc` |
+| `reports/genesis_root_review_2026_10_11/puncture_fredholm/verify.py` | `5dd94e9a559b72fa86f541b7d348f987c7065e8870ad5d3910c720dafa3c5081` |
+| `reports/genesis_root_review_2026_10_11/puncture_fredholm/test_verify.py` | `74dbb3cc1369d8206ab9f5562353b38790c043e901c2ebd162ba31d7701164f8` |
+| `reports/genesis_root_review_2026_10_11/puncture_fredholm/execute.py` | `1f4d2c0b610ee482a18fcb373104c058b4c053075737339fd762905ca4b5f43d` |

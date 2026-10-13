@@ -1,0 +1,13 @@
+# Source scope and prior results
+
+Own parent303f832b7e282f3756d5fbef921a5f8940371f87; main6c148ddd495d133213140995976ff08849793d5d; physical eabadfd7960f87e4eec339a875a14ca4b0846387; SM6877cc87d31941a85f139e2f25e5e13694e22ce6. All remote heads refreshed before this work. Fetching does not merge them.
+
+The physical weave_puncture_operator_2026_10_08/PROOF.md and FINDINGS.md were read in full. Their sheaf formula, finite local Green data and complete-cusp objection are preserved. Their explicit next duty to complete the finite-distance closed-domain argument is the target here. The physical weave_curved_action_2026_10_08/PROOF.md was read in full; its supplied parent and full companion-field roster are not replaced by this one internal operator. The separate silver spectral completion uses a smooth torus boundary, so its first analytic sections were inspected only to avoid conflating domains.
+
+SM W45_RULE, W46_RULE, W47_RULE and the complete W45 producer were personally read. The actual quaternion matrices and character rule were read from the_spin_room.py, and PAR=[(2,0),(0,2),(2,2)] from the_chiral_triplet.py. Their full producer dependency graph was not imported or rerun. The verifier reconstructs these literal coefficient matrices with exact arithmetic. Earlier local W21/W28 results are known controls, not blinded predictions.
+
+Gil, Krainer and Mendoza, Resolvents of elliptic cone operators, arXiv math/0410176v1: introduction and Section3 through Theorem3.6 and its continuation, and Section6 equations(6.1)--(6.4), personally read in text and checked visually on the complete theorem pages7--8 and asymptotic page31. The continuation on page32 was read in text. The PDF was downloaded directly from arXiv. This is a targeted theorem reading, not a claim to have read all46 pages. The required symbol, bundle, density, compact blowup and indicial conditions are checked in PROOF.md.
+
+Hain's Lectures on Moduli Spaces of Elliptic Curves, November13 2021 revision, Sections6.2--6.3 and8.1--8.3 with Remark8.4 were inspected during the preceding spin/cusp audit. They distinguish open from compactified Hodge lines and the framed moduli surface from M1,2. They are not a theorem input for this fixed-fibre operator. No claim that adding a Hodge frame forces a physical dimension is made. The two overall spin-lift signs were already tested in W46; they are not advertised here as an untried selector.
+
+The design-time already-banked search and limited current-head text sweeps are recorded in PREREGISTRATION.md. A later narrow all-head regex returned no literal match; that is not an absence certificate, particularly because the known obligation is worded differently. No new shared B-number or universal negative is introduced.
