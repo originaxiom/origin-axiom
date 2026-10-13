@@ -1,0 +1,1483 @@
+{
+  "all_passed": true,
+  "checks": {
+    "actual unitary coefficient": true,
+    "actual L fixes a": true,
+    "actual L sends b to ab": true,
+    "actual marked puncture minus identity": true,
+    "vanishing cycle fourth power": true,
+    "cusp move fourth power minus identity": true,
+    "vanishing circle is acyclic": true,
+    "joint basis is unitary": true,
+    "actual joint diagonalization": true,
+    "framing 0 primitive integer basis": true,
+    "0 1 vanishing cycle recovered": true,
+    "0 1 framing period four": true,
+    "k0 lift1 spin1,1 commute": true,
+    "k0 lift1 spin1,1 fourth powers": true,
+    "k0 lift1 spin1,1 polynomial inverse": true,
+    "k0 lift1 spin1,1 complex": true,
+    "k0 lift1 spin1,1 contraction all degrees": true,
+    "k0 lift1 spin1,1 spectral route agrees": true,
+    "k0 lift1 spin1,1 no invariant branch vector": true,
+    "k0 lift1 spin1,1 flat link Fourier bound": true,
+    "k0 lift1 spin1,1 power cover trivializes": true,
+    "k0 lift1 spin1,1 deck projection required": true,
+    "k0 lift1 spin1,-1 commute": true,
+    "k0 lift1 spin1,-1 fourth powers": true,
+    "k0 lift1 spin1,-1 polynomial inverse": true,
+    "k0 lift1 spin1,-1 complex": true,
+    "k0 lift1 spin1,-1 contraction all degrees": true,
+    "k0 lift1 spin1,-1 spectral route agrees": true,
+    "k0 lift1 spin1,-1 no invariant branch vector": true,
+    "k0 lift1 spin1,-1 flat link Fourier bound": true,
+    "k0 lift1 spin1,-1 power cover trivializes": true,
+    "k0 lift1 spin1,-1 deck projection required": true,
+    "k0 lift1 spin-1,1 commute": true,
+    "k0 lift1 spin-1,1 fourth powers": true,
+    "k0 lift1 spin-1,1 polynomial inverse": true,
+    "k0 lift1 spin-1,1 complex": true,
+    "k0 lift1 spin-1,1 contraction all degrees": true,
+    "k0 lift1 spin-1,1 spectral route agrees": true,
+    "k0 lift1 spin-1,1 no invariant branch vector": true,
+    "k0 lift1 spin-1,1 flat link Fourier bound": true,
+    "k0 lift1 spin-1,1 power cover trivializes": true,
+    "k0 lift1 spin-1,1 deck projection required": true,
+    "k0 lift1 spin-1,-1 commute": true,
+    "k0 lift1 spin-1,-1 fourth powers": true,
+    "k0 lift1 spin-1,-1 polynomial inverse": true,
+    "k0 lift1 spin-1,-1 complex": true,
+    "k0 lift1 spin-1,-1 contraction all degrees": true,
+    "k0 lift1 spin-1,-1 spectral route agrees": true,
+    "k0 lift1 spin-1,-1 no invariant branch vector": true,
+    "k0 lift1 spin-1,-1 flat link Fourier bound": true,
+    "k0 lift1 spin-1,-1 power cover trivializes": true,
+    "k0 lift1 spin-1,-1 deck projection required": true,
+    "0 -1 vanishing cycle recovered": true,
+    "0 -1 framing period four": true,
+    "k0 lift-1 spin1,1 commute": true,
+    "k0 lift-1 spin1,1 fourth powers": true,
+    "k0 lift-1 spin1,1 polynomial inverse": true,
+    "k0 lift-1 spin1,1 complex": true,
+    "k0 lift-1 spin1,1 contraction all degrees": true,
+    "k0 lift-1 spin1,1 spectral route agrees": true,
+    "k0 lift-1 spin1,1 no invariant branch vector": true,
+    "k0 lift-1 spin1,1 flat link Fourier bound": true,
+    "k0 lift-1 spin1,1 power cover trivializes": true,
+    "k0 lift-1 spin1,1 deck projection required": true,
+    "k0 lift-1 spin1,-1 commute": true,
+    "k0 lift-1 spin1,-1 fourth powers": true,
+    "k0 lift-1 spin1,-1 polynomial inverse": true,
+    "k0 lift-1 spin1,-1 complex": true,
+    "k0 lift-1 spin1,-1 contraction all degrees": true,
+    "k0 lift-1 spin1,-1 spectral route agrees": true,
+    "k0 lift-1 spin1,-1 no invariant branch vector": true,
+    "k0 lift-1 spin1,-1 flat link Fourier bound": true,
+    "k0 lift-1 spin1,-1 power cover trivializes": true,
+    "k0 lift-1 spin1,-1 deck projection required": true,
+    "k0 lift-1 spin-1,1 commute": true,
+    "k0 lift-1 spin-1,1 fourth powers": true,
+    "k0 lift-1 spin-1,1 polynomial inverse": true,
+    "k0 lift-1 spin-1,1 complex": true,
+    "k0 lift-1 spin-1,1 contraction all degrees": true,
+    "k0 lift-1 spin-1,1 spectral route agrees": true,
+    "k0 lift-1 spin-1,1 no invariant branch vector": true,
+    "k0 lift-1 spin-1,1 flat link Fourier bound": true,
+    "k0 lift-1 spin-1,1 power cover trivializes": true,
+    "k0 lift-1 spin-1,1 deck projection required": true,
+    "k0 lift-1 spin-1,-1 commute": true,
+    "k0 lift-1 spin-1,-1 fourth powers": true,
+    "k0 lift-1 spin-1,-1 polynomial inverse": true,
+    "k0 lift-1 spin-1,-1 complex": true,
+    "k0 lift-1 spin-1,-1 contraction all degrees": true,
+    "k0 lift-1 spin-1,-1 spectral route agrees": true,
+    "k0 lift-1 spin-1,-1 no invariant branch vector": true,
+    "k0 lift-1 spin-1,-1 flat link Fourier bound": true,
+    "k0 lift-1 spin-1,-1 power cover trivializes": true,
+    "k0 lift-1 spin-1,-1 deck projection required": true,
+    "framing 1 primitive integer basis": true,
+    "1 1 vanishing cycle recovered": true,
+    "1 1 framing period four": true,
+    "k1 lift1 spin1,1 commute": true,
+    "k1 lift1 spin1,1 fourth powers": true,
+    "k1 lift1 spin1,1 polynomial inverse": true,
+    "k1 lift1 spin1,1 complex": true,
+    "k1 lift1 spin1,1 contraction all degrees": true,
+    "k1 lift1 spin1,1 spectral route agrees": true,
+    "k1 lift1 spin1,1 no invariant branch vector": true,
+    "k1 lift1 spin1,1 flat link Fourier bound": true,
+    "k1 lift1 spin1,1 power cover trivializes": true,
+    "k1 lift1 spin1,1 deck projection required": true,
+    "k1 lift1 spin1,-1 commute": true,
+    "k1 lift1 spin1,-1 fourth powers": true,
+    "k1 lift1 spin1,-1 polynomial inverse": true,
+    "k1 lift1 spin1,-1 complex": true,
+    "k1 lift1 spin1,-1 contraction all degrees": true,
+    "k1 lift1 spin1,-1 spectral route agrees": true,
+    "k1 lift1 spin1,-1 no invariant branch vector": true,
+    "k1 lift1 spin1,-1 flat link Fourier bound": true,
+    "k1 lift1 spin1,-1 power cover trivializes": true,
+    "k1 lift1 spin1,-1 deck projection required": true,
+    "k1 lift1 spin-1,1 commute": true,
+    "k1 lift1 spin-1,1 fourth powers": true,
+    "k1 lift1 spin-1,1 polynomial inverse": true,
+    "k1 lift1 spin-1,1 complex": true,
+    "k1 lift1 spin-1,1 contraction all degrees": true,
+    "k1 lift1 spin-1,1 spectral route agrees": true,
+    "k1 lift1 spin-1,1 no invariant branch vector": true,
+    "k1 lift1 spin-1,1 flat link Fourier bound": true,
+    "k1 lift1 spin-1,1 power cover trivializes": true,
+    "k1 lift1 spin-1,1 deck projection required": true,
+    "k1 lift1 spin-1,-1 commute": true,
+    "k1 lift1 spin-1,-1 fourth powers": true,
+    "k1 lift1 spin-1,-1 polynomial inverse": true,
+    "k1 lift1 spin-1,-1 complex": true,
+    "k1 lift1 spin-1,-1 contraction all degrees": true,
+    "k1 lift1 spin-1,-1 spectral route agrees": true,
+    "k1 lift1 spin-1,-1 no invariant branch vector": true,
+    "k1 lift1 spin-1,-1 flat link Fourier bound": true,
+    "k1 lift1 spin-1,-1 power cover trivializes": true,
+    "k1 lift1 spin-1,-1 deck projection required": true,
+    "1 -1 vanishing cycle recovered": true,
+    "1 -1 framing period four": true,
+    "k1 lift-1 spin1,1 commute": true,
+    "k1 lift-1 spin1,1 fourth powers": true,
+    "k1 lift-1 spin1,1 polynomial inverse": true,
+    "k1 lift-1 spin1,1 complex": true,
+    "k1 lift-1 spin1,1 contraction all degrees": true,
+    "k1 lift-1 spin1,1 spectral route agrees": true,
+    "k1 lift-1 spin1,1 no invariant branch vector": true,
+    "k1 lift-1 spin1,1 flat link Fourier bound": true,
+    "k1 lift-1 spin1,1 power cover trivializes": true,
+    "k1 lift-1 spin1,1 deck projection required": true,
+    "k1 lift-1 spin1,-1 commute": true,
+    "k1 lift-1 spin1,-1 fourth powers": true,
+    "k1 lift-1 spin1,-1 polynomial inverse": true,
+    "k1 lift-1 spin1,-1 complex": true,
+    "k1 lift-1 spin1,-1 contraction all degrees": true,
+    "k1 lift-1 spin1,-1 spectral route agrees": true,
+    "k1 lift-1 spin1,-1 no invariant branch vector": true,
+    "k1 lift-1 spin1,-1 flat link Fourier bound": true,
+    "k1 lift-1 spin1,-1 power cover trivializes": true,
+    "k1 lift-1 spin1,-1 deck projection required": true,
+    "k1 lift-1 spin-1,1 commute": true,
+    "k1 lift-1 spin-1,1 fourth powers": true,
+    "k1 lift-1 spin-1,1 polynomial inverse": true,
+    "k1 lift-1 spin-1,1 complex": true,
+    "k1 lift-1 spin-1,1 contraction all degrees": true,
+    "k1 lift-1 spin-1,1 spectral route agrees": true,
+    "k1 lift-1 spin-1,1 no invariant branch vector": true,
+    "k1 lift-1 spin-1,1 flat link Fourier bound": true,
+    "k1 lift-1 spin-1,1 power cover trivializes": true,
+    "k1 lift-1 spin-1,1 deck projection required": true,
+    "k1 lift-1 spin-1,-1 commute": true,
+    "k1 lift-1 spin-1,-1 fourth powers": true,
+    "k1 lift-1 spin-1,-1 polynomial inverse": true,
+    "k1 lift-1 spin-1,-1 complex": true,
+    "k1 lift-1 spin-1,-1 contraction all degrees": true,
+    "k1 lift-1 spin-1,-1 spectral route agrees": true,
+    "k1 lift-1 spin-1,-1 no invariant branch vector": true,
+    "k1 lift-1 spin-1,-1 flat link Fourier bound": true,
+    "k1 lift-1 spin-1,-1 power cover trivializes": true,
+    "k1 lift-1 spin-1,-1 deck projection required": true,
+    "framing 2 primitive integer basis": true,
+    "2 1 vanishing cycle recovered": true,
+    "2 1 framing period four": true,
+    "k2 lift1 spin1,1 commute": true,
+    "k2 lift1 spin1,1 fourth powers": true,
+    "k2 lift1 spin1,1 polynomial inverse": true,
+    "k2 lift1 spin1,1 complex": true,
+    "k2 lift1 spin1,1 contraction all degrees": true,
+    "k2 lift1 spin1,1 spectral route agrees": true,
+    "k2 lift1 spin1,1 no invariant branch vector": true,
+    "k2 lift1 spin1,1 flat link Fourier bound": true,
+    "k2 lift1 spin1,1 power cover trivializes": true,
+    "k2 lift1 spin1,1 deck projection required": true,
+    "k2 lift1 spin1,-1 commute": true,
+    "k2 lift1 spin1,-1 fourth powers": true,
+    "k2 lift1 spin1,-1 polynomial inverse": true,
+    "k2 lift1 spin1,-1 complex": true,
+    "k2 lift1 spin1,-1 contraction all degrees": true,
+    "k2 lift1 spin1,-1 spectral route agrees": true,
+    "k2 lift1 spin1,-1 no invariant branch vector": true,
+    "k2 lift1 spin1,-1 flat link Fourier bound": true,
+    "k2 lift1 spin1,-1 power cover trivializes": true,
+    "k2 lift1 spin1,-1 deck projection required": true,
+    "k2 lift1 spin-1,1 commute": true,
+    "k2 lift1 spin-1,1 fourth powers": true,
+    "k2 lift1 spin-1,1 polynomial inverse": true,
+    "k2 lift1 spin-1,1 complex": true,
+    "k2 lift1 spin-1,1 contraction all degrees": true,
+    "k2 lift1 spin-1,1 spectral route agrees": true,
+    "k2 lift1 spin-1,1 no invariant branch vector": true,
+    "k2 lift1 spin-1,1 flat link Fourier bound": true,
+    "k2 lift1 spin-1,1 power cover trivializes": true,
+    "k2 lift1 spin-1,1 deck projection required": true,
+    "k2 lift1 spin-1,-1 commute": true,
+    "k2 lift1 spin-1,-1 fourth powers": true,
+    "k2 lift1 spin-1,-1 polynomial inverse": true,
+    "k2 lift1 spin-1,-1 complex": true,
+    "k2 lift1 spin-1,-1 contraction all degrees": true,
+    "k2 lift1 spin-1,-1 spectral route agrees": true,
+    "k2 lift1 spin-1,-1 no invariant branch vector": true,
+    "k2 lift1 spin-1,-1 flat link Fourier bound": true,
+    "k2 lift1 spin-1,-1 power cover trivializes": true,
+    "k2 lift1 spin-1,-1 deck projection required": true,
+    "2 -1 vanishing cycle recovered": true,
+    "2 -1 framing period four": true,
+    "k2 lift-1 spin1,1 commute": true,
+    "k2 lift-1 spin1,1 fourth powers": true,
+    "k2 lift-1 spin1,1 polynomial inverse": true,
+    "k2 lift-1 spin1,1 complex": true,
+    "k2 lift-1 spin1,1 contraction all degrees": true,
+    "k2 lift-1 spin1,1 spectral route agrees": true,
+    "k2 lift-1 spin1,1 no invariant branch vector": true,
+    "k2 lift-1 spin1,1 flat link Fourier bound": true,
+    "k2 lift-1 spin1,1 power cover trivializes": true,
+    "k2 lift-1 spin1,1 deck projection required": true,
+    "k2 lift-1 spin1,-1 commute": true,
+    "k2 lift-1 spin1,-1 fourth powers": true,
+    "k2 lift-1 spin1,-1 polynomial inverse": true,
+    "k2 lift-1 spin1,-1 complex": true,
+    "k2 lift-1 spin1,-1 contraction all degrees": true,
+    "k2 lift-1 spin1,-1 spectral route agrees": true,
+    "k2 lift-1 spin1,-1 no invariant branch vector": true,
+    "k2 lift-1 spin1,-1 flat link Fourier bound": true,
+    "k2 lift-1 spin1,-1 power cover trivializes": true,
+    "k2 lift-1 spin1,-1 deck projection required": true,
+    "k2 lift-1 spin-1,1 commute": true,
+    "k2 lift-1 spin-1,1 fourth powers": true,
+    "k2 lift-1 spin-1,1 polynomial inverse": true,
+    "k2 lift-1 spin-1,1 complex": true,
+    "k2 lift-1 spin-1,1 contraction all degrees": true,
+    "k2 lift-1 spin-1,1 spectral route agrees": true,
+    "k2 lift-1 spin-1,1 no invariant branch vector": true,
+    "k2 lift-1 spin-1,1 flat link Fourier bound": true,
+    "k2 lift-1 spin-1,1 power cover trivializes": true,
+    "k2 lift-1 spin-1,1 deck projection required": true,
+    "k2 lift-1 spin-1,-1 commute": true,
+    "k2 lift-1 spin-1,-1 fourth powers": true,
+    "k2 lift-1 spin-1,-1 polynomial inverse": true,
+    "k2 lift-1 spin-1,-1 complex": true,
+    "k2 lift-1 spin-1,-1 contraction all degrees": true,
+    "k2 lift-1 spin-1,-1 spectral route agrees": true,
+    "k2 lift-1 spin-1,-1 no invariant branch vector": true,
+    "k2 lift-1 spin-1,-1 flat link Fourier bound": true,
+    "k2 lift-1 spin-1,-1 power cover trivializes": true,
+    "k2 lift-1 spin-1,-1 deck projection required": true,
+    "framing 3 primitive integer basis": true,
+    "3 1 vanishing cycle recovered": true,
+    "3 1 framing period four": true,
+    "k3 lift1 spin1,1 commute": true,
+    "k3 lift1 spin1,1 fourth powers": true,
+    "k3 lift1 spin1,1 polynomial inverse": true,
+    "k3 lift1 spin1,1 complex": true,
+    "k3 lift1 spin1,1 contraction all degrees": true,
+    "k3 lift1 spin1,1 spectral route agrees": true,
+    "k3 lift1 spin1,1 no invariant branch vector": true,
+    "k3 lift1 spin1,1 flat link Fourier bound": true,
+    "k3 lift1 spin1,1 power cover trivializes": true,
+    "k3 lift1 spin1,1 deck projection required": true,
+    "k3 lift1 spin1,-1 commute": true,
+    "k3 lift1 spin1,-1 fourth powers": true,
+    "k3 lift1 spin1,-1 polynomial inverse": true,
+    "k3 lift1 spin1,-1 complex": true,
+    "k3 lift1 spin1,-1 contraction all degrees": true,
+    "k3 lift1 spin1,-1 spectral route agrees": true,
+    "k3 lift1 spin1,-1 no invariant branch vector": true,
+    "k3 lift1 spin1,-1 flat link Fourier bound": true,
+    "k3 lift1 spin1,-1 power cover trivializes": true,
+    "k3 lift1 spin1,-1 deck projection required": true,
+    "k3 lift1 spin-1,1 commute": true,
+    "k3 lift1 spin-1,1 fourth powers": true,
+    "k3 lift1 spin-1,1 polynomial inverse": true,
+    "k3 lift1 spin-1,1 complex": true,
+    "k3 lift1 spin-1,1 contraction all degrees": true,
+    "k3 lift1 spin-1,1 spectral route agrees": true,
+    "k3 lift1 spin-1,1 no invariant branch vector": true,
+    "k3 lift1 spin-1,1 flat link Fourier bound": true,
+    "k3 lift1 spin-1,1 power cover trivializes": true,
+    "k3 lift1 spin-1,1 deck projection required": true,
+    "k3 lift1 spin-1,-1 commute": true,
+    "k3 lift1 spin-1,-1 fourth powers": true,
+    "k3 lift1 spin-1,-1 polynomial inverse": true,
+    "k3 lift1 spin-1,-1 complex": true,
+    "k3 lift1 spin-1,-1 contraction all degrees": true,
+    "k3 lift1 spin-1,-1 spectral route agrees": true,
+    "k3 lift1 spin-1,-1 no invariant branch vector": true,
+    "k3 lift1 spin-1,-1 flat link Fourier bound": true,
+    "k3 lift1 spin-1,-1 power cover trivializes": true,
+    "k3 lift1 spin-1,-1 deck projection required": true,
+    "3 -1 vanishing cycle recovered": true,
+    "3 -1 framing period four": true,
+    "k3 lift-1 spin1,1 commute": true,
+    "k3 lift-1 spin1,1 fourth powers": true,
+    "k3 lift-1 spin1,1 polynomial inverse": true,
+    "k3 lift-1 spin1,1 complex": true,
+    "k3 lift-1 spin1,1 contraction all degrees": true,
+    "k3 lift-1 spin1,1 spectral route agrees": true,
+    "k3 lift-1 spin1,1 no invariant branch vector": true,
+    "k3 lift-1 spin1,1 flat link Fourier bound": true,
+    "k3 lift-1 spin1,1 power cover trivializes": true,
+    "k3 lift-1 spin1,1 deck projection required": true,
+    "k3 lift-1 spin1,-1 commute": true,
+    "k3 lift-1 spin1,-1 fourth powers": true,
+    "k3 lift-1 spin1,-1 polynomial inverse": true,
+    "k3 lift-1 spin1,-1 complex": true,
+    "k3 lift-1 spin1,-1 contraction all degrees": true,
+    "k3 lift-1 spin1,-1 spectral route agrees": true,
+    "k3 lift-1 spin1,-1 no invariant branch vector": true,
+    "k3 lift-1 spin1,-1 flat link Fourier bound": true,
+    "k3 lift-1 spin1,-1 power cover trivializes": true,
+    "k3 lift-1 spin1,-1 deck projection required": true,
+    "k3 lift-1 spin-1,1 commute": true,
+    "k3 lift-1 spin-1,1 fourth powers": true,
+    "k3 lift-1 spin-1,1 polynomial inverse": true,
+    "k3 lift-1 spin-1,1 complex": true,
+    "k3 lift-1 spin-1,1 contraction all degrees": true,
+    "k3 lift-1 spin-1,1 spectral route agrees": true,
+    "k3 lift-1 spin-1,1 no invariant branch vector": true,
+    "k3 lift-1 spin-1,1 flat link Fourier bound": true,
+    "k3 lift-1 spin-1,1 power cover trivializes": true,
+    "k3 lift-1 spin-1,1 deck projection required": true,
+    "k3 lift-1 spin-1,-1 commute": true,
+    "k3 lift-1 spin-1,-1 fourth powers": true,
+    "k3 lift-1 spin-1,-1 polynomial inverse": true,
+    "k3 lift-1 spin-1,-1 complex": true,
+    "k3 lift-1 spin-1,-1 contraction all degrees": true,
+    "k3 lift-1 spin-1,-1 spectral route agrees": true,
+    "k3 lift-1 spin-1,-1 no invariant branch vector": true,
+    "k3 lift-1 spin-1,-1 flat link Fourier bound": true,
+    "k3 lift-1 spin-1,-1 power cover trivializes": true,
+    "k3 lift-1 spin-1,-1 deck projection required": true,
+    "trivial coefficient positive control": true,
+    "invariant summand positive control": true,
+    "actual local rank control": true,
+    "dropping T changes local spectrum": true,
+    "integer cusp twist has trivial local phase": true,
+    "q twist changes both logarithmic orders": true
+  },
+  "rows": [
+    {
+      "framing_mod_four": 0,
+      "lift": 1,
+      "spin": [
+        1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 0,
+      "lift": 1,
+      "spin": [
+        1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "5/32"
+    },
+    {
+      "framing_mod_four": 0,
+      "lift": 1,
+      "spin": [
+        -1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 0,
+      "lift": 1,
+      "spin": [
+        -1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 0,
+      "lift": -1,
+      "spin": [
+        1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 0,
+      "lift": -1,
+      "spin": [
+        1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 0,
+      "lift": -1,
+      "spin": [
+        -1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "5/32"
+    },
+    {
+      "framing_mod_four": 0,
+      "lift": -1,
+      "spin": [
+        -1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 1,
+      "lift": 1,
+      "spin": [
+        1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "5/32"
+    },
+    {
+      "framing_mod_four": 1,
+      "lift": 1,
+      "spin": [
+        1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 1,
+      "lift": 1,
+      "spin": [
+        -1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 1,
+      "lift": 1,
+      "spin": [
+        -1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 1,
+      "lift": -1,
+      "spin": [
+        1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 1,
+      "lift": -1,
+      "spin": [
+        1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 1,
+      "lift": -1,
+      "spin": [
+        -1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 1,
+      "lift": -1,
+      "spin": [
+        -1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "5/32"
+    },
+    {
+      "framing_mod_four": 2,
+      "lift": 1,
+      "spin": [
+        1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 2,
+      "lift": 1,
+      "spin": [
+        1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 2,
+      "lift": 1,
+      "spin": [
+        -1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "5/32"
+    },
+    {
+      "framing_mod_four": 2,
+      "lift": 1,
+      "spin": [
+        -1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 2,
+      "lift": -1,
+      "spin": [
+        1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 2,
+      "lift": -1,
+      "spin": [
+        1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "5/32"
+    },
+    {
+      "framing_mod_four": 2,
+      "lift": -1,
+      "spin": [
+        -1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 2,
+      "lift": -1,
+      "spin": [
+        -1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 3,
+      "lift": 1,
+      "spin": [
+        1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 3,
+      "lift": 1,
+      "spin": [
+        1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 3,
+      "lift": 1,
+      "spin": [
+        -1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 3,
+      "lift": 1,
+      "spin": [
+        -1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "5/32"
+    },
+    {
+      "framing_mod_four": 3,
+      "lift": -1,
+      "spin": [
+        1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "5/32"
+    },
+    {
+      "framing_mod_four": 3,
+      "lift": -1,
+      "spin": [
+        1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 3,
+      "lift": -1,
+      "spin": [
+        -1,
+        1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    },
+    {
+      "framing_mod_four": 3,
+      "lift": -1,
+      "spin": [
+        -1,
+        -1
+      ],
+      "joint_numerators_over_eight": [
+        [
+          1,
+          3
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "flat_link_minimum_squared_frequency": "1/32"
+    }
+  ],
+  "scope": "local coefficient contraction and flat-link comparison, not a total-space Fredholm index"
+}

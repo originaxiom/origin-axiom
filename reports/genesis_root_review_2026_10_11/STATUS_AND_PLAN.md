@@ -92,6 +92,12 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 nodal coefficient transport
+
+The [nodal transport result](nodal_transport/FINDINGS.md) provides the local coefficient input for the total-space degeneration duty. It identifies every primitive based meridian framing and proves that both actual branch transports have fourth power minus identity. An explicit polynomial chain contraction gives zero ordinary local-system cohomology on that node neighborhood, without retracting the global fibre modes. All 355 exact safeguards and seven tests pass on the first run after pushed seal 6ec6bfab9; sources stayed unchanged.
+
+This is not a total-space analytic completion. The flat-link Fourier bound is not transferred to the degenerating physical metric. Integer cusp modifications retain the same local monodromy, so this discriminator alone cannot choose a unit. The next step must use the metric-dependent normal operator, the critical puncture-section domain and the same-field parent/end law. Additional flat-line twists and other physical sources are not covered by the unchanged-coefficient statement. The existing physical total-space pure-Yang--Mills construction and its explicit full-parent duty were read again rather than replaced by the curve or silver parent.
+
 ### October 13 smooth fibre family realization
 
 The [smooth family result](fibre_family/FINDINGS.md) advances the carried domain-transport duty. An authored weighted graph argument and an explicit connecting map realize the vertical family index as [Lambda]-[lambda^(1/2)T01]. The spin and puncture half-weights cancel in the critical trace, so base-spin tensoring recovers W46's existing weights by a map rather than a rank match. All 96 exact guards and seven tests pass on the first run after pushed seal 2ed52e998; no scientific source changed. Independent analytic review remains owed.
