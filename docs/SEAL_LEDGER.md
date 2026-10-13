@@ -132,7 +132,8 @@ hash-first status.*
 | frontier/B1639_the_golden_identity_from_ramanujans_quintic/PREREGISTRATION.md | f701ab8a | 081a02663 | 1 | yes |
 | frontier/B1641_w46_on_main_and_the_two_objects/PREREGISTRATION.md | 4e5dd58b | 99975fb63 | 1 | yes |
 | frontier/B1642_the_golden_coupling_as_the_zero_modes_residue/PREREGISTRATION.md | 8074401a | 55bd29ab7 | 1 | yes |
-| frontier/B1644_a_higgs_in_the_multiplicity_space/PREREGISTRATION.md | 29f09f0d | untracked | 0 | NO |
+| frontier/B1644_a_higgs_in_the_multiplicity_space/PREREGISTRATION.md | 29f09f0d | 8fa3d82ba | 1 | yes |
+| frontier/B1645_the_half_bound/PREREGISTRATION.md | fa7858ad | untracked | 0 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -392,9 +393,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 381 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 382 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
