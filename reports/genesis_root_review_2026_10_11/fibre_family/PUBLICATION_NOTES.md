@@ -1,0 +1,9 @@
+# Publication scope and existing repository debt
+
+This is audit-branch publication, not main acceptance or independent analytic certification. The six scientific sources were sealed in 2ed52e998237e46e0fc7437fa54bb8c007cab4dc and stayed unchanged through the first successful run. The separate raw outputs are explicitly tracked despite the repository's generic log ignore rule. No unrelated modified or untracked file was staged.
+
+The governance check returned 25 PASS and 5 FAIL, exit1, matching the preceding packet's failure categories and cited old paths. The failures are attribution in ten older files, one older unresolved path reference, two older vacuous tests, five older seal-provenance entries and42 stale relays. No new fibre_family path was cited. Seal-digests and identification-register passed. This is not an all-green certificate. The full repository suite was not run; the seven local tests are the stated test scope.
+
+The first staging command refused the four ignored log paths while staging the other explicitly named files; those four paths are subsequently force-added by their exact names. The first governance run therefore preceded inclusion of those logs. A final governance run after final staging is reported in the publication handoff. An earlier atlas navigation invocation used the packet directory rather than the repository root and did not launch the atlas script; the root invocation succeeded before sealing. Neither event launched an extra scientific run. A draft report patch was rejected atomically for a stale text anchor and reapplied after inspecting the current file; no scientific source was changed.
+
+The full physical goal remains active. Source and physical-model choices stay explicit, and the smooth family theorem must not be presented as a total-space cusp or particle-spectrum certificate. Local law proposals retain the analytic and selection duties for normal banking.

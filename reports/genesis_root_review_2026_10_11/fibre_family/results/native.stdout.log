@@ -1,0 +1,153 @@
+{
+  "all_passed": true,
+  "checks": {
+    "actual generator determinants": true,
+    "actual coefficient is unitary": true,
+    "actual scalar puncture holonomy": true,
+    "canonical degree from determinant residue": true,
+    "1 S unitary": true,
+    "1 S Green equivariant": true,
+    "1 S grading equivariant": true,
+    "1 S zero invariant domain": true,
+    "1 S zero maximal isotropic": true,
+    "1 S V2 invariant domain": true,
+    "1 S V2 maximal isotropic": true,
+    "1 S V4 invariant domain": true,
+    "1 S V4 maximal isotropic": true,
+    "1 S all invariant domain": true,
+    "1 S all maximal isotropic": true,
+    "1 T unitary": true,
+    "1 T Green equivariant": true,
+    "1 T grading equivariant": true,
+    "1 T zero invariant domain": true,
+    "1 T zero maximal isotropic": true,
+    "1 T V2 invariant domain": true,
+    "1 T V2 maximal isotropic": true,
+    "1 T V4 invariant domain": true,
+    "1 T V4 maximal isotropic": true,
+    "1 T all invariant domain": true,
+    "1 T all maximal isotropic": true,
+    "1 lifted modular relation": true,
+    "-1 S unitary": true,
+    "-1 S Green equivariant": true,
+    "-1 S grading equivariant": true,
+    "-1 S zero invariant domain": true,
+    "-1 S zero maximal isotropic": true,
+    "-1 S V2 invariant domain": true,
+    "-1 S V2 maximal isotropic": true,
+    "-1 S V4 invariant domain": true,
+    "-1 S V4 maximal isotropic": true,
+    "-1 S all invariant domain": true,
+    "-1 S all maximal isotropic": true,
+    "-1 T unitary": true,
+    "-1 T Green equivariant": true,
+    "-1 T grading equivariant": true,
+    "-1 T zero invariant domain": true,
+    "-1 T zero maximal isotropic": true,
+    "-1 T V2 invariant domain": true,
+    "-1 T V2 maximal isotropic": true,
+    "-1 T V4 invariant domain": true,
+    "-1 T V4 maximal isotropic": true,
+    "-1 T all invariant domain": true,
+    "-1 T all maximal isotropic": true,
+    "-1 lifted modular relation": true,
+    "actual local central character": true,
+    "canonical H1 central character": true,
+    "dual H10 central character": true,
+    "coordinate 0 spin trace leading coefficient": true,
+    "coordinate 0 correction is minimal order": true,
+    "coordinate 0 composition law": true,
+    "coordinate 1 spin trace leading coefficient": true,
+    "coordinate 1 correction is minimal order": true,
+    "coordinate 1 composition law": true,
+    "coordinate 2 spin trace leading coefficient": true,
+    "coordinate 2 correction is minimal order": true,
+    "coordinate 2 composition law": true,
+    "coordinate 3 spin trace leading coefficient": true,
+    "coordinate 3 correction is minimal order": true,
+    "coordinate 3 composition law": true,
+    "coordinate 4 spin trace leading coefficient": true,
+    "coordinate 4 correction is minimal order": true,
+    "coordinate 4 composition law": true,
+    "omitted spin half weight detected": true,
+    "rank 0 finite index": true,
+    "rank 1 finite index": true,
+    "rank 2 finite index": true,
+    "rank 3 finite index": true,
+    "rank 4 finite index": true,
+    "rank 5 finite index": true,
+    "rank 6 finite index": true,
+    "canonical extreme": true,
+    "all allowed extreme": true,
+    "jump 0 trace rank stays two": true,
+    "jump 0 index stays minus one": true,
+    "jump 1 trace rank stays two": true,
+    "jump 1 index stays minus one": true,
+    "jump -2 trace rank stays two": true,
+    "jump -2 index stays minus one": true,
+    "index does not freeze kernels": true,
+    "connecting map cutoff independence": true,
+    "connecting map has correct target": true,
+    "vertical critical quotient cancellation": true,
+    "open weights from vertical class": true,
+    "open local central compatibility": true,
+    "open H01 central compatibility": true,
+    "open H10 central compatibility": true,
+    "ordinary weights from vertical class": true,
+    "ordinary local central compatibility": true,
+    "ordinary H01 central compatibility": true,
+    "ordinary H10 central compatibility": true
+  },
+  "finite_model_rows": [
+    {
+      "trace_rank": 0,
+      "model_kernel": 0,
+      "model_cokernel": 3
+    },
+    {
+      "trace_rank": 1,
+      "model_kernel": 0,
+      "model_cokernel": 2
+    },
+    {
+      "trace_rank": 2,
+      "model_kernel": 0,
+      "model_cokernel": 1
+    },
+    {
+      "trace_rank": 3,
+      "model_kernel": 0,
+      "model_cokernel": 0
+    },
+    {
+      "trace_rank": 4,
+      "model_kernel": 1,
+      "model_cokernel": 0
+    },
+    {
+      "trace_rank": 5,
+      "model_kernel": 2,
+      "model_cokernel": 0
+    },
+    {
+      "trace_rank": 6,
+      "model_kernel": 3,
+      "model_cokernel": 0
+    }
+  ],
+  "rank_jump_control": [
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "scope": "finite guards for a smooth vertical Fredholm family; no total-space spectrum"
+}

@@ -92,6 +92,12 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 smooth fibre family realization
+
+The [smooth family result](fibre_family/FINDINGS.md) advances the carried domain-transport duty. An authored weighted graph argument and an explicit connecting map realize the vertical family index as [Lambda]-[lambda^(1/2)T01]. The spin and puncture half-weights cancel in the critical trace, so base-spin tensoring recovers W46's existing weights by a map rather than a rank match. All 96 exact guards and seven tests pass on the first run after pushed seal 2ed52e998; no scientific source changed. Independent analytic review remains owed.
+
+This is a conditional result over the smooth lifted modular base, with local uniformity only on compact subsets. It neither controls the nodal cusp nor selects the physical field, metric, domain or nonzero end sector. The next duty is the same-field total-space operator and degeneration/end law; do not substitute another equivalent fibre count or a scan of already equivalent completions. Physical b2e3661bd now publishes its conditional local real stationary continuation and charged spectrum custody. Its complete proof, findings and next-test description were read, not independently replayed here. This supersedes the older sealed-only snapshot below without rewriting its history.
+
 ### October 13 cusp spin extension accounting
 
 The [cusp spin comparison](cusp_spin_extension/FINDINGS.md) makes W45's up-to-the-cusp qualification explicit. The ordinary and logarithmic canonical extensions give spin weights separated by6. Multiplication by eta^12 relates this shift to W46's other lift sign, but also imposes a leading-coefficient zero for every cusp exponent at least1/2. The exact-sequence argument and191 exact safeguards with six tests verify the correction after a preserved and resealed symbolic-boolean counting failure. The old zero table survives at its original weights and conditions.

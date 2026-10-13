@@ -1,0 +1,52 @@
+{
+  "sources_before": {
+    "PREREGISTRATION.md": "4b10961bc11cd238257326cd097cc41f32239622b0dfce790113d00854463812",
+    "PROOF.md": "07b0323b162864d45452bda35fd0158849f46f65289bba98395481cb03e87817",
+    "SOURCE_SCOPE.md": "47bb5cfedf194975d9702612bfbe29ab034f94824c3355ade475b8393e538995",
+    "verify.py": "3f201f7dcbd7e3bd6502dae0f53dfcbc353c1b0b324bb97499b3c1dd304636d5",
+    "test_verify.py": "6ce679d73b2c652e2373156c47f1361ecf7a92f0b8a331bca6e4a3f2c926e041",
+    "execute.py": "20604891d3f4ae559540307677121a11943ee382e37406d0a55176645d034bd5"
+  },
+  "runs": [
+    {
+      "label": "native",
+      "exit_code": 0,
+      "elapsed_seconds": 1.7345428069966147,
+      "stdout": {
+        "file": "native.stdout.log",
+        "bytes": 4843,
+        "sha256": "66e83ab0a12ec7b297d7b48eaa506d5a17abd80eb176bd87b85dc647e4da0869"
+      },
+      "stderr": {
+        "file": "native.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "label": "tests",
+      "exit_code": 0,
+      "elapsed_seconds": 2.541394946005312,
+      "stdout": {
+        "file": "tests.stdout.log",
+        "bytes": 98,
+        "sha256": "a7377ffb7287f8b425697efc9c3f9849729392549758388d864e62414c7f3534"
+      },
+      "stderr": {
+        "file": "tests.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "sources_after": {
+    "PREREGISTRATION.md": "4b10961bc11cd238257326cd097cc41f32239622b0dfce790113d00854463812",
+    "PROOF.md": "07b0323b162864d45452bda35fd0158849f46f65289bba98395481cb03e87817",
+    "SOURCE_SCOPE.md": "47bb5cfedf194975d9702612bfbe29ab034f94824c3355ade475b8393e538995",
+    "verify.py": "3f201f7dcbd7e3bd6502dae0f53dfcbc353c1b0b324bb97499b3c1dd304636d5",
+    "test_verify.py": "6ce679d73b2c652e2373156c47f1361ecf7a92f0b8a331bca6e4a3f2c926e041",
+    "execute.py": "20604891d3f4ae559540307677121a11943ee382e37406d0a55176645d034bd5"
+  },
+  "source_unchanged": true,
+  "all_scheduled_runs_passed": true
+}
