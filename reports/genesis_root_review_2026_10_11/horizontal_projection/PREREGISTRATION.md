@@ -1,0 +1,13 @@
+# Horizontal transport of the extreme puncture kernels
+
+October 13, 2026. Quantifier: the same fixed-area semi-flat total metric, ordinary spin, actual rank-six coefficient and two extreme puncture conditions as vertical_cusp_gap. Keep the supplied based move lifts, both overall cusp spin-lift signs, and an already admitted fixed cusp-line parameter n. No new action, metric or physical field is introduced.
+
+Prior: positive bounded horizontal coupling, not exact decoupling. The three cylinder profiles should yield the leading projected connection i gamma dx/(4y), gamma=+1 or -1 for vertical chirality, matching the already stated Hodge factors. The actual inverse-move cusp phases should exclude integer frequency in this projected block. Expected remaining obligation: the full complementary total block, not merely its vertical part, and the total index/physical parent.
+
+Use orthonormal spin components and fibre L2 normalization. Write r=u+xv, s=yv, z=r+is and zeta=exp(2 pi i z). The normalized cylinder profile is f/N, f=zeta^(1/4)/(zeta-1)^(1/2). In area-A fibre units the components are sqrt(y/A) f/N. Keep c1,c2 horizontal and GammaV=i c3 c4; c1 c3 c4=-i GammaV c1. The cusp deck map is (x+1,y,u-v,v); its EXISTING based lift is the inverse of a->a,b->ab. Thus section equivariance uses T^-1, not an unpriced based lift inferred only from a torus matrix.
+
+PASS requires the coordinate/density chain rule, exact profile Cauchy--Riemann and integration-by-parts identities, the mixed-spin contribution and resulting quarter coefficient, actual inverse-move intertwining and full three-dimensional cusp spectra, the Fourier squared-operator potential bound, and nontrivial controls. Demonstrate explicitly that the limiting complementary profile is L2, nonzero, and NOT in the vertical Dirac domain. A growing-gap rotating-projector comparator must reject the inference that a gap alone bounds horizontal differentiation.
+
+The authored proof must connect actual finite fibres to the cylinder profiles with exponential quasimode errors and a fixed-domain neck deformation, rather than assuming derivative convergence. Distinguish a bounded off-diagonal total coupling from invariance of the vertical graph domain. Only the projected harmonic block's cusp confinement is claimed; no full complement invertibility or total index follows by substituting the vertical inverse into a Schur formula.
+
+Seal and push all sources before import or collection; preserve first outputs and failures and compare dependency hashes. Finite safeguards do not certify the functional analysis. No intermediate-Lambda census, physical generation count, selected unit, bank number, canonical promotion or complete theory is claimed.
