@@ -1,5 +1,23 @@
 # Changelog
 
+## The weave's W59: the one-loop potential on the shared fibre (D1); relay section 70
+
+- **W59** (the owner's "D1 first"; the rule 311f0cd96 first; the script 39c6a5125 before its one run; K1, K2, K3 and
+  K5 as predicted, K4 failed as worded):
+  - the twisted determinant confirmed by a second route (10⁻¹⁵); the matter's (y|η|⁴)^{−1/4} stands as derived
+    (genus 3, ζ_Σ(0) = −3/2 = −1 − p);
+  - log(y|η|⁴) and E(τ, 3) stationary only at i (saddle) and ω; the parities' bosons give +(15/16) E; so τ is ω, the
+    cusp or flat in every closed-form sector;
+  - at ω a charged boson's Wilson line goes to the colour centre's 3-torsion points; at a generic τ to a 2-torsion
+    point; fermions to none; only Q, u^c and d^c see a 3-torsion line;
+  - **post hoc (labelled):** the 2-torsion points at ω are shallow local minima, not saddles (the failed fine-structure
+    prediction), from N = 48 to 240; a read-out's bug corrected: the Higgs alone would split d^c from e^c (ninths
+    against thirds).
+- **So:** τ is not free given the content's sign; the line's selection needs the matter's sector with a line (the
+  genus-3 theta function). 0 of 19.
+- **Relay §70** to main. **Surfaces.** The rule, the script, its JSON and its post hoc, the dossier (W59, a row, the
+  header, the files), the W59 test, the state page, the relay and the ledger.
+
 ## The owner's ruling "D1 first"; Reading: the one-loop potential on the shared fibre; relay section 69
 
 - **The owner's ruling (2026-10-13):** "D1 first". No end condition is added for the Higgs, and C0's fork waits.

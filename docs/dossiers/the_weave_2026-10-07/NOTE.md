@@ -106,6 +106,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   two-dimensional one-loop determinant is a power of y|η|⁴ or a parity theta constant (the matter's through the genus-3
   cover and Kokotov's formula), so τ sits at ω, runs to the cusp, or is flat. A hypercharge Wilson line splits d from
   e at a symmetric point only on a 3-torsion line (the colour centre's), and those lines are symmetric only at ω.
+- W59 (D1; rule first; K4 failed as worded and was checked post hoc): every closed-form sector's τ-dependence is
+  log(y|η|⁴) or E(τ, 3), stationary only at i and ω, so τ is ω, the cusp or flat. At ω a charged boson's line goes
+  to the 3-torsion points, but only coloured fields see them. The Higgs alone would split d^c from e^c (ninths
+  against thirds). The matter's line-dependence (the genus-3 theta function) is next.
 
 ## The setting
 
@@ -4503,6 +4507,95 @@ needs.
 formulas, Jacobi's identities, and Kokotov's determinant formula with its tau function's weight. Nothing is computed by
 a script. 0 of 19.
 
+## W59. The one-loop potential on the shared fibre (D1): τ goes to ω or the cusp in every closed-form sector; at ω a charged boson's line goes to the colour centre's 3-torsion points, which only coloured fields can see (`the_one_loop_potential_on_the_fibre.py`; `W59_RULE.md`; post hoc `the_one_loop_potential_on_the_fibre_posthoc.py`)
+
+**Why.**
+- The owner ruled "D1 first" (2026-10-13), after C0.
+- The design reading ("Reading: the one-loop potential on the shared fibre") marked its claims exact or derived.
+  This arc computes what has closed forms now.
+- The matter's sector with a Wilson line, and its six-dimensional term, are named as open and not guessed.
+
+**The order.**
+- **The rule first** (`W59_RULE.md`, 311f0cd96). What the seat had worked by hand before writing it is listed there.
+- **The script.** Committed before its one run (39c6a5125). The pre-run review made line wraps only.
+- **The run.** One run; its output committed unread (3c4a98399).
+- **A labelled post hoc** script, committed before its own run, checks K4 against the truncation and corrects one
+  read-out.
+
+**The read-out (COMPUTED; K1, K2, K3 and K5 as predicted; K4 failed as worded).**
+- **K1, the twisted determinant (as predicted).** The Chowla–Selberg route and the theta route agree to 1.1 × 10⁻¹⁵ at
+  eight samples. So det Δ_w = |θ₁(w | τ)/η(τ)|² e^{−2π(Im w)²/y}, the seat's hand derivation. The three parity sectors
+  multiply to 4 to 9 × 10⁻¹⁵ at five τ.
+- **K2, the matter determinant's checkable steps (as predicted).**
+  - The quaternion cover has genus 3, counted both over E and over ℙ¹.
+  - w⁴ = cubic has exactly the differentials dx/w², dx/w³ and x dx/w³.
+  - ζ_Σ(0) = −3/2 = −1 − p.
+  - y^{1/2}|η|² and (y|η|⁴)^{−1/4} are invariant under S and T to 6 × 10⁻¹⁶.
+  - The matter's two-dimensional determinant (y|η|⁴)^{−1/4} therefore stands as derived, not computed.
+- **K3, τ (as predicted).** In the fundamental domain up to y = 6:
+  - log(y|η|⁴) is stationary only at i (a saddle) and ω (its maximum);
+  - E(τ, 3) is stationary only at i (a saddle) and ω (its minimum), and grows toward the cusp: 130, 440 and 1042 at
+    y = 4, 6 and 8;
+  - the direct lattice sum checks the Chowla–Selberg E(τ, 3) to 9 × 10⁻¹²;
+  - the joint parity sum is −(15/16) E(τ, 3) to 6 × 10⁻¹⁴.
+- **K4, the line, for a joint-parity charged boson (failed as worded).** The global extrema went as predicted; the fine
+  structure did not.
+  - **At τ₀** exactly the four 2-torsion points, with the minimum at (½, ½), as predicted.
+  - **At τ₁** six points. The global minimum is at (½, ½), but (½, 0) is a shallow local minimum (Hessian eigenvalues
+    0.63 and 284), with two saddles beside it at (0.4998, 0.0281) and its mirror.
+  - **At ω** twelve points.
+    - The maximum is at 0, and the global minimum is at both 3-torsion points, equal at −1.7255, as predicted.
+    - But the three nonzero 2-torsion points are local minima (−1.5530), not saddles, with six saddles between them
+      (−1.5496).
+  - **For a fermion** the minimum is at 0 in all three cases, as predicted.
+- **K5, who sees which line (as predicted).** At all eight nonzero 3-torsion lines exactly Q, u^c and d^c are twisted.
+  At all three 2-torsion lines exactly Q, L and H are. The colourless fields' sums at a 3-torsion line equal their sums
+  at 0 exactly.
+- **A read-out with a bug.** The Higgs's lines were computed for every local minimum, so the lines derived from the
+  2-torsion minima are wrong (ninths where sixths belong). Those from the two 3-torsion minima are right. Corrected in
+  PH2.
+
+**Post hoc (labelled; written after the read-out; W59's JSON unchanged).**
+- **PH1, the fine structure is not the truncation.**
+  - From N = 48 to 240, the Hessian at the 2-torsion points stays positive: at ω 2.60 → 2.61 (with 160), at τ₁ 0.624 →
+    0.637 (with 284).
+  - At N = 96 the stationary set at ω is the same twelve points.
+  - At τ₁ the post hoc's coarser grid missed the shallow minimum at (½, 0) itself but found its two saddles.
+  - So the seat's hand estimate was wrong. Its leading shell left a zero in the Hessian at the 2-torsion points, and
+    the next shells decide.
+- **PH2, the Higgs alone at ω, corrected.**
+  - The Higgs's global minima put 3w at a 3-torsion point, so w lies on one of eighteen lines: (1/9, 1/9) or
+    (2/9, 2/9), plus ⅓ℤ².
+  - On every one, d^c and e^c see different twists. At w = (1/9, 1/9) the twists are Q 1/9, u^c 5/9, d^c 2/9, L 2/3,
+    e^c 2/3 and H 1/3 (each component): the quarks in ninths, the leptons in thirds.
+
+**What it shows (a READING on the computed facts and the labelled post hoc; given Λ, GENESIS FK11).**
+- **τ is ω, the cusp, or flat, in every sector with a closed form, in two dimensions and in six.**
+  - Every such sector's τ-dependence is a multiple of log(y|η|⁴) or of E(τ, 3). Both are stationary only at i (a
+    saddle) and ω.
+  - The parity sectors' bosons give +(15/16) E, as twisted fields do; untwisted bosons give −E.
+  - So for a content that treats the parities alike, τ sits at ω when the net coefficient of E is positive, and runs
+    to the cusp when it is negative. The sign is the content's, a dictionary datum.
+  - The matter's two-dimensional term is of the same kind (derived). Its six-dimensional term is open.
+  - No sector selects a generic τ such as W58's 1.0685 i.
+- **The line.**
+  - At ω, charged bosons in the parity sectors go to the 3-torsion lines. At a generic τ they go to a 2-torsion line,
+    which cannot split d from e (K5). Fermions go to no line.
+  - The colour centre's 3-torsion line is invisible to every colourless field (K5). So only coloured fields can select
+    it, and they sit in the matter's sector ρ_Q, whose determinant with a line is not computed here.
+- **A discrete d–e split appears, if the Higgs's term dominates.** The Higgs alone (charge 3, a boson carrying a parity,
+  as C0 requires) goes to lines where the quarks see ninths and the leptons thirds, so d^c and e^c differ (PH2).
+  Nothing here shows that the Higgs's term dominates.
+- **The tension stays.** At ω the couplings W50 computed are degenerate. The state the potential prefers is the state
+  where the couplings, as computed so far, give no hierarchy.
+- **What decides next.** The matter's sector with a line: the genus-3 cover's theta function through Fay's formula
+  (W60). Then the couplings at that state need C0's fork. 0 of 19.
+
+**Status.** COMPUTED (the rule first, with what was worked by hand disclosed; one run; K1, K2, K3 and K5 as predicted;
+K4 failed as worded, with the global extrema as predicted and the fine structure checked against the truncation in a
+labelled post hoc; one read-out's bug corrected post hoc). A WEAVE result on the ruled branch, given Λ, sector by
+sector, with the content a dictionary datum. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -4673,6 +4766,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W56 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | the Higgs carrying the generation index. Like a generation (T at 3/2) it has no coupling: the multiplier's parity, ρ_T(S)² = i. In the dual triplet it has 8 coupling forms at 9/2. At the geometry's weight (H_u, H_d) = (D, D) and (B, D) fit exactly with P = 55 and 39; (D, B) fails at χ² = 27.7 on d and e; all have rank 13, so none predicts. In F-MC's E₆ cubic the down-type and charged-lepton spectra are equal (c = 1, to 10⁻¹³) for any Higgs content in 27s; only content beyond the 27 splits them. W55's scope remark corrected |
 | W57 | COMPUTED (the rule first; one run; T4 as predicted; T1–T3 failed as worded, explained post hoc); a WEAVE result given Λ | is the world a typical draw from the seed's own measure (W56's placements, τ hyperbolic, the invariant Gaussian on the allowed couplings), against anarchy? No draw of either model came within 32σ of the data in all ten numbers; at 64σ both accept 40% (R = 1.04, p = 0.18); the second-generation ratios are atypical (p 0.0015 to 0.004); anarchy fails the up hierarchy (2 × 10⁻⁶). Post hoc: the data's nearest draw at 36.5σ against a typical 2σ (p_nn = 0.005); no draw within a factor 10 in all six mass ratios; three deep hierarchies in 25% of (B, B) and none of anarchy. Not a typical draw; the seed supplies the first step of hierarchy |
 | W58 | COMPUTED (the rule first, what was seen disclosed; one run; five cells as predicted, K4 and K7 failed as worded, traced post hoc); an outside claim checked, K1–K2 on the weave's T | the level-four preprint (arXiv:2609.09262): its triplet is the record's T up to η³'s multiplier (k = 3 and 15 untwist ρ_T to S₄'s 3 and 3′); its generations are T's eigenlines, one a parity line (θ₂²'s) and two mixtures, so not the record's alike three; its selection theorem holds (N = 4 only; c = 2 the character shift); 39 of 41 printed numbers reproduce (the other two its own inputs and rounding); 2/ε = 10.714 at −1.2σ from the double-ratio target; Table XIV reproduces, the anchor's own box covers 24% at 0.02%, the four landings' joint chance 16%; post hoc, the anchor's honest precision 0.145%, not 0.02% (it holds only with ε fixed at 14/75). Not a derivation |
+| W59 | COMPUTED (the rule first, what was worked by hand disclosed; one run; K1, K2, K3, K5 as predicted; K4 failed as worded, checked post hoc); a WEAVE result given Λ, sector by sector | D1, the one-loop potential on the fibre: the twisted determinant \|θ₁(w)/η\|² e^{−2π(Im w)²/y} confirmed by a second route (10⁻¹⁵); the matter's (y\|η\|⁴)^{−1/4} stands as derived (genus 3, ζ_Σ(0) = −3/2 = −1 − p); log(y\|η\|⁴) and E(τ, 3) stationary only at i (saddle) and ω, the joint parity sum −(15/16)E; so τ is ω, the cusp or flat. The line: at ω a joint-parity boson's global minimum is at the 3-torsion lines (the 2-torsion points shallow local minima, not saddles, a failed fine-structure prediction), at a generic τ at a 2-torsion line; fermions at none; only Q, u^c, d^c see a 3-torsion line. The Higgs alone would split d^c from e^c (ninths against thirds). The matter's line-dependence open |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -4720,6 +4814,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W56_RULE.md`: the rule, committed before the code; `the_higgs_and_the_generation_index.py` → `the_higgs_and_the_generation_index.json`: W56, the E₆ identity from the trinification cubic on 200 cases with its control, the coupling forms of the two generation-type placements by weight, the census of the Higgs placements at the geometry's weight, and their ranks.
 - `W57_RULE.md`: the rule, committed with the second-scale data before the code; `the_field_of_maximality.py` → `the_field_of_maximality.json`: W57, the seed's measure against anarchy on 10⁶ draws each, the ladder, the pseudo-data, the marginals, the read-outs; `the_field_of_maximality_posthoc.py` → `the_field_of_maximality_posthoc.json`: W57 post hoc (labelled), nearest-neighbour typicality and the shares.
 - `W58_RULE.md`: the rule, committed with the transcribed claims (`received/B2026_level_four_claims.json`) before the code; `the_level_four_preprint_checked.py` → `the_level_four_preprint_checked.json`: W58, the preprint's triplet against T, its generation lines, its selection theorem, its numbers, the look-elsewhere, the record's own data; `the_level_four_preprint_checked_posthoc.py` → `the_level_four_preprint_checked_posthoc.json`: W58 post hoc (labelled), K4's two misses and the anchor's precision.
+- `W59_RULE.md`: the rule, committed before the code; `the_one_loop_potential_on_the_fibre.py` → `the_one_loop_potential_on_the_fibre.json`: W59 (D1), the twisted determinant by two routes, the matter determinant's checkable steps, τ's stationary points, the line's for the abelian sectors, the charges' twists; `the_one_loop_potential_on_the_fibre_posthoc.py` → `the_one_loop_potential_on_the_fibre_posthoc.json`: W59 post hoc (labelled), the truncation and the corrected Higgs read-out.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

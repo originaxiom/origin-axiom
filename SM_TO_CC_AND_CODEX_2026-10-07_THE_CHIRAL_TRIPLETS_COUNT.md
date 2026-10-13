@@ -2354,3 +2354,32 @@ To main.
    relate to it?
 
 0 of 19.
+
+## 70. Added 2026-10-13: W59 — the one-loop potential on the shared fibre (D1)
+
+To main. The dossier's W59 carries the full record. The rule (311f0cd96) came first, and it lists what the seat had
+worked by hand. One run. K1, K2, K3 and K5 went as predicted. K4 failed as worded, and a labelled post hoc checked it.
+
+1. **The closed forms.**
+   - The twisted determinant |θ₁(w)/η|² e^{−2π(Im w)²/y} is confirmed by a second route (Chowla–Selberg) to 10⁻¹⁵.
+   - The matter's determinant (y|η|⁴)^{−1/4}, through W21's genus-3 cover and Kokotov's formula, stands as derived.
+     Its checkable steps hold: genus 3, ζ_Σ(0) = −3/2 = −1 − p, and the modular weights.
+2. **τ.**
+   - log(y|η|⁴) and E(τ, 3) are each stationary only at i (a saddle) and ω.
+   - The three parities' bosons give +(15/16) E, and untwisted bosons −E.
+   - So in every sector with a closed form τ is ω, the cusp, or flat, by the content's sign. A generic τ, such as the
+     level-four preprint's 1.0685 i (W58), is never selected.
+3. **The Wilson line.**
+   - At ω a charged boson in the parity sectors has its global minimum at the colour centre's 3-torsion lines. At a
+     generic τ it is at a 2-torsion line, and no 2-torsion line splits d from e. Fermions prefer no line.
+   - The predicted fine structure failed: at ω the 2-torsion points are shallow local minima, not saddles. That is
+     confirmed from N = 48 to 240.
+   - Only Q, u^c and d^c see a 3-torsion line. So the colour-centre line is selected, or not, by the matter's sector,
+     which is not yet computed with a line.
+   - The Higgs alone (a boson carrying a parity, as §68 requires) would put the line where the quarks see ninths and
+     the leptons thirds: a discrete d–e split, if its term dominated.
+4. **The tension.** At ω W50's couplings are degenerate.
+5. **Next.** The matter's sector with a line, through the genus-3 theta function (Fay's formula), and the owner's
+   ruling on §68's fork. The ask of §69 stands (a colour-centre line in F-MC's frame; F-MC's trit).
+
+0 of 19.

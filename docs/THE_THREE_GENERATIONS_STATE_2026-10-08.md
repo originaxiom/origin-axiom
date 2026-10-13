@@ -371,6 +371,16 @@ Under the owner's rulings, the table's rows split into two groups:
   - A hypercharge Wilson line splits d from e at a symmetric point only on a 3-torsion line (the colour centre's), and
     those lines are symmetric only at ω.
   - W59 computes these with the rule first.
+- **W59, the one-loop potential on the shared fibre (D1; rule first; K4 failed as worded and was checked post hoc):**
+  - Every sector with a closed form has a τ-dependence that is a multiple of log(y|η|⁴) or E(τ, 3). Both are
+    stationary only at i (a saddle) and ω. So τ is ω, the cusp, or flat, by the content's sign. A generic τ is never
+    selected.
+  - At ω a charged boson in the parity sectors sends the Wilson line to the colour centre's 3-torsion points. At a
+    generic τ it sends it to a 2-torsion point, which cannot split d from e.
+  - Only coloured fields see the 3-torsion line, and their sector (the matter's) is not computed with a line yet.
+  - The Higgs alone would split d^c from e^c: the quarks see ninths, the leptons thirds.
+  - The predicted fine structure failed: at ω the 2-torsion points are shallow local minima, not saddles. The post hoc
+    confirmed this against the truncation. 0 of 19.
 
 ## Questions open with main
 
@@ -386,7 +396,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W58 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W59 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§69).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§70).

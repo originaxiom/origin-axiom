@@ -18628,3 +18628,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The design reading** finds that the potential's dependence on τ is built from one function, y|η|⁴, in every sector,
   so it can only pick ω or the cusp, or stay flat. A Wilson line can split the down quarks from the charged leptons at
   a symmetric state only through the colour centre, at ω. W59 computes it next, rule first.
+
+## 2026-10-13 — W59: the one-loop potential on the shared fibre; relay §70
+
+- **W59 ran once, after its rule.** In every sector with a closed form, the potential's dependence on τ allows only ω
+  or the cusp: never a generic shape. At ω a charged boson prefers the Wilson line of the colour centre, which only the
+  quarks see. Whether the quarks themselves prefer it is the next computation. One prediction about the potential's
+  fine structure failed and is recorded as failed.

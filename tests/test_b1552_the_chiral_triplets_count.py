@@ -1412,6 +1412,40 @@ def test_w58_the_level_four_preprint_checked():
     assert levels == [4] and math.isclose(2 / (14 / 75), 10.714285714285714)
 
 
+
+def test_w59_the_one_loop_potential_on_the_fibre():
+    """W59 (D1; the owner's ruling "D1 first"; the rule first; one run; K1, K2, K3, K5 as predicted, K4 failed as worded
+    and checked post hoc): tau is omega, the cusp or flat in every closed-form sector; at omega a joint-parity boson's
+    line goes to the 3-torsion points, which only coloured fields see"""
+    import sys
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_one_loop_potential_on_the_fibre.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K1": True, "K2": True, "K3": True, "K4": False, "K5": True}
+    assert d["K1"]["the largest difference"] < 1e-12
+    assert d["K2"]["zeta_Sigma(0) from the cone coefficients"] == "-3/2"
+    k3 = d["K3"]
+    assert k3["(a) log(y|eta|^4)"]["rho"]["type"] == "maximum" and k3["(b) E(tau, 3)"]["rho"]["type"] == "minimum"
+    assert all(abs(r["joint / E(tau, 3)"] + 15 / 16) < 1e-12 for r in k3["(c) the joint parity sum against E(tau, 3)"])
+    om = d["K4"]["omega, boson"]
+    mins = sorted((p["value"], tuple(p["psi"])) for p in om if p["type"] == "minimum")
+    assert len(om) == 12 and abs(mins[0][0] - mins[1][0]) < 1e-9 and mins[2][0] - mins[0][0] > 0.1
+    assert {tuple(round(x, 6) for x in m[1]) for m in mins[:2]} == {(0.333333, 0.333333), (0.666667, 0.666667)}
+    assert all(v == ["Q", "d^c", "u^c"] for v in d["K5"]["twisted at each nonzero 3-torsion line"].values())
+    ph = json.loads((here / "the_one_loop_potential_on_the_fibre_posthoc.json").read_text(encoding="utf-8"))
+    for N in ("48", "240"):
+        assert min(ph["PH1"]["omega"]["at the symmetric points, by truncation N"][N]["(1/2, 0)"]
+                   ["Hessian eigenvalues"]) > 2
+    assert ph["PH2"]["d^c and e^c differ on every line"] is True
+    # in process: the twisted determinant by both routes at one point, and the joint parity identity at s = 3
+    sys.path.insert(0, str(here))
+    import the_one_loop_potential_on_the_fibre as OP
+    t = 0.21 + 1.05j
+    assert abs(OP.logdet_cs(t, 0.3, 0.7) - OP.logdet_theta(t, 0.3, 0.7)) < 1e-12
+    m, n, w = OP.lattice(t, 200)
+    joint = float(sum(OP.np.sum(OP.np.cos(2 * OP.np.pi * (m * u + n * v)) * w) for u, v in OP.PARITIES))
+    assert abs(joint / OP.E3(t) + 15 / 16) < 1e-8
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
