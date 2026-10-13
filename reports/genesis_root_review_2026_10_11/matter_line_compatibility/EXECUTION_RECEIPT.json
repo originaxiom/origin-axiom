@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-13",
+  "pre_execution_commit": "9ecb554b0cee5416f62dbbe7e783acba01ec5e0e",
+  "server_seal_confirmed_before_run": true,
+  "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -u reports/genesis_root_review_2026_10_11/matter_line_compatibility/verify.py",
+  "runtime": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "exit_code": 0,
+  "declared_predicates": 60,
+  "observed_predicates": 60,
+  "all_true": true,
+  "stdout": {
+    "path": "NATIVE_FIRST.json",
+    "sha256": "7e06ae20c4d8fe8702379d60a5cbfe745433dad58c38912bd484c0f8da4ecc28"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "exit_file": {
+    "content": "0\n",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  "source_manifest": "ARTIFACT_HASHES.txt",
+  "source_unchanged": true,
+  "correction_or_scientific_rerun": false,
+  "preseal_governance": {
+    "pass": 25,
+    "fail": 5,
+    "exit_code": 1,
+    "log_sha256": "0db6109b41e34243d332e2d64189608256234d5c06ea47740975c98f2be4cfe0",
+    "failed_categories": [
+      "attribution",
+      "path-refs",
+      "test-vacuity",
+      "seal-provenance",
+      "relay-debt"
+    ],
+    "prior_process_handle": "unavailable; terminal result unknown"
+  },
+  "independent_analytic_acceptance": false,
+  "full_suite_green": false,
+  "nonzero_flux_selected": false,
+  "physical_domain_certified": false
+}
