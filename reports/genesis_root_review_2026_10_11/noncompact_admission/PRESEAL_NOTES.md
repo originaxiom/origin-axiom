@@ -1,0 +1,9 @@
+# Pre execution scope and governance
+
+October 13, 2026. Honest prior: the coefficient span and nonsplitting checks are expected to pass, and the positive end sign is expected to satisfy the stated stability application. A failed finite predicate will be preserved and investigated without turning it into a framework-wide negative. No scientific execution occurred before this note.
+
+The atlas card for `harmonic metric analytic stability cusp` was read; its 1161-probe epoch does not cover the current end work. LAW_MAP, OPEN_LEADS, THE_LADDER and THE_CAMPAIGN were searched for harmonic metric, analytic stability, noncompact harmonic and flag current. The OPEN_LEADS hit was R26's index stability under perturbations, not analytic stability of a flat bundle. Its neighboring source/end and quantum obligations were read and preserved. The kill-graph hit concerns the older E6 nilpotent-centralizer route, not this rank-five end metric; it supplies no exclusion here.
+
+The actual prior joined-background proof was read to its end: it uses a closed glued carrier with a full Mat5 coefficient. This proof instead keeps the nonsplit invariant V on a complete cusp and pays its analytic degree through the end current. The compact Dirichlet and compact gluing kinetic proofs, and the incoming end producers, are direct antecedents. No novelty or all-history absence is claimed.
+
+Initial staged governance: 25 pass, five existing failure categories, exit1. No new packet path is named; seal-digests passes. The retained log SHA256 is `88106fd86383cb8c5f96f9deba620ac72c38407e99d7888cf33e5ea8189243ab`. Old attribution, path-reference, vacuity, provenance and stale-relay failures are not waived. This note follows that snapshot. The four scientific files are sealed in ARTIFACT_HASHES and the shared seal ledger; push and server confirmation remain required before execution.

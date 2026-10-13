@@ -859,3 +859,17 @@ has only been syntax-parsed; commit and push before scientific execution.
 | `reports/genesis_root_review_2026_10_11/matter_line_compatibility/PREREGISTRATION.md` | `19d804d58b0127947545fbe53426eda05f644b2800572235d595ff2b2047fd2c` |
 | `reports/genesis_root_review_2026_10_11/matter_line_compatibility/PROOF.md` | `c53b2ecc73191692c6f24448b0d46668776f4a4025b62993b13b06d8f325f39f` |
 | `reports/genesis_root_review_2026_10_11/matter_line_compatibility/verify.py` | `25b8d389f1fb627751e27818ad51bd46d1df361dc3851346908903759791f257` |
+
+## Noncompact flag end admission pre-execution seal 2026-10-13
+
+Authored application of Wu-Zhang to the prescribed complete cusp and
+literal nonsplit coefficient. Finite tests verify the coefficient and
+radial hypotheses, not the global analytic theorem or physical spectrum.
+The new verifier has only been syntax-parsed; push before execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/noncompact_admission/PREREGISTRATION.md` | `875bd8464bb2407bc31ad38020a3abd35bb1994e237149cbecfeaf3d5def834d` |
+| `reports/genesis_root_review_2026_10_11/noncompact_admission/PROOF.md` | `899ecfc306683155d9c396c7f92365c0f4679f4a9498698ae7da973817d0f9a0` |
+| `reports/genesis_root_review_2026_10_11/noncompact_admission/verify.py` | `05b89f025aa62683455956b0b25dd7f848db4fe9e49f433491500ae8c1400b54` |
+| `reports/genesis_root_review_2026_10_11/noncompact_admission/candidate.json` | `6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b` |
