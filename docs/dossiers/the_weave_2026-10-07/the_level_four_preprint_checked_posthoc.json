@@ -1,0 +1,55 @@
+{
+ "status": "W58 post hoc: K4's two misses and the anchor's precision traced (labelled; W58's JSON unchanged)",
+ "PH1": {
+  "m_c from the measured m_t (GeV), printed 0.6239": 0.6239306429434889,
+  "|V_td| = (0.003721 / 0.08865)^(3/2), printed 0.008599": 0.008599464245194737,
+  "both reproduce to the printed digits": true
+ },
+ "PH2": {
+  "the preprint's Table I": {
+   "eps from the data": 0.18664263553388905,
+   "T (eps from the data)": -0.0005312513168092003,
+   "T (eps = 14/75)": -1.3534099406076194e-05,
+   "d T / d ln m (e, mu, tau)": {
+    "e": 2.6807674586848407,
+    "mu": -6.3615349190637716,
+    "tau": 3.680767459268708
+   },
+   "the data ratio's relative error (K7's sigma)": 0.00026443897822956547,
+   "the propagated relative error of T": 0.001451541119831341,
+   "pull at K7's sigma (eps from the data)": -2.0089750775999784,
+   "pull at the propagated sigma (eps from the data)": -0.36599122791018696,
+   "pull at K7's sigma (eps = 14/75)": -0.05118042543004737
+  },
+  "the record's data (Huang and Zhou at M_Z)": {
+   "eps from the data": 0.18663485120982778,
+   "T (eps from the data)": -0.0007541238336421507,
+   "T (eps = 14/75)": -6.869339048076739e-05,
+   "d T / d ln m (e, mu, tau)": {
+    "e": 2.68074035236765,
+    "mu": -6.3614807044309885,
+    "tau": 3.680740352507428
+   },
+   "the data ratio's relative error (K7's sigma)": 0.0002780627955665976,
+   "the propagated relative error of T": 0.0029425712762834993,
+   "pull at K7's sigma (eps from the data)": -2.712063050741838,
+   "pull at the propagated sigma (eps from the data)": -0.2562805664964614,
+   "pull at K7's sigma (eps = 14/75)": -0.24704272407530672
+  }
+ },
+ "PH3: the anchor's coverage at its propagated precision (Table I)": {
+  "sigma": 0.001451541119831341,
+  "declared": {
+   "coverage": 0.01741849343797522,
+   "hits": 0
+  },
+  "form-value": {
+   "coverage": 0.43186117264706736,
+   "hits": 1
+  },
+  "the anchor's box": {
+   "coverage": 0.910189245685827,
+   "hits": 2
+  }
+ }
+}
