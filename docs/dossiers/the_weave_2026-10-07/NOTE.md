@@ -114,6 +114,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   colour-centre line; post hoc, the full potential puts the line on a half-period, where the matter sees nothing
   (no d–e split) and one parity copy of the Higgs becomes untwisted: a normalizable massless Higgs carrying a
   parity, which C0 lacked, chosen one of three.
+- W61 (the owner's "W61: the couplings"; rule first; every cell as predicted): at that state the Yukawas vanish in
+  the T ⊗ T reading (±ε(F, F) = 0) and are three equal masses with no mixing in the T̄ ⊗ T reading, the same for
+  up, down and lepton. The state supplies the Higgs, not flavour: the multiplicity (W49) again.
 
 ## The setting
 
@@ -4691,6 +4694,54 @@ dictionary datum).**
 point, re-scored post hoc; the net term's minimum found in a labelled post hoc, after one failed launch fixed). A WEAVE
 result on the ruled branch, given Λ, at τ = ω, with the content a dictionary datum. 0 of 19.
 
+## W61. The couplings at the selected state: zero in the T ⊗ T reading, three degenerate generations in the T̄ ⊗ T reading (`the_couplings_at_the_selected_state.py`; `W61_RULE.md`)
+
+**Why.**
+- The owner chose "W61: the couplings" (2026-10-13), after W60.
+- W60's post hoc found the state the full potential selects: τ = ω, a half-period hypercharge line w, and the Higgs copy
+  p* = 3w with a trivial local system, so with a normalizable massless mode.
+- This arc computes the Yukawa couplings there, as overlaps of the zero modes, in both readings of the mass term.
+
+**The order.**
+- **The rule first** (`W61_RULE.md`, 95c294b53). It disclosed the hand derivation behind its predictions.
+- **The script.** Committed before its one run (ee19e5824), with no pre-run changes.
+- **The run.** One run; its output committed unread.
+
+**The read-out (COMPUTED; every cell as predicted).**
+- **Q1, the algebra (as predicted).** These use the record's ρ_Q and C_c (W21's second route), over all pairs of blocks
+  and all three Higgs channels.
+  - A coupling is single-valued exactly when c₁ + c₂ = p*, in both readings.
+  - When it is, the T ⊗ T form is antisymmetric and the T̄ ⊗ T form is ±I.
+  - The invariant form is ε, and the blocks' characters are as labelled.
+- **Q2, the sectors (as predicted).** At each of the three half-period lines:
+  - **T ⊗ T:** every Yukawa matrix vanishes (largest |Y| 9 × 10⁻¹⁶).
+  - **T̄ ⊗ T:** every Yukawa matrix is diagonal with signs: diag(±1, ±1, ±1) times N(ω)/2 = 1.358.
+  - The matrices are the same for up, down and lepton. So the three generations are degenerate in every sector, the
+    mixing is the identity, and d and e are identical.
+- **Q3, the numbers at ω (as predicted).**
+  - W21's equivariance holds at ω for the numerator θ₃ alone.
+  - N(ω) = 2.7152, the same with 96 and 48 points to 5 × 10⁻¹⁵.
+  - The T ⊗ T integrand is 0 to 4 × 10⁻¹⁶ of |f⃗|² at 50 points.
+
+**What it shows (a READING; given Λ, GENESIS FK11; at the state W60's labelled post hoc found).**
+- **The state the potential selects gives the zero modes no tree-level masses that tell the generations apart.**
+  - In the record's T ⊗ T reading the selected Higgs does not couple to them at all. Each generation's zero mode is
+    the one form F times a constant unit (W49's T = ℓ ⊗ M), and the units multiply to ±1, so every coupling is
+    ±ε(F, F) = 0.
+  - In the T̄ ⊗ T reading the couplings are the L² pairing: three equal masses, no mixing.
+- **This is the multiplicity (W49) again, now with a state and a Higgs in place.** Any coupling built from the local
+  system, the surface and a Higgs whose effective local system is trivial is a scalar on M (W49's reading).
+  - W60's state supplies the Higgs. It cannot supply flavour.
+- **What the hierarchy needs.** A datum that acts on M differently for the three units:
+  - a flavour line in Aut(𝕎) = U(3) (C0, point 4; allowed, not forced);
+  - or a Higgs whose effective local system stays non-trivial, which has no normalizable mode (C0, point 3);
+  - or a state away from the one selected (τ ≠ ω, where W50's couplings in τ alone break the parity grading).
+  - None of these is selected by anything computed so far.
+- **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19.
+
+**Status.** COMPUTED (the rule first, the hand derivation disclosed; one run; every cell as predicted). A WEAVE result
+given Λ, at τ = ω on a half-period line, in both readings of the mass term. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -4863,6 +4914,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W58 | COMPUTED (the rule first, what was seen disclosed; one run; five cells as predicted, K4 and K7 failed as worded, traced post hoc); an outside claim checked, K1–K2 on the weave's T | the level-four preprint (arXiv:2609.09262): its triplet is the record's T up to η³'s multiplier (k = 3 and 15 untwist ρ_T to S₄'s 3 and 3′); its generations are T's eigenlines, one a parity line (θ₂²'s) and two mixtures, so not the record's alike three; its selection theorem holds (N = 4 only; c = 2 the character shift); 39 of 41 printed numbers reproduce (the other two its own inputs and rounding); 2/ε = 10.714 at −1.2σ from the double-ratio target; Table XIV reproduces, the anchor's own box covers 24% at 0.02%, the four landings' joint chance 16%; post hoc, the anchor's honest precision 0.145%, not 0.02% (it holds only with ε fixed at 14/75). Not a derivation |
 | W59 | COMPUTED (the rule first, what was worked by hand disclosed; one run; K1, K2, K3, K5 as predicted; K4 failed as worded, checked post hoc); a WEAVE result given Λ, sector by sector | D1, the one-loop potential on the fibre: the twisted determinant \|θ₁(w)/η\|² e^{−2π(Im w)²/y} confirmed by a second route (10⁻¹⁵); the matter's (y\|η\|⁴)^{−1/4} stands as derived (genus 3, ζ_Σ(0) = −3/2 = −1 − p); log(y\|η\|⁴) and E(τ, 3) stationary only at i (saddle) and ω, the joint parity sum −(15/16)E; so τ is ω, the cusp or flat. The line: at ω a joint-parity boson's global minimum is at the 3-torsion lines (the 2-torsion points shallow local minima, not saddles, a failed fine-structure prediction), at a generic τ at a 2-torsion line; fermions at none; only Q, u^c, d^c see a 3-torsion line. The Higgs alone would split d^c from e^c (ninths against thirds). The matter's line-dependence open |
 | W60 | COMPUTED (the rule first; one run; P2–P4 as predicted; P1 failed as worded, a 0/0, re-scored post hoc); a WEAVE result given Λ at τ = ω | the quark sector ρ_Q ⊗ L_φ on a triangular lattice with the half flux in one plaquette, checked against the exact abelian values (10⁻¹⁰ in log det, 10⁻⁴ in V₆): the matter's potential has period ½ and enters only through doubled windings; as fermions the quarks resist the colour-centre line (highest at (⅙, ⅙) ≡ (⅓, ⅓)). Post hoc, the net term over every line, with a Higgs in the parity sectors, is lowest on the half-period lines (−147.6), where the matter sees nothing (no d–e split) and one parity copy of the Higgs is untwisted: a normalizable massless Higgs carrying a parity, which C0 lacked |
+| W61 | COMPUTED (the rule first, the hand derivation disclosed; one run; every cell as predicted); a WEAVE result given Λ at W60's state | the Yukawa couplings at τ = ω on a half-period line with the untwisted Higgs copy: each generation's zero mode is F times a unit and the units multiply to ±1, so in the T ⊗ T reading every coupling is ±ε(F, F) = 0, and in the T̄ ⊗ T reading every Yukawa matrix is diag(±1) × N(ω)/2, the same for up, down and lepton: three degenerate generations, no mixing, d = e. The state supplies the Higgs, not flavour |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -4912,6 +4964,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W58_RULE.md`: the rule, committed with the transcribed claims (`received/B2026_level_four_claims.json`) before the code; `the_level_four_preprint_checked.py` → `the_level_four_preprint_checked.json`: W58, the preprint's triplet against T, its generation lines, its selection theorem, its numbers, the look-elsewhere, the record's own data; `the_level_four_preprint_checked_posthoc.py` → `the_level_four_preprint_checked_posthoc.json`: W58 post hoc (labelled), K4's two misses and the anchor's precision.
 - `W59_RULE.md`: the rule, committed before the code; `the_one_loop_potential_on_the_fibre.py` → `the_one_loop_potential_on_the_fibre.json`: W59 (D1), the twisted determinant by two routes, the matter determinant's checkable steps, τ's stationary points, the line's for the abelian sectors, the charges' twists; `the_one_loop_potential_on_the_fibre_posthoc.py` → `the_one_loop_potential_on_the_fibre_posthoc.json`: W59 post hoc (labelled), the truncation and the corrected Higgs read-out.
 - `W60_RULE.md`: the rule, committed before the code; `the_quark_sector_and_the_line.py` → `the_quark_sector_and_the_line.json`: W60, the matter's spectrum with a line on the lattice, the abelian control, the symmetries, the potentials; `the_quark_sector_and_the_line_posthoc.py` → `the_quark_sector_and_the_line_posthoc.json`: W60 post hoc (labelled), P1 re-scored, the fit, the net term's minimum.
+- `W61_RULE.md`: the rule, committed before the code; `the_couplings_at_the_selected_state.py` → `the_couplings_at_the_selected_state.json`: W61, the couplings' algebra over every block pair and channel, the sectors' Yukawa matrices in both readings, the numbers at ω.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

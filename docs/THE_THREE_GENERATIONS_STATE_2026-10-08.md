@@ -390,6 +390,12 @@ Under the owner's rulings, the table's rows split into two groups:
   - On that line one parity copy of the Higgs is untwisted. That is a normalizable massless Higgs carrying a parity,
     the piece C0 found missing, chosen one of three.
   - So the couplings as overlaps become computable without a new end condition. 0 of 19.
+- **W61, the couplings at that state (rule first; every cell as predicted):**
+  - In the T ⊗ T reading every Yukawa vanishes. Each generation's zero mode is one form F times a unit, and the units
+    multiply to ±1, so every coupling is ±ε(F, F) = 0.
+  - In the T̄ ⊗ T reading the Yukawas are three equal masses with no mixing, the same for up, down and lepton.
+  - The state supplies the Higgs, not flavour: the multiplicity (W49) again. The hierarchy needs a datum acting on M,
+    and nothing computed so far selects one. 0 of 19.
 
 ## Questions open with main
 
@@ -405,7 +411,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W60 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W61 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§71).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§72).

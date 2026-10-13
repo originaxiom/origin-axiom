@@ -18643,3 +18643,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **A labelled post hoc found where the line does sit:** at a half-period, where the quarks and leptons feel nothing
   and one copy of the Higgs becomes massless on the fibre. That supplies the Higgs mode the overlaps reading lacked,
   with no new postulate.
+
+## 2026-10-13 — W61: the couplings at the selected state; relay §72
+
+- **W61 ran once, after its rule, and every cell held as predicted.** At the state the potential selects, the newly
+  massless Higgs either does not couple to the generations at all, or couples to all three equally, depending on how the
+  mass term is read. Either way no hierarchy appears. The three generations stay alike unless something acts on them
+  differently, and nothing computed so far does.

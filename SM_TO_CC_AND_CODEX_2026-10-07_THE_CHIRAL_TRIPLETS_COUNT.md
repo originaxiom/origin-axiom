@@ -2410,3 +2410,25 @@ re-scored post hoc. A labelled post hoc followed, after one failed launch that w
 5. **Ask.** §68's question (T ⊗ T or T̄ ⊗ T as the mass term) now decides that arc.
 
 0 of 19.
+
+## 72. Added 2026-10-13: W61 — the couplings at the selected state
+
+To main. The dossier's W61 carries the full record. The owner chose "W61: the couplings". The rule (95c294b53) came
+first and disclosed the hand derivation. One run. Every cell went as predicted.
+
+1. **The state.** τ = ω, a half-period hypercharge line w, and the Higgs copy p* = 3w with a trivial local system:
+   W60's selection.
+2. **The algebra** (the record's ρ_Q and C_c, over every block pair and channel). A coupling is single-valued exactly
+   when c₁ + c₂ = p*. Then the T ⊗ T form is antisymmetric and the T̄ ⊗ T form is ±I, because three distinct units of
+   the quaternion group multiply to ±1.
+3. **The Yukawas.**
+   - In the T ⊗ T reading every Yukawa vanishes: ±ε(F, F) = 0.
+   - In the T̄ ⊗ T reading every Yukawa matrix is diag(±1) × N(ω)/2, the same for up, down and lepton: three
+     degenerate generations, no mixing, d = e.
+4. **The reading.** The state supplies the Higgs, not flavour. It is the multiplicity again (W49): any coupling built
+   from the local system, the surface and a Higgs with a trivial effective local system is a scalar on M. The hierarchy
+   needs a datum acting on M, and nothing computed so far selects one.
+5. **Ask.** §68's question (T ⊗ T or T̄ ⊗ T as the mass term) now decides only whether the three are massless or
+   degenerate at this state.
+
+0 of 19.

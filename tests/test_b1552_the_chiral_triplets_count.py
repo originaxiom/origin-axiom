@@ -1470,6 +1470,32 @@ def test_w60_the_quark_sector_and_the_line():
         assert all(abs(c - round(2 * c) / 2) < 1e-6 for c in v["the global minimum w"])
 
 
+
+def test_w61_the_couplings_at_the_selected_state():
+    """W61 (the owner's "W61: the couplings"; the rule first; one run; every cell as predicted): at W60's state the
+    Yukawas vanish in the T (x) T reading and are three degenerate generations without mixing in the T-bar (x) T one"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_couplings_at_the_selected_state.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"Q1": True, "Q2": True, "Q3": True}
+    for key, v in d["Q2"].items():
+        if key == "holds":
+            continue
+        ys = [r["T-bar x T: Y"] for r in v.values()]
+        assert all(y == ys[0] for y in ys)
+        for r in v.values():
+            assert r["T x T: largest |Y|"] < 1e-12
+            sv = r["T-bar x T: singular values"]
+            assert max(sv) - min(sv) < 1e-12
+    n96, n48 = d["Q3"]["N(omega) with 96 and 48 points"]
+    assert abs(n96 / n48 - 1) < 1e-10
+    # in process: three distinct units of the quaternion group multiply to +-1
+    import numpy as np
+    i, j = np.array([[1j, 0], [0, -1j]]), np.array([[0, 1], [-1, 0]], dtype=complex)
+    k = i @ j
+    for prod in (i @ j @ k, j @ k @ i, i @ k @ j):
+        assert np.allclose(prod, prod[0, 0] * np.eye(2)) and abs(abs(prod[0, 0]) - 1) < 1e-12
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

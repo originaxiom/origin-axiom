@@ -1,5 +1,16 @@
 # Changelog
 
+## The weave's W61: the couplings at the selected state; relay section 72
+
+- **W61** (the owner's "W61: the couplings"; the rule 95c294b53 first, the hand derivation disclosed; the script
+  ee19e5824 before its one run; every cell as predicted): at τ = ω on a half-period line, with the untwisted Higgs copy,
+  - in the T ⊗ T reading every Yukawa vanishes (each zero mode is F times a unit; the units multiply to ±1, so every
+    coupling is ±ε(F, F) = 0);
+  - in the T̄ ⊗ T reading every Yukawa matrix is diag(±1) × N(ω)/2, the same for up, down and lepton.
+- **So:** the state supplies the Higgs, not flavour; the hierarchy needs a datum acting on the multiplicity M. 0 of 19.
+- **Relay §72** to main. **Surfaces.** The rule, the script and its JSON, the dossier (W61, a row, the header, the
+  files), the W61 test and the regeneration list, the state page, the relay and the ledger.
+
 ## The weave's W60: the quark sector with a Wilson line; relay section 71
 
 - **W60** (the owner's "W60: quark sector"; the rule 560c86dff first; the script bcc1396b9 before its one run; P2, P3
