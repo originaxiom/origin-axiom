@@ -4811,6 +4811,14 @@ one lead. Weave-type throughout; given Λ (GENESIS FK11).
    - If the term is universal, the computed dynamics has no generic τ, and the flavour wall holds for every state the
      record can select. If it is not, the wall's one door opens.
 
+**A correction to points 3 and 4 (2026-10-13, before W62's rule; worked by hand; `W62_RULE.md` checks it).**
+- Point 3 listed "the abelian lines" among the sectors with a universal τ-dependence. That holds for the trivial sector
+  and the three parities jointly (W59's K3c), not for one parity or one line alone.
+- At the line W60 selected, the Higgs's copies sit at 0, (½, 0) and (0, ½). Their sum is (1/16) E(τ, 3) − S_{(½,½)}(τ),
+  which is invariant only under the theta group. So the selected state (ω, a half-period) is not stationary in τ.
+- Point 4: in W61's overlap reading the couplings at a half-period line are zero or degenerate at every τ, since its
+  algebra does not use τ. A generic τ matters only where couplings are functions of τ alone (W50).
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows

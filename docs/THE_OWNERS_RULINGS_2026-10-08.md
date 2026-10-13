@@ -133,6 +133,14 @@ selecting τ needs a stated functional, and potentials built from the threads se
 - **The owner's choice: "W60: quark sector (Recommended)".** No end condition is added; the overlaps' fork waits for
   W60.
 
+## Rulings of 2026-10-13, after W60 and the reading of A1–W61
+
+- **After W60: "W61: the couplings (Recommended)".** W61 computed the couplings at the state W60 selected.
+- **After W61: "Pause and reflect (Recommended)".** The seat wrote the dossier's "Reading A1–W61 together" and proposed
+  W62.
+- **After the reading: "yes, do as u recomend".** W62, rule first: the matter's six-dimensional τ-dependence along the
+  imaginary axis and the boundary arc, against E(τ, 3), and which contents hold τ.
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:
