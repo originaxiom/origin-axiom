@@ -1,0 +1,251 @@
+{
+ "sources": {
+  "preprint": "Vernon Barger, 'Level-Four Modular Symmetry Selected by the Harmonic Pattern of Quark and Lepton Masses', arXiv:2609.09262v1 [hep-ph] (8 Sep 2026); the PDF https://arxiv.org/pdf/2609.09262 fetched 2026-10-13, sha256 91e5ce68695a73cb1e6933bcad2d1288e1b04b77b95013e33c81c3fc352bb3ad. Read by the SM-derivation seat for A3 of its plan (the owner's approval, 2026-10-13).",
+  "transcription": "Copied by hand from the PDF's text layer (pdftotext -layout), with every equation that holds a square root or a fraction checked against the rendered page (pages 11 to 16 and 23), since the text layer drops the radical signs. The values exactly as printed. Not computed here."
+ },
+ "Table I (MS-bar at M_Z, the preprint's Ref. [4]; masses in GeV)": {
+  "value": {
+   "u": 0.001237,
+   "c": 0.6253,
+   "t": 169.85,
+   "d": 0.002705,
+   "s": 0.05375,
+   "b": 2.863,
+   "e": 0.000487792,
+   "mu": 0.10276,
+   "tau": 1.74554
+  },
+  "sigma": {
+   "u": 2.6e-05,
+   "c": 0.0105,
+   "t": 0.7,
+   "d": 3.5e-05,
+   "s": 0.0007,
+   "b": 0.016,
+   "e": 8.9e-08,
+   "mu": 1.9e-05,
+   "tau": 0.00033
+  },
+  "y_t": [
+   0.967,
+   0.004
+  ],
+  "v_GeV": 248.4,
+  "note": "the preprint propagates correlated errors; its quoted error on m_s is 0.58 MeV, below the 0.70 MeV of the table"
+ },
+ "the constants as printed": {
+  "epsilon": "14/75 (Eq. 23: (m_e m_tau / m_mu^2)^(2/3) = 0.186642 +- 0.000040)",
+  "tau": "(2i/pi) ln(1/epsilon) = 1.0685 i, q = epsilon^4 (Eq. 24)",
+  "theta2, theta3, theta4": [
+   0.86515,
+   1.06969,
+   0.93031
+  ]
+ },
+ "the printed claims (formula; printed value)": {
+  "Eq. 21a": [
+   "m_tau/m_mu = eps^(-7/2) / (2 theta3)^4",
+   "16.9868"
+  ],
+  "Eq. 21b": [
+   "m_mu/m_e = eps^(-5) / (2 theta3)^4",
+   "210.626"
+  ],
+  "Eq. 22": [
+   "m_e m_tau / m_mu^2 = eps^(3/2)",
+   "0.08065"
+  ],
+  "Eq. 25": [
+   "m_b/m_tau = 1/sqrt(2 eps)",
+   "1.6366"
+  ],
+  "Eq. 25 exact": [
+   "m_b/m_tau = sqrt(2)/theta2",
+   "1.6346"
+  ],
+  "Eq. 26": [
+   "|V_us|^2 m_mu/m_e = 2/eps",
+   "10.714"
+  ],
+  "P4": [
+   "y_t = (Im tau)^(-1/2)",
+   "0.9674"
+  ],
+  "Table VII m_t": [
+   "(Im tau)^(-1/2) v / sqrt(2)",
+   "169.92 GeV"
+  ],
+  "Table VII m_b": [
+   "m_tau / sqrt(2 eps)",
+   "2.857 GeV"
+  ],
+  "Table VII m_c": [
+   "2^(3/2) eps^4 theta3 m_t",
+   "0.6239 GeV"
+  ],
+  "Table VII m_s": [
+   "(1/2) m_mu (Im tau)^(1/2)",
+   "53.11 MeV"
+  ],
+  "Table VII m_d": [
+   "(m_e/eps) (Im tau)^(1/2)",
+   "2.701 MeV"
+  ],
+  "Table VII m_u": [
+   "4 eps^8 theta3^3 m_t",
+   "1.226 MeV"
+  ],
+  "Eq. 28": [
+   "|V_us| = sqrt(m_d/m_s) (the predicted masses)",
+   "0.2255"
+  ],
+  "Eq. 29": [
+   "theta13/theta23 = 2 sqrt(m_u/m_c)",
+   "0.08865"
+  ],
+  "Eq. 30": [
+   "|V_ub| = (1/2) theta3^2 eps^3",
+   "0.003721"
+  ],
+  "Eq. 31": [
+   "|V_cb| = |V_ub| / (2 sqrt(m_u/m_c))",
+   "0.04197"
+  ],
+  "Eq. 32": [
+   "|V_td| = |V_cb|^(3/2)",
+   "0.008599"
+  ],
+  "Eq. 33": [
+   "delta from |V_td|^2 = (s12 s23)^2 + (c12 c23 s13)^2 - 2 s12 s23 c12 c23 s13 cos delta",
+   "1.138"
+  ],
+  "Eq. 34": [
+   "theta2/2",
+   "0.4326"
+  ],
+  "Table VIII J": [
+   "the closed matrix",
+   "3.11e-5"
+  ],
+  "Table IX A": [
+   "|V_cb|/lambda^2",
+   "0.825"
+  ],
+  "Table IX R_b": [
+   "|V_ud V_ub*| / |V_cd V_cb*|",
+   "0.3832"
+  ],
+  "Table IX R_t": [
+   "|V_td V_tb*| / |V_cd V_cb*|",
+   "0.9082"
+  ],
+  "Table IX beta": [
+   "law of cosines (Eq. 37), degrees",
+   "22.5"
+  ],
+  "Table IX gamma": [
+   "law of cosines (Eq. 37), degrees",
+   "65.2"
+  ],
+  "Table IX alpha": [
+   "pi - beta - gamma, degrees",
+   "92.3"
+  ],
+  "Table IX rho-bar": [
+   "R_b cos gamma",
+   "0.161"
+  ],
+  "Table IX eta-bar": [
+   "R_b sin gamma",
+   "0.348"
+  ],
+  "Eq. 40": [
+   "|V_cb||V_ub| / (|V_us||V_td|)",
+   "0.08054"
+  ],
+  "Eq. 44": [
+   "sin^2 theta13 (leptons) = theta2^2 m_mu / (2 m_tau)",
+   "0.02203"
+  ],
+  "Eq. 46": [
+   "sin^2 theta23 (leptons) = (1/2) theta4",
+   "0.4652"
+  ],
+  "Eq. 43": [
+   "Delta m21^2 / Delta m31^2 = m_mu / (2 m_tau)",
+   "0.02944"
+  ],
+  "Sec. III D": [
+   "m_mu/m_s = 2 (Im tau)^(-1/2)",
+   "1.935"
+  ],
+  "Sec. III D m_u/m_d": [
+   "the predicted masses",
+   "0.454"
+  ],
+  "Eq. 49 P12_UD": [
+   "1 / (16 sqrt(2) theta3^2)",
+   "(no value printed)"
+  ],
+  "Eq. 49 P23_UD": [
+   "1 / (4 theta3^3 (Im tau)^(1/2))",
+   "(no value printed)"
+  ],
+  "Eq. 49 P12_DL": [
+   "2/eps",
+   "(no value printed)"
+  ],
+  "Eq. 49 P23_DL": [
+   "(eps Im tau / 2)^(1/2)",
+   "(no value printed)"
+  ],
+  "Eq. 49 ratios": [
+   "ln P12/ln P23 on the UD and DL axes",
+   "+2.007, -2.057"
+  ],
+  "Sec. III C": [
+   "the Georgi-Jarlskog plaquette m_b m_mu/(m_s m_tau) = 1/P23_DL",
+   "3.167"
+  ]
+ },
+ "Table XIV as printed (target, relative uncertainty, declared-family hits and coverage, form-value hits / coverage)": {
+  "anchor (2 theta3)^4": [
+   20.95,
+   0.0002,
+   0,
+   0.002,
+   0,
+   0.08
+  ],
+  "P1 m_b/m_tau": [
+   1.64,
+   0.0055,
+   1,
+   0.06,
+   1,
+   0.87
+  ],
+  "P2 |V_us|^2 m_mu/m_e": [
+   10.67,
+   0.007,
+   1,
+   0.08,
+   3,
+   0.96
+  ],
+  "P4 y_t": [
+   0.967,
+   0.004,
+   0,
+   0.05,
+   4,
+   0.79
+  ]
+ },
+ "the dictionaries as printed (Appendix B)": {
+  "declared mass family": "2^(k/2) eps^(n/2), integer n, |k| <= 2",
+  "form-value family": "2^(k/2) theta3^b theta4^c (Im tau)^(w/2) eps^(n/2), |k| <= 3, 0 <= b <= 3, c in {0, 1}, w in {-1, 0, 1}: 168 prefactors on each rung",
+  "coverage": "the fraction of numbers drawn log-uniformly over six e-folds around the target that land within one standard deviation of some element",
+  "Sec. IX": "the product of the four one-sigma budgets (0.2%, 6%, 8%, 5%) is of order 1e-6, 'offered as the scale of the coincidence, not as a significance'"
+ }
+}
