@@ -1,0 +1,21 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 44.97537099997862,
+  "tracked_files": 12466,
+  "tree_before": "94803abd4903941821e7ae975d28dc06645cf554fcf059492b6f1121aa25f9b1",
+  "tree_after": "94803abd4903941821e7ae975d28dc06645cf554fcf059492b6f1121aa25f9b1",
+  "tree_unchanged": true,
+  "raw_files": [
+    {
+      "name": "tests.stdout.log",
+      "bytes": 100,
+      "sha256": "ddff607be4cc1e71216267d6cda805c2a91e61cdcac23c6e416b8c7466b5a2d3"
+    },
+    {
+      "name": "tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "35 selected live tests, including 15 existing complete gauge-roster locks; not full suite"
+}

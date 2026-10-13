@@ -2,6 +2,12 @@
 
 ## 2026-10-13 one based prerequisite with complete companions
 
+Supplement: unchanged30/24 science reproduced after provenance-label
+reseal atcdc46c657;35 selected tests PASS43.84s, including existing
+full gauge-roster locks. W60's bare parity line needs a parent map:
+THIS E8 embedding's weak doublets have odd quaternion centre. Fibre
+positive and actual doublets retained; no general Higgs exclusion.
+
 At pushed pre-run67b2d5e77,30 native/24 separate exact checks and20
 selected live tests PASS65.09s;11 source pins and12,446 tracked files
 unchanged. S4 is actual Inner(BabA), not based identity. Ordinary spin

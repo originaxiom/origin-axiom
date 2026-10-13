@@ -19338,3 +19338,23 @@ test capture66.650419s, fingerprint900203385f5524aba05f84b5501395aa4d48618f4b3a5
 No failed science or source repair; no shared B/I, outside/full-suite/main
 acceptance or full SM/TOE completion. Sender relay registered OPEN.
 Report: reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/FINDINGS.md.
+
+Subsequent source-label repair was resealed atcdc46c657 before rerun:
+30/24 PASS byte-equal to first stdout/stderr. First publication governance
+failed attribution on the new INPUTS branch label as well as inherited
+debts; original metadata and gate retained, not overwritten. Wider35
+selected live tests PASS43.84s,44.975371 capture,12,466 tracked files
+unchanged. Existing full gauge-roster locks sharpen W60 connection:
+THIS embedding's weak doublets are odd-centre rho, not bare parity
+lines. Higgs-parent map must be earned, while both fibre/parity and
+actual weak-doublet positives survive; no architecture-wide Higgs kill.
+RERUN_NOTES/HIGGS_PARENT_MAP_REVIEW in the same packet; no full suite.
+
+Final staged publication governance26 PASS/four FAIL categories in
+40.131386s, inner exit1,12,477 tracked files unchanged. Attribution
+flags six old paths PLUS the preserved ORIGINAL_INPUTS snapshot;
+the extra archival failure is not mislabeled inherited or waived.
+Old two vacuity/five seal-provenance/42 stale-relay failures remain;
+144 OPEN and review513 overdue. Exact logs/receipt/custody preserved.
+Active scientific metadata repaired, outputs byte-equal; full-suite,
+main-bank and outside acceptance remain owed, full goal ACTIVE.

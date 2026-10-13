@@ -1,0 +1,69 @@
+{
+  "seal_commit": "cdc46c65772fe3e24e9c9d5544275712bc739f25",
+  "sources_before": {
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/DESIGN.md": "51e126f2667f53f5acfad8eed7f303cdf9fc0bcde246de96898150076d39717a",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/PROOF.md": "8374933126c41e24b9d167fae89f931f7b72c95bba0da6aa927646cafb3d91d6",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/probe.py": "3a708cb2d5c593024ca9355ddffd9bee2afe888e15581c79cf8691abb4f13f69",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/reference.py": "59173cb9d95adb6da5908009297680983326e574ca40315960bbdb4127f300ce",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/execute.py": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664",
+    "tests/test_physical_bridge_based_transition_prerequisite.py": "ef5eb9cea08e3d00d823dff7c2bddbdeb1e6934f221ce2e931ce89e67b8f2895",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+    "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050",
+    "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_PROOF.md": "9cc1c8b9f2f05e6521880d3986c1e2138468e8ed09419bdab6d34bc7be280447"
+  },
+  "matches_seal": true,
+  "runs": [
+    {
+      "label": "probe",
+      "exit_code": 0,
+      "elapsed_seconds": 3.687494034995325,
+      "stdout": {
+        "file": "probe.stdout.log",
+        "bytes": 2004,
+        "sha256": "1728eab1ae096289914abe47c88765edb48879bf9714cf3def0fd966261622a7"
+      },
+      "stderr": {
+        "file": "probe.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "label": "reference",
+      "exit_code": 0,
+      "elapsed_seconds": 0.2111331290070666,
+      "stdout": {
+        "file": "reference.stdout.log",
+        "bytes": 1566,
+        "sha256": "50d078c1dbdcb3c36dd954465e5b0869b9906dd547fcec6443fefc752c38d571"
+      },
+      "stderr": {
+        "file": "reference.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "sources_after": {
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/DESIGN.md": "51e126f2667f53f5acfad8eed7f303cdf9fc0bcde246de96898150076d39717a",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/PROOF.md": "8374933126c41e24b9d167fae89f931f7b72c95bba0da6aa927646cafb3d91d6",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/probe.py": "3a708cb2d5c593024ca9355ddffd9bee2afe888e15581c79cf8691abb4f13f69",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/reference.py": "59173cb9d95adb6da5908009297680983326e574ca40315960bbdb4127f300ce",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/execute.py": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664",
+    "tests/test_physical_bridge_based_transition_prerequisite.py": "ef5eb9cea08e3d00d823dff7c2bddbdeb1e6934f221ce2e931ce89e67b8f2895",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+    "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050",
+    "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_PROOF.md": "9cc1c8b9f2f05e6521880d3986c1e2138468e8ed09419bdab6d34bc7be280447"
+  },
+  "sources_unchanged": true,
+  "passed": true,
+  "records_agree": true,
+  "predicate_counts": [
+    30,
+    24
+  ]
+}

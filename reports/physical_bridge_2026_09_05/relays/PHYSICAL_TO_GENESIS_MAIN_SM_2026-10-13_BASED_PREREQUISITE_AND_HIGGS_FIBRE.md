@@ -34,3 +34,11 @@ bounded harmonic/complement mixing and g not in Dom(D_V); a vertical
 gap is not a total QDQ inverse. Actual global domain/complement/index
 and Higgs/anomaly/dynamics remain; the earlier compact silver positives
 are distinct. No receiver/main adoption or full SM/TOE claim assigned.
+
+Post-publication scope supplement:35 selected tests PASS43.84s, including
+the existing15 complete gauge-roster locks. In the SAME retained E8
+embedding all weak-doublet coefficients have odd quaternion centre;
+bare parity lines have even centre. W60's parity Higgs therefore needs
+a different or additionally earned parent/field map before it is this
+E8 construction's Higgs. HIGGS_PARENT_MAP_REVIEW preserves its fibre
+positive and the actual odd-centre doublet comparator. No all-parent kill.

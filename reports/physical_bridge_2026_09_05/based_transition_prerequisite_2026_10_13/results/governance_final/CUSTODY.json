@@ -1,0 +1,25 @@
+{
+  "scope": "final scoped publication governance capture; recorded failures are not waived",
+  "files": [
+    {
+      "path": "gates.stdout.log",
+      "bytes": 2539,
+      "sha256": "01a9e0b415b3cc7ad0af16d8001f01f7574f7c8bfa1abdca6738cfd2129ae2dd"
+    },
+    {
+      "path": "gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROCESS_RECEIPT.json",
+      "bytes": 692,
+      "sha256": "f72fec87f3aaf647adc8a276797868c5da04d0e90e84bc2465504355482277b2"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 1911,
+      "sha256": "0bb8b298f181801792c7fd86a19b7cb8ac1d22329c5b8e24d05d2b053fa63024"
+    }
+  ]
+}

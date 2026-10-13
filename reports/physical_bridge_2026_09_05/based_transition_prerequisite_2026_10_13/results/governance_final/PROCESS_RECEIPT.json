@@ -1,0 +1,21 @@
+{
+  "exit_code": 1,
+  "elapsed_seconds": 40.13138600002276,
+  "tracked_files": 12477,
+  "tree_before": "d6b73ed61199cfc9ea1b342fbc884b8a08cdf4f3ee554c315b60fe437a800e47",
+  "tree_after": "d6b73ed61199cfc9ea1b342fbc884b8a08cdf4f3ee554c315b60fe437a800e47",
+  "tree_unchanged": true,
+  "raw_files": [
+    {
+      "name": "gates.stdout.log",
+      "bytes": 2539,
+      "sha256": "01a9e0b415b3cc7ad0af16d8001f01f7574f7c8bfa1abdca6738cfd2129ae2dd"
+    },
+    {
+      "name": "gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "staged post-metadata/rerun/Higgs-map publication governance; not full suite"
+}

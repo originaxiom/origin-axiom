@@ -1,0 +1,53 @@
+{
+  "checks": {
+    "L omitted square root normalization": true,
+    "R omitted square root normalization": true,
+    "covariance L a": true,
+    "covariance L b": true,
+    "covariance R a": true,
+    "covariance R b": true,
+    "exact unnormalized S square": true,
+    "exact unnormalized S fourth": true,
+    "actual BabA puncture transport": true,
+    "ordinary one relation match": true,
+    "canonical one relation mismatch": true,
+    "Fraction full E8 root count": true,
+    "both centre parities from separate roots": true,
+    "complete branching even": true,
+    "complete branching odd": true,
+    "scalar plus one retains even": true,
+    "scalar minus one retains odd": true,
+    "wrong scalar retains neither": true,
+    "matrix matching control retains everything": true,
+    "half period (1, 0)": true,
+    "half period (0, 1)": true,
+    "half period (1, 1)": true,
+    "each half period trivializes one distinct Higgs copy": true,
+    "zero line does not cancel nontrivial parities": true
+  },
+  "records": {
+    "S_word": {
+      "a": "b",
+      "b": "BAb"
+    },
+    "S4_inner_word": "BabA",
+    "Delta4_inner_word": "aBAb",
+    "coefficient_S4": 1,
+    "fibre_inner_sign": -1,
+    "full_E8_central_parities": [
+      136,
+      112
+    ],
+    "conditional_spin_residual_ranks": [
+      544,
+      448
+    ],
+    "half_period_Higgs_trivial_counts": [
+      1,
+      1,
+      1
+    ]
+  },
+  "all_passed": true,
+  "scope": "separate exact coefficient/root controls; free-word constants checked by native route, not independently rederived here"
+}

@@ -6,6 +6,9 @@ full248 needs more than one common scalar. This is a conditional test,
 NOT the actual pointed-spin map or an E8/architecture obstruction.
 W60 Higgs parity cancellation verified as a FIBRE-mode opportunity;
 total mode/norm/vertex and sampled minimum certification remain distinct.
+Wider35 selected PASS43.84s replays the full gauge roster: THIS E8
+embedding's weak doublets are odd-centre rho, not bare parity lines.
+W60's same-parent Higgs map is therefore a prerequisite, not discharged.
 NEXT actual complete pointed transitions, own global domain and QDQ
 estimate. Report: reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/FINDINGS.md.
 

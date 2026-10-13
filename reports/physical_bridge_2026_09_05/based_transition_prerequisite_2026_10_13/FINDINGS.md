@@ -100,3 +100,14 @@ positives remain distinct, supplied constructions, not replacements.
 No new shared B/I identifier, foundational selector, boundary plane,
 generation count, normalized parameter or gravitational equation is
 derived. The full SM/TOE objective remains active and unachieved.
+
+## Subsequent verification and field-map qualification
+
+The provenance-label correction and its first failed publication gate
+are disclosed in METADATA_REPAIR; the resealed scientific rerun is
+byte-equal to the first outputs (RERUN_NOTES). The wider35-test replay
+also verifies the existing sealed full gauge roster. Its important
+consequence is in HIGGS_PARENT_MAP_REVIEW: the bare W60 parity line is
+not this particular E8 embedding's odd-centre weak-doublet coefficient.
+The fibre positive is retained, but the common-parent identification
+must be earned before calling it this construction's physical Higgs.

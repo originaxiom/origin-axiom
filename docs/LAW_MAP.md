@@ -21,6 +21,14 @@ Locks below: tests/test_physical_bridge_based_transition_prerequisite.py.
    of three parity copies. PROOF W60 qualification;
    test_half_period_positive_retains_which_copy. Limit: fibre coefficient
    algebra, not total physical Higgs, normalized overlap or certified vacuum.
+4. Prior complete Q8/weak branching has no weak doublets in its four
+   line-character multiplicity modules; the rho module does have them.
+   Source weave_companion_roster_2026_10_08/PROOF.md, gauge modules;
+   tests/test_physical_bridge_weave_companion_roster.py::test_E8_projection_has_all_weights
+   and test_spin_companions_cannot_supply_weak_doublet_zero_partner,
+   now replayed within35 PASS. Connection review HIGGS_PARENT_MAP_REVIEW.
+   Limit: THIS embedding's gauge coefficients, not a general Higgs kill;
+   W60's parity-line identification needs a changed or earned parent map.
 
 October13 geometric-spin and residue sublemmas, path-local research
 grade, not numbered shared banking. Sources: PROOF/FINDINGS in

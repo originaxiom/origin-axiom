@@ -11,6 +11,12 @@ PB-HIGGS-FIBRE-TO-TOTAL: OPEN. W60's half-period parity cancellation
 verified algebraically; one copy becomes fibre-trivial. Earn its SAME
 parent's horizontal mode, global norm, physical vertex and stationary
 response. No full physical Higgs or numerical minimum adopted.
+The existing full gauge-roster15 locks replayed within35 PASS43.84s:
+THIS E8 embedding's weak doublets are odd-centre rho, not bare parity
+lines. First earn or explicitly change that parent-field map; no
+all-E8/no-Higgs conclusion and no inserted odd factor merely for three.
+Connection review: based_transition_prerequisite_2026_10_13/HIGGS_PARENT_MAP_REVIEW.md
+under reports/physical_bridge_2026_09_05.
 Both: reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/FINDINGS.md.
 
 PB-SURFACE-GEOMETRIC-TRANSITIONS: completed CONDITIONALLY for the
