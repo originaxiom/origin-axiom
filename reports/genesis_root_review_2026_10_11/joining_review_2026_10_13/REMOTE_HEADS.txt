@@ -1,0 +1,16 @@
+Origin tracking refs after successful all-advertised-head fetch, 2026-10-13.
+Historical tracking refs retained; this is not a live-head count.
+External seat labels use public aliases under the repository attribution rule.
+Exact commit identifiers are unchanged; aliases are not actual remote ref names.
+origin/HEAD 6c148ddd495d133213140995976ff08849793d5d
+origin/audit/fork-2026-09-20 89cc8e4445a0b41f909ae69d8b8887b1bfaa5a5e
+origin/audit/physical-bridge-2026-09-05 0b36fc3e0bb29085001ee22f93518ebbc6ca83b7
+source-01 d40c1ab6ec7201c1a0763b6a70a1b265c86aa3ee
+source-02 d7e4afeb7d0e13eb786f50893f02fe18b965520c
+source-03 6a537f899c9c1882930475144a30ae76aa2966d8
+source-04 13d2c5b63ba7a3db9ea880016a43d3c688cee954
+source-05 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd
+source-06 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511
+source-07 6877cc87d31941a85f139e2f25e5e13694e22ce6
+origin/main 6c148ddd495d133213140995976ff08849793d5d
+origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5

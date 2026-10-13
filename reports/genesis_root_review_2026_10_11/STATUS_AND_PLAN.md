@@ -92,6 +92,14 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 joining update
+
+The [joining reconciliation](joining_review_2026_10_13/FINDINGS.md) incorporates the supplied handoff and the physical branch at `0b36fc3e0`. Gate 1's 17 reference checks and Gate 3's 43 exact plus 72 numerical checks reproduce here. More importantly, the branch already extended the scalar end calculation to the complete local eight-component zero-energy operator: both producers reproduce byte-identically here (26 and 14 exact predicates, with separately graded numerical controls). Recomputing that plane is not the next task. Nontrivial gauge transport changes the scalar response, and mixed channels prevent using transverse stiffness alone as a chirality verdict.
+
+The physical branch also reports a four-real-dimensional finite-action lift of the supplied modular cusp connection for one metric. That report advances the base-only realization; it does not select the unit or certify the puncture/operator domain. Its newer neutral flat-line proposal is sealed, not a completed real-moment result at the fetched pin. The compact cover's conditional three-generation result must not be transferred to the noncompact exterior by matching labels.
+
+The upstream priority is now sharper: preserve the information needed by the actual coefficient, justify the parent/end/state from earlier data, and use the existing full end plane in a same-field core join. Gate 1 proves a specific loss of information beyond the Q8 module; Gate 3 removes an independently assigned response only after choosing its exterior. Neither derives all those choices. The reconciliation lists the required background, framed trace, real-gauge and whole-field matching conditions before a global particle claim.
+
 - The all-branch refresh and focused genesis catch-up are complete at the pins below. A full re-verification of all branches is not claimed.
 - The pure-spinor boundary bridge draft is paused and preserved. It is unsealed and unexecuted.
 - The previous charged-boundary result files are preserved. Their earlier verification does not establish a derivation from genesis.
