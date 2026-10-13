@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "<repo>/frontier/B1644_a_higgs_in_the_multiplicity_space/verification/adjoint_higgs.py", line 72, in <module>
+    Ya = Y_unit(Sa, t); Yl = a[0] * Ys["i"] + a[1] * Ys["j"] + a[2] * Ys["k"]
+         ^^^^^^^^^^^^^
+  File "<repo>/frontier/B1644_a_higgs_in_the_multiplicity_space/verification/adjoint_higgs.py", line 37, in Y_unit
+    Y[a, b] = complex(residue(Ca.T * EPS * S * Cb, t))
+                              ~~~~~~~~~~~^~~
+  File "<python>/site-packages/mpmath/matrices/matrices.py", line 595, in __mul__
+    new[i, j] = other * self[i, j]
+    ~~~^^^^^^
+  File "<python>/site-packages/mpmath/matrices/matrices.py", line 560, in __setitem__
+    value = self.ctx.convert(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>/site-packages/mpmath/ctx_mp_python.py", line 650, in convert
+    if type(x).__module__ == 'numpy': return ctx.npconvert(x)
+                                             ^^^^^^^^^^^^^^^^
+  File "<python>/site-packages/mpmath/ctx_mp_python.py", line 683, in npconvert
+    raise TypeError("cannot create mpf from " + repr(x))
+TypeError: cannot create mpf from array([mpc(real='0.0', imag='-0.186905171426354044239559470952372'),
+       mpc(real='0.207905450301257177514457907818723', imag='0.960125919152856166505216606310569'),
+       mpc(real='-0.207905450301257177514457907818723', imag='0.960125919152856166505216606310569'),
+       mpc(real='0.0', imag='0.186905171426354044239559470952372')],
+      dtype=object)

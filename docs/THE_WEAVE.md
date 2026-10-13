@@ -401,3 +401,15 @@ found with B1635's sealed instrument.
 - **Open (POINT_REGISTER P-097):** a symmetric piece from a Higgs with the cube group's sign character, from a bulk
   (Hermitian) pairing (the SM seat's W59), or from a second Higgs at the puncture.
 
+## Main's addition: a Higgs in the multiplicity space (B1644, NEGATIVE as sealed; the structure proved)
+
+- **The first coupling on the record with flavour structure.** A Higgs in the adjoint of the quaternion structure,
+  canonically the multiplicity space M, couples to the zero modes symmetrically, with a non-zero diagonal. There is no
+  free coefficient but the Higgs's direction.
+- **One generation is exactly massless, by Jacobi's identity.** det Y(a) = (R·R)(a·a)(R·a), and θ₃⁴ = θ₂⁴ + θ₄⁴ makes
+  the theta triplet isotropic. That holds for every Higgs direction and every τ.
+- **The other two have the ratio m.** For real directions m ≥ ½, too flat for the observed hierarchy. Complex
+  directions reach m = 0.004 (m_c/m_t is about 0.004). The golden spectrum is impossible here.
+- **Owed:** prove the ½ bound; find what fixes the Higgs's direction; count a quark model before any crossing
+  (P-114 to P-116).
+

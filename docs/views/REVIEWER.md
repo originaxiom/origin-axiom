@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1370** |
-| words of findings prose | **1,072,921** |
-| test lock files referenced | **805** |
-| arcs carrying an authored verdict | **1370** (100.0 %) |
-| recorded closures | **819** (652 classified, 167 routed-only) |
+| research arcs with findings | **1372** |
+| words of findings prose | **1,075,320** |
+| test lock files referenced | **807** |
+| arcs carrying an authored verdict | **1372** (100.0 %) |
+| recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 925 |
-| NEGATIVE | 343 |
+| PROVED | 926 |
+| NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 89 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 90 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1641`** (1350 words, 1 locks)  
-W46 ON MAIN, AND THE TWO OBJECTS (sealed 99975fb63; PROVED): the fibre loops of M_{1,2} are the inner automorphisms; the record's uniform lift acts on T by the parity signs and on conj(a b^-1 a^-1 b) = Delta^4 by -1, agreeing with the ruled moves, while the geometric lift (trivial on fibre cohomology) gives +1 there -- they differ by the central sign, so the matter is spinorial around the commutator loop and the two objects are one with a parity selection rule: a parity-blind Higgs allows only diagonal couplings, a Higgs in T exactly the golden pattern (c(u,u,u) = 24 eta^6); the SM seat's W46 verified on main's lifts (L6's exponents (1,1,3,5,7,7)/8, pieces 2 + 4, every chi_1 = 0, chi_3/2(rho_T) = 0, the table n(|Lambda+| - 3)); and neither rho_T nor its conjugate is a sub or quotient of L6, so the hand is not the puncture condition's orientation at the representation level. 0 of 19.  
-`B1641_w46_on_main_and_the_two_objects/FINDINGS.md`
+**PROVED — `B1643`** (1470 words, 1 locks)  
+THE CROSSINGS CENSUS (a census arc, the owner's question 2026-10-13): no crossing from the principle's mathematics to a physical number has succeeded -- B915 (15.97 sigma), B925, B929 (shape hit, value miss), B1005 (Tier 2 fired), B1027 with B1063 (all miss), B856 and B1066 (golden-ratio mixing excluded at 4.7 sigma) -- and every one identified an object's number with a physical one by fiat (I-13 unearned); none crossed through a field. The criteria C1-C6 for a crossing through a field (a derived dictionary; admissible kind with the Kahler frame fixed; every choice priced; one-shot sealed; dimensionless; the computed object carrying the tested structure); none is ready, since the zero modes carry no flavour structure yet. 0 of 19.  
+`B1643_the_crossings_census/FINDINGS.md`
 
-**NEGATIVE — `B1642`** (903 words, 1 locks)  
-THE ZERO MODES' RESIDUE AT THE PUNCTURE (sealed 55bd29ab7; NEGATIVE as sealed): the SU(2)-invariant pairing of the weave's zero modes F_p = C_p F vanishes on the diagonal and, by the duplication identities, its entries are c theta_r(0) theta_r(z)/theta_1(z) (c = -1, -1, i, to 1e-40) with residues c theta_r^2/(2 pi eta^3) -- a coupling computed with no free coefficient -- but it is ANTISYMMETRIC (the invariant pairing is an antisymmetric form): Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)|, masses (1, 1, 0) at every tau, the theta-triplet the massless direction; the golden coupling is the symmetric cubic, which these zero modes do not produce (the hand derivation's 'symmetric' was the error, caught by the sealed cell). 0 of 19.  
-`B1642_the_golden_coupling_as_the_zero_modes_residue/FINDINGS.md`
+**NEGATIVE — `B1644`** (929 words, 1 locks)  
+A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed. 0 of 19.  
+`B1644_a_higgs_in_the_multiplicity_space/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

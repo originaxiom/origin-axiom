@@ -11655,6 +11655,51 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1643": {
+   "slug": "the crossings census",
+   "motifs": [
+    "choice",
+    "coupling",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B856",
+    "B915",
+    "B925",
+    "B926",
+    "B927",
+    "B929",
+    "B936",
+    "P1",
+    "P10",
+    "P2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 18,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1644": {
+   "slug": "a higgs in the multiplicity space",
+   "motifs": [
+    "choice",
+    "coupling",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "S1",
+    "S2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 15,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B164": {
    "slug": "isomonodromy 04cubic",
    "motifs": [

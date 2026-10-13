@@ -1,0 +1,36 @@
+{
+ "id": "B1643",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B915",
+  "B925",
+  "B929",
+  "B1005",
+  "B1027",
+  "B1063",
+  "B1066",
+  "B856",
+  "B926",
+  "B927",
+  "B1020",
+  "B936",
+  "B1028",
+  "B1241",
+  "B1642"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a census arc)",
+  "object": "every attempt on the record to cross from the principle's mathematics to a physical number",
+  "reach": "general",
+  "hypotheses": "each row read at its arc's verdict file; no new data contact"
+ },
+ "claim_one_line": "THE CROSSINGS CENSUS (a census arc, the owner's question 2026-10-13): no crossing from the principle's mathematics to a physical number has succeeded -- B915 (15.97 sigma), B925, B929 (shape hit, value miss), B1005 (Tier 2 fired), B1027 with B1063 (all miss), B856 and B1066 (golden-ratio mixing excluded at 4.7 sigma) -- and every one identified an object's number with a physical one by fiat (I-13 unearned); none crossed through a field. The criteria C1-C6 for a crossing through a field (a derived dictionary; admissible kind with the Kahler frame fixed; every choice priced; one-shot sealed; dimensionless; the computed object carrying the tested structure); none is ready, since the zero modes carry no flavour structure yet. 0 of 19.",
+ "weave_or_thread": "neither (a census arc)"
+}

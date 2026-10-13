@@ -1,5 +1,47 @@
 # Changelog
 
+## S119 THE CROSSINGS CENSUS (B1643) AND A HIGGS IN THE MULTIPLICITY SPACE (B1644): no crossing to a physical number has succeeded — every one by fiat, none through a field; then the first coupling with flavour structure — a Higgs in M — leaves one generation exactly massless, forced by Jacobi's identity
+
+**B1643** (a census arc; the owner: "did we do any crossing to physics from our mathematical programs principles").
+- **The crossings, all missed:**
+  - B915, 15.97σ;
+  - B925, refused by the object's own algebra;
+  - B929, a shape hit but a value miss;
+  - B1005, the Tier-2 falsifier fired;
+  - B1027 with its refresh B1063, all miss;
+  - B856 and B1066 (golden-ratio mixing excluded at 4.7σ).
+- **The weave's contacts** are a frame reading (TM1, within about 1σ), a tension (TM2), a generic confirmation (P2) and a
+  statistical first step (W57). B1642 is a computed coupling with no flavour structure.
+- **Every attempt identified by fiat** (I-13 unearned); none crossed through a field.
+- **The criteria for a crossing through a field:**
+  - C1, a derived dictionary;
+  - C2, an admissible kind, with the Kähler frame fixed;
+  - C3, every choice priced;
+  - C4, one-shot and sealed;
+  - C5, dimensionless;
+  - C6, the computed object carrying the tested structure.
+- **None is ready:** the zero modes carry no flavour structure yet. Golden-ratio mixing was already dead (B1066; P-071
+  closed). The double ratio waits on the Kähler frame (P-109).
+
+**The owner's paths, agreed 2026-10-13 (P-110 to P-113).**
+- Path 1: a Higgs in the adjoint of the quaternion structure at the puncture, which is canonically M. Its coupling is
+  symmetric with a non-zero diagonal, and its direction is the datum acting on M. Next arc.
+- Path 2: τ near the cusp, from the potential's sign.
+- Path 3: the kinetic normalisation, W49's 2·I₃.
+- Path 4: the cusp unit as a vector in M.
+
+**B1644, path 1** (sealed `8fa3d82ba`; NEGATIVE as sealed, the structure proved). A Higgs in the adjoint of the
+quaternion structure, which is canonically M.
+- **S1, S2 hold exactly:** the coupling is symmetric with a non-zero diagonal, the first coupling on the record with
+  flavour structure.
+- **S3b fails:** the light state is exactly massless, not |q|-suppressed.
+- **Post-seal, labelled:** det Y(a) = (R·R)(a·a)(R·a), and Jacobi's θ₃⁴ = θ₂⁴ + θ₄⁴ makes the theta triplet isotropic.
+  So one generation is massless for every Higgs direction and every τ.
+- **The other two:** m = m₂/m₃ ≥ ½ for real directions, down to 0.004 for complex ones. The golden spectrum is
+  impossible here.
+- **Disclosed:** one cast fixed after a crash before any output. T-ADJOINT-HIGGS-MASSLESS; the kill graph; P-114 to
+  P-116.
+
 ## S118 THREE ROUTES AGREE, AND THE OWNER'S CROSSING QUESTION: the SM seat's W61, main's B1642 and the audit lane's residue audit, each sealed independently, find that the fibre's zero modes give no flavour structure by themselves — the hierarchy needs a datum acting on the multiplicity M; every lane rowed to its head
 
 - **The convergence.**

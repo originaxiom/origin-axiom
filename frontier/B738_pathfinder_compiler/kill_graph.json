@@ -11494,5 +11494,27 @@
    "hypotheses": "a Higgs localized at the fibre's puncture, carrying parity, coupling through the residue"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1644",
+  "claim_killed": "That near the cusp the adjoint Higgs's light state is suppressed by |q| (this arc's S3b), and that some Higgs direction gives the golden spectrum (S3a's reading).",
+  "kill_form": "Sealed (B1644): det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes R isotropic, so the light state is exactly massless for every direction and tau; the golden spectrum is therefore impossible (distance exactly 1/phi^2).",
+  "hatch": "corrections that lift the massless state (the first generation's mass); a complex Higgs direction for the m2/m3 hierarchy (down to 0.004); what fixes the direction (P-115)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-14), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: a Higgs in M gives the first flavourful coupling, with a massless generation forced by Jacobi's identity; the hierarchy of the other two lives in the Higgs's complex direction.",
+  "faces_consulted": [
+   "B1642",
+   "B1641",
+   "B1643"
+  ],
+  "fact_computed": "the residue table at 10 random tau (exact), linearity, spectra over 400 directions and 8 tau; post-seal the symbolic determinant, the isotropy and the middle ratio's range",
+  "scope": {
+   "frame": "the weave's fibre at its puncture; given Lambda; zero Wilson line",
+   "object": "the zero modes coupled to a Higgs in the adjoint of the quaternion structure",
+   "reach": "general",
+   "hypotheses": "the adjoint Higgs at the puncture; the parent map owed"
+  },
+  "weave_or_thread": "weave"
  }
 ]

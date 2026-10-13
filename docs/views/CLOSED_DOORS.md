@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**819 recorded closures — of which 652 are CLASSIFIED by mechanism and
+**820 recorded closures — of which 653 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -102,6 +102,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (B1632): no identification of (S, T) with the lifts satisfies the Mp2(Z) relations exactly; they hold up to scalars (a projective representation); of the six genuine rescalings of (S~, L^-1) allowing weight 3/2, five give chi_{3/2} = 0 and one gives 1.` | 1 |  |
 | `Sealed (B1635): at i the one-dimensional O+ coupling at k = 1 has masses (1, 1/phi, 1/phi^2), and O+ at k = 5 and 9 is non-degenerate (k = 1 mod 4); everything is degenerate at i for k = 3 mod 4, and at omega for every k.` | 1 |  |
 | `Sealed (B1642): the pairing is an antisymmetric form, so the residue coupling Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)| is antisymmetric; its masses are (1, 1, 0) at every tau and on the tick's axis, the theta-triplet the massless direction; the identities behind it (duplication, residue, characters) hold to 1e-40.` | 1 |  |
+| `Sealed (B1644): det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes R isotropic, so the light state is exactly massless for every direction and tau; the golden spectrum is therefore impossible (distance exactly 1/phi^2).` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 

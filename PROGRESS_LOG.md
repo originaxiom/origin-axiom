@@ -17007,3 +17007,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - The owner asked whether any crossing to physics has been made. Answer from the record: four sealed crossings, none
   derived a number, each by fiat identification, none through a field. The census is next (P-104).
 - Every lane rowed to its head (the SM seat to 3ad7e14f, the audit lane to 40c93fbd); P-098 to P-108. Gates 45 of 45; full suite 7287 passed, 0 failed, 68 skipped (exit status 0). 0 of 19.
+
+## 2026-10-13 — S119 THE CROSSINGS CENSUS (B1643)
+
+- At the owner's question: no crossing from the principle's mathematics to a physical number has succeeded; every
+  attempt identified by fiat; none crossed through a field. The criteria C1–C6 for a crossing through a field; none ready.
+- The owner's four paths rowed (P-110 to P-113).
+- B1644, path 1: a Higgs in M gives the first coupling with flavour structure; Jacobi's identity forces one generation exactly
+  massless for every direction and τ; the other two in a ratio set by the direction (≥ ½ real, down to 0.004 complex). 0 of 19.

@@ -1,0 +1,21 @@
+{
+ "det_Y(a)": "(R_i**2 + R_j**2 + R_k**2)*(a_i**2 + a_j**2 + a_k**2)*(R_i*a_i + R_j*a_j + R_k*a_k)",
+ "det_is_identically_zero": false,
+ "null_vector": null,
+ "random_R_and_a": {
+  "real": {
+   "middle_range": [
+    0.35081065973734366,
+    0.9960959507225656
+   ],
+   "smallest_max": 0.9093731713345677
+  },
+  "complex": {
+   "middle_range": [
+    0.054074033075083225,
+    0.9853262308350049
+   ],
+   "smallest_max": 0.9486262037434349
+  }
+ }
+}

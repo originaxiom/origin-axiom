@@ -1,0 +1,24 @@
+{
+ "id": "B1644",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1642",
+  "B1641",
+  "B1643"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's fibre at its puncture; given Lambda; zero Wilson line",
+  "object": "the zero modes F_p = C_p F coupled to a Higgs in the adjoint of the quaternion structure (canonically M)",
+  "reach": "general",
+  "hypotheses": "the adjoint Higgs at the puncture and its residue coupling; the audit lane's parent map owed"
+ },
+ "claim_one_line": "A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed. 0 of 19.",
+ "weave_or_thread": "weave"
+}

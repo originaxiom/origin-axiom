@@ -1,1 +1,4 @@
+# sealed at 8fa3d82ba: 096a1874cfeaa7891b12ae330bcfbb96dd97297b7208fbf6bcf9269334a39b23  verification/adjoint_higgs.py (unchanged after the seal)
 096a1874cfeaa7891b12ae330bcfbb96dd97297b7208fbf6bcf9269334a39b23  verification/adjoint_higgs.py
+56eccd2878264a41593aa7881555d6c46d5391e2217283835f0697aff6fef114  verification/adjoint_higgs_fixed.py (the run's copy: one cast, disclosed)
+a1e1fc31dd9b0bbb325b097101adf2381d43103309443dcd3814855ff4c61c07  verification/adjoint_higgs.json
