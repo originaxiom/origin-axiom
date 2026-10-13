@@ -966,3 +966,14 @@ Ordinary versus logarithmic canonical lines and their exact eta-twelfth conversi
 | `reports/genesis_root_review_2026_10_11/cusp_spin_extension/verify.py` | `23d82f426401e80a25d7308e218802e01b161136fb5583e65a4dd52dcbd18e81` |
 | `reports/genesis_root_review_2026_10_11/cusp_spin_extension/test_verify.py` | `1029a1da69e682ac5b8c8b0af76c75337eb4325be951278df19a7de730ad48dd` |
 | `reports/genesis_root_review_2026_10_11/cusp_spin_extension/execute.py` | `1f4d2c0b610ee482a18fcb373104c058b4c053075737339fd762905ca4b5f43d` |
+
+
+## Modular cusp boolean-count repair pre-rerun seal 2026-10-13
+
+The original run stopped when summing symbolic comparison booleans; its receipt and explicitly redacted traceback are preserved. Replace that instrument operation with an integer count and add threshold regression tests. No mathematical premise or expected output changed. Push before rerun.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/cusp_spin_extension/verify.py` | `683a03b14cdb9b3b47a155d28dc833fe102e13de25f5e6950bc7fbdb98dffa64` |
+| `reports/genesis_root_review_2026_10_11/cusp_spin_extension/test_verify.py` | `96581c8fe888af864014ebc42bca061b4115cb895a1f19b0161eadce4040da86` |
+| `reports/genesis_root_review_2026_10_11/cusp_spin_extension/FIRST_FAILURE.md` | `b785468fc117b99932cc04ce7b29174170d0b6cdb8b2268a92283db14f7d77aa` |

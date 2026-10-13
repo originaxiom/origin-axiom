@@ -1,0 +1,37 @@
+{
+  "sources_before": {
+    "PREREGISTRATION.md": "7fc73d933f3e3e388910bc6a4158f988534374a7950518b49f381036521ffeba",
+    "PROOF.md": "ee993b3ee7277fdb716222718c1fefba8c827d02d2642860c738a7ceaf5bb28a",
+    "SOURCE_SCOPE.md": "a1e7cd64993b4edbe5fd691e2bc31bfd6e5bac909be091660d15500e637d55ae",
+    "verify.py": "23d82f426401e80a25d7308e218802e01b161136fb5583e65a4dd52dcbd18e81",
+    "test_verify.py": "1029a1da69e682ac5b8c8b0af76c75337eb4325be951278df19a7de730ad48dd",
+    "execute.py": "1f4d2c0b610ee482a18fcb373104c058b4c053075737339fd762905ca4b5f43d"
+  },
+  "runs": [
+    {
+      "label": "native",
+      "exit_code": 1,
+      "elapsed_seconds": 1.5157835019927006,
+      "stdout": {
+        "file": "native.stdout.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "file": "native.stderr.log",
+        "bytes": 744,
+        "sha256": "97c35b09fca2257dc39e2210a5e43e11957b1cb9583eac5f0a394e7a7536dfa1"
+      }
+    }
+  ],
+  "sources_after": {
+    "PREREGISTRATION.md": "7fc73d933f3e3e388910bc6a4158f988534374a7950518b49f381036521ffeba",
+    "PROOF.md": "ee993b3ee7277fdb716222718c1fefba8c827d02d2642860c738a7ceaf5bb28a",
+    "SOURCE_SCOPE.md": "a1e7cd64993b4edbe5fd691e2bc31bfd6e5bac909be091660d15500e637d55ae",
+    "verify.py": "23d82f426401e80a25d7308e218802e01b161136fb5583e65a4dd52dcbd18e81",
+    "test_verify.py": "1029a1da69e682ac5b8c8b0af76c75337eb4325be951278df19a7de730ad48dd",
+    "execute.py": "1f4d2c0b610ee482a18fcb373104c058b4c053075737339fd762905ca4b5f43d"
+  },
+  "source_unchanged": true,
+  "all_scheduled_runs_passed": false
+}

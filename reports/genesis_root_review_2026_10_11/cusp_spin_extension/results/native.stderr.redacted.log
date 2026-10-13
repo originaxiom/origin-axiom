@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "[workspace]/reports/genesis_root_review_2026_10_11/cusp_spin_extension/verify.py", line 133, in <module>
+    result = run()
+             ^^^^^
+  File "[workspace]/reports/genesis_root_review_2026_10_11/cusp_spin_extension/verify.py", line 94, in run
+    high = sum(x >= s.Rational(1, 2) for x in alpha)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "[python]/lib/python3.12/site-packages/sympy/logic/boolalg.py", line 249, in _noop
+    raise TypeError('BooleanAtom not allowed in this context.')
+TypeError: BooleanAtom not allowed in this context.

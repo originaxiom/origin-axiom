@@ -70,6 +70,10 @@ def cusp_map(alpha):
     return alpha+s.Rational(1, 2)-shift, shift
 
 
+def high_count(alpha):
+    return sum(1 for x in alpha if x >= s.Rational(1, 2))
+
+
 def run():
     checks, rows = {}, []
     def check(name, condition):
@@ -91,7 +95,7 @@ def run():
         for name, (a0, b0, k) in reps.items():
             a, b = sign*a0, sign*b0
             alpha = exponents(s.ImmutableMatrix(b))
-            high = sum(x >= s.Rational(1, 2) for x in alpha)
+            high = high_count(alpha)
             check(f'{name} sign{sign} unitary', zero(a.H*a-s.eye(a.rows)) and zero(b.H*b-s.eye(a.rows)))
             check(f'{name} sign{sign} modular relation', zero(a*a-(a*b)**3))
             check(f'{name} sign{sign} original zero', chi(k, a, b) == 0)

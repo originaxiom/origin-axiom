@@ -18,6 +18,13 @@ def test_spectral_control():
         v.exponents(s.ImmutableMatrix([[2]]))
 
 
+def test_symbolic_boolean_count_regression():
+    assert v.high_count([s.Rational(j, 8) for j in (1, 3, 7)]) == 1
+    assert v.high_count([s.Rational(j, 8) for j in (1, 5, 7)]) == 2
+    assert v.high_count([s.Rational(1, 2)]) == 1
+    assert v.high_count([]) == 0
+
+
 def test_triplet_exponents_and_sign():
     _, t, _ = v.representations()['T']
     assert v.exponents(s.ImmutableMatrix(t)) == tuple(s.Rational(j, 8) for j in (1, 3, 7))
