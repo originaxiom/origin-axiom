@@ -75,3 +75,12 @@ def test_full_fiber_and_quotient_with_nonzero_end_differential():
     full = v.full_fiber(C,T,f,A,(i0,i0,s.zeros(0)))
     quotient = v.cone(C,(s.zeros(1),s.zeros(0,1)),(s.zeros(1,0),s.zeros(1,0),z))
     assert v.census(full)['H'] == v.census(quotient)['H'] == [0,1,1,0]
+
+
+def test_explicit_quadratic_normalization_and_field_guard():
+    u = s.sqrt(2)
+    assert v.clean(s.Matrix([[1/(3+2*u)]])) == s.Matrix([[3-2*u]])
+    assert v.clean(s.Matrix([[(123+87*u)*(123-87*u)]])) == s.Matrix([[-9]])
+    assert v.clean(s.Matrix([[(1+u)**8]])) == s.Matrix([[577+408*u]])
+    with pytest.raises(AssertionError,match='outside Qsqrt2'):
+        v.clean(s.Matrix([[s.sqrt(3)]]))

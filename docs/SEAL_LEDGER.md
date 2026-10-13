@@ -915,3 +915,12 @@ Full positive and negative coefficient end complexes, both charged slots and the
 | `reports/genesis_root_review_2026_10_11/weighted_global_complex/test_verify.py` | `d5697e8372d6b7fa087b34a82821d9102d97aef54958843e567f063f6a10f2d8` |
 | `reports/genesis_root_review_2026_10_11/weighted_global_complex/execute.py` | `ab20df094138b06468a9dc6ecd4953bd625882f3f8dbec14fb12fec84ba5c6b8` |
 | `reports/genesis_root_review_2026_10_11/noncompact_admission/candidate.json` | `6e433ff754f80944fb39defe9e75ca8363bb6ebe2add6b7ecbf4d435dc23669b` |
+
+## Weighted flag normalization repair pre-rerun seal 2026-10-13
+
+First run stopped in symbolic field conversion; preserved and disclosed in FIRST_FAILURE.md. Exact radical normalization and a field-guard test replace that instrument step. No matrix formula, desired count or criterion changes. Reseal before second execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py` | `a1b21eafc41ce9271ac810386857802740d3014c8a42e9423d54f823e79ecfe1` |
+| `reports/genesis_root_review_2026_10_11/weighted_global_complex/test_verify.py` | `917b616f1c23fc49e960fa730b2a2e69898c4f02bb60f811177f5883889e5ab0` |

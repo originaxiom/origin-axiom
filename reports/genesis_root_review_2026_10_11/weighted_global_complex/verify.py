@@ -16,7 +16,14 @@ GEN = 'abt'
 
 
 def clean(M):
-    return s.Matrix(M).applyfunc(lambda x: s.expand(s.cancel(x, extension=ROOT2)))
+    def quadratic(x):
+        # Canonical exact radical reduction avoids inferred number-field embeddings.
+        y = s.expand(s.radsimp(x))
+        b = y.coeff(ROOT2)
+        a = s.expand(y-b*ROOT2)
+        assert a.is_Rational and b.is_Rational, ('outside Qsqrt2 in normalization',x,y)
+        return a+b*ROOT2
+    return s.Matrix(M).applyfunc(quadratic)
 
 
 def mul(A, B):

@@ -1,0 +1,63 @@
+Traceback (most recent call last):
+  File "<repository>/reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py", line 305, in <module>
+    main(Path(sys.argv[1]))
+  File "<repository>/reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py", line 240, in main
+    C,T,f,(P,Q) = core_and_boundary(rep,data)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repository>/reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py", line 117, in core_and_boundary
+    P,Q = word(rep,p),word(rep,q)
+          ^^^^^^^^^^^
+  File "<repository>/reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py", line 59, in word
+    A = mul(A, rep[letter] if letter in GEN else inv[letter.lower()])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repository>/reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py", line 23, in mul
+    return clean(A * B)
+           ^^^^^^^^^^^^
+  File "<repository>/reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py", line 19, in clean
+    return s.Matrix(M).applyfunc(lambda x: s.expand(s.cancel(x, extension=ROOT2)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/matrices/matrixbase.py", line 2108, in applyfunc
+    return self._eval_applyfunc(f)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/matrices/matrixbase.py", line 2040, in _eval_applyfunc
+    valmap = {v: f(v) for v in dok.values()}
+                 ^^^^
+  File "<repository>/reports/genesis_root_review_2026_10_11/weighted_global_complex/verify.py", line 19, in <lambda>
+    return s.Matrix(M).applyfunc(lambda x: s.expand(s.cancel(x, extension=ROOT2)))
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/polytools.py", line 7380, in cancel
+    R, (F, G) = sring((p, q), *gens, **args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/rings.py", line 175, in sring
+    polys = list(map(_ring.from_dict, reps))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/rings.py", line 372, in from_dict
+    coeff = domain_new(coeff, orig_domain)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/rings.py", line 331, in domain_new
+    return self.domain.convert(element, orig_domain)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/domains/domain.py", line 456, in convert
+    return self.from_sympy(element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/domains/algebraicfield.py", line 369, in from_sympy
+    return self(to_number_field(a, self.ext).native_coeffs())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py", line 510, in to_number_field
+    coeffs = field_isomorphism(root, theta)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py", line 232, in field_isomorphism
+    result = field_isomorphism_pslq(a, b)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/numberfields/subfield.py", line 124, in field_isomorphism_pslq
+    h = Poly(coeffs, f.gen, domain='QQ')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/polytools.py", line 183, in __new__
+    return cls._from_list(list(rep), opt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/polytools.py", line 289, in _from_list
+    rep = list(map(domain.convert, rep))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>/lib/python3.12/site-packages/sympy/polys/domains/domain.py", line 415, in convert
+    raise CoercionFailed('%s is not in any domain' % element)
+sympy.polys.polyerrors.CoercionFailed: nan is not in any domain
