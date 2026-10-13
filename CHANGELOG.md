@@ -1,5 +1,15 @@
 # Changelog
 
+## Reading W49–W54 together: the weave fixes shapes, not sizes; the sectors are not told apart; relay section 60
+
+- **A READING** (the owner asked to stop and think before the next arc; nothing computed): the weave forces shapes
+  and leaves every number free; where it is most itself (its group, its fixed points, its own weight with one τ) the
+  data reject it; the specific failure is that up quarks, down quarks and leptons are not told apart, and nothing in
+  the weave tells them apart; its numbers come as exact identities, not as fits; the hand counts' generic assumptions
+  failed three arcs running, exactly where the identities live.
+- **Next:** (a), the owner's choice: does the gauge side on record tell the sectors apart?
+- **Relay §60** to main. **Surfaces.** The dossier (the reading), the state page, the relay and the ledger.
+
 ## The weave's W54: the rank-13 structures — five fit, all with every sector at weight 5 or 7, none predicts; relay section 59
 
 - **W54** (the owner's choice: test the rank-13 structures; the rule 0b1b37503 first, the script aa130c8ca committed

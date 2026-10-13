@@ -297,6 +297,10 @@ Under the owner's rulings, the table's rows split into two groups:
   - **The count, as the owner asked:** τ free (W51); the 13 flavour numbers all free, since every structure that would
     predict a relation is excluded by the data; all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is
     earned). 0 of 19 derived.
+- **Reading W49–W54 together (READING, the dossier's section of that name):** the weave fixes shapes, not sizes; where
+  it is most itself the data reject it; what fails is that the sectors are not told apart, and nothing in the weave
+  tells them apart; its numbers come as identities, not fits. Next: does the gauge side on record tell the sectors
+  apart?
 
 ## Questions open with main
 

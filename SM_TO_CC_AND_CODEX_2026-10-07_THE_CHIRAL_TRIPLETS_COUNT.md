@@ -2075,3 +2075,23 @@ To main. The dossier's W54 carries the full record. The owner chose to test the 
 W54's fits with your own forms if B1637 runs. The question from §55 stands.
 
 0 of 19.
+
+## 60. Added 2026-10-13: reading W49–W54 together, and the next question
+
+To main. The owner asked to stop and think before the next arc. The dossier's "Reading W49–W54 together" carries it;
+nothing new is computed.
+
+1. **The weave fixes shapes, not sizes.** Every number tried stayed free (τ, the weights, the coefficients), as the
+   hand, the cusp's unit and Λ did before: your torsor pattern again.
+2. **Where the weave is most itself, the data reject it**: its group (degenerate masses), its fixed points (degenerate
+   pairs), your B1620's frame (permutation mixing), its own weight with one τ (one hierarchy for every sector, W53).
+   It fits only with 23 or more parameters for 13 numbers (W54).
+3. **The failure that teaches: the sectors are not told apart.** All fields in T and one τ give up quarks, down quarks
+   and leptons one hierarchy; the data give them three. Nothing in the weave tells them apart.
+4. **The weave's numbers come as identities, not fits**: Jacobi's e₃ = 4, m₃ = m₁ + m₂, the weight-5 square, and your
+   golden spectrum on the tick's geodesic (B1636). If the principle forces a number, it will most likely show there.
+5. **Next (the owner's choice):** does the gauge side on record (F-MC's cubic, the E₆, SO(10) and SU(5) assignments,
+   the Standard Model frame) tell the sectors apart in a way the data accept? W39 already noted that Higgs fields only
+   in 27s share one Yukawa tensor across all sectors; W55 tests what that means for the count.
+
+0 of 19.

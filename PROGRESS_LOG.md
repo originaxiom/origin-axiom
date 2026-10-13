@@ -18555,3 +18555,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Two cells failed as worded and were explained post hoc** ((7, 7, 7) fits exactly; the weight-5 span reaches rank
   one through a symmetric square). The owner's count is done: τ and all 13 flavour numbers are free, so all 19 of the
   19 on the ruled branch, given Λ (18 if I-18 is earned). Relay §59 sent.
+
+## 2026-10-13 — Reading W49–W54 together; relay §60
+
+- **The owner asked to stop and think before the next arc.** The reading, written into the dossier: the weave fixes
+  shapes, not sizes; the data reject it where it is most itself; what fails is that the sectors are not told apart;
+  the weave's numbers come as identities. Nothing new computed.
+- **Next, the owner's choice (a):** does the gauge side on record tell the sectors apart? Relay §60 sent.

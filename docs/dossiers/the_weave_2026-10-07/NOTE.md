@@ -3777,6 +3777,49 @@ labelled; W54's own output is unchanged).
 **Status.** COMPUTED (the rule first; one run; H0 and H2 as predicted; H1 and H3 failed as worded, both explained post
 hoc); a WEAVE result on the ruled branch, given Λ. 0 of 19.
 
+## Reading W49–W54 together (READING; the owner asked to stop and think before the next arc, 2026-10-13)
+
+Nothing here is computed. Each point cites the arc it rests on. Weave or thread: the points are about the joint
+structure (W49 to W54 are weave results); the tick's geodesic in point 4 is one thread's, the lowest closed geodesic,
+and is labelled so.
+
+1. **The weave fixes shapes, not sizes.**
+   - Forced: three, alike (W1–W4); the triplet T, the three even theta constants (W50); chirality under the weave's
+     group (W21, W22); the coupling forms by piece and weight, with a zero diagonal at the lowest weights (W50, W52).
+   - Free: every number tried. τ (W51), the weights (W52), the coefficients (W54); earlier the hand (W24–W29), the
+     cusp's unit (W47, GENESIS FK10) and the dictionary Λ (GENESIS FK11).
+   - Each time a freedom was removed it reappeared elsewhere. That is the record's torsor pattern: the space of vacua
+     supplied, the point withheld (`docs/THE_FORCED_AND_THE_FREE.md`).
+2. **Where the weave is most itself, the data reject it.**
+   - Its group alone gives degenerate masses (W38). Its fixed points i and ω give degenerate pairs (W50). With the
+     inner automorphisms, mixing is a permutation (main's B1620). Its own weight with one τ gives one hierarchy for
+     every sector (W53).
+   - It fits only with enough coefficients to predict nothing: 23 or more for 13 numbers (W54).
+   - So far, the structures that predict are wrong, and the ones that fit predict nothing. The world sits far from
+     every symmetric point the weave offers.
+3. **The failure that teaches: the sectors are not told apart.**
+   - At weight 3, all fields in T (Λ) and one τ (W51) give every sector the same light-to-heavy ratio, κ q^{1/4}
+     (W53's F4).
+   - The data give up quarks, down quarks and leptons different hierarchies, each wanting its own τ (W53's F1).
+   - The fits that work give the sectors different weights (W54), and nothing in the weave supplies them.
+   - So what tells the sectors apart is not in the weave. It has to come from the gauge side or from the dictionary
+     (GENESIS FK11). The next arc asks whether the gauge side on record does.
+4. **The weave's numbers come as identities, not as fits.**
+   - Jacobi's e₃ = 4 (W51); m₃ = m₁ + m₂ for the symmetric zero-diagonal coupling (W52); a symmetric rank-one
+     square at weight 5 (W54, post hoc); main's golden spectrum 1 : φ⁻¹ : φ⁻² on the principle's own closed geodesic
+     (B1636, a thread's locus).
+   - These are exact and forced. None matches a measured number yet; the second is broken by the data ×17 to ×136.
+   - If the principle forces a number, it will most likely show as such an identity, at a place the principle itself
+     marks, not at a fit's best point.
+5. **On method.** The hand counts assumed generic forms and failed in three arcs running (W52's C2, W53's M0(e),
+   W54's H1). Each time the weave was special exactly where a generic count misses it, and those special places are
+   where the identities of point 4 live.
+6. **What it means for the next step.**
+   - "What fixes τ, the weights and the coefficients" inside the weave is W51's question, answered no: the canonical
+     selectors pick ω or the cusp, and the data reject both.
+   - Two sharper questions remain: (a) does the gauge side on record tell the sectors apart (the owner's choice,
+     2026-10-13, next); (b) where does the principle mark a point (the tick's geodesic and its identity).
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
