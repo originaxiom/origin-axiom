@@ -1,0 +1,37 @@
+{
+  "assessment_date": "2026-10-13",
+  "supplied_archive": "/tmp/codex-remote-attachments/01a0bfa6-d2a9-7963-a8de-ac71db62b054/631B4B16-9352-4F66-B05F-BC3F7D28F4D5/1-Origin_Axiom_Banking_Seat_FULL_Through_Gate11_2026_10_13.zip",
+  "archive_sha256": "17eaecd0129975c3bf6eaf04f3e83a0c6b90241fa0503b3945e4540122a85f76",
+  "regular_files": 381,
+  "manifest_entries_verified": 378,
+  "crc_check_passed": true,
+  "unique_safe_paths_no_symlinks": true,
+  "expanded_member_byte_matches": 353,
+  "outer_unlisted_files": [
+    "MANIFEST_SHA256.json",
+    "EXPANDED_POST_GATE3/10_FAITHFUL_GATE_10/Gate10_Faithful_Records/MANIFEST_SHA256.json",
+    "EXPANDED_POST_GATE3/11_JOINT_STATE_GATE_11/Gate11/MANIFEST_SHA256.json"
+  ],
+  "original_post_gate3_archives": {
+    "Weave_Record_to_Physics_Joining_Gate_4.zip": "45f79414de19a903bfd9f847b00fcc1dd23b44c681a7651b1bbd54ff28cc591e",
+    "Weave_Record_to_Physics_Joining_Gate_5.zip": "7f6970b7c18e44071dfd82b8c575bebc21d8a1abfed1224f745a72a0eeb2cd70",
+    "Weave_Record_to_Physics_Joining_Gate_6.zip": "d59e52a8fd3448d0a17e08f1bdfeae83f7c1ad56a5d8815525631193774d702c",
+    "Weave_Math_Reaudit_Gate6_2026_10_12.zip": "7d0a07c12e993818f3b1e8f0c8249b85fa982b97ed33257906d7078be0a41609",
+    "Weave_Record_to_Physics_Joining_Gate_7.zip": "4abea6a7d43959ebba85c128ea1c6bd72ce17855fb1355abdbf02293cc6b9717",
+    "Weave_Joint_Action_Gate_9_Full_Weave_Correlations.zip": "34fbba8931aefac44bb923d8547121882ce13a1f7b2984d963ccd0e8d7e4a7a5",
+    "Weave_Faithful_Records_Gate_10_2026_10_13.zip": "196bdd7a6469cdddf2722c305efe8e94dda42c6e207e97568b6dd48d28faf63c",
+    "Weave_Joint_Action_Gate_11_Canonical_Haar_Braid_Clock_Central_Lifts.zip": "9c25554e604ade3b7832a7df7eed8cf1c1f6ce50d1d7942af08bc04ec68391bf"
+  },
+  "baseline_sha256": "84b1c111b774730cbec30d431eb1b7efad6e706d8c6af070243171eff2163443",
+  "baseline_members": 366,
+  "review_driver_sha256_before_execution": "5b67025e18146d35e344d3c82238f4f0f2caffb03e7e938578cf79b565e2c05f",
+  "scientific_processes": 10,
+  "scientific_process_exits": "all zero",
+  "replayed_predicates": 279,
+  "additional_exact_relation_controls": 5,
+  "aggregate_strict_json_comparison_exit": 1,
+  "aggregate_difference": "Four Gate11 floating W10 residuals only; all predicates and other non-timing data agree. Original tolerances unchanged.",
+  "source_originals_changed": false,
+  "full_scientific_archive_certification": false,
+  "main_adoption_or_external_analytic_acceptance": false
+}

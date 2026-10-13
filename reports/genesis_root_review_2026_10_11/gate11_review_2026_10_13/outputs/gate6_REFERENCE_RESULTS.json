@@ -1,0 +1,92 @@
+{
+  "facts": {
+    "original_full_double_relators": true,
+    "H0_original_zero": true,
+    "H0_dual_one": true,
+    "peripheral_dual_matching": true,
+    "all_boundary_symmetric_pairings_four": true,
+    "nonsplit_global_symmetric_pairing_one": true,
+    "split_geometry_symmetric_pairings_two": true,
+    "explicit_pairing_basis_full_rank": true,
+    "all_explicit_pairings_invariant": true,
+    "full_nondiagonal_seam_inverse": true,
+    "full_nondiagonal_seam_all_relators": true,
+    "full_nondiagonal_opposite_square": true,
+    "relative_generators_preserve_peripheral_data": true,
+    "tangent_relator_product_rule_0": true,
+    "tangent_relator_product_rule_1": true,
+    "tangent_relator_product_rule_2": true,
+    "full_parent_identity_248": true,
+    "three_full_E8_invariants_have_nonzero_jacobian": true,
+    "old_z_direction_survives_full_parent_gauge_quotient": true,
+    "parent_character_coefficients_from_separate_arithmetic": true,
+    "incorrect_fixed_parameter_erases_detected_variation": true,
+    "same_copy_preserves_four_plane": true,
+    "dual_copy_does_not_preserve_that_four_plane": true
+  },
+  "predicates_passed": 23,
+  "E8_first_three_gradient_rows": [
+    [
+      [
+        "17000",
+        "-10000"
+      ],
+      [
+        "11200",
+        "-7200"
+      ],
+      [
+        "-5600",
+        "3600"
+      ]
+    ],
+    [
+      [
+        "-1200",
+        "-500"
+      ],
+      [
+        "320",
+        "-600"
+      ],
+      [
+        "-460",
+        "380"
+      ]
+    ],
+    [
+      [
+        "6600",
+        "-4200"
+      ],
+      [
+        "5360",
+        "-2880"
+      ],
+      [
+        "-1740",
+        "780"
+      ]
+    ]
+  ],
+  "E8_gradient_minor": [
+    "49536000000",
+    "-34628000000"
+  ],
+  "parent_character_coefficients": [
+    [
+      "-88",
+      "0"
+    ],
+    [
+      "160",
+      "-180"
+    ],
+    [
+      "150",
+      "-100"
+    ]
+  ],
+  "elapsed_seconds": 2.573943612005678,
+  "scope": "Separate exact Fraction arithmetic; same author and original coefficient input. No new global H1 census or PDE/physics theorem certification."
+}

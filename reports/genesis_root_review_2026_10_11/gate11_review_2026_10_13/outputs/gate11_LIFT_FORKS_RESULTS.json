@@ -1,0 +1,22 @@
+{
+  "caveat": "The signed V6 move-image groups can be finite quotients of an appropriate CENTRAL LIFT group, not ordinary Aut(F2) as-is; no classification of lift group proved",
+  "checks": {
+    "P_squared_not_identity_in_original_lift": true,
+    "S_squared_not_identity_in_original_lift": true,
+    "central_MINUS_I_commutes_with_swap_and_sign": true,
+    "central_MINUS_I_has_order_two": true,
+    "full_six_dim_W10_sign_squared_is_MINUS_I": true,
+    "full_six_dim_W10_swap_squared_is_MINUS_I": true,
+    "full_six_dim_wrong_ordinary_P_squared_rejected": true,
+    "full_six_dim_wrong_ordinary_S_squared_rejected": true,
+    "negative_mutation_based_sign_and_swap_should_fail": true,
+    "sign_based_S_squared_is_identity": true,
+    "sign_lift_S_squared_is_MINUS_I": true,
+    "swap_based_P_squared_is_identity": true,
+    "swapped_lift_P_squared_is_MINUS_I": true
+  },
+  "checks_passed": 13,
+  "lift_P_squared": "-I_6",
+  "lift_S_squared": "-I_6",
+  "status": "exact sign/swap central extension witnesses, not Aut(F2) quotient"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks_passed": 9,
+  "checks": {
+    "exact_projection_idempotent": true,
+    "projection_metric_selfadjoint": true,
+    "projection_keeps_fixed_four_plane": true,
+    "flag_derivative_upper_only": true,
+    "flag_derivative_coefficient": true,
+    "offblock_reflection_parity": true,
+    "all_metric_directions_tracefree": true,
+    "harmonic_geodesic_parameter": true,
+    "same_value_different_normal": true
+  },
+  "scope": "projector variation and coefficient of flag source; no new core solve"
+}

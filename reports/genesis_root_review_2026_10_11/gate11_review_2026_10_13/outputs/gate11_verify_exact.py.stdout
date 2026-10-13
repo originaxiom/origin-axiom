@@ -1,0 +1,3 @@
+Gate11 exact PASS 51 predicates
+source96+mod3= 2304 source192+mod3= 4608 cyclic clocks= {'5': 11520, '7': 16128, '11': 25344}
+central lift (4, (1, 0, 0, 0, 1, 0, 0, 0, 1)) vs based commutator image (0, (1, 0, 0, 0, 1, 0, 0, 0, 1))

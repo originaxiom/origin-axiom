@@ -1,0 +1,57 @@
+{
+  "checks": {
+    "central_inner_has_order_prime_3": true,
+    "central_inner_has_order_prime_5": true,
+    "central_inner_trivial_only_to_degree2_3_1": true,
+    "central_inner_trivial_only_to_degree2_3_2": true,
+    "central_inner_trivial_only_to_degree2_3_3": true,
+    "central_inner_trivial_only_to_degree2_5_2": true,
+    "central_inner_trivial_only_to_degree2_5_3": true,
+    "independent_modular_SL2_count_3": true,
+    "independent_modular_SL2_count_5": true,
+    "independent_signed_generator_inverses_3_1": true,
+    "independent_signed_generator_inverses_3_2": true,
+    "independent_signed_generator_inverses_3_3": true,
+    "independent_signed_generator_inverses_5_2": true,
+    "independent_signed_generator_inverses_5_3": true,
+    "independent_sparse_image_count_3_1": true,
+    "independent_sparse_image_count_3_2": true,
+    "independent_sparse_image_count_3_3": true,
+    "independent_sparse_image_count_5_2": true,
+    "independent_sparse_image_count_5_3": true,
+    "source_tick_gap_exact_depth_3_1": true,
+    "source_tick_gap_exact_depth_3_2": true,
+    "source_tick_gap_exact_depth_3_3": true,
+    "source_tick_gap_exact_depth_5_2": true,
+    "source_tick_gap_exact_depth_5_3": true
+  },
+  "checks_passed": 24,
+  "result": {
+    "3:1": {
+      "delta4_nontrivial": false,
+      "image": 24,
+      "tick_gap": false
+    },
+    "3:2": {
+      "delta4_nontrivial": false,
+      "image": 24,
+      "tick_gap": true
+    },
+    "3:3": {
+      "delta4_nontrivial": true,
+      "image": 1944,
+      "tick_gap": true
+    },
+    "5:2": {
+      "delta4_nontrivial": false,
+      "image": 120,
+      "tick_gap": true
+    },
+    "5:3": {
+      "delta4_nontrivial": true,
+      "image": 600,
+      "tick_gap": true
+    }
+  },
+  "status": "separate sparse arithmetic, same author"
+}

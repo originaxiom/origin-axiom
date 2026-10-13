@@ -1,0 +1,238 @@
+{
+  "replays": {
+    "gate4": {
+      "source_directory": "/private/tmp/oa-through-gate11-read-qrhkm68c/Origin_Axiom_Banking_Seat_2026_10_13/EXPANDED_POST_GATE3/04_JOINING_GATE_4",
+      "copy_directory": "/private/tmp/oa-gate11-review-Nmb5QHdI/gate4",
+      "runs": [
+        {
+          "script": "verify_exact.py",
+          "source_sha256": "e757afd1827638158878a5a45036705d582e921ca407f6b23f2a13f51a76a0be",
+          "exit_code": 0,
+          "elapsed_seconds": 3.6379035349964397,
+          "stdout_sha256": "7198f18cc92ba3e21b006e75013d9681e8ddf82595d464aae1735ad05d1260f8",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 1990,
+          "stderr_bytes": 0
+        },
+        {
+          "script": "verify_projector.py",
+          "source_sha256": "52c12a0b86aa86ba36e093fe18f45e9befd839ae6520e72e99b72235d4364e1b",
+          "exit_code": 0,
+          "elapsed_seconds": 0.5258693990035681,
+          "stdout_sha256": "ab5e8719814d95a00a24a61389b1013c86106c848aaee3ccd83101e97f031052",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 526,
+          "stderr_bytes": 0
+        }
+      ],
+      "results": {
+        "EXACT_RESULTS.json": {
+          "scientific_json_equal": true,
+          "byte_equal": true,
+          "source_sha256": "7198f18cc92ba3e21b006e75013d9681e8ddf82595d464aae1735ad05d1260f8",
+          "replay_sha256": "7198f18cc92ba3e21b006e75013d9681e8ddf82595d464aae1735ad05d1260f8"
+        },
+        "MATRICES.json": {
+          "scientific_json_equal": true,
+          "byte_equal": true,
+          "source_sha256": "0aa48851b08a7473ba34aeb2b0b5ff18fbdb54b08cebd4afa66f0907efd5d6f6",
+          "replay_sha256": "0aa48851b08a7473ba34aeb2b0b5ff18fbdb54b08cebd4afa66f0907efd5d6f6"
+        },
+        "PROJECTOR_RESULTS.json": {
+          "scientific_json_equal": true,
+          "byte_equal": true,
+          "source_sha256": "ab5e8719814d95a00a24a61389b1013c86106c848aaee3ccd83101e97f031052",
+          "replay_sha256": "ab5e8719814d95a00a24a61389b1013c86106c848aaee3ccd83101e97f031052"
+        }
+      },
+      "original_source_unchanged": true
+    },
+    "gate6": {
+      "source_directory": "/private/tmp/oa-through-gate11-read-qrhkm68c/Origin_Axiom_Banking_Seat_2026_10_13/EXPANDED_POST_GATE3/06_JOINING_GATE_6/weave_joining_gate6_2026_10_11",
+      "copy_directory": "/private/tmp/oa-gate11-review-Nmb5QHdI/gate6",
+      "runs": [
+        {
+          "script": "verify_reference.py",
+          "source_sha256": "f9503c5c423ea24fcb2c1e7cf92cb0257319a3546ccc0a91ff9b2dfea60acceb",
+          "exit_code": 0,
+          "elapsed_seconds": 2.6405142599978717,
+          "stdout_sha256": "2eb077a747d6ed071fc35622b88d776fae5ac7df08582fea5e71f44130184c88",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 981,
+          "stderr_bytes": 0
+        }
+      ],
+      "results": {
+        "outputs/REFERENCE_RESULTS.json": {
+          "scientific_json_equal": true,
+          "byte_equal": false,
+          "source_sha256": "d8648dc5556a6befa948fe69dc771d7dbdd375c2cbf3130a118f407edd0237ca",
+          "replay_sha256": "f7dfe85c3a110b0c893a27c86b1d565ff50a806069689a09aa64e15c2202f6a2"
+        }
+      },
+      "original_source_unchanged": true
+    },
+    "gate7": {
+      "source_directory": "/private/tmp/oa-through-gate11-read-qrhkm68c/Origin_Axiom_Banking_Seat_2026_10_13/EXPANDED_POST_GATE3/07_JOINING_GATE_7/weave_joining_gate7_2026_10_12",
+      "copy_directory": "/private/tmp/oa-gate11-review-Nmb5QHdI/gate7",
+      "runs": [
+        {
+          "script": "verify_reference.py",
+          "source_sha256": "3117e7f53661d4a04d60ab1569bcc927dfab7f5b8dfd8eba71f1d6121d668d82",
+          "exit_code": 0,
+          "elapsed_seconds": 0.21687514299992472,
+          "stdout_sha256": "fa75df9e1ad98d0e7ed17a6aa2d769cb0c56acc7757862bdb943c032019390fe",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 1463,
+          "stderr_bytes": 0
+        }
+      ],
+      "results": {
+        "outputs/REFERENCE_RESULTS.json": {
+          "scientific_json_equal": true,
+          "byte_equal": false,
+          "source_sha256": "8c307dd88b6a739a8ba4f72be6b341e4db69040bb7e9c0a970f01b2bfefa8592",
+          "replay_sha256": "fa75df9e1ad98d0e7ed17a6aa2d769cb0c56acc7757862bdb943c032019390fe"
+        }
+      },
+      "original_source_unchanged": true
+    },
+    "gate9": {
+      "source_directory": "/private/tmp/oa-through-gate11-read-qrhkm68c/Origin_Axiom_Banking_Seat_2026_10_13/EXPANDED_POST_GATE3/09_JOINT_WEAVE_GATE_9/Gate9_Weave_Joint_Action",
+      "copy_directory": "/private/tmp/oa-gate11-review-Nmb5QHdI/gate9",
+      "runs": [
+        {
+          "script": "verify_reference.py",
+          "source_sha256": "a1ecaed0cb981f04f2fef20e1880c4be674600cf11fe25538f123ab73bebcb54",
+          "exit_code": 0,
+          "elapsed_seconds": 0.19574138900497928,
+          "stdout_sha256": "c1edc6b5455915981d95037788277bf938f8b3c6a7c519646e6c3d83d7279bfa",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 135,
+          "stderr_bytes": 0
+        }
+      ],
+      "results": {
+        "REFERENCE_RESULTS.json": {
+          "scientific_json_equal": true,
+          "byte_equal": true,
+          "source_sha256": "e778c55eb4634b915f77b553f124b17670f414a18cf13901ec7557ca6a80b145",
+          "replay_sha256": "e778c55eb4634b915f77b553f124b17670f414a18cf13901ec7557ca6a80b145"
+        }
+      },
+      "original_source_unchanged": true
+    },
+    "gate10": {
+      "source_directory": "/private/tmp/oa-through-gate11-read-qrhkm68c/Origin_Axiom_Banking_Seat_2026_10_13/EXPANDED_POST_GATE3/10_FAITHFUL_GATE_10/Gate10_Faithful_Records",
+      "copy_directory": "/private/tmp/oa-gate11-review-Nmb5QHdI/gate10",
+      "runs": [
+        {
+          "script": "verify_reference.py",
+          "source_sha256": "4da2832bb8149adf225be9239267f270ada999bb3c7e2187412a1f0f6277f046",
+          "exit_code": 0,
+          "elapsed_seconds": 0.37552535701252054,
+          "stdout_sha256": "3abfa853f703f2eaafee88351dfd8540d8fe5a7f2c312ca7006187051258ad43",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 380,
+          "stderr_bytes": 0
+        }
+      ],
+      "results": {
+        "REFERENCE_GATE10.json": {
+          "scientific_json_equal": true,
+          "byte_equal": true,
+          "source_sha256": "30c76f0a26a99e6b85b6fd36b9b568371a97ef034aa51ca9073658484a853eb9",
+          "replay_sha256": "30c76f0a26a99e6b85b6fd36b9b568371a97ef034aa51ca9073658484a853eb9"
+        }
+      },
+      "original_source_unchanged": true
+    },
+    "gate11": {
+      "source_directory": "/private/tmp/oa-through-gate11-read-qrhkm68c/Origin_Axiom_Banking_Seat_2026_10_13/EXPANDED_POST_GATE3/11_JOINT_STATE_GATE_11/Gate11",
+      "copy_directory": "/private/tmp/oa-gate11-review-Nmb5QHdI/gate11",
+      "runs": [
+        {
+          "script": "verify_exact.py",
+          "source_sha256": "b6922d0897c93e3b1b4314ae6398abf0402812963360b397a45a6b8b04704ad8",
+          "exit_code": 0,
+          "elapsed_seconds": 1.549425406003138,
+          "stdout_sha256": "1b801c1164f3d3b5615b3d4eea271fb6b0581068c091c19101d0840f00c0fca5",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 231,
+          "stderr_bytes": 0
+        },
+        {
+          "script": "verify_reference.py",
+          "source_sha256": "1601bb249da3825275f61b65420920ecf3a9b703b7293191e21b362403811b3b",
+          "exit_code": 0,
+          "elapsed_seconds": 0.6657547179929679,
+          "stdout_sha256": "c8ae6199517ea97926b77e2b5dfd69245ca75d586222fd2e79b74530280b39ce",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 106,
+          "stderr_bytes": 0
+        },
+        {
+          "script": "verify_hilbert.py",
+          "source_sha256": "706f81407d3e48d5a555647e375d172c6a1c9db35833f660af22b51432d51de1",
+          "exit_code": 0,
+          "elapsed_seconds": 0.058330885993200354,
+          "stdout_sha256": "998b25ba52e7d8fe4523dd076540f729d4c9586b995ff65fcc479d91c0eeff17",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 226,
+          "stderr_bytes": 0
+        },
+        {
+          "script": "verify_lift_forks.py",
+          "source_sha256": "6c74d7429ce22cd000ee87c2b567d96d92853bd4207176ff6ee1274bd1f9332a",
+          "exit_code": 0,
+          "elapsed_seconds": 0.1278690640028799,
+          "stdout_sha256": "ef27a7d487b93d33cd65d30ce2062cffc34a19a8ed71b41ac0e4bea2c8d2c438",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 44,
+          "stderr_bytes": 0
+        }
+      ],
+      "results": {
+        "RESULTS_GATE11.json": {
+          "scientific_json_equal": true,
+          "byte_equal": true,
+          "source_sha256": "45e0ac1fb696fac4fae87abbdda32deb9536805c88d20af8fa3f41b33fe60575",
+          "replay_sha256": "45e0ac1fb696fac4fae87abbdda32deb9536805c88d20af8fa3f41b33fe60575"
+        },
+        "REFERENCE_RESULTS.json": {
+          "scientific_json_equal": false,
+          "byte_equal": false,
+          "source_sha256": "d9f62e6d496d95c8fb4e784fb6d56301cd0c63e8eecde95b397efc1ea51f58f5",
+          "replay_sha256": "2c79909e3f551f4569b24d226894d7738adc61dfc4be66a85ca30c08b2b87e2b"
+        },
+        "HILBERT_RESULTS.json": {
+          "scientific_json_equal": true,
+          "byte_equal": true,
+          "source_sha256": "826021f3d287946afcaa9fd10ed91fbcd194fb12fd2491d8272a0a5258350c21",
+          "replay_sha256": "826021f3d287946afcaa9fd10ed91fbcd194fb12fd2491d8272a0a5258350c21"
+        },
+        "LIFT_FORKS_RESULTS.json": {
+          "scientific_json_equal": true,
+          "byte_equal": true,
+          "source_sha256": "f8b3ba1edd9ba6b003a206f9d8d6a0770a45b45dbb9a2f7b268c3b4ff2b0cd81",
+          "replay_sha256": "f8b3ba1edd9ba6b003a206f9d8d6a0770a45b45dbb9a2f7b268c3b4ff2b0cd81"
+        }
+      },
+      "original_source_unchanged": true
+    }
+  },
+  "ruled_metaplectic_relation_controls": {
+    "checks": {
+      "ruled_braid_relation": true,
+      "Mp2_s_squared_equals_st_cubed_without_rephasing": true,
+      "Mp2_s_eighth_is_identity": true,
+      "Mp2_s_fourth_is_minus_identity_not_ordinary_SL2": true,
+      "optional_based_sign_is_separate_and_its_lift_squares_minus_identity": true
+    },
+    "grade": "exact relations of the source normal-form matrices; not a rerun of theta-function identification or an Aut(F2) lift classification",
+    "source_sha256": "b6922d0897c93e3b1b4314ae6398abf0402812963360b397a45a6b8b04704ad8"
+  },
+  "all_original_expanded_files_unchanged": true,
+  "comparison_ignores_only_field": "elapsed_seconds",
+  "interpreter": "/Users/dri/.pyenv/versions/3.12.1/bin/python3"
+}

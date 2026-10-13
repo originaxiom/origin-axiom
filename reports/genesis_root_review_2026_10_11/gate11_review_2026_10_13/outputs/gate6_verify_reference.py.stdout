@@ -1,0 +1,27 @@
+PASS original_full_double_relators
+PASS H0_original_zero
+PASS H0_dual_one
+PASS peripheral_dual_matching
+PASS all_boundary_symmetric_pairings_four
+PASS nonsplit_global_symmetric_pairing_one
+PASS split_geometry_symmetric_pairings_two
+PASS explicit_pairing_basis_full_rank
+PASS all_explicit_pairings_invariant
+PASS full_nondiagonal_seam_inverse
+PASS full_nondiagonal_seam_all_relators
+PASS full_nondiagonal_opposite_square
+PASS relative_generators_preserve_peripheral_data
+PASS tangent_relator_product_rule_0
+PASS tangent_relator_product_rule_1
+PASS tangent_relator_product_rule_2
+PASS full_parent_identity_248
+PASS three_full_E8_invariants_have_nonzero_jacobian
+PASS old_z_direction_survives_full_parent_gauge_quotient
+PASS parent_character_coefficients_from_separate_arithmetic
+PASS incorrect_fixed_parameter_erases_detected_variation
+PASS same_copy_preserves_four_plane
+PASS dual_copy_does_not_preserve_that_four_plane
+{
+  "predicates_passed": 23,
+  "seconds": 2.573943612005678
+}

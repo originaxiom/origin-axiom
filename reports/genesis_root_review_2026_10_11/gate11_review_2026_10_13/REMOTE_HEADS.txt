@@ -1,0 +1,14 @@
+All-head fetch on October 13, 2026. Local tracking references, including retained historical refs.
+Public role aliases follow the repository attribution rule. Commit identities are unchanged.
+remote-default 6c148ddd495d133213140995976ff08849793d5d
+foundational-audit d2dc2621c8b5d437646b7014a2670f34be93d856
+physical-bridge 25a6d036d767b5af36e4d4a7071f7520e3b45405
+web-seat d40c1ab6ec7201c1a0763b6a70a1b265c86aa3ee
+weave-archive d7e4afeb7d0e13eb786f50893f02fe18b965520c
+legacy-development-seat 6a537f899c9c1882930475144a30ae76aa2966d8
+outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954
+paper-review 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd
+common-cover-seat 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511
+standard-model-seat 6877cc87d31941a85f139e2f25e5e13694e22ce6
+main 6c148ddd495d133213140995976ff08849793d5d
+legacy-september16 3205984b48d1b98a80042cdc70916878973980f5

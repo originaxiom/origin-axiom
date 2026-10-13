@@ -1,0 +1,57 @@
+{
+  "checks": {
+    "Gram_nonsingular_mod_1013": true,
+    "Gram_nonsingular_mod_1019": true,
+    "all_SO3_signed_cube_rotations_24": true,
+    "connected_rank47_mod_1013": true,
+    "connected_rank47_mod_1019": true,
+    "connected_two_step_minus_one_432": true,
+    "covariance_antisymmetric_zero_(0, 1)": true,
+    "covariance_antisymmetric_zero_(0, 2)": true,
+    "covariance_antisymmetric_zero_(1, 2)": true,
+    "covariance_diag_traceless_(0, 1)": true,
+    "covariance_diag_traceless_(1, 2)": true,
+    "covariance_scalar_eigen_71_432": true,
+    "covariance_sym_offdiagonal_(0, 1)": true,
+    "covariance_sym_offdiagonal_(0, 2)": true,
+    "covariance_sym_offdiagonal_(1, 2)": true,
+    "even_move_subgroup_48": true,
+    "fixed_rank_histogram": true,
+    "full_48_Gram_symmetric": true,
+    "independent_history_baseline": true,
+    "mixed_moves_overlap_one_ninth": true,
+    "normal_form_group_96": true,
+    "not_a_random_rotation_artifact": true,
+    "positive_LR_word_semigroup_reaches_entire_group": true,
+    "same_moves_have_disjoint_fixed_spaces": true,
+    "stationary_mean_is_scalar": true,
+    "variance_exact_155_432": true
+  },
+  "checks_passed": 26,
+  "connected_Gram_rank": 47,
+  "even_order": 48,
+  "full_Gram_rank": 48,
+  "group_order": 96,
+  "mean": "5/36 I3",
+  "rank_histogram": {
+    "0": 33,
+    "1": 11,
+    "2": 3,
+    "3": 1
+  },
+  "rotation_count": 24,
+  "second_cumulant_spectrum": {
+    "0": 3,
+    "1/24": 2,
+    "1/27": 3,
+    "71/432": 1
+  },
+  "status": "EXACT pure-stdlib independent reconstruction of ruled L,R finite quotient",
+  "two_step_autocorrelation": {
+    "LL": "0",
+    "LR": "1/9",
+    "RL": "1/9",
+    "RR": "0"
+  },
+  "two_step_connected": "-1/432"
+}

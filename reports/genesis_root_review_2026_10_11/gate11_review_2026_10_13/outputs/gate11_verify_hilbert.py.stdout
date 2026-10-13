@@ -1,0 +1,5 @@
+Gate11 Haar cylinder PASS 33 exact predicates
+ruled_p3d1_to_G96 fiber 24 rank 2303 -> 95
+ruled_p3d3_to_p3d1 fiber 81 rank 186623 -> 2303
+swap_p3d1_to_G192 fiber 24 rank 4607 -> 191
+swap_p3d2_to_p3d1 fiber 9 rank 41471 -> 4607
