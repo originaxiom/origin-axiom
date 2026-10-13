@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-13 — Audit branch horizontal projection and projected cusp operator
+
+For the prescribed semi-flat metric and extreme puncture domains, an authored
+argument controls harmonic projection derivatives and bounded total mixing.
+The leading projected connection recovers the half-Hodge weight with the mixed
+spin term included; actual cusp phases confine the projected block. The mixing
+profile is not in the vertical Dirac domain, so the full complementary estimate
+cannot be replaced by an unqualified formal square. All66 exact safeguards and
+seven tests pass after a preserved and resealed detector repair. Analytic review,
+full total Fredholm/index comparison and physical parent/selection remain owed.
+No shared bank number or canonical genesis promotion is made.
+Report: reports/genesis_root_review_2026_10_11/horizontal_projection/FINDINGS.md.
+
 ## 2026-09-20 — R38 earns a parent-group map and tests the actual field vertex
 
 The actual compact H embeds faithfully into a candidate compact E8:

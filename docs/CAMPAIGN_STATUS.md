@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**October13 audit-branch update:** the supplied extreme puncture kernels now
+have an authored bounded horizontal projection and coupling estimate. The
+leading quarter connection and actual inverse-move cusp phases give confinement
+of the projected harmonic block. All66 exact safeguards and seven tests pass
+after a preserved detector repair; analytic acceptance is still owed. Next prove
+the full complementary TOTAL block estimate on the admitted domain, then the
+total index comparison. Its vertical gap alone is not that proof. Same-field
+physical parent, domain/end selection and observables remain separate duties.
+No canonical promotion or physical generation identification is performed.
+Report: reports/genesis_root_review_2026_10_11/horizontal_projection/FINDINGS.md.
+
 **LATEST LOCAL RESULT, R38 (September 20): the parent map and the action are different gates.**
 An explicit integral, saturated H-to-E8 map supplies the actual Q/S
 weights, with every extra sector counted. The specified classical

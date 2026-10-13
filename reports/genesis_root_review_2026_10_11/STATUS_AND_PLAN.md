@@ -8,6 +8,8 @@ This is an audit and work plan, not a new banked theorem or a replacement for ca
 
 ## What the refreshed record changes
 
+Latest October 13: [horizontal_projection/FINDINGS.md](horizontal_projection/FINDINGS.md) supplies an authored bounded harmonic projection/coupling estimate, derives the leading quarter connection from the complete spin operator, and confines the projected three-mode block using the actual cusp phases. All66 exact safeguards and seven tests pass after a preserved, resealed exact-radical detector repair. This is not full total Fredholmness. The limiting mixing profile fails vertical-domain invariance, so the next complementary TOTAL block estimate must respect the closed puncture domain rather than substitute the vertical inverse. Independent analytic review and the same-field physical parent/selection remain owed. Physical25473f384's new retained-coefficient embedding publication was read, not replayed or used as spectral evidence here.
+
 | Development | What the record supports | Limit relevant to the root review |
 |---|---|---|
 | Main B1634 and W50 | Main corrects the lift helper's sign error and identifies the weave's genuine metaplectic representation with the theta multiplier. The earlier “only projective” diagnosis must not be used as a standing obstruction. | The full representation calculation has not been independently rerun in this review. Its identification does not derive the physical link Λ or the end unit. |
