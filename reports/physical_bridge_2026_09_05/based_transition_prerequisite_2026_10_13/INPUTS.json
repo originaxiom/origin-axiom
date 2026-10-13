@@ -1,0 +1,54 @@
+{
+  "scope": "pre-execution source pins for one conditional factorized loop test; not a physical global bundle certificate",
+  "upstream_heads": {
+    "origin/main": "55bd29ab791f44666b5555b8cdf9af1f0f72b523",
+    "origin/audit/fork-2026-09-20": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/claude/standard-model-derivation-0qt6ao": "869693a2e06be90ff32353fc157a686b4c4854a9"
+  },
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/DESIGN.md",
+      "sha256": "51e126f2667f53f5acfad8eed7f303cdf9fc0bcde246de96898150076d39717a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/PROOF.md",
+      "sha256": "8374933126c41e24b9d167fae89f931f7b72c95bba0da6aa927646cafb3d91d6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/probe.py",
+      "sha256": "3a708cb2d5c593024ca9355ddffd9bee2afe888e15581c79cf8691abb4f13f69"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/reference.py",
+      "sha256": "59173cb9d95adb6da5908009297680983326e574ca40315960bbdb4127f300ce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/execute.py",
+      "sha256": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664"
+    },
+    {
+      "path": "tests/test_physical_bridge_based_transition_prerequisite.py",
+      "sha256": "ef5eb9cea08e3d00d823dff7c2bddbdeb1e6934f221ce2e931ce89e67b8f2895"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py",
+      "sha256": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py",
+      "sha256": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md",
+      "sha256": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
+      "sha256": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_PROOF.md",
+      "sha256": "9cc1c8b9f2f05e6521880d3986c1e2138468e8ed09419bdab6d34bc7be280447"
+    }
+  ]
+}
