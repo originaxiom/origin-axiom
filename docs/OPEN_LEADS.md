@@ -1,5 +1,22 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-RETAINED-REGISTER-MAP: completed CONDITIONALLY for the TWO specified
+E8 embeddings and actual local rank6 coefficient. Literal unitary map
+retains the quaternion sign and move action, full248 trace/cubic gives
+720c L_s. First70/44 and46 selected live PASS; source-reference metadata
+only resealed. Scope is a regular local relative primitive, not the
+singular common-point kernel or a physical theory. Closing sentence:
+"The common coefficient embedding is earned; an equality of their
+kernels or domains is not." Source:
+reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/FINDINGS.md.
+PB-RETAINED-TOTAL-PHYSICAL-PARENT: OPEN. Exhibit ONE physical Weyl/gauge/
+scalar parent and operator/domain on the actual elliptic total space,
+with spin/gauge/kinetic transitions, mixed connection term, complementary
+modes and both ends. Derive or price Lambda/unit/end/embedding selection;
+only then compare complete charged/conjugate kernels and interactions.
+Do not transport the compact silver3 or curve56 by a shared count.
+NEXT_TEST in the same packet; outside/full-suite/main and full goal owed.
+
 PB-COVER-FINITE-EXTENSION: completed CONDITIONALLY at the supplied compact
 scope. Closing sentence: "The ordinary induced nil extension preserves
 charged cohomology and the complete holomorphic cubic tensor for all q

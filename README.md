@@ -1,5 +1,14 @@
 # Origin Axiom
 
+October13 physical-bridge checkpoint: a verified E8 coefficient map now
+retains the puncture lift while carrying the local registered variational
+relation. This is a conditional mathematical join, not three derived
+physical SM families. The common physical action/operator/domain and
+generated end law remain the next obligations; the compact silver
+charged/interaction positives retain their own scope.70/44 exact guards
+and46 selected tests pass; full-suite/outside/main acceptance remains owed.
+Report: reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/FINDINGS.md.
+
 October13 exact-neutral-line checkpoint:39 native/39 Fraction exact and17
 selected live tests PASS84.11s at unchanged pushed seal0b36fc3e0,80 pins.
 Actual compensated odd relative direction is nonexact and globally nil:

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 1.752042092004558,
+      "exact_predicates": 70
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 0.31412317299691495,
+      "exact_predicates": 44
+    }
+  ],
+  "scope": "two explicit retained-coefficient E8 maps and local relative primitive; not an operator domain or generated physical SM",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "e05d62e0143079e4614576781a3f278cda2b9736",
+  "initial_source_hashes_match": true,
+  "shared_actual_outputs_agree": true,
+  "tracked_worktree_unchanged": true,
+  "source_inputs_unchanged": true,
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 5399,
+      "sha256": "1028dea16c6e4416a17cac654bad08455e32bcc5ffef86d94067c59f6d700159"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 4371,
+      "sha256": "08be518c55e87aaab11781ceedf9a630cd3631ddccf8baa58644350466b699b5"
+    }
+  ]
+}

@@ -1,5 +1,39 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October 13 retained-register sublemmas, path-local authored research grade.
+Source: reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13,
+PROOF.md and FINDINGS.md; 70/44 exact guards and 46 selected live tests PASS.
+B21 is relative trace-context INPUT only; R94/R95 and the existing curve
+embedding are credited. These candidates are not yet entries in the
+numbered banked-law table: outside acceptance and normal banking are owed.
+Their proof and live locks are recorded here so the sublemmas are not lost.
+All test names below resolve in tests/test_physical_bridge_weave_registered_embedding.py.
+
+1. Literal unitary S carries the actual parity-twisted Q8 doublets and
+   full L/R lifts into a faithful regular SU6 E8 factor. PROOF coefficient
+   map; test_actual_lift_and_not_identity and test_literal_moves_not_parity_only.
+   Limit: supplied embedding; a based group map is not a lossless ambient
+   gauge quotient or a chosen physical domain.
+2. An even-centre coefficient cannot ordinarily intertwine with the actual
+   odd-centre doublet. PROOF coefficient map; test_central_intertwiner_is_zero
+   includes an added odd-factor control. Limit: R95's prior lift loss is
+   credited; this is not an E8, spin or architecture no-go.
+3. Full E8 quadratic/cubic indices 180 and 1200 distinguish the two
+   embeddings up to conjugacy. PROOF invariant pairing; test_whole_roster_and_nonconjugate_indices
+   and test_pairing_and_cubic_not_dimension, all 240 roots/eight Cartans.
+   Limit: representation constants under one fixed trace, not physical SM
+   parameters or an all-embedding classification.
+4. R94's local registered primitive transports as 720c L_s through the
+   retained coefficient embedding. PROOF registered boundary primitive;
+   test_registered_boundary_not_shared_physical_action. Limit: supplied c,
+   relative framing/side wall/log/counterterm conventions; B21 supplies
+   context, not the new proof. This is not a physical fermion end law.
+5. The quaternion common point is singular on the trace leaf despite
+   lying on the same trace value as regular parabolics. PROOF singularity
+   qualification; test_singular_point_not_regular_transport with its
+   regular-leaf control. Limit: no extension of the regular relative-form
+   proof or kernel/domain identity at that point.
+
 October13 exact charged-extension sublemmas, path-local research grade.
 Source reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13;
 67/68 exact and36 selected live PASS atb9cb52731,99 unchanged source pins.

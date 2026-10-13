@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-10-13 registered action with retained puncture coefficient
+
+70 native/44 separate exact predicates and46 selected live tests PASS13.32s.
+The actual rank6 quaternion/parity coefficient and L/R lifts admit a
+literal unitary map through the existing SU6 of E8, retaining the centre.
+Its full trace180 tr2 gives the local registered primitive720c L_s.
+The old Sym4 map's trace1200 and erased centre are a scoped comparison,
+not an E8 no-go. The singular quaternion point is NOT a regular relative
+symplectic chart; no physical kernel/domain/action equality follows.
+First science passed, only source-reference metadata repaired/resealed;
+18 pins and12,294 tracked files byte-unchanged during the46-test run.
+NEXT one physical parent/Weyl Hessian and closed total-space domain,
+with actual mixed spin term, companion modes and priced/derived end rule.
+Earlier compact charged/interaction positives stand. Four inherited
+governance failures and outside/full-suite/main remain owed. Full SM/TOE
+ACTIVE and unachieved. Report:
+reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/FINDINGS.md.
+
 ## 2026-10-13 exact charged extension and fixed cubic
 
 October13 exact charged-extension checkpoint:67 native/68 separate

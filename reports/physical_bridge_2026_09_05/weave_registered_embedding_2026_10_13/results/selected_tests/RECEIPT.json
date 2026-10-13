@@ -1,0 +1,36 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 14.970616999999038,
+  "before": {
+    "files": 12294,
+    "sha256": "d9def5097ebc7684025004fdfca65bec8192ebdb311fe19517a3b3b15bb3c8dd"
+  },
+  "after": {
+    "files": 12294,
+    "sha256": "d9def5097ebc7684025004fdfca65bec8192ebdb311fe19517a3b3b15bb3c8dd"
+  },
+  "tracked_tree_unchanged": true,
+  "pin_count": 18,
+  "pin_mismatches": [
+
+  ],
+  "seal_commit": "2ffabadc756e484ac5d9ce7ff9300aaf1f4835ee",
+  "selected_files": [
+    "tests/test_physical_bridge_weave_registered_embedding.py",
+    "tests/test_physical_bridge_trace_parent.py",
+    "tests/test_physical_bridge_weave_form_parent.py",
+    "tests/test_physical_bridge_weave_curved_action.py"
+  ],
+  "raw_files": [
+    {
+      "name": "pytest.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "pytest.stdout.log",
+      "bytes": 100,
+      "sha256": "029be82e82cde2aeda1cdfc2bb00eb9a541c164cfb1715872d1fd278d17b6071"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "checks": {
+    "actual simultaneous A map": true,
+    "actual simultaneous B map": true,
+    "unitary determinant one coefficient map": true,
+    "retained central lift": true,
+    "wrong identity coefficient map rejected": true,
+    "group homomorphism on noncommuting generators": true,
+    "L full factorization": true,
+    "L unitary whole lift": true,
+    "L family unitary": true,
+    "L arbitrary lift sign retained": true,
+    "R full factorization": true,
+    "R unitary whole lift": true,
+    "R family unitary": true,
+    "R arbitrary lift sign retained": true,
+    "actual L peripheral automorphism": true,
+    "full E8 roster with eight Cartans": true,
+    "omitted Cartans control": true,
+    "actual A5 Gram": true,
+    "full quadratic Cartan identity": true,
+    "two complete trace indices": true,
+    "not ambient conjugate": true,
+    "new full sl2 dimensions": true,
+    "old full sl2 dimensions": true,
+    "new odd centre sector retained": true,
+    "old all even centre": true,
+    "full pairing 00": true,
+    "full pairing 01": true,
+    "full pairing 02": true,
+    "full pairing 10": true,
+    "full pairing 11": true,
+    "full pairing 12": true,
+    "full pairing 20": true,
+    "full pairing 21": true,
+    "full pairing 22": true,
+    "full alternating cubic 000": true,
+    "full alternating cubic 001": true,
+    "full alternating cubic 002": true,
+    "full alternating cubic 010": true,
+    "full alternating cubic 011": true,
+    "full alternating cubic 012": true,
+    "full alternating cubic 020": true,
+    "full alternating cubic 021": true,
+    "full alternating cubic 022": true,
+    "full alternating cubic 100": true,
+    "full alternating cubic 101": true,
+    "full alternating cubic 102": true,
+    "full alternating cubic 110": true,
+    "full alternating cubic 111": true,
+    "full alternating cubic 112": true,
+    "full alternating cubic 120": true,
+    "full alternating cubic 121": true,
+    "full alternating cubic 122": true,
+    "full alternating cubic 200": true,
+    "full alternating cubic 201": true,
+    "full alternating cubic 202": true,
+    "full alternating cubic 210": true,
+    "full alternating cubic 211": true,
+    "full alternating cubic 212": true,
+    "full alternating cubic 220": true,
+    "full alternating cubic 221": true,
+    "full alternating cubic 222": true,
+    "nonzero cubic control": true,
+    "group exterior is not Lie exterior": true,
+    "boundary primitive scale": true,
+    "registered relation retained": true,
+    "unflipped sheet rejected": true,
+    "credited full Q8 character": true,
+    "credited Q8 invariant 55": true,
+    "singular common point not regular chart": true,
+    "regular leaf positive control": true
+  },
+  "records": {
+    "new_sl2_irreps": [
+      [
+        1,
+        55
+      ],
+      [
+        2,
+        52
+      ],
+      [
+        3,
+        27
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "old_sl2_irreps": [
+      [
+        1,
+        24
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        5,
+        21
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        9,
+        1
+      ]
+    ],
+    "trace_indices": [
+      180,
+      1200
+    ],
+    "boundary_primitive_scale": 720,
+    "q8_characters": [
+      248,
+      24,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28
+    ],
+    "family_moves": [
+      [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ]
+    ],
+    "new_full_weights": [
+      [
+        -3,
+        2
+      ],
+      [
+        -2,
+        27
+      ],
+      [
+        -1,
+        54
+      ],
+      [
+        0,
+        82
+      ],
+      [
+        1,
+        54
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "old_full_weights": [
+      [
+        -8,
+        1
+      ],
+      [
+        -6,
+        12
+      ],
+      [
+        -4,
+        33
+      ],
+      [
+        -2,
+        44
+      ],
+      [
+        0,
+        68
+      ],
+      [
+        2,
+        44
+      ],
+      [
+        4,
+        33
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        8,
+        1
+      ]
+    ]
+  },
+  "all_passed": true,
+  "scope": "two supplied E8 maps and a local relative primitive, not a physical operator or selected SM"
+}

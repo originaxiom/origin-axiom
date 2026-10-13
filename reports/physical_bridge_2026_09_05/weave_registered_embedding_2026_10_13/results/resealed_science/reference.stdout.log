@@ -1,0 +1,265 @@
+{
+  "checks": {
+    "root weights reconstruct both dimensions": true,
+    "positive symmetric weight multiplicities": true,
+    "exact distinct invariant pairings": true,
+    "complete sl2 decompositions": true,
+    "Cartan polarization 00": true,
+    "Cartan polarization 01": true,
+    "Cartan polarization 02": true,
+    "Cartan polarization 03": true,
+    "Cartan polarization 04": true,
+    "Cartan polarization 10": true,
+    "Cartan polarization 11": true,
+    "Cartan polarization 12": true,
+    "Cartan polarization 13": true,
+    "Cartan polarization 14": true,
+    "Cartan polarization 20": true,
+    "Cartan polarization 21": true,
+    "Cartan polarization 22": true,
+    "Cartan polarization 23": true,
+    "Cartan polarization 24": true,
+    "Cartan polarization 30": true,
+    "Cartan polarization 31": true,
+    "Cartan polarization 32": true,
+    "Cartan polarization 33": true,
+    "Cartan polarization 34": true,
+    "Cartan polarization 40": true,
+    "Cartan polarization 41": true,
+    "Cartan polarization 42": true,
+    "Cartan polarization 43": true,
+    "Cartan polarization 44": true,
+    "missing root changes trace control": true,
+    "old centre erased": true,
+    "new centre nontrivial in E8": true,
+    "literal simultaneous map": true,
+    "literal map unitary": true,
+    "literal quaternion centre retained": true,
+    "actual family factor 0": true,
+    "lift normalization 0": true,
+    "family unitarity 0": true,
+    "actual family factor 1": true,
+    "lift normalization 1": true,
+    "family unitarity 1": true,
+    "complete Q8 character recovered": true,
+    "Q8 invariant multiplicity recovered": true,
+    "registered primitive from both scale factors": true
+  },
+  "records": {
+    "new_sl2_irreps": [
+      [
+        1,
+        55
+      ],
+      [
+        2,
+        52
+      ],
+      [
+        3,
+        27
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "old_sl2_irreps": [
+      [
+        1,
+        24
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        5,
+        21
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        9,
+        1
+      ]
+    ],
+    "trace_indices": [
+      180,
+      1200
+    ],
+    "boundary_primitive_scale": 720,
+    "q8_characters": [
+      248,
+      24,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28
+    ],
+    "family_moves": [
+      [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ]
+    ],
+    "new_full_weights": [
+      [
+        -3,
+        2
+      ],
+      [
+        -2,
+        27
+      ],
+      [
+        -1,
+        54
+      ],
+      [
+        0,
+        82
+      ],
+      [
+        1,
+        54
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "old_full_weights": [
+      [
+        -8,
+        1
+      ],
+      [
+        -6,
+        12
+      ],
+      [
+        -4,
+        33
+      ],
+      [
+        -2,
+        44
+      ],
+      [
+        0,
+        68
+      ],
+      [
+        2,
+        44
+      ],
+      [
+        4,
+        33
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        8,
+        1
+      ]
+    ]
+  },
+  "all_passed": true,
+  "scope": "separate exact character and block safeguards, not outside physical acceptance"
+}

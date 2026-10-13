@@ -1,5 +1,22 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October13 retained-register embedding checkpoint:70 native/44 separate
+Fraction predicates and46 selected live tests PASS13.32s. Exact actual
+rank6 quaternion/parity coefficient and L/R lifts embed through the
+existing SU6 of E8; the registered local primitive transports as720c L_s.
+R95's centre-forgetting Sym4 map is a DIFFERENT supplied embedding,
+not an E8/architecture no-go. Full248 trace indices180/1200 discriminate
+them; these are representation normalizations, not SM constants. The
+quaternion point is singular; no regular symplectic/physical kernel
+identity is inferred there. NEXT one physical parent/Weyl Hessian and
+closed total-space domain with actual mixed spin connection and all
+complementary modes. Lambda/unit/embedding/end selection, Higgs/extras/
+quantum/normalized parameters/gravity remain owed. First mathematics
+passed; source-reference metadata repaired/resealed at2ffabadc7,18 pins
+and12,294 tracked files byte-unchanged in tests. Four inherited governance
+debts, outside/full-suite/main owed; full SM/TOE ACTIVE and unachieved.
+Report: reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/FINDINGS.md.
+
 October13 exact charged-extension checkpoint:67 native/68 separate
 Fraction whole-polynomial predicates PASS78.606/19.347s;36 live tests
 PASS200.62s at unchanged pushed sealb9cb52731,99 pins/tree. ONE supplied
