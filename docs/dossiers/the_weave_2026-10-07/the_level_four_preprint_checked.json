@@ -1,0 +1,618 @@
+{
+ "status": "W58: the level-four preprint checked (the rule W58_RULE.md and the claims file first; one run)",
+ "K1": {
+  "eta's multiplier (turns of chi(S), chi(T))": [
+   -0.125,
+   0.04166666666666666
+  ],
+  "the k with chi_eta^(-k) rho_T a representation of Gamma_4": {
+   "3": {
+    "T'-charges (quarter turns)": [
+     0,
+     1,
+     3
+    ],
+    "traces at S', T', S'T', T'^2": [
+     -1.0,
+     1.0,
+     -0.0,
+     -1.0
+    ],
+    "commutant dimension": 1,
+    "which": "the cube's rotations (the preprint's 3, T-charges {0, 1, 3})"
+   },
+   "15": {
+    "T'-charges (quarter turns)": [
+     1,
+     2,
+     3
+    ],
+    "traces at S', T', S'T', T'^2": [
+     1.0,
+     -1.0,
+     -0.0,
+     -1.0
+    ],
+    "commutant dimension": 1,
+    "which": "the standard representation (the preprint's 3', T-charges {1, 2, 3})"
+   }
+  },
+  "holds": true
+ },
+ "K2": {
+  "the preprint's generation lines in the record's basis": {
+   "generation 2": {
+    "T'-charge": 1,
+    "|components| on the parity lines": [
+     0.707106781187,
+     0.0,
+     0.707106781187
+    ],
+    "a parity line": false
+   },
+   "generation 1": {
+    "T'-charge": 3,
+    "|components| on the parity lines": [
+     0.707106781187,
+     0.0,
+     0.707106781187
+    ],
+    "a parity line": false
+   },
+   "generation 3": {
+    "T'-charge": 0,
+    "|components| on the parity lines": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "a parity line": true
+   }
+  },
+  "the slot check (patterns)": {
+   "rho_T(T) pattern": [
+    2,
+    1,
+    0
+   ],
+   "rho_T(S) pattern": [
+    1,
+    0,
+    2
+   ],
+   "(theta4^2, theta2^2, theta3^2) under tau + 1": [
+    2,
+    1,
+    0
+   ],
+   "under -1/tau": [
+    1,
+    0,
+    2
+   ]
+  },
+  "the slots agree with W50's pairing": true,
+  "|S'| in the preprint's basis (generations 1, 2, 3)": [
+   [
+    0.5,
+    0.5,
+    0.707106781187
+   ],
+   [
+    0.5,
+    0.5,
+    0.707106781187
+   ],
+   [
+    0.707106781187,
+    0.707106781187,
+    0.0
+   ]
+  ],
+  "holds": true
+ },
+ "K3": {
+  "levels with a solution": [
+   4
+  ],
+  "the solutions at N = 4": [
+   {
+    "a": [
+     0,
+     2,
+     3
+    ],
+    "c": 2,
+    "b": [
+     2,
+     0,
+     1
+    ]
+   },
+   {
+    "a": [
+     0,
+     2,
+     3
+    ],
+    "c": 3,
+    "b": [
+     3,
+     1,
+     2
+    ]
+   }
+  ],
+  "the shifts that are a character of S4 (T-charge 0 or 2)": [
+   2
+  ],
+  "holds": true
+ },
+ "K4": {
+  "claims checked": 41,
+  "the claims that do not reproduce": [
+   "Table VII m_c",
+   "Eq. 32"
+  ],
+  "rows": {
+   "Eq. 21a": {
+    "printed": "16.9868",
+    "computed": [
+     16.986800549549866
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 21b": {
+    "printed": "210.626",
+    "computed": [
+     210.6257327625092
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 22": {
+    "printed": "0.08065",
+    "computed": [
+     0.08064921758018671
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 25": {
+    "printed": "1.6366",
+    "computed": [
+     1.6366341767699428
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 25 exact": {
+    "printed": "1.6346",
+    "computed": [
+     1.634649488183412
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 26": {
+    "printed": "10.714",
+    "computed": [
+     10.714285714285714
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "P4": {
+    "printed": "0.9674",
+    "computed": [
+     0.9674047609517751
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table VII m_t": {
+    "printed": "169.92 GeV",
+    "computed": [
+     169.92012310869393
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table VII m_b": {
+    "printed": "2.857 GeV",
+    "computed": [
+     2.856810420919006
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table VII m_c": {
+    "printed": "0.6239 GeV",
+    "computed": [
+     0.6241882346790945
+    ],
+    "within one unit of the last printed digit": false
+   },
+   "Table VII m_s": {
+    "printed": "53.11 MeV",
+    "computed": [
+     53.11117132548543
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table VII m_d": {
+    "printed": "2.701 MeV",
+    "computed": [
+     2.7012182842685997
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table VII m_u": {
+    "printed": "1.226 MeV",
+    "computed": [
+     1.2263516754897783
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 28": {
+    "printed": "0.2255",
+    "computed": [
+     0.2255209543003938
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 29": {
+    "printed": "0.08865",
+    "computed": [
+     0.08865020022850154
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 30": {
+    "printed": "0.003721",
+    "computed": [
+     0.003721240034312593
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 31": {
+    "printed": "0.04197",
+    "computed": [
+     0.04197666812619554
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 32": {
+    "printed": "0.008599",
+    "computed": [
+     0.00860026722274045
+    ],
+    "within one unit of the last printed digit": false
+   },
+   "Eq. 33": {
+    "printed": "1.138",
+    "computed": [
+     1.1378486334581126
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 34": {
+    "printed": "0.4326",
+    "computed": [
+     0.4325739470743396
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table VIII J": {
+    "printed": "3.11e-5",
+    "computed": [
+     3.112554064306613e-05
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table IX A": {
+    "printed": "0.825",
+    "computed": [
+     0.825342411424951
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table IX R_b": {
+    "printed": "0.3832",
+    "computed": [
+     0.38319325920031244
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table IX R_t": {
+    "printed": "0.9082",
+    "computed": [
+     0.908226052167326
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table IX beta": {
+    "printed": "22.5",
+    "computed": [
+     22.51198429459283
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table IX gamma": {
+    "printed": "65.2",
+    "computed": [
+     65.15880765134618
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table IX alpha": {
+    "printed": "92.3",
+    "computed": [
+     92.32920805406098
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table IX rho-bar": {
+    "printed": "0.161",
+    "computed": [
+     0.16098125603055574
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Table IX eta-bar": {
+    "printed": "0.348",
+    "computed": [
+     0.34773856430281425
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 40": {
+    "printed": "0.08054",
+    "computed": [
+     0.0805372510905545
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 44": {
+    "printed": "0.02203",
+    "computed": [
+     0.022031547572768064
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 46": {
+    "printed": "0.4652",
+    "computed": [
+     0.46515702968002753
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 43": {
+    "printed": "0.02944",
+    "computed": [
+     0.029435017243947433
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Sec. III D": {
+    "printed": "1.935",
+    "computed": [
+     1.9348095219035502
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Sec. III D m_u/m_d": {
+    "printed": "0.454",
+    "computed": [
+     0.45399947224991993
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Eq. 49 ratios": {
+    "printed": "+2.007, -2.057",
+    "computed": [
+     2.0066693074196023,
+     -2.057499288634198
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Sec. III C": {
+    "printed": "3.167",
+    "computed": [
+     3.166575389087263
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "theta2": {
+    "printed": "0.86515",
+    "computed": [
+     0.8651478941486792
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "theta3": {
+    "printed": "1.06969",
+    "computed": [
+     1.0696918371381356
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "theta4": {
+    "printed": "0.93031",
+    "computed": [
+     0.9303140593600551
+    ],
+    "within one unit of the last printed digit": true
+   },
+   "Im tau": {
+    "printed": "1.0685",
+    "computed": [
+     1.068522223594561
+    ],
+    "within one unit of the last printed digit": true
+   }
+  },
+  "extra": {
+   "the two theta routes' largest difference": 0.0,
+   "P12_UD": 0.03862314691767166,
+   "P23_UD": 0.1975932861357272,
+   "P12_DL": 10.714285714285714,
+   "P23_DL": 0.3157985764198846,
+   "|V_td| from the closed matrix": 0.00860026722274045,
+   "u = (tau - i)/(tau + i)": 0.033126172304538744,
+   "Eq. 23 (Table I's leptons)": 0.18664263553388905,
+   "m_c and m_u (MeV) from Table I's measured m_t instead (a read-out)": [
+    623.9306429434888,
+    1.2258455812717184
+   ]
+  },
+  "holds": false
+ },
+ "K5": {
+  "the preprint's double ratio 2/eps": 10.714285714285714,
+  "pull against the target (10.58 +- 0.11)": -1.2207792207792132,
+  "pull against the record's own value": -0.11200480192076807,
+  "the preprint's GJ plaquette (2/(eps Im tau))^(1/2)": 3.166575389087263,
+  "the record's GJ plaquette at M_Z (value, sigma)": [
+   3.1441167616547645,
+   0.2741733394645333
+  ],
+  "pull of the plaquette on the record's data": -0.08191397265817645,
+  "holds": true
+ },
+ "K6": {
+  "(a) Table XIV recomputed": {
+   "anchor (2 theta3)^4": {
+    "declared (coverage, hits) computed": [
+     0.0024000000000016695,
+     0
+    ],
+    "declared (coverage, hits) printed": [
+     0.002,
+     0
+    ],
+    "form-value (coverage, hits) computed": [
+     0.07986666666671925,
+     0
+    ],
+    "form-value (coverage, hits) printed": [
+     0.08,
+     0
+    ],
+    "reproduces": true
+   },
+   "P1 m_b/m_tau": {
+    "declared (coverage, hits) computed": [
+     0.06416666666666702,
+     1
+    ],
+    "declared (coverage, hits) printed": [
+     0.06,
+     1
+    ],
+    "form-value (coverage, hits) computed": [
+     0.8724611576012563,
+     1
+    ],
+    "form-value (coverage, hits) printed": [
+     0.87,
+     1
+    ],
+    "reproduces": true
+   },
+   "P2 |V_us|^2 m_mu/m_e": {
+    "declared (coverage, hits) computed": [
+     0.08166666666666611,
+     1
+    ],
+    "declared (coverage, hits) printed": [
+     0.08,
+     1
+    ],
+    "form-value (coverage, hits) computed": [
+     0.957738864048376,
+     3
+    ],
+    "form-value (coverage, hits) printed": [
+     0.96,
+     3
+    ],
+    "reproduces": true
+   },
+   "P4 y_t": {
+    "declared (coverage, hits) computed": [
+     0.04800000000000004,
+     0
+    ],
+    "declared (coverage, hits) printed": [
+     0.05,
+     0
+    ],
+    "form-value (coverage, hits) computed": [
+     0.7864479316152524,
+     4
+    ],
+    "form-value (coverage, hits) printed": [
+     0.79,
+     4
+    ],
+    "reproduces": true
+   }
+  },
+  "(a) holds": true,
+  "(b) the anchor's target eps^(-7/2) m_mu/m_tau": 20.948869301292333,
+  "(b) (2 theta3)^4 in the form-value box / in the anchor's box": [
+   false,
+   true
+  ],
+  "(b) the anchor's box: prefactors, coverage at 0.02%, hits": [
+   510,
+   0.24208147612239697,
+   1
+  ],
+  "(b) hits in the form-value box": 0,
+  "(c) the product (the anchor's box, then the form-value family)": 0.1590833564555183,
+  "the declared family's product (the text's 1e-6)": 6.036800000004197e-07,
+  "holds": true
+ },
+ "K7": {
+  "(a) at M_Z": {
+   "eps, Im tau from the record's leptons": [
+    0.18663485120982778,
+    1.0686307382829279
+   ],
+   "pulls (data - preprint) / sigma": {
+    "the anchor m_tau/m_mu": -2.713085923544901,
+    "y_t": -0.013118149375153449,
+    "m_b": 0.37455798223410364,
+    "m_c": 0.13617269138111204,
+    "m_s": 0.12145414679586834,
+    "m_d": -0.029796849763055213,
+    "m_u": 0.08266517494102973
+   },
+   "holds": false
+  },
+  "(b) at 1e12 GeV": {
+   "eps, Im tau at 1e12 GeV": [
+    0.18667101663965732,
+    1.0685073883451928
+   ],
+   "P1: m_b/m_tau (value, sigma) and (2 eps)^(-1/2)": [
+    0.689400325646385,
+    0.00885721826718758,
+    1.6366151075109108
+   ],
+   "P1 pull": -106.94269388997384,
+   "the double ratio (value, sigma) and 2/eps": [
+    10.550206509230781,
+    1.20126940142499,
+    10.7140360405318
+   ],
+   "double-ratio pull": -0.1363803415842261,
+   "holds": true
+  },
+  "holds": false
+ },
+ "cells": {
+  "K1": true,
+  "K2": true,
+  "K3": true,
+  "K4": false,
+  "K5": true,
+  "K6": true,
+  "K7": false
+ },
+ "every cell holds": false
+}
