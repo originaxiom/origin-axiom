@@ -62,7 +62,7 @@ def ph2():
     pts = D["the matter's values"]["N = 192"]["points"]
     named = {"(1/4, 0)": (0.25, 0.0), "(1/6, 1/6)": (1 / 6, 1 / 6), "(1/9, 1/9)": (1 / 9, 1 / 9),
              "(2/9, 2/9)": (2 / 9, 2 / 9), "(1/18, 1/18)": (1 / 18, 1 / 18)}
-    check = {k: {"fit (N = 96)": float(basis(p) @ coef), "N = 192": pts[k]["Delta V6"]} for k, p in named.items()}
+    check = {k: {"fit (N = 96)": float((basis(p) @ coef)[0]), "N = 192": pts[k]["Delta V6"]} for k, p in named.items()}
     return coef, {"the fit's largest residual on the grid": resid, "against the N = 192 points": check}
 
 
