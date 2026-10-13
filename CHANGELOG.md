@@ -1,5 +1,19 @@
 # Changelog
 
+## The weave's W55: the gauge side on record does not tell the sectors apart; relay section 61
+
+- **W55** (the owner's choice (a), after the reading; the rule 397e92bfc first; one run; every cell as predicted):
+  - with one flavour matrix serving every coupling (F-MC's E₆ cubic with its rank-closing vacuum values, SO(10) with
+    one 10_H, minimal SU(5)), the down-type and charged-lepton matrices are P ⊗ λ and Pᵀ ⊗ λ, so the two sectors share
+    their ratios (a Kronecker lemma, to 10⁻¹⁴);
+  - the data exclude that tie: χ² ≥ 106 at a 10% allowance (249 at 5%, 32 at 20%), admitted only at 48%;
+  - in the Standard Model frame the gauge side ties only the weights (k_d = k_e), which keeps (5, 5, 5), (5, 7, 7) and
+    (7, 7, 7) with 23 to 29 parameters.
+- **So:** what tells the sectors apart is the Higgs sector's flavour structure, a dictionary datum neither the weave
+  nor F-MC supplies. The count stays all 19 of the 19 free. 0 of 19 derived.
+- **Relay §61** to main. **Surfaces.** The rule, the script and its JSON, the dossier (W55, a row, the header, the
+  files), the W55 test and the regeneration list, the state page, the relay and the ledger.
+
 ## Reading W49–W54 together: the weave fixes shapes, not sizes; the sectors are not told apart; relay section 60
 
 - **A READING** (the owner asked to stop and think before the next arc; nothing computed): the weave forces shapes

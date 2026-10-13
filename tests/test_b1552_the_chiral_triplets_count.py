@@ -1252,6 +1252,29 @@ def test_w54_the_rank_thirteen_structures():
         assert v["P"] == 2 + sum(2 * dims[v["frame"]][k] - 1 for k in v["weights (u, d, e)"]) >= 13
 
 
+def test_w55_the_gauge_side_and_the_sectors():
+    """W55 (the owner's choice (a); the rule first; one run; every cell as predicted): the gauge side on record either
+    ties the down quarks to the charged leptons, which the data exclude, or splits them only with new free numbers.
+    In process: the Kronecker lemma on random cases"""
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_gauge_side_and_the_sectors.json").read_text(encoding="utf-8"))
+    assert d["every cell holds"] is True and len(d["cells (as worded)"]) == 4
+    b = d["K1: the tie's bound"]
+    assert b["a = 0.10"]["chi^2_min"] > 100 and b["a = 0.20"]["chi^2_min"] > 30
+    assert 0.45 < d["K4: the allowance a* where the bound reaches 5.99"] < 0.5
+    assert d["K3: those with k_d = k_e, and their P"] == {"T (x) T: (5, 5, 5)": 23, "T (x) T: (5, 7, 7)": 27,
+                                                         "T (x) T: (7, 7, 7)": 29}
+    rng = np.random.default_rng(55)
+    for _ in range(10):
+        lam = rng.normal(size=(3, 3)) + 1j * rng.normal(size=(3, 3))
+        lam = lam + lam.T
+        P = np.array([[rng.normal(), 0], [rng.normal(), rng.normal()]])
+        prod = np.sort(np.outer(np.linalg.svd(P, compute_uv=False), np.linalg.svd(lam, compute_uv=False)).ravel())
+        got = np.sort(np.linalg.svd(np.kron(P, lam), compute_uv=False))
+        assert np.max(np.abs(got - prod) / prod) < 1e-10
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

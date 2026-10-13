@@ -1,0 +1,66 @@
+{
+ "status": "W55: does the gauge side on record tell the sectors apart? (the rule first; one run)",
+ "the data used (GeV)": {
+  "d": {
+   "d": 0.0026699999999999996,
+   "s": 0.05315999999999999,
+   "b": 2.839
+  },
+  "e": {
+   "e": 0.00048306999999999994,
+   "mu": 0.10176600000000001,
+   "tau": 1.72856
+  }
+ },
+ "K1: the tie's bound": {
+  "a = 0.05": {
+   "chi^2_min": 248.87347688012747,
+   "shared ratios m1/m3, m2/m3 at the minimum": [
+    0.00038499055787479365,
+    0.04790586174244956
+   ]
+  },
+  "a = 0.10": {
+   "chi^2_min": 106.06898392196312,
+   "shared ratios m1/m3, m2/m3 at the minimum": [
+    0.00045595468161025685,
+    0.039110219916504006
+   ]
+  },
+  "a = 0.20": {
+   "chi^2_min": 32.26634740092001,
+   "shared ratios m1/m3, m2/m3 at the minimum": [
+    0.0004949606388299191,
+    0.034926164139881505
+   ]
+  }
+ },
+ "K4: the allowance a* where the bound reaches 5.99": 0.478744656707914,
+ "K2: the largest relative deviation over 400 Kronecker products": 1.267610352473005e-14,
+ "K3: the Standard Model frame's fitting structures (W54 with its post hoc)": [
+  "T (x) T: (5, 5, 5)",
+  "T (x) T: (5, 5, 7)",
+  "T (x) T: (5, 7, 5)",
+  "T (x) T: (5, 7, 7)",
+  "T (x) T: (7, 7, 5)",
+  "T (x) T: (7, 7, 7)"
+ ],
+ "K3: those with k_d = k_e, and their P": {
+  "T (x) T: (5, 5, 5)": 23,
+  "T (x) T: (5, 7, 7)": 27,
+  "T (x) T: (7, 7, 7)": 29
+ },
+ "cells (as worded)": {
+  "K1: the tie's bound at a = 0.10 is at least 50": true,
+  "K2: the Kronecker lemma holds on all 200 samples (1e-10)": true,
+  "K3: the fitting structures with k_d = k_e are exactly (5, 5, 5), (5, 7, 7), (7, 7, 7), each with P >= 23": true,
+  "K4: the allowance a* at which the bound falls to 5.99 is above 0.25": true
+ },
+ "priors": {
+  "K1": 0.9,
+  "K2": 0.97,
+  "K3": 0.95,
+  "K4": 0.8
+ },
+ "every cell holds": true
+}

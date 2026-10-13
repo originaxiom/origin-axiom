@@ -75,6 +75,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   parameters for 13 numbers, so they predict nothing; every structure with a sector at weight 3 fails, and so does
   every Sym² T one. The count of 13 is realised: all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is
   earned).
+- W55 (the owner's choice (a): does the gauge side on record tell the sectors apart? rule first; every cell as
+  predicted): no. F-MC's E₆ cubic with one flavour matrix, SO(10) with one 10_H and minimal SU(5) tie the down
+  quarks to the charged leptons (a Kronecker lemma), and the data exclude the tie (χ² ≥ 106 at a 10% allowance; it
+  would need 48%). Otherwise the sectors split only through Higgs content with new free numbers. What tells the
+  sectors apart is the Higgs sector's flavour structure, a dictionary datum (GENESIS FK11).
 
 ## The setting
 
@@ -3820,6 +3825,62 @@ and is labelled so.
    - Two sharper questions remain: (a) does the gauge side on record tell the sectors apart (the owner's choice,
      2026-10-13, next); (b) where does the principle mark a point (the tick's geodesic and its identity).
 
+## W55. Does the gauge side on record tell the sectors apart? No: it ties the down quarks to the charged leptons, which the data exclude, or splits them only with new free numbers (`the_gauge_side_and_the_sectors.py`; `W55_RULE.md`)
+
+**Why.**
+- The owner's choice (2026-10-13), after "Reading W49–W54 together": (a), does the gauge side on record tell the
+  sectors apart? The reading's point 3 found that nothing in the weave does.
+- The rule (`W55_RULE.md`, 397e92bfc) came before the code.
+- **The frames.**
+  - F-MC's E₆ cubic: THE_CLAIM §1, matter mass in the cubic 27³ ⊃ 16·16·10, with the doublet in the 10 ⊂ 27.
+  - SO(10)'s 16·16·10 and minimal SU(5), both inside it.
+  - The Standard Model frame of W52 to W54.
+- **Weave or thread.** The claims cover every structure each frame allows, at every weight and every τ; the frames are
+  the record's, cited. Tags: on the ruled branch; given Λ (GENESIS FK11), every matter field in T at 3/2 (W45).
+
+**Disclosed.** After the run, two docstring lines were rewrapped to the line limit. The script was rerun and its output
+is byte-identical.
+
+**The result (COMPUTED; one run; every cell as predicted).**
+- **K1, the tie's bound.** A structure that gives the down quarks and the charged leptons equal in-sector ratios cannot
+  fit their six masses.
+  - The exact minimum over the shared ratios and both scales is χ² = 106 at a = 0.10 (the rule's hand estimate was
+    about 60, since the two ratios share the heaviest mass's residual).
+  - It is 249 at a = 0.05 and 32 at a = 0.20.
+- **K4.** The bound reaches 5.99 only at a running allowance of a* = 0.48: the tie would need a 48% allowance.
+- **K2, the Kronecker lemma.** With one flavour matrix λ serving every coupling, the down-type mass matrix on
+  (d, D) × (d^c, D^c) is P ⊗ λ, and the charged leptons' is Pᵀ ⊗ λ. Their singular values are the products σ_a(P)·σ_i(λ),
+  to 1.3 × 10⁻¹⁴ on 400 random cases. So the light down quarks and charged leptons both carry λ's ratios.
+- **K3, the Standard Model frame's tie.** With every matter field at 3/2, the down quarks and leptons share H_d, so
+  k_d = k_e. Of the fitting structures (W54 with its post hoc), exactly (5, 5, 5), (5, 7, 7) and (7, 7, 7) satisfy
+  it, with P = 23, 27 and 29.
+
+**Scope, stated more exactly than the rule did.** The lemma needs one flavour matrix for every coupling. That holds
+when every vacuum value sits in one flavour-blind 27, or in several whose couplings are proportional. Each further
+Higgs 27 with its own coupling, and each flavour direction in T, can split the sectors, at the price of new free
+numbers.
+
+**What it shows (a READING on the computed facts; given Λ, GENESIS FK11).**
+- **The answer to (a) is no.** The gauge side on record does one of two things:
+  - **it ties the sectors, and the data exclude the tie.** In F-MC's E₆ cubic with one flavour matrix (the rank-closing
+    ⟨1⟩ and ⟨ν^c⟩ included), in SO(10) with one 10_H and in minimal SU(5), the down quarks and charged leptons share
+    their ratios: χ² ≥ 106. With one flavour-blind 27 for both doublets, the up quarks share them too and V is a phase
+    matrix;
+  - **or it splits them only through the Higgs, with new free numbers**: further Higgs 27s with their own couplings,
+    flavour directions in T, or, in the Standard Model frame, the doublets' weights, where the tie k_d = k_e leaves
+    three fitting structures with 23 or more parameters.
+- **So nothing on record tells the sectors apart in a way that fixes a number.** The count stays W54's: all 19 of the
+  19 free on the ruled branch, given Λ (18 if I-18 is earned).
+- **What it locates.** What tells the sectors apart is the Higgs sector's flavour structure: where the Higgs sits
+  relative to T, with what coupling and what weight. That is a dictionary datum (GENESIS FK11), and neither the weave
+  nor F-MC supplies it.
+- **For F-MC's own frame.** "Matter mass in the cubic" (THE_CLAIM §1) with one flavour matrix meets the classic
+  down–lepton mismatch of unified theories and is excluded by it. It survives only with Higgs fields that carry flavour
+  or their own couplings (W39 named the 351′), which is new input.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result on the ruled branch, given Λ.
+0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -3986,6 +4047,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W52 | COMPUTED (the rule first; one run; C1 and C4 as predicted; C2 and C3 failed as worded, explained post hoc 128 of 128); a WEAVE result given Λ | the free numbers counted: the 13 flavour numbers' Jacobian rank over τ and the couplings' coefficients, for every weight assignment in {1, 3, 5, 7}³ in both frames. At the geometry's weight (k = 3) the Standard Model frame leaves 11 (two quark-sector relations: eight quark shape numbers from six parameters). Post hoc: a symmetric zero-diagonal coupling forces m₃ = m₁ + m₂ (the record's ×136, ×43, ×17 wall, B1273), excluding k = 1 and E₆ at k = 3; with the dependency pattern this reproduces every rank. The tally: at most 17 of the 19 free there, if that structure fits (W53) |
 | W53 | COMPUTED (the rule and its data first; one run; F2, F3 and F4 went the way their priors leaned; M0(e) and F1 failed as worded; post hoc P1 to P4); a WEAVE result given Λ | the fit at the geometry's weight: W52's T ⊗ T at k = 3 against the 13 flavour numbers (Huang and Zhou 2021's masses at M_Z, PDG 2025's CKM, in logs with a 10% running allowance). χ²_min = 1887 (5957 at 5%, 484 at 20%) against 5.99; the masses alone give 163 with eleven parameters for nine numbers. Near the cusp m₁/m₃ = κ q^{1/4} in every hierarchical sector (at 5i, 1.05 to 1.15 × 10⁻³ against 1.07 × 10⁻³), and each sector alone is reached at its own y (d 3.19 or 5.11, e 2.47 or 5.91, u within 4% at 4.21): one τ cannot serve three. M0(e) wrongly said (3, 3, 3) was the only rank-11 structure; post hoc the quark masses alone (χ²_min = 41.4) exclude (3, 3, 5) and (3, 3, 7). No structure on record both fits and predicts a flavour relation |
 | W54 | COMPUTED (the rule first; one run; H0 and H2 as predicted; H1 and H3 failed as worded, both explained post hoc); a WEAVE result given Λ | the rank-13 structures: all 32 not yet excluded (T ⊗ T with weights in {3, 5, 7}, (k_u, k_d) ≠ (3, 3); Sym² T with weights in {5, 7}) fitted to the 13 flavour numbers with W53's data. Five fit, all in T ⊗ T with every sector at 5 or 7: (5, 7, 5) and (5, 7, 7) exactly, (7, 7, 5) at 0.88, (5, 5, 5) and (5, 5, 7) at 5.33, with 23 to 27 parameters, so they predict nothing; post hoc (7, 7, 5) and (7, 7, 7) fit exactly at τ ≈ 0.0006 + 1.019i. Every structure with a sector at weight 3 fails (χ²_min ≥ 110), and every Sym² T one (94 to 199). The weight-5 span holds rank-one couplings at a generic τ (one of them a symmetric square), against the rule's count. The count of 13 is realised: all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is earned) |
+| W55 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | does the gauge side on record tell the sectors apart? With one flavour matrix serving every coupling (F-MC's E₆ cubic with its rank-closing vacuum values, SO(10) with one 10_H, minimal SU(5)) the down-type and charged-lepton matrices are P ⊗ λ and Pᵀ ⊗ λ (to 10⁻¹⁴), so the two sectors share their ratios; the data exclude that at χ² ≥ 106 (a = 0.10; 249 at 0.05, 32 at 0.20; admitted only at a 48% allowance). In the Standard Model frame the tie k_d = k_e keeps (5, 5, 5), (5, 7, 7), (7, 7, 7), with 23 to 29 parameters. No: the sectors split only through Higgs content with new free numbers, a dictionary datum |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -4029,6 +4091,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_e8_frames_on_the_fibre.py` → `the_e8_frames_on_the_fibre.json`: W23, the record's E₈ frames on the fibre over every bundle built from the common point's blocks.
 - `the_couplings_verified.py` → `the_couplings_verified.json`: W38, main's B1615 and B1616 recomputed (a verification, not blind).
 - `CONVENTIONS.md`: the dossier's conventions, enforced by `tests/test_weave_conventions.py`; `tests/test_weave_regeneration.py` reruns the fast scripts against their stored outputs.
+- `W55_RULE.md`: the rule, committed before the code; `the_gauge_side_and_the_sectors.py` → `the_gauge_side_and_the_sectors.json`: W55, the down–lepton tie's exact bound at three allowances and its threshold allowance, the Kronecker lemma on 400 cases, and the Standard Model frame's tie read from W54.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

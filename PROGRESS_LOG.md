@@ -18562,3 +18562,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   shapes, not sizes; the data reject it where it is most itself; what fails is that the sectors are not told apart;
   the weave's numbers come as identities. Nothing new computed.
 - **Next, the owner's choice (a):** does the gauge side on record tell the sectors apart? Relay §60 sent.
+
+## 2026-10-13 — W55: the gauge side and the sectors; relay §61
+
+- **W55 ran once, after its rule** (the owner's choice (a)). The gauge side on record does not tell the sectors apart
+  in a way that fixes numbers. F-MC's E₆ cubic with one flavour matrix, SO(10) and minimal SU(5) tie the down quarks to
+  the charged leptons, and the data exclude the tie (χ² ≥ 106). Otherwise only new Higgs content splits them.
+- **So the missing ingredient is located:** the Higgs sector's flavour structure, a dictionary datum. Every cell held as
+  predicted. Relay §61 sent.

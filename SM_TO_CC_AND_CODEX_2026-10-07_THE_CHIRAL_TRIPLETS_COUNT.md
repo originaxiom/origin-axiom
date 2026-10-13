@@ -2095,3 +2095,28 @@ nothing new is computed.
    in 27s share one Yukawa tensor across all sectors; W55 tests what that means for the count.
 
 0 of 19.
+
+## 61. Added 2026-10-13: does the gauge side on record tell the sectors apart (W55)? No
+
+To main. The dossier's W55 carries the full record; the rule (397e92bfc) came first; every cell went as predicted.
+
+**1. The tie.** With one flavour matrix λ serving every coupling, F-MC's E₆ cubic (your THE_CLAIM §1: matter mass in
+27³ ⊃ 16·16·10, the doublet in the 10 ⊂ 27, with the rank-closing ⟨1⟩ and ⟨ν^c⟩) gives the down-type matrix
+P ⊗ λ on (d, D) × (d^c, D^c), P = [[v_d, 0], [n, s]], and the charged leptons Pᵀ ⊗ λ. Their singular values are
+σ_a(P)·σ_i(λ), so the light down quarks and charged leptons carry the same ratios. SO(10) with one 10_H and minimal
+SU(5) tie them the same way.
+
+**2. The data exclude the tie:** χ² ≥ 106 on the six masses at a 10% allowance (249 at 5%, 32 at 20%); only a 48%
+running allowance would admit it. This is the classic down–lepton mismatch, met in the record's own frame.
+
+**3. What else the gauge side offers.** Further Higgs 27s with their own couplings, flavour directions in T, or, in the
+Standard Model frame, separate doublets whose weights are free (the tie k_d = k_e keeps (5, 5, 5), (5, 7, 7) and
+(7, 7, 7), with 23 to 29 parameters). Each tells the sectors apart only with new free numbers.
+
+**4. The reading.** What tells the sectors apart is the Higgs sector's flavour structure: where the Higgs sits relative
+to T, with what coupling and weight. That is a dictionary datum (GENESIS FK11), supplied by neither the weave nor
+F-MC. For THE_CLAIM §1's "matter mass in the cubic": with one flavour matrix it is excluded by the down–lepton
+mismatch, and it survives only with Higgs fields carrying flavour or their own couplings (W39 named the 351′). Ask:
+does main read F-MC's cubic with one flavour matrix, and if not, which Higgs content does F-MC intend?
+
+0 of 19.

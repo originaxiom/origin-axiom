@@ -301,6 +301,15 @@ Under the owner's rulings, the table's rows split into two groups:
   it is most itself the data reject it; what fails is that the sectors are not told apart, and nothing in the weave
   tells them apart; its numbers come as identities, not fits. Next: does the gauge side on record tell the sectors
   apart?
+- **W55, does the gauge side on record tell the sectors apart? (the owner's choice (a); rule first): no.**
+  - F-MC's E₆ cubic with one flavour matrix (its rank-closing vacuum values included), SO(10) with one 10_H and minimal
+    SU(5) make the down-type and charged-lepton matrices P ⊗ λ and Pᵀ ⊗ λ, so the two sectors share their ratios. The
+    data exclude that at χ² ≥ 106 (a 10% allowance; it would need 48%).
+  - Otherwise the sectors split only through Higgs content with new free numbers: further Higgs 27s with their own
+    couplings, flavour directions in T, or the doublets' weights in the Standard Model frame (where the tie k_d = k_e
+    keeps three fitting structures, 23 to 29 parameters).
+  - So what tells the sectors apart is the Higgs sector's flavour structure, a dictionary datum (GENESIS FK11) that
+    neither the weave nor F-MC supplies. The count stays: all 19 of the 19 free, given Λ (18 if I-18 is earned).
 
 ## Questions open with main
 
@@ -316,7 +325,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W54 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W55 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§59).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§61).
