@@ -92,6 +92,12 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 total metric spin operator
+
+The [total metric calculation](total_metric_dirac/FINDINGS.md) derives the full ordinary spin Dirac differential expression for the physical branch's supplied elliptic-family metric. A mixed spin-connection term survives the radial unitary transformation; it is fixed geometry, not a new field or sector. Independent coordinate and frame reconstructions, with the full untwisted and line-twisted squared-operator identities, pass343 exact checks and six tests on the first run after pushed seal41d87b89d. This supplies the differential expression for the domain comparison, not a completed physical operator.
+
+The next step is the simultaneous section/cusp graph domain and controlled harmonic projection, keeping the complement and actual coefficient transitions. The parent/end/source selection duty remains. Refreshed physical830b92ad2 reports charged-count and complete holomorphic-tensor stability along its compact exact deformation; its proof is read, not rerun here, and its different action/domain is not identified with this elliptic-family operator.
+
 ### October 13 nodal coefficient transport
 
 The [nodal transport result](nodal_transport/FINDINGS.md) provides the local coefficient input for the total-space degeneration duty. It identifies every primitive based meridian framing and proves that both actual branch transports have fourth power minus identity. An explicit polynomial chain contraction gives zero ordinary local-system cohomology on that node neighborhood, without retracting the global fibre modes. All 355 exact safeguards and seven tests pass on the first run after pushed seal 6ec6bfab9; sources stayed unchanged.

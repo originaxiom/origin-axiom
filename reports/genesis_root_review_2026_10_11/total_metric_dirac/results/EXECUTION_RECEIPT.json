@@ -1,0 +1,52 @@
+{
+  "sources_before": {
+    "PREREGISTRATION.md": "f197734d5ea54ec353e9442fca1c48b56c05bb25898a472689e3c8384dd4e34e",
+    "PROOF.md": "a34062c820e711ef79b0224c7668436fc293789c36da646f39f6bfb648436cf1",
+    "SOURCE_SCOPE.md": "7ec14447e972071df31961212a516f4ea9397c5c209dc009584b52cebf5d72d0",
+    "verify.py": "2124797777869d47541e7d5cecec9726d5bdb92b61dae4f483b66762cd43c279",
+    "test_verify.py": "b9d8391f32dcb2617954cc35a655c310d1821e5d6f43c3e5c24753e69821aa3d",
+    "execute.py": "accc99c5dabc0123b1f53f6b7c2430a1116847d2bd6a2e2dfc9022369a6643c9"
+  },
+  "runs": [
+    {
+      "label": "native",
+      "exit_code": 0,
+      "elapsed_seconds": 3.9030860110069625,
+      "stdout": {
+        "file": "native.stdout.log",
+        "bytes": 10789,
+        "sha256": "0ca9e88d1203b8720f1d845b6b048e68190436b05e92b16323a72722db3131ab"
+      },
+      "stderr": {
+        "file": "native.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "label": "tests",
+      "exit_code": 0,
+      "elapsed_seconds": 4.036088519002078,
+      "stdout": {
+        "file": "tests.stdout.log",
+        "bytes": 98,
+        "sha256": "2ffb0e6e714ca0293bcb40171f58b412b5233f9f5822c0148d7fddce8db30d0e"
+      },
+      "stderr": {
+        "file": "tests.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "sources_after": {
+    "PREREGISTRATION.md": "f197734d5ea54ec353e9442fca1c48b56c05bb25898a472689e3c8384dd4e34e",
+    "PROOF.md": "a34062c820e711ef79b0224c7668436fc293789c36da646f39f6bfb648436cf1",
+    "SOURCE_SCOPE.md": "7ec14447e972071df31961212a516f4ea9397c5c209dc009584b52cebf5d72d0",
+    "verify.py": "2124797777869d47541e7d5cecec9726d5bdb92b61dae4f483b66762cd43c279",
+    "test_verify.py": "b9d8391f32dcb2617954cc35a655c310d1821e5d6f43c3e5c24753e69821aa3d",
+    "execute.py": "accc99c5dabc0123b1f53f6b7c2430a1116847d2bd6a2e2dfc9022369a6643c9"
+  },
+  "source_unchanged": true,
+  "passed": true
+}
