@@ -126,7 +126,8 @@ hash-first status.*
 | frontier/B1633_the_weaves_word_coupling/PREREGISTRATION.md | 2ad9aab0 | a15da3840 | 1 | yes |
 | frontier/B1634_w50_on_main/PREREGISTRATION.md | a93fc85a | 478abc379 | 1 | yes |
 | frontier/B1635_couplings_on_the_ruled_branch/PREREGISTRATION.md | 44142663 | cf5f8dd08 | 1 | yes |
-| frontier/B1636_the_golden_spectrum_on_the_ticks_geodesic/PREREGISTRATION.md | 19aaa9fa | untracked | 0 | NO |
+| frontier/B1636_the_golden_spectrum_on_the_ticks_geodesic/PREREGISTRATION.md | 19aaa9fa | 6d3c2ee30 | 1 | yes |
+| frontier/B1637_fits_on_the_ruled_branch/PREREGISTRATION.md | 6ba75d6c | untracked | 0 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -386,9 +387,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 375 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 376 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
