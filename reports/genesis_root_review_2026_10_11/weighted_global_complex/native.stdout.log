@@ -1,0 +1,17 @@
+{"starting": "nonsplit/W"}
+{"finished": "nonsplit/W", "H": [0, 2, 2, 0]}
+{"starting": "nonsplit/Wdual"}
+{"finished": "nonsplit/Wdual", "H": [0, 2, 2, 0]}
+{"starting": "nonsplit/wedge2W"}
+{"finished": "nonsplit/wedge2W", "H": [0, 2, 2, 0]}
+{"starting": "nonsplit/wedge2Wdual"}
+{"finished": "nonsplit/wedge2Wdual", "H": [0, 2, 2, 0]}
+{"starting": "split/W"}
+{"finished": "split/W", "H": [1, 3, 2, 0]}
+{"starting": "split/Wdual"}
+{"finished": "split/Wdual", "H": [0, 2, 3, 1]}
+{"starting": "split/wedge2W"}
+{"finished": "split/wedge2W", "H": [0, 4, 4, 0]}
+{"starting": "split/wedge2Wdual"}
+{"finished": "split/wedge2Wdual", "H": [0, 4, 4, 0]}
+{"status": "PASS", "check_count": 94, "cases": 8}

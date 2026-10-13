@@ -92,6 +92,12 @@ The highest-leverage next derivation would make a presently independent downstre
 
 ## Work disposition
 
+### October 13 actual weighted global flag count
+
+The [weighted global complex](weighted_global_complex/FINDINGS.md) now computes the supporting task left by the transport result. The complete positive flag end contracts to its entire decaying torus subcomplex; the authored radial and bounded joining argument gives a coefficient-relative compact model and closed ranges. In the pinned nonsplit candidate, all four coefficients W, its dual, exterior-square W and its dual have (H0,H1,H2,H3)=(0,2,2,0). Both finite constructions agree, as do 48 modular model/prime comparisons; 94 exact controls and eight tests pass after a preserved and resealed symbolic-normalization failure.
+
+These are nonzero, balanced mathematical modes in the supplied class, not a derived three-generation spectrum. Split controls retain compensating endpoint classes and are not granted the nonsplit harmonic-admission theorem. The analytic identification remains authored and independently reviewable; zero-weight neutral sectors are outside this end contraction. Neither a positive-amplitude scan nor solving an equivalent metric profile can change these multiplicities. The next primary duty remains deriving the physical operator/domain and end class from genesis, consistently in both charged slots, rather than adding a target projector. No other typed chirality construction is retracted by this one completion's answer.
+
 ### October 13 complete flag complex transport
 
 The [kernel transport result](kernel_transport/FINDINGS.md) reuses the repository's existing bounded-norm lemma and applies it to the newly admitted nonsplit global harmonic metric, including W, exterior-square W and their duals. The differential domains and reduced L2 cohomology agree with those of the explicit reference metric despite the compulsory mixing. Harmonic representatives and adjoint domains need not agree. An additional explicit radial cochain map proves equal multiplicities for every positive flag amplitude in this supplied family. All 77 exact controls and six tests pass on the first run after the seal was pushed.

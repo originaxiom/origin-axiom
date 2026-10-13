@@ -1,0 +1,763 @@
+{
+  "cases": {
+    "nonsplit/W": {
+      "globally_split_in_flag_basis": false,
+      "models": {
+        "full_fiber": {
+          "H": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            6,
+            22,
+            21,
+            5
+          ],
+          "ranks": [
+            6,
+            14,
+            5
+          ]
+        },
+        "full_relative": {
+          "H": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "chi": 0,
+          "dimensions": [
+            5,
+            20,
+            20,
+            5
+          ],
+          "ranks": [
+            5,
+            13,
+            4
+          ]
+        },
+        "positive_cone": {
+          "H": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            5,
+            19,
+            18,
+            4
+          ],
+          "ranks": [
+            5,
+            12,
+            4
+          ]
+        }
+      },
+      "negative_rank": 1,
+      "ordinary_H": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "positive_rank": 4,
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        -4
+      ]
+    },
+    "nonsplit/Wdual": {
+      "globally_split_in_flag_basis": false,
+      "models": {
+        "full_fiber": {
+          "H": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            9,
+            28,
+            24,
+            5
+          ],
+          "ranks": [
+            9,
+            17,
+            5
+          ]
+        },
+        "full_relative": {
+          "H": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            5,
+            20,
+            20,
+            5
+          ],
+          "ranks": [
+            5,
+            13,
+            5
+          ]
+        },
+        "positive_cone": {
+          "H": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            5,
+            16,
+            12,
+            1
+          ],
+          "ranks": [
+            5,
+            9,
+            1
+          ]
+        }
+      },
+      "negative_rank": 4,
+      "ordinary_H": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "positive_rank": 1,
+      "weights": [
+        -1,
+        -1,
+        -1,
+        -1,
+        4
+      ]
+    },
+    "nonsplit/wedge2W": {
+      "globally_split_in_flag_basis": false,
+      "models": {
+        "full_fiber": {
+          "H": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            14,
+            48,
+            44,
+            10
+          ],
+          "ranks": [
+            14,
+            32,
+            10
+          ]
+        },
+        "full_relative": {
+          "H": [
+            0,
+            3,
+            3,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            10,
+            40,
+            40,
+            10
+          ],
+          "ranks": [
+            10,
+            27,
+            10
+          ]
+        },
+        "positive_cone": {
+          "H": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            10,
+            36,
+            32,
+            6
+          ],
+          "ranks": [
+            10,
+            24,
+            6
+          ]
+        }
+      },
+      "negative_rank": 4,
+      "ordinary_H": [
+        0,
+        4,
+        4,
+        0
+      ],
+      "positive_rank": 6,
+      "weights": [
+        2,
+        2,
+        2,
+        -3,
+        2,
+        2,
+        -3,
+        2,
+        -3,
+        -3
+      ]
+    },
+    "nonsplit/wedge2Wdual": {
+      "globally_split_in_flag_basis": false,
+      "models": {
+        "full_fiber": {
+          "H": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            16,
+            52,
+            46,
+            10
+          ],
+          "ranks": [
+            16,
+            34,
+            10
+          ]
+        },
+        "full_relative": {
+          "H": [
+            0,
+            4,
+            4,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            10,
+            40,
+            40,
+            10
+          ],
+          "ranks": [
+            10,
+            26,
+            10
+          ]
+        },
+        "positive_cone": {
+          "H": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            10,
+            34,
+            28,
+            4
+          ],
+          "ranks": [
+            10,
+            22,
+            4
+          ]
+        }
+      },
+      "negative_rank": 6,
+      "ordinary_H": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "positive_rank": 4,
+      "weights": [
+        -2,
+        -2,
+        -2,
+        3,
+        -2,
+        -2,
+        3,
+        -2,
+        3,
+        3
+      ]
+    },
+    "split/W": {
+      "globally_split_in_flag_basis": true,
+      "models": {
+        "full_fiber": {
+          "H": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            6,
+            22,
+            21,
+            5
+          ],
+          "ranks": [
+            5,
+            14,
+            5
+          ]
+        },
+        "full_relative": {
+          "H": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "chi": 0,
+          "dimensions": [
+            5,
+            20,
+            20,
+            5
+          ],
+          "ranks": [
+            5,
+            13,
+            4
+          ]
+        },
+        "positive_cone": {
+          "H": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            5,
+            19,
+            18,
+            4
+          ],
+          "ranks": [
+            4,
+            12,
+            4
+          ]
+        }
+      },
+      "negative_rank": 1,
+      "ordinary_H": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "positive_rank": 4,
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        -4
+      ]
+    },
+    "split/Wdual": {
+      "globally_split_in_flag_basis": true,
+      "models": {
+        "full_fiber": {
+          "H": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "chi": 0,
+          "dimensions": [
+            9,
+            28,
+            24,
+            5
+          ],
+          "ranks": [
+            9,
+            17,
+            4
+          ]
+        },
+        "full_relative": {
+          "H": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "chi": 0,
+          "dimensions": [
+            5,
+            20,
+            20,
+            5
+          ],
+          "ranks": [
+            5,
+            13,
+            4
+          ]
+        },
+        "positive_cone": {
+          "H": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "chi": 0,
+          "dimensions": [
+            5,
+            16,
+            12,
+            1
+          ],
+          "ranks": [
+            5,
+            9,
+            0
+          ]
+        }
+      },
+      "negative_rank": 4,
+      "ordinary_H": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "positive_rank": 1,
+      "weights": [
+        -1,
+        -1,
+        -1,
+        -1,
+        4
+      ]
+    },
+    "split/wedge2W": {
+      "globally_split_in_flag_basis": true,
+      "models": {
+        "full_fiber": {
+          "H": [
+            0,
+            4,
+            4,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            14,
+            48,
+            44,
+            10
+          ],
+          "ranks": [
+            14,
+            30,
+            10
+          ]
+        },
+        "full_relative": {
+          "H": [
+            0,
+            4,
+            4,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            10,
+            40,
+            40,
+            10
+          ],
+          "ranks": [
+            10,
+            26,
+            10
+          ]
+        },
+        "positive_cone": {
+          "H": [
+            0,
+            4,
+            4,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            10,
+            36,
+            32,
+            6
+          ],
+          "ranks": [
+            10,
+            22,
+            6
+          ]
+        }
+      },
+      "negative_rank": 4,
+      "ordinary_H": [
+        0,
+        4,
+        4,
+        0
+      ],
+      "positive_rank": 6,
+      "weights": [
+        2,
+        2,
+        2,
+        -3,
+        2,
+        2,
+        -3,
+        2,
+        -3,
+        -3
+      ]
+    },
+    "split/wedge2Wdual": {
+      "globally_split_in_flag_basis": true,
+      "models": {
+        "full_fiber": {
+          "H": [
+            0,
+            4,
+            4,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            16,
+            52,
+            46,
+            10
+          ],
+          "ranks": [
+            16,
+            32,
+            10
+          ]
+        },
+        "full_relative": {
+          "H": [
+            0,
+            4,
+            4,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            10,
+            40,
+            40,
+            10
+          ],
+          "ranks": [
+            10,
+            26,
+            10
+          ]
+        },
+        "positive_cone": {
+          "H": [
+            0,
+            4,
+            4,
+            0
+          ],
+          "chi": 0,
+          "dimensions": [
+            10,
+            34,
+            28,
+            4
+          ],
+          "ranks": [
+            10,
+            20,
+            4
+          ]
+        }
+      },
+      "negative_rank": 6,
+      "ordinary_H": [
+        0,
+        4,
+        4,
+        0
+      ],
+      "positive_rank": 4,
+      "weights": [
+        -2,
+        -2,
+        -2,
+        3,
+        -2,
+        -2,
+        3,
+        -2,
+        3,
+        3
+      ]
+    }
+  },
+  "check_count": 94,
+  "checks": [
+    "puncture conjugacy as free words",
+    "two cell orientation as free words",
+    "nonsplit extension splitting test",
+    "nonsplit/W no neutral coefficient",
+    "nonsplit/W relator 0",
+    "nonsplit/W relator 1",
+    "nonsplit/W full restriction identities",
+    "nonsplit/W literal peripheral split P",
+    "nonsplit/W literal peripheral split Q",
+    "nonsplit/W quotient and full fiber agree",
+    "nonsplit/W whole torus Euler identity",
+    "nonsplit/W previous absolute core control",
+    "nonsplit/W core split versus nonsplit control",
+    "nonsplit/Wdual no neutral coefficient",
+    "nonsplit/Wdual relator 0",
+    "nonsplit/Wdual relator 1",
+    "nonsplit/Wdual full restriction identities",
+    "nonsplit/Wdual literal peripheral split P",
+    "nonsplit/Wdual literal peripheral split Q",
+    "nonsplit/Wdual quotient and full fiber agree",
+    "nonsplit/Wdual whole torus Euler identity",
+    "nonsplit/Wdual previous absolute core control",
+    "nonsplit/Wdual core split versus nonsplit control",
+    "nonsplit/wedge2W no neutral coefficient",
+    "nonsplit/wedge2W relator 0",
+    "nonsplit/wedge2W relator 1",
+    "nonsplit/wedge2W full restriction identities",
+    "nonsplit/wedge2W literal peripheral split P",
+    "nonsplit/wedge2W literal peripheral split Q",
+    "nonsplit/wedge2W quotient and full fiber agree",
+    "nonsplit/wedge2W whole torus Euler identity",
+    "nonsplit/wedge2W previous absolute core control",
+    "nonsplit/wedge2W core split versus nonsplit control",
+    "nonsplit/wedge2Wdual no neutral coefficient",
+    "nonsplit/wedge2Wdual relator 0",
+    "nonsplit/wedge2Wdual relator 1",
+    "nonsplit/wedge2Wdual full restriction identities",
+    "nonsplit/wedge2Wdual literal peripheral split P",
+    "nonsplit/wedge2Wdual literal peripheral split Q",
+    "nonsplit/wedge2Wdual quotient and full fiber agree",
+    "nonsplit/wedge2Wdual whole torus Euler identity",
+    "nonsplit/wedge2Wdual previous absolute core control",
+    "nonsplit/wedge2Wdual core split versus nonsplit control",
+    "nonsplit/W weighted duality",
+    "nonsplit/W relative absolute duality True",
+    "nonsplit/W relative absolute duality False",
+    "nonsplit/wedge2W weighted duality",
+    "nonsplit/wedge2W relative absolute duality True",
+    "nonsplit/wedge2W relative absolute duality False",
+    "split extension splitting test",
+    "split/W no neutral coefficient",
+    "split/W relator 0",
+    "split/W relator 1",
+    "split/W full restriction identities",
+    "split/W literal peripheral split P",
+    "split/W literal peripheral split Q",
+    "split/W quotient and full fiber agree",
+    "split/W whole torus Euler identity",
+    "split/W core split versus nonsplit control",
+    "split/Wdual no neutral coefficient",
+    "split/Wdual relator 0",
+    "split/Wdual relator 1",
+    "split/Wdual full restriction identities",
+    "split/Wdual literal peripheral split P",
+    "split/Wdual literal peripheral split Q",
+    "split/Wdual quotient and full fiber agree",
+    "split/Wdual whole torus Euler identity",
+    "split/Wdual core split versus nonsplit control",
+    "split/wedge2W no neutral coefficient",
+    "split/wedge2W relator 0",
+    "split/wedge2W relator 1",
+    "split/wedge2W full restriction identities",
+    "split/wedge2W literal peripheral split P",
+    "split/wedge2W literal peripheral split Q",
+    "split/wedge2W quotient and full fiber agree",
+    "split/wedge2W whole torus Euler identity",
+    "split/wedge2W core split versus nonsplit control",
+    "split/wedge2Wdual no neutral coefficient",
+    "split/wedge2Wdual relator 0",
+    "split/wedge2Wdual relator 1",
+    "split/wedge2Wdual full restriction identities",
+    "split/wedge2Wdual literal peripheral split P",
+    "split/wedge2Wdual literal peripheral split Q",
+    "split/wedge2Wdual quotient and full fiber agree",
+    "split/wedge2Wdual whole torus Euler identity",
+    "split/wedge2Wdual core split versus nonsplit control",
+    "split/W weighted duality",
+    "split/W relative absolute duality True",
+    "split/W relative absolute duality False",
+    "split/wedge2W weighted duality",
+    "split/wedge2W relative absolute duality True",
+    "split/wedge2W relative absolute duality False",
+    "wrong two cell sign detected on actual input",
+    "attached boundary differential actually nonzero"
+  ],
+  "scope": "full weighted flag cochain model; analytic identification is separately authored",
+  "status": "PASS"
+}
