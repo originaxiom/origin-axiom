@@ -1,0 +1,16 @@
+{
+  "source_pins": 89,
+  "all_source_pins_unchanged": true,
+  "tracked_tree_before": {
+    "files": 12249,
+    "tracked_tree_sha256": "238c6d8f8b31e0215e2081a26edd88d18a16143b28a4e19aac58f3071f86a052"
+  },
+  "tracked_tree_after": {
+    "files": 12249,
+    "tracked_tree_sha256": "238c6d8f8b31e0215e2081a26edd88d18a16143b28a4e19aac58f3071f86a052",
+    "unchanged_source_pins": 89
+  },
+  "tracked_tree_unchanged": true,
+  "scientific_seal": "b7443d3aaac0d0a5b68c860d967559859f5d7bd1",
+  "scope": "execution interval before report publication; local jet checks and selected regression, no global PDE certificate"
+}

@@ -1,5 +1,21 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October13 same-action stationary checkpoint:24 native/24 separate Gaussian
+Fraction exact checks and28 live tests PASS248.81s at unchanged pushed
+reseal b7443d3aa,89 pins/tree. ONE supplied compact cover's actual nil
+relative direction has an authored local real-moment/Dirichlet continuation:
+H=mu=0, both tangential frames fixed, summed full response retained and
+normal jets free. Whole charged operator/index plus opposite/endpoint gaps
+preserve W/F(0,3,0,0), duals(0,0,3,0), without copying broken deck parity.
+Prior QdcL remains nonzero locally, not an earned Higgs Yukawa. No new Hu,
+finite-q neutral/extras lifting, eLL/udd cancellation, selected end/parent
+or quantum vacuum is claimed. Initial dependency/syntax failures preserved;
+only native punctuation repaired. NEXT actual finite-q tensor/boundary
+transport, generated field/end/source/index law and Higgs/extra/quantum
+work. Analytic outside review/full-suite/main remain owed; FULL SM/TOE
+ACTIVE and unachieved, other completions preserved. Report:
+reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FINDINGS.md.
+
 October13 complete positive-flag cusp checkpoint:93 native/42 separate
 Fraction exact predicates and7 selected live tests PASS372.41s at pushed
 pre-science seal1fc52aede; all18 pins/tree unchanged. ONE supplied complete

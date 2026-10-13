@@ -1,5 +1,16 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October13 stationary-continuation sublemmas, path-local research grade.
+Source reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13;
+24/24 exact and28 selected live tests atb7443d3aa. B1530 INPUT coefficient
+antecedent only; no new shared bank or foundational selection.
+
+| Law conditional on the supplied model | Proof and live control | Limit |
+|---|---|---|
+| Hermitian Dirichlet configuration change has moment derivative -P_Dir and a coercive real inverse | B1530 INPUT only; NEW PROOF1-3; test_complex_transform_sign_and_actual_curvature / test_real_moment_derivative_includes_connection_jets / test_Dirichlet_positive_form_not_unrestricted_inverse in tests/test_physical_bridge_silver_cover_stationary.py | Local jets support signs and Dirichlet mechanism, not independent certification of the compact global inverse |
+| The actual nil relative direction extends locally to H=mu=0 in the SAME full stationary trace law | B1530 INPUT only; NEW PROOF3-4; test_both_boundary_frames_and_free_normal_jets / test_complex_configuration_not_quotiented_as_real_gauge; actual nil/domain producers re-run by28-test regression | Authored conditional implicit/response argument; no numerical global profile, all-neutral integration, end selection or quantum vacuum |
+| Whole charged tuples stay W/F(0,3,0,0), duals(0,0,3,0) when a small structure perturbation breaks deck parity | B1530 INPUT only; NEW PROOF5; test_whole_kernel_when_deck_parity_fails / test_index_requires_missing_partner_gap; actual full-cover initial charged maps re-run | Compact common-domain gap/index argument, not copied1+2 or an all-q claim; no Hu generation or complete selected physical SM/TOE |
+
 October13 complete-flag sublemmas, path-local research grade. Source
 reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13;
 93/42 exact predicates and7 selected live tests at1fc52aede. B1530 is

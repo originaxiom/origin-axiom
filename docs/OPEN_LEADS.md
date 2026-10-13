@@ -1,5 +1,17 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-COVER-REAL-MOMENT continuation completed CONDITIONALLY at the supplied
+compact-cover scope. Closing sentence: "One actual nil relative direction
+has a local same-action H=mu=0 continuation preserving the three charged
+profiles through the whole operator and its missing-partner gaps."
+Source: reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/FINDINGS.md;
+24/24 exact and28 live PASS,89 unchanged pins atb7443d3aa. This is an
+authored analytic existence/gap argument, not a numerical global profile
+or generated boundary selection. NEXT exact finite-q extension transport
+and possible all-q acyclic/Stokes test BEFORE scans; neutral/extras and
+Higgs, generated field/end/source/index law, quantum, normalization and
+gravity stay open. No all-neutral integration or all-architecture kill.
+
 October13 complete positive-flag cusp checkpoint:93 native/42 separate
 Fraction exact predicates and7 selected live tests PASS372.41s at pushed
 pre-science seal1fc52aede; all18 pins/tree unchanged. ONE supplied complete

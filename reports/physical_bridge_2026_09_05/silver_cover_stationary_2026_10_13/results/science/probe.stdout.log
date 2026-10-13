@@ -1,0 +1,379 @@
+{
+  "all_neutrals_integrated": false,
+  "authored_analytic_continuation": true,
+  "checks": {
+    "Dirichlet_positive_frame_identity": true,
+    "actual_Dirichlet_form_positive_no_surface": true,
+    "actual_first_complex_transform_sign": true,
+    "actual_second_complex_transform_coefficient": true,
+    "both_boundary_values_fixed": true,
+    "complex_transform_keeps_flat_not_moment": true,
+    "curvature_covariance_with_full_derivative_jets": true,
+    "deck_parity_fails_at_nonzero_parameter": true,
+    "frozen_connection_derivatives_rejected": true,
+    "full_real_moment_derivative_minus_P": true,
+    "generic_residual_not_assumed_harmonic": true,
+    "harmonic_flat_fixture_verified": true,
+    "index_alone_allows_extra_endpoint_pair": true,
+    "inverse_series_and_tracefree_determinant": true,
+    "moment_jets_Hermitian_and_traceless": true,
+    "normal_derivatives_not_frozen": true,
+    "old_adjoint_cannot_be_frozen": true,
+    "positive_Hermitian_not_unitary": true,
+    "second_moment_coefficient_retained": true,
+    "unrestricted_parallel_kernel_not_Dirichlet": true,
+    "whole_graded_complex_invertible_change": true,
+    "whole_three_kernel_not_sector_copy": true,
+    "wrong_Higgs_sign_rejected": true,
+    "wrong_derivative_sign_rejected": true
+  },
+  "exact_predicates": 24,
+  "full_goal_achieved": false,
+  "generated_selection": false,
+  "global_silver_PDE_computed": false,
+  "local_jets_epsilon_order": 2,
+  "new_geometric_census": false,
+  "outside_acceptance": false,
+  "records": {
+    "dirichlet_energy": "1942/105",
+    "moment_jets": [
+      [
+        [
+          [
+            [
+              "-3",
+              "0"
+            ],
+            [
+              "-4",
+              "0"
+            ],
+            [
+              "-2",
+              "0"
+            ]
+          ],
+          [
+            [
+              "-4",
+              "5"
+            ],
+            [
+              "2",
+              "-2"
+            ],
+            [
+              "4",
+              "6"
+            ],
+            [
+              "4",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "-4",
+              "-5"
+            ],
+            [
+              "2",
+              "2"
+            ],
+            [
+              "4",
+              "-6"
+            ],
+            [
+              "4",
+              "0"
+            ]
+          ],
+          [
+            [
+              "3",
+              "0"
+            ],
+            [
+              "4",
+              "0"
+            ],
+            [
+              "2",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-44",
+              "0"
+            ],
+            [
+              "-10",
+              "0"
+            ],
+            [
+              "16",
+              "0"
+            ],
+            [
+              "16",
+              "0"
+            ],
+            [
+              "4",
+              "0"
+            ]
+          ],
+          [
+            [
+              "-38",
+              "98"
+            ],
+            [
+              "-20",
+              "2"
+            ],
+            [
+              "-76",
+              "80"
+            ],
+            [
+              "-8",
+              "4"
+            ],
+            [
+              "-28",
+              "40"
+            ],
+            [
+              "-8",
+              "0"
+            ],
+            [
+              "-8",
+              "8"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "-38",
+              "-98"
+            ],
+            [
+              "-20",
+              "-2"
+            ],
+            [
+              "-76",
+              "-80"
+            ],
+            [
+              "-8",
+              "-4"
+            ],
+            [
+              "-28",
+              "-40"
+            ],
+            [
+              "-8",
+              "0"
+            ],
+            [
+              "-8",
+              "-8"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "44",
+              "0"
+            ],
+            [
+              "10",
+              "0"
+            ],
+            [
+              "-16",
+              "0"
+            ],
+            [
+              "-16",
+              "0"
+            ],
+            [
+              "-4",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            [
+              "-30",
+              "0"
+            ],
+            [
+              "-144",
+              "0"
+            ],
+            [
+              "-74",
+              "0"
+            ],
+            [
+              "-198",
+              "0"
+            ],
+            [
+              "32",
+              "0"
+            ],
+            [
+              "-12",
+              "0"
+            ],
+            [
+              "16",
+              "0"
+            ]
+          ],
+          [
+            [
+              "-140",
+              "234"
+            ],
+            [
+              "-150",
+              "-28"
+            ],
+            [
+              "-308",
+              "396"
+            ],
+            [
+              "-60",
+              "-142"
+            ],
+            [
+              "6",
+              "190"
+            ],
+            [
+              "184",
+              "-92"
+            ],
+            [
+              "68",
+              "12"
+            ],
+            [
+              "40",
+              "-24"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "-140",
+              "-234"
+            ],
+            [
+              "-150",
+              "28"
+            ],
+            [
+              "-308",
+              "-396"
+            ],
+            [
+              "-60",
+              "142"
+            ],
+            [
+              "6",
+              "-190"
+            ],
+            [
+              "184",
+              "92"
+            ],
+            [
+              "68",
+              "-12"
+            ],
+            [
+              "40",
+              "24"
+            ]
+          ],
+          [
+            [
+              "30",
+              "0"
+            ],
+            [
+              "144",
+              "0"
+            ],
+            [
+              "74",
+              "0"
+            ],
+            [
+              "198",
+              "0"
+            ],
+            [
+              "-32",
+              "0"
+            ],
+            [
+              "12",
+              "0"
+            ],
+            [
+              "-16",
+              "0"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "toy_gap_closed": [
+      1,
+      4,
+      0
+    ],
+    "toy_mixed": [
+      0,
+      3,
+      0
+    ],
+    "toy_start": [
+      0,
+      3,
+      0
+    ]
+  }
+}

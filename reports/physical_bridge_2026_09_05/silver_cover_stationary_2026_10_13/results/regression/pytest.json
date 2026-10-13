@@ -1,0 +1,21 @@
+{
+  "command": [
+    "[pinned Python3.12.1 interpreter]",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_silver_cover_stationary.py",
+    "tests/test_physical_bridge_silver_cover_nil_flat.py",
+    "tests/test_physical_bridge_silver_cover_domain.py"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 249.72163299999374,
+  "log_bytes": 111,
+  "log_sha256": "09ce240d0ac4951f507dcd871ebee1dd75d7fc585a9728bd06d647cb49f2282d",
+  "raw_receipt_sha256": "9bc30e049fde2edc726656bd93f66c584e6fe2e2244d474276530e9e50e7d265",
+  "publication_redaction": "Only absolute interpreter path replaced; raw receipt retained in temporary regression capture, hash supplied"
+}
