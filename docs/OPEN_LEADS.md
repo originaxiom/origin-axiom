@@ -3770,6 +3770,68 @@ a proof that every admissible bundle there is flat. ★★★
 
 **S65 (2026-10-07): cells (a) and (c) first read — B1483; the gate stated as arithmetic — B1484.** *Cell (a), the boundary:* a lemma, proved — the cusp end of the frame space X_s is a principal bundle whose fibre is the elliptic curve E_s = ℂ/ker σ_s, the cusp's own curve when the spin structure's sign character is trivial there and a curve two-isogenous to it otherwise. *Cell (c), the first invariant that tells the spin structures apart:* the modulus of E_s — on every amphichiral − word state to length 12 the two classes of spin structures give complex-conjugate curves (34 of 34), not isomorphic on 32; on m003 and on −LLRR the two classes give isomorphic end data, so **on the smallest − state this invariant does not separate the two classes** (m003: j = 54,000 for both), while the phase of B1481 does. *Why those two (a post-seal lemma, proved in B1483's addendum of 2026-10-07 and checked on the 68 states):* the pairs (E, σ₊) and (E, σ₋) are isomorphic exactly when the cusp lattice has an automorphism of order greater than 2 — the hexagonal lattice (m003) and the square one (−LLRR), and no other of the 68. On every + state all end curves are real. So the candidate frame is not blind to the bit at its boundary; no index with that boundary term is constructed. *The gate (B1484):* the unification ratio is 0.7172 measured, 0.5275 for the desert, 5/7 with the Higgs multiplets split, ½ for any complete multiplets; w_D = −2·w_Q in the 27 — the arithmetic behind "one object gates both". *Cell (b), a bundle that is not flat:* untouched. A reader's report on the literature (recorded in `docs/THE_CROSSING_2026-10-07.md` §2 as a pointer, unread on this bench): on a compact quotient every homogeneous or flat bundle has all Chern classes zero, χ(X, E) = c₃(E)/2 when c₁ = c₂ = 0, and no holomorphic bundle with c₃ ≠ 0 is known, none forbidden outside the homogeneous class. *Cell (d)* — those sources read on the bench — is owed before any of it is used. *A sketch (2026-10-07; not proved, not banked):* in Iwasawa coordinates the cusp end P_s\G is ((ℂ/ker σ_s) × SU(2))/(ℤ/2) × ℝ⁺ — B1483's bundle seen from the other side, the principal E_s-bundle over ℂ² − 0 being the quotient of G → N\G, which has no holomorphic section (Hartogs) and so does not extend across the origin. Any operator on the end induced from a left-G-invariant one preserves the Fourier modes along N and commutes with the left translations by the diagonal circle M, which rotate the mode; so on a cross-section every spectral invariant is a sum over the (shifted) dual lattice of a function of |λ| — invariant under complex conjugation of the cusp datum (Λ, σ) — while complex conjugation of G is an orientation-reversing isometry between the ends of (Λ, σ) and (Λ̄, σ̄), under which an η-type invariant changes sign. If that survives a proof, **no spectral boundary term of a homogeneous operator can register the hand**; the hand at the end is the holomorphic datum (E, σ) ∈ X₀(2) off its real locus (B1483 and its addendum), and cell (a) is a Dolbeault–Riemann–Roch question, not an η-invariant. Kill: a homogeneous operator on the end with a non-zero odd invariant. Not checked: the operators twisted by ρ_s itself (non-unitary on P), the orientation bookkeeping in dimension five, cross-section against adiabatic limit.
 
+## L251 — THE COUPLINGS AS OVERLAPS OF THE FIBRE'S ZERO MODES: ONE COMPUTATION THAT WOULD FIX THE HAND, THE OBJECT AND THE COEFFICIENTS TOGETHER (registered 2026-10-13, after B1640; source: two of the frame audit's three referee lenses, independently)
+
+**The observation.** The record reads the weave's couplings as vector-valued modular forms evaluated at a modulus τ
+(B1634–B1637), the Feruglio reading, while W45/W46 count the three by an index over M₁,₂, where τ is a coordinate that is
+integrated over. In a Kaluza–Klein reading the four-dimensional couplings are overlap integrals over the internal space,
+and no τ is left over to choose. W49 says T is one zero mode three times; B1634 says the lifts are θ₂², θ₃², θ₄². Together
+that is the shape of a flux-one zero mode on E_τ in three Wilson-line sectors, one per even spin structure. For magnetized
+tori (Cremades–Ibáñez–Marchesano 2004; Kikuchi–Kobayashi et al. 2020) such overlaps are theta constants with **no free
+coefficients**, transforming under the metaplectic Weil representation.
+
+**The computation.** On E_τ take ψ_p (flux one, Wilson line p) and a flux-two Higgs mode; compute
+Y_{pq,h}(τ) = ∫ ψ_p ψ_q ψ̄_h d²z with the standard normalisation. Read off: (a) whether the parity characters are conserved
+(only diagonal or only off-diagonal patterns), which is B1640's two-objects question; (b) whether Y is a fixed multiple of
+B1636's [[0, θ₄², θ₃²], [θ₄², 0, θ₂²], [θ₃², θ₂², 0]], which would make the golden spectrum on the discriminant-5 geodesics
+forced by the fibre's zero modes and settle the hand (B1640 §3.1); (c) how many free reals remain. Then refit (B1637's
+instrument) with τ and one Wilson-line modulus.
+
+**Why it matters.** It replaces the count 2 + Σ(2d − 1) (B1635, under the unstated modular-flavour ansatz) by τ plus
+Wilson-line moduli, gives τ one role, and is the first route on the record where the couplings' coefficients are computed
+rather than free. **Status:** registered, not computed. Next after the W46 arc.
+
+## L252 — THE McKAY LADDER: LEVELS 3, 4, 5 ↔ 2T, 2O, 2I ↔ E₆, E₇, E₈, FOUND THREE TIMES AND NEVER UNIFIED (registered 2026-10-13, after B1640; source: the frame audit's patterns referee)
+
+**The observation.** B997 proves |SL(2, ℤ/N)| is a McKay order exactly for N ∈ {3, 4, 5}. July's two-ended theorem
+(B247–B261, B644) has an E₆/ℚ(√−3) end and an E₈/ℚ(√5) end; B248/B981 a cone-angle path from 2T to 2I with tr(ab) = φ.
+October's weave re-finds each rung: level 3 (W3, B1601: 2T = SL(2, 𝔽₃), the common point is the geometry mod 3), level 4
+(B1606's 2O at the puncture; B1634–B1635's θ-squares, the modular forms of Γ(4)), level 5 (B1638–B1639's degree-5 modular
+equation). Only level 3 is tied back (B1601 to F-MC). The July level-5 corpus — B640 (im ρ = 2I × ℤ/3, tr ρ(RL) = −1/φ),
+B674 (the tick's Γ(5) lift, trace φ), B685, B691, B694, B695, B699, B702, B705 — is cited by no B1400+ arc.
+
+**The question.** Is the weave's golden coupling (level 4 forms, a level-5 correspondence) the level-4 shadow of a level-5
+(2I, A₅′) structure the July record already holds? **First computation:** build the weight-1 triplet of Γ(5)'s A₅′ on the
+ruled branch, if the weave's representation reaches it, and compare B640's traces with the golden coupling's spectrum.
+**Status:** registered. Queue slot Q7 (docs/POINT_REGISTER.md).
+
+## L253 — THE SELECTIONS AS COORDINATES: ARE THE RECORD'S LOCATED CHOICES INDEPENDENT, OR ONE DATUM? (registered 2026-10-13, after B1640; source: the frame audit's patterns referee)
+
+**The observation.** "Forced to choose, not forced which" recurs: B413, B1083, B1225 (T-NO-CANONICAL-SELECTOR), B1251,
+B1409 ("exactly 20 real parameters, every one boundary data"), B1606, B1607, B1620, B1629, B1633, B1634, B1640 (the hand).
+Each frame re-derives it locally; B1225 and B1409 are cited by no B1500+ arc. Nobody has asked whether the located
+selections — the sheet, τ, the cusp unit, the thread, the frame, the weights, the hand — are independent coordinates or
+one datum. That is the free-number count the goal asks for. B471: among metallic pairs only (golden, silver) has a
+parabolic commutator and closes a cusp; B1636: the thread (B1633's selection) and τ (B1634's) coincide when τ is on the
+thread's axis.
+
+**First computation.** All thread pairs to length about 10 with tr[W₁, W₂] = −2: for each, the generated torus's cusp
+modulus and where the axes cross; test whether those points are where the ruled-branch couplings are golden or
+degenerate. If the list is finite and the points coincide, several selections collapse. Then reconcile B1409's 20 with
+B1635's 2 + Σ(2d − 1). **Status:** registered. Queue slot Q7.
+
+## L254 — τ AS A FIELD: WHAT WOULD PUT IT ON THE DISCRIMINANT-5 LOCUS? (registered 2026-10-13, after B1640; source: the frame audit's dictionary and patterns referees)
+
+**The observation.** The record treats τ as a value at which couplings are evaluated (B1634–B1637); in the modular-flavour
+literature τ is a field whose modular-invariant potential has minima at or near the fixed points. The golden spectrum
+holds on the discriminant-5 geodesics, which no potential's critical set is known to contain, and the canonical
+functionals of W51 pick ω or the cusp, where the golden coupling is degenerate. Along the tick's closed geodesic the
+spectrum is constant and the mixing periodic (a referee's unsealed probe), so an orbit average is a definite number.
+
+**First computation.** Whether a modular-invariant non-holomorphic function built from the weave's own forms (W51's joint
+determinant; Im τ·|η|⁴) has the discriminant-5 geodesics as a valley; the arclength average of the golden coupling's
+mixing on the tick's orbit, sealed before any comparison with data. **Status:** registered. Queue slot Q7.
+
 ## ⟳ VIEW REFRESH — 2026-10-07 (Review 60)
 
 Touched at the Review 60 anchor (`aab434644`). **The window (B1465–B1487, 40 merges, four days) is the crossing's.** The

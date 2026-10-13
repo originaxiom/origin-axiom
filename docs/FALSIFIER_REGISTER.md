@@ -93,3 +93,10 @@ root's double tick RL and RRL without the swap (B1612). B1613 computed what it f
 *Scope note, 2026-10-08 (S98, B1620): P10 is conditional on the **mass tensor** as well. On B1620's whole lattice (every subgroup, none chosen), mixing families of two parameters (the TM type) reach the PMNS ranges under T̄ ⊗ T (B1615's tensor) and under T ⊗ T. Under Sym² T (the SM seat's W39: given Λ, with E₆'s cubic and one 27 Higgs), in the record's frame, no residual pair short of the full four reaches them. No order-3 residual is viable there, because the 3-cycle's complex characters pair into degenerate masses. So under that tensor TM1 is not allowed by any residual pair. In a frame with a U(1) acting on T (GENESIS FK11 open), Sym² T gains invariants and the question reopens. The falsifier's wording is unchanged; what a failure would kill is unchanged (the TM1 reading, not the weave).*
 
 *Correction, 2026-10-09 (B1625; the SM seat's W43): the note above says the two-parameter families reach the PMNS under T̄ ⊗ T and T ⊗ T, which implied TM1 under both. **Under T ⊗ T the family is TM2**: its fixed column is (⅓, ⅓, ⅓), sin²θ₁₂ = 1/(3 cos²θ₁₃) ≈ 0.341, and B1620's own stored fits show it. **TM1, and with it P10, is allowed in B1620's frame under T̄ ⊗ T only.** Where c is gauge (W44), TM1 returns under T ⊗ T. P10 therefore tests Λ, a frame (GENESIS FK11) and a Higgs content together.*
+
+*Scope note, 2026-10-13 (B1640, the frame audit; GENESIS v1.42): P10's residual pair (RL for the charged leptons, RRL for
+the neutrinos, B1612) is a flavon-frame reading. On the ruled branch the modulus τ is the only breaking agent, and
+ρ_θ(RL) shares its eigenlines only with order-3 stabilisers (ω-type points) while ρ_θ(RRL) shares them only with order-2
+ones (i-type points), so one τ cannot give both. P10 therefore needs two moduli or a breaking agent the principle does not
+name; P10′ was read in the frame where all of G is flavour and has the same status on the ruled branch. Neither entry is
+withdrawn: each tests a frame, and a failure kills that reading, not the weave.*

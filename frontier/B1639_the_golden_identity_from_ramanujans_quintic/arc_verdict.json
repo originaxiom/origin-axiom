@@ -19,5 +19,5 @@
   "hypotheses": "Ramanujan's Entry 13(xii) (Berndt III, ch. 19), cited through secondary sources; the converse direction not addressed; no data"
  },
  "claim_one_line": "THE GOLDEN IDENTITY FROM RAMANUJAN'S QUINTIC (sealed; PROVED given the cited theorem): N = [[1,4],[4,17]] diag(5,1) [[-5,-6],[6,7]] with both outer factors in Gamma(2), so lambda(N tau) has degree 5 over lambda(tau); with g_3^12 = 2^8/(lambda(1-lambda))^2, g_2 = g_3 s, g_4 = g_3 c (checked to 1e-46) and Ramanujan's (alpha beta)^1/2 + ((1-alpha)(1-beta))^1/2 + 2(16 alpha beta(1-alpha)(1-beta))^1/6 = 1, continued analytically, H^12 = 8^12, so H = 8 by continuity -- THEOREM: on every geodesic of discriminant 5 (the tick's axis and its images) sum|theta_p/eta|^4 = 8 and the weave's lowest symmetric coupling has masses exactly 1 : phi^-1 : phi^-2. R3's second clause (a fixed principal-branch pattern) failed as sealed: principal branches jump; the proof uses the analytic continuations. 0 of 19.",
- "weave_or_thread": "weave"
+ "weave_or_thread": "thread (the weave's lowest coupling read on the tick's closed geodesic, the axis of the root thread's monodromy LR, and its images; relabelled 2026-10-13, B1640, POINT_REGISTER P-010: the coupling is the weave's, the locus a thread's)"
 }

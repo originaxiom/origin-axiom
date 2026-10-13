@@ -1,0 +1,27 @@
+{
+ "id": "B1640",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1635",
+  "B1634",
+  "B1618",
+  "B1612",
+  "B1636",
+  "B1625"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the ruled branch (GENESIS v1.33, v1.41); given Lambda",
+  "object": "three frame statements: degeneracy at omega (B1618, B1635 section 3, GENESIS v1.35/v1.41); the multiplier's convention (B1634, GENESIS v1.41); the TM1 residual pair (B1612, FALSIFIER P10)",
+  "reach": "general",
+  "hypotheses": "B1635's instrument and conventions; the conjugate branch with the referee's settings (W = eta^6 Y, cusp order 2); cell C's search box |entries| <= 4"
+ },
+ "claim_one_line": "THE FRAME AUDIT (an audit arc, at the owner's request; GENESIS v1.42): on the ruled branch only the single pieces of T(x)T are degenerate at omega -- Tbar(x)T (B1618's Dirac tensor; nine members in B1635's own sealed read-outs, e.g. 1 : 0.674 : 0.448) and mixed T(x)T couplings are not, so tau = omega's retirement stands as 'no hierarchy found', not as a degeneracy; 'no choice is made' in the weave's multiplier is scoped -- rho = lift^-1 against its conjugate is two binary conventions, the record's allows W45's weight 3/2 and B1636's symmetric weight-1 (golden) coupling, the conjugate neither (its weight-1 coupling is antisymmetric only), so the index and the golden coupling come with the same hand and the hand is not derived; and rho_theta(RL) shares its eigenlines only with order-3 stabilisers, rho_theta(RRL) only with order-2 ones, so one tau cannot give the TM1 reading's residual pair. 0 of 19.",
+ "weave_or_thread": "weave"
+}

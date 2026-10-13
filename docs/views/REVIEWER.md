@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1367** |
-| words of findings prose | **1,069,230** |
-| test lock files referenced | **802** |
-| arcs carrying an authored verdict | **1367** (100.0 %) |
+| research arcs with findings | **1368** |
+| words of findings prose | **1,070,668** |
+| test lock files referenced | **803** |
+| arcs carrying an authored verdict | **1368** (100.0 %) |
 | recorded closures | **818** (651 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 923 |
+| PROVED | 924 |
 | NEGATIVE | 342 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1639`** (812 words, 1 locks)  
-THE GOLDEN IDENTITY FROM RAMANUJAN'S QUINTIC (sealed; PROVED given the cited theorem): N = [[1,4],[4,17]] diag(5,1) [[-5,-6],[6,7]] with both outer factors in Gamma(2), so lambda(N tau) has degree 5 over lambda(tau); with g_3^12 = 2^8/(lambda(1-lambda))^2, g_2 = g_3 s, g_4 = g_3 c (checked to 1e-46) and Ramanujan's (alpha beta)^1/2 + ((1-alpha)(1-beta))^1/2 + 2(16 alpha beta(1-alpha)(1-beta))^1/6 = 1, continued analytically, H^12 = 8^12, so H = 8 by continuity -- THEOREM: on every geodesic of discriminant 5 (the tick's axis and its images) sum|theta_p/eta|^4 = 8 and the weave's lowest symmetric coupling has masses exactly 1 : phi^-1 : phi^-2. R3's second clause (a fixed principal-branch pattern) failed as sealed: principal branches jump; the proof uses the analytic continuations. 0 of 19.  
-`B1639_the_golden_identity_from_ramanujans_quintic/FINDINGS.md`
+**PROVED — `B1640`** (1438 words, 1 locks)  
+THE FRAME AUDIT (an audit arc, at the owner's request; GENESIS v1.42): on the ruled branch only the single pieces of T(x)T are degenerate at omega -- Tbar(x)T (B1618's Dirac tensor; nine members in B1635's own sealed read-outs, e.g. 1 : 0.674 : 0.448) and mixed T(x)T couplings are not, so tau = omega's retirement stands as 'no hierarchy found', not as a degeneracy; 'no choice is made' in the weave's multiplier is scoped -- rho = lift^-1 against its conjugate is two binary conventions, the record's allows W45's weight 3/2 and B1636's symmetric weight-1 (golden) coupling, the conjugate neither (its weight-1 coupling is antisymmetric only), so the index and the golden coupling come with the same hand and the hand is not derived; and rho_theta(RL) shares its eigenlines only with order-3 stabilisers, rho_theta(RRL) only with order-2 ones, so one tau cannot give the TM1 reading's residual pair. 0 of 19.  
+`B1640_the_frame_audit/FINDINGS.md`
 
 **NEGATIVE — `B1635`** (1052 words, 1 locks)  
-THE COUPLINGS IN TAU ALONE ON THE RULED BRANCH (sealed; NEGATIVE as sealed): by main's own route (polynomials in theta squares mod Jacobi's quadric) the SM seat's W50 section 3 is verified -- dimensions by piece exactly (D 0,0,1,1,2,2; O+ 1,1,2,2,3,3; O- 0,1,1,2,2,3 for k = 1..11; = the formula), its mixing distance 0.670933, non-degenerate masses and non-permutation mixing at a generic tau, every coupling degenerate at omega -- but two sealed cells fail: a non-degeneracy threshold of 0.05 (four couplings at 0.028-0.046) and 'at i every single piece is degenerate', which is false: O+ at k = 1 (mod 4) is not, and the lowest coupling at i has masses (1, 1/phi, 1/phi^2) exactly; the first count: 2 + sum_s (2 d(k_s) - 1) free real numbers given the weights, 4 for two sectors at the lowest weights. 0 of 19.  
+THE COUPLINGS IN TAU ALONE ON THE RULED BRANCH (sealed; NEGATIVE as sealed): by main's own route (polynomials in theta squares mod Jacobi's quadric) the SM seat's W50 section 3 is verified -- dimensions by piece exactly (D 0,0,1,1,2,2; O+ 1,1,2,2,3,3; O- 0,1,1,2,2,3 for k = 1..11; = the formula), its mixing distance 0.670933, non-degenerate masses and non-permutation mixing at a generic tau, every coupling degenerate at omega -- but two sealed cells fail: a non-degeneracy threshold of 0.05 (four couplings at 0.028-0.046) and 'at i every single piece is degenerate', which is false: O+ at k = 1 (mod 4) is not, and the lowest coupling at i has masses (1, 1/phi, 1/phi^2) exactly; the first count: 2 + sum_s (2 d(k_s) - 1) free real numbers given the weights, 4 for two sectors at the lowest weights. 0 of 19. [Scoped 2026-10-13, B1640: 'every coupling degenerate at omega' holds for the single pieces of T(x)T (the sealed K5(i)); Tbar(x)T (nine members in this arc's own read-outs) and mixed T(x)T couplings are non-degenerate at omega. The count is under the modular-flavour ansatz (holomorphy, minimal Kahler, every field in T).]  
 `B1635_couplings_on_the_ruled_branch/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  

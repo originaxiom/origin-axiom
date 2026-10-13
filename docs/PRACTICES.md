@@ -686,6 +686,20 @@ three were made to the owner in one answer and each was contradicted by arcs ban
 found to have called a theorem proved for a case its hypotheses exclude, from the abstract (B1450). Lock:
 `tests/test_seen_first_gate.py` (the gate fails three ways and passes one).
 
+## Every point a review raises has a row, a disposition and a queue slot — GATED (`point-debt`)
+
+**The rule.** `scripts/checks/point_debt.py` reads `docs/POINT_REGISTER.md`. Every point raised by a review, an audit
+lens, a seat intake, a census or the owner gets a row the day it is raised, with one disposition (DONE naming where;
+QUEUED naming a slot of the register's single queue; LEAD naming an L-number and a slot; OWNER; DECLINED with a reason).
+The IDs run without gaps and their count is a frozen floor, so a row cannot be deleted. A DONE row must name an arc or a
+path that exists. A QUEUED or LEAD row unmoved for 21 days fails unless it carries `ESCALATED(YYYY-MM-DD: next action)`.
+Every gate run prints the open count and the next slot.
+
+**Why it exists.** The owner, 2026-10-13: "we come up with conclusions like the ones from this session, we clarify the
+picture, but fail to address all the points we made, and get lost to one of the multiple things we have to deal with.
+then over and over." Relays, seat items and leads were aged; a point raised in a review or audit was not, and survived
+only as prose. Opened with the 72 points of the 2026-10-13 frame audit and intake.
+
 ## Every open lead and every arc left OPEN is aged, on a ratchet — GATED (`lead-debt`)
 
 **The rule.** `scripts/checks/lead_debt.py` reads `docs/OPEN_LEADS.md` and every `frontier/*/arc_verdict.json`. A lead (a

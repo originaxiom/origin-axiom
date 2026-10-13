@@ -1,0 +1,137 @@
+# THE POINT REGISTER — every point a review raises gets a row, a disposition and a place in one queue
+
+*Opened 2026-10-13 at the owner's instruction: "another mistake is that we come up with conclusions like the ones from
+this session, we clarify the picture, but fail to address all the points we made, and get lost to one of the multiple
+things we have to deal with. then over and over. lets prevent that this time."*
+
+**The failure this register stops.** A review, an audit or a seat report produces many points. The record banks the one
+that is being worked on, and the others survive only as prose in a report nobody reopens. Leads and relays already have
+gates; a *point* (a correction owed, a check owed, a question raised) had none.
+
+**The rule.** Every point raised by a review, an audit lens, a seat intake, a census or the owner gets one row here, the
+day it is raised. Each row has exactly one disposition:
+
+- **DONE** — addressed; *where* names the arc, addendum or file that carries it (checkable).
+- **QUEUED** — owed; *where* names a slot `Q<n>` of the queue below. The queue is worked in order.
+- **LEAD** — registered as a lead in `docs/OPEN_LEADS.md` (*where* names it, `L<n>`), and its slot in the queue.
+- **OWNER** — a decision only the owner can make; *where* says what is asked.
+- **DECLINED** — considered and not pursued; *where* says why.
+
+**Enforced** by the gate `point-debt` (`scripts/checks/point_debt.py`). It fails the push if a row has no valid
+disposition, if a row is deleted (the IDs run without gaps and their count is frozen as a floor), if a DONE row names
+something that does not exist, if a queue slot is named but not defined, or if a QUEUED or LEAD row has not moved for 21
+days without an `ESCALATED(YYYY-MM-DD: next action)` note. Every push prints how many points are open and the next slot.
+
+**How to use it.** Before choosing work, read the queue. When a session lands, flip the rows it paid to DONE and name
+where. New points from a session go in before the session lands.
+
+## The queue (worked in this order)
+
+| slot | what | rows |
+|---|---|---|
+| Q0 | S115: land the frame audit (B1640) and this register; the quick corrections | P-001…P-012, P-047–P-052 |
+| Q1 | B1637's grading (the fit is running), with the dictionary's scope written into its reading | P-013–P-016, P-076 |
+| Q2 | W46 on main: the four-dimensional index, first cell the two-objects question; the hand as the puncture condition's orientation; the parity selection rule (the Higgs's weight is the SM seat's W56) | P-017–P-019, P-079, P-080, P-083 |
+| Q3 | The field (the owner: "if the principle is the seed, we miss the field"): L251, the couplings as overlaps of the fibre's zero modes; the hand from the zero modes; the Banking Seat's Gate 12 first; the SM seat's five-point standard | P-020–P-022, P-073, P-074, P-085 |
+| Q4 | Near the fixed points on the ruled branch: fields with their own weights; what tells the sectors apart (the d–e wall); B1620's census restricted to τ's stabilisers | P-023–P-025, P-077, P-084 |
+| Q5 | Review 63 (due: 28 merges, hard stop at 40) as a premise audit and a banking-and-verification audit: every "forced", "every" and "no choice" with what it assumes; every lane, every "VERIFIED" row, every relied-on seat result | P-026–P-029, P-086 |
+| Q6 | The golden identity's reach: the converse, all discriminants ≤ 100, degrees 3 and 7, the primitive controls, the book | P-030–P-032, P-071 |
+| Q7 | The orphaned positives read against the weave; the McKay ladder (L252); the selections as coordinates (L253); τ as a field (L254) | P-033–P-046, P-069, P-070 |
+| Q8 | The census's verification debt and the lanes' unverified results | P-053–P-062 |
+| Q9 | The Banking Seat's open gates verified on main | P-063–P-064 |
+
+## The rows
+
+Sources: **MC** the mathematical-chain referee; **DF** the physics-dictionary-and-frames referee; **PT** the
+patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGRATION_CENSUS_2026-10-13.md` §7);
+**IN** the 2026-10-13 intake (the Banking Seat ZIPs and the archive's independent audit); **CE** the integration census;
+**OW** the owner; **SE** this seat's own items.
+
+| ID | registered | source | point | disposition | where / next | moved |
+|---|---|---|---|---|---|---|
+| P-001 | 2026-10-13 | MC1, DF2.1 | B1635 §3 "every coupling is degenerate at ω" is false for T̄ ⊗ T and mixed T ⊗ T (its own sealed read-outs) | DONE | B1640 cell A; frontier/B1635_couplings_on_the_ruled_branch/ADDENDUM_2026-10-13_omega_and_the_ansatz.md | 2026-10-13 |
+| P-002 | 2026-10-13 | DF2.1 | τ = ω's retirement (GENESIS v1.35) rested on B1618's inner-automorphism argument, scoped off the ruled branch by B1634 | DONE | B1640; GENESIS.md v1.42; frontier/B1618_the_weighted_cell_at_omega/ADDENDUM_2026-10-13_the_ruled_branch.md | 2026-10-13 |
+| P-003 | 2026-10-13 | MC1 | "no choice is made" in the multiplier: ρ = lift⁻¹ against its conjugate is two binary conventions, and the golden coupling exists for one | DONE | B1640 cell B; frontier/B1634_w50_on_main/ADDENDUM_2026-10-13_the_hand_of_the_multiplier.md; GENESIS.md v1.42 | 2026-10-13 |
+| P-004 | 2026-10-13 | DF2.2, MC5 | the TM1 reading (P10) needs RL's and RRL's residuals at once; one τ cannot give both on the ruled branch | DONE | B1640 cell C | 2026-10-13 |
+| P-005 | 2026-10-13 | DF2.2, MC5 | FALSIFIER_REGISTER P10 and P10′ carry no ruled-branch scope note | DONE | docs/FALSIFIER_REGISTER.md (scope note 2026-10-13, B1640) | 2026-10-13 |
+| P-006 | 2026-10-13 | MC5, DF2.1 | THE_WEAVE's B1618 and B1620 bullets state the inner-automorphism argument as fact; "the 13 unreduced in every frame on record" | DONE | docs/THE_WEAVE.md (the B1618 bullet and "every frame" scoped; the B1640 section) | 2026-10-13 |
+| P-007 | 2026-10-13 | MC5 | THEOREM_REGISTRY's T-WEAVE-REDUCES-NONE says "in every frame on record" without the ruled branch | DONE | docs/THEOREM_REGISTRY.md (T-WEAVE-REDUCES-NONE scoped) | 2026-10-13 |
+| P-008 | 2026-10-13 | MC8 | T-COMMON-POINT-MOD-3 graded PROVED on a census to length eight while B1601 says "the theorem is open" | DONE | docs/THEOREM_REGISTRY.md (T-COMMON-POINT-MOD-3 regraded: census law, the general statement open) | 2026-10-13 |
+| P-009 | 2026-10-13 | MC6 | HARVEST row 1052 says W41's multiplier is "VERIFIED on main" — verified under a convention (P-003) | DONE | docs/HARVEST_LEDGER.md (row 1052 sharpened: verified under the record's convention; W41's weight queued as P-019) | 2026-10-13 |
+| P-010 | 2026-10-13 | MC4 | B1636, B1638, B1639 are labelled "weave", but the tick's geodesic is the root thread's axis: weave-or-thread by the rule's test 2 | DONE | B1636, B1638, B1639 verdict files relabelled "thread" (B1640) | 2026-10-13 |
+| P-011 | 2026-10-13 | PT2, SE | the error classes this audit exposed (a frame statement not propagated; a sealed cell's scope widened in the summary; a convention called forced) are not on the ERROR_LEDGER | DONE | docs/ERROR_LEDGER.md (E88 the uncarried point, named by the owner; E53 #31; an E1 instance, twice) | 2026-10-13 |
+| P-012 | 2026-10-13 | SE | the frame audit's findings are not yet in the integration census (§7) | DONE | docs/THE_INTEGRATION_CENSUS_2026-10-13.md (section 7) | 2026-10-13 |
+| P-013 | 2026-10-13 | SE, CE | B1637 (main's refit of W53) is running; grade F2–F5, FINDINGS, verdict, lock | QUEUED | Q1 | 2026-10-13 |
+| P-014 | 2026-10-13 | DF1.3 | every field in one T with the same exponents; one 27_H would relate Y_u, Y_d, Y_e, and B1637 fits three independent sectors (a Higgs content beyond Λ, unstated); a GUT dictionary should be fitted at the unification scale | QUEUED | Q1 | 2026-10-13 |
+| P-015 | 2026-10-13 | DF1.4 | the closest fits need Im τ ≈ 2.5–6, the cusp region B1629 says the principle's dynamics never visits | QUEUED | Q1 | 2026-10-13 |
+| P-016 | 2026-10-13 | DF2.4 | B1637's pre-written reading ("the principle leaves all 13 free") generalises from one ansatz to the principle | QUEUED | Q1 | 2026-10-13 |
+| P-017 | 2026-10-13 | MC2, DF2.3 | two objects: the ±3 lives on M₁,₂, whose fibre loops are the inner automorphisms the ruled branch excludes; with them the golden coupling is forbidden, without them W46 must be recomputed | QUEUED | Q2 | 2026-10-13 |
+| P-018 | 2026-10-13 | CE | W46 (the four-dimensional index is n times the fibre's) is relied on and never recomputed on main | QUEUED | Q2 | 2026-10-13 |
+| P-019 | 2026-10-13 | MC3 | W41's matter weight −¾ is not among ρ_T's allowed weights (k ≡ 3/2 mod 2); W45 uses 3/2 | QUEUED | Q2 | 2026-10-13 |
+| P-020 | 2026-10-13 | DF4, MC3 | the strongest unpursued lead: the couplings as overlap integrals of the fibre's zero modes (no free coefficients) | LEAD | L251; Q3 | 2026-10-13 |
+| P-021 | 2026-10-13 | MC1, MC6 | the hand is not derived: compute the multiplier and weight of the zero modes themselves (period map) | QUEUED | Q3 | 2026-10-13 |
+| P-022 | 2026-10-13 | DF1.1 | τ has two roles: integrated over in the index (W45/W46), evaluated in the couplings (B1634–B1637) | LEAD | L251; Q3 | 2026-10-13 |
+| P-023 | 2026-10-13 | DF3, CE | the near-fixed-point mechanism on the ruled branch, with fields given their own representations and weights, is not computed | QUEUED | Q4 | 2026-10-13 |
+| P-024 | 2026-10-13 | MC5 | B1620's census of residuals should be rerun with residuals restricted to the stabilisers of τ (scalars, order 8 at i, order 12 at ω) | QUEUED | Q4 | 2026-10-13 |
+| P-025 | 2026-10-13 | DF1.2 | holomorphy and the minimal Kähler term are imported; without them (non-holomorphic forms, non-minimal Kähler) the count is larger | QUEUED | Q4 | 2026-10-13 |
+| P-026 | 2026-10-13 | PT2 | the frame is never audited: B1631 audited reproduction, inputs and integrity, not premises | QUEUED | Q5 | 2026-10-13 |
+| P-027 | 2026-10-13 | MC9 | the load-bearing positives of B1634–B1638 were mostly established after the seal; B1638 is "PROVED (numerically)" | QUEUED | Q5 | 2026-10-13 |
+| P-028 | 2026-10-13 | PT2 | vocabulary drift (July: hearing, stage, shadow; October: weave, thread, tick) defeats the regex "seen first" sweeps | QUEUED | Q5 | 2026-10-13 |
+| P-029 | 2026-10-13 | PT2 | errors are caught from outside (owner, peer seat, adversarial lane); the method grows more than it closes | QUEUED | Q5 | 2026-10-13 |
+| P-030 | 2026-10-13 | MC10 | the golden identity's classical input is cited through secondary sources; Berndt III p. 280 not read | QUEUED | Q6 | 2026-10-13 |
+| P-031 | 2026-10-13 | MC10, PT4A | "special to discriminant 5" rests on five other geodesics; B1638's controls at discriminants 12 and 32 have non-primitive N_M (content 2, 4); test all discriminants ≤ 100, other weights, Ramanujan's degree-3 and degree-7 equations | QUEUED | Q6 | 2026-10-13 |
+| P-032 | 2026-10-13 | MC10 | the converse (F = 8 only on the discriminant-5 geodesics) is a numerical conjecture | QUEUED | Q6 | 2026-10-13 |
+| P-033 | 2026-10-13 | PT1a | the McKay ladder (levels 3/4/5 ↔ 2T/2O/2I ↔ E₆/E₇/E₈) recurs from July to October and is not unified; B997, B644, B248, B981 uncited by the weave | LEAD | L252; Q7 | 2026-10-13 |
+| P-034 | 2026-10-13 | PT1b | the July level-5 golden corpus (B640, B674, B685, B691, B694, B695, B699, B702, B705) is cited by no B1400+ arc | LEAD | L252; Q7 | 2026-10-13 |
+| P-035 | 2026-10-13 | PT1c | the crossing's spin-structure results (B1477–B1483) are cited by no B1600+ arc, while the θ characteristics are the fibre's even spin structures and the hand question (B1607, B1640) is about the same data | QUEUED | Q7 | 2026-10-13 |
+| P-036 | 2026-10-13 | PT1d | the located selections (sheet, τ, cusp unit, thread, frame, weights): independent coordinates or one datum — the free-number count's real question | LEAD | L253; Q7 | 2026-10-13 |
+| P-037 | 2026-10-13 | PT3 | orphan B1409 ("exactly 20 real parameters, every one boundary data") never reconciled with B1635's 2 + Σ(2d − 1) | QUEUED | Q7 | 2026-10-13 |
+| P-038 | 2026-10-13 | PT3, PT4C | orphan B471 ((golden, silver) the unique metallic pair with parabolic commutator): thread pairs with tr[W₁, W₂] = −2 and where their axes meet | LEAD | L253; Q7 | 2026-10-13 |
+| P-039 | 2026-10-13 | PT3 | orphan B345 (Z/3 charges force an anti-diagonal texture at the trace map's centre, W2's common point) against B1635's textures | QUEUED | Q7 | 2026-10-13 |
+| P-040 | 2026-10-13 | PT3 | orphan B640 (im ρ = 2I × Z/3, tr ρ(RL) = −1/φ) | LEAD | L252; Q7 | 2026-10-13 |
+| P-041 | 2026-10-13 | PT3 | orphan B997 (golden the unique metallic grammar whose own-conductor shadow is a McKay group; N ∈ {3, 4, 5}) | LEAD | L252; Q7 | 2026-10-13 |
+| P-042 | 2026-10-13 | PT3 | orphan B1143 (B−L a genuine fourth Cartan direction, anomaly-free identically) against the neutrino sector | QUEUED | Q7 | 2026-10-13 |
+| P-043 | 2026-10-13 | PT3 | orphan B1430 (the SM unique in E₆ only when the 27 branches as one generation + 10 + 1) against FK11's dictionary | QUEUED | Q7 | 2026-10-13 |
+| P-044 | 2026-10-13 | PT3 | orphan B1484 (sin²θ_W: 0.7172 measured, 5/7 SUSY, the record's closing 1/2) — cited only by docs and L250 | QUEUED | Q7 | 2026-10-13 |
+| P-045 | 2026-10-13 | PT3 | orphan B1251 (the E₆ cubic's 45 triples, D2 sign product −1 on all) against one-27_H couplings (P-014) | QUEUED | Q7 | 2026-10-13 |
+| P-046 | 2026-10-13 | PT3 | orphan B1089 (every matter datum interface-resident; coupling boundary-evaluated) against L251 | QUEUED | Q7 | 2026-10-13 |
+| P-047 | 2026-10-13 | IN | the archive's independent audit proved F = 8 via Ramanujan on 2026-10-10, before B1639: priority and provenance not recorded | DONE | frontier/B1639_the_golden_identity_from_ramanujans_quintic/ADDENDUM_2026-10-13_priority_and_label.md | 2026-10-13 |
+| P-048 | 2026-10-13 | IN | the archive audit's ω counterexample (a weight-3 symmetric plus twice the antisymmetric coupling, masses 3 : 2 : 1) | DONE | frontier/B1635_couplings_on_the_ruled_branch/ADDENDUM_2026-10-13_omega_and_the_ansatz.md | 2026-10-13 |
+| P-049 | 2026-10-13 | IN | B1482's wording about −I in the group needs checking against the intake's correction | DONE | GENESIS.md v1.42 (GM5d scoped: positivity excludes −I from the updates, not from the group); B1640 | 2026-10-13 |
+| P-050 | 2026-10-13 | IN | quaternion uniqueness needs the hypothesis tr[a, b] = −2 where it is stated | DONE | the outreach PDF's sources (gitignored), corrected and rebuilt 2026-10-13: the tr[a, b] = −2 hypothesis restored, the mod-3 statement graded a census law, −I, σ² = LR on homology, the ω scope and the hand | 2026-10-13 |
+| P-051 | 2026-10-13 | IN | the Banking Seat handoff and the thirteen weave runs are not rowed in HARVEST_LEDGER | DONE | docs/HARVEST_LEDGER.md (rows 1089, 1090) | 2026-10-13 |
+| P-052 | 2026-10-13 | OW | the weave archive published to its branch (the owner's "do as u recomend") | DONE | the archive lane's branch at efadcdeaa (not main's tree): 291 members restored, its RESTORE_RECEIPT.json status VERIFIED | 2026-10-13 |
+| P-053 | 2026-10-13 | CE | W44's c-gauge frame (98 subgroups) behind GENESIS v1.36's "the 13 unreduced in every frame" | QUEUED | Q8 | 2026-10-13 |
+| P-054 | 2026-10-13 | CE | W24 and W30 (the six-dimensional census; the order-3 flux allowed, not forced) cited in GENESIS | QUEUED | Q8 | 2026-10-13 |
+| P-055 | 2026-10-13 | CE | W23, W27, W28 (at most two complete generations in E₈ frames; "derived given Λ"; the qubit) | QUEUED | Q8 | 2026-10-13 |
+| P-056 | 2026-10-13 | CE | W47 (no forcing of the cusp's unit) | QUEUED | Q8 | 2026-10-13 |
+| P-057 | 2026-10-13 | CE | the fork lane's exact packets (matter_line_compatibility, puncture_symmetry; positive_carrier, cohomology_carrier): re-run, then a GM4 reading | QUEUED | Q8 | 2026-10-13 |
+| P-058 | 2026-10-13 | CE | the audit lane's charged three on a connected double cover against T-NO-INDEX-IN-THREE: the same ±3 in another dress, or new | QUEUED | Q8 | 2026-10-13 |
+| P-059 | 2026-10-13 | CE | the audit lane's non-zero inter-family cubic on the cover, against a zero cubic on the earlier domain | QUEUED | Q8 | 2026-10-13 |
+| P-060 | 2026-10-13 | CE | the audit lane's E₈ embedding of the puncture coefficient, its Yang–Mills lift of the cusp unit, and its zero Higgs-pair quartic | QUEUED | Q8 | 2026-10-13 |
+| P-061 | 2026-10-13 | CE | the fork lane's analytic domain work (puncture_fredholm) awaiting specialist review | QUEUED | Q8 | 2026-10-13 |
+| P-062 | 2026-10-13 | CE | engaged too little: W49 (one zero mode three times), W25 (self-conjugate bundles), W36, W48 | QUEUED | Q8 | 2026-10-13 |
+| P-063 | 2026-10-13 | IN | the Banking Seat's Gate 9: C₂(p) = [96p(1 − p) − 25]/432 < 0 | QUEUED | Q9 | 2026-10-13 |
+| P-064 | 2026-10-13 | IN | the Banking Seat's Gate 11: the abelianisations; Δ⁴ = −I₃ obstructs the sign's extension | QUEUED | Q9 | 2026-10-13 |
+| P-065 | 2026-10-13 | OW, SE | the overview PDF for the outside reader presents the golden coupling as "the lowest coupling the weave allows" without the hand (P-003) | DONE | the owner, 2026-10-13: not yet sent, no reply yet; the corrected PDF is the one to send (it stays outside the repository); the reply itself is P-081 | 2026-10-13 |
+| P-066 | 2026-10-13 | OW, SE | an outside referee in modular flavour symmetry for the dictionary questions (P-014, P-015, P-022, P-025) | DECLINED | the owner, 2026-10-13: no other referee for now; a second outside reader later, in his own context (P-082) | 2026-10-13 |
+| P-067 | 2026-10-13 | SE | the Codeberg mirror rejects pushes ("Forgejo: Failed to execute git command") and is behind origin | OWNER | ask: check the Codeberg repository's state; main retries at each landing | 2026-10-13 |
+| P-068 | 2026-10-13 | SE | the online draft "A Weave of Two Records" (an earlier web document) is older than the PDF | DECLINED | the PDF is the outside reader's document; the Doc is not sent anywhere | 2026-10-13 |
+| P-069 | 2026-10-13 | DF1.4, PT4B | τ as a dynamical field: a modular-invariant potential, the orbit-averaged mixing on the tick's geodesic, a Kähler valley on the discriminant-5 locus | LEAD | L254; Q7 | 2026-10-13 |
+| P-070 | 2026-10-13 | MC7 | why the matter sits at the common point (a jointly fixed character, not a finite B₃-orbit or a thread's holonomy) is not argued | QUEUED | Q7 | 2026-10-13 |
+| P-071 | 2026-10-13 | PT4A | golden-ratio mixing (GR1) at τ = i, seen unsealed by a referee; seal a test against θ₁₂ before any reading | QUEUED | Q6 | 2026-10-13 |
+| P-072 | 2026-10-13 | MC4 | the golden coupling read as a Majorana neutrino matrix gives a mass-splitting ratio ≈ 0.28 against ≈ 0.03 measured (a referee's, unsealed) | DONE | B1640 §4 (disclosed as seen; not banked) | 2026-10-13 |
+| P-073 | 2026-10-13 | OW | "if the principle is the seed, we miss the field": the record has no action, kinetic or Kähler term, no dynamics for τ, and does not use the zero modes as fields; the common root of P-014, P-015, P-020, P-022, P-025, P-069 and of the SM seat's §60–§61. The Banking Seat's warning applies: the field must come from the weave, not be tacked on to obtain a desired integer | LEAD | L251, L254; Q3 | 2026-10-13 |
+| P-074 | 2026-10-13 | IN | the Banking Seat's Gate 12: a coherent central lift of every legally admitted based move (all based relations: S² = P² = id, braid, Δ⁴, inner conjugations), convention-invariant across the four word-lift choices — the mathematical step before any action | QUEUED | Q3 | 2026-10-13 |
+| P-075 | 2026-10-13 | CE | the SM seat's W54: five rank-13 structures fit, all at weights 5 and 7, with 23–27 parameters for 13 numbers; none predicts | DONE | docs/HARVEST_LEDGER.md (row 1091, registered at headline level) | 2026-10-13 |
+| P-076 | 2026-10-13 | SE | B1637 must disclose that W54's headline was read after its seal and before its grading, and read its result against W54 | QUEUED | Q1 | 2026-10-13 |
+| P-077 | 2026-10-13 | CE | the SM seat's §60 and W55: the weave fixes shapes, not sizes; nothing on record tells up, down and lepton sectors apart; what would is the Higgs sector's flavour structure, which neither the weave nor F-MC supplies | QUEUED | Q4 | 2026-10-13 |
+| P-078 | 2026-10-13 | SE | the harvest pins moved (the SM seat to 9cf1aa57, the archive lane to efadcdea) with rows 1091–1093 | DONE | docs/HARVEST_LEDGER.md | 2026-10-13 |
+| P-079 | 2026-10-13 | CE | W46's H1 (the SM seat) reads ρ_T as the canonical puncture condition's H¹ (four-dimensional index −3 at one cusp unit) and ρ̄_T as the all-allowed condition's H⁰ (+3), the six local solutions carrying both: B1640's hand may be the puncture condition's orientation, so the golden coupling would be the canonical condition's; verify in the W46 arc | QUEUED | Q2 | 2026-10-13 |
+| P-080 | 2026-10-13 | SE | a reading by hand, not computed: on M₁,₂ the fibre loops act on 𝕎 (the coefficients ⊕ χ_p ⊗ ρ_Q), not on T (the fibre's cohomology, a bundle on the base where only the ruled moves act); an overlap ψ_p ψ_q h_r over the fibre then survives only if χ_p χ_q χ_r = 1. With a parity-blind Higgs only diagonal couplings survive; with the Higgs in T, exactly the off-diagonal ones (p, q through the third sector's Higgs) — the golden coupling's pattern, Y_pq ∝ θ_r². So the two objects may be one, with the Higgs carrying parity (W55: the missing datum is the Higgs sector's flavour structure). Test in the W46 arc and L251 | QUEUED | Q2 | 2026-10-13 |
+| P-081 | 2026-10-13 | OW | the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF attached; the PDF and every draft stay outside the repository | OWNER | a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner's; PAUSED at the owner's word (2026-10-13: "lets pause on outreach and continue work") | 2026-10-13 |
+| P-082 | 2026-10-13 | OW | a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence | OWNER | later, at the owner's word; nothing prepared until then | 2026-10-13 |
+| P-083 | 2026-10-13 | CE | the SM seat's W56 rule: with ρ_T(S)² = i, a Higgs exactly like a generation has no coupling form at the geometry's weight 9/2, and only the dual triplet is a generation-type placement there. It bears on B1641's O3 and P-080 (whether "a Higgs in T" is allowed at that weight); verify on main, and do not duplicate W56's fits | QUEUED | Q2 | 2026-10-13 |
+| P-084 | 2026-10-13 | CE | the SM seat's d–e wall: in F-MC's E₆ frame no Higgs content in 27s distinguishes down quarks from charged leptons (adj N = J Nᵀ J⁻¹ makes their singular values equal), correcting W55's scope remark; only a Higgs outside the 27 (the 351′) can; the data show the Georgi–Jarlskog pattern | QUEUED | Q4 | 2026-10-13 |
+| P-085 | 2026-10-13 | CE | the SM seat's five-point standard for a candidate field (nothing added; shared by every thread; the seed's moves act on it; a non-flat interaction that picks τ and the Higgs state; at least one testable number): to be read as the acceptance criteria for slot Q3, or amended | QUEUED | Q3 | 2026-10-13 |
+| P-086 | 2026-10-13 | OW | the owner: the decadal review double-checks that all work is banked and verified per the rules — (a) every lane's rows against its head (harvest, relays, lane survey, archive tags of retired lanes); (b) every "VERIFIED on main" row names the arc that recomputed it, read, not grepped; (c) every seat result GENESIS, THE_WEAVE or LAW_MAP relies on is either verified on main or listed as debt with a queue slot; (d) the point register's DONE rows opened and confirmed; (e) review_tools' random sample of arcs re-run in a fresh clone | QUEUED | Q5 | 2026-10-13 |

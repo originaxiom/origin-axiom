@@ -1,5 +1,39 @@
 # Changelog
 
+## S115 THE FRAME AUDIT (B1640, PROVED; GENESIS v1.42) AND THE POINT REGISTER: three things the record took as forced are scoped — the degeneracy at ω, the multiplier's hand, positivity's reach — and every point the audit raised is rowed with a disposition and one queue, under a new gate
+
+**B1640, the frame audit** (at the owner's question: "where our naivities lies … what angle are we missing"). Three
+referee lenses read the record's frames rather than its results (the mathematical chain; the physics dictionary and
+frames; patterns across the record). Main re-ran what they found with B1635's sealed instrument.
+- **A.** At ω only the single pieces of T ⊗ T are degenerate. B1635's own JSON lists nine T̄ ⊗ T members as non-degenerate
+  (e.g. 1 : 0.674 : 0.448); twelve live T̄ ⊗ T and mixed T ⊗ T members agree. τ = ω's retirement stands as "no hierarchy
+  found"; B1618's inner-automorphism argument holds where they act.
+- **B.** "No choice is made" is scoped: ρ = lift⁻¹ against its conjugate is two binary conventions. The record's allows the
+  weight-1 symmetric (golden) coupling and W45's weight 3/2; the conjugate allows neither (its weight-1 coupling is
+  antisymmetric). The index and the golden coupling share one hand; the hand is not derived.
+- **C.** ρ_θ(RL) shares its eigenlines only with order-3 stabilisers, ρ_θ(RRL) only with order-2 ones: one τ cannot give
+  the TM1 reading's residual pair.
+- **Positivity** excludes −I from the updates, not from the group the multiplier uses ((R L⁻¹ R)² = −I on homology).
+- GENESIS v1.41 → v1.42 (three scopings). Addenda on B1618, B1634, B1635, B1639; THE_WEAVE, THEOREM_REGISTRY
+  (T-COMMON-POINT-MOD-3 regraded a census law; T-WEAVE-REDUCES-NONE scoped), FALSIFIER P10/P10′ scope note.
+- B1636, B1638, B1639 relabelled "thread" (the weave's coupling, the root thread's axis). The archive's independent audit
+  proved the golden spectrum from Ramanujan's equation first; priority recorded.
+
+**The point register** (the owner: "we come up with conclusions … but fail to address all the points we made, and get
+lost to one of the multiple things we have to deal with. then over and over. lets prevent that this time").
+`docs/POINT_REGISTER.md` rows all 86 points raised today (the lenses, the intake, the census, the seats, the owner) with a
+disposition (25 done, 53 queued or leads, owner decisions asked) and one ordered queue Q0–Q9. New gate **`point-debt`**
+(`scripts/checks/point_debt.py`, failing-path tests, GATE_CONTROLS row, PRACTICES entry): no point may be deleted, every
+DONE names what exists, a queued point unmoved for 21 days fails unless escalated, and every gate run prints the open
+count and the next slot. Error class **E88 the uncarried point** filed, with E53 #31 and an E1 instance (twice).
+New leads L251 (the couplings as overlaps of the fibre's zero modes), L252 (the McKay ladder), L253 (the selections as
+coordinates), L254 (τ as a field). The owner: **"if the principle is the seed, we miss the field"** — queue slot Q3.
+
+**Seats and the archive.** The weave archive published at the owner's "do as u recomend" (efadcdea; every member
+byte-verified, the receipt VERIFIED; the branch workflow removed for the tracked-forbidden gate). Rowed: the archive's
+independent audit (1090), the Banking Seat handoff through Gate 11 (1089), the SM seat's W54, W55, the W56 rule (the Higgs carrying the generation index) and §59–§62 (1091–1096; §62 records the owner's seed-and-field framing); LAW_MAP: a B1640 row and three rows scoped;
+pins moved. One relay to both seats with three questions. The outreach PDF corrected and rebuilt (outside the tree). Gates 45 of 45; full suite 7280 passed, 0 failed, 68 skipped (exit status 0), and again on the final tree after the late register and doc edits (7280 passed, 0 failed, 68 skipped).
+
 ## S114 THE GOLDEN IDENTITY (B1638, B1639, PROVED): the weave's lowest coupling is golden on every geodesic of discriminant 5 because of a degree-5 modular identity, Σ_p (θ_p(τ)θ_p(Nτ)/(η(τ)η(Nτ)))² = 8 — Ramanujan's form of Jacobi's quintic modular equation; B1629's claim line corrected; the seats' four days rowed
 
 **B1638 (sealed `2401dab14`).**

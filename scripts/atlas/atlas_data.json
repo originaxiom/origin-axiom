@@ -11593,6 +11593,30 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1640": {
+   "slug": "the frame audit",
+   "motifs": [
+    "monoid",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B342",
+    "K5",
+    "L251",
+    "P10"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B164": {
    "slug": "isomonodromy 04cubic",
    "motifs": [

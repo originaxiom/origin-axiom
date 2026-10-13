@@ -218,6 +218,9 @@ From `docs/dossiers/the_weave_2026-10-07/`:
   diagonal in T's three parity lines at every τ, and U cycles the three lines; near ω the entries stay equal at leading
   order. **The tagged postulate τ = ω cannot be the source of the fermion hierarchy within the weave.** A hierarchy needs
   the parity sectors to separate — the cusp, where the three theta characteristics go as different powers of q.
+- *Scoped 2026-10-13 (B1640; GENESIS v1.42): the argument above uses the inner automorphisms, which are not moves on the
+  ruled branch (B1634). There T̄ ⊗ T's masses at ω are distinct (e.g. 1 : 0.674 : 0.448), so τ = ω's retirement stands
+  as "no hierarchy found", not as a degeneracy. The near-fixed-point regime is not computed.*
 
 ## Main's addition: the breaking the weave allows (B1620, PROVED) — every subgroup, three tensors, and the principle's own word
 
@@ -258,7 +261,9 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   T̄ ⊗ T, so it tests Λ, a frame and a Higgs content together. B1620 had written "TM1 under T̄ ⊗ T and T ⊗ T".
 - **The frame is named:** B1620's is "all of the weave's group is flavour". Where c is gauge (the SM seat's W44), TM1
   and TM2 return under T̄ ⊗ T and T ⊗ T, and Sym² T allows one lepton relation. In W24's frame nothing is constrained.
-  **The 13 are unreduced in every frame on record.**
+  **The 13 are unreduced in every frame on record** *(scoped 2026-10-13, B1640: in every frame where the inner
+  automorphisms act; on the ruled branch the count is B1635's, a lower bound under the modular-flavour ansatz, and the
+  TM1 reading's residual pair cannot come from one τ)*.
 - **The weave's own surface reads index 0** (the SM seat's W45, given Λ, canonical cusp condition): a chiral three on
   M₁,₂ is exactly one unit of end data at the cusp, which is FK10's question.
 
@@ -338,6 +343,8 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 
 ## Main's addition: the golden identity, and why discriminant 5 (B1638, B1639, PROVED)
 
+*Scoped 2026-10-13 (B1640): a thread result by the rule — the weave's coupling, read on the root thread's axis and its images; it exists for the record's hand of the multiplier only; the proof was found first by the archive's independent audit (B1639's addendum).*
+
 - **The lowest coupling's golden spectrum is a theorem on every geodesic of discriminant 5.** On the axis of a
   hyperbolic move, the conjugate of g_p = (θ_p/η)² is g_p at a determinant-(tr² − 4) image. So on the tick's axis
   F = Σ|θ_p/η|⁴ equals Σ_p g_p(τ)·g_p(Nτ), with N = [[−1, −2], [2, −1]], and that sum is 8 at every τ: a degree-5 modular
@@ -347,3 +354,23 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   analogues for discriminants 12, 21, 32 and 96 vary).
 - So the masses' φ meets the tick's φ in one degree-5 relation. The converse (golden only there) stays a conjecture,
   and the coupling alone is not a charged sector's matrix (the sum rule).
+
+## Main's addition: the frame audit (B1640, PROVED; GENESIS v1.42) — what the record took as forced
+
+At the owner's request, three referee lenses read the record's frames rather than its results; main re-ran what they
+found with B1635's sealed instrument.
+
+- **At ω only the single pieces of T ⊗ T are degenerate.** T̄ ⊗ T (B1618's Dirac tensor) and T ⊗ T couplings mixing the
+  symmetric and antisymmetric pieces have distinct masses there; B1635's own sealed read-outs already showed nine such
+  members. τ = ω stays retired as "no hierarchy found".
+- **The multiplier carries a hand.** ρ = lift⁻¹ against its conjugate is two binary conventions (lift⁻¹ or the transpose;
+  which piece of V is T). The record's choice allows W45's weight 3/2 and the symmetric weight-1 (golden) coupling; the
+  conjugate allows neither. **The index and the golden coupling come with the same hand, and the hand is not derived**
+  (consistent with B1607). The golden identity itself is a theorem about theta functions and is untouched.
+- **TM1 is not a τ-only reading on the ruled branch.** ρ_θ(RL) shares its eigenlines only with order-3 stabilisers
+  (ω-type points), ρ_θ(RRL) only with order-2 ones (i-type points); one τ cannot be at both.
+- **Positivity's reach.** It excludes −I from the physical updates (a semigroup), not from the group ⟨L, R⟩ the multiplier
+  is built from, which contains −I on homology ((R L⁻¹ R)² = −I). GM5d is scoped accordingly.
+- **Owed, and queued in `docs/POINT_REGISTER.md`:** the two objects (the ±3 on M₁,₂ with its fibre loops, the couplings on
+  the ruled branch without them) as the first cell of the W46 arc; the hand from the zero modes; the couplings as overlaps
+  of the fibre's zero modes (L251); the near-fixed-point regime with fields at their own weights.

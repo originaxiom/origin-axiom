@@ -16972,3 +16972,15 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - B1639: H = 8 is a theorem, given Ramanujan's form of Jacobi's quintic modular equation (Berndt III, Entry 13(xii)).
 - B1637 sealed and running (W53 checked independently). B1629's claim line corrected (the audit lane). Seats: the SM
   seat's W53 and §58; the audit lane's 101 commits and 34 relays; the fork lane's 49 commits rowed. Gates 44 of 44; full suite 7270 passed, 0 failed, 68 skipped (exit status 0). 0 of 19.
+
+## 2026-10-13 — S115 THE FRAME AUDIT (B1640, PROVED; GENESIS v1.42) AND THE POINT REGISTER
+
+- At the owner's question ("where our naivities lies … what angle are we missing"), three referee lenses read the frames,
+  not the results. B1640 re-ran what they found: at ω only the single pieces of T ⊗ T are degenerate (T̄ ⊗ T and mixed
+  couplings are not; τ = ω retired only as "no hierarchy found"); the multiplier's hand is a convention the index and the
+  golden coupling share, not derived; TM1 cannot come from one τ; positivity excludes −I from the updates, not the group.
+- The golden arcs relabelled "thread"; the archive's independent audit proved the golden spectrum first (priority
+  recorded). The weave archive published (efadcdea). The SM seat's W54, W55, the W56 rule, §59–§62 and the Banking Seat handoff rowed; LAW_MAP carries B1640.
+- The owner: "we … fail to address all the points we made … lets prevent that this time." `docs/POINT_REGISTER.md` rows
+  all 86 points with a disposition and one queue; the gate `point-debt` (E88, the uncarried point). The owner: "if the
+  principle is the seed, we miss the field" — the field is queue slot Q3. Gates 45 of 45; full suite 7280 passed, 0 failed, 68 skipped (exit status 0), and again on the final tree after the late register and doc edits (7280 passed, 0 failed, 68 skipped). 0 of 19.

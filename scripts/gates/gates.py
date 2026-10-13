@@ -1144,6 +1144,19 @@ def gate_lead_debt():
     return True, "ok"
 
 
+def gate_point_debt():
+    """2026-10-13 -- the owner: "we clarify the picture, but fail to address all the points we made, and get lost to one
+    of the multiple things we have to deal with." Every point a review raises has a row in docs/POINT_REGISTER.md with a
+    disposition and a queue slot; no row may be deleted; a queued point unmoved for 21 days fails unless escalated."""
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "point_debt.py")],
+                       capture_output=True, text=True, timeout=300)
+    out = (r.stdout + r.stderr).strip()
+    if r.returncode != 0:
+        return False, out.replace("\n", " | ")[:500]
+    return True, out.splitlines()[0] if out else "ok"
+
+
 SEEN_FIRST_FROM = 1454
 
 
@@ -1661,6 +1674,7 @@ GATES = {
     "retraction-debt": gate_retraction_debt,
     "harvest-debt": gate_harvest_debt,
     "lead-debt": gate_lead_debt,
+    "point-debt": gate_point_debt,
     "seen-first": gate_seen_first,
     "genesis-cited": gate_genesis_cited,
     "log-changelog-paired": gate_log_changelog_paired,
@@ -1708,4 +1722,10 @@ if __name__ == "__main__":
     n, due = review_status()
     print(f"  review-due: {n} merges since last review "
           f"({'DUE — run the decadal review' if due else 'not due'})")
+    # the owner, 2026-10-13: the open points and the next queue slot are shown on every push, so none is lost
+    import subprocess
+    pr = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "point_debt.py")],
+                        capture_output=True, text=True, timeout=300)
+    if pr.stdout.strip():
+        print("  " + pr.stdout.strip().splitlines()[0] + " (docs/POINT_REGISTER.md)")
     sys.exit(worst)
