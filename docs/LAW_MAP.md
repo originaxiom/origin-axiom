@@ -1,5 +1,17 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October13 complete-flag sublemmas, path-local research grade. Source
+reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13;
+93/42 exact predicates and7 selected live tests at1fc52aede. B1530 is
+INPUT coefficient antecedent only, not a new shared bank or selector.
+
+| Law (fixed complete end and coefficient) | Proof and live mathematical lock | Limit |
+|---|---|---|
+| Positive end blocks contract and negative blocks retain the torus complex, giving the core-to-positive-flag cone | B1530 INPUT only; NEW PROOF1-3; tests/test_physical_bridge_silver_complete_flag.py::test_induced_flags_not_a_fifth_line_copy / test_actual_peripheral_not_global_split / test_wrong_degree_two_sign_is_live_failure | Authored graph-domain argument; exact controls do not independently certify the analysis or physical end choice |
+| Nonzero charged flag weights give a confining complete reference operator and finite harmonic kernels | B1530 INPUT only; NEW PROOF4; test_real_wall_controls_and_neutral_limit | Zero-flag neutral channels excluded from this estimate, not erased from the parent; analytic outside review pending |
+| Literal positive W/F and both duals have all-degree tuple(0,2,2,0), index0 | B1530 INPUT only; NEW FINDINGS and exact records in results/science; test_live_complete_counts_all_degrees / test_full_dual_not_naive_same_flag | Conditional global charged candidate, no full-action/SM or all-architecture chirality obstruction; compact charged3 remains a different completion |
+| Full non-diagonal frame transport preserves flag-cone ranks; a noninvariant cusp selector fails | B1530 INPUT only; NEW probe.py actual matrices; test_actual_peripheral_not_global_split | Flags must move with their coefficient frame; coordinate projectors alone are not physical selectors |
+
 October13 compensated-neutral-line sublemmas, path-local research grade.
 Source reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13,
 PROOF1-4/FINDINGS,39/39 exact and17 live PASS at0b36fc3e0.

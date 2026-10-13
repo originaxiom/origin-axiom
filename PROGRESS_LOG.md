@@ -19167,3 +19167,20 @@ All source/capture custody exact, no source/test/proof change after seal.
 Candidate duty completed, higher-sector and real-moment/source duties kept.
 Sender relay OPEN; native before26PASS/four inheritedFAIL,136 OPEN/42 stale,
 review493 overdue. No shared bank number or recipient/outside/main acceptance.
+
+## 2026-10-13 complete positive flag cusp count and selection duty
+
+October13 complete positive-flag cusp checkpoint:93 native/42 separate
+Fraction exact predicates and7 selected live tests PASS372.41s at pushed
+pre-science seal1fc52aede; all18 pins/tree unchanged. ONE supplied complete
+m135 nonsplit coefficient has W/F and both dual tuples(0,2,2,0), index0,
+under the authored weighted-complex/confinement proof. All16 split/sign/
+dual records and actual core maps agree. Positive b cannot change this
+family count. No compact-cover plane/SM-phase/index transfer: earlier
+conditional charged3, QdcL and exact nil-line positives preserved. NEXT
+foundational index-bearing field/end/source law in both charged slots;
+compact real-moment continuation remains distinct. Neutral threshold,
+whole action/real gauge/infinity response, analytic outside review and
+full-suite/main/SM/TOE/observer/qualia duties remain. No programme-wide
+chirality kill or generated sector claim. Report:
+reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/FINDINGS.md.

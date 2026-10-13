@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_silver_complete_flag.py"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 373.428138999996,
+  "log_bytes": 110,
+  "log_sha256": "c6c713c83701d6afad9a86aa67bfe5b3e47a094f65ce851c5f1b12da6f6f2537"
+}
