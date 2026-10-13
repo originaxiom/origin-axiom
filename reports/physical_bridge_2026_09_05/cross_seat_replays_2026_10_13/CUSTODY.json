@@ -1,0 +1,163 @@
+{
+  "copied_files": [
+    {
+      "path": "INTAKE_HASHES.json",
+      "bytes": 23471,
+      "sha256": "06e01c1b58eed4679c8a9fbe11563af868ae35759953158c4da305affe760b7c"
+    },
+    {
+      "path": "selected_joins_audit.py",
+      "bytes": 3590,
+      "sha256": "111fc68e4df4bdcd8b3e538088ba99b0608cd473380096576c2201ba698e494a"
+    },
+    {
+      "path": "measure_uniqueness_control.py",
+      "bytes": 1706,
+      "sha256": "895f23855162ee3a4e6ceb6ce850f94943a21f05a631c02f34ecc9975591ccf1"
+    },
+    {
+      "path": "docs/dossiers/the_weave_2026-10-07/the_higgs_and_the_generation_index.py",
+      "bytes": 16583,
+      "sha256": "e84bf76d11b19b9445c1992396fe1315de3e7892b8545fb4792967775a4b93b6"
+    },
+    {
+      "path": "frontier/B1638_the_golden_identity/verification/golden_identity.py",
+      "bytes": 4178,
+      "sha256": "8e8b0133c85add5a573ebb7b995189677982d1eda074e8dbda4fb179e54c038b"
+    },
+    {
+      "path": "frontier/B1638_the_golden_identity/verification/golden_identity.json",
+      "bytes": 1420,
+      "sha256": "3c8129a89bde06c0a05302356fe11b482e5ad11f713ed2d7e13d271fa975f22f"
+    },
+    {
+      "path": "frontier/B1639_the_golden_identity_from_ramanujans_quintic/verification/golden_from_ramanujan.py",
+      "bytes": 5792,
+      "sha256": "7bc898e95cad32e82c71f21433a0b08add9f7ea27a69b4598175f6ed8ce74559"
+    },
+    {
+      "path": "frontier/B1639_the_golden_identity_from_ramanujans_quintic/verification/golden_from_ramanujan.json",
+      "bytes": 1666,
+      "sha256": "4f444877f9d38ca113a6b69c52d0d398fdbdfb4b7b6374e49ab46d40bab41cd3"
+    },
+    {
+      "path": "runs/horizontal_projection.stdout.log",
+      "bytes": 3933,
+      "sha256": "911981f3d1dd31a47d794a3c8d710cf80f53998ce8ab1a59a9774338cb79f113"
+    },
+    {
+      "path": "runs/horizontal_projection.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/horizontal_projection.receipt.json",
+      "bytes": 272,
+      "sha256": "f5706cb6a31f2863eac90bc65e9c9d1330c22dc51978e09e10239e6d626e8431"
+    },
+    {
+      "path": "runs/selected_joins.stdout.log",
+      "bytes": 1727,
+      "sha256": "b552d724145648ca3264a8bf29682001b6ca5691aa2b28103a149be7692cc409"
+    },
+    {
+      "path": "runs/selected_joins.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/selected_joins.receipt.json",
+      "bytes": 264,
+      "sha256": "7e9f7822e54e53fefcb9e1727acef75b3cb6e8f20fc30d2e4f4f4ab70bb5c4d6"
+    },
+    {
+      "path": "runs/golden_identity.stdout.log",
+      "bytes": 1421,
+      "sha256": "deb6465113718d4b552ba52383db016de6b2c3e260b4bd7d62cdd0c4e352f9e9"
+    },
+    {
+      "path": "runs/golden_identity.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/golden_identity.receipt.json",
+      "bytes": 265,
+      "sha256": "e15f7070760f82a6d3723370382435abcbaad50e1b19aca2fa554ba212c12388"
+    },
+    {
+      "path": "runs/golden_ramanujan_steps.stdout.log",
+      "bytes": 1667,
+      "sha256": "c9cca14169d808134a47a1b37bf536cddc1e44a065bce0b17b4e41a5e324676e"
+    },
+    {
+      "path": "runs/golden_ramanujan_steps.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/golden_ramanujan_steps.receipt.json",
+      "bytes": 273,
+      "sha256": "86e14a45a57f3e79f727e885fdce5a545aa9d1b9cf960c788b8e14f1eeddfc4a"
+    },
+    {
+      "path": "runs/measure_uniqueness.stdout.log",
+      "bytes": 958,
+      "sha256": "eacd84626db839a72b2ebdcc3ee84a55a22f6adf9e2bc39282219bf201d64ffa"
+    },
+    {
+      "path": "runs/measure_uniqueness.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/measure_uniqueness.receipt.json",
+      "bytes": 248,
+      "sha256": "b413434da31e26cb180f11ce48b2d992848780de9ddf758fb91f2477e844a49a"
+    },
+    {
+      "path": "runs/AUDIT_RECEIPT.json",
+      "bytes": 1821,
+      "sha256": "df5feb01af7fce332cd0564338df76d2267c29f2a2bae5ba93493bf4de5589b3"
+    },
+    {
+      "path": "runs/golden_identity.original.json",
+      "bytes": 1420,
+      "sha256": "3c8129a89bde06c0a05302356fe11b482e5ad11f713ed2d7e13d271fa975f22f"
+    },
+    {
+      "path": "runs/golden_ramanujan.original.json",
+      "bytes": 1666,
+      "sha256": "4f444877f9d38ca113a6b69c52d0d398fdbdfb4b7b6374e49ab46d40bab41cd3"
+    },
+    {
+      "path": "runs/projection/EXECUTION_RECEIPT.json",
+      "bytes": 3933,
+      "sha256": "911981f3d1dd31a47d794a3c8d710cf80f53998ce8ab1a59a9774338cb79f113"
+    },
+    {
+      "path": "runs/projection/native.stdout.log",
+      "bytes": 2983,
+      "sha256": "5b32763caa1797d77acccec1e9c6fdd9fd7e47cc1fef0b47fe3be92f3ef8a153"
+    },
+    {
+      "path": "runs/projection/native.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/projection/tests.stdout.log",
+      "bytes": 99,
+      "sha256": "1961a5da4caf4ef5136fdbc10aacfd04c7404136441c8ae068babc42b1e3fbbd"
+    },
+    {
+      "path": "runs/projection/tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "post-result archival custody of previously executed scoped cross-seat audit; not a new preregistration, theorem bank or full branch certificate",
+  "frozen_upstream_main": "99975fb638a5fb22bf4d17a669a9bad6a885fc88",
+  "frozen_upstream_fork": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+  "frozen_upstream_SM": "8296de2d5e69d6dd72606ac0ee044a14d6b4f708"
+}

@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-13 preserve source fixed cross seat replay evidence
+
+Cross-seat intake capsule preserves31 byte-faithful scripts/raw records
+and checksums from the earlier fork/main/SM audit. POST-RESULT archival
+timing disclosed, not a new preregistration or banked law. Fork66 exact/
+7 tests, main golden records exactly equal originals, original W56 K1
+all200 cases and13 selected structural controls reproduced. W57's
+invariant-measure uniqueness premise scoped by an explicit bounded
+positive invariant-density counterexample; its million draws not replayed.
+Historical Python patch version was not recorded; current inspection
+is3.12.14. Full parent/end/index and outside/full-suite/main duties remain.
+Report: reports/physical_bridge_2026_09_05/cross_seat_replays_2026_10_13/FINDINGS.md.
+
 ## 2026-10-13 geometric spin descent and raw residue scope
 
 October13 global geometric-spin checkpoint:35 native/32 separate exact

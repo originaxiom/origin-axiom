@@ -1,0 +1,7 @@
+{
+  "label": "golden_identity",
+  "exit_code": 0,
+  "elapsed_seconds": 158.1514460000035,
+  "stdout_sha256": "deb6465113718d4b552ba52383db016de6b2c3e260b4bd7d62cdd0c4e352f9e9",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

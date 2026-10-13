@@ -1,0 +1,59 @@
+{
+  "scope": "actual W56 K1 and exact structural/C0/omega controls; not physical masses or a global no-go",
+  "checks": {
+    "actual W56 K1 all200 cases and deformed controls": true,
+    "full flavour block adjugate is unitary transpose": true,
+    "companion rotation is unitary": true,
+    "parity -1,1 restriction kills coboundary": true,
+    "parity -1,1 H1 one and parabolic zero": true,
+    "parity 1,-1 restriction kills coboundary": true,
+    "parity 1,-1 H1 one and parabolic zero": true,
+    "parity -1,-1 restriction kills coboundary": true,
+    "parity -1,-1 H1 one and parabolic zero": true,
+    "generation-like Higgs central obstruction at9/2": true,
+    "dual-Higgs passes central consistency at9/2": true,
+    "archive omega counterexample polynomial": true,
+    "positive updates do not exclude minusI from group": true
+  },
+  "W56_K1": {
+    "the largest charge-violating entry of the cubic at a neutral vacuum value": 8.728185888907117e-17,
+    "the largest spread of sigma(M_e)/sigma(M_d) within a case": 4.8405723873656825e-14,
+    "the common ratio c (first case), and its largest relative spread across cases": [
+      0.9999999999999999,
+      4.8627768478581856e-14
+    ],
+    "the control (one neutral component x -3 in the lepton block): the smallest spread": 0.17246027352361248
+  },
+  "parity_records": [
+    {
+      "character": [
+        -1,
+        1
+      ],
+      "H1": 1,
+      "parabolic": 0
+    },
+    {
+      "character": [
+        1,
+        -1
+      ],
+      "H1": 1,
+      "parabolic": 0
+    },
+    {
+      "character": [
+        -1,
+        -1
+      ],
+      "H1": 1,
+      "parabolic": 0
+    }
+  ],
+  "omega_squared_singular_values": [
+    27,
+    12,
+    3
+  ],
+  "passed": true
+}

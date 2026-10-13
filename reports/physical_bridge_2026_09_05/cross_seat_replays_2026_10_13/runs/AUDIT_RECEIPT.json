@@ -1,0 +1,47 @@
+{
+  "scope": "selected source/replay audit, not full branch or physical PDE certification",
+  "all_frozen_source_hashes_unchanged": true,
+  "Ramanujan_record_equals_source": true,
+  "projection_safeguards": 66,
+  "projection_tests": 7,
+  "join_controls": 13,
+  "W56_mass_cases": 200,
+  "measure_uniqueness_counterexample": true,
+  "run_receipts": [
+    {
+      "label": "horizontal_projection",
+      "exit_code": 0,
+      "elapsed_seconds": 38.051923000006354,
+      "stdout_sha256": "911981f3d1dd31a47d794a3c8d710cf80f53998ce8ab1a59a9774338cb79f113",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "selected_joins",
+      "exit_code": 0,
+      "elapsed_seconds": 41.79017499998736,
+      "stdout_sha256": "b552d724145648ca3264a8bf29682001b6ca5691aa2b28103a149be7692cc409",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "golden_identity",
+      "exit_code": 0,
+      "elapsed_seconds": 158.1514460000035,
+      "stdout_sha256": "deb6465113718d4b552ba52383db016de6b2c3e260b4bd7d62cdd0c4e352f9e9",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "golden_ramanujan_steps",
+      "exit_code": 0,
+      "elapsed_seconds": 21.867602999991504,
+      "stdout_sha256": "c9cca14169d808134a47a1b37bf536cddc1e44a065bce0b17b4e41a5e324676e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_sha256": "895f23855162ee3a4e6ceb6ce850f94943a21f05a631c02f34ecc9975591ccf1",
+      "source_unchanged": true,
+      "exit_code": 0,
+      "elapsed_seconds": 6.549657000010484,
+      "scope": "post-intake premise counterexample, not new fitted theory"
+    }
+  ]
+}

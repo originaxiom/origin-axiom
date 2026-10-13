@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October13 custody supplement:31 earlier intake scripts/raw records are
+preserved in reports/physical_bridge_2026_09_05/cross_seat_replays_2026_10_13.
+Post-result archival timing and Python patch-version limitation disclosed;
+not a new physical result or full branch certificate. W57 measure counter-
+example limits invariance-only forcing; actual physical prior/action
+still owed. Earlier exact reproductions now have sender-owned evidence.
+
 October13 global geometric-spin checkpoint:35 native/32 separate exact
 controls PASS at861454234; whole operator/Chern transition and canonical
 central cancellation earned, with actual local6/full248 retained.

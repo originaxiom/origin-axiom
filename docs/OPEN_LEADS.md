@@ -22,6 +22,9 @@ bounded positive invariant densities yield alternatives. This is a
 premise scoping, not a statistical refit or field-of-maximality kill.
 Source: the new sender relay's explicit formula; full-parent dynamics
 and state selection must be admitted before such a physical inference.
+Custody/reference: reports/physical_bridge_2026_09_05/cross_seat_replays_2026_10_13/FINDINGS.md,
+post-intake analytic density counterexample and numerical S/T controls;
+no new physical measure selected or W57 million-draw replay.
 
 PB-SURFACE-KINETIC-DICTIONARY: completed CONDITIONALLY for TWO supplied
 parents on the specified metric. Closing sentence: "The ordinary Weyl

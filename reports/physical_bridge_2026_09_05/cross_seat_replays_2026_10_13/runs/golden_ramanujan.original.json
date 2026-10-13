@@ -1,0 +1,155 @@
+{
+ "R1": {
+  "factorisations_found": 174,
+  "both_in_Gamma2": [
+   {
+    "G1": [
+     [
+      1,
+      4
+     ],
+     [
+      4,
+      17
+     ]
+    ],
+    "D": [
+     [
+      5,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    "G2": [
+     [
+      -5,
+      -6
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    "G1_mod2": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "G2_mod2": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "both_in_Gamma2": true,
+    "same_class_mod2": true
+   },
+   {
+    "G1": [
+     [
+      1,
+      6
+     ],
+     [
+      2,
+      13
+     ]
+    ],
+    "D": [
+     [
+      5,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    "G2": [
+     [
+      -5,
+      -4
+     ],
+     [
+      4,
+      3
+     ]
+    ],
+    "G1_mod2": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "G2_mod2": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "both_in_Gamma2": true,
+    "same_class_mod2": true
+   },
+   {
+    "G1": [
+     [
+      1,
+      12
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    "D": [
+     [
+      5,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    "G2": [
+     [
+      -5,
+      2
+     ],
+     [
+      2,
+      -1
+     ]
+    ],
+    "G1_mod2": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "G2_mod2": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "both_in_Gamma2": true,
+    "same_class_mod2": true
+   }
+  ],
+  "count_both_in_Gamma2": 46,
+  "any_same_anharmonic_class": true
+ },
+ "R2_max_residual": 1.1002164960855012e-46,
+ "R3_max_relative_residual": 1.9916599688004263e-49,
+ "R3_ramanujan_branch_patterns_vanishing_at_all_points": {},
+ "R3_patterns_vanishing_at_some_point": [
+  "(-1, -1, 0)",
+  "(-1, -1, 1)",
+  "(-1, 1, 0)"
+ ]
+}

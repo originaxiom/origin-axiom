@@ -1,0 +1,25 @@
+{
+  "scope": "post-result archival publication governance capture; no tracked-tree fingerprint was recorded",
+  "files": [
+    {
+      "path": "gates.stdout.log",
+      "bytes": 2384,
+      "sha256": "0f0eefd963fa3f532998b80f10b1029a4ec896107225ec781494a4ddb4001bdf"
+    },
+    {
+      "path": "gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROCESS_RECEIPT.json",
+      "bytes": 471,
+      "sha256": "1ef83af2a18fb2de00137eb3ea4936982fd521860de176e53afce42e4c756ea1"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 1988,
+      "sha256": "1df6762478fb68a6ded72e1fb10bea97d4834ac505883c7ed3682907ea40c9bd"
+    }
+  ]
+}

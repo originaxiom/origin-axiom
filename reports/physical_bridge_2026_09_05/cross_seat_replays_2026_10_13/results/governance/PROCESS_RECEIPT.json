@@ -1,0 +1,17 @@
+{
+  "exit_code": 1,
+  "elapsed_seconds": 48.75862999999663,
+  "raw_files": [
+    {
+      "name": "gates.stdout.log",
+      "sha256": "0f0eefd963fa3f532998b80f10b1029a4ec896107225ec781494a4ddb4001bdf",
+      "bytes": 2384
+    },
+    {
+      "name": "gates.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "scope": "staged archival custody check; not full suite or a new scientific execution"
+}
