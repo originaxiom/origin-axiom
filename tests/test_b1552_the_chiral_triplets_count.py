@@ -1376,6 +1376,42 @@ def test_the_double_ratio_target():
     own = t["the record's own value (HZ2021 at M_Z, W53's data; arithmetic)"]
     assert abs(r - own["value"]) < 1e-3 and abs(err - own["sigma"]) < 0.01
 
+
+def test_w58_the_level_four_preprint_checked():
+    """W58 (the level-four preprint, arXiv:2609.09262, checked; the rule first; one run; five cells as predicted, K4 and
+    K7 failed as worded and traced post hoc): its triplet is the record's T up to eta^3's multiplier, its generations
+    are T's eigenlines, its numbers reproduce, and its significance does not survive the families it drew from"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_level_four_preprint_checked.json").read_text(encoding="utf-8"))
+    assert list(d["cells"].values()) == [True, True, True, False, True, True, False]
+    k1 = d["K1"]["the k with chi_eta^(-k) rho_T a representation of Gamma_4"]
+    assert sorted(k1) == ["15", "3"] and k1["3"]["T'-charges (quarter turns)"] == [0, 1, 3]
+    g = d["K2"]["the preprint's generation lines in the record's basis"]
+    assert g["generation 3"]["a parity line"] and not g["generation 1"]["a parity line"]
+    k3 = d["K3"]
+    assert k3["levels with a solution"] == [4] and k3["the shifts that are a character of S4 (T-charge 0 or 2)"] == [2]
+    k4 = d["K4"]
+    assert k4["claims checked"] == 41 and k4["the claims that do not reproduce"] == ["Table VII m_c", "Eq. 32"]
+    assert abs(d["K5"]["the preprint's double ratio 2/eps"] - 150 / 14) < 1e-12
+    k6 = d["K6"]
+    assert 0.2 < k6["(b) the anchor's box: prefactors, coverage at 0.02%, hits"][1] < 0.3
+    assert k6["(c) the product (the anchor's box, then the form-value family)"] > 0.1
+    assert k6["the declared family's product (the text's 1e-6)"] < 1e-6
+    assert abs(d["K7"]["(a) at M_Z"]["pulls (data - preprint) / sigma"]["the anchor m_tau/m_mu"]) > 2
+    ph = json.loads((here / "the_level_four_preprint_checked_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["PH1"]["both reproduce to the printed digits"] is True
+    t1 = ph["PH2"]["the preprint's Table I"]
+    assert abs(t1["pull at K7's sigma (eps = 14/75)"]) < 0.1
+    assert abs(t1["pull at the propagated sigma (eps from the data)"]) < 1
+    assert 0.0013 < t1["the propagated relative error of T"] < 0.0016
+    assert ph["PH3: the anchor's coverage at its propagated precision (Table I)"]["form-value"]["coverage"] > 0.4
+    # in process: the selection theorem's scan, from its two hypotheses alone
+    levels = sorted({n for n in range(3, 13) for a1 in range(n - 3) for c in range(n)
+                     if ((a1 + 2 + c) % n) - ((a1 + c) % n) == -2 and ((a1 + 3 + c) % n) - ((a1 + 2 + c) % n) == 1})
+    assert levels == [4] and math.isclose(2 / (14 / 75), 10.714285714285714)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

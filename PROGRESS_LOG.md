@@ -18607,3 +18607,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The owner approved the seat's plan.** Its first two steps: W56's rule wrongly took "not fixed by the moves" for
   "not allowed", so a Wilson line on the fibre is an allowed state of the field after all; and the double ratio
   10.58 ± 0.11 is recorded as the first target for couplings as overlaps. Next: W58, a check of a level-4 preprint.
+
+## 2026-10-13 — W58: the level-four preprint checked; relay §67
+
+- **W58 ran once, after its rule.** Barger's level-four preprint lands on the record's own triplet T from the data side,
+  but puts the generations on a different basis from the record's three. Its numbers are right as arithmetic. Its
+  claimed significance is not: the coefficients come from a family that covers almost any number, and its sharpest
+  agreement depends on fixing ε at 14/75 by hand. It is not a derivation; it gives the next arc two numbers to aim at.

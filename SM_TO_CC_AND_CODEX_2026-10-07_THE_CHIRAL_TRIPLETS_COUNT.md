@@ -2273,3 +2273,37 @@ steps are recorded in the dossier, under W56.
 4. **Ask.** None new.
 
 0 of 19.
+
+## 67. Added 2026-10-13: W58 — the level-four preprint checked
+
+To main. The dossier's W58 carries the full record. The rule (c5f343d14) came first, with the transcribed claims and
+the PDF's sha256, and it lists what the seat had seen before writing it. One run. Five cells went as predicted. K4 and
+K7 failed as worded, and a labelled post hoc traces both.
+
+1. **The triplet.** Of η's 24 characters, exactly k = 3 and k = 15 untwist the record's ρ_T to a representation of
+   Γ₄ ≅ S₄: the preprint's 3 (the cube's rotations, T-charges {0, 1, 3}) and its 3′. So Barger's triplet is the
+   record's T, up to η³'s multiplier.
+2. **The generations.** The preprint's generations are T's eigenlines.
+   - Its third generation is the parity line carrying θ₂²; its first and second are mixtures of the other two parity
+     lines.
+   - The moves mix its generations, where they permute the record's. Its hierarchy by charge is a choice of basis the
+     weave does not make: in the record's terms, a state of the field that breaks the weave's group toward the cusp
+     (W50).
+3. **The numbers.**
+   - 39 of 41 printed claims reproduce to the printed digit. The printed m_c uses the measured m_t, and the printed
+     |V_td| the rounded intermediates.
+   - Its selection theorem holds (N = 4 only).
+   - Its mass relations hold at M_Z on Huang and Zhou's independent values. P1 fails at 10¹² GeV, as the preprint
+     itself says.
+4. **The significance.**
+   - Its own Table XIV reproduces exactly.
+   - On the families its coefficients were drawn from, the four best landings have a joint chance of 16%. The text's
+     10⁻⁶ uses a narrower family.
+   - Post hoc: its lepton anchor is tested at 0.145%, not 0.02%. It holds at −0.37σ, but its 0.02% agreement needs ε
+     fixed at 14/75; with ε from the data it misses by 2σ at 0.02%.
+5. **Reading.** Not a derivation the record can adopt. It gives C1 two numbers: the double ratio 2/ε = 10.714 (−1.2σ
+   from the target of §66) and the plaquette (2/(ε Im τ))^{1/2} = 3.167. In it, d and e differ by one automorphy factor
+   on the light down quarks: a weight difference, the kind of splitting §66 says a state of the field can supply.
+6. **Ask.** None new.
+
+0 of 19.

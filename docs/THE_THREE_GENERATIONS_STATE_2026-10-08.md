@@ -344,6 +344,15 @@ Under the owner's rulings, the table's rows split into two groups:
   - **The target.** The double ratio (y_μ y_d)/(y_s y_e) = 10.58 ± 0.11 (Antusch, Hinze and Saad 2026, eq. 4.7). Its
     source is `docs/dossiers/the_weave_2026-10-07/received/AHS2026_double_ratio.json`. Georgi and Jarlskog's 9 is
     excluded. Data, not a result.
+- **W58, the level-four preprint checked (rule first; five cells as predicted, two failed as worded and traced post
+  hoc):** Barger's arXiv:2609.09262 reaches the record's T from the masses: the same S₄ triplet, up to η³'s multiplier.
+  - Its generations are T's eigenlines (the cusp's basis), not the record's alike three. They share one line, θ₂²'s.
+  - Its numbers reproduce (39 of 41 to the printed digit, the other two from its own inputs and rounding), and its mass
+    relations hold on the record's independent data at M_Z.
+  - Its significance does not survive. On the families its coefficients were drawn from, the four best landings have a
+    joint chance of 16%, not 10⁻⁶. Its 0.02% anchor holds at 0.145% once ε is not fixed at 14/75.
+  - Not a derivation. It gives C1 two numbers (2/ε = 10.714, at −1.2σ from the double-ratio target; the plaquette
+    3.167) and a candidate τ = 1.0685 i. 0 of 19.
 
 ## Questions open with main
 
@@ -359,7 +368,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W57 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W58 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§66).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§67).

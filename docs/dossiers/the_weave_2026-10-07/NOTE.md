@@ -93,6 +93,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - After W57 (the owner approved the plan, 2026-10-13): W56's rule corrected (a flat Wilson line on the fibre is
   an allowed state of the field, not a forced one, and could split d from e); the double ratio
   (y_μ y_d)/(y_s y_e) = 10.58 ± 0.11 recorded as C1's target, with its source. Both under W56.
+- W58 (the level-four preprint checked; rule first; five cells as predicted, two failed as worded and
+  traced post hoc): its triplet is the record's T up to η³'s multiplier, but its generations are T's
+  eigenlines, not the record's alike three. Its numbers reproduce; its significance does not survive the
+  families it drew from (joint chance 16%), and its 0.02% anchor holds at 0.145% once ε is not fixed by
+  hand. Not a derivation; it gives C1 two numbers and a candidate τ.
 
 ## The setting
 
@@ -4233,6 +4238,113 @@ at once. A test of it is weave-type.
 **Status.** COMPUTED (the rule first; one run; T4 as predicted; T1, T2 and T3 failed as worded, explained post hoc and
 labelled); a WEAVE result on the ruled branch, given Λ. 0 of 19.
 
+## W58. The level-four preprint checked: its triplet is the record's T, its generations are not the record's three, its numbers stand, its significance does not (`the_level_four_preprint_checked.py`; `W58_RULE.md`; post hoc `the_level_four_preprint_checked_posthoc.py`)
+
+**Why.**
+- Step A3 of the plan the owner approved on 2026-10-13: check a level-four modular-symmetry preprint with the record's
+  own code (Barger, arXiv:2609.09262v1).
+- The preprint reads the quark and lepton masses as charges on a ℤ₄ clock. It puts the generations in an S₄ triplet,
+  fixes ε = 14/75 and τ = 1.0685 i from the charged leptons, and claims the six quark masses and the CKM matrix "with
+  no continuous parameter".
+- The record's T is an S₄ triplet twisted by a character, built from the even theta constants (W21, W38, W50). So the
+  two had to be compared, and the numbers checked (B1517).
+
+**The order.**
+- **The rule first.** The rule (`W58_RULE.md`) and the transcribed claims (`received/B2026_level_four_claims.json`, with
+  the PDF's sha256) were committed before any code (c5f343d14). What the seat had seen before writing the rule is
+  listed there, with the priors it touched.
+- **The script.** Committed before its one run (c5cb9b4f2). The pre-run review fixes are disclosed in that commit.
+- **The run.** One run; its output committed unread (89d00b7a7).
+- **A labelled post hoc** script, committed before its own run, traces the two cells that failed as worded.
+
+**The read-out (COMPUTED; five cells as predicted, K4 and K7 failed as worded).**
+- **K1, the triplet (as predicted).** η's multiplier comes out at −1/8 and 1/24 of a turn at S and T. Of its 24 powers,
+  exactly k = 3 and k = 15 untwist ρ_T to a representation of Γ₄ ≅ S₄. Both are irreducible.
+  - k = 3 gives T-charges {0, 1, 3} and traces −1, 1, 0 at S, T and ST: the cube's rotations, the preprint's 3.
+  - k = 15 gives T-charges {1, 2, 3}: its 3′.
+  - So the record's T is the preprint's triplet, up to η³'s multiplier.
+- **K2, the generations' lines (as predicted).**
+  - The preprint's third generation (T-charge 0) is a parity line: the one carrying θ₂².
+  - Its first and second generations are (e₁ ± ζe₃)/√2, mixtures of the parity lines carrying θ₄² and θ₃². The slot
+    pairing agrees with W50's.
+  - In its basis the S-move has moduli ((½, ½, 1/√2), (½, ½, 1/√2), (1/√2, 1/√2, 0)). So the moves mix its
+    generations, where they permute the record's.
+- **K3, the selection theorem (as predicted).** Scanning 3 ≤ N ≤ 12, a solution exists only at N = 4: a = (0, 2, 3),
+  with c = 2 or c = 3. Only c = 2 is a shift by a character of S₄ (1′). The theorem's "fixes the charges" needs that
+  reading of its "one group element".
+- **K4, the numbers (failed as worded).** 39 of the 41 printed claims reproduce to the printed digit. The two theta
+  routes agree exactly. The two that do not:
+  - m_c: 0.6242 GeV against the printed 0.6239;
+  - |V_td|: 0.008600 against the printed 0.008599.
+  - The misses are 0.05% and 0.015%, and neither changes any comparison.
+- **K5, the double ratio (as predicted).**
+  - 2/ε = 10.714 lies −1.2σ from the target 10.58 ± 0.11, and −0.1σ from the record's own value.
+  - The Georgi–Jarlskog plaquette (2/(ε Im τ))^{1/2} = 3.167 lies −0.08σ from the record's 3.144 ± 0.274 at M_Z.
+- **K6, the look-elsewhere (as predicted).**
+  - Table XIV reproduces on both dictionaries. For example, the anchor gives 0.24% and 7.99% against the printed 0.2%
+    and 8%, and P1 gives 6.4% and 87.2% against 6% and 87%.
+  - The anchor's own dressing (2θ₃)⁴ lies outside the paper's form-value box. On the smallest box that holds it (510
+    prefactors), a random number lands within 0.02% of some element 24% of the time.
+  - On the families the postulates were drawn from, the joint chance of the four landings is 16%. The text's 10⁻⁶
+    (6 × 10⁻⁷ here) is the declared family's.
+- **K7, the record's own data (failed as worded).**
+  - At M_Z all six quark relations hold within 0.4σ on Huang and Zhou's values, a data set independent of the
+    preprint's.
+  - The lepton anchor, with ε re-derived from those leptons, misses by 2.7σ at the data ratio's error.
+  - At 10¹² GeV, P1 fails by 107σ and the double ratio holds (−0.14σ), as predicted.
+
+**Post hoc (labelled; written after the read-out; W58's JSON unchanged).**
+- **PH1, K4's two misses, traced.**
+  - The printed m_c is computed from the measured m_t (169.85 GeV) rather than the predicted one (169.92): it gives
+    0.62393.
+  - The printed |V_td| is computed from the rounded |V_ub| and θ₁₃/θ₂₃: it gives 0.0085995.
+- **PH2, the anchor's precision.** K7's miss is the fixing of ε.
+  - **With ε = 14/75** the anchor holds on both data sets: −0.05σ on the preprint's Table I and −0.25σ on the record's
+    data, at the data ratio's error.
+  - **With ε taken from the data** by the preprint's own Eq. 23, it misses by 2.0σ on its own Table I and by 2.7σ on
+    the record's data.
+  - **Why.** The anchor depends on ε about four times as strongly as ε depends on the masses (dT/d ln m = 2.68, −6.36
+    and 3.68 for e, μ and τ). So its honest precision is the error carried through ε: 0.145% on the preprint's Table I
+    and 0.29% on the record's data, not 0.02%. At that precision it holds (−0.37σ and −0.26σ).
+  - **So** the preprint's 0.02% holds only for the rational ε = 14/75, which it read off the same data as a continued-
+    fraction convergent. Its statement that every result is unchanged at the 10⁻⁴ level with the measured ε does not
+    hold for the anchors: T moves by 5 × 10⁻⁴.
+- **PH3, the anchor's coverage at its honest precision:** 1.7% on the declared family, 43% on the form-value family and
+  91% on the anchor's own box.
+
+**What it shows (a READING on the computed facts and the labelled post hoc).**
+- **The structure is shared.** A route that starts from the masses lands on the record's T, the same level-four triplet
+  up to η³'s multiplier, with couplings from the theta constants of the same torus. The record reached T from the
+  weave (W21), with no data. The convergence is worth recording. It is not evidence for either: the level-four triplet
+  is a natural home for three generations in modular flavour models.
+- **The basis is not shared.**
+  - The preprint's generations are T's eigenlines, the basis the cusp's residual ℤ₄ singles out. The record's three are
+    the parity lines, alike under the moves.
+  - In the record's terms, the preprint's three are what the parity lines become once a state of the field has broken
+    the weave's group toward the cusp (W50). They share one line, θ₂²'s, the preprint's third generation.
+  - Its hierarchy-by-charge is a choice of basis that the weave does not make.
+- **The numbers stand; their significance does not.**
+  - As arithmetic it is right: 39 of 41 printed claims reproduce, and the other two trace to its own inputs and
+    rounding. Its mass relations also hold at M_Z on the record's independent data.
+  - Its coefficients are selections from a family that covers every number at percent precision.
+  - Its strongest landing, the anchor, is tested at 0.15%, not 0.02%, once ε is not fixed by hand.
+  - On the families actually used, the four best landings have a joint chance of 16% (28% with the anchor at its
+    honest precision).
+  - Its relations other than the 1–2 double ratios hold at one scale, as it says itself.
+- **So it is not a derivation the record can adopt.** 0 of 19.
+- **What it gives the record.**
+  - **A candidate state,** τ = 1.0685 i, 0.033 from i in the disc's coordinate u. It is none of W51's critical points
+    (i, ω, 1.551i, ½ + 2.224i, 2.226i).
+  - **Two numbers for C1.** The double ratio 2/ε = 10.714 (−1.2σ from the target) and the plaquette
+    (2/(ε Im τ))^{1/2} = 3.167.
+  - **A mechanism.** In it, d and e differ by one automorphy factor (Im τ)^{1/2} on the light down quarks, a difference
+    of modular weight. After A1, that is the kind of continuous d–e splitting a state of the field on the fibre can
+    supply. W59 (couplings as overlaps) is where the record tests it.
+
+**Status.** COMPUTED (the rule first, with what was seen before it disclosed; one run; five cells as predicted; K4 and
+K7 failed as worded and were traced in a labelled post hoc). It checks an outside claim; K1 and K2 concern the weave's
+T. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -4402,6 +4514,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W55 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | does the gauge side on record tell the sectors apart? With one flavour matrix serving every coupling (F-MC's E₆ cubic with its rank-closing vacuum values, SO(10) with one 10_H, minimal SU(5)) the down-type and charged-lepton matrices are P ⊗ λ and Pᵀ ⊗ λ (to 10⁻¹⁴), so the two sectors share their ratios; the data exclude that at χ² ≥ 106 (a = 0.10; 249 at 0.05, 32 at 0.20; admitted only at a 48% allowance). In the Standard Model frame the tie k_d = k_e keeps (5, 5, 5), (5, 7, 7), (7, 7, 7), with 23 to 29 parameters. No: the sectors split only through Higgs content with new free numbers, a dictionary datum |
 | W56 | COMPUTED (the rule first; one run; every cell as predicted); a WEAVE result given Λ | the Higgs carrying the generation index. Like a generation (T at 3/2) it has no coupling: the multiplier's parity, ρ_T(S)² = i. In the dual triplet it has 8 coupling forms at 9/2. At the geometry's weight (H_u, H_d) = (D, D) and (B, D) fit exactly with P = 55 and 39; (D, B) fails at χ² = 27.7 on d and e; all have rank 13, so none predicts. In F-MC's E₆ cubic the down-type and charged-lepton spectra are equal (c = 1, to 10⁻¹³) for any Higgs content in 27s; only content beyond the 27 splits them. W55's scope remark corrected |
 | W57 | COMPUTED (the rule first; one run; T4 as predicted; T1–T3 failed as worded, explained post hoc); a WEAVE result given Λ | is the world a typical draw from the seed's own measure (W56's placements, τ hyperbolic, the invariant Gaussian on the allowed couplings), against anarchy? No draw of either model came within 32σ of the data in all ten numbers; at 64σ both accept 40% (R = 1.04, p = 0.18); the second-generation ratios are atypical (p 0.0015 to 0.004); anarchy fails the up hierarchy (2 × 10⁻⁶). Post hoc: the data's nearest draw at 36.5σ against a typical 2σ (p_nn = 0.005); no draw within a factor 10 in all six mass ratios; three deep hierarchies in 25% of (B, B) and none of anarchy. Not a typical draw; the seed supplies the first step of hierarchy |
+| W58 | COMPUTED (the rule first, what was seen disclosed; one run; five cells as predicted, K4 and K7 failed as worded, traced post hoc); an outside claim checked, K1–K2 on the weave's T | the level-four preprint (arXiv:2609.09262): its triplet is the record's T up to η³'s multiplier (k = 3 and 15 untwist ρ_T to S₄'s 3 and 3′); its generations are T's eigenlines, one a parity line (θ₂²'s) and two mixtures, so not the record's alike three; its selection theorem holds (N = 4 only; c = 2 the character shift); 39 of 41 printed numbers reproduce (the other two its own inputs and rounding); 2/ε = 10.714 at −1.2σ from the double-ratio target; Table XIV reproduces, the anchor's own box covers 24% at 0.02%, the four landings' joint chance 16%; post hoc, the anchor's honest precision 0.145%, not 0.02% (it holds only with ε fixed at 14/75). Not a derivation |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -4448,6 +4561,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W55_RULE.md`: the rule, committed before the code; `the_gauge_side_and_the_sectors.py` → `the_gauge_side_and_the_sectors.json`: W55, the down–lepton tie's exact bound at three allowances and its threshold allowance, the Kronecker lemma on 400 cases, and the Standard Model frame's tie read from W54.
 - `W56_RULE.md`: the rule, committed before the code; `the_higgs_and_the_generation_index.py` → `the_higgs_and_the_generation_index.json`: W56, the E₆ identity from the trinification cubic on 200 cases with its control, the coupling forms of the two generation-type placements by weight, the census of the Higgs placements at the geometry's weight, and their ranks.
 - `W57_RULE.md`: the rule, committed with the second-scale data before the code; `the_field_of_maximality.py` → `the_field_of_maximality.json`: W57, the seed's measure against anarchy on 10⁶ draws each, the ladder, the pseudo-data, the marginals, the read-outs; `the_field_of_maximality_posthoc.py` → `the_field_of_maximality_posthoc.json`: W57 post hoc (labelled), nearest-neighbour typicality and the shares.
+- `W58_RULE.md`: the rule, committed with the transcribed claims (`received/B2026_level_four_claims.json`) before the code; `the_level_four_preprint_checked.py` → `the_level_four_preprint_checked.json`: W58, the preprint's triplet against T, its generation lines, its selection theorem, its numbers, the look-elsewhere, the record's own data; `the_level_four_preprint_checked_posthoc.py` → `the_level_four_preprint_checked_posthoc.json`: W58 post hoc (labelled), K4's two misses and the anchor's precision.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

@@ -1,5 +1,24 @@
 # Changelog
 
+## The weave's W58: the level-four preprint checked — the record's T, not the record's three; relay section 67
+
+- **W58** (A3 of the approved plan; the rule c5f343d14 first, with the transcribed claims, the PDF's sha256 and what
+  was seen before it; the script c5cb9b4f2 before its one run; five cells as predicted, K4 and K7 failed as worded):
+  - Barger's arXiv:2609.09262 reaches the record's T from the masses: of η's 24 characters, k = 3 and 15 untwist ρ_T to
+    S₄'s 3 and 3′;
+  - its generations are T's eigenlines (one is the θ₂² parity line, two are mixtures), so not the record's alike three;
+  - its selection theorem holds (N = 4 only); 39 of 41 printed numbers reproduce, the other two from its own inputs and
+    rounding; its mass relations hold on the record's independent data at M_Z, and P1 fails at 10¹² GeV;
+  - its Table XIV reproduces; on the families its coefficients came from, the four best landings have a joint chance of
+    16%, not 10⁻⁶;
+  - **post hoc (labelled):** its lepton anchor is a 0.145% test, not 0.02%; it holds (−0.37σ), but its 0.02% agreement
+    needs ε fixed at 14/75.
+- **So:** not a derivation; it gives C1 the double ratio 2/ε = 10.714 (−1.2σ from the target) and the plaquette 3.167,
+  and a candidate τ = 1.0685 i. 0 of 19.
+- **Relay §67** to main. **Surfaces.** The rule and the claims file, the script, its JSON and its post hoc, the
+  dossier (W58, a row, the header, the files), the W58 test and the regeneration list, the state page, the relay and
+  the ledger.
+
 ## After W57: W56's rule corrected (the Wilson line); the double ratio as a target; relay section 66
 
 - **A correction** (the owner approved the seat's plan, 2026-10-13): W56's rule said no Wilson line on the shared fibre
