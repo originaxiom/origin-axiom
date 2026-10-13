@@ -1,0 +1,2977 @@
+{
+  "cohomology": {
+    "parities": [
+      [
+        1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "A": [
+      [
+        "I",
+        "0"
+      ],
+      [
+        "0",
+        "-I"
+      ]
+    ],
+    "B": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "-1",
+        "0"
+      ]
+    ],
+    "nL": [
+      [
+        "sqrt(2)*(1 + I)/2",
+        "0"
+      ],
+      [
+        "0",
+        "sqrt(2)*(1 - I)/2"
+      ]
+    ],
+    "nR": [
+      [
+        "sqrt(2)/2",
+        "-sqrt(2)/2"
+      ],
+      [
+        "sqrt(2)/2",
+        "sqrt(2)/2"
+      ]
+    ],
+    "untwisted_pullback_L": [
+      [
+        "sqrt(2)*(1 + I)/2",
+        "0"
+      ],
+      [
+        "0",
+        "sqrt(2)*(1 - I)/2"
+      ]
+    ],
+    "untwisted_pullback_R": [
+      [
+        "sqrt(2)*(1 - I)/2",
+        "0"
+      ],
+      [
+        "0",
+        "sqrt(2)*(1 + I)/2"
+      ]
+    ],
+    "raw_pullbacks": {
+      "L": [
+        [
+          "sqrt(2)*(1 + I)/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(2)*(1 - I)/2",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(-1 - I)/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(-1 + I)/2"
+        ],
+        [
+          "0",
+          "0",
+          "sqrt(2)*(-1 - I)/2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(-1 + I)/2",
+          "0",
+          "0"
+        ]
+      ],
+      "R": [
+        [
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(1 - I)/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "sqrt(2)*(-1 - I)/2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(2)*(1 + I)/2",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "sqrt(2)*(-1 + I)/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(1 + I)/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(1 - I)/2"
+        ]
+      ]
+    },
+    "common_pullbacks": {
+      "L": [
+        [
+          "sqrt(2)*(1 + I)/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(2)*(1 - I)/2",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(-1 - I)/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(-1 + I)/2"
+        ],
+        [
+          "0",
+          "0",
+          "sqrt(2)*(1 + I)/2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(1 - I)/2",
+          "0",
+          "0"
+        ]
+      ],
+      "R": [
+        [
+          "0",
+          "0",
+          "sqrt(2)*(1 - I)/2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(1 + I)/2",
+          "0",
+          "0"
+        ],
+        [
+          "sqrt(2)*(-1 + I)/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "sqrt(2)*(-1 - I)/2",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(1 - I)/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "sqrt(2)*(1 + I)/2"
+        ]
+      ]
+    },
+    "selected_TL": [
+      [
+        "sqrt(2)*(1 + I)/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "sqrt(2)*(1 + I)/2"
+      ],
+      [
+        "0",
+        "sqrt(2)*(-1 - I)/2",
+        "0"
+      ]
+    ],
+    "selected_TR": [
+      [
+        "0",
+        "sqrt(2)*(-1 + I)/2",
+        "0"
+      ],
+      [
+        "sqrt(2)*(1 - I)/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "sqrt(2)*(1 - I)/2"
+      ]
+    ],
+    "selected_TS": [
+      [
+        "0",
+        "0",
+        "sqrt(2)*(-1 - I)/2"
+      ],
+      [
+        "0",
+        "sqrt(2)*(1 + I)/2",
+        "0"
+      ],
+      [
+        "sqrt(2)*(-1 - I)/2",
+        "0",
+        "0"
+      ]
+    ],
+    "OL": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "-1",
+        "0"
+      ]
+    ],
+    "OR": [
+      [
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "OS": [
+      [
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ]
+    ],
+    "theta_intertwiner_D": [
+      [
+        "-I",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "I"
+      ]
+    ],
+    "Hodge_scope": "Conjugate invariant eigenspaces reconstructed. An independent Hodge-Riemann sign calculation is not performed."
+  },
+  "finite_representation": {
+    "order": 96,
+    "rotation_order": 24,
+    "center_exponents_mod8": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "line_power_Hom_dimensions_r0_to7": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "elements": [
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 0,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 1,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 2,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 3,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 4,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 5,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 6,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "ell_exponent_mod8": 7,
+        "O": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ]
+      }
+    ]
+  },
+  "protected_algebra": {
+    "description": "su(2)_1 vacuum algebra tensor one Heisenberg vacuum algebra; open-interval local protected intersection, not enhanced isolated radii",
+    "character": "theta3(2tau)/eta(tau)^2",
+    "grades": [
+      {
+        "h": 0,
+        "dimension": 1,
+        "SU2_integer_spin_multiplicities": [
+          1
+        ],
+        "Q8_trivial_multiplicity": 1,
+        "each_parity_multiplicity": 0,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 1,
+        "dimension": 4,
+        "SU2_integer_spin_multiplicities": [
+          1,
+          1
+        ],
+        "Q8_trivial_multiplicity": 1,
+        "each_parity_multiplicity": 1,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 2,
+        "dimension": 9,
+        "SU2_integer_spin_multiplicities": [
+          3,
+          2
+        ],
+        "Q8_trivial_multiplicity": 3,
+        "each_parity_multiplicity": 2,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 3,
+        "dimension": 20,
+        "SU2_integer_spin_multiplicities": [
+          5,
+          5
+        ],
+        "Q8_trivial_multiplicity": 5,
+        "each_parity_multiplicity": 5,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 4,
+        "dimension": 42,
+        "SU2_integer_spin_multiplicities": [
+          10,
+          9,
+          1
+        ],
+        "Q8_trivial_multiplicity": 12,
+        "each_parity_multiplicity": 10,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 5,
+        "dimension": 80,
+        "SU2_integer_spin_multiplicities": [
+          16,
+          18,
+          2
+        ],
+        "Q8_trivial_multiplicity": 20,
+        "each_parity_multiplicity": 20,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 6,
+        "dimension": 147,
+        "SU2_integer_spin_multiplicities": [
+          29,
+          31,
+          5
+        ],
+        "Q8_trivial_multiplicity": 39,
+        "each_parity_multiplicity": 36,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 7,
+        "dimension": 260,
+        "SU2_integer_spin_multiplicities": [
+          45,
+          55,
+          10
+        ],
+        "Q8_trivial_multiplicity": 65,
+        "each_parity_multiplicity": 65,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 8,
+        "dimension": 445,
+        "SU2_integer_spin_multiplicities": [
+          75,
+          90,
+          20
+        ],
+        "Q8_trivial_multiplicity": 115,
+        "each_parity_multiplicity": 110,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 9,
+        "dimension": 744,
+        "SU2_integer_spin_multiplicities": [
+          115,
+          149,
+          35,
+          1
+        ],
+        "Q8_trivial_multiplicity": 186,
+        "each_parity_multiplicity": 186,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 10,
+        "dimension": 1215,
+        "SU2_integer_spin_multiplicities": [
+          181,
+          235,
+          63,
+          2
+        ],
+        "Q8_trivial_multiplicity": 309,
+        "each_parity_multiplicity": 302,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 11,
+        "dimension": 1944,
+        "SU2_integer_spin_multiplicities": [
+          271,
+          371,
+          105,
+          5
+        ],
+        "Q8_trivial_multiplicity": 486,
+        "each_parity_multiplicity": 486,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 12,
+        "dimension": 3059,
+        "SU2_integer_spin_multiplicities": [
+          413,
+          567,
+          175,
+          10
+        ],
+        "Q8_trivial_multiplicity": 773,
+        "each_parity_multiplicity": 762,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 13,
+        "dimension": 4740,
+        "SU2_integer_spin_multiplicities": [
+          605,
+          865,
+          280,
+          20
+        ],
+        "Q8_trivial_multiplicity": 1185,
+        "each_parity_multiplicity": 1185,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 14,
+        "dimension": 7239,
+        "SU2_integer_spin_multiplicities": [
+          895,
+          1289,
+          445,
+          36
+        ],
+        "Q8_trivial_multiplicity": 1821,
+        "each_parity_multiplicity": 1806,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 15,
+        "dimension": 10920,
+        "SU2_integer_spin_multiplicities": [
+          1291,
+          1913,
+          687,
+          65
+        ],
+        "Q8_trivial_multiplicity": 2730,
+        "each_parity_multiplicity": 2730,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 16,
+        "dimension": 16286,
+        "SU2_integer_spin_multiplicities": [
+          1866,
+          2791,
+          1055,
+          109,
+          1
+        ],
+        "Q8_trivial_multiplicity": 4088,
+        "each_parity_multiplicity": 4066,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 17,
+        "dimension": 24028,
+        "SU2_integer_spin_multiplicities": [
+          2648,
+          4052,
+          1585,
+          183,
+          2
+        ],
+        "Q8_trivial_multiplicity": 6007,
+        "each_parity_multiplicity": 6007,
+        "T_multiplicity": 0
+      },
+      {
+        "h": 18,
+        "dimension": 35110,
+        "SU2_integer_spin_multiplicities": [
+          3760,
+          5805,
+          2365,
+          295,
+          5
+        ],
+        "Q8_trivial_multiplicity": 8800,
+        "each_parity_multiplicity": 8770,
+        "T_multiplicity": 0
+      }
+    ],
+    "max_grade": 18
+  },
+  "ordinary_semion_control": {
+    "S": [
+      [
+        "sqrt(2)/2",
+        "sqrt(2)/2"
+      ],
+      [
+        "sqrt(2)/2",
+        "-sqrt(2)/2"
+      ]
+    ],
+    "fusion": [
+      [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    ],
+    "ranks": [
+      {
+        "genus": 0,
+        "semion_punctures": 0,
+        "rank": 1
+      },
+      {
+        "genus": 0,
+        "semion_punctures": 1,
+        "rank": 0
+      },
+      {
+        "genus": 0,
+        "semion_punctures": 2,
+        "rank": 1
+      },
+      {
+        "genus": 0,
+        "semion_punctures": 3,
+        "rank": 0
+      },
+      {
+        "genus": 0,
+        "semion_punctures": 4,
+        "rank": 1
+      },
+      {
+        "genus": 0,
+        "semion_punctures": 5,
+        "rank": 0
+      },
+      {
+        "genus": 0,
+        "semion_punctures": 6,
+        "rank": 1
+      },
+      {
+        "genus": 0,
+        "semion_punctures": 7,
+        "rank": 0
+      },
+      {
+        "genus": 0,
+        "semion_punctures": 8,
+        "rank": 1
+      },
+      {
+        "genus": 1,
+        "semion_punctures": 0,
+        "rank": 2
+      },
+      {
+        "genus": 1,
+        "semion_punctures": 1,
+        "rank": 0
+      },
+      {
+        "genus": 1,
+        "semion_punctures": 2,
+        "rank": 2
+      },
+      {
+        "genus": 1,
+        "semion_punctures": 3,
+        "rank": 0
+      },
+      {
+        "genus": 1,
+        "semion_punctures": 4,
+        "rank": 2
+      },
+      {
+        "genus": 1,
+        "semion_punctures": 5,
+        "rank": 0
+      },
+      {
+        "genus": 1,
+        "semion_punctures": 6,
+        "rank": 2
+      },
+      {
+        "genus": 1,
+        "semion_punctures": 7,
+        "rank": 0
+      },
+      {
+        "genus": 1,
+        "semion_punctures": 8,
+        "rank": 2
+      },
+      {
+        "genus": 2,
+        "semion_punctures": 0,
+        "rank": 4
+      },
+      {
+        "genus": 2,
+        "semion_punctures": 1,
+        "rank": 0
+      },
+      {
+        "genus": 2,
+        "semion_punctures": 2,
+        "rank": 4
+      },
+      {
+        "genus": 2,
+        "semion_punctures": 3,
+        "rank": 0
+      },
+      {
+        "genus": 2,
+        "semion_punctures": 4,
+        "rank": 4
+      },
+      {
+        "genus": 2,
+        "semion_punctures": 5,
+        "rank": 0
+      },
+      {
+        "genus": 2,
+        "semion_punctures": 6,
+        "rank": 4
+      },
+      {
+        "genus": 2,
+        "semion_punctures": 7,
+        "rank": 0
+      },
+      {
+        "genus": 2,
+        "semion_punctures": 8,
+        "rank": 4
+      },
+      {
+        "genus": 3,
+        "semion_punctures": 0,
+        "rank": 8
+      },
+      {
+        "genus": 3,
+        "semion_punctures": 1,
+        "rank": 0
+      },
+      {
+        "genus": 3,
+        "semion_punctures": 2,
+        "rank": 8
+      },
+      {
+        "genus": 3,
+        "semion_punctures": 3,
+        "rank": 0
+      },
+      {
+        "genus": 3,
+        "semion_punctures": 4,
+        "rank": 8
+      },
+      {
+        "genus": 3,
+        "semion_punctures": 5,
+        "rank": 0
+      },
+      {
+        "genus": 3,
+        "semion_punctures": 6,
+        "rank": 8
+      },
+      {
+        "genus": 3,
+        "semion_punctures": 7,
+        "rank": 0
+      },
+      {
+        "genus": 3,
+        "semion_punctures": 8,
+        "rank": 8
+      },
+      {
+        "genus": 4,
+        "semion_punctures": 0,
+        "rank": 16
+      },
+      {
+        "genus": 4,
+        "semion_punctures": 1,
+        "rank": 0
+      },
+      {
+        "genus": 4,
+        "semion_punctures": 2,
+        "rank": 16
+      },
+      {
+        "genus": 4,
+        "semion_punctures": 3,
+        "rank": 0
+      },
+      {
+        "genus": 4,
+        "semion_punctures": 4,
+        "rank": 16
+      },
+      {
+        "genus": 4,
+        "semion_punctures": 5,
+        "rank": 0
+      },
+      {
+        "genus": 4,
+        "semion_punctures": 6,
+        "rank": 16
+      },
+      {
+        "genus": 4,
+        "semion_punctures": 7,
+        "rank": 0
+      },
+      {
+        "genus": 4,
+        "semion_punctures": 8,
+        "rank": 16
+      }
+    ],
+    "scope": "Ordinary integrable primary punctures of su(2)_1, NOT Q8-crossed spin defects or their junctions."
+  },
+  "checks": [
+    {
+      "name": "Q8_relations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specified_SU2_normalizer_lifts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "normalizer_unitarity_and_determinants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_four_H1_dimensions_are_two",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_projections_kill_coboundaries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_quotient_gauge_is_right_inverse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "character_intertwiners_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "both_moves_are_cochain_maps_for_all_parities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quotient_maps_do_not_depend_on_coboundary_representative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "alternate_b_zero_gauge_is_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_move_matrices_agree_in_alternate_gauge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "untwisted_pullback_eigencharacters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "two_three_dimensional_summands_are_invariant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cochain_derived_tensor_factorization",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "other_summand_is_the_complex_conjugate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rotation_matrices_are_SO3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_monomial_intertwiner_for_both_modular_generators",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "genuine_metaplectic_relations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "braid_relation_for_L_and_Rinverse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "geometric_line_character_on_S",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "line_holonomy_not_trivial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "normalizer_local_action_has_different_center",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_dimensional_common_frame_intertwiner",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_image_orders",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scalar_center_is_fourth_roots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_finite_pairs_preserve_orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "triplet_irreducible_by_character",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "line_power_intertwiner_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "line_power_intertwiner_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "line_power_intertwiner_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "line_power_intertwiner_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "line_power_intertwiner_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "line_power_intertwiner_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "line_power_intertwiner_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "line_power_intertwiner_7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_invariant_bilinear_on_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_T_valued_quadratic_product",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique_invariant_Hermitian_pairing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rotation_action_preserves_all_current_structure_constants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "central_i_twist_fails_current_vacuum_OPE",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neutral_endomorphism_transport_cancels_geometric_line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "open_interval_holomorphy_three_independent_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_charge_lattice_is_n_minusn_zero_zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "two_independent_oscillator_counts_agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_0_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_0_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_1_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_1_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_2_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_2_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_3_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_3_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_4_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_4_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_5_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_5_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_6_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_6_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_7_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_7_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_8_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_8_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_9_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_9_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_10_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_10_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_11_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_11_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_12_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_12_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_13_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_13_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_14_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_14_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_15_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_15_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_16_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_16_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_17_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_17_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_18_SU2_decomposition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_grade_18_has_no_target_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_weight_one_is_one_singlet_plus_triplet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_graded_series_initial_values",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent_bounded_charge_scan",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "spinor_weight_and_current_descendant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "spinor_pair_OPE_exponents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "spinor_charges_are_not_local_NS_lattice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_16_semion_pentagons",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_16_semion_hexagons",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "wrong_trivial_associator_is_detected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Verlinde_fusion_is_Z2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g0_n0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g0_n1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g0_n2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g0_n3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g0_n4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g0_n5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g0_n6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g0_n7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g0_n8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g1_n0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g1_n1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g1_n2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g1_n3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g1_n4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g1_n5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g1_n6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g1_n7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g1_n8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g2_n0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g2_n1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g2_n2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g2_n3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g2_n4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g2_n5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g2_n6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g2_n7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g2_n8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g3_n0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g3_n1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g3_n2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g3_n3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g3_n4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g3_n5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g3_n6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g3_n7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g3_n8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g4_n0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g4_n1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g4_n2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g4_n3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g4_n4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g4_n5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g4_n6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g4_n7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_block_rank_g4_n8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary_torus_control_never_has_rank_three",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "semion_not_an_extra_triplet_fusion_channel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_floating_point_atoms_in_exact_matrices",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "check_count": 140,
+  "all_passed": true
+}

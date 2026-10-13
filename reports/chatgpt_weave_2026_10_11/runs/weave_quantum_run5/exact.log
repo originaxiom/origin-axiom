@@ -1,0 +1,41 @@
+PASS charge-basis orthogonal
+PASS boost preserves Lorentz bilinear
+PASS boost determinant one
+PASS full map preserves odd-lattice pairing
+PASS boost identity at free point
+PASS inverse boost is r reciprocal
+PASS fermion exact weights
+PASS both faithful components have equal weights
+PASS fermion spin remains half
+PASS tracked puncture exact weights
+PASS puncture spin remains quarter
+PASS alternative flavour spinor stays chiral
+PASS conjugately paired local puncture
+PASS same-sign paired local puncture
+PASS original chiral puncture OPE exponents
+PASS central puncture monodromy unchanged
+PASS fused flavour spinor stays chiral
+PASS OPE conformal-weight balance
+PASS equal half-pole applies to both components at t=0
+PASS antiholomorphic exponent vanishes only at positive r=1
+PASS full local puncture gives same fermion sign
+PASS full local puncture half-pole only at free point
+PASS flavour root currents unchanged
+PASS charge root currents cease to be chiral
+PASS faithful quaternion relations
+PASS central puncture relation
+PASS all quaternion elements preserve total current
+PASS both grammar normalizers preserve total current
+PASS quaternion group closes exactly
+PASS odd-lattice spin statistics identity
+PASS spin-charge gluing retained
+PASS bounded independent chiral-candidate scan
+PASS d=0 case excluded mod four
+PASS integer factorization identity for d=+-1
+PASS only real boost preserving any candidate is t=0
+PASS odd-spin first exponent variation
+PASS odd-spin second exponent variation
+PASS odd-spin second trace kernel
+PASS holomorphic additive OPE exponent coherence
+PASS antiholomorphic additive OPE exponent coherence
+Exact checks passed: 40

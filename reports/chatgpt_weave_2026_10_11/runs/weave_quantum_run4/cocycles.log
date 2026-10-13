@@ -1,0 +1,59 @@
+{
+  "checks": {
+    "Q8_d_squared_zero": true,
+    "Q8_expected_h2_h3": true,
+    "C3_d_squared_zero": true,
+    "C3_expected_h2_h3": true,
+    "Q8_lagrange_order_invertible_mod3": true
+  },
+  "passed": 5,
+  "cohomology": {
+    "Q8": {
+      "cochain_matrix_shapes": [
+        [
+          49,
+          7
+        ],
+        [
+          343,
+          49
+        ],
+        [
+          2401,
+          343
+        ]
+      ],
+      "differential_ranks": [
+        7,
+        42,
+        301
+      ],
+      "H2_F3_dimension": 0,
+      "H3_F3_dimension": 0
+    },
+    "C3": {
+      "cochain_matrix_shapes": [
+        [
+          4,
+          2
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          16,
+          8
+        ]
+      ],
+      "differential_ranks": [
+        1,
+        2,
+        5
+      ],
+      "H2_F3_dimension": 1,
+      "H3_F3_dimension": 1
+    }
+  },
+  "scope": "Ordinary Q8 cohomology with trivial F3 coefficients, not full spin-Q8 bordism or defect-junction classification."
+}

@@ -1,0 +1,695 @@
+{
+  "precision_decimal_digits": 80,
+  "named_groups": 17,
+  "individual_comparisons": 124,
+  "largest_relative_residual": "2.0874560608183808341181346698310661315583335476220006705249319422405662856545678e-40",
+  "strict_comparison_largest_residual": "3.1358975665083380908249868945036763362273411466177908860009447241355691456592707e-80",
+  "groups": {
+    "bosonized cover formula equals faithful quantum amplitude": "7.7801010617012898512932262027806741507645971870488887585228442125292615292556307e-81",
+    "independent fermion and prime oscillator products": "1.5498626847895368336308365759796335256499996906566538964214789832062546563815113e-80",
+    "geometric Wronskian eta cubed": "1.3839550441837920146740274931963865690436874305941942928306526557578263903685225e-80",
+    "quantum Wronskian eta fifth": "7.4012453111281883598914266257428745029061759761131604379733365150048679034557371e-81",
+    "Lame equation with independently summed wp": "9.9052800664642603274400218511026114003473716089006701758639330035648713308362674e-81",
+    "full amplitude modular T": "1.6668678522475460034974964362053752067066630182759740847678746532867618407754519e-81",
+    "full amplitude modular S": "6.7759767132902052032391134564646785153765206605667870085241596687180122031579305e-81",
+    "cover prime product identity": "1.1149514318922593135490689431237969127567137006269917092372762200905389583227763e-80",
+    "shifted characteristic identity": "4.9076021596857245904872729038866604145723754153577038844243575970637497668466158e-81",
+    "puncture residue limit": "6.9205395840188638953600126107896002060195017986424122487586773372034430370097266e-81",
+    "quadratic residue reconstruction": "5.2254836431768560356215530636572925783719262593955590218127718502206783674486693e-81",
+    "Gaussian quadratic T multiplier": "5.4730338170272884958427524316835443353077650769992237966954354007379404348681146e-81",
+    "Gaussian quadratic S multiplier": "9.1624570578326774612852512752237058841942586993151356697093687426087008276923322e-81",
+    "analytic mismatch magnitude": "2.1084395886461046448697148102540038015419922764737015100155526050216288581939519e-81",
+    "relative geometric versus quantum residue factor": "1.3819267412936868712339307046940035195230579104628901237652608989975190777827196e-81",
+    "twist fusion OPE degeneration": "2.0874560608183808341181346698310661315583335476220006705249319422405662856545678e-40",
+    "continued faithful quaternion monodromy": "3.1358975665083380908249868945036763362273411466177908860009447241355691456592707e-80"
+  },
+  "comparisons": [
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[0],z[0]",
+      "relative_residual": "3.4249868927886471286896783192234619041058255313267308564819393525819950756513127e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[0],z[0]",
+      "relative_residual": "3.9519079532176697638727057529501483508913371515308432959406992529792250872899762e-81"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[0],z[0]",
+      "relative_residual": "2.0934387684334968687711721768821646730278529989747788182115710944591555893261949e-81"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[0],z[0]",
+      "relative_residual": "1.4908919308538353892336376595595371463268313718461839293584632578494927770187775e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[0],z[0]",
+      "relative_residual": "4.4321384839039891468769985567118140933167040236845233456841902822507475331850194e-81"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[0],z[0]",
+      "relative_residual": "1.207870288251618869968028283998488158443035526939835749897934339839025896412343e-81"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[0],z[0]",
+      "relative_residual": "2.0920927082046690632973488636654973903286249077790112765734486893944936041172451e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[0],z[0]",
+      "relative_residual": "2.1084395886461046448697148102540038015419922764737015100155526050216288581939519e-81"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[0],z[0]",
+      "relative_residual": "3.2495226795609381766478312271784509644367927739604718559529193652274607383675258e-81"
+    },
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[0],z[1]",
+      "relative_residual": "1.3981689399135225850274831107523409886349144152135489545351905588506305548090254e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[0],z[1]",
+      "relative_residual": "2.0018732697912603463417281357808334343522006050943718066693065806123406828329165e-81"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[0],z[1]",
+      "relative_residual": "2.9605694983162804063727686217224220117903220577893520271452888190960467761347475e-81"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[0],z[1]",
+      "relative_residual": "1.1786535616660959410226615695399553544450315822477074115794107047743724739349763e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[0],z[1]",
+      "relative_residual": "2.9113576263673432313969298936009398801914004895982570643804629165439955252946932e-81"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[0],z[1]",
+      "relative_residual": "1.1181689481403765419252282446696528597451235288846379470188474433871195827640831e-81"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[0],z[1]",
+      "relative_residual": "1.4908919308538353892336376595595371463268313718461839293584632578494927770187775e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[0],z[1]",
+      "relative_residual": "3.7812919547775044605049439643549132972931069431005237439584526775186911725165718e-81"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[0],z[1]",
+      "relative_residual": "8.7420274662141857366540583118083187431947407091860761300983729409811056556813775e-82"
+    },
+    {
+      "group": "puncture residue limit",
+      "tag": "tau[0]",
+      "relative_residual": "1.7533406274318007736889173828074148686930890913218472989362050291966579258538466e-81"
+    },
+    {
+      "group": "quadratic residue reconstruction",
+      "tag": "tau[0]",
+      "relative_residual": "5.2254836431768560356215530636572925783719262593955590218127718502206783674486693e-81"
+    },
+    {
+      "group": "Gaussian quadratic T multiplier",
+      "tag": "tau[0]",
+      "relative_residual": "5.4189828328153691958429947859880225223344773143820465674740490869228747034437212e-81"
+    },
+    {
+      "group": "Gaussian quadratic S multiplier",
+      "tag": "tau[0]",
+      "relative_residual": "5.6238482897646036340026785371440882405797009935903150159172960797574361132427546e-81"
+    },
+    {
+      "group": "analytic mismatch magnitude",
+      "tag": "tau[0]",
+      "relative_residual": "0.0"
+    },
+    {
+      "group": "relative geometric versus quantum residue factor",
+      "tag": "tau[0]",
+      "relative_residual": "9.7034795225837929017850559601740975221949116519501609978482576554895976618318562e-82"
+    },
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[1],z[0]",
+      "relative_residual": "2.4218370693030631130624049992942663882466240374305368024682063282394369455215153e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[1],z[0]",
+      "relative_residual": "6.4944130403662838223703067315285369938478493249202227567174483733380360180975042e-81"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[1],z[0]",
+      "relative_residual": "6.2772602949766244572371187128020100005440473629831757413507956302997710523848458e-81"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[1],z[0]",
+      "relative_residual": "3.0763761129032859971146146087054789891424750212228548219159983370572062449724197e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[1],z[0]",
+      "relative_residual": "2.6942876688197672339584488540433730083657539792879077811152156644330333583652934e-81"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[1],z[0]",
+      "relative_residual": "9.9432428585357185475498929316915152442448689314510292507525715725725299478899162e-82"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[1],z[0]",
+      "relative_residual": "4.9959106251307088730078932385386248163905419252208688288277053532173368292060701e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[1],z[0]",
+      "relative_residual": "6.750300316611408986844386498207497143647933934328095376391378714769539401603874e-81"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[1],z[0]",
+      "relative_residual": "1.5373272547181441433916389947774462879346185603832949928037470422369185754571693e-81"
+    },
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[1],z[1]",
+      "relative_residual": "4.8664144792966198606704339725914667653325797586920564098092379380572434490782341e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[1],z[1]",
+      "relative_residual": "1.0995359956668071711563304896281976206541497375026578497499111353212213041026079e-80"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[1],z[1]",
+      "relative_residual": "8.8610191629783112470041966930526113824699100630566385423683398404500304130865135e-81"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[1],z[1]",
+      "relative_residual": "6.3922263198762487907408713920486965716051726603146879315874578964774574536419254e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[1],z[1]",
+      "relative_residual": "1.9460047803258324818915305972369873596492352559351979420543352687681441153446799e-81"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[1],z[1]",
+      "relative_residual": "5.4333244557635875944933304667535049130952074043968977908301858464396351837371347e-82"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[1],z[1]",
+      "relative_residual": "1.2498732676684705115713386126095120732538098960190285199206288524873437836218626e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[1],z[1]",
+      "relative_residual": "4.1822648414192809661590608726661560914591495723063712030618962303883684390897846e-81"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[1],z[1]",
+      "relative_residual": "4.9076021596857245904872729038866604145723754153577038844243575970637497668466158e-81"
+    },
+    {
+      "group": "puncture residue limit",
+      "tag": "tau[1]",
+      "relative_residual": "3.6848892536813325173171244132054010856028808345900804742473958523393957282184413e-81"
+    },
+    {
+      "group": "quadratic residue reconstruction",
+      "tag": "tau[1]",
+      "relative_residual": "1.4982179989855631062526867888313241577358657267729893448664407227031593127652184e-81"
+    },
+    {
+      "group": "Gaussian quadratic T multiplier",
+      "tag": "tau[1]",
+      "relative_residual": "2.4028547031808341601842696942307096268030903070071465991310332255554499253267546e-81"
+    },
+    {
+      "group": "Gaussian quadratic S multiplier",
+      "tag": "tau[1]",
+      "relative_residual": "9.1624570578326774612852512752237058841942586993151356697093687426087008276923322e-81"
+    },
+    {
+      "group": "analytic mismatch magnitude",
+      "tag": "tau[1]",
+      "relative_residual": "2.1084395886461046448697148102540038015419922764737015100155526050216288581939519e-81"
+    },
+    {
+      "group": "relative geometric versus quantum residue factor",
+      "tag": "tau[1]",
+      "relative_residual": "6.248032520892408788622787364290541688921998940471262163671550858028709785726007e-83"
+    },
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[2],z[0]",
+      "relative_residual": "7.7801010617012898512932262027806741507645971870488887585228442125292615292556307e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[2],z[0]",
+      "relative_residual": "3.2502605001699369518181273929557865527685361291395641988428206941544800974172779e-81"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[2],z[0]",
+      "relative_residual": "2.9823262395485906822594089127856218080063714939338944331009595014201585211955255e-81"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[2],z[0]",
+      "relative_residual": "3.2062843318034792406682803719843372863047625659541122367454202410885667230226024e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[2],z[0]",
+      "relative_residual": "6.2175464730550937076343453305132983114022523589458194671942809620484073639271137e-81"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[2],z[0]",
+      "relative_residual": "1.4795026027562970507053775096485728915075864385466752574051456630218064495302763e-81"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[2],z[0]",
+      "relative_residual": "1.6364206652815016736953446442590270803451005361684745590968673210043829407162408e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[2],z[0]",
+      "relative_residual": "2.981783861707670778467275319119074292653662743692367858716926515698985554037555e-81"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[2],z[0]",
+      "relative_residual": "2.3520105059485298408830438192322142825318479816515537793962158049517879851078181e-81"
+    },
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[2],z[1]",
+      "relative_residual": "6.3543386277413602774277499404435319159522838291336835615438286910603789740563767e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[2],z[1]",
+      "relative_residual": "5.3944489815067399276766902689874595117779917966009840030762682640045013224917614e-81"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[2],z[1]",
+      "relative_residual": "4.3175704724318221502206105951395820675718173359665405657578812490045698645499377e-81"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[2],z[1]",
+      "relative_residual": "4.714614246664383764090646278159821417780126328990829646317642819097489895739905e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[2],z[1]",
+      "relative_residual": "4.5107674508788255970356489204077432304634013636306676138611633064877201954765847e-81"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[2],z[1]",
+      "relative_residual": "2.6355494858076308060871435128175047519274903455921268875194407562770360727424399e-82"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[2],z[1]",
+      "relative_residual": "1.5140079129273024228226121796825287931823350583134906201880413578576797941670089e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[2],z[1]",
+      "relative_residual": "1.1149514318922593135490689431237969127567137006269917092372762200905389583227763e-80"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[2],z[1]",
+      "relative_residual": "9.0235066734155080978984397706630045268867593706397823963024384364361822889271528e-82"
+    },
+    {
+      "group": "puncture residue limit",
+      "tag": "tau[2]",
+      "relative_residual": "3.4890383144573616797508479874494972729694038689491255860385445886557835675907743e-81"
+    },
+    {
+      "group": "quadratic residue reconstruction",
+      "tag": "tau[2]",
+      "relative_residual": "2.1734875123467942111405011545605379195512310353625080251627924551928211804117834e-81"
+    },
+    {
+      "group": "Gaussian quadratic T multiplier",
+      "tag": "tau[2]",
+      "relative_residual": "2.314267818618282143674147249708711415808756747281835755975417209350900350205576e-81"
+    },
+    {
+      "group": "Gaussian quadratic S multiplier",
+      "tag": "tau[2]",
+      "relative_residual": "2.2227802258795774152527505663686842898768568973577115542438630824839199257476123e-81"
+    },
+    {
+      "group": "analytic mismatch magnitude",
+      "tag": "tau[2]",
+      "relative_residual": "2.1084395886461046448697148102540038015419922764737015100155526050216288581939519e-81"
+    },
+    {
+      "group": "relative geometric versus quantum residue factor",
+      "tag": "tau[2]",
+      "relative_residual": "1.3819267412936868712339307046940035195230579104628901237652608989975190777827196e-81"
+    },
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[3],z[0]",
+      "relative_residual": "4.5062711289321492230964873782351004325807175681366039283342951207075885978086455e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[3],z[0]",
+      "relative_residual": "2.9570375781120944976242565878899233692993938883016707207008775414634752217985501e-81"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[3],z[0]",
+      "relative_residual": "5.2362626467178205377084392338064558009824075804435640901790134950236759308520111e-81"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[3],z[0]",
+      "relative_residual": "5.3166202381207599157239459885421082131456862991681439214904874321958664918885046e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[3],z[0]",
+      "relative_residual": "3.1904321865341537338440888807554996203026675396587455587195945948110257399300788e-81"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[3],z[0]",
+      "relative_residual": "1.4318912914384914005879499506378078002583489250629141744839470292551504306903371e-81"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[3],z[0]",
+      "relative_residual": "6.7759767132902052032391134564646785153765206605667870085241596687180122031579305e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[3],z[0]",
+      "relative_residual": "1.054219794323052322434857405127001900770996138236850755007776302510814429096976e-81"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[3],z[0]",
+      "relative_residual": "4.435706247191734598561928572649550159355283619622052592681903806335797901807026e-82"
+    },
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[3],z[1]",
+      "relative_residual": "2.5461166820880634681975165665084870545836154211788872696664780695133334350647453e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[3],z[1]",
+      "relative_residual": "9.1964359439851607606200148539652897490922882057517964058397752676135196498934797e-81"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[3],z[1]",
+      "relative_residual": "8.4432198191254039585382555610213567475211826770272026302704976146714596925534525e-81"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[3],z[1]",
+      "relative_residual": "7.4012453111281883598914266257428745029061759761131604379733365150048679034557371e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[3],z[1]",
+      "relative_residual": "6.7339175326394683368510427430941681295867918876993947795909497875228819041851145e-81"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[3],z[1]",
+      "relative_residual": "1.6668678522475460034974964362053752067066630182759740847678746532867618407754519e-81"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[3],z[1]",
+      "relative_residual": "5.4731295626777820252977828211687445837843561116280238736374662044232068540438235e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[3],z[1]",
+      "relative_residual": "1.3505734446087636990954781710188291604494447750986767354639524807684321987933141e-81"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[3],z[1]",
+      "relative_residual": "2.1370224617255225439810774911968529960461005689817227938393394789210357306930874e-81"
+    },
+    {
+      "group": "puncture residue limit",
+      "tag": "tau[3]",
+      "relative_residual": "3.6929550968790813618021501222766620153263819509928243597317160243391176460774433e-81"
+    },
+    {
+      "group": "quadratic residue reconstruction",
+      "tag": "tau[3]",
+      "relative_residual": "5.2216190984378372365554150761860944155349924980345310254324261264360199664411298e-81"
+    },
+    {
+      "group": "Gaussian quadratic T multiplier",
+      "tag": "tau[3]",
+      "relative_residual": "5.4730338170272884958427524316835443353077650769992237966954354007379404348681146e-81"
+    },
+    {
+      "group": "Gaussian quadratic S multiplier",
+      "tag": "tau[3]",
+      "relative_residual": "6.4546571243588084400782271246193491506476742772243929684976869082051445895029215e-81"
+    },
+    {
+      "group": "analytic mismatch magnitude",
+      "tag": "tau[3]",
+      "relative_residual": "1.054219794323052322434857405127001900770996138236850755007776302510814429096976e-81"
+    },
+    {
+      "group": "relative geometric versus quantum residue factor",
+      "tag": "tau[3]",
+      "relative_residual": "9.9529292361264266981028514015506361677646555783769388505367307845714204658123415e-82"
+    },
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[4],z[0]",
+      "relative_residual": "4.1783143958120154925265878988418952018744077134194180573988369801418686994234799e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[4],z[0]",
+      "relative_residual": "8.0730138834377435434005996322460884742480054603852403235679618576629748345427366e-81"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[4],z[0]",
+      "relative_residual": "1.3839550441837920146740274931963865690436874305941942928306526557578263903685225e-80"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[4],z[0]",
+      "relative_residual": "7.1936501260799068807391068942846876094986270818341395710339154993321598797616672e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[4],z[0]",
+      "relative_residual": "7.5962078491761190969641756893228481143335406830591460192033312972871396377899148e-82"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[4],z[0]",
+      "relative_residual": "9.7913382686528071217554702074448887171286338371096896948835866770605506134014129e-82"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[4],z[0]",
+      "relative_residual": "2.7626766516793032711677698466263118091514565458278852224020733410448999165237169e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[4],z[0]",
+      "relative_residual": "2.3573071233321918820453231390799107088900631644954148231588214095487449478699525e-81"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[4],z[0]",
+      "relative_residual": "0.0"
+    },
+    {
+      "group": "bosonized cover formula equals faithful quantum amplitude",
+      "tag": "tau[4],z[1]",
+      "relative_residual": "7.2876228737751302294509067029030480284286937923808694194816879224328052782711884e-81"
+    },
+    {
+      "group": "independent fermion and prime oscillator products",
+      "tag": "tau[4],z[1]",
+      "relative_residual": "1.5498626847895368336308365759796335256499996906566538964214789832062546563815113e-80"
+    },
+    {
+      "group": "geometric Wronskian eta cubed",
+      "tag": "tau[4],z[1]",
+      "relative_residual": "1.1419958767491868645957407599407887093170890198252266434320007185892433687051164e-80"
+    },
+    {
+      "group": "quantum Wronskian eta fifth",
+      "tag": "tau[4],z[1]",
+      "relative_residual": "5.4333244557635875944933304667535049130952074043968977908301858464396351837371347e-81"
+    },
+    {
+      "group": "Lame equation with independently summed wp",
+      "tag": "tau[4],z[1]",
+      "relative_residual": "9.9052800664642603274400218511026114003473716089006701758639330035648713308362674e-81"
+    },
+    {
+      "group": "full amplitude modular T",
+      "tag": "tau[4],z[1]",
+      "relative_residual": "4.7513044050510822002586938778238632638597859695457825719430387662186517073091914e-82"
+    },
+    {
+      "group": "full amplitude modular S",
+      "tag": "tau[4],z[1]",
+      "relative_residual": "1.841500677942850039898543570821890967492282785136248959194161961855229789263899e-81"
+    },
+    {
+      "group": "cover prime product identity",
+      "tag": "tau[4],z[1]",
+      "relative_residual": "9.3918638895092833057169844290075660218069415938103573441144986955444806042788915e-81"
+    },
+    {
+      "group": "shifted characteristic identity",
+      "tag": "tau[4],z[1]",
+      "relative_residual": "1.5199353334057172446989993293064391968581574480331180581512252552144598268552643e-81"
+    },
+    {
+      "group": "puncture residue limit",
+      "tag": "tau[4]",
+      "relative_residual": "6.9205395840188638953600126107896002060195017986424122487586773372034430370097266e-81"
+    },
+    {
+      "group": "quadratic residue reconstruction",
+      "tag": "tau[4]",
+      "relative_residual": "3.4136096104629686140627226747330131446076823264390490319793472166389836392628476e-81"
+    },
+    {
+      "group": "Gaussian quadratic T multiplier",
+      "tag": "tau[4]",
+      "relative_residual": "2.8194236180340952473828620181625357563736700188377725302941006014273110860763362e-81"
+    },
+    {
+      "group": "Gaussian quadratic S multiplier",
+      "tag": "tau[4]",
+      "relative_residual": "3.2012447156914314388373743391099394218161375475687378435835371294861332322199814e-81"
+    },
+    {
+      "group": "analytic mismatch magnitude",
+      "tag": "tau[4]",
+      "relative_residual": "1.054219794323052322434857405127001900770996138236850755007776302510814429096976e-81"
+    },
+    {
+      "group": "relative geometric versus quantum residue factor",
+      "tag": "tau[4]",
+      "relative_residual": "9.9681677967470956740291325694186852219045836820014401902470972913061859325698847e-82"
+    },
+    {
+      "group": "twist fusion OPE degeneration",
+      "tag": "",
+      "relative_residual": "2.0874560608183808341181346698310661315583335476220006705249319422405662856545678e-40"
+    },
+    {
+      "group": "continued faithful quaternion monodromy",
+      "tag": "A",
+      "relative_residual": "5.2224517596088481609226745434273542582394890364125400910942205912655089148997939e-81"
+    },
+    {
+      "group": "continued faithful quaternion monodromy",
+      "tag": "B",
+      "relative_residual": "3.1358975665083380908249868945036763362273411466177908860009447241355691456592707e-80"
+    },
+    {
+      "group": "continued faithful quaternion monodromy",
+      "tag": "commutator",
+      "relative_residual": "2.7043986644827287222555212053182294763322357437851545221521775382925820506631045e-84"
+    }
+  ],
+  "negative_controls": [
+    {
+      "test": "target T multiplier is not the Gaussian multiplier",
+      "tau_index": 0,
+      "relative_error": "0.51763809020504152469779767524809665669813780263986102762800641463011394949760399"
+    },
+    {
+      "test": "target T multiplier is not the Gaussian multiplier",
+      "tau_index": 1,
+      "relative_error": "0.517638090205041524697797675248096656698137802639861027628006414630113949497604"
+    },
+    {
+      "test": "target T multiplier is not the Gaussian multiplier",
+      "tau_index": 2,
+      "relative_error": "0.517638090205041524697797675248096656698137802639861027628006414630113949497604"
+    },
+    {
+      "test": "target T multiplier is not the Gaussian multiplier",
+      "tau_index": 3,
+      "relative_error": "0.51763809020504152469779767524809665669813780263986102762800641463011394949760399"
+    },
+    {
+      "test": "target T multiplier is not the Gaussian multiplier",
+      "tau_index": 4,
+      "relative_error": "0.51763809020504152469779767524809665669813780263986102762800641463011394949760399"
+    }
+  ],
+  "monodromy": [
+    {
+      "loop": "A",
+      "root_branch_integer": 0,
+      "resolution_agrees": true
+    },
+    {
+      "loop": "B",
+      "root_branch_integer": 0,
+      "resolution_agrees": true
+    },
+    {
+      "loop": "commutator",
+      "root_branch_integer": 1,
+      "resolution_agrees": true
+    }
+  ],
+  "field_normalization_constant": "(2*pi)^(3/4)*exp(i*pi/8)",
+  "source_code_sha256": "ba4970f9b34c01b3de7ddf55dd260ac930b0156a8fb7731e90a106d2b9c8f381",
+  "warning": "High precision comparisons, not rigorous truncation/roundoff bounds. OPE limit has an explicitly weaker finite-distance tolerance."
+}

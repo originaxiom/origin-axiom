@@ -1,0 +1,14 @@
+{
+  "dps": 80,
+  "status": "all numerical comparisons passed",
+  "count": 61,
+  "strict_count": 59,
+  "finite_count": 2,
+  "max_strict_normalized_residual": "8.306290401665642e-80",
+  "max_finite_normalized_residual": "3.887555046709509e-39",
+  "YM_to_round_metric_ratios_at_two_points": [
+    "0.353578608188307096",
+    "0.213221733972509198"
+  ],
+  "boundary": "Finite theta/Gaussian truncations; not interval-certified bounds or a nonlinear PDE solver."
+}

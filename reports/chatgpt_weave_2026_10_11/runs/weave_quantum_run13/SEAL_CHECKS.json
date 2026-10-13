@@ -1,0 +1,22 @@
+[
+  {
+    "seal": "PRE_THIRD_HASHES.json",
+    "file": "verify_coupled.py",
+    "match": true
+  },
+  {
+    "seal": "PRE_RUN_HASHES.json",
+    "file": "PLAN.md",
+    "match": true
+  },
+  {
+    "seal": "PRE_RUN_HASHES.json",
+    "file": "verify_slab_reference.py",
+    "match": true
+  },
+  {
+    "seal": "CONSTRAINT_PRE_RUN_HASH.json",
+    "file": "verify_constraints.py",
+    "match": true
+  }
+]

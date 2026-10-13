@@ -1,0 +1,93 @@
+{
+  "retrieved_at_utc": "2026-10-11T06:35:16.038469+00:00",
+  "main": "6c148ddd495d133213140995976ff08849793d5d",
+  "fork": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+  "physical": "8016cd2e318d86b3885a3883a9bb990c301a83dd",
+  "live_branch_inventory_count": 10,
+  "full_clone": false,
+  "all_branch_content_audit": false,
+  "repository_producer_replay": false,
+  "prior_local_report": {
+    "path": "/mnt/data/weave_quantum_run12/TECHNICAL_REPORT.md",
+    "bytes": 21479,
+    "sha256": "32cc242101817d9788c3fdf639002ca2d948ebc01aced659c192f69bbf1d2b55"
+  },
+  "repository_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md",
+      "ref": "8016cd2e318d86b3885a3883a9bb990c301a83dd",
+      "blob_sha": "df16c0ba1f5570acc7209a09ea324412ca7e6b76",
+      "reading_grade": "full current-turn read; authored conditional result reused, no producer replay",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/8016cd2e318d86b3885a3883a9bb990c301a83dd/reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/FINDINGS.md",
+      "ref": "8016cd2e318d86b3885a3883a9bb990c301a83dd",
+      "blob_sha": "a4ba5653550a1ea68926383acf612a0f62e7db78",
+      "reading_grade": "full current-turn read; no independent verification of reported regression",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/8016cd2e318d86b3885a3883a9bb990c301a83dd/reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/FINDINGS.md"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "ref": "8016cd2e318d86b3885a3883a9bb990c301a83dd",
+      "blob_sha": "8c7059116f683828064daa06664ab271ce92e140",
+      "reading_grade": "lines 48-140 refetched at current pin; complete proof supplied in prior conversation",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/8016cd2e318d86b3885a3883a9bb990c301a83dd/reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "ref": "2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab",
+      "blob_sha": "b259e55a6dd836bb5850e05e7ea56ecdc4df01b9",
+      "reading_grade": "inherited from prior full read at 2f5cfef7; analytic hypotheses, not rerun",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab/reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "ref": "2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab",
+      "blob_sha": "4133e436096b89a652de980b37ddc461bc74486d",
+      "reading_grade": "inherited from prior full read at 2f5cfef7; canonical action, not rerun",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab/reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md",
+      "ref": "2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab",
+      "blob_sha": "62920c4610afa2db24a54dc4d1ba99344ff3b5f2",
+      "reading_grade": "inherited from prior full read at 2f5cfef7; normal-jet covariance, not rerun",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab/reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md",
+      "ref": "2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab",
+      "blob_sha": "8fb5fd90c8286d0a58946a675896beb238591fba",
+      "reading_grade": "inherited from prior full read at 2f5cfef7; integrated vector boundary response",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab/reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md",
+      "ref": "7afab07d4b2c446d5dc1336fe5594b736a704eda",
+      "blob_sha": "9e42fd4804bb5d1d6771884b3b48780bca456b07",
+      "reading_grade": "full late read after final computations; authored conditional proof and native claims not independently replayed",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/7afab07d4b2c446d5dc1336fe5594b736a704eda/reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md"
+    }
+  ],
+  "primary_literature": [
+    {
+      "url": "https://arxiv.org/html/1102.0285v1",
+      "use": "sections 3-4, covariant mixed kinetic term and N=1 variables; not our boundary proof"
+    },
+    {
+      "url": "https://arxiv.org/html/1812.06072v2",
+      "use": "section 2 and B.1, supplied local parent context; specialized reductions not transported"
+    },
+    {
+      "url": "https://arxiv.org/html/1307.3021v1",
+      "use": "compact elliptic spectral setting, Corollary 5.6 / Remark 5.7; application remains conditional"
+    }
+  ],
+  "post_calculation_refresh": {
+    "physical": "7afab07d4b2c446d5dc1336fe5594b736a704eda",
+    "read_after_final_code_replays": true,
+    "changed_original_computational_inputs": false,
+    "scope": "New massless dictionary, vector kinetic/domain and local anomaly proof read; native result reported but repaired reference awaiting acceptance at this commit; no producer replay."
+  }
+}

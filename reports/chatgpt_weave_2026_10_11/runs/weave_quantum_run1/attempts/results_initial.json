@@ -1,0 +1,803 @@
+{
+  "title": "Quantum realization of the complete weave — run 1",
+  "date": "2026-10-10",
+  "versions": {
+    "python": "3.13.5",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "scope": "Independent bounded verification; no project code, no experimental data, no repository modifications.",
+  "four_sector_control": {
+    "labels": [
+      "O",
+      "V",
+      "S",
+      "C"
+    ],
+    "S": [
+      [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2",
+        "-1/2",
+        "-1/2"
+      ],
+      [
+        "1/2",
+        "-1/2",
+        "-1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "-1/2",
+        "1/2",
+        "-1/2"
+      ]
+    ],
+    "T": [
+      [
+        "sqrt(3)/2 - I/2",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-sqrt(3)/2 + I/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "I*(sqrt(3)/2 - I/2)",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "I*(sqrt(3)/2 - I/2)"
+      ]
+    ],
+    "twists": [
+      "1",
+      "-1",
+      "I",
+      "I"
+    ],
+    "fusion": [
+      [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      [
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "FS_indicators": [
+      "1",
+      "1",
+      "-1",
+      "-1"
+    ],
+    "one_point_dimensions": [
+      "4",
+      "0",
+      "0",
+      "0"
+    ],
+    "pentagon_identities_checked": 256,
+    "hexagon_identities_checked": 128,
+    "wrong_associator_hexagon_failures": 28
+  },
+  "three_function_projection": {
+    "S": [
+      [
+        "1/2",
+        "1/2",
+        "sqrt(2)/2"
+      ],
+      [
+        "1/2",
+        "1/2",
+        "-sqrt(2)/2"
+      ],
+      [
+        "sqrt(2)/2",
+        "-sqrt(2)/2",
+        "0"
+      ]
+    ],
+    "T": [
+      [
+        "sqrt(3)/2 - I/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-sqrt(3)/2 + I/2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "I*(sqrt(3) - I)/2"
+      ]
+    ],
+    "fusion": [
+      [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "1",
+          "0"
+        ]
+      ]
+    ],
+    "FS_indicators": [
+      "1.00000000000000",
+      "1.00000000000000",
+      "-sqrt(2)"
+    ],
+    "status": "EXACT OBSTRUCTION to this interpretation as three simple sectors of a bosonic UMTC; not an obstruction to a subrepresentation or punctured/spin blocks.",
+    "merged_spinor_leading_coefficient": "2*sqrt(2)"
+  },
+  "quaternion_realization": {
+    "A": [
+      [
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ]
+    ],
+    "B": [
+      [
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0",
+        "0"
+      ]
+    ],
+    "commutator": [
+      [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1"
+      ]
+    ],
+    "commutant_real_dimension": 4,
+    "symmetric_invariant_forms_dimension": 1,
+    "spinor_weights": [
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4"
+    ],
+    "status": "Exact classical/OPE symmetry realization. Noncommuting twisted-background conformal blocks NOT computed."
+  },
+  "series": {
+    "q_order": 16,
+    "O_prefactor": "q^(-1/12)",
+    "O_coefficients": [
+      1,
+      6,
+      17,
+      38,
+      84,
+      172,
+      325,
+      594,
+      1049,
+      1796,
+      3005,
+      4912,
+      7877,
+      12430,
+      19309,
+      29580,
+      44766
+    ],
+    "V_prefactor": "q^(5/12)",
+    "V_coefficients": [
+      4,
+      8,
+      28,
+      56,
+      124,
+      232,
+      448,
+      784,
+      1388,
+      2320,
+      3864,
+      6216,
+      9940,
+      15488,
+      23972,
+      36408,
+      54876
+    ],
+    "S_prefactor": "q^(1/6)",
+    "S_coefficients": [
+      2,
+      8,
+      20,
+      48,
+      102,
+      200,
+      380,
+      688,
+      1202,
+      2048,
+      3404,
+      5536,
+      8844,
+      13896,
+      21504,
+      32848,
+      49564
+    ],
+    "eta_coefficients": [
+      1,
+      -1,
+      -1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      -1,
+      0
+    ],
+    "eta23_dressed_coefficients": {
+      "O": [
+        1,
+        -17,
+        109,
+        -238,
+        -675,
+        4726,
+        -5425,
+        -23579,
+        71245,
+        20978,
+        -321985,
+        213775,
+        811129,
+        -901935,
+        -1597890,
+        1735904,
+        3882500
+      ],
+      "V": [
+        4,
+        -84,
+        764,
+        -3808,
+        10336,
+        -8876,
+        -34880,
+        126548,
+        -137808,
+        -89680,
+        373520,
+        -385152,
+        457980,
+        -770192,
+        -97376,
+        2280380,
+        -3149944
+      ],
+      "S": [
+        2,
+        -38,
+        296,
+        -1102,
+        1068,
+        6916,
+        -26622,
+        17708,
+        94306,
+        -208126,
+        -33258,
+        509466,
+        -237900,
+        -533596,
+        -310938,
+        1365606,
+        1633068
+      ]
+    }
+  },
+  "eta23_existence_control": {
+    "theory": "Ising^23 tensor SO(4)_1",
+    "insertion": "psi tensor ... tensor psi (23 copies), tensor identity_SO4",
+    "central_charge_per_chiral_half": "27/2",
+    "insertion_chiral_weight": "23/2",
+    "internal_weights": [
+      "23/16",
+      "31/16",
+      "27/16",
+      "27/16"
+    ],
+    "q_exponents": [
+      "7/8",
+      "11/8",
+      "9/8",
+      "9/8"
+    ],
+    "labelled_one_point_block_count": 4,
+    "independent_unrefined_function_count": 3,
+    "status": "CONDITIONAL EXACT CFT BLOCK REALIZATION of Phi; it does NOT implement quaternion puncture in SO4 factor."
+  },
+  "metaplectic": {
+    "order": 96,
+    "center": [
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          4,
+          4
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ]
+    ],
+    "S4_monomial": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        4,
+        4,
+        4
+      ]
+    ],
+    "T_exponents_mod_1": [
+      "1/8",
+      "3/8",
+      "7/8"
+    ]
+  },
+  "numerics": {
+    "precision_decimal_digits": 80,
+    "number_base_points": 6,
+    "maximum_relative_residuals": {
+      "F_equals_2Z": "2.21666371435782e-81",
+      "jacobi": "2.11895556205406e-80",
+      "Psi_S": "2.41930056627724e-80",
+      "Psi_T": "6.89077606453134e-81",
+      "Phi_S": "4.6216440463528e-81",
+      "Phi_T": "1.52640186953874e-80"
+    },
+    "status": "Numerical checks only; no interval-arithmetic error bound."
+  },
+  "checks": [
+    {
+      "name": "S4 unitary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S4^2 = 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "(S4 T4)^3 = 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 64 four-sector fusion coefficients nonnegative integers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary torus one-point dimensions [4,0,0,0]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "four-sector indicators [1,1,-1,-1]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all pointed pentagon and hexagon identities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "deliberately incorrect trivial associator detected",
+      "passed": true,
+      "detail": 28
+    },
+    {
+      "name": "pointed braiding reproduces S4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three-dimensional subspace invariant under S and T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projected Verlinde fusion is Ising-type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rank-three candidate fails FS with nu_X=-sqrt(2)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rank-three still obeys genus-one matrix relations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ordinary Ising positive control nu_X=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quaternion orthogonality and determinant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "A^2=B^2=-1; AB=-BA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quaternion puncture commutator -1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "real commutant dimension four",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "symmetric invariant bilinear form dimension one",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all four Ramond spin components have h=1/4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all four spin components give fermion branch monodromy -1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "both spinor sectors have monodromy -1 against V",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "eta oscillator product equals Ising one-point MLDE recurrence through q^16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "dressed functions have negative coefficients, not ordinary state counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tensor control exact exponents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ising puncture dimensions [3,1,0]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "four labelled tensor-product one-point blocks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "adding one ordinary SO4 spinor insertion kills factorized tensor blocks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Phi multiplier group order 96",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "genuine metaplectic central action S^4=-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "four scalar central elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all numerical residuals below working tolerance (not a rigorous error bound)",
+      "passed": true,
+      "detail": {
+        "F_equals_2Z": "2.2166637e-81",
+        "jacobi": "2.1189556e-80",
+        "Psi_S": "2.4193006e-80",
+        "Psi_T": "6.8907761e-81",
+        "Phi_S": "4.621644e-81",
+        "Phi_T": "1.5264019e-80"
+      }
+    }
+  ],
+  "still_open": [
+    "Q8-twisted puncture blocks and their sewing",
+    "matching the original geometric cohomology construction, beyond multiplier coincidence",
+    "selection or elimination of spectator sectors",
+    "quantum anomaly analysis for the faithful defect",
+    "gravity, four-dimensional gauge chirality, Standard Model observables"
+  ]
+}

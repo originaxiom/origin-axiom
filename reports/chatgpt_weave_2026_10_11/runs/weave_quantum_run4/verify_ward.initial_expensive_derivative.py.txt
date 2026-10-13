@@ -1,0 +1,101 @@
+#!/usr/bin/env python3
+"""Direct-series Ward and automorphy tests, independent of Run 3 code.
+High precision is corroboration, not certified interval arithmetic.
+"""
+from __future__ import annotations
+import argparse,json
+from pathlib import Path
+import mpmath as mp
+
+parser=argparse.ArgumentParser();parser.add_argument('--dps',type=int,default=60);args=parser.parse_args()
+if not 40<=args.dps<=150:raise ValueError('use 40 <= dps <= 150')
+mp.mp.dps=args.dps
+OUT=Path(__file__).resolve().parent
+results=[]
+
+def theta(a,b,z,tau,deriv=0):
+    a=mp.mpf(a);b=mp.mpf(b)
+    N=int(mp.ceil(mp.sqrt((mp.mp.dps+25)*mp.log(10)/(mp.pi*tau.imag))+abs(z.imag)/tau.imag+5))
+    return mp.fsum((2*mp.pi*1j*(n+a))**deriv*mp.exp(mp.pi*1j*tau*(n+a)**2+2*mp.pi*1j*(n+a)*(z+b)) for n in range(-N,N+1))
+def th1(z,tau,d=0):return -theta(mp.mpf('0.5'),mp.mpf('0.5'),z,tau,d)
+def logeta(tau):
+    N=int(mp.ceil((mp.mp.dps+20)*mp.log(10)/(2*mp.pi*tau.imag)))
+    return mp.pi*1j*tau/12+mp.fsum(mp.log(1-mp.exp(2*mp.pi*1j*n*tau)) for n in range(1,N+1))
+def eta(tau):return mp.exp(logeta(tau))
+def prime(z,T):return th1(z,T)/th1(0,T,1)
+def Elogprime(z,T):return th1(z,T,1)/th1(z,T)
+def Elogsecond(z,T):return th1(z,T,2)/th1(z,T)-(th1(z,T,1)/th1(z,T))**2
+
+def logC(positions,charges,T):
+    Z=mp.fsum(a*z for a,z in zip(charges,positions))
+    return mp.log(theta(mp.mpf('0.25'),0,Z,T))-logeta(T)+mp.fsum(charges[i]*charges[j]*mp.log(prime(positions[i]-positions[j],T)) for i in range(len(charges)) for j in range(i+1,len(charges)))
+
+def record(name,lhs,rhs,finite_limit=False):
+    err=abs(lhs-rhs)/max(mp.mpf(1),abs(rhs))
+    tol=mp.power(10,-args.dps//4) if finite_limit else mp.power(10,-args.dps+12)
+    if err>=tol:raise AssertionError((name,mp.nstr(err),mp.nstr(tol)))
+    results.append({'name':name,'normalized_residual':mp.nstr(err,16),'finite_distance_limit':finite_limit})
+
+def ward_expected(w,pos,charges,T):
+    Z=mp.fsum(a*z for a,z in zip(charges,pos))
+    return theta(mp.mpf('0.25'),0,Z,T,1)/theta(mp.mpf('0.25'),0,Z,T)+mp.fsum(a*Elogprime(w-z,T) for a,z in zip(charges,pos))
+def conn_expected(w,v,pos,charges,T):
+    Z=mp.fsum(a*z for a,z in zip(charges,pos))
+    th=theta(mp.mpf('0.25'),0,Z,T)
+    zero=theta(mp.mpf('0.25'),0,Z,T,2)/th-(theta(mp.mpf('0.25'),0,Z,T,1)/th)**2
+    return -Elogsecond(w-v,T)+zero
+
+points=[mp.mpc('0.17','1.13'),mp.mpc('-0.23','0.91'),mp.mpc('0.08','1.47')]
+for ix,tau in enumerate(points):
+    T=2*tau;z=mp.mpc('0.31','0.12');w=mp.mpc('0.14','0.29');v=mp.mpc('-0.19','0.33');ref=mp.mpc('-0.32','0.07');ref2=mp.mpc('0.41','0.43')
+    pos=[z,mp.mpc(0),tau];charges=[mp.mpf(1),mp.mpf('-0.5'),mp.mpf('-0.5')]
+    # An infinitesimal neutral pair generates J; it is a source derivative, not an
+    # assertion that arbitrary real charges are new physical local operators.
+    generated=mp.diff(lambda w0:mp.diff(lambda ep:logC(pos+[w0,ref],charges+[ep,-ep],T),mp.mpf(0)),w)
+    record(f'ward_source_derivative_{ix}',generated,ward_expected(w,pos,charges,T))
+    # Only one point gets the heavier independent four-variable source derivative.
+    if ix==0:
+        mixed=mp.diff(lambda e,d,w0,v0:logC(pos+[w0,ref,v0,ref2],charges+[e,-e,d,-d],T),(mp.mpf(0),mp.mpf(0),w,v),(1,1,1,1))
+        record('connected_two_current_source_derivative',mixed,conn_expected(w,v,pos,charges,T))
+    for j,zj in enumerate(pos):
+        ep=mp.power(10,-args.dps//3)*(1+1j)
+        record(f'ward_charge_residue_{ix}_{j}',ep*ward_expected(zj+ep,pos,charges,T),charges[j],True)
+    ep=mp.power(10,-args.dps//3)*(1+1j)
+    record(f'connected_current_level_one_{ix}',ep**2*conn_expected(w,w-ep,pos,charges,T),1,True)
+    # A common extra holomorphic factor cancels in conditional source derivatives.
+    dressed=mp.diff(lambda w0:mp.diff(lambda ep:logC(pos+[w0,ref],charges+[ep,-ep],T)+7*logeta(tau),mp.mpf(0)),w)
+    record(f'common_measure_cancels_in_conditional_current_{ix}',dressed,generated)
+    # Full scalar automorphy of eta^2, not just the constant coefficient character.
+    h=eta(tau)**2
+    record(f'eta2_T_full_automorphy_{ix}',eta(tau+1)**2,mp.exp(mp.pi*1j/6)*h)
+    record(f'eta2_S_full_automorphy_{ix}',eta(-1/tau)**2,-1j*tau*h)
+    h22=eta(tau)**22
+    record(f'eta22_T_full_automorphy_{ix}',eta(tau+1)**22,mp.exp(11*mp.pi*1j/6)*h22)
+    record(f'eta22_S_full_automorphy_{ix}',eta(-1/tau)**22,(-1j*tau)**11*h22)
+    vtheta=mp.matrix([theta(mp.mpf('0.5'),0,0,tau)**2,theta(0,0,0,tau)**2,theta(0,mp.mpf('0.5'),0,tau)**2])
+    G=vtheta/eta(tau)**3;K=vtheta/eta(tau);Phi=vtheta*eta(tau)**21
+    record(f'quantum_geometric_map_{ix}',mp.norm(K-h*G),0)
+    record(f'target_quantum_map_{ix}',mp.norm(Phi-h22*K),0)
+    def projector(vec):return vec*vec.H/(vec.H*vec)[0]
+    record(f'projective_rays_agree_{ix}',mp.norm(projector(G)-projector(K))+mp.norm(projector(Phi)-projector(K)),0)
+    y=tau.imag
+    normG=y**mp.mpf('-0.5')*mp.norm(G)**2
+    normK=y**mp.mpf('0.5')*mp.norm(K)**2
+    normPhi=y**mp.mpf('11.5')*mp.norm(Phi)**2
+    record(f'petersson_relative_norm_quantum_geometric_{ix}',normK/normG,y*abs(eta(tau))**4)
+    record(f'petersson_relative_norm_target_quantum_{ix}',normPhi/normK,(y*abs(eta(tau))**4)**11)
+    def logR(x,y):return mp.log(y)+4*mp.re(logeta(mp.mpc(x,y)))
+    dd=(mp.diff(lambda x:logR(x,tau.imag),tau.real,2)+mp.diff(lambda yy:logR(tau.real,yy),tau.imag,2))/4
+    record(f'petersson_curvature_{ix}',dd,-1/(4*y*y))
+
+for name,tau,j,ch in [('S',1j,1j,-1j),('ST',mp.exp(2*mp.pi*1j/3),mp.exp(mp.pi*1j/3),mp.exp(-mp.pi*1j/3))]:
+    record(name+'_elliptic_fixedpoint_scalar_weight_cancellation',j*ch,1)
+# Primitive T phases cannot be absorbed in an invariant scalar counterterm.
+negative=abs(mp.exp(mp.pi*1j/6)-1)
+record('wrong_T_character_finite_negative_control',negative,2*mp.sin(mp.pi/12))
+
+strict=[mp.mpf(r['normalized_residual']) for r in results if not r['finite_distance_limit']]
+finite=[mp.mpf(r['normalized_residual']) for r in results if r['finite_distance_limit']]
+out={'dps':args.dps,'comparison_count':len(results),'strict_count':len(strict),'finite_limit_count':len(finite),'max_strict_normalized_residual':mp.nstr(max(strict),18),'max_finite_limit_residual':mp.nstr(max(finite),18),'wrong_character_residual':mp.nstr(negative,30),'results':results,'scope':'Direct analytic-source Ward checks and standard modular metric checks, not a Quillen metric or full nonabelian defect sewing.'}
+(OUT/f'numerical_results_{args.dps}dps.json').write_text(json.dumps(out,indent=2))
+print(json.dumps(out,indent=2))

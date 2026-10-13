@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-11T06:34:16.682522+00:00",
+  "runs": [
+    {
+      "script": "verify_coupled.py",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "verify_coupled.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.056694508000078,
+      "stdout_stderr_file": "verify_coupled_REPLAY.log",
+      "bytes": 6059,
+      "log_sha256": "79de7813ef92afa3531523bfbe3469266604c120ade1416b083429f4a987b254",
+      "script_sha256": "34cb80e66ae651852667749165106a7fbb2e3047374723c67cfb07f1967f5e54"
+    },
+    {
+      "script": "verify_slab_reference.py",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "verify_slab_reference.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.2715278709999893,
+      "stdout_stderr_file": "verify_slab_reference_REPLAY.log",
+      "bytes": 1886,
+      "log_sha256": "243b0282c0c1f66e5624de79ac4bce90e5927206d4d8f7353cdc853ca9aeec77",
+      "script_sha256": "1e840a35b5db3b77af149371c53a87ae811d7f44d5c14b5baf5735f380901be5"
+    },
+    {
+      "script": "verify_constraints.py",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "verify_constraints.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.3875057109999034,
+      "stdout_stderr_file": "verify_constraints_REPLAY.log",
+      "bytes": 957,
+      "log_sha256": "a010a8530d4abd6abf2efde1a1b983aa6557cbc121275910684f1ba0b536405f",
+      "script_sha256": "11d05f2fd45c0a0e189d7161ae258b028d598fb72b7d518293a4223edbe27bd3"
+    }
+  ]
+}

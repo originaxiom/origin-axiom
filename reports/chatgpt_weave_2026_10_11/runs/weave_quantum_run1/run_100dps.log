@@ -1,0 +1,7 @@
+34 grouped checks passed; 256 pentagons, 128 hexagons; wrong-associator control: 28 failures.
+Three-function projected FS indicators: [1, 1, -sqrt(2)]
+Four-sector ordinary one-point dimensions: [4, 0, 0, 0]
+Tensor eta23 control: c= 27/2 , h= 23/2 , exponents= [7/8, 11/8, 9/8, 9/8]
+Finite multiplier image order: 96
+Numeric max residuals: {'F_equals_2Z': '1.28938e-101', 'jacobi': '3.66927e-100', 'Psi_S': '1.01596e-100', 'Psi_T': '5.75832e-101', 'Phi_S': '1.91283e-101', 'Phi_T': '3.83453e-101'}
+Wrote /mnt/data/weave_quantum_run1/results_100dps.json

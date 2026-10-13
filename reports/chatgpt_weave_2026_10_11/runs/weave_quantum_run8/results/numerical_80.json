@@ -1,0 +1,430 @@
+{
+  "dps": 80,
+  "checks": [
+    {
+      "name": "0_vacuum_branch",
+      "normalized_residual": "1.54618903167381007e-80",
+      "passed": true
+    },
+    {
+      "name": "0_vector_spinor_branch",
+      "normalized_residual": "2.31928354751071511e-80",
+      "passed": true
+    },
+    {
+      "name": "0_even_ramond_branch",
+      "normalized_residual": "3.68976928013068313e-80",
+      "passed": true
+    },
+    {
+      "name": "0_spin_triality_function_control",
+      "normalized_residual": "7.37953856026136626e-81",
+      "passed": true
+    },
+    {
+      "name": "0_SO3_S",
+      "normalized_residual": "2.28637894019757011e-81",
+      "passed": true
+    },
+    {
+      "name": "0_SO3_T",
+      "normalized_residual": "1.47711754163085492e-81",
+      "passed": true
+    },
+    {
+      "name": "0_SO5_S",
+      "normalized_residual": "5.16534103016290108e-81",
+      "passed": true
+    },
+    {
+      "name": "0_SO5_T",
+      "normalized_residual": "4.0010559574605557e-82",
+      "passed": true
+    },
+    {
+      "name": "0_quintic_inserted_trace_coefficients",
+      "normalized_residual": "5.27109897161526161e-82",
+      "passed": true
+    },
+    {
+      "name": "0_quintic_T",
+      "normalized_residual": "1.06242396314884149e-81",
+      "passed": true
+    },
+    {
+      "name": "0_quintic_S",
+      "normalized_residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "0_relative_T_character",
+      "normalized_residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "0_relative_S_character",
+      "normalized_residual": "2.98178386170767078e-81",
+      "passed": true
+    },
+    {
+      "name": "0_NS_trace_square_theta",
+      "normalized_residual": "2.83269466862228724e-80",
+      "passed": true
+    },
+    {
+      "name": "0_graded_NS_trace_square_theta",
+      "normalized_residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "0_Ramond_trace_square_theta",
+      "normalized_residual": "2.48217100862013624e-80",
+      "passed": true
+    },
+    {
+      "name": "1_vacuum_branch",
+      "normalized_residual": "8.86510937079017249e-81",
+      "passed": true
+    },
+    {
+      "name": "1_vector_spinor_branch",
+      "normalized_residual": "6.58887371451907702e-81",
+      "passed": true
+    },
+    {
+      "name": "1_even_ramond_branch",
+      "normalized_residual": "4.64245888777646393e-80",
+      "passed": true
+    },
+    {
+      "name": "1_spin_triality_function_control",
+      "normalized_residual": "1.08666489115271752e-81",
+      "passed": true
+    },
+    {
+      "name": "1_SO3_S",
+      "normalized_residual": "1.15437195530626868e-80",
+      "passed": true
+    },
+    {
+      "name": "1_SO3_T",
+      "normalized_residual": "5.95529742113752825e-82",
+      "passed": true
+    },
+    {
+      "name": "1_SO5_S",
+      "normalized_residual": "2.02452125311639198e-80",
+      "passed": true
+    },
+    {
+      "name": "1_SO5_T",
+      "normalized_residual": "2.18151153351926965e-81",
+      "passed": true
+    },
+    {
+      "name": "1_quintic_inserted_trace_coefficients",
+      "normalized_residual": "5.31211981574420747e-82",
+      "passed": true
+    },
+    {
+      "name": "1_quintic_T",
+      "normalized_residual": "8.44430425414128415e-82",
+      "passed": true
+    },
+    {
+      "name": "1_quintic_S",
+      "normalized_residual": "7.39833996286126561e-81",
+      "passed": true
+    },
+    {
+      "name": "1_relative_T_character",
+      "normalized_residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "1_relative_S_character",
+      "normalized_residual": "2.98178386170767078e-81",
+      "passed": true
+    },
+    {
+      "name": "1_NS_trace_square_theta",
+      "normalized_residual": "1.16999064297068331e-80",
+      "passed": true
+    },
+    {
+      "name": "1_graded_NS_trace_square_theta",
+      "normalized_residual": "3.59502577903325612e-80",
+      "passed": true
+    },
+    {
+      "name": "1_Ramond_trace_square_theta",
+      "normalized_residual": "1.10063777804933046e-80",
+      "passed": true
+    },
+    {
+      "name": "2_vacuum_branch",
+      "normalized_residual": "4.04362492719069682e-80",
+      "passed": true
+    },
+    {
+      "name": "2_vector_spinor_branch",
+      "normalized_residual": "5.12984286986079497e-80",
+      "passed": true
+    },
+    {
+      "name": "2_even_ramond_branch",
+      "normalized_residual": "3.58458667840667022e-80",
+      "passed": true
+    },
+    {
+      "name": "2_spin_triality_function_control",
+      "normalized_residual": "1.25755619687908684e-81",
+      "passed": true
+    },
+    {
+      "name": "2_SO3_S",
+      "normalized_residual": "7.83334843564466096e-81",
+      "passed": true
+    },
+    {
+      "name": "2_SO3_T",
+      "normalized_residual": "3.61075901215727508e-81",
+      "passed": true
+    },
+    {
+      "name": "2_SO5_S",
+      "normalized_residual": "1.23877440335895853e-80",
+      "passed": true
+    },
+    {
+      "name": "2_SO5_T",
+      "normalized_residual": "7.10275111200137182e-81",
+      "passed": true
+    },
+    {
+      "name": "2_quintic_inserted_trace_coefficients",
+      "normalized_residual": "1.3334942817980368e-80",
+      "passed": true
+    },
+    {
+      "name": "2_quintic_T",
+      "normalized_residual": "2.63554948580763081e-82",
+      "passed": true
+    },
+    {
+      "name": "2_quintic_S",
+      "normalized_residual": "1.68061491397993374e-80",
+      "passed": true
+    },
+    {
+      "name": "2_relative_T_character",
+      "normalized_residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "2_relative_S_character",
+      "normalized_residual": "2.98178386170767078e-81",
+      "passed": true
+    },
+    {
+      "name": "2_NS_trace_square_theta",
+      "normalized_residual": "6.3164835654943454e-80",
+      "passed": true
+    },
+    {
+      "name": "2_graded_NS_trace_square_theta",
+      "normalized_residual": "5.60617799035122783e-80",
+      "passed": true
+    },
+    {
+      "name": "2_Ramond_trace_square_theta",
+      "normalized_residual": "6.18934409682936768e-80",
+      "passed": true
+    },
+    {
+      "name": "3_vacuum_branch",
+      "normalized_residual": "3.51205943479028358e-80",
+      "passed": true
+    },
+    {
+      "name": "3_vector_spinor_branch",
+      "normalized_residual": "6.53461129796818383e-80",
+      "passed": true
+    },
+    {
+      "name": "3_even_ramond_branch",
+      "normalized_residual": "3.28561002553286099e-80",
+      "passed": true
+    },
+    {
+      "name": "3_spin_triality_function_control",
+      "normalized_residual": "3.03754754313776343e-81",
+      "passed": true
+    },
+    {
+      "name": "3_SO3_S",
+      "normalized_residual": "7.38678677605396709e-81",
+      "passed": true
+    },
+    {
+      "name": "3_SO3_T",
+      "normalized_residual": "1.50626884185574094e-81",
+      "passed": true
+    },
+    {
+      "name": "3_SO5_S",
+      "normalized_residual": "1.15687947245767799e-80",
+      "passed": true
+    },
+    {
+      "name": "3_SO5_T",
+      "normalized_residual": "1.08868391461161274e-81",
+      "passed": true
+    },
+    {
+      "name": "3_quintic_inserted_trace_coefficients",
+      "normalized_residual": "1.41928683384326914e-80",
+      "passed": true
+    },
+    {
+      "name": "3_quintic_T",
+      "normalized_residual": "3.29443685725953851e-82",
+      "passed": true
+    },
+    {
+      "name": "3_quintic_S",
+      "normalized_residual": "1.03325641147880194e-80",
+      "passed": true
+    },
+    {
+      "name": "3_relative_T_character",
+      "normalized_residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "3_relative_S_character",
+      "normalized_residual": "2.98178386170767078e-81",
+      "passed": true
+    },
+    {
+      "name": "3_NS_trace_square_theta",
+      "normalized_residual": "3.58263745619442415e-80",
+      "passed": true
+    },
+    {
+      "name": "3_graded_NS_trace_square_theta",
+      "normalized_residual": "5.70193586426489298e-80",
+      "passed": true
+    },
+    {
+      "name": "3_Ramond_trace_square_theta",
+      "normalized_residual": "8.61733408967326884e-80",
+      "passed": true
+    },
+    {
+      "name": "4_vacuum_branch",
+      "normalized_residual": "2.40074894621785527e-81",
+      "passed": true
+    },
+    {
+      "name": "4_vector_spinor_branch",
+      "normalized_residual": "5.37548730286901592e-81",
+      "passed": true
+    },
+    {
+      "name": "4_even_ramond_branch",
+      "normalized_residual": "3.33373570449509201e-81",
+      "passed": true
+    },
+    {
+      "name": "4_spin_triality_function_control",
+      "normalized_residual": "5.37548730286901592e-81",
+      "passed": true
+    },
+    {
+      "name": "4_SO3_S",
+      "normalized_residual": "2.14397230940034963e-80",
+      "passed": true
+    },
+    {
+      "name": "4_SO3_T",
+      "normalized_residual": "1.66669378299624711e-81",
+      "passed": true
+    },
+    {
+      "name": "4_SO5_S",
+      "normalized_residual": "3.12602843094950178e-80",
+      "passed": true
+    },
+    {
+      "name": "4_SO5_T",
+      "normalized_residual": "4.94664938180451297e-81",
+      "passed": true
+    },
+    {
+      "name": "4_quintic_inserted_trace_coefficients",
+      "normalized_residual": "2.66503448696523187e-81",
+      "passed": true
+    },
+    {
+      "name": "4_quintic_T",
+      "normalized_residual": "1.32434722628379033e-81",
+      "passed": true
+    },
+    {
+      "name": "4_quintic_S",
+      "normalized_residual": "2.35730712333219188e-81",
+      "passed": true
+    },
+    {
+      "name": "4_relative_T_character",
+      "normalized_residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "4_relative_S_character",
+      "normalized_residual": "2.98178386170767078e-81",
+      "passed": true
+    },
+    {
+      "name": "4_NS_trace_square_theta",
+      "normalized_residual": "9.81534182191283962e-81",
+      "passed": true
+    },
+    {
+      "name": "4_graded_NS_trace_square_theta",
+      "normalized_residual": "4.67712953294886552e-81",
+      "passed": true
+    },
+    {
+      "name": "4_Ramond_trace_square_theta",
+      "normalized_residual": "7.49627371668215002e-81",
+      "passed": true
+    },
+    {
+      "name": "gauss_milgram_nu_3",
+      "normalized_residual": "2.35730712333219188e-81",
+      "passed": true
+    },
+    {
+      "name": "gauss_milgram_nu_5",
+      "normalized_residual": "2.35730712333219188e-81",
+      "passed": true
+    },
+    {
+      "name": "dressed_spinor_twist",
+      "normalized_residual": "5.27109897161526161e-82",
+      "passed": true
+    },
+    {
+      "name": "wrong_source_T_multiplier_negative_control",
+      "normalized_residual": "0.0",
+      "passed": true
+    }
+  ],
+  "count": 84,
+  "maximum_normalized_residual": "8.61733408967326884e-80",
+  "wrong_source_T_residual": "0.517638090205041525",
+  "all_passed": true,
+  "limitations": "Finite direct-series/product cutoffs. No interval tail bounds. No full microscopic interface/RG or original puncture connection calculation."
+}

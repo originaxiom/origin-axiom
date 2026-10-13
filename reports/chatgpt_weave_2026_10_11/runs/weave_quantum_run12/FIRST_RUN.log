@@ -1,0 +1,31 @@
+PASS Dstar_equals_minus_G_minus_iM
+PASS G_and_M_actual_Hermitian
+PASS moment_map_linearization
+PASS curvature_linearization_full_brackets
+PASS Hermitian_norm_decomposition
+PASS wrong_G_commutator_detected
+PASS wrong_M_commutator_detected
+PASS controls_retain_noncommuting_background
+PASS zero_form_Laplacian_with_moment_term
+PASS nonharmonic_reality_countercontrol
+PASS gauge_control_background_flat_harmonic
+PASS admitted_bulk_gauge_direction_Hessian_null
+PASS harmonic_zero_form_operator_preserves_reality
+PASS compact_gauge_G_variation_minus_Delta0
+PASS all_covector_scalar_boundary_determinant
+PASS missing_divergence_condition_has_decaying_kernel
+PASS second_order_Green_form_zero
+PASS second_order_boundary_half_dimension
+PASS free_normal_derivative_Green_failure
+PASS integrated_projection_not_pointwise_condition
+PASS normal_codifferential_integrates_to_zero
+PASS operator_domain_not_extra_response_trace
+PASS smooth_eigenfunction_has_secondary_response
+PASS boundary_layer_cancels_response
+PASS boundary_layer_graph_error_vanishes
+PASS gauge_minimization_keeps_surface
+{
+  "status": "PASS",
+  "exact_checks_passed": 26,
+  "exact_checks_total": 26
+}

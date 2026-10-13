@@ -1,0 +1,27 @@
+PASS exact_sine_coefficient
+PASS smooth_spectral_core_N1
+PASS smooth_spectral_core_N3
+PASS smooth_spectral_core_N7
+PASS Parseval_L2_equals_polynomial
+PASS Parseval_graph_derivative_equals_polynomial
+PASS limit_fails_secondary_trace
+{
+  "status": "PASS",
+  "checks": {
+    "exact_sine_coefficient": true,
+    "smooth_spectral_core_N1": true,
+    "smooth_spectral_core_N3": true,
+    "smooth_spectral_core_N7": true,
+    "Parseval_L2_equals_polynomial": true,
+    "Parseval_graph_derivative_equals_polynomial": true,
+    "limit_fails_secondary_trace": true
+  },
+  "exact_checks_passed": 7,
+  "exact_checks_total": 7,
+  "coefficient": "4*(1 - (-1)**n)/(pi**3*n**3)",
+  "limit_L2_norm_squared": "1/30",
+  "limit_second_derivative_norm_squared": "4",
+  "graph_convergence_argument": "The nonnegative Parseval tails tend to zero.",
+  "same_author_separate_construction": true,
+  "silver_spectrum_computed": false
+}

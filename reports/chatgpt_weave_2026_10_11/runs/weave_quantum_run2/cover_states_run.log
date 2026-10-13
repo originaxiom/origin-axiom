@@ -1,0 +1,36 @@
+PASS: Q8 axioms
+PASS: peripheral minus_one
+PASS: graph_H1_dimension_9
+PASS: fundamental_cycle_coordinates
+PASS: cap_loop_0_closed
+PASS: cap_loop_1_closed
+PASS: cap_loop_2_closed
+PASS: cap_loop_3_closed
+PASS: four_caps_one_relation
+PASS: ribbon_graph_four_boundary_components
+PASS: intersection_rank_6_and_caps_radical
+PASS: compact_H1_dimension_6
+PASS: L_preserves_intersection
+PASS: R_preserves_intersection
+PASS: deck_1_preserves_intersection
+PASS: deck_i_preserves_intersection
+PASS: deck_j_preserves_intersection
+PASS: deck_k_preserves_intersection
+PASS: deck_-1_preserves_intersection
+PASS: deck_-i_preserves_intersection
+PASS: deck_-j_preserves_intersection
+PASS: deck_-k_preserves_intersection
+PASS: compact_decomposition_2trivial_plus_2rho
+PASS: 64_spins_36even_28odd
+PASS: all_spin_actions_preserve_Arf
+PASS: no_Q8_invariant_spin_structure
+PASS: chosen_LR_lifts_fix_exactly_one_odd_spin
+PASS: chosen_LR_lifts_fix_one_peripheral_point
+PASS: exact_braid_relation_on_cover
+PASS: holomorphic_forms_trivial_plus_rho
+CHARACTER: {'1': 6, 'i': 2, 'j': 2, 'k': 2, '-1': -2, '-i': 2, '-j': 2, '-k': 2} MULTIPLICITIES: {'trivial': 2, 'chi_i': 0, 'chi_j': 0, 'chi_k': 0, 'rho_2': 2}
+FIXED: {'L': 8, 'R': 8, '1': 64, 'i': 4, 'j': 4, 'k': 4, '-1': 16, '-i': 4, '-j': 4, '-k': 4} LR common: [98]
+Q8 ORBITS: [(0, 2), (0, 2), (0, 2), (0, 2), (0, 2), (0, 2), (0, 8), (0, 8), (0, 8), (1, 4), (1, 8), (1, 8), (1, 8)]
+LR ORBITS: [(0, 12), (0, 24), (1, 1), (1, 3), (1, 24)]
+FULL ORBITS: [(0, 12), (0, 24), (1, 4), (1, 24)]
+30 named checks passed

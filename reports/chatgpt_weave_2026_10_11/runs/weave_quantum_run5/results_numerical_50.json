@@ -1,0 +1,732 @@
+{
+  "dps": 50,
+  "checks": [
+    {
+      "name": "free_theta_0_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.6909002601e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_0_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "5.99494665679e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_0_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "5.32613015819e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_0_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "1.09263575194e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_1_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "1.17218608842e-50",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_1_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.9091520642e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_1_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "8.95858012472e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_1_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "1.73560137243e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_2_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.67276471009e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_2_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.67276471009e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_2_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.67276471009e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "free_theta_2_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_0_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.75491772725e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_0_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_0_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_0_00",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_0_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_0_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "4.45438409566e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_0_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.75491772725e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_0_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_0_01",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_0_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_0_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_0_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_0_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_0_10",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_0_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_0_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "1.33638235505e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_0_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_0_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_0_11",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_0_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "nonzero_odd_spin_0",
+      "kind": "positive_value",
+      "passed": true,
+      "value": "0.63727493289335044464"
+    },
+    {
+      "name": "S_covariance_1_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.55238148979e-50",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_1_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "8.93846681413e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_1_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_1_00",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_1_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_1_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.46969617722e-50",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_1_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "7.50700438175e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_1_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_1_01",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_1_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_1_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.01115503318e-50",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_1_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "5.69929887051e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_1_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_1_10",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_1_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_1_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "1.9599020639e-50",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_1_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "5.8797061917e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_1_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_1_11",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_1_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "nonzero_odd_spin_1",
+      "kind": "positive_value",
+      "passed": true,
+      "value": "1.363723606053819831"
+    },
+    {
+      "name": "S_covariance_2_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_2_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "4.50818230938e-1461",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_2_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_2_00",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_2_00",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_2_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "8.83019083815e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_2_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "3.6626072337e-1461",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_2_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_2_01",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_2_01",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_2_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "8.83019083815e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_2_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.62756120553e-1460",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_2_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_2_10",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_2_10",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "S_covariance_2_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "T_covariance_2_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "3.4162636912e-1460",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "boost_reversal_2_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "cutoff_refinement_2_11",
+      "kind": "truncation_refinement",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "trace_reality_2_11",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "nonzero_odd_spin_2",
+      "kind": "positive_value",
+      "passed": true,
+      "value": "2.3280488807787144243"
+    },
+    {
+      "name": "independent_original_4D_0_00",
+      "kind": "double_precision_control",
+      "passed": true,
+      "residual": "8.70199675677e-16",
+      "tolerance": "3.0e-13"
+    },
+    {
+      "name": "independent_original_4D_0_01",
+      "kind": "double_precision_control",
+      "passed": true,
+      "residual": "2.84230766309e-16",
+      "tolerance": "3.0e-13"
+    },
+    {
+      "name": "independent_original_4D_0_10",
+      "kind": "double_precision_control",
+      "passed": true,
+      "residual": "1.62442295041e-15",
+      "tolerance": "3.0e-13"
+    },
+    {
+      "name": "independent_original_4D_0_11",
+      "kind": "double_precision_control",
+      "passed": true,
+      "residual": "7.58378115054e-16",
+      "tolerance": "3.0e-13"
+    },
+    {
+      "name": "independent_original_4D_1_00",
+      "kind": "double_precision_control",
+      "passed": true,
+      "residual": "1.17093699033e-15",
+      "tolerance": "3.0e-13"
+    },
+    {
+      "name": "independent_original_4D_1_01",
+      "kind": "double_precision_control",
+      "passed": true,
+      "residual": "5.05079272127e-16",
+      "tolerance": "3.0e-13"
+    },
+    {
+      "name": "independent_original_4D_1_10",
+      "kind": "double_precision_control",
+      "passed": true,
+      "residual": "1.17666361339e-15",
+      "tolerance": "3.0e-13"
+    },
+    {
+      "name": "independent_original_4D_1_11",
+      "kind": "double_precision_control",
+      "passed": true,
+      "residual": "6.22885245106e-16",
+      "tolerance": "3.0e-13"
+    },
+    {
+      "name": "odd_zero_moment_0",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.21503236495e-53",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_first_moment_0",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_second_moment_identity_0",
+      "kind": "strict",
+      "passed": true,
+      "residual": "1.17088469129e-50",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_second_variation_coefficient_0",
+      "kind": "strict",
+      "passed": true,
+      "residual": "7.48561293327e-50",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_small_deformation_0",
+      "kind": "finite_deformation_limit",
+      "passed": true,
+      "residual": "1.07656575236e-14",
+      "tolerance": "1.0e-11",
+      "t": "1.0e-7"
+    },
+    {
+      "name": "odd_zero_moment_1",
+      "kind": "strict",
+      "passed": true,
+      "residual": "5.93997588205e-52",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_first_moment_1",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_second_moment_identity_1",
+      "kind": "strict",
+      "passed": true,
+      "residual": "2.75502280303e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_second_variation_coefficient_1",
+      "kind": "strict",
+      "passed": true,
+      "residual": "1.10318080911e-50",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_small_deformation_1",
+      "kind": "finite_deformation_limit",
+      "passed": true,
+      "residual": "1.14056914046e-14",
+      "tolerance": "1.0e-11",
+      "t": "1.0e-7"
+    },
+    {
+      "name": "odd_zero_moment_2",
+      "kind": "strict",
+      "passed": true,
+      "residual": "3.02566461202e-52",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_first_moment_2",
+      "kind": "strict",
+      "passed": true,
+      "residual": "0.0",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_second_moment_identity_2",
+      "kind": "strict",
+      "passed": true,
+      "residual": "6.68191177523e-52",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_second_variation_coefficient_2",
+      "kind": "strict",
+      "passed": true,
+      "residual": "4.46458997622e-51",
+      "tolerance": "1.0e-40"
+    },
+    {
+      "name": "odd_small_deformation_2",
+      "kind": "finite_deformation_limit",
+      "passed": true,
+      "residual": "1.16666666667e-14",
+      "tolerance": "1.0e-11",
+      "t": "1.0e-7"
+    },
+    {
+      "name": "odd_positive_moment_series",
+      "kind": "finite_series_control",
+      "passed": true,
+      "residual": "2.75891675446e-30",
+      "tolerance": "1.0e-18"
+    }
+  ],
+  "count": 99,
+  "max_cutoff": 20,
+  "weights": [
+    {
+      "t": "0",
+      "h_psi": "0.5",
+      "hbar_psi": "0.0",
+      "h_puncture_chiral_component": "0.25"
+    },
+    {
+      "t": "0.2",
+      "h_psi": "0.51013404647980685116",
+      "hbar_psi": "0.010134046479806851161",
+      "h_puncture_chiral_component": "0.26013404647980685116"
+    },
+    {
+      "t": "0.5",
+      "h_psi": "0.56788507935190547231",
+      "hbar_psi": "0.06788507935190547231",
+      "h_puncture_chiral_component": "0.31788507935190547231"
+    },
+    {
+      "t": "1.0",
+      "h_psi": "0.84527446138545393245",
+      "hbar_psi": "0.34527446138545393245",
+      "h_puncture_chiral_component": "0.59527446138545393245"
+    }
+  ],
+  "strict_max": "7.48561293327e-50",
+  "caveats": [
+    "Truncations are refined but not interval-certified.",
+    "These are bulk spin-sector traces, not Q8-twisted punctured partition functions.",
+    "Double-precision and finite-limit controls are separately labelled."
+  ]
+}

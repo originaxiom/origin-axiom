@@ -1,0 +1,19 @@
+PASS bosonized cover formula equals faithful quantum amplitude 7.7801011e-81
+PASS independent fermion and prime oscillator products 1.5498627e-80
+PASS geometric Wronskian eta cubed 1.383955e-80
+PASS quantum Wronskian eta fifth 7.4012453e-81
+PASS Lame equation with independently summed wp 9.9052801e-81
+PASS full amplitude modular T 1.6668679e-81
+PASS full amplitude modular S 6.7759767e-81
+PASS cover prime product identity 1.1149514e-80
+PASS shifted characteristic identity 4.9076022e-81
+PASS puncture residue limit 6.9205396e-81
+PASS quadratic residue reconstruction 5.2254836e-81
+PASS Gaussian quadratic T multiplier 5.4730338e-81
+PASS Gaussian quadratic S multiplier 9.1624571e-81
+PASS analytic mismatch magnitude 2.1084396e-81
+PASS relative geometric versus quantum residue factor 1.3819267e-81
+PASS twist fusion OPE degeneration 2.0874561e-40
+PASS continued faithful quaternion monodromy 3.1358976e-80
+Negative target-multiplier control: 0.517638090205041525
+COMPLETE 17 groups; 124 comparisons at 80 digits

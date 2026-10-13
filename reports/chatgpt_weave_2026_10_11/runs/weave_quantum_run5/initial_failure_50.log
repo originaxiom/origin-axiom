@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/data/weave_quantum_run5/verify_lattice.py", line 154, in <module>
+    check(f'odd_second_moment_identity_{j}',m2,-4*eta(tau)**6)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/weave_quantum_run5/verify_lattice.py", line 74, in check
+    if not out['passed']: raise AssertionError(out)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'name': 'odd_second_moment_identity_0', 'kind': 'strict', 'passed': False, 'residual': '0.338160593876', 'tolerance': '1.0e-40'}

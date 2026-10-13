@@ -1,0 +1,263 @@
+{
+  "scope": "finite exact certificates for a fixed Gaussian CFT; no four-dimensional physics",
+  "named_checks": 28,
+  "checks": [
+    {
+      "name": "faithful quaternion holonomies",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "central puncture monodromy",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unitary faithful background",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "index-two abelianization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cover Euler characteristic",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "charge neutrality and insertion weight",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local L2 half-pole is integrable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "target image order",
+      "passed": true,
+      "details": 96
+    },
+    {
+      "name": "Gaussian quadratic image order",
+      "passed": true,
+      "details": 288
+    },
+    {
+      "name": "scalar centers",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "same genuine metaplectic central sign",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "modular group relation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "different Dehn-twist orders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "T spectrum mismatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "relative eta squared character",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full target factor chi_eta3 times rotations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full Gaussian factor chi_eta5 times rotations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all positive words to length eight",
+      "passed": true,
+      "details": {
+        "total": 510,
+        "phase_blind": 98,
+        "mismatched": 412
+      }
+    },
+    {
+      "name": "Fibonacci LR blind but odd trace LLLR detects mismatch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "q-series modular Wronskian D identity",
+      "passed": true,
+      "details": "u Dv - v Du = eta^6/2 through q^16, D=q d/dq"
+    },
+    {
+      "name": "independent q-series theta duplication",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Hurwitz-zeta Casimir energy",
+      "passed": true,
+      "details": "-1/48"
+    },
+    {
+      "name": "oscillator factor repairs classical ground exponent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "parabolic degree and zero-mode insertion number",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "operator dimensions in OPE",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "weights and exact eta quotient relationships",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "abelian OPE exponent associativity",
+      "passed": true,
+      "details": {
+        "exact_triples": 343,
+        "not_all_genus_sewing": true
+      }
+    },
+    {
+      "name": "bosonized normalization exponent accounting",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "word_examples": [
+    {
+      "word": "L",
+      "phase_exponent_turns": "1/12"
+    },
+    {
+      "word": "R",
+      "phase_exponent_turns": "11/12"
+    },
+    {
+      "word": "LR",
+      "phase_exponent_turns": "0"
+    },
+    {
+      "word": "LLRR",
+      "phase_exponent_turns": "0"
+    },
+    {
+      "word": "LLLR",
+      "phase_exponent_turns": "1/6"
+    }
+  ],
+  "target_T_exponents": [
+    "1/8",
+    "3/8",
+    "7/8"
+  ],
+  "Gaussian_quadratic_T_exponents": [
+    "5/24",
+    "11/24",
+    "23/24"
+  ],
+  "target_order": 96,
+  "Gaussian_order": 288,
+  "relative_character": {
+    "T": "exp(pi*i/6)",
+    "S": "-i",
+    "order": 12
+  },
+  "group_matrices": {
+    "target_S": [
+      [
+        "0",
+        "0",
+        "sqrt(2)*(1 + I)/2"
+      ],
+      [
+        "0",
+        "sqrt(2)*(1 + I)/2",
+        "0"
+      ],
+      [
+        "sqrt(2)*(1 + I)/2",
+        "0",
+        "0"
+      ]
+    ],
+    "target_T": [
+      [
+        "sqrt(2)*(1 + I)/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "sqrt(2)*(1 - I)/2"
+      ],
+      [
+        "0",
+        "sqrt(2)*(1 - I)/2",
+        "0"
+      ]
+    ],
+    "Gaussian_S": [
+      [
+        "0",
+        "0",
+        "sqrt(2)*(1 - I)/2"
+      ],
+      [
+        "0",
+        "sqrt(2)*(1 - I)/2",
+        "0"
+      ],
+      [
+        "sqrt(2)*(1 - I)/2",
+        "0",
+        "0"
+      ]
+    ],
+    "Gaussian_T": [
+      [
+        "(1 - I)*(-sqrt(2) + sqrt(6)*I)/4",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "(1 - I)*(sqrt(6) + sqrt(2)*I)/4"
+      ],
+      [
+        "0",
+        "(1 - I)*(sqrt(6) + sqrt(2)*I)/4",
+        "0"
+      ]
+    ]
+  },
+  "source_code_sha256": "b92b26b1db758c77d821688c76d62261daf48da09418381dfc82b0949c2bb038"
+}

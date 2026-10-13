@@ -1,0 +1,671 @@
+{
+  "checks": [
+    {
+      "name": "0/16 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "0/32 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "0/64 topological triangle charge",
+      "value": 0.49999999999999994,
+      "target": 0.5,
+      "error": 5.551115123125783e-17,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "0 holomorphic integrated charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "0 spectral integrated charge",
+      "value": 0.5000000000000001,
+      "target": 0.5,
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "0 integrated action",
+      "value": 6.283185307179586,
+      "target": 6.283185307179586,
+      "error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "0 translation metric xx",
+      "value": 6.283185307179587,
+      "target": 6.283185307179586,
+      "error": 8.881784197001252e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "0 translation metric yy",
+      "value": 6.283185307179587,
+      "target": 6.283185307179586,
+      "error": 8.881784197001252e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "0 translation metric xy",
+      "value": -3.592433528113068e-17,
+      "target": 0.0,
+      "error": 3.592433528113068e-17,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "0 translated action",
+      "value": 6.283185307179588,
+      "target": 6.283185307179586,
+      "error": 1.7763568394002505e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "0 translated charge",
+      "value": 0.49999999999999994,
+      "target": 0.5,
+      "error": 5.551115123125783e-17,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "0 reflected charge",
+      "value": -0.5000000000000001,
+      "target": -0.5,
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "1/16 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "1/32 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "1/64 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "1 holomorphic integrated charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "1 spectral integrated charge",
+      "value": 0.5000000000000001,
+      "target": 0.5,
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "1 integrated action",
+      "value": 6.283185307179587,
+      "target": 6.283185307179586,
+      "error": 8.881784197001252e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "1 translation metric xx",
+      "value": 6.283185307179588,
+      "target": 6.283185307179586,
+      "error": 1.7763568394002505e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "1 translation metric yy",
+      "value": 6.283185307179587,
+      "target": 6.283185307179586,
+      "error": 8.881784197001252e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "1 translation metric xy",
+      "value": 2.1978942726003576e-16,
+      "target": 0.0,
+      "error": 2.1978942726003576e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "1 translated action",
+      "value": 6.283185307179587,
+      "target": 6.283185307179587,
+      "error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "1 translated charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "1 reflected charge",
+      "value": -0.5000000000000001,
+      "target": -0.5,
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "2/16 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "2/32 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "2/64 topological triangle charge",
+      "value": 0.5000000000000001,
+      "target": 0.5,
+      "error": 1.1102230246251565e-16,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "2 holomorphic integrated charge",
+      "value": 0.49999999999999994,
+      "target": 0.5,
+      "error": 5.551115123125783e-17,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "2 spectral integrated charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "2 integrated action",
+      "value": 6.283185307179586,
+      "target": 6.283185307179586,
+      "error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "2 translation metric xx",
+      "value": 6.283185307179586,
+      "target": 6.283185307179586,
+      "error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "2 translation metric yy",
+      "value": 6.283185307179586,
+      "target": 6.283185307179586,
+      "error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "2 translation metric xy",
+      "value": 6.744349824519477e-17,
+      "target": 0.0,
+      "error": 6.744349824519477e-17,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "2 translated action",
+      "value": 6.283185307179585,
+      "target": 6.283185307179586,
+      "error": 8.881784197001252e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "2 translated charge",
+      "value": 0.5000000000000001,
+      "target": 0.5,
+      "error": 1.1102230246251565e-16,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "2 reflected charge",
+      "value": -0.5,
+      "target": -0.5,
+      "error": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "3/16 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "3/32 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "3/64 topological triangle charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "3 holomorphic integrated charge",
+      "value": 0.49999999999999994,
+      "target": 0.5,
+      "error": 5.551115123125783e-17,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "3 spectral integrated charge",
+      "value": 0.5000000000000001,
+      "target": 0.5,
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "3 integrated action",
+      "value": 6.283185307179587,
+      "target": 6.283185307179586,
+      "error": 8.881784197001252e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "3 translation metric xx",
+      "value": 6.283185307179586,
+      "target": 6.283185307179586,
+      "error": 0.0,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "3 translation metric yy",
+      "value": 6.283185307179588,
+      "target": 6.283185307179586,
+      "error": 1.7763568394002505e-15,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "3 translation metric xy",
+      "value": 5.388458771606274e-18,
+      "target": 0.0,
+      "error": 5.388458771606274e-18,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "3 translated action",
+      "value": 6.283185307179588,
+      "target": 6.283185307179587,
+      "error": 8.881784197001252e-16,
+      "tolerance": 2e-11,
+      "passed": true
+    },
+    {
+      "name": "3 translated charge",
+      "value": 0.5,
+      "target": 0.5,
+      "error": 0.0,
+      "tolerance": 5e-13,
+      "passed": true
+    },
+    {
+      "name": "3 reflected charge",
+      "value": -0.5000000000000001,
+      "target": -0.5,
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "finite variation 0 Hessian square agreement",
+      "value": 4.505272736330935e-07,
+      "target": 0.0,
+      "error": 4.505272736330935e-07,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "finite variation 1 Hessian square agreement",
+      "value": 8.366881311204344e-07,
+      "target": 0.0,
+      "error": 8.366881311204344e-07,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "finite variation 2 Hessian square agreement",
+      "value": 8.162858595205874e-07,
+      "target": 0.0,
+      "error": 8.162858595205874e-07,
+      "tolerance": 2e-05,
+      "passed": true
+    }
+  ],
+  "count": 51,
+  "integrals": [
+    {
+      "tau": [
+        0.0,
+        1.0
+      ],
+      "N": 16,
+      "Q_holomorphic": 0.5,
+      "Q_spectral": 0.5000000000000001,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179587,
+      "BPS_L2": 1.3312650299251584e-09,
+      "EOM_L2": 4.870756372550744e-09
+    },
+    {
+      "tau": [
+        0.0,
+        1.0
+      ],
+      "N": 32,
+      "Q_holomorphic": 0.5,
+      "Q_spectral": 0.5,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179586,
+      "BPS_L2": 1.636929914984041e-14,
+      "EOM_L2": 1.7520997486275612e-12
+    },
+    {
+      "tau": [
+        0.0,
+        1.0
+      ],
+      "N": 64,
+      "Q_holomorphic": 0.5,
+      "Q_spectral": 0.5000000000000001,
+      "Q_triangles": 0.49999999999999994,
+      "g_squared_action": 6.283185307179586,
+      "BPS_L2": 3.486831184191317e-14,
+      "EOM_L2": 7.342586156735537e-12
+    },
+    {
+      "tau": [
+        0.23,
+        1.1
+      ],
+      "N": 16,
+      "Q_holomorphic": 0.5,
+      "Q_spectral": 0.5,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179587,
+      "BPS_L2": 9.773859192969698e-09,
+      "EOM_L2": 5.396429591052524e-08
+    },
+    {
+      "tau": [
+        0.23,
+        1.1
+      ],
+      "N": 32,
+      "Q_holomorphic": 0.5000000000000001,
+      "Q_spectral": 0.5,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179586,
+      "BPS_L2": 1.908205068273522e-14,
+      "EOM_L2": 1.916102490188855e-12
+    },
+    {
+      "tau": [
+        0.23,
+        1.1
+      ],
+      "N": 64,
+      "Q_holomorphic": 0.5,
+      "Q_spectral": 0.5000000000000001,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179587,
+      "BPS_L2": 4.085561393579733e-14,
+      "EOM_L2": 8.149292700912448e-12
+    },
+    {
+      "tau": [
+        -0.31,
+        0.87
+      ],
+      "N": 16,
+      "Q_holomorphic": 0.49999999999999994,
+      "Q_spectral": 0.49999999999999994,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179586,
+      "BPS_L2": 6.147936627378561e-09,
+      "EOM_L2": 5.649358625274114e-08
+    },
+    {
+      "tau": [
+        -0.31,
+        0.87
+      ],
+      "N": 32,
+      "Q_holomorphic": 0.49999999999999994,
+      "Q_spectral": 0.5000000000000001,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179586,
+      "BPS_L2": 2.0462746264400954e-14,
+      "EOM_L2": 2.534271143169757e-12
+    },
+    {
+      "tau": [
+        -0.31,
+        0.87
+      ],
+      "N": 64,
+      "Q_holomorphic": 0.49999999999999994,
+      "Q_spectral": 0.5,
+      "Q_triangles": 0.5000000000000001,
+      "g_squared_action": 6.283185307179586,
+      "BPS_L2": 4.2871550635530595e-14,
+      "EOM_L2": 9.988629564323519e-12
+    },
+    {
+      "tau": [
+        0.5,
+        0.8660254037844386
+      ],
+      "N": 16,
+      "Q_holomorphic": 0.49999999999999994,
+      "Q_spectral": 0.5000000000000001,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179587,
+      "BPS_L2": 3.4245161467526693e-09,
+      "EOM_L2": 1.4444696371591738e-07
+    },
+    {
+      "tau": [
+        0.5,
+        0.8660254037844386
+      ],
+      "N": 32,
+      "Q_holomorphic": 0.49999999999999994,
+      "Q_spectral": 0.5,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179586,
+      "BPS_L2": 2.1911495735635605e-14,
+      "EOM_L2": 2.8777155118435496e-12
+    },
+    {
+      "tau": [
+        0.5,
+        0.8660254037844386
+      ],
+      "N": 64,
+      "Q_holomorphic": 0.49999999999999994,
+      "Q_spectral": 0.5000000000000001,
+      "Q_triangles": 0.5,
+      "g_squared_action": 6.283185307179587,
+      "BPS_L2": 4.199650871379647e-14,
+      "EOM_L2": 1.0781354438525663e-11
+    }
+  ],
+  "variations": [
+    [
+      {
+        "epsilon": 0.01,
+        "E_plus_minus": [
+          6.283326885133395,
+          6.283326336821234
+        ],
+        "second_variation": 2.826075954605045,
+        "analytic_square_prediction": 2.8262032461758255,
+        "relative_error": 4.503977941170252e-05
+      },
+      {
+        "epsilon": 0.003,
+        "E_plus_minus": [
+          6.283198032445551,
+          6.283198017639721
+        ],
+        "second_variation": 2.826191789435168,
+        "analytic_square_prediction": 2.8262032461758255,
+        "relative_error": 4.053756810662095e-06
+      },
+      {
+        "epsilon": 0.001,
+        "E_plus_minus": [
+          6.283186720554754,
+          6.283186720006387
+        ],
+        "second_variation": 2.8262019728941823,
+        "analytic_square_prediction": 2.8262032461758255,
+        "relative_error": 4.505272736330935e-07
+      }
+    ],
+    [
+      {
+        "epsilon": 0.01,
+        "E_plus_minus": [
+          6.285634987556589,
+          6.285635430906521
+        ],
+        "second_variation": 48.99804103944305,
+        "analytic_square_prediction": 49.00214056333125,
+        "relative_error": 8.366009813187962e-05
+      },
+      {
+        "epsilon": 0.003,
+        "E_plus_minus": [
+          6.283405809165778,
+          6.283405821137459
+        ],
+        "second_variation": 49.00177156328154,
+        "analytic_square_prediction": 49.00214056333125,
+        "relative_error": 7.5302842992939954e-06
+      },
+      {
+        "epsilon": 0.001,
+        "E_plus_minus": [
+          6.283209808007665,
+          6.2832098084510655
+        ],
+        "second_variation": 49.002099563821844,
+        "analytic_square_prediction": 49.00214056333125,
+        "relative_error": 8.366881311204344e-07
+      }
+    ],
+    [
+      {
+        "epsilon": 0.01,
+        "E_plus_minus": [
+          6.284930014725599,
+          6.284932823307016
+        ],
+        "second_variation": 34.9222367344737,
+        "analytic_square_prediction": 34.92508732360476,
+        "relative_error": 8.162010032057008e-05
+      },
+      {
+        "epsilon": 0.003,
+        "E_plus_minus": [
+          6.283342430994931,
+          6.283342506840921
+        ],
+        "second_variation": 34.924830742768776,
+        "analytic_square_prediction": 34.92508732360476,
+        "relative_error": 7.3466054244349144e-06
+      },
+      {
+        "epsilon": 0.001,
+        "E_plus_minus": [
+          6.283202768304412,
+          6.2832027711135705
+        ],
+        "second_variation": 34.92505881474983,
+        "analytic_square_prediction": 34.92508732360476,
+        "relative_error": 8.162858595205874e-07
+      }
+    ]
+  ],
+  "wrong_relative_normalization_boundary_error": 0.8437433990086284,
+  "scope": "Double precision mesh/spectral and spherical-triangle controls. These are neither interval certificates nor a full quantum fluctuation determinant."
+}

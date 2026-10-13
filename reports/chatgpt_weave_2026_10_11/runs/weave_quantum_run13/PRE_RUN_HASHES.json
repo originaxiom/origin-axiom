@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-11T06:24:54.026412+00:00",
+  "exploratory_reasoning_preceded_seal": true,
+  "not_external_timestamp": true,
+  "files": [
+    {
+      "path": "PLAN.md",
+      "bytes": 2680,
+      "sha256": "e4b9af8a8a650efc2ef705735abbb6ee7249936f870c20ca31b7e9feca32af6d"
+    },
+    {
+      "path": "verify_coupled.py",
+      "bytes": 8675,
+      "sha256": "a845417c92d25bd981fa892eed046b4564c0ae8b1397edec70263d0be5bd3bd0"
+    },
+    {
+      "path": "verify_slab_reference.py",
+      "bytes": 4759,
+      "sha256": "1e840a35b5db3b77af149371c53a87ae811d7f44d5c14b5baf5735f380901be5"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "exact_checks_passed": 26,
+  "exact_checks_total": 26,
+  "checks": {
+    "Dstar_equals_minus_G_minus_iM": true,
+    "G_and_M_actual_Hermitian": true,
+    "moment_map_linearization": true,
+    "curvature_linearization_full_brackets": true,
+    "Hermitian_norm_decomposition": true,
+    "wrong_G_commutator_detected": true,
+    "wrong_M_commutator_detected": true,
+    "controls_retain_noncommuting_background": true,
+    "zero_form_Laplacian_with_moment_term": true,
+    "nonharmonic_reality_countercontrol": true,
+    "gauge_control_background_flat_harmonic": true,
+    "admitted_bulk_gauge_direction_Hessian_null": true,
+    "harmonic_zero_form_operator_preserves_reality": true,
+    "compact_gauge_G_variation_minus_Delta0": true,
+    "all_covector_scalar_boundary_determinant": true,
+    "missing_divergence_condition_has_decaying_kernel": true,
+    "second_order_Green_form_zero": true,
+    "second_order_boundary_half_dimension": true,
+    "free_normal_derivative_Green_failure": true,
+    "integrated_projection_not_pointwise_condition": true,
+    "normal_codifferential_integrates_to_zero": true,
+    "operator_domain_not_extra_response_trace": true,
+    "smooth_eigenfunction_has_secondary_response": true,
+    "boundary_layer_cancels_response": true,
+    "boundary_layer_graph_error_vanishes": true,
+    "gauge_minimization_keeps_surface": true
+  },
+  "details": {
+    "boundary_determinant": "-s**2*(xi1**2 + xi2**2)",
+    "boundary_layer_integrals": {
+      "C0": "1/6435",
+      "C1": "2/693",
+      "C2": "8/35"
+    },
+    "squared_graph_error_two_layers": "2*epsilon**5/6435 + 16*epsilon/35"
+  },
+  "global_analytic_argument_certified_by_tests": false,
+  "silver_cohomology_recomputed": false,
+  "repository_producers_rerun": false,
+  "full_multiplet_domain_proved": false,
+  "boundary_selected": false,
+  "python_version": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "sympy_version": "1.14.0"
+}

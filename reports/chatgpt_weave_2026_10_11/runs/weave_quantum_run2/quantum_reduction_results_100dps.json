@@ -1,0 +1,262 @@
+{
+  "scope": "Exact geometry, all central extension cocycles, theta-state and representation comparison; not full puncture CFT",
+  "cocycle_variables": 49,
+  "cocycle_rank": 42,
+  "cocycle_dimension": 7,
+  "f_z_z_is_forced_zero": true,
+  "cocycle_certificate_triples": [
+    [
+      1,
+      1,
+      4
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      4,
+      2
+    ],
+    [
+      1,
+      5,
+      2
+    ],
+    [
+      1,
+      6,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      2
+    ]
+  ],
+  "differential_monomials": [
+    {
+      "j": 0,
+      "k": 2,
+      "generic_finite_order": 1,
+      "infinity_order": 1
+    },
+    {
+      "j": 0,
+      "k": 3,
+      "generic_finite_order": 0,
+      "infinity_order": 4
+    },
+    {
+      "j": 1,
+      "k": 3,
+      "generic_finite_order": 0,
+      "infinity_order": 0
+    }
+  ],
+  "Q8_differential_matrices": {
+    "A": [
+      [
+        "0",
+        "-I*sqrt(lambda)"
+      ],
+      [
+        "-I/sqrt(lambda)",
+        "0"
+      ]
+    ],
+    "B": [
+      [
+        "-1/sqrt(lambda - 1)",
+        "-lambda/sqrt(lambda - 1)"
+      ],
+      [
+        "1/sqrt(lambda - 1)",
+        "1/sqrt(lambda - 1)"
+      ]
+    ]
+  },
+  "hyperflex_divisors": {
+    "infinity": {
+      "finite_orders": [
+        0,
+        0,
+        0
+      ],
+      "infinity": 4
+    },
+    "0": {
+      "finite_orders": [
+        4,
+        0,
+        0
+      ],
+      "infinity": 0
+    },
+    "1": {
+      "finite_orders": [
+        0,
+        4,
+        0
+      ],
+      "infinity": 0
+    },
+    "lambda": {
+      "finite_orders": [
+        0,
+        0,
+        4
+      ],
+      "infinity": 0
+    }
+  },
+  "normalizer_rotations": {
+    "L": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ]
+    ],
+    "R": [
+      [
+        "0",
+        "0",
+        "-1"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ]
+    ],
+    "S": [
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1"
+      ]
+    ]
+  },
+  "target_basis_change": [
+    [
+      "-1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-I"
+    ],
+    [
+      "0",
+      "1",
+      "0"
+    ]
+  ],
+  "eta_character_T": "exp(pi*i/4)",
+  "eta_character_S": "exp(-3*pi*i/4)",
+  "rotation_image_order": 24,
+  "target_image_order": 96,
+  "target_scalar_exponents_mod8": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "parabolic_analytic_counts": [
+    {
+      "n": -1,
+      "degree": -3,
+      "h0": 0,
+      "h1": 3,
+      "index": -3
+    },
+    {
+      "n": 0,
+      "degree": -1,
+      "h0": 0,
+      "h1": 1,
+      "index": -1
+    },
+    {
+      "n": 1,
+      "degree": 1,
+      "h0": 1,
+      "h1": 0,
+      "index": 1
+    },
+    {
+      "n": 2,
+      "degree": 3,
+      "h0": 3,
+      "h1": 0,
+      "index": 3
+    }
+  ],
+  "precision_dps": 100,
+  "numeric_max_residual": "5.72540922488e-101",
+  "numerical_tests_count": 55,
+  "checks": {
+    "all_Q8_cocycles_force_lift_z_square_plus_one": true,
+    "spin_obstruction_certificate_XOR": true,
+    "C2_order_four_spin_lift_allowed": true,
+    "branch_polynomial_discriminant": true,
+    "exactly_three_holomorphic_differentials": true,
+    "curve_Q8_doublet_relations": true,
+    "curve_doublet_determinants_one": true,
+    "curve_deck_A_preserves_equation": true,
+    "curve_deck_B_preserves_equation": true,
+    "four_explicit_odd_spin_squares": true,
+    "rotations_are_SO3": true,
+    "full_T_factorization_eta_cubed": true,
+    "full_S_factorization_eta_cubed": true,
+    "target_central_S_fourth_minus_identity": true,
+    "untwisted_S_fourth_plus_identity": true,
+    "rotation_image_24_target_image_96": true,
+    "target_scalar_center_four": true,
+    "theta_translation_Q8_faithful": true,
+    "quadratic_parity_A": true,
+    "quadratic_parity_B": true,
+    "numeric_theta_duplication_and_S_T_translations": true,
+    "minimal_parabolic_indices_minus_plus_one": true
+  }
+}

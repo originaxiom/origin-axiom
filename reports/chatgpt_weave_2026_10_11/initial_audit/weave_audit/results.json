@@ -1,0 +1,177 @@
+{
+  "scope": "Independent selected-claim audit, not a rerun of the full project repository.",
+  "versions": {
+    "python": "3.13.5",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "numpy": "2.3.5"
+  },
+  "elementary_exact": {
+    "LP": "Matrix([[1, 1], [1, 0]])",
+    "LR": "Matrix([[2, 1], [1, 1]])",
+    "RL_inverse_R": "Matrix([[0, -1], [1, 0]])",
+    "square": "Matrix([[-1, 0], [0, -1]])",
+    "common_Frcke_fixed_points": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2",
+        "2",
+        "2"
+      ]
+    ]
+  },
+  "theta_representation_exact": {
+    "order": 96,
+    "character_norm": "1 exactly",
+    "character_inner_product_with_conjugate": "0 exactly",
+    "scalar_zeta8_exponents": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "T_eigenvalue_turns": [
+      "1/8",
+      "3/8",
+      "7/8"
+    ]
+  },
+  "coupling_dimensions_exact": [
+    {
+      "weight": 1,
+      "diag": 0,
+      "off": 1,
+      "anti": 0,
+      "symmetric": 1,
+      "full": 1
+    },
+    {
+      "weight": 3,
+      "diag": 0,
+      "off": 1,
+      "anti": 1,
+      "symmetric": 1,
+      "full": 2
+    },
+    {
+      "weight": 5,
+      "diag": 1,
+      "off": 2,
+      "anti": 1,
+      "symmetric": 3,
+      "full": 4
+    },
+    {
+      "weight": 7,
+      "diag": 1,
+      "off": 2,
+      "anti": 2,
+      "symmetric": 3,
+      "full": 5
+    },
+    {
+      "weight": 9,
+      "diag": 2,
+      "off": 3,
+      "anti": 2,
+      "symmetric": 5,
+      "full": 7
+    },
+    {
+      "weight": 11,
+      "diag": 2,
+      "off": 3,
+      "anti": 3,
+      "symmetric": 5,
+      "full": 8
+    }
+  ],
+  "weight_three_vector_forms_exact": {
+    "dimension_M3_A": 1,
+    "basis": "Matrix([[-u2*(u2**2 + 2*u4**2)/2], [-u3*(u2 - u4)*(u2 + u4)/2], [u4*(2*u2**2 + u4**2)/2]])",
+    "cusp_value": "Matrix([[0], [1/2], [1/2]])",
+    "consequence": "No cusp-vanishing weight-3 A-valued form; hence M_(3/2)(rho)=0 under the stated eta^3 correspondence."
+  },
+  "omega_counterexample_exact": {
+    "symmetric_basis": "Matrix([[0, -u4*(2*u2**2 + u4**2), u3*(u2 - u4)*(u2 + u4)], [-u4*(2*u2**2 + u4**2), 0, u2*(u2**2 + 2*u4**2)], [u3*(u2 - u4)*(u2 + u4), u2*(u2**2 + 2*u4**2), 0]])",
+    "antisymmetric_basis": "Matrix([[0, u4**3, u3*(u2**2 + u4**2)], [-u4**3, 0, u2**3], [-u3*(u2**2 + u4**2), -u2**3, 0]])",
+    "Y_divided_by_u4_cubed": "Matrix([[0, 2 + sqrt(3)*I, -sqrt(3) - 2*I], [-2 + sqrt(3)*I, 0, -2 - sqrt(3)*I], [-sqrt(3) + 2*I, 2 - sqrt(3)*I, 0]])",
+    "YdaggerY_characteristic_polynomial": "(lambda - 27)*(lambda - 12)*(lambda - 3)",
+    "singular_value_ratio": "3:2:1",
+    "scope": "Full T tensor T, weight 3; does not refute a symmetric-only degeneracy statement."
+  },
+  "theta_numerical_checks": {
+    "decimal_precision": 100,
+    "axis_points": 120,
+    "max_abs_F_minus_8": "4.57194956513e-100",
+    "max_normalized_singular_value_error": "6.07212051619e-101",
+    "degree_five_identity_max_scaled_residual": "2.02784273262e-100",
+    "axis_transformation_max_scaled_residual": "2.88099944139e-100",
+    "off_axis_controls": [
+      {
+        "tau": "(0.0 + 2.0j)",
+        "F": "16.4852813742385702928101",
+        "normalized_masses": [
+          "1.0",
+          "0.885030681727105338412225",
+          "0.114969318272894661587775"
+        ]
+      },
+      {
+        "tau": "(0.0 + 0.6j)",
+        "F": "11.952462045517841019375",
+        "normalized_masses": [
+          "1.0",
+          "0.814079661634713450893454",
+          "0.185920338365286549106546"
+        ]
+      },
+      {
+        "tau": "(-0.5 + 0.8660254037844386467637231707529361834714026269051903140279034897259665084544000185405730933786242878j)",
+        "F": "7.55952629936923898860326",
+        "normalized_masses": [
+          "1.0",
+          "0.5",
+          "0.5"
+        ]
+      }
+    ],
+    "warning": "High-precision numerical checks, not interval-certified proofs."
+  },
+  "quark_shape_local_rank": {
+    "point_ReTau_ImTau_ReZu_ImZu_ReZd_ImZd": [
+      0.23,
+      1.17,
+      0.4,
+      0.7,
+      -0.6,
+      0.3
+    ],
+    "jacobian_singular_values": [
+      2.263593117459,
+      1.0978166135192113,
+      0.7028169683020395,
+      0.364378202649099,
+      0.3235768428257961,
+      0.07501668707468835
+    ],
+    "numerical_local_rank": 6,
+    "warning": "Local numerical check, not a fit to quark data or a global prediction theorem."
+  },
+  "historical_JUNO_comparison": {
+    "source": "JUNO arXiv:2609.37895v1, September 2026",
+    "sin2theta12": 0.3036,
+    "reported_error": 0.0064,
+    "illustrative_sin2theta13": 0.022,
+    "TM1": 0.3183367416496251,
+    "TM2": 0.34083162917518744,
+    "TM1_simple_pull": 2.3026158827539263,
+    "TM2_simple_pull": 5.817442058623041,
+    "warning": "Illustrative one-dimensional Gaussian pulls, not global-fit significances."
+  },
+  "elapsed_seconds": 1.0167970657348633
+}

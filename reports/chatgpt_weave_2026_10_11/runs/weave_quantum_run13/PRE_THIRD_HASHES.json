@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-11T06:27:17.131516+00:00",
+  "reason": "Second run passed all preceding coupled/scalar checks, then raised a TypeError in the rest-frame control: SymPy multiplication by a Python bool. Cast the Kronecker delta to int; no identity, test expectation or model changed. Prior script and log retained.",
+  "files": [
+    {
+      "path": "verify_coupled.py",
+      "bytes": 8907,
+      "sha256": "34cb80e66ae651852667749165106a7fbb2e3047374723c67cfb07f1967f5e54"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+"""Independent finite Clifford/Fock check of the central-puncture paired block.
+
+Five species; one positive-frequency oscillator for each species; irreducible
+four-dimensional Ramond zero-mode space. Every matrix entry is exact. This
+checks zero-mode saturation and signs, not an infinite spectral determinant.
+"""
+from __future__ import annotations
+import json
+from pathlib import Path
+import sympy as s
+ROOT=Path(__file__).resolve().parent
+checks=[]
+def check(name,condition):
+    if not bool(condition):raise AssertionError(name)
+    checks.append({'name':name,'passed':True})
+def zeros(M):return all(s.simplify(x)==0 for x in M)
+X=s.Matrix([[0,1],[1,0]]);Y=s.Matrix([[0,-s.I],[s.I,0]]);Z=s.diag(1,-1);E=s.eye(2)
+gamma=[s.kronecker_product(X,E),s.kronecker_product(Y,E),s.kronecker_product(Z,X),s.kronecker_product(Z,Y),s.kronecker_product(Z,Z)]
+check('five gamma matrices obey Clifford relations',all(zeros(a*b+b*a-(2*s.eye(4) if i==j else s.zeros(4))) for i,a in enumerate(gamma) for j,b in enumerate(gamma)))
+check('Clifford volume is minus identity',gamma[0]*gamma[1]*gamma[2]*gamma[3]*gamma[4]==-s.eye(4))
+a=s.Matrix([[0,1],[0,0]])
+ann=[]
+for k in range(5):
+    ann.append(s.SparseMatrix(s.kronecker_product(*([Z]*k+[a]+[E]*(4-k)))))
+P=s.SparseMatrix(s.kronecker_product(*([Z]*5)))
+zz=[s.SparseMatrix(s.kronecker_product(g,P))/s.sqrt(2) for g in gamma]
+aa=[s.SparseMatrix(s.kronecker_product(s.eye(4),a)) for a in ann]
+check('zero modes anticommute with oscillators',all(zeros(z*b+b*z) for z in zz for b in aa))
+q=s.Rational(1,7)
+w=[q**(j.bit_count()) for _ in range(4) for j in range(32)]
+
+def trace(M):return s.simplify(sum(M[j,j]*w[j] for j in range(128)))
+def field(k,r):return zz[k]+r*aa[k]+aa[k].T/r
+
+def H(r):
+    z=field(0,r)
+    for k in range(1,5):z=z*field(k,r)
+    return z
+
+# exp(-2*pi*i*x) = rx, similarly for z,w. A finite oscillator cutoff is
+# perfectly algebraic; the half-density constant is removed from this check.
+rx,rz,rw=s.Rational(1),s.Rational(2),s.Rational(3)
+Hx=H(rx)
+base=trace(Hx)
+check('quintic finite trace is nonzero',base!=0)
+check('finite quintic trace includes five parity oscillator factors',s.simplify(base+(1-q)**5/s.sqrt(2))==0)
+
+def g_cut(r):
+    return s.Rational(1,2)+(r-q/r)/(1-q)
+r_expected=s.simplify(g_cut(rz/rw)-g_cut(rx/rw)+g_cut(rx/rz))
+ratios=[]
+for i in range(5):
+    row=[]
+    for j in range(5):
+        ans=s.simplify(trace(Hx*field(i,rz)*field(j,rw))/base)
+        row.append(str(ans))
+        expected=r_expected if i==j else 0
+        if s.simplify(ans-expected)!=0:
+            raise AssertionError(f'paired trace {i},{j}: {ans} != {expected}')
+    ratios.append(row)
+check('all 25 paired traces give delta times cyclic odd kernel',len(ratios)==5)
+# A finite Fourier cutoff retains a nonzero anticommutator/contact kernel.
+# Antisymmetry of the meromorphic full CFT kernel is tested independently
+# after analytic continuation in verify_numerical.py.
+check('finite exchange gives correct truncated contact kernel',
+      s.simplify(r_expected+g_cut(rw/rz)-g_cut(rx/rz)+g_cut(rx/rw)
+                 -(1+rz/rw+rw/rz))==0)
+check('unrefined cubic alone vanishes with remaining zero modes',trace(field(0,rx)*field(1,rx)*field(2,rx))==0)
+# Singlet insertion shares one oscillator trace, not its square.
+check('normalization contains exactly one common quintic trace',s.simplify(trace(Hx*field(0,rz)*field(0,rw))-base*r_expected)==0)
+out={'number_of_named_checks':len(checks),'checks':checks,'finite_parameters':{'q':str(q),'rx':str(rx),'rz':str(rz),'rw':str(rw)},'reference_trace':str(base),'cyclic_kernel_over_2pi_i':str(r_expected),'paired_trace_ratios':ratios,
+'scope':'one positive frequency per species, no claim of infinite determinant numerical calculation'}
+(ROOT/'results'/'clifford.json').write_text(json.dumps(out,indent=2)+'\n')
+print(json.dumps({'passed':len(checks),'reference_trace':str(base),'ratio':str(r_expected)},indent=2))

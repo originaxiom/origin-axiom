@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-11T06:26:37.549567+00:00",
+  "reason": "First execution exceeded 200-second tool timeout with no flushed output. Added progress output and exact rational-complex expansion before repeated products; no test target or model changed. Original script and empty log retained.",
+  "files": [
+    {
+      "path": "verify_coupled.py",
+      "bytes": 8904,
+      "sha256": "e5f5490d95185a944a74568747dd4764d6e0b5c67c3caa423c7133be3b316e2f"
+    }
+  ]
+}

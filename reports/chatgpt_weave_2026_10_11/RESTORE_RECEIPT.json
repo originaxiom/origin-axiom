@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED",
+  "archive_branch": "chatgpt/weave-physics-archive-2026-10-11",
+  "recovery_zip": "Weave_All_13_Runs_Artifact_Archive.zip",
+  "recovery_zip_bytes": 1266286,
+  "recovery_zip_sha256": "afdf14b8b0691db97345d5b947fb2bbea08de4872140667e1ccdcef860c1011e",
+  "numbered_runs": 13,
+  "original_archives": 14,
+  "original_member_files": 254,
+  "recovery_member_files": 291,
+  "manifest_files": 289,
+  "standalone_snapshots": 15,
+  "all_original_member_bytes_match": true,
+  "all_manifest_sha256_and_git_blobs_match": true,
+  "git_index_verified": true,
+  "scientific_programs_executed": false,
+  "complete_chat_export_included": false
+}

@@ -1,0 +1,34 @@
+{
+  "run": 9,
+  "verdict": "The natural Run 8 neutral-flavour identification with source T is excluded; complete pair-only genus-one block identification fails projectively. The known coset theory itself remains consistent.",
+  "same_model_as_run8": true,
+  "new_matter_or_flavour_background": false,
+  "exact_checks": 49,
+  "numerical_comparisons_per_precision": 116,
+  "numerical_results": [
+    {
+      "dps": 55,
+      "strict_comparisons": 100,
+      "finite_limit_comparisons": 16,
+      "max_strict_normalized_residual": "4.4582729226579424896e-55",
+      "max_finite_limit_normalized_residual": "6.051162526393805877e-38"
+    },
+    {
+      "dps": 85,
+      "strict_comparisons": 100,
+      "finite_limit_comparisons": 16,
+      "max_strict_normalized_residual": "5.6705258230087352009e-85",
+      "max_finite_limit_normalized_residual": "8.5381412128657050496e-58"
+    }
+  ],
+  "source_projective_L_order": 4,
+  "pair_projective_L_order": 16,
+  "central_plus_two_vector_block_rank": 1,
+  "pair_only_block_rank": 3,
+  "four_dimensional_physics_derived": false,
+  "versions": {
+    "python": "3.13.5",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  }
+}

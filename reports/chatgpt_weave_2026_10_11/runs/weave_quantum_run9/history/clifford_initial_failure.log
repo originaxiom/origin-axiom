@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/data/weave_quantum_run9/verify_clifford.py", line 64, in <module>
+    check('cyclic kernel antisymmetric',s.simplify(r_expected+g_cut(rw/rz)-g_cut(rx/rz)+g_cut(rx/rw))==0)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/weave_quantum_run9/verify_clifford.py", line 15, in check
+    if not bool(condition):raise AssertionError(name)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: cyclic kernel antisymmetric

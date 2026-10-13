@@ -1,0 +1,24 @@
+{
+  "passed": 15,
+  "total": 15,
+  "facts": {
+    "constraint_generates_vector_gauge_shift": true,
+    "constraint_generates_Goldstone_shift": true,
+    "constraint_leaves_scalar_h_unchanged": true,
+    "mass_term_is_gauge_invariant": true,
+    "Gauss_constraint_is_preserved_by_Hamiltonian": true,
+    "constraint_is_first_class": true,
+    "wrong_constraint_sign_breaks_preservation": true,
+    "unitary_gauge_reduced_Hamiltonian": true,
+    "longitudinal_frequency_squared": true,
+    "physical_scalar_frequency_squared": true,
+    "longitudinal_rescaling_is_canonical": true,
+    "longitudinal_Hamiltonian_is_positive_oscillator": true,
+    "Dirac_Hamiltonian_Hermitian": true,
+    "fermion_dispersion_matches_all_bosonic_polarizations": true,
+    "massless_constraint_does_not_delete_harmonic_gauge_field": true
+  },
+  "all_real_p_and_positive_m": true,
+  "full_interacting_constraint_algebra": false,
+  "actual_internal_eigenvalues_computed": false
+}

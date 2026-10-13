@@ -1,0 +1,16 @@
+{
+  "status": "all exact checks passed",
+  "checks": 40,
+  "Q4": "-1/2",
+  "periodic_spin_counts": {
+    "antiperiodic_bits": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "n_plus": 2,
+    "n_minus": 4,
+    "index": -2
+  }
+}

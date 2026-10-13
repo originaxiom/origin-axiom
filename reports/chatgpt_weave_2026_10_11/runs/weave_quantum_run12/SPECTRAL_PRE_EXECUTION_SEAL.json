@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-11T00:34:41.938019+00:00",
+  "files": [
+    {
+      "path": "verify_spectral_reference.py",
+      "sha256": "b669cbd13ce65fdb56e1ce4fd6e6a007e0cdd0e01c3bf98939e2afb40db935f8",
+      "bytes": 1957
+    }
+  ],
+  "anticipated_result": "Smooth sine partial sums obey the secondary trace, converge in the Dirichlet Laplacian graph norm, and have a limit violating that secondary trace.",
+  "first_run_preserved": true,
+  "same_author_follow_through": true
+}

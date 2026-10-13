@@ -1,0 +1,22 @@
+{
+  "CHANGELOG.md": "c933f4586a7081d4c946ab85eea0b9fbb0d00efb4f22a0e11eb5188cff44d2b7",
+  "PLAN.md": "281c691cbce82bbcbf86bc7404d41c0fa696d29696cc3cb307633ffed929878a",
+  "PLAN.sha256": "6f256d3ecad65fe8e5f3726f92b6f6c373ec53874facabb5333a62c58d6545cb",
+  "README.md": "3d61a11aa7fb7750c0bc4b1aaf4b03a139bf9e37b14452a75a47406c563cbc60",
+  "TECHNICAL_REPORT.md": "630c76ba1988268283e52d6157010e522987fcc0482005a5541c0a40665f5fc2",
+  "history/clifford_initial_failure.log": "387c57a273bc1d61e554f0a403d7a97018b13809880ed99e3994c2cc18c48e17",
+  "history/verify_clifford_before_contact_fix.py.txt": "950311426e7f37f6633e8dde5d7965fd470b8a3c5654d59e5eadf76608c7c418",
+  "requirements.txt": "85ec3a16e14a6f6a3ca8d8bc737f2d8b794b8f1ebca8cc3477ff66d2cdbe9224",
+  "results/SUMMARY.json": "f547f9488e3c29c46bb83ed4ac3dba893a13e41b727aa5a9346b78d356b1a73c",
+  "results/clifford.json": "0b5e9f9dd97f6e49af6c1510fb62b488ce6e4362970465a65e88158c4f728c96",
+  "results/clifford.log": "d28fb323afd72448946ba7ed5215c4d75f51d8f737f6876e860bcc771e207e3d",
+  "results/exact.json": "df12f12c610a9e8a9ee4eae56dba181a023c1ecc5e4e3d80ec72293dee0dee98",
+  "results/exact.log": "72039c85dd8ceca6223eb20a06b935c68d1e0c57299448b9a9a3804314b5efb2",
+  "results/numerical_55.json": "16181b54c2fc7803ab81fd018f0876af87a3c1463297ce7e9317c74bf40d4b9a",
+  "results/numerical_55.log": "67c3233732ed4fdd4b3632bee0ed2405a42ba682375c0b3ee938856823acad70",
+  "results/numerical_85.json": "3d3cccc20a6a6d740abe3c84a59010eba7afb7a10615d6cf364d97676aa5546c",
+  "results/numerical_85.log": "e74940f0744cab5d4c952ec83b86b512c49ce1c9df2ce06fc4d869ca498e80bf",
+  "verify_clifford.py": "8acfb3cdc9a6d33876445af8ded0a184fd55a78e35834f02b1ba6d04a13c8130",
+  "verify_exact.py": "47f8170e97399bd2dd0767855c2aa56218fe9a2224f8f01e779c5805f182a89a",
+  "verify_numerical.py": "ea89650ca8734d11d0f1437abb6eb905339ce2caa481f6b233bbf28e60a3de0f"
+}

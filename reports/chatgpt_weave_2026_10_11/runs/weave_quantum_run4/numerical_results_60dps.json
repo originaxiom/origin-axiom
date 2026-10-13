@@ -1,0 +1,287 @@
+{
+  "dps": 60,
+  "comparison_count": 55,
+  "strict_count": 40,
+  "finite_limit_count": 15,
+  "max_strict_normalized_residual": "4.671311143720344e-61",
+  "max_finite_limit_residual": "3.360935046946661e-20",
+  "wrong_character_residual": "0.517638090205041524697797675248",
+  "results": [
+    {
+      "name": "ward_source_derivative_0",
+      "normalized_residual": "2.08245504490381e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "direct_neutral_charge_source_0",
+      "normalized_residual": "7.389087548159564e-42",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "connected_two_current_log_derivatives",
+      "normalized_residual": "3.853106660062607e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "ward_charge_residue_0_0",
+      "normalized_residual": "1.660376809459081e-20",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "ward_charge_residue_0_1",
+      "normalized_residual": "3.319525774581355e-20",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "ward_charge_residue_0_2",
+      "normalized_residual": "3.650214221449077e-22",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "connected_current_level_one_0",
+      "normalized_residual": "6.506866911707849e-40",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "common_measure_cancels_in_conditional_current_0",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta2_T_full_automorphy_0",
+      "normalized_residual": "8.696928241448284e-62",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta2_S_full_automorphy_0",
+      "normalized_residual": "4.671311143720344e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta22_T_full_automorphy_0",
+      "normalized_residual": "1.835766105878359e-63",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta22_S_full_automorphy_0",
+      "normalized_residual": "4.983644497939598e-62",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "quantum_geometric_map_0",
+      "normalized_residual": "1.747689061137995e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "target_quantum_map_0",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "projective_rays_agree_0",
+      "normalized_residual": "1.621013632063453e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "petersson_relative_norm_quantum_geometric_0",
+      "normalized_residual": "3.889384548663214e-62",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "petersson_relative_norm_target_quantum_0",
+      "normalized_residual": "4.747783872879899e-66",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "petersson_curvature_0",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "ward_source_derivative_1",
+      "normalized_residual": "1.329764329212719e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "direct_neutral_charge_source_1",
+      "normalized_residual": "2.099847153468515e-42",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "ward_charge_residue_1_0",
+      "normalized_residual": "1.723941312576219e-20",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "ward_charge_residue_1_1",
+      "normalized_residual": "3.360935046946661e-20",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "ward_charge_residue_1_2",
+      "normalized_residual": "1.454301649348095e-21",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "connected_current_level_one_1",
+      "normalized_residual": "6.992340563224947e-40",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "common_measure_cancels_in_conditional_current_1",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta2_T_full_automorphy_1",
+      "normalized_residual": "9.723461371658034e-62",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta2_S_full_automorphy_1",
+      "normalized_residual": "1.582864832423267e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta22_T_full_automorphy_1",
+      "normalized_residual": "5.571883936542876e-63",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta22_S_full_automorphy_1",
+      "normalized_residual": "8.258938926508729e-63",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "quantum_geometric_map_1",
+      "normalized_residual": "4.455849775260208e-62",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "target_quantum_map_1",
+      "normalized_residual": "8.669614556623149e-64",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "projective_rays_agree_1",
+      "normalized_residual": "2.056389250443622e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "petersson_relative_norm_quantum_geometric_1",
+      "normalized_residual": "7.778769097326427e-62",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "petersson_relative_norm_target_quantum_1",
+      "normalized_residual": "1.186945968219975e-66",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "petersson_curvature_1",
+      "normalized_residual": "3.889384548663214e-62",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "ward_source_derivative_2",
+      "normalized_residual": "1.323016422902377e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "direct_neutral_charge_source_2",
+      "normalized_residual": "1.167919114427078e-41",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "ward_charge_residue_2_0",
+      "normalized_residual": "1.661345403497954e-20",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "ward_charge_residue_2_1",
+      "normalized_residual": "3.320295327167698e-20",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "ward_charge_residue_2_2",
+      "normalized_residual": "4.31065159220019e-23",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "connected_current_level_one_2",
+      "normalized_residual": "6.522495239869095e-40",
+      "finite_distance_limit": true
+    },
+    {
+      "name": "common_measure_cancels_in_conditional_current_2",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta2_T_full_automorphy_2",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta2_S_full_automorphy_2",
+      "normalized_residual": "7.839305178393163e-62",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta22_T_full_automorphy_2",
+      "normalized_residual": "1.485580359944718e-64",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "eta22_S_full_automorphy_2",
+      "normalized_residual": "2.012128505811457e-62",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "quantum_geometric_map_2",
+      "normalized_residual": "5.435580150905178e-63",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "target_quantum_map_2",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "projective_rays_agree_2",
+      "normalized_residual": "1.71891464211964e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "petersson_relative_norm_quantum_geometric_2",
+      "normalized_residual": "1.944692274331607e-61",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "petersson_relative_norm_target_quantum_2",
+      "normalized_residual": "6.528202825209862e-66",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "petersson_curvature_2",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "S_elliptic_fixedpoint_scalar_weight_cancellation",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "ST_elliptic_fixedpoint_scalar_weight_cancellation",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    },
+    {
+      "name": "wrong_T_character_finite_negative_control",
+      "normalized_residual": "0.0",
+      "finite_distance_limit": false
+    }
+  ],
+  "scope": "Direct analytic-source Ward checks and standard modular metric checks, not a Quillen metric or full nonabelian defect sewing."
+}

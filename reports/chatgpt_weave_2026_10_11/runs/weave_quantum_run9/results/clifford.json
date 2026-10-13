@@ -1,0 +1,87 @@
+{
+  "number_of_named_checks": 9,
+  "checks": [
+    {
+      "name": "five gamma matrices obey Clifford relations",
+      "passed": true
+    },
+    {
+      "name": "Clifford volume is minus identity",
+      "passed": true
+    },
+    {
+      "name": "zero modes anticommute with oscillators",
+      "passed": true
+    },
+    {
+      "name": "quintic finite trace is nonzero",
+      "passed": true
+    },
+    {
+      "name": "finite quintic trace includes five parity oscillator factors",
+      "passed": true
+    },
+    {
+      "name": "all 25 paired traces give delta times cyclic odd kernel",
+      "passed": true
+    },
+    {
+      "name": "finite exchange gives correct truncated contact kernel",
+      "passed": true
+    },
+    {
+      "name": "unrefined cubic alone vanishes with remaining zero modes",
+      "passed": true
+    },
+    {
+      "name": "normalization contains exactly one common quintic trace",
+      "passed": true
+    }
+  ],
+  "finite_parameters": {
+    "q": "1/7",
+    "rx": "1",
+    "rz": "2",
+    "rw": "3"
+  },
+  "reference_trace": "-3888*sqrt(2)/16807",
+  "cyclic_kernel_over_2pi_i": "25/18",
+  "paired_trace_ratios": [
+    [
+      "25/18",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "25/18",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "25/18",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "25/18",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "25/18"
+    ]
+  ],
+  "scope": "one positive frequency per species, no claim of infinite determinant numerical calculation"
+}

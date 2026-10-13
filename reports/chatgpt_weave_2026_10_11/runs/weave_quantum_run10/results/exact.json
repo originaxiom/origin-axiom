@@ -1,0 +1,132 @@
+{
+  "checks": [
+    {
+      "name": "quaternion relations",
+      "passed": true
+    },
+    {
+      "name": "adjoint lifts commute",
+      "passed": true
+    },
+    {
+      "name": "no common parallel direction",
+      "passed": true
+    },
+    {
+      "name": "central element acts trivially on directions",
+      "passed": true
+    },
+    {
+      "name": "total Stiefel Whitney class is 1+ab",
+      "passed": true
+    },
+    {
+      "name": "w2 independent of line ordering (0, 1, 2)",
+      "passed": true
+    },
+    {
+      "name": "w2 independent of line ordering (0, 2, 1)",
+      "passed": true
+    },
+    {
+      "name": "w2 independent of line ordering (1, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "w2 independent of line ordering (1, 2, 0)",
+      "passed": true
+    },
+    {
+      "name": "w2 independent of line ordering (2, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "w2 independent of line ordering (2, 1, 0)",
+      "passed": true
+    },
+    {
+      "name": "S and T adjoint rotations",
+      "passed": true
+    },
+    {
+      "name": "classical modular relations",
+      "passed": true
+    },
+    {
+      "name": "rotation group order 24",
+      "passed": true
+    },
+    {
+      "name": "projective field central fourth S is positive",
+      "passed": true
+    },
+    {
+      "name": "external line restores target T only if added",
+      "passed": true
+    },
+    {
+      "name": "external line restores target S only if added",
+      "passed": true
+    },
+    {
+      "name": "target central fourth S is negative",
+      "passed": true
+    },
+    {
+      "name": "no scalar line from normalized spinor",
+      "passed": true
+    },
+    {
+      "name": "Bogomolny square identity",
+      "passed": true
+    },
+    {
+      "name": "log norm quadratic shift",
+      "passed": true
+    },
+    {
+      "name": "half integer charge from curvature",
+      "passed": true
+    },
+    {
+      "name": "degree of tangent line one",
+      "passed": true
+    },
+    {
+      "name": "minimal action coefficient",
+      "passed": true
+    },
+    {
+      "name": "theta parameter has a sign in fixed flux sector",
+      "passed": true
+    },
+    {
+      "name": "separate four dimensional toron charge",
+      "passed": true
+    },
+    {
+      "name": "separate four dimensional action bound",
+      "passed": true
+    }
+  ],
+  "count": 27,
+  "matrices": {
+    "QA": "Matrix([[-1, 0, 0], [0, -1, 0], [0, 0, 1]])",
+    "QB": "Matrix([[1, 0, 0], [0, -1, 0], [0, 0, -1]])",
+    "OS": "Matrix([[0, 0, 1], [0, -1, 0], [1, 0, 0]])",
+    "OT": "Matrix([[0, -1, 0], [1, 0, 0], [0, 0, 1]])",
+    "target_intertwiner": "Matrix([[0, 0, -I], [0, 1, 0], [I, 0, 0]])"
+  },
+  "w_total": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "bounds": {
+    "Q": "1/2",
+    "g_squared_S": "2*pi",
+    "real_bosonic_zero_modes": 2
+  },
+  "scope": "Finite algebra corroborates the analytic proofs. It is not a numerical Dirac eigensolver or full quantum quantization."
+}

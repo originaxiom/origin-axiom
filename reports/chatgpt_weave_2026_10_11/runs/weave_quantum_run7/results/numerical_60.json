@@ -1,0 +1,283 @@
+{
+  "dps": 60,
+  "checks": [
+    {
+      "name": "0: oscillator trace eta3",
+      "kind": "identity",
+      "normalized_residual": "3.500446093796892e-61"
+    },
+    {
+      "name": "0: independent Jacobi derivative",
+      "kind": "identity",
+      "normalized_residual": "1.555753819465285e-61"
+    },
+    {
+      "name": "0: block T",
+      "kind": "identity",
+      "normalized_residual": "3.889384548663214e-62"
+    },
+    {
+      "name": "0: block S",
+      "kind": "identity",
+      "normalized_residual": "1.079262101806263e-61"
+    },
+    {
+      "name": "0: inserted modular differential equation",
+      "kind": "identity",
+      "normalized_residual": "1.944692274331607e-62"
+    },
+    {
+      "name": "0: full vacuum characters S",
+      "kind": "identity",
+      "normalized_residual": "1.939658717975007e-61"
+    },
+    {
+      "name": "0: full vacuum characters T",
+      "kind": "identity",
+      "normalized_residual": "1.084302186635552e-61"
+    },
+    {
+      "name": "0: ground-state Dehn twist",
+      "kind": "identity",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "0: ordinary vs inserted oscillator relation",
+      "kind": "identity",
+      "normalized_residual": "1.384548441213278e-60"
+    },
+    {
+      "name": "0: exact coefficient polynomial",
+      "kind": "identity",
+      "normalized_residual": "1.555753819465285e-61"
+    },
+    {
+      "name": "1: oscillator trace eta3",
+      "kind": "identity",
+      "normalized_residual": "1.170859797400537e-61"
+    },
+    {
+      "name": "1: independent Jacobi derivative",
+      "kind": "identity",
+      "normalized_residual": "1.562575671612803e-61"
+    },
+    {
+      "name": "1: block T",
+      "kind": "identity",
+      "normalized_residual": "3.889384548663214e-62"
+    },
+    {
+      "name": "1: block S",
+      "kind": "identity",
+      "normalized_residual": "1.71819367801342e-61"
+    },
+    {
+      "name": "1: inserted modular differential equation",
+      "kind": "identity",
+      "normalized_residual": "1.463574746750671e-62"
+    },
+    {
+      "name": "1: full vacuum characters S",
+      "kind": "identity",
+      "normalized_residual": "9.836699823076417e-61"
+    },
+    {
+      "name": "1: full vacuum characters T",
+      "kind": "identity",
+      "normalized_residual": "1.029480922856446e-61"
+    },
+    {
+      "name": "1: ground-state Dehn twist",
+      "kind": "identity",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "1: ordinary vs inserted oscillator relation",
+      "kind": "identity",
+      "normalized_residual": "7.761822296886192e-61"
+    },
+    {
+      "name": "1: exact coefficient polynomial",
+      "kind": "identity",
+      "normalized_residual": "1.562575671612803e-61"
+    },
+    {
+      "name": "2: oscillator trace eta3",
+      "kind": "identity",
+      "normalized_residual": "7.839305178393163e-62"
+    },
+    {
+      "name": "2: independent Jacobi derivative",
+      "kind": "identity",
+      "normalized_residual": "8.018171656391851e-62"
+    },
+    {
+      "name": "2: block T",
+      "kind": "identity",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "2: block S",
+      "kind": "identity",
+      "normalized_residual": "7.778769097326427e-62"
+    },
+    {
+      "name": "2: inserted modular differential equation",
+      "kind": "identity",
+      "normalized_residual": "9.799131472991453e-63"
+    },
+    {
+      "name": "2: full vacuum characters S",
+      "kind": "identity",
+      "normalized_residual": "4.426173714096358e-61"
+    },
+    {
+      "name": "2: full vacuum characters T",
+      "kind": "identity",
+      "normalized_residual": "1.408011827248713e-61"
+    },
+    {
+      "name": "2: ground-state Dehn twist",
+      "kind": "identity",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "2: ordinary vs inserted oscillator relation",
+      "kind": "identity",
+      "normalized_residual": "1.54915436428604e-60"
+    },
+    {
+      "name": "2: exact coefficient polynomial",
+      "kind": "identity",
+      "normalized_residual": "8.018171656391851e-62"
+    },
+    {
+      "name": "3: oscillator trace eta3",
+      "kind": "identity",
+      "normalized_residual": "1.558789439560532e-61"
+    },
+    {
+      "name": "3: independent Jacobi derivative",
+      "kind": "identity",
+      "normalized_residual": "2.351791553517949e-61"
+    },
+    {
+      "name": "3: block T",
+      "kind": "identity",
+      "normalized_residual": "3.889384548663214e-62"
+    },
+    {
+      "name": "3: block S",
+      "kind": "identity",
+      "normalized_residual": "1.555753819465285e-61"
+    },
+    {
+      "name": "3: inserted modular differential equation",
+      "kind": "identity",
+      "normalized_residual": "2.957275324816181e-62"
+    },
+    {
+      "name": "3: full vacuum characters S",
+      "kind": "identity",
+      "normalized_residual": "1.047158032664749e-60"
+    },
+    {
+      "name": "3: full vacuum characters T",
+      "kind": "identity",
+      "normalized_residual": "6.818856516497993e-62"
+    },
+    {
+      "name": "3: ground-state Dehn twist",
+      "kind": "identity",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "3: ordinary vs inserted oscillator relation",
+      "kind": "identity",
+      "normalized_residual": "7.672989865682225e-61"
+    },
+    {
+      "name": "3: exact coefficient polynomial",
+      "kind": "identity",
+      "normalized_residual": "2.341719594801074e-61"
+    },
+    {
+      "name": "4: oscillator trace eta3",
+      "kind": "identity",
+      "normalized_residual": "1.229931387004176e-61"
+    },
+    {
+      "name": "4: independent Jacobi derivative",
+      "kind": "identity",
+      "normalized_residual": "1.202725748458778e-61"
+    },
+    {
+      "name": "4: block T",
+      "kind": "identity",
+      "normalized_residual": "1.944692274331607e-62"
+    },
+    {
+      "name": "4: block S",
+      "kind": "identity",
+      "normalized_residual": "6.241977523278059e-61"
+    },
+    {
+      "name": "4: inserted modular differential equation",
+      "kind": "identity",
+      "normalized_residual": "1.503407185573472e-62"
+    },
+    {
+      "name": "4: full vacuum characters S",
+      "kind": "identity",
+      "normalized_residual": "6.361364039113927e-61"
+    },
+    {
+      "name": "4: full vacuum characters T",
+      "kind": "identity",
+      "normalized_residual": "2.611623324775898e-62"
+    },
+    {
+      "name": "4: ground-state Dehn twist",
+      "kind": "identity",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "4: ordinary vs inserted oscillator relation",
+      "kind": "identity",
+      "normalized_residual": "4.670940529964409e-61"
+    },
+    {
+      "name": "4: exact coefficient polynomial",
+      "kind": "identity",
+      "normalized_residual": "1.202725748458778e-61"
+    },
+    {
+      "name": "non-Abelian braid equation",
+      "kind": "identity",
+      "normalized_residual": "1.844897080506263e-61"
+    },
+    {
+      "name": "noncommuting braids negative control",
+      "kind": "negative",
+      "commutator_norm": "1.414213562373095"
+    },
+    {
+      "name": "central monodromy around f",
+      "kind": "identity",
+      "normalized_residual": "1.14199369942487e-61"
+    },
+    {
+      "name": "one-puncture S4",
+      "kind": "identity",
+      "normalized_residual": "7.297132233225469e-61"
+    },
+    {
+      "name": "one-puncture braid relation",
+      "kind": "identity",
+      "normalized_residual": "1.555753819465285e-61"
+    }
+  ],
+  "number_checks": 55,
+  "max_normalized_residual": "1.54915436428604e-60",
+  "notes": "High-precision direct series/product controls; not interval-certified. Scalar block comparison includes declared conformal weight and framing."
+}

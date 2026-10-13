@@ -1,0 +1,489 @@
+{
+  "precision": 60,
+  "count": 80,
+  "max_normalized_residual": "7.002411313615265e-61",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "eta3_T_0",
+      "normalized_residual": "3.889384548663214e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_S_with_weight_0",
+      "normalized_residual": "1.079262101806263e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_T_0",
+      "normalized_residual": "5.946621570784488e-63",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_S_with_weight_0",
+      "normalized_residual": "1.383896347163921e-63",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_T_0",
+      "normalized_residual": "3.074828467510439e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_S_0",
+      "normalized_residual": "1.229931387004176e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_character_vs_independent_oscillator_series_0",
+      "normalized_residual": "1.829486472712287e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_not_a_flat_constant_frame_0",
+      "normalized_residual": "3.889384548663214e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_L_0",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_R_0",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_T_1",
+      "normalized_residual": "1.229931387004176e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_S_with_weight_1",
+      "normalized_residual": "7.002411313615265e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_T_1",
+      "normalized_residual": "3.199330016639065e-63",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_S_with_weight_1",
+      "normalized_residual": "2.267525163179262e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_T_1",
+      "normalized_residual": "1.607637670410445e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_S_1",
+      "normalized_residual": "4.191968979647215e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_character_vs_independent_oscillator_series_1",
+      "normalized_residual": "1.577485211083978e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_not_a_flat_constant_frame_1",
+      "normalized_residual": "2.92592696403659e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_L_1",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_R_1",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_T_2",
+      "normalized_residual": "1.944692274331607e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_S_with_weight_2",
+      "normalized_residual": "1.582864832423267e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_T_2",
+      "normalized_residual": "3.105602914755681e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_S_with_weight_2",
+      "normalized_residual": "1.189057423745717e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_T_2",
+      "normalized_residual": "1.213855502896167e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_S_2",
+      "normalized_residual": "1.275355007680755e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_character_vs_independent_oscillator_series_2",
+      "normalized_residual": "1.985251360791165e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_not_a_flat_constant_frame_2",
+      "normalized_residual": "3.889384548663214e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_L_2",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_R_2",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_T_3",
+      "normalized_residual": "2.067236243704355e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_S_with_weight_3",
+      "normalized_residual": "1.245210623612112e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_T_3",
+      "normalized_residual": "1.260009960221485e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_S_with_weight_3",
+      "normalized_residual": "9.688550709064259e-63",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_T_3",
+      "normalized_residual": "1.506598397227023e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_S_3",
+      "normalized_residual": "1.267991496076893e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_character_vs_independent_oscillator_series_3",
+      "normalized_residual": "3.530769049646855e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_not_a_flat_constant_frame_3",
+      "normalized_residual": "5.849565689648586e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_L_3",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_R_3",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_T_4",
+      "normalized_residual": "1.650126113401163e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_S_with_weight_4",
+      "normalized_residual": "6.612668654471752e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_T_4",
+      "normalized_residual": "1.025871256430206e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "cochain_target_S_with_weight_4",
+      "normalized_residual": "3.293898031394551e-64",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_T_4",
+      "normalized_residual": "7.15433546207099e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "ordinary_su2_characters_S_4",
+      "normalized_residual": "1.198568069434082e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_character_vs_independent_oscillator_series_4",
+      "normalized_residual": "3.134001966268027e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "eta3_not_a_flat_constant_frame_4",
+      "normalized_residual": "4.958011927374998e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_L_4",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "neutral_endomorphism_transport_R_4",
+      "normalized_residual": "2.535295325231274e-62",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n-3_t-.61",
+      "normalized_residual": "1.382892283969143e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n-3_t-.61",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n-3_t.27",
+      "normalized_residual": "1.382892283969143e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n-3_t.27",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n-3_t.83",
+      "normalized_residual": "1.382892283969143e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n-3_t.83",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n-1_t-.61",
+      "normalized_residual": "1.555753819465285e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n-1_t-.61",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n-1_t.27",
+      "normalized_residual": "1.555753819465285e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n-1_t.27",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n-1_t.83",
+      "normalized_residual": "1.555753819465285e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n-1_t.83",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n0_t-.61",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n0_t-.61",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n0_t.27",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n0_t.27",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n0_t.83",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n0_t.83",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n2_t-.61",
+      "normalized_residual": "1.555753819465285e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n2_t-.61",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n2_t.27",
+      "normalized_residual": "1.555753819465285e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n2_t.27",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n2_t.83",
+      "normalized_residual": "1.555753819465285e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n2_t.83",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n4_t-.61",
+      "normalized_residual": "1.555753819465285e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n4_t-.61",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n4_t.27",
+      "normalized_residual": "1.555753819465285e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n4_t.27",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_h_n4_t.83",
+      "normalized_residual": "1.555753819465285e-61",
+      "tolerance": "1.0e-52",
+      "passed": true
+    },
+    {
+      "name": "protected_charge_hbar_n4_t.83",
+      "normalized_residual": "0.0",
+      "tolerance": "1.0e-52",
+      "passed": true
+    }
+  ],
+  "scope": "High precision corroborations with finite direct theta/product truncations; no certified interval tail bounds. No nonabelian defect connection calculated."
+}

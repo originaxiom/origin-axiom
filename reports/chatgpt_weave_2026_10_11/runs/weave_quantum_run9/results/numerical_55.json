@@ -1,0 +1,609 @@
+{
+  "dps": 55,
+  "number_of_comparisons": 116,
+  "strict_comparisons": 100,
+  "finite_limit_comparisons": 16,
+  "max_strict_normalized_residual": "4.4582729226579424896e-55",
+  "max_finite_limit_normalized_residual": "6.051162526393805877e-38",
+  "checks": [
+    {
+      "name": "0: spin 2 product squared",
+      "kind": "strict",
+      "residual": "4.4582729226579424896e-55"
+    },
+    {
+      "name": "0: Szego 2 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "1.3579318975929732184e-56"
+    },
+    {
+      "name": "0: Szego 2 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "0: spin 3 product squared",
+      "kind": "strict",
+      "residual": "1.4419021995714479954e-56"
+    },
+    {
+      "name": "0: Szego 3 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "6.6823482239167249154e-57"
+    },
+    {
+      "name": "0: Szego 3 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "0: spin 4 product squared",
+      "kind": "strict",
+      "residual": "2.2291364613289712448e-55"
+    },
+    {
+      "name": "0: Szego 4 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "0: Szego 4 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "0: odd kernel vs independent mode sum",
+      "kind": "strict",
+      "residual": "6.6775947160802588838e-57"
+    },
+    {
+      "name": "0: cyclic odd kernel from three independent mode sums",
+      "kind": "strict",
+      "residual": "1.3984158514098996542e-56"
+    },
+    {
+      "name": "0: odd cyclic endpoint antisymmetry",
+      "kind": "strict",
+      "residual": "9.888293314506994712e-57"
+    },
+    {
+      "name": "0: odd cyclic z-period",
+      "kind": "strict",
+      "residual": "3.9553173258027978848e-56"
+    },
+    {
+      "name": "0: odd cyclic z-tau-period",
+      "kind": "strict",
+      "residual": "9.3808587136973422544e-56"
+    },
+    {
+      "name": "0: odd cyclic common translation",
+      "kind": "strict",
+      "residual": "3.5652748572282733006e-56"
+    },
+    {
+      "name": "0: pair full T transport",
+      "kind": "strict",
+      "residual": "3.0144629444108547791e-56"
+    },
+    {
+      "name": "0: pair full S transport",
+      "kind": "strict",
+      "residual": "8.3901667490791189608e-56"
+    },
+    {
+      "name": "0: pair full R transport",
+      "kind": "strict",
+      "residual": "2.069016385125369407e-55"
+    },
+    {
+      "name": "0: affine pair S transport",
+      "kind": "strict",
+      "residual": "8.4665881535706309451e-56"
+    },
+    {
+      "name": "0: affine pair T transport",
+      "kind": "strict",
+      "residual": "2.3072694450965777455e-56"
+    },
+    {
+      "name": "0: central H5 pair T transport",
+      "kind": "strict",
+      "residual": "8.7647438718773915929e-56"
+    },
+    {
+      "name": "0: central H5 pair S transport",
+      "kind": "strict",
+      "residual": "1.8477702495423719608e-56"
+    },
+    {
+      "name": "0: central H5 pair R transport",
+      "kind": "strict",
+      "residual": "1.1679243022544052541e-55"
+    },
+    {
+      "name": "0: full five-vector central tensor transport",
+      "kind": "strict",
+      "residual": "1.8477702495423719608e-56"
+    },
+    {
+      "name": "0: pair spin 2 fusion residue",
+      "kind": "finite_limit",
+      "residual": "4.9834480188625306358e-38"
+    },
+    {
+      "name": "0: pair spin 3 fusion residue",
+      "kind": "finite_limit",
+      "residual": "2.0089119986621970096e-38"
+    },
+    {
+      "name": "0: pair spin 4 fusion residue",
+      "kind": "finite_limit",
+      "residual": "2.9663668757430226853e-38"
+    },
+    {
+      "name": "0: central pair fusion residue",
+      "kind": "finite_limit",
+      "residual": "2.5771197809788096514e-38"
+    },
+    {
+      "name": "0: imposed flavour rotation negative magnitude",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "1: spin 2 product squared",
+      "kind": "strict",
+      "residual": "1.3362915658460204326e-55"
+    },
+    {
+      "name": "1: Szego 2 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "1.5156852414340310397e-56"
+    },
+    {
+      "name": "1: Szego 2 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "1: spin 3 product squared",
+      "kind": "strict",
+      "residual": "1.3009008207896925996e-55"
+    },
+    {
+      "name": "1: Szego 3 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "6.7256576898724858917e-57"
+    },
+    {
+      "name": "1: Szego 3 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "1: spin 4 product squared",
+      "kind": "strict",
+      "residual": "8.1197010430168801891e-56"
+    },
+    {
+      "name": "1: Szego 4 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "1.5710751078856092039e-56"
+    },
+    {
+      "name": "1: Szego 4 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "1: odd kernel vs independent mode sum",
+      "kind": "strict",
+      "residual": "6.6894171574695387474e-57"
+    },
+    {
+      "name": "1: cyclic odd kernel from three independent mode sums",
+      "kind": "strict",
+      "residual": "9.9816894870536512745e-57"
+    },
+    {
+      "name": "1: odd cyclic endpoint antisymmetry",
+      "kind": "strict",
+      "residual": "9.9816894870536512745e-57"
+    },
+    {
+      "name": "1: odd cyclic z-period",
+      "kind": "strict",
+      "residual": "4.4639472446693942509e-56"
+    },
+    {
+      "name": "1: odd cyclic z-tau-period",
+      "kind": "strict",
+      "residual": "1.2625949470258932342e-55"
+    },
+    {
+      "name": "1: odd cyclic common translation",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "1: pair full T transport",
+      "kind": "strict",
+      "residual": "4.1292827845625021906e-56"
+    },
+    {
+      "name": "1: pair full S transport",
+      "kind": "strict",
+      "residual": "1.0571581931828249019e-55"
+    },
+    {
+      "name": "1: pair full R transport",
+      "kind": "strict",
+      "residual": "1.3486304869804679245e-55"
+    },
+    {
+      "name": "1: affine pair S transport",
+      "kind": "strict",
+      "residual": "1.0324620645007705124e-55"
+    },
+    {
+      "name": "1: affine pair T transport",
+      "kind": "strict",
+      "residual": "4.1473541303533117923e-56"
+    },
+    {
+      "name": "1: central H5 pair T transport",
+      "kind": "strict",
+      "residual": "5.0978941156238472865e-56"
+    },
+    {
+      "name": "1: central H5 pair S transport",
+      "kind": "strict",
+      "residual": "3.9258535404654235801e-55"
+    },
+    {
+      "name": "1: central H5 pair R transport",
+      "kind": "strict",
+      "residual": "1.2639234040298440065e-55"
+    },
+    {
+      "name": "1: full five-vector central tensor transport",
+      "kind": "strict",
+      "residual": "3.9258535404654235801e-55"
+    },
+    {
+      "name": "1: pair spin 2 fusion residue",
+      "kind": "finite_limit",
+      "residual": "4.9823490666685642204e-38"
+    },
+    {
+      "name": "1: pair spin 3 fusion residue",
+      "kind": "finite_limit",
+      "residual": "2.2890904489856846478e-38"
+    },
+    {
+      "name": "1: pair spin 4 fusion residue",
+      "kind": "finite_limit",
+      "residual": "2.0970369510131059615e-38"
+    },
+    {
+      "name": "1: central pair fusion residue",
+      "kind": "finite_limit",
+      "residual": "2.2467486526881060945e-38"
+    },
+    {
+      "name": "1: imposed flavour rotation negative magnitude",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "2: spin 2 product squared",
+      "kind": "strict",
+      "residual": "1.5859228595379646e-55"
+    },
+    {
+      "name": "2: Szego 2 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "6.543164659411529767e-57"
+    },
+    {
+      "name": "2: Szego 2 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "2: spin 3 product squared",
+      "kind": "strict",
+      "residual": "6.5149186080755830693e-56"
+    },
+    {
+      "name": "2: Szego 3 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "1.1754569073008073045e-56"
+    },
+    {
+      "name": "2: Szego 3 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "2: spin 4 product squared",
+      "kind": "strict",
+      "residual": "8.3116784063986642998e-56"
+    },
+    {
+      "name": "2: Szego 4 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "9.1549253604374022818e-57"
+    },
+    {
+      "name": "2: Szego 4 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "2: odd kernel vs independent mode sum",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "2: cyclic odd kernel from three independent mode sums",
+      "kind": "strict",
+      "residual": "3.1649647130553453843e-56"
+    },
+    {
+      "name": "2: odd cyclic endpoint antisymmetry",
+      "kind": "strict",
+      "residual": "1.0008497207316143697e-56"
+    },
+    {
+      "name": "2: odd cyclic z-period",
+      "kind": "strict",
+      "residual": "1.0008497207316143697e-56"
+    },
+    {
+      "name": "2: odd cyclic z-tau-period",
+      "kind": "strict",
+      "residual": "4.4759360216351405632e-56"
+    },
+    {
+      "name": "2: odd cyclic common translation",
+      "kind": "strict",
+      "residual": "2.2379680108175702816e-56"
+    },
+    {
+      "name": "2: pair full T transport",
+      "kind": "strict",
+      "residual": "3.3878182698136180764e-56"
+    },
+    {
+      "name": "2: pair full S transport",
+      "kind": "strict",
+      "residual": "1.1379925476321152096e-55"
+    },
+    {
+      "name": "2: pair full R transport",
+      "kind": "strict",
+      "residual": "1.2427010893591896993e-55"
+    },
+    {
+      "name": "2: affine pair S transport",
+      "kind": "strict",
+      "residual": "1.1760922335236593484e-55"
+    },
+    {
+      "name": "2: affine pair T transport",
+      "kind": "strict",
+      "residual": "3.7952641751940410956e-56"
+    },
+    {
+      "name": "2: central H5 pair T transport",
+      "kind": "strict",
+      "residual": "3.7133948983180763737e-56"
+    },
+    {
+      "name": "2: central H5 pair S transport",
+      "kind": "strict",
+      "residual": "2.5104217116696190953e-56"
+    },
+    {
+      "name": "2: central H5 pair R transport",
+      "kind": "strict",
+      "residual": "3.2949459832844025525e-56"
+    },
+    {
+      "name": "2: full five-vector central tensor transport",
+      "kind": "strict",
+      "residual": "3.0501755591373603892e-56"
+    },
+    {
+      "name": "2: pair spin 2 fusion residue",
+      "kind": "finite_limit",
+      "residual": "3.6426336034929021419e-38"
+    },
+    {
+      "name": "2: pair spin 3 fusion residue",
+      "kind": "finite_limit",
+      "residual": "2.9480890438767582511e-38"
+    },
+    {
+      "name": "2: pair spin 4 fusion residue",
+      "kind": "finite_limit",
+      "residual": "4.2146932326250185273e-38"
+    },
+    {
+      "name": "2: central pair fusion residue",
+      "kind": "finite_limit",
+      "residual": "3.5673503688335166539e-38"
+    },
+    {
+      "name": "2: imposed flavour rotation negative magnitude",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "3: spin 2 product squared",
+      "kind": "strict",
+      "residual": "1.0683157028173276823e-55"
+    },
+    {
+      "name": "3: Szego 2 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "3: Szego 2 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "3: spin 3 product squared",
+      "kind": "strict",
+      "residual": "4.360278330365439828e-56"
+    },
+    {
+      "name": "3: Szego 3 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "4.1159676651648692008e-56"
+    },
+    {
+      "name": "3: Szego 3 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "3: spin 4 product squared",
+      "kind": "strict",
+      "residual": "3.450035388465371902e-55"
+    },
+    {
+      "name": "3: Szego 4 vs oscillator mode sum",
+      "kind": "strict",
+      "residual": "4.2313461048090904513e-57"
+    },
+    {
+      "name": "3: Szego 4 antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "3: odd kernel vs independent mode sum",
+      "kind": "strict",
+      "residual": "1.3795606994987901535e-56"
+    },
+    {
+      "name": "3: cyclic odd kernel from three independent mode sums",
+      "kind": "strict",
+      "residual": "2.1842958214413053858e-56"
+    },
+    {
+      "name": "3: odd cyclic endpoint antisymmetry",
+      "kind": "strict",
+      "residual": "0.0"
+    },
+    {
+      "name": "3: odd cyclic z-period",
+      "kind": "strict",
+      "residual": "3.5220711821982619265e-56"
+    },
+    {
+      "name": "3: odd cyclic z-tau-period",
+      "kind": "strict",
+      "residual": "7.6294173089368072755e-56"
+    },
+    {
+      "name": "3: odd cyclic common translation",
+      "kind": "strict",
+      "residual": "1.9536935758846006015e-56"
+    },
+    {
+      "name": "3: pair full T transport",
+      "kind": "strict",
+      "residual": "6.1474439051657727765e-56"
+    },
+    {
+      "name": "3: pair full S transport",
+      "kind": "strict",
+      "residual": "1.7161627789749862103e-55"
+    },
+    {
+      "name": "3: pair full R transport",
+      "kind": "strict",
+      "residual": "2.1478550551186120625e-55"
+    },
+    {
+      "name": "3: affine pair S transport",
+      "kind": "strict",
+      "residual": "1.7093835006554760207e-55"
+    },
+    {
+      "name": "3: affine pair T transport",
+      "kind": "strict",
+      "residual": "6.0792365773184427386e-56"
+    },
+    {
+      "name": "3: central H5 pair T transport",
+      "kind": "strict",
+      "residual": "1.5895468540702889201e-55"
+    },
+    {
+      "name": "3: central H5 pair S transport",
+      "kind": "strict",
+      "residual": "1.3817462074639894131e-55"
+    },
+    {
+      "name": "3: central H5 pair R transport",
+      "kind": "strict",
+      "residual": "1.6594172542880213402e-55"
+    },
+    {
+      "name": "3: full five-vector central tensor transport",
+      "kind": "strict",
+      "residual": "2.7932661446924069567e-55"
+    },
+    {
+      "name": "3: pair spin 2 fusion residue",
+      "kind": "finite_limit",
+      "residual": "4.4606739707932518452e-38"
+    },
+    {
+      "name": "3: pair spin 3 fusion residue",
+      "kind": "finite_limit",
+      "residual": "3.579881726851787803e-38"
+    },
+    {
+      "name": "3: pair spin 4 fusion residue",
+      "kind": "finite_limit",
+      "residual": "6.051162526393805877e-38"
+    },
+    {
+      "name": "3: central pair fusion residue",
+      "kind": "finite_limit",
+      "residual": "2.9680130697460534522e-38"
+    },
+    {
+      "name": "3: imposed flavour rotation negative magnitude",
+      "kind": "strict",
+      "residual": "0.0"
+    }
+  ],
+  "negative_controls": [
+    {
+      "sample": 0,
+      "wrong_target_T_residual": "0.25996588957013125346"
+    },
+    {
+      "sample": 1,
+      "wrong_target_T_residual": "0.23036893310559980151"
+    },
+    {
+      "sample": 2,
+      "wrong_target_T_residual": "0.30679776692470610337"
+    },
+    {
+      "sample": 3,
+      "wrong_target_T_residual": "0.36212510236826224013"
+    }
+  ],
+  "scope": "four generic/sample moduli; no interval-certified bounds; fixed rational coset boundary and framed transport, not a singular Dirac Quillen calculation"
+}

@@ -1,0 +1,4006 @@
+{
+  "scope": "New conditional SU(2)_k Chern-Simons/WZW model; not the old level-one theory",
+  "checks": [
+    {
+      "name": "Quaternion squares and commutator",
+      "passed": true
+    },
+    {
+      "name": "Both prescribed quaternion normalizers",
+      "passed": true
+    },
+    {
+      "name": "Adjoint axes (A,C,B)",
+      "passed": true
+    },
+    {
+      "name": "Source intertwiner on both generators",
+      "passed": true
+    },
+    {
+      "name": "Genuine source metaplectic relations",
+      "passed": true
+    },
+    {
+      "name": "Level 1: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 1: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 1: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 2: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 2: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 2: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 2: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 3: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 3: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 3: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 4: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 4: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 4: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 4: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 5: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 5: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 5: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 6: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 6: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 6: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 6: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 7: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 7: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 7: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 8: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 8: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 8: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 8: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 9: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 9: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 9: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 10: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 10: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 10: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 10: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 11: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 11: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 11: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 12: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 12: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 12: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 12: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 13: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 13: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 13: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 14: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 14: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 14: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 14: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 15: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 15: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 15: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 16: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 16: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 16: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 16: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 17: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 17: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 17: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 18: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 18: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 18: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 18: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 19: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 19: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 19: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 20: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 20: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 20: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 20: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 21: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 21: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 21: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 22: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 22: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 22: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 22: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 23: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 23: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 23: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 24: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 24: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 24: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 24: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 25: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 25: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 25: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 26: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 26: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 26: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 26: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 27: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 27: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 27: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 28: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 28: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 28: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 28: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 29: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 29: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 29: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 30: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 30: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 30: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 30: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 31: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 31: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 31: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 32: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 32: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 32: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 32: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 33: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 33: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 33: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 34: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 34: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 34: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 34: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 35: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 35: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 35: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 36: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 36: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 36: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 36: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 37: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 37: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 37: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 38: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 38: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 38: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 38: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 39: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 39: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 39: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 40: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 40: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 40: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 40: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 41: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 41: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 41: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 42: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 42: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 42: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 42: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 43: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 43: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 43: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 44: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 44: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 44: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 44: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 45: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 45: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 45: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 46: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 46: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 46: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 46: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 47: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 47: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 47: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 48: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 48: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 48: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 48: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 49: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 49: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 49: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 50: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 50: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 50: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 50: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 51: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 51: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 51: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 52: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 52: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 52: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 52: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 53: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 53: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 53: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 54: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 54: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 54: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 54: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 55: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 55: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 55: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 56: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 56: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 56: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 56: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 57: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 57: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 57: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 58: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 58: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 58: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 58: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 59: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 59: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 59: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 60: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 60: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 60: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 60: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 61: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 61: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 61: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 62: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 62: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 62: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 62: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 63: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 63: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 63: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 64: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 64: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 64: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 64: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 65: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 65: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 65: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 66: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 66: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 66: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 66: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 67: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 67: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 67: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 68: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 68: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 68: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 68: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 69: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 69: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 69: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 70: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 70: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 70: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 70: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 71: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 71: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 71: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 72: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 72: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 72: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 72: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 73: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 73: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 73: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 74: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 74: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 74: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 74: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 75: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 75: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 75: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 76: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 76: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 76: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 76: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 77: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 77: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 77: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 78: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 78: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 78: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 78: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Level 79: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 79: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 79: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 80: simple-current action",
+      "passed": true
+    },
+    {
+      "name": "Level 80: central-puncture rank",
+      "passed": true
+    },
+    {
+      "name": "Level 80: quantum center monodromy",
+      "passed": true
+    },
+    {
+      "name": "Level 80: unique handle twist exponent",
+      "passed": true
+    },
+    {
+      "name": "Necessary matching levels are 2 modulo 16",
+      "passed": true
+    },
+    {
+      "name": "SU2 level2 modular S unitary",
+      "passed": true
+    },
+    {
+      "name": "SU2 level2 modular relation",
+      "passed": true
+    },
+    {
+      "name": "SU2 level2 Verlinde coefficients",
+      "passed": true
+    },
+    {
+      "name": "Fusion associativity",
+      "passed": true
+    },
+    {
+      "name": "Frobenius Schur indicators including pseudoreal sigma",
+      "passed": true
+    },
+    {
+      "name": "Gauss Milgram chiral central charge",
+      "passed": true
+    },
+    {
+      "name": "Central line f has -1 monodromy with sigma",
+      "passed": true
+    },
+    {
+      "name": "All channel ribbon identities",
+      "passed": true
+    },
+    {
+      "name": "Complete multiplicity-free pentagon enumeration",
+      "passed": true,
+      "detail": {
+        "nonempty_blocks": 106
+      }
+    },
+    {
+      "name": "Both full hexagon families",
+      "passed": true,
+      "detail": {
+        "nonempty_blocks": 66
+      }
+    },
+    {
+      "name": "Wrong Frobenius sign fails hexagons",
+      "passed": true,
+      "detail": {
+        "failed_blocks": 2
+      }
+    },
+    {
+      "name": "Non-Abelian braid relation",
+      "passed": true
+    },
+    {
+      "name": "Braids really do not commute",
+      "passed": true
+    },
+    {
+      "name": "Quantum dimension of sigma",
+      "passed": true
+    },
+    {
+      "name": "Genus 1: vacuum and central puncture dimensions",
+      "passed": true
+    },
+    {
+      "name": "Genus 2: vacuum and central puncture dimensions",
+      "passed": true
+    },
+    {
+      "name": "Genus 3: vacuum and central puncture dimensions",
+      "passed": true
+    },
+    {
+      "name": "Genus 4: vacuum and central puncture dimensions",
+      "passed": true
+    },
+    {
+      "name": "Genus 5: vacuum and central puncture dimensions",
+      "passed": true
+    },
+    {
+      "name": "Genus 6: vacuum and central puncture dimensions",
+      "passed": true
+    },
+    {
+      "name": "Genus 7: vacuum and central puncture dimensions",
+      "passed": true
+    },
+    {
+      "name": "Ramond zero-mode Clifford algebra",
+      "passed": true
+    },
+    {
+      "name": "Zero and nonzero modes anticommute",
+      "passed": true
+    },
+    {
+      "name": "Explicit Ramond insertion trace, not an ordinary partition",
+      "passed": true
+    },
+    {
+      "name": "Single Majorana insertion has zero trace",
+      "passed": true
+    },
+    {
+      "name": "Ramond leading exponent from h_sigma minus c/24",
+      "passed": true
+    },
+    {
+      "name": "Cubic Ramond insertion is nonzero on ground states",
+      "passed": true
+    },
+    {
+      "name": "Independent eta-cubed q coefficients through q60",
+      "passed": true
+    },
+    {
+      "name": "Three Majorana currents have level two (double pole delta)",
+      "passed": true
+    },
+    {
+      "name": "Cannot relabel level one currents as level two preserving OPE",
+      "passed": true
+    },
+    {
+      "name": "Quantum line metaplectic relations",
+      "passed": true
+    },
+    {
+      "name": "Quantum line equals source cohomology character",
+      "passed": true
+    },
+    {
+      "name": "Torus vacuum three-space is not manuscript triplet",
+      "passed": true
+    },
+    {
+      "name": "Vacuum torus spectrum fails even scalar-shift T test",
+      "passed": true
+    },
+    {
+      "name": "All positive words through length8 inventoried",
+      "passed": true
+    },
+    {
+      "name": "Key mapping-torus line phases",
+      "passed": true
+    }
+  ],
+  "named_checks": 322,
+  "coherence": {
+    "pentagon_blocks": 106,
+    "hexagon_blocks": 66,
+    "negative_control_failed_hexagons": 2
+  },
+  "level_scan": [
+    {
+      "k": 1,
+      "rank": 0,
+      "c": "1"
+    },
+    {
+      "k": 2,
+      "rank": 1,
+      "c": "3/2",
+      "handle_label": 1,
+      "T_exponent": "1/8",
+      "target_T_match": true
+    },
+    {
+      "k": 3,
+      "rank": 0,
+      "c": "9/5"
+    },
+    {
+      "k": 4,
+      "rank": 1,
+      "c": "2",
+      "handle_label": 2,
+      "T_exponent": "1/4",
+      "target_T_match": false
+    },
+    {
+      "k": 5,
+      "rank": 0,
+      "c": "15/7"
+    },
+    {
+      "k": 6,
+      "rank": 1,
+      "c": "9/4",
+      "handle_label": 3,
+      "T_exponent": "3/8",
+      "target_T_match": false
+    },
+    {
+      "k": 7,
+      "rank": 0,
+      "c": "7/3"
+    },
+    {
+      "k": 8,
+      "rank": 1,
+      "c": "12/5",
+      "handle_label": 4,
+      "T_exponent": "1/2",
+      "target_T_match": false
+    },
+    {
+      "k": 9,
+      "rank": 0,
+      "c": "27/11"
+    },
+    {
+      "k": 10,
+      "rank": 1,
+      "c": "5/2",
+      "handle_label": 5,
+      "T_exponent": "5/8",
+      "target_T_match": false
+    },
+    {
+      "k": 11,
+      "rank": 0,
+      "c": "33/13"
+    },
+    {
+      "k": 12,
+      "rank": 1,
+      "c": "18/7",
+      "handle_label": 6,
+      "T_exponent": "3/4",
+      "target_T_match": false
+    },
+    {
+      "k": 13,
+      "rank": 0,
+      "c": "13/5"
+    },
+    {
+      "k": 14,
+      "rank": 1,
+      "c": "21/8",
+      "handle_label": 7,
+      "T_exponent": "7/8",
+      "target_T_match": false
+    },
+    {
+      "k": 15,
+      "rank": 0,
+      "c": "45/17"
+    },
+    {
+      "k": 16,
+      "rank": 1,
+      "c": "8/3",
+      "handle_label": 8,
+      "T_exponent": "1",
+      "target_T_match": false
+    },
+    {
+      "k": 17,
+      "rank": 0,
+      "c": "51/19"
+    },
+    {
+      "k": 18,
+      "rank": 1,
+      "c": "27/10",
+      "handle_label": 9,
+      "T_exponent": "9/8",
+      "target_T_match": true
+    },
+    {
+      "k": 19,
+      "rank": 0,
+      "c": "19/7"
+    },
+    {
+      "k": 20,
+      "rank": 1,
+      "c": "30/11",
+      "handle_label": 10,
+      "T_exponent": "5/4",
+      "target_T_match": false
+    },
+    {
+      "k": 21,
+      "rank": 0,
+      "c": "63/23"
+    },
+    {
+      "k": 22,
+      "rank": 1,
+      "c": "11/4",
+      "handle_label": 11,
+      "T_exponent": "11/8",
+      "target_T_match": false
+    },
+    {
+      "k": 23,
+      "rank": 0,
+      "c": "69/25"
+    },
+    {
+      "k": 24,
+      "rank": 1,
+      "c": "36/13",
+      "handle_label": 12,
+      "T_exponent": "3/2",
+      "target_T_match": false
+    },
+    {
+      "k": 25,
+      "rank": 0,
+      "c": "25/9"
+    },
+    {
+      "k": 26,
+      "rank": 1,
+      "c": "39/14",
+      "handle_label": 13,
+      "T_exponent": "13/8",
+      "target_T_match": false
+    },
+    {
+      "k": 27,
+      "rank": 0,
+      "c": "81/29"
+    },
+    {
+      "k": 28,
+      "rank": 1,
+      "c": "14/5",
+      "handle_label": 14,
+      "T_exponent": "7/4",
+      "target_T_match": false
+    },
+    {
+      "k": 29,
+      "rank": 0,
+      "c": "87/31"
+    },
+    {
+      "k": 30,
+      "rank": 1,
+      "c": "45/16",
+      "handle_label": 15,
+      "T_exponent": "15/8",
+      "target_T_match": false
+    },
+    {
+      "k": 31,
+      "rank": 0,
+      "c": "31/11"
+    },
+    {
+      "k": 32,
+      "rank": 1,
+      "c": "48/17",
+      "handle_label": 16,
+      "T_exponent": "2",
+      "target_T_match": false
+    },
+    {
+      "k": 33,
+      "rank": 0,
+      "c": "99/35"
+    },
+    {
+      "k": 34,
+      "rank": 1,
+      "c": "17/6",
+      "handle_label": 17,
+      "T_exponent": "17/8",
+      "target_T_match": true
+    },
+    {
+      "k": 35,
+      "rank": 0,
+      "c": "105/37"
+    },
+    {
+      "k": 36,
+      "rank": 1,
+      "c": "54/19",
+      "handle_label": 18,
+      "T_exponent": "9/4",
+      "target_T_match": false
+    },
+    {
+      "k": 37,
+      "rank": 0,
+      "c": "37/13"
+    },
+    {
+      "k": 38,
+      "rank": 1,
+      "c": "57/20",
+      "handle_label": 19,
+      "T_exponent": "19/8",
+      "target_T_match": false
+    },
+    {
+      "k": 39,
+      "rank": 0,
+      "c": "117/41"
+    },
+    {
+      "k": 40,
+      "rank": 1,
+      "c": "20/7",
+      "handle_label": 20,
+      "T_exponent": "5/2",
+      "target_T_match": false
+    },
+    {
+      "k": 41,
+      "rank": 0,
+      "c": "123/43"
+    },
+    {
+      "k": 42,
+      "rank": 1,
+      "c": "63/22",
+      "handle_label": 21,
+      "T_exponent": "21/8",
+      "target_T_match": false
+    },
+    {
+      "k": 43,
+      "rank": 0,
+      "c": "43/15"
+    },
+    {
+      "k": 44,
+      "rank": 1,
+      "c": "66/23",
+      "handle_label": 22,
+      "T_exponent": "11/4",
+      "target_T_match": false
+    },
+    {
+      "k": 45,
+      "rank": 0,
+      "c": "135/47"
+    },
+    {
+      "k": 46,
+      "rank": 1,
+      "c": "23/8",
+      "handle_label": 23,
+      "T_exponent": "23/8",
+      "target_T_match": false
+    },
+    {
+      "k": 47,
+      "rank": 0,
+      "c": "141/49"
+    },
+    {
+      "k": 48,
+      "rank": 1,
+      "c": "72/25",
+      "handle_label": 24,
+      "T_exponent": "3",
+      "target_T_match": false
+    },
+    {
+      "k": 49,
+      "rank": 0,
+      "c": "49/17"
+    },
+    {
+      "k": 50,
+      "rank": 1,
+      "c": "75/26",
+      "handle_label": 25,
+      "T_exponent": "25/8",
+      "target_T_match": true
+    },
+    {
+      "k": 51,
+      "rank": 0,
+      "c": "153/53"
+    },
+    {
+      "k": 52,
+      "rank": 1,
+      "c": "26/9",
+      "handle_label": 26,
+      "T_exponent": "13/4",
+      "target_T_match": false
+    },
+    {
+      "k": 53,
+      "rank": 0,
+      "c": "159/55"
+    },
+    {
+      "k": 54,
+      "rank": 1,
+      "c": "81/28",
+      "handle_label": 27,
+      "T_exponent": "27/8",
+      "target_T_match": false
+    },
+    {
+      "k": 55,
+      "rank": 0,
+      "c": "55/19"
+    },
+    {
+      "k": 56,
+      "rank": 1,
+      "c": "84/29",
+      "handle_label": 28,
+      "T_exponent": "7/2",
+      "target_T_match": false
+    },
+    {
+      "k": 57,
+      "rank": 0,
+      "c": "171/59"
+    },
+    {
+      "k": 58,
+      "rank": 1,
+      "c": "29/10",
+      "handle_label": 29,
+      "T_exponent": "29/8",
+      "target_T_match": false
+    },
+    {
+      "k": 59,
+      "rank": 0,
+      "c": "177/61"
+    },
+    {
+      "k": 60,
+      "rank": 1,
+      "c": "90/31",
+      "handle_label": 30,
+      "T_exponent": "15/4",
+      "target_T_match": false
+    },
+    {
+      "k": 61,
+      "rank": 0,
+      "c": "61/21"
+    },
+    {
+      "k": 62,
+      "rank": 1,
+      "c": "93/32",
+      "handle_label": 31,
+      "T_exponent": "31/8",
+      "target_T_match": false
+    },
+    {
+      "k": 63,
+      "rank": 0,
+      "c": "189/65"
+    },
+    {
+      "k": 64,
+      "rank": 1,
+      "c": "32/11",
+      "handle_label": 32,
+      "T_exponent": "4",
+      "target_T_match": false
+    },
+    {
+      "k": 65,
+      "rank": 0,
+      "c": "195/67"
+    },
+    {
+      "k": 66,
+      "rank": 1,
+      "c": "99/34",
+      "handle_label": 33,
+      "T_exponent": "33/8",
+      "target_T_match": true
+    },
+    {
+      "k": 67,
+      "rank": 0,
+      "c": "67/23"
+    },
+    {
+      "k": 68,
+      "rank": 1,
+      "c": "102/35",
+      "handle_label": 34,
+      "T_exponent": "17/4",
+      "target_T_match": false
+    },
+    {
+      "k": 69,
+      "rank": 0,
+      "c": "207/71"
+    },
+    {
+      "k": 70,
+      "rank": 1,
+      "c": "35/12",
+      "handle_label": 35,
+      "T_exponent": "35/8",
+      "target_T_match": false
+    },
+    {
+      "k": 71,
+      "rank": 0,
+      "c": "213/73"
+    },
+    {
+      "k": 72,
+      "rank": 1,
+      "c": "108/37",
+      "handle_label": 36,
+      "T_exponent": "9/2",
+      "target_T_match": false
+    },
+    {
+      "k": 73,
+      "rank": 0,
+      "c": "73/25"
+    },
+    {
+      "k": 74,
+      "rank": 1,
+      "c": "111/38",
+      "handle_label": 37,
+      "T_exponent": "37/8",
+      "target_T_match": false
+    },
+    {
+      "k": 75,
+      "rank": 0,
+      "c": "225/77"
+    },
+    {
+      "k": 76,
+      "rank": 1,
+      "c": "38/13",
+      "handle_label": 38,
+      "T_exponent": "19/4",
+      "target_T_match": false
+    },
+    {
+      "k": 77,
+      "rank": 0,
+      "c": "231/79"
+    },
+    {
+      "k": 78,
+      "rank": 1,
+      "c": "117/40",
+      "handle_label": 39,
+      "T_exponent": "39/8",
+      "target_T_match": false
+    },
+    {
+      "k": 79,
+      "rank": 0,
+      "c": "79/27"
+    },
+    {
+      "k": 80,
+      "rank": 1,
+      "c": "120/41",
+      "handle_label": 40,
+      "T_exponent": "5",
+      "target_T_match": false
+    }
+  ],
+  "T_matching_levels": [
+    2,
+    18,
+    34,
+    50,
+    66
+  ],
+  "genus_dimensions": [
+    {
+      "g": 1,
+      "vacuum": 3,
+      "central_puncture": 1
+    },
+    {
+      "g": 2,
+      "vacuum": 10,
+      "central_puncture": 6
+    },
+    {
+      "g": 3,
+      "vacuum": 36,
+      "central_puncture": 28
+    },
+    {
+      "g": 4,
+      "vacuum": 136,
+      "central_puncture": 120
+    },
+    {
+      "g": 5,
+      "vacuum": 528,
+      "central_puncture": 496
+    },
+    {
+      "g": 6,
+      "vacuum": 2080,
+      "central_puncture": 2016
+    },
+    {
+      "g": 7,
+      "vacuum": 8256,
+      "central_puncture": 8128
+    }
+  ],
+  "matrices": {
+    "S_SU2_2": "Matrix([[1/2, sqrt(2)/2, 1/2], [sqrt(2)/2, 0, -sqrt(2)/2], [1/2, -sqrt(2)/2, 1/2]])",
+    "T_SU2_2": "Matrix([[sqrt(sqrt(2)/4 + 1/2) - I*sqrt(1/2 - sqrt(2)/4), 0, 0], [0, sqrt(2)/2 + sqrt(2)*I/2, 0], [0, 0, -sqrt(sqrt(2)/4 + 1/2) + I*sqrt(1/2 - sqrt(2)/4)]])",
+    "F_sigma": "Matrix([[-sqrt(2)/2, -sqrt(2)/2], [-sqrt(2)/2, sqrt(2)/2]])",
+    "braid1": "Matrix([[-sqrt(1/2 - sqrt(2)/4) + I*sqrt(sqrt(2)/4 + 1/2), 0], [0, sqrt(sqrt(2)/4 + 1/2) + I*sqrt(1/2 - sqrt(2)/4)]])",
+    "braid2": "Matrix([[-sqrt(1/2 - sqrt(2)/4)/2 + sqrt(sqrt(2)/4 + 1/2)/2 + I*sqrt(1/2 - sqrt(2)/4)/2 + I*sqrt(sqrt(2)/4 + 1/2)/2, -sqrt(sqrt(2)/4 + 1/2)/2 - sqrt(1/2 - sqrt(2)/4)/2 - I*sqrt(1/2 - sqrt(2)/4)/2 + I*sqrt(sqrt(2)/4 + 1/2)/2], [-sqrt(sqrt(2)/4 + 1/2)/2 - sqrt(1/2 - sqrt(2)/4)/2 - I*sqrt(1/2 - sqrt(2)/4)/2 + I*sqrt(sqrt(2)/4 + 1/2)/2, -sqrt(1/2 - sqrt(2)/4)/2 + sqrt(sqrt(2)/4 + 1/2)/2 + I*sqrt(1/2 - sqrt(2)/4)/2 + I*sqrt(sqrt(2)/4 + 1/2)/2]])",
+    "OL": "Matrix([[1, 0, 0], [0, 0, 1], [0, -1, 0]])",
+    "OR": "Matrix([[0, -1, 0], [1, 0, 0], [0, 0, 1]])",
+    "source_T": "Matrix([[sqrt(2)/2 + sqrt(2)*I/2, 0, 0], [0, 0, sqrt(2)/2 + sqrt(2)*I/2], [0, -sqrt(2)/2 - sqrt(2)*I/2, 0]])",
+    "source_S": "Matrix([[0, 0, -sqrt(2)*(1 - I)*(-sqrt(2)/2 + sqrt(2)*I/2)*(sqrt(2)/2 - sqrt(2)*I/2)/2], [0, sqrt(2)*(1 - I)*(-sqrt(2)/2 + sqrt(2)*I/2)*(sqrt(2)/2 - sqrt(2)*I/2)/2, 0], [sqrt(2)*(1 - I)*(sqrt(2)/2 - sqrt(2)*I/2)**2/2, 0, 0]])"
+  },
+  "Ramond_trace_one_level": "-sqrt(2)*q**3/2 + 3*sqrt(2)*q**2/2 - 3*sqrt(2)*q/2 + sqrt(2)/2",
+  "eta_cube_relative_coefficients": [
+    1,
+    -3,
+    0,
+    5,
+    0,
+    0,
+    -7,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    -11,
+    0,
+    0,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -19,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    21,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "vacuum_T_exponents": [
+    "15/16",
+    "1/8",
+    "7/16"
+  ],
+  "source_T_exponents": [
+    "1/8",
+    "3/8",
+    "7/8"
+  ],
+  "indicators": [
+    "1",
+    "-1",
+    "1"
+  ],
+  "positive_words": [
+    {
+      "word": "L",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "R",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLLL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LLLLR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLLRL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLLRR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLRLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLRLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLRRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLRRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRLLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LRLLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRLRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRLRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRRLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRRLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRRRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRRRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RLLLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RLLLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLLRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLLRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLRLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLRLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLRRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLRRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRLLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RRLLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRLRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRLRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRRLL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRRLR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRRRL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRRRR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLLLLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLLLLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLLRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLLRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLRLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLRLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLRRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLRRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLRLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRLLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRLLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRRLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLLLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLLLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLRLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRLLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRLLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRLLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRRLLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRLRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRLRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRRLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRRLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRRRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRRRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLLLLL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LLLLLLR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LLLLLRL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LLLLLRR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLLLRLL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LLLLRLR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLLLRRL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLLLRRR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLLRLLL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LLLRLLR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLLRLRL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLLRLRR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLLRRLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLLRRLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLLRRRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLLRRRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LLRLLLL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LLRLLLR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLRLLRL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLRLLRR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLRLRLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLRLRLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLRLRRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLRLRRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LLRRLLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LLRRLLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLRRLRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLRRLRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LLRRRLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLRRRLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LLRRRRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LLRRRRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LRLLLLL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LRLLLLR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LRLLLRL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LRLLLRR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRLLRLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LRLLRLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRLLRRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRLLRRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRLRLLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LRLRLLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRLRLRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRLRLRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRLRRLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRLRRLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRLRRRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRLRRRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LRRLLLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "LRRLLLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRRLLRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRRLLRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRRLRLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRRLRLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRRLRRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRRLRRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LRRRLLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LRRRLLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRRRLRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRRRLRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LRRRRLL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "LRRRRLR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LRRRRRL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "LRRRRRR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RLLLLLL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RLLLLLR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RLLLLRL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RLLLLRR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLLLRLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RLLLRLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLLLRRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLLLRRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLLRLLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RLLRLLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLLRLRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLLRLRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLLRRLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLLRRLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLLRRRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLLRRRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RLRLLLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RLRLLLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLRLLRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLRLLRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLRLRLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLRLRLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLRLRRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLRLRRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RLRRLLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RLRRLLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLRRLRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLRRLRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RLRRRLL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RLRRRLR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RLRRRRL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RLRRRRR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RRLLLLL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RRLLLLR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RRLLLRL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RRLLLRR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRLLRLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RRLLRLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRLLRRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRLLRRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRLRLLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RRLRLLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRLRLRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRLRLRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRLRRLL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRLRRLR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRLRRRL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRLRRRR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RRRLLLL",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "RRRLLLR",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRRLLRL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRRLLRR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRRLRLL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRRLRLR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRRLRRL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRRLRRR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RRRRLLL",
+      "phase_turns": "7/8"
+    },
+    {
+      "word": "RRRRLLR",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRRRLRL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRRRLRR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RRRRRLL",
+      "phase_turns": "5/8"
+    },
+    {
+      "word": "RRRRRLR",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RRRRRRL",
+      "phase_turns": "3/8"
+    },
+    {
+      "word": "RRRRRRR",
+      "phase_turns": "1/8"
+    },
+    {
+      "word": "LLLLLLLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLLLLLLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLLLLLRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLLLLLRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLLLRLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLLLLRLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLLLRRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLLLRRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLLRLLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLLLRLLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLLRLRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLLRLRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLLRRLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLLRRLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLLRRRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLLRRRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLLRLLLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLLRLLLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLRLLRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLRLLRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLRLRLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLRLRLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLRLRRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLRLRRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLLRRLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLLRRLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLRRLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLRRLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLLRRRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLLRRRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLLRRRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLLRRRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLRLLLLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLRLLLLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLRLLLRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLRLLLRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRLLRLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLRLLRLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRLLRRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRLLRRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRLRLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLRLRLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRLRLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRLRLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRLRRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRLRRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRLRRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRLRRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLRRLLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LLRRLLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRRLLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRRLLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRRLRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRRLRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRRLRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRRLRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLRRRLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LLRRRLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRRRLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRRRLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLRRRRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LLRRRRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLRRRRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LLRRRRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRLLLLLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRLLLLLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRLLLLRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRLLLLRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLLLRLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRLLLRLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLLLRRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLLLRRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLLRLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRLLRLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLLRLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLLRLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLLRRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLLRRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLLRRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLLRRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRLRLLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRLRLLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLRLLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLRLLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLRLRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLRLRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLRLRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLRLRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRLRRLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRLRRLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLRRLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLRRLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRLRRRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRLRRRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRLRRRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRLRRRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRRLLLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRRLLLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRRLLLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRRLLLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRLLRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRRLLRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRLLRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRLLRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRLRLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRRLRLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRLRLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRLRLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRLRRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRLRRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRLRRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRLRRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRRRLLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "LRRRLLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRRLLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRRLLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRRLRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRRLRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRRLRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRRLRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRRRRLLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "LRRRRLLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRRRLRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRRRLRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRRRRRLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "LRRRRRLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRRRRRRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "LRRRRRRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLLLLLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLLLLLLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLLLLLRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLLLLLRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLLLRLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLLLLRLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLLLRRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLLLRRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLLRLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLLLRLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLLRLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLLRLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLLRRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLLRRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLLRRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLLRRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLLRLLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLLRLLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLRLLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLRLLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLRLRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLRLRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLRLRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLRLRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLLRRLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLLRRLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLRRLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLRRLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLLRRRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLLRRRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLLRRRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLLRRRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLRLLLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLRLLLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLRLLLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLRLLLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRLLRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLRLLRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRLLRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRLLRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRLRLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLRLRLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRLRLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRLRLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRLRRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRLRRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRLRRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRLRRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLRRLLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RLRRLLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRRLLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRRLLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRRLRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRRLRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRRLRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRRLRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLRRRLLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RLRRRLLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRRRLRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRRRLRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLRRRRLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RLRRRRLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLRRRRRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RLRRRRRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRLLLLLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRLLLLLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRLLLLRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRLLLLRR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLLLRLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRLLLRLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLLLRRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLLLRRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLLRLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRLLRLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLLRLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLLRLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLLRRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLLRRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLLRRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLLRRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRLRLLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRLRLLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLRLLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLRLLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLRLRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLRLRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLRLRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLRLRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRLRRLLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRLRRLLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLRRLRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLRRLRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRLRRRLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRLRRRLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRLRRRRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRLRRRRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRRLLLLL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRRLLLLR",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRRLLLRL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRRLLLRR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRLLRLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRRLLRLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRLLRRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRLLRRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRLRLLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRRLRLLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRLRLRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRLRLRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRLRRLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRLRRLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRLRRRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRLRRRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRRRLLLL",
+      "phase_turns": "0"
+    },
+    {
+      "word": "RRRRLLLR",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRRLLRL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRRLLRR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRRLRLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRRLRLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRRLRRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRRLRRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRRRRLLL",
+      "phase_turns": "3/4"
+    },
+    {
+      "word": "RRRRRLLR",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRRRLRL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRRRLRR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRRRRRLL",
+      "phase_turns": "1/2"
+    },
+    {
+      "word": "RRRRRRLR",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRRRRRRL",
+      "phase_turns": "1/4"
+    },
+    {
+      "word": "RRRRRRRR",
+      "phase_turns": "0"
+    }
+  ]
+}

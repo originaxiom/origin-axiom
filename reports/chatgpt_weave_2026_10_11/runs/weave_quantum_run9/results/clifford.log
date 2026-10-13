@@ -1,0 +1,5 @@
+{
+  "passed": 9,
+  "reference_trace": "-3888*sqrt(2)/16807",
+  "ratio": "25/18"
+}

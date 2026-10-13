@@ -1,0 +1,1008 @@
+{
+  "dps": 80,
+  "count": 200,
+  "max_residual": 5.4002402532891e-80,
+  "checks": [
+    {
+      "name": "tau0/point0 unit direction",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 A period spinor",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 B period spinor",
+      "residual": "1.2070163694881e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 A period direction",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 B period direction",
+      "residual": "1.8259622461123e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 smooth numerator Wronskian",
+      "residual": "3.5913135508084e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 target-independent scale cancellation",
+      "residual": "3.3337357044951e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 old half-pole profile same projector",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 T field transformation",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 S field transformation",
+      "residual": "1.5813296914846e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 R field transformation",
+      "residual": "1.8259622461123e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 S spinor transformation",
+      "residual": "2.0353829359454e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 first order minimum equation",
+      "residual": "3.1626593829692e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 nonlinear Euler Lagrange",
+      "residual": "1.9324168026425e-80",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 three-vector topological density",
+      "residual": "3.1626593829692e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 action density saturates bound",
+      "residual": "1.0011568142749e-80",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 conformality metric",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 orthogonal translation zero modes",
+      "residual": "1.0305969979528e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point0 curvature density",
+      "residual": "2.6355494858076e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 unit direction",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 A period spinor",
+      "residual": "5.0555708729308e-82",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 B period spinor",
+      "residual": "5.1117241946592e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 A period direction",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 B period direction",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 smooth numerator Wronskian",
+      "residual": "1.8151086750325e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 target-independent scale cancellation",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 old half-pole profile same projector",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 T field transformation",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 S field transformation",
+      "residual": "2.1733297823054e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 R field transformation",
+      "residual": "1.6668678522475e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 S spinor transformation",
+      "residual": "1.0176246978794e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 first order minimum equation",
+      "residual": "4.2168791772922e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 nonlinear Euler Lagrange",
+      "residual": "2.3854270893661e-80",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 three-vector topological density",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 action density saturates bound",
+      "residual": "5.9119395377693e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 conformality metric",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 orthogonal translation zero modes",
+      "residual": "7.3481590942916e-82",
+      "passed": true
+    },
+    {
+      "name": "tau0/point1 curvature density",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau0 puncture is regular critical point",
+      "residual": "1.4116836735336e-932",
+      "passed": true
+    },
+    {
+      "name": "tau0 anti texture charge reverses",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 unit direction",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 A period spinor",
+      "residual": "2.2753008180196e-83",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 B period spinor",
+      "residual": "2.5065016031377e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 A period direction",
+      "residual": "2.4708276429447e-83",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 B period direction",
+      "residual": "4.8953159007245e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 smooth numerator Wronskian",
+      "residual": "5.7235413394853e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 target-independent scale cancellation",
+      "residual": "1.4936420482678e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 old half-pole profile same projector",
+      "residual": "2.3575373178665e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 T field transformation",
+      "residual": "2.1413839572187e-82",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 S field transformation",
+      "residual": "1.0634769266552e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 R field transformation",
+      "residual": "1.0657706905901e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 S spinor transformation",
+      "residual": "1.9979125922871e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 first order minimum equation",
+      "residual": "2.9817838617077e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 nonlinear Euler Lagrange",
+      "residual": "8.5688296324301e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 three-vector topological density",
+      "residual": "7.9066484574229e-82",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 action density saturates bound",
+      "residual": "1.3504018280935e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 conformality metric",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 orthogonal translation zero modes",
+      "residual": "1.5249425973734e-82",
+      "passed": true
+    },
+    {
+      "name": "tau1/point0 curvature density",
+      "residual": "7.9066484574229e-82",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 unit direction",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 A period spinor",
+      "residual": "2.5428801086296e-82",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 B period spinor",
+      "residual": "3.5661445092961e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 A period direction",
+      "residual": "5.2710989716153e-82",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 B period direction",
+      "residual": "1.7679803424991e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 smooth numerator Wronskian",
+      "residual": "3.3963449173526e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 target-independent scale cancellation",
+      "residual": "5.2710989716153e-82",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 old half-pole profile same projector",
+      "residual": "1.4192868338433e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 T field transformation",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 S field transformation",
+      "residual": "1.9005217620204e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 R field transformation",
+      "residual": "3.1626593829692e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 S spinor transformation",
+      "residual": "2.4618871079214e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 first order minimum equation",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 nonlinear Euler Lagrange",
+      "residual": "2.1084395886461e-80",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 three-vector topological density",
+      "residual": "1.5813296914846e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 action density saturates bound",
+      "residual": "4.7348349071786e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 conformality metric",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 orthogonal translation zero modes",
+      "residual": "2.1234234040482e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1/point1 curvature density",
+      "residual": "1.5813296914846e-81",
+      "passed": true
+    },
+    {
+      "name": "tau1 puncture is regular critical point",
+      "residual": "5.7302816892717e-1026",
+      "passed": true
+    },
+    {
+      "name": "tau1 anti texture charge reverses",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 unit direction",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 A period spinor",
+      "residual": "1.6571550574837e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 B period spinor",
+      "residual": "1.7001735167575e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 A period direction",
+      "residual": "2.3573071233322e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 B period direction",
+      "residual": "1.4908919308538e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 smooth numerator Wronskian",
+      "residual": "8.343787819626e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 target-independent scale cancellation",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 old half-pole profile same projector",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 T field transformation",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 S field transformation",
+      "residual": "2.4155210033031e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 R field transformation",
+      "residual": "2.3573071233322e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 S spinor transformation",
+      "residual": "1.9569497396109e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 first order minimum equation",
+      "residual": "2.9817838617077e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 nonlinear Euler Lagrange",
+      "residual": "8.4337583545844e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 three-vector topological density",
+      "residual": "5.2710989716153e-82",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 action density saturates bound",
+      "residual": "4.6632799138243e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 conformality metric",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 orthogonal translation zero modes",
+      "residual": "1.8294960005129e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point0 curvature density",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 unit direction",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 A period spinor",
+      "residual": "4.9553221052637e-82",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 B period spinor",
+      "residual": "2.8318272106228e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 A period direction",
+      "residual": "9.2244232003267e-82",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 B period direction",
+      "residual": "2.7166622278818e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 smooth numerator Wronskian",
+      "residual": "8.4240877879617e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 target-independent scale cancellation",
+      "residual": "1.0866648911527e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 old half-pole profile same projector",
+      "residual": "1.4967043970723e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 T field transformation",
+      "residual": "2.6355494858076e-82",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 S field transformation",
+      "residual": "3.9533242287114e-82",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 R field transformation",
+      "residual": "1.5813296914846e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 S spinor transformation",
+      "residual": "8.1175548512919e-82",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 first order minimum equation",
+      "residual": "4.3466595646109e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 nonlinear Euler Lagrange",
+      "residual": "3.7716913973315e-80",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 three-vector topological density",
+      "residual": "8.4337583545844e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 action density saturates bound",
+      "residual": "8.341862506376e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 conformality metric",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 orthogonal translation zero modes",
+      "residual": "5.1032595648332e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2/point1 curvature density",
+      "residual": "5.2710989716153e-81",
+      "passed": true
+    },
+    {
+      "name": "tau2 puncture is regular critical point",
+      "residual": "3.6204890526825e-811",
+      "passed": true
+    },
+    {
+      "name": "tau2 anti texture charge reverses",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 unit direction",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 A period spinor",
+      "residual": "9.1175718846847e-82",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 B period spinor",
+      "residual": "4.8239516873789e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 A period direction",
+      "residual": "1.5813296914846e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 B period direction",
+      "residual": "1.5813296914846e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 smooth numerator Wronskian",
+      "residual": "4.1237452585191e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 target-independent scale cancellation",
+      "residual": "7.4544596542692e-82",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 old half-pole profile same projector",
+      "residual": "2.5823005728333e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 T field transformation",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 S field transformation",
+      "residual": "1.9005217620204e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 R field transformation",
+      "residual": "1.1786535616661e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 S spinor transformation",
+      "residual": "5.0029385245532e-82",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 first order minimum equation",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 nonlinear Euler Lagrange",
+      "residual": "8.4337583545844e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 three-vector topological density",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 action density saturates bound",
+      "residual": "4.7150063816859e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 conformality metric",
+      "residual": "4.7150063816859e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 orthogonal translation zero modes",
+      "residual": "1.1778509683027e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point0 curvature density",
+      "residual": "2.1084395886461e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 unit direction",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 A period spinor",
+      "residual": "8.802330590687e-82",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 B period spinor",
+      "residual": "6.1601423107578e-82",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 A period direction",
+      "residual": "1.7923674302763e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 B period direction",
+      "residual": "2.5313626187293e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 smooth numerator Wronskian",
+      "residual": "2.9135799515847e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 target-independent scale cancellation",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 old half-pole profile same projector",
+      "residual": "1.4967043970723e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 T field transformation",
+      "residual": "1.3177747429038e-82",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 S field transformation",
+      "residual": "3.9445292807122e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 R field transformation",
+      "residual": "4.1020700074123e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 S spinor transformation",
+      "residual": "2.0144611104727e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 first order minimum equation",
+      "residual": "3.8010435240409e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 nonlinear Euler Lagrange",
+      "residual": "3.8648336052849e-80",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 three-vector topological density",
+      "residual": "4.2168791772922e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 action density saturates bound",
+      "residual": "5.2782557857437e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 conformality metric",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 orthogonal translation zero modes",
+      "residual": "1.6606367125839e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3/point1 curvature density",
+      "residual": "4.2168791772922e-81",
+      "passed": true
+    },
+    {
+      "name": "tau3 puncture is regular critical point",
+      "residual": "1.8651110903727e-807",
+      "passed": true
+    },
+    {
+      "name": "tau3 anti texture charge reverses",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 unit direction",
+      "residual": "4.2168791772922e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 A period spinor",
+      "residual": "1.1083446423501e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 B period spinor",
+      "residual": "4.8766661280154e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 A period direction",
+      "residual": "2.5416318804443e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 B period direction",
+      "residual": "3.5359606849983e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 smooth numerator Wronskian",
+      "residual": "1.1872379470583e-80",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 target-independent scale cancellation",
+      "residual": "4.2496958525954e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 old half-pole profile same projector",
+      "residual": "5.8932678083305e-82",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 T field transformation",
+      "residual": "3.8374179750633e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 S field transformation",
+      "residual": "3.1433830904887e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 R field transformation",
+      "residual": "2.9140406714976e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 S spinor transformation",
+      "residual": "1.184317922496e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 first order minimum equation",
+      "residual": "8.450214484095e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 nonlinear Euler Lagrange",
+      "residual": "1.9890979297369e-80",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 three-vector topological density",
+      "residual": "3.1626593829692e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 action density saturates bound",
+      "residual": "3.1438347357535e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 conformality metric",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 orthogonal translation zero modes",
+      "residual": "1.6813302187551e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point0 curvature density",
+      "residual": "2.6355494858076e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 unit direction",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 A period spinor",
+      "residual": "6.8380709261875e-82",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 B period spinor",
+      "residual": "1.1011865062576e-80",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 A period direction",
+      "residual": "2.5823005728333e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 B period direction",
+      "residual": "9.4879781489075e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 smooth numerator Wronskian",
+      "residual": "1.0222950692828e-80",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 target-independent scale cancellation",
+      "residual": "1.1786535616661e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 old half-pole profile same projector",
+      "residual": "1.4908919308538e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 T field transformation",
+      "residual": "6.1471049072914e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 S field transformation",
+      "residual": "3.8010435240409e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 R field transformation",
+      "residual": "5.1914304230632e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 S spinor transformation",
+      "residual": "2.5355252776951e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 first order minimum equation",
+      "residual": "4.7146142466644e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 nonlinear Euler Lagrange",
+      "residual": "5.4002402532891e-80",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 three-vector topological density",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 action density saturates bound",
+      "residual": "1.4519266402068e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 conformality metric",
+      "residual": "0.0",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 orthogonal translation zero modes",
+      "residual": "3.991159996923e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4/point1 curvature density",
+      "residual": "1.0542197943231e-81",
+      "passed": true
+    },
+    {
+      "name": "tau4 puncture is regular critical point",
+      "residual": "2.0274643536628e-680",
+      "passed": true
+    },
+    {
+      "name": "tau4 anti texture charge reverses",
+      "residual": "0.0",
+      "passed": true
+    }
+  ],
+  "scope": "Direct-series, finite-cutoff numerical corroboration; no interval/tail certification. Analytic global integrals and Hessian theorem are separate."
+}

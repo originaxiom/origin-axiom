@@ -1,0 +1,251 @@
+{
+  "status": "all exact checks passed",
+  "check_count": 40,
+  "checks": [
+    "metric determinant / arbitrary common complex shape",
+    "anti-self-duality for every x and y>0",
+    "integrated gauge action g4^2 S = 4 pi^2",
+    "H wedge H = -2 times oriented volume",
+    "topological charge Q4=-1/2",
+    "curvature computed from the written connection",
+    "Yang--Mills equation: constant raised Abelian curvature",
+    "Bianchi identity",
+    "AD transition cocycle is -I in the fundamental",
+    "BC transition cocycle is -I in the fundamental",
+    "AB and CD have no centre twist",
+    "root-line cocycles close",
+    "all SL2 changes preserve mixed pairing",
+    "mixed flux under simultaneous L",
+    "mixed flux under simultaneous R",
+    "mixed flux under simultaneous S",
+    "eigen-holonomy coordinate is exactly z/2",
+    "detuned action equals 2 pi^2/g^2 (rho+rho^-1)",
+    "matching base/fibre complex shapes is equal cross areas",
+    "action excess nonnegative exact square",
+    "spin-one magnetic shifts",
+    "detuned Hessian has eigenvalues including +/- (B1-B2)",
+    "equal-strength Hessian is nonnegative with two charged polarizations",
+    "explicit unequal-strength negative control",
+    "AD lowest polarization",
+    "BC lowest polarization",
+    "ghost scalar ground is strictly positive",
+    "all Euclidean Clifford anticommutators",
+    "chirality involution and two neutral components each",
+    "charged root 1 has one zero spin polarization",
+    "charged root 1 has negative chirality",
+    "charged root -1 has one zero spin polarization",
+    "charged root -1 has negative chirality",
+    "index from curvature agrees with two charged roots",
+    "all sixteen spin structures preserve index, not individual kernels",
+    "periodic kernel includes neutral modes, total six",
+    "all-integer-spin index formula",
+    "integer-spin evenness corroboration",
+    "fundamental cocycle cannot descend to this SO3 bundle",
+    "no adjoint invariant on a Q8-twisted compactification fibre"
+  ],
+  "charge": "-1/2",
+  "action_g4_squared": "4*pi**2",
+  "metric": "Matrix([[area_b/y, area_b*x/y, 0, 0], [area_b*x/y, area_b*(x**2 + y**2)/y, 0, 0], [0, 0, area_f/y, area_f*x/y], [0, 0, area_f*x/y, area_f*(x**2 + y**2)/y]])",
+  "field_strength_coefficient": "Matrix([[0, 0, 0, -1], [0, 0, 1, 0], [0, -1, 0, 0], [1, 0, 0, 0]])",
+  "hodge_star_coefficient": "Matrix([[0, 0, 0, 1], [0, 0, -1, 0], [0, 1, 0, 0], [-1, 0, 0, 0]])",
+  "rectangular_action_g4_squared": "pi**2*(2*LA*LD/(LB*LC) + 2*LB*LC/(LA*LD))",
+  "lowest_charged_vector_eigenvalue": "-abs(B1-B2)",
+  "charged_fermion_kernel": [
+    {
+      "root_charge": 1,
+      "complex_zero_modes": 1,
+      "chirality": -1
+    },
+    {
+      "root_charge": -1,
+      "complex_zero_modes": 1,
+      "chirality": -1
+    }
+  ],
+  "spin_structure_census": [
+    {
+      "antiperiodic_bits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "n_plus": 2,
+      "n_minus": 4,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    },
+    {
+      "antiperiodic_bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "n_plus": 0,
+      "n_minus": 2,
+      "index": -2
+    }
+  ],
+  "index_integer_spin": "-2*j**3/3 - j**2 - j/3",
+  "boundaries": [
+    "The four-torus and action are supplied, not derived from OA.",
+    "This is not the E8/hyperbolic-parent or silver-boundary problem.",
+    "Theta-coordinate agreement is not equality of target metrics or quantum measures.",
+    "The Landau spin check is not a numerical infinite-dimensional eigensolver.",
+    "Euclidean instanton zero modes are not four-dimensional generations."
+  ]
+}

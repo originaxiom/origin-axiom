@@ -1,0 +1,25 @@
+PASS: all_Q8_cocycles_force_lift_z_square_plus_one
+PASS: spin_obstruction_certificate_XOR
+PASS: C2_order_four_spin_lift_allowed
+PASS: branch_polynomial_discriminant
+PASS: exactly_three_holomorphic_differentials
+PASS: curve_Q8_doublet_relations
+PASS: curve_doublet_determinants_one
+PASS: curve_deck_A_preserves_equation
+PASS: curve_deck_B_preserves_equation
+PASS: four_explicit_odd_spin_squares
+PASS: rotations_are_SO3
+PASS: full_T_factorization_eta_cubed
+PASS: full_S_factorization_eta_cubed
+PASS: target_central_S_fourth_minus_identity
+PASS: untwisted_S_fourth_plus_identity
+PASS: rotation_image_24_target_image_96
+PASS: target_scalar_center_four
+PASS: theta_translation_Q8_faithful
+PASS: quadratic_parity_A
+PASS: quadratic_parity_B
+PASS: numeric_theta_duplication_and_S_T_translations
+PASS: minimal_parabolic_indices_minus_plus_one
+COCYCLES: 42 rank, 7 dimension; certificate terms 8
+MAX NUMERICAL RESIDUAL: 8.43408409217e-81
+22 named checks passed

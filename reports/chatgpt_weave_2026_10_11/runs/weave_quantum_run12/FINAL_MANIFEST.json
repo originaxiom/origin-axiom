@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "path": "EXECUTION_RECEIPT.json",
+      "bytes": 631,
+      "sha256": "fc45875926b96afb7e833baabdfd59ca52a4b1a4872d6128493aba2f36464a68"
+    },
+    {
+      "path": "FIRST_RUN.log",
+      "bytes": 1158,
+      "sha256": "5e09391f39d754e0a7071f0bf94758a072619f2fae70adffea7797918ef3b478"
+    },
+    {
+      "path": "PRE_EXECUTION_PLAN.md",
+      "bytes": 2817,
+      "sha256": "29fa0dabcfed16f0610949f3ed2b8bd84992904be708759d6030530160248959"
+    },
+    {
+      "path": "PRE_EXECUTION_SEAL.json",
+      "bytes": 457,
+      "sha256": "375dabb5a7b63cd2c51b2467ca6b034943f524fecd4fbda77a6dd9f1455de464"
+    },
+    {
+      "path": "README.md",
+      "bytes": 862,
+      "sha256": "69f9b186258224cb57fef77333528f3f4fad136ebb55d25a6763d4994dbc8ea7"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 1945,
+      "sha256": "e56ff7f5d7a9089962c87a2312ff9c7addf6ba21dd7d198060a33a9a22ca40ed"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 3333,
+      "sha256": "c07ce2b40ee252936d60975942852ea8059dbfb774c342a466db7d41760216f2"
+    },
+    {
+      "path": "SPECTRAL_FIRST_RUN.log",
+      "bytes": 909,
+      "sha256": "e7c1c31d18622b46b9bc6b6ba50b2a19a87b22cd3275e5a91f74bf50799b5aaf"
+    },
+    {
+      "path": "SPECTRAL_PRE_EXECUTION_SEAL.json",
+      "bytes": 482,
+      "sha256": "5a1f37c980782244ca4d711012c146d80a7e2b79a14473c862de8505ef24e73d"
+    },
+    {
+      "path": "SPECTRAL_REFERENCE_RESULTS.json",
+      "bytes": 677,
+      "sha256": "16a18ffb3f4ee0664f388a34c22c8333f6f5ced3f859a42c5410851d9d0a85e9"
+    },
+    {
+      "path": "TECHNICAL_REPORT.md",
+      "bytes": 21479,
+      "sha256": "32cc242101817d9788c3fdf639002ca2d948ebc01aced659c192f69bbf1d2b55"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 15,
+      "sha256": "fe459e55afabdc4730d09318f2777b8e70e755292f42c221c2d602f809f70185"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 8082,
+      "sha256": "792dea10a18acb92a0c8b3db438aa50019772931045718ac41f8429d214cdef1"
+    },
+    {
+      "path": "verify_spectral_reference.py",
+      "bytes": 1957,
+      "sha256": "b669cbd13ce65fdb56e1ce4fd6e6a007e0cdd0e01c3bf98939e2afb40db935f8"
+    }
+  ],
+  "manifest_excludes_itself": true
+}

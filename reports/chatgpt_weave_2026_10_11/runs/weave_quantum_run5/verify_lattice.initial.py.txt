@@ -1,0 +1,178 @@
+#!/usr/bin/env python3
+"""All four spin traces of the two-complex-fermion charge deformation.
+
+This is a numerical corroboration of analytic lattice/Poisson formulas.
+Truncation refinement is not an interval certificate. Direct 4D numpy sums
+are a separately implemented double-precision check, not 80-digit evidence.
+"""
+from __future__ import annotations
+import argparse, json, math, cmath
+from functools import lru_cache
+from pathlib import Path
+import mpmath as mp
+import numpy as np
+
+ROOT=Path(__file__).resolve().parent
+parser=argparse.ArgumentParser()
+parser.add_argument('--dps',type=int,default=50)
+args=parser.parse_args()
+if args.dps<30: raise ValueError('Use at least 30 decimal digits')
+mp.mp.dps=args.dps
+checks=[]
+
+@lru_cache(None)
+def eta(tau):
+    q=mp.exp(2*mp.pi*1j*tau)
+    nmax=int(mp.ceil((mp.mp.dps+15)*mp.log(10)/(2*mp.pi*mp.im(tau))))+2
+    return mp.exp(mp.pi*1j*tau/12)*mp.fprod(1-q**n for n in range(1,nmax+1))
+
+@lru_cache(None)
+def theta(n,tau):
+    cutoff=int(mp.ceil(mp.sqrt((mp.mp.dps+15)*mp.log(10)/(mp.pi*mp.im(tau)))))+3
+    if n==2:
+        return mp.fsum(mp.exp(mp.pi*1j*tau*(mp.mpf(k)+mp.mpf('.5'))**2) for k in range(-cutoff,cutoff+1))
+    if n==3:
+        return mp.fsum(mp.exp(mp.pi*1j*tau*k*k) for k in range(-cutoff,cutoff+1))
+    if n==4:
+        return mp.fsum((-1)**k*mp.exp(mp.pi*1j*tau*k*k) for k in range(-cutoff,cutoff+1))
+    if n==1: return mp.mpf('0')
+    raise ValueError(n)
+
+
+def traces(tau,t,extra=0):
+    y,x=mp.im(tau),mp.re(tau)
+    if y<=0: raise ValueError('tau must be in upper half-plane')
+    t=mp.mpf(t)
+    lower=y*mp.exp(-2*abs(t))
+    N=int(mp.ceil(mp.sqrt(2*(mp.mp.dps+18)*mp.log(10)/(mp.pi*lower))))+2+extra
+    ch,sh=mp.cosh(2*t),mp.sinh(2*t)
+    xs=list(range(-N,N+1))
+    base={n:mp.exp(mp.pi*1j*x*n*n/2-mp.pi*y*ch*n*n/2) for n in xs}
+    kappa=-mp.pi*y*sh
+    cross={z:mp.exp(kappa*z) for z in {a*b for a in xs for b in xs}}
+    H=[]
+    for p in [0,1]:
+        row=[]
+        for q in [0,1]:
+            row.append(mp.fsum(base[a]*mp.conj(base[b])*cross[a*b] for a in xs if a%2==p for b in xs if b%2==q))
+        H.append(row)
+    f=[theta(3,2*tau),theta(2,2*tau)]
+    ans={}
+    for a in [0,1]: # twice spatial characteristic
+        for b in [0,1]: # twice temporal characteristic
+            ans[f'{a}{b}']=mp.fsum((-1)**(b*(p+q))*f[(p-a)%2]*mp.conj(f[(q-a)%2])*H[p][q] for p in [0,1] for q in [0,1])/abs(eta(tau))**4
+    return ans,N
+
+
+def residual(a,b): return abs(a-b)/max(mp.mpf(1),abs(b))
+def check(name,a,b,tol=None,kind='strict',meta=None):
+    err=residual(a,b)
+    threshold=mp.mpf(tol) if tol is not None else mp.power(10,-mp.mp.dps+10)
+    out={'name':name,'kind':kind,'passed':bool(err<threshold),'residual':mp.nstr(err,12),'tolerance':mp.nstr(threshold,8)}
+    if meta: out.update(meta)
+    checks.append(out)
+    if not out['passed']: raise AssertionError(out)
+
+
+def direct4(tau,t,N=7):
+    """Separate original-flavour lattice, not the parity regrouping above."""
+    tau=complex(tau); t=float(t)
+    z=cmath.exp(2j*math.pi*tau)
+    et=cmath.exp(1j*math.pi*tau/12)
+    for n in range(1,180): et*=1-z**n
+    out={}
+    grid=np.arange(-N,N+1,dtype=np.int64)
+    n1,n2,m1,m2=np.meshgrid(grid,grid,grid,grid,indexing='ij')
+    parity=(n1+n2+m1+m2)%2
+    ch,sh=math.cosh(t),math.sinh(t)
+    for a in [0,1]:
+        shift=a/2
+        aL=(n1-n2)/math.sqrt(2)
+        aR=(m1-m2)/math.sqrt(2)
+        bL=(n1+n2+2*shift)/math.sqrt(2)
+        bR=(m1+m2+2*shift)/math.sqrt(2)
+        l2=aL*aL+(ch*bL+sh*bR)**2
+        r2=aR*aR+(sh*bL+ch*bR)**2
+        terms=np.exp(1j*math.pi*tau*l2-1j*math.pi*tau.conjugate()*r2)
+        for b in [0,1]:
+            signs=np.ones_like(parity) if b==0 else 1-2*parity
+            out[f'{a}{b}']=complex(np.sum(signs*terms)/abs(et)**4)
+    return out
+
+
+def moment(s_order,tau,t=0):
+    """Even moment in the positive-square representation of Z11."""
+    y,x=mp.im(tau),mp.re(tau)
+    N=int(mp.ceil(mp.sqrt(2*(mp.mp.dps+15)*mp.log(10)/(mp.pi*y))))+3
+    f=[theta(3,2*tau),theta(2,2*tau)]
+    return mp.fsum((-1)**n*f[1-n%2]*n**s_order*mp.exp(mp.pi*1j*x*n*n/2-mp.pi*y*mp.cosh(2*t)*n*n/2) for n in range(-N,N+1))
+
+samples=[mp.mpc('0.17','1.13'),mp.mpc('-0.23','0.91'),mp.mpc('0','1')]
+cutoffs=[]
+# Free spin traces recover the original theta/eta controls, without imposing them.
+for j,tau in enumerate(samples):
+    Z,N=traces(tau,0); cutoffs.append(N)
+    for key,n in [('00',3),('01',4),('10',2),('11',1)]:
+        check(f'free_theta_{j}_{key}',Z[key],abs(theta(n,tau)/eta(tau))**4)
+
+# S and T covariance, evenness, and explicit finite truncation refinements.
+for j,(tau,tstr) in enumerate(zip(samples,['0.27','-0.41','0.58'])):
+    t=mp.mpf(tstr)
+    Z,N=traces(tau,t); cutoffs.append(N)
+    ZS,NS=traces(-1/tau,t); cutoffs.append(NS)
+    ZT,NT=traces(tau+1,t); cutoffs.append(NT)
+    Zminus,_=traces(tau,-t)
+    Zref,_=traces(tau,t,extra=3)
+    for a in [0,1]:
+        for b in [0,1]:
+            key=f'{a}{b}'
+            check(f'S_covariance_{j}_{key}',ZS[key],Z[f'{b}{a}'])
+            check(f'T_covariance_{j}_{key}',ZT[key],Z[f'{a}{(b+a+1)%2}'])
+            check(f'boost_reversal_{j}_{key}',Zminus[key],Z[key])
+            check(f'cutoff_refinement_{j}_{key}',Zref[key],Z[key],kind='truncation_refinement')
+            check(f'trace_reality_{j}_{key}',mp.im(Z[key]),0)
+    if not mp.re(Z['11'])>0: raise AssertionError('odd trace must be positive at nonzero deformation in fixed convention')
+    checks.append({'name':f'nonzero_odd_spin_{j}','kind':'positive_value','passed':True,'value':mp.nstr(mp.re(Z['11']),20)})
+
+# Direct four-dimensional original-flavour enumeration is a double-precision control.
+for j,tau in enumerate(samples[:2]):
+    t=mp.mpf('0.23')
+    Za,_=traces(tau,t)
+    Zb=direct4(tau,t,N=8)
+    for key in Za:
+        check(f'independent_original_4D_{j}_{key}',mp.mpc(Zb[key]),Za[key],tol='3e-13',kind='double_precision_control')
+
+# Odd-spin zero: exact analytic second derivative and small-t check.
+for j,tau in enumerate(samples):
+    y=mp.im(tau)
+    m0=moment(0,tau)
+    m1=moment(1,tau)
+    m2=moment(2,tau)
+    check(f'odd_zero_moment_{j}',m0,0)
+    check(f'odd_first_moment_{j}',m1,0)
+    # W2 = -4 eta^6, from the derivative of theta duplication or series moments.
+    check(f'odd_second_moment_identity_{j}',m2,-4*eta(tau)**6)
+    coefficient=(mp.pi*y*2)**2*abs(m2)**2/2/abs(eta(tau))**4
+    target=8*mp.pi**2*y*y*abs(eta(tau))**8
+    check(f'odd_second_variation_coefficient_{j}',coefficient,target)
+    eps=mp.power(10,-max(6,args.dps//7))
+    Z,_=traces(tau,eps)
+    check(f'odd_small_deformation_{j}',Z['11']/eps**2,target,tol=mp.power(10,-2*max(6,args.dps//7)+3),kind='finite_deformation_limit',meta={'t':mp.nstr(eps,8)})
+
+# Evaluate low terms of the nonnegative moment series, at a small but finite t.
+tau=samples[0]; t=mp.mpf('0.06'); kappa=mp.pi*mp.im(tau)*mp.sinh(2*t)
+partial=mp.fsum(kappa**(2*k)/mp.factorial(2*k)*abs(moment(2*k,tau,t))**2 for k in range(16))/abs(eta(tau))**4
+Z,_=traces(tau,t)
+check('odd_positive_moment_series',partial,Z['11'],tol='1e-18',kind='finite_series_control')
+
+# A compact table of the interaction-dependent exact conformal weights.
+weights=[]
+for tstr in ['0','0.2','0.5','1.0']:
+    t=mp.mpf(tstr); s=mp.sinh(t)
+    weights.append({'t':tstr,'h_psi':mp.nstr(mp.mpf('.5')+s*s/4,20),'hbar_psi':mp.nstr(s*s/4,20),'h_puncture_chiral_component':mp.nstr(mp.mpf('.25')+s*s/4,20)})
+summary={'dps':args.dps,'checks':checks,'count':len(checks),'max_cutoff':max(cutoffs),'weights':weights,
+ 'strict_max':mp.nstr(max(mp.mpf(z['residual']) for z in checks if z['kind']=='strict'),12),
+ 'caveats':['Truncations are refined but not interval-certified.','These are bulk spin-sector traces, not Q8-twisted punctured partition functions.','Double-precision and finite-limit controls are separately labelled.']}
+(ROOT/f'results_numerical_{args.dps}.json').write_text(json.dumps(summary,indent=2)+'\n')
+for z in checks: print('PASS',z['name'],z.get('residual',z.get('value','')))
+print('Numerical checks:',len(checks),'strict max:',summary['strict_max'],'max cutoff:',summary['max_cutoff'])

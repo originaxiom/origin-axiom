@@ -1,0 +1,200 @@
+{
+  "checks": {
+    "berezin_measure_orientation_is_a_sign": true,
+    "unsaturated_integral_vanishes": true,
+    "single_zero_insertion_has_one_determinant": true,
+    "one_insertion_0": true,
+    "one_insertion_1": true,
+    "one_insertion_2": true,
+    "two_psi_insertions_all_zero": true,
+    "product_of_integrals_can_be_nonzero": true,
+    "mixed_wick_correlators_share_one_determinant": true,
+    "left_right_quaternions_commute": true,
+    "faithful_quaternion_matrices": true,
+    "quaternion_level_one_double_poles": true,
+    "quaternion_su2_simple_poles": true,
+    "commuting_level_one_double_poles": true,
+    "commuting_su2_simple_poles": true,
+    "the_two_current_algebras_commute": true,
+    "three_current_parity_characters": true,
+    "three_other_currents_are_Q8_singlets": true,
+    "sugawara_central_charge_split": true,
+    "normalizer_current_matrices_are_rotations": true,
+    "rotation_image_order_24": true,
+    "fock_decomposition_level_0": true,
+    "fock_decomposition_level_1": true,
+    "fock_decomposition_level_2": true,
+    "fock_decomposition_level_3": true,
+    "fock_decomposition_level_4": true,
+    "fock_decomposition_level_5": true,
+    "fock_decomposition_level_6": true,
+    "fock_decomposition_level_7": true,
+    "fock_decomposition_level_8": true,
+    "fock_decomposition_level_9": true,
+    "fock_decomposition_level_10": true,
+    "fock_decomposition_level_11": true,
+    "fock_decomposition_level_12": true,
+    "level_one_complete_six_currents": true,
+    "relative_modular_norm_curvature": true,
+    "relative_target_norm_curvature": true,
+    "cusp_orders_match_weights": true,
+    "eta2_S_stabilizer_total_factor": true,
+    "eta2_ST_stabilizer_total_factor": true,
+    "eta2_minusI_stabilizer_total_factor": true,
+    "trivial_counterterm_cannot_change_T_character": true,
+    "pulled_back_connection_intertwines": true,
+    "radius_family_preserves_integer_spin": true,
+    "radius_changes_scaling_dimension": true,
+    "current_current_abelian_structure_constant_zero": true
+  },
+  "passed": 46,
+  "berezin": {
+    "D": "Matrix([[2, 1], [1, 3]])",
+    "orientation": "-1",
+    "mixed_values": [
+      "-16",
+      "7"
+    ]
+  },
+  "current_quaternion_parities": [
+    [
+      1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      -1
+    ]
+  ],
+  "current_rotation_matrices": [
+    [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0",
+        "-1"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ]
+    ]
+  ],
+  "fock_table": [
+    {
+      "h": "0",
+      "dimension": 1,
+      "trivial": 1,
+      "each_nontrivial_parity": 0,
+      "quaternion_doublets": 0
+    },
+    {
+      "h": "1/2",
+      "dimension": 4,
+      "trivial": 0,
+      "each_nontrivial_parity": 0,
+      "quaternion_doublets": 2
+    },
+    {
+      "h": "1",
+      "dimension": 6,
+      "trivial": 3,
+      "each_nontrivial_parity": 1,
+      "quaternion_doublets": 0
+    },
+    {
+      "h": "3/2",
+      "dimension": 8,
+      "trivial": 0,
+      "each_nontrivial_parity": 0,
+      "quaternion_doublets": 4
+    },
+    {
+      "h": "2",
+      "dimension": 17,
+      "trivial": 5,
+      "each_nontrivial_parity": 4,
+      "quaternion_doublets": 0
+    },
+    {
+      "h": "5/2",
+      "dimension": 28,
+      "trivial": 0,
+      "each_nontrivial_parity": 0,
+      "quaternion_doublets": 14
+    },
+    {
+      "h": "3",
+      "dimension": 38,
+      "trivial": 11,
+      "each_nontrivial_parity": 9,
+      "quaternion_doublets": 0
+    },
+    {
+      "h": "7/2",
+      "dimension": 56,
+      "trivial": 0,
+      "each_nontrivial_parity": 0,
+      "quaternion_doublets": 28
+    },
+    {
+      "h": "4",
+      "dimension": 84,
+      "trivial": 24,
+      "each_nontrivial_parity": 20,
+      "quaternion_doublets": 0
+    },
+    {
+      "h": "9/2",
+      "dimension": 124,
+      "trivial": 0,
+      "each_nontrivial_parity": 0,
+      "quaternion_doublets": 62
+    },
+    {
+      "h": "5",
+      "dimension": 172,
+      "trivial": 46,
+      "each_nontrivial_parity": 42,
+      "quaternion_doublets": 0
+    },
+    {
+      "h": "11/2",
+      "dimension": 232,
+      "trivial": 0,
+      "each_nontrivial_parity": 0,
+      "quaternion_doublets": 116
+    },
+    {
+      "h": "6",
+      "dimension": 325,
+      "trivial": 85,
+      "each_nontrivial_parity": 80,
+      "quaternion_doublets": 0
+    }
+  ]
+}

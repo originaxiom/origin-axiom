@@ -1,0 +1,4580 @@
+{
+  "archive_count": 14,
+  "numbered_run_count": 13,
+  "archive_member_count": 254,
+  "original_archives": [
+    {
+      "run": 0,
+      "archive": "Weave_Independent_Audit.zip",
+      "path": "original_archives/Weave_Independent_Audit.zip",
+      "files": 7,
+      "uncompressed_bytes": 40397,
+      "bytes": 17722,
+      "sha256": "87d8a4101847add9d8629f5fa781d0bc50dcfa8d4ad13f38653183ebd1480fb8",
+      "git_blob_sha": "26ed46f29ff017e6474fdd312350b9c9c18711c7",
+      "crc_pass": true
+    },
+    {
+      "run": 1,
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run1.zip",
+      "files": 22,
+      "uncompressed_bytes": 98252,
+      "bytes": 38226,
+      "sha256": "c7ee6d621c6240f35c803806756f6d69e5642c5d38819b010c1d7c1694a87c70",
+      "git_blob_sha": "31db6aa1460914c03043f91a066ef9784d5e47c1",
+      "crc_pass": true
+    },
+    {
+      "run": 2,
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run2.zip",
+      "files": 17,
+      "uncompressed_bytes": 155098,
+      "bytes": 38728,
+      "sha256": "d1885cb065dab49c370f87b77059f708f7a51113eaa69ef6d8493f69a252339c",
+      "git_blob_sha": "4a2a057a89334ec8300ecbd124de92b89ca26ea7",
+      "crc_pass": true
+    },
+    {
+      "run": 3,
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run3.zip",
+      "files": 17,
+      "uncompressed_bytes": 129087,
+      "bytes": 46239,
+      "sha256": "1e951c3d2d5080109711e0f218cd423c90efb2cace859736efe241593e845d5b",
+      "git_blob_sha": "b183a79633569aa89fbb8889a4e43fb1b11ca93f",
+      "crc_pass": true
+    },
+    {
+      "run": 4,
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run4.zip",
+      "files": 21,
+      "uncompressed_bytes": 112052,
+      "bytes": 39762,
+      "sha256": "d24c07c9ef26aefc26c112bd2db5e9b59f0228302671bf78734c02af2d79c450",
+      "git_blob_sha": "3ae55c1a0df86e7dd3d235448d2e2422a96da29a",
+      "crc_pass": true
+    },
+    {
+      "run": 5,
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run5.zip",
+      "files": 18,
+      "uncompressed_bytes": 105089,
+      "bytes": 35032,
+      "sha256": "528b170b3738180522d0e2a856ad374c7919568ba8b630673eb4c2c935ac5ac6",
+      "git_blob_sha": "024b580486fb942eef89d2aef32d576cb9a3fe7d",
+      "crc_pass": true
+    },
+    {
+      "run": 6,
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run6.zip",
+      "files": 17,
+      "uncompressed_bytes": 143072,
+      "bytes": 35096,
+      "sha256": "69c8640e874c6f0cf41554726be874088aec407ed30f3f0a1c0e8e889652acdf",
+      "git_blob_sha": "4ec68c06728d840f2de55d1dea14e2f43e35acba",
+      "crc_pass": true
+    },
+    {
+      "run": 7,
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run7.zip",
+      "files": 18,
+      "uncompressed_bytes": 154512,
+      "bytes": 36429,
+      "sha256": "9897884af4d3c106cc45d4d5f066ab78ad69687fb8aefee8e0dbc1d8b0be1806",
+      "git_blob_sha": "259841ec2826851b2c5c3bc638121673cbe9412e",
+      "crc_pass": true
+    },
+    {
+      "run": 8,
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run8.zip",
+      "files": 17,
+      "uncompressed_bytes": 105674,
+      "bytes": 38742,
+      "sha256": "439d26247160c1b155982d37f111fab0948efc9968a91758f973eeb398ddc134",
+      "git_blob_sha": "3ca54f573e334b94d6a2d8cb70dd5e4ebfafe525",
+      "crc_pass": true
+    },
+    {
+      "run": 9,
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run9.zip",
+      "files": 21,
+      "uncompressed_bytes": 104896,
+      "bytes": 36114,
+      "sha256": "b3e6e32f786fb8280e9a392f7e110e988ab814a1ab9cd6cba237de389d06d241",
+      "git_blob_sha": "c4714e8f129cd99f78e37e3777dd6c0c153a93e1",
+      "crc_pass": true
+    },
+    {
+      "run": 10,
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run10.zip",
+      "files": 19,
+      "uncompressed_bytes": 188663,
+      "bytes": 40047,
+      "sha256": "d1858feb819c12b6b380bcae4a88e50d3f394f8c9189266b4af32493e5a41baf",
+      "git_blob_sha": "eb4d17c3a843a68aa47f4290ee87594580931c07",
+      "crc_pass": true
+    },
+    {
+      "run": 11,
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run11.zip",
+      "files": 15,
+      "uncompressed_bytes": 70762,
+      "bytes": 29026,
+      "sha256": "0615c6b31a5623a53a2a21e0f97fccde82a23819aec6bf799b4255b4e5d28b11",
+      "git_blob_sha": "a7164b41d7b974b51f79727774dbd00447697949",
+      "crc_pass": true
+    },
+    {
+      "run": 12,
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run12.zip",
+      "files": 15,
+      "uncompressed_bytes": 47012,
+      "bytes": 22530,
+      "sha256": "6b6235829af33c5b3fd40047ce179fa5542a5491b02752109e6edc0903eae565",
+      "git_blob_sha": "0356351176723ea78c4b6e14546ec9a1e36ecdb2",
+      "crc_pass": true
+    },
+    {
+      "run": 13,
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "path": "original_archives/Weave_Quantum_Realization_Run13.zip",
+      "files": 30,
+      "uncompressed_bytes": 108887,
+      "bytes": 47654,
+      "sha256": "25aeaaffa0f6d8f7fd5edf6b0eae82825d0da1538ac91eeb2f6144914523005c",
+      "git_blob_sha": "122710eca91c9cc44f888b4a112921e3173547e5",
+      "crc_pass": true
+    }
+  ],
+  "members": [
+    {
+      "archive": "Weave_Independent_Audit.zip",
+      "zip_member": "weave_audit/README.md",
+      "path": "initial_audit/weave_audit/README.md",
+      "bytes": 2010,
+      "sha256": "5305d447a3fcd83422cfb3d754afc341476f57dda2266ae43d7c42f2f0bcc39a",
+      "git_blob_sha": "754eecc7904efafd57cc5d087c6bb6b2da8f1d14",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        11,
+        48,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Independent_Audit.zip",
+      "zip_member": "weave_audit/SHA256SUMS.txt",
+      "path": "initial_audit/weave_audit/SHA256SUMS.txt",
+      "bytes": 482,
+      "sha256": "630bf34a5d376a462b243be2924cb7e682aaa1f44c91e1f71c024a6f798510c4",
+      "git_blob_sha": "d12f5c7344fc810ce29169df59e382cf27d280d1",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        11,
+        48,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Independent_Audit.zip",
+      "zip_member": "weave_audit/mathematical_notes.md",
+      "path": "initial_audit/weave_audit/mathematical_notes.md",
+      "bytes": 13921,
+      "sha256": "28e13d7eb1ad6fd5a900bb2349649f4c98a82381b1c4f455f11f1b3320a63cca",
+      "git_blob_sha": "4454968fb17c9204240293c7ab3b04224605e355",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        11,
+        48,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Independent_Audit.zip",
+      "zip_member": "weave_audit/requirements.txt",
+      "path": "initial_audit/weave_audit/requirements.txt",
+      "bytes": 41,
+      "sha256": "da63d93491f1e5f8a41293c3d08583f57915156dca264b07d21bae72346c3e16",
+      "git_blob_sha": "039d3123b318644b32ec861970c9d15a519ff772",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        11,
+        48,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Independent_Audit.zip",
+      "zip_member": "weave_audit/results.json",
+      "path": "initial_audit/weave_audit/results.json",
+      "bytes": 4816,
+      "sha256": "e78ab27c0d10a4540a8ca31f12f014d69a437f8b699fdbcbec1202b2cef5521e",
+      "git_blob_sha": "2a0eaed97a9be800814eefe7cfaea0294b3a3200",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        11,
+        46,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Independent_Audit.zip",
+      "zip_member": "weave_audit/run.log",
+      "path": "initial_audit/weave_audit/run.log",
+      "bytes": 4816,
+      "sha256": "e78ab27c0d10a4540a8ca31f12f014d69a437f8b699fdbcbec1202b2cef5521e",
+      "git_blob_sha": "2a0eaed97a9be800814eefe7cfaea0294b3a3200",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        11,
+        46,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Independent_Audit.zip",
+      "zip_member": "weave_audit/verify_weave.py",
+      "path": "initial_audit/weave_audit/verify_weave.py",
+      "bytes": 14311,
+      "sha256": "7f22f037f78b2d860d0126dfc19fba21b020a5d64723949ac22ab30a5cf4d576",
+      "git_blob_sha": "84489292c6bbb640f2ea48075f9406de28eb4b44",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        11,
+        46,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/CHANGELOG.md",
+      "path": "runs/weave_quantum_run1/CHANGELOG.md",
+      "bytes": 1434,
+      "sha256": "b374eaf98976edbbebc94f9e0424a13650ab9ddf2c7f6b7ecdc08e65bc8a5e6b",
+      "git_blob_sha": "210f4d77e954724c80521ef899b584658103920c",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        34,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/COVER_ADDENDUM_PLAN.md",
+      "path": "runs/weave_quantum_run1/COVER_ADDENDUM_PLAN.md",
+      "bytes": 858,
+      "sha256": "cabcd65e84b46f279fcc98fcec945f3fe9dce10bdacc9638aad8188dd8f875a3",
+      "git_blob_sha": "196d81dd26eb9ed67e301620b25823e7648ef9e9",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        29,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/PARITY_ADDENDUM_PLAN.md",
+      "path": "runs/weave_quantum_run1/PARITY_ADDENDUM_PLAN.md",
+      "bytes": 911,
+      "sha256": "70c8b846775050d671037651da8126cda1e2178eb9b6d54aecec5d596a1aab09",
+      "git_blob_sha": "dcadfead6591d40165ee3abe8392ef7629792a7d",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        31,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/PLAN.md",
+      "path": "runs/weave_quantum_run1/PLAN.md",
+      "bytes": 3180,
+      "sha256": "f5e8f7dcb3205376a5d6d39d1e3b18c635fee9b18c5b348216566e7f760bd312",
+      "git_blob_sha": "4f81bb73cd8f8faea3c181117312bfc04b0e18b0",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        24,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/PLAN.sha256",
+      "path": "runs/weave_quantum_run1/PLAN.sha256",
+      "bytes": 103,
+      "sha256": "c0b1756e848790e34d144307adf4b56843f9bcabc3a37e7dee3bd99b52392ad0",
+      "git_blob_sha": "63ccb22eae4cfdb80fe872f4d09209f000c201ff",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        24,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/README.md",
+      "path": "runs/weave_quantum_run1/README.md",
+      "bytes": 1780,
+      "sha256": "d781ad074b4fcf632d9677e32c4cb4fd624fdd80064a6eb5f7140d01d0a04499",
+      "git_blob_sha": "25ebd90b21b2f95186d1e1396b7ace728d527ba6",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        34,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/SHA256SUMS.txt",
+      "path": "runs/weave_quantum_run1/SHA256SUMS.txt",
+      "bytes": 1755,
+      "sha256": "c38882d401cf25c881b8dd271a53e5e0fd125f0951756f976cc990c5bdd3cc3a",
+      "git_blob_sha": "2d6cab57ed152345a063365eb012f2c452587063",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        34,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run1/TECHNICAL_REPORT.md",
+      "bytes": 17965,
+      "sha256": "69ae4b237d9565a04a11fd86fa6cd3f0d4c723f391d1186b2ea0f991f166c5d2",
+      "git_blob_sha": "96c8876392c903b3162605f6aa06ebfc90add8f5",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        34,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/attempts/results_initial.json",
+      "path": "runs/weave_quantum_run1/attempts/results_initial.json",
+      "bytes": 13472,
+      "sha256": "481549beecc1f935ef831d8d8d282a51d10ccbcdfefd4373cc3b96bce530a495",
+      "git_blob_sha": "934ccb0e31bcf15fb0919c5dfb7a879faea426ce",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        27,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/attempts/run_initial.log",
+      "path": "runs/weave_quantum_run1/attempts/run_initial.log",
+      "bytes": 567,
+      "sha256": "76e45535b3f2166f103ecafe833ba828152c200f4b546cebad4fdccada2dffd2",
+      "git_blob_sha": "b2c96b905d4c8ddc5c5f48beef2693cd5f7cc724",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        27,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/cover_results.json",
+      "path": "runs/weave_quantum_run1/cover_results.json",
+      "bytes": 1922,
+      "sha256": "642431fd3c853dd26b8e5614769331d4fe9474f63cc294abbd7d89f6ffb5f110",
+      "git_blob_sha": "850406460688c85a582bdc14409d303b8e97b15a",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        29,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/cover_run.log",
+      "path": "runs/weave_quantum_run1/cover_run.log",
+      "bytes": 153,
+      "sha256": "1631087de9b6439c96de058c8260e008c9de0597c1331bb7d266dcc3774080ee",
+      "git_blob_sha": "a60f1ce5835664db0064134f45488f8e0f127ee8",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        29,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/parity_conjugacy_results.json",
+      "path": "runs/weave_quantum_run1/parity_conjugacy_results.json",
+      "bytes": 1750,
+      "sha256": "e4422ca6f1570188f0487f2a3a4b5d122b79eb5fa9eda6f11a4ed417e5a5ae09",
+      "git_blob_sha": "51fb62d0c0891376c2db4a16d8f5966b45b041b0",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        31,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/parity_run.log",
+      "path": "runs/weave_quantum_run1/parity_run.log",
+      "bytes": 185,
+      "sha256": "b415176ceb81440ffd085d39bf91a43e5130f0933d6332cb16cc17d04b3a0836",
+      "git_blob_sha": "cf8b23ebd3eb5f0a2ad20b19d396d78797942f39",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        31,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/requirements.txt",
+      "path": "runs/weave_quantum_run1/requirements.txt",
+      "bytes": 28,
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "git_blob_sha": "de9542d36e40090c2dad83e84c503496a711bec7",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        34,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/results.json",
+      "path": "runs/weave_quantum_run1/results.json",
+      "bytes": 13751,
+      "sha256": "7f0b7dabb53dcef8dd07548d412de6b12df281eedb8859f5570f8a24d5520ae0",
+      "git_blob_sha": "c33b58a9792fd9469a4b0591c5df9f1d83b9a639",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        27,
+        52
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/results_100dps.json",
+      "path": "runs/weave_quantum_run1/results_100dps.json",
+      "bytes": 13765,
+      "sha256": "fdc0eacb519609a2b91f4ca10db611ff0e3892e7535facbfc3946258fdcd9bc1",
+      "git_blob_sha": "2264ba88faa328890a1dc58e087ecda10d3ccd62",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        29,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/run.log",
+      "path": "runs/weave_quantum_run1/run.log",
+      "bytes": 537,
+      "sha256": "d3cf198e899a6ca8aa701d139eea04527bd97ef4006ae9ca9420f2ea30aae847",
+      "git_blob_sha": "976882ed143df1f29c95dd6401ff86f7ce6354ea",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        27,
+        52
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/run_100dps.log",
+      "path": "runs/weave_quantum_run1/run_100dps.log",
+      "bytes": 552,
+      "sha256": "7073f7a836a664e23e7b6526a5a4da83b367c5db89380b5a9bddf2c216a72772",
+      "git_blob_sha": "0e26b741040719295fc47b8bdaa802b83e2da557",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        29,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/verify.py",
+      "path": "runs/weave_quantum_run1/verify.py",
+      "bytes": 18519,
+      "sha256": "cb3debe52f42b2616c23d99b117c7b9b87dc98d27825bba1fc12bb4a2541a233",
+      "git_blob_sha": "2393fe5a9da5bc0284386a9b40b218fc2e9fc9da",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        27,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/verify_cover.py",
+      "path": "runs/weave_quantum_run1/verify_cover.py",
+      "bytes": 3149,
+      "sha256": "b4244be506b47eecb4b69468d14561ce56a6b86fe170d00820c6e17e3c9000ca",
+      "git_blob_sha": "d2f4b416dd685afdc0d167bbf7728d08de0c1a76",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        29,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run1.zip",
+      "zip_member": "weave_quantum_run1/verify_parity_conjugacy.py",
+      "path": "runs/weave_quantum_run1/verify_parity_conjugacy.py",
+      "bytes": 1916,
+      "sha256": "783a2e3d28298db283937def6800ed6a6e4c69a4e43eeeb315a61ea2a8e60026",
+      "git_blob_sha": "e536609825df79f5c8b61cdbbfeeb0d14ee2e4c5",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        31,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/CHANGELOG.md",
+      "path": "runs/weave_quantum_run2/CHANGELOG.md",
+      "bytes": 982,
+      "sha256": "e814dbdab47d2ff2316776b62a48a6dfe1f55536b871583852b7e03c3d6c8a15",
+      "git_blob_sha": "dc46ed617e25b222d86703a4e13fa395b0952d5c",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        58,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/PLAN.md",
+      "path": "runs/weave_quantum_run2/PLAN.md",
+      "bytes": 1977,
+      "sha256": "651dbaaf9353ca6666121d9ff86ba5b2caeb9c7167fb99d8943d933bdff4a9a0",
+      "git_blob_sha": "dac11594251c793256297e8271f651bc27155c74",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        48,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/PLAN.sha256",
+      "path": "runs/weave_quantum_run2/PLAN.sha256",
+      "bytes": 103,
+      "sha256": "212be2ae2fa6eeba15e1755bc4b0dfd628bb2784ef49dd2d74d4dd2c87aef9e5",
+      "git_blob_sha": "116003959f4007b3e3f86eba7a2e124b03d51cfb",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        48,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/README.md",
+      "path": "runs/weave_quantum_run2/README.md",
+      "bytes": 1824,
+      "sha256": "50a8f12eee53b856e7d5bccc9e257478e03f20ddb40724cdf250fabf78762ae2",
+      "git_blob_sha": "5ffe25f2e339bd332b4b06bfb2c1010f55039d4b",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        58,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/SHA256SUMS.txt",
+      "path": "runs/weave_quantum_run2/SHA256SUMS.txt",
+      "bytes": 1439,
+      "sha256": "e1efe29948c37bb79f31a349ec7c5c9147cfa070c09441f3277f079ee023989e",
+      "git_blob_sha": "1aa407884e7a10be9314cad55faa7d0d6493e32e",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        59,
+        20
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run2/TECHNICAL_REPORT.md",
+      "bytes": 23908,
+      "sha256": "2d59adf2d288212ba836e00356a7206959c6992ed53a31220880d3b0eef07c8d",
+      "git_blob_sha": "7c7480ea09c747663cb6cab9cae5b5e5e6d8e88e",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        58,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/cover_states_alternate_tree.log",
+      "path": "runs/weave_quantum_run2/cover_states_alternate_tree.log",
+      "bytes": 1534,
+      "sha256": "5201ce0c642d3cae8a7a99313ee3bd857b1e150eecabad67f5b60fe4659c4de9",
+      "git_blob_sha": "1ef2ce250b441c7e92ee895a6df523ab35eca363",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        54,
+        46
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/cover_states_results.json",
+      "path": "runs/weave_quantum_run2/cover_states_results.json",
+      "bytes": 45714,
+      "sha256": "d71cc0b3cb3922af4cc4dece219f97fe8da5b5bf3f142009d2b5d1d9530fc421",
+      "git_blob_sha": "3ddb4d40586e05ff305ba321b203649a3dec53b1",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        54,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/cover_states_results_alternate_tree.json",
+      "path": "runs/weave_quantum_run2/cover_states_results_alternate_tree.json",
+      "bytes": 45701,
+      "sha256": "b15f74aaeb539e3bbfb2c759db8bf5355b9ceb41b1b195410356950dc8b94163",
+      "git_blob_sha": "83bb19e4f604ca1f9ec6b7b161b5bedf3a2286d6",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        54,
+        46
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/cover_states_run.log",
+      "path": "runs/weave_quantum_run2/cover_states_run.log",
+      "bytes": 1533,
+      "sha256": "cf15498bde0dd001e0996b49ebf2db064fc943a8f88fc8b472cf473dbdf5722e",
+      "git_blob_sha": "38b40d838e87bc8505229d8209573a5b23ec0fe4",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        54,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/quantum_reduction_100dps.log",
+      "path": "runs/weave_quantum_run2/quantum_reduction_100dps.log",
+      "bytes": 952,
+      "sha256": "99a398c7cb724ab786d4c01b9af3b7be21f25105445985767de54b11d7f54d8c",
+      "git_blob_sha": "e7e97df889b028b458a8de48a0ddd4c80ff2f507",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        54,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/quantum_reduction_80dps.log",
+      "path": "runs/weave_quantum_run2/quantum_reduction_80dps.log",
+      "bytes": 951,
+      "sha256": "43b6d08a65961f896ec7108d2f0b09a3e33175c195ef9517586ff9b09b6159d3",
+      "git_blob_sha": "4ca0322914e54b7f46ed411c4fc40bbd3e63aef3",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        58,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/quantum_reduction_results_100dps.json",
+      "path": "runs/weave_quantum_run2/quantum_reduction_results_100dps.json",
+      "bytes": 4194,
+      "sha256": "89ec141e9eedea17883e054bc3896d78671446905d3e629bc32547785121d345",
+      "git_blob_sha": "86d08cb370db239105a88ec7369eb87d8455488a",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        54,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/quantum_reduction_results_80dps.json",
+      "path": "runs/weave_quantum_run2/quantum_reduction_results_80dps.json",
+      "bytes": 4192,
+      "sha256": "b72c1b9b0478cf71b9d7e4fb9ac405a0bf7aa1cfeb5931b76c546f85965ba5e6",
+      "git_blob_sha": "681deb645cac624131c29d092b1baff51f2f9f2c",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        58,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/requirements.txt",
+      "path": "runs/weave_quantum_run2/requirements.txt",
+      "bytes": 28,
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "git_blob_sha": "de9542d36e40090c2dad83e84c503496a711bec7",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        58,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/verify_cover_states.py",
+      "path": "runs/weave_quantum_run2/verify_cover_states.py",
+      "bytes": 10552,
+      "sha256": "2006ca85756431284e9d6d65ae001f76e4f99a7cffe483ea9f90cccc6e755f53",
+      "git_blob_sha": "f26c286fe7406be6ec5ac87dae09d90c8722f01c",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        54,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run2.zip",
+      "zip_member": "weave_quantum_run2/verify_quantum_reduction.py",
+      "path": "runs/weave_quantum_run2/verify_quantum_reduction.py",
+      "bytes": 9514,
+      "sha256": "e22a5b27a3848d6aa8ea1736c0cbca22b18145560972d5ac315ea374138ab66b",
+      "git_blob_sha": "a8f93dfcb02e96bece7466ab0979e4d85e6e4106",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        13,
+        54,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/CHANGELOG.md",
+      "path": "runs/weave_quantum_run3/CHANGELOG.md",
+      "bytes": 1844,
+      "sha256": "106d92eff911dfeca74b2400666027227c62895a59370d9ba3ce9a4fd37a7bb3",
+      "git_blob_sha": "2239073bc582df4d5e246962d259a312900e1732",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        36,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/ENVIRONMENT.txt",
+      "path": "runs/weave_quantum_run3/ENVIRONMENT.txt",
+      "bytes": 83,
+      "sha256": "8ab18825abc12569b5e80e789912dbbf52d0c329360abd0664dfa09ce296313a",
+      "git_blob_sha": "8092fef7f34541bf9d1b5b9c7fef55cfaacdd364",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        36,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/PLAN.md",
+      "path": "runs/weave_quantum_run3/PLAN.md",
+      "bytes": 3473,
+      "sha256": "ab708492529365de5f467c042792255cab6e8bd71014a5f018b0b35a5c7acfd8",
+      "git_blob_sha": "68459351fcb7f443f77d973f51b00c0d1648268a",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        23,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/PLAN.sha256",
+      "path": "runs/weave_quantum_run3/PLAN.sha256",
+      "bytes": 103,
+      "sha256": "4577e52bd0894d8f2d1c79400d5f2003790ae9f68a45e28781e9ad9133d091d9",
+      "git_blob_sha": "173f6fc3edede55e06982c2cac80cc549ff6de73",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        23,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/README.md",
+      "path": "runs/weave_quantum_run3/README.md",
+      "bytes": 1898,
+      "sha256": "782f0a986a1216cb7ffb927dcf9b167759760107e488b723e963a24dabeee76d",
+      "git_blob_sha": "53d950d5e0b0260244b9c54b7476cb10a5a83c72",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        36,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/SHA256SUMS",
+      "path": "runs/weave_quantum_run3/SHA256SUMS",
+      "bytes": 1345,
+      "sha256": "081c701a4febc9caa8b374cf4b8576a23a0b63519d8ea134676ee3238a112df2",
+      "git_blob_sha": "597215d953f572400e90cfbf57cfe6d06740ac15",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        38,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run3/TECHNICAL_REPORT.md",
+      "bytes": 29706,
+      "sha256": "29d5b33a1c2df009a8d0e5a896b4e1574a55a8831d8818b948827f6d8ec797cc",
+      "git_blob_sha": "7b06cfd6248a1035c844fc49b404a29dcb728352",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        38,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/amplitude_100dps.log",
+      "path": "runs/weave_quantum_run3/amplitude_100dps.log",
+      "bytes": 1031,
+      "sha256": "20e592ee5230d62f3883f3a49bc62ad2a321c576ab2aaf0d8ef6831eddb316dc",
+      "git_blob_sha": "660d12e5050452e15df6a92c8fb4eed2667d3c6b",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        28,
+        18
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/amplitude_80dps.log",
+      "path": "runs/weave_quantum_run3/amplitude_80dps.log",
+      "bytes": 1015,
+      "sha256": "de98febdea7ddc4ec67be67a3f1d2dabad84a92988d6a5867bfb63d43c546e21",
+      "git_blob_sha": "d18e5d186645624769cda5d67ae5e4e61d457787",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        28,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/amplitude_results_100dps.json",
+      "path": "runs/weave_quantum_run3/amplitude_results_100dps.json",
+      "bytes": 33025,
+      "sha256": "885721e4aba6cac0f118dafe5c9005e81052ecea8fe1d386a6bfe53df32e0508",
+      "git_blob_sha": "3d5579b43528816dff3bbe8a2de3c0d4ecfea728",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        28,
+        18
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/amplitude_results_80dps.json",
+      "path": "runs/weave_quantum_run3/amplitude_results_80dps.json",
+      "bytes": 29859,
+      "sha256": "a0f7935e0efeab8a3c5c817cec74dbdab03e5019546794dcb1934f4b5132cab8",
+      "git_blob_sha": "54b3983dcb7cc558df3f33bb16d4c31d0098c052",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        28,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/exact_results.json",
+      "path": "runs/weave_quantum_run3/exact_results.json",
+      "bytes": 5114,
+      "sha256": "f2af2684cff25cab3aa5364bc2f99f804045082e475de3fbfe155bbed633e59c",
+      "git_blob_sha": "209abf2b0d158ab262118ffc231c86e74d7ad034",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        37,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/exact_run.log",
+      "path": "runs/weave_quantum_run3/exact_run.log",
+      "bytes": 1123,
+      "sha256": "feba5e5329435d3bca1b25a7ce2594df5a576bf208153ef4e70b13c9a97563ce",
+      "git_blob_sha": "59fe9aef41e93d7e867c50b5b0b05f4e6f5b6fa7",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        37,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/exploratory/explore.py",
+      "path": "runs/weave_quantum_run3/exploratory/explore.py",
+      "bytes": 1138,
+      "sha256": "d2f6174a6d2e47d977b7db54ae7b0abfb8b7808dbd1946ed77c19572a18407e3",
+      "git_blob_sha": "4da698eaac2213025be6bcac73a277cc91ddd52b",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        17,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/requirements.txt",
+      "path": "runs/weave_quantum_run3/requirements.txt",
+      "bytes": 28,
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "git_blob_sha": "de9542d36e40090c2dad83e84c503496a711bec7",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        36,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/verify_amplitudes.py",
+      "path": "runs/weave_quantum_run3/verify_amplitudes.py",
+      "bytes": 9780,
+      "sha256": "ba4970f9b34c01b3de7ddf55dd260ac930b0156a8fb7731e90a106d2b9c8f381",
+      "git_blob_sha": "88ca4e2e945850d469532789f1338ca269fdaae4",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        28,
+        6
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run3.zip",
+      "zip_member": "weave_quantum_run3/verify_exact.py",
+      "path": "runs/weave_quantum_run3/verify_exact.py",
+      "bytes": 8522,
+      "sha256": "b92b26b1db758c77d821688c76d62261daf48da09418381dfc82b0949c2bb038",
+      "git_blob_sha": "67795a19b7f560075c65b0c9c2c1b8ded103dc52",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        14,
+        25,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/CHANGELOG.md",
+      "path": "runs/weave_quantum_run4/CHANGELOG.md",
+      "bytes": 1399,
+      "sha256": "3803c96baa75e25ec1c2fe8969bce2fbc9ce3e6fb8e135729c7b543a21ffa871",
+      "git_blob_sha": "64818e4147a4435d6f875d899e569d215eb6e01e",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        14,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/ENVIRONMENT.txt",
+      "path": "runs/weave_quantum_run4/ENVIRONMENT.txt",
+      "bytes": 99,
+      "sha256": "08e018b66e01497b517dc2b6cfb63d30aaa5da4ed823c58443fabb28ed74bc6b",
+      "git_blob_sha": "4e262c5e6be8a815fd6f45c6b0ae89d9cc508a36",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        14,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/PLAN.md",
+      "path": "runs/weave_quantum_run4/PLAN.md",
+      "bytes": 2277,
+      "sha256": "a7c8b8dcba89fc421e8bd54faa99e0639a690c02aee94e0bcd5378c4b76ade35",
+      "git_blob_sha": "66616acb737f62b03bb746a034fd58f2e75c5297",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        4,
+        36
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/PLAN.sha256",
+      "path": "runs/weave_quantum_run4/PLAN.sha256",
+      "bytes": 103,
+      "sha256": "d11499124b1e883a3903948194b090a1068252382caae121ed9fdc5b27f496dd",
+      "git_blob_sha": "d23258d3eaea2c6fcb3ae29fb255347f12ae2c50",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        4,
+        36
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/README.md",
+      "path": "runs/weave_quantum_run4/README.md",
+      "bytes": 820,
+      "sha256": "63825be6d3aa402b753508ec845d1c54eb8e5d2b3246e3882d2253dec316d659",
+      "git_blob_sha": "010ec6a3b453c3afcfc0b4efb3baf219d6895e4a",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        14,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/SHA256SUMS",
+      "path": "runs/weave_quantum_run4/SHA256SUMS",
+      "bytes": 1721,
+      "sha256": "b2864d6ff1426058270b34a94f391767d0b03f07aa6e4cb68813a285a98d8960",
+      "git_blob_sha": "9df38592486acbfb6f4828f46b193c0a624d3c5e",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        15,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run4/TECHNICAL_REPORT.md",
+      "bytes": 25059,
+      "sha256": "9328f67192abaa4019a0993d38bbb21ba6106cb5b15bbf88dc57506a6d62cd2d",
+      "git_blob_sha": "3c0708a3cff843a9d6bdde8bfc0afb23688df366",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        14,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/cocycle_results.json",
+      "path": "runs/weave_quantum_run4/cocycle_results.json",
+      "bytes": 1016,
+      "sha256": "cdb27189cce0d574b0f53b274f36aec283844c4ad2a9a55e3b5828b027d95676",
+      "git_blob_sha": "17b13fcfa097c7bc6568f6f96893d8247761d706",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        6,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/cocycles.log",
+      "path": "runs/weave_quantum_run4/cocycles.log",
+      "bytes": 1017,
+      "sha256": "06dbfa0aefaee895dbff20a68b9b65f98ca99e3d70434578b4296ad1efb1b9bc",
+      "git_blob_sha": "9943e4810aec6f85d246865a7e7936b62b9672a8",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        6,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/exact.log",
+      "path": "runs/weave_quantum_run4/exact.log",
+      "bytes": 4543,
+      "sha256": "fa4f17b648e715c384688d5229b2838d4495176d0fd71a76eeb4b9b8fab27749",
+      "git_blob_sha": "447b22ca269fe3d8cc65cf20f8c3e0f5cf31ba60",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        6,
+        2
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/exact_results.json",
+      "path": "runs/weave_quantum_run4/exact_results.json",
+      "bytes": 4542,
+      "sha256": "b574e0ab47ab5c6a0fc56896f25bd6f3b9cdccb949123a7a67588d7cb299ba3a",
+      "git_blob_sha": "f2c53c44584ed033ba539484bd713d00aa199d35",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        6,
+        2
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/numerical_60dps.log",
+      "path": "runs/weave_quantum_run4/numerical_60dps.log",
+      "bytes": 8504,
+      "sha256": "49fd5ba2629ea7bc2483dc2a72d1a4da18c07e52c2c833779995f36ec44a36ae",
+      "git_blob_sha": "50b3099fc819ba1fbd1bdf8a3d6860388e5e9a5a",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        9,
+        22
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/numerical_90dps.log",
+      "path": "runs/weave_quantum_run4/numerical_90dps.log",
+      "bytes": 8557,
+      "sha256": "da06572c6920e28f118e0fbc213686cd1f2ef8bb7c87d6fbbfa982a2d752661e",
+      "git_blob_sha": "cac9b668875a42c8b8b030ab3dd3f5c05779b2d3",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        9,
+        32
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/numerical_results_60dps.json",
+      "path": "runs/weave_quantum_run4/numerical_results_60dps.json",
+      "bytes": 8503,
+      "sha256": "622cd5212b199b75d52a4e50f3c92308f4b3a3bae8fc315d415a985ebc40c8d2",
+      "git_blob_sha": "5aa97107f72a57126ff34f723e13dda9a6b8b6f7",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        9,
+        22
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/numerical_results_90dps.json",
+      "path": "runs/weave_quantum_run4/numerical_results_90dps.json",
+      "bytes": 8556,
+      "sha256": "09be45cb091ef423f1a8d56701423968688391ee4b699dab38a5c24692467d9d",
+      "git_blob_sha": "56f31773651018ea87c90cb6271b83b54cf3fa6c",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        9,
+        32
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/requirements.txt",
+      "path": "runs/weave_quantum_run4/requirements.txt",
+      "bytes": 41,
+      "sha256": "4b9e8258d2945cac6b69a295c9871188b18adf1233b8920bc0677d86dfc5e723",
+      "git_blob_sha": "86fa9cb493450b33c4a7db74fd872681565f615d",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        14,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/verify_cocycles.py",
+      "path": "runs/weave_quantum_run4/verify_cocycles.py",
+      "bytes": 2589,
+      "sha256": "f06d76fcc26b974ea2da768fe4682778ef51b5454a0ce521e2a68677f9aeb5c7",
+      "git_blob_sha": "179eb47c16d6c4787b61a450b6d14d297b1bfb7e",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        6,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/verify_exact.initial_signs.py.txt",
+      "path": "runs/weave_quantum_run4/verify_exact.initial_signs.py.txt",
+      "bytes": 9737,
+      "sha256": "c6c806c8e02b491ceea185ba59c3389a6cfc7f40929e13b95bc78266d4a28d9c",
+      "git_blob_sha": "57f9c4ef0c37856d2efb16d30d3447f6a3ec3614",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        5,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/verify_exact.py",
+      "path": "runs/weave_quantum_run4/verify_exact.py",
+      "bytes": 9739,
+      "sha256": "49b2dabbcbf0abe705597f7693d9aff1072aa93bdf091e6cf607f3eae36f9de8",
+      "git_blob_sha": "2a608999ad1442b37a2fee8bec9275b4fce31f0d",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        6,
+        0
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/verify_ward.initial_expensive_derivative.py.txt",
+      "path": "runs/weave_quantum_run4/verify_ward.initial_expensive_derivative.py.txt",
+      "bytes": 6439,
+      "sha256": "61dbda1c1647bf21e90cdd5b4f74ef20a6a596eb57806000fecdec8ec0bee2e0",
+      "git_blob_sha": "997f29e339a32f064925794b7441ab990e4f4405",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        9,
+        20
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run4.zip",
+      "zip_member": "weave_quantum_run4/verify_ward_and_bundles.py",
+      "path": "runs/weave_quantum_run4/verify_ward_and_bundles.py",
+      "bytes": 6791,
+      "sha256": "64814f0e4ece0ca4d1bc121eb8ff91c05624fb2009ca19abb86456490a583570",
+      "git_blob_sha": "d3ab2fb3f9045c83f44eddc36aeb7cd3f99b908f",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        9,
+        22
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/numerical_80.log",
+      "path": "runs/weave_quantum_run5/numerical_80.log",
+      "bytes": 3681,
+      "sha256": "c4d50b19a51744f0e448a229b2b922e45ea2c48d3e64b2bbd4718433de0a6edc",
+      "git_blob_sha": "5d599638dd0419f2980258a0ca84104cd637d044",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        34,
+        46
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/requirements.txt",
+      "path": "runs/weave_quantum_run5/requirements.txt",
+      "bytes": 36,
+      "sha256": "693d4824994a329d3167ec0664eff9a76ce50062dd13dc5d64ab7fd85026527b",
+      "git_blob_sha": "3ec5cb9f1877caf1dd4d331bca3dd084d48cd4e2",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        39,
+        14
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/PLAN.sha256",
+      "path": "runs/weave_quantum_run5/PLAN.sha256",
+      "bytes": 103,
+      "sha256": "87338313569bc27d0b2d6303482fcd5589dbee0b71ffefc04dbb97b9bcaadea6",
+      "git_blob_sha": "3bfd4c82fdf3b794d0dd74459ccc3dcde79d72fb",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        31,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/verify_lattice.py",
+      "path": "runs/weave_quantum_run5/verify_lattice.py",
+      "bytes": 8060,
+      "sha256": "97d9312cafcd37eddab6add3089c656178c1def714ec2408b807d33e0db44eaa",
+      "git_blob_sha": "316d20f9673b346674782e9f1e4497a88b401315",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        34,
+        36
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/results_exact.json",
+      "path": "runs/weave_quantum_run5/results_exact.json",
+      "bytes": 4843,
+      "sha256": "6bc1719cf2dd2e713c26fae12281e58660d2c7f99d0fccf3648be4a2be5f4bf5",
+      "git_blob_sha": "90f118a5f4977cb114ec640a6dc3ab04273b0e43",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        32,
+        28
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/results_numerical_50.json",
+      "path": "runs/weave_quantum_run5/results_numerical_50.json",
+      "bytes": 17087,
+      "sha256": "6c3bb036eafc713ae28505637104ea7858c7c9851937d25c457a14de9492d597",
+      "git_blob_sha": "51e021f746a550216b0b64d1993f279b7b554d02",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        34,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run5/TECHNICAL_REPORT.md",
+      "bytes": 26426,
+      "sha256": "09ee2189bd6763591719488f9d52fc9e59009d547689f382bd824a0387268859",
+      "git_blob_sha": "d325115bfb7b3c4e2b97c4da22d35bc614cfecf3",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        39,
+        14
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/numerical_50.log",
+      "path": "runs/weave_quantum_run5/numerical_50.log",
+      "bytes": 3772,
+      "sha256": "fa4b965efedd4d5b42289fc44bd16724156ab5805333023ca5991736e9efc36e",
+      "git_blob_sha": "bd98419fc5011248c82e6727834193275d4fe06e",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        34,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/ENVIRONMENT.json",
+      "path": "runs/weave_quantum_run5/ENVIRONMENT.json",
+      "bytes": 525,
+      "sha256": "7c2335d457c826f6a64c59ba1bf623ee7984099d0fe78605c8202488e4b3826d",
+      "git_blob_sha": "89ac1ead1c3b22c597c5434fe224d5430a455302",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        39,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/initial_failure_50.log",
+      "path": "runs/weave_quantum_run5/initial_failure_50.log",
+      "bytes": 565,
+      "sha256": "988856b696cd79c9dc8a0b862bef29f19792d71135c56b4f6b1cecbee924d5fb",
+      "git_blob_sha": "d6e51961012e3b0421825bcd864cab09d8219477",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        34,
+        36
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/PLAN.md",
+      "path": "runs/weave_quantum_run5/PLAN.md",
+      "bytes": 2499,
+      "sha256": "cfd0ba43255d82d94ecb523740fad2f736b924f9b302400d2035713e95f6aa4b",
+      "git_blob_sha": "1cbf13ff2a0ff9ff5ae626e6bad5d0c8e502fd81",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        31,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/verify_lattice.initial.py.txt",
+      "path": "runs/weave_quantum_run5/verify_lattice.initial.py.txt",
+      "bytes": 8060,
+      "sha256": "25ad6bd4e11b94b90177aa3ddc24b07030c167914dafd72ffb4a08f8fbbc5b4d",
+      "git_blob_sha": "037f1a9c16ee534525b87f0fc8842ee75d18a898",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        34,
+        36
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/exact.log",
+      "path": "runs/weave_quantum_run5/exact.log",
+      "bytes": 1665,
+      "sha256": "89b955b52b269a4ed9e58d42a8a7b5a60173e9ae183d66926a9d7e1c85ab103c",
+      "git_blob_sha": "e939fd86d5db556ba6a02e7fe3515b40fd19e134",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        32,
+        28
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/MANIFEST.sha256",
+      "path": "runs/weave_quantum_run5/MANIFEST.sha256",
+      "bytes": 1421,
+      "sha256": "17fd9dfe743257244e28cd80fa00505f8e55bc371583d3e4bff72408b3e8b7c2",
+      "git_blob_sha": "e75b9cc1f8c6e9c840dba4f87901f852dc9749b3",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        39,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/README.md",
+      "path": "runs/weave_quantum_run5/README.md",
+      "bytes": 882,
+      "sha256": "e63a183d98c19a6bb3462cb48cd4f2c9225c05f994fb29e190fbdf122c7868b2",
+      "git_blob_sha": "418ac5bc98b4e2d48d069c034a70f4c329c52b22",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        39,
+        14
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/results_numerical_80.json",
+      "path": "runs/weave_quantum_run5/results_numerical_80.json",
+      "bytes": 16999,
+      "sha256": "000b9c70204ed389460ecec25cd47bff388e5b7b2f2d4e347b42b990d9922197",
+      "git_blob_sha": "0c03e6947d15196ae409f04e5bc1d80ee664caae",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        34,
+        46
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/verify_exact.py",
+      "path": "runs/weave_quantum_run5/verify_exact.py",
+      "bytes": 7437,
+      "sha256": "8d767faaa4b42980a9622324cdbf4a75cbf2e61efce41709d76a559e11daf973",
+      "git_blob_sha": "0d2b263becd0137882f17361b758473bfd76aeca",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        32,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run5.zip",
+      "zip_member": "weave_quantum_run5/CHANGELOG.md",
+      "path": "runs/weave_quantum_run5/CHANGELOG.md",
+      "bytes": 1028,
+      "sha256": "074c163689bad5457843209d9258ec6fe7a511c36184d2cfcbcba7f2febcc50a",
+      "git_blob_sha": "3ed68ed1c8ef6d34331a3029d517311f440b7a97",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        15,
+        39,
+        14
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/CHANGELOG.md",
+      "path": "runs/weave_quantum_run6/CHANGELOG.md",
+      "bytes": 1739,
+      "sha256": "5ffa182f29dd23c75585c03c7409226579a798cfb7aeea986782080a9e855ee4",
+      "git_blob_sha": "31cc62048c548b26733d4df082d4853822a19bf5",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        20,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/ENVIRONMENT.json",
+      "path": "runs/weave_quantum_run6/ENVIRONMENT.json",
+      "bytes": 526,
+      "sha256": "145ec1dcab8b37f7c3686d75dd43894427254ea6c8c1c50a86ba5ed5927b5c04",
+      "git_blob_sha": "96a38a4e9976e5606837770f667f17057797e0ce",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        20,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/MANIFEST.sha256",
+      "path": "runs/weave_quantum_run6/MANIFEST.sha256",
+      "bytes": 1358,
+      "sha256": "36f10f74487508693af964ca6642d670c915fa9e5779ec14b2cf226d676ab546",
+      "git_blob_sha": "06f2caab612dd12f0405c1b6e7d5091055fb7352",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        21,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/PLAN.md",
+      "path": "runs/weave_quantum_run6/PLAN.md",
+      "bytes": 2345,
+      "sha256": "300ac4c2453fd4b1fdcefaefa7ac6dc1d3c6abad0908601e01d714ac28f9829f",
+      "git_blob_sha": "c18b8180c405101a43acdcddd6ca4c2c9b69a8b3",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        13,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/PLAN.sha256",
+      "path": "runs/weave_quantum_run6/PLAN.sha256",
+      "bytes": 103,
+      "sha256": "84a406ab151ee816c8ba91eba884002c926941e0349024518a8ba21f22838d90",
+      "git_blob_sha": "534fcf4a206af32a13690641b910e4f737de2173",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        13,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/README.md",
+      "path": "runs/weave_quantum_run6/README.md",
+      "bytes": 1478,
+      "sha256": "f1706e98d592bb98c6c4cf6200e5e2527f5e8f0c7ae7c295872786a7d517c2c1",
+      "git_blob_sha": "dfab99e1615c2e29ad300a07623507107750de6f",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        20,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run6/TECHNICAL_REPORT.md",
+      "bytes": 27863,
+      "sha256": "1892cf838dac2a8a638b34f1567f2cc91ed810b3c55060ae7233e4ba73ba5fd3",
+      "git_blob_sha": "15a5b9858066f938dbba648f40dd8696f6dc105a",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        20,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/explore_cohomology.py",
+      "path": "runs/weave_quantum_run6/explore_cohomology.py",
+      "bytes": 884,
+      "sha256": "9ba8ad60c568c9d4bbb071781226741aa4f7f0027aa2d1ae9f05c85922bdbc9b",
+      "git_blob_sha": "fe50198975cbd072fba70bd5c9f4f4b1d2ba09db",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        6,
+        52
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/requirements.txt",
+      "path": "runs/weave_quantum_run6/requirements.txt",
+      "bytes": 24,
+      "sha256": "85ec3a16e14a6f6a3ca8d8bc737f2d8b794b8f1ebca8cc3477ff66d2cdbe9224",
+      "git_blob_sha": "6585e0f6020648de29baec458f6a159d54a5b572",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        20,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/results/exact_results.json",
+      "path": "runs/weave_quantum_run6/results/exact_results.json",
+      "bytes": 49070,
+      "sha256": "e49877ae648691b884736c3a1545fc973fa4d415879e134ba247568cf4f4bdc1",
+      "git_blob_sha": "3fc3b840c64dfc6b663b354e3c57d7b223af1e42",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        16,
+        54
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/results/numerical_60.json",
+      "path": "runs/weave_quantum_run6/results/numerical_60.json",
+      "bytes": 13120,
+      "sha256": "6647a31fe6a99bfaa1bd6bc10ca9f848a583f27e43a0bfcb13c6b5719d673b75",
+      "git_blob_sha": "353b8bd63eda13bff02a140f202eac5e8418eaf9",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        14,
+        58
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/results/numerical_90.json",
+      "path": "runs/weave_quantum_run6/results/numerical_90.json",
+      "bytes": 12904,
+      "sha256": "89bf235e203b46fcbb142521cb13fe07e8c1a506ee5276f95d1a91b43569a7da",
+      "git_blob_sha": "51450dce1d738d89a2210758c4afe7b4e789ea9f",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        15,
+        0
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/results_exact.log",
+      "path": "runs/weave_quantum_run6/results_exact.log",
+      "bytes": 5247,
+      "sha256": "0f5e98a8cb8699e70745adff58d425da87c1315bb9fe0c86844f751ba4efb215",
+      "git_blob_sha": "18e67bb94f27d83d2d0f2681190dd1b8ec765612",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        16,
+        54
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/results_numerical_60.log",
+      "path": "runs/weave_quantum_run6/results_numerical_60.log",
+      "bytes": 3666,
+      "sha256": "d312ca31ceb5f44cdb9c36d7aa274e7f24e2527be312969b0285b3ee81249215",
+      "git_blob_sha": "025be29d8861c0ec20bbe7622988f0aa8799dff7",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        14,
+        58
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/results_numerical_90.log",
+      "path": "runs/weave_quantum_run6/results_numerical_90.log",
+      "bytes": 3555,
+      "sha256": "07c0287ccdd80c6ed144178be54c768728f00327f62fb556644c5afb36ad3ad2",
+      "git_blob_sha": "119473d83c9faba2c9968374ed3b039d34e459ca",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        15,
+        0
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/verify_exact.py",
+      "path": "runs/weave_quantum_run6/verify_exact.py",
+      "bytes": 14393,
+      "sha256": "81a4dfa30693e8cced6460e7427fddbc956db08c07bd29a91bbb80106e2d65d1",
+      "git_blob_sha": "1ad8688ecc96ea082935b988188c1b1aa43fcf9d",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        16,
+        52
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run6.zip",
+      "zip_member": "weave_quantum_run6/verify_numerical.py",
+      "path": "runs/weave_quantum_run6/verify_numerical.py",
+      "bytes": 4797,
+      "sha256": "77840a7637cb1c2e6d70e7abe9c95fbb446a2f03e10b90cee2e5355b051d4a6b",
+      "git_blob_sha": "5b44fc8b904f928417c230e2b4cf56c1b3a99284",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        17,
+        14,
+        58
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/CHANGELOG.md",
+      "path": "runs/weave_quantum_run7/CHANGELOG.md",
+      "bytes": 1158,
+      "sha256": "953d4140a4ef2928179031d7cbcdf1ab259c550e2ed61d42d84d3d734c6fa5f6",
+      "git_blob_sha": "3a5b9f6173ba0740465e9281c4c27615975d6c05",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        38,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/MANIFEST.sha256",
+      "path": "runs/weave_quantum_run7/MANIFEST.sha256",
+      "bytes": 1486,
+      "sha256": "e10dfe5bb1d992346cb5aa9b72530ae5ef98494299848ab3d6677d74cfdeebea",
+      "git_blob_sha": "6c583a56cfb05c1c6e0d2e8c9c285d3d444b7071",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        42,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/PLAN.md",
+      "path": "runs/weave_quantum_run7/PLAN.md",
+      "bytes": 1923,
+      "sha256": "3eef27639b3ebfcdf94a4d0c8379ff026e3b46b6a0d7383312f30ea9fbba6b4a",
+      "git_blob_sha": "9aa2548069ea06ae8531e4f010586e94ad360385",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        29,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/PLAN.sha256",
+      "path": "runs/weave_quantum_run7/PLAN.sha256",
+      "bytes": 103,
+      "sha256": "db36f1b86d11fab3f48e59079a8f09f55bc10d6750b9bbdf03ca7a9e82a9d2a9",
+      "git_blob_sha": "4dcfe7a42cef3ca5afe60b3d5b9f0fbdb4aa67f5",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        29,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/README.md",
+      "path": "runs/weave_quantum_run7/README.md",
+      "bytes": 1172,
+      "sha256": "5b8f2065f0782cea8101bff63c009cadfe8b9a801a9fafc2c7be14f799ceca04",
+      "git_blob_sha": "3af1bb14404d0ed57580bcfe627191bc7e41248a",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        38,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run7/TECHNICAL_REPORT.md",
+      "bytes": 25866,
+      "sha256": "1456066abae0b303b2f22e794ace03b093a7ba89fbcab105ef91ddf61e394e87",
+      "git_blob_sha": "f8b0758ee7580005a907553e98995eea215aa362",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        38,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/requirements.txt",
+      "path": "runs/weave_quantum_run7/requirements.txt",
+      "bytes": 24,
+      "sha256": "85ec3a16e14a6f6a3ca8d8bc737f2d8b794b8f1ebca8cc3477ff66d2cdbe9224",
+      "git_blob_sha": "6585e0f6020648de29baec458f6a159d54a5b572",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        38,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/results/exact_results.json",
+      "path": "runs/weave_quantum_run7/results/exact_results.json",
+      "bytes": 72324,
+      "sha256": "61e30744bdb89d1fb98cd8dd6b146360d02b71c2f759427a24e4a56572dbe1c9",
+      "git_blob_sha": "20633f269a308e40d45f44693fa90e8cffb1adbb",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        30,
+        52
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/results/exact_run_initial.log",
+      "path": "runs/weave_quantum_run7/results/exact_run_initial.log",
+      "bytes": 435,
+      "sha256": "d5d1888242d337038811c39a2c14324b46a0b3cd8fb6380d134fa27137896ce2",
+      "git_blob_sha": "84f69112d03a53c8d75a828a9f29610e3cee9ab1",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        30,
+        52
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/results/numerical_60.json",
+      "path": "runs/weave_quantum_run7/results/numerical_60.json",
+      "bytes": 7682,
+      "sha256": "f748c83bddd56685d8c60f6a85d95b77e8ef67db762eb024be870a8d564da093",
+      "git_blob_sha": "61f179734df593bd86d978be06b82f6132bf9465",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        32,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/results/numerical_60.log",
+      "path": "runs/weave_quantum_run7/results/numerical_60.log",
+      "bytes": 92,
+      "sha256": "51d6cc5df202ed17506359f986948fac453f56de659d95af99a6e2d4221d4d03",
+      "git_blob_sha": "ae0c4ab40e068d6a2288724111a46e4358227d9a",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        32,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/results/numerical_90.json",
+      "path": "runs/weave_quantum_run7/results/numerical_90.json",
+      "bytes": 7627,
+      "sha256": "f6748b5f2f57ee2889167eacbd8941deef2f27395b401f407d876be1cf9ff8b6",
+      "git_blob_sha": "9afa6b24582a7961472c782d541e2d8b65effcfa",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        32,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/results/numerical_90.log",
+      "path": "runs/weave_quantum_run7/results/numerical_90.log",
+      "bytes": 93,
+      "sha256": "058a4ab6c9446bff7a2d35c29ac440075119bee3d43951c53c6586074586665e",
+      "git_blob_sha": "420126a2b5a626d48ef7d3ce550ea6afb74a48ae",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        32,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/results/physical_controls.json",
+      "path": "runs/weave_quantum_run7/results/physical_controls.json",
+      "bytes": 9464,
+      "sha256": "daac2a7c31d4bd87a1bf61401058092aeee3b3199bb6ef1717faebfc6a2bdb4c",
+      "git_blob_sha": "5336a37eeb234dc728b95f97a6f10e0aee42cd5f",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        36,
+        28
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/results/physical_controls.log",
+      "path": "runs/weave_quantum_run7/results/physical_controls.log",
+      "bytes": 48,
+      "sha256": "16b9bd85f68b4e3c7f8cb05583ff6a95b668ce932068eb6197ffc0e7a70789cf",
+      "git_blob_sha": "d0e52ac2d44aeba2bc6df59ea38f52dfb2c224ce",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        36,
+        28
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/verify_exact.py",
+      "path": "runs/weave_quantum_run7/verify_exact.py",
+      "bytes": 15244,
+      "sha256": "14a9d4c190a2ad090eb1b6e8d9faa61ea6074e31da63c4fd29978b3a48ab12b1",
+      "git_blob_sha": "bf57b05f52ddae8a82d840461e432ab2b0b45db5",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        30,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/verify_numerical.py",
+      "path": "runs/weave_quantum_run7/verify_numerical.py",
+      "bytes": 5358,
+      "sha256": "b85cc1ec673acba790ba08f7c9ad6b027bb0590a0742011cc0bd5e36b73caab2",
+      "git_blob_sha": "cfc63eff92301a82f0e66e11360b91eaf5dc8e50",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        32,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run7.zip",
+      "zip_member": "weave_quantum_run7/verify_physical_controls.py",
+      "path": "runs/weave_quantum_run7/verify_physical_controls.py",
+      "bytes": 4413,
+      "sha256": "d262d437ef5ab4d386e57a3d5a52c7e95b26f784c44c8501245bce8753d4ee95",
+      "git_blob_sha": "af651e454c58acfc75bac14b88553c70ae08fd83",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        18,
+        36,
+        28
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/CHANGELOG.md",
+      "path": "runs/weave_quantum_run8/CHANGELOG.md",
+      "bytes": 1086,
+      "sha256": "978d2acf180a7a37c7bbcd756b70cba75839d95018d296e462b2418cb59d7c5e",
+      "git_blob_sha": "762b93aca27da68fa1b1c886466f1bc25cc99036",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        9,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/MANIFEST.json",
+      "path": "runs/weave_quantum_run8/MANIFEST.json",
+      "bytes": 1495,
+      "sha256": "632d625554d2f80baafaca7b67b44200ee1a61667b7566ce208f5f3333846312",
+      "git_blob_sha": "fb71f145c154887d82cd2e22271471aae4e4f4ac",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        10,
+        14
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/PLAN.md",
+      "path": "runs/weave_quantum_run8/PLAN.md",
+      "bytes": 2136,
+      "sha256": "02bc1844a6ea92b3482f642a40cb1a87f17541ff44e14521f3fccd2ed6a088e7",
+      "git_blob_sha": "42bebd40cdbb8daa52b0aeda6a86804f9bd3f8bf",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        0,
+        0
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/PLAN.sha256",
+      "path": "runs/weave_quantum_run8/PLAN.sha256",
+      "bytes": 103,
+      "sha256": "ec6dc5cee73a8076bb72029ac4719ba76fcd8359a70de444d9b7af42396b1e67",
+      "git_blob_sha": "d51cb1277609f91b8fd4f8799d29738fe2376ad7",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        0,
+        0
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/README.md",
+      "path": "runs/weave_quantum_run8/README.md",
+      "bytes": 1207,
+      "sha256": "70e75c2af2d582574dc61d26a543eb41e329a5c0c2b6396140c7bd69def14604",
+      "git_blob_sha": "57fd11a219e19849fddabf6d0ee049a963114813",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        9,
+        6
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run8/TECHNICAL_REPORT.md",
+      "bytes": 25171,
+      "sha256": "600f71789eca579ee725652ac1d032af63945148f7ebbfd9fedf860c767fa98f",
+      "git_blob_sha": "a67b9e117d191adb39ea3cb7e3270cf30a24ea1e",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        9,
+        6
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/history/exact_initial.log",
+      "path": "runs/weave_quantum_run8/history/exact_initial.log",
+      "bytes": 2040,
+      "sha256": "c9ed5a5dd50237fe944713308b823809c3416a22f00bfc717b8ce737dbc2863d",
+      "git_blob_sha": "23d8ba4239d06cbb078eeb78018a8597147b0b00",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        3,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/history/verify_exact_initial.py.txt",
+      "path": "runs/weave_quantum_run8/history/verify_exact_initial.py.txt",
+      "bytes": 12348,
+      "sha256": "c91446dcaa5ee599d241712c5a4e4b219cc105deacf593692e89f12e782cc0f6",
+      "git_blob_sha": "480f44c6dab2c1c8028d0395e103e6ac116413bd",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        3,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/requirements.txt",
+      "path": "runs/weave_quantum_run8/requirements.txt",
+      "bytes": 28,
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "git_blob_sha": "de9542d36e40090c2dad83e84c503496a711bec7",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        9,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/results/exact.log",
+      "path": "runs/weave_quantum_run8/results/exact.log",
+      "bytes": 2240,
+      "sha256": "66a87a4b7a57fda4a79ced4989e4ff5e44f55b78e4043c696fcfabc4052cc43a",
+      "git_blob_sha": "273cd0dfc343b4c9a279b998aac9f57b39c448a1",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        4,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/results/exact_results.json",
+      "path": "runs/weave_quantum_run8/results/exact_results.json",
+      "bytes": 9474,
+      "sha256": "e766f639769f4b093b6b35c9cd2e8346c26e696329987ca015328fc29cda6be7",
+      "git_blob_sha": "a2fc2c3de87d670d3c54852b6dc2bc72fa46df8a",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        4,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/results/numerical_50.json",
+      "path": "runs/weave_quantum_run8/results/numerical_50.json",
+      "bytes": 10968,
+      "sha256": "dc4ae85f706fd30a98f0e6133a97d87423940d603df75e25bc5ee254f2ca2a2e",
+      "git_blob_sha": "993731595e3430f96f64a327d9e276d97d15e1ca",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        4,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/results/numerical_50.log",
+      "path": "runs/weave_quantum_run8/results/numerical_50.log",
+      "bytes": 4109,
+      "sha256": "b62924059613efb4c5761937193408a8788059e9d8a60178d583cae36329d258",
+      "git_blob_sha": "314d7fa042edd4cc86258ef48a2d7535fd3c08ad",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        4,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/results/numerical_80.json",
+      "path": "runs/weave_quantum_run8/results/numerical_80.json",
+      "bytes": 10851,
+      "sha256": "35dd0b21e84c1071b71e8f5a0a855290be8f7e6e820093ae69bff52b4f08cd16",
+      "git_blob_sha": "aef4d9a6381eec9bf6aa808594ae99da99bfbacb",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        4,
+        32
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/results/numerical_80.log",
+      "path": "runs/weave_quantum_run8/results/numerical_80.log",
+      "bytes": 3992,
+      "sha256": "b764d88443368a4fd50be36b1a14a95822041f501c381deecc4c115123349762",
+      "git_blob_sha": "271d51db8d3c8f1fa0881677cfd0a0874ab1263b",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        4,
+        32
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/verify_exact.py",
+      "path": "runs/weave_quantum_run8/verify_exact.py",
+      "bytes": 13353,
+      "sha256": "797c2db12e90fdbd087fd9a1138e157422a5437449e847f6d5086662856d7c1e",
+      "git_blob_sha": "05e6f78649c7b870a47e6103252a40b75a39df59",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        4,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run8.zip",
+      "zip_member": "weave_quantum_run8/verify_numerical.py",
+      "path": "runs/weave_quantum_run8/verify_numerical.py",
+      "bytes": 5073,
+      "sha256": "9b426921a9130dcad0f57eb37f294609b3abe16df5b46e58cced75c637285c89",
+      "git_blob_sha": "386eb9b17210d7d705bb3c17453d5de7fce611b2",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        4,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/CHANGELOG.md",
+      "path": "runs/weave_quantum_run9/CHANGELOG.md",
+      "bytes": 1323,
+      "sha256": "c933f4586a7081d4c946ab85eea0b9fbb0d00efb4f22a0e11eb5188cff44d2b7",
+      "git_blob_sha": "7789533d001f88a6a1a2c95927eef09545329c79",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        32,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/MANIFEST_SHA256.json",
+      "path": "runs/weave_quantum_run9/MANIFEST_SHA256.json",
+      "bytes": 1888,
+      "sha256": "1204234af84d789b16a9003324d9c455822c1de87c8c9c606f940d2aa651bcd0",
+      "git_blob_sha": "2384069796e6ec90634f646e89a074e438c590df",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        33,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/PLAN.md",
+      "path": "runs/weave_quantum_run9/PLAN.md",
+      "bytes": 2150,
+      "sha256": "281c691cbce82bbcbf86bc7404d41c0fa696d29696cc3cb307633ffed929878a",
+      "git_blob_sha": "296d9f8608366f8073a81a5996823ff5d8460200",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        23,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/PLAN.sha256",
+      "path": "runs/weave_quantum_run9/PLAN.sha256",
+      "bytes": 103,
+      "sha256": "6f256d3ecad65fe8e5f3726f92b6f6c373ec53874facabb5333a62c58d6545cb",
+      "git_blob_sha": "b12344e75b3eb01cb3d531bbfdd279eff0c01252",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        23,
+        26
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/README.md",
+      "path": "runs/weave_quantum_run9/README.md",
+      "bytes": 1254,
+      "sha256": "3d61a11aa7fb7750c0bc4b1aaf4b03a139bf9e37b14452a75a47406c563cbc60",
+      "git_blob_sha": "7ac8a66d992712c1b9ff52c6948f2c85f91580bb",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        32,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run9/TECHNICAL_REPORT.md",
+      "bytes": 26259,
+      "sha256": "630c76ba1988268283e52d6157010e522987fcc0482005a5541c0a40665f5fc2",
+      "git_blob_sha": "11d6136638dcb6de4b2bdbebdffbc1dc9f83d9db",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        32,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/history/clifford_initial_failure.log",
+      "path": "runs/weave_quantum_run9/history/clifford_initial_failure.log",
+      "bytes": 554,
+      "sha256": "387c57a273bc1d61e554f0a403d7a97018b13809880ed99e3994c2cc18c48e17",
+      "git_blob_sha": "2468ba77ef9eac29e5def0328d0c0ad615a9a815",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        25,
+        18
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/history/verify_clifford_before_contact_fix.py.txt",
+      "path": "runs/weave_quantum_run9/history/verify_clifford_before_contact_fix.py.txt",
+      "bytes": 3724,
+      "sha256": "950311426e7f37f6633e8dde5d7965fd470b8a3c5654d59e5eadf76608c7c418",
+      "git_blob_sha": "0fdb3c0dbd6962dd1795f30a9215855de07ad556",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        25,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/requirements.txt",
+      "path": "runs/weave_quantum_run9/requirements.txt",
+      "bytes": 24,
+      "sha256": "85ec3a16e14a6f6a3ca8d8bc737f2d8b794b8f1ebca8cc3477ff66d2cdbe9224",
+      "git_blob_sha": "6585e0f6020648de29baec458f6a159d54a5b572",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        32,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/results/SUMMARY.json",
+      "path": "runs/weave_quantum_run9/results/SUMMARY.json",
+      "bytes": 1160,
+      "sha256": "f547f9488e3c29c46bb83ed4ac3dba893a13e41b727aa5a9346b78d356b1a73c",
+      "git_blob_sha": "e9792d5e695121e327d43dff337e3e6e30b1f57e",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        33,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/results/clifford.json",
+      "path": "runs/weave_quantum_run9/results/clifford.json",
+      "bytes": 1610,
+      "sha256": "0b5e9f9dd97f6e49af6c1510fb62b488ce6e4362970465a65e88158c4f728c96",
+      "git_blob_sha": "2a099e12b3dfb233e5646e2eeb6a5cc8e78aa037",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        25,
+        22
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/results/clifford.log",
+      "path": "runs/weave_quantum_run9/results/clifford.log",
+      "bytes": 82,
+      "sha256": "d28fb323afd72448946ba7ed5215c4d75f51d8f737f6876e860bcc771e207e3d",
+      "git_blob_sha": "229486afbdb73f062f1ad935f819b9ac59950430",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        25,
+        22
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/results/exact.json",
+      "path": "runs/weave_quantum_run9/results/exact.json",
+      "bytes": 11615,
+      "sha256": "df12f12c610a9e8a9ee4eae56dba181a023c1ecc5e4e3d80ec72293dee0dee98",
+      "git_blob_sha": "3a2503d0c757a6f472936e4ea81a05b1d5d88396",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        29,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/results/exact.log",
+      "path": "runs/weave_quantum_run9/results/exact.log",
+      "bytes": 75,
+      "sha256": "72039c85dd8ceca6223eb20a06b935c68d1e0c57299448b9a9a3804314b5efb2",
+      "git_blob_sha": "67821090b0190a654259af6efac1789e121a5a90",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        29,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/results/numerical_55.json",
+      "path": "runs/weave_quantum_run9/results/numerical_55.json",
+      "bytes": 15634,
+      "sha256": "16181b54c2fc7803ab81fd018f0876af87a3c1463297ce7e9317c74bf40d4b9a",
+      "git_blob_sha": "3cd89b8d9d844eee7c17633c35fe55c573758124",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        27,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/results/numerical_55.log",
+      "path": "runs/weave_quantum_run9/results/numerical_55.log",
+      "bytes": 411,
+      "sha256": "67c3233732ed4fdd4b3632bee0ed2405a42ba682375c0b3ee938856823acad70",
+      "git_blob_sha": "df15e5c938c59aae59de606357871842ae37f98f",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        27,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/results/numerical_85.json",
+      "path": "runs/weave_quantum_run9/results/numerical_85.json",
+      "bytes": 15677,
+      "sha256": "3d3cccc20a6a6d740abe3c84a59010eba7afb7a10615d6cf364d97676aa5546c",
+      "git_blob_sha": "4309f2135b3a31142881527b12905e69c949f439",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        28,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/results/numerical_85.log",
+      "path": "runs/weave_quantum_run9/results/numerical_85.log",
+      "bytes": 412,
+      "sha256": "e74940f0744cab5d4c952ec83b86b512c49ce1c9df2ce06fc4d869ca498e80bf",
+      "git_blob_sha": "5c3d73c5f188f9cf5216a4eb0faf89d9d6c6a899",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        28,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/verify_clifford.py",
+      "path": "runs/weave_quantum_run9/verify_clifford.py",
+      "bytes": 3929,
+      "sha256": "8acfb3cdc9a6d33876445af8ded0a184fd55a78e35834f02b1ba6d04a13c8130",
+      "git_blob_sha": "f1527fd0df0359b35238f8777aef8d2c4bc1c6a8",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        25,
+        18
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/verify_exact.py",
+      "path": "runs/weave_quantum_run9/verify_exact.py",
+      "bytes": 9194,
+      "sha256": "47f8170e97399bd2dd0767855c2aa56218fe9a2224f8f01e779c5805f182a89a",
+      "git_blob_sha": "dbae404b564c4d1f3f3d35515c774c7b8e7e07c1",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        29,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run9.zip",
+      "zip_member": "weave_quantum_run9/verify_numerical.py",
+      "path": "runs/weave_quantum_run9/verify_numerical.py",
+      "bytes": 7818,
+      "sha256": "ea89650ca8734d11d0f1437abb6eb905339ce2caa481f6b233bbf28e60a3de0f",
+      "git_blob_sha": "d8cfc75a3f3ec2d0d079d206a1bc9daa938a1c19",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        19,
+        27,
+        6
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/CHANGELOG.md",
+      "path": "runs/weave_quantum_run10/CHANGELOG.md",
+      "bytes": 979,
+      "sha256": "76c7723ef16ba1a7dece8803c17164e89b2b6065ed9da32b0d21d588fac75944",
+      "git_blob_sha": "59914281668d1a229f573d6f16f18169ef99428b",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        20,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/MANIFEST.json",
+      "path": "runs/weave_quantum_run10/MANIFEST.json",
+      "bytes": 1654,
+      "sha256": "de2241fac2a88f79e69132b3c6e156e32e52b9df60ca82ed43d01d937dbd83f7",
+      "git_blob_sha": "c6f429ca898ab9d2a6bdbcc112b7bdaffb4e21e8",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        20,
+        24
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/PLAN.md",
+      "path": "runs/weave_quantum_run10/PLAN.md",
+      "bytes": 2290,
+      "sha256": "0bf27488531c9a7b1d873ade7eb2163f5d1db973a61dd98b2d7d51967a917766",
+      "git_blob_sha": "29a3e5555e4d9462a0a10b2faca38b0f0e473b33",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        11,
+        28
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/PLAN.sha256",
+      "path": "runs/weave_quantum_run10/PLAN.sha256",
+      "bytes": 104,
+      "sha256": "785500558777e84219f13268e886275160f794d24bc81a19586e5540e454391a",
+      "git_blob_sha": "e192629a7c933427f192797097176e7ad4ad7014",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        11,
+        28
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/README.md",
+      "path": "runs/weave_quantum_run10/README.md",
+      "bytes": 888,
+      "sha256": "963a17d36067496f917ea1d6aa8316a7ec9b46e1d8341b040183375056140adb",
+      "git_blob_sha": "019e1240cda26567cbbb18ccda12d5349c38da62",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        20,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run10/TECHNICAL_REPORT.md",
+      "bytes": 24485,
+      "sha256": "a6727399567f541d8c1979b1c8f09e21bb887ee4eb36c541fb3c3fb0078b0776",
+      "git_blob_sha": "a07e0d8c9c577896ecb0bc8eff353a22b36ea8a5",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        20,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/history/explore.py",
+      "path": "runs/weave_quantum_run10/history/explore.py",
+      "bytes": 1173,
+      "sha256": "415663c8d87a5d5801ca7aa2fc184bfd82e6e9a7947261d12b0ef941bb357822",
+      "git_blob_sha": "d8350db19c19834e616053a72b1ada5dcb439293",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        11,
+        28
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/results/environment.json",
+      "path": "runs/weave_quantum_run10/results/environment.json",
+      "bytes": 129,
+      "sha256": "fbf285aeacea7204a78a9ce7bb656e1fa9a1696b1c8ac5bba1b8b9288c96afcb",
+      "git_blob_sha": "e2aa5167049b1efc95bf582da0f9653b364466ba",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        20,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/results/exact.json",
+      "path": "runs/weave_quantum_run10/results/exact.json",
+      "bytes": 2966,
+      "sha256": "482b65f0b2a0664ee6939be329e483fcd38058796f5bfbc9a93019ae948a1123",
+      "git_blob_sha": "907553ca3437c73a2e45fcd3d74edf2067573a4b",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        13,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/results/exact.log",
+      "path": "runs/weave_quantum_run10/results/exact.log",
+      "bytes": 2967,
+      "sha256": "a0e61992236032299f2913dce88a3aa0c22880f11ef5eb96249604eea2869ed2",
+      "git_blob_sha": "0c5fdc6f5941ae805574fa220a135be4d092b506",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        13,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/results/global.json",
+      "path": "runs/weave_quantum_run10/results/global.json",
+      "bytes": 16318,
+      "sha256": "a3db288e313f126f44bc79cbcbb435c34ca2d16b5b0442c2edbc91012b998097",
+      "git_blob_sha": "181b20d457335d72f13867bcca6a01a3ac54def9",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        15,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/results/global.log",
+      "path": "runs/weave_quantum_run10/results/global.log",
+      "bytes": 16319,
+      "sha256": "dbf71fe09f30b22c25b9c264e2d059462655c2dd0e2e3932a41240650375566a",
+      "git_blob_sha": "3c81b85660fc4e78475e91de3b489182d9a9f108",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        15,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/results/numerical_50.json",
+      "path": "runs/weave_quantum_run10/results/numerical_50.json",
+      "bytes": 25592,
+      "sha256": "f2322b89e7a53de39abc758bf5ec81b8a6fe90332df490d16b3444a295402774",
+      "git_blob_sha": "379bb1a5c052e89f1647ec752dcf74534d631b7c",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        13,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/results/numerical_50.log",
+      "path": "runs/weave_quantum_run10/results/numerical_50.log",
+      "bytes": 25593,
+      "sha256": "81683064eeabe1bd26301144c18fda39f957d1e6044d47e97b3d37f0d9d96990",
+      "git_blob_sha": "fcd5d7294c5dc806a46e5488989990f8a24e69d4",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        13,
+        48
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/results/numerical_80.json",
+      "path": "runs/weave_quantum_run10/results/numerical_80.json",
+      "bytes": 25614,
+      "sha256": "86e4d07eeab176b0e0369069588816c67bb639e62a3cf0d2676b8dbed23cf417",
+      "git_blob_sha": "c33feef494130286cd3ee7ef39d81167cdd28774",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        13,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/results/numerical_80.log",
+      "path": "runs/weave_quantum_run10/results/numerical_80.log",
+      "bytes": 25615,
+      "sha256": "0607f1c09068342ea6db1aac3631ee5ed377a792e38879576e041e90da547cd6",
+      "git_blob_sha": "83f12530e8f6d4d2137253344abc47890f905ad4",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        13,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/verify_exact.py",
+      "path": "runs/weave_quantum_run10/verify_exact.py",
+      "bytes": 4528,
+      "sha256": "bacdbfeae4ef5c9ff41df48454771df2a700904c204dfc3d691c1a285f2c21a5",
+      "git_blob_sha": "a8986e95c46e114aecdc31fec7b3c7d6dabb4e96",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        13,
+        8
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/verify_global.py",
+      "path": "runs/weave_quantum_run10/verify_global.py",
+      "bytes": 6314,
+      "sha256": "b1a4afc17fe1033e725f9ebb582532e6f30dcfdc5a6ed1ec6f8e5e07912bacfb",
+      "git_blob_sha": "b1cda043ef2305750265c49c5ceaed640692a2e3",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        15,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run10.zip",
+      "zip_member": "weave_quantum_run10/verify_numerical.py",
+      "path": "runs/weave_quantum_run10/verify_numerical.py",
+      "bytes": 5135,
+      "sha256": "bb5e073b6f97e9098031475bbe1b4168a1a820d1b6236bb3448940815c3570df",
+      "git_blob_sha": "080eb5102372aecf36621fa3dffd0f94a371f74e",
+      "zip_timestamp": [
+        2026,
+        10,
+        10,
+        23,
+        13,
+        46
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/CHANGELOG.md",
+      "path": "runs/weave_quantum_run11/CHANGELOG.md",
+      "bytes": 1110,
+      "sha256": "54bdd8530735a5fd17a7b6af71aaf17b17e9fd5243ff9f5c04eb9e5829ce61ff",
+      "git_blob_sha": "c9fe5658b2919eeadf112f904290643292905d5a",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        16,
+        30
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/MANIFEST.json",
+      "path": "runs/weave_quantum_run11/MANIFEST.json",
+      "bytes": 1293,
+      "sha256": "7bfcfc413403f0eb1fb06050ceb5984f68ca571e608044b1aa458207a621f628",
+      "git_blob_sha": "1d6cd9323ff283c212452ba67b3fb83d6c224a35",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        16,
+        30
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/PLAN.md",
+      "path": "runs/weave_quantum_run11/PLAN.md",
+      "bytes": 2234,
+      "sha256": "788ddea658407e55aeba65bb62d4ec11be5adf2d0ac9d51ef6172b0b2f519f86",
+      "git_blob_sha": "8fa693cfba72f6c9201732ae2f7053f784e5ee11",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        6,
+        34
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/PLAN.sha256",
+      "path": "runs/weave_quantum_run11/PLAN.sha256",
+      "bytes": 74,
+      "sha256": "7af0117c9b1e00928c7ff67ced310492540d6b57314c67feab3b43068cc02f32",
+      "git_blob_sha": "4513bb5835eaa5ed4eb61639aa011650336f1a10",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        6,
+        34
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/README.md",
+      "path": "runs/weave_quantum_run11/README.md",
+      "bytes": 954,
+      "sha256": "b79210f51ab7a8c2b296b45bbfc457b97600b891f2ad9962588eb35405456fb7",
+      "git_blob_sha": "8fa27b52c21181c425cc50671b9ddbc4f2169545",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        15,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/REPOSITORY_MAP.md",
+      "path": "runs/weave_quantum_run11/REPOSITORY_MAP.md",
+      "bytes": 6422,
+      "sha256": "e71958e12b97f278775e23dd74b790280de306d8174ba93c454b05ee30e4bc5c",
+      "git_blob_sha": "db57dcc4e6bce866214f4ad813713798fa516611",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        15,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run11/TECHNICAL_REPORT.md",
+      "bytes": 20719,
+      "sha256": "b381c32779a761d2111da858a508bd0586576e79b2af68ea644cd31f6fbbd342",
+      "git_blob_sha": "0ad1326e05d00978f94b3553aa23f8614032d188",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        15,
+        50
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/results/exact_results.json",
+      "path": "runs/weave_quantum_run11/results/exact_results.json",
+      "bytes": 5713,
+      "sha256": "5c2c7e6084578bb554c0c47c6c8f4811649ecabeaa0afc6568b4a301b27ed574",
+      "git_blob_sha": "ba39e72383a9e10f1a3f92f161693888cb1b5b29",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        7,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/results/exact_run.txt",
+      "path": "runs/weave_quantum_run11/results/exact_run.txt",
+      "bytes": 227,
+      "sha256": "ac8e31864093a7c849941315614a120695cdabe84d04ef7ac9c20482af207216",
+      "git_blob_sha": "f5e4148b3f2563ffe307eff835814dc87f26b6ab",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        7,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/results/numerical_50.json",
+      "path": "runs/weave_quantum_run11/results/numerical_50.json",
+      "bytes": 7261,
+      "sha256": "4959147a30cfd8cf233e1511a44b08470c8f9384a96379604a9a50e1053f99e5",
+      "git_blob_sha": "5776d8ca6f0cd9108f2d7d7563723fd6fae875ba",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        12,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/results/numerical_50.txt",
+      "path": "runs/weave_quantum_run11/results/numerical_50.txt",
+      "bytes": 460,
+      "sha256": "a6690c8031a9c09efc72b93d151fd731875d9cff3e2f1defb9f72aca66f9a98f",
+      "git_blob_sha": "651ba670d5781c3d079cf5f97846205c0ee88a8c",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        12,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/results/numerical_80.json",
+      "path": "runs/weave_quantum_run11/results/numerical_80.json",
+      "bytes": 7281,
+      "sha256": "e3887c78f84d107a0d97f3dfbf1521b6a3bdb2216b8d6e4a3aa5fdf6c3b485a2",
+      "git_blob_sha": "7d29ea51bf106e461c2e65e02ea73549092da224",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        12,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/results/numerical_80.txt",
+      "path": "runs/weave_quantum_run11/results/numerical_80.txt",
+      "bytes": 460,
+      "sha256": "f6c1ecc8b49951d33f7d74549c511145ea0da41735cc42af0e8a41719aee0461",
+      "git_blob_sha": "03e2453f2f9303e824e50a6868b006fdc665c566",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        12,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/verify_exact.py",
+      "path": "runs/weave_quantum_run11/verify_exact.py",
+      "bytes": 8823,
+      "sha256": "492143452d4905837262948d9386ca8fe5f35f2b5bab78d63f4a884e1853fdfb",
+      "git_blob_sha": "5650b118cf3c025ec5adb349b50698c425a7af0c",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        7,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run11.zip",
+      "zip_member": "weave_quantum_run11/verify_numerical.py",
+      "path": "runs/weave_quantum_run11/verify_numerical.py",
+      "bytes": 7731,
+      "sha256": "8c9c8d2a1c492cef717c843e914f376f571115263735113efc48217a7a4e684c",
+      "git_blob_sha": "4a632c1e29b32e627db495a7f633c5f5f8d5caa4",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        12,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/EXECUTION_RECEIPT.json",
+      "path": "runs/weave_quantum_run12/EXECUTION_RECEIPT.json",
+      "bytes": 631,
+      "sha256": "fc45875926b96afb7e833baabdfd59ca52a4b1a4872d6128493aba2f36464a68",
+      "git_blob_sha": "3f681a3b38d6667278c97839af036a7dcdf46e12",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        37,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/FINAL_MANIFEST.json",
+      "path": "runs/weave_quantum_run12/FINAL_MANIFEST.json",
+      "bytes": 2208,
+      "sha256": "e1a40968f3137f11425ff64474ec8f4bb5c28490e3a0bb41ebb030f664fe78a8",
+      "git_blob_sha": "92de2bf23fefdea5f61afe307f044f9b88786788",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        38,
+        54
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/FIRST_RUN.log",
+      "path": "runs/weave_quantum_run12/FIRST_RUN.log",
+      "bytes": 1158,
+      "sha256": "5e09391f39d754e0a7071f0bf94758a072619f2fae70adffea7797918ef3b478",
+      "git_blob_sha": "a08fc00a7f39e30263a67fc511e074c940e15a63",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        33,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/PRE_EXECUTION_PLAN.md",
+      "path": "runs/weave_quantum_run12/PRE_EXECUTION_PLAN.md",
+      "bytes": 2817,
+      "sha256": "29fa0dabcfed16f0610949f3ed2b8bd84992904be708759d6030530160248959",
+      "git_blob_sha": "3aa9ee7ac7548a3582599332cbce01f612e988c0",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        33,
+        4
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/PRE_EXECUTION_SEAL.json",
+      "path": "runs/weave_quantum_run12/PRE_EXECUTION_SEAL.json",
+      "bytes": 457,
+      "sha256": "375dabb5a7b63cd2c51b2467ca6b034943f524fecd4fbda77a6dd9f1455de464",
+      "git_blob_sha": "e3e4947701a454c052c285c7c9d666041174da21",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        33,
+        6
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/README.md",
+      "path": "runs/weave_quantum_run12/README.md",
+      "bytes": 862,
+      "sha256": "69f9b186258224cb57fef77333528f3f4fad136ebb55d25a6763d4994dbc8ea7",
+      "git_blob_sha": "e18b7c3d7855a0c6b0cf8ca056455d097419af93",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        37,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/RESULTS.json",
+      "path": "runs/weave_quantum_run12/RESULTS.json",
+      "bytes": 1945,
+      "sha256": "e56ff7f5d7a9089962c87a2312ff9c7addf6ba21dd7d198060a33a9a22ca40ed",
+      "git_blob_sha": "15deef24713a506c9d6280c5b36b0a8b54d6450d",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        33,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/SOURCES.json",
+      "path": "runs/weave_quantum_run12/SOURCES.json",
+      "bytes": 3333,
+      "sha256": "c07ce2b40ee252936d60975942852ea8059dbfb774c342a466db7d41760216f2",
+      "git_blob_sha": "11d03bbc594944f89bb63c415d97b1ddc6ba04c5",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        37,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/SPECTRAL_FIRST_RUN.log",
+      "path": "runs/weave_quantum_run12/SPECTRAL_FIRST_RUN.log",
+      "bytes": 909,
+      "sha256": "e7c1c31d18622b46b9bc6b6ba50b2a19a87b22cd3275e5a91f74bf50799b5aaf",
+      "git_blob_sha": "e35838cbce3aa4765bbb8cc03741ab141a6ba08c",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        34,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/SPECTRAL_PRE_EXECUTION_SEAL.json",
+      "path": "runs/weave_quantum_run12/SPECTRAL_PRE_EXECUTION_SEAL.json",
+      "bytes": 482,
+      "sha256": "5a1f37c980782244ca4d711012c146d80a7e2b79a14473c862de8505ef24e73d",
+      "git_blob_sha": "00e42b91706ab77a2531f2bdae631e746cfbd34d",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        34,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/SPECTRAL_REFERENCE_RESULTS.json",
+      "path": "runs/weave_quantum_run12/SPECTRAL_REFERENCE_RESULTS.json",
+      "bytes": 677,
+      "sha256": "16a18ffb3f4ee0664f388a34c22c8333f6f5ced3f859a42c5410851d9d0a85e9",
+      "git_blob_sha": "0ec8439f9472e143e66e95a676eedeaf0fcf75e0",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        34,
+        42
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run12/TECHNICAL_REPORT.md",
+      "bytes": 21479,
+      "sha256": "32cc242101817d9788c3fdf639002ca2d948ebc01aced659c192f69bbf1d2b55",
+      "git_blob_sha": "b3e947428a703f162e3e62c2230373c76b08b4e0",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        38,
+        52
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/requirements.txt",
+      "path": "runs/weave_quantum_run12/requirements.txt",
+      "bytes": 15,
+      "sha256": "fe459e55afabdc4730d09318f2777b8e70e755292f42c221c2d602f809f70185",
+      "git_blob_sha": "c492bc04f56e6fe4b01ab14c6ef47edb3e1ede91",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        37,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/verify.py",
+      "path": "runs/weave_quantum_run12/verify.py",
+      "bytes": 8082,
+      "sha256": "792dea10a18acb92a0c8b3db438aa50019772931045718ac41f8429d214cdef1",
+      "git_blob_sha": "9a478a7eb5291794af6b64ff3f4fef297d5df862",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        33,
+        4
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run12.zip",
+      "zip_member": "weave_quantum_run12/verify_spectral_reference.py",
+      "path": "runs/weave_quantum_run12/verify_spectral_reference.py",
+      "bytes": 1957,
+      "sha256": "b669cbd13ce65fdb56e1ce4fd6e6a007e0cdd0e01c3bf98939e2afb40db935f8",
+      "git_blob_sha": "2dd6a664850a157182454a00033837b6d4897fb4",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        0,
+        34,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/CONSTRAINT_FIRST.log",
+      "path": "runs/weave_quantum_run13/CONSTRAINT_FIRST.log",
+      "bytes": 957,
+      "sha256": "a010a8530d4abd6abf2efde1a1b983aa6557cbc121275910684f1ba0b536405f",
+      "git_blob_sha": "bf8d941f14c4c1033ec7e0ed2f4991ab297d1d6d",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        28,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/CONSTRAINT_PRE_RUN_HASH.json",
+      "path": "runs/weave_quantum_run13/CONSTRAINT_PRE_RUN_HASH.json",
+      "bytes": 283,
+      "sha256": "62760ea3976c1fc97104fc650bfaa9bf7f9220e290765ead51b9667c7042e472",
+      "git_blob_sha": "ed170e824ccd3af0aa3237f6092da867fd43af84",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        28,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/CONSTRAINT_RESULTS.json",
+      "path": "runs/weave_quantum_run13/CONSTRAINT_RESULTS.json",
+      "bytes": 957,
+      "sha256": "a010a8530d4abd6abf2efde1a1b983aa6557cbc121275910684f1ba0b536405f",
+      "git_blob_sha": "bf8d941f14c4c1033ec7e0ed2f4991ab297d1d6d",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        34,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/COUPLED_FIRST.log",
+      "path": "runs/weave_quantum_run13/COUPLED_FIRST.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        25,
+        2
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/COUPLED_RESULTS.json",
+      "path": "runs/weave_quantum_run13/COUPLED_RESULTS.json",
+      "bytes": 3755,
+      "sha256": "019974c135ec463c18f23ade14e817230f744d4a4f87e65e92e2eff17ce4db51",
+      "git_blob_sha": "a7a0d4d3dcd82e0eeac41b2c47fc07c9e7ded73f",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        34,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/COUPLED_SECOND.log",
+      "path": "runs/weave_quantum_run13/COUPLED_SECOND.log",
+      "bytes": 2312,
+      "sha256": "fcd2d966f80f175b0d29ad099ffe71563ae2b58ec1875696a74c7fc018772d36",
+      "git_blob_sha": "fb5173658b2bb65d0e226042226acde7e7e08430",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        26,
+        44
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/COUPLED_THIRD.log",
+      "path": "runs/weave_quantum_run13/COUPLED_THIRD.log",
+      "bytes": 6059,
+      "sha256": "79de7813ef92afa3531523bfbe3469266604c120ade1416b083429f4a987b254",
+      "git_blob_sha": "482c2453273ca1739f37547b027d53a3805ec0d0",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        27,
+        18
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/ENVIRONMENT.json",
+      "path": "runs/weave_quantum_run13/ENVIRONMENT.json",
+      "bytes": 89,
+      "sha256": "3c6909239074ec70f91bf063b47f30d0724a0edca7d8ae1788c702b646ef2bcf",
+      "git_blob_sha": "cc99a87ae23884d605575acf628b1fc1bb1c49dd",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        35,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/FINAL_MANIFEST.json",
+      "path": "runs/weave_quantum_run13/FINAL_MANIFEST.json",
+      "bytes": 4603,
+      "sha256": "cd992a80d04bdadce3ef159249f4880de1b48ed8052a6111b040153ae6bb24ed",
+      "git_blob_sha": "9eb1777dca0e9a4252e13a671384a2d5602a97d2",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        37,
+        0
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/FINAL_REPLAY_RECEIPT.json",
+      "path": "runs/weave_quantum_run13/FINAL_REPLAY_RECEIPT.json",
+      "bytes": 1492,
+      "sha256": "2edbea539409edfe02ae9f3dba3bc6e5c8a77f52166acd16b5f487fa7bd89b23",
+      "git_blob_sha": "5100fdd14051a840bf58f0eb7482497c62706f53",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        34,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/LATE_REPOSITORY_UPDATE.md",
+      "path": "runs/weave_quantum_run13/LATE_REPOSITORY_UPDATE.md",
+      "bytes": 1371,
+      "sha256": "d8c00cc4fbae9e400429ba570a6ca4550aa719c448f6e53e21184ae6aa2c3843",
+      "git_blob_sha": "f921bdab91d0c323b1e9cd8c61ffe61869866047",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        36,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/PLAN.md",
+      "path": "runs/weave_quantum_run13/PLAN.md",
+      "bytes": 2680,
+      "sha256": "e4b9af8a8a650efc2ef705735abbb6ee7249936f870c20ca31b7e9feca32af6d",
+      "git_blob_sha": "1594f38f55cfc5174dd91df8d3eb416a154a171b",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        23,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/PRE_RUN_HASHES.json",
+      "path": "runs/weave_quantum_run13/PRE_RUN_HASHES.json",
+      "bytes": 607,
+      "sha256": "b3817ad769555a3db4a5686e5fe01670fae2d7fff92b860d61aecefb76234465",
+      "git_blob_sha": "b7a17346244e4d76a76a995e7c21761e40798661",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        24,
+        54
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/PRE_SECOND_HASHES.json",
+      "path": "runs/weave_quantum_run13/PRE_SECOND_HASHES.json",
+      "bytes": 471,
+      "sha256": "ff18c8d675441a148850f173c014d5cb81be86986a443ced0e8673e2c9f6e0ac",
+      "git_blob_sha": "c6e50ea67a645d2423b97a346aa3fd55d1593a74",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        26,
+        36
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/PRE_THIRD_HASHES.json",
+      "path": "runs/weave_quantum_run13/PRE_THIRD_HASHES.json",
+      "bytes": 497,
+      "sha256": "5e325b75eb5a12d7bd17d2bf0c84759e9be5c190aead44d0886baf76ce6bbe95",
+      "git_blob_sha": "bdd65c401bed12007cb0124cb784b7c5c65cfdb0",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        27,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/README.md",
+      "path": "runs/weave_quantum_run13/README.md",
+      "bytes": 2306,
+      "sha256": "14a3e23b2b1b1c1a892885de62a005e96b72de623a189a083474fed52b3351c8",
+      "git_blob_sha": "4eb308baebbe3607c8ec566528c84a7b07adb4a7",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        35,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/SEAL_CHECKS.json",
+      "path": "runs/weave_quantum_run13/SEAL_CHECKS.json",
+      "bytes": 395,
+      "sha256": "60ffcda091bfd60a53663de18abfbbb4e69e022b82ae7b7227aeb1b0c5697dce",
+      "git_blob_sha": "42e481049affe23697a7c742fe9a438a5561dea6",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        35,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/SLAB_FIRST.log",
+      "path": "runs/weave_quantum_run13/SLAB_FIRST.log",
+      "bytes": 1886,
+      "sha256": "243b0282c0c1f66e5624de79ac4bce90e5927206d4d8f7353cdc853ca9aeec77",
+      "git_blob_sha": "f47f926ad2ca662fa73103ecd9163797a350d5ab",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        26,
+        56
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/SLAB_RESULTS.json",
+      "path": "runs/weave_quantum_run13/SLAB_RESULTS.json",
+      "bytes": 1886,
+      "sha256": "243b0282c0c1f66e5624de79ac4bce90e5927206d4d8f7353cdc853ca9aeec77",
+      "git_blob_sha": "f47f926ad2ca662fa73103ecd9163797a350d5ab",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        34,
+        14
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/SOURCES.json",
+      "path": "runs/weave_quantum_run13/SOURCES.json",
+      "bytes": 5703,
+      "sha256": "e74805285d688c474fd322312a8d6c98bcecde6fed2d1df47b6a1c4cab0f6f0c",
+      "git_blob_sha": "0d2d55af8fa95a9498b828e4b5d6f14645f29961",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        36,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/TECHNICAL_REPORT.md",
+      "path": "runs/weave_quantum_run13/TECHNICAL_REPORT.md",
+      "bytes": 26483,
+      "sha256": "f09082006dbb8b85eb5d8e65cb31d900643a80d200de678bd8c923c37ce46d59",
+      "git_blob_sha": "976be83c9dda3b64157e483a3e2d2cbda3004131",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        36,
+        40
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/record_replay.py",
+      "path": "runs/weave_quantum_run13/record_replay.py",
+      "bytes": 1168,
+      "sha256": "ad09336999cf38f1601931c42f03abaa25cbe3005a3f1f150e42c3949f7603f9",
+      "git_blob_sha": "59407d909156c8ba36c2e7a7f240c0920109640a",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        34,
+        10
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/verify_constraints.py",
+      "path": "runs/weave_quantum_run13/verify_constraints.py",
+      "bytes": 2780,
+      "sha256": "11d05f2fd45c0a0e189d7161ae258b028d598fb72b7d518293a4223edbe27bd3",
+      "git_blob_sha": "cdc359f3dfa2543f68a4f108b04f03f5c323bc7d",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        28,
+        38
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/verify_constraints_REPLAY.log",
+      "path": "runs/weave_quantum_run13/verify_constraints_REPLAY.log",
+      "bytes": 957,
+      "sha256": "a010a8530d4abd6abf2efde1a1b983aa6557cbc121275910684f1ba0b536405f",
+      "git_blob_sha": "bf8d941f14c4c1033ec7e0ed2f4991ab297d1d6d",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        34,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/verify_coupled.py",
+      "path": "runs/weave_quantum_run13/verify_coupled.py",
+      "bytes": 8907,
+      "sha256": "34cb80e66ae651852667749165106a7fbb2e3047374723c67cfb07f1967f5e54",
+      "git_blob_sha": "2c72218bf417ea168a6cd9aa76b269d6bd115467",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        27,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/verify_coupled_REPLAY.log",
+      "path": "runs/weave_quantum_run13/verify_coupled_REPLAY.log",
+      "bytes": 6059,
+      "sha256": "79de7813ef92afa3531523bfbe3469266604c120ade1416b083429f4a987b254",
+      "git_blob_sha": "482c2453273ca1739f37547b027d53a3805ec0d0",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        34,
+        12
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/verify_coupled_first_timed_out.py",
+      "path": "runs/weave_quantum_run13/verify_coupled_first_timed_out.py",
+      "bytes": 8675,
+      "sha256": "a845417c92d25bd981fa892eed046b4564c0ae8b1397edec70263d0be5bd3bd0",
+      "git_blob_sha": "4f0a46526886f6c984cb1c194a180f8611aada83",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        26,
+        36
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/verify_coupled_second_type_error.py",
+      "path": "runs/weave_quantum_run13/verify_coupled_second_type_error.py",
+      "bytes": 8904,
+      "sha256": "e5f5490d95185a944a74568747dd4764d6e0b5c67c3caa423c7133be3b316e2f",
+      "git_blob_sha": "1af520b7601098520ce2859e99c65d6d8b8419ee",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        27,
+        16
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/verify_slab_reference.py",
+      "path": "runs/weave_quantum_run13/verify_slab_reference.py",
+      "bytes": 4759,
+      "sha256": "1e840a35b5db3b77af149371c53a87ae811d7f44d5c14b5baf5735f380901be5",
+      "git_blob_sha": "4ffbb68ca1639ac2e92dabc4448abc53121bb647",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        24,
+        52
+      ],
+      "zip_external_attr": 2175008768
+    },
+    {
+      "archive": "Weave_Quantum_Realization_Run13.zip",
+      "zip_member": "weave_quantum_run13/verify_slab_reference_REPLAY.log",
+      "path": "runs/weave_quantum_run13/verify_slab_reference_REPLAY.log",
+      "bytes": 1886,
+      "sha256": "243b0282c0c1f66e5624de79ac4bce90e5927206d4d8f7353cdc853ca9aeec77",
+      "git_blob_sha": "f47f926ad2ca662fa73103ecd9163797a350d5ab",
+      "zip_timestamp": [
+        2026,
+        10,
+        11,
+        6,
+        34,
+        14
+      ],
+      "zip_external_attr": 2175008768
+    }
+  ],
+  "standalone_copies": [
+    {
+      "mounted_path": "/mnt/data/weave_audit/mathematical_notes.md",
+      "archived_path": "standalone_attachments/weave_audit/mathematical_notes.md",
+      "identical_to_zip_member": "weave_audit/mathematical_notes.md",
+      "sha256": "28e13d7eb1ad6fd5a900bb2349649f4c98a82381b1c4f455f11f1b3320a63cca"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run1/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run1/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run1/TECHNICAL_REPORT.md",
+      "sha256": "69ae4b237d9565a04a11fd86fa6cd3f0d4c723f391d1186b2ea0f991f166c5d2"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run2/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run2/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run2/TECHNICAL_REPORT.md",
+      "sha256": "2d59adf2d288212ba836e00356a7206959c6992ed53a31220880d3b0eef07c8d"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run3/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run3/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run3/TECHNICAL_REPORT.md",
+      "sha256": "29d5b33a1c2df009a8d0e5a896b4e1574a55a8831d8818b948827f6d8ec797cc"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run4/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run4/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run4/TECHNICAL_REPORT.md",
+      "sha256": "9328f67192abaa4019a0993d38bbb21ba6106cb5b15bbf88dc57506a6d62cd2d"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run5/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run5/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run5/TECHNICAL_REPORT.md",
+      "sha256": "09ee2189bd6763591719488f9d52fc9e59009d547689f382bd824a0387268859"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run6/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run6/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run6/TECHNICAL_REPORT.md",
+      "sha256": "1892cf838dac2a8a638b34f1567f2cc91ed810b3c55060ae7233e4ba73ba5fd3"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run7/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run7/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run7/TECHNICAL_REPORT.md",
+      "sha256": "1456066abae0b303b2f22e794ace03b093a7ba89fbcab105ef91ddf61e394e87"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run8/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run8/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run8/TECHNICAL_REPORT.md",
+      "sha256": "600f71789eca579ee725652ac1d032af63945148f7ebbfd9fedf860c767fa98f"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run9/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run9/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run9/TECHNICAL_REPORT.md",
+      "sha256": "630c76ba1988268283e52d6157010e522987fcc0482005a5541c0a40665f5fc2"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run10/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run10/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run10/TECHNICAL_REPORT.md",
+      "sha256": "a6727399567f541d8c1979b1c8f09e21bb887ee4eb36c541fb3c3fb0078b0776"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run11/REPOSITORY_MAP.md",
+      "archived_path": "standalone_attachments/weave_quantum_run11/REPOSITORY_MAP.md",
+      "identical_to_zip_member": "weave_quantum_run11/REPOSITORY_MAP.md",
+      "sha256": "e71958e12b97f278775e23dd74b790280de306d8174ba93c454b05ee30e4bc5c"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run11/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run11/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run11/TECHNICAL_REPORT.md",
+      "sha256": "b381c32779a761d2111da858a508bd0586576e79b2af68ea644cd31f6fbbd342"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run12/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run12/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run12/TECHNICAL_REPORT.md",
+      "sha256": "32cc242101817d9788c3fdf639002ca2d948ebc01aced659c192f69bbf1d2b55"
+    },
+    {
+      "mounted_path": "/mnt/data/weave_quantum_run13/TECHNICAL_REPORT.md",
+      "archived_path": "standalone_attachments/weave_quantum_run13/TECHNICAL_REPORT.md",
+      "identical_to_zip_member": "weave_quantum_run13/TECHNICAL_REPORT.md",
+      "sha256": "f09082006dbb8b85eb5d8e65cb31d900643a80d200de678bd8c923c37ce46d59"
+    }
+  ],
+  "source_manuscript": {
+    "filename": "A_Weave_of_Two_Records_Dritero_M.pdf",
+    "sha256": "7eb4942591fc61dbb5d389633477382c50288aa9a8e6c08869d82bd3021075fa",
+    "bytes": 94803
+  },
+  "science_rerun": false,
+  "source_bytes_modified": false
+}

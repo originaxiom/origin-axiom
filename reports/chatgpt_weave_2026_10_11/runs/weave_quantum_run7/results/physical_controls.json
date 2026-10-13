@@ -1,0 +1,419 @@
+{
+  "number_checks": 78,
+  "checks": [
+    {
+      "name": "Trace anticommutation necessity",
+      "passed": true
+    },
+    {
+      "name": "Ramond spinor quaternion center remains faithful",
+      "passed": true
+    },
+    {
+      "name": "Vector adjoint holonomies commute and lose the center",
+      "passed": true
+    },
+    {
+      "name": "Original four-real faithful field vs diagonal embedding center mismatch",
+      "passed": true
+    },
+    {
+      "name": "Diagonal level-two subalgebra is not old Q8-left invariant",
+      "passed": true
+    },
+    {
+      "name": "k=2: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=2: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=4: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=4: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=6: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=6: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=8: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=8: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=10: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=10: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=12: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=12: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=14: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=14: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=16: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=16: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=18: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=18: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=20: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=20: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=22: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=22: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=24: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=24: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=26: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=26: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=28: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=28: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=30: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=30: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=32: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=32: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=34: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=34: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=36: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=36: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=38: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=38: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "k=40: all integrable Wilson characters equal quaternion-axis characters",
+      "passed": true
+    },
+    {
+      "name": "k=40: fundamental quantum trace zero",
+      "passed": true
+    },
+    {
+      "name": "Fusion relation on puncture state is 0\u00b2=1+(-1)",
+      "passed": true
+    },
+    {
+      "name": "Phase-compatible level 2: quaternion-doublet multiplicity",
+      "passed": true
+    },
+    {
+      "name": "Phase-compatible level 18: quaternion-doublet multiplicity",
+      "passed": true
+    },
+    {
+      "name": "Phase-compatible level 34: quaternion-doublet multiplicity",
+      "passed": true
+    },
+    {
+      "name": "Phase-compatible level 50: quaternion-doublet multiplicity",
+      "passed": true
+    },
+    {
+      "name": "Phase-compatible level 66: quaternion-doublet multiplicity",
+      "passed": true
+    },
+    {
+      "name": "Phase-compatible level 82: quaternion-doublet multiplicity",
+      "passed": true
+    },
+    {
+      "name": "Exactly one quaternion doublet selects k=2 within the phase-compatible family",
+      "passed": true
+    },
+    {
+      "name": "Gauss-law dimensional distinction",
+      "passed": true
+    },
+    {
+      "name": "Level differs by discrete central coefficient",
+      "passed": true
+    },
+    {
+      "name": "All zero-mode spinor generators traceless",
+      "passed": true
+    },
+    {
+      "name": "Cubic Clifford volume nonzero",
+      "passed": true
+    },
+    {
+      "name": "Current-vector Ramond response 0,0",
+      "passed": true
+    },
+    {
+      "name": "Current-vector Ramond response 0,1",
+      "passed": true
+    },
+    {
+      "name": "Current-vector Ramond response 0,2",
+      "passed": true
+    },
+    {
+      "name": "Current-vector Ramond response 1,0",
+      "passed": true
+    },
+    {
+      "name": "Current-vector Ramond response 1,1",
+      "passed": true
+    },
+    {
+      "name": "Current-vector Ramond response 1,2",
+      "passed": true
+    },
+    {
+      "name": "Current-vector Ramond response 2,0",
+      "passed": true
+    },
+    {
+      "name": "Current-vector Ramond response 2,1",
+      "passed": true
+    },
+    {
+      "name": "Current-vector Ramond response 2,2",
+      "passed": true
+    },
+    {
+      "name": "Cubic supercurrent leading Wick coefficient",
+      "passed": true
+    },
+    {
+      "name": "Cubic supercurrent stress tensor coefficient species 0",
+      "passed": true
+    },
+    {
+      "name": "Cubic supercurrent stress tensor coefficient species 1",
+      "passed": true
+    },
+    {
+      "name": "Cubic supercurrent stress tensor coefficient species 2",
+      "passed": true
+    },
+    {
+      "name": "2 sigma particles: fusion degeneracy",
+      "passed": true
+    },
+    {
+      "name": "4 sigma particles: fusion degeneracy",
+      "passed": true
+    },
+    {
+      "name": "6 sigma particles: fusion degeneracy",
+      "passed": true
+    },
+    {
+      "name": "8 sigma particles: fusion degeneracy",
+      "passed": true
+    },
+    {
+      "name": "10 sigma particles: fusion degeneracy",
+      "passed": true
+    },
+    {
+      "name": "12 sigma particles: fusion degeneracy",
+      "passed": true
+    },
+    {
+      "name": "14 sigma particles: fusion degeneracy",
+      "passed": true
+    },
+    {
+      "name": "16 sigma particles: fusion degeneracy",
+      "passed": true
+    }
+  ],
+  "Wilson_eigenvalues": [
+    {
+      "k": 2,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 4,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 6,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 8,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 10,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 12,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 14,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 16,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 18,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 20,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 22,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 24,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 26,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 28,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 30,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 32,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 34,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 36,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 38,
+      "fundamental": "0",
+      "adjoint": "-1"
+    },
+    {
+      "k": 40,
+      "fundamental": "0",
+      "adjoint": "-1"
+    }
+  ]
+}

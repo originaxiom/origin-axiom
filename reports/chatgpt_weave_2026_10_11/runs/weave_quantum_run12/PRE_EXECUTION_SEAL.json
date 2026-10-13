@@ -1,0 +1,17 @@
+{
+  "sealed_before_first_execution": true,
+  "timestamp_utc": "2026-10-11T00:33:06.061035+00:00",
+  "files": [
+    {
+      "path": "PRE_EXECUTION_PLAN.md",
+      "bytes": 2817,
+      "sha256": "29fa0dabcfed16f0610949f3ed2b8bd84992904be708759d6030530160248959"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 8082,
+      "sha256": "792dea10a18acb92a0c8b3db438aa50019772931045718ac41f8429d214cdef1"
+    }
+  ],
+  "external_commit_or_timestamp": false
+}

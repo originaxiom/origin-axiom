@@ -1,0 +1,57 @@
+{
+  "repository": "originaxiom/origin-axiom",
+  "physical_pin": "2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab",
+  "fork_pin": "8b89d8fb247a7c08811e3a3ccfa59a0e742d78a0",
+  "main_pin": "6c148ddd495d133213140995976ff08849793d5d",
+  "repository_sources": [
+    {
+      "label": "R1",
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "git_blob_sha": "b259e55a6dd836bb5850e05e7ea56ecdc4df01b9",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab/reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "read_grade": "full proof or input manifest via connected reader; producer not rerun"
+    },
+    {
+      "label": "R2",
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "git_blob_sha": "4133e436096b89a652de980b37ddc461bc74486d",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab/reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "read_grade": "full proof or input manifest via connected reader; producer not rerun"
+    },
+    {
+      "label": "R3",
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "git_blob_sha": "8c7059116f683828064daa06664ab271ce92e140",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab/reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "read_grade": "full proof or input manifest via connected reader; producer not rerun"
+    },
+    {
+      "label": "R4",
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md",
+      "git_blob_sha": "62920c4610afa2db24a54dc4d1ba99344ff3b5f2",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab/reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md",
+      "read_grade": "full proof or input manifest via connected reader; producer not rerun"
+    },
+    {
+      "label": "R5",
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/INPUTS.json",
+      "git_blob_sha": "d78837d06393876584552542f58572bc4e4a5119",
+      "url": "https://github.com/originaxiom/origin-axiom/blob/2f5cfef7ed3ea4c5e167758e9ba3aee926c2d8ab/reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/INPUTS.json",
+      "read_grade": "full proof or input manifest via connected reader; producer not rerun"
+    }
+  ],
+  "fork_history_read": [
+    "reports/silver_boundary_variation_2026_10_04/FINDINGS.md",
+    "reports/silver_cyclic_boundary_2026_10_04/FINDINGS.md"
+  ],
+  "primary_literature": [
+    "https://arxiv.org/html/1307.3021v1",
+    "https://arxiv.org/html/1102.0285v1",
+    "https://arxiv.org/html/1812.06072v2"
+  ],
+  "coverage": "Targeted source reading and live branch inventories, not all-head content audit or local clone.",
+  "local_clone": "Direct git ls-remote failed DNS; connected GitHub reads succeeded.",
+  "failures": "One encoded-branch URL was rejected; branch-list endpoint supplied a repeated unchanged physical pin.",
+  "novelty_claim": false,
+  "repository_write": false
+}

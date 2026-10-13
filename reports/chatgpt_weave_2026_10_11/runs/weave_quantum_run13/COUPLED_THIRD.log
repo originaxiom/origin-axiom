@@ -1,0 +1,155 @@
+mixed_hessian_Hermitian True
+original_gauge_direction_is_null True
+invariant_derivative_annihilates_gauge_direction True
+Faddeev_Popov_is_minus_p2_plus_m2 True
+Feynman_gauge_cancels_every_mixing_entry True
+opposite_gauge_fixing_sign_fails True
+Proca_inverse_retains_longitudinal_constraint True
+unitary_gauge_variable_identity True
+complex_basis_unitary True
+complex_basis_genuinely_nonreal True
+flat_complex_d1_d0 True
+flat_complex_d2_d1 True
+curl_bilinear_is_symmetric_not_Hermitian True
+zero_form_laplacian_preserves_compact_reality True
+Hodge_dual_degree_zero_three True
+Hodge_dual_degree_one_two True
+complex_intertwining_degree_zero_one True
+complex_intertwining_degree_one_two True
+one_form_spectrum_in_explicit_basis True
+Weyl_mass_bilinear_complex_symmetric True
+Weyl_mass_square_equals_all_odd_Hodge_degrees True
+unitary_congruence_not_similarity_gives_mass_blocks True
+wrong_Hermitian_bilinear_substitution_fails True
+vector_Weyl_pair_m2_first True
+vector_Weyl_pair_m2_second True
+vector_Weyl_pair_m4_first True
+vector_Weyl_pair_m4_second True
+chiral_Takagi_mode_2 True
+chiral_Takagi_mode_3 True
+chiral_Takagi_mode_4 True
+antilinear_curl_square True
+co_closed_subspace_projector True
+antilinear_curl_preserves_co_closed True
+linear_curl_square_is_not_mass_square True
+real_scalar_plus_gauge_fixing_equals_Hodge True
+compact_gauge_is_scalar_null True
+imaginary_complex_gauge_is_not_null True
+compact_and_imaginary_exact_are_orthogonal True
+gauge_inverse_Gram True
+compact_gauge_projector True
+gauge_subspace_reduces_Hodge True
+physical_scalar_basis_is_orthonormal_and_gauge_orthogonal True
+physical_scalar_masses_include_uneaten_exact_partners True
+harmonic_scalar_real_dimension_two True
+unbroken_zero_form_gauge_mode_retained True
+harmonic_Weyl_gauge_plus_matter_retained True
+physical_degrees_balance_lambda_4 True
+physical_degrees_balance_lambda_9 True
+physical_degrees_balance_lambda_16 True
+physical_degrees_balance_lambda_25 True
+complex_gauge_deletion_would_break_count True
+nonflat_control_rejected True
+rest_supercharge_anticommutator_00 True
+rest_supercharge_anticommutator_01 True
+rest_supercharge_anticommutator_10 True
+rest_supercharge_anticommutator_11 True
+rest_supercharge_nilpotence True
+rest_supercharges_exchange_statistics True
+standard_chiral_and_vector_state_counts True
+{
+  "status": "exact finite controls, not a global PDE or actual silver mass calculation",
+  "facts": {
+    "mixed_hessian_Hermitian": true,
+    "original_gauge_direction_is_null": true,
+    "invariant_derivative_annihilates_gauge_direction": true,
+    "Faddeev_Popov_is_minus_p2_plus_m2": true,
+    "Feynman_gauge_cancels_every_mixing_entry": true,
+    "opposite_gauge_fixing_sign_fails": true,
+    "Proca_inverse_retains_longitudinal_constraint": true,
+    "unitary_gauge_variable_identity": true,
+    "complex_basis_unitary": true,
+    "complex_basis_genuinely_nonreal": true,
+    "flat_complex_d1_d0": true,
+    "flat_complex_d2_d1": true,
+    "curl_bilinear_is_symmetric_not_Hermitian": true,
+    "zero_form_laplacian_preserves_compact_reality": true,
+    "Hodge_dual_degree_zero_three": true,
+    "Hodge_dual_degree_one_two": true,
+    "complex_intertwining_degree_zero_one": true,
+    "complex_intertwining_degree_one_two": true,
+    "one_form_spectrum_in_explicit_basis": true,
+    "Weyl_mass_bilinear_complex_symmetric": true,
+    "Weyl_mass_square_equals_all_odd_Hodge_degrees": true,
+    "unitary_congruence_not_similarity_gives_mass_blocks": true,
+    "wrong_Hermitian_bilinear_substitution_fails": true,
+    "vector_Weyl_pair_m2_first": true,
+    "vector_Weyl_pair_m2_second": true,
+    "vector_Weyl_pair_m4_first": true,
+    "vector_Weyl_pair_m4_second": true,
+    "chiral_Takagi_mode_2": true,
+    "chiral_Takagi_mode_3": true,
+    "chiral_Takagi_mode_4": true,
+    "antilinear_curl_square": true,
+    "co_closed_subspace_projector": true,
+    "antilinear_curl_preserves_co_closed": true,
+    "linear_curl_square_is_not_mass_square": true,
+    "real_scalar_plus_gauge_fixing_equals_Hodge": true,
+    "compact_gauge_is_scalar_null": true,
+    "imaginary_complex_gauge_is_not_null": true,
+    "compact_and_imaginary_exact_are_orthogonal": true,
+    "gauge_inverse_Gram": true,
+    "compact_gauge_projector": true,
+    "gauge_subspace_reduces_Hodge": true,
+    "physical_scalar_basis_is_orthonormal_and_gauge_orthogonal": true,
+    "physical_scalar_masses_include_uneaten_exact_partners": true,
+    "harmonic_scalar_real_dimension_two": true,
+    "unbroken_zero_form_gauge_mode_retained": true,
+    "harmonic_Weyl_gauge_plus_matter_retained": true,
+    "physical_degrees_balance_lambda_4": true,
+    "physical_degrees_balance_lambda_9": true,
+    "physical_degrees_balance_lambda_16": true,
+    "physical_degrees_balance_lambda_25": true,
+    "complex_gauge_deletion_would_break_count": true,
+    "nonflat_control_rejected": true,
+    "rest_supercharge_anticommutator_00": true,
+    "rest_supercharge_anticommutator_01": true,
+    "rest_supercharge_anticommutator_10": true,
+    "rest_supercharge_anticommutator_11": true,
+    "rest_supercharge_nilpotence": true,
+    "rest_supercharges_exchange_statistics": true,
+    "standard_chiral_and_vector_state_counts": true
+  },
+  "passed": 59,
+  "total": 59,
+  "artificial_control_spectrum": {
+    "4": {
+      "massive_vector_multiplets": 1,
+      "massive_chiral_multiplets": 0,
+      "real_bosonic_on_shell": 4,
+      "fermionic_on_shell": 4
+    },
+    "9": {
+      "massive_vector_multiplets": 0,
+      "massive_chiral_multiplets": 2,
+      "real_bosonic_on_shell": 4,
+      "fermionic_on_shell": 4
+    },
+    "16": {
+      "massive_vector_multiplets": 1,
+      "massive_chiral_multiplets": 0,
+      "real_bosonic_on_shell": 4,
+      "fermionic_on_shell": 4
+    },
+    "25": {
+      "massive_vector_multiplets": 0,
+      "massive_chiral_multiplets": 1,
+      "real_bosonic_on_shell": 2,
+      "fermionic_on_shell": 2
+    }
+  },
+  "physical_boundary_supplied": true,
+  "actual_silver_census_recomputed": false,
+  "independent_author_review": false,
+  "full_nonlinear_Hamiltonian_proved": false
+}

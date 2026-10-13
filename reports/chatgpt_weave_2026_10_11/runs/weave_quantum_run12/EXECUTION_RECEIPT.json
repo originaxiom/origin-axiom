@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-10-11T00:37:57.733689+00:00",
+  "primary_first_exit": 0,
+  "spectral_first_exit": 0,
+  "exact_checks_passed": 33,
+  "exact_checks_total": 33,
+  "integrity": [
+    {
+      "path": "PRE_EXECUTION_PLAN.md",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "verify.py",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "verify_spectral_reference.py",
+      "bytes_match": true,
+      "sha256_match": true
+    }
+  ],
+  "scientific_repairs": 0,
+  "nonauthor_acceptance": false,
+  "infinite_dimensional_analytic_proof_certified_by_tests": false
+}

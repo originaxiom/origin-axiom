@@ -1,0 +1,483 @@
+{
+  "anomaly_matching": {
+    "1": {
+      "boundary_level": 1,
+      "relative_to_bulk_level_2": -1,
+      "free_central_charge": 2
+    },
+    "2": {
+      "boundary_level": 2,
+      "relative_to_bulk_level_2": 0,
+      "free_central_charge": 4
+    },
+    "3": {
+      "boundary_level": 3,
+      "relative_to_bulk_level_2": 1,
+      "free_central_charge": 6
+    },
+    "4": {
+      "boundary_level": 4,
+      "relative_to_bulk_level_2": 2,
+      "free_central_charge": 8
+    }
+  },
+  "weight_one_branching": [
+    {
+      "colour_spin": 0,
+      "flavour_spin": 0,
+      "charge": 0,
+      "dimension": 1,
+      "multiplicity": 1
+    },
+    {
+      "colour_spin": 0,
+      "flavour_spin": 1,
+      "charge": -2,
+      "dimension": 3,
+      "multiplicity": 1
+    },
+    {
+      "colour_spin": 0,
+      "flavour_spin": 1,
+      "charge": 0,
+      "dimension": 3,
+      "multiplicity": 1
+    },
+    {
+      "colour_spin": 0,
+      "flavour_spin": 1,
+      "charge": 2,
+      "dimension": 3,
+      "multiplicity": 1
+    },
+    {
+      "colour_spin": 1,
+      "flavour_spin": 0,
+      "charge": -2,
+      "dimension": 3,
+      "multiplicity": 1
+    },
+    {
+      "colour_spin": 1,
+      "flavour_spin": 0,
+      "charge": 0,
+      "dimension": 3,
+      "multiplicity": 1
+    },
+    {
+      "colour_spin": 1,
+      "flavour_spin": 0,
+      "charge": 2,
+      "dimension": 3,
+      "multiplicity": 1
+    },
+    {
+      "colour_spin": 1,
+      "flavour_spin": 1,
+      "charge": 0,
+      "dimension": 9,
+      "multiplicity": 1
+    }
+  ],
+  "central_charges": {
+    "parent": "4",
+    "colour": "3/2",
+    "residual": "5/2",
+    "discarding_two_chiral_modes_loses": "1"
+  },
+  "endpoint_vector": [
+    {
+      "flavour": "triplet",
+      "charge": 0,
+      "dimension": 3,
+      "h": "1/2"
+    },
+    {
+      "flavour": "singlet",
+      "charge": 2,
+      "dimension": 1,
+      "h": "1/2"
+    },
+    {
+      "flavour": "singlet",
+      "charge": -2,
+      "dimension": 1,
+      "h": "1/2"
+    }
+  ],
+  "characters": {
+    "SO5_vacuum": [
+      {
+        "q_power": "-5/48",
+        "coefficient": 1
+      },
+      {
+        "q_power": "43/48",
+        "coefficient": 10
+      },
+      {
+        "q_power": "91/48",
+        "coefficient": 30
+      },
+      {
+        "q_power": "139/48",
+        "coefficient": 85
+      },
+      {
+        "q_power": "187/48",
+        "coefficient": 205
+      },
+      {
+        "q_power": "235/48",
+        "coefficient": 465
+      }
+    ],
+    "SO5_vector": [
+      {
+        "q_power": "19/48",
+        "coefficient": 5
+      },
+      {
+        "q_power": "67/48",
+        "coefficient": 15
+      },
+      {
+        "q_power": "115/48",
+        "coefficient": 56
+      },
+      {
+        "q_power": "163/48",
+        "coefficient": 130
+      },
+      {
+        "q_power": "211/48",
+        "coefficient": 315
+      },
+      {
+        "q_power": "259/48",
+        "coefficient": 665
+      }
+    ],
+    "SO5_spinor": [
+      {
+        "q_power": "5/24",
+        "coefficient": 4
+      },
+      {
+        "q_power": "29/24",
+        "coefficient": 20
+      },
+      {
+        "q_power": "53/24",
+        "coefficient": 60
+      },
+      {
+        "q_power": "77/24",
+        "coefficient": 160
+      },
+      {
+        "q_power": "101/24",
+        "coefficient": 380
+      },
+      {
+        "q_power": "125/24",
+        "coefficient": 824
+      }
+    ],
+    "SO8_vacuum": [
+      {
+        "q_power": "-1/6",
+        "coefficient": 1
+      },
+      {
+        "q_power": "5/6",
+        "coefficient": 28
+      },
+      {
+        "q_power": "11/6",
+        "coefficient": 134
+      },
+      {
+        "q_power": "17/6",
+        "coefficient": 568
+      },
+      {
+        "q_power": "23/6",
+        "coefficient": 1809
+      },
+      {
+        "q_power": "29/6",
+        "coefficient": 5316
+      }
+    ]
+  },
+  "inserted_traces": {
+    "quintic": "eta(tau)^5 up to constant",
+    "cubic_neutral_triplet": "0 in the unrefined full SO5 spinor trace",
+    "h_quintic": "5/2",
+    "handle_exponent": "5/24",
+    "relative_T_phase_to_source_line": "exp(pi*i/6)",
+    "relative_S_phase_to_source_line": "-i"
+  },
+  "extension": {
+    "local_pairs": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "f"
+      ],
+      [
+        "s",
+        "s"
+      ],
+      [
+        "f",
+        "1"
+      ],
+      [
+        "f",
+        "f"
+      ]
+    ],
+    "confined_pairs": [
+      [
+        "1",
+        "s"
+      ],
+      [
+        "s",
+        "1"
+      ],
+      [
+        "s",
+        "f"
+      ],
+      [
+        "f",
+        "s"
+      ]
+    ],
+    "extended_sector_count": 4,
+    "extended_nontrivial_twists": [
+      -1,
+      -1,
+      -1
+    ],
+    "note": "Known SO8_1 extension. This is a locality/orbit check, not a new all-genus interface proof."
+  },
+  "checks": [
+    {
+      "name": "fundamental_trace_normalization",
+      "passed": true
+    },
+    {
+      "name": "one_copy_does_not_match_two_copies_do",
+      "passed": true
+    },
+    {
+      "name": "original_quaternion_does_not_preserve_diagonal",
+      "passed": true
+    },
+    {
+      "name": "all_graph_embeddings_excluded_by_invertibility",
+      "passed": true
+    },
+    {
+      "name": "weighted_sum_not_a_level_rescaling",
+      "passed": true
+    },
+    {
+      "name": "doubled_colour_currents_have_level_two",
+      "passed": true
+    },
+    {
+      "name": "copy_flavour_currents_have_level_two",
+      "passed": true
+    },
+    {
+      "name": "colour_and_new_flavour_commute",
+      "passed": true
+    },
+    {
+      "name": "all_weight_one_states_included",
+      "passed": true
+    },
+    {
+      "name": "commuting_joint_colour_flavour_charge_operators",
+      "passed": true
+    },
+    {
+      "name": "complete_weight_one_joint_branching",
+      "passed": true
+    },
+    {
+      "name": "gauge_commutant_has_ten_currents",
+      "passed": true
+    },
+    {
+      "name": "f_endpoint_multiplicity_five_not_three",
+      "passed": true
+    },
+    {
+      "name": "independent_real_commutant_basis_rank_ten",
+      "passed": true
+    },
+    {
+      "name": "real_commutant_is_skew_and_commutes",
+      "passed": true
+    },
+    {
+      "name": "commutant_closes_under_all_brackets",
+      "passed": true
+    },
+    {
+      "name": "two_copy_quaternion_action_faithful",
+      "passed": true
+    },
+    {
+      "name": "gauge_singlet_currents_do_not_carry_colour_Q8",
+      "passed": true
+    },
+    {
+      "name": "adjoint_matter_times_adjoint_line_has_one_colour_singlet",
+      "passed": true
+    },
+    {
+      "name": "explicit_colour_gauss_projector",
+      "passed": true
+    },
+    {
+      "name": "five_gauge_invariant_endpoints_after_constraint",
+      "passed": true
+    },
+    {
+      "name": "neutral_mixed_bilinears_are_colour_affine_primaries",
+      "passed": true
+    },
+    {
+      "name": "neutral_mixed_two_point_normalization",
+      "passed": true
+    },
+    {
+      "name": "central_charge_balance",
+      "passed": true
+    },
+    {
+      "name": "SO5_sugawara_value",
+      "passed": true
+    },
+    {
+      "name": "endpoint_coset_weight",
+      "passed": true
+    },
+    {
+      "name": "fundamental_dressed_spinor_weight",
+      "passed": true
+    },
+    {
+      "name": "exact_affine_vacuum_branching_through_weight_eight",
+      "passed": true
+    },
+    {
+      "name": "exact_vector_spinor_branching_through_weight_eight",
+      "passed": true
+    },
+    {
+      "name": "exact_even_ramond_branching_through_weight_eight",
+      "passed": true
+    },
+    {
+      "name": "SO8_triality_character_control",
+      "passed": true
+    },
+    {
+      "name": "SO5_vector_leading_count_and_gap",
+      "passed": true
+    },
+    {
+      "name": "ramond_even_ground_branch_dimension",
+      "passed": true
+    },
+    {
+      "name": "ramond_colour_singlet_residual_five",
+      "passed": true
+    },
+    {
+      "name": "five_gamma_clifford_algebra",
+      "passed": true
+    },
+    {
+      "name": "quintic_zero_mode_has_nonzero_trace",
+      "passed": true
+    },
+    {
+      "name": "cubic_triplet_trace_vanishes",
+      "passed": true
+    },
+    {
+      "name": "all_1_distinct_gamma_traces_vanish",
+      "passed": true
+    },
+    {
+      "name": "all_3_distinct_gamma_traces_vanish",
+      "passed": true
+    },
+    {
+      "name": "five_zero_mode_trace_normalization",
+      "passed": true
+    },
+    {
+      "name": "five_fermion_handle_exponent",
+      "passed": true
+    },
+    {
+      "name": "line_phase_difference",
+      "passed": true
+    },
+    {
+      "name": "simple_current_product_is_boson",
+      "passed": true
+    },
+    {
+      "name": "complete_extension_locality_screen",
+      "passed": true
+    },
+    {
+      "name": "fixed_pair_splits_into_two_dimension_one_channels",
+      "passed": true
+    },
+    {
+      "name": "all_three_extended_nontrivial_twists_are_fermionic",
+      "passed": true
+    },
+    {
+      "name": "extension_total_quantum_dimension",
+      "passed": true
+    },
+    {
+      "name": "same_chirality_pair_term_has_gapless_crossings",
+      "passed": true
+    },
+    {
+      "name": "thermal_central_charge_ratio_to_three_majoranas",
+      "passed": true
+    },
+    {
+      "name": "residual_vacuum_energy",
+      "passed": true
+    },
+    {
+      "name": "residual_three_sector_torus_not_target_even_up_to_common_shift",
+      "passed": true
+    },
+    {
+      "name": "no_float_in_exact_matrices",
+      "passed": true
+    }
+  ],
+  "named_checks": 52,
+  "all_passed": true
+}

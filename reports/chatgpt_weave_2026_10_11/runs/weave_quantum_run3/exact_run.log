@@ -1,0 +1,29 @@
+PASS faithful quaternion holonomies
+PASS central puncture monodromy
+PASS unitary faithful background
+PASS index-two abelianization
+PASS cover Euler characteristic
+PASS charge neutrality and insertion weight
+PASS local L2 half-pole is integrable
+PASS target image order
+PASS Gaussian quadratic image order
+PASS scalar centers
+PASS same genuine metaplectic central sign
+PASS modular group relation
+PASS different Dehn-twist orders
+PASS T spectrum mismatch
+PASS relative eta squared character
+PASS full target factor chi_eta3 times rotations
+PASS full Gaussian factor chi_eta5 times rotations
+PASS all positive words to length eight
+PASS Fibonacci LR blind but odd trace LLLR detects mismatch
+PASS q-series modular Wronskian D identity
+PASS independent q-series theta duplication
+PASS Hurwitz-zeta Casimir energy
+PASS oscillator factor repairs classical ground exponent
+PASS parabolic degree and zero-mode insertion number
+PASS operator dimensions in OPE
+PASS weights and exact eta quotient relationships
+PASS abelian OPE exponent associativity
+PASS bosonized normalization exponent accounting
+COMPLETE: 28 named exact checks

@@ -1,0 +1,9 @@
+{
+  "dps": 55,
+  "number_of_comparisons": 116,
+  "strict_comparisons": 100,
+  "finite_limit_comparisons": 16,
+  "max_strict_normalized_residual": "4.4582729226579424896e-55",
+  "max_finite_limit_normalized_residual": "6.051162526393805877e-38",
+  "scope": "four generic/sample moduli; no interval-certified bounds; fixed rational coset boundary and framed transport, not a singular Dirac Quillen calculation"
+}

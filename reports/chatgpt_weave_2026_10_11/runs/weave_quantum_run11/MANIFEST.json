@@ -1,0 +1,16 @@
+{
+  "CHANGELOG.md": "54bdd8530735a5fd17a7b6af71aaf17b17e9fd5243ff9f5c04eb9e5829ce61ff",
+  "PLAN.md": "788ddea658407e55aeba65bb62d4ec11be5adf2d0ac9d51ef6172b0b2f519f86",
+  "PLAN.sha256": "7af0117c9b1e00928c7ff67ced310492540d6b57314c67feab3b43068cc02f32",
+  "README.md": "b79210f51ab7a8c2b296b45bbfc457b97600b891f2ad9962588eb35405456fb7",
+  "REPOSITORY_MAP.md": "e71958e12b97f278775e23dd74b790280de306d8174ba93c454b05ee30e4bc5c",
+  "TECHNICAL_REPORT.md": "b381c32779a761d2111da858a508bd0586576e79b2af68ea644cd31f6fbbd342",
+  "results/exact_results.json": "5c2c7e6084578bb554c0c47c6c8f4811649ecabeaa0afc6568b4a301b27ed574",
+  "results/exact_run.txt": "ac8e31864093a7c849941315614a120695cdabe84d04ef7ac9c20482af207216",
+  "results/numerical_50.json": "4959147a30cfd8cf233e1511a44b08470c8f9384a96379604a9a50e1053f99e5",
+  "results/numerical_50.txt": "a6690c8031a9c09efc72b93d151fd731875d9cff3e2f1defb9f72aca66f9a98f",
+  "results/numerical_80.json": "e3887c78f84d107a0d97f3dfbf1521b6a3bdb2216b8d6e4a3aa5fdf6c3b485a2",
+  "results/numerical_80.txt": "f6c1ecc8b49951d33f7d74549c511145ea0da41735cc42af0e8a41719aee0461",
+  "verify_exact.py": "492143452d4905837262948d9386ca8fe5f35f2b5bab78d63f4a884e1853fdfb",
+  "verify_numerical.py": "8c9c8d2a1c492cef717c843e914f376f571115263735113efc48217a7a4e684c"
+}

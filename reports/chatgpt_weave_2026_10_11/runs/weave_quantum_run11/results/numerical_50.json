@@ -1,0 +1,260 @@
+{
+  "dps": 50,
+  "status": "all numerical comparisons passed",
+  "count": 61,
+  "strict_count": 59,
+  "finite_count": 2,
+  "max_strict_normalized_residual": "1.389837937841642e-49",
+  "max_finite_normalized_residual": "3.887555046709505e-25",
+  "YM_to_round_metric_ratios_at_two_points": [
+    "0.353578608188307096",
+    "0.213221733972509198"
+  ],
+  "checks": [
+    {
+      "name": "0: theta quotient period one",
+      "normalized_residual": "4.050693740237186e-51"
+    },
+    {
+      "name": "0: theta quotient period tau",
+      "normalized_residual": "9.95582431734107e-51"
+    },
+    {
+      "name": "0: Weyl reflection",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "0: first half-period is record Z",
+      "normalized_residual": "3.239176912181783e-51"
+    },
+    {
+      "name": "0: second half-period is record X",
+      "normalized_residual": "9.449650255111442e-52"
+    },
+    {
+      "name": "0: gauge-holonomy quotient equals Run10 profile",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "0: ramification point 0",
+      "normalized_residual": "1.908723825546091e-359"
+    },
+    {
+      "name": "0: ramification point 1",
+      "normalized_residual": "2.591485019197609e-51"
+    },
+    {
+      "name": "0: ramification point 2",
+      "normalized_residual": "2.138196854798837e-50"
+    },
+    {
+      "name": "0: ramification point 3",
+      "normalized_residual": "2.600537031322948e-50"
+    },
+    {
+      "name": "0: induced flat metric pullback",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "1: theta quotient period one",
+      "normalized_residual": "4.736622462093833e-51"
+    },
+    {
+      "name": "1: theta quotient period tau",
+      "normalized_residual": "2.234947167997145e-51"
+    },
+    {
+      "name": "1: Weyl reflection",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "1: first half-period is record Z",
+      "normalized_residual": "1.575925740339782e-51"
+    },
+    {
+      "name": "1: second half-period is record X",
+      "normalized_residual": "2.320702126995867e-51"
+    },
+    {
+      "name": "1: gauge-holonomy quotient equals Run10 profile",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "1: ramification point 0",
+      "normalized_residual": "1.906963339415665e-442"
+    },
+    {
+      "name": "1: ramification point 1",
+      "normalized_residual": "1.665135347562504e-51"
+    },
+    {
+      "name": "1: ramification point 2",
+      "normalized_residual": "4.276424424128128e-50"
+    },
+    {
+      "name": "1: ramification point 3",
+      "normalized_residual": "1.389837937841642e-49"
+    },
+    {
+      "name": "1: induced flat metric pullback",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "2: theta quotient period one",
+      "normalized_residual": "6.178510577075118e-51"
+    },
+    {
+      "name": "2: theta quotient period tau",
+      "normalized_residual": "9.082239720228884e-51"
+    },
+    {
+      "name": "2: Weyl reflection",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "2: first half-period is record Z",
+      "normalized_residual": "4.444852714105835e-51"
+    },
+    {
+      "name": "2: second half-period is record X",
+      "normalized_residual": "3.809275799399179e-51"
+    },
+    {
+      "name": "2: gauge-holonomy quotient equals Run10 profile",
+      "normalized_residual": "2.139255562018315e-51"
+    },
+    {
+      "name": "2: ramification point 0",
+      "normalized_residual": "1.576823494553165e-312"
+    },
+    {
+      "name": "2: ramification point 1",
+      "normalized_residual": "3.801377086827965e-51"
+    },
+    {
+      "name": "2: ramification point 2",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "2: ramification point 3",
+      "normalized_residual": "6.845796088776706e-50"
+    },
+    {
+      "name": "2: induced flat metric pullback",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "finite branch: map displacement scales quadratically",
+      "normalized_residual": "9.95798839507105e-26"
+    },
+    {
+      "name": "finite branch: quotient metric scales inversely quadratically",
+      "normalized_residual": "3.887555046709505e-25"
+    },
+    {
+      "name": "compact W mass vanishes at the quotient branch",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "positive off-branch W mass",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "Landau 1,0: differential annihilator",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "Landau 1,0: x transition",
+      "normalized_residual": "1.889930051022288e-51"
+    },
+    {
+      "name": "Landau 1,0: y transition",
+      "normalized_residual": "8.352389719038111e-53"
+    },
+    {
+      "name": "Landau 1,0: independently differentiated x",
+      "normalized_residual": "3.422534582569605e-51"
+    },
+    {
+      "name": "Landau 1,0: independently differentiated y",
+      "normalized_residual": "1.880485121582608e-51"
+    },
+    {
+      "name": "Landau 1,1: differential annihilator",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "Landau 1,1: x transition",
+      "normalized_residual": "4.226012066805483e-51"
+    },
+    {
+      "name": "Landau 1,1: y transition",
+      "normalized_residual": "2.988241789814334e-51"
+    },
+    {
+      "name": "Landau 1,1: independently differentiated x",
+      "normalized_residual": "3.115208195005996e-51"
+    },
+    {
+      "name": "Landau 1,1: independently differentiated y",
+      "normalized_residual": "3.482908644048914e-51"
+    },
+    {
+      "name": "Landau -1,0: differential annihilator",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "Landau -1,0: x transition",
+      "normalized_residual": "1.889930051022288e-51"
+    },
+    {
+      "name": "Landau -1,0: y transition",
+      "normalized_residual": "8.352389719038111e-53"
+    },
+    {
+      "name": "Landau -1,0: independently differentiated x",
+      "normalized_residual": "3.422534582569605e-51"
+    },
+    {
+      "name": "Landau -1,0: independently differentiated y",
+      "normalized_residual": "1.880485121582608e-51"
+    },
+    {
+      "name": "Landau -1,1: differential annihilator",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "Landau -1,1: x transition",
+      "normalized_residual": "4.226012066805483e-51"
+    },
+    {
+      "name": "Landau -1,1: y transition",
+      "normalized_residual": "2.988241789814334e-51"
+    },
+    {
+      "name": "Landau -1,1: independently differentiated x",
+      "normalized_residual": "3.115208195005996e-51"
+    },
+    {
+      "name": "Landau -1,1: independently differentiated y",
+      "normalized_residual": "3.482908644048914e-51"
+    },
+    {
+      "name": "root 1: complete four-dimensional Dirac equation",
+      "normalized_residual": "1.336382355046098e-51"
+    },
+    {
+      "name": "root 1: negative chiral wavefunction",
+      "normalized_residual": "0.0"
+    },
+    {
+      "name": "root -1: complete four-dimensional Dirac equation",
+      "normalized_residual": "1.336382355046098e-51"
+    },
+    {
+      "name": "root -1: negative chiral wavefunction",
+      "normalized_residual": "0.0"
+    }
+  ],
+  "boundary": "Finite theta/Gaussian truncations; not interval-certified bounds or a nonlinear PDE solver."
+}
