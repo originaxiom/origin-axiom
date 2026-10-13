@@ -1,5 +1,19 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October13 compensated-neutral-line sublemmas, path-local research grade.
+Source reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13,
+PROOF1-4/FINDINGS,39/39 exact and17 live PASS at0b36fc3e0.
+B1530 is INPUT coefficient antecedent ONLY; no shared bank/selector.
+
+| Law (same supplied cover/action/domain) | Proof and actual mathematical lock | Limit |
+|---|---|---|
+| Actual y=x-B_eta(-C/2) stays relative/nonexact in FULL adjoint while Bf is retained and x,y have rank2 | B1530 INPUT only; PROOF1; tests/test_physical_bridge_silver_cover_nil_flat.py::test_actual_compensated_cocycle_and_connecting_values_agree / test_nonexactness_in_whole_adjoint_not_flag_only / test_basis_change_keeps_two_distinct_physical_relative_vectors | Same absolute class is not physical relative equivalence or gauge deletion |
+| Odd nonexact class stays nonexact on cover: any primitive odd-projects to an eta primitive downstairs | B1530 INPUT only; FINDINGS averaging argument and silver_cover_families_2026_10_12/PROOF1 section map; test_nonexactness_in_whole_adjoint_not_flag_only | Authored lemma under inherited faithful deck/differential map, not a fresh five-generator cover-rank run |
+| Literal affine W and inverses preserve GLOBAL Hom(W/V4,V4), whose entire basis has zero products | B1530 INPUT only; PROOF2; test_global_nil_ideal_and_actual_membership | Not a global splitting of W or abelianization of full E8 parent |
+| Nonzero admitted nil-valued relative direction gives ONE exact holomorphic flat line at all orders | B1530 INPUT only; PROOF2-3; test_full_word_polynomials_agree_not_only_first_jets / test_connected_cover_has_nontrivial_actual_polynomial | Conditional smooth de Rham/physical-domain application; not all neutral states or real moment/vacuum |
+| Varying second-cusp transport frame restores local peripheral holonomy despite actual globally based polynomial change | B1530 INPUT only; PROOF3; test_second_boundary_keeps_transport_record | Based/framed distinction, not observer/qualia identification or an imposed rigid endpoint |
+| Nil trace-square zero does not imply zero Hermitian bracket or positive local norm | B1530 INPUT only; PROOF4; test_trace_null_does_not_zero_Hermitian_density_or_real_moment | Actual coefficient-matrix controls, not global Gram/moment computation |
+
 October13 path-local actual-neutral sublemmas, conditional research grade.
 Source reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12,
 PROOF1-4/FINDINGS;34/34 exact and18 live PASS at919168eab.

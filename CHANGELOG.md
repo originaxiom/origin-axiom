@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-13 compensated neutral class: exact line, real moment next
+
+October13 exact-neutral-line checkpoint:39 native/39 Fraction exact and17
+selected live tests PASS84.11s at unchanged pushed seal0b36fc3e0,80 pins.
+Actual compensated odd relative direction is nonexact and globally nil:
+one exact HOLomorphic flat line, not all neutral states or a real vacuum.
+Connecting physical datum retained; actual second based cusp changes,
+its varying transport frame restores fixed local boundary. No discarded
+register/awareness identification. Old charged QdcL/current/reference
+positives stay; NEW finite-q spectrum not transferred unchecked. NEXT
+same-action real moment/Dirichlet continuation/full response and generated
+parent/end/register law. Source/Higgs/extras/quantum/normalization/outside/
+full-suite/main duties persist. Three physical generations/SM/TOE remain
+unachieved; no new selected model or full-repository green certificate.
+Report: reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/FINDINGS.md.
+
 ## 2026-10-13 actual odd neutral class, complete remaining direct cubic
 
 October13 actual neutral checkpoint:34 native/34 Fraction exact and18

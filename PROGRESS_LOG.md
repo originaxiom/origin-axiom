@@ -19146,3 +19146,24 @@ Live18=11 new plus7 retained physical fermion-map tests, not full suite.
 Native prepublication26PASS/four inheritedFAIL; no baseline waiver.
 Sender relay and explicit higher/end/real-vacuum duties registered.
 No shared bank number, recipient acceptance or goal completion.
+
+## 2026-10-13 exact neutral-line witness on the retained cover
+
+October13 exact-neutral-line checkpoint:39 native/39 Fraction exact and17
+selected live tests PASS84.11s at unchanged pushed seal0b36fc3e0,80 pins.
+Actual compensated odd relative direction is nonexact and globally nil:
+one exact HOLomorphic flat line, not all neutral states or a real vacuum.
+Connecting physical datum retained; actual second based cusp changes,
+its varying transport frame restores fixed local boundary. No discarded
+register/awareness identification. Old charged QdcL/current/reference
+positives stay; NEW finite-q spectrum not transferred unchecked. NEXT
+same-action real moment/Dirichlet continuation/full response and generated
+parent/end/register law. Source/Higgs/extras/quantum/normalization/outside/
+full-suite/main duties persist. Three physical generations/SM/TOE remain
+unachieved; no new selected model or full-repository green certificate.
+First scientific39/39 and17=10 new+7 retained actual fermion-map tests.
+No scientific repair; draft gate overlap disclosed and repeated quiescent.
+All source/capture custody exact, no source/test/proof change after seal.
+Candidate duty completed, higher-sector and real-moment/source duties kept.
+Sender relay OPEN; native before26PASS/four inheritedFAIL,136 OPEN/42 stale,
+review493 overdue. No shared bank number or recipient/outside/main acceptance.

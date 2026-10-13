@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "probe",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 56.28567865600053,
+      "exact_predicates": 39
+    },
+    {
+      "name": "reference",
+      "resource_cap_seconds": 900,
+      "exit_code": 0,
+      "elapsed_seconds": 3.607479942002101,
+      "exact_predicates": 39
+    }
+  ],
+  "scope": "one actual compensated neutral class and conditional exact holomorphic line; no real vacuum or generated selection",
+  "environment": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "seal_commit": "0b36fc3e0bb29085001ee22f93518ebbc6ca83b7",
+  "initial_source_hashes_match": true,
+  "shared_actual_outputs_agree": true,
+  "tracked_worktree_unchanged": true,
+  "source_inputs_unchanged": true,
+  "files": [
+    {
+      "path": "probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.stdout.log",
+      "bytes": 43101,
+      "sha256": "4bd15383d53ea27e8b03a0f52813ca89f7dc017ecbd2639cba60cdc8e94cac7d"
+    },
+    {
+      "path": "reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference.stdout.log",
+      "bytes": 43084,
+      "sha256": "0c465d860b24524fddcf9767ff6859f1ad42b0344ce8c1c10bdf899c3ad49eae"
+    }
+  ]
+}

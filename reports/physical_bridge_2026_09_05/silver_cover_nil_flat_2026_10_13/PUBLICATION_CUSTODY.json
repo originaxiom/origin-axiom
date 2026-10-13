@@ -1,0 +1,55 @@
+{
+  "seal_commit": "0b36fc3e0bb29085001ee22f93518ebbc6ca83b7",
+  "source_pins": 80,
+  "disk_and_sealed_git_blobs_match": true,
+  "captured_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/results/science/probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/results/science/probe.stdout.log",
+      "bytes": 43101,
+      "sha256": "4bd15383d53ea27e8b03a0f52813ca89f7dc017ecbd2639cba60cdc8e94cac7d",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/results/science/reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/results/science/reference.stdout.log",
+      "bytes": 43084,
+      "sha256": "0c465d860b24524fddcf9767ff6859f1ad42b0344ce8c1c10bdf899c3ad49eae",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/results/regression/stdout.log",
+      "bytes": 110,
+      "sha256": "58a880e3d5e5b380742f079d489513e6362f5eddbf3a2f6315f9f8dfb039e9b3",
+      "receipt_match": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/results/regression/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receipt_match": true
+    }
+  ],
+  "source_code_proof_tests_unchanged": true,
+  "first_science_exits": [
+    0,
+    0
+  ],
+  "scientific_repair": false,
+  "unquiescent_draft_gate_not_a_certificate": true,
+  "quiescent_staged_gate_before_seal": true,
+  "full_suite": false,
+  "nonauthor_analytic_review": false,
+  "main_acceptance": false,
+  "objective_achieved": false
+}

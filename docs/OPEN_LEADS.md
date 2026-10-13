@@ -1,5 +1,31 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October13 PB-COVER-NIL-REPRESENTATIVE: completed CONDITIONALLY at the
+registered same-cover scope. Closing sentence: "The actual compensated
+odd relative cocycle lies in the global nil ideal, stays nonexact against
+the whole adjoint and yields ONE exact holomorphic flat line; the connecting
+physical datum is retained." Source:
+reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/FINDINGS.md,
+39/39 exact and17 live PASS84.11s at0b36fc3e0,80 pins/tree unchanged.
+This supersedes the unexecuted flag-candidate duty below, NOT the whole
+PB-COVER-ODD-NEUTRAL-HIGHER or real-vacuum duty. Other neutral combinations
+and the odd interior H2 slot remain, not deleted by this particular line.
+
+PB-COVER-REAL-NEUTRAL-VACUUM: NEXT Dirichlet-structure real-moment
+continuation and actual full normal/auxiliary response. The existing
+canonical potential requires both curvature and mu zero; complex/imaginary
+configurational adjustment is NOT a compact gauge quotient. Operator
+invertibility/regularity and nonlinear smooth-map conditions must be
+proved/sealed before any new stationary-branch claim. Proposed argument
+and exact sign/source are in the new NEXT_TEST, not an executed PDE result.
+PB-COVER-NEW-BRANCH-SPECTRUM: OPEN if real branch established; finite-q
+background can break deck symmetry. Verify whole operator/Fredholm/kinetic
+continuation and current/cubic maps, not copy the old1+2 split unchecked.
+PB-COVER-GENERATED-BOUNDARY/END/PARENT/REGISTER and HIGGS-EXTRAS/
+NORMALIZED-CUBIC/QUANTUM: retain all prior duties. Exact cusp transport
+is preserved; awareness/qualia is not identified. No everywhere-absence
+or all-architecture negative; three physical generations remains unachieved.
+
 October13 scoped completion: PB-COVER-ODD-NEUTRAL actual representative,
 full coboundary/trace and DIRECT neutral/adjoint chiral-cubic duties are
 complete CONDITIONALLY, not the higher/vacuum/selection obligations.
