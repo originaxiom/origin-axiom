@@ -330,6 +330,35 @@ T-ROOT puts the plural weave at small c. Small-c 3D gravity has a literature, an
   - Or, more modestly, whether B254's split of the stage, SU(3)₂ × (G₂)₁ ⊂ (E₆)₁, is compatible with the coset. cc's
     lead.
 
+## 11. The other seats, swept at the owner's question (15:30)
+
+Heads read: main `60c5470ae` (S123), the SM seat `d73c539b0`, the audit lane `3d7933bec`, audit/fork `0c6570bab`, and
+the owner's ChatGPT weave archive `efadcdeaa`.
+
+- **No relay is addressed to chat1** since 2026-09-09. Main has not yet harvested chat1's relays of 10-14.
+- **Main, S123 (B1637).** With one τ, the modular structure fits the 13 charged-fermion numbers only with 21 or more
+  parameters. Under that ansatz all 13 are free. That bears on the 19, not on the scale.
+- **The SM seat, W70's post hoc PN3: the scale through running.** This is the one place on record where a scale ratio
+  could come from running couplings rather than from c.
+  - The quaternion holonomies force the hypercharge normalisation k_Y = 14/3.
+  - If the E₈ embedding fixes the couplings at tree level, then sin²θ_W = 3/17 at the embedding's scale.
+  - With only Standard Model running, α_Y⁻¹/α₂⁻¹ reaches 14/3 at 0.9 MeV, below M_Z. So the embedding needs extra
+    matter below its scale, or no tree-level relation.
+  - **[READING]** B167's "no running" concerns κ. The 4D gauge couplings do run, so a GUT-type route to a scale ratio
+    is open in principle. Its first test on this embedding is negative with SM content. The SM seat lists "the Yukawas
+    and the scale" as open.
+- **The audit lane, residue-pairing audit (10-13).**
+  - B1642's literal residue tensor is skew, with singular values (1, 1, 0).
+  - In the lane's words, "any nonsingular kinetic basis preserves the raw rank, although it need not preserve its
+    paired singular values". That is the normalisation point of §6 and T-NORM, made first by the lane for B1642's
+    coupling. Credit to it.
+  - The lane's physical operators carry an explicit curvature length ℓ ("supplied curvature units"; the cusp warp
+    e^{−t/2}), consistent with ℓ as the unit.
+- **The owner's ChatGPT weave archive** (runs 1–13, preserved, not banked) realises the puncture quantum mechanically
+  with SU(2) at level 2 (run 7) and an SO(5)₁ coset edge with c = 5/2 (run 8). There the level is chosen, not derived,
+  consistent with T-ROOT's reading that on the weave k is a choice with consequences.
+- **No seat has worked on L154, σ or c this month.** Nothing found contradicts §3–§10.
+
 ## Sources
 
 - F. Guéritaud, with an appendix by D. Futer, Geom. Topol. 10 (2006) 1239–1284, Theorem B.1.

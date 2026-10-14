@@ -133,3 +133,13 @@ word weights, none fixed by the record. Classical action weight e^{−c·Vol/6π
 - **Base rate.** The c < 1 unitary models are few and the Deligne-series cosets cover them. That the record's E₆ and E₈
   land on the list is most likely generic.
 - **Suggest:** consider posing L154's bridge in this frame, and checking B254's SU(3)₂ × (G₂)₁ split against the coset.
+
+## Addendum: cross-seat sweep (15:30; `THE_SCALE.md` §11)
+
+- **The SM seat's W70 PN3 is the gauge-side scale route.** It gives k_Y = 14/3, so sin²θ_W = 3/17 at the embedding's
+  scale under a tree-level relation. With SM running that value is never reached above M_Z. It is the record's one
+  scale-through-running test, negative with SM content; worth a line beside L154.
+- **The audit lane's residue-pairing audit (10-13) made the normalisation point first**, for B1642: a kinetic basis
+  keeps rank, not singular values. T-NORM is the same question for B1645–B1646. Credit to the lane.
+- **Nothing found on L154, σ or c this month.** No relay is addressed to chat1, and chat1's 10-14 relays are not yet
+  harvested.
