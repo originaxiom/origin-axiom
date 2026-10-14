@@ -277,7 +277,10 @@ what sits there:
    light against the radial mode?
 2. **The neutrino null vectors.** With B1644's pairing and every two-condensate operator allowed by puncture parity, do
    the charged-lepton and neutrino null vectors coincide? This settles whether the massless-neutrino hook can survive
-   §4.
+   §4. *Done the same evening:* `../chat1_2026-10-14_the_first_row/FINDINGS.md`.
+   - At leading order |U_e1|² is 1, or at most ½.
+   - The Reading-B escape is closed.
+   - The hook survives only with a sector-dependent direction or a non-Hodge–Riemann metric (T-NORM).
 3. **The θ̄ filter.** For each candidate lift of R as it appears (P-128), compute arg det(M_u M_d).
 4. **T-SIGN to all lengths.** Prove the ¼ shift between ±W, perhaps through the double cover by W². PROVED-able.
 5. **The record's own owed probes:**

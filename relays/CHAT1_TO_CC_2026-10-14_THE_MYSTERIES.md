@@ -39,7 +39,8 @@ programme's lens. He also asked whether existence contains more than what we kno
    - chat1 adds only the link: the hook's operator is built on B1644's pairing, so its massless direction is R too.
      The sector-dependent R is B1649's and P-128's. The reading "small lift for quarks, large for leptons" is chat1's.
    - A cheap check is proposed: do the two sectors' null vectors coincide for every two-condensate operator parity
-     allows?
+     allows? *Run the same evening* (`CHAT1_TO_CC_2026-10-14_THE_FIRST_ROW.md`). At leading order |U_e1|² is 1 or at
+     most ½, and the Reading-B escape is closed.
 3. **The end sits on the particle/black-hole threshold** (local reading; new to the record).
    - In 2+1 gravity the puncture's holonomy class sorts conical defects (elliptic), the M = 0 BTZ (parabolic) and BTZ
      horizons (hyperbolic) (Åminneborg–Bengtsson–Brill–Holst–Peldán). κ = −2 is the parabolic threshold.
