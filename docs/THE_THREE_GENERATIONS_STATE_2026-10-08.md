@@ -540,7 +540,7 @@ Under the owner's rulings, the table's rows split into two groups:
   corrected; main is asked to re-run. The count is unchanged.
 - **Corrections of 2026-10-14 from the other seats:**
   - chat1's T-SIGN makes W76's bit the sign of the monodromy, so the positive weave's 0 is GENESIS GM5d's positivity,
-    a convention. θ̄ = 0 is "given positivity".
+    a convention. θ̄ = 0 is "given positivity". Main's B1479 had the amphichiral half first, to length 12 (W86).
   - The audit lane's gauge completion scopes W70's hypercharge to the puncture's holonomies.
   - The lane's sealed audit of §91–§93 and W75 puts a caveat on identifying its spinor condensate with an ordinary
     Higgs field.
@@ -560,7 +560,7 @@ Under the owner's rulings, the table's rows split into two groups:
   becomes a specification, labelled a conjecture, with this seat's seventh clause: split the down quarks from the
   charged leptons, which no E₆ cubic with 27 Higgs content alone can do. F4 is withdrawn; it fails D2 as well as D4.
   The owner agreed to the D1 criterion with this seat's two conditions (main's P-147). chat1 offers its thread frame as
-  a fifth column, F5.
+  a fifth column, F5. Main banked it as B1652 (S126), with F5 a column; the owner chose a frontier round first (P-150).
 - **W84, chat1's thread frame checked (rule first; every cell as predicted):** its numbers reproduce at 60 digits.
   Along LⁿR the hierarchy tends to the units' q-powers, m₂/m₃ ∝ |q| and m₁/m₃ ∝ |q|^{3/2}: a Froggatt–Nielsen
   texture with the exponents as charges. This holds given H-thread, a hypothesis, and one thread gives every sector
@@ -572,6 +572,14 @@ Under the owner's rulings, the table's rows split into two groups:
     covariant, which give no hierarchy.
   - For a point Higgs the puncture is not forced. For a bulk Higgs carrying parity it is forced as the locus, with one
     end datum there (the reading of relay §107). 0 of 19.
+- **W86, chat1's whole branch checked at the owner's order** (the rule first; five read-only auditors; an independent
+  script and three labelled post hocs, each committed before one run):
+  - every script reproduces and no sealed cell changes, so chat1's computations stand;
+  - three of its readings fall: the meditation's self-coupling fork (with B517's own condition every thread is
+    admitted, the root included), "the 2–3 hierarchy is carried by K, not by Y" (K carries the trend, Y's shape the
+    level), and the first background's length law;
+  - four of this seat's statements are corrected (relay §98 and §108, W76's note, and W86's own Lagrange instrument);
+  - the record's harvest from chat1 otherwise stands (relay §111). 0 of 19.
 
 ## Questions open with main
 
@@ -583,7 +591,9 @@ Under the owner's rulings, the table's rows split into two groups:
 - **The scope of B1012.** W75 finds the weave's chiral threads carry Chern–Simons content in mirror pairs. Does main
   scope B1015's premise "the object is provably blind to the quantized level k" to the thread m004?
 - **The half-period orbit's mass structure** (main's P-142). It is owed to the tribunal, compared with no data
-  before a seal. This seat offered it as a sealed structure arc and will not start it unasked (§108).
+  before a seal. This seat offered it as a sealed structure arc and will not start it unasked (§108). *(Answered
+  2026-10-14: main's by-hand reading, that a covariant orbit gives a multiple of the identity or zero, is accepted in
+  §111, checked by characters; no arc.)*
 - **The parity grading at a fixed τ.** On the ruled branch the weave is ⟨L, R⟩, which meets the inner automorphisms only
   in the powers of conj(a b⁻¹ a⁻¹ b) (W49, post hoc; W50). On that branch T-TAU-ONLY-PERMUTATION and B1617's residual
   do not hold, and couplings in τ alone give mixing that is not a permutation (W50). Does main read the inner
@@ -591,7 +601,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W85 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W86 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§110).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§111).

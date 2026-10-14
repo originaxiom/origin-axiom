@@ -1,0 +1,9 @@
+k=1 orientable=False H1=Z torsion=1 predicted=1 isometric_to_M_n=-
+k=2 orientable=True H1=Z torsion=1 predicted=1 isometric_to_M_n=True
+k=3 orientable=False H1=Z/2 + Z/2 + Z torsion=4 predicted=4 isometric_to_M_n=-
+k=4 orientable=True H1=Z/5 + Z torsion=5 predicted=5 isometric_to_M_n=True
+k=5 orientable=False H1=Z/11 + Z torsion=11 predicted=11 isometric_to_M_n=-
+k=6 orientable=True H1=Z/4 + Z/4 + Z torsion=16 predicted=16 isometric_to_M_n=True
+k=7 orientable=False H1=Z/29 + Z torsion=29 predicted=29 isometric_to_M_n=-
+k=8 orientable=True H1=Z/3 + Z/15 + Z torsion=45 predicted=45 isometric_to_M_n=True
+P1: PASS

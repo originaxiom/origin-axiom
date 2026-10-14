@@ -1,0 +1,101 @@
+# Audit of relays/chat1_2026-10-14_selection and its relay (chat1 @ 9fbab9f5e)
+
+(Saved by the seat from the selection auditor's hand-back. Files: scratchpad/w86/selection/: committed/, rerun/,
+tools/ (runner, jcmp.py), analysis/a1-a6*.py and .out, audit/ (audit_build.py, forms.pkl, audit_compute.py ->
+audit_compute.json, audit_compute_KY.npz, audit_extra*.py, audit_run*.txt).)
+
+## Summary (auditor's grades)
+
+All eight scripts reproduce (every boolean, string and integer matches; every mass ratio to 1.2e-11 or better; seals
+and commit order check out). Confirmed: the root's 1 : 0.369 : 0.0096; LL1-LL5; the locus census (16/13/8; 31,040
+threads); the reversal identities; the c = 6 weights; the hybrid x0.898-1.021; the referee's withdrawal numbers
+(0.037, 0.043, 0.060, 0.083; 501 words; RMS 0.44; mean +0.38).
+
+1. A: "The 2-3 hierarchy is carried by K, not by Y" is not supported. Each thread's own Y is close to a multiple of
+   W72's Y (normalised residual 0.0024-0.068, median 0.024, over 560 admitted threads), so the hybrid cannot detect a
+   dependence on Y. With each thread's K fixed, a random complex symmetric Y gives median m2/m3 at 0.9-6% of the
+   thread's own (the root x0.0086, about 0.003 instead of 0.369); a random real symmetric Y about x0.010 at the root;
+   perturbing W72's entries by factors in [1/2, 2] moves m2/m3 by x0.26-3.75. The hybrid drifts to x0.77-1.64 at
+   lengths <= 8 and x0.70-2.39 at lengths 9-12. What survives: K carries most of the trend with height (a generic Y
+   still falls 4.8 of the 5.4 decades from LR to LLLLR); Y's shape sets the level, including the root's 0.37.
+2. B: TF4's "the other four pairs agree to 1e-12 or better": LLLR/LRRR 2.1e-9 (m1/m3); LLLRR/LLRRR 1.1e-11; LLR/LRR
+   5.0e-12; LLRLR/LRLRR 2.0e-12 (all within TF4's 1e-8, which tested nothing anyway).
+3. B: "the 47 new threads carry 26 distinct values": there are 22 (in 25 mirror classes).
+4. B: masses() normalises with K where the field metric is K^T (Yhat = (K^-1/2)^T Y K^-1/2 is equivalent to using Ybar
+   relative to K): the effect is exactly 0 when K or Y is real (every thread that is its own reverse: all 12
+   thread-frame threads, 127 of the 501 at lengths 9-12) and at most 3.2e-5 otherwise (LLRLRR/LLRRLR 2.5e-5 and
+   3.2e-5; LLRLRLRR 2.8e-5; at lengths 9-12 at most 2.2e-5). This seat's W84 uses the same expression, only on
+   threads that are their own reverse, so it is unaffected.
+5. B: the ~1e-6 residuals are blamed on "the near-singular K"; K converges to 1e-15 (already at N = 96) and the noise
+   is in Y (cancellation of about 3e9 in Y00 for LLLLR: integral 2.97e5 against a peak of 8.6e14); "7 digits" should
+   be 6 (worst spread 1.14e-6, LRRRR m1/m3).
+6. C: LLRLRLR is called the "largest residual"; it is the largest positive one (LLLLRRRR -0.82, LLLRRR -0.58).
+7. C: "weight >= 0.9996": the minimum is 0.999582 (LLRR).
+8. C: "log(m1/m3) falls by about 7.5": the least-squares slope is 8.12 (the sealed LL5 slope); 7.52 is the endpoint
+   slope LR -> LLLLR; adjacent slopes 1.65-10.25.
+9. C: §0 of the report calls the in-sample 59-thread fit "out of sample" (the out-of-sample test used 7.107 - 7.294y,
+   as §5 says).
+10. C: B1379 is credited as main's; it is the SM seat's sm:B1379 (registered on main through B1453; main has no
+    B1379); its content (S8, C2) supports the credit; the B1629 "quote" is an accurate paraphrase.
+11. C: the relay's D5 "about 0.06 and below"; chat1 itself cites 0.083 (reproduced: 0.0828).
+12. C: "a chiral thread gives no CP phase" is stale after post_hoc_reversal (the LLLRLRR family, CS -0.387, has complex
+    couplings, 0.75%); "words that are not their own reverse have complex couplings" generalises from two classes.
+13. C: the referee's Spearman +0.68 is 0.661 on the stated 501 words (about 0.68 only if lengths 6-12 are pooled);
+    RMS by length 0.40/0.38/0.44/0.46, so "grows with length" holds but not monotonically.
+
+## Setup
+
+Seals unchanged (71aa2bcd at 0cf01ff11; 91bfe0f8 at 3887230a7); all eight scripts byte-identical to their pre-run
+commits (thread_frame 0516039e8, lagrange_law b655596a3, post_hoc_convergence 2fd0f60af, post_hoc_long_words
+39bfc86fe, post_hoc_reversal 46691001e, post_hoc_reversal_census fb2094106, post_hoc_hybrid 35ed75fc6,
+locus_by_thread 8c80a64c4); seal -> script -> output order holds. Five scripts load the SM seat's W72 module by `git
+archive 87cf7f551 docs/dossiers/the_weave_2026-10-07 frontier` (the commit itself, not the live tree); run with a
+scratch git repo whose alternates point read-only at the origin's objects. t_root_threads.json extracted from
+9fbab9f5e (byte-identical to t_root_fixed_threads.json). Python 3.11.15; chat1 ran a newer Python (3.12+ warning);
+harmless.
+
+## R
+
+thread_frame 371 -> 444 s yes (97 exact fields; floats max 6.0e-10 in TF4's own worst; ratios <= 1e-12);
+post_hoc_convergence 374 -> 404 s yes; lagrange_law 378 -> 400 s yes (251 exact fields; per-thread 1.2e-11; fits 1e-15);
+post_hoc_long_words 372 -> 393 s yes (1.5e-15); post_hoc_reversal 378 -> 379 s yes (1e-8); post_hoc_hybrid < 1 s yes
+(2e-16); post_hoc_reversal_census 1 s identical; locus_by_thread < 1 s identical. Independent rebuild of the forms
+(h residual 2.0e-41) reproduces lagrange_law.json's admitted ratios to 6.1e-14.
+
+## C
+
+Quadrature correct (unit-speed parametrisation; invariant integrands 3.9e-14; spectrally accurate; K converged by
+N = 96); reduction correct; the rotation choice immaterial; y_max a sampled lower bound short by <= 7.76e-5 (exact
+heights change LL2's RMS 0.2977 -> 0.2978); K Hermitian, Y symmetric bilinear in F and antilinear in h (W72's
+integrand); Takagi singular values correct; convention finding 4; precision finding 5; no silent exception handling;
+admission rule (all 10 excluded have y > 3); class census correct (odd length <=> D4 exactly); reversal identities on
+2,000 random words (rev(W) = J W^T J; W^T = S W^-1 S^-1; mirror(W) = J W J; rev(W) = S mirror(W)^-1 S^-1); SnapPy spot
+checks of Vol and CS on 10 threads match t_root_threads.json; cosmetic slips (a docstring names lagrange_law.py;
+copied status labels); the c = 6 weight table has no filed script but reproduces: (A) 27/29/18/25, (B) 50/32/13/5,
+(C) 66/21/8/5.
+
+## F
+
+Confirmed: Q0, TF1-TF5, the height table with Vol and CS, the 12-thread fits (7.1069 - 7.2941y RMS 0.20; 5.9196 -
+8.1172y RMS 0.58), adjacent slopes 5.1-12.6, the H-end control (0.019375, 3.866e-4), the hybrid (0.364/0.071;
+x0.898-1.021; x7.45), the data line, LLRLR within x1.6, the plumbing control; LL1-LL5, the 59-thread fit 7.289 - 7.332y
+(RMS 0.26), 13.2 e-folds, the Markov table, equal heights x2.5, residual correlations, the up/down sector mapping
+(3.52, 3.07); the referee's withdrawal numbers (converged across N = 384, 768, 1536; K++ grows by about 59.8 per LR
+block); Spearman(y, ln m2/m3) -0.995 over lengths 2-12; the root the largest; locus E1, E2, R1, R2 (13,531/10,790/
+6,719; 16/13/8; A4 shares 48/61/74% at c = 6, 67-86% at c = 24); reversal and CP (Im Y/|Y| 0.41% and 0.75%;
+conjugation 3.6e-15 and 3.1e-11; C1, C2 with 0 violations; own-reverse threads 91-99% of the weight); vol(L^nR) <
+3.664; T-ROOT's T4 share 0.659.
+
+## X
+
+Correct at source: B990, B1443 (its correction section), B1456 H1 (M(rev w) = D M(w)^-1 D^-1 on 8,190 words), B1294,
+B1297's P, B366, fc R60 (B1306's inputs), B1600's parity lemma (988 signed words), B1602 (74 signed threads, 32/26/16,
+i.e. 16/13/8), B1629, B482 (T-TWOTEETH), B1646, B150, B277, B1651 (P1, loci, the owed legality); GENESIS FK9, FK12;
+P-069/L254, P-128, P-129, P-131, P-134, P-136; L154's c = 6; the tribunal relay on main; this seat's W67, W72, W73,
+W74, W53, W54, W60, W76, THE_WEAVES_LAWS. "B1651 sealed, not yet run" was true at 6d6f7f660, which chat1 declares it
+read (relay committed 22:01; main ran B1651 at 22:09). Slip: finding 10.
+
+## Not checked
+
+Literature (no network); the referee's base-rate null (no procedure filed); the first referee's 1.3e-8 reproduction
+(no run filed); §3's NPP numbers and the a/b ~ 24.85 exploration (unfiled); §2d's class-S readings (interpretation).

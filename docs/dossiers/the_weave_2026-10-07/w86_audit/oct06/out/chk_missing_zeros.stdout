@@ -1,0 +1,15 @@
+ILRLR 1 [20011, 20023, 20029] [3, 3] firing 32 bg 0 differ 0 0.1 s
+LLLRR 1 [20011, 20023, 20029] [2, 3] firing 4 bg 0 differ 0 0.0 s
+ILLLRR 1 [20011, 20021, 20051] [10] firing 32 bg 0 differ 0 0.1 s
+LLRLR 1 [20089, 20113, 20129] [8] firing 12 bg 0 differ 0 0.1 s
+LLLLLR 1 [20011, 20021, 20051] [5] firing 8 bg 0 differ 0 0.0 s
+ILLLLLR 1 [20071, 20089, 20107] [9] firing 12 bg 0 differ 0 0.1 s
+LLLLRR 1 [20021, 20029, 20089] [2, 4] firing 16 bg 0 differ 0 0.1 s
+ILLLLRR 1 [20011, 20023, 20029] [2, 6] firing 44 bg 0 differ 0 0.1 s
+LLLRLR 1 [20021, 20219, 20483] [11] firing 20 bg 0 differ 0 0.1 s
+ILLR 1 [20011, 20023, 20029] [6] firing 4 bg 0 differ 0 0.0 s
+ILLR 2 [20011, 20023, 20029] [2, 6] firing 32 bg 0 differ 0 0.2 s
+LLLLR 1 [20021, 20029, 20089] [4] firing 4 bg 0 differ 0 0.0 s
+LLLLR 2 [20113, 20129, 20161] [2, 16] firing 172 bg 0 differ 0 1.7 s
+ILLLLR 1 [20089, 20113, 20129] [8] firing 12 bg 0 differ 0 0.1 s
+ILLLLR 2 [20113, 20129, 20161] [2, 16] firing 172 bg 0 differ 0 1.7 s

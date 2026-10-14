@@ -1,0 +1,1 @@
+threads checked (Lyndon, length 2..9): 125 | rotation failures of Psi = #R-#L: 0 | worst |multiplier - prediction|: 2.9629e-37

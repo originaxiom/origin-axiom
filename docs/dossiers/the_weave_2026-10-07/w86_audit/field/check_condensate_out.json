@@ -1,0 +1,208 @@
+{
+ "gram_ok": true,
+ "h_Q": [
+  "0",
+  "0",
+  "0",
+  "1",
+  "1",
+  "0",
+  "2",
+  "0"
+ ],
+ "h_Q_is_c0+c2+c4": true,
+ "p_odd": 112,
+ "p_odd_equals_weak_doublets": true,
+ "beta_are_chain_0_2_4": true,
+ "A1a_su2Q_roots_commute_with_colour_and_weak_roots": true,
+ "A1a_su2Q_roots_orthogonal_to_SM_Cartan": true,
+ "A1a_hQ_orthogonal_to_SM_roots_and_Cartan": true,
+ "A1b_odd_roots_in_su2Q": 0,
+ "A1c_coeff_distribution": {
+  "-1/6": 54,
+  "1/6": 54,
+  "-1/2": 2,
+  "1/2": 2
+ },
+ "B1_classes": {
+  "fundamental weight (3 or 3bar)": 72,
+  "block root": 24,
+  "block zero weight": 16
+ },
+ "B2_ok": true,
+ "B2": {
+  "1/6,-5/6,2/3": {
+   "n": 4,
+   "pairs": [
+    [
+     "ab",
+     "b"
+    ],
+    [
+     "ab",
+     "b"
+    ],
+    [
+     "ab",
+     "b"
+    ],
+    [
+     "ab",
+     "b"
+    ]
+   ],
+   "not_-5/6": [
+    "ab",
+    "b"
+   ]
+  },
+  "1/6,2/3,-5/6": {
+   "n": 4,
+   "pairs": [
+    [
+     "a",
+     "b"
+    ],
+    [
+     "a",
+     "b"
+    ],
+    [
+     "a",
+     "b"
+    ],
+    [
+     "a",
+     "b"
+    ]
+   ],
+   "not_-5/6": [
+    "a",
+    "b"
+   ]
+  },
+  "-5/6,1/6,2/3": {
+   "n": 4,
+   "pairs": [
+    [
+     "a",
+     "ab"
+    ],
+    [
+     "a",
+     "ab"
+    ],
+    [
+     "a",
+     "ab"
+    ],
+    [
+     "a",
+     "ab"
+    ]
+   ],
+   "not_-5/6": [
+    "a",
+    "ab"
+   ]
+  },
+  "-5/6,2/3,1/6": {
+   "n": 4,
+   "pairs": [
+    [
+     "a",
+     "ab"
+    ],
+    [
+     "a",
+     "ab"
+    ],
+    [
+     "a",
+     "ab"
+    ],
+    [
+     "a",
+     "ab"
+    ]
+   ],
+   "not_-5/6": [
+    "a",
+    "ab"
+   ]
+  },
+  "2/3,1/6,-5/6": {
+   "n": 4,
+   "pairs": [
+    [
+     "a",
+     "b"
+    ],
+    [
+     "a",
+     "b"
+    ],
+    [
+     "a",
+     "b"
+    ],
+    [
+     "a",
+     "b"
+    ]
+   ],
+   "not_-5/6": [
+    "a",
+    "b"
+   ]
+  },
+  "2/3,-5/6,1/6": {
+   "n": 4,
+   "pairs": [
+    [
+     "ab",
+     "b"
+    ],
+    [
+     "ab",
+     "b"
+    ],
+    [
+     "ab",
+     "b"
+    ],
+    [
+     "ab",
+     "b"
+    ]
+   ],
+   "not_-5/6": [
+    "ab",
+    "b"
+   ]
+  }
+ },
+ "higgs_like_union": 24,
+ "higgs_like_union_equals_block_roots": true,
+ "n_block_roots": 24,
+ "readout_m_at_tau=iy_(y=1,2,4,8)": {
+  "i": [
+   0.609612,
+   0.885816,
+   0.994732,
+   0.99999
+  ],
+  "j": [
+   0.609612,
+   0.504971,
+   0.500009,
+   0.5
+  ],
+  "k": [
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ]
+ }
+}

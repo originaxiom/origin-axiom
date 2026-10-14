@@ -2047,6 +2047,56 @@ def test_w85_the_b1651_cells_checked():
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W85." in note and "blind to main's" in note
 
+def test_w86_the_chat1_record_checked():
+    """W86 (the rule first; the independent script and three labelled post hocs each committed before one run): chat1's
+    branch checked at the owner's order -- the cells recorded as found (I1 and I6 failed as worded, I6 on this seat's
+    own instrument and re-scored post hoc); the three A findings re-checked on this seat's own code; the auditors'
+    evidence kept with its README"""
+    import math
+    import numpy as np
+    import sympy as sp
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_chat1_record_checked.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"I1": False, "I2": True, "I3": True, "I4": True, "I5": True, "I6": False, "I7": True}
+    assert 0.10 < d["I1"]["worst |hybrid/own - 1| on m2/m3"] < 0.102
+    assert d["I3"]["threads"] == 745 and d["I4"]["up to the mirror L <-> R"] == {"A4": 16, "D4": 13, "V4": 8}
+    p1 = json.loads((here / "the_chat1_record_checked_posthoc.json").read_text(encoding="utf-8"))
+    assert p1["PH1"]["holds"] and p1["PH2"]["no D4 thread below 3 (to length 10)"]
+    assert p1["PH2"]["least D4 Lagrange value to length 10"][1] == "LLRLRLLRR"
+    p2 = json.loads((here / "the_chat1_record_checked_posthoc2.json").read_text(encoding="utf-8"))
+    assert p2["cells"] == {"A1": True, "A2": True}
+    a1, a2 = p2["A1"], p2["A2"]
+    assert a1["A1a"]["words with no hit"] == ["LR"] and a1["A1a"]["hit counts equal chat1's S3 counts on every word"]
+    assert a1["A1b"]["every word has a hit meeting all of B517's conditions"] and a1["A1b"]["hits at LR"] == 18
+    assert a2["A2a residual, range"][1] < 0.1 and a2["A2b complex median / own, range"][1] < 0.5
+    assert a2["controls hold"] and 0.898 < a2["hybrid / own, range"][0] < 0.899
+    p3 = json.loads((here / "the_chat1_record_checked_posthoc3.json").read_text(encoding="utf-8"))
+    assert p3["A3 holds"] is True and p3["A3b"]["shared cells"] == 59 and p3["A3b"]["background differences"] == []
+    assert p3["A3a"]["first level per root, chat1's counts"]["+LLRR"] == 4
+    assert p3["A3b"]["chat1's open roots decided by B1439"] == {"-LLR": 4, "+LLLLR": 3, "-LLLLR": 3}
+    # in process: B517's coupling (F', F'^2) at the root, F' = LR - I, is a nonnegative unimodular irreducible Pisot
+    # unit
+    LR = sp.Matrix([[1, 1], [1, 2]])
+    Fp = LR - sp.eye(2)
+    assert Fp * Fp == LR and Fp * Fp == Fp + sp.eye(2)
+    T = sp.Matrix(sp.BlockMatrix([[LR, Fp], [Fp * Fp, LR]]))
+    x = sp.symbols("x")
+    poly = T.charpoly(x).as_expr()
+    assert sp.expand(poly - (x**4 - 6 * x**3 + 7 * x**2 - 4 * x + 1)) == 0 and T.det() == 1 and min(T) >= 0
+    assert sp.Poly(poly, x).is_irreducible and all(v > 0 for v in T * T)
+    mods = sorted(abs(r) for r in np.roots([1, -6, 7, -4, 1]))
+    assert mods[-1] > 1 and mods[-2] < 1
+    assert [list(map(int, T.row(i))) for i in range(4)] == a1["A1c"]["(F', F'^2)"]["T"]
+    # in process: Perron's Lagrange value of LLRR (run lengths 2, 2) is sqrt 8
+    assert abs((1 + math.sqrt(2)) + 1 / (1 + math.sqrt(2)) - math.sqrt(8)) < 1e-12
+    audit = here / "w86_audit"
+    for g in ("selection", "meditation", "field", "scale", "oct06"):
+        assert (audit / f"REPORT_{g}.txt").is_file(), g
+    readme = (audit / "README.md").read_text(encoding="utf-8")
+    assert "read-only auditor" in readme and "0 of 19" in readme
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W86." in note and "w86_audit/" in note
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

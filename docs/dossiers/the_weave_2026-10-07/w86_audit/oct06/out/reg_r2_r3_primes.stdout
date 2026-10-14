@@ -1,0 +1,19 @@
+Riley relation w x = y w exact over Z[omega]: True
+tr(xy) = 2 - om  (not in Z: the control that c can act)
+
+  p      type  relation mod p    rho vs rhobar on the test words
+  2     inert            True non-conjugate, Frobenius-related (differ on 4/9)
+  3  ramified            True  SAME representation (c invisible)
+  5     inert            True non-conjugate, Frobenius-related (differ on 6/9)
+  7     split            True non-conjugate (traces differ on 6/9 words)
+ 11     inert            True non-conjugate, Frobenius-related (differ on 6/9)
+ 13     split            True non-conjugate (traces differ on 6/9 words)
+ 17     inert            True non-conjugate, Frobenius-related (differ on 6/9)
+ 19     split            True non-conjugate (traces differ on 6/9 words)
+ 23     inert            True non-conjugate, Frobenius-related (differ on 6/9)
+ 29     inert            True non-conjugate, Frobenius-related (differ on 6/9)
+ 31     split            True non-conjugate (traces differ on 6/9 words)
+R2: PASS
+
+R3(i)  surjections pi1(m004) ->> A5 (SnapPy presentation, by enumeration): 0
+R3(ii) order of Riley's image mod 2 in SL(2,F4) = A5 (order 60): 10

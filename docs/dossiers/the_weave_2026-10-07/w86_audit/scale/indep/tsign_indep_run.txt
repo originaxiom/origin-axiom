@@ -1,0 +1,49 @@
+{
+ "H_convention_violations": [],
+ "H_n_violations": 0,
+ "A_amphichiral_counts_to10": {
+  "+": 26,
+  "-": 26
+ },
+ "A_swap_rule_count_to10": 26,
+ "A_mismatches": [],
+ "N0x_minus_to12_non_geometric_or_nonorientable": [],
+ "N1x": {
+  "n_sym_to18": 514,
+  "by_length": {
+   "2": 1,
+   "4": 1,
+   "6": 3,
+   "8": 6,
+   "10": 15,
+   "12": 29,
+   "14": 65,
+   "16": 128,
+   "18": 266
+  },
+  "bad_minus": [],
+  "bad_plus": [],
+  "max_dev_minus": 5.1514348342607263e-14,
+  "max_abs_plus": 7.105427357601002e-14,
+  "vol_mismatch": []
+ },
+ "N2x": {
+  "n_words_to14": 2536,
+  "bad": [],
+  "max_dev": 8.526512829121202e-14,
+  "vol_mismatch": [],
+  "max_dvol": 8.881784197001252e-15,
+  "n_bad": 0
+ },
+ "D_double_cover": {
+  "n_words_to8": 69,
+  "violations": [],
+  "max_dev": 7.105427357601002e-14
+ },
+ "complex_volume_retries": 0,
+ "seconds": 10.7
+}
+
+real	0m11.160s
+user	0m10.873s
+sys	0m0.162s

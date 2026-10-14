@@ -1,0 +1,292 @@
+# Audit of relays/chat1_2026-10-14_the_scale and relays/chat1_2026-10-14_mysteries (chat1 @ 9fbab9f5e)
+
+(Saved by the seat from the scale auditor's hand-back, verbatim below; the auditor could not write report files.
+Its tools and outputs are in scratchpad/w86/scale/: committed/, rerun/, tools/ (jcmp.py, diag_troot.py,
+troot_indep2.py, hp_spot.py, tsign_indep.py, k4_indep.py), diag/, indep/.)
+
+I checked both folders and found no finding that changes a conclusion (no grade A). All six scripts re-run unchanged, and every sealed cell and every number a conclusion rests on reproduces. The sealed `t_root.py` is the exception: its first unchanged re-run crashed, and the second reproduced exactly. My own independent checks agree: T-ROOT recomputed from its thread table, the thread table at quad precision, the cusp model by separate code, and T-SIGN's lengths extended. The harness refused the write to `scratchpad/w86/REPORT_scale.md` (subagents may not write report files), so the full report is below the summary.
+
+## Summary
+
+1. **B.** The sealed `t_root.py` crashes intermittently, and my first unchanged re-run did too. The error comes from SnapPy's `complex_volume()`, not from `solution_type()` as `T_ROOT_FINDINGS` and `t_root_fixed.py` say. `the_scale_check.py` and `t_sign.py` are exposed the same way. A failure can only crash a run or fail a cell, never pass one falsely.
+2. **B.** "Two orders of magnitude above 6" is wrong: c₀.₉₉ = 105–138 is 17.5–23 times 6.
+3. **C.** T-SIGN's headline was already main's B1479 (2026-10-06) and is in GENESIS FK4 and GM5d. Neither chat1 nor the records that took it up cite it: this seat's W76 correction, relay §98, and main's harvest row 1141.
+4. **C.** "N_eff between 5 and 7": (C) is 4.72.
+5. **C.** The volume-equality read-out is not in the output, though it is true.
+6. **C.** `t_sign.py`'s N0 check skips N2's words. No effect.
+7. **C.** The W² double cover shows the shift is 0 or ¼, not that it is ¼; "PROVED-able" overstates that route.
+8. **C.** T-ROOT's "weave" is a census of per-thread quantities, which fails condition 2 of `docs/THE_WEAVE.md`'s test.
+9. **C.** The mysteries note's "8% at k = 1" drops the convention caveat; the other convention gives 2.0%.
+10. **C.** "Residue size ℓ_∂/8π" is miscited to THE_SCALE §4 and drops chat1's own referee's caveat.
+11. **C.** "The record's one numerical forward prediction" ignores P10′.
+12. **C.** I-18 is cited without B1246, and the θ̄ sign convention is the opposite of the record's.
+13. **C.** Memo 132's grade change is relayed without noting it is SCHEDULED, not verified on main.
+14. **C.** B715 is one thread's result but is cited for all threads.
+15. **C.** The relay's "0.82 of LR" lacks its qualifier (already flagged by B1650).
+16. **C.** W76's correction files the sign move under GM5b, which main's GENESIS v1.14 keeps separate.
+
+---
+
+# Full report: chat1's scale and mysteries folders (`origin/chat1/web-seat` @ `9fbab9f5e`)
+
+I did not touch the repository (`git status` is clean). Everything is in `<scratch>/w86/scale/`:
+- `committed/`: the folders as committed.
+- `rerun/`: the re-run copy, with the committed outputs kept as `*.committed`.
+- `tools/`: my own scripts (`jcmp.py`, `diag_troot.py`, `troot_indep2.py`, `hp_spot.py`, `tsign_indep.py`, `k4_indep.py`).
+- `diag/` and `indep/`: their outputs.
+
+Environment: Python 3.11.15, SnapPy 3.3.2, sympy 1.14.0, mpmath 1.3.0, numpy 2.4.6.
+
+## 0. Provenance, and what was already verified
+
+**Seals and commit order.**
+- The preregistrations hash to the prefixes chat1 states, and none changed after sealing:
+
+  | file | seal commit | sha256 prefix |
+  |---|---|---|
+  | `PREREGISTRATION.md` | `c1986e33d` | 78fa6de2 |
+  | `T_ROOT_PREREGISTRATION.md` | `13d31f042` | 3fd25436 |
+  | `T_SIGN_PREREGISTRATION.md` | `50352be3a` | 258718ef |
+
+- All six scripts are byte-identical to their "committed before its one run" commits, and all outputs to their output commits.
+- Each seal precedes its script, which precedes its output. For T-SIGN: seal 16:06:07, script 16:06:24, output 16:06:50.
+
+**Verified before this audit.**
+- **Main, B1650 §2b:**
+  - It reproduced the scale check: all 11 cells, floats to about 1e-14, post hoc byte-identical.
+  - On main's own code it recomputed LR, and LLR and LRR at CS = ∓π²/24.
+  - It checked mirror pairs on 40 random threads (mod π²/2 only), vol(L²⁵R²⁵) < 2v₈, and the cusp model in one sign convention.
+  - It noted that "0.82 of LR" is 0.41 with the word weight.
+- **Main, B1650 addendum:**
+  - It reproduced the root-share check: run 1 crashed, run 2 held every cell to 1.1e-13.
+  - It recomputed the c = 6 shares 0.2737/0.5019/0.6601, chiral share 0.659 and N_eff 32.4, plus a 60-thread spot check.
+- **This seat's W75:**
+  - It verified the 745-thread mirror census and K1's count of 690.
+  - It checked K4 by its own ODE route.
+- **This seat's W76 PH1/PH2:** on chat1's data, CS = 0 holds exactly on the 514 mirror-symmetric threads to length 18, and CS agrees on 8,798 threads.
+
+**Never verified before this audit:**
+- T-SIGN (harvest row 1141: "not recomputed on main").
+- T-ROOT's thresholds, tail bounds, level footprint and per-length sums.
+- The mysteries note's record claims (P-145: "not yet checked on main").
+
+## 1. Folder `relays/chat1_2026-10-14_the_scale`
+
+### R: reproduction
+Each script ran unchanged as `timeout 3600 python3 <script>`, with the copy as working directory, in the record's order. No other repository files were needed.
+
+| script | runtime | reproduced? | differences |
+|---|---|---|---|
+| `the_scale_check.py` | 5.7 s | yes; json and stdout byte-identical | none |
+| `post_hoc_pointwise.py` | 0.5 s | yes; byte-identical | none |
+| `t_root.py`, attempt 1 | crashed at 47 s | no: `KeyError: 'LLRLRRRRLRRLRR'` at line 73, no output | same failure mode as main's first rerun, different thread |
+| `t_root.py`, attempt 2 | 89 s | yes; all non-timing fields identical, `t_root_threads.json` byte-identical | timing only |
+| `t_root_fixed.py` | 71 s | yes; identical to committed `t_root_fixed.json` and `t_root.json`, threads byte-identical, `failures: []` | timing only |
+| `post_hoc_cp_bit.py` | 1.2 s | yes; byte-identical | none |
+| `t_sign.py` | 1.7 s | yes; every cell and integer identical | one float differs by 1.8e-16 relative |
+
+**What causes the crash.** I re-ran T-ROOT's measuring loop five times (same words, same order), wrapping each SnapPy call separately (`tools/diag_troot.py`).
+- **The only exception came from `complex_volume()`:** `ValueError: b'Could not subdivide into non-degenerate tetrahedra'`. It hit thread `LLLLLRRRRLRRLRLRRR` in run 5; the same thread was fine in runs 1–4.
+- **`solution_type()` never raised.**
+- **Every successful call was bit-identical** to chat1's committed values.
+- **About a quarter of full-length runs fail.** 3 of 12 known runs hit the error: 2 of mine, 1 of main's, none of chat1's 2.
+
+### C: code
+
+**`the_scale_check.py`**
+- **Correct:**
+  - The constants v₃ = (3/2)Cl₂(2π/3) and v₈ = 4G (Catalan's constant), and `red()` mapping to (−π²/2, π²/2].
+  - The Lyndon list: 745 words, which matches the necklace count.
+  - The cyclic R-syllable count.
+  - The Guéritaud–Futer bound check, with a 1e-9 slack.
+  - The swap-symmetry rule, including reversal. Reversal does preserve the oriented bundle: CS(W) = CS(rev W) to 1.4e-13 on 28,634 words.
+- **K4:**
+  - The uniqueness system is hand-coded; I re-derived it.
+  - K4d's `K_this` and `K_opp` hold by construction, but its cusp-metric and round-metric legs are real computations.
+- **My separate sympy check (`tools/k4_indep.py`) confirms all of K4 and the post hoc:**
+  - diag(1/(L+b), L+b) solves for any b, with pointwise norm L/(2(L+b)) → ½.
+  - The opposite sign fails, and diag(1/L², L²) fails.
+  - The semisimple norm grows like λL/2.
+  - The uniformising cusp metric solves, and the horocycle length is 4π/L.
+- **Exposure to the transient error:**
+  - The K3 grid (lines 106–109) is unguarded, so the error there crashes the script.
+  - In the thread loop it fails Q0. It cannot produce a false pass.
+
+**`t_root.py` and `t_root_fixed.py`**
+- **Correct:**
+  - Duval's generator gives 31,040 words.
+  - The weights are as sealed.
+  - The tail bound is rigorous: at most C(n−1, 2k−1)/k words have k syllable pairs, each with volume at least 2k·v₃, and the geometric remainder is valid.
+  - The bisection is sound.
+  - The footprint convention is disclosed.
+- **The defect:** the three dictionaries are filled one at a time, so a transient failure leaves a thread half-recorded and line 73 (or 71) raises KeyError. `t_root_fixed.py` fixes this adequately.
+- **Independent recomputation** (`tools/troot_indep2.py`: scipy logsumexp, brentq thresholds, exact `math.comb` tails, 40-digit mpmath at c = 6) reproduces every number:
+  - Thresholds c₀.₅/c₀.₉/c₀.₉₉: (A) 19.135, 70.731, 137.603; (B) 5.872, 57.548, 125.272.
+  - Thresholds for (C): p(0.001) = 0.5294 = 9/17 (already above ½), then 39.174 and 105.303.
+  - Tails and the c = 6 intervals agree to 1e-12 relative.
+  - At c = 6 (40 digits): p = 0.27373/0.50195/0.66008, f = 0.65907/0.45733/0.31158, N_eff = 32.43/6.616/4.722.
+  - The footprint matches at k = 1–12, and Im Z ≤ 1.4e-15.
+- **Precision:** quad-double `ManifoldHP` on 457 threads (400 random plus the 60 with the longest runs) gives max |ΔVol| 2.3e-14, max |ΔCS| 9.6e-14, all geometric.
+- **Tolerances decide nothing:**
+  - Mirror-pair volume differences are at most 1.8e-14 (tolerance 1e-9).
+  - CS + CS(mirror) and 2CS on symmetric threads are at most 1.6e-13 (tolerance 1e-6).
+  - Amphichiral |CS| is at most 7.1e-14.
+- **Robustness note:** the smallest chiral |CS| falls fast with length (confirmed with `ManifoldHP`). At 4.0e-6 it is only 4× the 1e-6 tolerance, so any extension past length 18 needs a smaller one.
+
+  | length | smallest chiral \|CS\| |
+  |---|---|
+  | 12 | 8.1e-4 |
+  | 16 | 2.2e-4 |
+  | 18 | 4.0e-6 |
+
+- **Counting convention:**
+  - Threads are Lyndon words, as in B1629 and W76, so W and its reversal (the same oriented manifold) both count.
+  - Counting each oriented manifold once (16,723 classes) gives (A) p₆ 0.286 (was 0.274) and N_eff 24.5 (was 32.4).
+  - c₀.₉₉ is unchanged, and every T cell still holds.
+
+**`t_sign.py`**
+- **N0 is narrower than the seal:** line 43 checks geometry and orientability only for N1's 120 words, not N2's 224 as the seal requires. All b+-W to length 12 are in fact geometric and orientable.
+- **No volume comparison:** line 51 keeps only 12 read-out rows, and the script compares no volumes.
+
+**Independent T-SIGN checks** (`tools/tsign_indep.py`, my own code). All pass:
+- **Convention:** `b+-W` really is the −W bundle. On every word to length 12, the homology torsion has order tr W + 2 for b+- and |tr W − 2| for b++.
+- **Amphichirality:** SnapPy's `is_amphicheiral()` agrees exactly with the swap rule, for both signs, to length 10 (26 words each).
+- **N1 extended:** all 514 swap-symmetric words to length 18 have b+- at ±π²/2 (to 5.2e-14) and b++ at 0 (to 7.1e-14).
+- **N2 extended:** all 2,536 words to length 14 shift by π²/2 (to 8.5e-14), and their volumes agree to 8.9e-15.
+- **Double cover:** CS(b++WW) ≡ 2CS(b±W) mod π² on 69 words to length 8.
+
+**`post_hoc_cp_bit.py`, `post_hoc_pointwise.py`:** correct; the uniformising norm of 1 holds by construction.
+
+### F: findings vs outputs
+**Matched:**
+- **`FINDINGS.md`:** all cells; the read-outs (median |CS| 0.78, max 2.27, CS(LLR) = −π²/24 to 1e-15, volume gap 0.063); 55/745 = 7.4%.
+- **`T_ROOT_FINDINGS.md`:** all 54 table entries, the thresholds, T1–T8, 514/30,526, the top 10, the per-length ratios 0.74 and 0.49, and the footprint (0.076, 0.26, 0.48, 0.66; 0.83–0.88).
+- **`T_SIGN_FINDINGS.md`:** 120/120, 224/224, 514/514.
+- **`THE_SCALE.md` and the scale relay:** e^{−0.2027} = 0.8165; 0.0338·c; total weight ≤ 1/k per syllable count; 4v₃ = 4.06; v/M̄_Pl = 1.01e-16; G/ℓ = 1/4; the coset arithmetic (1/2, 4/5, 6/7, 7/10, 1/2) and σ = 1/7.
+
+**Problems:**
+1. **"Two orders of magnitude above 6"** (`THE_SCALE.md:289`, `T_ROOT_FINDINGS.md:63`): c₀.₉₉ = 105–138 is 17.5–23× of 6, about 1.2–1.4 orders.
+2. **"N_eff between 5 and 7"** (`T_ROOT_FINDINGS.md:58`): (C) is 4.722.
+3. **"Exception in `solution_type()`"** (`T_ROOT_FINDINGS.md:86`, `t_root_fixed.py:7–11`, following B1650's addendum line 8): my diagnosis finds `complex_volume()`. The fix still works.
+4. **"Vol(b+-W) = Vol(b++W) on every word checked"** (`T_SIGN_FINDINGS.md:17`): not shown by the output. It is true (my 2,536 words), and forced, since the W² bundle double-covers both.
+5. **"A reason, not a proof"** (`T_SIGN_FINDINGS.md:25`) and "PROVED-able … through the double cover" (mysteries §10.4, relay line 27):
+   - The double cover does prove the shift is 0 or ¼, but it cannot select ¼.
+   - B1479 already names a mechanism (the half-longitude shift).
+6. **Weave or thread** (`docs/THE_WEAVE.md` condition 2):
+   - T-ROOT's "action-weighted weave" sums per-thread volumes under word weights the record does not fix, so it is a census of thread quantities. This seat's W75/W76 label theirs that way.
+   - The readings that cite "existence is the weave" rest on the label (`T_ROOT_FINDINGS.md:65–71`, `THE_SCALE.md:291–296`, relay lines 109–116).
+7. **Relay line 59, "0.82 of LR":** it drops `THE_SCALE.md:217`'s "before any word weight" (B1650 already noted this).
+
+chat1's own self-corrections check out: the B1017 attribution (B1017's unsourced slot is the VEV direction ⟨1⟩), the withdrawn K4 size reading, and both addenda in the field folder.
+
+### X: citations
+**Verified at source.**
+- **B1228:**
+  - The owner's quote of 2026-08-31.
+  - "k = 1 is forced by inventory", and "Every k > 1 requires a level the object cannot give".
+  - The bridge question, and that its addendum keeps the level pin.
+- **B1229:** "a calibration, permanently", and σ ∈ {1/3, 1}.
+- **B1015:** A1/A2 and "the one continuous dimensionless external coupling".
+- **B1015's addendum v2** (2026-08-10, from B1023): what it withdrew, ∂S/∂σ = −Vol, HELD-PENDING-L154, "unit freedom + B915's precedent alone".
+- **B1023's blocker 2:** the "SHRINKS" quote exactly.
+- **B1034:** UNDECIDED, unobstructed and unexhibited, S1-class, the THIRD-σ row.
+- **B1064:** both quotes.
+- **B1012:** both quotes, and I = c·Vol/6π ≡ σVol/π.
+- **THE_LAMBDA_POSITION:** §1 and §2.
+- **Exact quotes:** B169 P3, K018 row 2, GAP5, B1088.
+- **B980**, **B1191/B1193**, **B1224/B1226**, **B207 Part 3**.
+- **B151, B167 with B1241, B168, B170, B181, B290, B399, B408, B413, B426, B563.**
+- **B1231**, **L154 route (ii)**, **B1629**, **B264**, **B1649**, **W70 PN3**.
+- **The audit lane:** both quotes.
+- **The weave archive:** runs 7 and 8.
+- **Cross-seat sweep:** every head in §11 exists; there is no relay to chat1 since 2026-09-09; B1637 said "21+ parameters" at S123.
+- **Status labels:** I-18 UNEARNED, L192 ★★★, GM5d CHOSEN.
+
+**Problems.**
+1. **T-SIGN's prior art is uncited.**
+   - Main's **B1479** (PROVED, banked 2026-10-06) already had the result to length 12:
+     - on all 34 amphichiral words, the + state sits at CS = 0 and the − state at ¼;
+     - on all 379 words, volumes are equal for both signs.
+   - GENESIS v1.13/v1.14 FK4 and GM5d record it ("the − states … are exactly what positivity removes").
+   - GENESIS v1.44 is on chat1's own seen-first list (`PREREGISTRATION.md:26`).
+   - Neither the T-SIGN preregistration (where N1 carries a 75% prior), its findings (lines 1, 21–27), `THE_SCALE.md:95`, the mysteries note nor either relay cites B1479, B1481 or B1482.
+   - **What T-SIGN adds:** N1 to length 14, the universal N2 shift, and the plus side to length 18.
+2. **I-18 is cited without B1246's sharpening** ("the dictionary reaches θ, not θ̄"): `T_SIGN_FINDINGS.md:28–31` and mysteries §2a.
+
+**Records that took this up.**
+- **This seat:** the W76 correction (`NOTE.md:6385–6390`), the count note (`NOTE.md:6431`) and relay §98 (line 3157) all credit T-SIGN, not B1479, although this seat's own W9 (`NOTE.md:600`) cites B1479.
+- **`NOTE.md:6388`:** it files the sign move under "GM5b". GENESIS v1.14 (B1482) says "GM5b and the sign are independent forks", and `NOTE.md:275` says so too.
+- **Content:** the correction itself is right; I confirmed it to lengths 18 and 14.
+- **Main's harvest row 1141:** it also omits B1479.
+
+## 2. Folder `relays/chat1_2026-10-14_mysteries` (no scripts, so no R or C)
+
+**F.**
+- **Matched:**
+  - The root-share numbers: 105–138, 0.66 → 2e-4, 0.66/0.42/0.125/0.014, roughly e^{−0.034c}, about 32 threads.
+  - The T-SIGN numbers: 120, 514, 224 and 745.
+  - Standard values: Σm_ν = 0.0588 eV, |U_e1|² ≈ 0.68.
+  - The Goldstone count of 3.
+  - The cross-reference to the first-row check.
+- **Problems:**
+  1. **§2c:102 says "8% at k = 1" without the convention caveat.** With the half-phase e^{ik·CS/π}, the k = 1 shift is 2.0%.
+  2. **§5:187–188 (and relay line 47) give "residue size ℓ_∂/8π (THE_SCALE.md §4)".**
+     - §4 contains no such relation; it comes from the field relay's O5.
+     - chat1's own referee (field `REFEREE.md` row 8) flagged it as normalisation-dependent and real only for Fuchsian holonomy.
+     - The fix there used the complex length; this note reverts to a real horizon length.
+  3. **§8(b):239 calls P10 "the record's one numerical forward prediction",** and §8(d):257 says only P10 qualifies. P10′ (TM2, 3.64σ on JUNO) is in the register and in the note's own sources.
+  4. **§2b:90 writes θ̄ = θ − arg det;** the record (I-18, B1246, P1) uses +.
+
+**X.**
+- **Verified:**
+  - **Scale and Λ:** B666 (the torsor theorem and the Silence Note); B856 (refuted on kind); B563 and B170 (base rates).
+  - **Name collisions:** B1349 (a coupling row); B1199 (Gauss-sum "dark").
+  - **P9:** its quote, the kaon bounds, and the 27̄ partners.
+  - **The graveyard:** B981, CLAIMS D1–D3, S008, B1253, B1610, B723's retracted clauses.
+  - **Cosmology:**
+    - B168, L21, B189 (NEGATIVE) and P20;
+    - COSMOLOGY_LEDGER rows 2 and 4 (MISSING);
+    - B1208, B657, and B1158's quarantined headline.
+  - **GENESIS:** v1.32's "a phase can come only from couplings" and v1.33's rulings.
+  - **Flavour and the Higgs field:**
+    - B1646 (the cone when λ₂ > 0), W67's O-invariant quartic, P-108, P-128;
+    - B1649 §3 quoted exactly.
+  - **The falsifier register:** P10's numbers, TM2 at 3.64σ, P5 vacuous, P7, B1640.
+  - **THE_LADDER X2 and B559.**
+  - **Time and the observer:** B716, B717, B725, B867, B1611.
+  - **Memo 132 and B1217:** both quotes.
+  - **W70:** four neutral condensates.
+  - **CATALOG.md:** S043 still lacks a B980 note, as the sweep says.
+- **Problems:**
+  1. **Memo 132's "MISSING → PROVED NEGATIVE"** (relay line 60, note line 288) omits that the memo is SCHEDULED and unverified on main (harvest row 381). Main's P-145 then overstates it as the record having a PROVED NEGATIVE.
+  2. **B715** (m004's E₆ holonomy, one thread) is cited for all threads' fibre representations (§5:190–191). The statement is true for every hyperbolic thread, but for another reason.
+  3. **The B1479 omission** repeats here (§2a, §9.4, relay lines 16–27).
+
+**Not checked:**
+- The literature (Berezhiani, Ahmed–Dodelson–Greene–Sorkin, Åminneborg et al., DESI, JUNO, Castro et al., Acerbi et al.): no network.
+- The condensate-test claims: outside this folder.
+- T-ROOT's "separate snippet" and the scale folder's referee report: not committed. My own recomputation agrees with the snippet's stated result.
+
+## 3. Ungraded notes
+- **B1034's chirality check needs redoing on the weave.** THE_SCALE §3's "It opens" reading does not revisit B1034's V3(a), which relied on CS = 0 (a non-chiral Brown–Henneaux boundary).
+- **Commit author.** chat1's commits are authored under a name other than originaxiom. This is outside computational scope.
+
+## 4. Findings with grades
+1. **B:** `t_root.py` crashes intermittently; the cause is misattributed and the exposure is shared (summary item 1).
+2. **B:** "two orders of magnitude".
+3. **C:** B1479 prior art uncited, here and in the records that took T-SIGN up.
+4. **C:** "N_eff between 5 and 7".
+5. **C:** the volume read-out is not evidenced.
+6. **C:** N0's scope gap.
+7. **C:** the double-cover overstatement.
+8. **C:** the weave label on T-ROOT.
+9. **C:** 8% at k = 1 without its caveat.
+10. **C:** ℓ_∂/8π miscited.
+11. **C:** P10′ ignored.
+12. **C:** I-18 without B1246, and the θ̄ sign.
+13. **C:** memo 132's status.
+14. **C:** B715's reach.
+15. **C:** the relay's "0.82 of LR".
+16. **C:** W76's correction files the sign under GM5b.
+
+No grade A: every number behind a conclusion reproduces and survives the independent checks, and W76's T-SIGN correction is right in substance.

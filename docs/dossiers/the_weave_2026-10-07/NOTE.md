@@ -219,7 +219,8 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   W74's arg det M = 0, θ̄ = 0 given L192's dictionary; δ_CKM (1.14 rad) is not a bit and must come from the sector
   split. The count after the field, by kind, is a reading beside it: still 0 of 19, with θ̄ the nearest. *(Corrected
   2026-10-14 by chat1's T-SIGN: the bit is the sign of the monodromy. The minus threads carry π²/2, so the 0 found here
-  is GENESIS GM5d's positivity, a convention of the grammar, not something the weave forces.)*
+  is GENESIS GM5d's positivity, a convention of the grammar, not something the weave forces.)* *(Noted 2026-10-14 by
+  W86: main's B1479 had the amphichiral half first, to length 12.)*
 - W77 (the audit lane's ask; rule first; all five cells as predicted): the lane's odd form estimate reviewed on this
   seat's instruments. Its brackets, spin connection, cross form {V, H} = K₃E₃ + K₄E₄ and coefficient norms are
   reproduced exactly, in a second gamma representation. Its identity and inequality (1) hold on 40 numerical test
@@ -265,6 +266,12 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   hold. L and R carry the triplet exactly, with no Klein element, at the puncture, the half-periods and generic
   points. The twisted moves share exactly the four body diagonals. So B1651's U2–U5 stand on a second
   instrument.
+- W86 (chat1's whole branch checked at the owner's order; rule first; five read-only auditors, an independent script
+  and three labelled post hocs, each committed before one run): every script reproduces and no sealed cell changes.
+  Three readings fall: the meditation's self-coupling fork (an artifact of a positivity convention), "the hierarchy is
+  carried by K, not by Y" (its hybrid could not test it; Y's shape sets the level), and the first background's "level
+  3 is what the short words do" (no length law holds). Wrong numbers and citation slips are graded and relayed (§111).
+  Four of this seat's own statements are corrected.
 
 ## The setting
 
@@ -6387,6 +6394,12 @@ not a quantity of the joint action. 0 of 19.
     by exactly π²/2 (224 of 224 words to length 10). So the 0 found here is the positive weave's. It is GENESIS GM5d's
     positivity, a convention of the grammar, not a selection the weave makes. If the sign move (GENESIS GM5b) is in
     the weave, the bit is the sign. θ̄ = 0 below is then "given positivity" as well as given L192's dictionary.
+  - *Noted 2026-10-14 by W86 (from the scale auditor's report):*
+    - Main's B1479 (PROVED, 2026-10-06) had the amphichiral half first, to length 12. On 34 of 34 words the + state
+      sits at CS = 0 and the − state at ¼, and the two signs share a volume on all 379 words. T-SIGN extends it to
+      length 14 and adds the shift on every word.
+    - "GM5b" above is this branch's GENESIS v1.10 filing. Main's GENESIS v1.14 (B1482) makes the sign a move of its
+      own, as this dossier's header already says.
 - **For θ̄ (I-18), not earned.** In the surface frame with one coupling, arg det M = 0 (W74). If θ is read as the
   weave's bit (L192's dictionary), θ̄ = 0, which the data allow. Two things are still owed:
   - that dictionary (B813 refuted the value dictionary; the bit dictionary is untested);
@@ -6429,7 +6442,7 @@ now say. The arcs cited win where this summary disagrees.
 - **The nearest is θ̄.** It needs two owed things and no free input: L192's dictionary, and a sector split that keeps
   arg det(M_u M_d) at 0 while giving J ≠ 0. Main's P-128 seal can test the second directly.
   - *Corrected 2026-10-14 (chat1's T-SIGN):* the weave's bit is 0 because of GENESIS GM5d's positivity, which is a
-    convention, so θ̄ = 0 here is also "given positivity".
+    convention, so θ̄ = 0 here is also "given positivity". *(Noted by W86: main's B1479 had this first, to length 12.)*
 - **One number has become the unit.** v's size is the fibre's own, if the uniformization reading holds. That moves it
   from "unsourced" to the reader's unit, which is the box the ledger already gave it. It does not count as derived.
 - **Everything else waits on one input: what splits the sectors.** With one coupling the frame is rigid, with no free
@@ -6992,6 +7005,210 @@ thetas' transformation laws, by hand. The lane reviewed the code and did not re-
 **Status.** COMPUTED (the rule first; one run; every cell as predicted; one wrong timing in a commit message, disclosed
 here). A check of main's B1651 on this seat's own code. 0 of 19.
 
+## W86. chat1's whole branch checked at the owner's order: every script reproduces and no sealed cell changes; three of its readings fall (the meditation's self-coupling fork, an artifact of a positivity convention; "the hierarchy is carried by K, not by Y", which its hybrid could not test; the first background's "level 3 is what the short words do", which its own counts contradict); the rest are wrong numbers and citation slips, graded; four of this seat's own statements are corrected (`the_chat1_record_checked.py` and three labelled post hocs; `W86_RULE.md`; the auditors' evidence in `w86_audit/`)
+
+**Why.** The owner, 2026-10-14, at night: "verify all from chat1 so its not based on wrong computations or bugs for
+conclusions, or misinforment". chat1's branch (`chat1/web-seat` at 9fbab9f5e) holds 13 folders of computations and
+readings, and 14 relays. Main's B1650 and B1652 and this seat's W75, W84 and §105–§110 cite them.
+
+**Weave or thread.** A check of another seat's record. Each item keeps its own label. The check adds no claim of its
+own beyond "reproduced" or not, "a bug" or none, and "cited correctly" or not.
+
+**The order.**
+- The rule (4cc4f6dd2, rewrapped before any check at fc3a6bd0b).
+- The independent checks I1–I7: the script (729cbd106) and its output (972193212), committed before the read-out
+  (662 s).
+- Post hoc 1 (8200bc173, output d0eace587): I6 re-scored after an instrument error in this seat's own script.
+- Post hoc 2 (26f2ff24d, output 7aa9e7ca4; 486 s): the auditors' first two A findings re-checked on this seat's own
+  code. It was written after their reports and committed before its one run.
+- Post hoc 3 (82db37fb0, output b60cb2832; 0.12 s): the third A finding, re-checked from the committed counts the same
+  way.
+- **R, C, F and X were run by five read-only auditors,** one per group of folders, in the seat's scratch space.
+  - Each extracted chat1's scripts by `git archive` at 9fbab9f5e and ran them unchanged.
+  - They edited nothing in the repository. The seat saved their reports from the hand-backs (they could not write
+    files) and keeps them, with their own checks, in `w86_audit/`; its README lists three hygiene edits.
+  - The seat read every report and owns every finding. Findings the seat re-checked at source are marked so below.
+
+**The cells (each recorded as found).**
+
+| cell | prediction (prior) | outcome |
+|---|---|---|
+| R | every script reproduces its outputs, or differs only where its folder says why (60%) | FAILS as worded on one script. post_hoc_omega.py's output depends on the order numpy returns RL's two isotropic eigenvectors; with that order undone it agrees to 7.8 × 10⁻¹⁶. Every other script reproduces. t_root.py did so on its second attempt (an intermittent SnapPy error, which its folder discloses but misattributes). The 2026-10-06 folders reproduce byte for byte where their logs are committed, and the heavy cell LLRR at level 4 exactly (1,168 s). Their last heavy re-runs were still running when this was recorded. |
+| C | no bug changes a stated conclusion (70%) | FAILS: the meditation's self-coupling scan takes nonnegative coefficients where its docstring and B517 say entries (A1). Two checks of the 2026-10-06 folders cannot fail by construction (B findings below). |
+| F | every number matches its outputs, and no conclusion claims more than chat1's own corrections allow (50%) | FAILS: A2, A3 and the B findings below |
+| X | every citation of the record is accurate (45%) | FAILS: the C findings below. None changes a conclusion. |
+| I1 | the hybrid's m₂/m₃ within 10% of each thread's own, on all 12 (85%) | FAILS as worded: ×0.8984 at LLRLR and LRLRR. chat1's own range, ×0.898 to ×1.021, reproduces exactly. |
+| I2 | conjugate K and Y under reversal, to 10⁻⁴⁰ (95%) | HOLDS |
+| I3 | Ψ rotation-invariant and equal to #R − #L; the residue table as chat1 gives it (90%) | HOLDS for Ψ. The residue table was not tabulated by the script. |
+| I4 | 16, 13 and 8 (90%) | HOLDS |
+| I5 | the reversal identities on 40 threads, to 10⁻¹² (90%) | HOLDS |
+| I6 | LR, LLR and LLRR least by volume; 4·Catalan, √8 and 6 (85%) | FAILED on this seat's instrument; HOLDS post hoc |
+| I7 | T-SIGN's shift as chat1 states it, on a sample (85%) | HOLDS |
+
+**The independent checks, read out (COMPUTED).**
+- **I1.** On the 12 threads of chat1's sealed test, W72's Y normalised by each thread's own K gives ×0.8984 to
+  ×1.0211 of the thread's own m₂/m₃, and ×1.04 to ×7.45 of its m₁/m₃. These are chat1's numbers to the digit. The
+  rule's "within 10%" was the seat's paraphrase of chat1's "within about 10%"; it fails at the two LLRLR threads by
+  0.16 points.
+- **I2.**
+  - On all 484 threads to length 12 that are not their own reverse, M(rev W) = (D M D)⁻¹ exactly, every rotation keeps
+    |c|, and the least-|c| apexes reflect.
+  - On the six such threads to length 7, K and Y of a word and its reverse are complex conjugates, to 3 × 10⁻⁵⁶
+    (60 digits).
+- **I3.**
+  - Rademacher's Ψ, from exact Dedekind sums, is constant on rotations and equals #R − #L on all 745 threads to length
+    12 (113 of them balanced).
+  - η's multiplier e^{iπΨ/12} holds on the first 12 threads to 1.2 × 10⁻³⁰.
+  - The residue table (mod 3 and mod 4) was not tabulated by the script. Since Ψ = #R − #L exactly, the residues are
+    the letter counts' residues; the meditation's auditor checked the table.
+- **I4.** W mod 2 sorts the 69 threads to length 8 into 30 A₄, 26 D₄ and 13 V₄. Up to the mirror they are 16, 13 and 8,
+  B1602's census as chat1 reproduces it. The class is mirror-invariant.
+- **I5.** On 40 threads to length 10 (seed 86), rev(W) has W's volume and Chern–Simons invariant, and Wᵀ has W's
+  volume and minus its invariant. Both hold exactly in SnapPy's high-precision values.
+- **I6.**
+  - By volume the least threads are LR (A₄), LLR and LRR (D₄) and LLRR (V₄, 4·Catalan = 3.6639, trace 6).
+  - The sub-check "no D₄ thread has Lagrange value below 3" failed on this seat's own instrument. `lagrange()` took the
+    least-|c| rotation's semicircle, which is not the closed geodesic's highest arc (it gives LLR √3, half its value).
+  - Post hoc 1 re-scored it with Perron's formula, cross-checked against the sampled reduced geodesic to 3.9 × 10⁻⁷ on
+    every thread to length 8. The least D₄ value is 3.1298 (LLRLLRR) to length 8 and 3.0508 (LLRLRLLRR) to length 10,
+    so chat1's statement holds. LLRR's value is √8 to 4 × 10⁻³¹, and L^nR's is √(n² + 4n) exactly.
+- **I7.**
+  - The bundles' homology torsion is |tr − 2| for b++W and tr + 2 for b+−W, so their monodromies are M and −M.
+  - On 30 threads to length 10 (seed 86) the sign shifts the Chern–Simons invariant by π²/2 mod π², to
+    8.9 × 10⁻¹⁶.
+  - On all 26 swap-symmetric threads to length 10 the plus bundle sits at 0 and the minus bundle at π²/2.
+
+**The A findings: each re-checked on this seat's own code (post hocs 2 and 3; COMPUTED; each as the auditors found).**
+1. **A1, the meditation's fork rests on a convention.**
+   - chat1's meditation says that B517's self-coupling, carried to the threads, admits every thread to length 8 except
+     the root. It builds a fork between minimality, which picks the root, and self-reference on that.
+   - The scan takes C = c₀I + c₁W and D = d₀I + d₁W with nonnegative coefficients c₀ to d₁ in {0, …, 3}. Its
+     docstring says nonnegative entries, and B517's theorem says "coupled by nonneg-integral F-equivariant maps".
+   - The seat's own scan reproduces chat1's counts on all 70 matrices (F and the 69 Lyndon words to length 8), word for
+     word: no hit at LR.
+   - **With nonnegative entries,** the same box with c₀, d₀ in {−3, …, 3} admits every word, the root included. Every
+     word has a hit that also meets B517's other conditions (primitive, unimodular, irreducible Pisot); the root has
+     18 hits, 12 of them meeting all.
+   - **In B517's own basis {I, F′}, F′ = LR − I** (F′² = LR = F′ + I), the root has 18 hits. Among them is
+     (F′, F′²), whose matrix [[1,1,0,1],[1,2,1,1],[1,1,1,1],[1,2,1,2]] is nonnegative, primitive and unimodular, with
+     the irreducible characteristic polynomial x⁴ − 6x³ + 7x² − 4x + 1: a Pisot unit (root moduli 4.676, 0.618, 0.618,
+     0.560). This is B517's own coupling, at the root.
+   - So self-reference, carried by B517's own condition, excludes no thread, and the fork does not arise. The closed
+     form of the roots agrees with the characteristic polynomials' to 1.7 × 10⁻⁴⁹ on every hit.
+2. **A2, "the 2–3 hierarchy is carried by K, the normalisation, not by Y."**
+   - chat1 drew this from its hybrid: W72's Y with each thread's own K gives the thread's m₂/m₃ within ×0.90 to ×1.02.
+   - The hybrid cannot test it. Each thread's own Y is within 0.24% (LLLLR) to 5.5% (LR) of a complex multiple of W72's
+     Y, so the hybrid nearly reproduces the thread's own computation, whatever Y's role.
+   - **Y's shape sets the level.** With each thread's own K fixed, 256 random complex symmetric Y give a median m₂/m₃ of
+     1.2% to 4.7% of the thread's own (1.5% to 5.6% for real Y). At the root the median is 0.0044 against the own 0.369.
+     Scaling W72's six entries by factors within [½, 2] moves m₂/m₃ by ×0.30 to ×3.52.
+   - **K carries most of the trend.** From LR to LLLLR the thread's own m₂/m₃ falls 5.38 decades, and the random
+     median 4.78.
+   - The controls hold. The own ratios at 256 nodes agree with W84's at 512 to double precision, with chat1's banked
+     values to 9.8 × 10⁻⁷ and with its hybrid to 3.9 × 10⁻⁹.
+   - So the reading stands as "K carries most of the trend with height; Y's shape sets the level, the root's 0.37
+     included". The auditor's wider sample adds that the hybrid drifts to ×0.70 to ×2.39 at lengths 9 to 12.
+3. **A3, the first background's length law.**
+   - chat1's first-background findings (l.1, l.50–52) and relay say that level 3 is what the short words do: "every
+     decided root of length ≤ 4 except ILLR has its first background at 3, none earlier", and "long words fire
+     earlier".
+   - **chat1's own committed counts** (26 signed roots) put LLRR (silver+, 4 letters) first at level 4, and bronze±
+     (6 and 7 letters) first at level 3. Both halves fail, with the sign counted as a letter or not.
+   - **Main's B1439** (2026-10-01, primes above 2 × 10⁹) agrees with chat1 on the backgrounds and firing of all 59
+     shared cells. It decides chat1's three open roots: −LLR (ILLR) first at level 4, +LLLLR and −LLLLR at level 3.
+   - So no length law holds. Most roots of up to 4 letters are first at level 3 (LLRR and ILLR at 4); roots of 5 to 7
+     letters land at level 1, 2 or 3. The sealed kills (R, R0, Q1) are unaffected.
+   - Main's harvest row 899 took the reading as written ("levels 1 and 2 on longer words"). No claim on main rests on
+     it.
+
+**The B findings (a wrong number or claim; no conclusion changes).** Those marked "seat" were re-checked by the seat at
+source, from chat1's committed files.
+- **The selection folder.**
+  - TF4's "the other four pairs agree to 10⁻¹² or better": LLLR and LRRR differ by 2.1 × 10⁻⁹ in m₁/m₃ (seat).
+  - "The 47 new threads carry 26 distinct values": they carry 22 (seat).
+  - masses() normalises with K where the field metric is Kᵀ. The effect is exactly 0 on threads that are their own
+    reverse (all 12 of the sealed test, so W84 too) and at most 3.2 × 10⁻⁵ elsewhere.
+  - The 10⁻⁶ residuals come from cancellation in Y, not from "the near-singular K", which converges to 10⁻¹⁵. So the
+    ratios carry 6 digits, not 7.
+- **The meditation.** "Under (A) the median vacuum sits in [3, 3.6)" holds at c = 6 only. At c = 24 chat1's own table
+  puts 58% of the weight below 3 (seat).
+- **The field folders.**
+  - The condensate's unit j gives m = 0.6096, 0.5050, 0.5000 at y = 1, 2, 4, tending to ½. The findings and relay say
+    0.610, 0.886, 0.995 for "i or j"; only unit i goes to 0.995 (seat). "No hierarchy" still holds.
+  - "In two other sign classes RL acts hyperbolically" is computed nowhere (seat). With chat1's own frame code, every
+    class has R as an isotropic eigenline of ρ(RL) at ω, ω + 1, ω − 1 or ω + 2, as main's B1640 cell C has it.
+  - "A thread's realisation is fixed by its own word [MATH]" is false for an orientation-reversing thread such as m000.
+    Its geometric point is fixed by the map followed by complex conjugation (W2) (seat).
+- **The scale folders.**
+  - t_root.py's intermittent crash comes from SnapPy's complex_volume(), not from solution_type(). About a quarter of
+    full runs fail; a failure can crash a run or fail a cell, never pass one falsely.
+  - "Two orders of magnitude above 6": c₀.₉₉ = 105 to 138 is 17.5 to 23 times 6, about 1.2 to 1.4 orders (seat).
+- **The 2026-10-06 folders.**
+  - The first background's preregistration says no arc had run the background census on a root other than m004.
+    Main's B1434 and B1439 (2026-10-01) had, including −LLRLR's 8 backgrounds at level 1, one of chat1's two kills of
+    Q1 (seat, in post hoc 3's data).
+  - "Q2 killed: orbits of 1 and 2 throughout" follows from Q1, since every orbit size divides the level.
+  - 15 zero cells the table rests on were not rechecked as the findings say. The auditor's re-run finds all 15 zero.
+  - The listening log's half p-layer classification misses cases in its own run (golden p = 11 at tick 5; silver
+    p = 7 at ticks 3 and 9).
+  - The nonorientable register lemma, "verified 264/264", compares 0 = 0 + 0 on every system (seat: its run's L3 shows
+    only zeros). The lemma itself follows from Shapiro's lemma.
+  - register_test's R2, "PASS at 11 primes", never builds the deck and cannot fail (seat: the script constructs no
+    deck). The conclusion holds by sm:B1382's S2.
+  - "The seven are amphichiral word states": of the seven swap members only m003 is a word state.
+
+**The C findings (citation and wording slips).** The selection report has 8, the meditation's 15, the field's 6, the
+scale's 14 and the 2026-10-06 folders' 7. The full lists are in the reports. Representative ones:
+- B1379 is the SM seat's sm:B1379, not main's.
+- B1479 (main, PROVED, 2026-10-06) already had T-SIGN's amphichiral half to length 12. It is not cited, here or in the
+  records that took T-SIGN up.
+- B715's "3d Euclidean quantum gravity" is cited as [MATH], though B1242 refuted it. B715 is one thread's result,
+  cited for all threads.
+- "F₊ weight ≥ 0.9996" is 0.999582 at LLRR. "N_eff between 5 and 7" is 4.72 under (C).
+- Memo 132's "MISSING → PROVED NEGATIVE" omits that the memo is scheduled and unverified on main.
+- 73 of chat1's 78 commits are authored under a name other than originaxiom.
+
+**What the record took from chat1, re-checked.**
+- **Confirmed by the auditors:**
+  - the condensate cells (HARVEST row 1121, P-133);
+  - O1, O3, O6, C5b and the parity step (B1650, this seat's §89);
+  - the cap, |U_e1| = 1 or |U_e1|² ≤ ½, and κ ≈ 2.08 (HARVEST row 1143, P-146, this seat's §98.4);
+  - the post hoc at ω (HARVEST row 1144);
+  - the thread frame and the root as the least hierarchical thread (B1652's F5 column; W84);
+  - the 2026-10-06 numbers main re-ran (B1478, B1479; HARVEST rows 879 to 885).
+- **Main's rows that inherit a finding:**
+  - harvest row 899 restates the first background's length reading (A3);
+  - harvest row 1141 credits T-SIGN without B1479;
+  - P-145 reads memo 132 as a PROVED NEGATIVE;
+  - B1478 and B1479 recorded R2's PASS and the register lemma's 264 of 264, two checks that cannot fail (their
+    conclusions hold by other routes).
+- No banked cell rests on the three A findings' readings. This seat endorsed A2 in §108; it is corrected below.
+
+**This seat's own statements, corrected (dated notes added where they stand).**
+1. **§108, item 5** endorsed "the 2–3 hierarchy is carried by K" as W84's V2e and its Froggatt–Nielsen reading, citing
+   the hybrid. The hybrid cannot test it (A2). What stands: K carries most of the trend with height, which is W84's
+   reading of the slope. Y's shape sets the level.
+2. **§98, item 4** restated "|U_e1| = 1 or |U_e1|² ≤ ½" without its frame. It holds in Λ's frame at one τ, where B1649's
+   zero sits; main scoped B1649 by frame (P-133), and W72's surface frame lifts the zero.
+3. **W76's dated note and §98, item 1** credit chat1's T-SIGN alone.
+   - Main's B1479 had the amphichiral half first, to length 12: on 34 of 34 words the + state sits at CS = 0 and the −
+     state at ¼, and the two signs share a volume on all 379 words. T-SIGN extends it to length 14 and adds the shift
+     on every word.
+   - The note files the sign under GENESIS GM5b, as this branch's GENESIS v1.10 does. Main's GENESIS v1.14 (B1482)
+     makes the sign a move of its own; W76's own header already says so.
+4. **W86's own instrument:** I6's error, above (post hoc 1).
+
+**What it shows.**
+- **chat1's computations stand.** Every script reproduces; one depends on numpy's eigenvector order. No sealed cell
+  changes, and no code bug passes a cell falsely.
+- **Three of its readings fall.** The meditation's fork between minimality and self-reference is an artifact of a
+  positivity convention. "Not by Y" was never tested. The first background has no length law behind it.
+- **The record's harvest from chat1 stands,** with the corrections above.
+- **The count is unchanged,** 0 of 19.
+
+**Status.** COMPUTED. The rule came first; the independent script and three labelled post hocs were each committed
+before their one run, and their outputs before the read-out. A check of another seat's record. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -7189,6 +7406,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W83 | COMPUTED (the script first; one run; M1 as predicted; M2 FAILED as worded in one sub-cell: 8, not 2, when the moves act trivially on the family index); an answer to a tribunal item | the commutant of colour and SU(2)_w in e₈ is the lane's su(6) (30 roots, an A₅ with the lane's chain); a trace-free Y commuting with the holonomy and the moves exists only if the moves act on the lane's family index other than through O (0 through O, 1 through S₃, 8 if trivial). So in the lane's frame D1 and D3 meet only if its family index is not the weave's three |
 | W84 | COMPUTED (the rule first, a disclosed rewrap before code; one run; every cell as predicted); a check of chat1's thread frame and its law's deep-cusp limit, under H-thread | chat1's numbers reproduce at 60 digits to 5·10⁻¹¹; along L^n R (y_max to 4.9) the slope of −ln(m₂/m₃) falls 7.64 → 6.43 (2.4% above 2π) and that of −ln(m₁/m₃) rises to 9.34 (0.9% below 3π); K diagonalises (1.5·10⁻⁹) and F₊ is the heaviest everywhere: a Froggatt–Nielsen texture with the units' exponents as charges, m₂/m₃ ∝ \|q\|¹ and m₁/m₃ ∝ \|q\|^{3/2}. So 7.33 is a range average, not 7π/3; the exact limit is not resolved |
 | W85 | COMPUTED (the rule first; one run, blind to main's; every cell as predicted); a check of main's B1651 on this seat's own code | at 60 digits: the multipliers (+, −), (−, +), (−, −); isotropy at every point (an identity); the half-periods' directions fixed; L as e^{iπ/4} Ad(g_L)⁻¹ and R as Ad(g_R) at the exact transformed points, with no Klein element; the group O, V₄ the kernel on the axes, S₃ the image; exactly the four body diagonals shared by the twisted moves; W64's matrices agree. 0 of 19 |
+| W86 | COMPUTED (the rule first; the independent script and three labelled post hocs each committed before one run; R, C, F and X by five read-only auditors); a check of chat1's whole branch at the owner's order | every script reproduces (one depends on numpy's eigenvector order) and no sealed cell changes. I1 failed as worded (×0.898; chat1's own range exact); I6 failed on this seat's instrument and holds post hoc; I2–I5 and I7 hold. Three readings fall, re-checked on this seat's code: the meditation's self-coupling fork (with B517's nonnegative entries every thread is admitted, the root included); "carried by K, not by Y" (the hybrid could not test it; Y's shape sets the level); the first background's length law (LLRR first at level 4, bronze at 3). B and C findings graded; four of this seat's statements corrected. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -7264,6 +7482,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_completion_dichotomy.py` → `the_completion_dichotomy.json`: W83, the commutant of colour and SU(2)_w in e₈ (a root count) and the trace-free hypercharges commuting with the holonomy and the moves on the lane's family index; the script committed before its one run.
 - `W84_RULE.md`: the rule, committed before the code (a disclosed rewrap before code); `the_thread_frame_checked.py` → `the_thread_frame_checked.json`: W84, chat1's thread frame on this seat's own 60-digit integrator (five threads against chat1's banked values; L^n R for n = 1 to 8, the local slopes, K's off-diagonals, the states' weights).
 - `W85_RULE.md`: the rule, committed before the code; `the_b1651_cells_checked.py` → `the_b1651_cells_checked.json`: W85, main's B1651 cells on this seat's own theta series at 60 digits (the multipliers, isotropy, the half-periods' directions with a negative control, L and R at the exact transformed points, the group and the twisted pairs' common lines exactly, W64's matrices); the script committed before its one run.
+- `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

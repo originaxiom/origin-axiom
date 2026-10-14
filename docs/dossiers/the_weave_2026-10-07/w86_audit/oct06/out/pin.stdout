@@ -1,0 +1,12 @@
+Q2  relator abABaBAbaB exact over Z[omega] for Riley: True
+    B1382's W = [[1,-w],[0,1]]: W*conj(W) = +A : True
+
+Q1  surjections onto 2T: 48   halves: {'Pin-': 24, 'Pin+': 24}
+    psi -> psi (x) chi changes the half in 48 of 48
+
+Q2  psi1 is a surjection: True
+    W3 intertwines psi1 with psi1 o beat: True
+
+Q3  psi1 (reduction of the Pin⁺ lift rho1, tr mu = +2): Pin+    W3^2 = +psi1(a): True
+    psi2 (reduction of rho2 = (-A,-B), tr mu = -2)    : Pin-
+    Q3: PASS

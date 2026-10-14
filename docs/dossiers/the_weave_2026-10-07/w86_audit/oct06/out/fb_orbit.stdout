@@ -1,0 +1,57 @@
+sample 26 ['LR', 'ILR', 'LLR', 'ILLR', 'LLLR', 'ILLLR', 'LLRR', 'ILLRR', 'LRLR', 'ILRLR', 'LLLLR', 'ILLLLR', 'LLLRR', 'ILLLRR', 'LLRLR', 'ILLRLR', 'LLLLLR', 'ILLLLLR', 'LLLLRR', 'ILLLLRR', 'LLLRLR', 'ILLLRLR', 'LLLRRR', 'ILLLRRR', 'LLRLLR', 'ILLRLLR']
+LR 1 [] firing 0 bg 0 lifted 0 orbits {} differ 0
+LR 2 [5] firing 8 bg 0 lifted 0 orbits {} differ 0
+ILR 1 [5] firing 8 bg 0 lifted 0 orbits {} differ 0
+ILR 2 [5] firing 8 bg 0 lifted 0 orbits {} differ 0
+LLR 1 [2] firing 0 bg 0 lifted 0 orbits {} differ 0
+LLR 2 [2, 6] firing 32 bg 0 lifted 0 orbits {} differ 0
+ILLR 1 [6] firing 4 bg 0 lifted 0 orbits {} differ 0
+ILLR 2 [2, 6] firing 32 bg 0 lifted 0 orbits {} differ 0
+LLLR 1 [3] firing 0 bg 0 lifted 0 orbits {} differ 0
+LLLR 2 [21] firing 84 bg 0 lifted 0 orbits {} differ 0
+ILLLR 1 [7] firing 12 bg 0 lifted 0 orbits {} differ 0
+ILLLR 2 [21] firing 84 bg 0 lifted 0 orbits {} differ 0
+LLRR 1 [2, 2] firing 0 bg 0 lifted 0 orbits {} differ 0
+LLRR 2 [4, 8] firing 216 bg 0 lifted 0 orbits {} differ 0
+ILLRR 1 [2, 4] firing 24 bg 0 lifted 0 orbits {} differ 0
+ILLRR 2 [4, 8] firing 216 bg 0 lifted 0 orbits {} differ 0
+LRLR 1 [5] firing 8 bg 0 lifted 0 orbits {} differ 0
+LRLR 2 [3, 15] firing 488 bg 256 lifted 256 orbits {'2': 256} differ 0
+ILRLR 1 [3, 3] firing 32 bg 0 lifted 0 orbits {} differ 0
+ILRLR 2 [3, 15] firing 488 bg 256 lifted 256 orbits {'2': 256} differ 0
+LLLLR 1 [4] firing 4 bg 0 lifted 0 orbits {} differ 0
+LLLLR 2 [2, 16] firing 172 bg 0 lifted 0 orbits {} differ 0
+ILLLLR 1 [8] firing 12 bg 0 lifted 0 orbits {} differ 0
+ILLLLR 2 [2, 16] firing 172 bg 0 lifted 0 orbits {} differ 0
+LLLRR 1 [2, 3] firing 4 bg 0 lifted 0 orbits {} differ 0
+LLLRR 2 [2, 30] firing 432 bg 32 lifted 32 orbits {'2': 32} differ 0
+ILLLRR 1 [10] firing 32 bg 0 lifted 0 orbits {} differ 0
+ILLLRR 2 [2, 30] firing 432 bg 32 lifted 32 orbits {'2': 32} differ 0
+LLRLR 1 [8] firing 12 bg 0 lifted 0 orbits {} differ 0
+LLRLR 2 [2, 48] firing 936 bg 8 lifted 0 orbits {'2': 8} differ 0
+ILLRLR 1 [12] firing 40 bg 8 lifted 0 orbits {'1': 8} differ 0
+ILLRLR 2 [2, 48] firing 936 bg 8 lifted 0 orbits {'1': 8} differ 0
+LLLLLR 1 [5] firing 8 bg 0 lifted 0 orbits {} differ 0
+LLLLLR 2 [45] firing 212 bg 32 lifted 32 orbits {'2': 32} differ 0
+ILLLLLR 1 [9] firing 12 bg 0 lifted 0 orbits {} differ 0
+ILLLLLR 2 [45] firing 212 bg 32 lifted 32 orbits {'2': 32} differ 0
+LLLLRR 1 [2, 4] firing 16 bg 0 lifted 0 orbits {} differ 0
+LLLLRR 2 [4, 24] firing 764 bg 64 lifted 0 orbits {'2': 64} differ 0
+ILLLLRR 1 [2, 6] firing 44 bg 0 lifted 0 orbits {} differ 0
+ILLLLRR 2 [4, 24] firing 764 bg 64 lifted 0 orbits {'2': 64} differ 0
+LLLRLR 1 [11] firing 20 bg 0 lifted 0 orbits {} differ 0
+LLLRLR 2 [165] firing 1572 bg 16 lifted 16 orbits {'2': 16} differ 0
+ILLLRLR 1 [15] firing 72 bg 16 lifted 16 orbits {'1': 16} differ 0
+ILLLRLR 2 [165] firing 1572 bg 16 lifted 16 orbits {'1': 16} differ 0
+LLLRRR 1 [3, 3] firing 16 bg 0 lifted 0 orbits {} differ 0
+LLLRRR 2 [3, 39] firing 1000 bg 0 lifted 0 orbits {} differ 0
+ILLLRRR 1 [13] firing 24 bg 0 lifted 0 orbits {} differ 0
+ILLLRRR 2 [3, 39] firing 1000 bg 0 lifted 0 orbits {} differ 0
+LLRLLR 1 [2, 6] firing 32 bg 0 lifted 0 orbits {} differ 0
+LLRLLR 2 [8, 24] firing 4192 bg 480 lifted 288 orbits {'2': 480} differ 0
+ILLRLLR 1 [4, 4] firing 100 bg 16 lifted 0 orbits {'1': 16} differ 0
+ILLRLLR 2 [8, 24] firing 4192 bg 480 lifted 288 orbits {'2': 464, '1': 16} differ 0
+LLR 3 [5, 10] firing 456 bg 48 lifted 48 orbits {'3': 48} differ 0
+ILLR 3 [3, 18] firing 448 bg 0 lifted 0 orbits {} differ 0
+LLLR 3 [6, 18] firing 1572 bg 72 lifted 0 orbits {'3': 72} differ 0
+ILLLR 3 [4, 28] firing 1416 bg 48 lifted 0 orbits {'3': 48} differ 0

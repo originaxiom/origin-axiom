@@ -1,0 +1,189 @@
+{
+ "N1": true,
+ "N2": true,
+ "N3": true,
+ "N4": true,
+ "N5": true
+}
+{
+ "Q0": {
+  "w70_cells": {
+   "N1": true,
+   "N2": true,
+   "N3": true,
+   "N4": true,
+   "N5": true
+  },
+  "p_odd": 112,
+  "admissible": [
+   [
+    "-5/6",
+    "1/6",
+    "2/3"
+   ],
+   [
+    "-5/6",
+    "2/3",
+    "1/6"
+   ],
+   [
+    "1/6",
+    "-5/6",
+    "2/3"
+   ],
+   [
+    "1/6",
+    "2/3",
+    "-5/6"
+   ],
+   [
+    "2/3",
+    "-5/6",
+    "1/6"
+   ],
+   [
+    "2/3",
+    "1/6",
+    "-5/6"
+   ]
+  ],
+  "higgs_like_per_Y": {
+   "-5/6,1/6,2/3": 4,
+   "-5/6,2/3,1/6": 4,
+   "1/6,-5/6,2/3": 4,
+   "1/6,2/3,-5/6": 4,
+   "2/3,-5/6,1/6": 4,
+   "2/3,1/6,-5/6": 4
+  },
+  "holds": true
+ },
+ "A1a": {
+  "beta_are_E8_roots": true,
+  "beta.h_Q": [
+   "2",
+   "2",
+   "2"
+  ],
+  "colour_singlet": true,
+  "weak_singlet": true,
+  "Y_zero_for_all_admissible": true,
+  "h_Q.h_Q": "6",
+  "holds": true
+ },
+ "A1b": {
+  "p_odd_roots_that_are_su2Q_roots": 0,
+  "su2Q_roots_parity": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "holds": true
+ },
+ "A1c": {
+  "M_component_coefficient_distribution_(alpha.hQ/hQ.hQ)": {
+   "1/6": 54,
+   "-1/6": 54,
+   "1/2": 2,
+   "-1/2": 2
+  },
+  "nonzero_for_all_112": true,
+  "higgs_like_union": 24,
+  "higgs_like_coefficients": {
+   "-1/6": 12,
+   "1/6": 12
+  },
+  "real": true,
+  "holds": true
+ },
+ "B1": {
+  "classes": {
+   "6bar|vector": 36,
+   "20|root": 24,
+   "6|vector": 36,
+   "20|block-Cartan (one per block": 16
+  },
+  "all_block_weights_rational_real": true,
+  "holds": true
+ },
+ "readout_axis_as_Higgs": {
+  "-5/6,1/6,2/3": {
+   "axis_block": "b",
+   "unit": "j",
+   "m_at_tau=iy": {
+    "1": 0.6096117967977922,
+    "2": 0.5049714676961827,
+    "4": 0.5000092995507882
+   }
+  },
+  "-5/6,2/3,1/6": {
+   "axis_block": "b",
+   "unit": "j",
+   "m_at_tau=iy": {
+    "1": 0.6096117967977922,
+    "2": 0.5049714676961827,
+    "4": 0.5000092995507882
+   }
+  },
+  "1/6,-5/6,2/3": {
+   "axis_block": "a",
+   "unit": "i",
+   "m_at_tau=iy": {
+    "1": 0.6096117967977923,
+    "2": 0.8858159656851321,
+    "4": 0.9947320785635423
+   }
+  },
+  "1/6,2/3,-5/6": {
+   "axis_block": "ab",
+   "unit": "k",
+   "m_at_tau=iy": {
+    "1": 0.5000000000000002,
+    "2": 0.5000000000000003,
+    "4": 0.5
+   }
+  },
+  "2/3,-5/6,1/6": {
+   "axis_block": "a",
+   "unit": "i",
+   "m_at_tau=iy": {
+    "1": 0.6096117967977923,
+    "2": 0.8858159656851321,
+    "4": 0.9947320785635423
+   }
+  },
+  "2/3,1/6,-5/6": {
+   "axis_block": "ab",
+   "unit": "k",
+   "m_at_tau=iy": {
+    "1": 0.5000000000000002,
+    "2": 0.5000000000000003,
+    "4": 0.5
+   }
+  }
+ },
+ "verdict_V": {
+  "no_single_root_condensate_gives_a_complex_null_vector_in_M": true,
+  "reason": "Reading A: E_alpha has zero M-part (A1b); H_alpha's M-part is real (A1c). Reading B: every block weight is rational and real (B1)."
+ },
+ "cells": {
+  "Q0": true,
+  "A1a": true,
+  "A1b": true,
+  "A1c": true,
+  "B1": true,
+  "B2": true,
+  "V": true
+ }
+}
+{
+ "Q0": true,
+ "A1a": true,
+ "A1b": true,
+ "A1c": true,
+ "B1": true,
+ "B2": true,
+ "V": true
+}

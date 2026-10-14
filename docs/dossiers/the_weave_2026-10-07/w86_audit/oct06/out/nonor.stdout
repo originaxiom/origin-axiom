@@ -1,0 +1,16 @@
+
+m000 (-> m004): w = {'a': 1, 'b': 1}; 12 characters, 24 test systems (12 non-split extensions)
+  L1a twisted  r1(V)+r1(V*w) = t1 : 24/24
+  L1b untwisted r1(V)+r1(V*) != t1: 4/24  (witnesses that V* is the wrong partner)
+  L2  I(M;p*V) = I_w(V) + I_w(Vw) : 24/24
+  controls (Euler N, cusp, M; orientable annihilator on M): 24/24
+  L3  (dim, I_w(N;V)) distribution : {(1, 0): 12, (2, 0): 12}
+      (dim, I(M;p*V)) distribution : {(1, 0): 12, (2, 0): 12}
+
+N3   (-> M3)  : w = {'a': 0, 'b': 1, 'c': 1}; 48 characters, 240 test systems (192 non-split extensions)
+  L1a twisted  r1(V)+r1(V*w) = t1 : 240/240
+  L1b untwisted r1(V)+r1(V*) != t1: 34/240  (witnesses that V* is the wrong partner)
+  L2  I(M;p*V) = I_w(V) + I_w(Vw) : 240/240
+  controls (Euler N, cusp, M; orientable annihilator on M): 240/240
+  L3  (dim, I_w(N;V)) distribution : {(1, 0): 48, (2, 0): 192}
+      (dim, I(M;p*V)) distribution : {(1, 0): 48, (2, 0): 192}

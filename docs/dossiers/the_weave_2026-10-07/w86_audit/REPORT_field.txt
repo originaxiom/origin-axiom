@@ -1,0 +1,93 @@
+# Audit of relays/chat1_2026-10-14_the_field, _condensate_in_M, _the_first_row (chat1 @ 9fbab9f5e)
+
+(Saved by the seat from the field auditor's hand-back. Files: scratchpad/w86/field/: tools/ (jcmp.py,
+check_field.py, check_condensate.py, check_first_row.py, posthoc_replica.py), check_*_out.json, *_rerun.txt, run/.)
+
+## Summary (auditor's grades): every script reproduces; no A.
+
+1. B: condensate read-out misreported. condensate_in_M/FINDINGS.md:30 and relay line 24 say unit j gives m = 0.610,
+   0.886, 0.995 (-> 1); the JSON, the re-run and independent code give j = 0.6096, 0.5050, 0.5000 (-> 1/2); only unit i
+   goes to 0.995. "No hierarchy" still holds.
+2. B: first_row/FINDINGS.md:92-93 says "in two other sign classes RL acts hyperbolically"; no committed output computes
+   it; with chat1's own frame code every class has R as an isotropic eigenline of rho(RL) at omega, omega+1, omega-1
+   or omega+2 (consistent with main's B1640 cell C).
+3. B: THE_FIELD_IS_WHAT_THE_SEED_CAN_BE.md:54-56 says each thread's realisation is fixed by its own word ([MATH]);
+   false for m000 per this seat's W2 (NOTE.md:317-318).
+4. C: the same note cites B715's "3d Euclidean quantum gravity" sentence as [MATH], but B1242 refuted it (I-15);
+   "B715's 'no dynamics'" is not in B715.
+5. C: the field relay counts "six overstatements"; REFEREE.md lists five, and its item #21 appears twice.
+6. C: the sealed B1 cell predicts an "integer" block weight; the code computes thirds; B1 and V's Reading-B half
+   cannot fail by construction.
+7. C: the lane's "embedding-scope control" SU(2) acts on blocks b and a; that matches the "two blocks not at -5/6"
+   only for two of the six hypercharges.
+8. C: "B1640's unpinned hand" is a loose name for the 24-frame ambiguity.
+9. C: "realisations" should read "characters" (W2's word).
+Not checked: JUNO's value (no network) and O3's literature step.
+
+## Method
+
+git archive 9fbab9f5e of the three folders and relays into field/committed/ (pristine) and field/run/ (cwd).
+first_row.py and post_hoc_omega.py run `git -C <repo> archive 60c5470ae ...`: run unchanged with GIT_DIR = a scratch
+bare repo with alternates pointing read-only at origin's objects, TMPDIR in scratch. Pinned arcs B1600, B1610, B1611,
+B1612, B1642 unchanged on main since 60c5470ae; B1649 gained only its frame-scoping addendum after chat1's run.
+Comparison: ints/strings/bools exact; floats 1e-8 relative; pairs of residuals both below 1e-12 = noise; timings
+ignored (tools/jcmp.py). Independent code imports none of chat1's scripts. Origin repo clean.
+
+What main's B1650 already verified: reproduction at 4636b0fa4 (checks_2.py, condensate_in_M.py byte-identical;
+checks.py, checks_3.py to roundoff); O6 at four tau; C5b to 3.9e-15; Ad(-1) identity on M. Not on main: O3, the
+condensate's E8 claims independently, the philosophy notes. The first-row folder postdates B1650 (HARVEST row 1143:
+"the 54 cases and the escapes read, not recomputed"); this re-run is its first reproduction outside chat1's seat.
+
+## 1. the_field
+
+R: checks.py 12.4 s reproduced (0 exact diffs; C8 SVD slopes <= 6.2e-13; one noise residual); checks_2.py 5.7 s
+byte-identical; checks_3.py 0.15 s to roundoff.
+C: no conclusion-changing bug (no jtheta, direct series; no try/except; no sealed tolerance). Independent code (40
+digits): C9/C10 e_r vs theta constants 1e-41; f_s^2 = c_s^2 (wp - e_s); sum R_r^2 e_r = 0; five controls digit for
+digit; O6 a_r^2 ~ R_r^2; Fierz identity 2e-16; C5b heavy mass |R||a|(1 + |R^ a^|) in [1.004, 1.9985]; C8 closed form;
+O7 [R(tau)] Gamma(4)-invariant to 1e-16, moves under Gamma(2)\Gamma(4) (previously only an uncommitted referee check);
+moves fix exactly (0,0,0) and (2,2,2); P-128's identity 5e-41; at tau = omega two of C10's controls also vanish (chat1
+tested only tau = i and disclosed that exception).
+F: every number in relay §1 matches (C1-C10, control range 0.29-1.47); O3 not re-derived; findings 3, 5, 9.
+X: correct at source: W24_RULE:81, B497, HARVEST row 939, B1601, B1235 cell 3, W28 I5, W24 A3/D1, B1614 A2, SM §68,
+B1642 R1/R2, T-RESIDUE-ANTISYMMETRIC, P-088, W67_RULE:41-42, W67, B1645, B1646 (D3, P-115), W63/W64 K4/K6/K7, B150,
+B151, B167, B277, B1297, S037, P010, P012, GM4, W2's "with the puncture parabolic", W3, PF1 as a reading, B1015
+addendum v2, B1034, sm:B1502:133, R35, the audit lane's condensate formulas; finding 4.
+
+## 2. condensate_in_M
+
+R: 8.7 s; all three outputs byte-identical. w70_lib.py byte-identical to d73c539b0's
+the_cusp_condensate_charge_map.py and to the current file (sha256 d0954826..., as preregistered); the W70 JSON it
+writes byte-identical to this seat's; preregistration sha256 c0d61a05 matches; script unchanged since 7cab6b842.
+C: correct; independent E8 code reproduces every cell (112 p-odd roots = weak doublets; su(2)_Q an SM singlet; A1b 0;
+A1c +-1/6 on 54+54 roots and +-1/2 on 2+2; B1 72/24/16; B2 for all six hypercharges; the 24 Higgs-like roots = the 24
+block roots); A1b's parity argument sound; finding 6.
+F/X: numbers match except finding 1; field-map PROOF.md quotes exact (incl. line 97), W70, P024, W71, B1644, P-108;
+finding 7.
+
+## 3. the_first_row
+
+R: first_row.py 448 s (committed 506 s): 1334 values, 0 exact diffs, all 7 cells true, floats <= 8.7e-14, console
+matches run.txt line for line; post_hoc_omega.py 12 s: reproduced once the order of RL's two isotropic eigenvectors
+(np.linalg.eig returns them swapped on this machine) is undone, then 7.8e-16. Seals intact (81ca4a63).
+C: no bug (grab() lifts B1649's Y_of and R_of verbatim; pairings consistent); the bound re-proved (random and
+adversarial tests in C^2, C^3, C^5: excess <= 1e-10, square-root round-off near sigma = 1); |G| = 96, the invariant
+symmetric form unique and unitary; |U_e1| = 1 with both kernels from the same side (mixing sides gives 0, disclosed);
+the cap reached at five of the eight tau in all 24 frames; W68 G2: R(omega) ~ (-omega, 1, omega^2).
+F: every scored number matches; data line 0.6753 +- 0.0085, 20.6 sigma above 1/2, 38.2 sigma below 1, 10.26 and 9.74
+degrees; T-NORM: kappa/(1+kappa) along the imaginary axis, kappa = 2.0795 gives 0.6753, the cap moves to 0.6753 in
+that metric, the |U_e1| = 1 branch metric-independent; main's P-146 "kappa ~ 2.08" correct; findings 2 and 8.
+X: correct: B1649 §3, B1612, B1613 (0.02248), B1625, B1640/P-004, P-105, P-128/P-129, W43, W44 (F_c), W49 M3, W68
+G2, W65 H3, HARVEST row 1118, d8c94c95c. Not checked: JUNO arXiv:2511.14593 (no network).
+
+## Context for the record (not chat1's errors)
+
+K1: the first-row result rests on B1649's zero in Lambda's frame at one tau; main scoped B1649 by frame at 19:28
+(P-133; W72's surface frame lifts the zero) after chat1's 17:29 findings; chat1's fence covers this, but HARVEST row
+1143 and this seat's §98.4 restate "|U_e1| = 1 or <= 1/2" without the frame qualifier.
+K2: W70's hypercharge was later scoped to the puncture's holonomies (this seat's §98.2; main's P-140); chat1's A1a
+and "two fields" inherit that scope.
+
+What the record took from chat1, all confirmed: the condensate cells (HARVEST row 1121, P-133); O1, O3, O6, C5b and
+the parity step (B1650, this seat's §89); the cap, |U_e1| = 1 or <= 1/2, kappa ~ 2.08 (HARVEST row 1143, P-146, this
+seat's §98.4); the post hoc at omega for class (+,+,+) (HARVEST row 1144).

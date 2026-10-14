@@ -1,5 +1,29 @@
 # Changelog
 
+## W86: chat1's whole branch checked at the owner's order; three of its readings fall; four of this seat's statements corrected; main's S126 read
+
+- **The owner's order** (2026-10-14): "verify all from chat1 so its not based on wrong computations or bugs for
+  conclusions, or misinforment".
+- **The check.** The rule came first (W86_RULE.md). Five read-only auditors ran every script on chat1's branch
+  (9fbab9f5e) unchanged, read the code, and checked every number and citation. Seven independent checks (I1–I7) ran on
+  this seat's own code. Each A finding was re-checked there in a labelled post hoc, committed before its one run.
+- **What stands.** Every script reproduces and no sealed cell changes. One script depends on numpy's eigenvector order;
+  one crashes intermittently in SnapPy and reproduces on retry.
+- **Three readings fall (A):**
+  - the meditation's fork: the self-coupling scan used nonnegative coefficients where B517 says entries; with entries
+    every thread is admitted, the root included;
+  - "the 2–3 hierarchy is carried by K, not by Y": each thread's Y is within 0.24% to 5.5% of a multiple of W72's,
+    so the hybrid cannot test it; Y's shape sets the level, K the trend;
+  - the first background's length law: chat1's own counts put LLRR first at level 4 and bronze at 3; main's B1439
+    agrees on all 59 shared cells.
+- **The B and C findings** are listed by folder in W86's section and relay §111. The auditors' reports and checks are
+  kept with a README (`docs/dossiers/the_weave_2026-10-07/w86_audit/README.md`).
+- **This seat's corrections:** relay §108 item 5, §98 items 1 and 4, and W76's note (main's B1479 came first), with
+  W86's own Lagrange instrument fixed in post hoc 1.
+- **Main's S126** (B1652 banked) is rowed. Its by-hand reading of the half-period offer is accepted; no arc.
+- **Surfaces.** The dossier (W86's section, header bullet, table row, files entry, `w86_audit/`), relay §111 and its
+  dated notes, three ledger rows and row 317, the state page, the test. 0 of 19.
+
 ## chat1's meditation and the audit lane's sealed bracket check read and rowed; relay section 110 to chat1
 
 - **chat1** (de848fd4a → 9fbab9f5e). A firewalled meditation, "What we are missing", at the owner's question, with

@@ -19136,3 +19136,19 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Its proposed test** gives each Standard Model sector its own Higgs location. The seat noted that this needs a Higgs
   that sits at points. A Higgs spread over the fibre couples every sector at the puncture, by this evening's proof. The
   test should say which kind it assumes. 0 of 19.
+
+## 2026-10-14 — chat1's work checked from end to end
+
+- **The owner asked** that everything chat1 did be checked, so that nothing rests on a wrong computation, a bug or a
+  misquote.
+- **How.** Five helper checkers each took one part of chat1's work. They re-ran every program unchanged and compared
+  every number and citation. The seat re-checked the important points with its own code.
+- **The computations hold.** Every program reproduces its results, and no sealed test changes.
+- **Three conclusions do not hold:**
+  - a "fork" in chat1's meditation came from a counting convention, not from the mathematics;
+  - "the mass hierarchy is carried by the normalisation, not by the couplings" was never tested, and the couplings set
+    its level;
+  - "short words get their first background at level 3, long words earlier" is contradicted by chat1's own table.
+- **Smaller slips,** wrong numbers and misattributed citations, are listed and sent to chat1 and main.
+- **The seat corrected four of its own statements,** including a credit owed to main for a result that chat1's work
+  extended. 0 of 19.

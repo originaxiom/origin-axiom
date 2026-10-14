@@ -1,0 +1,6 @@
+MISMATCH ILLR 3 [3, 18] [6, 9]
+MISMATCH LLLRR 2 [2, 30] [6, 10]
+MISMATCH ILLLRR 2 [2, 30] [6, 10]
+MISMATCH LLLLRR 2 [4, 24] [8, 12]
+MISMATCH ILLLLRR 2 [4, 24] [8, 12]
+cells 67: torsion long == short on 62

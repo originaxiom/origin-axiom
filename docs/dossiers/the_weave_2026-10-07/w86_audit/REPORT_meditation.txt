@@ -1,0 +1,98 @@
+# Audit of relays/chat1_2026-10-14_meditation and relays/README_CHAT1_BRANCH.md (chat1 @ 9fbab9f5e)
+
+(Saved by the seat from the meditation auditor's hand-back; the auditor could not write report files. Its check
+scripts are in scratchpad/w86/meditation/checks/.)
+
+## Summary (auditor's grades)
+
+All three scripts reproduce: post_hoc_self_coupling and post_hoc_within_length byte for byte; meditation_checks
+differs in one float (a partial Pearson correlation) at relative 9e-16. No code bug changes a number.
+
+1. A: "Self-reference, carried to threads, excludes the root" depends on an undisclosed convention. The root LR's
+   commutant is B517's own ring Z[F'] (F' = LR - I, F'^2 = LR). In B517's basis {I, F'} the {0..3}^4 scan admits LR
+   (18 hits), including (LR - I, LR), B517's canonical coupling plus I, which passes all four of B517's assumptions.
+   With B517's "nonneg-integral maps" condition all 70 of 70 threads are admitted. The fork also compares A3's fixed
+   shape (S, S^2) for half-ticks with the scan for threads; the scan admits every metallic half-tick m = 1..6.
+2. B: "Under (A) the median vacuum sits in [3, 3.6)" is false at c = 24 (58% of the weight below 3).
+3. C: "F+ weight >= 0.9996": the minimum is 0.99958 (LLRR).
+4. C: the voice row merges two voices; "deaf = non-CM" is not in the arcs cited.
+5. C: B448's 2-cycle attractor is chat2's generic cocycle, kept distinct by B448 from the trace-map heartbeat.
+6. C: "No private states" drops the Sym^{2k} scope (B1184 addendum); the weave row omits the weave's private states.
+7. C: "B1651 sealed, not yet run" is stale (main had run it, PROVED).
+8. C: P-131 "puts" two quark sectors at different fixed points; P-131 and B1651 only consider it.
+9. C: SU(3)_2/SU(5)_1 is on record in B666/B775, not cited; "that channel later died" cites no source for B653's
+   voiding.
+10. C: B1633's "uniform measure" dropped.
+11. C: two abelianizations conflated; "tick" in two senses.
+12. C: "over the weave" used for a census correlation; "nothing on the record selects one" contradicts its own §3.
+13. C: small slips: 1.108 is 1.1085; the scan omits B517's unimodularity; the "exact" Lagrange values are floats.
+14. C: the "observed" mass table names no source (it is HZ2021 at M_Z; values correct).
+15. C: commit message e3c544daa says -0.94; the output is -0.959 (the text's -0.96 matches).
+16. C: README: "no pin" stale; the "hash in its folder" convention not kept by any 2026-10-14 folder; the meditation
+    has no relay file; its cell labels W1/W2 collide with this seat's arcs.
+17. C: 73 of 78 branch commits authored under a name other than originaxiom.
+
+## R
+
+| script | command | runtime (committed / re-run) | reproduced? | differences |
+|---|---|---|---|---|
+| meditation_checks.py | python3 -B meditation_checks.py | 8 s / 12.3 s | yes | partial Pearson 0.41694613458177976 vs 0.41694613458178015 (9e-16) |
+| post_hoc_self_coupling.py | python3 -B post_hoc_self_coupling.py | 73 s / 62.3 s | yes | none |
+| post_hoc_within_length.py | python3 -B post_hoc_within_length.py | n/a / 5.3 s | yes | none |
+
+Inputs from the same commit: t_root_threads.json (blob e9530397e8), lagrange_law.json (blob 2acc1dae39); identical
+at the run commits and at 9fbab9f5e; each script committed before its output.
+
+## C
+
+- C1 Rademacher: correct (exact fractions, all rotations of 745 words; Psi = #R - #L on all 745; independent eta check
+  on 125 threads to 3e-37; nu_r(-W) = (-1)^r nu_r).
+- C2 Lagrange values: correct (floats agree with exact quadratic irrationals to 2e-15 on 1,045 threads; in
+  [longest run, longest run + 2) on all 31,040); called "exact" though floats.
+- C3 statistics and class map: correct (Spearman with average ranks; partial correlation from residuals; D4 is exactly
+  the odd-length class).
+- C4 truncation: not an issue (lengths 17-18 carry 0.21% / 0.16% of (A)'s weight at c = 6).
+- C5 self-coupling numerics: correct (50-digit retest; S2 quartic irreducible for every t >= 3 by Gauss's lemma).
+- C6 self-coupling specification: (a) basis and positivity (finding 1); (b) no unimodularity condition (without it,
+  4 hits for threads of trace >= 5 including the det-4 (W, W + 2I); with it, exactly one coupling up to exchange,
+  (W, W + I)).
+- C7 no silent exception handling; enumerations complete.
+
+## F
+
+Confirmed: Spearman(Vol, syllables) 0.8655; Spearman(Lagrange, longest run) 0.9760; Spearman(Vol, Lagrange) -0.6668;
+within lengths 6-18 -0.8868 (n = 18) to -0.9589 (n = 7); Spearman(ln m2/m3, height) -0.996; partial +0.4169; mean
+heights at length 18 5.85 / 7.01 / 16.4; M3, M4, S1-S3, the thread-frame ratios; "45x" (45.5); the curve -1.51 +
+1.16x with scatter 0.74 (reproduced as the elimination of height between lagrange_law.json's two fits: -1.5092 +
+1.1645x, RMS 0.738); the miss factors (44.6x, 29.2x, 2.67x, 11.1x); SnapPy symmetry claims (LR = m004, LLRR = m136,
+D4 order 8, amphichiral; LLR = m009, Z/2 x Z/2, chiral); Gueritaud-Futer bounds on all 31,040 threads; "observed"
+ratios = HZ2021 at M_Z as W53_RULE transcribes them.
+Mismatches: WWAM:223 (B) median band at c = 24; WWAM:369 (C) 0.9996 vs 0.999582; WWAM:161 (C) 1.108 vs 1.10851.
+Not checkable: the referee's own checks (no committed artifacts); Kelmer arXiv:1205.2230 (no network; maths checked
+numerically).
+
+## X
+
+Verified at source (verbatim or near-verbatim): B448:22, B479:69-70, B593, B1071, B653, B584, TERMINOLOGY, B1349,
+B730, B746, B737, B735, B1103 (p - q = #R - #L; "reads exactly the abelianization"), B640, B470, B37 and addendum,
+THE_ROLES_ACCOUNTING X32, B540, B717, B719, B1327, L241, B733, B787, GENESIS FK9/FK12/SE1/PF1, THEOREM_LEDGER C2, B1629
+C4, B125, B749 ("arithmetic-yet-alien ... real and is not ours"), B775, B663, S069, B1623, B990 ("Not a manifold"),
+B1646, B1649 + addendum, B1602, THE_SCALE §5, P-137, W75, B1650:40, THE_WEAVES_LAWS:336-347; the entity table's rows
+(object: B762, B1184, B1183, B1225 resting on B1168 OPEN; weave: B1614 A1, A3, A4 and W34 Q2, Q4; thread: W34 Q1, Q3,
+Q5 and B1456 H1-H2); the credit to W34 correct.
+Issues: findings 4-12 and 14.
+README: correct on the branch's opening, WORKING_RULES:197, the HARVEST_LEDGER quote as of 2026-10-06, RELAY_RE
+names, nothing outside relays/; issues: findings 16, 17.
+
+## The A finding in detail
+
+The text (WWAM:66, :164, :100, :356, :389) says self-reference, carried to threads, admits every thread to length 8
+except the root, and builds the fork between minimality and self-reference on it. For the root, Z[LR] is B517's ring
+(F' = LR - I = [[0,1],[1,1]], F'^2 = LR). In B517's basis {I, F'} the {0..3}^4 scan with LR on the diagonal gives 18
+irreducible Pisot hits (checks/root_golden_basis.py), one of them (F', F'^2) = (LR - I, LR); its 4x4 matrix
+[[1,1,0,1],[1,2,1,1],[1,1,1,1],[1,2,1,2]] is non-negative, primitive (T^2 > 0), unimodular (det 1), with irreducible
+characteristic polynomial x^4 - 6x^3 + 7x^2 - 4x + 1 (B517's golden quartic shifted by 1; roots' moduli 4.676,
+0.618, 0.618, 0.560). With "nonneg-integral maps" (nonnegative entries) all 70/70 threads pass
+(checks/selfcoupling_entries.py). Fork table (checks/selfcoupling_metallic.py): fixed shape (X, X^2) as in A3: golden
+only / no thread; coefficient scan in basis {I, X}: every metallic m = 1..6 / all threads but the root; entries scan:
+not run / all threads including the root.

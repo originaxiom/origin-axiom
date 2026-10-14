@@ -1,0 +1,11 @@
+LR 2.0298832128 ['m004(0,0)'] D4 8 amphichiral True
+LLR 2.6667447834 ['m009(0,0)'] Z/2 + Z/2 4 amphichiral False
+LLRR 3.6638623767 ['m136(0,0)'] D4 8 amphichiral True
+LLLR 2.9891202829 ['m023(0,0)'] Z/2 + Z/2 4 amphichiral False
+LLRLR 4.7517019655 ['m370(0,0)'] Z/2 + Z/2 4 amphichiral False
+curve (height eliminated): intercept -1.5092 slope 1.1645 rms 0.7384; OLS of y on x: [ 1.1509 -1.6186]
+  up: curve m1/m3 0.000326, factor 44.61
+  lepton: curve m1/m3 0.00817, factor 29.19
+  LLRR(LR)^7: curve m1/m3 0.00827, factor 2.67
+min F+ weight over admitted: (0.9995819886957931, 'LLRR')
+Vol/syllables in [2v3, 2v8): 2.029883212819307 6.873471790395041 True
