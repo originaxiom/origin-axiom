@@ -1,0 +1,251 @@
+{
+ "E1": {
+  "n_words": 31040,
+  "conventions_disagree": [],
+  "parity_lemma_fails": [],
+  "fixed_count_mismatch": [],
+  "holds": true,
+  "census by length (Lyndon words)": {
+   "18": {
+    "A4": 9709,
+    "D4": 0,
+    "V4": 4823
+   },
+   "17": {
+    "A4": 0,
+    "D4": 7710,
+    "V4": 0
+   },
+   "16": {
+    "A4": 2720,
+    "D4": 0,
+    "V4": 1360
+   },
+   "15": {
+    "A4": 0,
+    "D4": 2182,
+    "V4": 0
+   },
+   "14": {
+    "A4": 780,
+    "D4": 0,
+    "V4": 381
+   },
+   "13": {
+    "A4": 0,
+    "D4": 630,
+    "V4": 0
+   },
+   "12": {
+    "A4": 224,
+    "D4": 0,
+    "V4": 111
+   },
+   "11": {
+    "A4": 0,
+    "D4": 186,
+    "V4": 0
+   },
+   "10": {
+    "A4": 68,
+    "D4": 0,
+    "V4": 31
+   },
+   "9": {
+    "A4": 0,
+    "D4": 56,
+    "V4": 0
+   },
+   "8": {
+    "A4": 20,
+    "D4": 0,
+    "V4": 10
+   },
+   "7": {
+    "A4": 0,
+    "D4": 18,
+    "V4": 0
+   },
+   "6": {
+    "A4": 7,
+    "D4": 0,
+    "V4": 2
+   },
+   "5": {
+    "A4": 0,
+    "D4": 6,
+    "V4": 0
+   },
+   "4": {
+    "A4": 2,
+    "D4": 0,
+    "V4": 1
+   },
+   "3": {
+    "A4": 0,
+    "D4": 2,
+    "V4": 0
+   },
+   "2": {
+    "A4": 1,
+    "D4": 0,
+    "V4": 0
+   }
+  },
+  "census to length 18": {
+   "A4": 13531,
+   "D4": 10790,
+   "V4": 6719
+  }
+ },
+ "E2": {
+  "classes to length 8 up to mirror": {
+   "A4": 16,
+   "D4": 13,
+   "V4": 8
+  },
+  "n": 37,
+  "B1602 (signed / 2)": {
+   "A4": 16,
+   "D4": 13,
+   "V4": 8
+  },
+  "mirror changes the class": [],
+  "agrees": true
+ },
+ "R1 summary": {
+  "A4": {
+   "n admitted": 24,
+   "m2/m3 range": [
+    1.137815129978389e-06,
+    0.3687746697768651
+   ]
+  },
+  "D4": {
+   "n admitted": 24,
+   "m2/m3 range": [
+    6.985294095743757e-07,
+    0.017626117167913347
+   ]
+  },
+  "V4": {
+   "n admitted": 11,
+   "m2/m3 range": [
+    3.743590821834485e-06,
+    0.03574209393950125
+   ]
+  }
+ }
+}
+R2 at c = 6: {
+ "A": {
+  "A4": 0.4782376553424304,
+  "D4": 0.4414441233194755,
+  "V4": 0.08031822133809412,
+  "root": 0.2737305170169433,
+  "A4 without the root": 0.20450713832548711
+ },
+ "B": {
+  "A4": 0.6086297099187482,
+  "D4": 0.35007886600354354,
+  "V4": 0.041291424077708014,
+  "root": 0.5019499863369324,
+  "A4 without the root": 0.10667972358181577
+ },
+ "C": {
+  "A4": 0.7369491245948409,
+  "D4": 0.2331657093302345,
+  "V4": 0.02988516607492451,
+  "root": 0.6600825433193455,
+  "A4 without the root": 0.0768665812754954
+ }
+}
+R2 at c = 24: {
+ "A": {
+  "A4": 0.6687014445603742,
+  "D4": 0.3094129896001861,
+  "V4": 0.021885565839439867,
+  "root": 0.5636090881489758,
+  "A4 without the root": 0.10509235641139836
+ },
+ "B": {
+  "A4": 0.7601571886302642,
+  "D4": 0.22911216577408003,
+  "V4": 0.01073064559565595,
+  "root": 0.7089897769778474,
+  "A4 without the root": 0.05116741165241678
+ },
+ "C": {
+  "A4": 0.8601408802571269,
+  "D4": 0.13343461240836052,
+  "V4": 0.006424507334512639,
+  "root": 0.8294707270170132,
+  "A4 without the root": 0.030670153240113684
+ }
+}
+
+R1 (admitted, by height):
+  LR                           A4  loci 1  y 1.1180  m2/m3 0.3688  m1/m3 0.00957  [lagrange_law]
+  LLRR                         V4  loci 4  y 1.4142  m2/m3 0.03574  m1/m3 0.00586  [lagrange_law]
+  LLRLRR                       A4  loci 1  y 1.4866  m2/m3 0.02675  m1/m3 0.00301  [lagrange_law]
+  LLRRLR                       A4  loci 1  y 1.4866  m2/m3 0.02675  m1/m3 0.00301  [lagrange_law]
+  LLRLRLRR                     A4  loci 1  y 1.4980  m2/m3 0.03101  m1/m3 0.00272  [lagrange_law]
+  LLRRLRLR                     A4  loci 1  y 1.4980  m2/m3 0.03101  m1/m3 0.00272  [lagrange_law]
+  LLRLLRR                      D4  loci 2  y 1.5649  m2/m3 0.01428  m1/m3 0.00202  [lagrange_law]
+  LLRRLRR                      D4  loci 2  y 1.5649  m2/m3 0.01428  m1/m3 0.00202  [lagrange_law]
+  LLRLRRLR                     V4  loci 4  y 1.5811  m2/m3 0.01511  m1/m3 0.00121  [lagrange_law]
+  LLRLRLR                      D4  loci 2  y 1.6202  m2/m3 0.01763  m1/m3 0.000907  [lagrange_law]
+  LRLRLRR                      D4  loci 2  y 1.6202  m2/m3 0.01763  m1/m3 0.000907  [lagrange_law]
+  LLRLR                        D4  loci 2  y 1.6330  m2/m3 0.01181  m1/m3 0.000766  [lagrange_law]
+  LRLRR                        D4  loci 2  y 1.6330  m2/m3 0.01181  m1/m3 0.000766  [lagrange_law]
+  LLRLLRLR                     A4  loci 1  y 1.6793  m2/m3 0.006618  m1/m3 0.000501  [lagrange_law]
+  LRLRRLRR                     A4  loci 1  y 1.6794  m2/m3 0.006618  m1/m3 0.000501  [lagrange_law]
+  LLR                          D4  loci 2  y 1.7321  m2/m3 0.003386  m1/m3 0.000332  [lagrange_law]
+  LRR                          D4  loci 2  y 1.7321  m2/m3 0.003386  m1/m3 0.000332  [lagrange_law]
+  LLLRRR                       A4  loci 1  y 1.8028  m2/m3 0.001484  m1/m3 0.000445  [lagrange_law]
+  LLLRRLRR                     V4  loci 4  y 1.8708  m2/m3 0.001988  m1/m3 0.000285  [lagrange_law]
+  LLRLLRRR                     V4  loci 4  y 1.8708  m2/m3 0.001988  m1/m3 0.000285  [lagrange_law]
+  LLLRLRRR                     A4  loci 1  y 1.9233  m2/m3 0.0007752  m1/m3 0.000106  [lagrange_law]
+  LLLRRRLR                     A4  loci 1  y 1.9233  m2/m3 0.0007752  m1/m3 0.000106  [lagrange_law]
+  LLRRR                        D4  loci 2  y 1.9365  m2/m3 0.0007846  m1/m3 0.000116  [lagrange_law]
+  LLLRR                        D4  loci 2  y 1.9365  m2/m3 0.0007846  m1/m3 0.000116  [lagrange_law]
+  LLLRLRR                      D4  loci 2  y 1.9899  m2/m3 0.0007254  m1/m3 5.83e-05  [lagrange_law]
+  LLLRRLR                      D4  loci 2  y 1.9899  m2/m3 0.0007254  m1/m3 5.83e-05  [lagrange_law]
+  LLRLRRR                      D4  loci 2  y 1.9900  m2/m3 0.0007254  m1/m3 5.83e-05  [lagrange_law]
+  LLRRRLR                      D4  loci 2  y 1.9900  m2/m3 0.0007254  m1/m3 5.83e-05  [lagrange_law]
+  LLLRRLLR                     A4  loci 1  y 2.0665  m2/m3 0.0004322  m1/m3 3.71e-05  [lagrange_law]
+  LLLRLLRR                     A4  loci 1  y 2.0665  m2/m3 0.0004322  m1/m3 3.71e-05  [lagrange_law]
+  LLRRLRRR                     A4  loci 1  y 2.0665  m2/m3 0.0004322  m1/m3 3.71e-05  [lagrange_law]
+  LLRRRLRR                     A4  loci 1  y 2.0665  m2/m3 0.0004322  m1/m3 3.71e-05  [lagrange_law]
+  LRLRLRRR                     V4  loci 4  y 2.1213  m2/m3 0.0003271  m1/m3 8.56e-06  [lagrange_law]
+  LLLRLRLR                     V4  loci 4  y 2.1213  m2/m3 0.0003271  m1/m3 8.56e-06  [lagrange_law]
+  LLLRLR                       A4  loci 1  y 2.1409  m2/m3 0.0002282  m1/m3 8.03e-06  [lagrange_law]
+  LRLRRR                       A4  loci 1  y 2.1409  m2/m3 0.0002282  m1/m3 8.03e-06  [lagrange_law]
+  LLLRLLR                      D4  loci 2  y 2.2361  m2/m3 0.0001236  m1/m3 5.86e-06  [lagrange_law]
+  LLLLRRRR                     V4  loci 4  y 2.2361  m2/m3 4.89e-05  m1/m3 1.63e-05  [lagrange_law]
+  LRRLRRR                      D4  loci 2  y 2.2361  m2/m3 0.0001236  m1/m3 5.86e-06  [lagrange_law]
+  LRRR                         A4  loci 1  y 2.2913  m2/m3 5.608e-05  m1/m3 3.05e-06  [lagrange_law]
+  LLLR                         A4  loci 1  y 2.2913  m2/m3 5.608e-05  m1/m3 3.05e-06  [lagrange_law]
+  LLLLRRR                      D4  loci 2  y 2.3094  m2/m3 4.325e-05  m1/m3 8.78e-06  [lagrange_law]
+  LLLRRRR                      D4  loci 2  y 2.3094  m2/m3 4.325e-05  m1/m3 8.78e-06  [lagrange_law]
+  LLLLRR                       V4  loci 4  y 2.4495  m2/m3 1.895e-05  m1/m3 9.58e-07  [lagrange_law]
+  LLRRRR                       V4  loci 4  y 2.4495  m2/m3 1.895e-05  m1/m3 9.58e-07  [lagrange_law]
+  LLLLRLRR                     A4  loci 1  y 2.4920  m2/m3 1.86e-05  m1/m3 4.68e-07  [lagrange_law]
+  LLLLRRLR                     A4  loci 1  y 2.4920  m2/m3 1.86e-05  m1/m3 4.68e-07  [lagrange_law]
+  LLRLRRRR                     A4  loci 1  y 2.4920  m2/m3 1.86e-05  m1/m3 4.68e-07  [lagrange_law]
+  LLRRRRLR                     A4  loci 1  y 2.4920  m2/m3 1.86e-05  m1/m3 4.68e-07  [lagrange_law]
+  LLLLRLR                      D4  loci 2  y 2.6457  m2/m3 7.124e-06  m1/m3 6.31e-08  [lagrange_law]
+  LRLRRRR                      D4  loci 2  y 2.6458  m2/m3 7.124e-06  m1/m3 6.31e-08  [lagrange_law]
+  LLLLRLLR                     V4  loci 4  y 2.7385  m2/m3 3.744e-06  m1/m3 4.63e-08  [lagrange_law]
+  LRRLRRRR                     V4  loci 4  y 2.7386  m2/m3 3.744e-06  m1/m3 4.63e-08  [lagrange_law]
+  LLLLLRRR                     A4  loci 1  y 2.8137  m2/m3 1.138e-06  m1/m3 8.27e-08  [lagrange_law]
+  LLLRRRRR                     A4  loci 1  y 2.8137  m2/m3 1.138e-06  m1/m3 8.27e-08  [lagrange_law]
+  LLLLR                        D4  loci 2  y 2.8284  m2/m3 1.551e-06  m1/m3 2.49e-08  [lagrange_law]
+  LRRRR                        D4  loci 2  y 2.8284  m2/m3 1.551e-06  m1/m3 2.49e-08  [lagrange_law]
+  LLLLLRR                      D4  loci 2  y 2.9580  m2/m3 6.985e-07  m1/m3 6.83e-09  [lagrange_law]
+  LLRRRRR                      D4  loci 2  y 2.9580  m2/m3 6.985e-07  m1/m3 6.83e-09  [lagrange_law]
+  LLRRLRLRLR                   V4  loci 4  y 1.4997  m2/m3 0.03692  m1/m3 0.00273  [post_hoc_long_words]
+  LLRRLRLRLRLRLRLRLR           A4  loci 1  y 1.5000  m2/m3 0.05945  m1/m3 0.00307  [post_hoc_long_words]
+  LLRLRLRLRLR                  D4  loci 2  y 1.6181  m2/m3 0.02651  m1/m3 0.00107  [post_hoc_long_words]
+  LLRLRLRLRLRLRLRLRLRLRLRLRLR  D4  loci 2  y 1.6180  m2/m3 0.05535  m1/m3 0.00169  [post_hoc_long_words]
+  LLRRLLRRLR                   A4  loci 1  y 1.4996  m2/m3 0.02801  m1/m3 0.00368  [post_hoc_long_words]

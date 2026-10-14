@@ -1,0 +1,1698 @@
+{
+ "status": "exact classification and read-outs; no prediction (chat1, 2026-10-14)",
+ "E1": {
+  "n_words": 31040,
+  "conventions_disagree": [],
+  "parity_lemma_fails": [],
+  "fixed_count_mismatch": [],
+  "holds": true,
+  "census by length (Lyndon words)": {
+   "18": {
+    "A4": 9709,
+    "D4": 0,
+    "V4": 4823
+   },
+   "17": {
+    "A4": 0,
+    "D4": 7710,
+    "V4": 0
+   },
+   "16": {
+    "A4": 2720,
+    "D4": 0,
+    "V4": 1360
+   },
+   "15": {
+    "A4": 0,
+    "D4": 2182,
+    "V4": 0
+   },
+   "14": {
+    "A4": 780,
+    "D4": 0,
+    "V4": 381
+   },
+   "13": {
+    "A4": 0,
+    "D4": 630,
+    "V4": 0
+   },
+   "12": {
+    "A4": 224,
+    "D4": 0,
+    "V4": 111
+   },
+   "11": {
+    "A4": 0,
+    "D4": 186,
+    "V4": 0
+   },
+   "10": {
+    "A4": 68,
+    "D4": 0,
+    "V4": 31
+   },
+   "9": {
+    "A4": 0,
+    "D4": 56,
+    "V4": 0
+   },
+   "8": {
+    "A4": 20,
+    "D4": 0,
+    "V4": 10
+   },
+   "7": {
+    "A4": 0,
+    "D4": 18,
+    "V4": 0
+   },
+   "6": {
+    "A4": 7,
+    "D4": 0,
+    "V4": 2
+   },
+   "5": {
+    "A4": 0,
+    "D4": 6,
+    "V4": 0
+   },
+   "4": {
+    "A4": 2,
+    "D4": 0,
+    "V4": 1
+   },
+   "3": {
+    "A4": 0,
+    "D4": 2,
+    "V4": 0
+   },
+   "2": {
+    "A4": 1,
+    "D4": 0,
+    "V4": 0
+   }
+  },
+  "census to length 18": {
+   "A4": 13531,
+   "D4": 10790,
+   "V4": 6719
+  }
+ },
+ "E2": {
+  "classes to length 8 up to mirror": {
+   "A4": 16,
+   "D4": 13,
+   "V4": 8
+  },
+  "n": 37,
+  "B1602 (signed / 2)": {
+   "A4": 16,
+   "D4": 13,
+   "V4": 8
+  },
+  "mirror changes the class": [],
+  "agrees": true
+ },
+ "R1": [
+  {
+   "thread": "LR",
+   "class": "A4",
+   "trace": 3,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.118033988749895,
+   "m2/m3": 0.3687746697768651,
+   "m1/m3": 0.009568191038650772,
+   "admitted": true,
+   "CS": -2.886579864025407e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRR",
+   "class": "V4",
+   "trace": 6,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 1.4142135623730951,
+   "m2/m3": 0.03574209393950125,
+   "m1/m3": 0.0058636146115704614,
+   "admitted": true,
+   "CS": 1.3322676295501878e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLRR",
+   "class": "A4",
+   "trace": 15,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.4866068747318506,
+   "m2/m3": 0.026748935393082172,
+   "m1/m3": 0.003007604113542337,
+   "admitted": true,
+   "CS": -1.7763568394002505e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRLR",
+   "class": "A4",
+   "trace": 15,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.4866068747318506,
+   "m2/m3": 0.026748935393066376,
+   "m1/m3": 0.0030076041135404115,
+   "admitted": true,
+   "CS": 1.7763568394002505e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLRLRR",
+   "class": "A4",
+   "trace": 39,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.4980263149346498,
+   "m2/m3": 0.031008746018165726,
+   "m1/m3": 0.002722989744008595,
+   "admitted": true,
+   "CS": 2.220446049250313e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRLRLR",
+   "class": "A4",
+   "trace": 39,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.4980263149346498,
+   "m2/m3": 0.031008746018173664,
+   "m1/m3": 0.002722989744009048,
+   "admitted": true,
+   "CS": 9.325873406851315e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLLRR",
+   "class": "D4",
+   "trace": 22,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.5648772659135903,
+   "m2/m3": 0.014276607882585645,
+   "m1/m3": 0.0020215393945896784,
+   "admitted": true,
+   "CS": -0.4226783973549266,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRLRR",
+   "class": "D4",
+   "trace": 22,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.5649215928719031,
+   "m2/m3": 0.014276607882587437,
+   "m1/m3": 0.002021539394589247,
+   "admitted": true,
+   "CS": 0.42267839735492707,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLRRLR",
+   "class": "V4",
+   "trace": 38,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 1.58113883008419,
+   "m2/m3": 0.015112987867091244,
+   "m1/m3": 0.0012093934138540177,
+   "admitted": true,
+   "CS": -4.884981308350689e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLRLR",
+   "class": "D4",
+   "trace": 26,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.6201851746019613,
+   "m2/m3": 0.017626117167913347,
+   "m1/m3": 0.0009074164268605376,
+   "admitted": true,
+   "CS": -0.42939440333689083,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRLRLRR",
+   "class": "D4",
+   "trace": 26,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.620185174601965,
+   "m2/m3": 0.017626117167911733,
+   "m1/m3": 0.0009074164268625817,
+   "admitted": true,
+   "CS": 0.42939440333688417,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLR",
+   "class": "D4",
+   "trace": 10,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.6329759832183712,
+   "m2/m3": 0.011806529154170737,
+   "m1/m3": 0.0007663445203240014,
+   "admitted": true,
+   "CS": -0.4267361615828751,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRLRR",
+   "class": "D4",
+   "trace": 10,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.6329931618554518,
+   "m2/m3": 0.011806529154174912,
+   "m1/m3": 0.000766344520324726,
+   "admitted": true,
+   "CS": 0.4267361615828782,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLLRLR",
+   "class": "A4",
+   "trace": 37,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.679347354001757,
+   "m2/m3": 0.006618479501312219,
+   "m1/m3": 0.0005011351608449808,
+   "admitted": true,
+   "CS": -0.840605553473776,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRLRRLRR",
+   "class": "A4",
+   "trace": 37,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.6793593819919244,
+   "m2/m3": 0.006618479501321458,
+   "m1/m3": 0.0005011351608473589,
+   "admitted": true,
+   "CS": 0.84060555347377,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLR",
+   "class": "D4",
+   "trace": 4,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.732050807568877,
+   "m2/m3": 0.003386107512932829,
+   "m1/m3": 0.00033247379939811076,
+   "admitted": true,
+   "CS": -0.41123351671205777,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRR",
+   "class": "D4",
+   "trace": 4,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.7320508075688772,
+   "m2/m3": 0.00338610751294859,
+   "m1/m3": 0.0003324737993983855,
+   "admitted": true,
+   "CS": 0.411233516712058,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRRR",
+   "class": "A4",
+   "trace": 11,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.8027756377319948,
+   "m2/m3": 0.001484484622113329,
+   "m1/m3": 0.0004447456278469777,
+   "admitted": true,
+   "CS": -1.7763568394002505e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRRLRR",
+   "class": "V4",
+   "trace": 30,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 1.8707901043109787,
+   "m2/m3": 0.0019876775075410567,
+   "m1/m3": 0.00028527169489198605,
+   "admitted": true,
+   "CS": 0.0240004827008371,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLLRRR",
+   "class": "V4",
+   "trace": 30,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 1.8708286933869707,
+   "m2/m3": 0.0019876775075484973,
+   "m1/m3": 0.0002852716948937892,
+   "admitted": true,
+   "CS": -0.024000482700839765,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRLRRR",
+   "class": "A4",
+   "trace": 27,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.92327314540518,
+   "m2/m3": 0.0007752304221413596,
+   "m1/m3": 0.0001064263037707169,
+   "admitted": true,
+   "CS": 2.220446049250313e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRRRLR",
+   "class": "A4",
+   "trace": 27,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.92327314540518,
+   "m2/m3": 0.0007752304221362854,
+   "m1/m3": 0.00010642630376876558,
+   "admitted": true,
+   "CS": 2.220446049250313e-15,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRR",
+   "class": "D4",
+   "trace": 8,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.9364916731037085,
+   "m2/m3": 0.0007845719105411847,
+   "m1/m3": 0.000115612576641233,
+   "admitted": true,
+   "CS": 0.39181877415349,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRR",
+   "class": "D4",
+   "trace": 8,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.9364916731037087,
+   "m2/m3": 0.0007845719105413709,
+   "m1/m3": 0.00011561257663960329,
+   "admitted": true,
+   "CS": -0.39181877415348687,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRLRR",
+   "class": "D4",
+   "trace": 20,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.9899380883437248,
+   "m2/m3": 0.0007254319794859267,
+   "m1/m3": 5.831822627756365e-05,
+   "admitted": true,
+   "CS": -0.38697371755084964,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRRLR",
+   "class": "D4",
+   "trace": 20,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.9899380883437248,
+   "m2/m3": 0.0007254319794891978,
+   "m1/m3": 5.83182262790795e-05,
+   "admitted": true,
+   "CS": -0.38697371755084964,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLRRR",
+   "class": "D4",
+   "trace": 20,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.98997487421324,
+   "m2/m3": 0.0007254319794868877,
+   "m1/m3": 5.831822627714841e-05,
+   "admitted": true,
+   "CS": 0.38697371755085364,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRRLR",
+   "class": "D4",
+   "trace": 20,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.98997487421324,
+   "m2/m3": 0.0007254319794920603,
+   "m1/m3": 5.8318226277649666e-05,
+   "admitted": true,
+   "CS": 0.38697371755084653,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRRLLR",
+   "class": "A4",
+   "trace": 29,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.066478257722603,
+   "m2/m3": 0.0004322384605507452,
+   "m1/m3": 3.71368203363711e-05,
+   "admitted": true,
+   "CS": -0.7898944930936664,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRLLRR",
+   "class": "A4",
+   "trace": 29,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.0664782577226033,
+   "m2/m3": 0.0004322384605527555,
+   "m1/m3": 3.713682033843376e-05,
+   "admitted": true,
+   "CS": -0.7898944930936664,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRLRRR",
+   "class": "A4",
+   "trace": 29,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.0664965916413474,
+   "m2/m3": 0.0004322384605316017,
+   "m1/m3": 3.7136820334409015e-05,
+   "admitted": true,
+   "CS": 0.7898944930936711,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRRLRR",
+   "class": "A4",
+   "trace": 29,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.0664965916413474,
+   "m2/m3": 0.0004322384605377029,
+   "m1/m3": 3.713682033490214e-05,
+   "admitted": true,
+   "CS": 0.7898944930936675,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRLRLRRR",
+   "class": "V4",
+   "trace": 34,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 2.1213203435596424,
+   "m2/m3": 0.0003270924324063432,
+   "m1/m3": 8.555548905013289e-06,
+   "admitted": true,
+   "CS": 0.7938016136661599,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRLRLR",
+   "class": "V4",
+   "trace": 34,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 2.121320343559648,
+   "m2/m3": 0.00032709243241386016,
+   "m1/m3": 8.55554890077378e-06,
+   "admitted": true,
+   "CS": -0.7938016136661445,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRLR",
+   "class": "A4",
+   "trace": 13,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.1408503566320367,
+   "m2/m3": 0.00022820036249431046,
+   "m1/m3": 8.032233837408682e-06,
+   "admitted": true,
+   "CS": -0.7832753583244645,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRLRRR",
+   "class": "A4",
+   "trace": 13,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.140872096444188,
+   "m2/m3": 0.00022820036249195913,
+   "m1/m3": 8.032233837063738e-06,
+   "admitted": true,
+   "CS": 0.7832753583244751,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRLLR",
+   "class": "D4",
+   "trace": 18,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.2360678189236207,
+   "m2/m3": 0.00012356864986161556,
+   "m1/m3": 5.8568025248964495e-06,
+   "admitted": true,
+   "CS": -1.1498426637405117,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLRRRR",
+   "class": "V4",
+   "trace": 18,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 2.23606797749979,
+   "m2/m3": 4.8897797390272006e-05,
+   "m1/m3": 1.6286593435333988e-05,
+   "admitted": true,
+   "CS": 4.440892098500626e-16,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRRLRRR",
+   "class": "D4",
+   "trace": 18,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.23606797749979,
+   "m2/m3": 0.0001235686498587373,
+   "m1/m3": 5.856802519566124e-06,
+   "admitted": true,
+   "CS": 1.149842663740516,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRRR",
+   "class": "A4",
+   "trace": 5,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.29128784747792,
+   "m2/m3": 5.6075781786818565e-05,
+   "m1/m3": 3.0488801610738834e-06,
+   "admitted": true,
+   "CS": 0.7282412593977667,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLR",
+   "class": "A4",
+   "trace": 5,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.2912878474779204,
+   "m2/m3": 5.607578178503943e-05,
+   "m1/m3": 3.0488801594400216e-06,
+   "admitted": true,
+   "CS": -0.7282412593977607,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLRRR",
+   "class": "D4",
+   "trace": 14,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.309401076758502,
+   "m2/m3": 4.3245417806996286e-05,
+   "m1/m3": 8.782498267669602e-06,
+   "admitted": true,
+   "CS": -0.33800593010395685,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRRRR",
+   "class": "D4",
+   "trace": 14,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.309401076758503,
+   "m2/m3": 4.324541780851664e-05,
+   "m1/m3": 8.782498261835623e-06,
+   "admitted": true,
+   "CS": 0.33800593010395996,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLRR",
+   "class": "V4",
+   "trace": 10,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 2.4494897427831765,
+   "m2/m3": 1.895139915034645e-05,
+   "m1/m3": 9.584434265462784e-07,
+   "admitted": true,
+   "CS": -0.7059862952387497,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRRR",
+   "class": "V4",
+   "trace": 10,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 2.449489742783178,
+   "m2/m3": 1.895139914745627e-05,
+   "m1/m3": 9.58443430071889e-07,
+   "admitted": true,
+   "CS": 0.7059862952387461,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLRLRR",
+   "class": "A4",
+   "trace": 25,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.491980072632893,
+   "m2/m3": 1.8595518966801544e-05,
+   "m1/m3": 4.680454901236804e-07,
+   "admitted": true,
+   "CS": -0.6996533158120541,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLRRLR",
+   "class": "A4",
+   "trace": 25,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.491980072632893,
+   "m2/m3": 1.859551897901208e-05,
+   "m1/m3": 4.6804549990432577e-07,
+   "admitted": true,
+   "CS": -0.6996533158120399,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRLRRRR",
+   "class": "A4",
+   "trace": 25,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.491987158875422,
+   "m2/m3": 1.859551897332251e-05,
+   "m1/m3": 4.6804548196975995e-07,
+   "admitted": true,
+   "CS": 0.6996533158120588,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRRRLR",
+   "class": "A4",
+   "trace": 25,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.491987158875422,
+   "m2/m3": 1.8595518963981232e-05,
+   "m1/m3": 4.6804548168255464e-07,
+   "admitted": true,
+   "CS": 0.6996533158120517,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLRLR",
+   "class": "D4",
+   "trace": 16,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.6457445549051046,
+   "m2/m3": 7.1235000044183225e-06,
+   "m1/m3": 6.310924542329626e-08,
+   "admitted": true,
+   "CS": -1.0635196259035566,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRLRRRR",
+   "class": "D4",
+   "trace": 16,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.6457513110645907,
+   "m2/m3": 7.123500010702724e-06,
+   "m1/m3": 6.31092408660316e-08,
+   "admitted": true,
+   "CS": 1.0635196259035644,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLRLLR",
+   "class": "V4",
+   "trace": 22,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 2.7385352153487816,
+   "m2/m3": 3.743590821834485e-06,
+   "m1/m3": 4.631036406129372e-08,
+   "admitted": true,
+   "CS": -1.4086296543364796,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRRLRRRR",
+   "class": "V4",
+   "trace": 22,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 2.7386127875258306,
+   "m2/m3": 3.7435908286101083e-06,
+   "m1/m3": 4.631037570409137e-08,
+   "admitted": true,
+   "CS": 1.4086296543364845,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLLRRR",
+   "class": "A4",
+   "trace": 17,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.813657169355685,
+   "m2/m3": 1.137815129978389e-06,
+   "m1/m3": 8.27448734712217e-08,
+   "admitted": true,
+   "CS": -0.6063032848411651,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLRRRRR",
+   "class": "A4",
+   "trace": 17,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 2.813657169355689,
+   "m2/m3": 1.1378151334902661e-06,
+   "m1/m3": 8.274489766317933e-08,
+   "admitted": true,
+   "CS": 0.6063032848411583,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLR",
+   "class": "D4",
+   "trace": 6,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.8284271247461894,
+   "m2/m3": 1.5507416588606932e-06,
+   "m1/m3": 2.4914871973452893e-08,
+   "admitted": true,
+   "CS": -0.9684656372547003,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRRRR",
+   "class": "D4",
+   "trace": 6,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.8284271247461903,
+   "m2/m3": 1.550741663433617e-06,
+   "m1/m3": 2.491489014610623e-08,
+   "admitted": true,
+   "CS": 0.9684656372546978,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLLRR",
+   "class": "D4",
+   "trace": 12,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.958039891549804,
+   "m2/m3": 6.985294095743757e-07,
+   "m1/m3": 6.833050855554496e-09,
+   "admitted": true,
+   "CS": -0.9494131208463485,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRRRR",
+   "class": "D4",
+   "trace": 12,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 2.958039891549808,
+   "m2/m3": 6.98529419075861e-07,
+   "m1/m3": 6.833071530392747e-09,
+   "admitted": true,
+   "CS": 0.9494131208463599,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLLRLR",
+   "class": "A4",
+   "trace": 19,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 3.1490555143075176,
+   "m2/m3": 2.810213924694494e-07,
+   "m1/m3": 4.5184558615171787e-10,
+   "admitted": false,
+   "CS": -1.2815025706559524,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRLRRRRR",
+   "class": "A4",
+   "trace": 19,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 3.149073937948531,
+   "m2/m3": 2.810213979249643e-07,
+   "m1/m3": 4.5178132357010005e-10,
+   "admitted": false,
+   "CS": 1.2815025706559502,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRRRRR",
+   "class": "A4",
+   "trace": 7,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 3.3541019662496847,
+   "m2/m3": 5.215779761084313e-08,
+   "m1/m3": 2.141667978430724e-10,
+   "admitted": false,
+   "CS": 1.1540668817704816,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLLR",
+   "class": "A4",
+   "trace": 7,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 3.3541019662496856,
+   "m2/m3": 5.2157792697258076e-08,
+   "m1/m3": 2.1400829306292061e-10,
+   "admitted": false,
+   "CS": -1.1540668817704798,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRRRRR",
+   "class": "V4",
+   "trace": 14,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 3.4641016151377544,
+   "m2/m3": 2.998697522623193e-08,
+   "m1/m3": 4.4738128082493634e-11,
+   "admitted": false,
+   "CS": 1.1389748812070386,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLLLRR",
+   "class": "V4",
+   "trace": 14,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 3.464101615137756,
+   "m2/m3": 2.998697091348907e-08,
+   "m1/m3": 4.463864640750008e-11,
+   "admitted": false,
+   "CS": -1.1389748812070408,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRRRRRR",
+   "class": "D4",
+   "trace": 8,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 3.872983346207417,
+   "m2/m3": 1.87594832120712e-09,
+   "m1/m3": 2.100676351736871e-12,
+   "admitted": false,
+   "CS": 1.300745068897746,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLLLR",
+   "class": "D4",
+   "trace": 8,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 3.8729833462074175,
+   "m2/m3": 1.8759508118558314e-09,
+   "m1/m3": 1.3010912537178507e-12,
+   "admitted": false,
+   "CS": -1.30074506889774,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLLLLLLR",
+   "class": "A4",
+   "trace": 9,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 4.387482193696059,
+   "m2/m3": 6.910034060763953e-11,
+   "m1/m3": 5.155521670847383e-12,
+   "admitted": false,
+   "CS": -1.4191005045734244,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LRRRRRRR",
+   "class": "A4",
+   "trace": 9,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 4.387482193696061,
+   "m2/m3": 6.909347249076272e-11,
+   "m1/m3": 8.804465950687836e-13,
+   "admitted": false,
+   "CS": 1.4191005045734257,
+   "source": "lagrange_law.json"
+  },
+  {
+   "thread": "LLRRLRLRLR",
+   "class": "V4",
+   "trace": 102,
+   "single-point loci": 4,
+   "half-period curves": [
+    1,
+    1,
+    1
+   ],
+   "y_max": 1.4997116216449367,
+   "m2/m3": 0.03692241405409795,
+   "m1/m3": 0.0027322082489257436,
+   "admitted": null,
+   "CS": null,
+   "source": "post_hoc_long_words.json"
+  },
+  {
+   "thread": "LLRRLRLRLRLRLRLRLR",
+   "class": "A4",
+   "trace": 4791,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.499999869302003,
+   "m2/m3": 0.05945282081367118,
+   "m1/m3": 0.0030679728521765966,
+   "admitted": null,
+   "CS": null,
+   "source": "post_hoc_long_words.json"
+  },
+  {
+   "thread": "LLRLRLRLRLR",
+   "class": "D4",
+   "trace": 178,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.6180796699117688,
+   "m2/m3": 0.02651000629206476,
+   "m1/m3": 0.001068978692740388,
+   "admitted": null,
+   "CS": null,
+   "source": "post_hoc_long_words.json"
+  },
+  {
+   "thread": "LLRLRLRLRLRLRLRLRLRLRLRLRLR",
+   "class": "D4",
+   "trace": 392836,
+   "single-point loci": 2,
+   "half-period curves": [
+    1,
+    2
+   ],
+   "y_max": 1.6180339887711612,
+   "m2/m3": 0.05534574819354082,
+   "m1/m3": 0.001690613612988471,
+   "admitted": null,
+   "CS": null,
+   "source": "post_hoc_long_words.json"
+  },
+  {
+   "thread": "LLRRLLRRLR",
+   "class": "A4",
+   "trace": 87,
+   "single-point loci": 1,
+   "half-period curves": [
+    3
+   ],
+   "y_max": 1.499603594073416,
+   "m2/m3": 0.028008472827020795,
+   "m1/m3": 0.0036780277456899746,
+   "admitted": null,
+   "CS": null,
+   "source": "post_hoc_long_words.json"
+  }
+ ],
+ "R1 summary": {
+  "A4": {
+   "n admitted": 24,
+   "m2/m3 range": [
+    1.137815129978389e-06,
+    0.3687746697768651
+   ]
+  },
+  "D4": {
+   "n admitted": 24,
+   "m2/m3 range": [
+    6.985294095743757e-07,
+    0.017626117167913347
+   ]
+  },
+  "V4": {
+   "n admitted": 11,
+   "m2/m3 range": [
+    3.743590821834485e-06,
+    0.03574209393950125
+   ]
+  }
+ },
+ "R2": {
+  "n_threads": 31040,
+  "shares": {
+   "A": {
+    "0.5": {
+     "A4": 0.40247504476655627,
+     "D4": 0.4782188054401026,
+     "V4": 0.11930614979334106,
+     "root": 0.13563463874692136,
+     "A4 without the root": 0.2668404060196349
+    },
+    "1": {
+     "A4": 0.40892457544165445,
+     "D4": 0.475991495974284,
+     "V4": 0.11508392858406208,
+     "root": 0.14901793262969776,
+     "A4 without the root": 0.2599066428119567
+    },
+    "2": {
+     "A4": 0.42249664818710647,
+     "D4": 0.47047430184197747,
+     "V4": 0.10702904997091572,
+     "root": 0.17571995766198953,
+     "A4 without the root": 0.24677669052511694
+    },
+    "4": {
+     "A4": 0.45064105506309854,
+     "D4": 0.4567436678731774,
+     "V4": 0.09261527706372397,
+     "root": 0.2269399493856224,
+     "A4 without the root": 0.22370110567747614
+    },
+    "6": {
+     "A4": 0.4782376553424304,
+     "D4": 0.4414441233194755,
+     "V4": 0.08031822133809412,
+     "root": 0.2737305170169433,
+     "A4 without the root": 0.20450713832548711
+    },
+    "8": {
+     "A4": 0.504415961319642,
+     "D4": 0.4258187715769606,
+     "V4": 0.06976526710339737,
+     "root": 0.31609533359575087,
+     "A4 without the root": 0.18832062772389108
+    },
+    "12": {
+     "A4": 0.5522458952692562,
+     "D4": 0.3951137476297883,
+     "V4": 0.05264035710095498,
+     "root": 0.39034453310543915,
+     "A4 without the root": 0.161901362163817
+    },
+    "16": {
+     "A4": 0.5949268446091645,
+     "D4": 0.3655355133486584,
+     "V4": 0.0395376420421773,
+     "root": 0.454629919348913,
+     "A4 without the root": 0.14029692526025145
+    },
+    "24": {
+     "A4": 0.6687014445603742,
+     "D4": 0.3094129896001861,
+     "V4": 0.021885565839439867,
+     "root": 0.5636090881489758,
+     "A4 without the root": 0.10509235641139836
+    },
+    "32": {
+     "A4": 0.7307404639321049,
+     "D4": 0.25741357627800704,
+     "V4": 0.011845959789887619,
+     "root": 0.6534986967633715,
+     "A4 without the root": 0.07724176716873343
+    },
+    "48": {
+     "A4": 0.8272609055430469,
+     "D4": 0.16943300586968035,
+     "V4": 0.0033060885872721953,
+     "root": 0.7881220158394474,
+     "A4 without the root": 0.039138889703599467
+    },
+    "64": {
+     "A4": 0.8931772887956869,
+     "D4": 0.10593942724137288,
+     "V4": 0.0008832839629397981,
+     "root": 0.8745600229063099,
+     "A4 without the root": 0.018617265889377066
+    },
+    "96": {
+     "A4": 0.9617828211173252,
+     "D4": 0.038158417535835584,
+     "V4": 5.8761346839151206e-05,
+     "root": 0.9579462364417218,
+     "A4 without the root": 0.0038365846756033273
+    },
+    "128": {
+     "A4": 0.9868332378315149,
+     "D4": 0.013163012223132337,
+     "V4": 3.749945352724208e-06,
+     "root": 0.9860769040545202,
+     "A4 without the root": 0.0007563337769946887
+    },
+    "192": {
+     "A4": 0.9984770936752153,
+     "D4": 0.0015228915637778525,
+     "V4": 1.4761006563536988e-08,
+     "root": 0.9984482562622874,
+     "A4 without the root": 2.883741292791786e-05
+    },
+    "256": {
+     "A4": 0.9998247481475402,
+     "D4": 0.00017525179488239314,
+     "V4": 5.757718727239059e-11,
+     "root": 0.9998236445718659,
+     "A4 without the root": 1.1035756742883152e-06
+    },
+    "384": {
+     "A4": 0.99999768020576,
+     "D4": 2.3197942393365323e-06,
+     "V4": 8.740039059503547e-16,
+     "root": 0.9999976785747822,
+     "A4 without the root": 1.6309777972622896e-09
+    },
+    "512": {
+     "A4": 0.9999999692911914,
+     "D4": 3.0708808557970936e-08,
+     "V4": 1.3264955649426809e-20,
+     "root": 0.999999969288774,
+     "A4 without the root": 2.417399613818816e-12
+    }
+   },
+   "B": {
+    "0.5": {
+     "A4": 0.5445906375108156,
+     "D4": 0.3949439387236498,
+     "V4": 0.06046542376553451,
+     "root": 0.40778157067678783,
+     "A4 without the root": 0.13680906683402777
+    },
+    "1": {
+     "A4": 0.5509137737162065,
+     "D4": 0.3906524274052776,
+     "V4": 0.05843379887851619,
+     "root": 0.41740214749738674,
+     "A4 without the root": 0.1335116262188198
+    },
+    "2": {
+     "A4": 0.5632334344119962,
+     "D4": 0.38220558607571975,
+     "V4": 0.0545609795122841,
+     "root": 0.4359112825349897,
+     "A4 without the root": 0.12732215187700657
+    },
+    "4": {
+     "A4": 0.5866603353513404,
+     "D4": 0.3658285302590206,
+     "V4": 0.047511134389638957,
+     "root": 0.4703644807327017,
+     "A4 without the root": 0.11629585461863873
+    },
+    "6": {
+     "A4": 0.6086297099187482,
+     "D4": 0.35007886600354354,
+     "V4": 0.041291424077708014,
+     "root": 0.5019499863369324,
+     "A4 without the root": 0.10667972358181577
+    },
+    "8": {
+     "A4": 0.6293028742404431,
+     "D4": 0.33488697076544804,
+     "V4": 0.0358101549941085,
+     "root": 0.5311664953810042,
+     "A4 without the root": 0.09813637885943882
+    },
+    "12": {
+     "A4": 0.6672695634262565,
+     "D4": 0.3059636064294278,
+     "V4": 0.026766830144315464,
+     "root": 0.5838523317234535,
+     "A4 without the root": 0.08341723170280302
+    },
+    "16": {
+     "A4": 0.7013780969860235,
+     "D4": 0.2787645462743347,
+     "V4": 0.019857356739641882,
+     "root": 0.6303615655562503,
+     "A4 without the root": 0.07101653142977316
+    },
+    "24": {
+     "A4": 0.7601571886302642,
+     "D4": 0.22911216577408003,
+     "V4": 0.01073064559565595,
+     "root": 0.7089897769778474,
+     "A4 without the root": 0.05116741165241678
+    },
+    "32": {
+     "A4": 0.8085826709910621,
+     "D4": 0.18572565418816397,
+     "V4": 0.005691674820773896,
+     "root": 0.772226887127309,
+     "A4 without the root": 0.036355783863753044
+    },
+    "48": {
+     "A4": 0.8807423018715,
+     "D4": 0.11771609907076076,
+     "V4": 0.0015415990577392065,
+     "root": 0.8631298881988212,
+     "A4 without the root": 0.01761241367267885
+    },
+    "64": {
+     "A4": 0.9275545085257908,
+     "D4": 0.0720414191674104,
+     "V4": 0.0004040723067987251,
+     "root": 0.9193548499387161,
+     "A4 without the root": 0.00819965858707472
+    },
+    "96": {
+     "A4": 0.9744450747136761,
+     "D4": 0.025528541351783212,
+     "V4": 2.6383934541253226e-05,
+     "root": 0.9727714589722245,
+     "A4 without the root": 0.0016736157414516395
+    },
+    "128": {
+     "A4": 0.9912222374457604,
+     "D4": 0.00877608991767825,
+     "V4": 1.6726365615281753e-06,
+     "root": 0.9908910246311036,
+     "A4 without the root": 0.00033121281465686714
+    },
+    "192": {
+     "A4": 0.9989850174038911,
+     "D4": 0.0010149760327529277,
+     "V4": 6.5633559907758575e-09,
+     "root": 0.9989722785483126,
+     "A4 without the root": 1.2738855578509067e-05
+    },
+    "256": {
+     "A4": 0.99988317475901,
+     "D4": 0.00011682521539933335,
+     "V4": 2.559123656759907e-11,
+     "root": 0.9998826853549961,
+     "A4 without the root": 4.894040138703204e-07
+    },
+    "384": {
+     "A4": 0.9999984534758825,
+     "D4": 1.5465241172155564e-06,
+     "V4": 3.8844647226506625e-16,
+     "root": 0.9999984527511977,
+     "A4 without the root": 7.246847566477754e-10
+    },
+    "512": {
+     "A4": 0.9999999795274637,
+     "D4": 2.047253654522678e-08,
+     "V4": 5.895535903960153e-21,
+     "root": 0.9999999795263892,
+     "A4 without the root": 1.0744738432322265e-12
+    }
+   },
+   "C": {
+    "0.5": {
+     "A4": 0.6605295699106204,
+     "D4": 0.2880615481966226,
+     "V4": 0.05140888189275714,
+     "root": 0.5447113578295626,
+     "A4 without the root": 0.1158182120810578
+    },
+    "1": {
+     "A4": 0.6695455365439,
+     "D4": 0.28180845813010685,
+     "V4": 0.04864600532599305,
+     "root": 0.5588729369391598,
+     "A4 without the root": 0.11067259960474018
+    },
+    "2": {
+     "A4": 0.685972290268518,
+     "D4": 0.2702625738411421,
+     "V4": 0.043765135890340305,
+     "root": 0.584282948610732,
+     "A4 without the root": 0.10168934165778598
+    },
+    "4": {
+     "A4": 0.713821372557545,
+     "D4": 0.25023869716264335,
+     "V4": 0.03593993027981155,
+     "root": 0.6262390510557347,
+     "A4 without the root": 0.08758232150181022
+    },
+    "6": {
+     "A4": 0.7369491245948409,
+     "D4": 0.2331657093302345,
+     "V4": 0.02988516607492451,
+     "root": 0.6600825433193455,
+     "A4 without the root": 0.0768665812754954
+    },
+    "8": {
+     "A4": 0.7568385913344221,
+     "D4": 0.21813362117535004,
+     "V4": 0.02502778749022836,
+     "root": 0.6885449083517167,
+     "A4 without the root": 0.06829368298270544
+    },
+    "12": {
+     "A4": 0.7900697546065459,
+     "D4": 0.19219680800257236,
+     "V4": 0.017733437390880992,
+     "root": 0.7349910041449734,
+     "A4 without the root": 0.05507875046157251
+    },
+    "16": {
+     "A4": 0.8173198707678387,
+     "D4": 0.1700485583146935,
+     "V4": 0.012631570917467834,
+     "root": 0.7722337293084894,
+     "A4 without the root": 0.045086141459349305
+    },
+    "24": {
+     "A4": 0.8601408802571269,
+     "D4": 0.13343461240836052,
+     "V4": 0.006424507334512639,
+     "root": 0.8294707270170132,
+     "A4 without the root": 0.030670153240113684
+    },
+    "32": {
+     "A4": 0.8923287062973327,
+     "D4": 0.10441027789693719,
+     "V4": 0.003261015805729643,
+     "root": 0.8714215443771888,
+     "A4 without the root": 0.02090716192014397
+    },
+    "48": {
+     "A4": 0.9361318948045538,
+     "D4": 0.06303470442352631,
+     "V4": 0.0008334007719193134,
+     "root": 0.9265509669541173,
+     "A4 without the root": 0.009580927850436516
+    },
+    "64": {
+     "A4": 0.9623121681681844,
+     "D4": 0.03747657146033115,
+     "V4": 0.00021126037148396968,
+     "root": 0.9579971924988019,
+     "A4 without the root": 0.004314975669382548
+    },
+    "96": {
+     "A4": 0.9870551356514102,
+     "D4": 0.012931479045384943,
+     "V4": 1.338530320504661e-05,
+     "root": 0.9862019604363261,
+     "A4 without the root": 0.000853175215084101
+    },
+    "128": {
+     "A4": 0.9955923997329916,
+     "D4": 0.004406759948075536,
+     "V4": 8.403189325416418e-07,
+     "root": 0.9954254964261343,
+     "A4 without the root": 0.00016690330685731336
+    },
+    "192": {
+     "A4": 0.9994922773316778,
+     "D4": 0.0005077193849138035,
+     "V4": 3.283408173152092e-09,
+     "root": 0.9994858977801008,
+     "A4 without the root": 6.379551577007092e-06
+    },
+    "256": {
+     "A4": 0.9999415845701811,
+     "D4": 5.8415417023071093e-05,
+     "V4": 1.2796379748300769e-11,
+     "root": 0.9999413397648724,
+     "A4 without the root": 2.448053086911983e-07
+    },
+    "384": {
+     "A4": 0.9999992267376028,
+     "D4": 7.732623970606074e-07,
+     "V4": 1.942233870993566e-16,
+     "root": 0.9999992263752445,
+     "A4 without the root": 3.6235825451313985e-10
+    },
+    "512": {
+     "A4": 0.9999999897637316,
+     "D4": 1.0236268269605805e-08,
+     "V4": 2.9477679822026786e-21,
+     "root": 0.9999999897631945,
+     "A4 without the root": 5.371258993136507e-13
+    }
+   }
+  },
+  "note": "A4 share = the weave's weight in vacua where P1 forces the puncture (given H-thread)"
+ }
+}

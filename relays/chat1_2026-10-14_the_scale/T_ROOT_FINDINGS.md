@@ -80,3 +80,14 @@ Root share p, chiral share f and effective number of threads N_eff.
   negligible tail for (B).
 - **Not tested.** The quantum weave; any c fixed by anything; L154's bridge; H-RES; any 4D statement.
 - No value. **0 of 19.**
+
+## Instrument fix (2026-10-14, evening; main's report)
+
+- **The defect, as main found it.** On main's first rerun a transient SnapPy exception in `solution_type()` for one
+  thread (LLLRLRRRLRLRLLRLLR, fine in isolation) left it in `vols` but not in `sols`. The Q0 line then crashed with a
+  KeyError. Main's second run completed and reproduced every cell (root shares 0.274, 0.502 and 0.660 at c = 6).
+- **The fix.** `t_root_fixed.py` (committed `8c80a64c4`, before its one run) makes the three calls first and fills the
+  three dictionaries together. A transient failure now lands in `fails` and fails Q0 instead of crashing. Nothing else
+  changed except the output names. The sealed script and its outputs are untouched.
+- **Its run** (`t_root_fixed_run.txt`, `t_root_fixed.json`, `t_root_fixed_threads.json`): every field of `t_root.json`
+  is reproduced exactly except the two timing fields. The threads file is byte-identical. No failure occurred.
