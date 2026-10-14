@@ -1527,6 +1527,41 @@ def test_w62_the_matter_and_the_shape():
             assert 1 + (-1) ** m + (-1) ** n + (-1) ** (m + n) == (4 if m % 2 == 0 and n % 2 == 0 else 0)
 
 
+def test_w63_b1644_verified():
+    """W63 (the owner's "Verify B1644"; the rule first; one run; V1 failed as worded on its branch clause only, as the
+    seat disclosed before the run): main's B1644 and B1645 hold on the seat's own instruments, and the record's Higgs is
+    a real unit direction with m >= 1/2 (exactly 1/2 on the imaginary axis)"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "b1644_verified.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"V1": False, "V2": True, "V3": True, "V4": True, "V5": True, "V6": True}
+    for name, v in d["V1"].items():
+        if name == "holds":
+            continue
+        assert v["contour against closed forms (relative)"] < 1e-20 and v["R against main's table (relative)"] < 1e-20
+        assert v["W21 continuation sign"] == 1 and len(set(v["W21 principal-root signs at 20 contour points"])) == 2
+    for name in ("i", "1.5i", "2.0207i", "4i"):
+        assert abs(d["V5"][name]["k"] - 0.5) < 1e-10
+    assert all(r["largest difference"] < 1e-7 for r in d["V6"]["rows"])
+    # in process: Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the residue triplet isotropic, and B1645's form
+    # follows from the units' table for any linear rho with rho(1) = 0
+    import mpmath as mp
+    q = mp.exp(-mp.pi * mp.mpf("1.3"))
+    t2, t3, t4 = (mp.jtheta(n, 0, q) for n in (2, 3, 4))
+    assert abs(t2 ** 4 + t4 ** 4 - t3 ** 4) < mp.mpf(10) ** -12
+    import numpy as np
+    qi, qj = np.array([[1j, 0], [0, -1j]]), np.array([[0, 1], [-1, 0]], dtype=complex)
+    e = [qi, qj, qi @ qj]
+    rng = np.random.default_rng(63)
+    R = rng.normal(size=3) + 1j * rng.normal(size=3)
+
+    def rho(X):  # linear, rho(1) = 0, rho(e_u) = R_u, read off X = c0 1 + sum c_u e_u
+        return sum(R[u] * (np.trace(np.linalg.inv(e[u]) @ X) / 2) for u in range(3))
+
+    a = rng.normal(size=3) + 1j * rng.normal(size=3)
+    Y = np.array([[sum(a[u] * rho(-e[p] @ e[u] @ e[q]) for u in range(3)) for q in range(3)] for p in range(3)])
+    assert np.allclose(Y, np.outer(a, R) + np.outer(R, a) - (a @ R) * np.eye(3), atol=1e-12)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

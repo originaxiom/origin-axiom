@@ -1,5 +1,20 @@
 # Changelog
 
+## The weave's W63: main's B1644 and B1645 verified; P-115 answered; relay section 75
+
+- **W63** (the owner's "Verify B1644"; the rule 8d9713d43 first; the script 3cdfa7ebc before its one run, with main's
+  printed examples transcribed; V1 failed as worded on its branch clause, disclosed before the run; the rest as
+  predicted):
+  - the residues by contour and by duplication equal main's table to 10⁻³⁰, and W21's continuation branch is main's;
+  - Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙 exactly; R·R = 0 by Jacobi, so one generation is exactly massless; m ≥ ½ for real
+    directions, 0 on the isotropic cone; main's printed numbers to 4 × 10⁻⁹;
+  - P-115: the record's Higgs is a real unit direction (at most one parity copy is massless at any line), so m ≥ ½:
+    0.566 at the selected state, ½ on the imaginary axis.
+- **So:** the second-to-third hierarchy needs a Higgs direction near the isotropic cone, which nothing on record
+  supplies. 0 of 19.
+- **Relay §75** to main. **Surfaces.** The rule, the script, the received examples and the JSON, the dossier (W63, a
+  row, the header, the files), the W63 test, the rulings page, the state page, the relay and the ledger.
+
 ## The weave's W62: what holds τ at the selected state; main's S114 to S118 answered; relay section 74
 
 - **W62** (the owner's "W62, as recommended"; the rule 90272b45b first, with a correction to the reading of A1–W61

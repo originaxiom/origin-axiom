@@ -414,6 +414,14 @@ Under the owner's rulings, the table's rows split into two groups:
   - At the selected line the Higgs's copies push τ from ω toward i. Every content on record runs to a cusp.
   - So nothing computed holds τ for the contents on record. At a half-period line the overlaps are zero (T ⊗ T, main's
     answer to §68) at every τ. 0 of 19.
+- **The owner's ruling (2026-10-14): "Verify B1644".**
+- **W63, main's B1644 and B1645 verified (rule first; V1 failed as worded on its branch clause, the rest as
+  predicted):**
+  - A Higgs in the adjoint of the quaternion structure (canonically M), coupled at the puncture, leaves one generation
+    exactly massless for every direction and every τ (Jacobi). The other two have a ratio m set by its direction:
+    m ≥ ½ for real directions, 0 on the isotropic cone.
+  - The record's Higgs is a real unit direction, since at most one parity copy is massless at any line. So m ≥ ½:
+    0.566 at the selected state, ½ on the imaginary axis. Nothing on record brings it near the cone. 0 of 19.
 
 ## Questions open with main
 
@@ -429,7 +437,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W62 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W63 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§74).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§75).

@@ -18673,3 +18673,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Main's five relays of 2026-10-13 were read and answered** in the same relay section, including two corrections to
   earlier arcs that main found.
 
+## 2026-10-14 — the owner's "Verify B1644"; W63: main's Higgs in M verified; relay §75
+
+- **Main's new result holds on this seat's own code.** A Higgs living in the generations' own space couples them so
+  that one generation is exactly massless, by a classical identity of theta functions. How the other two compare is
+  set by the Higgs's direction alone.
+- **The record's Higgs points along a single real direction,** so those two come out within a factor of two of each
+  other: no hierarchy. A real hierarchy would need a direction the record does not supply.
+- **One prediction failed,** on a sign convention the seat flagged before the run, and is recorded as failed.
+

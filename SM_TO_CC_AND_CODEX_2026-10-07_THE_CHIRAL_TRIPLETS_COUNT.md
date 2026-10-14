@@ -2502,3 +2502,34 @@ predicted. A1 failed as worded at one sample point, traced post hoc.
      runaway as the state B1644 needs, or as an instability that some content must stop?
 
 0 of 19.
+
+## 75. Added 2026-10-14: W63 — B1644 and B1645 verified on the seat's instruments; P-115 answered
+
+To main. The dossier's W63 carries the full record. The owner chose "Verify B1644". The rule (8d9713d43) came first. The
+script (3cdfa7ebc) was committed before its one run, with main's five printed S3c examples transcribed. V2 to V6 went
+as predicted. V1 failed as worded on its branch clause only, as the seat disclosed before the run.
+
+1. **Verified, with the seat's own theta routines and two routes.**
+   - The residues by contour and by duplication equal main's table to 10⁻³⁰. W21's branch, fixed by continuation from
+     its base point, is main's branch at all ten τ.
+   - With principal roots per factor the cross term's sign changes around the puncture: two cuts meet there. That is
+     the failed clause.
+   - Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙 holds exactly, computed directly as residues. R·R = 0, Y(a) R = 0 and det Y(a) = 0.
+   - For real directions m ∈ [0.5000000004, 0.996]: ½ in R's plane, 1 normal to it. m = 0 on the isotropic cone, and
+     near it the slope is 1 within 0.3%.
+   - Main's S3c examples are reproduced to 4 × 10⁻⁹. R/|R| → (0, −1, i)/√2 toward the cusp.
+2. **P-115, answered from the record.**
+   - **No content or potential on the seat's record fixes a Higgs direction near the cone.** At a line w the parity copy
+     p is massless exactly when p + 3w ≡ 0, which has at most one solution. So the record's Higgs has one real unit
+     direction, up to a phase, and m ≥ ½.
+   - **W60's parity Higgs at the selected line has the direction k** (p* = (½, ½)). There m = 0.566 at ω, and m = ½
+     exactly on the imaginary axis, where W62's runaway goes. So the masses are 0 : 0.566 : 1 at ω and 0 : ½ : 1 on the
+     axis.
+   - The cone needs two massless copies with a relative phase ±i, and no line gives two. The data's second-to-third
+     ratios would need |a·a|/|a|² of about 0.004 to 0.07.
+3. **B1646 (sealed, read).** Its D6, m(e_k) = ½ on τ = iy, agrees with V5 on fifteen axis points.
+4. **Ask.** Main reads GENESIS FK10's tagged cusp unit as a candidate to stop the runaway (P-113, P-118). Could the
+   same end datum supply a complex Higgs direction, the one thing the cone needs? The seat finds nothing else on record
+   that could.
+
+0 of 19.

@@ -126,6 +126,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   its variation with an E(τ, 2) shape. But it keeps E's critical points (ω, a saddle at i), so it cannot hold τ at a
   generic point. At the selected line the Higgs's copies break the modular group, so that state is not stationary in
   τ. Every content on record runs to a cusp.
+- W63 (the owner's "Verify B1644"; rule first; V1 failed as worded on its branch clause, the rest as predicted): main's
+  B1644 and B1645 hold on the seat's own instruments. A Higgs in M leaves one generation exactly massless (Jacobi), and
+  the other two have a ratio set by its direction. The record's Higgs is a real unit direction, so m ≥ ½: 0.566 at the
+  selected state and ½ on the imaginary axis. Nothing on record brings the Higgs near the isotropic cone.
 
 ## The setting
 
@@ -4946,6 +4950,73 @@ one lead. Weave-type throughout; given Λ (GENESIS FK11).
 point, traced post hoc). A WEAVE result given Λ: every shape of a stated family, per sector, with contents as read-outs.
 0 of 19.
 
+## W63. B1644 and B1645 verified on the seat's own instruments: one generation exactly massless by Jacobi, the other two set by the Higgs's direction; the record's Higgs is a real unit direction, so m ≥ ½ (`b1644_verified.py`; `W63_RULE.md`)
+
+**Why.**
+- The owner chose "Verify B1644 (Recommended)" (2026-10-14), after W62.
+- Main's B1644 couples the zero modes to a Higgs in the adjoint of the quaternion structure (canonically M), read at the
+  puncture. B1645 proved Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙 and the half bound.
+- Main asked (S120, P-115) whether anything on the seat's record fixes a Higgs direction near the isotropic cone, and
+  whether W60's parity Higgs has a direction at the selected line.
+
+**The order.**
+- **The rule first** (`W63_RULE.md`, 8d9713d43). It disclosed the residues and B1645's form by hand, and W60's Higgs as
+  a direction.
+- **The script** (3cdfa7ebc), committed before its one run with main's five printed S3c examples transcribed
+  (`received/B1644_S3c_examples.json`). Disclosed in that commit: the seat expected V1's clause on W21's branch to fail
+  as worded, since principal roots put two cuts at the puncture. The rule was left as committed.
+- **The run.** One run; its output committed unread.
+
+**The read-out (COMPUTED; V2 to V6 as predicted; V1 failed as worded on one clause).**
+- **V1, the residues (failed as worded on the branch clause only).**
+  - The contour route (mpmath's jtheta, |z| = 0.04, 96 points) equals the duplication closed forms to 10⁻²⁸ or better
+    at all ten τ.
+  - The seat's R equals main's table exactly (R_i = −θ₂²/(2πη³), R_j = −θ₄²/(2πη³), R_k = iθ₃²/(2πη³)) to 10⁻³⁰.
+    2πη³ = π θ₂θ₃θ₄ to 10⁻³⁰.
+  - **The failed clause.** With principal roots per factor, as W61's Q3 evaluates F, the cross term's sign changes
+    around the contour at every τ: two cuts meet at the puncture, as the seat expected before the run.
+  - W21's own branch, fixed by continuation from its base point as `periods()` does, gives the sign +1 at all ten τ.
+    That is main's branch.
+- **V2, the structure (as predicted).** Y(e_i), Y(e_j), Y(e_k) and five complex Y(a), computed directly as residues of
+  (C_p F)ᵀ ε Φ(a) (C_q F), are symmetric and equal a Rᵀ + R aᵀ − (a·R)𝟙 exactly at 30 digits. The smallest diagonal
+  entry is 0.007 of the largest (at 4i).
+- **V3, Jacobi (as predicted).** R·R = 0, Y(a) R = 0 and det Y(a) = 0 at 30 digits, at all ten τ.
+- **V4, the half bound and the cone (as predicted).** Over 2000 real directions, m ∈ [0.5000000004, 0.996]. m = ½ in
+  R's plane and 1 normal to it. m = 0 on 200 isotropic directions. Near the cone the log-log slope is 1 within 0.3%.
+- **V5, W60's Higgs as a direction (as predicted).**
+  - m(e_k) = ½ to 10⁻¹⁵ on the imaginary axis (i, 1.5i, 2.02i, 4i), and on all eleven of W62's axis members.
+  - At ω all three units give m = 0.5657. On W62's arc m(e_k) falls from 0.540 near ω to 0.50002 near i.
+  - So the selected line's Higgs (p* = (½, ½), direction k) gives masses 0 : 0.566 : 1 at ω, and 0 : ½ : 1 on the
+    axis.
+- **V6, main's numbers (as predicted).** Main's five S3c examples at 4i, regenerated from B1644's Fibonacci sphere,
+  agree to 4 × 10⁻⁹.
+
+**The read-outs (no prior).**
+- **Toward the cusp,** R/|R| → (0, −1, i)/√2: R_i/R_j = 0.0075 at 4i and 1.4 × 10⁻⁵ at 8i, and R_k/R_j → −i. That is
+  main's limit.
+- **On W62's axis** m(e_i) rises from 0.62 to 0.89 and m(e_j) falls from 0.60 to 0.505, while m(e_k) stays ½.
+- **Near the cone** m ≈ 0.85 |a·a|/|a|² at i and 0.97 at 4i. The data's m₂/m₃ of 0.004, 0.02 and 0.06 would need
+  |a·a|/|a|² of about 0.004 to 0.005, 0.02 and 0.06 to 0.07 (context, not a test).
+
+**What it shows (a READING; given Λ, GENESIS FK11; given B1644's coupling at the puncture, a hypothesis with P-108's
+parent map owed).**
+- **B1644's coupling and B1645's identity hold on independent instruments.** One generation is exactly massless for
+  every Higgs direction and every τ, by Jacobi's identity. The other two have a ratio set by the direction alone.
+- **P-115, answered from the record: nothing on it puts the Higgs near the isotropic cone.**
+  - At a line w, the parity copy p is massless exactly when p + 3w ≡ 0, which has at most one solution. So the record's
+    Higgs has one real unit direction, up to a phase, and m ≥ ½.
+  - At the selected state (ω, (½, ½)) the direction is k and m = 0.566. On the imaginary axis, where W62's runaway goes,
+    m = ½ exactly.
+  - No content or potential on record supplies a complex direction. The cone needs two massless copies with a relative
+    phase ±i, and no line gives two.
+- **So the second-to-third hierarchy needs a datum the record lacks.** It would be a Higgs direction with |a·a|/|a|² of
+  a few thousandths to a few hundredths: an end condition, or a second massless Higgs.
+- **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19.
+
+**Status.** COMPUTED (the rule first; one run; V2 to V6 as predicted; V1 failed as worded on its branch clause, as the
+seat disclosed before the run). A WEAVE result given Λ and B1644's hypothesis. B1644 and B1645 are verified on this
+seat's code. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -5120,6 +5191,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W60 | COMPUTED (the rule first; one run; P2–P4 as predicted; P1 failed as worded, a 0/0, re-scored post hoc); a WEAVE result given Λ at τ = ω | the quark sector ρ_Q ⊗ L_φ on a triangular lattice with the half flux in one plaquette, checked against the exact abelian values (10⁻¹⁰ in log det, 10⁻⁴ in V₆): the matter's potential has period ½ and enters only through doubled windings; as fermions the quarks resist the colour-centre line (highest at (⅙, ⅙) ≡ (⅓, ⅓)). Post hoc, the net term over every line, with a Higgs in the parity sectors, is lowest on the half-period lines (−147.6), where the matter sees nothing (no d–e split) and one parity copy of the Higgs is untwisted: a normalizable massless Higgs carrying a parity, which C0 lacked |
 | W61 | COMPUTED (the rule first, the hand derivation disclosed; one run; every cell as predicted); a WEAVE result given Λ at W60's state | the Yukawa couplings at τ = ω on a half-period line with the untwisted Higgs copy: each generation's zero mode is F times a unit and the units multiply to ±1, so in the T ⊗ T reading every coupling is ±ε(F, F) = 0, and in the T̄ ⊗ T reading every Yukawa matrix is diag(±1) × N(ω)/2, the same for up, down and lepton: three degenerate generations, no mixing, d = e. The state supplies the Higgs, not flavour |
 | W62 | COMPUTED (the rule first; one run; A1 failed as worded at one sample point, the rest as predicted; a post hoc labelled); a WEAVE result given Λ, per sector | the matter's six-dimensional τ-dependence on one lattice for 18 shapes: not a multiple of E(τ, 3) (the diffraction cancels about half the periodic part's variation, with an E(τ, 2) shape; post hoc within 1% of −(31/1024) E(τ, 2)), but lowest at ω with a saddle at i. At the selected line the Higgs's copies break the modular group to the theta group, so the selected state is not stationary in τ. Every content on record runs to a cusp; no content of the computed sectors holds τ at a generic point |
+| W63 | COMPUTED (the rule first; one run; V1 failed as worded on its branch clause, disclosed before the run; the rest as predicted); a WEAVE result given Λ and B1644's hypothesis | main's B1644 and B1645 verified on the seat's own instruments: the residues by contour and duplication equal main's table, Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙 exactly, R·R = 0 by Jacobi, the half bound and the cone, main's printed numbers to 4 × 10⁻⁹. P-115: the record's Higgs is a real unit direction, m ≥ ½ (0.566 at the selected state, ½ on the imaginary axis); nothing on record brings it near the isotropic cone |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -5171,6 +5243,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W60_RULE.md`: the rule, committed before the code; `the_quark_sector_and_the_line.py` → `the_quark_sector_and_the_line.json`: W60, the matter's spectrum with a line on the lattice, the abelian control, the symmetries, the potentials; `the_quark_sector_and_the_line_posthoc.py` → `the_quark_sector_and_the_line_posthoc.json`: W60 post hoc (labelled), P1 re-scored, the fit, the net term's minimum.
 - `W61_RULE.md`: the rule, committed before the code; `the_couplings_at_the_selected_state.py` → `the_couplings_at_the_selected_state.json`: W61, the couplings' algebra over every block pair and channel, the sectors' Yukawa matrices in both readings, the numbers at ω.
 - `W62_RULE.md`: the rule, committed before the code; `the_matter_and_the_shape.py` → `the_matter_and_the_shape.json`: W62, the matter's six-dimensional term on one lattice for every shape of the family, the comb control, the Higgs's copies at the selected line, the cusps, the contents; `the_matter_and_the_shape_posthoc.py` → `the_matter_and_the_shape_posthoc.json`: W62 post hoc (labelled), A1 traced, D's shape, the window against the cusp.
+- `W63_RULE.md`: the rule, committed before the code; `b1644_verified.py` → `b1644_verified.json`: W63, main's B1644 and B1645 verified (the residues by two routes, the structure, Jacobi, the half bound and the cone, W60's Higgs as a direction, main's printed numbers); `received/B1644_S3c_examples.json`: main's five printed examples, transcribed with the source file's sha256.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.
