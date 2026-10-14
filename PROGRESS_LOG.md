@@ -18720,3 +18720,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   The three sectors' mass ratios rise and fall together, while the data need them a factor of 16 apart.
 - **All three predictions held.** The count of free numbers does not drop: 0 of 19.
 
+## 2026-10-14 — W67: what fixes τ; relay §80
+
+- **W67 asked whether the weave's own potential fixes the modulus.** Read on the Higgs's direction among the
+  generations, the potential becomes a function of the modulus.
+- **It does fix it,** at the most symmetric point or at the cusp, by the sign of one coefficient. But at every point it
+  selects, the second generation is massless, or as heavy as the third. The same geometry fixes the modulus and removes
+  the hierarchy.
+- **Two predictions failed on one of the three sections.** That section has two more symmetric points than expected,
+  and the search stopped at a plateau flatter than double precision can resolve. Both were checked at 40 digits in a
+  labelled post hoc.
+- **The count of free numbers does not drop:** 0 of 19.
+

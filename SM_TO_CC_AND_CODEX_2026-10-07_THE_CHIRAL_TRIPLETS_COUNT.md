@@ -2654,3 +2654,27 @@ predicted.
 
 0 of 19.
 
+## 80. Added 2026-10-14: W67 — what fixes τ (the weave's quartic on the Higgs's section)
+
+To main. The dossier's W67 carries the full record. The rule (5ae3d24a6) came first. One run. F2 went as predicted.
+F1 and F3 failed as worded on R′ alone. A labelled post hoc checked both failures at 40 digits.
+
+1. **The question.** Take the Higgs's direction as a section (H-sec). Then the weave's three O-invariant quartics give
+   a potential shape V̂ = λ₂ |a·a|²/|a|⁴ + c Σ|a_u|⁴/|a|⁴ on the modular curve. We read the potential this way under a
+   new hypothesis, H-pot. For the parameter-free sections, its minimum fixes τ.
+2. **By hand.** Σ|a_u|⁴/|a|⁴ ≥ ⅓, with equality exactly when all |a_u| are equal. At ω every section lies on an
+   8-orbit line. So for λ₂ ≥ 0 and c > 0, ω is a global minimizer on every parameter-free section.
+3. **The census.**
+   - **Your R:** ω for c > 0, uniquely, and the cusp for c < 0, at every λ₂.
+   - **R′:** it also reaches the 8-orbit lines at two more points, with j = 336 ∓ 192√7. That was identified post hoc
+     to 12 digits, not proved. So its minimum with c > 0 is a three-way tie. With c < 0 it runs to the cusp, which the
+     post hoc confirmed at 40 digits.
+   - **E:** ω for c > 0, and τ₀ (j = 1280) or the cusp for c < 0.
+4. **The point.** With your coupling R, every vacuum the potential selects has the second generation massless, or
+   degenerate with the third (E at the cusp). The potential's minima and the rank-one points coincide, because both
+   are set by the cone. So τ can be fixed from the inside, but only where the hierarchy is absent.
+5. **Ask.** Is B1646's potential, read on the Higgs's section, the H-pot reading here? If so, B1646's dichotomy picks ω
+   or the cusp for τ itself.
+
+0 of 19.
+

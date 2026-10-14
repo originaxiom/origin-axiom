@@ -452,6 +452,11 @@ Under the owner's rulings, the table's rows split into two groups:
   - None of the 216 assignments to the three sectors fits at any τ. The best χ² is 309 for 3 degrees of freedom.
   - The three ratios vanish together at ω and cannot spread by the data's factor of 16. So the data do not fix τ
     through these sections. 0 of 19.
+- **W67, what fixes τ (rule first; F1 and F3 failed as worded on R′ alone, checked post hoc):**
+  - The weave's own quartic, evaluated on the parameter-free Higgs sections (the hypothesis H-pot), fixes τ. For
+    main's R it fixes τ at ω, or runs to the cusp, by the sign of one coefficient.
+  - Every vacuum it selects has the second generation massless, or degenerate with the third. So τ can be fixed from
+    the inside, but only where the hierarchy is absent. 0 of 19.
 
 ## Questions open with main
 
@@ -467,7 +472,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W66 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W67 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§79).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§80).

@@ -1634,6 +1634,39 @@ def test_w66_the_parameter_free_census():
     assert abs(s[0] * s[2] / s[1] ** 2 - 1) < 1e-10
 
 
+def test_w67_the_potential_fixes_tau():
+    """W67 (the goal "resume"; the rule first; one run; F1 and F3 failed as worded on R' alone, F2 held; a labelled post
+    hoc): the weave's quartic on the parameter-free Higgs sections fixes tau at omega for R (c > 0) or runs to the
+    cusp (c < 0); R' also reaches the 8-orbit lines at j = 336 -+ 192 sqrt 7 (identified to 12 digits)"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_potential_fixes_tau.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"F1": False, "F2": True, "F3": False}
+    assert d["F1"]["R"]["all at omega"] and not d["F1"]["R'"]["all at omega"]
+    census = d["F3"]["census"]
+    for key, row in census.items():
+        name, rest = key.split(", ", 1)
+        c = float(rest.split("c = ")[1])
+        if name == "R":
+            assert row["where"] == ("omega" if c > 0 else "runs to the cusp"), key
+        if name == "E" and c > 0 and "lambda2 = 0.0" not in key:
+            assert row["where"] == "omega", key
+    ph = json.loads((here / "the_potential_fixes_tau_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["PH2 (1/2 - qA along tau = iy)"]["strictly below 1/2 and rising toward it, for both"]
+    import math
+    js = sorted(r["j at the root"][0] for r in ph["PH1 (R''s extra 8-orbit points)"])
+    assert all(r["qA(R'(root)) - 1/3"] < 1e-25 for r in ph["PH1 (R''s extra 8-orbit points)"])
+    assert abs(js[0] - (336 - 192 * math.sqrt(7))) < 1e-9 and abs(js[1] - (336 + 192 * math.sqrt(7))) < 1e-9
+    # in process: the anisotropy's floor, qA >= 1/3 (Cauchy-Schwarz), with equality on the 8-orbit line (1, w, w^2)
+    import numpy as np
+    rng = np.random.default_rng(67)
+    for _ in range(100):
+        a = rng.normal(size=3) + 1j * rng.normal(size=3)
+        assert np.sum(np.abs(a) ** 4) / np.vdot(a, a).real ** 2 >= 1 / 3 - 1e-15
+    w = np.exp(2j * np.pi / 3)
+    a = np.array([1, w, w * w])
+    assert abs(np.sum(np.abs(a) ** 4) / np.vdot(a, a).real ** 2 - 1 / 3) < 1e-15 and abs(a @ a) < 1e-14
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

@@ -149,6 +149,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   one-unit sections, every sector's Yukawa depends on τ alone. None of the 216 assignments fits at any τ: the best χ² is
   309 for 3 degrees of freedom. The three ratios vanish together at ω and cannot spread by the data's factor of 16, so
   the data do not fix τ through these sections.
+- W67 (the goal "resume"; rule first; F1 and F3 failed as worded on R′ alone, checked post hoc): the weave's own
+  quartic, evaluated on the parameter-free Higgs sections, fixes τ. For main's R it fixes τ at ω (c > 0) or runs to
+  the cusp (c < 0). R′ adds two more points at j = 336 ∓ 192√7 (identified), and E adds τ₀. Every vacuum it selects
+  has the second generation massless, or degenerate with the third.
 
 ## The setting
 
@@ -5359,6 +5363,99 @@ result given Λ and the stated hypotheses. 0 of 19.
 **Status.** COMPUTED (the rule first; one run; all three cells as predicted). A WEAVE result given Λ and the stated
 hypotheses. 0 of 19.
 
+## W67. What fixes τ: the weave's own quartic, evaluated on the parameter-free Higgs sections, fixes τ at ω or sends it to the cusp, and every vacuum it selects has the second generation massless or degenerate (`the_potential_fixes_tau.py`; `W67_RULE.md`; post hoc `the_potential_fixes_tau_posthoc.py`)
+
+**Why.**
+- **The owner's order** is "we look what fixes τ then we count free numbers". W66 found that the data cannot fix τ
+  through the parameter-free sections, so this arc asked what fixes τ from the inside.
+- **The candidate.** W64 found that O keeps three phase-invariant quartics on M. Under H-sec (W65) the Higgs's
+  direction is a section a(τ), so the potential's shape V̂(τ) = λ₂ q₂ + c q_A becomes a function on the modular curve.
+  Here q₂ = |a·a|²/|a|⁴ and q_A = Σ|a_u|⁴/|a|⁴. The new hypothesis H-pot reads the potential this way.
+
+**The order.**
+- **The rule first** (`W67_RULE.md`, 5ae3d24a6). By hand it disclosed the bound: q_A ≥ ⅓, with equality exactly when
+  all |a_u| are equal. So τ = ω is a global minimizer for λ₂ ≥ 0 and c > 0.
+- **The script** (5c80b8b00), committed before its run.
+- **The run.** One run (2.7 minutes); its output committed unread (5a9945901).
+  - It printed numpy overflow warnings. Trial points above y = 8 are caught before evaluation, so the likely source is
+    trial points below the real axis, the only place the q-series overflow.
+  - No recorded value is affected. Checked after the run: the JSON holds no non-finite value, and every recorded τ lies
+    in the domain.
+- **The post hoc** (labelled; script 27f5deaf5 before its run; output 3f4963569) checked F1's and F3's failures at
+  40 digits.
+
+**The read-out (COMPUTED; F2 as predicted; F1 and F3 failed as worded on R′ alone).**
+- **F1, R and R′ (failed as worded, on R′).**
+  - **R as predicted.**
+    - q₂ is below 10⁻³⁰ on the grid.
+    - q_A is ⅓ at ω and ⅜ at i, to 10⁻¹⁶.
+    - Away from ω, q_A − ⅓ ≥ 3.6 × 10⁻⁴ and ½ − q_A ≥ 9.7 × 10⁻¹¹, with q_A(8i) = 0.4999999999.
+    - Its two refined local minima are at ω and ω + 1.
+  - **R′ failed on two counts.**
+    - ½ − q_A came out −5.6 × 10⁻¹⁶ at one grid point, a roundoff on a plateau.
+    - Its refined local minima include many points at y > 5 where q_A is ½ to double precision. They also include two
+      genuine minima at q_A = ⅓ away from ω: near 0.5 + 1.0347√−1 and near ±0.2146 + 0.9767√−1.
+- **F2, E (as predicted).**
+  - q₂ is below 10⁻³⁰ at ω, at τ₀ and at its mirror.
+  - Away from them by 0.02, q₂ ≥ 9.6 × 10⁻⁴.
+  - q_A(E(ω)) = ⅓, and both q₂ and q_A are 1.0 at 8i.
+- **F3, what fixes τ (failed as worded, on R′).**
+  - **R as predicted.** The minimum is at ω for every λ₂ with c > 0, and runs to the cusp with c < 0.
+  - **E as predicted** at ω for c > 0 and λ₂ > 0.
+  - **R′ failed.**
+    - With c > 0 the minimum value c/3 is reached at ω and also at R′'s two other 8-orbit points. The search landed on
+      one of those: a tie, not a lower value.
+    - With c < 0 the refinement stopped at y = 6.39, below the rule's y > 7 mark for the cusp.
+
+**The post hoc (labelled; W67's JSON unchanged).**
+- **PH1, R′'s extra 8-orbit points, at 40 digits.** A root of R′(τ) × w for the nearest 8-orbit line w lies at
+  τ = 0.5 + 1.03471√−1 and at τ = −0.214626 + 0.976696√−1.
+  - At both, q_A − ⅓ is about 10⁻³¹ and R′·R′ vanishes to 10⁻³⁹. The direction is accurate to about 10⁻¹⁶, the
+    precision of w.
+  - Klein's j there is −171.98425172440 and 843.98425172440.
+  - **Identified by inspection, after the run:** j = 336 ∓ 192√7, to 3 × 10⁻¹⁴ and 8 × 10⁻¹³. It is a conjugate pair in
+    ℚ(√7), not proved.
+- **PH2, the plateau, at 40 digits.**
+  - ½ − q_A(R′(iy)) falls strictly: 2.7 × 10⁻¹³ at y = 4, 4.5 × 10⁻²³ at y = 6.39, and 1.1 × 10⁻²⁹ at y = 8.
+  - For R it falls from 2.8 × 10⁻⁵ at y = 4 to 9.7 × 10⁻¹¹ at y = 8.
+  - So R′ runs to the cusp with c < 0, as predicted. The census stalled where the remaining gap is below double
+    precision.
+- **PH3, the masses at R′'s extra points.**
+  - Every pair of isotropic sections has rank one there (m below 10⁻³⁹).
+  - The pairs with E give m₂/m₃ from 0.23 to 0.52.
+
+**The read-outs (no prior).**
+- **E with c < 0.**
+  - The minimum sits at τ₀ for c = −0.1 with λ₂ ≥ 0.1, and for c = −1 with λ₂ ≥ 1.
+  - Otherwise it lies on the cusp's plateau (y ≈ 6.95), where E points along e_i and q_A = q₂ = 1 to double precision.
+  - q_A(E(τ₀)) = 0.481.
+- **All three |E_u| are equal only at ω** (and ω + 1), so E has no tie with λ₂ = 0.
+- **The masses at the fixed points.**
+  - At ω every pair has m₂/m₃ below 10⁻¹⁵.
+  - At 8i the isotropic pairs have rank one, while EE, ER and ER′ give m₂/m₃ = 1.0, 0.99999 and 1.0.
+
+**What it shows (a READING; given Λ, GENESIS FK11; H-sec and H-pot are hypotheses).**
+- **The weave's own potential fixes τ.**
+  - **For main's residue triplet R as the Higgs's direction:** at ω for c > 0, uniquely, and at the cusp for c < 0.
+    That is the sign of one coefficient, as W64's K7 found for the direction on M.
+  - **For R′:** at ω and at two more points with j = 336 ∓ 192√7 (identified), or at the cusp.
+  - **For E:** at ω, at τ₀ (j = 1280), or at the cusp.
+  - R reaches the 8-orbit lines only at ω, as the octahedral picture of X(4) predicts for a degree-one map. R′ reaches
+    them at two more points, as a map of higher degree would.
+- **Every vacuum it selects has no hierarchy.** With B1644's coupling R, the second generation is massless at every
+  selected point:
+  - at ω, every pair has rank one;
+  - at τ₀, at R′'s extra points and at the cusp, the Higgs is isotropic.
+
+  The exception is E at the cusp, where m₂ = m₃. The minima of the potential and the rank-one points coincide,
+  because both are set by the cone.
+- **So τ can be fixed from the inside, but only where the second generation vanishes.** The count stays all 19 of the
+  19 free (18 if I-18 is earned). 0 of 19.
+
+**Status.** COMPUTED (the rule first; one run; F2 as predicted; F1 and F3 failed as worded on R′ alone, a tie at two
+further 8-orbit points and a double-precision plateau, both checked in a labelled post hoc). A WEAVE result given Λ and
+the stated hypotheses. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -5537,6 +5634,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W64 | COMPUTED (the rule first; one run; K1, K3, K6, K7 as predicted; K2, K4, K5 failed as worded on one instrument error, the θ₂ branch, re-scored post hoc as predicted); a WEAVE result given Λ and the stated hypotheses | the cusp's monodromy turns M a quarter-turn whose two complex eigenlines are the isotropic lines it keeps; main's residue triplet R is the one section of the matter's representation with a single unit at the cusp, on that isotropic eigenline; sections number Σu at weights −½ and 3/2; the uniform unit gives the three but a real cusp direction for the Higgs; the weave's anisotropy puts the Higgs on the cusp's six or the eight isotropic lines, where the Yukawa has rank one |
 | W65 | COMPUTED (the rule first; one run after one disclosed failed launch; all six cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's coupling; H-sec) | the Higgs's direction as a section of weight −½ in ρ_R: E, R and R′ (one unit each) generate every placement, with Gram matrix E₄²/η¹⁸ times [[j − 1280, 4, 112], [4, 0, 2], [112, 2, 0]]; at ω every section lies on one 8-orbit line and m = 0 for every Higgs; at i, R and R′ lie on the conjugate 12-orbit pair; near ω m ∝ \|τ − ω\|², and at the cusp m ≈ 2\|α/β\| e^{−π Im τ}; one coupling gives no first-generation mixing. 0 of 19 |
 | W66 | COMPUTED (the rule first; one run; all three cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair) | the parameter-free census: B1644's form with the Higgs and the coupling among the one-unit sections E, R and R′, every assignment of the six pairs to the three charged sectors, fitted at one τ. The rank-one pairs (RR, R′R′, RR′) and shared pairs are dead; EE has m₁m₃ = m₂²; no assignment passes (best χ² 309 at a = 0.10, 66.5 at a = 0.20, 3 degrees of freedom), with the minima near ω. The data do not fix τ through these sections. 0 of 19 |
+| W67 | COMPUTED (the rule first; one run; F2 as predicted; F1 and F3 failed as worded on R′ alone, checked in a labelled post hoc); a WEAVE result given Λ and the stated hypotheses (H-sec; H-pot) | what fixes τ: the weave's O-invariant quartic λ₂ q₂ + c q_A on the parameter-free Higgs sections, as a function on the modular curve. For main's R: ω for c > 0 (uniquely), the cusp for c < 0. R′ reaches the 8-orbit lines also at j = 336 ∓ 192√7 (identified post hoc), a tie; E adds τ₀ (j = 1280). Every selected vacuum has the second generation massless, or degenerate with the third: τ can be fixed only where the hierarchy is absent. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -5592,6 +5690,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W64_RULE.md`: the rule, committed before the code; `the_cusp_unit_as_a_vector.py` → `the_cusp_unit_as_a_vector.json`: W64, the moves on M, R's law and end data, the sections per placement of units, the potential's dichotomy and the anisotropy on the cone; `the_cusp_unit_as_a_vector_posthoc.py` → `the_cusp_unit_as_a_vector_posthoc.json`: W64 post hoc (labelled), the θ₂ branch error traced and K2, K4, K5 re-scored.
 - `W65_RULE.md`: the rule, committed before the code; `the_second_unit.py` → `the_second_unit.json`: W65, the second unit (the one-unit sections E, R′ and R by a 40-digit collocation, their pairings, the special points, the masses at ω and at the cusp, the mixing under one coupling, and the read-outs).
 - `W66_RULE.md`: the rule, committed before the code; `the_parameter_free_census.py` → `the_parameter_free_census.json`: W66, the parameter-free census (the pairs' rank at 40 digits, the 216 assignments fitted at one τ at three allowances, the six permutations' minima, and two at a time).
+- `W67_RULE.md`: the rule, committed before the code; `the_potential_fixes_tau.py` → `the_potential_fixes_tau.json`: W67, what fixes τ (each section's landscape, the potential's census over 16 coefficient pairs, E's read-outs, the masses at the fixed points); `the_potential_fixes_tau_posthoc.py` → `the_potential_fixes_tau_posthoc.json`: W67 post hoc (labelled), R′'s extra 8-orbit points and the plateau at 40 digits, the masses there.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

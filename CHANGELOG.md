@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W67: what fixes τ; relay section 80
+
+- **W67** (the owner's goal "resume"; the rule 5ae3d24a6 first; the script 5c80b8b00 before its one run; F2 as
+  predicted; F1 and F3 failed as worded on R′ alone; a labelled post hoc 27f5deaf5):
+  - the weave's O-invariant quartic, evaluated on the parameter-free Higgs sections, is a function on the modular
+    curve;
+  - for main's R it fixes τ at ω (c > 0, uniquely) or sends it to the cusp (c < 0);
+  - R′ also reaches the 8-orbit lines at j = 336 ∓ 192√7 (identified post hoc), a tie; E adds τ₀;
+  - every selected vacuum has the second generation massless, or degenerate with the third.
+- **So:** τ can be fixed from the inside, but only where the hierarchy is absent. 0 of 19.
+- **Relay §80** to main. **Surfaces.** The rule, the script, its JSON and its post hoc, the dossier (W67, a row, the
+  header, the files), the W67 test, the state page, the relay and the ledger.
+
 ## The weave's W66: the parameter-free census; relay section 79
 
 - **W66** (the owner's goal "resume"; the rule 44b13a4a4 first; the script 32cf6e169 before its one run; all three cells
