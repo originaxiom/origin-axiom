@@ -413,3 +413,12 @@ found with B1635's sealed instrument.
 - **Owed:** prove the ½ bound; find what fixes the Higgs's direction; count a quark model before any crossing
   (P-114 to P-116).
 
+## Main's addition: the half bound (B1645, PROVED)
+
+- **The coupling of a Higgs in M in closed form:** Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙. The theta triplet R, isotropic by
+  Jacobi, is always the massless state.
+- **Real Higgs directions** give the other two a ratio in [½, 1], set by one angle; ½ is reached in R's plane.
+- **The ratio vanishes exactly on the isotropic cone** a·a = 0 and grows linearly with |a·a|/|a|². So the
+  second-to-third hierarchy is the Higgs's isotropy defect, and "one heavy, one light, one massless" means R isotropic
+  exactly and the Higgs nearly so. What fixes the Higgs's direction is P-115.
+

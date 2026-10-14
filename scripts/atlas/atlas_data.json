@@ -11700,6 +11700,18 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1645": {
+   "slug": "the half bound",
+   "motifs": [
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B164": {
    "slug": "isomonodromy 04cubic",
    "motifs": [

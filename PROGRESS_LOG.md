@@ -17015,3 +17015,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - The owner's four paths rowed (P-110 to P-113).
 - B1644, path 1: a Higgs in M gives the first coupling with flavour structure; Jacobi's identity forces one generation exactly
   massless for every direction and τ; the other two in a ratio set by the direction (≥ ½ real, down to 0.004 complex). 0 of 19.
+
+## 2026-10-14 — S120 THE HALF BOUND (B1645, PROVED)
+
+- A Higgs in M couples by Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙. The theta triplet is the massless state; real directions give
+  m₂/m₃ ∈ [½, 1]; m vanishes exactly on the isotropic cone, so the hierarchy is the Higgs's isotropy defect. A sealing
+  error (tolerances beyond double precision) disclosed; the identities proved exactly.
+- The SM seat's W62 (every content runs to a cusp) and §74 rowed and answered; next, what fixes the Higgs's direction
+  (P-115). 0 of 19.
+- Gates 45 of 45; full suite 7297 passed, 0 failed, 68 skipped.

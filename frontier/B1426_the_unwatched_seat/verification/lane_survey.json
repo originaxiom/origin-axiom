@@ -1,5 +1,5 @@
 {
- "measured_at_main_head": "6c148ddd4",
+ "measured_at_main_head": "e77f9b5b3",
  "main_root": "517783f2",
  "lanes": [
   {
@@ -197,8 +197,8 @@
   {
    "ref": "origin/audit/physical-bridge-2026-09-05",
    "branch": "physical-bridge-2026-09-05",
-   "commits_total": 3301,
-   "commits_unique_vs_main": 446,
+   "commits_total": 3309,
+   "commits_unique_vs_main": 454,
    "merge_base": "8f83b5c8",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -221,8 +221,8 @@
   {
    "ref": "origin/chatgpt/weave-physics-archive-2026-10-11",
    "branch": "weave-physics-archive-2026-10-11",
-   "commits_total": 3634,
-   "commits_unique_vs_main": 2,
+   "commits_total": 3635,
+   "commits_unique_vs_main": 3,
    "merge_base": "6c148ddd",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -281,8 +281,8 @@
   {
    "ref": "origin/<v>/standard-model-derivation-0qt6ao",
    "branch": "standard-model-derivation-0qt6ao",
-   "commits_total": 3336,
-   "commits_unique_vs_main": 461,
+   "commits_total": 3386,
+   "commits_unique_vs_main": 511,
    "merge_base": "44c75c36",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -304,7 +304,7 @@
   }
  ],
  "lanes_with_unique_work": 20,
- "total_unique_commits_across_lanes": 2602,
+ "total_unique_commits_across_lanes": 2661,
  "same_repository_lanes": 19,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,

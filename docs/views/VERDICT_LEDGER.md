@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1372 of 1372 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1373 of 1373 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (926)
+## PROVED (927)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -938,6 +938,7 @@
 | `B1640` | THE FRAME AUDIT (an audit arc, at the owner's request; GENESIS v1.42): on the ruled branch only the single pieces of T(x)T are degenerate at omega -- Tbar(x)T (B1618's Dirac tensor; nine members in B1635's own sealed read-outs, e.g. 1 : 0.674 : 0.448) and mixed T(x)T couplings are not, so tau = omega's retirement stands as 'no hierarchy found', not as a degeneracy; 'no choice is made' in the weave's multiplier is scoped -- rho = lift^-1 against its conjugate is two binary conventions, the record's allows W45's weight 3/2 and B1636's symmetric weight-1 (golden) coupling, the conjugate neither (its weight-1 coupling is antisymmetric only), so the index and the golden coupling come with the same hand and the hand is not derived; and rho_theta(RL) shares its eigenlines only with order-3 stabilisers, rho_theta(RRL) only with order-2 ones, so one tau cannot give the TM1 reading's residual pair. 0 of 19. |  | 1 |
 | `B1641` | W46 ON MAIN, AND THE TWO OBJECTS (sealed 99975fb63; PROVED): the fibre loops of M_{1,2} are the inner automorphisms; the record's uniform lift acts on T by the parity signs and on conj(a b^-1 a^-1 b) = Delta^4 by -1, agreeing with the ruled moves, while the geometric lift (trivial on fibre cohomology) gives +1 there -- they differ by the central sign, so the matter is spinorial around the commutator loop and the two objects are one with a parity selection rule: a parity-blind Higgs allows only diagonal couplings, a Higgs in T exactly the golden pattern (c(u,u,u) = 24 eta^6); the SM seat's W46 verified on main's lifts (L6's exponents (1,1,3,5,7,7)/8, pieces 2 + 4, every chi_1 = 0, chi_3/2(rho_T) = 0, the table n(|Lambda+| - 3)); and neither rho_T nor its conjugate is a sub or quotient of L6, so the hand is not the puncture condition's orientation at the representation level. 0 of 19. |  | 1 |
 | `B1643` | THE CROSSINGS CENSUS (a census arc, the owner's question 2026-10-13): no crossing from the principle's mathematics to a physical number has succeeded -- B915 (15.97 sigma), B925, B929 (shape hit, value miss), B1005 (Tier 2 fired), B1027 with B1063 (all miss), B856 and B1066 (golden-ratio mixing excluded at 4.7 sigma) -- and every one identified an object's number with a physical one by fiat (I-13 unearned); none crossed through a field. The criteria C1-C6 for a crossing through a field (a derived dictionary; admissible kind with the Kahler frame fixed; every choice priced; one-shot sealed; dimensionless; the computed object carrying the tested structure); none is ready, since the zero modes carry no flavour structure yet. 0 of 19. |  | 1 |
+| `B1645` | THE HALF BOUND (sealed e77f9b5b3; PROVED -- exact post-seal, machine precision in the run; four tolerance clauses failed as worded, a sealing error, disclosed): a Higgs in M couples by Y(a) = a R^T + R a^T - (a.R) 1, so the theta triplet R (isotropic by Jacobi) is always the massless state; for a real direction s1 s2 = |R|^2|a|^2 and s1^2 + s2^2 = 2|R|^2|a|^2 + |a.R|^2, so m = m2/m3 lies in [1/2, 1], set by one angle (1/2 in R's plane); m vanishes exactly on the isotropic cone a.a = 0 and grows linearly with |a.a|/|a|^2 -- the second-to-third hierarchy is the Higgs's isotropy defect. 0 of 19. |  | 1 |
 
 ## NEGATIVE (344)
 

@@ -1,0 +1,23 @@
+{
+ "id": "B1645",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1644",
+  "B1642"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's fibre at its puncture; given Lambda; zero Wilson line",
+  "object": "the coupling of the zero modes to a Higgs in M (B1644)",
+  "reach": "general",
+  "hypotheses": "the adjoint Higgs at the puncture (B1644's hypothesis); the parent map owed"
+ },
+ "claim_one_line": "THE HALF BOUND (sealed e77f9b5b3; PROVED -- exact post-seal, machine precision in the run; four tolerance clauses failed as worded, a sealing error, disclosed): a Higgs in M couples by Y(a) = a R^T + R a^T - (a.R) 1, so the theta triplet R (isotropic by Jacobi) is always the massless state; for a real direction s1 s2 = |R|^2|a|^2 and s1^2 + s2^2 = 2|R|^2|a|^2 + |a.R|^2, so m = m2/m3 lies in [1/2, 1], set by one angle (1/2 in R's plane); m vanishes exactly on the isotropic cone a.a = 0 and grows linearly with |a.a|/|a|^2 -- the second-to-third hierarchy is the Higgs's isotropy defect. 0 of 19.",
+ "weave_or_thread": "weave"
+}

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1372** |
-| words of findings prose | **1,075,320** |
-| test lock files referenced | **807** |
-| arcs carrying an authored verdict | **1372** (100.0 %) |
+| research arcs with findings | **1373** |
+| words of findings prose | **1,076,053** |
+| test lock files referenced | **808** |
+| arcs carrying an authored verdict | **1373** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 926 |
+| PROVED | 927 |
 | NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1643`** (1470 words, 1 locks)  
-THE CROSSINGS CENSUS (a census arc, the owner's question 2026-10-13): no crossing from the principle's mathematics to a physical number has succeeded -- B915 (15.97 sigma), B925, B929 (shape hit, value miss), B1005 (Tier 2 fired), B1027 with B1063 (all miss), B856 and B1066 (golden-ratio mixing excluded at 4.7 sigma) -- and every one identified an object's number with a physical one by fiat (I-13 unearned); none crossed through a field. The criteria C1-C6 for a crossing through a field (a derived dictionary; admissible kind with the Kahler frame fixed; every choice priced; one-shot sealed; dimensionless; the computed object carrying the tested structure); none is ready, since the zero modes carry no flavour structure yet. 0 of 19.  
-`B1643_the_crossings_census/FINDINGS.md`
+**PROVED — `B1645`** (733 words, 1 locks)  
+THE HALF BOUND (sealed e77f9b5b3; PROVED -- exact post-seal, machine precision in the run; four tolerance clauses failed as worded, a sealing error, disclosed): a Higgs in M couples by Y(a) = a R^T + R a^T - (a.R) 1, so the theta triplet R (isotropic by Jacobi) is always the massless state; for a real direction s1 s2 = |R|^2|a|^2 and s1^2 + s2^2 = 2|R|^2|a|^2 + |a.R|^2, so m = m2/m3 lies in [1/2, 1], set by one angle (1/2 in R's plane); m vanishes exactly on the isotropic cone a.a = 0 and grows linearly with |a.a|/|a|^2 -- the second-to-third hierarchy is the Higgs's isotropy defect. 0 of 19.  
+`B1645_the_half_bound/FINDINGS.md`
 
 **NEGATIVE — `B1644`** (929 words, 1 locks)  
 A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed. 0 of 19.  

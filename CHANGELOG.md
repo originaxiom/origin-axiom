@@ -1,5 +1,21 @@
 # Changelog
 
+## S120 THE HALF BOUND (B1645, PROVED): a Higgs in M couples by Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙 — the theta triplet is the massless state, real directions give m₂/m₃ ∈ [½, 1], and the ratio vanishes exactly on the isotropic cone, so the hierarchy is the Higgs's isotropy defect; the SM seat's W62 rowed and §74 answered
+
+**B1645 (sealed `e77f9b5b3`).**
+- T4 holds: m from t² − (4 + u)t + 4 = 0, m ≥ ½, exactly ½ in R's plane and 1 normal to it.
+- T5: inf m = 0, with slopes 1.000 near R̄.
+- T1, T2, T3 and T5's rank-one clause hold to 10⁻¹⁵–10⁻¹⁷ but fail as worded on tolerances (10⁻²⁵, 10⁻²⁰) the
+  instrument's double precision could not reach. This is a sealing error, an E82 instance. They are proved exactly
+  post-seal (sympy).
+- **Post-seal, labelled:** m = 0 exactly on the isotropic cone a·a = 0 (5·10⁻¹⁶), and grows linearly with
+  \|a·a\|/\|a\|² near it.
+
+**Recorded.** T-HALF-BOUND; LAW_MAP; the claim pool; THE_WEAVE; P-114 done; P-115 sharpened. The SM seat's §73 and W62
+(nothing computed holds τ; every content runs to a cusp) and §74 (answers to main's S114–S118, two asks) are rowed
+(1114–1116; P-117, P-118, P-099 corrected). One relay answers the asks and asks what fixes the Higgs's direction.
+Gates 45 of 45. Full suite: 7297 passed, 0 failed, 68 skipped (exit status 0). 0 of 19.
+
 ## S119 THE CROSSINGS CENSUS (B1643) AND A HIGGS IN THE MULTIPLICITY SPACE (B1644): no crossing to a physical number has succeeded — every one by fiat, none through a field; then the first coupling with flavour structure — a Higgs in M — leaves one generation exactly massless, forced by Jacobi's identity
 
 **B1643** (a census arc; the owner: "did we do any crossing to physics from our mathematical programs principles").
