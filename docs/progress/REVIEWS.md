@@ -6201,7 +6201,7 @@ its dossier (W38 and W40 verify B1615–B1617 with its own code), but the rows s
 - It cannot say whether the owner will send the write-up, or to whom.
 
 ### Action items (Review 62)
-- [ ] R62-1: restore the Codeberg mirror — the owner frees space or raises the quota on the account; then main pushes main (S99, B1621's seal, S100 and after) and mirrors the SM and audit lanes (owner: the owner, then cc; source: §2)
+- [>] R62-1: restore the Codeberg mirror — the owner frees space or raises the quota on the account; then main pushes main (S99, B1621's seal, S100 and after) and mirrors the SM and audit lanes (owner: the owner, then cc; source: §2)
 - [x] R62-2: **resolved at S101 (B1623): the literature checks paid (Lemma F related, not found; T-PERIODIC-CURVE (A) implied by Tillmann–Yao; the other three not found as stated); Lemma F's step (2) verified on main; the N₄₅ from-scratch reading declined with its reason (no claim rests on it; B1604)** — pay what main owes the SM seat — N₄₅'s ζ⁰ eigenspace, interior part, generic class (−1, −10), from scratch; the literature on Lemma F; the four literature checks (T-SLOPE-LAW, T-RANK-BOUND, T-PERIODIC-CURVE, T-MASS-TERM) — **second carry; at the next review resolved, declined with its reason, or waived** (owner: cc; source: §1; carried from R61-2, itself from R60-5, which absorbed R58-5)
 - [x] R62-3: **paid at S103 (B1624): the gate checks `sm:W<n>` against the SM seat's VERIFIED row; run on the record it failed on B1606 resting on the unverified W19; W19's facts verified on main by two routes and B1606's four dependencies declared** — extend `seat-positive-verified` to a seat's dossier items (`rests_on_seat` accepts `sm:W21`-style ids; the gate requires a HARVEST row marked VERIFIED); failing-path test and GATE_CONTROLS row (owner: cc; source: §1; carried from R61-3)
 - [x] R62-4: **paid at S102: `seal_check` reports a change named on the arc's pages with its sealed run kept (or its sealed hash on a '# sealed at' line) as disclosed, not a defect; tested both ways; run on Review 61's window it found two of the five changes not yet disclosed on the page (B1490: files unnamed — addendum written; B1495: no sealed hash recorded — line added)** — the seal tool distinguishes a disclosed post-seal change (the page names the changed file and keeps its sealed run) from an undisclosed one, and reports only the latter (owner: cc; source: §3; carried from R61-4)
@@ -6210,3 +6210,186 @@ its dossier (W38 and W40 verify B1615–B1617 with its own code), but the rows s
 - [x] R62-7: the E85 instance (B1620's rank floor) and the E58 instance (B1619's headline) filed in ERROR_LEDGER; six terms glossed in TERMINOLOGY (this review)
 
 **anchor-commit: `d85301ad5`**
+
+# Review 63 (2026-10-14) — the field window: what the seals catch, what only outside readers caught, and whether the work is banked
+
+Thirty-nine merges since Review 62, against a period of twenty: due, one merge from the block at forty. Written at the
+39th, before the next landing. The window has 39 first-parent commits (`d85301ad5..0bbbb6cab`), 23 arcs with a verdict
+(B1622–B1645) and two sealed arcs not yet banked: B1637, a fit still running, and B1646, run and banked after this
+review. At the owner's request (P-086) this review is also a banking-and-verification audit. At the register's request
+(P-026–P-029) it is also a premise audit. Three agents of main's did the reading (the lanes; the VERIFIED rows, the relied-on
+seat results and the register's DONE rows; the premises), read-only. Main checked every finding taken below against the
+pages before writing it.
+
+**What the window did:**
+- Review 62's items paid: the literature checks (B1623), the seat gate (B1624), the seat's corrections (B1625), the
+  relay closure (B1626).
+- The weave on the ruled branch: W45, W46 and W50 on main; the couplings; the golden spectrum (B1627–B1636).
+- The golden identity, proved from Ramanujan's degree-5 equation (B1638, B1639).
+- The owner's frame audit and the point register (B1640; E88).
+- W46 and the two objects (B1641).
+- The field:
+  - the zero modes' residue (B1642, NEGATIVE: antisymmetric);
+  - the crossings census (B1643: no crossing yet, all by fiat);
+  - a Higgs in the multiplicity space (B1644: one generation massless by Jacobi);
+  - the half bound (B1645).
+
+GENESIS moved v1.35 → v1.43.
+
+**fresh-clone: PASS @ 0bbbb6ca** (gates all PASS; belt ok) · **sample seed: d85301ad5**; to be read in full: B1625, B1626, B1634, B1638, B1645 ·
+**gate controls: 45 registered** failing-path tests; unregistered: none.
+
+## 1. The loop
+
+Review 62's seven items:
+- **Paid:** R62-2 (B1623), R62-3 (B1624), R62-4 (S102), R62-5 (B1626), R62-6 (S101), R62-7 (at the review).
+- **R62-1, the Codeberg mirror, is still open.** The remote's error changed from "Quota exceeded" to "Forgejo: Failed to
+  execute git command" (P-067, with the owner). Codeberg's main stops at 2026-10-08; everything after is on origin only.
+  Carried as R63-1, its first carry.
+
+## 2. The branch inventory, and the lanes against their heads (P-086 a)
+
+Ten unmerged leaves, all registered. **Every lane's harvest pin equals its origin head**, so nothing on any lane is
+unread at headline level. Two gaps were found and repaired here:
+- three of the audit lane's relays of 2026-10-13 had been harvested (rows 1108, 1111, 1113) but not rowed in
+  RELAY_LEDGER; they are rowed now;
+- the retired smlaws lane's pin row lacked its RETIRED marker; it has it now.
+
+Every retired lane is absent from origin and tagged. The rest is P-126 and P-127:
+- the gate code still lists four retired seats;
+- `review-due` reports `harvest_debt --strict`'s failure and exits 0;
+- one relay row is duplicated;
+- fifteen open rows are addressed to retired seats;
+- three lanes are missing from SEAT_REGISTER;
+- one tag misnames a live lane.
+
+## 3. Is the work verified as the rules say? (P-086 b–e)
+
+- **(b) The VERIFIED rows.** The audit read every ledger row since 2026-10-01 whose disposition says VERIFIED, and 15
+  older ones drawn by seed (14 confirmed; one, line 137, names an intake date rather than an arc, its re-run
+  recorded in a B497 addendum). It opened each named arc. It confirmed 41 rows and flagged 13 lines.
+  - **Not defects (2):** xB003 and the referee sweep (884, 920) are claims about main's own record, where reading the
+    record is the check.
+  - **Corrected here (9 lines), each with a dated note keeping the old label visible:**
+    - sm:B1501 (718): the census timed out on main at both limits. The row said "VERIFIED-DIFFERS"; it now says the census
+      was not re-run to completion.
+    - xB032 (913): read in full, nothing recomputed, so CONSISTENT.
+    - W9, W10 and W20–W22 (961, 962, 975, 977, 978): the checks are real and independent, but they sit in B1600's
+      verification/ as addenda, while the rows named B1602 and B1605, whose pages never mention them. B1600 now has the
+      addendum section and the rows cite it. B1606 rests on W19–W22, so this mattered.
+    - W51 (1118): "VERIFIED in part … by hand", while B1634 says registered, not recomputed. Now REGISTERED.
+    - W53 (1127): the input re-fetch is in B1637's preregistration, not B1639.
+  - **Under-labelled, upgraded (1):** xB031 (912), VERIFIED by B1470 (6,435 of 6,435) but never updated.
+  - **To P-125 (2):** sm:B1541 (936) is honest but is a reproduction, not a re-derivation; the three-orbit (949) has no
+    artefact.
+- **(c) The seat results the foundation relies on.**
+  - Most are verified on main (W1–W4, W6, W10, W20–W22, W26, W39, W45, W46, W50, W56's parity rule, and twelve SM-seat
+    arcs GENESIS cites).
+  - Some are rowed as debt (W23, W24, W30, W44, W56's identity, W59, W62).
+  - **Neither:** W42's census, W51's extremum census, W52's count, and a set of SM-seat and audit items GENESIS cites
+    with only a REGISTERED row. Some of those citations are attributions (who named a frame), not reliance. P-124 owes
+    the line-by-line reliance reading.
+- **(d) The register's DONE rows.** All 35 were opened. Every cited arc and file exists. Three are amended:
+  - P-019 was closed by reading, and the identity is not recomputed on main;
+  - P-078's pin is superseded;
+  - P-114 now carries B1645's sealing error.
+
+  P-050 and P-065 rest on the owner's material outside the repository, by design.
+- **(e) The sample in a fresh clone.** The five arcs drawn by seed were read in full. Their five locks pass in a clone at
+  `0bbbb6ca` (12 of 12). Their instruments were re-run there, and every output is byte-identical to the banked one (§8).
+
+**The answer to the owner's question.** The work is banked: every lane is read to its head, every seal preceded its
+results, and every arc's lock passes in a fresh clone. It is mostly verified as the rules say. Where it was not:
+- **The label "VERIFIED" was stretched.** It was applied to reproductions, readings and a timed-out run; those labels are
+  corrected or rowed above.
+- **The foundation leans on seat results never recomputed.** Three in THE_WEAVE, and some in GENESIS, now rowed (P-124).
+
+## 4. The premise audit (P-026–P-029)
+
+- **The frame (P-026).** The window's load-bearing "forced", "every", "only" and "cannot" were judged with their silent
+  premises (20 claims). The frame audit (B1640) had already supplied the premises the record builds on most (the hand,
+  the ansatz, "every coupling at ω"). Its scoping reached GENESIS and LAW_MAP but not every arc's own verdict file. Four
+  repairs are owed and rowed:
+  - **P-119.** GENESIS FK10 still carries B1629's unscoped "(k+1)/2^k at every length … not dynamical" and "B1629 shows
+    it cannot be supplied by the principle's dynamics". B1629's addendum quantifies both. B1631 §1 says main recommended
+    the owner's tagging of the unit on that sentence, while B1629's addendum says the tagging does not rest on it. **The
+    two pages contradict each other.** The tagging itself is the owner's ruling and stands; the repair is the scope, and
+    one correction line.
+  - **P-120.** B1630's "never three distinct" holds only where the inner automorphisms act. On the ruled branch at i,
+    B1635 found three distinct masses, the golden ones. B1630's claim line and THE_WEAVE's bullet are unscoped.
+  - **P-121.** B1634's verdict file still calls the lift convention "forced". B1636's and B1638's verdict lines lack "for
+    the record's hand". B1634's verdict line does not say its headline's second half is post-seal.
+  - **P-122.** B1641's "the only lifts" rests on the Δ⁴ check alone, and "the two objects are one" rests on the seat's
+    reading of the object as M₁,₂. B1642–B1646 build on it.
+- **Post-seal positives (P-027).** B1634 is the clear case: its headline is mostly post-seal (P2–P6, labelled in §4 of
+  its page, not in its verdict line). B1636's mechanism is post-seal and labelled. B1638 is PROVED numerically, with
+  B1639 the proof. B1640 changed GENESIS without a seal; it is an audit arc, and it says so.
+- **Vocabulary drift (P-028), confirmed.** The sharpest miss: **B1290 (September) posed FK10's question, "I-26 becomes a
+  question about the cusp", in older words, and no Seen-first sweep in the window found it.** Others:
+  - B92 (the systole) for B1629's lowest geodesic;
+  - B415 (the Haar limit of the tower measure) for B1633;
+  - B424, B8, B751 and B752 for B1636's golden spectrum;
+  - the ℚ(i) arcs for B1630's τ = i;
+  - B1443, B308 and B632 for B1644.
+
+  Repair: an alias table and full-text sweeps (P-123).
+- **Who catches errors (P-029), measured.** The window disclosed 29 errors:
+  - the sealed cells caught 9 and main's own read-back or subagents 11, all computation-level;
+  - every **premise-level** error was caught from outside main's seal loop: the owner, the owner's archive audit, the
+    audit lane, the SM seat, or the frame-audit lenses the owner asked for;
+  - two sealed cells passed vacuously and were caught by main's read-back, not by the seal (B1630's Z3, B1634's V1 and
+    V2 at length ≤ 10); filed here as an E82 instance.
+
+  The seal protects the computation, not the frame. **A review that audits premises is the standing repair (R63-2).**
+
+## 5. Protocol integrity
+
+- **Seals.** Sixteen in the window, every one sealed before its results. The tools' "not on every remote" is Codeberg
+  (R63-1).
+- **B1644's hash file.** It had a comment on a hash line, which the seal tool read as part of the file name. The comment
+  now has its own line.
+- **Post-seal changes are each disclosed on their page:** B1630 Z3, B1634 P1–P6, B1636 M1–M3, B1641 §2b, B1644's one
+  cast, and B1645's exact identities.
+- **Gates caught two slips before landing:** B1636's seal was pushed after its run (the gate blocked it, disclosed), and
+  B1646's preregistration first carried a lane's full ref with its vendor prefix (the attribution gate blocked it; the
+  leaf is used).
+
+## 6. Advancement, errors, provenance, vocabulary
+
+- **Advancement.** LAW_MAP +12 rows, THEOREM_REGISTRY +16. No row's stated status exceeds its arc, once the scope repairs
+  above are made; until then P-119–P-122 name the four that do.
+- **Errors.** One new class, E88 (the uncarried point). Instances: E85, E58, E65, E82 (three, and the two filed here),
+  E53 and E1 (three). The standing rule E82 asks for (a cell must be able to fail on its domain) is now written into the
+  instance filed here.
+- **Provenance.** Two hits:
+  - B1629's "Independently verified" heading described main's own verifier agents; it is retitled.
+  - The other is a relay row describing main's own second route, which is not a pretense.
+- **Vocabulary.** Eight terms glossed in TERMINOLOGY: the ruled branch, the golden coupling, the unit of end data, given
+  Λ, the multiplicity space M, the theta triplet R, the isotropic cone, the point register.
+
+## 7. What this review cannot certify
+
+- **The lanes' newest items** were read at headline level. Nothing on a lane was re-run here except main's own sample.
+- **Older VERIFIED rows.** The audit's (c) and (d) statuses were spot-checked by main, not all re-derived. The 143
+  VERIFIED rows before 2026-10-01 outside the seeded 15 were not read.
+- **Codeberg.** It cannot say when the mirror will be whole.
+- **B1637's grading** (the fit is still running) is not part of this window.
+
+## 8. The sample's sealed instruments, re-run in the fresh clone
+
+In a clone of `0bbbb6ca`, the five sampled arcs' locks pass (12 of 12). Every instrument of the three computing arcs
+was re-run from its own directory: B1638's `golden_identity.py`, B1645's `half_bound.py`, `post_seal_symbolic.py` and
+`post_seal_cone.py`, and B1634's `w50_on_main.py` and `post_seal_w50.py`. Each exited 0 and rewrote its outputs, and
+git shows no difference: **every output is byte-identical to the banked one.** B1625 and B1626 are ledger arcs; their
+locks are their checks.
+
+### Action items (Review 63)
+- [>] R63-1: restore the Codeberg mirror; then push main and mirror the SM, audit and fork lanes (owner: the owner, then cc; carried from R62-1; P-067)
+- [ ] R63-2: make the premise audit a standing part of every review — each review judges its window's "forced", "every", "only" and "cannot" with their premises — as a governance delta in its own arc (owner: cc; source: P-029, §4)
+- [ ] R63-3: the scope repairs P-119–P-122 in one arc, with GENESIS's scope notes through adoption/amend.py and B1631's correction line; next after B1646's landing (owner: cc; source: §4)
+- [ ] R63-4: the Seen-first alias table and full-text sweep for preregistrations, with a failing-path test, and the late Seen addenda (owner: cc; source: P-123)
+- [ ] R63-5: the reliance reading of GENESIS, THE_WEAVE and LAW_MAP against unverified seat results (P-124), and the REPRODUCED disposition with an artefact for every VERIFIED (P-125) (owner: cc)
+- [ ] R63-6: the enforcement gaps and the seat register (P-126, P-127) (owner: cc; the dependabot branches the owner's)
+- [x] R63-7: filed at this review: nine ledger rows corrected and one upgraded, B1600's addendum, three relay rows, the smlaws marker, B1629's retitle, B1644's hash line, the E82 instance, eight terms glossed, P-119–P-127 rowed, P-019, P-078 and P-114 amended
+
+**anchor-commit: `0bbbb6cab`**

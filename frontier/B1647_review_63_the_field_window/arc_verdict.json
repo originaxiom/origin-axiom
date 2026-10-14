@@ -1,0 +1,25 @@
+{
+ "id": "B1647",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1622",
+  "B1640",
+  "B1641",
+  "B1645"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the review loop, a banking-and-verification audit, a premise audit)",
+  "object": "the record in the window B1622-B1646 (d85301ad5..0bbbb6cab, 39 merges), its lanes, its VERIFIED rows, the seat results its foundation relies on, and the point register's DONE rows",
+  "reach": "general",
+  "hypotheses": "three read-only agents of main's did the reading and main checked every finding taken; the lanes' newest items read at headline level; VERIFIED rows before 2026-10-01 sampled (15 by seed), not all read"
+ },
+ "claim_one_line": "REVIEW 63: THE FIELD WINDOW. Thirty-nine merges since Review 62 (one from the block); fresh clone PASS at 0bbbb6ca; every lane's pin equals its head. The owner's question (P-086): the work is banked -- every lane read to its head, every seal before its results, the sampled locks passing in a fresh clone -- and mostly verified as the rules say, but the label VERIFIED was stretched (nine ledger rows corrected: a census that timed out, readings, checks filed under the wrong arc) and the foundation leans on some seat results never recomputed (rowed, P-124). The premise audit: the seals caught every computation-level error and none of the premise-level ones, which came from outside main's seal loop; four scope repairs owed (P-119 to P-122: FK10's unscoped B1629 sentences, B1630's 'never three distinct', the hand scoping not on every verdict file, B1641's 'only lifts'); vocabulary drift confirmed (B1290 posed FK10's question in September; P-123). R62-1 carried; six items. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

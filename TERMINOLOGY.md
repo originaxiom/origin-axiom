@@ -821,3 +821,24 @@ theorem ledger and conditional claims in `CLAIMS.md`. Write "UNIQUENESS A6", "P0
   E85). The full mixing is 4.
 - **a residual (subgroup)** — a subgroup of the weave's group that a sector's mass term is taken to keep. Three distinct
   masses need an abelian residual (B1620, A2).
+
+## Added at Review 63 (2026-10-14) — the terms minted in the B1622–B1646 window
+
+- **the ruled branch** — the frame in which the weave's moves act on the modulus τ through ⟨L, R⟩ ⊂ SL(2, ℤ) and the
+  inner automorphisms are not moves (B1634): couplings are modular forms in τ for T's multiplier, and τ is the state that
+  breaks the symmetry (B1635).
+- **the golden coupling** — on the ruled branch, the lowest symmetric coupling for the record's hand: the three theta
+  constants placed off the diagonal, whose masses on the tick's geodesic are (1, 1/φ, 1/φ²) exactly (B1636; the identity
+  B1638–B1639). For the record's hand only (B1640).
+- **the unit of end data (the cusp's unit)** — the one unit at the weave's cusp that makes the index of W45/W46 a chiral
+  three; a tagged working postulate (GENESIS v1.39, FK10), so results that use it say "given the unit".
+- **given Λ** — under the tagged postulate that every left-handed field transforms in the weave's triplet T (the SM
+  seat's Λ); results that use it say so.
+- **the multiplicity space M** — the three-dimensional space of the imaginary quaternion units i, j, k on which the fibre's
+  zero modes F_p = C_p F are labelled; a Higgs in M is a Higgs in the adjoint of the quaternion structure (B1644).
+- **the theta triplet R** — the vector of the zero modes' residues, R ∝ (−θ₂², −θ₄², iθ₃²); isotropic (R·R = 0) by
+  Jacobi's θ₃⁴ = θ₂⁴ + θ₄⁴, so a Higgs in M leaves R massless (B1644, B1645).
+- **the isotropic cone** — the complex directions a in M with a·a = 0; a Higgs there gives one massive generation, and
+  the second-to-third mass ratio is the Higgs's distance from the cone (B1645, B1646).
+- **the point register** — `docs/POINT_REGISTER.md`: every point raised (by the owner, a referee lens, a seat, or this
+  seat) rowed the same day with a queue slot, and worked in queue order; the gate `point-debt` (E88).

@@ -587,3 +587,26 @@ campaign, under the owner's reopening of value contact.**
 
 **Derived parameters: 0 of 19.** Next: the dynamics that chooses the vacuum (an energy on what the weave allows, or end
 data at the cusp), the seats' answers, and the review's items R62-1 to R62-6 (R62-1, the Codeberg quota, is the owner's).
+
+## ⟳ VIEW REFRESH — 2026-10-14 (Review 63)
+
+Touched at the Review 63 anchor (`0bbbb6cab`). **The window (B1622–B1646, 39 merges, five days) moved from the weave's
+flavour symmetry to the field: what couples to the matter, and what the coupling leaves free.**
+- On the ruled branch the moves act on the modulus τ. The lowest symmetric coupling for the record's hand has the masses
+  (1, 1/φ, 1/φ²) on the tick's geodesic: one holomorphic identity of degree 5, proved from Ramanujan's modular equation
+  (B1634–B1639). The owner's frame audit scoped this: the hand is a convention, and τ = ω is retired only as "no
+  hierarchy found" (B1640).
+- The fibre's zero modes give no flavour structure by themselves. Their residue coupling is antisymmetric (B1642), which
+  the SM seat and the audit lane found independently.
+- No crossing from the principle's mathematics to a physical number has succeeded. Each one identified numbers by fiat,
+  and criteria for a crossing through a field are now written (B1643).
+- A Higgs in the multiplicity space M gives the first coupling with flavour structure: one generation exactly massless
+  by Jacobi's identity, for every direction and every τ (B1644). The other two have a ratio set by the Higgs's distance
+  from the isotropic cone (B1645). What fixes that direction is B1646's question (sealed, run, banked next).
+- Review 63 audited the banking and the premises:
+  - the work is banked and mostly verified as the rules say;
+  - nine ledger labels were corrected;
+  - four scope repairs are owed (P-119–P-122).
+
+**Derived parameters: 0 of 19.** Next: B1646; the scope repairs; the quark count with a massless first generation
+(P-116); B1637's grading.

@@ -17024,3 +17024,14 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - The SM seat's W62 (every content runs to a cusp) and §74 rowed and answered; next, what fixes the Higgs's direction
   (P-115). 0 of 19.
 - Gates 45 of 45; full suite 7297 passed, 0 failed, 68 skipped.
+
+## 2026-10-14 — REVIEW 63 (B1647): THE FIELD WINDOW
+
+- The owner's question (P-086): the work is banked and mostly verified as the rules say.
+  - Every lane is read to its head; every seal preceded its results.
+  - The sampled instruments reproduce byte for byte in a fresh clone.
+  - Nine ledger labels were stronger than their evidence and are corrected; the seat results the foundation leans on
+    without a recomputation are rowed.
+- The premise audit (P-026–P-029): the seals caught the computation-level errors and none of the premise-level ones.
+  Four scope repairs owed (P-119–P-122); vocabulary drift confirmed (P-123). 0 of 19.
+- Gates 45 of 45 on the commit. Full suite before the commit: 7296 passed, 2 failed, 68 skipped — both failures the views-fresh gate, which counts commits since the new anchor that touch the front-door views and so cannot pass before the review's own commit exists; on the commit it passes, and the 103 gate, ledger, register, review and view test files (with Review 62's and 63's locks) re-run there: 547 passed, 0 failed, 8 skipped.

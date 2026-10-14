@@ -56,7 +56,7 @@ The top is taken at both cusp representatives, ∞ and 0 (related by S), over th
 `verification/cusp_reach.py` (sealed, unchanged), `cusp_reach.json`, `sealed_run/`; `post_seal_cusp.py` and its outputs;
 `adoption/amend.py` (GENESIS v1.37 → v1.38). Kill-graph entry B1629. Test: `tests/test_b1629_does_the_principle_reach_the_cusp.py`.
 
-## 6. Independently verified (B1631, 2026-10-09)
+## 6. Re-derived by main's verifier agents (B1631, 2026-10-09; retitled at Review 63: these are main's own agents, not an outside check)
 
 A verifier agent recomputed every claim without main's code, by two height methods: the continued-fraction value at 40
 digits, and the minimum of the quadratic form det(v, Mv) over integer vectors. A third method, tracing the axis

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1373** |
-| words of findings prose | **1,076,053** |
+| research arcs with findings | **1374** |
+| words of findings prose | **1,076,808** |
 | test lock files referenced | **808** |
-| arcs carrying an authored verdict | **1373** (100.0 %) |
+| arcs carrying an authored verdict | **1374** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 927 |
+| PROVED | 928 |
 | NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1645`** (733 words, 1 locks)  
-THE HALF BOUND (sealed e77f9b5b3; PROVED -- exact post-seal, machine precision in the run; four tolerance clauses failed as worded, a sealing error, disclosed): a Higgs in M couples by Y(a) = a R^T + R a^T - (a.R) 1, so the theta triplet R (isotropic by Jacobi) is always the massless state; for a real direction s1 s2 = |R|^2|a|^2 and s1^2 + s2^2 = 2|R|^2|a|^2 + |a.R|^2, so m = m2/m3 lies in [1/2, 1], set by one angle (1/2 in R's plane); m vanishes exactly on the isotropic cone a.a = 0 and grows linearly with |a.a|/|a|^2 -- the second-to-third hierarchy is the Higgs's isotropy defect. 0 of 19.  
-`B1645_the_half_bound/FINDINGS.md`
+**PROVED — `B1647`** (551 words, 0 locks)  
+REVIEW 63: THE FIELD WINDOW. Thirty-nine merges since Review 62 (one from the block); fresh clone PASS at 0bbbb6ca; every lane's pin equals its head. The owner's question (P-086): the work is banked -- every lane read to its head, every seal before its results, the sampled locks passing in a fresh clone -- and mostly verified as the rules say, but the label VERIFIED was stretched (nine ledger rows corrected: a census that timed out, readings, checks filed under the wrong arc) and the foundation leans on some seat results never recomputed (rowed, P-124). The premise audit: the seals caught every computation-level error and none of the premise-level ones, which came from outside main's seal loop; four scope repairs owed (P-119 to P-122: FK10's unscoped B1629 sentences, B1630's 'never three distinct', the hand scoping not on every verdict file, B1641's 'only lifts'); vocabulary drift confirmed (B1290 posed FK10's question in September; P-123). R62-1 carried; six items. 0 of 19.  
+`B1647_review_63_the_field_window/FINDINGS.md`
 
 **NEGATIVE — `B1644`** (929 words, 1 locks)  
 A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed. 0 of 19.  

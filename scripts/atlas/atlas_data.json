@@ -10807,13 +10807,16 @@
     "eisenstein",
     "golden",
     "z3_generation",
+    "lorentzian",
     "markov_cubic"
    ],
    "refs": [
     "B141",
-    "B148"
+    "B148",
+    "S82",
+    "S85"
    ],
-   "obstacle": "particle_dict",
+   "obstacle": "cancellation",
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
@@ -11711,6 +11714,17 @@
    "obstacle_conf": 8,
    "status": "banked",
    "domain": "physics"
+  },
+  "B1647": {
+   "slug": "review 63 the field window",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
   },
   "B164": {
    "slug": "isomonodromy 04cubic",

@@ -1,5 +1,44 @@
 # Changelog
 
+## REVIEW 63 (B1647): THE FIELD WINDOW — the work is banked and mostly verified as the rules say; the label VERIFIED was stretched in nine rows; every premise-level error in the window was caught from outside main's seal loop
+
+Thirty-nine merges since Review 62, one from the block. It was written at the owner's request as a banking-and-verification
+audit (P-086) and at the register's as a premise audit (P-026–P-029). Three read-only agents of main's did the reading;
+main checked every finding taken against the pages and rejected two.
+- **The mechanical half.** Fresh clone PASS at `0bbbb6ca`; 45 gates, each with a failing-path test; sixteen seals, each
+  before its results.
+- **The seeded sample** (B1625, B1626, B1634, B1638, B1645) was read in full. Its locks pass in the clone, and its six
+  instruments re-run there rewrite their outputs **byte-identical** to the banked ones.
+- **Banked.** Every lane's pin equals its head. Three audit-lane relays were harvested but not rowed; they are rowed now.
+- **Verified, mostly.** Nine ledger rows carried a stronger label than their evidence. They are corrected with dated
+  notes:
+  - sm:B1501's census timed out on main;
+  - xB032 was read, not recomputed;
+  - W9, W10 and W20–W22's real checks sat in B1600's verification/ under arcs that never mention them (B1600 now lists
+    them; B1606 rests on them);
+  - W51 is registered, not recomputed;
+  - W53's arc was wrong.
+
+  xB031 was under-labelled and is upgraded (B1470). Seat results the foundation relies on with neither a recomputation
+  nor a row are rowed (P-124). The VERIFIED label on reproductions goes to a schema proposal (P-125).
+- **Premises.**
+  - Of 29 disclosed errors, the seals and main's read-back caught the computation-level ones. Every premise-level error
+    was caught from outside: the owner, the owner's archive audit, the audit lane, the SM seat, the frame-audit lenses.
+  - Two vacuous sealed cells are filed (E82).
+  - Four scope repairs are owed (P-119–P-122):
+    - GENESIS FK10 still carries B1629's unscoped sentences, and B1631 and B1629's addendum contradict each other on
+      what the owner's tagging rested on;
+    - B1630's "never three distinct";
+    - the hand scoping missing from three verdict files;
+    - B1641's "only lifts", checked at Δ⁴ alone.
+  - Vocabulary drift is confirmed: B1290 posed FK10's question in September in older words (P-123).
+
+**Recorded.** REVIEWS.md (Review 63; anchor `0bbbb6cab`); B1647; R62-1 carried; six action items; ERROR_LEDGER (E82
+instance); TERMINOLOGY (eight terms); POINT_REGISTER (P-119–P-127; P-026–P-029 and P-086 closed; P-019, P-078, P-114
+amended); B1600's addendum; B1629's section retitled (main's own verifier agents, not an outside check); B1644's hash
+line; the views refreshed. 0 of 19.
+Gates 45 of 45 on the commit. Full suite before the commit: 7296 passed, 2 failed, 68 skipped — both failures the views-fresh gate, which counts commits since the new anchor that touch the front-door views and so cannot pass before the review's own commit exists; on the commit it passes, and the 103 gate, ledger, register, review and view test files (with Review 62's and 63's locks) re-run there: 547 passed, 0 failed, 8 skipped.
+
 ## S120 THE HALF BOUND (B1645, PROVED): a Higgs in M couples by Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙 — the theta triplet is the massless state, real directions give m₂/m₃ ∈ [½, 1], and the ratio vanishes exactly on the isotropic cone, so the hierarchy is the Higgs's isotropy defect; the SM seat's W62 rowed and §74 answered
 
 **B1645 (sealed `e77f9b5b3`).**
