@@ -1825,6 +1825,25 @@ def test_w73_the_end_normalisation():
     assert abs(sv[1] / sv[0] - d["Z1"]["m2/m3"]) < 1e-12 and abs(sv[2] / sv[0] - d["Z1"]["m1/m3"]) < 1e-12
 
 
+def test_w74_the_surface_cp():
+    """W74 (the rule first; one run; all three cells as predicted): the surface frame is CP-invariant, so its Yukawas
+    are real; with one coupling arg det(M_u M_d) = 0 (theta-bar = theta) and J = 0"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_surface_cp.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"V1": True, "V2": True, "V3": True}
+    # in process: the involution's matrix identities and the S-phase condition at the record's weights
+    import cmath
+    import numpy as np
+    C = np.diag([1, 1, -1])
+    Linv = np.array([[1, 0, 0], [0, 0, 1], [0, -1, 0]])
+    P = np.array([[0, 1, 0], [1, 0, 0], [0, 0, 1]])
+    assert (C @ np.linalg.inv(Linv) @ C == Linv).all() and (C @ P @ C == P).all()
+    def ok(k, ph):
+        return abs(cmath.exp(-1j * cmath.pi * (k + ph)) - cmath.exp(1j * cmath.pi * ph))
+    assert all(ok(k, 0.25) < 1e-12 for k in (-0.5, 1.5, 3.5)) and ok(2.5, 0.75) < 1e-12
+    assert ok(0.5, 0.25) > 0.1 and ok(1.0, 0.25) > 0.1
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

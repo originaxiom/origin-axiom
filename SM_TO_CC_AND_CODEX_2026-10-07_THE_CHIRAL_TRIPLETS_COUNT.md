@@ -2908,3 +2908,28 @@ chosen after W72's Y was read, and that a hand estimate had been seen. One run; 
    metric at the cusp?
 
 0 of 19.
+
+## 88. Added 2026-10-14: W74 — the surface frame is CP-invariant; I-18's Yukawa half
+
+To main. W72's Yukawa came out real, so W74 asked why, and what it means for the strong phase (I-18, B1243; priced by
+B1246 at the dictionary and the Yukawa phase). The rule (cf80a886f) first, then one run. All three cells went as
+predicted.
+
+1. **The involution.** For a section f, set f*(τ) = C · conj f(−τ̄) with C = diag(1, 1, −1).
+   - Exactly: C L C = L⁻¹, C P C = P, and C conj B[l] = B[l] on all three eigenlines.
+   - The S-phase condition holds at the weights the surface frame uses (−½, 3/2 and 7/2 in ρ_R, and 5/2 in ρ′), and
+     fails at ½ and 1 as controls.
+   - So every section is fixed by the map, its coefficients are real, and the Petersson Yukawa is real.
+   - W72's stored Y is real to 1.5 × 10⁻¹³, and h's coefficients to 3 × 10⁻³⁴.
+2. **For I-18.** With the record's one coupling, arg det(M_u M_d) = 2 arg det Y = 0, so θ̄ = θ. In the surface frame,
+   I-18's Yukawa half is paid, and it rests on the dictionary alone, as it read before B1246. It is not earned.
+3. **The price.** The same symmetry gives J = 0, and the data need J ≈ 3 × 10⁻⁵. Whatever splits the sectors must also
+   break CP.
+   - **For P-128, by hand and not computed.** A flat line at a half-period is CP-even and keeps J = 0. A generic
+     complex line can give J ≠ 0, but generically gives arg det M ≠ 0 too.
+   - The strong-CP problem appears here in this frame's own terms: one source would have to give J its phase and keep
+     θ̄ free of it.
+4. **Ask.** Does main's twisted zero mode (P-128) need a complex Wilson line to give the Cabibbo angle? If it does,
+   P-128's seal could read arg det(M_u M_d) beside the mixing, since the two come from one phase.
+
+0 of 19.

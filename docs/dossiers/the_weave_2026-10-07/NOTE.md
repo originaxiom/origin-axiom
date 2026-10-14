@@ -190,6 +190,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   1 : 0.019 : 0.0004. With one coupling it fails the data as a whole (χ² 379, no mixing). The down sector's closeness
   (z = 0.26) is post hoc and not significant (p = 0.058). The lightest generation is the v₊ mode, B1649's null
   direction, lifted.
+- W74 (I-18's Yukawa half; rule first; all three cells as predicted): the surface frame is CP-invariant. The
+  orientation reversal τ ↦ −τ̄ with C = diag(1, 1, −1) fixes every section, so its Yukawas are real. With one coupling
+  θ̄ = θ: I-18's Yukawa half is paid in this frame, and its dictionary half stands. The same symmetry gives J = 0, so
+  whatever splits the sectors must also break CP.
 
 ## The setting
 
@@ -6060,6 +6064,53 @@ which was chosen post hoc).**
 **Status.** COMPUTED (the rule first; one run; all four cells as predicted). Post hoc in its choice of H-end. A WEAVE
 result given the stated hypotheses. 0 of 19.
 
+## W74. The surface frame is CP-invariant: its Yukawas are real, so with one coupling θ̄ = θ (I-18's Yukawa half paid in this frame), and the same symmetry forbids the CKM phase (`the_surface_cp.py`; `W74_RULE.md`)
+
+**Why.**
+- **The strong phase θ̄ is one of the 19.** The record's I-18 reads it through the object's Chern–Simons 2-torsion.
+  B1246 priced earning it at the dictionary and the Yukawa phase, since θ̄ = θ + arg det M.
+- W72's Yukawa came out real to 10⁻¹³.
+
+**The order.**
+- **The rule first** (`W74_RULE.md`, cf80a886f). It disclosed W72's stored Y and the hand argument.
+- **The script** (4da98fa23), committed before its run.
+- **The run.** One run; its output committed before the read-out (9048aa9a4).
+
+**The read-out (COMPUTED, exact where stated; all three cells as predicted).**
+- **V1, the involution (exact).** For a section f, set f*(τ) = C · conj f(−τ̄) with C = diag(1, 1, −1).
+  - C L C = L⁻¹ and C P C = P.
+  - The S-phase condition holds for ρ_R at weights −½, 3/2 and 7/2, and for ρ′ at 5/2. As controls, it fails at ½
+    and at 1.
+  - C conj B[l] = B[l] on all three eigenlines.
+  - So the map f ↦ f* preserves every space of sections the surface frame uses. With each one-unit space
+    one-dimensional and normalised by a real coefficient, every section has real coefficients.
+- **V2, the reality in the data.** W72's Y has |Im Y| at most 1.5 × 10⁻¹³ of its largest entry at Y₀ = 2.0, and
+  9 × 10⁻¹⁷ at Y₀ = 1.25. h's stored coefficients have |Im| at most 3 × 10⁻³⁴.
+- **V3, the consequences.** arg det(Y Y) = 2 × 10⁻¹³. Two identical sectors give the CKM matrix 1 to 8 × 10⁻¹⁶, and
+  J = 0.
+
+**The read-outs (no prior).**
+- det Y is 1.23 × 10¹⁰, positive, with eigenvalues −76 597, −57.4 and +2 788.
+- W73's H-end form has eigenvalues −74 233, −28.7 and +1 438, with positive determinant.
+
+**What it shows (a READING; given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf).**
+- **The surface frame is CP-invariant.** The modular curve's orientation reversal τ ↦ −τ̄, together with C, maps every
+  section the frame uses to itself. Its Yukawas are therefore real.
+- **So in this frame the Yukawa half of I-18's price is paid.** With the record's one coupling, arg det(M_u M_d) =
+  2 arg det Y = 0, so θ̄ = θ. With different real couplings per sector it would be 0 or π. I-18 then rests on the
+  dictionary alone, as it read before B1246. It is not earned: the dictionary half stands.
+- **But the same symmetry forbids the CKM phase.** J = 0 here, and the data need J ≈ 3 × 10⁻⁵.
+- **So whatever splits the sectors must also break CP.** By hand, for main's P-128, not computed:
+  - a flat line at a half-period is CP-even and keeps J = 0;
+  - a generic complex line breaks CP and can give J ≠ 0, but generically gives arg det M ≠ 0 as well.
+
+  That is the strong-CP problem in this frame's terms: the phase the data need in J, and must not have in θ̄, both
+  come from one place.
+- **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19.
+
+**Status.** COMPUTED (the rule first; one run; all three cells as predicted; exact where stated). A WEAVE result given
+the stated hypotheses. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6245,6 +6296,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W71 | COMPUTED (the rule first; one run after one failed launch; all five cells as predicted; exact, with a numerical second route); a WEAVE result given the audit lane's embedding and parent, and Λ | the field-free end: on the forced quaternion holonomies, flat end data that gap every channel exist (the double twist, a generic R-holonomy, a weak Wilson line), giving up the dictionary, the R-symmetry or U(1)_em; with SU(3)_c × U(1)_em kept and gauge data only the end stays bare (448 gapless pairs); P024's passage holds only given Λ's dictionary, no R-holonomy and U(1)_em. 0 of 19 |
 | W72 | COMPUTED (the rule first; one run after one failed launch; X1 and X4 as predicted; X2, X3 and X5 failed as worded on instruments, confirmed by two labelled post hocs); a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf | the surface frame's Yukawa: B1644's coupling has no residue at the cusp (η¹²'s multiplier); its Petersson pairing with the Higgs's unique weight-5/2 surface mode is a parameter-free form of rank 3, so τ drops out and B1649's zero does not survive; the three modes are not normalisable, so no mass ratio is defined yet; R·F₊ ≡ 0. 0 of 19 |
 | W73 | COMPUTED (the rule first; one run; all four cells as predicted); post hoc in its choice of H-end; a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, H-surf and H-end | the masses under the end's normalisation: 1 : 0.0194 : 0.00039, parameter-free; with one coupling W66's predicate fails (χ² 379; z_up 16, z_lepton −11) and the CKM matrix is 1; z_down = 0.26, not significant (p = 0.058); the lightest generation is the v₊ mode, where R's unit sits. 0 of 19 |
+| W74 | COMPUTED (the rule first; one run; all three cells as predicted; exact where stated); a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf | the surface frame's CP: the orientation reversal with C = diag(1, 1, −1) fixes every section, so the Yukawas are real; with one coupling arg det(M_u M_d) = 0 and θ̄ = θ (I-18's Yukawa half paid here, its dictionary half standing); J = 0, so what splits the sectors must break CP. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -6308,6 +6360,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W71_RULE.md`: the rule, committed before the code; `the_field_free_end.py` → `the_field_free_end.json`: W71, the field-free end (the twists, the gauge Wilson lines, the R-holonomies, the model operator, the verdict).
 - `W72_RULE.md`: the rule, committed before the code; `the_surface_yukawa.py` → `the_surface_yukawa.json`: W72, the surface frame's Yukawa (the multipliers, the Higgs's surface mode, the Petersson pairing and its rank, the modes' norms); post hoc (labelled) `the_surface_yukawa_posthoc.py` → `the_surface_yukawa_posthoc.json` and `the_surface_yukawa_posthoc2.py` → `the_surface_yukawa_posthoc2.json`.
 - `W73_RULE.md`: the rule, committed before the code; `the_end_normalisation.py` → `the_end_normalisation.json`: W73, the masses under the end's normalisation (H-end, post hoc), the data comparison and the look-elsewhere figure.
+- `W74_RULE.md`: the rule, committed before the code; `the_surface_cp.py` → `the_surface_cp.json`: W74, the surface frame's CP (the involution's identities, the reality of W72's data, arg det and J).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

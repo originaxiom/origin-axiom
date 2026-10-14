@@ -18874,3 +18874,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The real test comes next.** Once main's work gives each kind of particle its own coupling, this same calculation
   can make a prediction before any data are looked at. 0 of 19.
 
+## 2026-10-14 — W74: the surface's mirror symmetry and the strong-force angle
+
+- **The question.** One of the 19 free numbers is the strong force's CP angle, θ̄. The record ties it to a topological
+  number of the weave, but only if the couplings add no phase of their own.
+- **The answer in the surface frame.** The surface has a mirror symmetry that makes all its couplings real. So they
+  add no phase to θ̄: half of what that number needs, in this frame.
+- **The price.** The same symmetry forbids the small CP-violating phase that quark mixing does have. Whatever makes up,
+  down and lepton couplings differ must also break this mirror. That is the strong-CP puzzle, showing up in the weave's
+  own terms.
+- All three predictions held. The count of free numbers: 0 of 19.

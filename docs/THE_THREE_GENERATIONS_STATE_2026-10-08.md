@@ -499,6 +499,11 @@ Under the owner's rulings, the table's rows split into two groups:
   - With one coupling for every sector it fails the data (χ² 379, no mixing). The down sector's closeness (z = 0.26)
     is post hoc and not significant (p = 0.058).
   - The lightest generation is the v₊ mode, B1649's null direction, lifted. 0 of 19.
+- **W74, the surface frame's CP (rule first; all three cells as predicted):**
+  - The orientation reversal τ ↦ −τ̄ with C = diag(1, 1, −1) fixes every section, so the surface frame's Yukawas are
+    real.
+  - With one coupling, θ̄ = θ: I-18's Yukawa half is paid in this frame, and its dictionary half stands.
+  - The same symmetry gives J = 0, so whatever splits the sectors must also break CP. 0 of 19.
 
 ## Questions open with main
 
@@ -514,7 +519,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W73 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W74 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§87).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§88).

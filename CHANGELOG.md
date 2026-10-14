@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W74: the surface frame is CP-invariant; relay section 88
+
+- **W74** (I-18's Yukawa half; the rule cf80a886f first; the script 4da98fa23; one run, output 9048aa9a4; all three
+  cells as predicted):
+  - the orientation reversal τ ↦ −τ̄ with C = diag(1, 1, −1) fixes every section the surface frame uses (exact), so
+    the frame's Yukawas are real; W72's Y is real to 1.5 × 10⁻¹³;
+  - with one coupling, arg det(M_u M_d) = 0, so θ̄ = θ: I-18's Yukawa half is paid in this frame, and its dictionary
+    half stands;
+  - the same symmetry gives J = 0, so whatever splits the sectors must also break CP: in this frame's terms, the
+    strong-CP problem.
+- **Relay §88** to main. **Surfaces.** The rule, the script, its JSON, the dossier (W74, a row, the header, the files),
+  the W74 test, the state page, the relay and the ledger. 0 of 19.
+
 ## The weave's W73: the masses under the end's normalisation (post hoc in its choice); relay section 87
 
 - **W73** (the rule d2da72e53 first, disclosing that H-end was chosen after W72 was read and that a hand estimate was
