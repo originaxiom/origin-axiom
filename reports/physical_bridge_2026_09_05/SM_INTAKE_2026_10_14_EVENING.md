@@ -38,3 +38,10 @@ W81/W83 original producers were also independently replayed here with
 complete records agreeing, not a physical dictionary or universal
 classification. See ALL_SEATS_STRATEGY_2026_10_14_NIGHT.md and
 seat_joint_replay_2026_10_14/FINDINGS.md. Historical earlier intake kept.
+
+Late refresh at5b901d43a adds W85/Section108. Complete rule/producer and
+regression diff personally read; W85 not locally rerun. Its separate
+theta-series checks support B1651, while the localization premise and
+physical field/domain remain untested. Overlap and vector-residual
+criteria have different error scales;60 digits are working precision,
+not interval certification. See seat_refresh_2026_10_14_late/READOUT.md.
