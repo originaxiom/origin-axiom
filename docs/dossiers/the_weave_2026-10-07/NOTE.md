@@ -178,7 +178,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   audit lane's E₈ embedding the admissible hypercharge is unique up to permuting the three quaternion units:
   (1/6, −5/6, 2/3). Under it the lane's own cusp condensate is the neutral component of a Y = −½ doublet and leaves
   SU(3)_c × U(1)_em, so the field at the weave's end carries the Higgs's charges. The same hypercharge tells the three
-  units apart, so the generations are not the gauge embedding's 6.
+  units apart, so the generations are not the gauge embedding's 6. *(Scoped 2026-10-14 by the audit lane's full based
+  gauge completion, b31fab231: on that global flat background the specified weak roots and the tracefree diagonal
+  block hypercharge do not survive, so W70's local choice cannot be copied to it. W70's statement is about the
+  puncture's holonomies, not that background.)*
 - W71 (P024's second test; rule first; all five cells as predicted; exact, with a numerical second route): on the
   weave's forced quaternion holonomies, flat end data that gap every channel exist. They are the double R-twist, a
   generic R-symmetry holonomy, and a weak Wilson line, and each gives something up: the dictionary, the R-symmetry, or
@@ -203,10 +206,14 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   B1224's bit survives as the reality of mirror-paired weave sums. At weight zero the field at a genuine cusp is the
   uniformization in the log frame, with pointwise size 1/(2R) and no free number; the record's κ = −2 is the frame's
   −1 on its unipotent monodromy. A hierarchy would be a depth (a warp factor e^{−d}), and nothing forces one.
+  *(Caveat 2026-10-14: the audit lane has sealed an audit, e0f51c494, of whether its spinor-valued condensate is an
+  ordinary Higgs field at all. "Three routes agree" compares magnitudes, ½, across what may be two types.)*
 - W76 (the weave's β-odd bit; rule first; all four cells as predicted): every mirror-symmetric thread to length 16
   (248 of 8 798) has Chern–Simons exactly 0, never π²/2. So wherever the weave carries B1224's bit, the bit is 0. With
   W74's arg det M = 0, θ̄ = 0 given L192's dictionary; δ_CKM (1.14 rad) is not a bit and must come from the sector
-  split. The count after the field, by kind, is a reading beside it: still 0 of 19, with θ̄ the nearest.
+  split. The count after the field, by kind, is a reading beside it: still 0 of 19, with θ̄ the nearest. *(Corrected
+  2026-10-14 by chat1's T-SIGN: the bit is the sign of the monodromy. The minus threads carry π²/2, so the 0 found here
+  is GENESIS GM5d's positivity, a convention of the grammar, not something the weave forces.)*
 - W77 (the audit lane's ask; rule first; all five cells as predicted): the lane's odd form estimate reviewed on this
   seat's instruments. Its brackets, spin connection, cross form {V, H} = K₃E₃ + K₄E₄ and coefficient norms are
   reproduced exactly, in a second gamma representation. Its identity and inequality (1) hold on 40 numerical test
@@ -6255,6 +6262,9 @@ outside O1's space"), and in M, the weave's quaternion SU(2), not in the lane's 
     rescaling (z = e^{2πiw} with w ↦ w + 1).
   - Its pointwise size is half the inverse curvature radius: the uniformization's own size. Three routes agree:
     chat1's post hoc (½), the audit lane's q̂ = E/2, and U4.
+  - *Caveat (2026-10-14).* The lane's q̂ is spinor-valued in its (1,1) parent (q = cE/√y), while a Higgs field is a
+    one-form (cE/y). The agreement is of magnitudes, not yet of types. The lane's sealed audit (e0f51c494) tests the
+    identification, and §91's reading waits on it.
 - **The record's κ = −2 is the half-canonical frame's −1 on a unipotent monodromy.** The trace −2 is forced for the
   punctured torus, since the commutator does not depend on the lift. U3 shows it is what the nilpotent model gives in
   the frame (dz)^{±½}. This adds to §91's reading: the field at the puncture is the uniformization, and its sign at
@@ -6305,6 +6315,11 @@ not a quantity of the joint action. 0 of 19.
 **What it shows (a READING).**
 - **Wherever the weave carries a β-odd bit, the bit is 0.** The weave's own mirror-symmetric threads never carry
   π²/2, to length 16. This is a census, not a proof; the seat found no proof by hand.
+  - *Corrected 2026-10-14 by chat1's T-SIGN* (sealed at 50352be3a; every cell held). The bit is exactly the sign of
+    the monodromy: 120 of 120 swap-symmetric minus threads carry π²/2 (to length 14), and flipping the sign shifts CS
+    by exactly π²/2 (224 of 224 words to length 10). So the 0 found here is the positive weave's. It is GENESIS GM5d's
+    positivity, a convention of the grammar, not a selection the weave makes. If the sign move (GENESIS GM5b) is in
+    the weave, the bit is the sign. θ̄ = 0 below is then "given positivity" as well as given L192's dictionary.
 - **For θ̄ (I-18), not earned.** In the surface frame with one coupling, arg det M = 0 (W74). If θ is read as the
   weave's bit (L192's dictionary), θ̄ = 0, which the data allow. Two things are still owed:
   - that dictionary (B813 refuted the value dictionary; the bit dictionary is untested);
@@ -6346,6 +6361,8 @@ now say. The arcs cited win where this summary disagrees.
 - **Still 0 of 19.** No number is earned.
 - **The nearest is θ̄.** It needs two owed things and no free input: L192's dictionary, and a sector split that keeps
   arg det(M_u M_d) at 0 while giving J ≠ 0. Main's P-128 seal can test the second directly.
+  - *Corrected 2026-10-14 (chat1's T-SIGN):* the weave's bit is 0 because of GENESIS GM5d's positivity, which is a
+    convention, so θ̄ = 0 here is also "given positivity".
 - **One number has become the unit.** v's size is the fibre's own, if the uniformization reading holds. That moves it
   from "unsourced" to the reader's unit, which is the box the ledger already gave it. It does not count as derived.
 - **Everything else waits on one input: what splits the sectors.** With one coupling the frame is rigid, with no free

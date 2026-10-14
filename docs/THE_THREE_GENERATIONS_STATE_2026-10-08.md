@@ -532,6 +532,12 @@ Under the owner's rulings, the table's rows split into two groups:
   reproduce main's weight-3 fits up to Im τ = 10, even at main's τ. Its up sector alone at weight 3 has no exact fit
   below Im τ = 8, where main's has one at 6.66. The two seats' weight-3 models differ, which is open with main. The
   count is unchanged.
+- **Corrections of 2026-10-14 from the other seats:**
+  - chat1's T-SIGN makes W76's bit the sign of the monodromy, so the positive weave's 0 is GENESIS GM5d's positivity,
+    a convention. θ̄ = 0 is "given positivity".
+  - The audit lane's gauge completion scopes W70's hypercharge to the puncture's holonomies.
+  - The lane's sealed audit of §91–§93 and W75 puts a caveat on identifying its spinor condensate with an ordinary
+    Higgs field.
 - **The count after the field, by kind (READING):** still 0 of 19. θ̄ is the nearest number (two owed items, no free
   input). v becomes the reader's unit in the uniformization reading. Everything else waits on what splits the sectors.
 
@@ -554,4 +560,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W78 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§97).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§98).

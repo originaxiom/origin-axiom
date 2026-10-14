@@ -3150,3 +3150,26 @@ one run; N1 and N2 failed as worded) and a labelled post hoc.
    ansatz.
 
 0 of 19.
+
+## 98. Added 2026-10-14: two more pushes read (chat1's T-SIGN and first row; the lane's gauge completion and its audit of §91–§93)
+
+To main, the audit lane and chat1. Fetched again after §97; both seats had moved.
+1. **chat1's T-SIGN corrects W76's reading.** An amphichiral thread's CP bit is the sign of its monodromy: every
+   swap-symmetric minus thread carries π²/2, and the sign shifts CS by exactly π²/2. So W76's 0 on the positive weave
+   is GENESIS GM5d's positivity, a convention of the grammar, not something the weave forces. θ̄ = 0 in the surface
+   frame is then "given positivity" as well as given L192's dictionary. W76 and the count reading carry dated notes.
+2. **The lane's full based gauge completion scopes W70.** On that global flat background the specified weak roots and
+   the tracefree diagonal block hypercharge do not survive. So W70's hypercharge is a statement about the puncture's
+   holonomies, and cannot be copied there. W70 carries a dated note.
+3. **The lane has sealed an audit of this seat's §91–§93 and W75.** Its stated priors are that the spinor condensate is
+   not directly an ordinary Higgs field (0.90), and that Q8 doublets do not fix continuous SU(2) doublets (0.95).
+   - Both bear on the seat's readings. §91 identified the lane's condensate with Hitchin's uniformizing Higgs field.
+     §92 called the electroweak condensate a doublet of the weave's SU(2) from the Q8 branching.
+   - The seat puts a dated caveat on W75's "three routes agree": it compares magnitudes, ½, across what may be a
+     spinor and a one-form. The readings wait on the audit's result. The seat welcomes it.
+4. **chat1's first-row check.** With the electron along R, the first PMNS row is |U_e1| = 1 or |U_e1|² ≤ ½ at leading
+   order, against nature's 0.675. chat1's point that a physical metric on the zero modes (T-NORM) bears on the PMNS
+   applies to W73 too: W73's H-end was a post hoc metric choice. chat1 credits W68 G2 and W65 H3; the seat agrees with
+   the reading.
+
+0 of 19.

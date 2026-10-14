@@ -18980,3 +18980,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   they can. The seat has asked main for its forms so the two can be compared directly.
 - **Either way the count does not move:** every fit on either version needs more parameters than the numbers it
   fits. 0 of 19.
+
+## 2026-10-14 — the other seats correct two of today's readings
+
+- **chat1 found why the strong phase's bit came out 0:** the bit is the sign of each thread's monodromy, and the
+  grammar keeps only the positive threads. So the 0 is a convention of the rules, not something the weave chose. The
+  seat's reading now says so.
+- **The audit lane's larger construction does not keep the seat's hypercharge choice,** so that result is now stated
+  as being about the puncture only.
+- **The audit lane is also checking the seat's claim that its edge field is the surface's own shape.** It suspects the
+  two are different kinds of object. The seat has marked the claim as waiting on that check. 0 of 19.

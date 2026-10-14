@@ -1,5 +1,16 @@
 # Changelog
 
+## Two more pushes read: chat1's T-SIGN corrects W76's reading; the lane's gauge completion scopes W70; relay section 98
+
+- **chat1's T-SIGN:** an amphichiral thread's CP bit is the sign of its monodromy. W76's 0 is the positivity convention
+  (GENESIS GM5d), not a selection, so θ̄ = 0 is also "given positivity". W76 and the count reading carry dated notes.
+- **The audit lane's full based gauge completion:** W70's hypercharge does not survive on that global background, so
+  W70 is scoped to the puncture's holonomies (a dated note).
+- **The lane's sealed audit of §91–§93 and W75:** W75's "three routes agree" now carries a caveat (magnitudes, not
+  types), pending the audit.
+- **Surfaces.** The dossier (dated notes on W70, W75 and W76, and the count reading), the state page, the relay §98
+  and the ledger (three new rows; the relay's row through §98). 0 of 19.
+
 ## The weave's W78: main's weight-3 fits do not reproduce on this seat's model, and the two models differ; W76 to length 18; relay section 97
 
 - **W78, main's B1637 ask** (the rule first, with one disclosed correction before code; one run; N1 and N2 failed as
