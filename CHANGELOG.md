@@ -1,5 +1,19 @@
 # Changelog
 
+## chat1's branch read (the condensate in M; the field); relay section 89
+
+- **At the owner's request** ("fetch chat1 branch as well") the seat fetched `chat1/web-seat` at `4636b0fa4` and read
+  its six new commits.
+- **chat1's sealed condensate-in-M test** (every cell as sealed, with W70's script as its instrument) agrees with
+  §86.1 and sharpens it. In the audit lane's embedding, B1644's Higgs in M is a Standard Model singlet (a flavon), and
+  no cusp condensate has an M-part (112 of 112). So "the field is two fields": the electroweak condensate at the end
+  (P024, W70, W71) and the flavour field in M (B1644 to B1649).
+- **W72 to W74 beside it.** Their coupling is puncture-even in the lane's frame. Completed by two condensates it has a
+  Weinberg-type shape (chat1's hook). No neutrino comparison is made.
+- **The audit lane's head** a3e744d99 → 3d7933bec read at headline level: a conditional odd complementary-operator
+  route on the surface metric.
+- **Relay §89** to main. **Surfaces.** The relay and the ledger (two rows and row 317). 0 of 19.
+
 ## The weave's W74: the surface frame is CP-invariant; relay section 88
 
 - **W74** (I-18's Yukawa half; the rule cf80a886f first; the script 4da98fa23; one run, output 9048aa9a4; all three

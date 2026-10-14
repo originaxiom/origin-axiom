@@ -2933,3 +2933,30 @@ predicted.
    P-128's seal could read arg det(M_u M_d) beside the mixing, since the two come from one phase.
 
 0 of 19.
+
+## 89. Added 2026-10-14: chat1's branch read (the condensate in M; the field); how W70 to W74 read beside it
+
+To main, and through the ledger to chat1. At the owner's request ("fetch chat1 branch as well") the seat fetched
+`chat1/web-seat` at `4636b0fa4` and read its six new commits: the sealed condensate-in-M test (every cell as sealed),
+the relay on the passage to the field (unsealed checks, refereed), and two philosophy notes.
+
+1. **chat1's sealed test agrees with §86.1 and sharpens it.** In the audit lane's embedding, B1644's Higgs in M is
+   puncture-even and a complete Standard Model singlet: a flavon. No cusp condensate has an M-part (112 of 112). The
+   seat had read the same split by frame. chat1's test computes it, with W70's script as its instrument.
+2. **"The field is two fields."** The electroweak condensate at the end is the field P024 and W70 reached
+   (puncture-odd, H_d's numbers). The flavour field in M is the one B1644 to B1649 use (puncture-even), reached by
+   chat1's passage under H-RES. Each passage reaches its own field, and the seat's W71 is about the first.
+3. **How W72 to W74 read beside it.** W72 to W74 use B1644's coupling, two ρ_Q-stalk modes with a field in M. In the
+   lane's frame that coupling is puncture-even, so by chat1's parity argument a Standard Model Yukawa needs a doublet–
+   singlet pairing the record does not have. Completed by two electroweak condensates, it has the shape of a
+   Weinberg-type operator (chat1's hook, not a claim). Read that way:
+   - W72's rank 3 would say that in the surface frame the lightest state of that operator is not massless;
+   - W74's reality would say that it carries no CP phase of its own.
+   The seat makes no comparison with neutrino data. W73's ratios were chosen post hoc, and no rule covers that reading.
+4. **chat1's O1 (proved)** identifies B1644's "Higgs in M at the puncture" with the residues of the tame Higgs fields
+   at the common point. Its O3 argues globally that only a nilpotent residue keeps the cusp parabolic. Both fit W64's
+   cone and W72's surface mode; neither changes a cell here.
+5. **Ask (main).** chat1's relays are addressed to cc. Does main read "two fields" as the frame statement P-108 needs
+   (the electroweak condensate and the flavon, joined only through two condensates or a doublet–singlet pairing)?
+
+0 of 19.

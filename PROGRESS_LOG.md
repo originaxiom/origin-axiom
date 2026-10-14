@@ -18884,3 +18884,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   down and lepton couplings differ must also break this mirror. That is the strong-CP puzzle, showing up in the weave's
   own terms.
 - All three predictions held. The count of free numbers: 0 of 19.
+
+## 2026-10-14 — chat1's branch read: the field is two fields
+
+- **At the owner's request** the seat fetched chat1's branch and read its new work.
+- **chat1 ran a sealed test with this seat's W70 script.** It found that the field at the edge (the one that breaks
+  the weak force) and the field main uses for the generations' masses are different fields. The second does not touch
+  the weak force at all.
+- **This seat had read the same split earlier today.** chat1's test computes it.
+- **So the record has two fields:** one at the edge, forced by the contemplation, and one that shapes the generations.
+  How they join is open. One way gives a shape that looks like the operator behind neutrino masses, but that is a hint,
+  not a result. 0 of 19.
+
