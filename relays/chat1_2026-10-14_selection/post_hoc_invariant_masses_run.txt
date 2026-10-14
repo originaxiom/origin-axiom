@@ -1,0 +1,126 @@
+/tmp/thread_frame_sm_qmiw8q62/frontier/B1538_the_puncture_characters/verification/punct_covers.py:13: SyntaxWarning: invalid escape sequence '\G'
+  - Gamma acts on the right cosets H\Gamma = D (H u <-> ubar for u in F) by
+modules loaded 2.8
+forms built 337.0
+LLLLLLLR {'reflection-symmetric': True, 'old vs new, worst relative': 1.870424509848529e-16, 'new m2/m3': 6.910034060763954e-11, 'admitted (new)': False}
+LLLLLLR {'reflection-symmetric': True, 'old vs new, worst relative': 4.656438766139905e-16, 'new m2/m3': 1.8759508118558306e-09, 'admitted (new)': False}
+LLLLLLRR {'reflection-symmetric': True, 'old vs new, worst relative': 2.206773374848438e-16, 'new m2/m3': 2.9986970913489074e-08, 'admitted (new)': False}
+LLLLLR {'reflection-symmetric': True, 'old vs new, worst relative': 1.2687356113465473e-16, 'new m2/m3': 5.215779269725808e-08, 'admitted (new)': False}
+LLLLLRLR {'reflection-symmetric': True, 'old vs new, worst relative': 3.4325081312538354e-16, 'new m2/m3': 2.810213924694494e-07, 'admitted (new)': False}
+LLLLLRR {'reflection-symmetric': True, 'old vs new, worst relative': 2.4211165116109843e-16, 'new m2/m3': 6.985294095743758e-07, 'admitted (new)': True}
+LLLLLRRR {'reflection-symmetric': True, 'old vs new, worst relative': 4.798444633111251e-16, 'new m2/m3': 1.137815129978389e-06, 'admitted (new)': True}
+LLLLR {'reflection-symmetric': True, 'old vs new, worst relative': 3.9840330551217713e-16, 'new m2/m3': 1.5507416588606936e-06, 'admitted (new)': True}
+LLLLRLLR {'reflection-symmetric': True, 'old vs new, worst relative': 3.3939324070114015e-16, 'new m2/m3': 3.743590821834484e-06, 'admitted (new)': True}
+LLLLRLR {'reflection-symmetric': True, 'old vs new, worst relative': 1.0485698024178001e-15, 'new m2/m3': 7.1235000044183225e-06, 'admitted (new)': True}
+LLLLRLRR {'reflection-symmetric': False, 'old vs new, worst relative': 8.057059256868613e-08, 'new m2/m3': 1.8595520465053526e-05, 'admitted (new)': True}
+LLLLRR {'reflection-symmetric': True, 'old vs new, worst relative': 4.418794702920326e-16, 'new m2/m3': 1.895139915034645e-05, 'admitted (new)': True}
+LLLLRRLR {'reflection-symmetric': False, 'old vs new, worst relative': 8.057058413451054e-08, 'new m2/m3': 1.8595520477263906e-05, 'admitted (new)': True}
+LLLLRRR {'reflection-symmetric': True, 'old vs new, worst relative': 3.857822325442061e-16, 'new m2/m3': 4.324541780699628e-05, 'admitted (new)': True}
+LLLLRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 6.240958495961352e-16, 'new m2/m3': 4.8897797390272006e-05, 'admitted (new)': True}
+LLLR {'reflection-symmetric': True, 'old vs new, worst relative': 2.7781772420004605e-16, 'new m2/m3': 5.6075781785039416e-05, 'admitted (new)': True}
+LLLRLLR {'reflection-symmetric': True, 'old vs new, worst relative': 5.784951387066111e-16, 'new m2/m3': 0.0001235686498616156, 'admitted (new)': True}
+LLLRLLRR {'reflection-symmetric': False, 'old vs new, worst relative': 3.1386215894036425e-07, 'new m2/m3': 0.0004322385962160519, 'admitted (new)': True}
+LLLRLR {'reflection-symmetric': True, 'old vs new, worst relative': 1.187774375810354e-16, 'new m2/m3': 0.00022820036249431044, 'admitted (new)': True}
+LLLRLRLR {'reflection-symmetric': True, 'old vs new, worst relative': 0.0, 'new m2/m3': 0.00032709243241386016, 'admitted (new)': True}
+LLLRLRR {'reflection-symmetric': False, 'old vs new, worst relative': 2.488816684021913e-06, 'new m2/m3': 0.0007254337849531404, 'admitted (new)': True}
+LLLRLRRR {'reflection-symmetric': False, 'old vs new, worst relative': 5.497980787194679e-06, 'new m2/m3': 0.0007752346843433262, 'admitted (new)': True}
+LLLRR {'reflection-symmetric': True, 'old vs new, worst relative': 2.344472816018247e-16, 'new m2/m3': 0.0007845719105413709, 'admitted (new)': True}
+LLLRRLLR {'reflection-symmetric': False, 'old vs new, worst relative': 3.1386216195183515e-07, 'new m2/m3': 0.0004322385962140429, 'admitted (new)': True}
+LLLRRLR {'reflection-symmetric': False, 'old vs new, worst relative': 2.4888166861030754e-06, 'new m2/m3': 0.000725433784956413, 'admitted (new)': True}
+LLLRRLRR {'reflection-symmetric': True, 'old vs new, worst relative': 3.8005949833053776e-16, 'new m2/m3': 0.001987677507541057, 'admitted (new)': True}
+LLLRRR {'reflection-symmetric': True, 'old vs new, worst relative': 1.4607118946668803e-16, 'new m2/m3': 0.0014844846221133288, 'admitted (new)': True}
+LLLRRRLR {'reflection-symmetric': False, 'old vs new, worst relative': 5.497980788769076e-06, 'new m2/m3': 0.0007752346843382531, 'admitted (new)': True}
+LLLRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 3.857822328004709e-16, 'new m2/m3': 4.324541780851664e-05, 'admitted (new)': True}
+LLLRRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 4.798443230199742e-16, 'new m2/m3': 1.1378151334902661e-06, 'admitted (new)': True}
+LLR {'reflection-symmetric': True, 'old vs new, worst relative': 8.152538443993741e-16, 'new m2/m3': 0.0033861075129328288, 'admitted (new)': True}
+LLRLLRLR {'reflection-symmetric': True, 'old vs new, worst relative': 4.3269850419491413e-16, 'new m2/m3': 0.00661847950131222, 'admitted (new)': True}
+LLRLLRR {'reflection-symmetric': True, 'old vs new, worst relative': 3.645242953179639e-16, 'new m2/m3': 0.01427660788258564, 'admitted (new)': True}
+LLRLLRRR {'reflection-symmetric': True, 'old vs new, worst relative': 4.363694486124987e-16, 'new m2/m3': 0.001987677507548498, 'admitted (new)': True}
+LLRLR {'reflection-symmetric': True, 'old vs new, worst relative': 4.2443136620607004e-16, 'new m2/m3': 0.011806529154170733, 'admitted (new)': True}
+LLRLRLR {'reflection-symmetric': True, 'old vs new, worst relative': 3.9367115501415245e-16, 'new m2/m3': 0.017626117167913354, 'admitted (new)': True}
+LLRLRLRR {'reflection-symmetric': False, 'old vs new, worst relative': 2.7769586512373145e-05, 'new m2/m3': 0.031009428847204118, 'admitted (new)': True}
+LLRLRR {'reflection-symmetric': False, 'old vs new, worst relative': 3.1815863392157566e-05, 'new m2/m3': 0.026749611918424312, 'admitted (new)': True}
+LLRLRRLR {'reflection-symmetric': True, 'old vs new, worst relative': 2.295672425906188e-16, 'new m2/m3': 0.01511298786709124, 'admitted (new)': True}
+LLRLRRR {'reflection-symmetric': False, 'old vs new, worst relative': 2.4888166847658963e-06, 'new m2/m3': 0.0007254337849541019, 'admitted (new)': True}
+LLRLRRRR {'reflection-symmetric': False, 'old vs new, worst relative': 8.057058689218504e-08, 'new m2/m3': 1.859552047157439e-05, 'admitted (new)': True}
+LLRR {'reflection-symmetric': True, 'old vs new, worst relative': 1.4792270560839206e-16, 'new m2/m3': 0.03574209393950125, 'admitted (new)': True}
+LLRRLR {'reflection-symmetric': False, 'old vs new, worst relative': 3.1815863392177935e-05, 'new m2/m3': 0.026749611918408463, 'admitted (new)': True}
+LLRRLRLR {'reflection-symmetric': False, 'old vs new, worst relative': 2.7769586512527796e-05, 'new m2/m3': 0.031009428847212094, 'admitted (new)': True}
+LLRRLRR {'reflection-symmetric': True, 'old vs new, worst relative': 6.075404921965303e-16, 'new m2/m3': 0.014276607882587446, 'admitted (new)': True}
+LLRRLRRR {'reflection-symmetric': False, 'old vs new, worst relative': 3.138621588303075e-07, 'new m2/m3': 0.0004322385961948981, 'admitted (new)': True}
+LLRRR {'reflection-symmetric': True, 'old vs new, worst relative': 0.0, 'new m2/m3': 0.0007845719105411847, 'admitted (new)': True}
+LLRRRLR {'reflection-symmetric': False, 'old vs new, worst relative': 2.4888166874383593e-06, 'new m2/m3': 0.0007254337849592764, 'admitted (new)': True}
+LLRRRLRR {'reflection-symmetric': False, 'old vs new, worst relative': 3.1386216108338567e-07, 'new m2/m3': 0.00043223859620100024, 'admitted (new)': True}
+LLRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 2.2093973433329494e-16, 'new m2/m3': 1.8951399147456266e-05, 'admitted (new)': True}
+LLRRRRLR {'reflection-symmetric': False, 'old vs new, worst relative': 8.0570588025868e-08, 'new m2/m3': 1.859552046223313e-05, 'admitted (new)': True}
+LLRRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 1.515743152906334e-16, 'new m2/m3': 6.985294190758611e-07, 'admitted (new)': True}
+LLRRRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 2.2067730574691075e-16, 'new m2/m3': 2.9986975226231937e-08, 'admitted (new)': False}
+LR {'reflection-symmetric': True, 'old vs new, worst relative': 5.439032735559042e-16, 'new m2/m3': 0.3687746697768651, 'admitted (new)': True}
+LRLRLRR {'reflection-symmetric': True, 'old vs new, worst relative': 5.974115854581587e-16, 'new m2/m3': 0.01762611716791173, 'admitted (new)': True}
+LRLRLRRR {'reflection-symmetric': True, 'old vs new, worst relative': 1.657333012123332e-16, 'new m2/m3': 0.00032709243240634317, 'admitted (new)': True}
+LRLRR {'reflection-symmetric': True, 'old vs new, worst relative': 2.9385833098347803e-16, 'new m2/m3': 0.011806529154174909, 'admitted (new)': True}
+LRLRRLRR {'reflection-symmetric': True, 'old vs new, worst relative': 7.863090649281828e-16, 'new m2/m3': 0.006618479501321453, 'admitted (new)': True}
+LRLRRR {'reflection-symmetric': True, 'old vs new, worst relative': 2.1090843828419755e-16, 'new m2/m3': 0.00022820036249195913, 'admitted (new)': True}
+LRLRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 4.19427951254983e-16, 'new m2/m3': 7.123500010702726e-06, 'admitted (new)': True}
+LRLRRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 2.2886642535829595e-16, 'new m2/m3': 2.810213979249643e-07, 'admitted (new)': False}
+LRR {'reflection-symmetric': True, 'old vs new, worst relative': 4.891523066392203e-16, 'new m2/m3': 0.003386107512948589, 'admitted (new)': True}
+LRRLRRR {'reflection-symmetric': True, 'old vs new, worst relative': 4.3870438566940553e-16, 'new m2/m3': 0.00012356864985873736, 'admitted (new)': True}
+LRRLRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 2.8578670761418984e-16, 'new m2/m3': 3.7435908286101083e-06, 'admitted (new)': True}
+LRRR {'reflection-symmetric': True, 'old vs new, worst relative': 4.167265860767498e-16, 'new m2/m3': 5.607578178681856e-05, 'admitted (new)': True}
+LRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 9.55870144362365e-16, 'new m2/m3': 1.5507416634336155e-06, 'admitted (new)': True}
+LRRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 3.6209245881179323e-16, 'new m2/m3': 5.215779761084314e-08, 'admitted (new)': False}
+LRRRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 3.8453975372190016e-16, 'new m2/m3': 1.87594832120712e-09, 'admitted (new)': False}
+LRRRRRRR {'reflection-symmetric': True, 'old vs new, worst relative': 3.741220872310041e-16, 'new m2/m3': 6.90934724907627e-11, 'admitted (new)': False}
+LLRRLRLRLR {'reflection-symmetric': False, 'old vs new, worst relative': 2.192116222871358e-05, 'new m2/m3': 0.0369230508583733, 'admitted (new)': True}
+LLRRLRLRLRLRLRLRLR {'reflection-symmetric': False, 'old vs new, worst relative': 1.0858394733922644e-05, 'new m2/m3': 0.059453312914323264, 'admitted (new)': True}
+LLRLRLRLRLR {'reflection-symmetric': True, 'old vs new, worst relative': 1.3087310933578028e-16, 'new m2/m3': 0.026510006292064764, 'admitted (new)': True}
+LLRLRLRLRLRLRLRLRLRLRLRLRLR {'reflection-symmetric': True, 'old vs new, worst relative': 7.522414057508799e-16, 'new m2/m3': 0.055345748193540864, 'admitted (new)': True}
+LLRRLLRRLR {'reflection-symmetric': False, 'old vs new, worst relative': 1.2820578483998131e-05, 'new m2/m3': 0.02800875482347622, 'admitted (new)': True}
+{
+ "P1": {
+  "reflection-symmetric words": 53,
+  "their worst old-vs-new difference": 3.1815863392177935e-05,
+  "other words": [
+   "LLLLRLRR",
+   "LLLLRRLR",
+   "LLLRLLRR",
+   "LLLRLRR",
+   "LLLRLRRR",
+   "LLLRRLLR",
+   "LLLRRLR",
+   "LLLRRRLR",
+   "LLRLRLRR",
+   "LLRLRR",
+   "LLRLRRR",
+   "LLRLRRRR",
+   "LLRRLR",
+   "LLRRLRLR",
+   "LLRRLRRR",
+   "LLRRRLR",
+   "LLRRRLRR",
+   "LLRRRRLR"
+  ]
+ },
+ "P2": {
+  "n admitted": 59,
+  "n new admitted": 47,
+  "LL1 Spearman": -0.9957183234104863,
+  "LL2 RMS": 0.2977437973115509,
+  "LL3 largest": [
+   "LR",
+   0.3687746697768651
+  ],
+  "LL4 violations": [],
+  "LL5 RMS": 0.6106416228891288
+ },
+ "P4": {
+  "old form": [
+   0.05148135679662915,
+   "LLRLRLR"
+  ],
+  "invariant form": [
+   0.05148135679662913,
+   "LLRLRLR"
+  ]
+ }
+}
