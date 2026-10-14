@@ -18690,3 +18690,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   only special complex directions it keeps are exactly the ones a mass hierarchy needs. The next arc would test whether
   one datum there can give both the three generations and those directions.
 
+## 2026-10-14 — the owner's "Both frames"; W64: the cusp's unit as a vector in M; relay §77
+
+- **W64 ran once, after its rule.** The cusp of the weave's surface turns the generations' space a quarter-turn, and
+  main's coupling already uses one unit of the cusp's datum placed along one of its two special complex directions.
+- **That gives the leading pattern of the masses,** one heavy generation and two massless, in both readings of the
+  geometry. But the datum that gives the three generations is not the same as the one that gives this pattern, and
+  the second generation's mass still needs something nothing computed supplies.
+- **Three predictions failed on one numerical error** (a branch of a fourth root in a library routine). They are
+  recorded as failed, and a labelled check with the error fixed shows them holding.
+

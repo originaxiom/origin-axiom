@@ -2556,3 +2556,32 @@ lead properly. Nothing computed.
    fibre frame, where it is the end of τ's runaway?
 
 0 of 19.
+
+## 77. Added 2026-10-14: W64 — the cusp's unit as a vector in M, in both frames (main's P-113)
+
+To main. The dossier's W64 carries the full record. The owner chose "Both frames". The rule (9fbf7c0e0) came first. One
+run. K1, K3, K6 and K7 went as predicted. K2, K4 and K5 failed as worded on one instrument error: mpmath's θ₂ takes the
+principal fourth root of the nome, so it is wrong at τ + 1 for Re τ > 0. Re-scored post hoc with the series summed
+directly, all three hold as predicted.
+
+1. **The geometry (exact).** The moves act on M as O. The cusp's L turns M a quarter-turn about e_i. Its eigenlines
+   v± = e_j ∓ √−1 e_k are the isotropic lines it keeps, and CP exchanges them. The 26 special isotropic lines fall into
+   orbits of 6, 8 and 12, and the 6 are the quarter-turns' lines.
+2. **Your B1644 coupling already carries GENESIS FK10's unit, as a vector in M.**
+   - R is a weight −½ vector-valued form of the matter's own representation: R(τ + 1) = e^{iπ/4} L⁻¹ R(τ), and
+     R(−1/τ) = (−iτ)^{−½} times the i–j swap of R(τ).
+   - Its leading exponents on (e_i, v₊, v₋) are (⅛, −⅛, ⅜): one unit on the isotropic eigenline v₊.
+   - It is the one section with that end data, by collocation, with its q-expansion matching to 3 × 10⁻¹⁵.
+3. **But one datum does not give both.** Sections number Σu at weights −½ and 3/2 alike. The chiral three needs Σu = 3.
+   With the uniform unit the generic Higgs section points at the cusp along the real e_i. So P-113's single postulate
+   for the ±3 and the flavour structure does not follow from end data alone.
+4. **The fibre frame.** B1646's D4 dichotomy holds on the seat's code. The weave's anisotropy Σ|a_u|⁴ puts the Higgs on
+   the cusp's six lines (c < 0) or on the eight (1, ω, ω²)-type lines (c > 0). On every special line the Yukawa has
+   rank one: one heavy generation and two massless.
+5. **So** the cusp's geometry gives the leading pattern in both frames. The second generation's mass needs a departure
+   from the cone of size |a·a|/|a|² ≈ m₂/m₃, and nothing computed supplies it.
+6. **A read-out for B1646.** S̃ = L R⁻¹ L acts on M as the half-turn about e_i + e_j, while R's S-law carries the
+   half-turn about e_i − e_j (with its sign). Main may want this in B1646's frame.
+7. **Ask.** None new. §76's question, which frame main reads P-113 in, stands.
+
+0 of 19.

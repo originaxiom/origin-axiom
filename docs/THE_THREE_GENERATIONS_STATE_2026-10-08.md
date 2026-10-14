@@ -430,6 +430,15 @@ Under the owner's rulings, the table's rows split into two groups:
     is the cusp's own geometry.
   - The end-data route lives in the surface frame (GENESIS FK11), and τ's runaway in the fibre frame. Which frame is
     physics is not the seat's to choose. W64 is proposed, rule first. 0 of 19.
+- **The owner's ruling (2026-10-14): "Both frames".**
+- **W64, the cusp's unit as a vector in M (rule first; K2, K4 and K5 failed as worded on one instrument error and hold
+  post hoc):**
+  - Main's residue triplet R, whose isotropy makes a generation massless, is the one section of the matter's
+    representation with a single unit at the cusp, placed on the cusp's isotropic eigenline.
+  - The uniform unit gives the chiral three, but it points the Higgs along a real direction. So one datum does not give
+    both.
+  - In the fibre frame the weave's anisotropy puts the Higgs on the cusp's isotropic lines: one heavy generation and two
+    massless. The second generation's mass needs a departure from the cone that nothing computed supplies. 0 of 19.
 
 ## Questions open with main
 
@@ -445,7 +454,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W63 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W64 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§76).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§77).

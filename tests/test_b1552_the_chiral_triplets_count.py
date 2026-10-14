@@ -1562,6 +1562,29 @@ def test_w63_b1644_verified():
     assert np.allclose(Y, np.outer(a, R) + np.outer(R, a) - (a @ R) * np.eye(3), atol=1e-12)
 
 
+def test_w64_the_cusp_unit_as_a_vector():
+    """W64 (the owner's "follow that lead properly", "Both frames"; the rule first; one run; K2, K4 and K5 failed as
+    worded on one instrument error, the theta_2 branch, and hold post hoc): the cusp's quarter-turn on M, R as the one
+    section with a single unit on the cusp's isotropic eigenline, sections numbering sum(u), and the anisotropy's points
+    on the cone"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_cusp_unit_as_a_vector.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"K1": True, "K2": False, "K3": True, "K4": False, "K5": False, "K6": True, "K7": True}
+    assert d["K1"]["their orbits' sizes"] == [6, 8, 12] and d["K1"]["the special isotropic lines"] == 26
+    ph = json.loads((here / "the_cusp_unit_as_a_vector_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["re-scored"] == {"K2": True, "K4": True, "K5": True}
+    for key in ("PH3 (K4 re-scored)", "PH3 (K5 re-scored)"):
+        for u, row in ph[key]["placements"].items():
+            assert row["dimension (collocation)"] == sum(int(c) for c in u if c.isdigit())
+    assert ph["PH3 (K4 re-scored)"]["R against the null vector (u = (0, 1, 0)), largest relative difference"] < 1e-10
+    # in process: the record's L (a -> a, b -> ab) turns the units a quarter-turn about i, and its eigenline
+    # v+ = e_j - sqrt(-1) e_k is isotropic with eigenvalue sqrt(-1)
+    import numpy as np
+    L = np.array([[1, 0, 0], [0, 0, -1], [0, 1, 0]])
+    v = np.array([0, 1, -1j])
+    assert np.allclose(L @ v, 1j * v) and abs(v @ v) < 1e-15
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

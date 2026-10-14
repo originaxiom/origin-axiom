@@ -158,6 +158,12 @@ selecting τ needs a stated functional, and potentials built from the threads se
 - **The owner's choice: "lets follow that lead properly".** The seat writes a reading first, as P-113 asks, checks the
   literature, and proposes W64 rule first.
 
+## A ruling of 2026-10-14, after the reading of the cusp's unit
+
+- **The question.** In which frame W64 computes the lead: the surface frame (the cusp a boundary of the internal space),
+  the fibre frame (τ one number per vacuum), both, or wait for main.
+- **The owner's choice: "Both frames (Recommended)".**
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:

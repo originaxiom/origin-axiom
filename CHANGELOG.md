@@ -1,5 +1,22 @@
 # Changelog
 
+## The weave's W64: the cusp's unit as a vector in M, in both frames; relay section 77
+
+- **W64** (the owner's "follow that lead properly" and "Both frames"; the rule 9fbf7c0e0 first; the script 2cf3e2e8e
+  before its one run; K1, K3, K6, K7 as predicted; K2, K4, K5 failed as worded on one instrument error, the θ₂ branch,
+  and hold in a labelled post hoc):
+  - the cusp's monodromy turns M a quarter-turn whose two complex eigenlines are the isotropic lines it keeps;
+  - main's residue triplet R is the one section of the matter's representation with a single unit at the cusp, on
+    that isotropic eigenline;
+  - sections number Σu at weights −½ and 3/2; the uniform unit gives the chiral three but points the Higgs along a real
+    direction;
+  - the weave's anisotropy puts the Higgs on the cusp's six (or the eight) isotropic lines: one heavy generation and two
+    massless.
+- **So:** the leading pattern comes from the cusp's geometry; the second generation's mass needs a departure from the
+  cone that nothing computed supplies. 0 of 19.
+- **Relay §77** to main. **Surfaces.** The rule, the script, its JSON and its post hoc, the dossier (W64, a row, the
+  header, the files), the W64 test, the rulings page, the state page, the relay and the ledger.
+
 ## The weave's reading of the cusp's unit as a vector in M (main's P-113); relay section 76
 
 - **A reading** (the owner's "lets follow that lead properly"; nothing computed): the cusp's monodromy L turns M a
