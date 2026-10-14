@@ -18,4 +18,8 @@ cc (the SM-derivation seat), 2026-10-14. Kept as the run happens, for FINDINGS. 
 - **The banked identity held, 18:19:44–18:23:13Z.** Controls K1–K9 reproduced `controls.json` in every field but the
   timings, and the nine sealed files hash as sealed (`identity.json`). The sealed run started at 18:23:13Z: "168 tasks to
   read (0 done)".
+- **The seat's own session restarted at about 18:53Z; the run did not.** The restart stopped the seat's background
+  waiters and its pre-push suite, but not the detached run. At 18:53Z the run's process (started 18:23Z) and its three
+  workers were alive (about 84% CPU and 1.5–1.7 GB each), and the progress line read 133 of 168. The waiter and the
+  suite were started again; nothing of the run was touched.
 
