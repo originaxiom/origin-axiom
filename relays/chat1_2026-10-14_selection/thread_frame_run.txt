@@ -1,0 +1,101 @@
+/tmp/thread_frame_sm_anv9o6d0/frontier/B1538_the_puncture_characters/verification/punct_covers.py:13: SyntaxWarning: invalid escape sequence '\G'
+  - Gamma acts on the right cosets H\Gamma = D (H u <-> ubar for u in F) by
+modules loaded 2.8
+forms built 370.8
+threads integrated 370.9
+{
+ "Q0": {
+  "h first coefficients vs W72 (max abs dev)": 0.0,
+  "invariance worst relative": 3.9397964532949646e-14,
+  "invariance tests": 20,
+  "trapezoid N=96 vs 192 worst relative": 2.1492520393711937e-06,
+  "holds": false
+ },
+ "TF1": {
+  "m1/m3": 0.009568191038649906,
+  "K eigenvalues": [
+   59.71980705257941,
+   24954.82486634365,
+   364910.40099407505
+  ],
+  "holds": true
+ },
+ "TF2": {
+  "m2/m3": 0.36877466977683254,
+  "m1/m2": 0.025945900905938544,
+  "m1/m3": 0.009568191038649906,
+  "holds": false
+ },
+ "TF3": {
+  "lightest state's weight on F+": 8.981345359899947e-06,
+  "holds": false
+ },
+ "TF4": {
+  "mirror pairs": [
+   [
+    "LLLLR",
+    "LRRRR"
+   ],
+   [
+    "LLLR",
+    "LRRR"
+   ],
+   [
+    "LLLRR",
+    "LLRRR"
+   ],
+   [
+    "LLR",
+    "LRR"
+   ],
+   [
+    "LLRLR",
+    "LRLRR"
+   ]
+  ],
+  "worst relative difference": 2.2251867799028647e-07,
+  "holds": false
+ },
+ "TF5": {
+  "Spearman(y_max, log m1/m3)": -0.9860139860139862,
+  "holds": true
+ }
+}
+H-end control {'m2/m3': 0.01937519268524736, 'm1/m3': 0.00038664896938618684}
+hybrid {'m2/m3': 0.36434969473865947, 'm1/m3': 0.07126569852428506}
+LLLLR  y_max 2.8284  m2/m3 1.5507e-06  m1/m3 2.4915e-08  lightest on F+ 0.000
+LLLR   y_max 2.2913  m2/m3 5.6076e-05  m1/m3 3.0489e-06  lightest on F+ 0.000
+LLLRR  y_max 1.9365  m2/m3 7.8457e-04  m1/m3 1.1561e-04  lightest on F+ 0.000
+LLR    y_max 1.7321  m2/m3 3.3861e-03  m1/m3 3.3247e-04  lightest on F+ 0.000
+LLRLR  y_max 1.6329  m2/m3 1.1807e-02  m1/m3 7.6634e-04  lightest on F+ 0.000
+LLRR   y_max 1.4142  m2/m3 3.5742e-02  m1/m3 5.8636e-03  lightest on F+ 0.000
+LLRRR  y_max 1.9365  m2/m3 7.8457e-04  m1/m3 1.1561e-04  lightest on F+ 0.000
+LR     y_max 1.1180  m2/m3 3.6877e-01  m1/m3 9.5682e-03  lightest on F+ 0.000
+LRLRR  y_max 1.6330  m2/m3 1.1807e-02  m1/m3 7.6634e-04  lightest on F+ 0.000
+LRR    y_max 1.7321  m2/m3 3.3861e-03  m1/m3 3.3247e-04  lightest on F+ 0.000
+LRRR   y_max 2.2913  m2/m3 5.6076e-05  m1/m3 3.0489e-06  lightest on F+ 0.000
+LRRRR  y_max 2.8284  m2/m3 1.5507e-06  m1/m3 2.4915e-08  lightest on F+ 0.000
+data line {
+ "up": {
+  "log(m2/m3 / datum)": 4.605976730589497,
+  "log(m1/m3 / datum)": 7.17694039616137
+ },
+ "down": {
+  "log(m2/m3 / datum)": 2.9803314501517564,
+  "log(m1/m3 / datum)": 2.3198175685017044
+ },
+ "lepton": {
+  "log(m2/m3 / datum)": 1.8347984383434877,
+  "log(m1/m3 / datum)": 3.5333265636726194
+ }
+}
+{
+ "Q0": false,
+ "TF1": true,
+ "TF2": false,
+ "TF3": false,
+ "TF4": false,
+ "TF5": true
+}
+seconds 371.0
+EXIT 0
