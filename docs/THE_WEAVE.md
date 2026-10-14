@@ -483,3 +483,22 @@ found with B1635's sealed instrument.
 - **Next (owed to the frame tribunal, P-136):** the half-period orbit's mass structure. Three τ-independent null vectors
   generically give all three generations mass, with numbers fixed by geometry if covariance and the characters fix the
   directions and signs. Corrected twice before the seal, both disclosed.
+
+## Main's addition: the frame tribunal (B1652) — no frame survives on its own; the parent is a specification
+
+- **The verdict is outcome 2**, banked after both seats attacked the draft: no frame on record is shown to satisfy the
+  principle's demands D1–D8 on its own.
+  - F1, the fibre at one τ: its hierarchy needs free numbers, and its D1 needs a vacuum that no run dynamics selects.
+  - F2, the surface: it needs an outside source for the three, forbids CP violation and has no hypercharge.
+  - F3, the audit lane's E₈ frame: the moves act only through a supplied completion that, on its flat background, loses
+    the weak roots and Y; its index is not computed. By the SM seat's W83, Y survives only if the family index is not
+    the weave's three.
+  - F5, chat1's thread frame: τ's role and the normalisation are fixed within a vacuum, but the vacuum is weighed, not
+    selected, at c = 6, and no CP sign can be chosen.
+  - F4, main's candidate (the Standard Model in E₆): refuted by the record, since 27 ⊗ (2 ⊕ 1) gives one 27.
+- **Lemma A holds with both halves:** parallel charges are family-blind.
+- **The D1 criterion is the owner's ruling** (P-147).
+- **The parent (P-108) is now a seven-clause specification, labelled a conjecture.** The seventh clause is to split the
+  down quarks from the charged leptons. Above all of them stands the selection principle (FK9): chat1's report finds it
+  not yet, and relocates it to "which thread".
+

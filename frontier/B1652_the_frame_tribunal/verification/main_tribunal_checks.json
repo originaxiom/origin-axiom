@@ -1,0 +1,27 @@
+{
+ "V1": {
+  "S3_alone": 2,
+  "V4_alone": 3,
+  "S3_and_V4": 1,
+  "control_P13_with_V4": 2
+ },
+ "V2": {
+  "lane_relations": {
+   "XYX-YXY": 0.0,
+   "YZY-ZYZ": 0.0,
+   "XZ-ZX": 0.0,
+   "central_word_plus_I6": 2.175583928816829e-15,
+   "inner_A_recovered": 0.0,
+   "inner_B_recovered": 0.0
+  },
+  "summands": {
+   "(35,1,1)": 0,
+   "(1,3,1)": 1,
+   "(1,1,8) [input]": 8,
+   "(20,2,1)": 0,
+   "(15,1,3bar)+(15bar,1,3)": 6,
+   "(6,2,3)+(6bar,2,3bar)": 0
+  },
+  "total": 15
+ }
+}

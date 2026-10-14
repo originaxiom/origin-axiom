@@ -1,5 +1,50 @@
 # Changelog
 
+## S126 THE FRAME TRIBUNAL BANKED (B1652): no frame survives on its own, attacked by both seats; the parent a seven-clause specification; three lanes harvested; the new paper directed, and the owner's decision: a frontier round first
+
+At the owner's order (P-136) and its rulings of 2026-10-14 ("agreed" on the D1 criterion; a new paper, the seats
+consulted on its structure).
+- **B1652, THE FRAME TRIBUNAL (PROVED, a compiled verdict on the record).**
+  - Both seats attacked main's draft: the SM seat's W82 and §101, and chat1's selection report.
+  - **Outcome 2: no frame on record is shown to satisfy the principle's demands on its own.**
+    - F1 (the fibre at one τ): its hierarchy needs free numbers, and its D1 needs an unselected vacuum.
+    - F2 (the surface): it needs an outside source for the three, forbids CP violation and has no hypercharge.
+    - F3 (the audit lane's E₈): the moves act only through a supplied completion that, on its flat background, loses
+      the weak roots and Y; its index is not computed (D2 regraded from FAILS to OPEN before landing, at the lane's
+      scope note). W83 makes this a dichotomy: Y survives only if the family index is not the weave's three.
+    - F5 (chat1's thread frame, a new column): τ and the normalisation are fixed within a vacuum, but the vacuum is
+      weighed, not selected, at c = 6, and no CP sign can be chosen.
+    - F4 (main's candidate): refuted by the record (27 ⊗ (2 ⊕ 1) gives one 27; W22, W23, B1440, sm:B1270), and it
+      fails D4 on E₆'s down–lepton tie.
+  - Lemma A holds with both halves (W82's L1 recomputed on main: 2, 3, 1).
+  - The audit lane's count is recomputed on main's own code (15).
+  - The D1 criterion stands as the owner ruled it (P-147).
+  - **The parent is banked as a seven-clause specification, labelled a conjecture.** The seventh clause is the SM
+    seat's: split the down quarks from the charged leptons. Above all of them stands the selection principle.
+- **B1651's addendum: the seats' answers.**
+  - The SM seat's §107 reading: a bulk Higgs carrying parity forces the puncture at the price of one end datum, so
+    "not forced" holds for point Higgs fields. To be checked on main.
+  - chat1's answers: the locus by thread class, and the half-period's extra weight unit.
+- **B1637's addendum, extended.** The SM seat's W80 ran main's own optimizer on precise forms: the weight-3 fits are
+  gone, and F2's masses-only half holds as sealed (319). Main's own re-run is owed (P-144).
+- **Harvest.** The web seat to `de848fd4`, the SM seat to `40ca3bb0`, the audit lane to `f0760049`; rows 1161–1172.
+  W82 is upgraded to VERIFIED (L1).
+  - chat1's selection report is taken: not found, relocated to "which thread". Its one-number Lagrange law is withdrawn
+    beyond length 8, and main checked the withdrawal against chat1's own long-words output.
+  - W80, W83 and W84 are taken.
+  - The audit lane's commuting completions and typed-field portal are answered.
+- **The relay** `CC_TO_ALL_SEATS_2026-10-14_THE_TRIBUNAL_BANKED.md`. It announces the owner's new paper (P-148): P3 is
+  retired as the vehicle, the paper rests on what is proven, carries the programme's philosophy, states its inputs, has
+  rich scripted figures and is arXiv-ready. The seats are not consulted on it: main digested everyone's plates for the
+  owner (the paper's reliance reading; every open point by what it does to the paper), and the owner decided "B then
+  C" (P-150): one frontier computation first, then on toward the parent; the paper waits. Main takes P-128, the twisted
+  zero mode, chosen by the math. The SM seat's half-period offer is answered by main's by-hand reading: by Schur, a
+  covariant orbit gives no hierarchy.
+- **Register.** P-136 done; P-148 (the paper), P-149 (chat1's FK12 note) and P-150 (the owner's decision); notes on
+  P-134, P-139, P-140, P-142 and P-144; Q3 now starts with P-128; the floor 150.
+- 0 of 19.
+Gates 45 of 45. Full suite: 7314 passed, 1 failed, 68 skipped (1:43:01) -- the public-surface scan: B1652's LAW_MAP row named "chat1's thread frame" in a governed living doc, where the seat is "the web seat"; renamed, and the scan re-run green. Texts corrected during the run (the audit lane's scope note taken into B1652; the owner's decision P-150; views regenerated); then the 113 gate, harvest, relay, register, review, view, genesis, lane, claim, law-map, point, public-surface and B163x-B165x test files re-run on the final tree: 590 passed, 0 failed, 8 skipped; the relay's labelled pre-seal finding (at a point no flat line lifts the zero) added after that, and the relay and scan tests (23) and the gates (45 of 45) re-run on the final tree, green.
+
 ## S125 WHERE A HIGGS CAN COUPLE (B1651, PROVED; GENESIS v1.45): the puncture is not forced; B1637 scoped by the SM seat's W78; three lanes harvested; the frame tribunal sent for attack
 
 At the owner's order of 2026-10-14 (P-136: B1651, then the frame tribunal) and its words "think properly, stop and

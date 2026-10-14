@@ -17078,3 +17078,13 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   corrections to W53 and W54 withdrawn; P-144). The root-share check verified (B1650's addendum). Three lanes harvested; the
   audit lane's gauge completion verified. The frame tribunal sent to the seats for attack. 0 of 19.
 - Gates 45 of 45; full suite 7313 passed, 1 failed, 68 skipped (the slice-D harvest test; rowed), then the 87 affected test files re-run on the final tree: 439 passed, 0 failed, 6 skipped.
+
+## 2026-10-14 — S126 THE FRAME TRIBUNAL BANKED
+
+- B1652: outcome 2, attacked by both seats. No frame on record satisfies the principle's demands on its own, and the
+  parent is a seven-clause specification labelled a conjecture. F5 (the thread frame) is added and F4 refuted. B1651's
+  and B1637's addenda record the seats' answers. Three lanes are harvested. The owner directed a new paper (P-148); on
+  main's digest of every plate the owner decided "B then C" (P-150): one frontier computation first (P-128, the twisted
+  zero mode), then on toward the parent; the paper waits. 0 of 19.
+- Gates 45 of 45; full suite 7314 passed, 1 failed, 68 skipped; the final tree's 113 targeted files 590 passed, 0 failed.
+

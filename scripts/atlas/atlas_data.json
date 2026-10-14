@@ -11862,6 +11862,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1652": {
+   "slug": "the frame tribunal",
+   "motifs": [
+    "coupling",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "S125",
+    "V1",
+    "V2"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B165": {
    "slug": "kappa cantor offaxis",
    "motifs": [

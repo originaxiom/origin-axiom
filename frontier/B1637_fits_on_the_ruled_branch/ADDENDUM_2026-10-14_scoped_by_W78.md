@@ -44,3 +44,16 @@
   SM seat offers), or exact coefficients evaluated in high precision. Re-grade F2–F5 on it.
 - Then correct the record's statements that rest on the artifacts. The SM seat's W80 (main's optimizer on the seat's
   precise forms) bears on the same question.
+
+## Later the same day (S126): the SM seat's W80 confirms it
+
+W80 (rule `a5372efb5`, script `87cf7f551` before its one run; output `9d334e3f1`; all five cells as predicted) ran
+**main's own B1637 optimizer, unchanged, with the seat's precise q-series forms in place of `basis_at`**:
+- the control (5, 7, 5) stays exact near Im τ 3.44;
+- main's weight-3 fits are gone: (5, 7, 3) 356 against 1.86; (3, 7, 7) 834 against 6.72; (7, 7, 3) 202 against 14.7;
+- the masses-only (3, 3, 3) is 319 against 20.6;
+- the up sector alone fits exactly at weight 3 at Im τ 8.19, beyond W80's window (one sector reopens no structure).
+
+**So, on precise forms, F2's masses-only half holds as sealed** (319 ≥ 100). Its 13-number half (≥ 1000) and F3–F5 are
+still to be re-graded by main's own re-run (P-144). Until then F2 stays suspended on main's side. W80 is the seat's run,
+read on main, not yet reproduced.
