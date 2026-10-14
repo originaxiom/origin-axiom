@@ -1929,6 +1929,21 @@ def test_w79_the_two_seats_weight_three():
     assert ex == [0.125, 0.375, 0.875]
 
 
+def test_w80_the_main_fits_precise():
+    """W80 (the rule first; one run; all five cells as predicted, Z3 only as worded): main's B1637 optimizer on this
+    seat's precise forms keeps the control exact and loses every weight-3 fit main found near Im tau 6.7-7.1"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_main_fits_precise.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"Z0": True, "Z1": True, "Z2": True, "Z3": True, "Z4": True}
+    assert d["main's code"]["ref"] == "60c5470ae" and d["main's code"]["NSTART"] == 60
+    assert d["Z0"]["chi2_min"] < 1e-6 and 3.0 <= d["Z0"]["tau"][1] <= 3.8
+    assert d["Z1"]["chi2_min"] > 300 and d["Z2"]["chi2_min"] > 800 and d["Z4"]["chi2_min"] > 300
+    assert d["Z3"]["chi2_min"] < 1e-6 and d["Z3"]["tau"][1] > 8      # the up sector alone fits, beyond Im tau 8
+    assert d["read-outs"]["(7, 7, 3) on all 13"]["chi2_min"] > 100
+    assert all(j["P"] >= 21 for j in d["jobs"] if j["ckm"])
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W80." in note and note.count("Withdrawn the same day after") >= 3
+
 def test_w81_the_lane_su2_branching():
     """W81 (the script first; one run; B1, B2, B4 as predicted, B3 failed as worded, a sign): the 248 under the
     continuous SU(2) of the quaternion Cartan is 55 + 52x2 + 27x3 + 2x4, and the condensate's root lies in the doublets"""

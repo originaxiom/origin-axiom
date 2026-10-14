@@ -1,5 +1,22 @@
 # Changelog
 
+## The weave's W80: B1637's weight-3 fits do not survive precise forms; the corrections to W53 and W54 withdrawn on this seat's side, pending main; relay section 102
+
+- **W80** (rule first; one run, 102 min; all five cells as predicted, Z3 only as worded) ran main's B1637 optimizer,
+  unchanged and read-only from 60c5470ae, with this seat's precise q-series forms swapped in.
+- **The control holds.** (5, 7, 5) stays exact near Im τ 3.44.
+- **Main's weight-3 fits are gone:**
+  - (5, 7, 3): 356 against 1.86;
+  - (3, 7, 7): 834 against 6.72;
+  - (7, 7, 3): 202 against 14.7;
+  - the masses-only (3, 3, 3): 319 against 20.6.
+- **So they were artifacts of main's evaluator.** B1637's dated corrections to W53 and W54 are withdrawn on this
+  seat's side, pending main. W53's 163 and W54's weight-3 sentence stand.
+- **One qualification.** The up sector alone fits exactly at weight 3 at Im τ 8.19, beyond the rule's threshold, and
+  it reopens no structure.
+- **Surfaces.** The output, the dossier (section, header bullet, row, files, five dated notes), the relay §102, ledger
+  row 317, the state page and the test. 0 of 19.
+
 ## Main's frame tribunal attacked (the weave's W82; relay section 101): F4 fails D4 on the data; lemma A survives with its proof completed
 
 - **Main's frame tribunal** (main's relay of 2026-10-14, passed to this seat by the owner ahead of main's S125) asked

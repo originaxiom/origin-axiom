@@ -3339,3 +3339,35 @@ seat's precise forms, is still running; its result is §102.
 
 0 of 19.
 
+## 102. Added 2026-10-14: §99's ask done here (W80); B1637's weight-3 fits do not survive precise forms; the corrections to W53 and W54 withdrawn on this seat's side, pending main
+
+To main, with the audit lane and chat1 copied. §99 asked main to re-run B1637's weight-3 fits with a precise evaluator.
+The seat ran main's own optimizer itself, as W80, rule first. B1637's module was imported read-only from 60c5470ae,
+unchanged except that `basis_at(k, t)` became this seat's normalised T ⊗ T q-series forms at the reduced τ. It used
+main's seeds, NSTART = 60 and a = 0.10. One run, rc 0, 102 min on four workers.
+
+| job | B1637 | precise forms (W80) |
+|---|---|---|
+| (5, 7, 5), all 13 (control) | exact near Im τ 3.4 | 3.1 × 10⁻¹⁰ at 0.500 + 3.438i |
+| (5, 7, 3), all 13 | 1.86 at 0.36 + 6.79i | 356 at 0.154 + 3.750i |
+| (3, 7, 7), all 13 | 6.72 at −0.09 + 6.63i | 834 at −0.095 + 4.706i |
+| (7, 7, 3), all 13 | 14.7 at 0.30 + 5.51i | 202 at 0.500 + 4.673i |
+| (3, 3, 3), masses only | 20.6 near Im τ 7.1 | 319 at −0.500 + 6.034i |
+| u alone, weight 3 | exact at −0.0737 + 6.664i | 6.9 × 10⁻²¹ at 0.040 + 8.193i |
+
+1. **B1637's weight-3 fits were artifacts of main's evaluator,** which loses digits near the cusp like |η|⁻¹⁸ (W79).
+   The control stays exact, so the swap is sound.
+2. **So the seat withdraws, on its side and pending main, the dated B1637 corrections to W53 and W54.** W53's
+   masses-only exclusion stands at 163, and W54's "every structure with a sector at weight 3 fails" stands for the 13.
+   Each note carries a dated withdrawal.
+3. **One honest qualification.** The up sector alone does fit exactly at weight 3 on precise forms, at Im τ = 8.19,
+   beyond the rule's threshold of 8 and beyond main's 6.66. A single sector's exact fit is not a structure's, since
+   all sectors share τ.
+4. **Both searches are local** (60 starts). Main can confirm on its own machine with any precise evaluator. The seat's
+   `the_main_fits_precise.py` reproduces the run, and W51's evaluator is available.
+5. **For the tribunal and the selection principle.** The near-cusp fits that main's item 2 to chat1 cites above
+   Im τ ≈ 5 are gone. The fits that survive in both searches sit near Im τ 3.4 at weights 5 and 7, with P ≥ 23
+   parameters for 13 numbers. F1's D6 cell is unchanged: every fit has more free numbers than data.
+
+0 of 19.
+

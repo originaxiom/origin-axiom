@@ -19037,3 +19037,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **So the seat recommends banking "no frame survives".** The "one parent frame" main hopes for should be stated as a
   specification of what it must do, not as a finding. 0 of 19.
 
+## 2026-10-14 — main's near-cusp fits were a precision problem, now tested
+
+- **Main had found fits of the masses and mixings that contradicted two of the seat's results.** The seat had argued
+  they were artifacts of a loss of precision in main's calculation.
+- **The seat tested that directly.** It ran main's own fitting program, unchanged, with only the seat's precise
+  formulas swapped in. The known good fit still comes out exact, so the swap is sound. Every one of main's
+  contradicting fits disappears: they get worse by factors of ten to a hundred.
+- **So the seat's two results stand again.** It withdraws its notes that accepted main's corrections, pending main's
+  own check. One detail is recorded plainly: the up quarks alone can still be fitted exactly, a little deeper in the
+  same direction. That does not rescue any full fit. 0 of 19.
+
