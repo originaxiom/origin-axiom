@@ -1,0 +1,268 @@
+{
+ "snappy": "3.3.2",
+ "v3": 1.014941606409654,
+ "v8": 3.663862376708876,
+ "n_threads": 745,
+ "Q0": {
+  "identify_b++LR": [
+   "m004(0,0)",
+   "4_1(0,0)",
+   "K2_1(0,0)",
+   "K4a1(0,0)",
+   "otet02_00001(0,0)"
+  ],
+  "vol_LR": 2.029883212819307,
+  "cs_LR": -2.886579864025407e-15,
+  "a": true,
+  "gueritaud_futer_violations": [],
+  "b": true,
+  "non_geometric": [],
+  "failures": [],
+  "c": true,
+  "holds": true
+ },
+ "K1": {
+  "threads_with_CS_nonzero": 690,
+  "fraction": 0.9261744966442953,
+  "holds": true
+ },
+ "K1b": {
+  "swap_symmetric": 55,
+  "violations": [],
+  "holds": true
+ },
+ "K2": {
+  "violations": [],
+  "holds": true
+ },
+ "K3": {
+  "max_vol": 7.2651283859576266,
+  "2v8": 7.327724753417752,
+  "violations": [],
+  "non_geometric": [],
+  "holds": true
+ },
+ "K3b": {
+  "violations": [],
+  "n_violations": 0,
+  "holds": true
+ },
+ "K4a": {
+  "logL_identity": [
+   true,
+   "exact"
+  ],
+  "model_solves": [
+   true,
+   [
+    "exact",
+    "exact",
+    "exact",
+    "exact"
+   ]
+  ],
+  "reduction_checks_[A1,A2,c,ok11,ok22,solves]": [
+   [
+    "-1",
+    "1",
+    "1",
+    true,
+    true,
+    true
+   ],
+   [
+    "-2",
+    "0",
+    "3",
+    true,
+    true,
+    false
+   ],
+   [
+    "-1/2",
+    "1/2",
+    "2",
+    true,
+    true,
+    false
+   ],
+   [
+    "1",
+    "-1",
+    "1",
+    true,
+    true,
+    false
+   ]
+  ],
+  "ansatz_solutions": [
+   {
+    "a1": "-1",
+    "a2": "1",
+    "rho": "1"
+   }
+  ],
+  "holds": true
+ },
+ "K4b": {
+  "norm": "1/Lp",
+  "holds": true
+ },
+ "K4c": {
+  "length": "-2*pi/log(r)",
+  "holds": true
+ },
+ "K4d": {
+  "generic_entry_reduction_[+1,-1]": [
+   true,
+   true
+  ],
+  "K_this_convention": "-4",
+  "K_opposite": "4",
+  "cusp_metric_solves_[+1,-1]": [
+   true,
+   false
+  ],
+  "round_metric_solves_[+1,-1]": [
+   false,
+   true
+  ],
+  "cusp_metric_curvature_is_-4": [
+   true,
+   "exact"
+  ],
+  "holds": true
+ },
+ "K4e": {
+  "solves": true,
+  "norm": "lambda",
+  "holds": true
+ },
+ "cells": {
+  "Q0": true,
+  "K1": true,
+  "K1b": true,
+  "K2": true,
+  "K3": true,
+  "K3b": true,
+  "K4a": true,
+  "K4b": true,
+  "K4c": true,
+  "K4d": true,
+  "K4e": true
+ }
+}
+{
+ "CS_abs_quantiles": {
+  "0.0": 0.0,
+  "0.1": 0.031902350055479145,
+  "0.25": 0.3926303608449857,
+  "0.5": 0.7799937895421158,
+  "0.75": 1.2830714970831374,
+  "0.9": 1.6116528315597407,
+  "1.0": 2.2747295857763077
+ },
+ "twoCS_zero_not_swap_symmetric": [],
+ "twoCS_zero_count": 55,
+ "swap_symmetric_list": [
+  "LR",
+  "LLRR",
+  "LLLRRR",
+  "LLRLRR",
+  "LLRRLR",
+  "LLLLRRRR",
+  "LLLRLRRR",
+  "LLLRRRLR",
+  "LLRLRLRR",
+  "LLRLRRLR",
+  "LLRRLRLR",
+  "LLLLLRRRRR",
+  "LLLLRLRRRR",
+  "LLLLRRRRLR",
+  "LLLRLRLRRR",
+  "LLLRLRRRLR",
+  "LLLRRLLRRR",
+  "LLLRRRLLRR",
+  "LLLRRRLRLR",
+  "LLRLLRRLRR",
+  "LLRLRLRLRR",
+  "LLRLRLRRLR",
+  "LLRLRRLLRR",
+  "LLRLRRLRLR",
+  "LLRRLLRRLR",
+  "LLRRLRLRLR",
+  "LLLLLLRRRRRR",
+  "LLLLLRLRRRRR",
+  "LLLLLRRRRRLR",
+  "LLLLRLRLRRRR",
+  "LLLLRLRRRRLR",
+  "LLLLRRLLRRRR",
+  "LLLLRRRRLLRR",
+  "LLLLRRRRLRLR",
+  "LLLRLLRRLRRR",
+  "LLLRLLRRRLRR",
+  "LLLRLRLRLRRR",
+  "LLLRLRLRRRLR",
+  "LLLRLRRRLLRR",
+  "LLLRLRRRLRLR"
+ ],
+ "vol_L25R25": 7.2651283859576266,
+ "gap_to_2v8": 0.06259636746012553,
+ "vol_LaRb_diagonal": {
+  "1": 2.029883212819307,
+  "2": 3.6638623767088765,
+  "3": 4.813819186103885,
+  "5": 6.066992240075221,
+  "10": 6.954803691492722,
+  "25": 7.2651283859576266
+ },
+ "sl2_norms_in_h": {
+  "E12": "1/Lp",
+  "H": "1",
+  "E21": "Lp"
+ },
+ "snappy_orientation_reversal_crosscheck": [
+  [
+   "LLR",
+   -0.41123351671205777,
+   0.4112335167120573
+  ],
+  [
+   "LRR",
+   0.411233516712058,
+   -0.41123351671205577
+  ],
+  [
+   "LLLR",
+   -0.7282412593977607,
+   0.7282412593977643
+  ],
+  [
+   "LRRR",
+   0.7282412593977667,
+   -0.7282412593977634
+  ],
+  [
+   "LLLLR",
+   -0.9684656372547003,
+   0.9684656372546967
+  ]
+ ]
+}
+{
+ "Q0": true,
+ "K1": true,
+ "K1b": true,
+ "K2": true,
+ "K3": true,
+ "K3b": true,
+ "K4a": true,
+ "K4b": true,
+ "K4c": true,
+ "K4d": true,
+ "K4e": true
+}
+
+real	0m6.706s
+user	0m6.300s
+sys	0m0.176s

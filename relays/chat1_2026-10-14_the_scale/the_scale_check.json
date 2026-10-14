@@ -1,0 +1,3978 @@
+{
+ "snappy": "3.3.2",
+ "v3": 1.014941606409654,
+ "v8": 3.663862376708876,
+ "n_threads": 745,
+ "Q0": {
+  "identify_b++LR": [
+   "m004(0,0)",
+   "4_1(0,0)",
+   "K2_1(0,0)",
+   "K4a1(0,0)",
+   "otet02_00001(0,0)"
+  ],
+  "vol_LR": 2.029883212819307,
+  "cs_LR": -2.886579864025407e-15,
+  "a": true,
+  "gueritaud_futer_violations": [],
+  "b": true,
+  "non_geometric": [],
+  "failures": [],
+  "c": true,
+  "holds": true
+ },
+ "K1": {
+  "threads_with_CS_nonzero": 690,
+  "fraction": 0.9261744966442953,
+  "holds": true
+ },
+ "K1b": {
+  "swap_symmetric": 55,
+  "violations": [],
+  "holds": true
+ },
+ "K2": {
+  "violations": [],
+  "holds": true
+ },
+ "K3": {
+  "max_vol": 7.2651283859576266,
+  "2v8": 7.327724753417752,
+  "violations": [],
+  "non_geometric": [],
+  "holds": true
+ },
+ "K3b": {
+  "violations": [],
+  "n_violations": 0,
+  "holds": true
+ },
+ "K4a": {
+  "logL_identity": [
+   true,
+   "exact"
+  ],
+  "model_solves": [
+   true,
+   [
+    "exact",
+    "exact",
+    "exact",
+    "exact"
+   ]
+  ],
+  "reduction_checks_[A1,A2,c,ok11,ok22,solves]": [
+   [
+    "-1",
+    "1",
+    "1",
+    true,
+    true,
+    true
+   ],
+   [
+    "-2",
+    "0",
+    "3",
+    true,
+    true,
+    false
+   ],
+   [
+    "-1/2",
+    "1/2",
+    "2",
+    true,
+    true,
+    false
+   ],
+   [
+    "1",
+    "-1",
+    "1",
+    true,
+    true,
+    false
+   ]
+  ],
+  "ansatz_solutions": [
+   {
+    "a1": "-1",
+    "a2": "1",
+    "rho": "1"
+   }
+  ],
+  "holds": true
+ },
+ "K4b": {
+  "norm": "1/Lp",
+  "holds": true
+ },
+ "K4c": {
+  "length": "-2*pi/log(r)",
+  "holds": true
+ },
+ "K4d": {
+  "generic_entry_reduction_[+1,-1]": [
+   true,
+   true
+  ],
+  "K_this_convention": "-4",
+  "K_opposite": "4",
+  "cusp_metric_solves_[+1,-1]": [
+   true,
+   false
+  ],
+  "round_metric_solves_[+1,-1]": [
+   false,
+   true
+  ],
+  "cusp_metric_curvature_is_-4": [
+   true,
+   "exact"
+  ],
+  "holds": true
+ },
+ "K4e": {
+  "solves": true,
+  "norm": "lambda",
+  "holds": true
+ },
+ "readouts": {
+  "CS_abs_quantiles": {
+   "0.0": 0.0,
+   "0.1": 0.031902350055479145,
+   "0.25": 0.3926303608449857,
+   "0.5": 0.7799937895421158,
+   "0.75": 1.2830714970831374,
+   "0.9": 1.6116528315597407,
+   "1.0": 2.2747295857763077
+  },
+  "twoCS_zero_not_swap_symmetric": [],
+  "twoCS_zero_count": 55,
+  "swap_symmetric_list": [
+   "LR",
+   "LLRR",
+   "LLLRRR",
+   "LLRLRR",
+   "LLRRLR",
+   "LLLLRRRR",
+   "LLLRLRRR",
+   "LLLRRRLR",
+   "LLRLRLRR",
+   "LLRLRRLR",
+   "LLRRLRLR",
+   "LLLLLRRRRR",
+   "LLLLRLRRRR",
+   "LLLLRRRRLR",
+   "LLLRLRLRRR",
+   "LLLRLRRRLR",
+   "LLLRRLLRRR",
+   "LLLRRRLLRR",
+   "LLLRRRLRLR",
+   "LLRLLRRLRR",
+   "LLRLRLRLRR",
+   "LLRLRLRRLR",
+   "LLRLRRLLRR",
+   "LLRLRRLRLR",
+   "LLRRLLRRLR",
+   "LLRRLRLRLR",
+   "LLLLLLRRRRRR",
+   "LLLLLRLRRRRR",
+   "LLLLLRRRRRLR",
+   "LLLLRLRLRRRR",
+   "LLLLRLRRRRLR",
+   "LLLLRRLLRRRR",
+   "LLLLRRRRLLRR",
+   "LLLLRRRRLRLR",
+   "LLLRLLRRLRRR",
+   "LLLRLLRRRLRR",
+   "LLLRLRLRLRRR",
+   "LLLRLRLRRRLR",
+   "LLLRLRRRLLRR",
+   "LLLRLRRRLRLR"
+  ],
+  "vol_L25R25": 7.2651283859576266,
+  "gap_to_2v8": 0.06259636746012553,
+  "vol_LaRb_diagonal": {
+   "1": 2.029883212819307,
+   "2": 3.6638623767088765,
+   "3": 4.813819186103885,
+   "5": 6.066992240075221,
+   "10": 6.954803691492722,
+   "25": 7.2651283859576266
+  },
+  "sl2_norms_in_h": {
+   "E12": "1/Lp",
+   "H": "1",
+   "E21": "Lp"
+  },
+  "snappy_orientation_reversal_crosscheck": [
+   [
+    "LLR",
+    -0.41123351671205777,
+    0.4112335167120573
+   ],
+   [
+    "LRR",
+    0.411233516712058,
+    -0.41123351671205577
+   ],
+   [
+    "LLLR",
+    -0.7282412593977607,
+    0.7282412593977643
+   ],
+   [
+    "LRRR",
+    0.7282412593977667,
+    -0.7282412593977634
+   ],
+   [
+    "LLLLR",
+    -0.9684656372547003,
+    0.9684656372546967
+   ]
+  ]
+ },
+ "cells": {
+  "Q0": true,
+  "K1": true,
+  "K1b": true,
+  "K2": true,
+  "K3": true,
+  "K3b": true,
+  "K4a": true,
+  "K4b": true,
+  "K4c": true,
+  "K4d": true,
+  "K4e": true
+ },
+ "threads": {
+  "LR": [
+   2.029883212819307,
+   -2.886579864025407e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLR": [
+   2.6667447834490603,
+   -0.41123351671205777,
+   "all tetrahedra positively oriented"
+  ],
+  "LRR": [
+   2.6667447834490603,
+   0.411233516712058,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLR": [
+   2.9891202829294845,
+   -0.7282412593977607,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRR": [
+   3.6638623767088765,
+   1.3322676295501878e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRR": [
+   2.9891202829294845,
+   0.7282412593977667,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLR": [
+   3.1772932786003265,
+   -0.9684656372547003,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRR": [
+   4.177751073189783,
+   -0.39181877415348687,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLR": [
+   4.751701965517899,
+   -0.4267361615828751,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRR": [
+   4.177751073189783,
+   0.39181877415349,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRR": [
+   4.751701965517899,
+   0.4267361615828782,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRR": [
+   3.1772932786003274,
+   0.9684656372546978,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLR": [
+   3.2969024143266377,
+   -1.1540668817704798,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRR": [
+   4.464658911548681,
+   -0.7059862952387497,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLR": [
+   5.133548425107058,
+   -0.7832753583244645,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRR": [
+   4.813819186103885,
+   -1.7763568394002505e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRR": [
+   5.625378249566623,
+   -1.7763568394002505e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLR": [
+   5.625378249566622,
+   1.7763568394002505e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRR": [
+   4.464658911548679,
+   0.7059862952387461,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRR": [
+   5.133548425107058,
+   0.7832753583244751,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRRR": [
+   3.296902414326638,
+   1.1540668817704816,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLR": [
+   3.3775974082314417,
+   -1.30074506889774,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRR": [
+   4.636433095826662,
+   -0.9494131208463485,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLR": [
+   5.3570421468203735,
+   -1.0635196259035566,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRR": [
+   5.170674078223725,
+   -0.33800593010395685,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLR": [
+   5.666445781713632,
+   -1.1498426637405117,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRR": [
+   6.1056536539693385,
+   -0.38697371755084964,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLR": [
+   6.105653653969338,
+   -0.38697371755084964,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRR": [
+   5.1706740782237235,
+   0.33800593010395996,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRR": [
+   6.377142550178532,
+   -0.4226783973549266,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLR": [
+   6.791984042028281,
+   -0.42939440333689083,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRR": [
+   6.105653653969339,
+   0.38697371755085364,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRR": [
+   6.377142550178531,
+   0.42267839735492707,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLR": [
+   6.1056536539693385,
+   0.38697371755084653,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRR": [
+   4.636433095826663,
+   0.9494131208463599,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRR": [
+   6.791984042028281,
+   0.42939440333688417,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRR": [
+   5.357042146820372,
+   1.0635196259035644,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRR": [
+   5.666445781713634,
+   1.149842663740516,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRRRR": [
+   3.3775974082314426,
+   1.300745068897746,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLR": [
+   3.4345408859025626,
+   -1.4191005045734244,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRR": [
+   4.745944843324716,
+   -1.1389748812070408,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLR": [
+   5.495648401403699,
+   -1.2815025706559524,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRR": [
+   5.380576989079152,
+   -0.6063032848411651,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLR": [
+   5.866445349336245,
+   -1.4086296543364796,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRR": [
+   6.381278082553543,
+   -0.6996533158120541,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLR": [
+   6.381278082553544,
+   -0.6996533158120399,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRR": [
+   5.573609112831137,
+   4.440892098500626e-16,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRR": [
+   6.798625679561556,
+   -0.7898944930936664,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLR": [
+   7.186139663416549,
+   -0.7938016136661445,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRR": [
+   6.644906443473392,
+   2.220446049250313e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLR": [
+   6.798625679561557,
+   -0.7898944930936664,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRR": [
+   6.951839008429099,
+   0.0240004827008371,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLR": [
+   6.644906443473393,
+   2.220446049250313e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRR": [
+   5.380576989079151,
+   0.6063032848411583,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLR": [
+   7.42259588345201,
+   -0.840605553473776,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRR": [
+   6.951839008429102,
+   -0.024000482700839765,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRR": [
+   7.641710594423997,
+   2.220446049250313e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLR": [
+   7.555014768194506,
+   -4.884981308350689e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRR": [
+   6.3812780825535445,
+   0.6996533158120588,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLR": [
+   7.641710594423999,
+   9.325873406851315e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRR": [
+   6.798625679561553,
+   0.7898944930936711,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRR": [
+   6.798625679561557,
+   0.7898944930936675,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLR": [
+   6.381278082553544,
+   0.6996533158120517,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRR": [
+   4.745944843324717,
+   1.1389748812070386,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRR": [
+   7.186139663416549,
+   0.7938016136661599,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRR": [
+   7.42259588345201,
+   0.84060555347377,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRR": [
+   5.495648401403701,
+   1.2815025706559502,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRRR": [
+   5.866445349336243,
+   1.4086296543364845,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRRRRR": [
+   3.434540885902565,
+   1.4191005045734257,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLR": [
+   3.4761739892389865,
+   -1.5163603675005306,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRR": [
+   4.819540434211211,
+   -1.2890194996995945,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLR": [
+   5.586361607662565,
+   -1.4527667613695343,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRR": [
+   5.511254398189118,
+   -0.8159134675885564,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLR": [
+   5.992910352001394,
+   -1.6116528315597407,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRR": [
+   6.54773701822071,
+   -0.9436955990844496,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLR": [
+   6.547737018220712,
+   -0.9436955990844496,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRR": [
+   5.8111802203049345,
+   -0.27611584682828005,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLR": [
+   6.168494398039205,
+   -1.7012661451247582,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRR": [
+   7.044876906298032,
+   -1.0838388971332193,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLR": [
+   7.416988199558158,
+   -1.0826082001130217,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRR": [
+   6.9544972393533655,
+   -0.32247766985017656,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLR": [
+   7.044876906298032,
+   -1.0838388971332122,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRR": [
+   7.2794350798003045,
+   -0.3102376680338821,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLR": [
+   6.954497239353367,
+   -0.3224776698501557,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRR": [
+   5.811180220304933,
+   0.27611584682828605,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRR": [
+   7.193530028047222,
+   -1.1391572834683643,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLR": [
+   7.782201805720877,
+   -1.1858659893776675,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRR": [
+   7.426315417121316,
+   -0.3995788463824439,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLR": [
+   7.782201805720877,
+   -1.1858659893776462,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRR": [
+   8.114850743106237,
+   -0.3859772457702959,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLR": [
+   7.982119517654683,
+   -0.37417477598011994,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRR": [
+   6.954497239353368,
+   0.3224776698501559,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRR": [
+   7.853469097889997,
+   -0.39606816305324766,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLR": [
+   8.114850743106238,
+   -0.3859772457702959,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRR": [
+   7.426315417121315,
+   0.3995788463824561,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLLR": [
+   7.426315417121314,
+   -0.399578846382451,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRR": [
+   7.426315417121315,
+   0.3995788463824774,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLR": [
+   6.954497239353368,
+   0.3224776698501679,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRR": [
+   5.511254398189118,
+   0.8159134675885511,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRR": [
+   8.31910985857547,
+   -0.4203128293358176,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLR": [
+   8.31910985857547,
+   -0.4203128293358105,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRR": [
+   7.279435079800306,
+   0.3102376680338943,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRR": [
+   8.44022021170687,
+   -0.4296152578018819,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRLR": [
+   8.8239971564936,
+   -0.4299288691347172,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRR": [
+   8.114850743106237,
+   0.3859772457702939,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRR": [
+   8.31910985857547,
+   0.4203128293358227,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRLR": [
+   7.9821195176546835,
+   0.37417477598011084,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRR": [
+   6.547737018220706,
+   0.943695599084462,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRR": [
+   7.853469097889999,
+   0.39606816305324566,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRR": [
+   8.440220211706873,
+   0.4296152578018728,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRLR": [
+   8.319109858575471,
+   0.4203128293358227,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRR": [
+   7.04487690629803,
+   1.0838388971332318,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRLR": [
+   8.114850743106237,
+   0.385977245770301,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRR": [
+   7.19353002804722,
+   1.1391572834683696,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRR": [
+   7.044876906298031,
+   1.0838388971332211,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRLR": [
+   6.547737018220708,
+   0.9436955990844584,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRR": [
+   4.819540434211211,
+   1.2890194996995894,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRLRR": [
+   8.823997156493599,
+   0.4299288691347152,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRRR": [
+   7.416988199558156,
+   1.08260820011302,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRRR": [
+   7.78220180572088,
+   1.1858659893776693,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRLRR": [
+   7.782201805720879,
+   1.1858659893776693,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRRR": [
+   5.586361607662567,
+   1.4527667613695434,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRRRR": [
+   5.992910352001394,
+   1.6116528315597605,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRLRRRR": [
+   6.168494398039205,
+   1.7012661451247708,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRRRRRR": [
+   3.476173989238992,
+   1.5163603675005326,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLLR": [
+   3.507503559505839,
+   -1.5975587847185562,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLRR": [
+   4.871182891680359,
+   -1.4099813464607593,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRLR": [
+   5.6485496494806995,
+   -1.5895675108725045,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRRR": [
+   5.597130091414522,
+   -0.9811230985212014,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLLR": [
+   6.076894918993274,
+   -1.7724535500753076,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLRR": [
+   6.653941842506352,
+   -1.1343475848801583,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRLR": [
+   6.653941842506349,
+   -1.1343475848801419,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRRR": [
+   5.958120836632298,
+   -0.4942178500867769,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLLR": [
+   6.290210632845993,
+   -1.8948637039970135,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLRR": [
+   7.196077479978702,
+   -1.3136245209622104,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRLR": [
+   7.559321157471496,
+   -1.3076079337302275,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRRR": [
+   7.140071220253079,
+   -0.5770230612995784,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLLR": [
+   7.196077479978702,
+   -1.3136245209621962,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLRR": [
+   7.4741648372210845,
+   -0.5740040497554801,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRLR": [
+   7.140071220253079,
+   -0.5770230612995562,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRRR": [
+   6.066992240075221,
+   1.354472090042691e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLRR": [
+   7.4273058285015665,
+   -1.4197654628731897,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRLR": [
+   7.995866673927153,
+   -1.459556677909606,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRRR": [
+   7.70187851047105,
+   -0.7062665935353483,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLLR": [
+   7.99586667392715,
+   -1.4595566779095777,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLRR": [
+   8.387995297477405,
+   -0.6983068197218785,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRLR": [
+   8.230535715268061,
+   -0.6734286100274005,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRRR": [
+   7.285583087686864,
+   -3.774758283725532e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLLR": [
+   7.427305828501566,
+   -1.4197654628731755,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLRR": [
+   8.154766609575077,
+   -0.7214295759350975,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRLR": [
+   8.387995297477405,
+   -0.6983068197218856,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRRR": [
+   7.785719122169675,
+   0.06138101597983625,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLLR": [
+   7.701878510471048,
+   -0.7062665935353465,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLRR": [
+   7.785719122169676,
+   0.061381015979843356,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRLR": [
+   7.285583087686863,
+   9.992007221626409e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRRR": [
+   5.958120836632298,
+   0.49421785008676933,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRLR": [
+   8.126197552894725,
+   -1.5166293422141977,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRRR": [
+   7.869961165285071,
+   -0.7601646946884912,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLLR": [
+   8.333954232721617,
+   -1.562373131236636,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLRR": [
+   8.749892572070207,
+   -0.7894393761737746,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRLR": [
+   8.702770481610377,
+   -0.7775145497739544,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRRR": [
+   7.785719122169675,
+   -0.06138101597985002,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLRR": [
+   8.887237994710599,
+   -0.8082632598751616,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRLR": [
+   9.220724986656137,
+   -0.7959723108159764,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRRR": [
+   8.633675719802369,
+   -2.4424906541753444e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLLR": [
+   8.70277048161038,
+   -0.7775145497739473,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLRR": [
+   8.818718635684988,
+   0.0319023500554636,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRLR": [
+   8.428788382884033,
+   -4.218847493575595e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRRR": [
+   7.14007122025308,
+   0.5770230612995793,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRLR": [
+   8.887237994710603,
+   -0.8082632598751545,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRRR": [
+   8.438012294980453,
+   -4.218847493575595e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLLR": [
+   8.749892572070205,
+   -0.7894393761737604,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLRR": [
+   9.003333897694013,
+   0.029553260098612144,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRLR": [
+   8.818718635684991,
+   0.03190235005548492,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRRR": [
+   7.70187851047105,
+   0.706266593535342,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLLRR": [
+   8.438012294980453,
+   -1.1324274851176597e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRLR": [
+   8.633675719802369,
+   6.439293542825908e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRRR": [
+   7.869961165285071,
+   0.760164694688465,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLLR": [
+   7.785719122169674,
+   -0.06138101597983758,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLRR": [
+   7.70187851047105,
+   0.7062665935353487,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRLR": [
+   7.140071220253079,
+   0.5770230612995761,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRRR": [
+   5.597130091414521,
+   0.9811230985212105,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLLRR": [
+   9.048102896456234,
+   -0.8364198022773408,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRLR": [
+   9.46467909422513,
+   -0.8443962790537825,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRRR": [
+   8.818718635684993,
+   -0.031902350055479145,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLRR": [
+   9.116288021789849,
+   -4.218847493575595e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRLR": [
+   8.818718635684991,
+   -0.03190235005548625,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRRR": [
+   7.474164837221082,
+   0.574004049755461,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRRR": [
+   9.003333897694016,
+   -0.02955326009859216,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRLRR": [
+   9.668800444843377,
+   2.886579864025407e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRLR": [
+   9.564089316583871,
+   -4.218847493575595e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRRR": [
+   8.387995297477405,
+   0.6983068197218807,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLLRR": [
+   9.286212753842191,
+   -1.1324274851176597e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRLR": [
+   9.564089316583873,
+   -4.218847493575595e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRRR": [
+   8.749892572070204,
+   0.7894393761737555,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRLRR": [
+   8.702770481610376,
+   0.7775145497739566,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRLR": [
+   8.230535715268063,
+   0.6734286100274276,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRRR": [
+   6.653941842506348,
+   1.1343475848801514,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRLR": [
+   9.28621275384219,
+   2.886579864025407e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRRR": [
+   8.154766609575075,
+   0.7214295759350926,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRLR": [
+   9.668800444843377,
+   -4.218847493575595e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRRR": [
+   8.887237994710599,
+   0.8082632598751496,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRLRR": [
+   9.048102896456232,
+   0.8364198022773359,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRLR": [
+   8.702770481610376,
+   0.7775145497739566,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRRR": [
+   7.196077479978703,
+   1.313624520962195,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRLRR": [
+   8.887237994710599,
+   0.8082632598751638,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRLR": [
+   8.749892572070207,
+   0.7894393761737697,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRRR": [
+   7.4273058285015665,
+   1.4197654628731993,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRLR": [
+   8.387995297477405,
+   0.6983068197218771,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRRR": [
+   7.427305828501567,
+   1.4197654628731886,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRLRR": [
+   7.1960774799787,
+   1.3136245209622128,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRLR": [
+   6.65394184250635,
+   1.134347584880155,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRRR": [
+   4.87118289168036,
+   1.409981346460755,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRLRRR": [
+   9.220724986656137,
+   0.7959723108159786,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRLRR": [
+   9.46467909422513,
+   0.8443962790537776,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRRRR": [
+   7.559321157471496,
+   1.3076079337302158,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRRRR": [
+   7.995866673927149,
+   1.4595566779095979,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRLRRR": [
+   8.126197552894727,
+   1.5166293422142,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRLRR": [
+   7.99586667392715,
+   1.4595566779096014,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRRRR": [
+   5.648549649480701,
+   1.5895675108725213,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRLRRR": [
+   8.333954232721613,
+   1.562373131236635,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRRRRR": [
+   6.076894918993272,
+   1.7724535500753134,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRLRRRRR": [
+   6.290210632845996,
+   1.8948637039970229,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRRRRRRR": [
+   3.5075035595058366,
+   1.597558784718587,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLLLR": [
+   3.531651357296382,
+   -1.6662841657767244,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLLRR": [
+   4.908728860436303,
+   -1.5092064357593795,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLRLR": [
+   5.692871637141095,
+   -1.7007575854287023,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLRRR": [
+   5.656244176661566,
+   -1.1134545524739239,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRLLR": [
+   6.135118948983261,
+   -1.9017797379144366,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRLRR": [
+   6.725181206081624,
+   -1.2853947668143566,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRRLR": [
+   6.725181206081623,
+   -1.2853947668143548,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRRRR": [
+   6.053808742064249,
+   -0.6666054528257022,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLLLR": [
+   6.371755379809091,
+   -2.0491872075175603,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLLRR": [
+   7.293885624322037,
+   -1.493993296117344,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLRLR": [
+   7.6518068914620425,
+   -1.4841363665671339,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLRRR": [
+   7.257290591905037,
+   -0.7763334206422574,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRLLR": [
+   7.293885624322035,
+   -1.49399329611733,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRLRR": [
+   7.596198534967807,
+   -0.7799937895421156,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRRLR": [
+   7.257290591905037,
+   -0.7763334206422485,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRRRR": [
+   6.225392407556082,
+   -0.22061489856183591,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLLLR": [
+   6.474501512689957,
+   -2.1245024009712647,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLLRR": [
+   7.572414836408412,
+   -1.640279304859169,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLRLR": [
+   8.129285851498617,
+   -1.6736585359551936,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLRRR": [
+   7.869325293714651,
+   -0.9473720424492591,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRLLR": [
+   8.129285851498617,
+   -1.6736585359551936,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRLRR": [
+   8.553281685405326,
+   -0.9424625932664015,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRRLR": [
+   8.382349387387116,
+   -0.9068471783142542,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRRRR": [
+   7.484156600362016,
+   -0.25762128834988074,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLLLR": [
+   7.572414836408413,
+   -1.6402793048591833,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLLRR": [
+   8.335308936663925,
+   -0.9766837428309529,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLRLR": [
+   8.553281685405327,
+   -0.9424625932663944,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLRRR": [
+   7.998863168965428,
+   -0.20930619233570313,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRLLR": [
+   7.869325293714651,
+   -0.9473720424492484,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRLRR": [
+   7.998863168965429,
+   -0.2093061923357009,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRRLR": [
+   7.48415660036202,
+   -0.2576212883498812,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRRRR": [
+   6.225392407556084,
+   0.22061489856186545,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLLRR": [
+   7.655671079974702,
+   -1.6913504774337538,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLRLR": [
+   8.332622016866974,
+   -1.7801758857124481,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLRRR": [
+   8.130462726506947,
+   -1.0542869506907906,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRLLR": [
+   8.534614913877494,
+   -1.823380275396512,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRLRR": [
+   9.001663791448161,
+   -1.0865279537200963,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRRLR": [
+   8.928790864996914,
+   -1.0613756450803635,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRRRR": [
+   8.080404993670065,
+   -0.3707065562219132,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLLLR": [
+   8.332622016866976,
+   -1.7801758857124197,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLLRR": [
+   9.146841603257986,
+   -1.1128346750007865,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLRLR": [
+   9.453111109343164,
+   -1.0865929697763506,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLRRR": [
+   8.933071641167647,
+   -0.31926676859577796,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRLLR": [
+   8.928790864996914,
+   -1.0613756450803493,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRLRR": [
+   9.106606278982582,
+   -0.2858965303839369,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRRLR": [
+   8.688497430726784,
+   -0.3022170755782909,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRRRR": [
+   7.484156600362016,
+   0.25762128834986653,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLLRR": [
+   8.645064767959857,
+   -1.1008712390902844,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLRLR": [
+   9.146841603257986,
+   -1.112834675000751,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLRRR": [
+   8.772653911811874,
+   -0.3345654713856909,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRLLR": [
+   9.001663791448166,
+   -1.0865279537200678,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRLRR": [
+   9.325256895215444,
+   -0.30404812822887806,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRRLR": [
+   9.106606278982584,
+   -0.2858965303839227,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRRRR": [
+   8.080404993670069,
+   0.3707065562219023,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLLLR": [
+   8.130462726506943,
+   -1.0542869506907764,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLLRR": [
+   8.77265391181187,
+   -0.33456547138567316,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLRLR": [
+   8.933071641167643,
+   -0.3192667685957531,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLRRR": [
+   8.259128696286465,
+   0.42062622960331786,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRLLR": [
+   8.080404993670067,
+   -0.3707065562218972,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRLRR": [
+   8.080404993670067,
+   0.37070655622189297,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRRLR": [
+   7.4841566003620175,
+   0.25762128834987696,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRRRR": [
+   6.05380874206425,
+   0.666605452825697,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRLLR": [
+   8.655822662938231,
+   -1.8788595456257822,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRLRR": [
+   9.113617464285726,
+   -1.132056976728012,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRRLR": [
+   9.11361746428573,
+   -1.1320569767280262,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRRRR": [
+   8.259128696286467,
+   -0.4206262296033145,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLLRR": [
+   9.461113242811022,
+   -1.198482635276686,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLRLR": [
+   9.829779992445742,
+   -1.1934892157574055,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLRRR": [
+   9.291017381010155,
+   -0.4037615298355206,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRLLR": [
+   9.396371798176617,
+   -1.1768145119211113,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRLRR": [
+   9.564787248928562,
+   -0.37407148778292765,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRRLR": [
+   9.217147272529635,
+   -0.3918288273007704,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRRRR": [
+   7.998863168965428,
+   0.2093061923357038,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLLRR": [
+   9.321943914640164,
+   -1.1794518139545034,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLRLR": [
+   9.887963373268732,
+   -1.2126500736251302,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLRRR": [
+   9.500482872305222,
+   -0.41365461911760804,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRLLR": [
+   9.829779992445738,
+   -1.1934892157574197,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRLRR": [
+   10.14045342091733,
+   -0.3857711756514206,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRRLR": [
+   9.979964399144116,
+   -0.3713928178278394,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRRRR": [
+   8.93307164116764,
+   0.31926676859577374,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLLRR": [
+   9.758241306878936,
+   -0.3858052791665685,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLRLR": [
+   9.979964399144116,
+   -0.3713928178278323,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLRRR": [
+   9.291017381010155,
+   0.4037615298355075,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRLLR": [
+   9.217147272529637,
+   -0.3918288273007704,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRLRR": [
+   9.217147272529635,
+   0.3918288273007804,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRRLR": [
+   8.688497430726784,
+   0.3022170755782796,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRRRR": [
+   7.257290591905038,
+   0.7763334206422559,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLLRRR": [
+   9.000316730951633,
+   -0.3926303608449828,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRLLR": [
+   9.461113242811019,
+   -1.198482635276686,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRLRR": [
+   9.822448393929687,
+   -0.39742673871466394,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRRLR": [
+   9.758241306878935,
+   -0.3858052791665614,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRRRR": [
+   8.77265391181187,
+   0.3345654713856814,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLLRR": [
+   9.822448393929687,
+   -0.3974267387146426,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLRLR": [
+   10.14045342091733,
+   -0.3857711756514135,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLRRR": [
+   9.500482872305222,
+   0.4136546191176038,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRLLR": [
+   9.564787248928564,
+   -0.3740714877829312,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRLRR": [
+   9.62926981647079,
+   0.43912650357976735,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRRLR": [
+   9.217147272529633,
+   0.39182882730077684,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRRRR": [
+   7.86932529371465,
+   0.947372042449262,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLLRLR": [
+   9.500482872305222,
+   -0.41365461911760093,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLLRRR": [
+   9.00031673095164,
+   0.3926303608449857,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRLLR": [
+   9.291017381010153,
+   -0.4037615298354993,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRLRR": [
+   9.500482872305222,
+   0.4136546191176109,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRRLR": [
+   9.291017381010155,
+   0.40376152983551283,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRRRR": [
+   8.130462726506943,
+   1.0542869506907793,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLLRR": [
+   8.77265391181187,
+   0.33456547138568316,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLRLR": [
+   8.933071641167645,
+   0.3192667685957631,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLRRR": [
+   8.130462726506943,
+   1.0542869506907828,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRLLR": [
+   7.998863168965428,
+   0.20930619233570202,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRLRR": [
+   7.869325293714651,
+   0.9473720424492478,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRRLR": [
+   7.25729059190504,
+   0.7763334206422656,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRRRR": [
+   5.6562441766615645,
+   1.1134545524739208,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLLRLR": [
+   10.089681841596857,
+   -1.2522292860971078,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLLRRR": [
+   9.629269816470789,
+   -0.43912650357976446,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRLRR": [
+   10.330674479258331,
+   -0.41975631456124773,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRRLR": [
+   10.235147951550243,
+   -0.4171534755983828,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRRRR": [
+   9.106606278982584,
+   0.28589653038392915,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLLRR": [
+   10.043349370480724,
+   -0.4231843581532999,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLRLR": [
+   10.330674479258333,
+   -0.4197563145612122,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLRRR": [
+   9.564787248928564,
+   0.37407148778293764,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRLRR": [
+   9.564787248928566,
+   0.37407148778293764,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRRLR": [
+   9.106606278982584,
+   0.28589653038395757,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRRRR": [
+   7.596198534967804,
+   0.7799937895421158,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRLRR": [
+   10.385613004571013,
+   -0.4282608491752029,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRRLR": [
+   10.385613004571013,
+   -0.4282608491751958,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRRRR": [
+   9.325256895215446,
+   0.30404812822887384,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRLLRR": [
+   10.476971377387542,
+   -0.431096240292554,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRLRLR": [
+   10.854323288927992,
+   -0.4300396150535235,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRLRRR": [
+   10.140453420917328,
+   0.3857711756514235,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRLRR": [
+   10.330674479258333,
+   0.4197563145612222,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRRLR": [
+   9.979964399144112,
+   0.3713928178278423,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRRRR": [
+   8.553281685405326,
+   0.9424625932663937,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLLRRR": [
+   9.822448393929685,
+   0.3974267387146597,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRLRR": [
+   10.38561300457101,
+   0.4282608491751987,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRRLR": [
+   10.235147951550239,
+   0.41715347559838567,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRRRR": [
+   9.001663791448163,
+   1.0865279537200956,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRLLRR": [
+   9.758241306878933,
+   0.3858052791665785,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRLRLR": [
+   9.979964399144114,
+   0.3713928178278494,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRLRRR": [
+   9.113617464285726,
+   1.1320569767280326,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRLRR": [
+   8.928790864996918,
+   1.0613756450803629,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRRLR": [
+   8.382349387387116,
+   0.9068471783142642,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRRRR": [
+   6.725181206081619,
+   1.2853947668143793,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRLRR": [
+   10.043349370480726,
+   0.4231843581533099,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRRLR": [
+   9.758241306878936,
+   0.38580527916656426,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRRRR": [
+   8.335308936663925,
+   0.9766837428309452,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLLRRR": [
+   9.822448393929688,
+   0.3974267387146526,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRLRR": [
+   10.47697137738754,
+   0.43109624029251425,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRRLR": [
+   10.385613004571013,
+   0.4282608491751916,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRRRR": [
+   9.14684160325799,
+   1.1128346750007787,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRLRLR": [
+   10.330674479258333,
+   0.4197563145612364,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRLRRR": [
+   9.461113242811022,
+   1.198482635276671,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRLRR": [
+   9.396371798176615,
+   1.1768145119211177,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRRLR": [
+   8.928790864996918,
+   1.0613756450803558,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRRRR": [
+   7.293885624322033,
+   1.493993296117333,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLLRRRR": [
+   8.645064767959857,
+   1.1008712390902695,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRLRLR": [
+   10.140453420917327,
+   0.3857711756514377,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRLRRR": [
+   9.321943914640162,
+   1.179451813954517,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRLRR": [
+   9.461113242811017,
+   1.198482635276671,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRRLR": [
+   9.11361746428573,
+   1.1320569767280255,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRRRR": [
+   7.572414836408413,
+   1.6402793048591864,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRLRR": [
+   9.146841603257988,
+   1.1128346750007645,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRRLR": [
+   9.001663791448161,
+   1.0865279537200814,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRRRR": [
+   7.6556710799747005,
+   1.6913504774337529,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRLRLR": [
+   8.553281685405329,
+   0.9424625932664044,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRLRRR": [
+   7.572414836408414,
+   1.6402793048591864,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRLRR": [
+   7.293885624322037,
+   1.4939932961173366,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRRLR": [
+   6.725181206081622,
+   1.2853947668143544,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRRRR": [
+   4.908728860436302,
+   1.5092064357593862,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRLRLRR": [
+   10.854323288927992,
+   0.4300396150535406,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRLRRRR": [
+   9.45311110934316,
+   1.0865929697763925,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRLRRR": [
+   9.829779992445737,
+   1.193489215757412,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRRLRR": [
+   9.82977999244574,
+   1.193489215757419,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRRRRR": [
+   7.651806891462043,
+   1.4841363665671334,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRLRRR": [
+   9.887963373268734,
+   1.2126500736251296,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRRLRR": [
+   10.089681841596855,
+   1.2522292860971,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRRRRR": [
+   8.129285851498617,
+   1.6736585359551928,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRLRRRR": [
+   8.332622016866972,
+   1.7801758857124401,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRLRRR": [
+   8.332622016866972,
+   1.780175885712433,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRRLRR": [
+   8.129285851498615,
+   1.6736585359551999,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRRRRR": [
+   5.692871637141097,
+   1.700757585428709,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRLRRRR": [
+   8.534614913877496,
+   1.8233802753965254,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRRLRRR": [
+   8.655822662938233,
+   1.8788595456257848,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRRRRRR": [
+   6.135118948983268,
+   1.901779737914436,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRLRRRRRR": [
+   6.3717553798090885,
+   2.049187207517574,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRRLRRRRR": [
+   6.474501512689957,
+   2.124502400971282,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRRRRRRRR": [
+   3.5316513572963775,
+   1.6662841657767362,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLLLLR": [
+   3.5506445847205192,
+   -1.725151258821019,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLLLRR": [
+   4.936840240667747,
+   -1.591882109071713,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLLRLR": [
+   5.725500506993504,
+   -1.792616322140924,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLLRRR": [
+   5.698538081377091,
+   -1.2212816003685472,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLRLLR": [
+   6.176983084602533,
+   -2.0074952165305517,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLRLRR": [
+   6.775046005900505,
+   -1.407155374751591,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLRRLR": [
+   6.7750460059005055,
+   -1.4071553747515662,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLLRRRR": [
+   6.119092759138885,
+   -0.8046101149918123,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRLLLR": [
+   6.428670922266014,
+   -2.1739347650971097,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRLLRR": [
+   7.360219540039964,
+   -1.6376276073442124,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRLRLR": [
+   7.714790176241879,
+   -1.6248108165607231,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRLRRR": [
+   7.335165668164701,
+   -0.9340408592175078,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRRLLR": [
+   7.360219540039965,
+   -1.6376276073442266,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRRLRR": [
+   7.676733623178317,
+   -0.942482023770149,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRRRLR": [
+   7.3351656681647,
+   -0.9340408592174954,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLLRRRRR": [
+   6.328317548462954,
+   -0.3958652229038997,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLLLLR": [
+   6.555277602669955,
+   -2.2747295857763077,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLLLRR": [
+   7.667090090217711,
+   -1.8142369065280217,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLLRLR": [
+   8.216885407527354,
+   -1.8424568580622616,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLLRRR": [
+   7.976461432035584,
+   -1.136540652121988,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLRLLR": [
+   8.216885407527352,
+   -1.8424568580622616,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLRLRR": [
+   8.658755799347832,
+   -1.1333444468583829,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLRRLR": [
+   8.480172824029212,
+   -1.0896539660853137,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRLRRRR": [
+   7.609258568545049,
+   -0.4603327218452271,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRLLLR": [
+   7.667090090217711,
+   -1.814236906528036,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRLLRR": [
+   8.449388705470264,
+   -1.175995299658473,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRLRLR": [
+   8.658755799347833,
+   -1.133344446858365,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRLRRR": [
+   8.13164188440219,
+   -0.42169664891630565,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRRLLR": [
+   7.976461432035582,
+   -1.1365406521219996,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRRLRR": [
+   8.13164188440219,
+   -0.4216966489162941,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRRRLR": [
+   7.609258568545051,
+   -0.4603327218452151,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLLRRRRRR": [
+   6.391391454785443,
+   1.0658141036401503e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLLLRR": [
+   7.798403400014368,
+   -1.9058593433107074,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLLRLR": [
+   8.462571059468853,
+   -1.987358480247563,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLLRRR": [
+   8.290369402413576,
+   -1.2862037194807479,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLRLLR": [
+   8.661239455126706,
+   -2.028391188894629,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLRLRR": [
+   9.155903234725319,
+   -1.3191683418462135,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLRRLR": [
+   9.068710058016272,
+   -1.2830714970831196,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLLRRRR": [
+   8.259131228165158,
+   -0.615903788832717,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRLLLR": [
+   8.462571059468855,
+   -1.987358480247563,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRLLRR": [
+   9.304960231305234,
+   -1.3508125675220897,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRLRLR": [
+   9.596207817588837,
+   -1.3130847003843429,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRLRRR": [
+   9.113298268548826,
+   -0.5709373477885242,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRRLLR": [
+   9.068710058016272,
+   -1.2830714970831338,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRRLRR": [
+   9.280056855062476,
+   -0.5352069685604566,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRRRLR": [
+   8.846808573245605,
+   -0.5388157918766467,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRLRRRRR": [
+   7.691094812114973,
+   8.881784197001252e-16,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLLLLR": [
+   7.798403400014367,
+   -1.905859343310679,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLLLRR": [
+   8.81971656848307,
+   -1.3499361910823269,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLLRLR": [
+   9.304960231305234,
+   -1.3508125675220755,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLLRRR": [
+   8.971814180446875,
+   -0.599741620930786,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLRLLR": [
+   9.155903234725317,
+   -1.3191683418461992,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLRLRR": [
+   9.516988171988586,
+   -0.5669817976544664,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLRRLR": [
+   9.28005685506248,
+   -0.5352069685604477,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRLRRRR": [
+   8.30543950321904,
+   0.09878268041116689,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRLLLR": [
+   8.29036940241358,
+   -1.2862037194807443,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRLLRR": [
+   8.971814180446874,
+   -0.5997416209307815,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRLRLR": [
+   9.113298268548824,
+   -0.5709373477885038,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRLRRR": [
+   8.489831937991552,
+   0.1447994268611179,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRRLLR": [
+   8.25913122816516,
+   -0.6159037888326993,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRRLRR": [
+   8.30543950321904,
+   0.09878268041117266,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRRRLR": [
+   7.691094812114974,
+   7.105427357601002e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLLRRRRRRR": [
+   6.328317548462952,
+   0.39586522290389436,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLLRLR": [
+   8.536006572583421,
+   -2.037024941876778,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLLRRR": [
+   8.384157441855242,
+   -1.3394066256720571,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLRLLR": [
+   8.85095338827815,
+   -2.131397058824488,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLRLRR": [
+   9.3560460734619,
+   -1.4183545824722672,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLRRLR": [
+   9.330057639065254,
+   -1.405104797194943,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLLRRRR": [
+   8.537233789008416,
+   -0.7183876682461687,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRLLLR": [
+   8.85095338827815,
+   -2.131397058824488,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRLLRR": [
+   9.703727590748786,
+   -1.4891833140363162,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRLRLR": [
+   10.046200829471323,
+   -1.4703763611604388,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRLRRR": [
+   9.566446514223946,
+   -0.7084553963374163,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRRLLR": [
+   9.604067744187745,
+   -1.4465003099216376,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRRLRR": [
+   9.8260135838094,
+   -0.6765468182828116,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRRRLR": [
+   9.45134132918045,
+   -0.6793305650420465,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLLRRRRR": [
+   8.305439503219041,
+   -0.09878268041117089,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLLLRR": [
+   9.575667140432605,
+   -1.4781683795119478,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLLRLR": [
+   10.114337935670688,
+   -1.4977987928403906,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLLRRR": [
+   9.788017629979697,
+   -0.7286760363400504,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLRLLR": [
+   10.046200829471317,
+   -1.470376361160453,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLRLRR": [
+   10.413077915465456,
+   -0.6980265660686158,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLRRLR": [
+   10.222606909652152,
+   -0.6677549413469592,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRLRRRR": [
+   9.248793006898516,
+   0.0,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRLLLR": [
+   9.330057639065252,
+   -1.405104797194943,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRLLRR": [
+   10.030992017680319,
+   -0.6980826709656001,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRLRLR": [
+   10.22260690965215,
+   -0.667754941346945,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRLRRR": [
+   9.603187125709963,
+   0.08122461608450848,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRRLLR": [
+   9.451341329180451,
+   -0.6793305650420607,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRRLRR": [
+   9.513928891768735,
+   0.07328286013802199,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRRRLR": [
+   8.955208938748711,
+   0.0,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRLRRRRRR": [
+   7.609258568545051,
+   0.4603327218452262,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLLRLR": [
+   9.575667140432605,
+   -1.4781683795119478,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLLRRR": [
+   9.323226786812052,
+   -0.7218576723183603,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLRLLR": [
+   9.703727590748786,
+   -1.4891833140363162,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLRLRR": [
+   10.129844269277125,
+   -0.7254571462265489,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLRRLR": [
+   10.03099201768032,
+   -0.6980826709655858,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLLRRRR": [
+   9.127916033024476,
+   7.105427357601002e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRLLLR": [
+   9.356046073461897,
+   -1.4183545824722672,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRLLRR": [
+   10.129844269277122,
+   -0.7254571462265276,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRLRLR": [
+   10.413077915465454,
+   -0.6980265660686087,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRLRRR": [
+   9.851744279118755,
+   0.0753110093091145,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRRLLR": [
+   9.826013583809406,
+   -0.6765468182828187,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRRLRR": [
+   9.961927721851364,
+   0.10417985333187829,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRRRLR": [
+   9.513928891768735,
+   0.0732828601380362,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRLRRRRR": [
+   8.259131228165156,
+   0.6159037888326939,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLLLRR": [
+   9.323226786812048,
+   -0.7218576723183603,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLLRLR": [
+   9.788017629979697,
+   -0.7286760363400646,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLLRRR": [
+   9.369837879450806,
+   0.05139804390797664,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLRLLR": [
+   9.566446514223948,
+   -0.708455396337395,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLRLRR": [
+   9.851744279118755,
+   0.07531100930911094,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLRRLR": [
+   9.603187125709965,
+   0.08122461608451914,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRLRRRR": [
+   8.537233789008418,
+   0.7183876682461638,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRLLLR": [
+   8.537233789008416,
+   -0.7183876682461687,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRLLRR": [
+   9.12791603302448,
+   7.105427357601002e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRLRLR": [
+   9.248793006898518,
+   7.105427357601002e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRLRRR": [
+   8.537233789008416,
+   0.7183876682461687,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRRLLR": [
+   8.305439503219043,
+   -0.09878268041118332,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRRLRR": [
+   8.25913122816516,
+   0.615903788832685,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRRRLR": [
+   7.609258568545049,
+   0.4603327218452258,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLLRRRRRRRR": [
+   6.119092759138889,
+   0.8046101149918035,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRLLRR": [
+   9.793273033904313,
+   -1.5255043488795281,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRLRLR": [
+   10.180301739967325,
+   -1.529451672040358,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRLRRR": [
+   9.666923390135473,
+   -0.7498180184075329,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRRLLR": [
+   9.793273033904313,
+   -1.5255043488795423,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRRLRR": [
+   9.989028119232696,
+   -0.7336888543959177,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRRRLR": [
+   9.666923390135471,
+   -0.7498180184075125,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLLRRRRR": [
+   8.48983193799155,
+   -0.1447994268611268,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLLLRR": [
+   9.865766836770211,
+   -1.554412318345078,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLLRLR": [
+   10.447352684174804,
+   -1.595677473750476,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLLRRR": [
+   10.087833000496826,
+   -0.8080214239326111,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLRLLR": [
+   10.427476550275216,
+   -1.5854808267794085,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLRLRR": [
+   10.763406438063004,
+   -0.7892523399902729,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLRRLR": [
+   10.616361877768663,
+   -0.7721085179816527,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRLRRRR": [
+   9.603187125709965,
+   -0.08122461608450005,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRLLRR": [
+   10.470189482661464,
+   -0.7930405051418064,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRLRLR": [
+   10.706409131858095,
+   -0.7747231262170644,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRLRRR": [
+   10.050939794464021,
+   7.105427357601002e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRRLLR": [
+   9.986936705442421,
+   -0.7836361180130667,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRRLRR": [
+   10.023528391338013,
+   -7.105427357601002e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRRRLR": [
+   9.513928891768737,
+   -0.0732828601380291,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLLRRRRRR": [
+   8.13164188440219,
+   0.4216966489163012,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLLRRR": [
+   9.986816976391395,
+   -0.7936837568952868,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLRLLR": [
+   10.447352684174806,
+   -1.595677473750476,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLRLRR": [
+   10.845548066970416,
+   -0.8097851910082341,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLRRLR": [
+   10.789516709926275,
+   -0.7953989483045334,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLLRRRR": [
+   9.851744279118755,
+   -0.07531100930911094,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRLLRR": [
+   10.929267658467019,
+   -0.8121921224459172,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRLRLR": [
+   11.251588460167467,
+   -0.7964247811706031,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRLRRR": [
+   10.655039285571881,
+   -1.0658141036401503e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRRLLR": [
+   10.706409131858095,
+   -0.7747231262170573,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRRLRR": [
+   10.814434128540332,
+   0.033625393449156604,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRRRLR": [
+   10.406996319573306,
+   0.0,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRLRRRRR": [
+   9.11329826854882,
+   0.5709373477885038,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLLLRR": [
+   10.280979437999916,
+   -0.7779464722954714,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLLRLR": [
+   10.789516709926273,
+   -0.7953989483045405,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLLRRR": [
+   10.34456976456663,
+   0.008875847662643821,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLRLLR": [
+   10.61636187776866,
+   -0.7721085179816456,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLRLRR": [
+   10.877569089722238,
+   0.039414166738730216,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLRRLR": [
+   10.667699981305597,
+   0.042684390369302605,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRLRRRR": [
+   9.566446514223944,
+   0.7084553963374056,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRLLRR": [
+   10.244614212896028,
+   0.0,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRLRLR": [
+   10.406996319573306,
+   2.1316282072803006e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRLRRR": [
+   9.666923390135468,
+   0.7498180184075338,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRRLLR": [
+   9.513928891768737,
+   -0.0732828601380291,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRRLRR": [
+   9.451341329180448,
+   0.6793305650420607,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRRRLR": [
+   8.846808573245605,
+   0.5388157918766396,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRLRRRRRRR": [
+   7.335165668164701,
+   0.9340408592175042,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLLRRLR": [
+   10.280979437999914,
+   -0.7779464722954714,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLLRRRR": [
+   9.369837879450806,
+   -0.051398043907965985,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRLLRR": [
+   10.558779567472365,
+   -0.8163549505931755,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRLRLR": [
+   10.929267658467019,
+   -0.812192122445903,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRLRRR": [
+   10.344569764566632,
+   -0.008875847662679348,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRRLLR": [
+   10.470189482661466,
+   -0.7930405051418064,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRRLRR": [
+   10.59535979410383,
+   0.02529165699188951,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRRRLR": [
+   10.244614212896026,
+   2.1316282072803006e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLLRRRRR": [
+   8.971814180446877,
+   0.5997416209307993,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLLRLR": [
+   10.845548066970416,
+   -0.8097851910082412,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLLRRR": [
+   10.417178663221137,
+   0.0,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLRLLR": [
+   10.76340643806301,
+   -0.7892523399902374,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLRLRR": [
+   11.037699341053596,
+   0.030740937353300524,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLRRLR": [
+   10.877569089722236,
+   0.03941416673872311,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRLRRRR": [
+   9.788017629979693,
+   0.7286760363400575,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRLLRR": [
+   10.59535979410383,
+   0.02529165699188951,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRLRLR": [
+   10.81443412854033,
+   0.03362539344916371,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRLRRR": [
+   10.087833000496827,
+   0.8080214239326253,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRRLLR": [
+   10.02352839133801,
+   1.0658141036401503e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRRLRR": [
+   9.986936705442417,
+   0.7836361180130667,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRRRLR": [
+   9.45134132918045,
+   0.6793305650420571,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRLRRRRRR": [
+   7.976461432035582,
+   1.136540652121988,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLLRLLR": [
+   10.087833000496824,
+   -0.8080214239326253,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLLRLRR": [
+   10.417178663221138,
+   -1.4210854715202004e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLLRRLR": [
+   10.344569764566632,
+   0.008875847662693559,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLLRRRR": [
+   9.323226786812048,
+   0.721857672318339,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRLLRR": [
+   10.344569764566632,
+   -0.008875847662679348,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRLRLR": [
+   10.655039285571881,
+   1.4210854715202004e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRLRRR": [
+   9.98681697639139,
+   0.7936837568952797,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRRLLR": [
+   10.050939794464018,
+   1.7763568394002505e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRRLRR": [
+   10.087833000496827,
+   0.8080214239326395,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRRRLR": [
+   9.666923390135471,
+   0.7498180184075303,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRLRRRRR": [
+   8.290369402413578,
+   1.2862037194807336,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLLRLR": [
+   9.851744279118757,
+   -0.07531100930911805,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLLRRR": [
+   9.323226786812047,
+   0.721857672318339,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLRLLR": [
+   9.603187125709963,
+   -0.08122461608450493,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLRLRR": [
+   9.788017629979695,
+   0.7286760363400646,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLRRLR": [
+   9.566446514223946,
+   0.7084553963374056,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRLRRRR": [
+   8.384157441855242,
+   1.3394066256720456,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRLLRR": [
+   8.971814180446875,
+   0.5997416209307957,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRLRLR": [
+   9.113298268548824,
+   0.5709373477885074,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRLRRR": [
+   8.290369402413578,
+   1.2862037194807194,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRRLLR": [
+   8.13164188440219,
+   0.42169664891629144,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRRLRR": [
+   7.976461432035582,
+   1.136540652121996,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRRRLR": [
+   7.335165668164703,
+   0.9340408592175025,
+   "all tetrahedra positively oriented"
+  ],
+  "LLLRRRRRRRRR": [
+   5.698538081377087,
+   1.2212816003685374,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLLRLRR": [
+   10.988329396874779,
+   -0.8333152889745847,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLLRRLR": [
+   10.988329396874777,
+   -0.8333152889745847,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLLRRRR": [
+   9.961927721851362,
+   -0.1041798533318854,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRLLRR": [
+   11.121650894774179,
+   -0.8472630987305962,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRLRLR": [
+   11.497105343966675,
+   -0.8451902667482571,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRLRRR": [
+   10.814434128540332,
+   -0.033625393449170815,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRRLRR": [
+   11.019014708121952,
+   0.0,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRRRLR": [
+   10.667699981305603,
+   -0.042684390369302605,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRLRRRRR": [
+   9.280056855062478,
+   0.5352069685604566,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLLRLR": [
+   11.121650894774183,
+   -0.8472630987305962,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLLRRR": [
+   10.595359794103832,
+   -0.02529165699190372,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLRLRR": [
+   11.17331737042633,
+   0.005803778591008779,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLRRLR": [
+   11.019014708121954,
+   -1.4210854715202004e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRLRRRR": [
+   9.826013583809399,
+   0.6765468182828116,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRLLRR": [
+   10.595359794103832,
+   -0.025291656991896616,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRLRLR": [
+   10.814434128540334,
+   -0.033625393449156604,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRLRRR": [
+   9.989028119232694,
+   0.7336888543958964,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRRLRR": [
+   9.826013583809404,
+   0.6765468182828258,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRRRLR": [
+   9.28005685506248,
+   0.5352069685604548,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLLRRRRRRR": [
+   7.676733623178314,
+   0.9424820237701605,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRLRLR": [
+   11.543848629508535,
+   -0.8562323694026859,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRLRRR": [
+   10.877569089722238,
+   -0.039414166738730216,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRRLRR": [
+   11.173317370426332,
+   -0.005803778591030095,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRRRLR": [
+   10.877569089722236,
+   -0.03941416673872311,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLLRRRRR": [
+   9.516988171988588,
+   0.5669817976544806,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRLLRRR": [
+   11.037699341053601,
+   -0.03074093735332184,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRLRLRR": [
+   11.698102360262242,
+   7.105427357601002e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRLRRLR": [
+   11.58964606742352,
+   7.105427357601002e-15,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRLRRRR": [
+   10.413077915465456,
+   0.6980265660686229,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRLLRR": [
+   11.301176378799212,
+   0.0,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRLRLR": [
+   11.571445183307562,
+   0.0,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRLRRR": [
+   10.763406438063008,
+   0.7892523399902445,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRRLRR": [
+   10.706409131858099,
+   0.7747231262170502,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRRRLR": [
+   10.222606909652148,
+   0.6677549413469628,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRLRRRRRR": [
+   8.658755799347833,
+   1.1333444468583953,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLLRRLR": [
+   11.230298791248549,
+   0.0008082268677895854,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLLRRRR": [
+   10.129844269277124,
+   0.7254571462265418,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRLLRR": [
+   11.230298791248547,
+   -0.00080822686778248,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRLRLR": [
+   11.589646067423521,
+   -1.4210854715202004e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRLRRR": [
+   10.845548066970416,
+   0.8097851910082483,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRRLRR": [
+   10.98832939687478,
+   0.8333152889745847,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRRRLR": [
+   10.616361877768663,
+   0.7721085179816456,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRLRRRRR": [
+   9.155903234725319,
+   1.319168341846217,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRLLRRR": [
+   10.280979437999912,
+   0.7779464722954785,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRLRLRR": [
+   10.789516709926273,
+   0.7953989483045476,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRLRRLR": [
+   10.61636187776866,
+   0.7721085179816491,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRLRRRR": [
+   9.3560460734619,
+   1.4183545824722708,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRLLRR": [
+   10.030992017680315,
+   0.6980826709656001,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRLRLR": [
+   10.222606909652148,
+   0.6677549413469557,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRLRRR": [
+   9.330057639065256,
+   1.4051047971949537,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRRLRR": [
+   9.068710058016272,
+   1.2830714970831374,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRRRLR": [
+   8.480172824029214,
+   1.0896539660853422,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRLRRRRRRRR": [
+   6.7750460059005055,
+   1.4071553747515972,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRLRLR": [
+   11.301176378799218,
+   0.0,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRLRRR": [
+   10.47018948266146,
+   0.7930405051417992,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRRLRR": [
+   10.470189482661462,
+   0.7930405051418064,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRRRLR": [
+   10.030992017680317,
+   0.6980826709656001,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLLRRRRRR": [
+   8.449388705470266,
+   1.1759952996584695,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLLRRRR": [
+   10.129844269277125,
+   0.7254571462265347,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRLRLR": [
+   11.698102360262244,
+   2.1316282072803006e-14,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRLRRR": [
+   10.929267658467019,
+   0.8121921224459172,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRRLRR": [
+   11.121650894774183,
+   0.8472630987305678,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRRRLR": [
+   10.789516709926273,
+   0.7953989483045334,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRLRRRRR": [
+   9.304960231305238,
+   1.350812567522079,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRLLRRR": [
+   10.558779567472362,
+   0.8163549505931897,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRLRLRR": [
+   11.12165089477418,
+   0.8472630987305678,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRLRRLR": [
+   10.988329396874777,
+   0.8333152889745989,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRLRRRR": [
+   9.703727590748782,
+   1.4891833140363198,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRLRLR": [
+   10.706409131858095,
+   0.7747231262170609,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRLRRR": [
+   9.793273033904313,
+   1.525504348879546,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRRLRR": [
+   9.604067744187743,
+   1.446500309921627,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRRRLR": [
+   9.068710058016272,
+   1.2830714970831338,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRLRRRRRRR": [
+   7.360219540039966,
+   1.6376276073442444,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLLRRRLR": [
+   10.280979437999914,
+   0.7779464722954927,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLLRRRRR": [
+   8.81971656848307,
+   1.3499361910823162,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRLRLRR": [
+   10.929267658467017,
+   0.8121921224459101,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRLRRLR": [
+   10.845548066970416,
+   0.8097851910082412,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRLRRRR": [
+   9.575667140432605,
+   1.4781683795119442,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRLRLR": [
+   10.763406438063006,
+   0.7892523399902303,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRLRRR": [
+   9.865766836770213,
+   1.5544123183450673,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRRLRR": [
+   9.793273033904313,
+   1.525504348879546,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRRRLR": [
+   9.330057639065252,
+   1.4051047971949608,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRLRRRRRR": [
+   7.667090090217711,
+   1.8142369065280288,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRLRLR": [
+   10.413077915465454,
+   0.6980265660686158,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRLRRR": [
+   9.575667140432605,
+   1.4781683795119442,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRRLRR": [
+   9.703727590748786,
+   1.4891833140363269,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRRRLR": [
+   9.356046073461897,
+   1.418354582472292,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRLRRRRR": [
+   7.798403400014366,
+   1.9058593433106967,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRLRLRR": [
+   9.304960231305234,
+   1.350812567522079,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRLRRLR": [
+   9.155903234725319,
+   1.319168341846217,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRLRRRR": [
+   7.798403400014366,
+   1.9058593433106967,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRLRLR": [
+   8.65875579934783,
+   1.13334444685839,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRLRRR": [
+   7.66709009021771,
+   1.8142369065280466,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRRLRR": [
+   7.360219540039965,
+   1.6376276073442408,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRRRLR": [
+   6.775046005900506,
+   1.4071553747515804,
+   "all tetrahedra positively oriented"
+  ],
+  "LLRRRRRRRRRR": [
+   4.936840240667749,
+   1.591882109071706,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRLRLRRR": [
+   11.251588460167465,
+   0.7964247811706102,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRLRRLRR": [
+   11.497105343966675,
+   0.8451902667482856,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRLRRRRR": [
+   9.59620781758884,
+   1.3130847003843749,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRLRLRR": [
+   11.543848629508533,
+   0.8562323694027143,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRLRRRR": [
+   10.04620082947132,
+   1.4703763611604566,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRRLRRR": [
+   10.18030173996733,
+   1.5294516720403615,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRRRLRR": [
+   10.04620082947132,
+   1.4703763611604637,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRLRRRRRRR": [
+   7.714790176241879,
+   1.6248108165607444,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRLRRRR": [
+   10.114337935670685,
+   1.4977987928403942,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRRLRRR": [
+   10.44735268417481,
+   1.5956774737504937,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRRRLRR": [
+   10.427476550275216,
+   1.5854808267793978,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRLRRRRRR": [
+   8.216885407527348,
+   1.8424568580622473,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRLRRLRR": [
+   10.447352684174811,
+   1.5956774737504937,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRLRRRRR": [
+   8.46257105946885,
+   1.9873584802475879,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRLRRRR": [
+   8.53600657258342,
+   2.0370249418767603,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRRLRRR": [
+   8.46257105946885,
+   1.9873584802475772,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRRRLRR": [
+   8.216885407527354,
+   1.8424568580622545,
+   "all tetrahedra positively oriented"
+  ],
+  "LRLRRRRRRRRR": [
+   5.725500506993508,
+   1.792616322140924,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRLRRRRR": [
+   8.661239455126704,
+   2.0283911888946253,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRRLRRRR": [
+   8.85095338827815,
+   2.131397058824513,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRRRLRRR": [
+   8.85095338827815,
+   2.1313970588245095,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRLRRRRRRRR": [
+   6.176983084602538,
+   2.007495216530559,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRLRRRRRRR": [
+   6.428670922266017,
+   2.1739347650971204,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRRLRRRRRR": [
+   6.555277602669958,
+   2.2747295857763077,
+   "all tetrahedra positively oriented"
+  ],
+  "LRRRRRRRRRRR": [
+   3.5506445847205197,
+   1.7251512588210136,
+   "all tetrahedra positively oriented"
+  ]
+ }
+}
