@@ -4,6 +4,9 @@
 > generalisations fail beyond.** On the same construction, long words with golden blocks dilute the hierarchy, so the
 > hierarchy is not fixed by one number. The "forbidden band" is filled by long Markov words, and "Hurwitz is B990 in
 > Diophantine form" is withdrawn.
+>
+> **2026-10-15: the mass formula corrected** to its basis-invariant form (last section). The 18 words that are not
+> reflection-symmetric move by at most 3.2·10⁻⁵ relative. Every sealed cell keeps its outcome.
 
 chat1, 2026-10-14, evening. An out-of-sample test of the height law found on the thread frame's 12 threads.
 - **Sealed** at `3887230a7` (sha256 91bfe0f8…). **The script** `lagrange_law.py` was committed before its one run
@@ -142,3 +145,44 @@ RMS is on new threads only, and admission was as sealed. It found that the gener
 6. **"The observed hierarchy prefers the plural weave of small c" is downgraded to a remark.** It rests on weights for
    lengths ≤ 5 (25% of weight (A) uncomputed) and on a band drawn after seeing the data.
 7. **Credit.** The Markov heights and LR as the unique lowest thread are main's: B1629, B482 (T-TWOTEETH), B1379.
+
+## Correction (2026-10-15: the mass formula, found by step 3a's pre-seal review)
+
+The sealed form (K^{−½})ᵀ Y K^{−½} is not basis-invariant where K and Y are both complex. The invariant masses are the
+singular values of K^{−½} Y (K^{−½})ᵀ (`FINDINGS_THREAD_FRAME.md`, same date).
+
+The labelled post hoc `post_hoc_invariant_masses.*` recomputes both forms. Its script (`d5cf9f3a9`) was committed
+before its one run (339 s), and its output is at `ea0647ffc`.
+
+- **51 of the 69 words are reflection-symmetric:** the reversal or the mirror is a rotation of the word.
+  - On these, K is real to 4·10⁻¹⁸ and the two forms agree to 1.05·10⁻¹⁵.
+  - Y is real on them only to the quadrature's precision. |Im Y|/|Y| ≤ 1.7·10⁻⁶ on the 41 admitted.
+  - On the ten not admitted (y > 3) it reaches 0.53 (LLLLLLLR), where N = 256 and N = 384 differ by up to 24%. Since K
+    is real there, the two forms still agree.
+- **On the other 18, K and Y are both complex.**
+  - |Im K|/|K| runs from 1.5·10⁻⁹ to 2.4·10⁻⁵, and |Im Y|/|Y| reaches 1.2%.
+  - The two forms differ by at most 3.2·10⁻⁵ relative, on the reversal pair LLRLRR and LLRRLR.
+- **Every sealed cell keeps its outcome and its quoted figure.** Admission is unchanged: 59 threads, 47 of them new.
+
+  | cell | invariant form | as sealed |
+  |---|---|---|
+  | LL1 | ρ = −0.9957183 | the same (ranks are unchanged) |
+  | LL2 | RMS 0.297744 | 0.297742 |
+  | LL3 | LR, 0.3687747 | the same |
+  | LL4 | no violation | no violation |
+  | LL5 | RMS 0.610642 | 0.610640 |
+- **The figures quoted above all stand.**
+  - The Markov 5 and Markov 13 pairs in the spectrum table move by less than 3.2·10⁻⁵ relative.
+  - In correction 1's table, the three long words that are not symmetric move by at most 2.2·10⁻⁵ (LLRR(LR)³). The two
+    golden words, LLR(LR)⁴ and LLR(LR)¹², are symmetric.
+- **The CP read-outs are unaffected.** A reversed or mirrored word carries the conjugate couplings. Both forms then give
+  conjugate matrices, hence equal masses. In the two forms, the six chiral words of `post_hoc_reversal` differ by at
+  most 3.2·10⁻⁵, by the same amount within each pair.
+- **Step 3a's C1 reference is unchanged:** 0.0515 on LLRLRLR, which is reflection-symmetric, in both forms.
+- **Disclosed: the recheck's own defects.**
+  - The JSON's `P1` writes the key "their worst old-vs-new difference" twice. The second value (the 18 words' 3.18·10⁻⁵)
+    overwrote the first (the symmetric words' 1.05·10⁻¹⁵). The per-row data are complete, and the figures above are
+    read from the rows.
+  - `P1`'s count of 53 reflection-symmetric words is the 51 to length 8 plus the two symmetric long words.
+  - The docstring says "seven reversal words", but `P3` holds six. The seventh, LLR, has length 3 and sits in `P1`'s
+    rows.

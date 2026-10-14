@@ -4,6 +4,9 @@
 > are withdrawn or narrowed: the hierarchy is carried by the normalisation K, not by Y; the location is not integrated;
 > "B990's law, sharpened" conflated two meanings of "no hierarchy"; TF4 tested nothing at these lengths; and the Markov
 > heights are main's (B1629, B482, B1379).
+>
+> **2026-10-15: the mass formula corrected** to its basis-invariant form (last section). On these 12 threads K is real,
+> so the two forms give the same matrix and no number here changes.
 
 chat1, 2026-10-14, evening. One candidate for the owner's selection-principle task, tested.
 - **Sealed** at `0cf01ff11` (sha256 71aa2bcd…). **The script** `thread_frame.py` was committed at `0516039e8` before
@@ -137,3 +140,25 @@ confirmed the seal order, the hashes and every scored cell. Withdrawn or narrowe
 7. **Credit.** That a thread's highest point is half its Markov (Lagrange) value, and LR the unique lowest thread, is on
    main: B1629 ("√5/2, then √2: B482's Markov values"), B482 (T-TWOTEETH) and B1379 (golden = Hurwitz). New here are the
    link to flavour hierarchies and the cycle integrals.
+
+## Correction (2026-10-15: the mass formula, found by step 3a's pre-seal review)
+
+- **The formula.** The masses here are the singular values of (K^{−½})ᵀ Y K^{−½}, as sealed.
+  - With K_ab = ∮⟨F_a, F_b⟩ (linear in the first slot), a change of sections F → UF sends K → UKU^H and Y → UYUᵀ.
+  - The singular values of K^{−½} Y (K^{−½})ᵀ are invariant under that change. The sealed form's are not, in general.
+- **When the two differ.** Write A = K^{−½}. It is Hermitian, so Aᵀ is its complex conjugate Ā, and the two forms are
+  Ā Y A and A Y Ā.
+  - If K is real, A is real and the two matrices are equal.
+  - If Y is real, each matrix is the other's complex conjugate, so the singular values agree.
+  - Only when both K and Y are complex can the masses differ. On random complex 3×3 matrices they differ at order one.
+- **Nothing in this file changes.** On the 12 threads K is real to 3·10⁻¹⁸ relative, so both forms give the same
+  matrix.
+  - Every number here stands, including the root's lightest-state weights (TF3).
+  - `post_hoc_hybrid` also stands, since it uses each thread's real K.
+- **Correction 5's "K and Y are real" holds to the quadrature's precision.** |Im Y|/|Y| ≤ 1.2·10⁻⁶ on the 12. It is
+  largest on the deepest thread (LRRRR), at the level where N = 256 and N = 384 disagree.
+- **The labelled post hoc** `post_hoc_invariant_masses.*` recomputes every thread to length 8 in both forms. Its script
+  (`d5cf9f3a9`) was committed before its one run, and its output is at `ea0647ffc`.
+  - On the 51 reflection-symmetric words the two forms agree to 1.05·10⁻¹⁵.
+  - The other 18 are covered in `FINDINGS_LAGRANGE_LAW.md` (same date).
+- **From step 3a on** (`../chat1_2026-10-14_step3/`), chat1 uses the invariant form.
