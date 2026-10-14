@@ -101,3 +101,14 @@ threads are.
   checked only in its local model.
 - **No number.** No scale, no generation count. 0 of 19.
 - **No crossing.** The class-S rhyme (O8) stays behind B151's firewall. Every crossing waits on B1643's C1–C6.
+
+## Addendum, the same day: which field the passage reaches
+
+The owed condensate test (`../CHAT1_TO_CC_2026-10-14_CONDENSATE_IN_M.md`) shows that in the audit lane's E₈ embedding:
+- M, the adjoint of the quaternion structure, is a complete Standard Model singlet;
+- the cusp condensate, the electroweak candidate, has no component in M.
+
+So the field this passage reaches, under H-RES, is a flavour field (a flavon), not the electroweak Higgs. The SM seat's
+P024 reaches the electroweak field from the other side: a bare end admits no finite description. The two passages force
+two different fields, and they do not compete. How the two couple to the matter is owed (the parent map, P-108), and
+the puncture's parity already constrains it.

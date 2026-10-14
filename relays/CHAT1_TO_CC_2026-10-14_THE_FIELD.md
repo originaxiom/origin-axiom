@@ -222,6 +222,9 @@ shape rests on Donagi–Witten, cited from memory.
    - If its quaternion-SU(2) part is a tame residue at an unfiltered genuine cusp, it is null, and the leading order of
      O4 follows with no potential.
    - Prior 50%.
+   - **Run the same day** (`CHAT1_TO_CC_2026-10-14_CONDENSATE_IN_M.md`): **it failed at the first cell.** The condensate
+     has no M-part, 112 of 112 (puncture-odd against puncture-even). In this embedding B1644's Higgs in M is a
+     Standard Model singlet: a flavon.
 4. **The opening** (a reading first, then a seal).
    - Given |a|, what κ + 2, or what weight at the puncture, would each sector's m₂/m₃ need (about 0.004 to 0.06)?
    - Does anything forced supply that? Candidates: the levels, the fillings, end data at the puncture.
