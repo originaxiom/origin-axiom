@@ -1,0 +1,67 @@
+{
+ "status": "W79 SECOND POST HOC (labelled): the precision of main's weight-3 forms near the cusp",
+ "PH3": {
+  "rows": [
+   {
+    "Im tau": 2,
+    "largest angle": 2.535102867395486e-13,
+    "1e-16 |eta|^-18": 1.2391647807916693e-12
+   },
+   {
+    "Im tau": 3,
+    "largest angle": 2.7934950088680785e-11,
+    "1e-16 |eta|^-18": 1.3794107058059825e-10
+   },
+   {
+    "Im tau": 4,
+    "largest angle": 3.108531389206916e-09,
+    "1e-16 |eta|^-18": 1.5355293539544656e-08
+   },
+   {
+    "Im tau": 5,
+    "largest angle": 3.4605143337600525e-07,
+    "1e-16 |eta|^-18": 1.7093171648817493e-06
+   },
+   {
+    "Im tau": 6,
+    "largest angle": 3.852252169116428e-05,
+    "1e-16 |eta|^-18": 0.0001902773895292159
+   },
+   {
+    "Im tau": 7,
+    "largest angle": 0.004291270424370168,
+    "1e-16 |eta|^-18": 0.02118125629924138
+   },
+   {
+    "Im tau": 8,
+    "largest angle": 0.47572657700153903,
+    "1e-16 |eta|^-18": 2.3578503968558193
+   }
+  ],
+  "slope of log(angle) against Im tau": 4.710934572348914,
+  "3 pi / 2": 4.71238898038469
+ },
+ "PH4": {
+  "tau": [
+   -0.07371773130317516,
+   6.663964995864581
+  ],
+  "main's forms: chi^2 of the up masses": 191.15407773823574,
+  "projected onto this seat's span: chi^2": 117.69945621145014,
+  "the removed part, relative": 0.0007422037245423519,
+  "singular values / largest (main's fit)": [
+   0.00015680764566976366,
+   0.006885761550636015,
+   1.0
+  ],
+  "singular values / largest (projected)": [
+   8.025404789971423e-05,
+   0.00686056838393746,
+   1.0
+  ],
+  "data m_u/m_t, m_c/m_t": [
+   7.310115297753476e-06,
+   0.0036847735647212625
+  ]
+ }
+}
