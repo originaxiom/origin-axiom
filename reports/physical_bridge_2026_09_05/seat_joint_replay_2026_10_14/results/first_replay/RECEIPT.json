@@ -1,0 +1,66 @@
+{
+  "seal_commit": "ce62cb60c02ad5fef4421a9000ceae4e100dfdd3",
+  "pins_match": true,
+  "runs": [
+    {
+      "program": "where_a_higgs_couples",
+      "exit_code": 0,
+      "seconds": 20.41333406799822,
+      "stdout": {
+        "file": "where_a_higgs_couples.stdout.log",
+        "bytes": 16228,
+        "sha256": "e0ba79ef378de72c24ef1a207c0ce397c678a2fbf233edae50eef400ed9403d2"
+      },
+      "stderr": {
+        "file": "where_a_higgs_couples.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "program": "the_lane_su2_branching",
+      "exit_code": 0,
+      "seconds": 1.1402236729991273,
+      "stdout": {
+        "file": "the_lane_su2_branching.stdout.log",
+        "bytes": 36,
+        "sha256": "96baf463041ded2e757616dd9de7fb2bad688146c9f7e692a7bf757ee8af1331"
+      },
+      "stderr": {
+        "file": "the_lane_su2_branching.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "program": "the_completion_dichotomy",
+      "exit_code": 0,
+      "seconds": 2.176180309001211,
+      "stdout": {
+        "file": "the_completion_dichotomy.stdout.log",
+        "bytes": 38,
+        "sha256": "04ee993a3da523b2a07a55c6d216fb424b39d58c96ccc1dd029ee978dd3607ea"
+      },
+      "stderr": {
+        "file": "the_completion_dichotomy.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "checks": {
+    "where_a_higgs_couples complete incoming record reproduced": true,
+    "theta/covariance and opposing controls": true,
+    "the_lane_su2_branching complete incoming record reproduced": true,
+    "complete branching and preserved signed failure": true,
+    "the_completion_dichotomy complete incoming record reproduced": true,
+    "actual commutant0/1/8 and preserved failed M2": true
+  },
+  "sources_unchanged": true,
+  "tracked_unchanged": true,
+  "pin_count": 10,
+  "tracked_count": 12747,
+  "before_digest": "60e2c2bd5e06fcb8cb99ac3b4eaa53462cd1d05946f50a061d5dd23086ff8ed9",
+  "after_digest": "60e2c2bd5e06fcb8cb99ac3b4eaa53462cd1d05946f50a061d5dd23086ff8ed9",
+  "passed": true
+}

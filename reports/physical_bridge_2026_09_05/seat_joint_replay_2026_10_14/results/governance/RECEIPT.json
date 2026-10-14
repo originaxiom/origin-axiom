@@ -1,0 +1,17 @@
+{
+  "exit_code": 1,
+  "elapsed_seconds": 34.172554999997374,
+  "tracked_files": 12764,
+  "tracked_unchanged": true,
+  "index_unchanged": true,
+  "fingerprint_before": "8f03ba5f94393b3e50784080ea84ae47f1dd0e2dbe4d8300bd8c97dbd3f58c0e",
+  "fingerprint_after": "8f03ba5f94393b3e50784080ea84ae47f1dd0e2dbe4d8300bd8c97dbd3f58c0e",
+  "stdout": {
+    "bytes": 2646,
+    "sha256": "5fec63fd79eaac00caf02b7d99c66196bc1252f9e533262d66f96ab429b06455"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

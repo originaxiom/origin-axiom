@@ -31,3 +31,10 @@ The new global based-loop packet does not displace these investigations:
 they can inform the coefficient, norm and generation questions, but must
 be joined through one actual field/operator/action map. No unverified
 positive or negative in this intake is a new load-bearing premise.
+
+Later same-night refresh at40ca3bb07 supersedes the sealed-only B1548
+status above: its finite character population is now banked NEGATIVE.
+W81/W83 original producers were also independently replayed here with
+complete records agreeing, not a physical dictionary or universal
+classification. See ALL_SEATS_STRATEGY_2026_10_14_NIGHT.md and
+seat_joint_replay_2026_10_14/FINDINGS.md. Historical earlier intake kept.

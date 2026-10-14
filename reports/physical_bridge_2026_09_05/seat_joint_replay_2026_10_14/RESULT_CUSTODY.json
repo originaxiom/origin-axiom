@@ -1,0 +1,55 @@
+{
+  "scope": "Original producer finite replay only",
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/RECEIPT.json",
+      "sha256": "f64a2b6eb2f94cfbac1961a19a61fda1a31dfd2be8d43e1b6982e20af8e85d74",
+      "bytes": 2262
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/where_a_higgs_couples.json",
+      "sha256": "36eb5993b13f49e771b1d8e814591998aaad0c935c95848546bcff7043cfe691",
+      "bytes": 16227
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/where_a_higgs_couples.stdout.log",
+      "sha256": "e0ba79ef378de72c24ef1a207c0ce397c678a2fbf233edae50eef400ed9403d2",
+      "bytes": 16228
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/where_a_higgs_couples.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/the_lane_su2_branching.json",
+      "sha256": "dc2219b8e501c8d33dd0b8a6b75bbe218c7bf7230df4e9300c1c03d57d97d110",
+      "bytes": 1188
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/the_lane_su2_branching.stdout.log",
+      "sha256": "96baf463041ded2e757616dd9de7fb2bad688146c9f7e692a7bf757ee8af1331",
+      "bytes": 36
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/the_lane_su2_branching.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/the_completion_dichotomy.json",
+      "sha256": "f1f9f1e4a677dff224ecd08cbdd2a683da760e062d047be0b7906bf7cdd112ed",
+      "bytes": 507
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/the_completion_dichotomy.stdout.log",
+      "sha256": "04ee993a3da523b2a07a55c6d216fb424b39d58c96ccc1dd029ee978dd3607ea",
+      "bytes": 38
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/results/first_replay/the_completion_dichotomy.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ]
+}

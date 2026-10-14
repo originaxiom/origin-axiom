@@ -1,0 +1,29 @@
+{
+ "status": "W83: the completion dichotomy in the lane's E8 frame (script committed before its one run)",
+ "M1": {
+  "roots orthogonal to colour and SU(2)_w": 30,
+  "simple roots": 5,
+  "degrees of the Dynkin graph": [
+   1,
+   1,
+   2,
+   2,
+   2
+  ],
+  "an A5": true,
+  "the lane's chain inside": true,
+  "holds": true
+ },
+ "M2": {
+  "trace-free commutant dimensions": {
+   "through O": 0,
+   "through S3 only": 1,
+   "trivially": 8
+  },
+  "holds": false
+ },
+ "cells": {
+  "M1": true,
+  "M2": false
+ }
+}

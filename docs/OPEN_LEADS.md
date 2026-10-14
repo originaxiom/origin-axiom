@@ -1,5 +1,18 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October14 night all-seat intake: B1651/W81/W83 finite original producers
+independently replayed after ce62cb60c,complete records agree;10pins/tree
+unchanged. Not all physical claims verified. Current geometric/real-
+parent/projected transport duties remain. PB-ACTUAL-INVARIANT15-BRACKETS
+OPEN, main's tribunal asks compact g2+u1 hypothesis: actual closure,
+pairing/central direction/rank/root lengths, not dimension naming.
+W83's O-family zero hypercharge holds at its supplied representation;
+coefficient3=weavephysical3 remains an UNEARNED identification. Native
+B3 and supplied fullSAut geometric transport not conflated. Chat1
+H-thread/sector/selection remains separate, SM B1548 now scoped NEGATIVE
+not a programme kill. Sources in physical-bridge ALL_SEATS_STRATEGY and
+seat_joint_replay_2026_10_14/FINDINGS.md.
+
 PB-GEOMETRIC-BASED-DOMAIN-JOINT: October14 natural based orbifold
 map and leading COMPLEX trace-gluing argument now authored,329/32
 exact,158 live PASS93.74s at corrected f0760049f;46pins/tree unchanged.

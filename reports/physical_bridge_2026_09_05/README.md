@@ -1,5 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
+October14 night all-seat refresh:11heads enumerated; main9a87e8097,
+SM40ca3bb07/chat1de848fd4a latest reports read. B1651/W81/W83 original
+finite producers rerun after ce62cb60c: full records agree,10pins/tree
+unchanged, failed signed/trivial predictions retained. Not whole theory
+or independent implementation acceptance. Strategy: actual real-parent/
+projected domain map first, bracket-check actual gauge15 second, SAME-
+action stationary normalized field/end vertices next. NativeB3 versus
+supplied fullSAut and coefficient3 versus physical generations explicit.
+Report ALL_SEATS_STRATEGY_2026_10_14_NIGHT.md; replay seat_joint_replay.
+
 October14 actual based geometry:329/32 exact,158 live PASS93.74s,
 46pins/tree unchanged at corrected f0760049f. Natural orbifold bundle
 map and leading complex trace gluing authored; first sign failure
