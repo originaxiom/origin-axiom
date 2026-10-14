@@ -18836,3 +18836,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   question as the hand and the count: the dictionary between the weave and the fields.
 - All five predictions held, exactly. The count of free numbers: 0 of 19.
 
+## 2026-10-14 — a reading before W72
+
+- **The question proposed after W71** (does main's massless first generation survive a Higgs that is odd at the edge?)
+  turned out not to be posed yet. In the record's own frame the Higgs must be even there. In the audit lane's frame it
+  is odd, but the matter it would couple to has not been built.
+- **Main asked this seat for a different piece:** the couplings computed over the whole surface, where the shape
+  parameter τ is integrated away. The reading finds the one natural way to do that, and its limit: it fixes whether
+  the lightest generation is massless, but not the mass ratios, until the edge carries a source. That is the next
+  computation, W72.
+

@@ -1,5 +1,16 @@
 # Changelog
 
+## A reading after W71: the end's field against B1649, by frame; the surface frame's overlap
+
+- **W72 as first proposed waits on main's P-108.** In Λ's frame a cubic invariant of two ρ_Q zero modes forces the
+  Higgs's internal factor to be even under the puncture, which is B1649's premise, and its zero holds. In the audit
+  lane's frame the puncture is the weak centre, so the Higgs is odd, but the even stalk's matter is on neither record.
+- **The surface frame's overlap (main's S122 §2), by hand.** B1644's coupling between two matter modes carries η¹²'s
+  multiplier, so it has no residue at the cusp. The canonical overlap is the Petersson pairing with the Higgs's unique
+  surface mode of weight 5/2. Its rank is physical; mass ratios need the modes normalised, which needs a source at the
+  cusp. W72 proposed to compute it, rule first. Nothing computed. 0 of 19.
+- **Surfaces.** The dossier's reading and the logs.
+
 ## The weave's W71: the field-free end (P024's second test); relay section 85
 
 - **W71** (the owner's "do as u propose/recomend"; the rule 7375d296c first; the script b6bd5a00e before its one run;

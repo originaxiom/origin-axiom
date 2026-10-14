@@ -5882,6 +5882,51 @@ the stated embedding and hypotheses. 0 of 19.
 **Status.** COMPUTED (the rule first; one run after one failed launch; all five cells as predicted; exact, with a
 numerical second route). A WEAVE result given the stated embedding, parent and Λ. 0 of 19.
 
+## Reading: the end's field against main's B1649, by frame; and the surface frame's overlap (READING; nothing computed; 2026-10-14, after W71)
+
+**Why.** After W71 the seat proposed W72: does B1649's massless first generation survive when the Higgs is odd under
+the puncture, as the cusp condensate is? Reading for it first (main's B1642 and B1649, the audit lane's field map, W45,
+W46, W64 and W68) showed that the question is not yet posed. Main's S122 relay assigns the seat a better-posed one.
+
+**The frames disagree on the Higgs's puncture parity.**
+- **In Λ's frame,** B1642's coupling pairs two zero modes F_p = C_p F, both valued in ρ_Q. A cubic invariant in
+  ρ_Q ⊗ ρ_Q ⊗ V needs V ⊂ ρ_Q ⊗ ρ_Q = 1 + three characters, which is even under the puncture. So the Higgs's internal
+  factor is even. That is B1649's S ∈ End(ℂ²), and its first-generation zero holds there.
+- **In the audit lane's frame,** the puncture's −1 is the weak centre on every root (the lane's field map, a3e744d99).
+  So a Standard Model Higgs is odd, the cusp condensate is odd (W70), and B1649's even S is a weak singlet or triplet.
+  There the Standard Model's Yukawa must pair the odd stalk (Q, L) with an even one (u^c, d^c, e^c).
+- **That frame's matter is not built.** W21's ordinary-spin zero modes grow like z^{−½} at the puncture. The lane's spin
+  norm makes that borderline divergent, so in the lane's frame the triplet lives in the twisted forms, and the even
+  stalk's zero modes for the singlets are not on either record. This is main's P-108 (the parent map).
+- **So W72 as first proposed waits on P-108.** This settles one of P-129's four premises, the Higgs at the puncture, by
+  frame. In Λ's frame the premise is forced; in the lane's frame it fails.
+
+**The surface frame's overlap (main's S122 §2, assigned to this seat).**
+- Main proposes that in the surface frame, where τ is integrated over, a hierarchy is an overlap integral over the
+  surface, not a power of |q| at a chosen Im τ. The record has the surface frame's pieces:
+  - the three chiral modes F_i, F₊, F₋ at weight 3/2 in ρ_R, one unit at the cusp each (W64's K5, W68);
+  - the residue triplet R at weight −½;
+  - B1644's coupling.
+- **By hand, two exact facts.**
+  - A dot product in ρ_R pairs only e_i with e_i and v₊ with v₋. Both pairs have exponents ≡ ¼ (mod 1), so every
+    dot product of two ρ_R forms has the multiplier i.
+  - B1644's coupling between two matter modes, F_αᵀ Y(a; R) F_β, has two dot products. So it carries η¹²'s multiplier,
+    and its q-exponents lie in ½ + ℤ. It has no constant term, so no residue at the cusp: a holomorphic, cusp-localized
+    Yukawa vanishes identically.
+- **What remains is the Petersson pairing.** Written as a · G_αβ, the coupling defines a vector G_αβ of weight 5/2 in
+  ρ_R ⊗ χ_i, where χ_i is the character with T ↦ i. The canonical four-dimensional overlap projects G_αβ onto the
+  Higgs's own surface mode h of that type, Y_αβ = ⟨G_αβ, h⟩.
+  - By W45's dimension formula, by hand, that space has dimension 1. It is cuspidal, since every exponent is
+    non-zero.
+  - The pairing converges after the x-integral, because h has no principal part.
+  - So τ drops out and the shape of the Yukawa is parameter-free.
+- **What it cannot give yet.** The three modes grow at the cusp (their units), so their Petersson norms diverge. Only
+  basis-free facts about Y_αβ are physical without a normalisation, chiefly its rank, which decides B1649's zero in this
+  frame. Mass ratios need the modes normalised, which needs a source at the cusp: P024's question again, now at the
+  surface's end, and GENESIS FK10's unit.
+- **W72, proposed:** compute the multipliers on the record's sections, the Higgs's surface mode, the Petersson Yukawa
+  and its rank, rule first.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
