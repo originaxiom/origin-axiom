@@ -1,5 +1,10 @@
 # The Lagrange law: in the thread frame a vacuum's hierarchy is fixed, to 0.3 e-folds over 20, by one number, its thread's Lagrange value; the golden root (Hurwitz's √5) is the least hierarchical vacuum
 
+> **Corrected the same evening (see the last section). The sealed cells stand for words of length ≤ 8; the law's
+> generalisations fail beyond.** On the same construction, long words with golden blocks dilute the hierarchy, so the
+> hierarchy is not fixed by one number. The "forbidden band" is filled by long Markov words, and "Hurwitz is B990 in
+> Diophantine form" is withdrawn.
+
 chat1, 2026-10-14, evening. An out-of-sample test of the height law found on the thread frame's 12 threads.
 - **Sealed** at `3887230a7` (sha256 91bfe0f8…). **The script** `lagrange_law.py` was committed before its one run
   (378 s). It copies `thread_frame.py`'s construction verbatim. Output: `lagrange_law_run.txt` and `lagrange_law.json`
@@ -84,3 +89,56 @@ the words with a run of five or more letters: L⁵R, L⁶R, L⁷R and their kin.
   - Other weights or representations: the natural place for sector differences and a second slope.
   - Sectors; mixing; the thread selection; the derivation of H-thread.
 - No value. **0 of 19.**
+
+## Corrections (2026-10-14, late evening, after the independent referee)
+
+The referee upheld every sealed cell and the seal order: hashes verified, the coefficients are the 12-thread fit, the
+RMS is on new threads only, and admission was as sealed. It found that the generalisations fail beyond length 8.
+
+1. **BLOCKER, taken: "fixed by one number" is withdrawn.** The referee re-ran the construction verbatim (reproducing
+   `lagrange_law.json` to 1.3·10⁻⁸) on longer words.
+   - **Markov threads LLRR(LR)^k:** m₂/m₃ = 0.037 (length 10), 0.043 (12), 0.060 (18), 0.083 (28). It keeps rising
+     toward the root's 0.369. The law gives 0.0245.
+   - **LLR(LR)^k:** from 0.0034 to 0.055 at length 27, where the law gives 0.0103.
+   - **All 501 admitted Lyndon words of length 9–12:** the sealed fit's RMS is 0.44 (mean residual +0.38), growing with
+     length. The residual–syllable Spearman is +0.68.
+   - **The mechanism.** The heavy mode F₊'s norm accumulates along the geodesic's whole length, while the light modes'
+     norms are dominated by the highest point. So the ratio depends on at least two numbers: the height and the length,
+     or golden content.
+   - **chat1's own labelled post hoc** (`post_hoc_long_words.*`: the sealed construction, unchanged, on five long
+     words) reproduces the referee's numbers. All five agree between N = 256 and N = 384 to 2·10⁻⁷ or better.
+
+     | word | length | y_max | m₂/m₃ | the law's m₂/m₃ | m₁/m₃ |
+     |---|---|---|---|---|---|
+     | LLRR(LR)³ (Markov 34) | 10 | 1.4997 | 0.0369 | 0.0246 | 2.7·10⁻³ |
+     | LLRRLLRRLR (Markov 29) | 10 | 1.4996 | 0.0280 | 0.0246 | 3.7·10⁻³ |
+     | LLRR(LR)⁷ (Markov 1597) | 18 | 1.5000 | 0.0595 | 0.0245 | 3.1·10⁻³ |
+     | LLR(LR)⁴ | 11 | 1.6181 | 0.0265 | 0.0103 | 1.1·10⁻³ |
+     | LLR(LR)¹² | 27 | 1.6180 | 0.0553 | 0.0103 | 1.7·10⁻³ |
+
+     - Two Markov threads of length 10 at almost the same height (Markov 29 and 34) differ by a third in m₂/m₃. Height
+       alone does not fix the ratio even among Markov threads.
+     - Along LLRR(LR)^k (k = 0, 1, 2, 3, 7: Markov 2, 5, 13, 34, 1597) m₂/m₃ runs 0.036, 0.027, 0.031, 0.037, 0.059.
+       It rises from k = 1 on, toward the root's 0.369.
+2. **"The Markov spectrum makes the mild hierarchies discrete; the band 0.04–0.37 is forbidden; the leptons' 0.059 lies
+   in it" is withdrawn.** Long Markov words fill the band: LLRR(LR)^k at length 18 gives 0.0595.
+3. **"Hurwitz is B990's law in Diophantine form" is withdrawn.**
+   - At the record's symmetric points "no hierarchy" means rank one or degenerate. At the golden thread it means a mild
+     0.37. The cusp, a symmetric point too, carries the deepest hierarchies.
+   - What stands: **the root has the largest m₂/m₃ of all threads computed.** Long golden-dominated words approach it
+     from below.
+4. **Numbers corrected.**
+   - "0.3 e-folds over 20": the admitted m₂/m₃ span 13.2 e-folds.
+   - The excluded words are those with y > 3 or failing the precision rule, not "all words with a run of five".
+     LLLLLRR, LLLLLRRR, LLRRRRR and LLLRRRRR were admitted.
+   - y_max is a sampled lower bound on half the Lagrange value, off by at most 7.8·10⁻⁵.
+   - The table omits LLRLRRLR (√10, 0.0151).
+   - The 47 new threads carry 26 distinct values; mirror pairs duplicate.
+5. **The base rate was not computed by a script.**
+   - The referee's null, jittering the targets by ±0.5 to ±2 e-folds, gives p ≈ 0.01–0.03 with threads to length 8 and
+     0.04–0.10 to length 12. So the figure depends on the cutoff.
+   - LLRLRLR carries the law's largest residual (+0.55).
+   - "Not significant" stands.
+6. **"The observed hierarchy prefers the plural weave of small c" is downgraded to a remark.** It rests on weights for
+   lengths ≤ 5 (25% of weight (A) uncomputed) and on a band drawn after seeing the data.
+7. **Credit.** The Markov heights and LR as the unique lowest thread are main's: B1629, B482 (T-TWOTEETH), B1379.

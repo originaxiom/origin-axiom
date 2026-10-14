@@ -1,5 +1,10 @@
 # The thread frame: integrating over the vacuum thread's closed geodesic gives a parameter-free hierarchy whose depth is the thread's height; the golden root is the least hierarchical (1 : 0.37 : 0.0096)
 
+> **Corrected the same evening (see the last section).** An independent referee upheld every sealed cell. Five readings
+> are withdrawn or narrowed: the hierarchy is carried by the normalisation K, not by Y; the location is not integrated;
+> "B990's law, sharpened" conflated two meanings of "no hierarchy"; TF4 tested nothing at these lengths; and the Markov
+> heights are main's (B1629, B482, B1379).
+
 chat1, 2026-10-14, evening. One candidate for the owner's selection-principle task, tested.
 - **Sealed** at `0cf01ff11` (sha256 71aa2bcd…). **The script** `thread_frame.py` was committed at `0516039e8` before
   its one run (371 s).
@@ -95,3 +100,37 @@ chat1, 2026-10-14, evening. One candidate for the owner's selection-principle ta
 - **Not tested.** Any other weight or representation; sectors; mixing; c and the thread selection; the physical
   derivation of H-thread.
 - No value. **0 of 19.**
+
+## Corrections (2026-10-14, late evening, after the independent referee)
+
+An agent of chat1's, read-only, refereed both sealed tests and the draft report. It re-ran the construction and
+confirmed the seal order, the hashes and every scored cell. Withdrawn or narrowed:
+
+1. **"The surface frame's hierarchy does not survive a finite normalisation" (the controls) is withdrawn.**
+   - W72's surface Y, normalised by *each thread's own* K, reproduces that thread's m₂/m₃ within about 10%. Examples:
+     LLRR 0.0355 against 0.0357, LLR 0.0031 against 0.0034, LLLLR 1.52·10⁻⁶ against 1.55·10⁻⁶.
+   - **So the hierarchy is carried by K, the normalisation, not by Y.** The root's K compresses it; a high thread's K
+     deepens it.
+   - **What the thread frame supplies is a canonical normalisation:** the modes' norms along the vacuum thread's
+     geodesic. That is the post hoc choice W73 had to make by hand (H-end).
+2. **"τ, the Higgs's direction and its location are integrated" is wrong on the location.** G is B1644's residue
+   coupling at the puncture, B1649's premise (P-129). τ and the Higgs's direction (the unique surface mode h) are
+   integrated; the location stays the puncture.
+3. **"B990's law, sharpened … symmetric points have none" is withdrawn.**
+   - It conflated two meanings of "no hierarchy". At the record's symmetric points the masses are rank one or
+     degenerate (W67: at ω on the cone m₂/m₃ < 10⁻¹⁵). The golden thread's mild 0.37 is something else.
+   - The cusp is also a symmetric point, and there the hierarchies are deepest.
+   - What stands is narrower: **the root has the largest m₂/m₃ of every thread computed.**
+4. **"Falls by about 7.3 per unit of height between every pair of threads" is wrong.**
+   - Slopes between adjacent threads run from 5.1 to 12.6. 7.3 is the least-squares slope.
+   - The law itself fails beyond length 8 (`FINDINGS_LAGRANGE_LAW.md`, corrections).
+5. **TF4 tested nothing here.**
+   - Every word of length ≤ 5 is reverse-symmetric, so a word and its mirror trace the same geodesic with opposite
+     orientation.
+   - K and Y are real for all 12 threads. **The sealed CP read-out was dropped from the script without notice**;
+     disclosed now. On this construction a chiral thread gives no CP phase.
+6. **"The first chiral threads give the observed orders of magnitude" explains nothing by itself.** The threads cover
+   m₂/m₃ from 0.37 down to below 10⁻¹⁰, so some thread always sits at any observed order.
+7. **Credit.** That a thread's highest point is half its Markov (Lagrange) value, and LR the unique lowest thread, is on
+   main: B1629 ("√5/2, then √2: B482's Markov values"), B482 (T-TWOTEETH) and B1379 (golden = Hurwitz). New here are the
+   link to flavour hierarchies and the cycle integrals.
