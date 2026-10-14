@@ -307,7 +307,7 @@ T-ROOT puts the plural weave at small c. Small-c 3D gravity has a literature, an
     gravity gives the tricritical 3-state Potts model (c = 6/7)**.
 - **Those duals are cosets g₁ ⊗ g₁ / g₂.** **[MATH; arithmetic checked exactly]**
   - c(g₁ ⊗ g₁ / g₂) = 2c(g₁) − c(g₂) gives 1/2 for A₁ and E₈, 4/5 for A₂, **6/7 for E₆** and 7/10 for E₇.
-  - The E-series identification is standard (Delfino and collaborators, hep-th/9601113). For simply-laced g this coset
+  - The E-series identification is standard (Acerbi, Mussardo and Valleriani, hep-th/9601113). For simply-laced g this coset
     is the first unitary W(g) minimal model.
 - **The record already has the higher-spin embedding.** **[RECORD]**
   - B264's object, at chat1's earlier suggestion, is the geometric connection composed with the principal sl₂ → e₆.
@@ -339,7 +339,7 @@ T-ROOT puts the plural weave at small c. Small-c 3D gravity has a literature, an
 - J. D. Brown, M. Henneaux, Commun. Math. Phys. 104 (1986) 207.
 - T. W. Grimm, E. Palti, I. Valenzuela, JHEP 08 (2018) 143 (consulted, not used for a claim).
 - A. Castro, M. R. Gaberdiel, T. Hartman, A. Maloney, R. Volpato, *The gravity dual of the Ising model*, arXiv:1111.1987.
-- The (E_n)₁ ⊗ (E_n)₁ / (E_n)₂ minimal models (Ising, tricritical Ising, tricritical Potts for n = 8, 7, 6):
+- C. Acerbi, G. Mussardo, A. Valleriani, on the (E_n)₁ ⊗ (E_n)₁ / (E_n)₂ minimal models (Ising, tricritical Ising, tricritical Potts for n = 8, 7, 6):
   hep-th/9601113.
 - S. Meruliya, S. Mukhi, P. Singh, *Poincaré series, 3d gravity and averages of rational CFT*, JHEP 04 (2021) 267,
   arXiv:2102.03136 (context: Chern–Simons sums dual to averages of RCFTs).
