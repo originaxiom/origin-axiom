@@ -1,0 +1,16 @@
+[
+  {
+    "reference": "12053d37c",
+    "source_path": "docs/dossiers/the_weave_2026-10-07/the_puncture_scale.py",
+    "copied_path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/upstream_W75.py",
+    "sha256": "a0afcd2205a32c0e3d30157f05f274de4150acb96ee2ef2ef522960d651a425e",
+    "bytes": 11477
+  },
+  {
+    "reference": "12053d37c",
+    "source_path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md",
+    "copied_path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/upstream_SM_relay.md",
+    "sha256": "635198493d50afce5804d1cc815e046f3f745fb6d4104eed4fb6ade3e6af374b",
+    "bytes": 219740
+  }
+]
