@@ -86,7 +86,7 @@ drafting is listed under "Seen before the rule", and the priors were set after t
 | **G1, the sections** | At −½ and 3/2 the one-dimensional placements are exactly the three one-unit ones (dimension Σu). At 7/2 at least one placement is one-dimensional. Every kept solve has a residual below 10⁻²⁰. | 80% |
 | **G2, the eigenlines at ω** | Every parameter-free section of weight −½ lies at ω on ℓ_ω, every one of weight 3/2 on the real axis (1, −1, −1), and every one of weight 7/2 on ℓ_ω² (sines below 10⁻²⁰ to its line). | 70% |
 | **G3, the pairs at ω** | Each pair's singular values at ω follow its two lines: rank one for two isotropic lines (the same or the conjugate pair); m₁ = 0 and m₂ = m₃ for an isotropic line with the axis; m₁ = m₂ = m₃ for two on the axis. All to 10⁻²⁰ relative. | 80% |
-| **G4, the powers near ω** | For every pair (a, c) with a of weight −½ and c of weight 7/2 with c·c not identically zero: p₂ = 1, and p₁ = 2 when a = E, or m₁ identically zero when a is R or R′ (powers within 0.05). Every weight −½ pair with an isotropic member has m₁ identically zero and p₂ = 2. | 55% |
+| **G4, the powers near ω** | For every pair (a, c) with a of weight −½ and c of weight 7/2 with c·c not identically zero: p₂ = 1, and p₁ = 2 when a = E, or m₁ identically zero when a is R or R′ (powers within 0.05). Every weight −½ pair with exactly one isotropic member (ER, ER′) has m₁ identically zero and p₂ = 2; the pairs of two isotropic members (RR, RR′, R′R′) have m₂ identically zero (W66). | 55% |
 
 **The read-outs (no prior).**
 - The dimension table for all 24 (k, u).
@@ -103,6 +103,13 @@ drafting is listed under "Seen before the rule", and the priors were set after t
   carry different powers of one δ, as residual symmetry allows elsewhere.
 - **What it does not show.** Whether one δ, with the parameter-free coefficients, fits the three sectors and the CKM.
   That is W69's question, rule first. The count stays all 19 of the 19 free (18 if I-18 is earned): 0 of 19.
+
+## A correction before the run (disclosed)
+
+- **G4 as first committed** (9942c9d09) said "every weight −½ pair with an isotropic member has m₁ identically zero and
+  p₂ = 2". That includes RR, RR′ and R′R′, which W66 found have rank one at every τ, so m₂ ≡ 0 and no power exists.
+  This was a drafting slip against a fact already on record. G4 now names the pairs with exactly one isotropic member,
+  and states the rank-one pairs' m₂ ≡ 0. The correction was made before any code existed, and the prior is unchanged.
 
 ## Discipline
 
