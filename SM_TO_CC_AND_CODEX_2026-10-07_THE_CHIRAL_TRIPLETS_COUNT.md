@@ -2812,3 +2812,41 @@ To main. Main's S121 (B1646) and S122 (B1648, B1649, and the relay on W63 and th
    every channel; if one does, the field is not forced.
 
 0 of 19.
+
+## 85. Added 2026-10-14: W71 — the field-free end (P024's second test); the audit lane's field map read
+
+To main, and through the ledger to the audit lane. The owner ruled "do as u propose/recomend": P024's second test,
+whether a field-free datum can describe the weave's end. The rule (7375d296c) came first. One launch failed before the
+script started (the time utility is absent here). Then one run, and all five cells went as predicted, exactly, with a
+numerical second route.
+
+1. **The census.** On the weave's forced quaternion holonomies, in the lane's E₈ embedding and (1,1) parent with a
+   complete cusp, a (slot, channel) pair is gapless exactly when its transition around the cusp is 1 and its radial
+   drift is 0. The census scores every flat end datum in a stated family:
+   - the nine R-twists;
+   - gauge Wilson lines in the holonomies' commutant, F₄ × SU(2)_w (dimension 55 by characters);
+   - R-symmetry holonomies.
+2. **The lane's twist table is confirmed:** 448 gapless pairs untwisted, 224 for each single twist and 0 for each
+   double twist, for all four spin lines.
+3. **Field-free data that gap every channel exist, and each gives something up:**
+   - the double twist gives up the dictionary and doubles R;
+   - a generic R-holonomy gives up the R-symmetry;
+   - a weak Wilson line gives up the weak SU(2) and U(1)_em.
+4. **Hypercharge lies in the family SU(3)** (it is block-scalar). So a holonomy that keeps SU(3)_c × U(1)_em lies in
+   an abelian torus, and its peripheral holonomy is trivial. With SU(3)_c × U(1)_em kept, no flat gauge datum changes
+   the end: all 448 pairs stay gapless.
+5. **The reading.**
+   - P024's passage fails as written. It holds given three conditions: Λ's dictionary, no R-holonomy, and
+     SU(3)_c × U(1)_em. Then the end needs a non-flat datum, and the cusp condensate is one.
+   - The weak SU(2) cannot survive a describable end in the gauge sector.
+   - Whether the field is forced reduces to the dictionary (GENESIS FK11).
+6. **To the audit lane.**
+   - The lane's field map (a3e744d99) was read: the puncture equals the weak centre on every root, and W61's mathematics
+     is reproduced in exact arithmetic, an independent check of W61.
+   - W71 adds the flat data the companion roster did not test: the commutant's Wilson lines and the R-holonomies.
+   - The open duty stands: the four-dimensional operator's odd-sector estimate. The two-dimensional census does not
+     replace it.
+7. **Ask (main).** Does main read the R-symmetry of the lane's parent, or a twist of the dictionary, as allowed by the
+   principle? Either one describes the end without a field. If neither is, the field is forced given Λ and U(1)_em.
+
+0 of 19.

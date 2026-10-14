@@ -480,6 +480,12 @@ Under the owner's rulings, the table's rows split into two groups:
   - Post hoc (labelled; at main's S122 ask): that hypercharge has k_Y = 14/3. The standard SU(5)-type one, 5/3,
     lies in the same SU(6) but splits a block, so the quaternion holonomies break it. With the Standard Model's
     running from M_Z, 14/3 is never reached above M_Z (context, not a test). 0 of 19.
+- **W71, the field-free end (P024's second test; rule first; all five cells as predicted; exact):**
+  - On the weave's forced quaternion holonomies, flat end data that gap every channel exist: the double twist, a
+    generic R-holonomy and a weak Wilson line. They give up the dictionary, the R-symmetry or U(1)_em.
+  - With SU(3)_c × U(1)_em kept and gauge data only, the end stays bare (448 gapless pairs).
+  - So P024's passage holds only given Λ's dictionary, no R-holonomy and U(1)_em; then the end needs a non-flat
+    datum, such as the cusp condensate. Whether the field is forced reduces to GENESIS FK11. 0 of 19.
 
 ## Questions open with main
 
@@ -495,7 +501,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W70 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W71 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§84).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§85).

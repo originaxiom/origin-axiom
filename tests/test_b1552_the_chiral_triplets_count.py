@@ -1754,6 +1754,37 @@ def test_w70_posthoc_the_hypercharge_normalisation():
     assert norm == sum(x * x for x in c) == Fr(7, 3) and norm / Fr(1, 2) == Fr(14, 3)
 
 
+def test_w71_the_field_free_end():
+    """W71 (P024's second test; the rule first; one run; all five cells as predicted): on the weave's forced quaternion
+    holonomies, flat end data that gap every channel exist (the double twist, a generic R-holonomy, a weak Wilson line);
+    with SU(3)_c x U(1)_em kept and gauge data only, the end stays bare"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_field_free_end.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {f"E{k}": True for k in range(1, 6)}
+    e1 = d["E1"]["per twist"]
+    assert e1["0,0"]["gapless per spin line"] == [448] * 4 and e1["1,1"]["gapless per spin line"] == [0] * 4
+    e2 = d["E2"]["per class"]
+    assert [n for n, v in e2.items() if v["U(1)_em kept (all six admissible Y)"]] == ["trivial"]
+    assert e2["trivial"]["gapless"] == 448 and e2["generic in F4's torus"]["gapless"] == 64
+    assert d["E3"]["per twist and R class"]["0,0 / generic"]["gapless"] == 0
+    assert d["E5"]["gauge-only classes that gap every channel and keep U(1)_em"] == []
+    # in process: the cusp rule at the bare end -- an untwisted slot (half-integer s, so the bounding spin gives -1) on
+    # a channel with p = -1 is periodic with zero drift; the p-odd channels are the weak doublets, 112 of the 240 roots
+    from itertools import combinations, product
+    roots = set()
+    for i, j in combinations(range(8), 2):
+        for a, b in product((-2, 2), repeat=2):
+            v = [0] * 8
+            v[i], v[j] = a, b
+            roots.add(tuple(v))
+    for signs in product((-1, 1), repeat=8):
+        if signs.count(-1) % 2 == 0:
+            roots.add(signs)
+    assert len(roots) == 240                                   # doubled coordinates
+    doublets = [r for r in roots if abs(r[3] - r[4]) == 2]     # r.(e3 - e4) = +-1
+    assert len(doublets) == 112 and 4 * len(doublets) == e1["0,0"]["gapless per spin line"][0]
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

@@ -18822,3 +18822,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   recorded as context.
 - **Next:** P024's second test, whether a twist alone can make the edge describable without a field.
 
+## 2026-10-14 — P024's second test: can the edge be described without a field?
+
+- **The question.** The contemplation said the weave's edge, left bare, cannot be described, so the edge must carry a
+  field. The test asked whether something that is not a field could do the same job.
+- **The answer: yes, in three ways, and each has a price.**
+  - Change how matter sits on the surface (a "twist"): this doubles the matter, so it can lose its handedness.
+  - Turn on a hidden-symmetry holonomy: this breaks a symmetry of the lane's parent theory.
+  - Put a weak-force Wilson line around the edge: this breaks electromagnetism, and it is really a field anyway.
+- **Keep the forces we see** (colour and electromagnetism) and the record's matter dictionary, and nothing flat works.
+  The edge then needs a field, such as the condensate found yesterday.
+- **So the contemplation survives, but conditionally.** Whether the field is truly forced comes down to the same open
+  question as the hand and the count: the dictionary between the weave and the fields.
+- All five predictions held, exactly. The count of free numbers: 0 of 19.
+

@@ -1,5 +1,23 @@
 # Changelog
 
+## The weave's W71: the field-free end (P024's second test); relay section 85
+
+- **W71** (the owner's "do as u propose/recomend"; the rule 7375d296c first; the script b6bd5a00e before its one run;
+  one failed launch, which never started the script; all five cells as predicted; exact, with a numerical second
+  route):
+  - the audit lane's twist table is confirmed: 448 gapless (slot, channel) pairs at the bare end, 224 for each single
+    twist, 0 for each double twist;
+  - flat end data that gap every channel exist: the double twist, a generic R-symmetry holonomy and a weak Wilson
+    line. They give up the dictionary, the R-symmetry or U(1)_em;
+  - hypercharge lies in the family SU(3), so with SU(3)_c × U(1)_em kept no flat gauge datum changes the end: all 448
+    pairs stay gapless.
+- **So:** P024's passage fails as written. It holds given Λ's dictionary, no R-holonomy and U(1)_em, and then the end
+  needs a non-flat datum, such as the cusp condensate. Whether the field is forced reduces to GENESIS FK11. 0 of 19.
+- **The audit lane's field map** (a3e744d99) read: it reproduces W61's mathematics in exact arithmetic.
+- **Relay §85** to main and the audit lane. **Surfaces.** The rule, the script, its JSON, the dossier (W71, a row, the
+  header, the files), the W71 test, P024's second addendum, the state page, the relay and the ledger (a row and row
+  317).
+
 ## Main's S121 and S122 read; relay section 84; W70's normalisation (post hoc)
 
 - **Main's S121 and S122 read** at `ef76b8707`: B1646 (the Higgs's direction is the 2–3 mass matrix), B1648 (the scope

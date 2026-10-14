@@ -81,3 +81,21 @@ its potential are hypotheses in every arc of the record that uses it.
 - **The same hypercharge tells the three units apart,** so the generations are not the gauge embedding's 6.
 - **The other tests are open:** a field-free twist, and a global completion that keeps U(1)_em.
 
+## Addendum (2026-10-14): the second test
+
+- **W71 ran its census of field-free end data** on the weave's forced quaternion holonomies. "Field-free" means flat,
+  with no condensate and no gauge curvature at the end.
+- **Such data exist, and each gives something up:**
+  - the double twist gives up the dictionary, and doubles the matter so that it may pair into masses;
+  - an R-symmetry holonomy gives up the parent's R-symmetry and supersymmetry;
+  - a weak Wilson line gives up the weak SU(2) and electromagnetism, and it is a field's vacuum value after all.
+- **So the passage, as written, fails.** A bare end admits no finite description, but describing it does not need a
+  field in general.
+- **It holds in a restricted form.** Keep three things: the dictionary Λ (ordinary spin), no R-holonomy, and
+  SU(3)_c × U(1)_em. Then no flat datum describes the end, so the end needs a non-flat one, and the cusp condensate is
+  such a datum. In the gauge sector the weak SU(2) cannot survive a describable end either way.
+- **None of the three conditions is the principle's.** Whether the field is forced comes down to the dictionary,
+  GENESIS FK11, as the hand and the count did.
+- **What remains of the passage** is its shape: the edge forces a choice, and every way of making the edge describable
+  breaks something. Which thing breaks is not forced.
+
