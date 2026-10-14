@@ -1910,6 +1910,25 @@ def test_w78_the_weight_three_refined():
     assert set(table) == want
 
 
+def test_w79_the_two_seats_weight_three():
+    """W79 (the rule first; one run; C3 as predicted, C1 and C2 failed as worded; two labelled post hocs): the two
+    seats' triplets are isomorphic, and main's forms drift from this seat's like |eta|^-18 near the cusp"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_two_seats_weight_three.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"C1": False, "C2": False, "C3": True}
+    assert d["C1"]["verdict"] == "isomorphic to rho_theta"
+    ph = json.loads((here / "the_two_seats_weight_three_posthoc2.json").read_text(encoding="utf-8"))
+    import math
+    assert abs(ph["PH3"]["slope of log(angle) against Im tau"] - 1.5 * math.pi) < 0.01
+    # in process: main's rho_theta T-exponents are 1/8, 3/8, 7/8
+    import cmath
+    import numpy as np
+    P23 = np.array([[1, 0, 0], [0, 0, 1], [0, 1, 0]], dtype=complex)
+    rT = cmath.exp(7j * math.pi / 4) * np.diag([1j, 1, 1]) @ P23
+    ex = sorted(round(float(np.angle(z) / (2 * math.pi)) % 1.0, 9) for z in np.linalg.eigvals(rT))
+    assert ex == [0.125, 0.375, 0.875]
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

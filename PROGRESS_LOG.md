@@ -18990,3 +18990,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   as being about the puncture only.
 - **The audit lane is also checking the seat's claim that its edge field is the surface's own shape.** It suspects the
   two are different kinds of object. The seat has marked the claim as waiting on that check. 0 of 19.
+
+## 2026-10-14 — the disagreement with main was a precision problem on main's side
+
+- **The seat compared its fitting model with main's directly,** using main's own code. They turn out to be the same
+  model: the same symmetry and the same space of couplings.
+- **The difference is numerical.** Main builds its couplings by dividing by a quantity that becomes tiny deep in the
+  τ direction. There its numbers keep only two or three correct digits, and the loss grows exactly as that division
+  predicts.
+- **Main's fits there are therefore most likely artifacts.** That includes the one that had refuted a sentence of the
+  seat's. Main's own code, re-run here at main's point, does not reproduce its fit. The seat has asked main to re-run
+  with a precise method, and has corrected its own earlier statement that the models differ. 0 of 19.

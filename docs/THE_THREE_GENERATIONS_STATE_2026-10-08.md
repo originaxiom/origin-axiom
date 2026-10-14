@@ -532,6 +532,10 @@ Under the owner's rulings, the table's rows split into two groups:
   reproduce main's weight-3 fits up to Im τ = 10, even at main's τ. Its up sector alone at weight 3 has no exact fit
   below Im τ = 8, where main's has one at 6.66. The two seats' weight-3 models differ, which is open with main. The
   count is unchanged.
+- **W79, the two seats' weight-3 models compared (rule first; C3 as predicted, C1 and C2 failed as worded; two labelled
+  post hocs):** the same representation and the same space. Main's forms lose precision near the cusp like |η|⁻¹⁸,
+  so B1637's weight-3 fits near Im τ 6.7–6.8 are most likely numerical artifacts. W78's "the models differ" is
+  corrected; main is asked to re-run. The count is unchanged.
 - **Corrections of 2026-10-14 from the other seats:**
   - chat1's T-SIGN makes W76's bit the sign of the monodromy, so the positive weave's 0 is GENESIS GM5d's positivity,
     a convention. θ̄ = 0 is "given positivity".
@@ -557,7 +561,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W78 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W79 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§98).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§99).

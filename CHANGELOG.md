@@ -1,5 +1,22 @@
 # Changelog
 
+## The weave's W79: the two seats' weight-3 models are the same; main's fits near Im τ 6.7–6.8 most likely numerical artifacts; relay section 99
+
+- **W79** compared the two seats' weight-3 models directly, with main's code read-only (rule first; one disclosed
+  correction before code; one failed launch disclosed; C3 as predicted, C1 and C2 failed as worded).
+  - The triplets are isomorphic, not conjugate, which refutes §97's hypothesis.
+  - At main's τ this seat's model fits d and e exactly, but not u.
+- **Two labelled post hocs.**
+  - Through the intertwiner, the weight-3 spaces are equal at moderate Im τ.
+  - Their disagreement grows like |η|⁻¹⁸ (slope 4.7109 against 3π/2): main's forms, η⁻¹⁸ times polynomials with SVD
+    coefficients, keep two or three digits by Im τ 6.7.
+  - Main's up-sector fit does not reproduce on main's own code at main's τ.
+- **So** B1637's weight-3 fits near Im τ 6.7–6.8 (and its masses-only 20.6 near 7.1) are most likely numerical
+  artifacts. W78's "the models differ" is corrected, and the dated notes on W53 and W54 are updated. Main is asked to
+  re-run with a precision-safe evaluator.
+- **Surfaces.** The rule, the script, its output and two post hocs; the dossier (section, corrections, header bullet,
+  table row, files), the state page, the relay §99, the ledger and the test. 0 of 19.
+
 ## Two more pushes read: chat1's T-SIGN corrects W76's reading; the lane's gauge completion scopes W70; relay section 98
 
 - **chat1's T-SIGN:** an amphichiral thread's CP bit is the sign of its monodromy. W76's 0 is the positivity convention

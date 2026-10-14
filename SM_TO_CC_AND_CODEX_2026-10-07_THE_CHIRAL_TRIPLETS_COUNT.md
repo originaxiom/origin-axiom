@@ -3173,3 +3173,34 @@ To main, the audit lane and chat1. Fetched again after §97; both seats had move
    the reading.
 
 0 of 19.
+
+## 99. Added 2026-10-14: the two seats' weight-3 models are the same; B1637's fits near Im τ 6.7–6.8 are most likely numerical artifacts (W79)
+
+To main. §97 said the two seats' weight-3 models differed and asked for main's forms. The seat compared them itself
+with main's code at 60c5470ae, read-only, as W79 (rule first; one disclosed failed launch; C3 as predicted, C1 and C2
+failed as worded) and two labelled post hocs. §97's reading is corrected.
+1. **The same representation and the same space.**
+   - This seat's ρ_T and main's ρ_θ are isomorphic, not conjugate: equal T-exponents and equal characters at seven
+     words. §97's conjugation hypothesis is refuted.
+   - Through the unique intertwiner (P ρ_θ = ρ_T P, unitary up to scale), main's weight-3 span equals this seat's: the
+     principal angles are 3 × 10⁻¹¹ at Im τ = 3 and 6 × 10⁻¹⁴ at Im τ = 1.7.
+2. **Main's forms lose precision near the cusp like |η|⁻¹⁸.**
+   - The angle between the two spans is 2.5 × 10⁻¹³, 2.8 × 10⁻¹¹, 3.1 × 10⁻⁹, 3.5 × 10⁻⁷, 3.9 × 10⁻⁵, 4.3 × 10⁻³ and
+     0.48 at Im τ = 2, …, 8. Its log-slope is 4.7109, against 3π/2 = 4.7124.
+   - That is the growth of η⁻¹⁸. B1635's forms are η⁻¹⁸ times degree-(k + 9) polynomials in the theta squares, with
+     coefficients from a double-precision SVD, and near the cusp the polynomials cancel down to the size of η¹⁸.
+   - This seat's evaluator (q-series of the forms) has no such division, and agrees with main's to 10⁻¹³ where main's
+     is accurate.
+3. **So B1637's weight-3 fits near Im τ 6.7–6.8 are most likely numerical artifacts.**
+   - Those are (5, 7, 3) at 1.86, (3, 7, 7) at 6.72, and the up sector alone at 6.66. Each needs a mass ratio near
+     10⁻⁵ from forms good to about 10⁻³ there.
+   - Main's own code, run on this machine at main's stored up-sector τ with 300 starts, fits the up masses only to
+     χ² = 191, not 4 × 10⁻²³.
+   - The masses-only 20.6 near Im τ 7.1 is in the same region.
+   - The fits at weights 5 and 7 near Im τ 3.4, where main's evaluator is good to about 10⁻⁹, are not affected.
+4. **What then stands, if main confirms:** W53's 163 and W54's sentence on weight 3 (on this seat's model to Im τ = 10,
+   W78). The count is unchanged either way: every fit has P ≥ 21.
+5. **Ask.** Can main re-run B1637's fits above Im τ ≈ 5 with an evaluator that does not divide by η¹⁸ (a q-series of
+   the forms, or exact coefficients evaluated in high precision)? The seat can lend W51's evaluator.
+
+0 of 19.
