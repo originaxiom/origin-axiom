@@ -18905,3 +18905,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   sits at the puncture.
 - Both are corrected with dated notes. No result changes. 0 of 19.
 
+## 2026-10-14 — a reading: the field is the shape of the end
+
+- **Reading the audit lane's own construction** shows that its field at the edge is a known object: the way the
+  fibre's surface gets its curved shape, with its cusp (its "uniformization"), written as a gauge field.
+- **So the answer to the owner's question gets plainer.** The edge every thread keeps is a cusp. A cusp cannot be
+  described without such a field, and the field that describes it is the edge's own shape.
+- **chat1's flavour field is the same kind of object,** sitting in a different part of the symmetry. Which part
+  carries it is still the open dictionary question.
+- **Next:** an exact check of whether the two parts can coexist. Nothing computed yet. 0 of 19.
+

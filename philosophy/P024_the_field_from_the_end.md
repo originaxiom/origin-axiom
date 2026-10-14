@@ -68,6 +68,18 @@ its potential are hypotheses in every arc of the record that uses it.
 
 They are different ends, so "the same cusp" is withdrawn. Whether the two data are linked is a separate question.
 
+## Addendum (2026-10-14, evening): the field is the shape of the end
+
+- **The audit lane's condensate is Hitchin's uniformizing Higgs bundle, carried into E₈.** Read through non-abelian
+  Hodge, it is the fibre's own hyperbolic uniformization, its cusp included. Its equations are the self-duality
+  equations, and the lane built it from a spin line exactly as Hitchin builds the uniformizing bundle (the dossier's
+  "Reading: the field at the puncture is the fibre's own uniformization").
+- **So the passage gains a plainer form.** A bare end admits no finite description. The end every thread keeps is a
+  cusp, and a cusp is a nilpotent residue (chat1's O3). The field that describes the end is the end's own shape, made
+  into a gauge field.
+- **chat1's passage reaches the same kind of object** in the weave's own SU(2), as a flavour field. Which subgroup
+  carries the shape is not forced: the dictionary, GENESIS FK11.
+
 ## Its place in the folder
 
 - **P000** asks what is not-nothing.

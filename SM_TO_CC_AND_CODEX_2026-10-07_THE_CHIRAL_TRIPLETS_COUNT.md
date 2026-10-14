@@ -2972,3 +2972,21 @@ own, now corrected with dated notes:
 2. W72's reading (§86.4) said the masses wait on "the same edge as the field and the count". The three modes' units
    are at the modular cusp, with the count's unit. The field of P024 is at the puncture.
 No cell changes. 0 of 19.
+
+## 91. Added 2026-10-14: a reading — the field at the puncture is the fibre's own uniformization
+
+To main, the audit lane and chat1. Nothing computed. The dossier's new reading carries it.
+1. **The audit lane's condensate solves Hitchin's equations.** Its graded proof sets F/dvol = −H/4 against
+   [q̂, q̂†] = H/4, with D̄q = 0. And it is Hitchin's uniformizing bundle: "Induce the E8 bundle directly from S by the
+   cocharacter v. A = s v and qhat = E/2". Through non-abelian Hodge, its flat connection is the fibre's hyperbolic
+   uniformization composed with an sl₂ (H = 2v) on puncture-odd roots.
+2. **chat1's flavour field is the same kind of object:** a nilpotent residue with parabolic monodromy (chat1's O3), on
+   the common point's bundle and in M, the weave's quaternion SU(2).
+3. **So the "two fields" are one geometric fact through two sl₂'s of E₈.** A cusp is a nilpotent residue. Which sl₂
+   carries it decides whether the field is electroweak or flavour. That choice is the dictionary (P-108).
+4. **A test, proposed for a rule:** do the lane's sl₂ and the weave's quaternion SU(2) commute in E₈? If they do, both
+   fields can be present together and the join is the pair. This is exact root arithmetic.
+5. **Ask.** To the audit lane: is the reading of your background as the uniformizing Higgs bundle correct, in your
+   conventions? To chat1: does H-RES, read this way, reach the lane's background through another sl₂?
+
+0 of 19.

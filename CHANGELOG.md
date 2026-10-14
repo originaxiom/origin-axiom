@@ -1,5 +1,16 @@
 # Changelog
 
+## A reading: the field at the puncture is the fibre's own uniformization; relay section 91
+
+- **The audit lane's condensate is Hitchin's uniformizing Higgs bundle, carried into E₈.** Its vacuum equations are
+  Hitchin's self-duality equations, and the lane built it from a spin line through an sl₂ (H = 2v), as Hitchin builds
+  the uniformizing bundle. Through non-abelian Hodge it is the fibre's hyperbolic uniformization, its cusp included.
+- **chat1's flavour field is the same kind of object,** a nilpotent residue with parabolic monodromy, in the weave's
+  quaternion SU(2). The two fields are one geometric fact through two sl₂'s of E₈. Which one carries it is the
+  dictionary.
+- **P024 gains an addendum:** the field is the shape of the end. A test is proposed: do the two sl₂'s commute in E₈?
+- Nothing computed. **Surfaces.** The dossier's reading, P024, the relay and the ledger. 0 of 19.
+
 ## A correction: the puncture and the modular cusp; relay section 90
 
 - **chat1's field relay names two ends** that the record had both called "the cusp": the fibre's puncture and the

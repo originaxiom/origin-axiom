@@ -6115,6 +6115,43 @@ result given the stated hypotheses. 0 of 19.
 **Status.** COMPUTED (the rule first; one run; all three cells as predicted; exact where stated). A WEAVE result given
 the stated hypotheses. 0 of 19.
 
+## Reading: the field at the puncture is the fibre's own uniformization, and the two fields are one kind (READING; nothing computed; 2026-10-14, evening, after chat1's field relay)
+
+**Why.** chat1's field relay reaches a Higgs field in Hitchin's sense: the threads' departure from the common point
+while keeping the cusp. chat1's sealed test then found that it is not the audit lane's condensate. Reading the lane's
+own proof of the condensate shows the two are one kind of object.
+
+**The lane's condensate is Hitchin's uniformizing Higgs bundle, carried into E₈.**
+- **Its vacuum equations are Hitchin's.** The lane's graded-condensate proof (`weave_graded_condensate_2026_10_08`)
+  sets "F/dvol = −v/2 = −H/4 and [qhat, qhat dagger] = H/4", so that "all vacuum residuals Dbar q, Dbar r, [q, r], mu
+  vanish". With r = 0 these are D̄q = 0 and F + [q, q†] = 0: the self-duality equations.
+- **Its background is the uniformizing one.** The lane builds it so: "Induce the E8 bundle directly from S by the
+  cocharacter v. A = s v and qhat = E/2", with S a spin line, S² = K, and (E, H = 2v, F) an sl₂ inside a regular A₂.
+  That is Hitchin's construction of the uniformizing Higgs bundle, K^{½} ⊕ K^{−½} with Φ = E, pushed into E₈ through
+  this sl₂.
+- **So, through non-abelian Hodge, its flat connection is the fibre's own hyperbolic uniformization, composed with
+  sl₂ → E₈.** At the cusp the lane's formulas are A_x = −H/(4y) and q = E/(2√y): the nilpotent-orbit model, a
+  nilpotent residue with parabolic monodromy.
+
+**chat1's flavour field is the same kind of object, elsewhere.** chat1's O1 to O4 (under H-RES, with no weight) read the
+departure as a tame Higgs field whose residue at the puncture is nilpotent: a null a in M, with parabolic monodromy.
+It lives on the common point's bundle, not the split uniformizing one (chat1's referee: the uniformizing bundle "lies
+outside O1's space"), and in M, the weave's quaternion SU(2), not in the lane's A₂.
+
+**What this says (READING).**
+- **Both fields are one geometric fact: a cusp is a nilpotent residue** (chat1's O3). The electroweak field at the
+  puncture (P024, W70, W71) is the fibre's uniformization through an sl₂ on puncture-odd roots. The flavour field
+  (B1644 to B1649, chat1) is a nilpotent residue in the weave's own SU(2).
+- **That also answers the owner's question in a new way.** The field at the edge is the shape of the edge itself: the
+  hyperbolic cusp's uniformization, made into a gauge field. Every thread keeps the cusp, so every thread carries it.
+- **What is not forced: the sl₂.** Which sl₂ of E₈ carries the uniformization decides whether the field is electroweak
+  or flavour, puncture-odd or even. That is the dictionary again (P-108; GENESIS FK11). Forced to exist, not forced
+  which.
+- **A test this suggests (not run).** Do the lane's sl₂ (H = 2v) and the weave's quaternion SU(2) commute in E₈? If
+  they do, both fields can be present at once, with product monodromy, and the join chat1 asks for becomes the pair.
+  If they do not, one excludes the other. This is exact root arithmetic, for a rule.
+- **0 of 19.**
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
