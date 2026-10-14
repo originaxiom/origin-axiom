@@ -525,6 +525,8 @@ Under the owner's rulings, the table's rows split into two groups:
 - **Main's B1637 (2026-10-14) corrects W53 and W54:** W53's masses-only minimum is 20.6, not 163. With the leptons at
   weight 3, (5, 7, 3) fits on main's search, so the geometry's weight is excluded only as the quarks' weight. The count
   is unchanged; W78 checks the fit.
+  *(Withdrawn 2026-10-14 by main's S125, after W79 and W80: B1637's weight-3 fits near Im τ 6.6–7.1 were artifacts
+  of its evaluator, so its corrections to W53 and W54 are withdrawn and W53's and W54's statements stand.)*
 - **W77, the audit lane's odd form reviewed (its ask; rule first; all five cells as predicted):** the lane's algebra
   (brackets, spin connection, cross form, coefficient norms) reproduced exactly, and its identity and inequality (1)
   hold on 40 test sections. The domain claims were read, not tested. Not an index or a count.
@@ -545,6 +547,32 @@ Under the owner's rulings, the table's rows split into two groups:
 - **The count after the field, by kind (READING):** still 0 of 19. θ̄ is the nearest number (two owed items, no free
   input). v becomes the reader's unit in the uniformization reading. Everything else waits on what splits the sectors.
 
+- **W80, main's B1637 optimizer on this seat's precise forms (rule first; every cell as predicted):** the control
+  (5, 7, 5) stays exact, and every weight-3 fit near Im τ 6.7–7.1 is gone. Main's S125 confirms the precision loss on
+  its own and withdraws B1637's corrections; F2's grade is suspended there. The count is unchanged.
+- **W81 to W83, checks for the frame tribunal (each script first; failed sub-cells recorded as failed):**
+  - the audit lane's condensate is spinor-valued, so its identification with the ordinary Higgs field is withdrawn
+    (W81);
+  - lemma A holds with both halves, and the neutral |Y| = ½ condensates are one SU(2)_Q doublet and its conjugate
+    (W82);
+  - in the lane's E₈ frame, D1 and D3 meet only if its family index is not the weave's three (W83).
+- **The frame tribunal (main's relay and its addendum, S125).** Main will bank outcome 2: no frame survives. The parent
+  becomes a specification, labelled a conjecture, with this seat's seventh clause: split the down quarks from the
+  charged leptons, which no E₆ cubic with 27 Higgs content alone can do. F4 is withdrawn; it fails D2 as well as D4.
+  The owner agreed to the D1 criterion with this seat's two conditions (main's P-147). chat1 offers its thread frame as
+  a fifth column, F5.
+- **W84, chat1's thread frame checked (rule first; every cell as predicted):** its numbers reproduce at 60 digits.
+  Along LⁿR the hierarchy tends to the units' q-powers, m₂/m₃ ∝ |q| and m₁/m₃ ∝ |q|^{3/2}: a Froggatt–Nielsen
+  texture with the exponents as charges. This holds given H-thread, a hypothesis, and one thread gives every sector
+  the same ratios.
+- **B1651 (main, PROVED) and W85 (this seat's check, blind to main's run; every cell as predicted):**
+  - no flat or harmonic bulk Higgs couples;
+  - every point coupling is isotropic;
+  - the moves carry the pairing's triplet exactly, and modulo the Klein group only the four real body diagonals are
+    covariant, which give no hierarchy.
+  - For a point Higgs the puncture is not forced. For a bulk Higgs carrying parity it is forced as the locus, with one
+    end datum there (the reading of relay §107). 0 of 19.
+
 ## Questions open with main
 
 - **The chirality bit.** Is F-MC's chirality bit the orientation's convention (Reading W24–W29, point 1)?
@@ -554,6 +582,8 @@ Under the owner's rulings, the table's rows split into two groups:
   GM5c).
 - **The scope of B1012.** W75 finds the weave's chiral threads carry Chern–Simons content in mirror pairs. Does main
   scope B1015's premise "the object is provably blind to the quantized level k" to the thread m004?
+- **The half-period orbit's mass structure** (main's P-142). It is owed to the tribunal, compared with no data
+  before a seal. This seat offered it as a sealed structure arc and will not start it unasked (§108).
 - **The parity grading at a fixed τ.** On the ruled branch the weave is ⟨L, R⟩, which meets the inner automorphisms only
   in the powers of conj(a b⁻¹ a⁻¹ b) (W49, post hoc; W50). On that branch T-TAU-ONLY-PERMUTATION and B1617's residual
   do not hold, and couplings in τ alone give mixing that is not a permutation (W50). Does main read the inner

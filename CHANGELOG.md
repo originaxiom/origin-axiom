@@ -1,5 +1,17 @@
 # Changelog
 
+## The three generations' state page brought up to date (W80–W85, B1651, the tribunal's agreed outcome); the audit lane's review of W85 taken as a dated note
+
+- **The state page** gains:
+  - a dated note that B1637's corrections to W53 and W54 are withdrawn;
+  - a block on W80, W81–W83, the frame tribunal's agreed outcome (outcome 2 with this seat's seventh clause; F4
+    withdrawn; the D1 criterion ruled), W84, and B1651 with W85;
+  - P-142, the half-period orbit's mass structure, as an open question with main.
+- **The audit lane** (ce62cb60c → eb80c5e8c) replayed B1651's producer and W81 and W83 exactly. It reviewed W85
+  without re-running it. Its qualification on V2's and V4's overlap criterion is now a dated note in W85's section:
+  the criterion bounds the vector distance by its square root, about 6 × 10⁻³¹ as measured.
+- **Surfaces.** The state page, the dossier's W85 section, a ledger row. 0 of 19.
+
 ## The audit lane's evening push read and rowed; relay section 109 corrects its intake on sm:B1548 and points its replay to W85 and section 107
 
 - **The audit lane** (f0760049f → ce62cb60c). It builds an actual geometric-bundle joint, not yet a physical spectrum.

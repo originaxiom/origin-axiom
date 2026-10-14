@@ -19119,3 +19119,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   keeps every failed prediction as failed. The seat told it that one of its notes is out of date: the last sealed
   count on the golden cover has since been run and recorded as negative. It also pointed the lane to the seat's
   independent check of main's arc and to the seat's proof for the punctured fibre. 0 of 19.
+
+## 2026-10-14 — the state page caught up, and an honest precision note
+
+- **The summary page for the three generations** now carries the day's results: main's precision problem confirmed,
+  the checks made for the frame tribunal, the tribunal's agreed outcome (no frame survives yet, and the parent is a
+  specification), chat1's mass law explained, and main's Higgs-locus arc checked independently.
+- **The audit lane reviewed the seat's independent check** and pointed out that one of its tolerances is looser than
+  it reads: the measured agreement is about 30 digits in vector terms, not 60. The seat recorded that in plain words
+  beside the result. 0 of 19.

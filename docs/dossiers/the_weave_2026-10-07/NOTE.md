@@ -6983,6 +6983,12 @@ digits, with the nome root explicit. Against mpmath's jtheta at |Re τ| < ½ the
   bulk Higgs carrying parity, the reading before this section shows that the puncture is forced as the locus, with one
   end datum.
 
+*(Noted 2026-10-14 from the audit lane's review of W85, eb80c5e8c. V2's and V4's criterion is 1 − overlap, so
+10⁻⁴⁰ bounds the phase-optimal distance between the unit vectors only by about 1.4 × 10⁻²⁰, since that distance squared
+is 2(1 − overlap). The measured 1.6 × 10⁻⁶¹ corresponds to about 6 × 10⁻³¹. V3 is a vector residual, 2.6 × 10⁻⁶¹.
+Sampled points at working precision check the identities. They do not certify them; the identities rest on the
+thetas' transformation laws, by hand. The lane reviewed the code and did not re-run it.)*
+
 **Status.** COMPUTED (the rule first; one run; every cell as predicted; one wrong timing in a commit message, disclosed
 here). A check of main's B1651 on this seat's own code. 0 of 19.
 
