@@ -1,0 +1,569 @@
+{
+ "status": "W64: the cusp's unit as a vector in M, in both frames (the rule W64_RULE.md first; one run)",
+ "K1": {
+  "L on M": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    0,
+    1,
+    0
+   ]
+  ],
+  "R on M": [
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ],
+  "the group has 24 elements and is O": true,
+  "L a quarter-turn about e_i, R about e_j": [
+   true,
+   true
+  ],
+  "L's eigenvalues on e_i, v+, v-": {
+   "e_i": [
+    1.0,
+    0.0
+   ],
+   "v+": [
+    0.0,
+    1.0
+   ],
+   "v-": [
+    0.0,
+    -1.0
+   ]
+  },
+  "v.v on e_i, v+, v-": {
+   "e_i": 1.0,
+   "v+": 0.0,
+   "v-": 0.0
+  },
+  "conjugation exchanges v+ and v-": true,
+  "the special isotropic lines": 26,
+  "their orbits' sizes": [
+   6,
+   8,
+   12
+  ],
+  "the 6-orbit is the quarter-turns' fixed lines": true,
+  "holds": true
+ },
+ "K2": {
+  "tau + 1: residual": 0.8819171036881969,
+  "its matrix": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "equals L^-1": false,
+  "its scalar against e^{i pi/4}": 1.414174108423781,
+  "-1/tau: residual": 3.569770146017466e-31,
+  "its matrix (sign fixed by the scalar)": [
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "the scalar against (-i tau)^(-1/2)": 3.944304526105059e-31,
+  "is the i-j swap": true,
+  "-P is a rotation": true,
+  "holds": false
+ },
+ "K3": {
+  "leading exponents (q = e^{2 pi i tau})": {
+   "e_i": 0.1250000000010382,
+   "v+": -0.12499999999854647,
+   "v-": 0.3750000000006229
+  },
+  "the slope of log|c_i/c+|": -1.5707963267922869,
+  "the slope of log|c-/c+|": -3.141592653584574,
+  "|<v+/sqrt 2, R/|R|>| at 10i": 0.9999999999999091,
+  "holds": true
+ },
+ "K4": {
+  "placements": {
+   "(0, 0, 0)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     2.1177815640658607e-07,
+     null
+    ],
+    "chi + sum(u)": 1.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(0, 0, 1)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     2.1177815640658607e-07,
+     null
+    ],
+    "chi + sum(u)": 2.0,
+    "the generic section's cusp eigenline": "v-",
+    "isotropic": true
+   },
+   "(0, 1, 0)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     2.1177815640658607e-07,
+     null
+    ],
+    "chi + sum(u)": 2.0,
+    "the generic section's cusp eigenline": "v+",
+    "isotropic": true
+   },
+   "(0, 1, 1)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     2.1177815640658607e-07,
+     null
+    ],
+    "chi + sum(u)": 3.0,
+    "the generic section's cusp eigenline": "v-",
+    "isotropic": true
+   },
+   "(1, 0, 0)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     1.4843805978988038e-07,
+     2.8043959897545827e-16
+    ],
+    "chi + sum(u)": 2.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(1, 0, 1)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     1.4843805978988038e-07,
+     2.8043959897545827e-16
+    ],
+    "chi + sum(u)": 3.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(1, 1, 0)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     1.4843805978988038e-07,
+     2.8043959897545827e-16
+    ],
+    "chi + sum(u)": 3.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(1, 1, 1)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     1.4843805978988038e-07,
+     2.8043959897545827e-16
+    ],
+    "chi + sum(u)": 4.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   }
+  },
+  "R against the null vector (u = (0, 1, 0)), largest relative difference": null,
+  "holds": false
+ },
+ "K5": {
+  "placements": {
+   "(0, 0, 0)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     2.1855983860064648e-07,
+     2.2403714338713144e-16
+    ],
+    "chi + sum(u)": 0.666666667
+   },
+   "(0, 0, 1)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     2.1855983860064648e-07,
+     2.2403714338713144e-16
+    ],
+    "chi + sum(u)": 1.666666667
+   },
+   "(0, 1, 0)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     2.1855983860064648e-07,
+     2.2403714338713144e-16
+    ],
+    "chi + sum(u)": 1.666666667
+   },
+   "(0, 1, 1)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     2.1855983860064648e-07,
+     2.2403714338713144e-16
+    ],
+    "chi + sum(u)": 2.666666667
+   },
+   "(1, 0, 0)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     4.398116142474487e-08,
+     9.43660945519999e-17
+    ],
+    "chi + sum(u)": 1.666666667
+   },
+   "(1, 0, 1)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     4.398116142474487e-08,
+     9.43660945519999e-17
+    ],
+    "chi + sum(u)": 2.666666667
+   },
+   "(1, 1, 0)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     4.398116142474487e-08,
+     9.43660945519999e-17
+    ],
+    "chi + sum(u)": 2.666666667
+   },
+   "(1, 1, 1)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     4.398116142474487e-08,
+     9.43660945519999e-17
+    ],
+    "chi + sum(u)": 3.666666667
+   }
+  },
+  "holds": false
+ },
+ "K6": {
+  "|a* x a|^2 = |a|^4 - |a.a|^2 (sympy)": true,
+  "lambda2 = +1": {
+   "|a.a| / |a|^2": 2.334273783451241e-10,
+   "|Im(e^{-i phi} a)|": 0.7071067811040185
+  },
+  "lambda2 = -1": {
+   "|a.a| / |a|^2": 1.0,
+   "|Im(e^{-i phi} a)|": 4.37403061032553e-09
+  },
+  "holds": true
+ },
+ "K7": {
+  "dimension of O's phase-invariant quartics (character count)": 3.0,
+  "A is O-invariant": true,
+  "A / |a|^4 on each orbit": {
+   "6": [
+    0.49999999999999983,
+    0.4999999999999999
+   ],
+   "12": [
+    0.37499999999999983,
+    0.375
+   ],
+   "8": [
+    0.3333333333333334,
+    0.3333333333333336
+   ]
+  },
+  "A / |a|^4 over 10000 cone points": [
+   0.3333820039402344,
+   0.4999546677541195
+  ],
+  "the minima": {
+   "c = -0.1": {
+    "the minimum": -0.05000000000000004,
+    "|a.a|": 1.5024482593268886e-09,
+    "largest overlap with each orbit's lines": {
+     "6": 1.0,
+     "12": 0.853553393371053,
+     "8": 0.7886751387206518
+    }
+   },
+   "c = +0.1": {
+    "the minimum": 0.03333333333333331,
+    "|a.a|": 1.346141432004391e-09,
+    "largest overlap with each orbit's lines": {
+     "6": 0.7886751354373923,
+     "12": 0.9082482911209746,
+     "8": 1.0
+    }
+   }
+  },
+  "holds": true
+ },
+ "cells": {
+  "K1": true,
+  "K2": false,
+  "K3": true,
+  "K4": false,
+  "K5": false,
+  "K6": true,
+  "K7": true
+ },
+ "every cell holds": false,
+ "read-outs": {
+  "m at the special lines": {
+   "i": {
+    "6-orbit [m, heavy mass / |R|, |<R-bar/|R|, heavy state>|], min and max": [
+     [
+      5.537511388376864e-17,
+      1.146446609406726,
+      4.772853614613824e-19
+     ],
+     [
+      2.734462061131829e-16,
+      1.8535533905932737,
+      3.885780586188048e-16
+     ]
+    ],
+    "12-orbit [m, heavy mass / |R|, |<R-bar/|R|, heavy state>|], min and max": [
+     [
+      5.156640975717795e-17,
+      1.0,
+      0.0
+     ],
+     [
+      1.8953654572030897e-16,
+      1.9999999999999996,
+      1.8650367895464748e-16
+     ]
+    ],
+    "8-orbit [m, heavy mass / |R|, |<R-bar/|R|, heavy state>|], min and max": [
+     [
+      2.168009084487503e-16,
+      1.0917517095361369,
+      2.7755575615628914e-17
+     ],
+     [
+      9.028229777289099e-16,
+      1.9082482904638631,
+      2.0014830212433605e-16
+     ]
+    ]
+   },
+   "2i": {
+    "6-orbit [m, heavy mass / |R|, |<R-bar/|R|, heavy state>|], min and max": [
+     [
+      6.990628339686824e-18,
+      1.007414284495292,
+      0.0
+     ],
+     [
+      4.2453398839032463e-16,
+      1.9925857155047086,
+      1.1395883700526975e-16
+     ]
+    ],
+    "12-orbit [m, heavy mass / |R|, |<R-bar/|R|, heavy state>|], min and max": [
+     [
+      2.5489603172804863e-17,
+      1.0910291284711724,
+      3.0814879110195774e-33
+     ],
+     [
+      1.9045415682255908e-16,
+      1.9089708715288276,
+      1.1102230246251565e-16
+     ]
+    ],
+    "8-orbit [m, heavy mass / |R|, |<R-bar/|R|, heavy state>|], min and max": [
+     [
+      2.315206141098858e-16,
+      1.1660766816976798,
+      0.0
+     ],
+     [
+      7.570838284285709e-16,
+      1.8339233183023207,
+      8.777083671441753e-17
+     ]
+    ]
+   },
+   "omega": {
+    "6-orbit [m, heavy mass / |R|, |<R-bar/|R|, heavy state>|], min and max": [
+     [
+      3.903240537389063e-17,
+      1.211324865405187,
+      1.727928856361849e-17
+     ],
+     [
+      2.4094763512405723e-16,
+      1.7886751345948133,
+      1.7243023547855214e-16
+     ]
+    ],
+    "12-orbit [m, heavy mass / |R|, |<R-bar/|R|, heavy state>|], min and max": [
+     [
+      7.791271307390503e-17,
+      1.0917517095361369,
+      2.48869193836347e-17
+     ],
+     [
+      2.1937068397533497e-16,
+      1.908248290463863,
+      1.452870291978608e-16
+     ]
+    ],
+    "8-orbit [m, heavy mass / |R|, |<R-bar/|R|, heavy state>|], min and max": [
+     [
+      2.0094484451519787e-16,
+      1.0,
+      5.551115123125783e-17
+     ],
+     [
+      1.006680234165211e-15,
+      2.0,
+      1.7554167342883506e-16
+     ]
+    ]
+   }
+  },
+  "every placement at weight -1/2": {
+   "(0, 0, 0)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     2.1177815640658607e-07,
+     null
+    ],
+    "chi + sum(u)": 1.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(0, 0, 1)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     2.1177815640658607e-07,
+     null
+    ],
+    "chi + sum(u)": 2.0,
+    "the generic section's cusp eigenline": "v-",
+    "isotropic": true
+   },
+   "(0, 1, 0)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     2.1177815640658607e-07,
+     null
+    ],
+    "chi + sum(u)": 2.0,
+    "the generic section's cusp eigenline": "v+",
+    "isotropic": true
+   },
+   "(0, 1, 1)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     2.1177815640658607e-07,
+     null
+    ],
+    "chi + sum(u)": 3.0,
+    "the generic section's cusp eigenline": "v-",
+    "isotropic": true
+   },
+   "(1, 0, 0)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     1.4843805978988038e-07,
+     2.8043959897545827e-16
+    ],
+    "chi + sum(u)": 2.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(1, 0, 1)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     1.4843805978988038e-07,
+     2.8043959897545827e-16
+    ],
+    "chi + sum(u)": 3.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(1, 1, 0)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     1.4843805978988038e-07,
+     2.8043959897545827e-16
+    ],
+    "chi + sum(u)": 3.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(1, 1, 1)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     1.4843805978988038e-07,
+     2.8043959897545827e-16
+    ],
+    "chi + sum(u)": 4.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   }
+  },
+  "S~ = L R^-1 L on M": [
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ]
+  ],
+  "S~ against -P, P and their inverses": {
+   "-P": false,
+   "P": false,
+   "(-P)^-1": false
+  }
+ }
+}
