@@ -194,6 +194,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   orientation reversal τ ↦ −τ̄ with C = diag(1, 1, −1) fixes every section, so its Yukawas are real. With one coupling
   θ̄ = θ: I-18's Yukawa half is paid in this frame, and its dictionary half stands. The same symmetry gives J = 0, so
   whatever splits the sectors must also break CP.
+- W75 (chat1's scale check on this seat's instruments; rule first; all four cells as predicted): the weave's chiral
+  threads carry Chern–Simons content in mirror pairs (745 threads), so B1012's k-blindness is a fact about m004 and
+  B1224's bit survives as the reality of mirror-paired weave sums. At weight zero the field at a genuine cusp is the
+  uniformization in the log frame, with pointwise size 1/(2R) and no free number; the record's κ = −2 is the frame's
+  −1 on its unipotent monodromy. A hierarchy would be a depth (a warp factor e^{−d}), and nothing forces one.
 
 ## The setting
 
@@ -6161,6 +6166,89 @@ outside O1's space"), and in M, the weave's quaternion SU(2), not in the lane's 
   - Whether the weave's action contains that term is the audit lane's action question.
 - **0 of 19.**
 
+## W75. chat1's scale check on this seat's instruments, and the field's size at the puncture: the weave's chiral threads carry Chern–Simons content in mirror pairs, and at weight zero the field at a genuine cusp is the uniformization, with pointwise size 1/(2R) and no free number (`the_puncture_scale.py`; `W75_RULE.md`)
+
+**Why.**
+- **chat1 sealed and ran a check of the scale** (`chat1/web-seat` @ c1986e33d → 28bb46c83), at the owner's question
+  "isnt the scale there? the right scale needed for us? compatible with the rest?". Every cell held as sealed, and a
+  labelled post hoc found the field's pointwise norm at a genuine cusp to be exactly ½.
+- **The owner's rule is to verify load-bearing mathematics with the seat's own code.** Two parts carry weight here:
+  - the mirror pairs, which re-scope B1012's k-blindness;
+  - the local model, which decides whether the field at the puncture has a free size.
+
+**The order.**
+- **The rule first** (`W75_RULE.md`, 9bc8f8eca). It disclosed chat1's whole arc and the seat's hand derivations.
+- **The script** (b6a56e401), committed before its run.
+- **The run.** One run, 6.7 s; its output committed before the read-out (47fd112c3).
+
+**The read-out (COMPUTED, exact where stated; all four cells as predicted).**
+- **U1, the mirror pairs (a census of all 745 threads under chat1's stated rule).**
+  - For every thread W, the bundle b++swap(W) is isometric to b++W (`is_isometric_to`, no failures).
+  - The reversed copy's CS equals −CS(W) mod π² to 10⁻⁸, and CS(swap W) to 10⁻⁶, on all 745.
+  - chat1's K1 count is reproduced: 690 threads have |CS| > 10⁻⁶.
+  - *Instrument note:* for cusped manifolds SnapPy computes CS by one algorithm (Zickert's). The reversal runs it on
+    the mirrored triangulation, and the isometry test is the independent leg.
+- **U2, the local model by the ODE (fibre-level, exact).**
+  - In the log frame, with θ = E₂₁ dz/z and h = diag(e^{u(L)}, e^{−u(L)}), Hitchin's equation reduces to
+    u″ + e^{−2u} = 0. The reduction rests on ΔL = 0, |∇L|² = 4/|z|² and the bracket.
+  - Its three branches solve it: L − L₀, sinh(a(L − L₀))/a and sin(a(L − L₀))/a.
+  - L(λz) = L − log|λ|², so the shift L₀ is a rescaling of z.
+  - h = diag(L, 1/L) and h = diag(L − ⅕, 1/(L − ⅕)) solve the full equation directly.
+- **U3, the identification and the monodromy (fibre-level, exact).**
+  - The uniformizing bundle, K^{½} ⊕ K^{−½} with Φ = E₂₁ dz, becomes θ = E₂₁ dz/z with h = diag(L/c, c/L) in the log
+    frame.
+  - It solves Hitchin's equation at c = 1 (curvature −4), and not at c = 2 (curvature −1, the control).
+  - On every circle |z| = r, the flat connection's φ-component is iN with N = [[−1/L, −1/L²], [1, 1/L]], N² = 0 and
+    N ≠ 0. So exp(−2πiN) has trace 2, and with the log frame's −1 the trace is −2.
+- **U4, the size (fibre-level, exact).**
+  - The residue's norm in h is 1/L.
+  - On unit vectors of R²·4|dz|²/(|z|²L²), of curvature −1/R², the field's pointwise norm is 1/(2R): ½ at R = 1 and
+    1 at R = ½, chat1's two numbers.
+  - In the canonical coordinate z = e^{2πiw}, L = 4π Im w, and the cusp metric is |dw|²/(Im w)². The horocycle at
+    height Y has length 1/Y.
+
+**The read-outs (no prior).**
+- 55 threads are swap-symmetric, and none has CS = π²/2. So all 55 have CS = 0.
+- U1 took 3.5 s.
+- N at L = 1, 2 and 10 is [[−1, −1], [1, 1]], [[−½, −¼], [1, ½]] and [[−1/10, −1/100], [1, 1/10]].
+
+**What it shows (a READING; under H-RES and §91's reading; no four-dimensional statement).**
+- **B1012's k-blindness is a fact about one thread.**
+  - The weave's chiral threads carry Chern–Simons content, in mirror pairs. A weave sum weighted by e^{ik CS} over W
+    and swap(W) alike is real, but it depends on k.
+  - So B1015's premise, "the object is provably blind to the quantized level k", holds for m004 and is to be scoped to
+    it. A2 = c = 6σ stays external: k multiplies CS and σ multiplies the volume. Since |e^{−σVol + ik CS}| =
+    e^{−σVol}, chat1's K3 makes the weave weighted by its whole action diverge at every k and σ.
+- **B1224's bit survives at the weave's level.** B1224 found that amphichirality makes CS 2-torsion: the β-odd
+  numbers (θ_QCD, δ_CKM, δ_PMNS) are a bit, not a value. The weave is not amphichiral thread by thread, but its
+  content comes in mirror pairs. So any weave sum taken over W and swap(W) alike is real, with phase 0 or π. W74 found
+  the same in the surface frame (J = 0). A nonzero J or δ needs something that is not mirror-symmetric.
+- **At a genuine cusp the field has no free size** (fibre-level).
+  - At weight zero the local model is unique up to a rescaling of z, and the cusp's parabolic generator fixes that
+    rescaling (z = e^{2πiw} with w ↦ w + 1).
+  - Its pointwise size is half the inverse curvature radius: the uniformization's own size. Three routes agree:
+    chat1's post hoc (½), the audit lane's q̂ = E/2, and U4.
+- **The record's κ = −2 is the half-canonical frame's −1 on a unipotent monodromy.** The trace −2 is forced for the
+  punctured torus, since the commutator does not depend on the lift. U3 shows it is what the nilpotent model gives in
+  the frame (dz)^{±½}. This adds to §91's reading: the field at the puncture is the uniformization, and its sign at
+  the puncture is the record's.
+- **So the electroweak condensate's size is the fibre's unit.** If the fibre's curvature radius is A1's ℓ, its size is
+  ℓ's, and B1015 says no dimensionless number flows from A1. The SM specification ledger already types v as box C,
+  the dimensionful numbers the reader supplies (B1226). W75 gives that typing a mechanism in this frame.
+- **A hierarchy would be a depth.**
+  - The residue's norm is the horocycle's length over 4π: e^{−d}/(4π) at a distance d from the horocycle of length 1.
+    That is a warp factor, as in Randall–Sundrum, with the cusp as the throat.
+  - The electroweak hierarchy would need d = ln(M_Pl/v) ≈ 37 to 38, with the reduced or the full Planck mass, between
+    where the observer's units are set and where the field's are. The rule's hand figure, d ≈ 39, is corrected here.
+  - Nothing on record forces a depth. GENESIS FK10's unit sits at the modular cusp, not at the puncture (§90).
+- **The count.** The Standard Model's one dimensionful number (v) would be the unit, not a new free number. The
+  dimensionless Higgs number (the quartic, m_H/v) stays free. 0 of 19.
+
+**Status.** COMPUTED (the rule first; one run; all four cells as predicted; exact where stated). U1 is a census of
+every thread under a stated rule, and its claim (the mirror pairs) is about all threads at once: weave-type, as a
+verification of chat1's sealed census. U2 to U4 are fibre-level: the shared fibre's end, the same on every thread,
+not a quantity of the joint action. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6347,6 +6435,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W72 | COMPUTED (the rule first; one run after one failed launch; X1 and X4 as predicted; X2, X3 and X5 failed as worded on instruments, confirmed by two labelled post hocs); a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf | the surface frame's Yukawa: B1644's coupling has no residue at the cusp (η¹²'s multiplier); its Petersson pairing with the Higgs's unique weight-5/2 surface mode is a parameter-free form of rank 3, so τ drops out and B1649's zero does not survive; the three modes are not normalisable, so no mass ratio is defined yet; R·F₊ ≡ 0. 0 of 19 |
 | W73 | COMPUTED (the rule first; one run; all four cells as predicted); post hoc in its choice of H-end; a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, H-surf and H-end | the masses under the end's normalisation: 1 : 0.0194 : 0.00039, parameter-free; with one coupling W66's predicate fails (χ² 379; z_up 16, z_lepton −11) and the CKM matrix is 1; z_down = 0.26, not significant (p = 0.058); the lightest generation is the v₊ mode, where R's unit sits. 0 of 19 |
 | W74 | COMPUTED (the rule first; one run; all three cells as predicted; exact where stated); a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf | the surface frame's CP: the orientation reversal with C = diag(1, 1, −1) fixes every section, so the Yukawas are real; with one coupling arg det(M_u M_d) = 0 and θ̄ = θ (I-18's Yukawa half paid here, its dictionary half standing); J = 0, so what splits the sectors must break CP. 0 of 19 |
+| W75 | COMPUTED (the rule first; one run; all four cells as predicted; exact where stated); U1 a weave-type census verifying chat1's, U2 to U4 fibre-level, under H-RES and §91's reading | chat1's scale check on this seat's instruments: b++swap(W) ≅ b++W with CS(swap W) = −CS(W) on all 745 threads (690 with CS ≠ 0), so B1012's k-blindness is m004's and B1224's bit survives as the reality of mirror-paired weave sums; the local model is u″ + e^{−2u} = 0, unique at weight zero up to a rescaling of z that the cusp fixes; the uniformizing bundle is the model in the log frame (c = 1), with unipotent monodromy, so κ = −2 is the frame's −1; the field's pointwise size is 1/(2R), and the residue's norm is the horocycle's length over 4π. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -6411,6 +6500,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W72_RULE.md`: the rule, committed before the code; `the_surface_yukawa.py` → `the_surface_yukawa.json`: W72, the surface frame's Yukawa (the multipliers, the Higgs's surface mode, the Petersson pairing and its rank, the modes' norms); post hoc (labelled) `the_surface_yukawa_posthoc.py` → `the_surface_yukawa_posthoc.json` and `the_surface_yukawa_posthoc2.py` → `the_surface_yukawa_posthoc2.json`.
 - `W73_RULE.md`: the rule, committed before the code; `the_end_normalisation.py` → `the_end_normalisation.json`: W73, the masses under the end's normalisation (H-end, post hoc), the data comparison and the look-elsewhere figure.
 - `W74_RULE.md`: the rule, committed before the code; `the_surface_cp.py` → `the_surface_cp.json`: W74, the surface frame's CP (the involution's identities, the reality of W72's data, arg det and J).
+- `W75_RULE.md`: the rule, committed before the code; `the_puncture_scale.py` → `the_puncture_scale.json`: W75, chat1's scale check on this seat's instruments (the mirror pairs on 745 threads, the local model by the ODE, the uniformization in the log frame and its monodromy, the field's size).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

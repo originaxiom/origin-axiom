@@ -1,5 +1,23 @@
 # Changelog
 
+## The weave's W75: chat1's scale check on this seat's instruments, and the field's size at the puncture; relay section 93
+
+- **chat1's sealed check of the scale was read and rowed** (`chat1/web-seat` @ 4636b0fa4 → 28bb46c83). Every cell held
+  as sealed. The seat verified the load-bearing parts with its own code as W75: the rule first, one run, all four
+  cells as predicted, exact where stated.
+- **The mirror pairs (all 745 threads).** b++swap(W) is isometric to b++W, with CS(swap W) = −CS(W). So B1012's
+  k-blindness is a fact about m004. B1224's bit survives at the weave's level, as the reality of mirror-paired sums.
+- **The field at a genuine cusp has no free size** (fibre-level, under H-RES).
+  - At weight zero the local model solves u″ + e^{−2u} = 0, unique up to a rescaling of z that the cusp fixes.
+  - The uniformizing bundle is that model in the log frame, and the record's κ = −2 is the frame's −1 on its
+    unipotent monodromy.
+  - The field's pointwise size is 1/(2R), so the condensate's size is the fibre's unit.
+- **A hierarchy would be a depth,** a warp factor e^{−d} with d ≈ 37 to 38, and nothing on record forces one.
+- **Surfaces.** The rule, the script and its output; the dossier (section, header bullet, table row, files), the
+  state page (the readings §89 to §92 and W75; ranges W1–W75 and §1–§93; one question to main), P024 (an addendum:
+  the field has no free size), the relay §93, the ledger (chat1's row; the relay's row through §93) and the test.
+  0 of 19.
+
 ## §91's test decided by hand: the electroweak condensate is a doublet of the weave's SU(2); relay section 92
 
 - **The lane's sl₂ and the weave's quaternion SU(2) do not commute.** The lane's root β is odd under the puncture, so

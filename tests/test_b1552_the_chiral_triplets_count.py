@@ -1844,6 +1844,23 @@ def test_w74_the_surface_cp():
     assert ok(0.5, 0.25) > 0.1 and ok(1.0, 0.25) > 0.1
 
 
+def test_w75_the_puncture_scale():
+    """W75 (the rule first; one run; all four cells as predicted): the weave's chiral threads carry CS in mirror
+    pairs (745 threads), and at weight zero the field at a genuine cusp is the uniformization, of size 1/(2R)"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_puncture_scale.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"U1": True, "U2": True, "U3": True, "U4": True}
+    assert d["U1"]["threads"] == 745 and d["U1"]["K1 reproduced: threads with |CS| > 1e-6"] == 690
+    assert d["U4"]["pointwise norm on unit vectors"] == "1/(2*R)"
+    # in process: the linear branch solves u'' + e^(-2u) = 0, and N = [[-1/L, -1/L^2], [1, 1/L]] is nilpotent
+    import sympy as sp
+    s, L0, L = sp.symbols("s L0 L", positive=True)
+    u = sp.log(s - L0)
+    assert sp.simplify(sp.diff(u, s, 2) + sp.exp(-2 * u)) == 0
+    N = sp.Matrix([[-1 / L, -1 / L ** 2], [1, 1 / L]])
+    assert (N * N).applyfunc(sp.simplify) == sp.zeros(2, 2) and N.trace() == 0
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

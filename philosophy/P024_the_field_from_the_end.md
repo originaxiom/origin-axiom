@@ -117,3 +117,15 @@ They are different ends, so "the same cusp" is withdrawn. Whether the two data a
 - **What remains of the passage** is its shape: the edge forces a choice, and every way of making the edge describable
   breaks something. Which thing breaks is not forced.
 
+
+## Addendum (2026-10-14, late): the field has no free size
+
+- **chat1 checked the scale, and W75 verified the parts that carry weight.** At a genuine cusp, with weight zero, the
+  field's local form is unique up to a rescaling that the cusp itself fixes. It is the uniformization, so its size is
+  half the inverse curvature radius of the fibre.
+- **So the field brings its existence, its charge and its size from the end.** Its size is the fibre's unit, and the
+  record already types that unit as the reader's (B1015's A1). It is not a new free number.
+- **What the end does not give is a depth.** A large ratio between the field's scale and gravity's would be a warp
+  factor e^{−d}, with the field deep in the cusp's throat, about 37 to 38 units. Nothing on record forces that depth.
+  The passage's shape holds again: the edge forces a field, and its own shape sets the field's size, but not how far
+  from the edge the observer stands.

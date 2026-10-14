@@ -18924,3 +18924,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **So they meet in one simple way:** the flavour field sitting between two copies of the weak-force field. Whether the
   weave's own equations contain that meeting is a question for the audit lane. 0 of 19.
 
+
+## 2026-10-14 — chat1's scale check, verified: the field at the edge has no free size
+
+- **chat1 checked the owner's question about the scale** ("isnt the scale there?") with a sealed test, and every
+  prediction held. The seat re-checked the parts that carry weight with its own code. All four of its predictions
+  held.
+- **What the weave carries.** Its threads come in mirror pairs whose Chern–Simons numbers cancel in sign. So the
+  record's old claim that "the object cannot see the quantised level" is true of one thread, m004, and not of the
+  weave. The weave still picks no value for the gravitational coupling.
+- **The field's size.** At the edge where the weak-force field lives, the field is the surface's own curved shape. Its
+  size is fixed at half the inverse curvature radius, so it brings no new free number: it is the unit.
+- **The hierarchy.** A large ratio between the weak scale and gravity's scale would need the field to sit deep in the
+  edge's throat, about 37 to 38 units of depth, as in the Randall–Sundrum picture. Nothing on record forces that
+  depth. 0 of 19.

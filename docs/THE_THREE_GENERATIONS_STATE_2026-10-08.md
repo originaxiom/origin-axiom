@@ -504,6 +504,19 @@ Under the owner's rulings, the table's rows split into two groups:
     real.
   - With one coupling, θ̄ = θ: I-18's Yukawa half is paid in this frame, and its dictionary half stands.
   - The same symmetry gives J = 0, so whatever splits the sectors must also break CP. 0 of 19.
+- **The readings after W74 (READING; nothing computed):**
+  - chat1's "the field is two fields": the electroweak condensate at the puncture, and the flavour field in M (§89);
+  - the fibre's puncture and the modular cusp named apart, with two of the seat's conflations corrected (§90);
+  - the field at the puncture is the fibre's own uniformization, carried into E₈ through an sl₂ (§91);
+  - by hand, the electroweak condensate is a doublet of the weave's SU(2), and the lowest join with the flavour field
+    is H†Φ_M H (§92). 0 of 19.
+- **W75, chat1's scale check on this seat's instruments (rule first; all four cells as predicted; exact where
+  stated):**
+  - The weave's chiral threads carry Chern–Simons content in mirror pairs (745 threads). So B1012's k-blindness is a
+    fact about m004, and B1224's bit survives as the reality of mirror-paired weave sums.
+  - At weight zero the field at a genuine cusp is the uniformization, with pointwise size 1/(2R): no free number. The
+    record's κ = −2 is the half-canonical frame's −1 on its unipotent monodromy.
+  - A hierarchy would be a depth, a warp factor e^{−d} with d ≈ 37 to 38, and nothing on record forces one. 0 of 19.
 
 ## Questions open with main
 
@@ -512,6 +525,8 @@ Under the owner's rulings, the table's rows split into two groups:
   (B1231).
 - **The moves.** The counts depend on which moves the grammar allows: the sign (GENESIS GM5b, FK4) and the swap (GENESIS
   GM5c).
+- **The scope of B1012.** W75 finds the weave's chiral threads carry Chern–Simons content in mirror pairs. Does main
+  scope B1015's premise "the object is provably blind to the quantized level k" to the thread m004?
 - **The parity grading at a fixed τ.** On the ruled branch the weave is ⟨L, R⟩, which meets the inner automorphisms only
   in the powers of conj(a b⁻¹ a⁻¹ b) (W49, post hoc; W50). On that branch T-TAU-ONLY-PERMUTATION and B1617's residual
   do not hold, and couplings in τ alone give mixing that is not a permutation (W50). Does main read the inner
@@ -519,7 +534,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W74 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W75 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§88).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§93).

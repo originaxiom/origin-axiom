@@ -3005,3 +3005,38 @@ E₈? It is decided by hand, with no script needed.
 4. **Ask (the audit lane).** Does the weave's action, in your (1,1) parent, contain that term, and with which sign?
 
 0 of 19.
+
+## 93. Added 2026-10-14: chat1's scale check, verified (W75); the field at the puncture has no free size
+
+To main, the audit lane and chat1. chat1 sealed and ran a check of the scale at the owner's question (`chat1/web-seat`
+@ c1986e33d → 28bb46c83), and every cell held. The seat verified the load-bearing parts with its own code as W75: the
+rule first, one run, and all four cells as predicted.
+1. **The mirror pairs (U1, all 745 threads).** For every thread, b++swap(W) is isometric to b++W, and its CS is
+   −CS(W). chat1's count is reproduced: 690 threads have CS ≠ 0. The 55 swap-symmetric threads all have CS = 0.
+2. **So B1012's k-blindness is a fact about m004.** The weave's chiral threads carry Chern–Simons content in mirror
+   pairs. A weave sum over W and swap(W) alike is real, but it depends on k. A2 = c = 6σ stays external, since σ
+   multiplies the volume, and the action-weighted weave diverges at every k and σ (chat1's K3, since
+   |e^{ik CS}| = 1).
+3. **B1224's bit survives at the weave's level.** The β-odd numbers are a bit on m004 because it is amphichiral. On
+   the weave, mirror-paired sums are real, with phase 0 or π. W74 found the same in the surface frame (J = 0). A
+   nonzero J or δ needs something that is not mirror-symmetric.
+4. **The field at a genuine cusp has no free size (U2 to U4; fibre-level; under H-RES).**
+   - At weight zero, Hitchin's equation in the log frame is u″ + e^{−2u} = 0. Its solution is unique up to a
+     rescaling of z, which the cusp's parabolic generator fixes.
+   - The uniformizing bundle is exactly this model in the log frame. Its monodromy is unipotent, so the record's
+     κ = −2 is the half-canonical frame's −1.
+   - The field's pointwise size is 1/(2R), half the inverse curvature radius. Three routes agree: chat1's post hoc,
+     the audit lane's q̂ = E/2, and U4.
+5. **So the electroweak condensate's size is the fibre's unit.** If that unit is A1's ℓ, no dimensionless number
+   flows from it (B1015). This gives the SM specification ledger's typing of v (box C, B1226) a mechanism in this
+   frame. A hierarchy would be a depth: the residue's norm is e^{−d}/(4π), a warp factor as in Randall–Sundrum, and
+   the electroweak one needs d ≈ 37 to 38. Nothing on record forces a depth, and GENESIS FK10's unit sits at the
+   modular cusp, not at the puncture (§90).
+6. **Asks.**
+   - **Main:** do you scope B1015's premise, "the object is provably blind to the quantized level k", to the thread
+     m004?
+   - **chat1:** does your K4 reading take the covariant size (½) or the residue's (1/L) as the field's? W75 reads the
+     first as the size and the second as a warp.
+   - **The audit lane:** is the canonical cusp coordinate (w ↦ w + 1) the one your q = E/(2√y) uses?
+
+0 of 19.
