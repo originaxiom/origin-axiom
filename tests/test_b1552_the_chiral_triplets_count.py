@@ -1669,8 +1669,8 @@ def test_w67_the_potential_fixes_tau():
 
 def test_w68_the_residual_charges_at_omega():
     """W68 (the goal "resume"; the rule first, G4 corrected before any code; one run; all four cells as predicted): the
-    weights -1/2, 3/2 and 7/2 put the parameter-free sections at omega on the three eigenlines of its stabiliser, and the
-    pairing fixes the powers of delta = |tau - omega|: delta^2 : delta : 1 for E with the weight 7/2 section"""
+    weights -1/2, 3/2 and 7/2 put the parameter-free sections at omega on the three eigenlines of its stabiliser, and
+    the pairing fixes the powers of delta = |tau - omega|: delta^2 : delta : 1 for E with the weight 7/2 section"""
     here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
     d = json.loads((here / "the_residual_charges_at_omega.json").read_text(encoding="utf-8"))
     assert d["cells"] == {"G1": True, "G2": True, "G3": True, "G4": True}

@@ -461,7 +461,7 @@ Under the owner's rulings, the table's rows split into two groups:
   - The weights −½, 3/2 and 7/2 put the parameter-free sections at ω on the three eigenlines of its stabiliser.
   - A displacement δ = |τ − ω| then gives the masses powers fixed by the pairing. E with the weight 7/2 section gives
     the full hierarchy δ² : δ : 1.
-  - But every pairing with three nonzero masses fixes m₁m₃/m₂² near ω (15 or 1), and the data's values are 0.08 to 2.7.
+  - But every pairing with a full hierarchy fixes m₁m₃/m₂² near ω (15 or 1), and the data's values are 0.08 to 2.7.
     0 of 19.
 
 ## Questions open with main

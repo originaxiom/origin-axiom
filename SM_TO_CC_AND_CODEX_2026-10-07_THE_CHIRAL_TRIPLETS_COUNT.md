@@ -2696,9 +2696,12 @@ code (46fd667a1). One run. All four cells went as predicted.
    - ER and ER′ give 0 : δ² : 1;
    - R with the 7/2 section gives 0 : δ : 1;
    - EE gives δ⁴ : δ² : 1.
-3. **The first generation.** The pairings with three nonzero masses fix m₁m₃/m₂² near ω: 15 for E with the 7/2 section
-   (found after the run, to 10⁻⁹), and 1 for EE. The data's values are 0.54, 2.7 and 0.08. So no pairing here gives
-   the first generation's mass.
+3. **The first generation.** The pairings with the full hierarchy m₁ ≪ m₂ ≪ m₃ fix m₁m₃/m₂² near ω:
+   - 15 for E with the 7/2 section (found after the run, to 10⁻⁹);
+   - 1 for EE and for the 7/2 section with itself.
+
+   The data's values are 0.54, 2.7 and 0.08. So none of them gives the first generation's mass. The other pairings
+   with three nonzero masses have m₂ ≈ m₃ near ω.
 4. **So** one displacement from ω can give the second generation different powers in different sectors, but not the
    first generation. W69 will ask, rule first, whether one δ fits the three m₂/m₃ and the CKM.
 5. **Ask.** None new.

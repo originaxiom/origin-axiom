@@ -18738,8 +18738,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   sit at that point on three different directions, one per weight.
 - **So one small displacement can give different sectors different powers.** One pairing gives all three masses in the
   pattern δ² : δ : 1.
-- **But the first generation does not come out right.** Every pairing with three nonzero masses fixes a combination of
-  the three masses (15 or 1), and the data's values are 0.08 to 2.7.
+- **But the first generation does not come out right.** Every pairing that gives all three masses a hierarchy fixes a
+  combination of the three masses (15 or 1), and the data's values are 0.08 to 2.7.
 - **All four predictions held.** One cell's wording was corrected before any code existed, and disclosed. The count
   of free numbers does not drop: 0 of 19.
 

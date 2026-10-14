@@ -5518,10 +5518,12 @@ the stated hypotheses. 0 of 19.
   all 24.
 
 **A consequence by arithmetic (after the run, from the read-outs; not a cell).**
-- For E with the 7/2 section, m₁m₃/m₂² → 52.87/1.8774² = 15.000 (to 10⁻⁹) as τ → ω. For EE it is exactly 1 (W66).
+- For E with the 7/2 section, m₁m₃/m₂² → 52.87/1.8774² = 15.000 (to 10⁻⁹) as τ → ω.
+- For EE and for the 7/2 section with itself it is exactly 1: each is a scalar times a complex orthogonal matrix (W66).
 - The data give m₁m₃/m₂² = 0.54 (up), 2.7 (down) and 0.081 (leptons).
-- So near ω, no pairing that gives three nonzero masses gets the first generation's mass right in any sector. The
-  pairings with m₁ ≡ 0 give none.
+- So near ω, no pairing with the full hierarchy m₁ ≪ m₂ ≪ m₃ gets the first generation's mass right in any sector. The
+  pairings with m₁ ≡ 0 give none, and the other pairings with three nonzero masses (E with a 3/2 section) have
+  m₂ ≈ m₃ near ω, so they have no second-generation hierarchy.
 
 **What it shows (a READING; given Λ, GENESIS FK11; B1644's form, H-sec and H-pair′ are hypotheses).**
 - **The three weights carry the three residual charges at ω.** −½ sits on one isotropic line, 3/2 on the real axis and
@@ -5531,8 +5533,8 @@ the stated hypotheses. 0 of 19.
   - The weight −½ pairs give 0 : δ² : 1, and R with the 7/2 section gives 0 : δ : 1.
   - So the second generation's mass can be δ or δ² by the sector's pairing. The data's m_μ/m_τ ≈ 0.06 and
     m_c/m_t ≈ 0.004 are δ and δ² for δ ≈ 0.06, but that is context, not a fit.
-- **The first generation does not come out.** Every pairing with three nonzero masses fixes m₁m₃/m₂² near ω, at 15 or
-  1, and the data's values are 0.08 to 2.7.
+- **The first generation does not come out.** Every pairing with a full hierarchy fixes m₁m₃/m₂² near ω, at 15 or 1,
+  and the data's values are 0.08 to 2.7.
 - **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19. Whether one δ fits the second
   generations and the CKM is W69's question, rule first.
 
