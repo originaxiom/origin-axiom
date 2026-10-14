@@ -1,0 +1,223 @@
+F (control)  tr   1 det -1  S1 True   S2 True   S3 hits 2
+LLLLLLLR     tr   9 det  1  S1 False  S2 True   S3 hits 4
+LLLLLLR      tr   8 det  1  S1 False  S2 True   S3 hits 4
+LLLLLLRR     tr  14 det  1  S1 False  S2 True   S3 hits 4
+LLLLLR       tr   7 det  1  S1 False  S2 True   S3 hits 4
+LLLLLRLR     tr  19 det  1  S1 False  S2 True   S3 hits 4
+LLLLLRR      tr  12 det  1  S1 False  S2 True   S3 hits 4
+LLLLLRRR     tr  17 det  1  S1 False  S2 True   S3 hits 4
+LLLLR        tr   6 det  1  S1 False  S2 True   S3 hits 4
+LLLLRLLR     tr  22 det  1  S1 False  S2 True   S3 hits 4
+LLLLRLR      tr  16 det  1  S1 False  S2 True   S3 hits 4
+LLLLRLRR     tr  25 det  1  S1 False  S2 True   S3 hits 4
+LLLLRR       tr  10 det  1  S1 False  S2 True   S3 hits 4
+LLLLRRLR     tr  25 det  1  S1 False  S2 True   S3 hits 4
+LLLLRRR      tr  14 det  1  S1 False  S2 True   S3 hits 4
+LLLLRRRR     tr  18 det  1  S1 False  S2 True   S3 hits 4
+LLLR         tr   5 det  1  S1 False  S2 True   S3 hits 4
+LLLRLLR      tr  18 det  1  S1 False  S2 True   S3 hits 4
+LLLRLLRR     tr  29 det  1  S1 False  S2 True   S3 hits 4
+LLLRLR       tr  13 det  1  S1 False  S2 True   S3 hits 4
+LLLRLRLR     tr  34 det  1  S1 False  S2 True   S3 hits 4
+LLLRLRR      tr  20 det  1  S1 False  S2 True   S3 hits 4
+LLLRLRRR     tr  27 det  1  S1 False  S2 True   S3 hits 4
+LLLRR        tr   8 det  1  S1 False  S2 True   S3 hits 4
+LLLRRLLR     tr  29 det  1  S1 False  S2 True   S3 hits 4
+LLLRRLR      tr  20 det  1  S1 False  S2 True   S3 hits 4
+LLLRRLRR     tr  30 det  1  S1 False  S2 True   S3 hits 4
+LLLRRR       tr  11 det  1  S1 False  S2 True   S3 hits 4
+LLLRRRLR     tr  27 det  1  S1 False  S2 True   S3 hits 4
+LLLRRRR      tr  14 det  1  S1 False  S2 True   S3 hits 4
+LLLRRRRR     tr  17 det  1  S1 False  S2 True   S3 hits 4
+LLR          tr   4 det  1  S1 False  S2 True   S3 hits 2
+LLRLLRLR     tr  37 det  1  S1 False  S2 True   S3 hits 4
+LLRLLRR      tr  22 det  1  S1 False  S2 True   S3 hits 4
+LLRLLRRR     tr  30 det  1  S1 False  S2 True   S3 hits 4
+LLRLR        tr  10 det  1  S1 False  S2 True   S3 hits 4
+LLRLRLR      tr  26 det  1  S1 False  S2 True   S3 hits 4
+LLRLRLRR     tr  39 det  1  S1 False  S2 True   S3 hits 4
+LLRLRR       tr  15 det  1  S1 False  S2 True   S3 hits 4
+LLRLRRLR     tr  38 det  1  S1 False  S2 True   S3 hits 4
+LLRLRRR      tr  20 det  1  S1 False  S2 True   S3 hits 4
+LLRLRRRR     tr  25 det  1  S1 False  S2 True   S3 hits 4
+LLRR         tr   6 det  1  S1 False  S2 True   S3 hits 4
+LLRRLR       tr  15 det  1  S1 False  S2 True   S3 hits 4
+LLRRLRLR     tr  39 det  1  S1 False  S2 True   S3 hits 4
+LLRRLRR      tr  22 det  1  S1 False  S2 True   S3 hits 4
+LLRRLRRR     tr  29 det  1  S1 False  S2 True   S3 hits 4
+LLRRR        tr   8 det  1  S1 False  S2 True   S3 hits 4
+LLRRRLR      tr  20 det  1  S1 False  S2 True   S3 hits 4
+LLRRRLRR     tr  29 det  1  S1 False  S2 True   S3 hits 4
+LLRRRR       tr  10 det  1  S1 False  S2 True   S3 hits 4
+LLRRRRLR     tr  25 det  1  S1 False  S2 True   S3 hits 4
+LLRRRRR      tr  12 det  1  S1 False  S2 True   S3 hits 4
+LLRRRRRR     tr  14 det  1  S1 False  S2 True   S3 hits 4
+LR           tr   3 det  1  S1 False  S2 False  S3 hits 0
+LRLRLRR      tr  26 det  1  S1 False  S2 True   S3 hits 4
+LRLRLRRR     tr  34 det  1  S1 False  S2 True   S3 hits 4
+LRLRR        tr  10 det  1  S1 False  S2 True   S3 hits 4
+LRLRRLRR     tr  37 det  1  S1 False  S2 True   S3 hits 4
+LRLRRR       tr  13 det  1  S1 False  S2 True   S3 hits 4
+LRLRRRR      tr  16 det  1  S1 False  S2 True   S3 hits 4
+LRLRRRRR     tr  19 det  1  S1 False  S2 True   S3 hits 4
+LRR          tr   4 det  1  S1 False  S2 True   S3 hits 2
+LRRLRRR      tr  18 det  1  S1 False  S2 True   S3 hits 4
+LRRLRRRR     tr  22 det  1  S1 False  S2 True   S3 hits 4
+LRRR         tr   5 det  1  S1 False  S2 True   S3 hits 4
+LRRRR        tr   6 det  1  S1 False  S2 True   S3 hits 4
+LRRRRR       tr   7 det  1  S1 False  S2 True   S3 hits 4
+LRRRRRR      tr   8 det  1  S1 False  S2 True   S3 hits 4
+LRRRRRRR     tr   9 det  1  S1 False  S2 True   S3 hits 4
+{
+ "S1 passes": [
+  "F (control)"
+ ],
+ "S2 passes": [
+  "F (control)",
+  "LLLLLLLR",
+  "LLLLLLR",
+  "LLLLLLRR",
+  "LLLLLR",
+  "LLLLLRLR",
+  "LLLLLRR",
+  "LLLLLRRR",
+  "LLLLR",
+  "LLLLRLLR",
+  "LLLLRLR",
+  "LLLLRLRR",
+  "LLLLRR",
+  "LLLLRRLR",
+  "LLLLRRR",
+  "LLLLRRRR",
+  "LLLR",
+  "LLLRLLR",
+  "LLLRLLRR",
+  "LLLRLR",
+  "LLLRLRLR",
+  "LLLRLRR",
+  "LLLRLRRR",
+  "LLLRR",
+  "LLLRRLLR",
+  "LLLRRLR",
+  "LLLRRLRR",
+  "LLLRRR",
+  "LLLRRRLR",
+  "LLLRRRR",
+  "LLLRRRRR",
+  "LLR",
+  "LLRLLRLR",
+  "LLRLLRR",
+  "LLRLLRRR",
+  "LLRLR",
+  "LLRLRLR",
+  "LLRLRLRR",
+  "LLRLRR",
+  "LLRLRRLR",
+  "LLRLRRR",
+  "LLRLRRRR",
+  "LLRR",
+  "LLRRLR",
+  "LLRRLRLR",
+  "LLRRLRR",
+  "LLRRLRRR",
+  "LLRRR",
+  "LLRRRLR",
+  "LLRRRLRR",
+  "LLRRRR",
+  "LLRRRRLR",
+  "LLRRRRR",
+  "LLRRRRRR",
+  "LRLRLRR",
+  "LRLRLRRR",
+  "LRLRR",
+  "LRLRRLRR",
+  "LRLRRR",
+  "LRLRRRR",
+  "LRLRRRRR",
+  "LRR",
+  "LRRLRRR",
+  "LRRLRRRR",
+  "LRRR",
+  "LRRRR",
+  "LRRRRR",
+  "LRRRRRR",
+  "LRRRRRRR"
+ ],
+ "S2 fails": [
+  "LR"
+ ],
+ "S3 admitted": [
+  "F (control)",
+  "LLLLLLLR",
+  "LLLLLLR",
+  "LLLLLLRR",
+  "LLLLLR",
+  "LLLLLRLR",
+  "LLLLLRR",
+  "LLLLLRRR",
+  "LLLLR",
+  "LLLLRLLR",
+  "LLLLRLR",
+  "LLLLRLRR",
+  "LLLLRR",
+  "LLLLRRLR",
+  "LLLLRRR",
+  "LLLLRRRR",
+  "LLLR",
+  "LLLRLLR",
+  "LLLRLLRR",
+  "LLLRLR",
+  "LLLRLRLR",
+  "LLLRLRR",
+  "LLLRLRRR",
+  "LLLRR",
+  "LLLRRLLR",
+  "LLLRRLR",
+  "LLLRRLRR",
+  "LLLRRR",
+  "LLLRRRLR",
+  "LLLRRRR",
+  "LLLRRRRR",
+  "LLR",
+  "LLRLLRLR",
+  "LLRLLRR",
+  "LLRLLRRR",
+  "LLRLR",
+  "LLRLRLR",
+  "LLRLRLRR",
+  "LLRLRR",
+  "LLRLRRLR",
+  "LLRLRRR",
+  "LLRLRRRR",
+  "LLRR",
+  "LLRRLR",
+  "LLRRLRLR",
+  "LLRRLRR",
+  "LLRRLRRR",
+  "LLRRR",
+  "LLRRRLR",
+  "LLRRRLRR",
+  "LLRRRR",
+  "LLRRRRLR",
+  "LLRRRRR",
+  "LLRRRRRR",
+  "LRLRLRR",
+  "LRLRLRRR",
+  "LRLRR",
+  "LRLRRLRR",
+  "LRLRRR",
+  "LRLRRRR",
+  "LRLRRRRR",
+  "LRR",
+  "LRRLRRR",
+  "LRRLRRRR",
+  "LRRR",
+  "LRRRR",
+  "LRRRRR",
+  "LRRRRRR",
+  "LRRRRRRR"
+ ],
+ "S3 not admitted": [
+  "LR"
+ ]
+}
