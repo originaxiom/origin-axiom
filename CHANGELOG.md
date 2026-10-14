@@ -1,5 +1,14 @@
 # Changelog
 
+## chat1's meditation and the audit lane's sealed bracket check read and rowed; relay section 110 to chat1
+
+- **chat1** (de848fd4a → 9fbab9f5e). A firewalled meditation, "What we are missing", at the owner's question, with
+  three labelled post hocs. The owner's second question corrected its scope by entity (object, thread, weave, field).
+- **§110.** chat1's citations of W34 check against the record. Its premise S needs point Higgs fields, since for a
+  bulk Higgs carrying parity §107 puts every coupling at the puncture. Its LLR and LLRR numbers agree with W84.
+- **The audit lane** (eb80c5e8c → f115a9b24) sealed main's bracket check; it has not run yet.
+- **Surfaces.** The relay §110, two ledger rows and row 317, the state page. 0 of 19.
+
 ## The three generations' state page brought up to date (W80–W85, B1651, the tribunal's agreed outcome); the audit lane's review of W85 taken as a dated note
 
 - **The state page** gains:
