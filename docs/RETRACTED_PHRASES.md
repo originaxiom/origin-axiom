@@ -210,3 +210,21 @@ and was not run.
 | "the object sees everything: no private states" as a statement about the weave (the observer layer, B761, read beyond m004) | B761 is m004's adjoint data; the weave's matter is wholly private at the puncture (B1614), and interior classes exist on m004's own forced cover (B1602–B1605) | no private states holds for the adjoint on every thread (the SM seat's W34); the matter carrying the three is private (B1614) |
 | no residual-aligned vacuum gives a mass ratio below 0.1 (B1615's sealed C4) | the second triplet along RRL gives a family with m₁ + m₂ = m₃ and m₁/m₃ down to zero | the charged leptons' hierarchy is still out of reach (m₂ ≥ m₃/2 in that family) |
 | Σm ≈ 0.115 eV from the weave's neutrino sum rule (B1616's solver output) | the solver imposed the sum rule and not the rigid ratios; no residual Majorana spectrum survives the splittings | the weave's group fixes no neutrino mass (B1616) |
+
+## Added 2026-10-14 (B1622–B1649): phrasings scoped or withdrawn in the field window
+
+*Currency (verified 2026-10-14, through B1649). Descriptive rows, not swept as live phrases: several of these still stand
+in their arcs' original titles, now carrying a scope bracket (B1648).*
+
+| scoped or withdrawn phrase | why | the current statement |
+|---|---|---|
+| the fraction of letters deep in the cusp is (k+1)/2^k at every length, so the unit of end data is not dynamical (B1629, GENESIS v1.38–v1.39) | (k+1)/2^k is the limit, within 2.4% at n = 10; "not dynamical" was computed only for the uniform measure on threads (the audit lane's questions) | GENESIS v1.44's FK10 note quotes the quantified statement; the owner's tagging of the unit stands (B1648) |
+| every mass spectrum, under every tensor and weight, is one value apart and two equal (B1630) | computed with a residual group that includes the inner automorphisms; on the ruled branch at i the lowest symmetric coupling has three distinct masses (B1635, B1636) | scoped to the frame where the inner automorphisms act (B1648) |
+| the convention ρ = lift⁻¹ is forced, and no choice is made (B1634) | two reverse-composing homomorphisms exist, and which piece of V is T is a second choice (B1640) | a convention; the golden coupling and weight 3/2 hold for the record's hand only (B1640, B1648) |
+| every coupling is degenerate at ω (B1635 §3) | false for T̄ ⊗ T and mixed T ⊗ T, by B1635's own read-outs (B1640 cell A) | at ω single pieces of T ⊗ T are degenerate; τ = ω is retired only as "no hierarchy found" |
+| the only lifts that agree with the ruled moves (B1641's title) | checked at Δ⁴ alone; the full coherence check is the Banking Seat's Gate 12 (P-074) | the lifts that agree with the moves at Δ⁴, on M₁,₂ as the seat's reading (B1648) |
+| the weave's lifts on T form only a projective representation (B1632) | the helper's sign on S̃ (B1634 P6; E82) | a genuine representation of Mp2(ℤ), the multiplier of η²¹·(θ₂², θ₃², θ₄²) |
+| the zero modes' residue coupling is zero-diagonal symmetric (B1642's preregistration) | an antisymmetric pairing gives an antisymmetric matrix (E1; caught by the sealed cell) | antisymmetric, [R]×, with R its null vector (B1642, B1649) |
+| inf m = 0 is attained at a ∝ R̄ (B1645's sealed T5) | m = 0 on the whole isotropic cone a·a = 0, of which R̄ is one point | m vanishes exactly on the cone and grows linearly in the isotropy defect (B1645, B1646) |
+| sm:B1501 VERIFIED-DIFFERS (HARVEST_LEDGER row 718) | the census timed out on main at both limits; only its post-run check ran (Review 63) | not re-run to completion; its own check differs |
+

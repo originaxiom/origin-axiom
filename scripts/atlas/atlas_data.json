@@ -11744,6 +11744,36 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1648": {
+   "slug": "the scope repairs",
+   "motifs": [
+    "trace_map"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
+  "B1649": {
+   "slug": "the kernel at the puncture",
+   "motifs": [
+    "choice",
+    "coupling",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "K1",
+    "K2",
+    "K3",
+    "K4"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 18,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B164": {
    "slug": "isomonodromy 04cubic",
    "motifs": [

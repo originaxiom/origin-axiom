@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1375** |
-| words of findings prose | **1,077,979** |
-| test lock files referenced | **809** |
-| arcs carrying an authored verdict | **1375** (100.0 %) |
+| research arcs with findings | **1377** |
+| words of findings prose | **1,079,208** |
+| test lock files referenced | **810** |
+| arcs carrying an authored verdict | **1377** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 929 |
+| PROVED | 931 |
 | NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1647`** (551 words, 0 locks)  
-REVIEW 63: THE FIELD WINDOW. Thirty-nine merges since Review 62 (one from the block); fresh clone PASS at 0bbbb6ca; every lane's pin equals its head. The owner's question (P-086): the work is banked -- every lane read to its head, every seal before its results, the sampled locks passing in a fresh clone -- and mostly verified as the rules say, but the label VERIFIED was stretched (nine ledger rows corrected: a census that timed out, readings, checks filed under the wrong arc) and the foundation leans on some seat results never recomputed (rowed, P-124). The premise audit: the seals caught every computation-level error and none of the premise-level ones, which came from outside main's seal loop; four scope repairs owed (P-119 to P-122: FK10's unscoped B1629 sentences, B1630's 'never three distinct', the hand scoping not on every verdict file, B1641's 'only lifts'); vocabulary drift confirmed (B1290 posed FK10's question in September; P-123). R62-1 carried; six items. 0 of 19.  
-`B1647_review_63_the_field_window/FINDINGS.md`
+**PROVED — `B1649`** (670 words, 1 locks)  
+THE KERNEL AT THE PUNCTURE (sealed a1bd642a6; PROVED -- every cell holds as sealed): for every Higgs S in End(C^2) = span(1, i, j, k) at the fibre's puncture the residue coupling has the theta triplet R as a two-sided null vector (to 5e-31 at 6 tau x 4 random S, by contour residues at 30 digits), since S = 1 gives B1642's antisymmetric coupling with null vector R and S in M gives B1644's, which kills R by Jacobi; so with both quark sectors on one fibre the first generation is massless and unmixed at leading order -- the mixing matrix is 1 (+) U(2) (|V_ud| = 1, V_us = V_ub = V_cd = V_td = 0 to 3e-16; m1/m3 below 1e-16 in both sectors), m_u = m_d = theta12 = theta13 = J = 0 -- while the 2-3 sector is free (the map to m_c/m_t, m_s/m_b, |V_cb| has full rank 3); a non-isotropic control breaks both (m1/m3 0.060, V_us 0.028), so the zeros are Jacobi's. On this route at leading order: five zeros fixed, five numbers free; the Cabibbo angle (0.227, context) must come entirely from what lifts R. 0 of 19.  
+`B1649_the_kernel_at_the_puncture/FINDINGS.md`
 
-**NEGATIVE — `B1644`** (929 words, 1 locks)  
+**NEGATIVE — `B1644`** (998 words, 1 locks)  
 A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed. 0 of 19.  
 `B1644_a_higgs_in_the_multiplicity_space/FINDINGS.md`
 

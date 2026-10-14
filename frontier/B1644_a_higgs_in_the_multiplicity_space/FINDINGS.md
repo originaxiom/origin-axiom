@@ -69,3 +69,9 @@ difference. The crash's output is kept (`adjoint_run_crash_before_output.txt`).
 `verification/adjoint_higgs.py` (sealed, unchanged), `adjoint_higgs_fixed.py` (one cast), `adjoint_higgs.json`,
 `adjoint_run.txt`, `adjoint_run_crash_before_output.txt`, `post_seal_adjoint.py` and `.json`, `post_seal_ratio.py` and
 `.json`; the lock `tests/test_b1644_a_higgs_in_the_multiplicity_space.py`.
+
+## Addendum (2026-10-14): verified on an independent seat's instruments
+
+The SM seat's W63 (its rule first, one run; HARVEST_LEDGER row 1117) recomputed this arc's coupling on its own theta
+routines by two routes (contour and duplication, to 10⁻³⁰) and reproduced its numbers. Its one failed clause was the
+square root's branch, which it predicted before the run: W21's continued branch is the one used here. Credit: the SM seat.

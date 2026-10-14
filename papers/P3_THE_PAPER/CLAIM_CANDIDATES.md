@@ -563,6 +563,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1644` | NEGATIVE | L | | A HIGGS IN THE MULTIPLICITY SPACE: the zero modes' coupling to a Higgs in M is symmetric with flavour structure; Jacobi's identity makes the theta triplet isotropic, so one generation is exactly massless for every Higgs direction and τ; the other two in a ratio set by the direction (≥ ½ for real, down to 0.004 for complex) |
 | `B1645` | PROVED | L | | THE HALF BOUND: a Higgs in M couples by Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙; the theta triplet is the massless state; real directions give m₂/m₃ ∈ [½, 1]; m vanishes exactly on the isotropic cone — the second-to-third hierarchy is the Higgs's isotropy defect |
 | `B1646` | PROVED | L | | THE DIRECTION IS THE MASS MATRIX: a Higgs in M maps its direction one-to-one onto the two massive generations' symmetric mass matrix, so the coupling predicts only the massless generation and the block's symmetry; a symmetric potential puts the direction on the isotropic cone or the real locus, never between; nothing on the record fixes it |
+| `B1649` | PROVED | L | | THE KERNEL AT THE PUNCTURE: for every Higgs at the fibre's puncture the theta triplet is a two-sided null vector of the residue coupling, so with one fibre for both quark sectors the first generation is massless and unmixed at leading order (five zeros by Jacobi), the 2–3 sector free |
 
 ## The exhibit that forced the rebuild
 

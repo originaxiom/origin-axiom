@@ -288,7 +288,9 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 - **The tick's point (B1630, PROVED; a reading, given τ = i).** The tick's axis passes through τ = i, not ω. At i the
   residual group fixes the clock's line and swaps the two letter lines. So every mass spectrum, under every tensor and
   weight, is one value apart and two equal (never three distinct), with the single on the clock's line: the line the
-  rule's word singled out.
+  rule's word singled out. *(Scoped at Review 63: where the inner automorphisms act. On the ruled branch the residual at
+  i is cyclic of order 8, and the lowest symmetric coupling there has three distinct masses, the golden ones; B1635,
+  B1636.)*
 - **The cusp's unit, a tagged working postulate** (the owner, 2026-10-09). Given Λ and the unit, the weave's own surface
   carries a four-dimensional index of ±3 (W46). The three is dim T; only the unit is postulated.
 - **The negatives audited (B1631, at the owner's instruction).** All 27 instruments of B1609–B1630 reproduce bit for
@@ -437,3 +439,16 @@ found with B1635's sealed instrument.
   - A small non-zero m₂/m₃ is a free number per sector (P-115 answered for this route).
 - **Next:** with up and down sectors sharing the fibre, the massless state R is common to both. The first generation's
   leading-order mixing is the quark count's first question (P-116).
+
+## Main's addition: the kernel at the puncture (B1649, PROVED)
+
+- **For every Higgs at the fibre's puncture, the theta triplet R is a two-sided null vector of the zero modes'
+  coupling.** This covers the trivial part (B1642's antisymmetric coupling) and the adjoint part (B1644's), in any
+  directions and any number. It holds to 5·10⁻³¹ by contour residues.
+- **So with one fibre for both quark sectors, the first generation is massless and unmixed at leading order.**
+  - The mixing matrix is 1 ⊕ U(2): m_u = m_d = θ₁₂ = θ₁₃ = J = 0, five zeros fixed by Jacobi's identity.
+  - The 2–3 sector is free (B1646).
+  - Four of the zeros are close to nature, and the Cabibbo angle (0.227) is not (context, not a test). On this route it
+    must come from whatever lifts R.
+- **Next (P-128):** what lifts R. The first candidate is the Wilson line on the fibre, whose twisted zero mode is to be
+  derived by hand before any seal.

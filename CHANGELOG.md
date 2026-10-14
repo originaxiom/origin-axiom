@@ -1,5 +1,43 @@
 # Changelog
 
+## S122 THE SCOPE REPAIRS (B1648; GENESIS v1.44), THE SM SEAT'S W63 ROWED, AND THE KERNEL AT THE PUNCTURE (B1649, PROVED)
+
+**B1648 (Review 63's R63-3).** Four statements carried wider than computed are scoped. No number or verdict changes.
+- **GENESIS FK10** now quotes B1629's quantified statement, and B1631's addendum corrects the sentence its
+  recommendation was said to rest on:
+  - (k + 1)/2^k is the limit, within 2.4% at n = 10;
+  - "not dynamical" holds under the uniform measure on threads;
+  - the owner's tagging of the unit stands as the owner's ruling.
+- **B1630's "never three distinct"** is scoped to where the inner automorphisms act. On the ruled branch at i the
+  lowest symmetric coupling has three distinct masses.
+- **B1634's convention** is not forced, and its post-seal half is now named. B1636 and B1638 now say "for the record's
+  hand".
+- **B1641's "only lifts"** was checked at Δ⁴ alone (Gate 12 owed, P-074), on M₁,₂ as the seat's reading.
+- P-119–P-122 are done.
+
+**The SM seat's W63 and its reading of P-113** (pin d7d41817 → 5fa5b790; rows 1117–1119).
+- **W63** verifies main's B1644 and B1645 on the seat's own instruments: the residues by two routes to 10⁻³⁰; one
+  clause failed on a square-root branch the seat predicted before its run. It is credited on both arcs.
+- **Its new number** (m = 0.566 for every unit at ω) is consistent with B1645's closed form at u = 2/3.
+- **The reading:** the cusp's monodromy turns M a quarter-turn whose only isotropic eigenlines are where R goes at the
+  cusp.
+- **Main's relay answers its two asks.**
+  - P-113's unit lives in the surface frame, where τ is integrated over, so a hierarchy there is an overlap integral,
+    not a free power of |q|.
+  - The end datum could supply a complex Higgs direction in principle.
+
+**B1649** (sealed `a1bd642a6`; P-116). Every cell holds as sealed. For every Higgs at the fibre's puncture the theta triplet R is a two-sided null
+vector of the zero modes' coupling (to 5·10⁻³¹ by contour residues). B1642's antisymmetric null vector is B1644's R
+exactly. So with one fibre for both quark sectors the first generation is massless and unmixed at leading order.
+- **The mixing matrix is 1 ⊕ U(2):** |V_ud| = 1, and V_us, V_ub, V_cd, V_td below 3.4·10⁻¹⁶.
+- **The count:** five zeros fixed by Jacobi (m_u, m_d, θ₁₂, θ₁₃, J); five numbers free (the 2–3 map has full rank 3);
+  none predicted. A non-isotropic control breaks the zeros (m₁/m₃ 0.060, V_us 0.028).
+- **Context, not a test:** four zeros sit close to nature, the Cabibbo angle (0.227) does not, so on this route it
+  comes from what lifts R (P-128: a Wilson line on the fibre first, its twisted zero mode to be derived by hand).
+- T-KERNEL-AT-THE-PUNCTURE; LAW_MAP; the claim pool; THE_WEAVE; P-116 done; P-128 rowed.
+
+Gates 45 of 45. Full suite: 7304 passed, 1 failed, 68 skipped — B1467's lock caught that main's pin edit had overwritten the SM pin row's history chain (its earlier pins, `2eb3841f` among them); the chain restored in the ledger's own format, then the lock and the gate, harvest, relay, register, review, view, GENESIS, seal, lane and B163x–B164x test files re-run on the final tree: 561 passed, 0 failed, 8 skipped (111 files). At the owner's question on the Cabibbo zero, its four premises are rowed for audit (P-129).
+
 ## S121 THE DIRECTION IS THE MASS MATRIX (B1646, PROVED): a Higgs in M maps its direction one-to-one onto the two massive generations' symmetric mass matrix; a symmetric potential puts it on the isotropic cone or the real locus, never between; nothing on the record fixes it
 
 **B1646** was sealed as `0bbbb6cab` before its run, and every cell holds as sealed. It answers P-115 for this route.

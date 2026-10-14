@@ -589,3 +589,30 @@ re-read of the record that led to it is `docs/THE_REREAD_2026-10-06.md`.
 
 **What this does not supply.** Any of the nineteen parameters. The flavour sector's values are not in the weave's
 symmetry; they need a forced modulus, dynamics or end data.
+
+## Currency note — 2026-10-14, through B1649 (the field: what couples to the matter at the fibre's puncture, and what it leaves free)
+
+*Added at S122 (the doc-currency gate: this ledger lagged 31 arcs). The window is B1622–B1649, read against this
+ledger's sections on the flavour sector. Scope throughout: the weave's fibre at its puncture, given Λ, the record's hand
+(B1640), M₁,₂ as the SM seat's reading (B1648).*
+
+- **On the ruled branch** the moves act on the modulus τ, and the lowest symmetric coupling for the record's hand has
+  the golden masses (1, 1/φ, 1/φ²) on the tick's geodesic: an identity of degree 5 (B1634–B1639). τ is not fixed by
+  anything on record (the SM seat's W62).
+- **The zero modes' own residue at the puncture** is the first coupling computed with no free coefficient.
+  - Its trivial part is antisymmetric (B1642). Its part for a Higgs in the multiplicity space M is
+    a Rᵀ + R aᵀ − (a·R)𝟙 (B1644, B1645).
+  - The SM seat's W63 verified both on its own instruments.
+- **The first generation at leading order (B1649).** For every Higgs at the puncture the theta triplet R is a
+  two-sided null vector, by Jacobi's identity. With both quark sectors on one fibre: m_u = m_d = θ₁₂ = θ₁₃ = J = 0.
+  That is five zeros. Four sit close to nature; the Cabibbo angle does not.
+- **The second and third generations (B1646).** The Higgs's direction in M is exactly the 2–3 mass matrix, so
+  m_c, m_t, m_s, m_b and θ₂₃ are free on this route. A symmetric potential puts the direction on the isotropic cone
+  or the real locus, never between, and nothing on record fixes it.
+- **No crossing yet (B1643).** Every earlier crossing was a fiat identification; criteria C1–C6 for one through a field
+  are written, and none is met.
+
+**What this does not supply.** Any of the nineteen parameters. Open on this route:
+- what lifts R, which carries the first generation's masses, the Cabibbo angle, θ₁₃ and J (P-128; the Wilson line
+  first);
+- what fixes the Higgs's direction (the cusp datum, the SM seat's W64).

@@ -17044,3 +17044,13 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   late), and nothing on the record fixes the direction: P-115 answered for this route.
 - Next: the scope repairs (R63-3), then the quark count (P-116). 0 of 19.
 - Gates 45 of 45; full suite 7301 passed, 0 failed, 68 skipped.
+
+## 2026-10-14 — S122 THE SCOPE REPAIRS (B1648, GENESIS v1.44); W63 ROWED; THE KERNEL AT THE PUNCTURE (B1649, PROVED)
+
+- The scope repairs (R63-3, P-119–P-122) are on GENESIS (v1.44) and five verdict files; no number changes.
+- The SM seat's W63 verifies B1644 and B1645, and is credited; its reading of P-113 is answered (rows 1117–1119; pin
+  5fa5b790).
+- B1649: for every Higgs at the puncture R is a two-sided null vector, so with one fibre for both quark sectors the
+  first generation is massless and unmixed at leading order. Five zeros by Jacobi; the Cabibbo angle must come from what
+  lifts R (P-128). 0 of 19.
+- Gates 45 of 45. Full suite: 7304 passed, 1 failed, 68 skipped — B1467's lock caught that main's pin edit had overwritten the SM pin row's history chain (its earlier pins, `2eb3841f` among them); the chain restored in the ledger's own format, then the lock and the gate, harvest, relay, register, review, view, GENESIS, seal, lane and B163x–B164x test files re-run on the final tree: 561 passed, 0 failed, 8 skipped (111 files). At the owner's question on the Cabibbo zero, its four premises are rowed for audit (P-129).

@@ -54,3 +54,9 @@ isotropic vectors in ℂ³.
 
 `verification/half_bound.py` (sealed, unchanged), `half_bound.json`, `half_bound_run.txt`, `post_seal_symbolic.py` and
 `.json`, `post_seal_cone.py` and `.json`; the lock `tests/test_b1645_the_half_bound.py`.
+
+## Addendum (2026-10-14): verified on an independent seat's instruments
+
+The SM seat's W63 (its rule first, one run; HARVEST_LEDGER row 1117) recomputed this arc's coupling on its own theta
+routines by two routes (contour and duplication, to 10⁻³⁰) and reproduced its numbers. Its one failed clause was the
+square root's branch, which it predicted before the run: W21's continued branch is the one used here. Credit: the SM seat.

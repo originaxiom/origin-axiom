@@ -1,0 +1,29 @@
+{
+ "id": "B1648",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1647",
+  "B1629",
+  "B1630",
+  "B1631",
+  "B1634",
+  "B1636",
+  "B1638",
+  "B1641"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a correction arc)",
+  "object": "four statements of GENESIS and five arcs' verdict files that were wider than their computations (Review 63's P-119 to P-122)",
+  "reach": "general",
+  "hypotheses": "none; nothing recomputed, no number or verdict changed"
+ },
+ "claim_one_line": "THE SCOPE REPAIRS (Review 63's R63-3; GENESIS v1.44): four statements carried wider than computed are scoped -- GENESIS FK10's B1629 sentences ((k+1)/2^k is the limit; 'not dynamical' under the uniform measure on threads; the owner's tagging of the unit stands as the owner's ruling) with B1631's sentence corrected; B1630's 'never three distinct' where the inner automorphisms act (on the ruled branch at i the lowest symmetric coupling has three distinct masses); B1634's convention not forced and its post-seal half named, B1636 and B1638 for the record's hand; B1641's 'only lifts' checked at Delta^4 alone, on M_{1,2} as the seat's reading. No number or verdict changes. 0 of 19.",
+ "weave_or_thread": "neither (a correction arc)"
+}
