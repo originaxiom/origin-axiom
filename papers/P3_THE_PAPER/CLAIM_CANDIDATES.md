@@ -562,6 +562,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1642` | NEGATIVE | L | | THE ZERO MODES' RESIDUE AT THE PUNCTURE: the first coupling computed with no free coefficient (Y_pq = ε_pqr κ_r θ_r²/(2πη³)), but antisymmetric — masses (1, 1, 0), the θ-triplet massless — so not the golden coupling |
 | `B1644` | NEGATIVE | L | | A HIGGS IN THE MULTIPLICITY SPACE: the zero modes' coupling to a Higgs in M is symmetric with flavour structure; Jacobi's identity makes the theta triplet isotropic, so one generation is exactly massless for every Higgs direction and τ; the other two in a ratio set by the direction (≥ ½ for real, down to 0.004 for complex) |
 | `B1645` | PROVED | L | | THE HALF BOUND: a Higgs in M couples by Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙; the theta triplet is the massless state; real directions give m₂/m₃ ∈ [½, 1]; m vanishes exactly on the isotropic cone — the second-to-third hierarchy is the Higgs's isotropy defect |
+| `B1646` | PROVED | L | | THE DIRECTION IS THE MASS MATRIX: a Higgs in M maps its direction one-to-one onto the two massive generations' symmetric mass matrix, so the coupling predicts only the massless generation and the block's symmetry; a symmetric potential puts the direction on the isotropic cone or the real locus, never between; nothing on the record fixes it |
 
 ## The exhibit that forced the rebuild
 

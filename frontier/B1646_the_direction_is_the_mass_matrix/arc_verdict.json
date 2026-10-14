@@ -1,0 +1,23 @@
+{
+ "id": "B1646",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1645",
+  "B1644"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's fibre at its puncture; given Lambda; zero Wilson line",
+  "object": "the coupling of the zero modes to a Higgs in M (B1644, B1645)",
+  "reach": "general",
+  "hypotheses": "the adjoint Higgs at the puncture (B1644's hypothesis; the parent map owed); D4 assumes a potential symmetric under SO(3) on M and a phase, to quartic order"
+ },
+ "claim_one_line": "THE DIRECTION IS THE MASS MATRIX (sealed 0bbbb6cab; PROVED -- every cell holds as sealed): in the unitary frame (R/|R|, conj(R)/|R|, n) fixed by tau, a Higgs in M couples by Y(a) = 0 on R and the complex symmetric M2(a) = [[2 a.conj(R), |R| a.n], [|R| a.n, -a.R]] from span(conj R, n) to span(R, n), det M2 = -|R|^2 (a.a); a -> M2 is a linear bijection onto the symmetric 2x2 matrices, so the Higgs's direction carries the two massive generations' whole mass matrix and the coupling predicts only the massless generation along R(tau) and the block's symmetry; s1 s2 = |R|^2 |a.a|; a potential symmetric under SO(3) on M and a phase puts the minimum on the isotropic cone (m = 0) or the real locus (m >= 1/2), never between, and the zero modes' loop changes only the |a.a|^2 coefficient near the cone; the quaternion units as directions give m >= 1/2 (exactly 1/2 for e_k on tau = iy, by Jacobi) -- so nothing on the record fixes the direction, and a small non-zero m2/m3 is a free number per sector. 0 of 19.",
+ "weave_or_thread": "weave"
+}

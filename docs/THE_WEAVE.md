@@ -421,4 +421,19 @@ found with B1635's sealed instrument.
 - **The ratio vanishes exactly on the isotropic cone** a·a = 0 and grows linearly with |a·a|/|a|². So the
   second-to-third hierarchy is the Higgs's isotropy defect, and "one heavy, one light, one massless" means R isotropic
   exactly and the Higgs nearly so. What fixes the Higgs's direction is P-115.
+## Main's addition: the direction is the mass matrix (B1646, PROVED)
 
+- **The Higgs's direction carries the whole 2–3 sector.**
+  - In a frame fixed by τ, a Higgs in M couples by zero on R and by a complex symmetric 2 × 2 matrix M₂(a) on the other
+    two.
+  - The map from the direction to M₂ is a bijection onto the symmetric matrices.
+  - So the coupling predicts the massless generation along R(τ) and the symmetry of the 2–3 block, and nothing else.
+- **Nothing on the record fixes the direction.**
+  - A potential symmetric under SO(3) on M and a phase puts it on the isotropic cone (one massive generation) or on the
+    real locus (m between ½ and 1), never between. This is an instance of B990's law that an invariant cannot pick a
+    point on its orbit.
+  - The zero modes' loop only shifts the coefficient that decides between the two.
+  - The quaternion units, read as directions, give m ≥ ½.
+  - A small non-zero m₂/m₃ is a free number per sector (P-115 answered for this route).
+- **Next:** with up and down sectors sharing the fibre, the massless state R is common to both. The first generation's
+  leading-order mixing is the quark count's first question (P-116).

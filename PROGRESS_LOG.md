@@ -17035,3 +17035,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - The premise audit (P-026–P-029): the seals caught the computation-level errors and none of the premise-level ones.
   Four scope repairs owed (P-119–P-122); vocabulary drift confirmed (P-123). 0 of 19.
 - Gates 45 of 45 on the commit. Full suite before the commit: 7296 passed, 2 failed, 68 skipped — both failures the views-fresh gate, which counts commits since the new anchor that touch the front-door views and so cannot pass before the review's own commit exists; on the commit it passes, and the 103 gate, ledger, register, review and view test files (with Review 62's and 63's locks) re-run there: 547 passed, 0 failed, 8 skipped.
+
+## 2026-10-14 — S121 THE DIRECTION IS THE MASS MATRIX (B1646, PROVED)
+
+- A Higgs in M maps its direction one-to-one onto the symmetric 2–3 mass matrix, so the coupling predicts only the
+  massless generation and the block's symmetry.
+- A symmetric potential gives the isotropic cone or the real locus, never between (B990's orbit-to-point law, seen
+  late), and nothing on the record fixes the direction: P-115 answered for this route.
+- Next: the scope repairs (R63-3), then the quark count (P-116). 0 of 19.
+- Gates 45 of 45; full suite 7301 passed, 0 failed, 68 skipped.

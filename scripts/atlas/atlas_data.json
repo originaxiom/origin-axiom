@@ -11715,6 +11715,24 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1646": {
+   "slug": "the direction is the mass matrix",
+   "motifs": [
+    "choice",
+    "coupling",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B308",
+    "B632",
+    "B990"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 38,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B1647": {
    "slug": "review 63 the field window",
    "motifs": [

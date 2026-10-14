@@ -1,5 +1,28 @@
 # Changelog
 
+## S121 THE DIRECTION IS THE MASS MATRIX (B1646, PROVED): a Higgs in M maps its direction one-to-one onto the two massive generations' symmetric mass matrix; a symmetric potential puts it on the isotropic cone or the real locus, never between; nothing on the record fixes it
+
+**B1646** was sealed as `0bbbb6cab` before its run, and every cell holds as sealed. It answers P-115 for this route.
+- **The block form.** In the unitary frame (R/|R|, R̄/|R|, n) fixed by τ, the coupling is zero on R. On the other two it
+  is M₂(a) = [[2(a·R̄), |R|(a·n)], [|R|(a·n), −(a·R)]], with det M₂ = −|R|²(a·a), holding to 8·10⁻¹⁶ at 9 τ × 20 directions.
+- **The bijection.** a ↦ M₂ is a linear bijection onto the symmetric 2 × 2 matrices: any target block is reached, with
+  its masses to 7·10⁻¹⁶. The coupling therefore predicts only the massless generation along R(τ) and the block's
+  symmetry.
+- **The complex invariants.** s₁s₂ = |R|²|a·a| and s₁² + s₂² = 2|R|²|a|² + 2|a·R̄|² − |a·R|², both to 7·10⁻¹⁵.
+- **The potential.** A potential symmetric under SO(3) on M and a phase has its minima on the cone (λ₂ > 0: m at most
+  1.1·10⁻⁷) or on the real locus (λ₂ < 0: m from 0.50 to 0.95), none between, over 150 minimisations.
+- **The loop.** The zero modes' loop expansion holds to 1.3·10⁻⁵; near the cone it changes only the |a·a|² coefficient.
+- **The units.** As directions they give m ≥ ½: e_k exactly ½ on τ = iy (Jacobi); e_i and e_j 0.6096 at i, then toward
+  1 and ½.
+
+Seen late, and disclosed: B990's law that an invariant cannot pick a point on its orbit (the potential's result is an
+instance of it) and B308's "fixes the coupling but not the texture".
+
+**Recorded.** T-DIRECTION-IS-MASS-MATRIX; LAW_MAP; the claim pool; THE_WEAVE; P-115 done; P-116 sharpened (the residue
+coupling for any Higgs at the puncture appears to keep R massless, so with one fibre the first generation is massless
+and unmixed at leading order; seal that first, then what lifts R). One relay. 0 of 19.
+Gates 45 of 45. Full suite: 7301 passed, 0 failed, 68 skipped (exit status 0).
+
 ## REVIEW 63 (B1647): THE FIELD WINDOW — the work is banked and mostly verified as the rules say; the label VERIFIED was stretched in nine rows; every premise-level error in the window was caught from outside main's seal loop
 
 Thirty-nine merges since Review 62, one from the block. It was written at the owner's request as a banking-and-verification
