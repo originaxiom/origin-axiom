@@ -19159,3 +19159,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   for the masses that depended on a choice of basis. Its re-check changes no result. The seat credited it.
 - **chat1's new test** asks whether its frame can separate the two lightest masses as the up quarks and leptons need.
   Under a stated hypothesis it cannot, on any path up to length 8. The seat has read it but not re-run it. 0 of 19.
+
+## 2026-10-14 — the audit's results sent to each seat
+
+- **At the owner's request,** the seat wrote one message for each of the other seats, saying what the audit of chat1's
+  work means for that seat.
+- **Main** also receives its message directly in its own session. **chat1 and the audit lane** have no channel from
+  here, so theirs wait on this seat's branch for their next look. 0 of 19.

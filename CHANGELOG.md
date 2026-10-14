@@ -1,5 +1,16 @@
 # Changelog
 
+## W86 relayed to each seat directly, at the owner's request: one relay per seat
+
+- **The owner:** "relay to each seat by yourself".
+- **Three relays, each on this branch (E51's dual-homing):**
+  - `SM_TO_CC_2026-10-14_W86_CHAT1_CHECKED.md`, to main: the A findings, the rows to correct, S126 answered, and
+    chat1's own fix credited. Main's session is reachable from here, so it is also delivered there.
+  - `SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md`, to chat1: every finding graded, with the evidence.
+  - `SM_TO_CODEX_2026-10-14_W86_FOR_THE_LANE.md`, to the audit lane: what its intake of chat1 should know.
+- **No relay to the ChatGPT branch.** It archives the owner's weave runs and carries no relay traffic.
+- **Surfaces.** Three relay files and three ledger rows. 0 of 19.
+
 ## chat1's push after W86's audited state read and rowed; relay section 112
 
 - **chat1** (9fbab9f5e → 161dca04c). Its own fix of the mass form (the basis-invariant K_L^{−½} Y (K_R^{−½})ᵀ, with a
