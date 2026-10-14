@@ -1,0 +1,333 @@
+{
+  "checks": {
+    "separate free-word centre": true,
+    "separate free-word braids": true,
+    "separate based kernel": true,
+    "Gaussian braid XYX": true,
+    "Gaussian braid YZY": true,
+    "Gaussian distant commute": true,
+    "Gaussian normalized centre": true,
+    "Gaussian normalized unitary 0": true,
+    "Gaussian normalized unitary 1": true,
+    "Gaussian normalized unitary 2": true,
+    "Gaussian exact factor 0": true,
+    "Gaussian exact factor 1": true,
+    "Gaussian exact factor 2": true,
+    "commutant identity control": true,
+    "row rank reject control": true,
+    "Gaussian root centre cancellation": true,
+    "unpaired centre rejects": true,
+    "upstream odd exact controls pass": true,
+    "old weak pair multiplicity even +i1": true,
+    "old weak pair multiplicity even +i3": true,
+    "old weak pair multiplicity even +i5": true,
+    "old weak pair multiplicity even +i7": true,
+    "old weak pair multiplicity even -i1": true,
+    "old weak pair multiplicity even -i3": true,
+    "old weak pair multiplicity even -i5": true,
+    "old weak pair multiplicity even -i7": true,
+    "transport retains248": true,
+    "transport retains112 odd": true,
+    "odd zero-phase rejection": true,
+    "weak angle centre exact rational": true,
+    "wrong weak angle centre reject": true
+  },
+  "records": {
+    "word_delta": {
+      "a": "aBA",
+      "b": "abaBA"
+    },
+    "recovered_inner_A": {
+      "a": "a",
+      "b": "Aba"
+    },
+    "recovered_inner_b": {
+      "a": "baB",
+      "b": "b"
+    },
+    "SU6_centre_sign": -1,
+    "weak_centre_sign": -1,
+    "paired_E8_centre_sign": 1,
+    "family_moves": [
+      [
+        [
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "family_adjoint_invariants": 0,
+    "family_symmetric_invariants": 1,
+    "diagonal_block_hypercharge_invariants": 0,
+    "weak_invariants": 1,
+    "complete_based_gauge_invariant_dimension": 15,
+    "even_phase_populations": [
+      [
+        "+1",
+        [
+          [
+            0,
+            32
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            16
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            16
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            16
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            1
+          ]
+        ]
+      ],
+      [
+        "-1",
+        [
+          [
+            0,
+            16
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            16
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            0
+          ]
+        ]
+      ]
+    ],
+    "odd_phase_populations": [
+      [
+        "+i",
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            11,
+            8
+          ]
+        ]
+      ],
+      [
+        "-i",
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            11,
+            9
+          ]
+        ]
+      ]
+    ],
+    "minimum_nonzero_phase": "1/12",
+    "even_x_growth_pi_squared_coefficient": "1/72",
+    "odd_P_growth_pi_squared_coefficient": "1/144",
+    "canonical_even_zero_phase_bound": "3/16",
+    "odd_Q_form_norm_error": 4
+  },
+  "all_passed": true,
+  "scope": "Fraction safeguards and transported full roster, not specialist global-domain or physical acceptance"
+}

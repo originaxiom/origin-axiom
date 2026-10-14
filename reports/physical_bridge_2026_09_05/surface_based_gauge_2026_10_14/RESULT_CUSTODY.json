@@ -1,0 +1,60 @@
+{
+  "role": "Receipts collected before parsing; post-result repair/guards explicit, first failures retained",
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/exact_projector_rerun/RECEIPT.json",
+      "sha256": "f7754c4ca5c9bd5285faddf3530b6df043e75e641f7be309b9a30a7332248aee",
+      "bytes": 10690
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/exact_projector_rerun/probe.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/exact_projector_rerun/probe.stdout.log",
+      "sha256": "9638a179c31ccd01f32b93b5abc9e558bb268bf5d7e96974b5a49ab701bd1aac",
+      "bytes": 8140
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/exact_projector_rerun/reference.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/exact_projector_rerun/reference.stdout.log",
+      "sha256": "6523ad4d5aea1e0f4943fe8be226a0be1d112aa28d3885c592b3489256a76fc9",
+      "bytes": 5723
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/postresult_tests/RECEIPT.json",
+      "sha256": "766359f3e11e17edc5822c2fcf7bf885fd20222046d50a84fd64bde1442b5da5",
+      "bytes": 1525
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/postresult_tests/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/postresult_tests/stdout.log",
+      "sha256": "ae45753b9abae3450fc9dbe10b820170aa7607c78199e9328d6be7607aec1f18",
+      "bytes": 180
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/selected_tests/RECEIPT.json",
+      "sha256": "a1f74a6f9b8dabdd882456a282bb92b5e389ea1455b16bd9da5c38d6932ec737",
+      "bytes": 1329
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/selected_tests/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/results/selected_tests/stdout.log",
+      "sha256": "7790df93f40ba7e0cf5c2ea6a19727f7ad440da83e9459889e9c870ada4dfd6d",
+      "bytes": 180
+    }
+  ]
+}

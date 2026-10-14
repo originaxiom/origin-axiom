@@ -1,5 +1,18 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October14 full based gauge checkpoint:93/31 exact and84 selected
+live PASS at published4867c6c89;30 pins/tree unchanged. Supplied
+SU6/weak completion satisfies FULL SAut(F2) presentation and retains
+literal fibre Q8. Complete parallel gauge space15; specified weak
+roots/diagonal block Y fail, NOT all SM embeddings. Updated136+112
+phases keep odd minimum1/12 and conditional cusp estimates, not index
+or physical families. Failed attempts and exact-projector repair kept.
+NEXT geometric loop dictionary/domain/R/reality and analytic review,
+surviving gauge/charged kernel, SAME-parent stationary interactions/
+Higgs/source/end/anomalies. Choices/genesis/gravity remain owed.
+Compact silver/curve positives distinct; SM+TOE ACTIVE/unachieved.
+Report: reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/FINDINGS.md.
+
 October14 odd-domain form checkpoint:26 native/21 separate exact
 safeguards and64 selected live tests PASS46.50s at unchanged9d234b068,
 19 pins and12,567 tracked files. New AUTHORED CONDITIONAL extreme-law

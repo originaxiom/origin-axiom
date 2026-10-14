@@ -1,5 +1,17 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October14 full based gauge checkpoint:93/31 exact and84 selected
+live PASS at published4867c6c89;30 pins/tree unchanged. One supplied
+non-scalar completion earns full based SAut(F2) relations and actual
+Q8 fibre transport. Parallel gauge space15 loses specified weak roots
+and diagonal Y; do not combine its spectrum with old local SM labels.
+Updated136+112 phases/conditional cusp bounds; no index/family count.
+Failed attempts and exact-projector repair preserved. NEXT actual
+geometric loop/domain/R/reality descent, independent analytic scrutiny,
+charged gauge/kernel and SAME-parent stationary interacting end model.
+Supplied choices and SM+gravity/genesis obligations remain active.
+Report: reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/FINDINGS.md.
+
 October14 odd-domain form checkpoint:26 native/21 separate exact
 safeguards and64 selected live tests PASS46.50s at unchanged9d234b068,
 19 pins and12,567 tracked files. New AUTHORED CONDITIONAL extreme-law

@@ -1,5 +1,25 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-SURFACE-FULL-BASED-GAUGE-COMPLETION: COMPLETE for one SUPPLIED
+lift October14, not global physical admission.93/31 exact,84 selected
+live PASS at published4867c6c89,30pins/tree unchanged. Full based
+SAut(F2) presentation, actual inner a,b and paired centre earned;
+failed first attempts and post-result projector repair preserved.
+Source surface_based_gauge_2026_10_14 under physical-bridge reports.
+PB-SURFACE-GEOMETRIC-LOOP-DICTIONARY/DOMAIN-DESCENT: OPEN for THIS
+completion, full canonical form/R/reality/extreme core jointly. Full
+parallel gauge space15 is NOT the old specified SM axes: weak roots
+and tracefree diagonal block Y do not survive. Other embeddings,
+nonflat backgrounds and generated level structures stay live, not
+excluded or selected. Actual gauge brackets/kernel and foundational
+background selection precede SM naming. PB-SURFACE-ACTUAL-GRADED-KERNEL
+and ODD-FORM-ANALYTIC-REVIEW remain OPEN. Updated136+112 cusp phases,
+minimum1/12, conditional tail estimates are not a spectrum/index.
+SAME-parent stationary Higgs/flavon/source/vertex/end/anomaly join
+remains the milestone. Chat1 new reports read through1dcb543fb,
+not replayed; H-RES/P024/physical L2 normalization distinct duties.
+No complete SM/TOE, observer/qualia or gravity claim.
+
 PB-SURFACE-ODD-TOTAL-COMPLEMENT: October14 AUTHORED CONDITIONAL
 form estimate now given for either EXTREME graded law, not a universal
 closure. Derivative transfer to regular opposite chirality controls the

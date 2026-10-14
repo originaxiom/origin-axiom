@@ -1,0 +1,33 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 41.716785522000464,
+  "tests": [
+    "tests/test_physical_bridge_surface_based_gauge.py",
+    "tests/test_physical_bridge_surface_odd_form.py",
+    "tests/test_physical_bridge_surface_even_channels.py",
+    "tests/test_physical_bridge_surface_full_even.py",
+    "tests/test_physical_bridge_surface_global_spin.py",
+    "tests/test_physical_bridge_surface_parent_dictionary.py",
+    "tests/test_physical_bridge_based_transition_prerequisite.py",
+    "tests/test_physical_bridge_weave_registered_embedding.py",
+    "tests/test_physical_bridge_weave_field_map.py",
+    "tests/test_physical_bridge_weave_gauge_limit.py",
+    "tests/test_physical_bridge_weave_companion_roster.py"
+  ],
+  "tracked_file_count": 12607,
+  "tracked_tree_unchanged": true,
+  "tree_before_sha256": "44c6d69f913513af67f61019b5666be42e63282cd447c2153e74514515e23300",
+  "tree_after_sha256": "44c6d69f913513af67f61019b5666be42e63282cd447c2153e74514515e23300",
+  "head": "4867c6c8924a8d06017fa1750576788a0224fd34",
+  "stdout": {
+    "file": "stdout.log",
+    "bytes": 180,
+    "sha256": "7790df93f40ba7e0cf5c2ea6a19727f7ad440da83e9459889e9c870ada4dfd6d"
+  },
+  "stderr": {
+    "file": "stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "passed": true
+}

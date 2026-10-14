@@ -1,5 +1,18 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October14 full-based gauge sublemmas, path-local CONDITIONAL research,
+not shared numbered banking. B1641 coefficient/move antecedent ONLY;
+NEW argument surface_based_gauge_2026_10_14/PROOF under physical-bridge
+reports. Published Kassel--Reutenauer Section1 gives full presentation.
+93/31 exact,84 selected live PASS; failed attempts and instrument repair
+retained. Physical admission and foundational selection remain separate.
+
+| Scoped statement | New argument and LIVE safeguard |
+|---|---|
+| Actual rank6 X,Y,Z obey B4 braids, centre=-I6, recover inner A0^-1,B0. Same weak angle per generator gives centre=-I2; pair identity on all248 E8 directions. | B1641 antecedent ONLY; NEW based PROOF convention/full presentation; tests/test_physical_bridge_surface_based_gauge.py::test_full_based_presentation_and_actual_inner_kernel and test_non_scalar_repair_has_discriminating_controls. Finite-image SAut(F2) map, not forced E8/geometric/physical identification. |
+| THIS flat completion has full parallel gauge dimension15: family-adjoint0, Sym^2-family1, colour8, weak1, mixed/conjugate6. Specified weak roots and tracefree diagonal block Y do not survive. | B1641 antecedent ONLY; NEW complete Q8-roster commutant; test_prices_the_actual_unbroken_roster. No algebra named from dimension or universal SM exclusion. |
+| Completed T retains136+112 phase census; odd nonzero minimum1/12, even zero directions remain. | B1641 move antecedent ONLY; NEW twelve-phase DFT/independent Fraction transport; test_phase_census_keeps_all_directions_and_zero_phase and test_two_exact_methods_and_complete_records. Conditional growth constants, not physical families/kernels. |
+
 October14 odd form sublemmas, path-local AUTHORED CONDITIONAL research
 grade, not shared numbered banking or independent analytic acceptance.
 The upstream extreme-domain/gap/projection proofs are credited and stored

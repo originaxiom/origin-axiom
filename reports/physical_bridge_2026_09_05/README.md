@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+October14 full based gauge completion:93/31 exact,84 selected live
+PASS at published4867c6c89,30 pins/tree unchanged. Actual full based
+relations/Q8 retained; complete parallel gauge15, specified weak/Y
+axes not retained. All136+112 cusp phases updated, odd minimum1/12;
+conditional tail bounds, not physical kernel/index/three. Failed runs
+and projector repair preserved. NEXT geometric/domain/R/reality admission
+and SAME-parent stationary interacting chiral sector. SM+gravity goal
+ACTIVE; report surface_based_gauge_2026_10_14/FINDINGS.md.
+
 Additional3 post-result exact outcome guards PASS25.11s at pushed
 bae31e188; original60 source pins unchanged. Original17-test run
 retained separately. Scope/parent/end/Higgs selection unchanged.
