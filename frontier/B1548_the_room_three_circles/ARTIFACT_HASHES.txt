@@ -1,0 +1,12 @@
+# B1548 -- sha-256 of the sealed files, recorded at the seal (before run.py read any count at a member of the circle; the
+# census and the controls K1-K9 read structure and the trivial character's banked count only). identity.py checks every line first.
+# Re-check: sha256sum -c ARTIFACT_HASHES.txt  (from frontier/B1548_the_room_three_circles/)
+d388895e8001f6402140be28e73e262f9a8e2f61159861a3a9a1e76d8b679c52  PREREGISTRATION.md
+e879d532f6738e0a797b9533b250f09d88e9c10be600a67dfe5dd2cdf65f40fd  verification/circle_lib.py
+f2fcc20a63cd594317a3723e8225e0317887c76dc2f08a38d5d49e87c13cdea5  verification/run.py
+f74456d4740c927d73c8ae92e9b9afc1fab2fe305e193b08624787af01b2b6d0  verification/read_out.py
+bf02746197954f76bff8adbcb6642740070fc2eb168bfab57fc6fcd9e9763853  verification/controls.py
+05d82a04915c22b9cdc71e3469953444dde490384b8fd886d3fb6d5c6af338fe  verification/identity.py
+e172c32928232c0833f120b8de1f6d381cdbcd86e451de70295a92932731f5e0  verification/census.py
+7bfbf43c08a9d6ae6e8013c3c5912cce7424385caa5e1b33d08fac037dd5dd60  verification/controls.json
+729b1cc590c3a1389c3199c2531d00b9add229aceaadd56ce4a164fafc8a4583  verification/census.json

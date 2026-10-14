@@ -1,0 +1,166 @@
+{
+ "id": "B1548",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1547",
+  "B1546",
+  "B1545",
+  "B1544",
+  "B1541",
+  "B1536",
+  "B1535",
+  "B1515"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "weave_or_thread": "thread",
+ "creates_law": false,
+ "identifications": [],
+ "scope": {
+  "frame": "F-HE",
+  "object": "N_45 (sm:B1541, the degree-45 cover of m003: one thread's cover) at the room-three circle through chi0: its 84 points nu of order m in (3, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60) (cusp-trivial, b0 = 0, room exactly three); at each member every distinct stratum X_U = K0^nu \u2229 {c vanishes off U}, |U| <= 2 (Corollary 1 of sm:B1547), read at its generic class, three draws, in two routes at every member (168 tasks), plus route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member",
+  "reach": "class",
+  "hypotheses": [
+   "sealed: no count at a member of the circle has been read by this arc; this record is replaced at the bank",
+   "THE WEAVE: a thread result (one cover of one thread, m003), sealed and run at the owner's ruling of 2026-10-14 ('Seal and run it, labelled'); it answers no weave question",
+   "sealed after sm:B1547's read-out, which the seat read: the circle's four order-8 points are sm:B1547 members with banked counts",
+   "at the hyperbolic point of N_45 and the 84 members on chi0's circle; the other four circles through the deck symmetry tau (K3), the other order through nu-bar = nu^(m-1)",
+   "the least I(W1) and the largest Lambda^2 rank on the classes of support U are a generic class's (Lemma G), each read with three draws per route at two primes",
+   "points of other orders, points with nu^4 = 1, room-three characters off the circles at orders above 5, and other covers are not read (the seal's section 10)",
+   "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4, FK14 and THE_BAR's question"
+  ]
+ },
+ "claim_one_line": "THE ROOM-THREE CIRCLES, SEALED. A THREAD result (one cover of one thread, m003; THE WEAVE rule), sealed and run at the owner's ruling of 2026-10-14, 'Seal and run it, labelled'. On N_45 the room-three characters lie on five circles of cusp-trivial characters, one tau-orbit (at orders 2 to 5 they are exactly the circles' points, K9). The population: the 84 points nu of chi0's circle of orders 3, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40 and 60 (b0 = 0 and room exactly three, so sm:B1547's Corollary 1 and Lemma G hold verbatim). The structure census (route R, no count): one distinct stratum at every member, the interior one of dimension 2; (h1, n) of nu^5 rho is (15, 10) at every order but 5 and (23, 18) at 5. The run reads three generic classes of every stratum in route F and route R at every member (168 tasks, 252 readings per route) and route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member. Sealed after sm:B1547's read-out, disclosed: the circle's four order-8 points are sm:B1547's members of structure (15, 10, 2, 2), banked at (0, -5). Controls K1-K9 hold. Predictions P1-P10 (P6 the floor 90%, P7 I(W1) >= 0 everywhere 65%, P8 three 2%); PROVED if a stratum reads (-3, -3) in two routes; NEGATIVE if none reads I(W1) = -3 with I(Lambda^2 W1) <= -3. No count at a member of the circle read by this arc. 0 of 19.",
+ "prior_work": {
+  "repo": {
+   "heads": {
+    "seat/standard-model-derivation-0qt6ao (at the sweep, 2026-10-14)": "87cf7f55",
+    "main (at the sweep, 2026-10-14)": "60c5470a",
+    "audit/fork-2026-09-20 (at the sweep, 2026-10-14)": "0c6570ba",
+    "audit/physical-bridge-2026-09-05 (at the sweep, 2026-10-14)": "e0f51c49",
+    "the web seat's branch (at the sweep, 2026-10-14)": "67821b8e",
+    "the archive branch, weave-physics-archive-2026-10-11 (at the sweep, 2026-10-14)": "efadcdea",
+    "seat/outside-bench (at the sweep, 2026-10-14)": "13d2c5b6",
+    "seat/paper-review-verification-kaz3f5 (at the sweep, 2026-10-14)": "5d58b935",
+    "seat/kind-hypatia-uk0vv9 (at the sweep, 2026-10-14)": "6a537f89",
+    "seat/project-thread-hctlox (at the sweep, 2026-10-14)": "8b6df98f",
+    "sep16-branch (at the sweep, 2026-10-14)": "3205984b"
+   },
+   "terms": [
+    "room-three circle",
+    "circle of characters",
+    "one-parameter family",
+    "subtorus",
+    "room three",
+    "room-three members",
+    "jump loci",
+    "characteristic variet",
+    "B1548"
+   ],
+   "hits": [
+    {
+     "where": "seat/standard-model-derivation:docs/dossiers/room_three_circles_2026-10-07 (the dossier and the held draft)",
+     "bearing": "this arc's own structure note and draft; 'room-three circle' and 'circle of characters' appear nowhere else"
+    },
+    {
+     "where": "seat/standard-model-derivation:frontier/B1538 to frontier/B1547 ('room three', 'room-three members')",
+     "bearing": "this seat's Theorem C and its room, Lemma F' at members (sm:B1545), and the order-8 members over the room-three characters (sm:B1547, banked NEGATIVE); none reads a character of N_45 of order 3 or more"
+    },
+    {
+     "where": "main:frontier/B1493_the_room_on_the_companions/PREREGISTRATION.md and ledger rows on main and the archive branch",
+     "bearing": "they quote sm:B1547's members; no other population"
+    },
+    {
+     "where": "audit/physical-bridge:reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/NEXT_TEST.md ('jump loci'); reports/physical_bridge_2026_09_05/INDEX_STABILITY_HISTORY_REPEAT.json ('B1548')",
+     "bearing": "rank-jump loci of pair mass maps (another object); a number inside a JSON array, not an arc id"
+    },
+    {
+     "where": "every head: 'one-parameter family', 'subtorus'",
+     "bearing": "other objects (sm:B1523's flexible states, B874's measurement ladder, B1079's Wilson menu); none is a family of characters of N_45"
+    }
+   ]
+  },
+  "literature": {
+   "queries": [
+    "twisted cohomology jump loci finite order characters hyperbolic 3-manifold cusp cup product"
+   ],
+   "sources": [
+    {
+     "cite": "A. Dimca, S. Papadima, A. I. Suciu, Topology and geometry of cohomology jump loci, Duke Math. J. 148 (2009), arXiv:0902.1250",
+     "where": "abstract",
+     "read": "2026-10-06",
+     "says": "relative characteristic varieties for twisted cohomology; a circle along which h^1 jumps is a component of such a jump locus (a subtorus through the identity here); the variety is not computed here, only the component's points"
+    }
+   ]
+  },
+  "standing": "NEW-AS-SWEPT"
+ },
+ "load_bearing": [
+  {
+   "id": "LB1",
+   "input": "Theorem C (ii): route R's identities (I(W1) = -b0 + k + rk d1(E) - rk d1(E*), I(Lambda^2 W1) = k - rk d1(L2*)) and the cap s <= k + n(L)",
+   "source": "sm:B1535 (reviewed by the audit lane's R84), sm:B1536",
+   "status": "VERIFIED",
+   "check": "frontier/B1548_the_room_three_circles/verification/read_out.py",
+   "how": "at the read-out, and every verdict but OPEN requires it: P4, route R's identities and caps (`all`) at every reading from that reading's own ranks; P9, the same at a generic class of K0^nu and of H^1 at every member"
+  },
+  {
+   "id": "LB2",
+   "input": "Lemma F' at members (I(W1) >= k - m_A - b0; here k - 5)",
+   "source": "sm:B1545 section 1 (banked)",
+   "status": "VERIFIED",
+   "check": "frontier/B1548_the_room_three_circles/verification/read_out.py",
+   "how": "P4: I(W1) >= k - 5 at every reading of a stratum; P9: the same at a generic class of K0^nu and of H^1 at every member, in route R"
+  },
+  {
+   "id": "LB3",
+   "input": "Corollary 1 and Lemma G (three at a member lies in a distinct stratum X_U, |U| <= 2, and a generic class of X_U has the least counts on the classes of support U)",
+   "source": "sm:B1547 sections 3.2-3.3 (banked)",
+   "status": "VERIFIED",
+   "check": "frontier/B1548_the_room_three_circles/verification/read_out.py",
+   "how": "three draws per distinct stratum in each route, two routes at two primes; P5 records whether the draws agree and have support exactly U"
+  },
+  {
+   "id": "LB4",
+   "input": "the members are the circle's points with room three (cusp-trivial, of exact order m, n(nu^4) = 3, the same 84 characters in both routes)",
+   "source": "the seal's sections 2 and 3.2",
+   "status": "VERIFIED",
+   "check": "frontier/B1548_the_room_three_circles/verification/controls.py",
+   "how": "K1: the circle solved in each route from W_CIRCLE, primitive, through the route's own chi0, with room-three order-3 points, the 84 keys in order equal in both routes; K2: every member trivial on every cusp, of exact order m, on the circle; at the read-out P4 (n(nu^4) = n(L) = 3 at every member) and P2"
+  },
+  {
+   "id": "LB5",
+   "input": "the circles: at orders 2 to 5 the room-three characters of N_45 are exactly the points of five circles",
+   "source": "the seal's section 3.1 and the dossier",
+   "status": "VERIFIED",
+   "check": "frontier/B1548_the_room_three_circles/verification/controls.py",
+   "how": "K9: the census of every character of the free part of exact order 2, 3, 4, 5 in route R, against the five circles' points; K1 checks the circle's order-2 and order-3 points in route F"
+  },
+  {
+   "id": "LB6",
+   "input": "the deck symmetry tau carries chi0's circle to the other four, with the same counts",
+   "source": "the seal's section 3.4",
+   "status": "VERIFIED",
+   "check": "frontier/B1548_the_room_three_circles/verification/controls.py",
+   "how": "K3: tau maps each circle's direction to another's (route R); at four sample members tau*nu has nu's structure and stratum dimensions"
+  },
+  {
+   "id": "LB7",
+   "input": "Lemma Gamma (Galois-conjugate members over the automorphisms fixing sqrt 3 read alike in characteristic 0)",
+   "source": "the seal's section 3.3 (sm:B1547 section 3.4)",
+   "status": "VERIFIED",
+   "check": "frontier/B1548_the_room_three_circles/verification/controls.py",
+   "how": "K4: the holonomy's field (only zeta_24^0 and zeta_24^4), |det| rational, the Galois classes; at the read-out P3 in both routes. The verdict does not rest on it: both routes read all 84 members"
+  },
+  {
+   "id": "LB8",
+   "input": "the code paths are the banked ones (sm:B1547's member_lib over sm:B1544's floor_lib, sm:B1541's route_f, sm:B1536's route_r)",
+   "source": "sm:B1541, sm:B1544, sm:B1547",
+   "status": "VERIFIED",
+   "check": "frontier/B1548_the_room_three_circles/verification/controls.py",
+   "how": "K5: the trivial character's structure and banked count (4, -10) in both routes; K8: member_lib's sha-256 as sealed in sm:B1547"
+  }
+ ]
+}

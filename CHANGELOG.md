@@ -1,5 +1,20 @@
 # Changelog
 
+## sm:B1548 sealed: the room-three circles on N₄₅, a THREAD result, at the owner's ruling "Seal and run it, labelled"
+
+- **The draft held since 2026-10-07 is sealed** (`frontier/B1548_the_room_three_circles/`), labelled a thread result
+  throughout: N₄₅ is one cover of one thread (m003), so the arc answers no weave question.
+- **The population.** Room three on N₄₅ lies on five circles of cusp-trivial characters, one τ-orbit (K9 at orders 2
+  to 5). The arc reads the 84 points of the circle through χ0 of orders 3 to 60, none dividing 4, where b0 = 0 and the
+  room is exactly three. There are 168 tasks in two routes, three draws each, and route R's load-bearing checks.
+- **Structure only, before the seal** (`census.py`): one interior stratum of dimension 2 at every member.
+- **Disclosed:** the seal comes after sm:B1547's read-out. The circle's four order-8 points are sm:B1547 members,
+  banked at (0, −5). The priors were set after reading it (P6 90%, P7 65%, P8 2%). A slip in the draft's §3.2
+  ("4 ∤ m" for "m does not divide 4") is corrected. The code is the draft's, byte for byte.
+- **Controls K1–K9 hold.** The run starts after W80 frees the machine.
+- **Surfaces.** The preregistration, the hashes, the seal ledger row, the verdict record (OPEN), FINDINGS (sealed),
+  the lock test, and a pointer in the dossier. 0 of 19.
+
 ## The weave's W79: the two seats' weight-3 models are the same; main's fits near Im τ 6.7–6.8 most likely numerical artifacts; relay section 99
 
 - **W79** compared the two seats' weight-3 models directly, with main's code read-only (rule first; one disclosed

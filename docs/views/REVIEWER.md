@@ -22,10 +22,10 @@ block. Most results are negatives, and that is the result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1297** |
-| words of findings prose | **1,141,333** |
+| research arcs with findings | **1298** |
+| words of findings prose | **1,141,990** |
 | test lock files referenced | **797** |
-| arcs carrying an authored verdict | **1297** (100.0 %) |
+| arcs carrying an authored verdict | **1298** (100.0 %) |
 | recorded closures | **836** (669 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -38,7 +38,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 |---|---|
 | PROVED | 860 |
 | NEGATIVE | 338 |
-| OPEN | 88 |
+| OPEN | 89 |
 | RETRACTED | 11 |
 
 ## How the doors were shut

@@ -10271,6 +10271,24 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1548": {
+   "slug": "the room three circles",
+   "motifs": [
+    "monoid",
+    "trace_map",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "K0",
+    "K1",
+    "K9"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B1549": {
    "slug": "the three ended covers",
    "motifs": [

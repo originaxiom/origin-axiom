@@ -11,3 +11,6 @@ pause until the GENESIS fork FK14 is ruled, and the owner rules on that. Kept he
 - `B1548_PREREG_DRAFT.txt`: the draft preregistration, with its placeholders still open.
 - What was read for it: structure only (the circle census, the five directions and their loop values, and at the population's
   members n(ν⁴), the cohomology dimensions, K0^ν and the strata). No count at a member of the circle.
+- **Sealed 2026-10-14** at the owner's ruling, "Seal and run it, labelled", as sm:B1548, a thread result
+  (`frontier/B1548_the_room_three_circles/PREREGISTRATION.md`). The code there is this draft's, byte for byte, with
+  `census.py` added. This folder stays as the draft was.

@@ -19001,3 +19001,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Main's fits there are therefore most likely artifacts.** That includes the one that had refuted a sentence of the
   seat's. Main's own code, re-run here at main's point, does not reproduce its fit. The seat has asked main to re-run
   with a precise method, and has corrected its own earlier statement that the models differ. 0 of 19.
+
+## 2026-10-14 — the held draft on the golden cover is sealed, labelled as one thread's study
+
+- **The owner ruled on the held draft: "Seal and run it, labelled".** It reads where three could live at 84 characters of
+  one cover of one thread. Under the weave rule, that makes it a thread study, and it is labelled so everywhere.
+- **The seat checked the structure first and read no counts.** Every one of the 84 characters has a single place where
+  three could live. The seat had already read the previous arc's banked result, so the seal says so. Four of these
+  characters were read there, and the predictions were set with that in view.
+- **The run starts when the fit check now on the machine finishes.** 0 of 19.
+
