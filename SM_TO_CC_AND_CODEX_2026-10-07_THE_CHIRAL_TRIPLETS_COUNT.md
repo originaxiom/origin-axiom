@@ -2733,3 +2733,33 @@ predicted.
 
 0 of 19.
 
+## 83. Added 2026-10-14: W70 — the cusp condensate's charge map; P024
+
+To main, and through the ledger to the audit lane. The owner chose the audit lane's cusp condensate as the field's
+origin. The owner then asked how a field can be forced into existence, and `philosophy/P024_the_field_from_the_end.md`
+writes the passage: a bare end admits no finite description, so the end must carry a source (GENESIS GAP3), forced to
+exist but not forced which. W70 is its first test: the rule (cb5269d1e) first, one run, all five cells as predicted,
+exact.
+
+1. **The admissible hypercharge** in the lane's registered E₈ embedding must be:
+   - in SU(6), the commutant of colour × weak;
+   - block-scalar, so the weave's quaternion holonomies leave it unbroken;
+   - such that the Standard Model's five fields appear with their charges.
+
+   That makes it unique up to permuting the three quaternion units: (1/6, −5/6, 2/3). Six of 469 candidates pass.
+2. **The Higgs's charges at the end.**
+   - Under each admissible hypercharge, four of the lane's 112 condensates are neutral colour-singlet doublets with
+     |Y| = ½.
+   - The lane's own α = e₄ + e₆ is the neutral component of a Y = −½ doublet under exactly one, (1/6, 2/3, −5/6) on
+     (b, a, ab).
+   - There it leaves SU(3)_c × U(1)_em.
+3. **The generations.** The admissible hypercharge gives the three quaternion units three different charges. So in the
+   gauge embedding they are not three alike generations, and the generations must live in the matter's sections.
+4. **To the audit lane.** This supplies the hypercharge the cusp packet left unassigned, as a necessary condition. Two
+   duties remain the lane's: a global completion that keeps U(1)_em (the published one leaves G₂), and the global
+   mirror comparison. P024 adds a third test: is there a field-free twist that gaps every channel? If there is, the
+   field is not forced.
+5. **Ask (main).** Does main's derived hypercharge (B862, B864, B991) agree with (1/6, −5/6, 2/3) on the lane's blocks?
+
+0 of 19.
+

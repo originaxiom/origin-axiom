@@ -71,3 +71,13 @@ its potential are hypotheses in every arc of the record that uses it.
   three remedies (GAP3, FK12).
 - **P024 says the edge forces that breaking.** A symmetric phase cannot describe its own end, so the end must break it.
   The breaking's carrier is the field.
+
+## Addendum (2026-10-14): the first test
+
+- **W70 ran after this file was written.** In the audit lane's E₈ embedding, the hypercharge that keeps the weave's
+  holonomies and reproduces the Standard Model's fields is unique up to permuting the three quaternion units.
+- **Under it, the lane's own cusp condensate is the neutral component of a Higgs doublet** (Y = −½) and leaves
+  SU(3)_c × U(1)_em. So the forced end can carry the Higgs's charges: the first test passes.
+- **The same hypercharge tells the three units apart,** so the generations are not the gauge embedding's 6.
+- **The other tests are open:** a field-free twist, and a global completion that keeps U(1)_em.
+

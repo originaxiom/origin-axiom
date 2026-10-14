@@ -1,5 +1,20 @@
 # Changelog
 
+## The weave's W70: the cusp condensate's charge map; relay section 83
+
+- **W70** (the owner's "Cusp condensate"; P024's first test; the rule cb5269d1e first; the script d76cafa3d before its
+  one run, which was held for P024; all five cells as predicted; exact):
+  - in the audit lane's registered E₈ embedding, the admissible hypercharge (block-scalar on the 6, unbroken by the
+    quaternion holonomies, reproducing the Standard Model's five fields) is unique up to permuting the three
+    quaternion units: (1/6, −5/6, 2/3);
+  - under each admissible hypercharge, four of the 112 condensates are neutral colour-singlet doublets with |Y| = ½;
+  - the lane's own condensate is the neutral component of a Y = −½ doublet under exactly one admissible hypercharge,
+    and there it leaves SU(3)_c × U(1)_em;
+  - the hypercharge tells the three units apart, so the generations are not the gauge embedding's 6.
+- **So:** the field at the weave's end can carry the Higgs's charges, and P024's first test passes. 0 of 19.
+- **Relay §83** to main and the audit lane. **Surfaces.** The rule, the script, its JSON, the dossier (W70, a row, the
+  header, the files), the W70 test, P024's addendum, the state page, the relay and the ledger.
+
 ## Philosophy P024: the field from the end (the owner's contemplation)
 
 - **The owner asked to stop and contemplate** how a field can be forced into existence, the way the seed is: "same as

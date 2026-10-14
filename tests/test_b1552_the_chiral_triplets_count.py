@@ -1707,6 +1707,37 @@ def test_w69_the_weighted_census():
                - w66["C3"]["the smallest chi2_min of all 216"]) < 1e-6
 
 
+def test_w70_the_cusp_condensate_charge_map():
+    """W70 (the owner's "Cusp condensate"; P024's first test; the rule first; one run; all five cells as predicted): the
+    admissible hypercharge in the audit lane's E8 embedding is unique up to permuting the three quaternion units, and
+    under it the lane's cusp condensate is the neutral component of a Y = -1/2 doublet, leaving SU(3)_c x U(1)_em"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_cusp_condensate_charge_map.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {f"N{k}": True for k in range(1, 6)}
+    assert sorted(map(tuple, d["N2"]["admissible"])) == sorted(
+        tuple(p) for p in __import__("itertools").permutations(("1/6", "-5/6", "2/3")))
+    assert d["N5"]["neutral under"] == ["1/6,2/3,-5/6"]
+    ro = d["read-outs"]
+    assert ro["the Standard Model roots kept by E_alpha (colour, weak)"] == {"colour": 6, "weak": 0}
+    assert ro["the Standard Model Cartan directions kept (of colour 2, T3, Y)"] == 3
+    # in process: the hand derivation behind N2 -- with block charges (y1, y2, y3) summing to zero, Q needs a 1/6,
+    # u^c a pair sum -2/3, d^c a pair sum 1/3, L a triple sum -1/2 and e^c a difference 1
+    from fractions import Fraction as Fr
+    from itertools import combinations, permutations
+    sols = set()
+    for a in range(-12, 13):
+        for b in range(-12, 13):
+            y = (Fr(a, 6), Fr(b, 6), Fr(-a - b, 6))
+            six = [y[0], y[0], y[1], y[1], y[2], y[2]]
+            pairs = {six[i] + six[j] for i, j in combinations(range(6), 2)}
+            triples = {six[i] + six[j] + six[k] for i, j, k in combinations(range(6), 3)}
+            diffs = {six[i] - six[j] for i in range(6) for j in range(6) if i != j}
+            if (Fr(1, 6) in six and Fr(-2, 3) in pairs and Fr(1, 3) in pairs and Fr(-1, 2) in triples
+                    and 1 in diffs):
+                sols.add(y)
+    assert sols == set(permutations((Fr(1, 6), Fr(-5, 6), Fr(2, 3))))
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

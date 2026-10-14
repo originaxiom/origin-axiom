@@ -170,6 +170,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   description, so the end must carry a source (GENESIS GAP3), and that source is a field, forced to exist but not forced
   which. Its tests: W70 (the forced end's charges), a field-free twist that gaps every channel (which would defeat it),
   and a global completion that keeps U(1)_em.
+- W70 (the owner's "Cusp condensate"; rule first; the run held for P024; all five cells as predicted; exact): in the
+  audit lane's E₈ embedding the admissible hypercharge is unique up to permuting the three quaternion units:
+  (1/6, −5/6, 2/3). Under it the lane's own cusp condensate is the neutral component of a Y = −½ doublet and leaves
+  SU(3)_c × U(1)_em, so the field at the weave's end carries the Higgs's charges. The same hypercharge tells the three
+  units apart, so the generations are not the gauge embedding's 6.
 
 ## The setting
 
@@ -5688,6 +5693,74 @@ brainstorm's first pass. The record was searched first, and nothing here is comp
    - Then (c), for the free numbers. (b) is likely to give only a normalization, by Schur.
    - The owner chooses.
 
+
+## W70. The cusp condensate's charge map: under the unique admissible hypercharge, the audit lane's own cusp condensate is the neutral component of a Higgs doublet and leaves SU(3)_c × U(1)_em; the same hypercharge tells the three quaternion units apart (`the_cusp_condensate_charge_map.py`; `W70_RULE.md`)
+
+**Why.**
+- **The owner chose the cusp condensate** as the field's origin. The owner then asked how a field can be forced into
+  existence, and `philosophy/P024_the_field_from_the_end.md` wrote the passage: a bare end admits no finite description,
+  so the end must carry a field.
+- **The audit lane's packets were read first.** Its stationary cusp condensate keeps colour and breaks the weak SU(2),
+  but "no physical hypercharge is assigned".
+- **This arc did the charge map,** in the lane's registered E₈ embedding. It is P024's first test.
+
+**The order.**
+- **The rule first** (`W70_RULE.md`, cb5269d1e).
+- **The script** (d76cafa3d), committed before its run. The run was held until P024 was written.
+- **The run.** One run (9 seconds); its output committed before the read-out (f0133e132).
+
+**The read-out (COMPUTED, exact; all five cells as predicted).**
+- **N1, the branching (as predicted).**
+  - The lane's SU(6) chain is a Cartan matrix, and the six weights have the standard Gram matrix.
+  - The puncture acts on the 6 as (1, −1, 1, −1, 1, −1).
+  - The 112 p-odd roots are exactly the weak doublets, and their 40 colour singlets carry the 20 weights of Λ³6, twice
+    each.
+- **N2, the admissible hypercharges (as predicted).** Of 469 candidates, exactly six pass the five Standard Model field
+  conditions: the six permutations of (1/6, −5/6, 2/3) over the three quaternion blocks.
+- **N3, the generations (as predicted).** Every admissible hypercharge gives the three blocks (b, a, ab) three different
+  charges.
+- **N4, the Higgs-like condensates (as predicted).** For each admissible hypercharge, exactly four of the 112 condensate
+  roots are neutral colour-singlet doublets with |Y| = ½: two with Y = +½ and two with Y = −½.
+- **N5, the lane's own condensate (as predicted).**
+  - α = e₃ + e₅ (the lane's e₄ + e₆) has T₃ = +½ and SU(6) weight ws₀ + ws₁ + ws₄.
+  - It is neutral, with Y = −½, under exactly one admissible hypercharge: (1/6, 2/3, −5/6) on the blocks (b, a, ab).
+  - Under the other five its charge Q is −½, −1, 3/2, 2 or 1.
+
+**The read-outs (no prior).**
+- **The unbroken Standard Model subgroup at α, under its neutral hypercharge:**
+  - all six colour roots and both colour Cartans;
+  - no weak root;
+  - one more Cartan direction, ½(weak axis) + Y = T₃ + Y = Q.
+
+  That is SU(3)_c × U(1)_em.
+- **The union over the six admissible hypercharges:** 24 distinct roots are ever neutral and Higgs-like.
+
+**What it shows (a READING; given the audit lane's registered embedding and its stationarity results, H-charge, and
+Λ, GENESIS FK11).**
+- **The cusp condensate can be the Higgs.** Under the unique admissible hypercharge (up to permuting the three
+  quaternion units), the condensate class at the weave's own end contains fields with exactly the Higgs's quantum
+  numbers. The lane's own condensate is the neutral component of a Y = −½ doublet, the quantum numbers of H_d, and it
+  leaves SU(3)_c × U(1)_em. This is the first place the record finds a field with the Higgs's charges arising at the
+  weave's end, rather than assumed.
+- **P024's first test passes:** the forced end can carry the Higgs's charges.
+- **Forced to choose, not forced which, twice over.**
+  - Each admissible hypercharge has four neutral Higgs-like condensates.
+  - The hypercharge itself is unique only up to permuting the three units, so choosing it breaks the weave's
+    permutation of the units.
+- **The same hypercharge tells the three quaternion units apart** (N3). In the gauge embedding the three units carry
+  hypercharges 1/6, −5/6 and 2/3, so they are not three alike generations. The generations have to live in the matter's
+  sections (W64–W69), not in the gauge embedding's 6.
+- **What stays open.**
+  - P024's second test: whether a field-free twist gaps every channel.
+  - A global completion that keeps U(1)_em; the lane's published one leaves G₂.
+  - The global mirror test.
+  - The Yukawas and the scale.
+- **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19. A derived Higgs charge is structural, not
+  a number among the 19.
+
+**Status.** COMPUTED (the rule first; one run, held for P024; all five cells as predicted; exact). A WEAVE result given
+the stated embedding and hypotheses. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -5869,6 +5942,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W67 | COMPUTED (the rule first; one run; F2 as predicted; F1 and F3 failed as worded on R′ alone, checked in a labelled post hoc); a WEAVE result given Λ and the stated hypotheses (H-sec; H-pot) | what fixes τ: the weave's O-invariant quartic λ₂ q₂ + c q_A on the parameter-free Higgs sections, as a function on the modular curve. For main's R: ω for c > 0 (uniquely), the cusp for c < 0. R′ reaches the 8-orbit lines also at j = 336 ∓ 192√7 (identified post hoc), a tie; E adds τ₀ (j = 1280). Every selected vacuum has the second generation massless, or degenerate with the third: τ can be fixed only where the hierarchy is absent. 0 of 19 |
 | W68 | COMPUTED (the rule first, corrected before any code; one run; all four cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair′) | residual charges at ω: the parameter-free sections of weight −½ (E, R, R′), 3/2 (three) and 7/2 (one) lie at ω on ℓ_ω, the real axis and ℓ_ω², the three eigenlines of the stabiliser. Every pair's structure at ω follows its lines, and near ω the masses grow as powers of δ = \|τ − ω\| fixed by the pairing: δ² : δ : 1 for E with the 7/2 section, 0 : δ² : 1 for ER and ER′, δ⁴ : δ² : 1 for EE. The full hierarchy fixes m₁m₃/m₂² → 15 (data 0.08 to 2.7). 0 of 19 |
 | W69 | COMPUTED (the rule first; one run; all three cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair′) | the weighted census: all 28 pairs of the seven parameter-free sections (weights −½, 3/2, 7/2), 21 952 assignments to the three charged sectors, each fitted at one τ. None passes: best χ² 99.9 (ER / EE / RG, near ω, using W68's δ² and δ¹ pairings), 26.4 at a 20% allowance; by weight 260 (−½ only), 154 (with 3/2), 100 (with 7/2). The data do not fix τ through any parameter-free section in the range. 0 of 19 |
+| W70 | COMPUTED (the rule first; one run, held for P024; all five cells as predicted; exact); a WEAVE result given the audit lane's registered E₈ embedding, H-charge and Λ | the cusp condensate's charge map: the admissible hypercharge (block-scalar on the 6, unbroken by the quaternion holonomies, reproducing the SM's five fields) is unique up to permuting the three units, (1/6, −5/6, 2/3); under it four of the 112 condensates are neutral colour-singlet doublets with \|Y\| = ½, and the lane's own α is one (Y = −½), leaving SU(3)_c × U(1)_em; the hypercharge tells the three units apart. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -5927,6 +6001,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W67_RULE.md`: the rule, committed before the code; `the_potential_fixes_tau.py` → `the_potential_fixes_tau.json`: W67, what fixes τ (each section's landscape, the potential's census over 16 coefficient pairs, E's read-outs, the masses at the fixed points); `the_potential_fixes_tau_posthoc.py` → `the_potential_fixes_tau_posthoc.json`: W67 post hoc (labelled), R′'s extra 8-orbit points and the plateau at 40 digits, the masses there.
 - `W68_RULE.md`: the rule, committed before the code (with a correction to G4 before any code); `the_residual_charges_at_omega.py` → `the_residual_charges_at_omega.json`: W68, residual charges at ω (the dimension table at −½, 3/2 and 7/2, the seven parameter-free sections, their eigenlines at ω, every pair at ω and its powers near ω).
 - `W69_RULE.md`: the rule, committed before the code (the script drafted before that commit, disclosed); `the_weighted_census.py` → `the_weighted_census.json`: W69, the weighted census (the seven sections, every pair's grid terms, every assignment's grid minimum, the refined best, the three allowances, the best by weight).
+- `W70_RULE.md`: the rule, committed before the code; `the_cusp_condensate_charge_map.py` → `the_cusp_condensate_charge_map.json`: W70, the cusp condensate's charge map (the branching, the admissible hypercharges, the generations, the Higgs-like condensates, the lane's α and its unbroken subgroup).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

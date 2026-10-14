@@ -18793,3 +18793,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   (which would defeat the passage)? Does electromagnetism survive globally?
 - The count of free numbers: 0 of 19.
 
+## 2026-10-14 — W70: the field at the weave's end carries the Higgs's charges; relay §83
+
+- **W70 tested the contemplation's first claim:** that the field the weave's edge must carry can be the Higgs.
+- **In the audit lane's map of the gauge forces,** the hypercharge is fixed, up to which of the three quaternion units
+  gets which charge. Under it, the lane's own condensate at the edge has exactly the Higgs's charges. It leaves colour
+  and electromagnetism unbroken, as the Higgs does.
+- **The same hypercharge gives the three units different charges,** so the three generations cannot be those three units
+  in the gauge embedding. They must live in the matter itself.
+- **All five predictions held, exactly.** Still open: whether a field-free twist could do the edge's job, and a global
+  version that keeps electromagnetism. The count of free numbers: 0 of 19.
+

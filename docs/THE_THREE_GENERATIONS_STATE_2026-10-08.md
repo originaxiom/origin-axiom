@@ -469,6 +469,14 @@ Under the owner's rulings, the table's rows split into two groups:
     fitted at one τ.
   - None fits. The best (χ² 100) uses W68's δ² and δ¹ pairings near ω and misses every observable by factors of 1.4 to
     2. A fit needs free numbers per sector, and where they come from is the open question about the field. 0 of 19.
+- **The owner's choice: the cusp condensate; the owner's contemplation: P024** (the field from the end: a bare end
+  admits no finite description, so the end must carry a field, forced to exist but not forced which).
+- **W70, the cusp condensate's charge map (rule first; all five cells as predicted; exact):**
+  - In the audit lane's E₈ embedding the admissible hypercharge is unique up to permuting the three quaternion units:
+    (1/6, −5/6, 2/3).
+  - Under it the lane's cusp condensate is the neutral component of a Y = −½ doublet and leaves SU(3)_c × U(1)_em.
+    The field at the weave's end carries the Higgs's charges.
+  - The same hypercharge tells the three units apart, so the generations are not the gauge embedding's 6. 0 of 19.
 
 ## Questions open with main
 
@@ -484,7 +492,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W69 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W70 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§82).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§83).
