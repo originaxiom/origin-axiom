@@ -1,5 +1,21 @@
 # Changelog
 
+## The weave's W81: the audit lane's typed-field audit read; its branching reproduced; the identification with the ordinary Higgs field withdrawn; relay section 100
+
+- **The audit lane's audit of §91–§93 and W75 landed** (dd2a54119). The lane's condensate is spinor-valued, in
+  ad(P) ⊗ S with S² = K, while an ordinary Higgs field lies in End(E) ⊗ K. Equal coefficients ½ do not earn the
+  identification. Accepted, and recorded as the lane's computation.
+- **W81** (script first; B1, B2 and B4 as predicted, B3 failed as worded, a sign) checks the lane's branching with
+  this seat's E₈ code. The 248 under the continuous SU(2) of the quaternion Cartan is 55 + 52·2 + 27·3 + 2·4, with
+  index 3. The odd part is 52 doublets and 2 quartets, so "2 ⊗ 56" holds for Q8 only. The condensate's root β lies in
+  the doublets.
+- **Withdrawn with dated notes:** §91's identification; the Reading after W74 ("one kind"); W75's "three routes agree"
+  (its computations stand). P024's addendum is scoped to the uniformizing field.
+- **The lane's ask** (define Φ_M, compute its vertex): on the record Φ_M is a defect residue (B1645's R, chat1's tame
+  residue). Its vertex waits on the residue's normalization.
+- **Surfaces.** The script and its output, the dossier (section, header bullet, row, files, three dated notes), P024,
+  the state page, relay §100, two ledger rows and the test. 0 of 19.
+
 ## sm:B1548 sealed: the room-three circles on N₄₅, a THREAD result, at the owner's ruling "Seal and run it, labelled"
 
 - **The draft held since 2026-10-07 is sealed** (`frontier/B1548_the_room_three_circles/`), labelled a thread result

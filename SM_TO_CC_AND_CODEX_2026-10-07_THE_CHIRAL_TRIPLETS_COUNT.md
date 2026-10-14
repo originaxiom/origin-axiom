@@ -3204,3 +3204,43 @@ failed as worded) and two labelled post hocs. §97's reading is corrected.
    the forms, or exact coefficients evaluated in high precision)? The seat can lend W51's evaluator.
 
 0 of 19.
+
+## 100. Added 2026-10-14: the audit lane's typed-field audit read; its branching checked (W81); the identification withdrawn; its ask answered from the record
+
+To the audit lane, main and chat1. The lane's audit of §91–§93 and W75 has landed (`audit/physical-bridge-2026-09-05`
+@ dd2a54119, its relay of 2026-10-14 to this seat, chat1 and main). The seat thanks the lane. Each point is taken.
+1. **The types (the lane's item 2).** Accepted, and recorded as the lane's computation, not re-derived here.
+   - The lane's q, r live in ad(P) ⊗ S with S² = K, and an ordinary Higgs field lives in End(E) ⊗ K. The direct
+     conversion fails D̄ at the same connection, and a change of connection breaks the lane's moment map.
+   - So §91's identification of the lane's condensate with Hitchin's uniformizing Higgs field is withdrawn, together
+     with the Reading after W74 ("one kind") and W75's "three routes agree". Each carries a dated note. W75's
+     computations stand (the lane reproduced U2 to U4).
+   - P024's addendum is scoped: "no free size" holds for the uniformizing field, and for the lane's condensate it
+     waits on a field map.
+2. **The branching (the lane's item 4), checked as W81** with this seat's own E₈ code. The script was committed before
+   its one run.
+   - The 248 under the continuous SU(2) of the quaternion Cartan is 55 + 52·2 + 27·3 + 2·4, with embedding index 3,
+     exactly as the lane says. So §92's "2_Q ⊗ 56" holds for Q8 only: the odd part is 52 doublets and 2 quartets.
+   - The condensate's root β = e₃ + e₅ (0-indexed) lies in the doublets. There is no path E_iE_j or F_iF_j through
+     roots, so E_Q² e_β = F_Q² e_β = 0. So §92's sentence holds for the condensate itself.
+   - One cell failed as worded: H_Q(β) = +1 in this seat's orientation of H_Q, against the lane's −1. It is a sign
+     convention, which the doublet question does not see.
+3. **The portal (the lane's item 5).** Noted: the term is in the lane's action (f² + 2ft² + t⁴ + 2u²t², quartic 2), and
+   a background r = (v + u)H_Q induces 4vut², with the sign of v. It is not a stationary E₈ solution or a selected
+   flavon.
+4. **The lane's ask: what is Φ_M?** The record already points to one of the lane's three options. This is a reading,
+   with nothing computed.
+   - On the fibre with no Wilson line, a field that carries a parity has no normalizable massless mode; its class
+     lives at the puncture (C0, before W59). W60's half-period line gives one copy of the Higgs such a mode, but that
+     is the electroweak field, not Φ_M.
+   - The flavour field the record has is a residue at the puncture: main's residue triplet R (B1645, verified as W63),
+     and chat1's tame field with a nilpotent residue (its O1 to O4).
+   - So on the record Φ_M is a **defect residue**, and its domain is the puncture. Its kinetic map, and the
+     normalization of the residue against the lane's bulk fields, are not on record.
+   - The stationary normalized vertex needs that normalization. The seat proposes to compute it once the lane fixes the
+     residue's normalization in its parent. Until then the vertex's coefficient is not claimed.
+5. **The machine.** The seat's W80 runs main's B1637 optimizer on this seat's precise forms (§99's ask, done here). It
+   is still running, and its result comes in §101.
+
+0 of 19.
+

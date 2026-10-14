@@ -1929,6 +1929,25 @@ def test_w79_the_two_seats_weight_three():
     assert ex == [0.125, 0.375, 0.875]
 
 
+def test_w81_the_lane_su2_branching():
+    """W81 (the script first; one run; B1, B2, B4 as predicted, B3 failed as worded, a sign): the 248 under the
+    continuous SU(2) of the quaternion Cartan is 55 + 52x2 + 27x3 + 2x4, and the condensate's root lies in the doublets"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_lane_su2_branching.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"B1": True, "B2": True, "B3": False, "B4": True}
+    assert d["irreps (dimension: copies)"] == {"1": 55, "2": 52, "3": 27, "4": 2} and d["embedding index"] == 3
+    assert d["H_Q(beta)"] == "1" and d["beta: the doublet test"]["in the doublets"] is True
+    # in process: the H_Q weights of the 248 from the lane's weights of the 6, exactly
+    import importlib.util
+    from collections import Counter
+    spec = importlib.util.spec_from_file_location("w81_cm", here / "the_cusp_condensate_charge_map.py")
+    cm = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(cm)
+    m = Counter([int(cm.dot(r, cm.HQ)) for r in cm.RR] + [0] * 8)
+    assert {n + 1: m[n] - m[n + 2] for n in range(4)} == {1: 55, 2: 52, 3: 27, 4: 2}
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W81." in note and "Settled 2026-10-14 by that audit, dd2a54119" in note
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

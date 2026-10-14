@@ -129,3 +129,8 @@ They are different ends, so "the same cusp" is withdrawn. Whether the two data a
   factor e^{−d}, with the field deep in the cusp's throat, about 37 to 38 units. Nothing on record forces that depth.
   The passage's shape holds again: the edge forces a field, and its own shape sets the field's size, but not how far
   from the edge the observer stands.
+- *(Scoped 2026-10-14 by the audit lane's audit, dd2a54119; the weave dossier's W81.)* The size above belongs to the
+  ordinary uniformizing Higgs field, a one-form in End(E) ⊗ K. The lane's electroweak condensate is spinor-valued, in
+  ad(P) ⊗ S with S² = K. The two agree in a coefficient but not in type, and no map between them is earned yet. So the
+  sentence "the field has no free size" holds for the uniformizing field. Whether it holds for the lane's condensate
+  waits on a field map.

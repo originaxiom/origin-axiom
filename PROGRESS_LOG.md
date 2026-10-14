@@ -19011,3 +19011,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   characters were read there, and the predictions were set with that in view.
 - **The run starts when the fit check now on the machine finishes.** 0 of 19.
 
+## 2026-10-14 — the audit lane's check came back, and one of the seat's identifications is withdrawn
+
+- **The seat had said two fields were the same kind of object:** the audit lane's electroweak field and the textbook
+  field that makes a surface curved. The lane checked, and they are not. They have the same size in one number but
+  are different kinds of mathematical object, and turning one into the other breaks an equation. The seat withdraws
+  the claim, with dated notes where it was made.
+- **The lane also said that one of the seat's group-theory statements holds only for a finite group,** not for the
+  continuous symmetry around it. The seat checked this with its own code, and the lane is right. The field that
+  matters still behaves as the seat said, but not every direction does.
+- **The lane asked what the flavour field is.** The record says it lives at the puncture, as a residue there. Its
+  strength still needs a normalization nobody has fixed. 0 of 19.
+

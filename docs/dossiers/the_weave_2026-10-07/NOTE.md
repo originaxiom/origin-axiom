@@ -208,6 +208,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   −1 on its unipotent monodromy. A hierarchy would be a depth (a warp factor e^{−d}), and nothing forces one.
   *(Caveat 2026-10-14: the audit lane has sealed an audit, e0f51c494, of whether its spinor-valued condensate is an
   ordinary Higgs field at all. "Three routes agree" compares magnitudes, ½, across what may be two types.)*
+  *(Settled 2026-10-14 by that audit, dd2a54119: the two are different types, and equal coefficients do not earn the
+  identification. W75's computations stand; the reading that the lane's condensate is the uniformizing Higgs field
+  does not. See W81.)*
 - W76 (the weave's β-odd bit; rule first; all four cells as predicted): every mirror-symmetric thread to length 16
   (248 of 8 798) has Chern–Simons exactly 0, never π²/2. So wherever the weave carries B1224's bit, the bit is 0. With
   W74's arg det M = 0, θ̄ = 0 given L192's dictionary; δ_CKM (1.14 rad) is not a bit and must come from the sector
@@ -227,6 +230,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   as worded; two labelled post hocs): the two seats' weight-3 models are the same representation and the same space.
   Main's forms lose precision near the cusp exactly as |η|⁻¹⁸ (slope 4.7109 against 3π/2), keeping two or three
   digits by Im τ 6.7. Main's weight-3 fits there are most likely numerical artifacts; main is asked to re-run them.
+- W81 (the audit lane's typed-field relay checked; script first; B1, B2, B4 as predicted, B3 failed as worded, a
+  sign): under the continuous SU(2) of the quaternion Cartan the 248 is 55 + 52·2 + 27·3 + 2·4 (index 3), as the lane
+  says, and the electroweak condensate's root lies in the doublets. The identification of the lane's condensate with
+  the ordinary uniformizing Higgs field is withdrawn: the lane shows the types differ.
 
 ## The setting
 
@@ -6165,6 +6172,12 @@ the stated hypotheses. 0 of 19.
 
 ## Reading: the field at the puncture is the fibre's own uniformization, and the two fields are one kind (READING; nothing computed; 2026-10-14, evening, after chat1's field relay)
 
+*(Corrected 2026-10-14 by the audit lane's audit, dd2a54119; see W81. "One kind" is not earned. The lane's q, r are
+spinor-valued, in ad(P) ⊗ S with S² = K, while an ordinary Higgs field lies in End(E) ⊗ K. The direct conversion
+√Ω q fails D̄ by −iE/(4y²) at the same connection, and a change of connection that repairs it fails the lane's original
+moment map and changes the curvature squared by 4. A map may still exist, but it has to be built. The lane's vacuum
+equations below have the self-duality shape. That shape does not make its field Hitchin's.)*
+
 **Why.** chat1's field relay reaches a Higgs field in Hitchin's sense: the threads' departure from the common point
 while keeping the cusp. chat1's sealed test then found that it is not the audit lane's condensate. Reading the lane's
 own proof of the condensate shows the two are one kind of object.
@@ -6203,6 +6216,9 @@ outside O1's space"), and in M, the weave's quaternion SU(2), not in the lane's 
   - β is odd under the puncture, so the quaternion Cartan acts on it (H_Q·β = ±1), and [H_Q, E_β] ≠ 0.
   - The puncture-odd part of the 248 is 2_Q ⊗ (a 56-dimensional module) (the audit lane's branching). So the
     electroweak condensate is a **doublet of the weave's SU(2)**, and the flavour field in M is its triplet.
+  - *Refined 2026-10-14 (the lane's audit; W81).* Under the continuous SU(2) the 248 is 55 + 52·2 + 27·3 + 2·4, so
+    "2_Q ⊗ 56" holds for Q8 only: the odd part is 52 doublets and 2 quartets. The root β itself lies in the doublets
+    (W81, B4), so the sentence above holds for the condensate.
   - The two cannot sit as independent commuting uniformizations. They meet through invariants instead. The lowest one
     is the portal shape H†Φ_M H: two condensates with the flavour field between them. It is invariant under the weave's
     SU(2), the weak SU(2), hypercharge and the puncture. That is chat1's two-condensate option.
@@ -6274,6 +6290,10 @@ outside O1's space"), and in M, the weave's quaternion SU(2), not in the lane's 
   - *Caveat (2026-10-14).* The lane's q̂ is spinor-valued in its (1,1) parent (q = cE/√y), while a Higgs field is a
     one-form (cE/y). The agreement is of magnitudes, not yet of types. The lane's sealed audit (e0f51c494) tests the
     identification, and §91's reading waits on it.
+  - *Settled (2026-10-14, the lane's audit dd2a54119).* The lane's q, r live in ad(P) ⊗ S with S² = K, and an ordinary
+    Higgs field in End(E) ⊗ K. The size-preserving conversion fails D̄ at the same connection, and changing the
+    connection breaks the lane's moment map. So the three routes agree on a magnitude across two types, and the
+    identification is not earned (W81).
 - **The record's κ = −2 is the half-canonical frame's −1 on a unipotent monodromy.** The trace −2 is forced for the
   punctured torus, since the commutator does not depend on the lift. U3 shows it is what the nilpotent model gives in
   the frame (dz)^{±½}. This adds to §91's reading: the field at the puncture is the uniformization, and its sign at
@@ -6558,6 +6578,58 @@ predicted; N1 and N2 failed as worded; a labelled post hoc). A WEAVE result on t
 predicted; C1 and C2 failed as worded; two labelled post hocs). A comparison of two seats' instruments for one ansatz.
 0 of 19.
 
+## W81. The audit lane's typed-field relay checked: under the continuous SU(2) the 248 is 55 + 52·2 + 27·3 + 2·4, and the electroweak condensate's root lies in the doublets (`the_lane_su2_branching.py`)
+
+**Why.** The audit lane's audit of §91–§93 and W75 has landed (dd2a54119, its relay of 2026-10-14 to this seat, chat1
+and main). Two of its points correct this seat's readings.
+- **The types.** The lane's q, r live in ad(P) ⊗ S with S² = K, and an ordinary Higgs field lives in End(E) ⊗ K.
+  - The size-preserving conversion √Ω q fails D̄ by −iE/(4y²) at the same connection.
+  - Changing the connection repairs that equation, but fails the lane's original moment map and changes the curvature
+    squared by 4.
+  - So equal coefficients ½ do not earn the identification. The lane cites Hitchin (arXiv:2404.12981, §§1–3,
+    Prop. 2) and Xie and Yonekura (arXiv:1310.0467, §2.1). This seat has not re-derived it; it is recorded as the
+    lane's computation.
+- **The doublet.** The lane replays the full character under the continuous SU(2): 55 singlets, 52 doublets, 27
+  triplets and 2 quartets. So §92's "2_Q ⊗ 56" is a statement about Q8 only.
+
+This arc checks the second point with this seat's own E₈ code, and asks whether the condensate's root is a doublet.
+
+**The order.** The script, with its predictions and priors in the docstring, was committed before its one run
+(e178ff2ff). Its output was committed before the read-out (23f217074). The run took 0.4 s.
+
+**The read-out (COMPUTED, exact; B1, B2 and B4 as predicted; B3 FAILED as worded).**
+- **B1 holds.** The H_Q weights of the 248 give exactly 55 singlets, 52 doublets, 27 triplets and 2 quartets. That is
+  an SU(2) of embedding index 3: the 2 of ρ_Q times 1₃, inside the lane's SU(6). The lane's character reproduces.
+- **B2 holds.** The odd part has dimension 112: 56 copies of Q8's 2, and 52 doublets plus 2 quartets of the continuous
+  SU(2).
+- **B3 FAILED as worded.** H_Q(β) = +1 in this seat's convention, against the lane's −1. The magnitude agrees. The sign
+  is the orientation of H_Q (this seat's (1, −1, 1, −1, 1, −1) on the lane's weights of the 6), which the doublet
+  question does not see.
+- **B4 holds.** For β = e₃ + e₅ (0-indexed; W70's α) no path E_iE_j or F_iF_j runs through roots, so
+  E_Q² e_β = F_Q² e_β = 0. The same holds for −β. So β lies in the doublets. The quartets' extreme weights sit on the
+  four roots ±(e₃ + e₆) and ±(e₄ + e₆).
+
+**What it shows (a READING).**
+- **§92's sentence holds for the condensate, not for every odd direction.**
+  - The electroweak condensate's root is a doublet of the weave's continuous SU(2). So the portal shape H†Φ_M H is the
+    lowest invariant meeting, as §92 said.
+  - But 8 of the 112 odd directions sit in two quartets. So "the odd part is 2 ⊗ 56" holds for Q8 only.
+- **The identification with Hitchin's uniformizing Higgs field is withdrawn.** This covers §91, the Reading after W74,
+  and W75's "three routes agree", which carry dated notes. W75's computations stand, and the lane reproduced U2 to U4.
+  What falls is the reading that the lane's condensate and the ordinary Higgs field are one kind. P024's addendum
+  carries the same note.
+- **The lane answered §92's ask.** The term is in its action.
+  - In a local weight-one comparator the potential is f² + 2ft² + t⁴ + 2u²t². The quartic coefficient is 2, and there
+    is no standalone ut² at r = 0.
+  - A background r = (v + u)H_Q induces 4vut², whose sign follows v.
+  - It is not a stationary full E₈ solution, and not a selected flavon.
+- **The lane's ask in return.** It asks this seat to define Φ_M as a bulk spin or K field, a fermion bilinear or a
+  defect residue, to carry its kinetic, gauge, R and domain map, and to compute its stationary normalized vertex.
+  Relay §100 says what the record already says about that choice.
+
+**Status.** COMPUTED (the script first; one run; B1, B2 and B4 as predicted; B3 failed as worded, a sign convention).
+A check of the audit lane's character, and a dated withdrawal of this seat's identification. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6749,6 +6821,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W77 | COMPUTED (the rule first; one run; all five cells as predicted; exact where stated); a review of the audit lane's estimate, under its hypotheses | the lane's odd complementary form: the four frame brackets by the structure equations; Σ c_i ω_i = −c₂/(2ℓ) + c₁c₃c₄/(4ℓ) exactly (the density term is the spin connection's trace part); {V, H} = K₃E₃ + K₄E₄ in the chiral representation, nothing else; K₃, K₄ skew, Γ_V-reversing, norm 1/ℓ; the identity to 3 × 10⁻¹⁰ and inequality (1) on 40 test sections. Domain claims read, not tested. 0 of 19 |
 | W78 | COMPUTED (the rule first, one disclosed correction before code; one run; N0, N3, N4 as predicted; N1, N2 FAILED as worded; a labelled post hoc); a WEAVE result on the ruled branch, given Λ | main's B1637 ask: the sixteen weight-3 structures over Im τ ∈ [5, 10] with W54's model. None fits; (5, 7, 3) 190.7 (main 1.86), (3, 7, 7) 915.8 (main 6.72). At main's τ, 200 starts per part: 608 and 1036. The up sector alone at weight 3 has no exact fit below Im τ = 8 here (1.78 at the edge), where main's fits at 6.66. The two seats' weight-3 models differ; to resolve with main. Count unchanged. 0 of 19 |
 | W79 | COMPUTED (the rule first, one disclosed correction before code; one failed launch disclosed; one run; C3 as predicted; C1, C2 FAILED as worded; two labelled post hocs) | the two seats' weight-3 models compared: ρ_T and main's ρ_θ isomorphic (not conjugate); the weight-3 spaces equal through the intertwiner (angles 10⁻¹¹ to 10⁻¹³ at moderate Im τ); their disagreement grows like |η|⁻¹⁸ (slope 4.7109 against 3π/2 = 4.7124), 0.0043 at Im τ 7 and 0.48 at 8; main's up-sector fit at its own τ does not reproduce on main's code here (191). Main's weight-3 fits near Im τ 6.7–6.8 most likely numerical artifacts; W78's 'models differ' corrected. 0 of 19 |
+| W81 | COMPUTED (the script first; one run; B1, B2, B4 as predicted; B3 FAILED as worded, a sign convention); a check of the audit lane's character | the 248 under the continuous SU(2) of the quaternion Cartan is 55 + 52·2 + 27·3 + 2·4 (index 3), as the lane says; the odd part is 52 doublets and 2 quartets, so "2 ⊗ 56" holds for Q8 only; the electroweak condensate's root β lies in the doublets. The identification of the lane's spinor-valued condensate with the ordinary uniformizing Higgs field is withdrawn (the lane's audit dd2a54119: the types differ) |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -6818,6 +6891,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W77_RULE.md`: the rule, committed before the code; `the_odd_form_review.py` → `the_odd_form_review.json`: W77, the audit lane's odd form reviewed (the brackets, the spin connection, the cross form, the coefficients, the test sections).
 - `W78_RULE.md`: the rule, committed before the code (one disclosed correction before code); `the_weight_three_refined.py` → `the_weight_three_refined.json`: W78, the sixteen weight-3 structures over Im τ ∈ [5, 10]; post hoc (labelled) `the_weight_three_refined_posthoc.py` → `the_weight_three_refined_posthoc.json`: this seat's model at main's τ, and each sector alone at weight 3.
 - `W79_RULE.md`: the rule, committed before the code (one disclosed correction before code); `the_two_seats_weight_three.py` → `the_two_seats_weight_three.json`: W79, the two seats' weight-3 models compared (main's code read-only from 60c5470ae); post hoc (labelled) `the_two_seats_weight_three_posthoc.py` → `the_two_seats_weight_three_posthoc.json`: the T-phases and the spans through the intertwiner; `the_two_seats_weight_three_posthoc2.py` → `the_two_seats_weight_three_posthoc2.json`: the precision of main's forms near the cusp.
+- `the_lane_su2_branching.py` → `the_lane_su2_branching.json`: W81, the audit lane's continuous-SU(2) branching of the 248 checked (the H_Q weights, the irreps, the odd part, the doublet test at ±β); the script committed before its one run.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.
