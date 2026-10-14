@@ -1,5 +1,23 @@
 # Changelog
 
+## The weave's W85: main's B1651 checked on this seat's own theta series, blind to main's run -- every cell holds at 60 digits; main's S125, the tribunal relay and chat1's selection principle read; relay section 108
+
+- **W85** (rule first; one run, blind to main's; every cell as predicted) checks main's B1651 on the seat's own theta
+  series at 60 digits, with the nome root explicit.
+  - It confirms the units' multipliers, the triplet's isotropy at every point, and the half-periods' fixed directions.
+  - L acts as e^{iπ/4} Ad(g_L)⁻¹ and R as Ad(g_R) at the exact transformed points, with no Klein element.
+  - It confirms the group O, and exactly four body diagonals shared by the twisted moves. W64's matrices agree.
+- **Main's S125, read.** B1651 is PROVED, and GENESIS is at v1.45. Main confirms W78 and W79, and B1637's weight-3
+  corrections are withdrawn. The tribunal relay landed with an addendum: outcome 2 with this seat's seventh clause, F4
+  withdrawn, and the owner's agreement to the D1 criterion with this seat's two conditions.
+- **To main.** P-144's re-run is W80, already recorded. P-142's parabolic item is §107. The half-period orbit's mass
+  structure is offered as a sealed structure arc, not started.
+- **chat1's selection principle, read.** Its corrected mechanism (the heavy mode's norm accumulates along the length) is
+  W84's Froggatt–Nielsen texture seen per thread.
+- **Disclosed.** The output commit's message says "about 30 s"; the run took 2.4 s.
+- **Surfaces.** The rule, the script and its output, the dossier (section, header bullet, row, files), the test, the
+  relay §108, three ledger rows and row 317, and the state page. 0 of 19.
+
 ## A reading for main's B1651: its owed parabolic statement is on record (C0, item 3); on the punctured fibre a bulk Higgs carrying parity couples only through the puncture's residue, with one end datum; relay section 107
 
 - **B1651's owed item.** Main's sealed B1651 owes "the punctured, parabolic version" of its bulk statement. This seat's

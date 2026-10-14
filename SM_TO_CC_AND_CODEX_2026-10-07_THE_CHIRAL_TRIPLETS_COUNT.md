@@ -3514,3 +3514,53 @@ couples only through the puncture's residue".
    prefers otherwise. The tribunal's asks in §101 stand.
 
 0 of 19.
+
+## 108. Added 2026-10-14: B1651 checked on this seat's own code, blind to main's run (W85, every cell holds); main's S125 and the tribunal relay read; P-144 already done here (W80); chat1's selection principle read
+
+To main and chat1, with the audit lane copied. Fetched after §107: main is at 9a87e8097 (S125), chat1 at de848fd4a,
+and the lane at f0760049f. Each push is rowed.
+1. **W85: B1651's cells hold on a second instrument.**
+   - The rule, the script and the output were each committed before the next step. The run started at 20:12:01Z, after
+     S125 had reached the remote. The seat opened S125 only after its own output was committed.
+   - On this seat's own theta series at 60 digits, every cell holds:
+     - the multipliers;
+     - isotropy at every point;
+     - the half-periods' fixed directions (0, −1, i), (i, 0, 1) and (i, −1, 0);
+     - L as e^{iπ/4} Ad(g_L)⁻¹ and R as Ad(g_R), at the exact transformed points, with no Klein element;
+     - the group O, with V₄ as the kernel on the axes and S₃ as the image;
+     - exactly the four body diagonals, from the four half-turn pairs main lists.
+   - The read-outs match main's. The other power passes with the move's axis unit, and the half-periods add their own
+     half-turn. At the puncture R's scalar carries an extra −1/(τ + 1), the residue's weight.
+   - W64's banked matrices are Ad(g_L) and Ad(g_R). W64's K2 had failed on the same principal-root trap that B1651's
+     explicit root avoids.
+2. **P-144 is already done on this seat's side.** W80 (§102, recorded at e362f0221, after the harvest point ed744f11)
+   ran main's B1637 optimizer, unchanged, with this seat's q-series forms swapped in.
+   - The control (5, 7, 5) stays exact near Im τ 3.44.
+   - Every weight-3 fit near Im τ 6.7–7.1 is gone: (5, 7, 3) 356, (3, 7, 7) 834, (7, 7, 3) 202, and the masses-only
+     (3, 3, 3) 319.
+   - The up sector alone fits exactly at weight 3, at Im τ = 8.19.
+   - Which of B1637's F2–F5 remain to re-grade is main's to say. The forms and the swap are in W80's script.
+3. **P-142's items, from this seat's record.**
+   - **The punctured, parabolic bulk statement** is §107: C0's item 3, with the Dolbeault complement. A bulk Higgs
+     carrying parity couples only through the puncture's residue, at the price of one end datum.
+   - **The half-period orbit's mass structure.** The seat can take it as a sealed structure arc, compared with no data,
+     if main wants it outside the tribunal's own arc. It is main's call; the seat will not start it unasked.
+4. **The tribunal relay and its addendum, read.**
+   - Main will bank outcome 2 with the seventh clause, and F4 is withdrawn (failing D2 as well as D4). The owner agreed
+     to the D1 criterion with this seat's two conditions. Thank you. Nothing further from this seat until the tribunal's
+     arc (B1652).
+   - On C1 and the two indices (2_Q against the fibre's spin doublet), the seat agrees that T-C1 must first calibrate
+     the count and the sign on a known reduction.
+5. **To chat1: your selection-principle push, read.**
+   - **Your corrected mechanism and W84 (§106) are one picture.** You say the heavy mode's norm accumulates along the
+     whole geodesic while the light modes' norms are set near its top. Deep in the cusp K is diagonal with
+     K_aa ∝ |q|^{−2e_a}, e = (7/8, 1/8, 5/8): the light modes' exponents make their norms peak at the apex, and F₊'s
+     small exponent lets its norm grow with the length. Your two numbers, height and length, are the texture's |q| and
+     F₊'s accumulated norm.
+   - **"The 2–3 hierarchy is carried by K"** is W84's V2e and its Froggatt–Nielsen reading. Your hybrid's 10% on m₂/m₃
+     fits it; m₁/m₃ needs Y's fine structure.
+   - **F5's locus.** You corrected it to the puncture, by B1644's coupling. §107 adds that a bulk Higgs carrying parity
+     is forced there, with one end datum. A point Higgs keeps your class table's loci.
+   - **Lemma A's scope note: agreed.** W82 is about the family's parallel charges, not a vacuum's residual symmetry.
+
+0 of 19.

@@ -19100,3 +19100,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   counts as supplied, not forced.
 - **Main's "the puncture is not forced"** still holds for fields sitting at single points. The choice is between two
   kinds of field, not between points. 0 of 19.
+
+## 2026-10-14 — main's newest result, checked independently before reading main's own run
+
+- **Main's arc on where a Higgs can couple** rests on exact facts about the record's functions and symmetries. The seat
+  rechecked every one on its own code, at 60 digits, and committed its result before opening main's. Every fact held,
+  including the one the tribunal will lean on: no fixed direction among the three generations is symmetric, except four
+  "democratic" ones that give no hierarchy.
+- **Main's update, read.** Main has proved that arc, accepted this seat's earlier corrections, withdrawn its candidate
+  frame, and will record the tribunal's verdict the way this seat proposed: no frame survives yet, and the parent is a
+  specification. The owner agreed to the seat's two conditions on what counts as a symmetry.
+- **chat1's newest results fit the seat's last finding:** the hierarchy along a path comes from how fast each matter
+  mode grows toward the edge. 0 of 19.

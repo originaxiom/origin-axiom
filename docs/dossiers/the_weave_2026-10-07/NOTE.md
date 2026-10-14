@@ -260,6 +260,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   puncture and couples by the residue, so B1642's two hypotheses become one end datum. The parabolic version B1651
   owes is C0's item 3. B1651's "the puncture is not forced" holds for point Higgs fields; for a bulk Higgs carrying
   parity the puncture is forced as the locus, at the price of the framing.
+- W85 (main's B1651 checked on this seat's own theta series; rule first; one run, blind to main's; every cell as
+  predicted): at 60 digits the units' multipliers, the triplet's isotropy and the half-periods' fixed directions
+  hold. L and R carry the triplet exactly, with no Klein element, at the puncture, the half-periods and generic
+  points. The twisted moves share exactly the four body diagonals. So B1651's U2–U5 stand on a second
+  instrument.
 
 ## The setting
 
@@ -6921,6 +6926,66 @@ R5). It is a section of K(p) ⊗ χ, with a simple pole at p.
 **Status.** READING. Items 2 to 5 are proved by hand, from Riemann–Roch and Serre duality on an elliptic curve,
 Stokes's theorem, C0's item 3, and B1642's R2, R3 and R5. Nothing is computed by a script. 0 of 19.
 
+## W85. Main's B1651 checked on this seat's own theta series, blind to main's run: every cell holds at 60 digits; L and R carry the pairing's triplet exactly with no Klein element, and the twisted moves share exactly the four body diagonals (`the_b1651_cells_checked.py`; `W85_RULE.md`)
+
+**Why.** The owner's order P-136 reads "B1651, then the frame tribunal, before any further number-chasing", and
+B1651's cells U3 to U5 carry the reading the tribunal will lean on. By the owner's rule on load-bearing math, the seat
+checked them on its own instrument, as §107 had said it would.
+
+**The order, and what was blind.**
+- The rule (b423e7c88), the script (089897c72), and the output, committed before the read-out (5e173fecd).
+- The run took 2.4 s (rc 0). The output commit's message says "about 30 s"; that is wrong, and the run's own timing
+  is 2.4 s.
+- Main's S125 (9a87e8097, committed 20:09:59Z, with B1651's run) reached the remote shortly before this run started
+  (20:12:01Z). The seat's watcher saw only the new head. Main's output was opened after this run's output was
+  committed, as the rule required.
+
+**The read-out (COMPUTED; every cell as predicted; the control holds).** The thetas are the seat's own series at 60
+digits, with the nome root explicit. Against mpmath's jtheta at |Re τ| < ½ they agree to 2.6 × 10⁻⁶¹. Five random τ
+(seed 85) and seven points: the puncture, the three half-periods and three generic points.
+- **V0, the multipliers.** The units i, j and k carry (+, −), (−, +) and (−, −) under z ↦ z + π and z ↦ z + πτ, to
+  1.7 × 10⁻⁶⁰: the three non-trivial characters.
+- **V1, isotropy.** |v·v|/|v|² ≤ 3.1 × 10⁻⁶¹ at all seven points. It is an identity, as B1651 says.
+- **V2, the half-periods.**
+  - At π/2, πτ/2 and π(1 + τ)/2 the triplet is (0, −1, i), (i, 0, 1) and (i, −1, 0) up to a scalar, to 1.6 × 10⁻⁶¹,
+    at every τ. Exactly at those points no Klein element is needed.
+  - The negative control holds. The puncture and the generic points move with τ: the best overlap over V₄ between two
+    τ falls short of 1 by 3.8 × 10⁻⁴ to 3.1 × 10⁻³.
+- **V3, L.** v(z | τ + 1) = e^{iπ/4} Ad(g_L)⁻¹ v(z | τ) to 2.6 × 10⁻⁶¹ at all seven points, including the residue
+  triplets at the puncture. The transformed half-periods lie in B1651's classes (τ/2 and (1 + τ)/2 exchanged).
+- **V4, R.** At −z/(τ + 1) on the fibre τ/(τ + 1), the triplet is proportional to Ad(g_R) v(z | τ), to 1.6 × 10⁻⁶¹,
+  with no Klein element.
+  - The scalar is one number at the six regular points (spread 7 × 10⁻⁶¹).
+  - At the puncture the scalar is that number times −1/(τ + 1), the residue's extra weight. The seat checked this by
+    hand on the first τ, as an arithmetic read-out.
+  - The half-periods' classes go as predicted (½ and (1 + τ)/2 exchanged).
+- **The read-outs beside V3 and V4.** They agree with B1651's own read-outs.
+  - At the puncture and the generic points the other power passes only with the move's axis unit: i for L at s = +1,
+    j for R at s = −1.
+  - At the half-periods the attaining sets add the image line's own half-turn.
+- **V5, the group (exact).**
+  - Ad(g_L) and Ad(g_R) generate 24 rotations. The elements that fix the three axes are exactly V₄, and the image on the
+    axes is S₃.
+  - Over the 16 V₄-twisted pairs exactly four lines are common eigenlines, each of joint dimension 1 and real: the body
+    diagonals (ρ, σ, 1). They come from the four half-turn pairs (j·L, i·R), (j·L, k·R), (k·L, i·R) and (k·L, k·R),
+    as B1651 found.
+- **V6, the seat's own record.** Ad(g_L) and Ad(g_R) are W64's banked L and R on M, which come from the common point's
+  moves. Ad(g_L)⁻¹ is W64's post hoc τ + 1 matrix (PH2).
+
+**What it shows.**
+- **B1651's U2, U3, U4 and U5 hold on a second instrument,** with conventions fixed independently and 60 digits where
+  main's run had about 16 to 30.
+- The tribunal can lean on B1651's statement that no constant direction in M is covariant, and that modulo V₄ only the
+  four body diagonals are.
+- **The two instruments meet the same trap.** W64's K2 once failed on mpmath's principal nome root, the trap B1651's
+  explicit root avoids. Both instruments now build θ₁ and θ₂ with e^{iπτ/4}.
+- **What it does not touch.** B1651's premise P1 (an even, single-point Higgs) is tested by neither instrument. For a
+  bulk Higgs carrying parity, the reading before this section shows that the puncture is forced as the locus, with one
+  end datum.
+
+**Status.** COMPUTED (the rule first; one run; every cell as predicted; one wrong timing in a commit message, disclosed
+here). A check of main's B1651 on this seat's own code. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -7117,6 +7182,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W82 | COMPUTED (the script first; one run; every cell as predicted); two checks for main's frame tribunal | lemma A holds with both halves: the holonomy's V₄ makes a parallel charge diagonal on the units (commutant 3), the moves' S₃ makes it constant (with V₄: 1); S₃ alone allows a democratic split (2). Under every admissible Y the neutral \|Y\| = ½ condensates are ±r₁, ±r₂, all SU(2)_Q doublets: one condensate and its conjugate, so a two-condensate hierarchy needs two independent fields |
 | W83 | COMPUTED (the script first; one run; M1 as predicted; M2 FAILED as worded in one sub-cell: 8, not 2, when the moves act trivially on the family index); an answer to a tribunal item | the commutant of colour and SU(2)_w in e₈ is the lane's su(6) (30 roots, an A₅ with the lane's chain); a trace-free Y commuting with the holonomy and the moves exists only if the moves act on the lane's family index other than through O (0 through O, 1 through S₃, 8 if trivial). So in the lane's frame D1 and D3 meet only if its family index is not the weave's three |
 | W84 | COMPUTED (the rule first, a disclosed rewrap before code; one run; every cell as predicted); a check of chat1's thread frame and its law's deep-cusp limit, under H-thread | chat1's numbers reproduce at 60 digits to 5·10⁻¹¹; along L^n R (y_max to 4.9) the slope of −ln(m₂/m₃) falls 7.64 → 6.43 (2.4% above 2π) and that of −ln(m₁/m₃) rises to 9.34 (0.9% below 3π); K diagonalises (1.5·10⁻⁹) and F₊ is the heaviest everywhere: a Froggatt–Nielsen texture with the units' exponents as charges, m₂/m₃ ∝ \|q\|¹ and m₁/m₃ ∝ \|q\|^{3/2}. So 7.33 is a range average, not 7π/3; the exact limit is not resolved |
+| W85 | COMPUTED (the rule first; one run, blind to main's; every cell as predicted); a check of main's B1651 on this seat's own code | at 60 digits: the multipliers (+, −), (−, +), (−, −); isotropy at every point (an identity); the half-periods' directions fixed; L as e^{iπ/4} Ad(g_L)⁻¹ and R as Ad(g_R) at the exact transformed points, with no Klein element; the group O, V₄ the kernel on the axes, S₃ the image; exactly the four body diagonals shared by the twisted moves; W64's matrices agree. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -7191,6 +7257,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_tribunal_checks.py` → `the_tribunal_checks.json`: W82, two checks for main's frame tribunal (lemma A's commutants by explicit matrices; the neutral |Y| = ½ condensates under every admissible Y with the doublet test); the script committed before its one run.
 - `the_completion_dichotomy.py` → `the_completion_dichotomy.json`: W83, the commutant of colour and SU(2)_w in e₈ (a root count) and the trace-free hypercharges commuting with the holonomy and the moves on the lane's family index; the script committed before its one run.
 - `W84_RULE.md`: the rule, committed before the code (a disclosed rewrap before code); `the_thread_frame_checked.py` → `the_thread_frame_checked.json`: W84, chat1's thread frame on this seat's own 60-digit integrator (five threads against chat1's banked values; L^n R for n = 1 to 8, the local slopes, K's off-diagonals, the states' weights).
+- `W85_RULE.md`: the rule, committed before the code; `the_b1651_cells_checked.py` → `the_b1651_cells_checked.json`: W85, main's B1651 cells on this seat's own theta series at 60 digits (the multipliers, isotropy, the half-periods' directions with a negative control, L and R at the exact transformed points, the group and the twisted pairs' common lines exactly, W64's matrices); the script committed before its one run.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.
