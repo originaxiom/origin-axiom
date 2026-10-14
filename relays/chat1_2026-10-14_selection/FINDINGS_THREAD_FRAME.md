@@ -109,8 +109,11 @@ confirmed the seal order, the hashes and every scored cell. Withdrawn or narrowe
 1. **"The surface frame's hierarchy does not survive a finite normalisation" (the controls) is withdrawn.**
    - W72's surface Y, normalised by *each thread's own* K, reproduces that thread's m₂/m₃ within about 10%. Examples:
      LLRR 0.0355 against 0.0357, LLR 0.0031 against 0.0034, LLLLR 1.52·10⁻⁶ against 1.55·10⁻⁶.
-   - **So the hierarchy is carried by K, the normalisation, not by Y.** The root's K compresses it; a high thread's K
-     deepens it.
+   - **Filed later** (labelled post hoc, `post_hoc_hybrid.*`, after the second referee noted that no script held it). On
+     all 12 threads the hybrid's m₂/m₃ is ×0.90 to ×1.02 of the thread's own. **m₁/m₃ agrees only within a factor
+     7.4:** the root's hybrid gives 0.071 against its own 0.0096.
+   - **So the 2–3 hierarchy is carried by K, the normalisation, not by Y.** The root's K compresses it; a high thread's K
+     deepens it. The first generation's ratio depends on Y as well.
    - **What the thread frame supplies is a canonical normalisation:** the modes' norms along the vacuum thread's
      geodesic. That is the post hoc choice W73 had to make by hand (H-end).
 2. **"τ, the Higgs's direction and its location are integrated" is wrong on the location.** G is B1644's residue
