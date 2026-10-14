@@ -1875,6 +1875,23 @@ def test_w76_the_weaves_bit():
     assert len(sym) == 248 and max(abs(d["threads"][w]) for w in sym) < 1e-8
 
 
+def test_w77_the_odd_form_review():
+    """W77 (the rule first; one run; all five cells as predicted): the audit lane's odd form reviewed; the cross form
+    {V, H} = K3 E3 + K4 E4, and K3, K4 of norm 1/ell reversing GammaV"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_odd_form_review.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"R1": True, "R2": True, "R3": True, "R4": True, "R5": True}
+    assert d["R2"]["cubic c1c3c4 coefficient"] == "1/(4*ell)" and d["R5"]["largest identity residual"] < 1e-6
+    # in process: K3 = (c2c3 - c1c4)/2 and K4 = -(c2c4 + c1c3)/2 at ell = 1, in the lane's own gamma matrices
+    import numpy as np
+    p1 = np.array([[0, 1], [1, 0]]); p2 = np.array([[0, -1j], [1j, 0]]); p3 = np.diag([1, -1]); i2 = np.eye(2)
+    c1, c2, c3, c4 = (1j * np.kron(p1, i2), 1j * np.kron(p2, i2), 1j * np.kron(p3, p1), 1j * np.kron(p3, p2))
+    gv = 1j * c3 @ c4
+    for K in ((c2 @ c3 - c1 @ c4) / 2, -(c2 @ c4 + c1 @ c3) / 2):
+        assert np.allclose(K.conj().T, -K) and np.allclose(gv @ K + K @ gv, 0)
+        assert np.allclose(sorted(np.linalg.eigvalsh(K.conj().T @ K)), [0, 0, 1, 1])
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W77: the audit lane's odd form, reviewed at its ask; relay section 96
+
+- **The audit lane asked for an independent review** of its conditional odd form estimate. W77 (the rule first, one
+  run, all five cells as predicted) reproduces its algebra on this seat's instruments:
+  - the frame brackets, by the structure equations;
+  - the spin connection, exactly −c₂/(2ℓ) + c₁c₃c₄/(4ℓ), so the lane's density term is its trace part;
+  - the cross form {V, H} = K₃E₃ + K₄E₄, in a second gamma representation;
+  - the coefficient norms.
+- **The identity and inequality (1)** hold on 40 numerical test sections in the physical norm. The domain claims were
+  read, not tested. The estimate is still not an index or a count.
+- **Surfaces.** The script and its output; the dossier (section, header bullet, table row, files), the state page,
+  the relay §96, the ledger (the relay's row through §96) and the test. 0 of 19.
+
 ## Every seat read again at the owner's question; main's B1637 corrections taken; relay section 95; W77's rule
 
 - **The owner asked whether the seat had checked the other seats and relays.** It had fetched only main, the audit

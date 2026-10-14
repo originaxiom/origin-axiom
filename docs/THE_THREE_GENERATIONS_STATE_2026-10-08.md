@@ -525,6 +525,9 @@ Under the owner's rulings, the table's rows split into two groups:
 - **Main's B1637 (2026-10-14) corrects W53 and W54:** W53's masses-only minimum is 20.6, not 163. With the leptons at
   weight 3, (5, 7, 3) fits on main's search, so the geometry's weight is excluded only as the quarks' weight. The count
   is unchanged; W78 checks the fit.
+- **W77, the audit lane's odd form reviewed (its ask; rule first; all five cells as predicted):** the lane's algebra
+  (brackets, spin connection, cross form, coefficient norms) reproduced exactly, and its identity and inequality (1)
+  hold on 40 test sections. The domain claims were read, not tested. Not an index or a count.
 - **The count after the field, by kind (READING):** still 0 of 19. θ̄ is the nearest number (two owed items, no free
   input). v becomes the reader's unit in the uniformization reading. Everything else waits on what splits the sectors.
 
@@ -544,7 +547,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W76 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W77 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§95).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§96).

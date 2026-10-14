@@ -207,6 +207,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   (248 of 8 798) has Chern–Simons exactly 0, never π²/2. So wherever the weave carries B1224's bit, the bit is 0. With
   W74's arg det M = 0, θ̄ = 0 given L192's dictionary; δ_CKM (1.14 rad) is not a bit and must come from the sector
   split. The count after the field, by kind, is a reading beside it: still 0 of 19, with θ̄ the nearest.
+- W77 (the audit lane's ask; rule first; all five cells as predicted): the lane's odd form estimate reviewed on this
+  seat's instruments. Its brackets, spin connection, cross form {V, H} = K₃E₃ + K₄E₄ and coefficient norms are
+  reproduced exactly, in a second gamma representation. Its identity and inequality (1) hold on 40 numerical test
+  sections in the physical norm. The domain claims were read, not tested.
 
 ## The setting
 
@@ -6334,6 +6338,58 @@ now say. The arcs cited win where this summary disagrees.
   number, and it fails the data (V = 1, J = 0, one mass pattern). The split is where the mixing, the CKM phase and
   the three mass patterns must come from, and main has sealed none of it yet. That is why the blind test matters.
 
+## W77. The audit lane's odd complementary form, reviewed on this seat's instruments: its brackets, spin connection, cross form and coefficient norms reproduced exactly, and its identity and inequality (1) hold on 40 numerical test sections (`the_odd_form_review.py`; `W77_RULE.md`)
+
+**Why.**
+- **The audit lane asked for it.** Its relay `PHYSICAL_TO_GENESIS_MAIN_SM_2026-10-14_ODD_DOMAIN_FORM.md` (to main and
+  this seat) reports a conditional odd form estimate and asks for "an independent analytic review" and a receiving
+  read or reproduction. The seat had mis-rowed that push as carrying no relay to it (corrected in the ledger, §95).
+- **The estimate is on the path to the four-dimensional index,** the duty W71 left to the lane. It is not an index or a
+  count.
+
+**The order.**
+- **The rule first** (`W77_RULE.md`, in ebcf56967). It disclosed what was read and the hand derivations, with one
+  sign in R2 settled by hand before the commit (the lane's convention gives the spin connection's linear part as
+  +½ Σ (div E_j) c_j).
+- **The script** entered 90457883a, a commit that also carried a wording fix (its message says so), before its run.
+- **The run.** One run, 26 s; its output committed before the read-out (ec2e60d9e).
+
+**The read-out (COMPUTED, exact where stated; all five cells as predicted).**
+- **R1, the brackets (exact).** By the structure equations from the lane's coframe, the only nonzero brackets are the
+  four the lane states, with their partners: [E₁, E₂] = −E₁/ℓ, [E₂, E₃] = E₃/(2ℓ), [E₁, E₄] = −E₃/ℓ and
+  [E₂, E₄] = −E₄/(2ℓ).
+- **R2, the spin connection (exact).** By the Koszul formula, Σ c_i ω_i = −c₂/(2ℓ) + c₁c₃c₄/(4ℓ), with nothing else.
+  Its linear part is +½ Σ (div E_j) c_j, with div E₂ = −1/ℓ. So the lane's "density" term is the spin connection's
+  trace part, and its mixed term is the cubic part.
+- **R3, the cross form (exact).** In the chiral gamma representation (c₁ = iγ₄, c₂ = iγ₁, c₃ = iγ₂, c₄ = iγ₃),
+  normal-ordered with R1's brackets, {V, H} = K₃E₃ + K₄E₄ with the lane's K₃ and K₄, for every β. There is no
+  second-order term, no horizontal derivative and no constant.
+- **R4, the coefficients (exact).** K₃ and K₄ are skew-Hermitian and anticommute with Γ_V = ic₃c₄. K†K has eigenvalues
+  {1/ℓ², 1/ℓ², 0, 0}, so each norm is 1/ℓ.
+- **R5, the test sections (numerical; ℓ = A = 1).** On 20 random smooth sections (two or three Fourier modes, Gaussian
+  profiles away from the box's edges, the physical density ℓ²A/y²) at β = 0 and ¾:
+  - the identity ‖Dψ‖² − ‖Vψ‖² − ‖Hψ‖² = ⟨ψ, Fψ⟩ holds to 3 × 10⁻¹⁰ relative on all 40;
+  - inequality (1) and the cross bound hold on all 40.
+
+**The read-outs (no prior).** The smallest margin of (1) is 38.7‖ψ‖², and the largest cross ratio
+|⟨ψ, Fψ⟩|/(2√2‖ψ‖‖Vψ‖) is 0.15. These sections are smooth bumps, not near-extremal ones, so (1) is far from tight on
+them. This is a consistency check, not a stress test.
+
+**What it shows (a READING; the lane's hypotheses throughout).**
+- **The lane's algebra is reproduced on this seat's instruments:** the brackets by a second route, the spin connection,
+  the cross form in a second representation, and the coefficient norms. The inequality chain to (1) was also checked
+  by hand.
+- **Its integration by parts holds numerically in the physical norm,** on smooth sections away from the puncture.
+- **Not reviewed:**
+  - the domain claims (the core, the critical profiles, the closure). They were read, and no gap was found as written;
+  - the upstream gap constant c, the bound on [D, P], compactness and the global bundle;
+  - the half-pole component. The test sections avoid the puncture, so it was not exercised.
+- **So the estimate stands as the lane wrote it, conditional on the same hypotheses,** now with a second seat's
+  algebra and numbers under it. It is still not an index, a kernel or a count.
+
+**Status.** COMPUTED (the rule first; one run; all five cells as predicted; exact where stated). A review of another
+seat's estimate: neither a weave nor a thread result. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6522,6 +6578,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W74 | COMPUTED (the rule first; one run; all three cells as predicted; exact where stated); a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf | the surface frame's CP: the orientation reversal with C = diag(1, 1, −1) fixes every section, so the Yukawas are real; with one coupling arg det(M_u M_d) = 0 and θ̄ = θ (I-18's Yukawa half paid here, its dictionary half standing); J = 0, so what splits the sectors must break CP. 0 of 19 |
 | W75 | COMPUTED (the rule first; one run; all four cells as predicted; exact where stated); U1 a weave-type census verifying chat1's, U2 to U4 fibre-level, under H-RES and §91's reading | chat1's scale check on this seat's instruments: b++swap(W) ≅ b++W with CS(swap W) = −CS(W) on all 745 threads (690 with CS ≠ 0), so B1012's k-blindness is m004's and B1224's bit survives as the reality of mirror-paired weave sums; the local model is u″ + e^{−2u} = 0, unique at weight zero up to a rescaling of z that the cusp fixes; the uniformizing bundle is the model in the log frame (c = 1), with unipotent monodromy, so κ = −2 is the frame's −1; the field's pointwise size is 1/(2R), and the residue's norm is the horocycle's length over 4π. 0 of 19 |
 | W76 | COMPUTED (the rule first; one run; all four cells as predicted); a weave census of thread quantities under a stated rule | the weave's β-odd bit: 8 798 threads to length 16, all geometric; the 248 mirror-symmetric threads (even lengths only) all have CS = 0 (largest 6 × 10⁻¹⁴), none π²/2; no other thread has 2CS ≡ 0. Wherever the weave carries B1224's bit, it is 0; θ̄ = 0 given L192's dictionary and a split that keeps arg det M = 0; δ_CKM is not a bit. 0 of 19 |
+| W77 | COMPUTED (the rule first; one run; all five cells as predicted; exact where stated); a review of the audit lane's estimate, under its hypotheses | the lane's odd complementary form: the four frame brackets by the structure equations; Σ c_i ω_i = −c₂/(2ℓ) + c₁c₃c₄/(4ℓ) exactly (the density term is the spin connection's trace part); {V, H} = K₃E₃ + K₄E₄ in the chiral representation, nothing else; K₃, K₄ skew, Γ_V-reversing, norm 1/ℓ; the identity to 3 × 10⁻¹⁰ and inequality (1) on 40 test sections. Domain claims read, not tested. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -6588,6 +6645,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W74_RULE.md`: the rule, committed before the code; `the_surface_cp.py` → `the_surface_cp.json`: W74, the surface frame's CP (the involution's identities, the reality of W72's data, arg det and J).
 - `W75_RULE.md`: the rule, committed before the code; `the_puncture_scale.py` → `the_puncture_scale.json`: W75, chat1's scale check on this seat's instruments (the mirror pairs on 745 threads, the local model by the ODE, the uniformization in the log frame and its monodromy, the field's size).
 - `W76_RULE.md`: the rule, committed before the code; `the_weaves_bit.py` → `the_weaves_bit.json`: W76, the weave's β-odd bit (Chern–Simons on all 8 798 threads to length 16, and the bit on the 248 mirror-symmetric ones).
+- `W77_RULE.md`: the rule, committed before the code; `the_odd_form_review.py` → `the_odd_form_review.json`: W77, the audit lane's odd form reviewed (the brackets, the spin connection, the cross form, the coefficients, the test sections).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

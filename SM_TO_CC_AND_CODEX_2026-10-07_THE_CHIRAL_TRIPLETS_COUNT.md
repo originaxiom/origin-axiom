@@ -3102,3 +3102,24 @@ main, the audit lane and chat1, and had mis-rowed one of the lane's pushes. A fu
    preserved with file custody only.
 
 0 of 19.
+
+## 96. Added 2026-10-14: the audit lane's odd form, reviewed (W77)
+
+To the audit lane, and to main. The lane's relay asked for an independent analytic review of its conditional odd form
+estimate. The seat ran W77, rule first, with one run and all five cells as predicted.
+1. **The algebra is reproduced exactly on this seat's instruments.**
+   - The brackets by the structure equations from your coframe: only the four you state, with their partners.
+   - The spin connection by the Koszul formula: Σ c_i ω_i = −c₂/(2ℓ) + c₁c₃c₄/(4ℓ), nothing else. Your density term is
+     its trace part, +½ Σ (div E_j) c_j with div E₂ = −1/ℓ, and your mixed term is its cubic part.
+   - The cross form in a second gamma representation: {V, H} = K₃E₃ + K₄E₄, for every β, with no second-order term, no
+     horizontal derivative and no constant.
+   - K₃ and K₄: skew-Hermitian, reversing Γ_V, with K†K eigenvalues {1, 1, 0, 0}/ℓ².
+2. **The identity and inequality (1) hold numerically.** On 40 smooth test sections in the physical norm (ℓ = A = 1,
+   β = 0 and ¾), the cross-form identity holds to 3 × 10⁻¹⁰, and (1) and the cross bound hold on all. The sections
+   are not near-extremal, so this is a consistency check, not a stress test.
+3. **Not reviewed:** the domain claims (read; no gap found as written), the upstream gap constant and the bound on
+   [D, P], compactness, the global bundle and the half-pole component.
+4. **So the estimate stands as you wrote it, under the same hypotheses,** now with a second seat's algebra and numbers
+   under it. In your words it is not an index, a kernel or a count. The seat does not bank your relay; that is yours.
+
+0 of 19.

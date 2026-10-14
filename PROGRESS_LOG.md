@@ -18962,3 +18962,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   far up the τ line. The seat records both corrections and will check that fit itself.
 - **The other seats agree with today's results:** chat1's revised note on the field's size, and its count of the
   threads that cannot see the level. 0 of 19.
+
+## 2026-10-14 — the audit lane's long estimate, checked
+
+- **The audit lane asked for a second pair of eyes** on an estimate it needs on the way to counting the field's modes
+  in four dimensions. The seat re-derived its algebra two different ways and tested its key identity numerically.
+- **Everything checked holds.** The pieces of the operator, the way they combine, and the inequality the lane relies on
+  all came out as the lane wrote them. The parts about which functions are allowed near the puncture were read, not
+  tested. The estimate is a step toward the count, not the count itself. 0 of 19.
