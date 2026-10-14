@@ -1,0 +1,81 @@
+{
+  "scope": "Separate pre-execution full regular EVEN extension; finite exact safeguards for authored uniform end estimate, no odd QDQ/global admission/physical index",
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FULL_EVEN_DESIGN.md",
+      "sha256": "7d8fcb7df4547e1b058b90d7a90dd3506fea9c87e684a38996b2d3762470a949"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FULL_EVEN_PROOF.md",
+      "sha256": "7c8c3ce51460df5f843d02525274f2c4b59a44f126b745fd76dac2d8c82551e3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/full_even_probe.py",
+      "sha256": "6b78e77e46b40c98ea387956d65993aa0acd12bb07a1f8a8807781e00e76127c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/full_even_reference.py",
+      "sha256": "f5c509868e3b153d607387ecd8ee8c0ddd13f22e655ce4d4e064402b7be279f8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/full_even_execute.py",
+      "sha256": "b7fe305648c22b4f811a1da6cd44929c2b3450634240e25c71cd606b3b525d0a"
+    },
+    {
+      "path": "tests/test_physical_bridge_surface_full_even.py",
+      "sha256": "fbf63abd187992f132aa75e0f8aa3b2a9418b804d4a4b1cd56bf4c7499959d57"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/DESIGN.md",
+      "sha256": "11234a8ddac7a8bf6aaf60a5e375688955c028c16b8a50d3a7b66c9ed2e2ef0c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/PROOF.md",
+      "sha256": "e9be9d6141fc0d4949530d470ee007467a7a54ed0833cdf0fb8d575b92ceeaa4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/probe.py",
+      "sha256": "e71b82d08be0d3fb674e7d191af77453d581abc013b99ae9f62e2b1d1b2ebf75"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/reference.py",
+      "sha256": "857bf0aaba59eacb7a87b754232bf223cd568d16ecaee02dd8a0907b17b7b8da"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/execute.py",
+      "sha256": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664"
+    },
+    {
+      "path": "tests/test_physical_bridge_surface_even_channels.py",
+      "sha256": "1736091a61429b723fec44f5c79d6d99e205cf24521c9969b192251fbfb86a51"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_metric.py",
+      "sha256": "2124797777869d47541e7d5cecec9726d5bdb92b61dae4f483b66762cd43c279"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_metric_PROOF.md",
+      "sha256": "a34062c820e711ef79b0224c7668436fc293789c36da646f39f6bfb648436cf1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md",
+      "sha256": "299e95d002398359ee3a3c8a1421f7acf256618284c0ad1e4b8a70dee3072b55"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py",
+      "sha256": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md",
+      "sha256": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
+      "sha256": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md",
+      "sha256": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0"
+    }
+  ]
+}
