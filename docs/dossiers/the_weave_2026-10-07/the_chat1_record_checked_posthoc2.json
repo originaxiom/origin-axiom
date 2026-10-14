@@ -1,0 +1,4477 @@
+{
+ "status": "W86 post hoc 2 (labelled): the auditors' A-grade findings A1 (the self-coupling convention) and A2 (the hierarchy 'carried by K, not by Y') re-checked on this seat's own code",
+ "A1": {
+  "words": 70,
+  "A1a": {
+   "hits at LR": 0,
+   "every other word has a hit": true,
+   "words with no hit": [
+    "LR"
+   ],
+   "hit counts equal chat1's S3 counts on every word": true,
+   "words where they differ": []
+  },
+  "A1b": {
+   "every word has a hit": true,
+   "every word has a hit meeting all of B517's conditions": true,
+   "words with no hit": [],
+   "hits at LR": 18,
+   "hits at LR meeting all of B517's conditions": 12
+  },
+  "A1c": {
+   "F' squared is LR": true,
+   "F' squared is F' + I": true,
+   "elements": 14,
+   "hits": 18,
+   "hits (a, b, c, d; unimodular; primitive)": [
+    [
+     2,
+     0,
+     1,
+     2,
+     true,
+     true
+    ],
+    [
+     3,
+     0,
+     1,
+     2,
+     false,
+     true
+    ],
+    [
+     0,
+     1,
+     1,
+     1,
+     true,
+     true
+    ],
+    [
+     0,
+     1,
+     2,
+     2,
+     true,
+     true
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     true,
+     true
+    ],
+    [
+     0,
+     1,
+     3,
+     3,
+     false,
+     true
+    ],
+    [
+     1,
+     1,
+     0,
+     1,
+     true,
+     true
+    ],
+    [
+     1,
+     1,
+     0,
+     2,
+     true,
+     true
+    ],
+    [
+     1,
+     1,
+     1,
+     2,
+     true,
+     true
+    ],
+    [
+     1,
+     1,
+     0,
+     3,
+     false,
+     true
+    ],
+    [
+     0,
+     2,
+     1,
+     1,
+     true,
+     true
+    ],
+    [
+     1,
+     2,
+     2,
+     0,
+     true,
+     true
+    ],
+    [
+     1,
+     2,
+     3,
+     0,
+     false,
+     true
+    ],
+    [
+     1,
+     2,
+     1,
+     1,
+     true,
+     true
+    ],
+    [
+     2,
+     2,
+     0,
+     1,
+     true,
+     true
+    ],
+    [
+     0,
+     3,
+     1,
+     1,
+     false,
+     true
+    ],
+    [
+     2,
+     3,
+     0,
+     1,
+     true,
+     true
+    ],
+    [
+     3,
+     3,
+     0,
+     1,
+     false,
+     true
+    ]
+   ],
+   "(F', F'^2)": {
+    "T": [
+     [
+      1,
+      1,
+      0,
+      1
+     ],
+     [
+      1,
+      2,
+      1,
+      1
+     ],
+     [
+      1,
+      1,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1,
+      2
+     ]
+    ],
+    "nonnegative": true,
+    "primitive": true,
+    "det": 1,
+    "charpoly": "x**4 - 6*x**3 + 7*x**2 - 4*x + 1",
+    "irreducible": true,
+    "Pisot": true,
+    "root moduli": [
+     4.676205016021387,
+     0.6180339887498949,
+     0.6180339887498949,
+     0.5598629614784026
+    ]
+   }
+  },
+  "closed-form roots against the characteristic polynomial's, worst over every hit": 1.7105694144590052e-49,
+  "per word": {
+   "F (control)": {
+    "trace": 1,
+    "A1a hits (chat1's convention)": 2,
+    "A1b elements with nonnegative entries": 14,
+    "A1b hits (nonnegative entries)": 2,
+    "A1b hits meeting all of B517's conditions": 2,
+    "A1b hits, first four": [
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ]
+    ]
+   },
+   "LR": {
+    "trace": 3,
+    "A1a hits (chat1's convention)": 0,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 18,
+    "A1b hits meeting all of B517's conditions": 12,
+    "A1b hits, first four": [
+     [
+      [
+       2,
+       0
+      ],
+      [
+       -1,
+       2
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       3,
+       0
+      ],
+      [
+       -1,
+       2
+      ],
+      false,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       2
+      ],
+      true,
+      true
+     ]
+    ]
+   },
+   "LLR": {
+    "trace": 4,
+    "A1a hits (chat1's convention)": 2,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 12,
+    "A1b hits meeting all of B517's conditions": 6,
+    "A1b hits, first four": [
+     [
+      [
+       2,
+       0
+      ],
+      [
+       -1,
+       3
+      ],
+      false,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       -1,
+       2
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       2
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRR": {
+    "trace": 4,
+    "A1a hits (chat1's convention)": 2,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 12,
+    "A1b hits meeting all of B517's conditions": 6,
+    "A1b hits, first four": [
+     [
+      [
+       2,
+       0
+      ],
+      [
+       -1,
+       3
+      ],
+      false,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       -1,
+       2
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       2
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLR": {
+    "trace": 5,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 10,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       2,
+       0
+      ],
+      [
+       -1,
+       3
+      ],
+      false,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       -1,
+       2
+      ],
+      false,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ]
+    ]
+   },
+   "LLRR": {
+    "trace": 6,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRRR": {
+    "trace": 5,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 10,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       2,
+       0
+      ],
+      [
+       -1,
+       3
+      ],
+      false,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       -1,
+       2
+      ],
+      false,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ]
+    ]
+   },
+   "LLLLR": {
+    "trace": 6,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRR": {
+    "trace": 8,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLR": {
+    "trace": 10,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRR": {
+    "trace": 8,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRLRR": {
+    "trace": 10,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRRRR": {
+    "trace": 6,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLLR": {
+    "trace": 7,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLRR": {
+    "trace": 10,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRLR": {
+    "trace": 13,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRRR": {
+    "trace": 11,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLRR": {
+    "trace": 15,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRLR": {
+    "trace": 15,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRRR": {
+    "trace": 10,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRLRRR": {
+    "trace": 13,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRRRRR": {
+    "trace": 7,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLLLR": {
+    "trace": 8,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLLRR": {
+    "trace": 12,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLRLR": {
+    "trace": 16,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLRRR": {
+    "trace": 14,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRLLR": {
+    "trace": 18,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRLRR": {
+    "trace": 20,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRRLR": {
+    "trace": 20,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRRRR": {
+    "trace": 14,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLLRR": {
+    "trace": 22,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLRLR": {
+    "trace": 26,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLRRR": {
+    "trace": 20,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRLRR": {
+    "trace": 22,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRRLR": {
+    "trace": 20,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRRRR": {
+    "trace": 12,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRLRLRR": {
+    "trace": 26,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRLRRRR": {
+    "trace": 16,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRRLRRR": {
+    "trace": 18,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRRRRRR": {
+    "trace": 8,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLLLLR": {
+    "trace": 9,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLLLRR": {
+    "trace": 14,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLLRLR": {
+    "trace": 19,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLLRRR": {
+    "trace": 17,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLRLLR": {
+    "trace": 22,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLRLRR": {
+    "trace": 25,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLRRLR": {
+    "trace": 25,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLLRRRR": {
+    "trace": 18,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRLLRR": {
+    "trace": 29,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRLRLR": {
+    "trace": 34,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRLRRR": {
+    "trace": 27,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRRLLR": {
+    "trace": 29,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRRLRR": {
+    "trace": 30,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRRRLR": {
+    "trace": 27,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLLRRRRR": {
+    "trace": 17,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLLRLR": {
+    "trace": 37,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLLRRR": {
+    "trace": 30,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLRLRR": {
+    "trace": 39,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLRRLR": {
+    "trace": 38,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRLRRRR": {
+    "trace": 25,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRLRLR": {
+    "trace": 39,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRLRRR": {
+    "trace": 29,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRRLRR": {
+    "trace": 29,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRRRLR": {
+    "trace": 25,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LLRRRRRR": {
+    "trace": 14,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRLRLRRR": {
+    "trace": 34,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRLRRLRR": {
+    "trace": 37,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRLRRRRR": {
+    "trace": 19,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 22,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRRLRRRR": {
+    "trace": 22,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 23,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   },
+   "LRRRRRRR": {
+    "trace": 9,
+    "A1a hits (chat1's convention)": 4,
+    "A1b elements with nonnegative entries": 20,
+    "A1b hits (nonnegative entries)": 6,
+    "A1b hits meeting all of B517's conditions": 4,
+    "A1b hits, first four": [
+     [
+      [
+       -1,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       -1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      true,
+      true
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      false,
+      true
+     ]
+    ]
+   }
+  },
+  "A1 holds": true
+ },
+ "A2": {
+  "per thread": {
+   "LR": {
+    "sampled y_max": 1.118026087876623,
+    "own m2/m3": 0.36877466977686507,
+    "own m1/m3": 0.009568191038650803,
+    "hybrid m2/m3": 0.36434969473869205,
+    "hybrid / own": 0.9880008704479338,
+    "A2a residual of Y against its best multiple of W72's Y": 0.0551906620761148,
+    "|lambda|": 2.866957366206222,
+    "A2b complex: median m2/m3": 0.004368326567330659,
+    "A2b complex: 5% and 95%": [
+     0.0009629435838828198,
+     0.04996915848209384
+    ],
+    "A2b complex: median / own": 0.01184551685714696,
+    "A2b real: median m2/m3": 0.005534988196266816,
+    "A2b real: median / own": 0.015009133354023145,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.3044539370372698,
+     2.660293783728972
+    ]
+   },
+   "LLR": {
+    "sampled y_max": 1.7320278888839717,
+    "own m2/m3": 0.003386107512931077,
+    "own m1/m3": 0.00033247379939669946,
+    "hybrid m2/m3": 0.003099026866093689,
+    "hybrid / own": 0.9152180945994577,
+    "A2a residual of Y against its best multiple of W72's Y": 0.026890927165472967,
+    "|lambda|": 3.7784746902821627,
+    "A2b complex: median m2/m3": 9.06754730706007e-05,
+    "A2b complex: 5% and 95%": [
+     1.899147020042627e-05,
+     0.0011398401259360683
+    ],
+    "A2b complex: median / own": 0.026778675137845914,
+    "A2b real: median m2/m3": 0.0001106394516361333,
+    "A2b real: median / own": 0.03267452412943668,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.3086317593013645,
+     2.7505346853003823
+    ]
+   },
+   "LRR": {
+    "sampled y_max": 1.7320278888839717,
+    "own m2/m3": 0.003386107512931077,
+    "own m1/m3": 0.00033247379939669946,
+    "hybrid m2/m3": 0.003099026866093689,
+    "hybrid / own": 0.9152180945994577,
+    "A2a residual of Y against its best multiple of W72's Y": 0.026890927165472967,
+    "|lambda|": 3.7784746902821627,
+    "A2b complex: median m2/m3": 9.06754730706007e-05,
+    "A2b complex: 5% and 95%": [
+     1.899147020042627e-05,
+     0.0011398401259360683
+    ],
+    "A2b complex: median / own": 0.026778675137845914,
+    "A2b real: median m2/m3": 0.0001106394516361333,
+    "A2b real: median / own": 0.03267452412943668,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.3086317593013645,
+     2.7505346853003823
+    ]
+   },
+   "LLLR": {
+    "sampled y_max": 2.2912449344015102,
+    "own m2/m3": 5.607578178539906e-05,
+    "own m1/m3": 3.0488801561130706e-06,
+    "hybrid m2/m3": 5.216460136388709e-05,
+    "hybrid / own": 0.93025187885066,
+    "A2a residual of Y against its best multiple of W72's Y": 0.010255892647058205,
+    "|lambda|": 4.119980526704272,
+    "A2b complex: median m2/m3": 2.227927387037718e-06,
+    "A2b complex: 5% and 95%": [
+     4.3204800411637044e-07,
+     2.803293683079041e-05
+    ],
+    "A2b complex: median / own": 0.039730652272739655,
+    "A2b real: median m2/m3": 2.657678772477537e-06,
+    "A2b real: median / own": 0.047394413200486846,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.30619810349916926,
+     3.199903183593799
+    ]
+   },
+   "LLRR": {
+    "sampled y_max": 1.4141800367740942,
+    "own m2/m3": 0.035742093939504366,
+    "own m1/m3": 0.005863614611571089,
+    "hybrid m2/m3": 0.03552078771192991,
+    "hybrid / own": 0.9938082467146712,
+    "A2a residual of Y against its best multiple of W72's Y": 0.02510238833986257,
+    "|lambda|": 5.184360284304024,
+    "A2b complex: median m2/m3": 0.0006940830617676063,
+    "A2b complex: 5% and 95%": [
+     0.00015326375180181858,
+     0.008649755521405738
+    ],
+    "A2b complex: median / own": 0.019419205347688456,
+    "A2b real: median m2/m3": 0.0008535654013549374,
+    "A2b real: median / own": 0.023881236583386745,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.31969962827001885,
+     2.760812047983345
+    ]
+   },
+   "LRRR": {
+    "sampled y_max": 2.2912449344015102,
+    "own m2/m3": 5.607578178539906e-05,
+    "own m1/m3": 3.0488801561130706e-06,
+    "hybrid m2/m3": 5.216460136388709e-05,
+    "hybrid / own": 0.93025187885066,
+    "A2a residual of Y against its best multiple of W72's Y": 0.010255892647058205,
+    "|lambda|": 4.119980526704272,
+    "A2b complex: median m2/m3": 2.227927387037718e-06,
+    "A2b complex: 5% and 95%": [
+     4.3204800411637044e-07,
+     2.803293683079041e-05
+    ],
+    "A2b complex: median / own": 0.039730652272739655,
+    "A2b real: median m2/m3": 2.657678772477537e-06,
+    "A2b real: median / own": 0.047394413200486846,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.30619810349916926,
+     3.199903183593799
+    ]
+   },
+   "LLLLR": {
+    "sampled y_max": 2.8283600735481884,
+    "own m2/m3": 1.550741661957181e-06,
+    "own m1/m3": 2.491488065796693e-08,
+    "hybrid m2/m3": 1.522537125332453e-06,
+    "hybrid / own": 0.981812227454358,
+    "A2a residual of Y against its best multiple of W72's Y": 0.0023978089072413254,
+    "|lambda|": 4.136646072663252,
+    "A2b complex: median m2/m3": 7.252102056609509e-08,
+    "A2b complex: 5% and 95%": [
+     1.4063803190536406e-08,
+     9.1069151434498e-07
+    ],
+    "A2b complex: median / own": 0.04676537836390285,
+    "A2b real: median m2/m3": 8.650530789523468e-08,
+    "A2b real: median / own": 0.05578318427716509,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.30047215937090704,
+     3.520229437171289
+    ]
+   },
+   "LLLRR": {
+    "sampled y_max": 1.936428769372379,
+    "own m2/m3": 0.0007845719105375711,
+    "own m1/m3": 0.00011561257663983955,
+    "hybrid m2/m3": 0.0008010915693094711,
+    "hybrid / own": 1.0210556337156922,
+    "A2a residual of Y against its best multiple of W72's Y": 0.013588662184121343,
+    "|lambda|": 5.905511153174744,
+    "A2b complex: median m2/m3": 2.8021058894064127e-05,
+    "A2b complex: 5% and 95%": [
+     5.630971586310454e-06,
+     0.00035352653670947065
+    ],
+    "A2b complex: median / own": 0.03571509318357412,
+    "A2b real: median m2/m3": 3.379968199277277e-05,
+    "A2b real: median / own": 0.04308041307470973,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.3047433632374703,
+     2.771570814065938
+    ]
+   },
+   "LLRLR": {
+    "sampled y_max": 1.6329910665001386,
+    "own m2/m3": 0.011806529154157929,
+    "own m1/m3": 0.000766344520323629,
+    "hybrid m2/m3": 0.01060640987667942,
+    "hybrid / own": 0.8983512205993359,
+    "A2a residual of Y against its best multiple of W72's Y": 0.04166226617388347,
+    "|lambda|": 6.734745897643536,
+    "A2b complex: median m2/m3": 0.00027560783414321314,
+    "A2b complex: 5% and 95%": [
+     5.8513851729162866e-05,
+     0.003451676412401782
+    ],
+    "A2b complex: median / own": 0.023343679632227204,
+    "A2b real: median m2/m3": 0.0003380247697349134,
+    "A2b real: median / own": 0.028630325248116678,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.31215471390975935,
+     2.7786505107110857
+    ]
+   },
+   "LLRRR": {
+    "sampled y_max": 1.936428769372379,
+    "own m2/m3": 0.0007845719105375711,
+    "own m1/m3": 0.00011561257663983955,
+    "hybrid m2/m3": 0.0008010915693094711,
+    "hybrid / own": 1.0210556337156922,
+    "A2a residual of Y against its best multiple of W72's Y": 0.013588662184121343,
+    "|lambda|": 5.905511153174744,
+    "A2b complex: median m2/m3": 2.8021058894064127e-05,
+    "A2b complex: 5% and 95%": [
+     5.630971586310454e-06,
+     0.00035352653670947065
+    ],
+    "A2b complex: median / own": 0.03571509318357412,
+    "A2b real: median m2/m3": 3.379968199277277e-05,
+    "A2b real: median / own": 0.04308041307470973,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.3047433632374703,
+     2.771570814065938
+    ]
+   },
+   "LRLRR": {
+    "sampled y_max": 1.6329276902894994,
+    "own m2/m3": 0.011806529154157929,
+    "own m1/m3": 0.000766344520323629,
+    "hybrid m2/m3": 0.01060640987667942,
+    "hybrid / own": 0.8983512205993359,
+    "A2a residual of Y against its best multiple of W72's Y": 0.04166226617388347,
+    "|lambda|": 6.734745897643536,
+    "A2b complex: median m2/m3": 0.00027560783414321314,
+    "A2b complex: 5% and 95%": [
+     5.8513851729162866e-05,
+     0.003451676412401782
+    ],
+    "A2b complex: median / own": 0.023343679632227204,
+    "A2b real: median m2/m3": 0.0003380247697349134,
+    "A2b real: median / own": 0.028630325248116678,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.31215471390975935,
+     2.7786505107110857
+    ]
+   },
+   "LRRRR": {
+    "sampled y_max": 2.8283600735481884,
+    "own m2/m3": 1.550741661957181e-06,
+    "own m1/m3": 2.491488065796693e-08,
+    "hybrid m2/m3": 1.522537125332453e-06,
+    "hybrid / own": 0.981812227454358,
+    "A2a residual of Y against its best multiple of W72's Y": 0.0023978089072413254,
+    "|lambda|": 4.136646072663252,
+    "A2b complex: median m2/m3": 7.252102056609509e-08,
+    "A2b complex: 5% and 95%": [
+     1.4063803190536406e-08,
+     9.1069151434498e-07
+    ],
+    "A2b complex: median / own": 0.04676537836390285,
+    "A2b real: median m2/m3": 8.650530789523468e-08,
+    "A2b real: median / own": 0.05578318427716509,
+    "A2d W72 scaled: least and greatest m2/m3 / hybrid": [
+     0.30047215937090704,
+     3.520229437171289
+    ]
+   }
+  },
+  "controls (largest |d ln|)": {
+   "against W84 (N = 512)": 0.0,
+   "against chat1's thread_frame": 9.797072131334517e-07,
+   "against chat1's hybrid": 3.853998009617499e-09
+  },
+  "controls hold": true,
+  "hybrid / own, range": [
+   0.8983512205993359,
+   1.0210556337156922
+  ],
+  "A2a residual, range": [
+   0.0023978089072413254,
+   0.0551906620761148
+  ],
+  "A2b complex median / own, range": [
+   0.01184551685714696,
+   0.04676537836390285
+  ],
+  "A2b real median / own, range": [
+   0.015009133354023145,
+   0.05578318427716509
+  ],
+  "A2c decades from LR to LLLLR": {
+   "own": 5.376221628064004,
+   "complex median": 4.779851190734922
+  },
+  "A2c K carries the trend (median falls by at least half the own decades)": true,
+  "A2d W72 scaled, range against the hybrid": [
+   0.30047215937090704,
+   3.520229437171289
+  ],
+  "A2 holds": true
+ },
+ "cells": {
+  "A1": true,
+  "A2": true
+ },
+ "seconds": 486.3
+}
