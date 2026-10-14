@@ -1,0 +1,44 @@
+[
+  {
+    "source_ref": "9a87e8097ef363eba58de2f642924f35634863dc",
+    "source_path": "frontier/B1651_where_a_higgs_can_couple/verification/where_a_higgs_couples.py",
+    "copied_path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/incoming/where_a_higgs_couples.py",
+    "sha256": "cee408033fd5eea8c262dcccc7aaef50e724c1cec2d8caca524ce099e6ad2301"
+  },
+  {
+    "source_ref": "40ca3bb076cd3faf17e2e32a6097358a76388870",
+    "source_path": "docs/dossiers/the_weave_2026-10-07/the_lane_su2_branching.py",
+    "copied_path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/incoming/the_lane_su2_branching.py",
+    "sha256": "082e115f149d6407d7bf29f9b6aa07eed6cf875a6f89a36113ebe1560e0cae4d"
+  },
+  {
+    "source_ref": "40ca3bb076cd3faf17e2e32a6097358a76388870",
+    "source_path": "docs/dossiers/the_weave_2026-10-07/the_completion_dichotomy.py",
+    "copied_path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/incoming/the_completion_dichotomy.py",
+    "sha256": "537ccc235664885caae4362fc8ee6488c25babdab5b0534e752a339f2a057dcd"
+  },
+  {
+    "source_ref": "40ca3bb076cd3faf17e2e32a6097358a76388870",
+    "source_path": "docs/dossiers/the_weave_2026-10-07/the_cusp_condensate_charge_map.py",
+    "copied_path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/incoming/the_cusp_condensate_charge_map.py",
+    "sha256": "d0954826b54c4e46ed2051e9e3a4d9842771190205b4192c009db65e3d9959cf"
+  },
+  {
+    "source_ref": "9a87e8097ef363eba58de2f642924f35634863dc",
+    "source_path": "frontier/B1651_where_a_higgs_can_couple/verification/where_a_higgs_couples.json",
+    "copied_path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/expected/where_a_higgs_couples.json",
+    "sha256": "36eb5993b13f49e771b1d8e814591998aaad0c935c95848546bcff7043cfe691"
+  },
+  {
+    "source_ref": "40ca3bb076cd3faf17e2e32a6097358a76388870",
+    "source_path": "docs/dossiers/the_weave_2026-10-07/the_lane_su2_branching.json",
+    "copied_path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/expected/the_lane_su2_branching.json",
+    "sha256": "dc2219b8e501c8d33dd0b8a6b75bbe218c7bf7230df4e9300c1c03d57d97d110"
+  },
+  {
+    "source_ref": "40ca3bb076cd3faf17e2e32a6097358a76388870",
+    "source_path": "docs/dossiers/the_weave_2026-10-07/the_completion_dichotomy.json",
+    "copied_path": "reports/physical_bridge_2026_09_05/seat_joint_replay_2026_10_14/expected/the_completion_dichotomy.json",
+    "sha256": "f1f9f1e4a677dff224ecd08cbdd2a683da760e062d047be0b7906bf7cdd112ed"
+  }
+]
