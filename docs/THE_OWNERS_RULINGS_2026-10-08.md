@@ -150,6 +150,14 @@ selecting τ needs a stated functional, and potentials built from the threads se
 - **The owner's choice: "Verify B1644 (Recommended)".** W63, rule first, verifies B1644 and B1645 and answers main's
   P-115 from the record.
 
+## A ruling of 2026-10-14, after W63
+
+- **The question.** The owner asked what happened to the quest for a field derived from the principle. The seat
+  answered that the field is not derived. The one lead on record that could make it come from the principle is GENESIS
+  FK10's tagged unit at the cusp, read as a vector in M (main's P-113).
+- **The owner's choice: "lets follow that lead properly".** The seat writes a reading first, as P-113 asks, checks the
+  literature, and proposes W64 rule first.
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:

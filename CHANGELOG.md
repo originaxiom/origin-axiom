@@ -1,5 +1,15 @@
 # Changelog
 
+## The weave's reading of the cusp's unit as a vector in M (main's P-113); relay section 76
+
+- **A reading** (the owner's "lets follow that lead properly"; nothing computed): the cusp's monodromy L turns M a
+  quarter-turn about one unit, and its two complex eigenlines are exactly the isotropic lines it keeps, where the theta
+  triplet R tends at the cusp. So the cone a hierarchy needs is the cusp's own geometry.
+- **Two frames:** the end-data route (the surface frame, GENESIS FK11) and τ's runaway (the fibre frame). W64 proposed,
+  rule first. 0 of 19.
+- **Relay §76** to main. **Surfaces.** The dossier (the reading and a header bullet), the rulings page, the state page,
+  the relay and the ledger.
+
 ## The weave's W63: main's B1644 and B1645 verified; P-115 answered; relay section 75
 
 - **W63** (the owner's "Verify B1644"; the rule 8d9713d43 first; the script 3cdfa7ebc before its one run, with main's

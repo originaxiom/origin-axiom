@@ -130,6 +130,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   B1644 and B1645 hold on the seat's own instruments. A Higgs in M leaves one generation exactly massless (Jacobi), and
   the other two have a ratio set by its direction. The record's Higgs is a real unit direction, so m ≥ ½: 0.566 at the
   selected state and ½ on the imaginary axis. Nothing on record brings the Higgs near the isotropic cone.
+- Reading: the cusp's unit as a vector in M (the owner's "follow that lead properly"; nothing computed): the cusp's
+  monodromy L turns M a quarter-turn about one unit, and its two complex eigenlines are exactly the isotropic lines in
+  the plane it turns, where R tends at the cusp. So the cone a hierarchy needs is the cusp's own geometry. The end-data
+  route lives in the surface frame and τ's runaway in the fibre frame; which frame is physics is GENESIS FK11's
+  question.
 
 ## The setting
 
@@ -5016,6 +5021,107 @@ parent map owed).**
 **Status.** COMPUTED (the rule first; one run; V2 to V6 as predicted; V1 failed as worded on its branch clause, as the
 seat disclosed before the run). A WEAVE result given Λ and B1644's hypothesis. B1644 and B1645 are verified on this
 seat's code. 0 of 19.
+
+## Reading: the cusp's unit as a vector in M, main's path 4 (READING; the owner: "lets follow that lead properly", 2026-10-14)
+
+Nothing here is computed. It reads main's P-113 ("the cusp's tagged unit as a vector in M rather than uniform … a
+reading first") against W46–W48, B1644–B1646 and W62–W63. Hand derivations are marked; W64 would compute them, rule
+first.
+Weave-type throughout; given Λ (GENESIS FK11).
+
+1. **The lead.**
+   - GENESIS FK10's unit of end data at the weave's cusp is a tagged working postulate (v1.39, the owner's decision of
+     2026-10-09). Given Λ and the unit, W46's index on the weave's surface is ±3.
+   - Main's P-113 asks whether the unit could be a vector in M rather than uniform, so that one postulate gives both the
+     ±3 and the datum acting on M that B1644 found missing.
+   - P-115 and P-118 add two hopes: that it fixes the Higgs's direction near the isotropic cone (B1645), and that it
+     stops τ's runaway to the cusp (W62).
+2. **What the record already says about the cusp.**
+   - The cusp's monodromy is the move L (W46). End data that L keeps and that respects Λ's parity grading has the form
+     (m_fixed, m_pair, m_pair). The index moves by m_fixed + 2m_pair, so a generation-blind source gives multiples of 3
+     (W46's reading).
+   - Nothing on the weave's surface forces the unit (W47). Flat twists move the index by at most one. The unit is a
+     non-flat source, Δ⁻¹ at the cusp. An outside source of 24 lattice-free oscillators gives three; the heterotic
+     string gives one (W48).
+   - The Higgs's direction must be near the isotropic cone a·a = 0 for a hierarchy (B1645). The record's own Higgs is a
+     real unit direction (W63). The theta triplet R tends to (0, −1, √−1)/√2 at the cusp (W63's read-out).
+3. **The cusp's geometry on M (by hand).**
+   - The record's L is a ↦ a, b ↦ ab (`the_common_point.py`). Through the common point (a ↦ i, b ↦ j) it acts on the
+     units by i ↦ i, j ↦ k, k ↦ −j: a quarter-turn about e_i. R is a quarter-turn about e_j, so the moves act on M
+     through the cube's rotation group O.
+   - L's eigenlines in M ⊗ ℂ are e_i (eigenvalue 1) and e_j ± √−1 e_k (eigenvalues ∓√−1). The last two are isotropic:
+     (e_j ± √−1 e_k)·(e_j ± √−1 e_k) = 1 − 1 = 0. They are the only isotropic lines L keeps, and complex conjugation
+     (the weave's CP, B1611) exchanges them.
+   - So **the isotropic cone that B1645 says a hierarchy needs meets the cusp's eigenlines in exactly two lines**, and R
+     tends to one of them at the cusp. That is why R_i → 0 there: the parity (0, ½) with unit i is the one L fixes.
+   - On the cone, a conic ≅ P¹, the group O acts as the octahedral group on the sphere. Its special orbits have 6, 8 and
+     12 points. The 6 are the isotropic lines kept by the three quarter-turns, e_j ± √−1 e_k and its two rotations, and
+     the cusp's pair is among them.
+   - **At the cusp B1645's ratio takes its two extremes on L's eigenlines:** m → 1 along e_i (W63: 0.995 at 4i; two
+     equal heavy masses), and m = 0 along e_j ± √−1 e_k (one heavy generation, two massless).
+4. **Two frames in which a unit "as a vector in M" can act. They are not one frame.**
+   - **The surface frame** (W45–W48: the weave's surface M₁,₂ as the internal space; GENESIS FK11, given Λ). Here τ is a
+     coordinate, integrated over, and the unit is end data of a bundle over the base.
+     - On the fermions: units per L-eigenline (m₁, m₊, m₋) with total 3 for the chiral three. (1, 1, 1) is
+       generation-blind. Any other split singles out eigenlines, and m₊ ≠ m₋ is CP-odd. What this does to couplings
+       needs the overlap integrals over the surface, which are not on record.
+     - On a Higgs in M: its sections near the cusp that the monodromy keeps up to a character lie on L's eigenlines. A
+       character of order 4 puts the Higgs's direction at the cusp on the cone. Away from the cusp a section that is a
+       modular form for M's representation leaves the cone by powers of q. The hierarchy would then be a power of |q|.
+     - An example by hand, not a claim: (−θ₂^{2k}, −θ₄^{2k}, √−1 θ₃^{2k}) is exactly isotropic at k = 1 (Jacobi). At
+       k = 2, a·a = −2θ₂⁴θ₄⁴ ≈ −32q, an isotropy defect of about 16|q|.
+   - **The fibre frame** (W59–W63: τ a modulus, one value per vacuum, and a a constant vector).
+     - Here no end datum acts on a at finite τ. The cusp is only where τ runs.
+     - The lead can act only through the Higgs's potential. Main's sealed B1646 (D4) gives the dichotomy: a potential
+       symmetric under SO(3) and a phase puts the minimum on the cone or on the real locus, never between. That is the
+       textbook polar against ferromagnetic split of a complex triplet (the sign of the |a·a|² term).
+     - On the cone the weave's group O then picks finitely many points, the orbits of 6, 8 or 12, and the cusp's pair is
+       among the 6.
+   - **Which frame carries the physics is a dictionary question** (GENESIS FK11), not the seat's to choose. τ's runaway
+     (W62) lives in the fibre frame. P-113's unit lives in the surface frame.
+5. **What it would tie together, and what it costs.**
+   - **It would tie** FK10's unit (the ±3), the Higgs's direction (on or near the cone), CP (the choice between the two
+     conjugate isotropic lines) and, in the surface frame, the hierarchy to the cusp's q-expansion.
+   - **It costs:**
+     - the surface frame (FK11) for the end-data route;
+     - the Higgs in M at the puncture (P-108's parent map);
+     - a character of order 4 for the Higgs, a choice among W47's flat twists;
+     - a controlled departure from the cone, since exactly on it m = 0 gives no second-generation mass.
+   - **Exactly on the cone** the Yukawa has rank one (B1645): one heavy generation and two massless. The observed
+     m₂/m₃ needs |a·a|/|a|² of 0.004 to 0.07 (W63's read-out).
+   - **Numerology risk.** With Im τ free, powers of |q| fit almost any small ratio. A test must fix the form and τ
+     first.
+6. **The literature, after the repo (a check made for this reading; the sources were read where marked, and nothing is
+   banked).**
+   - **Hierarchies near the cusp.** Novichkov, Penedo and Petcov (JHEP 04 (2021) 206, arXiv:2102.07488; read in full):
+     near τ = i∞ an entry is suppressed by a power of ε = e^{−2π Im τ/N} at level N, the power fixed by residual
+     charges. Their fits need Im τ ≈ 2.65 to 3.11. Petcov and Tanimoto (JHEP 08 (2023) 086, arXiv:2306.05730) need
+     Im τ ≈ 2.5 to 3. Feruglio, Gherardi, Romanino and Titov (JHEP 05 (2021) 242, arXiv:2101.08718; read in full) get
+     a rank-one charged-lepton matrix at τ = i, with the electron massless.
+     - **A correction to point 4's example.** The theta triplet is a level-2 object, so its small parameter is
+       e^{−π Im τ}, as the example's 16|q| with q = e^{iπτ} has it, not e^{−2π Im τ}.
+     - **A terminology trap.** Some papers call ω "the cusp"; only i∞ is one.
+   - **Isotropic against real vacua.** Ho (PRL 81 (1998) 742; read in full) and Kawaguchi and Ueda (Phys. Rep. 520
+     (2012) 253; read in full) give the polar and ferromagnetic phases of a complex triplet. Since
+     |a* × a|² = |a|⁴ − |a·a|², the sign of the |a·a|² term decides isotropic against real, as B1646's D4 states.
+   - **A flavour precedent.** Barbieri, Hall, Kane and Ross (arXiv:hep-ph/9901228; read in full) force isotropic SO(3)
+     flavon vacua such as (1, √−1, 0), for neutrino mixing. The check found no paper where a mass ratio is set by
+     |a·a|/|a|², the link B1645 makes.
+   - **The octahedral group on the cone.** Orbits of 6, 8 and 12 are confirmed (Knibbeler, Lombardo and Sanders,
+     arXiv:1504.06777; read in full), and the 6 are e_j ± √−1 e_k and its rotations. A nuance: the degree-6 form
+     vanishing on the 6 changes sign under a quarter-turn, so the true invariants have degrees 8, 12 and 18.
+7. **The proposed arc (W64), rule first.**
+   - **Common to both frames (exact):** L's and R's action on M from the record's lifts; the eigenlines and the
+     isotropic ones; R's limit at the cusp equal to one of them; O's orbits on the cone; B1645's m at each special
+     point.
+   - **The surface frame:** the vector-valued modular forms for M's representation at low weight, with end data per
+     L-eigenline at the cusp. Which Higgs zero modes exist, their direction at the cusp, and their isotropy defect as a
+     function of Im τ.
+   - **The fibre frame:** the potential's dichotomy (B1646, verified on the seat's code), the O-invariant terms on the
+     cone, and the Yukawa spectrum at each special point.
+   - **The read-out:** whether one end datum gives both the ±3 and a near-cone Higgs, and what Im τ the data's ratios
+     would need (context, not a test).
+   - The count stays all 19 of the 19 free (18 if I-18 is earned). 0 of 19.
 
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 

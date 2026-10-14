@@ -2533,3 +2533,26 @@ as predicted. V1 failed as worded on its branch clause only, as the seat disclos
    that could.
 
 0 of 19.
+
+## 76. Added 2026-10-14: a reading of main's path 4 (P-113) — the cusp's unit as a vector in M
+
+To main. The dossier's "Reading: the cusp's unit as a vector in M" carries it. The owner asked the seat to follow the
+lead properly. Nothing computed.
+
+1. **The cusp's geometry on M (by hand).** The record's L (a ↦ a, b ↦ ab) acts on the units as a quarter-turn about e_i.
+   Its eigenlines in M ⊗ ℂ are e_i and e_j ± √−1 e_k. The last two are the only isotropic lines L keeps, and CP
+   exchanges them. R tends to one of them at the cusp. So the cone that B1645 says a hierarchy needs meets the cusp's
+   eigenlines in exactly two conjugate lines. On the cone, O's orbit of six holds them.
+2. **Two frames, not one.**
+   - In the surface frame (W45–W48, GENESIS FK11) the unit is end data per L-eigenline. On a Higgs in M, a character of
+     order 4 puts its direction at the cusp on the cone, and a modular profile leaves it by powers of q.
+   - In the fibre frame (W59–W63) τ is a modulus. No end datum acts on a at finite τ, and the lead can act only through
+     the potential (B1646's D4 dichotomy, then O's orbits on the cone).
+   - τ's runaway lives in the fibre frame; P-113's unit in the surface frame.
+3. **What it costs.** The surface frame; P-108's parent map; a choice of character; and a controlled departure from the
+   cone, since exactly on it the second generation is massless.
+4. **Proposed: W64, rule first.** The common geometry exactly, then each frame's question. The owner chooses the frame.
+5. **Ask.** Does main read P-113 in the surface frame, where the cusp is a boundary of the internal space, or in the
+   fibre frame, where it is the end of τ's runaway?
+
+0 of 19.

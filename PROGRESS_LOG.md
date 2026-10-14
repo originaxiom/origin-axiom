@@ -18682,3 +18682,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   other: no hierarchy. A real hierarchy would need a direction the record does not supply.
 - **One prediction failed,** on a sign convention the seat flagged before the run, and is recorded as failed.
 
+## 2026-10-14 — the owner's "follow that lead properly"; a reading of the cusp's unit; relay §76
+
+- **The owner asked to pursue the one lead that could make the field come from the principle:** the extra datum at the
+  cusp of the weave's surface, read as a direction among the generations.
+- **The reading finds a clean fact.** The symmetry the cusp carries turns the generations' space a quarter-turn, and the
+  only special complex directions it keeps are exactly the ones a mass hierarchy needs. The next arc would test whether
+  one datum there can give both the three generations and those directions.
+

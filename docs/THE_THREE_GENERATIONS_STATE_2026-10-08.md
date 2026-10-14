@@ -422,6 +422,14 @@ Under the owner's rulings, the table's rows split into two groups:
     m ≥ ½ for real directions, 0 on the isotropic cone.
   - The record's Higgs is a real unit direction, since at most one parity copy is massless at any line. So m ≥ ½:
     0.566 at the selected state, ½ on the imaginary axis. Nothing on record brings it near the cone. 0 of 19.
+- **The owner's ruling (2026-10-14): "lets follow that lead properly"** (GENESIS FK10's unit as a vector in M, main's
+  P-113).
+- **Reading: the cusp's unit as a vector in M (READING; nothing computed):**
+  - The cusp's monodromy L turns M a quarter-turn about one unit. Its two complex eigenlines are exactly the isotropic
+    lines in the plane it turns, and the theta triplet R tends to one of them at the cusp. So the cone a hierarchy needs
+    is the cusp's own geometry.
+  - The end-data route lives in the surface frame (GENESIS FK11), and τ's runaway in the fibre frame. Which frame is
+    physics is not the seat's to choose. W64 is proposed, rule first. 0 of 19.
 
 ## Questions open with main
 
@@ -440,4 +448,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W63 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§75).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§76).
