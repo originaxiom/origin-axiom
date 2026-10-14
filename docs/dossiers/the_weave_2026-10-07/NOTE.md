@@ -161,6 +161,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W69 (the goal "resume"; rule first; all three cells as predicted): W66's census over all 28 pairs of the seven
   parameter-free sections, 21 952 assignments. None fits. The best, χ² 100 for 3 degrees of freedom, uses W68's δ²
   and δ¹ pairings near ω, and misses every observable by factors of 1.4 to 2. A fit needs free numbers per sector.
+- Reading: where the field comes from (the owner's brainstorm; nothing computed): the field's direction among the
+  generations is clarified, but its existence, charge and free numbers are not. Five candidate origins are mapped
+  against the record. The seat recommends the audit lane's cusp condensate first, since it keeps colour and breaks the
+  weak SU(2) at the weave's own end. Then end data at both ends, for the free numbers.
 
 ## The setting
 
@@ -5613,6 +5617,71 @@ given Λ and the stated hypotheses. 0 of 19.
 
 **Status.** COMPUTED (the rule first; one run; all three cells as predicted). A WEAVE result given Λ and the stated
 hypotheses. 0 of 19.
+
+## Reading: where the field comes from (the owner's "did we clarify the field? should we brainstorm?"; nothing computed)
+
+The owner asked, after W69, whether the field (the Higgs) is clarified, and whether to brainstorm. This reading is the
+brainstorm's first pass. The record was searched first, and nothing here is computed.
+
+1. **What is clarified (W64–W69).**
+   - **The field's direction among the generations,** read as a section of the matter's bundle (H-sec). It is fixed
+     by end data and τ: three one-unit sections with integer pairings (W65), on the three eigenlines at ω by weight
+     (W68).
+   - **What fixes τ:** the weave's own quartic, at ω or at the cusp (W67).
+   - **Why one generation is heavy:** at ω every such Higgs lies on one isotropic line (W65).
+   - **How a hierarchy can grow:** a displacement from ω, with powers set by the pairing (W68).
+   - **A no-go:** the parameter-free versions fail the data (W66 at 260, W69 at 100). Every version that fits has free
+     numbers per sector, so the count never drops.
+2. **What is not clarified.**
+   - The field's existence, its charge, its coupling form (B1644) and its potential are hypotheses. So are "the Higgs is
+     a section" (H-sec) and the coupling range (H-pair, H-pair′).
+   - The first generation never comes out: m₁ = 0, or m₁m₃/m₂² fixed at 15 or 1 against the data's 0.08 to 2.7 (W68).
+3. **What the record already rules out** (the repo, searched first).
+   - **A field invariant under the weave's whole group is a scalar on M** (W49; C0, point 1; Schur). So the joint action
+     alone gives no flavour. Flavour has to come from a state that breaks the group, which is τ (W50).
+   - **A Higgs built on one member couples only to that member** (B1513's P5; main's B1444).
+   - **Dimensional transmutation is blocked:** κ is conserved and does not run (B167; argued, not proved).
+   - **27 ⊗ 27 holds no adjoint,** so mass operators are cubic (B974).
+   - **Every isotropic coupling leaves one generation exactly massless** (Jacobi; B1302, B1644). B1362 shows small
+     corrections cannot lift that, since the breaking must be of order one.
+4. **Five candidate origins, as the record leaves them.**
+   - **(a) The field as the cusp's condensate: the field from the weave's own end.**
+     - The audit lane's stationary cusp condensate lifts 58 of 112 channels, keeps colour and breaks the weak SU(2),
+       through the puncture's −1 in E₈ (the reading of W24–W32, point 3). It is the only object on record that does
+       what the Higgs does.
+     - It lives where GENESIS FK10's unit and τ's runaway already live: at the cusp.
+     - If the field is this condensate, its existence and its charge are derived from an end, not hypothesized.
+     - Owed: its mirror test, never run (is its mirror image gauge-equivalent?), and its direction in M. Does it pick
+       the cusp's isotropic line, W64's leading order?
+   - **(b) The weave-shared field: summed over every thread.**
+     - The owner's rule and W56's standard require a field shared by all threads, and no arc has built one.
+     - Schur makes its invariant part scalar on M. So it could fix the field's existence and normalization, while the
+       flavour stays τ's.
+     - It might also fix W65's per-sector ratio α/β, if each thread weights the sections differently. Never computed.
+   - **(c) End data at both ends: the cusp and the puncture.**
+     - The puncture carries the parity Higgs's boundary class (C0, point 3; GENESIS GAP2's kind), and P-108's parent map
+       is owed.
+     - The puncture's datum could fix α/β, turning W65's free number into a derived one.
+     - The fork was deferred twice in the owner's rulings, and joint end data has never been computed.
+   - **(d) The field from the matter: a bilinear of the fermions' sections.**
+     - The QCD template (the 2026-10-13 research): a condensate, not an input.
+     - On the weave, the cross product M ⊗ M → M is O-equivariant. So a bilinear of the fermions' weight 3/2 sections
+       (with the uniform unit, W64) is a weight 3 section in ρ_R's family, carrying the fermions' own end data.
+     - It would be a composite Higgs direction with no new datum. No arc has tried it.
+   - **(e) The first generation's own mechanism.**
+     - Every structure tried gives m₁ = 0 or a fixed ratio, and B1362 needs a breaking of order one.
+     - The record's open lead is an instanton or exponential sector (L201). Nothing has been computed.
+5. **What each would change in the count.**
+   - (a) and (d) would derive the field's existence. They lower the count only if the field's flavour content comes
+     with it.
+   - (b) and (c) target the free numbers directly: W65's α/β per sector. They are the routes that can lower the count
+     under the owner's rule.
+   - (e) is needed in every case, for m_u, m_d and m_e.
+6. **The seat's recommendation.**
+   - (a) first: it is the only lead on record for the field itself, it sits where the weave's other cusp data already
+     sit, and its test is concrete and owed.
+   - Then (c), for the free numbers. (b) is likely to give only a normalization, by Schur.
+   - The owner chooses.
 
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## The weave's reading: where the field comes from (the owner's brainstorm)
+
+- **A reading** (the owner's "did we clarify the field? should we brainstorm?"; nothing computed; the record searched
+  first):
+  - the field's direction among the generations is clarified (W64–W69), while its existence, charge and free numbers
+    are not;
+  - five candidate origins are mapped against the record: the cusp's condensate, a field shared by every thread, end
+    data at both ends, a bilinear of the matter, and the first generation's own mechanism;
+  - the seat recommends the audit lane's cusp condensate first (it keeps colour and breaks the weak SU(2) at the
+    weave's own end), then end data at both ends, for the free numbers. The owner chooses.
+- **Surfaces.** The dossier (the reading and a header line) and the logs. 0 of 19.
+
 ## The weave's W69: the weighted census; relay section 82; a correction to W66
 
 - **W69** (the owner's goal "resume"; the rule b7ed55153 first; the script ab979de70 before its one run; all three
