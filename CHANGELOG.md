@@ -1,5 +1,17 @@
 # Changelog
 
+## Philosophy P024: the field from the end (the owner's contemplation)
+
+- **The owner asked to stop and contemplate** how a field can be forced into existence, the way the seed is: "same as
+  from philosophy to the seed". `philosophy/P024_the_field_from_the_end.md` (motivation only; nothing promotes) writes the
+  passage:
+  - a bare end of the weave's surface admits no finite description, since its counts are undefined in the continuum;
+  - so the end must carry a source (GENESIS GAP3), a condensate of the weave's own action;
+  - the field is forced to exist, but its direction is not forced: spontaneous breaking.
+- **Its tests:** the forced end's charges (W70, whose run waited for this file), a field-free twist that gaps every
+  channel (which would defeat the passage), and a global completion keeping U(1)_em.
+- **Surfaces.** P024, a dossier header line and the logs. 0 of 19.
+
 ## The owner's ruling: the cusp condensate as the field's origin
 
 - **The ruling** (2026-10-14, after the reading of where the field comes from): "Cusp condensate (Recommended)". The

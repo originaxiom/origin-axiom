@@ -165,6 +165,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   generations is clarified, but its existence, charge and free numbers are not. Five candidate origins are mapped
   against the record. The seat recommends the audit lane's cusp condensate first, since it keeps colour and breaks the
   weak SU(2) at the weave's own end. Then end data at both ends, for the free numbers.
+- Contemplation: the field from the end (the owner's "how can a field be forced into existence?"; nothing computed;
+  `philosophy/P024_the_field_from_the_end.md`). The seed's passage applied at the edge: a bare end admits no finite
+  description, so the end must carry a source (GENESIS GAP3), and that source is a field, forced to exist but not forced
+  which. Its tests: W70 (the forced end's charges), a field-free twist that gaps every channel (which would defeat it),
+  and a global completion that keeps U(1)_em.
 
 ## The setting
 
