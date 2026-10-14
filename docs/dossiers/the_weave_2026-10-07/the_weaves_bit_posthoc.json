@@ -1,0 +1,33 @@
+{
+ "status": "W76 POST HOC (labelled): the bit on chat1's data to length 18",
+ "chat1's file": "f8fe26015:relays/chat1_2026-10-14_the_scale/t_root_threads.json",
+ "threads": 31040,
+ "PH1": {
+  "threads with CS = 0": 514,
+  "mirror-symmetric threads": 514,
+  "the two sets are equal": true,
+  "mirror-symmetric with CS = pi^2/2": [],
+  "others with 2 CS = 0": [],
+  "mirror-symmetric per length": {
+   "2": 1,
+   "4": 1,
+   "6": 3,
+   "8": 6,
+   "10": 15,
+   "12": 29,
+   "14": 65,
+   "16": 128,
+   "18": 266
+  },
+  "holds": true
+ },
+ "PH2": {
+  "common threads": 8798,
+  "largest CS difference mod pi^2": 0.0,
+  "holds": true
+ },
+ "cells": {
+  "PH1": true,
+  "PH2": true
+ }
+}
