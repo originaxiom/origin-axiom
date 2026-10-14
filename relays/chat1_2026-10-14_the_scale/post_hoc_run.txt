@@ -1,0 +1,23 @@
+{
+ "nilpotent_model_pointwise_norm_on_unit_vectors": [
+  "-Abs(log(x**2 + y**2))/(2*log(x**2 + y**2))",
+  "-Abs(log(x**2 + y**2))/(2*log(x**2 + y**2))"
+ ],
+ "nilpotent_model_numeric": [
+  0.5,
+  0.5,
+  0.5
+ ],
+ "residue_norm_in_h_numeric": [
+  0.5291733597092894,
+  0.11126940023177802,
+  0.583930209751372
+ ],
+ "dz_over_z_on_unit_vector_numeric": [
+  0.9448699387941294,
+  4.4935984103309865,
+  0.8562667107305373
+ ],
+ "uniformising_pointwise_norm": "1",
+ "holds_post_hoc": true
+}
