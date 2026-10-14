@@ -1,0 +1,40 @@
+{
+ "lane": "web-seat",
+ "commit": "4636b0fa4",
+ "how": "git archive of the two work folders into a clean checkout outside the tracked tree; each script run from its own directory with no arguments; outputs compared with the committed ones through git",
+ "runs": [
+  {
+   "output": "checks.json",
+   "byte_identical": false,
+   "sha256_committed": "f5a1c93e5a7d27e0",
+   "sha256_rerun": "a20db0fc9d7addd4"
+  },
+  {
+   "output": "checks_2.json",
+   "byte_identical": true,
+   "sha256_committed": "e58a14c8b6fe039f",
+   "sha256_rerun": "e58a14c8b6fe039f"
+  },
+  {
+   "output": "checks_3.json",
+   "byte_identical": false,
+   "sha256_committed": "e3d9bacadb30b8ff",
+   "sha256_rerun": "5f9b14c71d8a4ab9"
+  },
+  {
+   "output": "condensate_in_M.json",
+   "byte_identical": true,
+   "sha256_committed": "c8ee910c13be5bf6",
+   "sha256_rerun": "c8ee910c13be5bf6"
+  }
+ ],
+ "differences": "checks.json and checks_3.json differ only in the last digits of machine-precision residuals (seeded runs; numerical-library rounding); every reported quantity agrees to roundoff",
+ "scale": {
+  "commit": "1dcb543fb",
+  "scripts": [
+   "the_scale_check.py",
+   "post_hoc_pointwise.py"
+  ],
+  "result": "the_scale_check.json: all eleven sealed cells true in the rerun as committed (Q0, K1, K1b, K2, K3, K3b, K4a-K4e); 745 threads; CS = 0 on exactly 55 and non-zero on 690 in both; floating values agree to about 1e-14 (SnapPy's numerical volumes; the 40 flagged values are zero-CS threads at the noise floor); post_hoc_pointwise.json byte-identical"
+ }
+}

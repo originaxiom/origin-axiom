@@ -1,5 +1,39 @@
 # Changelog
 
+## S124 THE FIELD, BY FRAME: chat1's field and scale notes verified on main (B1650); B1644–B1649 scoped by frame; three lanes harvested; the field's-genesis meditation; the frame tribunal agreed
+
+At the owner's questions of 2026-10-14 ("how can a field be forced into existence…"; "verify chat1 especially"; "fetch
+chat1s scale and vrify it"; "agreed").
+- **B1650** (a verification arc). chat1's notes were reproduced in a clean checkout (byte-identical, or equal to
+  roundoff). Recomputed on main's own code:
+  - O6, new: the zero modes' bilinear is the only Higgs field at the puncture nilpotent everywhere
+    (Σ R_r²℘(z_r) = 0 to 2·10⁻³¹, other pairings O(1));
+  - C5b, the cone's rank-one coupling (4·10⁻¹⁵);
+  - the parity step;
+  - the scale: all eleven sealed cells, 690 of 745 threads with CS ≠ 0, CS(LLR) = −π²/24 exactly, mirror pairs equal
+    and opposite, vol(L²⁵R²⁵) < 2v₈, and the cusp model metric solving Hitchin's equation.
+
+  Not verified on main: O3 (Simpson's table, from memory) and the condensate's E₈ embedding beyond W70's code.
+- **B1644–B1649 scoped by frame.**
+  - In Λ's frame at one τ the zero holds and the even Higgs factor is forced.
+  - In the surface frame the zero does not survive (the SM seat's W72).
+  - In the audit lane's E₈ frame the Higgs in M is a flavon (chat1's condensate test; the audit lane's field map), so
+    the physical Yukawa needs P-108.
+
+  Claim-line brackets and B1649's addendum record this.
+- **Harvest.** chat1 to `1dcb543f`, the SM seat to `012a4f70` (W64–W72, the readings, P024, the owner's rulings of the
+  day), the audit lane to `3d7933be`; rows 1120–1138; five relays rowed; every ask answered in one relay.
+- **The field's genesis** lands in `speculations/S_THE_FIELDS_GENESIS.md` (firewalled). The three passages of the day
+  (the SM seat's P024, chat1's "the field is what the seed can be", main's "what exists is read", a candidate fourth
+  face of the principle) agree on "forced to exist, not forced which". "The puncture" and "the modular cusp" are named
+  apart.
+- **Register.**
+  - P-130–P-138: the field's genesis; Step 4 (B1651, designed); Step 5; the frame scope; the surface frame's
+    normalisation; what B1650 did not verify; L154 on the weave and two wording repairs (from chat1's scale note).
+  - **P-136, the owner's agreed order:** B1651, then THE FRAME TRIBUNAL before any further number-chasing.
+- 0 of 19.
+Gates 45 of 45. Full suite: 7310 passed, 0 failed, 68 skipped (exit status 0).
+
 ## S123 FITS ON THE RULED BRANCH (B1637, PROVED for its question): with one τ the modular structure fits the charged fermions only with 21 or more parameters for 13 numbers; W53's exclusion verified on main; one sentence of W54 refuted
 
 **B1637** (sealed `3ef9c3f8f`). This is main's refit of the SM seat's W53, on main's own forms (B1635), theta series

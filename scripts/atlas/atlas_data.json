@@ -11547,7 +11547,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "dead",
    "domain": "physics"
   },
@@ -11818,6 +11818,27 @@
    "obstacle_conf": 6,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1650": {
+   "slug": "chat1s field and scale notes verified",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "L154",
+    "S124"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B165": {
    "slug": "kappa cantor offaxis",

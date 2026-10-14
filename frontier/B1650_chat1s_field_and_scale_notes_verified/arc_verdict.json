@@ -1,0 +1,25 @@
+{
+ "id": "B1650",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1642",
+  "B1644",
+  "B1645",
+  "B1649"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's fibre at its puncture, given Lambda (the frame of B1642-B1649)",
+  "object": "the web seat's (chat1) field notes of 2026-10-14 at 4636b0fa4: its checks C1-C10, its observations O1-O7, and its condensate-in-M test; and its scale note of the same evening at 1dcb543fb",
+  "reach": "general",
+  "hypotheses": "O3 (the cusp-to-null step) rests on Simpson's tame table, not re-derived on main, and on chat1's H-RES; the condensate's E8 claims reproduced with the SM seat's W70 code, not derived independently"
+ },
+ "claim_one_line": "CHAT1'S FIELD AND SCALE NOTES VERIFIED ON MAIN (a verification arc): reproduced in a clean checkout at 4636b0fa4 (the condensate test and the uniqueness checks byte-identical, the rest to roundoff); recomputed on main's own code -- O6, the zero modes' bilinear is the only Higgs field at the puncture nilpotent everywhere (sum_r R_r^2 wp(z_r) = 0 to 2e-31 at four tau, the other pairings O(1), chat1's tau = i exception reproduced), C5b, the cone's rank-one coupling Y(a) = (R x a)(R x a)^T/(a.R) (4e-15), and the parity step (M even under the puncture's -1); not verified on main: O3 (Simpson's table, from memory; conditional on H-RES) and the condensate's E8 embedding beyond its own code. The scale (the owner's 'fetch chat1s scale and verify it'): every one of its eleven sealed cells reproduced (745 threads; CS = 0 on exactly the 55 swap-symmetric, non-zero on 690), and on main's code CS(LLR) = -pi^2/24 exactly, mirror pairs equal volume and opposite CS on a 40-thread sample, vol(L^25 R^25) = 7.2651 < 2 v8, and the cusp model metric solving Hitchin's equation; its readings (L154 on the weave, B1228's pin, the c = 6 tension, two wording repairs) rowed for main's decision. 0 of 19.",
+ "weave_or_thread": "weave"
+}

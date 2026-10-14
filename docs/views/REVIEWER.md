@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1378** |
-| words of findings prose | **1,080,401** |
+| research arcs with findings | **1379** |
+| words of findings prose | **1,081,526** |
 | test lock files referenced | **811** |
-| arcs carrying an authored verdict | **1378** (100.0 %) |
+| arcs carrying an authored verdict | **1379** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 932 |
+| PROVED | 933 |
 | NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1649`** (670 words, 1 locks)  
-THE KERNEL AT THE PUNCTURE (sealed a1bd642a6; PROVED -- every cell holds as sealed): for every Higgs S in End(C^2) = span(1, i, j, k) at the fibre's puncture the residue coupling has the theta triplet R as a two-sided null vector (to 5e-31 at 6 tau x 4 random S, by contour residues at 30 digits), since S = 1 gives B1642's antisymmetric coupling with null vector R and S in M gives B1644's, which kills R by Jacobi; so with both quark sectors on one fibre the first generation is massless and unmixed at leading order -- the mixing matrix is 1 (+) U(2) (|V_ud| = 1, V_us = V_ub = V_cd = V_td = 0 to 3e-16; m1/m3 below 1e-16 in both sectors), m_u = m_d = theta12 = theta13 = J = 0 -- while the 2-3 sector is free (the map to m_c/m_t, m_s/m_b, |V_cb| has full rank 3); a non-isotropic control breaks both (m1/m3 0.060, V_us 0.028), so the zeros are Jacobi's. On this route at leading order: five zeros fixed, five numbers free; the Cabibbo angle (0.227, context) must come entirely from what lifts R. 0 of 19.  
-`B1649_the_kernel_at_the_puncture/FINDINGS.md`
+**PROVED — `B1650`** (1125 words, 0 locks)  
+CHAT1'S FIELD AND SCALE NOTES VERIFIED ON MAIN (a verification arc): reproduced in a clean checkout at 4636b0fa4 (the condensate test and the uniqueness checks byte-identical, the rest to roundoff); recomputed on main's own code -- O6, the zero modes' bilinear is the only Higgs field at the puncture nilpotent everywhere (sum_r R_r^2 wp(z_r) = 0 to 2e-31 at four tau, the other pairings O(1), chat1's tau = i exception reproduced), C5b, the cone's rank-one coupling Y(a) = (R x a)(R x a)^T/(a.R) (4e-15), and the parity step (M even under the puncture's -1); not verified on main: O3 (Simpson's table, from memory; conditional on H-RES) and the condensate's E8 embedding beyond its own code. The scale (the owner's 'fetch chat1s scale and verify it'): every one of its eleven sealed cells reproduced (745 threads; CS = 0 on exactly the 55 swap-symmetric, non-zero on 690), and on main's code CS(LLR) = -pi^2/24 exactly, mirror pairs equal volume and opposite CS on a 40-thread sample, vol(L^25 R^25) = 7.2651 < 2 v8, and the cusp model metric solving Hitchin's equation; its readings (L154 on the weave, B1228's pin, the c = 6 tension, two wording repairs) rowed for main's decision. 0 of 19.  
+`B1650_chat1s_field_and_scale_notes_verified/FINDINGS.md`
 
 **NEGATIVE — `B1644`** (998 words, 1 locks)  
-A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed. 0 of 19.  
+A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed.  [Scoped by frame at S124 (2026-10-14): a result in Lambda's frame, the fibre at one tau. In the audit lane's E8 embedding the Higgs in M is a Standard Model singlet, a flavon (the web seat's condensate test, its parity step verified in B1650; the audit lane's field map), so its reading as the electroweak Higgs needs the parent map (P-108).] 0 of 19.  
 `B1644_a_higgs_in_the_multiplicity_space/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
