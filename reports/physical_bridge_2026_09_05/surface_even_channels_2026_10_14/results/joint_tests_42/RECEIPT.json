@@ -1,0 +1,21 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 23.275454999995418,
+  "tracked_files": 12506,
+  "tree_before": "9dee66865a9f19608491be540dbc74ada8239b9522638ab0d31ab1e799604b08",
+  "tree_after": "9dee66865a9f19608491be540dbc74ada8239b9522638ab0d31ab1e799604b08",
+  "tree_unchanged": true,
+  "raw_files": [
+    {
+      "name": "tests.stdout.log",
+      "bytes": 100,
+      "sha256": "d6a23f73b893d730623deee565233e47e48eea7aceabd8deb3a83d945d0f27f5"
+    },
+    {
+      "name": "tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "42 selected live tests; no full-repository certificate"
+}

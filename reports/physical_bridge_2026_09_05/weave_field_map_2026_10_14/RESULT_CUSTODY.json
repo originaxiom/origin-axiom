@@ -1,0 +1,45 @@
+{
+  "scope": "first scientific and selected-test captures, not full suite or numerical theta/norm reproduction",
+  "files": [
+    {
+      "path": "results/science/probe.stdout.log",
+      "bytes": 6315,
+      "sha256": "d41db21b7899fa68e57e60bd2c39eaddf110f93985114e0dd9e3e46e3953a9da"
+    },
+    {
+      "path": "results/science/probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/science/reference.stdout.log",
+      "bytes": 4840,
+      "sha256": "c6d4952915bd296cf866e5e364f609479027af7d6ccbfc4c27d81a3853322a41"
+    },
+    {
+      "path": "results/science/reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/science/RECEIPT.json",
+      "bytes": 6381,
+      "sha256": "c23dac00f744696bc1f11b1acfc0ceb73be2d84a89919e04b4a52a36f38664fe"
+    },
+    {
+      "path": "results/selected_tests/tests.stdout.log",
+      "bytes": 100,
+      "sha256": "711b28598bf885511e424cdbded26a1146f4e9d1e2f52e48ee450eba458fb88e"
+    },
+    {
+      "path": "results/selected_tests/tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/selected_tests/RECEIPT.json",
+      "bytes": 668,
+      "sha256": "97644ac675bcbb22d94cbd5c083ed744d0790af72c44ee45e8410465a47d7c5e"
+    }
+  ]
+}

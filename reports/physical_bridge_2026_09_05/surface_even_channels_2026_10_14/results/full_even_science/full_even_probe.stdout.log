@@ -1,0 +1,76 @@
+{
+  "checks": {
+    "actual T preserves short-cycle matrix": true,
+    "actual T transports long-cycle matrix": true,
+    "literal fourth power is retained centre": true,
+    "even coefficients commute despite full odd commutator": true,
+    "complete even character136": true,
+    "all projector ranks nonnegative": true,
+    "all short-periodic population included": true,
+    "both admitted zero-phase populations exist": true,
+    "short periodic does not mean zero x phase": true,
+    "omitting conjugate exterior sector changes136": true,
+    "Omega1 is complete connection": true,
+    "Omega3 is complete connection": true,
+    "full spin contraction remains unchanged": true,
+    "Omega1 norm bound exact": true,
+    "Omega3 norm bound exact": true,
+    "line-curvature matrix is bounded": true,
+    "short nonzero lower bound eventually grows": true,
+    "x nonzero lower bound eventually grows": true,
+    "elementary norm absorption preserves positive term": true,
+    "nearest canonical bound positive": true,
+    "ordinary zero unit cannot pass last-stratum bound": true,
+    "bound is increasing above nearest canonical sector": true
+  },
+  "records": {
+    "short_periodic_phase_populations": [
+      [
+        "+1",
+        [
+          25,
+          9
+        ]
+      ],
+      [
+        "-1",
+        [
+          14,
+          2
+        ]
+      ],
+      [
+        "+i",
+        [
+          8,
+          8
+        ]
+      ],
+      [
+        "-i",
+        [
+          8,
+          8
+        ]
+      ]
+    ],
+    "even_coefficient_dimension": 136,
+    "short_periodic_dimension": 82,
+    "connection_squared_norms_ell_one": [
+      [
+        9,
+        16
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "canonical_uniform_tail_squared_bound_ell_one": [
+      3,
+      16
+    ]
+  },
+  "all_passed": true,
+  "scope": "finite exact full-even population/connection safeguards for authored uniform end proof; no odd QDQ or global physical index"
+}

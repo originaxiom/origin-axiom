@@ -1,0 +1,75 @@
+{
+  "scope": "Byte-faithful full-even science and joint regressions; joint44 receipt estimated47, corrected in TEST_CAPTURE_SCOPE_REVIEW.md; no full suite or nonauthor analytic acceptance",
+  "files": [
+    {
+      "path": "results/full_even_science/RECEIPT.json",
+      "bytes": 7136,
+      "sha256": "0ab2d528a7009fa39854b15ede271ddd8247f58a0bb0c2838527102f75b110fc"
+    },
+    {
+      "path": "results/full_even_science/full_even_probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/full_even_science/full_even_probe.stdout.log",
+      "bytes": 1966,
+      "sha256": "e64ac06d6e37f21e19828c075b68126576c5e02627265c9dffde93f4d739ea95"
+    },
+    {
+      "path": "results/full_even_science/full_even_reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/full_even_science/full_even_reference.stdout.log",
+      "bytes": 1358,
+      "sha256": "850589ee65dc569763882399716975e8c90d2e1fcad5562391d75ce7f36bbf85"
+    },
+    {
+      "path": "results/joint_tests_42/RECEIPT.json",
+      "bytes": 671,
+      "sha256": "6e58edc2f008036e0783f769a4587f41784c7c54957aab5c95b178a602a5c6c1"
+    },
+    {
+      "path": "results/joint_tests_42/tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/joint_tests_42/tests.stdout.log",
+      "bytes": 100,
+      "sha256": "d6a23f73b893d730623deee565233e47e48eea7aceabd8deb3a83d945d0f27f5"
+    },
+    {
+      "path": "results/joint_tests_44/RECEIPT.json",
+      "bytes": 1105,
+      "sha256": "435d171482a47492960cb343d01d57188ea94387a823b2266469a320a18d2175"
+    },
+    {
+      "path": "results/joint_tests_44/tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/joint_tests_44/tests.stdout.log",
+      "bytes": 100,
+      "sha256": "e6b61c7bf642837b61c5da5b61e0247a1eb4134fb11959eb6d89aec5f9ff9a4c"
+    },
+    {
+      "path": "results/joint_tests_59/RECEIPT.json",
+      "bytes": 1220,
+      "sha256": "ee706f8713c1e2a920b32f431d5b262d31544712e037594cd941dcb6939536a7"
+    },
+    {
+      "path": "results/joint_tests_59/tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/joint_tests_59/tests.stdout.log",
+      "bytes": 100,
+      "sha256": "351c4d5e877abd514f0cbfd79118315da1ba5c36b2ce90e89c357bad9d21c87a"
+    }
+  ]
+}

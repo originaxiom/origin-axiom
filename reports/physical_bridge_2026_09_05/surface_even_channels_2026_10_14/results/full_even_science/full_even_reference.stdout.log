@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "unnormalized fourth power correct": true,
+    "complete136 character": true,
+    "joint ranks exhaust82 short periodic": true,
+    "nonnegative joint ranks": true,
+    "actual quarter phases not discarded": true,
+    "Omega1 squared eigenvalues controlled": true,
+    "Omega3 squared eigenvalues controlled": true,
+    "actual GammaH unit norm": true,
+    "canonical positive last stratum 3/4": true,
+    "canonical positive last stratum -21/4": true,
+    "canonical positive last stratum 27/4": true,
+    "ordinary0 rejecting comparison": true
+  },
+  "records": {
+    "short_periodic_phase_populations": [
+      [
+        "+1",
+        [
+          25,
+          9
+        ]
+      ],
+      [
+        "-1",
+        [
+          14,
+          2
+        ]
+      ],
+      [
+        "+i",
+        [
+          8,
+          8
+        ]
+      ],
+      [
+        "-i",
+        [
+          8,
+          8
+        ]
+      ]
+    ],
+    "even_coefficient_dimension": 136,
+    "short_periodic_dimension": 82,
+    "connection_squared_norms_ell_one": [
+      [
+        9,
+        16
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "canonical_uniform_tail_squared_bound_ell_one": [
+      3,
+      16
+    ]
+  },
+  "all_passed": true,
+  "scope": "independent rational characters and finite connection controls; not nonauthor analytic acceptance"
+}

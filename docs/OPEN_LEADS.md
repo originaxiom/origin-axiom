@@ -1,5 +1,40 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+October14 same-parent duty update, no architecture-wide absence claim.
+PB-WEAVE-CURRENT-CENTRE-MAP: completed CONDITIONAL necessary test for
+the retained embedding at601a10b9b. Puncture/weak centres agree on248;
+direct raw rho fits Q/L parity, not weak singlets. Bare parity Higgs is
+not its weak doublet. A separate geometric/multiplicity factor or another
+admitted embedding is preserved, not selected. Full field/operator map OPEN.
+PB-WEAVE-PINNED-W61-CONTRACTION: completed for the COMMON-profile
+constant-unit ansatz: exact skew-zero TT and signed-isometry TbarT,
+not a kill of modular, Grassmann or changed physical Higgs vertices.
+PB-SURFACE-REGULAR-EVEN-END: completed at AUTHORED CONDITIONAL grade.
+Ordinary zero-unit has a growing-frequency Weyl sequence at0; canonical
+geometric R gives a uniform3/(16ell^2) tail bound on all136 regular even
+directions. Original39/62 and extension22/12 finite exact safeguards;
+59 selected live PASS, no outside analytic acceptance or full suite.
+PB-SURFACE-ODD-TOTAL-COMPLEMENT: OPEN. Actual112 odd critical-domain
+QDQ and P-Q coupling, not a vertical-gap copy or divergent-gradient
+Lichnerowicz shortcut. Existing rho projection/confinement remains positive.
+PB-SURFACE-BASED-PHYSICAL-LIFT and PB-SURFACE-GLOBAL-CUSP-PARENT remain
+OPEN. Complete pointed relations, same-parent R/reality/domain and actual
+physical charged reduction precede generation/index identification.
+PB-PUNCTURE-PHYSICAL-VERTEX: OPEN, sharpened by fetched B1644-B1646.
+Their symmetric residue positives do not themselves identify the two
+raw rho stalks with Q and weak-singlet u^c, or an End(rho) field with
+a weak-doublet Higgs. A flavour spurion times a separately admitted
+weak doublet is a viable changed premise; compute its actual vertex,
+norm, operator and stationary law. Whole new computations not adopted.
+PB-CUSP-CONDENSATE-PHYSICAL-HIGGS: OPEN connection duty. Existing
+condensate/mirror/gauge/current results must enter that SAME parent;
+neither its name nor the owner's research preference selects a mode,
+unit or three. Source/stationary/extras/quantum/anomaly/gravity duties stay.
+Reports: reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/FINDINGS.md
+and reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FINDINGS.md;
+the latter NEXT_TEST orders the remaining work. Goal ACTIVE/unachieved.
+
+
 PB-SURFACE-BASED-PREREQUISITE: one CONDITIONAL relation verified at
 67b2d5e77: S4=Inner(BabA), actual coefficient covariance; ordinary
 geometric sign matches rank6 under the declared identity-inner-geometric

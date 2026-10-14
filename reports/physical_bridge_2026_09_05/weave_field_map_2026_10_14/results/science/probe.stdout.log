@@ -1,0 +1,178 @@
+{
+  "checks": {
+    "actual full root roster agrees with branching": true,
+    "puncture equals original weak centre on every root": true,
+    "all Cartans and conjugates retained": true,
+    "current joint population exact": true,
+    "alternative has both cross parities": true,
+    "alternative is an actual sl2 subalgebra": true,
+    "alternative centralizes literal quaternion holonomies": true,
+    "necessary central test distinguishes all field labels": true,
+    "bare parity Higgs fails this weak-doublet coefficient test": true,
+    "no quaternion to line map -1,-1": true,
+    "no quaternion to line map -1,1": true,
+    "no quaternion to line map 1,-1": true,
+    "no quaternion to line map 1,1": true,
+    "quaternion tensor comparator has even centre": true,
+    "flat sign twist cannot change commutator": true,
+    "exact selection (0, 0),(0, 0),(1, 0)": true,
+    "exact selection (0, 0),(0, 0),(0, 1)": true,
+    "exact selection (0, 0),(0, 0),(1, 1)": true,
+    "exact selection (0, 0),(1, 0),(1, 0)": true,
+    "exact common-profile zero (0, 0),(1, 0),(1, 0)": true,
+    "exact Hermitian scalar (0, 0),(1, 0),(1, 0)": true,
+    "exact selection (0, 0),(1, 0),(0, 1)": true,
+    "exact selection (0, 0),(1, 0),(1, 1)": true,
+    "exact selection (0, 0),(0, 1),(1, 0)": true,
+    "exact selection (0, 0),(0, 1),(0, 1)": true,
+    "exact common-profile zero (0, 0),(0, 1),(0, 1)": true,
+    "exact Hermitian scalar (0, 0),(0, 1),(0, 1)": true,
+    "exact selection (0, 0),(0, 1),(1, 1)": true,
+    "exact selection (0, 0),(1, 1),(1, 0)": true,
+    "exact selection (0, 0),(1, 1),(0, 1)": true,
+    "exact selection (0, 0),(1, 1),(1, 1)": true,
+    "exact common-profile zero (0, 0),(1, 1),(1, 1)": true,
+    "exact Hermitian scalar (0, 0),(1, 1),(1, 1)": true,
+    "exact selection (1, 0),(0, 0),(1, 0)": true,
+    "exact common-profile zero (1, 0),(0, 0),(1, 0)": true,
+    "exact Hermitian scalar (1, 0),(0, 0),(1, 0)": true,
+    "exact selection (1, 0),(0, 0),(0, 1)": true,
+    "exact selection (1, 0),(0, 0),(1, 1)": true,
+    "exact selection (1, 0),(1, 0),(1, 0)": true,
+    "exact selection (1, 0),(1, 0),(0, 1)": true,
+    "exact selection (1, 0),(1, 0),(1, 1)": true,
+    "exact selection (1, 0),(0, 1),(1, 0)": true,
+    "exact selection (1, 0),(0, 1),(0, 1)": true,
+    "exact selection (1, 0),(0, 1),(1, 1)": true,
+    "exact common-profile zero (1, 0),(0, 1),(1, 1)": true,
+    "exact Hermitian scalar (1, 0),(0, 1),(1, 1)": true,
+    "exact selection (1, 0),(1, 1),(1, 0)": true,
+    "exact selection (1, 0),(1, 1),(0, 1)": true,
+    "exact common-profile zero (1, 0),(1, 1),(0, 1)": true,
+    "exact Hermitian scalar (1, 0),(1, 1),(0, 1)": true,
+    "exact selection (1, 0),(1, 1),(1, 1)": true,
+    "exact selection (0, 1),(0, 0),(1, 0)": true,
+    "exact selection (0, 1),(0, 0),(0, 1)": true,
+    "exact common-profile zero (0, 1),(0, 0),(0, 1)": true,
+    "exact Hermitian scalar (0, 1),(0, 0),(0, 1)": true,
+    "exact selection (0, 1),(0, 0),(1, 1)": true,
+    "exact selection (0, 1),(1, 0),(1, 0)": true,
+    "exact selection (0, 1),(1, 0),(0, 1)": true,
+    "exact selection (0, 1),(1, 0),(1, 1)": true,
+    "exact common-profile zero (0, 1),(1, 0),(1, 1)": true,
+    "exact Hermitian scalar (0, 1),(1, 0),(1, 1)": true,
+    "exact selection (0, 1),(0, 1),(1, 0)": true,
+    "exact selection (0, 1),(0, 1),(0, 1)": true,
+    "exact selection (0, 1),(0, 1),(1, 1)": true,
+    "exact selection (0, 1),(1, 1),(1, 0)": true,
+    "exact common-profile zero (0, 1),(1, 1),(1, 0)": true,
+    "exact Hermitian scalar (0, 1),(1, 1),(1, 0)": true,
+    "exact selection (0, 1),(1, 1),(0, 1)": true,
+    "exact selection (0, 1),(1, 1),(1, 1)": true,
+    "exact selection (1, 1),(0, 0),(1, 0)": true,
+    "exact selection (1, 1),(0, 0),(0, 1)": true,
+    "exact selection (1, 1),(0, 0),(1, 1)": true,
+    "exact common-profile zero (1, 1),(0, 0),(1, 1)": true,
+    "exact Hermitian scalar (1, 1),(0, 0),(1, 1)": true,
+    "exact selection (1, 1),(1, 0),(1, 0)": true,
+    "exact selection (1, 1),(1, 0),(0, 1)": true,
+    "exact common-profile zero (1, 1),(1, 0),(0, 1)": true,
+    "exact Hermitian scalar (1, 1),(1, 0),(0, 1)": true,
+    "exact selection (1, 1),(1, 0),(1, 1)": true,
+    "exact selection (1, 1),(0, 1),(1, 0)": true,
+    "exact common-profile zero (1, 1),(0, 1),(1, 0)": true,
+    "exact Hermitian scalar (1, 1),(0, 1),(1, 0)": true,
+    "exact selection (1, 1),(0, 1),(0, 1)": true,
+    "exact selection (1, 1),(0, 1),(1, 1)": true,
+    "exact selection (1, 1),(1, 1),(1, 0)": true,
+    "exact selection (1, 1),(1, 1),(0, 1)": true,
+    "exact selection (1, 1),(1, 1),(1, 1)": true,
+    "all-tau common normalized matrix (1, 0)": true,
+    "all-tau common normalized matrix (0, 1)": true,
+    "all-tau common normalized matrix (1, 1)": true,
+    "non-skew polynomial control is nonzero": true,
+    "supplied unequal kinetic Gram changes masses": true,
+    "invariant bilinear nullity exactly one": true,
+    "unchanged upstream Q1 and normalized Q2 replay": true,
+    "replayed upstream invariant is actual epsilon": true,
+    "upstream three sectors agree (1, 0)": true,
+    "upstream three sectors agree (0, 1)": true,
+    "upstream three sectors agree (1, 1)": true
+  },
+  "records": {
+    "original_joint_parities": [
+      [
+        [
+          0,
+          0
+        ],
+        136
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        112
+      ]
+    ],
+    "alternative_joint_parities": [
+      [
+        [
+          0,
+          0
+        ],
+        72
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        64
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        48
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        64
+      ]
+    ],
+    "uniform_rho_necessary_compatibility": {
+      "Q": true,
+      "L": true,
+      "u^c": false,
+      "d^c": false,
+      "e^c": false,
+      "neutral_singlet": false
+    },
+    "allowed_overlap_channels": 12,
+    "normalized_Hermitian_diagonals": [
+      [
+        1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        1
+      ]
+    ]
+  },
+  "all_passed": true,
+  "scope": "specified complete gauge map and raw W61 contraction; no physical family/index or global completion"
+}

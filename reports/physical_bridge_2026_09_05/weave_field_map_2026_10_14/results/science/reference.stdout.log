@@ -1,0 +1,150 @@
+{
+  "checks": {
+    "Fraction root centre equality": true,
+    "whole original centre population": true,
+    "alternative is a nonuniversal counterexample": true,
+    "full exact channel (0, 0),(0, 0),(1, 0)": true,
+    "full exact channel (0, 0),(0, 0),(0, 1)": true,
+    "full exact channel (0, 0),(0, 0),(1, 1)": true,
+    "full exact channel (0, 0),(1, 0),(1, 0)": true,
+    "skew and scalar channel (0, 0),(1, 0),(1, 0)": true,
+    "full exact channel (0, 0),(1, 0),(0, 1)": true,
+    "full exact channel (0, 0),(1, 0),(1, 1)": true,
+    "full exact channel (0, 0),(0, 1),(1, 0)": true,
+    "full exact channel (0, 0),(0, 1),(0, 1)": true,
+    "skew and scalar channel (0, 0),(0, 1),(0, 1)": true,
+    "full exact channel (0, 0),(0, 1),(1, 1)": true,
+    "full exact channel (0, 0),(1, 1),(1, 0)": true,
+    "full exact channel (0, 0),(1, 1),(0, 1)": true,
+    "full exact channel (0, 0),(1, 1),(1, 1)": true,
+    "skew and scalar channel (0, 0),(1, 1),(1, 1)": true,
+    "full exact channel (1, 0),(0, 0),(1, 0)": true,
+    "skew and scalar channel (1, 0),(0, 0),(1, 0)": true,
+    "full exact channel (1, 0),(0, 0),(0, 1)": true,
+    "full exact channel (1, 0),(0, 0),(1, 1)": true,
+    "full exact channel (1, 0),(1, 0),(1, 0)": true,
+    "full exact channel (1, 0),(1, 0),(0, 1)": true,
+    "full exact channel (1, 0),(1, 0),(1, 1)": true,
+    "full exact channel (1, 0),(0, 1),(1, 0)": true,
+    "full exact channel (1, 0),(0, 1),(0, 1)": true,
+    "full exact channel (1, 0),(0, 1),(1, 1)": true,
+    "skew and scalar channel (1, 0),(0, 1),(1, 1)": true,
+    "full exact channel (1, 0),(1, 1),(1, 0)": true,
+    "full exact channel (1, 0),(1, 1),(0, 1)": true,
+    "skew and scalar channel (1, 0),(1, 1),(0, 1)": true,
+    "full exact channel (1, 0),(1, 1),(1, 1)": true,
+    "full exact channel (0, 1),(0, 0),(1, 0)": true,
+    "full exact channel (0, 1),(0, 0),(0, 1)": true,
+    "skew and scalar channel (0, 1),(0, 0),(0, 1)": true,
+    "full exact channel (0, 1),(0, 0),(1, 1)": true,
+    "full exact channel (0, 1),(1, 0),(1, 0)": true,
+    "full exact channel (0, 1),(1, 0),(0, 1)": true,
+    "full exact channel (0, 1),(1, 0),(1, 1)": true,
+    "skew and scalar channel (0, 1),(1, 0),(1, 1)": true,
+    "full exact channel (0, 1),(0, 1),(1, 0)": true,
+    "full exact channel (0, 1),(0, 1),(0, 1)": true,
+    "full exact channel (0, 1),(0, 1),(1, 1)": true,
+    "full exact channel (0, 1),(1, 1),(1, 0)": true,
+    "skew and scalar channel (0, 1),(1, 1),(1, 0)": true,
+    "full exact channel (0, 1),(1, 1),(0, 1)": true,
+    "full exact channel (0, 1),(1, 1),(1, 1)": true,
+    "full exact channel (1, 1),(0, 0),(1, 0)": true,
+    "full exact channel (1, 1),(0, 0),(0, 1)": true,
+    "full exact channel (1, 1),(0, 0),(1, 1)": true,
+    "skew and scalar channel (1, 1),(0, 0),(1, 1)": true,
+    "full exact channel (1, 1),(1, 0),(1, 0)": true,
+    "full exact channel (1, 1),(1, 0),(0, 1)": true,
+    "skew and scalar channel (1, 1),(1, 0),(0, 1)": true,
+    "full exact channel (1, 1),(1, 0),(1, 1)": true,
+    "full exact channel (1, 1),(0, 1),(1, 0)": true,
+    "skew and scalar channel (1, 1),(0, 1),(1, 0)": true,
+    "full exact channel (1, 1),(0, 1),(0, 1)": true,
+    "full exact channel (1, 1),(0, 1),(1, 1)": true,
+    "full exact channel (1, 1),(1, 1),(1, 0)": true,
+    "full exact channel (1, 1),(1, 1),(0, 1)": true,
+    "full exact channel (1, 1),(1, 1),(1, 1)": true,
+    "separate unitary overlap (1, 0)": true,
+    "separate unitary overlap (0, 1)": true,
+    "separate unitary overlap (1, 1)": true,
+    "four flat twists keep odd puncture centre": true,
+    "added tensor factor comparator changes centre": true,
+    "actual alternative Lie brackets": true,
+    "necessary sign test not all matter": true
+  },
+  "records": {
+    "original_joint_parities": [
+      [
+        [
+          0,
+          0
+        ],
+        136
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        112
+      ]
+    ],
+    "alternative_joint_parities": [
+      [
+        [
+          0,
+          0
+        ],
+        72
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        64
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        48
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        64
+      ]
+    ],
+    "uniform_rho_necessary_compatibility": {
+      "Q": true,
+      "L": true,
+      "u^c": false,
+      "d^c": false,
+      "e^c": false,
+      "neutral_singlet": false
+    },
+    "allowed_overlap_channels": 12,
+    "normalized_Hermitian_diagonals": [
+      [
+        1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        1
+      ]
+    ]
+  },
+  "all_passed": true,
+  "scope": "separate exact roots and overlaps; the upstream numerical functions are not executed by this route"
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "first source-fixed even-channel science; full-even extension is separately sealed",
+  "files": [
+    {
+      "path": "results/science/probe.stdout.log",
+      "bytes": 2800,
+      "sha256": "738b8e2e14ed6ca92d49b3e24b80ebd6d6bf83f439fde9a13f4976cf6d975758"
+    },
+    {
+      "path": "results/science/probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/science/reference.stdout.log",
+      "bytes": 3930,
+      "sha256": "49c3ab631eea22b9d63d2960818d3c28e97f2ab938a58893ceda8e4278ff36f3"
+    },
+    {
+      "path": "results/science/reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/science/RECEIPT.json",
+      "bytes": 5195,
+      "sha256": "9e0b9952fc81f070ea7071ee373a0c074cddc85f165f1580b542e00ff87aaaf7"
+    }
+  ]
+}

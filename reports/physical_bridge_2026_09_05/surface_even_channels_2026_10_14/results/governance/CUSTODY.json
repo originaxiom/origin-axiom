@@ -1,0 +1,20 @@
+{
+  "scope": "Unchanged staged publication governance capture; four failed categories retained, not full suite",
+  "files": [
+    {
+      "path": "gates.stdout.log",
+      "bytes": 2539,
+      "sha256": "532f449376bed0adf52dad15db59252e242e02176777fe6d6db35344cd6f17a6"
+    },
+    {
+      "path": "gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROCESS_RECEIPT.json",
+      "bytes": 868,
+      "sha256": "f417dfdf0bd13444b30847665e594d11df97ecd7bebffe35f1fee055fe197fad"
+    }
+  ]
+}

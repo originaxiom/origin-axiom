@@ -1,5 +1,28 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October14 whole-field and regular-even operator checkpoint: pinned W61
+centre/overlap map passes93 exact+five numerical native and70 separate
+exact safeguards at601a10b9b. THIS E8 frame's puncture and weak centres
+agree on248: direct rho can fit the necessary Q/L test, not weak singlets;
+bare parity Higgs is not already its weak doublet. Alternative subgroup
+is a scope control, not a selected vacuum. The literal common-profile
+overlap zero/degeneracy is scoped, not a kill of other physical vertices.
+Even-channel39/62 exact atbae2c38e6 and separately sealed full-even22/12
+exact at687c8ac85 pass. Authored conditional proof: ordinary zero-unit
+has a growing-frequency Weyl sequence at0; the canonical geometric R
+term instead gives a uniform3/(16ell^2) tail bound on ALL136 regular even
+directions. Not compact resolvent, a global kernel/index or parent choice.
+Final59 selected live PASS28.91s;19 extension pins and12,514 tracked files
+unchanged. Finite controls are not outside infinite-dimensional acceptance.
+NEXT actual pointed global bundle/domain,112 odd TOTAL QDQ and mixing,
+then same-parent charged spectrum/Higgs/stationary ends/interactions.
+New main Higgs/direction reports read, not silently adopted as SM fields;
+full new computations remain a bounded replay duty. Compact silver
+positives retained separately. No selected plane/unit/embedding for three,
+full-suite/main/outside acceptance or completed SM/gravity. Goal ACTIVE.
+Reports: reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/FINDINGS.md
+and reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FINDINGS.md.
+
 October13 based prerequisite:30/24 exact and20 selected live PASS at
 67b2d5e77. One factorized ordinary-spin relation matches rank6; the
 full248 needs more than one common scalar. This is a conditional test,

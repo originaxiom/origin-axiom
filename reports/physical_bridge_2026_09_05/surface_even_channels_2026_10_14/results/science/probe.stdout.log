@@ -1,0 +1,108 @@
+{
+  "checks": {
+    "actual Lie field 0": true,
+    "actual character 0 A": true,
+    "actual character 0 B": true,
+    "actual character 0 T": true,
+    "actual puncture even 0": true,
+    "actual cusp sign cancellation 0": true,
+    "actual Lie field 1": true,
+    "actual character 1 A": true,
+    "actual character 1 B": true,
+    "actual character 1 T": true,
+    "actual puncture even 1": true,
+    "actual cusp sign cancellation 1": true,
+    "nonabelian parent direction not identically decoupled": true,
+    "Hermitian involution Z": true,
+    "Hermitian involution J": true,
+    "Hermitian involution GammaV": true,
+    "Hermitian involution K": true,
+    "joint spin projector": true,
+    "profile internal chirality retained": true,
+    "actual radial density removes only density term": true,
+    "exact full high frequency zero profile": true,
+    "omitted mixed term fails this profile": true,
+    "reversed mixed term fails this profile": true,
+    "exact whole line profile norm": true,
+    "exact normalized low height tail": true,
+    "cutoff residual tends to zero at growing frequency": true,
+    "norm escapes every fixed compact height": true,
+    "shrinking vertical term has actual norm scale": true,
+    "radial derivative twist anticommutes": true,
+    "all vertical frequencies twist anticommutes": true,
+    "full mixed twist cross term": true,
+    "twist square is positive": true,
+    "whole fixed frequency asymptotic polynomial": true,
+    "fixed frequency positive threshold is not zero profile exclusion": true,
+    "uniform even channel bound canonical0": true,
+    "uniform even channel bound ordinary1": true,
+    "uniform even channel bound canonical1": true,
+    "uniform even channel bound canonical_minus1": true,
+    "canonical nearest integer sector has positive bound": true
+  },
+  "records": {
+    "coefficient_characters": [
+      [
+        1,
+        -1,
+        1
+      ],
+      [
+        1,
+        1,
+        -1
+      ]
+    ],
+    "spin_projector_rank": 1,
+    "profile_norm_power": -1,
+    "fixed_p_squared_masses_ordinary0": [
+      [
+        1,
+        16
+      ],
+      [
+        1,
+        16
+      ]
+    ],
+    "fixed_p_squared_masses_canonical0": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "uniform_squared_bounds_ell_one": [
+      [
+        "ordinary0",
+        0,
+        1
+      ],
+      [
+        "canonical0",
+        3,
+        16
+      ],
+      [
+        "ordinary1",
+        33,
+        1
+      ],
+      [
+        "canonical1",
+        399,
+        16
+      ],
+      [
+        "canonical_minus1",
+        675,
+        16
+      ]
+    ]
+  },
+  "all_passed": true,
+  "scope": "even-channel algebra/profile and authored conditional Weyl/form argument; not global full QDQ or physical index"
+}

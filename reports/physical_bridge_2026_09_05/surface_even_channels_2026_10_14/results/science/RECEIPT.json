@@ -1,0 +1,73 @@
+{
+  "seal_commit": "bae2c38e679d1e5c130f5b1be15bda4174b6019e",
+  "sources_before": {
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/DESIGN.md": "11234a8ddac7a8bf6aaf60a5e375688955c028c16b8a50d3a7b66c9ed2e2ef0c",
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/PROOF.md": "e9be9d6141fc0d4949530d470ee007467a7a54ed0833cdf0fb8d575b92ceeaa4",
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/probe.py": "e71b82d08be0d3fb674e7d191af77453d581abc013b99ae9f62e2b1d1b2ebf75",
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/reference.py": "857bf0aaba59eacb7a87b754232bf223cd568d16ecaee02dd8a0907b17b7b8da",
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/execute.py": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664",
+    "tests/test_physical_bridge_surface_even_channels.py": "1736091a61429b723fec44f5c79d6d99e205cf24521c9969b192251fbfb86a51",
+    "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_metric.py": "2124797777869d47541e7d5cecec9726d5bdb92b61dae4f483b66762cd43c279",
+    "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_metric_PROOF.md": "a34062c820e711ef79b0224c7668436fc293789c36da646f39f6bfb648436cf1",
+    "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md": "299e95d002398359ee3a3c8a1421f7acf256618284c0ad1e4b8a70dee3072b55",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+    "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0"
+  },
+  "matches_seal": true,
+  "runs": [
+    {
+      "label": "probe",
+      "exit_code": 0,
+      "elapsed_seconds": 4.544138983008452,
+      "stdout": {
+        "file": "probe.stdout.log",
+        "bytes": 2800,
+        "sha256": "738b8e2e14ed6ca92d49b3e24b80ebd6d6bf83f439fde9a13f4976cf6d975758"
+      },
+      "stderr": {
+        "file": "probe.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "label": "reference",
+      "exit_code": 0,
+      "elapsed_seconds": 0.22992199001600966,
+      "stdout": {
+        "file": "reference.stdout.log",
+        "bytes": 3930,
+        "sha256": "49c3ab631eea22b9d63d2960818d3c28e97f2ab938a58893ceda8e4278ff36f3"
+      },
+      "stderr": {
+        "file": "reference.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "sources_after": {
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/DESIGN.md": "11234a8ddac7a8bf6aaf60a5e375688955c028c16b8a50d3a7b66c9ed2e2ef0c",
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/PROOF.md": "e9be9d6141fc0d4949530d470ee007467a7a54ed0833cdf0fb8d575b92ceeaa4",
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/probe.py": "e71b82d08be0d3fb674e7d191af77453d581abc013b99ae9f62e2b1d1b2ebf75",
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/reference.py": "857bf0aaba59eacb7a87b754232bf223cd568d16ecaee02dd8a0907b17b7b8da",
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/execute.py": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664",
+    "tests/test_physical_bridge_surface_even_channels.py": "1736091a61429b723fec44f5c79d6d99e205cf24521c9969b192251fbfb86a51",
+    "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_metric.py": "2124797777869d47541e7d5cecec9726d5bdb92b61dae4f483b66762cd43c279",
+    "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/upstream_total_metric_PROOF.md": "a34062c820e711ef79b0224c7668436fc293789c36da646f39f6bfb648436cf1",
+    "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md": "299e95d002398359ee3a3c8a1421f7acf256618284c0ad1e4b8a70dee3072b55",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+    "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md": "9d11b84270e5fccb949915fcb761c075038cda51b2e1230f1c7188daf9f76050",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0"
+  },
+  "sources_unchanged": true,
+  "passed": true,
+  "records_agree": true,
+  "predicate_counts": [
+    39,
+    62
+  ]
+}

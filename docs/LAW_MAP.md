@@ -1,5 +1,23 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October14 path-local research sublemmas, NOT shared numbered banking.
+Actual retained embedding, previous metric/geometric-spin proofs and
+pinned W61 definitions are credited antecedents. New proofs/evidence
+are in weave_field_map_2026_10_14 and surface_even_channels_2026_10_14
+under reports/physical_bridge_2026_09_05. Infinite-dimensional statements
+remain authored conditional arguments; finite locks are not outside proof
+acceptance. No physical family count or foundational selection inferred.
+
+| Exact scoped statement | Argument and LIVE safeguard |
+|---|---|
+| In THIS retained SU6-colour-weak E8 embedding, puncture and weak centre have identical adjoint action on every root/Cartan, with136 even and112 odd. | Field-map PROOF; tests/test_physical_bridge_weave_field_map.py::test_current_weak_centre_is_whole_root_action; a necessary field-map condition, not whole SM admission. |
+| An actual family SU2 centralizing the quaternion has mixed joint-centre populations, so that equality is not universal over embeddings. | Field-map PROOF; tests/test_physical_bridge_weave_field_map.py::test_alternative_is_not_selected_to_close_the_goal; scope control only, not selected weak/vacuum. |
+| The pinned W61 constant-unit COMMON commuting-profile TT contraction is exactly skew-zero and its normalized Hermitian matrices are signed isometries for all such profiles. | Field-map PROOF; tests/test_physical_bridge_weave_field_map.py::test_W61_zero_is_exact_common_profile_not_omega_sample and test_W61_normalized_replay_and_noncommon_kinetic_control; other gauge/Grassmann/Higgs vertices survive. |
+| Actual even short-periodic coefficient population82 splits by cusp eigenvalues(+1,-1,+i,-i) as(34,16,16,16), retaining both long-cycle signs. | FULL_EVEN_PROOF character projectors; tests/test_physical_bridge_surface_full_even.py::test_phase_projectors_exhaust_short_periodic_not_only_fixed_vectors; coefficient dimensions, not generations. |
+| Ordinary zero-unit full mixed cusp matrix has normalized profiles escaping at0 as long frequency grows, despite nonzero fixed-frequency thresholds. | Original even PROOF Weyl argument; tests/test_physical_bridge_surface_even_channels.py::test_profile_retains_full_mixed_spin_term and test_norm_and_escape_are_not_a_fixed_frequency_inference; conditional admitted global selfadjoint realization, not infinite exact kernel/index0. |
+| Canonical geometric beta=3/4-6n yields uniform tail coercivity3/(16ell^2) on ALL136 regular even coefficient directions and all frequencies. | FULL_EVEN_PROOF exhaustive total-frequency strata; tests/test_physical_bridge_surface_full_even.py::test_complete_connection_not_only_contracted_K and test_uniform_strata_and_ordinary_zero_unit_control; no odd112 estimate, compact resolvent or global kernel exclusion. |
+
+
 October13 based-transition prerequisite sublemmas, path-local research
 grade at67b2d5e77, not shared numbered banking. Source PROOF/FINDINGS in
 reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13;

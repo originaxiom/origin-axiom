@@ -1,0 +1,24 @@
+{
+  "exit_code": 1,
+  "elapsed_seconds": 129.60319200000959,
+  "tracked_files": 12549,
+  "tree_before": "e3512652d963cd04d1598e236ada4428ab4aceeab96f7f061a27098f95ffa263",
+  "tree_after": "e3512652d963cd04d1598e236ada4428ab4aceeab96f7f061a27098f95ffa263",
+  "tree_unchanged": true,
+  "working_files_match_index_before": true,
+  "index_sha256": "3cc9b5d6d41cc2bcc2d0929762badad3f1856d4ceb9878a2a392e9ccb5e24073",
+  "index_unchanged": true,
+  "raw_files": [
+    {
+      "name": "gates.stdout.log",
+      "bytes": 2539,
+      "sha256": "532f449376bed0adf52dad15db59252e242e02176777fe6d6db35344cd6f17a6"
+    },
+    {
+      "name": "gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "Exact staged scientific-result publication governance, not full suite; raw failures preserved"
+}

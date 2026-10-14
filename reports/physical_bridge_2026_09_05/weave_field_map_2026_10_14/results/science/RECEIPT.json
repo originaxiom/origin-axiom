@@ -1,0 +1,81 @@
+{
+  "seal_commit": "601a10b9b24d1088ef84d2063faebcfd8c6ae9ac",
+  "sources_before": {
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/DESIGN.md": "979cdb7204812867555402a1351a2e23073e53b196ac68400d7ff467e9a7f253",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/probe.py": "6533e8f3fd503843e73085e39c234813e0625620062ab31b302380752d5dff3a",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/reference.py": "5de59aef9b304c4fb2644456fccf933686712fd650a1086bd97d03066e974c61",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/execute.py": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/SOURCE_CUSTODY.json": "93fbd53808821a4efb1dada2c5176f5e3f82ebbcfd0139508df8db211173539a",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61.py": "75dee8416de71751b0ebe1cbace4ca9a9221116849cf873d91e387a0c7bb52ca",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61_RULE.md": "64a77ff50d3dbb13977793f7924523f2c7e8dcdd3322c96090ec28800c8eb99c",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61.json": "c2b74b4466fda33f40165e829fb5659466e12cd45debb9b1e52e753c0a7e14f2",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W21_periods.py": "b14b36ba3b8d9a04cf4ff5b6102a04c53ab8919ab2b7256c79d162972444f512",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_spin_room.py": "1b16a60e9678d74d65b6fc6b97bdf2e0525cf0b1c785f933fb255b2fddf84268",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W59.py": "5f2396704b5ce51b7735cf29a40cbfa9f9c138bbeaf5a30a7d73430af0cbe18f",
+    "tests/test_physical_bridge_weave_field_map.py": "e99fa6cc19388c3512cad3d505269e27af68a3ba2e637cc7b10744530e8f6a20",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/HIGGS_PARENT_MAP_REVIEW.md": "f724b1a44d26858a616f1c3b85f7f7c33deaf054a38ee2fdd6b82f0d14c8dc74"
+  },
+  "matches_seal": true,
+  "runs": [
+    {
+      "label": "probe",
+      "exit_code": 0,
+      "elapsed_seconds": 2.397307279985398,
+      "stdout": {
+        "file": "probe.stdout.log",
+        "bytes": 6315,
+        "sha256": "d41db21b7899fa68e57e60bd2c39eaddf110f93985114e0dd9e3e46e3953a9da"
+      },
+      "stderr": {
+        "file": "probe.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "label": "reference",
+      "exit_code": 0,
+      "elapsed_seconds": 0.17756166800973006,
+      "stdout": {
+        "file": "reference.stdout.log",
+        "bytes": 4840,
+        "sha256": "c6d4952915bd296cf866e5e364f609479027af7d6ccbfc4c27d81a3853322a41"
+      },
+      "stderr": {
+        "file": "reference.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "sources_after": {
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/DESIGN.md": "979cdb7204812867555402a1351a2e23073e53b196ac68400d7ff467e9a7f253",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/probe.py": "6533e8f3fd503843e73085e39c234813e0625620062ab31b302380752d5dff3a",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/reference.py": "5de59aef9b304c4fb2644456fccf933686712fd650a1086bd97d03066e974c61",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/execute.py": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/SOURCE_CUSTODY.json": "93fbd53808821a4efb1dada2c5176f5e3f82ebbcfd0139508df8db211173539a",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61.py": "75dee8416de71751b0ebe1cbace4ca9a9221116849cf873d91e387a0c7bb52ca",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61_RULE.md": "64a77ff50d3dbb13977793f7924523f2c7e8dcdd3322c96090ec28800c8eb99c",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61.json": "c2b74b4466fda33f40165e829fb5659466e12cd45debb9b1e52e753c0a7e14f2",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W21_periods.py": "b14b36ba3b8d9a04cf4ff5b6102a04c53ab8919ab2b7256c79d162972444f512",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_spin_room.py": "1b16a60e9678d74d65b6fc6b97bdf2e0525cf0b1c785f933fb255b2fddf84268",
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W59.py": "5f2396704b5ce51b7735cf29a40cbfa9f9c138bbeaf5a30a7d73430af0cbe18f",
+    "tests/test_physical_bridge_weave_field_map.py": "e99fa6cc19388c3512cad3d505269e27af68a3ba2e637cc7b10744530e8f6a20",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/HIGGS_PARENT_MAP_REVIEW.md": "f724b1a44d26858a616f1c3b85f7f7c33deaf054a38ee2fdd6b82f0d14c8dc74"
+  },
+  "sources_unchanged": true,
+  "passed": true,
+  "records_agree": true,
+  "predicate_counts": [
+    98,
+    70
+  ]
+}
