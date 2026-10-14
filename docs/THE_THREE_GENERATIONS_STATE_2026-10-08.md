@@ -439,6 +439,14 @@ Under the owner's rulings, the table's rows split into two groups:
     both.
   - In the fibre frame the weave's anisotropy puts the Higgs on the cusp's isotropic lines: one heavy generation and two
     massless. The second generation's mass needs a departure from the cone that nothing computed supplies. 0 of 19.
+- **The owner's goal "resume" (2026-10-14).**
+- **W65, the second unit (rule first; one failed launch disclosed; all six cells as predicted):**
+  - Read as a section of the matter's bundle (the hypothesis H-sec), every Higgs at ω lies on one isotropic line. So
+    the second generation is massless there, for every placement of end data.
+  - Three one-unit sections generate every placement. Their pairings are integers times E₄²/η¹⁸, with Klein's j in one
+    entry.
+  - The departure from the cone is a function of τ: quadratic near ω, e^{−π Im τ} at the cusp. The count does not drop,
+    and one coupling for every sector gives no first-generation mixing. 0 of 19.
 
 ## Questions open with main
 
@@ -454,7 +462,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W64 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W65 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§77).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§78).

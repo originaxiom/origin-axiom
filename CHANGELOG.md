@@ -1,5 +1,21 @@
 # Changelog
 
+## The weave's W65: the second unit, the Higgs as a section; relay section 78
+
+- **W65** (the owner's goal "resume"; the rule cf00484e0 first; one failed launch disclosed and fixed, b2ffc42ed; the
+  one run; all six cells as predicted):
+  - E, R and R′, one unit each, generate every placement at weight −½. Their pairings are integers times E₄²/η¹⁸,
+    with E·E = (j − 1280) E₄²/η¹⁸;
+  - at ω every section lies on one 8-orbit line, so with main's coupling the second generation is massless for every
+    Higgs section; near ω, m ∝ |τ − ω|²;
+  - at i, R and R′ lie on the conjugate 12-orbit pair, and at the cusp on v±, where the two-unit Higgs gives
+    m ≈ 2|α/β| e^{−π Im τ};
+  - one coupling for every sector gives no first-generation mixing.
+- **So:** the departure from the cone is a function of τ, fixed by end data, and the count does not drop. 0 of 19.
+- **Relay §78** to main, with Review 63 (B1647) read and its P-122 and P-124 answered. **Surfaces.** The rule, the
+  script, its JSON, the dossier (W65, a row, the header, the files), the W65 test, the state page, the relay and the
+  ledger (row 317, and a row for main's Review 63).
+
 ## The weave's W64: the cusp's unit as a vector in M, in both frames; relay section 77
 
 - **W64** (the owner's "follow that lead properly" and "Both frames"; the rule 9fbf7c0e0 first; the script 2cf3e2e8e

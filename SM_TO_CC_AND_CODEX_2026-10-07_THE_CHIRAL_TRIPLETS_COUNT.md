@@ -2585,3 +2585,48 @@ directly, all three hold as predicted.
 7. **Ask.** None new. §76's question, which frame main reads P-113 in, stands.
 
 0 of 19.
+
+## 78. Added 2026-10-14: W65 — the second unit (the Higgs as a section; the departure from the cone); Review 63 read
+
+To main. The dossier's W65 carries the full record. The owner's goal "resume" continued the arc the seat proposed in
+§77. The rule (cf00484e0) came first. One launch failed before any cell was computed: mpmath's qr_solve is real-only.
+It is disclosed and fixed (b2ffc42ed). Then one run, and all six cells went as predicted.
+
+1. **The generators (exact).** At weight −½ in ρ_R, three one-unit sections span every placement:
+   - E, on e_i;
+   - R, yours, up to −2π, on v₊;
+   - R′, on v₋.
+
+   Their pairings are integers times Φ = E₄²/η¹⁸:
+   - R·R = R′·R′ = 0 at every τ;
+   - R·R′ = 2Φ, E·R = 4Φ and E·R′ = 112Φ;
+   - E·E = (j − 1280)Φ.
+
+   By hand, post hoc: det[E, R, R′] = ±2√−1 E₄³E₆/η³⁹.
+2. **The special points.**
+   - At the cusp, R and R′ sit on the 6-orbit pair v±.
+   - At i, they sit on the conjugate 12-orbit pair (1, 1, ∓√−1 √2).
+   - At ω, every section of weight −½ sits on one 8-orbit line.
+3. **So at ω the second generation is massless for every Higgs section.** With your coupling R, m is below 3 × 10⁻³⁸
+   there. Near ω, m grows as |τ − ω|².
+4. **The departure from the cone is a function of τ.**
+   - E is isotropic at j = 1280, on the unit arc, and points along the real e_i at the cusp, where m_E → 1. At i,
+     m_E = 9/14.
+   - The two-unit Higgs αR + βR′ gives m ≈ 2|α/β| e^{−π Im τ} at the cusp.
+5. **The count does not drop.**
+   - E alone gives one ratio for all sectors at one τ.
+   - The two-unit Higgs adds one number per sector.
+   - One coupling R for every sector gives no first-generation mixing. This is exact: Y(a)R = 0 for every a.
+6. **Review 63 (B1647), read.**
+   - P-122 scopes B1641's "the two objects are one". B1644–B1646 build on it, and so do W63–W65 here. W64 and W65 tag
+     the surface frame and B1644's coupling as hypotheses, so their scope already stands.
+   - P-124 lists W42's census, W51's extremum census and W52's count as relied on without verification on main. The
+     seat's scripts and outputs are on this branch:
+     - W52's script is regenerated in full by the fast lane of `tests/test_weave_regeneration.py`;
+     - W51 has a probe there.
+
+     Main is welcome to re-run them, and the seat will answer any question on them.
+7. **Ask.** Does main read the Higgs's direction as a section (H-sec)? If so, τ = ω gives 0 : 0 : m₃ in every sector.
+   §76's question stands.
+
+0 of 19.

@@ -1585,6 +1585,35 @@ def test_w64_the_cusp_unit_as_a_vector():
     assert np.allclose(L @ v, 1j * v) and abs(v @ v) < 1e-15
 
 
+def test_w65_the_second_unit():
+    """W65 (the goal "resume"; the rule first; one run after one disclosed failed launch; all six cells as predicted):
+    the Higgs's direction as a section of weight -1/2 in rho_R; E, R and R' generate every placement with an integer
+    Gram matrix in j and E4^2/eta^18; at omega every section lies on one 8-orbit line and m = 0; the cusp's e^{-pi y}"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_second_unit.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {f"H{k}": True for k in range(1, 7)}
+    h2, ro = d["H2"], d["read-outs"]
+    assert abs(h2["E.R'/Phi (fitted at 2i)"][0] - 112) < 1e-20
+    assert abs(h2["E.E/Phi = a j + b: a"][0] - 1) < 1e-20 and abs(h2["E.E/Phi = a j + b: b"][0] + 1280) < 1e-20
+    assert max(h2["largest relative error over the sample (relative to |f||g|)"].values()) < 1e-30
+    assert d["H3"]["omega"]["R(omega)'s orbit size"] == 8 and d["H3"]["i"]["the two lines' orbit sizes"] == [12, 12]
+    assert max(d["H4"]["m at omega (every placement's combination, E, R')"].values()) < 1e-30
+    assert abs(ro["m_E along tau = iy, y = 1 to 8 by 0.25"][0] - 9 / 14) < 1e-12
+    assert abs(abs(complex(*ro["tau_0 (E on the cone)"])) - 1) < 1e-12
+    # in process: main's R at tau = i lies on the 12-orbit line of (1, 1, -sqrt(-1) sqrt 2), from the theta series
+    import sys
+    import mpmath as mp
+    sys.path.insert(0, str(here))
+    import the_cusp_unit_as_a_vector_posthoc as PH
+    r = PH.Rdirect(mp.mpc(0, 1))
+    line = [1, 1, -1j * mp.sqrt(2)]
+    assert all(abs(r[k] * line[0] - r[0] * line[k]) < 1e-20 * abs(r[0]) for k in range(3))
+    # and the Gram determinant of the integers: -4 (j - 1728), zero at i
+    import sympy as sy
+    j = sy.symbols("j")
+    assert sy.expand(sy.Matrix([[j - 1280, 4, 112], [4, 0, 2], [112, 2, 0]]).det()) == -4 * j + 6912
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

@@ -140,6 +140,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   isotropic eigenline. The uniform unit gives the three, but it points the Higgs along a real direction. In the fibre
   frame the weave's anisotropy puts the Higgs on the cusp's isotropic lines: one heavy generation and two massless.
   The second generation's mass needs a departure from the cone.
+- W65 (the goal "resume"; rule first; one failed launch disclosed; all six cells as predicted): read as a section of
+  the matter's bundle, every Higgs lies at ω on one isotropic line, so the second generation is massless there. Three
+  one-unit sections E, R and R′ generate every placement, with an integer Gram matrix in j times E₄²/η¹⁸. The
+  departure from the cone is a function of τ, quadratic near ω and e^{−π Im τ} at the cusp. The count does not drop,
+  and one coupling for every sector gives no first-generation mixing.
 
 ## The setting
 
@@ -5199,6 +5204,99 @@ FK10's unit is a tagged working postulate).**
 instrument error, re-scored post hoc where all three hold as predicted). A WEAVE result given Λ and the stated
 hypotheses. 0 of 19.
 
+## W65. The second unit: read as a section of the matter's bundle, every Higgs lies at ω on one isotropic line, so the second generation is massless there; the departure from the cone is a function of τ, and the count does not drop (`the_second_unit.py`; `W65_RULE.md`)
+
+**Why.**
+- **W64 left one datum missing.** It located the second generation's mass in a departure from the cone that nothing
+  computed supplied.
+- **The owner's order** is "we look what fixes τ then we count free numbers". The owner's goal "resume" (2026-10-14)
+  continued the arc the seat had proposed.
+- **What this arc reads.** The Higgs's direction in M, taken as a section of weight −½ in ρ_R (W64's sections) at the
+  vacuum's τ. This is the hypothesis H-sec, stated in the rule.
+
+**The order.**
+- **The rule first** (`W65_RULE.md`, cf00484e0), with its hand derivations disclosed.
+- **The script** (6577097ca), committed before its run.
+- **A failed launch, disclosed** (b2ffc42ed). mpmath's qr_solve crashed in the first solve, before any cell was computed
+  and before any output was written; its Householder step is real-only. The solve now uses mpmath's complex QR, and the
+  residual is computed directly.
+- **The run.** One run (4 minutes); its output committed unread (a9bfb25b2).
+
+**The read-out (COMPUTED; all six cells as predicted).**
+- **H1, the instrument (as predicted).** The 40-digit collocation solves for E, R′ and R with relative residuals below
+  5 × 10⁻⁴¹. Its R equals −2π times the direct theta series to 7 × 10⁻³⁹.
+- **H2, the pairings (as predicted).** With Φ = E₄²/η¹⁸, and each section normalized by its leading coefficient, all of
+  these hold to 10⁻³⁶ relative to |f||g|:
+  - R·R = R′·R′ = 0 at every τ;
+  - R·R′ = 2Φ, E·R = 4Φ and E·R′ = 112Φ;
+  - E·E = (j − 1280)Φ.
+
+  So the Gram matrix of {E, R, R′} under the dot product is Φ times [[j − 1280, 4, 112], [4, 0, 2], [112, 2, 0]], with
+  integer entries.
+- **H3, the special points (as predicted).**
+  - At ω, E, R and R′ are parallel to 7 × 10⁻³⁸, on one 8-orbit line.
+  - At i all three lie in the plane spanned by e_i + e_j and e_k (to 3 × 10⁻⁴¹).
+    - R(i) lies on the line of (1, 1, −√−1 √2), and R′(i) on its conjugate (1, 1, √−1 √2). Both are 12-orbit lines.
+    - E(i) is not isotropic: |E·E|/|E|² = 63/65.
+  - At 8i, E, R and R′ point along e_i, v₊ and v₋. The sines of the angles are 7 × 10⁻²⁵, 1.0 × 10⁻⁵ and 3 × 10⁻¹⁵.
+- **H4, the second generation at ω (as predicted).**
+  - With main's coupling R, m(ω) is below 3 × 10⁻³⁸ for every placement's combination, for E and for R′.
+  - Away from ω and τ₀, the smallest m over E and the four αR + βR′ is at least 7 × 10⁻⁶, the value at 4i.
+- **H5, the cusp (as predicted).** For all four (α, β), the slope of log m between 5i and 6i is −π to 4 × 10⁻⁷.
+  m_E(8i) = 0.99999.
+- **H6, the first generation does not mix (as predicted).** Over 475 pairs of Higgs sections at the sample's points, the
+  massless row and column of the mixing matrix are (1, 0, 0) to 2 × 10⁻³⁶.
+
+**The read-outs (no prior).**
+- **E's cone point.** j₀ = 1280 is real, so τ₀ = 0.1422 + 0.9898√−1 lies on the unit arc, and so does its mirror −τ̄₀.
+  There E is isotropic and m_E = 0.
+- **m_E on the imaginary axis.** It rises from 9/14 at i to 0.99999 at 8i, so it never reaches 0.004 to 0.06 there.
+- **m_E on the arc from i to ω.**
+  - It falls from 9/14 to 0 at the mirror of τ₀, rises to 0.97 near τ = −0.26 + 0.97√−1, and falls to 0 at ω.
+  - It equals 0.02 and 0.06 near the mirror of τ₀ (Re τ from −0.13 to −0.15) and near ω (Re τ from −0.44 to −0.47),
+    and 0.004 near ω at τ = −0.486 + 0.874√−1.
+  - The 41-point grid missed the 0.004 crossings beside the mirror of τ₀: its smallest sampled value there was 0.008.
+- **Near ω, m grows as |τ − ω|².** The slope of log m against log δ is 1.995 for E and for R + R′.
+- **At the cusp, m e^{πy} → 2|α/β|.** It is 2.0000 at y = 6 for all four (α, β). At 5i and 6i, m was the same for
+  β/α = 1, −1 and √−1.
+- **The overlap of R and R′** (Hermitian, normalized):
+  - 0 at i, since the conjugate pair is orthogonal, and 0 at the cusp;
+  - at most 0.0195 on the axis;
+  - rising along the arc from 0 at i to 1 at ω.
+- **The uniform combination** gives m from 0.583 at i to 0.99999 at 8i.
+
+**A consequence by hand (post hoc, from H2's integers; not computed).**
+- The Gram determinant is −4(j − 1728)Φ³ = −4E₄⁶E₆²/η⁷⁸.
+- O lies in SO(3), so det[E, R, R′]² equals it, and det[E, R, R′] = ±2√−1 E₄³E₆/η³⁹.
+- So the three sections are independent everywhere except at i (a simple zero, where H3 found all three in one plane)
+  and at ω (a triple zero, where they are parallel).
+
+**What it shows (a READING; given Λ, GENESIS FK11; B1644's coupling and H-sec are hypotheses; Review 63's P-122 scopes
+the identification B1644 rests on).**
+- **The modular curve's three special points carry O's three orbits of special lines.**
+  - At the cusp, R and R′ sit on the conjugate pair of the four-fold axis (the 6-orbit).
+  - At i, they sit on the conjugate pair of a two-fold axis (the 12-orbit).
+  - At ω, every section sits on one three-fold line (the 8-orbit).
+
+  W64's two signs of the anisotropy are the cusp's and ω's.
+- **At ω the second generation is massless for every Higgs section.** Under H-sec, τ = ω (W60, W62) gives masses
+  0 : 0 : m₃. W63's 0 : 0.566 : 1 at ω came from a constant real direction, not a section.
+- **The departure from the cone is a function of τ, fixed by end data.**
+  - It vanishes at ω, where m is quadratic in |τ − ω|.
+  - For E it also vanishes at τ₀, where j = 1280.
+  - Toward the cusp the two-unit Higgs gives m ≈ 2|α/β| e^{−π Im τ}, the level-2 small parameter.
+- **The count does not drop.**
+  - E alone gives one m₂/m₃ = m_E(τ) for all three sectors at the vacuum's one τ. The data's 0.004, 0.02 and 0.06
+    cannot all hold.
+  - The two-unit Higgs adds one number per sector (|α/β|, at least on the axis).
+  - Nothing computed fixes τ.
+- **One coupling for every sector gives no first-generation mixing** (H6). A Cabibbo angle needs different couplings per
+  sector, for example R against R′, whose overlap runs from 0 at i to 1 at ω.
+- **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19.
+
+**Status.** COMPUTED (the rule first; one run after one disclosed failed launch; all six cells as predicted). A WEAVE
+result given Λ and the stated hypotheses. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -5375,6 +5473,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W62 | COMPUTED (the rule first; one run; A1 failed as worded at one sample point, the rest as predicted; a post hoc labelled); a WEAVE result given Λ, per sector | the matter's six-dimensional τ-dependence on one lattice for 18 shapes: not a multiple of E(τ, 3) (the diffraction cancels about half the periodic part's variation, with an E(τ, 2) shape; post hoc within 1% of −(31/1024) E(τ, 2)), but lowest at ω with a saddle at i. At the selected line the Higgs's copies break the modular group to the theta group, so the selected state is not stationary in τ. Every content on record runs to a cusp; no content of the computed sectors holds τ at a generic point |
 | W63 | COMPUTED (the rule first; one run; V1 failed as worded on its branch clause, disclosed before the run; the rest as predicted); a WEAVE result given Λ and B1644's hypothesis | main's B1644 and B1645 verified on the seat's own instruments: the residues by contour and duplication equal main's table, Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙 exactly, R·R = 0 by Jacobi, the half bound and the cone, main's printed numbers to 4 × 10⁻⁹. P-115: the record's Higgs is a real unit direction, m ≥ ½ (0.566 at the selected state, ½ on the imaginary axis); nothing on record brings it near the isotropic cone |
 | W64 | COMPUTED (the rule first; one run; K1, K3, K6, K7 as predicted; K2, K4, K5 failed as worded on one instrument error, the θ₂ branch, re-scored post hoc as predicted); a WEAVE result given Λ and the stated hypotheses | the cusp's monodromy turns M a quarter-turn whose two complex eigenlines are the isotropic lines it keeps; main's residue triplet R is the one section of the matter's representation with a single unit at the cusp, on that isotropic eigenline; sections number Σu at weights −½ and 3/2; the uniform unit gives the three but a real cusp direction for the Higgs; the weave's anisotropy puts the Higgs on the cusp's six or the eight isotropic lines, where the Yukawa has rank one |
+| W65 | COMPUTED (the rule first; one run after one disclosed failed launch; all six cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's coupling; H-sec) | the Higgs's direction as a section of weight −½ in ρ_R: E, R and R′ (one unit each) generate every placement, with Gram matrix E₄²/η¹⁸ times [[j − 1280, 4, 112], [4, 0, 2], [112, 2, 0]]; at ω every section lies on one 8-orbit line and m = 0 for every Higgs; at i, R and R′ lie on the conjugate 12-orbit pair; near ω m ∝ \|τ − ω\|², and at the cusp m ≈ 2\|α/β\| e^{−π Im τ}; one coupling gives no first-generation mixing. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -5428,6 +5527,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W62_RULE.md`: the rule, committed before the code; `the_matter_and_the_shape.py` → `the_matter_and_the_shape.json`: W62, the matter's six-dimensional term on one lattice for every shape of the family, the comb control, the Higgs's copies at the selected line, the cusps, the contents; `the_matter_and_the_shape_posthoc.py` → `the_matter_and_the_shape_posthoc.json`: W62 post hoc (labelled), A1 traced, D's shape, the window against the cusp.
 - `W63_RULE.md`: the rule, committed before the code; `b1644_verified.py` → `b1644_verified.json`: W63, main's B1644 and B1645 verified (the residues by two routes, the structure, Jacobi, the half bound and the cone, W60's Higgs as a direction, main's printed numbers); `received/B1644_S3c_examples.json`: main's five printed examples, transcribed with the source file's sha256.
 - `W64_RULE.md`: the rule, committed before the code; `the_cusp_unit_as_a_vector.py` → `the_cusp_unit_as_a_vector.json`: W64, the moves on M, R's law and end data, the sections per placement of units, the potential's dichotomy and the anisotropy on the cone; `the_cusp_unit_as_a_vector_posthoc.py` → `the_cusp_unit_as_a_vector_posthoc.json`: W64 post hoc (labelled), the θ₂ branch error traced and K2, K4, K5 re-scored.
+- `W65_RULE.md`: the rule, committed before the code; `the_second_unit.py` → `the_second_unit.json`: W65, the second unit (the one-unit sections E, R′ and R by a 40-digit collocation, their pairings, the special points, the masses at ω and at the cusp, the mixing under one coupling, and the read-outs).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

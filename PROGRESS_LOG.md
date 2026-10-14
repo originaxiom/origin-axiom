@@ -18700,3 +18700,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Three predictions failed on one numerical error** (a branch of a fourth root in a library routine). They are
   recorded as failed, and a labelled check with the error fixed shows them holding.
 
+## 2026-10-14 — the owner's goal "resume"; W65: the second unit; relay §78
+
+- **W65 asked where the second generation's mass could come from.** It read the Higgs's direction among the generations
+  as one of the bundle's own sections, fixed by the datum at the cusp.
+- **At the most symmetric point of the modulus, every such Higgs gives the second generation zero mass.** Away from that
+  point the mass grows: quadratically near it, and exponentially slowly toward the cusp. So the second generation's mass
+  is set by where the modulus sits, and nothing yet fixes that.
+- **All six predictions held.** One launch crashed in a library's solver before computing anything. It is disclosed and
+  fixed.
+- **The count of free numbers does not drop:** 0 of 19.
+
