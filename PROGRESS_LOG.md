@@ -17054,3 +17054,10 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   first generation is massless and unmixed at leading order. Five zeros by Jacobi; the Cabibbo angle must come from what
   lifts R (P-128). 0 of 19.
 - Gates 45 of 45. Full suite: 7304 passed, 1 failed, 68 skipped — B1467's lock caught that main's pin edit had overwritten the SM pin row's history chain (its earlier pins, `2eb3841f` among them); the chain restored in the ledger's own format, then the lock and the gate, harvest, relay, register, review, view, GENESIS, seal, lane and B163x–B164x test files re-run on the final tree: 561 passed, 0 failed, 8 skipped (111 files). At the owner's question on the Cabibbo zero, its four premises are rowed for audit (P-129).
+
+## 2026-10-14 — S123 FITS ON THE RULED BRANCH (B1637, PROVED for its question)
+
+- Main's 17-hour refit of W53: the predictive structure is excluded on all 13, and every fit needs 21 or more parameters
+  for 13 numbers. So under this ansatz all 13 flavour numbers are free. W53's masses-only number was an overestimate,
+  and one sentence of W54 is refuted. Q1 cleared. 0 of 19.
+- Gates 45 of 45; full suite 7309 passed, 0 failed, 68 skipped.

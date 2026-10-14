@@ -1,5 +1,26 @@
 # Changelog
 
+## S123 FITS ON THE RULED BRANCH (B1637, PROVED for its question): with one τ the modular structure fits the charged fermions only with 21 or more parameters for 13 numbers; W53's exclusion verified on main; one sentence of W54 refuted
+
+**B1637** (sealed `3ef9c3f8f`). This is main's refit of the SM seat's W53, on main's own forms (B1635), theta series
+and optimizer: multi-start least squares over the fundamental domain with Im τ ≤ 10, 63 fits, about 17 hours. Data: the
+charged-fermion masses at M_Z (Huang–Zhou 2021, re-fetched and hashed) and the CKM (PDG 2025).
+- **F3 holds:** each sector alone fits, at its own Im τ (6.66, 5.09, 5.85).
+- **F4 holds:** with u and d at weight 3, χ² ≥ 1071 on all 13.
+- **F5 holds:** eight assignments fit, and the smallest has P = 21 > 13.
+- **F2 failed as worded.** On the nine masses main reaches χ² = 20.6, not ≥ 100; W53's 163 was an overestimate. On all
+  13 at the widest allowance it reaches 397, not ≥ 1000. (3, 3, 3) is still excluded on all 13 at every allowance.
+- **Read against W54** (its headline read after the seal, disclosed):
+  - the exact fits agree (every sector at weight 5 or 7, Im τ ≈ 2.6–3.5);
+  - main refutes "every structure with a sector at weight 3 fails": (5, 7, 3) fits at χ² 1.86 near Im τ 6.8;
+  - W54's (5, 5, 5) and (5, 5, 7) are fits main's optimizer missed.
+- **Scope (P-014–P-016):** one ansatz, not the principle. Three independent sectors, weights chosen. Under it all 13
+  flavour numbers are free.
+
+**Recorded.** T-FITS-NEED-TWENTY-ONE; LAW_MAP; the claim pool; THE_WEAVE; the W53 and W54 ledger rows annotated;
+P-013–P-016 and P-076 done; one relay. 0 of 19.
+Gates 45 of 45. Full suite: 7309 passed, 0 failed, 68 skipped (exit status 0).
+
 ## S122 THE SCOPE REPAIRS (B1648; GENESIS v1.44), THE SM SEAT'S W63 ROWED, AND THE KERNEL AT THE PUNCTURE (B1649, PROVED)
 
 **B1648 (Review 63's R63-3).** Four statements carried wider than computed are scoped. No number or verdict changes.

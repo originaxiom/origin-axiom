@@ -1,0 +1,24 @@
+{
+ "id": "B1637",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1634",
+  "B1635",
+  "B1612"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the ruled branch; given Lambda; the record's hand (B1640)",
+  "object": "holomorphic modular couplings at one tau (B1635's forms, weights 3, 5, 7) fitted to the charged-fermion masses at M_Z and the CKM",
+  "reach": "general",
+  "hypotheses": "one ansatz, not the principle: three independent sectors (a Higgs content beyond Lambda, assumed), weights chosen; an optimizer's minimum is an upper bound (a failure is a statement about this search); W54's headline read after the seal and before the grading (disclosed)"
+ },
+ "claim_one_line": "FITS ON THE RULED BRANCH (sealed 3ef9c3f8f; PROVED for its question -- F3, F4, F5 hold as sealed; F2 failed as worded): with one tau the modular structure fits the charged fermions only with 21 or more parameters for 13 numbers, so under this ansatz all 13 flavour numbers are free; W53's (3, 3, 3) stays excluded on all 13 at every allowance (chi2 397 to 2406) on main's own forms and code, each sector alone fitting at its own Im tau (6.66, 5.09, 5.85), but its masses-only number was an overestimate (20.6, not 163), so F2's thresholds failed as worded; exact fits sit at Im tau 2.6 to 3.5 with every sector at weight 5 or 7, and main also finds (5, 7, 3) at chi2 1.86 and (3, 7, 7) at 6.72 near Im tau 6.8, refuting W54's 'every structure with a sector at weight 3 fails'. 0 of 19.",
+ "weave_or_thread": "weave"
+}

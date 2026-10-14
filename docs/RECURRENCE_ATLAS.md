@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-10-14 from 1374 frontier probes.
+> Last generated: 2026-10-14 from 1375 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,7 +11,7 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1374 frontier probes; status {'open': 72, 'banked': 910, 'dead': 364, 'dormant': 28}
+  corpus: 1375 frontier probes; status {'open': 72, 'banked': 910, 'dead': 365, 'dormant': 28}
   the ONE conserved first integral: kappa (recurs 297x, 21%) -- genuine unity, MUST recur
   top recurring motifs: eisenstein(754), golden(744), firewall(654), figure_eight(600), amphichiral_cp(529), trace_map(496)
   recurrence is: structural-invariant 5363 mentions | conserved-integral 297 | TOOL 496
@@ -33,12 +33,12 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | amphichiral_cp | 529 | 38% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
 | trace_map | 496 | 36% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | metallic | 490 | 35% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
-| coupling | 441 | 32% | question | no | physics | the observer/object interface: what the coupling supplies that neither side has alone (the listener map, the pair, the relational bit) |
+| coupling | 442 | 32% | question | no | physics | the observer/object interface: what the coupling supplies that neither side has alone (the listener map, the pair, the relational bit) |
 | torsion | 423 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | closing | 416 | 30% | question | structural | topology | what closing the open object supplies and costs -- Dehn filling, the seam, the constitutive closure (B286/B287/B294) |
 | z3_generation | 392 | 28% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
 | measurement | 325 | 23% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
-| wrt_quantum | 306 | 22% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
+| wrt_quantum | 307 | 22% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | kappa | 297 | 21% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | lorentzian | 237 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
 | choice | 205 | 14% | question | structural | arithmetic | the residual bit(s): the torsor of closings, the basepoint bit, what the object can and cannot select (A7/B766/B1183/B1225) |

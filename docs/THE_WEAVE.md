@@ -452,3 +452,14 @@ found with B1635's sealed instrument.
     must come from whatever lifts R.
 - **Next (P-128):** what lifts R. The first candidate is the Wilson line on the fibre, whose twisted zero mode is to be
   derived by hand before any seal.
+
+## Main's addition: fits on the ruled branch (B1637, PROVED for its question)
+
+- **Main's refit of the SM seat's W53, on main's own forms, code and optimizer** (17 hours, 63 fits). The one
+  predictive structure, T ⊗ T at weight 3 in every sector (11 parameters for 13 numbers), stays excluded on all 13 at
+  every allowance. Each sector alone fits, but at its own Im τ.
+- **Every structure that fits needs 21 or more parameters for 13 numbers.** So under this ansatz (one τ, three
+  independent sectors, weights chosen) all 13 flavour numbers are free. The exact fits sit at Im τ ≈ 2.6–3.5, every
+  sector at weight 5 or 7.
+- **Against W54:** the exact fits agree. Main refutes one sentence: (5, 7, 3), with the leptons at the geometry's
+  weight, fits at χ² 1.86 near Im τ 6.8. Both searches are local; the union of their minima is the record's best.

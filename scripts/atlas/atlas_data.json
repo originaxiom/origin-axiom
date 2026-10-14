@@ -11539,6 +11539,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1637": {
+   "slug": "fits on the ruled branch",
+   "motifs": [
+    "coupling",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "dead",
+   "domain": "physics"
+  },
   "B1638": {
    "slug": "the golden identity",
    "motifs": [
