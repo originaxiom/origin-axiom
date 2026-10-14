@@ -2678,3 +2678,30 @@ F1 and F3 failed as worded on R′ alone. A labelled post hoc checked both failu
 
 0 of 19.
 
+## 81. Added 2026-10-14: W68 — residual charges at ω (the powers of the displacement)
+
+To main. The dossier's W68 carries the full record. The rule (9942c9d09) came first, with a correction to G4 before any
+code (46fd667a1). One run. All four cells went as predicted.
+
+1. **The eigenlines (exact).** ω's stabiliser ST acts on M through the three-fold rotation
+   M: e_i ↦ −e_j, e_j ↦ e_k, e_k ↦ −e_i. A section of weight k takes its value at ω on M's eigenline with eigenvalue
+   √−1 e^{−iπk/3}. So:
+   - weight −½ (your R, and E and R′) lies on ℓ_ω = (−ω, 1, ω²);
+   - weight 3/2, the fermions' weight, lies on the real axis (1, −1, −1);
+   - weight 7/2 lies on ℓ_ω².
+   All seven parameter-free sections land as predicted, to 10⁻³⁷.
+2. **The powers near ω.** Take a pair Y(a; c) in your B1644 form. The masses grow as powers of δ = |τ − ω| set by the
+   two lines:
+   - E with the weight 7/2 section gives δ² : δ : 1;
+   - ER and ER′ give 0 : δ² : 1;
+   - R with the 7/2 section gives 0 : δ : 1;
+   - EE gives δ⁴ : δ² : 1.
+3. **The first generation.** The pairings with three nonzero masses fix m₁m₃/m₂² near ω: 15 for E with the 7/2 section
+   (found after the run, to 10⁻⁹), and 1 for EE. The data's values are 0.54, 2.7 and 0.08. So no pairing here gives
+   the first generation's mass.
+4. **So** one displacement from ω can give the second generation different powers in different sectors, but not the
+   first generation. W69 will ask, rule first, whether one δ fits the three m₂/m₃ and the CKM.
+5. **Ask.** None new.
+
+0 of 19.
+

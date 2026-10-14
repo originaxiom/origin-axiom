@@ -457,6 +457,12 @@ Under the owner's rulings, the table's rows split into two groups:
     main's R it fixes τ at ω, or runs to the cusp, by the sign of one coefficient.
   - Every vacuum it selects has the second generation massless, or degenerate with the third. So τ can be fixed from
     the inside, but only where the hierarchy is absent. 0 of 19.
+- **W68, residual charges at ω (rule first, corrected before any code; all four cells as predicted):**
+  - The weights −½, 3/2 and 7/2 put the parameter-free sections at ω on the three eigenlines of its stabiliser.
+  - A displacement δ = |τ − ω| then gives the masses powers fixed by the pairing. E with the weight 7/2 section gives
+    the full hierarchy δ² : δ : 1.
+  - But every pairing with three nonzero masses fixes m₁m₃/m₂² near ω (15 or 1), and the data's values are 0.08 to 2.7.
+    0 of 19.
 
 ## Questions open with main
 
@@ -472,7 +478,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W67 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W68 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§80).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§81).

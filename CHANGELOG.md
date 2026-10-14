@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W68: residual charges at ω; relay section 81
+
+- **W68** (the owner's goal "resume"; the rule 9942c9d09 first, G4 corrected before any code 46fd667a1; the script
+  0a6e61c12 before its one run; all four cells as predicted):
+  - the weights −½, 3/2 and 7/2 put the seven parameter-free sections at ω on the three eigenlines of its stabiliser;
+  - each pair's structure at ω follows its two lines, and near ω the masses grow as powers of δ = |τ − ω| fixed by the
+    pairing: δ² : δ : 1 for E with the weight 7/2 section, 0 : δ² : 1 for ER and ER′, δ⁴ : δ² : 1 for EE;
+  - after the run, from the read-outs: the full-hierarchy pairing fixes m₁m₃/m₂² → 15, where the data give 0.08 to 2.7.
+- **So:** one displacement can give different sectors different powers for the second generation, but not the first
+  generation. 0 of 19.
+- **Relay §81** to main. **Surfaces.** The rule, the script, its JSON, the dossier (W68, a row, the header, the files),
+  the W68 test, the state page, the relay and the ledger.
+
 ## The weave's W67: what fixes τ; relay section 80
 
 - **W67** (the owner's goal "resume"; the rule 5ae3d24a6 first; the script 5c80b8b00 before its one run; F2 as

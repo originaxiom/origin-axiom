@@ -153,6 +153,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   quartic, evaluated on the parameter-free Higgs sections, fixes τ. For main's R it fixes τ at ω (c > 0) or runs to
   the cusp (c < 0). R′ adds two more points at j = 336 ∓ 192√7 (identified), and E adds τ₀. Every vacuum it selects
   has the second generation massless, or degenerate with the third.
+- W68 (the goal "resume"; rule first, corrected before any code; all four cells as predicted): the weights −½, 3/2 and
+  7/2 put the parameter-free sections on the three eigenlines of ω's stabiliser. One displacement δ = |τ − ω| then gives
+  different powers to different pairings. E with the weight 7/2 section gives the full hierarchy δ² : δ : 1, but it
+  fixes m₁m₃/m₂² at 15, where the data give 0.08 to 2.7.
 
 ## The setting
 
@@ -5456,6 +5460,85 @@ hypotheses. 0 of 19.
 further 8-orbit points and a double-precision plateau, both checked in a labelled post hoc). A WEAVE result given Λ and
 the stated hypotheses. 0 of 19.
 
+## W68. Residual charges at ω: the weights −½, 3/2 and 7/2 put the sections on the three eigenlines of ω's stabiliser, and one pairing gives the full hierarchy δ² : δ : 1 from one displacement (`the_residual_charges_at_omega.py`; `W68_RULE.md`)
+
+**Why.**
+- **W67 fixed τ where the hierarchy vanishes.** So the masses must come from a displacement δ = |τ − ω|.
+- **W65 and W66 found one power,** δ², at weight −½. This arc asked whether the other weights at which ρ_R is a
+  multiplier system give other powers. It is the residual-symmetry mechanism of Novichkov, Penedo and Petcov, read on
+  ρ_R.
+
+**The order.**
+- **The rule first** (`W68_RULE.md`, 9942c9d09).
+- **A correction to G4 before any code** (46fd667a1, disclosed in the rule). As first written, G4 included the pairs of
+  two isotropic sections, which W66 had found have rank one.
+- **The script** (0a6e61c12), committed before its run.
+- **The run.** One run (7 minutes); its output committed unread (c4dcd30c2).
+
+**The read-out (COMPUTED; all four cells as predicted).**
+- **G1, the sections (as predicted).**
+  - At −½ and 3/2 the one-dimensional placements are exactly the three one-unit ones.
+  - At 7/2 the dimension is 1 + Σu, so only u = (0, 0, 0) is one-dimensional.
+  - That gives seven parameter-free sections: E, R and R′ at −½; three at 3/2; one at 7/2. Their 40-digit solves have
+    residuals below 6 × 10⁻⁴¹.
+- **G2, the eigenlines at ω (as predicted).**
+  - All three weight −½ sections lie on ℓ_ω = (−ω, 1, ω²).
+  - All three weight 3/2 sections lie on the real axis (1, −1, −1).
+  - The weight 7/2 section lies on ℓ_ω² = (−ω², 1, ω).
+  - Every sine to its line is below 3 × 10⁻³⁷. Only R and R′ are isotropic at every τ.
+- **G3, the pairs at ω (as predicted).** All 28 pairs follow their two lines, to 10⁻³⁷:
+  - rank one for two isotropic lines;
+  - m₁ = 0 and m₂ = m₃ for an isotropic line with the axis;
+  - m₁ = m₂ = m₃ for two on the axis.
+- **G4, the powers near ω (as predicted).**
+  - E with the weight 7/2 section: p₁ = 2.000 and p₂ = 1.000.
+  - R and R′ with it: m₁ ≡ 0 and p₂ = 1.000.
+  - ER and ER′: m₁ ≡ 0 and p₂ = 2.000.
+  - RR, RR′ and R′R′: m₂ ≡ 0.
+  - Each power holds to 10⁻³ between δ = 10⁻⁴ and 10⁻³.
+
+**The read-outs (no prior).**
+- **The patterns (p₁, p₂) that occur:**
+
+  | pattern | pairs |
+  |---|---|
+  | (δ², δ) | E with the 7/2 section; the 7/2 section with itself |
+  | (δ⁴, δ²) | EE |
+  | (0, δ²) | ER, ER′ |
+  | (0, δ) | R or R′ with the 7/2 section |
+  | (δ³, degenerate) | E with each 3/2 section; one 3/2 section with the 7/2 section |
+  | degenerate (m₂ = m₃ at ω) | the rest of the pairs with a 3/2 section |
+  | (0, 0) | RR, RR′, R′R′ |
+
+- **The coefficients at δ = 10⁻⁴.**
+  - E with the 7/2 section: m₂/m₃ = 1.8774 δ and m₁/m₃ = 52.87 δ².
+  - R or R′ with it: m₂/m₃ = 1.8774 δ.
+  - EE: m₂/m₃ = 26.43 δ² and m₁/m₃ = 698.8 δ⁴.
+- **The dimension table** at 7/2 is 1 + Σu for every u, and at 3/2 it is Σu (W64). The collocation and χ + Σu agree on
+  all 24.
+
+**A consequence by arithmetic (after the run, from the read-outs; not a cell).**
+- For E with the 7/2 section, m₁m₃/m₂² → 52.87/1.8774² = 15.000 (to 10⁻⁹) as τ → ω. For EE it is exactly 1 (W66).
+- The data give m₁m₃/m₂² = 0.54 (up), 2.7 (down) and 0.081 (leptons).
+- So near ω, no pairing that gives three nonzero masses gets the first generation's mass right in any sector. The
+  pairings with m₁ ≡ 0 give none.
+
+**What it shows (a READING; given Λ, GENESIS FK11; B1644's form, H-sec and H-pair′ are hypotheses).**
+- **The three weights carry the three residual charges at ω.** −½ sits on one isotropic line, 3/2 on the real axis and
+  7/2 on the other isotropic line: the three eigenlines of ω's order-3 stabiliser, one per weight.
+- **One displacement from ω gives different powers to different pairings.**
+  - E with the 7/2 section gives the full hierarchy δ² : δ : 1.
+  - The weight −½ pairs give 0 : δ² : 1, and R with the 7/2 section gives 0 : δ : 1.
+  - So the second generation's mass can be δ or δ² by the sector's pairing. The data's m_μ/m_τ ≈ 0.06 and
+    m_c/m_t ≈ 0.004 are δ and δ² for δ ≈ 0.06, but that is context, not a fit.
+- **The first generation does not come out.** Every pairing with three nonzero masses fixes m₁m₃/m₂² near ω, at 15 or
+  1, and the data's values are 0.08 to 2.7.
+- **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19. Whether one δ fits the second
+  generations and the CKM is W69's question, rule first.
+
+**Status.** COMPUTED (the rule first, corrected before any code; one run; all four cells as predicted). A WEAVE result
+given Λ and the stated hypotheses. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -5635,6 +5718,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W65 | COMPUTED (the rule first; one run after one disclosed failed launch; all six cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's coupling; H-sec) | the Higgs's direction as a section of weight −½ in ρ_R: E, R and R′ (one unit each) generate every placement, with Gram matrix E₄²/η¹⁸ times [[j − 1280, 4, 112], [4, 0, 2], [112, 2, 0]]; at ω every section lies on one 8-orbit line and m = 0 for every Higgs; at i, R and R′ lie on the conjugate 12-orbit pair; near ω m ∝ \|τ − ω\|², and at the cusp m ≈ 2\|α/β\| e^{−π Im τ}; one coupling gives no first-generation mixing. 0 of 19 |
 | W66 | COMPUTED (the rule first; one run; all three cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair) | the parameter-free census: B1644's form with the Higgs and the coupling among the one-unit sections E, R and R′, every assignment of the six pairs to the three charged sectors, fitted at one τ. The rank-one pairs (RR, R′R′, RR′) and shared pairs are dead; EE has m₁m₃ = m₂²; no assignment passes (best χ² 309 at a = 0.10, 66.5 at a = 0.20, 3 degrees of freedom), with the minima near ω. The data do not fix τ through these sections. 0 of 19 |
 | W67 | COMPUTED (the rule first; one run; F2 as predicted; F1 and F3 failed as worded on R′ alone, checked in a labelled post hoc); a WEAVE result given Λ and the stated hypotheses (H-sec; H-pot) | what fixes τ: the weave's O-invariant quartic λ₂ q₂ + c q_A on the parameter-free Higgs sections, as a function on the modular curve. For main's R: ω for c > 0 (uniquely), the cusp for c < 0. R′ reaches the 8-orbit lines also at j = 336 ∓ 192√7 (identified post hoc), a tie; E adds τ₀ (j = 1280). Every selected vacuum has the second generation massless, or degenerate with the third: τ can be fixed only where the hierarchy is absent. 0 of 19 |
+| W68 | COMPUTED (the rule first, corrected before any code; one run; all four cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair′) | residual charges at ω: the parameter-free sections of weight −½ (E, R, R′), 3/2 (three) and 7/2 (one) lie at ω on ℓ_ω, the real axis and ℓ_ω², the three eigenlines of the stabiliser. Every pair's structure at ω follows its lines, and near ω the masses grow as powers of δ = \|τ − ω\| fixed by the pairing: δ² : δ : 1 for E with the 7/2 section, 0 : δ² : 1 for ER and ER′, δ⁴ : δ² : 1 for EE. The full hierarchy fixes m₁m₃/m₂² → 15 (data 0.08 to 2.7). 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -5691,6 +5775,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W65_RULE.md`: the rule, committed before the code; `the_second_unit.py` → `the_second_unit.json`: W65, the second unit (the one-unit sections E, R′ and R by a 40-digit collocation, their pairings, the special points, the masses at ω and at the cusp, the mixing under one coupling, and the read-outs).
 - `W66_RULE.md`: the rule, committed before the code; `the_parameter_free_census.py` → `the_parameter_free_census.json`: W66, the parameter-free census (the pairs' rank at 40 digits, the 216 assignments fitted at one τ at three allowances, the six permutations' minima, and two at a time).
 - `W67_RULE.md`: the rule, committed before the code; `the_potential_fixes_tau.py` → `the_potential_fixes_tau.json`: W67, what fixes τ (each section's landscape, the potential's census over 16 coefficient pairs, E's read-outs, the masses at the fixed points); `the_potential_fixes_tau_posthoc.py` → `the_potential_fixes_tau_posthoc.json`: W67 post hoc (labelled), R′'s extra 8-orbit points and the plateau at 40 digits, the masses there.
+- `W68_RULE.md`: the rule, committed before the code (with a correction to G4 before any code); `the_residual_charges_at_omega.py` → `the_residual_charges_at_omega.json`: W68, residual charges at ω (the dimension table at −½, 3/2 and 7/2, the seven parameter-free sections, their eigenlines at ω, every pair at ω and its powers near ω).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

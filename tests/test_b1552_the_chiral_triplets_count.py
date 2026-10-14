@@ -1667,6 +1667,30 @@ def test_w67_the_potential_fixes_tau():
     assert abs(np.sum(np.abs(a) ** 4) / np.vdot(a, a).real ** 2 - 1 / 3) < 1e-15 and abs(a @ a) < 1e-14
 
 
+def test_w68_the_residual_charges_at_omega():
+    """W68 (the goal "resume"; the rule first, G4 corrected before any code; one run; all four cells as predicted): the
+    weights -1/2, 3/2 and 7/2 put the parameter-free sections at omega on the three eigenlines of its stabiliser, and the
+    pairing fixes the powers of delta = |tau - omega|: delta^2 : delta : 1 for E with the weight 7/2 section"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_residual_charges_at_omega.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"G1": True, "G2": True, "G3": True, "G4": True}
+    assert len(d["G1"]["the sections kept (distinct)"]) == 7
+    pair = d["read-outs"]["every pair"]["k = -1/2, u = (1, 0, 0) | k = 7/2, u = (0, 0, 0)"]
+    p1, p2 = pair["p1 (1e-4 to 1e-3), (1e-3 to 1e-2)"][0], pair["p2 (1e-4 to 1e-3), (1e-3 to 1e-2)"][0]
+    assert abs(p1 - 2) < 1e-2 and abs(p2 - 1) < 1e-2
+    c = pair["coefficients"]
+    assert abs(c["m1/m3 / delta^p1 at 1e-4"] / c["m2/m3 / delta^p2 at 1e-4"] ** 2 - 15) < 1e-6
+    # in process: the stabiliser's rotation M (e_i -> -e_j, e_j -> e_k, e_k -> -e_i) has eigenvalue
+    # sqrt(-1) e^{-i pi k/3} on the line each weight lands on: omega at -1/2, 1 at 3/2, omega^2 at 7/2
+    import numpy as np
+    M = np.array([[0, 0, -1], [-1, 0, 0], [0, 1, 0]])
+    w = np.exp(2j * np.pi / 3)
+    lines = {-0.5: np.array([-w, 1, w * w]), 1.5: np.array([1, -1, -1]), 3.5: np.array([-w * w, 1, w])}
+    for k, v in lines.items():
+        lam = 1j * np.exp(-1j * np.pi * k / 3)
+        assert np.allclose(M @ v, lam * v)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
