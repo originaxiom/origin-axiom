@@ -1,0 +1,20 @@
+{
+  "scope": "Exact staged governance after antecedent metadata correction; four remaining failed categories, no full suite",
+  "files": [
+    {
+      "path": "gates.stdout.log",
+      "bytes": 2539,
+      "sha256": "d7beecd8fac7ac18ded378d587475bad7d31f2a0f923864eff261273e14742a0"
+    },
+    {
+      "path": "gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROCESS_RECEIPT.json",
+      "bytes": 876,
+      "sha256": "e19710b6dbbfc0dbb93ea0cbbfef0457a7b142d9eedb4b181780eb59202f9651"
+    }
+  ]
+}

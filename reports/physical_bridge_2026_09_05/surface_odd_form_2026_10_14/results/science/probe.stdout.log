@@ -1,0 +1,88 @@
+{
+  "checks": {
+    "full mixed first order coefficient E3": true,
+    "full mixed first order coefficient E4": true,
+    "no horizontal derivative in cross operator": true,
+    "all mixed second derivative coefficients cancel": true,
+    "density term anticommutes vertically": true,
+    "R line term anticommutes vertically": true,
+    "both cross matrices reverse vertical chirality": true,
+    "cross coefficients skew Hermitian": true,
+    "E3 coefficient norm exact one": true,
+    "E4 coefficient norm exact one": true,
+    "omitted mixed spin term changes E3 coefficient": true,
+    "omitted mixed spin term changes E4 coefficient": true,
+    "regular vertical gradient symbol exact": true,
+    "absorption bound is an exact nonnegative square": true,
+    "half pole derivative squared radial norm diverges": true,
+    "projected shifted potential elementary bound": true,
+    "literal Q8 coefficient relations retained": true,
+    "literal cusp fourth power retained": true,
+    "literal cusp commutes with A": true,
+    "complete odd character dimension112": true,
+    "odd centre acts on whole112 not six": true,
+    "all actual harmonic phase ranks nonnegative": true,
+    "both A eigenspaces exhaust56": true,
+    "whole odd population exhaust112": true,
+    "all actual phases bounded away from integers": true,
+    "zero phase comparator fails confining frequency duty": true
+  },
+  "all_passed": true,
+  "records": {
+    "odd_phase_populations": [
+      [
+        "+i",
+        [
+          [
+            1,
+            18
+          ],
+          [
+            3,
+            16
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            16
+          ]
+        ]
+      ],
+      [
+        "-i",
+        [
+          [
+            1,
+            16
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            5,
+            16
+          ],
+          [
+            7,
+            18
+          ]
+        ]
+      ]
+    ],
+    "odd_coefficient_dimension": 112,
+    "cross_matrix_norms_ell_one": [
+      1,
+      1
+    ],
+    "form_vertical_fraction": [
+      1,
+      2
+    ],
+    "form_norm_error_ell_one": 4
+  },
+  "scope": "finite exact cross-form and whole odd-phase safeguards; authored conditional analytic proof, not global admission or physical index"
+}

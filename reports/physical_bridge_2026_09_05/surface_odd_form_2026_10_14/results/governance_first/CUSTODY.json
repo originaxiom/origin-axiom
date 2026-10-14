@@ -1,0 +1,20 @@
+{
+  "scope": "First staged governance capture failed including new path-local law provenance; preserved before metadata-only correction",
+  "files": [
+    {
+      "path": "gates.stdout.log",
+      "bytes": 2663,
+      "sha256": "a4baf6fef9ca6228aa789c56d273129c3da45574a63aac613ea6ffa9ba3eda2b"
+    },
+    {
+      "path": "gates.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROCESS_RECEIPT.json",
+      "bytes": 865,
+      "sha256": "6341980853640f6e635fabcae4f2da42f3a81a2fe59a32c58c8be338ea30d74b"
+    }
+  ]
+}

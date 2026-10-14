@@ -1,0 +1,45 @@
+{
+  "scope": "Byte faithful first scientific and64 selected-test captures; committed before first run but remote seal publication delayed by failed push, see PUBLICATION_TIMING.md; no full suite or nonauthor acceptance",
+  "files": [
+    {
+      "path": "results/science/probe.stdout.log",
+      "bytes": 2347,
+      "sha256": "6d7a0bd1dc6cada2a26469b21c1ce6e4604209523998b03b98415ca918b5761c"
+    },
+    {
+      "path": "results/science/probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/science/reference.stdout.log",
+      "bytes": 1777,
+      "sha256": "c23ce3b110be3dfcfba2c7df278c22b7c68a3249d4ee7c64d412ea022035fe37"
+    },
+    {
+      "path": "results/science/reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/science/RECEIPT.json",
+      "bytes": 7135,
+      "sha256": "205242f52b6386e93141065b5ed4fc36f326aa8a5c33ee1cb316b7bb652c01f9"
+    },
+    {
+      "path": "results/selected_tests/tests.stdout.log",
+      "bytes": 100,
+      "sha256": "9afe0dc862edc962d815cec5ed8c19f08315324008878fa577c9e5a478821515"
+    },
+    {
+      "path": "results/selected_tests/tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/selected_tests/RECEIPT.json",
+      "bytes": 1291,
+      "sha256": "5efd1dfe1b00f6aa91730e6490e355e1ba48fc03c8aa5122d2450d79842ceca8"
+    }
+  ]
+}

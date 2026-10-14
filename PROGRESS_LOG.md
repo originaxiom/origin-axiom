@@ -19397,3 +19397,53 @@ ORIGINAL_INPUTS snapshot, two old vacuity locks, five historical seal
 paths and42 stale relays remain; no baseline waiver or frozen evidence
 removal.145 OPEN, review517 overdue; seal/doc/law-map/identification gates
 pass. No full suite, main/outside acceptance or completed goal claimed.
+
+## 2026-10-14 extreme-domain odd complementary form
+
+October14 odd-domain form checkpoint:26 native/21 separate exact
+safeguards and64 selected live tests PASS46.50s at unchanged9d234b068,
+19 pins and12,567 tracked files. New AUTHORED CONDITIONAL extreme-law
+argument transfers the cross derivative to the regular opposite vertical
+chirality: ||D psi||^2>=||D_V psi||^2/2+||H psi||^2-4||psi||^2/ell^2.
+It retains the half-pole and g not in Dom(D_V), rather than squaring it.
+With credited vertical gap/bounded mixing, actual odd QDQ has a growing
+tail estimate. All112 odd phase ranks retained, no physical family count.
+Canonical full Fredholmness at0 is CONDITIONAL on actual global admission
+and local/domain/projection hypotheses; actual kernel/index not computed.
+LOCAL seal committed before first run; first push HTTP408 failed and
+server still had the prior commit. Unchanged retry published it AFTER
+science; PUBLICATION_TIMING discloses the sequencing error, not backdated.
+NEXT actual all-based bundle/R/reality/end admission, analytic scrutiny,
+complete charged kernel and SAME-parent stationary Higgs/source/vertices.
+Non-scalar compensators, if considered, must keep their actual unbroken
+gauge algebra and changed cusp phases. No repair/plane/unit chosen for
+three. Ordinary0 even obstruction and compact silver positives retained.
+Full-suite/main/outside acceptance and physical SM/gravity remain OPEN.
+Report: reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/FINDINGS.md.
+
+First science2.965846/0.242638s, empty stderr and matching records;
+test capture47.922113s with unchanged fingerprint
+cbfa458306bc2bb62f2205342fe64bfac85f04a2123b38bb46e2fd360e67b561.
+The complete odd phase census is a mathematical read-out, not an index.
+No scientific source/criterion repair or failed run hidden. Remote seal
+retry verified9d234b068 only after first science; local pre-run seal and
+remote timing are distinguished. Full physical goal ACTIVE/unachieved.
+
+Own timing audit also tightens FULL_EVEN687c8ac85: local commit and
+terminal successful push preceded first execution; terminal server-read
+confirmation was collected afterward, not proved pre-run as earlier
+FINDINGS wording said. Append correction/publication review preserves
+the first record and all scientific pins. Future strict remote-seal
+checks must collect terminal success/read before execution, not yield
+and continue. Odd first-push failure and valid local seal stay explicit.
+
+Odd publication first governance25 PASS/five failed categories included
+NEW law-map provenance metadata omission, now repaired with B1641 cited
+only as literal coefficient antecedent and the actual NEW proof path;
+not a fabricated banked theorem or gate/baseline change. First raw gate
+retained. Final staged audit26 PASS/four disclosed failed categories,
+20.294527s, inner exit1; index and12,586 tracked files unchanged. Same
+attribution/vacuity/seal/42 stale relay debts remain,146 OPEN,review519
+overdue. Both exact captures/custody and scientific pins preserved.
+Goal remains ACTIVE, actual global parent/kernel/Higgs/anomalies/gravity
+and outside/full-suite/main acceptance not achieved.

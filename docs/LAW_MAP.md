@@ -1,5 +1,21 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October14 odd form sublemmas, path-local AUTHORED CONDITIONAL research
+grade, not shared numbered banking or independent analytic acceptance.
+The upstream extreme-domain/gap/projection proofs are credited and stored
+with custody; new PROOF/finite safeguards are surface_odd_form_2026_10_14
+under reports/physical_bridge_2026_09_05.19 pins unchanged,26/21 exact
+and64 selected live PASS. Local pre-run seal but delayed remote publication
+disclosed; physical global domain/parent/index remains unearned.
+
+| Scoped statement | New argument and LIVE safeguards |
+|---|---|
+| For the full zero-scalar metric expression, mixed V-H form has only K3 E3+K4 E4; both matrix norms1/ell and both flip vertical chirality. | B1641 literal coefficient/move antecedent ONLY; NEW odd PROOF.md full brackets/mixed term; tests/test_physical_bridge_surface_odd_form.py::test_cross_form_keeps_actual_mixed_connection and test_transfer_uses_regular_opposite_chirality_not_half_pole_gradient. |
+| Either EXTREME critical law permits derivative transfer onto the regular opposite minimal-domain component and gives ||D psi||^2>=||D_V psi||^2/2+||H psi||^2-4||psi||^2/ell^2 on total graph closure. | B1641 coefficient antecedent ONLY, not form theorem; NEW odd PROOF.md core/closure form argument; finite tests/test_physical_bridge_surface_odd_form.py::test_R_density_and_absorption_are_not_hidden_changes; analytic acceptance still owed, no intermediate/nonflat/condensate scope. |
+| Credited extreme vertical gap and bounded mixing then yield actual odd QDQ tail bound c^2 y/(2A)-4/ell^2-||B||^2. | B1641 coefficient antecedent ONLY; NEW odd PROOF.md(2), antecedent vertical_cusp_gap/horizontal_projection proofs with custody; finite cross-form safeguards do NOT independently certify the infinite-dimensional joint. |
+| All112 odd retained coefficient phases are odd eighths, with actual A=i ranks(18,16,6,16) and A=-i ranks(16,6,16,18) under literal L. | B1641 literal rank6/move antecedent ONLY; NEW odd PROOF.md full-character projectors; tests/test_physical_bridge_surface_odd_form.py::test_complete_odd_phase_population_not_three_labels; actual cusp L^-1 inverts labels, no physical families inferred. |
+
+
 October14 path-local research sublemmas, NOT shared numbered banking.
 Actual retained embedding, previous metric/geometric-spin proofs and
 pinned W61 definitions are credited antecedents. New proofs/evidence

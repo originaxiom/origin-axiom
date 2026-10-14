@@ -1,0 +1,83 @@
+{
+  "checks": {
+    "actual Q8 products": true,
+    "unnormalized cusp fourth power": true,
+    "cusp short covariance": true,
+    "both short eigenspaces dimension56": true,
+    "all112 odd directions included": true,
+    "all phase ranks nonnegative": true,
+    "odd eighth phases no zero": true,
+    "E3 full cross coefficient": true,
+    "E4 full cross coefficient": true,
+    "E3 flips vertical chirality": true,
+    "E3 is skew Hermitian": true,
+    "E3 squared norm projection": true,
+    "E4 flips vertical chirality": true,
+    "E4 is skew Hermitian": true,
+    "E4 squared norm projection": true,
+    "omitted mixed term rejected": true,
+    "absorption square 0,1": true,
+    "absorption square 2,1": true,
+    "absorption square 7/3,2/5": true,
+    "critical derivative integral grows": true,
+    "zero phase rejecting comparator": true
+  },
+  "all_passed": true,
+  "records": {
+    "odd_phase_populations": [
+      [
+        "+i",
+        [
+          [
+            1,
+            18
+          ],
+          [
+            3,
+            16
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            16
+          ]
+        ]
+      ],
+      [
+        "-i",
+        [
+          [
+            1,
+            16
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            5,
+            16
+          ],
+          [
+            7,
+            18
+          ]
+        ]
+      ]
+    ],
+    "odd_coefficient_dimension": 112,
+    "cross_matrix_norms_ell_one": [
+      1,
+      1
+    ],
+    "form_vertical_fraction": [
+      1,
+      2
+    ],
+    "form_norm_error_ell_one": 4
+  },
+  "scope": "separate finite rational/Gaussian safeguards, not nonauthor domain acceptance or full physical spectrum"
+}

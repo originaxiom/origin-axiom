@@ -1,5 +1,32 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-SURFACE-ODD-TOTAL-COMPLEMENT: October14 AUTHORED CONDITIONAL
+form estimate now given for either EXTREME graded law, not a universal
+closure. Derivative transfer to regular opposite chirality controls the
+cross form; the old g not in Dom(D_V) remains valid. With credited
+gap and bounded P-Q mixing, QDQ has a growing tail estimate.26/21 finite
+exact safeguards and64 selected live PASS at local pre-run9d234b068;
+remote prereg publication delayed by failed push, disclosed. Source
+surface_odd_form_2026_10_14/PROOF/FINDINGS under physical-bridge reports.
+PB-SURFACE-ODD-FORM-ANALYTIC-REVIEW: OPEN, independently scrutinize
+core/closure, transferred gradient, puncture/seam boundary and compactness.
+PB-SURFACE-BASED-PHYSICAL-LIFT/GLOBAL-CUSP-PARENT: OPEN. Admit the
+actual all-based spin/coefficient/R/reality maps and own global domain.
+Allowed non-scalar compensators need full relations, preserved trace,
+unbroken gauge algebra and ACTUAL new cusp phases; no loop factor by hand.
+PB-SURFACE-ACTUAL-GRADED-KERNEL: OPEN on the globally admitted candidate.
+The canonical full operator has a conditional path to Fredholmness at0,
+not a computed index or three. Keep even core kernels,56 odd fibre
+blocks, actual dual/boundary/gauge modes; do not copy flat counts.
+PB-PUNCTURE-PHYSICAL-VERTEX and PB-CUSP-CONDENSATE-PHYSICAL-HIGGS:
+remain OPEN as same-parent field/spurion/weak-doublet/operator/stationary
+maps. Zero-scalar form control is not the condensed Hessian. Supplied
+metric/E8/embedding/extreme/unit/parent selection from genesis remains
+priced, as do normalized physics/anomaly/gravity and independent acceptance.
+New packet NEXT_TEST orders those tasks. Earlier dated rows retain their
+historical scope; no negative about an entire architecture is inferred.
+
+
 October14 same-parent duty update, no architecture-wide absence claim.
 PB-WEAVE-CURRENT-CENTRE-MAP: completed CONDITIONAL necessary test for
 the retained embedding at601a10b9b. Puncture/weak centres agree on248;

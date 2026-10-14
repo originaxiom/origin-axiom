@@ -1,0 +1,33 @@
+{
+  "seal_commit": "9d234b06850633abfa04a8b9d96aec7adbeeb480",
+  "exit_code": 0,
+  "passed_tests": 64,
+  "elapsed_seconds": 47.92211300000781,
+  "test_files": [
+    "tests/test_physical_bridge_surface_odd_form.py",
+    "tests/test_physical_bridge_surface_full_even.py",
+    "tests/test_physical_bridge_surface_even_channels.py",
+    "tests/test_physical_bridge_weave_field_map.py",
+    "tests/test_physical_bridge_based_transition_prerequisite.py",
+    "tests/test_physical_bridge_weave_companion_roster.py",
+    "tests/test_physical_bridge_weave_gauge_limit.py",
+    "tests/test_physical_bridge_surface_parent_dictionary.py"
+  ],
+  "tracked_files": 12567,
+  "tree_before": "cbfa458306bc2bb62f2205342fe64bfac85f04a2123b38bb46e2fd360e67b561",
+  "tree_after": "cbfa458306bc2bb62f2205342fe64bfac85f04a2123b38bb46e2fd360e67b561",
+  "tree_unchanged": true,
+  "raw_files": [
+    {
+      "name": "tests.stdout.log",
+      "bytes": 100,
+      "sha256": "9afe0dc862edc962d815cec5ed8c19f08315324008878fa577c9e5a478821515"
+    },
+    {
+      "name": "tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "Selected odd/even/field/companion/parent live tests, not full-repository or outside analytic certificate"
+}

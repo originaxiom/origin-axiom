@@ -121,3 +121,10 @@ staged index and12,549 tracked files unchanged,129.603192s capture.
 Historical debts and the already disclosed preserved metadata snapshot
 failure are not waived.145 OPEN relays and overdue517 review counter.
 GOVERNANCE_NOTES and raw custody disclose this; no green full-suite claim.
+
+Remote-timing correction: FULL_EVEN seal687c8ac85 was locally committed
+and successfully pushed before execution, but the terminal server-read
+result was collected afterward. The earlier pre-run server-confirmation
+wording is over-strong; PUBLICATION_TIMING_REVIEW records the exact scope.
+Scientific sources/results are unchanged. This is distinct from the odd
+extension's failed pre-run push and later retry, separately disclosed.
