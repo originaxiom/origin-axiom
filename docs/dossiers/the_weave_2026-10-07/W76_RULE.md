@@ -75,8 +75,8 @@ drafting is listed under "Seen before the rule", and the priors were set after t
 - **For θ̄ (I-18), not earned.** In the surface frame with one coupling, arg det M = 0 (W74). If θ is read as the
   weave's bit (L192's dictionary), then θ̄ = 0, which the data allow (|θ̄| < 10⁻¹⁰). Two things are still owed: that
   dictionary, and a sector split (main's P-128) that keeps arg det M = 0 while giving J ≠ 0.
-- **For δ_CKM, the bit reading fails the data.** δ_CKM is about 1.14 rad (65°), neither 0 nor π. So the CKM phase cannot be
-  a bit of the weave. It must come from what splits the sectors, as W74 said.
+- **For δ_CKM, the bit reading fails the data.** δ_CKM is about 1.14 rad (65°), neither 0 nor π. So the CKM phase
+  cannot be a bit of the weave. It must come from what splits the sectors, as W74 said.
 - **If B2 fails,** the bit is not fixed on the weave, and box D's reading is a bit with no selected value.
 - **The count stays 0 of 19** either way.
 
