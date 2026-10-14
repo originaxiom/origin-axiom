@@ -1,0 +1,128 @@
+{
+ "status": "structural read-out (chat1, 2026-10-14); no prediction; no Yukawa computed",
+ "sm_seat_commit": "87cf7f55111ec1f4019f302ffaa578376a9143e6",
+ "D1 rho_R (W68)": {
+  "-1/2": {
+   "no unit": 0,
+   "one unit (each line)": [
+    1,
+    1,
+    1
+   ]
+  },
+  "3/2": {
+   "no unit": 0,
+   "one unit (each line)": [
+    1,
+    1,
+    1
+   ]
+  },
+  "7/2": {
+   "no unit": 1,
+   "one unit (each line)": [
+    2,
+    2,
+    2
+   ]
+  }
+ },
+ "D2 rho' holomorphic": {
+  "-3/2": {
+   "chi": 0.0,
+   "null count": 0,
+   "gap": [
+    2.152153059002205e-07,
+    null
+   ]
+  },
+  "1/2": {
+   "chi": 0.0,
+   "null count": 0,
+   "gap": [
+    1.684375223066667e-07,
+    null
+   ]
+  },
+  "5/2": {
+   "chi": 1.0,
+   "null count": 1,
+   "gap": [
+    1.7514009820556683e-07,
+    1.6286424885553467e-16
+   ]
+  },
+  "9/2": {
+   "chi": 1.0,
+   "null count": 1,
+   "gap": [
+    1.7751656159024444e-07,
+    3.8913545220070916e-16
+   ]
+  },
+  "13/2": {
+   "chi": 2.0,
+   "null count": 2,
+   "gap": [
+    1.8950673237294483e-07,
+    2.8073733732071187e-16
+   ]
+  }
+ },
+ "D3 cells": {
+  "(-1/2, -1/2)": {
+   "Higgs weight": "-3/2",
+   "Higgs dimension": 0,
+   "matter unique": true,
+   "status": "no Higgs mode"
+  },
+  "(-1/2, 3/2)": {
+   "Higgs weight": "1/2",
+   "Higgs dimension": 0,
+   "matter unique": true,
+   "status": "no Higgs mode"
+  },
+  "(-1/2, 7/2)": {
+   "Higgs weight": "5/2",
+   "Higgs dimension": 1,
+   "matter unique": false,
+   "status": "matter not unique (one free admixture per mode)"
+  },
+  "(3/2, -1/2)": {
+   "Higgs weight": "1/2",
+   "Higgs dimension": 0,
+   "matter unique": true,
+   "status": "no Higgs mode"
+  },
+  "(3/2, 3/2)": {
+   "Higgs weight": "5/2",
+   "Higgs dimension": 1,
+   "matter unique": true,
+   "status": "parameter-free"
+  },
+  "(3/2, 7/2)": {
+   "Higgs weight": "9/2",
+   "Higgs dimension": 1,
+   "matter unique": false,
+   "status": "matter not unique (one free admixture per mode)"
+  },
+  "(7/2, -1/2)": {
+   "Higgs weight": "5/2",
+   "Higgs dimension": 1,
+   "matter unique": false,
+   "status": "matter not unique (one free admixture per mode)"
+  },
+  "(7/2, 3/2)": {
+   "Higgs weight": "9/2",
+   "Higgs dimension": 1,
+   "matter unique": false,
+   "status": "matter not unique (one free admixture per mode)"
+  },
+  "(7/2, 7/2)": {
+   "Higgs weight": "13/2",
+   "Higgs dimension": 2,
+   "matter unique": false,
+   "status": "Higgs not unique"
+  }
+ }
+}
