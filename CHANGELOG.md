@@ -1,5 +1,12 @@
 # Changelog
 
+## The owner's ruling after W70: P024's second test next
+
+- **The ruling** (2026-10-14): "do as u propose/recomend". P024's second test comes next: whether a field-free end
+  condition (a twist, a holonomy, a boundary datum) can gap every channel at the cusp. If one can, the field is not
+  forced. The audit lane's end-condition packets are read first, then the rule.
+- **Surfaces.** The rulings page and the logs. 0 of 19.
+
 ## The weave's W70: the cusp condensate's charge map; relay section 83
 
 - **W70** (the owner's "Cusp condensate"; P024's first test; the rule cb5269d1e first; the script d76cafa3d before its

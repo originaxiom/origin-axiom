@@ -174,6 +174,15 @@ selecting τ needs a stated functional, and potentials built from the threads se
   full first (repo first). Then the condensate's claims are verified on the seat's own code, and its owed tests are
   run, rule first: its mirror image, and the direction it picks in M.
 
+## A ruling of 2026-10-14, after P024 and W70
+
+- **The question.** The owner asked to stop and contemplate how a field can be forced into existence. The seat wrote
+  P024 (the field from the end), and W70, its first test, found that the cusp condensate can carry the Higgs's charges.
+  The seat proposed P024's second test next: whether a field-free twist can gap every channel at the end, which would
+  defeat the passage.
+- **The owner's choice: "do as u propose/recomend".** The seat reads the audit lane's end-condition packets first, then
+  writes the second test, rule first.
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:

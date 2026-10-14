@@ -18804,3 +18804,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **All five predictions held, exactly.** Still open: whether a field-free twist could do the edge's job, and a global
   version that keeps electromagnetism. The count of free numbers: 0 of 19.
 
+## 2026-10-14 — the owner: "do as u propose"; P024's second test next
+
+- **The next question.** Can the weave's edge be made describable without any field, by a twist or a boundary condition
+  alone? If it can, the field is not forced, and the contemplation fails. The audit lane's packets on the edge are being
+  read first.
+
