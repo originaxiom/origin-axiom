@@ -92,7 +92,7 @@
 | B181, B207, B399, B408 (with its correction), B413, B426 | no internal hierarchy in the channels tested: criticality, the metallic regulators (~0.91·log m), the value tower, the seam, the measure. B207 Part 3 also banked the bounded L^mR^m volumes, silver = v₈ | one object's channels |
 | B563 | unit-free Planck ratios are fair targets; the tower's magnitudes are null at chance (p ≈ 0.53; a plastic ladder came closer) | the hierarchy, as a target |
 | B290 | closing the end makes a ladder: core length 2πi/n + O(1/n²); the filling n is not the level | one object, its closings |
-| B1012 | S = −CS·k − Vol·σ exactly; blindness to k ⟺ CS = 0 ⟺ amphichiral. "Relocated to a place the object cannot see in principle" | one thread, m004 |
+| B1012 (+ B1226) | S = −CS·k − Vol·σ exactly. Blindness to k ⟺ CS = 0 stands. "CS = 0 ⟺ amphichiral" was refuted by B1226: amphichirality forces CS ∈ {0, ¼}, and m003 sits at ¼. On the positive weave every amphichiral thread sits at 0 (T-SIGN: the bit is the monodromy's sign). "Relocated to a place the object cannot see in principle" | one thread, m004 |
 | B1015 + addendum v2 (B1023) | sealed anchors A1 = ℓ, A2 = c = 6σ. "Cannot see" is withdrawn (∂S/∂σ = −Vol). A2 rests on the unit freedom and B915's precedent; HELD-PENDING-L154 | binds every crossing |
 | B1034 | L154 UNDECIDED: σ = 1 (c = 6 = c((E₆)₁)) unobstructed, unexhibited; the bridge is named | — |
 | B1228 | the level is pinned k = 1 "by inventory" (the root is blind to k); σ = 1 retracted as not established; the bridge is "nominated type or geometric connection" | the root |
