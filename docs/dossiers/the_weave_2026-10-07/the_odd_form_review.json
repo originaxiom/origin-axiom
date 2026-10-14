@@ -1,0 +1,358 @@
+{
+ "status": "W77: the audit lane's odd form, reviewed (the rule W77_RULE.md first; one run)",
+ "R1": {
+  "mismatches": [],
+  "holds": true
+ },
+ "R2": {
+  "divergences": [
+   "0",
+   "-1/ell",
+   "0",
+   "0"
+  ],
+  "linear coefficients": [
+   "0",
+   "-1/(2*ell)",
+   "0",
+   "0"
+  ],
+  "cubic c1c3c4 coefficient": "1/(4*ell)",
+  "remainder is zero": true,
+  "holds": true
+ },
+ "R3": {
+  "Clifford relations (c^2 = -1) in the chiral representation": true,
+  "nonzero terms of {V, H}": [
+   "(2,)",
+   "(3,)"
+  ],
+  "E3 coefficient = K3": true,
+  "E4 coefficient = K4": true,
+  "no other term": true,
+  "holds": true
+ },
+ "R4": {
+  "K3": {
+   "skew-Hermitian": true,
+   "anticommutes with GammaV": true,
+   "eigenvalues of K^dagger K times ell^2": [
+    "0",
+    "0",
+    "1",
+    "1"
+   ],
+   "ok": true
+  },
+  "K4": {
+   "skew-Hermitian": true,
+   "anticommutes with GammaV": true,
+   "eigenvalues of K^dagger K times ell^2": [
+    "0",
+    "0",
+    "1",
+    "1"
+   ],
+   "ok": true
+  },
+  "holds": true
+ },
+ "R5": {
+  "pairs": 40,
+  "largest identity residual": 3.1034079016361993e-10,
+  "rows": [
+   {
+    "section": 0,
+    "beta": 0.0,
+    "identity residual": 2.761044813300916e-11,
+    "margin of (1) / |psi|^2": 45.39009761990771,
+    "cross ratio": 0.03265082716474037
+   },
+   {
+    "section": 0,
+    "beta": 0.75,
+    "identity residual": 2.7597601093203724e-11,
+    "margin of (1) / |psi|^2": 45.39009761990782,
+    "cross ratio": 0.03265082716474037
+   },
+   {
+    "section": 1,
+    "beta": 0.0,
+    "identity residual": 1.3040838375147445e-10,
+    "margin of (1) / |psi|^2": 101.48822145314676,
+    "cross ratio": 0.04095202930291521
+   },
+   {
+    "section": 1,
+    "beta": 0.75,
+    "identity residual": 1.301460973486274e-10,
+    "margin of (1) / |psi|^2": 101.48822145314685,
+    "cross ratio": 0.04095202930291521
+   },
+   {
+    "section": 2,
+    "beta": 0.0,
+    "identity residual": 1.8458314657760553e-13,
+    "margin of (1) / |psi|^2": 38.73724295947617,
+    "cross ratio": 0.03742148986531648
+   },
+   {
+    "section": 2,
+    "beta": 0.75,
+    "identity residual": 1.8409440211770835e-13,
+    "margin of (1) / |psi|^2": 38.73724295947617,
+    "cross ratio": 0.03742148986531648
+   },
+   {
+    "section": 3,
+    "beta": 0.0,
+    "identity residual": 1.3531594078475811e-12,
+    "margin of (1) / |psi|^2": 38.674279338127114,
+    "cross ratio": 0.04558919739761125
+   },
+   {
+    "section": 3,
+    "beta": 0.75,
+    "identity residual": 1.3502708566582307e-12,
+    "margin of (1) / |psi|^2": 38.67427933812708,
+    "cross ratio": 0.04558919739761125
+   },
+   {
+    "section": 4,
+    "beta": 0.0,
+    "identity residual": 1.1899287476755271e-11,
+    "margin of (1) / |psi|^2": 140.2957342512813,
+    "cross ratio": 0.014101509067776397
+   },
+   {
+    "section": 4,
+    "beta": 0.75,
+    "identity residual": 1.18889623395144e-11,
+    "margin of (1) / |psi|^2": 140.29573425128123,
+    "cross ratio": 0.014101509067776397
+   },
+   {
+    "section": 5,
+    "beta": 0.0,
+    "identity residual": 2.062000285861939e-15,
+    "margin of (1) / |psi|^2": 99.28536055086768,
+    "cross ratio": 0.012553804239260783
+   },
+   {
+    "section": 5,
+    "beta": 0.75,
+    "identity residual": 2.3127003040108562e-15,
+    "margin of (1) / |psi|^2": 99.28536055086755,
+    "cross ratio": 0.012553804239260783
+   },
+   {
+    "section": 6,
+    "beta": 0.0,
+    "identity residual": 2.6086410084714237e-10,
+    "margin of (1) / |psi|^2": 105.29070987455846,
+    "cross ratio": 0.05332418996675073
+   },
+   {
+    "section": 6,
+    "beta": 0.75,
+    "identity residual": 2.606236912598555e-10,
+    "margin of (1) / |psi|^2": 105.2907098745584,
+    "cross ratio": 0.05332418996675073
+   },
+   {
+    "section": 7,
+    "beta": 0.0,
+    "identity residual": 3.4909487026332397e-12,
+    "margin of (1) / |psi|^2": 161.4861020148634,
+    "cross ratio": 0.05367950025586784
+   },
+   {
+    "section": 7,
+    "beta": 0.75,
+    "identity residual": 3.487874104349828e-12,
+    "margin of (1) / |psi|^2": 161.4861020148633,
+    "cross ratio": 0.05367950025586784
+   },
+   {
+    "section": 8,
+    "beta": 0.0,
+    "identity residual": 1.6745508178217592e-15,
+    "margin of (1) / |psi|^2": 42.25577393972661,
+    "cross ratio": 0.03996403622078069
+   },
+   {
+    "section": 8,
+    "beta": 0.75,
+    "identity residual": 1.7695447683206134e-15,
+    "margin of (1) / |psi|^2": 42.255773939726566,
+    "cross ratio": 0.03996403622078069
+   },
+   {
+    "section": 9,
+    "beta": 0.0,
+    "identity residual": 7.39412239041413e-12,
+    "margin of (1) / |psi|^2": 117.26722739479057,
+    "cross ratio": 0.03435757773033998
+   },
+   {
+    "section": 9,
+    "beta": 0.75,
+    "identity residual": 7.386645180021167e-12,
+    "margin of (1) / |psi|^2": 117.26722739479061,
+    "cross ratio": 0.03435757773033998
+   },
+   {
+    "section": 10,
+    "beta": 0.0,
+    "identity residual": 1.208015207175165e-12,
+    "margin of (1) / |psi|^2": 73.22283840509928,
+    "cross ratio": 0.01975811365906155
+   },
+   {
+    "section": 10,
+    "beta": 0.75,
+    "identity residual": 1.212967273185066e-12,
+    "margin of (1) / |psi|^2": 73.22283840509924,
+    "cross ratio": 0.01975811365906155
+   },
+   {
+    "section": 11,
+    "beta": 0.0,
+    "identity residual": 5.4604795870097625e-11,
+    "margin of (1) / |psi|^2": 149.00385980326467,
+    "cross ratio": 0.1260083417535955
+   },
+   {
+    "section": 11,
+    "beta": 0.75,
+    "identity residual": 5.456762924942177e-11,
+    "margin of (1) / |psi|^2": 149.00385980326476,
+    "cross ratio": 0.1260083417535955
+   },
+   {
+    "section": 12,
+    "beta": 0.0,
+    "identity residual": 4.644395825690722e-12,
+    "margin of (1) / |psi|^2": 209.61419322091004,
+    "cross ratio": 0.016213504925142033
+   },
+   {
+    "section": 12,
+    "beta": 0.75,
+    "identity residual": 4.640245583954387e-12,
+    "margin of (1) / |psi|^2": 209.61419322090993,
+    "cross ratio": 0.016213504925142033
+   },
+   {
+    "section": 13,
+    "beta": 0.0,
+    "identity residual": 8.212438920842922e-14,
+    "margin of (1) / |psi|^2": 99.75322526734053,
+    "cross ratio": 0.11516087219448391
+   },
+   {
+    "section": 13,
+    "beta": 0.75,
+    "identity residual": 8.23969615616799e-14,
+    "margin of (1) / |psi|^2": 99.75322526734055,
+    "cross ratio": 0.11516087219448391
+   },
+   {
+    "section": 14,
+    "beta": 0.0,
+    "identity residual": 4.004395008974481e-12,
+    "margin of (1) / |psi|^2": 53.893222372066454,
+    "cross ratio": 0.042208878634699694
+   },
+   {
+    "section": 14,
+    "beta": 0.75,
+    "identity residual": 3.998068447517668e-12,
+    "margin of (1) / |psi|^2": 53.893222372066404,
+    "cross ratio": 0.042208878634699694
+   },
+   {
+    "section": 15,
+    "beta": 0.0,
+    "identity residual": 9.300730227182436e-17,
+    "margin of (1) / |psi|^2": 69.28113907803046,
+    "cross ratio": 0.0715511828190322
+   },
+   {
+    "section": 15,
+    "beta": 0.75,
+    "identity residual": 9.314181023103453e-17,
+    "margin of (1) / |psi|^2": 69.28113907803046,
+    "cross ratio": 0.0715511828190322
+   },
+   {
+    "section": 16,
+    "beta": 0.0,
+    "identity residual": 6.859189437148845e-11,
+    "margin of (1) / |psi|^2": 99.27214226466043,
+    "cross ratio": 0.06301536149102116
+   },
+   {
+    "section": 16,
+    "beta": 0.75,
+    "identity residual": 6.83372213300451e-11,
+    "margin of (1) / |psi|^2": 99.27214226466033,
+    "cross ratio": 0.06301536149102116
+   },
+   {
+    "section": 17,
+    "beta": 0.0,
+    "identity residual": 5.248085161779344e-13,
+    "margin of (1) / |psi|^2": 127.4782060241621,
+    "cross ratio": 0.12447388635236313
+   },
+   {
+    "section": 17,
+    "beta": 0.75,
+    "identity residual": 5.222413962204148e-13,
+    "margin of (1) / |psi|^2": 127.47820602416198,
+    "cross ratio": 0.12447388635236313
+   },
+   {
+    "section": 18,
+    "beta": 0.0,
+    "identity residual": 2.9398675887765376e-10,
+    "margin of (1) / |psi|^2": 82.3194958711162,
+    "cross ratio": 0.14522274947532213
+   },
+   {
+    "section": 18,
+    "beta": 0.75,
+    "identity residual": 2.9374306742923416e-10,
+    "margin of (1) / |psi|^2": 82.31949587111616,
+    "cross ratio": 0.14522274947532213
+   },
+   {
+    "section": 19,
+    "beta": 0.0,
+    "identity residual": 3.1034079016361993e-10,
+    "margin of (1) / |psi|^2": 109.86385437244833,
+    "cross ratio": 0.08967194797473067
+   },
+   {
+    "section": 19,
+    "beta": 0.75,
+    "identity residual": 3.0935425061864893e-10,
+    "margin of (1) / |psi|^2": 109.86385437244822,
+    "cross ratio": 0.08967194797473067
+   }
+  ],
+  "holds": true
+ },
+ "read-outs": {
+  "smallest margin of (1) / |psi|^2": 38.67427933812708,
+  "largest cross ratio": 0.14522274947532213
+ },
+ "cells": {
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R5": true
+ }
+}
