@@ -1,0 +1,101 @@
+{
+ "status": "W81: the audit lane's continuous-SU(2) branching checked (script committed before its one run)",
+ "checks": {
+  "the block roots are roots": true,
+  "mutually orthogonal": true,
+  "H_Q(a_i) = 2": [
+   "2",
+   "2",
+   "2"
+  ]
+ },
+ "irreps (dimension: copies)": {
+  "1": 55,
+  "2": 52,
+  "3": 27,
+  "4": 2
+ },
+ "odd part dimension": 112,
+ "embedding index": 3,
+ "roots with |H_Q| = 3": [
+  [
+   "0",
+   "0",
+   "0",
+   "-1",
+   "0",
+   "0",
+   "-1",
+   "0"
+  ],
+  [
+   "0",
+   "0",
+   "0",
+   "0",
+   "-1",
+   "0",
+   "-1",
+   "0"
+  ],
+  [
+   "0",
+   "0",
+   "0",
+   "0",
+   "1",
+   "0",
+   "1",
+   "0"
+  ],
+  [
+   "0",
+   "0",
+   "0",
+   "1",
+   "0",
+   "0",
+   "1",
+   "0"
+  ]
+ ],
+ "beta (the root)": [
+  "0",
+  "0",
+  "0",
+  "1",
+  "0",
+  "1",
+  "0",
+  "0"
+ ],
+ "H_Q(beta)": "1",
+ "beta: the doublet test": {
+  "E_Q^2 paths": [],
+  "F_Q^2 paths": [],
+  "in the doublets": true
+ },
+ "-beta: the doublet test": {
+  "E_Q^2 paths": [],
+  "F_Q^2 paths": [],
+  "in the doublets": true
+ },
+ "B1": {
+  "holds": true
+ },
+ "B2": {
+  "holds": true
+ },
+ "B3": {
+  "holds": false
+ },
+ "B4": {
+  "holds": true
+ },
+ "cells": {
+  "B1": true,
+  "B2": true,
+  "B3": false,
+  "B4": true
+ }
+}
