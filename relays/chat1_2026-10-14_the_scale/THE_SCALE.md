@@ -295,6 +295,41 @@
   - If existence is the weave, 3D space is a quantum plurality of geometries with no 3D hierarchy. The observed one
     must come through the 4D crossing.
 
+## 10. L154 in the higher-spin frame: a literature pointer (reading; for cc's lead)
+
+T-ROOT puts the plural weave at small c. Small-c 3D gravity has a literature, and it bears on L154's bridge.
+
+- **Small-c duals exist.** **[literature]**
+  - Castro, Gaberdiel, Hartman, Maloney and Volpato (2011) sum over geometries at Planckian AdS radius.
+  - Pure Einstein gravity at G = 3ℓ gives the Ising model (c = 1/2), and pure gravity also gives the tricritical Ising
+    model (c = 7/10).
+  - With weaker evidence, SL(3) higher-spin gravity gives the 3-state Potts model (c = 4/5), and **E₆ higher-spin
+    gravity gives the tricritical 3-state Potts model (c = 6/7)**.
+- **Those duals are cosets g₁ ⊗ g₁ / g₂.** **[MATH; arithmetic checked exactly]**
+  - c(g₁ ⊗ g₁ / g₂) = 2c(g₁) − c(g₂) gives 1/2 for A₁ and E₈, 4/5 for A₂, **6/7 for E₆** and 7/10 for E₇.
+  - The E-series identification is standard (Delfino and collaborators, hep-th/9601113). For simply-laced g this coset
+    is the first unitary W(g) minimal model.
+- **The record already has the higher-spin embedding.** **[RECORD]**
+  - B264's object, at chat1's earlier suggestion, is the geometric connection composed with the principal sl₂ → e₆.
+  - That composition is exactly how E₆ higher-spin gravity contains pure gravity. Its boundary algebra is W(E₆).
+- **What this says about L154.** **[READING]**
+  - "Nominated type or geometric connection" (B1228) has a standard third answer: the principal embedding, where the
+    geometric A₁ connection is an E₆ connection.
+  - In that frame, the smallest-c E₆ theory is conjecturally dual to (E₆)₁ ⊗ (E₆)₁ / (E₆)₂. That coset is built from
+    two copies of L154's stage algebra.
+  - Its central charge is 6/7, not 6. So c = 6σ would give σ = 1/7, which is not on B1229's two-character menu.
+  - c((E₆)₁) = 6 is the large-p limit of the W(E₆) minimal models, not their boundary c.
+  - So the frame offers a concrete form of the bridge, with a different number from the one L154 proposed.
+- **Base rate.** **[READING]**
+  - The unitary c < 1 models are few, and the Deligne-series cosets cover the first of them.
+  - That the record's two ends, E₆ and E₈, land on Castro et al.'s list (tricritical Potts; Ising, their strongest
+    case) is most likely generic, not a fingerprint of the object.
+- **What would test it.**
+  - Whether the weave's own sum at small c, with the principal E₆ embedding, reproduces W(E₆) minimal-model data. That
+    is hard: the threads are cusped mapping tori, not the solid tori Castro et al. sum over.
+  - Or, more modestly, whether B254's split of the stage, SU(3)₂ × (G₂)₁ ⊂ (E₆)₁, is compatible with the coset. cc's
+    lead.
+
 ## Sources
 
 - F. Guéritaud, with an appendix by D. Futer, Geom. Topol. 10 (2006) 1239–1284, Theorem B.1.
@@ -303,6 +338,11 @@
 - S. Gukov, Commun. Math. Phys. 255 (2005) 577 (the split at t = k + iσ).
 - J. D. Brown, M. Henneaux, Commun. Math. Phys. 104 (1986) 207.
 - T. W. Grimm, E. Palti, I. Valenzuela, JHEP 08 (2018) 143 (consulted, not used for a claim).
+- A. Castro, M. R. Gaberdiel, T. Hartman, A. Maloney, R. Volpato, *The gravity dual of the Ising model*, arXiv:1111.1987.
+- The (E_n)₁ ⊗ (E_n)₁ / (E_n)₂ minimal models (Ising, tricritical Ising, tricritical Potts for n = 8, 7, 6):
+  hep-th/9601113.
+- S. Meruliya, S. Mukhi, P. Singh, *Poincaré series, 3d gravity and averages of rational CFT*, JHEP 04 (2021) 267,
+  arXiv:2102.03136 (context: Chern–Simons sums dual to averages of RCFTs).
 - The record: B151, B167, B168, B169, B170, B181, B207, B290, B399, B408, B413, B426, B563, B980, B1012, B1015 (with its
   addendum v2), B1017, B1023, B1034, B1088, B1191, B1193, B1228, B1229; K018; `docs/THE_LAMBDA_POSITION.md`; the
   audit lane's `weave_cusp_condensate_2026_10_08`.

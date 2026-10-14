@@ -114,3 +114,22 @@ word weights, none fixed by the record. Classical action weight e^{−c·Vol/6π
 - **Reading for L154.** The owner's weave framing and L154's c = 6 are mutually consistent: a plurality that sees k.
   The classical-space reading (c ≫ 1) is the odd one out, because at c ≳ 10² the weave reduces to m004. If L154 lands,
   its bridge should be posed on a weave that is genuinely plural and chiral, not on the root.
+
+## Addendum: L154 in the higher-spin frame (a literature pointer; reading; `THE_SCALE.md` §10)
+
+- **Small-c 3D gravity has known rational duals**, from sums over geometries (Castro–Gaberdiel–Hartman–Maloney–Volpato,
+  arXiv:1111.1987):
+  - Ising, c = 1/2: pure gravity at G = 3ℓ;
+  - tricritical Ising, c = 7/10;
+  - 3-state Potts, c = 4/5: SL(3) higher spin;
+  - tricritical 3-state Potts, c = 6/7: **E₆ higher spin** (weaker evidence).
+- **These are the cosets g₁ ⊗ g₁ / g₂**, the first W(g) minimal models: A₁ and E₈ give 1/2, E₇ gives 7/10, A₂ gives
+  4/5, E₆ gives 6/7. The arithmetic was checked exactly, and the E-series identification is standard (hep-th/9601113).
+- **B264's principal-composed geometric representation is the gravitational sector of E₆ higher-spin gravity**, with
+  boundary algebra W(E₆).
+- **So "nominated type or geometric connection" has a standard third answer: the principal embedding.**
+  - In it, the smallest-c E₆ theory is conjecturally dual to (E₆)₁ ⊗ (E₆)₁ / (E₆)₂, built from L154's stage algebra.
+  - Its c is 6/7, not 6, so c = 6σ would give σ = 1/7. c((E₆)₁) = 6 is the large-p limit of the W(E₆) series.
+- **Base rate.** The c < 1 unitary models are few and the Deligne-series cosets cover them. That the record's E₆ and E₈
+  land on the list is most likely generic.
+- **Suggest:** consider posing L154's bridge in this frame, and checking B254's SU(3)₂ × (G₂)₁ split against the coset.
