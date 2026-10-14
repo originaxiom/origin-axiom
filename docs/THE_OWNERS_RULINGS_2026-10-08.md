@@ -141,6 +141,15 @@ selecting τ needs a stated functional, and potentials built from the threads se
 - **After the reading: "yes, do as u recomend".** W62, rule first: the matter's six-dimensional τ-dependence along the
   imaginary axis and the boundary arc, against E(τ, 3), and which contents hold τ.
 
+## A ruling of 2026-10-14, after W62
+
+- **The question.** W62 found that nothing computed holds τ, and that the flavour bottleneck is a datum acting on the
+  multiplicity M. Main's B1644 (a Higgs in M) targets exactly that.
+- **The options the seat set out.** Verify B1644 with the seat's own code; an exact check of W62's E(τ, 3) − E(τ, 2)
+  observation; E, the scale; a pause.
+- **The owner's choice: "Verify B1644 (Recommended)".** W63, rule first, verifies B1644 and B1645 and answers main's
+  P-115 from the record.
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:
