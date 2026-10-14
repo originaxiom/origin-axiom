@@ -251,6 +251,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   A completion of the moves that keeps colour and SU(2)_w keeps a hypercharge only if the moves do not act on the
   lane's family index through O. But O is how they act on the weave's M, so in the lane's frame D1 and D3 meet only if
   its family index is not the weave's three.
+- W84 (chat1's thread frame checked; rule first; every cell as predicted): chat1's numbers reproduce on this seat's own
+  60-digit integrator to 5 × 10⁻¹¹. The Lagrange law's slope is not constant: along L^n R it falls from 7.64 to about
+  6.4, toward the q-powers a Froggatt–Nielsen texture with the units' exponents as charges gives (m₂/m₃ ∝ |q|¹,
+  m₁/m₃ ∝ |q|^{3/2}). So chat1's 7.33 is a range average, not 7π/3; given H-thread, a hypothesis.
 
 ## The setting
 
@@ -6785,6 +6789,68 @@ Cartan and leaves no trace-free Y (kernel 0).
 **Status.** COMPUTED (the script first; one run; M1 as predicted, M2 failed as worded in one sub-cell). An answer to one
 of main's tribunal items, by a dichotomy. 0 of 19.
 
+## W84. chat1's thread frame checked: its numbers reproduce at 60 digits, and its Lagrange law tends deep in the cusp to the q-powers that the units' exponents set, m₂/m₃ ∝ |q|¹ and m₁/m₃ ∝ |q|^{3/2} (`the_thread_frame_checked.py`; `W84_RULE.md`)
+
+**Why.** chat1's thread frame (chat1/web-seat @ 39bfc86fe) is built on this seat's W72 forms. Under its hypothesis
+H-thread, the couplings are cycle integrals along the vacuum thread's closed geodesic. chat1's Lagrange law,
+ln(m₂/m₃) = 7.289 − 7.332·y_max over 59 threads, has a slope within 0.002 of 7π/3. The owner's rule asks that
+load-bearing math be verified, and the slope asked whether it is a constant.
+
+**The order.**
+- **The rule first** (`W84_RULE.md`, 8bd67016f). It disclosed chat1's banked ratios, the seat's local slopes from them,
+  and a texture argument by hand. Four over-long lines were rewrapped before any code, disclosed (4c2f9f0cd).
+- **The script** (6029910e2). One run, 9 min 51 s, with its output committed before the read-out (39dd01d0f).
+
+**The method (as the rule fixed it).** The W72 module's own forms, evaluated at 60 digits at each point's image in the
+fundamental domain. The seat's own trapezoid integrator over one period of each thread's closed geodesic, with nodes at
+half steps from chat1's, N = 512 (N = 1024 as the control). The masses are the singular values of
+(K^{−½})ᵀ Y K^{−½}.
+
+**The read-out (COMPUTED; every cell as predicted).**
+- **V1, reproduction.** At LR, LLRR, LLR, LLRLR and LLLR, ln(m₂/m₃) and ln(m₁/m₃) agree with chat1's banked values to
+  5 × 10⁻¹¹ at worst. h's collocation residual is 10⁻⁴¹.
+- **V2, the family L^n R** (n = 1 to 8, y_max = √(n² + 4n)/2 from 1.12 to 4.90):
+
+  | n | y_max | ln(m₂/m₃) | ln(m₁/m₃) | K's largest normalised off-diagonal |
+  |---|---|---|---|---|
+  | 1 | 1.118 | −0.998 | −4.649 | 2.9 × 10⁻² |
+  | 2 | 1.732 | −5.688 | −8.009 | 4.9 × 10⁻⁴ |
+  | 3 | 2.291 | −9.789 | −12.701 | 1.6 × 10⁻⁴ |
+  | 4 | 2.828 | −13.377 | −17.508 | 1.9 × 10⁻⁵ |
+  | 5 | 3.354 | −16.769 | −22.264 | 1.9 × 10⁻⁶ |
+  | 6 | 3.873 | −20.094 | −26.938 | 1.8 × 10⁻⁷ |
+  | 7 | 4.387 | −23.395 | −31.620 | 1.6 × 10⁻⁸ |
+  | 8 | 4.899 | −26.685 | −36.398 | 1.5 × 10⁻⁹ |
+
+  - **V2a holds.** The local slopes of −ln(m₂/m₃) are 7.64, 7.33, 6.68, 6.45, 6.41, 6.42 and 6.43: a spread of 1.23,
+    not a constant.
+  - **V2b holds.** The last is 6.431, 2.4% above 2π.
+  - **V2c holds.** The local slopes of −ln(m₁/m₃) are 5.47, 8.39, 8.95, 9.05, 9.01, 9.10 and 9.34. The last is 0.9%
+    below 3π.
+  - **V2d holds.** F₊ carries at least 0.9997 of the heaviest state at every n.
+  - **V2e holds.** K's normalised off-diagonal falls by about ten each step, to 1.5 × 10⁻⁹ at n = 8.
+  - **V2f holds.** N = 1024 and N = 512 agree exactly at n = 8.
+
+**What it shows (a READING; given H-thread, a hypothesis; thread results, one thread at a time).**
+- **chat1's thread frame is sound on this seat's forms.** Its numbers reproduce, and its integrals converge.
+- **The Lagrange law is not linear in y_max with slope 7π/3.**
+  - Its slope falls from about 7.6 to about 6.4 along L^n R, so the 7.33 chat1 fitted over y_max ≤ 3 is an average.
+  - Deep in the cusp the law tends to the texture's q-powers. K becomes diagonal, K_aa ∝ |q|^{−2e_a}, with the units'
+    exponents e = (7/8, 1/8, 5/8) for (F_i, F₊, F₋). So Ŷ is a Froggatt–Nielsen texture whose charges are those
+    exponents. F₊, the shallowest unit, is the heaviest state, m₂/m₃ ∝ |q|^{2(5/8 − 1/8)} = |q|¹ and
+    m₁/m₃ ∝ |q|^{2(7/8 − 1/8)} = |q|^{3/2}, with |q| = e^{−2π y_max} = e^{−πλ}, where λ is the Lagrange value.
+  - **One residual is not resolved.** The m₂/m₃ slope sits at 6.41–6.43 from y = 3.6 to 4.6, about 2% above 2π, and
+    is still drifting slightly upward. A fit with a 1/y term gives 6.37. So this family fixes the scale (2π and 3π)
+    and the mechanism, but not the exact limit.
+- **What it means for the values.** Given H-thread, a vacuum's hierarchy is set by structure, the units' exponents,
+  and by one discrete datum, the thread's Lagrange value. It holds no continuous free number. But one thread gives
+  every sector the same ratios, as chat1 says. The sectors' differences need sector-dependent units (other weights or
+  representations), and those are not on record.
+
+**Status.** COMPUTED (the rule first, with a disclosed rewrap before any code; one run; every cell as predicted). A
+check of another seat's computation on this seat's forms, and the law's deep-cusp limit. Thread results under a
+hypothesis. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6980,6 +7046,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W81 | COMPUTED (the script first; one run; B1, B2, B4 as predicted; B3 FAILED as worded, a sign convention); a check of the audit lane's character | the 248 under the continuous SU(2) of the quaternion Cartan is 55 + 52·2 + 27·3 + 2·4 (index 3), as the lane says; the odd part is 52 doublets and 2 quartets, so "2 ⊗ 56" holds for Q8 only; the electroweak condensate's root β lies in the doublets. The identification of the lane's spinor-valued condensate with the ordinary uniformizing Higgs field is withdrawn (the lane's audit dd2a54119: the types differ) |
 | W82 | COMPUTED (the script first; one run; every cell as predicted); two checks for main's frame tribunal | lemma A holds with both halves: the holonomy's V₄ makes a parallel charge diagonal on the units (commutant 3), the moves' S₃ makes it constant (with V₄: 1); S₃ alone allows a democratic split (2). Under every admissible Y the neutral \|Y\| = ½ condensates are ±r₁, ±r₂, all SU(2)_Q doublets: one condensate and its conjugate, so a two-condensate hierarchy needs two independent fields |
 | W83 | COMPUTED (the script first; one run; M1 as predicted; M2 FAILED as worded in one sub-cell: 8, not 2, when the moves act trivially on the family index); an answer to a tribunal item | the commutant of colour and SU(2)_w in e₈ is the lane's su(6) (30 roots, an A₅ with the lane's chain); a trace-free Y commuting with the holonomy and the moves exists only if the moves act on the lane's family index other than through O (0 through O, 1 through S₃, 8 if trivial). So in the lane's frame D1 and D3 meet only if its family index is not the weave's three |
+| W84 | COMPUTED (the rule first, a disclosed rewrap before code; one run; every cell as predicted); a check of chat1's thread frame and its law's deep-cusp limit, under H-thread | chat1's numbers reproduce at 60 digits to 5·10⁻¹¹; along L^n R (y_max to 4.9) the slope of −ln(m₂/m₃) falls 7.64 → 6.43 (2.4% above 2π) and that of −ln(m₁/m₃) rises to 9.34 (0.9% below 3π); K diagonalises (1.5·10⁻⁹) and F₊ is the heaviest everywhere: a Froggatt–Nielsen texture with the units' exponents as charges, m₂/m₃ ∝ \|q\|¹ and m₁/m₃ ∝ \|q\|^{3/2}. So 7.33 is a range average, not 7π/3; the exact limit is not resolved |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -7053,6 +7120,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `the_lane_su2_branching.py` → `the_lane_su2_branching.json`: W81, the audit lane's continuous-SU(2) branching of the 248 checked (the H_Q weights, the irreps, the odd part, the doublet test at ±β); the script committed before its one run.
 - `the_tribunal_checks.py` → `the_tribunal_checks.json`: W82, two checks for main's frame tribunal (lemma A's commutants by explicit matrices; the neutral |Y| = ½ condensates under every admissible Y with the doublet test); the script committed before its one run.
 - `the_completion_dichotomy.py` → `the_completion_dichotomy.json`: W83, the commutant of colour and SU(2)_w in e₈ (a root count) and the trace-free hypercharges commuting with the holonomy and the moves on the lane's family index; the script committed before its one run.
+- `W84_RULE.md`: the rule, committed before the code (a disclosed rewrap before code); `the_thread_frame_checked.py` → `the_thread_frame_checked.json`: W84, chat1's thread frame on this seat's own 60-digit integrator (five threads against chat1's banked values; L^n R for n = 1 to 8, the local slopes, K's off-diagonals, the states' weights).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

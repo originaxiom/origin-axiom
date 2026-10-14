@@ -1995,6 +1995,26 @@ def test_w83_the_completion_dichotomy():
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W83." in note and "8, not the predicted 2" in note
 
+def test_w84_the_thread_frame_checked():
+    """W84 (the rule first; one run; every cell as predicted): chat1's thread frame reproduces at 60 digits, and along
+    L^n R its law's slopes run toward 2 pi (m2/m3) and 3 pi (m1/m3), with K diagonal and F+ the heaviest"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_thread_frame_checked.json").read_text(encoding="utf-8"))
+    assert all(d["cells"].values()) and len(d["cells"]) == 7
+    assert d["V1"]["worst |d ln|"] < 1e-9 and d["forms"]["dps"] == 60
+    s2, s1 = d["V2"]["local slopes of -ln m2/m3"], d["V2"]["local slopes of -ln m1/m3"]
+    assert len(s2) == len(s1) == 7 and s2[0] > 7.5 and abs(s2[-1] / (2 * math.pi) - 1) < 0.05
+    assert abs(s1[-1] / (3 * math.pi) - 1) < 0.05
+    # in process: the local slopes from the recorded family
+    fam = d["V2"]["family"]
+    y = [fam[str(n)]["y_max"] for n in range(1, 9)]
+    l2 = [fam[str(n)]["ln m2/m3"] for n in range(1, 9)]
+    assert all(abs(-(l2[i + 1] - l2[i]) / (y[i + 1] - y[i]) - s2[i]) < 1e-9 for i in range(7))
+    assert abs(y[7] - math.sqrt(96) / 2) < 1e-12
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W84." in note and "range average" in note
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

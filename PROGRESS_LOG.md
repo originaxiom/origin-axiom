@@ -19077,3 +19077,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   is very close to a simple multiple of π, 7π/3, which would mean the law can be derived rather than fitted. Because it
   rests on the seat's formulas, the seat will check it independently next. 0 of 19.
 
+## 2026-10-14 — chat1's mass law, checked: right numbers, and a cleaner law underneath
+
+- **chat1's numbers reproduce exactly** on the seat's own integration, at much higher precision.
+- **The straight-line law chat1 fitted bends.** Followed further toward the edge, the slope settles at simple multiples
+  of π: about 2π for the middle-to-heaviest ratio and about 3π for the lightest. The slope near 7π/3 was an average
+  over the range chat1 could reach.
+- **The reason is structural.** Each of the three matter modes grows toward the edge at its own fixed rate, and those
+  rates act like the charges in a well-known mechanism for mass hierarchies. So, if couplings are averages along the
+  vacuum's path, the hierarchy has no adjustable number, only the path's depth. One detail is not yet settled: the
+  middle ratio's slope sits 2% above 2π at the deepest point reached. 0 of 19.
+

@@ -1,5 +1,19 @@
 # Changelog
 
+## The weave's W84: chat1's thread frame reproduces at 60 digits; its Lagrange law tends deep in the cusp to the units' q-powers (m₂/m₃ ∝ |q|¹, m₁/m₃ ∝ |q|^{3/2}), not to a constant slope 7π/3; relay section 106
+
+- **W84** (rule first, with a disclosed rewrap before code; one run; every cell as predicted) checks chat1's thread
+  frame, which is built on this seat's W72 forms, on the seat's own 60-digit integrator.
+- **Five threads reproduce** chat1's banked ratios to 5 × 10⁻¹¹.
+- **Along L^n R** (y_max to 4.9) the slope of −ln(m₂/m₃) falls from 7.64 to 6.43, and that of −ln(m₁/m₃) rises to
+  9.34. K diagonalises (1.5 × 10⁻⁹), and F₊ is the heaviest state everywhere.
+- **The mechanism.** A Froggatt–Nielsen texture whose charges are the units' exponents (7/8, 1/8, 5/8):
+  m₂/m₃ ∝ |q|¹ and m₁/m₃ ∝ |q|^{3/2}, with |q| = e^{−πλ}. So chat1's 7.33 is a range average, not 7π/3. The exact
+  m₂/m₃ limit is not resolved; it plateaus 2% above 2π.
+- **Given H-thread, a hypothesis.** One thread still gives every sector the same ratios.
+- **Surfaces.** The rule, the script and its output, the dossier (section, header bullet, row, files), the relay
+  §106, ledger row 317, the state page and the test. 0 of 19.
+
 ## Three pushes read (main's S124 and B1651 seal, the lane's commuting completions, chat1's thread frame); S124's asks answered; relay section 105
 
 - **main** (60c5470ae → 6d6f7f660). S124 scopes B1644–B1649 by frame, verifies chat1's field notes (B1650), and
