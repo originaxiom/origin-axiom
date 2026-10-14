@@ -69,12 +69,16 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   the full fit by 1887. Near the cusp the lightest mass over the heaviest is the same in every hierarchical sector, so
   the three sectors need three different τ, and the weave gives them one. Post hoc the quark masses alone exclude the
   other two rank-11 structures. No structure on record both fits and predicts a flavour relation: the count is 13 if
-  any structure fits.
+  any structure fits. *(Corrected 2026-10-14 by main's B1637: the masses-only minimum is 20.6, not 163, near
+  Im τ = 7.1, which this seat's search missed. The exclusion on all 13 holds, at 397 or more at every allowance, and
+  rests on the CKM.)*
 - W54 (the owner's choice: test the rank-13 structures; rule first; two cells failed as worded, both explained post
   hoc): five structures fit, all in the Standard Model frame with every sector at weight 5 or 7, with 23 or more
   parameters for 13 numbers, so they predict nothing; every structure with a sector at weight 3 fails, and so does
   every Sym² T one. The count of 13 is realised: all 19 of the 19 free on the ruled branch, given Λ (18 if I-18 is
-  earned).
+  earned). *(Corrected 2026-10-14 by main's B1637: "every structure with a sector at weight 3 fails" does not hold as
+  stated. Main fits (5, 7, 3) at χ² = 1.86 near τ ≈ 0.36 + 6.79i, beyond this seat's grid; W78 checks it. The
+  geometry's weight is excluded only as the quarks' weight. The count is unchanged.)*
 - W55 (the owner's choice (a): does the gauge side on record tell the sectors apart? rule first; every cell as
   predicted): no. F-MC's E₆ cubic with one flavour matrix, SO(10) with one 10_H and minimal SU(5) tie the down
   quarks to the charged leptons (a Kronecker lemma), and the data exclude the tie (χ² ≥ 106 at a 10% allowance; it
@@ -3777,6 +3781,8 @@ rule.
 - **F2 (as predicted): the masses alone cannot be fit at one τ.**
   - The masses-only χ²_min is 163, at τ ≈ −0.10 + 5.20i. Eleven parameters for nine numbers, and still no fit: the
     obstruction is structural, not a count.
+    *(Corrected 2026-10-14 by main's B1637: main's optimizer reaches 20.6 near Im τ = 7.1, so 163 was an
+    overestimate from a local search. The full fit's exclusion stands, and it rests on the CKM.)*
   - Since the full χ² is at least its masses part, this alone excludes the structure.
   - At that point each sector has one ratio near κ q^{1/4} ≈ 8 × 10⁻⁴: the up sector's m_c/m_t (0.80 × 10⁻³ against
     3.7 × 10⁻³), the down sector's m_d/m_b (0.82 × 10⁻³ against 0.94 × 10⁻³) and the leptons' m_e/m_τ (0.74 × 10⁻³
@@ -3874,6 +3880,10 @@ F1 failed as worded; post hoc P1 to P4); a WEAVE result on the ruled branch, giv
 - **Extra read-outs (no prior).**
   - **Every structure with any sector at weight 3 fails**, χ²_min ≥ 110: with a quark sector there, ≥ 273; with the
     leptons there, 110 to 198. The leptons at weight 3 reach at best 1.1 on the grid, and only on W53's curves.
+    *(Corrected 2026-10-14 by main's B1637: with the leptons at weight 3, main fits (5, 7, 3) at χ² = 1.86 near
+    τ ≈ 0.36 + 6.79i, and (3, 7, 7) reaches 6.72. Both lie near Im τ 6.7 to 6.8, which this grid did not resolve.
+    W78 refines the grid there. Main also fits (7, 5, 5) and (7, 5, 7) exactly, where this search failed at 26 and
+    28; this search found (5, 5, 5) and (5, 5, 7), which main's missed.)*
   - **Every Sym² T structure fails**, χ²_min between 94 and 199.
   - (7, 5, 5) and (7, 5, 7) fail at 26 and 28: u at 7 with d at 5 does not fit in this search, while u at 5 with d at
     7 fits exactly.
@@ -3900,6 +3910,8 @@ labelled; W54's own output is unchanged).
   parameters for 13 numbers, so it explains none of them.
 - **The geometry's weight is excluded in every structure.** Every structure with a sector at weight 3 fails, the
   rank-11 ones by W53 and the rest here. The weight that fits is not the one W45's reading gives; it is a choice.
+  *(Corrected 2026-10-14 by main's B1637: excluded as the quarks' weight only; with the leptons at 3, (5, 7, 3)
+  fits on main's search. W78 checks it.)*
 - **The E₆ frame fails at every weight on record:** weights 1 and 3 by m₃ = m₁ + m₂ (W52), and 5 and 7 here.
 - **The count, for the owner's question** ("we look what fixes τ then we count free numbers"):
   - τ: free; nothing canonical fixes it (W51), and the fits sit at non-special points.

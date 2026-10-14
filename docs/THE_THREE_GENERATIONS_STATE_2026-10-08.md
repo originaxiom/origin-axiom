@@ -522,6 +522,9 @@ Under the owner's rulings, the table's rows split into two groups:
     weave carries B1224's bit, the bit is 0.
   - With W74's arg det M = 0, θ̄ = 0 given L192's dictionary and a sector split that keeps arg det M = 0. δ_CKM is not
     a bit and must come from the split.
+- **Main's B1637 (2026-10-14) corrects W53 and W54:** W53's masses-only minimum is 20.6, not 163. With the leptons at
+  weight 3, (5, 7, 3) fits on main's search, so the geometry's weight is excluded only as the quarks' weight. The count
+  is unchanged; W78 checks the fit.
 - **The count after the field, by kind (READING):** still 0 of 19. θ̄ is the nearest number (two owed items, no free
   input). v becomes the reader's unit in the uniformization reading. Everything else waits on what splits the sectors.
 
@@ -544,4 +547,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W76 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§94).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§95).

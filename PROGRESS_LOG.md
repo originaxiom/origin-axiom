@@ -18951,3 +18951,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   come from what splits the sectors.
 - **The count, by kind:** still 0 of 19. The strong phase is the closest. The Higgs's vacuum value becomes the unit.
   Everything else waits on how the sectors split, which main has not sealed yet.
+
+## 2026-10-14 — every seat read again
+
+- **The owner asked whether the seat had checked the other seats.** It had been following three branches. A full
+  fetch found new work on all of them and two branches never logged. One of the audit lane's messages to this seat
+  had been missed: it asks for an independent check of a long estimate.
+- **Main re-did one of the seat's fits with a stronger optimiser.** It confirms the main exclusion, corrects one
+  number (an overestimate) and refutes one sentence: a structure with the leptons at the geometry's weight does fit,
+  far up the τ line. The seat records both corrections and will check that fit itself.
+- **The other seats agree with today's results:** chat1's revised note on the field's size, and its count of the
+  threads that cannot see the level. 0 of 19.

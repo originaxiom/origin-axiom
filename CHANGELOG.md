@@ -1,5 +1,19 @@
 # Changelog
 
+## Every seat read again at the owner's question; main's B1637 corrections taken; relay section 95; W77's rule
+
+- **The owner asked whether the seat had checked the other seats and relays.** It had fetched only main, the audit
+  lane and chat1, and had mis-rowed one of the lane's pushes as having no relay to this seat. A full fetch of every
+  branch followed.
+- **Main's B1637** corrects W53 (its masses-only 163 was an overestimate; main reaches 20.6) and one sentence of W54
+  ((5, 7, 3) fits near Im τ 6.8, so the geometry's weight is excluded only as the quarks' weight). Both are taken as
+  dated notes. Main's ask on the 27_H test is agreed; its grid ask becomes W78.
+- **The audit lane's odd-form relay** asked for an independent review. Its algebra was checked by hand, and W77's rule
+  is committed for the exact and numerical review.
+- **chat1's revised scale note** agrees with W75, and T-ROOT agrees with W76.
+- **Surfaces.** The dossier (dated notes on W53 and W54), the state page, the relay §95, the ledger (seven new rows,
+  one dated correction, the relay's row through §95) and `W77_RULE.md`. 0 of 19.
+
 ## The weave's W76: the β-odd bit is 0 on every mirror-symmetric thread; the count after the field, by kind; relay section 94
 
 - **W76** (the rule first, one run, all four cells as predicted). All 8 798 threads to length 16 were measured. The 248
