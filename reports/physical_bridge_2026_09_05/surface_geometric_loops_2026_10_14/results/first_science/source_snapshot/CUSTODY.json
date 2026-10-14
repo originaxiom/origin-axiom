@@ -1,0 +1,30 @@
+[
+  {
+    "name": "DESIGN.md",
+    "sha256": "ea3e8095611837b7a11a400d7378743961fc534aab268cf82a137983e4a28e28"
+  },
+  {
+    "name": "SOURCE_NOTES.md",
+    "sha256": "018f7e5672c3b6fbbd49b2bcf12a105f082f98809f539958b13a9bc44628e495"
+  },
+  {
+    "name": "PROOF.md",
+    "sha256": "a0db4652c851247b887f55f60b88ff675ac66b52090bbfa4609b021f271c09e6"
+  },
+  {
+    "name": "probe.py",
+    "sha256": "af53a398608bdd42bf50b56e78a712cb63eba8d17396db1fba249fc7bf942a2f"
+  },
+  {
+    "name": "reference.py",
+    "sha256": "554c956e63b0b9ad049ae4ff61fb9b2309f0a1019c357dae77f24831776e6122"
+  },
+  {
+    "name": "INPUTS.json",
+    "sha256": "730292cf3c77058d0c578f6a9bcc269a18944514765c46580a9b28475d3485be"
+  },
+  {
+    "name": "ARTIFACT_HASHES.txt",
+    "sha256": "5fa0d0be2a136e92de990eeecefbad577b6ccd809b88dea485f77cc11a8aa8a8"
+  }
+]

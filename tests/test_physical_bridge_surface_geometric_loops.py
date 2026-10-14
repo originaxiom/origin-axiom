@@ -11,6 +11,8 @@ def test_actual_loop_and_two_arithmetic_methods():
 def test_homology_is_not_a_based_frame_loop():
     c=N.run()['checks'];assert c['homology-only identity is rejected'] and c['SU6 alone does not match geometric frame']
     assert c['unpaired coefficient centre rejected'] and c['same homology different based lift']
+    assert c['wrong original frame orientation rejected'] and c['positive frame inner puncture']
+    assert R.run()['checks']['separate wrong frame orientation rejected']
 def test_every_cusp_completion_and_both_A_eigenspaces_retained():
     r=N.run()['records'];assert len(r['classes'])==6
     for row in r['classes']:

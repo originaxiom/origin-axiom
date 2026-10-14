@@ -23,3 +23,8 @@ by reversing multiplication consistently. No independent spin sign is
 assigned to repair the coefficient. Physical cusp transport on the
 projected vertical kernels still needs its actual section map; recording
 X and Z is not that map.
+
+Dated post-first-run correction: the proposed positive frame is
+(ZY)^-6, not (ZY)^6; c=abAB is retained. This sign hypothesis is
+explicitly POST HOC and is resealed before its independent test. The
+first signed prediction is preserved as failed, not rewritten.

@@ -103,3 +103,14 @@ same-action interacting chiral Standard Model. Gauge15/old weak-Y cost,
 field/condensate/kinetic map, actual horizontal projected transport,
 real domain, spectral analytic hypotheses, complete charged kernels,
 interactions, anomalies, three-generation selection and gravity remain.
+
+## Dated post-first-run correction: frame orientation
+
+The signed prediction in the frame paragraph above FAILED. The proposed
+corrected identity is (ZY)^6=Inner(c^-1), with c=abAB retained. Accordingly
+the positive frame loop in Hain's convention is (ZY)^-6. This supersedes
+ONLY the earlier identification of (ZY)^6 as the positive frame. The
+natural conjugation-map proof is unchanged; its explicit signed dictionary
+now requires the independently reduced second-run check. Neither the
+SU6/weak order-two centre nor a homology matrix can distinguish these
+directions. See ORIENTATION_REPAIR.md for failure custody and criteria.

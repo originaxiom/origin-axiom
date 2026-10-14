@@ -16,7 +16,10 @@ def run():
     def ck(n,v):checks[n]=bool(v)
     X={'a':'a','b':'ab'};Y={'a':'aB','b':'b'};Z={'a':'a','b':'ba'}
     Yi={'a':'ab','b':'b'};Zi={'a':'a','b':'bA'};E={'a':'a','b':'b'};c='abAB'
-    ck('separate frame word',w.mpow(w.compose(Z,Y),6)==w.inner(c))
+    frame=w.mpow(w.compose(Z,Y),6);positive_frame=w.mpow(w.compose(Yi,Zi),6)
+    ck('separate negative frame word',frame==w.inner(w.inverse(c)))
+    ck('separate positive frame word',positive_frame==w.inner(c))
+    ck('separate wrong frame orientation rejected',frame!=w.inner(c))
     ck('separate frame not trivial',w.inner(c)!=E)
     q=w.compose(w.inner('A'),w.mpow(w.compose(Yi,Zi),2))
     ck('separate order3 exact',q=={'a':'b','b':'AB'} and w.mpow(q,3)==E)
@@ -63,7 +66,8 @@ def run():
     ck('Gaussian canonical frame unitary',all(h.gmul(v,h.conj(v))==h.O for v in weights))
     flip=(2,3,0,1);plus=(1,1,0,0)
     ck('Gaussian normal reversal exchanges extremes',tuple(plus[j] for j in flip)==tuple(1-j for j in plus))
-    return {'checks':checks,'records':{'frame_inner_word':c,'frame_SU6_sign':1,'puncture_SU6_sign':-1,
+    return {'checks':checks,'records':{'frame_inner_word':w.inverse(c),'positive_frame_inner_word':c,
+        'negative_frame_action':frame,'positive_frame_action':positive_frame,'frame_SU6_sign':1,'puncture_SU6_sign':-1,
         'frame_weak_sign':-1,'paired_E8_frame_matches_puncture':True,'order3_word':q,
         'positive_coordinate_T_homology':[[1,-1],[0,1]],'classes':rows},'all_passed':all(checks.values()),
         'scope':'independent finite exact geometric controls; not physical mode transport or nonauthor analytic acceptance'}

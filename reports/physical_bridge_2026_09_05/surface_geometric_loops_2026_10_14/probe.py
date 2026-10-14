@@ -18,7 +18,10 @@ def run():
     ck('tangential twists fix actual puncture',w.image(Z,c)==c and w.image(Y,c)==c)
     ck('tangential braid',w.compose(Z,w.compose(Y,Z))==w.compose(Y,w.compose(Z,Y)))
     frame=w.power(w.compose(Z,Y),6)
-    ck('frame is actual inner puncture',frame==w.inner(c))
+    ck('negative frame inner inverse puncture',frame==w.inner(w.inv(c)))
+    ck('wrong original frame orientation rejected',frame!=w.inner(c))
+    positive_frame=w.power(w.compose(Yi,Zi),6)
+    ck('positive frame inner puncture',positive_frame==w.inner(c))
     ck('homology-only identity is rejected',frame!=E)
     q=w.compose(w.inner('A'),w.power(w.compose(Yi,Zi),2))
     ck('actual order3 word and order',q=={'a':'b','b':'AB'} and w.power(q,3)==E and q!=E)
@@ -77,7 +80,8 @@ def run():
         ck('whole coefficient kept '+str(m),sum(n for _,rr in even for _,n in rr)==136 and sum(n for _,rr in odd for _,n in rr)==112)
         rows.append({'m':m,'Z_even':even,'Z_odd':odd,'Z_odd_zero_phase_ranks':[rr[0][1] for _,rr in odd],
             'inverse_Z_odd':[[label,[[r,dict(rr)[(-r)%12]] for r in range(12)]] for label,rr in odd]})
-    return {'checks':checks,'records':{'frame_inner_word':c,'frame_SU6_sign':1,'puncture_SU6_sign':-1,
+    return {'checks':checks,'records':{'frame_inner_word':w.inv(c),'positive_frame_inner_word':c,
+        'negative_frame_action':frame,'positive_frame_action':positive_frame,'frame_SU6_sign':1,'puncture_SU6_sign':-1,
         'frame_weak_sign':-1,'paired_E8_frame_matches_puncture':True,'order3_word':q,
         'positive_coordinate_T_homology':[[1,-1],[0,1]],'classes':rows},'all_passed':all(checks.values()),
         'scope':'supplied orbifold flat bundle and leading complex trace gluing; physical projected transport/reality not earned'}

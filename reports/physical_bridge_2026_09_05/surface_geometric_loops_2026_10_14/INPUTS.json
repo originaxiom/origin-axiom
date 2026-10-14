@@ -42,12 +42,16 @@
       "sha256": "ea3e8095611837b7a11a400d7378743961fc534aab268cf82a137983e4a28e28"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/ORIENTATION_REPAIR.md",
+      "sha256": "a5959f2a8171f83efaa9beaf239bd973d6c11d0806df640a9e7bc6b51caffa8b"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/PROOF.md",
-      "sha256": "a0db4652c851247b887f55f60b88ff675ac66b52090bbfa4609b021f271c09e6"
+      "sha256": "1b9bc3e1e03100ef76eeb5c4d9b523cb40545d312c549c6a79ed02efd7fa5bff"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/SOURCE_NOTES.md",
-      "sha256": "018f7e5672c3b6fbbd49b2bcf12a105f082f98809f539958b13a9bc44628e495"
+      "sha256": "991155db135dfff341b6ac6f3850df5f82c10e42613c33e98e2de3cf5a750063"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/execute.py",
@@ -55,11 +59,11 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/probe.py",
-      "sha256": "af53a398608bdd42bf50b56e78a712cb63eba8d17396db1fba249fc7bf942a2f"
+      "sha256": "9470fbc8bc717a5a37496f0bc49545b4ca7d90c30cf92ed8132d684b4e2ac7ad"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/reference.py",
-      "sha256": "554c956e63b0b9ad049ae4ff61fb9b2309f0a1019c357dae77f24831776e6122"
+      "sha256": "9cd6d6505608c944926eec1743bfdc6b8d5d91bd95583bee538647fadebfff57"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
@@ -171,7 +175,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_geometric_loops.py",
-      "sha256": "0d19a061f9240340357e1592f4da392ac6fc4ead68a811793d557629b9e83f00"
+      "sha256": "e16ffe72dd6c1fd36a004fbea3da0ba45ba1873098bc4ab17239a84500363538"
     },
     {
       "path": "tests/test_physical_bridge_surface_odd_form.py",
@@ -181,5 +185,6 @@
       "path": "tests/test_physical_bridge_surface_weak_completions.py",
       "sha256": "48f7eab66a216a2c5bd069eca4b872657fa5cfda21c275487f20bb49185d9c92"
     }
-  ]
+  ],
+  "stage": "Post-first-run frame orientation correction, before second execution"
 }
