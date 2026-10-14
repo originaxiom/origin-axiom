@@ -6307,6 +6307,13 @@ not a quantity of the joint action. 0 of 19.
 - **So the strong-CP problem, in this frame, is one test.** Does the split that gives J leave arg det(M_u M_d) at 0?
   That is a cell for main's P-128 seal.
 
+**Post hoc (labelled; `the_weaves_bit_posthoc.py`, committed before its one run).** chat1's root-share check stores
+Vol and CS for all 31,040 b++ threads to length 18, on its own run (`chat1/web-seat` @ f8fe26015).
+- **PH1.** On that data the threads with CS = 0 are exactly the 514 mirror-symmetric ones (266 at length 18). None has
+  π²/2, and no other thread has 2CS ≡ 0. So W76's census reaches length 18.
+- **PH2.** The two seats' CS values agree exactly on the 8 798 common threads. Both used SnapPy 3.3.2, so this is a
+  reproduction across seats, not a second algorithm.
+
 **Status.** COMPUTED (the rule first; one run; all four cells as predicted). A weave census of thread quantities: every
 thread under a stated rule, with a claim about all mirror-symmetric threads at once; not a joint-action quantity.
 0 of 19.
@@ -6644,7 +6651,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W73_RULE.md`: the rule, committed before the code; `the_end_normalisation.py` → `the_end_normalisation.json`: W73, the masses under the end's normalisation (H-end, post hoc), the data comparison and the look-elsewhere figure.
 - `W74_RULE.md`: the rule, committed before the code; `the_surface_cp.py` → `the_surface_cp.json`: W74, the surface frame's CP (the involution's identities, the reality of W72's data, arg det and J).
 - `W75_RULE.md`: the rule, committed before the code; `the_puncture_scale.py` → `the_puncture_scale.json`: W75, chat1's scale check on this seat's instruments (the mirror pairs on 745 threads, the local model by the ODE, the uniformization in the log frame and its monodromy, the field's size).
-- `W76_RULE.md`: the rule, committed before the code; `the_weaves_bit.py` → `the_weaves_bit.json`: W76, the weave's β-odd bit (Chern–Simons on all 8 798 threads to length 16, and the bit on the 248 mirror-symmetric ones).
+- `W76_RULE.md`: the rule, committed before the code; `the_weaves_bit.py` → `the_weaves_bit.json`: W76, the weave's β-odd bit (Chern–Simons on all 8 798 threads to length 16, and the bit on the 248 mirror-symmetric ones). Post hoc (labelled) `the_weaves_bit_posthoc.py` → `the_weaves_bit_posthoc.json`: the bit on chat1's data to length 18, and the two seats' agreement.
 - `W77_RULE.md`: the rule, committed before the code; `the_odd_form_review.py` → `the_odd_form_review.json`: W77, the audit lane's odd form reviewed (the brackets, the spin connection, the cross form, the coefficients, the test sections).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
