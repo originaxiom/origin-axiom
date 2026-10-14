@@ -135,6 +135,7 @@ hash-first status.*
 | frontier/B1644_a_higgs_in_the_multiplicity_space/PREREGISTRATION.md | 29f09f0d | 8fa3d82ba | 1 | yes |
 | frontier/B1645_the_half_bound/PREREGISTRATION.md | fa7858ad | e77f9b5b3 | 1 | yes |
 | frontier/B1646_the_direction_is_the_mass_matrix/PREREGISTRATION.md | b0f4ccbd | 0bbbb6cab | 1 | yes |
+| frontier/B1649_the_kernel_at_the_puncture/PREREGISTRATION.md | 47589963 | untracked | 0 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -394,9 +395,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 383 sealed documents; 0 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 384 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
