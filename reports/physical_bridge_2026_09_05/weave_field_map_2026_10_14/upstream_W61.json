@@ -1,0 +1,854 @@
+{
+ "status": "W61: the couplings at the state W60 selected (the rule W61_RULE.md first; one run)",
+ "Q1": {
+  "the invariant form J": [
+   [
+    [
+     -0.0,
+     -0.0
+    ],
+    [
+     1.0,
+     -0.0
+    ]
+   ],
+   [
+    [
+     -1.0000000000000002,
+     -0.0
+    ],
+    [
+     3.140184917367551e-16,
+     -0.0
+    ]
+   ]
+  ],
+  "the blocks' characters (a, b)": {
+   "(0, 0)": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.0
+    ]
+   ],
+   "(1, 0)": [
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.0
+    ]
+   ],
+   "(0, 1)": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     -1.0,
+     0.0
+    ]
+   ],
+   "(1, 1)": [
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     -1.0,
+     0.0
+    ]
+   ]
+  },
+  "rows": {
+   "(0, 0) (0, 0) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(0, 0) (0, 0) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     1.0
+    ]
+   },
+   "(0, 0) (0, 0) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(0, 0) (1, 0) (1, 0)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "+I",
+    "lambda": [
+     1.0,
+     0.0
+    ]
+   },
+   "(0, 0) (1, 0) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(0, 0) (1, 0) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     -1.0
+    ]
+   },
+   "(0, 0) (0, 1) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(0, 0) (0, 1) (0, 1)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "+I",
+    "lambda": [
+     1.0,
+     0.0
+    ]
+   },
+   "(0, 0) (0, 1) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(0, 0) (1, 1) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     1.0
+    ]
+   },
+   "(0, 0) (1, 1) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(0, 0) (1, 1) (1, 1)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "+I",
+    "lambda": [
+     1.0,
+     0.0
+    ]
+   },
+   "(1, 0) (0, 0) (1, 0)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "-I",
+    "lambda": [
+     -1.0,
+     0.0
+    ]
+   },
+   "(1, 0) (0, 0) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(1, 0) (0, 0) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     -1.0
+    ]
+   },
+   "(1, 0) (1, 0) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(1, 0) (1, 0) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     -1.0
+    ]
+   },
+   "(1, 0) (1, 0) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(1, 0) (0, 1) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     1.0
+    ]
+   },
+   "(1, 0) (0, 1) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(1, 0) (0, 1) (1, 1)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "-I",
+    "lambda": [
+     -1.0,
+     0.0
+    ]
+   },
+   "(1, 0) (1, 1) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(1, 0) (1, 1) (0, 1)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "+I",
+    "lambda": [
+     1.0,
+     0.0
+    ]
+   },
+   "(1, 0) (1, 1) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(0, 1) (0, 0) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(0, 1) (0, 0) (0, 1)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "-I",
+    "lambda": [
+     -1.0,
+     0.0
+    ]
+   },
+   "(0, 1) (0, 0) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(0, 1) (1, 0) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     1.0
+    ]
+   },
+   "(0, 1) (1, 0) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(0, 1) (1, 0) (1, 1)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "+I",
+    "lambda": [
+     1.0,
+     0.0
+    ]
+   },
+   "(0, 1) (0, 1) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(0, 1) (0, 1) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     1.0
+    ]
+   },
+   "(0, 1) (0, 1) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(0, 1) (1, 1) (1, 0)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "-I",
+    "lambda": [
+     -1.0,
+     0.0
+    ]
+   },
+   "(0, 1) (1, 1) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     -0.0,
+     0.0
+    ]
+   },
+   "(0, 1) (1, 1) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     1.0
+    ]
+   },
+   "(1, 1) (0, 0) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     1.0
+    ]
+   },
+   "(1, 1) (0, 0) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(1, 1) (0, 0) (1, 1)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "-I",
+    "lambda": [
+     -1.0,
+     0.0
+    ]
+   },
+   "(1, 1) (1, 0) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(1, 1) (1, 0) (0, 1)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "-I",
+    "lambda": [
+     -1.0,
+     0.0
+    ]
+   },
+   "(1, 1) (1, 0) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(1, 1) (0, 1) (1, 0)": {
+    "c1 + c2 = p": true,
+    "T x T single-valued": true,
+    "T x T form antisymmetric": true,
+    "T-bar x T single-valued": true,
+    "T-bar x T form": "+I",
+    "lambda": [
+     1.0,
+     0.0
+    ]
+   },
+   "(1, 1) (0, 1) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(1, 1) (0, 1) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     1.0
+    ]
+   },
+   "(1, 1) (1, 1) (1, 0)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   },
+   "(1, 1) (1, 1) (0, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     -1.0
+    ]
+   },
+   "(1, 1) (1, 1) (1, 1)": {
+    "c1 + c2 = p": false,
+    "T x T single-valued": false,
+    "T x T form antisymmetric": false,
+    "T-bar x T single-valued": false,
+    "T-bar x T form": "other",
+    "lambda": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "holds": true
+ },
+ "Q2": {
+  "w = (1, 0) (halves), p* = (1, 0)": {
+   "up (Q u^c H)": {
+    "T x T: largest |Y|": 8.526222792843812e-16,
+    "T-bar x T: Y": [
+     [
+      1.3575988384772308,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.3575988384772308,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      -1.3575988384772308
+     ]
+    ],
+    "T-bar x T: singular values": [
+     1.3575988384772308,
+     1.3575988384772308,
+     1.3575988384772308
+    ]
+   },
+   "down (Q d^c H~)": {
+    "T x T: largest |Y|": 8.526222792843812e-16,
+    "T-bar x T: Y": [
+     [
+      1.3575988384772308,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.3575988384772308,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      -1.3575988384772308
+     ]
+    ],
+    "T-bar x T: singular values": [
+     1.3575988384772308,
+     1.3575988384772308,
+     1.3575988384772308
+    ]
+   },
+   "lepton (L e^c H~)": {
+    "T x T: largest |Y|": 8.526222792843812e-16,
+    "T-bar x T: Y": [
+     [
+      1.3575988384772308,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.3575988384772308,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      -1.3575988384772308
+     ]
+    ],
+    "T-bar x T: singular values": [
+     1.3575988384772308,
+     1.3575988384772308,
+     1.3575988384772308
+    ]
+   }
+  },
+  "w = (0, 1) (halves), p* = (0, 1)": {
+   "up (Q u^c H)": {
+    "T x T: largest |Y|": 8.526222792843812e-16,
+    "T-bar x T: Y": [
+     [
+      -1.3575988384772308,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.3575988384772308,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.3575988384772308
+     ]
+    ],
+    "T-bar x T: singular values": [
+     1.3575988384772308,
+     1.3575988384772308,
+     1.3575988384772308
+    ]
+   },
+   "down (Q d^c H~)": {
+    "T x T: largest |Y|": 8.526222792843812e-16,
+    "T-bar x T: Y": [
+     [
+      -1.3575988384772308,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.3575988384772308,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.3575988384772308
+     ]
+    ],
+    "T-bar x T: singular values": [
+     1.3575988384772308,
+     1.3575988384772308,
+     1.3575988384772308
+    ]
+   },
+   "lepton (L e^c H~)": {
+    "T x T: largest |Y|": 8.526222792843812e-16,
+    "T-bar x T: Y": [
+     [
+      -1.3575988384772308,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.3575988384772308,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.3575988384772308
+     ]
+    ],
+    "T-bar x T: singular values": [
+     1.3575988384772308,
+     1.3575988384772308,
+     1.3575988384772308
+    ]
+   }
+  },
+  "w = (1, 1) (halves), p* = (1, 1)": {
+   "up (Q u^c H)": {
+    "T x T: largest |Y|": 8.526222792843812e-16,
+    "T-bar x T: Y": [
+     [
+      1.3575988384772308,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      -1.3575988384772308,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.3575988384772308
+     ]
+    ],
+    "T-bar x T: singular values": [
+     1.3575988384772308,
+     1.3575988384772308,
+     1.3575988384772308
+    ]
+   },
+   "down (Q d^c H~)": {
+    "T x T: largest |Y|": 8.526222792843812e-16,
+    "T-bar x T: Y": [
+     [
+      1.3575988384772308,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      -1.3575988384772308,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.3575988384772308
+     ]
+    ],
+    "T-bar x T: singular values": [
+     1.3575988384772308,
+     1.3575988384772308,
+     1.3575988384772308
+    ]
+   },
+   "lepton (L e^c H~)": {
+    "T x T: largest |Y|": 8.526222792843812e-16,
+    "T-bar x T: Y": [
+     [
+      1.3575988384772308,
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      -1.3575988384772308,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.3575988384772308
+     ]
+    ],
+    "T-bar x T: singular values": [
+     1.3575988384772308,
+     1.3575988384772308,
+     1.3575988384772308
+    ]
+   }
+  },
+  "holds": true
+ },
+ "Q3": {
+  "W21's equivariance at omega, by theta numerator (1..4)": {
+   "1": false,
+   "2": false,
+   "3": true,
+   "4": false
+  },
+  "N(omega) with 96 and 48 points": [
+   2.7151976769544617,
+   2.7151976769544475
+  ],
+  "the T x T integrand over |f|^2, largest at 50 points": 3.713935207925448e-16,
+  "holds": true
+ },
+ "cells": {
+  "Q1": true,
+  "Q2": true,
+  "Q3": true
+ },
+ "every cell holds": true
+}

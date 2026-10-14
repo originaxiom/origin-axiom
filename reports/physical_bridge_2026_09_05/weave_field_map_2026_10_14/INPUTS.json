@@ -1,0 +1,78 @@
+{
+  "scope": "pre-execution full coefficient and literal W61-contraction comparison, not global physical families",
+  "upstream_heads": {
+    "main": "55bd29ab791f44666b5555b8cdf9af1f0f72b523",
+    "foundation": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "SM": "3ad7e14f17901fb655457134083437809c20b277"
+  },
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/DESIGN.md",
+      "sha256": "979cdb7204812867555402a1351a2e23073e53b196ac68400d7ff467e9a7f253"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md",
+      "sha256": "24cab7e65ddbb8b37c5c8dddb5cde0171e588e7918eb619f54ee8bd53c0332e0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/probe.py",
+      "sha256": "6533e8f3fd503843e73085e39c234813e0625620062ab31b302380752d5dff3a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/reference.py",
+      "sha256": "5de59aef9b304c4fb2644456fccf933686712fd650a1086bd97d03066e974c61"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/execute.py",
+      "sha256": "8ae29c06c8feac803c371cd4e3c592fc69287cc6030ed46559341ceaa4d37664"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/SOURCE_CUSTODY.json",
+      "sha256": "93fbd53808821a4efb1dada2c5176f5e3f82ebbcfd0139508df8db211173539a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61.py",
+      "sha256": "75dee8416de71751b0ebe1cbace4ca9a9221116849cf873d91e387a0c7bb52ca"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61_RULE.md",
+      "sha256": "64a77ff50d3dbb13977793f7924523f2c7e8dcdd3322c96090ec28800c8eb99c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W61.json",
+      "sha256": "c2b74b4466fda33f40165e829fb5659466e12cd45debb9b1e52e753c0a7e14f2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W21_periods.py",
+      "sha256": "b14b36ba3b8d9a04cf4ff5b6102a04c53ab8919ab2b7256c79d162972444f512"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_spin_room.py",
+      "sha256": "1b16a60e9678d74d65b6fc6b97bdf2e0525cf0b1c785f933fb255b2fddf84268"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/upstream_W59.py",
+      "sha256": "5f2396704b5ce51b7735cf29a40cbfa9f9c138bbeaf5a30a7d73430af0cbe18f"
+    },
+    {
+      "path": "tests/test_physical_bridge_weave_field_map.py",
+      "sha256": "e99fa6cc19388c3512cad3d505269e27af68a3ba2e637cc7b10744530e8f6a20"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py",
+      "sha256": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py",
+      "sha256": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md",
+      "sha256": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/HIGGS_PARENT_MAP_REVIEW.md",
+      "sha256": "f724b1a44d26858a616f1c3b85f7f7c33deaf054a38ee2fdd6b82f0d14c8dc74"
+    }
+  ]
+}
