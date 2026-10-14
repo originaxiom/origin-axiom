@@ -70,10 +70,13 @@ ran a unit and a hierarchy together, and it missed B1015's addendum v2 and L154.
      - σ = ℓ/4G₃ is dimensionless: B980's catch, and B1015 with its addendum types it as the dimensionless anchor.
      - The action has one dimensionless constant, held as an anchor pending L154.
 4. **The Higgs side as the scale's home.**
-   - K018 row 2 and B169 P3 say "a physical scale would be the Higgs field's — external".
+   - B169 P3 says "A physical scale would be the Higgs field's — i.e. the gauge theory's, external". K018 row 2 says
+     "external (the Higgs field's)".
    - Given H-RES and on the cone, the field's size is fixed by the geometry, of order the curvature scale. Off the cone,
      the departure's size depends on the cut.
-   - A reading. It changes no verdict of those arcs, which concern the flow and the moduli in general.
+   - In class S, the Higgs field's scale is the circle radius R in Hitchin's equations, which can be absorbed into the
+     unit. So these lines stand as statements about the unit, and do not hold as an independent Higgs scale.
+   - A reading. It changes no verdict of those arcs.
 5. **For the SM seat as well.**
    - B1645–B1646's sizes and ratios were read in the theta and quaternion frame with its Euclidean product. Under H-RES
      the physical normalisation would be the zero modes' L² norms in (h, g), cut-dependent off the cone.

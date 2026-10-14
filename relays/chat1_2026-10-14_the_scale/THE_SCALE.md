@@ -56,8 +56,9 @@
      in curvature units. In general it stays of order one there.
    - **[MATH, model]** Off the cone, where the second generation's mass lives, it grows into the cusp like |λ|·L/2. So
      the depth of the cut re-enters exactly there.
-   - **[READING]** This revises "the scale is the Higgs field's, external" (K018, B169; chat1's own passage and O4), on
-     the cone and given H-RES.
+   - **[READING]** So, on the cone and given H-RES, the Higgs field carries no scale beyond the unit. That revises
+     chat1's own "the size of the Higgs … stays outside" (the passage; O4). It also narrows K018's and B169's "the
+     Higgs field's, external" to a statement about the unit.
 5. **A tension no one has stated.** **[READING; the facts MATH]**
    - If L154 lands (c = 6), then G/ℓ = 1/4. The threads' geometry sits at the Planck scale and is not classical.
    - That is at odds with reading the threads as spaces (chat1's field note), which needs c ≫ 1.
@@ -186,10 +187,18 @@
 ### 4.3 What this revises
 
 **[READING]**
-- K018 row 2 and B169 P3 say "a physical scale would be the Higgs field's — external". chat1's passage says "How large.
-  The size of the Higgs, which is the scale, stays outside". chat1's O4 says "its size is the external scale".
-- Given H-RES and on the cone, none of these holds. The field's size is fixed by the geometry.
-- Addenda are added to the passage and to the relay's O4.
+- **What the lines say.**
+  - B169 P3: "A physical scale would be the Higgs field's — i.e. the gauge theory's, external (B151)".
+  - K018 row 2: "external (the Higgs field's)".
+  - chat1's passage: "How large. The size of the Higgs, which is the scale, stays outside".
+  - chat1's O4: "its size is the external scale".
+- **What changes.**
+  - Given H-RES and on the cone, the field carries no scale beyond the geometry's unit: its size in curvature units is
+    fixed.
+  - In class S, the Higgs field's scale is the circle radius R, which multiplies Φ in Hitchin's equations and can be
+    absorbed into the unit.
+  - So B169's and K018's lines stand as statements about the unit. Read as an independent Higgs scale, they are revised.
+  - chat1's own two lines are withdrawn; addenda are added to the passage and to the relay's O4.
 
 ### 4.4 A correction to my message this evening
 
