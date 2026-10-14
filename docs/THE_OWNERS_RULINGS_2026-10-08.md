@@ -164,6 +164,16 @@ selecting τ needs a stated functional, and potentials built from the threads se
   the fibre frame (τ one number per vacuum), both, or wait for main.
 - **The owner's choice: "Both frames (Recommended)".**
 
+## A ruling of 2026-10-14, after W69 and the reading of where the field comes from
+
+- **The question.** After W64–W69 clarified the field's direction among the generations, but not its existence or its
+  free numbers, the owner asked whether to brainstorm. The seat mapped five candidate origins against the record: the
+  audit lane's cusp condensate, end data at both ends, a bilinear of the matter, a field shared by every thread, and the
+  first generation's own mechanism.
+- **The owner's choice: "Cusp condensate (Recommended)".** The audit lane's packets on the cusp condensate are read in
+  full first (repo first). Then the condensate's claims are verified on the seat's own code, and its owed tests are
+  run, rule first: its mirror image, and the direction it picks in M.
+
 ## Not ruled
 
 The owner's order left these open, and nothing above depends on them:

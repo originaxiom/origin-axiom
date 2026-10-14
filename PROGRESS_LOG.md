@@ -18769,3 +18769,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   does, keeping colour and breaking the weak force's symmetry. Then data at both ends, for the free numbers. The owner
   chooses.
 
+## 2026-10-14 — the owner chose the cusp condensate
+
+- **The owner chose to pursue the condensate at the weave's own end** as the origin of the field. It is the one object
+  on record that already keeps colour and breaks the weak force's symmetry.
+- **The next steps.** Read the audit lane's packets on it in full, check their claims with the seat's own code, then
+  test two things the record owes: whether its mirror image is the same state, and which direction it picks among the
+  generations.
+- **The owner asked when the breakthrough comes.** The seat's answer: no date can be promised. A breakthrough would be
+  the first Standard Model number derived with nothing fitted, and checked against data held back for it. The count is
+  0 of 19.
+

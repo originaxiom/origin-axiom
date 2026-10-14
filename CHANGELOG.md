@@ -1,5 +1,12 @@
 # Changelog
 
+## The owner's ruling: the cusp condensate as the field's origin
+
+- **The ruling** (2026-10-14, after the reading of where the field comes from): "Cusp condensate (Recommended)". The
+  audit lane's packets on the cusp condensate are read in full first. Then its claims are verified on the seat's own
+  code, and its owed tests (its mirror image; the direction it picks in M) are run, rule first.
+- **Surfaces.** The rulings page and the logs. 0 of 19.
+
 ## The weave's reading: where the field comes from (the owner's brainstorm)
 
 - **A reading** (the owner's "did we clarify the field? should we brainstorm?"; nothing computed; the record searched
