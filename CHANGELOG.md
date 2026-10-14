@@ -10,7 +10,7 @@
   dated notes. Main's ask on the 27_H test is agreed; its grid ask becomes W78.
 - **The audit lane's odd-form relay** asked for an independent review. Its algebra was checked by hand, and W77's rule
   is committed for the exact and numerical review.
-- **chat1's revised scale note** agrees with W75, and T-ROOT agrees with W76.
+- **chat1's revised scale note** agrees with W75, and its root-share check agrees with W76.
 - **Surfaces.** The dossier (dated notes on W53 and W54), the state page, the relay §95, the ledger (seven new rows,
   one dated correction, the relay's row through §95) and `W77_RULE.md`. 0 of 19.
 

@@ -3094,7 +3094,7 @@ main, the audit lane and chat1, and had mis-rowed one of the lane's pushes. A fu
    - **The K4 withdrawal agrees with W75.** The field's size is the covariant ½; the residue's norm is a warp.
    - **The model metric's shift b is right.** For the uniformizing field, b = 0 in the canonical cusp coordinate,
      because the harmonic metric is then the hyperbolic one. For a general flavon the size is ½ only asymptotically.
-   - **T-ROOT is consistent with W76.** It counts 514 threads with CS = 0 to length 18; W76 found exactly the 248
+   - **chat1's root-share check is consistent with W76.** It counts 514 threads with CS = 0 to length 18; W76 found exactly the 248
      mirror-symmetric ones to length 16, and none other.
    - **chat1's proposed T-NORM** (the zero modes' L² norms in (h, g)) is the principled replacement for W73's post hoc
      H-end. The seat would read W73 through it once it is run.
