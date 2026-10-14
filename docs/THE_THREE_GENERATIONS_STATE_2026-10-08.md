@@ -447,6 +447,11 @@ Under the owner's rulings, the table's rows split into two groups:
     entry.
   - The departure from the cone is a function of τ: quadratic near ω, e^{−π Im τ} at the cusp. The count does not drop,
     and one coupling for every sector gives no first-generation mixing. 0 of 19.
+- **W66, the parameter-free census (rule first; all three cells as predicted):**
+  - With the Higgs and the coupling both among the one-unit sections, every sector's Yukawa depends on τ alone.
+  - None of the 216 assignments to the three sectors fits at any τ. The best χ² is 309 for 3 degrees of freedom.
+  - The three ratios vanish together at ω and cannot spread by the data's factor of 16. So the data do not fix τ
+    through these sections. 0 of 19.
 
 ## Questions open with main
 
@@ -462,7 +467,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W65 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W66 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§78).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§79).

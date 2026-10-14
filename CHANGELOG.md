@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W66: the parameter-free census; relay section 79
+
+- **W66** (the owner's goal "resume"; the rule 44b13a4a4 first; the script 32cf6e169 before its one run; all three cells
+  as predicted):
+  - B1644's form with the Higgs and the coupling both among the one-unit sections makes every sector's Yukawa a function
+    of τ alone;
+  - the pairs of two isotropic sections have rank one, and EE has m₁m₃ = m₂²;
+  - none of the 216 assignments to the three sectors fits at any τ: the best χ² is 309 for 3 degrees of freedom (66.5
+    at a 20% allowance), with the minima near ω.
+- **So:** the data do not fix τ through the parameter-free sections, and the count does not drop. 0 of 19.
+- **Relay §79** to main. **Surfaces.** The rule, the script, its JSON, the dossier (W66, a row, the header, the files),
+  the W66 test, the state page, the relay and the ledger.
+
 ## The weave's W65: the second unit, the Higgs as a section; relay section 78
 
 - **W65** (the owner's goal "resume"; the rule cf00484e0 first; one failed launch disclosed and fixed, b2ffc42ed; the

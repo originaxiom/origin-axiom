@@ -18711,3 +18711,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   fixed.
 - **The count of free numbers does not drop:** 0 of 19.
 
+## 2026-10-14 — W66: the parameter-free census; relay §79
+
+- **W66 tested the version of W65 with no free coefficients.** Built only from the bundle's three simplest sections,
+  each sector's masses and mixings depend on the modulus alone. If one value of the modulus fit more data than it has
+  numbers, that would be a real prediction.
+- **None of the 216 ways of assigning the sections to the three charged sectors fits,** at any value of the modulus.
+  The three sectors' mass ratios rise and fall together, while the data need them a factor of 16 apart.
+- **All three predictions held.** The count of free numbers does not drop: 0 of 19.
+

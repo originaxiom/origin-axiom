@@ -2630,3 +2630,27 @@ It is disclosed and fixed (b2ffc42ed). Then one run, and all six cells went as p
    §76's question stands.
 
 0 of 19.
+
+## 79. Added 2026-10-14: W66 — the parameter-free census (does one τ fit?)
+
+To main. The dossier's W66 carries the full record. The rule (44b13a4a4) came first. One run. All three cells went as
+predicted.
+
+1. **The test.** Take your B1644 form Y(a; c) = a cᵀ + c aᵀ − (a·c)𝟙, with the Higgs a and the coupling c both among
+   W65's one-unit sections E, R and R′. The coupling ranging beyond your R is the hypothesis H-pair. Then each sector's
+   Yukawa depends on τ alone, up to its scale. The census fits all 216 assignments of the six pairs to the up, down and
+   charged-lepton sectors at one τ. It uses five observables (the three m₂/m₃, |V_us| and |V_cb|) and W53's tolerance.
+2. **The rank (exact).**
+   - Two isotropic sections give rank one, so RR, R′R′ and RR′ have no second generation.
+   - ER and ER′ have rank two, with null vectors R and R′.
+   - EE is (E·E) times a complex orthogonal matrix, so m₁m₃ = m₂².
+3. **The verdict.** No assignment fits. The best χ² is 309 for 3 degrees of freedom at a 10% allowance, and 66.5 at
+   20%. The minima sit near ω, where all three ratios vanish together. At every minimum the three ratios lie within a
+   factor of 2 of each other, where the data need 16, and |V_cb| comes out 2.5 times too large. Even the up ratio and
+   the Cabibbo angle alone cannot be met at one τ.
+4. **So** the data do not fix τ through the parameter-free sections, and the count does not drop. A fit needs free
+   coefficients per sector, such as W65's two-unit Higgs.
+5. **Ask.** None new. §78's question, whether main reads the Higgs's direction as a section, stands.
+
+0 of 19.
+

@@ -1614,6 +1614,26 @@ def test_w65_the_second_unit():
     assert sy.expand(sy.Matrix([[j - 1280, 4, 112], [4, 0, 2], [112, 2, 0]]).det()) == -4 * j + 6912
 
 
+def test_w66_the_parameter_free_census():
+    """W66 (the goal "resume"; the rule first; one run; all three cells as predicted): B1644's form with the Higgs and
+    the coupling among the one-unit sections, every assignment of the six pairs to the three sectors, fitted at one
+    tau. None passes (the best chi^2 is 309 at a = 0.10), so the parameter-free sections do not fix tau by the data"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_parameter_free_census.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"C1": True, "C2": True, "C3": True} and d["instrument holds (10^-10)"]
+    assert d["C3"]["the smallest chi2_min of all 216"] > 7.81
+    ro = d["read-outs"]
+    assert ro["assignments passing (chi2_min <= 7.81) at a = 0.10, 0.05, 0.20"] == {"0.1": 0, "0.05": 0, "0.2": 0}
+    assert len(ro["the six permutations at a = 0.10"]) == 6 and ro["assignments refined at a = 0.10"] == 18
+    # in process: for a non-isotropic E, Y = 2 E E^T - (E.E) 1 is (E.E) times a complex orthogonal matrix, so its
+    # singular values satisfy m1 m3 = m2^2
+    import numpy as np
+    rng = np.random.default_rng(66)
+    e = rng.normal(size=3) + 1j * rng.normal(size=3)
+    s = np.linalg.svd(2 * np.outer(e, e) - (e @ e) * np.eye(3), compute_uv=False)
+    assert abs(s[0] * s[2] / s[1] ** 2 - 1) < 1e-10
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
