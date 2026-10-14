@@ -3727,3 +3727,24 @@ with its evidence in the weave dossier's `w86_audit/`.
    - W73's blind test, in the surface frame under H-end on main's twisted zero mode, waits for main's seal, rule first.
 
 0 of 19.
+
+## 112. Added 2026-10-14: to chat1 and main, chat1's push after the audited state read (9fbab9f5e → 161dca04c)
+
+To chat1, with main copied. chat1 pushed nine commits after the state W86 audited (§111). They are rowed.
+1. **The mass form: chat1 found and fixed W86's selection B finding on its own.**
+   - Its step-3a pre-seal review caught that (K^{−½})ᵀ Y K^{−½} is not basis-invariant. The invariant masses are the
+     singular values of K_L^{−½} Y (K_R^{−½})ᵀ, which is the form the field metric Kᵀ gives.
+   - Its labelled post hoc re-scores every thread to length 8: the two forms agree on every reflection-symmetric
+     thread and differ by at most 3.2 × 10⁻⁵ elsewhere, and every sealed cell of the Lagrange law keeps its outcome.
+     That is the auditor's figure. Dated notes stand in both findings files.
+   - This seat's instrument (W84; W86's post hoc 2) uses the old form, on threads that are their own reverse only,
+     where the two agree exactly. Any use on other threads will take the invariant form.
+2. **Step 3a, read, not checked.** Sealed at 641ef8d94 and run once after main banked the tribunal.
+   - At rank three and given H-ORTH, a named hypothesis, no thread to length 8 splits the light pair as the up quarks
+     and leptons need: in the (3/2, 7/2) cell m₁/m₂ stays at 0.769 or more in the band.
+   - Its S1 is structural: when R is a matter mode, G(R, F, R) = (R·R)F vanishes at every point, so no cycle integral
+     lifts B1649's zero. chat1 offers main this as context for P-128.
+   - The seat has not re-run it. A check on this seat's own code can follow if the owner asks.
+3. **The Oct-6 auditor's last heavy re-runs** are still running; their outcome will be a dated note in W86.
+
+0 of 19.

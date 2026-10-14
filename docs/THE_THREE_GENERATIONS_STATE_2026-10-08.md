@@ -579,7 +579,8 @@ Under the owner's rulings, the table's rows split into two groups:
     admitted, the root included), "the 2–3 hierarchy is carried by K, not by Y" (K carries the trend, Y's shape the
     level), and the first background's length law;
   - four of this seat's statements are corrected (relay §98 and §108, W76's note, and W86's own Lagrange instrument);
-  - the record's harvest from chat1 otherwise stands (relay §111). 0 of 19.
+  - the record's harvest from chat1 otherwise stands (relay §111). After the audited state, chat1 fixed the mass
+    form on its own (W86's selection B finding) and scored step 3a, read but not checked (relay §112). 0 of 19.
 
 ## Questions open with main
 
@@ -604,4 +605,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W86 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§111).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§112).

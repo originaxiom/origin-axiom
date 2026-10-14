@@ -19152,3 +19152,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Smaller slips,** wrong numbers and misattributed citations, are listed and sent to chat1 and main.
 - **The seat corrected four of its own statements,** including a credit owed to main for a result that chat1's work
   extended. 0 of 19.
+
+## 2026-10-14 — chat1 fixed one of the slips on its own
+
+- **chat1 found and corrected,** before reading the audit, one of the smaller problems the audit had listed: a formula
+  for the masses that depended on a choice of basis. Its re-check changes no result. The seat credited it.
+- **chat1's new test** asks whether its frame can separate the two lightest masses as the up quarks and leptons need.
+  Under a stated hypothesis it cannot, on any path up to length 8. The seat has read it but not re-run it. 0 of 19.

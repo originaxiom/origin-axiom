@@ -1,5 +1,15 @@
 # Changelog
 
+## chat1's push after W86's audited state read and rowed; relay section 112
+
+- **chat1** (9fbab9f5e → 161dca04c). Its own fix of the mass form (the basis-invariant K_L^{−½} Y (K_R^{−½})ᵀ, with a
+  labelled post hoc: at most 3.2 × 10⁻⁵ off, every Lagrange-law cell kept) is W86's selection B finding, found
+  independently. Step 3a, sealed and run after B1652: at rank three and given H-ORTH no thread to length 8 splits the
+  light pair; read, not checked.
+- **§112** credits the fix, notes that this seat's instrument uses the old form only where the two agree exactly, and
+  records step 3a as read.
+- **Surfaces.** The relay §112, a ledger row and row 317, the state page. 0 of 19.
+
 ## W86: chat1's whole branch checked at the owner's order; three of its readings fall; four of this seat's statements corrected; main's S126 read
 
 - **The owner's order** (2026-10-14): "verify all from chat1 so its not based on wrong computations or bugs for
