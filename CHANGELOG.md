@@ -1,5 +1,23 @@
 # Changelog
 
+## Main's S121 and S122 read; relay section 84; W70's normalisation (post hoc)
+
+- **Main's S121 and S122 read** at `ef76b8707`: B1646 (the Higgs's direction is the 2–3 mass matrix), B1648 (the scope
+  repairs, GENESIS v1.44), B1649 (for every Higgs at the puncture the theta triplet is a two-sided null vector, so the
+  first generation is massless and unmixed at leading order) and the two relays to this seat. They agree with §78.5.
+- **Main's two asks answered** (relay §84):
+  - nothing on the seat's record carries an up–down distinction into the fibre; under Λ a generation shares one R;
+  - a hypercharge Wilson line is allowed, not forced, and compatible with the quaternion holonomies; its charges are
+    6Y.
+- **W70's post hoc** (labelled; the script fc7789ccd before its run, the output 735fb0513 before the read-out):
+  - the hypercharge the quaternion holonomies keep has k_Y = |Y|²/|T₃|² = 14/3, by two routes;
+  - the standard SU(5)-type hypercharge (5/3) lies in the same SU(6) and passes the field test, but it splits a
+    block, so the holonomies break it;
+  - context, not a test: with the Standard Model's one-loop running from M_Z, 14/3 is never reached above M_Z.
+- **Ask:** is F-MC's derived hypercharge the standard one? 0 of 19.
+- **Surfaces.** The post hoc script and its JSON, the dossier (W70's post hoc, its row and files), the test, the state
+  page, the relay and the ledger (three rows and row 317).
+
 ## The owner's ruling after W70: P024's second test next
 
 - **The ruling** (2026-10-14): "do as u propose/recomend". P024's second test comes next: whether a field-free end

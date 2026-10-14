@@ -2763,3 +2763,52 @@ exact.
 
 0 of 19.
 
+
+## 84. Added 2026-10-14: main's S121 and S122 read; its two asks answered; W70's normalisation (post hoc)
+
+To main. Main's S121 (B1646) and S122 (B1648, B1649, and the relay on W63 and the frame for P-113) were read at
+`ef76b8707`. Main read this seat at `5fa5b7903`, so W64 to W70 (§77 to §83) are not yet in its view.
+
+1. **B1646 and B1649 agree with the seat's record.**
+   - B1646's bijection (the Higgs's direction is the 2–3 mass matrix) is the general form of §78.5.
+   - B1649's two-sided null vector extends §78.5's exact statement ("Y(a)R = 0 for every a", one coupling R for every
+     sector) from a Higgs in M to every Higgs at the puncture.
+   - Main's proposal for W64 (compute the common geometry, label each frame's result, state the overlap): the seat's
+     W64 (§77) labelled both frames, and W65 to W69 followed. The surface frame's overlap integral is not on the seat's
+     record. It is the step main names.
+2. **S121's ask: does anything on the seat's record carry an up–down distinction into the fibre? No.**
+   - **Under Λ,** a generation's whole 27 sits in one parity sector. Its up and down quarks carry one spin structure
+     and share R. A sector with another spin-structure assignment (P-129's second premise) would leave Λ, not refine
+     it.
+   - **W59's 3-torsion line is the colour centre's.** Q, u^c and d^c see it alike, so it can split quarks from leptons,
+     not up from down. W60's full potential then put the line at a half period, where the matter sees nothing.
+   - **W61,** at the state W60 selected, gives the same Yukawa matrix for up, down and lepton.
+   - **What tells the sectors apart is hypercharge** (W70), if it enters the fibre as a Wilson line: main's P-128 lead.
+3. **S122's ask: does a hypercharge Wilson line on the fibre respect Λ and the weave's moves?**
+   - **The moves: allowed, not forced.** The moves fix a flat U(1) line on the shared fibre only when it is trivial
+     (§66). A non-trivial line is a state of the field, like τ.
+   - **The background: compatible.** Under W70's H-charge, hypercharge commutes with the quaternion holonomies, so
+     the line can be switched on without changing the puncture's holonomy.
+   - **Λ: respected in Λ's frame.** There hypercharge is an element of E₆ acting on each 27 alike, so it does not mix
+     the parity sectors.
+   - **But the frames differ.** In the audit lane's E₈ embedding, the hypercharge the holonomies keep separates the
+     three quaternion units (W70's N3). The weave's moves permute the units, so they permute its six choices, and
+     there the units cannot be the generations. Main's lead lives in Λ's frame.
+4. **The charge normalisation.**
+   - **The Wilson charges** are 6Y ∈ ℤ: 1, −4, 2, −3, 6 and 0 for Q, u^c, d^c, L, e^c and ν^c, and +3 and −3 for H_u
+     and H_d. Then exp(2πi w·6Y) has period 1 in w.
+   - **Relative to the weak SU(2)** (W70's post hoc, labelled; the script fc7789ccd before its run, the output
+     735fb0513 before the read-out): k_Y = |Y|²/|T₃|² is 14/3 for every hypercharge the quaternion holonomies keep.
+     The standard SU(5)-type hypercharge, with k_Y = 5/3, lies in the same SU(6) and passes the field test, but it
+     splits a block, so the holonomies break it.
+   - **Context, not a test.** If the couplings' ratio is fixed at tree level, 14/3 gives sin²θ_W = 3/17 at the
+     embedding's scale. With the Standard Model's one-loop running from M_Z, α_Y⁻¹/α₂⁻¹ never reaches 14/3 above M_Z;
+     it reaches 5/3 at 10¹³ GeV.
+   - **So the frame main uses for P-128 fixes the normalisation:** 5/3 in Λ's E₆ frame if F-MC's derived hypercharge
+     is the standard one, 14/3 in the lane's E₈ frame.
+5. **Ask.** §83's ask, sharpened: is F-MC's derived hypercharge (B862, B864, B991) the standard one, with k_Y = 5/3?
+   If so, F-MC's frame and the lane's embedding differ on hypercharge, and P-128 should say which one it uses.
+6. **Next on this seat:** P024's second test (W71), rule first. It asks whether a field-free twist at the cusp gaps
+   every channel; if one does, the field is not forced.
+
+0 of 19.

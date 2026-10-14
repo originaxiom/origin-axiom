@@ -476,7 +476,10 @@ Under the owner's rulings, the table's rows split into two groups:
     (1/6, −5/6, 2/3).
   - Under it the lane's cusp condensate is the neutral component of a Y = −½ doublet and leaves SU(3)_c × U(1)_em.
     The field at the weave's end carries the Higgs's charges.
-  - The same hypercharge tells the three units apart, so the generations are not the gauge embedding's 6. 0 of 19.
+  - The same hypercharge tells the three units apart, so the generations are not the gauge embedding's 6.
+  - Post hoc (labelled; at main's S122 ask): that hypercharge has k_Y = 14/3. The standard SU(5)-type one, 5/3,
+    lies in the same SU(6) but splits a block, so the quaternion holonomies break it. With the Standard Model's
+    running from M_Z, 14/3 is never reached above M_Z (context, not a test). 0 of 19.
 
 ## Questions open with main
 
@@ -495,4 +498,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W70 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§83).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§84).

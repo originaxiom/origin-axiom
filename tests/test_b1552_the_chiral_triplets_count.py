@@ -1738,6 +1738,22 @@ def test_w70_the_cusp_condensate_charge_map():
     assert sols == set(permutations((Fr(1, 6), Fr(-5, 6), Fr(2, 3))))
 
 
+def test_w70_posthoc_the_hypercharge_normalisation():
+    """W70's post hoc (labelled; at main's S122 ask): the hypercharge the quaternion holonomies keep has k_Y = 14/3,
+    and the standard SU(5)-type hypercharge (k_Y = 5/3) splits a block, so the holonomies break it"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_cusp_condensate_charge_map_posthoc.json").read_text(encoding="utf-8"))
+    assert d["PN1"]["the distinct values"] == ["14/3"] and len(d["PN1"]["per admissible Y"]) == 6
+    assert d["PN2"]["k_Y by the Cartan norms"] == "5/3" and d["PN2"]["block-scalar"] is False
+    assert all(d["PN2"]["the five field conditions"].values())
+    assert d["PN3"]["per k_Y"]["14/3"]["above M_Z"] is False
+    # in process: with sum c = 0 and the 6's Gram matrix delta_ij - 1/6, |sum_k c_k ws_k|^2 = sum_k c_k^2
+    from fractions import Fraction as Fr
+    c = [Fr(1, 6), Fr(1, 6), Fr(-5, 6), Fr(-5, 6), Fr(2, 3), Fr(2, 3)]
+    norm = sum(ci * cj * ((1 if i == j else 0) - Fr(1, 6)) for i, ci in enumerate(c) for j, cj in enumerate(c))
+    assert norm == sum(x * x for x in c) == Fr(7, 3) and norm / Fr(1, 2) == Fr(14, 3)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

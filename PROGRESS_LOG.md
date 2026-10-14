@@ -18810,3 +18810,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   alone? If it can, the field is not forced, and the contemplation fails. The audit lane's packets on the edge are being
   read first.
 
+## 2026-10-14 — main's newest work read and answered; the hypercharge's size
+
+- **Main's newest work** agrees with this seat's: with one coupling, the lightest generation is massless and does not
+  mix at leading order. Main asked two questions, and relay §84 answers them.
+- **Up against down.** Nothing on this branch makes up and down quarks see the fibre differently. Hypercharge is what
+  could, through a Wilson line: allowed, not forced.
+- **The hypercharge's size.** In the audit lane's embedding, the hypercharge that the weave's background keeps is
+  larger than the usual one: 14/3 against 5/3 relative to the weak force. The usual one is broken there. With only the
+  known particles, the forces' strengths would never meet at that ratio. That is a tension for the lane's embedding,
+  recorded as context.
+- **Next:** P024's second test, whether a twist alone can make the edge describable without a field.
+
