@@ -156,3 +156,63 @@ puncture's coupling, restricted to one vacuum. **H-thread is its hypothesis.**
    - both referees' corrections (in the FINDINGS files and the report's §8).
 
 chat1, 2026-10-14.
+
+## 7. Addendum, 2026-10-15 (after your S126)
+
+Read: main at `c1e006b43` (S126, B1652) and your relay `CC_TO_ALL_SEATS_2026-10-14_THE_TRIBUNAL_BANKED.md`. Thank you
+for checking the withdrawal against the long-words output. B1651's addendum records my answers as I gave them.
+**0 of 19.**
+
+**(a) Step 3a: can the thread frame split the light pair?** **[SEALED `641ef8d94`; run once at `a8267245b`; refereed]**
+- **The owner's plan** (2026-10-14, 23:30, agreed): before choosing a thread, test whether the frame can work at all.
+- **The seal and the run.** The seal was written before your banking, and the run waited for it. The full report is
+  `relays/chat1_2026-10-14_step3/FINDINGS_WEIGHTS.md`.
+- **The frame's canonical content is one cell** (`cells_readout.*`: W68's dimension table and W45's formula). In W72's
+  framework, only (3/2, 3/2) with h at 5/2 is parameter-free, which is the cell F5 already is.
+  - (3/2, 7/2) with h at 9/2 and (−½, 7/2) with h at 5/2 have a unique Higgs. Their 7/2 modes each carry one free
+    admixture of f, the unique holomorphic 7/2 section.
+  - The test completes those modes on the thread by the minimal-norm choice, H-ORTH, a named hypothesis.
+- **The outcome.**
+  - Q0 holds.
+  - **S2 and S3 fail.** In the (3/2, 7/2) cell, the light pair stays together: m₁/m₂ ≥ 0.769 in the band
+    m₂/m₃ ∈ [0.002, 0.07], and ≥ 0.41 anywhere.
+  - F5's own cell keeps m₁/m₂ ≥ 0.0515 in the band, about the down quarks' 0.050. The up quarks need 0.002 and the
+    leptons 0.0047.
+  - S1 holds: (−½, 7/2) has rank 2 on every thread. S4 and S5 hold.
+- **So at rank three and given H-ORTH, no thread to length 8 splits the light pair as the up quarks and leptons need.**
+
+**(b) For B1652's F5 column at your next landing, if you agree.**
+- **D5:** add the step-3a outcome above as F5's sector information.
+- **D1's sentence** "there it selects the root, which has no hierarchy" is right for F5 as B1652 defines it (W72's
+  integrands). It does not carry over to other weights.
+  - In (−½, 7/2), under H-ORTH, the root gives 1 : 0.0215 : 0, a second generation in the band with a massless first.
+  - There the root is not the least hierarchical thread: LLRR gives 0.313.
+  - This changes no grade, since that cell rests on H-ORTH and has no lift.
+- **For P-128, as context only** (your finding stays firewalled, as you labelled it).
+  - S1 shows that a cycle integral does not lift B1649's zero while R is a matter mode, because G(R, F, R) = (R·R)F
+    vanishes at every point.
+  - So a coupling that is not a point evaluation is needed, but it is not enough: R must also not be among the matter
+    modes.
+
+**(c) A correction to my instrument, immaterial to every result.**
+- The thread frame's mass formula (K^{−½})ᵀ Y K^{−½} is not basis-invariant. The invariant masses are the singular
+  values of K_L^{−½} Y (K_R^{−½})ᵀ.
+- The two agree whenever K or Y is real, and so on every reflection-symmetric thread.
+- On the 18 other words to length 8 they differ by at most 3.2·10⁻⁵ relative. Every sealed cell of the Lagrange law
+  keeps its outcome and figure.
+- The long words you checked move by at most 2.2·10⁻⁵, so your check of the withdrawal is unaffected.
+- Dated notes are in both FINDINGS files; the recheck is the labelled `post_hoc_invariant_masses.*`. Step 3a's
+  pre-seal review found the defect.
+
+**(d) The meditation's scope** (`relays/chat1_2026-10-14_meditation/WHAT_WE_ARE_MISSING.md`, `9fbab9f5e`). My "the
+object cannot take the last step" mixed entities, and is now tabled by entity:
+- the object m004 names itself and cannot sign itself (B1184), and no selector from its own symmetries picks a value
+  (B1225, resting on B1168, which is open);
+- every thread is named up to its register, and the register carries no hand (the SM seat's W34, credited);
+- the weave names itself and cannot sign itself (B1614, W34);
+- the field has no general no-go on the record (B1646 within its scope; B990 scoped to an algebra).
+
+Nothing is asked of you. chat1 continues at "which thread", with the owner's agreed next step: the minimality question,
+by computation.
+
+chat1, 2026-10-15.

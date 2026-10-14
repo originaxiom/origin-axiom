@@ -148,17 +148,21 @@ RMS is on new threads only, and admission was as sealed. It found that the gener
 
 ## Correction (2026-10-15: the mass formula, found by step 3a's pre-seal review)
 
-The sealed form (K^{−½})ᵀ Y K^{−½} is not basis-invariant where K and Y are both complex. The invariant masses are the
-singular values of K^{−½} Y (K^{−½})ᵀ (`FINDINGS_THREAD_FRAME.md`, same date).
+The sealed form (K^{−½})ᵀ Y K^{−½} is not basis-invariant. Its masses agree with the invariant form's unless K and Y
+are both complex. The invariant masses are the singular values of K^{−½} Y (K^{−½})ᵀ (`FINDINGS_THREAD_FRAME.md`, same
+date).
 
 The labelled post hoc `post_hoc_invariant_masses.*` recomputes both forms. Its script (`d5cf9f3a9`) was committed
 before its one run (339 s), and its output is at `ea0647ffc`.
 
 - **51 of the 69 words are reflection-symmetric:** the reversal or the mirror is a rotation of the word.
   - On these, K is real to 4·10⁻¹⁸ and the two forms agree to 1.05·10⁻¹⁵.
-  - Y is real on them only to the quadrature's precision. |Im Y|/|Y| ≤ 1.7·10⁻⁶ on the 41 admitted.
-  - On the ten not admitted (y > 3) it reaches 0.53 (LLLLLLLR), where N = 256 and N = 384 differ by up to 24%. Since K
-    is real there, the two forms still agree.
+  - Y is not exactly real on them.
+    - |Im Y|/|Y| is at most 1.7·10⁻⁶ on the 41 admitted.
+    - On the ten not admitted (y > 3) it reaches 0.53, on LLLLLLLR. The quadrature has not converged there: N = 256 and
+      N = 384 differ by 17.5% on that thread, and by up to 24% among the ten.
+    - Whether the residue on the admitted threads is quadrature error is not shown.
+  - Since K is real, the two forms agree regardless.
 - **On the other 18, K and Y are both complex.**
   - |Im K|/|K| runs from 1.5·10⁻⁹ to 2.4·10⁻⁵, and |Im Y|/|Y| reaches 1.2%.
   - The two forms differ by at most 3.2·10⁻⁵ relative, on the reversal pair LLRLRR and LLRRLR.
@@ -180,9 +184,13 @@ before its one run (339 s), and its output is at `ea0647ffc`.
   most 3.2·10⁻⁵, by the same amount within each pair.
 - **Step 3a's C1 reference is unchanged:** 0.0515 on LLRLRLR, which is reflection-symmetric, in both forms.
 - **Disclosed: the recheck's own defects.**
-  - The JSON's `P1` writes the key "their worst old-vs-new difference" twice. The second value (the 18 words' 3.18·10⁻⁵)
-    overwrote the first (the symmetric words' 1.05·10⁻¹⁵). The per-row data are complete, and the figures above are
-    read from the rows.
+  - The script's `P1` dictionary literal names the key "their worst old-vs-new difference" twice.
+    - The JSON therefore keeps only the second value, the 18 words' 3.18·10⁻⁵.
+    - That value sits right after "reflection-symmetric words: 53", where it reads as the symmetric words' figure. Their
+      own figure is 1.05·10⁻¹⁵.
+    - The per-row data are complete, and the figures above are read from the rows.
   - `P1`'s count of 53 reflection-symmetric words is the 51 to length 8 plus the two symmetric long words.
-  - The docstring says "seven reversal words", but `P3` holds six. The seventh, LLR, has length 3 and sits in `P1`'s
-    rows.
+  - The docstring says "seven reversal words", but `P3` holds six reversal words (11 entries with the five long words).
+    The seventh, LLR, has length 3 and sits in `P1`'s rows.
+- **Refereed.** Step 3a's read-only referee checked every figure in this section against both JSON files. It confirmed
+  them and sharpened three wordings: the duplicated key, the 17.5% on LLLLLLLR, and "not shown" for Y's residue.

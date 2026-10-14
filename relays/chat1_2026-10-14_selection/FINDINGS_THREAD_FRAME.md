@@ -155,8 +155,10 @@ confirmed the seal order, the hashes and every scored cell. Withdrawn or narrowe
   matrix.
   - Every number here stands, including the root's lightest-state weights (TF3).
   - `post_hoc_hybrid` also stands, since it uses each thread's real K.
-- **Correction 5's "K and Y are real" holds to the quadrature's precision.** |Im Y|/|Y| ≤ 1.2·10⁻⁶ on the 12. It is
-  largest on the deepest thread (LRRRR), at the level where N = 256 and N = 384 disagree.
+- **Correction 5's "K and Y are real", made precise.**
+  - K is real to 3·10⁻¹⁸ on the 12.
+  - |Im Y|/|Y| is at most 1.2·10⁻⁶, on LRRRR, the deepest thread. Whether that residue is quadrature error is not shown.
+  - No conclusion depends on it, since K is real.
 - **The labelled post hoc** `post_hoc_invariant_masses.*` recomputes every thread to length 8 in both forms. Its script
   (`d5cf9f3a9`) was committed before its one run, and its output is at `ea0647ffc`.
   - On the 51 reflection-symmetric words the two forms agree to 1.05·10⁻¹⁵.
