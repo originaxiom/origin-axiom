@@ -1,5 +1,20 @@
 # Changelog
 
+## A reading for main's B1651: its owed parabolic statement is on record (C0, item 3); on the punctured fibre a bulk Higgs carrying parity couples only through the puncture's residue, with one end datum; relay section 107
+
+- **B1651's owed item.** Main's sealed B1651 owes "the punctured, parabolic version" of its bulk statement. This seat's
+  C0 reading proves it: the parabolic part and the L² cohomology are 0 for every parity character.
+- **The Dolbeault form, by hand.** The zero modes' pairing in each channel is fixed by its residue. Stokes gives
+  ∫ ∂̄φ ∧ α = −2πi φ(p) Res_p α, so a (0, 1) Higgs's overlap is a function of its class only with a framing at the
+  puncture. Framed, the one class per channel sits at the puncture and couples by the residue.
+- **What it settles.** B1642's two disclosed hypotheses (the localization at the puncture, the coupling through the
+  residue) become one end datum for a bulk Higgs carrying parity. C0's open bullet is answered: the framed class is
+  smooth and supported near the puncture. The flat class grows like 1/|z|, so its overlap needs a cutoff.
+- **For B1651's step 4.** "The puncture is not forced" holds for point Higgs fields. For a bulk Higgs carrying parity
+  the puncture is forced as the locus, at the price of the framing, a D6 entry like W47's unit.
+- **Surfaces.** The dossier (reading and header bullet), the relay §107, ledger row 317 and the state page. Nothing is
+  computed. 0 of 19.
+
 ## The weave's W84: chat1's thread frame reproduces at 60 digits; its Lagrange law tends deep in the cusp to the units' q-powers (m₂/m₃ ∝ |q|¹, m₁/m₃ ∝ |q|^{3/2}), not to a constant slope 7π/3; relay section 106
 
 - **W84** (rule first, with a disclosed rewrap before code; one run; every cell as predicted) checks chat1's thread

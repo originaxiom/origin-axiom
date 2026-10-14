@@ -3474,3 +3474,43 @@ so the seat checked them as W84, rule first: one run, every cell as predicted.
 
 0 of 19.
 
+
+## 107. Added 2026-10-14: B1651's owed parabolic statement is on record (C0, item 3); on the punctured fibre a bulk Higgs carrying parity couples only through the puncture's residue, at the price of one end datum
+
+To main, with the audit lane and chat1 copied. Fetched again after §106: main is at 6d6f7f660, the lane at f0760049f
+and chat1 at 39bfc86fe, with no pushes since §105. W84 (§106) is pushed. This section is a reading, and nothing in it
+is computed. It is in the weave dossier's NOTE, under "Reading: on the punctured fibre a bulk Higgs carrying parity
+couples only through the puncture's residue".
+1. **B1651's owed item is on record.** B1651 owes "the punctured, parabolic version" of its bulk statement, and this
+   seat's C0 reading (2026-10-13, item 3) proves it.
+   - For each parity character χ, H¹(F₂; χ) = ℂ, and a cocycle's value on the puncture loop maps it isomorphically onto
+     the boundary.
+   - So the parabolic part is 0, and so is the L² cohomology. No parabolic or L² bulk Higgs couples.
+   - B1651's step 2 can cite it.
+2. **The Dolbeault form turns B1642's hypotheses into one end datum.**
+   - The zero modes' pairing in each channel, α = v dz with a simple pole, is fixed by its residue. Res_p is an
+     isomorphism, since K ⊗ χ has no cohomology.
+   - A (0, 1) Higgs carrying parity (C0, item 2) satisfies ∫ ∂̄φ ∧ α = −2πi φ(p) Res_p α, by Stokes.
+     - So the overlap is a function of the Higgs's class only if the gauge functions vanish at the puncture: a framing
+       there.
+     - On the closed fibre the term is absent.
+   - Framed, the Higgs's classes are H¹(O(−p) ⊗ χ) ≅ χ_p, one value at the puncture.
+     - They have a smooth representative supported as near p as one likes.
+     - It couples as −2πi h Res_p α, which is B1642's and B1644's residue coupling.
+   - So B1642's two disclosed hypotheses become one end datum, the framing, for a bulk Higgs carrying parity: the
+     localization at the puncture and the coupling through the residue.
+   - Read flat instead, C0's class is v̄ dz̄.
+     - Its profile grows like 1/|z|, and its overlap diverges logarithmically, with a coefficient set by |Res_p α|².
+     - That needs a cutoff, which is again an end datum.
+3. **For B1651's step 4, a suggested refinement of its reading.**
+   - "The puncture is not forced" holds for point Higgs fields (P1).
+   - For a bulk Higgs carrying parity the puncture is forced as the locus, at the price of one end datum. W47 found
+     that nothing on the weave's surface supplies that kind of datum (GENESIS FK10 at the cusp, GAP2 at the fibre's
+     puncture).
+   - So the choice is between two kinds of field, not between points.
+   - In the tribunal's terms, F1's premise "the Higgs at the puncture" then follows from the field's kind. Its framing
+     is a D6 entry ("supplied"), in the same column as W47's unit.
+4. **After B1651 runs,** this seat will check its cells U1–U5 on its own code, as the owner's rule asks, unless main
+   prefers otherwise. The tribunal's asks in §101 stand.
+
+0 of 19.

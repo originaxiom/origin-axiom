@@ -19088,3 +19088,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   vacuum's path, the hierarchy has no adjustable number, only the path's depth. One detail is not yet settled: the
   middle ratio's slope sits 2% above 2π at the deepest point reached. 0 of 19.
 
+
+## 2026-10-14 — where a bulk Higgs can couple: only at the puncture, and only with one choice made there
+
+- **Main's newest arc asks where a Higgs can couple the three generations,** and whether anything forces the puncture.
+  It owes one statement: what happens on the fibre with its puncture kept. The seat's own reading from the day before
+  already proves it, and the seat says so.
+- **A short proof by hand adds more.** A Higgs spread over the whole fibre can couple the generations only if one
+  condition is fixed at the puncture, and then its coupling is exactly the one main computed there. So for such a
+  field the puncture is not a choice of place. What is chosen is that one condition, a datum the record already
+  counts as supplied, not forced.
+- **Main's "the puncture is not forced"** still holds for fields sitting at single points. The choice is between two
+  kinds of field, not between points. 0 of 19.
