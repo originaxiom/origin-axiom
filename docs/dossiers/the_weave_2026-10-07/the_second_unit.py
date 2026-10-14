@@ -13,6 +13,11 @@ departure from the cone, and what it costs. The rule (W65_RULE.md) was committed
 "Relative" in H2 is fixed here, before the run, as relative to |f||g| (the scale of the product f.g), so that the
 check is defined at omega, where Phi vanishes.
 
+A failed launch, disclosed: the first launch crashed inside the first collocation solve, before any cell was computed
+or any output written. mpmath's qr_solve uses a Householder step that takes its sign from the real part of the
+diagonal entry, which is wrong for complex matrices and divides by zero when that real part is 0. The solve now uses
+mpmath's complex QR (mp.qr) and a triangular solve, with the residual computed directly. It does not count as the run.
+
 Run: python3 the_second_unit.py  ->  the_second_unit.json beside it.
 """
 import itertools
@@ -111,7 +116,9 @@ def solve_section(units, lead):
         v2 = matvec(RS, B[lead])
         for k in range(3):
             b[3 * r + k] = -(B[lead][k] * qp(e, ts) - tk * v2[k] * qp(e, t))
-    x, res = mp.qr_solve(A, b)
+    Q, Rm = mp.qr(A, mode="skinny")                   # mpmath's complex QR (qr_solve's householder is real-only)
+    x = mp.lu_solve(Rm, Q.H * b)
+    res = mp.norm(A * x - b)                           # the residual computed directly
     terms = [(lead, LAM[lead] - 1, mp.mpf(1))] + [
         (l, n + LAM[l], x[c] * mp.exp(2 * mp.pi * (n + LAM[l]) * H0)) for c, (l, n) in enumerate(cols)]
     return terms, float(res / mp.norm(b))
