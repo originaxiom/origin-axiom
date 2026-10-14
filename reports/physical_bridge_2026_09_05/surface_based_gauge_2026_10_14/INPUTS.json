@@ -14,12 +14,16 @@
       "sha256": "b04c64f9c85b2cc2b3686b747b1187db0872c6ebebdf66284c5f7682b1f914f7"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/REPAIR.md",
+      "sha256": "2222cc1c114f1a73f3581d035cf9eaa08a405b9304273f2ed2c1a69f8a115095"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/execute.py",
       "sha256": "85a5c2c95238246d57dc2b8f885fdafcd7daaec3da4cb8b4a55f887814d02d73"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/probe.py",
-      "sha256": "7f66ab7173bb000a3b00901f0676a465586c01a507791c0e25997d6104ffdca1"
+      "sha256": "f4622faf9fb1bebdaf64e08184f2d49aad4ebfb4bef5cf3d5b85a5ff248eeabc"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/reference.py",
@@ -111,7 +115,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_based_gauge.py",
-      "sha256": "cff39219ff8d7f0cc7b0a2630c293f11a610a99f283551d80214eb348ae885c7"
+      "sha256": "f7aeb98ee02072a89d04eac45e335bf16b9e6b6d0729f054a7834f7b44e5949f"
     },
     {
       "path": "tests/test_physical_bridge_surface_odd_form.py",

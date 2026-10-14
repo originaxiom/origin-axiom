@@ -1,0 +1,395 @@
+{
+  "checks": {
+    "native word braid XYX": true,
+    "native word braid YZY": true,
+    "native word distant commute": true,
+    "native word centre identity": true,
+    "paper middle convention map": true,
+    "paper middle is not literal Ri": true,
+    "actual based a inverse recovered": true,
+    "actual based b recovered": true,
+    "gauge braid XYX": true,
+    "gauge braid YZY": true,
+    "gauge distant commute": true,
+    "actual SU6 centre retained": true,
+    "unitary full lift 0": true,
+    "unitary full lift 1": true,
+    "unitary full lift 2": true,
+    "full fibre covariance 0a": true,
+    "full fibre covariance 0b": true,
+    "full fibre covariance 1a": true,
+    "full fibre covariance 1b": true,
+    "full fibre covariance 2a": true,
+    "full fibre covariance 2b": true,
+    "actual inner A gauge lift": true,
+    "actual inner b gauge lift": true,
+    "paired centre trivial on all240 roots": true,
+    "all eight Cartans centre fixed": true,
+    "unrepaired weak identity fails": true,
+    "weak twelfth is minus centre": true,
+    "wrong weak angle rejected": true,
+    "literal family factor 0": true,
+    "real orthogonal family 0": true,
+    "literal family factor 1": true,
+    "real orthogonal family 1": true,
+    "literal family factor 2": true,
+    "real orthogonal family 2": true,
+    "left-right X family agrees": true,
+    "specified weak root actually broken": true,
+    "weak Cartan actually survives": true,
+    "old Q8 invariant roster complete": true,
+    "invariant dimensions within complete roster": true,
+    "complete even and odd character dimensions": true,
+    "exact integral phase 0+10": false,
+    "exact integral phase 0+11": false,
+    "exact integral phase 0+12": false,
+    "exact integral phase 0+13": false,
+    "exact integral phase 0+14": false,
+    "exact integral phase 0+15": false,
+    "exact integral phase 0+16": false,
+    "exact integral phase 0+17": false,
+    "exact integral phase 0+18": false,
+    "exact integral phase 0+19": false,
+    "exact integral phase 0+110": false,
+    "exact integral phase 0+111": false,
+    "exact integral phase 0-10": false,
+    "exact integral phase 0-11": false,
+    "exact integral phase 0-12": false,
+    "exact integral phase 0-13": false,
+    "exact integral phase 0-14": false,
+    "exact integral phase 0-15": false,
+    "exact integral phase 0-16": false,
+    "exact integral phase 0-17": false,
+    "exact integral phase 0-18": false,
+    "exact integral phase 0-19": false,
+    "exact integral phase 0-110": false,
+    "exact integral phase 0-111": false,
+    "exact integral phase 1+i0": true,
+    "exact integral phase 1+i1": true,
+    "exact integral phase 1+i2": true,
+    "exact integral phase 1+i3": true,
+    "exact integral phase 1+i4": true,
+    "exact integral phase 1+i5": true,
+    "exact integral phase 1+i6": true,
+    "exact integral phase 1+i7": true,
+    "exact integral phase 1+i8": true,
+    "exact integral phase 1+i9": true,
+    "exact integral phase 1+i10": true,
+    "exact integral phase 1+i11": true,
+    "exact integral phase 1-i0": true,
+    "exact integral phase 1-i1": true,
+    "exact integral phase 1-i2": true,
+    "exact integral phase 1-i3": true,
+    "exact integral phase 1-i4": true,
+    "exact integral phase 1-i5": true,
+    "exact integral phase 1-i6": true,
+    "exact integral phase 1-i7": true,
+    "exact integral phase 1-i8": true,
+    "exact integral phase 1-i9": true,
+    "exact integral phase 1-i10": true,
+    "exact integral phase 1-i11": true,
+    "all136 even directions retained": false,
+    "all112 odd directions retained": true,
+    "all odd phases stay away from zero": true,
+    "zero phase remains in even sector": true,
+    "zero-phase rejecting confinement control": true
+  },
+  "records": {
+    "word_delta": {
+      "a": "aBA",
+      "b": "abaBA"
+    },
+    "recovered_inner_A": {
+      "a": "a",
+      "b": "Aba"
+    },
+    "recovered_inner_b": {
+      "a": "baB",
+      "b": "b"
+    },
+    "SU6_centre_sign": -1,
+    "weak_centre_sign": -1,
+    "paired_E8_centre_sign": 1,
+    "family_moves": [
+      [
+        [
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "family_adjoint_invariants": 0,
+    "family_symmetric_invariants": 1,
+    "diagonal_block_hypercharge_invariants": 0,
+    "weak_invariants": 1,
+    "complete_based_gauge_invariant_dimension": 15,
+    "even_phase_populations": [
+      [
+        "+1",
+        [
+          [
+            0,
+            32
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            16
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            16
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            16
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            0
+          ]
+        ]
+      ],
+      [
+        "-1",
+        [
+          [
+            0,
+            16
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            16
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            0
+          ]
+        ]
+      ]
+    ],
+    "odd_phase_populations": [
+      [
+        "+i",
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            11,
+            8
+          ]
+        ]
+      ],
+      [
+        "-i",
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            11,
+            9
+          ]
+        ]
+      ]
+    ],
+    "minimum_nonzero_phase": "1/12",
+    "even_x_growth_pi_squared_coefficient": "1/72",
+    "odd_P_growth_pi_squared_coefficient": "1/144",
+    "canonical_even_zero_phase_bound": "3/16",
+    "odd_Q_form_norm_error": 4
+  },
+  "all_passed": false,
+  "scope": "one supplied full based compact E8 completion and its complete gauge/phase cost, not a physical SM"
+}

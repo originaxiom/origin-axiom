@@ -12,6 +12,7 @@ def load(folder,name='probe'):
     m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);return m
 def clean(x):return s.simplify(s.expand_complex(x))
 def zero(m):return all(clean(x)==0 for x in m)
+def phase_inverse(z,j):return s.sympify(z)**(-j)
 def nullity(basis,moves,adjoint=False):
     cols=[]
     for h in basis:
@@ -115,7 +116,7 @@ def run():
         for label,av in phases:
             row=[]
             for r in range(12):
-                value=clean(sum(chars[j,k][which]*av**(-j)*s.exp(-2*s.pi*s.I*r*k/12)
+                value=clean(sum(chars[j,k][which]*phase_inverse(av,j)*s.exp(-2*s.pi*s.I*r*k/12)
                                 for j in (0,1) for k in range(12))/24)
                 ck('exact integral phase '+str(which)+label+str(r),value.is_Integer and value>=0)
                 row.append([r,int(value)])

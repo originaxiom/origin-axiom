@@ -8,6 +8,11 @@ def mod(name):
     m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);return m
 N,R=mod('probe'),mod('reference')
 
+def test_post_hoc_integer_inverse_stays_exact():
+    assert N.phase_inverse(1,1).is_Integer
+    assert N.phase_inverse(-1,1).is_Integer
+    assert N.phase_inverse(1,1)==1 and N.phase_inverse(-1,1)==-1
+
 def test_two_exact_methods_and_complete_records():
     a,b=N.run(),R.run()
     assert a['all_passed'] and b['all_passed'] and a['checks'] and b['checks']
