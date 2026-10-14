@@ -1,0 +1,143 @@
+/tmp/thread_frame_sm_j0md51dh/frontier/B1538_the_puncture_characters/verification/punct_covers.py:13: SyntaxWarning: invalid escape sequence '\G'
+  - Gamma acts on the right cosets H\Gamma = D (H u <-> ubar for u in F) by
+modules loaded 3.1
+forms built 376.4
+LLLLLLLR  y 4.3875 m2/m3 6.9100e-11 m1/m3 5.1555e-12 agree 1.8e-01 adm False
+LLLLLLR   y 3.8730 m2/m3 1.8760e-09 m1/m3 1.3011e-12 agree 2.4e-01 adm False
+LLLLLLRR  y 3.4641 m2/m3 2.9987e-08 m1/m3 4.4639e-11 agree 2.1e-04 adm False
+LLLLLR    y 3.3541 m2/m3 5.2158e-08 m1/m3 2.1401e-10 agree 1.0e-03 adm False
+LLLLLRLR  y 3.1491 m2/m3 2.8102e-07 m1/m3 4.5185e-10 agree 1.1e-04 adm False
+LLLLLRR   y 2.9580 m2/m3 6.9853e-07 m1/m3 6.8331e-09 agree 1.7e-06 adm True
+LLLLLRRR  y 2.8137 m2/m3 1.1378e-06 m1/m3 8.2745e-08 agree 7.8e-08 adm True
+LLLLR     y 2.8284 m2/m3 1.5507e-06 m1/m3 2.4915e-08 agree 1.7e-06 adm True
+LLLLRLLR  y 2.7385 m2/m3 3.7436e-06 m1/m3 4.6310e-08 agree 2.7e-07 adm True
+LLLLRLR   y 2.6457 m2/m3 7.1235e-06 m1/m3 6.3109e-08 agree 1.6e-07 adm True
+LLLLRLRR  y 2.4920 m2/m3 1.8596e-05 m1/m3 4.6805e-07 agree 2.3e-08 adm True
+LLLLRR    y 2.4495 m2/m3 1.8951e-05 m1/m3 9.5844e-07 agree 8.6e-09 adm True
+LLLLRRLR  y 2.4920 m2/m3 1.8596e-05 m1/m3 4.6805e-07 agree 7.0e-09 adm True
+LLLLRRR   y 2.3094 m2/m3 4.3245e-05 m1/m3 8.7825e-06 agree 1.0e-09 adm True
+LLLLRRRR  y 2.2361 m2/m3 4.8898e-05 m1/m3 1.6287e-05 agree 2.2e-10 adm True
+LLLR      y 2.2913 m2/m3 5.6076e-05 m1/m3 3.0489e-06 agree 1.9e-09 adm True
+LLLRLLR   y 2.2361 m2/m3 1.2357e-04 m1/m3 5.8568e-06 agree 8.8e-10 adm True
+LLLRLLRR  y 2.0665 m2/m3 4.3224e-04 m1/m3 3.7137e-05 agree 2.3e-11 adm True
+LLLRLR    y 2.1409 m2/m3 2.2820e-04 m1/m3 8.0322e-06 agree 2.1e-10 adm True
+LLLRLRLR  y 2.1213 m2/m3 3.2709e-04 m1/m3 8.5555e-06 agree 4.6e-10 adm True
+LLLRLRR   y 1.9899 m2/m3 7.2543e-04 m1/m3 5.8318e-05 agree 1.8e-11 adm True
+LLLRLRRR  y 1.9233 m2/m3 7.7523e-04 m1/m3 1.0643e-04 agree 2.9e-11 adm True
+LLLRR     y 1.9365 m2/m3 7.8457e-04 m1/m3 1.1561e-04 agree 8.8e-12 adm True
+LLLRRLLR  y 2.0665 m2/m3 4.3224e-04 m1/m3 3.7137e-05 agree 3.9e-11 adm True
+LLLRRLR   y 1.9899 m2/m3 7.2543e-04 m1/m3 5.8318e-05 agree 4.1e-11 adm True
+LLLRRLRR  y 1.8708 m2/m3 1.9877e-03 m1/m3 2.8527e-04 agree 6.3e-12 adm True
+LLLRRR    y 1.8028 m2/m3 1.4845e-03 m1/m3 4.4475e-04 agree 5.9e-12 adm True
+LLLRRRLR  y 1.9233 m2/m3 7.7523e-04 m1/m3 1.0643e-04 agree 1.1e-11 adm True
+LLLRRRR   y 2.3094 m2/m3 4.3245e-05 m1/m3 8.7825e-06 agree 7.2e-10 adm True
+LLLRRRRR  y 2.8137 m2/m3 1.1378e-06 m1/m3 8.2745e-08 agree 4.0e-09 adm True
+LLR       y 1.7321 m2/m3 3.3861e-03 m1/m3 3.3247e-04 agree 3.3e-12 adm True
+LLRLLRLR  y 1.6793 m2/m3 6.6185e-03 m1/m3 5.0114e-04 agree 7.8e-12 adm True
+LLRLLRR   y 1.5649 m2/m3 1.4277e-02 m1/m3 2.0215e-03 agree 8.9e-13 adm True
+LLRLLRRR  y 1.8708 m2/m3 1.9877e-03 m1/m3 2.8527e-04 agree 2.0e-12 adm True
+LLRLR     y 1.6330 m2/m3 1.1807e-02 m1/m3 7.6634e-04 agree 1.9e-12 adm True
+LLRLRLR   y 1.6202 m2/m3 1.7626e-02 m1/m3 9.0742e-04 agree 5.8e-12 adm True
+LLRLRLRR  y 1.4980 m2/m3 3.1009e-02 m1/m3 2.7230e-03 agree 3.0e-14 adm True
+LLRLRR    y 1.4866 m2/m3 2.6749e-02 m1/m3 3.0076e-03 agree 8.5e-14 adm True
+LLRLRRLR  y 1.5811 m2/m3 1.5113e-02 m1/m3 1.2094e-03 agree 3.6e-13 adm True
+LLRLRRR   y 1.9900 m2/m3 7.2543e-04 m1/m3 5.8318e-05 agree 1.0e-11 adm True
+LLRLRRRR  y 2.4920 m2/m3 1.8596e-05 m1/m3 4.6805e-07 agree 1.5e-09 adm True
+LLRR      y 1.4142 m2/m3 3.5742e-02 m1/m3 5.8636e-03 agree 1.4e-13 adm True
+LLRRLR    y 1.4866 m2/m3 2.6749e-02 m1/m3 3.0076e-03 agree 3.7e-13 adm True
+LLRRLRLR  y 1.4980 m2/m3 3.1009e-02 m1/m3 2.7230e-03 agree 2.1e-13 adm True
+LLRRLRR   y 1.5649 m2/m3 1.4277e-02 m1/m3 2.0215e-03 agree 9.0e-13 adm True
+LLRRLRRR  y 2.0665 m2/m3 4.3224e-04 m1/m3 3.7137e-05 agree 1.3e-11 adm True
+LLRRR     y 1.9365 m2/m3 7.8457e-04 m1/m3 1.1561e-04 agree 8.6e-12 adm True
+LLRRRLR   y 1.9900 m2/m3 7.2543e-04 m1/m3 5.8318e-05 agree 9.8e-12 adm True
+LLRRRLRR  y 2.0665 m2/m3 4.3224e-04 m1/m3 3.7137e-05 agree 3.7e-11 adm True
+LLRRRR    y 2.4495 m2/m3 1.8951e-05 m1/m3 9.5844e-07 agree 1.9e-08 adm True
+LLRRRRLR  y 2.4920 m2/m3 1.8596e-05 m1/m3 4.6805e-07 agree 2.7e-09 adm True
+LLRRRRR   y 2.9580 m2/m3 6.9853e-07 m1/m3 6.8331e-09 agree 5.7e-09 adm True
+LLRRRRRR  y 3.4641 m2/m3 2.9987e-08 m1/m3 4.4738e-11 agree 1.4e-03 adm False
+LR        y 1.1180 m2/m3 3.6877e-01 m1/m3 9.5682e-03 agree 2.6e-15 adm True
+LRLRLRR   y 1.6202 m2/m3 1.7626e-02 m1/m3 9.0742e-04 agree 3.6e-14 adm True
+LRLRLRRR  y 2.1213 m2/m3 3.2709e-04 m1/m3 8.5555e-06 agree 9.9e-11 adm True
+LRLRR     y 1.6330 m2/m3 1.1807e-02 m1/m3 7.6634e-04 agree 3.1e-13 adm True
+LRLRRLRR  y 1.6794 m2/m3 6.6185e-03 m1/m3 5.0114e-04 agree 1.7e-12 adm True
+LRLRRR    y 2.1409 m2/m3 2.2820e-04 m1/m3 8.0322e-06 agree 2.0e-10 adm True
+LRLRRRR   y 2.6458 m2/m3 7.1235e-06 m1/m3 6.3109e-08 agree 1.6e-07 adm True
+LRLRRRRR  y 3.1491 m2/m3 2.8102e-07 m1/m3 4.5178e-10 agree 2.2e-04 adm False
+LRR       y 1.7321 m2/m3 3.3861e-03 m1/m3 3.3247e-04 agree 7.5e-12 adm True
+LRRLRRR   y 2.2361 m2/m3 1.2357e-04 m1/m3 5.8568e-06 agree 7.2e-10 adm True
+LRRLRRRR  y 2.7386 m2/m3 3.7436e-06 m1/m3 4.6310e-08 agree 9.4e-09 adm True
+LRRR      y 2.2913 m2/m3 5.6076e-05 m1/m3 3.0489e-06 agree 9.3e-11 adm True
+LRRRR     y 2.8284 m2/m3 1.5507e-06 m1/m3 2.4915e-08 agree 3.8e-07 adm True
+LRRRRR    y 3.3541 m2/m3 5.2158e-08 m1/m3 2.1417e-10 agree 5.6e-05 adm False
+LRRRRRR   y 3.8730 m2/m3 1.8759e-09 m1/m3 2.1007e-12 agree 2.2e-01 adm False
+LRRRRRRR  y 4.3875 m2/m3 6.9093e-11 m1/m3 8.8045e-13 agree 9.2e-02 adm False
+{
+ "Q0": {
+  "old threads reproduced, worst relative": 1.1380113181850425e-06,
+  "holds": false
+ },
+ "LL1": {
+  "Spearman": -0.9957183234104863,
+  "n admitted": 59,
+  "holds": true
+ },
+ "LL2": {
+  "RMS residual (new admitted)": 0.29774232819406055,
+  "n new admitted": 47,
+  "holds": true
+ },
+ "LL3": {
+  "largest m2/m3": "LR",
+  "value": 0.3687746697768651,
+  "holds": true
+ },
+ "LL4": {
+  "Markov threads (y < 1.5)": {
+   "LLRLRLRR": [
+    1.4980263149346498,
+    0.031008746018165726
+   ],
+   "LLRLRR": [
+    1.4866068747318506,
+    0.026748935393082172
+   ],
+   "LLRR": [
+    1.4142135623730951,
+    0.03574209393950125
+   ],
+   "LLRRLR": [
+    1.4866068747318506,
+    0.026748935393066376
+   ],
+   "LLRRLRLR": [
+    1.4980263149346498,
+    0.031008746018173664
+   ],
+   "LR": [
+    1.118033988749895,
+    0.3687746697768651
+   ]
+  },
+  "violations": [],
+  "n high": 31,
+  "holds": true
+ },
+ "LL5": {
+  "RMS residual (new admitted)": 0.6106399391569742,
+  "holds": true
+ }
+}
+fit all admitted: [7.2894620002704835, -7.331987724780621] [6.979434564709801, -8.538126639187595] rms 0.260401132564519
+residual correlations {'length': 0.3171924966221607, 'syllables': 0.6221670214764142, '|CS|': 0.46587754406553367, 'amphichiral': -0.28111027819300227, 'Vol': 0.43341273996686164}
+equal-height pairs [['LLLLRLRR', 'LLLLRRLR', 2.491980072632893, 1.8595518966801544e-05, 1.859551897901208e-05], ['LLLLRRRR', 'LLLRLLR', 2.23606797749979, 4.8897797390272006e-05, 0.00012356864986161556], ['LLLLRRRR', 'LRRLRRR', 2.23606797749979, 4.8897797390272006e-05, 0.0001235686498587373], ['LLLRLLRR', 'LLLRRLLR', 2.0664782577226033, 0.0004322384605527555, 0.0004322384605507452], ['LLLRLRR', 'LLLRRLR', 1.9899380883437248, 0.0007254319794859267, 0.0007254319794891978], ['LLRLRRR', 'LLRRRLR', 1.98997487421324, 0.0007254319794868877, 0.0007254319794920603], ['LLRLRRRR', 'LLRRRRLR', 2.491987158875422, 1.859551897332251e-05, 1.8595518963981232e-05], ['LLRRLRRR', 'LLRRRLRR', 2.0664965916413474, 0.0004322384605316017, 0.0004322384605377029]]
+excluded ['LLLLLLLR', 'LLLLLLR', 'LLLLLLRR', 'LLLLLR', 'LLLLLRLR', 'LLRRRRRR', 'LRLRRRRR', 'LRRRRR', 'LRRRRRR', 'LRRRRRRR']
+{
+ "Q0": false,
+ "LL1": true,
+ "LL2": true,
+ "LL3": true,
+ "LL4": true,
+ "LL5": true
+}
+seconds 378.3
+EXIT 0
