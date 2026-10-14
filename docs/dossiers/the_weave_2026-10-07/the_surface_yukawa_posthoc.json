@@ -1,0 +1,70 @@
+{
+ "status": "W72 POST HOC (labelled): the instruments of X2, X5 and the exponent read-out, corrected",
+ "PH1": {
+  "largest relative deviation, T law": 0.3203099168339668,
+  "largest relative deviation, S law": 2.8627975633017875,
+  "holds": false
+ },
+ "PH2": {
+  "per mode": {
+   "F_i": {
+    "negative exponents and coefficients": {
+     "-7/8": [
+      1.0,
+      0.0
+     ]
+    },
+    "largest |coefficient|": 1.8565483567563524e+38
+   },
+   "F+": {
+    "negative exponents and coefficients": {
+     "-1/8": [
+      1.0,
+      0.0
+     ]
+    },
+    "largest |coefficient|": 1.0478476510794573e+36
+   },
+   "F-": {
+    "negative exponents and coefficients": {
+     "-5/8": [
+      1.0,
+      0.0
+     ]
+    },
+    "largest |coefficient|": 4.719738718824945e+37
+   }
+  },
+  "holds": true
+ },
+ "PH3": {
+  "every f exponent in 1/2 + Z (unfiltered)": true,
+  "every G exponent in rho' classes": true,
+  "f's lowest exponent per pair and Higgs (|coefficient| > 1e-30)": {
+   "00:E": "-5/2",
+   "00:R": "-3/2",
+   "00:R'": "-5/2",
+   "01:E": "-1/2",
+   "01:R": "5/2",
+   "01:R'": "-3/2",
+   "02:E": "-5/2",
+   "02:R": "-3/2",
+   "02:R'": "-3/2",
+   "11:E": "-1/2",
+   "11:R": "7/2",
+   "11:R'": "-1/2",
+   "12:E": "-3/2",
+   "12:R": "5/2",
+   "12:R'": "-1/2",
+   "22:E": "-3/2",
+   "22:R": "-3/2",
+   "22:R'": "-1/2"
+  },
+  "holds": true
+ },
+ "cells": {
+  "PH1": false,
+  "PH2": true,
+  "PH3": true
+ }
+}
