@@ -246,6 +246,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   halves. The holonomy's V₄ makes a parallel charge diagonal on the units, and the moves' S₃ makes it constant;
   transitivity alone allows a democratic split. Under every admissible Y the neutral |Y| = ½ condensates are one
   SU(2)_Q doublet and its conjugate, so main's two-condensate hierarchy needs two independent fields.
+- W83 (main's tribunal item on the lane's frame; script first; M1 as predicted, M2 failed as worded in one sub-cell):
+  every hypercharge commutes with colour and SU(2)_w, so it lies in their commutant in e₈, which is the lane's su(6).
+  A completion of the moves that keeps colour and SU(2)_w keeps a hypercharge only if the moves do not act on the
+  lane's family index through O. But O is how they act on the weave's M, so in the lane's frame D1 and D3 meet only if
+  its family index is not the weave's three.
 
 ## The setting
 
@@ -6740,6 +6745,46 @@ opposite hypercharge exist in the lane's 112. Two of these are cheap exact check
 **Status.** COMPUTED (the script first; one run; every cell as predicted). Two checks for main's tribunal; the rest of
 this seat's attack is relay §101. 0 of 19.
 
+## W83. Main's tribunal item on the lane's frame, answered by a dichotomy: every hypercharge lies in the lane's su(6), and it survives the moves only if they act on the family index other than through O (`the_completion_dichotomy.py`)
+
+**Why.** Main's tribunal lists, among what could overturn its draft, "a gauge completion of the moves that keeps
+SU(2)_w and Y, or a proof that none exists in the lane's E₈ frame". In that frame colour is E₆'s commutant, and the
+family 3 ⊗ 2_q sits in SU(6) ⊂ E₆ beside SU(2)_w. The lane's own completion keeps the moves but cuts SU(2)_w to its
+Cartan and leaves no trace-free Y (kernel 0).
+
+**The order.** The script, with its predictions and priors in the docstring, was committed before its one run
+(40a0a129a). Its output was committed before the read-out (c2a524d39).
+
+**The read-out (COMPUTED, exact; M1 as predicted; M2 FAILED as worded in one sub-cell).**
+- **M1 holds.** The roots of e₈ orthogonal to colour's two roots and the weak root number 30. With the rank-5 Cartan
+  they form an A₅, and the lane's chain is inside it. So the commutant of colour and SU(2)_w is the lane's su(6), and
+  every hypercharge lies in it.
+- **M2.** On the 6 = 3 ⊗ 2_q, the trace-free Y commuting with the holonomy 1₃ ⊗ Q8 and with the moves' action on the
+  family index:
+  - through O (signed permutations of the blocks): **0**, as predicted. This is lemma A in the lane's frame.
+  - through S₃ only: **1**, the democratic split, as predicted.
+  - trivially: **8, not the predicted 2.** With nothing acting on the family index the commutant is the whole su(3) of
+    that index, and the block-diagonal Y the prediction had in mind are only its Cartan. The prediction undercounted;
+    the dichotomy below does not change.
+
+**What it shows (a READING; in the lane's frame, given its embedding).**
+- **The dichotomy.** A completion of the moves that keeps colour and SU(2)_w can keep a hypercharge only if the
+  moves act on the lane's family index other than through O. The completion's freedom is the centralizer of colour
+  and SU(2)_w, which is SU(6) up to centres. Within SU(6) the implementers' action on the family index is constrained
+  only by the relations.
+- **Why that matters.** The moves act on the weave's three, the units M, through O (W49), because O is Aut(Q8). So:
+  - if the lane's family index is the weave's three, then D1 and D3 cannot both hold in the lane's frame, for any
+    completion that keeps colour and SU(2)_w. That is the "none exists" main asked for, conditional on the
+    identification;
+  - if they do hold together, the lane's family index is not the weave's three, and the three generations must come
+    from elsewhere. That is the dictionary question again (P-108).
+- **The parent's specification gains a precise form of its clause 1.** The parent's family index must be the weave's
+  three, on which the moves act through O; and its hypercharge must then lie outside any su(6) whose 6 is 3 ⊗ 2_q.
+  Lemma A forces it to be family-blind.
+
+**Status.** COMPUTED (the script first; one run; M1 as predicted, M2 failed as worded in one sub-cell). An answer to one
+of main's tribunal items, by a dichotomy. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6934,6 +6979,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W80 | COMPUTED (the rule first; one run; all five cells as predicted, Z3 only as worded); a test of main's B1637 fits on this seat's precise forms, under main's own optimizer | the control (5, 7, 5) stays exact near Im τ 3.44; (5, 7, 3) 356 against main's 1.86, (3, 7, 7) 834 against 6.72, (7, 7, 3) 202 against 14.7, the masses-only (3, 3, 3) 319 against 20.6: main's weight-3 fits were evaluator artifacts, and B1637's corrections to W53 and W54 are withdrawn on this seat's side, pending main. The up sector alone fits exactly at weight 3 at Im τ 8.19 |
 | W81 | COMPUTED (the script first; one run; B1, B2, B4 as predicted; B3 FAILED as worded, a sign convention); a check of the audit lane's character | the 248 under the continuous SU(2) of the quaternion Cartan is 55 + 52·2 + 27·3 + 2·4 (index 3), as the lane says; the odd part is 52 doublets and 2 quartets, so "2 ⊗ 56" holds for Q8 only; the electroweak condensate's root β lies in the doublets. The identification of the lane's spinor-valued condensate with the ordinary uniformizing Higgs field is withdrawn (the lane's audit dd2a54119: the types differ) |
 | W82 | COMPUTED (the script first; one run; every cell as predicted); two checks for main's frame tribunal | lemma A holds with both halves: the holonomy's V₄ makes a parallel charge diagonal on the units (commutant 3), the moves' S₃ makes it constant (with V₄: 1); S₃ alone allows a democratic split (2). Under every admissible Y the neutral \|Y\| = ½ condensates are ±r₁, ±r₂, all SU(2)_Q doublets: one condensate and its conjugate, so a two-condensate hierarchy needs two independent fields |
+| W83 | COMPUTED (the script first; one run; M1 as predicted; M2 FAILED as worded in one sub-cell: 8, not 2, when the moves act trivially on the family index); an answer to a tribunal item | the commutant of colour and SU(2)_w in e₈ is the lane's su(6) (30 roots, an A₅ with the lane's chain); a trace-free Y commuting with the holonomy and the moves exists only if the moves act on the lane's family index other than through O (0 through O, 1 through S₃, 8 if trivial). So in the lane's frame D1 and D3 meet only if its family index is not the weave's three |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -7006,6 +7052,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W80_RULE.md`: the rule, committed before the code; `the_main_fits_precise.py` → `the_main_fits_precise.json`: W80, main's B1637 optimizer (read-only from 60c5470ae) on this seat's precise forms, six jobs with main's seeds.
 - `the_lane_su2_branching.py` → `the_lane_su2_branching.json`: W81, the audit lane's continuous-SU(2) branching of the 248 checked (the H_Q weights, the irreps, the odd part, the doublet test at ±β); the script committed before its one run.
 - `the_tribunal_checks.py` → `the_tribunal_checks.json`: W82, two checks for main's frame tribunal (lemma A's commutants by explicit matrices; the neutral |Y| = ½ condensates under every admissible Y with the doublet test); the script committed before its one run.
+- `the_completion_dichotomy.py` → `the_completion_dichotomy.json`: W83, the commutant of colour and SU(2)_w in e₈ (a root count) and the trace-free hypercharges commuting with the holonomy and the moves on the lane's family index; the script committed before its one run.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

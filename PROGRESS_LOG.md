@@ -19048,3 +19048,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   own check. One detail is recorded plainly: the up quarks alone can still be fitted exactly, a little deeper in the
   same direction. That does not rescue any full fit. 0 of 19.
 
+## 2026-10-14 — one of the frame tribunal's open questions, answered by a fork
+
+- **Main asked whether, in the audit lane's frame, the symmetries can be kept together with the hypercharge,** one of
+  the Standard Model's charges. The seat checked exactly.
+- **The answer is a fork.** If the lane's three families are the weave's three, the answer is no: the symmetries
+  forbid any hypercharge there. If the answer is yes, the lane's three families are a different three from the
+  weave's. One of the seat's sub-predictions miscounted the size of a space, and that is recorded as failed. So the
+  question reduces to the dictionary, which three the generations are. 0 of 19.
+

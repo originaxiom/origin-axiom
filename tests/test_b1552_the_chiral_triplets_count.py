@@ -1983,6 +1983,18 @@ def test_w82_the_tribunal_checks():
     relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
     assert "## 101." in relay and "split the down quarks" in relay
 
+def test_w83_the_completion_dichotomy():
+    """W83 (the script first; one run; M1 as predicted, M2 failed as worded in one sub-cell): the commutant of colour
+    and SU(2)_w in e8 is the lane's su(6); a trace-free Y survives the moves only if they act on the family index
+    other than through O"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_completion_dichotomy.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"M1": True, "M2": False}
+    assert d["M1"]["roots orthogonal to colour and SU(2)_w"] == 30 and d["M1"]["an A5"] is True
+    assert d["M2"]["trace-free commutant dimensions"] == {"through O": 0, "through S3 only": 1, "trivially": 8}
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W83." in note and "8, not the predicted 2" in note
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

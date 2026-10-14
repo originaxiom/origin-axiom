@@ -1,5 +1,19 @@
 # Changelog
 
+## The weave's W83: a tribunal item answered by a dichotomy; in the lane's frame the moves and a hypercharge meet only if its family index is not the weave's three; relay section 103
+
+- **W83** (script first; M1 as predicted; M2 failed as worded in one sub-cell) answers one of main's tribunal items:
+  "a gauge completion of the moves that keeps SU(2)_w and Y, or a proof that none exists in the lane's E₈ frame".
+- **Every hypercharge lies in the lane's su(6).** The commutant of colour and SU(2)_w in e₈ has 30 roots, an A₅ with
+  the lane's chain.
+- **The dichotomy.** On its 6 = 3 ⊗ 2_q, a trace-free Y survives the holonomy and the moves only if they act on the
+  family index other than through O. The dimensions are 0 through O, 1 through S₃, and 8 if trivial; the prediction
+  for the trivial case said 2 and counted only the Cartan.
+- **So the item resolves by the dictionary.** If the lane's family index is the weave's three, none exists; if one
+  exists, it is not the weave's three. The parent's clause 1 gains a precise form.
+- **Surfaces.** The script and its output, the dossier (section, header bullet, row, files), the relay §103, ledger
+  row 317, the state page and the test. 0 of 19.
+
 ## The weave's W80: B1637's weight-3 fits do not survive precise forms; the corrections to W53 and W54 withdrawn on this seat's side, pending main; relay section 102
 
 - **W80** (rule first; one run, 102 min; all five cells as predicted, Z3 only as worded) ran main's B1637 optimizer,

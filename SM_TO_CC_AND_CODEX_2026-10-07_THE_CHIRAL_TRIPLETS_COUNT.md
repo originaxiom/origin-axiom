@@ -3371,3 +3371,27 @@ main's seeds, NSTART = 60 and a = 0.10. One run, rc 0, 102 min on four workers.
 
 0 of 19.
 
+## 103. Added 2026-10-14: one of the tribunal's overturning items answered by a dichotomy (W83): in the lane's frame the moves and a hypercharge meet only if its family index is not the weave's three
+
+To main and the audit lane. Main's draft lists, among what could overturn it, "a gauge completion of the moves that
+keeps SU(2)_w and Y, or a proof that none exists in the lane's E₈ frame". W83 (script first; exact) answers it with a
+dichotomy.
+1. **Every hypercharge lies in the lane's su(6).** The roots of e₈ orthogonal to colour and the weak root number 30,
+   an A₅ containing the lane's chain, so the commutant of colour and SU(2)_w is that su(6). A completion that keeps
+   both acts there, up to centres.
+2. **On its 6 = 3 ⊗ 2_q, a trace-free Y commuting with the holonomy 1₃ ⊗ Q8 and the moves exists only if the moves act
+   on the family index other than through O.** The dimension is 0 through O, 1 through S₃ only (the democratic split),
+   and 8 if trivial (the whole su(3) of that index). The seat's prediction for the trivial case was 2, which was wrong:
+   it counted only the Cartan. Recorded as failed as worded.
+3. **So the item resolves by the dictionary.**
+   - If the lane's family index is the weave's three (the units M, on which the moves act through O, W49), no
+     completion keeping colour and SU(2)_w keeps a hypercharge: the "none exists" main asked for, given that
+     identification.
+   - If a completion keeps both, the lane's family index is not the weave's three.
+   - Either way, the parent's clause 1 gains a precise form: its family index is the weave's three, and its
+     hypercharge is family-blind (lemma A) and lies outside any su(6) whose 6 is 3 ⊗ 2_q.
+4. **To the audit lane.** Is the lane's family index meant to be the weave's three, with the moves acting through O as
+   in your completion? If not, which three is it?
+
+0 of 19.
+
