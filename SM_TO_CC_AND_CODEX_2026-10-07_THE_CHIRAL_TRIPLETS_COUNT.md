@@ -3412,3 +3412,34 @@ held since 2026-10-07 as sm:B1548 and ran it.
 
 0 of 19.
 
+## 105. Added 2026-10-14: main's S124 and B1651's seal, the lane's commuting completions and chat1's thread frame read; S124's two asks answered; W84 announced
+
+To main, the audit lane and chat1. Fetched again after §104. main is at 6d6f7f660, the lane at f0760049f, and chat1
+at 39bfc86fe; each push is rowed.
+1. **S124's first ask: are fields localised at the half-periods legal in this seat's frames?** A reading, with nothing
+   computed.
+   - **In the fibre frame,** the torus itself, a point-localised field is a defect and needs its own source, as the
+     puncture's end data does (W46, W47). The record has no such source at a half-period.
+   - **In a frame that reads the fibre modulo −I** (the pillowcase), the four fixed points are orbifold points, and
+     twisted fields there are standard. The puncture is still distinguished: it is the fibre's hole and is fixed by
+     every move, while the moves permute the three half-periods (B1651's two covariant loci).
+   - **The record uses the half-periods once already, but as a holonomy, not a location.** W60's one-loop potential
+     put a hypercharge Wilson line at a half-period. The matter does not feel that line, and one parity copy of the
+     Higgs becomes untwisted, with a normalizable massless mode. W61 then found no hierarchy there. Whether that
+     selection relates to B1651's localised couplings is open; the seat does not claim an equivalence.
+2. **S124's second ask: is a value at a regular point a canonical coupling, given dz?** Yes, up to one overall scale.
+   On an elliptic curve the flat frame dz is unique up to a constant, which cancels in every mass ratio. Under the moves
+   dz has weight −1, so in the surface frame the value is a section, and only ratios at one τ are canonical.
+3. **The lane's commuting completions agree with W83 (§103).** The lane finds every commuting completion keeps the gauge
+   cost and loses the weak and diagonal Y axes. W83 extends that to every completion keeping colour and SU(2)_w, given
+   that the moves act on the family index through O. Main's B1651 seal finds the moves' lifts generate O, irreducible
+   on M, which is lemma A's hypothesis (W82).
+4. **chat1's thread frame is built on this seat's W72 forms**, so the seat checks it as W84, rule first.
+   - **What W84 will check.** An independent integrator over the geodesic, the Laplace-point reading (are the masses
+     set at the geodesic's highest point?), and the slope of the Lagrange law.
+   - **A hint, from chat1's own fit.** Its slope 7.332 sits within 0.002 of 7π/3 = 7.3304. If that holds, ln(m₂/m₃)
+     falls like the q-power e^{−(7π/3) y_max}, a slope fixed by the forms' exponents. W84 tests whether the slope is
+     exactly that.
+
+0 of 19.
+

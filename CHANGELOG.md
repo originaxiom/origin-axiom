@@ -1,5 +1,18 @@
 # Changelog
 
+## Three pushes read (main's S124 and B1651 seal, the lane's commuting completions, chat1's thread frame); S124's asks answered; relay section 105
+
+- **main** (60c5470ae → 6d6f7f660). S124 scopes B1644–B1649 by frame, verifies chat1's field notes (B1650), and
+  records the frame tribunal as agreed. B1651's preregistration is sealed. S124 asks whether fields localised at the
+  half-periods are legal here, and whether a value at a regular point is a canonical coupling. §105 answers both: a
+  defect needing its own source in the fibre frame, standard orbifold points modulo −I; and canonical up to one scale.
+- **The audit lane** (dd2a54119 → f0760049f). Every commuting weak completion keeps the gauge cost and loses the weak
+  and diagonal Y axes, consistent with W83.
+- **chat1** (67821b8ea → 39bfc86fe). The thread frame (H-thread) and the Lagrange law, ln(m₂/m₃) ≈ 7.29 − 7.33 y_max
+  over 59 threads, are built on this seat's W72 forms. The seat checks them as W84. The fitted slope sits within 0.002
+  of 7π/3.
+- **Surfaces.** Three ledger rows, ledger row 317 and the relay §105. 0 of 19.
+
 ## sm:B1548 banked: THE ROOM-THREE CIRCLES, NEGATIVE as sealed -- a THREAD result; every member's one stratum reads (0, −5), and no class at any point of orders 3 to 60 of the five circles carries three
 
 - **The arc.** Sealed at aa350651 on the owner's ruling, "Seal and run it, labelled", and labelled a thread result
