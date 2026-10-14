@@ -1,0 +1,13 @@
+LR     y 1.118  m2/m3 own 0.3688 hybrid 0.3643 (x0.988)   m1/m3 own 0.00957 hybrid 0.0713 (x7.45)
+LLRR   y 1.414  m2/m3 own 0.03574 hybrid 0.03552 (x0.994)   m1/m3 own 0.00586 hybrid 0.00804 (x1.37)
+LLRLR  y 1.633  m2/m3 own 0.01181 hybrid 0.01061 (x0.898)   m1/m3 own 0.000766 hybrid 0.00225 (x2.94)
+LRLRR  y 1.633  m2/m3 own 0.01181 hybrid 0.01061 (x0.898)   m1/m3 own 0.000766 hybrid 0.00225 (x2.94)
+LLR    y 1.732  m2/m3 own 0.003386 hybrid 0.003099 (x0.915)   m1/m3 own 0.000332 hybrid 0.000603 (x1.81)
+LRR    y 1.732  m2/m3 own 0.003386 hybrid 0.003099 (x0.915)   m1/m3 own 0.000332 hybrid 0.000603 (x1.81)
+LLRRR  y 1.936  m2/m3 own 0.0007846 hybrid 0.0008011 (x1.021)   m1/m3 own 0.000116 hybrid 0.00012 (x1.04)
+LLLRR  y 1.936  m2/m3 own 0.0007846 hybrid 0.0008011 (x1.021)   m1/m3 own 0.000116 hybrid 0.00012 (x1.04)
+LRRR   y 2.291  m2/m3 own 5.608e-05 hybrid 5.216e-05 (x0.930)   m1/m3 own 3.05e-06 hybrid 3.85e-06 (x1.26)
+LLLR   y 2.291  m2/m3 own 5.608e-05 hybrid 5.216e-05 (x0.930)   m1/m3 own 3.05e-06 hybrid 3.85e-06 (x1.26)
+LLLLR  y 2.828  m2/m3 own 1.551e-06 hybrid 1.523e-06 (x0.982)   m1/m3 own 2.49e-08 hybrid 2.59e-08 (x1.04)
+LRRRR  y 2.828  m2/m3 own 1.551e-06 hybrid 1.523e-06 (x0.982)   m1/m3 own 2.49e-08 hybrid 2.59e-08 (x1.04)
+range hybrid/own: m2/m3 [0.898, 1.021]  m1/m3 [1.039, 7.448]
