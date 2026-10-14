@@ -40,9 +40,12 @@ is listed under "Seen before the rule", and the priors were set after that. Noth
   - Verdict: isomorphic to ρ_θ, to its conjugate, or to neither.
 - **C2, the coupling action as each seat's forms actually transform.**
   - This seat's weight-3 forms (W54's `forms_at`) and main's (main's own code, extracted read-only by `git archive` of
-    `frontier/B1632_w45_verified_on_main`, `frontier/B1635_couplings_on_the_ruled_branch`,
-    `frontier/B1637_fits_on_the_ruled_branch` and `frontier/B1612_the_mixing_patterns_the_weave_fixes` at 60c5470ae
-    into a temporary directory).
+    every `frontier/*/verification` and `frontier/*/received` directory at 60c5470ae into a temporary directory, 1 511
+    files).
+  - *Corrected before any code (2026-10-14, disclosed).* The rule as first committed (3fadfa197) named four
+    directories. Main's import chain runs further (B1632 imports B1617, which imports B1616, which imports B1615, and
+    so on), found while writing the script. So the whole of main's verification tree is extracted instead,
+    unchanged.
   - For each seat, the stated T-action on 3 × 3 matrices: this seat's Y ↦ X Y Xᵀ with X = conj ρ_T(T), and main's
     Y ↦ ρ(T)^{−T} Y ρ(T)^{−1}. It is checked on that seat's own weight-3 forms, Y(τ + 1) against the action on Y(τ),
     at τ = 0.1 + 3i, to 10⁻⁸ relative.
