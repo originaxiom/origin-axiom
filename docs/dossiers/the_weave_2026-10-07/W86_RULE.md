@@ -65,8 +65,8 @@ go in one script, `the_chat1_record_checked.py`, committed before its one run.
   thread to length 7 (W84's instrument, 60 digits).
 - **I3, Ψ.** Rademacher's Ψ is constant on rotations and equals #R − #L, on every thread to length 12 that the weave
   lists. Its residues give the being gate's phase (mod 3) and the hand rule (mod 4, with the sign), as tabulated.
-- **I4, the loci by class.** W mod 2's action on the three half-periods sorts the threads to length 8, up to mirror, into
-  16 A₄, 13 D₄ and 8 V₄ (B1602's census, as chat1 reproduces it).
+- **I4, the loci by class.** W mod 2's action on the three half-periods sorts the threads to length 8, up to mirror,
+  into 16 A₄, 13 D₄ and 8 V₄ (B1602's census, as chat1 reproduces it).
 - **I5, the reversal identities.** rev(W) has W's volume and Chern–Simons invariant, and Wᵀ has W's volume and minus its
   Chern–Simons invariant, on a sample of 40 threads (SnapPy, 60 digits where available).
 - **I6, the minimal threads per class.** By volume, LR is the least A₄ thread, LLR the least D₄ and LLRR the least V₄,
