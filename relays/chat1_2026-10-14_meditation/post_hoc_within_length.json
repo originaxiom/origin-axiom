@@ -1,0 +1,110 @@
+{
+ "status": "post hoc (labelled), after the meditation's referee; no prediction",
+ "by length": {
+  "4": {
+   "n threads": 3,
+   "Spearman(Vol, Lagrange)": -1.0,
+   "mean Lagrange at c = 0": 3.997859504885956,
+   "mean Lagrange at c = 6": 4.078389918144499,
+   "mean Lagrange at c = 24": 4.276019387418034
+  },
+  "5": {
+   "n threads": 6,
+   "Spearman(Vol, Lagrange)": -0.9847319278346619,
+   "mean Lagrange at c = 0": 4.265274639803566,
+   "mean Lagrange at c = 6": 4.479956321784287,
+   "mean Lagrange at c = 24": 5.0763276251161455
+  },
+  "6": {
+   "n threads": 9,
+   "Spearman(Vol, Lagrange)": -0.9362465057662689,
+   "mean Lagrange at c = 0": 4.592203777366622,
+   "mean Lagrange at c = 6": 4.94794592176621,
+   "mean Lagrange at c = 24": 5.975025189530529
+  },
+  "7": {
+   "n threads": 18,
+   "Spearman(Vol, Lagrange)": -0.9588620184770437,
+   "mean Lagrange at c = 0": 4.708288915328991,
+   "mean Lagrange at c = 6": 5.181910899773965,
+   "mean Lagrange at c = 24": 6.79769090724195
+  },
+  "8": {
+   "n threads": 30,
+   "Spearman(Vol, Lagrange)": -0.9364142038337037,
+   "mean Lagrange at c = 0": 4.889507531702368,
+   "mean Lagrange at c = 6": 5.494533602546015,
+   "mean Lagrange at c = 24": 7.714063151203457
+  },
+  "9": {
+   "n threads": 56,
+   "Spearman(Vol, Lagrange)": -0.9424176189087583,
+   "mean Lagrange at c = 0": 5.033138268877326,
+   "mean Lagrange at c = 6": 5.7199759654334805,
+   "mean Lagrange at c = 24": 8.567845622505338
+  },
+  "10": {
+   "n threads": 99,
+   "Spearman(Vol, Lagrange)": -0.9301557658240943,
+   "mean Lagrange at c = 0": 5.150853399180269,
+   "mean Lagrange at c = 6": 5.930826558240054,
+   "mean Lagrange at c = 24": 9.480328405517065
+  },
+  "11": {
+   "n threads": 186,
+   "Spearman(Vol, Lagrange)": -0.9255505187235489,
+   "mean Lagrange at c = 0": 5.2531101922311,
+   "mean Lagrange at c = 6": 6.09876596012664,
+   "mean Lagrange at c = 24": 10.334616080619526
+  },
+  "12": {
+   "n threads": 335,
+   "Spearman(Vol, Lagrange)": -0.9211964069679272,
+   "mean Lagrange at c = 0": 5.367468031665224,
+   "mean Lagrange at c = 6": 6.278524892773911,
+   "mean Lagrange at c = 24": 11.244143380084289
+  },
+  "13": {
+   "n threads": 630,
+   "Spearman(Vol, Lagrange)": -0.9143163866809767,
+   "mean Lagrange at c = 0": 5.453273760023372,
+   "mean Lagrange at c = 6": 6.4150420097420655,
+   "mean Lagrange at c = 24": 12.092494542061758
+  },
+  "14": {
+   "n threads": 1161,
+   "Spearman(Vol, Lagrange)": -0.9082942828629106,
+   "mean Lagrange at c = 0": 5.546387327030692,
+   "mean Lagrange at c = 6": 6.554912190016301,
+   "mean Lagrange at c = 24": 12.990595287598508
+  },
+  "15": {
+   "n threads": 2182,
+   "Spearman(Vol, Lagrange)": -0.9033006879581402,
+   "mean Lagrange at c = 0": 5.628778453748833,
+   "mean Lagrange at c = 6": 6.679982207104256,
+   "mean Lagrange at c = 24": 13.833105567954819
+  },
+  "16": {
+   "n threads": 4080,
+   "Spearman(Vol, Lagrange)": -0.8976056722204148,
+   "mean Lagrange at c = 0": 5.708140232491923,
+   "mean Lagrange at c = 6": 6.795909990409624,
+   "mean Lagrange at c = 24": 14.719544116552996
+  },
+  "17": {
+   "n threads": 7710,
+   "Spearman(Vol, Lagrange)": -0.8921711310266578,
+   "mean Lagrange at c = 0": 5.780882391365348,
+   "mean Lagrange at c = 6": 6.904484138948737,
+   "mean Lagrange at c = 24": 15.551236738472342
+  },
+  "18": {
+   "n threads": 14532,
+   "Spearman(Vol, Lagrange)": -0.8868427897575915,
+   "mean Lagrange at c = 0": 5.853194338420661,
+   "mean Lagrange at c = 6": 7.0079119813577275,
+   "mean Lagrange at c = 24": 16.42800571157096
+  }
+ }
+}
