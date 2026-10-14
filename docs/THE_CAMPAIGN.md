@@ -1,5 +1,14 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October14 incoming physical field join verified first:27/23 exact,
+145 live PASS80.92s at published e0f51c494,18pins/tree unchanged.
+W75 ordinary U2-U4 positive preserved; old spinor condensate not already
+its K-valued Higgs. Existing quartic/background-induced cubic positive
+retained; normalized stationary same-parent map still owed. Full geometric
+surface/R/reality/domain and all weak completions remain next duties,
+not displaced by comparing equal local coefficients or finite Q8 labels.
+Report: reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/FINDINGS.md.
+
 October14 full based gauge checkpoint:93/31 exact and84 selected
 live PASS at published4867c6c89;30 pins/tree unchanged. One supplied
 non-scalar completion earns full based SAut(F2) relations and actual

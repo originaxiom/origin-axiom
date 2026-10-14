@@ -1,0 +1,73 @@
+{
+  "checks": {
+    "original spinor holomorphic residual zero": true,
+    "naive ordinary field same connection rejected": true,
+    "changed connection ordinary positive comparator": true,
+    "changed connection fails ORIGINAL moment": true,
+    "original moment retained": true,
+    "curvature norm really changes": true,
+    "half versus whole frame weights discriminate": true,
+    "spin curvature nonzero and K double": true,
+    "self bracket not a nonzero K field": true,
+    "different spinors CAN produce ordinary K field": true,
+    "complete continuous character matches E8 roster": true,
+    "odd part includes a quartet": true,
+    "odd centre still112": true,
+    "Q8 restriction still56 doublets": true,
+    "literal transformed lift has same full character": true,
+    "specific original condensate noncommutes": true,
+    "weight one comparator applies to THIS root": true,
+    "actual full comparator potential": true,
+    "quartic interaction is present": true,
+    "standalone cubic not in original zero-r potential": true,
+    "background induced cubic positive route retained": true,
+    "curvature source term retained": true,
+    "noncommuting normal joint is not F-flat": true,
+    "commuting nilpotent two-field positive survives": true,
+    "ordinary W75 source subset u2": true,
+    "ordinary W75 source subset u3": true,
+    "ordinary W75 source subset u4": true
+  },
+  "records": {
+    "spinor_residual": 0,
+    "same_connection_ordinary_residual_E_over_y2": "-I/4",
+    "changed_connection_original_moment": "-1/4",
+    "curvature_squared_ratio": 4,
+    "frame_weights": [
+      "1/2",
+      "1"
+    ],
+    "continuous_SU2_irreps": [
+      [
+        1,
+        55
+      ],
+      [
+        2,
+        52
+      ],
+      [
+        3,
+        27
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "odd_continuous_dimension": 112,
+    "Q8_odd_doublet_copies": 56,
+    "literal_original_root_HQ_weight": -1,
+    "quartic_coefficient": 2,
+    "zero_background_standalone_cubic": 0,
+    "induced_v_u_t2_coefficient": 4,
+    "curvature_f_t2_coefficient": 2,
+    "ordinary_W75_subset": {
+      "u2": true,
+      "u3": true,
+      "u4": true
+    }
+  },
+  "all_passed": true,
+  "scope": "typed field/interaction audit and ordinary U2-U4 replay, not a physical Higgs/NAH join or no-go"
+}

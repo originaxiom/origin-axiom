@@ -1,5 +1,16 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October14 typed field/interaction audit, path-local not numbered banking.
+27/23 exact,145 live PASS at published e0f51c494,18 pins/tree unchanged.
+New proof: spinor_uniformization_joint_2026_10_14 under physical-bridge
+reports. Old parent's stationary and interaction positives preserved.
+
+| Scoped statement | Argument and LIVE safeguard |
+|---|---|
+| Direct size-preserving spinor-to-ordinary Higgs conversion on the old cusp fails Dbar at unchanged connection; the contrasting connection fails ORIGINAL moment. | B1644 flavour/parent comparison context ONLY, not new proof; NEW joint PROOF literal equations and tests/test_physical_bridge_spinor_uniformization_joint.py::test_connection_preserving_identification_is_actually_tested. No exclusion of changed maps, composites, defects or NAH. |
+| Full continuous quaternion E8 character is55 V1+52 V2+27 V3+2 V4; restriction of112 odd directions is STILL56 Q8 doublets. | B1641 coefficient antecedent ONLY; credited registered-embedding character replay, NEW type review; test_continuous_lift_not_read_from_finite_Q8. Not a physical family count. |
+| Old positive-square action retains weight-one quartic2u^2t^2 and induces cubic4vut^2 about a supplied flavon-direction spin background; no standalone ut^2 at r=0. | B1644 flavour comparison context ONLY; original curved-action PROOF and NEW joint coefficient computation; test_actual_interaction_positive_not_a_portal_kill. Local derivative-free comparator, no stationary global/normalized physical Higgs identity. |
+
 October14 full-based gauge sublemmas, path-local CONDITIONAL research,
 not shared numbered banking. B1641 coefficient/move antecedent ONLY;
 NEW argument surface_based_gauge_2026_10_14/PROOF under physical-bridge

@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "full weight census248": true,
+    "odd continuous quartet retained": true,
+    "Q8 and SU2 are not identified": true,
+    "actual condensate has weight one": true,
+    "old spin residual": true,
+    "naive K residual rejects": true,
+    "changed connection opposite control": true,
+    "changed old moment fails": true,
+    "fixed old moment passes": true,
+    "connection curvature squared differs": true,
+    "frames differ without curvature convention": true,
+    "full noncommuting energy (Fraction(1, 1), Fraction(2, 1), Fraction(3, 1))": true,
+    "full noncommuting energy (Fraction(2, 3), Fraction(-3, 5), Fraction(1, 7))": true,
+    "full noncommuting energy (Fraction(-4, 3), Fraction(0, 1), Fraction(-1, 1))": true,
+    "quartic coefficient central difference": true,
+    "zero-r cubic central difference": true,
+    "induced cubic retains v 1": true,
+    "induced cubic retains v -2": true,
+    "induced cubic retains v 3/7": true,
+    "curvature source central difference": true,
+    "natural ordinary bracket exists": true,
+    "self bracket identicallyzero": true,
+    "two nilpotents commute but not normal": true
+  },
+  "records": {
+    "spinor_residual": 0,
+    "same_connection_ordinary_residual_E_over_y2": "-I/4",
+    "changed_connection_original_moment": "-1/4",
+    "curvature_squared_ratio": 4,
+    "frame_weights": [
+      "1/2",
+      "1"
+    ],
+    "continuous_SU2_irreps": [
+      [
+        1,
+        55
+      ],
+      [
+        2,
+        52
+      ],
+      [
+        3,
+        27
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "odd_continuous_dimension": 112,
+    "Q8_odd_doublet_copies": 56,
+    "literal_original_root_HQ_weight": -1,
+    "quartic_coefficient": 2,
+    "zero_background_standalone_cubic": 0,
+    "induced_v_u_t2_coefficient": 4,
+    "curvature_f_t2_coefficient": 2
+  },
+  "all_passed": true,
+  "scope": "separate exact safeguards, not an incoming full W75 run or physical identification"
+}

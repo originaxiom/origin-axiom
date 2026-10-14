@@ -1,0 +1,83 @@
+{
+  "head": "e0f51c494f05dcd8bef9ea89421e883f04d3210c",
+  "sources_before": {
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/DESIGN.md": "bc4fbf49e525d0a94daabbb507fc20e58be8f2d9972bb25443bb429c839c1298",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/PROOF.md": "a56dcbb3d4571f466f0a179de0ce843179f90045465a43ba8cea44ec7adab057",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/SOURCE_CUSTODY.json": "bbc4a0c93fec34ce3205f3e1570e45dc0afe6ccb59b506509214ecbe6c9474c1",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/execute.py": "bd08362b711e0478fb8650ac5ed821631a6e1d8480bba7c5461aef7dfd6952bb",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/probe.py": "865d5d9efbcc4f7f8d387e0ff8afd543277c6c3d3486bd44e8b88476aa3961b1",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/reference.py": "f26078cbf2c893ee44cbc5b4ff772c29ecd67e7f69a63764c3ca28188fd373e5",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/upstream_SM_relay.md": "635198493d50afce5804d1cc815e046f3f745fb6d4104eed4fb6ade3e6af374b",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/upstream_W75.py": "a0afcd2205a32c0e3d30157f05f274de4150acb96ee2ef2ef522960d651a425e",
+    "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0",
+    "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+    "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md": "fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977",
+    "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/PROOF.md": "05a4f2423a6ba030d8f041c0a3236c32117f1ee78b69feb2cc71ce5050b03e55",
+    "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5",
+    "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/PROOF.md": "6fde4ee72a8e041c2c70af31a36e56b9c78c31feffe1b8cc485ffdd1e184d7f5",
+    "tests/test_physical_bridge_spinor_uniformization_joint.py": "56be6408627a7e3e42c518c9ec84ab5c27195e21b279ea5b0040c32ace38e21a"
+  },
+  "matches_seal": true,
+  "runs": [
+    {
+      "label": "probe",
+      "exit_code": 0,
+      "elapsed_seconds": 6.958309169000131,
+      "stdout": {
+        "file": "probe.stdout.log",
+        "bytes": 2314,
+        "sha256": "bdef9703f234cab7f73f0241e8960e227822541feab0fc7f1ecf101bd0c65b62"
+      },
+      "stderr": {
+        "file": "probe.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "label": "reference",
+      "exit_code": 0,
+      "elapsed_seconds": 0.17868878899935225,
+      "stdout": {
+        "file": "reference.stdout.log",
+        "bytes": 1969,
+        "sha256": "a81bd5386a6c08679e5351ac071944645fb4509d7abe6c2d5b20546302af67d8"
+      },
+      "stderr": {
+        "file": "reference.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "sources_after": {
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/DESIGN.md": "bc4fbf49e525d0a94daabbb507fc20e58be8f2d9972bb25443bb429c839c1298",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/PROOF.md": "a56dcbb3d4571f466f0a179de0ce843179f90045465a43ba8cea44ec7adab057",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/SOURCE_CUSTODY.json": "bbc4a0c93fec34ce3205f3e1570e45dc0afe6ccb59b506509214ecbe6c9474c1",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/execute.py": "bd08362b711e0478fb8650ac5ed821631a6e1d8480bba7c5461aef7dfd6952bb",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/probe.py": "865d5d9efbcc4f7f8d387e0ff8afd543277c6c3d3486bd44e8b88476aa3961b1",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/reference.py": "f26078cbf2c893ee44cbc5b4ff772c29ecd67e7f69a63764c3ca28188fd373e5",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/upstream_SM_relay.md": "635198493d50afce5804d1cc815e046f3f745fb6d4104eed4fb6ade3e6af374b",
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/upstream_W75.py": "a0afcd2205a32c0e3d30157f05f274de4150acb96ee2ef2ef522960d651a425e",
+    "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md": "3ac161b2e4418b8826de0926ef853262d2f98ef57a1743a663d0b488f7d153c0",
+    "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+    "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md": "fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977",
+    "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/PROOF.md": "05a4f2423a6ba030d8f041c0a3236c32117f1ee78b69feb2cc71ce5050b03e55",
+    "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md": "22a1a213a739348eddc3431f5d022bcd8f604f3bba58febfe48ef044d6f806b9",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md": "cedd75ade10476f0cf20ff783edd3a4e81caa5196b3b702ede66a066669b360d",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/probe.py": "7d472cdaa421a9e582138691f60e049b65e4bda6b8f162f09c850b90a0eee57a",
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/reference.py": "1d6b7f1059127156a170df970fab213641ae5ac56bb9efd813e7ffb124186fe5",
+    "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/PROOF.md": "6fde4ee72a8e041c2c70af31a36e56b9c78c31feffe1b8cc485ffdd1e184d7f5",
+    "tests/test_physical_bridge_spinor_uniformization_joint.py": "56be6408627a7e3e42c518c9ec84ab5c27195e21b279ea5b0040c32ace38e21a"
+  },
+  "sources_unchanged": true,
+  "passed": true,
+  "records_agree": true,
+  "predicate_counts": [
+    27,
+    23
+  ]
+}

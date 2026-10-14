@@ -1,0 +1,18 @@
+{
+  "exit_code": 1,
+  "elapsed_seconds": 49.55590099999972,
+  "tracked_files": 12668,
+  "tracked_unchanged": true,
+  "index_unchanged": true,
+  "fingerprint_before": "ae4f53b551467a6418f6dee38119349fcf2feaadc47458c63f7d4b63b9183517",
+  "fingerprint_after": "ae4f53b551467a6418f6dee38119349fcf2feaadc47458c63f7d4b63b9183517",
+  "scope": "Publication staged-state stable tracked-tree governance; inherited failures explicitly retained",
+  "stdout": {
+    "bytes": 2539,
+    "sha256": "66bd63a9e38c1da01770c4ebb736be8a6b77ecbf2182b17ff1973675aa1c2449"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

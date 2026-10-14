@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October14 typed field joint:27/23 exact,145 live PASS80.92s at
+published e0f51c494,18pins/tree unchanged. Old hyperbolic punctured-fibre
+condensate and W75 ordinary U2-U4 both preserved. Spinor q(S) versus
+ordinary Phi(K) direct equality fails original equations; a new map
+remains possible. Actual quartic and induced cubic opportunities retained,
+not a portal kill. Full continuous SU2 not read from Q8 parity/dimension.
+NEXT physical field/domain/kinetic/stationary vertex and full surface
+geometric admission. Complete SM+gravity/genesis remains unachieved.
+Report: reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/FINDINGS.md.
+
 October14 full based gauge checkpoint:93/31 exact and84 selected
 live PASS at published4867c6c89;30 pins/tree unchanged. Supplied
 SU6/weak completion satisfies FULL SAut(F2) presentation and retains

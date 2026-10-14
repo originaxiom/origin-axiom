@@ -15,6 +15,10 @@ The other eleven were legitimate and are handled by rule, not by whitelist, wher
   citing file's own directory. The B600 packet README cites `scripts/engine.py` meaning its own
   packet/scripts/engine.py -- correct in context. Six citations resolved this way.
 
+  PINNED COPY RULE (2026-10-14): verbatim cross-branch source copies may resolve targets
+  at their immutable source commit ONLY after validating copy hash, source blob hash
+  and target existence there. A SOURCE_CUSTODY.json label alone grants no exemption.
+
   EXEMPTIONS (judgment, so they are explicit and few):
   - PROGRESS_LOG.md is append-only by GOVERNANCE §9 and gate `append-only`. Historical entries
     naming since-renamed files CANNOT be corrected without violating that. History is allowed
@@ -36,6 +40,8 @@ checking nothing. Discovered when the first commit attempt refused to add the fi
 """
 import os
 import re
+import hashlib
+import json
 import subprocess
 import sys
 
@@ -58,6 +64,55 @@ EXEMPT_TARGETS = frozenset({
 })
 
 
+def pinned_source_reference(rel):
+    """Resolve a verbatim source copy, NOT a blanket foreign-path exemption.
+
+    A nearby SOURCE_CUSTODY.json must name this exact copied path and an
+    immutable Git object, with matching copy AND original-blob SHA256.
+    Only targets actually present at that commit may then resolve there.
+    Branch names, changed copies, mismatched blobs and missing targets fail.
+    """
+    manifest = os.path.join(ROOT, os.path.dirname(rel), "SOURCE_CUSTODY.json")
+    try:
+        rows = json.load(open(manifest, encoding="utf-8"))
+        if not isinstance(rows, list):
+            return None
+        row = next(r for r in rows if isinstance(r, dict) and r.get("copied_path") == rel)
+        ref, source, expected = row["reference"], row["source_path"], row["sha256"]
+        if not isinstance(ref, str) or not re.fullmatch(r"[0-9a-f]{7,40}", ref):
+            return None
+        if not isinstance(source, str) or source.startswith("/") or ".." in source.split("/"):
+            return None
+        with open(os.path.join(ROOT, rel), "rb") as stream:
+            if hashlib.sha256(stream.read()).hexdigest() != expected:
+                return None
+        resolved = subprocess.run(["git", "-C", ROOT, "rev-parse", "--verify", ref + "^{commit}"],
+                                  capture_output=True, timeout=60)
+        if resolved.returncode:
+            return None
+        commit = resolved.stdout.decode().strip()
+        if not re.fullmatch(r"[0-9a-f]{40}", commit):
+            return None
+        blob = subprocess.run(["git", "-C", ROOT, "show", commit + ":" + source],
+                              capture_output=True, timeout=60)
+        if blob.returncode or hashlib.sha256(blob.stdout).hexdigest() != expected:
+            return None
+        return commit
+    except (OSError, KeyError, StopIteration, TypeError, ValueError, subprocess.TimeoutExpired):
+        return None
+
+
+def source_target_exists(commit, target):
+    if ".." in target.split("/"):
+        return False
+    try:
+        result = subprocess.run(["git", "-C", ROOT, "cat-file", "-e", commit + ":" + target],
+                                capture_output=True, timeout=60)
+        return result.returncode == 0
+    except (OSError, subprocess.TimeoutExpired):
+        return False
+
+
 def scan():
     out = subprocess.run(["git", "-C", ROOT, "ls-files", "*.md"],
                          capture_output=True, text=True, timeout=60).stdout
@@ -70,6 +125,8 @@ def scan():
         except OSError:
             continue
         citing_dir = os.path.dirname(os.path.join(ROOT, rel))
+        source_commit = None
+        source_checked = False
         for m in PATH_RE.finditer(text):
             target = m.group(1)
             total += 1
@@ -79,6 +136,11 @@ def scan():
             if os.path.exists(os.path.join(ROOT, target)) or \
                os.path.exists(os.path.join(citing_dir, target)):
                 continue
+            if not source_checked:
+                source_commit = pinned_source_reference(rel)
+                source_checked = True
+            if source_commit and source_target_exists(source_commit, target):
+                continue
             unexplained.append((rel, target))
     return total, unexplained
 
@@ -87,7 +149,7 @@ def main():
     total, bad = scan()
     print(f"backticked repo-path citations checked: {total}")
     if not bad:
-        print("all resolve (repo-root or citing-file-relative)")
+        print("all resolve (repo-root, citing-file-relative, or verified source commit)")
         return 0
     print(f"UNRESOLVED: {len(bad)}")
     for rel, target in sorted(set(bad)):

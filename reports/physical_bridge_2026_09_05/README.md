@@ -1,5 +1,12 @@
 # Physical bridge audit — 2026-09-05
 
+October14 typed incoming field/portal join:27/23 exact and145 live
+PASS80.92s,18pins/tree unchanged at published e0f51c494. W75 U2-U4
+ordinary positive reproduced; spin q(S) not automatically ordinary
+Phi(K). Actual quartic/induced cubic retained, no programme/portal kill.
+NEXT earned field/domain/normalization/stationary join and full based
+geometric admission. Report spinor_uniformization_joint_2026_10_14/FINDINGS.md.
+
 October14 full based gauge completion:93/31 exact,84 selected live
 PASS at published4867c6c89,30 pins/tree unchanged. Actual full based
 relations/Q8 retained; complete parallel gauge15, specified weak/Y

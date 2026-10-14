@@ -1,5 +1,15 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October14 same-parent field joint:27/23 exact and145 live PASS80.92s
+at published e0f51c494,18pins/tree unchanged. W75 ordinary U2-U4 replay
+positive; old q,r are spin-valued, not automatically ordinary K Higgs.
+Direct conversion fails same-connection equation; actual quartic and
+background-induced cubic retained. Continuous SU2 includes two odd
+quartets despite56 Q8 doublets; no new family count. NEXT actual field/
+defect/kinetic map and stationary normalized vertex, plus full surface
+geometric/domain/R/reality and weak-completion census. SM+gravity ACTIVE.
+Report: reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/FINDINGS.md.
+
 October14 full based gauge checkpoint:93/31 exact and84 selected
 live PASS at published4867c6c89;30 pins/tree unchanged. Supplied
 non-scalar SU6/weak completion satisfies FULL SAut(F2) presentation

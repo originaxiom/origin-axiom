@@ -1,0 +1,90 @@
+{
+  "role": "Local first outcomes and quiescent diagnostics, final publication pending approval service recovery",
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/final_tests/RECEIPT.json",
+      "sha256": "4b90782c427a67de138b63bc9138f9e147e3398e4e4753b8738f9736d7b26235",
+      "bytes": 1553
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/final_tests/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/final_tests/stdout.log",
+      "sha256": "e50b2258118a6672850cefc855c665791dc4de8d1be66b38aa6d2085c5f524f0",
+      "bytes": 272
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/first_science/RECEIPT.json",
+      "sha256": "49b708df84f6c46bea296c5a482582876dd8f2b7c8e60bfabff210eb147c7618",
+      "bytes": 6808
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/first_science/probe.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/first_science/probe.stdout.log",
+      "sha256": "bdef9703f234cab7f73f0241e8960e227822541feab0fc7f1ecf101bd0c65b62",
+      "bytes": 2314
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/first_science/reference.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/first_science/reference.stdout.log",
+      "sha256": "a81bd5386a6c08679e5351ac071944645fb4509d7abe6c2d5b20546302af67d8",
+      "bytes": 1969
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/governance/RECEIPT.json",
+      "sha256": "e50b20d8648d6b7b69e821faee280965d5ad9b29e6850d9fa00cc4e263cb8d5e",
+      "bytes": 561
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/governance/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/governance/stdout.log",
+      "sha256": "65387799c0ae08acb3efde7872d984073d57fe3084b94db71ef34ced25d2c0ac",
+      "bytes": 3246
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/governance_final/RECEIPT.json",
+      "sha256": "8143f2f205664e76fd85f58c804f80b4535e9c1b3aa805c91e1eb54bf7be69da",
+      "bytes": 672
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/governance_final/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/governance_final/stdout.log",
+      "sha256": "66bd63a9e38c1da01770c4ebb736be8a6b77ecbf2182b17ff1973675aa1c2449",
+      "bytes": 2539
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/selected_tests/RECEIPT.json",
+      "sha256": "c673b90936739845a0ad9d168421403ce33b49674822c3b0e13421d63ef6c12f",
+      "bytes": 1502
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/selected_tests/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/results/selected_tests/stdout.log",
+      "sha256": "51b8232f64021ed3fec7fd4c5ac62e0984bc5064aa6eaefcb95b0aab0e0fd726",
+      "bytes": 271
+    }
+  ]
+}

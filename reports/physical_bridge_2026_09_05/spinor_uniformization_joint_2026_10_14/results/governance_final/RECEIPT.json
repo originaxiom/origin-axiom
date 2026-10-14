@@ -1,0 +1,18 @@
+{
+  "exit_code": 1,
+  "elapsed_seconds": 23.497644000002765,
+  "tracked_files": 12661,
+  "tracked_unchanged": true,
+  "index_unchanged": true,
+  "fingerprint_before": "bafdd3f44eab654f51f307662f67ebcb3074a6d11b091fefaab5561a171b26d1",
+  "fingerprint_after": "bafdd3f44eab654f51f307662f67ebcb3074a6d11b091fefaab5561a171b26d1",
+  "scope": "Working-tree gates with stable but partially staged index; not final committed-tree certificate",
+  "stdout": {
+    "bytes": 2539,
+    "sha256": "66bd63a9e38c1da01770c4ebb736be8a6b77ecbf2182b17ff1973675aa1c2449"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

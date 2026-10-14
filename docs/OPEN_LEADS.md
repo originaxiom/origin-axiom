@@ -1,5 +1,20 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-SPINOR-ORDINARY-HIGGS-PHYSICAL-JOINT: sharpened October14 by
+27/23 exact and145 live PASS at published e0f51c494,18pins/tree unchanged.
+Old condensate really on hyperbolic punctured elliptic fibre; attempted
+geographical negative rejected. W75 U2/U3/U4 ordinary math replayed,
+but direct q(S)-Phi(K) equality fails original equations/connections.
+Natural bracket[q,r] exists but F-flat zero in THIS parent; composites,
+defect residues, extra spin sections and changed derived maps stay live.
+PB-SAME-PARENT-FLAVON-CONDENSATE-VERTEX: OPEN, define actual Phi type/
+kinetic/gauge/R/domain first, then stationary normalized overlap. Existing
+quartic and induced cubic POSITIVES verified, not an interaction kill.
+Continuous SU2 includes odd quartets despite Q8 doublet restriction;
+no generation count or complete physics follows. Full surface geometric
+admission and all commuting weak completions remain queued, not selected.
+Source spinor_uniformization_joint_2026_10_14 under physical-bridge reports.
+
 PB-SURFACE-FULL-BASED-GAUGE-COMPLETION: COMPLETE for one SUPPLIED
 lift October14, not global physical admission.93/31 exact,84 selected
 live PASS at published4867c6c89,30pins/tree unchanged. Full based
