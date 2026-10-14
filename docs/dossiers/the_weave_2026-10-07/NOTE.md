@@ -199,6 +199,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   B1224's bit survives as the reality of mirror-paired weave sums. At weight zero the field at a genuine cusp is the
   uniformization in the log frame, with pointwise size 1/(2R) and no free number; the record's κ = −2 is the frame's
   −1 on its unipotent monodromy. A hierarchy would be a depth (a warp factor e^{−d}), and nothing forces one.
+- W76 (the weave's β-odd bit; rule first; all four cells as predicted): every mirror-symmetric thread to length 16
+  (248 of 8 798) has Chern–Simons exactly 0, never π²/2. So wherever the weave carries B1224's bit, the bit is 0. With
+  W74's arg det M = 0, θ̄ = 0 given L192's dictionary; δ_CKM (1.14 rad) is not a bit and must come from the sector
+  split. The count after the field, by kind, is a reading beside it: still 0 of 19, with θ̄ the nearest.
 
 ## The setting
 
@@ -6249,6 +6253,75 @@ every thread under a stated rule, and its claim (the mirror pairs) is about all 
 verification of chat1's sealed census. U2 to U4 are fibre-level: the shared fibre's end, the same on every thread,
 not a quantity of the joint action. 0 of 19.
 
+## W76. The weave's β-odd bit: every mirror-symmetric thread to length 16 has Chern–Simons exactly 0, so wherever the weave carries B1224's bit, the bit is 0 (`the_weaves_bit.py`; `W76_RULE.md`)
+
+**Why.**
+- **The owner's order is "we look what fixes τ then we count free numbers".** The SM specification ledger types the
+  β-odd numbers (θ_QCD, δ_CKM, δ_PMNS) as box D. B1224 proved them a bit on m004, and the ledger registers the bit
+  reading as L192, never tested.
+- **W75 carried the bit to the weave,** as the reality of mirror-paired sums. A 2-torsion CS is 0 or π²/2. W75's
+  read-out found 0 on all 55 mirror-symmetric threads to length 12, while B1224's census had π²/2 on half its
+  amphichiral manifolds.
+
+**The order.**
+- **The rule first** (`W76_RULE.md`, 64a460512; one line rewrapped before any code, c77645d54).
+- **The script** (08572e315), committed before its run.
+- **The run.** One run, 13.7 s; its output committed before the read-out (ead34fd17).
+
+**The read-out (COMPUTED; all four cells as predicted).**
+- **B0, the instrument.** 8 798 threads (every Lyndon word of length 2 to 16), all geometric, no exception. b++LR has
+  |CS| = 3 × 10⁻¹⁵.
+- **B1, the 2-torsion (control).** 248 threads are mirror-symmetric, and every one has 2CS ≡ 0.
+- **B2, the bit.** All 248 have CS = 0. None has π²/2. The largest |CS| among them is 6 × 10⁻¹⁴.
+- **B3, no stray torsion.** No thread that is not mirror-symmetric has 2CS ≡ 0, nor |CS| < 10⁻⁶.
+
+**The read-outs (no prior).**
+- Mirror-symmetric threads occur only at even length: 1, 1, 3, 6, 15, 29, 65 and 128 at lengths 2 to 16.
+- By kind: 210 have swap(W) equal to a rotation of W reversed, 12 a rotation of W itself, and 26 both.
+
+**What it shows (a READING).**
+- **Wherever the weave carries a β-odd bit, the bit is 0.** The weave's own mirror-symmetric threads never carry
+  π²/2, to length 16. This is a census, not a proof; the seat found no proof by hand.
+- **For θ̄ (I-18), not earned.** In the surface frame with one coupling, arg det M = 0 (W74). If θ is read as the
+  weave's bit (L192's dictionary), θ̄ = 0, which the data allow. Two things are still owed:
+  - that dictionary (B813 refuted the value dictionary; the bit dictionary is untested);
+  - a sector split (main's P-128) that gives J ≠ 0 and keeps arg det(M_u M_d) = 0.
+- **For δ_CKM, the bit reading fails the data.** δ_CKM is about 1.14 rad, neither 0 nor π. The CKM phase is not a bit
+  of the weave, and must come from what splits the sectors (W74).
+- **So the strong-CP problem, in this frame, is one test.** Does the split that gives J leave arg det(M_u M_d) at 0?
+  That is a cell for main's P-128 seal.
+
+**Status.** COMPUTED (the rule first; one run; all four cells as predicted). A weave census of thread quantities: every
+thread under a stated rule, with a claim about all mirror-symmetric threads at once; not a joint-action quantity.
+0 of 19.
+
+## Reading: the count after the field, by kind (READING; nothing computed; 2026-10-14, after W76)
+
+**Why.** The owner's order: "we look what fixes τ then we count free numbers". The field now has its existence (given
+Λ), its charge (W70), its coupling's shape (W72), its CP (W74) and its size (W75). This reading counts the Standard
+Model's nineteen numbers again, by the kinds of the SM specification ledger (B1226), against what the weave's frames
+now say. The arcs cited win where this summary disagrees.
+
+| kind (B1226) | numbers | what the weave's frames say now | status |
+|---|---|---|---|
+| A, mixing angles | 3 CKM angles | One coupling for every sector gives V = 1 (B1649 on one fibre; W73). The CKM needs a four-dimensional family in every frame (W44). | free; the sector split is owed (P-128) |
+| B, gauge couplings | g₁, g₂, g₃ | Scale-anchored, the reader's (B811). W70's admissible hypercharge has k_Y = 14/3, never reached above M_Z (post hoc, context). | free |
+| C, charged-fermion masses | 9 | The ratios: parameter-free in the surface frame (W72, rank 3) but not normalisable; one set under H-end (post hoc) fails the data (W73); the τ frames fail (W53, W66). The scales are the reader's. | free |
+| C, the Higgs's vacuum value | v | In the uniformization reading the condensate's size is the fibre's unit (W75): the reader's unit, no new number. The hierarchy would be a depth, not forced. | the unit |
+| C, the Higgs's mass | m_H (the quartic) | Not computed. The quartic needs the weave's action (§92's ask to the audit lane). | free |
+| D, the strong phase | θ̄ | The weave's bit is 0 wherever it is carried (W76), and arg det M = 0 with one coupling (W74). | 0, given L192's dictionary and a split that keeps arg det M = 0; not earned |
+| D, the CKM phase | δ_CKM | The weave gives only a bit, and the data's 1.14 rad is not one. It must come from the split, which must break CP (W74). | free |
+
+**What it says.**
+- **Still 0 of 19.** No number is earned.
+- **The nearest is θ̄.** It needs two owed things and no free input: L192's dictionary, and a sector split that keeps
+  arg det(M_u M_d) at 0 while giving J ≠ 0. Main's P-128 seal can test the second directly.
+- **One number has become the unit.** v's size is the fibre's own, if the uniformization reading holds. That moves it
+  from "unsourced" to the reader's unit, which is the box the ledger already gave it. It does not count as derived.
+- **Everything else waits on one input: what splits the sectors.** With one coupling the frame is rigid, with no free
+  number, and it fails the data (V = 1, J = 0, one mass pattern). The split is where the mixing, the CKM phase and
+  the three mass patterns must come from, and main has sealed none of it yet. That is why the blind test matters.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6436,6 +6509,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W73 | COMPUTED (the rule first; one run; all four cells as predicted); post hoc in its choice of H-end; a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, H-surf and H-end | the masses under the end's normalisation: 1 : 0.0194 : 0.00039, parameter-free; with one coupling W66's predicate fails (χ² 379; z_up 16, z_lepton −11) and the CKM matrix is 1; z_down = 0.26, not significant (p = 0.058); the lightest generation is the v₊ mode, where R's unit sits. 0 of 19 |
 | W74 | COMPUTED (the rule first; one run; all three cells as predicted; exact where stated); a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf | the surface frame's CP: the orientation reversal with C = diag(1, 1, −1) fixes every section, so the Yukawas are real; with one coupling arg det(M_u M_d) = 0 and θ̄ = θ (I-18's Yukawa half paid here, its dictionary half standing); J = 0, so what splits the sectors must break CP. 0 of 19 |
 | W75 | COMPUTED (the rule first; one run; all four cells as predicted; exact where stated); U1 a weave-type census verifying chat1's, U2 to U4 fibre-level, under H-RES and §91's reading | chat1's scale check on this seat's instruments: b++swap(W) ≅ b++W with CS(swap W) = −CS(W) on all 745 threads (690 with CS ≠ 0), so B1012's k-blindness is m004's and B1224's bit survives as the reality of mirror-paired weave sums; the local model is u″ + e^{−2u} = 0, unique at weight zero up to a rescaling of z that the cusp fixes; the uniformizing bundle is the model in the log frame (c = 1), with unipotent monodromy, so κ = −2 is the frame's −1; the field's pointwise size is 1/(2R), and the residue's norm is the horocycle's length over 4π. 0 of 19 |
+| W76 | COMPUTED (the rule first; one run; all four cells as predicted); a weave census of thread quantities under a stated rule | the weave's β-odd bit: 8 798 threads to length 16, all geometric; the 248 mirror-symmetric threads (even lengths only) all have CS = 0 (largest 6 × 10⁻¹⁴), none π²/2; no other thread has 2CS ≡ 0. Wherever the weave carries B1224's bit, it is 0; θ̄ = 0 given L192's dictionary and a split that keeps arg det M = 0; δ_CKM is not a bit. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -6501,6 +6575,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W73_RULE.md`: the rule, committed before the code; `the_end_normalisation.py` → `the_end_normalisation.json`: W73, the masses under the end's normalisation (H-end, post hoc), the data comparison and the look-elsewhere figure.
 - `W74_RULE.md`: the rule, committed before the code; `the_surface_cp.py` → `the_surface_cp.json`: W74, the surface frame's CP (the involution's identities, the reality of W72's data, arg det and J).
 - `W75_RULE.md`: the rule, committed before the code; `the_puncture_scale.py` → `the_puncture_scale.json`: W75, chat1's scale check on this seat's instruments (the mirror pairs on 745 threads, the local model by the ODE, the uniformization in the log frame and its monodromy, the field's size).
+- `W76_RULE.md`: the rule, committed before the code; `the_weaves_bit.py` → `the_weaves_bit.json`: W76, the weave's β-odd bit (Chern–Simons on all 8 798 threads to length 16, and the bit on the 248 mirror-symmetric ones).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

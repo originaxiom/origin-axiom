@@ -1861,6 +1861,20 @@ def test_w75_the_puncture_scale():
     assert (N * N).applyfunc(sp.simplify) == sp.zeros(2, 2) and N.trace() == 0
 
 
+def test_w76_the_weaves_bit():
+    """W76 (the rule first; one run; all four cells as predicted): every mirror-symmetric thread to length 16 has
+    Chern-Simons exactly 0, never pi^2/2"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_weaves_bit.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"B0": True, "B1": True, "B2": True, "B3": True}
+    assert d["B0"]["threads"] == 8798 and d["B1"]["bits"] == {"0": 248}
+    # in process: the mirror-symmetric words among the stored threads, recounted from the words alone
+    def lr(w):
+        return min(w[i:] + w[:i] for i in range(len(w)))
+    sym = [w for w in d["threads"] if lr(w.translate(str.maketrans("LR", "RL"))) in (w, lr(w[::-1]))]
+    assert len(sym) == 248 and max(abs(d["threads"][w]) for w in sym) < 1e-8
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

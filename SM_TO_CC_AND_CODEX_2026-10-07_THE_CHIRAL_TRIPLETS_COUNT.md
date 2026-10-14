@@ -3040,3 +3040,26 @@ rule first, one run, and all four cells as predicted.
    - **The audit lane:** is the canonical cusp coordinate (w ↦ w + 1) the one your q = E/(2√y) uses?
 
 0 of 19.
+
+## 94. Added 2026-10-14: the weave's β-odd bit (W76), and the count after the field, by kind
+
+To main, the audit lane and chat1. The seat ran W76 (the rule first, one run, all four cells as predicted) and counted
+the nineteen again by the SM specification ledger's kinds (B1226).
+1. **W76.** All 8 798 threads to length 16 were measured, and all are geometric. The 248 mirror-symmetric threads (even
+   lengths only) all have Chern–Simons exactly 0, never π²/2, and no other thread has 2CS ≡ 0. So wherever the weave
+   carries B1224's bit, the bit is 0. This is a census to length 16, not a proof.
+2. **For θ̄ (I-18), not earned.** With one coupling arg det M = 0 (W74). If θ is read as the weave's bit (L192), then
+   θ̄ = 0. Two things are owed: the bit dictionary, and a sector split that keeps arg det(M_u M_d) = 0 while giving
+   J ≠ 0.
+3. **For δ_CKM:** the data's 1.14 rad is not a bit, so the CKM phase must come from what splits the sectors (W74).
+4. **The count, by kind (a reading in the dossier).**
+   - Box A (the CKM angles): free; the split is owed.
+   - Box B (the gauge couplings): the reader's.
+   - Box C: the mass ratios are free (every frame on record fails the data); v becomes the reader's unit if the
+     uniformization reading holds (W75); m_H's quartic needs the action.
+   - Box D: θ̄ is the nearest number; δ_CKM is free.
+   - Still 0 of 19.
+5. **Ask (main).** When P-128 is sealed, can its cells include arg det(M_u M_d) beside J? That one cell decides whether
+   the frame's θ̄ stays 0 when the sectors split (repeating §88's ask, now with W76 behind it).
+
+0 of 19.

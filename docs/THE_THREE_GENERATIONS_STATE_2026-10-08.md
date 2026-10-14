@@ -517,6 +517,13 @@ Under the owner's rulings, the table's rows split into two groups:
   - At weight zero the field at a genuine cusp is the uniformization, with pointwise size 1/(2R): no free number. The
     record's κ = −2 is the half-canonical frame's −1 on its unipotent monodromy.
   - A hierarchy would be a depth, a warp factor e^{−d} with d ≈ 37 to 38, and nothing on record forces one. 0 of 19.
+- **W76, the weave's β-odd bit (rule first; all four cells as predicted):**
+  - Every mirror-symmetric thread to length 16 (248 of 8 798) has Chern–Simons exactly 0, never π²/2. So wherever the
+    weave carries B1224's bit, the bit is 0.
+  - With W74's arg det M = 0, θ̄ = 0 given L192's dictionary and a sector split that keeps arg det M = 0. δ_CKM is not
+    a bit and must come from the split.
+- **The count after the field, by kind (READING):** still 0 of 19. θ̄ is the nearest number (two owed items, no free
+  input). v becomes the reader's unit in the uniformization reading. Everything else waits on what splits the sectors.
 
 ## Questions open with main
 
@@ -534,7 +541,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W75 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W76 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§93).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§94).

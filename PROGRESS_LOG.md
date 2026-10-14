@@ -18938,3 +18938,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The hierarchy.** A large ratio between the weak scale and gravity's scale would need the field to sit deep in the
   edge's throat, about 37 to 38 units of depth, as in the Randall–Sundrum picture. Nothing on record forces that
   depth. 0 of 19.
+
+## 2026-10-14 — the strong phase's bit, and the count by kind
+
+- **The test.** Threads that are their own mirror image can only carry a Chern–Simons number of 0 or one fixed half
+  value. The seat measured all 8 798 threads up to length 16. Every one of the 248 mirror-symmetric threads has 0,
+  never the half value. So wherever the weave carries this yes/no bit, the answer is "0".
+- **What it means for the strong phase.** In the surface frame the mass matrices add no phase (W74). If the strong
+  phase is read as this bit, it comes out 0, as the data say. That reading is not yet earned, and the split between
+  the quark sectors must keep the mass phase at 0.
+- **The CKM phase cannot be a bit,** because its measured value (about 65 degrees) is neither 0 nor 180. It has to
+  come from what splits the sectors.
+- **The count, by kind:** still 0 of 19. The strong phase is the closest. The Higgs's vacuum value becomes the unit.
+  Everything else waits on how the sectors split, which main has not sealed yet.

@@ -1,5 +1,18 @@
 # Changelog
 
+## The weave's W76: the β-odd bit is 0 on every mirror-symmetric thread; the count after the field, by kind; relay section 94
+
+- **W76** (the rule first, one run, all four cells as predicted). All 8 798 threads to length 16 were measured. The 248
+  mirror-symmetric ones all have Chern–Simons exactly 0, never π²/2, and no other thread has 2-torsion CS. So
+  wherever the weave carries B1224's bit, the bit is 0 (a census, not a proof).
+- **θ̄ becomes the nearest number.** With W74's arg det M = 0, θ̄ = 0 given L192's bit dictionary and a sector split
+  that keeps arg det(M_u M_d) = 0. δ_CKM (1.14 rad) is not a bit and must come from the split.
+- **The count after the field, by kind** (a reading): still 0 of 19. v becomes the reader's unit in the uniformization
+  reading, and everything else waits on what splits the sectors.
+- **Surfaces.** The rule (with one disclosed rewrap before any code), the script and its output; the dossier (section,
+  reading, header bullet, table row, files), the state page (W76, the count, ranges W1–W76 and §1–§94), the relay §94,
+  the ledger (the relay's row through §94) and the test. 0 of 19.
+
 ## The weave's W75: chat1's scale check on this seat's instruments, and the field's size at the puncture; relay section 93
 
 - **chat1's sealed check of the scale was read and rowed** (`chat1/web-seat` @ 4636b0fa4 → 28bb46c83). Every cell held
