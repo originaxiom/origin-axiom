@@ -1,0 +1,8 @@
+{
+ "lane": "web-seat",
+ "commit": "047b8f7a4",
+ "script": "t_root.py (sealed 13d31f042, committed fc82fe02a before its one run)",
+ "run_1": "crashed: a transient exception in SnapPy's solution_type() for LLLRLRRRLRLRLLRLLR (fine in isolation: volume 15.7132169306, all tetrahedra positively oriented) left the thread in vols but not in sols, and line 73 raised KeyError; no output written",
+ "run_2": "completed (rc 0, about 110 s): every cell true as committed (Q0, Q1, T1-T8); failures empty; 31040 threads, volumes and CS equal to the committed ones to 1.1e-13; t_root.json differs only in the order of exact mirror-pair ties in a read-out (LLR and LRR have identical volume), zero-CS noise and the timing field",
+ "main_recheck": "main_troot_recheck.py: a 60-thread SnapPy spot check of the committed volumes (5e-14) and CS (6e-14); root share at c = 6 under the three word weights 0.2737, 0.5019, 0.6601; chiral share (A) 0.659; N_eff (A) 32.4"
+}

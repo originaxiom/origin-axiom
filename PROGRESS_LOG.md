@@ -17069,3 +17069,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - The owner agreed the order: B1651 (where a Higgs can couple), then the frame tribunal before any further
   number-chasing. 0 of 19.
 - Gates 45 of 45; full suite 7310 passed, 0 failed, 68 skipped.
+
+## 2026-10-14 — S125 WHERE A HIGGS CAN COUPLE
+
+- B1651 PROVED: the puncture is not forced; every point coupling is isotropic; the moves carry the triplet exactly; only
+  the half-periods' triplets are τ-independent. GENESIS v1.45 (FK15, the field's genesis; FK9 named).
+- B1637's fits near the cusp most likely artifacts of main's evaluator (the SM seat's W78 and W79, confirmed on main;
+  corrections to W53 and W54 withdrawn; P-144). The root-share check verified (B1650's addendum). Three lanes harvested; the
+  audit lane's gauge completion verified. The frame tribunal sent to the seats for attack. 0 of 19.
+- Gates 45 of 45; full suite 7313 passed, 1 failed, 68 skipped (the slice-D harvest test; rowed), then the 87 affected test files re-run on the final tree: 439 passed, 0 failed, 6 skipped.

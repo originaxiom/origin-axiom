@@ -463,3 +463,23 @@ found with B1635's sealed instrument.
   sector at weight 5 or 7.
 - **Against W54:** the exact fits agree. Main refutes one sentence: (5, 7, 3), with the leptons at the geometry's
   weight, fits at χ² 1.86 near Im τ 6.8. Both searches are local; the union of their minima is the record's best.
+  **[Withdrawn 2026-10-14, the SM seat's W78 and W79, confirmed on main]** That refutation, and the masses-only 20.6,
+  are most likely numerical artifacts: B1635's forms lose precision like |η|⁻¹⁸ near the cusp (good to ~10⁻³ at Im τ 6.8).
+  W54's sentence and W53's 163 stand; the headline holds (25 parameters in the reliable region); re-run owed (P-144).
+
+## Main's addition: where a Higgs can couple (B1651, PROVED) — Step 4 answered: the puncture is not forced
+
+- **No flat or harmonic Higgs couples the zero modes in the bulk.** Every non-zero pairing carries a non-trivial
+  2-torsion character, and such line bundles have no cohomology on the torus.
+- **Every point coupling is isotropic.** By a theta identity the pairing triplet v(z) satisfies v·v = 0 at every point.
+  So at one τ a single-point Higgs anywhere leaves one generation massless: B1649's zero belongs to a single point, not
+  to the puncture.
+- **The moves carry the triplet exactly** (L as Ad(g_L)⁻¹, R as Ad(g_R), no Klein element, to 2·10⁻¹⁶ at all four fixed
+  points). Only the half-periods' triplets, (0, −1, i), (i, 0, 1) and (i, −1, 0), are independent of τ.
+- **So the Higgs's locus is a choice.** Under the stated premise of an even, single-point Higgs, the covariant loci are
+  the puncture, the half-period orbit, or both. P-129's first premise is a choice.
+- **No constant direction in M is covariant.** Modulo the Klein group only the real democratic class is, so a covariant
+  constant direction gives no hierarchy.
+- **Next (owed to the frame tribunal, P-136):** the half-period orbit's mass structure. Three τ-independent null vectors
+  generically give all three generations mass, with numbers fixed by geometry if covariance and the characters fix the
+  directions and signs. Corrected twice before the seal, both disclosed.

@@ -11827,7 +11827,9 @@
     "figure_eight",
     "trace_map",
     "kappa",
+    "eisenstein",
     "golden",
+    "z3_generation",
     "amphichiral_cp",
     "torsion"
    ],
@@ -11836,7 +11838,27 @@
     "S124"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1651": {
+   "slug": "where a higgs can couple",
+   "motifs": [
+    "choice",
+    "coupling",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B343",
+    "B353",
+    "P1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
    "status": "banked",
    "domain": "arithmetic"
   },

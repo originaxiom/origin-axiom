@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1379** |
-| words of findings prose | **1,081,526** |
-| test lock files referenced | **811** |
-| arcs carrying an authored verdict | **1379** (100.0 %) |
+| research arcs with findings | **1380** |
+| words of findings prose | **1,083,192** |
+| test lock files referenced | **812** |
+| arcs carrying an authored verdict | **1380** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 933 |
+| PROVED | 934 |
 | NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1650`** (1125 words, 0 locks)  
-CHAT1'S FIELD AND SCALE NOTES VERIFIED ON MAIN (a verification arc): reproduced in a clean checkout at 4636b0fa4 (the condensate test and the uniqueness checks byte-identical, the rest to roundoff); recomputed on main's own code -- O6, the zero modes' bilinear is the only Higgs field at the puncture nilpotent everywhere (sum_r R_r^2 wp(z_r) = 0 to 2e-31 at four tau, the other pairings O(1), chat1's tau = i exception reproduced), C5b, the cone's rank-one coupling Y(a) = (R x a)(R x a)^T/(a.R) (4e-15), and the parity step (M even under the puncture's -1); not verified on main: O3 (Simpson's table, from memory; conditional on H-RES) and the condensate's E8 embedding beyond its own code. The scale (the owner's 'fetch chat1s scale and verify it'): every one of its eleven sealed cells reproduced (745 threads; CS = 0 on exactly the 55 swap-symmetric, non-zero on 690), and on main's code CS(LLR) = -pi^2/24 exactly, mirror pairs equal volume and opposite CS on a 40-thread sample, vol(L^25 R^25) = 7.2651 < 2 v8, and the cusp model metric solving Hitchin's equation; its readings (L154 on the weave, B1228's pin, the c = 6 tension, two wording repairs) rowed for main's decision. 0 of 19.  
-`B1650_chat1s_field_and_scale_notes_verified/FINDINGS.md`
+**PROVED — `B1651`** (1666 words, 1 locks)  
+WHERE A HIGGS CAN COUPLE THE ZERO MODES (sealed 6d6f7f660; PROVED -- every cell holds as sealed): no flat or harmonic Higgs couples the fibre's zero modes in the bulk (every non-zero pairing carries a non-trivial 2-torsion character, U2 to 5e-30); the pairing triplet v(z) = c_r th_r(0) th_r(z)/th_1(z) is isotropic at EVERY point (a theta identity, U3a to 7e-31), so at one tau a Higgs at any single point leaves one generation massless -- B1649's zero is a property of a single point, not of the puncture; the moves carry the triplet exactly at every point (U4: L, tau -> tau + 1, as Ad(g_L)^-1 and R, tau -> tau/(tau + 1), as Ad(g_R), with no Klein element, to 2e-16 at all four fixed points; a swapped-matrix control fails, 0.9976), and only the half-periods' triplets (0, -1, i), (i, 0, 1), (i, -1, 0) are independent of tau (U3b, with the puncture and generic points as controls); the lifts generate O, irreducible on M, and modulo the Klein group only the four real body diagonals are covariant (U5), so a covariant constant Higgs direction gives no hierarchy (B1646). Step 4 answered: under premise P1 (an even, single-point Higgs; tested by no cell) the covariant loci among the fixed points are the puncture, the half-period orbit, or both (surface frame), any of them at one tau -- the puncture is not forced, and P-129's first premise is a choice. Owed: the half-period orbit's mass structure (tau-independent triplets; to the frame tribunal, P-136), the legality of half-period fields (W60, P-108), the parabolic bulk statement, the odd Higgs's pair couplings. Corrected twice before the seal, both disclosed. 0 of 19.  
+`B1651_where_a_higgs_can_couple/FINDINGS.md`
 
 **NEGATIVE — `B1644`** (998 words, 1 locks)  
 A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed.  [Scoped by frame at S124 (2026-10-14): a result in Lambda's frame, the fibre at one tau. In the audit lane's E8 embedding the Higgs in M is a Standard Model singlet, a flavon (the web seat's condensate test, its parity step verified in B1650; the audit lane's field map), so its reading as the electroweak Higgs needs the parent map (P-108).] 0 of 19.  

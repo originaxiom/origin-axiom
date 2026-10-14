@@ -1,5 +1,51 @@
 # Changelog
 
+## S125 WHERE A HIGGS CAN COUPLE (B1651, PROVED; GENESIS v1.45): the puncture is not forced; B1637 scoped by the SM seat's W78; three lanes harvested; the frame tribunal sent for attack
+
+At the owner's order of 2026-10-14 (P-136: B1651, then the frame tribunal) and its words "think properly, stop and
+contemplate when needed, do nothing rushed".
+- **B1651 (PROVED; sealed `6d6f7f660`, every cell as sealed).**
+  - No flat or harmonic Higgs couples the fibre's zero modes in the bulk.
+  - The pairing triplet is isotropic at every point (a theta identity), so at one τ a single-point Higgs anywhere leaves
+    one generation massless: B1649's zero belongs to a single point, not to the puncture.
+  - The moves carry the triplet exactly (L as Ad(g_L)⁻¹, R as Ad(g_R), no Klein element, to 2·10⁻¹⁶ at all four fixed
+    points; a swapped-matrix control fails), and only the half-periods' triplets are independent of τ.
+  - The lifts' group is O, irreducible on M; modulo the Klein group only the four real body diagonals are shared.
+  - **Step 4 answered: the puncture is not forced** (under the stated premise of an even, single-point Higgs; tested by
+    no cell). P-129's first premise is a choice. The half-period orbit's mass structure is owed to the tribunal (P-142).
+  - **Corrected twice before the seal**, both disclosed: main's own line-by-line review found an instrument defect (a
+    shared line inside a degenerate eigenspace could have been missed) and two false claims; a read-only reviewing agent
+    found that the localisation was a premise, that the covariant subsets are three, that the isotropy cell could not
+    fail (E82), and several tolerance and read-out defects.
+- **GENESIS v1.45.** The field's genesis as fork FK15 (the day's three passages; the "which" half banked by B1651); FK9,
+  selection, named as the missing ingredient (P-139).
+- **B1637 corrected by the SM seat's W78 and W79, confirmed on main.** B1635's forms divide by η¹⁸, and their
+  double-precision cusp residues grow like ∣η∣⁻¹⁸ (main measures slopes 2.05–2.10 per unit Im τ against 2.047). So the
+  forms are good only to about 10⁻³ near Im τ 6.8.
+  - B1637's fits near Im τ 6.6–7.1 ((5, 7, 3) at 1.86, (3, 7, 7) at 6.72, the up sector at 6.66, the nine masses at
+    20.6) are most likely numerical artifacts. Its corrections to W53's 163 and W54's weight-3 sentence are withdrawn,
+    and F2's grade is suspended.
+  - The exact fits near Im τ 2.6–3.5 and the headline stand (25 parameters in the reliable region; all 13 free).
+  - B1637's addendum; a re-run with an accurate evaluator is owed (P-144). Main's first two checks were blind to the
+    defect (one re-evaluated the same coefficients; one perturbation rounded to nothing), which is disclosed.
+- **B1650's addendum:** chat1's root-share check reproduced (after a transient SnapPy crash, reported) and recomputed on
+  main (root shares 0.2737, 0.5019, 0.6601 at c = 6).
+- **Harvest.** The web seat to `67821b8e`, the SM seat to `ed744f11` (through W82 and relay §101, the tribunal attacked),
+  the audit lane to `e0f51c49`; rows 1139–1159.
+  - The audit lane's full based E₈ gauge completion is verified: reproduced byte-identically from a clean archive, and the
+    count 15 = 0 + 8 + 1 + 6 checked by hand. Its D1 is earned; the weak roots and Y are lost on that background (P-140).
+  - Four relays rowed.
+- **The relay** `CC_TO_ALL_SEATS_2026-10-14_THE_TRIBUNAL_FOR_ATTACK.md`, which the owner passed to the seats before it
+  landed. It carries the frame tribunal's table and draft verdict for attack, lemma A (wherever the moves act, the
+  generations are alike) and a candidate frame F4 (the Standard Model in E₆, the weave's SU(2) in E₆'s commutant;
+  firewalled, P-141; **withdrawn in the addendum**: the record already refutes it, since 27 ⊗ (2 ⊕ 1) gives one 27
+  (W22, W23, B1440, sm:B1270), and it fails D4 on E₆'s down–lepton tie (§101)), the answers to the SM seat, the selection principle's specification for chat1 (the owner assigned
+  it to chat1), and an addendum after sending.
+- **Register.** P-131 done; P-139–P-147; the floor 147. P-147 is the owner's ruling on the D1 criterion ("agreed": a
+  vacuum-broken symmetry counts, with the SM seat's two conditions). P-067: Codeberg rejects pushes with "Quota exceeded".
+- 0 of 19.
+Gates 45 of 45 on the final tree. Full suite: 7313 passed, 1 failed, 68 skipped (1:45:01) -- the slice-D harvest test: moving the SM seat's pin past its sm:B1548 seal left that item, and chat1's two relays, without a row; rowed (1160; the relay names in rows 1142-1143). Texts corrected during the run (B1637's addendum and notes after the SM seat's W79, confirmed on main; F4 withdrawn; the owner's D1 ruling recorded). Then the 87 gate, harvest, relay, register, review, view, genesis, lane, claim, law-map and B1637-B1651 test files re-run on the final tree: 439 passed, 0 failed, 6 skipped.
+
 ## S124 THE FIELD, BY FRAME: chat1's field and scale notes verified on main (B1650); B1644–B1649 scoped by frame; three lanes harvested; the field's-genesis meditation; the frame tribunal agreed
 
 At the owner's questions of 2026-10-14 ("how can a field be forced into existence…"; "verify chat1 especially"; "fetch

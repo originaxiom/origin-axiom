@@ -565,6 +565,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1645` | PROVED | L | | THE HALF BOUND: a Higgs in M couples by Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙; the theta triplet is the massless state; real directions give m₂/m₃ ∈ [½, 1]; m vanishes exactly on the isotropic cone — the second-to-third hierarchy is the Higgs's isotropy defect |
 | `B1646` | PROVED | L | | THE DIRECTION IS THE MASS MATRIX: a Higgs in M maps its direction one-to-one onto the two massive generations' symmetric mass matrix, so the coupling predicts only the massless generation and the block's symmetry; a symmetric potential puts the direction on the isotropic cone or the real locus, never between; nothing on the record fixes it |
 | `B1649` | PROVED | L | | THE KERNEL AT THE PUNCTURE: for every Higgs at the fibre's puncture the theta triplet is a two-sided null vector of the residue coupling, so with one fibre for both quark sectors the first generation is massless and unmixed at leading order (five zeros by Jacobi), the 2–3 sector free |
+| `B1651` | PROVED | L | | WHERE A HIGGS CAN COUPLE THE ZERO MODES: no harmonic bulk Higgs; the pairing triplet is isotropic at every point, so a single-point Higgs anywhere leaves one generation massless at one τ; the moves carry the triplet exactly; only the half-periods' triplets are independent of τ; the puncture is not forced (under an even, single-point Higgs the covariant loci are the puncture, the half-period orbit, or both) |
 
 ## The exhibit that forced the rebuild
 
