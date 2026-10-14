@@ -36,12 +36,26 @@
      - The geometric character "always breathes; only the torsion points can hold still" (B479).
      - The tick has det M = −1: one tick reverses orientation, the next restores it.
    - **Hearing narrows the listener to a pair,** u₃ and u₆ (B1071), whose heard values are complex conjugates (B593).
-   - **What the record has proved.** The object never takes the last step:
-     - "the object gives the torsor, never the point" (TERMINOLOGY's gloss on B701);
-     - "no symmetry readable off the object can select within its own canonical class" (B1225);
-     - "the weave cannot sign itself" (B1614).
-   - **Tonight's CP result is one more instance.** A thread and its reversed word are one oriented manifold (B1456)
-     and carry conjugate couplings.
+   - **What the record has proved, entity by entity** (corrected at the owner's question of 23:26; the first version
+     said "the object" for all of them):
+
+     | entity | proved | not proved | arcs |
+     |---|---|---|---|
+     | **the object, m004** | It names itself: unique among the census's one-cusped manifolds by its mirror-even data. It cannot sign itself: the orientation, one odd class. No selector built from its own symmetries picks a value in its canonical menu | A selector built from data that is not object-invariant (β-odd or dimensionful), which B1225 leaves open in so many words. B1225 rests on B1168, still OPEN | B762, B1183, B1184, B1225; TERMINOLOGY's gloss on B701 ("the object gives the torsor, never the point") |
+     | **each thread** (a law over the 758 states to length 12) | No private states on any thread. Each thread is named by volume and cusp shape up to the register: a word and its reverse share one name, and every other pair is told apart. The register carries no hand | That a thread cannot be selected. Nothing on the record selects one (FK9 open), which is an absence, not a proof | the SM seat's W34; B1456 |
+     | **the weave** | It names itself: the common point, the moves' one irreducible joint fixed point. It cannot sign itself: the rule swaps the sheets, and it has two odd classes (the sheet = CP-oddness, and the McKay sign). The joint action keeps no private state. Averaged over threads it restores the full symmetry, so it reaches masses only through a choice of thread | That no weight or dynamics on the weave selects. The classical action selects the root only at large c | B1614; W34 Q2 and Q4; B1633; T-ROOT |
+     | **the field** (the Higgs, the zero modes) | At one fibre the Higgs's direction is the mass matrix. A potential symmetric under SO(3) and a phase puts it on the cone or the real locus, to quartic order | Any general no-go. B1651 predicts the locus is not forced: sealed, not yet run. B990, which main's meditation cites here, is scoped by its own quantifier to an algebra (pairs of 27s), "NOT a manifold" | B1646; B1651 (sealed); B990 |
+
+     - So the split "names itself, cannot sign itself" is proved twice, for the object and for the weave, and W34
+       carries the naming over to every thread.
+     - "Cannot select a value" is proved for the object's own symmetries only.
+     - For the choice of a thread, and for the field, the record has no impossibility theorem: only the fact that
+       nothing on it selects.
+   - **Tonight's CP result fits the thread row.**
+     - W34 found the name's one blind spot to be the register: a word and its reverse are one manifold (B1456).
+     - In the thread frame that blind spot is exactly where the couplings differ: the reversed word carries the
+       conjugate couplings.
+     - The register carries no hand (W34), but it does carry the couplings' CP sign.
    - **Feedback is subtler.** B540's flow does settle: its NEW_1 attracts the bulk of the census. But no feedback on
      the record settles on a vacuum.
 2. **The internal principles do not agree on a vacuum.** **[RECORD + POST HOC; §3]**
@@ -110,8 +124,9 @@ of length that the record has not derived, or a relation it cannot derive.
   - the swap's side;
   - tonight, the CP sign (a word against its reverse).
 
-  Each early phenomenon shows its sign as a period-2 orbit. The record has proved many times that nothing in the
-  object picks one.
+  Each early phenomenon shows its sign as a period-2 orbit. For the object and for the weave the record proves that
+  neither can sign itself (B1184, B1614). Over the threads, the register is the name's blind spot (W34). See §0.1's
+  table for the scope of each result.
 - **Magnitudes.** The hierarchy and the mixing angles. In the thread frame these are properties of the thread: its
   height, its length. Once a thread is fixed, the object speaks about magnitudes.
   - The overall scale is the exception: "the trillions are the OBSERVER'S" (B719).
@@ -405,6 +420,9 @@ An independent read-only agent checked the draft. It confirmed every number, the
   - a trivial "convergence" on LLR is dropped;
   - "three separate sectors" in §0.7;
   - "orientable states".
+- **The owner's question of 23:26** ("the object, the thread, threads or the whole weave and field?") exposed a scope
+  slip of mine, not the referee's. §0.1 had cited B1225 and B1614 together as "the object". Each result is now scoped
+  to its entity, and the SM seat's W34, which answered the same question on 2026-10-08, is credited.
 - **Minor:**
   - attributions: TERMINOLOGY for B701's gloss; THEOREM_LEDGER for C2; THE_SCALE and P-137 for e^{−0.034c};
   - u₃ and u₆ named as B1071 names them;
@@ -424,12 +442,14 @@ An independent read-only agent checked the draft. It confirmed every number, the
 - **Being and voice:** B735, B737, B857, B1103.
 - **Rhythms:** B448, B469, B470, B479, B640.
 - **Feedback, the observer and the register:**
-  - B37, B540, B556, B701, B704, B713–B719, B733, B787, B1225, B1327, B1341, B1456, B1463, B1466, B1614, B1623;
+  - B37, B540, B556, B701, B704, B713–B719, B733, B762, B787, B1183, B1184, B1225, B1327, B1341, B1456, B1463, B1466,
+    B1614, B1623;
   - GENESIS PF1, SE1, SE2, FK3, FK12;
   - THEOREM_LEDGER C2; L241; X32; THE_ROLES_ACCOUNTING.
 - **Selection:** B125, B197, B517, B749, B990, B1323, B1600, B1602, B1629, B1646, B1649, B1651; P-131, P-132, P-136,
   P-137.
-- **The SM seat:** THE_WEAVES_LAWS (the hand as Ψ), W67, W75.
+- **The SM seat:** THE_WEAVES_LAWS (the hand as Ψ), W34 (the observer layer on every thread and on the weave), W67,
+  W75.
 - **Speculations:** S069, S_THE_FIELDS_GENESIS; B663.
 - **chat1:** T-ROOT; THE_SCALE; THE_SELECTION_PRINCIPLE and its post hoc files.
 
