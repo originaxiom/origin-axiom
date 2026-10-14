@@ -10275,19 +10275,29 @@
    "slug": "the room three circles",
    "motifs": [
     "monoid",
-    "trace_map",
     "golden",
+    "z3_generation",
     "firewall"
    ],
    "refs": [
     "K0",
-    "K1",
-    "K9"
+    "K3",
+    "K9",
+    "P1",
+    "P10",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
-   "status": "banked",
-   "domain": "dynamics"
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "open",
+   "domain": "arithmetic"
   },
   "B1549": {
    "slug": "the three ended covers",

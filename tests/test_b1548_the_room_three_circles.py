@@ -1,4 +1,4 @@
-"""B1548 -- THE ROOM-THREE CIRCLES: the lock at the seal (no count at a member of the circle read by this arc).
+"""B1548 -- THE ROOM-THREE CIRCLES: the lock at the seal, and at the bank (NEGATIVE, run as sealed, read out once).
 
 A THREAD result (THE WEAVE rule): N_45 is one cover of one thread (m003), sealed and run at the owner's ruling of 2026-10-14.
   - seal integrity: every file of ARTIFACT_HASHES.txt hashes as sealed, and SEAL_LEDGER carries the preregistration's digest;
@@ -87,10 +87,52 @@ def test_the_read_out_logic_and_the_sealed_population():
 def test_the_sealed_record():
     lb = _load("b1548_load_bearing_lock", ROOT / "scripts" / "checks" / "load_bearing.py")
     v = json.loads((ARC / "arc_verdict.json").read_text())
-    assert v["id"] == "B1548" and v["verdict"] == "OPEN" and v["instrument"] is False
+    assert v["id"] == "B1548" and v["instrument"] is False
     assert v["weave_or_thread"] == "thread"
     assert lb.validate(v["load_bearing"], v["scope"]) == []
     assert [e["id"] for e in v["load_bearing"]] == [f"LB{i}" for i in range(1, 9)]
+    assert all(e["status"] == "VERIFIED" for e in v["load_bearing"])
+
+
+def test_the_banked_read_out():
+    import gzip
+    raw = gzip.decompress((V / "run.jsonl.gz").read_bytes())
+    sha = dict(reversed(line.split()) for line in (V / "run_sha256.txt").read_text().splitlines() if line.strip())
+    assert hashlib.sha256(raw).hexdigest() == sha["run.jsonl"]
+    assert hashlib.sha256((V / "run.jsonl.gz").read_bytes()).hexdigest() == sha["run.jsonl.gz"]
+    rows = [json.loads(x) for x in raw.decode().splitlines() if x.strip()]
+    assert len(rows) == 168 and len({(r["route"], r["index"]) for r in rows}) == 168
+    RO = _load("b1548_read_out_bank", V / "read_out.py")
+    run = _load("b1548_run_bank", V / "run.py")
+    res = RO.evaluate(rows, run.tasks(), run.DRAWS, say=lambda s: None)
+    res["predictions"]["P1"] = bool(json.loads((V / "identity.json").read_text()).get("identity holds"))
+    res["verdict"] = RO.verdict(res)
+    rec = json.loads((V / "read_out.json").read_text())
+    want = {"P1": True, "P2": True, "P3": True, "P4": True, "P5": True, "P6": True, "P7": True, "P8": False, "P9": True,
+            "P10": False}
+    assert res["predictions"] == rec["predictions"] == want
+    assert res["verdict"] == rec["verdict"] == "NEGATIVE" and res["complete"] is True
+    assert res["the least generic I(W1)"] == rec["the least generic I(W1)"] == 0
+    assert res["strata with generic (-3, -3)"] == [] and res["strata with a generation-shaped generic reading (both routes)"] == []
+    T = _load("b1548_post_run_bank", V / "post_run_tables.py")
+    tab = T.tables(rows)
+    banked = json.loads((V / "post_run_tables.json").read_text())
+    assert tab["R"]["generic counts by (|U|, count)"] == banked["R"]["generic counts by (|U|, count)"] == {"(0, [0, -5])": 84}
+    assert tab["F"]["generic counts by (|U|, count)"] == {"(0, [0, -5])": 84}
+    assert tab["R"]["largest s - k"] == banked["R"]["largest s - k"] == 0
+    assert tab["R"]["largest t - k"] == banked["R"]["largest t - k"] == 5
+
+
+def test_the_verdict_and_its_records():
+    v = json.loads((ARC / "arc_verdict.json").read_text())
+    assert v["verdict"] == "NEGATIVE" and v["creates_law"] is True and v["weave_or_thread"] == "thread"
+    reg = (ROOT / "docs" / "THEOREM_REGISTRY.md").read_text()
+    assert "| T-THE-ROOM-THREE-CIRCLES |" in reg and "| B1548 |" in reg
+    kills = json.loads((ROOT / "frontier" / "B738_pathfinder_compiler" / "kill_graph.json").read_text())
+    k = [x for x in kills if x.get("id") == "B1548"]
+    assert len(k) == 1 and k[0]["kill_form"].startswith("the-third-ten-is-missing") and k[0]["fact_computed"] is True
     f = (ARC / "FINDINGS.md").read_text()
-    assert "cc (the SM-derivation seat), 2026-10-14." in f and "## Seen first" in f and "SEALED" in f
-    assert "THREAD result" in f
+    assert "cc (the SM-derivation seat), 2026-10-14." in f and "## Seen first" in f and "0 of 19" in f
+    assert "THREAD result" in f and "NEGATIVE" in f and "sweep" in f and "literature" in f
+    led = (ROOT / "docs" / "SEAL_LEDGER.md").read_text()
+    assert "B1548 VERDICT: NEGATIVE, run as sealed (aa350651" in led

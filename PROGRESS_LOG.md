@@ -19057,3 +19057,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   weave's. One of the seat's sub-predictions miscounted the size of a space, and that is recorded as failed. So the
   question reduces to the dictionary, which three the generations are. 0 of 19.
 
+## 2026-10-14 — the golden cover's last open characters, read: no three
+
+- **The study the owner asked to seal and run, labelled, is done.** It reads 84 characters of one cover of one thread,
+  so it is labelled a thread result. They are points on the circles where that cover has room for three generations.
+- **None of them carries three.** At every one, the one place where three could live gives the same count, (0, −5).
+  The part of the count that would have to reach three is zero there, so this is further from three than the
+  previous study of the same cover. All ten predictions came out as expected.
+- **So on this cover, every place with room for three that the seat has read holds none.** 0 of 19.
+

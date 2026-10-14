@@ -27,3 +27,7 @@ read at any character here.
   - sm:B1547 reads order 8 only. Four of its 1024 members lie on χ0's circle.
 - **Next.** Seal an arc that reads the circle members of small orders (and the circle's generic point), after sm:B1547 reads
   out. The scripts take the repo root as their argument: `python3 room_orders.py ROOT 3 5 4`, `python3 room_circles.py ROOT`.
+- **Banked 2026-10-14 as sm:B1548, NEGATIVE as sealed, a THREAD result** (`frontier/B1548_the_room_three_circles/FINDINGS.md`).
+  At the 84 points of orders 3 to 60 of χ0's circle every member's one stratum reads (0, −5) in both routes, and no
+  class carries three.
+

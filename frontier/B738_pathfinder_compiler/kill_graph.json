@@ -12142,5 +12142,36 @@
     "the dictionary is GENESIS F-HE's (FK11 UNEARNED); other frames and other vacua not read; other states, ticks and kappa at the spin vacuum are decided by W11's theorem"
    ]
   }
+ },
+ {
+  "id": "B1548",
+  "claim_killed": "THE ROOM-THREE CIRCLES (after sm:B1547; a THREAD result at the owner's ruling of 2026-10-14): that a class at one of the 84 points of orders 3 to 60 (none dividing 4) of N_45's room-three circle through chi0 -- b0 = 0, room exactly three, every cusp trivial -- reads three, (-3, -3), in either order. Corollary 1 and Lemma G put such a class in a distinct stratum decided by its generic class. Sealed at aa350651 and run as sealed; the record committed unread; read out once. Both routes agree at every member: every member's one stratum reads (0, -5).",
+  "kill_form": "the-third-ten-is-missing (the dual connecting rank s equals the support k at every stratum reading, so the boundary Massey rank at interior classes is zero where three needs three; the Lambda^2 side has t - k = 5)",
+  "faces_consulted": [
+   "being",
+   "children"
+  ],
+  "fact_computed": true,
+  "hatch": "Points of the circles of other orders; points with nu^4 = 1 (b0 = 1); room-three characters off the circles at orders above 5; members over the circles not on them (beyond sm:B1547's order 8); other covers; which class and cover the genesis selects (GENESIS FK14). A thread result: no weave question is touched.",
+  "priority": "P2",
+  "revival_score": 1,
+  "depth_note": "Entered 2026-10-14 at banking time, with content: a NEGATIVE read as sealed, complete for its population by Corollary 1 and Lemma G.",
+  "note": "ENTERED 2026-10-14 at banking time, with content (this seat, from the arc's FINDINGS, verdict and verification). fact_computed = true: frontier/B1548_the_room_three_circles/verification/circle_lib.py over sm:B1547's member_lib (both routes), run.py (the sealed run, record run.jsonl.gz with run_sha256.txt), read_out.py (the sealed read-out, once) and post_run_tables.py (s - k = 0 at every stratum reading).",
+  "routed_from": "sm-branch-2026-10-14-banking",
+  "scope": {
+   "frame": "F-HE",
+   "object": "N_45 (sm:B1541, the degree-45 cover of m003: one thread's cover) at the room-three circle through chi0: its 84 points nu of order m in (3, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60) (cusp-trivial, b0 = 0, room exactly three); at each member every distinct stratum X_U = K0^nu ∩ {c vanishes off U}, |U| <= 2 (Corollary 1 of sm:B1547), read at its generic class, three draws, in two routes at every member (168 tasks), plus route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member",
+   "reach": "class",
+   "hypotheses": [
+    "run as sealed (aa350651) and read out once on 2026-10-14 at 19:04:39Z on complete records (168 of 168 tasks); the banked identity held before the run; one start and no stop (run_notes.md)",
+    "each stratum's least I(W1) and largest Lambda^2 rank are a generic class's (Lemma G), read with three draws per route at two primes; no stratum reached I(W1) = -3, so the reading rules' undecided case did not arise",
+    "no class at any point of order 3, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40 or 60 of the five room-three circles carries three, in either order, by the seal's section 3.5 (Theorem C's cap and Lemma F' checked at a generic class of K0^nu and of H^1 at every member)",
+    "THE WEAVE: a thread result (one cover of one thread, m003), sealed and run at the owner's ruling of 2026-10-14 ('Seal and run it, labelled'); it answers no weave question",
+    "sealed after sm:B1547's read-out, which the seat read: the circle's four order-8 points are sm:B1547 members with banked counts",
+    "at the hyperbolic point of N_45 and the 84 members on chi0's circle; the other four circles through the deck symmetry tau (K3), the other order through nu-bar = nu^(m-1)",
+    "points of other orders, points with nu^4 = 1, room-three characters off the circles at orders above 5, and other covers are not read (the seal's section 10)",
+    "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4, FK14 and THE_BAR's question"
+   ]
+  }
  }
 ]

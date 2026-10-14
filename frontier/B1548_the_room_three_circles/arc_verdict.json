@@ -1,6 +1,6 @@
 {
  "id": "B1548",
- "verdict": "OPEN",
+ "verdict": "NEGATIVE",
  "instrument": false,
  "depends_on": [
   "B1547",
@@ -16,23 +16,24 @@
  "superseded_by": null,
  "authored_by": "cc",
  "weave_or_thread": "thread",
- "creates_law": false,
+ "creates_law": true,
  "identifications": [],
  "scope": {
   "frame": "F-HE",
   "object": "N_45 (sm:B1541, the degree-45 cover of m003: one thread's cover) at the room-three circle through chi0: its 84 points nu of order m in (3, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60) (cusp-trivial, b0 = 0, room exactly three); at each member every distinct stratum X_U = K0^nu \u2229 {c vanishes off U}, |U| <= 2 (Corollary 1 of sm:B1547), read at its generic class, three draws, in two routes at every member (168 tasks), plus route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member",
   "reach": "class",
   "hypotheses": [
-   "sealed: no count at a member of the circle has been read by this arc; this record is replaced at the bank",
+   "run as sealed (aa350651) and read out once on 2026-10-14 at 19:04:39Z on complete records (168 of 168 tasks); the banked identity held before the run; one start and no stop (run_notes.md)",
+   "each stratum's least I(W1) and largest Lambda^2 rank are a generic class's (Lemma G), read with three draws per route at two primes; no stratum reached I(W1) = -3, so the reading rules' undecided case did not arise",
+   "no class at any point of order 3, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40 or 60 of the five room-three circles carries three, in either order, by the seal's section 3.5 (Theorem C's cap and Lemma F' checked at a generic class of K0^nu and of H^1 at every member)",
    "THE WEAVE: a thread result (one cover of one thread, m003), sealed and run at the owner's ruling of 2026-10-14 ('Seal and run it, labelled'); it answers no weave question",
    "sealed after sm:B1547's read-out, which the seat read: the circle's four order-8 points are sm:B1547 members with banked counts",
    "at the hyperbolic point of N_45 and the 84 members on chi0's circle; the other four circles through the deck symmetry tau (K3), the other order through nu-bar = nu^(m-1)",
-   "the least I(W1) and the largest Lambda^2 rank on the classes of support U are a generic class's (Lemma G), each read with three draws per route at two primes",
    "points of other orders, points with nu^4 = 1, room-three characters off the circles at orders above 5, and other covers are not read (the seal's section 10)",
    "a count at a class is not a selection: which class and which cover the genesis selects is GENESIS GAP4, FK14 and THE_BAR's question"
   ]
  },
- "claim_one_line": "THE ROOM-THREE CIRCLES, SEALED. A THREAD result (one cover of one thread, m003; THE WEAVE rule), sealed and run at the owner's ruling of 2026-10-14, 'Seal and run it, labelled'. On N_45 the room-three characters lie on five circles of cusp-trivial characters, one tau-orbit (at orders 2 to 5 they are exactly the circles' points, K9). The population: the 84 points nu of chi0's circle of orders 3, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40 and 60 (b0 = 0 and room exactly three, so sm:B1547's Corollary 1 and Lemma G hold verbatim). The structure census (route R, no count): one distinct stratum at every member, the interior one of dimension 2; (h1, n) of nu^5 rho is (15, 10) at every order but 5 and (23, 18) at 5. The run reads three generic classes of every stratum in route F and route R at every member (168 tasks, 252 readings per route) and route R's load-bearing checks at a generic class of K0^nu and of H^1 at every member. Sealed after sm:B1547's read-out, disclosed: the circle's four order-8 points are sm:B1547's members of structure (15, 10, 2, 2), banked at (0, -5). Controls K1-K9 hold. Predictions P1-P10 (P6 the floor 90%, P7 I(W1) >= 0 everywhere 65%, P8 three 2%); PROVED if a stratum reads (-3, -3) in two routes; NEGATIVE if none reads I(W1) = -3 with I(Lambda^2 W1) <= -3. No count at a member of the circle read by this arc. 0 of 19.",
+ "claim_one_line": "THE ROOM-THREE CIRCLES (NEGATIVE, run as sealed; read out once 2026-10-14 19:04:39Z). A THREAD result (one cover of one thread, m003; THE WEAVE rule), sealed and run at the owner's ruling of 2026-10-14, 'Seal and run it, labelled'. On N_45 the room-three characters lie on five circles of cusp-trivial characters, one tau-orbit. At the 84 points of the circle through chi0 of orders 3, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40 and 60 (b0 = 0, room exactly three; sm:B1547's Corollary 1 and Lemma G verbatim), every member has one distinct stratum, the interior one, and its generic class reads (0, -5) in both routes at every order (168 tasks, 252 stratum readings per route, 168 load-bearing checks): the least I(W1) is 0, with no (-3, -3) and no generation shape. The boundary Massey rank at the interior classes is zero (s - k = 0 at every reading; three needs 3), while t - k = 5. The four order-8 points read (0, -5), as sm:B1547 banked them. So no class at any point of these orders of the five circles carries three, in either order. All ten predictions as the priors leaned (9.03 expected). 0 of 19.",
  "prior_work": {
   "repo": {
    "heads": {

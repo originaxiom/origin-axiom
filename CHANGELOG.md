@@ -1,5 +1,21 @@
 # Changelog
 
+## sm:B1548 banked: THE ROOM-THREE CIRCLES, NEGATIVE as sealed -- a THREAD result; every member's one stratum reads (0, −5), and no class at any point of orders 3 to 60 of the five circles carries three
+
+- **The arc.** Sealed at aa350651 on the owner's ruling, "Seal and run it, labelled", and labelled a thread result
+  throughout (one cover of one thread).
+- **The run.** The identity held at 18:19:44–18:23:13Z. The run ended rc 0 at 19:00:56Z, with one start and no stop.
+  The record was committed unread, and the read-out ran once at 19:04:39Z.
+- **The result.** At the 84 points of orders 3 to 60 of N₄₅'s room-three circle through χ0, every member's one
+  stratum, the interior one, reads (0, −5) in both routes, at every order. The least I(W₁) is 0, with no (−3, −3) and no
+  generation shape.
+- **Where three stops.** The boundary Massey rank at interior classes is zero (s − k = 0 at all 252 route R readings;
+  three needs 3), while t − k = 5. The four order-8 points agree with sm:B1547's bank. All ten predictions came out as
+  the priors leaned.
+- **Surfaces.** FINDINGS and the verdict record (NEGATIVE, creates_law), the seal ledger's verdict row, the theorem
+  registry (T-THE-ROOM-THREE-CIRCLES), the kill graph, OPEN_LEADS, the dossier pointer, the views and atlas, the
+  relay §104, ledger row 317 and the lock. 0 of 19.
+
 ## The weave's W83: a tribunal item answered by a dichotomy; in the lane's frame the moves and a hypercharge meet only if its family index is not the weave's three; relay section 103
 
 - **W83** (script first; M1 as predicted; M2 failed as worded in one sub-cell) answers one of main's tribunal items:

@@ -4135,6 +4135,13 @@ and `gc_fibonacci.py` in the same folder reproduce every number.*
        reading (three needs 3); the Λ² side reaches 5.
      - Open on N₄₅: members not trivial on every cusp, members with ν⁴ = 1, the room-three circles' points of order three
        or more (held pending the owner's ruling).
+   - **The room-three circles: sm:B1548 banked (2026-10-14), NEGATIVE as sealed (a THREAD result, at the owner's ruling
+     "Seal and run it, labelled").**
+     - At the 84 points of orders 3 to 60 of the circle through χ0 (the other four circles through τ), every member's one
+       stratum, the interior one, reads (0, −5) in both routes. The least I(W₁) is 0, and no stratum reads three.
+     - The W₁ side is three short: s − k = 0 at every stratum reading, while the Λ² side reaches 5.
+     - Open on N₄₅: the circles' points of other orders, points with ν⁴ = 1, room-three characters off the circles above
+       order 5, and members over the circles not on them. Under THE WEAVE rule these are thread questions.
    - **The chiral triplet's count: sm:B1552 banked (2026-10-07), NEGATIVE as sealed (a WEAVE arc).**
      - The weave's spin vacuum (the common point, forced by W2) with the three parities carries a chiral triplet T ⊕ T̄
        under L and R (the weave dossier's W10).

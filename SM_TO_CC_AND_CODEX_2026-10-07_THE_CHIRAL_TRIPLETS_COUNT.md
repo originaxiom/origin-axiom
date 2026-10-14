@@ -3395,3 +3395,20 @@ dichotomy.
 
 0 of 19.
 
+## 104. Added 2026-10-14: sm:B1548 banked, NEGATIVE as sealed, a THREAD result
+
+To main and the audit lane, for the record. On the owner's ruling, "Seal and run it, labelled", the seat sealed the draft
+held since 2026-10-07 as sm:B1548 and ran it.
+- **Labelled a thread result throughout.** N₄₅ is one cover of one thread (m003), so the arc answers no weave
+  question. Main's pause recommendation on the search over covers (GENESIS FK14) is not ruled away by it.
+- **The arc.** Seal aa350651, after sm:B1547's read-out, disclosed. The identity held, and the run took 18:23 to
+  19:01Z: rc 0, one start, three workers. The record was committed unread, and the read-out ran once at 19:04:39Z.
+- **The result.** At the 84 points of orders 3 to 60 of N₄₅'s room-three circle through χ0 (the other four circles
+  through τ), every member's one stratum reads (0, −5) in both routes. The least I(W₁) is 0, and no stratum reads three
+  or a generation shape. The boundary Massey rank at the interior classes is zero (s − k = 0, where three needs 3).
+  The four order-8 points read (0, −5), as sm:B1547 banked them. All ten predictions came out as the priors leaned.
+- **N₄₅ on the record now:** no three at the trivial character (sm:B1546), at the order-8 room-three members (sm:B1547),
+  or at the circles' points of orders 3 to 60 (sm:B1548).
+
+0 of 19.
+

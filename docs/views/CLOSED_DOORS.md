@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**836 recorded closures — of which 669 are CLASSIFIED by mechanism and
+**837 recorded closures — of which 670 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -119,6 +119,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `the-three-is-shared (the generation-shaped members of every three-ended cover are exactly its sign members, one per member in free Z/3 orbits inducing Z/2 x A4 triplets; one such orbit sits on +LLLR's cover and one on -LLLLLR's, two each on -LLR's and +LLLLLLR's, so 'exactly three' is met twice)` | 1 |  |
 | `the-sector-is-wider (the root's generation sector at orders dividing 4 is 48 members, the 24 sign members and 24 order-4 members fixed by a translation t_p; after the read-out, every one of the 48 carries one non-zero parity, 16 to each, and the golden map permutes the three as a 3-cycle, so the parity structure survives on the wider sector; the generation shape is not confined to sign characters on these covers)` | 1 |  |
 | `the-count-vanishes-at-the-weave's-vacuum (the class index is (0, 0) at every reading in both modules; the extension lowers the interior dimensions of W1 and its dual alike, and of Lambda^2 W1 and its dual alike). After the read-out it is a theorem the seat already had: sm:B1509's T2 and T3 at the common point (the puncture acts by -1, so no cusp cohomology; the stable letter is semisimple, since the moves' group there is finite) give I(W1) = 0 at every class on every thread at every tick (the weave dossier's W11, the_spin_zero.py)` | 1 |  |
+| `the-third-ten-is-missing (the dual connecting rank s equals the support k at every stratum reading, so the boundary Massey rank at interior classes is zero where three needs three; the Lambda^2 side has t - k = 5)` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 
@@ -650,7 +651,7 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B774` |  | `other` |
 | `B791` |  | `other` |
 
-## How far each closure reaches (46 carry a scope tag)
+## How far each closure reaches (47 carry a scope tag)
 
 A closure is a statement about a frame applied to an object (`GENESIS.md` §6). It blocks only
 where its tag reaches: `single` (one state, with the deformations or levels its hypotheses name),
@@ -662,7 +663,7 @@ without a tag (790) predate the tag; read their object from their own text.
 | `F-AP` |  | 3 | 3 |
 | `F-CI` | 1 |  |  |
 | `F-FC` | 2 | 6 | 8 |
-| `F-HE` | 7 | 15 |  |
+| `F-HE` | 7 | 16 |  |
 | `F-HE at the weave's spin vacuum (the common point), two candidate modules` |  | 1 |  |
 
 | arc | frame | reach | object | read with |
@@ -710,6 +711,7 @@ without a tag (790) predate the tag; read their object from their own text.
 | `B1545` | `F-HE` | class | sm:B1538's four room-3 covers of the silver pair, every member and class |  |
 | `B1546` | `F-HE` | class | N_45 at the trivial character, every class of cup rank one or two (with sm:B1544, every class) |  |
 | `B1547` | `F-HE` | class | N_45 (sm:B1541) at the room-three members: the 1024 characters nu of order 8, trivial on every cusp, with nu^4 = chi0 (… |  |
+| `B1548` | `F-HE` | class | N_45 (sm:B1541, the degree-45 cover of m003: one thread's cover) at the room-three circle through chi0: its 84 points n… |  |
 | `B1549` | `F-HE` | class | every three-ended cover of the generated family to twelve ends (13 degree-3 fibre-direction covers of the 10 states who… |  |
 | `B1550` | `F-HE` | class | the tetrahedral cover (the kernel of pi_1 M -> A4 = F2^2 x| Z/3, forced by an odd trace) of each generated state of odd… |  |
 | `B1552` | `F-HE at the weave's spin vacuum (the common point), two candidate modules` | class | the twelve odd-trace states of GENESIS to word length 6 at tick 3: 432 readings per route |  |
