@@ -1,0 +1,1546 @@
+{
+  "checks": {
+    "prior Gaussian sources pass": true,
+    "weak pairs integral (1, '+i', 1)": true,
+    "phase lies on twelfths (1, '+i', 1, -1)": true,
+    "phase lies on twelfths (1, '+i', 1, 1)": true,
+    "weak pairs integral (1, '+i', 3)": true,
+    "phase lies on twelfths (1, '+i', 3, -1)": true,
+    "phase lies on twelfths (1, '+i', 3, 1)": true,
+    "weak pairs integral (1, '+i', 5)": true,
+    "phase lies on twelfths (1, '+i', 5, -1)": true,
+    "phase lies on twelfths (1, '+i', 5, 1)": true,
+    "weak pairs integral (1, '+i', 7)": true,
+    "phase lies on twelfths (1, '+i', 7, -1)": true,
+    "phase lies on twelfths (1, '+i', 7, 1)": true,
+    "weak pairs integral (1, '-i', 1)": true,
+    "phase lies on twelfths (1, '-i', 1, -1)": true,
+    "phase lies on twelfths (1, '-i', 1, 1)": true,
+    "weak pairs integral (1, '-i', 3)": true,
+    "phase lies on twelfths (1, '-i', 3, -1)": true,
+    "phase lies on twelfths (1, '-i', 3, 1)": true,
+    "weak pairs integral (1, '-i', 5)": true,
+    "phase lies on twelfths (1, '-i', 5, -1)": true,
+    "phase lies on twelfths (1, '-i', 5, 1)": true,
+    "weak pairs integral (1, '-i', 7)": true,
+    "phase lies on twelfths (1, '-i', 7, -1)": true,
+    "phase lies on twelfths (1, '-i', 7, 1)": true,
+    "all even retained 1": true,
+    "all odd retained 1": true,
+    "weak pairs integral (3, '+i', 1)": true,
+    "phase lies on twelfths (3, '+i', 1, -1)": true,
+    "phase lies on twelfths (3, '+i', 1, 1)": true,
+    "weak pairs integral (3, '+i', 3)": true,
+    "phase lies on twelfths (3, '+i', 3, -1)": true,
+    "phase lies on twelfths (3, '+i', 3, 1)": true,
+    "weak pairs integral (3, '+i', 5)": true,
+    "phase lies on twelfths (3, '+i', 5, -1)": true,
+    "phase lies on twelfths (3, '+i', 5, 1)": true,
+    "weak pairs integral (3, '+i', 7)": true,
+    "phase lies on twelfths (3, '+i', 7, -1)": true,
+    "phase lies on twelfths (3, '+i', 7, 1)": true,
+    "weak pairs integral (3, '-i', 1)": true,
+    "phase lies on twelfths (3, '-i', 1, -1)": true,
+    "phase lies on twelfths (3, '-i', 1, 1)": true,
+    "weak pairs integral (3, '-i', 3)": true,
+    "phase lies on twelfths (3, '-i', 3, -1)": true,
+    "phase lies on twelfths (3, '-i', 3, 1)": true,
+    "weak pairs integral (3, '-i', 5)": true,
+    "phase lies on twelfths (3, '-i', 5, -1)": true,
+    "phase lies on twelfths (3, '-i', 5, 1)": true,
+    "weak pairs integral (3, '-i', 7)": true,
+    "phase lies on twelfths (3, '-i', 7, -1)": true,
+    "phase lies on twelfths (3, '-i', 7, 1)": true,
+    "all even retained 3": true,
+    "all odd retained 3": true,
+    "weak pairs integral (5, '+i', 1)": true,
+    "phase lies on twelfths (5, '+i', 1, -1)": true,
+    "phase lies on twelfths (5, '+i', 1, 1)": true,
+    "weak pairs integral (5, '+i', 3)": true,
+    "phase lies on twelfths (5, '+i', 3, -1)": true,
+    "phase lies on twelfths (5, '+i', 3, 1)": true,
+    "weak pairs integral (5, '+i', 5)": true,
+    "phase lies on twelfths (5, '+i', 5, -1)": true,
+    "phase lies on twelfths (5, '+i', 5, 1)": true,
+    "weak pairs integral (5, '+i', 7)": true,
+    "phase lies on twelfths (5, '+i', 7, -1)": true,
+    "phase lies on twelfths (5, '+i', 7, 1)": true,
+    "weak pairs integral (5, '-i', 1)": true,
+    "phase lies on twelfths (5, '-i', 1, -1)": true,
+    "phase lies on twelfths (5, '-i', 1, 1)": true,
+    "weak pairs integral (5, '-i', 3)": true,
+    "phase lies on twelfths (5, '-i', 3, -1)": true,
+    "phase lies on twelfths (5, '-i', 3, 1)": true,
+    "weak pairs integral (5, '-i', 5)": true,
+    "phase lies on twelfths (5, '-i', 5, -1)": true,
+    "phase lies on twelfths (5, '-i', 5, 1)": true,
+    "weak pairs integral (5, '-i', 7)": true,
+    "phase lies on twelfths (5, '-i', 7, -1)": true,
+    "phase lies on twelfths (5, '-i', 7, 1)": true,
+    "all even retained 5": true,
+    "all odd retained 5": true,
+    "weak pairs integral (7, '+i', 1)": true,
+    "phase lies on twelfths (7, '+i', 1, -1)": true,
+    "phase lies on twelfths (7, '+i', 1, 1)": true,
+    "weak pairs integral (7, '+i', 3)": true,
+    "phase lies on twelfths (7, '+i', 3, -1)": true,
+    "phase lies on twelfths (7, '+i', 3, 1)": true,
+    "weak pairs integral (7, '+i', 5)": true,
+    "phase lies on twelfths (7, '+i', 5, -1)": true,
+    "phase lies on twelfths (7, '+i', 5, 1)": true,
+    "weak pairs integral (7, '+i', 7)": true,
+    "phase lies on twelfths (7, '+i', 7, -1)": true,
+    "phase lies on twelfths (7, '+i', 7, 1)": true,
+    "weak pairs integral (7, '-i', 1)": true,
+    "phase lies on twelfths (7, '-i', 1, -1)": true,
+    "phase lies on twelfths (7, '-i', 1, 1)": true,
+    "weak pairs integral (7, '-i', 3)": true,
+    "phase lies on twelfths (7, '-i', 3, -1)": true,
+    "phase lies on twelfths (7, '-i', 3, 1)": true,
+    "weak pairs integral (7, '-i', 5)": true,
+    "phase lies on twelfths (7, '-i', 5, -1)": true,
+    "phase lies on twelfths (7, '-i', 5, 1)": true,
+    "weak pairs integral (7, '-i', 7)": true,
+    "phase lies on twelfths (7, '-i', 7, -1)": true,
+    "phase lies on twelfths (7, '-i', 7, 1)": true,
+    "all even retained 7": true,
+    "all odd retained 7": true,
+    "weak pairs integral (9, '+i', 1)": true,
+    "phase lies on twelfths (9, '+i', 1, -1)": true,
+    "phase lies on twelfths (9, '+i', 1, 1)": true,
+    "weak pairs integral (9, '+i', 3)": true,
+    "phase lies on twelfths (9, '+i', 3, -1)": true,
+    "phase lies on twelfths (9, '+i', 3, 1)": true,
+    "weak pairs integral (9, '+i', 5)": true,
+    "phase lies on twelfths (9, '+i', 5, -1)": true,
+    "phase lies on twelfths (9, '+i', 5, 1)": true,
+    "weak pairs integral (9, '+i', 7)": true,
+    "phase lies on twelfths (9, '+i', 7, -1)": true,
+    "phase lies on twelfths (9, '+i', 7, 1)": true,
+    "weak pairs integral (9, '-i', 1)": true,
+    "phase lies on twelfths (9, '-i', 1, -1)": true,
+    "phase lies on twelfths (9, '-i', 1, 1)": true,
+    "weak pairs integral (9, '-i', 3)": true,
+    "phase lies on twelfths (9, '-i', 3, -1)": true,
+    "phase lies on twelfths (9, '-i', 3, 1)": true,
+    "weak pairs integral (9, '-i', 5)": true,
+    "phase lies on twelfths (9, '-i', 5, -1)": true,
+    "phase lies on twelfths (9, '-i', 5, 1)": true,
+    "weak pairs integral (9, '-i', 7)": true,
+    "phase lies on twelfths (9, '-i', 7, -1)": true,
+    "phase lies on twelfths (9, '-i', 7, 1)": true,
+    "all even retained 9": true,
+    "all odd retained 9": true,
+    "weak pairs integral (11, '+i', 1)": true,
+    "phase lies on twelfths (11, '+i', 1, -1)": true,
+    "phase lies on twelfths (11, '+i', 1, 1)": true,
+    "weak pairs integral (11, '+i', 3)": true,
+    "phase lies on twelfths (11, '+i', 3, -1)": true,
+    "phase lies on twelfths (11, '+i', 3, 1)": true,
+    "weak pairs integral (11, '+i', 5)": true,
+    "phase lies on twelfths (11, '+i', 5, -1)": true,
+    "phase lies on twelfths (11, '+i', 5, 1)": true,
+    "weak pairs integral (11, '+i', 7)": true,
+    "phase lies on twelfths (11, '+i', 7, -1)": true,
+    "phase lies on twelfths (11, '+i', 7, 1)": true,
+    "weak pairs integral (11, '-i', 1)": true,
+    "phase lies on twelfths (11, '-i', 1, -1)": true,
+    "phase lies on twelfths (11, '-i', 1, 1)": true,
+    "weak pairs integral (11, '-i', 3)": true,
+    "phase lies on twelfths (11, '-i', 3, -1)": true,
+    "phase lies on twelfths (11, '-i', 3, 1)": true,
+    "weak pairs integral (11, '-i', 5)": true,
+    "phase lies on twelfths (11, '-i', 5, -1)": true,
+    "phase lies on twelfths (11, '-i', 5, 1)": true,
+    "weak pairs integral (11, '-i', 7)": true,
+    "phase lies on twelfths (11, '-i', 7, -1)": true,
+    "phase lies on twelfths (11, '-i', 7, 1)": true,
+    "all even retained 11": true,
+    "all odd retained 11": true,
+    "rational Fourier square (Fraction(1, 3), Fraction(1, 2))": true,
+    "rational Fourier square (Fraction(-5, 7), Fraction(1, 1))": true,
+    "rational Fourier square (Fraction(0, 1), Fraction(0, 1))": true,
+    "nearest-integer all-N residue distance": true,
+    "massless zero-phase comparator": true
+  },
+  "records": {
+    "angle_labels": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23
+    ],
+    "inverse_representatives": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11
+    ],
+    "classes": [
+      {
+        "m": 1,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                16
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                1
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                9
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                8,
+                3
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                9
+              ],
+              [
+                11,
+                9
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          0,
+          0
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 3,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                17
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                17
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                17
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                17
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                17
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                17
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          17,
+          17
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 5,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                16
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                3
+              ],
+              [
+                11,
+                9
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          0,
+          0
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 7,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                16
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                9
+              ],
+              [
+                11,
+                3
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                9
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                8,
+                3
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          0,
+          0
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 9,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                17
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                17
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                17
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                17
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                17
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                17
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          11,
+          11
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 11,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                16
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                1
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                3
+              ],
+              [
+                11,
+                3
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          0,
+          0
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      }
+    ],
+    "canonical_zero_phase_beta_squared_floor": "1/4",
+    "canonical_even_tail_squared_floor": "3/16"
+  },
+  "all_passed": true,
+  "scope": "complete Fraction transport controls, not outside analytic acceptance"
+}

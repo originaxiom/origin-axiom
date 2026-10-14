@@ -1,0 +1,45 @@
+{
+  "role": "First exact whole-family outcomes and quiescent selected live tests",
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/results/first_science/RECEIPT.json",
+      "sha256": "7a321e4645dca6c01d56ed1a936653d668219a7eb2ced121f49cd8c62fcab5a2",
+      "bytes": 12824
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/results/first_science/probe.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/results/first_science/probe.stdout.log",
+      "sha256": "e625255cb1df73b1d269aa4473c83bf65d904b634f41e54963143b7317aa3403",
+      "bytes": 39385
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/results/first_science/reference.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/results/first_science/reference.stdout.log",
+      "sha256": "affe8d51865fc30502ef63e07a260bc6d92dc8def50577a9a8715b9266317f16",
+      "bytes": 31906
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/results/selected_tests/RECEIPT.json",
+      "sha256": "79228e16db46e4218854978949feb04c12df28f324c10aa6080655388826faab",
+      "bytes": 1616
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/results/selected_tests/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/results/selected_tests/stdout.log",
+      "sha256": "472ca77f5d7cc13d4424d202cd5be3d837dc78b28338cbee28d91a1ac43e5eb7",
+      "bytes": 272
+    }
+  ]
+}

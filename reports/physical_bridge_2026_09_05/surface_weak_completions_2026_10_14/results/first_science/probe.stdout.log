@@ -1,0 +1,1712 @@
+{
+  "checks": {
+    "prior complete based relation controls": true,
+    "commuting braid equations force equal factors": true,
+    "twelve angle solutions and six inverse classes": true,
+    "all centre conditions exact": true,
+    "even label rejecting centre": true,
+    "central weak factor cannot repair": true,
+    "integral phase (1, False, '+1', 0)": true,
+    "integral phase (1, False, '+1', 1)": true,
+    "integral phase (1, False, '+1', 2)": true,
+    "integral phase (1, False, '+1', 3)": true,
+    "integral phase (1, False, '+1', 4)": true,
+    "integral phase (1, False, '+1', 5)": true,
+    "integral phase (1, False, '+1', 6)": true,
+    "integral phase (1, False, '+1', 7)": true,
+    "integral phase (1, False, '+1', 8)": true,
+    "integral phase (1, False, '+1', 9)": true,
+    "integral phase (1, False, '+1', 10)": true,
+    "integral phase (1, False, '+1', 11)": true,
+    "integral phase (1, False, '-1', 0)": true,
+    "integral phase (1, False, '-1', 1)": true,
+    "integral phase (1, False, '-1', 2)": true,
+    "integral phase (1, False, '-1', 3)": true,
+    "integral phase (1, False, '-1', 4)": true,
+    "integral phase (1, False, '-1', 5)": true,
+    "integral phase (1, False, '-1', 6)": true,
+    "integral phase (1, False, '-1', 7)": true,
+    "integral phase (1, False, '-1', 8)": true,
+    "integral phase (1, False, '-1', 9)": true,
+    "integral phase (1, False, '-1', 10)": true,
+    "integral phase (1, False, '-1', 11)": true,
+    "integral phase (1, True, '+i', 0)": true,
+    "integral phase (1, True, '+i', 1)": true,
+    "integral phase (1, True, '+i', 2)": true,
+    "integral phase (1, True, '+i', 3)": true,
+    "integral phase (1, True, '+i', 4)": true,
+    "integral phase (1, True, '+i', 5)": true,
+    "integral phase (1, True, '+i', 6)": true,
+    "integral phase (1, True, '+i', 7)": true,
+    "integral phase (1, True, '+i', 8)": true,
+    "integral phase (1, True, '+i', 9)": true,
+    "integral phase (1, True, '+i', 10)": true,
+    "integral phase (1, True, '+i', 11)": true,
+    "integral phase (1, True, '-i', 0)": true,
+    "integral phase (1, True, '-i', 1)": true,
+    "integral phase (1, True, '-i', 2)": true,
+    "integral phase (1, True, '-i', 3)": true,
+    "integral phase (1, True, '-i', 4)": true,
+    "integral phase (1, True, '-i', 5)": true,
+    "integral phase (1, True, '-i', 6)": true,
+    "integral phase (1, True, '-i', 7)": true,
+    "integral phase (1, True, '-i', 8)": true,
+    "integral phase (1, True, '-i', 9)": true,
+    "integral phase (1, True, '-i', 10)": true,
+    "integral phase (1, True, '-i', 11)": true,
+    "all248 retained 1": true,
+    "weak roots noncentral 1": true,
+    "inverse class same characters 1": true,
+    "integral phase (3, False, '+1', 0)": true,
+    "integral phase (3, False, '+1', 1)": true,
+    "integral phase (3, False, '+1', 2)": true,
+    "integral phase (3, False, '+1', 3)": true,
+    "integral phase (3, False, '+1', 4)": true,
+    "integral phase (3, False, '+1', 5)": true,
+    "integral phase (3, False, '+1', 6)": true,
+    "integral phase (3, False, '+1', 7)": true,
+    "integral phase (3, False, '+1', 8)": true,
+    "integral phase (3, False, '+1', 9)": true,
+    "integral phase (3, False, '+1', 10)": true,
+    "integral phase (3, False, '+1', 11)": true,
+    "integral phase (3, False, '-1', 0)": true,
+    "integral phase (3, False, '-1', 1)": true,
+    "integral phase (3, False, '-1', 2)": true,
+    "integral phase (3, False, '-1', 3)": true,
+    "integral phase (3, False, '-1', 4)": true,
+    "integral phase (3, False, '-1', 5)": true,
+    "integral phase (3, False, '-1', 6)": true,
+    "integral phase (3, False, '-1', 7)": true,
+    "integral phase (3, False, '-1', 8)": true,
+    "integral phase (3, False, '-1', 9)": true,
+    "integral phase (3, False, '-1', 10)": true,
+    "integral phase (3, False, '-1', 11)": true,
+    "integral phase (3, True, '+i', 0)": true,
+    "integral phase (3, True, '+i', 1)": true,
+    "integral phase (3, True, '+i', 2)": true,
+    "integral phase (3, True, '+i', 3)": true,
+    "integral phase (3, True, '+i', 4)": true,
+    "integral phase (3, True, '+i', 5)": true,
+    "integral phase (3, True, '+i', 6)": true,
+    "integral phase (3, True, '+i', 7)": true,
+    "integral phase (3, True, '+i', 8)": true,
+    "integral phase (3, True, '+i', 9)": true,
+    "integral phase (3, True, '+i', 10)": true,
+    "integral phase (3, True, '+i', 11)": true,
+    "integral phase (3, True, '-i', 0)": true,
+    "integral phase (3, True, '-i', 1)": true,
+    "integral phase (3, True, '-i', 2)": true,
+    "integral phase (3, True, '-i', 3)": true,
+    "integral phase (3, True, '-i', 4)": true,
+    "integral phase (3, True, '-i', 5)": true,
+    "integral phase (3, True, '-i', 6)": true,
+    "integral phase (3, True, '-i', 7)": true,
+    "integral phase (3, True, '-i', 8)": true,
+    "integral phase (3, True, '-i', 9)": true,
+    "integral phase (3, True, '-i', 10)": true,
+    "integral phase (3, True, '-i', 11)": true,
+    "all248 retained 3": true,
+    "weak roots noncentral 3": true,
+    "inverse class same characters 3": true,
+    "integral phase (5, False, '+1', 0)": true,
+    "integral phase (5, False, '+1', 1)": true,
+    "integral phase (5, False, '+1', 2)": true,
+    "integral phase (5, False, '+1', 3)": true,
+    "integral phase (5, False, '+1', 4)": true,
+    "integral phase (5, False, '+1', 5)": true,
+    "integral phase (5, False, '+1', 6)": true,
+    "integral phase (5, False, '+1', 7)": true,
+    "integral phase (5, False, '+1', 8)": true,
+    "integral phase (5, False, '+1', 9)": true,
+    "integral phase (5, False, '+1', 10)": true,
+    "integral phase (5, False, '+1', 11)": true,
+    "integral phase (5, False, '-1', 0)": true,
+    "integral phase (5, False, '-1', 1)": true,
+    "integral phase (5, False, '-1', 2)": true,
+    "integral phase (5, False, '-1', 3)": true,
+    "integral phase (5, False, '-1', 4)": true,
+    "integral phase (5, False, '-1', 5)": true,
+    "integral phase (5, False, '-1', 6)": true,
+    "integral phase (5, False, '-1', 7)": true,
+    "integral phase (5, False, '-1', 8)": true,
+    "integral phase (5, False, '-1', 9)": true,
+    "integral phase (5, False, '-1', 10)": true,
+    "integral phase (5, False, '-1', 11)": true,
+    "integral phase (5, True, '+i', 0)": true,
+    "integral phase (5, True, '+i', 1)": true,
+    "integral phase (5, True, '+i', 2)": true,
+    "integral phase (5, True, '+i', 3)": true,
+    "integral phase (5, True, '+i', 4)": true,
+    "integral phase (5, True, '+i', 5)": true,
+    "integral phase (5, True, '+i', 6)": true,
+    "integral phase (5, True, '+i', 7)": true,
+    "integral phase (5, True, '+i', 8)": true,
+    "integral phase (5, True, '+i', 9)": true,
+    "integral phase (5, True, '+i', 10)": true,
+    "integral phase (5, True, '+i', 11)": true,
+    "integral phase (5, True, '-i', 0)": true,
+    "integral phase (5, True, '-i', 1)": true,
+    "integral phase (5, True, '-i', 2)": true,
+    "integral phase (5, True, '-i', 3)": true,
+    "integral phase (5, True, '-i', 4)": true,
+    "integral phase (5, True, '-i', 5)": true,
+    "integral phase (5, True, '-i', 6)": true,
+    "integral phase (5, True, '-i', 7)": true,
+    "integral phase (5, True, '-i', 8)": true,
+    "integral phase (5, True, '-i', 9)": true,
+    "integral phase (5, True, '-i', 10)": true,
+    "integral phase (5, True, '-i', 11)": true,
+    "all248 retained 5": true,
+    "weak roots noncentral 5": true,
+    "inverse class same characters 5": true,
+    "integral phase (7, False, '+1', 0)": true,
+    "integral phase (7, False, '+1', 1)": true,
+    "integral phase (7, False, '+1', 2)": true,
+    "integral phase (7, False, '+1', 3)": true,
+    "integral phase (7, False, '+1', 4)": true,
+    "integral phase (7, False, '+1', 5)": true,
+    "integral phase (7, False, '+1', 6)": true,
+    "integral phase (7, False, '+1', 7)": true,
+    "integral phase (7, False, '+1', 8)": true,
+    "integral phase (7, False, '+1', 9)": true,
+    "integral phase (7, False, '+1', 10)": true,
+    "integral phase (7, False, '+1', 11)": true,
+    "integral phase (7, False, '-1', 0)": true,
+    "integral phase (7, False, '-1', 1)": true,
+    "integral phase (7, False, '-1', 2)": true,
+    "integral phase (7, False, '-1', 3)": true,
+    "integral phase (7, False, '-1', 4)": true,
+    "integral phase (7, False, '-1', 5)": true,
+    "integral phase (7, False, '-1', 6)": true,
+    "integral phase (7, False, '-1', 7)": true,
+    "integral phase (7, False, '-1', 8)": true,
+    "integral phase (7, False, '-1', 9)": true,
+    "integral phase (7, False, '-1', 10)": true,
+    "integral phase (7, False, '-1', 11)": true,
+    "integral phase (7, True, '+i', 0)": true,
+    "integral phase (7, True, '+i', 1)": true,
+    "integral phase (7, True, '+i', 2)": true,
+    "integral phase (7, True, '+i', 3)": true,
+    "integral phase (7, True, '+i', 4)": true,
+    "integral phase (7, True, '+i', 5)": true,
+    "integral phase (7, True, '+i', 6)": true,
+    "integral phase (7, True, '+i', 7)": true,
+    "integral phase (7, True, '+i', 8)": true,
+    "integral phase (7, True, '+i', 9)": true,
+    "integral phase (7, True, '+i', 10)": true,
+    "integral phase (7, True, '+i', 11)": true,
+    "integral phase (7, True, '-i', 0)": true,
+    "integral phase (7, True, '-i', 1)": true,
+    "integral phase (7, True, '-i', 2)": true,
+    "integral phase (7, True, '-i', 3)": true,
+    "integral phase (7, True, '-i', 4)": true,
+    "integral phase (7, True, '-i', 5)": true,
+    "integral phase (7, True, '-i', 6)": true,
+    "integral phase (7, True, '-i', 7)": true,
+    "integral phase (7, True, '-i', 8)": true,
+    "integral phase (7, True, '-i', 9)": true,
+    "integral phase (7, True, '-i', 10)": true,
+    "integral phase (7, True, '-i', 11)": true,
+    "all248 retained 7": true,
+    "weak roots noncentral 7": true,
+    "inverse class same characters 7": true,
+    "integral phase (9, False, '+1', 0)": true,
+    "integral phase (9, False, '+1', 1)": true,
+    "integral phase (9, False, '+1', 2)": true,
+    "integral phase (9, False, '+1', 3)": true,
+    "integral phase (9, False, '+1', 4)": true,
+    "integral phase (9, False, '+1', 5)": true,
+    "integral phase (9, False, '+1', 6)": true,
+    "integral phase (9, False, '+1', 7)": true,
+    "integral phase (9, False, '+1', 8)": true,
+    "integral phase (9, False, '+1', 9)": true,
+    "integral phase (9, False, '+1', 10)": true,
+    "integral phase (9, False, '+1', 11)": true,
+    "integral phase (9, False, '-1', 0)": true,
+    "integral phase (9, False, '-1', 1)": true,
+    "integral phase (9, False, '-1', 2)": true,
+    "integral phase (9, False, '-1', 3)": true,
+    "integral phase (9, False, '-1', 4)": true,
+    "integral phase (9, False, '-1', 5)": true,
+    "integral phase (9, False, '-1', 6)": true,
+    "integral phase (9, False, '-1', 7)": true,
+    "integral phase (9, False, '-1', 8)": true,
+    "integral phase (9, False, '-1', 9)": true,
+    "integral phase (9, False, '-1', 10)": true,
+    "integral phase (9, False, '-1', 11)": true,
+    "integral phase (9, True, '+i', 0)": true,
+    "integral phase (9, True, '+i', 1)": true,
+    "integral phase (9, True, '+i', 2)": true,
+    "integral phase (9, True, '+i', 3)": true,
+    "integral phase (9, True, '+i', 4)": true,
+    "integral phase (9, True, '+i', 5)": true,
+    "integral phase (9, True, '+i', 6)": true,
+    "integral phase (9, True, '+i', 7)": true,
+    "integral phase (9, True, '+i', 8)": true,
+    "integral phase (9, True, '+i', 9)": true,
+    "integral phase (9, True, '+i', 10)": true,
+    "integral phase (9, True, '+i', 11)": true,
+    "integral phase (9, True, '-i', 0)": true,
+    "integral phase (9, True, '-i', 1)": true,
+    "integral phase (9, True, '-i', 2)": true,
+    "integral phase (9, True, '-i', 3)": true,
+    "integral phase (9, True, '-i', 4)": true,
+    "integral phase (9, True, '-i', 5)": true,
+    "integral phase (9, True, '-i', 6)": true,
+    "integral phase (9, True, '-i', 7)": true,
+    "integral phase (9, True, '-i', 8)": true,
+    "integral phase (9, True, '-i', 9)": true,
+    "integral phase (9, True, '-i', 10)": true,
+    "integral phase (9, True, '-i', 11)": true,
+    "all248 retained 9": true,
+    "weak roots noncentral 9": true,
+    "inverse class same characters 9": true,
+    "integral phase (11, False, '+1', 0)": true,
+    "integral phase (11, False, '+1', 1)": true,
+    "integral phase (11, False, '+1', 2)": true,
+    "integral phase (11, False, '+1', 3)": true,
+    "integral phase (11, False, '+1', 4)": true,
+    "integral phase (11, False, '+1', 5)": true,
+    "integral phase (11, False, '+1', 6)": true,
+    "integral phase (11, False, '+1', 7)": true,
+    "integral phase (11, False, '+1', 8)": true,
+    "integral phase (11, False, '+1', 9)": true,
+    "integral phase (11, False, '+1', 10)": true,
+    "integral phase (11, False, '+1', 11)": true,
+    "integral phase (11, False, '-1', 0)": true,
+    "integral phase (11, False, '-1', 1)": true,
+    "integral phase (11, False, '-1', 2)": true,
+    "integral phase (11, False, '-1', 3)": true,
+    "integral phase (11, False, '-1', 4)": true,
+    "integral phase (11, False, '-1', 5)": true,
+    "integral phase (11, False, '-1', 6)": true,
+    "integral phase (11, False, '-1', 7)": true,
+    "integral phase (11, False, '-1', 8)": true,
+    "integral phase (11, False, '-1', 9)": true,
+    "integral phase (11, False, '-1', 10)": true,
+    "integral phase (11, False, '-1', 11)": true,
+    "integral phase (11, True, '+i', 0)": true,
+    "integral phase (11, True, '+i', 1)": true,
+    "integral phase (11, True, '+i', 2)": true,
+    "integral phase (11, True, '+i', 3)": true,
+    "integral phase (11, True, '+i', 4)": true,
+    "integral phase (11, True, '+i', 5)": true,
+    "integral phase (11, True, '+i', 6)": true,
+    "integral phase (11, True, '+i', 7)": true,
+    "integral phase (11, True, '+i', 8)": true,
+    "integral phase (11, True, '+i', 9)": true,
+    "integral phase (11, True, '+i', 10)": true,
+    "integral phase (11, True, '+i', 11)": true,
+    "integral phase (11, True, '-i', 0)": true,
+    "integral phase (11, True, '-i', 1)": true,
+    "integral phase (11, True, '-i', 2)": true,
+    "integral phase (11, True, '-i', 3)": true,
+    "integral phase (11, True, '-i', 4)": true,
+    "integral phase (11, True, '-i', 5)": true,
+    "integral phase (11, True, '-i', 6)": true,
+    "integral phase (11, True, '-i', 7)": true,
+    "integral phase (11, True, '-i', 8)": true,
+    "integral phase (11, True, '-i', 9)": true,
+    "integral phase (11, True, '-i', 10)": true,
+    "integral phase (11, True, '-i', 11)": true,
+    "all248 retained 11": true,
+    "weak roots noncentral 11": true,
+    "inverse class same characters 11": true,
+    "full zero-phase Fourier square": true,
+    "integer beta control (-1, -3)": true,
+    "integer beta control (-1, -2)": true,
+    "integer beta control (-1, -1)": true,
+    "integer beta control (-1, 0)": true,
+    "integer beta control (-1, 1)": true,
+    "integer beta control (-1, 2)": true,
+    "integer beta control (-1, 3)": true,
+    "integer beta control (1, -3)": true,
+    "integer beta control (1, -2)": true,
+    "integer beta control (1, -1)": true,
+    "integer beta control (1, 0)": true,
+    "integer beta control (1, 1)": true,
+    "integer beta control (1, 2)": true,
+    "integer beta control (1, 3)": true,
+    "noninteger unit comparator can erase projected mass": true
+  },
+  "records": {
+    "angle_labels": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23
+    ],
+    "inverse_representatives": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11
+    ],
+    "classes": [
+      {
+        "m": 1,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                16
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                1
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                9
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                8,
+                3
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                9
+              ],
+              [
+                11,
+                9
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          0,
+          0
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 3,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                17
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                17
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                17
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                17
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                17
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                17
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          17,
+          17
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 5,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                16
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                3
+              ],
+              [
+                11,
+                9
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          0,
+          0
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 7,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                16
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                9
+              ],
+              [
+                11,
+                3
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                9
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                8,
+                3
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          0,
+          0
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 9,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                17
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                17
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                17
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                17
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                17
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                17
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          11,
+          11
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      },
+      {
+        "m": 11,
+        "even": [
+          [
+            "+1",
+            [
+              [
+                0,
+                32
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                16
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                1
+              ]
+            ]
+          ],
+          [
+            "-1",
+            [
+              [
+                0,
+                16
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                11,
+                0
+              ]
+            ]
+          ]
+        ],
+        "odd": [
+          [
+            "+i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ]
+          ],
+          [
+            "-i",
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                0
+              ],
+              [
+                10,
+                3
+              ],
+              [
+                11,
+                3
+              ]
+            ]
+          ]
+        ],
+        "odd_zero_phase_ranks": [
+          0,
+          0
+        ],
+        "full_parallel_gauge_dimension": 15,
+        "diagonal_Y_invariants": 0
+      }
+    ],
+    "canonical_zero_phase_beta_squared_floor": "1/4",
+    "canonical_even_tail_squared_floor": "3/16"
+  },
+  "all_passed": true,
+  "scope": "complete stated commuting weak family and conditional projected spectral distinction, not physics admission"
+}

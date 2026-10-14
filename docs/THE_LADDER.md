@@ -1,5 +1,14 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October14 complete commuting weak family:328/162 exact,154 live
+PASS177.65s at dd2a54119,37pins/tree unchanged. Six classes; two have
+odd zero phases but canonical radial mass persists, giving conditional
+Fredholm path without selecting favourable angle. Not global index or
+physical kernel; gauge-axis cost15 persists. NEXT actual geometric loop/
+domain/R/reality map (Hain1309.0580 §1.1 now read), analytic scrutiny,
+SAME-parent stationary charged spectrum/interactions/end/anomalies.
+Report: reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/FINDINGS.md.
+
 October14 same-parent field joint:27/23 exact and145 live PASS80.92s
 at published e0f51c494,18pins/tree unchanged. W75 ordinary U2-U4 replay
 positive; old q,r are spin-valued, not automatically ordinary K Higgs.

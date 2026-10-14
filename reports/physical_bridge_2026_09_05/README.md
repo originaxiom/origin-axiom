@@ -1,5 +1,12 @@
 # Physical bridge audit — 2026-09-05
 
+October14 ALL commuting weak completions:328/162 exact,154 live
+PASS177.65s,37pins/tree unchanged at dd2a54119. Six classes; two odd
+zero phases retain canonical radial mass, conditional Fredholm path
+not actual spectrum/index. Gauge-axis cost persists, no good-angle
+selection. NEXT geometric/domain/R/reality plus same-parent physical
+stationarity/interactions. Report surface_weak_completions_2026_10_14/FINDINGS.md.
+
 October14 typed incoming field/portal join:27/23 exact and145 live
 PASS80.92s,18pins/tree unchanged at published e0f51c494. W75 U2-U4
 ordinary positive reproduced; spin q(S) not automatically ordinary

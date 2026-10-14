@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October14 whole commuting weak family:328/162 exact,154 live
+PASS177.65s,37pins/tree unchanged at dd2a54119. Six classes, two odd
+zero-phase classes still canonically gapped at0 under actual projected
+radial/conditional Schur argument. No favourable angle selected, no
+global kernel/index computed. Gauge15/old weak-Y cost persists.
+Geometric/domain/R/reality, stationary same-parent physics and SM+
+gravity/genesis remain owed. New Hain §1.1 geometry pointer read,
+actual dictionary untested. Report under physical-bridge:
+surface_weak_completions_2026_10_14/FINDINGS.md.
+
 October14 typed field joint:27/23 exact,145 live PASS80.92s at
 published e0f51c494,18pins/tree unchanged. Old hyperbolic punctured-fibre
 condensate and W75 ordinary U2-U4 both preserved. Spinor q(S) versus

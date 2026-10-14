@@ -1,0 +1,36 @@
+{
+  "tests": [
+    "tests/test_physical_bridge_surface_based_gauge.py",
+    "tests/test_physical_bridge_surface_odd_form.py",
+    "tests/test_physical_bridge_surface_even_channels.py",
+    "tests/test_physical_bridge_surface_full_even.py",
+    "tests/test_physical_bridge_surface_global_spin.py",
+    "tests/test_physical_bridge_surface_parent_dictionary.py",
+    "tests/test_physical_bridge_based_transition_prerequisite.py",
+    "tests/test_physical_bridge_weave_registered_embedding.py",
+    "tests/test_physical_bridge_weave_field_map.py",
+    "tests/test_physical_bridge_weave_gauge_limit.py",
+    "tests/test_physical_bridge_weave_companion_roster.py",
+    "tests/test_physical_bridge_surface_based_gauge_outcomes.py",
+    "tests/test_physical_bridge_spinor_uniformization_joint.py",
+    "tests/test_physical_bridge_weave_curved_action.py",
+    "tests/test_physical_bridge_weave_cusp_condensate.py",
+    "tests/test_physical_bridge_weave_graded_condensate.py",
+    "tests/test_pinned_source_path_references.py",
+    "tests/test_physical_bridge_surface_weak_completions.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 183.46731600000203,
+  "tracked_files": 12679,
+  "tracked_unchanged": true,
+  "fingerprint_before": "7a6a5017d3d5ae4bab1c571578d726f158947b88ab4acd24a6c87e3dd035ba24",
+  "fingerprint_after": "7a6a5017d3d5ae4bab1c571578d726f158947b88ab4acd24a6c87e3dd035ba24",
+  "stdout": {
+    "bytes": 272,
+    "sha256": "472ca77f5d7cc13d4424d202cd5be3d837dc78b28338cbee28d91a1ac43e5eb7"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

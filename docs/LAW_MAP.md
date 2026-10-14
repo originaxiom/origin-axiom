@@ -1,5 +1,14 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October14 all weak-completion family, path-local not numbered banking.
+328/162 exact,154 live PASS,37pins/tree unchanged at published dd2a54119.
+
+| Scoped statement | New proof and LIVE safeguard |
+|---|---|
+| ALL commuting weak corrections to fixed actual SU6 braid lifts force equal D and D^12=-I2: six weak conjugacy classes. | B1641 coefficient antecedent ONLY; NEW surface_weak_completions_2026_10_14/PROOF; tests/test_physical_bridge_surface_weak_completions.py::test_complete_family_not_all_normalizers and test_both_whole_family_exact_methods. Not noncommuting/all-E8 classification or selection. |
+| Two classes have zero odd phases, but actual canonical zero-phase square has beta^2>=1/4 for every integer unit/both extreme signs; no zero-phase=gapless inference. | B1641 move antecedent ONLY; NEW family PROOF radial/resolvent argument; test_zero_phase_is_not_massless_in_canonical_parent. Infinite-dimensional Fredholm conclusion authored CONDITIONAL on actual admitted domain/Q/projection/local compactness, not certified by finite test or physical index. |
+| Same gauge-axis cost15 and diagonal block Y kernel0 persists across the whole stated completion family. | B1641 coefficient antecedent ONLY; credited full-based commutant; test_no_repaired_SM_axes_silently_imported. Not all gauge backgrounds or architecture-wide SM kill. |
+
 October14 typed field/interaction audit, path-local not numbered banking.
 27/23 exact,145 live PASS at published e0f51c494,18 pins/tree unchanged.
 New proof: spinor_uniformization_joint_2026_10_14 under physical-bridge

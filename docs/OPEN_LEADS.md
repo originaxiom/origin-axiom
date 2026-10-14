@@ -1,5 +1,20 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-SURFACE-COMMUTING-WEAK-COMPLETION-FAMILY: completed for ALL
+commuting weak corrections to fixed SU6 lifts/colour identity.328/162
+exact and154 live PASS at published dd2a54119,37pins/tree unchanged.
+Six classes; two zero-phase odd populations17/17,11/11. Canonical
+radial mass and conditional Q/resolvent argument retain Fredholm path
+across family without good-angle selection; ordinary0 even remains.
+Same gauge15/specified weak/Y cost; other noncommuting/changed gauge
+completions preserved, not excluded or selected. Actual graded kernel
+and physical charged map remain OPEN. PB-GEOMETRIC-BASED-DOMAIN-JOINT
+next: Hain1309.0580 §1.1 universal punctured elliptic extension and
+tangential/puncture central quotient, read personally, actual map owed.
+Source surface_weak_completions_2026_10_14 under physical-bridge reports.
+Then SAME-parent stationary interactions/Higgs/source/end/anomalies.
+No three/normalized SM/gravity/genesis/observer or qualia derived.
+
 PB-SPINOR-ORDINARY-HIGGS-PHYSICAL-JOINT: sharpened October14 by
 27/23 exact and145 live PASS at published e0f51c494,18pins/tree unchanged.
 Old condensate really on hyperbolic punctured elliptic fibre; attempted
