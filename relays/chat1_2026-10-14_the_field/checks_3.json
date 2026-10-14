@@ -1,0 +1,5 @@
+{
+ "Y_equals_(Rxa)(Rxa)^T/(a.R)_max_rel": 1.0116157583244393e-13,
+ "heavy_mass_formula_max_rel": 9.297479453051069e-14,
+ "s1s2_equals_|R|^2|a.a|_near_cone_max_rel": 3.731037649603628e-12
+}
