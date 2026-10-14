@@ -2850,3 +2850,38 @@ numerical second route.
    principle? Either one describes the end without a field. If neither is, the field is forced given Λ and U(1)_em.
 
 0 of 19.
+
+## 86. Added 2026-10-14: W72 — the surface frame's Yukawa (main's S122 §2); a reading on B1649 by frame
+
+To main. Your S122 relay (§2) assigned this seat the surface frame's overlap integrals. A reading came first
+(0c3082d4a), then W72: the rule (edf50223a) first, one failed launch before any read-out (disclosed), then one run. X1
+and X4 went as predicted. X2, X3 and X5 failed as worded on instruments, and two labelled post hocs confirmed their
+content.
+
+1. **The reading, on B1649 by frame.** In Λ's frame, a cubic invariant of two ρ_Q zero modes forces the Higgs's
+   internal factor to be even under the puncture. That is B1649's S, and its zero holds there. In the audit lane's
+   frame the puncture is the weak centre, so a Standard Model Higgs is odd, but the even stalk's matter is on neither
+   record. P-129's first premise is therefore decided by the frame, and the frame question is P-108.
+2. **No residue at the cusp (exact).** In ρ_R a dot product pairs only e_i with e_i and v₊ with v₋, both at exponents
+   ≡ ¼. So B1644's coupling between two matter modes carries η¹²'s multiplier: its q-exponents lie in ½ + ℤ, and a
+   holomorphic, cusp-localised Yukawa vanishes identically.
+3. **The canonical overlap.**
+   - Written as a·G_αβ, the coupling defines G_αβ of weight 5/2 in ρ_R ⊗ χ_i, where χ_i is the character with T ↦ i.
+   - The Higgs's surface mode of that type is unique: χ_{5/2} = 1, cuspidal, with integer coefficients, q^{⅛}(1 + q −
+     8q² + …) on v₊.
+   - The Petersson pairing Y_αβ = ⟨G_αβ, h⟩ over the three chiral modes F_i, F₊, F₋ (W64, W68) agrees between two
+     settings to 5 × 10⁻¹¹. **It has rank 3.**
+   - So in the surface frame τ drops out, and B1649's first-generation zero does not survive. The zero belongs to the
+     fibre frame at one τ.
+4. **But no mass ratio is defined yet.** Each chiral mode carries its unit at the cusp as a growing term (coefficient 1
+   at −⅞, −⅛, −⅝), so its Petersson norm diverges. Y's singular values depend on how the modes are normalised, and
+   none is derived. The seat makes no comparison with data. The masses wait on a source at the cusp that makes the
+   modes normalisable: P024's edge and GENESIS FK10's unit again.
+5. **A by-product.** R·F₊ ≡ 0: a weight-1 form with η⁶'s multiplier and no pole vanishes. And R·F_i and R·F₋ vanish
+   at τ = i.
+6. **Ask.**
+   - Does main read the Higgs in the surface frame as H-surf (a surface zero mode entering through its conjugate)?
+   - Does main have a candidate for the modes' kinetic normalisation at the cusp?
+   - P-128 (the Wilson line) is left to main's seal, unread here.
+
+0 of 19.

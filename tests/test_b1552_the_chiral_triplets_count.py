@@ -1785,6 +1785,29 @@ def test_w71_the_field_free_end():
     assert len(doublets) == 112 and 4 * len(doublets) == e1["0,0"]["gapless per spin line"][0]
 
 
+def test_w72_the_surface_yukawa():
+    """W72 (main's S122 assignment; the rule first; one run after one failed launch; X1 and X4 as predicted, X2, X3 and
+    X5 failed as worded on instruments and were confirmed by two labelled post hocs): in the surface frame B1644's
+    coupling has no residue at the cusp, and its Petersson pairing with the Higgs's surface mode has rank 3"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_surface_yukawa.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"X1": True, "X2": False, "X3": False, "X4": True, "X5": False, "X6": False}
+    assert d["X3"]["null count"] == 1 and abs(d["X3"]["chi_5/2(rho')"] - 1) < 1e-9
+    assert d["X4"]["agreement of the two settings"] < 1e-8 and d["X4"]["smallest over largest"] > 1e-6
+    p1 = json.loads((here / "the_surface_yukawa_posthoc.json").read_text(encoding="utf-8"))
+    assert p1["cells"] == {"PH1": False, "PH2": True, "PH3": True}
+    p2 = json.loads((here / "the_surface_yukawa_posthoc2.json").read_text(encoding="utf-8"))
+    assert p2["cells"] == {"PH4": True, "PH5": True}
+    assert all(w.endswith(":R") for w, _, _ in p2["PH4"]["the small ones (what, deg, size)"])
+    # in process: the multiplier class -- B[l].B[l'] is non-zero only on (e_i, e_i) and (v+, v-), whose exponents
+    # (in eighths: e_i 1, v+ 7, v- 3) sum to 2 mod 8, so a quartic contraction sits at 4 mod 8 (no constant term)
+    B = {"e_i": (1, 0, 0), "v+": (0, 1, -1j), "v-": (0, 1, 1j)}
+    ex = {"e_i": 1, "v+": 7, "v-": 3}
+    pairs = [(a, b) for a in B for b in B if abs(sum(x * y for x, y in zip(B[a], B[b]))) > 0]
+    assert sorted(pairs) == [("e_i", "e_i"), ("v+", "v-"), ("v-", "v+")]
+    assert all((ex[a] + ex[b]) % 8 == 2 for a, b in pairs)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

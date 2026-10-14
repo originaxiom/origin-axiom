@@ -486,6 +486,12 @@ Under the owner's rulings, the table's rows split into two groups:
   - With SU(3)_c × U(1)_em kept and gauge data only, the end stays bare (448 gapless pairs).
   - So P024's passage holds only given Λ's dictionary, no R-holonomy and U(1)_em; then the end needs a non-flat
     datum, such as the cusp condensate. Whether the field is forced reduces to GENESIS FK11. 0 of 19.
+- **W72, the surface frame's Yukawa (main's S122 assignment; rule first; X1 and X4 as predicted; three cells failed as
+  worded on instruments, confirmed by two labelled post hocs):**
+  - B1644's coupling has no residue at the cusp. Its Petersson pairing with the Higgs's unique weight-5/2 surface mode
+    is parameter-free, of rank 3: τ drops out, and B1649's first-generation zero does not survive.
+  - The three modes are not normalisable (their units at the cusp), so no mass ratio is defined until the cusp
+    carries a source. 0 of 19.
 
 ## Questions open with main
 
@@ -501,7 +507,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W71 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W72 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§85).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§86).

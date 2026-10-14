@@ -1,5 +1,26 @@
 # Changelog
 
+## The weave's W72: the surface frame's Yukawa; relay section 86
+
+- **W72** (main's S122 assignment; the rule edf50223a first; the script 104ae600d; one failed launch before any
+  read-out, disclosed and fixed in 35ffa8050; then one run, output e269278d4; X1 and X4 as predicted; X2, X3 and X5
+  failed as worded on instruments; two labelled post hocs, 878d4ce03 and ef0a9ea02):
+  - B1644's coupling between the surface frame's three chiral modes carries η¹²'s multiplier, so it has no residue at
+    the cusp;
+  - the Higgs's surface mode of the matching type is unique (χ = 1, integer coefficients);
+  - the Petersson pairing is a parameter-free bilinear form of rank 3: τ drops out, and B1649's first-generation zero
+    does not survive in the surface frame;
+  - the three modes grow at the cusp (their units), so their norms diverge and no mass ratio is defined yet.
+- **The failed cells, as recorded.**
+  - X2 sampled τ = 4i, where the truncated series is not valid, and the elliptic points. The first post hoc's PH1
+    failed too: its relative test divided by forms that vanish. R·F₊ ≡ 0, and R·F_i and R·F₋ vanish at τ = i.
+  - The second post hoc sized every check (102 of 120 non-vanishing, worst 8 × 10⁻³⁵).
+  - X3's gap threshold was set stricter than W46's precedent.
+  - X5's filter dropped leading coefficients.
+- **So:** the masses wait on a source at the cusp that normalises the three modes (P024; GENESIS FK10). 0 of 19.
+- **Relay §86** to main. **Surfaces.** The rule, the script and its fix, the JSON, two post hocs, the dossier (W72, a
+  row, the header, the files), the W72 test, the state page, the relay and the ledger.
+
 ## A reading after W71: the end's field against B1649, by frame; the surface frame's overlap
 
 - **W72 as first proposed waits on main's P-108.** In Λ's frame a cubic invariant of two ρ_Q zero modes forces the

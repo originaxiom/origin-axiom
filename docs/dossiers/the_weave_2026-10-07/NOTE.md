@@ -180,6 +180,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   generic R-symmetry holonomy, and a weak Wilson line, and each gives something up: the dictionary, the R-symmetry, or
   U(1)_em. With SU(3)_c × U(1)_em kept and gauge data only, the end stays bare (448 gapless pairs). So P024's passage
   fails as written, and holds given Λ's dictionary, no R-holonomy and U(1)_em: then the end needs a non-flat datum.
+- W72 (main's S122 assignment; rule first; X1 and X4 as predicted; X2, X3 and X5 failed as worded on instruments,
+  confirmed by two labelled post hocs): in the surface frame, B1644's coupling between the three chiral modes paired
+  with the Higgs's unique surface mode (weight 5/2) is a parameter-free bilinear form of rank 3. τ drops out, and
+  B1649's first-generation zero does not survive. But the three modes are not normalisable (their units at the cusp),
+  so no mass ratio is defined until the cusp carries a source.
 
 ## The setting
 
@@ -5927,6 +5932,78 @@ W46, W64 and W68) showed that the question is not yet posed. Main's S122 relay a
 - **W72, proposed:** compute the multipliers on the record's sections, the Higgs's surface mode, the Petersson Yukawa
   and its rank, rule first.
 
+## W72. The surface frame's Yukawa: τ drops out and the first generation's zero is lifted (rank 3), but no mass ratio is defined, because the three modes are not normalisable (`the_surface_yukawa.py`; `W72_RULE.md`; post hoc `the_surface_yukawa_posthoc.py`, `the_surface_yukawa_posthoc2.py`)
+
+**Why.**
+- **Main's S122 relay, §2, assigns it.** In the surface frame τ is integrated over, so a hierarchy is an overlap
+  integral, which neither record had.
+- **The reading came first** (0c3082d4a). The puncture-odd Higgs version of W72 waits on main's P-108. In the surface
+  frame, B1644's coupling has no residue at the cusp, and the canonical overlap is the Petersson pairing with the
+  Higgs's surface mode.
+
+**The order.**
+- **The rule first** (`W72_RULE.md`, edf50223a).
+- **The script** (104ae600d), committed before its run. Pre-run review raised the product series' cap from exponent 14
+  to 30.
+- **One failed launch, disclosed** (fixed in 35ffa8050). It crashed in the pairing's lower region after 518 seconds,
+  before any read-out: an mpmath height entered the numpy quadrature. No output was written.
+- **The run.** One run (519 seconds); its output committed before the read-out (e269278d4).
+- **Two labelled post hocs,** each committed before its run:
+  - the first (f3314f538, output 878d4ce03);
+  - the second (889c80191, output ef0a9ea02), which re-runs a scratch diagnosis of the first's failure. That
+    diagnosis ran before any commit, and is disclosed here.
+
+**The read-out (COMPUTED; X1 and X4 as predicted; X2, X3 and X5 failed as worded, on instruments; X6 with them).**
+- **X1, the multipliers (as predicted, exact).**
+  - B[l]·B[l′] is non-zero only on (e_i, e_i), equal to 1, and on (v₊, v₋), equal to 2. Both exponent sums are ≡ ¼.
+  - Every exponent of every f_αβ(a) lies in ½ + ℤ, and every exponent of G_αβ lies in ρ′'s classes.
+  - So B1644's coupling between two matter modes has no constant term, and no residue at the cusp.
+- **X2, the multipliers numerically (failed as worded; the instrument).** The largest deviation was 10⁵⁷. The rule's
+  sample included τ = 4i, where Im(−1/τ) = ¼ and the truncated series of these growing forms is not valid. It also
+  included the elliptic points i and ω. Post hoc:
+  - **PH1** used five points on the unit arc, where both Im are at least 0.9. It failed as worded too, with a largest
+    relative deviation of 2.9.
+  - **PH4** (the second post hoc) sized every check. Of the 120 checks, 102 have |value| above 10⁻²⁵, and
+    among those the largest relative deviation is 8.2 × 10⁻³⁵. Every small one has a = R.
+  - **PH5** says why.
+    - R·F₊ is a weight-1 form with η⁶'s multiplier and no pole, so it vanishes identically. Its coefficients below
+      exponent 4 are at most 1.3 × 10⁻³². So f_αβ(R) ≡ 0 for every pair with F₊.
+    - R·F_i and R·F₋ vanish at τ = i (below 4 × 10⁻³⁹), the elliptic point where E₁₀ does. They are non-zero
+      elsewhere: 682 and 341 at 75°.
+    - So the laws hold wherever the forms do not vanish.
+- **X3, the Higgs's surface mode (failed as worded; the gap threshold).**
+  - χ_{5/2}(ρ′) = 1 by W45's formula, and the collocation's null count is 1. The 40-digit residual is 2 × 10⁻⁴¹.
+  - But the separating singular value is 1.75 × 10⁻⁷ against 1.7 × 10⁻¹⁶, below the rule's 10⁻⁶ threshold. W46's
+    zero counts showed gaps of 1.4 to 3.1 × 10⁻⁷; the threshold was set too strictly.
+  - The mode h has integer coefficients: q^{⅛}(1 + q − 8q² + …) on v₊, 4q^{⅜}(1 − q − 5q² + …) on e_i, and
+    −4q^{⅝}(1 − 3q + 2q² + …) on v₋.
+- **X4, the Yukawa's rank (as predicted).**
+  - Y_αβ = ⟨G_αβ, h⟩ agrees between the settings (Y₀, nodes) = (1.25, 64) and (2.0, 96) to 4.8 × 10⁻¹¹.
+  - Its singular values in the basis (F_i, F₊, F₋) are 76 597, 2 788 and 57.4, so it has rank 3.
+- **X5, the modes' norms (failed as worded; the filter).** The rule's filter measured coefficients relative to the
+  largest. The largest reach 10³⁶ to 10³⁸ (PH2), so the filter dropped the leading ones. Read unfiltered (PH2), each
+  mode has coefficient exactly 1 at its negative exponent: −⅞, −⅛ and −⅝. So each Petersson norm diverges.
+- **X6 (failed as worded, since X3 and X5 did).** With the post hocs, its content holds: h is unique, Y has rank 3,
+  and the three modes are not normalisable.
+
+**What it shows (a READING; given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf).**
+- **In the surface frame τ drops out, and B1649's zero does not survive.** The overlap pairs the matter's coupling
+  vector with the Higgs's unique surface mode. It is a fixed bilinear form of full rank, with no free number. B1649's
+  massless generation belongs to the fibre frame at one τ.
+- **But no mass ratio is defined yet.** The three generations exist in the surface frame only with a unit at the cusp,
+  and the unit makes them grow there, so their kinetic terms diverge. Y's singular values depend on how each mode is
+  normalised. In the normalisation by the unit's coefficient they are 1 : 0.036 : 0.00075, but that normalisation is
+  not derived, and no comparison with data is made.
+- **So the masses wait on the same edge as the field and the count.** A source at the cusp that makes the three modes
+  normalisable would fix their kinetic terms (P024; GENESIS FK10). That is the next question, and a rule would have
+  to fix the normalisation before any data are read.
+- **A by-product: R·F₊ ≡ 0.** In the surface frame the residue triplet is orthogonal to the v₊-mode at every τ.
+- **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19.
+
+**Status.** COMPUTED (the rule first; one run after one failed launch; X1 and X4 as predicted; X2, X3 and X5 failed as
+worded on instruments, with their content confirmed by two labelled post hocs; X6 with them). A WEAVE result given the
+stated hypotheses. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6110,6 +6187,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W69 | COMPUTED (the rule first; one run; all three cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair′) | the weighted census: all 28 pairs of the seven parameter-free sections (weights −½, 3/2, 7/2), 21 952 assignments to the three charged sectors, each fitted at one τ. None passes: best χ² 99.9 (ER / EE / RG, near ω, using W68's δ² and δ¹ pairings), 26.4 at a 20% allowance; by weight 260 (−½ only), 154 (with 3/2), 100 (with 7/2). The data do not fix τ through any parameter-free section in the range. 0 of 19 |
 | W70 | COMPUTED (the rule first; one run, held for P024; all five cells as predicted; exact); a WEAVE result given the audit lane's registered E₈ embedding, H-charge and Λ | the cusp condensate's charge map: the admissible hypercharge (block-scalar on the 6, unbroken by the quaternion holonomies, reproducing the SM's five fields) is unique up to permuting the three units, (1/6, −5/6, 2/3); under it four of the 112 condensates are neutral colour-singlet doublets with \|Y\| = ½, and the lane's own α is one (Y = −½), leaving SU(3)_c × U(1)_em; the hypercharge tells the three units apart; post hoc (labelled): its normalisation is k_Y = 14/3, and the standard 5/3 is broken by the quaternion holonomies. 0 of 19 |
 | W71 | COMPUTED (the rule first; one run after one failed launch; all five cells as predicted; exact, with a numerical second route); a WEAVE result given the audit lane's embedding and parent, and Λ | the field-free end: on the forced quaternion holonomies, flat end data that gap every channel exist (the double twist, a generic R-holonomy, a weak Wilson line), giving up the dictionary, the R-symmetry or U(1)_em; with SU(3)_c × U(1)_em kept and gauge data only the end stays bare (448 gapless pairs); P024's passage holds only given Λ's dictionary, no R-holonomy and U(1)_em. 0 of 19 |
+| W72 | COMPUTED (the rule first; one run after one failed launch; X1 and X4 as predicted; X2, X3 and X5 failed as worded on instruments, confirmed by two labelled post hocs); a WEAVE result given Λ, B1644's coupling, the surface frame with GENESIS FK10's unit, and H-surf | the surface frame's Yukawa: B1644's coupling has no residue at the cusp (η¹²'s multiplier); its Petersson pairing with the Higgs's unique weight-5/2 surface mode is a parameter-free form of rank 3, so τ drops out and B1649's zero does not survive; the three modes are not normalisable, so no mass ratio is defined yet; R·F₊ ≡ 0. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -6171,6 +6249,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W70_RULE.md`: the rule, committed before the code; `the_cusp_condensate_charge_map.py` → `the_cusp_condensate_charge_map.json`: W70, the cusp condensate's charge map (the branching, the admissible hypercharges, the generations, the Higgs-like condensates, the lane's α and its unbroken subgroup).
 - `the_cusp_condensate_charge_map_posthoc.py` → `the_cusp_condensate_charge_map_posthoc.json`: W70's post hoc (labelled), the hypercharge's normalisation (k_Y two ways, the SU(5)-type control, the one-loop context).
 - `W71_RULE.md`: the rule, committed before the code; `the_field_free_end.py` → `the_field_free_end.json`: W71, the field-free end (the twists, the gauge Wilson lines, the R-holonomies, the model operator, the verdict).
+- `W72_RULE.md`: the rule, committed before the code; `the_surface_yukawa.py` → `the_surface_yukawa.json`: W72, the surface frame's Yukawa (the multipliers, the Higgs's surface mode, the Petersson pairing and its rank, the modes' norms); post hoc (labelled) `the_surface_yukawa_posthoc.py` → `the_surface_yukawa_posthoc.json` and `the_surface_yukawa_posthoc2.py` → `the_surface_yukawa_posthoc2.json`.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

@@ -18846,3 +18846,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the lightest generation is massless, but not the mass ratios, until the edge carries a source. That is the next
   computation, W72.
 
+## 2026-10-14 — W72: the couplings over the whole surface
+
+- **What was computed.** The couplings between the three generations and the field, averaged over the whole surface
+  as main proposed. The shape parameter τ disappears, as hoped.
+- **What it found.**
+  - The lightest generation is not forced to be massless there, unlike in main's fixed-τ picture.
+  - The three generations can't yet be given definite sizes. Each grows without bound near the edge, so their masses
+    have no fixed scale.
+  - No mass ratios are read off, and nothing is compared with data.
+- **Some checks failed as written,** because the tests used points where the functions are zero or where the series
+  is not valid. Two labelled follow-up checks confirmed the content.
+- **So the edge decides again.** Something at the edge has to tame the three generations before their masses mean
+  anything: the same edge that decides the field and the count. 0 of 19.
+
