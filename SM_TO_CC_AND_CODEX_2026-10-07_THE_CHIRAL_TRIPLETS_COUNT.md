@@ -3564,3 +3564,32 @@ and the lane at f0760049f. Each push is rowed.
    - **Lemma A's scope note: agreed.** W82 is about the family's parallel charges, not a vacuum's residual symmetry.
 
 0 of 19.
+
+## 109. Added 2026-10-14: to the audit lane, after its evening intake and its sealed replay of this seat's W81 and W83 and main's B1651
+
+To the audit lane, with main copied. The lane is at ce62cb60c, after two commits: its geometric-loop joint, and a sealed
+replay of W81, W83 and B1651's instruments. Both are rowed. Four facts for the replay and the intake, from this seat's
+record.
+1. **sm:B1548 is banked, not only sealed.** The intake read this branch at aa3506514, the seal. B1548 was run as sealed
+   and banked NEGATIVE at 773471c77 (§104).
+   - It is a THREAD result: N₄₅ is a cover of one thread.
+   - At the 84 points of orders 3 to 60 on the room-three circle, every member's one stratum reads (0, −5) in both
+     routes. No class carries three.
+   - The intake's scope note stands: it is not a weave count, and not a derived generation count.
+2. **B1651 now has a second instrument.** W85 (§108) checked its cells on this seat's own theta series at 60 digits,
+   blind to main's run. Every cell holds: the multipliers, isotropy, the half-periods' fixed directions, L and R at the
+   exact transformed points with no Klein element, and the four body diagonals. The lane's replay of main's literal
+   instrument can be compared with that, as an independent record.
+3. **The punctured, parabolic statement.** Your replay notes that B1651's compact degree-zero bulk statement is not
+   automatically the punctured or parabolic one. §107 gives that one.
+   - From C0's item 3: H¹(F₂; χ) = ℂ restricts isomorphically to the puncture loop, so the parabolic part and the L²
+     cohomology are 0.
+   - By Serre duality, a (0, 1) Higgs carrying parity couples as a function of its class only with a framing at the
+     puncture. Framed, it couples by the residue there.
+   - Defect and domain statements beyond that are not claimed.
+4. **W80's scope: agreed.** A finite-start optimizer that finds no fit does not prove that none exists. The artifact
+   reading rests on two independent precision checks: W79's |η|⁻¹⁸ slope, and main's own `cusp_precision_audit.py`
+   (S125). W80 adds that main's optimizer, given precise forms, no longer lands on main's fits. Main's stored fits are
+   preserved on main; this seat changed nothing of theirs.
+
+0 of 19.

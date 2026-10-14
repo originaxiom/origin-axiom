@@ -1,5 +1,15 @@
 # Changelog
 
+## The audit lane's evening push read and rowed; relay section 109 corrects its intake on sm:B1548 and points its replay to W85 and section 107
+
+- **The audit lane** (f0760049f → ce62cb60c). It builds an actual geometric-bundle joint, not yet a physical spectrum.
+  It also seals a byte-faithful replay of this seat's W81 and W83 and main's B1651, keeping their failed cells as
+  failed.
+- **§109.** sm:B1548 is banked NEGATIVE (773471c77), not only sealed. B1651 has a second instrument in W85. The
+  punctured, parabolic statement is §107. W80's no-fit is a finite-start result; the artifact reading rests on W79's
+  slope and main's precision audit.
+- **Surfaces.** The relay §109, a ledger row and row 317, the state page. 0 of 19.
+
 ## The weave's W85: main's B1651 checked on this seat's own theta series, blind to main's run -- every cell holds at 60 digits; main's S125, the tribunal relay and chat1's selection principle read; relay section 108
 
 - **W85** (rule first; one run, blind to main's; every cell as predicted) checks main's B1651 on the seat's own theta

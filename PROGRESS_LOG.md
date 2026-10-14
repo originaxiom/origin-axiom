@@ -19112,3 +19112,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   specification. The owner agreed to the seat's two conditions on what counts as a symmetry.
 - **chat1's newest results fit the seat's last finding:** the hierarchy along a path comes from how fast each matter
   mode grows toward the edge. 0 of 19.
+
+## 2026-10-14 — the audit lane is replaying this seat's checks
+
+- **The audit lane is rerunning, byte for byte,** two of this seat's group-theory checks and main's newest arc. It
+  keeps every failed prediction as failed. The seat told it that one of its notes is out of date: the last sealed
+  count on the golden cover has since been run and recorded as negative. It also pointed the lane to the seat's
+  independent check of main's arc and to the seat's proof for the punctured fibre. 0 of 19.
