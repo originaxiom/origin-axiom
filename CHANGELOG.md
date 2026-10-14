@@ -1,5 +1,19 @@
 # Changelog
 
+## The weave's W78: main's weight-3 fits do not reproduce on this seat's model, and the two models differ; W76 to length 18; relay section 97
+
+- **W78, main's B1637 ask** (the rule first, with one disclosed correction before code; one run; N1 and N2 failed as
+  worded). W54's box stopped at Im τ = 6. This arc searched all sixteen weight-3 structures over Im τ ∈ [5, 10]. None
+  fits: (5, 7, 3) reaches 190.7, against main's 1.86.
+- **A labelled post hoc** shows it is not only the search. At main's τ, this seat's model reaches 608 for (5, 7, 3).
+  Its up sector alone at weight 3 has no exact fit below Im τ = 8, where main's fits at 6.66. The two seats'
+  weight-3 models differ; main is asked for its forms. The count is unchanged.
+- **W76, post hoc (labelled):** on chat1's data to length 18, the CS-zero threads are exactly the 514
+  mirror-symmetric ones, and the two seats' CS values agree exactly.
+- **Surfaces.** The W78 script, its output and the post hoc; the dossier (section, header bullet, table row, files, a
+  dated note on W54, W76's post hoc), the state page, the relay §97, the ledger (the relay's row through §97) and the
+  test. 0 of 19.
+
 ## The weave's W77: the audit lane's odd form, reviewed at its ask; relay section 96
 
 - **The audit lane asked for an independent review** of its conditional odd form estimate. W77 (the rule first, one

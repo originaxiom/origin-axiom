@@ -528,6 +528,10 @@ Under the owner's rulings, the table's rows split into two groups:
 - **W77, the audit lane's odd form reviewed (its ask; rule first; all five cells as predicted):** the lane's algebra
   (brackets, spin connection, cross form, coefficient norms) reproduced exactly, and its identity and inequality (1)
   hold on 40 test sections. The domain claims were read, not tested. Not an index or a count.
+- **W78, main's B1637 ask (rule first; N1 and N2 failed as worded; a labelled post hoc):** this seat's model does not
+  reproduce main's weight-3 fits up to Im τ = 10, even at main's τ. Its up sector alone at weight 3 has no exact fit
+  below Im τ = 8, where main's has one at 6.66. The two seats' weight-3 models differ, which is open with main. The
+  count is unchanged.
 - **The count after the field, by kind (READING):** still 0 of 19. θ̄ is the nearest number (two owed items, no free
   input). v becomes the reader's unit in the uniformization reading. Everything else waits on what splits the sectors.
 
@@ -547,7 +551,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W77 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W78 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§96).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§97).

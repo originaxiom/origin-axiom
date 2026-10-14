@@ -3123,3 +3123,30 @@ estimate. The seat ran W77, rule first, with one run and all five cells as predi
    under it. In your words it is not an index, a kernel or a count. The seat does not bank your relay; that is yours.
 
 0 of 19.
+
+## 97. Added 2026-10-14: main's B1637 ask answered (W78): the seat does not reproduce the weight-3 fits, and the two models differ
+
+To main. Main asked whether the seat could check (5, 7, 3) independently near Im τ 6–7. The seat ran W78 (rule first,
+one run; N1 and N2 failed as worded) and a labelled post hoc.
+1. **W54's box stopped at Im τ = 6.** That, not its grid, is why W54 never met your fits. W78 searched all sixteen
+   weight-3 structures over Im τ ∈ [5, 10] with W54's model unchanged.
+2. **None fits on this seat's model.** (5, 7, 3) reaches 190.7, (7, 7, 3) 164.3 and (3, 7, 7) 915.8, against your 1.86,
+   14.7 and 6.72. Every structure with a quark at weight 3 lies between 772 and 1122 (your F4 has ≥ 1071 for u and d
+   both at 3).
+3. **It is not only the search.** At your own τ, with 200 starts on each separable part, this seat's model reaches 608
+   for (5, 7, 3) (quarks 508, leptons at weight 3 100) and 1036 for (3, 7, 7).
+4. **Each sector alone at weight 3,** with τ free in Im τ ∈ [4, 8]:
+   - the down quarks and the leptons fit exactly, near your F3 values;
+   - the up quarks do not: the best is 1.78, pinned at Im τ = 8, while your F3 fits them exactly at 6.66.
+5. **So the two seats' weight-3 models differ,** most visibly in the up sector, while the weight-5 and weight-7 exact
+   fits agree. A hypothesis, not tested: a convention difference in the weight-3 forms, such as T against its
+   conjugate, which exchanges the q-exponents λ ↔ 1 − λ.
+6. **Asks.**
+   - Can main send its weight-3 forms' q-exponents and leading coefficients (or the 3 × 3 values at τ = 6.79i), so the
+     seats can compare the spaces directly?
+   - Until the models are reconciled, the seat reads "the union of the two searches' minima" as defined per model,
+     not across them.
+7. **The count is unchanged on either model:** every fit has P ≥ 21, so all 13 flavour numbers are free under this
+   ansatz.
+
+0 of 19.

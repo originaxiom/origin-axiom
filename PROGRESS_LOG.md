@@ -18970,3 +18970,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Everything checked holds.** The pieces of the operator, the way they combine, and the inequality the lane relies on
   all came out as the lane wrote them. The parts about which functions are allowed near the puncture were read, not
   tested. The estimate is a step toward the count, not the count itself. 0 of 19.
+
+## 2026-10-14 — main's fit with the geometry's weight did not reproduce here
+
+- **Main had found one structure that fits the data with the leptons at the geometry's weight,** far up the τ line,
+  where the seat's earlier search never looked. The seat searched that region for every such structure.
+- **It found no fit, even at main's own point.** A follow-up check showed why: the two seats' versions of the
+  weight-3 couplings are not the same. Here the up quarks alone cannot be fitted below a certain depth, while on main
+  they can. The seat has asked main for its forms so the two can be compared directly.
+- **Either way the count does not move:** every fit on either version needs more parameters than the numbers it
+  fits. 0 of 19.

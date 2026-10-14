@@ -211,6 +211,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   seat's instruments. Its brackets, spin connection, cross form {V, H} = K₃E₃ + K₄E₄ and coefficient norms are
   reproduced exactly, in a second gamma representation. Its identity and inequality (1) hold on 40 numerical test
   sections in the physical norm. The domain claims were read, not tested.
+- W78 (main's B1637 ask; rule first, one disclosed correction before code; N1 and N2 failed as worded): every
+  structure with a sector at weight 3, searched up to Im τ = 10. This seat does not reproduce main's (5, 7, 3) fit
+  (190.7 against 1.86; 608 even at main's τ). A labelled post hoc finds the two seats' weight-3 models differ: the up
+  sector alone at weight 3 has no exact fit below Im τ = 8 here, where main fits it at 6.66. The count is unchanged.
 
 ## The setting
 
@@ -3888,6 +3892,9 @@ F1 failed as worded; post hoc P1 to P4); a WEAVE result on the ruled branch, giv
     τ ≈ 0.36 + 6.79i, and (3, 7, 7) reaches 6.72. Both lie near Im τ 6.7 to 6.8, which this grid did not resolve.
     W78 refines the grid there. Main also fits (7, 5, 5) and (7, 5, 7) exactly, where this search failed at 26 and
     28; this search found (5, 5, 5) and (5, 5, 7), which main's missed.)*
+    *(W78, the same day: this seat's model does not reach main's weight-3 fits even at main's τ, and its up sector
+    alone at weight 3 has no exact fit below Im τ = 8, where main's has one at 6.66. The two seats' weight-3 models
+    differ; which is the record's is open with main.)*
   - **Every Sym² T structure fails**, χ²_min between 94 and 199.
   - (7, 5, 5) and (7, 5, 7) fail at 26 and 28: u at 7 with d at 5 does not fit in this search, while u at 5 with d at
     7 fits exactly.
@@ -6397,6 +6404,62 @@ them. This is a consistency check, not a stress test.
 **Status.** COMPUTED (the rule first; one run; all five cells as predicted; exact where stated). A review of another
 seat's estimate: neither a weave nor a thread result. 0 of 19.
 
+## W78. Main's B1637 ask: every structure with a sector at weight 3, searched up to Im τ = 10. This seat does not reproduce main's (5, 7, 3) fit, and a labelled post hoc finds the two seats' weight-3 models differ in the up sector (`the_weight_three_refined.py`; `W78_RULE.md`; post hoc `the_weight_three_refined_posthoc.py`)
+
+**Why.**
+- **Main asked for it.** Main's B1637 fits T ⊗ T (5, 7, 3) at χ² = 1.86 near τ ≈ 0.36 + 6.79i, and (3, 7, 7) at 6.72.
+  This refutes W54's sentence "every structure with a sector at weight 3 fails". Main asked the seat to check (5, 7, 3)
+  independently.
+- **W54's box stopped at Im τ = 6,** so it could not have found main's fits at any grid resolution. This arc searches
+  all sixteen weight-3 structures in the window Im τ ∈ [5, 10], with W54's model unchanged.
+
+**The order.**
+- **The rule first** (`W78_RULE.md`, a73cf802b). Its control's S-check was moved near the unit circle before any code
+  (65873c510, disclosed): at the far points −1/τ lies below the forms' series domain.
+- **The script** (ba09a2c3f), committed before its run.
+- **The run.** One run, 74 minutes on four processes; its output committed before the read-out (a330373d4).
+- **A labelled post hoc** (2d36be065, before its run; output ba82e2573): this seat's model at main's τ, and each sector
+  alone at weight 3.
+
+**The read-out (COMPUTED; N0, N3 and N4 as predicted; N1 and N2 FAILED as worded).**
+- **N0, the control (holds).** The shape observables change by at most 1.4 × 10⁻⁹ under τ → τ + 1 at the far points,
+  and 1 × 10⁻¹² under τ → −1/τ near the unit circle.
+- **N1 and N2, (5, 7, 3) (FAILED).** The grid route reaches χ² = 190.7 at τ ≈ −0.49997 + 5.48i, against main's 1.86.
+  The minimum sits at the window's x-bound, which the bounded search cannot cross although x = ±½ are identified.
+  Refined from main's τ with the nearest grid point's α, the search stays at main's τ at 825.6.
+- **N3, (3, 7, 7) (holds).** 915.8 at τ ≈ 0 + 8.19i: it does not fit here. Main has 6.72.
+- **N4 (holds).** No structure with a quark sector at weight 3 fits in the window (all 772 to 1122).
+- **Every structure's minimum (a = 0.10).** (5, 5, 3) 121.6; (7, 5, 3) 136.6; (7, 7, 3) 164.3 (main 14.7); (5, 7, 3)
+  190.7 (main 1.86); every structure with a quark at weight 3 from 772.8 to 1121.7. None fits.
+
+**The post hoc (labelled; it decides between a missed fit and a different model).**
+- **At main's τ, with 200 starts per part** (the quark and lepton parts separate at fixed τ):
+  - (5, 7, 3): the quark part reaches 508 and the leptons at weight 3 reach 100, a total of 608 against main's 1.86;
+  - (3, 7, 7): the quark part reaches 1036, with the leptons at 0.
+- **Each sector alone at weight 3, τ free in Im τ ∈ [4, 8], 60 starts:**
+  - the down quarks fit exactly (5 × 10⁻³⁰, Im τ 5.11; main 5.09);
+  - the leptons fit exactly (2 × 10⁻²⁹, Im τ 5.90; main 5.85);
+  - the up quarks do not: the best is 1.78, pinned at the window's edge Im τ = 8. Main fits them exactly at Im τ 6.66.
+  - An exact single-sector fit at weight 3 is a two-dimensional family (the complex ratio of two coefficients and τ,
+    against two mass ratios), so the small d and e differences mean nothing. The up sector's failure in the window
+    does.
+
+**What it shows (a READING).**
+- **The seat cannot reproduce main's weight-3 fits, and the reason is not only the search.** At main's own τ, heavy
+  multi-start fits of this seat's model stay far above main's χ². The up sector alone at weight 3 has no exact fit
+  below Im τ = 8 here, where main's has one at 6.66.
+- **So the two seats' weight-3 models differ,** most visibly in the up sector, while the weight-5 and weight-7 fits
+  agree (W54 and B1637 find the same exact fits near Im τ 3.4). That is a fact about the instruments, to be resolved
+  between the seats before either weight-3 statement is banked.
+- **A hypothesis, not tested:** a convention difference in the weight-3 forms, for example T against its conjugate. That
+  exchanges the q-exponents λ ↔ 1 − λ, and would move the up sector's exact fits deeper toward the cusp, as seen here.
+- **What stands.** W54's sentence holds on this seat's model in the window to Im τ = 10. Main's refutation holds on
+  main's model. Which model is the record's is the question for main. Every fit on either model has P ≥ 21, so the
+  count is unchanged: all 13 flavour numbers free under this ansatz. 0 of 19.
+
+**Status.** COMPUTED (the rule first, with one disclosed correction before any code; one run; N0, N3 and N4 as
+predicted; N1 and N2 failed as worded; a labelled post hoc). A WEAVE result on the ruled branch, given Λ. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6586,6 +6649,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W75 | COMPUTED (the rule first; one run; all four cells as predicted; exact where stated); U1 a weave-type census verifying chat1's, U2 to U4 fibre-level, under H-RES and §91's reading | chat1's scale check on this seat's instruments: b++swap(W) ≅ b++W with CS(swap W) = −CS(W) on all 745 threads (690 with CS ≠ 0), so B1012's k-blindness is m004's and B1224's bit survives as the reality of mirror-paired weave sums; the local model is u″ + e^{−2u} = 0, unique at weight zero up to a rescaling of z that the cusp fixes; the uniformizing bundle is the model in the log frame (c = 1), with unipotent monodromy, so κ = −2 is the frame's −1; the field's pointwise size is 1/(2R), and the residue's norm is the horocycle's length over 4π. 0 of 19 |
 | W76 | COMPUTED (the rule first; one run; all four cells as predicted); a weave census of thread quantities under a stated rule | the weave's β-odd bit: 8 798 threads to length 16, all geometric; the 248 mirror-symmetric threads (even lengths only) all have CS = 0 (largest 6 × 10⁻¹⁴), none π²/2; no other thread has 2CS ≡ 0. Wherever the weave carries B1224's bit, it is 0; θ̄ = 0 given L192's dictionary and a split that keeps arg det M = 0; δ_CKM is not a bit. 0 of 19 |
 | W77 | COMPUTED (the rule first; one run; all five cells as predicted; exact where stated); a review of the audit lane's estimate, under its hypotheses | the lane's odd complementary form: the four frame brackets by the structure equations; Σ c_i ω_i = −c₂/(2ℓ) + c₁c₃c₄/(4ℓ) exactly (the density term is the spin connection's trace part); {V, H} = K₃E₃ + K₄E₄ in the chiral representation, nothing else; K₃, K₄ skew, Γ_V-reversing, norm 1/ℓ; the identity to 3 × 10⁻¹⁰ and inequality (1) on 40 test sections. Domain claims read, not tested. 0 of 19 |
+| W78 | COMPUTED (the rule first, one disclosed correction before code; one run; N0, N3, N4 as predicted; N1, N2 FAILED as worded; a labelled post hoc); a WEAVE result on the ruled branch, given Λ | main's B1637 ask: the sixteen weight-3 structures over Im τ ∈ [5, 10] with W54's model. None fits; (5, 7, 3) 190.7 (main 1.86), (3, 7, 7) 915.8 (main 6.72). At main's τ, 200 starts per part: 608 and 1036. The up sector alone at weight 3 has no exact fit below Im τ = 8 here (1.78 at the edge), where main's fits at 6.66. The two seats' weight-3 models differ; to resolve with main. Count unchanged. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -6653,6 +6717,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W75_RULE.md`: the rule, committed before the code; `the_puncture_scale.py` → `the_puncture_scale.json`: W75, chat1's scale check on this seat's instruments (the mirror pairs on 745 threads, the local model by the ODE, the uniformization in the log frame and its monodromy, the field's size).
 - `W76_RULE.md`: the rule, committed before the code; `the_weaves_bit.py` → `the_weaves_bit.json`: W76, the weave's β-odd bit (Chern–Simons on all 8 798 threads to length 16, and the bit on the 248 mirror-symmetric ones). Post hoc (labelled) `the_weaves_bit_posthoc.py` → `the_weaves_bit_posthoc.json`: the bit on chat1's data to length 18, and the two seats' agreement.
 - `W77_RULE.md`: the rule, committed before the code; `the_odd_form_review.py` → `the_odd_form_review.json`: W77, the audit lane's odd form reviewed (the brackets, the spin connection, the cross form, the coefficients, the test sections).
+- `W78_RULE.md`: the rule, committed before the code (one disclosed correction before code); `the_weight_three_refined.py` → `the_weight_three_refined.json`: W78, the sixteen weight-3 structures over Im τ ∈ [5, 10]; post hoc (labelled) `the_weight_three_refined_posthoc.py` → `the_weight_three_refined_posthoc.json`: this seat's model at main's τ, and each sector alone at weight 3.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

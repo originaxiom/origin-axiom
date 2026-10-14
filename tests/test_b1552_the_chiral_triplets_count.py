@@ -1892,6 +1892,24 @@ def test_w77_the_odd_form_review():
         assert np.allclose(sorted(np.linalg.eigvalsh(K.conj().T @ K)), [0, 0, 1, 1])
 
 
+def test_w78_the_weight_three_refined():
+    """W78 (the rule first; one run; N1 and N2 failed as worded; a labelled post hoc): no structure with a sector at
+    weight 3 fits on this seat's model up to Im tau = 10, and at main's tau the model stays far above main's fits"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_weight_three_refined.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"N0": True, "N1": False, "N2": False, "N3": True, "N4": True}
+    table = d["the structures"]
+    assert len(table) == 16 and not any(v["fits"] for v in table.values())
+    ph = json.loads((here / "the_weight_three_refined_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["PH1 (5, 7, 3) at main's tau"]["total"] > 100
+    assert ph["PH3 each sector alone at weight 3"]["u"]["chi^2_min"] > 1
+    assert ph["PH3 each sector alone at weight 3"]["d"]["chi^2_min"] < 1e-12
+    # in process: the sixteen structures are exactly those with a weight 3 and (k_u, k_d) != (3, 3)
+    import itertools
+    want = {str(ks) for ks in itertools.product((3, 5, 7), repeat=3) if 3 in ks and ks[:2] != (3, 3)}
+    assert set(table) == want
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
