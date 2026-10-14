@@ -93,7 +93,11 @@ def run(engine):
     for g,q in zip([X,Y,Z],[(I+a)/s.sqrt(2),(I+b)/s.sqrt(2),(I-a)/s.sqrt(2)]):
         v=(Sf.H*g*Sf).applyfunc(s.simplify)
         m=s.Matrix(3,3,lambda j,k:s.simplify(s.trace(q.H*v[2*j:2*j+2,2*k:2*k+2])/2))
-        ck('literal family tensor factor '+str(len(family)),v==s.kronecker_product(m,q))
+        residual=v-s.kronecker_product(m,q)
+        ck('literal family tensor factor '+str(len(family)),all(s.simplify(x)==0 for x in residual))
+        wrong_residual=v-s.kronecker_product(m,-q)
+        ck('wrong full tensor sign rejected '+str(len(family)),any(s.simplify(x)!=0 for x in wrong_residual))
+        ck('real orthogonal family factor '+str(len(family)),all(x.is_Rational for x in m) and m*m.T==s.eye(3))
         family.append(m)
     ab=[]
     for i,j in product(range(3),repeat=2):

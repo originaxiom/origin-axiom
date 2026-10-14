@@ -6,6 +6,8 @@ require 'pathname'
 root = Pathname.new(__dir__).parent.parent.parent
 local = Pathname.new(__dir__).relative_path_from(root).to_s
 sources = %w[DESIGN.md PROOF.md SEAL_PREPARATION.md analysis.py probe.py reference.py execute.py make_seal.rb].map { |n| local+'/'+n }
+sources << local+'/POST_HOC_REPAIR.md' if File.exist?(root.join(local,'POST_HOC_REPAIR.md'))
+stage=ARGV.fetch(0,'actual invariant15 BEFORE execution')
 sources += [
   'tests/test_physical_bridge_surface_invariant_brackets.py',
   'frontier/B1138_structural_completion/verification/my_chevalley.py',
@@ -26,7 +28,7 @@ all=rows+[{'path'=>local+'/INPUTS.json','sha256'=>Digest::SHA256.file(root.join(
 File.write(root.join(local,'ARTIFACT_HASHES.txt'),all.map { |r| r['sha256']+'  '+r['path'] }.join("\n")+"\n")
 ledger = root+'docs/SEAL_LEDGER.md'
 File.open(ledger,'a') do |f|
-  f.write("\n## October14 actual invariant15 brackets BEFORE execution\n\n| date | stage | source | sha256 | scope |\n|---|---|---|---|---|\n")
-  all.each { |r| f.write('| 2026-10-14 | actual invariant15 BEFORE execution | `'+r['path']+'` | `'+r['sha256']+'` | Actual closure/real form/roots; no dimension-only or physical SM identification |'+"\n") }
+  f.write("\n## Actual invariant15 brackets: "+stage+"\n\n| date | stage | source | sha256 | scope |\n|---|---|---|---|---|\n")
+  all.each { |r| f.write('| 2026-10-15 | '+stage+' | `'+r['path']+'` | `'+r['sha256']+'` | Actual closure/real form/roots; no dimension-only or physical SM identification |'+"\n") }
 end
 puts JSON.generate({'pins'=>rows.length,'design_sha256'=>rows.find { |r| r['path']==local+'/DESIGN.md' }['sha256']})

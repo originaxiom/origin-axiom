@@ -27,6 +27,10 @@
       "sha256": "a50015d096c6e9324f94280a541d48dbc358fd67b89fb63b3374e63b6ffffe5f"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/POST_HOC_REPAIR.md",
+      "sha256": "10ff9a673cc07c8045aa0e7176cc3564671a3ac6117b166fbb0330348bdf2ac9"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/PROOF.md",
       "sha256": "5b5d00c0a40d500150f044c1afeb140405b0bf9b3421da01ef7f5d405f1b167f"
     },
@@ -36,7 +40,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/analysis.py",
-      "sha256": "87b2ddf10db715929fa2e8684a6aa35b2113db4d4b4f8c1432a43070b12d5292"
+      "sha256": "199376ce2552d059ff7159dcf8c144bef034ccc68e363719192a7c8e059f3a1f"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/execute.py",
@@ -44,7 +48,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/make_seal.rb",
-      "sha256": "e6cce6b629465a74a960489b46a910a9f9db6c1da855071cd474f1466a5ea45a"
+      "sha256": "c53d8686fb4aae632d7377f3c89292cd4df4c4297bc684a65e80cc8344d7a1c7"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/probe.py",
