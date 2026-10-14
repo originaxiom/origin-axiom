@@ -1,5 +1,19 @@
 # Changelog
 
+## The weave's W69: the weighted census; relay section 82; a correction to W66
+
+- **W69** (the owner's goal "resume"; the rule b7ed55153 first; the script ab979de70 before its one run; all three
+  cells as predicted): W66's census over all 28 pairs of W68's seven parameter-free sections, 21 952 assignments, each
+  fitted at one τ. None passes. The best, χ² 99.9 for 3 degrees of freedom, uses W68's δ² and δ¹ pairings near ω; at
+  a 20% allowance it is 26.4.
+- **A correction to W66** (found while reading W69): the best of its 216 assignments is 259.9 (ER / EE / EE, a
+  non-permutation), not 309.6. 308.6 is the best permutation, and the verdict is unchanged. The fix is made with dated
+  notes on the dossier, the state page, the relay (§79 marked, §82) and the W66 test's docstring. The entry below,
+  which says 309, is left as written.
+- **So:** the data do not fix τ through any parameter-free section in the range. 0 of 19.
+- **Relay §82** to main. **Surfaces.** The rule, the script, its JSON, the dossier (W69, a row, the header, the files,
+  W66's correction), the W69 test, the state page, the relay and the ledger.
+
 ## The weave's W68: residual charges at ω; relay section 81
 
 - **W68** (the owner's goal "resume"; the rule 9942c9d09 first, G4 corrected before any code 46fd667a1; the script

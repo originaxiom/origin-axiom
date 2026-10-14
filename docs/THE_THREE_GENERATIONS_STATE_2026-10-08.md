@@ -449,7 +449,8 @@ Under the owner's rulings, the table's rows split into two groups:
     and one coupling for every sector gives no first-generation mixing. 0 of 19.
 - **W66, the parameter-free census (rule first; all three cells as predicted):**
   - With the Higgs and the coupling both among the one-unit sections, every sector's Yukawa depends on τ alone.
-  - None of the 216 assignments to the three sectors fits at any τ. The best χ² is 309 for 3 degrees of freedom.
+  - None of the 216 assignments to the three sectors fits at any τ. The best χ² is 260 for 3 degrees of freedom
+    (corrected 2026-10-14 from 309, the best permutation).
   - The three ratios vanish together at ω and cannot spread by the data's factor of 16. So the data do not fix τ
     through these sections. 0 of 19.
 - **W67, what fixes τ (rule first; F1 and F3 failed as worded on R′ alone, checked post hoc):**
@@ -463,6 +464,11 @@ Under the owner's rulings, the table's rows split into two groups:
     the full hierarchy δ² : δ : 1.
   - But every pairing with a full hierarchy fixes m₁m₃/m₂² near ω (15 or 1), and the data's values are 0.08 to 2.7.
     0 of 19.
+- **W69, the weighted census (rule first; all three cells as predicted):**
+  - All 28 pairs of the seven parameter-free sections at the weights −½, 3/2 and 7/2, giving 21 952 assignments, each
+    fitted at one τ.
+  - None fits. The best (χ² 100) uses W68's δ² and δ¹ pairings near ω and misses every observable by factors of 1.4 to
+    2. A fit needs free numbers per sector, and where they come from is the open question about the field. 0 of 19.
 
 ## Questions open with main
 
@@ -478,7 +484,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W68 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W69 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§81).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§82).

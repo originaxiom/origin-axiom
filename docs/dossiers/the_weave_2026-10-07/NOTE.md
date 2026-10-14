@@ -147,8 +147,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   and one coupling for every sector gives no first-generation mixing.
 - W66 (the goal "resume"; rule first; all three cells as predicted): with the Higgs and the coupling both among the
   one-unit sections, every sector's Yukawa depends on τ alone. None of the 216 assignments fits at any τ: the best χ² is
-  309 for 3 degrees of freedom. The three ratios vanish together at ω and cannot spread by the data's factor of 16, so
-  the data do not fix τ through these sections.
+  260 for 3 degrees of freedom (corrected 2026-10-14 from 309, the best permutation; see the W66 section). The three
+  ratios vanish together at ω and cannot spread by the data's factor of 16, so the data do not fix τ through these
+  sections.
 - W67 (the goal "resume"; rule first; F1 and F3 failed as worded on R′ alone, checked post hoc): the weave's own
   quartic, evaluated on the parameter-free Higgs sections, fixes τ. For main's R it fixes τ at ω (c > 0) or runs to
   the cusp (c < 0). R′ adds two more points at j = 336 ∓ 192√7 (identified), and E adds τ₀. Every vacuum it selects
@@ -157,6 +158,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   7/2 put the parameter-free sections on the three eigenlines of ω's stabiliser. One displacement δ = |τ − ω| then gives
   different powers to different pairings. E with the weight 7/2 section gives the full hierarchy δ² : δ : 1, but it
   fixes m₁m₃/m₂² at 15, where the data give 0.08 to 2.7.
+- W69 (the goal "resume"; rule first; all three cells as predicted): W66's census over all 28 pairs of the seven
+  parameter-free sections, 21 952 assignments. None fits. The best, χ² 100 for 3 degrees of freedom, uses W68's δ²
+  and δ¹ pairings near ω, and misses every observable by factors of 1.4 to 2. A fit needs free numbers per sector.
 
 ## The setting
 
@@ -5332,8 +5336,11 @@ result given Λ and the stated hypotheses. 0 of 19.
   - EE has m₁m₃ = m₂² to 3 × 10⁻³⁹.
 - **C2, the live assignments (as predicted).** Every assignment that is not a permutation of (EE, ER, ER′) has
   χ²_min above 7.81. The smallest of them is 260.
-- **C3, the verdict (as predicted).** No assignment passes. The smallest χ²_min of all 216 is 309.6 at a = 0.10
-  (3 degrees of freedom; the pass mark is 7.81). It is 951 at a = 0.05 and 66.5 at a = 0.20, and none passes at either.
+- **C3, the verdict (as predicted).** No assignment passes. The smallest χ²_min of all 216 is 259.9 at a = 0.10
+  (3 degrees of freedom; the pass mark is 7.81).
+  - *Correction (2026-10-14, found while reading W69).* This line first said 309.6. The JSON's smallest of all 216 is
+    259.9, from ER / EE / EE, a non-permutation in which the down and lepton sectors share EE. 308.6 is the best
+    permutation. The verdict is unchanged. It is 951 at a = 0.05 and 66.5 at a = 0.20, and none passes at either.
 
 **The read-outs (no prior).**
 - **The six permutations.** Every one of them has its minimum within 0.04 of ω or of ω + 1, and all ten refinements
@@ -5541,6 +5548,72 @@ the stated hypotheses. 0 of 19.
 **Status.** COMPUTED (the rule first, corrected before any code; one run; all four cells as predicted). A WEAVE result
 given Λ and the stated hypotheses. 0 of 19.
 
+## W69. The weighted census: every pairing of the seven parameter-free sections across the weights −½, 3/2 and 7/2, fitted at one τ; none fits, and the best (χ² 100) uses W68's δ¹ and δ² pairings near ω (`the_weighted_census.py`; `W69_RULE.md`)
+
+**Why.**
+- **W68's opening.** It found that the weights put the sections on the three eigenlines at ω, so one displacement δ can
+  give different sectors different powers. This arc ran W66's census over all 28 pairs of the seven sections: 21 952
+  assignments, each fitted at one τ.
+- **What would change the count.** A pass would let two observables fix τ and leave three as predictions. Because of
+  the number of assignments, the rule made a pass a candidate only: the count drops only if a later arc confirms an
+  unfitted prediction.
+
+**The order.**
+- **The rule first** (`W69_RULE.md`, b7ed55153). It disclosed that the script was drafted before that commit; the script
+  had not run.
+- **The script** (ab979de70), committed before its run.
+- **The run.** One run (6.9 minutes); its output committed unread (f808fa136).
+- **The rule's "W66 ... best χ² 309" repeated W66's misreading** (corrected in the W66 section: the best of all 216 is
+  259.9). J2 compares against W66's best permutation, 308.6, which is what it reproduces.
+
+**The read-out (COMPUTED; all three cells as predicted).**
+- **J1, the instrument (as predicted).** The double-precision sections agree with the 40-digit ones to 1.8 × 10⁻¹⁵ at
+  W65's sample.
+- **J2, W66 inside W69 (as predicted).** W66's best permutation, ER′ / ER / EE, reaches 308.63 here, equal to W66's
+  value to every printed digit.
+- **J3, the verdict (as predicted).** No assignment passes.
+  - The smallest refined χ²_min is 99.9 at a = 0.10, with 3 degrees of freedom and a pass mark of 7.81.
+  - The smallest grid minimum among the unrefined assignments is 594.
+  - 51 assignments were refined.
+
+**The read-outs (no prior).**
+- **The best assignment.** ER / EE / RG (up / down / lepton), at τ = 0.5 + 0.888√−1, 0.022 from ω + 1. It uses the
+  weights −½ and 7/2, and all ten refinements reach it.
+
+  | observable | there | data | z |
+  |---|---|---|---|
+  | m_c/m_t | 0.0064 | 0.0037 | 5.4 |
+  | m_s/m_b | 0.0128 | 0.0187 | −2.9 |
+  | m_μ/m_τ | 0.0415 | 0.0589 | −3.5 |
+  | \|V_us\| | 0.122 | 0.225 | −6.1 |
+  | \|V_cb\| | 0.061 | 0.042 | 3.7 |
+
+  - Its unfitted values: m₁ = 0 in the up and lepton sectors, and m_d/m_b = 1.6 × 10⁻⁴ (data 9.4 × 10⁻⁴).
+  - |V_ub| = 0.0075 (data 0.0037) and |V_td| = 5 × 10⁻⁵ (data 0.0086).
+- **The next best.** ER / EE / R′G at 101.3. Then pairings with a weight 3/2 section at 154 to 165, at y ≈ 2.5 and
+  away from ω.
+- **By weight, the best χ²_min at a = 0.10:**
+  - only weight −½: 259.9 (W66's true best);
+  - with a weight 3/2 section: 153.9;
+  - with the weight 7/2 section: 99.9.
+- **The other allowances.** At a = 0.05 the best is 354.8, and at a = 0.20 it is 26.4 (ER / EE / RG). No assignment
+  passes at either.
+
+**What it shows (a READING; given Λ, GENESIS FK11; B1644's form, H-sec and H-pair′ are hypotheses).**
+- **W68's mechanism is what the best fit uses.** Near ω it takes the δ² pairing ER for the up sector and the δ¹ pairing
+  RG for the leptons. That improves the fit from 260 to 100.
+- **But one displacement cannot meet the data.**
+  - The up ratio comes out 1.7 times too large and the leptons' 1.4 times too small.
+  - The Cabibbo angle comes out half its size, and |V_cb| 1.5 times too large.
+  - Even at a 20% allowance the best is 26, against a pass mark of 7.8.
+- **So the parameter-free sections, at every weight in the range, do not fix τ by the data, and the count does not
+  drop.** A fit needs free numbers per sector. The question now is where those come from: the owner's question about
+  the field.
+- **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19.
+
+**Status.** COMPUTED (the rule first; one run; all three cells as predicted). A WEAVE result given Λ and the stated
+hypotheses. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -5718,9 +5791,10 @@ is building: an end on the weave's own action that gaps the cusp.
 | W63 | COMPUTED (the rule first; one run; V1 failed as worded on its branch clause, disclosed before the run; the rest as predicted); a WEAVE result given Λ and B1644's hypothesis | main's B1644 and B1645 verified on the seat's own instruments: the residues by contour and duplication equal main's table, Y(a) = a Rᵀ + R aᵀ − (a·R)𝟙 exactly, R·R = 0 by Jacobi, the half bound and the cone, main's printed numbers to 4 × 10⁻⁹. P-115: the record's Higgs is a real unit direction, m ≥ ½ (0.566 at the selected state, ½ on the imaginary axis); nothing on record brings it near the isotropic cone |
 | W64 | COMPUTED (the rule first; one run; K1, K3, K6, K7 as predicted; K2, K4, K5 failed as worded on one instrument error, the θ₂ branch, re-scored post hoc as predicted); a WEAVE result given Λ and the stated hypotheses | the cusp's monodromy turns M a quarter-turn whose two complex eigenlines are the isotropic lines it keeps; main's residue triplet R is the one section of the matter's representation with a single unit at the cusp, on that isotropic eigenline; sections number Σu at weights −½ and 3/2; the uniform unit gives the three but a real cusp direction for the Higgs; the weave's anisotropy puts the Higgs on the cusp's six or the eight isotropic lines, where the Yukawa has rank one |
 | W65 | COMPUTED (the rule first; one run after one disclosed failed launch; all six cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's coupling; H-sec) | the Higgs's direction as a section of weight −½ in ρ_R: E, R and R′ (one unit each) generate every placement, with Gram matrix E₄²/η¹⁸ times [[j − 1280, 4, 112], [4, 0, 2], [112, 2, 0]]; at ω every section lies on one 8-orbit line and m = 0 for every Higgs; at i, R and R′ lie on the conjugate 12-orbit pair; near ω m ∝ \|τ − ω\|², and at the cusp m ≈ 2\|α/β\| e^{−π Im τ}; one coupling gives no first-generation mixing. 0 of 19 |
-| W66 | COMPUTED (the rule first; one run; all three cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair) | the parameter-free census: B1644's form with the Higgs and the coupling among the one-unit sections E, R and R′, every assignment of the six pairs to the three charged sectors, fitted at one τ. The rank-one pairs (RR, R′R′, RR′) and shared pairs are dead; EE has m₁m₃ = m₂²; no assignment passes (best χ² 309 at a = 0.10, 66.5 at a = 0.20, 3 degrees of freedom), with the minima near ω. The data do not fix τ through these sections. 0 of 19 |
+| W66 | COMPUTED (the rule first; one run; all three cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair) | the parameter-free census: B1644's form with the Higgs and the coupling among the one-unit sections E, R and R′, every assignment of the six pairs to the three charged sectors, fitted at one τ. The rank-one pairs (RR, R′R′, RR′) and shared pairs are dead; EE has m₁m₃ = m₂²; no assignment passes (best χ² 260 at a = 0.10, corrected from 309; 66.5 at a = 0.20; 3 degrees of freedom), with the minima near ω. The data do not fix τ through these sections. 0 of 19 |
 | W67 | COMPUTED (the rule first; one run; F2 as predicted; F1 and F3 failed as worded on R′ alone, checked in a labelled post hoc); a WEAVE result given Λ and the stated hypotheses (H-sec; H-pot) | what fixes τ: the weave's O-invariant quartic λ₂ q₂ + c q_A on the parameter-free Higgs sections, as a function on the modular curve. For main's R: ω for c > 0 (uniquely), the cusp for c < 0. R′ reaches the 8-orbit lines also at j = 336 ∓ 192√7 (identified post hoc), a tie; E adds τ₀ (j = 1280). Every selected vacuum has the second generation massless, or degenerate with the third: τ can be fixed only where the hierarchy is absent. 0 of 19 |
 | W68 | COMPUTED (the rule first, corrected before any code; one run; all four cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair′) | residual charges at ω: the parameter-free sections of weight −½ (E, R, R′), 3/2 (three) and 7/2 (one) lie at ω on ℓ_ω, the real axis and ℓ_ω², the three eigenlines of the stabiliser. Every pair's structure at ω follows its lines, and near ω the masses grow as powers of δ = \|τ − ω\| fixed by the pairing: δ² : δ : 1 for E with the 7/2 section, 0 : δ² : 1 for ER and ER′, δ⁴ : δ² : 1 for EE. The full hierarchy fixes m₁m₃/m₂² → 15 (data 0.08 to 2.7). 0 of 19 |
+| W69 | COMPUTED (the rule first; one run; all three cells as predicted); a WEAVE result given Λ and the stated hypotheses (B1644's form; H-sec; H-pair′) | the weighted census: all 28 pairs of the seven parameter-free sections (weights −½, 3/2, 7/2), 21 952 assignments to the three charged sectors, each fitted at one τ. None passes: best χ² 99.9 (ER / EE / RG, near ω, using W68's δ² and δ¹ pairings), 26.4 at a 20% allowance; by weight 260 (−½ only), 154 (with 3/2), 100 (with 7/2). The data do not fix τ through any parameter-free section in the range. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -5778,6 +5852,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W66_RULE.md`: the rule, committed before the code; `the_parameter_free_census.py` → `the_parameter_free_census.json`: W66, the parameter-free census (the pairs' rank at 40 digits, the 216 assignments fitted at one τ at three allowances, the six permutations' minima, and two at a time).
 - `W67_RULE.md`: the rule, committed before the code; `the_potential_fixes_tau.py` → `the_potential_fixes_tau.json`: W67, what fixes τ (each section's landscape, the potential's census over 16 coefficient pairs, E's read-outs, the masses at the fixed points); `the_potential_fixes_tau_posthoc.py` → `the_potential_fixes_tau_posthoc.json`: W67 post hoc (labelled), R′'s extra 8-orbit points and the plateau at 40 digits, the masses there.
 - `W68_RULE.md`: the rule, committed before the code (with a correction to G4 before any code); `the_residual_charges_at_omega.py` → `the_residual_charges_at_omega.json`: W68, residual charges at ω (the dimension table at −½, 3/2 and 7/2, the seven parameter-free sections, their eigenlines at ω, every pair at ω and its powers near ω).
+- `W69_RULE.md`: the rule, committed before the code (the script drafted before that commit, disclosed); `the_weighted_census.py` → `the_weighted_census.json`: W69, the weighted census (the seven sections, every pair's grid terms, every assignment's grid minimum, the refined best, the three allowances, the best by weight).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

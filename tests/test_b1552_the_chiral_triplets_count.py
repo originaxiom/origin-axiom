@@ -1617,7 +1617,7 @@ def test_w65_the_second_unit():
 def test_w66_the_parameter_free_census():
     """W66 (the goal "resume"; the rule first; one run; all three cells as predicted): B1644's form with the Higgs and
     the coupling among the one-unit sections, every assignment of the six pairs to the three sectors, fitted at one
-    tau. None passes (the best chi^2 is 309 at a = 0.10), so the parameter-free sections do not fix tau by the data"""
+    tau. None passes (the best chi^2 is 260 at a = 0.10), so the parameter-free sections do not fix tau by the data"""
     here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
     d = json.loads((here / "the_parameter_free_census.json").read_text(encoding="utf-8"))
     assert d["cells"] == {"C1": True, "C2": True, "C3": True} and d["instrument holds (10^-10)"]
@@ -1689,6 +1689,22 @@ def test_w68_the_residual_charges_at_omega():
     for k, v in lines.items():
         lam = 1j * np.exp(-1j * np.pi * k / 3)
         assert np.allclose(M @ v, lam * v)
+
+
+def test_w69_the_weighted_census():
+    """W69 (the goal "resume"; the rule first; one run; all three cells as predicted): every pair of the seven
+    parameter-free sections at the weights -1/2, 3/2 and 7/2, 21 952 assignments, fitted at one tau: none passes"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_weighted_census.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"J1": True, "J2": True, "J3": True}
+    ro = d["read-outs"]
+    assert ro["assignments"] == 28 ** 3 and ro["assignments passing at a = 0.10"] == 0
+    assert all(v["assignments passing"] == 0 for v in ro["a = 0.05 and 0.20"].values())
+    assert 99 < d["J3"]["the smallest refined chi2_min"] < 101
+    # W66's true best (259.9, a non-permutation) is the best over weight -1/2 alone here too
+    w66 = json.loads((here / "the_parameter_free_census.json").read_text(encoding="utf-8"))
+    assert abs(ro["the best chi2_min by weight (a = 0.10)"]["only weight -1/2"]
+               - w66["C3"]["the smallest chi2_min of all 216"]) < 1e-6
 
 
 def test_the_owners_rulings_page():

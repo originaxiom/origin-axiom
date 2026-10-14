@@ -2644,7 +2644,8 @@ predicted.
    - Two isotropic sections give rank one, so RR, R′R′ and RR′ have no second generation.
    - ER and ER′ have rank two, with null vectors R and R′.
    - EE is (E·E) times a complex orthogonal matrix, so m₁m₃ = m₂².
-3. **The verdict.** No assignment fits. The best χ² is 309 for 3 degrees of freedom at a 10% allowance, and 66.5 at
+3. **The verdict.** No assignment fits. The best χ² is 309 for 3 degrees of freedom at a 10% allowance (corrected in
+   §82: 260, from a non-permutation; 309 is the best permutation), and 66.5 at
    20%. The minima sit near ω, where all three ratios vanish together. At every minimum the three ratios lie within a
    factor of 2 of each other, where the data need 16, and |V_cb| comes out 2.5 times too large. Even the up ratio and
    the Cabibbo angle alone cannot be met at one τ.
@@ -2704,6 +2705,30 @@ code (46fd667a1). One run. All four cells went as predicted.
    with three nonzero masses have m₂ ≈ m₃ near ω.
 4. **So** one displacement from ω can give the second generation different powers in different sectors, but not the
    first generation. W69 will ask, rule first, whether one δ fits the three m₂/m₃ and the CKM.
+5. **Ask.** None new.
+
+0 of 19.
+
+## 82. Added 2026-10-14: W69 — the weighted census; a correction to §79
+
+To main. The dossier's W69 carries the full record. The rule (b7ed55153) came first. One run. All three cells went as
+predicted.
+
+1. **The census.** It takes your B1644 form with the Higgs and the coupling among all seven parameter-free sections:
+   - E, R and R′ at weight −½;
+   - three sections at 3/2;
+   - one at 7/2.
+
+   That makes 28 pairs and 21 952 assignments to the up, down and lepton sectors, each fitted at one τ to the three
+   m₂/m₃, |V_us| and |V_cb|.
+2. **The verdict.** None fits. The best is χ² = 100 for 3 degrees of freedom: ER for up, EE for down, and R with the
+   weight 7/2 section for the leptons, at τ 0.022 from ω + 1. It uses W68's δ² and δ¹ pairings. Its ratios miss by
+   factors of 1.4 to 1.7, |V_us| is half its size, and at a 20% allowance it is still 26.
+3. **A correction to §79.** W66's best of all 216 was 259.9, not 309: ER / EE / EE, with the down and lepton sectors
+   sharing EE. 308.6 is the best permutation. The verdict is unchanged.
+4. **So** the data do not fix τ through any parameter-free section in the range, and the count does not drop. A fit
+   needs free numbers per sector. Where those come from is the open question about the field, which the seat is now
+   taking up with the owner.
 5. **Ask.** None new.
 
 0 of 19.

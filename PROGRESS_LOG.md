@@ -18743,3 +18743,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **All four predictions held.** One cell's wording was corrected before any code existed, and disclosed. The count
   of free numbers does not drop: 0 of 19.
 
+## 2026-10-14 — the owner's "report, did we clarify the field?"; W69: the weighted census; relay §82
+
+- **W69 tried every combination with no free numbers,** across the three weights W68 found, in the three charged
+  sectors: 21 952 in all. None fits the data at any value of the modulus. The best one uses W68's mechanism and gets
+  closer than before, but still misses every observable by a factor of 1.4 to 2.
+- **A correction.** W66's best was recorded as 309. Its own output says 260 (a combination outside the six it read).
+  The verdict is unchanged, and the fix is dated.
+- **Where this leaves the field.** Its direction among the generations is clarified, and so is what fixes the modulus.
+  Its existence and its free numbers are not derived. The owner asked whether to brainstorm, and the seat recommended
+  doing so now.
+- **The count of free numbers does not drop:** 0 of 19.
+
