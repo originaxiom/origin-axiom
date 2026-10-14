@@ -100,3 +100,17 @@ ran a unit and a hierarchy together, and it missed B1015's addendum v2 and L154.
   SL(2, ℂ) Chern–Simons theory?
 
 **0 of 19.**
+
+## Addendum: T-ROOT run (sealed `13d31f042`; script `fc82fe02a`; output `f8fe26015`; every cell held)
+
+`chat1_2026-10-14_the_scale/T_ROOT_FINDINGS.md`. Threads to length 18 (31,040: 514 amphichiral, 30,526 chiral). Three
+word weights, none fixed by the record. Classical action weight e^{−c·Vol/6π}.
+
+- **At c = 6 (L154's σ = 1) the weave is a plurality.**
+  - Root share 0.274 / 0.502 / 0.660 under 2^{−n} / 3^{−n} / per-length uniform.
+  - N_eff 32 / 6.6 / 4.7. Chiral share 0.66 / 0.46 / 0.31.
+  - The weighted sum depends on the level at order one (convention stated in the findings).
+- **Root dominance.** 99% is reached only at c ≈ 138 / 125 / 105.
+- **Reading for L154.** The owner's weave framing and L154's c = 6 are mutually consistent: a plurality that sees k.
+  The classical-space reading (c ≫ 1) is the odd one out, because at c ≳ 10² the weave reduces to m004. If L154 lands,
+  its bridge should be posed on a weave that is genuinely plural and chiral, not on the root.

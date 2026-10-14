@@ -278,6 +278,23 @@
     sector is, and at which level.
 - No change to the 0 of 19.
 
+## 9. T-ROOT, run the same day (sealed; every cell held)
+
+`T_ROOT_FINDINGS.md`: threads to length 18 (31,040), three word weights, classical action weight.
+
+- **At c = 6 (L154) the weave is a plurality, and it sees k.**
+  - The root's share is 0.27, 0.50 or 0.66, depending on the word weight. The effective number of threads is 32, 6.6
+    or 4.7. The chiral share is 0.66, 0.46 or 0.31.
+  - The weighted sum depends on the level at order one: 8% at k = 1, 48% at k = 3, in the convention fixed at the seal.
+- **The root holds 99% of the weight only at c ≈ 105 to 138.** That is two orders of magnitude above 6, and fourteen
+  below the c ~ 10¹⁶ that a 3D hierarchy of the observed size would need.
+- **Placed.** **[READING]**
+  - The owner's "existence is the weave, not m004" holds as a plurality only at c of order 1 to 10. L154's c = 6 is
+    there.
+  - The classical-space reading needs c ≳ 10², where the weave reduces to m004.
+  - If existence is the weave, 3D space is a quantum plurality of geometries with no 3D hierarchy. The observed one
+    must come through the 4D crossing.
+
 ## Sources
 
 - F. Guéritaud, with an appendix by D. Futer, Geom. Topol. 10 (2006) 1239–1284, Theorem B.1.
