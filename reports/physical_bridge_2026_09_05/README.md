@@ -1,5 +1,13 @@
 # Physical bridge audit — 2026-09-05
 
+October14 actual based geometry:329/32 exact,158 live PASS93.74s,
+46pins/tree unchanged at corrected f0760049f. Natural orbifold bundle
+map and leading complex trace gluing authored; first sign failure
+archived, not rewritten. NEXT actual projected kernel section/full
+real-parent domain, analytic closure and SAME-action physical charged
+spectrum/stationary vertices/norms/ends/anomalies. SM+gravity ACTIVE.
+Report surface_geometric_loops_2026_10_14/FINDINGS.md.
+
 October14 ALL commuting weak completions:328/162 exact,154 live
 PASS177.65s,37pins/tree unchanged at dd2a54119. Six classes; two odd
 zero phases retain canonical radial mass, conditional Fredholm path

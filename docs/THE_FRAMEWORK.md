@@ -1,5 +1,13 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October14 based geometry map:329/32 exact,158 live PASS93.74s at
+corrected f0760049f,46pins/tree unchanged. Authored natural-conjugation
+map gives flat E8 ORBIFOLD bundle with point pushing; leading complex
+extremes glue. Original frame sign failed, archived; corrected inverse
+word tested independently. Actual projected mode/reality/closure and
+stationary same-parent physics remain, not an actual kernel or three.
+Report physical-bridge surface_geometric_loops_2026_10_14/FINDINGS.md.
+
 October14 whole commuting weak family:328/162 exact,154 live
 PASS177.65s,37pins/tree unchanged at dd2a54119. Six classes, two odd
 zero-phase classes still canonically gapped at0 under actual projected

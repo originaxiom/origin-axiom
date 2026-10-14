@@ -1,5 +1,14 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October14 global joint advanced:329/32 exact and158 live PASS93.74s
+at corrected f0760049f;46pins/tree unchanged. Natural orbifold loop map
+and complex extreme trace gluing authored, with first signed failure
+preserved. NEXT actual projected mode transport/full real-parent domain,
+analytic closure, actual charged gauge/kernel and SAME stationary action
+with interactions/kinetic norms/ends/anomalies. Other seat precision and
+generation claims are replay duties, not borrowed physical conclusions.
+Report physical-bridge surface_geometric_loops_2026_10_14/FINDINGS.md.
+
 October14 completion-family milestone:328/162 exact and154 live
 PASS177.65s at dd2a54119,37pins/tree unchanged. ALL stated commuting
 weak corrections checked: no preferred angle/three selection. Two

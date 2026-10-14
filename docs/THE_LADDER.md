@@ -1,5 +1,14 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October14 geometric based joint:329/32 exact and158 live PASS93.74s
+at corrected f0760049f,46pins/tree unchanged. Natural orbifold bundle
+map and leading complex trace gluing authored; first frame sign failure
+preserved. Both cusp lifts/all classes kept. NEXT actual harmonic-mode
+section and full real-parent spin/R/domain map, analytic closure and
+SAME-action charged kernels/stationary vertices/norms/ends/anomalies.
+No selected architecture, physical index/three or SM+gravity acceptance.
+Report physical-bridge surface_geometric_loops_2026_10_14/FINDINGS.md.
+
 October14 complete commuting weak family:328/162 exact,154 live
 PASS177.65s at dd2a54119,37pins/tree unchanged. Six classes; two have
 odd zero phases but canonical radial mass persists, giving conditional

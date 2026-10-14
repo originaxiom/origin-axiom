@@ -1,5 +1,16 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October14 actual geometric-loop joint, path-local authored mathematics.
+329/32 exact and158 selected live PASS at corrected pre-run f0760049f;
+46pins/tree unchanged. First signed prediction FAILED and is preserved.
+
+| Scoped statement | Argument and LIVE safeguard |
+|---|---|
+| Natural conjugation of the actual orbifold loop group on its free fibre gives the kernel/quotient map; pulling back the full coefficient defines a flat E8 orbifold bundle. | B1641 coefficient antecedent ONLY; NEW surface_geometric_loops_2026_10_14/PROOF natural-map argument with Hain Section1.1 input; tests/test_physical_bridge_surface_geometric_loops.py::test_actual_loop_and_two_arithmetic_methods checks finite dictionary, not the entire geometric group theorem or physical selection. |
+| Corrected positive frame (ZY)^-6 acts by Inner(abAB); (ZY)^6 acts by Inner(baBA). SU6+I versus fibre-I is repaired by weak-I through the paired E8 centre, not a scalar spin sign. | B1641 move antecedent ONLY; NEW geometric PROOF/ORIENTATION_REPAIR and test_homology_is_not_a_based_frame_loop. Original sign prediction failed, independently corrected; all roots and based words kept. |
+| Both complex extreme critical trace planes are preserved by holomorphic normal transitions; normal-orientation reversal exchanges them. | B1641 coefficient antecedent ONLY; NEW geometric PROOF leading-trace argument and test_complex_gluing_is_not_reality_selection. Not graph-core density, physical charge-conjugation/domain selection or a full global spectral proof. |
+| All six actual Z,D phase rosters agree with independent A^-1 transport of X,D; all136+112 and inverse cusp retained. | B1641 coefficient antecedent ONLY; NEW direct DFT/Fraction transport and test_every_cusp_completion_and_both_A_eigenspaces_retained. Actual physical projected mode transport and kernel remain distinct obligations. |
+
 October14 all weak-completion family, path-local not numbered banking.
 328/162 exact,154 live PASS,37pins/tree unchanged at published dd2a54119.
 

@@ -1,5 +1,23 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-GEOMETRIC-BASED-DOMAIN-JOINT: October14 natural based orbifold
+map and leading COMPLEX trace-gluing argument now authored,329/32
+exact,158 live PASS93.74s at corrected f0760049f;46pins/tree unchanged.
+First frame sign failed, preserved; positive frame=(ZY)^-6, c=abAB
+retained. All six actual Z,D censuses/companions kept. Not full physical
+admission. PB-ACTUAL-PROJECTED-MODE-TRANSPORT and PB-REAL-PARENT-TRACE-
+DOMAIN remain OPEN: explicit kernel section and full spin/R/coefficient/
+external chirality law, not a reflection-only conclusion. Analytic core,
+projection/local compactness, actual charged spectrum, stationary SAME-
+action vertices/norms/ends/anomalies remain. Gauge15 old axes cost is
+not an all-background/Higgsed-weak exclusion. Report physical-bridge
+surface_geometric_loops_2026_10_14/FINDINGS.md. Supersedes older
+geometric-map-open wording ONLY for this supplied orbifold coefficient.
+SM W77 scoped review received/read, not independently replayed here or
+whole analytic acceptance. W79/W80 precision claims and B1548 sealed
+circle population remain separate replay/result duties, not completed
+physical counts. No three/SM values/gravity/genesis/qualia derived.
+
 PB-SURFACE-COMMUTING-WEAK-COMPLETION-FAMILY: completed for ALL
 commuting weak corrections to fixed SU6 lifts/colour identity.328/162
 exact and154 live PASS at published dd2a54119,37pins/tree unchanged.

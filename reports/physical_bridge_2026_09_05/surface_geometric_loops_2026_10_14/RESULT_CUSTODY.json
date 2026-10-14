@@ -1,0 +1,60 @@
+{
+  "scope": "Byte custody of failed and corrected runs plus selected regression; no full-suite or physical acceptance",
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/first_science/RECEIPT.json",
+      "bytes": 14749,
+      "sha256": "df20f62b86d59b348df0ab39ee04f24416e7105c51a7fbd8ee3f440dd21ace9d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/first_science/probe.stdout.log",
+      "bytes": 52692,
+      "sha256": "9b1f91f80a04dc64d05dc48c4eb4aab62a714e5d6f68fa8ce83e2970ed2a3c68"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/first_science/probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/corrected_science/RECEIPT.json",
+      "bytes": 15607,
+      "sha256": "99487609057e8373d2cbe42af77fa147f40e33a428d601fc94947c1e95569ba3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/corrected_science/probe.stdout.log",
+      "bytes": 53002,
+      "sha256": "ee0bbbd9bc4b5905a4c0e510d5e144396de20f05c3cfbdbc5a091eb8ccba5c18"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/corrected_science/probe.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/corrected_science/reference.stdout.log",
+      "bytes": 36205,
+      "sha256": "1a68812c6eeeb71966cc1bc2328ad63510d02a391acb3b57913f7a75a3e97271"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/corrected_science/reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/selected_tests/RECEIPT.json",
+      "bytes": 1676,
+      "sha256": "fa2d0a2ccf80ee95812a8a18e5c445f21b1389fa828f4d818cfb246fd340a2c1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/selected_tests/stdout.log",
+      "bytes": 271,
+      "sha256": "8ce77a6ae205c3e05f3afb096ffc8a70d7511eb3ac41ed5b224471a21b2102cc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/results/selected_tests/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}
