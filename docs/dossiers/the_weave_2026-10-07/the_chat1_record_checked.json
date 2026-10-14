@@ -1,0 +1,529 @@
+{
+ "status": "W86's independent checks of chat1's record (script committed before its one run)",
+ "chat1 commit": "9fbab9f5e",
+ "snappy": "3.3.2",
+ "I3": {
+  "threads": 745,
+  "balanced": 113,
+  "not rotation-invariant": [],
+  "not #R - #L": [],
+  "eta multiplier relative errors": {
+   "LR": 8.369073185209128e-32,
+   "LLR": 1.6786321060702677e-31,
+   "LRR": 1.4044501346402916e-31,
+   "LLLR": 1.40696751110634e-31,
+   "LLRR": 1.723937144287282e-31,
+   "LRRR": 1.7389014404954953e-31,
+   "LLLLR": 1.1134249948805643e-31,
+   "LLLRR": 4.2552185502788285e-31,
+   "LLRLR": 1.1400758365884738e-30,
+   "LLRRR": 1.9077567163321493e-31,
+   "LRLRR": 1.2445249365685396e-30,
+   "LRRRR": 3.987053888675461e-31
+  },
+  "eta worst": 1.2445249365685396e-30,
+  "holds": true
+ },
+ "I4": {
+  "threads": 69,
+  "by class": {
+   "A4": 30,
+   "D4": 26,
+   "V4": 13
+  },
+  "up to the mirror L <-> R": {
+   "A4": 16,
+   "D4": 13,
+   "V4": 8
+  },
+  "up to mirror and reversal (read-out)": {
+   "A4": 14,
+   "D4": 12,
+   "V4": 8
+  },
+  "the class is mirror-invariant": true,
+  "holds": true
+ },
+ "I2a": {
+  "threads": 484,
+  "M(rev W) = (D M D)^-1 fails": [],
+  "rotation |c| multisets differ": [],
+  "least-|c| apexes not reflected": [],
+  "threads with tied least |c|": 484,
+  "holds": true
+ },
+ "I5": {
+  "pool": 88,
+  "sample": [
+   "LLRRRLR",
+   "LLRLLRRRLR",
+   "LLLLLLRLRR",
+   "LLLRRLR",
+   "LLRLRRRR",
+   "LLLRRLRLLR",
+   "LLRRRLRRLR",
+   "LRLRRLRRR",
+   "LLLLRLLRRR",
+   "LLLLLRRLR",
+   "LLRRRRLRLR",
+   "LLLLLRLRR",
+   "LLLLRRLRLR",
+   "LLLRLLRRRR",
+   "LLLRLRR",
+   "LLLRRRRLR",
+   "LLLRRRLRR",
+   "LLLLRLLLRR",
+   "LLLRRLLR",
+   "LLLRLRRRR",
+   "LLLLRLRLRR",
+   "LLRRRRLRR",
+   "LLRRRLRR",
+   "LLLRLRRLLR",
+   "LLLRRRRLLR",
+   "LLLLRRLR",
+   "LLLRLLRLR",
+   "LLRLRLRRR",
+   "LLRRRRLRRR",
+   "LLRLRRRRRR",
+   "LLRLRRLRR",
+   "LLLRRLRLR",
+   "LLRLRLRRRR",
+   "LLLLRRRLRR",
+   "LLRRRLRLRR",
+   "LLLRRLRRR",
+   "LLLLLRRLLR",
+   "LLRRLRLRRR",
+   "LLRRLRRRRR",
+   "LLLLLRRRLR"
+  ],
+  "worst": 0.0,
+  "rows": {
+   "LLRRRLR": {
+    "vol": 6.105653653969338,
+    "cs": 0.3869737175508497,
+    "worst": 0.0
+   },
+   "LLRLLRRRLR": {
+    "vol": 8.818718635684993,
+    "cs": -0.03190235005548446,
+    "worst": 0.0
+   },
+   "LLLLLLRLRR": {
+    "vol": 6.653941842506351,
+    "cs": -1.134347584880151,
+    "worst": 0.0
+   },
+   "LLLRRLR": {
+    "vol": 6.105653653969338,
+    "cs": -0.3869737175508497,
+    "worst": 0.0
+   },
+   "LLRLRRRR": {
+    "vol": 6.381278082553544,
+    "cs": 0.6996533158120516,
+    "worst": 0.0
+   },
+   "LLLRRLRLLR": {
+    "vol": 8.749892572070205,
+    "cs": -0.7894393761737599,
+    "worst": 0.0
+   },
+   "LLRRRLRRLR": {
+    "vol": 8.749892572070205,
+    "cs": 0.7894393761737599,
+    "worst": 0.0
+   },
+   "LRLRRLRRR": {
+    "vol": 7.782201805720878,
+    "cs": 1.1858659893776669,
+    "worst": 0.0
+   },
+   "LLLLRLLRRR": {
+    "vol": 7.70187851047105,
+    "cs": -0.7062665935353493,
+    "worst": 0.0
+   },
+   "LLLLLRRLR": {
+    "vol": 6.547737018220709,
+    "cs": -0.943695599084455,
+    "worst": 0.0
+   },
+   "LLRRRRLRLR": {
+    "vol": 8.387995297477405,
+    "cs": 0.6983068197218789,
+    "worst": 0.0
+   },
+   "LLLLLRLRR": {
+    "vol": 6.547737018220709,
+    "cs": -0.943695599084455,
+    "worst": 0.0
+   },
+   "LLLLRRLRLR": {
+    "vol": 8.387995297477405,
+    "cs": -0.6983068197218789,
+    "worst": 0.0
+   },
+   "LLLRLLRRRR": {
+    "vol": 7.785719122169675,
+    "cs": -0.061381015979843495,
+    "worst": 0.0
+   },
+   "LLLRLRR": {
+    "vol": 6.105653653969338,
+    "cs": -0.3869737175508497,
+    "worst": 0.0
+   },
+   "LLLRRRRLR": {
+    "vol": 6.954497239353367,
+    "cs": 0.322477669850161,
+    "worst": 0.0
+   },
+   "LLLRRRLRR": {
+    "vol": 7.426315417121317,
+    "cs": 0.39957884638245417,
+    "worst": 0.0
+   },
+   "LLLLRLLLRR": {
+    "vol": 7.427305828501566,
+    "cs": -1.4197654628731886,
+    "worst": 0.0
+   },
+   "LLLRRLLR": {
+    "vol": 6.798625679561556,
+    "cs": -0.7898944930936648,
+    "worst": 0.0
+   },
+   "LLLRLRRRR": {
+    "vol": 6.954497239353367,
+    "cs": 0.322477669850161,
+    "worst": 0.0
+   },
+   "LLLLRLRLRR": {
+    "vol": 8.387995297477405,
+    "cs": -0.6983068197218789,
+    "worst": 0.0
+   },
+   "LLRRRRLRR": {
+    "vol": 7.0448769062980325,
+    "cs": 1.0838388971332165,
+    "worst": 0.0
+   },
+   "LLRRRLRR": {
+    "vol": 6.798625679561556,
+    "cs": 0.7898944930936648,
+    "worst": 0.0
+   },
+   "LLLRLRRLLR": {
+    "vol": 8.702770481610377,
+    "cs": -0.77751454977395,
+    "worst": 0.0
+   },
+   "LLLRRRRLLR": {
+    "vol": 7.785719122169675,
+    "cs": -0.061381015979843495,
+    "worst": 0.0
+   },
+   "LLLLRRLR": {
+    "vol": 6.381278082553544,
+    "cs": -0.6996533158120516,
+    "worst": 0.0
+   },
+   "LLLRLLRLR": {
+    "vol": 7.782201805720878,
+    "cs": -1.1858659893776669,
+    "worst": 0.0
+   },
+   "LLRLRLRRR": {
+    "vol": 8.114850743106238,
+    "cs": 0.3859772457702953,
+    "worst": 0.0
+   },
+   "LLRRRRLRRR": {
+    "vol": 7.427305828501566,
+    "cs": 1.4197654628731886,
+    "worst": 0.0
+   },
+   "LLRLRRRRRR": {
+    "vol": 6.653941842506351,
+    "cs": 1.134347584880151,
+    "worst": 0.0
+   },
+   "LLRLRRLRR": {
+    "vol": 8.319109858575471,
+    "cs": 0.42031282933582603,
+    "worst": 0.0
+   },
+   "LLLRRLRLR": {
+    "vol": 8.114850743106238,
+    "cs": -0.3859772457702953,
+    "worst": 0.0
+   },
+   "LLRLRLRRRR": {
+    "vol": 8.387995297477405,
+    "cs": 0.6983068197218789,
+    "worst": 0.0
+   },
+   "LLLLRRRLRR": {
+    "vol": 7.785719122169675,
+    "cs": 0.061381015979843495,
+    "worst": 0.0
+   },
+   "LLRRRLRLRR": {
+    "vol": 8.8872379947106,
+    "cs": 0.8082632598751576,
+    "worst": 0.0
+   },
+   "LLLRRLRRR": {
+    "vol": 7.426315417121317,
+    "cs": 0.39957884638245417,
+    "worst": 0.0
+   },
+   "LLLLLRRLLR": {
+    "vol": 7.196077479978702,
+    "cs": -1.3136245209622044,
+    "worst": 0.0
+   },
+   "LLRRLRLRRR": {
+    "vol": 8.8872379947106,
+    "cs": 0.8082632598751576,
+    "worst": 0.0
+   },
+   "LLRRLRRRRR": {
+    "vol": 7.196077479978702,
+    "cs": 1.3136245209622044,
+    "worst": 0.0
+   },
+   "LLLLLRRRLR": {
+    "vol": 7.140071220253078,
+    "cs": -0.5770230612995726,
+    "worst": 0.0
+   }
+  },
+  "holds": true
+ },
+ "I6": {
+  "least per class": {
+   "A4": [
+    "LR"
+   ],
+   "D4": [
+    "LLR",
+    "LRR"
+   ],
+   "V4": [
+    "LLRR"
+   ]
+  },
+  "volumes of the least": {
+   "LR": 2.0298832128193074,
+   "LLR": 2.66674478344906,
+   "LRR": 2.66674478344906,
+   "LLRR": 3.663862376708876
+  },
+  "least D4 Lagrange value": 1.2909944487358056,
+  "checks": {
+   "least A4": true,
+   "least D4": true,
+   "least V4": true,
+   "LLRR's volume is 4 Catalan": true,
+   "LLRR's Lagrange value is sqrt 8": true,
+   "LLRR's trace is 6": true,
+   "no D4 thread below Lagrange 3": false
+  },
+  "holds": false
+ },
+ "I7": {
+  "sample": [
+   "LLRRLRRLRR",
+   "LLRRLLRRRR",
+   "LLLRR",
+   "LLLLRLLRLR",
+   "LRLRLRRLRR",
+   "LLLLRRLLR",
+   "LLRLRLRRLR",
+   "LLLR",
+   "LLRLRRRRLR",
+   "LLRRLR",
+   "LLLRRRRRRR",
+   "LLLLLLLRRR",
+   "LLRLRLRLRR",
+   "LLLRLLRRRR",
+   "LLLLRLLLR",
+   "LLRLLRLRRR",
+   "LLLRRRLRR",
+   "LLLRLRR",
+   "LLLLLLRLLR",
+   "LLLLRRR",
+   "LLRLRLRRR",
+   "LRLRLRLRR",
+   "LR",
+   "LLLLRRLLLR",
+   "LRLRLRRRRR",
+   "LLRLRRLRRR",
+   "LLRLLRLR",
+   "LLLRRRRR",
+   "LLLRRLRLR",
+   "LLLRRR"
+  ],
+  "swap-symmetric to length 10": 26,
+  "homology mismatches": [],
+  "shift not pi^2/2": [],
+  "swap-symmetric not (0, pi^2/2)": [],
+  "worst shift deviation": 8.881784197001252e-16,
+  "holds": true
+ },
+ "I1": {
+  "per thread": {
+   "LR": {
+    "own m2/m3": 0.36877466977686507,
+    "hybrid m2/m3": 0.36434969473869205,
+    "hybrid / own (m2/m3)": 0.9880008704479337,
+    "hybrid / own (m1/m3)": 7.448189342835324
+   },
+   "LLRR": {
+    "own m2/m3": 0.035742093939504366,
+    "hybrid m2/m3": 0.03552078771192991,
+    "hybrid / own (m2/m3)": 0.9938082467146713,
+    "hybrid / own (m1/m3)": 1.3706585791714638
+   },
+   "LLRLR": {
+    "own m2/m3": 0.011806529154157929,
+    "hybrid m2/m3": 0.01060640987667942,
+    "hybrid / own (m2/m3)": 0.8983512205993359,
+    "hybrid / own (m1/m3)": 2.936710704123166
+   },
+   "LRLRR": {
+    "own m2/m3": 0.011806529154157929,
+    "hybrid m2/m3": 0.01060640987667942,
+    "hybrid / own (m2/m3)": 0.8983512205993359,
+    "hybrid / own (m1/m3)": 2.936710704123166
+   },
+   "LLR": {
+    "own m2/m3": 0.003386107512931077,
+    "hybrid m2/m3": 0.003099026866093689,
+    "hybrid / own (m2/m3)": 0.9152180945994578,
+    "hybrid / own (m1/m3)": 1.813565852488352
+   },
+   "LRR": {
+    "own m2/m3": 0.003386107512931077,
+    "hybrid m2/m3": 0.003099026866093689,
+    "hybrid / own (m2/m3)": 0.9152180945994578,
+    "hybrid / own (m1/m3)": 1.813565852488352
+   },
+   "LLRRR": {
+    "own m2/m3": 0.0007845719105375711,
+    "hybrid m2/m3": 0.0008010915693094711,
+    "hybrid / own (m2/m3)": 1.0210556337156922,
+    "hybrid / own (m1/m3)": 1.0410339679491798
+   },
+   "LLLRR": {
+    "own m2/m3": 0.0007845719105375711,
+    "hybrid m2/m3": 0.0008010915693094711,
+    "hybrid / own (m2/m3)": 1.0210556337156922,
+    "hybrid / own (m1/m3)": 1.0410339679491798
+   },
+   "LRRR": {
+    "own m2/m3": 5.607578178539906e-05,
+    "hybrid m2/m3": 5.216460136388709e-05,
+    "hybrid / own (m2/m3)": 0.93025187885066,
+    "hybrid / own (m1/m3)": 1.2616619329072871
+   },
+   "LLLR": {
+    "own m2/m3": 5.607578178539906e-05,
+    "hybrid m2/m3": 5.216460136388709e-05,
+    "hybrid / own (m2/m3)": 0.93025187885066,
+    "hybrid / own (m1/m3)": 1.2616619329072871
+   },
+   "LLLLR": {
+    "own m2/m3": 1.550741661957181e-06,
+    "hybrid m2/m3": 1.522537125332453e-06,
+    "hybrid / own (m2/m3)": 0.981812227454358,
+    "hybrid / own (m1/m3)": 1.0387318750821488
+   },
+   "LRRRR": {
+    "own m2/m3": 1.550741661957181e-06,
+    "hybrid m2/m3": 1.522537125332453e-06,
+    "hybrid / own (m2/m3)": 0.981812227454358,
+    "hybrid / own (m1/m3)": 1.0387318750821488
+   }
+  },
+  "worst |hybrid/own - 1| on m2/m3": 0.10164877940066408,
+  "holds": false
+ },
+ "I2b": {
+  "threads": [
+   "LLRLRR",
+   "LLRRLR",
+   "LLLRLRR",
+   "LLLRRLR",
+   "LLRLRRR",
+   "LLRRRLR"
+  ],
+  "relative differences": {
+   "LLRLRR": {
+    "K": 8.33315348898946e-61,
+    "Y": 1.553788255192539e-59,
+    "rotations used": [
+     "LLRLRR",
+     "RRLRLL"
+    ]
+   },
+   "LLRRLR": {
+    "K": 2.499946046696838e-60,
+    "Y": 3.7033436425123333e-59,
+    "rotations used": [
+     "RRLRLL",
+     "RRLLRL"
+    ]
+   },
+   "LLLRLRR": {
+    "K": 4.206509992345106e-61,
+    "Y": 2.367224237332456e-56,
+    "rotations used": [
+     "LLLRLRR",
+     "RRLRLLL"
+    ]
+   },
+   "LLLRRLR": {
+    "K": 5.328245990303801e-60,
+    "Y": 2.9472575896960757e-56,
+    "rotations used": [
+     "RRLRLLL",
+     "RRLLLRL"
+    ]
+   },
+   "LLRLRRR": {
+    "K": 2.8043399948967376e-61,
+    "Y": 5.522725881595712e-58,
+    "rotations used": [
+     "LLRLRRR",
+     "RRRLRLL"
+    ]
+   },
+   "LLRRRLR": {
+    "K": 2.8043399948967376e-61,
+    "Y": 2.0608837231820017e-57,
+    "rotations used": [
+     "RRRLRLL",
+     "RRRLLRL"
+    ]
+   }
+  },
+  "worst": 2.9472575896960757e-56,
+  "holds": true
+ },
+ "I2": {
+  "holds": true
+ },
+ "cells": {
+  "I1": false,
+  "I2": true,
+  "I3": true,
+  "I4": true,
+  "I5": true,
+  "I6": false,
+  "I7": true
+ },
+ "every cell holds": false,
+ "seconds": 662.0
+}
