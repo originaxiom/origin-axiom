@@ -1,0 +1,973 @@
+{
+ "status": "W71: the field-free end (the rule W71_RULE.md first; one run)",
+ "E1": {
+  "per twist": {
+   "-1,-1": {
+    "gapless per spin line": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "smallest positive threshold": "1/4"
+   },
+   "-1,0": {
+    "gapless per spin line": [
+     224,
+     224,
+     224,
+     224
+    ],
+    "smallest positive threshold": "1/4"
+   },
+   "-1,1": {
+    "gapless per spin line": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "smallest positive threshold": "1/4"
+   },
+   "0,-1": {
+    "gapless per spin line": [
+     224,
+     224,
+     224,
+     224
+    ],
+    "smallest positive threshold": "1/4"
+   },
+   "0,0": {
+    "gapless per spin line": [
+     448,
+     448,
+     448,
+     448
+    ],
+    "smallest positive threshold": "None"
+   },
+   "0,1": {
+    "gapless per spin line": [
+     224,
+     224,
+     224,
+     224
+    ],
+    "smallest positive threshold": "1/4"
+   },
+   "1,-1": {
+    "gapless per spin line": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "smallest positive threshold": "1/4"
+   },
+   "1,0": {
+    "gapless per spin line": [
+     224,
+     224,
+     224,
+     224
+    ],
+    "smallest positive threshold": "1/4"
+   },
+   "1,1": {
+    "gapless per spin line": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "smallest positive threshold": "1/4"
+   }
+  },
+  "drift 0 exactly on untwisted slots": true,
+  "every gapless pair is an untwisted slot on a p-odd channel": true,
+  "holds": true
+ },
+ "E2": {
+  "per class": {
+   "trivial": {
+    "gapless": 448,
+    "smallest positive threshold": "None",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "A",
+     "B"
+    ]
+   },
+   "generic in the family torus": {
+    "gapless": 64,
+    "smallest positive threshold": "None",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": false,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "A",
+     "B"
+    ]
+   },
+   "generic in F4's torus": {
+    "gapless": 64,
+    "smallest positive threshold": "None",
+    "colour kept": false,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": false,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "A",
+     "B"
+    ]
+   },
+   "q_w = -1": {
+    "gapless": 0,
+    "smallest positive threshold": "None",
+    "colour kept": true,
+    "weak SU(2) kept": false,
+    "U(1)_em kept (all six admissible Y)": false,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "A",
+     "B"
+    ]
+   },
+   "generic weak": {
+    "gapless": 0,
+    "smallest positive threshold": "None",
+    "colour kept": true,
+    "weak SU(2) kept": false,
+    "U(1)_em kept (all six admissible Y)": false,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "A",
+     "B"
+    ]
+   },
+   "generic in the whole torus": {
+    "gapless": 0,
+    "smallest positive threshold": "None",
+    "colour kept": false,
+    "weak SU(2) kept": false,
+    "U(1)_em kept (all six admissible Y)": false,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "A",
+     "B"
+    ]
+   }
+  },
+  "the 16 are colour-singlet weak doublets": true,
+  "one SU(6) index per block": true,
+  "su(2) commutant of non-commuting pairs (the lemma)": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Y's weak component, per admissible Y": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "Y in the family Cartans' span (read-out)": true,
+  "every count-0 class breaks U(1)_em": true,
+  "holds": true
+ },
+ "E3": {
+  "per twist and R class": {
+   "-1,-1 / none": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": []
+   },
+   "-1,-1 / quaternion point": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": []
+   },
+   "-1,-1 / generic": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": []
+   },
+   "-1,0 / none": {
+    "gapless": 224,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "B"
+    ]
+   },
+   "-1,0 / quaternion point": {
+    "gapless": 272,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "B"
+    ]
+   },
+   "-1,0 / generic": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "B"
+    ]
+   },
+   "-1,1 / none": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": []
+   },
+   "-1,1 / quaternion point": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": []
+   },
+   "-1,1 / generic": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": []
+   },
+   "0,-1 / none": {
+    "gapless": 224,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "A"
+    ]
+   },
+   "0,-1 / quaternion point": {
+    "gapless": 272,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "A"
+    ]
+   },
+   "0,-1 / generic": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "A"
+    ]
+   },
+   "0,0 / none": {
+    "gapless": 448,
+    "smallest positive threshold": "None",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "A",
+     "B"
+    ]
+   },
+   "0,0 / quaternion point": {
+    "gapless": 544,
+    "smallest positive threshold": "None",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "A",
+     "B"
+    ]
+   },
+   "0,0 / generic": {
+    "gapless": 0,
+    "smallest positive threshold": "None",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "A",
+     "B"
+    ]
+   },
+   "0,1 / none": {
+    "gapless": 224,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "A"
+    ]
+   },
+   "0,1 / quaternion point": {
+    "gapless": 272,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "A"
+    ]
+   },
+   "0,1 / generic": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "A"
+    ]
+   },
+   "1,-1 / none": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": []
+   },
+   "1,-1 / quaternion point": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": []
+   },
+   "1,-1 / generic": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": []
+   },
+   "1,0 / none": {
+    "gapless": 224,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": [
+     "B"
+    ]
+   },
+   "1,0 / quaternion point": {
+    "gapless": 272,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "B"
+    ]
+   },
+   "1,0 / generic": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": [
+     "B"
+    ]
+   },
+   "1,1 / none": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": true,
+    "R factors left whole by the twist": []
+   },
+   "1,1 / quaternion point": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": []
+   },
+   "1,1 / generic": {
+    "gapless": 0,
+    "smallest positive threshold": "1/4",
+    "colour kept": true,
+    "weak SU(2) kept": true,
+    "U(1)_em kept (all six admissible Y)": true,
+    "R-symmetry kept": false,
+    "R factors left whole by the twist": []
+   }
+  },
+  "holds": true
+ },
+ "E4": {
+  "smallest singular values": {
+   "k=0, d=0": {
+    "10": 0.3141592652782338,
+    "20": 0.15707963266939648,
+    "40": 0.07853981633848318
+   },
+   "k=0, d=+1/2": {
+    "10": 0.5905049056313002,
+    "20": 0.5240935135099203,
+    "40": 0.5061309146124027
+   },
+   "k=0, d=-1/2": {
+    "10": 0.590504905631299,
+    "20": 0.524093513509921,
+    "40": 0.5061309146124028
+   },
+   "k=0, d=+1": {
+    "10": 1.0481870264499733,
+    "20": 1.0122618290808072,
+    "40": 1.0030795096372471
+   },
+   "k=0, d=-1": {
+    "10": 1.0481870264499735,
+    "20": 1.0122618290808072,
+    "40": 1.003079509637247
+   },
+   "theta=1/2, d=0": {
+    "10": 5.513419639198934,
+    "20": 5.513419639198928,
+    "40": 5.513419639198936
+   },
+   "theta=1/4, d=0": {
+    "10": 3.4237737211155963,
+    "20": 3.423773721115601,
+    "40": 3.4237737211155865
+   }
+  },
+  "holds": true
+ },
+ "E5": {
+  "field-free data that gap every channel": [
+   "R -1,-1 / generic",
+   "R -1,-1 / quaternion point",
+   "R -1,0 / generic",
+   "R -1,1 / generic",
+   "R -1,1 / quaternion point",
+   "R 0,-1 / generic",
+   "R 0,0 / generic",
+   "R 0,1 / generic",
+   "R 1,-1 / generic",
+   "R 1,-1 / quaternion point",
+   "R 1,0 / generic",
+   "R 1,1 / generic",
+   "R 1,1 / quaternion point",
+   "gauge generic in the whole torus",
+   "gauge generic weak",
+   "gauge q_w = -1",
+   "twist -1,-1",
+   "twist -1,1",
+   "twist 1,-1",
+   "twist 1,1"
+  ],
+  "gauge-only classes that gap every channel and keep U(1)_em": [],
+  "holds": true
+ },
+ "cells": {
+  "E1": true,
+  "E2": true,
+  "E3": true,
+  "E4": true,
+  "E5": true
+ },
+ "read-outs": {
+  "the 16 channels": [
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "-1",
+     "0",
+     "0",
+     "-1",
+     "0"
+    ],
+    "SU(6) indices": [
+     1,
+     3,
+     5
+    ],
+    "T3": "-1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "-1",
+     "0",
+     "0",
+     "0",
+     "-1"
+    ],
+    "SU(6) indices": [
+     0,
+     3,
+     5
+    ],
+    "T3": "-1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "-1",
+     "0",
+     "0",
+     "0",
+     "1"
+    ],
+    "SU(6) indices": [
+     1,
+     2,
+     5
+    ],
+    "T3": "-1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "-1",
+     "0",
+     "0",
+     "1",
+     "0"
+    ],
+    "SU(6) indices": [
+     0,
+     2,
+     5
+    ],
+    "T3": "-1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "-1",
+     "0",
+     "-1",
+     "0"
+    ],
+    "SU(6) indices": [
+     1,
+     3,
+     5
+    ],
+    "T3": "1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "-1",
+     "0",
+     "0",
+     "-1"
+    ],
+    "SU(6) indices": [
+     0,
+     3,
+     5
+    ],
+    "T3": "1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "-1",
+     "0",
+     "0",
+     "1"
+    ],
+    "SU(6) indices": [
+     1,
+     2,
+     5
+    ],
+    "T3": "1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "-1",
+     "0",
+     "1",
+     "0"
+    ],
+    "SU(6) indices": [
+     0,
+     2,
+     5
+    ],
+    "T3": "1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "1",
+     "0",
+     "-1",
+     "0"
+    ],
+    "SU(6) indices": [
+     1,
+     3,
+     4
+    ],
+    "T3": "-1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "1",
+     "0",
+     "0",
+     "-1"
+    ],
+    "SU(6) indices": [
+     0,
+     3,
+     4
+    ],
+    "T3": "-1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "1",
+     "0",
+     "0",
+     "1"
+    ],
+    "SU(6) indices": [
+     1,
+     2,
+     4
+    ],
+    "T3": "-1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "1",
+     "0",
+     "1",
+     "0"
+    ],
+    "SU(6) indices": [
+     0,
+     2,
+     4
+    ],
+    "T3": "-1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "1",
+     "0",
+     "0",
+     "-1",
+     "0"
+    ],
+    "SU(6) indices": [
+     1,
+     3,
+     4
+    ],
+    "T3": "1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "1",
+     "0",
+     "0",
+     "0",
+     "-1"
+    ],
+    "SU(6) indices": [
+     0,
+     3,
+     4
+    ],
+    "T3": "1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "1",
+     "0",
+     "0",
+     "0",
+     "1"
+    ],
+    "SU(6) indices": [
+     1,
+     2,
+     4
+    ],
+    "T3": "1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "root": [
+     "0",
+     "0",
+     "0",
+     "1",
+     "0",
+     "0",
+     "1",
+     "0"
+    ],
+    "SU(6) indices": [
+     0,
+     2,
+     4
+    ],
+    "T3": "1/2",
+    "Y under each admissible": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   }
+  ],
+  "the commutant by characters": {
+   "chi(-1)": 24.0,
+   "chi(g4)": [
+    28.0,
+    7.657137397853899e-16
+   ],
+   "dimension": [
+    55.0,
+    5.742853048390424e-16
+   ]
+  }
+ }
+}
