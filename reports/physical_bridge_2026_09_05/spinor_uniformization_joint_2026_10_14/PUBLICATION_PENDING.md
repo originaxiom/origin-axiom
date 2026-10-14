@@ -44,3 +44,11 @@ results/governance_publication. This note preserves the earlier true
 publication failure; it is not a statement that publication is forbidden
 after recovery. Outcome commit/push/server completion must be confirmed
 separately; scientific sources/pins have not changed.
+
+## Publication completed
+
+Outcome packet ea1b56cd4c19a11b11cc322e47595018c1ac8492 was committed,
+pushed with terminal exit0, and terminal server-head read confirmed the
+exact hash on audit/physical-bridge-2026-09-05. Working tree was clean.
+The earlier local-only status is retained as true history, superseded
+by this completion. No main/full-suite/physical acceptance is added.

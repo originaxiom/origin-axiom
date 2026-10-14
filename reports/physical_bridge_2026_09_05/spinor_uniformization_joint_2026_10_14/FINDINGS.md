@@ -149,3 +149,8 @@ Incoming main60c5470ae and chat1 75870adc0 reports read, not reproduced:
 fitting and action-weighted root shares are not foundations of this audit.
 Primary references: https://arxiv.org/html/2404.12981v1,
 https://arxiv.org/html/1310.0467v2, https://arxiv.org/html/math/0205138.
+
+Publication completion: outcome ea1b56cd4c19a11b11cc322e47595018c1ac8492
+now pushed and terminal server-head confirmed on the own audit branch.
+Earlier local-only paragraph is historical, superseded here. No new
+scientific sources, outcomes, acceptance grade or goal verdict changed.
