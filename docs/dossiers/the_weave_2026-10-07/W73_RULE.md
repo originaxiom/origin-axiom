@@ -60,7 +60,8 @@ drafting is listed under "Seen before the rule", and the priors were set after t
 - **The first generation, read out only:** m₁/m₃ against m_u/m_t, m_d/m_b and m_e/m_τ from the same Huang–Zhou file.
 - **The look-elsewhere figure.** There are 12 comparisons: 2 normalisations, 3 sectors and 2 ratios. Under a
   log-uniform prior on [10⁻⁶, 1] for each predicted ratio, the chance that at least one lands within the observed
-  smallest |Δ log| of its datum is p = 1 − (1 − 2|Δ|/log 10⁶)¹². This is a stated, crude figure, not a test of the frame.
+  smallest |Δ log| of its datum is p = 1 − (1 − 2|Δ|/log 10⁶)¹². This is a stated, crude figure, not a test of
+  the frame.
 
 ## The cells (predictions and priors)
 
