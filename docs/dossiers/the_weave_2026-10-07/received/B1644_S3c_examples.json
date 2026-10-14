@@ -1,0 +1,48 @@
+{
+ "source": "main's frontier/B1644_a_higgs_in_the_multiplicity_space/verification/adjoint_higgs.json at origin/main 0bbbb6cab (B1644 sealed 8fa3d82ba)",
+ "sha256 of the source file": "a1e1fc31dd9b0bbb325b097101adf2381d43103309443dcd3814855ff4c61c07",
+ "transcribed": "S3c's five examples as printed: [a_i, a_j, a_k] rounded to 4 digits, then the normalized singular values rounded to 8; tau = 4i; directions from B1644's Fibonacci sphere of 400 points",
+ "tau": "4i",
+ "examples": [
+  [
+   0.0707,
+   0.0,
+   0.9975,
+   1.0,
+   0.5008341,
+   0.0
+  ],
+  [
+   -0.0901,
+   0.0826,
+   0.9925,
+   1.0,
+   0.50137775,
+   0.0
+  ],
+  [
+   0.0138,
+   -0.157,
+   0.9875,
+   1.0,
+   0.50003727,
+   0.0
+  ],
+  [
+   0.1133,
+   0.1478,
+   0.9825,
+   1.0,
+   0.5021108,
+   0.0
+  ],
+  [
+   -0.2077,
+   -0.0367,
+   0.9775,
+   1.0,
+   0.50731176,
+   0.0
+  ]
+ ]
+}
