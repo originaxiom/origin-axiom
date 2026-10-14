@@ -1,5 +1,16 @@
 # Changelog
 
+## A correction: the puncture and the modular cusp; relay section 90
+
+- **chat1's field relay names two ends** that the record had both called "the cusp": the fibre's puncture and the
+  modular cusp (τ → i∞). The seat adopts the names.
+- **Two conflations of the seat's own are corrected,** with dated notes:
+  - P024's point 4 put GENESIS FK10's unit at the condensate's cusp. The condensate is at the puncture; the unit is at
+    the modular cusp.
+  - W72's reading put the masses, the field and the count at one edge. The masses' units and the count's unit are at
+    the modular cusp; P024's field is at the puncture.
+- No cell changes. **Surfaces.** P024, the dossier (W72), the relay and the ledger. 0 of 19.
+
 ## chat1's branch read (the condensate in M; the field); relay section 89
 
 - **At the owner's request** ("fetch chat1 branch as well") the seat fetched `chat1/web-seat` at `4636b0fa4` and read

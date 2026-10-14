@@ -18896,3 +18896,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   How they join is open. One way gives a shape that looks like the operator behind neutrino masses, but that is a hint,
   not a result. 0 of 19.
 
+## 2026-10-14 — a correction: two edges, not one
+
+- **chat1 named two different ends** that the record had both called "the cusp": the puncture of the fibre, where the
+  condensate lives, and the modular cusp, the far end of the shape parameter, where the count's unit lives.
+- **The seat had blurred them twice:** in its contemplation note, and in yesterday's line that "the same edge decides
+  the field, the count and the masses". That was wrong. The count and the masses share the modular cusp. The field
+  sits at the puncture.
+- Both are corrected with dated notes. No result changes. 0 of 19.
+

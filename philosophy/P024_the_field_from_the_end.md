@@ -62,6 +62,12 @@ its potential are hypotheses in every arc of the record that uses it.
 4. **GENESIS FK10's unit sits at the same cusp.** The passage reads it as the end's minimal datum. Whether the
    condensate and the unit are one object is open.
 
+**Correction (2026-10-14, evening, after chat1's naming of the two cusps).** Point 4 above conflated two ends.
+- The cusp condensate (W70, W71) sits at the fibre's puncture, completed as a cusp.
+- GENESIS FK10's unit sits at the modular cusp of the weave's surface, τ → i∞ (W46, W47).
+
+They are different ends, so "the same cusp" is withdrawn. Whether the two data are linked is a separate question.
+
 ## Its place in the folder
 
 - **P000** asks what is not-nothing.

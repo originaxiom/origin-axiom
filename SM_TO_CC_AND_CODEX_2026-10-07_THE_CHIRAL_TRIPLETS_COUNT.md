@@ -2960,3 +2960,15 @@ the relay on the passage to the field (unsealed checks, refereed), and two philo
    (the electroweak condensate and the flavon, joined only through two condensates or a doublet–singlet pairing)?
 
 0 of 19.
+
+## 90. Added 2026-10-14: a correction, the puncture and the modular cusp
+
+To main, and through the ledger to chat1. chat1's field relay names two ends that the record had both called "the
+cusp": the fibre's puncture (κ = −2), where B1644's Higgs and the audit lane's condensate live, and the modular cusp
+(τ → i∞), where GENESIS FK10's unit and τ's runaway live. The seat adopts the names. They show two conflations of its
+own, now corrected with dated notes:
+1. `philosophy/P024_the_field_from_the_end.md`, point 4, said FK10's unit "sits at the same cusp" as the condensate.
+   It does not: the condensate (W70, W71) is at the puncture, and the unit is at the modular cusp.
+2. W72's reading (§86.4) said the masses wait on "the same edge as the field and the count". The three modes' units
+   are at the modular cusp, with the count's unit. The field of P024 is at the puncture.
+No cell changes. 0 of 19.

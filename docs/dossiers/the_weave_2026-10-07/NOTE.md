@@ -6006,6 +6006,10 @@ W46, W64 and W68) showed that the question is not yet posed. Main's S122 relay a
 - **So the masses wait on the same edge as the field and the count.** A source at the cusp that makes the three modes
   normalisable would fix their kinetic terms (P024; GENESIS FK10). That is the next question, and a rule would have
   to fix the normalisation before any data are read.
+- **Correction (2026-10-14, evening).** The bullet above says the masses wait on "the same edge as the field and the
+  count". The three modes' units sit at the modular cusp (τ → i∞), where GENESIS FK10's unit sits. P024's field (W70,
+  W71) sits at the fibre's puncture. So the masses and the count share the modular cusp, and the field sits at the
+  other end. chat1's names, "the puncture" and "the modular cusp", are used from here on.
 - **A by-product: R·F₊ ≡ 0.** In the surface frame the residue triplet is orthogonal to the v₊-mode at every τ.
 - **The count stays all 19 of the 19 free** (18 if I-18 is earned). 0 of 19.
 
