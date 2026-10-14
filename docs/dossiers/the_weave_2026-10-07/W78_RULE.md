@@ -41,14 +41,20 @@ is listed under "Seen before the rule", and the priors were set after that. Noth
   max_nfev 1500), from each structure's 8 best grid points. Keep the best.
 - **A read-out using main's result, labelled.** For (5, 7, 3) and (3, 7, 7), refine once more from main's τ, with the
   α of the nearest grid point's best. This is not the independent check: the grid route is.
-- **The control.** W54's ten shape observables for (5, 7, 3) at random α, at τ = 0.2 + 6.5i, −0.3 + 8i and 0.4 + 9.5i,
-  unchanged under τ → τ + 1 and τ → −1/τ to 10⁻⁸. This checks the forms far up the τ line.
+- **The control.** W54's ten shape observables for (5, 7, 3) at random α, to 10⁻⁸:
+  - unchanged under τ → τ + 1 at τ = 0.2 + 6.5i, −0.3 + 8i and 0.4 + 9.5i, which checks the forms far up the τ line;
+  - unchanged under τ → −1/τ at three points near the unit circle, x ∈ [−0.25, 0.25] and y ∈ [1.0, 1.08] (seed 7801),
+    as W54's own control.
+  - *Corrected before any code (2026-10-14, disclosed).* The rule as first committed (a73cf802b) put the S-check at
+    the far points. There −1/τ has Im τ ≤ 0.15, below the forms' series domain: W51's evaluator sums 24 terms scaled
+    for Im τ ≥ √3/2. The check would have tested the truncation, not the forms. The seat found this while writing the
+    script, before any run.
 
 ## The cells (predictions and priors)
 
 | | prediction | prior |
 |---|---|---|
-| **N0, the control** | The shape observables are unchanged under both moves to 10⁻⁸ at the three points. | 90% |
+| **N0, the control** | The shape observables are unchanged under τ → τ + 1 at the three far points, and under τ → −1/τ at the three points near the unit circle, to 10⁻⁸. | 90% |
 | **N1, (5, 7, 3) fits** | By the grid route alone, χ²_min ≤ 5.99, at Im τ in [6.3, 7.3]. | 80% |
 | **N2, (5, 7, 3) as low as main's** | By the grid route alone, χ²_min ≤ 2.9 (main's 1.86 plus one). | 65% |
 | **N3, (3, 7, 7)** | By the grid route alone, χ²_min > 5.99 in the window: it does not fit. | 55% |
