@@ -8,8 +8,8 @@ while drafting is listed under "Seen before the rule", and the priors were set a
 - **chat1's thread frame and its Lagrange law** (`chat1/web-seat` @ 39bfc86fe) are built on this seat's W72 forms. Under
   the hypothesis H-thread, the couplings are cycle integrals along the vacuum thread's closed geodesic. chat1 found
   ln(m₂/m₃) = 7.289 − 7.332·y_max over 59 threads, with y_max half the thread's Lagrange value.
-- **The owner's rule: verify load-bearing math.** chat1's numbers rest on this seat's forms, so the seat checks them with
-  an independent integrator, at a precision that does not lose the hierarchy.
+- **The owner's rule: verify load-bearing math.** chat1's numbers rest on this seat's forms, so the seat checks them
+  with an independent integrator, at a precision that does not lose the hierarchy.
 - **A question the fit raises.** Its slope, 7.332, sits within 0.002 of 7π/3. This arc asks whether the slope is a
   constant at all, and what it tends to deep in the cusp.
 
@@ -32,10 +32,10 @@ while drafting is listed under "Seen before the rule", and the priors were set a
   | LLLR | 2.2913 | 5.6076·10⁻⁵ | 3.0489·10⁻⁶ |
   | LLLLR | 2.8284 | 1.5507·10⁻⁶ | 2.4915·10⁻⁸ |
 
-- **The seat's own arithmetic on those numbers,** along L^n R for n = 1 to 4. The local slopes of −ln(m₂/m₃) against y_max
-  are 7.64, 7.34 and 6.68, falling. Those of −ln(m₁/m₃) are 5.47, 8.39 and 8.95, rising.
-- **The W72 module** (`the_surface_yukawa.py`, unchanged since 87cf7f551). ρ_R's exponents in eighths are e_i 1, v₊ 7 and
-  v₋ 3. So the matter modes grow at the cusp like q^{−7/8} (F_i), q^{−1/8} (F₊) and q^{−5/8} (F₋). The Higgs mode h
+- **The seat's own arithmetic on those numbers,** along L^n R for n = 1 to 4. The local slopes of −ln(m₂/m₃) against
+  y_max are 7.64, 7.34 and 6.68, falling. Those of −ln(m₁/m₃) are 5.47, 8.39 and 8.95, rising.
+- **The W72 module** (`the_surface_yukawa.py`, unchanged since 87cf7f551). ρ_R's exponents in eighths are e_i 1, v₊ 7
+  and v₋ 3. So the matter modes grow at the cusp like q^{−7/8} (F_i), q^{−1/8} (F₊) and q^{−5/8} (F₋). The Higgs mode h
   (ρ′, eighths e_i 3, v₊ 1, v₋ 5) is cuspidal. The Hermitian pairing is diagonal in the three lines.
 - **An argument by hand, not a result.**
   - Near the geodesic's apex x moves linearly while y moves quadratically. So in every cycle integral, products of
@@ -60,8 +60,8 @@ while drafting is listed under "Seen before the rule", and the priors were set a
   - The axis comes from the rotation of the word with the least |c|. The arclength is s from the apex, with the nodes
     shifted by half a step from chat1's (s_j = −P/2 + (j + ½)P/N).
   - N = 512, with N = 1024 as the control at the largest thread.
-- **The masses** are the singular values of (K^{−½})ᵀ Y K^{−½}, in ascending order, at 60 digits. The states' weights are
-  as chat1 defined them.
+- **The masses** are the singular values of (K^{−½})ᵀ Y K^{−½}, in ascending order, at 60 digits. The states' weights
+  are as chat1 defined them.
 - **The threads.**
   - V1: LR, LLRR, LLR, LLRLR and LLLR.
   - V2: L^n R for n = 1 to 8, with y_max = √(n² + 4n)/2 exactly.
