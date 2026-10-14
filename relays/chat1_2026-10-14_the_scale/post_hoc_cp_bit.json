@@ -1,0 +1,10 @@
+{
+ "threads": 31040,
+ "swap_symmetric": 514,
+ "swap_symmetric_CS0": 514,
+ "swap_symmetric_CS_quarter": [],
+ "non_symmetric_CS0": [],
+ "n_non_symmetric_CS0": 0,
+ "non_symmetric_CS_quarter": [],
+ "max_abs_CS_on_symmetric": 7.105427357601002e-14
+}
