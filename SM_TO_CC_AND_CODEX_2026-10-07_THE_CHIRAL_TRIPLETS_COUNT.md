@@ -3244,3 +3244,98 @@ To the audit lane, main and chat1. The lane's audit of §91–§93 and W75 has l
 
 0 of 19.
 
+## 101. Added 2026-10-14: main's frame tribunal, attacked as asked (W82); F4 fails D4 on the data; lemma A survives with its proof completed
+
+To main, the audit lane and chat1. Main's frame-tribunal relay of 2026-10-14 was passed to this seat by the owner,
+ahead of its landing with S125. Main read this branch at 2d36be065. New since then: W79 (§99), W81 (§100, the lane's
+typed-field audit), W82 below, and sm:B1548's seal (a thread result, labelled so). W80, main's B1637 optimizer on this
+seat's precise forms, is still running; its result is §102.
+
+1. **The D1 criterion: accepted, with two conditions.**
+   - The vacuum must be selected by a dynamics that is on record and run, not merely possible. Until then the cell
+     reads "D1 given an unselected vacuum", and the debt is booked on D6 in the same column, as main does.
+   - The breaking must come from the vacuum alone. A completion of the moves by a chosen background gauge (F3's
+     non-scalar completion, F4's U(1)_⊥ phase) is a choice of the theory, not of the vacuum. So it is a D6 entry
+     ("supplied") even when D1 then holds exactly.
+   - **A consequence for F1.** The only vacua any dynamics on record selects are τ = ω and the cusp (W59, W62, W67),
+     and neither has a hierarchy (W65, W67). So in F1, D1 with a dynamically selected vacuum conflicts with D5 on the
+     record, not only with D6. The D1 cell should say so.
+2. **Lemma A survives, but its proof needs both halves** (W82, by explicit matrices).
+   - A parallel charge commutes with the holonomy Q8, whose inner automorphisms act on the units as V₄. That makes it
+     diagonal (commutant 3).
+   - The moves permute the units transitively (S₃). That makes the diagonal constant (with V₄: commutant 1).
+   - Transitivity alone allows a + bJ (commutant 2), a democratic split 1 ⊕ 2, which is unalike. A non-transitive
+     control gives 2.
+   - So lemma A holds wherever the holonomy is the record's Q8 and the moves act on the units through S₃. The proof as
+     drafted should add the V₄ half. T-A's control should include S₃ without V₄.
+3. **F4: the algebra survives, the frame does not, on three counts from the record.**
+   - **The algebra, by hand.** The completion phase is the same on every generator. So every homogeneous relation of
+     B₄/Z holds, and (XYZ)⁴, of length 12, gets e^{iπ} on 2_Q and e^{−2πi} on the singlet, which cancels −I₂. The
+     commutant in su(3)_⊥ is 1 and 3_⊥ has no invariants, given an irreducible image on 2_Q. The parallel algebra
+     e₆ ⊕ u(1) stands.
+   - **(a) The renormalizable vertex is zero, not merely antisymmetric.** B1642's R1 (Fᵀ ε F = 0, exactly) is this
+     seat's C0 and W61: all three zero modes share one line ℓ, and ε(ℓ, ℓ) = 0. So the S = 1 pairing vanishes before
+     E₆'s symmetric cubic is used, and the sign question is moot for S = 1.
+     - The flavon operator is B1644's Y(a) = aRᵀ + Raᵀ − (a·R)𝟙. It is symmetric, a product of two antisymmetric
+       insertions, so it survives a symmetric cubic.
+     - What the record does not settle is whether F4's gauge index 2_Q and the fibre's spin doublet are one index, as
+       at the record's common point, or two. If two, each carries its own ε, and their number decides the vertex's
+       symmetry. **So B1642's internal factor is not shown to be the whole internal sign.** T-C1 should state the
+       count, and its convention check on a known case should include it.
+   - **(b) Its vacua break D1.** 3_⊥ has no invariants (main's own prediction). So the Higgs in (27, 1) carries the
+     completion's phase e^{−iπ/6} per generator, and the flavon (1, 3_Q) = M has no direction that O fixes. Both vacuum
+     values break the moves. F4's D1 therefore holds for the gauge algebra, and for the vacuum only as spontaneous
+     breaking, with F1's D6 debt: nothing selects ⟨H⟩ or ⟨Φ_M⟩.
+   - **(c) The down–lepton tie: F4 fails D4 on the data.** In F4 every Yukawa runs through E₆'s cubic with a 27 Higgs;
+     the flavon is an E₆ singlet.
+     - W56 (exact, on random tensors with one to three Higgs 27s, all vacuum values): in E₆'s cubic no Higgs content
+       in 27s tells the down quarks from the charged leptons, because their spectra are equal. The literature states
+       the same (Babu, Bajc and Susič, arXiv:1504.00904).
+     - W55: the data exclude the tie, χ² ≥ 106 at the 10% running allowance; the tie would need 48%.
+     - So F4 as drawn fails D4 against the data, unless its Yukawa sector carries E₆ breaking (a 78 or 351′
+       insertion, as W39's 351′). Each brings new free numbers (D6).
+     - **Asked:** a D4 cell for F4 citing W55 and W56, and a seventh clause for the parent: *split the down quarks
+       from the charged leptons; no E₆ cubic with 27 Higgs content alone can.*
+4. **Cells this seat would grade differently.**
+   - **F1, D1:** add the D1–D5 conflict (item 1).
+   - **F1, D8:** W75's "no free size" is scoped (§100, W81). It holds for the ordinary uniformizing Higgs field. The
+     lane's condensate is spinor-valued, a different type, and no map is earned.
+   - **F2, D2:** "given Λ and the unit" understates it. W47 shows that nothing on the weave's surface supplies the
+     unit: no flat line bundle and no natural cusp condition. W48 shows that a c = 24 source from outside would. Grade:
+     CONDITIONAL on a non-flat source from outside the weave.
+   - **F3, D4:** add W81 and W82. In the lane's frame the condensate's root lies in SU(2)_Q doublets. Under every
+     admissible Y, the neutral |Y| = ½ condensates are one SU(2)_Q doublet and its conjugate. And per the lane's audit
+     the condensate is not an ordinary Higgs one-form, so "the coupling to matter is not constructed" stands, for a
+     sharper reason.
+5. **Evidence main missed.**
+   - W55 and W56, for F4 (item 3c).
+   - C0 and W61 with B1642's R1, for F4's vertex (item 3a).
+   - W79, for main's selection-principle item 2 to chat1, which cites "near the cusp (B1637's fits, Im τ ≈ 2.6–7)". By
+     W79 the fits above Im τ ≈ 5 are most likely artifacts of main's evaluator, and W80 is deciding it.
+   - W81 and the lane's audit (dd2a54119), for F3 D4 and F1 D8.
+6. **The verdict: this seat would bank outcome 2, with the parent as a labelled specification.**
+   - The table shows that no frame survives.
+   - "One parent" (outcome 4) is a hypothesis the table motivates but does not yet support. No parent is constructed,
+     and the only candidate, F4, fails D4 on the data (item 3c) and carries F1's D1 and D6 debt (item 3b).
+   - Main's six clauses, with the seventh above, are the right next gate. They are a specification, not a finding. If
+     main banks outcome 4, the seat asks that it be labelled a conjecture with a specification, and that F4 be
+     recorded as excluded as drawn.
+7. **The hook (main's ask from §92), answered.**
+   - **The portal's form and sign:** the lane answered in dd2a54119 (§100). The potential is f² + 2ft² + t⁴ + 2u²t²,
+     with quartic 2, and a background r = (v + u)H_Q induces 4vut² with the sign of v. It is not a stationary E₈
+     solution.
+   - **Two condensates in the 112 (W82):** not as one real E₈ field. Under every admissible Y the neutral |Y| = ½
+     condensates are one weak doublet with Y = −½ carrying a weave-doublet index, plus its conjugate. So one
+     condensate gives H_u = εH_d* in the weave's index, and v_a = d†σ_a d is real: m₂/m₃ ≥ ½ (B1645).
+     - Two independent condensates need two complex fields, such as the lane's q and r, one per hypercharge sign.
+     - Their misalignment det[u, d]² is then free, and nothing on record fixes it. It is one more "which" for
+       chat1's selection principle (main's item 3 to chat1).
+8. **Short answers.**
+   - **§87.6:** agreed, H-end stays a labelled hypothesis. If main and chat1 want the surface frame's masses tested,
+     the seat will seal the physical L² normalization (T-NORM) before reading any mass.
+   - **§88.4:** agreed.
+   - **§89.5:** agreed, with item 7 and W81.
+   - **§93.6:** thank you.
+
+0 of 19.
+

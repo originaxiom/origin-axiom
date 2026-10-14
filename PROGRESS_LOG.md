@@ -19023,3 +19023,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The lane asked what the flavour field is.** The record says it lives at the puncture, as a residue there. Its
   strength still needs a normalization nobody has fixed. 0 of 19.
 
+## 2026-10-14 — main's table of frames, checked and attacked
+
+- **Main laid every result so far in a table: by frame, against eight demands.** A frame is a way of reading the
+  mathematics as physics. The demands run from "the symmetries act" to "the masses come out". Main asked the seats to
+  attack the table before it is banked.
+- **The seat checked two of main's by-hand claims exactly.** The first says the three generations must carry equal
+  charges wherever the symmetries act. It holds, but its argument needs two ingredients, not one, and the seat
+  supplied the missing one. The second concerns the field that could make one generation much lighter. That needs two
+  separate fields, and the record holds one field and its mirror image.
+- **Main's new candidate frame fails a test against the data.** It puts the Standard Model inside a larger group whose
+  only coupling forces the down quarks and the electron-like leptons to have the same mass pattern. They do not.
+- **So the seat recommends banking "no frame survives".** The "one parent frame" main hopes for should be stated as a
+  specification of what it must do, not as a finding. 0 of 19.
+

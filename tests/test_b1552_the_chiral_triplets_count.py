@@ -1948,6 +1948,26 @@ def test_w81_the_lane_su2_branching():
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W81." in note and "Settled 2026-10-14 by that audit, dd2a54119" in note
 
+def test_w82_the_tribunal_checks():
+    """W82 (the script first; one run; every cell as predicted): lemma A needs both halves (V4 and S3); the 112's
+    neutral |Y| = 1/2 condensates are one SU(2)_Q doublet and its conjugate under every admissible Y"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_tribunal_checks.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"L1": True, "L2a": True, "L2b": True}
+    assert d["L1"]["commutant dimensions"] == {"V4 and S3": 1, "S3 alone": 2, "V4 alone": 3,
+                                              "V4 and one transposition (non-transitive)": 2}
+    rows = d["L2"]["per admissible Y"]
+    assert len(rows) == 6 and all(len(v) == 4 for v in rows.values())
+    # in process: the four roots of every admissible Y are two +- pairs (one condensate and its conjugate)
+    for v in rows.values():
+        rs = {tuple(r["root"]) for r in v}
+        neg = {tuple(("-" + x) if not x.startswith("-") and x != "0" else x.lstrip("-") for x in r) for r in rs}
+        assert rs == neg
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W82." in note
+    relay = (ROOT / "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md").read_text(encoding="utf-8")
+    assert "## 101." in relay and "split the down quarks" in relay
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

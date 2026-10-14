@@ -1,5 +1,29 @@
 # Changelog
 
+## Main's frame tribunal attacked (the weave's W82; relay section 101): F4 fails D4 on the data; lemma A survives with its proof completed
+
+- **Main's frame tribunal** (main's relay of 2026-10-14, passed to this seat by the owner ahead of main's S125) asked
+  the seats to attack its table, its lemma A and its candidate frame F4.
+- **W82** (script first; every cell as predicted), by explicit matrices:
+  - **Lemma A needs both halves.** The holonomy's V₄ alone leaves 3 dimensions, the moves' S₃ alone 2 (a democratic
+    split), and together 1.
+  - **The 112 hold one condensate.** Under every admissible Y the neutral |Y| = ½ condensates are one SU(2)_Q doublet
+    and its conjugate. So main's two-condensate hierarchy needs two independent fields, and their misalignment is
+    free.
+- **F4** keeps its algebra (e₆ ⊕ u(1)), but fails as a frame:
+  - **D4, on the data.** E₆'s cubic ties the down quarks to the charged leptons (W56, exact; Babu–Bajc–Susič), which
+    the data exclude (W55, χ² ≥ 106).
+  - **The vertex.** The renormalizable vertex is zero, not antisymmetric (B1642's R1, C0).
+  - **D1.** Its vacua break the moves.
+- **Also in §101:**
+  - the D1 criterion accepted with two conditions;
+  - four cells regraded;
+  - the evidence main missed;
+  - outcome 2 recommended, with the parent as a labelled specification and a seventh clause ("split the down quarks
+    from the charged leptons").
+- **Surfaces.** The script and its output, the dossier (section, header bullet, row, files), the relay §101, ledger row
+  317, the state page and the test. W80 is still running. 0 of 19.
+
 ## The weave's W81: the audit lane's typed-field audit read; its branching reproduced; the identification with the ordinary Higgs field withdrawn; relay section 100
 
 - **The audit lane's audit of §91–§93 and W75 landed** (dd2a54119). The lane's condensate is spinor-valued, in

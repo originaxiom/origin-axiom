@@ -234,6 +234,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   sign): under the continuous SU(2) of the quaternion Cartan the 248 is 55 + 52·2 + 27·3 + 2·4 (index 3), as the lane
   says, and the electroweak condensate's root lies in the doublets. The identification of the lane's condensate with
   the ordinary uniformizing Higgs field is withdrawn: the lane shows the types differ.
+- W82 (two checks for main's frame tribunal; script first; every cell as predicted): lemma A holds, but needs both
+  halves. The holonomy's V₄ makes a parallel charge diagonal on the units, and the moves' S₃ makes it constant;
+  transitivity alone allows a democratic split. Under every admissible Y the neutral |Y| = ½ condensates are one
+  SU(2)_Q doublet and its conjugate, so main's two-condensate hierarchy needs two independent fields.
 
 ## The setting
 
@@ -6630,6 +6634,45 @@ This arc checks the second point with this seat's own E₈ code, and asks whethe
 **Status.** COMPUTED (the script first; one run; B1, B2 and B4 as predicted; B3 failed as worded, a sign convention).
 A check of the audit lane's character, and a dated withdrawal of this seat's identification. 0 of 19.
 
+## W82. Two checks for main's frame tribunal: lemma A holds with both its halves, and the 112 hold one neutral SU(2)_Q-doublet condensate of each hypercharge sign, conjugate to each other (`the_tribunal_checks.py`)
+
+**Why.** Main's frame tribunal relay (2026-10-14, passed to this seat by the owner ahead of main's S125) asks the seats
+to attack its table, its lemma A and its candidate frame F4. It also asks this seat whether two condensates of
+opposite hypercharge exist in the lane's 112. Two of these are cheap exact checks.
+- **Lemma A (main's, by hand).** Wherever the moves act, a parallel gauge charge is the same on all three generations,
+  since the moves permute the units transitively.
+- **The hook (main's, from §92).** Two doublets of opposite hypercharge would induce a complex flavon direction whose
+  isotropy defect is det[H_u, H_d]². One doublet induces only a real direction, so m₂/m₃ ≥ ½ (B1645).
+
+**The order.** The script, with its predictions and priors in the docstring, was committed before its one run
+(bc65d6d3b). Its output was committed before the read-out (4d67f5fe3).
+
+**The read-out (COMPUTED, exact; every cell as predicted).**
+- **L1, lemma A's two halves, by explicit 3 × 3 matrices on the units.**
+  - The holonomy's V₄ (the inner automorphisms of Q8 on the units, sign pairs) alone leaves a commutant of
+    dimension 3: diagonal charges.
+  - The moves' S₃ on the labels alone leaves 2: a + bJ, a democratic charge that splits 1 ⊕ 2.
+  - Together they leave 1: scalars. A non-transitive control (V₄ and one transposition) leaves 2.
+- **L2, the hook's condensates.** Under each of the six admissible hypercharges of W70, the electrically neutral
+  colour-singlet weak-doublet condensates with |Y| = ½ are four roots, ±r₁ and ±r₂. Two have Y = +½ and two Y = −½,
+  as W70 found. All four lie in the doublets of the continuous SU(2) of the quaternion Cartan (W81's test), with
+  H_Q = ±1. Under the admissible Y where the lane's β is neutral, r₂ = β.
+
+**What it shows (a READING).**
+- **Lemma A survives, with its proof completed.** A parallel charge commutes with the holonomy, whose V₄ makes it
+  diagonal on the units. The moves then make the diagonal constant. Transitivity alone does not suffice: it allows a
+  democratic split, an unalike assignment. So the lemma holds wherever the holonomy is the record's Q8 and the moves
+  act on the units through S₃.
+- **The 112 hold one condensate, not two.** As complex fields, ±r₁ and ±r₂ are one weak doublet with Y = −½ carrying a
+  weave-doublet index, and its conjugate with Y = +½.
+  - So a single condensate gives H_u = εH_d* in the weave's index. Then v_a = d†σ_a d is real, and by B1645
+    m₂/m₃ ≥ ½.
+  - Main's two-condensate hierarchy needs two independent complex fields, for instance the lane's q and r, one taking
+    each hypercharge sign. Their misalignment det[u, d]² is then a free datum. Nothing on record fixes it.
+
+**Status.** COMPUTED (the script first; one run; every cell as predicted). Two checks for main's tribunal; the rest of
+this seat's attack is relay §101. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -6822,6 +6865,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W78 | COMPUTED (the rule first, one disclosed correction before code; one run; N0, N3, N4 as predicted; N1, N2 FAILED as worded; a labelled post hoc); a WEAVE result on the ruled branch, given Λ | main's B1637 ask: the sixteen weight-3 structures over Im τ ∈ [5, 10] with W54's model. None fits; (5, 7, 3) 190.7 (main 1.86), (3, 7, 7) 915.8 (main 6.72). At main's τ, 200 starts per part: 608 and 1036. The up sector alone at weight 3 has no exact fit below Im τ = 8 here (1.78 at the edge), where main's fits at 6.66. The two seats' weight-3 models differ; to resolve with main. Count unchanged. 0 of 19 |
 | W79 | COMPUTED (the rule first, one disclosed correction before code; one failed launch disclosed; one run; C3 as predicted; C1, C2 FAILED as worded; two labelled post hocs) | the two seats' weight-3 models compared: ρ_T and main's ρ_θ isomorphic (not conjugate); the weight-3 spaces equal through the intertwiner (angles 10⁻¹¹ to 10⁻¹³ at moderate Im τ); their disagreement grows like |η|⁻¹⁸ (slope 4.7109 against 3π/2 = 4.7124), 0.0043 at Im τ 7 and 0.48 at 8; main's up-sector fit at its own τ does not reproduce on main's code here (191). Main's weight-3 fits near Im τ 6.7–6.8 most likely numerical artifacts; W78's 'models differ' corrected. 0 of 19 |
 | W81 | COMPUTED (the script first; one run; B1, B2, B4 as predicted; B3 FAILED as worded, a sign convention); a check of the audit lane's character | the 248 under the continuous SU(2) of the quaternion Cartan is 55 + 52·2 + 27·3 + 2·4 (index 3), as the lane says; the odd part is 52 doublets and 2 quartets, so "2 ⊗ 56" holds for Q8 only; the electroweak condensate's root β lies in the doublets. The identification of the lane's spinor-valued condensate with the ordinary uniformizing Higgs field is withdrawn (the lane's audit dd2a54119: the types differ) |
+| W82 | COMPUTED (the script first; one run; every cell as predicted); two checks for main's frame tribunal | lemma A holds with both halves: the holonomy's V₄ makes a parallel charge diagonal on the units (commutant 3), the moves' S₃ makes it constant (with V₄: 1); S₃ alone allows a democratic split (2). Under every admissible Y the neutral \|Y\| = ½ condensates are ±r₁, ±r₂, all SU(2)_Q doublets: one condensate and its conjugate, so a two-condensate hierarchy needs two independent fields |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -6892,6 +6936,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W78_RULE.md`: the rule, committed before the code (one disclosed correction before code); `the_weight_three_refined.py` → `the_weight_three_refined.json`: W78, the sixteen weight-3 structures over Im τ ∈ [5, 10]; post hoc (labelled) `the_weight_three_refined_posthoc.py` → `the_weight_three_refined_posthoc.json`: this seat's model at main's τ, and each sector alone at weight 3.
 - `W79_RULE.md`: the rule, committed before the code (one disclosed correction before code); `the_two_seats_weight_three.py` → `the_two_seats_weight_three.json`: W79, the two seats' weight-3 models compared (main's code read-only from 60c5470ae); post hoc (labelled) `the_two_seats_weight_three_posthoc.py` → `the_two_seats_weight_three_posthoc.json`: the T-phases and the spans through the intertwiner; `the_two_seats_weight_three_posthoc2.py` → `the_two_seats_weight_three_posthoc2.json`: the precision of main's forms near the cusp.
 - `the_lane_su2_branching.py` → `the_lane_su2_branching.json`: W81, the audit lane's continuous-SU(2) branching of the 248 checked (the H_Q weights, the irreps, the odd part, the doublet test at ±β); the script committed before its one run.
+- `the_tribunal_checks.py` → `the_tribunal_checks.json`: W82, two checks for main's frame tribunal (lemma A's commutants by explicit matrices; the neutral |Y| = ½ condensates under every admissible Y with the doublet test); the script committed before its one run.
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.
