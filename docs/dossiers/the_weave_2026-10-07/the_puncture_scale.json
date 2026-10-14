@@ -1,0 +1,100 @@
+{
+ "status": "W75: chat1's scale check on this seat's instruments (the rule W75_RULE.md first; one run)",
+ "snappy": "3.3.2",
+ "sympy": "1.14.0",
+ "U2": {
+  "chain-rule ingredients": {
+   "Laplacian of L = 0": true,
+   "|grad L|^2 = 4/|z|^2": true
+  },
+  "chain rule on test functions": {
+   "L^3": true,
+   "exp(L/3)": true,
+   "sin L": true
+  },
+  "the bracket for diag(h1, h2)": true,
+  "the three branches solve u'' + e^(-2u) = 0": {
+   "e^u = L - L0": true,
+   "e^u = sinh(a (L - L0)) / a": true,
+   "e^u = sin(a (L - L0)) / a": true
+  },
+  "L(lambda z) = L - log|lambda|^2": true,
+  "h = diag(L, 1/L) solves, directly": true,
+  "h = diag(L - 1/5, 1/(L - 1/5)) solves, directly": true,
+  "holds": true
+ },
+ "U3": {
+  "frame change: h_e = diag(L/c, c/L)": true,
+  "Phi in the log frame is E21 dz/z": true,
+  "solves Hitchin's equation": {
+   "c = 1": true,
+   "c = 2": false
+  },
+  "A_phi = i N with N as predicted": true,
+  "N^2 = 0 and N != 0": true,
+  "trace of exp(-2 pi i N)": "2",
+  "trace with the log frame's -1": "-2",
+  "holds": true
+ },
+ "U4": {
+  "residue's norm in h": "1/Lp",
+  "pointwise norm on unit vectors": "1/(2*R)",
+  "at R = 1": "1/2",
+  "at R = 1/2": "1",
+  "curvature of R^2 4|dz|^2/(|z|^2 L^2)": "-1/R**2",
+  "L in the canonical coordinate": "4*pi*Y",
+  "the cusp metric is |dw|^2/Y^2": true,
+  "horocycle length": "1/Y",
+  "holds": true
+ },
+ "U1": {
+  "threads": 745,
+  "isometry failures": [],
+  "reversal: CS(rev) != -CS(W)": [],
+  "reversal: CS(rev) != CS(swap W)": [],
+  "errors": [],
+  "K1 reproduced: threads with |CS| > 1e-6": 690,
+  "holds": true
+ },
+ "read-outs": {
+  "swap-symmetric threads": 55,
+  "threads with CS = pi^2/2": [],
+  "U1 wall-clock (s)": 3.5,
+  "N at L = 1": [
+   [
+    "-1",
+    "-1"
+   ],
+   [
+    "1",
+    "1"
+   ]
+  ],
+  "N at L = 2": [
+   [
+    "-1/2",
+    "-1/4"
+   ],
+   [
+    "1",
+    "1/2"
+   ]
+  ],
+  "N at L = 10": [
+   [
+    "-1/10",
+    "-1/100"
+   ],
+   [
+    "1",
+    "1/10"
+   ]
+  ]
+ },
+ "cells": {
+  "U1": true,
+  "U2": true,
+  "U3": true,
+  "U4": true
+ }
+}
