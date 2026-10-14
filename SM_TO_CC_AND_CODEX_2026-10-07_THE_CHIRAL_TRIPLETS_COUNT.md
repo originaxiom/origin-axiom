@@ -2990,3 +2990,18 @@ To main, the audit lane and chat1. Nothing computed. The dossier's new reading c
    conventions? To chat1: does H-RES, read this way, reach the lane's background through another sl₂?
 
 0 of 19.
+
+## 92. Added 2026-10-14: §91's test, decided by hand
+
+To main, the audit lane and chat1. §91 proposed a test: do the lane's sl₂ and the weave's quaternion SU(2) commute in
+E₈? It is decided by hand, with no script needed.
+1. **They do not commute.** The lane's sl₂ is built on β = e₃ + e₅ (W70's α) and γ = −e₄ − e₅. β is odd under the
+   puncture, so the quaternion Cartan acts on it (H_Q·β = ±1).
+2. **So the electroweak condensate is a doublet of the weave's SU(2),** since the puncture-odd part of the 248 is
+   2_Q ⊗ (a 56-dimensional module), and the flavour field in M is its triplet.
+3. **They meet through invariants.** The lowest is the portal shape H†Φ_M H: two condensates with the flavour field
+   between them, invariant under the weave's SU(2), the weak SU(2), hypercharge and the puncture. That is chat1's
+   two-condensate option.
+4. **Ask (the audit lane).** Does the weave's action, in your (1,1) parent, contain that term, and with which sign?
+
+0 of 19.

@@ -6150,6 +6150,15 @@ outside O1's space"), and in M, the weave's quaternion SU(2), not in the lane's 
 - **A test this suggests (not run).** Do the lane's sl₂ (H = 2v) and the weave's quaternion SU(2) commute in E₈? If
   they do, both fields can be present at once, with product monodromy, and the join chat1 asks for becomes the pair.
   If they do not, one excludes the other. This is exact root arithmetic, for a rule.
+- **The test, decided by hand (added the same evening; no script).** They do not commute.
+  - The lane's sl₂ is built on β = e₃ + e₅ (W70's α) and γ = −e₄ − e₅, with H = 2v and v = e₃ − e₄, the weak axis.
+  - β is odd under the puncture, so the quaternion Cartan acts on it (H_Q·β = ±1), and [H_Q, E_β] ≠ 0.
+  - The puncture-odd part of the 248 is 2_Q ⊗ (a 56-dimensional module) (the audit lane's branching). So the
+    electroweak condensate is a **doublet of the weave's SU(2)**, and the flavour field in M is its triplet.
+  - The two cannot sit as independent commuting uniformizations. They meet through invariants instead. The lowest one
+    is the portal shape H†Φ_M H: two condensates with the flavour field between them. It is invariant under the weave's
+    SU(2), the weak SU(2), hypercharge and the puncture. That is chat1's two-condensate option.
+  - Whether the weave's action contains that term is the audit lane's action question.
 - **0 of 19.**
 
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)

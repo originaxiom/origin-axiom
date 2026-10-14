@@ -1,5 +1,13 @@
 # Changelog
 
+## §91's test decided by hand: the electroweak condensate is a doublet of the weave's SU(2); relay section 92
+
+- **The lane's sl₂ and the weave's quaternion SU(2) do not commute.** The lane's root β is odd under the puncture, so
+  the quaternion Cartan acts on it.
+- **So the electroweak condensate is a doublet of the weave's SU(2), and the flavour field is its triplet.** They meet
+  in the portal shape H†Φ_M H, which is invariant under every symmetry in play. That is chat1's two-condensate option.
+- **Surfaces.** The dossier's reading (a dated note), the relay and the ledger. Nothing computed by script. 0 of 19.
+
 ## A reading: the field at the puncture is the fibre's own uniformization; relay section 91
 
 - **The audit lane's condensate is Hitchin's uniformizing Higgs bundle, carried into E₈.** Its vacuum equations are

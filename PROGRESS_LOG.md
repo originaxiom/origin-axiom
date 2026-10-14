@@ -18915,3 +18915,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   carries it is still the open dictionary question.
 - **Next:** an exact check of whether the two parts can coexist. Nothing computed yet. 0 of 19.
 
+## 2026-10-14 — how the two fields meet
+
+- **The question.** The check proposed in the last reading was whether the two fields' parts of the symmetry can sit
+  side by side without touching. It turned out to be answerable by hand: they cannot.
+- **What this means.** The weak-force field at the edge comes in pairs under the weave's own symmetry, and the flavour
+  field is a triple of the same symmetry.
+- **So they meet in one simple way:** the flavour field sitting between two copies of the weak-force field. Whether the
+  weave's own equations contain that meeting is a question for the audit lane. 0 of 19.
+
