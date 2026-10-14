@@ -1,0 +1,54 @@
+{
+ "status": "W74: the surface frame's CP (the rule W74_RULE.md first; one run)",
+ "V1": {
+  "C L C = L^-1": true,
+  "C P C = P": true,
+  "S-phase condition": {
+   "rho_R, k = -1/2": true,
+   "rho_R, k = 3/2": true,
+   "rho_R, k = 7/2": true,
+   "rho', k = 5/2": true,
+   "control rho_R, k = 1/2": false,
+   "control rho_R, k = 1": false
+  },
+  "C conj B[l] = B[l]": {
+   "e_i": true,
+   "v+": true,
+   "v-": true
+  },
+  "holds": true
+ },
+ "V2": {
+  "largest |Im Y| / largest |Y|": {
+   "Y0 = 2.0": 1.5268318459700569e-13,
+   "Y0 = 1.25": 8.882617643158512e-17
+  },
+  "largest |Im| of h's stored coefficients": 3.0553741897388046e-34,
+  "holds": true
+ },
+ "V3": {
+  "arg det(Y Y)": 2.2606501656584382e-13,
+  "|V - 1| (two identical sectors)": 7.771561172376096e-16,
+  "J": 4.0325786579781135e-63,
+  "holds": true
+ },
+ "read-outs": {
+  "det Y (real part)": 12257739020.337616,
+  "eigenvalues of Y": [
+   -76597.31040799506,
+   -57.40354494309375,
+   2787.777683681279
+  ],
+  "det of the H-end form": 3064434755.0844035,
+  "eigenvalues of the H-end form": [
+   -74232.79805177523,
+   -28.70203486137179,
+   1438.2747658181995
+  ]
+ },
+ "cells": {
+  "V1": true,
+  "V2": true,
+  "V3": true
+ }
+}
