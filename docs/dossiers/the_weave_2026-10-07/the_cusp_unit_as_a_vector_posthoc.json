@@ -1,0 +1,322 @@
+{
+ "status": "W64 post hoc: the theta_2 branch error traced; K2, K4 and K5 re-scored with the direct series (labelled; W64's JSON unchanged)",
+ "PH1": {
+  "rows": [
+   {
+    "tau": [
+     0.0,
+     1.0
+    ],
+    "relative difference at tau + 1": 1.189923382005822e-31,
+    "run's R_i / direct R_i": [
+     1.0,
+     1.189923382005822e-31
+    ]
+   },
+   {
+    "tau": [
+     -0.5,
+     0.8660254037844386
+    ],
+    "relative difference at tau + 1": 1.6104325404701267e-31,
+    "run's R_i / direct R_i": [
+     1.0,
+     -2.3702951969396838e-32
+    ]
+   },
+   {
+    "tau": [
+     0.0,
+     4.0
+    ],
+    "relative difference at tau + 1": 2.3947098275900875e-31,
+    "run's R_i / direct R_i": [
+     1.0,
+     -7.920301267065982e-32
+    ]
+   },
+   {
+    "tau": [
+     0.13,
+     1.21
+    ],
+    "relative difference at tau + 1": 1.4142135623730951,
+    "run's R_i / direct R_i": [
+     1.4064292642849008e-31,
+     -1.0
+    ]
+   },
+   {
+    "tau": [
+     -0.31,
+     1.07
+    ],
+    "relative difference at tau + 1": 1.3822321133520286e-31,
+    "run's R_i / direct R_i": [
+     1.0,
+     -3.1349281707733323e-32
+    ]
+   },
+   {
+    "tau": [
+     0.42,
+     1.55
+    ],
+    "relative difference at tau + 1": 1.4142135623730951,
+    "run's R_i / direct R_i": [
+     0.0,
+     -1.0
+    ]
+   },
+   {
+    "tau": [
+     0.07,
+     2.3
+    ],
+    "relative difference at tau + 1": 1.4142135623730951,
+    "run's R_i / direct R_i": [
+     -1.6646157435583058e-31,
+     -1.0
+    ]
+   },
+   {
+    "tau": [
+     -0.22,
+     0.99
+    ],
+    "relative difference at tau + 1": 1.3880510489366236e-31,
+    "run's R_i / direct R_i": [
+     1.0,
+     -2.1595026773547253e-32
+    ]
+   },
+   {
+    "tau": [
+     0.35,
+     0.95
+    ],
+    "relative difference at tau + 1": 1.4142135623730951,
+    "run's R_i / direct R_i": [
+     7.219703097870479e-32,
+     -1.0
+    ]
+   },
+   {
+    "tau": [
+     0.0,
+     1.8
+    ],
+    "relative difference at tau + 1": 2.349715577619364e-31,
+    "run's R_i / direct R_i": [
+     1.0,
+     0.0
+    ]
+   }
+  ],
+  "largest difference at tau itself (Re tau in (-1, 1])": 3.944304526105059e-31
+ },
+ "PH2 (K2 re-scored)": {
+  "tau + 1: residual": 3.149015185749061e-31,
+  "its matrix": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    -1,
+    0
+   ]
+  ],
+  "equals L^-1": true,
+  "its scalar against e^{i pi/4}": 2.2049332610827516e-31,
+  "-1/tau: residual": 2.5199863778146532e-31,
+  "its matrix (sign fixed by the scalar)": [
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "the scalar against (-i tau)^(-1/2)": 2.069292310273887e-31,
+  "is the i-j swap": true,
+  "-P is a rotation": true,
+  "holds": true
+ },
+ "PH3 (K4 re-scored)": {
+  "placements": {
+   "(0, 0, 0)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     1.6814604301252486e-07,
+     null
+    ],
+    "chi + sum(u)": 0.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(0, 0, 1)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     1.1417417012332287e-07,
+     2.4420671036432213e-16
+    ],
+    "chi + sum(u)": 1.0,
+    "the generic section's cusp eigenline": "v-",
+    "isotropic": true
+   },
+   "(0, 1, 0)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     1.3883911154843279e-07,
+     1.7942784722109601e-16
+    ],
+    "chi + sum(u)": 1.0,
+    "the generic section's cusp eigenline": "v+",
+    "isotropic": true
+   },
+   "(0, 1, 1)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     1.1142727047745256e-07,
+     1.5759382302081158e-16
+    ],
+    "chi + sum(u)": 2.0,
+    "the generic section's cusp eigenline": "v-",
+    "isotropic": true
+   },
+   "(1, 0, 0)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     1.0018072682490637e-07,
+     1.9644503049024017e-16
+    ],
+    "chi + sum(u)": 1.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(1, 0, 1)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     1.0007963692933436e-07,
+     1.7612874018413827e-16
+    ],
+    "chi + sum(u)": 2.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(1, 1, 0)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     9.92964917834126e-08,
+     1.3033720110350096e-16
+    ],
+    "chi + sum(u)": 2.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   },
+   "(1, 1, 1)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     9.92961147842674e-08,
+     1.4473742297840453e-16
+    ],
+    "chi + sum(u)": 3.0,
+    "the generic section's cusp eigenline": "e_i",
+    "isotropic": false
+   }
+  },
+  "R against the null vector (u = (0, 1, 0)), largest relative difference": 2.7075306213688554e-15,
+  "holds": true
+ },
+ "PH3 (K5 re-scored)": {
+  "placements": {
+   "(0, 0, 0)": {
+    "dimension (collocation)": 0,
+    "gap": [
+     1.451585807131864e-07,
+     null
+    ],
+    "chi + sum(u)": 0.0
+   },
+   "(0, 0, 1)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     1.1229211572478795e-07,
+     2.3338954650150795e-16
+    ],
+    "chi + sum(u)": 1.0
+   },
+   "(0, 1, 0)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     1.260387264882392e-07,
+     2.719515604529338e-16
+    ],
+    "chi + sum(u)": 1.0
+   },
+   "(0, 1, 1)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     1.1221796902390768e-07,
+     2.2923042339934186e-16
+    ],
+    "chi + sum(u)": 2.0
+   },
+   "(1, 0, 0)": {
+    "dimension (collocation)": 1,
+    "gap": [
+     9.791387919996503e-08,
+     1.8868974151226091e-16
+    ],
+    "chi + sum(u)": 1.0
+   },
+   "(1, 0, 1)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     9.773321483558722e-08,
+     1.6181387471578754e-16
+    ],
+    "chi + sum(u)": 2.0
+   },
+   "(1, 1, 0)": {
+    "dimension (collocation)": 2,
+    "gap": [
+     9.791019691326947e-08,
+     1.7360150844099436e-16
+    ],
+    "chi + sum(u)": 2.0
+   },
+   "(1, 1, 1)": {
+    "dimension (collocation)": 3,
+    "gap": [
+     9.773195724084232e-08,
+     1.839280000340432e-16
+    ],
+    "chi + sum(u)": 3.0
+   }
+  },
+  "holds": true
+ },
+ "re-scored": {
+  "K2": true,
+  "K4": true,
+  "K5": true
+ }
+}
