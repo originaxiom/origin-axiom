@@ -112,3 +112,21 @@ So the field this passage reaches, under H-RES, is a flavour field (a flavon), n
 P024 reaches the electroweak field from the other side: a bare end admits no finite description. The two passages force
 two different fields, and they do not compete. How the two couple to the matter is owed (the parent map, P-108), and
 the puncture's parity already constrains it.
+
+## Addendum, the same evening: "How large" is withdrawn as written
+
+The section "What is not fixed" said: "How large. The size of the Higgs, which is the scale, stays outside, as B151 and
+P010 found." That was too strong, in two ways (`../chat1_2026-10-14_the_scale/THE_SCALE.md`, after a sealed check and an
+independent referee).
+
+- **The size of the field.**
+  - Under H-RES, non-abelian Hodge fixes the field from the thread and τ, so it has no free magnitude.
+  - On the cone (a genuine cusp, nilpotent residue), the field's pointwise size is of order the curvature scale: ½ in
+    the model.
+  - Off the cone the departure's size grows into the cusp, so the depth of the cut matters there, where m₂ lives.
+- **"The scale" itself.**
+  - The record keeps one scale-type number, σ = c/6, as anchor A2. It is HELD-PENDING-L154 (B1015's addendum v2, from
+    B1023), with an internal candidate σ = 1 (c = 6 = c((E₆)₁)), UNDECIDED (B1034).
+  - B151 and P010 speak to the unit, which is external in any theory.
+
+"Free in state" stands for the direction and for the departure from the cone. It does not stand for the overall size.

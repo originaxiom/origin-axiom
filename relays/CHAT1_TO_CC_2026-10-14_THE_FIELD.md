@@ -257,3 +257,15 @@ shape rests on Donagi–Witten, cited from memory.
 - **B6 — the measurer.**
   - Under non-abelian Hodge the unitary part is fixed by the Cartan involution and Φ is odd under it.
   - Whether the register question (FK12) meets the Higgs there is unasked. A reading only.
+
+## Addendum, the same evening: O4's "its size is the external scale"
+
+O4's tension bullet says a real direction is near the cusp "only if the Higgs is small, and its size is the external
+scale". The second clause is withdrawn as written (`CHAT1_TO_CC_2026-10-14_THE_SCALE.md`).
+
+- Under H-RES the field's size is fixed by the thread and τ.
+- On the cone its pointwise size is of order the curvature scale.
+- Off the cone the departure's size depends on the cut.
+- The record's one scale-type input is σ, HELD-PENDING-L154 (B1015's addendum v2; B1034).
+
+The rest of the bullet stands: a real direction has a·a > 0, and an exact, unfiltered cusp excludes it.
