@@ -1,0 +1,85 @@
+{
+ "status": "W70 POST HOC (labelled): the hypercharge's normalisation, at main's S122 ask",
+ "PN1": {
+  "per admissible Y": {
+   "-5/6,1/6,2/3": {
+    "k_Y by the Cartan norms": "14/3",
+    "k_Y by the 240 roots": "14/3",
+    "|Y|^2": "7/3"
+   },
+   "-5/6,2/3,1/6": {
+    "k_Y by the Cartan norms": "14/3",
+    "k_Y by the 240 roots": "14/3",
+    "|Y|^2": "7/3"
+   },
+   "1/6,-5/6,2/3": {
+    "k_Y by the Cartan norms": "14/3",
+    "k_Y by the 240 roots": "14/3",
+    "|Y|^2": "7/3"
+   },
+   "1/6,2/3,-5/6": {
+    "k_Y by the Cartan norms": "14/3",
+    "k_Y by the 240 roots": "14/3",
+    "|Y|^2": "7/3"
+   },
+   "2/3,-5/6,1/6": {
+    "k_Y by the Cartan norms": "14/3",
+    "k_Y by the 240 roots": "14/3",
+    "|Y|^2": "7/3"
+   },
+   "2/3,1/6,-5/6": {
+    "k_Y by the Cartan norms": "14/3",
+    "k_Y by the 240 roots": "14/3",
+    "|Y|^2": "7/3"
+   }
+  },
+  "|T3|^2": "1/2",
+  "the distinct values": [
+   "14/3"
+  ]
+ },
+ "PN2": {
+  "orthogonal to colour and weak": true,
+  "coefficients on the 6's weights (blocks b, a, ab)": [
+   "1/6",
+   "1/6",
+   "1/6",
+   "1/6",
+   "1/6",
+   "-5/6"
+  ],
+  "block-scalar": false,
+  "the five field conditions": {
+   "Q": true,
+   "u^c": true,
+   "d^c": true,
+   "L": true,
+   "e^c": true
+  },
+  "k_Y by the Cartan norms": "5/3",
+  "k_Y by the 240 roots": "5/3"
+ },
+ "PN3": {
+  "inputs": {
+   "1/alpha_em(M_Z)": 127.951,
+   "sin^2 theta_W(M_Z)": 0.23122,
+   "b_Y": "41/6",
+   "b_2": "-19/6",
+   "source": "B915's PDG 2024 MSbar inputs (frontier/B915_the_crossing/crossing.py)"
+  },
+  "per k_Y": {
+   "5/3": {
+    "ratio at M_Z": 3.3248853905371503,
+    "t = ln(mu/M_Z)": 25.451112806068423,
+    "mu (GeV)": 10308931063427.56,
+    "above M_Z": true
+   },
+   "14/3": {
+    "ratio at M_Z": 3.3248853905371503,
+    "t = ln(mu/M_Z)": -11.541269455468488,
+    "mu (GeV)": 0.0008863926512662944,
+    "above M_Z": false
+   }
+  }
+ }
+}
