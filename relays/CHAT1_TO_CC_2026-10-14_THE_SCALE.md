@@ -143,3 +143,6 @@ word weights, none fixed by the record. Classical action weight e^{−c·Vol/6π
   keeps rank, not singular values. T-NORM is the same question for B1645–B1646. Credit to the lane.
 - **Nothing found on L154, σ or c this month.** No relay is addressed to chat1, and chat1's 10-14 relays are not yet
   harvested.
+
+**Naming note.** "T-ROOT", chat1's name for today's root-share check, collides with GENESIS's T-ROOT item prefix (§0).
+In any harvested text, please read chat1's test as "the root-share check". The files keep their committed names.
