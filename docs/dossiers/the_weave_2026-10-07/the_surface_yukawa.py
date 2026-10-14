@@ -163,10 +163,11 @@ def pairing(Gs, hs, Gnp, hnp, Y0, nodes):
     xs, wx = xs / 2, wx / 2                                                    # on [-1/2, 1/2]
     us, wu = np.polynomial.legendre.leggauss(nodes)
     low = 0j
+    Yf = float(Y0)                                                             # the quadrature is in double precision
     for x, w in zip(xs, wx):
         y0 = np.sqrt(1 - x * x)
-        ys = y0 + (us + 1) / 2 * (Y0 - y0)
-        wy = wu / 2 * (Y0 - y0)
+        ys = y0 + (us + 1) / 2 * (Yf - y0)
+        wy = wu / 2 * (Yf - y0)
         T = x + 1j * ys
         vals = np.sum(Gnp(T) * np.conj(hnp(T)), axis=1) * np.sqrt(ys)
         low += w * np.sum(wy * vals)
