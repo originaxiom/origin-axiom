@@ -3,8 +3,8 @@
 ## Philosophy P024: the field from the end (the owner's contemplation)
 
 - **The owner asked to stop and contemplate** how a field can be forced into existence, the way the seed is: "same as
-  from philosophy to the seed". `philosophy/P024_the_field_from_the_end.md` (motivation only; nothing promotes) writes the
-  passage:
+  from philosophy to the seed". `philosophy/P024_the_field_from_the_end.md` (motivation only; nothing promotes) writes
+  the passage:
   - a bare end of the weave's surface admits no finite description, since its counts are undefined in the continuum;
   - so the end must carry a source (GENESIS GAP3), a condensate of the weave's own action;
   - the field is forced to exist, but its direction is not forced: spontaneous breaking.
