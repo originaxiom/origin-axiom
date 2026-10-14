@@ -1,0 +1,31 @@
+{
+ "laurent_residue_err": 5.9142098708891365e-33,
+ "laurent_constant_err": 1.721524579622937e-30,
+ "theta_vs_mpmath_max": 8.250416578732422e-32,
+ "theta12_vs_direct_series_at_Re_tau_1.37_max": 5.512333152706879e-32,
+ "puncture_triplet_is_banked_R": 0.9999999999999998,
+ "puncture_isotropy_mp_jacobi": 1.0125708382855769e-32,
+ "class_of_constructed_points": {
+  "1/2": true,
+  "tau/2": true,
+  "(1+tau)/2": true,
+  "0": true
+ },
+ "common_lines_AL_AL": 3,
+ "common_lines_Rxpi_AL": 3,
+ "common_lines_diag_vs_swap": 1,
+ "common_dims_Rxpi_Rxpi": [
+  1,
+  2
+ ],
+ "eig_clusters_of_Rxpi": 2,
+ "ad_gL_ej": [
+  0.0,
+  0.0,
+  1.0
+ ],
+ "best_v4_ties_on_constructed_yz_isotropic_line": [
+  "1",
+  "i"
+ ]
+}
