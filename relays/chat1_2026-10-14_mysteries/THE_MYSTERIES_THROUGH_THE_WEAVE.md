@@ -156,15 +156,18 @@ If c were derived, all five would be answered at once. If c is an input, all fiv
 - DESI DR2 with the CMB gives Σm_ν < 0.0642 eV (95%), prefers normal ordering, and sits in tension with the oscillation
   minima. The hook would sit right at that edge.
 
-**The obstacle** (stated here first). **[MATH: B1649's structure]**
+**The obstacle.** **[RECORD: B1649 §3]** B1649 states it: "The leptons by the same reading: a trivial PMNS first row at
+leading order, against a large θ₁₂, unless the lepton sector's R differs."
 - With the charged leptons on the same fibre, R is a two-sided null vector for every Higgs at the puncture (B1649). The
   massless directions of the two sectors then coincide, and the PMNS first row is trivial at leading order.
 - The data say |U_e1|² ≈ 0.68, so this is contradicted at order one.
-- **Either** the lepton sector's lift of R is of order one, and then m₁ = 0 is not protected; **or** the neutrino
-  operator's null vector differs from the charged leptons'.
+- What this note adds is only the link to the hook. The hook's operator is built on B1644's pairing, so its massless
+  direction is R as well. **Either** the lepton sector's lift of R is of order one, and then m₁ = 0 is not protected;
+  **or** the neutrino operator's null vector differs from the charged leptons'.
 
-**What it teaches.** The lift of R must be sector-dependent: small for quarks (13°, m_u/m_t ~ 10⁻⁵), large for leptons.
-That is this programme's form of quark–lepton complementarity, and a second filter for P-128.
+**What it teaches.** B1649 already says the lepton sector's R must differ. P-128 adds that a Wilson line charged by
+hypercharge would give each charged sector its own R. This note adds one reading only: the lift must be small for quarks
+(13°, m_u/m_t ~ 10⁻⁵) and large for leptons. That is this programme's form of quark–lepton complementarity.
 
 ## 5. Black holes: every thread ends on the threshold
 
@@ -296,3 +299,9 @@ what sits there:
 - The record: B657, B716, B867, B981, B1009, B1158, B1208, B1224, B1226, B1611, B1640, B1644–B1649; P7, P9, P10, P10′;
   `docs/COSMOLOGY_LEDGER.md`; `docs/THE_LAMBDA_POSITION.md`; THE_LADDER; memo 132; the Silence Note (B666).
 - Today: `../chat1_2026-10-14_the_scale/` — T_ROOT_FINDINGS, T_SIGN_FINDINGS, post_hoc_cp_bit, THE_SCALE.
+
+## Correction (2026-10-14, evening)
+
+- §4 first presented the lepton obstacle as "stated here first". That was wrong. B1649 §3 states it, with the escape
+  ("unless the lepton sector's R differs"). P-128 carries the sector-dependent R. §4 now credits both.
+- Only the link to the massless-neutrino hook, and the quark–lepton reading, are this note's own.

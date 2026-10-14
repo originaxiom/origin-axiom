@@ -34,9 +34,10 @@ programme's lens. He also asked whether existence contains more than what we kno
 2. **Leptons obstruct the massless-neutrino hook.**
    - The condensate-test hook has the Weinberg operator's shape: spectrum (0, m₂, m₃), normal ordering,
      Σm_ν = 0.0588 eV. DESI DR2 gives Σm_ν < 0.0642 eV.
-   - With the charged leptons on the same fibre, R is a two-sided null vector (B1649). The PMNS first row is then
-     trivial at leading order, against |U_e1|² ≈ 0.68.
-   - So the lift of R must be sector-dependent: small for quarks, large for leptons.
+   - **The obstacle is B1649's** (§3: "a trivial PMNS first row at leading order, against a large θ₁₂, unless the
+     lepton sector's R differs"). chat1's note first called it new; corrected, with a dated line.
+   - chat1 adds only the link: the hook's operator is built on B1644's pairing, so its massless direction is R too.
+     The sector-dependent R is B1649's and P-128's. The reading "small lift for quarks, large for leptons" is chat1's.
    - A cheap check is proposed: do the two sectors' null vectors coincide for every two-condensate operator parity
      allows?
 3. **The end sits on the particle/black-hole threshold** (local reading; new to the record).
