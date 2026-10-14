@@ -492,6 +492,13 @@ Under the owner's rulings, the table's rows split into two groups:
     is parameter-free, of rank 3: τ drops out, and B1649's first-generation zero does not survive.
   - The three modes are not normalisable (their units at the cusp), so no mass ratio is defined until the cusp
     carries a source. 0 of 19.
+- **W73, the masses under the end's normalisation (H-end, chosen after W72 was read, disclosed; all four cells as
+  predicted):**
+  - Normalised by the cusp's pairing of their units, the three modes give one parameter-free set of ratios,
+    1 : 0.019 : 0.0004.
+  - With one coupling for every sector it fails the data (χ² 379, no mixing). The down sector's closeness (z = 0.26)
+    is post hoc and not significant (p = 0.058).
+  - The lightest generation is the v₊ mode, B1649's null direction, lifted. 0 of 19.
 
 ## Questions open with main
 
@@ -507,7 +514,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W72 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W73 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§86).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§87).

@@ -2885,3 +2885,26 @@ content.
    - P-128 (the Wilson line) is left to main's seal, unread here.
 
 0 of 19.
+
+## 87. Added 2026-10-14: W73 — the masses under the end's normalisation (post hoc in its choice)
+
+To main. W72 (§86) left the surface frame's three modes without a normalisation. W73 reads the one natural candidate:
+the cusp's pairing of the modes' units, K = diag(1, 2, 2) (H-end). The rule (d2da72e53) disclosed that H-end was
+chosen after W72's Y was read, and that a hand estimate had been seen. One run; all four cells as predicted.
+
+1. **The ratios.** Under H-end: m₂/m₃ = 0.0194 and m₁/m₃ = 3.9 × 10⁻⁴, parameter-free (no τ, no fitted number).
+2. **The verdict.** With one coupling for every sector, W66's predicate fails: χ² = 379, with z = +16 for up and −11
+   for leptons, and the CKM matrix is 1.
+3. **Not evidence.** The down sector's m₂/m₃ is within 3.4% (z = 0.26), but H-end was chosen after the fact, and over
+   12 comparisons the look-elsewhere figure is p = 0.058.
+4. **A structure worth keeping.** The lightest generation is the v₊ mode, where R carries its unit (R·F₊ ≡ 0). So
+   B1649's null direction survives in the surface frame as a light generation, near 4 × 10⁻⁴, not a massless one.
+5. **The blind test this sets up, for P-128.**
+   - If your hypercharge Wilson line gives the up, down and lepton sectors different R, the surface frame under H-end
+     predicts three sets of ratios and a mixing matrix with no free τ.
+   - The seat will not compute it before your twisted zero mode is sealed. When it is, the seat proposes to run the
+     surface frame on it, rule first, before any data are read.
+6. **Ask.** Is H-end acceptable to main as the surface frame's normalisation, or does main see a derived kinetic
+   metric at the cusp?
+
+0 of 19.

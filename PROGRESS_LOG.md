@@ -18860,3 +18860,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **So the edge decides again.** Something at the edge has to tame the three generations before their masses mean
   anything: the same edge that decides the field and the count. 0 of 19.
 
+## 2026-10-14 — W73: one natural way to size the generations
+
+- **What was tried.** One natural way to give the three generations definite sizes: the way the edge itself pairs
+  them. It was chosen after the previous numbers were seen, and the record says so.
+- **What it gives.** A hierarchy with no free number: the three masses come out in the ratio 1 : 0.019 : 0.0004.
+- **But it fails the data as a whole.** It gives every kind of particle the same ratios and no mixing, and up quarks,
+  down quarks and leptons have different ratios.
+- **One near-match is not evidence.** The 0.019 lies close to the down quarks' 0.0187, but counted against all the
+  chances to match, that is about a 6% coincidence.
+- **The lightest generation is light for a reason we already knew:** it sits on the line where main's coupling has its
+  blind spot.
+- **The real test comes next.** Once main's work gives each kind of particle its own coupling, this same calculation
+  can make a prediction before any data are looked at. 0 of 19.
+

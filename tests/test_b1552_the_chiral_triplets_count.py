@@ -1808,6 +1808,23 @@ def test_w72_the_surface_yukawa():
     assert all((ex[a] + ex[b]) % 8 == 2 for a, b in pairs)
 
 
+def test_w73_the_end_normalisation():
+    """W73 (H-end, chosen after W72 was read and disclosed; the rule first; one run; all four cells as predicted): the
+    surface frame's three modes, normalised by the cusp's pairing of their units, give 1 : 0.019 : 0.0004; with one
+    coupling W66's predicate fails, and the down sector's closeness is not significant"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_end_normalisation.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {f"Z{k}": True for k in range(1, 5)}
+    assert d["Z2"]["chi2 (three m2/m3)"] > 7.81 and d["Z4"]["p"] > 0.05
+    # in process: rescale W72's stored Y by K = diag(1, 2, 2) and recompute the two ratios
+    import numpy as np
+    w = json.loads((here / "the_surface_yukawa.json").read_text(encoding="utf-8"))
+    Y = np.array([[complex(*z) for z in row] for row in w["X4"]["Y (Y0 = 2.0)"]])
+    D = np.diag([1, 2 ** -0.5, 2 ** -0.5])
+    sv = np.linalg.svd(D @ Y @ D, compute_uv=False)
+    assert abs(sv[1] / sv[0] - d["Z1"]["m2/m3"]) < 1e-12 and abs(sv[2] / sv[0] - d["Z1"]["m1/m3"]) < 1e-12
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

@@ -1,5 +1,21 @@
 # Changelog
 
+## The weave's W73: the masses under the end's normalisation (post hoc in its choice); relay section 87
+
+- **W73** (the rule d2da72e53 first, disclosing that H-end was chosen after W72 was read and that a hand estimate was
+  seen; the script ba5f5d31b; one run, output 6ad317305; all four cells as predicted):
+  - normalised by the cusp's pairing of their units (H-end), the surface frame's three modes give one
+    parameter-free set of ratios, m₂/m₃ = 0.0194 and m₁/m₃ = 3.9 × 10⁻⁴;
+  - with one coupling for every sector, W66's predicate fails (χ² 379; z = +16 for up, −11 for leptons) and the CKM
+    matrix is 1;
+  - the down sector's m₂/m₃ lies within 3.4% (z = 0.26), but H-end was chosen post hoc and the look-elsewhere figure
+    over 12 comparisons is p = 0.058;
+  - the lightest generation is the v₊ mode, where R's unit sits: B1649's null direction, lifted to about 4 × 10⁻⁴.
+- **So:** the blind test is a sector-dependent R (main's P-128), run in the surface frame, rule first, after main's
+  seal. 0 of 19.
+- **Relay §87** to main. **Surfaces.** The rule, the script, its JSON, the dossier (W73, a row, the header, the files),
+  the W73 test, the state page, the relay and the ledger.
+
 ## The weave's W72: the surface frame's Yukawa; relay section 86
 
 - **W72** (main's S122 assignment; the rule edf50223a first; the script 104ae600d; one failed launch before any
