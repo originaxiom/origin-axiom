@@ -1,0 +1,201 @@
+{
+ "status": "W86 post hoc 3 (labelled): chat1's first-background reading re-checked from the committed counts",
+ "A3a": {
+  "roots (signed word states)": 26,
+  "first level per root, chat1's counts": {
+   "+LR": 3,
+   "-LR": 3,
+   "+LLR": 3,
+   "-LLR": "open through level 3",
+   "+LLLR": 3,
+   "+LLRR": 4,
+   "+LRLR": 2,
+   "-LLLR": 3,
+   "-LLRR": 3,
+   "-LRLR": 2,
+   "+LLLLR": "open through level 2",
+   "+LLLRR": 2,
+   "+LLRLR": 2,
+   "-LLLLR": "open through level 2",
+   "-LLLRR": 2,
+   "-LLRLR": 1,
+   "+LLLLLR": 2,
+   "+LLLLRR": 2,
+   "+LLLRLR": 2,
+   "+LLLRRR": 3,
+   "+LLRLLR": 2,
+   "-LLLLLR": 2,
+   "-LLLLRR": 2,
+   "-LLLRLR": 1,
+   "-LLLRRR": 3,
+   "-LLRLLR": 1
+  },
+  "cells repeated across chat1's files with different backgrounds": []
+ },
+ "A3b": {
+  "shared cells": 59,
+  "background differences": [],
+  "firing differences": [],
+  "chat1's bad-prime cell (heavy_LLLRRR_3.json)": {
+   "backgrounds": 1584,
+   "firing": 29608,
+   "B1439 firing": 29176
+  },
+  "chat1's open roots decided by B1439": {
+   "-LLR": 4,
+   "+LLLLR": 3,
+   "-LLLLR": 3
+  }
+ },
+ "A3c": {
+  "chat1's counts, sign not a letter": {
+   "(i) roots with at most 4 letters, -LLR aside, decided": {
+    "+LR": 3,
+    "-LR": 3,
+    "+LLRR": 4,
+    "-LLRR": 3,
+    "+LLR": 3,
+    "+LLLR": 3,
+    "-LLLR": 3
+   },
+   "(i) holds": false,
+   "(i) exceptions": {
+    "+LLRR": 4
+   },
+   "(ii) roots with at least 5 letters, decided": {
+    "+LLLRRR": 3,
+    "-LLLRRR": 3,
+    "+LLLRR": 2,
+    "-LLLRR": 2,
+    "+LLRLR": 2,
+    "-LLRLR": 1,
+    "+LLLLLR": 2,
+    "-LLLLLR": 2,
+    "+LLLLRR": 2,
+    "-LLLLRR": 2,
+    "+LLLRLR": 2,
+    "-LLLRLR": 1
+   },
+   "(ii) holds": false,
+   "(ii) exceptions": {
+    "+LLLRRR": 3,
+    "-LLLRRR": 3
+   }
+  },
+  "chat1's counts, sign a letter": {
+   "(i) roots with at most 4 letters, -LLR aside, decided": {
+    "+LR": 3,
+    "-LR": 3,
+    "+LLRR": 4,
+    "+LLR": 3,
+    "+LLLR": 3
+   },
+   "(i) holds": false,
+   "(i) exceptions": {
+    "+LLRR": 4
+   },
+   "(ii) roots with at least 5 letters, decided": {
+    "-LLRR": 3,
+    "+LLLRRR": 3,
+    "-LLLRRR": 3,
+    "-LLLR": 3,
+    "+LLLRR": 2,
+    "-LLLRR": 2,
+    "+LLRLR": 2,
+    "-LLRLR": 1,
+    "+LLLLLR": 2,
+    "-LLLLLR": 2,
+    "+LLLLRR": 2,
+    "-LLLLRR": 2,
+    "+LLLRLR": 2,
+    "-LLLRLR": 1
+   },
+   "(ii) holds": false,
+   "(ii) exceptions": {
+    "-LLRR": 3,
+    "+LLLRRR": 3,
+    "-LLLRRR": 3,
+    "-LLLR": 3
+   }
+  },
+  "with B1439, sign not a letter": {
+   "(i) roots with at most 4 letters, -LLR aside, decided": {
+    "+LR": 3,
+    "-LR": 3,
+    "+LLRR": 4,
+    "-LLRR": 3,
+    "+LLR": 3,
+    "+LLLR": 3,
+    "-LLLR": 3
+   },
+   "(i) holds": false,
+   "(i) exceptions": {
+    "+LLRR": 4
+   },
+   "(ii) roots with at least 5 letters, decided": {
+    "+LLLRRR": 3,
+    "-LLLRRR": 3,
+    "+LLLLR": 3,
+    "-LLLLR": 3,
+    "+LLLRR": 2,
+    "-LLLRR": 2,
+    "+LLRLR": 2,
+    "-LLRLR": 1,
+    "+LLLLLR": 2,
+    "-LLLLLR": 2,
+    "+LLLLRR": 2,
+    "-LLLLRR": 2,
+    "+LLLRLR": 2,
+    "-LLLRLR": 1
+   },
+   "(ii) holds": false,
+   "(ii) exceptions": {
+    "+LLLRRR": 3,
+    "-LLLRRR": 3,
+    "+LLLLR": 3,
+    "-LLLLR": 3
+   }
+  },
+  "with B1439, sign a letter": {
+   "(i) roots with at most 4 letters, -LLR aside, decided": {
+    "+LR": 3,
+    "-LR": 3,
+    "+LLRR": 4,
+    "+LLR": 3,
+    "+LLLR": 3
+   },
+   "(i) holds": false,
+   "(i) exceptions": {
+    "+LLRR": 4
+   },
+   "(ii) roots with at least 5 letters, decided": {
+    "-LLRR": 3,
+    "+LLLRRR": 3,
+    "-LLLRRR": 3,
+    "-LLLR": 3,
+    "+LLLLR": 3,
+    "-LLLLR": 3,
+    "+LLLRR": 2,
+    "-LLLRR": 2,
+    "+LLRLR": 2,
+    "-LLRLR": 1,
+    "+LLLLLR": 2,
+    "-LLLLLR": 2,
+    "+LLLLRR": 2,
+    "-LLLLRR": 2,
+    "+LLLRLR": 2,
+    "-LLLRLR": 1
+   },
+   "(ii) holds": false,
+   "(ii) exceptions": {
+    "-LLRR": 3,
+    "+LLLRRR": 3,
+    "-LLLRRR": 3,
+    "-LLLR": 3,
+    "+LLLLR": 3,
+    "-LLLLR": 3
+   }
+  }
+ },
+ "A3 holds": true
+}
