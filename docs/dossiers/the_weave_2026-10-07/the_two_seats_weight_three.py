@@ -57,7 +57,9 @@ def our_rho():
 
 def load_main(tmp):
     specs = [":(glob)frontier/*/verification/**", ":(glob)frontier/*/received/**"]
-    raw = subprocess.run(["git", "archive", REF, "--"] + specs, cwd=HERE, capture_output=True, check=True).stdout
+    top = subprocess.run(["git", "rev-parse", "--show-toplevel"], cwd=HERE, capture_output=True, check=True,
+                         text=True).stdout.strip()
+    raw = subprocess.run(["git", "archive", REF, "--"] + specs, cwd=top, capture_output=True, check=True).stdout
     with tarfile.open(fileobj=io.BytesIO(raw)) as tf:
         tf.extractall(tmp)
     front = Path(tmp) / "frontier"
