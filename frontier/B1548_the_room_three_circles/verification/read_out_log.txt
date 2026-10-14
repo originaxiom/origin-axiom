@@ -1,0 +1,13 @@
+selftest: {'cases': 22, 'failed': [], 'holds': True}
+P1: True
+P2: True
+P3: True
+P4: True
+P5: True
+P6: True
+P7: True
+P8: False
+P9: True
+P10: False
+verdict: NEGATIVE
+{"tasks": 168, "rows": 168, "complete": true, "coverage problems": {}, "members read": 84, "Galois classes per route": {"F": 15, "R": 15}, "Galois class sizes": {"2": 8, "4": 10, "8": 10, "16": 2}, "keys that differ between the routes": [], "members where the routes differ": [], "Galois classes not read alike": [], "readings failing P4": [], "members failing P4": [], "strata not read alike by their draws": [], "the least generic I(W1)": 0, "strata with generic I(W1) <= -2": [], "strata with generic (-3, -3)": [], "strata with generic I(W1) = -3 and I(L2W1) < -3": [], "strata with a generation-shaped generic reading (both routes)": [], "load-bearing checks failing P9": [], "load-bearing check readings at I(W1) <= -3": [], "load-bearing check readings": 168, "route R: members by (order, h1, n, dim K0, dim K0 interior)": {"[10, 15, 10, 2, 2]": 4, "[12, 15, 10, 2, 2]": 4, "[15, 15, 10, 2, 2]": 8, "[20, 15, 10, 2, 2]": 8, "[24, 15, 10, 2, 2]": 8, "[3, 15, 10, 2, 2]": 2, "[30, 15, 10, 2, 2]": 8, "[40, 15, 10, 2, 2]": 16, "[5, 23, 18, 5, 2]": 4, "[6, 15, 10, 2, 2]": 2, "[60, 15, 10, 2, 2]": 16, "[8, 15, 10, 2, 2]": 4}, "route R: members by (order, their distinct strata)": {"[10, [\"\"]]": 4, "[12, [\"\"]]": 4, "[15, [\"\"]]": 8, "[20, [\"\"]]": 8, "[24, [\"\"]]": 8, "[3, [\"\"]]": 2, "[30, [\"\"]]": 8, "[40, [\"\"]]": 16, "[5, [\"\"]]": 4, "[6, [\"\"]]": 2, "[60, [\"\"]]": 16, "[8, [\"\"]]": 4}, "route R: strata by (order, |U|, generic count)": {"[10, 0, [0, -5]]": 4, "[12, 0, [0, -5]]": 4, "[15, 0, [0, -5]]": 8, "[20, 0, [0, -5]]": 8, "[24, 0, [0, -5]]": 8, "[3, 0, [0, -5]]": 2, "[30, 0, [0, -5]]": 8, "[40, 0, [0, -5]]": 16, "[5, 0, [0, -5]]": 4, "[6, 0, [0, -5]]": 2, "[60, 0, [0, -5]]": 16, "[8, 0, [0, -5]]": 4}, "readings": {"R": 252, "F": 252}}
