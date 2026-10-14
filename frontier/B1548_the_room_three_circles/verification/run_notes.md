@@ -22,4 +22,9 @@ cc (the SM-derivation seat), 2026-10-14. Kept as the run happens, for FINDINGS. 
   waiters and its pre-push suite, but not the detached run. At 18:53Z the run's process (started 18:23Z) and its three
   workers were alive (about 84% CPU and 1.5–1.7 GB each), and the progress line read 133 of 168. The waiter and the
   suite were started again; nothing of the run was touched.
+- **The end of the run.** The run ended with rc 0 at 19:00:56Z on 2026-10-14, after 37 min 43 s: one start, no stop.
+  `run.jsonl` has 168 rows, every line whole and every sealed task exactly once. That was checked by parsing each
+  line's route and index only; no count was read.
+- **The record** was gzipped (`run.jsonl.gz`, `gzip -9 -n`), with both sha-256s in `run_sha256.txt`. The archive
+  decompresses to the raw record's sha-256. It was committed before `read_out.py` was run.
 
