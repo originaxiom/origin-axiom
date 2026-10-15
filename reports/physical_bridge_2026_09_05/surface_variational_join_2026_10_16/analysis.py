@@ -3,7 +3,7 @@
 Shared authored formulation, independent frame/root implementations;
 not independent analytic or source-convention acceptance.
 """
-import json
+import json,sys
 from itertools import product
 from pathlib import Path
 import sympy as s
@@ -11,7 +11,21 @@ HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[2]
 def simp(x):
     if isinstance(x,s.MatrixBase):return x.applyfunc(simp)
-    return s.trigsimp(s.simplify(s.expand_complex(x)))
+    x=s.sympify(x)
+    if x==0 or x.is_Number:return s.simplify(x)
+    th=s.Symbol('theta',real=True);phase=s.Symbol('_normal_phase',nonzero=True)
+    expanded=s.expand_complex(x);replacements={}
+    for atom in expanded.atoms(s.sin,s.cos):
+        arg=s.expand(atom.args[0])
+        if not arg.has(th):continue
+        frequency=arg.coeff(th);rest=s.expand(arg-frequency*th);order=2*frequency
+        if rest.has(th) or not order.is_Integer:
+            raise ValueError('Undeclared non-half-integral normal harmonic')
+        z=s.exp(s.I*rest)*phase**int(order)
+        replacements[atom]=(z+1/z)/2 if atom.func==s.cos else (z-1/z)/(2*s.I)
+    result=s.cancel(expanded.xreplace(replacements))
+    if result.has(s.sin,s.cos):result=s.trigsimp(result)
+    return result.subs(phase,s.exp(s.I*th/2))
 def zero(x):return all(simp(v)==0 for v in x)
 def comm(a,b):return a*b-b*a
 def B(a,b):return -s.trace(a*b)
@@ -31,7 +45,15 @@ def top(*args):
 
 def run(cs,engine,setup_valid):
     checks={};records={}
-    def ck(k,v):checks[k]=bool(v)
+    def ck(k,v):
+        checks[k]=bool(v)
+        print(('PASS ' if checks[k] else 'FAIL ')+k,file=sys.stderr,flush=True)
+    theta_control=s.Symbol('theta',real=True)
+    ck('phase instrument universal identity',simp(s.cos(theta_control)**2+s.sin(theta_control)**2-1)==0)
+    nonidentity=simp(s.sin(theta_control))
+    ck('phase instrument rejects one angle false zero',nonidentity!=0 and nonidentity.subs(theta_control,0)==0)
+    half=simp(s.exp(s.I*theta_control/2))
+    ck('phase instrument preserves derivative and half monodromy',simp(half.diff(theta_control)-s.I*half/2)==0 and simp(half.subs(theta_control,theta_control+2*s.pi)+half)==0)
     I2=s.eye(2);I4=s.eye(4);I32=s.eye(32)
     p1=s.Matrix([[0,1],[1,0]]);p2=s.Matrix([[0,-s.I],[s.I,0]]);p3=s.diag(1,-1)
     gh=simp(s.I*cs[0]*cs[1]);gv=simp(s.I*cs[2]*cs[3]);gx=simp(-s.prod(cs))

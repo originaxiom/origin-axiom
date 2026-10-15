@@ -8,7 +8,7 @@ stage=ARGV.fetch(0,'normal variational join BEFORE execution')
 prior='reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/INPUTS.json'
 paths=JSON.parse(File.read(root.join(prior))).fetch('source_files').map{|r|r.fetch('path')}
 paths << prior
-paths += %w[DESIGN.md PROOF.md analysis.py probe.py reference.py execute.py make_seal.rb validate.rb].map{|p|local+'/'+p}
+paths += %w[DESIGN.md PROOF.md SOURCE_CHECK.md analysis.py probe.py reference.py execute.py make_seal.rb validate.rb].map{|p|local+'/'+p}
 paths << 'tests/test_physical_bridge_surface_variational_join.py'
 repair=local+'/POST_HOC_REPAIR.md'
 paths << repair if File.exist?(root.join(repair))
