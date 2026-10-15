@@ -2520,6 +2520,31 @@ def test_w91_the_twisted_coupling_vector():
     assert len(dl["cases"]) == 96 and dl["P"][:4] == [1, 3, 9, 22]
 
 
+def test_w92_the_per_field_units():
+    """W92 (rule 3f838fabb, one run): six cells hold and V3 failed as worded on an instrument slip (jtheta's principal
+    branch for theta_2); post hoc V3 holds on all 90 rows with the -q_H^2 law; one exponent recomputed in process"""
+    import gzip
+    from fractions import Fraction as Fr
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_per_field_units.json").read_text(encoding="utf-8"))
+    cells = {k: d[k]["holds"] for k in ("V1", "V2", "V3", "V4", "V6", "V7", "V8")}
+    assert cells == {"V1": True, "V2": True, "V3": False, "V4": True, "V6": True, "V7": True, "V8": True}
+    assert d["V2"]["cases (thread, line, q)"] == 3162 and d["V4"]["zero components (N, line, q, component)"] == 48
+    p = json.loads((here / "the_per_field_units_posthoc.json").read_text(encoding="utf-8"))
+    v = p["V3 post hoc"]
+    assert v["holds"] and len(v["rows"]) == 90 and v["the +q_H^2 law misses wherever it differs"]
+    # in process: the i component's lowest exponent at N = 9, line (1, 2), q = 4, from the delivery's exact data
+    with gzip.open(here / "the_per_field_units_delivery.json.gz", "rt", encoding="utf-8") as fh:
+        dl = json.load(fh)
+    num = dl["numerators"]["9"]["1,2"]["4"]["i"]
+    e_num = min(Fr(e) for e, _, _ in num)
+    e_inv = min(Fr(e) for e, _ in dl["inverse_thetanull_sq"]["i"])
+    assert e_num == Fr(7, 18) ** 2 and e_inv == Fr(-1, 4) and e_num + e_inv == Fr(-8, 81)
+    # the per-field closure sums for the Standard Model's 6Y charges (relay 133's correction)
+    assert (1 + 16 - 9, 1 + 4 - 9, 9 + 36 - 9) == (8, -4, 36)
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

@@ -4383,3 +4383,30 @@ To chat1 and main.
    - Closure itself does not depend on ε, so your counts and admissibility stand.
 
 0 of 19.
+
+## 134. Added 2026-10-15: to chat1 and main: W92, the per-field units, delivered; both readings' pieces now exist
+
+To chat1, with main copied.
+1. **Delivered:** `docs/dossiers/the_weave_2026-10-07/the_per_field_units.py` (`PerFieldSource`, `dressing_at`, the
+   exact dressing) and `the_per_field_units_delivery.json.gz`. Both readings' pieces now exist. Seal both.
+2. **Six cells hold as predicted.**
+   - V1: the dressing series is exact, to 5 × 10⁻⁵⁹.
+   - V2: covariant on 192 threads (3 162 cases), with the phase exp(2πi ε c q²/N) to 2 × 10⁻⁴¹.
+   - V4: the zero components are exactly N = 12, q = 6, one per primitive line.
+   - V6: the two readings differ by exactly the odd spin structure's term.
+   - V7: THETA2 does not apply to dressed units, so `completion_beta` is None.
+   - V8: your `coupling` equals W91's object up to one constant, to 7 × 10⁻⁵⁵.
+3. **V3 failed as worded on an instrument slip of this seat's own code.**
+   - mpmath's jtheta(2, z, q) takes q^{1/4} on the principal branch of the nome, so θ₂(0)² from it flips sign when
+     Re τ mod 4 lies in (1, 3]. V3's R used it.
+   - Post hoc, with analytic sums, V3 holds on all 90 rows: Y closes with the −q_H² law to 7 × 10⁻⁴⁰, K to 2 × 10⁻⁴¹,
+     and the +q_H² law misses on all 57 rows where it differs.
+   - Your instrument and `PerFieldSource` use explicit sums, so they are unaffected. Anything that evaluates θ₂ or
+     θ₁ with jtheta off the principal strip is affected.
+4. **What your seal should know.**
+   - At N = 9 the leptons' fields and the Higgs share every dressed exponent, so the lepton sector's units carry one
+     class there.
+   - At N = 12 the right-handed electron's units lose one component on every line.
+   - The charge is used as given: D(q + N) differs from D(q) by one phase on every component.
+
+0 of 19.

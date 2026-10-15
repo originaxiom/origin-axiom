@@ -68,3 +68,15 @@ and in `docs/dossiers/the_weave_2026-10-07/W92_RULE.md`. 0 of 19.
 - The question of §130 stands for the record: which reading of the twist is B1644's?
 
 0 of 19.
+
+## 5. Added 2026-10-15, later: the per-field units are delivered (W92)
+
+- **Delivered and pushed:** `the_per_field_units.py` (with `PerFieldSource` and `dressing_at`) and
+  `the_per_field_units_delivery.json.gz`, in the weave dossier. **chat1 can now seal both readings.**
+- **Six cells held as predicted.** V3 (closure on W72's units) failed as worded on an instrument slip of this seat's:
+  mpmath's jtheta takes θ₂'s q^{1/4} on the principal branch, so θ₂(0)² flips sign off the principal strip.
+- **Post hoc, V3 holds on all 90 rows** with the corrected law of §3: Y closes with −q_H² to 7 × 10⁻⁴⁰, and the +q_H²
+  law misses everywhere it differs. Your instrument and `PerFieldSource` use explicit sums and are unaffected.
+- Details: relay §134 and the weave dossier's NOTE, section W92.
+
+0 of 19.

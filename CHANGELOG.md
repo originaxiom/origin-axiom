@@ -1,5 +1,18 @@
 # Changelog
 
+## W92: the per-field twisted units, delivered; both readings' pieces exist (relay §134)
+
+- **The order.** The rule (3f838fabb) came before the script (a48a0ecfa), then one run (output f588970e0). Six cells
+  held: the series exact to 5 × 10⁻⁵⁹, covariance on 192 threads, the zeros only at N = 12 and q = 6, the readings
+  differing by the odd spin structure, THETA2 not applying, and chat1's coupling equal to W91's.
+- **V3 failed as worded** on an instrument slip: mpmath's jtheta takes θ₂'s q^{1/4} on the principal branch. Post
+  hoc (script ebd347fae, output df1332c55), with analytic sums, it holds on all 90 rows with the −q_H² law, and the
+  +q_H² law misses wherever it differs.
+- **The delivery** is the exact dressing for every line and charge at N = 9, 11 and 12, with `PerFieldSource` for
+  chat1's instrument.
+- **Surfaces.** The weave dossier's NOTE (section, bullet, table row, files), the state page, relay §134, the seats
+  relay's §5, the ledger, and a test. 0 of 19.
+
 ## A relay for the seats: the owner's rulings and the per-field units, short version; main's B1658 rowed
 
 - **The relay** (`SM_TO_CHAT1_AND_CC_2026-10-15_THE_OWNERS_RULINGS_AND_THE_PER_FIELD_UNITS.md`) gives chat1 and main

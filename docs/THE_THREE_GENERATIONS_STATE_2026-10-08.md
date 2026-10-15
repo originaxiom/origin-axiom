@@ -699,6 +699,9 @@ Under the owner's rulings, the table's rows split into two groups:
   per-field units by dressing each spin structure with the field's own charge. *Correction (2026-10-15): the
   per-field closure condition is c·(q_L² + q_R² − q_H²) ≡ 0 modulo N, not with +q_H² as in the bullet above
   on the twist counted once (relay §133).* 0 of 19.
+- **W92, the per-field units** (the rule first; one run; six cells as predicted; V3 failed as worded on an
+  instrument slip, and post hoc holds on all 90 rows; relay §134). W72's units are dressed by each field's own
+  charge in the z-form, and delivered. Both readings' pieces exist, and chat1 seals both. 0 of 19.
 
 ## Questions open with main
 
@@ -720,7 +723,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W91 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W92 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§133).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§134).

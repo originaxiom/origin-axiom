@@ -19395,3 +19395,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   they can start without reading the long record.
 - **Main proved a bound:** one Higgs cannot spread the three families' second masses by more than a factor of four in
   its frame. The data need about sixteen. 0 of 19.
+
+## 2026-10-15 — the per-family pieces are built
+
+- **The seat built the pieces in which each family carries its own charge,** and handed them to the web seat. Both
+  ways the owner asked for can now be tested side by side.
+- **Six of seven checks passed as planned.** The seventh failed on a sign slip in a library function, found
+  afterwards and labelled. With it fixed, the pieces close exactly as predicted. 0 of 19.
