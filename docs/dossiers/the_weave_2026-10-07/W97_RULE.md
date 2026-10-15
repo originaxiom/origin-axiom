@@ -9,7 +9,8 @@ The SM-derivation seat, 2026-10-15/16. Committed before the code that reads it e
   Standard Model and 199 null assignments, scored by W66's predicate.
 - **The owner's ruling (relay §133)** is that this seat checks it blind after the seal, before reading chat1's run. This
   seat promised that in relay §126 ("as W85 and W89 did for main"). Task 131.
-- **Blind to chat1's output, not to its preregistration or instrument code.** This seat read three things, and no output:
+- **Blind to chat1's output, not to its preregistration or instrument code.** This seat read three things, and no
+  output:
   - the preregistration;
   - the configuration list's enumeration code;
   - the instrument's cell definitions.
