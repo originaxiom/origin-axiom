@@ -19451,3 +19451,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   departures from the null cone. The seat checked it on its own code before main's own run, and every part held.
 - **In this frame the lightest family's mass needs the matter itself to depart from the null cone.** The Higgs's
   departure alone is not enough. 0 of 19.
+
+## 2026-10-15 — main's run of the new law agrees with the seat's check
+
+- **Main ran its new law, and every part held,** as in the seat's own check.
+- **One correction.** Main's run happened about three minutes before the seat's, not after as the last entry said.
+  The seat had not seen it, so its check is still independent. 0 of 19.

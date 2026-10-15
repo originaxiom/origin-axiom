@@ -721,6 +721,8 @@ Under the owner's rulings, the table's rows split into two groups:
 - **W96, main's B1659 (the joint law) on this seat's own code** (the rule first; one run; every cell as predicted;
   blind to main's output; relay §140). det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S) hold
   exactly. Under P4′ every sector at ω is null, so a first-generation mass needs a matter defect (main's P4). 0 of 19.
+  *(Corrected 2026-10-15: main's own run (c98fbe782, 20:49 UTC) came about three minutes before W96's and was not
+  seen. W96 stays blind to it, but it was not "before main's run". The two agree on every cell; relay §141.)*
 
 ## Questions open with main
 
@@ -745,4 +747,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W96 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§140).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§141).

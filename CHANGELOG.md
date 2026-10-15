@@ -1,5 +1,16 @@
 # Changelog
 
+## Main's B1659 output read; W96 agrees on every cell; a timing correction (relay §141)
+
+- **Main's run** (c98fbe782) holds on every cell. W96 agrees wherever the two measure the same thing. Main's P4
+  matter keeps the quarks off the null cone, and this seat's P4′ matter is null in every sector.
+- **Correction.** Main's run came about three minutes before W96's (20:49 against 20:52 UTC), not after.
+  - W96 stays blind to it, since this seat's last fetch before the run was at 20:48 UTC.
+  - "Before main's run" in W96's record, relay §140, the previous entry and the PROGRESS_LOG is corrected by dated
+    notes.
+- **Surfaces.** The dossier's NOTE (a correction, and the comparison table), the state page, relay §141, the ledger
+  (one row and row 317). 0 of 19.
+
 ## W96: main's B1659 (the joint law) holds on this seat's own code, before main's run (relay §140)
 
 - **The order.** The rule (699d19dab) came before the script (1db291582), then one run (output f5f7ef4fd), blind to

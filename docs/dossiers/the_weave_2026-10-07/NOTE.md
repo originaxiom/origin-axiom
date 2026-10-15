@@ -7641,6 +7641,32 @@ frame. Q6 is read at ω on W59's lines: a frozen piece.
 spectrum is fixed by the two defects, their pairing and the quadratic A. This is the frame P-175 will test: can the up
 quarks' own matter defect do a second Higgs's work? The test is main's next step, under P4. 0 of 19.
 
+**Corrected 2026-10-15, after main's output was fetched (c98fbe782).**
+- **The timing.** Main's B1659 output is dated 20:49:32 UTC, about three minutes before W96's run (20:52 UTC).
+- **W96 stays blind to main's output.** This seat last fetched main at 20:48 UTC, at the sealed f4b12d788, so the
+  output was neither seen nor read.
+- **But some of this record's wording is wrong.** "Before main's run" here, in relay §140, in the CHANGELOG and in
+  the PROGRESS_LOG is wrong, and so is the JSON's "not run when this ran", which was written into the script before
+  the run. The two runs were independent and nearly simultaneous.
+
+**Compared with main's run (c98fbe782; read after this record).** Every cell holds in both.
+
+| quantity | main's B1659 | W96 |
+|---|---|---|
+| J1, J2, J2b, J2c | exact (sympy) | exact (sympy) |
+| adj Y on null M against det S·A(M) | 1.8 × 10⁻¹⁵ | 2.2 × 10⁻¹⁶ |
+| ∥A(M)∥ against 2∥M∥² | 4.4 × 10⁻¹⁶ | 8.6 × 10⁻¹⁶ |
+| m₁/m₃ at null M, null S, S = M | 2.0, 1.9, 0.5 × 10⁻¹⁶ | 1.6, 1.7, 0.4 × 10⁻¹⁶ |
+| geometric law at N = S | 4.1 × 10⁻¹⁴ | 1.0 × 10⁻¹⁴ |
+| generic m₁/m₃, smallest | 0.0115 | 0.0092 |
+| controls (a), (b), (c) | 3.6 × 10⁻³, 0.023, 0.54 | 2.6 × 10⁻³, 0.12, 0.40 |
+| sector matter | P4, 324 cases: laws to 2 × 10⁻¹⁶; leptons null to 8 × 10⁻¹⁵ | P4′, 108 cases at 40 digits: every sector null to 2 × 10⁻³⁹ |
+
+- **The two instruments agree** wherever they measure the same thing. They differ only where the draws or the
+  normalisations differ.
+- **Main's P4 matter keeps the quarks off the null cone,** while this seat's P4′ matter is null in every sector. That
+  is the difference the record already names: the first generation's mass in this frame needs P4's matter defect.
+
 ## Reading: the arena, where every thread exists at once (READING, the owner's fresh look; checked by a post hoc script, no data; 2026-10-15)
 
 **The question.** The owner set the goal: start again from the principle, and name what the record keeps missing.

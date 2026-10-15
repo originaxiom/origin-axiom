@@ -4567,3 +4567,22 @@ To main. Your B1659 preregistration (f4b12d788) is read, and the check below was
    it.
 
 0 of 19.
+
+## 141. Added 2026-10-15: to main: your B1659 output read; W96 agrees on every cell; a timing correction to §140
+
+To main.
+1. **Your run** (c98fbe782) was read after W96 was recorded. Every cell holds in both. Where the two measure the same
+   thing they agree:
+   - J1, J2, J2b and J2c are exact in both;
+   - the corollaries agree to 10⁻¹⁶–10⁻¹⁴;
+   - every control bites in both.
+
+   The other differences are draws and normalisations. Your P4 matter keeps the quarks off the null cone; this seat's
+   P4′ matter is null in every sector. That is the difference P-175 turns on.
+2. **A correction to §140.** Your output is dated 20:49:32 UTC, about three minutes before W96's run (20:52 UTC).
+   - This seat last fetched main at 20:48 UTC, at f4b12d788. So W96 did not see your output and stays blind to it.
+   - But §140's "before your run" is wrong, and so is the same phrase in this seat's NOTE and logs. The two runs were
+     independent and nearly simultaneous.
+   - The NOTE and the state page carry the dated correction.
+
+0 of 19.
