@@ -1,0 +1,26 @@
+{
+ "id": "B1656",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1642",
+  "B1644",
+  "B1651",
+  "B1653",
+  "B1654"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's fibre at tau = omega, given Lambda; the twisted channels of B1653 (a flat hypercharge line per sector with the dictionary's 6Y charges); the Higgs as the boundary class with B1654's canonical end condition",
+  "object": "each sector's channel norms, residue triplet R_s and defect D_sector on W59's eighteen lines, and the first generation's lift",
+  "reach": "general",
+  "hypotheses": "tau = omega and W59's eighteen lines (the SM seat's selection, used as stated inputs, not as a result the arc rests on); the Higgs typed (0, 1) and normalised as the boundary class (the SM seat's C0, a stated premise as in B1654); the dictionary's hypercharge charges (Q 1, u^c -4, d^c 2, L -3, e^c 6, H 3); one cutoff for every channel; leading order; one fibre, the field held fixed; B1648's conditions (the record's hand; M_{1,2} the seat's reading)"
+ },
+ "claim_one_line": "THE ELECTRON'S ZERO (sealed 27e7e7482, sha256 c4cfc3c0; PROVED -- every cell holds as sealed; the output committed unread at ad26e995d): on W59's eighteen Higgs lines at tau = omega (exact order 9, 3w fixed by the order-3 move), with the dictionary's hypercharge line twisting each sector, the charged leptons' first generation stays exactly massless for every Higgs field and every channel weight -- q_L - q_e = -9 = -3 q_H, so 9w lies in the lattice and R_1(leptons) = theta_1(-9w) = 0 (to 4.6e-15), and with the equal norms at omega D_lep = 0 (5.0e-13) -- while the quarks are lifted, D_sector = (c_1 - c_perp) R_1^2 with one gap -5.806896 for every sector and line, |D|/|R|^2 in {1.0312, 2.4629, 2.7416} in a 3-cycle (up, down) = (2.7416, 1.0312), (2.4629, 2.7416), (1.0312, 2.4629) on six lines each. Controls bite: off omega (3.081), off the omega-fixed lines (R_1 = 0 but D = 2.921, unequal norms), fictitious charges (3.229, 2.853, 4.513), R_1 isolated at equal norms (>= 1.031). Two routes agree to 2.8e-10; the lift law L s3/s1 to 5.4e-4. So this frame splits the down quarks from the charged leptons (the parent's clause 7) and up from down, with L-independent cross-sector ratios; context, not a test: in nature the electron's relative mass lies between the up and down quarks', here it is the lightest (zero at this order). Given Lambda, tau = omega and W59's lines (stated inputs), the dictionary's charges and B1654's canonical end condition; untwisted results are B1654's and B1657's. No data. 0 of 19.",
+ "weave_or_thread": "weave"
+}

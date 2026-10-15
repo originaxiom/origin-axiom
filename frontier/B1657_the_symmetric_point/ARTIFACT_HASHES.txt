@@ -1,3 +1,4 @@
+# sealed at d4dcd0d50: 012bcf6d22db1baadfca4efb6f0d4124bb3fd900c17da8861127eecc4505e512  verification/the_symmetric_point.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 4d66582bb761a34199ec8846251f6d2ba7592e249ed9043d1faab1cbeefd9dff  design_v1/B1657_PREREGISTRATION_v1.md
 72c5d3f00a55b94ceef7a779035f78e928abaca0dfa086be33fdc6805c226220  design_v1/the_symmetric_point_v1.py

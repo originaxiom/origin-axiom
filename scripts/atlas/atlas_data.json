@@ -11956,6 +11956,45 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1656": {
+   "slug": "the electrons zero",
+   "motifs": [
+    "choice",
+    "coupling",
+    "eisenstein",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B928"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1657": {
+   "slug": "the symmetric point",
+   "motifs": [
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "P4",
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B165": {
    "slug": "kappa cantor offaxis",
    "motifs": [

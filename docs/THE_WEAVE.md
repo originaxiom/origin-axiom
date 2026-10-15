@@ -542,3 +542,28 @@ found with B1635's sealed instrument.
   "never between" is a statement about a quartic potential; B1642's coupling, read as "no flavour structure", is rank
   two with an exact massless direction, the base of everything since. The next computation is the symmetric point at ω
   and the regime near it (P-153), sealed first.
+
+## Main's addition: the electron's zero (B1656, PROVED) — the twisted channels per sector at τ = ω
+
+- **On W59's eighteen lines** (exact order 9, 3w fixed by the order-3 move), with the dictionary's hypercharge line
+  twisting each sector and B1654's canonical end condition: **the charged leptons' first generation stays exactly
+  massless** for every Higgs and every channel weight. The cause is arithmetic: q_L − q_e = −9 = −3q_H, so 9w lies in the
+  lattice and R₁(leptons) = θ₁(−9w) = 0; with the equal norms at ω, D_lep = 0.
+- **The quarks are lifted**, D_sector = (c₁ − c_⊥)R₁² with one gap −5.8069; ∣D∣/∣R∣² takes 1.0312, 2.4629 and 2.7416 in a
+  3-cycle (up and down on a line are adjacent values). So this frame splits the down quarks from the charged leptons
+  (the parent's clause 7) and up from down, with L-independent cross-sector ratios.
+- **Context, not a test:** in nature the electron's mass relative to its generation's heaviest lies between the up and
+  down quarks'; here, at this order, it is the lightest (zero). Its mass must come from beyond this order or another
+  source — the Higgs's own defect (B1657) is the candidate.
+
+## Main's addition: the symmetric point (B1657, PROVED) — two isotropic vacua, two laws
+
+- **At τ = ω the order-3 move's eigenlines are B1646's axes R, R̄, n.** A Higgs on the real one gives the degenerate pair;
+  on either isotropic one, rank one. τ = ω, retired only as "no hierarchy found", has rank-one vacua in this frame.
+- **Near the conjugate vacuum** the two light masses over the heavy are the isotropy defects of the Higgs and of the
+  zero-mode triplet; **near the parallel vacuum** they are the defects' sum and product, a geometric hierarchy from one
+  breaking. Under B1654's canonical end condition with the Higgs on the line, one generation is massless and the next
+  is ∣D∣/(2πL∣R∣²) or a quarter of it, a cone at ω.
+- **What is open:** which vacuum is the Higgs's (its weight), and the Higgs's own defect (P-163) — the first place, with
+  B1656's sector values, where this frame could give ratios of masses.
+

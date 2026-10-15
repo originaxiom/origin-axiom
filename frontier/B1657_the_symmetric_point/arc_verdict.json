@@ -1,0 +1,29 @@
+{
+ "id": "B1657",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1640",
+  "B1645",
+  "B1646",
+  "B1651",
+  "B1654",
+  "B1655"
+ ],
+ "rests_on_seat": [
+  "sm:W87"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's fibre at its puncture, untwisted (no hypercharge line), given Lambda; one fibre and one tau at a time; the field held fixed",
+  "object": "the order-3 move's action on the channel triplet at tau = omega, the Higgs's symmetric vacua, the masses near the isotropic vacua (conjugate and parallel), their limits under B1654's canonical end condition, and D near omega",
+  "reach": "general",
+  "hypotheses": "Y(a; v) = a v^T + v a^T - (a.v) 1 (B1645, B1654); leading order; the laws at first order in the defects, the parallel m2 law where |d_a + d_v| >> eps^2; B1648's conditions (the record's hand; M_{1,2} the seat's reading); which vacuum is the Higgs's not decided"
+ },
+ "claim_one_line": "THE SYMMETRIC POINT (sealed d4dcd0d50, sha256 1e0a4bc9; PROVED -- every cell holds as sealed, none blind; the output committed unread at ab392d4da): at tau = omega, in the fibre frame, untwisted, the order-3 move acts on the channel triplet as the real signed permutation P (P^T P = 1, P^3 = -1) whose eigenlines R (e^{-i pi/3}), Rbar (e^{i pi/3}) and n (-1) are B1646's frame; a Higgs on n gives (1, 1, 0) (B1645's T4), on R or Rbar rank one (B1645's cone). Two laws for a small departure: in the conjugate vacuum (a ~ Rbar, v ~ R) the light masses over the heavy are the isotropy defects |d_a|, |d_v| with coefficient one (0.008 per unit eps); in the parallel vacuum (a ~ R, v ~ R) they are |d_a + d_v|/4 and |d_a d_v|/4, a geometric hierarchy (27.5 and 13.5 per unit eps above the precision floor); each law fails in the other's vacuum (9.5e3, 1.2e7). Under B1654's canonical end condition with the Higgs on the line one generation is exactly massless and L s2/s1 -> |D|/(2 pi |R|^2) or |D|/(8 pi |R|^2) (to 1.7e-4); D's covariance D(gamma tau)(tau + 1) = -D(tau) (2.2e-14) makes D a cone at omega, |kappa| = W87's slope 2.94917 (1.6e-7). Which vacuum is the Higgs's is a question of its weight (a reading, not computed); the Higgs's defect is not computed. A frozen piece: one fibre, one tau, untwisted, the field held fixed. No data. 0 of 19.",
+ "weave_or_thread": "neither (a frozen piece of the weave's fibre)"
+}

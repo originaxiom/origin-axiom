@@ -1,5 +1,25 @@
 # Changelog
 
+## S132 THE ELECTRON'S ZERO (B1656) AND THE SYMMETRIC POINT (B1657), BOTH PROVED; THREE LANES HARVESTED
+
+- **B1656, the electron's zero** (sealed `27e7e7482`; output unread at `ad26e995d`; every cell as sealed). On W59's eighteen
+  lines at τ = ω, with the dictionary's hypercharge line and B1654's canonical end condition, the charged leptons' first
+  generation stays exactly massless for every Higgs and channel weight (q_L − q_e = −9 = −3q_H, 9w in the lattice,
+  R₁ = θ₁(−9w) = 0, equal norms at ω); the quarks are lifted, ∣D∣/∣R∣² ∈ {1.0312, 2.4629, 2.7416} in a 3-cycle. The frame
+  splits the down quarks from the leptons and up from down. Verified independently by the SM seat's W89 before the run.
+- **B1657, the symmetric point** (sealed `d4dcd0d50`; output unread at `ab392d4da`; every cell as sealed, none blind).
+  At ω the order-3 move's eigenlines are B1646's axes; the isotropic two are rank one. Near the conjugate vacuum the
+  light masses are the two isotropy defects; near the parallel vacuum their sum and product, a geometric hierarchy. Under
+  the canonical end condition one generation is massless and the next ∣D∣/(2πL∣R∣²) or a quarter, a cone at ω (W87's
+  slope). Two pre-seal reviews; the first's blocker produced the parallel law.
+- **Harvest** (rows 1190–1205): the SM seat to `2d4d9cb3` (W87 verified on main; W88, W89 verified; the map to reality;
+  three readings; the two-weaves relay), the web seat to `811fd757` (THETA2, the route, LIFT, WHAT IT MEANS, the
+  corrections), the audit lane to `401d4cd4` (the brackets: P-140 DONE; the cusp kernel transport; a new seal).
+- **Register:** P-140, P-153 DONE; P-151 noted; P-162 (the electron's mass source), P-163 (the Higgs's defect, next),
+  P-164 (whether the order-9 lines are CP-odd); the floor 164. Relay CC_TO_ALL_SEATS_2026-10-15_THE_ELECTRONS_ZERO_AND_THE_SYMMETRIC_POINT.md,
+  with main's reading of "two weaves" (written after reading the SM seat's readings, disclosed).
+- Landing suite, the owner's ruling on P-143: gates 45 of 45; the 148 governance, claim, harvest and changed-arc test files on the final tree, 2195 passed, 0 failed, 5 skipped (29:33, serial, the certificate of record). The parallel qualification (the owner's approval of P-143's open item; the same files with -n 8) reached 94% with no failure in under five minutes and was stopped for a restart; it reruns next.
+
 ## S131 MAIN AUDITS ITS NEGATIVES (B1655, PROVED; GENESIS v1.46): the arithmetic stands everywhere; the over-reading is in wording and propagation
 
 - **B1655** (an audit arc, the owner's ruling on P-152): main read every NEGATIVE run since B1600, and four read-only

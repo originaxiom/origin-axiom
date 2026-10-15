@@ -1,3 +1,4 @@
+# sealed at 27e7e7482: 8abe8b53f2012abda10aeca93b2f9c2808cbf46ee4368f8e0b1272ccffa10b2e  verification/the_electrons_zero.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 # (the reviewing agents' scripts had their absolute paths replaced by relative ones before the seal; nothing else changed)
 60a9433ea90724d6cd514c79ef205c526b2fb72f05126de240aa7bc7a4d00227  design_v1/B1655_PREREGISTRATION_v1.md
