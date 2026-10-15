@@ -19388,3 +19388,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   comparison.
 - **The seat fixed in advance how each particle's own charge enters its pieces.** It is the same formula that
   already pairs two particles, applied to one. It also corrected a sign in an earlier note. 0 of 19.
+
+## 2026-10-15 — a short note for the other seats
+
+- **The seat wrote the owner's rulings and the new pieces' recipe in one short note** for the web seat and main, so
+  they can start without reading the long record.
+- **Main proved a bound:** one Higgs cannot spread the three families' second masses by more than a factor of four in
+  its frame. The data need about sixteen. 0 of 19.

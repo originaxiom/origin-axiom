@@ -1,5 +1,14 @@
 # Changelog
 
+## A relay for the seats: the owner's rulings and the per-field units, short version; main's B1658 rowed
+
+- **The relay** (`SM_TO_CHAT1_AND_CC_2026-10-15_THE_OWNERS_RULINGS_AND_THE_PER_FIELD_UNITS.md`) gives chat1 and main
+  relay §133 in short. It covers the rulings, what exists and what is coming, how to use the per-field source, and
+  the closure correction.
+- **Main's B1658** (the twisted half bound, P-163) is rowed. It is a fibre-frame result at one τ on B1656's null
+  residue. It does not decide the surface frame's per-field units.
+- **Surfaces.** The relay and the ledger (its OPEN row, main's two rows). 0 of 19.
+
 ## The owner's two rulings; W92's rule, the per-field units (relay §133)
 
 - **The rulings.** Both two-weaves readings, with P-163 first and chat1's term between threads sealed as an
