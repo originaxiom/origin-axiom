@@ -99,3 +99,15 @@ Validation continuation:7 new live tests PASS343.46s, true pre-launch
 snapshot,28pins/tree/index unchanged. Separate prior54-test regression
 not summed into this run. VALIDATION records the exact envelope;
 publication governance follows. Not the full suite.
+
+October16 continuation/scope: surface_variational_join_2026_10_16 now
+checks82/82 exact predicates for a canonical normal action/end and an
+actual local amplitude tangent in this dressed graph. Both annulus ends
+are retained; not a global modulus or full nonlinear SUSY boundary law.
+Literal full BHV-action kinetic identification remains unearned; the
+source field/equation dictionary here was not a complete action proof.
+The new source normalization control is scoped to that literal map,
+with an expressly unverified positive operator-congruence hatch kept.
+Specified-operator analytic reasoning and this exact local BPS positive
+survive; no old free/interacting gap, physical spectrum or global phase
+is inferred. See new FINDINGS/PROOF/SOURCE_CHECK and NEXT_TEST.

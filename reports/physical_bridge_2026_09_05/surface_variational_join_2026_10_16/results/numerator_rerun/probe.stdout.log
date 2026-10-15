@@ -1,0 +1,172 @@
+{
+  "checks": {
+    "phase instrument universal identity": true,
+    "phase instrument rejects one angle false zero": true,
+    "phase instrument preserves derivative and half monodromy": true,
+    "radial instrument rejects one radius false zero": true,
+    "radial instrument preserves restored halfpole derivative": true,
+    "actual frame input": true,
+    "actual common real parameter rank4": true,
+    "active chirality is minus": true,
+    "parameter actually twist neutral": true,
+    "all ordered deformation coefficients (0, 0)": true,
+    "real norm polarization (0, 0)": true,
+    "all ordered deformation coefficients (0, 1)": true,
+    "real norm polarization (0, 1)": true,
+    "all ordered deformation coefficients (0, 2)": true,
+    "real norm polarization (0, 2)": true,
+    "all ordered deformation coefficients (0, 3)": true,
+    "real norm polarization (0, 3)": true,
+    "all ordered deformation coefficients (1, 0)": true,
+    "real norm polarization (1, 0)": true,
+    "all ordered deformation coefficients (1, 1)": true,
+    "real norm polarization (1, 1)": true,
+    "all ordered deformation coefficients (1, 2)": true,
+    "real norm polarization (1, 2)": true,
+    "all ordered deformation coefficients (1, 3)": true,
+    "real norm polarization (1, 3)": true,
+    "all ordered deformation coefficients (2, 0)": true,
+    "real norm polarization (2, 0)": true,
+    "all ordered deformation coefficients (2, 1)": true,
+    "real norm polarization (2, 1)": true,
+    "all ordered deformation coefficients (2, 2)": true,
+    "real norm polarization (2, 2)": true,
+    "all ordered deformation coefficients (2, 3)": true,
+    "real norm polarization (2, 3)": true,
+    "all ordered deformation coefficients (3, 0)": true,
+    "real norm polarization (3, 0)": true,
+    "all ordered deformation coefficients (3, 1)": true,
+    "real norm polarization (3, 1)": true,
+    "all ordered deformation coefficients (3, 2)": true,
+    "real norm polarization (3, 2)": true,
+    "all ordered deformation coefficients (3, 3)": true,
+    "real norm polarization (3, 3)": true,
+    "tangent map Weyl and real 0": true,
+    "tangent map Weyl and real 1": true,
+    "tangent map Weyl and real 2": true,
+    "tangent map Weyl and real 3": true,
+    "reversed BPS sign detected": true,
+    "actual E8 signed faithful root": true,
+    "actual selected root is antiperiodic": true,
+    "actual root map compact and faithful": true,
+    "canonical scalar normalization Q equals twice p": true,
+    "all actual nonlinear BPS residuals": true,
+    "noncommuting background not abelianized": true,
+    "actual amplitude tangent BPS and gauge fixing": true,
+    "amplitude is not a compact gauge orbit": true,
+    "amplitude tangent finite L2": true,
+    "actual epsilon minus amplitude trace": true,
+    "actual critical phases match source and conjugate": true,
+    "actual amplitude even term is old interacting dressing": true,
+    "bare amplitude Yukawa genuinely nonzero": true,
+    "remaining root tangent is regular graph order": true,
+    "full off shell nonabelian energy end identity": true,
+    "deleting curvature cross term detected": true,
+    "deleting quartic detected": true,
+    "wrong full end sign detected": true,
+    "actual nonabelian root boundary current": true,
+    "actual full root energy differentiated current": true,
+    "complete regulated energy and end cancel": true,
+    "actual full energy leading divergence": true,
+    "singular first amplitude variations cancel": true,
+    "ramified gauge generator actual compact square": true,
+    "finite ramified gauge is unitary determinant one": true,
+    "finite ramified gauge actual puncture equivariance": true,
+    "ramified gauge tends to identity": true,
+    "gauge tangent changes Higgs as well as connection": true,
+    "gauge Higgs response bounded nonconstant": true,
+    "gauge normal connection has genuine halfpole": true,
+    "literal source actual wedge and time weights": true,
+    "literal source kinetic normalized speeds": true,
+    "literal dictionary w1 unequal not universal kill": true,
+    "literal dictionary w2 positive calibration": true,
+    "actual G gaussian and eliminated source coefficient": true,
+    "literal Q2p residual weights calibrated": true
+  },
+  "records": {
+    "deformation": {
+      "parameter_complex_rank": 4,
+      "ordered_coefficients": 16,
+      "scope": "canonical normal action, one-way local tangent map; not full boundary SUSY"
+    },
+    "root": {
+      "root": [
+        -2,
+        -3,
+        -4,
+        -6,
+        -5,
+        -4,
+        -2,
+        -1
+      ],
+      "H": [
+        [
+          0,
+          "-2"
+        ],
+        [
+          1,
+          "-3"
+        ],
+        [
+          2,
+          "-4"
+        ],
+        [
+          3,
+          "-6"
+        ],
+        [
+          4,
+          "-5"
+        ],
+        [
+          5,
+          "-4"
+        ],
+        [
+          6,
+          "-2"
+        ],
+        [
+          7,
+          "-1"
+        ]
+      ],
+      "puncture_charge": "-1"
+    },
+    "boundary": {
+      "circle_current_per_2pi": "2*lambda**2*(12*lambda**2*rho - 1)/(rho*(-4*lambda**2*rho + 1)**3)",
+      "bulk_energy": "2*pi*(2*lambda**2*(12*lambda**2*outer_radius - 1)/(outer_radius*(-4*lambda**2*outer_radius + 1)**3) - 2*lambda**2*(12*epsilon*lambda**2 - 1)/(epsilon*(-4*epsilon*lambda**2 + 1)**3))",
+      "energy_plus_retained_end": "0 on local root BPS family",
+      "leading_bulk_divergence": "4*pi*lambda**2/epsilon",
+      "scope": "canonical reduced normal action, all normal bosonic terms; not a complete surface action/SUSY end"
+    },
+    "literal_action_audit": {
+      "dictionary": "literal flat differential forms; not a convention-independent erratum",
+      "time_kinetic_weights": [
+        "2",
+        "4",
+        "4"
+      ],
+      "principal_speeds": [
+        "2",
+        "w"
+      ],
+      "w1_residual_weights": [
+        "1",
+        "1/4",
+        "1/4"
+      ],
+      "w2_residual_weights": [
+        "1",
+        "1",
+        "1"
+      ],
+      "status": "canonical action explicitly supplied; complete BHV action identification NOT certified"
+    },
+    "status": "local canonical action/end and one-way interacting fermion tangent; NOT full nonlinear SUSY boundary law, global vacuum, physical SM, three or gravity"
+  },
+  "all_passed": true
+}

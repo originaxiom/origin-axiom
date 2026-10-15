@@ -19662,3 +19662,43 @@ preserve the nonlinear relative boundary, global-cover/stability,
 full-centralizer compensation and field-normalization questions. They
 are not discoveries or physical results. Science28pins unchanged;
 ultimate full generated physical SM/three/gravity remains ACTIVE.
+
+## October16 normal action/end and actual interacting BPS tangent
+
+At pushed/server-confirmed repair b051f241e, native82/82 PASS6.795891s
+and reference82/82 PASS6.801231s, complete6360-byte records identical
+SHA f0a93ccf32afc6960f9e7ff3fde5ea08b14cb3331a75b4268578dc0b2cb141b3.
+41pins,13,037tracked contents and index unchanged. Original1200-second
+timeout and deliberately interrupted640.772602s diagnostic attempt
+retained with full source snapshots; no partial mathematical certificate.
+The localized exact numerator repair removes multivariate GCD cost;
+all old criteria/wrong-sign/omission controls retained, radial/angular
+false-point controls added. No paper/source coefficient silently changed.
+
+NEW actual map: common real/twist-neutral rank4 parameter, all16 ordered
+Clifford deformation coefficients and actual odd E8-root amplitude
+tangent/gauge fixing. The latter lies in epsilon-minus, with the previous
+interacting even dressing supplied by its actual connection variation.
+Finite positive LOCAL norm, not a global modulus/particle or generation.
+
+Complete normal nonabelian energy/current identity and actual annulus
+bulk/end/first variation cancellation verified, retaining BOTH oriented
+ends. Sufficient H1-plus-parameter variational class is authored proof,
+not independent functional-analysis acceptance or full nonlinear SUSY.
+Ramified compact gauge orbit retains Higgs response and transported
+graph; its tangent is gauge, not matter. Canonical parent is SUPPLIED.
+
+The literal source kinetic-isometric dictionary fails the declared
+normalization test, not all source conventions or physical maps. Primary
+PDF coefficients checked visually and HTML/PDF locators corrected.
+An unverified positive internal-operator congruence hatch may preserve
+zero kernels/domains without equal masses/norms; source components and
+full C/time metric still must be computed. Weighted ramified nonlinear
+core/global-cover and old full55 compensator leads retained explicitly.
+
+Seven scoped LAW rows, identification supplement and OPEN_LEADS added;
+current frontier documents updated. NEXT source/operator map, common
+nonlinear boson/fermion/gauge/auxiliary/SUSY law, GLOBAL stationary
+geometry/Higgs/end, then actual charged spectrum/norms/interactions/
+anomalies in ONE construction. Full derived SM/three/gravity goal stays
+ACTIVE. Live regression/governance follow, not claimed already green.

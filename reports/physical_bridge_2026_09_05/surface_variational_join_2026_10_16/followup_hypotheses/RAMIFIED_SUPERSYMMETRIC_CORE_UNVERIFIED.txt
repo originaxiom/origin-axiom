@@ -1,0 +1,47 @@
+UNVERIFIED next-stage hypothesis, authored during the sealed normal
+variational-join run. Not an executed claim, full boundary closure,
+admitted global Higgs, physical index or new literature theorem.
+
+The next nonlinear boundary-class question may be most naturally posed
+on w^2=z rather than by arbitrary independent coarse half-poles.
+Phi=p(z) d(tau)dz with p~z^-1/2 X pulls back to a regular two-form,
+and Abar_z~bar(z)^-1/2 U pulls back to a regular normal connection.
+The actual coefficient involution is retained: odd X,U are not erased.
+This resembles the epsilon-minus source-slot pattern, but resemblance
+is NOT an earned equality of complete physical domains.
+
+Do not forget the metric: smooth coarse normal area pulls back to
+4|w|^2 darea_w, degenerate at the branch point. The norm, Clifford
+frame, R connection, curvature, auxiliaries and end functional must be
+transformed too. Choosing a smooth cover metric is a NEW physical input.
+In particular inverse-metric adjoints can destroy naive smooth-cover
+regularity of on-shell supersymmetry variations. A smooth algebraic
+Higgs form alone does not solve this. This is the same warning already
+preserved in GLOBAL_FIBRE_HATCH_UNVERIFIED.txt, not a new discovery.
+
+Potential bounded task: construct the actual weighted equivariant
+off-shell boson/fermion/gauge/auxiliary core with both real supercharges,
+show each transformation preserves it, and impose the auxiliary equations
+without secretly changing the domain. Check all leading jets and retain
+log/bounded even dressings. The current one-way BPS tangent map is not
+this result; no claim that every epsilon-minus fermion has a nonlinear
+bosonic partner is earned. Other sourced or epsilon-plus laws remain.
+
+For the root local profile, the pulled-back ordinary Higgs/connection
+looks smooth and equivariant, suggesting a route to local jet existence
+for general odd X. This must be proved using actual equations and metric,
+not counted from Hodge dimensions or assumed from the root example.
+The Q8-cover/Hitchin stability/global descent hatch may then be relevant.
+
+The actual annulus action retains BOTH oriented end currents. With only
+the puncture subtraction the outer response is nonzero in general.
+Amplitude variations therefore do not prove a global modulus or a four-
+dimensional particle: complete outer matching may fix the amplitude.
+
+The normal energy/Clifford identities are Lie-universal and potentially
+reusable on other admitted gauge backgrounds. The fixed based g2+u1
+background is not an SM phase, and its scalar backreaction cannot be
+assumed to restore SM rank. The already-recorded full55/F4 compensator
+question remains a separate supporting duty, not a newly discovered
+SM phase or license to splice models. Genesis selection and the final
+complete physical SM/three/gravity objective remain unchanged.

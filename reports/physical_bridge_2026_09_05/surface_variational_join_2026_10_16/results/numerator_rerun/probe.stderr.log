@@ -1,0 +1,82 @@
+PASS phase instrument universal identity
+PASS phase instrument rejects one angle false zero
+PASS phase instrument preserves derivative and half monodromy
+PASS radial instrument rejects one radius false zero
+PASS radial instrument preserves restored halfpole derivative
+PASS actual frame input
+PASS actual common real parameter rank4
+PASS active chirality is minus
+PASS parameter actually twist neutral
+PASS all ordered deformation coefficients (0, 0)
+PASS real norm polarization (0, 0)
+PASS all ordered deformation coefficients (0, 1)
+PASS real norm polarization (0, 1)
+PASS all ordered deformation coefficients (0, 2)
+PASS real norm polarization (0, 2)
+PASS all ordered deformation coefficients (0, 3)
+PASS real norm polarization (0, 3)
+PASS all ordered deformation coefficients (1, 0)
+PASS real norm polarization (1, 0)
+PASS all ordered deformation coefficients (1, 1)
+PASS real norm polarization (1, 1)
+PASS all ordered deformation coefficients (1, 2)
+PASS real norm polarization (1, 2)
+PASS all ordered deformation coefficients (1, 3)
+PASS real norm polarization (1, 3)
+PASS all ordered deformation coefficients (2, 0)
+PASS real norm polarization (2, 0)
+PASS all ordered deformation coefficients (2, 1)
+PASS real norm polarization (2, 1)
+PASS all ordered deformation coefficients (2, 2)
+PASS real norm polarization (2, 2)
+PASS all ordered deformation coefficients (2, 3)
+PASS real norm polarization (2, 3)
+PASS all ordered deformation coefficients (3, 0)
+PASS real norm polarization (3, 0)
+PASS all ordered deformation coefficients (3, 1)
+PASS real norm polarization (3, 1)
+PASS all ordered deformation coefficients (3, 2)
+PASS real norm polarization (3, 2)
+PASS all ordered deformation coefficients (3, 3)
+PASS real norm polarization (3, 3)
+PASS tangent map Weyl and real 0
+PASS tangent map Weyl and real 1
+PASS tangent map Weyl and real 2
+PASS tangent map Weyl and real 3
+PASS reversed BPS sign detected
+PASS actual E8 signed faithful root
+PASS actual selected root is antiperiodic
+PASS actual root map compact and faithful
+PASS canonical scalar normalization Q equals twice p
+PASS all actual nonlinear BPS residuals
+PASS noncommuting background not abelianized
+PASS actual amplitude tangent BPS and gauge fixing
+PASS amplitude is not a compact gauge orbit
+PASS amplitude tangent finite L2
+PASS actual epsilon minus amplitude trace
+PASS actual critical phases match source and conjugate
+PASS actual amplitude even term is old interacting dressing
+PASS bare amplitude Yukawa genuinely nonzero
+PASS remaining root tangent is regular graph order
+PASS full off shell nonabelian energy end identity
+PASS deleting curvature cross term detected
+PASS deleting quartic detected
+PASS wrong full end sign detected
+PASS actual nonabelian root boundary current
+PASS actual full root energy differentiated current
+PASS complete regulated energy and end cancel
+PASS actual full energy leading divergence
+PASS singular first amplitude variations cancel
+PASS ramified gauge generator actual compact square
+PASS finite ramified gauge is unitary determinant one
+PASS finite ramified gauge actual puncture equivariance
+PASS ramified gauge tends to identity
+PASS gauge tangent changes Higgs as well as connection
+PASS gauge Higgs response bounded nonconstant
+PASS gauge normal connection has genuine halfpole
+PASS literal source actual wedge and time weights
+PASS literal source kinetic normalized speeds
+PASS literal dictionary w1 unequal not universal kill
+PASS literal dictionary w2 positive calibration
+PASS actual G gaussian and eliminated source coefficient
+PASS literal Q2p residual weights calibrated

@@ -1,0 +1,66 @@
+UNVERIFIED hand hypothesis, not executed, not a paper correction or a
+physical operator identification. Read FULL source fermion terms first;
+derive every component, conjugate, Grassmann and derivative factor.
+
+The literal source/canonical kinetic-normalized speeds can differ
+without disproving an actual operator map. A UNITARY map preserving
+the fixed time kinetic form cannot erase their ratio. A POSITIVE
+CONGRUENCE can preserve zero kernels/graph admission while changing
+physical norms and spectra. Do not conflate these two identifications.
+
+Tentative four-slot pattern (eta,psi_H,psi_V,chi), after normalizing
+the source time kinetic form and treating Cartesian derivative halves:
+normal derivative eta/psi edges have ratio1 to canonical; chi/psi
+edges ratio w/2; Higgs eta/chi ratio1; Higgs psi_H/psi_V ratio w/2.
+These signs/phases and full Weyl/Majorana structure MUST be derived,
+not borrowed from this sketch or matching magnitudes alone.
+
+If that complete pattern is correct, let a=w/2>0 and
+T=diag(a^-1/2,a^1/2,a^1/2,a^1/2). Then all four edge multipliers
+factor as T_i*T_j, suggesting H_w=T H_canonical T, NOT a unitary
+similarity and NOT equality of physical mass spectra. The actual
+R-conjugate blocks must be completed so T commutes with full C and
+the allowed trace projectors. Source w1 would then be explicitly
+related to canonical w2 without altering the paper or silently
+changing its superpotential normalization.
+
+Bounded positive invertible T gives selfadjoint T A T on T^-1 Dom(A)
+if A is selfadjoint, by the actual adjoint/domain identity. Kernel
+is T^-1 ker(A), Green form transports by T, and the finite-dimensional
+trace law may be preserved if T commutes with its projector. Graph
+norm equivalence/compact embedding need an explicit proof. The tangent
+would be q_w=T^-1 q_canonical, with an actual modified norm, not an
+unearned supersymmetry/kinetic isometry. Spectra and global physical
+particles do NOT follow merely from kernel transport.
+
+The raw bosonic potential would have weighted residual squares,
+C1^2+(w^2/4)(C2^2+C3^2), with the SAME BPS zero locus, not the same
+off-shell canonical energy. Its actual full boundary action and source
+SUSY variations still need checking. This hatch could discharge an
+identification joint, not the ultimate SM/three/gravity/selection duty.
+
+Do not bank this unless all source component maps, full conjugate
+operator, time metric, boundary/current and normalization controls are
+sealed and verified. A failure of this proposed T is scoped to that
+map; other maps/parents remain. This is a POSITIVE alternative to
+mistaking a normalization mismatch for a programme-wide negative.
+
+Further UNVERIFIED hand observation: in the actual R-plus Fock slots
+(bar_eta,psi_H,psi_V,bar_chi), eta occupies0; in R-minus its C partner
+occupiesHV. T_eta therefore uses those TWO conjugate slots, not slot0
+in both R blocks. It may commute with C and the paired trace projectors.
+Eta lies entirely in epsilon-plus. T is then the SAME scalar sqrt(a)
+on the whole epsilon-minus plane. The normal BPS tangent q(a) from Pi
+also lands entirely in that plane. If the full proposed congruence is
+earned, its zero-kernel tangent might be the original q itself, not an
+obstructed partner; only the output equations are rescaled. This would
+explain how different printed kinetic-normalized speeds coexist with
+the same BPS zero locus. Check the actual phases/Grassmann variations.
+
+Do not extend the congruence to time/external momentum without a proof:
+those kinetic terms are already normalized and would acquire T^2
+under a full congruence. The conjecture concerns the INTERNAL mass/
+stationary operator, not a physical equivalence of complete8D actions.
+Internal horizontal derivatives may obey the same edge pattern, but
+actual spin/R connection and global parallelism of T need checking.
+No old interacting gap or whole-surface Fredholm result is borrowed.

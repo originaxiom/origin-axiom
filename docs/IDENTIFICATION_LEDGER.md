@@ -649,3 +649,17 @@ theories. The full physical field/operator map, metric, normal laws and
 stationarity remain unearned; BFV ghosts are not gauginos or particles.
 No existing I-status is promoted and no new shared I-number allocated.
 Report: reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/FINDINGS.md.
+
+## October16 normal action and tangent map, path-local supplement
+
+No shared I-number or existing status is promoted. New report:
+reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16.
+
+| Sides | Actual map or distinction | Scope |
+|---|---|---|
+| Canonical normal BPS tangent and actual fermion equation | q(a)=G0 sum Ga a_a Pi; all16 coefficients and actual root amplitude/dressing verified | Local canonical parent, one-way domain map; not complete SUSY or physical particle |
+| Coordinate Higgs and orthonormal reduced scalar | Q=2p with declared flat unit K-form and external kinetic normalization | Supplied parent/metric, not a measured coupling or a dimension derivation |
+| Printed BHV action and canonical Clifford action | Literal kinetic-isometric dictionary fails tested weights; complete action NOT IDENTIFIED | Other component conventions and positive operator congruence remain to be tested; not a paper-wide kill |
+| Root2x2 puncture matrix and full E8 puncture | Restriction acts correctly on the faithful actual odd root; whole group elements NOT IDENTIFIED | Finite gauge covariance follows on the root subgroup, not by equating global holonomies |
+| Local BPS amplitude and four-dimensional particle | NOT IDENTIFIED; outer/global matching and kinetic spectrum not computed | The tangent has finite positive LOCAL norm only; gauge-orbit direction is not extra matter |
+| Positive operator congruence and physical spectral equivalence | NOT IDENTIFIED; preserved follow-up is unverified and would change norms/masses | Full source/time metric/C/graph/current map must be computed first |

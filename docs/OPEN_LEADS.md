@@ -6547,3 +6547,30 @@ GLOBAL fibre/base stationary construction remains a separate duty.
 Recover actual Q8-cover/Hodge and stability/existence tools first;
 cover-regular algebraic forms do not imply finite physical energy under
 a changed metric. Genesis/SM/three/gravity remain unachieved.
+
+## October16 canonical variational join and explicit action-map duty
+
+PB-SURFACE-NORMAL-VARIATIONAL-JOIN: LOCAL POSITIVE,82/82 exact at
+published repair b051f241e,41pins/tree/index unchanged. Actual BPS
+amplitude tangent maps to the interacting epsilon-minus graph; complete
+normal nonabelian action/end and first variations agree on the relative
+annulus. Authored sufficient H1 class, not full nonlinear SUSY or global
+particle admission. Both incomplete attempts preserved, not negatives.
+
+PB-SURFACE-SOURCE-ACTION-MAP: OPEN. Literal unchanged kinetic-isometric
+BHV/Clifford dictionary fails the declared normalization check, not
+all source conventions or physical models. POSITIVE CONGRUENCE hatch
+in the new packet's followup_hypotheses is expressly UNVERIFIED:
+derive every source component/sign/C/time metric, then test actual
+internal operator and graph transport. No nonzero-mass equivalence
+from zero-kernel transport. No source coefficient silently changed.
+
+PB-SURFACE-BOUNDARY-VARIATION stays OPEN for BOTH directions of the
+nonlinear gauge/auxiliary/SUSY class. New ramified-cover/core hatch
+retains the pulled-back degenerate metric and full coefficient action;
+naive smooth cover regularity is not sufficient. PB-SURFACE-GLOBAL-HIGGS
+stays OPEN: outer annulus response/global equivariance, actual harmonic
+metric/stationary cusp equations and same-model charged spectrum remain.
+The previously recorded full55/F4 gauge-compensator hatch is supporting
+work, not a new discovery or a supplied SM phase. No old gap transfer,
+physical SM/three/gravity or foundation-selected action is claimed.

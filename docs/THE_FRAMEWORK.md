@@ -1,5 +1,19 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October16 normal variational join:82/82 exact at published repair
+b051f241e,41pins/tree/index unchanged. Actual local BPS amplitude tangent
+maps to the interacting epsilon-minus graph; complete nonabelian normal
+energy/end and first variations agree with BOTH annulus ends retained.
+Two incomplete instrument attempts preserved, no mathematical negative.
+Canonical action is supplied: literal source kinetic-isometric dictionary
+fails its normalization control, not all operator/action maps or the
+programme. NEXT actual source/component/operator map, nonlinear BOTH-way
+boson/fermion/gauge/auxiliary/SUSY class and GLOBAL stationary fields/end;
+then same-model charged spectrum/norms/vertices/anomalies. Positive
+congruence and weighted ramified core are UNVERIFIED next hatches.
+No global modulus/particle, selected SM/three/gravity or goal completion.
+Report physical-bridge surface_variational_join_2026_10_16/FINDINGS.md.
+
 October16 interacting fibre/end:76/76 exact at published pre-run568ecf96c,
 28pins/tree/index unchanged. AUTHORED conditional fixed-fibre dressed
 domain exhaustion/selfadjointness/compact resolvent, generic complex

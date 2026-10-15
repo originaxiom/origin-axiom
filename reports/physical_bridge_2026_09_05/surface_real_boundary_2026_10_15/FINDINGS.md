@@ -131,3 +131,13 @@ charged kernels in the SAME model. Independent analytic review remains
 owed. Flat g2+u1 is not an unbroken SM; other phases are not excluded.
 No three physical families, normalized observation, genesis selection,
 observer/qualia mechanism, quantum anomaly acceptance or gravity follows.
+
+October16 action-map clarification: new surface_variational_join_2026_10_16
+computes a canonical normal action/end and actual BPS tangent joining
+this interacting graph, but NOT equality with every literal coefficient
+of BHV's printed action. The representation/MW/compact-E8 and specified
+operator checks here stand; a complete source action/normalization map
+was never earned by the slot dictionary alone. The new literal-form
+countercontrol and UNVERIFIED positive-congruence alternative explicitly
+retain that duty. SOURCE_CHECK maps HTML equation labels to original
+PDF labels. No earlier physical index or full SUSY claim is introduced.
