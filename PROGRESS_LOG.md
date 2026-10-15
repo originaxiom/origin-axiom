@@ -19172,3 +19172,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The entry above said** main would also receive its message directly in its own session. That was tried and the
   platform refused it: this session cannot reach a session running on the owner's computer.
 - **All three messages wait on this seat's branch,** where each seat looks on its next read. 0 of 19.
+
+## 2026-10-15 — the last re-runs of the audit match, and the other seats' news is recorded
+
+- **The longest re-runs from the audit of chat1's work have finished,** and every one matches what chat1 committed. The
+  grades of the findings do not change.
+- **Main's four newest sessions and chat1's audit of its own negatives** are read and recorded. Main thanked this seat
+  for its corrections, which it checked before applying.
+- **Next:** main suggested one check against this seat's earlier design note on how a Higgs couples. The seat will do
+  it, with the rule written first, and then the surface-frame test main handed back to it. 0 of 19.

@@ -7033,7 +7033,7 @@ own beyond "reproduced" or not, "a bug" or none, and "cited correctly" or not.
 
 | cell | prediction (prior) | outcome |
 |---|---|---|
-| R | every script reproduces its outputs, or differs only where its folder says why (60%) | FAILS as worded on one script. post_hoc_omega.py's output depends on the order numpy returns RL's two isotropic eigenvectors; with that order undone it agrees to 7.8 × 10⁻¹⁶. Every other script reproduces. t_root.py did so on its second attempt (an intermittent SnapPy error, which its folder discloses but misattributes). The 2026-10-06 folders reproduce byte for byte where their logs are committed, and the heavy cell LLRR at level 4 exactly (1,168 s). Their last heavy re-runs were still running when this was recorded. |
+| R | every script reproduces its outputs, or differs only where its folder says why (60%) | FAILS as worded on one script. post_hoc_omega.py's output depends on the order numpy returns RL's two isotropic eigenvectors; with that order undone it agrees to 7.8 × 10⁻¹⁶. Every other script reproduces. t_root.py did so on its second attempt (an intermittent SnapPy error, which its folder discloses but misattributes). The 2026-10-06 folders reproduce byte for byte where their logs are committed, and the heavy cell LLRR at level 4 exactly (1,168 s). Their last heavy re-runs were still running when this was recorded. *(2026-10-15: all of them finished and reproduce exactly; see the note after Status.)* |
 | C | no bug changes a stated conclusion (70%) | FAILS: the meditation's self-coupling scan takes nonnegative coefficients where its docstring and B517 say entries (A1). Two checks of the 2026-10-06 folders cannot fail by construction (B findings below). |
 | F | every number matches its outputs, and no conclusion claims more than chat1's own corrections allow (50%) | FAILS: A2, A3 and the B findings below |
 | X | every citation of the record is accurate (45%) | FAILS: the C findings below. None changes a conclusion. |
@@ -7208,6 +7208,27 @@ scale's 14 and the 2026-10-06 folders' 7. The full lists are in the reports. Rep
 
 **Status.** COMPUTED. The rule came first; the independent script and three labelled post hocs were each committed
 before their one run, and their outputs before the read-out. A check of another seat's record. 0 of 19.
+
+**Added 2026-10-15: the 2026-10-06 auditor's final hand-back.** The last heavy re-runs finished after this record was
+pushed. The auditor's final report replaces the interim one in `w86_audit/`, as its README says. The grades do not
+change: 1 A, 7 B, 7 C.
+- **Every heavy re-run reproduces exactly.**
+  - Silver+ at level 4 (1,168 s) and its existence check, byte for byte.
+  - Bronze− at level 3, and bronze+ at level 3 at primes from 20000, with both existence checks byte for byte.
+  - Bronze+ at level 3 on chat1's disclosed bad prime set 5077: firing 29 608, 960 disagreements and 1,584
+    backgrounds, as committed.
+  - So the R cell's clause on the 2026-10-06 folders closes: all 31 of their re-runs reproduce.
+- **Three extra checks, each as chat1 has it:**
+  - the register lemma holds 72/72 on a non-vacuous instance (U = Ind V for the 72 firing V on s961, with values
+    ±2 = ±1 ± 1). The lemma is true; only its stated verification was vacuous;
+  - SnapPy's tetrahedral census has 16 tetrahedral manifolds among its first 6000 entries, each Chern–Simons
+    denominator dividing 24;
+  - the fibre torsion is the same group on 67/67 cells in the long and short presentations. The printed diagonals
+    differ because B1432's `smith_cols` does not return a Smith normal form, which changes nothing.
+- **One count, reconciled by hand (no new run).** The auditor writes that B1439 matches all 71 cells it shares with
+  chat1; post hoc 3 counts 59. Both are right. The 71 are rows of the control, family and orbit-law files and the three
+  heavy files at good primes, repeats included. The 59 are distinct (word state, level) cells across all chat1's
+  files. Neither count finds a difference.
 
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 

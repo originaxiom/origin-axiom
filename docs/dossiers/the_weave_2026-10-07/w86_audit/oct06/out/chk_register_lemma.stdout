@@ -1,0 +1,2 @@
+firing V on s961 (alpha-sub, p=13): 72; register lemma I(M;p*U) = I_w(U) + I_w(Uw) holds on 72/72
+distribution of (I(V), I(M;p*Ind V), I_w(N;Ind V), I_w(N;Ind V (x) w)): {(-1, -2, -1, -1): 36, (1, 2, 1, 1): 36}

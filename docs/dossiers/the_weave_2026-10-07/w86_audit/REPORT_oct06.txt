@@ -1,385 +1,383 @@
-# Audit of chat1's 2026-10-06 folders and relays (chat1 @ 9fbab9f5e) -- INTERIM
+# Audit of chat1's 2026-10-06 folders and relays (chat1 @ 9fbab9f5e) -- FINAL
 
-(Saved by the seat. The auditor could not write report files. This file joins the auditor's own draft of its
-sections 0-7 (from its attempted write) with its interim hand-back, which carries the numbered, graded findings in
-place of the draft's placeholder. The heavy re-runs marked <P1>-<P9> were still running when the seat recorded
-W86; their outcomes follow in the auditor's final hand-back, noted in W86's section with a date.)
+(Saved by the seat from the auditor's final hand-back, verbatim but for the hygiene edits listed in the README;
+the auditor could not write report files. It replaces the interim report committed at 605a5e3d1.)
 
-# Audit: chat1's 2026-10-06 folders and relays (`origin/chat1/web-seat` @ `9fbab9f5e`)
+FINAL HAND-BACK: chat1 2026-10-06 audit (w86/oct06). Every heavy re-run reproduced exactly. 15 findings: 1 A, 7 B, 7 C (grades unchanged from the interim). The harness refused to let me write w86/REPORT_oct06.md (subagents must return findings as text), so the full report is below.
 
-Auditor's scratch: `<scratch>/w86/oct06/`
-(`committed/` = untouched extraction of the folders; `run/` = the copies that were executed; `out/` = every stdout, stderr
-and runtime; `checks/` = the auditor's own check scripts; `ref/` = record files read for citations). Nothing in
-`<repo>` was modified; git was used read-only (`show`, `ls-tree`, `log`, `archive`, `grep`).
+## Heavy runs (second hand-back)
+All seven heavy first_background runs reproduce exactly (`SHORT=1 python3 fast_census.py run …` and `python3 confirm_existence.py …`):
 
-## 0. Method, environment, and what main already did
+| Cell | Committed file it matches | Runtime |
+|---|---|---|
+| silver+ L4 (LLRR 4) | heavy_LLRR_4.json, including the orbit-cache counters | 1168 s |
+| its existence check | confirm_LLRR_4.txt, byte for byte | 1201 s |
+| bronze− L3 (ILLLRRR 3) | heavy_ILLLRRR_3.json | 1546 s |
+| bronze+ L3 at primes from 20000 | heavy_LLLRRR_3_p20000.json | 1462 s |
+| bronze− existence check | confirm_ILLLRRR_3.txt, byte for byte | 1530 s |
+| bronze+ existence check | confirm_LLLRRR_3.txt, byte for byte | 1462 s |
+| bronze+ L3 at the bad prime set 5077 | heavy_LLLRRR_3.json: firing 29 608, 960 disagreements, 1584 backgrounds | 1449 s |
 
-- **Environment.** Python 3.11.15, SnapPy 3.3.2, sympy 1.14.0, numpy 2.4.6. One script at a time, each under
-  `timeout 3600`, cwd = the copy of the folder, scripts unchanged.
-- **Dependencies.** `first_background.py` imports B1432's `cover_census.py` from `<repo>/frontier/B1432_…/verification`
-  (`REPO = HERE.parents[1]`), which imports B1427's `myindex.py`. Both were extracted from `9fbab9f5e` to the same relative
-  paths under `run/` (blobs `107315ed` and `7ca8e803`; identical on `origin/main`). `firing_descent.py` reads
-  `../chat1_2026-10-06_nonorientable_index/nonor_index.py`, provided by extracting all folders side by side. Scripts that
-  hard-code output names (`orbit_law.json`, `recheck_zeros.json`, `heavy_*.json`) were run in separate copies
-  (`run/relays/fb_*`) so that `fast_census.py validate` still reads the committed `control/family/orbit_law.json`.
-- **Comparison.** Integers, strings, booleans exactly; dict keys normalised to strings only where a JSON round trip
-  changed their type; `seconds` ignored. No float field in these outputs needed a tolerance (CS values are printed after
-  rounding; see the listening log).
-- **Main's prior handling** (`origin/main:docs/HARVEST_LEDGER.md` rows 879–885, 899). REGISTER_TEST and PIN_HALF:
-  "VERIFIED by re-run (B1478)". GENESIS_AMENDMENTS: "RULED (B1478) → GENESIS v1.12" (A1, A2, A4, A5 adopted; A3 adopted
-  as a naming rule). NONORIENTABLE_INDEX, LISTENING_LOG, FIRING_DESCENT: "VERIFIED by re-run (B1479)". SEEN_FIRST: "TAKEN AS
-  WRITTEN (B1479)". FIRST_BACKGROUND (row 899): "REGISTERED — the relay and its FINDINGS read in full, nothing re-run", its
-  reading "taken as written; no claim on main rests on the table". My outputs of the eight cheap scripts are byte-identical
-  to main's re-run logs in B1478 (`rerun_*.txt`) and B1479 (`webseat_rerun_*.txt`), except the listening log, where
-  main's log prints CS noise (≈ ±1e-15) as 0.0 on twelve lines where chat1's and mine print 0.5. Main's re-runs did not
-  examine what the checks can or cannot detect; findings 9 and 10 below concern rows main marked VERIFIED.
-- **Seals.** All five `PREREG*.sha256` files verify. Commit order: firing_descent's seal `210b0623` precedes its results
-  `b802579c` by 70 s (the script runs in 12.7 s here); first_background's seals `df6dfec5` and `6cd612d1` precede its
-  results. For nonorientable_index (`2579ca01`), pin_half (`5cd5edf6`), register_test (`d2f91ddb`) and listening_log
-  (`f4eb6270`) the preregistration, its hash and the results arrive in one commit (finding 14).
+The three extra checks (they were queued in the interim):
+- **Register lemma, non-vacuous instance.** Using chat1's own code on U = Ind V for the 72 firing V on s961, the lemma holds 72/72 with values ±2 = ±1 ± 1. The lemma is true; only its stated verification was vacuous (finding 9).
+- **Regular-tetrahedral census.** SnapPy's tetrahedral census gives exactly 16 tetrahedral manifolds among the first 6000 census entries, every CS denominator dividing 24. A3's sentence on this is confirmed.
+- **Long vs short presentation.** Fibre torsion is the same group on 67/67 cells. The printed diagonals differ (e.g. [3,18] vs [6,9]) because B1432's `smith_cols` does not produce Smith normal form; this has no effect.
+
+## Summary
+Every one of the 31 re-runs reproduces the committed outputs: logs byte-identical, JSON identical except timings. Both preserved failed runs reproduce exactly when the recorded bugs are put back. Main's B1439 (2026-10-01) independently matches all 71 first_background cells it shares with chat1.
+
+1. **A** — first_background's reading "level 3 is what the short words do; long words fire earlier" is contradicted by its own table and by B1439. Main's ledger row 899 restated it.
+2. **B** — "No arc runs the background census on any root other than m004" is false: B1434 and B1439 had done it. Q1 was already falsified in the record before it was sealed.
+3. **B** — "Q2 KILLED … orbits of 1 and 2 throughout": the small orbits are forced by the level, and every background at level 3 or higher sits in a full orbit.
+4. **B** — The verification pass ("every zero cell … checked twice") omits 15 zero cells. I rechecked them: all zero.
+5. **C** — "validated 6/6", but both validation logs print DIFF 6/6. This is a key-type artifact.
+6. **C** — "every cell agrees at three primes": only firing modules are rechecked at the other primes.
+7. **B** — The listening log's half-layer classification misses golden p=11 and silver p=7.
+8. **C** — "exactly at" clock completions: for silver the door changes only at tick 8.
+9. **B** — "Register lemma, verified 264/264" is 0 = 0 + 0 in every case. The lemma itself is true.
+10. **B** — R2 never uses the deck and cannot fail. Its conclusion is true via sm:B1382's intertwiner W.
+11. **B** — "the seven are amphichiral word states": only m003 is.
+12. **C** — A2's digit counts are 10 and 6, not 11 and 7.
+13. **C** — A3's "root and its twin only": 16 of 74 states lie on the 1/24 lattice.
+14. **C** — Four folders' seals are not evidenced by commit order.
+15. **C** — Seven citation slips.
 
 ---
+# FULL REPORT
 
-## 1. `chat1_2026-10-06_firing_descent`
+Scratch root: `<scratch>/w86/oct06/`
+- `committed/` is a pristine extraction of the folders.
+- `run/` holds the executed copies, plus the B1432 and B1427 verification folders.
+- `out/` has the stdout, stderr and runtime of every run.
+- `checks/` has my own audit scripts.
+- `ref/` has the record files I read.
 
-### R — reproduction
+The repository was not modified; I only read git objects.
 
-| script | command | runtime | reproduced? | differences |
+## 0. Method and context
+
+**Environment.** Python 3.11.15, SnapPy 3.3.2, sympy 1.14.0, numpy 2.4.6. One script at a time, each under `timeout 3600`, run in a copy of its folder, scripts unchanged.
+
+**Dependencies.**
+- first_background.py imports B1432's `cover_census.py`, which imports B1427's `myindex.py`. It finds them at `REPO = HERE.parents[1]` + `frontier/B1432_…/verification`. I extracted both files from 9fbab9f5e to those relative paths (blobs 107315ed and 7ca8e803, identical on origin/main).
+- firing_descent.py reads `../chat1_2026-10-06_nonorientable_index/nonor_index.py` from the same commit.
+- Scripts that hard-code their output file names ran in separate copies. This kept `validate()` reading chat1's committed JSON files.
+
+**Comparison.** Integers, strings and booleans exactly. JSON field by field, ignoring `seconds`. Dict keys were normalised to strings only where a JSON round trip had changed their type.
+
+**Main's handling** (HARVEST_LEDGER):
+
+| Relay | Row | Main's status |
+|---|---|---|
+| REGISTER_TEST | 879 | VERIFIED by re-run (B1478) |
+| PIN_HALF | 880 | VERIFIED by re-run (B1478) |
+| GENESIS_AMENDMENTS | 881 | RULED (B1478) → GENESIS v1.12; A1, A2, A4, A5 adopted; A3 adopted as a naming rule |
+| NONORIENTABLE_INDEX | 882 | VERIFIED by re-run (B1479) |
+| LISTENING_LOG | 883 | VERIFIED by re-run (B1479) |
+| SEEN_FIRST | 884 | TAKEN AS WRITTEN (B1479) |
+| FIRING_DESCENT | 885 | VERIFIED by re-run (B1479) |
+| FIRST_BACKGROUND | 899 | REGISTERED, nothing re-run; its reading "taken as written; no claim on main rests on the table" |
+
+My outputs of the eight cheap scripts are byte-identical to main's re-run logs (B1478 `rerun_*.txt`, B1479 `webseat_rerun_*.txt`). The one exception: main's listening-log run prints CS noise as 0.0 on twelve lines where chat1's and mine print 0.5. Main's re-runs reproduced the outputs but did not ask what the checks could detect. Findings 9 and 10 are rows main marked VERIFIED.
+
+**Seals.** All five `.sha256` files verify.
+- firing_descent: seal 210b0623 precedes the results b802579c by 70 s; the script takes 12.7 s.
+- first_background: seals df6dfec5 and 6cd612d1 precede the results.
+- nonorientable_index, pin_half, register_test, listening_log: preregistration, hash and results are in one commit each (finding 14).
+
+**Scope label** (the repository's standing instructions, THE WEAVE). Everything audited here is a thread result: one thread, its covers, or a list of threads read one member at a time (26 roots; three acts). None answers a weave question. The rule was fixed on 2026-10-07, after these relays, so this is a label and not a finding.
+
+## 1. chat1_2026-10-06_firing_descent
+
+**R**
+
+| Script | Command | Runtime | Reproduced? | Differences |
 |---|---|---|---|---|
-| firing_descent.py | `python3 firing_descent.py` | 12.7 s | yes: stdout byte-identical to `run.txt` (and to main's `webseat_rerun_firing_descent.txt`) | none |
+| firing_descent.py | `python3 firing_descent.py` | 12.7 s | Yes. Byte-identical to run.txt and to main's re-run log. | None |
 
-### C — code
-- Read in full with the `nonor_index.py` library it executes (`exec` of the text before `M0 = …`). Characters with values
-  in μ₄ suffice (peripheral-trivial characters factor through H₁ torsion (ℤ/4)²); `ext()` builds one non-split extension
-  per basis vector of H¹, complete here because h¹(λ) = 1 on all 16 loci; `iso()` enumerates the full intertwiner space
-  over F_p (≤ p² points); `induce()` uses the correct block rule (block (j,i) = V(t⁻ʲ g tⁱ)).
-- `indexN` uses the untwisted dual on m025. For an induced module U = Ind V, U ⊗ w ≅ U, so the twisted and untwisted
-  indices coincide; no effect on D3.
-- No bug found.
+**C** — No bug found.
+- The script `exec`s the nonor_index library. μ₄-valued characters suffice here, because the torsion is (ℤ/4)².
+- One extension per basis vector of H¹ is complete, since h¹ = 1 on all 16 loci.
+- `iso()` enumerates the whole intertwiner space. `induce()` uses the right block rule.
+- `indexN` uses the untwisted dual. That is harmless here: Ind V ⊗ w ≅ Ind V, so the twisted and untwisted indices agree.
 
-### F — findings vs outputs
-Every cell of FINDINGS l.7–10 matches `run.txt` and the rerun at all three primes: 16 characters, 16 loci (h¹ = 1), 12
-non-square; 72 of 256 fire, all on non-square loci, 6 per locus, index ±1 (36/36), both stacking orders; σ fixes 4
-characters (orders 1, 2, 2, 2); 0 σ-fixed firing modules, σ*V firing and of equal index 72/72; Shapiro 72/72. The written
-argument (a σ-invariant character extends to m025, so it has order ≤ 2 on the (ℤ/4)² torsion, i.e. is a square) is
-correct. The relay matches the FINDINGS. No overclaim found.
+**F** — No issue; everything in FINDINGS l.7–10 matches the re-run at all three primes:
+- 16 characters and 16 loci, 12 of them non-square. 72 of 256 modules fire, 6 per non-square locus, with index ±1 (36 each), in both stacking orders.
+- σ fixes 4 characters (orders 1, 2, 2, 2). It fixes no firing module, pairs them with equal index 72/72, and Shapiro holds 72/72.
+- The written argument is correct, and the relay matches the FINDINGS.
 
-### X — citations
-B1432 (s961: 72 firing, 48 backgrounds, 12 non-square loci, six each) ✓; B1476 ("s961 CS 0, 4 of 8 spin structures survive
-a mirror": B1476 P1/P2 "s961 4 of 8") ✓; B1471, B1477 exist as described ✓; sm:B1506 (the triplet as a deck orbit on
-s961, 48 backgrounds in 16 orbits of three) ✓; GENESIS FK2/FK12 ✓; "as GENESIS states for a geometric mirror" = GENESIS
-v1.11 FK9 "The geometric mirror does not change a count at all; dualising does" ✓.
-- PREREGISTRATION.md l.19 "not B1432's myindex": `myindex.py` is B1427's (B1432 FINDINGS l.38: "index by B1427's
-  `myindex.py`") — finding 15a.
+**X**
+- These check out: B1432; B1476 ("s961 4 of 8", CS 0); B1471; B1477; sm:B1506; GENESIS FK2/FK12; FK9 "The geometric mirror does not change a count".
+- PREREG l.19 says "B1432's myindex", but myindex.py is B1427's (B1432 l.38). This is finding 15a.
 
----
+## 2. chat1_2026-10-06_first_background
 
-## 2. `chat1_2026-10-06_first_background`
+**R**
 
-### R — reproduction
-
-| script | command (cwd = copy) | runtime | reproduced? | differences |
+| # | Command (run in a copy of the folder) | Runtime | Reproduced? | Differences |
 |---|---|---|---|---|
-| first_background.py (control) | `python3 first_background.py run "[('golden+',1),…,('golden+',5)]" control_rerun.json` | 86.2 s | yes: 5/5 cells identical to `control.json`; `control_run.txt` numbers identical | none |
-| first_background.py (family) | `python3 first_background.py run "[15 cells of family.json]" family_rerun.json` | 600.2 s | yes: 15/15 identical to `family.json`; `family_run.txt` numbers identical | none |
-| first_background.py check | `python3 first_background.py check "{'golden+':6,'golden-':6,'silver+':4,'silver-':4,'bronze+':3,'bronze-':3}"` (the stated 24 rows are not listed; this is a superset) | 0.8 s | 26/26 rows True; names as stated (m004, m206, s961, t12839, o10_150696, otet12_00013; m003; m136/m135; s464/s463); also golden− L3 = s960, L5 = o10_150695 | no committed log |
-| orbit_law.py | `python3 orbit_law.py` | 1037 s | yes: 56/56 cells identical to `orbit_law.json`; stdout byte-identical to `orbit_law_run.txt` | none |
-| recheck_zeros.py | `python3 recheck_zeros.py` | 278.5 s | yes: 20/20 identical to `recheck_zeros.json`; stdout byte-identical | none |
-| fast_census.py | `python3 fast_census.py validate` | 275.2 s | identical to `fast_validate.txt` except timings (all six lines print `DIFF`; see C, finding 5) | timings |
-| fast_census.py + short_cover.py | `SHORT=1 python3 fast_census.py validate` | 98.8 s | identical to `fast_validate_short.txt` except timings | timings |
-| fast_census.py (heavy) | `SHORT=1 python3 fast_census.py run LLRR 4` | ⟨P1⟩ | ⟨P1⟩ | ⟨P1⟩ |
-| confirm_existence.py | `python3 confirm_existence.py LLRR 4` | ⟨P2⟩ | ⟨P2⟩ | ⟨P2⟩ |
-| fast_census.py (heavy) | `SHORT=1 python3 fast_census.py run ILLLRRR 3` | ⟨P3⟩ | ⟨P3⟩ | ⟨P3⟩ |
-| fast_census.py (heavy) | `SHORT=1 python3 fast_census.py run LLLRRR 3 20000` | ⟨P4⟩ | ⟨P4⟩ | ⟨P4⟩ |
-| confirm_existence.py | `python3 confirm_existence.py ILLLRRR 3`; `… LLLRRR 3` | ⟨P5⟩ | ⟨P5⟩ | ⟨P5⟩ |
-| fast_census.py (heavy, bad prime) | `SHORT=1 python3 fast_census.py run LLLRRR 3` | ⟨P6⟩ | ⟨P6⟩ | ⟨P6⟩ |
+| 1 | `python3 first_background.py run "[('golden+',1),…,('golden+',5)]" control_rerun.json` | 86.2 s | Yes: 5/5 cells match control.json | None |
+| 2 | Same command on the 15 family cells → family_rerun.json | 600.2 s | Yes: 15/15 match family.json | None |
+| 3 | `python3 first_background.py check "{'golden+':6,'golden-':6,'silver+':4,'silver-':4,'bronze+':3,'bronze-':3}"` | 0.8 s | 26/26 rows pass. The stated "24/24" rows are not listed, so I ran a superset. Names as stated; golden− L3 is s960. | No committed log |
+| 4 | `python3 orbit_law.py` | 1037 s | Yes: 56/56 cells; log byte-identical | None |
+| 5 | `python3 recheck_zeros.py` | 278.5 s | Yes: 20/20; log byte-identical | None |
+| 6 | `python3 fast_census.py validate` | 275.2 s | Yes, except timings | Timings |
+| 7 | `SHORT=1 python3 fast_census.py validate` | 98.8 s | Yes, except timings | Timings |
+| 8 | `SHORT=1 … run LLRR 4` | 1167.7 s | Yes, including orbit-cache counters | seconds |
+| 9 | `python3 confirm_existence.py LLRR 4` | 1201.1 s | Byte-identical | None |
+| 10 | `SHORT=1 … run ILLLRRR 3` | 1546.1 s | Yes | seconds |
+| 11 | `SHORT=1 … run LLLRRR 3 20000` | 1462.3 s | Yes | seconds |
+| 12 | `python3 confirm_existence.py ILLLRRR 3` | 1530.2 s | Byte-identical | None |
+| 13 | `python3 confirm_existence.py LLLRRR 3` | 1461.7 s | Byte-identical | None |
+| 14 | `SHORT=1 … run LLLRRR 3` | 1449.0 s | Yes: 29 608 firing, 960 disagreements, 1584 backgrounds | seconds |
 
-The heavy JSONs do not record whether `SHORT=1` was set; FINDINGS l.33–36 says the reruns used `short_cover.py`, and the
-orbit-cache counters are presentation-independent (identical in the long and short validation logs), so the outputs are
-comparable either way.
+The heavy JSON files do not record whether `SHORT=1` was set. FINDINGS l.33–36 says those runs used short_cover, and the orbit-cache counters do not depend on the presentation, so the comparison holds either way.
 
-**Independent cross-check from the record.** Main's B1439 (2026-10-01, "THE CENSUS BY SLOPE", a different instrument:
-B1438's slope law at primes above 2·10⁹) stores per-(state, level) counts. 71 of chat1's 79 cells (all but the
-non-primitive LRLR, ILRLR, LLRLLR, ILLRLLR) are in B1439, and all 71 agree exactly on firing, backgrounds, lifted and
-orbit sizes, including the heavy cells (+LLRR k=4: firing 38 680, 320 backgrounds, all lifted, orbits of 4; ±LLLRRR k=3:
-1584 / 720; +LLLRRR k=3 firing 29 176, i.e. chat1's good prime set, not 29 608).
+**Independent cross-check.** Main's B1439 uses a different instrument (B1438's slope law) at primes above 2·10⁹.
+- 71 of chat1's 79 cells are also in B1439; the other 8 are on non-primitive roots.
+- All 71 agree exactly on firing count, backgrounds, lifted backgrounds and orbit sizes. That includes +LLRR level 4 (38 680 firing / 320 backgrounds), −LLLRRR level 3 (25 152 / 720) and +LLLRRR level 3 (29 176 / 1584).
+- So the 5077 prime set really is the bad one.
 
-### C — code
-- `first_background.py`: the generators L, R, ι are automorphisms fixing c = xyx⁻¹y⁻¹ letter for letter (asserted), ι acts as
-  −I on homology; level n = bundle of φⁿ; T is peripheral; deck τ = conjugation by the root's t is an automorphism
-  preserving the peripheral subgroup. `torsion()` reads B1432's `smith_cols`, whose diagonal is not in Smith normal form
-  (no divisibility), so the printed torsion is presentation-dependent (long [3, 18] vs short [6, 9] for ILLR L3; long
-  [2, 30] vs short [6, 10]; [4, 24] vs [8, 12]); the groups and the exponent N are the same, and `characters()` is correct
-  for any diagonalisation. ⟨P9⟩
-- `fast_census.py`: the orbit cache is sound (τ is induced by a self-homeomorphism; with h¹(λ) = 1 the census module at
-  (τλ, τα) is τ*V). Validated as described, except the printed verdict (finding 5): `validate()` compares fresh results with
-  the JSON files, and `signs` has int keys fresh but str keys after `json.dump`, so every cell with backgrounds prints `DIFF`
-  (12/12 lines in the two committed logs differ only in that dict; values equal after key normalisation).
-- `confirm_existence.py`: `to_long` (T, x₀, y₀) is the right translation; `importlib.reload(F)` restores the long
-  `bundle_cover`; `CC.index/module` are restored to the plain instrument. Correct.
-- B1432's `census()` (imported unchanged) rechecks at the 2nd and 3rd prime only modules that fire at the first prime
-  (cover_census.py l.199–204; its comment "and a sample of silent ones" is not implemented). A module silenced by a bad
-  first prime is invisible to `differing_at_other_primes` (finding 6). The bronze+ 5077 set is the visible case.
-- `orbit_law.py`'s `canon` also merges reversed words (the prereg says rotation and swap); at lengths 2–6 both give the same
-  15 classes, so the 26-root sample is as sealed. Its torsion filter reproduces exactly: 13 words pass, LLRLRR (221) and
-  LRLRLR (320) fail; the four level-3 roots are exactly the new roots with level-3 torsion ≤ 130 (LLR 50, ILLR 54, LLLR 108,
-  ILLLR 112; next LLLLR 196, ILLLLR 200).
-- Deck orbits: τⁿ is conjugation by T, an element of the level, so every orbit size divides n. A background at level 1 has
-  orbit 1, at level 2 orbit 1 or 2 (finding 3).
+**C**
+- **Construction.** L, R and ι fix the commutator c (asserted in the code), ι acts as −I on homology, T is peripheral, and τ is an automorphism. Correct.
+- **torsion().** B1432's `smith_cols` does not produce Smith normal form, so the printed torsion depends on the presentation. The groups agree on 67/67 cells; no effect.
+- **fast_census.** The orbit cache is sound. `validate()` prints DIFF wherever a cell has backgrounds, because the `signs` dict has int keys in a fresh run and str keys after `json.dump` (finding 5).
+- **confirm_existence.** Correct: `to_long` uses (T, x₀, y₀), and the reload restores the long presentation and the plain instrument.
+- **B1432's census.** It rechecks at the other primes only modules that fire at the first prime (cover_census.py l.199–204). The comment there, "and a sample of silent ones", is not implemented (finding 6).
+- **orbit_law.** `canon` also merges reversed words. That gives the same 15 classes at lengths 2–6, so it has no effect. The torsion filter reproduces exactly: 13 words pass; LLRLRR (221) and LRLRLR (320) are excluded. The four level-3 roots are exactly the new roots with level-3 torsion ≤ 130.
+- **Deck orbits.** τⁿ is conjugation by T, so every orbit size divides n (finding 3).
 
-### F — findings vs outputs
-- C1, R, R0, Q1 cells and the six-roots table match the outputs (and B1439). The heavy totals 320 / 1584 / 720 and the
-  bronze+ 960 disagreements match the committed JSON. ⟨P1–P6⟩
-- **Reading (FINDINGS l.1, l.50–52; relay l.8)** — finding 1 (A).
-- **Q2 (FINDINGS l.16) "KILLED: orbits of 1 and 2 throughout"** — finding 3.
-- **Verification pass (FINDINGS l.64–73)** — finding 4. The 15 omitted zero cells, rerun here with the plain instrument at
-  primes from 20 000: all zero, identical firing counts, 0 differing (`out/chk_missing_zeros.stdout`).
-- "validated 6/6" (l.34; commit 627a5b07) — finding 5. "Every cell agrees at three primes" (l.6) — finding 6.
-- l.39 "21 distinct roots" with 24 rows: consistent if 21 counts the decided roots (24 − 3 open). Not graded.
+**F**
+- C1, R, R0 and Q1, the six-roots table, the heavy totals and the 960 disagreements all match the outputs.
+- Findings in this folder: 1, 3, 4, 5 and 6.
+- FINDINGS l.39 says "21 distinct roots" over 24 rows. That is consistent if it counts the decided roots, so I have not graded it.
 
-### X — citations
-B1432 (golden table; "M4 has 8 firing modules in orbits of 2": B1432 l.45 "2: 8, 4: 480"; "p = 1721 kind": B1432 l.73) ✓;
-B1427 ✓; sm:B1506 ✓; B1454 G6 (the level names) ✓; sm:B1541 (the degree-45 cover of m003) ✓.
-- PREREGISTRATION.md l.9–10 "No arc runs the background census on any root other than m004" — false; finding 2.
+**X**
+- These check out: B1432 (l.45 "2: 8"; l.73 p = 1721); B1427; sm:B1506; B1454 G6; sm:B1541.
+- PREREG l.9–10 is finding 2.
 
----
+## 3. chat1_2026-10-06_listening_log
 
-## 3. `chat1_2026-10-06_listening_log`
+**R**
 
-### R — reproduction
+| Script | Command | Runtime | Reproduced? |
+|---|---|---|---|
+| listening_log.py | `python3 listening_log.py` | 15.9 s | Yes: stdout and log.json byte-identical |
+| Failed-run variant (in scratch) | `covers()` used for the ticks | 7.5 s | Identical to run_FAILED_wrong_covers.txt |
 
-| script | command | runtime | reproduced? | differences |
-|---|---|---|---|---|
-| listening_log.py | `python3 listening_log.py` | 15.9 s | yes: stdout byte-identical to `run.txt`; `log.json` byte-identical | none |
-| (run_FAILED_wrong_covers.txt) | scratch variant `checks/failed_repro/listening_log_wrongcovers.py` (tick k = `P.covers(k,'cyclic')[0]`) | 7.5 s | identical to the preserved failed log (minus its 3 comment lines) | none |
+**C** — No bug.
+- All 30 symmetry groups are certified full (`is_full_group()` returns True).
+- The raw Chern–Simons values are ±0.0 on all 15 orientable ticks.
 
-### C — code
-Ticks are SnapPy bundles `b++(L^mR^m)^{k/2}` / `b-+L^m(R^mL^m)^{(k-1)/2}`, conjugate (by P) to X_m^k; validated by the golden
-names and by the failed-run reproduction. p-rank from invariant factors is right. Audit additions: all 30 symmetry groups
-are certified full by SnapPy (`is_full_group()` True), so the |Sym| column is not a lower bound; the raw Chern–Simons
-values of all 15 orientable ticks are ±0.0 to 12 digits, so the printed 0.5 entries are rounding of −0 mod ½, as the
-FINDINGS say. No bug.
+**F** — Correct: E1–E4; full layers at multiples of the clock; amphichirality; |Sym| = 2k / 4k; the door counts; the golden-only absence. Problems: half layers (finding 7) and "exactly" (finding 8).
 
-### F — findings vs outputs
-E1–E4 ✓; full p-layers exactly at multiples of the clock ✓ (golden 2@{3,6,9}, 3@{8}, 11@{10}; silver 2@even, 3@{8}, 7@{6};
-bronze 2@{3,6,9}, 3@even, 11@{8}); amphichirality at every orientable tick ✓; |Sym| = 2k / 4k ✓; door counts ✓.
-- Half p-layers (FINDINGS l.15) — finding 7.
-- "changes exactly at completions" (FINDINGS l.19; relay l.7; SEEN_FIRST l.13) and the relay's "new homology layers open
-  exactly at clock completions" (relay l.6–7) — finding 8.
-- "The golden act is the only metallic act that is never only the mirror at any prime" ✓ (X_m ≡ P mod p ⇔ p | m).
+**X** — m000, m001, m005 check out; 28dbd73f (on outside-bench, "250/250 amphichiral") checks out.
 
-### X — citations
-m000 = b-+L, m001 = b-+LL, m005 = b-+LLL ✓ (identify); 28dbd73f ("250 orientation double covers tested, 250 amphichiral",
-on the outside-bench branch, not on main) ✓.
+## 4. chat1_2026-10-06_nonorientable_index
 
----
+**R**
 
-## 4. `chat1_2026-10-06_nonorientable_index`
+| Script | Command | Runtime | Reproduced? |
+|---|---|---|---|
+| nonor_index.py | `python3 nonor_index.py` | 4.4 s | Yes: byte-identical |
+| Bug variant (in scratch, the l.80 sign test dropped) | — | 2.3 s | Reproduces run_FAILED_bug.txt exactly: controls 0/24 and 0/240, L2 168/240, the stated spurious ±1 distribution |
 
-### R — reproduction
+**C** — No error found.
+- h¹(χ₁/χ₂) ≤ 1 for every pair of characters (m000: 12 pairs with h¹ = 1; N3: 192). So one extension per basis vector really does give "all of them".
+- On the holonomy, m x m⁻¹ x = I to 1e-12, and SnapPy's longitude equals m² exactly, so ⟨m, x⟩ is the full Klein-bottle cusp group.
 
-| script | command | runtime | reproduced? | differences |
-|---|---|---|---|---|
-| nonor_index.py | `python3 nonor_index.py` | 4.4 s | yes: byte-identical to `run.txt` (and to main's B1479 rerun) | none |
-| (run_FAILED_bug.txt) | scratch variant `checks/failed_repro/nonor_index_bug.py` (l.80 without the sign test) | 2.3 s | reproduces the preserved failure exactly: controls 0/24, 0/240; L2 168/240; I(M;p*V) {(1,0):48, (2,−1):36, (2,0):120, (2,1):36} | none |
+**F** — L1a, L1b, the controls and L3 are correct; L2 is finding 9.
 
-### C — code
-Read in full. Fox calculus, d⁰/d¹, the pair restriction rank r₁, the twisted dual V*⊗w, Reidemeister–Schreier with the
-fixed trivial-generator test: correct. Audit checks (`checks/nonor_h1.py`): every ordered pair of characters has
-h¹(χ₁/χ₂) ≤ 1 (m000: 12 pairs with 1, 132 with 0; N3: 192 with 1, 2112 with 0), so one extension per basis vector covers
-every isomorphism class ("all of them" holds); on the holonomy, m·x·m⁻¹·x = I to 1e-12, x and m² are parabolic and
-SnapPy's longitude equals m² exactly, so ⟨m, x⟩ is the whole Klein-bottle cusp group, for both m000 and N3.
+**X** — "B1297 §1" should be §2 (finding 15b). 28dbd73f and B1432's 48 check out.
 
-### F — findings vs outputs
-L1a 264/264, L1b 4/24 and 34/240, controls 264/264, L3 all zero: all ✓.
-- L2 "the register lemma … PASS 264/264" (FINDINGS l.8, l.17; relay l.5) — finding 9. ⟨P7⟩
+## 5. chat1_2026-10-06_pin_half
 
-### X — citations
-B1297's definitions n(V) = a₁ − r₁, I(V) = n(V) − n(V*) and T1 I(V*) = −I(V) ✓, but they sit in B1297 §2, not §1
-(PREREGISTRATION.md l.2) — finding 15b. 28dbd73f ("chirality is not even definable there") ✓. B1432's 48 backgrounds ✓.
+**R**
 
----
+| Script | Command | Runtime | Reproduced? |
+|---|---|---|---|
+| pin_half.py | `python3 pin_half.py` | 0.6 s | Yes: identical to run.txt |
 
-## 5. `chat1_2026-10-06_pin_half`
+**C** — Correct. The two facts the script takes from sm:B1382, W·ρ̄(g)·W⁻¹ = ρ(beat g) and beat² = conjugation by a, I re-verified exactly.
 
-### R — reproduction
+**F** — Q1–Q3 are correct, and the consequence is conditional exactly as sm:B1383 states it.
 
-| script | command | runtime | reproduced? | differences |
-|---|---|---|---|---|
-| pin_half.py | `python3 pin_half.py` | 0.6 s | yes: identical to `run.txt` (and to main's B1478 rerun) | none |
+**X** — sm:B1382 S1–S6, sm:B1383 and Riley/B1141 check out.
 
-### C — code
-Correct: exact relator check over ℤ[ω]; SL(2,3) enumeration; classification by A² = ±ψ(a); χ = −I on both meridians.
-The script takes from sm:B1382 two facts it does not itself check: W·conj(ρ(g))·W⁻¹ = ρ(beat g) and beat² = conjugation
-by a. Both re-verified exactly here (`checks/pin_beat.py`: True on a and b; beat(relator) = I; beat²(b) = aba⁻¹).
+## 6. chat1_2026-10-06_register_test
 
-### F — findings vs outputs
-Q1 48 surjections, 24 Pin⁺ / 24 Pin⁻, 0 outer, χ swaps 48/48 ✓; Q2 ✓; Q3 ψ₁ Pin⁺, W3² = ψ₁(a), ψ₂ Pin⁻ ✓. The
-consequence is stated as conditional on sm:B1383's deck role, which is what sm:B1383 says ✓.
+**R** — There are no committed run logs; I compared against the FINDINGS and against main's B1478 re-runs, and all five outputs are byte-identical to main's.
 
-### X — citations
-sm:B1382 §1/S1–S6 (presentation `abABaBAbaB`, beat, G_ε, Pin⁺ = reflections lift to involutions, S4's table, W = [[1,−ω],
-[0,1]], W·W̄ = +A) ✓; sm:B1383 (physics fixes Pin⁺ three ways; the deck's role decides; gauged deck gives B1141's lift) ✓;
-"Riley/B1141" (B1141 FINDINGS l.24: A = [[1,1],[0,1]], B = [[1,0],[−ω,1]]; its script "the Riley parabolic holonomy") ✓.
+| Script | Command | Runtime | Output |
+|---|---|---|---|
+| p1_tower.py | `python3 p1_tower.py` | 1.1 s | PASS for k = 1…8; torsion 1, 1, 4, 5, 11, 16, 29, 45 |
+| p2_door.py | `python3 p2_door.py` | 0.5 s | 48/48/48; 24 restrictions; 24 extend, 24 sign-blocked, 0 outer; χ swaps 48/48 |
+| r1_door_t_b.py | `python3 r1_door_t_b.py` | 0.5 s | Same counts |
+| p3_shapiro.py | `python3 p3_shapiro.py` | 0.8 s | (0,0,0) × 48; controls (2,0,2) and (1,0,1) |
+| r2_r3_primes.py | `python3 r2_r3_primes.py` | 1.5 s | R2 PASS at 11 primes; R3 gives 0 and 10 |
 
----
+**C** — P1, P2, R1, P3 and R3 are correct. R2 is finding 10.
 
-## 6. `chat1_2026-10-06_register_test`
+**F** — "Odd levels … never computed" is withdrawn by chat1's own SEEN_FIRST relay ("m025 in 15 files"; I count exactly 15 on main at c4d7dc884), so I have not graded it.
 
-### R — reproduction (no committed run logs; compared with the FINDINGS and with main's B1478 reruns)
-
-| script | command | runtime | reproduced? | differences |
-|---|---|---|---|---|
-| p1_tower.py | `python3 p1_tower.py` | 1.1 s | P1 PASS k = 1…8; torsion 1,1,4,5,11,16,29,45; even levels isometric to M_n — as FINDINGS l.14 | none |
-| p2_door.py | `python3 p2_door.py` | 0.5 s | 48/48/48; 24 restrictions; fibres True; 24 extend / 24 sign-obstructed / 0 outer / 0 neither; one ℤ/2 character, swaps 48/48 | none |
-| r1_door_t_b.py | `python3 r1_door_t_b.py` | 0.5 s | same counts with t = b | none |
-| p3_shapiro.py | `python3 p3_shapiro.py` | 0.8 s | (0,0,0) × 48; controls (2,0,2) and (1,0,1) | none |
-| r2_r3_primes.py | `python3 r2_r3_primes.py` | 1.5 s | R2 PASS at 11 primes; R3 0 surjections, image order 10 | none |
-
-All five outputs are byte-identical to main's `rerun_*.txt` in B1478.
-
-### C — code
-P1/P2/R1/P3 correct (the RS trivial-generator test has the sign check that nonor_index's first run lacked; P3's Fox
-calculus and coboundary rank are right; R3 enumerates A₅ as even permutations and composes consistently).
-- R2 never constructs the deck (0 occurrences of deck/beat/τ in the script). Its verdict only asks whether the traces of
-  nine words have a non-zero ω-part mod p; with tr(xy) = 2 − ω this cannot fail at any p ≠ 3, and at p = 3 the comparison
-  is trivially equal. Demonstration (`checks/r2_vacuous.py`, the script's own helpers): an unrelated pair X = [[1,ω],[0,1]],
-  Y = [[1,0],[1,1]] gives the same PASS with the same per-prime counts as Riley's pair. Finding 10.
-
-### F — findings vs outputs
-P1, P2a–c, P3, R1, R3 numbers ✓. "Odd levels … never computed" (FINDINGS l.14, l.36; relay l.22) was withdrawn by chat1's own
-SEEN_FIRST (m025 is in exactly 15 files of main at `c4d7dc884`, 2026-10-06 15:16, as it says); not graded.
-- R2 (FINDINGS l.44; relay l.27; the "What it means" bullets l.48–54) — finding 10.
-
-### X — citations
-GENESIS v1.11 (`c4d7dc884`): SE2 CHOSEN and "the only manual step" on the words route ✓; FK2 settle clause verbatim ✓; m000
-"never computed" (§5 table row, §8 "Computed nowhere yet") ✓; §7 "a chirality (a Galois sheet)" ✓; FK9 "The geometric
-mirror does not change a count at all; dualising does (main B1297, B868, B871)" ✓; FK12 "two signs, not one" ✓. B1234
-(cell 3: Gieseking 48 = m004 48; "dropping A6 may break the tools") ✓; B469 (the residue; BR2) ✓; B605 ✓; 28dbd73f ✓;
-sm:B1382/sm:B1383 ✓; B868 (θ linear, c antilinear) ✓; E51/B1172 (sender-branch dual-homing) ✓.
-- "the paper's Scope 7.2 ('pi1(4_1) surjects onto neither 2I nor A5')" (PREREGISTRATION_2.md l.13; FINDINGS l.45; relay
-  l.28) — not locatable: `git log --all -S 'nor A5'` and `-S 'Scope 7.2'` find only chat1's own commit; the paper at that
-  commit (`papers/P3_THE_PAPER/main.tex`) says "none onto … 2O or … 2I" (l.174–176) and numbers its Scope notes 1, 2, 3, …
-  globally. Finding 15g (R3's result is unaffected: no surjection onto A₅ implies none onto 2I).
-
----
+**X** — These check out against GENESIS v1.11 (c4d7dc884): SE2, FK2, §5/§8, §7 "Galois sheet", FK9, FK12 "two signs, not one". Also B1234 cell 3, B469, B605, 28dbd73f, B868, and E51/B1172. "Scope 7.2" is finding 15g.
 
 ## 7. Relays without a folder
 
-### CHAT1_TO_CC_2026-10-06_GENESIS_AMENDMENTS_PROPOSED.md (read against GENESIS v1.11 at `c4d7dc884`)
-- Quotes: GAP6's last sentence "The remedy for this one is a frame with curvature; none is on the record" ✓; "cannot
-  reach CONTINUOUS values (a mass, a coupling)" ✓; §1 "The family is the intended shape" ✓.
-- A1 (index parity): re-derived — in dimension n only ch_k with n − 2k ≡ 0 (mod 4) enter, odd k only when n ≡ 2 (mod 4) ✓;
-  H*(FM; ℚ) = (1,0,0,2,0,0,1) for the frame bundle of a closed hyperbolic rational homology sphere ✓, and with c₁ = p₁ = 0
-  rationally the index is ∫ch₃ = ∫c₃/2 ✓. Evidence file exists (`docs/handoffs/chat1_handoff_2026-10-04_robustness/code/
-  v03_parity_rule.py`).
-- A2: vol(m004) = (12√3/8)·L(2,χ₋₃) exact to 30 digits ✓; 11π/(36√3) is the right first coefficient ✓; digit counts
-  generous — finding 12.
-- A3: 74 states, CS rational 18 / irrational 56, denominators {1, 2, 4, 48}, 16 amphichiral at {0, ¼} — identical to main's
-  B1478 `checks.json` ✓; "2 are regular-tetrahedral (+LR, −LR)" ✓ (canonical triangulations, `checks/regtet_census.py`);
-  "all 16 [regular-tetrahedral manifolds] in the first 6000 … every denominator dividing 24" ⟨P8⟩; "on X_gen they hold at
-  the root and its twin only" — finding 13.
-- A4: charges (5ψ − 3χ)/2 = 4, −2, 10, −8, −2, 10 on one 27 ✓ (chat1 lists five values, omitting N's repeated 10); Σq =
-  Σq³ = 0 ✓; Z′ charges in the 78 are {0, ±6, ±12}, so no field of the 27, 27̄ or 78 carries the −20 (Z′ units) a ν^cν^c
-  mass needs ✓. "sm:B1303" — finding 15e.
-- A5: memo 122 = HARVEST row 371 ("the object's forced gauge 2-torsion supplies NO stabilizer") ✓.
-- Corrections: "B1166 verified a dilaton" — B1166's own title reads "C3 VERIFIED (one dilaton, not two moduli)", so the
-  original sentence was a fair quote and the correction is a re-reading, not a fix; not graded. "The seven are amphichiral
-  word states" — finding 11.
-- l.2 "GENESIS is amended by an arc (§0)": the rule ("Amending this file. Only an arc may change it.") is in the preamble,
-  before §0 — finding 15c.
+**GENESIS_AMENDMENTS** (checked against GENESIS v1.11):
+- The quotes of GAP6 and §1 are verbatim.
+- A1's parity rule re-derives correctly, as do H*(FM) = (1,0,0,2,0,0,1) and ind = ∫c₃/2.
+- A2: the volume identity holds exactly; the digit counts are finding 12.
+- A3:
+  - 74 / 18 / 56 / {1, 2, 4, 48} / 16 amphichiral states: identical to B1478.
+  - "2 regular-tetrahedral" (±LR): checks out.
+  - "16 tetrahedral in the first 6000": checks out.
+  - The last sentence is finding 13.
+- A4: the charges 4, −2, 10, −8, −2, 10 and Σq = Σq³ = 0 check out. The Z′ charges in the 78 are {0, ±6, ±12}, so no field of the 27, 27̄ or 78 carries the needed −20; that checks out. "sm:B1303" is finding 15e.
+- A5 (memo 122, row 371) checks out.
+- The B1166 "dilaton" correction is a re-reading of B1166's own title ("C3 VERIFIED (one dilaton…)"), so I have not graded it.
+- The seven swap members are finding 11. The "(§0)" reference is finding 15c.
 
-### CHAT1_TO_CC_2026-10-06_SEEN_FIRST_RETROACTIVE.md
-B469 BR2 (first wave 2026-07-08, "every metallic bundle double-covers a non-orientable bundle") ✓; B470 RF1 (body chain
-"mirror-breath at EVERY rung (CS = 0 exactly)", 2026-07-08) ✓ and RF3 ("Pisano-8 rhythm, as preregistered") ✓; B596
-("the clocks are PISANO-ANCHORED") ✓; B479 (held breath at divisors d ≥ 3 of m) ✓ and B494 (the audit's, cited so on main) ✓;
-B701/B721/B732 (B732, 2026-07-20: "B701's conjugation IS the outer automorphism of A₅") ✓; xB032 (torsion growth = entropy,
-B803 addendum) ✓; GENESIS §3 levels ✓; "m025 in 15 files" ✓ (exactly 15 at `c4d7dc884`).
-- l.10 "REGISTER_TEST's R2 at p = 2 is B732's result" — finding 15f. l.18 "B1517" — finding 15d. l.13 "exactly" — finding 8.
-- The sweep did not cover the first-background question (it predates it); finding 2 is the same failure recurring an hour
-  later.
-
----
+**SEEN_FIRST**:
+- These all check out: B469 BR2 and B470 RF1/RF3 (2026-07-08); B596 "PISANO-ANCHORED"; B479 (+ the audit's B494); B701/B721/B732 (2026-07-20); xB032; GENESIS §3; m025 in 15 files.
+- l.10 is finding 15f. l.18 is finding 15d.
 
 ## 8. Numbered findings
 
-(A = changes a conclusion chat1 draws or one the record took from chat1; B = wrong number or claim, no conclusion changes;
-C = citation or wording slip.)
+### 1. A — first_background: "Level 3 is what the short words do"
 
-## Interim hand-back (the numbered findings, verbatim)
+**Claim.**
+- FINDINGS l.1 (title): "level 3 is what the smallest roots do".
+- FINDINGS l.50–52: "Level 3 is what the *short* words do — every decided root of length ≤ 4 except ILLR has its first background at 3, none earlier."
+- Relay l.8: "Level 3 is the first background on m004, m003, LLR, LLLR, ILLLR and silver−: the short words. Long words fire earlier."
 
-Interim hand-back (chat1 2026-10-06 audit, w86/oct06): 15 graded findings, 1 A / 7 B / 7 C. Heavy re-runs are still going; their outcomes come in my final hand-back. The harness refused to let me write REPORT_oct06.md (subagent rule), so the full report will be in the final hand-back text.
+**Evidence.** First level with a background, from chat1's reproduced runs and from main's B1439:
 
-REPRODUCTION SO FAR (all exact):
-- Byte-identical logs: firing_descent, nonor_index, pin_half, listening_log (log.json too).
-- register_test, 5 scripts: every FINDINGS number matches, and the outputs are byte-identical to main's B1478 reruns.
-- first_background: control 5/5 cells, family 15/15, construction check 26/26, orbit_law 56/56 and recheck_zeros 20/20 (both logs byte-identical), fast_census validate long and short identical except timings.
-- Heavy LLRR 4 (silver+ L4) identical in every field including orbit_cache (1168 s).
-- Both preserved failed runs reproduce exactly with the recorded bugs put back in.
-- RUNNING: confirm LLRR 4. QUEUED: heavy ILLLRRR 3, heavy LLLRRR 3 at p20000, heavy LLLRRR 3 at the 5077 bad-prime set, confirm ILLLRRR 3 and LLLRRR 3, a non-vacuous register-lemma check, a tetrahedral-census check, a torsion-isomorphism check.
+| Root | Letters | chat1 | B1439 |
+|---|---|---|---|
+| LR | 2 | 3 | 3 |
+| ILR | 2 | 3 | 3 |
+| LLR | 3 | 3 | 3 |
+| ILLR | 3 | open, ">3" | **4** (level 3: 0, firing 448; level 4: 480) |
+| LLLR | 4 | 3 | 3 |
+| ILLLR | 4 | 3 | 3 |
+| LLRR (silver+) | 4 | **4** (L1–3 zero, L4 320) | **4** |
+| ILLRR | 4 | 3 | 3 |
+| ILRLR = −(LR)² | 4 | **2** | not primitive |
+| LLLLR | 5 | open, ">2" | **3** (216) |
+| ILLLLR | 5 | open, ">2" | **3** (48) |
+| LLLRR | 5 | 2 | 2 |
+| ILLLRR | 5 | 2 | 2 |
+| LLRLR | 5 | 2 | 2 |
+| ILLRLR | 5 | 1 | 1 |
+| LLLLLR, ILLLLLR, LLLLRR, ILLLLRR, LLLRLR | 6 | 2 | 2 |
+| ILLLRLR | 6 | 1 | 1 |
+| LLLRRR, ILLLRRR (bronze±) | 6 | **3** | 3 |
 
-1. A — first_background reading: "level 3 is what the short words do".
-- Claim: FINDINGS.md l.1 "level 3 is what the smallest roots do"; l.50-52 "Level 3 is what the short words do — every decided root of length ≤ 4 except ILLR has its first background at 3, none earlier"; relay CHAT1_TO_CC_..._FIRST_BACKGROUND.md l.8 "...the short words. Long words fire earlier."
-- (a) Its own table, reproduced: LLRR (silver+, 4 letters, decided) has backgrounds 0, 0, 0 at L1-L3 and 320 at L4, so its first level is 4. ILLR, the stated exception, is not even decided in chat1's table (listed "> 3 or open"). ILRLR = −(LR)² (letters LRLR) is first at L2 (0, then 256) if the sign letter is not counted.
-- (b) "Long words fire earlier" fails: bronze± (LLLRRR / ILLLRRR, 6-7 letters) have 0, 0 at L1-L2 and are first at L3 (1584 / 720). LLLLR and ILLLLR (5-6 letters) have nothing through L2.
-- (c) Main's B1439 (2026-10-01, frontier/B1439_the_census_by_slope/verification/census_by_slope_*.json) is an independent instrument at primes above 2·10⁹. It equals chat1 on all 71 shared cells. It decides chat1's three open roots:
-  - −LLR (= ILLR): L3 0 (firing 448, same as chat1), L4 480, so first at 4;
-  - +LLLLR: L3 216, first at 3;
-  - −LLLLR: L3 48, first at 3.
-- So no length law holds: roots with ≤ 4 letters are first at 3 except LLRR and ILLR (at 4), and roots with 5-7 letters land at 1, 2 or 3.
+**What this shows.**
+- The decided root LLRR contradicts the "≤ 4 letters → level 3" rule. The stated exception, ILLR, was not even decided in chat1's own table, and B1439 places it at level 4.
+- Bronze± (6–7 letters) are first at level 3, not earlier.
+- LLLLR and ILLLLR (5 letters) are first at level 3.
+- So there is no length law, and the conclusion does not follow.
 - The sealed kills R, R0 and Q1 are unaffected.
-- The record took the reading: HARVEST_LEDGER row 899 "level 3 is the first background on the short words (...), level 4 on silver+, levels 1 and 2 on longer words", taken as written.
+- The record took this reading: HARVEST row 899 says "level 3 is the first background on the short words …, level 4 on silver+, levels 1 and 2 on longer words".
 
-2. B — first_background PREREGISTRATION.md l.9-10: "No arc runs the background census on any root other than m004" is false.
-- Main's B1434 (2026-10-01) already found (−,LLRLR) m369 with firing 40 and 8 backgrounds, and (−,LLLRLR) s639 with firing 72 and 16. These are exactly chat1's two level-1 kills of Q1.
-- Main's B1439 covers all 758 signed word states over 988 levels.
-- Both arcs are in chat1's own checkout and are listed in GENESIS v1.11 §5, which chat1 cites.
-- Consequences: Q1 ("tested on roots it has not seen") was already falsified in the record before it was sealed; the table re-derives B1439; the numbers are confirmed.
+### 2. B — first_background: the "Seen first" statement is false
 
-3. B — FINDINGS l.16 "Q2 KILLED: orbits of 1 and 2 throughout" (relay l.7).
-- τⁿ is conjugation by T, an inner automorphism, so every orbit size divides the level. Q2's kill therefore follows from Q1's.
-- At every computed level ≥ 3, all backgrounds sit in full orbits (size 3, 4 or 5).
-- Level 2 also has orbit-1 backgrounds: ILLRLR, ILLLRLR, ILLRLLR.
+**Claim.** PREREG l.9–10: "No arc runs the background census on any root other than m004".
 
-4. B — FINDINGS l.64-73 "Every zero cell a first level rests on, 20 cells ... both now checked twice". 15 zero cells the table rests on were not rechecked: the L1 cells of the nine first-level-2 roots, ILLR L1-2, LLLLR L1-2 and ILLLLR L1-2. My rerun with the plain instrument at primes from 20000: all 15 are zero, with identical firing counts.
+**Evidence.**
+- Main's B1434 (2026-10-01) found (−,LLRLR) = m369 with firing 40 and 8 backgrounds, and (−,LLLRLR) = s639 with firing 72 and 16 backgrounds. These are exactly chat1's level-1 kills of Q1.
+- Main's B1439 (2026-10-01) ran the census on all 758 signed word states over 988 levels: 95 carry a background at their own level, and 100 of 180 at level 2.
+- Both arcs are in chat1's own checkout and are listed in GENESIS v1.11 §5, which chat1 cites. Neither is cited anywhere in the folder.
 
-5. C — FINDINGS l.34 "validated 6/6": both committed validation logs print DIFF on 6/6 cells. The only difference is the `signs` dict (int keys fresh versus str keys after JSON); the values are equal.
+**Consequence.**
+- Q1 ("tested on roots it has not seen") was already falsified by the record before it was sealed.
+- The three roots chat1 left open were already decided.
+- The table is a re-derivation, and its numbers are confirmed, 71/71.
 
-6. C — FINDINGS l.6 "Every cell agrees at three primes (0 differing)": B1432's census rechecks only modules that fire at the first prime (cover_census.py l.199-204). A module silenced by a bad first prime is invisible to that check. No number is affected.
+### 3. B — first_background: "Q2 KILLED: orbits of 1 and 2 throughout"
 
-7. B — listening_log FINDINGS l.15: the half p-layer classification ((i) p | m, (ii) discriminant prime, "determined by the clocks") omits cases in its own run.txt.
-- golden p=11 at tick 5: eigenvalues mod 11 are 4 (order 5) and 8 (order 10).
-- silver p=7 at ticks 3 and 9: eigenvalues mod 7 are 4 (order 3) and 5 (order 6).
-- These are split primes with eigenvalues of unequal order, not determined by ord(X mod p).
+**Claim.** FINDINGS l.16; relay l.7.
 
-8. C — "the 2T door changes exactly at completions of the clocks at 2 and 3" (FINDINGS l.19, relay l.7, SEEN_FIRST l.13). On silver the door stays 0 at the 2-clock completions 2, 4, 6 and 10, so only "changes only at completions" holds. The relay's "new homology layers open exactly at clock completions" (l.6-7) also drops the FINDINGS' qualifier "full".
+**Evidence.**
+- τⁿ is inner, so every orbit size divides the level. Any background at level 1 or 2 therefore has orbit size at most 2, and Q2's kill is implied by Q1's.
+- At every computed level of 3 or more, all backgrounds sit in full orbits (L3: 3; L4: 4; L5: 5; 18 cells).
+- Level 2 also has orbit-1 backgrounds (ILLRLR, ILLLRLR, ILLRLLR), not only "orbits of 2".
 
-9. B — nonorientable_index "Register lemma, verified 264/264" (relay l.5; FINDINGS l.8, l.17). Every I_w and every I(M;p*V) is 0 on all 264 systems (L3), so the check is 0 = 0 + 0 and cannot discriminate. The lemma itself follows from Shapiro's lemma and is correct. Main's row 882 / B1479 carried "264 of 264". A non-vacuous check on Ind V for the s961 firing modules is queued.
+### 4. B — first_background: the verification pass misses 15 zero cells
 
-10. B — register_test R2 (FINDINGS l.44, relay l.27): "deck acts as complex conjugation ... PASS at 11 primes".
-- r2_r3_primes.py never constructs the deck (0 mentions).
-- Its verdict only tests that the ω-part of the traces is non-zero mod p, which cannot fail since tr(xy) = 2 − ω.
-- An unrelated pair of matrices passes identically (demonstrated with the script's own helpers).
-- The conclusion is still true, via sm:B1382 S2: ρ(beat g) = W ρ̄(g) W⁻¹, re-verified exactly here.
-- Main B1478 recorded "reproduced, R2 PASS".
+**Claim.** FINDINGS l.64–73: "Every zero cell a 'first level' rests on, 20 cells … both now checked twice".
 
-11. B — GENESIS_AMENDMENTS l.76-77 "The seven are amphichiral word states": of the seven swap members (m003, m207, s955, s957, s960, t12838, o10_150695) only m003 is a word state.
-- m207, s960 and t12838 are −(LR)², −(LR)³ and −(LR)⁴ (GENESIS §3: m207 is "neither a state nor a level").
-- s955, s957 and o10_150695 match no word state up to length 12.
-- CS = ¼ holds on all seven. Main did not carry this correction.
+**Evidence.**
+- 15 zero cells were omitted:
+  - level 1 of ILRLR, LLLRR, ILLLRR, LLRLR, LLLLLR, ILLLLLR, LLLLRR, ILLLLRR and LLLRLR;
+  - levels 1–2 of ILLR, LLLLR and ILLLLR.
+- My re-run with chat1's plain instrument at primes from 20000: all 15 are zero, with the same firing counts. The conclusions are unaffected.
 
-12. C — A2 l.31-32 "(11 digits)" and "(7 digits)": the agreements are 10 and 6 significant digits (relative errors 3.8e-11 and 2.4e-7).
+### 5. C — first_background: "validated 6/6" while the logs say DIFF
+FINDINGS l.34, and commit 627a5b07's message. fast_validate.txt and fast_validate_short.txt print DIFF on 6 of 6 lines. The only difference on each line is `signs`, with int keys in the fresh run and str keys from the JSON; the values are equal. I reproduced this exactly.
 
-13. C — A3 l.44-46 "on X_gen they hold at the root and its twin only": 16 of the 74 states have CS on the 1/24 lattice (all amphichiral). Only the regular-tetrahedral mechanism is confined to ±LR. The check of "all 16 regular-tetrahedral in the first 6000" is queued.
+### 6. C — first_background: "Every cell agrees at three primes (56 + 20 cells, 0 differing)"
+FINDINGS l.6. B1432's census rechecks only the modules that fire at the first prime. A module silenced by a bad first prime is never seen. No number is affected; B1439 agrees.
 
-14. C — Seals: nonorientable_index, pin_half, register_test and listening_log commit preregistration, hash and results in one commit, so "sealed before computing" is not shown by commit order. The firing_descent and first_background seals do precede their results.
+### 7. B — listening_log: the half p-layer classification is incomplete
+**Claim.** FINDINGS l.15 classifies half layers as (i) p | m at odd ticks or (ii) the discriminant prime, and says they are "determined by the clocks".
 
-15. C — Citation slips:
-(a) "B1432's myindex" is B1427's (firing_descent PREREG l.19).
-(b) "B1297 §1" should be §2 (nonorientable PREREG l.2).
-(c) "GENESIS is amended by an arc (§0)": the rule is in the preamble, not §0.
-(d) Bare "B1517" should be sm:B1517 (SEEN_FIRST l.18).
-(e) "sm:B1303" should be main's B1303, "THE SM CLOSING'S Z′" (A4 l.57).
-(f) "R2 at p = 2 is B732's result": B732 is m003's level-2 A5 quotient; R2 at p = 2 concerns m004's D5 image.
-(g) "the paper's Scope 7.2 (... neither 2I nor A5)" is not locatable: only chat1's own commit contains those words, and P3 main.tex says "2O or 2I". R3 stands either way.
+**Evidence.** run.txt also shows:
+- golden p=11 at tick 5 (m407, ℤ/11): mod 11 the eigenvalues are 4 (order 5) and 8 (order 10);
+- silver p=7 at ticks 3 and 9: mod 7 the eigenvalues are 4 (order 3) and 5 (order 6).
 
+These are split primes whose eigenvalues have unequal orders. They fit neither case and are not fixed by ord(X mod p). The golden-only conclusion stands.
+
+### 8. C — listening_log: "changes exactly at completions of the clocks at 2 and 3"
+- Where: FINDINGS l.19, relay l.7, SEEN_FIRST l.13.
+- Silver's 2-clock completes at every even tick, but the door stays 0 at ticks 2, 4, 6 and 10. Only "changes only at completions" holds.
+- Relay l.6–7, "new homology layers open exactly at clock completions", also drops the FINDINGS' qualifier "full".
+
+### 9. B — nonorientable_index: "Register lemma, verified 264/264"
+**Claim.** Relay l.5; FINDINGS l.8 and l.17.
+
+**Evidence.**
+- L3 shows every I_w and every I(M; p*V) is 0, so all 264 checks are 0 = 0 + 0 and cannot discriminate.
+- The lemma is true: it follows from Shapiro, and my non-vacuous instance holds 72/72 with values ±2.
+- Main's row 882 and B1479 carried "264 of 264".
+
+### 10. B — register_test: R2 does not test the deck
+**Claim.** FINDINGS l.44 and l.48; relay l.27 and l.31–36: "the deck acts as complex conjugation … PASS at all 11 primes".
+
+**Evidence.**
+- r2_r3_primes.py contains no deck at all (0 mentions of deck, beat or τ).
+- Its verdict only checks that word traces have a non-zero ω-part mod p. Since tr(xy) = 2 − ω, it cannot fail. An unrelated matrix pair, X = [[1,ω],[0,1]] and Y = [[1,0],[1,1]], passes identically (run with the script's own helpers).
+- The conclusion is still true, by sm:B1382 S2 (ρ(beat g) = W ρ̄(g) W⁻¹), which I re-verified exactly.
+- Main's B1478 recorded "reproduced, R2 PASS".
+
+### 11. B — GENESIS_AMENDMENTS: "The seven are amphichiral word states"
+**Claim.** l.76–77.
+
+**Evidence.**
+- Of the seven swap members, only m003 (−LR) is a word state.
+- m207, s960 and t12838 are −(LR)², −(LR)³ and −(LR)⁴. GENESIS §3 calls m207 "neither a state nor a level".
+- s955, s957 and o10_150695 match no word state up to length 12 (SnapPy isometry signatures).
+- All seven have CS = ¼, and m202 and s959 are two-cusped, as chat1 says.
+- This contradicts the same relay's A3 list. Main did not carry it.
+
+### 12. C — GENESIS_AMENDMENTS: A2's digit counts
+l.31–32 say "(11 digits)" and "(7 digits)". The agreements are 10 and 6 significant digits (relative errors 3.8e-11 and 2.4e-7).
+
+### 13. C — GENESIS_AMENDMENTS: A3's "on X_gen they hold at the root and its twin only"
+- l.44–46. 16 of the 74 states have CS on the 1/24 lattice; all 16 are amphichiral.
+- Only the regular-tetrahedral mechanism is confined to ±LR.
+- GENESIS v1.12 restated this correctly.
+
+### 14. C — Seals not shown by commit order
+nonorientable_index (2579ca01), pin_half (5cd5edf6), register_test (d2f91ddb) and listening_log (f4eb6270) each put the preregistration, its hash and the results in a single commit. "Sealed before computing" is not shown by commit order; the hashes only verify against themselves.
+
+### 15. C — Citation slips
+- (a) firing_descent PREREG l.19 says "B1432's myindex"; it is B1427's.
+- (b) nonorientable PREREG l.2 says "B1297 §1"; the definitions are in §2.
+- (c) GENESIS_AMENDMENTS l.2 says "(§0)"; the amendment rule is in GENESIS's preamble.
+- (d) SEEN_FIRST l.18 cites "B1517" bare; it is sm:B1517, and main has no B1517.
+- (e) A4 l.57, l.60 and l.70 say "sm:B1303"; the Z′ closing is main's B1303 ("THE SM CLOSING'S Z′"). The SM seat's B1303 is the 2×2 criterion.
+- (f) SEEN_FIRST l.10, "R2 at p = 2 is B732's result": B732 is about m003's level-(2) A₅ quotient, while R2 at p = 2 is about m004's D₅ image of order 10.
+- (g) "the paper's Scope 7.2 ('… neither 2I nor A5')" (PREREG_2 l.13, FINDINGS l.45, relay l.28) cannot be located. Those words occur only in chat1's own commit. The paper (P3 main.tex, l.174–176) says "none onto … 2O or … 2I", and its Scope notes are numbered globally. R3's result stands.

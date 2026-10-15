@@ -11,9 +11,9 @@ so its not based on wrong computations or bugs for conclusions, or misinforment"
   - `REPORT_meditation.txt`: the meditation "What we are missing" and the branch README;
   - `REPORT_field.txt`: the field, the condensate in M and the first row;
   - `REPORT_scale.txt`: the scale (with chat1's root-share and sign checks) and the mysteries note;
-  - `REPORT_oct06.txt`: the seven folders and relays of 2026-10-06. It is interim: the auditor's draft of its sections
-    joined with its interim hand-back, which carries the graded findings. Its last heavy re-runs were still running
-    when W86 was recorded; their outcome is noted in W86's section with a date.
+  - `REPORT_oct06.txt`: the seven folders and relays of 2026-10-06. This is the auditor's final hand-back, with every
+    heavy re-run reproduced. It replaced, on 2026-10-15, the interim report committed with W86's record at 605a5e3d1
+    (the draft of its sections and its interim findings, before the last heavy runs finished).
 - **Each report was written by a read-only auditor,** an agent the seat set to one group of folders under W86's rule.
   The auditors ran chat1's scripts unchanged from a `git archive` of 9fbab9f5e in the seat's scratch space, read the
   code, checked every number against the outputs and every citation at its source, and wrote their own checks. They
@@ -22,7 +22,8 @@ so its not based on wrong computations or bugs for conclusions, or misinforment"
   three hygiene edits, disclosed here:
   - absolute scratch paths are shortened to `<scratch>/` or `<session>/`, and the repository's path to `<repo>`;
   - two sentences name the author of chat1's commits; they now read "authored under a name other than originaxiom";
-  - one branch name is shortened to "the outside-bench branch".
+  - a branch name and an instructions file's name that carry a vendor word are replaced by descriptions ("the
+    outside-bench branch", "the repository's standing instructions").
   The reports are kept as `.txt` because they cite the record's ids and paths in the auditors' own words, which the
   repository's citation and path gates hold only for its living `.md` text.
 - **The auditors' own check scripts and their outputs** sit in one subfolder per report (`selection/`, `meditation/`,
@@ -38,8 +39,7 @@ so its not based on wrong computations or bugs for conclusions, or misinforment"
   - B: a wrong number or claim that changes no conclusion;
   - C: a citation or wording slip.
 - **Every A finding was re-checked on the seat's own code** in a labelled post hoc, committed before its one run
-  (`../the_chat1_record_checked_posthoc2.py` for the first two, `../the_chat1_record_checked_posthoc3.py` for the
-  third).
+  (`../the_chat1_record_checked_posthoc2.py`).
 - **The B findings marked so in W86's section were re-checked by the seat at source,** from chat1's committed files.
   The others stand on the auditors' reports and checks here.
 

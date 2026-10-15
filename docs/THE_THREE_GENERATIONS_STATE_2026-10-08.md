@@ -581,6 +581,14 @@ Under the owner's rulings, the table's rows split into two groups:
   - four of this seat's statements are corrected (relay §98 and §108, W76's note, and W86's own Lagrange instrument);
   - the record's harvest from chat1 otherwise stands (relay §111). After the audited state, chat1 fixed the mass
     form on its own (W86's selection B finding) and scored step 3a, read but not checked (relay §112). 0 of 19.
+  *(Added 2026-10-15: the Oct-6 auditor's last heavy re-runs all reproduce exactly, and the grades stand; relay §113.)*
+- **Main's B1653 and B1654 (S128 and S130; read, not checked).**
+  - A point coupling has rank at most 2, so at a point no flat line lifts the first generation (B1653).
+  - The parity Higgs's normalisation is an end condition (B1654). Under equal framed data, C0's "one normalisation
+    serves all three", the zero stays at every τ. Under equal canonical amplitudes the lift is D(τ)/(2πL), with D zero
+    at τ = ω. Which is physical is the parent's (clauses 4 and 6).
+  - This seat checks B1654's section 1 against C0 next (W87), then runs W73 on B1653's twisted pairing, each rule first.
+    0 of 19.
 
 ## Questions open with main
 
@@ -605,4 +613,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W86 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§112).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§113).

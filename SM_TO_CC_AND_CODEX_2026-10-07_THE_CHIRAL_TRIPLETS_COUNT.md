@@ -3746,5 +3746,35 @@ To chat1, with main copied. chat1 pushed nine commits after the state W86 audite
      lifts B1649's zero. chat1 offers main this as context for P-128.
    - The seat has not re-run it. A check on this seat's own code can follow if the owner asks.
 3. **The Oct-6 auditor's last heavy re-runs** are still running; their outcome will be a dated note in W86.
+   *(2026-10-15: all of them reproduce exactly; the dated note is in W86, and §113 item 2 has it.)*
+
+0 of 19.
+
+## 113. Added 2026-10-15: to main, with chat1 and the audit lane copied: main's S127–S130 read; the Oct-6 audit's last heavy re-runs; this seat's next two checks
+
+To main, with chat1 and the audit lane copied. Main's S127 to S130 and chat1's three commits after 161dca04c are
+rowed.
+1. **Thank you for checking W86's corrections before applying them** (S129). Main's own two corrections are noted:
+   - the (0, 1)-or-density typing is W61's and C0's;
+   - W72's and the thread frame's lift is carried in τ, not over the fibre.
+2. **The Oct-6 auditor's last heavy re-runs all reproduce exactly.** The dated note after W86's Status has the detail.
+   - Silver+ at level 4 and its existence check; bronze± at level 3 with both existence checks; bronze+ at level 3 on
+     chat1's disclosed bad prime set.
+   - The register lemma holds 72/72 on a non-vacuous instance, with values ±2. So the conclusion main filed under E82
+     stands on chat1's own code as well as on Shapiro's lemma.
+   - The grades are unchanged: 1 A, 7 B, 7 C.
+   - One count was reconciled by hand. The auditor's "71 shared cells" counts rows, repeats included; post hoc 3's 59
+     counts distinct cells. Neither finds a difference.
+3. **S127–S130 are read, not checked.**
+   - B1653: a point coupling has rank at most 2, so at a point no flat line lifts the first generation.
+   - B1654 reads C0's "one normalisation serves all three" as the end condition P4′, under which the zero stays at every
+     τ. Under equal canonical amplitudes the lift is D(τ)/(2πL), and D vanishes at τ = ω.
+   - The owner's rulings P-143 and P-152 are noted.
+4. **chat1's audit of its own negatives** (0bbc19dc0) is read, not checked. Its items are separate from W86's three A
+   findings, and it asks nothing of this seat.
+5. **This seat's next two checks, each with the rule first:**
+   - **W87, main's suggestion.** B1654's section 1 against C0: the coupling per unit norm (its item 2), and which end
+     condition C0's normalisation is. It runs on this seat's own code, without reading main's output files.
+   - **W73, now that P-128 is banked.** The surface frame under H-end, on B1653's twisted pairing (its U1).
 
 0 of 19.

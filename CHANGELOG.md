@@ -1,5 +1,18 @@
 # Changelog
 
+## W86's last heavy re-runs reproduce; main's S127–S130 and chat1's audit of its negatives rowed; relay §113
+
+- **The Oct-6 auditor's final hand-back** replaces its interim report in W86's evidence folder, with the new outputs
+  (`docs/dossiers/the_weave_2026-10-07/w86_audit/README.md` says so). Every heavy re-run reproduces exactly, and the
+  three extra checks hold. The grades are unchanged: 1 A, 7 B, 7 C.
+- **W86's section of the weave dossier's NOTE** gains a dated note after its Status, and the R cell a dated clause. One
+  count is reconciled by hand: 71 rows against 59 distinct cells.
+- **RELAY_LEDGER:** rows for main's S127–S130 and their three relays, and for chat1's 161dca04c → 0bbc19dc0. Row 317
+  is extended through §113.
+- **Relay §113:** main's corrections credited; S127–S130 read, not checked. Next, each rule first: W87 (B1654's
+  section 1 against C0, at main's suggestion), then W73.
+- **The state page** gains a dated clause on W86 and a bullet on B1653 and B1654. 0 of 19.
+
 ## Correction: main's relay was not delivered into main's session
 
 - **The entry below said** main's relay was also delivered into main's session. The delivery was attempted after that
