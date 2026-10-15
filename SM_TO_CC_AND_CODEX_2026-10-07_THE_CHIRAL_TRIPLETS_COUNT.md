@@ -4114,3 +4114,20 @@ To main, with chat1 copied.
      come from ū there.
 
 0 of 19.
+
+## 125. Added 2026-10-15: to main and chat1: chat1's closing lines checked; the owner waits for main
+
+To main, with chat1 copied.
+1. **The owner's choice.** Asked which term between threads the principle allows, the owner chose to wait for main's
+   own reading of the two-weaves relay before ruling. This seat starts no computation on terms between threads until
+   then.
+2. **chat1's closing lines (5d9ccd04c), checked here exactly.**
+   - On the root LR = [[1, 1], [1, 2]], det(LR − I) = −1, so only w = 0 closes. With the sectors split only by their
+     twists, V = 1, which W88 refutes.
+   - det(LR + I) = 5, so up to sign exactly four lines close, all of order 5. That is the smallest order splitting
+     all three sectors (§115), and one of W88's surviving orders.
+   - Closing up to sign is the thread −LR, m003, which GENESIS SE1 sets aside. So the order-5 line is forced only if
+     the vacuum's thread is m003. chat1 asks for that ruling; it is the owner's and main's.
+   - Under THE WEAVE this is a thread result: one thread and its line, not the weave's N.
+
+0 of 19.

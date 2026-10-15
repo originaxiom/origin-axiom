@@ -1,5 +1,16 @@
 # Changelog
 
+## chat1's closing lines checked; the owner waits for main (relay §125)
+
+- **The owner's choice.** Asked which term between threads the principle allows, the owner chose to wait for main's
+  own two-weaves reading before ruling.
+- **chat1's closing lines (5d9ccd04c), checked exactly.** On the root LR only w = 0 closes, so with the sectors split
+  only by their twists V = 1, which W88 refutes. Up to sign exactly four lines close, all of order 5, the smallest
+  order splitting all three sectors. That exit needs the vacuum's thread to be m003, which GENESIS SE1 sets aside.
+  It is a thread result.
+- **Surfaces.** A dated note in the weave dossier's NOTE (the §115 reading), the state page, relay §125, the ledger
+  (chat1's row and row 317), and a test of the arithmetic. 0 of 19.
+
 ## chat1's two-weaves reading compared; W89's norms read across the sectors (relay §124)
 
 - **chat1's own reading** (257c7b1a6) agrees with this seat's points 1, 2 (read as the torus's spin structures), 4

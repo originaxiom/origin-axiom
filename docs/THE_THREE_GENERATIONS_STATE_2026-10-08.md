@@ -657,6 +657,10 @@ Under the owner's rulings, the table's rows split into two groups:
   and 5, and parallels 3. It adds that a two-point term between threads can lift the first generation where a local
   term cannot. That is a mechanism for the sector-dependent Higgs defect W90 asks for, pending a ruling on which
   inter-thread term the principle allows. Main's reading is awaited. 0 of 19.
+- **chat1's closing lines, checked exactly** (a THREAD result; relay §125). On the root LR only w = 0 closes. Up to
+  sign exactly four lines close, all of order 5, the smallest order splitting all three sectors. That exit needs the
+  vacuum's thread to be m003, which GENESIS SE1 sets aside. The owner chose to wait for main's two-weaves reading
+  before ruling on terms between threads. 0 of 19.
 
 ## Questions open with main
 
@@ -681,4 +685,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W90 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§124).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§125).

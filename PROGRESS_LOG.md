@@ -19302,3 +19302,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   imperfection. That is exactly what the seat's last test found the data need.
 - **Whether the principle allows such a coupling** is a ruling no seat can make alone. Main's reading is still to
   come. 0 of 19.
+
+## 2026-10-15 — waiting for main; a striking five
+
+- **The owner chose to wait** for main's own answer to the two-weaves question before deciding which coupling between
+  threads the principle allows.
+- **Meanwhile the seat checked a calculation from the web seat.** The record's simplest thread allows no non-trivial
+  hypercharge line on its own. Its sign-flipped partner allows exactly four, all of order five. Five is the smallest
+  order that separates the up quarks, the down quarks and the leptons. But the record set that partner aside, so
+  using it needs a ruling. 0 of 19.

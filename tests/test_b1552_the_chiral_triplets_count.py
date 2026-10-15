@@ -2352,6 +2352,24 @@ def test_w90_one_higgs_three_sectors():
                  for k in w89 if k.endswith("|up") for o in ("down", "leptons") for u in "1ijk")
     assert spread < 1e-12 and "**Post hoc, after W90: W89's stored norms read across the sectors" in note
 
+def test_chat1_closing_lines_on_the_root():
+    """chat1's closing lines (5d9ccd04c), checked exactly: on LR only w = 0 closes; up to sign exactly four lines,
+    all of order 5 (a thread result)"""
+    from fractions import Fraction
+    from itertools import product
+
+    g = [[1, 1], [1, 2]]
+    for sign, count, orders in ((1, 1, [1]), (-1, 5, [1, 5, 5, 5, 5])):
+        m = [[g[0][0] - sign, g[0][1]], [g[1][0], g[1][1] - sign]]
+        d = m[0][0] * m[1][1] - m[0][1] * m[1][0]
+        inv = [[Fraction(m[1][1], d), Fraction(-m[0][1], d)], [Fraction(-m[1][0], d), Fraction(m[0][0], d)]]
+        sols = {tuple((inv[i][0] * a + inv[i][1] * b) % 1 for i in range(2))
+                for a, b in product(range(-6, 7), repeat=2)}
+        assert abs(d) == count and len(sols) == count
+        assert sorted(max(x.denominator for x in w) for w in sols) == orders
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "**chat1's closing lines, checked here" in note and "a THREAD result" in note
+
 
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with

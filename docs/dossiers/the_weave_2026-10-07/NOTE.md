@@ -7737,6 +7737,19 @@ this reading asks which lines can split which sectors. Nothing here is computed 
 `tests/test_b1552_the_chiral_triplets_count.py` locks the table of item 4. W73 per sector is parked until an order N
 is chosen, by main's twisted-channels arc or by the owner. 0 of 19.
 
+**chat1's closing lines, checked here (dated 2026-10-15; a THREAD result; relay §125).** chat1 (5d9ccd04c) asked
+which flat lines close around the record's root thread, LR = [[1, 1], [1, 2]]. This seat checked the arithmetic
+exactly.
+- A line w closes when LR·w ≡ w modulo the lattice. Since |det(LR − I)| = 1, only w = 0 closes. So on the root
+  alone every sector has the same line and V = 1, which W88 refutes.
+- Up to sign, LR·w ≡ −w. Since |det(LR + I)| = 5, exactly four non-zero lines close, and all four have order 5.
+- Order 5 is the smallest that splits all three sectors (item 4 above). It is one of W88's surviving orders.
+- Closing up to sign means the thread −LR, m003, which GENESIS SE1 sets aside in favour of +LR (GENESIS GM5d
+  excludes the minus states). So the order-5 line is forced only if the vacuum's thread is m003, a ruling for the
+  owner and main.
+- This is one thread and its line, so under THE WEAVE it is a thread result. It is not an answer to which N the weave
+  forces.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
