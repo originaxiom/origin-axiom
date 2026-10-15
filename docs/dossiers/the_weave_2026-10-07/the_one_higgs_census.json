@@ -1,0 +1,523 @@
+{
+ "status": "W90: one Higgs, three sectors (script committed before its one run)",
+ "data": "HZ2021 at M_Z (received/HZ2021_running_masses_MZ.json)",
+ "grid": "2e6 + 1 log-spaced points, 1e-8 to 1",
+ "sector sets": {
+  "k=0|up|parallel": {
+   "x2 band": [
+    0.0036847735647212647,
+    0.0036847735647212647
+   ],
+   "x1 band": [
+    7.310115297753477e-06,
+    7.310115297753477e-06
+   ],
+   "A": [
+    [
+     0.0017710711147705944,
+     0.0023625662737245686
+    ],
+    [
+     0.012376561379855948,
+     0.016510035230582542
+    ]
+   ]
+  },
+  "k=0|up|conjugate": {
+   "x2 band": [
+    0.0036847735647212647,
+    0.0036847735647212647
+   ],
+   "x1 band": [
+    7.310115297753477e-06,
+    7.310115297753477e-06
+   ],
+   "A": [
+    [
+     7.3101114792133485e-06,
+     7.310178808138284e-06
+    ],
+    [
+     0.0036847497664525978,
+     0.0036847837044084192
+    ]
+   ]
+  },
+  "k=0|down|parallel": {
+   "x2 band": [
+    0.018724903134906656,
+    0.018724903134906656
+   ],
+   "x1 band": [
+    0.0009404719971821064,
+    0.0009404719971821064
+   ],
+   "A": [
+    [
+     0.03441406700881492,
+     0.10931304699297875
+    ]
+   ]
+  },
+  "k=0|down|conjugate": {
+   "x2 band": [
+    0.018724903134906656,
+    0.018724903134906656
+   ],
+   "x1 band": [
+    0.0009404719971821064,
+    0.0009404719971821064
+   ],
+   "A": [
+    [
+     0.0009404679501891714,
+     0.0009404766122589911
+    ],
+    [
+     0.018724748792399746,
+     0.018724921254503705
+    ]
+   ]
+  },
+  "k=0|leptons|parallel": {
+   "x2 band": [
+    0.05887328180682186,
+    0.05887328180682186
+   ],
+   "x1 band": [
+    0.00027946383116582587,
+    0.00027946383116582587
+   ],
+   "A": [
+    [
+     0.004654874752218133,
+     0.004846586854182336
+    ],
+    [
+     0.23064710082066706,
+     0.24014635544383578
+    ]
+   ]
+  },
+  "k=0|leptons|conjugate": {
+   "x2 band": [
+    0.05887328180682186,
+    0.05887328180682186
+   ],
+   "x1 band": [
+    0.00027946383116582587,
+    0.00027946383116582587
+   ],
+   "A": [
+    [
+     0.00027946279611783595,
+     0.00027946537007716277
+    ],
+    [
+     0.05887297739089297,
+     0.05887351963355064
+    ]
+   ]
+  },
+  "k=2|up|parallel": {
+   "x2 band": [
+    0.0034519321394910463,
+    0.003921803789877669
+   ],
+   "x1 band": [
+    4.771442035815268e-06,
+    9.894459102902375e-06
+   ],
+   "A": [
+    [
+     0.0011345927392520366,
+     0.004060354944446454
+    ],
+    [
+     0.009747382305165905,
+     0.017898308935809362
+    ]
+   ]
+  },
+  "k=2|up|conjugate": {
+   "x2 band": [
+    0.0034519321394910463,
+    0.003921803789877669
+   ],
+   "x1 band": [
+    4.771442035815268e-06,
+    9.894459102902375e-06
+   ],
+   "A": [
+    [
+     4.77142388237091e-06,
+     9.8945489187177e-06
+    ],
+    [
+     0.0034519142599960632,
+     0.003921823097852552
+    ]
+   ]
+  },
+  "k=2|down|parallel": {
+   "x2 band": [
+    0.01519889311656866,
+    0.02238249013275924
+   ],
+   "x1 band": [
+    0.0007921134555517122,
+    0.0010943667025475423
+   ],
+   "A": [
+    [
+     0.027154136699557217,
+     0.12464762270492077
+    ]
+   ]
+  },
+  "k=2|down|conjugate": {
+   "x2 band": [
+    0.01519889311656866,
+    0.02238249013275924
+   ],
+   "x1 band": [
+    0.0007921134555517122,
+    0.0010943667025475423
+   ],
+   "A": [
+    [
+     0.0007921072713049671,
+     0.001094369548410823
+    ],
+    [
+     0.015198754498110466,
+     0.022382675580827762
+    ]
+   ]
+  },
+  "k=2|leptons|parallel": {
+   "x2 band": [
+    0.05882761173313593,
+    0.058918981481481475
+   ],
+   "x1 band": [
+    0.0002788528268714722,
+    0.00028007523148148146
+   ],
+   "A": [
+    [
+     0.004641432084011853,
+     0.004861340039138777
+    ],
+    [
+     0.23044962194685067,
+     0.24033664815014677
+    ]
+   ]
+  },
+  "k=2|leptons|conjugate": {
+   "x2 band": [
+    0.05882761173313593,
+    0.058918981481481475
+   ],
+   "x1 band": [
+    0.0002788528268714722,
+    0.00028007523148148146
+   ],
+   "A": [
+    [
+     0.00027885086755653397,
+     0.0002800760675351506
+    ],
+    [
+     0.05882744683246509,
+     0.05891908585084993
+    ]
+   ]
+  },
+  "k=3|up|parallel": {
+   "x2 band": [
+    0.0033370476804879478,
+    0.0040419251852298055
+   ],
+   "x1 band": [
+    3.5188551991085567e-06,
+    1.1204144328654901e-05
+   ],
+   "A": [
+    [
+     0.0008281709641949164,
+     0.018579755730856098
+    ]
+   ]
+  },
+  "k=3|up|conjugate": {
+   "x2 band": [
+    0.0033370476804879478,
+    0.0040419251852298055
+   ],
+   "x1 band": [
+    3.5188551991085567e-06,
+    1.1204144328654901e-05
+   ],
+   "A": [
+    [
+     3.5188438882095844e-06,
+     1.1204178004832128e-05
+    ],
+    [
+     0.003337029147154211,
+     0.004041959894456445
+    ]
+   ]
+  },
+  "k=3|down|parallel": {
+   "x2 band": [
+    0.013483030510798766,
+    0.02426294820717131
+   ],
+   "x1 band": [
+    0.0007199177236887214,
+    0.0011734878667149582
+   ],
+   "A": [
+    [
+     0.02382363353709254,
+     0.1324817328458804
+    ]
+   ]
+  },
+  "k=3|down|conjugate": {
+   "x2 band": [
+    0.013483030510798766,
+    0.02426294820717131
+   ],
+   "x1 band": [
+    0.0007199177236887214,
+    0.0011734878667149582
+   ],
+   "A": [
+    [
+     0.0007199129734598268,
+     0.001173491639959784
+    ],
+    [
+     0.013482921314132569,
+     0.024262972165859098
+    ]
+   ]
+  },
+  "k=3|leptons|parallel": {
+   "x2 band": [
+    0.05880478778767202,
+    0.05894184242817122
+   ],
+   "x1 band": [
+    0.000278547473112062,
+    0.0002803810802676359
+   ],
+   "A": [
+    [
+     0.004634725314672106,
+     0.004868733464042558
+    ],
+    [
+     0.23035200673189674,
+     0.24043185104153253
+    ]
+   ]
+  },
+  "k=3|leptons|conjugate": {
+   "x2 band": [
+    0.05880478778767202,
+    0.05894184242817122
+   ],
+   "x1 band": [
+    0.000278547473112062,
+    0.0002803810802676359
+   ],
+   "A": [
+    [
+     0.00027854540592776156,
+     0.0002803832077354511
+    ],
+    [
+     0.05880469475943121,
+     0.058941882182840966
+    ]
+   ]
+  }
+ },
+ "parallel sets, k = 0, closed form": {
+  "up": [
+   [
+    0.0017710593101810763,
+    0.002362575619431641
+   ],
+   [
+    0.012376518639453417,
+    0.016510153569066134
+   ]
+  ],
+  "down": [
+   [
+    0.03441378658759241,
+    0.10931339912721903
+   ]
+  ],
+  "leptons": [
+   [
+    0.004654860264860047,
+    0.004846617120483052
+   ],
+   [
+    0.23064651010680437,
+    0.2401479874921475
+   ]
+  ]
+ },
+ "H1": {
+  "grid agrees with the closed form": true,
+  "relative grid step": 9.210382786450921e-06,
+  "holds": true
+ },
+ "census": {
+  "k=0|three|parallel,parallel,parallel": [],
+  "k=0|three|parallel,parallel,conjugate": [],
+  "k=0|three|parallel,conjugate,parallel": [],
+  "k=0|three|parallel,conjugate,conjugate": [],
+  "k=0|three|conjugate,parallel,parallel": [],
+  "k=0|three|conjugate,parallel,conjugate": [],
+  "k=0|three|conjugate,conjugate,parallel": [],
+  "k=0|three|conjugate,conjugate,conjugate": [],
+  "k=0|up+down|parallel,parallel": [],
+  "k=0|up+down|parallel,conjugate": [],
+  "k=0|up+down|conjugate,parallel": [],
+  "k=0|up+down|conjugate,conjugate": [],
+  "k=0|up+leptons|parallel,parallel": [],
+  "k=0|up+leptons|parallel,conjugate": [],
+  "k=0|up+leptons|conjugate,parallel": [],
+  "k=0|up+leptons|conjugate,conjugate": [],
+  "k=0|down+leptons|parallel,parallel": [],
+  "k=0|down+leptons|parallel,conjugate": [
+   [
+    0.05887297739089297,
+    0.05887351963355064
+   ]
+  ],
+  "k=0|down+leptons|conjugate,parallel": [],
+  "k=0|down+leptons|conjugate,conjugate": [],
+  "k=2|three|parallel,parallel,parallel": [],
+  "k=2|three|parallel,parallel,conjugate": [],
+  "k=2|three|parallel,conjugate,parallel": [],
+  "k=2|three|parallel,conjugate,conjugate": [],
+  "k=2|three|conjugate,parallel,parallel": [],
+  "k=2|three|conjugate,parallel,conjugate": [],
+  "k=2|three|conjugate,conjugate,parallel": [],
+  "k=2|three|conjugate,conjugate,conjugate": [],
+  "k=2|up+down|parallel,parallel": [],
+  "k=2|up+down|parallel,conjugate": [
+   [
+    0.015198754498110466,
+    0.017898308935809362
+   ]
+  ],
+  "k=2|up+down|conjugate,parallel": [],
+  "k=2|up+down|conjugate,conjugate": [],
+  "k=2|up+leptons|parallel,parallel": [],
+  "k=2|up+leptons|parallel,conjugate": [],
+  "k=2|up+leptons|conjugate,parallel": [],
+  "k=2|up+leptons|conjugate,conjugate": [],
+  "k=2|down+leptons|parallel,parallel": [],
+  "k=2|down+leptons|parallel,conjugate": [
+   [
+    0.05882744683246509,
+    0.05891908585084993
+   ]
+  ],
+  "k=2|down+leptons|conjugate,parallel": [],
+  "k=2|down+leptons|conjugate,conjugate": [],
+  "k=3|three|parallel,parallel,parallel": [],
+  "k=3|three|parallel,parallel,conjugate": [],
+  "k=3|three|parallel,conjugate,parallel": [],
+  "k=3|three|parallel,conjugate,conjugate": [],
+  "k=3|three|conjugate,parallel,parallel": [],
+  "k=3|three|conjugate,parallel,conjugate": [],
+  "k=3|three|conjugate,conjugate,parallel": [],
+  "k=3|three|conjugate,conjugate,conjugate": [],
+  "k=3|up+down|parallel,parallel": [],
+  "k=3|up+down|parallel,conjugate": [
+   [
+    0.0008281709641949164,
+    0.001173491639959784
+   ],
+   [
+    0.013482921314132569,
+    0.018579755730856098
+   ]
+  ],
+  "k=3|up+down|conjugate,parallel": [],
+  "k=3|up+down|conjugate,conjugate": [],
+  "k=3|up+leptons|parallel,parallel": [
+   [
+    0.004634725314672106,
+    0.004868733464042558
+   ]
+  ],
+  "k=3|up+leptons|parallel,conjugate": [],
+  "k=3|up+leptons|conjugate,parallel": [],
+  "k=3|up+leptons|conjugate,conjugate": [],
+  "k=3|down+leptons|parallel,parallel": [],
+  "k=3|down+leptons|parallel,conjugate": [
+   [
+    0.05880469475943121,
+    0.058941882182840966
+   ]
+  ],
+  "k=3|down+leptons|conjugate,parallel": [],
+  "k=3|down+leptons|conjugate,conjugate": []
+ },
+ "H2": {
+  "surviving at k=2": [],
+  "holds": true
+ },
+ "H3": {
+  "surviving at k=2": [],
+  "holds": true
+ },
+ "H4": {
+  "surviving at k=2": [
+   "parallel,conjugate"
+  ],
+  "m_mu/m_tau": 0.05887328180682186,
+  "contained": true,
+  "holds": true
+ },
+ "H5": {
+  "surviving at k=2": [
+   "parallel,conjugate"
+  ],
+  "holds": true
+ },
+ "k=3 verdict": {
+  "three sectors surviving": [],
+  "pairs surviving": {
+   "up+down": [
+    "parallel,conjugate"
+   ],
+   "up+leptons": [
+    "parallel,parallel"
+   ],
+   "down+leptons": [
+    "parallel,conjugate"
+   ]
+  }
+ },
+ "cells": {
+  "H1": true,
+  "H2": true,
+  "H3": true,
+  "H4": true,
+  "H5": true
+ }
+}
