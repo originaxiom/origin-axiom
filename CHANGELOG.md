@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-16 actual source chiral map and conditional operator transport
+
+58/58 exact in each producer at published repair6e9c6b3d0;52pins/tree/
+index unchanged. Actual graded six-direction CHIRAL map and Hermitian/C
+completion H_w=T H_2 T verified, preserving both paired boundary currents,
+conditional fixed-fibre domains and the actual local BPS zero. NOT equal
+nonzero masses or kinetic norms. Full PRINTED conjugate join remains
+unearned in8declared dictionaries, explicit scalar witness retained;
+not a paper/programme kill. Initial instrument-control error preserved,
+repair published before rerun. NEXT actual conjugation/weighted bosonic
+Hessian, full nonlinear boundary law and same global stationary charged
+theory. Full physical SM/three/gravity remains ACTIVE. See physical-bridge
+surface_source_operator_2026_10_16/FINDINGS.md. Live validation follows.
+
 ## 2026-10-16 canonical normal variational/fermion join
 
 Validation:6new live tests PASS27.26s,41pins/tree/index unchanged.

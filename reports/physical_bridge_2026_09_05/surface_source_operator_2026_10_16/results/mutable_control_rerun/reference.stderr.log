@@ -1,0 +1,58 @@
+PASS actual frame supplied
+PASS actual normalized full MW Nambu frame
+PASS actual induced Nambu time and reality
+PASS canonical quadratic action antisymmetric
+PASS canonical action equals its actual real completion
+PASS graded signed time is canonical positive contour
+PASS ordinary naive contour has a real signed mismatch
+PASS graded one form fermion product reverses ordinary sign
+PASS Grassmann overlap vanishes
+PASS graded internal differential has its induced sign
+PASS phase solver recovers planted all direction map
+PASS phase solver rejects magnitude changing planted defect
+PASS actual source contains no floating coefficients (0, -1, 1)
+PASS actual source six quadratic coefficients antisymmetric (0, -1, 1)
+PASS actual no map has exact witness (0, -1, 1)
+PASS actual source contains no floating coefficients (0, -1, I)
+PASS actual source six quadratic coefficients antisymmetric (0, -1, I)
+PASS actual no map has exact witness (0, -1, I)
+PASS actual source contains no floating coefficients (0, 1, 1)
+PASS actual source six quadratic coefficients antisymmetric (0, 1, 1)
+PASS actual phases unitary and preserve time (0, 1, 1)
+PASS actual completed congruence all six (0, 1, 1)
+PASS actual source contains no floating coefficients (0, 1, I)
+PASS actual source six quadratic coefficients antisymmetric (0, 1, I)
+PASS actual phases unitary and preserve time (0, 1, I)
+PASS actual completed congruence all six (0, 1, I)
+PASS actual source contains no floating coefficients (1, -1, 1)
+PASS actual source six quadratic coefficients antisymmetric (1, -1, 1)
+PASS actual no map has exact witness (1, -1, 1)
+PASS actual source contains no floating coefficients (1, -1, I)
+PASS actual source six quadratic coefficients antisymmetric (1, -1, I)
+PASS actual no map has exact witness (1, -1, I)
+PASS actual source contains no floating coefficients (1, 1, 1)
+PASS actual source six quadratic coefficients antisymmetric (1, 1, 1)
+PASS actual phases unitary and preserve time (1, 1, 1)
+PASS actual completed congruence all six (1, 1, 1)
+PASS actual completed Hermiticity (1, 1, 1)
+PASS actual completed full real Hamiltonian (1, 1, 1)
+PASS actual noncommuting simultaneous coefficient control (1, 1, 1)
+PASS actual source contains no floating coefficients (1, 1, I)
+PASS actual source six quadratic coefficients antisymmetric (1, 1, I)
+PASS actual phases unitary and preserve time (1, 1, I)
+PASS actual completed congruence all six (1, 1, I)
+PASS actual completed Hermiticity (1, 1, I)
+PASS actual completed full real Hamiltonian (1, 1, I)
+PASS actual noncommuting simultaneous coefficient control (1, 1, I)
+PASS actual eta full conjugate projector rank4
+PASS actual T Weyl and full reality
+PASS actual T paired plane preserved -1
+PASS actual transported Green current -1
+PASS actual T paired plane preserved 1
+PASS actual transported Green current 1
+PASS actual epsilon minus T is common scalar
+PASS all active BPS tangents have same T scalar
+PASS actual U2 degree and R transition commute
+PASS printed w1 T not a kinetic isometry
+PASS canonical w2 T identity
+PASS finite positive congruence preserves kernel not masses

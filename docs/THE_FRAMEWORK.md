@@ -1,5 +1,18 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October16 source-component join:58/58 exact in each complete producer at
+published repair6e9c6b3d0;52pins/tree/index unchanged. Actual graded chiral
+six-direction map and positive Hermitian-completion congruence H_w=T H_2 T
+verified, including full C/U2/gauge and BOTH paired current/domain laws.
+This preserves local BPS zeros, NOT nonzero masses or time-kinetic norms.
+Full PRINTED conjugate join is unearned in all8declared dictionaries;
+exact barpsi_H/barpsi_V scalar witness retained, not a paper-wide kill.
+Immutable-control instrument failure preserved/repaired before rerun.
+NEXT resolve actual conjugation, weighted bosonic Hessian, full nonlinear
+boson/fermion/gauge/auxiliary/SUSY end and GLOBAL stationary charged theory.
+SM/three/gravity remains ACTIVE. See surface_source_operator_2026_10_16/
+FINDINGS.md; live regression/governance to follow, not already certified.
+
 October16 normal variational join:82/82 exact at published repair
 b051f241e,41pins/tree/index unchanged. Actual local BPS amplitude tangent
 maps to the interacting epsilon-minus graph; complete nonabelian normal

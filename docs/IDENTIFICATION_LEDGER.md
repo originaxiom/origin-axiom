@@ -663,3 +663,16 @@ reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16.
 | Root2x2 puncture matrix and full E8 puncture | Restriction acts correctly on the faithful actual odd root; whole group elements NOT IDENTIFIED | Finite gauge covariance follows on the root subgroup, not by equating global holonomies |
 | Local BPS amplitude and four-dimensional particle | NOT IDENTIFIED; outer/global matching and kinetic spectrum not computed | The tangent has finite positive LOCAL norm only; gauge-orbit direction is not extra matter |
 | Positive operator congruence and physical spectral equivalence | NOT IDENTIFIED; preserved follow-up is unverified and would change norms/masses | Full source/time metric/C/graph/current map must be computed first |
+
+## October16 source-component continuation, path-local scope
+
+The preceding positive-congruence follow-up now has a CONDITIONAL
+computed realization in surface_source_operator_2026_10_16. No shared
+I-status is promoted; the complete printed-action identification stays open.
+
+| Sides | Exhibited map or unresolved distinction | Scope |
+|---|---|---|
+| Source chiral block and canonical MW chiral block | Actual phases(1,-i,-i,1) and all6 coefficient matrices at w2 | Declared graded/compact reading, not matching magnitudes alone |
+| Hermitian-completed internal operator and canonical internal operator | Positive T congruence with actual C/U2/gauge/paired-current compatibility; graph T^-1 D | Not an equality of complete actions, norms or nonzero masses |
+| Printed conjugate source and physical Hermitian completion | NOT IDENTIFIED; explicit barpsi_H/barpsi_V scalar witness retained | Other source adjoint/real conventions not excluded; no paper-wide no-go |
+| Completed local zero mode and a four-dimensional physical particle | NOT IDENTIFIED; global stationary fields/ends and spectrum not supplied | Full derived SM/three/gravity and foundation selection unachieved |

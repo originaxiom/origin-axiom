@@ -19715,3 +19715,39 @@ science path named. Full raw receipts/logs and VALIDATION retained.
 Final summary/progress/relay refinements are post-check metadata, not
 back-certified by those captures;41pinned scientific sources unchanged.
 Physical SM/three/gravity and the full boundary/global model stay ACTIVE.
+
+## October16 actual source components and conditional real-operator congruence
+
+Published pre-rerun6e9c6b3d0c519b8606c579544d6530210340fb2d, then
+native58/58 PASS148.540802s and reference58/58 PASS109.198624s. Complete
+302454-byte records identical SHA
+2f9228aad0db20260e1e1e1e06b3401d659d8da46de7a0df2a54da4ddeaf8d00.
+52pins/13,128tracked contents/index unchanged. Shared source interpretation
+and author, not independent convention review. Initial immutable-matrix
+instrument control failure preserved privately/publicly with both hashes;
+mutable-copy repair published before rerun, same failure control retained.
+
+Actual graded source CHIRAL map(1,-i,-i,1) at w2, all6directions and signed
+time metric verified. Block-diagonal Hermitian/C completion obeys
+H_w=T H_2 T for all w=2t^2>0 with ACTUAL eta/conjugate rank4 projector.
+T preserves C/U2/gauge, both paired planes/current laws and the previous
+actual BPS tangent. Conditional authored fixed-fibre graph/selfadjoint/
+compact-embedding transport, not a new global index. T does NOT preserve
+time metric, nonzero masses or norms.
+
+Full PRINTED conjugate source join remains unearned in all8declared
+component dictionaries; graded compact first witness scalar8(30,40),
+barpsi_H/barpsi_V residual-2. No silent sign flip, paper erratum or universal
+physical kill. Two separate UNVERIFIED follow-ups preserve weighted bosonic
+Hessian and superspace/conjugation work. Seven scoped LAW rows, open leads
+and identification supplement; no I-status promotion. Identification
+audit24rows/9UNEARNED at baseline9; five planted controls pass with known
+bare-assertion blind spot explicit.
+
+All11heads fetched; main7d31adb07 B1659 and latest web15f639ca7 readings
+personally read, not imported as physical modes. Sender relay supplies
+new locators beyond main's stale intake stamp. NEXT actual source/weighted
+boson join, full nonlinear boundary law and GLOBAL stationary fields/end,
+then SAME-model charged spectrum/norms/vertices/anomalies. SM/three/gravity
+ultimate goal remains ACTIVE. Selected LIVE regression/governance follow;
+not claimed already green.

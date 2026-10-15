@@ -1,0 +1,32 @@
+UNVERIFIED source/conjugation follow-up; not a computed result or an
+assertion of a paper error. Do not change the running component seal.
+
+If the chiral block maps but a literal printed conjugate reading does
+not, reconstruct the actual physical conjugate from N=1 superspace
+and a positive time metric instead of silently flipping a printed sign.
+BHV itself gives W=-int d2theta Tr(F0,2 Phi), HTMLC40/PDFC19, and its
+AppendixC explains the manifest-gauge versus manifest-superfield choice.
+The actual vector/connection D terms and full reality must be derived.
+
+BHV's bibliography identifies independent primary routes:
+Marcus--Sagnotti--Siegel, Nucl.Phys.B224(1983)159--179;
+Arkani-Hamed--Gregoire--Wacker, hep-th/0101233;
+Dijkgraaf--Vafa, hep-th/0302011.
+The bibliography was checked in this continuation, NOT those papers'
+full derivations. Read them personally before using their results.
+Recover R70/R71's existing superspace work first; they concerned a
+DIFFERENT seven-dimensional one-form/CS parent. No automatic transfer.
+
+A possible starting construction is a ten-dimensional N=1 gauge parent
+in four-dimensional superfields, followed by actual reduction/twist
+of one complex internal direction to Phi. Every coefficient, scalar
+real contour, Grassmann/form adjoint and gauge/supergauge transformation
+must be checked. This is a proposed strategy, not a theorem already
+contained in the current source-component computation.
+
+The physical Hermitian completion of a chiral block is NOT by itself
+proof that a literal antichiral formula was interpreted correctly.
+Do not call such a mismatch a paper-wide or programme-wide no-go.
+Nonlinear supersymmetric boundary/end response, global stationary
+fields, the actual charged spectrum and generated SM/three/gravity
+remain distinct obligations.

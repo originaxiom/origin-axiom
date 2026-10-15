@@ -118,7 +118,15 @@ not silently certified as the complete printed BHV action. Earlier
 verified operator/reality and local BPS-equation results survive; they
 do not acquire full physical-action admission from naming the source.
 
-An expressly UNVERIFIED positive-congruence follow-up is preserved in
+October16 continuation: the positive-congruence hatch is now computed
+for the actual chiral block's Hermitian/C completion in the adjacent
+surface_source_operator_2026_10_16/FINDINGS.md (58/58 each, published
+pre-rerun6e9c6b3d0). Both real paired currents/conditional fixed-fibre
+domains and the actual local tangent transport; full printed conjugate
+identification is NOT earned. This does not change the preceding82checks
+or promote congruence to equal nonzero masses/time norms.
+
+The original expressly UNVERIFIED positive-congruence follow-up is preserved in
 followup_hypotheses: different kinetic-normalized speeds may still have
 an explicit zero-kernel/domain map, WITHOUT equal physical spectra.
 It needs full source components/signs/conjugates and a fresh seal.

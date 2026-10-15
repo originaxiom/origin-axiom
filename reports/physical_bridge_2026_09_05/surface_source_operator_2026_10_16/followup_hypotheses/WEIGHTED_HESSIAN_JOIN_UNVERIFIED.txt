@@ -1,0 +1,29 @@
+UNVERIFIED next-stage hand hypothesis, not computed or a physical result.
+Do not change the currently running source-component seal to fit this.
+
+If the actual chiral source block has the proposed positive congruence,
+its physical Hermitian completion H_t=T Hcan T may connect to the
+ACTUAL source's WEIGHTED bosonic Hessian, not only to zero kernels.
+The normal source potential has weights(1,w^2/4,w^2/4), w=2t^2.
+
+The actual twist-neutral parameter Pi may equal the eta projector.
+q(a)=G0 sum Ga a_a Pi lies entirely in epsilon-minus, where T=t I.
+Hcan q=i[-L+G67 C1+G68 C2+G69 C3]Pi. The L/C1 outputs should remain
+eta, where T=1/t, while C2/C3 outputs should be psi_H/conjugate, where
+T=t. If earned with actual matrices, then
+H_t q=i[-L+G67 C1+t^2 G68 C2+t^2 G69 C3]Pi.
+
+Check every coefficient and REAL norm polarization of all four output
+matrices, not a sampled direction. Their squared norm may be exactly
+L^2+C1^2+t^4(C2^2+C3^2), the gauge-fixed weighted bosonic Hessian.
+That could establish an actual local quadratic boson/fermion Ward
+identity in the completed physical model with the same time metric,
+not just matching shapes or a zero-mode construction. Need real compact
+E8 bracket covariance and complete coefficient variations as before.
+
+This would STILL NOT identify an unresolved literal printed anti-chiral
+source dictionary with that Hermitian completion, nor prove nonlinear
+SUSY/end closure, global stationary fields or a physical SM spectrum.
+Source conjugate conventions must be resolved rather than overwritten.
+Do not import a sigma-minus scalar/moment solution into sigma-plus.
+No old condensate gap, chiral families or observed parameters follow.

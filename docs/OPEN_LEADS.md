@@ -6574,3 +6574,31 @@ metric/stationary cusp equations and same-model charged spectrum remain.
 The previously recorded full55/F4 gauge-compensator hatch is supporting
 work, not a new discovery or a supplied SM phase. No old gap transfer,
 physical SM/three/gravity or foundation-selected action is claimed.
+
+## October16 actual chiral source map and conjugate gate
+
+PB-SURFACE-SOURCE-ACTION-MAP: PARTIAL POSITIVE, not closed. New source
+packet58/58 exact at6e9c6b3d0,52pins/tree/index unchanged: actual chiral
+six-direction map and Hermitian-completion congruence computed. Standard
+authored positive-congruence proof transports the credited selfadjoint
+fixed-fibre interacting graph and both paired current planes. Norms/
+nonzero masses are NOT identified. No global/physical index follows.
+
+PB-SURFACE-SOURCE-CONJUGATE: OPEN WITH EXACT WITNESS. Entire printed
+anti-chiral map not earned in8declared component readings; graded
+compact case's first scalar8 residual(30,40)=-2 is barpsi_H/barpsi_V.
+This is not a paper erratum or all-convention/programme no-go. Recover
+actual adjoint/Weyl/superform conventions or real superspace derivation.
+
+PB-SURFACE-WEIGHTED-HESSIAN: UNVERIFIED next test. Hypothesis in the
+new packet: actual T may weight BPS output norms as(1,1,t^4,t^4),
+matching the source's bosonic potential plus gauge fixing. Needs new
+pre-run proof/source/all-field controls; not part of the58checks.
+Superspace reconstruction note is a READING PLAN, not a used theorem;
+BHV references40--42 located, not fully read in this continuation.
+
+Full nonlinear boundary/gauge/auxiliary/SUSY closure, actual global
+stationary fields/end and total charged physical spectrum/norms/vertices/
+anomalies remain. E8/action/geometry selection and observed SM/three/
+gravity remain the ultimate duty. Older full55/cover/stability and both
+epsilon/sourced-boundary hatches are retained, not re-killed or spliced.
