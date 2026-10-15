@@ -613,3 +613,89 @@ Files: `chat1_2026-10-15_route/twisted_units/w91_crosscheck.py` and its run. It 
   (§§129–130, P-108).
 
 chat1, 2026-10-15. 0 of 19.
+
+## Addendum, 19:41: the per-field reading on the excluded-order towers. A frozen prediction failed in part; the law was refined post hoc and held out of sample (exploration, unsealed; excluded orders only; no N = 9, 11 or 12 quantity; refereed before it left)
+
+Read first:
+- main's S133 (`51857fbd0`): the per-field reading is main's construction at the fibre level;
+- the SM seat's §133: the owner's rulings, as that seat reports them. Both readings are sealed by chat1 before any
+  comparison. P-163 runs first, and chat1's term between threads is sealed alongside it and run after;
+- §134: W92 delivered;
+- §136: W94's ask.
+
+Files: `chat1_2026-10-15_route/twisted_units/exploration_per_field/`.
+
+**1. The instrument.** `units_cells.py` gains `PerFieldFactoredSource`.
+- **How it works.** Each unit and Higgs mode of a field of charge q is dressed component by component at each point,
+  U_c·D_c, with W92's z-form D_c. R is neutral, and THETA2 does not apply.
+- **Checks:**
+  - **against W92's dressed series:** 80 unit evaluations at N = 3, 5 and 7 agree to 2.5 × 10⁻⁴⁷;
+  - **closure on L·R³ at N = 3, where c is a unit:** the leptons close and the up and down quarks do not, in both
+    readings. The sums are 36, 8 and −4 per-field, and 45, 17 and 5 minimal.
+  - At N = 3, q_H² ≡ 0, so this checks the matter legs only. The −q_H² sign rests on W92's V3 (post hoc, §134).
+
+**2. A prediction, frozen before its run.**
+- **The run:** `pf_towers.py`, sha256 `16318576…`, hashed before its run but not committed. It covered the towers
+  L·R^(9, 18, 27) at N = 3, L·R^(25, 50) at N = 5 and L·R⁴⁹ at N = 7, all on line (0, 1).
+- **The prediction:** each unit's growth taken from its leading line alone. That gives:
+  - m₂/m₃ with exponent 1 in every sector;
+  - m₁/m₃ with exponent 3/2 + a_L + a_R, where a = ‖q·lb/N‖.
+- **The result, N = 5, C1 slopes per 2π·Δy:**
+  - **Up quarks:** −0.954 and −1.903, against −1 and −1.9. This holds.
+  - **Down quarks:** −0.828 and −1.946, against −1 and −2.1. **This fails.**
+
+**3. The law, refined post hoc** (`cusp_law.py`, written after seeing that run).
+- **The refinement.** A dressed unit's growth exponent is the largest, over its three components, of −(p + shift),
+  floored at 0. Here:
+  - p is the undressed component exponent: F_i (−7/8, 7/8, 3/8), F₊ (1/8, −1/8, 3/8) and F₋ (1/8, 7/8, −5/8) on e_i,
+    v₊ and v₋;
+  - the shift is ‖α + ½‖² − ¼ on θ₂ and ‖α‖² on θ₄ and θ₃, with α = q·lb/N.
+- **Why it was needed.** The first prediction missed that a dressed sub-leading component, such as F₊'s θ₂ part, can
+  overtake the leading line.
+- **Post hoc it fits** N = 5, line (0, 1): up (1.00, 1.90), down (0.85, 1.95).
+
+**4. Out of sample, frozen before its run** (`pf_oos.py`, sha256 `89f41401…`). Line (0, 2) at N = 5 had not been run.
+
+| sector | predicted | observed C1 | observed in the E4 cells |
+|---|---|---|---|
+| up quarks | (0.70, 2.00) | (0.708, 1.991) | (0.707–0.732, 1.976–1.989) |
+| down quarks and leptons | (0.85, 1.95) | (0.852, 1.940) | (0.80–0.95, 1.97–2.00) |
+
+- **Only the up quarks' 0.70 is a new value.** On line (0, 2) the down quarks and leptons repeat line (0, 1)'s 0.85,
+  with left and right swapped.
+- **The ORTH cells were excluded from the prediction,** because the dressed f can grow there. They deviate: their
+  ln(s₃/s₁) slopes run 1.57–1.65.
+- **The instrument held throughout:** closure better than 10⁻³⁴ everywhere, and r_calc below 10⁻³⁹ in every twisted
+  sector.
+
+**5. What it means.**
+- **In the per-field reading the twist moves both exponents, sector by sector,** through each field's ‖q·lb/N‖. The
+  minimal reading moved neither (the 15:17 addendum).
+- **A bound from the law, in C1 and the E4 cells (not ORTH), wherever Y is generic:** m₂/m₃'s exponent is at least
+  ½ in every sector, on every line.
+  - On each side F₋'s growth is ⅝ − a² ≥ ⅜ and F₊'s at most ⅛, so their gap is at least ¼.
+  - On the least-volume closing threads, ln(m₂/m₃) ≲ −π·y plus the offsets measured here against the law (2–25). Those
+    threads sit at y ≥ 39.5 at N = 9 and 11, and at y ≥ 11.46 at N = 5. Every sector's observed m₂/m₃ is above e⁻⁶.
+  - **So on T-tower the six-ratio comparison fails in both readings,** by more than 40 orders of magnitude at N = 9 and
+    11 if the offsets stay this size (about 2 at N = 5).
+  - This is read at excluded orders from a law that does not depend on N. No N = 9, 11 or 12 quantity was computed.
+  - **N = 12 is not covered.** There y ≥ 4.9, and at even N the law's ties (‖α‖ = ½) and W92's zero (q = 6) can change
+    the exponents.
+  - The bound does not depend on the charges, so on T-tower the SM and every null assignment would score zero passes.
+- **Therefore chat1 will move the seal's primary claim from S-mass on T-tower to S-mass on T-low,** with this reason
+  stated in the seal.
+  - T-tower stays, as the law's predicted failure (a control) and as a read-out of S-shape.
+  - T-low needs the reduction. chat1 builds it next:
+    - **The units.** Each untwisted unit of weight k (3/2, −½ or 7/2) is carried as the ratio U_c/R_c, by R's own
+      monomial map. The ratio's weight k + ½ is an integer, so it carries J^(k+½) and no square-root branch arises.
+    - **R and the dressing D_c** are evaluated directly at the unreduced point by explicit theta sums, which converge at
+      y ≈ 1/|C|. jtheta is never used (§§134–135).
+    - **The Higgs modes' ratios** (weights 5/2 and 9/2) also carry ρ′'s character χ_i. It is evaluated on the reduction
+      word with γ's sign tracked, and checked by the Higgs's closure on THETA2's admitted threads.
+    - **Validation:** zero twist must reproduce THETA2's admitted threads.
+    - **If the transport fails its validation, the seal says so before the run. There is no fallback to T-tower.**
+- **W94's ask** (seal the down/lepton relation blind in chat1's frame) is taken as a read-out of the same seal, in both
+  readings. It is not the blind test W94 asked for: the thread frame has no prediction of W94's ratio, and the seal
+  will say so.
+
+chat1, 2026-10-15. 0 of 19.

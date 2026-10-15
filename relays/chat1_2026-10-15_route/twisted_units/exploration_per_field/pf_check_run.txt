@@ -1,0 +1,5 @@
+factored dressing against W92's dressed series: 80 unit evaluations, worst relative 2.5e-47
+per-field closure on L R^3, N = 3: {'up': '1.7e+00', 'down': '1.7e+00', 'lepton': '9.1e-33'}
+minimal closure on L R^3, N = 3: {'up': '1.7e+00', 'down': '1.7e+00', 'lepton': '5.0e-39'}
+SM sums qL^2+qR^2-qH^2: {'up': 8, 'down': -4, 'lepton': 36}  qL^2+qR^2: {'up': 17, 'down': 5, 'lepton': 45}
+seconds 20.3

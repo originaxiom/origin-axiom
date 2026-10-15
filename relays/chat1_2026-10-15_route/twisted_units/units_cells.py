@@ -99,6 +99,26 @@ class UntwistedSource:
         return [-2 * acb.pi() * x for x in quat3(tau, ub, de, d1)]
     def completion_beta(self, field, charge, line, N):
         return self.beta
+    def dress(self, tau, charge, line, N):
+        return None                                   # the minimal reading: no per-field dressing
+
+
+class PerFieldFactoredSource(UntwistedSource):
+    """The per-field reading (the SM seat's W92, in factored form): every unit and Higgs mode of a field of charge q is
+    dressed component by component, U^(q)_c(tau) = U_c(tau) D_c(tau), with
+    D_c = [e^{i pi (al^2 tau + 2 al be)} theta_s(be + al tau)]^2 / theta_s(0)^2, (al, be) = (q lb, q la)/N,
+    s = (2, 4, 3) on (i, j, k) (the z-form; W92's dressing_at); R is the neutral kernel; THETA2 does not apply."""
+    def dress(self, tau, charge, line, N):
+        if charge % N == 0 and charge == 0:
+            return None
+        la, lb = line
+        al, be = arb(charge * lb) / N, arb(charge * la) / N
+        return [(Tc(s, al, be, tau) / theta(s, acb(0), tau)) ** 2 for s in (2, 4, 3)]
+    def coupling(self, tau, qL, qR, line, N, d1):
+        z = (arb(0), arb(0))
+        return [-2 * acb.pi() * x for x in quat3(tau, z, z, d1)]
+    def completion_beta(self, field, charge, line, N):
+        return None
 
 
 # ------------------------------------------------------------------ one configuration: (thread L.R^n with sign, line, N)
@@ -115,7 +135,7 @@ def configuration(src, n, line, N, charges, Npts):
     for sec, (fl, fr, hh) in SECTORS.items():
         qL, qR = charges[fl], charges[fr]
         qH = charges["H"] if hh == "H" else -charges["H"]
-        need[sec] = {"qL": qL, "qR": qR,
+        need[sec] = {"qL": qL, "qR": qR, "qH": qH,
                      "L32": src.units(fl, "3/2", qL, line, N), "LM12": src.units(fl, "-1/2", qL, line, N),
                      "R32": src.units(fr, "3/2", qR, line, N), "R72": src.units(fr, "7/2", qR, line, N),
                      "h5": src.higgs("5/2", qH, line, N), "h9": src.higgs("9/2", qH, line, N),
@@ -135,7 +155,14 @@ def configuration(src, n, line, N, charges, Npts):
         for sec, nd in need.items():
             L32 = [ev(f, pw) for f in nd["L32"]]; LM = [ev(f, pw) for f in nd["LM12"]]
             R32 = [ev(f, pw) for f in nd["R32"]]; R72 = [ev(f, pw) for f in nd["R72"]]
-            h5c, h9c = conjv(ev(nd["h5"], pw)), conjv(ev(nd["h9"], pw))
+            h5v, h9v = ev(nd["h5"], pw), ev(nd["h9"], pw)
+            dr = getattr(src, "dress", lambda *a: None)
+            for vecs, q in ((L32, nd["qL"]), (LM, nd["qL"]), (R32, nd["qR"]), (R72, nd["qR"]), ([h5v, h9v], nd["qH"])):
+                D = dr(tau, q, line, N)
+                if D is not None:
+                    for X in vecs:
+                        for c in range(3): X[c] = X[c] * D[c]
+            h5c, h9c = conjv(h5v), conjv(h9v)
             v = src.coupling(tau, nd["qL"], nd["qR"], line, N, d1)
             vals = {
                 "KL32": [[dot(L32[i], conjv(L32[k])) * yp[1.5] for k in range(3)] for i in range(3)],
