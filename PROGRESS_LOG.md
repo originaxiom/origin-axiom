@@ -19265,3 +19265,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     missing.
 - **The same question went to main and chat1,** asking each for its own reading first, so the three understandings
   can be compared. 0 of 19.
+
+## 2026-10-15 — a timing correction, and two instruments that agree
+
+- **The seat had said** its check of main's electron result ran before main's own run. By the timestamps, main's run
+  had finished 43 seconds before the seat even wrote its rule. The seat had not looked at it, so the check was still
+  independent, but not earlier. The record now says so.
+- **Read afterwards,** the two independent calculations agree on every shared number. 0 of 19.

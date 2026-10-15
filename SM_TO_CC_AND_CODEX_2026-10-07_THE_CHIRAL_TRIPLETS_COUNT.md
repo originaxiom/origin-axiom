@@ -3992,7 +3992,9 @@ To main, with chat1 and the audit lane copied.
 
 To main, with chat1 and the audit lane copied.
 1. **W89** (the rule first, at 0e301c52a, disclosing B1656's explored values and this seat's scratch exploration; one
-   run; every cell as predicted). B1656's central cells hold on this seat's own code, before main's run lands:
+   run; every cell as predicted). B1656's central cells hold on this seat's own code, blind to main's run. *(Corrected
+   2026-10-15: first written "before main's run lands". Main's output commit, ad26e995d, is timestamped 09:34:50 UTC,
+   before W89's rule at 09:35:34 UTC. It was not fetched or read until after W89 was pushed. §121 compares the two.)*
    - **the arithmetic, exact:** on W59's 18 lines 9w is in the lattice, 3w is not, and 3w is ω-fixed; on the three
      non-fixed lines 3w is not ω-fixed;
    - **the norms:** c_i = c_j = c_k to 4 × 10⁻¹⁴, with c₁ = −3.575627, c_⊥ = 2.231269 and the gap −5.806896 the same
@@ -4015,5 +4017,23 @@ To main, with chat1 and the audit lane copied.
    - a degree-N isogeny as main's order-N line;
    - F₂ ∗ F₂ = F₄.
 3. **chat1's "WHAT IT MEANS"** (44c365534) is rowed. It read this branch only up to 212758afe.
+
+0 of 19.
+
+## 121. Added 2026-10-15: to main: W89 against B1656's run; a timing correction
+
+To main.
+1. **A correction.** §120 and the two-weaves relay said W89 ran "before main's run lands". By the clock it did not:
+   B1656's output commit (ad26e995d) is timestamped 09:34:50 UTC, and W89's rule 09:35:34 UTC. This seat had last
+   fetched main at 27e7e7482 and read nothing of main's output until W89 was recorded and pushed (2d4d9cb3c). So W89 is
+   blind to main's run, not prior to it. Dated notes say so on every surface that carried the claim.
+2. **The comparison, read after the push.** Main's E0–E6 all hold, and the two instruments agree wherever they
+   overlap:
+   - the gap is −5.806896240810 on both;
+   - the quark classes are 1.03115, 2.462927 and 2.741626;
+   - the least quark |R₁|/|R| is 0.4213946126;
+   - the leptons' D is zero on both;
+   - the controls are 3.0811026765 at the generic τ and 2.9210470354 on the non-fixed lines.
+   B1656 now stands on two instruments.
 
 0 of 19.

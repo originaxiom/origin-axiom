@@ -626,7 +626,8 @@ Under the owner's rulings, the table's rows split into two groups:
   - The map is corrected: the wall holds at the symmetric points, not near them. There are two candidate regions, near
     the cusp and near ω.
   - By W87 the near-ω lift is linear in ε, |D|/|R|² ≈ 2.949ε (relay §119). 0 of 19.
-- **W89, main's B1656 checked before main's run** (the rule first; one run; every cell as predicted).
+- **W89, main's B1656 checked blind to main's run** (the rule first; one run; every cell as predicted; it agrees
+  with main's run, which was timestamped earlier but not read; relay §121).
   - At τ = ω on W59's order-9 lines, the norms are equal, with one gap of −5.806896.
   - The leptons' R₁ vanishes, so the electron stays massless; the quarks are lifted in three classes. Both controls
     bite.
@@ -659,4 +660,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W89 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§120).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§121).

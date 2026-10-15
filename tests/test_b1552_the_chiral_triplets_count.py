@@ -2256,7 +2256,7 @@ def test_reading_where_the_ckm_phase_can_come_from():
     assert "## Reading: where the CKM phase can come from" in note and "arXiv:1905.11970" in note
 
 def test_w89_the_electrons_zero_checked():
-    """W89 (the rule first; one run, before main's; every cell as predicted): B1656's cells on this seat's own code --
+    """W89 (the rule first; one run, blind to main's; every cell as predicted): B1656's cells on this seat's own code --
     equal norms with one gap, the electron's zero on W59's order-9 lines, the quarks lifted in three classes"""
     from fractions import Fraction as Fr
     here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"

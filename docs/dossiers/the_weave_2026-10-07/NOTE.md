@@ -282,10 +282,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   by data. Point couplings, one coupling, lines of order dividing 6 and lines of order dividing 4 all fail, and so does
   W84's deep-cusp exponent ratio 3/2 (Σz² = 57). The line orders left are {5, 7, 8, 9, 10, 11, 12}. J could not be
   separated from 0 by four moduli with independent errors.
-- W89 (main's B1656, "the electron's zero", checked on this seat's own code before main's run lands; rule first; one
-  run; every cell as predicted): at τ = ω on W59's 18 lines, c_i = c_j = c_k to 4 × 10⁻¹⁴, with one gap c₁ − c_⊥ =
-  −5.806896 everywhere. The leptons' R₁ vanishes (2 × 10⁻⁵⁹), so the electron stays massless; the quarks are lifted, in
-  exactly three classes. Both of B1656's controls bite.
+- W89 (main's B1656, "the electron's zero", checked on this seat's own code, blind to main's run; rule first; one run;
+  every cell as predicted; it agrees with main's run): at τ = ω on W59's 18 lines, c_i = c_j = c_k to 4 × 10⁻¹⁴, with
+  one gap c₁ − c_⊥ = −5.806896 everywhere. The leptons' R₁ vanishes (2 × 10⁻⁵⁹), so the electron stays massless; the
+  quarks are lifted, in exactly three classes. Both of B1656's controls bite.
 
 ## The setting
 
@@ -7379,11 +7379,13 @@ owed. Nothing here counts as J = 0 holding.
 **Status.** COMPUTED. The rule came first; one run; six cells as predicted; Q3 failed as worded on its instrument, with
 its owed datum named. A scoreboard of exclusions. 0 of 19.
 
-## W89. Main's B1656 ("the electron's zero") checked on this seat's own code before main's run lands: every cell holds; the electron stays massless on W59's lines and the quarks are lifted in three classes (`the_electrons_zero_checked.py`; `W89_RULE.md`)
+## W89. Main's B1656 ("the electron's zero") checked on this seat's own code, blind to main's run: every cell holds; the electron stays massless on W59's lines and the quarks are lifted in three classes (`the_electrons_zero_checked.py`; `W89_RULE.md`)
 
 **Why.** Main sealed B1656 (27e7e7482), the per-sector twisted channels at τ = ω on W59's eighteen Higgs lines. Relay
-§116 said this seat would check main's twisted channels after main's seal. This check was made before main's run
-lands, as W85 was for B1651.
+§116 said this seat would check main's twisted channels after main's seal. This check was made blind to main's run, as
+W85 was for B1651. *(Corrected 2026-10-15: it first said "before main's run lands". By the clock that was not so: main's
+output commit (ad26e995d) is timestamped 09:34:50 UTC, before this arc's rule (09:35:34 UTC). It was neither fetched nor
+read until after W89 was recorded and pushed, so the check was blind, not earlier.)*
 
 **Weave or thread.** Weave-type, as B1656: the fibre every thread shares at τ = ω, W59's lines, and the three sectors
 jointly. It is given Λ, the dictionary's hypercharges, B1654's premises with four channels, and B1653's twisted pairing.
@@ -7410,7 +7412,7 @@ jointly. It is given Λ, the dictionary's hypercharges, B1654's premises with fo
 whatever τ is. The controls' lepton lift comes entirely from the norms ceasing to be equal.
 
 **What it shows.**
-- **B1656's central claims stand on a second instrument, before main's run:** the equal norms by the order-3
+- **B1656's central claims stand on a second instrument, blind to main's run:** the equal norms by the order-3
   rotation, D_sector = (c₁ − c_⊥)R₁², the electron's zero by the hypercharge arithmetic (q_L − q_e = −9 with 9w in the
   lattice), and the quarks' lift in three classes.
 - **In the map's terms,** W59's lines have order 9, one of the orders W88 left. At ω they split the quarks from the
@@ -7418,8 +7420,16 @@ whatever τ is. The controls' lepton lift comes entirely from the norms ceasing 
   electron's mass deferred to the next order.
 - Nothing here is a mass value. The lifts carry the end datum L and the Higgs's direction (B1656 §4).
 
-**Status.** COMPUTED, every cell as predicted; the rule first; one run, before main's. A weave-type check given the
+**Status.** COMPUTED, every cell as predicted; the rule first; one run, blind to main's. A weave-type check given the
 stated premises. 0 of 19.
+
+**Compared with main's run, after W89 was pushed** (main's output ad26e995d, read afterwards; nothing above was
+changed). Main's cells E0–E6 all hold. Where the two instruments overlap they agree:
+- the gap is −5.806896240810 on main and −5.806896240810 here;
+- the quark classes are 1.03115, 2.462927 and 2.741626 on both;
+- the least quark |R₁|/|R| is 0.4213946126 on both;
+- the leptons' D is 5 × 10⁻¹³ on main and 1 × 10⁻¹⁴ here, both zero;
+- the controls are 3.0811026765 and 2.9210470354, identical.
 
 ## Reading: two weaves, or three: what interacting wholes can mean here (READING, by hand; 2026-10-15, at the owner's question)
 
@@ -7774,7 +7784,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W86 | COMPUTED (the rule first; the independent script and three labelled post hocs each committed before one run; R, C, F and X by five read-only auditors); a check of chat1's whole branch at the owner's order | every script reproduces (one depends on numpy's eigenvector order) and no sealed cell changes. I1 failed as worded (×0.898; chat1's own range exact); I6 failed on this seat's instrument and holds post hoc; I2–I5 and I7 hold. Three readings fall, re-checked on this seat's code: the meditation's self-coupling fork (with B517's nonnegative entries every thread is admitted, the root included); "carried by K, not by Y" (the hybrid could not test it; Y's shape sets the level); the first background's length law (LLRR first at level 4, bronze at 3). B and C findings graded; four of this seat's statements corrected. 0 of 19 |
 | W87 | COMPUTED (the rule first, its exploration disclosed; one run; every cell as predicted); a WEAVE result given Λ, P1 and P2, at main's suggestion | B1654's section 1 on this seat's code: c_r = −2π ln((π/2)\|θ_r(0)\|²) (Parseval; three routes to 10⁻⁵⁹ and 10⁻¹⁴); D = −θ₃⁴h(λ)/(4πη⁶), zero exactly on ω's orbit, (π/2) ln 2 at i, the cusp law with its next order; every channel-blind end condition lifts the first generation with D's shape, none at ω; the cutoff-free family is e^{βx}, P4′ its β = 0; C0's covariance does not choose P4′, its "numbers" sentence chooses the family; post hoc, the slope at ω is (π²√3/6)\|θ₃(ω)\|⁴ in every direction. 0 of 19 |
 | W88 | COMPUTED (the rule first; one run; six cells as predicted; Q3 failed as worded on its instrument); a scoreboard of the record's breaking-free relations against the data | refuted: point couplings (first-generation ratios ≥ 5.9σ from 0; \|V_us\| 331σ), one coupling (Σz² = 218), lines of order dividing 6 (676) and 4 (172), W84's cusp ratio 3/2 (57; down alone z = 1.5); the line orders left {5, 7, 8, 9, 10, 11, 12}; J could not be separated from 0 by four independent moduli, the direct datum owed. 0 of 19 |
-| W89 | COMPUTED (the rule first; one run, before main's; every cell as predicted); a check of main's B1656 on this seat's own code, weave-type given the stated premises | at τ = ω on W59's 18 lines: the arithmetic exact; c_i = c_j = c_k to 4 × 10⁻¹⁴, gap −5.806896 everywhere; the leptons' R₁ ≤ 2 × 10⁻⁵⁹ and D ≤ 10⁻¹⁴ (the electron massless), the quarks lifted in three classes 1.0312, 2.4629, 2.7416; controls 3.081 and 2.921 (perp split 25.4). 0 of 19 |
+| W89 | COMPUTED (the rule first; one run, blind to main's (its output was timestamped earlier; not read); every cell as predicted); a check of main's B1656 on this seat's own code, weave-type given the stated premises | at τ = ω on W59's 18 lines: the arithmetic exact; c_i = c_j = c_k to 4 × 10⁻¹⁴, gap −5.806896 everywhere; the leptons' R₁ ≤ 2 × 10⁻⁵⁹ and D ≤ 10⁻¹⁴ (the electron massless), the quarks lifted in three classes 1.0312, 2.4629, 2.7416; controls 3.081 and 2.921 (perp split 25.4); agrees with main's run (gap, classes, controls identical). 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |

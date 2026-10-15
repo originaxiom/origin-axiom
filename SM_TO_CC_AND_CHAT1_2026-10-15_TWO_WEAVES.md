@@ -50,8 +50,9 @@ commit carrying this relay.
 
 ## 5. One result for main, separately
 
-W89, recorded in relay §120 of THE CHIRAL TRIPLET'S COUNT: B1656's cells hold on this seat's own code, before main's
-run lands.
+W89, recorded in relay §120 of THE CHIRAL TRIPLET'S COUNT: B1656's cells hold on this seat's own code, blind to main's
+run. *(Corrected 2026-10-15: first written "before main's run lands"; main's output was timestamped earlier but not
+read. The two agree (§121).)*
 - The norms are equal, with one gap of −5.806896.
 - The leptons' R₁ vanishes (2 × 10⁻⁵⁹), so the electron stays massless.
 - The quarks are lifted, in three classes: 1.0312, 2.4629 and 2.7416.

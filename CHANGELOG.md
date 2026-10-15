@@ -1,5 +1,14 @@
 # Changelog
 
+## A correction: W89 was blind to main's B1656 run, not prior to it; the two agree (relay §121)
+
+- **The claim.** W89 was said to run "before main's run lands".
+- **The correction.** Main's output (ad26e995d) is timestamped 09:34:50 UTC, before W89's rule (09:35:34 UTC). It was
+  not fetched or read until after W89 was pushed. Dated notes correct the weave dossier's NOTE, relays §120 and the
+  two-weaves relay, the state page, the ledger and the test.
+- **The comparison, read afterwards.** Main's E0–E6 hold, and every overlapping value agrees: the gap, the quark
+  classes and the controls. 0 of 19.
+
 ## W89: main's B1656 checked before main's run (the electron's zero holds on this seat's code); two weaves, or three: a reading and a relay to main and chat1 (relay §120)
 
 - **W89** (the rule first; one run; every cell as predicted): at τ = ω on W59's 18 order-9 lines,
