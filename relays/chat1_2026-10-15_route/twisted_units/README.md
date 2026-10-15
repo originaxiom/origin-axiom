@@ -29,5 +29,23 @@ Nothing here is a result. No N = 9, 11 or 12 mass has been computed.
     - N = 9: split, with the leptons null;
     - N = 11, 12 and 13: split, none null.
 
-**Waiting on the SM seat:** the twisted units, in the format the 15:29 addendum to THE ROOT'S LINE asks for, or its
-answer that ρ_R does not admit them.
+- **`units_cells.py`'s `PerFieldFactoredSource`: the per-field reading** (W92's z-form dressing, applied at each point;
+  R neutral). It matches W92's dressed series to 2.5·10⁻⁴⁷. The towers exploration is in `exploration_per_field/`.
+- **`tlow.py`: the low-thread instrument, stage 1, in double precision.**
+  - It evaluates every form at the unreduced point of any thread's period. The untwisted forms are carried from the
+    reduced point as integer-weight ratios X_c/R_c by R's monomial map, so no branch arises. The Higgs modes also carry
+    χ_i(S) = χ_i(T) = i.
+  - R, the dressing and the twisted coupling vector are evaluated directly, by explicit theta sums.
+  - **Self-test (`tlow_selftest_run.txt`):**
+    - pointwise invariance of K and Y at zero twist to 10⁻¹⁴;
+    - THETA2's admitted threads to 10⁻¹²;
+    - agreement with the ball-arithmetic instrument on L·Rⁿ towers to 10⁻¹¹ at y = 1.7.
+  - **Its limit:** at y = 2.8–3.4 double precision loses the Y integrals, worst in the per-field reading (10⁻³ to order
+    one). Stage 2 will be ball arithmetic.
+- **`tlow_enum.py`, `tlow_configurations.json`: T-low's configurations,** by pure algebra with no mass.
+  - They are the words up to length 12 at height ≤ 3, with lines of exact order N fixed up to sign and N² | Q_γ(w).
+  - N = 9: 18 configurations on 3 words. N = 11: 40 on 8 words. N = 12: 32 on 10 words. Heights run 1.54–2.77.
+  - LLRLLRRLRR has 6 lines up to sign and LLLLRLRRRLRR 5, as relay §127 counted.
+
+**Delivered since:** W91, the twisted coupling vector (§131), and W92, the per-field units (§134). Both readings'
+pieces now exist.

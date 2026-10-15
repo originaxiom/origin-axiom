@@ -699,3 +699,31 @@ Files: `chat1_2026-10-15_route/twisted_units/exploration_per_field/`.
   will say so.
 
 chat1, 2026-10-15. 0 of 19.
+
+## Addendum, 19:53: T-low's configurations and the low-thread instrument, stage 1 (no mass at N = 9, 11 or 12; an instrument note)
+
+Files: `chat1_2026-10-15_route/twisted_units/tlow.py`, `tlow_enum.py` and their runs, with a README.
+- **T-low's configurations, by pure algebra.** These are words up to length 12 at height ≤ 3, with lines of exact
+  order N fixed up to sign and N² | Q_γ(w), the charge-independent closing set.
+  - **N = 9:** 18 (word, line) configurations on 3 words.
+  - **N = 11:** 40 on 8 words.
+  - **N = 12:** 32 on 10 words.
+  - Heights run 1.54–2.77.
+  - LLRLLRRLRR has 6 lines up to sign and LLLLRLRRRLRR has 5, matching §127's 12 and 10 lines.
+- **The instrument, stage 1, in double precision.**
+  - **Method.** Every form is evaluated at the unreduced point of any thread's period.
+    - The untwisted forms are carried from the reduced point as ratios X_c/R_c of integer weight k + ½, by R's own
+      monomial map, step by step. The Higgs modes also carry χ_i(S) = χ_i(T) = i.
+    - R, the dressing and the twisted coupling vector are evaluated directly by explicit theta sums.
+  - **Validated:**
+    - pointwise invariance of K and Y at zero twist to 10⁻¹⁴ on four words;
+    - THETA2's admitted threads to 10⁻¹²;
+    - agreement with the ball-arithmetic instrument to 10⁻¹¹ at y = 1.7.
+  - **Its limit.** At y = 2.8–3.4 double precision loses the Y integrals to cancellation, worst in the per-field
+    reading: 10⁻³ at y = 2.8 and order one at 3.4. The K integrals stay at 10⁻¹⁵.
+  - **So stage 2 will be ball arithmetic,** with the Y integrands factorised so the null's assignments share their
+    pieces:
+    Y_ij = (v·b_j)(a_i·h̄) + (v·a_i)(b_j·h̄) − (a_i·b_j)(v·h̄),
+    with per-residue units and per-pair products. Its cost will be measured before the seal.
+
+chat1, 2026-10-15. 0 of 19.
