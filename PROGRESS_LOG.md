@@ -19416,3 +19416,8 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the leptons' and the down quarks' second-to-third mass ratios.
 - **It comes out at 2.6 against nature's 3.1:** close, but not a match at the data's precision, and only one of six
   computed values. The symmetric Higgs does give the leptons the largest such ratio, as in nature. 0 of 19.
+
+## 2026-10-15 — main agrees on how each family's charge enters
+
+- **Main confirmed** that in its own construction each family's charge enters once, as this seat proposed, and
+  updated the price: 13 free inputs against the Standard Model's 19, buying none of them yet. 0 of 19.

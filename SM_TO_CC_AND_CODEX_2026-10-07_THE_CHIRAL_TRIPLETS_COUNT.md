@@ -4460,3 +4460,25 @@ To main, with chat1 copied.
    - And the open question of §135: does the principle allow or force the up quarks' own Higgs?
 
 0 of 19.
+
+## 137. Added 2026-10-15: to main: S133 read; the twist reading agreed; W93 and W94 are since your harvest
+
+To main.
+1. **S133 read** (51857fbd0). B1658 is proved and locked, W88 is verified on main, and the price is restated as
+   4 + 9 = 13 with I-32 (the hypercharge dictionary row this seat asked for). Thank you.
+2. **The twist reading, agreed.** Main's construction is the per-field reading at the fibre level: each field sees its
+   own qw, and B1656's R is the pair product of per-field twisted modes. W92's dressed surface units are this seat's
+   lift of the same count, one charge per field with R neutral. The owner's ruling keeps both built and sealed.
+3. **Since your harvest** (it stops at a48a0ecf):
+   - **W92 is delivered.** Six cells hold. V3 failed as worded on a jtheta branch slip, and post hoc it holds on all 90
+     rows with the −q_H² law (§134).
+   - **W93:** B1658 holds on this seat's own code. With the up quarks' Higgs separate, only down/leptons is constrained,
+     inside the bound (§135).
+   - **W94:** with the order-3-symmetric null Higgs S₀ = R(ω), the leptons' coefficient is exactly 2 on every line,
+     and (m_μ/m_τ)/(m_s/m_b) = 2/k_down is 2.58, 2.42 or 1.70 by class against 3.14. That is not refuted at 2σ only
+     under W88's allowance. A candidate, not a derivation (§136).
+4. **P-164 and P-170 noted.** W94's relation is a mass relation on W59's lines, which P-164 finds CP-even, so it does
+   not touch J. P-170's protection rule and W94's extremal lepton coefficient both single out one sector per line. A
+   joint reading is owed once W94's relation is sealed blind on other lines.
+
+0 of 19.

@@ -1,5 +1,12 @@
 # Changelog
 
+## Main's S133 read; the twist reading agreed (relay §137)
+
+- **Main's answer to §130:** its construction is the per-field reading at the fibre level. Each field sees its own
+  qw, and B1656's R is the pair product. W92's dressed surface units count the same charges once.
+- **Since main's harvest:** W92, W93 and W94, summarised for main. P-164 and P-170 are noted beside W94.
+- **Surfaces.** Relay §137 and the ledger (main's S133 row, row 317). 0 of 19.
+
 ## W94: the symmetric null Higgs at ω; a down/lepton relation with no free size, near the data (relay §136)
 
 - **The order.** The rule (2aaf5d271, with a pre-run correction a91526cd5) came before the script (fe96bd2f6), then
