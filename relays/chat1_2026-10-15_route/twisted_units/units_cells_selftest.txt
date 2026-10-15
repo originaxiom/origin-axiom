@@ -1,0 +1,9 @@
+sources ready 0.1
+L.R^9 N=3 up: closure 5.9e-36  C1 ln R2 -30.253957  r_calc(C1) 6.4e-44
+L.R^9 N=3 down: closure 5.9e-36  C1 ln R2 -30.253957  r_calc(C1) 6.4e-44
+L.R^9 N=3 lepton: closure 5.1e-36  C1 ln R2 -29.960749  r_calc(C1) 3.3e-44
+L.R^25 N=5 up: closure 1.6e-36  C1 ln R2 -81.272058  r_calc(C1) 1.8e-44
+L.R^25 N=5 down: closure 2.1e-36  C1 ln R2 -82.156318  r_calc(C1) 8.1e-45
+L.R^25 N=5 lepton: closure 2.1e-36  C1 ln R2 -82.156318  r_calc(C1) 8.1e-45
+worst |difference| from deep_cusp_deep.json in ln R2, ln R1 (rank-three cells): 0.0
+seconds 101.8
