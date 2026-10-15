@@ -1,0 +1,237 @@
+per thread: ln(s2/s1)/(2 pi rho), ln(s3/s1)/(2 pi rho) [W84 law: -1, -1.5], ln max|Y|, closure, convergence
+
+LRRRRRRRRR N=3  rho = 5.408  Npts [448, 560]
+  zero   clos 4e-40 rad 7e-76
+      C1: -0.882 -1.212 lnY 12.4 cv 3e-44
+      C2/E4: -0.614 -2.939 lnY 12.2 cv 2e-05
+      C2/THETA2: -0.827 -1.170 lnY 11.4 cv 3e-41
+      C2/ORTH: -0.822 -1.164 lnY 12.1 cv 3e-41
+      C3/E4: -0.355 -4.605 lnY 12.4 cv 3e-05
+      C3/THETA2: -0.579 -2.889 lnY 12.2 cv 1e-05
+      C3/ORTH: -0.573 -2.883 lnY 12.4 cv 1e-05
+  up     clos 1e-40 rad 3e-76
+      C1: -0.890 -1.172 lnY 13.1 cv 6e-44
+      C2/E4: -0.915 -1.230 lnY 10.4 cv 3e-41
+      C2/THETA2: -0.941 -1.177 lnY 10.6 cv 3e-41
+      C2/ORTH: -0.907 -1.212 lnY 10.9 cv 7e-41
+      C3/E4: -0.869 -1.195 lnY 12.9 cv 1e-40
+      C3/THETA2: -0.900 -1.184 lnY 12.9 cv 2e-40
+      C3/ORTH: -0.862 -1.265 lnY 12.9 cv 2e-39
+  down   clos 1e-40 rad 3e-76
+      C1: -0.890 -1.172 lnY 13.1 cv 6e-44
+      C2/E4: -0.915 -1.230 lnY 10.4 cv 3e-41
+      C2/THETA2: -0.941 -1.177 lnY 10.6 cv 3e-41
+      C2/ORTH: -0.907 -1.212 lnY 10.9 cv 7e-41
+      C3/E4: -0.869 -1.195 lnY 12.9 cv 1e-40
+      C3/THETA2: -0.900 -1.184 lnY 12.9 cv 2e-40
+      C3/ORTH: -0.862 -1.265 lnY 12.9 cv 2e-39
+  lepton clos 4e-40 rad 2e-75
+      C1: -0.882 -1.212 lnY 12.4 cv 3e-44
+      C2/E4: -0.614 -2.939 lnY 12.2 cv 2e-05
+      C2/THETA2: -0.827 -1.170 lnY 11.4 cv 3e-41
+      C2/ORTH: -0.822 -1.164 lnY 12.1 cv 3e-41
+      C3/E4: -0.355 -4.605 lnY 12.4 cv 3e-05
+      C3/THETA2: -0.579 -2.889 lnY 12.2 cv 1e-05
+      C3/ORTH: -0.573 -2.883 lnY 12.4 cv 1e-05
+
+LRRRRRRRRRRRRRRRRRR N=3  rho = 9.950  Npts [732, 912]
+  zero   clos 4e-41 rad 1e-77
+      C1: -0.936 -1.366 lnY 12.8 cv 5e-45
+      C2/E4: -0.641 -1.681 lnY 14.3 cv 4e-06
+      C2/THETA2: -0.923 -1.224 lnY 11.9 cv 2e-42
+      C2/ORTH: -0.921 -1.221 lnY 15.9 cv 2e-42
+      C3/E4: -0.438 -2.047 lnY 12.9 cv 4e-06
+      C3/THETA2: -0.614 -1.642 lnY 12.7 cv 2e-06
+      C3/ORTH: -0.611 -1.639 lnY 12.1 cv 2e-06
+  up     clos 6e-41 rad 3e-78
+      C1: -0.977 -1.335 lnY 13.2 cv 1e-44
+      C2/E4: -0.991 -1.369 lnY 11.8 cv 8e-42
+      C2/THETA2: -0.971 -1.380 lnY 11.8 cv 1e-41
+      C2/ORTH: -0.943 -1.390 lnY 12.2 cv 5e-42
+      C3/E4: -0.952 -1.372 lnY 13.2 cv 3e-41
+      C3/THETA2: -0.968 -1.373 lnY 13.0 cv 8e-41
+      C3/ORTH: -0.939 -1.366 lnY 12.5 cv 2e-42
+  down   clos 6e-41 rad 3e-78
+      C1: -0.977 -1.335 lnY 13.2 cv 1e-44
+      C2/E4: -0.991 -1.369 lnY 11.8 cv 8e-42
+      C2/THETA2: -0.971 -1.380 lnY 11.8 cv 1e-41
+      C2/ORTH: -0.943 -1.390 lnY 12.2 cv 5e-42
+      C3/E4: -0.952 -1.372 lnY 13.2 cv 3e-41
+      C3/THETA2: -0.968 -1.373 lnY 13.0 cv 8e-41
+      C3/ORTH: -0.939 -1.366 lnY 12.5 cv 2e-42
+  lepton clos 4e-41 rad 6e-77
+      C1: -0.936 -1.366 lnY 12.8 cv 5e-45
+      C2/E4: -0.641 -1.681 lnY 14.3 cv 4e-06
+      C2/THETA2: -0.923 -1.224 lnY 11.9 cv 2e-42
+      C2/ORTH: -0.921 -1.221 lnY 15.9 cv 2e-42
+      C3/E4: -0.438 -2.047 lnY 12.9 cv 4e-06
+      C3/THETA2: -0.614 -1.642 lnY 12.7 cv 2e-06
+      C3/ORTH: -0.611 -1.639 lnY 12.1 cv 2e-06
+
+LRRRRRRRRRRRRRRRRRRRRRRRRRRR N=3  rho = 14.465  Npts [1012, 1264]
+  zero   clos 4e-41 rad 8e-80
+      C1: -0.918 -1.396 lnY 13.3 cv 1e-45
+      C2/E4: -0.677 -1.254 lnY 15.7 cv 1e-06
+      C2/THETA2: -0.870 -1.343 lnY 13.7 cv 4e-43
+      C2/ORTH: -0.868 -1.341 lnY 18.3 cv 4e-43
+      C3/E4: -0.483 -1.078 lnY 14.2 cv 6e-06
+      C3/THETA2: -0.670 -1.230 lnY 13.4 cv 3e-06
+      C3/ORTH: -0.668 -1.228 lnY 16.4 cv 3e-06
+  up     clos 7e-40 rad 1e-80
+      C1: -0.968 -1.373 lnY 13.2 cv 1e-45
+      C2/E4: -0.977 -1.400 lnY 14.9 cv 7e-43
+      C2/THETA2: -0.985 -1.419 lnY 12.8 cv 1e-42
+      C2/ORTH: -0.973 -1.396 lnY 17.5 cv 4e-42
+      C3/E4: -0.950 -1.403 lnY 12.9 cv 1e-41
+      C3/THETA2: -0.958 -1.400 lnY 12.9 cv 2e-41
+      C3/ORTH: -0.941 -1.416 lnY 12.7 cv 6e-42
+  down   clos 7e-40 rad 1e-80
+      C1: -0.968 -1.373 lnY 13.2 cv 1e-45
+      C2/E4: -0.977 -1.400 lnY 14.9 cv 7e-43
+      C2/THETA2: -0.985 -1.419 lnY 12.8 cv 1e-42
+      C2/ORTH: -0.973 -1.396 lnY 17.5 cv 4e-42
+      C3/E4: -0.950 -1.403 lnY 12.9 cv 1e-41
+      C3/THETA2: -0.958 -1.400 lnY 12.9 cv 2e-41
+      C3/ORTH: -0.941 -1.416 lnY 12.7 cv 6e-42
+  lepton clos 4e-41 rad 3e-79
+      C1: -0.918 -1.396 lnY 13.3 cv 1e-45
+      C2/E4: -0.677 -1.254 lnY 15.7 cv 1e-06
+      C2/THETA2: -0.870 -1.343 lnY 13.7 cv 4e-43
+      C2/ORTH: -0.868 -1.341 lnY 18.3 cv 4e-43
+      C3/E4: -0.483 -1.078 lnY 14.2 cv 6e-06
+      C3/THETA2: -0.670 -1.230 lnY 13.4 cv 3e-06
+      C3/ORTH: -0.668 -1.228 lnY 16.4 cv 3e-06
+
+LRRRRRRRRRRRRRRRRRRRRRRRRR N=5  rho = 13.463  Npts [952, 1188]
+  zero   clos 4e-41 rad 2e-79
+      C1: -0.916 -1.383 lnY 13.3 cv 1e-45
+      C2/E4: -0.665 -1.308 lnY 15.8 cv 7e-07
+      C2/THETA2: -0.872 -1.313 lnY 13.9 cv 2e-42
+      C2/ORTH: -0.871 -1.311 lnY 18.4 cv 2e-42
+      C3/E4: -0.460 -1.261 lnY 13.7 cv 3e-06
+      C3/THETA2: -0.670 -1.301 lnY 13.3 cv 2e-06
+      C3/ORTH: -0.668 -1.299 lnY 15.3 cv 2e-06
+  up     clos 9e-41 rad 3e-80
+      C1: -0.961 -1.404 lnY 13.4 cv 2e-44
+      C2/E4: -0.959 -1.354 lnY 15.6 cv 1e-42
+      C2/THETA2: -0.968 -1.384 lnY 13.8 cv 8e-43
+      C2/ORTH: -0.934 -1.358 lnY 18.1 cv 1e-43
+      C3/E4: -0.908 -1.372 lnY 13.7 cv 3e-41
+      C3/THETA2: -0.813 -1.298 lnY 13.3 cv 2e-41
+      C3/ORTH: -0.845 -1.339 lnY 15.3 cv 1e-41
+  down   clos 7e-42 rad 3e-80
+      C1: -0.971 -1.369 lnY 14.1 cv 8e-45
+      C2/E4: -0.974 -1.359 lnY 15.4 cv 2e-43
+      C2/THETA2: -0.996 -1.374 lnY 13.6 cv 1e-43
+      C2/ORTH: -0.954 -1.361 lnY 17.9 cv 6e-43
+      C3/E4: -0.955 -1.399 lnY 14.0 cv 5e-42
+      C3/THETA2: -0.966 -1.395 lnY 13.9 cv 7e-42
+      C3/ORTH: -0.941 -1.413 lnY 15.0 cv 4e-41
+  lepton clos 7e-42 rad 3e-80
+      C1: -0.971 -1.369 lnY 14.1 cv 8e-45
+      C2/E4: -0.974 -1.359 lnY 15.4 cv 2e-43
+      C2/THETA2: -0.996 -1.374 lnY 13.6 cv 1e-43
+      C2/ORTH: -0.954 -1.361 lnY 17.9 cv 6e-43
+      C3/E4: -0.955 -1.399 lnY 14.0 cv 5e-42
+      C3/THETA2: -0.966 -1.395 lnY 13.9 cv 7e-42
+      C3/ORTH: -0.941 -1.413 lnY 15.0 cv 4e-41
+
+LRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR N=5  rho = 25.981  Npts [1764, 2204]
+  zero   clos 3e-41 rad 2e-86
+      C1: -0.947 -1.434 lnY 13.3 cv 1e-45
+      C2/E4: -0.568 -0.934 lnY 17.4 cv 3e-08
+      C2/THETA2: -0.919 -1.390 lnY 15.6 cv 4e-44
+      C2/ORTH: -0.918 -1.389 lnY 22.5 cv 4e-44
+      C3/E4: -0.177 -0.490 lnY 14.1 cv 2e-06
+      C3/THETA2: -0.563 -0.963 lnY 13.4 cv 1e-06
+      C3/ORTH: -0.562 -0.962 lnY 18.6 cv 1e-06
+  up     clos 5e-41 rad 2e-87
+      C1: -0.963 -1.444 lnY 14.2 cv 4e-46
+      C2/E4: -0.961 -1.412 lnY 18.2 cv 3e-44
+      C2/THETA2: -0.956 -1.437 lnY 16.2 cv 2e-43
+      C2/ORTH: -0.941 -1.409 lnY 23.3 cv 1e-43
+      C3/E4: -0.965 -1.446 lnY 14.7 cv 8e-43
+      C3/THETA2: -0.969 -1.446 lnY 14.2 cv 7e-43
+      C3/ORTH: -0.944 -1.441 lnY 18.8 cv 8e-43
+  down   clos 1e-40 rad 2e-87
+      C1: -0.992 -1.440 lnY 14.4 cv 2e-46
+      C2/E4: -0.971 -1.439 lnY 17.6 cv 2e-44
+      C2/THETA2: -0.972 -1.435 lnY 15.6 cv 1e-44
+      C2/ORTH: -0.954 -1.449 lnY 22.7 cv 2e-41
+      C3/E4: -0.979 -1.446 lnY 14.2 cv 9e-44
+      C3/THETA2: -0.981 -1.446 lnY 14.2 cv 8e-44
+      C3/ORTH: -0.964 -1.447 lnY 15.9 cv 4e-43
+  lepton clos 1e-40 rad 2e-87
+      C1: -0.992 -1.440 lnY 14.4 cv 2e-46
+      C2/E4: -0.971 -1.439 lnY 17.6 cv 2e-44
+      C2/THETA2: -0.972 -1.435 lnY 15.6 cv 1e-44
+      C2/ORTH: -0.954 -1.449 lnY 22.7 cv 2e-41
+      C3/E4: -0.979 -1.446 lnY 14.2 cv 9e-44
+      C3/THETA2: -0.981 -1.446 lnY 14.2 cv 8e-44
+      C3/ORTH: -0.964 -1.447 lnY 15.9 cv 4e-43
+
+LRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR N=7  rho = 25.480  Npts [1728, 2160]
+  zero   clos 3e-41 rad 7e-86
+      C1: -0.949 -1.434 lnY 12.8 cv 2e-45
+      C2/E4: -0.581 -0.913 lnY 18.0 cv 4e-07
+      C2/THETA2: -0.933 -1.375 lnY 16.0 cv 1e-43
+      C2/ORTH: -0.932 -1.374 lnY 22.8 cv 1e-43
+      C3/E4: -0.200 -0.486 lnY 14.4 cv 7e-06
+      C3/THETA2: -0.574 -0.959 lnY 13.3 cv 5e-06
+      C3/ORTH: -0.573 -0.958 lnY 19.0 cv 5e-06
+  up     clos 6e-41 rad 6e-87
+      C1: -0.985 -1.427 lnY 15.0 cv 6e-46
+      C2/E4: -0.982 -1.444 lnY 16.6 cv 2e-44
+      C2/THETA2: -0.984 -1.471 lnY 14.6 cv 3e-44
+      C2/ORTH: -0.963 -1.436 lnY 21.4 cv 2e-43
+      C3/E4: -0.975 -1.446 lnY 15.0 cv 9e-44
+      C3/THETA2: -0.981 -1.444 lnY 14.8 cv 1e-43
+      C3/ORTH: -0.952 -1.443 lnY 18.2 cv 3e-43
+  down   clos 8e-41 rad 6e-87
+      C1: -0.974 -1.442 lnY 14.5 cv 7e-46
+      C2/E4: -0.943 -1.408 lnY 17.9 cv 4e-44
+      C2/THETA2: -0.939 -1.429 lnY 15.9 cv 4e-44
+      C2/ORTH: -0.926 -1.394 lnY 22.8 cv 2e-43
+      C3/E4: -0.971 -1.446 lnY 14.8 cv 2e-43
+      C3/THETA2: -0.974 -1.445 lnY 14.4 cv 2e-43
+      C3/ORTH: -0.949 -1.442 lnY 18.6 cv 7e-43
+  lepton clos 6e-41 rad 6e-87
+      C1: -0.985 -1.427 lnY 15.0 cv 6e-46
+      C2/E4: -0.982 -1.444 lnY 16.6 cv 2e-44
+      C2/THETA2: -0.984 -1.471 lnY 14.6 cv 3e-44
+      C2/ORTH: -0.963 -1.436 lnY 21.4 cv 2e-43
+      C3/E4: -0.975 -1.446 lnY 15.0 cv 9e-44
+      C3/THETA2: -0.981 -1.444 lnY 14.8 cv 1e-43
+      C3/ORTH: -0.952 -1.443 lnY 18.2 cv 3e-43
+
+slopes along each tower (per unit 2 pi rho): d ln(s2/s1), d ln(s3/s1)  [W84: -1, -1.5]; d ln Kdiag/(2 pi drho) [W84: 1.75, 0.25, 1.25 in K32]
+
+N=3: rho 5.41 -> 9.95
+  zero   K32 diag [1.771, 0.272, 1.271]  C1 ln max|Y| per 2 pi drho +0.013
+      C1 -1.001 -1.550 | C2/E4 -0.674 -0.183 | C2/THETA2 -1.037 -1.288 | C2/ORTH -1.038 -1.289 | C3/E4 -0.538 +1.001 | C3/THETA2 -0.655 -0.157 | C3/ORTH -0.656 -0.158
+  up     K32 diag [1.771, 0.272, 1.271]  C1 ln max|Y| per 2 pi drho +0.004
+      C1 -1.080 -1.528 | C2/E4 -1.081 -1.535 | C2/THETA2 -1.006 -1.622 | C2/ORTH -0.986 -1.603 | C3/E4 -1.050 -1.583 | C3/THETA2 -1.049 -1.598 | C3/ORTH -1.031 -1.487
+  down   K32 diag [1.771, 0.272, 1.271]  C1 ln max|Y| per 2 pi drho +0.004
+      C1 -1.080 -1.528 | C2/E4 -1.081 -1.535 | C2/THETA2 -1.006 -1.622 | C2/ORTH -0.986 -1.603 | C3/E4 -1.050 -1.583 | C3/THETA2 -1.049 -1.598 | C3/ORTH -1.031 -1.487
+  lepton K32 diag [1.771, 0.272, 1.271]  C1 ln max|Y| per 2 pi drho +0.013
+      C1 -1.001 -1.550 | C2/E4 -0.674 -0.183 | C2/THETA2 -1.037 -1.288 | C2/ORTH -1.038 -1.289 | C3/E4 -0.538 +1.001 | C3/THETA2 -0.655 -0.157 | C3/ORTH -0.656 -0.158
+
+N=3: rho 9.95 -> 14.47
+  zero   K32 diag [1.763, 0.263, 1.263]  C1 ln max|Y| per 2 pi drho +0.020
+      C1 -0.878 -1.460 | C2/E4 -0.757 -0.312 | C2/THETA2 -0.752 -1.605 | C2/ORTH -0.753 -1.605 | C3/E4 -0.581 +1.055 | C3/THETA2 -0.794 -0.323 | C3/ORTH -0.794 -0.323
+  up     K32 diag [1.763, 0.263, 1.263]  C1 ln max|Y| per 2 pi drho -0.001
+      C1 -0.950 -1.459 | C2/E4 -0.947 -1.468 | C2/THETA2 -1.015 -1.505 | C2/ORTH -1.039 -1.410 | C3/E4 -0.947 -1.473 | C3/THETA2 -0.936 -1.460 | C3/ORTH -0.947 -1.527
+  down   K32 diag [1.763, 0.263, 1.263]  C1 ln max|Y| per 2 pi drho -0.001
+      C1 -0.950 -1.459 | C2/E4 -0.947 -1.468 | C2/THETA2 -1.015 -1.505 | C2/ORTH -1.039 -1.410 | C3/E4 -0.947 -1.473 | C3/THETA2 -0.936 -1.460 | C3/ORTH -0.947 -1.527
+  lepton K32 diag [1.763, 0.263, 1.263]  C1 ln max|Y| per 2 pi drho +0.020
+      C1 -0.878 -1.460 | C2/E4 -0.757 -0.312 | C2/THETA2 -0.752 -1.605 | C2/ORTH -0.753 -1.605 | C3/E4 -0.581 +1.055 | C3/THETA2 -0.794 -0.323 | C3/ORTH -0.794 -0.323
+
+N=5: rho 13.46 -> 25.98
+  zero   K32 diag [1.758, 0.258, 1.258]  C1 ln max|Y| per 2 pi drho -0.000
+      C1 -0.980 -1.489 | C2/E4 -0.464 -0.531 | C2/THETA2 -0.970 -1.473 | C2/ORTH -0.970 -1.473 | C3/E4 +0.129 +0.340 | C3/THETA2 -0.447 -0.600 | C3/ORTH -0.447 -0.600
+  up     K32 diag [1.758, 0.258, 1.258]  C1 ln max|Y| per 2 pi drho +0.010
+      C1 -0.965 -1.486 | C2/E4 -0.963 -1.473 | C2/THETA2 -0.944 -1.494 | C2/ORTH -0.948 -1.463 | C3/E4 -1.026 -1.526 | C3/THETA2 -1.136 -1.605 | C3/ORTH -1.050 -1.552
+  down   K32 diag [1.758, 0.258, 1.258]  C1 ln max|Y| per 2 pi drho +0.005
+      C1 -1.015 -1.516 | C2/E4 -0.967 -1.525 | C2/THETA2 -0.946 -1.501 | C2/ORTH -0.954 -1.544 | C3/E4 -1.005 -1.497 | C3/THETA2 -0.998 -1.500 | C3/ORTH -0.989 -1.483
+  lepton K32 diag [1.758, 0.258, 1.258]  C1 ln max|Y| per 2 pi drho +0.005
+      C1 -1.015 -1.516 | C2/E4 -0.967 -1.525 | C2/THETA2 -0.946 -1.501 | C2/ORTH -0.954 -1.544 | C3/E4 -1.005 -1.497 | C3/THETA2 -0.998 -1.500 | C3/ORTH -0.989 -1.483

@@ -408,3 +408,128 @@ Files: `m003_exploration/instrument/`, with a README.
   derivation blind?
 
 chat1, 2026-10-15.
+
+## Addendum, 15:17: the cusp criterion; in the minimal reading the twist cannot move the deep-cusp exponents (exploration, unsealed; excluded orders only; no N = 9, 11 or 12 quantity computed; data read only through the SM seat's §117 scoreboard and one order-of-magnitude bound; refereed before it left)
+
+Files: `m003_exploration/deep_cusp/`, with a README. Read before this addendum: the SM seat's §126 (`ffb3443e5`).
+
+**1. The criterion (derived, then checked).** Take a thread whose axis rises to height R, and a term
+q^p·q̄^(p′)·y^k of a cycle integral.
+- **The claim.** The term grows like e^(4πR√(pp′)) if p < 0 and p′ < 0. Otherwise it grows at most polynomially, times a
+  constant e^(2πA·y_min) set by the ends of the period.
+- **Why.** On the semicircle τ = c + Re^(iθ), the term is e^(2πR(A sin θ + iΔ cos θ)), with A = −(p + p′) and
+  Δ = p − p′.
+  - This is a modified-Bessel integral, with rate 2π√(A² − Δ²) = 4π√(pp′) when A > |Δ|.
+  - A > |Δ| holds exactly when both exponents are negative. Otherwise a shift of the contour bounds the term.
+  - On a closed thread it applies per cusp excursion. h₅ and h₉ are level-one forms, so their exponents are the same at
+    every cusp.
+- **Checked.**
+  - **Five terms at R = 4, 8 and 12** (`saddle_check.py`). The growing terms match to the prefactor's drift: 11.20
+    against 11.00, 9.09 against 8.89, and 8.14 against 7.93. The non-growing terms stay polynomial.
+  - **The referee, on true one-period arcs of L·Rⁿ:** 11.20 against 11.00, and 1.78 against 1.57.
+- **K.** With p = p′ = −e_a, the criterion gives W84's |q|^(−2e_a).
+
+**2. Applied to the cells.**
+- Y's integrand pairs the holomorphic product (matter × matter × coupling vector) with a conjugated Higgs mode: h₅ in
+  C1 and C3, h₉ in C2.
+- **Every exponent of h₅ and h₉ is positive**, read off the forms; the lowest is 1/8, on v+.
+- **So Y grows at most polynomially in every cell, for every holomorphic coupling vector:** twisted or not, at any
+  order, on any line, in any sector.
+  - This holds at P4′. Under P4 the factor √(2πL + c_r) grows only like √y.
+  - The ORTH completion's constants grow at most polynomially.
+- The deep-cusp hierarchy therefore comes from K alone, and in the minimal reading K is untwisted.
+  - Every cell's matter units carry W84's e = (7/8, 1/8, 5/8) on both sides.
+  - C2's and C3's right units, E4·F, share these exponents. f decays.
+  - K's off-diagonal entries are polynomial.
+- **So in the minimal reading the leading exponents are the same in every sector whose Y keeps rank three.**
+  - There m₂/m₃ ∝ |q| and m₁/m₃ ∝ |q|^(3/2), which is W84's law.
+  - The twist enters only through O(1) coefficients and polynomial factors.
+  - The criterion bounds Y from above only. A suppressed minor of Y would change the exponents, as the rank-two cells at
+    zero twist show.
+- **A correction to chat1's own first reasoning.** chat1 told the owner, without recording it, that the twisted
+  exponents' denominators 2N² keep them off resonance with the eighths, so their top contributions oscillate away.
+  - That is wrong. A mismatch Δ of order 1/(8N²) barely lowers the rate.
+  - What decides is the criterion: the Higgs mode's exponents are positive. Resonance plays no part.
+
+**3. Checked in ball arithmetic at excluded orders** (`deep_cusp.py`). The tool is python-flint at 358–731 bits. Every
+form is evaluated at the unreduced point of the thread's period, so no transport is needed.
+- **The trick's scope.** It needs the period to stay at y ≳ 1, which holds on the L·Rⁿ towers (min |C| = 1; y ≥ 0.98
+  here). On other threads the period dips to y ≈ 1/|C| and needs reduction or more terms.
+- **Validated at zero twist against THETA2 on L·Rⁿ, n = 1–7.**
+  - The gap to THETA2's stored m₂/m₃ is 10⁻¹⁶–10⁻¹⁴ at n = 1, at most 3·10⁻¹² at n = 2, 5·10⁻¹⁰ at n = 3 and 2·10⁻⁷
+    at n = 4 (y = 2.8).
+  - Above THETA2's admitted range (y ≤ 3) it grows: 10⁻⁴ at y = 3.4, 3·10⁻² at 3.9, and order one at 4.4. THETA2's
+    integrals are in double precision, and its admission rule already excludes these threads.
+- **The towers:**
+  - L·R^(9, 18, 27) at N = 3;
+  - L·R^(25, 50) at N = 5;
+  - L·R⁴⁹ at N = 7, with heights from 5.4 to 26.
+- **Instrument checks:**
+  - closure of Y₁'s integrand is better than 10⁻³⁹;
+  - in the twisted sectors, quadrature converges to 2.3·10⁻³⁹ or better (Npts against 1.25·Npts);
+  - B1654's theta formula for R agrees with W72's series to 4·10⁻⁴¹;
+  - ball radii, which cover rounding only, are below 10⁻⁷⁴. The forms' coefficients carry the solve's 10⁻⁴¹
+    residuals, and the series' truncation is 10⁻⁴² at y_min;
+  - the excluded orders' coincidences are reproduced exactly: up = down at 3, where the leptons are untwisted;
+    down = leptons at 5; up = leptons at 7.
+- **The referee's independent recomputation** (its own theta constants, geodesic and quadrature, with the same forms)
+  agrees to 15 digits on L·R⁹ (up), L·R¹⁸ (down) and L·R²⁵ (up, leptons), in C1.
+- **Every twisted sector, in all seven cells (49 sector-cell slopes):**
+  - the slope of ln(s₂/s₁) per 2π·Δy runs from −0.94 to −1.14;
+  - the slope of ln(s₃/s₁) runs from −1.41 to −1.62;
+  - both scatter about W84's (−1, −3/2), with corrections from polynomial factors and thread-dependent O(1)
+    coefficients (offsets from −2πy of 0.4 to 16);
+  - K₃₂'s diagonal slopes are 1.758, 0.258 and 1.258, against W84's 7/4, 1/4 and 5/4. The excess matches the
+    polynomial factor;
+  - ln max|Y| moves by at most 0.19 per 2π·Δy, while K's largest entry moves by 1.73–1.77.
+- **The rank-two zero.** At zero twist, C2/E4 and the three C3 cells keep the rank-two zero, LIFT's P4′ zero. It comes
+  from v = R being a matter unit (THETA2; the 13:40 addendum, §6). In every twisted sector all seven cells are rank
+  three: observed, not proved.
+- **For the SM seat, on W84's open residual.** W84 left the limit of the m₂/m₃ slope open: its local slopes of
+  −ln(m₂/m₃) plateaued at 6.41–6.43 (1.02 × 2π) up to y = 4.6.
+  - At zero twist in C1, the secant slopes of −ln(m₂/m₃) here are 1.00 × 2π (L·R⁹ → L·R¹⁸), 0.88 × 2π (L·R¹⁸ → L·R²⁷)
+    and 0.98 × 2π (L·R²⁵ → L·R⁵⁰).
+  - They scatter about 2π by the threads' O(1) offsets and show no plateau above it at y = 10–26.
+  - Each spans a Δy of 4.5–12.5, so they cannot resolve a 2% residual like W84's.
+- **Disclosed.** The first deep run parsed the forms' coefficients at 53 bits. Its singular values agree with the final
+  run's to double precision, but its ball radii were meaningless. That run is filed beside the final one.
+
+**4. What it means.**
+- **chat1 withdraws its proposal of 13:43 and 14:07 as framed.**
+  - In the minimal reading the per-sector exponents at N = 9, 11 and 12 are W84's in every sector whose Y keeps rank
+    three.
+  - No sector is untwisted at those orders, and the null but twisted up sector at N = 5 stays rank three.
+  - Rank at those orders was not computed.
+  - So a sealed comparison would test what the record already holds: the SM seat's §117 (W88) scored W84's 3/2 against
+    the data at Σz² = 57, with ρ = 2.11, 1.75 and 2.89.
+- **The absolute scale.** ln(m₂/m₃) ≈ −2π·y_max + O(10) at the heights computed.
+  - Measured at N = 5 in the twisted sectors and all seven cells: from −84 to −69 at y = 13.5, and from −162 to −154
+    at y = 26. In C1 for the up quarks it is −81.3 and −157.2.
+  - The least-volume closing threads, L·R^(N²) for + and L·R^(N²−4) for −, sit at y ≈ N²/2 + 1 or N²/2 − 1. That is at
+    least 11.46 for odd N ≥ 5 (−L·R²¹).
+  - At N = 12 the closure law is not established. Any L·Rⁿ that fixes an order-12 line has n ≥ 8, so y ≥ 4.9.
+  - Every sector's observed m₂/m₃ is above e⁻⁶.
+  - **So if volume selects the thread, the minimal reading misses every sector by about twenty orders of magnitude or
+    more at odd N ≥ 5.** This takes the offsets measured here (at most 16) as typical; no − thread was computed.
+  - This is read at excluded orders from a law that does not depend on N. No N = 9, 11 or 12 quantity was computed.
+- **What survives of the minimal reading: the low closing threads** (the lowest at height 1.50).
+  - None of them is in the cusp regime, so their values are set by O(1) coefficients, not exponents.
+  - The double-precision instrument is sound there (y ≤ 3).
+  - That brings back the question of which thread, which volume does not settle there.
+- **Exponents that separate the sectors need sector-dependent units, as W84 said (§106, item 4).** Either:
+  - **matter units carrying their own characteristic:** q_L·w on the left and q_R·w on the right, sections of ρ_R with
+    characteristic, so that K's exponents move per sector; or
+  - **a Higgs mode that grows at the cusp.**
+  - Both live in the SM seat's machinery: ρ_R's sections, and W72's Higgs modes.
+
+**5. For the SM seat (§126).**
+- **The caution, from W90.** W90's premise holds here too. Its route through δ does not separate the leading exponents
+  in the minimal reading; δ moves only O(1) coefficients.
+- **The ask.** N = 12 is accepted for any sealed design, but in the minimal reading no design stands.
+- **The question.** Does ρ_R admit unit sections with characteristic (matter twisted by the hypercharge line, per
+  field), and what are their cusp exponents?
+  - If the SM seat builds them, chat1 carries them along the L·Rⁿ towers with this instrument.
+  - Or chat1 builds them and the SM seat checks blind.
+  - The owner decides which.
+
+chat1, 2026-10-15. 0 of 19.
