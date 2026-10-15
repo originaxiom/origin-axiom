@@ -7512,6 +7512,81 @@ the stated premises. 0 of 19.
   something outside B1656's frame. The first escape (the Higgs near neither symmetric vacuum) and the third (B1657's
   laws changing at the twisted sectors) stand.
 
+## Reading: W73 per sector, the design: what the surface frame needs from main's twisted zero mode (READING, by hand; 2026-10-15; nothing computed)
+
+**Why.**
+- W73 left one route to values in the surface frame. If the sectors had different couplings, fixed before any data,
+  the frame would predict three sets of mass ratios and a mixing matrix with no free τ (W73, "What would make it a
+  test").
+- Main's B1653 closed the fibre frame at a point: no flat line lifts the first generation there. It added that the
+  surface frame, whose coupling is an overlap integral, is where a line can still matter, and it invited this seat's
+  W73 per sector once main's twisted zero mode was sealed. B1653 and B1656 are sealed and run.
+- The line orders left at N ≤ 12 are {9, 11, 12} (the correction of relay §126). So the parked arc (relay §115) can
+  now be designed. This reading sets out the choices before any rule.
+
+**Weave or thread.** Weave-type, if the design takes the whole orbit of lines of each order, the surface integral and
+every sector jointly. A single hand-picked line on its level-N cover would be a thread-type choice and must be labelled
+so.
+
+**What W72 and W73 computed (untwisted).**
+- Y_ab = ⟨G_ab, h⟩ is the Petersson pairing over the modular curve, with G_ab = (R·F_b)F_a + (R·F_a)F_b − (F_a·F_b)R.
+  - F_a are the three chiral modes, of weight 3/2 in ρ_R.
+  - R is the residue triplet, of weight −½.
+  - h is the Higgs's surface mode, of weight 5/2 in ρ′.
+- Its rank is 3, and τ drops out. The modes are not normalisable, so W73 used H-end, K = diag(1, 2, 2), chosen post
+  hoc. It got 1 : 0.0194 : 0.00039 for every sector, and V = 1.
+
+**The choices a rule must fix, each stated with the record's default.**
+1. **What the line twists.**
+   - (a) The coupling vector only, B1656's minimal reading. R becomes the sector's twisted residue quaternion,
+     R_s = c_s θ_s(ū)θ_s(δ)/θ₁′(0), which now has four channels (R₁ ≠ 0, null: R₁² + R·R = 0, B1653).
+   - (b) The matter modes F_a and the Higgs's mode h too, by their own charges.
+   - chat1's m003 exploration found that (a) obstructs the up quarks on order-5 lines. At N = 9, 11 and 12 its
+     closure law (checked in relay §127) decides closure per thread. Over the whole curve, closure is replaced by the
+     orbit sum (choice 2).
+   - **chat1's 818db8b8d (read before this reading was committed) bears on this choice.** In the thread frame, under
+     (a), every sector keeps W84's deep-cusp exponents (1, 3/2), because every exponent of the Higgs modes is positive.
+     So sector-separating exponents need (b): matter units with characteristic, or a Higgs mode that grows at the cusp.
+   - Default: (b), the matter units with characteristic, as the arc's object, with (a) as its control. In the surface
+     frame, (a) can still give O(1) differences between sectors (the exploration below), but not separate
+     exponents.
+2. **How the line enters the surface integral.**
+   - (a) **The orbit sum.** All lines of exact order N together, Σ_w G_ab(R_sector(w)). It is SL(2, ℤ)-covariant and
+     integrates over the base curve. This is the weave reading.
+   - (b) One line, integrated over the level-N curve X(N). That is thread-type, and the result depends on the line's
+     class.
+   - Default: (a). Note that the sum can still split the sectors, since it depends on (k_u, k_d) modulo N.
+3. **The four channels in W72's three-component frame.** G_ab must be written for the quaternion: the identity
+   channel's R₁ enters with c₁ = −i. B1656's D_sector = Σ c_r R_r² is the fibre version. The surface version needs
+   B1644's coupling with all four units. Default: B1644's `Y_unit` for the four units, as in B1653's U1.
+4. **The normalisation.** H-end (W73, post hoc), held fixed and labelled; W72's K = 1 as the read-out.
+5. **The orders and the comparison.**
+   - N = 9, 11 and 12, all three under one rule.
+   - Data: HZ2021's mass ratios and B1612's CKM moduli. J is not compared, since the surface frame gives J = 0 for
+     every flat line (relay §118, W74).
+   - The predicate is W66's, with the look-elsewhere count over the three orders stated in advance.
+
+**Seen before any rule (an exploration in scratch, disclosed; one τ = 0.13 + 1.07i, 30 digits).** Under choice 2(a),
+summed over every line of exact order N, each sector's quaternion is S_s = Σ_w c_s θ[α_s + k_u w]θ[α_s + k_d w]:
+- **N = 9:** the three sectors stay apart. The direction cosines are 0.37 (up–down), 0.50 (down–leptons) and 0.46
+  (up–leptons). The leptons' sum is exactly null, with S₁ = 0, which is B1656's electron zero surviving the sum.
+- **N = 11:** up and down are nearly parallel (0.9995), and the leptons apart (0.77).
+- **N = 12:** up and down are nearly parallel (0.995), and the leptons apart (0.25 and 0.33). Every sector's sum is
+  null.
+- So the orbit sum does not restore V = 1 exactly at any of the three orders, but at 11 and 12 it pushes up and down
+  together. This is one τ, in the coupling vector alone, before any pairing with F and h. No mass ratio or angle was
+  computed.
+
+**What could go wrong before any data.**
+- The orbit sum may restore a symmetry that makes the sectors coincide, or V = 1, as the §115 reading feared ("The
+  orbit"). Then the arc ends with that exclusion, which is itself a weave-level result.
+- The principal parts of the modes grow exponentially (W72). With a twist, the cusp expansions run in q^{1/N²}, and
+  H-end's unit pairing must be redefined at the cusps of X(N), or, under choice 2(a), at the base's one cusp.
+- The surface frame cannot give J ≠ 0, so at best this tests 9 masses' ratios and 3 angles.
+
+**Status.** READING, a design with defaults. Before a rule, it asks main (whose twisted zero mode it uses) whether the
+defaults 1(a), 2(a) and 3 are main's reading too. 0 of 19.
+
 ## Reading: two defects, three masses: B1657's parallel vacuum read as two wholes (READING, by hand; 2026-10-15, after main's B1657)
 
 **Why.** Main sealed and ran B1657, "the symmetric point" (d4dcd0d50, ab392d4da; S0–S5 hold). It found two laws near

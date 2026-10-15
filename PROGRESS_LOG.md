@@ -19337,3 +19337,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   that matter (9 and 11).
 - **The web seat's counts of usable lines also hold.** Its sealed test can now go ahead on a verified
   footing. 0 of 19.
+
+## 2026-10-15 — the next object: matter with a twist
+
+- **The web seat showed** that twisting only the coupling between generations gives every family the same
+  hierarchy pattern, which the data already reject.
+- **What could separate the families** is matter that carries the hypercharge line itself. Its ladder of
+  masses would then shift by an amount set by each particle's hypercharge, which differs between up quarks,
+  down quarks and leptons.
+- **The seat wrote the design** for computing this, checked that the sum over all lines keeps the families
+  apart at order 9, and will build the twisted matter, rule first. 0 of 19.

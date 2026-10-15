@@ -2457,6 +2457,26 @@ def test_chat1_closure_counts():
     note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
     assert "**chat1's closure law, checked here" in note
 
+def test_reading_w73_per_sector_design():
+    """The design reading for W73 per sector (2026-10-15): a characteristic theta's leading q-exponent is the minimum
+    over n of (n + a)^2 / 2, so a twist k * psi_1 moves it quadratically (checked on the series for a few twists)"""
+    import cmath
+    from fractions import Fraction
+
+    def lead(a):
+        return min((n + a) ** 2 / 2 for n in range(-3, 4))
+
+    tau = complex(0.0, 60.0)
+    q = cmath.exp(2j * cmath.pi * tau)
+    for a in (Fraction(1, 2), Fraction(1, 2) + Fraction(1, 9), Fraction(1, 2) + Fraction(2, 9), Fraction(4, 9)):
+        th = sum(cmath.exp(1j * cmath.pi * float((n + a) ** 2) * tau) for n in range(-20, 21))
+        m = min(abs(n + a) for n in range(-3, 4))
+        count = sum(1 for n in range(-3, 4) if abs(n + a) == m)
+        assert abs(th / (count * abs(q) ** float(lead(a))) - 1) < 1e-6
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: W73 per sector, the design" in note
+    assert "**Seen before any rule (an exploration in scratch, disclosed" in note
+
 
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with

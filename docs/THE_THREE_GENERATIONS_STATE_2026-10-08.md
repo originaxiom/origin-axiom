@@ -672,6 +672,12 @@ Under the owner's rulings, the table's rows split into two groups:
   a thread with phase exp(−2πi c(q_L² + q_R²)/N), c = ⟨w, wγ⟩/N, to 10⁻²⁸ on genuine order-9 and order-11
   lines. chat1's counts hold: 12 lines of order 9 close all three sectors on its thread, and all 10 of order 11
   on its other. Its sealed comparison at those orders rests on this law. 0 of 19.
+- **W73 per sector, the design** (a READING; relay §128). It is the surface frame's Yukawa, with each sector's
+  coupling set by a hypercharge line of order 9, 11 or 12, summed over the whole orbit of lines.
+  - chat1 found that twisting only the coupling vector leaves every sector with W84's exponents, so the arc's
+    object is matter units with characteristic. By hand, their exponents shift quadratically in the field's
+    charge, a sector-dependent Froggatt–Nielsen structure.
+  - This seat will build them, rule first, after main's answer on the defaults. 0 of 19.
 
 ## Questions open with main
 
@@ -696,4 +702,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W90 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§127).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§128).

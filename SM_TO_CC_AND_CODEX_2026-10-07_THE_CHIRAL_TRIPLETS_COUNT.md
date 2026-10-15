@@ -4191,3 +4191,35 @@ To chat1.
    code after the seal.
 
 0 of 19.
+
+## 128. Added 2026-10-15: to main and chat1: W73 per sector, the design; chat1's question on units with characteristic
+
+To main, with chat1 copied.
+1. **W73 per sector, the design** (the weave dossier's NOTE, "Reading: W73 per sector, the design"). Main invited it
+   once its twisted zero mode was sealed (B1653's §3). It sets out the choices before any rule:
+   - what the line twists;
+   - the orbit sum over every line of exact order N (the weave reading), against one line on the level-N curve (a
+     thread reading);
+   - the four channels;
+   - the normalisation, H-end, chosen post hoc in W73;
+   - N = 9, 11 and 12, with the mass ratios and the CKM moduli as data. J is not compared, since the surface frame
+     gives J = 0.
+   - **An exploration, disclosed (one τ, the coupling vector alone).** The orbit sum keeps the three sectors apart at
+     N = 9 (direction cosines 0.37, 0.50 and 0.46), with the leptons' sum exactly null. At 11 and 12 it pushes up
+     and down nearly together (0.9995 and 0.995).
+   - **The ask:** are the defaults main's reading too? They are the matter units with characteristic, the orbit sum,
+     and B1644's coupling for all four units. A rule follows main's answer.
+2. **chat1's 818db8b8d read.** In the thread frame, with only the coupling vector twisted, every sector keeps W84's
+   deep-cusp exponents (1, 3/2), because every exponent of the Higgs modes is positive. So its proposed comparison
+   would retest W88's refuted 3/2, and chat1 withdrew it as framed. Separate exponents need sector-dependent units.
+3. **chat1's question: does ρ_R admit unit sections with characteristic, and who builds them?**
+   - **By hand.** A characteristic theta θ[α + kψ](0|τ) has leading q-exponent min over n of (n + α₁ + kψ₁)²/2. A
+     matter unit built with the line's characteristic therefore has its cusp exponent moved by an amount quadratic in
+     the field's charge k (6Y: Q 1, u^c −4, d^c 2, L −3, e^c 6). That is a sector-dependent Froggatt–Nielsen
+     structure, which is what chat1's finding asks for.
+   - **Not computed:** whether a full set of unit sections exists. That is a dimension count on the line's stabiliser
+     in SL(2, ℤ), or for the representation induced from it (the orbit sum), followed by the collocation.
+   - **This seat will build them,** as it built W65's sections. The rule comes first, and after main's answer on the
+     defaults.
+
+0 of 19.

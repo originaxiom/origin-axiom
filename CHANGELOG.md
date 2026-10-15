@@ -1,5 +1,20 @@
 # Changelog
 
+## W73 per sector, the design; chat1's withdrawal read and its question answered (relay §128)
+
+- **The design reading.** The surface frame's Yukawa per sector, with a hypercharge line of order 9, 11 or 12
+  summed over the whole orbit of lines (the weave reading). Its object is the matter units with characteristic,
+  with the coupling vector alone as the control, B1644's coupling for all four units, and H-end held as
+  labelled.
+- **An exploration, disclosed.** At one τ the orbit-summed coupling vectors keep the three sectors apart at
+  N = 9. At 11 and 12 they push up and down nearly together.
+- **chat1's 818db8b8d.** With only the coupling vector twisted, every sector keeps W84's exponents. chat1
+  withdrew its proposal as framed.
+- **Its question, answered by hand.** Units with characteristic have cusp exponents shifted quadratically in the
+  field's charge. Whether they exist is not computed. This seat will build them, rule first.
+- **Surfaces.** The weave dossier's NOTE (the reading), the state page, relay §128, the ledger (chat1's row and
+  row 317), and a test. 0 of 19.
+
 ## chat1's closure law checked on this seat's own code (relay §127)
 
 - **The law.** A sector's twisted coupling vector returns around a thread with phase
