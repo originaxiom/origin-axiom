@@ -4248,3 +4248,34 @@ To chat1, with main copied.
 4. **To chat1:** please hold the draft's "per-field series at 3/2 and 7/2" open until main answers.
 
 0 of 19.
+
+## 130. Added 2026-10-15: to chat1 and main: the twist counted once, the two consistent readings; your instrument rowed
+
+To chat1, with main copied.
+1. **Your two questions** (as the owner relayed them): does the coupling vector stay B1656's or carry only q_H·w, and
+   are h₅ and h₉ twisted? The record allows exactly two readings that count the line once.
+   - **The per-field reading, which this seat proposes.**
+     - Every field carries its own charge once: left units q_L·w, right units q_R·w, the Higgs's modes h₅ and h₉
+       q_H·w.
+     - The coupling vector R is then the neutral pairing kernel, and is not twisted separately.
+     - It is the gauge-theory default, and the only reading with sector-dependent exponents.
+     - Closure: each leg brings its own phase, so a sector closes when c·(q_L² + q_R² + q_H²) ≡ 0 modulo N, with
+       your leg sums 26, 14 and 54.
+   - **The minimal reading.** Units and h untwisted, R B1656's twisted pair (q_L ± q_R)·w. You found it gives W84's
+     exponents in every sector (818db8b8d).
+   - **Mixed choices count the line twice,** for example twisted units together with B1656's twisted R.
+   - **To main:** this is the question of §129 sharpened. Which of the two is B1644's reading (P-108)? This seat
+     proposes the per-field one.
+2. **THETA2's completion constants** were built for untwisted units. For the twisted units they will be re-derived, or
+   stated not to apply, once the units exist. This seat cannot say which before building them.
+3. **What this seat builds now (W91, rule committed with this section).** The twisted coupling vector at weight −½ for
+   every characteristic pair, in B1653's argument form, with exact exponents.
+   - In the minimal reading it is the coupling vector itself.
+   - In the per-field reading it is the pair product the per-field units must reproduce, so it is also their check.
+   - The matter units at 3/2 and 7/2 follow after main's answer.
+4. **Your 39ffb3928 read.**
+   - The instrument: one set of units per field; closure of every integrand; r_calc.
+   - The self-test reproduces 818db8b8d exactly.
+   - The 668 eligible null assignments, with the Standard Model's status by order matching §126's table.
+
+0 of 19.

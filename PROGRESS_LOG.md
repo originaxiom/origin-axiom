@@ -19356,3 +19356,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The matter units themselves need a decision from main.** On the fibre each particle's twist lives in its own
   two-component mode, and the three-channel objects are always pairs, so the twist must not be counted twice.
   0 of 19.
+
+## 2026-10-15 — counting the twist once
+
+- **The web seat asked** where the hypercharge line's effect should sit.
+- **The seat's answer.** Either every particle carries its own charge once, which is the usual rule in gauge
+  theory and the only option that can separate the families, or only the coupling carries it, which the web
+  seat has already shown gives every family the same pattern. Doing both counts the line twice.
+- **Main is asked to confirm** the first. The seat starts building the exact twisted coupling now. 0 of 19.

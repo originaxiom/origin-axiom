@@ -1,5 +1,15 @@
 # Changelog
 
+## The twist counted once: two consistent readings, one proposed; chat1's instrument read (relay §130)
+
+- **The per-field reading, proposed.** Every field carries its own charge once: left units q_L·w, right units
+  q_R·w, the Higgs's modes q_H·w, with R the neutral kernel. It is the only reading with sector-dependent
+  exponents. A sector closes when c·(q_L² + q_R² + q_H²) ≡ 0 modulo N.
+- **The minimal reading.** B1656's R with untwisted units; chat1 found it gives W84's exponents.
+- **Mixed choices count the line twice.** Main is asked which reading is B1644's.
+- **chat1's 39ffb3928.** Its instrument reproduces 818db8b8d, and its 668 eligible null assignments are ready.
+- **Surfaces.** The state page, relay §130, and the ledger (chat1's row and row 317). 0 of 19.
+
 ## The units with characteristic: what can be built now, and what needs main (relay §129)
 
 - **The owner's ruling** ("continue"; as chat1 also reports it) divides the work. This seat builds the twisted
