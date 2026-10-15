@@ -1,0 +1,56 @@
+{
+ "rule": "W93_RULE.md",
+ "status": "one run; not blind (B1658's output read first)",
+ "K1": {
+  "| ||adj Y|| / (|det S| ||M||^2) - 2 | max": 2.220446049250313e-15,
+  "adj Y / det S spread between two S": 3.1842381587787985e-15,
+  "sigma3 / sigma1 max": 2.4293733209483556e-16,
+  "holds": true
+ },
+ "K2": {
+  "null M: spectrum deviation max": 4.440892098500626e-15,
+  "non-null control: smallest deviation": 0.01850816042016934,
+  "holds": true
+ },
+ "K3": {
+  "|det M| / ||M||^2 max": 1.709824723492016e-39,
+  "leptons' |R_1| / |R| max": 1.6744862663254782e-39,
+  "holds": true
+ },
+ "K4": {
+  "spectrum identities, max relative": 3.0053166117702624e-38,
+  "sigma3 / sigma1 max": 2.3278684438113498e-39,
+  "largest (t + 1/t) ratio over 18 000 one-Higgs draws": 2.757642611485418,
+  "holds": true
+ },
+ "K5": {
+  "pairs": {
+   "up/down": {
+    "ratio": 5.079984941721298,
+    "sigma": 0.4646202537095133,
+    "z against 4": 2.324446541231753
+   },
+   "up/lep": {
+    "ratio": 15.922477646249607,
+    "sigma": 0.4423250725784377,
+    "z against 4": 26.954107703527004
+   },
+   "down/lep": {
+    "ratio": 3.1343552843002023,
+    "sigma": 0.2731305033872429,
+    "z against 4": -3.169344708717838
+   }
+  },
+  "refuted at 3 sigma": true,
+  "holds": true
+ },
+ "read-out: two Higgs fields (up; down and leptons)": {
+  "if the up sector has its own Higgs, the pairs constrained": [
+   "down/lep"
+  ],
+  "down/lep ratio": 3.1343552843002023,
+  "down/lep z against 4": -3.169344708717838,
+  "within the bound": true
+ },
+ "all cells hold": true
+}
