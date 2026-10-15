@@ -22,3 +22,19 @@ other seats' per-field twist/selection results with their actual maps;
 do not attach their mass matrices by a matching representation label.
 The fixed flat g2+u1 phase remains distinct from a physical SM phase.
 Ultimate generated SM+three chiral families+gravity is unachieved.
+
+## Supporting full-centralizer question, not a computed new phase
+
+W71 already records the fibre commutant F4 times SU2_w, dimension55
+BY CHARACTERS (saved upstream_SM_relay section85). Recover its actual
+producer and later corrections before building an instrument. Our
+computed g2+u1 result covers fixed based lifts/all COMMUTING WEAK
+corrections, not arbitrary full-centralizer compensators. A bounded
+next audit could classify the actual55 brackets and test whether a
+characteristic centre-free F4 factor permits removing its inner
+modular action while retaining the full F2/SAut relations. This is
+UNVERIFIED, not an F4/SM gauge phase or discovery. Need actual E8
+embedding/group compensators, centre/outer-action rejecting controls,
+changed cusp phases, global/R/reality/domain and spectrum again.
+No old named weak/Y axes, index or observed matter may be borrowed.
+Keep the common nonlinear physical boundary law as the primary duty.

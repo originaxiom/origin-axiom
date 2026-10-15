@@ -1,0 +1,48 @@
+UNVERIFIED supporting hatch, not a newly computed gauge phase or result.
+Do not build another instrument before the actual prior-art sweep/code.
+
+Prior already located: saved upstream_SM_relay.md section85 (W71) calls
+the Q8 holonomy commutant F4 x SU2_w, dim55 BY CHARACTERS. Its full
+section read. Our old actual invariant15 proof is g2+u1 only for the
+specified full-based lifts and all COMMUTING WEAK corrections, not all
+commutant-valued completions. Previous literal E8 continuous character
+has55 singlets,27 triplets,52 doublets and2 quartets under SU2_Q; these
+numbers alone do NOT identify an algebra. Need actual signed brackets.
+
+Proposed next bounded audit: reconstruct the FULL55 centralizer with
+literal A,B, identify its derived simple factors by brackets/Killing/
+root systems, not dimensions, and read all older F4/normalizer code.
+
+Conditional group construction to TEST, not yet an OA claim: if that
+centralizer contains a characteristic centre-free F4 factor and the
+actual full SAut(F2) lifts normalize it, their conjugation on F4 is
+inner (Out(F4) trivial). One might factor each lift rho(g)=f(g)r(g),
+with f(g) in F4 and r(g) centralizing F4. Centre-freeness could make
+f a genuine representation rather than a projective selection. Since
+the F2/Q8 fibre commutes with F4, its f factor should be trivial; the
+modified representation r may retain the actual Q8 fibre and ALL group
+relations while leaving F4 unbroken. In E8 the usual F4/G2 dual pair
+suggests the complementary factor, but the actual embedding/map must
+be exhibited. A centre obstruction, outer automorphism or wrong factor
+can invalidate this construction: explicit rejecting controls needed.
+
+If the map works, it is a different ADMITTED gauge background from the
+old fixed SU6 lifts, not a refutation of their computed g2+u1. It would
+not by itself preserve the OLD named weak SU2/hypercharge or give SM
+matter/anomalies. Need explicit E8 group-valued compensators, all based
+relations, actual gauge centralizer/root charges, cusp phases and full
+geometric/R/reality/domain map again; no borrowed old spectrum/index.
+It may yield F4 x u1 rather than restoring the old weak group. A later
+physical/broken phase still requires an actual SM embedding and action.
+
+Why worth preserving: the old six weak corrections can be complete
+within their family while missing every nonweak F4 compensator. The
+larger commutant was already in W71, so this is a connection to recover,
+NOT a claim of discovering F4. B959 is a different E6/27 outer-fold
+restriction; its full FINDINGS was read and is not a no-go for an E8
+internal Dirac spectrum with a new operator/background.
+
+Supporting investigation only; the main physical duty remains a common
+nonlinear boson/fermion/gauge/auxiliary/SUSY boundary law and GLOBAL
+stationary model. No F4 phase, selected genesis, SM/three/gravity is
+claimed computed in this note. Seal the actual audit before execution.

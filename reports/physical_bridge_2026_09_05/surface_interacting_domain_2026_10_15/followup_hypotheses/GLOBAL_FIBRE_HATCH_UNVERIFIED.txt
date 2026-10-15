@@ -1,0 +1,43 @@
+UNVERIFIED next-stage hypothesis; do not bank or call a discovery.
+Read latest main/SM/chat1 and actual cover/Hodge code before acting.
+
+Possible geometric route to a GLOBAL FIXED-FIBRE Higgs: the Q8 cover
+of a once-punctured elliptic curve, with commutator central-1 of order2,
+compactifies to a degree8 Galois cover branched at four points over
+the one marked point. Riemann--Hurwitz suggests genus3. This is likely
+the already-known quaternion origami/Eierlegende Wollmilchsau, NOT
+new insight. Need actual deck/holonomy map, not name/dimension matching.
+
+Local z=w^2 pulls z^-1/2 dz back to2dw, so an odd half-pole Higgs
+becomes a regular one-form on the cover. Original smooth z metric
+pulls back to4|w|^2|dw|^2, NOT a smooth nondegenerate cover metric.
+Do not infer physical finite energy or a new fermion domain from the
+regular algebraic form. Choosing a smooth orbifold metric changes input.
+
+If the expected H0(K_cover)=1 plus Q8-doublet is actually verified,
+pair its odd doublet with the full E8 odd coefficient representation
+(56 doublets) via ACTUAL intertwiners. This may construct the already-
+counted fibre Higgs sections globally. A commuting constant-root ansatz
+cannot be assumed to respect irreducible Q8. The old55/55/56 roster
+probably already contains this geometry; search its producer first.
+
+To obtain a real global vacuum, need polystability of the resulting
+equivariant ordinary-Higgs bundle, not merely a holomorphic section.
+For a trivial holomorphic E8 bundle on a compact cover, one route is
+an exact reductivity/stability certificate for the coefficient tuple
+(e.g. actual generated Lie algebra), then an applicable Hitchin/Simpson
+harmonic-metric existence theorem. Q8 equivariance and uniqueness could
+permit descent. This is NOT yet checked; the tuple could lie in a
+nonreductive nilpotent/parabolic orbit and fail the relevant criterion.
+Quaternionic doublet reality is not a real one-dimensional root choice.
+
+A smooth equivariant unitary connection on the cover can perhaps be
+put into an equivariant gauge with A_w(0)=0, giving bounded A_z on
+the coarse base. Then the new fixed-fibre domain theorem may apply to
+the descended Higgs. All hypotheses and actual Higgs field degree
+must be checked. Ordinary curve Hitchin is not automatically the full
+K-valued surface equation. Fibrewise metrics introduce horizontal
+connection/curvature; a whole surface/cusp vacuum remains separate.
+
+This hatch is supporting the full boundary/physical goal, not a shift
+to another count or a theorem already established in this session.

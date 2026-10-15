@@ -94,3 +94,8 @@ in THAT same model. Independent analytic review remains owed.
 Genesis selection, observed SM, three physical chiral families and
 gravity are unachieved. Other phases are not killed. New live tests
 and governance follow this scientific checkpoint.
+
+Validation continuation:7 new live tests PASS343.46s, true pre-launch
+snapshot,28pins/tree/index unchanged. Separate prior54-test regression
+not summed into this run. VALIDATION records the exact envelope;
+publication governance follows. Not the full suite.

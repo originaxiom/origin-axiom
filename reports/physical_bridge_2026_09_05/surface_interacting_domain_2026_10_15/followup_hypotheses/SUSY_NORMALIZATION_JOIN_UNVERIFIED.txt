@@ -1,0 +1,23 @@
+UNVERIFIED next-join checklist, no new result or defect verdict.
+
+The current fibre theorem uses arbitrary complex leading X in the
+ORTHONORMAL Higgs-scalar Clifford potential Phi8+i Phi9. The local BPS
+control instead states a coefficient of the FORM d(tau) wedge dz in
+the BHV equations. Both are in one supplied parent and have compatible
+singularity class, but this does not yet exhibit their absolute field
+normalization in the action/SUSY dictionary.
+
+For the declared flat real metric, d(tau)/sqrt2 and dz/sqrt2 have unit
+Hermitian norm, so a unit canonical two-form is d(tau)dz/2. Therefore
+a coordinate-form coefficient c corresponds geometrically to2c in that
+unit frame. Whether the source's scalar convention adds another sqrt2
+must be checked against its actual kinetic/Yukawa/SUSY coefficients,
+not inferred from a label. Derive the four-form wedge/current factors
+directly as well. No mass ratio or gauge coupling is used to fix it.
+
+The current generic-X domain theorem covers any constant rescaling,
+and the declared coordinate-form BPS equations remain the tested ones.
+Thus this is NOT a failure of the76/76 result. It is an obligation before
+claiming that one displayed scalar amplitude, a bosonic tangent and its
+fermion partner are numerically identical in a complete physical model.
+Keep this explicit in the next nonlinear boundary/SUSY preregistration.

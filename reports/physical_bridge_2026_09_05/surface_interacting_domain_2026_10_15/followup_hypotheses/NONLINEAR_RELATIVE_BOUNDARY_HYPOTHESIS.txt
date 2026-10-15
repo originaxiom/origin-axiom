@@ -1,0 +1,47 @@
+UNSEALED, UNVERIFIED next physical join. Do not bank as a derivation.
+Drafted outside the certifying tree during the 568ecf96c first run.
+
+Question: can epsilon- be realised as a nonlinear relative Dolbeault/
+supersymmetric boundary law in the SAME BHV parent, not just a fermion
+extension? Its canonical R+ critical slots are normal psi_V and bar_chi,
+not eta or tangential psi_H. Bosonic counterparts would be normal
+Abar_z and conjugate K-Higgs, with tangential Abar_tau and A_mu regular.
+This matches a relative leading form law, but is NOT full SUSY proof.
+
+Leading normal connection a_bar_z=bar(z)^-1/2 Y is locally dbar of
+2 sqrt(bar(z))Y; a compact-real gauge parameter combines this with its
+tau-conjugate. It tends to zero, is H1 and can be cut off. Thus its
+critical trace can be a gauge-orbit coordinate locally, not necessarily
+an independent physical scalar. This does NOT kill global cohomology.
+Acting on Phi=z^-1/2 X creates bounded even angular corrections. These
+may be exactly the epsilon- fermion dressing under the actual SUSY map.
+Need full coefficient/form map and gauge/ghost domain; do not count a
+pure local gauge coordinate as a particle or dismiss a global class.
+
+For generic odd X, possible all-X local BPS family: lift z=w^2 so
+z^-1/2 dz=2dw. On the cover the Higgs form is regular and a smooth
+equivariant harmonic metric might descend. Alternatively solve the
+radial Hermitian-metric equation as a regular-singular Volterra system
+rho u''+u'=F(u)+rho G(u,u'), with specified u(0) and bounded derivative.
+This is only a proof route; the actual nonabelian metric equation and
+its reality/positivity/compact E8 hypotheses have NOT been derived.
+The exact single-root radial example in the current seal is a control,
+not an all-X existence theorem.
+
+If an actual local BPS family exists, construct the bosonic finite-
+residual configuration space as this finite critical family plus regular
+H1 variations, then its allowed compact gauge orbits. Background Phi is
+L3, H1 variations L6, so mixed linear terms can be L2; quadratic H1
+terms are L2 through L4. A second-order critical variation needs its
+nonlinear backreaction, not a false linear L4 treatment of a half-pole.
+The epsilon- angular corrections may arise from these gauge/backreaction
+tangents; epsilon+ log corrections require their own end/source law.
+
+To earn a PHYSICAL BOUNDARY LAW: compare the actual full linearized
+bosonic residuals and their adjoints with the full MW Hamiltonian,
+including mixed spin/R and all248 coefficient directions; prove gauge
+and supersymmetry closure on a common dense domain; retain F- and
+D-term, auxiliary and end variations. Match the actual leading/current
+law without fitting masses. Even a successful local law still needs
+a GLOBAL stationary background and charged physical spectrum/anomalies
+and does not derive E8/spacetime/three/gravity from genesis.
