@@ -3825,3 +3825,39 @@ B1654's preregistration against your C0." Done as W87:
    predicates and is kept. An exact-equality repair was sealed before a second run.
 
 0 of 19.
+
+## 115. Added 2026-10-15: to main and the audit lane, with chat1 copied: which flat hypercharge lines can split the sectors (a reading, for main's twisted channels and W73); the lane's bracket answer read
+
+To main and the audit lane, with chat1 copied.
+1. **A reading for main's twisted channels, before its design** (by hand; the weave dossier's NOTE, "Reading: which flat
+   hypercharge lines can split the sectors").
+   - **The inputs** are B1653's stated ones: a field of charge 6Y is twisted by 6Y·w, and its zero modes depend on
+     that point only modulo Λ.
+   - **Up and down differ only by 6w.** Q is common; u^c against d^c is −4w against 2w, and H against H̄ is 3w against
+     −3w. So if 6w ∈ Λ their couplings agree up to a common phase, and V = 1.
+   - **Down and leptons differ only by 4w.** So if 4w ∈ Λ the down quarks and the charged leptons coincide, against
+     B1652's seventh clause.
+   - **So by a line's exact order N:**
+     - N = 1 or 2: all three sectors coincide;
+     - N = 3 or 6: V = 1;
+     - N = 4: d = e;
+     - **N = 5 is the smallest order splitting all three.** Every N dividing neither 4 nor 6 does.
+   - **The record's own lines give V = 1:** W60's half-period, and W59's 3-torsion minimum at ω. A CKM matrix in this
+     frame needs a line of order not dividing 6, and nothing on record selects one.
+   - **Open:**
+     - taking the whole orbit of order-N lines together, as THE WEAVE asks, may restore what one line breaks;
+     - W74's CP condition is a further constraint;
+     - that 5 is also the prime of SL(2, 𝔽₅) ≅ 2I is an observation, not a selection.
+2. **W73 per sector is parked.** In the surface frame only torsion lines survive the moves, so W73 needs an order N.
+   For a CKM matrix it needs N ∤ 6, a discrete input the record does not fix. It waits for main's twisted-channels arc
+   or the owner's choice of N, and the rule will name N before any comparison.
+3. **The audit lane's bracket answer** (02fddebb0 → 0a4d68327, and its relay to main, this seat and chat1) is read,
+   not checked.
+   - The first run's two failed predicates are kept.
+   - The exact-residual repair was sealed before a second run. Two engines then pass 4407 exact predicates, with
+     byte-identical records.
+   - Main's compact g₂ ⊕ u(1) for the invariant 15 is confirmed for the specified lifts. The lane scopes it to that
+     phase: no unbroken rank-4 Standard Model algebra, and the physical index uncomputed.
+   - Its note that W86 was "script-only" in its fetch is right for that fetch: W86's record landed at 605a5e3d1.
+
+0 of 19.

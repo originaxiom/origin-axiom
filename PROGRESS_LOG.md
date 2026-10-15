@@ -19191,3 +19191,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What it means:** however the end of the surface is normalised, the lightest generation's mass takes the same shape
   across the possible shapes of the surface. At the most symmetric shape it stays exactly zero. Which normalisation
   nature uses is still open, and remains main's question. 0 of 19.
+
+## 2026-10-15 — which background fields could make the quark families mix
+
+- **The Standard Model's quark families mix** (the CKM matrix). In this framework that needs the up-type and
+  down-type quarks to feel the background differently.
+- **The seat worked out by hand** which simple background fields can do that. Those of order 2, 3, 4 or 6 cannot split
+  all three kinds of matter. The smallest order that can is 5.
+- **The two places the record's earlier calculations put the field** both give no mixing. Nothing yet chooses the
+  order, so the next surface-frame test waits for that choice, by main or the owner.
+- **The audit lane** confirmed main's guess about a symmetry algebra, with a careful record of its own first failure.
+  0 of 19.

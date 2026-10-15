@@ -2163,6 +2163,25 @@ def test_w87_the_boundary_class_norms_checked():
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W87." in note and "the_boundary_class_norms_checked.py" in note
 
+def test_reading_which_hypercharge_lines_split_the_sectors():
+    """The reading (by hand, 2026-10-15): with the dictionary's charges (6Y), a flat hypercharge line w makes up and
+    down differ only by 6w and down and leptons only by 4w, so a line of exact order N gives V = 1 if N divides 6 and
+    d = e if N divides 4; 5 is the smallest order splitting all three sectors"""
+    ch = {"Q": 1, "uc": -4, "dc": 2, "L": -3, "ec": 6, "H": 3, "Hb": -3}
+    sect = {"up": ("Q", "uc", "H"), "down": ("Q", "dc", "Hb"), "lep": ("L", "ec", "Hb")}
+
+    def same(n, s1, s2):
+        return all((ch[a] - ch[b]) % n == 0 for a, b in zip(sect[s1], sect[s2]))
+
+    for n in range(1, 13):
+        assert same(n, "up", "down") == (6 % n == 0), n
+        assert same(n, "down", "lep") == (4 % n == 0), n
+        assert same(n, "up", "lep") == (2 % n == 0), n
+    assert min(n for n in range(1, 13) if not (same(n, "up", "down") or same(n, "down", "lep"))) == 5
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: which flat hypercharge lines can split the sectors" in note
+    assert "**N = 5 is the smallest order that splits all three sectors**" in note
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

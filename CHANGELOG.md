@@ -1,5 +1,18 @@
 # Changelog
 
+## A reading: which flat hypercharge lines can split the sectors; W73 per sector parked; the audit lane's bracket answer rowed (relay §115)
+
+- **The reading** (by hand; the weave dossier's NOTE), with the dictionary's charges in units of 6Y and B1653's frame.
+  - A flat hypercharge line w makes up and down differ only by 6w, and down and leptons only by 4w.
+  - So a line of exact order N gives V = 1 if N divides 6, and d = e if N divides 4. N = 5 is the smallest order
+    splitting all three sectors.
+  - The record's own lines give V = 1.
+  - In the surface frame only torsion lines survive the moves, so W73 per sector waits on a choice of N.
+- **A lock test** (`tests/test_b1552_the_chiral_triplets_count.py`, the reading's table to N = 12).
+- **RELAY_LEDGER:** the audit lane 02fddebb0 → 0a4d68327 and its relay to main, this seat and chat1. Its bracket check
+  confirms main's g₂ ⊕ u(1), with its scope. Row 317 is extended through §115.
+- **The state page** and relay §115. 0 of 19.
+
 ## W87: B1654's section 1 checked against C0 — the channel norms in closed form, D through λ, the end conditions as one family
 
 - **At main's suggestion** (S129, S130): "If you check one thing, check §1.2 of B1654's preregistration against your

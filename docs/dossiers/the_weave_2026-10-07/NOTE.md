@@ -7320,6 +7320,62 @@ residues satisfy R·R = 0 together. The claims are identities in τ.
 1–3 are proved by hand and checked to 10⁻⁴⁰, or by quadrature to 10⁻¹⁴. Derivation 4 is a reading, and the isotropic
 slope is post hoc. A weave-type result given Λ, P1 and P2. 0 of 19.
 
+## Reading: which flat hypercharge lines can split the sectors (READING, by hand; for W73 and main's twisted channels; 2026-10-15)
+
+**Why.** W73's blind test, and main's next C arc (the twisted channels per sector), both give the up quarks, the down
+quarks and the leptons different couplings through a flat hypercharge line on the fibre. Before either is designed,
+this reading asks which lines can split which sectors. Nothing here is computed by a script.
+
+**Weave or thread.** The line lives on the fibre every thread shares, and the claims hold for every thread.
+- One line chosen by hand is not a weave object. The moves carry a line of exact order N to every line of that order,
+  so a weave reading takes the whole orbit together. That is noted at the end, not resolved.
+
+**The inputs (main's B1653, §1, item 2).** These are the dictionary's, not derived:
+- Hypercharge is a flat U(1) on the fibre with the Standard Model's charges in units of 6Y: Q 1, u^c −4, d^c 2, L −3,
+  e^c 6, H 3.
+- A line is a point w of the fibre, and a field of charge 6Y is twisted by 6Y·w. Its zero modes depend on that point
+  only modulo the lattice Λ = ℤ + ℤτ: a shift by Λ changes θ[a, b] by a constant phase.
+- The sectors are up (Q, u^c, H), down (Q, d^c, H̄) and leptons (L, e^c, H̄), whose twists are (w, −4w, 3w),
+  (w, 2w, −3w) and (−3w, 6w, −3w).
+
+**What follows (by hand).**
+1. **Up and down differ only by 6w.** Their left fields are the same (Q), and the right field and the Higgs differ by
+   6w (−4w against 2w; 3w against −3w).
+   - So **if 6w ∈ Λ, the two sectors see the same twists, up to constant phases common to every generation.** Their
+     couplings then agree up to a phase, their left singular vectors agree, and the CKM matrix is 1.
+2. **Down and leptons differ only by 4w** (w against −3w; 2w against 6w; the Higgs is H̄ in both). So **if 4w ∈ Λ the
+   down quarks and the charged leptons get the same couplings.** That is the opposite of this seat's seventh clause in
+   B1652's parent: split the down quarks from the charged leptons.
+3. **Up and leptons coincide if 2w ∈ Λ.** Then all three sectors coincide.
+4. **For a line of exact order N** (kw ∈ Λ exactly when N divides k), checked against every N to 12 by hand:
+   - N = 1 or 2: all three sectors coincide;
+   - N = 3 or 6: up = down, so V = 1, while the down quarks and the leptons split;
+   - N = 4: the down quarks and the leptons coincide, while up splits from both;
+   - **N = 5 is the smallest order that splits all three sectors** (6w and 4w are not in Λ). So is every N that
+     divides neither 4 nor 6: 5, 7, 8, 9, 10, 11, 12 and beyond.
+5. **The record's own lines split up from down nowhere.**
+   - The half-periods (N = 2) are where W60's full potential puts the line.
+   - The 3-torsion lines (N = 3) are where W59 found a joint-parity boson's minimum at ω.
+   - Both give V = 1. A CKM matrix in this frame needs a hypercharge line of order not dividing 6, and nothing on
+     record selects one.
+6. **In the surface frame (W72, W73) only torsion lines exist.** A line with τ-independent holonomies keeps its class
+   under the moves only if it is torsion: the moves act on its holonomies through SL(2, ℤ), and a non-torsion point
+   has an infinite orbit. The family of twisted modes is then defined over the level-N cover. So W73 per sector needs
+   an order N, and for a CKM matrix N ∤ 6. That is a discrete input the record does not fix.
+
+**Open points.**
+- **The orbit.** Taking every line of exact order N together, as THE WEAVE asks, could restore symmetries a single line
+  breaks, such as V = 1 or W74's CP. That is not analysed here.
+- **The order 5.** It is the smallest order splitting all three sectors. It is also the prime at which the moves act
+  through SL(2, 𝔽₅) ≅ 2I (Reading W24–W29, point 3). That is an observation, not a selection: nothing here prefers N = 5
+  to 7 or 8.
+- **CP.** W74's condition, that whatever splits the sectors must also break CP, is a further constraint on the line.
+  It is not analysed here.
+
+**Status.** READING, by hand, given the dictionary's hypercharge charges and B1653's frame. A test in
+`tests/test_b1552_the_chiral_triplets_count.py` locks the table of item 4. W73 per sector is parked until an order N
+is chosen, by main's twisted-channels arc or by the owner. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows

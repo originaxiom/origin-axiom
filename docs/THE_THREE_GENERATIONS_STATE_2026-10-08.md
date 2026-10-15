@@ -596,6 +596,10 @@ Under the owner's rulings, the table's rows split into two groups:
   - every channel-blind end condition lifts the first generation with D's shape, and none lifts it at ω;
   - C0's covariance does not choose P4′. Its "numbers" sentence chooses the cutoff-free family e^{βx}, of which P4′ is
     the one zero-keeping member (relay §114). 0 of 19.
+- **Which flat hypercharge lines can split the sectors** (a READING, by hand, with the dictionary's charges). Up and
+  down differ only by 6w, and down and leptons only by 4w. So a line of exact order N gives V = 1 if N divides 6, and
+  d = e if N divides 4; 5 is the smallest order splitting all three. The record's own lines (W60's half-period, W59's
+  3-torsion minimum) give V = 1. W73 per sector waits on a choice of N (relay §115). 0 of 19.
 
 ## Questions open with main
 
@@ -620,4 +624,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W87 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§114).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§115).
