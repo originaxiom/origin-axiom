@@ -308,6 +308,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   lattice is the trefoil's complement, every thread is a closed orbit in it, and every two threads link. SE1's other
   solution (GENESIS §4) is that space, and ω and i are its exceptional fibres. The page is
   `docs/A_FRESH_LOOK_FROM_THE_PRINCIPLE_2026-10-15.md`.
+- W96 (main's B1659, the joint law, on this seat's own code; rule first; one run; every cell as predicted; blind to
+  main's output, not to its preregistration): det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S)
+  hold exactly (sympy), with main's A. The null cone, the symmetric form in (S, Mε) and the corollaries hold, and so
+  do the controls. Under P4′ every sector's matter at ω is null, so m₁ = 0 there for a reason other than the pairing.
 
 ## The setting
 
@@ -7596,6 +7600,47 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W96. Main's B1659 (the joint law, P-168) on this seat's own code: every cell holds, blind to main's output (`the_joint_law_checked.py`; `W96_RULE.md`)
+
+**The order.** The rule (699d19dab) came before the script (1db291582). The script was compiled before its run but no
+cell was executed, and the only pre-run change was wrapping long lines. Then came one run, with its output (f5f7ef4fd)
+committed before the read-out. Main's B1659 was sealed (f4b12d788) and not run when this ran. Its preregistration was
+read first. W95 is held for the fresh look's N2.
+
+**Weave or thread.** Q1–Q5 and Q7 are identities of the frame over M₂(ℂ) × M₂(ℂ), true at every τ but within one
+frame. Q6 is read at ω on W59's lines: a frozen piece.
+
+**The cells, every one as predicted:**
+- **Q1 (J1).** det Y − 4 det S det M tr(εSMᵀ) expands to 0 over eight complex symbols, on W93's frame: blocks
+  (QJ, QI, QK), ε = QJ.
+- **Q2 (J2).** adj Y − det S·A(M) − det M·P A(S) expands to the zero matrix, with main's A copied from its
+  preregistration and P = diag(1, −1, −1). So the two frames' conventions agree.
+- **Q3 (J2b).** A(pqᵀ) = q̃p̃ᵀ exactly, and not p̃q̃ᵀ. On 200 null M: adj Y = det S·A(M) to 2 × 10⁻¹⁶∥Y∥², and
+  ∥A(M)∥ = 2∥M∥² to 9 × 10⁻¹⁶ (B1658's T1).
+- **Q4 (J2c).** Y(S, Nε⁻¹) = Y(N, Sε⁻¹), tr(εSMᵀ) = −polar(S, N) at M = Nε⁻¹, and det(Nε⁻¹) = det N, all exactly.
+- **Q5 (J4).** At 40 draws each:
+  - null M, null S and S = M give m₁/m₃ ≤ 2 × 10⁻¹⁶;
+  - at the coincident point N = S the masses are geometric to 10⁻¹⁴;
+  - m₁ = ∣det Y∣/(m₂m₃) to 2 × 10⁻¹⁵.
+- **Q6.** On this seat's sector matter at ω (W59's 18 lines, three sectors, P4′, 40 digits; 108 cases with random
+  S): J1 holds to 4 × 10⁻⁴² ∥Y∥³ and J2 to 9 × 10⁻⁴² ∥Y∥². Every sector's ∣det M∣/∥M∥² ≤ 2 × 10⁻³⁹, so
+  m₁/m₃ ≤ 2 × 10⁻³⁹.
+- **Q7, the controls, all bite:**
+  - a 10% perturbation breaks J1 by at least 2.6 × 10⁻³∥Y∥³;
+  - A in place of P A breaks J2 by at least 0.12∥Y∥²;
+  - N ≠ S misses the geometric law, with median 0.40.
+
+**The read-outs.**
+- Off the null cone, generic draws give m₁/m₃ from 0.009 to 0.55.
+- On the sector matter the pairing ∣tr(εSMᵀ)∣/(∥S∥∥M∥) runs from 0.05 to 0.90. Under P4′ the first generation is
+  massless because the matter is null, not because the pairing vanishes.
+- So in this frame a first-generation mass needs a matter defect. Main's J3 gets one from P4's channel norms, on the
+  up and down quarks.
+
+**What it means.** Main's joint law holds on a second instrument, before main's own run. In B1656's twisted frame the
+spectrum is fixed by the two defects, their pairing and the quadratic A. This is the frame P-175 will test: can the up
+quarks' own matter defect do a second Higgs's work? The test is main's next step, under P4. 0 of 19.
+
 ## Reading: the arena, where every thread exists at once (READING, the owner's fresh look; checked by a post hoc script, no data; 2026-10-15)
 
 **The question.** The owner set the goal: start again from the principle, and name what the record keeps missing.
@@ -8459,6 +8504,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W92 | COMPUTED (the rule first; one run; six of seven cells as predicted; V3 failed as worded on an instrument slip, found post hoc and labelled, and holds on the post hoc); weave-type objects, no data | the per-field units: W72's units dressed by each field's own charge in the z-form; the series exact to 5 × 10⁻⁵⁹; covariant on 192 threads with the phase exp(2πi ε c q²/N); zeros only at N = 12, q = 6; the readings differ by the odd spin structure's term; THETA2 does not apply; chat1's coupling equals W91's; post hoc, closure with −q_H² on all 90 rows to 7 × 10⁻⁴⁰. 0 of 19 |
 | W93 | COMPUTED (the rule first; one run; five cells as predicted; not blind); a fibre-frame result at one τ, a frozen piece | main's B1658 on this seat's own code: the factorisation, the Gram spectrum {1, 2, 2, 4}, the null residues at ω, the exact spectrum and the factor-4 bound on the actual residues, the census (5.08, 15.92, 3.13); read-out: with the up quarks' own Higgs only down/leptons is constrained, inside the bound. 0 of 19 |
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
+| W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -8537,6 +8583,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
+- `W96_RULE.md`: the rule, committed before the code; `the_joint_law_checked.py` → `the_joint_law_checked.json` and `the_joint_law_checked_run.txt`: W96, main's B1659 joint law on this seat's own frame.
 - `the_arena_check.py` → `the_arena_check.json`: the arena reading's post hoc check (Rademacher's Ψ on 745 threads, the passages through i and ω, the root's distances, the trefoil's monodromy, the Lorenz linking on 69 threads); no rule, no data.
 - `W94_RULE.md`: the rule, committed before the code, with its pre-run correction; `the_symmetric_higgs_relation.py` → `the_symmetric_higgs_relation.json` and `the_symmetric_higgs_relation_run.txt`: W94, the symmetric null Higgs at ω and the down/lepton relation.
 - `W93_RULE.md`: the rule, committed before the code, not blind; `the_twisted_half_bound_checked.py` → `the_twisted_half_bound_checked.json` and `the_twisted_half_bound_checked_run.txt`: W93, main's B1658 on this seat's own code.

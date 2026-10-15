@@ -2546,6 +2546,25 @@ def test_reading_why_the_leptons_coefficient_is_extremal():
     assert "## Reading: why the leptons' coefficient is extremal in W94" in note
 
 
+def test_w96_the_joint_law_checked():
+    """W96 (rule 699d19dab, one run): main's B1659 joint law holds on this seat's own frame, every cell as predicted;
+    J1 recomputed symbolically in process on W93's units"""
+    import sympy as sp
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_joint_law_checked.json").read_text(encoding="utf-8"))
+    assert d["all cells hold"] and all(d[c]["holds"] for c in ("Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7"))
+    assert d["Q6"]["cases"] == 108 and d["Q6"]["max |det M| / ||M||^2 (every sector)"] < 1e-25
+    assert d["Q7"]["(b) min J2 violation / ||Y||^2 with A in place of P A"] > 1e-3
+    QI = sp.Matrix([[sp.I, 0], [0, -sp.I]])
+    QJ = sp.Matrix([[0, 1], [-1, 0]])
+    blocks = [QJ, QI, QI * QJ]
+    s, m = sp.symbols("s0:4"), sp.symbols("m0:4")
+    S, M = sp.Matrix(2, 2, list(s)), sp.Matrix(2, 2, list(m))
+    Y = sp.Matrix(3, 3, lambda a, b: sum(((blocks[a].T * QJ * S * blocks[b])[i, j] * M[i, j])
+                                         for i in range(2) for j in range(2)))
+    assert sp.expand(Y.det() - 4 * S.det() * M.det() * (QJ * S * M.T).trace()) == 0
+
 def test_reading_the_arena():
     """Reading (relay 139, the owner's fresh look): the arena check's facts hold in its JSON, and in process
     Rademacher's Psi is #R - #L on every thread to length 7, the root's axis passes through i, LLR's passes through

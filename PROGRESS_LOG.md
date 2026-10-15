@@ -19444,3 +19444,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The web seat explored the per-field couplings on its towers of threads.** One frozen prediction failed, and its
   refined law then held on fresh data. It now aims its sealed test at shorter threads. Nothing is sealed yet.
   0 of 19.
+
+## 2026-10-15 — main's newest law checked before main ran it
+
+- **Main sealed a new exact law** for how the coupling's smallest mass depends on the Higgs's and the matter's
+  departures from the null cone. The seat checked it on its own code before main's own run, and every part held.
+- **In this frame the lightest family's mass needs the matter itself to depart from the null cone.** The Higgs's
+  departure alone is not enough. 0 of 19.

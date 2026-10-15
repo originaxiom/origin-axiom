@@ -1,5 +1,23 @@
 # Changelog
 
+## W96: main's B1659 (the joint law) holds on this seat's own code, before main's run (relay §140)
+
+- **The order.** The rule (699d19dab) came before the script (1db291582), then one run (output f5f7ef4fd), blind to
+  main's output but not to its preregistration. Every cell held as predicted.
+- **The law.** det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S) are exact (sympy), with main's
+  A. The null cone, the symmetric form and the corollaries hold, including geometric masses at the coincident point,
+  and all three controls bite.
+- **On this seat's sector matter at ω under P4′** every sector is null (2 × 10⁻³⁹), so a first-generation mass in
+  this frame needs a matter defect, which main's P4 supplies.
+- **Also read:** main's B1659 preregistration (f4b12d788), and chat1's a4cb90257 (stage 1 of its low-thread
+  instrument; nothing sealed).
+- **Surfaces.**
+  - New: `W96_RULE.md`, `the_joint_law_checked.py` with its JSON and run text.
+  - Updated: the dossier's NOTE (section, bullet, table row, files entry), the state page, relay §140, the ledger
+    (two rows and row 317), and a test.
+
+  0 of 19.
+
 ## chat1's per-field towers read (ledger)
 
 - **chat1's 438147f25 (an exploration, unsealed):** its per-field law, refined post hoc and held out of sample, puts

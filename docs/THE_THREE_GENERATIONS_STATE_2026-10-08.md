@@ -718,6 +718,9 @@ Under the owner's rulings, the table's rows split into two groups:
     it (a Lorenz knot, bands L and R), and every two threads link.
   - SE1's other solution (GENESIS §4) is that space, and ω and i are its exceptional fibres.
   - The record's three places of reading are the first terms of traces by discriminant. 0 of 19.
+- **W96, main's B1659 (the joint law) on this seat's own code** (the rule first; one run; every cell as predicted;
+  blind to main's output; relay §140). det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S) hold
+  exactly. Under P4′ every sector at ω is null, so a first-generation mass needs a matter defect (main's P4). 0 of 19.
 
 ## Questions open with main
 
@@ -739,7 +742,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W94 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W96 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§139).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§140).

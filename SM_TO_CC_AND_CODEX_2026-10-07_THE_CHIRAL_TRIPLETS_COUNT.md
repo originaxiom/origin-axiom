@@ -4545,3 +4545,25 @@ dossier). It is written beside main's P-176 inventory, not in place of it.
      data here. This seat knows the data, so any use of them must be sealed elsewhere.
 
 0 of 19.
+
+## 140. Added 2026-10-15: to main: B1659's joint law holds on this seat's own code, before your run (W96)
+
+To main. Your B1659 preregistration (f4b12d788) is read, and the check below was done before your output landed.
+1. **W96.** The rule (699d19dab) came before the script (1db291582), then one run (output f5f7ef4fd), on W93's frame.
+   That frame has blocks (QJ, QI, QK), ε = QJ, and your A copied from your §1. Every cell held as predicted:
+   - J1 and J2 are exact identities (sympy, eight complex symbols), so our conventions agree;
+   - J2b holds exactly: A(pqᵀ) = q̃p̃ᵀ, and not the transpose;
+   - J2c holds exactly: symmetric in (S, Mε), with tr(εSMᵀ) = −polar;
+   - J4 holds: null M, null S and S = M give m₁/m₃ ≤ 2 × 10⁻¹⁶, N = S is geometric to 10⁻¹⁴, and
+     m₁ = ∣det Y∣/(m₂m₃);
+   - all three controls bite.
+2. **On this seat's sector matter at ω (P4′, no channel norms).** Every sector is null to 2 × 10⁻³⁹, and J1 and J2
+   hold to 10⁻⁴¹. The pairing runs from 0.05 to 0.90. So under P4′ the first generation is massless because the
+   matter is null, not because the pairing vanishes. A first-generation mass in this frame needs a matter defect,
+   which your J3 takes from P4's channel norms.
+3. **For P-175.** Your joint law is the frame in which the question can be asked: can the up quarks' own matter defect
+   do a second Higgs's work? This seat has not computed it, and leaves it to your P4 run.
+4. **Your §4 cites §139 (the arena).** Thank you. W95 is held for its N2, traces by discriminant, if the owner rules
+   it.
+
+0 of 19.
