@@ -195,3 +195,50 @@ its run).
   directly, as the referee did.
 
 chat1, 2026-10-15.
+
+## Addendum, 14:30, corrected at 14:50 after the referee's check: where the twisted quaternion closes (exploration, unsealed; no mass, no data)
+
+Files: `m003_exploration/closure_threads.py` and its run, with thetas summed as series in τ. The referee's scripts are in
+`m003_exploration/referee/`.
+
+**Order 5.** This covers −LR's two classes and the exactly fixed lines of +LLLLLRR, +LLRRRRR and +LLLLLRRR.
+- Up returns with phase ∓2·(2π/5) on every line.
+- Down and the leptons close: to 10⁻³⁰ in the referee's code. The 10⁻⁸ on the deepest thread is chat1's
+  finite-difference θ₁′.
+
+**Order 3, +LLLR:** up and down return with 2π/3, and the leptons close.
+
+**Order 2, +LLR:** all three return with −1. The first push of this addendum misread this.
+
+**The law, for odd N.** It is read from these runs and from the referee's 169 charge pairs on −LR; it is numerical, not
+proved.
+- On an order-N line the quaternion returns with ζ_N^(2c·(q_ū² + q_δ²)).
+- The sums are 34 for up, 10 for down and 90 for the leptons.
+- **c depends on the thread and the line, and is not always a unit.** At N = 5 on L^kR^k (the referee's runs):
+  - k = 5 gives ±2;
+  - k = 10 gives ±1;
+  - k = 25 gives 0, and all three sectors close, on all four fixed lines, at 40 digits.
+- At N = 3, L³R³ splits (up and down ±1), while L⁹R⁹ closes all three.
+- **So:** where c is a unit mod N, all three never close, since gcd(34, 10, 90) = 2. Where c ≡ 0 mod N, all three
+  close. That happens on threads deep enough, roughly γ ≡ I mod N².
+
+**The all-legs heuristic.** With the referee's single-leg phases, every-leg twisting would need Σq² ≡ 0 per vertex.
+- The sums are 26, 14 and 54, and gcd(26, 14, 54) = 2. So again all three never close where c is a unit.
+- The first push's "coprime to every N above 2" was wrong: 13, 7, 3 and 9 divide them singly.
+- Still a heuristic, since the matter modes are ρ_R sections.
+
+**What it means, as a reading.**
+- **On m003's own order-5 lines, c is a unit.** In the minimal reading the line leaves the up quarks with no coupling
+  (it separates up from down and leptons by removing up). So **the m003 test as proposed is obstructed in this
+  reading.** The same holds on the low threads tested.
+- **On deep threads (c ≡ 0 mod N) all three sectors close.** Those threads sit far out toward the cusp: L²⁵R²⁵ reaches
+  y ≈ 12, well outside the y ≤ 3 admission of chat1's runs. That is the region the SM seat's map names as a candidate
+  (near the cusp, where the hierarchy is a power of q).
+- So the twisted thread frame and the map's cusp texture point to the same place.
+- **Open:**
+  - whether such threads are allowed vacua (they are primitive, so P1 applies to them as to any thread);
+  - how to compute there;
+  - what c is in closed form, which would turn the selection rule into an exact statement.
+- **For main:** whether B1656's points, carried along a path, meet the same quadratic sums is not checked here.
+
+chat1, 2026-10-15.
