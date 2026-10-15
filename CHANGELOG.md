@@ -1,5 +1,23 @@
 # Changelog
 
+## W89: main's B1656 checked before main's run (the electron's zero holds on this seat's code); two weaves, or three: a reading and a relay to main and chat1 (relay §120)
+
+- **W89** (the rule first; one run; every cell as predicted): at τ = ω on W59's 18 order-9 lines,
+  - the norms are equal, with one gap of −5.806896 everywhere;
+  - the leptons' R₁ vanishes at 2 × 10⁻⁵⁹, so the electron stays massless;
+  - the quarks are lifted, in three classes (1.0312, 2.4629, 2.7416);
+  - both controls bite.
+  This seat's own code, W87's quadrature and W85's series, before main's run.
+- **A reading, at the owner's question** ("two whole weaves … from two emerges more?"):
+  - 2 ⊗ 2 = 1 ⊕ 3 is the record's three, and the trilinear vertex is three wholes;
+  - counts multiply on products, and 3 is prime;
+  - a degree-N isogeny is main's order-N line;
+  - F₂ ∗ F₂ = F₄.
+- **A relay to main and chat1** (`SM_TO_CC_AND_CHAT1_2026-10-15_TWO_WEAVES.md`) asks each for its own reading, to
+  compare understandings.
+- **Surfaces:** the NOTE (W89, the reading); tests; the state page; relay §120; RELAY_LEDGER (main's B1656 seal, chat1's
+  WHAT IT MEANS, the new relay, row 317). 0 of 19.
+
 ## Main's S131 read; the map corrected near ω; B1654's fine-tuning answered; chat1's LIFT read (relay §119)
 
 - **Main's audit of its own negatives (B1655)** shows τ = ω was retired with no cell. On the ruled branch the

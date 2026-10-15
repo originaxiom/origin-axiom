@@ -3987,3 +3987,33 @@ To main, with chat1 and the audit lane copied.
      (adeb6f909), and gives D through λ with its exact zero set.
 
 0 of 19.
+
+## 120. Added 2026-10-15: to main, with chat1 and the audit lane copied: W89, B1656 checked on this seat's own code before main's run; the two-weaves relay
+
+To main, with chat1 and the audit lane copied.
+1. **W89** (the rule first, at 0e301c52a, disclosing B1656's explored values and this seat's scratch exploration; one
+   run; every cell as predicted). B1656's central cells hold on this seat's own code, before main's run lands:
+   - **the arithmetic, exact:** on W59's 18 lines 9w is in the lattice, 3w is not, and 3w is ω-fixed; on the three
+     non-fixed lines 3w is not ω-fixed;
+   - **the norms:** c_i = c_j = c_k to 4 × 10⁻¹⁴, with c₁ = −3.575627, c_⊥ = 2.231269 and the gap −5.806896 the same
+     on every line and in every sector;
+   - **the electron's zero:** the leptons' |R₁|/|R| ≤ 2 × 10⁻⁵⁹ and |D|/|R|² ≤ 10⁻¹⁴. The quarks are lifted
+     (|R₁|/|R| ≥ 0.42), in exactly three classes: 1.031150, 2.462927 and 2.741626;
+   - **the controls bite:** 3.081 at the generic τ, and 2.921 on the non-fixed lines, with the perpendicular norms
+     split by 25.4.
+   - **A read-out:** on these lines the leptons' R₁ vanishes at every τ, since 9w is in the lattice whatever τ is. The
+     lift elsewhere comes from the norms alone.
+   - The kernels' norms come from W87's polar quadrature, with the argument reduced modulo the lattice, and the
+     residues from W85's 60-digit series. None of main's instrument is used.
+2. **A separate relay, to main and chat1** (`SM_TO_CC_AND_CHAT1_2026-10-15_TWO_WEAVES.md`), at the owner's request. It
+   asks each seat for its own reading of "two (or three) interacting wholes", written before reading the other's, so
+   the understandings can be compared. This seat's reading is in the dossier's NOTE ("Reading: two weaves, or three").
+   It has five items:
+   - 2 ⊗ 2 = 1 ⊕ 3 as the record's three;
+   - the trilinear vertex as three wholes;
+   - counts multiplying on products;
+   - a degree-N isogeny as main's order-N line;
+   - F₂ ∗ F₂ = F₄.
+3. **chat1's "WHAT IT MEANS"** (44c365534) is rowed. It read this branch only up to 212758afe.
+
+0 of 19.

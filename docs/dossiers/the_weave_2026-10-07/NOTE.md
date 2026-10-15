@@ -282,6 +282,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   by data. Point couplings, one coupling, lines of order dividing 6 and lines of order dividing 4 all fail, and so does
   W84's deep-cusp exponent ratio 3/2 (Σz² = 57). The line orders left are {5, 7, 8, 9, 10, 11, 12}. J could not be
   separated from 0 by four moduli with independent errors.
+- W89 (main's B1656, "the electron's zero", checked on this seat's own code before main's run lands; rule first; one
+  run; every cell as predicted): at τ = ω on W59's 18 lines, c_i = c_j = c_k to 4 × 10⁻¹⁴, with one gap c₁ − c_⊥ =
+  −5.806896 everywhere. The leptons' R₁ vanishes (2 × 10⁻⁵⁹), so the electron stays massless; the quarks are lifted, in
+  exactly three classes. Both of B1656's controls bite.
 
 ## The setting
 
@@ -7375,6 +7379,88 @@ owed. Nothing here counts as J = 0 holding.
 **Status.** COMPUTED. The rule came first; one run; six cells as predicted; Q3 failed as worded on its instrument, with
 its owed datum named. A scoreboard of exclusions. 0 of 19.
 
+## W89. Main's B1656 ("the electron's zero") checked on this seat's own code before main's run lands: every cell holds; the electron stays massless on W59's lines and the quarks are lifted in three classes (`the_electrons_zero_checked.py`; `W89_RULE.md`)
+
+**Why.** Main sealed B1656 (27e7e7482), the per-sector twisted channels at τ = ω on W59's eighteen Higgs lines. Relay
+§116 said this seat would check main's twisted channels after main's seal. This check was made before main's run
+lands, as W85 was for B1651.
+
+**Weave or thread.** Weave-type, as B1656: the fibre every thread shares at τ = ω, W59's lines, and the three sectors
+jointly. It is given Λ, the dictionary's hypercharges, B1654's premises with four channels, and B1653's twisted pairing.
+
+**The order.**
+- The rule (`W89_RULE.md`, 0e301c52a) was committed before the script. It discloses B1656's preregistration, main's
+  explored values, and this seat's exploration in scratch (three lines reproduced; an overflow traced to evaluating the
+  numpy series far outside the fundamental domain).
+- The script was committed at f71da8733: twisted kernels' norms by W87's polar quadrature with the argument reduced
+  modulo the lattice, residues from W85's 60-digit series, the arithmetic in exact rationals.
+- One run (38 s, exit 0). The output was committed unread at 6fb4eabb7.
+
+**The cells (each as predicted).**
+
+| cell | found |
+|---|---|
+| V1, the arithmetic (exact) | on all 18 lines 9w is in the lattice, 3w is not, and 3w is fixed by z ↦ ωz; on the three non-fixed lines 9w is in the lattice and 3w is not fixed |
+| V2, the equal norms | c_i = c_j = c_k to 3.7 × 10⁻¹⁴ on every line and in every sector; the gap c₁ − c_⊥ = −5.806896 everywhere (spread 3.4 × 10⁻¹⁴); c₁ = −3.575627, c_⊥ = 2.231269 |
+| V3, the electron's zero | the leptons' \|R₁\|/\|R\| ≤ 2.1 × 10⁻⁵⁹ and \|D\|/\|R\|² ≤ 1.1 × 10⁻¹⁴ on all 18 lines; the quarks' \|R₁\|/\|R\| ≥ 0.42 and \|D\|/\|R\|² ≥ 1.03; the null quaternion to 1.8 × 10⁻⁵⁹ |
+| V4, the three values | the 36 quark cases fall into exactly three classes, 1.031150, 2.462927 and 2.741626 (spread within a class 1.9 × 10⁻¹⁴) |
+| V5, the controls | at τ₀ = 0.13 + 1.07i on MIX3 the leptons have \|D\|/\|R\|² = 3.081; on the three non-fixed lines at ω, R₁ vanishes (≤ 1.1 × 10⁻⁶⁰) yet the perpendicular norms split by 25.4 and \|D\|/\|R\|² = 2.921 |
+
+**A read-out.** On these lines the leptons' R₁ vanishes at every τ, not only at ω, because 9w lies in the lattice
+whatever τ is. The controls' lepton lift comes entirely from the norms ceasing to be equal.
+
+**What it shows.**
+- **B1656's central claims stand on a second instrument, before main's run:** the equal norms by the order-3
+  rotation, D_sector = (c₁ − c_⊥)R₁², the electron's zero by the hypercharge arithmetic (q_L − q_e = −9 with 9w in the
+  lattice), and the quarks' lift in three classes.
+- **In the map's terms,** W59's lines have order 9, one of the orders W88 left. At ω they split the quarks from the
+  leptons and keep the electron massless at this order. That is the clause-7 split the parent asks for, with the
+  electron's mass deferred to the next order.
+- Nothing here is a mass value. The lifts carry the end datum L and the Higgs's direction (B1656 §4).
+
+**Status.** COMPUTED, every cell as predicted; the rule first; one run, before main's. A weave-type check given the
+stated premises. 0 of 19.
+
+## Reading: two weaves, or three: what interacting wholes can mean here (READING, by hand; 2026-10-15, at the owner's question)
+
+**Why.** The owner asked: "is it possible that two whole weaves should interact with each other so from two emerges
+more?", and then of "two threads interacting, or maybe three … ingredients for reality is here. we just need to make
+proper use of it". Nothing here is computed by a script. The representation facts are locked in a test.
+
+**Weave or thread.** THE WEAVE answers the first half itself. Reality comes from the forced interaction of everything
+the principle allows, so if two weaves were allowed, their joint action would be one weave on more records. The open
+questions are which wholes the principle allows, and what their joint action forces.
+
+**Five readings.**
+1. **Two copies of the weave's doublet already make three.** The common point's doublet ρ_Q satisfies
+   ρ_Q ⊗ ρ_Q = 1 ⊕ χ_i ⊕ χ_j ⊕ χ_k (C0, point 2). The three parity characters are the three imaginary units that index
+   the generations (W49's T = ℓ ⊗ M). So the record's three is what two copies of the weave's doublet make together:
+   from two, three.
+2. **Three wholes: the trilinear vertex.**
+   - ρ_Q ⊗ ρ_Q ⊗ ρ_Q = 4ρ_Q has no invariant, since −1 acts by −1, so three doublets cannot couple.
+   - ρ_Q ⊗ ρ_Q ⊗ χ_p has exactly one invariant for each parity p.
+   - So a three-way interaction exists exactly when one of the three is a two-made object, the parity-carrying Higgs.
+     That is C0's "the Higgs must carry a parity", read as an interaction of wholes.
+3. **Two fibres side by side: counts multiply.** On a product, indices multiply. Since 3 is prime, one factor must
+   count 1. A second whole cannot share the three. It can carry what one weave lacks, the selection. W24 already found
+   that no object the weave forces in dimension six gives three.
+4. **Two fibres linked by an isogeny.**
+   - A cyclic isogeny of degree N between two fibres is the same data as one fibre with a cyclic subgroup of order N,
+     that is, a torsion line of order N. The modular curve X₀(N) parametrises such pairs.
+   - That line is the choice the map is missing. B1656's lines have order 9, and W89 confirms that the electron stays
+     massless there while the quarks are lifted.
+   - **Caution.** An isogeny is a covering, and THE WEAVE calls work on one thread's covers a thread result. Here the
+     cover would be of the shared fibre, not of a thread. That is the owner's ruling to make.
+   - The selection does not disappear: it moves from "which line" to "which degree links the two".
+5. **Two sets of records: the free product.** F₂ ∗ F₂ = F₄ has moves that mix the two sets. But Out(F₄) is not
+   arithmetic, so the modular structure every computation on record uses (τ, the cusp, ω, modular forms) is lost. That
+   would be new territory. The principle, as GENESIS states it, gives two records.
+
+**Questions put to main and chat1** (relay `SM_TO_CC_AND_CHAT1_2026-10-15_TWO_WEAVES.md`, asking for independent
+readings so the seats' understandings can be compared).
+
+**Status.** READING, by hand. Items 1 and 2 are locked in a test by characters of the quaternion group. 0 of 19.
+
 ## Reading: where the CKM phase can come from (READING, by hand; 2026-10-15, after W88)
 
 **Why.** The map's inverse side says J ≠ 0 asks for a CP-odd class (W74). This reading asks which vacua (frame, τ,
@@ -7688,6 +7774,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W86 | COMPUTED (the rule first; the independent script and three labelled post hocs each committed before one run; R, C, F and X by five read-only auditors); a check of chat1's whole branch at the owner's order | every script reproduces (one depends on numpy's eigenvector order) and no sealed cell changes. I1 failed as worded (×0.898; chat1's own range exact); I6 failed on this seat's instrument and holds post hoc; I2–I5 and I7 hold. Three readings fall, re-checked on this seat's code: the meditation's self-coupling fork (with B517's nonnegative entries every thread is admitted, the root included); "carried by K, not by Y" (the hybrid could not test it; Y's shape sets the level); the first background's length law (LLRR first at level 4, bronze at 3). B and C findings graded; four of this seat's statements corrected. 0 of 19 |
 | W87 | COMPUTED (the rule first, its exploration disclosed; one run; every cell as predicted); a WEAVE result given Λ, P1 and P2, at main's suggestion | B1654's section 1 on this seat's code: c_r = −2π ln((π/2)\|θ_r(0)\|²) (Parseval; three routes to 10⁻⁵⁹ and 10⁻¹⁴); D = −θ₃⁴h(λ)/(4πη⁶), zero exactly on ω's orbit, (π/2) ln 2 at i, the cusp law with its next order; every channel-blind end condition lifts the first generation with D's shape, none at ω; the cutoff-free family is e^{βx}, P4′ its β = 0; C0's covariance does not choose P4′, its "numbers" sentence chooses the family; post hoc, the slope at ω is (π²√3/6)\|θ₃(ω)\|⁴ in every direction. 0 of 19 |
 | W88 | COMPUTED (the rule first; one run; six cells as predicted; Q3 failed as worded on its instrument); a scoreboard of the record's breaking-free relations against the data | refuted: point couplings (first-generation ratios ≥ 5.9σ from 0; \|V_us\| 331σ), one coupling (Σz² = 218), lines of order dividing 6 (676) and 4 (172), W84's cusp ratio 3/2 (57; down alone z = 1.5); the line orders left {5, 7, 8, 9, 10, 11, 12}; J could not be separated from 0 by four independent moduli, the direct datum owed. 0 of 19 |
+| W89 | COMPUTED (the rule first; one run, before main's; every cell as predicted); a check of main's B1656 on this seat's own code, weave-type given the stated premises | at τ = ω on W59's 18 lines: the arithmetic exact; c_i = c_j = c_k to 4 × 10⁻¹⁴, gap −5.806896 everywhere; the leptons' R₁ ≤ 2 × 10⁻⁵⁹ and D ≤ 10⁻¹⁴ (the electron massless), the quarks lifted in three classes 1.0312, 2.4629, 2.7416; controls 3.081 and 2.921 (perp split 25.4). 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -7766,6 +7853,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
+- `W89_RULE.md`: the rule, committed before the code, with main's disclosed values and this seat's exploration disclosed; `the_electrons_zero_checked.py` → `the_electrons_zero_checked.json`: W89, main's B1656 cells on this seat's own code (exact arithmetic, twisted norms by polar quadrature, residues at 60 digits, the controls).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

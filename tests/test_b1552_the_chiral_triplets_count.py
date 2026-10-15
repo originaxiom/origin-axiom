@@ -2255,6 +2255,46 @@ def test_reading_where_the_ckm_phase_can_come_from():
     note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
     assert "## Reading: where the CKM phase can come from" in note and "arXiv:1905.11970" in note
 
+def test_w89_the_electrons_zero_checked():
+    """W89 (the rule first; one run, before main's; every cell as predicted): B1656's cells on this seat's own code --
+    equal norms with one gap, the electron's zero on W59's order-9 lines, the quarks lifted in three classes"""
+    from fractions import Fraction as Fr
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_electrons_zero_checked.json").read_text(encoding="utf-8"))
+    assert d["every cell holds"] is True and len(d["cases at omega"]) == 54
+    assert abs(d["V2"]["gap"] + 5.806896) < 1e-6 and d["V3"]["leptons: worst |R1|/|R|"] < 1e-40
+    assert [round(v, 4) for v in d["V4"]["classes"]] == [1.0312, 2.4629, 2.7416]
+    # in process: the exact arithmetic on W59's lines (omega (a, b) = (b - a, -a) in the basis (omega, 1))
+    for b in (Fr(1, 9), Fr(2, 9)):
+        for i in range(3):
+            for j in range(3):
+                a3, b3 = 3 * (b + Fr(i, 3)), -3 * (b + Fr(j, 3))
+                assert (9 * (b + Fr(i, 3))).denominator == 1 and a3.denominator != 1
+                assert (b3 - 2 * a3).denominator == 1 and (-a3 - b3).denominator == 1
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W89." in note and "the_electrons_zero_checked.py" in note
+
+
+def test_reading_two_weaves_or_three():
+    """The reading (by hand, at the owner's question): two copies of the weave's doublet make the three parities
+    (2 x 2 = 1 + 3); three doublets have no invariant; two doublets and one parity have one"""
+    # the quaternion group's classes {1}, {-1}, {+-i}, {+-j}, {+-k} with sizes 1, 1, 2, 2, 2
+    size = [1, 1, 2, 2, 2]
+    rho = [2, -2, 0, 0, 0]
+    chis = {"1": [1, 1, 1, 1, 1], "i": [1, 1, 1, -1, -1], "j": [1, 1, -1, 1, -1], "k": [1, 1, -1, -1, 1]}
+
+    def mult(chi, psi):
+        return sum(s * a * b for s, a, b in zip(size, chi, psi)) / 8
+
+    sq = [r * r for r in rho]
+    assert all(mult(sq, chis[p]) == 1 for p in chis)
+    assert mult([r ** 3 for r in rho], chis["1"]) == 0 and mult([r ** 3 for r in rho], rho) == 4
+    assert all(mult([r * r * c for r, c in zip(rho, chis[p])], chis["1"]) == 1 for p in "ijk")
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: two weaves, or three" in note
+    relay = (ROOT / "SM_TO_CC_AND_CHAT1_2026-10-15_TWO_WEAVES.md").read_text(encoding="utf-8")
+    assert "0 of 19." in relay and "before you read the other seat's answer" in relay
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
