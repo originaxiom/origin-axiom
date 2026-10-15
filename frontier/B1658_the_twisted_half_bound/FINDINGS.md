@@ -61,6 +61,12 @@ The joint law under the canonical end condition; the first generation; other lin
 the interacting weave; any value. The census compares with M_Z running ratios; that a factor 16 against 4 survives
 running is assumed, not computed.
 
+## 3b. Checked on a second instrument
+
+The SM seat's W93 (rule dbf0db69e, script adb4d1f78, output 322abae9b; not blind: this arc's preregistration and output
+were read first) reproduced every cell on its own code: the factorisation to 2 × 10⁻¹⁵, the Gram spectrum {1, 2, 2, 4} to
+4 × 10⁻¹⁵, the residues at ω null to 2 × 10⁻³⁹ from analytic theta sums, and the census 5.08, 15.92, 3.13. Harvest row 1228.
+
 ## 4. Credit
 
 The SM seat's W90, which this extends, and its relay §124 (the Higgs's factor is the same in every sector of B1656's

@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1387** |
-| words of findings prose | **1,096,869** |
+| words of findings prose | **1,096,942** |
 | test lock files referenced | **812** |
 | arcs carrying an authored verdict | **1387** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1658`** (1012 words, 0 locks)  
+**PROVED — `B1658`** (1085 words, 0 locks)  
 THE TWISTED HALF BOUND (sealed b6542d300, sha256 3fd8de72; PROVED -- every cell holds as sealed; the output committed unread at 04d64c2ff): in B1656's twisted, quaternionic frame under equal framed data, each sector's matter residue is a null quaternion M = p q^T and, for ANY complex Higgs S, adj Y(S, M) = det S * q~ p~^T with ||A|| = 2||M||^2, so each sector's spectrum is exactly (1, t, 0) with t + 1/t = ||Y(S, M)||^2/(2|det S| ||M||^2); the Gram spectrum of S -> Y(S, M) is {1, 2, 2, 4}||M||^2, so ||Y||^2 lies in [1, 4]||S||^2||M||^2 for every S (rank one: (|u|^2|p|^2 + |u^dag p|^2)(2|v|^2|q|^2 - |v^T q|^2)); hence one Higgs keeps the sectors' (t + 1/t) within a factor 4 -- exactly; to first order k_s = 2/((1 + x_s)(2 - y_s)) in [1/2, 2], B1645's half bound twisted. The census against HZ2021's M_Z ratios (a scoreboard; data seen): up/leptons 15.92, 27 sigma above 4 -- one Higgs under equal framed data is refuted; up/down 5.08 (2.3 sigma), down/leptons 3.13 (within). Controls bite both ways (a synthetic world x6 outside the bound refuted, at 3.9 not). Left for the sectors' spread: the canonical end condition's joint law, a Higgs that differs by sector (P-166), or the cusp. 0 of 19.  
 `B1658_the_twisted_half_bound/FINDINGS.md`
 

@@ -17162,3 +17162,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   §130 (per field); W89's timing corrected; P-159 and P-166 DONE; P-168–P-171 rowed; W88 verified on main (P-171 DONE: five of six relations refuted, J = 0 untested).
 - Landing suite (P-143's ruling; the parallel runner as qualified): gates 45 of 45; the 169 governance, claim, harvest, register and changed-arc test files, 2303 passed, 0 failed, 6 skipped (35:58 with -n 8, slowed by an exploration sharing the machine). After it, W88's verification applied (P-171 DONE) and the 15 ledger and register test files rerun: 87 passed; the attribution gate caught a vendor word in the new register note (removed); gates 45 of 45 again.
 - Next: the joint law and its inverse map (P-168), then P-167 with the line-order rule (P-170). 0 of 19.
+
+## 2026-10-15 — S134 THE TWIST IS PER FIELD; THE PAPER OPINIONS
+
+- Main's answer on the twist restated directly (per field; the SM seat agreed in its §137). Both seats' paper opinions
+  are in (P-172 lists their repairs). Two lanes harvested (rows 1224–1230): W92, W93 (B1658 on a second instrument), W94
+  (a candidate down/lepton relation, to seal blind elsewhere, P-173).
+- Landing suite (P-143's ruling): gates 45 of 45; the 169 governance, claim, harvest, register and changed-arc test files, 2303 passed, 0 failed, 6 skipped (7:45 with -n 8, the machine otherwise idle). After it, the owner's question rowed (P-176) and the register's tests and the gates rerun.
+- Next: P-168, the joint law (exact, explored; its inverse map under P4 is P-175's first test). 0 of 19.

@@ -1,5 +1,20 @@
 # Changelog
 
+## S134 THE TWIST IS PER FIELD (MAIN'S ANSWER, AGREED); BOTH PAPER OPINIONS IN; TWO LANES HARVESTED
+
+- **Main's answer to the SM seat's §§129–130 (P-108), restated directly** for the two seats holding the per-field units:
+  B1644 carries no line; in B1653 and B1656 each field carries its own charge once (B1656's sector_twists and bil), so
+  main's construction is the per-field reading and R is the pair product. The SM seat agreed (§137). Relay
+  CC_TO_SM_AND_CHAT1_2026-10-15_THE_TWIST_IS_PER_FIELD.md.
+- **Harvest** (rows 1224–1230): the web seat to `37943f73` (its paper opinion with the provenance of its thread table and
+  selection data; W91 against its instrument at excluded orders, 2.3 × 10⁻⁵⁰), the SM seat to `5ece9984` (W92 the
+  per-field units delivered; the seats relay; W93, B1658 on the seat's own code, credited in B1658's FINDINGS; W94, the
+  symmetric null Higgs at ω, a candidate down/lepton relation 2/k_down = 2.58, 2.42, 1.70 against 3.14; §§134–137).
+- **Register:** P-108 answered (noted), P-148 (both opinions in); P-172 (the opinions' repairs to the specification),
+  P-173 (W94 sealed blind elsewhere), P-174 (why k_lep is extremal), P-175 (a separate Higgs for the up quarks: allowed,
+  forced, or replaced by the matter's defect under P4 — P-168's first test), P-176 (the owner's question: what the math depends on, how it co-emerges, what slips — main's inventory); the floor 176.
+- Landing suite (P-143's ruling): gates 45 of 45; the 169 governance, claim, harvest, register and changed-arc test files, 2303 passed, 0 failed, 6 skipped (7:45 with -n 8, the machine otherwise idle). After it, the owner's question rowed (P-176) and the register's tests and the gates rerun.
+
 ## S133 THE TWISTED HALF BOUND (B1658, PROVED); THE PRICE IS 4 + 9 = 13 (GENESIS v1.47); TWO LANES HARVESTED
 
 - **B1658, the twisted half bound** (sealed `b6542d300`; output unread at `04d64c2ff`; every cell as sealed). In B1656's
