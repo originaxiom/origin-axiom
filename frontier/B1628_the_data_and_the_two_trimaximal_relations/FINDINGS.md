@@ -1,5 +1,7 @@
 # B1628 — THE DATA AND THE WEAVE'S TWO TRIMAXIMAL RELATIONS: TM1 (T̄ ⊗ T) sits 0.85σ from the measured solar angle and TM2 (T ⊗ T, where all of G is flavour) 2.74σ on NuFIT 6.0 — the data prefer TM1 but do not yet exclude TM2 at 3σ on the global fit; JUNO's first measurement, reported beside it, puts TM2 at 3.64σ
 
+> *Audited 2026-10-15 by main (P-152, B1655): HOLDS AS WORDED; the NEGATIVE label marks main's failed expectation, not a failure of TM1. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed** (R1 and R2 hold; R3 and R4 fail). cc (main), 2026-10-09. Sealed `c395a2cd5` before any
 data was read (its push carried a PRACTICES currency commit, `05c848381`, disclosed). Value contact under the owner's
 reopening; not blind (§3). **0 of 19.**

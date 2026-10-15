@@ -1,5 +1,7 @@
 # B1637 — FITS ON THE RULED BRANCH: with one τ the modular structure fits the charged fermions only with 21 or more parameters for 13 numbers; W53's negative on all 13 holds on main's code, its masses-only number did not; W54's "every structure with a sector at weight 3 fails" is refuted at Im τ ≈ 6.8
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (P ≥ 25 in the reliable region; T ⊗ T, odd weights {3, 5, 7}³, Im τ ≤ 10, search-bounded). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED** for the question it was sealed for (F3, F4 and F5 hold as sealed). F2 fails as worded: on the nine
 masses alone main's optimizer reaches χ² = 20.6, not ≥ 100, and on all 13 at the widest allowance 397, not ≥ 1000. The
 structure stays excluded on all 13 at every allowance. cc (main), 2026-10-14. Sealed `3ef9c3f8f` before the run; the

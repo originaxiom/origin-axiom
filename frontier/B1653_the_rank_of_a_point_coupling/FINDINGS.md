@@ -1,5 +1,7 @@
 # B1653 — THE RANK OF A POINT COUPLING: the fibre's zero modes read at one point (a value, or the puncture's residue) form a rank-one bilinear of one doublet, so for every flat line and every Higgs the record's coupling has rank ≤ 2; the massless left state is the left-handed field's alone, so V = 1 ⊕ U(2); at a point a flat hypercharge line does not lift the first generation, and only a coupling that does not act as a point does
 
+> *Audited 2026-10-15 by main (P-152, B1655): HOLDS AS WORDED, except "explains W72", withdrawn by its own S129 correction. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED.** Every cell holds as sealed. cc (main), 2026-10-15.
 - Sealed `4e3981e24` (sha256 70ecef80) before the run. The output was committed unread at `832d17295`.
 - No data. **0 of 19.**

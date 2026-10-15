@@ -1,5 +1,7 @@
 # B1617 — THE WEAVE AT τ = ω: given the owner's tagged postulate τ = ω, the residual symmetry (order 48) keeps the matter triplet irreducible — the masses at ω are degenerate and there is no Majorana mass; near ω they split by powers of ε into a quasi-degenerate pattern, the opposite of the observed hierarchy; weighted modular-form Yukawas are the owed cell
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (the inner automorphisms act, exactly at ω); the near-ω clause has no cell. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed** (Z0, Z1, Z4 hold; Z2 and Z3 fail). cc (main), 2026-10-08. Sealed `da3027e03` before the
 run. **The owner's ruling (2026-10-08, in this session): τ = ω is a tagged working postulate** — every result here is
 "given τ = ω". No data is read. **0 of 19.**

@@ -69,3 +69,8 @@ d4fd4f5f4f0504f1c923589aba92b719808df134d1d62efd87b4fc8894057952  verification/b
 b1c8ea6e55fa2d2cd054a17b35adefb07decc080fb1a1c4af99ca6ebae0987d7  verification/before_the_seal/two_defects_numeric_output.txt
 36a0f6e659970cec92d37d060e7ba965f9f442f29ae08bee780783aa265d37dc  verification/before_the_seal/two_defects_output.txt
 468fcf03672f0c50906df4da58b9bca438e4cea859650860348609d03501ea70  verification/the_norm_of_the_boundary_class.py
+# 2026-10-15 (S131, at B1655's landing): in the four review scripts below, the one absolute path literal (the draft instrument's location on main's machine) was replaced by the sealed instrument's relative path, at the repository's no-machine-paths rule; nothing else changed. Their hashes as sealed are in the list above and in git at 155959126; their hashes now:
+d6c19a3bd58112517997aca23246aae01d32eb0a83fa69350ab14410a9484ae0  verification/before_the_seal/review/pre.py
+4f710db8f92a6ce2fd4fe6bd09d75b8668e5cc14ecf0ee0a27c6c329cd076d45  verification/before_the_seal/review/s23_names.py
+7506a1851a55eea86810b6e936cf4cba9dc13c5312755df2aacb8c6612162d82  verification/before_the_seal/review2/blocks.py
+adc59a7885ca6c0e36c94bda3cd85b349d1be1a1dfbe30430b7b69cf9c18da7b  verification/before_the_seal/review2/pre2.py

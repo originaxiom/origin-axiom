@@ -17129,3 +17129,15 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - Two read-only reviewing agents read the design before the seal.
 - Next, the twisted channels per sector. 0 of 19.
 - - The owner's rulings: P-143 (landing suites) and P-152 (main's negatives audited now, before the next C arc). Landing suite, the owner's ruling on P-143: gates 45 of 45; the governance, claim and changed-arc test files on the final tree, 713 passed, 0 failed, 9 skipped (10:26), and after the register's last edit its tests again, 85 passed, 1 skipped. The full suite, begun, was stopped at 40% with no failure on the ruling; it runs next at the review.
+
+## 2026-10-15 — S131 MAIN AUDITS ITS NEGATIVES
+
+- B1655 is PROVED (an audit arc; the owner's ruling on P-152): main's negatives since B1600 audited by main and four
+  read-only auditing agents. The arithmetic reproduces everywhere; the over-reading is in wording and propagation.
+  - Five features booked as failures (E89); τ = ω retired on a near-ω clause with no cell; restrictions worded as walls
+    (B1646's "never between" is quartic); corrections stopped at claim lines; cells that could not fail; B1604's lock
+    ended `or True`; the retraction sweep blind to two tables.
+  - Repaired: GENESIS v1.46, 24 verdict files, 24 FINDINGS, the public blocks, the outside-review page, THE_WEAVE,
+    LAW_MAP, THEOREM_REGISTRY, the kill graph, ERROR_LEDGER, RETRACTED_PHRASES. P-152 DONE; P-153–P-161 rowed.
+- Landing suite, the owner's ruling on P-143: gates 45 of 45; the 137 governance, claim and changed-arc test files, 2046 passed, 6 failed, 3 skipped (16:41). The six, all this landing's or older: the retraction sweep read main's own lock and edit script, which quote the withdrawn phrases (the lines now carry a retraction cue); the new relay had no RELAY_LEDGER row (rowed); and B1654's four pre-seal review scripts had carried an absolute machine path since its seal (S130's landing suite did not include that test): the one path literal replaced by the sealed instrument's relative path, with a dated note and the new hashes in B1654's ARTIFACT_HASHES. On the final tree the six failing files and the B1654 and B1655 locks: 27 passed, 0 failed; gates 45 of 45 again.
+- Next: P-153, the symmetric point at ω (sealed first), then C2. 0 of 19.

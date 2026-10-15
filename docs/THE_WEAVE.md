@@ -108,7 +108,7 @@ From `docs/dossiers/the_weave_2026-10-07/`:
 - **The grade (THE_BAR):** DERIVED on the weave — three, alike, chiral under the weave's own group, one per parity: the
   flavour structure of three generations. READINGS — the triplet as the generations (FK14); holomorphic zero modes as
   the left-handed matter (FK11). UNEARNED — which fields carry 𝕎 (W24's D4: the Lagrangian half is the frame choice);
-  gauge chirality. NEGATIVES — no index on a thread (B1604); the E₈ frames on the fibre give at most two complete
+  gauge chirality. NEGATIVES — no index on a thread (B1604: no twisted Euler characteristic and not the class index; B1655); the E₈ frames on the fibre give at most two complete
   generations (W23); no forced six-dimensional object gives three by the heterotic dictionary (W24). **"Did we derive
   three generations?" — no: the flavour three is derived, the gauge three is a selection.**
 
@@ -193,14 +193,14 @@ From `docs/dossiers/the_weave_2026-10-07/`:
 - The weave's group leaves the masses free — three per sector at TM1's charged-lepton symmetry — and admits no
   invariant bilinear or trilinear of the matter alone; a singlet Higgs gives three equal masses.
 - Vacua along the weave's own residual subgroups give rigid spectra (0, 1, 1) or (½, ½, 1), or one family with the exact
-  sum rule **m₁ + m₂ = m₃** (m₂ ≥ m₃/2): the charged leptons' hierarchy is out of reach. The masses, like the phase and
+  sum rule **m₁ + m₂ = m₃** (m₂ ≥ m₃/2): the charged leptons' hierarchy is out of reach. *(Audited 2026-10-15, B1655: with one Higgs irreducible at a time along RL, L, R or RRL; with several the masses are free.)* The masses, like the phase and
   the angles, are not in the weave's group.
 
 ## Main's addition: the neutrino masses on the weave (B1616, NEGATIVE as sealed) and the owner's rulings (GENESIS v1.33)
 
 - Majorana masses for the triplet live in Sym² T = 1 + 2 + 3. Along RRL, TM1's own neutrino-side symmetry, no vacuum is
   fixed; along RL, L, R the spectra are rigid and degenerate — excluded by the two measured splittings. **The weave's
-  group fixes no neutrino mass**; with B1611, B1612, B1615, no flavour value at all.
+  group fixes no neutrino mass**; with B1611, B1612, B1615, no flavour value at all. *(Audited 2026-10-15, B1655: along the four elements tested, where the central phases are physical; B1620 finds 16 Sym²-viable subgroups.)*
 - **The owner's rulings of 2026-10-08** (relayed by the SM seat, recorded on GENESIS v1.33): even ticks observed (GM5c);
   Λ a tagged working postulate, results "given Λ" (FK11); flat counts only (FK10); positivity kept (GM5d).
 
@@ -210,7 +210,7 @@ From `docs/dossiers/the_weave_2026-10-07/`:
 - At ω the residual symmetry — U (fixing ω), the sign, and the inner automorphisms, which act on the matter as the parity
   signs at every τ — has order 48 and keeps T irreducible: an ordinary vacuum gives three equal masses, no Majorana mass;
   near ω the degeneracy splits by powers of ε (U's charges on T: ¼, 7/12, 11/12 of a turn) — quasi-degenerate, not the
-  observed hierarchy. **Owed:** Yukawa couplings as weighted modular forms (U's eigenspaces at the automorphy phases).
+  observed hierarchy. *(Audited 2026-10-15, B1655: this near-ω clause has no cell — no spectrum near ω was computed; on the ruled branch the residual at ω is cyclic of order 12 and τ = ω is retired only as "no hierarchy found at ω".)* **Owed:** Yukawa couplings as weighted modular forms (U's eigenspaces at the automorphy phases).
 
 ## Main's addition: the weighted cell at ω (B1618) — τ = ω gives no hierarchy
 
@@ -230,7 +230,7 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 - **Masses.** Three distinct masses need an abelian residual: 57 of the 68 subgroups, exactly the abelian ones. Every
   such residual leaves the masses free.
 - **Mixing.** No mixing family short of the full four reaches the CKM. This holds under T̄ ⊗ T, T ⊗ T and Sym² T, the
-  last two being the SM seat's W39 given Λ. **The weave's symmetry reduces none of the 13 flavour parameters.**
+  last two being the SM seat's W39 given Λ. **The weave's symmetry reduces none of the 13 flavour parameters.** *(Audited 2026-10-15, B1655: none compatible with the data — 2916 of 3249 T̄ ⊗ T pairs have a family below four parameters, none reaching the CKM; exact residuals, one tensor per pair; the decisive clauses are post-seal.)*
 - **The PMNS** can be reduced to two parameters (the TM type, P10) under T̄ ⊗ T and T ⊗ T. Under Sym² T it cannot be
   reduced at all: no order-3 residual is viable there, so no TM1.
 - **Couplings in τ alone** always keep the inner automorphisms, and with them every mixing matrix is a permutation, at
@@ -279,7 +279,7 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 
 - **No.** The tick LR is the unique lowest closed geodesic of the weave (√5/2; the next is √2, the Markov values of
   B482). The clock's word, read as moves, stays below height 2.3. Under the weave's uniform measure, the share of letters
-  in a run of length ≥ k (time deep in the cusp) is (k+1)/2^k at every length, with no atom.
+  in a run of length ≥ k (time deep in the cusp) is (k+1)/2^k at every length, with no atom. *(Audited 2026-10-15, B1655: the limit, within 2.4% at n = 10, under the uniform word measure, which is not the geodesic flow's.)*
 - So the unit of end data a chiral three needs at the cusp (the SM seat's W45, W46) is **not dynamical**. If it is
   forced, it is forced as a boundary datum: a physical end mechanism or a postulate. FK10 stays open, sharper.
 
@@ -300,7 +300,7 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 
 - Main computed W45's Riemann–Roch number with its own code (the Borcherds–Skoruppa formula, calibrated on the trivial
   representation and η). The weave's lifts on T form only a **projective** representation of Mp2(Z), so χ_{3/2} is not
-  fixed by them: among the genuine rescalings it is 0 for five and 1 for one.
+  fixed by them: among the genuine rescalings it is 0 for five and 1 for one. *(Audited 2026-10-15, B1655: refuted in part by B1634: the helper's sign on S̃; the lifts form a genuine representation of Mp2(ℤ).)*
 - For the seat's ρ_T (T's exponents ⅛, ⅜, ⅞, W41's multiplier) main reproduces **χ_{3/2} = 0**. So the cusp unit's
   payoff, ±3 given Λ and the unit, rests on **W41's multiplier**, which is now the load-bearing input to verify on main.
 
@@ -311,7 +311,7 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
   the thread length (2.4 × 10⁻⁶ at length 40). Odd-length threads carry no zero modes; even ones carry 5/12 on average.
 - So the word reaches masses and mixing only through a choice of thread, a selection. Every datum the principle forces
   (τ alone, the clock, the tick, the cusp, the tick's point, the word) has now been read for the flavour values, and none
-  fixes one.
+  fixes one. *(Audited 2026-10-15, B1655: one coupling kind under one measure; B1635–B1636 found a value-fixing coupling days later.)*
 
 ## Main's addition: the ruled branch and the theta lifts (B1634, PROVED; GENESIS v1.41)
 
@@ -332,7 +332,7 @@ principle leaves. This arc takes every subgroup of the weave's group as a possib
 
 - **The couplings (B1635).** By main's own route the SM seat's W50 §3 holds: the coupling spaces by piece and weight, its
   mixing distance 0.670933, three distinct masses and non-permutation mixing at a generic τ, every coupling degenerate at
-  ω. Its sentence "every coupling is degenerate at i" is false: degeneracy at i depends on the weight mod 4. Given the
+  ω. *(Audited 2026-10-15, B1655: single pieces of T ⊗ T only; T̄ ⊗ T and mixed T ⊗ T are not degenerate at ω — B1640 cell A.)* Its sentence "every coupling is degenerate at i" is false: degeneracy at i depends on the weight mod 4. Given the
   sectors' weights, the flavour sector leaves 2 + Σ_s (2 d(k_s) − 1) free real numbers (the seat's W52 counts 11 of the
   13 at the geometry's weight; registered).
 - **The golden spectrum (B1636).** The weave's lowest symmetric coupling is the three theta constants placed off-diagonal
@@ -433,7 +433,7 @@ found with B1635's sealed instrument.
 - **Nothing on the record fixes the direction.**
   - A potential symmetric under SO(3) on M and a phase puts it on the isotropic cone (one massive generation) or on the
     real locus (m between ½ and 1), never between. This is an instance of B990's law that an invariant cannot pick a
-    point on its orbit.
+    point on its orbit. *(Audited 2026-10-15, B1655: for a quartic potential; an octic invariant or the zero modes' own one-loop term gives minima between; only real units were tested as vacua.)*
   - The zero modes' loop only shifts the coefficient that decides between the two.
   - The quaternion units, read as directions, give m ≥ ½.
   - A small non-zero m₂/m₃ is a free number per sector (P-115 answered for this route).
@@ -458,7 +458,7 @@ found with B1635's sealed instrument.
 - **Main's refit of the SM seat's W53, on main's own forms, code and optimizer** (17 hours, 63 fits). The one
   predictive structure, T ⊗ T at weight 3 in every sector (11 parameters for 13 numbers), stays excluded on all 13 at
   every allowance. Each sector alone fits, but at its own Im τ.
-- **Every structure that fits needs 21 or more parameters for 13 numbers.** So under this ansatz (one τ, three
+- **Every structure that fits needs 21 or more parameters for 13 numbers.** *(Audited 2026-10-15, B1655: the fits near Im τ 6.6–7.1 are most likely artifacts (the 2026-10-14 addendum); 25 in the reliable region; P-144.)* So under this ansatz (one τ, three
   independent sectors, weights chosen) all 13 flavour numbers are free. The exact fits sit at Im τ ≈ 2.6–3.5, every
   sector at weight 5 or 7.
 - **Against W54:** the exact fits agree. Main refutes one sentence: (5, 7, 3), with the leptons at the geometry's
@@ -468,6 +468,8 @@ found with B1635's sealed instrument.
   W54's sentence and W53's 163 stand; the headline holds (25 parameters in the reliable region); re-run owed (P-144).
 
 ## Main's addition: where a Higgs can couple (B1651, PROVED) — Step 4 answered: the puncture is not forced
+
+*(Audited 2026-10-15, B1655: for a point or density Higgs, B1651's premise P1. A smooth (0, 1) Higgs carrying a parity couples at the puncture, forced at the price of one framed datum per parity — B1651's addendum, the typing B1654 adopts.)*
 
 - **No flat or harmonic Higgs couples the zero modes in the bulk.** Every non-zero pairing carries a non-trivial
   2-torsion character, and such line bundles have no cohomology on the torus.
@@ -500,7 +502,7 @@ found with B1635's sealed instrument.
     V = 1 ⊕ U(2).
   - What lifts the zero: two points, a tilted or anisotropic profile, or a profile about the puncture, which reads the
     regular part. A radially symmetric profile about a regular point acts as the point.
-  - This explains W72's rank 3 (an overlap) against B1649's zero (a point). C begins at the Higgs's profile (P-151).
+  - This explains W72's rank 3 (an overlap) against B1649's zero (a point). *(Audited 2026-10-15, B1655: withdrawn by B1653's own S129 correction — W72's lift is the two-point mechanism carried in τ, not a fibre profile, and where R is a matter mode the τ-integral cannot lift the zero.)* C begins at the Higgs's profile (P-151).
 - **S130, B1654 (PROVED): the norm of the boundary class.**
   - C's first candidate, the tame Szegő Higgs, is degenerate. The parity Higgs's only massless mode is the boundary
     class at the puncture (the SM seat's C0), and its norm needs an end cutoff.
@@ -511,6 +513,8 @@ found with B1635's sealed instrument.
   - The twisted channels per sector come next.
 
 ## Main's addition: the frame tribunal (B1652) — no frame survives on its own; the parent is a specification
+
+*(Audited 2026-10-15, B1655: no frame is SHOWN to satisfy every demand; D3, D4 and D8 are not computed positively for any frame, so outcome 2 could not have come out otherwise.)*
 
 - **The verdict is outcome 2**, banked after both seats attacked the draft: no frame on record is shown to satisfy the
   principle's demands D1–D8 on its own.
@@ -528,3 +532,13 @@ found with B1635's sealed instrument.
   down quarks from the charged leptons. Above all of them stands the selection principle (FK9): chat1's report finds it
   not yet, and relocates it to "which thread".
 
+
+## Main's addition: main audits its negatives (B1655, PROVED; GENESIS v1.46; the owner's P-152)
+
+- **The arithmetic stands.** Every sealed instrument since B1600 that was re-run reproduced, and the independent routes
+  agree. The over-reading was in wording and propagation, and the brackets marked above carry the corrections.
+- **What this section's readers should take from it.** The frozen pieces bound frozen pieces (the owner, 2026-10-15).
+  τ = ω was retired on a clause with no cell, and the isotropic Higgs directions were never tested as vacua; B1646's
+  "never between" is a statement about a quartic potential; B1642's coupling, read as "no flavour structure", is rank
+  two with an exact massless direction, the base of everything since. The next computation is the symmetric point at ω
+  and the regime near it (P-153), sealed first.

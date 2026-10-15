@@ -11407,7 +11407,7 @@
  {
   "id": "B1629",
   "claim_killed": "That anything the principle forces -- its tick, its clock read as moves, or the weave's uniform measure on threads -- visits the weave's cusp with positive weight, which a dynamical forcing of the cusp's unit of end data (FK10) would need.",
-  "kill_form": "Sealed (B1629's seal commit; the sealed instrument measured only the cusp's representative at infinity, repaired post seal and disclosed): the tick LR is the unique lowest closed geodesic among the 2536 threads of length <= 14 (top sqrt5/2; second sqrt2 -- B482's Markov values); the clock's word read as moves tops at 2.29; under the weave's uniform measure the fraction of letters in a run of length >= k is (k+1)/2^k at every length -- geometric decay, no atom at the cusp.",
+  "kill_form": "Sealed (B1629's seal commit; the sealed instrument measured only the cusp's representative at infinity, repaired post seal and disclosed): the tick LR is the unique lowest closed geodesic among the 2536 threads of length <= 14 (top sqrt5/2; second sqrt2 -- B482's Markov values); the clock's word read as moves tops at 2.29; under the weave's uniform measure the fraction of letters in a run of length >= k is (k+1)/2^k at every length -- geometric decay, no atom at the cusp. [Audited, B1655: 'not dynamical' for forced data and bounded observables under the uniform word measure, which is not the geodesic flow's.]",
   "hatch": "a boundary condition supplied from outside the principle's dynamics: a physical end mechanism at the cusp (the audit lane's open end duty), or a postulate (declined by the owner on 2026-10-09)",
   "priority": "high",
   "routed_from": "main, at banking (2026-10-09), for tests/test_b833_negative_routing.py",
@@ -11431,7 +11431,7 @@
  {
   "id": "B1632",
   "claim_killed": "That the weave's topological lifts on T, taken as they are, form a representation of Mp2(Z) whose Riemann-Roch number at weight 3/2 is fixed (the sealed C1-C3): W45's chi_{3/2} = 0 as a property of the lifts alone.",
-  "kill_form": "Sealed (B1632): no identification of (S, T) with the lifts satisfies the Mp2(Z) relations exactly; they hold up to scalars (a projective representation); of the six genuine rescalings of (S~, L^-1) allowing weight 3/2, five give chi_{3/2} = 0 and one gives 1.",
+  "kill_form": "Sealed (B1632): no identification of (S, T) with the lifts satisfies the Mp2(Z) relations exactly; they hold up to scalars (a projective representation); of the six genuine rescalings of (S~, L^-1) allowing weight 3/2, five give chi_{3/2} = 0 and one gives 1. [Audited, B1655: refuted in part by B1634 -- the helper's sign on S~; the lifts form a genuine representation of Mp2(Z).]",
   "hatch": "the zero modes' multiplier (the SM seat's W41: the modes transform by the topological action, T's exponents 1/8, 3/8, 7/8), verified on main, fixes the rescaling; for it chi_{3/2} = 0 is reproduced",
   "priority": "high",
   "routed_from": "main, at banking (2026-10-09), for tests/test_b833_negative_routing.py",
@@ -11453,7 +11453,7 @@
  {
   "id": "B1635",
   "claim_killed": "That every coupling in tau alone on the ruled branch is degenerate at the tick's point i (the SM seat's W50 sentence; this arc's K5 clause ii).",
-  "kill_form": "Sealed (B1635): at i the one-dimensional O+ coupling at k = 1 has masses (1, 1/phi, 1/phi^2), and O+ at k = 5 and 9 is non-degenerate (k = 1 mod 4); everything is degenerate at i for k = 3 mod 4, and at omega for every k.",
+  "kill_form": "Sealed (B1635): at i the one-dimensional O+ coupling at k = 1 has masses (1, 1/phi, 1/phi^2), and O+ at k = 5 and 9 is non-degenerate (k = 1 mod 4); everything is degenerate at i for k = 3 mod 4, and at omega for every k. [Audited, B1655: 'at omega for every k' holds for the single pieces of T(x)T only; the failed cell is the golden-spectrum discovery.]",
   "hatch": "the lowest coupling's spectrum on the tick's geodesic (B1636: constant and golden there)",
   "priority": "high",
   "routed_from": "main, at banking (2026-10-09), for tests/test_b833_negative_routing.py",
@@ -11475,7 +11475,7 @@
  {
   "id": "B1642",
   "claim_killed": "That the weave's golden coupling is the zero modes' own SU(2)-invariant pairing read at the fibre's puncture by a parity-carrying Higgs (this arc's R4; main's hand derivation called the pairing symmetric).",
-  "kill_form": "Sealed (B1642): the pairing is an antisymmetric form, so the residue coupling Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)| is antisymmetric; its masses are (1, 1, 0) at every tau and on the tick's axis, the theta-triplet the massless direction; the identities behind it (duplication, residue, characters) hold to 1e-40.",
+  "kill_form": "Sealed (B1642): the pairing is an antisymmetric form, so the residue coupling Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)| is antisymmetric; its masses are (1, 1, 0) at every tau and on the tick's axis, the theta-triplet the massless direction; the identities behind it (duplication, residue, characters) hold to 1e-40. [Audited, B1655: a feature -- rank two with an exact massless direction, the pattern a light first generation needs.]",
   "hatch": "a symmetric piece from a Higgs carrying the cube group's sign character, from a bulk (Hermitian) pairing on the fibre (the SM seat's W59 route), or from a second Higgs at the puncture (POINT_REGISTER P-097)",
   "priority": "high",
   "routed_from": "main, at banking (2026-10-13), for tests/test_b833_negative_routing.py",
@@ -11498,7 +11498,7 @@
  {
   "id": "B1644",
   "claim_killed": "That near the cusp the adjoint Higgs's light state is suppressed by |q| (this arc's S3b), and that some Higgs direction gives the golden spectrum (S3a's reading).",
-  "kill_form": "Sealed (B1644): det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes R isotropic, so the light state is exactly massless for every direction and tau; the golden spectrum is therefore impossible (distance exactly 1/phi^2).",
+  "kill_form": "Sealed (B1644): det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes R isotropic, so the light state is exactly massless for every direction and tau; the golden spectrum is therefore impossible (distance exactly 1/phi^2). [Audited, B1655: a feature -- the exact zero is the leading-order structure a light first generation needs; 'golden impossible' is for the leading-order adjoint-Higgs coupling at one tau.]",
   "hatch": "corrections that lift the massless state (the first generation's mass); a complex Higgs direction for the m2/m3 hierarchy (down to 0.004); what fixes the direction (P-115)",
   "priority": "high",
   "routed_from": "main, at banking (2026-10-14), for tests/test_b833_negative_routing.py",

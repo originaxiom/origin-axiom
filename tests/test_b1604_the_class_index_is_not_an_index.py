@@ -27,7 +27,17 @@ def test_the_precision_tiers_and_what_they_withdraw():
     assert sorted({x["thread"] for x in odd_reliable if x["members"]}) == ["b++LR", "b+-LR"]
     assert all(not x["members"] for x in tiers["marginal"] if x["trace"] % 2)
     bad = {x["thread"] for x in tiers["unreliable"]}
-    assert "b+-LLRLRLRR" in bad and "b++LLLRLLR" in bad and all(len(t) == 11 for t in bad if t[3:].count("L") + t[3:].count("R") == 8 and (t[3:].count("L") - t[3:].count("R")) % 2 == 0) or True
+    assert "b+-LLRLRLRR" in bad and "b++LLLRLLR" in bad
+    # repaired at B1655 (P-152): the clause here ended "or True" and could not fail (E82). What the tiers say about
+    # the twenty length-eight odd-trace threads: one reliable, three marginal, sixteen unreliable -- not "every one".
+    odd8 = {}
+    for x in rows:
+        if len(x["thread"]) == 11 and x["trace"] % 2:
+            odd8.setdefault(x["thread"], set()).add(x["tier"])
+    assert len(odd8) == 20 and all(len(v) == 1 for v in odd8.values())
+    t8 = sorted(next(iter(v)) for v in odd8.values())
+    assert (t8.count("reliable"), t8.count("marginal"), t8.count("unreliable")) == (1, 3, 16)
+    assert odd8["b++LLLLLLLR"] == {"reliable"}
     gen_ok = sum(x["generation_shaped"] for x in rows if x["tier"] != "unreliable")
     kinds_ok = sorted({tuple(k) for x in rows if x["tier"] != "unreliable" for k in x["kinds"]})
     assert gen_ok == 116 and kinds_ok == [(-1, -2), (-1, -1), (0, -3), (0, -2), (0, -1), (2, -2)]

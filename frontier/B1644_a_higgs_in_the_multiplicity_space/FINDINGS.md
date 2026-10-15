@@ -1,5 +1,7 @@
 # B1644 — A HIGGS IN THE MULTIPLICITY SPACE: the zero modes' coupling to a Higgs in the adjoint of the quaternion structure is symmetric with a non-zero diagonal, as derived; but Jacobi's identity makes the theta triplet isotropic, so det Y(a) = 0 for every Higgs direction and every τ — one generation is exactly massless, and the other two have a ratio set by the Higgs's direction (at least ½ for real directions, down to 0.004 for complex ones)
 
+> *Audited 2026-10-15 by main (P-152, B1655): a FEATURE PRESENTED AS FAILURE: the exact zero is the pattern a light first generation needs; "golden impossible" is leading order at one τ. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed.** S1 and S2 hold exactly. S3b fails: the light state is exactly massless, not suppressed
 by |q|. The read-outs S3a and S3c came out as stated below; the golden spectrum is impossible. cc (main), 2026-10-14.
 Sealed `8fa3d82ba` before the run. No data. **0 of 19.** POINT_REGISTER P-110 (path 1).

@@ -1,5 +1,7 @@
 # B1642 — THE ZERO MODES' RESIDUE AT THE PUNCTURE IS A COMPUTED COUPLING, BUT NOT THE GOLDEN ONE: the SU(2)-invariant pairing of the weave's zero modes, read at the fibre's puncture, gives Y_pq = ε_pqr κ_r θ_r²/(2πη³) — antisymmetric (the pairing is), so its masses are (1, 1, 0) at every τ, with the θ-triplet itself the massless direction; the golden coupling is the symmetric cubic, which these zero modes do not produce
 
+> *Audited 2026-10-15 by main (P-152, B1655): a FEATURE PRESENTED AS FAILURE: rank two with an exact massless direction; "no flavour structure" withdrawn. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed.** R4 fails; R1, R2, R3, R5 and R6 hold. cc (main), 2026-10-13. Sealed `55bd29ab7` before
 the run (and before the SM seat's W59, the same question by another route). No data. **0 of 19.** POINT_REGISTER slot
 Q3, first arc (P-088).

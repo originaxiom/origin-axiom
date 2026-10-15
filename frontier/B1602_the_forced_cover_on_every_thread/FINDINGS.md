@@ -1,5 +1,7 @@
 # B1602 — THE FORCED COVER ON EVERY THREAD: on the 74 signed threads to length eight the common point's cover carries members of the four on ±LR and on one more odd-trace thread, −LLRLRLRR, whose member counts the floor's value (+3, +1) with four live ends — and on 17 of 42 even-trace threads, not all; neither the ±LR exclusivity nor the even-trace genericity survives
 
+> *Audited 2026-10-15 by main (P-152, B1655): WRONG AS WORDED for the exclusivity (withdrawn: B1604, B1605); the rest STANDS ONLY AS SCOPED (candidate kernels). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed** (T2 and T3 fail; T1 holds; T4 half) — scoped to the forced covers at sign characters;
 a weave result (every thread under the rule, none chosen). cc (main), 2026-10-07. Sealed `fee144f6b` before any thread
 of length six to eight was read. The surprise is a carrier: the first odd-trace thread beyond ±LR with content on its

@@ -1,5 +1,7 @@
 # B1635 — THE COUPLINGS IN τ ALONE ON THE RULED BRANCH: the SM seat's W50 §3 verified on main by its own route (the dimensions by piece, its mixing distance 0.670933 exactly, non-permutation mixing at a generic τ), with two sealed cells failing — a threshold set too high, and "every coupling is degenerate at i", which is false: the lowest symmetric coupling at i has masses (1, 1/φ, 1/φ²); and the first count
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED; one sentence wrong as worded (booked); the failed cell is the golden-spectrum discovery. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed** (K1, K2, K4, K6 hold; K3 fails at its threshold; K5 fails in its clause (ii)). cc (main),
 2026-10-09. Sealed `cf5f8dd08` before the run. No data. **0 of 19.**
 

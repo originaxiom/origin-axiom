@@ -1,5 +1,7 @@
 # B1629 — DOES THE PRINCIPLE REACH THE WEAVE'S CUSP? No: the tick LR is the unique lowest closed geodesic of the weave (√5/2), the clock's word stays low, and the weave's uniform measure spends a fraction (k+1)/2^k of its time in runs of length ≥ k — no atom at the cusp; so the unit of end data a chiral three needs there (W45, W46) is not dynamical
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED; "not dynamical" is wrong as worded on this page (the claim line carries the scope). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed** (C3 and C4 hold. C1 fails on a specification slip. C2 fails on an instrument defect,
 repaired post seal and disclosed, §3). cc (main), 2026-10-09. Sealed `0ec9e2673` before the run. No data read; the
 owner's "go" to the outline's 2b. **0 of 19.**

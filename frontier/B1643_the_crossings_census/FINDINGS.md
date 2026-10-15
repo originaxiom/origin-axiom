@@ -1,5 +1,7 @@
 # B1643 — THE CROSSINGS CENSUS: every attempt to cross from the principle's mathematics to a physical number, read together; none has produced a derived Standard Model number, every one identified an object's number with a physical one by fiat, and none crossed through a field — the criteria for a crossing through a field, and why none is ready yet
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (the rows read; not exhaustive; two independent routes). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED** (a census arc; every row is a banked arc read at its verdict file). cc (main), 2026-10-13, at the
 owner's question: "one question we havent tackled in a long time, tackled properly… did we do any crossing to physics
 from our mathematical programs principles". **0 of 19.** POINT_REGISTER P-104, first in slot Q3.

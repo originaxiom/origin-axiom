@@ -1,5 +1,7 @@
 # B1603 — THE COUNT AT EVERY MEMBER: the seat's dictionary read at all 442 interior classes on the weave's forced covers — the floor and ceiling hold on every one; +LR's twenty-four are all (−1, −1) and −LR's are all (0, −3); and the generation shape is not the root's: ninety-eight more generation-shaped readings sit on ten even-trace threads, eight kinds of reading in all, only one with the physical index's shape
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (candidate kernels; six kinds; 120 readings with +LR's). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed** (C3 and C5 fail; C1, C2, C4 hold) — a weave result by inheritance (B1602's population,
 every member). cc (main), 2026-10-07. Sealed `5d2787345` before any member beyond the three of S82 was extended. No
 physical quantity; no three. **0 of 19.**

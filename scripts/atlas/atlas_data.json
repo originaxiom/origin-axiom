@@ -10928,7 +10928,7 @@
    ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 5,
-   "status": "banked",
+   "status": "dormant",
    "domain": "arithmetic"
   },
   "B1607": {
@@ -11156,7 +11156,7 @@
    "refs": [],
    "obstacle": "particle_dict",
    "obstacle_conf": 12,
-   "status": "open",
+   "status": "banked",
    "domain": "physics"
   },
   "B1618": {
@@ -11170,7 +11170,7 @@
    "refs": [],
    "obstacle": "particle_dict",
    "obstacle_conf": 10,
-   "status": "banked",
+   "status": "dead",
    "domain": "physics"
   },
   "B1619": {
@@ -11390,7 +11390,7 @@
    ],
    "obstacle": "measure",
    "obstacle_conf": 7,
-   "status": "banked",
+   "status": "dead",
    "domain": "topology"
   },
   "B162": {
@@ -11432,6 +11432,7 @@
    "motifs": [
     "coupling",
     "figure_eight",
+    "trace_map",
     "eisenstein",
     "wrt_quantum"
    ],
@@ -11462,12 +11463,13 @@
    "refs": [],
    "obstacle": "measure",
    "obstacle_conf": 1,
-   "status": "dormant",
+   "status": "dead",
    "domain": "quantum"
   },
   "B1633": {
    "slug": "the weaves word coupling",
    "motifs": [
+    "closing",
     "coupling",
     "z3_generation"
    ],
@@ -11475,7 +11477,7 @@
    "obstacle": "particle_dict",
    "obstacle_conf": 7,
    "status": "banked",
-   "domain": "physics"
+   "domain": "topology"
   },
   "B1634": {
    "slug": "w50 on main",
@@ -11521,7 +11523,7 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 12,
-   "status": "banked",
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B1636": {
@@ -11670,7 +11672,7 @@
     "B884"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "dead",
    "domain": "arithmetic"
   },
@@ -11715,7 +11717,7 @@
     "S2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 15,
+   "obstacle_conf": 16,
    "status": "dead",
    "domain": "arithmetic"
   },
@@ -11746,7 +11748,7 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 38,
-   "status": "banked",
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B1647": {
@@ -11922,6 +11924,36 @@
    "obstacle": "particle_dict",
    "obstacle_conf": 15,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1655": {
+   "slug": "main audits its negatives",
+   "motifs": [
+    "closing",
+    "coupling",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B525",
+    "B772",
+    "H1",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "P1",
+    "P4",
+    "S129",
+    "V1",
+    "V2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B165": {

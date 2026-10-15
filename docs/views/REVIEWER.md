@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1383** |
-| words of findings prose | **1,089,941** |
+| research arcs with findings | **1384** |
+| words of findings prose | **1,093,146** |
 | test lock files referenced | **812** |
-| arcs carrying an authored verdict | **1383** (100.0 %) |
+| arcs carrying an authored verdict | **1384** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 937 |
+| PROVED | 938 |
 | NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1654`** (1679 words, 0 locks)  
-THE NORM OF THE BOUNDARY CLASS (sealed 155959126, sha256 9572fd2c; PROVED -- every cell holds as sealed; the output committed unread at cd3c046ae): the parity Higgs's only massless mode is the boundary class at the puncture (the SM seat's C0), whose channel-r profile is the conjugate Szego kernel and whose norm needs an end cutoff, ||S_r||^2 = 2 pi log(1/eps) + c_r(tau) (N1: the log universal to 2e-11, a residue-2 control drifting by 6 pi log 10 exactly; N2: two routes agree to 1.2e-10). Under equal canonical amplitudes u_r = sqrt(2 pi L + c_r) R_r and, because R.R = 0 (Jacobi), the log cancels: u.u = D(tau) = sum_r c_r R_r^2, which needs no cutoff, D = int_P sum_r R_r^2 |S_r|^2 dA with a bounded integrand (N2b, 1.6e-14), and does not depend on the cutoff's shape or the coordinate's scale; D = 0 at tau = omega (N3, N5: the order-3 move equalises the norms; 4.5e-15), |D|/|R|^2 = 1.09 at i and > 0.16 on a grid of the fundamental domain away from the corners, where it vanishes linearly (2.70-2.93 per unit distance), and at the cusp D/(q|R|^2) = 8 pi^2 Im tau + 8 pi (1 - 4 ln 2) (slope to 9e-5, constant to 4e-4 at 5i). The first generation's lift under that end condition is L m1/m3 -> |a.a||D||a.R|/(2 pi sigma1^2 sigma2) (about 0.15/L in the bulk; to 2e-4), and it is diagonal along R (the light state's angle ~ 1/L, so not the Gatto-Sartori-Tonin texture); under equal framed data (C0's one normalisation) u = R and the first generation stays massless at every tau (N6). T-NORM for the matter, by hand: the generations live in different flat bundles, so their L2 metric is ||F||^2 I3. Which end condition is physical is the parent's (clauses 4, 6); the twisted channels per sector are next. No data. 0 of 19.  
-`B1654_the_norm_of_the_boundary_class/FINDINGS.md`
+**PROVED — `B1655`** (2381 words, 0 locks)  
+MAIN AUDITS ITS NEGATIVES (the owner's P-152; GENESIS v1.46): every sealed instrument re-run reproduces and the independent routes agree -- the over-reading is in wording and propagation. Five features were booked as failures (B1644's exact zero, B1642's rank-two coupling read as 'no flavour structure', B1635's golden discovery, B1628's TM1 at 0.85 sigma, B1603's widespread generation shapes); tau = omega was retired on a near-omega clause with no cell, in a frame with the inner automorphisms (on the ruled branch the residual at omega is cyclic of order 12 with three distinct charges), and the isotropic Higgs directions were never tested as vacua; restrictions were worded as walls (B1646's 'never between' is quartic: an octic term or the zero modes' own one-loop term gives minima between; B1615/B1616 four elements; B1620 'none compatible with the data'; B1651 a point or density Higgs; B1652 'not shown'); corrections stopped at claim lines (GENESIS FK14's withdrawn carrier, B1637 in the registry, B1653's 'explains W72', B1648's coverage, CLOSED_DOORS' B1632); cells that could not fail were shown as tests, B1604's lock ended 'or True', and the retraction sweep cannot read two of its tables. Repaired on GENESIS, 24 verdict files, 24 FINDINGS, the six public refresh blocks, the outside-review page, THE_WEAVE, LAW_MAP, THEOREM_REGISTRY, the kill graph and one lock; E89 named; P-153 to P-161 rowed. 0 of 19.  
+`B1655_main_audits_its_negatives/FINDINGS.md`
 
-**NEGATIVE — `B1644`** (998 words, 1 locks)  
-A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed.  [Scoped by frame at S124 (2026-10-14): a result in Lambda's frame, the fibre at one tau. In the audit lane's E8 embedding the Higgs in M is a Standard Model singlet, a flavon (the web seat's condensate test, its parity step verified in B1650; the audit lane's field map), so its reading as the electroweak Higgs needs the parent map (P-108).] 0 of 19.  
+**NEGATIVE — `B1644`** (1040 words, 1 locks)  
+A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed.  [Scoped by frame at S124 (2026-10-14): a result in Lambda's frame, the fibre at one tau. In the audit lane's E8 embedding the Higgs in M is a Standard Model singlet, a flavon (the web seat's condensate test, its parity step verified in B1650; the audit lane's field map), so its reading as the electroweak Higgs needs the parent map (P-108).] [Audited by main (P-152, B1655, 2026-10-15): a feature booked as a failure: the NEGATIVE is S3b's failed abs(q) prediction (an uncomputed second-order step); the exact zero it found is the leading-order structure a light first generation needs; 'golden impossible' is for the leading-order adjoint-Higgs coupling at one tau; the sealed rule 'the adjoint Higgs is excluded as the flavour source' was never applied, and B1645-B1654 build on M] 0 of 19.  
 `B1644_a_higgs_in_the_multiplicity_space/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  

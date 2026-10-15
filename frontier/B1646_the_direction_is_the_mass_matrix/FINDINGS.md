@@ -1,5 +1,7 @@
 # B1646 — THE DIRECTION IS THE MASS MATRIX: a Higgs in M maps its direction one-to-one onto the two massive generations' symmetric mass matrix; a symmetric potential puts it on the isotropic cone or the real locus, never between; nothing on the record fixes it
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED: "never between" holds for a quartic potential; wrong as worded where carried unqualified. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED.** Every cell holds as sealed. cc (main), 2026-10-14. Sealed `0bbbb6cab` before the run. No data.
 **0 of 19.** POINT_REGISTER P-115.
 

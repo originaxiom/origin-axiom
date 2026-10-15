@@ -1,5 +1,7 @@
 # B1633 — THE WEAVE'S WORD COUPLING: a thread's own H¹ reads the rule's word and breaks the parity grading, but averaged over all threads with the weave's uniform measure it is a scalar on the three generations, up to corrections exponentially small in the thread length — the weave restores the full symmetry; the word reaches masses and mixing only through a choice of thread
 
+> *Audited 2026-10-15 by main (P-152, B1655): the computation HOLDS; the closing sentence is wider than computed. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED** (W1–W4 hold). cc (main), 2026-10-09. Sealed `a15da3840` before the run. No data; the owner's "resume all"
 (the outline's 2c). **0 of 19.**
 

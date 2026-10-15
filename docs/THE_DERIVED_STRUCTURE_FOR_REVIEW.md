@@ -54,11 +54,11 @@ returns under T ⊗ T. P10 therefore tests Λ, a frame (GENESIS FK11) and a Higg
   - This holds under all three readings of the mass term: T̄ ⊗ T; T ⊗ T (given Λ every left-handed field lies in T, the
     SM seat's W39); and Sym² T (E₆'s cubic with one 27 Higgs). It holds in every frame on record (the SM seat's W44),
     and its CKM bound rests on a sample-free block test.
-  - **The weave's symmetry reduces none of the 13.** The leptons' mixing, beyond the 19, reduces to two parameters as
+  - **The weave's symmetry reduces none of the 13.** *(Audited 2026-10-15, B1655: none compatible with the data; under exact residuals, one tensor per pair.)* The leptons' mixing, beyond the 19, reduces to two parameters as
     TM1 under T̄ ⊗ T and as TM2 under T ⊗ T (in the frame where all of G is flavour), and not at all under Sym² T.
 - **A modulus does not help (B1617, B1618).** The owner's tagged postulate τ = ω was tested. The residual symmetry at ω
   keeps T irreducible, and for every weight the masses are degenerate at ω and quasi-degenerate near it, in both the
-  Dirac and the Majorana term. The postulate is retired as tested (GENESIS v1.35).
+  Dirac and the Majorana term. The postulate is retired as tested (GENESIS v1.35). *(Audited 2026-10-15, B1655: this paragraph was computed where the inner automorphisms are symmetries. On the owner's ruled branch they are not moves; there the residual at ω is cyclic of order 12 with three distinct charges, only the single pieces of T ⊗ T are degenerate at ω, and no spectrum near ω has been computed. τ = ω is retired only as "no hierarchy found at ω" (B1640, GENESIS v1.46).)*
 - **No dimensionful number.** The object supplies no scale (B811, B1012), so the Higgs mass and vev are free.
 - **The gauge couplings.** The gauge three is a selection given Λ (B1606), and the hypercharge normalisation is not
   derivable (B991).
@@ -67,7 +67,7 @@ returns under T ⊗ T. P10 therefore tests Λ, a frame (GENESIS FK11) and a Higg
 
 **Why: the obstruction is one fact, Schur's lemma on an irreducible group.** The weave's group acts irreducibly on the
 three generations, so a value that a coupling invariant under it fixes is degenerate. At a given τ only the parity
-grading survives, and couplings in τ alone give permutation mixing (B1620). Distinct values need
+grading survives, and couplings in τ alone give permutation mixing (B1620). *(Audited 2026-10-15, B1655: where the inner automorphisms act.)* Distinct values need
 the symmetry broken, and on the whole lattice of its breakings the breaking itself is free. **The values therefore need
 a state that breaks the weave's symmetry chosen by a dynamics** — an energy on what the weave allows, or end data at the
 cusp — **not further objects.** "Forced to choose, not forced which" is the record's phrase for it.

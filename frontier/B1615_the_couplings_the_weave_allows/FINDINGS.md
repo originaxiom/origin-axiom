@@ -1,5 +1,7 @@
 # B1615 — THE COUPLINGS THE WEAVE ALLOWS: the weave's group leaves the masses free (three per sector at TM1's symmetry), forbids every bilinear and trilinear of the matter alone, gives degenerate masses with a singlet Higgs, and with vacua along its own residual subgroups gives rigid spectra (0, 1, 1), (½, ½, 1) or one family with the exact sum rule m₁ + m₂ = m₃ — the charged leptons' hierarchy is out of reach; the sealed bound "no ratio below 0.1" is refuted by that family
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (one irreducible at a time, four elements); the sum rule is structure. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed** (C1, C2, C3, C5 hold; C4's first clause fails, its second holds after a disclosed
 post-seal scan). cc (main), 2026-10-08. Sealed `c5d30c59a` before `couplings_on_the_weave.py` ran (the seal's push
 carried five LAW_MAP rows to clear the doc-currency gate, commit `2c968525d`, disclosed). The masses are nine of the

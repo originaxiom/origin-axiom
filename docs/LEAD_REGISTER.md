@@ -292,12 +292,13 @@ campaign, under the owner's reopening of value contact.**
   (B1611).
 - The weave's group fixes six mixing patterns, none in the data, and allows TM1 (falsifier P10: sin²θ₁₂ ≈ 0.318,
   δ_CP ≈ 262.5° given θ₂₃; B1612, B1613).
-- No mass comes from the group (B1615, B1616). The owner's tagged postulate τ = ω gives degenerate masses at every weight
-  (B1617, B1618) and is retired as tested (GENESIS v1.35).
+- No mass comes from the group (B1615, B1616). The owner's tagged postulate τ = ω gives degenerate masses at every weight (scoped by B1655: where the inner automorphisms act)
+  (B1617, B1618) and is retired as tested (GENESIS v1.35). *(Audited 2026-10-15, B1655: computed where the inner automorphisms act; on the ruled branch τ = ω is retired only as "no hierarchy found at ω" (B1640), and the near-ω regime is uncomputed.)*
 - The owner restated the goal as the Standard Model's structure and how many free numbers the principle leaves. On every
   one of the group's 68 subgroups, under three mass tensors, **the weave's symmetry reduces none of the 13 flavour
   parameters**. Couplings in τ alone give only permutation mixing, so the observed mixing needs a vacuum that breaks the
   parity grading (B1620).
+*(Audited 2026-10-15, B1655: none compatible with the data, under exact residuals with one tensor per pair; 2916 of 3249 T̄ ⊗ T pairs do reduce the count, none reaching the CKM; the τ-only clause holds where the inner automorphisms act.)*
 - The principle's own clock stays inside that grading. Its tick breaks it, and its mean gives only the quarks'
   leading-order shape, under one tensor (B1621).
 - The derived structure is written for outside review (`docs/THE_DERIVED_STRUCTURE_FOR_REVIEW.md`).
@@ -313,8 +314,8 @@ flavour symmetry to the field: what couples to the matter, and what the coupling
   (1, 1/φ, 1/φ²) on the tick's geodesic: one holomorphic identity of degree 5, proved from Ramanujan's modular equation
   (B1634–B1639). The owner's frame audit scoped this: the hand is a convention, and τ = ω is retired only as "no
   hierarchy found" (B1640).
-- The fibre's zero modes give no flavour structure by themselves. Their residue coupling is antisymmetric (B1642), which
-  the SM seat and the audit lane found independently.
+- The fibre's zero modes give no flavour structure by themselves (withdrawn, B1655). Their residue coupling is antisymmetric (B1642), which
+  the SM seat and the audit lane found independently. *(Audited 2026-10-15, B1655: withdrawn — the coupling is rank two with an exact massless direction, the pattern a light first generation needs (B1644–B1653); it gives no 2–3 hierarchy and no golden pattern.)*
 - No crossing from the principle's mathematics to a physical number has succeeded. Each one identified numbers by fiat,
   and criteria for a crossing through a field are now written (B1643).
 - A Higgs in the multiplicity space M gives the first coupling with flavour structure: one generation exactly massless

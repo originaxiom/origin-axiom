@@ -17,7 +17,7 @@
 | **P10′** (B1625, B1628) | T ⊗ T in the frame where all of G is flavour → TM2 (0.341) | graded on NuFIT 6.0 | 2.74σ graded; 3.64σ on JUNO's first result (reported, not graded). |
 | **P2** | the global form → charge quantisation | structural | CONFIRMED, but not unique to the framework. |
 | **W57** (the SM seat) | the seed's own measure → the hierarchy | statistical, 10⁶ draws | The world is not a typical draw. The seed supplies the first step of hierarchy. Registered; its measure premise is scoped by the audit lane (P-107). |
-| **B1642** (and W61, the audit lane's residue audit) | the zero modes' invariant pairing → a coupling | computed, sealed | **A coupling computed with no free coefficient,** but antisymmetric or degenerate: no flavour structure (three routes agree). |
+| **B1642** (and W61, the audit lane's residue audit) | the zero modes' invariant pairing → a coupling | computed, sealed | **A coupling computed with no free coefficient,** but antisymmetric or degenerate: no flavour structure (three routes agree). *(Audited 2026-10-15, B1655: withdrawn: rank two with an exact massless direction; no 2–3 hierarchy, no golden pattern; two routes are independent.)* |
 
 **For calibration** (B927): the whole genre has one marginal conditional advance prediction in twenty years.
 
@@ -52,7 +52,7 @@
 ## 4. Status: no crossing through a field is ready
 
 - **C6 fails today.** The fibre's zero modes give no flavour structure: three independent routes agree (B1642, W61,
-  the audit lane's residue audit). The hierarchy needs a datum acting on the multiplicity M (P-105). Until one is found
+  the audit lane's residue audit). The hierarchy needs a datum acting on the multiplicity M (P-105). *(Audited 2026-10-15, B1655: "no flavour structure" is withdrawn — the coupling is rank two with an exact massless direction (B1644–B1653); two of the three routes are independent; the census also omits B1075, B1126 and the near-match disclosed in B856.)* Until one is found
   and computed, no flavour target can be tested.
 - **Golden-ratio mixing is already dead.** The golden coupling's mixing at τ = i (the patterns referee's unsealed
   probe, P-071) is sin²θ₁₂ = 1/(2+φ) = 0.2764, which B1066 excluded at 4.7σ against NuFIT 6.1. P-071 is closed by the

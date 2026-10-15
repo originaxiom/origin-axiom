@@ -1,5 +1,7 @@
 # B1616 — THE NEUTRINO MASSES ON THE WEAVE: TM1's own neutrino-side symmetry admits no Majorana vacuum, and every other residual-aligned Majorana vacuum gives a rigid, degenerate spectrum the two measured splittings exclude — the weave's group fixes no neutrino mass
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (four elements, the frame where the central phases are physical). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed** (N1 holds; N2 fails; N3 holds only on rigid degenerate points; N4's numbers are artifacts;
 D1 void). cc (main), 2026-10-08. Sealed `08b7f328f` before the run and before any cosmological datum was read. Results
 carry "given Λ" (the owner's FK11 ruling as relayed). Outside the nineteen. **0 of 19.**

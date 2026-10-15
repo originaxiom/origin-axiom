@@ -1,5 +1,7 @@
 # B1641 — W46 ON MAIN, AND THE TWO OBJECTS: the fibre loops of M₁,₂ act on the matter by the parity signs under the only lifts that agree with the ruled moves (the geometric lift, trivial on cohomology, differs from them by the central sign at Δ⁴); so couplings obey a parity selection rule — diagonal for a parity-blind Higgs, the golden pattern for a Higgs carrying parity; the SM seat's W46 index table is verified on main; the hand is not tied to the puncture condition at the representation level
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED ("exactly the golden pattern" is the support only). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED.** Every predicted cell holds (O1, O2, O3, W1, W2, W3). The read-out cell H came out "neither", which by
 its sealed rule refutes the reading that the hand is the puncture condition's orientation at the representation level.
 cc (main), 2026-10-13. Sealed `99975fb63` before the run. No data. **0 of 19.** POINT_REGISTER slot Q2.

@@ -1,5 +1,7 @@
 # B1652 — THE FRAME TRIBUNAL: no frame on record is shown to satisfy the principle's demands on its own; the parent is a seven-clause specification, labelled a conjecture; no Standard-Model value is derivable until the parent is built and its vacuum selected
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED: no frame is shown to satisfy the demands; outcome 2 was foregone. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED, as a compiled verdict on the record's evidence of 2026-10-14.** Each cell cites its evidence and its
 grade. cc (main), 2026-10-14. The owner's order (P-136, "agreed"): B1651, then this tribunal, before any further
 number-chasing. **0 of 19.**

@@ -1,5 +1,5 @@
 import ast, builtins
-src=open('/Users/dri/origin-axiom/audit/drafts/c1/seal_package/the_norm_of_the_boundary_class.py').read()
+src=open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), '..', '..', 'the_norm_of_the_boundary_class.py')).read()
 tree=ast.parse(src)
 defined=set(dir(builtins))
 class V(ast.NodeVisitor):

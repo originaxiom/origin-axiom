@@ -1,6 +1,6 @@
 # helper: split the REVISED instrument into its cell blocks by the "# ----" section markers
 import re
-SRC = open('/Users/dri/origin-axiom/audit/drafts/c1/seal_package/the_norm_of_the_boundary_class.py').read()
+SRC = open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), '..', '..', 'the_norm_of_the_boundary_class.py')).read()
 parts = re.split(r'(?m)^(?=# -{20,} )', SRC)
 BLK = {}
 for p in parts:

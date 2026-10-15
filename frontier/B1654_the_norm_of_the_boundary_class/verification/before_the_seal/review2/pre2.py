@@ -1,5 +1,5 @@
 # exec the REVISED instrument's function definitions only (everything above the N0 plumbing marker)
-SRC = open('/Users/dri/origin-axiom/audit/drafts/c1/seal_package/the_norm_of_the_boundary_class.py').read()
+SRC = open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), '..', '..', 'the_norm_of_the_boundary_class.py')).read()
 MARK = "# ---------------------------------------------------------------- N0 plumbing"
 assert MARK in SRC
 PRE = SRC.split(MARK)[0]

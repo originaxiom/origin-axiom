@@ -1,5 +1,28 @@
 # Changelog
 
+## S131 MAIN AUDITS ITS NEGATIVES (B1655, PROVED; GENESIS v1.46): the arithmetic stands everywhere; the over-reading is in wording and propagation
+
+- **B1655** (an audit arc, the owner's ruling on P-152): main read every NEGATIVE run since B1600, and four read-only
+  auditing agents re-ran the sealed instruments of B1600–B1654 in scratch copies. Every one reproduced, and the
+  independent routes agree.
+  - **Five features were booked as failures:** B1644's exact zero, B1642's rank-two coupling (read as "no flavour
+    structure"), B1635's golden discovery, B1628's TM1 at 0.85σ, B1603's widespread generation shapes. E89 names the
+    class.
+  - **τ = ω was retired on a near-ω clause with no cell,** in a frame with the inner automorphisms; on the ruled branch
+    the residual at ω is cyclic of order 12 with three distinct charges, and the isotropic Higgs directions were never
+    tested as vacua (P-153).
+  - **Restrictions worded as walls:** B1646's "never between" is quartic (an octic term or the zero modes' own one-loop
+    term gives minima between; re-run on main); B1615, B1616, B1620, B1651, B1652 scoped.
+  - **Corrections that stopped at the claim line:** GENESIS FK14's withdrawn carrier; B1637 in the registry; B1653's
+    "explains W72"; B1648's declared coverage; CLOSED_DOORS' B1632.
+  - **Cells that could not fail** listed; B1604's lock ended `or True` and now asserts the tiers; the retraction sweep
+    cannot read two of its tables (P-154).
+- **Repaired:** GENESIS v1.46; 24 verdict files and 24 FINDINGS; the six public refresh blocks, the outside-review page
+  and the crossings census; THE_WEAVE, LAW_MAP and THEOREM_REGISTRY (three broken table rows repaired); the kill graph;
+  ERROR_LEDGER (E89; E53, E58, E65, E66, E82 instances); three phrases swept. Register: P-152 DONE; P-153–P-161.
+- Relay: CC_TO_ALL_SEATS_2026-10-15_MAIN_AUDITS_ITS_NEGATIVES.md.
+- Landing suite, the owner's ruling on P-143: gates 45 of 45; the 137 governance, claim and changed-arc test files, 2046 passed, 6 failed, 3 skipped (16:41). The six, all this landing's or older: the retraction sweep read main's own lock and edit script, which quote the withdrawn phrases (the lines now carry a retraction cue); the new relay had no RELAY_LEDGER row (rowed); and B1654's four pre-seal review scripts had carried an absolute machine path since its seal (S130's landing suite did not include that test): the one path literal replaced by the sealed instrument's relative path, with a dated note and the new hashes in B1654's ARTIFACT_HASHES. On the final tree the six failing files and the B1654 and B1655 locks: 27 passed, 0 failed; gates 45 of 45 again.
+
 ## S130 THE NORM OF THE BOUNDARY CLASS (B1654, PROVED): the first generation's lift is an end condition
 
 - **B1654** (sealed `155959126`, sha256 9572fd2c; every cell as sealed; output committed unread at `cd3c046ae`, one run

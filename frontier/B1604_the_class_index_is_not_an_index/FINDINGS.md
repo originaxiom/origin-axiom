@@ -1,5 +1,7 @@
 # B1604 — THE CLASS INDEX IS NOT AN INDEX: on a cusped 3-manifold every twisted Euler characteristic vanishes, the stacked instrument's numbers obey that constraint at every module checked across the eight kinds, and the class index is a difference of interior ranks that no characteristic class governs — so the dictionary cannot be earned on a thread or any cover of one, and the earning condition is named
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (Euler characteristics and the class index); a real obstacle within that scope; its lock's vacuous clause repaired. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED** (T-NO-INDEX-IN-THREE; standard topology applied to the record's instrument) — E1 holds on five of the six threads and **fails on −LLRLRLRR**, exactly as the reading rule provided for: an instrument error, found — the stacked index at 40 digits is noise on long-relator covers, and the audit it forced withdraws B1602's third carrier and five of B1603's readings (§2b).
 cc (main), 2026-10-08. Sealed `12631d402` before the control ran on any thread but −LR. A theorem about the frame, not
 about any thread; it rules out a road rather than opening one. No physical quantity. **0 of 19.**

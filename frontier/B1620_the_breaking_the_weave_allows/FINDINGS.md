@@ -1,5 +1,7 @@
 # B1620 — THE BREAKING THE WEAVE ALLOWS: on every subgroup of the weave's group, three distinct masses need an abelian residual, the masses stay free, and no mixing family short of the full four reaches the quark data — the weave's symmetry reduces none of the Standard Model's 13 flavour parameters (under all three mass tensors); with couplings in τ alone every mixing matrix is a permutation, so the observed mixing needs a vacuum that breaks the parity grading; and outside the weave the principle's own word splits the three parity sectors 1 + 2 — the clock's parity bounded, the two letter-reading parities one orbit of the inflation φ
 
+> *Audited 2026-10-15 by main (P-152, B1655): a REAL OBSTACLE for the CKM against exact residual patterns; STANDS ONLY AS SCOPED (exact residuals, one tensor per pair); the decisive clauses are post-seal. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED** (all six sealed cells hold; A3's lepton clause is sharper than sealed, B2's record law sharper than
 sealed). cc (main), 2026-10-08. Sealed `aa28a42e6` before the run. The owner agreed on 2026-10-08 to restate the goal:
 derive the Standard Model's structure, and how many free numbers the principle leaves and why. Every claim here is about

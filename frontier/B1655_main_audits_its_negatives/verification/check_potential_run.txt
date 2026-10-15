@@ -1,0 +1,13 @@
+|R.R| = 1.942890293094024e-16
+--- (a) add an octic invariant kappa*|a.a|^4 (kappa>0) with lam2<0 (tree-level, SO(3)xU(1) symmetric, NOT quartic):
+ lam2=-0.05 kappa=0.5: defect |a.a|/|a|^2 in [0.447,0.447]  m in [0.122,0.4]  #minima with 1e-3<m<0.45: 40/40
+ lam2= -0.2 kappa=0.5: defect |a.a|/|a|^2 in [0.894,0.894]  m in [0.312,0.849]  #minima with 1e-3<m<0.45: 15/40
+ lam2= -0.5 kappa=0.5: defect |a.a|/|a|^2 in [1,1]  m in [0.5,0.897]  #minima with 1e-3<m<0.45: 0/40
+ lam2= -1.0 kappa=0.5: defect |a.a|/|a|^2 in [1,1]  m in [0.501,0.849]  #minima with 1e-3<m<0.45: 0/40
+--- (b) quartic potential plus the zero-modes' own CW term g*sum s^4 ln s^2 (tau=i):
+ lam2= 0.05 g= -0.2: defect in [2.31e-08,0.585]  m in [5.77e-09,0.235]  #minima with 1e-3<m<0.45: 2/40
+ lam2= 0.05 g=-0.05: defect in [3.41e-08,2.83e-07]  m in [1.39e-08,2.83e-07]  #minima with 1e-3<m<0.45: 0/40
+ lam2= 0.02 g= -0.1: defect in [9.97e-08,1.02e-06]  m in [4.02e-08,1.02e-06]  #minima with 1e-3<m<0.45: 0/40
+ lam2=-0.02 g=  0.1: defect in [0.912,0.912]  m in [0.323,0.323]  #minima with 1e-3<m<0.45: 40/40
+ lam2=  0.0 g= -0.1: defect in [8.25e-08,0.288]  m in [2.06e-08,0.294]  #minima with 1e-3<m<0.45: 36/40
+ lam2=  0.1 g= -0.5: defect in [3.02e-08,0.993]  m in [3.02e-08,0.603]  #minima with 1e-3<m<0.45: 15/40

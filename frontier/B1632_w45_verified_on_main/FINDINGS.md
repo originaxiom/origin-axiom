@@ -1,5 +1,7 @@
 # B1632 — THE SM SEAT'S W45 ON MAIN: the weave's lifts on T form only a projective representation of the metaplectic group, so χ_{3/2} is not fixed by the lifts alone — among the genuine rescalings it is 0 for five and 1 for one; for the seat's ρ_T (T's exponents ⅛, ⅜, ⅞) main reproduces χ_{3/2} = 0, so the postulate's payoff rests on W41's multiplier, the input now load-bearing and unverified on main
 
+> *Audited 2026-10-15 by main (P-152, B1655): WRONG AS WORDED in the headline (refuted in part by B1634); the calibrations stand. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: NEGATIVE as sealed** (C0 holds; C1 fails — no identification satisfies the Mp2(Z) relations exactly; C2 and C3
 were therefore not computed as sealed). cc (main), 2026-10-09. Sealed `7a5a62442` before the run. No data. **0 of 19.**
 

@@ -1,5 +1,7 @@
 # B1651 — WHERE A HIGGS CAN COUPLE THE ZERO MODES: no harmonic Higgs in the bulk; every point coupling is isotropic, so a single-point Higgs anywhere leaves one generation massless; the moves carry the pairing's triplet exactly at every point; only the half-periods' triplets are independent of τ; the puncture is not forced
 
+> *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED: "not forced" holds for a point or density Higgs (premise P1). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED.** Every cell holds as sealed. cc (main), 2026-10-14. Sealed `6d6f7f660` before the run (6.1 s). No
 data. **0 of 19.** POINT_REGISTER P-131 (Step 4 of the field's genesis); P-129's first premise.
 

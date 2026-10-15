@@ -228,3 +228,16 @@ in their arcs' original titles, now carrying a scope bracket (B1648).*
 | inf m = 0 is attained at a ∝ R̄ (B1645's sealed T5) | m = 0 on the whole isotropic cone a·a = 0, of which R̄ is one point | m vanishes exactly on the cone and grows linearly in the isotropy defect (B1645, B1646) |
 | sm:B1501 VERIFIED-DIFFERS (HARVEST_LEDGER row 718) | the census timed out on main at both limits; only its post-run check ran (Review 63) | not re-run to completion; its own check differs |
 
+
+## Added 2026-10-15 (B1655, main's audit of its negatives, P-152): withdrawn phrasings, in the swept shape
+
+The 2026-10-07 and 2026-10-08 tables above use an unquoted first cell, which `scripts/checks/retraction_sweep.py` does not
+parse (E66; the parser's third shape is P-154). The phrases below are in the quoted shape, so the gate sweeps them. Each
+is the live public sentence's own wording; the shorter forms also stand in sealed preregistrations, sent relays and the
+received copies of GENESIS, which are records and are not edited.
+
+| retracted phrase | arc, date | why, and the current statement |
+|---|---|---|
+| "τ = ω gives degenerate masses at every weight" | the Review-62 refresh blocks (B1617, B1618); withdrawn 2026-10-15 (B1655) | computed where the inner automorphisms act; on the ruled branch τ = ω is retired only as "no hierarchy found at ω" (B1640), and the near-ω regime is uncomputed |
+| "zero modes give no flavour structure by themselves. Their residue coupling" | the Review-63 refresh blocks (B1642's addendum, B1643 C6); withdrawn 2026-10-15 (B1655) | the residue coupling is rank two with an exact massless direction along the theta-triplet, the pattern a light first generation needs (B1644–B1653); it gives no 2–3 hierarchy and no golden pattern |
+| "explains W72's rank 3" | B1653's claim line and THE_WEAVE; withdrawn by B1653's S129 correction and B1655 | W72's lift is the two-point mechanism carried in τ, not a fibre profile; where R is a matter mode the τ-integral cannot lift the zero |

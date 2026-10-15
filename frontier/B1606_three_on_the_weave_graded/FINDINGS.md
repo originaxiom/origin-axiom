@@ -1,5 +1,7 @@
 # B1606 — THREE ON THE WEAVE, GRADED: the SM seat's qualified W22 holds on main's code — the puncture conditions the weave keeps have index −3, −1, +1 or +3, odd and never zero, and ±3 once the parity grading is kept — so the weave's chiral three is on main's code end to end; and the chain W19–W24 is graded on GENESIS: the flavour three is derived, the gauge three is a selection
 
+> *Audited 2026-10-15 by main (P-152, B1655): the cells HOLD; the grade STANDS ONLY AS SCOPED (the parity grading kept; W23, W24 unverified on main). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+
 **Verdict: PROVED** (P1–P4 hold; the grade is a ruling under THE_BAR). cc (main), 2026-10-08. Sealed `8dfd4df1e`
 before `puncture_condition.py` ran, with the grade written into the seal. No physical quantity. **0 of 19.**
 
