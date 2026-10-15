@@ -1,0 +1,164 @@
+<tmp>/frontier/B1538_the_puncture_characters/verification/punct_covers.py:13: SyntaxWarning: invalid escape sequence '\G'
+  - Gamma acts on the right cosets H\Gamma = D (H u <-> ubar for u in F) by
+modules loaded 2.7
+forms built 838.1
+series ready 838.2
+c~ grid built 838.2
+controls done 838.7
+LR {'C1': (0.36877, False, 'nan'), 'C2/E4': (0.48474, True, '0.1236'), 'C2/THETA2': (0.68286, False, 'nan'), 'C2/ORTH': (0.80861, False, 'nan'), 'C3/E4': (0.01843, True, '1.231'), 'C3/THETA2': (0.03332, True, '0.4829'), 'C3/ORTH': (0.02151, True, '0.8938')}
+LLR {'C1': (0.00339, False, 'nan'), 'C2/E4': (0.028, True, '1.041'), 'C2/THETA2': (0.00573, False, 'nan'), 'C2/ORTH': (0.00986, False, 'nan'), 'C3/E4': (0.62942, True, '417.9'), 'C3/THETA2': (0.10218, True, '0.465'), 'C3/ORTH': (0.16227, True, '2.945')}
+{
+ "Q": {
+  "(a)": 5.551115123125783e-17,
+  "(b) worst": 1.9828049556348022,
+  "(c)": 9.109646457318599e-08,
+  "(d)": 1.6872642429913376e-39,
+  "(e)": 1.932190302715151e-15,
+  "holds": false
+ },
+ "L1": {
+  "threads in a rank-2 cell that are not rank 2 under P4'": {
+   "C2/E4": [],
+   "C3/E4": [],
+   "C3/THETA2": [],
+   "C3/ORTH": []
+  },
+  "admitted": {
+   "C2/E4": 0,
+   "C3/E4": 0,
+   "C3/THETA2": 0,
+   "C3/ORTH": 0
+  },
+  "largest P4' m1/m3 over admitted": {
+   "C2/E4": null,
+   "C3/E4": null,
+   "C3/THETA2": null,
+   "C3/ORTH": null
+  },
+  "holds": false
+ },
+ "L2": {
+  "threads with kappa <= 1e-6": {
+   "C2/E4": [],
+   "C3/E4": [],
+   "C3/THETA2": [],
+   "C3/ORTH": []
+  },
+  "least kappa": {
+   "C2/E4": null,
+   "C3/E4": null,
+   "C3/THETA2": null,
+   "C3/ORTH": null
+  },
+  "holds": false
+ },
+ "L3": {
+  "worst |4 pi L m1/m3 - kappa| / kappa at L = 1e7": {
+   "C2/E4": null,
+   "C3/E4": null,
+   "C3/THETA2": null,
+   "C3/ORTH": null
+  },
+  "read-out: the same at L = 1000": {
+   "C2/E4": null,
+   "C3/E4": null,
+   "C3/THETA2": null,
+   "C3/ORTH": null
+  },
+  "holds": false
+ },
+ "L4": {
+  "the root's kappa": {
+   "C2/E4": 0.12363027654238083,
+   "C3/E4": 1.2313514234444494,
+   "C3/THETA2": 0.4829442949755686,
+   "C3/ORTH": 0.8938376762431207
+  },
+  "holds": false
+ },
+ "readouts": {
+  "C2/E4: kappa range over admitted": null,
+  "C2/E4: the root": {
+   "m2/m3": 0.4847445683113533,
+   "kappa": 0.12363027654238083,
+   "L=10: 4 pi L m1/m3": 0.12320201059134953,
+   "L=100: 4 pi L m1/m3": 0.12358732657195856,
+   "L=1000: 4 pi L m1/m3": 0.12362598030958265,
+   "L=10000000: 4 pi L m1/m3": 0.12363027414815886,
+   "admitted": false
+  },
+  "C2/E4: the L the root would need for m1/m2 (no prior; data HZ2021 at M_Z)": {
+   "up m_u/m_c": 10.23030550987715,
+   "lepton m_e/m_mu": 4.275576313114757,
+   "down m_d/m_s": 0.4040877977003958
+  },
+  "C3/E4: kappa range over admitted": null,
+  "C3/E4: the root": {
+   "m2/m3": 0.01842797945149709,
+   "kappa": 1.2313514234444494,
+   "L=10: 4 pi L m1/m3": 1.2257437838553813,
+   "L=100: 4 pi L m1/m3": 1.2309005110858415,
+   "L=1000: 4 pi L m1/m3": 1.231306884316707,
+   "L=10000000: 4 pi L m1/m3": 1.231351397945796,
+   "admitted": false
+  },
+  "C3/E4: the L the root would need for m1/m2 (no prior; data HZ2021 at M_Z)": {
+   "up m_u/m_c": 2680.285219816865,
+   "lepton m_e/m_mu": 1120.1780814049396,
+   "down m_d/m_s": 105.86883750822845
+  },
+  "C3/THETA2: kappa range over admitted": null,
+  "C3/THETA2: the root": {
+   "m2/m3": 0.03331653232242454,
+   "kappa": 0.4829442949755686,
+   "L=10: 4 pi L m1/m3": 0.4673149853949988,
+   "L=100: 4 pi L m1/m3": 0.48215879365901015,
+   "L=1000: 4 pi L m1/m3": 0.4828737782953926,
+   "L=10000000: 4 pi L m1/m3": 0.4829442780049243,
+   "admitted": false
+  },
+  "C3/THETA2: the L the root would need for m1/m2 (no prior; data HZ2021 at M_Z)": {
+   "up m_u/m_c": 581.4521244521749,
+   "lepton m_e/m_mu": 243.0076920105416,
+   "down m_d/m_s": 22.966832047317546
+  },
+  "C3/ORTH: kappa range over admitted": null,
+  "C3/ORTH: the root": {
+   "m2/m3": 0.0215106986375282,
+   "kappa": 0.8938376762431207,
+   "L=10: 4 pi L m1/m3": 0.8530541404525177,
+   "L=100: 4 pi L m1/m3": 0.8924274486037177,
+   "L=1000: 4 pi L m1/m3": 0.8937214764684577,
+   "L=10000000: 4 pi L m1/m3": 0.8938376476463612,
+   "admitted": false
+  },
+  "C3/ORTH: the L the root would need for m1/m2 (no prior; data HZ2021 at M_Z)": {
+   "up m_u/m_c": 1666.7898795759875,
+   "lepton m_e/m_mu": 696.6055237718965,
+   "down m_d/m_s": 65.83668992259223
+  },
+  "the root's L-free kappa ratios": {
+   "C2/E4 / C3/E4": 0.10040210632684442,
+   "C2/E4 / C3/THETA2": 0.25599282946004176,
+   "C2/E4 / C3/ORTH": 0.13831401363837098,
+   "C3/E4 / C3/THETA2": 2.549675886546587,
+   "C3/E4 / C3/ORTH": 1.3776007167430322,
+   "C3/ORTH / C3/THETA2": 1.8508090592277078
+  },
+  "C1 (rank 3): the root's m1/m3 unlifted and at L = 10, 100": [
+   0.009568191038650753,
+   0.009561327411552594,
+   0.009567500388213482
+  ],
+  "C2/THETA2 (rank 3): the root's m1/m3 unlifted and at L = 10, 100": [
+   0.5443365167929027,
+   0.5434634489734123,
+   0.5442488202588553
+  ],
+  "C2/ORTH (rank 3): the root's m1/m3 unlifted and at L = 10, 100": [
+   0.6179402077110545,
+   0.6220652650489953,
+   0.6183541952622037
+  ]
+ }
+}
