@@ -118,9 +118,22 @@ direction, plus scopes dropped and three negatives wider than computed. All were
 |---|---|---|---|
 | 1a | THETA2, the other parameter-free completion | chat1 | **done:** only E4·F gives the (3/2, 7/2) cell rank two |
 | 1b | **A read-out, not a test:** the root's 2–3 ratios in the cells computed, against the data | chat1 | **done below:** "the root plus the cells computed" cannot host all three sectors |
-| 1c | **The lift in the thread frame:** B1654's triplet u in place of R in B1644's coupling, along each thread, under each end condition (P4 and P4′). Sealed | chat1 | **the open, decisive question on chat1's side** |
+| 1c | **The lift in the thread frame:** B1654's triplet u in place of R in B1644's coupling, along each thread, under each end condition (P4 and P4′). Sealed | chat1 | **done (dated note below):** under P4 and P5 the lift survives on every admitted thread in all four rank-two cells |
 | 1d | **The twisted channels per sector:** each sector's D, and the L-free ratios of the first-generation lifts | main (its next C arc) | main's |
 | 1e | **The (7/2, 7/2) cell** (its Higgs is two-dimensional), the half-period loci, and other representations | chat1 / the SM seat | after 1c |
+
+> **Dated note, 2026-10-15 (later): 1c ran** (LIFT, sealed `0be810276`; `../chat1_2026-10-14_step3/FINDINGS_LIFT.md`,
+> refereed). Four of five cells held. L1, the P4′ instrument check, failed as worded: the double-precision floor in
+> C3/E4 reached 4.4·10⁻¹⁰ against 10⁻¹⁰.
+> - **L2, L3:** under P4 and P5, every rank-two cell's null pair is lifted on every admitted thread, with κ ≥ 0.03, and
+>   m₁/m₃ → κ/(4πL) where κ ≪ 4πL·m₂/m₃ and |c̃| ≪ 2πL.
+> - **L4:** the root's κ is 0.23 (C2/E4) and 2–6 (C3).
+> - **The hierarchy is logarithmic in the cutoff.** At the root, to first order, m₁/m₂ = 0.037/L in C2/E4 and
+>   5–25/L in C3.
+> - **In C3/E4, κ grows with the thread's height,** up to 5.7·10⁶. At moderate L the lifted state there is not the light
+>   one.
+> - Under P5, the rank-two zero belongs to the end condition. Which end condition is physical, L and P5 itself remain
+>   open.
 
 **The read-out (1b).**
 - At the root, the cells computed give these 2–3 ratios:
@@ -197,7 +210,7 @@ document's own first draft needed three blockers fixed.
 ## 5. chat1's next steps, in order
 
 1. **Seal and run 1c,** the lift in the thread frame under both end conditions. It is the open question on chat1's side
-   that the data cannot already answer.
+   that the data cannot already answer. *(Done, 2026-10-15: see the dated note under Stage 1.)*
 2. **Hand main the cells' values at the root** for its twisted-channel arc (1d).
 3. **The (7/2, 7/2) cell (1e).**
 4. **The strong-CP question,** after 1c.
