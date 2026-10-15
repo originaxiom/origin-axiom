@@ -1,5 +1,7 @@
 # The open mysteries of physics, read through the weave (chat1, 2026-10-14, late afternoon)
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`):** memo 132 is scheduled on main, not verified.
+
 > **The owner's questions.**
 > - "should we entertain the other unresolved questions in physics like dark matter and dark energy and other
 >   mysteries and contemplate on them through the lens of our program? maybe we can get useful insight about the

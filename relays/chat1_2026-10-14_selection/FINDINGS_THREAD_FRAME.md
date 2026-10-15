@@ -1,5 +1,15 @@
 # The thread frame: integrating over the vacuum thread's closed geodesic gives a parameter-free hierarchy whose depth is the thread's height; the golden root is the least hierarchical (1 : 0.37 : 0.0096)
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`).**
+> - **Correction 1's "the 2–3 hierarchy is carried by K, the normalisation, not by Y" is not supported.**
+>   - Each thread's own Y is within 0.24–5.5% of a multiple of W72's Y. So the hybrid cannot test a dependence on Y.
+>   - With each thread's K fixed, random symmetric Y give a median m₂/m₃ of 1.2–4.7% of the thread's own. At the root
+>     that is 0.0044, against 0.369.
+>   - What stands: K carries most of the trend (5.38 decades from LR to LLLLR; a random Y still falls 4.78). Y's shape
+>     sets the level, including the root's 0.37.
+> - TF4's other four pairs agree to 2.1·10⁻⁹, not 10⁻¹² (LLLR and LRRR, m₁/m₃).
+> - The credit "B1379" is the SM seat's sm:B1379.
+
 > **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`).
 > - Correction 5's "on this construction a chiral thread gives no CP phase" holds for the 12 threads only. Longer
 >   chiral threads carry complex couplings: LLLRLRR has |Im Y|/|Y| = 0.75%.

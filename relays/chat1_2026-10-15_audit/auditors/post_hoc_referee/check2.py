@@ -2,7 +2,7 @@ import json, math, statistics, itertools
 import numpy as np
 from scipy.stats import spearmanr
 
-D = "/home/claude/origin-axiom/relays/chat1_2026-10-14_step3/"
+D = "<repo>/relays/chat1_2026-10-14_step3/"
 p = json.load(open(D + "post_hoc_completions.json"))["per thread"]
 s = json.load(open(D + "weights_cells.json"))["per thread"]
 words = list(p)
@@ -40,7 +40,7 @@ for kk in ("H-ORTH C3", "H-E4 C2", "H-ORTH C2"):
                                                        [math.log(p[w][kk]["m2/m3"]) for w in adm if w != "LR"]).correlation)
 
 # --- the data and pulls
-hz = json.loads(open("/tmp/claude-0/-home-claude-origin-axiom/6cd20217-7806-5dd6-9098-8054245c567d/scratchpad/referee2/pc_review/hz.json").read())["masses_GeV"]
+hz = json.loads(open("<scratch>/referee2/pc_review/hz.json").read())["masses_GeV"]
 V, S = hz["value"], hz["sigma"]
 def ratio(a, b):
     x = V[a] / V[b]; return x, x * math.hypot(S[a] / V[a], S[b] / V[b])

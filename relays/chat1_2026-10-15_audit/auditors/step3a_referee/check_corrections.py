@@ -1,7 +1,7 @@
 """Referee's read-only check of the 2026-10-15 corrections against post_hoc_invariant_masses.json and lagrange_law.json."""
 import json, re
 
-SEL = "/home/claude/origin-axiom/relays/chat1_2026-10-14_selection/"
+SEL = "<repo>/relays/chat1_2026-10-14_selection/"
 raw = open(SEL + "post_hoc_invariant_masses.json").read()
 ph = json.loads(raw)
 rows = ph["rows"]

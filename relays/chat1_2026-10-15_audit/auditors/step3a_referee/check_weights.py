@@ -2,8 +2,8 @@
 import json, math, sys
 from itertools import combinations
 
-P = "/home/claude/origin-axiom/relays/chat1_2026-10-14_step3/weights_cells.json"
-LL = "/home/claude/origin-axiom/relays/chat1_2026-10-14_selection/lagrange_law.json"
+P = "<repo>/relays/chat1_2026-10-14_step3/weights_cells.json"
+LL = "<repo>/relays/chat1_2026-10-14_selection/lagrange_law.json"
 d = json.load(open(P))
 per = d["per thread"]
 words = list(per.keys())

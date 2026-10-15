@@ -1,5 +1,10 @@
 # The selection principle: what B990's law forbids, why every symmetric point is flat, and how far a principle that selects nothing inside a vacuum gets (chat1, 2026-10-14, evening)
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`).**
+> - "The 2–3 hierarchy is carried by K, not by Y" is not supported. K carries most of the trend, and Y's shape sets the
+>   level, including the root's 0.37. At the root a random Y gives 0.0044.
+> - The credit "B1379" is sm:B1379.
+
 > **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`: auditor D, and chat1's post hoc on step 3a's completion).
 > - **"At c = 6 it selects nothing" is wrong as worded.** The root is the action's most probable thread at every c:
 >   27%, 50% or 66% at c = 6, by the word weight. It is near-certain only at c ≈ 105–138.

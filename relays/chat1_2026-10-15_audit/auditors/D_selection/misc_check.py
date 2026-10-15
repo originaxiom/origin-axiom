@@ -1,5 +1,5 @@
 import json, math
-P = "/home/claude/origin-axiom/relays/"
+P = "<repo>/relays/"
 th = json.load(open(P + "chat1_2026-10-14_the_scale/t_root_fixed_threads.json"))
 print("vol(L^n R):", [(n, round(th["L" * n + "R"][0], 4)) for n in range(1, 18)])
 print("max over L^n R:", max(th["L" * n + "R"][0] for n in range(1, 18)), " LLRR:", th["LLRR"][0])

@@ -128,6 +128,9 @@ especially? what are u doing wrong? we came so far.. wheres the problem?"
   at k = 1 is 2–3% (C).
 - **"The principles split" (the meditation).** Every principle tabled admits the root, except one of the two transfers
   of B517 (D).
+  - **[2026-10-15, morning]** The SM seat's W86 removes the exception, and this item falls. Under B517's own condition
+    (non-negative entries), its transfer admits every word, the root included.
+  - No principle on record excludes the root.
 - **"The one-number law fails beyond length 8."**
   - It fails for long words built of golden blocks.
   - At lengths 9–12 the sealed tolerance still holds: RMS 0.437 < 1.0 over 501 words (D).

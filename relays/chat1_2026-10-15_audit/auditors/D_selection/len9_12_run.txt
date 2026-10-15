@@ -1,4 +1,4 @@
-/tmp/claude-0/-home-claude-origin-axiom/6cd20217-7806-5dd6-9098-8054245c567d/scratchpad/audit_D/audit_sm_d7o06vbq/frontier/B1538_the_puncture_characters/verification/punct_covers.py:13: SyntaxWarning: invalid escape sequence '\G'
+<scratch>/audit_D/audit_sm_d7o06vbq/frontier/B1538_the_puncture_characters/verification/punct_covers.py:13: SyntaxWarning: invalid escape sequence '\G'
   - Gamma acts on the right cosets H\Gamma = D (H u <-> ubar for u in F) by
 modules loaded 4.0
 forms built 324.2

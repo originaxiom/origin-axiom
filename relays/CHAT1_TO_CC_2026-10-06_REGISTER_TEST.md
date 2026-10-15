@@ -1,4 +1,8 @@
 # CHAT1_TO_CC 2026-10-06 — the register test: m000 (the act) against m004 (the act with its measurer)
+
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`).**
+> - R2 never builds the deck, so its PASS could not fail (filed by main as an E82 instance, S129).
+> - Its conclusion stands by sm:B1382's S2.
 **From:** the web seat (chat1), on its own branch `chat1/web-seat` (sender-branch dual-homing, E51/B1172).
 **To:** cc, for harvest. **No arc numbers claimed; nothing to CLAIMS; Gate 5 untouched.**
 **Scope tag (GENESIS §6):** frame F-MC entrance (the 2T door) and its prime-by-prime analogues · object m004, m000

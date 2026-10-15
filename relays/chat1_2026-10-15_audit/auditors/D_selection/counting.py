@@ -1,5 +1,5 @@
 import json, math
-P = "/home/claude/origin-axiom/relays/chat1_2026-10-14_the_scale/"
+P = "<repo>/relays/chat1_2026-10-14_the_scale/"
 th = json.load(open(P + "t_root_fixed_threads.json"))
 Ln = {int(a): b for a, b in json.load(open(P + "t_root_fixed.json"))["L_of_n"].items()}
 canon = lambda s: min(s[i:] + s[:i] for i in range(len(s)))

@@ -1,8 +1,8 @@
 import json, math
 import numpy as np
 from scipy.stats import spearmanr
-d = json.load(open("/tmp/claude-0/-home-claude-origin-axiom/6cd20217-7806-5dd6-9098-8054245c567d/scratchpad/audit_D/len9_12.json"))
-ll = json.load(open("/home/claude/origin-axiom/relays/chat1_2026-10-14_selection/lagrange_law.json"))["readouts"]["per thread"]
+d = json.load(open("<scratch>/audit_D/len9_12.json"))
+ll = json.load(open("<repo>/relays/chat1_2026-10-14_selection/lagrange_law.json"))["readouts"]["per thread"]
 print("controls (m2/m3, m1/m3) vs lagrange_law.json:")
 for w, (a, b) in d["control"].items():
     print("  ", w, a, b, "| rel dev", abs(a - ll[w]["m2/m3"]) / ll[w]["m2/m3"], abs(b - ll[w]["m1/m3"]) / ll[w]["m1/m3"])

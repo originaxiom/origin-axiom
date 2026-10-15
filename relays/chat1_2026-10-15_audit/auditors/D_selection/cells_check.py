@@ -1,7 +1,7 @@
 import json, math
 import numpy as np
 from scipy.stats import spearmanr
-P = "/home/claude/origin-axiom/relays/chat1_2026-10-14_step3/weights_cells.json"
+P = "<repo>/relays/chat1_2026-10-14_step3/weights_cells.json"
 d = json.load(open(P))
 per = d["per thread"]
 C = lambda M: np.array([[complex(*z) for z in row] for row in M])

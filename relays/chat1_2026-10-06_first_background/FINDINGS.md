@@ -1,5 +1,16 @@
 # The first level with a background is not a family law: level 3 is what the smallest roots do (chat1, 2026-10-06)
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`).**
+> - **The length law does not hold.** These committed counts put LLRR (4 letters) first at level 4, and bronze±
+>   (6 and 7 letters) at level 3. Main's B1439 agrees on all 59 shared cells, and it decides the open roots: −LLR first at
+>   level 4, ±LLLLR at level 3. So "level 3 is what the short words do; long words fire earlier" has no law behind it.
+>   The sealed kills stand.
+> - Main's B1434 and B1439 had run the background census on other roots before this seal, including −LLRLR's level-1
+>   backgrounds.
+> - Q2's kill follows from Q1's, since every orbit size divides the level.
+> - The 15 zero cells were not rechecked as stated. All 15 are zero on re-run.
+> - The half p-layer classification misses golden p = 11 and silver p = 7 in this folder's own run.
+
 Two seals: `PREREGISTRATION.md` (sha f090ecd4, commit df6dfec5) and `PREREGISTRATION_2_ORBIT_LAW.md` (sha c3c9f330,
 commit 6cd612d1, written after and because of the first seal's data). Instrument: B1432's census imported unchanged, the
 levels built directly as bundles of φⁿ (construction 24/24 against SnapPy; golden+ levels named m004, m206, s961,

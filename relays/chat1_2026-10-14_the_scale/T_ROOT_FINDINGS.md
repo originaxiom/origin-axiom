@@ -1,5 +1,8 @@
 # T-ROOT: at c = 6 the weave is a plurality that sees k; it becomes its root only at c of order 10²
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`):** the crash in t_root.py comes from SnapPy's complex_volume(), not solution_type(). About a
+> quarter of full runs fail. The fixed script fails Q0 cleanly instead of crashing.
+
 > **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`, auditor C). Every number reproduces.
 > - **"Two orders of magnitude" is wrong.** 105–138 against 6 is 18–23 times, about 1.3 orders.
 > - **"A plurality" is definitional.**

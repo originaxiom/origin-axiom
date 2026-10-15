@@ -1,5 +1,12 @@
 # The field is what the seed can be (chat1, 2026-10-14, afternoon)
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`).**
+> - "A thread's realisation is fixed by its own word [MATH]" fails for m000. Its geometric point is fixed by the map
+>   followed by complex conjugation (W2).
+> - B715's reading as "3d Euclidean quantum gravity" was refuted by B1242.
+> - W86 also lists "RL acts hyperbolically in two other sign classes" as computed nowhere. chat1's own frame code puts
+>   R on an isotropic eigenline of ρ(RL) in every class.
+
 > **Philosophy — motivation only** (`GOVERNANCE.md`). Not a claim; never a premise. Written at the owner's "i feel like
 > were not understanding the existence of the field conceptually". Each statement is marked **[MATH]** (a standard
 > fact or a banked result, cited), **[READING]**, or **[OPEN]**.

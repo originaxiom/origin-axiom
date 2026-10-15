@@ -1,5 +1,5 @@
 import json, math
-P = "/home/claude/origin-axiom/relays/"
+P = "<repo>/relays/"
 tf = json.load(open(P + "chat1_2026-10-14_selection/thread_frame.json"))
 per = tf["readouts"]["per thread"]
 print("12-thread m1/m2 range:", min(p["m1/m2"] for p in per.values()), max(p["m1/m2"] for p in per.values()))

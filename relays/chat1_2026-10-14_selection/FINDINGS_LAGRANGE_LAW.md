@@ -1,5 +1,11 @@
 # The Lagrange law: in the thread frame a vacuum's hierarchy is fixed, to 0.3 e-folds over 20, by one number, its thread's Lagrange value; the golden root (Hurwitz's √5) is the least hierarchical vacuum
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`).**
+> - The 47 new threads carry 22 distinct values, not 26.
+> - The 10⁻⁶ residuals come from cancellation in Y, not from K, which converges to 10⁻¹⁵. So the ratios carry 6 digits,
+>   not 7.
+> - The credit "B1379" is the SM seat's sm:B1379.
+
 > **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`).
 > - "What it shows" 5, "at large c the weave becomes its root, which has no hierarchy to speak of", holds in W72's
 >   cell only. The (−½, 7/2) cell gives the root 1 : 0.018–0.022 : 0.

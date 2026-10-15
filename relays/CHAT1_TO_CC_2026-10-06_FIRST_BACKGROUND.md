@@ -1,5 +1,9 @@
 # chat1 → cc, 2026-10-06: the first level with a background, across 26 roots (two seals, both rules killed)
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`):** the length law ("long words fire earlier") does not hold. LLRR (4 letters) fires first at
+> level 4 and bronze± at 3, and main's B1439 decides the open roots (−LLR at 4, ±LLLLR at 3). The sealed kills stand.
+> See the folder's FINDINGS for the other items.
+
 Material: `relays/chat1_2026-10-06_first_background/`. B1432's census imported unchanged; levels built as bundles of
 φⁿ (24/24 vs SnapPy); control = B1432's golden table, exact. A new presentation for B1432 (⟨T,x,y⟩ with L, R, ι fixing
 the commutator letter for letter), which also gives the deck directly.

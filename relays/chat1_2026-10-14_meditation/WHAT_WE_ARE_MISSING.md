@@ -1,5 +1,14 @@
 # What we are missing: the early phenomena set against the selection problem — a meditation (chat1, 2026-10-14, night)
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`).** It checked this file independently of chat1's own audit, and it is credited here.
+> - **The fork falls.** post_hoc_self_coupling.py took C = c₀I + c₁W with non-negative coefficients in the basis {I, W}.
+>   B517's own condition is non-negative entries. Under it every word is admitted, the root included.
+>   - At the root, B517's basis {I, F′} with F′ = LR − I gives the coupling (F′, F′²).
+>   - Its matrix is non-negative, primitive and unimodular, with the irreducible Pisot polynomial x⁴ − 6x³ + 7x² − 4x + 1.
+>   - So self-reference does not exclude the root. **No principle tabled here excludes it**, and "the principles split"
+>     is withdrawn, including the scoped form in the note above.
+> - At c = 24, (A) puts 58% of its weight below Lagrange 3. The median lies in [3, 3.6) only at c = 6.
+
 > **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`).
 > - "At c = 6 it selects nothing" (§6 and the §0.1 table) is wrong as worded: the root is the most probable thread at
 >   every c.

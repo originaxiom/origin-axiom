@@ -3,8 +3,8 @@ and test the two-forms algebra on random matrices and on the stored matrices."""
 import json
 import numpy as np
 
-W = json.load(open("/home/claude/origin-axiom/relays/chat1_2026-10-14_step3/weights_cells.json"))
-SEL = "/home/claude/origin-axiom/relays/chat1_2026-10-14_selection/"
+W = json.load(open("<repo>/relays/chat1_2026-10-14_step3/weights_cells.json"))
+SEL = "<repo>/relays/chat1_2026-10-14_selection/"
 PH = json.load(open(SEL + "post_hoc_invariant_masses.json"))["rows"]
 LL = json.load(open(SEL + "lagrange_law.json"))["readouts"]["per thread"]
 per = W["per thread"]

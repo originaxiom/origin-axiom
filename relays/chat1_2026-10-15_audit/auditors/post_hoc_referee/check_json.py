@@ -2,7 +2,7 @@
 import json, math, sys, statistics
 from scipy.stats import spearmanr
 
-D = "/home/claude/origin-axiom/relays/chat1_2026-10-14_step3/"
+D = "<repo>/relays/chat1_2026-10-14_step3/"
 p = json.load(open(D + "post_hoc_completions.json"))["per thread"]
 s = json.load(open(D + "weights_cells.json"))["per thread"]
 words = list(p)

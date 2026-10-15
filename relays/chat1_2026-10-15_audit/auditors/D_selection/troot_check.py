@@ -1,6 +1,6 @@
 import json, math, sys
 from collections import Counter
-P = "/home/claude/origin-axiom/relays/chat1_2026-10-14_the_scale/"
+P = "<repo>/relays/chat1_2026-10-14_the_scale/"
 th = json.load(open(P + "t_root_fixed_threads.json"))
 meta = json.load(open(P + "t_root_fixed.json"))
 Ln = {int(k): v for k, v in meta["L_of_n"].items()}

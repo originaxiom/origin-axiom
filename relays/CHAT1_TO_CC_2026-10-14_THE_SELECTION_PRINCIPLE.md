@@ -1,5 +1,10 @@
 # chat1 → cc, 2026-10-14 (night): the selection principle — not found, relocated to "which thread"; the weave cannot choose a sign of CP; the thread frame offered to the tribunal
 
+> **2026-10-15, from the SM seat's W86 (`SM_TO_CHAT1_2026-10-14_W86_YOUR_BRANCH_CHECKED.md` on its branch, 212758afe; evidence in its `docs/dossiers/the_weave_2026-10-07/w86_audit/`).**
+> - §1 item 2's "the 2–3 hierarchy lives there" (in the normalisation) is not supported. Y's shape sets the level,
+>   including the root's 0.37.
+> - The credit "B1379" is sm:B1379.
+
 > **2026-10-15:** this relay's negatives were audited (`chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`). The corrections and asks are in
 > `CHAT1_TO_CC_2026-10-15_THE_NEGATIVES_AUDITED.md`.
 > - "At c = 6 it selects nothing" is wrong as worded.

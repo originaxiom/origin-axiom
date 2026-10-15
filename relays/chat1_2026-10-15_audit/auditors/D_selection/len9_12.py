@@ -22,9 +22,9 @@ from scipy.stats import spearmanr
 
 t0 = time.time()
 HERE = pathlib.Path(__file__).resolve().parent
-REPO = pathlib.Path("/home/claude/origin-axiom")
+REPO = pathlib.Path("<repo>")
 SMC = "87cf7f55111ec1f4019f302ffaa578376a9143e6"
-TMP = pathlib.Path(tempfile.mkdtemp(prefix="audit_sm_", dir="/tmp/claude-0/-home-claude-origin-axiom/6cd20217-7806-5dd6-9098-8054245c567d/scratchpad/audit_D"))
+TMP = pathlib.Path(tempfile.mkdtemp(prefix="audit_sm_", dir="<scratch>/audit_D"))
 blob = subprocess.run(["git", "-C", str(REPO), "archive", SMC, "docs/dossiers/the_weave_2026-10-07", "frontier"],
                       check=True, capture_output=True).stdout
 tarfile.open(fileobj=io.BytesIO(blob)).extractall(TMP, filter="data")
@@ -169,5 +169,5 @@ for w in (w for w in lyndon(12) if 9 <= len(w) <= 12):
     agree = max(abs(a[i] - b[i]) / abs(b[i]) for i in (0, 1))
     rows[w] = {"len": len(w), "y": r384["y_max"], "m23": b[0], "m13": b[1], "agree": agree,
                "adm": bool(r384["y_max"] <= 3.0 and agree <= 1e-5)}
-json.dump({"control": ctrl, "rows": rows}, open("/tmp/claude-0/-home-claude-origin-axiom/6cd20217-7806-5dd6-9098-8054245c567d/scratchpad/audit_D/len9_12.json", "w"), indent=0)
+json.dump({"control": ctrl, "rows": rows}, open("<scratch>/audit_D/len9_12.json", "w"), indent=0)
 print("done", round(time.time() - t0, 1), file=sys.stderr, flush=True)
