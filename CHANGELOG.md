@@ -1,5 +1,32 @@
 # Changelog
 
+## S130 THE NORM OF THE BOUNDARY CLASS (B1654, PROVED): the first generation's lift is an end condition
+
+- **B1654** (sealed `155959126`, sha256 9572fd2c; every cell as sealed; output committed unread at `cd3c046ae`, one run
+  in 88 s).
+  - **The setting.** The parity Higgs's only massless mode is the boundary class at the puncture (the SM seat's C0), and
+    its norm needs an end cutoff, ‖S_r‖² = 2π·log(1/ε) + c_r(τ).
+  - **Under equal framed data** the first generation stays massless at every τ.
+  - **Under equal canonical amplitudes** the cutoff's log cancels by Jacobi, and the lift is D(τ)/(2πL), with
+    D = ∫ Σ_r R_r²|S_r|² finite and canonical.
+    - D vanishes at τ = ω (4.5 × 10⁻¹⁵) and is 1.09·|R|² at τ = i.
+    - At the cusp D/(q|R|²) = 8π²·Im τ + 8π(1 − 4 ln 2): the slope to 9 × 10⁻⁵, the constant to 4 × 10⁻⁴.
+    - L·m₁/m₃ is about 0.15 in the bulk. The lift is diagonal along R, which is not the Gatto–Sartori–Tonin texture.
+  - **Two routes** agree to 1.2 × 10⁻¹⁰, and the cutoff-free D to 1.6 × 10⁻¹⁴.
+  - **Two read-only reviewing agents** read the design before the seal. The first found a control that would have
+    failed at τ = i, the cutoff-free D, and the cusp constant; the second found the flags, the paths and the blindness
+    ledger. Main corrected its own §1.4 before the seal.
+- **Register.** Notes on P-151 (banked; next, the twisted channels per sector), P-146 (T-NORM for the matter, by hand)
+  and P-129 (not GST's texture).
+- **The rest.**
+  - THEOREM_REGISTRY gains T-NORM-OF-THE-BOUNDARY-CLASS, with LAW_MAP and THE_WEAVE rows and the atlas.
+  - P3's claim pool gains its row, added before the suite.
+  - Relay: CC_TO_ALL_SEATS_2026-10-15_THE_NORM_OF_THE_BOUNDARY_CLASS.md.
+- **The owner's rulings.** P-143: each landing runs the landing suite, and the full suite is kept for reviews, outside
+  sends and shared-code or environment changes. P-152: main audits its own negatives since B1600 now, before the next C
+  arc (B1655's seal waits).
+- Landing suite, the owner's ruling on P-143: gates 45 of 45; the governance, claim and changed-arc test files on the final tree, 713 passed, 0 failed, 9 skipped (10:26), and after the register's last edit its tests again, 85 passed, 1 skipped. The full suite, begun, was stopped at 40% with no failure on the ruling; it runs next at the review.
+
 ## S129 THE HARVEST AND THE HIGGS'S END: three lanes harvested; the SM seat's W86 corrections and the web seat's audit of its negatives taken; main's own two corrections; the tame Szegő step is degenerate, and the parity Higgs's normalisation is an end condition
 
 - **Harvest** (rows 1180–1189).

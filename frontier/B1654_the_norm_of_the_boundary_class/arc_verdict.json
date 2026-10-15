@@ -1,0 +1,28 @@
+{
+ "id": "B1654",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1642",
+  "B1644",
+  "B1645",
+  "B1649",
+  "B1650",
+  "B1651",
+  "B1653"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's fibre at one tau (B1642's zero modes, B1644's coupling), given Lambda; the Higgs as the parity channels' boundary class (the SM seat's C0, point 3), typed (0, 1) (C0, point 2), its bulk profile the conjugate Szego kernel, its norm cut at one end radius for the three channels",
+  "object": "the regularised channel norms c_r(tau) of the Szego kernels, the defect D(tau) = sum_r c_r R_r^2 = int_P sum_r R_r^2 |S_r|^2 dA, and the first generation's mass and angle under the canonical (P4) and framed (P4') end conditions",
+  "reach": "general",
+  "hypotheses": "P1-P4 as stated in the preregistration (the typing; the boundary class's harmonic, least singular profile; one cutoff for the three channels; a factorised vacuum with equal canonical amplitudes, against equal framed data); the cells at six named tau, a 21 x 20 grid of the fundamental domain to Im tau = 2, the cusp at 4i and 5i, four Higgs directions; which end condition is physical is not decided here"
+ },
+ "claim_one_line": "THE NORM OF THE BOUNDARY CLASS (sealed 155959126, sha256 9572fd2c; PROVED -- every cell holds as sealed; the output committed unread at cd3c046ae): the parity Higgs's only massless mode is the boundary class at the puncture (the SM seat's C0), whose channel-r profile is the conjugate Szego kernel and whose norm needs an end cutoff, ||S_r||^2 = 2 pi log(1/eps) + c_r(tau) (N1: the log universal to 2e-11, a residue-2 control drifting by 6 pi log 10 exactly; N2: two routes agree to 1.2e-10). Under equal canonical amplitudes u_r = sqrt(2 pi L + c_r) R_r and, because R.R = 0 (Jacobi), the log cancels: u.u = D(tau) = sum_r c_r R_r^2, which needs no cutoff, D = int_P sum_r R_r^2 |S_r|^2 dA with a bounded integrand (N2b, 1.6e-14), and does not depend on the cutoff's shape or the coordinate's scale; D = 0 at tau = omega (N3, N5: the order-3 move equalises the norms; 4.5e-15), |D|/|R|^2 = 1.09 at i and > 0.16 on a grid of the fundamental domain away from the corners, where it vanishes linearly (2.70-2.93 per unit distance), and at the cusp D/(q|R|^2) = 8 pi^2 Im tau + 8 pi (1 - 4 ln 2) (slope to 9e-5, constant to 4e-4 at 5i). The first generation's lift under that end condition is L m1/m3 -> |a.a||D||a.R|/(2 pi sigma1^2 sigma2) (about 0.15/L in the bulk; to 2e-4), and it is diagonal along R (the light state's angle ~ 1/L, so not the Gatto-Sartori-Tonin texture); under equal framed data (C0's one normalisation) u = R and the first generation stays massless at every tau (N6). T-NORM for the matter, by hand: the generations live in different flat bundles, so their L2 metric is ||F||^2 I3. Which end condition is physical is the parent's (clauses 4, 6); the twisted channels per sector are next. No data. 0 of 19.",
+ "weave_or_thread": "weave"
+}

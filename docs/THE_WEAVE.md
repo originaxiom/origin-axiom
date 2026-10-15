@@ -501,6 +501,14 @@ found with B1635's sealed instrument.
   - What lifts the zero: two points, a tilted or anisotropic profile, or a profile about the puncture, which reads the
     regular part. A radially symmetric profile about a regular point acts as the point.
   - This explains W72's rank 3 (an overlap) against B1649's zero (a point). C begins at the Higgs's profile (P-151).
+- **S130, B1654 (PROVED): the norm of the boundary class.**
+  - C's first candidate, the tame Szegő Higgs, is degenerate. The parity Higgs's only massless mode is the boundary
+    class at the puncture (the SM seat's C0), and its norm needs an end cutoff.
+  - Under equal framed data the first generation stays massless at every τ. Under equal canonical amplitudes the
+    cutoff's log cancels by Jacobi, and the lift is D(τ)/(2πL).
+  - D = ∫ Σ_r R_r²|S_r|² is finite and canonical. It vanishes at τ = ω, is of order one in the bulk, and falls as
+    Im τ·|q| at the cusp. The lift is diagonal along R, which is not the Gatto–Sartori–Tonin texture.
+  - The twisted channels per sector come next.
 
 ## Main's addition: the frame tribunal (B1652) — no frame survives on its own; the parent is a specification
 

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1382** |
-| words of findings prose | **1,088,262** |
+| research arcs with findings | **1383** |
+| words of findings prose | **1,089,941** |
 | test lock files referenced | **812** |
-| arcs carrying an authored verdict | **1382** (100.0 %) |
+| arcs carrying an authored verdict | **1383** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 936 |
+| PROVED | 937 |
 | NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1653`** (1605 words, 0 locks)  
-THE RANK OF A POINT COUPLING (sealed 4e3981e24, sha256 70ecef80; PROVED -- every cell holds as sealed; the output committed unread at 832d17295): the fibre's zero modes read at one point -- a value, or the puncture's residue, where both components of F behave like u^-1/2 so Res F~_x F~_y^T = v_x v_y^T -- form a rank-one bilinear of one doublet, so for every flat line and every Higgs S the record's coupling (B1644's Y_unit) has rank <= 2 (U3: at five random twist pairs and three tau, and at every line on the record -- the half-periods, omega's 3-torsion points, W59's 18 Higgs lines -- in every sector, sigma_min/sigma_max <= 7e-41); the twisted residue quaternion is null, R_1^2 + R.R = 0 to 1e-40, with R.R = kappa^2 th1(ubar)^2 th1(delta)^2/th1'(0)^2 and c = (-i, -1, -1, i) for the units 1, i, j, k (U1, U2); the massless left state is the left-handed field's alone, so up and down share it to 1e-41 and the CKM's massless row and column vanish to 8e-40 (U4): at a point a flat hypercharge line does not lift the first generation (P-128, the owner's B, answered at a point; the first design's 'lift' dropped the identity unit's residue R_1, found by main's read-only reviewing agent before the seal and re-derived on main, all disclosed). The record's zeros are one fact: B1649's null R, B1651's isotropy and B1650's O6 are its untwisted antisymmetric case. What lifts the zero is a coupling's shape, not a line: two points (sigma ratio >= 1.1e-3), a tilted or elliptic profile about a regular point (a non-zero holomorphic moment), or a radially symmetric profile about the puncture, which reads the bilinear's regular part; a radially symmetric profile about a regular point acts as the point (the mean-value property; det <= 1.9e-38) and keeps the zero (U6). This explains the frame dependence on the record (the surface frame's overlap, W72, rank 3; the fibre frame's point, B1649) and hands the question to the Higgs's profile and typing (P-151, P-108). No data. 0 of 19.  
-`B1653_the_rank_of_a_point_coupling/FINDINGS.md`
+**PROVED — `B1654`** (1679 words, 0 locks)  
+THE NORM OF THE BOUNDARY CLASS (sealed 155959126, sha256 9572fd2c; PROVED -- every cell holds as sealed; the output committed unread at cd3c046ae): the parity Higgs's only massless mode is the boundary class at the puncture (the SM seat's C0), whose channel-r profile is the conjugate Szego kernel and whose norm needs an end cutoff, ||S_r||^2 = 2 pi log(1/eps) + c_r(tau) (N1: the log universal to 2e-11, a residue-2 control drifting by 6 pi log 10 exactly; N2: two routes agree to 1.2e-10). Under equal canonical amplitudes u_r = sqrt(2 pi L + c_r) R_r and, because R.R = 0 (Jacobi), the log cancels: u.u = D(tau) = sum_r c_r R_r^2, which needs no cutoff, D = int_P sum_r R_r^2 |S_r|^2 dA with a bounded integrand (N2b, 1.6e-14), and does not depend on the cutoff's shape or the coordinate's scale; D = 0 at tau = omega (N3, N5: the order-3 move equalises the norms; 4.5e-15), |D|/|R|^2 = 1.09 at i and > 0.16 on a grid of the fundamental domain away from the corners, where it vanishes linearly (2.70-2.93 per unit distance), and at the cusp D/(q|R|^2) = 8 pi^2 Im tau + 8 pi (1 - 4 ln 2) (slope to 9e-5, constant to 4e-4 at 5i). The first generation's lift under that end condition is L m1/m3 -> |a.a||D||a.R|/(2 pi sigma1^2 sigma2) (about 0.15/L in the bulk; to 2e-4), and it is diagonal along R (the light state's angle ~ 1/L, so not the Gatto-Sartori-Tonin texture); under equal framed data (C0's one normalisation) u = R and the first generation stays massless at every tau (N6). T-NORM for the matter, by hand: the generations live in different flat bundles, so their L2 metric is ||F||^2 I3. Which end condition is physical is the parent's (clauses 4, 6); the twisted channels per sector are next. No data. 0 of 19.  
+`B1654_the_norm_of_the_boundary_class/FINDINGS.md`
 
 **NEGATIVE — `B1644`** (998 words, 1 locks)  
 A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed.  [Scoped by frame at S124 (2026-10-14): a result in Lambda's frame, the fibre at one tau. In the audit lane's E8 embedding the Higgs in M is a Standard Model singlet, a flavon (the web seat's condensate test, its parity step verified in B1650; the audit lane's field map), so its reading as the electroweak Higgs needs the parent map (P-108).] 0 of 19.  

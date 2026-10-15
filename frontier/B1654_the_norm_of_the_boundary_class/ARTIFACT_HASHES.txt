@@ -1,3 +1,4 @@
+# sealed at 155959126: 468fcf03672f0c50906df4da58b9bca438e4cea859650860348609d03501ea70  verification/the_norm_of_the_boundary_class.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 e8d0af9d340dd828e5243216df33e8fc09960e0f50451cbddf46a39d50ac9e2d  design_v1/B1654_PREREGISTRATION_v1.md
 d93718b6cbc8f810b45d9eda405ea9d1860478e1d4a57e846106f800a3964931  design_v1/README.md

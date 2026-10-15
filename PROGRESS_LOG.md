@@ -17118,3 +17118,14 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   under the canonical one the first generation's lift is D(τ)/(2πL) (exploration, to be sealed).
 - P-152 asks the owner when main audits its own negatives. 0 of 19.
 - - Gates 45 of 45; full suite 7319 passed, 0 failed, 68 skipped (1:30:12).
+
+## 2026-10-15 — S130 THE NORM OF THE BOUNDARY CLASS
+
+- B1654 is PROVED: the first generation's lift is an end condition.
+  - The parity Higgs's boundary class needs an end cutoff.
+  - Under equal framed data there is no lift.
+  - Under equal canonical amplitudes the log cancels by Jacobi, and the lift is D(τ)/(2πL), with D canonical, zero at
+    τ = ω and ∝ Im τ·|q| at the cusp. It is diagonal along R.
+- Two read-only reviewing agents read the design before the seal.
+- Next, the twisted channels per sector. 0 of 19.
+- - The owner's rulings: P-143 (landing suites) and P-152 (main's negatives audited now, before the next C arc). Landing suite, the owner's ruling on P-143: gates 45 of 45; the governance, claim and changed-arc test files on the final tree, 713 passed, 0 failed, 9 skipped (10:26), and after the register's last edit its tests again, 85 passed, 1 skipped. The full suite, begun, was stopped at 40% with no failure on the ruling; it runs next at the review.
