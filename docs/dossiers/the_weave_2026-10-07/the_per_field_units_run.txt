@@ -1,0 +1,10 @@
+V1 True 189.7
+V4 True 189.7
+V6 True 200.7
+V8 True 213.8
+V2 True 273.5
+units built 1198.7
+V3 False 1221.1
+V7 True 1395.3
+all cells hold False seconds 1484.1
+exit 0
