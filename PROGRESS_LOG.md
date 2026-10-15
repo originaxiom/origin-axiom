@@ -19512,3 +19512,19 @@ kinetic norms and anomalies. Compact g2+u1 is this supplied phase, not
 an all-background negative. Full SM/three/gravity/genesis remains
 unachieved. No independent conjugate recounting or preferred angle
 used to manufacture three.
+
+Later same-checkpoint live validation:33 selected tests PASS62.47s in
+six named files, including both complete new producers. Capture63.486138s,
+stderr empty;17pins,12,845 tracked files and index unchanged. This
+time the single-process before-snapshot completed BEFORE child launch;
+no in-flight timing certificate is substituted. Raw before/after/logs/
+receipt preserved. Not full suite or independent analytic acceptance.
+Sender relay dual-homed in reports/relays and RELAY_LEDGER on our own
+branch. Final staged governance follows; no foreign/main branch edits.
+
+Staged publication governance completed exit1 in12.934174s:26PASS/four
+inherited FAIL categories, same old attribution/vacuity/seal-provenance
+details;42 stale relay debts remain,153 open, review540 due.17pins,
+12,852 tracked files/index unchanged with true pre-launch envelope.
+Raw outputs and receipt retained, no gate/baseline waived or altered.
+This result note and receipt files are post-check publication metadata.

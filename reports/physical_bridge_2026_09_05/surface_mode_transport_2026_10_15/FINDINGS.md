@@ -101,8 +101,13 @@ between different field parents. W49 is prior art for the multiplicity.
 
 ## Work still owed
 
-Regression/governance validation follows this finite-science checkpoint;
-no full-suite/main/non-authoring acceptance is claimed here. NEXT_TEST
+Later selected live regression:33 PASS62.47s in six named files,
+including both new full producers, actual geometry, all weak completions,
+even/odd safeguards and registered embedding.17pins,12,845 tracked files
+and index unchanged; before-snapshot completed BEFORE the child launch.
+Capture63.486138s, stderr empty; see VALIDATION and raw receipts.
+Governance is separately recorded, not a full-suite/main/non-authoring
+acceptance. NEXT_TEST
 keeps full real-parent spin/R/coefficient/charge conjugation and graph
 domain, then SAME-action stationary charged/Higgs/source/end vertices,
 norms and anomalies. The already earned unbroken gauge is compact

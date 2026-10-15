@@ -1,0 +1,34 @@
+{
+  "mode": "regression",
+  "command": [
+    "PYTHON3.12.14",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_surface_mode_transport.py",
+    "tests/test_physical_bridge_surface_geometric_loops.py",
+    "tests/test_physical_bridge_surface_weak_completions.py",
+    "tests/test_physical_bridge_surface_even_channels.py",
+    "tests/test_physical_bridge_surface_odd_form.py",
+    "tests/test_physical_bridge_weave_registered_embedding.py"
+  ],
+  "exit_code": 0,
+  "seconds": 63.486137999992934,
+  "before_completed_before_launch": true,
+  "state_unchanged": true,
+  "tracked_files": 12845,
+  "source_pins": 17,
+  "tree_sha256": "d862c92fec19f665f8d85ad679f32bd46282f2e687c62e21e533715d3b47d739",
+  "index_sha256": "2d4eb95f1f0ccdbbbab0f51274557b80a5608bbf6c2f9033ce233b5e99bcd12e",
+  "stdout": {
+    "bytes": 110,
+    "sha256": "e00b050a7e0718248f7b155377dd0532e3ae53f94d48e4b00bd487c7e3e068a6"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
