@@ -12009,6 +12009,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1659": {
+   "slug": "the joint law",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "P4"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B165": {
    "slug": "kappa cantor offaxis",
    "motifs": [

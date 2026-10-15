@@ -17170,3 +17170,14 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   (a candidate down/lepton relation, to seal blind elsewhere, P-173).
 - Landing suite (P-143's ruling): gates 45 of 45; the 169 governance, claim, harvest, register and changed-arc test files, 2303 passed, 0 failed, 6 skipped (7:45 with -n 8, the machine otherwise idle). After it, the owner's question rowed (P-176) and the register's tests and the gates rerun.
 - Next: P-168, the joint law (exact, explored; its inverse map under P4 is P-175's first test). 0 of 19.
+
+## 2026-10-15 — S135 THE JOINT LAW; THE ARENA; THE PUSH-BACK
+
+- B1659 is PROVED: the coupling's determinant and adjugate factor through the Higgs's and the matter's defects, exactly;
+  the masses are closed-form in the two defects and their pairing. A labelling artefact (the frames "differ") was
+  caught by a reviewing agent and withdrawn before the seal.
+- The SM seat's §138 verified (P-174 DONE) and its arena (§139) read, three facts verified (P-178). The owner's
+  passages on the push-back recorded (P-177; speculations/S_THE_PUSH_BACK.md).
+- Landing suite (P-143's ruling): gates 45 of 45 after one fix (seen-first: B1659's findings lacked the literature line, added); the 173 governance, claim, harvest, register and changed-arc test files, 2313 passed, 2 failed, 6 skipped (1:25:28 with -n 8, the machine shared with the owner's video work). The two failures were the gate tests, on views made stale by that fix: views regenerated, the both-vacua result added to the push-back passage (§6, a scoreboard, negative), and the 48 gate and speculation tests rerun: 48 passed.
+- Next: a reliable search, then the census of the inverse map as its own arc; the both-vacua and conjugate-Higgs
+  explorations; the arena's N1 to the owner. 0 of 19.

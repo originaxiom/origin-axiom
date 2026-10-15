@@ -576,3 +576,14 @@ found with B1635's sealed instrument.
   term), a Higgs that differs by sector (the web seat's two-point term between threads; the owner's ruling, P-166), or the
   cusp, where couplings go as powers of q.
 
+## Main's addition: the joint law (B1659, PROVED) — the masses in closed form from two defects
+
+- **In B1656's twisted frame, for every Higgs S and every matter M:** det Y = 4 det S det M tr(εSMᵀ) and
+  adj Y = det S·A(M) + det M·P A(S), exactly. The three masses follow in closed form.
+  - The lightest vanishes **if and only if** the Higgs is null, the matter is null, or their pairing vanishes (B1656's
+    electron: null matter).
+  - The middle mass reads the sum of the two defects' terms, and the lightest their product.
+- **In the matter's natural label N = Mε,** the coupling is symmetric in Higgs and matter, with the determinant
+  defect × defect × pairing, as in B1657's frame. At the coincident point the masses are exactly geometric.
+- **A frozen piece,** at one τ with no data. The census against the data waits for a reliable search. Where the frame
+  sits in the weave: the SM seat's arena (§139) puts ω on a singular fibre of the space where every thread moves.

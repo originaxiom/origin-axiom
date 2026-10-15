@@ -1,3 +1,4 @@
+# sealed at f4b12d788: 84756480041eed2b5b37aee72400060b04cd74646e3892c2066ef56e1646b786  verification/the_joint_law.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 bbafc3452827e2a0ce5b4fe1e744351f76f05d0cedd73a09b328765994c40e9d  verification/before_the_seal/NOTES.md
 1a0ca3e70a7b0f24db6cabfbf92cb6dafeec1c26aa5a5a3eec66bb2e0d25592d  verification/before_the_seal/census_attempts/joint_census.py

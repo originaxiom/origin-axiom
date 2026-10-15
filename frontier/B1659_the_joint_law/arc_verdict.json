@@ -1,0 +1,33 @@
+{
+  "id": "B1659",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [
+    {
+      "row": "I-33",
+      "status": "UNEARNED",
+      "note": "the read-out: the coupling's singular values named as the three masses of a sector; no comparison with data in this arc; an instance of I-13"
+    }
+  ],
+  "depends_on": [
+    "B1644",
+    "B1653",
+    "B1654",
+    "B1656",
+    "B1657",
+    "B1658"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "B1656's twisted, quaternionic coupling Y(S, M) (B1658's), bilinear in the Higgs S and the matter M, both in M_2(C); J3 on the weave's fibre at tau = omega, W59's lines, given Lambda and the dictionary, under the canonical end condition P4",
+    "object": "the coupling's determinant and adjugate as functions of the two defects and their pairing, the closed-form spectrum, the zero and coincident-point corollaries",
+    "reach": "general",
+    "hypotheses": "J1-J2c polynomial identities over M_2(C) x M_2(C); J3 B1656's sector matter with random complex Higgs; J4(d) first order; no data; B1648's conditions"
+  },
+  "claim_one_line": "THE JOINT LAW (sealed f4b12d788, sha256 8123044b; PROVED -- every cell holds as sealed; the output committed unread at c98fbe782): in B1656's twisted, quaternionic frame, for EVERY Higgs S and EVERY matter M in M2(C), det Y(S, M) = 4 det S det M tr(eps S M^T) and adj Y(S, M) = det S A(M) + det M P A(S) with P = diag(1, -1, -1) and A an explicit quadratic, equal to B1658's q~ p~^T on the null cone; with the matter labelled N = M eps the coupling is symmetric in (S, N) and det Y = -4 det S det N polar(S, N), the shape of B1657's (a.a)(v.v)(a.v). So the three masses are closed-form in the two defects and their pairing: m1 = 0 if and only if a defect or the pairing vanishes; in the hierarchical limit the middle mass reads the sum of the two defects' terms and the lightest their product over the other two; at the coincident point N = S the masses are exactly geometric (m1 m3 = m2^2); both light masses are first order in the defects. On B1656's sector matter (324 cases) the identities hold to 4e-17 and 2e-16; controls bite (a perturbation breaks J1; A for P A breaks J2; N != S departs from the geometric law). No data. 0 of 19.",
+  "weave_or_thread": "neither (a frozen piece of the weave's fibre; J1-J2c identities of the frame)"
+}

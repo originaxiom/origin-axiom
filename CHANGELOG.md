@@ -1,5 +1,25 @@
 # Changelog
 
+## S135 THE JOINT LAW (B1659, PROVED); THE ARENA READ; THE OWNER'S PASSAGES ON THE PUSH-BACK
+
+- **B1659, the joint law** (sealed `f4b12d788`; output unread at `c98fbe782`; every cell as sealed). In B1656's twisted
+  frame, for every Higgs and every matter, det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S),
+  exactly (B1658's T1 the null-cone restriction); with N = Mε the coupling is symmetric and det Y = −4 det S det N
+  polar(S, N); the masses closed-form in the two defects and their pairing (m₁ = 0 iff one vanishes; geometric at
+  N = S). No data; the inverse-map census waits for a reliable search. Two read-only reviewing passes; the first found
+  that main's "the frames differ" was a labelling artefact (withdrawn before the seal, disclosed). Lock
+  tests/test_b1659_the_joint_law.py; T-THE-JOINT-LAW; LAW_MAP; the claim pool; THE_WEAVE.
+- **The SM seat's §138 verified** (the lepton residue is S̄₀ on all 18 lines; P-174 DONE) and **§139 the arena read**,
+  three facts verified by main's own code and its check re-run (P-178: N1 to the owner). Harvest rows 1231–1235 (the
+  SM seat to `05517e1a`, the web seat to `a4cb9025`).
+- **The owner's passages of the evening** (existence in time; binaries both happen; the step against its pull-back,
+  never at rest) recorded verbatim on P-177 and drafted as a firewalled candidate for FK15's "which":
+  `speculations/S_THE_PUSH_BACK.md`, with main's checks (the zero/lift table — a reading agent corrected main: the forced
+  core is structure, each lift costs one datum; both undecided moves leave A₄ intact; the defect averaged along every
+  forward thread is of order one; the Higgs as both isotropic vacua's interaction, S₀ + βS̄₀ under P4, fits no line in any variant, χ² ≥ 689 — a scoreboard, not banked). Relay CC_TO_ALL_SEATS_2026-10-15_THE_JOINT_LAW_AND_THE_ARENA.md.
+- **Register:** P-168, P-175, P-177 noted; P-174 DONE; P-178 (the arena); the floor 178.
+- Landing suite (P-143's ruling): gates 45 of 45 after one fix (seen-first: B1659's findings lacked the literature line, added); the 173 governance, claim, harvest, register and changed-arc test files, 2313 passed, 2 failed, 6 skipped (1:25:28 with -n 8, the machine shared with the owner's video work). The two failures were the gate tests, on views made stale by that fix: views regenerated, the both-vacua result added to the push-back passage (§6, a scoreboard, negative), and the 48 gate and speculation tests rerun: 48 passed.
+
 ## S134 THE TWIST IS PER FIELD (MAIN'S ANSWER, AGREED); BOTH PAPER OPINIONS IN; TWO LANES HARVESTED
 
 - **Main's answer to the SM seat's §§129–130 (P-108), restated directly** for the two seats holding the per-field units:

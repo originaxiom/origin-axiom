@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1387** |
-| words of findings prose | **1,096,942** |
+| research arcs with findings | **1388** |
+| words of findings prose | **1,097,954** |
 | test lock files referenced | **812** |
-| arcs carrying an authored verdict | **1387** (100.0 %) |
+| arcs carrying an authored verdict | **1388** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 941 |
+| PROVED | 942 |
 | NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1658`** (1085 words, 0 locks)  
-THE TWISTED HALF BOUND (sealed b6542d300, sha256 3fd8de72; PROVED -- every cell holds as sealed; the output committed unread at 04d64c2ff): in B1656's twisted, quaternionic frame under equal framed data, each sector's matter residue is a null quaternion M = p q^T and, for ANY complex Higgs S, adj Y(S, M) = det S * q~ p~^T with ||A|| = 2||M||^2, so each sector's spectrum is exactly (1, t, 0) with t + 1/t = ||Y(S, M)||^2/(2|det S| ||M||^2); the Gram spectrum of S -> Y(S, M) is {1, 2, 2, 4}||M||^2, so ||Y||^2 lies in [1, 4]||S||^2||M||^2 for every S (rank one: (|u|^2|p|^2 + |u^dag p|^2)(2|v|^2|q|^2 - |v^T q|^2)); hence one Higgs keeps the sectors' (t + 1/t) within a factor 4 -- exactly; to first order k_s = 2/((1 + x_s)(2 - y_s)) in [1/2, 2], B1645's half bound twisted. The census against HZ2021's M_Z ratios (a scoreboard; data seen): up/leptons 15.92, 27 sigma above 4 -- one Higgs under equal framed data is refuted; up/down 5.08 (2.3 sigma), down/leptons 3.13 (within). Controls bite both ways (a synthetic world x6 outside the bound refuted, at 3.9 not). Left for the sectors' spread: the canonical end condition's joint law, a Higgs that differs by sector (P-166), or the cusp. 0 of 19.  
-`B1658_the_twisted_half_bound/FINDINGS.md`
+**PROVED — `B1659`** (1012 words, 0 locks)  
+THE JOINT LAW (sealed f4b12d788, sha256 8123044b; PROVED -- every cell holds as sealed; the output committed unread at c98fbe782): in B1656's twisted, quaternionic frame, for EVERY Higgs S and EVERY matter M in M2(C), det Y(S, M) = 4 det S det M tr(eps S M^T) and adj Y(S, M) = det S A(M) + det M P A(S) with P = diag(1, -1, -1) and A an explicit quadratic, equal to B1658's q~ p~^T on the null cone; with the matter labelled N = M eps the coupling is symmetric in (S, N) and det Y = -4 det S det N polar(S, N), the shape of B1657's (a.a)(v.v)(a.v). So the three masses are closed-form in the two defects and their pairing: m1 = 0 if and only if a defect or the pairing vanishes; in the hierarchical limit the middle mass reads the sum of the two defects' terms and the lightest their product over the other two; at the coincident point N = S the masses are exactly geometric (m1 m3 = m2^2); both light masses are first order in the defects. On B1656's sector matter (324 cases) the identities hold to 4e-17 and 2e-16; controls bite (a perturbation breaks J1; A for P A breaks J2; N != S departs from the geometric law). No data. 0 of 19.  
+`B1659_the_joint_law/FINDINGS.md`
 
 **NEGATIVE — `B1644`** (1040 words, 1 locks)  
 A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed.  [Scoped by frame at S124 (2026-10-14): a result in Lambda's frame, the fibre at one tau. In the audit lane's E8 embedding the Higgs in M is a Standard Model singlet, a flavon (the web seat's condensate test, its parity step verified in B1650; the audit lane's field map), so its reading as the electroweak Higgs needs the parent map (P-108).] [Audited by main (P-152, B1655, 2026-10-15): a feature booked as a failure: the NEGATIVE is S3b's failed abs(q) prediction (an uncomputed second-order step); the exact zero it found is the leading-order structure a light first generation needs; 'golden impossible' is for the leading-order adjoint-Higgs coupling at one tau; the sealed rule 'the adjoint Higgs is excluded as the flavour source' was never applied, and B1645-B1654 build on M] 0 of 19.  

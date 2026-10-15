@@ -571,6 +571,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1656` | PROVED | L | | THE ELECTRON'S ZERO: on W59's eighteen lines at τ = ω the charged leptons' first generation stays exactly massless for every Higgs and channel weight (9w in the lattice, R₁ = θ₁(−9w) = 0, equal norms at ω); the quarks lifted, ∣D∣/∣R∣² in {1.0312, 2.4629, 2.7416} in a 3-cycle; given τ = ω and W59's lines, the dictionary and B1654's end condition |
 | `B1657` | PROVED | L | | THE SYMMETRIC POINT: at τ = ω the Higgs's symmetric vacua are B1646's axes; the isotropic two are rank one; near the conjugate vacuum the light masses are the two isotropy defects, near the parallel vacuum their sum and product (a geometric hierarchy); under the canonical end condition one generation massless and the next ∣D∣/(2πL∣R∣²) or a quarter; untwisted, one fibre and one τ |
 | `B1658` | PROVED | L | | THE TWISTED HALF BOUND: in B1656's twisted frame under equal framed data, one Higgs keeps the sectors' second generations within a factor 4, exactly (the Gram spectrum {1, 2, 2, 4}); against the M_Z ratios one Higgs is refuted (a scoreboard) |
+| `B1659` | PROVED | L | | THE JOINT LAW: in B1656's twisted frame det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S) for every Higgs and matter; the masses closed-form in the two defects and their pairing (the lightest vanishes iff one of them does; geometric at the coincident point); no data |
 
 ## The exhibit that forced the rebuild
 
