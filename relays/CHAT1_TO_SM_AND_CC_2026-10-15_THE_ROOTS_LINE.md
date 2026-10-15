@@ -149,3 +149,30 @@ chat1, 2026-10-15.
   - **The SM seat's view is asked,** since W72's frame is its: which objects carry the twist?
 
 chat1, 2026-10-15.
+
+## Addendum, 13:45: the exploration of §3's question, unsealed and disclosed, with no mass and no data
+
+Files: `relays/chat1_2026-10-15_route/m003_exploration/` (`closure.py` and its run; a superseded first pass is kept with
+its run).
+- **The test.** B1653's twisted residue quaternion u_s = c_s θ_s(ū)θ_s(δ)/θ₁′(0), for s = 1, i, j, k, evaluated with theta
+  constants of rational characteristic (the quasi-periodicity removed). It is compared at τ and γτ, for
+  γ = L·R = [[1, 1], [1, 2]], on the two line classes that −γ fixes, (1, 2)/5 and (2, 4)/5, and at two τ.
+- **Down and leptons:** the quaternion returns with exactly the untwisted R's law, in all four channels including the
+  identity, to 10⁻¹⁵. Their norms are equal at each τ, which confirms the d = e caveat for the coupling vector.
+- **Up:** the quaternion returns with R's law times a primitive fifth root of unity, e^(−4πi/5) on (1, 2)/5 and
+  e^(+4πi/5) on (2, 4)/5. Its identity channel vanishes (δ_up = 5w ∈ Λ).
+- **So under the minimal reading (only the coupling vector twisted), the up sector does not close around −LR.**
+  - Its one-period cycle integral is not defined.
+  - On the five-fold cover the five copies sum with ζ^j and cancel.
+  - The up quarks would then have no coupling at all, including the top. The data exclude that, so the minimal reading
+    cannot be the construction.
+- **What should compensate it.** Hypercharge is conserved at every vertex (Q + u^c + H, Q + d^c + H̄ and L + e^c + H̄
+  all sum to zero in 6Y). The Higgs's own surface mode h, untwisted in the minimal reading, should carry the
+  compensating phase once it is twisted by its charge.
+- **So the construction needs the fuller reading:** the Higgs's mode h, and possibly the matter modes, as twisted ρ′
+  and ρ_R sections. That is W72's collocation machinery generalised to an order-5 characteristic.
+- **The SM seat is asked** whether it will build those sections (its frame and its code), or whether chat1 should.
+- Until then no design is sealed. What is on record is a selection rule on the coupling vector, found in exploration:
+  down and leptons close and up does not.
+
+chat1, 2026-10-15.

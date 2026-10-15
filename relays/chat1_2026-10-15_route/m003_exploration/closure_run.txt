@@ -1,0 +1,14 @@
+tau=(0.3 + 1.1j)  untwisted: s<-t and the factor R_s(g tau) sqrt(J)/R_t(tau): {'i': ('j', '(1.0 + 2.38019e-31j)'), 'j': ('k', '(1.0 + 3.45357e-31j)'), 'k': ('i', '(1.0 - 2.20786e-31j)')}
+   line (1,2)/5 up    : closure factors (i,j,k) relative to R's law: ['(-0.809017 - 0.587785j)', '(-0.809017 - 0.587785j)', '(-0.809017 - 0.587785j)']  identity channel u1(g)sqrtJ/u1: u1 = 0  |u|: 0.5089
+   line (1,2)/5 down  : closure factors (i,j,k) relative to R's law: ['(1.0 - 3.28704e-16j)', '(1.0 + 3.73137e-16j)', '(1.0 - 6.17033e-17j)']  identity channel u1(g)sqrtJ/u1: (1.0 - 2.56453e-16j)  |u|: 0.4853
+   line (1,2)/5 lepton: closure factors (i,j,k) relative to R's law: ['(1.0 + 1.6511e-15j)', '(1.0 + 1.4514e-16j)', '(1.0 - 4.96708e-16j)']  identity channel u1(g)sqrtJ/u1: (1.0 - 2.73723e-16j)  |u|: 0.4853
+   line (2,4)/5 up    : closure factors (i,j,k) relative to R's law: ['(-0.809017 + 0.587785j)', '(-0.809017 + 0.587785j)', '(-0.809017 + 0.587785j)']  identity channel u1(g)sqrtJ/u1: u1 = 0  |u|: 0.4627
+   line (2,4)/5 down  : closure factors (i,j,k) relative to R's law: ['(1.0 + 1.6511e-15j)', '(1.0 + 1.4514e-16j)', '(1.0 - 4.96708e-16j)']  identity channel u1(g)sqrtJ/u1: (1.0 - 2.73723e-16j)  |u|: 0.4853
+   line (2,4)/5 lepton: closure factors (i,j,k) relative to R's law: ['(1.0 + 1.31481e-15j)', '(1.0 - 1.49255e-15j)', '(1.0 + 2.46813e-16j)']  identity channel u1(g)sqrtJ/u1: (1.0 + 1.02581e-15j)  |u|: 0.4853
+tau=(-0.2 + 0.9j)  untwisted: s<-t and the factor R_s(g tau) sqrt(J)/R_t(tau): {'i': ('j', '(1.0 + 1.7686e-31j)'), 'j': ('k', '(1.0 - 7.24418e-32j)'), 'k': ('i', '(1.0 - 1.6161e-31j)')}
+   line (1,2)/5 up    : closure factors (i,j,k) relative to R's law: ['(-0.809017 - 0.587785j)', '(-0.809017 - 0.587785j)', '(-0.809017 - 0.587785j)']  identity channel u1(g)sqrtJ/u1: u1 = 0  |u|: 0.4467
+   line (1,2)/5 down  : closure factors (i,j,k) relative to R's law: ['(1.0 - 2.27627e-16j)', '(1.0 + 3.36005e-16j)', '(1.0 - 1.98791e-16j)']  identity channel u1(g)sqrtJ/u1: (1.0 - 6.62691e-17j)  |u|: 0.461
+   line (1,2)/5 lepton: closure factors (i,j,k) relative to R's law: ['(1.0 + 8.39387e-16j)', '(1.0 - 5.79316e-17j)', '(1.0 - 3.59696e-16j)']  identity channel u1(g)sqrtJ/u1: (1.0 - 1.56683e-16j)  |u|: 0.461
+   line (2,4)/5 up    : closure factors (i,j,k) relative to R's law: ['(-0.809017 + 0.587785j)', '(-0.809017 + 0.587785j)', '(-0.809017 + 0.587785j)']  identity channel u1(g)sqrtJ/u1: u1 = 0  |u|: 0.4757
+   line (2,4)/5 down  : closure factors (i,j,k) relative to R's law: ['(1.0 + 8.39387e-16j)', '(1.0 - 5.79316e-17j)', '(1.0 - 3.59696e-16j)']  identity channel u1(g)sqrtJ/u1: (1.0 - 1.56683e-16j)  |u|: 0.461
+   line (2,4)/5 lepton: closure factors (i,j,k) relative to R's law: ['(1.0 + 9.1051e-16j)', '(1.0 - 1.34402e-15j)', '(1.0 + 7.95165e-16j)']  identity channel u1(g)sqrtJ/u1: (1.0 + 2.65077e-16j)  |u|: 0.461
