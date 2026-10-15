@@ -1,5 +1,18 @@
 # Step 3a — the weights cells: at rank three and given H-ORTH, no thread to length 8 splits the light pair as the up quarks and leptons need; the (3/2, 7/2) cell keeps the pair together, and the (−½, 7/2) cell has rank two on every thread
 
+> **2026-10-15, after the owner's question and the audit of the negatives** (last two sections;
+> `../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`).
+> - **The substantive negative stands across the completions computed:** no completion splits the light pair at rank
+>   3.
+> - **The ring completion E4·F** is parameter-free and the same on every thread. Under it the (3/2, 7/2) cell has rank 2:
+>   R's isotropy reaches it, and its first generation is massless on every thread. S2's inequality is then met only
+>   trivially.
+>   - That rank is a knife-edge: it needs the + mode's f-admixture to be exactly zero.
+>   - The other parameter-free completion, ϑ², has admixture −4 and rank 3. Its split is not yet computed.
+> - **In the (−½, 7/2) cell** the root gives 1 : 0.0184 : 0 under E4·F, far below its low-lying neighbours.
+> - **Two sentences below are corrected:** "a completion other than H-ORTH, which would be a fit", and "right as made"
+>   for "the root has no hierarchy".
+
 chat1, 2026-10-15, after midnight. This is step 3 of the owner's plan of 2026-10-14 (23:30, agreed): before choosing a
 thread, ask whether the thread frame can split the light pair at all.
 - **Sealed** at `641ef8d94` (sha256 c332b494…), before main banked the tribunal.
@@ -169,3 +182,107 @@ admitted threads it is 0.0089, on the mirror pair LLLLRLR and LRLRRRR, where m�
   - the bounds were rounded down;
   - the mirror pairs were not named;
   - "Y real to the quadrature's precision" was asserted, not shown.
+
+## Post hoc (labelled), 2026-10-15: the completion decides the 7/2 cells
+
+This was run at the owner's question (01:36: "are you sure about your math on all your negatives?") and after the
+selection audit found the fence's "a completion other than H-ORTH, which would be a fit" wrong.
+- **Script** `post_hoc_completions.py`, committed at `5073ffa9d` before its one run (864 s). Output at `735af4b8e`.
+- No prediction. No sealed cell is re-graded.
+
+**The structure.**
+- Every one-unit 7/2 section on line l is E4·F_l + α f.
+  - F_l is the unique one-unit −½ section.
+  - E4 = 1 + 240q + … has weight 4 and leaves the unit's coefficient at 1.
+  - f is the unique holomorphic 7/2 section.
+- F₊ at −½ is R itself. So E4·R is isotropic, and G(X, E4·R, R) = E4·(R·R)X = 0.
+- **The ring completion, H-E4, sets α = 0.** It is parameter-free and the same on every thread.
+- **H-ORTH instead subtracts each thread's f-component.** That mixes f back into E4·R and gives the + mode a coupling.
+
+**Controls.**
+- The new integrands are invariant to 2.9·10⁻¹³ under 20 moves.
+- H-ORTH computed from the E4 basis reproduces step 3a's sealed masses to 1.2·10⁻⁸ on every admitted thread (median
+  8.2·10⁻¹²). It differs by up to 0.9% only on the ten unadmitted deep threads, where the quadrature has not converged.
+- So E4·F_l lies in step 3a's 7/2 space, as the structure says.
+- **The identities, checked by the referee (in scratch, with the same calls).** The script's own identity checks are
+  void (below), so these come from the referee:
+  - ϑ of the −½ section is s·F at 3/2, with s = e₀ + 1/24 (−5/6, −1/12, −7/12), to 2.7·10⁻¹⁶ in value.
+  - Reading α and β off the one coefficient the particular sections zero, (e_i, 1/8):
+    - step 3a's particular sections are E4·F_l + α_l f, with α = (−221, −4, −112);
+    - ϑ²F_l, normalised, is E4·F_l + β_l f, with β = (−224, −4, −112);
+    - both to 2·10⁻¹⁶.
+  - So on the ± lines step 3a's particular sections are exactly ϑ²F. On e_i the two differ by 3f.
+
+**The outcome.** Admission is the same 59 threads in every case.
+
+| cell | completion | rank | the root | the root's place by m₂/m₃ | admitted threads in the band |
+|---|---|---|---|---|---|
+| C2 = (3/2, 7/2) | H-ORTH (sealed) | 3 | 1 : 0.809 : 0.618 | largest | 18 |
+| C2 | H-E4 | 2 on all 59 | 1 : 0.485 : 0 | largest | 35 |
+| C3 = (−½, 7/2) | H-ORTH (sealed) | 2 | 1 : 0.0215 : 0 | 36th of 59 | 32 |
+| C3 | H-E4 | 2 on all 59 | 1 : 0.0184 : 0 | smallest of the 59 admitted | 5 |
+
+- **The substantive negative stands under every completion computed: none splits the pair at rank 3.**
+  - Under H-E4 the (3/2, 7/2) cell has rank 2. Its first generation is massless on every thread (m₁/m₃ below
+    1.4·10⁻¹⁷), and its 2–3 ratio still falls with height (Spearman −0.997). S2's inequality is met only trivially.
+- **The rank 2 is a knife-edge.**
+  - In the E4 basis, the + column under any completion is c₊ times f's column. So the rank is 2 only at c₊ = 0.
+  - Every completion computed with c₊ ≠ 0 gives the nearly degenerate pair: H-ORTH, and the two runs voided below, read
+    as arbitrary fixed admixtures. All three have rank 3 on 59 of 59 threads, with m₁/m₂ ≥ 0.41 anywhere and ≥ 0.769
+    in the band.
+  - So the degenerate pair is not H-ORTH's alone.
+  - ϑ², the other parameter-free completion, has c₊ = −4. It is rank 3 and not yet computed with its right admixture.
+- **At leading order, then, the (3/2, 7/2) cell gives either a nearly degenerate pair (c₊ ≠ 0) or a massless first
+  generation (c₊ = 0).** The (−½, 7/2) cell is massless under both completions.
+  - A massless first generation is the record's own leading order (B1649).
+  - Whether anything lifts it is P-128's open question (main's).
+- **In C3 the root is far below its low-lying neighbours under both completions.**
+  - Under H-E4 it gives 0.0184, the smallest of the 59 admitted threads, against 0.18–0.63 on the other admitted
+    threads below y = 1.75.
+  - Apart from the root, the lowest admitted values lie on the deepest threads: LLLLLRRR and LLLRRRRR at 0.0209 (y =
+    2.8), then 0.053 and 0.072 (y = 2.8–3.0).
+  - Five unadmitted deeper threads go lower. LLLLLR and LRRRRR give 0.0088 at y = 3.35, with the mirror pair agreeing
+    to 4·10⁻⁴. Three others are not converged.
+  - So the ratio still falls with depth, but weakly (Spearman −0.34; −0.41 without the root). The root breaks that
+    trend.
+  - The mechanism is not analysed.
+- **For the record, not as a claim.**
+  - The down quarks' m_s/m_b at M_Z is 0.0187 ± 0.0016 (HZ2021). C3's root sits 0.2σ from it under H-E4, and 1.7σ
+    under H-ORTH.
+  - The chance of landing within 1σ of some sector's m₂/m₃, for the five root values across cells and completions, is
+    about 12–16%. That figure takes a log-uniform prior on [10⁻³, 1] or [10⁻⁴, 1], or the instrument's own 295
+    admitted values (the referee). It rises to 28–35% if every ratio of the rank-3 roots counts.
+  - C3's first generation is massless, while the down quarks' m_d/m_s = 0.050 is not small.
+  - Nothing is assigned.
+- **Void, through a defect of this script.**
+  - The JSON's "identities" entries are void: I1, I2, I3, and the comparison of G(F_i, E4·R, R) by largest
+    coefficients.
+  - So are the completions "H-PART" and "H-THETA2" in "per thread" and "summary".
+  - The cause: the fits weighted the q-coefficients by magnitude, so the highest exponents dominated. The collocation
+    determines those exponents poorly; they agree to 10⁻¹⁹ through exponent 10 and are wrong at order one by exponent
+    22.
+  - For example I1's s on the + line came out 2.15 − 10.4i, where the structure requires −1/12. The isotropy
+    comparison read 1.3·10⁻³ by coefficients; in value it is 2.7·10⁻⁴³.
+  - The referee's identities (Controls, above) repair this with a one-coefficient read-out. So the right H-PART and ϑ²
+    completions are a cheap rerun under their own label.
+
+## Corrections (2026-10-15: the audit of the negatives)
+
+1. **"A completion other than H-ORTH, which would be a fit"** (What it shows 2; Fence) **is wrong.**
+   - E4·F and ϑ²F are completions with no free number, and each is the same on every thread.
+   - Under E4·F the (3/2, 7/2) cell has rank two (previous section). Under every other admixture computed it keeps a
+     nearly degenerate pair.
+   - ϑ²F is still to be computed with its right admixture.
+   - So the 7/2 cells stay hypothesis-bound: the choice of completion decides their rank.
+2. **"So both statements are right as made"** (What it shows 4) **is too generous to "the root has no hierarchy".**
+   - Even in C1 the root is 1 : 0.37 : 0.0096, a mild hierarchy, not none. FINDINGS_THREAD_FRAME's correction 3 said so
+     the same evening.
+   - The fair wording for B1652's F5 is: "in W72's cell the root's 2–3 ratio, 0.37, is 6–100 times too mild".
+   - In C3 the root lies far below its low-lying neighbours: 0.0215 under H-ORTH, and 0.0184 under H-E4, where it is
+     the smallest of the 59 admitted threads.
+3. **Refereed.** A read-only referee checked this post hoc and its reading: the script, the controls, every quoted
+   number and the void diagnosis. It found no arithmetic error. It corrected two readings of this draft before commit:
+   - "S2's failure belongs to H-ORTH, not to the cell" repeated, in the positive direction, the error the audit names;
+   - "most hierarchical overall" needed the y ≤ 3 qualifier.
+
+   Its scripts are filed in `../chat1_2026-10-15_audit/auditors/post_hoc_referee/`.

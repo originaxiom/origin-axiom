@@ -1,5 +1,14 @@
 # What we are missing: the early phenomena set against the selection problem — a meditation (chat1, 2026-10-14, night)
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`).
+> - "At c = 6 it selects nothing" (§6 and the §0.1 table) is wrong as worded: the root is the most probable thread at
+>   every c.
+> - "Minimality is ruled out by the data" holds in W72's cell only. The (−½, 7/2) cell gives the root
+>   1 : 0.018–0.022 : 0.
+> - "The principles split" stands as scoped: every principle tabled admits the root, except one of the two transfers
+>   of B517.
+> - "Cannot sign itself" is consistent with the sign being a convention, which is how spontaneous CP violation works.
+
 > **The owner (22:06).** "what about the feedback mechanism? and other properties of threads and weave? their beings
 > parts, hearing parts, voice, heartbeat and other phenomenas we calculated in the eraly stages? what are we missing?
 > lets contemplate, meditate and comprehend the problem properly? patterns above paterns, steping back and back and back

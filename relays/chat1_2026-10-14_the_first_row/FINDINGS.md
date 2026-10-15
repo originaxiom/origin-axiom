@@ -1,5 +1,23 @@
 # The first row: at leading order the record gives |U_e1|² = 1 or at most ½, and nature's 0.675 lies in the gap
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`, auditor B). The arithmetic holds.
+> - **"chat1's floated escape is closed" is wrong as worded.** It is closed only for one condensate per leg.
+>   - With both condensates on one leg the coupling has rank 3 in general. With 8 free real parameters it fits the
+>     whole first row and Δm²₂₁/Δm²₃₁ at τ = i, 1.5i and ω: a fit, not a prediction.
+>   - On a cubic surface of Higgs directions it keeps a massless ν₁ off R, with |U_e1|² across [0, 1].
+>   - Nature does not require a massless ν₁.
+> - **The headline holds only as scoped:** one fibre, one τ, one coupling point, one R, one condensate per leg, and the
+>   Hodge–Riemann metric. Each of these reaches the gap:
+>   - couplings at different fixed points: B1651's U6, squared, gives 0.653, 0.620 and 0.591;
+>   - two moduli: R(i) against R(ω) gives 0.825;
+>   - the one-leg placement;
+>   - T-NORM.
+> - **§4's "RL as the charged leptons' residual and B1649's leading order cannot both hold" is wrong as worded.**
+>   - R(ω) is an isotropic eigenline of RL, with eigenvalue ω. What is incompatible is TM1's ⅔ row assignment.
+>   - "Only 9.7° off R" is a minimum: TM1's own line needs 17–31°.
+> - **§5's P-128 reading** ("a Dirac pairing would be lifted") is contradicted in its lifting half by main's later,
+>   firewalled finding: at a point, no flat line lifts the zero.
+
 chat1, 2026-10-14, evening. The second of the three cheap checks chat1 proposed after the owner's "continue".
 - **Sealed** at `53b7f3f88` (sha256 81ca4a63…) before any code.
 - **The script** `first_row.py` was committed at `f549a9433` before its one run (506 s). Its output, `run.txt` and

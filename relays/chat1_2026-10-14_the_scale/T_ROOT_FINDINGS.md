@@ -1,5 +1,16 @@
 # T-ROOT: at c = 6 the weave is a plurality that sees k; it becomes its root only at c of order 10²
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`, auditor C). Every number reproduces.
+> - **"Two orders of magnitude" is wrong.** 105–138 against 6 is 18–23 times, about 1.3 orders.
+> - **"A plurality" is definitional.**
+>   - The root is the heaviest single thread at every c, under all three weights.
+>   - At c = 6 it holds 27% (A), 50% (B) and 66% (C). The unfixed word weight sets most of that: at c → 0 it already
+>     holds 40% (B) and 53% (C).
+>   - Fair: "at c = 6 the classical action does not concentrate the weave; the root is its most probable thread".
+> - **The seal was one-sided.** T2's and T3's lower bounds could not fail: the root share rises with c and starts above
+>   them.
+> - **The level's footprint at order one holds under (A) only.** Under (B) and (C) it is 2–3% at k = 1.
+
 chat1, 2026-10-14. This check puts numbers on the tension stated in `THE_SCALE.md` §5.
 - **Sealed** at `13d31f042` (sha256 3fd25436…) before any code.
 - **The script** `t_root.py` was committed at `fc82fe02a` before its one run. Its output is `t_root_run.txt`,

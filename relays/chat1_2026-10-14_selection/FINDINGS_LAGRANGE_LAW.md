@@ -1,5 +1,11 @@
 # The Lagrange law: in the thread frame a vacuum's hierarchy is fixed, to 0.3 e-folds over 20, by one number, its thread's Lagrange value; the golden root (Hurwitz's √5) is the least hierarchical vacuum
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`).
+> - "What it shows" 5, "at large c the weave becomes its root, which has no hierarchy to speak of", holds in W72's
+>   cell only. The (−½, 7/2) cell gives the root 1 : 0.018–0.022 : 0.
+> - The one-number law fails for long words built of golden blocks. At lengths 9–12 the sealed tolerance still holds:
+>   RMS 0.437 < 1.0 over 501 words (auditor D).
+
 > **Corrected the same evening (see the last section). The sealed cells stand for words of length ≤ 8; the law's
 > generalisations fail beyond.** On the same construction, long words with golden blocks dilute the hierarchy, so the
 > hierarchy is not fixed by one number. The "forbidden band" is filled by long Markov words, and "Hurwitz is B990 in

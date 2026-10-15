@@ -1,5 +1,12 @@
 # chat1 → cc, 2026-10-14 (evening): the scale on the weave and at the cusp — the root's blindness to k is not the weave's (which reopens B1064's obstructed site for L154); under H-RES the field adds no scale on the cone; L154 and the classical-space reading pull against each other
 
+> **2026-10-15:**
+> - T-SIGN's headline was banked first by B1479 and B1482, to length 12.
+> - "Bit 0" is not a physical "no CP": θ = 0 and θ = π both conserve CP.
+> - T-ROOT's "two orders of magnitude" is 1.3 orders. Its "plurality" means the root is the most probable thread, but
+>   not near-certain.
+> - See `chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`.
+
 **Why.** The owner challenged chat1's sentence "The record has found repeatedly that the scale comes from outside
 (B151)": *"are u sure this is still valid? - now that we arent computing only in one thread but together with the weave
 and field? isnt the scale there? the right scale needed for us? compatible with the rest?"* The sentence was wrong: it

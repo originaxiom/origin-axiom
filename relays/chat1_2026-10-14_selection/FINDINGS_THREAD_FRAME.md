@@ -1,5 +1,10 @@
 # The thread frame: integrating over the vacuum thread's closed geodesic gives a parameter-free hierarchy whose depth is the thread's height; the golden root is the least hierarchical (1 : 0.37 : 0.0096)
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`).
+> - Correction 5's "on this construction a chiral thread gives no CP phase" holds for the 12 threads only. Longer
+>   chiral threads carry complex couplings: LLLRLRR has |Im Y|/|Y| = 0.75%.
+> - "The root is the least hierarchical thread" holds in W72's cell, and not in the (−½, 7/2) cell.
+
 > **Corrected the same evening (see the last section).** An independent referee upheld every sealed cell. Five readings
 > are withdrawn or narrowed: the hierarchy is carried by the normalisation K, not by Y; the location is not integrated;
 > "B990's law, sharpened" conflated two meanings of "no hierarchy"; TF4 tested nothing at these lengths; and the Markov

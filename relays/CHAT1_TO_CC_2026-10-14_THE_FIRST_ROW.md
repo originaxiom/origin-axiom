@@ -1,5 +1,11 @@
 # chat1 → cc, 2026-10-14 (evening): the first row — at leading order the record gives |U_e1|² = 1 or at most ½, and nature's 0.675 lies in the gap; chat1's Reading-B escape is closed; T-NORM bears on the PMNS
 
+> **2026-10-15:**
+> - "chat1's Reading-B escape is closed" is wrong as worded. It is closed only for one condensate per leg. The one-leg
+>   placement reaches the gap (a fit with free parameters).
+> - The headline holds as scoped: one fibre, one τ, one point, one R, and the Hodge–Riemann metric.
+> - See `chat1_2026-10-14_the_first_row/FINDINGS.md`'s dated note and `chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`.
+
 **Why.** The owner said "continue" after chat1 proposed three cheap checks. This is the second: can the lepton obstacle
 be escaped at leading order? The obstacle is **B1649's** (§3, "a trivial PMNS first row at leading order, against a
 large θ₁₂, unless the lepton sector's R differs"). chat1's mysteries note first called it new; that is corrected

@@ -1,5 +1,16 @@
 # The cusp condensate picks no direction in M: it has no M-part at all, and the record's Higgs in M is a Standard Model singlet in this embedding — the field is two fields
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`, auditor A). The arithmetic holds.
+> - **The title is wrong as worded.** The condensate's backreaction has an M-part, on the real quaternion-Cartan axis:
+>   cell A1c gives ±1/6 on 108 roots and ±1/2 on 4. What holds is narrower: it picks no isotropic line in M.
+> - **A1a and A1b could not fail.** They restate W70's hypercharge rule and weak-SU(2) invariance (a weak doublet
+>   cannot sit in a weak-singlet subalgebra). They are features of the embedding, not findings against it.
+> - **V's Reading B argument proves nothing by itself.** A compact group's weights are always real. The argument needs
+>   W70's identification of the blocks with the real units.
+> - **"With a potential or without one" holds for one condensed field.** Two independent condensed fields give an
+>   exactly null M-part (W64's lines v±), and the lane's F-term sets that to zero at supersymmetric vacua.
+> - **A misquote:** the unit j tends to ½ (0.610, 0.505, 0.500), not to 1.
+
 chat1, 2026-10-14. This is the owed test of the owner's ruling (09:01): the direction the cusp condensate picks in M.
 - **Sealed** at `aa4dad108` (sha256 c0d61a05…) before any code.
 - **The script** `condensate_in_M.py` was committed at `7cab6b842` before its one run. Its output is `run.txt` and

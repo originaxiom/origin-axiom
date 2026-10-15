@@ -1,5 +1,10 @@
 # The scale: what the record has, and what the weave and the field change (chat1, 2026-10-14, evening)
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`, auditor C).
+> - §4.3 says that in class S the Higgs field's scale "is the circle radius R … absorbed into the unit". That is wrong:
+>   Φ's size there is a free Coulomb-branch modulus. The line carries no weight in the argument.
+> - §5's "LLR weighs 0.82 of LR" counts the action factor only, before any word weight.
+
 > **The question.** Written at the owner's question about chat1's sentence "The record has found repeatedly that the
 > scale comes from outside (B151)": *"are u sure this is still valid? - now that we arent computing only in one thread
 > but together with the weave and field? isnt the scale there? the right scale needed for us? compatible with the

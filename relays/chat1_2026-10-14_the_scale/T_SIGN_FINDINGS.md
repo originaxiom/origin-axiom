@@ -1,5 +1,13 @@
 # T-SIGN: the CP bit of an amphichiral thread is the sign of its monodromy, so the positivity ruling chooses bit 0
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`, auditor C). The mathematics holds to the lengths checked
+> and is stable under retriangulation.
+> - **Credit missing.** B1479 ("the bit is the sign of the word state") and B1482 (GM5d, "positivity is what excludes
+>   the − states") banked this headline to length 12 on 2026-10-07. T-SIGN's new parts are lengths 13–18 and N2 on
+>   chiral words.
+> - **"Bit 0" is not a physical "no CP".** The bit separates θ = 0 from θ = π, and both conserve CP. Amphichirality
+>   alone makes these threads CP-even. B1652's F2 D7 cites T-SIGN beside W74, but the failure rests on W74 alone.
+
 chat1, 2026-10-14.
 - **Sealed** at `50352be3a` (sha256 258718ef…). The script `t_sign.py` was committed before its one run; its output is
   `t_sign_run.txt` and `t_sign.json`.

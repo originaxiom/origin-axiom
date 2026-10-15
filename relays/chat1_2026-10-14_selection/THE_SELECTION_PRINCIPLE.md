@@ -1,5 +1,21 @@
 # The selection principle: what B990's law forbids, why every symmetric point is flat, and how far a principle that selects nothing inside a vacuum gets (chat1, 2026-10-14, evening)
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`: auditor D, and chat1's post hoc on step 3a's completion).
+> - **"At c = 6 it selects nothing" is wrong as worded.** The root is the action's most probable thread at every c:
+>   27%, 50% or 66% at c = 6, by the word weight. It is near-certain only at c ≈ 105–138.
+> - **"The root is not hierarchical enough" holds in W72's cell only.**
+>   - In the (−½, 7/2) cell the root gives 1 : 0.0215 : 0 (H-ORTH) or 1 : 0.0184 : 0 (the ring completion E4·F), far
+>     below its low-lying neighbours.
+>   - So "the thread is the whole question for the hierarchy" is wrong: the cell matters as much.
+> - **"The weave cannot choose a sign of CP" is withdrawn as a failure.** A word and its reverse are CP images, and
+>   between CP-conjugate vacua the sign of the phase is a convention (spontaneous CP violation). The real CP obstacles
+>   stand:
+>   - one sector has no physical phase;
+>   - one coupling for every sector gives J = 0;
+>   - the reflection-symmetric threads carry 91.5–98.9% of the weight at c = 6.
+> - **"Not found" stands as a report:** no principle fixes the nineteen. But its stated reason holds only in W72's
+>   cell.
+
 > **The owner (18:27).** "your task is to find/solve the selection principle. take your time, meditate, learn, swipe,
 > research, do whatever you can, the reward is high." It quotes cc:
 > - "What is missing: 1. A selection principle (the essential one)." Every "which?" on the record comes out free: which

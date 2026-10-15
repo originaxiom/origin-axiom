@@ -1,0 +1,309 @@
+{
+ "jacobi_rel": 4.911003806877794e-15,
+ "check_weak_sl2_[e,f]=W": 0.0,
+ "K_EQ_EQ": "0j",
+ "K_hQ_hQ": "(360+0j)",
+ "K_EQ_FQ": "(180+0j)",
+ "pairs": [
+  {
+   "Y_blocks(b,a,ab)": [
+    "1/6",
+    "-5/6",
+    "2/3"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_1",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "0j",
+    "(-0.666666666667+0j)"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "1/6",
+    "-5/6",
+    "2/3"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_1",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "(-0.666666666667+0j)",
+    "0j"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "1/6",
+    "2/3",
+    "-5/6"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_2",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "0j",
+    "(-0.666666666667+0j)"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "1/6",
+    "2/3",
+    "-5/6"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_2",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "(-0.666666666667+0j)",
+    "0j"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "-5/6",
+    "1/6",
+    "2/3"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_0",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "0j",
+    "(-0.666666666667+0j)"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "-5/6",
+    "1/6",
+    "2/3"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_0",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "(-0.666666666667+0j)",
+    "0j"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "-5/6",
+    "2/3",
+    "1/6"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_0",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "0j",
+    "(0.666666666667+0j)"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "-5/6",
+    "2/3",
+    "1/6"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_0",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "(0.666666666667+0j)",
+    "0j"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "2/3",
+    "1/6",
+    "-5/6"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_2",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "0j",
+    "(-0.666666666667+0j)"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "2/3",
+    "1/6",
+    "-5/6"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_2",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "(-0.666666666667+0j)",
+    "0j"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "2/3",
+    "-5/6",
+    "1/6"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_1",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "0j",
+    "(0.666666666667+0j)"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  },
+  {
+   "Y_blocks(b,a,ab)": [
+    "2/3",
+    "-5/6",
+    "1/6"
+   ],
+   "Y(u1),Y(v2)": [
+    "-1/2",
+    "1/2"
+   ],
+   "sum_root": "beta_1",
+   "singlet_M_coeffs(hQ,EQ,FQ)": [
+    "0j",
+    "(0.666666666667+0j)",
+    "0j"
+   ],
+   "singlet_nullness": 0.0,
+   "triplet0_M_coeffs": [
+    "0j",
+    "0j",
+    "0j"
+   ],
+   "Pi_M(singlet)_commutes_with_SM": 0.0,
+   "singlet_has_no_p_odd_component": true
+  }
+ ]
+}

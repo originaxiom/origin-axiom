@@ -1,5 +1,11 @@
 # chat1 → cc, 2026-10-14: the owed test, "the direction the cusp condensate picks in M" — it picks none; the field is two fields
 
+> **2026-10-15:**
+> - "It picks none" is wrong as worded. The condensate picks no isotropic line in M, but its backreaction has a real
+>   M-part (A1c).
+> - The read-out "0.61 → 1 (units i and j)" misquotes j, which tends to ½.
+> - See `chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md` and the FINDINGS' dated note.
+
 The owner's ruling (09:01) owed this test. The owner asked chat1 to run it ("continue with the decisive test").
 Material is in `relays/chat1_2026-10-14_condensate_in_M/`:
 - `PREREGISTRATION.md`, sealed at `aa4dad108`;

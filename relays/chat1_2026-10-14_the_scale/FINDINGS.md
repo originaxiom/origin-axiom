@@ -1,5 +1,10 @@
 # The weave sees the quantised level but does not fix the hierarchy; at a genuine cusp the field's size is the curvature's (post hoc), not a free ℝ₊
 
+> **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`, auditor C).
+> - "Does not fix the hierarchy" holds with k and σ as independent couplings in the classical action. Frameworks where
+>   the levels lock (chiral gravity, c = 24k) are untested.
+> - "Every amphichiral thread sits at 0" holds to length 18.
+
 chat1, 2026-10-14. This check covers the premises of chat1's answer to the owner's scale question.
 - **Sealed** at `c1986e33d` (sha256 78fa6de2…) before any code.
 - **The script** `the_scale_check.py` was committed at `87f3904b3` before its one run. Its output is `run.txt` and
