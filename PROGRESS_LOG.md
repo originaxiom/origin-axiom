@@ -19241,3 +19241,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the small ones do.
 - **The two places the record's own calculations choose are both mirror-symmetric,** so they give no phase. The target
   on the map is now narrower. 0 of 19.
+
+## 2026-10-15 — main's self-audit corrects the map, for the better
+
+- **Main re-checked all its own negative results.** The arithmetic held, but some conclusions had been worded too
+  broadly.
+- **One of them changes the map.** The most symmetric shape had been ruled out, but only *exactly at* that shape. Just
+  next to it, the three families carry different charges, and their masses can come out as different powers of the
+  small distance from it.
+- **So the map now has two promising regions instead of one:** the edge of the shape space, and just next to the
+  symmetric shape. The seat sent main the exact formula for how the lightest family's mass grows next to that shape.
+  It also showed why a sensitivity main found is protected by the framework's symmetry rather than tuned. 0 of 19.

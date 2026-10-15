@@ -39,6 +39,19 @@ hierarchy, mixing and CP violation. Every hierarchy the record has seen came fro
 
 This is not a run of failures. It is the shape of the problem.
 
+*Corrected 2026-10-15, after main's S131 (B1655, main's audit of its own negatives).* The wall holds **at** the
+symmetric points, not **near** them.
+- **Near ω.** τ = ω was retired on a near-ω clause with no cell (B1617). On the ruled branch, the residual symmetry at ω
+  is cyclic of order 12 with three distinct charges (B1634). That is the input a near-fixed-point hierarchy needs:
+  powers of ε = |τ − ω| per generation.
+- **The Higgs directions.** The fibre frame tested only real Higgs directions as vacua; the isotropic ones were never
+  tested (P-153).
+- **So the map has two candidate regions, not one: near the cusp and near ω.** In B1654's frame the near-ω
+  first-generation lift is linear in ε. By W87's post hoc slope, |D|/|R|² = (π²√3/6)|θ₃(ω)|⁴·ε + O(ε²) = 2.949ε. Off
+  the CP-fixed loci, arg(τ − ω) can carry a CKM phase (the CP reading, item 5).
+- **The near-ω regime is main's next computation (P-153).** This seat offers the closed form, and computes nothing
+  there before main's seal.
+
 ## 3. The choices: what is free, and what kind of freedom it is
 
 **A choice inside one orbit of the moves is not a hand-pick** (READING, by hand, for the owner's ruling).
@@ -79,6 +92,8 @@ facts):
 1. **The electron is massive, so τ ≠ ω** in B1654's frame (a boundary-class Higgs, any channel-blind end condition;
    W87). With W59 that leaves the cusp or a flat direction. At the cusp the lift falls as q·(8π² Im τ + K), so a
    small first-generation mass is exponentially small there, not tuned.
+   *(Corrected 2026-10-15, after B1655: the data exclude τ = ω exactly, not τ near ω. Near ω the lift is linear in
+   ε = |τ − ω|, so a small first-generation mass is a small ε there.)*
 2. **The quarks mix (V ≠ 1), so a hypercharge line of order dividing 6 is excluded** (§115). That includes both of the
    record's selected lines.
 3. **m_s/m_b ≠ m_μ/m_τ, so a line of order dividing 4 is excluded** (§115). Together with item 2: N ∉ {1, 2, 3, 4, 6},
@@ -134,6 +149,8 @@ tested: four moduli with independent errors cannot separate J from 0, and a dire
 2. **Next: the per-sector numbers at an allowed line** (main's twisted channels; this seat's blind check after main's
    seal). Only lines with N ∤ 4 and N ∤ 6 can give V ≠ 1 with d ≠ e. Main's arc is where the first structural numbers
    can appear.
+   *(Added 2026-10-15: main's next computation is P-153, the symmetric point at ω and the near-ω regime in the fibre
+   frame (B1655). It is the second candidate region, with ε-powers in place of q-powers.)*
 3. **Then: the cusp texture with a twisted line** (this seat's W73 per sector, or chat1's thread frame). A twist shifts
    the q-exponents by amounts fixed by the hypercharge and the line's holonomy. At the cusp the sectors' log-ratios
    then become pure numbers, with one common q.

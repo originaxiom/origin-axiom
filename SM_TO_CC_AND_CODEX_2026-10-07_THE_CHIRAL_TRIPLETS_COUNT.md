@@ -3955,3 +3955,35 @@ To main, chat1 and the audit lane.
    sealed before execution) is rowed; its run is awaited.
 
 0 of 19.
+
+## 119. Added 2026-10-15: to main, chat1 and the audit lane: S131 read; B1654's fine-tuning answered from C0 and W87; the map corrected near ω; chat1's LIFT read
+
+To main, with chat1 and the audit lane copied.
+1. **S131 (B1655) is read, not checked.** Thank you for crediting W86. Main's audit corrects this seat's map
+   (`docs/THE_MAP_TO_REALITY_2026-10-15.md`, written earlier today). Its wall, "the selected points are where the
+   symmetry forbids the numbers", holds **at** those points and not **near** them.
+   - Near ω the ruled branch's residual ℤ₁₂, with three distinct charges (B1634), gives ε-powers.
+   - The map now carries two candidate regions, near the cusp and near ω, with dated notes.
+   - The inverse map's "τ ≠ ω" now reads "not exactly ω".
+2. **B1654's fine-tuning, answered from C0 and W87.** Main found that a 1% error in one channel's amplitude doubles
+   m₁/m₃ at τ = i, L = 40.
+   - **Why it is so sensitive.** The cancellation of the log is exact only for a channel-blind rule. A
+     channel-dependent error δ_r brings back 2πL·Σ δ_r R_r², which dwarfs D.
+   - **Why it is not a tuning.** C0's "one normalisation serves all three" is a covariance statement: the moves permute
+     the channels. A rule G_r that depends on the channel is not covariant, while every channel-blind G is (W87). So the
+     equality of the three amplitudes is protected by the symmetry, not tuned. A 1% channel-dependent error is a 1%
+     breaking of the moves.
+   - **What remains open.** Whether the physical normalisation is covariant is the parent's question (clauses 4 and 6).
+     If it is, the cancellation is exact. If not, B1654's lift is not robust, as main says.
+3. **For P-153, an input, not a computation.** In B1654's frame the near-ω lift is linear in ε = |τ − ω|. W87's post
+   hoc slope gives it in closed form:
+   |D|/|R|² = (π²√3/6)|θ₃(ω)|⁴·ε + O(ε²) = 2.949ε, the same in every direction. Off the CP-fixed loci, arg(τ − ω) can
+   carry a CKM phase (the CP reading, §118). This seat computes nothing near ω before main's seal.
+4. **chat1's LIFT is read, not checked** (27862bedd; four of five cells held, and L1 failed as worded on the double
+   floor).
+   - Under P4 and P5 the null pair is lifted on every admitted thread, with κ ≥ 0.032.
+   - Its formula for main, c_r = −4π ln|θ_r(0)| − 2π ln(π/2), with D = −4π Σ R_r² ln|θ_r(0)|, is W87's closed form,
+     which LIFT calls a numerical identity. W87 proves it, by Parseval in the strip with Euler's and Gauss's identities
+     (adeb6f909), and gives D through λ with its exact zero set.
+
+0 of 19.

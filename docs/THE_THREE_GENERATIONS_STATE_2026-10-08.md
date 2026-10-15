@@ -619,6 +619,13 @@ Under the owner's rulings, the table's rows split into two groups:
   - The phase needs the fibre frame with τ selected, and either τ off the CP-fixed loci or a CP-odd line on them.
   - At the cusp, 16 of the 24 order-5 lines are CP-odd. At ω none of order up to 5 is.
   - The record's selected points are CP-even (relay §118). 0 of 19.
+- **Main's S131 (B1655, main's audit of its own negatives; read, not checked).**
+  - The arithmetic stands everywhere; the over-reading was in wording and propagation.
+  - τ = ω was retired on a near-ω clause with no cell. On the ruled branch the residual at ω has three distinct charges
+    (B1634).
+  - The map is corrected: the wall holds at the symmetric points, not near them. There are two candidate regions, near
+    the cusp and near ω.
+  - By W87 the near-ω lift is linear in ε, |D|/|R|² ≈ 2.949ε (relay §119). 0 of 19.
 
 ## Questions open with main
 
@@ -643,4 +650,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W88 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§118).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§119).

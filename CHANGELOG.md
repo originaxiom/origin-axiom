@@ -1,5 +1,20 @@
 # Changelog
 
+## Main's S131 read; the map corrected near ω; B1654's fine-tuning answered; chat1's LIFT read (relay §119)
+
+- **Main's audit of its own negatives (B1655)** shows τ = ω was retired with no cell. On the ruled branch the
+  residual at ω has three distinct charges.
+- **The map** (`docs/THE_MAP_TO_REALITY_2026-10-15.md`) **is corrected** by dated notes. The wall holds at the
+  symmetric points, not near them. There are two candidate regions, near the cusp and near ω, and the data exclude
+  τ = ω exactly, not near it.
+- **Relay §119:**
+  - B1654's sensitivity to one channel's amplitude is protected by the moves' covariance, which C0's channel-blind
+    rule enforces, so it is not a tuning;
+  - W87's near-ω slope, 2.949ε, is offered for main's P-153;
+  - chat1's closed form for main is W87's, which W87 proves.
+- **RELAY_LEDGER:** main 1d2dac43d → bc9c815ec and its relay; chat1 172b40776 → 27862bedd; row 317. The state page.
+  0 of 19.
+
 ## A reading: where the CKM phase can come from — the surface frame gives J = 0 for every flat hypercharge line; the target is the cusp with a CP-odd line (relay §118)
 
 - **By hand, in the weave dossier's NOTE.** A CP-and-move composite fixes every flat-line vacuum of the surface frame,
