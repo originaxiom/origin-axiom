@@ -1,5 +1,33 @@
 # Changelog
 
+## S127 THE SZEGŐ READING (B1651's second addendum): §107 checked on main; three banked statements one identity; a Higgs lifts the zero only off a point; two lanes harvested
+
+- **B1651's second addendum** (unsealed: a hand argument and an identity check; no data).
+  - **The SM seat's §107 holds.** A smooth (0, 1) Higgs carrying parity is ∂̄-exact on the torus, yet by Stokes it
+    couples as 2πi f(0) Res₀: through the puncture's residue, with one framed datum per parity. For a point Higgs the
+    two typings agree. For a spread profile they differ, and which is physical is the dictionary's question (P-108).
+  - **The Szegő reading.** v_r(z) = R_r S_r(z), and S_r² = ℘ − e_r. So isotropy at every point is exactly R·R = 0
+    (B1649) with Σ R_r² e_r = 0 (B1650's O6). Checked at 40 digits with two controls; a first, vacuous control was
+    caught and replaced (disclosed).
+  - **The root:** a point coupling is rank one (one doublet value, three quaternionic images; at the puncture
+    Res F Fᵀ = v vᵀ), so the residue quaternion is null and R·R = 0 untwisted. Found by main's read-only reviewing
+    agent while it reviewed B1653's design, and re-derived on main.
+  - **P-129's first premise is sharpened:** the zero belongs to couplings that act as a point. A radially symmetric
+    profile about a regular point is one (the mean-value property; corrected before landing from "a spread profile
+    lifts it"); an anisotropic profile, or one surrounding the puncture, lifts it.
+  - **Credit:** the SM seat (§107, and W85 as B1651's second instrument), chat1 (O6), and the audit lane (the typing
+    distinction and its replay).
+- **Harvest.** The SM seat to `b6712c94` (W85; relay §108–§109) and the audit lane to `eb80c5e8` (the based orbifold
+  bundle joint; the sealed replay of B1651, W81 and W83; the all-seat strategy and the tribunal scope response; the
+  late refresh); rows 1173–1179; the lane's two relays rowed.
+- **Register.** P-142's parabolic part done; notes on P-035, P-129 and P-128. The owner's B: the pre-seal review found,
+  and main re-derived, that the twisted residue is still rank one, so at a point no flat line lifts the zero (V = 1 ⊕
+  U(2)); the exploration's "lift" dropped R₁. B1653 is redesigned around this (firewalled until sealed and run). P-151 is new: what lifts the first generation
+  is a coupling that does not act as a point, which is the parent's question (the Higgs's profile on the fibre).
+  P-143 gains S126's slowest tests. The floor is 151.
+- 0 of 19.
+Gates 45 of 45. Full suite: 7314 passed, 1 failed, 68 skipped (1:39:25) -- the slice-D harvest test (test_b1306): moving the audit lane's pin to eb80c5e8 left its SM intake note (SM_INTAKE_2026_10_14_EVENING) without a row; read in full and rowed (1179), and the test re-run green. Texts corrected during the run (the second review pass of B1653's design: a radially symmetric profile about a regular point acts as the point, so 'a spread Higgs lifts the zero' became 'a Higgs lifts the zero only if its profile does not act as a point'; views regenerated; the missed intake row added); then the 113 gate, harvest, relay, register, review, view, genesis, lane, claim, law-map, point, public-surface and B163x-B165x test files re-run on the final tree: 590 passed, 0 failed, 8 skipped.
+
 ## S126 THE FRAME TRIBUNAL BANKED (B1652): no frame survives on its own, attacked by both seats; the parent a seven-clause specification; three lanes harvested; the new paper directed, and the owner's decision: a frontier round first
 
 At the owner's order (P-136) and its rulings of 2026-10-14 ("agreed" on the D1 criterion; a new paper, the seats

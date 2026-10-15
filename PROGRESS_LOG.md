@@ -17088,3 +17088,12 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   zero mode), then on toward the parent; the paper waits. 0 of 19.
 - Gates 45 of 45; full suite 7314 passed, 1 failed, 68 skipped; the final tree's 113 targeted files 590 passed, 0 failed.
 
+## 2026-10-15 — S127 THE SZEGŐ READING
+
+- B1651's second addendum: §107 checked by hand on main. The triplet at any point is the puncture's residue carried by
+  the three even spin structures' Szegő kernels, so B1649's null residue, B1650's O6 and B1651's isotropy are one
+  identity, rooted in the rank of a point coupling (rank one: one doublet value). A Higgs lifts the zero only if its
+  profile does not act as a point. Two lanes harvested (W85; the audit lane's replay and scope notes). P-128, the
+  owner's B: at a point no flat line lifts the zero (the pre-seal review's finding, re-derived on main); B1653 is
+  redesigned around it. 0 of 19.
+- Gates 45 of 45; full suite 7314 passed, 0 failed, 68 skipped; the final tree's 113 targeted files 590 passed, 0 failed.

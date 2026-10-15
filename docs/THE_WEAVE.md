@@ -483,6 +483,15 @@ found with B1635's sealed instrument.
 - **Next (owed to the frame tribunal, P-136):** the half-period orbit's mass structure. Three τ-independent null vectors
   generically give all three generations mass, with numbers fixed by geometry if covariance and the characters fix the
   directions and signs. Corrected twice before the seal, both disclosed.
+- **S127, B1651's second addendum: the isotropy's root is that a point coupling is rank one.**
+  - The three generations are three quaternionic images of one doublet value. So a coupling read at one point factors
+    through ℂ² and has rank ≤ 2.
+  - Untwisted, the identity unit's pairing R₁ = Fᵀ ε F vanishes by antisymmetry, so R·R = 0. This gives U3a, B1649's
+    null R and B1650's O6; the Szegő expansion turns it into two facts at the puncture.
+  - The SM seat's §107 holds by hand. A Higgs lifts the zero only if its profile does not act as a point: a radially
+    symmetric profile about a regular point acts as the point (the mean-value property).
+  - Found before B1653's seal and firewalled until it runs: at a point a flat hypercharge line does not lift the zero
+    either (V = 1 ⊕ U(2)). What lifts it is a coupling that does not act as a point (P-151).
 
 ## Main's addition: the frame tribunal (B1652) — no frame survives on its own; the parent is a specification
 
