@@ -607,6 +607,12 @@ Under the owner's rulings, the table's rows split into two groups:
     CP-odd class.
   - The bottlenecks ranked, and the route: relations first (W88), then main's twisted channels (relay §116).
     0 of 19.
+- **W88, the relations census** (the rule first; one run; six cells as predicted; Q3 failed as worded on its
+  instrument).
+  - Every relation the record's frames make among the nineteen with no free size is refuted by the data: point
+    couplings, one coupling (Σz² = 218), lines of order dividing 6 (676) or 4 (172), and W84's cusp ratio 3/2 (57).
+  - The line orders left are {5, 7, 8, 9, 10, 11, 12}.
+  - J was not separable from 0 with this instrument, and a direct datum is owed (relay §117). 0 of 19.
 
 ## Questions open with main
 
@@ -628,7 +634,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W87 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W88 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§116).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§117).

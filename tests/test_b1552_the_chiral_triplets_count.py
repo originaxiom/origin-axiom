@@ -2197,6 +2197,28 @@ def test_the_map_to_reality():
     state = (ROOT / "docs" / "THE_THREE_GENERATIONS_STATE_2026-10-08.md").read_text(encoding="utf-8")
     assert "THE_MAP_TO_REALITY_2026-10-15.md" in state
 
+def test_w88_the_relations_census():
+    """W88 (the rule first; one run; six cells as predicted, Q3 failed as worded on its instrument): every relation
+    the record's frames make among the nineteen with no free size is refuted by the data; the line orders left are
+    5, 7, 8 to 12"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_relations_census.json").read_text(encoding="utf-8"))
+    pred = d["cells as predicted"]
+    assert all(pred[k] for k in ("Q1", "Q2", "Q4", "Q5", "Q6", "Q7")) and pred["Q3"] is False
+    assert d["every cell as predicted"] is False and d["relations holding"] == ["Q3"]
+    assert d["Q3"]["sigmas from 0"] < 5
+    assert d["Q7"]["orders N <= 12 dividing neither 4 nor 6"] == [5, 7, 8, 9, 10, 11, 12]
+    # in process: Q5's first z from the received masses, under W66's predicate
+    hz = json.loads((here / "received" / "HZ2021_running_masses_MZ.json").read_text(encoding="utf-8"))["masses_GeV"]
+    v, s = hz["value"], hz["sigma"]
+    rs = math.hypot(s["s"] / v["s"], s["b"] / v["b"])
+    rm = math.hypot(s["mu"] / v["mu"], s["tau"] / v["tau"])
+    z = (math.log(v["s"] / v["b"]) - math.log(v["mu"] / v["tau"])) / math.sqrt(rs * rs + rm * rm + 0.01)
+    assert abs(z - d["Q5"]["z"]["s/b = mu/tau"]) < 1e-12 and z < -8
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W88." in note and "the_relations_census.py" in note
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

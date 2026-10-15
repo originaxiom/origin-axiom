@@ -1,5 +1,23 @@
 # Changelog
 
+## W88: the relations census — every breaking-free relation on record is refuted by data; the line orders left are 5, 7, 8 to 12 (relay §117)
+
+- **Step 1 of the map's route.** The rule (`docs/dossiers/the_weave_2026-10-07/W88_RULE.md`) came before the script
+  (`docs/dossiers/the_weave_2026-10-07/the_relations_census.py`); one run; the output committed unread.
+  - Six cells held as predicted; Q3 failed as worded on its instrument.
+- **Refuted under W66's predicate:**
+  - point couplings;
+  - one coupling (Σz² = 218);
+  - lines of order dividing 6 (676) or 4 (172);
+  - W84's deep-cusp ratio 3/2 (57).
+- **J = 0 could not be tested:** four moduli with independent errors give 3.0 × 10⁻⁵ ± 7.3 × 10⁻⁵. A direct datum is
+  owed.
+- **Surfaces:**
+  - the weave dossier's NOTE (section W88, header bullet, table row, files);
+  - the map (a dated note on §4); the state page;
+  - relay §117; the test;
+  - RELAY_LEDGER (row 317; chat1 d403aafd6 → d02aa207b, its LIFT seal). 0 of 19.
+
 ## The map to reality: the wall read together, the choices as orbit classes, the inverse map, the bottlenecks ranked, the route (relay §116)
 
 - **At the owner's request,** `docs/THE_MAP_TO_REALITY_2026-10-15.md`. It adds no claim, and every line carries a

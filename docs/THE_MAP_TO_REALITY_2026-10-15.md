@@ -96,6 +96,16 @@ facts):
 
 None of this is selected by the principle yet. It is the target the forward route must hit.
 
+*Added 2026-10-15, after W88 (COMPUTED; the relations census).* The inverse map now has numbers, under W66's
+predicate:
+- one coupling for every sector is refuted at Σz² = 218;
+- lines of order dividing 6 at 676, and lines of order dividing 4 at 172;
+- W84's deep-cusp ratio 3/2 at 57;
+- point couplings because the first generation is massive and mixes (at least 5.9σ).
+
+The line orders left are {5, 7, 8, 9, 10, 11, 12}. No relation from the remaining class is on record yet. J = 0 is not
+tested: four moduli with independent errors cannot separate J from 0, and a direct datum is owed.
+
 ## 5. The bottlenecks, ranked by what they unblock
 
 | rank | bottleneck | blocks | what would break it | who |

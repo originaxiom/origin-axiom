@@ -19216,3 +19216,16 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     before trying to compute any number itself.
 - **Every other seat was fetched.** Nothing new since the last read, beyond the audit lane's packet, which is
   recorded. 0 of 19.
+
+## 2026-10-15 — the first step of the map: every simple relation on record fails the data
+
+- **The seat collected every relation between measured numbers** that the framework's calculations so far make
+  without any free size, and tested each once against the measured masses and mixings.
+- **All of them fail.** They include:
+  - "all sectors share one coupling";
+  - "the background field has order 2, 3, 4 or 6";
+  - an exponent ratio from chat1's frame.
+- **That narrows the target to one region.** Sectors must couple differently, through a background field of order 5,
+  7, 8 or more. No calculation on record has reached that region yet.
+- **One test was inconclusive.** Whether a CP-violating number is zero could not be decided from the data on file, and
+  the right datum is noted as owed. 0 of 19.
