@@ -1,0 +1,54 @@
+{
+ "J1": {
+  "residual_is_zero": true,
+  "holds": true
+ },
+ "J2": {
+  "residual_is_zero": true,
+  "holds": true
+ },
+ "J2b": {
+  "A_on_null_equals_qt_ptT": true,
+  "transpose_form_fails": true,
+  "adj_on_null_vs_detS_A": 1.841140708755225e-15,
+  "normA_over_2normM2_minus_1": 4.440892098500626e-16,
+  "holds": true
+ },
+ "J2c": {
+  "Z_symmetric_in_S_N": true,
+  "ell_plus_polar_is_zero": true,
+  "detN_equals_detM": true,
+  "holds": true
+ },
+ "seconds": 136.5,
+ "J3": {
+  "det_law_over_Y3": 4.227739345424703e-17,
+  "adj_law_over_Y2": 2.1002881630072647e-16,
+  "spectrum_rel": 1.5869746095052223e-15,
+  "cases": 324,
+  "detM_over_M2_lep_max": 7.583212250519157e-15,
+  "holds": true
+ },
+ "J4": {
+  "a_null_M_m1_max": 1.9665183271309408e-16,
+  "b_null_S_m1_max": 1.9023230292181292e-16,
+  "c_S_equals_M_nonnull_m1_max": 5.340562080469618e-17,
+  "c_sanity_defect_min": 0.028396664579569655,
+  "sanity_generic_m1_min": 0.011500411449456939,
+  "e_coincident_N_eq_S_geometric_max": 4.107825191113079e-14,
+  "first_order_slopes_m2_m1": [
+   0.9999597025537882,
+   1.000090537219651
+  ],
+  "d_cases": 10,
+  "holds": true
+ },
+ "J5": {
+  "a_perturbed_coupling_det_law_min": 0.0035578675812787167,
+  "b_A_for_PA_adj_law_min": 0.023173160988899717,
+  "c_N_ne_S_geometric_departure_median": 0.5375876927600708,
+  "d_check_B1657_det_form_max": 8.769053955828563e-16,
+  "holds": true
+ },
+ "all_hold": true
+}
