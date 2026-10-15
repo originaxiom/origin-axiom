@@ -12,6 +12,8 @@ paths += %w[DESIGN.md PROOF.md SOURCE_CHECK.md analysis.py probe.py reference.py
 paths << 'tests/test_physical_bridge_surface_variational_join.py'
 repair=local+'/POST_HOC_REPAIR.md'
 paths << repair if File.exist?(root.join(repair))
+repair2=local+'/SECOND_INSTRUMENT_REPAIR.md'
+paths << repair2 if File.exist?(root.join(repair2))
 rows=paths.uniq.sort.map{|p|{'path'=>p,'sha256'=>Digest::SHA256.file(root.join(p)).hexdigest}}
 data={'scope'=>'Canonical local normal action/end and one-way BPS fermion tangent; not full nonlinear SUSY boundary, literal source-action acceptance, global vacuum or SM',
  'runtime'=>{'python'=>'3.12.14','sympy'=>'1.14.0'},'shared_formulation'=>'Same author, analysis and Sympy; actual/exterior frames, lower/upper E8 root engines',

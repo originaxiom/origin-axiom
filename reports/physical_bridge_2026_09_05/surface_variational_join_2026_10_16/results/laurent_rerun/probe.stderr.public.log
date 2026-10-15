@@ -1,0 +1,130 @@
+PASS phase instrument universal identity
+PASS phase instrument rejects one angle false zero
+PASS phase instrument preserves derivative and half monodromy
+PASS actual frame input
+PASS actual common real parameter rank4
+PASS active chirality is minus
+PASS parameter actually twist neutral
+PASS all ordered deformation coefficients (0, 0)
+PASS real norm polarization (0, 0)
+PASS all ordered deformation coefficients (0, 1)
+PASS real norm polarization (0, 1)
+PASS all ordered deformation coefficients (0, 2)
+PASS real norm polarization (0, 2)
+PASS all ordered deformation coefficients (0, 3)
+PASS real norm polarization (0, 3)
+PASS all ordered deformation coefficients (1, 0)
+PASS real norm polarization (1, 0)
+PASS all ordered deformation coefficients (1, 1)
+PASS real norm polarization (1, 1)
+PASS all ordered deformation coefficients (1, 2)
+PASS real norm polarization (1, 2)
+PASS all ordered deformation coefficients (1, 3)
+PASS real norm polarization (1, 3)
+PASS all ordered deformation coefficients (2, 0)
+PASS real norm polarization (2, 0)
+PASS all ordered deformation coefficients (2, 1)
+PASS real norm polarization (2, 1)
+PASS all ordered deformation coefficients (2, 2)
+PASS real norm polarization (2, 2)
+PASS all ordered deformation coefficients (2, 3)
+PASS real norm polarization (2, 3)
+PASS all ordered deformation coefficients (3, 0)
+PASS real norm polarization (3, 0)
+PASS all ordered deformation coefficients (3, 1)
+PASS real norm polarization (3, 1)
+PASS all ordered deformation coefficients (3, 2)
+PASS real norm polarization (3, 2)
+PASS all ordered deformation coefficients (3, 3)
+PASS real norm polarization (3, 3)
+PASS tangent map Weyl and real 0
+PASS tangent map Weyl and real 1
+PASS tangent map Weyl and real 2
+PASS tangent map Weyl and real 3
+PASS reversed BPS sign detected
+PASS actual E8 signed faithful root
+PASS actual selected root is antiperiodic
+PASS actual root map compact and faithful
+Traceback (most recent call last):
+  File "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/probe.py", line 14, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ^^^^^^
+  File "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/probe.py", line 13, in main
+    return emit([simp(F.H*c*F) for c in raw],native.Engine(),zero(F.H*F-s.eye(4)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/analysis.py", line 222, in emit
+    out=run(cs,engine,valid);print(json.dumps(out,indent=2));return 0 if out['all_passed'] else 1
+        ^^^^^^^^^^^^^^^^^^^^
+  File "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/analysis.py", line 126, in run
+    C1=simp(F+comm(U,VV));C2=simp(DX(U)-DY(VV));C3=simp(DX(VV)+DY(U))
+                                                        ^^^^^^
+  File "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/analysis.py", line 123, in <lambda>
+    DX=lambda v:simp(dx(v)+comm(ax,v))
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/analysis.py", line 13, in simp
+    if isinstance(x,s.MatrixBase):return x.applyfunc(simp)
+                                         ^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/matrices/matrixbase.py", line 2108, in applyfunc
+    return self._eval_applyfunc(f)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/matrices/matrixbase.py", line 2040, in _eval_applyfunc
+    valmap = {v: f(v) for v in dok.values()}
+                 ^^^^
+  File "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/analysis.py", line 26, in simp
+    result=s.cancel(expanded.xreplace(replacements))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/polytools.py", line 7410, in cancel
+    c, (P, Q) = 1, F.cancel(G)
+                   ^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/rings.py", line 2325, in cancel
+    _, p, q = f.cofactors(g)
+              ^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/rings.py", line 2241, in cofactors
+    h, cff, cfg = f._gcd(g)
+                  ^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/rings.py", line 2276, in _gcd
+    return ring.dmp_inner_gcd(f, g)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/compatibility.py", line 677, in dmp_inner_gcd
+    H, F, G = dmp_inner_gcd(self.to_dense(f), self.to_dense(g), self.ngens-1, self.domain)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/euclidtools.py", line 1598, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/euclidtools.py", line 1571, in _dmp_inner_gcd
+    return dmp_rr_prs_gcd(f, g, u, K)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/euclidtools.py", line 1069, in dmp_rr_prs_gcd
+    c, _, _ = dmp_rr_prs_gcd(fc, gc, u - 1, K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/euclidtools.py", line 1068, in dmp_rr_prs_gcd
+    h = dmp_subresultants(F, G, u, K)[-1]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/euclidtools.py", line 549, in dmp_subresultants
+    return dmp_inner_subresultants(f, g, u, K)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/euclidtools.py", line 512, in dmp_inner_subresultants
+    h = dmp_prem(f, g, u, K)
+        ^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/densearith.py", line 1238, in dmp_prem
+    G = dmp_mul_term(g, lc_r, j, u, K)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/densearith.py", line 184, in dmp_mul_term
+    return [ dmp_mul(cf, c, v, K) for cf in f ] + dmp_zeros(i, v, K)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/densearith.py", line 828, in dmp_mul
+    coeff = dmp_add(coeff, dmp_mul(f[j], g[i - j], v, K), v, K)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/densearith.py", line 807, in dmp_mul
+    return dup_mul(f, g, K)
+           ^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/densearith.py", line 767, in dup_mul
+    coeff += f[j]*g[i - j]
+             ~~~~^~~~~~~~~
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/domains/gaussiandomains.py", line 98, in __mul__
+    x, y = self._get_xy(other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/polys/domains/gaussiandomains.py", line 65, in _get_xy
+    @classmethod
+
+KeyboardInterrupt

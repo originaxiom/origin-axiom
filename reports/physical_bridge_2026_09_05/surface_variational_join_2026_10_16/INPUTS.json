@@ -127,12 +127,16 @@
       "sha256": "a4d5dd39babdd00ce6121804e1070350e133bd35ff0c2d97bd9d946fa87106c5"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/SECOND_INSTRUMENT_REPAIR.md",
+      "sha256": "9eda386982ecf3521c0c68ef2ac7b0559a09648d1127b81514d6aeee061a2987"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/SOURCE_CHECK.md",
-      "sha256": "76c42024e07f16281fa262a5f27f7250f5f6cdb19da072569db98cd77d91f285"
+      "sha256": "e02274a9435f525ca4c7fc24ab568b498d2b8571e0e777da1c0ecc0283a79834"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/analysis.py",
-      "sha256": "7d4bebbbc888069244714f3ad405092f2b6b3430b3e13e2b5e3a9d1cb8b369db"
+      "sha256": "26cdd4c8d05a8764777e3469cae87290f6e1e823cd7ff06e4fbb613357ebe439"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/execute.py",
@@ -140,7 +144,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/make_seal.rb",
-      "sha256": "1504e85d1dd96f8acabb37ad10e8cde9bc1f0afda269aa0929519e84dcfd6809"
+      "sha256": "67e8e50c5fe593795b8d24872791fd31aaa2834fb312616313844c808ba1e113"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/probe.py",
@@ -164,7 +168,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_variational_join.py",
-      "sha256": "54624fb0552c4fbac76f3d9b8a8defa78d675f82e8fb81b4f2ee8db762c05878"
+      "sha256": "df752f00d440f09ba6f74bce8468d16c36e54f0d6df9f1e03e0b6695f5f8a788"
     }
   ]
 }

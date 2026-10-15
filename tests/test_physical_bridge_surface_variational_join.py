@@ -18,7 +18,8 @@ def test_complete_live_records_agree(cert):
 def test_actual_full_Clifford_deformation_map(cert):
     c=cert[0]['checks']
     for key in ('phase instrument universal identity','phase instrument rejects one angle false zero',
-        'phase instrument preserves derivative and half monodromy'):
+        'phase instrument preserves derivative and half monodromy','radial instrument rejects one radius false zero',
+        'radial instrument preserves restored halfpole derivative'):
         assert c[key],key
     for prefix,n in [('all ordered deformation coefficients ',16),('real norm polarization ',16),('tangent map Weyl and real ',4)]:
         rows=[v for k,v in c.items() if k.startswith(prefix)]

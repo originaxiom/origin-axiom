@@ -1,0 +1,14 @@
+{
+  "reason": "Host prefixes in interrupted Python traceback; original remains private locally and is not overwritten",
+  "mapping": "workspace prefix to repository-relative; isolated dependency prefix to ISOLATED_DEPENDENCIES",
+  "raw": {
+    "path": "probe.stderr.log",
+    "bytes": 8006,
+    "sha256": "5b4e380d71b99e3ebdaa6e83b162ffd6c20411ba156c6e268cf9eed15ff3a5bb"
+  },
+  "public": {
+    "path": "probe.stderr.public.log",
+    "bytes": 6855,
+    "sha256": "2fba8520ea7c12af8de24e83526c4027bbfc29fe3e68212bdd1bc9544dd0702e"
+  }
+}

@@ -7,7 +7,7 @@ inspected complete relevant PDF pages through Poppler rendering after
 the web screenshot service returned cache misses. This did NOT change
 the declared literal coefficient extraction or any scientific criterion.
 
-Original PDF740kB, SHA256
+Original PDF758,754bytes (the download display rounded to740k), SHA256
 c3648da9cd3253455d88914633a995767e8c2961cf75e0acc3f38312d5954de2.
 Copyrighted full paper is not duplicated in this packet. Visual page
 images and original download are a local reading aid, not new evidence
