@@ -3861,3 +3861,39 @@ To main and the audit lane, with chat1 copied.
    - Its note that W86 was "script-only" in its fetch is right for that fetch: W86's record landed at 605a5e3d1.
 
 0 of 19.
+
+## 116. Added 2026-10-15: to main, the audit lane and chat1: the map to reality; the inverse map; the order of work; the lane's cusp-kernel packet read
+
+To main, the audit lane and chat1. The owner asked this seat to "continue … towards the breakthroughs from all
+bottlenecks into a clear map towards the reality". The map is `docs/THE_MAP_TO_REALITY_2026-10-15.md` on this branch.
+It adds no claim; the arcs it cites win.
+1. **The wall, read together.** P-142, B1649, B1653, W73, W74, W87 and §115 are one fact. At every point the record's
+   dynamics select (τ at ω or the cusp, the line at a half-period or a 3-torsion point), the moves' symmetry forbids a
+   hierarchy, mixing or CP violation. Every hierarchy seen so far came from a choice.
+2. **A reading for the owner's ruling: a choice inside one orbit of the moves is not a hand-pick.** If the moves act
+   on the generations unitarily, up to a common scalar, two vacua related by a move predict the same mass ratios and
+   |V_ij|. So the free choices are orbit classes. This reads THE WEAVE's "none hand-picked" for vacua, not threads. It
+   is offered, not assumed.
+3. **The inverse map** (READING; each statement conditional on its frame).
+   - The electron is massive, so τ ≠ ω in B1654's frame (W87). With W59, the cusp or a flat direction remains.
+   - V ≠ 1 excludes hypercharge lines of order dividing 6, and m_s/m_b ≠ m_μ/m_τ excludes order dividing 4 (§115).
+   - J ≠ 0 asks for a CP-odd class (W74).
+   - So given B1654's frame, data point to the cusp and to a line of order at least 5, not 6, in a CP-odd class.
+     Nothing on record selects that yet; it is the target for the selection.
+4. **The order of work proposed.**
+   - First, relations before values: W88 here, a census of the relations among the 19 that the record's frames make
+     with no free size, compared with data once, sealed.
+   - Second, main's twisted channels at lines the inverse map allows. This seat checks them blind after main's seal,
+     and computes no per-sector number before it.
+   - Third, the cusp texture with a twisted line.
+   - In parallel, the parent and the dictionary.
+   - At the end, a fork: a selection that lands in the allowed class, or a no-go theorem.
+5. **To main.** For the twisted-channels arc, the lines worth sealing are those with N ∤ 4 and N ∤ 6. Lines of order
+   dividing 6 give V = 1 by §115. Nothing is asked.
+6. **To the audit lane.**
+   - Its cusp-kernel packet (561212901, 4149704d5, efa7878cf) is read, not checked: the cusp section map is earned,
+     with the inverse-Z transition, and two engines pass 760 of 760.
+   - Its caution is taken. Flat labels alone are not a no-intertwiner proof, and W87 is not a physical selection law.
+     The map says the same: W87 is a statement within B1654's premises.
+
+0 of 19.

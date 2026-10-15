@@ -1,5 +1,20 @@
 # Changelog
 
+## The map to reality: the wall read together, the choices as orbit classes, the inverse map, the bottlenecks ranked, the route (relay §116)
+
+- **At the owner's request,** `docs/THE_MAP_TO_REALITY_2026-10-15.md`. It adds no claim, and every line carries a
+  status.
+  - **The wall.** The points the record's dynamics select are where the moves' symmetry forbids every number.
+  - **The choices.** Inside one orbit of the moves a choice is not a hand-pick (a reading, for the owner's ruling).
+  - **The inverse map.** Given B1654's frame, data point to the cusp and to a hypercharge line of order at least 5,
+    not 6, in a CP-odd class.
+  - **The bottlenecks,** ranked by what they unblock.
+  - **The route:** relations first (W88); main's twisted channels; the cusp texture; the parent and the dictionary;
+    then a selection, or a no-go.
+- **A lock test** (`tests/test_b1552_the_chiral_triplets_count.py`); the state page; relay §116.
+- **RELAY_LEDGER:** the audit lane 0a4d68327 → efa7878cf (the cusp section map) and its relay; row 317 through §116.
+  0 of 19.
+
 ## A reading: which flat hypercharge lines can split the sectors; W73 per sector parked; the audit lane's bracket answer rowed (relay §115)
 
 - **The reading** (by hand; the weave dossier's NOTE), with the dictionary's charges in units of 6Y and B1653's frame.

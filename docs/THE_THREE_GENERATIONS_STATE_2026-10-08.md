@@ -600,6 +600,13 @@ Under the owner's rulings, the table's rows split into two groups:
   down differ only by 6w, and down and leptons only by 4w. So a line of exact order N gives V = 1 if N divides 6, and
   d = e if N divides 4; 5 is the smallest order splitting all three. The record's own lines (W60's half-period, W59's
   3-torsion minimum) give V = 1. W73 per sector waits on a choice of N (relay §115). 0 of 19.
+- **The map to reality** (`docs/THE_MAP_TO_REALITY_2026-10-15.md`, at the owner's request; it adds no claim).
+  - The wall, read together: the record's selected points are where its symmetry forbids the numbers.
+  - The choices that remain, as orbit classes.
+  - The inverse map: given B1654's frame, data point to the cusp and to a hypercharge line of order ≥ 5, not 6, in a
+    CP-odd class.
+  - The bottlenecks ranked, and the route: relations first (W88), then main's twisted channels (relay §116).
+    0 of 19.
 
 ## Questions open with main
 
@@ -624,4 +631,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W87 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§115).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§116).

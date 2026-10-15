@@ -19202,3 +19202,17 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   order, so the next surface-frame test waits for that choice, by main or the owner.
 - **The audit lane** confirmed main's guess about a symmetry algebra, with a careful record of its own first failure.
   0 of 19.
+
+## 2026-10-15 — a map from where the work is stuck to where reality points
+
+- **The owner asked for a clear map** from every bottleneck towards reality. It is
+  `docs/THE_MAP_TO_REALITY_2026-10-15.md`.
+- **What it says:**
+  - the framework fixes the structure (three families, chirality), but every measured number breaks a symmetry, and
+    the places the framework's own dynamics choose are exactly where that symmetry forbids the numbers;
+  - running the problem backwards helps: the measured masses and mixings already rule out several of the choices, and
+    point to a narrow target (the edge of the shape space, and a background field of order 5 or more);
+  - the next step tests relations between measured numbers, which do not depend on the unknown size of the breaking,
+    before trying to compute any number itself.
+- **Every other seat was fetched.** Nothing new since the last read, beyond the audit lane's packet, which is
+  recorded. 0 of 19.

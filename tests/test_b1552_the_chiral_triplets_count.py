@@ -2182,6 +2182,21 @@ def test_reading_which_hypercharge_lines_split_the_sectors():
     assert "## Reading: which flat hypercharge lines can split the sectors" in note
     assert "**N = 5 is the smallest order that splits all three sectors**" in note
 
+def test_the_map_to_reality():
+    """The map to reality (2026-10-15, at the owner's request): it adds no claim, carries statuses, ranks the
+    bottlenecks and states the inverse map and the route"""
+    page = (ROOT / "docs" / "THE_MAP_TO_REALITY_2026-10-15.md").read_text(encoding="utf-8")
+    for head in ("## 1. The map in one paragraph", "## 2. The wall: one fact, seen many times",
+                 "## 3. The choices: what is free, and what kind of freedom it is", "## 4. The two directions",
+                 "## 5. The bottlenecks, ranked by what they unblock", "## 6. The route, in order",
+                 "## 7. What would count as the breakthrough"):
+        assert head in page, head
+    assert "It adds no claim" in page and page.rstrip().endswith("0 of 19.")
+    assert "**A choice inside one orbit of the moves is not a hand-pick**" in page
+    assert "N ∉ {1, 2, 3, 4, 6}" in page and "GENESIS FK9" in page and "GENESIS FK11" in page
+    state = (ROOT / "docs" / "THE_THREE_GENERATIONS_STATE_2026-10-08.md").read_text(encoding="utf-8")
+    assert "THE_MAP_TO_REALITY_2026-10-15.md" in state
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""
