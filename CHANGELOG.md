@@ -1,5 +1,18 @@
 # Changelog
 
+## A reading: where the CKM phase can come from — the surface frame gives J = 0 for every flat hypercharge line; the target is the cusp with a CP-odd line (relay §118)
+
+- **By hand, in the weave dossier's NOTE.** A CP-and-move composite fixes every flat-line vacuum of the surface frame,
+  because the moves act transitively on each order. So J = 0 there.
+- **The phase needs** the fibre frame with τ selected, and either τ off the CP-fixed loci or a CP-odd line on them:
+  - at the cusp, 16 of the 24 order-5 lines;
+  - at ω, none of order up to 5.
+- **The record's selected points are all CP-even.** The modular-flavour literature is cited as context, from the
+  abstracts only.
+- **A lock test** for the transitivity and the counts. The map (a dated note on §4); the state page; relay §118.
+- **RELAY_LEDGER:** chat1 d02aa207b → 172b40776 (LIFT's output); the audit lane efa7878cf → 401d4cd4d (a new seal);
+  row 317 through §118. 0 of 19.
+
 ## W88: the relations census — every breaking-free relation on record is refuted by data; the line orders left are 5, 7, 8 to 12 (relay §117)
 
 - **Step 1 of the map's route.** The rule (`docs/dossiers/the_weave_2026-10-07/W88_RULE.md`) came before the script

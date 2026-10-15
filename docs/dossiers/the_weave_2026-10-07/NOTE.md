@@ -7375,6 +7375,63 @@ owed. Nothing here counts as J = 0 holding.
 **Status.** COMPUTED. The rule came first; one run; six cells as predicted; Q3 failed as worded on its instrument, with
 its owed datum named. A scoreboard of exclusions. 0 of 19.
 
+## Reading: where the CKM phase can come from (READING, by hand; 2026-10-15, after W88)
+
+**Why.** The map's inverse side says J ≠ 0 asks for a CP-odd class (W74). This reading asks which vacua (frame, τ,
+hypercharge line) can be CP-odd at all. Nothing here is computed by a script; the two arithmetic facts it uses are
+locked in a test.
+
+**Weave or thread.** Weave-type: the fibre every thread shares, the moves, and every line of a given order.
+
+**The argument (by hand).**
+1. **A vacuum is CP-even** when some antiunitary symmetry of the law fixes it and acts on the generations by one real
+   orthogonal map X in every sector.
+   - Then H_s = X H̄_s Xᵀ for the up and the down quarks, so det[H_u, H_d] is real.
+   - It is also imaginary, since the commutator of two Hermitian 3 × 3 matrices is anti-Hermitian.
+   - So it vanishes, and J = 0. This is the standard generalised-CP argument.
+2. **The moves act on the generations by real rotations,** Ad(g) on M (W64, W85). They act the same way in every
+   sector, because a hypercharge twist is a scalar on each generation block (B1653's frame) and cannot act differently
+   on the units. Premise: true up to scalars and real signs, as W85 found untwisted; not computed with a twist.
+3. **CP is W74's involution** τ ↦ −τ̄ with C. On a line it acts by (ψ₁, ψ₂) ↦ (−ψ₁, ψ₂), by conjugating the fibre,
+   and it keeps the line's order.
+4. **The surface frame: no flat hypercharge line gives a CKM phase.**
+   - There τ is integrated over, and every line is torsion (relay §115).
+   - The moves act transitively on the lines of each exact order (checked by hand for every N ≤ 12).
+   - So for any line w there is a move g with g·CP(w) = w, and g∘CP is an antiunitary symmetry fixing the vacuum.
+     J = 0.
+   - W74 found J = 0 without a line; this extends it to every flat line.
+5. **The fibre frame at a selected τ.**
+   - **Off the CP-fixed loci** (the imaginary axis, |τ| = 1, and Re τ = ±½), CP does not fix τ, so nothing forces
+     J = 0.
+   - **On them a line must be CP-odd:** fixed by no antiunitary map that also fixes τ. The counts below come from a
+     hand computation in scratch, recomputed in the test.
+     - **At the cusp,** τ = iy with y ≠ 1, the maps are z ↦ ±z̄. A line is CP-odd exactly when neither holonomy is 0
+       or ½ mod 1. For order 3, 4, 5, 7 and 8 that is 4 of 8, 4 of 12, 16 of 24, 36 of 48 and 32 of 48.
+     - **At ω** the six reflections z ↦ ζz̄ (ζ⁶ = 1) fix every line of order 2, 3, 4 and 5. The first CP-odd lines
+       are at order 6 (12 of 24). Among W88's surviving orders the first is order 7, with 12 of 48. Every lift
+       vanishes at ω anyway (W87).
+     - **At i** no line of order 2, 3 or 4 is CP-odd. Order 5 has 8 of 24.
+6. **The record's selected points are CP-even.** W59's τ (ω or the cusp) lies on CP-fixed loci. At ω, W60's
+   half-period lines and W59's 3-torsion lines are each fixed by a reflection (checked).
+7. **The same structure appears in the modular-flavour literature** (context, not evidence; read from the abstracts
+   only).
+   - Novichkov, Penedo, Petcov and Titov (arXiv:1905.11970; JHEP 07 (2019) 165): with generalised CP, the modulus τ
+     is the only source of CP violation in their example.
+   - Kobayashi et al. (arXiv:1910.11553): in their models a CP-invariant potential stabilises τ only at CP-conserving
+     values. That mirrors item 6.
+
+**What it adds to the map.** The CKM phase needs two things:
+- the fibre frame, with τ selected rather than integrated;
+- either τ off the CP-fixed loci, or a CP-odd hypercharge line on them. At the cusp that means neither holonomy is 0
+  or ½.
+
+With W88 the target class is the cusp, a line of order 5, 7, 8 or more, and both holonomies off {0, ½}: 16 of the 24
+order-5 lines. At ω no order-5 line qualifies. No potential on record selects the class.
+
+**Status.** READING, by hand, given the moves' and CP's action as stated in items 2 and 3. The counts in item 5 and the
+transitivity in item 4 are locked in `tests/test_b1552_the_chiral_triplets_count.py`. A computation with a twisted
+coupling would test item 2. 0 of 19.
+
 ## Reading: which flat hypercharge lines can split the sectors (READING, by hand; for W73 and main's twisted channels; 2026-10-15)
 
 **Why.** W73's blind test, and main's next C arc (the twisted channels per sector), both give the up quarks, the down

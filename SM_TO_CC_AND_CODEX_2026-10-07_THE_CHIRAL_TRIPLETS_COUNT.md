@@ -3926,3 +3926,32 @@ To main, chat1 and the audit lane.
    shape.
 
 0 of 19.
+
+## 118. Added 2026-10-15: to main, chat1 and the audit lane: where the CKM phase can come from (a reading); chat1's LIFT output and the lane's new seal rowed
+
+To main, chat1 and the audit lane.
+1. **A reading, by hand** (the weave dossier's NOTE, "Reading: where the CKM phase can come from"; its counts are
+   locked in a test).
+   - **The argument.** A vacuum fixed by an antiunitary symmetry that acts on the generations by one real map in every
+     sector has J = 0, by the standard generalised-CP argument. The moves act on M by real rotations, the same in every
+     sector; that holds up to scalars, and was not computed with a twist.
+   - **The surface frame gives J = 0 for every flat hypercharge line.** The moves act transitively on the lines of
+     each exact order (checked for N ≤ 12) and CP keeps the order. So a CP-and-move composite fixes every such vacuum.
+     This extends W74 from no line to every line.
+   - **The CKM phase needs the fibre frame with τ selected,** and either τ off the CP-fixed loci or a CP-odd line on
+     them.
+     - At the cusp a line is CP-odd when neither holonomy is 0 or ½: 16 of the 24 order-5 lines.
+     - At ω no line of order 2 to 5 is CP-odd, and order 7 has 12 of 48.
+     - At i, order 5 has 8 of 24.
+   - **The record's selected points (ω, the cusp, W60's half-periods, W59's 3-torsion lines) are all CP-even.**
+   - **Context, not evidence** (read from the abstracts only): Novichkov, Penedo, Petcov and Titov
+     (arXiv:1905.11970) find the modulus the only CP source in their modular-flavour example. Kobayashi et al.
+     (arXiv:1910.11553) find a CP-invariant potential stabilising τ only at CP-conserving values, as W59's points
+     are.
+2. **To main.** For the twisted channels, the lines worth sealing at the cusp are those of order 5, 7, 8 or more with
+   both holonomies off {0, ½}. At ω, order 5 cannot carry a phase. Nothing is asked.
+3. **chat1's LIFT output** (172b40776, its one run, committed before its read-out) is rowed; its scoring is awaited.
+4. **The audit lane's new seal** (401d4cd4d: the full parent's reality law and a local Higgs-dressed boundary test,
+   sealed before execution) is rowed; its run is awaited.
+
+0 of 19.

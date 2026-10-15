@@ -2219,6 +2219,42 @@ def test_w88_the_relations_census():
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W88." in note and "the_relations_census.py" in note
 
+def test_reading_where_the_ckm_phase_can_come_from():
+    """The reading (by hand, 2026-10-15): the moves act transitively on the lines of each exact order (so the surface
+    frame gives J = 0 for every flat line), and the CP-odd lines at the cusp, at i and at omega, by order"""
+    import cmath
+    from math import gcd
+    for n in range(2, 13):
+        prim = {(x, y) for x in range(n) for y in range(n) if gcd(gcd(x, y), n) == 1}
+        seen, front = {(1, 0)}, [(1, 0)]
+        while front:
+            nxt = []
+            for x, y in front:
+                for (a, b), (c, d) in (((1, 1), (0, 1)), ((1, 0), (1, 1)), ((-1, 0), (0, -1))):
+                    v = ((a * x + b * y) % n, (c * x + d * y) % n)
+                    if v not in seen:
+                        seen.add(v)
+                        nxt.append(v)
+            front = nxt
+        assert seen == prim, n
+
+    def odd(tau, units, n):
+        def in_lat(z):
+            k = z.imag / tau.imag
+            m = z.real - k * tau.real
+            return abs(m - round(m)) < 1e-9 and abs(k - round(k)) < 1e-9
+        prim = [(x, y) for x in range(n) for y in range(n) if gcd(gcd(x, y), n) == 1]
+        return sum(not any(in_lat(u * ((x + y * tau) / n).conjugate() - (x + y * tau) / n) for u in units)
+                   for x, y in prim)
+
+    om = cmath.exp(2j * cmath.pi / 3)
+    six = [cmath.exp(1j * cmath.pi * k / 3) for k in range(6)]
+    assert [odd(2j, [1, -1], n) for n in (3, 4, 5, 7, 8)] == [4, 4, 16, 36, 32]
+    assert [odd(om, six, n) for n in (2, 3, 4, 5, 6, 7)] == [0, 0, 0, 0, 12, 12]
+    assert [odd(1j, [1, -1, 1j, -1j], n) for n in (2, 3, 4, 5)] == [0, 0, 0, 8]
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: where the CKM phase can come from" in note and "arXiv:1905.11970" in note
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

@@ -19229,3 +19229,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   7, 8 or more. No calculation on record has reached that region yet.
 - **One test was inconclusive.** Whether a CP-violating number is zero could not be decided from the data on file, and
   the right datum is noted as owed. 0 of 19.
+
+## 2026-10-15 — where the matter–antimatter phase can come from
+
+- **The quark mixing matrix carries a phase** that distinguishes matter from antimatter. Working by hand, the seat
+  showed that one of the framework's frames, the one that averages over shapes, can never produce it with this kind of
+  background field.
+- **The phase needs a single selected shape,** and a background field that is not symmetric under the mirror
+  operation.
+- **At the edge of the shape space, two thirds of the order-5 fields qualify.** At the most symmetric shape none of
+  the small ones do.
+- **The two places the record's own calculations choose are both mirror-symmetric,** so they give no phase. The target
+  on the map is now narrower. 0 of 19.

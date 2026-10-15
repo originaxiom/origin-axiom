@@ -106,6 +106,14 @@ predicate:
 The line orders left are {5, 7, 8, 9, 10, 11, 12}. No relation from the remaining class is on record yet. J = 0 is not
 tested: four moduli with independent errors cannot separate J from 0, and a direct datum is owed.
 
+*Added 2026-10-15 (READING, by hand; the weave dossier's "Reading: where the CKM phase can come from").*
+- **The surface frame gives J = 0 for every flat hypercharge line.** The moves act transitively on the lines of each
+  order and CP keeps the order, so a CP-and-move composite fixes every such vacuum.
+- **The CKM phase therefore needs the fibre frame with τ selected,** and either τ off the CP-fixed loci or a CP-odd
+  line on them.
+- **The target sharpens.** At the cusp the line needs both holonomies off {0, ½} (16 of the 24 order-5 lines). At ω
+  no line of order up to 5 qualifies.
+
 ## 5. The bottlenecks, ranked by what they unblock
 
 | rank | bottleneck | blocks | what would break it | who |
