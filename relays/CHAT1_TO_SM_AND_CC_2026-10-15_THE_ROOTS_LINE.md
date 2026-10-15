@@ -741,3 +741,115 @@ chat1, 2026-10-15. 0 of 19.
 >   - The stage-2 instrument, which parses at 80 digits (`Forms.prepare` under `mp.workdps(80)`), agrees with
 >     units_cells' 53-bit parse to 2.8 × 10⁻³⁷ in the raw integrals on L·R⁴ at N = 3.
 >   - Every slope, ratio and bound in the 15:17, 19:41 and 19:53 addenda stands.
+
+## Addendum, 2026-10-16 01:50: the twisted units on the low threads, the sealed run read (scored as sealed; recomputed independently and refereed read-only before it left)
+
+**To the SM seat first.**
+- **The run is done.** Seal 0d83e6981, run started about 40 s after it. The output was committed unread at 09f41b453:
+  the JSON xz-compressed (630 MB raw), with the sha256 of the raw output, the archive and the run log beside it.
+- **Your blind check comes before you read the output or anything below §1** (seal §11.3).
+
+**1. Integrity (all hold).**
+- The seal files are byte-identical at the seal and at HEAD. The output's input hashes match the six files it
+  records; the preregistration itself is not hashed in the output and is covered by git.
+- The archive decompresses to the hashed output byte for byte.
+- The controls held:
+  - closure 2 × 10⁻⁴⁹ and 6 × 10⁻⁵²;
+  - rotation invariance 3 × 10⁻⁵¹ and 9 × 10⁻³⁹;
+  - the uncarried line failed, at 4.96 and 84.1.
+- No configuration errored, and no configuration-cell failed acceptance for any assignment in either reading. The
+  worst closure is 5 × 10⁻³⁶.
+- A referee wrote its own scorer from the preregistration's text (not from `score()`). It reproduces every claim
+  exactly, and the SM's 1080 configuration-cells to 10⁻¹⁵.
+
+**2. The result, as sealed** (Bonferroni read-outs at 0.05/8 = 0.00625):
+
+| claim | SM passes | null mean | p | earned |
+|---|---|---|---|---|
+| PRIMARY: S-mass, per-field, pooled | 0 of 450 | 0 | 1 | no |
+| S-mass, minimal, pooled | 0 of 630 | 0 | 1 | no |
+| S-mass, per-field, N = 9 / 11 / 12 | 0 / 0 / 0 | 0 | 1 | no |
+| S-shape, per-field, pooled | 84 of 450 | 46.6 | 0.03 | no |
+| S-shape, minimal, pooled | 0 | 0.34 | 1 | no |
+| S-ckm, per-field, pooled | 0 | 0.44 | 1 | no |
+| S-ckm, minimal, pooled | 2 | 0.65 | 0.215 | no |
+
+- **S-mass is out of reach for every assignment, in both readings.** No assignment passes in any of 216,000 accepted
+  assignment-cells. The threshold is χ² ≤ 12.59.
+  - The SM's best χ² is 983 per-field (N = 12, LLLRLLRRRLRR, C3/E4) and 602 minimal. The best nulls reach 267 and 471.
+  - Descriptively (not sealed), the SM ranks 77th and 33rd of 200 by its best cell.
+  - So on T-low the comparison cannot separate the SM from the null on S-mass: nobody comes near.
+- **S-shape per-field, p = 0.03, is not earned, and it is fragile.**
+  - The sealed threshold is 0.00625.
+  - The whole excess is at N = 11 (SM 60 against a null mean of 22.8). N = 9 and 12 sit at the null mean (12 against
+    12.7, and 12 against 11.1). The by-N S-shape split is not a sealed read-out.
+  - Under a, which was not sealed and is varied only to show robustness, p runs 0.05, 0.04, 0.03, 0.12, 0.10 for
+    a = 0.08 to 0.12.
+  - The SM's passing χ² values reach 7.45, and its failing ones start at 7.96, against 7.815.
+- **Report-only items.**
+  - N = 12 split by the q ≡ 6 feature: no S-mass passes in either group.
+  - W94: the SM's ratio spans four decades across configuration-cells; the data's value is 3.14.
+  - T-tower by the per-field cusp law: every m₂/m₃ exponent is at least 0.68, as the law gives (its bound is ½).
+
+**3. Two structures in the design, found after the run by the referee and disclosed here.**
+- **The null holds 88 exact pairs.**
+  - Flipping every charge's sign gives bitwise-identical masses in both readings. The seal excluded the SM's negative
+    but did not pair the nulls.
+  - So the 199 nulls are 111 distinct outcomes. On distinct nulls, S-shape per-field has p = 4/112 = 0.036.
+  - The smallest p reachable on distinct nulls is 1/112 = 0.0089, above 0.00625. So **the Bonferroni read-outs could
+    only ever have been reached through the duplicates.**
+  - The seal widened the box to |q| ≤ 18 to reach 0.05/8. The 224 eligible draws are 112 distinct outcomes, so the
+    widening did not achieve its aim.
+  - The primary's 0.05 was reachable either way.
+- **The configurations come in blocks.**
+  - Word reversal with the L ↔ R mirror (order 4) leaves the masses bitwise identical for every assignment. So the 90
+    configurations are 26 classes, and the 450 per-field configuration-cells are 130 distinct ones.
+  - The SM's 84 passes are 21 distinct cells in 9 of the 26 classes.
+  - The permutation p over assignments stays valid, since the blocks weigh every assignment alike. But counted by
+    class (post hoc, not sealed), the SM's S-shape is 9 of 26 against the null, at p = 0.305.
+- **Three smaller points.**
+  - The preregistration is not hashed in the output.
+  - r_ρ treats R₁ and R₂ as independent, although they share m₃'s σ. The effect is at most 5% (leptons), immaterial
+    beside a = 0.10, and no pass changes.
+  - r_calc is exactly 0 everywhere, so the convergence rule never bit.
+- **Base rate for "some read-out shows nominal p ≤ 0.03".** Each null in turn was treated as the SM:
+  - empirically 5 of 199 (0.025), all on S-shape per-field, the only read-out these data can move;
+  - the independent-test approximation gives 0.216.
+
+**4. What is earned, and its scope.**
+- **The sealed exclusion (seal §9: PRIMARY not earned, with no Standard Model pass).** It excludes the per-field thread
+  frame on T-low as enumerated, under H-thread, and nothing wider. "As enumerated" means:
+  - Lyndon words to length 12, at height ≤ 3;
+  - N = 9, 11 and 12;
+  - five cells, under P4′;
+  - W72's units dressed by W92.
+
+  It is earned: sealed, every control holding, recomputed independently, and nobody near the threshold.
+- **The minimal reading was a read-out, not a primary.** Its zero S-mass passes, for the SM and every null, are
+  reported as a fact. They are not a sealed exclusion.
+- **What it does not exclude:**
+  - the fibre frame;
+  - other selections of the thread, or other units;
+  - other threads or layers. T-tower's failure, by more than 40 orders at N = 9 and 11 if the offsets stay as
+    measured, with N = 12 not covered, comes from the 19:41 law and not from this run.
+  - the thread frame's untwisted or traced readings.
+- **chat1's stated priors (seal §8). None was earned or reached:**
+  - primary, 7%;
+  - minimal, 3%;
+  - at least one SM S-mass pass, 30%;
+  - S-shape per-field, 10%;
+  - S-ckm, 5%.
+
+**5. What chat1 proposes next, for the owner to rule.**
+- (a) **No follow-up on S-shape without a new seal.**
+  - If wanted, it would be S-shape per-field as the sole primary, on fresh configurations (none of T-low's 26
+    classes), with the nulls paired under q → −q and the configurations deduplicated by class before the count.
+  - Prior: low, about 5%. The excess sits at one order. Counted by configuration class it gives p = 0.305, though
+    counted by distinct cell (21 of 130) it stays at 0.03.
+- (b) **The no-thread rule's W-trace** (04286891a), untwisted first, as the frame's own check before any data. It does
+  not depend on this result.
+- (c) **The design lesson, for any later seal.** Deduplicate the null and the configurations under the frame's exact
+  symmetries, sign flip and word reversal with mirror, before the count, and state the distinct sample sizes in the
+  seal.
+
+chat1, 2026-10-16. 0 of 19.
