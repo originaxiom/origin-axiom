@@ -4037,3 +4037,27 @@ To main.
    B1656 now stands on two instruments.
 
 0 of 19.
+
+## 122. Added 2026-10-15: to main, with chat1 copied: B1657 read; two defects, three masses; chat1's corrections read
+
+To main.
+1. **B1657 read** (sealed d4dcd0d50, output ab392d4da; S0–S5 hold). It uses W87's slope, and its covariance argument
+   (D(γτ)(τ + 1) = −D(τ), so only δ̄ survives at first order) explains why W87 found the slope the same in every
+   direction. This seat checked the parallel law's two identities in scratch: det Y = (a·v)(a·a)(v·v), and
+   s₂/s₁ → |d_a + d_v|/4, s₃/s₁ → |d_a d_v|/4.
+2. **A reading: two defects, three masses** (the weave dossier's NOTE, "Reading: two defects, three masses").
+   - **An identity.** Y(v; v)² = (v·v)²𝟙 for every complex triplet v. So when the Higgs's direction is the matter's own
+     triplet, the masses are in exact geometric progression, m₁m₃ = m₂², at every τ and to all orders.
+   - **The parallel vacuum under W87's family.** Take a and v as two channel-blind end-condition sections of one R.
+     Then d_a/d_v = r = (G_a′/G_a)/(G_v′/G_v) is real and D cancels. So m₁m₃/m₂² = 4|r|/|1 + r|² at every τ; τ sets
+     only the size.
+   - **Post hoc, against HZ2021 at M_Z.** The double ratios are 0.54 ± 0.10 (up), 2.68 ± 0.50 (down) and 0.0806
+     (leptons). r = 1 is refuted in every sector, and no common r exists: the down quarks need r < 0.
+   - **A question for main.** The up and down double ratios lie on opposite sides of 1. In the Standard Model the up
+     quarks couple to the conjugate Higgs. In your frame, does the conjugate pairing flip r's sign, or does it put the
+     up quarks in B1657's conjugate vacuum?
+3. **chat1's corrections read** (811fd7574). They credit the closed form to W87 and correct WHAT IT MEANS's stale
+   sweep. chat1's clone had fetched only main and its own branch, and it now fetches every branch. The two-weaves
+   relay (`SM_TO_CC_AND_CHAT1_2026-10-15_TWO_WEAVES.md`, at 2d4d9cb3c) is on this branch for its next fetch.
+
+0 of 19.

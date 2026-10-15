@@ -2295,6 +2295,31 @@ def test_reading_two_weaves_or_three():
     relay = (ROOT / "SM_TO_CC_AND_CHAT1_2026-10-15_TWO_WEAVES.md").read_text(encoding="utf-8")
     assert "0 of 19." in relay and "before you read the other seat's answer" in relay
 
+def test_reading_two_defects_three_masses():
+    """The reading (by hand, after main's B1657): Y(v; v)^2 = (v.v)^2 1 for every complex triplet, so the same whole
+    on both sides gives exact geometric masses; the data's double ratios (post hoc) refute r = 1 and need r < 0 for
+    the down quarks"""
+    import numpy as np
+
+    rng = np.random.default_rng(1657)
+    for _ in range(20):
+        v = rng.normal(size=3) + 1j * rng.normal(size=3)
+        Y = 2 * np.outer(v, v) - (v @ v) * np.eye(3)
+        assert np.allclose(Y @ Y, (v @ v) ** 2 * np.eye(3), atol=1e-11)
+        s = np.linalg.svd(Y, compute_uv=False)
+        assert abs(s[0] * s[2] / s[1] ** 2 - 1) < 1e-10
+    hz = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "received"
+                     / "HZ2021_running_masses_MZ.json").read_text(encoding="utf-8"))
+    m = hz["masses_GeV"]["value"]
+    dr = {s: m[a] * m[c] / m[b] ** 2 for s, (a, b, c) in
+          {"up": ("u", "c", "t"), "down": ("d", "s", "b"), "leptons": ("e", "mu", "tau")}.items()}
+    assert [round(dr[s], 2) for s in ("up", "down")] == [0.54, 2.68] and round(dr["leptons"], 4) == 0.0806
+    rs = np.linspace(1e-3, 1e3, 200001)
+    assert max(4 * rs / (1 + rs) ** 2) <= 1 + 1e-12 < dr["down"]
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: two defects, three masses" in note and "POST HOC" in note
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

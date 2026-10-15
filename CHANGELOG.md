@@ -1,5 +1,18 @@
 # Changelog
 
+## Two defects, three masses: main's B1657 read as two wholes (a reading; relay §122)
+
+- **Main's B1657** (the symmetric point; S0–S5 hold) was read and its parallel law checked in scratch.
+- **An identity.** Y(v; v)² = (v·v)²𝟙 for every complex triplet. When the Higgs's direction is the matter's own
+  triplet, the three masses are in exact geometric progression, m₁m₃ = m₂², at every τ.
+- **The parallel vacuum under W87's family.** With the Higgs and the matter as two channel-blind sections of one
+  residue triplet, m₁m₃/m₂² = 4|r|/|1 + r|² at every τ, where r is the ratio of the two end conditions' slopes.
+- **Post hoc, against HZ2021 at M_Z.** The double ratios are 0.54, 2.68 and 0.0806. r = 1 is refuted in every sector,
+  and no common r exists.
+- **The rows.** chat1's corrections (811fd7574) and main's B1657 seal and output are rowed in the relay ledger.
+- **Surfaces.** The weave dossier's NOTE, the state page, relay §122, the ledger, and a test that locks the identity
+  and the data's double ratios. 0 of 19.
+
 ## A correction: W89 was blind to main's B1656 run, not prior to it; the two agree (relay §121)
 
 - **The claim.** W89 was said to run "before main's run lands".

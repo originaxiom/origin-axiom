@@ -7431,6 +7431,63 @@ changed). Main's cells E0–E6 all hold. Where the two instruments overlap they 
 - the leptons' D is 5 × 10⁻¹³ on main and 1 × 10⁻¹⁴ here, both zero;
 - the controls are 3.0811026765 and 2.9210470354, identical.
 
+## Reading: two defects, three masses: B1657's parallel vacuum read as two wholes (READING, by hand; 2026-10-15, after main's B1657)
+
+**Why.** Main sealed and ran B1657, "the symmetric point" (d4dcd0d50, ab392d4da; S0–S5 hold). It found two laws near
+τ = ω. In the parallel vacuum (a ≈ R, v ≈ R) the light masses over the heavy are the two isotropy defects' sum and
+product, |d_a + d_v|/4 and |d_a d_v|/4, so m₁m₃/m₂² = 4|d_a d_v|/|d_a + d_v|². The owner had just asked whether two
+whole weaves can interact so that more emerges from two. Here two triplets, the Higgs's a and the matter's v, give
+three masses. This reading adds two facts and one post hoc comparison. A scratch check stands behind each fact. The
+identity is locked in a test. No record run.
+
+**Weave or thread.** Weave-type premises, as B1657's: the fibre every thread shares, the coupling
+Y(a; v) = avᵀ + vaᵀ − (a·v)𝟙, untwisted, given Λ and W87's end-condition family. It is a frozen piece (one fibre, the
+field held fixed), and its scope says so.
+
+**1. The same whole twice: exact geometric masses (an identity).**
+- For every complex triplet v, Y(v; v)² = (v·v)²𝟙. Expand: 4v(v·v)vᵀ − 4(v·v)vvᵀ + (v·v)²𝟙.
+- So Y/(v·v) is an involution. Its singular values are their own reciprocals, so they are (σ, 1, 1/σ).
+- Hence m₁m₃ = m₂² exactly, at every τ, for every end condition, and to all orders in the defect. When the Higgs's
+  direction is the matter's own triplet, the three masses are in exact geometric progression, m₂ = |v·v|.
+
+**2. Two wholes of one family: the double ratio does not depend on τ.**
+- Under W87's family, u_r = G(2πL + c_r)R_r and u·u ≈ 2GG′·D. Take the Higgs and the matter as two channel-blind
+  sections of the one residue triplet R, a_r = G_a(2πL + c_r)R_r and v_r = G_v(2πL + c_r)R_r. This is B1657's
+  parallel vacuum.
+- Then d_a ≈ 2(G_a′/G_a)D/|R|² and d_v ≈ 2(G_v′/G_v)D/|R|². Their ratio is r = (G_a′/G_a)/(G_v′/G_v), real, and D
+  cancels.
+- So m₁m₃/m₂² = 4|r|/|1 + r|² at every τ. For G = e^{βx} or G = x^p, r is also free of L (β_a/β_v or p_a/p_v).
+- The scratch check took four τ (0.13 + 1.07i, i, 0.3 + 1.6i and −0.21 + 0.98i), r ∈ {1, 2, −⅓, 0.02} and
+  G = e^{βx}. The worst relative deviation is 2.1 × 10⁻³ at β = 10⁻⁴ and 2.1 × 10⁻⁵ at β = 10⁻⁶, so it is first order
+  in βc. At r = 1 it is exact, as item 1 says.
+- τ selects the size (m₂/m₃ = |1 + r||G_v′/G_v||D|/(2|R|²)). The shape, m₁m₃/m₂², is set only by how the two wholes'
+  end conditions differ.
+
+**3. Against data (POST HOC; HZ2021's running masses at M_Z, W53's received file).**
+- m₁m₃/m₂² is 0.54 ± 0.10 for the up quarks, 2.68 ± 0.50 for the down quarks and 0.0806 ± 0.0001 for the leptons.
+- **r = 1 is refuted in every sector,** by 4.8σ, 3.3σ and about 10⁴σ. That is one end condition shared by the Higgs and
+  the matter, the minimal choice, and its exact geometric masses.
+- **No r common to all sectors exists.**
+  - The down quarks need r < 0 (r = −0.31 or −3.18), since 4|r|/|1 + r|² ≤ 1 for r > 0.
+  - The up quarks need r ∈ {0.19, 5.24, −0.11, −9.32}, and the leptons r ∈ {0.021, 47.6, −0.019, −51.6}.
+  - This is one more breaking-free relation refuted, as in W88's census.
+- **A question, not a claim.** The up and down double ratios lie on opposite sides of 1, which this law reads as r of
+  opposite signs. In the Standard Model the up quarks couple to the conjugate Higgs. Whether conjugation flips r's sign
+  in the record's frame is not computed. In the frame the conjugate pairing may instead put the up quarks in B1657's
+  other vacuum.
+
+**What it adds to the map.** Near the parallel vacuum the three masses of a sector are fixed by three things:
+- τ (the size, through D);
+- one real number r per sector (the shape: m₁m₃/m₂²);
+- the vacuum (parallel or conjugate).
+
+The record does not compute r. It is the Higgs's end condition against the matter's, and in the twisted frame each
+sector's channels differ (B1656). On W59's lines the leptons' R₁ vanishes, so m_e = 0 and the leptons' double ratio is
+0 at that order, against 0.08.
+
+**Status.** READING. Item 1 is an identity, proved by hand and locked in a test. Item 2 is by expansion, with a scratch
+check, not a record run. Item 3 is post hoc. 0 of 19.
+
 ## Reading: two weaves, or three: what interacting wholes can mean here (READING, by hand; 2026-10-15, at the owner's question)
 
 **Why.** The owner asked: "is it possible that two whole weaves should interact with each other so from two emerges

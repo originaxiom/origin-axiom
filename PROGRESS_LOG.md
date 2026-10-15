@@ -19272,3 +19272,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   had finished 43 seconds before the seat even wrote its rule. The seat had not looked at it, so the check was still
   independent, but not earlier. The record now says so.
 - **Read afterwards,** the two independent calculations agree on every shared number. 0 of 19.
+
+## 2026-10-15 — two defects, three masses
+
+- **Main found** that near its symmetric point the three masses of a sector come from two small numbers: the
+  Higgs's defect and the matter's. Their sum and product give the second and third masses.
+- **The seat added two things.** If the Higgs and the matter are the same object, the three masses form an exact
+  geometric series. If they are two related versions of one object, the mass pattern's shape is set by a single
+  number, wherever τ sits.
+- **Checked afterwards against the measured masses,** the simplest version fails in every sector, and no single
+  number fits the up quarks, the down quarks and the leptons together. That is one more option excluded. 0 of 19.

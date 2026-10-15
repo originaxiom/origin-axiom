@@ -636,6 +636,14 @@ Under the owner's rulings, the table's rows split into two groups:
   - Counts multiply on products, and 3 is prime.
   - A degree-N isogeny is main's order-N line.
   - A relay asks main and chat1 for their own readings (relay §120). 0 of 19.
+- **Main's B1657, the symmetric point (read; its parallel law checked in scratch), and two defects, three masses** (a
+  READING).
+  - At ω the symmetric Higgs vacua are B1646's three axes. Near them the light masses are the two isotropy defects
+    (the conjugate vacuum), or their sum and product over 4 (the parallel vacuum).
+  - Y(v; v)² = (v·v)²𝟙, so the same whole on both sides gives exact geometric masses, m₁m₃ = m₂².
+  - Under W87's family the parallel vacuum's double ratio is 4|r|/|1 + r|² at every τ, with r the ratio of the two
+    end conditions' slopes.
+  - Post hoc, r = 1 is refuted in every sector and no common r exists (relay §122). 0 of 19.
 
 ## Questions open with main
 
@@ -660,4 +668,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W89 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§121).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§122).
