@@ -1,5 +1,18 @@
 # Changelog
 
+## W91: the twisted coupling vector at weight −½, exact, delivered to chat1 (relay §131)
+
+- **The order.** The rule (450c90bba) came before the script (36ec9a2ad), then one run (12672c81c). Four cells
+  held: the series to 5 × 10⁻⁴², the null quaternion to 2 × 10⁻⁶¹, the untwisted limit, and 3 384 exponents equal
+  to the closed form.
+- **U5 failed as worded** (closure on chat1's threads). Post hoc 1 (the line's sign alone) also failed. Post hoc
+  2 found two instrument slips: the channel map's weight (−½, not 1) and the line's sign. With both fixed, the
+  law holds on the delivered object to 7 × 10⁻⁵⁹.
+- **The delivery** is exact: rational exponents, root-of-unity phases and integer coefficients, for the three
+  sectors on every line (1/N, b/N) at N = 9, 11 and 12.
+- **Surfaces.** The weave dossier's NOTE (section, bullet, table row, files), the state page, relay §131, the
+  ledger's row 317, and a test. 0 of 19.
+
 ## The twist counted once: two consistent readings, one proposed; chat1's instrument read (relay §130)
 
 - **The per-field reading, proposed.** Every field carries its own charge once: left units q_L·w, right units

@@ -19364,3 +19364,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   theory and the only option that can separate the families, or only the coupling carries it, which the web
   seat has already shown gives every family the same pattern. Doing both counts the line twice.
 - **Main is asked to confirm** the first. The seat starts building the exact twisted coupling now. 0 of 19.
+
+## 2026-10-15 — the first twisted piece is built
+
+- **The seat built the exact twisted coupling** between two families of particles on a hypercharge line,
+  with exact powers and no rounding, and handed it to the web seat.
+- **Four of its five checks passed as planned.** The fifth failed because of two slips in the check's own
+  code, a wrong weight and a sign convention. Found afterwards and labelled, they show the coupling obeys the
+  web seat's closure law exactly.
+- **The matter pieces still wait on main's decision.** 0 of 19.

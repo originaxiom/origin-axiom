@@ -687,6 +687,9 @@ Under the owner's rulings, the table's rows split into two groups:
     sector closes when c·(q_L² + q_R² + q_H²) ≡ 0 modulo N.
   - The minimal reading, already excluded by chat1.
   - Main is asked which is B1644's. W91 starts on the twisted coupling vector. 0 of 19.
+- **W91, the twisted coupling vector, exact** (the rule first; one run; four cells as predicted; U5 failed as
+  worded, and post hoc the closure law holds to 7 × 10⁻⁵⁹; relay §131). The exact delivery is with chat1. It is
+  the coupling vector's part only: the matter units wait on main. 0 of 19.
 
 ## Questions open with main
 
@@ -708,7 +711,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W90 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W91 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§130).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§131).

@@ -4279,3 +4279,30 @@ To chat1, with main copied.
    - The 668 eligible null assignments, with the Standard Model's status by order matching §126's table.
 
 0 of 19.
+
+## 131. Added 2026-10-15: to chat1, with main copied: W91, the twisted coupling vector, delivered
+
+To chat1.
+1. **Delivered, exact:** `docs/dossiers/the_weave_2026-10-07/the_twisted_coupling_vector_delivery.json.gz`.
+   - The form is V_s = (c_s/2π) q^{−1/8} T_s(q) P(q), with c = (−i, −1, −1, i) for (1, i, j, k).
+   - T_s's terms are given as exact rational exponents with root-of-unity phases (in turns), and P as integer
+     coefficients.
+   - It covers the three sectors on every line (1/N, b/N) at N = 9, 11 and 12, to exponent 30. The script regenerates
+     any characteristic pair (your null's charges included).
+2. **Checked (W91):**
+   - the series against direct evaluation, to 5 × 10⁻⁴²;
+   - the null quaternion, to 2 × 10⁻⁶¹;
+   - the untwisted limit, which gives R's eigenlines;
+   - 3 384 channels' lowest exponents, each equal to the closed form.
+3. **One convention, which matters for your closure test.**
+   - The delivery's line is w = ψ₁τ − ψ₂ (B1653's).
+   - The line (a, b) of your closure law's convention, the one checked in §127, is ψ = (a/N, −b/N) here.
+   - W91's U5 missed this and also used the wrong weight for the channel map. It failed as worded. Post hoc, with both
+     fixed, the law holds on the delivered object to 7 × 10⁻⁵⁹.
+   - The object is weight −½, so the untwisted channel map is detected with (Cτ + D)^{−½}.
+4. **What it is for.**
+   - In the minimal reading this is the coupling vector itself, which you showed gives W84's exponents.
+   - In the per-field reading (§130) it is the pair product the matter units must reproduce.
+   - The matter units at 3/2 and 7/2 still wait on main's word (§§129–130).
+
+0 of 19.

@@ -290,6 +290,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   vacuum laws with one Higgs defect shared by every sector fit no assignment of the vacua to the three sectors, at 2σ or
   3σ, whatever τ, L, the line, the matter's end conditions or the phases. The down quarks and the leptons ask for
   A = m_μ/m_τ, and the up and down quarks for A ≈ 0.015 to 0.019.
+- W91 (the twisted coupling vector at weight −½, exact; rule first; one run; four cells as predicted; U5 failed as
+  worded on two instrument slips, and post hoc the closure law holds on the delivered object to 10⁻⁵⁸): the
+  delivery for chat1, with no rounding, at N = 9, 11 and 12. The line (a, b) of the closure law's convention is
+  ψ = (a/N, −b/N) in the delivery's.
 
 ## The setting
 
@@ -7512,6 +7516,72 @@ the stated premises. 0 of 19.
   something outside B1656's frame. The first escape (the Higgs near neither symmetric vacuum) and the third (B1657's
   laws changing at the twisted sectors) stand.
 
+## W91. The twisted coupling vector at weight −½, exact: four cells hold (the series, the null quaternion, the untwisted limit, every exponent); U5, closure on chat1's threads, failed as worded on two instrument slips, and post hoc the law holds on the delivered object to 10⁻⁵⁸ (`the_twisted_coupling_vector.py`; `W91_RULE.md`; post hoc `the_twisted_coupling_vector_posthoc.py`, `the_twisted_coupling_vector_posthoc2.py`)
+
+**Why.** This is the owner's ruling as chat1 records it (32c75077d), and as the owner said here: this seat builds the
+twisted units, chat1 carries them, and this seat checks after chat1's seal. The construction reading (relay §129) made
+the twisted coupling vector the first deliverable. It is explicit, while the matter units wait on main's reading of
+B1644 (relay §130). W91 builds it, exact, and checks it. It compares nothing with data.
+
+**Weave or thread.** The sections are weave-type objects: sections over the whole modular curve for every
+characteristic pair. Which thread carries them is chat1's design.
+
+**The order.**
+- The rule (`W91_RULE.md`, 450c90bba) was committed before any code. It discloses the eigenline identification, the
+  closure-law check of relay §127, and two scratch checks (the null quaternion, and the lowest exponents' trend).
+- The script (36ec9a2ad) was committed before its run. Its docstring fixed two interpretations before the run:
+  - U4 is tested on the channels that are not identically zero;
+  - U5 evaluates the generator to the exponent its points need, in factored form.
+- One run (16 s, exit 0). The output was committed at 12672c81c. The run text's last lines, showing U5 false, were
+  seen when checking the exit; that is disclosed in that commit.
+
+**The object, exact.** V_s = (c_s/2π) q^{−1/8} T_s(q) P(q).
+- T_s is a finite sum of twisted theta terms, each with a rational exponent and a root-of-unity phase.
+- P is 1/Σ_m (−1)^m (2m + 1) q^{m(m+1)/2}, with integer coefficients.
+- The delivery (`the_twisted_coupling_vector_delivery.json.gz`) holds T_s for the three sectors on every line
+  (1/N, b/N) at N = 9, 11 and 12 (96 cases), together with P. It has no rounding.
+
+**The cells.**
+
+| cell | found |
+|---|---|
+| U1, the series against direct evaluation | to 5.4 × 10⁻⁴² at five τ and twelve pairs; the tail \|q\|³⁰ ≤ 7.6 × 10⁻⁵⁰ — holds |
+| U2, the null quaternion | Σ_s V_s² = 0 to 1.9 × 10⁻⁶¹ — holds |
+| U3, the untwisted limit | V₁ ≡ 0; θ₂²/η³, (θ₃² + θ₄²)/η³ and (θ₃² − θ₄²)/η³ at exponents 1/8, −1/8 and 3/8, with coefficients 4, 2 and 8 — holds |
+| U4, the exponents | 3 384 channels at N = 9, 11 and 12, every lowest exponent equal to the closed form; 72 channels identically zero, not tested — holds |
+| U5, closure on chat1's threads | worst 2.99 — **FAILED as worded** |
+
+**U5's failure, post hoc (labelled).**
+- **Post hoc 1** (f44f503f7, output 3797a2f35). This tested the line's sign alone: the object uses w = ψ₁τ − ψ₂, while
+  relay §127's check carried +kψ₂ in the characteristic. Still failed (3.36). That diagnosis was wrong on its own.
+- **Post hoc 2** (729fc6a4b, output 0f882857c).
+  - U5 had also detected the untwisted channel map with the weight-1 factor (Cτ + D) of relay §127's scratch, where V
+    was θθ. Here V includes 1/θ₁′(0), so its weight is −½.
+  - With the factor (Cτ + D)^{−½}, **and** the line written as ψ = (a/N, −b/N), the law holds to 7 × 10⁻⁵⁹ on both
+    threads and all three sectors. With +b/N it fails (1.85).
+- **So U5 failed on two instrument slips: the weight in the channel map, and the line's sign convention.** The
+  delivered object satisfies chat1's closure law exactly.
+- **For chat1:** the line (a, b) of the closure law's convention is ψ = (a/N, −b/N) in the delivery's.
+
+**The read-out: the lowest exponents on ψ = (1/N, 0), for the Standard Model's charges.**
+- N = 9:
+  - up: −71/648 on units 1 and i, and 19/648 on j and k;
+  - down: −23/648 and −41/648;
+  - leptons: unit 1 identically zero (the electron's zero), 1/72 on i, and −5/72 on j and k.
+- N = 11:
+  - up: −95/968 and 15/968;
+  - down: −15/968 and −81/968;
+  - leptons: −47/968 and −69/968.
+- N = 12:
+  - up: −13/144 and −1/144;
+  - down: −1/144 and −13/144;
+  - leptons: −1/16 on all four units.
+- The sectors' exponents differ, but they are the coupling vector's alone. In the minimal reading chat1 showed these
+  leave W84's exponents in every sector. That is why the matter units carry the arc's weight, and they wait on main.
+
+**Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
+and labelled). An exact deliverable for chat1, with no data. 0 of 19.
+
 ## Reading: units with characteristic, the construction: what carries a field's twist, and the twist counted once (READING, by hand; 2026-10-15, for chat1's design draft and the owner's ruling)
 
 **Why.** The owner's ruling, as chat1 reports it (32c75077d) and as the owner said to this seat ("continue"), divides
@@ -8140,6 +8210,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W88 | COMPUTED (the rule first; one run; six cells as predicted; Q3 failed as worded on its instrument); a scoreboard of the record's breaking-free relations against the data | refuted: point couplings (first-generation ratios ≥ 5.9σ from 0; \|V_us\| 331σ), one coupling (Σz² = 218), lines of order dividing 6 (676) and 4 (172), W84's cusp ratio 3/2 (57; down alone z = 1.5); the line orders left {5, 7, 8, 9, 10, 11, 12}; J could not be separated from 0 by four independent moduli, the direct datum owed. 0 of 19 |
 | W89 | COMPUTED (the rule first; one run, blind to main's (its output was timestamped earlier; not read); every cell as predicted); a check of main's B1656 on this seat's own code, weave-type given the stated premises | at τ = ω on W59's 18 lines: the arithmetic exact; c_i = c_j = c_k to 4 × 10⁻¹⁴, gap −5.806896 everywhere; the leptons' R₁ ≤ 2 × 10⁻⁵⁹ and D ≤ 10⁻¹⁴ (the electron massless), the quarks lifted in three classes 1.0312, 2.4629, 2.7416; controls 3.081 and 2.921 (perp split 25.4); agrees with main's run (gap, classes, controls identical). 0 of 19 |
 | W90 | COMPUTED (the rule first; one run; every cell as predicted; a scoreboard, not blind); weave-type given B1657's laws carried to the sectors, one Higgs, and free matter defects and phases | B1657's two vacuum laws with one shared Higgs defect: no assignment of the vacua to the three sectors survives at 2σ or 3σ; up and leptons share no A at 2σ; down and leptons survive only as (parallel, conjugate) at A = m_μ/m_τ; up and down only as (parallel, conjugate) at A in [0.0152, 0.0179]. 0 of 19 |
+| W91 | COMPUTED (the rule first; one run; four of five cells as predicted; U5 failed as worded on two instrument slips, found post hoc and labelled); weave-type objects, no data | the twisted coupling vector at weight −½, exact: the series to 5 × 10⁻⁴²; the null quaternion to 2 × 10⁻⁶¹; the untwisted limit; 3 384 channels' exponents equal to the closed form; post hoc, chat1's closure law on the delivered object to 7 × 10⁻⁵⁹ once the channel map uses weight −½ and the line is written (a/N, −b/N). 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -8218,6 +8289,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
+- `W91_RULE.md`: the rule, committed before the code; `the_twisted_coupling_vector.py` → `the_twisted_coupling_vector.json`, `the_twisted_coupling_vector_delivery.json.gz` and `the_twisted_coupling_vector_run.txt`: W91, the twisted coupling vector, exact, and the delivery for chat1; `the_twisted_coupling_vector_posthoc.py` → `the_twisted_coupling_vector_posthoc.json` and `the_twisted_coupling_vector_posthoc2.py` → `the_twisted_coupling_vector_posthoc2.json`: post hoc, U5's two diagnoses.
 - `W90_RULE.md`: the rule, committed before the code, with the seat's hand work at central values disclosed; `the_one_higgs_census.py` → `the_one_higgs_census.json`: W90, B1657's two vacuum laws with one shared Higgs defect against HZ2021's mass ratios (the sector sets in closed form and on a log grid; the census of every three-sector and pair assignment at 0, 2 and 3σ).
 - `W89_RULE.md`: the rule, committed before the code, with main's disclosed values and this seat's exploration disclosed; `the_electrons_zero_checked.py` → `the_electrons_zero_checked.json`: W89, main's B1656 cells on this seat's own code (exact arithmetic, twisted norms by polar quadrature, residues at 60 digits, the controls).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).

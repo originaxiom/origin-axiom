@@ -2498,6 +2498,27 @@ def test_reading_units_with_characteristic():
     note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
     assert "## Reading: units with characteristic, the construction" in note
 
+def test_w91_the_twisted_coupling_vector():
+    """W91 (rule 450c90bba, one run): four cells hold and U5 failed as worded; post hoc 2 finds the closure law on the
+    delivered object to 1e-58 with the line written (a/N, -b/N); one exponent recomputed in process"""
+    import gzip
+    from fractions import Fraction as Fr
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_twisted_coupling_vector.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"U1": True, "U2": True, "U3": True, "U4": True, "U5": False}
+    assert d["U4"]["channels tested"] == 3384 and d["U4"]["mismatches"] == 0
+    p2 = json.loads((here / "the_twisted_coupling_vector_posthoc2.json").read_text(encoding="utf-8"))
+    assert p2["law holds to 1e-30 by sign"] == {"1": False, "-1": True}
+    # in process: the up sector's lowest exponent on (1/9, 0), unit i (theta_2: a1 = 1/2), ku = -3, kd = 5
+    m1 = min((n + Fr(1, 2) - Fr(3, 9)) ** 2 for n in range(-5, 6)) / 2
+    m2 = min((n + Fr(1, 2) + Fr(5, 9)) ** 2 for n in range(-5, 6)) / 2
+    assert m1 + m2 - Fr(1, 8) == Fr(-71, 648)
+    assert d["read-out: lowest exponents on psi = (1/N, 0)"]["N=9|up"]["i"] == "-71/648"
+    with gzip.open(here / "the_twisted_coupling_vector_delivery.json.gz", "rt", encoding="utf-8") as fh:
+        dl = json.load(fh)
+    assert len(dl["cases"]) == 96 and dl["P"][:4] == [1, 3, 9, 22]
+
 
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
