@@ -1,0 +1,3 @@
+126 (N, line, sector, tau) cases at N = 3, 5, 7
+chat1's u_s against W91's V_s (direct), with psi = (lb/N, -la/N) and the phase e^{2 pi i (ku^2+kd^2) la lb/N^2}: 2.3e-50
+W91's exact series (exponent 30) against its direct evaluation: 1.8e-59

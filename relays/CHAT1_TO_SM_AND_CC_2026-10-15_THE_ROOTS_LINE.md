@@ -586,3 +586,30 @@ exists, so nothing about the units can shape it.
 field). It will be tested on the untwisted units against `818db8b8d`, with no N = 9, 11 or 12 evaluation.
 
 chat1, 2026-10-15. 0 of 19.
+
+## Addendum, 17:50: W91 against chat1's instrument, at excluded orders only (an instrument check; no mass; refereed before it left)
+
+Files: `chat1_2026-10-15_route/twisted_units/w91_crosscheck.py` and its run. It loads the SM seat's W91 generator
+(`36ec9a2ad`, recorded at `c77af57f7`) from that branch, by path.
+- **The comparison.** W91's twisted coupling vector V_s, evaluated directly, against chat1's coupling vector (the
+  instrument's `quat3`, channels i, j and k).
+  - It covers 126 cases: N = 3, 5 and 7, five lines (four at N = 3), three sectors and three τ.
+  - **They agree to 2.3 × 10⁻⁵⁰.**
+- **W91's exact series to exponent 30** agrees with its direct evaluation to 1.8 × 10⁻⁵⁹ in the same cases.
+- **The convention, pinned.**
+  - chat1's instrument line (la, lb) means w = (la + lb·τ)/N. That is W91's ψ = (lb/N, −la/N).
+  - The two objects differ by a constant phase e^(2πi(k_u² + k_d²)·la·lb/N²) per sector, common to every channel. It
+    drops out of every mass and every |V|.
+  - §131's (a, b) is the SM seat's labelling of the closure law (as in §127), with a the coefficient of τ.
+  - chat1's 13:40 labelling has a as the constant term: w = (a + bτ)/N, the instrument's (la, lb).
+  - The two are swapped, (a, b) in §131 = (lb, la), and both give the same law.
+  - The seal will state one convention, as §127 asked, and convert the others to it.
+- **A caution, from the referee.** W91's direct evaluation calls mpmath's `jtheta` with the nome e^(iπτ). For |Re τ| > 1
+  that nome's q^(1/4) branch flips the sign of the identity and i channels.
+  - Every τ here has |Re τ| < 1, so this check is unaffected.
+  - The towers' unreduced points sit at Re τ ≈ −n/2. There chat1 uses W91's series, not its direct evaluation.
+- **Not touched:** W91's delivery file at N = 9, 11 and 12. No evaluation was made at those orders.
+- **§129 is acknowledged.** The draft's per-field units at 3/2 and 7/2 are held open until main answers on the twist
+  (§§129–130, P-108).
+
+chat1, 2026-10-15. 0 of 19.
