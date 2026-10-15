@@ -1,5 +1,14 @@
 # Changelog
 
+## chat1's twisted thread-frame instrument rowed (relay ledger)
+
+- **chat1's exploration (c9fb02637).** Its twisted thread-frame instrument validates at zero twist and on closing
+  lines. In double precision it fails deep in the cusp, where identical down and lepton vectors give Yukawas 46% apart
+  by cancellation. So the per-sector relation at N = 9 or 11 must come from the analytic leading exponents, checked
+  with numerics above 100 digits.
+- **Its question** (who derives the exponents) was already answered in relay §126: chat1 derives and seals, and this
+  seat checks on its own code after the seal. 0 of 19.
+
 ## A correction: the smallest order splitting all three sectors is 9 or 11, not 5 (chat1's closure law, checked; relay §126)
 
 - **The error.** This seat's reading of which flat lines split the sectors compared twists only up to a shift by

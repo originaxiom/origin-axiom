@@ -19321,3 +19321,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   electron massless at this order) or eleven (with none massless). The list of line orders still allowed by data
   shrinks to 9, 11 and 12.
 - **The web seat proposes a sealed test** at those orders. This seat will check it independently. 0 of 19.
+
+## 2026-10-15 — the web seat's instrument meets its limit
+
+- **The web seat built an instrument** for its proposed test, and found that ordinary double precision fails deep in
+  the cusp, where the numbers cancel over about thirty orders of magnitude.
+- **So the test must be done analytically,** with very high precision as the check. The web seat will derive and seal
+  it; this seat will check it independently afterwards. 0 of 19.
