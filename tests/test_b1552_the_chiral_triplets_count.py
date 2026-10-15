@@ -2370,6 +2370,48 @@ def test_chat1_closing_lines_on_the_root():
     note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
     assert "**chat1's closing lines, checked here" in note and "a THREAD result" in note
 
+def test_correction_which_lines_split_the_sectors():
+    """The correction to the reading of which flat lines split the sectors (found by chat1, checked here): with the
+    reflection delta -> -delta, two sectors coincide iff their deltas agree up to sign modulo the lattice; the smallest
+    order splitting all three is 9 (leptons null) or 11 (none null); the CP-odd counts for orders 9, 11 and 12"""
+    import cmath
+    from math import gcd
+
+    delta = {"up": 5, "down": -1, "lep": -9}
+
+    def coincide(n, a, b):
+        return (delta[a] - delta[b]) % n == 0 or (delta[a] + delta[b]) % n == 0
+
+    def null(n, s):
+        return delta[s] % n == 0
+
+    for n in range(2, 14):
+        assert coincide(n, "up", "down") == (4 % n == 0 or 6 % n == 0), n
+        assert coincide(n, "down", "lep") == (8 % n == 0 or 10 % n == 0), n
+        assert coincide(n, "up", "lep") == (4 % n == 0 or 14 % n == 0), n
+    split = [n for n in range(2, 14) if not any(coincide(n, a, b) for a, b in (("up", "down"), ("down", "lep"),
+                                                                              ("up", "lep")))]
+    assert split == [9, 11, 12, 13]
+    assert null(9, "lep") and not any(null(n, s) for n in (11, 12, 13) for s in delta)
+    assert null(5, "up") and coincide(5, "down", "lep") and coincide(7, "up", "lep")
+
+    def odd(tau, units, n):
+        def in_lat(z):
+            k = z.imag / tau.imag
+            m = z.real - k * tau.real
+            return abs(m - round(m)) < 1e-9 and abs(k - round(k)) < 1e-9
+        prim = [(x, y) for x in range(n) for y in range(n) if gcd(gcd(x, y), n) == 1]
+        return sum(not any(in_lat(u * ((x + y * tau) / n).conjugate() - (x + y * tau) / n) for u in units)
+                   for x, y in prim)
+
+    om = cmath.exp(2j * cmath.pi / 3)
+    six = [cmath.exp(1j * cmath.pi * k / 3) for k in range(6)]
+    assert [odd(2j, [1, -1], n) for n in (9, 11, 12)] == [60, 100, 80]
+    assert [odd(om, six, n) for n in (9, 11, 12)] == [36, 60, 72]
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "**Corrected 2026-10-15, after chat1's closure law" in note
+    assert "are {9, 11, 12}.**" in note
+
 
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with

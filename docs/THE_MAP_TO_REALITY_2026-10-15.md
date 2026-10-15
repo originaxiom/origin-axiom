@@ -129,6 +129,13 @@ tested: four moduli with independent errors cannot separate J from 0, and a dire
 - **The target sharpens.** At the cusp the line needs both holonomies off {0, ½} (16 of the 24 order-5 lines). At ω
   no line of order up to 5 qualifies.
 
+*Corrected 2026-10-15 (relay §126; the weave dossier's correction to "Reading: which flat hypercharge lines can split
+the sectors").* The rule for which lines split the sectors missed the reflection δ ↦ −δ.
+- With it, lines of order 5, 8 and 10 give d = e, and lines of order 7 give up = leptons.
+- **The line orders left at N ≤ 12 are {9, 11, 12}.**
+- 9 is B1656's order, with the electron's identity channel zero. 11 is the smallest order with none null.
+- The CP-odd counts at the cusp are 60 of 72 (order 9), 100 of 120 (11) and 80 of 96 (12).
+
 ## 5. The bottlenecks, ranked by what they unblock
 
 | rank | bottleneck | blocks | what would break it | who |

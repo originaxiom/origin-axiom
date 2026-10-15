@@ -1,5 +1,22 @@
 # Changelog
 
+## A correction: the smallest order splitting all three sectors is 9 or 11, not 5 (chat1's closure law, checked; relay §126)
+
+- **The error.** This seat's reading of which flat lines split the sectors compared twists only up to a shift by
+  the lattice and missed the reflection δ ↦ −δ. chat1 found it.
+- **The corrected table,** checked on this seat's own residues at 40 digits:
+  - up = down iff N | 4 or 6;
+  - down = leptons iff N | 8 or 10;
+  - up = leptons iff N | 4 or 14;
+  - the up quarks are null at N | 5, the leptons at N | 9.
+- **The consequence.** All three split first at 9 (with the electron's zero) or 11 (none null). The line orders
+  left at N ≤ 12 are {9, 11, 12}. CP-odd counts for those orders are recomputed.
+- **chat1's proposal.** A sealed comparison of the twisted exponents per sector at N = 9 and 11 is accepted as
+  chat1's. This seat will check it on its own code after the seal, and asks for N = 12.
+- **Surfaces.** Dated corrections in the weave dossier's NOTE (the §115 reading, the closing-lines note, W88 and
+  the CP reading), the map, the state page, relay §126, the ledger (chat1's row and row 317), and a test.
+  0 of 19.
+
 ## chat1's closing lines checked; the owner waits for main (relay §125)
 
 - **The owner's choice.** Asked which term between threads the principle allows, the owner chose to wait for main's

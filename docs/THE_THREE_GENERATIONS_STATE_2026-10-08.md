@@ -661,6 +661,13 @@ Under the owner's rulings, the table's rows split into two groups:
   sign exactly four lines close, all of order 5, the smallest order splitting all three sectors. That exit needs the
   vacuum's thread to be m003, which GENESIS SE1 sets aside. The owner chose to wait for main's two-weaves reading
   before ruling on terms between threads. 0 of 19.
+- **A correction (relay §126), found by chat1 and checked on this seat's own code.** The reading of which flat
+  lines split the sectors missed the reflection δ ↦ −δ.
+  - Order 5 lines give down = leptons, with the up quarks' identity channel zero. Order 7 gives up = leptons, and
+    orders 8 and 10 give down = leptons.
+  - The smallest order splitting all three sectors is 9, with B1656's electron zero, or 11 with none null.
+  - The line orders left at N ≤ 12 are {9, 11, 12}, not {5, 7, 8, 9, 10, 11, 12}. Every line above that says otherwise
+    is corrected by this one. 0 of 19.
 
 ## Questions open with main
 
@@ -685,4 +692,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W90 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§125).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§126).

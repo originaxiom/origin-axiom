@@ -19311,3 +19311,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   hypercharge line on its own. Its sign-flipped partner allows exactly four, all of order five. Five is the smallest
   order that separates the up quarks, the down quarks and the leptons. But the record set that partner aside, so
   using it needs a ruling. 0 of 19.
+
+## 2026-10-15 — a correction: the smallest separating line has order 9 or 11, not 5
+
+- **The web seat found a mistake** in this seat's earlier reading. A hypercharge line of order five makes the
+  down quarks and the leptons identical, because the record's functions are even or odd and the seat had
+  ignored the sign.
+- **Checked on the seat's own code,** the first order that separates all three families is nine (with the
+  electron massless at this order) or eleven (with none massless). The list of line orders still allowed by data
+  shrinks to 9, 11 and 12.
+- **The web seat proposes a sealed test** at those orders. This seat will check it independently. 0 of 19.

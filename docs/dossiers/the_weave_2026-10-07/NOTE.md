@@ -7383,6 +7383,11 @@ owed. Nothing here counts as J = 0 holding.
 **Status.** COMPUTED. The rule came first; one run; six cells as predicted; Q3 failed as worded on its instrument, with
 its owed datum named. A scoreboard of exclusions. 0 of 19.
 
+*Corrected 2026-10-15 (relay §126).* Q7 used the §115 reading's rule, which missed the reflection δ ↦ −δ (see
+the correction to that reading). With it, order 5, 8 and 10 lines give d = e, which Q5's data refute, and order 7 lines
+give up = leptons. That is not a W88 cell: post hoc, it would need m_c/m_t = m_μ/m_τ, against 0.0037 and 0.059. **The
+orders left at N ≤ 12 are {9, 11, 12}.** Q7's cell stands as computed under its stated rule; the rule was wrong.
+
 ## W89. Main's B1656 ("the electron's zero") checked on this seat's own code, blind to main's run: every cell holds; the electron stays massless on W59's lines and the quarks are lifted in three classes (`the_electrons_zero_checked.py`; `W89_RULE.md`)
 
 **Why.** Main sealed B1656 (27e7e7482), the per-sector twisted channels at τ = ω on W59's eighteen Higgs lines. Relay
@@ -7677,6 +7682,12 @@ locked in a test.
 With W88 the target class is the cusp, a line of order 5, 7, 8 or more, and both holonomies off {0, ½}: 16 of the 24
 order-5 lines. At ω no order-5 line qualifies. No potential on record selects the class.
 
+*Corrected 2026-10-15 (relay §126).* The target orders are now 9, 11 and 12, not 5, 7 and 8 (the correction to
+the §115 reading). The CP-odd counts for them, recomputed with this reading's test code:
+- **at the cusp:** 60 of 72 lines of order 9, 100 of 120 of order 11, and 80 of 96 of order 12;
+- **at ω:** 36 of 72, 60 of 120 and 72 of 96;
+- **at i:** 48 of 72, 80 of 120 and 72 of 96.
+
 **Status.** READING, by hand, given the moves' and CP's action as stated in items 2 and 3. The counts in item 5 and the
 transitivity in item 4 are locked in `tests/test_b1552_the_chiral_triplets_count.py`. A computation with a twisted
 coupling would test item 2. 0 of 19.
@@ -7737,6 +7748,27 @@ this reading asks which lines can split which sectors. Nothing here is computed 
 `tests/test_b1552_the_chiral_triplets_count.py` locks the table of item 4. W73 per sector is parked until an order N
 is chosen, by main's twisted-channels arc or by the owner. 0 of 19.
 
+**Corrected 2026-10-15, after chat1's closure law (5d9ccd04c → 5e5490db8; checked here on this seat's own code;
+relay §126).** Item 4 is wrong. It compared the sectors' twists only up to a common shift by Λ, and missed the
+reflection δ ↦ −δ.
+- **Why the reflection matters.** In B1653's and B1656's residue, R_s = c_s θ_s(ū)θ_s(δ), each theta is even or odd.
+  So two sectors' coupling vectors agree, up to signs per channel and a factor common to every channel, when their δ
+  agree up to sign modulo Λ. Their ū = ∓3w already agree up to sign.
+- **The correct rules.** With δ = 5w (up), −w (down) and −9w (leptons):
+  - up = down iff 4w or 6w ∈ Λ, so N | 4 or 6;
+  - down = leptons iff 8w or 10w ∈ Λ, so N | 8 or 10;
+  - up = leptons iff 4w or 14w ∈ Λ, so N | 4 or 14;
+  - a sector's identity channel vanishes iff its δ ∈ Λ: up when N | 5, the leptons when N | 9.
+- **The corrected table for N up to 13** (this seat's own residues at a generic τ, 40 digits):
+  - N = 5: down = leptons, and the up quarks' identity channel vanishes;
+  - N = 7: up = leptons;
+  - N = 8 and 10: down = leptons;
+  - N = 9: all three split, with the leptons' identity channel zero (B1656's electron zero);
+  - N = 11, 12 and 13: all three split, none null.
+- **So the smallest order splitting all three sectors is 9,** with the electron's zero, **or 11** with none null. It is
+  not 5. Item 4's "N = 5 is the smallest order that splits all three sectors" and every surface that repeated it are
+  corrected by this note. chat1 found the error.
+
 **chat1's closing lines, checked here (dated 2026-10-15; a THREAD result; relay §125).** chat1 (5d9ccd04c) asked
 which flat lines close around the record's root thread, LR = [[1, 1], [1, 2]]. This seat checked the arithmetic
 exactly.
@@ -7744,6 +7776,8 @@ exactly.
   alone every sector has the same line and V = 1, which W88 refutes.
 - Up to sign, LR·w ≡ −w. Since |det(LR + I)| = 5, exactly four non-zero lines close, and all four have order 5.
 - Order 5 is the smallest that splits all three sectors (item 4 above). It is one of W88's surviving orders.
+  *(Corrected 2026-10-15: it is not; at order 5 the down quarks equal the leptons up to sign and the up quarks' identity
+  channel vanishes. See the correction to item 4.)*
 - Closing up to sign means the thread −LR, m003, which GENESIS SE1 sets aside in favour of +LR (GENESIS GM5d
   excludes the minus states). So the order-5 line is forced only if the vacuum's thread is m003, a ruling for the
   owner and main.
