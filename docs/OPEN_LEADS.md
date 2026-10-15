@@ -6525,3 +6525,25 @@ Compact-normal local bulk BPS positive kept, but must extend actual
 Higgs/connection over full fibre/base with correct K/R/automorphy.
 Then charged physical kernels, norms, interactions and anomalies in
 ONE parent. No selected epsilon/vacuum/three, full SM or gravity yet.
+
+## October16 interacting duty split, not whole-surface closure
+
+PB-SURFACE-INTERACTING-FIBRE: AUTHOR-PROVED CONDITIONALLY. Specified compact
+flat unitary fibre BEFORE modular quotient, odd Higgs half-pole: minimum
+unchanged, corrected critical classes exhaust quotient, both paired laws
+selfadjoint with compact resolvent.76/76 exact at568ecf96c,28pins/tree/
+index unchanged. Finite controls do not independently certify functional
+analysis. Source surface_interacting_domain_2026_10_15/PROOF1--4/FINDINGS.
+
+PB-SURFACE-INTERACTING-TRACE stays OPEN for actual whole-surface infinite
+tangential traces, global equivariance and complete cusp/charged spectrum.
+No old zero-Higgs gap copied. PB-SURFACE-BOUNDARY-VARIATION stays OPEN
+for the common nonlinear boson/fermion/gauge/auxiliary/SUSY law. Leading
+F-term epsilon- positive is not full SUSY or a sourced epsilon+ kill.
+
+PB-SURFACE-GLOBAL-HIGGS: actual nonnormal root local BPS backreaction now
+explicit, curvature/moment balanced and leading holonomy retained.
+GLOBAL fibre/base stationary construction remains a separate duty.
+Recover actual Q8-cover/Hodge and stability/existence tools first;
+cover-regular algebraic forms do not imply finite physical energy under
+a changed metric. Genesis/SM/three/gravity remain unachieved.

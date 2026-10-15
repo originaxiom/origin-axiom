@@ -2674,3 +2674,21 @@ in physical-bridge surface_real_boundary_2026_10_15; no shared B-number.
 | The naive epsilon+ critical-gaugino domain with regular finite-bulk-YM-energy bosons is not invariant under the actual gauge-potential supersymmetry variation. | B1138 context only; NEW PROOF4; test_bosonic_energy_gate_has_both_sides | Flat zero-Higgs bare-domain counterexample only; no exclusion of sourced/renormalized/interacting laws. |
 | A compact-normal local half-pole Higgs has zero moment and finite local norm, while a single-root comparison has nonzero moment and nonabelian charged interactions survive. | B1138 context only; NEW PROOF4; test_bosonic_energy_gate_has_both_sides | Local bulk BPS control, not global Higgs/end/stationarity or a selected spectrum. |
 | In the specified local normal Higgs model, the even log/angular correction cancels the actual non-L2 Yukawa source on all four R/vertical critical choices and preserves MW/reality/leading current. | B1138 context only; NEW PROOF5; test_interacting_trace_is_dressed_not_deleted | Explicit interacting graph elements, not maximal-domain exhaustion, global selfadjointness/Fredholmness/index or transport of an old zero-Higgs gap. |
+
+## October16 interacting fibre/end sublemmas, authored conditional
+
+Source physical-bridge surface_interacting_domain_2026_10_15 PROOF/
+FINDINGS,76/76 exact at published568ecf96c,28pins/tree/index unchanged.
+Preceding full compact-E8/reality and free cone arguments are credited.
+Test names refer to tests/test_physical_bridge_surface_interacting_domain.py.
+Finite controls do not independently certify functional analysis.
+
+| Scoped law | Argument and live safeguard | Limits |
+|---|---|---|
+| A symmetric rho^-1/2 Higgs potential is infinitesimally bounded on the free MINIMUM of the specified compact flat unitary fibre. | B1138 supplied-parent context only; NEW PROOF2; test_small_perturbation_is_only_on_the_minimum | Not on the old extreme graph; its divergent product remains. Not a uniform cusp estimate. |
+| A small symmetric perturbation preserves deficiency through an invertible map of a PROPER shifted range. | NEW authored PROOF3; same test's proper-range/contraction and collapsing noncontraction controls | Standard operator argument, not novelty or finite proof of Hilbert analysis; no onto inverse of a nonselfadjoint minimum assumed. |
+| For generic complex odd X the actual full-parent dressing uses X/tau(X) in opposite R slots and cancels every critical source. | Prior compact-real dressing credited; NEW PROOF4; test_generic_complex_Higgs_dressing_and_full_reality | All four R/normal choices and two compact-real components. Not global stationary Higgs or selector. |
+| Dressed classes exhaust the1792-dimensional complex quotient; either896-dimensional paired plane gives a real-compatible selfadjoint compact-resolvent extension on the specified fibre. | Credited free cone result; NEW authored PROOF1--4; test_full_critical_Green_count_not_sampled_six / test_complete_live_records_agree | CONDITIONAL, not computer/nonauthor certification. BEFORE base quotient; not whole-surface/cusp, physical index/families or old-gap transport. |
+| The displayed actual odd-root nonnormal Higgs has nonzero curvature balancing its moment and a bounded added connection preserving leading holonomy. | NEW PROOF5; test_same_parent_nonabelian_backreaction, faithful signed E8 map and failed no-backreaction control | LOCAL flat product, not global fibre/base, electroweak/selected vacuum or old spin-valued identity. |
+| The normal-plane covariant Higgs identity retains curvature and end current; the holomorphic half-pole's full rough divergence is canceled by that signed end contribution. | R28/R67 principle credited in another parent; NEW PROOF6; test_action_identity_keeps_curvature_and_end | Standard identity/application, not complete surface action or a physical end selection; no bare-energy universal kill. |
+| Actual F-term pullback pairs tangential half-poles finitely/nontrivially; normal wedge vanishes and bounded tangent variation tends to zero. | NEW PROOF6; test_actual_Fterm_boundary_variation_has_both_sides, actual charged dual coefficient | LEADING necessary test only; neither full SUSY nor all-end epsilon+ exclusion. |

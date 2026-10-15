@@ -1,5 +1,16 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October16 interacting fibre/end:76/76 exact at published pre-run568ecf96c,
+28pins/tree/index unchanged. AUTHORED conditional fixed-fibre dressed
+domain exhaustion/selfadjointness/compact resolvent, generic complex
+Higgs reality, noncommuting local BPS backreaction and retained action/
+end/F-term controls. BEFORE modular quotient, not whole surface/cusp
+or a common nonlinear physical SUSY boundary law. NEXT same-parent
+boson/fermion/gauge/auxiliary boundary join, GLOBAL stationary Higgs/
+connection/end and charged spectrum/anomalies. No old-gap transfer or
+physical SM/three/gravity; independent analytic review owed.
+Report physical-bridge surface_interacting_domain_2026_10_15/FINDINGS.md.
+
 October15 explicit real-parent map:264/264 exact at pre-run401d4cd4d,
 19pins/tree/index unchanged. Full32-spinor MW/R/external and wholeE8
 compact reality admits two paired current laws under credited analytic

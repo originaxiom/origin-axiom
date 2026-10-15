@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 interacting fibre/end:76/76 exact at published pre-run568ecf96c,
+28pins/tree/index unchanged. AUTHORED conditional fixed-fibre dressed
+domain exhaustion/selfadjointness/compact resolvent, generic complex
+Higgs reality, noncommuting local BPS backreaction and retained action/
+end/F-term controls. BEFORE modular quotient, not whole surface/cusp
+or a common nonlinear physical SUSY boundary law. NEXT same-parent
+boson/fermion/gauge/auxiliary boundary join, GLOBAL stationary Higgs/
+connection/end and charged spectrum/anomalies. No old-gap transfer or
+physical SM/three/gravity; independent analytic review owed.
+Report physical-bridge surface_interacting_domain_2026_10_15/FINDINGS.md.
+
 October15 continuation: full-parent reality/interacting-trace checkpoint
 now has54 live regression PASS1378.11s in nine files, unchanged19pins/
 tracked state/index. Interrupted and missing-runtime launch attempts
