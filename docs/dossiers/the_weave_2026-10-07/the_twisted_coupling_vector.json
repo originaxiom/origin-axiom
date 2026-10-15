@@ -1,0 +1,110 @@
+{
+ "status": "W91: the twisted coupling vector, exact (script committed before its one run)",
+ "U1": {
+  "worst relative difference": 5.3826850720178686e-42,
+  "worst tail |q|^30": 7.62871273817232e-50,
+  "holds": true
+ },
+ "U2": {
+  "worst |sum V^2| / sum |V|^2": 1.909724149880446e-61,
+  "holds": true
+ },
+ "U3": {
+  "V_1 identically zero": true,
+  "lowest exponents and |coefficients|": {
+   "e_i": [
+    "1/8",
+    4.0
+   ],
+   "v+": [
+    "-1/8",
+    2.0
+   ],
+   "v-": [
+    "3/8",
+    8.0
+   ]
+  },
+  "holds": true
+ },
+ "U4": {
+  "channels tested": 3384,
+  "identically zero, not tested": 72,
+  "mismatches": 0,
+  "first mismatches": [],
+  "holds": true
+ },
+ "U5": {
+  "cases": 12,
+  "worst (cycle law or tau-dependence)": 2.9851162988818256,
+  "holds": false
+ },
+ "delivery": {
+  "cases": 96,
+  "file": "the_twisted_coupling_vector_delivery.json.gz"
+ },
+ "read-out: lowest exponents on psi = (1/N, 0)": {
+  "N=9|up": {
+   "1": "-71/648",
+   "i": "-71/648",
+   "j": "19/648",
+   "k": "19/648"
+  },
+  "N=9|down": {
+   "1": "-23/648",
+   "i": "-23/648",
+   "j": "-41/648",
+   "k": "-41/648"
+  },
+  "N=9|leptons": {
+   "1": null,
+   "i": "1/72",
+   "j": "-5/72",
+   "k": "-5/72"
+  },
+  "N=11|up": {
+   "1": "-95/968",
+   "i": "-95/968",
+   "j": "15/968",
+   "k": "15/968"
+  },
+  "N=11|down": {
+   "1": "-15/968",
+   "i": "-15/968",
+   "j": "-81/968",
+   "k": "-81/968"
+  },
+  "N=11|leptons": {
+   "1": "-47/968",
+   "i": "-47/968",
+   "j": "-69/968",
+   "k": "-69/968"
+  },
+  "N=12|up": {
+   "1": "-13/144",
+   "i": "-13/144",
+   "j": "-1/144",
+   "k": "-1/144"
+  },
+  "N=12|down": {
+   "1": "-1/144",
+   "i": "-1/144",
+   "j": "-13/144",
+   "k": "-13/144"
+  },
+  "N=12|leptons": {
+   "1": "-1/16",
+   "i": "-1/16",
+   "j": "-1/16",
+   "k": "-1/16"
+  }
+ },
+ "cells": {
+  "U1": true,
+  "U2": true,
+  "U3": true,
+  "U4": true,
+  "U5": false
+ },
+ "every cell holds": false
+}

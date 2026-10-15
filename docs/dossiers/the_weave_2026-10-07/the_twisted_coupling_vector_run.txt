@@ -1,0 +1,9 @@
+written the_twisted_coupling_vector.json
+{
+ "U1": true,
+ "U2": true,
+ "U3": true,
+ "U4": true,
+ "U5": false
+}
+exit 0 16 s
