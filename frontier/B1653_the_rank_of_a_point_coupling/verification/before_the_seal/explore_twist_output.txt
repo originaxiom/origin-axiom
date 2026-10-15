@@ -1,0 +1,19 @@
+ab (0.0, 0.0) z+1: (1.0 + 1.920461e-33j)  expect (1.0 + 0.0j)
+   z+2tau: (-1296.2172 - 2042.5115j)  expect (-1296.2172 - 2042.5115j)
+ab (0.1, 0.3) z+1: (0.80901699 + 0.58778525j)  expect (0.80901699 + 0.58778525j)
+   z+2tau: (-1541.9907 + 1863.9466j)  expect (-1541.9907 + 1863.9466j)
+untwisted check against B1642's R2, c th_r(0) th_r(z)/th_1(z):
+   i 9.87e-32
+   j 0.0
+   k 9.51e-32
+twisted: is P_r th1 e^{-2 pi i A z}/th_r(z + w_x + w_y) constant in z?
+   i spread 1.01e-30  N = (-0.8991198994 - 0.1314718732j)
+   j spread 1.11e-30  N = (-0.7327196941 - 0.1274219265j)
+   k spread 9.49e-31  N = (-0.1720897251 + 0.9684878467j)
+x [0.13, 0.31] y [-0.07, 0.22]  ratios equal across r: 1.14e-30  common = (0.85059264 + 0.1497412j)
+x [0.4, -0.15] y [0.25, 0.6]  ratios equal across r: 2.55e-31  common = (0.16436038 + 0.15226866j)
+x [0.0, 0.5] y [0.0, 0.0]  ratios equal across r: 3.74e-32  common = (1.0 + 2.0109671e-32j)
+identity th3^2th3^2 + th1^2th1^2 = th2^2th2^2 + th4^2th4^2: 4.05e-31
+R.R / [kappa^2 th1(u)^2 th1(d)^2 / th1'(0)^2] = (1.0 - 1.23587812405e-30j)   |R.R|/|R|^2 = 0.07918
+R.R / [kappa^2 th1(u)^2 th1(d)^2 / th1'(0)^2] = (1.0 + 1.3314282304e-26j)   |R.R|/|R|^2 = 1.245e-5
+untwisted |R.R|/|R|^2 = 7.73e-32
