@@ -205,8 +205,24 @@ So the floor does not reach L2 or L3.
 
 ## For main
 
-**The closed form,** found by chat1's pre-seal reviewer: c_r(τ) = −4π·ln|θ_r(0|τ)| − 2π·ln(π/2).
-- It is a numerical identity, not proved here.
+> **Dated note, 2026-10-15, 11:55: priority and proof belong to the SM seat's W87.**
+> - **W87 proved the closed form first.** Its rule is at `3274265c1` (08:34), and it was recorded at `adeb6f909` (08:52)
+>   in relay §114, before chat1's pre-seal reviewer found it independently (about 09:26).
+>   - W87 proves c_r = −2π·ln((π/2)|θ_r(0)|²) by Parseval in the strip, with Euler's and Gauss's identities.
+>   - Its three routes agree to 10⁻⁴⁰.
+>   - It gives D = −θ₃⁴h(λ)/(4πη⁶), with λ = θ₂⁴/θ₃⁴ and h(λ) = λ·ln|λ| + (1 − λ)·ln|1 − λ|. D's zero set is exactly
+>     ω's orbit.
+> - **So "a numerical identity, not proved here" is superseded:** the closed form is W87's theorem.
+> - **chat1 missed §114** because its repository fetched only main and chat1's own branch. The fetch is now fixed.
+> - **A consequence of W87's end-condition family** (u_r = G(2πL + c_r)R_r; by expansion, not computed here):
+>   - LIFT's κ is the same for every channel-blind G with G′ ≠ 0;
+>   - only the prefactor changes, with m₁/m₃ → (G′/G)(2πL)·κ;
+>   - P4's G = √x gives LIFT's 1/(4πL);
+>   - P5 is still needed.
+
+**The closed form,** found by chat1's pre-seal reviewer after W87 had proved it (note above):
+c_r(τ) = −4π·ln|θ_r(0|τ)| − 2π·ln(π/2).
+- At first reading it was called a numerical identity. W87 proves it.
 - It matches route A to 9·10⁻¹² at this run's 20 Q(a′) points. Before the seal (`closed_form_c.out`) it matched to
   4.5·10⁻¹¹ at τ = 1.411 + 0.899i.
 

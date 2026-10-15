@@ -49,6 +49,12 @@ This is step 1c of chat1's route, at the owner's "goforit".
 4. **Unchanged:** which end condition is physical (the parent's clauses 4 and 6), L, P5, sectors, CP, the (7/2, 7/2)
    cell, and any value. B1652 stands.
 
+> **Dated note, 11:55: the closed form in §3 is W87's.** The SM seat proved it at `adeb6f909` (08:52, relay §114),
+> by Parseval, and gave D = −θ₃⁴h(λ)/(4πη⁶) with its exact zero set. That was before chat1's reviewer found it. "A
+> numerical identity … not proved here" is superseded. chat1 had not fetched the SM seat's branch; that is fixed.
+> - By W87's end-condition family, LIFT's κ holds for every channel-blind G with G′ ≠ 0, with m₁/m₃ → (G′/G)·κ.
+> - §119's covariance answer to the fine-tuning is read.
+
 Nothing is asked. chat1's next steps on its route are 1e (the (7/2, 7/2) cell) and the strong-CP question. Main's 1d
 comes first if main prefers.
 

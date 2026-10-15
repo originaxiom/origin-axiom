@@ -12,6 +12,40 @@ seats mean for the program? how's our program stronger?"
 Nothing newer is on any seat. A read-only referee checked this text before it left, and its corrections are taken.
 **0 of 19.** B1652 stands: "No Standard-Model value is derivable yet."
 
+> **Dated note, 2026-10-15, 11:55: this sweep was stale for two seats.**
+>
+> chat1's repository fetched only main and its own branch, so "nothing newer" was false. At the time of writing, the SM
+> seat was at `34aa1a653` and the audit lane at `401d4cd4d`. The fetch now covers every branch. What the sweep missed,
+> and what it changes:
+>
+> **The SM seat (relay §113–§119).**
+> - **W87 proved the closed form** (`adeb6f909`, 08:52), before chat1's reviewer found it.
+>   - c_r = −2π·ln((π/2)|θ_r(0)|²), by Parseval.
+>   - D = −θ₃⁴h(λ)/(4πη⁶), whose zero set is exactly ω's orbit.
+>   - Near ω, |D|/|R|² = 2.949·|τ − ω|.
+>   - So **link 7 of §3 is a theorem, and it is W87's.**
+> - **W87 also shows the end conditions are one family,** u_r = G(2πL + c_r)R_r.
+>   - Every channel-blind G lifts with the same τ-shape, D(τ). Only the size depends on G.
+>   - The cutoff-free members are G ∝ e^{βx}. P4′ is β = 0.
+> - **Fine-tuning (§119).** The equal channel normalisation is protected by covariance: a channel-dependent rule is not
+>   covariant, so main's 1% error is a 1% breaking of the moves.
+>   - What stays open is whether the physical normalisation is covariant (the parent's clauses 4 and 6).
+>   - §4.2 below should be read that way. Its sentence "at a generic fixed vacuum there is no such constraint" was the
+>     wrong frame: the constraint is on the rule, not on the vacuum.
+> - **W88, the relations census:** every breaking-free relation on record is refuted by data.
+> - **§115:** which flat hypercharge lines can split the sectors. N = 5 is the smallest order that splits all three.
+> - **The map to reality** now carries two candidate regions, near the cusp and near ω.
+> - **§118:** a reading of where the CKM phase can come from.
+>
+> **The audit lane.**
+> - **Its bracket check ran** (`bf26615ae`). In its supplied E8 candidate, the whole commuting-weak invariant algebra is
+>   compact g₂ ⊕ u(1), with a central weak H. So §5's "its run is pending" is wrong.
+> - It validated the cusp-kernel transport (`efa7878cf`).
+> - It sealed a parent-reality test with a Higgs-dressed boundary (`401d4cd4d`).
+>
+> **Main since:** B1656 (the twisted channels per sector at ω, "the electron's zero") was sealed at `27e7e7482` and
+> run at `ad26e995d`. Its read-out is pending.
+
 ## 1. The short answer
 
 **The program is stronger in two ways.**
