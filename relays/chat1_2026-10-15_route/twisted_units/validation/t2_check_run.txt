@@ -1,0 +1,4 @@
+(a) LLRLR N=5 line (1, 2) rho=0.98 bits=178: stage2 vs stage1 worst 1.9e+00; 5.2 ms/point; closure 4.2e+00
+(a) LRR N=7 line (0, 1) rho=1.73 bits=180: stage2 vs stage1 worst 4.8e-12; 5.0 ms/point; closure 2.7e+00
+(b) L R^4 N=3 line (0, 1) rho=2.83 bits=206: stage2 vs tower instrument {'per-field': 2.8406841995213748e-37, 'minimal': 2.8406841995213748e-37}; 4.1 ms/point
+(b) L R^5 N=5 line (1, 2) rho=3.35 bits=219: stage2 vs tower instrument {'per-field': 1.9021130325903075, 'minimal': 0.0}; 5.7 ms/point

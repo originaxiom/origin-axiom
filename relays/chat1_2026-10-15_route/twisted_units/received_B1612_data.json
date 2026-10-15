@@ -1,0 +1,116 @@
+{
+ "sources": {
+  "pmns": "NuFIT 6.0, Esteban, Gonzalez-Garcia, Maltoni, Martinez-Soler, Pinheiro, Schwetz, arXiv:2410.05380v2 (HTML, fetched 2026-10-08), the 3-sigma ranges of |U| for the variant 'IC24 with SK-atm', stated as the global minimum over both orderings (so NO and IO below carry the same table). DEVIATION FROM THE SEAL, disclosed: the seal named the newest release on nu-fit.org (6.1 or later); nu-fit.org was unreachable on 2026-10-08 (expired TLS certificate) and no primary 6.1 |U| table was fetchable; the record's NuFIT 6.1 values (B1066) are angle fits from a secondary source without a |U| table.",
+  "ckm": "PDG, Review of Particle Physics 2025, section 12 'CKM quark-mixing matrix' (dated 1 December 2025), eq. (12.27), the global-fit magnitudes of all nine elements; https://pdg.lbl.gov/2025/reviews/rpp2025-rev-ckm-matrix.pdf fetched 2026-10-08; asymmetric uncertainties symmetrised to the larger side."
+ },
+ "pmns_abs_3sigma": {
+  "NO": {
+   "lo": [
+    [
+     0.801,
+     0.519,
+     0.142
+    ],
+    [
+     0.252,
+     0.496,
+     0.652
+    ],
+    [
+     0.276,
+     0.485,
+     0.637
+    ]
+   ],
+   "hi": [
+    [
+     0.842,
+     0.58,
+     0.155
+    ],
+    [
+     0.501,
+     0.68,
+     0.756
+    ],
+    [
+     0.518,
+     0.673,
+     0.743
+    ]
+   ]
+  },
+  "IO": {
+   "lo": [
+    [
+     0.801,
+     0.519,
+     0.142
+    ],
+    [
+     0.252,
+     0.496,
+     0.652
+    ],
+    [
+     0.276,
+     0.485,
+     0.637
+    ]
+   ],
+   "hi": [
+    [
+     0.842,
+     0.58,
+     0.155
+    ],
+    [
+     0.501,
+     0.68,
+     0.756
+    ],
+    [
+     0.518,
+     0.673,
+     0.743
+    ]
+   ]
+  }
+ },
+ "ckm_abs": {
+  "value": [
+   [
+    0.97435,
+    0.22501,
+    0.003732
+   ],
+   [
+    0.22487,
+    0.97349,
+    0.04183
+   ],
+   [
+    0.00858,
+    0.04111,
+    0.999118
+   ]
+  ],
+  "sigma": [
+   [
+    0.00016,
+    0.00068,
+    9e-05
+   ],
+   [
+    0.00068,
+    0.00016,
+    0.00079
+   ],
+   [
+    0.00019,
+    0.00077,
+    3.4e-05
+   ]
+  ]
+ }
+}

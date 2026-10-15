@@ -1,0 +1,3 @@
+controls: {'LLRRRLRLRLRR N=10 line (6, 3)': {'closure': '2.1e-49', 'r_calc': '0.0e+00', 'rotation invariance (ln s)': '2.5e-51', "uncarried line's closure (must fail)": '5.0e+00', 'holds': True}, 'LLLRLLLRLR N=8 line (1, 7)': {'closure': '5.6e-52', 'r_calc': '0.0e+00', 'rotation invariance (ln s)': '9.1e-39', "uncarried line's closure (must fail)": '8.4e+01', 'holds': True}} 19.5
+error: None cells 7200 rank-three 7044 rank-deficient 156 max r_calc rank-three 0.0 119.1
+rank-deficient by assignment: [('null024', 4), ('null027', 4), ('null031', 4), ('null038', 4), ('null046', 4)]

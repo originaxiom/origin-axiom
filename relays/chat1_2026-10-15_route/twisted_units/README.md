@@ -21,7 +21,9 @@ Nothing here is a result. No N = 9, 11 or 12 mass has been computed.
   - They are the gauge-invariant integer 6Y assignments with every |q| ≤ 12.
   - Kept: eligible at N = 9, 11 and 12 on the SM's terms there.
   - Excluded: the SM, its negative, and every draw equal to k·SM mod N.
-  - Shuffled with seed 20261015. 668 are eligible.
+  - Shuffled with seed 20261015.
+  - **Revised before the seal.** The box is now |q| ≤ 18, and no field's charge may be ≡ 0 mod N, since such a field has
+    an exact zero in the per-field reading. That leaves 224 eligible draws.
   - The SM's own status by order reproduces relay §126's table exactly:
     - N = 5: d = e, with the up quarks null;
     - N = 7: up = leptons;
@@ -46,6 +48,9 @@ Nothing here is a result. No N = 9, 11 or 12 mass has been computed.
   - They are the words up to length 12 at height ≤ 3, with lines of exact order N fixed up to sign and N² | Q_γ(w).
   - N = 9: 18 configurations on 3 words. N = 11: 40 on 8 words. N = 12: 32 on 10 words. Heights run 1.54–2.77.
   - LLRLLRRLRR has 6 lines up to sign and LLLLRLRRRLRR 5, as relay §127 counted.
+
+- **The seal** (`PREREGISTRATION_TWISTED_UNITS.md`, `twisted_units_seal.py`) covers both readings on T-low. Its
+  instrument is `tlow2.py`, stage 2: ball arithmetic with factorised integrands. The validation is in `validation/`.
 
 **Delivered since:** W91, the twisted coupling vector (§131), and W92, the per-field units (§134). Both readings'
 pieces now exist.

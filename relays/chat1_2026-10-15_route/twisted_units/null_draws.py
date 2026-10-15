@@ -6,8 +6,10 @@ Each sector's coupling vector twist (B1656): ubar = (qL + qR) w, delta = (qL - q
 residues mod N matter. B1656's residue c_s theta_s(ubar) theta_s(delta) is even or odd in each argument and symmetric
 under ubar <-> delta, so two sectors' coupling vectors agree (up to per-channel signs and a common factor) when
 {+-ubar, +-delta} agree mod N as unordered pairs of classes up to sign.
-Eligible at N (the SM's terms there): the three sectors split (no two agree), and no sector untwisted (ubar, delta not
-both 0 mod N). Excluded: the SM, its negative, and any draw equal to k.SM mod N for a unit k mod N, at N = 9, 11 or 12.
+Eligible at N (the SM's terms there): the three sectors split (no two agree), no sector untwisted (ubar, delta not
+both 0 mod N), and no field's charge = 0 mod N (revised before the seal of PREREGISTRATION_TWISTED_UNITS.md: in the
+per-field reading a matter field with charge = 0 mod N has an exact zero, since R = FM12[1], E4F[1] = E4 R and R.R = 0;
+the Standard Model has no such field at N = 9, 11 or 12). Box |q| <= 18 (was 12, which left only 132 such draws). Excluded: the SM, its negative, and any draw equal to k.SM mod N for a unit k mod N, at N = 9, 11 or 12.
 The order is a fixed shuffle (seed below); the seal takes the first M eligible draws.
 
 Check (also pure algebra): the SM's own eligibility by order must reproduce relay §126's table.
@@ -16,6 +18,7 @@ Usage: python3 null_draws.py > null_draws_run.txt  (writes null_draws.json besid
 import json, math, pathlib, random
 
 SEED = 20261015
+BOX = 18
 ORDERS = (9, 11, 12)
 SM = {"Q": 1, "u": -4, "d": 2, "L": -3, "e": 6, "H": 3}
 FIELDS = ("Q", "u", "d", "L", "e", "H")
@@ -41,7 +44,7 @@ def status(ch, N):
 
 def eligible(ch, N):
     st = status(ch, N)
-    return st["split"] and not st["untwisted"]
+    return st["split"] and not st["untwisted"] and all(v % N for v in ch.values())
 
 
 def is_unit_multiple_of_SM(ch, N):
@@ -58,12 +61,12 @@ if __name__ == "__main__":
         print(f"  N = {N:2d}: split {st['split']}, coincidences {st['coincidences']}, untwisted {st['untwisted']}, "
               f"identity channel null {st['identity channel null']}")
     pool, excluded_equiv, ineligible = [], 0, 0
-    for Q in range(-12, 13):
-        for u in range(-12, 13):
-            for L in range(-12, 13):
+    for Q in range(-BOX, BOX + 1):
+        for u in range(-BOX, BOX + 1):
+            for L in range(-BOX, BOX + 1):
                 H = -(Q + u); d = H - Q; e = H - L
                 ch = {"Q": Q, "u": u, "d": d, "L": L, "e": e, "H": H}
-                if any(abs(v) > 12 for v in ch.values()):
+                if any(abs(v) > BOX for v in ch.values()):
                     continue
                 if ch == SM or all(ch[f] == -SM[f] for f in FIELDS):
                     continue
@@ -74,7 +77,7 @@ if __name__ == "__main__":
                 pool.append(ch)
     rng = random.Random(SEED)
     rng.shuffle(pool)
-    print(f"box |q| <= 12: eligible at N = 9, 11 and 12: {len(pool)}; excluded as k.SM mod N: {excluded_equiv}; "
+    print(f"box |q| <= {BOX}: eligible at N = 9, 11 and 12: {len(pool)}; excluded as k.SM mod N: {excluded_equiv}; "
           f"ineligible at some N: {ineligible}")
     print("first five draws in the fixed order:", pool[:5])
     print("identity-channel-null patterns among the first 199 (N = 9, 11, 12):")
@@ -85,6 +88,6 @@ if __name__ == "__main__":
     for k, v in sorted(pat.items(), key=lambda kv: -kv[1]):
         print(f"  {k}: {v}")
     print("the SM's pattern:", tuple(tuple(status(SM, N)["identity channel null"]) for N in ORDERS))
-    out = {"seed": SEED, "box": 12, "orders": ORDERS, "eligible": len(pool), "excluded_equivalent": excluded_equiv,
+    out = {"seed": SEED, "box": BOX, "orders": ORDERS, "eligible": len(pool), "excluded_equivalent": excluded_equiv,
            "ineligible": ineligible, "draws_in_order": pool}
     (pathlib.Path(__file__).resolve().parent / "null_draws.json").write_text(json.dumps(out, indent=0) + "\n")
