@@ -1,0 +1,326 @@
+{
+ "status": "W91 post hoc 2 (labelled): U5 with the channel map detected at weight -1/2, both line signs",
+ "cases": 24,
+ "worst by sign": {
+  "1": 1.8528330164550157,
+  "-1": 6.995101091744055e-59
+ },
+ "law holds to 1e-30 by sign": {
+  "1": false,
+  "-1": true
+ },
+ "rows": [
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    1
+   ],
+   "psi2 sign": 1,
+   "sector": "up",
+   "c": 6,
+   "tau-dependence": 3.1212644203969907e-59,
+   "law error": 2.019107434160239e-59
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    1
+   ],
+   "psi2 sign": 1,
+   "sector": "down",
+   "c": 6,
+   "tau-dependence": 4.086779027273321e-59,
+   "law error": 5.175939064878002e-60
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    1
+   ],
+   "psi2 sign": 1,
+   "sector": "leptons",
+   "c": 6,
+   "tau-dependence": 9.470235083462424e-60,
+   "law error": 1.5907939622200702e-59
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    2
+   ],
+   "psi2 sign": 1,
+   "sector": "up",
+   "c": 6,
+   "tau-dependence": 4.095689986120513e-59,
+   "law error": 3.4163592834961096e-60
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    2
+   ],
+   "psi2 sign": 1,
+   "sector": "down",
+   "c": 6,
+   "tau-dependence": 3.0111071601471834e-59,
+   "law error": 2.2251721129055284e-59
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    2
+   ],
+   "psi2 sign": 1,
+   "sector": "leptons",
+   "c": 6,
+   "tau-dependence": 9.490730270889009e-60,
+   "law error": 1.5862951328270418e-59
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    1
+   ],
+   "psi2 sign": -1,
+   "sector": "up",
+   "c": 6,
+   "tau-dependence": 3.1212644203969907e-59,
+   "law error": 2.019107434160239e-59
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    1
+   ],
+   "psi2 sign": -1,
+   "sector": "down",
+   "c": 6,
+   "tau-dependence": 4.086779027273321e-59,
+   "law error": 5.175939064878002e-60
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    1
+   ],
+   "psi2 sign": -1,
+   "sector": "leptons",
+   "c": 6,
+   "tau-dependence": 9.470235083462424e-60,
+   "law error": 1.5907939622200702e-59
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    2
+   ],
+   "psi2 sign": -1,
+   "sector": "up",
+   "c": 6,
+   "tau-dependence": 4.095689986120513e-59,
+   "law error": 3.4163592834961096e-60
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    2
+   ],
+   "psi2 sign": -1,
+   "sector": "down",
+   "c": 6,
+   "tau-dependence": 3.0111071601471834e-59,
+   "law error": 2.2251721129055284e-59
+  },
+  {
+   "thread": "LLRLLRRLRR",
+   "N": 9,
+   "line (a, b)": [
+    0,
+    2
+   ],
+   "psi2 sign": -1,
+   "sector": "leptons",
+   "c": 6,
+   "tau-dependence": 9.490730270889009e-60,
+   "law error": 1.5862951328270418e-59
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    1,
+    10
+   ],
+   "psi2 sign": 1,
+   "sector": "up",
+   "c": 0,
+   "tau-dependence": 0.7860442892093297,
+   "law error": 0.15797519827800074
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    1,
+    10
+   ],
+   "psi2 sign": 1,
+   "sector": "down",
+   "c": 0,
+   "tau-dependence": 0.6064802995492234,
+   "law error": 1.4186844501399787
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    1,
+    10
+   ],
+   "psi2 sign": 1,
+   "sector": "leptons",
+   "c": 0,
+   "tau-dependence": 1.2152762494157667,
+   "law error": 1.6076204512726155
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    2,
+    9
+   ],
+   "psi2 sign": 1,
+   "sector": "up",
+   "c": 0,
+   "tau-dependence": 0.42861216241362715,
+   "law error": 1.061141681636787
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    2,
+    9
+   ],
+   "psi2 sign": 1,
+   "sector": "down",
+   "c": 0,
+   "tau-dependence": 0.21661782318836584,
+   "law error": 1.8528330164550157
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    2,
+    9
+   ],
+   "psi2 sign": 1,
+   "sector": "leptons",
+   "c": 0,
+   "tau-dependence": 0.3715922975414476,
+   "law error": 0.6024034897271304
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    1,
+    10
+   ],
+   "psi2 sign": -1,
+   "sector": "up",
+   "c": 0,
+   "tau-dependence": 4.356783011787504e-59,
+   "law error": 4.284103673808753e-59
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    1,
+    10
+   ],
+   "psi2 sign": -1,
+   "sector": "down",
+   "c": 0,
+   "tau-dependence": 3.8436159700213773e-59,
+   "law error": 2.3826472598349e-59
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    1,
+    10
+   ],
+   "psi2 sign": -1,
+   "sector": "leptons",
+   "c": 0,
+   "tau-dependence": 4.633165210557223e-59,
+   "law error": 4.113681992863589e-59
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    2,
+    9
+   ],
+   "psi2 sign": -1,
+   "sector": "up",
+   "c": 0,
+   "tau-dependence": 5.638966301522156e-59,
+   "law error": 2.0625989697662967e-59
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    2,
+    9
+   ],
+   "psi2 sign": -1,
+   "sector": "down",
+   "c": 0,
+   "tau-dependence": 6.478004336290754e-59,
+   "law error": 6.995101091744055e-59
+  },
+  {
+   "thread": "LLLLRLRRRLRR",
+   "N": 11,
+   "line (a, b)": [
+    2,
+    9
+   ],
+   "psi2 sign": -1,
+   "sector": "leptons",
+   "c": 0,
+   "tau-dependence": 5.789384728996081e-59,
+   "law error": 2.751051624599817e-59
+  }
+ ]
+}
