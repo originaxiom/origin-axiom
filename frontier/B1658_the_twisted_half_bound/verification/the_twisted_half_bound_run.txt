@@ -1,0 +1,10 @@
+T0 HOLDS
+T1 HOLDS
+T2 HOLDS
+T2b HOLDS
+T3 HOLDS
+T5 HOLDS
+T4 census (t + 1/t): {'up/down': (5.08, 2.3), 'up/lep': (15.92, 27.0), 'down/lep': (3.13, -3.2)} refuted at 3 sigma: True
+seconds 12.4
+python3 -B the_twisted_half_bound.py  11.74s user 1.59s system 61% cpu 21.556 total
+exit 0

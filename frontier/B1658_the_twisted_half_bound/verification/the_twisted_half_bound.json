@@ -1,0 +1,99 @@
+{
+ "T0": {
+  "R1_rel_vs_B1656_stored": 0.0,
+  "null_residues_max": 1.9480044598946776e-16,
+  "void": false
+ },
+ "seconds": 12.4,
+ "T1": {
+  "adj_over_detS_free_of_S": true,
+  "A_equals_qtilde_ptilde_T": true,
+  "row_form_norm_identity": "0",
+  "numeric_normA_over_detS_M2": [
+   1.9999999999999991,
+   2.0000000000000013
+  ],
+  "holds": true
+ },
+ "T2": {
+  "symbolic_norm_law_residual": "0",
+  "numeric_max_residual": 3.552713678800501e-15,
+  "range_sampled": [
+   1.0822355651973885,
+   3.9002515596105396
+  ],
+  "attained_min": 1.0,
+  "attained_max": 4.0,
+  "holds": true
+ },
+ "T2b": {
+  "null_M_gram_spectrum_dev_max": 5.329070518200751e-15,
+  "control_nonnull_dev_min": 0.02148626785905705,
+  "holds": true
+ },
+ "T3": {
+  "identity_max": 2.220446049250313e-15,
+  "m1_max": 4.715871341734203e-16,
+  "k_rel_err_max": 6.977574204203307e-06,
+  "k_range": [
+   0.5122538182285731,
+   1.889187716123765
+  ],
+  "null_max": 4.2143251986043726e-16,
+  "holds": true
+ },
+ "T4": {
+  "m2_over_m3_at_MZ": {
+   "up": [
+    0.0036847735647212647,
+    0.00010236041791780788
+   ],
+   "down": [
+    0.018724903134906656,
+    0.001632841116390635
+   ],
+   "lep": [
+    0.05887328180682186,
+    1.6370469323384996e-05
+   ]
+  },
+  "pairs_t_plus_1_over_t": {
+   "up/down": {
+    "ratio": 5.079984941721298,
+    "ratio_two_sided": 5.079984941721298,
+    "sigma": 0.4646202537095133,
+    "z_above_4": 2.324446541231753
+   },
+   "up/lep": {
+    "ratio": 15.922477646249607,
+    "ratio_two_sided": 15.922477646249607,
+    "sigma": 0.4423250725784377,
+    "z_above_4": 26.954107703527004
+   },
+   "down/lep": {
+    "ratio": 3.1343552843002023,
+    "ratio_two_sided": 3.1343552843002023,
+    "sigma": 0.2731305033872429,
+    "z_above_4": -3.169344708717838
+   }
+  },
+  "refuted_at_3sigma": true
+ },
+ "T5": {
+  "fitted_m2_over_m3": {
+   "up": 0.0036847735647212634,
+   "down": 0.018724903134906642,
+   "lep": 0.058873281806821845
+  },
+  "census_on_three_higgs_fit_refutes": true,
+  "synthetic_one_higgs_ratios": {
+   "up/down": 1.7884918922045308,
+   "up/lep": 1.0893309407565264,
+   "down/lep": 1.6418260285184278
+  },
+  "synthetic_one_higgs_refuted": false,
+  "control_outside_bound_x6_refuted": true,
+  "control_inside_bound_3_9_refuted": false,
+  "holds": true
+ }
+}
