@@ -1,5 +1,20 @@
 # Changelog
 
+## W90: one Higgs, three sectors (B1657's two vacuum laws with one shared Higgs defect fit no assignment of the sectors; relay §123)
+
+- **The order.** The rule (b6d0f8e74) came before the script (29d0218cc), followed by one run whose output
+  (0203a8132) was committed unread. Every cell held as predicted. It is a scoreboard, not a blind test: the hand
+  work at central values was disclosed in the rule.
+- **The result.** The Higgs's defect A is shared by every sector, while the matter's defects, every phase, τ, L and
+  the line are left free. None of the 8 assignments of B1657's two vacua to the three sectors has a common A, at 2σ
+  or at 3σ.
+- **The pairs.** The down quarks and the leptons survive only at A = m_μ/m_τ (down parallel, leptons conjugate). The
+  up and down quarks survive only at A ≈ 0.015 to 0.019. The up quarks and the leptons share no A at 2σ.
+- **What it asks.** Either the Higgs sits near neither symmetric vacuum, or its defect is twisted by the sector, or
+  the laws change with the twist. The Higgs's twisted defect per sector is named as the next computation.
+- **Surfaces.** The weave dossier's NOTE (section, bullet, table row, files), the state page, relay §123, the ledger,
+  a test that recomputes the sector sets, and the regeneration list. 0 of 19.
+
 ## Two defects, three masses: main's B1657 read as two wholes (a reading; relay §122)
 
 - **Main's B1657** (the symmetric point; S0–S5 hold) was read and its parallel law checked in scratch.

@@ -286,6 +286,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   every cell as predicted; it agrees with main's run): at τ = ω on W59's 18 lines, c_i = c_j = c_k to 4 × 10⁻¹⁴, with
   one gap c₁ − c_⊥ = −5.806896 everywhere. The leptons' R₁ vanishes (2 × 10⁻⁵⁹), so the electron stays massless; the
   quarks are lifted, in exactly three classes. Both of B1656's controls bite.
+- W90 (one Higgs, three sectors; rule first; one run; every cell as predicted; a scoreboard, not blind): B1657's two
+  vacuum laws with one Higgs defect shared by every sector fit no assignment of the vacua to the three sectors, at 2σ or
+  3σ, whatever τ, L, the line, the matter's end conditions or the phases. The down quarks and the leptons ask for
+  A = m_μ/m_τ, and the up and down quarks for A ≈ 0.015 to 0.019.
 
 ## The setting
 
@@ -7431,6 +7435,67 @@ changed). Main's cells E0–E6 all hold. Where the two instruments overlap they 
 - the leptons' D is 5 × 10⁻¹³ on main and 1 × 10⁻¹⁴ here, both zero;
 - the controls are 3.0811026765 and 2.9210470354, identical.
 
+## W90. One Higgs, three sectors: B1657's two vacuum laws with one Higgs defect shared by every sector cannot reproduce the data's mass ratios, in any assignment of the vacua, whatever τ, L, the line, the matter's end conditions or the phases (`the_one_higgs_census.py`; `W90_RULE.md`)
+
+**Why.** Main's B1657 found two laws near τ = ω.
+- In the conjugate vacuum the light masses over the heavy are the isotropy defects |d_a| and |d_v|.
+- In the parallel vacuum they are |d_a + d_v|/4 and |d_a d_v|/4.
+
+The reading "two defects, three masses" left one number per sector. But the Higgs is one field, so its defect's
+modulus A = |d_a| is shared by every sector; the up quarks couple to its conjugate, with the same modulus. This arc
+asks whether any assignment of the two vacua to the three sectors admits one A that fits the data. The matter's
+defects and every phase are left free.
+
+**Weave or thread.** Weave-type: every sector jointly under one rule, the shared Higgs's defect defined by the joint
+coupling, and a claim about all sectors at once. It is given Λ, the dictionary's sectors and the rule's premises:
+- P1, each sector obeys one of B1657's laws at first order (B1657 derived them untwisted, so this is a premise);
+- P2, one Higgs;
+- P3, the matter's defects and the phases free.
+
+**The order.**
+- The rule (`W90_RULE.md`, b6d0f8e74) was committed before the script. It discloses the seat's hand work at central
+  values, done in conversation before the rule, so this is a scoreboard, not a blind test.
+- The script was committed at 29d0218cc. The sector sets are computed in closed form and on a 2 × 10⁶-point log grid,
+  and the census covers the 8 three-sector and 12 pair assignments at 0, 2 and 3σ.
+- A first invocation failed before the script started (the system's timing command is absent here) and wrote
+  nothing. Then one run (1.8 s, exit 0). The output was committed unread at 0203a8132.
+
+**The cells (each as predicted).**
+
+| cell | found |
+|---|---|
+| H1, the sector sets (k = 0) | parallel: up [0.00177, 0.00236] ∪ [0.01238, 0.01651], down [0.03441, 0.10931], leptons [0.00465, 0.00485] ∪ [0.23065, 0.24015]; conjugate: A = m₂/m₃ or m₁/m₃; the grid agrees with the closed form to its step (9 × 10⁻⁶) |
+| H2, one Higgs, three sectors | at 2σ none of the 8 assignments has a common A |
+| H3, up and leptons | at 2σ no common A in any of their 4 assignments |
+| H4, down and leptons | at 2σ only down parallel with leptons conjugate survives, at A = m_μ/m_τ = 0.05887 (the set [0.05883, 0.05892]) |
+| H5, up and down | at 2σ only up parallel with down conjugate survives, at A in [0.0152, 0.0179] |
+
+**The read-outs.**
+- **At 3σ the verdict stands.** No assignment of the three sectors survives.
+  - Up and down still survive only as up parallel with down conjugate, at A in [0.00083, 0.00117] ∪ [0.0135, 0.0186].
+  - Down and leptons still survive only as down parallel with leptons conjugate, at A = m_μ/m_τ.
+  - Up and leptons gain one assignment at 3σ (both parallel, at A in [0.00463, 0.00487]). It does not meet the other
+    two pairs' sets.
+- **The tension is between two numbers.** The down quarks and the leptons, which share the Higgs in the Standard
+  Model, ask for A = m_μ/m_τ ≈ 0.059. The up and down quarks ask for A ≈ 0.015 to 0.019. These differ by a factor of
+  about 3.5, far outside the bands.
+
+**What it shows.**
+- **Near B1657's symmetric vacua, one Higgs cannot give the three sectors' mass ratios.** That holds at first order in
+  the defects, whatever τ, L, the line, the matter's end conditions and every phase. It is one more breaking-free
+  relation refuted, added to W88's scoreboard.
+- **So one of the premises must go.**
+  - The Higgs sits near neither symmetric vacuum.
+  - Or the sectors see different Higgs defects. That would mean the Higgs's direction is itself twisted by the
+    sector's hypercharge line, as the matter's residues are (B1656's ū is the Higgs's charge times w).
+  - Or the laws change at the twisted sectors (premise P1).
+- **The map's next step.** Compute the Higgs's defect per sector in B1656's twisted frame, where up's ū is −3w and
+  the down quarks' and the leptons' is +3w. Then the down quarks and the leptons still share one twisted Higgs defect,
+  and H4's surviving assignment is the pair's only one.
+
+**Status.** COMPUTED, every cell as predicted; the rule first; one run; a scoreboard, not blind. Weave-type, given
+the stated premises. 0 of 19.
+
 ## Reading: two defects, three masses: B1657's parallel vacuum read as two wholes (READING, by hand; 2026-10-15, after main's B1657)
 
 **Why.** Main sealed and ran B1657, "the symmetric point" (d4dcd0d50, ab392d4da; S0–S5 hold). It found two laws near
@@ -7842,6 +7907,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W87 | COMPUTED (the rule first, its exploration disclosed; one run; every cell as predicted); a WEAVE result given Λ, P1 and P2, at main's suggestion | B1654's section 1 on this seat's code: c_r = −2π ln((π/2)\|θ_r(0)\|²) (Parseval; three routes to 10⁻⁵⁹ and 10⁻¹⁴); D = −θ₃⁴h(λ)/(4πη⁶), zero exactly on ω's orbit, (π/2) ln 2 at i, the cusp law with its next order; every channel-blind end condition lifts the first generation with D's shape, none at ω; the cutoff-free family is e^{βx}, P4′ its β = 0; C0's covariance does not choose P4′, its "numbers" sentence chooses the family; post hoc, the slope at ω is (π²√3/6)\|θ₃(ω)\|⁴ in every direction. 0 of 19 |
 | W88 | COMPUTED (the rule first; one run; six cells as predicted; Q3 failed as worded on its instrument); a scoreboard of the record's breaking-free relations against the data | refuted: point couplings (first-generation ratios ≥ 5.9σ from 0; \|V_us\| 331σ), one coupling (Σz² = 218), lines of order dividing 6 (676) and 4 (172), W84's cusp ratio 3/2 (57; down alone z = 1.5); the line orders left {5, 7, 8, 9, 10, 11, 12}; J could not be separated from 0 by four independent moduli, the direct datum owed. 0 of 19 |
 | W89 | COMPUTED (the rule first; one run, blind to main's (its output was timestamped earlier; not read); every cell as predicted); a check of main's B1656 on this seat's own code, weave-type given the stated premises | at τ = ω on W59's 18 lines: the arithmetic exact; c_i = c_j = c_k to 4 × 10⁻¹⁴, gap −5.806896 everywhere; the leptons' R₁ ≤ 2 × 10⁻⁵⁹ and D ≤ 10⁻¹⁴ (the electron massless), the quarks lifted in three classes 1.0312, 2.4629, 2.7416; controls 3.081 and 2.921 (perp split 25.4); agrees with main's run (gap, classes, controls identical). 0 of 19 |
+| W90 | COMPUTED (the rule first; one run; every cell as predicted; a scoreboard, not blind); weave-type given B1657's laws carried to the sectors, one Higgs, and free matter defects and phases | B1657's two vacuum laws with one shared Higgs defect: no assignment of the vacua to the three sectors survives at 2σ or 3σ; up and leptons share no A at 2σ; down and leptons survive only as (parallel, conjugate) at A = m_μ/m_τ; up and down only as (parallel, conjugate) at A in [0.0152, 0.0179]. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -7920,6 +7986,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
+- `W90_RULE.md`: the rule, committed before the code, with the seat's hand work at central values disclosed; `the_one_higgs_census.py` → `the_one_higgs_census.json`: W90, B1657's two vacuum laws with one shared Higgs defect against HZ2021's mass ratios (the sector sets in closed form and on a log grid; the census of every three-sector and pair assignment at 0, 2 and 3σ).
 - `W89_RULE.md`: the rule, committed before the code, with main's disclosed values and this seat's exploration disclosed; `the_electrons_zero_checked.py` → `the_electrons_zero_checked.json`: W89, main's B1656 cells on this seat's own code (exact arithmetic, twisted norms by polar quadrature, residues at 60 digits, the controls).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).

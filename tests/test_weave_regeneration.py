@@ -22,7 +22,7 @@ FAST = ["the_mixing_patterns_verified", "the_couplings_verified", "the_couplings
         "the_free_numbers_counted_posthoc", "the_gauge_side_and_the_sectors",
         "the_field_of_maximality", "the_level_four_preprint_checked", "the_level_four_preprint_checked_posthoc",
         "the_quark_sector_and_the_line_posthoc",
-        "the_couplings_at_the_selected_state"]
+        "the_couplings_at_the_selected_state", "the_one_higgs_census"]
 
 
 def close(a, b):

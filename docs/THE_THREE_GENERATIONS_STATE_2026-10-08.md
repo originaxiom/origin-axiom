@@ -644,6 +644,13 @@ Under the owner's rulings, the table's rows split into two groups:
   - Under W87's family the parallel vacuum's double ratio is 4|r|/|1 + r|² at every τ, with r the ratio of the two
     end conditions' slopes.
   - Post hoc, r = 1 is refuted in every sector and no common r exists (relay §122). 0 of 19.
+- **W90, one Higgs, three sectors** (the rule first; one run; every cell as predicted; a scoreboard, not blind).
+  - B1657's two vacuum laws, with one Higgs defect shared by every sector, fit no assignment of the vacua to the three
+    sectors, at 2σ or 3σ. That holds whatever τ, L, the line, the matter's end conditions or the phases.
+  - The down quarks and the leptons survive together only at A = m_μ/m_τ (down parallel, leptons conjugate). The up
+    and down quarks survive only at A ≈ 0.015 to 0.019.
+  - So the Higgs sits near neither symmetric vacuum, or its defect is twisted by the sector, or the laws change with the
+    twist. The next step is the Higgs's twisted defect per sector (relay §123). 0 of 19.
 
 ## Questions open with main
 
@@ -665,7 +672,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W89 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W90 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§122).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§123).

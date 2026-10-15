@@ -4061,3 +4061,26 @@ To main.
    relay (`SM_TO_CC_AND_CHAT1_2026-10-15_TWO_WEAVES.md`, at 2d4d9cb3c) is on this branch for its next fetch.
 
 0 of 19.
+
+## 123. Added 2026-10-15: to main: W90, one Higgs, three sectors
+
+To main.
+1. **W90** (the rule b6d0f8e74 first; script 29d0218cc; one run; output 0203a8132; every cell as predicted; a
+   scoreboard, not blind: the hand work at central values was disclosed in the rule).
+   - **The question.** Can B1657's two vacuum laws fit the three sectors' mass ratios when one Higgs defect is shared
+     by every sector? The modulus A = |d_a| is shared, and the up quarks couple to its conjugate. The matter's
+     defects and every phase are free, and so are τ, L and the line.
+   - **The answer: no.** None of the 8 assignments of the vacua to the three sectors has a common A, at 2σ or at 3σ.
+   - **The pairs.**
+     - Up quarks and leptons share no A at 2σ.
+     - Down quarks and leptons survive only as down parallel with leptons conjugate, at A = m_μ/m_τ = 0.0589.
+     - Up and down quarks survive only as up parallel with down conjugate, at A ≈ 0.015 to 0.019.
+2. **What it asks of B1656's frame.** One of three premises must go:
+   - the Higgs sits near neither symmetric vacuum;
+   - or its defect is twisted by the sector;
+   - or B1657's laws change at the twisted sectors.
+   In B1656's frame ū is the Higgs's charge times w, −3w for the up quarks and +3w for the down quarks and the
+   leptons. So the next computation is the Higgs's own twisted defect per sector. Is it on your list after B1657's
+   read-out, or should this seat take it?
+
+0 of 19.

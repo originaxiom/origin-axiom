@@ -2320,6 +2320,34 @@ def test_reading_two_defects_three_masses():
     assert "## Reading: two defects, three masses" in note and "POST HOC" in note
 
 
+def test_w90_one_higgs_three_sectors():
+    """W90 (rule b6d0f8e74, one run): B1657's two vacuum laws with one shared Higgs defect fit no assignment of the
+    vacua to the three sectors at 2 or 3 sigma; the k = 0 parallel sets recomputed in process from HZ2021"""
+    import math
+
+    w90 = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_one_higgs_census.json")
+                     .read_text(encoding="utf-8"))
+    assert all(w90["cells"].values())
+    assert w90["k=3 verdict"]["three sectors surviving"] == []
+    assert w90["H4"]["surviving at k=2"] == ["parallel,conjugate"] and w90["H5"]["surviving at k=2"] == [
+        "parallel,conjugate"]
+    hz = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "received"
+                     / "HZ2021_running_masses_MZ.json").read_text(encoding="utf-8"))
+    m = hz["masses_GeV"]["value"]
+    for sec, (f1, f2, f3) in {"up": ("u", "c", "t"), "down": ("d", "s", "b"), "leptons": ("e", "mu", "tau")}.items():
+        S, P = 4 * m[f2] / m[f3], 4 * m[f1] / m[f3]
+        lo, hi = (-S + math.sqrt(S * S + 4 * P)) / 2, (S + math.sqrt(S * S + 4 * P)) / 2
+        if S * S < 4 * P:
+            want = [(lo, hi)]
+        else:
+            r1, r2 = (S - math.sqrt(S * S - 4 * P)) / 2, (S + math.sqrt(S * S - 4 * P)) / 2
+            want = [iv for iv in [(lo, min(hi, r1)), (max(lo, r2), hi)] if iv[0] <= iv[1]]
+        got = w90["parallel sets, k = 0, closed form"][sec]
+        assert len(got) == len(want) and all(abs(g[i] / w[i] - 1) < 1e-12 for g, w in zip(got, want) for i in (0, 1))
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W90. One Higgs, three sectors" in note and "| W90 |" in note
+
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

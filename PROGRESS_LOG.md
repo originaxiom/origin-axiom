@@ -19282,3 +19282,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   number, wherever τ sits.
 - **Checked afterwards against the measured masses,** the simplest version fails in every sector, and no single
   number fits the up quarks, the down quarks and the leptons together. That is one more option excluded. 0 of 19.
+
+## 2026-10-15 — one Higgs cannot do it near the symmetric point
+
+- **The question.** Main's latest result gives each family of particles its masses from two small numbers: one
+  belongs to the Higgs and one to the matter. There is only one Higgs, so its number must be the same for the up
+  quarks, the down quarks and the leptons. The seat asked whether any arrangement then fits the measured masses.
+- **The answer is no,** whatever the other unknowns are. The down quarks and the leptons want the Higgs's number to
+  be about 0.059. The up and down quarks want about 0.017. These do not overlap even with generous error bars.
+- **What follows.** The Higgs must sit away from that symmetric point, or it must look different to each family. The
+  second is what the record's hypercharge twist would do, and computing it is the next step. 0 of 19.
