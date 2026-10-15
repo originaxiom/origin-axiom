@@ -4,7 +4,8 @@ October15 bounded gauge-type joint:4407/4407 exact,18pins/tree/index
 unchanged at published repair02fddebb0. Actual compact invariant g2+u1
 for fixed based lifts/ALL commuting weak corrections; centre1/ranks3/2,
 complete signed bracket tensor/Killing/root strings retained. First
-instrument failure archived, live regression pending at checkpoint.
+instrument failure archived, later16 live PASS127.29s in three files;
+not full suite, validation-snapshot timing caveat retained.
 Not physical three or a whole-architecture exclusion. Primary NEXT
 actual projected mode transport/full real-parent domain and SAME-action
 stationary normalized vertices/ends/anomalies. SM+gravity ACTIVE.

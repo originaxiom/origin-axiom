@@ -54,7 +54,7 @@ opposite-root form fails an actual simple-root invariance equation.
 
 The Cartan is self-centralizing of dimension3, with derived rank2.
 Actual Cartan eigenvectors give six long roots of squared length2 and
-six short roots of length2/3. Their Cartan is [[2,-3],[-1,2]], with
+six short roots of squared length2/3. Their Cartan is [[2,-3],[-1,2]], with
 actual three-step and reverse one-step bracket strings. Therefore the
 compact algebra is g2+u1. Colour8 and mixed6 make the g2 together;
 the mixed directions are not optional spectators. The complete signed
@@ -83,3 +83,12 @@ At this science checkpoint, the new live tests/selected antecedent
 regression are still NEXT; full-suite/main/outside acceptance and
 inherited governance debts remain. A matching finite record is not
 a green whole-repository or physical-completion certificate.
+
+## Later verification addendum
+
+The three-file LIVE regression now passes16 tests in127.29 seconds,
+including rerunning both entire bracket engines. See VALIDATION.md for
+the unchanged18 pins, validation snapshots, their timing caveat and
+the26-pass/four-inherited-failure governance capture. This supersedes
+the checkpoint's regression-pending status only. No new physical index,
+selection or full-suite/outside acceptance is added.

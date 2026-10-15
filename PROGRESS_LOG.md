@@ -19469,3 +19469,13 @@ uncomputed, not disproved-three. Primary next actual projected mode/
 full reality-domain map and SAME stationary interactions/norms/ends/
 anomalies; full SM+gravity goal ACTIVE and unachieved. Sender relay
 dual-homed on this branch, no foreign branch edits or shared arc number.
+
+Later same-checkpoint verification:16 live tests PASS127.29s in three
+files, rerunning both bracket engines;18pins and validation state
+snapshots agree. The nominal before-snapshot completion was collected
+after regression began: no full pre-launch timing certificate is claimed.
+No edits during checks, tracked tree checked clean; original science
+has its separate correctly sequenced pre-run guard. Raw logs/receipts
+and VALIDATION preserve this distinction. Governance science checkpoint
+26 PASS/four inherited FAIL, no waiver,152 OPEN relay entries/review537
+due. Physical projected map/domain/interactions/SM/gravity remain owed.

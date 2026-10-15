@@ -1,0 +1,14 @@
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "/Users/dri/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 76.04154799999378,
+  "log_bytes": 2539,
+  "log_sha256": "9d9ed70dad9ee8f67520c1f30d8b2216189ca64ee834f2c2864e2bae62128de0"
+}

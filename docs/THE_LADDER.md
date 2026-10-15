@@ -4,7 +4,8 @@ October15 actual invariant15 is compact g2+u1 in the fixed based E8
 lifts/all commuting weak corrections:4407/4407 exact at repair02fddebb0,
 18pins/tree/index unchanged, complete records agree. Actual225 brackets,
 compact Killing, centre/ranks/root strings, not dimension matching.
-First failure preserved; live regression pending at this checkpoint.
+First failure preserved; later16 live PASS127.29s, not full suite;
+VALIDATION records the snapshot timing caveat.
 Other backgrounds/broken phases not excluded. NEXT actual projected
 transport/full real-parent domain and SAME stationary charged vertices/
 norms/ends/anomalies. Physical index/three and SM+gravity unachieved.

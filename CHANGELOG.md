@@ -7,7 +7,8 @@ exact, complete records identical at published repair02fddebb0,
 18pins/tree/index unchanged. Actual compact g2+u1, not dimension naming;
 first failed equality instrument retained. New proof/source/tests and
 full signed tensor under physical-bridge surface_invariant_brackets.
-Live regression pending at science checkpoint. Full real-parent/domain,
+Later16 live PASS127.29s, not full suite; VALIDATION timing caveat kept.
+Full real-parent/domain,
 projected transport and SAME stationary interactions/SM/three/gravity
 remain active; no universal negative or outside/main acceptance.
 

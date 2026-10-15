@@ -1,0 +1,22 @@
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "PYTHONPATH=/private/tmp/oa-based-gauge-deps-20261014.qwOVR2",
+    "/Users/dri/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_surface_invariant_brackets.py",
+    "tests/test_physical_bridge_surface_based_gauge_outcomes.py",
+    "tests/test_physical_bridge_weave_registered_embedding.py"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 131.4419360000029,
+  "log_bytes": 111,
+  "log_sha256": "06039c1f24485138bfc92b98d8f21f530c70d3cc33d7a2c8ed09c85961276677"
+}

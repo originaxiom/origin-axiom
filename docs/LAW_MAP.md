@@ -3,7 +3,8 @@
 October15 path-local research, no new shared arc or outside acceptance.
 Source physical-bridge surface_invariant_brackets_2026_10_14/PROOF and
 FINDINGS;4407/4407 exact at published repair02fddebb0. Live safeguards
-below are sealed source locks, regression pending at this checkpoint.
+below are sealed source locks; later16 live tests PASS127.29s in three
+files, not full suite. VALIDATION records the snapshot timing caveat.
 
 | Scoped statement | Argument and LIVE safeguard |
 |---|---|

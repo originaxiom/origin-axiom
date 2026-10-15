@@ -31,3 +31,9 @@ or adopted as physics. Thread weights and extra loci remain hypotheses.
 
 At this checkpoint finite science is complete; live regression/full-
 suite/main acceptance remain distinct, not asserted passed here.
+
+Later same-checkpoint addendum:16 LIVE tests now PASS127.29s in three
+files, rerunning BOTH engines. VALIDATION retains the snapshot-timing
+caveat and four inherited governance categories. No outside/full-suite/
+physical acceptance. W49's complete producer has now been read; its
+mode map must still be matched to our actual extension/domain.

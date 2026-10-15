@@ -5,7 +5,8 @@ for the specified based E8 lifts/ALL commuting weak corrections.
 4407/4407 exact at published repair02fddebb0, complete tensors identical,
 18pins/tree/index unchanged. Compact g2+u1, centre1/rank3/derived rank2;
 actual roots/strings/Killing sign. First failed instrument archived.
-LIVE regression pending at this checkpoint. Other backgrounds/broken
+LIVE regression later16 PASS127.29s (three files; VALIDATION timing
+caveat retained). Other backgrounds/broken
 phases not excluded, physical index/three uncomputed. Primary OPEN:
 PB-ACTUAL-PROJECTED-MODE-TRANSPORT and PB-REAL-PARENT-TRACE-DOMAIN,
 then SAME stationary interactions/norms/ends/anomalies. Source:
