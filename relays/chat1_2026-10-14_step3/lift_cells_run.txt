@@ -1,0 +1,308 @@
+/tmp/lift_sm_4smd9skx/frontier/B1538_the_puncture_characters/verification/punct_covers.py:13: SyntaxWarning: invalid escape sequence '\G'
+  - Gamma acts on the right cosets H\Gamma = D (H u <-> ubar for u in F) by
+modules loaded 2.9
+forms built 795.2
+series ready 795.3
+c~ grid built 1007.9
+controls done 1029.1
+LLLLLLLR {'C1': (0.0, True, 'nan'), 'C2/E4': (0.0, False, '1.615'), 'C2/THETA2': (0.0, True, 'nan'), 'C2/ORTH': (0.0, True, 'nan'), 'C3/E4': (0.05401, False, '2.967e+10'), 'C3/THETA2': (0.0, True, '10.12'), 'C3/ORTH': (0.0, True, '25.61')}
+LLLLLLR {'C1': (0.0, True, 'nan'), 'C2/E4': (0.0, True, '0.1031'), 'C2/THETA2': (0.0, True, 'nan'), 'C2/ORTH': (0.0, True, 'nan'), 'C3/E4': (0.00137, False, '1.269e+09'), 'C3/THETA2': (0.0, True, '0.3503'), 'C3/ORTH': (1e-05, True, '0.4741')}
+LLLLLLRR {'C1': (0.0, True, 'nan'), 'C2/E4': (1e-05, True, '0.1157'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.03992, False, '2.784e+08'), 'C3/THETA2': (3e-05, True, '0.1661'), 'C3/ORTH': (5e-05, True, '0.7526')}
+LLLLLR {'C1': (0.0, False, 'nan'), 'C2/E4': (1e-05, True, '0.04279'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.00882, False, '5.252e+07'), 'C3/THETA2': (5e-05, True, '0.5485'), 'C3/ORTH': (7e-05, True, '0.5975')}
+LLLLLRLR {'C1': (0.0, False, 'nan'), 'C2/E4': (3e-05, True, '0.02696'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.05739, False, '3e+07'), 'C3/THETA2': (0.00014, True, '0.4989'), 'C3/ORTH': (0.00022, True, '1.011')}
+LLLLLRR {'C1': (0.0, False, 'nan'), 'C2/E4': (8e-05, True, '0.03174'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.07175, False, '5.707e+06'), 'C3/THETA2': (0.00035, True, '0.5758'), 'C3/ORTH': (0.00051, True, '1.46')}
+LLLLLRRR {'C1': (0.0, False, 'nan'), 'C2/E4': (0.00017, True, '0.0943'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.02089, False, '7.1e+05'), 'C3/THETA2': (0.00061, True, '0.5454'), 'C3/ORTH': (0.00079, True, '1.234')}
+LLLLR {'C1': (0.0, False, 'nan'), 'C2/E4': (0.00015, True, '0.1391'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.05256, False, '2.037e+06'), 'C3/THETA2': (0.00061, True, '0.8553'), 'C3/ORTH': (0.0008, True, '1.396')}
+LLLLRLLR {'C1': (0.0, False, 'nan'), 'C2/E4': (0.00024, True, '0.1076'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.22862, True, '1.633e+06'), 'C3/THETA2': (0.001, True, '0.7516'), 'C3/ORTH': (0.00146, True, '1.693')}
+LLLLRLR {'C1': (1e-05, False, 'nan'), 'C2/E4': (0.00037, True, '0.07867'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (1e-05, False, 'nan'), 'C3/E4': (0.39181, True, '1.248e+06'), 'C3/THETA2': (0.00147, True, '0.8756'), 'C3/ORTH': (0.00238, True, '2.088')}
+LLLLRLRR {'C1': (2e-05, False, 'nan'), 'C2/E4': (0.0008, True, '0.0933'), 'C2/THETA2': (2e-05, False, 'nan'), 'C2/ORTH': (3e-05, False, 'nan'), 'C3/E4': (0.44038, True, '2.795e+05'), 'C3/THETA2': (0.00314, True, '0.9799'), 'C3/ORTH': (0.00509, True, '2.789')}
+LLLLRR {'C1': (2e-05, False, 'nan'), 'C2/E4': (0.00094, True, '0.07788'), 'C2/THETA2': (2e-05, False, 'nan'), 'C2/ORTH': (3e-05, False, 'nan'), 'C3/E4': (0.18508, True, '1.406e+05'), 'C3/THETA2': (0.0037, True, '1.197'), 'C3/ORTH': (0.00547, True, '2.68')}
+LLLLRRLR {'C1': (2e-05, False, 'nan'), 'C2/E4': (0.0008, True, '0.0933'), 'C2/THETA2': (2e-05, False, 'nan'), 'C2/ORTH': (3e-05, False, 'nan'), 'C3/E4': (0.44038, True, '2.795e+05'), 'C3/THETA2': (0.00314, True, '0.9799'), 'C3/ORTH': (0.00509, True, '2.789')}
+LLLLRRR {'C1': (4e-05, False, 'nan'), 'C2/E4': (0.00203, True, '0.09538'), 'C2/THETA2': (7e-05, False, 'nan'), 'C2/ORTH': (0.0001, False, 'nan'), 'C3/E4': (0.09741, True, '2.39e+04'), 'C3/THETA2': (0.00694, True, '1.233'), 'C3/ORTH': (0.00919, True, '2.425')}
+LLLLRRRR {'C1': (5e-05, False, 'nan'), 'C2/E4': (0.00251, True, '0.08657'), 'C2/THETA2': (0.0001, False, 'nan'), 'C2/ORTH': (0.00012, False, 'nan'), 'C3/E4': (0.09243, True, '1.76e+04'), 'C3/THETA2': (0.00857, True, '1.515'), 'C3/ORTH': (0.01067, True, '2.811')}
+LLLR {'C1': (6e-05, False, 'nan'), 'C2/E4': (0.00188, True, '0.3636'), 'C2/THETA2': (7e-05, False, 'nan'), 'C2/ORTH': (0.0001, False, 'nan'), 'C3/E4': (0.32749, True, '6.737e+04'), 'C3/THETA2': (0.00766, True, '1.374'), 'C3/ORTH': (0.01089, True, '3.582')}
+LLLRLLR {'C1': (0.00012, False, 'nan'), 'C2/E4': (0.00293, True, '0.3166'), 'C2/THETA2': (0.00014, False, 'nan'), 'C2/ORTH': (0.00022, False, 'nan'), 'C3/E4': (0.62428, True, '4.101e+04'), 'C3/THETA2': (0.01132, True, '1.256'), 'C3/ORTH': (0.01749, True, '3.911')}
+LLLRLLRR {'C1': (0.00043, False, 'nan'), 'C2/E4': (0.00709, True, '0.3205'), 'C2/THETA2': (0.00057, False, 'nan'), 'C2/ORTH': (0.00092, False, 'nan'), 'C3/E4': (0.62079, True, '8350'), 'C3/THETA2': (0.02532, True, '1.53'), 'C3/ORTH': (0.0408, True, '4.693')}
+LLLRLR {'C1': (0.00023, False, 'nan'), 'C2/E4': (0.00431, True, '0.298'), 'C2/THETA2': (0.00025, False, 'nan'), 'C2/ORTH': (0.00044, False, 'nan'), 'C3/E4': (0.51388, True, '2.178e+04'), 'C3/THETA2': (0.01557, True, '1.31'), 'C3/ORTH': (0.02693, True, '4.599')}
+LLLRLRLR {'C1': (0.00033, False, 'nan'), 'C2/E4': (0.00516, True, '0.2578'), 'C2/THETA2': (0.00033, False, 'nan'), 'C2/ORTH': (0.00062, False, 'nan'), 'C3/E4': (0.25996, True, '1.198e+04'), 'C3/THETA2': (0.01653, True, '0.9867'), 'C3/ORTH': (0.03091, True, '4.129')}
+LLLRLRR {'C1': (0.00073, False, 'nan'), 'C2/E4': (0.00987, True, '0.3214'), 'C2/THETA2': (0.00099, False, 'nan'), 'C2/ORTH': (0.00169, False, 'nan'), 'C3/E4': (0.92757, True, '6132'), 'C3/THETA2': (0.03461, True, '1.72'), 'C3/ORTH': (0.05857, True, '5.732')}
+LLLRLRRR {'C1': (0.00078, False, 'nan'), 'C2/E4': (0.01156, True, '0.3304'), 'C2/THETA2': (0.00131, False, 'nan'), 'C2/ORTH': (0.00204, False, 'nan'), 'C3/E4': (0.59229, True, '3731'), 'C3/THETA2': (0.04355, True, '2.329'), 'C3/ORTH': (0.06768, True, '6.41')}
+LLLRR {'C1': (0.00078, False, 'nan'), 'C2/E4': (0.01151, True, '0.371'), 'C2/THETA2': (0.00131, False, 'nan'), 'C2/ORTH': (0.00205, False, 'nan'), 'C3/E4': (0.53732, True, '3390'), 'C3/THETA2': (0.04186, True, '2.103'), 'C3/ORTH': (0.06508, True, '5.525')}
+LLLRRLLR {'C1': (0.00043, False, 'nan'), 'C2/E4': (0.00709, True, '0.3205'), 'C2/THETA2': (0.00057, False, 'nan'), 'C2/ORTH': (0.00092, False, 'nan'), 'C3/E4': (0.62079, True, '8350'), 'C3/THETA2': (0.02532, True, '1.53'), 'C3/ORTH': (0.0408, True, '4.693')}
+LLLRRLR {'C1': (0.00073, False, 'nan'), 'C2/E4': (0.00987, True, '0.3214'), 'C2/THETA2': (0.00099, False, 'nan'), 'C2/ORTH': (0.00169, False, 'nan'), 'C3/E4': (0.92757, True, '6132'), 'C3/THETA2': (0.03461, True, '1.72'), 'C3/ORTH': (0.05857, True, '5.732')}
+LLLRRLRR {'C1': (0.00199, False, 'nan'), 'C2/E4': (0.01963, True, '0.3418'), 'C2/THETA2': (0.0032, False, 'nan'), 'C2/ORTH': (0.0052, False, 'nan'), 'C3/E4': (0.71696, True, '1559'), 'C3/THETA2': (0.0699, True, '2.208'), 'C3/ORTH': (0.1119, True, '6.662')}
+LLLRRR {'C1': (0.00148, False, 'nan'), 'C2/E4': (0.01933, True, '0.3361'), 'C2/THETA2': (0.00315, False, 'nan'), 'C2/ORTH': (0.00441, False, 'nan'), 'C3/E4': (0.39618, True, '1167'), 'C3/THETA2': (0.07109, True, '2.944'), 'C3/ORTH': (0.09933, True, '6.22')}
+LLLRRRLR {'C1': (0.00078, False, 'nan'), 'C2/E4': (0.01156, True, '0.3304'), 'C2/THETA2': (0.00131, False, 'nan'), 'C2/ORTH': (0.00204, False, 'nan'), 'C3/E4': (0.59229, True, '3731'), 'C3/THETA2': (0.04355, True, '2.329'), 'C3/ORTH': (0.06768, True, '6.41')}
+LLLRRRR {'C1': (4e-05, False, 'nan'), 'C2/E4': (0.00203, True, '0.09538'), 'C2/THETA2': (7e-05, False, 'nan'), 'C2/ORTH': (0.0001, False, 'nan'), 'C3/E4': (0.09741, True, '2.39e+04'), 'C3/THETA2': (0.00694, True, '1.233'), 'C3/ORTH': (0.00919, True, '2.425')}
+LLLRRRRR {'C1': (0.0, False, 'nan'), 'C2/E4': (0.00017, True, '0.0943'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.02089, False, '7.1e+05'), 'C3/THETA2': (0.00061, True, '0.5454'), 'C3/ORTH': (0.00079, True, '1.234')}
+LLR {'C1': (0.00339, False, 'nan'), 'C2/E4': (0.028, True, '0.4256'), 'C2/THETA2': (0.00573, False, 'nan'), 'C2/ORTH': (0.00986, False, 'nan'), 'C3/E4': (0.62942, True, '1032'), 'C3/THETA2': (0.10218, True, '2.544'), 'C3/ORTH': (0.16227, True, '10.09')}
+LLRLLRLR {'C1': (0.00662, False, 'nan'), 'C2/E4': (0.04076, True, '0.3973'), 'C2/THETA2': (0.01056, False, 'nan'), 'C2/ORTH': (0.01994, False, 'nan'), 'C3/E4': (0.37741, True, '462.8'), 'C3/THETA2': (0.12296, True, '2.141'), 'C3/ORTH': (0.18336, True, '9.249')}
+LLRLLRR {'C1': (0.01428, False, 'nan'), 'C2/E4': (0.06931, True, '0.5199'), 'C2/THETA2': (0.02663, False, 'nan'), 'C2/ORTH': (0.0468, False, 'nan'), 'C3/E4': (0.62159, True, '210.2'), 'C3/THETA2': (0.21778, True, '3.241'), 'C3/ORTH': (0.29179, True, '10.6')}
+LLRLLRRR {'C1': (0.00199, False, 'nan'), 'C2/E4': (0.01963, True, '0.3418'), 'C2/THETA2': (0.0032, False, 'nan'), 'C2/ORTH': (0.0052, False, 'nan'), 'C3/E4': (0.71696, True, '1559'), 'C3/THETA2': (0.0699, True, '2.208'), 'C3/ORTH': (0.1119, True, '6.662')}
+LLRLR {'C1': (0.01181, False, 'nan'), 'C2/E4': (0.0568, True, '0.3826'), 'C2/THETA2': (0.0184, False, 'nan'), 'C2/ORTH': (0.03664, False, 'nan'), 'C3/E4': (0.26698, True, '242.8'), 'C3/THETA2': (0.13763, True, '1.678'), 'C3/ORTH': (0.17344, True, '7.227')}
+LLRLRLR {'C1': (0.01763, False, 'nan'), 'C2/E4': (0.06991, True, '0.3398'), 'C2/THETA2': (0.02607, False, 'nan'), 'C2/ORTH': (0.05453, False, 'nan'), 'C3/E4': (0.18145, True, '157.4'), 'C3/THETA2': (0.1293, True, '0.9014'), 'C3/ORTH': (0.13693, True, '4.115')}
+LLRLRLRR {'C1': (0.03101, False, 'nan'), 'C2/E4': (0.10582, True, '0.4441'), 'C2/THETA2': (0.05376, False, 'nan'), 'C2/ORTH': (0.10635, False, 'nan'), 'C3/E4': (0.30203, True, '87.03'), 'C3/THETA2': (0.20593, True, '2.342'), 'C3/ORTH': (0.18834, True, '7.786')}
+LLRLRR {'C1': (0.02675, False, 'nan'), 'C2/E4': (0.09962, True, '0.523'), 'C2/THETA2': (0.04889, False, 'nan'), 'C2/ORTH': (0.09211, False, 'nan'), 'C3/E4': (0.40692, True, '102.9'), 'C3/THETA2': (0.23465, True, '2.916'), 'C3/ORTH': (0.24066, True, '9.256')}
+LLRLRRLR {'C1': (0.01511, False, 'nan'), 'C2/E4': (0.06808, True, '0.462'), 'C2/THETA2': (0.02516, False, 'nan'), 'C2/ORTH': (0.04914, False, 'nan'), 'C3/E4': (0.31485, True, '188.2'), 'C3/THETA2': (0.16364, True, '2.001'), 'C3/ORTH': (0.195, True, '7.669')}
+LLRLRRR {'C1': (0.00073, False, 'nan'), 'C2/E4': (0.00987, True, '0.3214'), 'C2/THETA2': (0.00099, False, 'nan'), 'C2/ORTH': (0.00169, False, 'nan'), 'C3/E4': (0.92757, True, '6132'), 'C3/THETA2': (0.03461, True, '1.72'), 'C3/ORTH': (0.05857, True, '5.732')}
+LLRLRRRR {'C1': (2e-05, False, 'nan'), 'C2/E4': (0.0008, True, '0.0933'), 'C2/THETA2': (2e-05, False, 'nan'), 'C2/ORTH': (3e-05, False, 'nan'), 'C3/E4': (0.44038, True, '2.795e+05'), 'C3/THETA2': (0.00314, True, '0.9799'), 'C3/ORTH': (0.00509, True, '2.789')}
+LLRR {'C1': (0.03574, False, 'nan'), 'C2/E4': (0.12225, True, '0.6472'), 'C2/THETA2': (0.07156, False, 'nan'), 'C2/ORTH': (0.1255, False, 'nan'), 'C3/E4': (0.55636, True, '76.63'), 'C3/THETA2': (0.30965, True, '3.699'), 'C3/ORTH': (0.31258, True, '9.88')}
+LLRRLR {'C1': (0.02675, False, 'nan'), 'C2/E4': (0.09962, True, '0.523'), 'C2/THETA2': (0.04889, False, 'nan'), 'C2/ORTH': (0.09211, False, 'nan'), 'C3/E4': (0.40692, True, '102.9'), 'C3/THETA2': (0.23465, True, '2.916'), 'C3/ORTH': (0.24066, True, '9.256')}
+LLRRLRLR {'C1': (0.03101, False, 'nan'), 'C2/E4': (0.10582, True, '0.4441'), 'C2/THETA2': (0.05376, False, 'nan'), 'C2/ORTH': (0.10635, False, 'nan'), 'C3/E4': (0.30203, True, '87.03'), 'C3/THETA2': (0.20593, True, '2.342'), 'C3/ORTH': (0.18834, True, '7.786')}
+LLRRLRR {'C1': (0.01428, False, 'nan'), 'C2/E4': (0.06931, True, '0.5199'), 'C2/THETA2': (0.02663, False, 'nan'), 'C2/ORTH': (0.0468, False, 'nan'), 'C3/E4': (0.62159, True, '210.2'), 'C3/THETA2': (0.21778, True, '3.241'), 'C3/ORTH': (0.29179, True, '10.6')}
+LLRRLRRR {'C1': (0.00043, False, 'nan'), 'C2/E4': (0.00709, True, '0.3205'), 'C2/THETA2': (0.00057, False, 'nan'), 'C2/ORTH': (0.00092, False, 'nan'), 'C3/E4': (0.62079, True, '8350'), 'C3/THETA2': (0.02532, True, '1.53'), 'C3/ORTH': (0.0408, True, '4.693')}
+LLRRR {'C1': (0.00078, False, 'nan'), 'C2/E4': (0.01151, True, '0.371'), 'C2/THETA2': (0.00131, False, 'nan'), 'C2/ORTH': (0.00205, False, 'nan'), 'C3/E4': (0.53732, True, '3390'), 'C3/THETA2': (0.04186, True, '2.103'), 'C3/ORTH': (0.06508, True, '5.525')}
+LLRRRLR {'C1': (0.00073, False, 'nan'), 'C2/E4': (0.00987, True, '0.3214'), 'C2/THETA2': (0.00099, False, 'nan'), 'C2/ORTH': (0.00169, False, 'nan'), 'C3/E4': (0.92757, True, '6132'), 'C3/THETA2': (0.03461, True, '1.72'), 'C3/ORTH': (0.05857, True, '5.732')}
+LLRRRLRR {'C1': (0.00043, False, 'nan'), 'C2/E4': (0.00709, True, '0.3205'), 'C2/THETA2': (0.00057, False, 'nan'), 'C2/ORTH': (0.00092, False, 'nan'), 'C3/E4': (0.62079, True, '8350'), 'C3/THETA2': (0.02532, True, '1.53'), 'C3/ORTH': (0.0408, True, '4.693')}
+LLRRRR {'C1': (2e-05, False, 'nan'), 'C2/E4': (0.00094, True, '0.07788'), 'C2/THETA2': (2e-05, False, 'nan'), 'C2/ORTH': (3e-05, False, 'nan'), 'C3/E4': (0.18508, True, '1.406e+05'), 'C3/THETA2': (0.0037, True, '1.197'), 'C3/ORTH': (0.00547, True, '2.68')}
+LLRRRRLR {'C1': (2e-05, False, 'nan'), 'C2/E4': (0.0008, True, '0.0933'), 'C2/THETA2': (2e-05, False, 'nan'), 'C2/ORTH': (3e-05, False, 'nan'), 'C3/E4': (0.44038, True, '2.795e+05'), 'C3/THETA2': (0.00314, True, '0.9799'), 'C3/ORTH': (0.00509, True, '2.789')}
+LLRRRRR {'C1': (0.0, False, 'nan'), 'C2/E4': (8e-05, True, '0.03174'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.07175, False, '5.707e+06'), 'C3/THETA2': (0.00035, True, '0.5758'), 'C3/ORTH': (0.00051, True, '1.46')}
+LLRRRRRR {'C1': (0.0, True, 'nan'), 'C2/E4': (1e-05, True, '0.1158'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.03993, False, '2.784e+08'), 'C3/THETA2': (3e-05, True, '0.1652'), 'C3/ORTH': (5e-05, True, '0.7506')}
+LR {'C1': (0.36877, False, 'nan'), 'C2/E4': (0.48474, True, '0.2258'), 'C2/THETA2': (0.68286, False, 'nan'), 'C2/ORTH': (0.80861, False, 'nan'), 'C3/E4': (0.01843, True, '5.89'), 'C3/THETA2': (0.03332, True, '2.19'), 'C3/ORTH': (0.02151, True, '4.19')}
+LRLRLRR {'C1': (0.01763, False, 'nan'), 'C2/E4': (0.06991, True, '0.3398'), 'C2/THETA2': (0.02607, False, 'nan'), 'C2/ORTH': (0.05453, False, 'nan'), 'C3/E4': (0.18145, True, '157.4'), 'C3/THETA2': (0.1293, True, '0.9014'), 'C3/ORTH': (0.13693, True, '4.115')}
+LRLRLRRR {'C1': (0.00033, False, 'nan'), 'C2/E4': (0.00516, True, '0.2578'), 'C2/THETA2': (0.00033, False, 'nan'), 'C2/ORTH': (0.00062, False, 'nan'), 'C3/E4': (0.25996, True, '1.198e+04'), 'C3/THETA2': (0.01653, True, '0.9867'), 'C3/ORTH': (0.03091, True, '4.129')}
+LRLRR {'C1': (0.01181, False, 'nan'), 'C2/E4': (0.0568, True, '0.3826'), 'C2/THETA2': (0.0184, False, 'nan'), 'C2/ORTH': (0.03664, False, 'nan'), 'C3/E4': (0.26698, True, '242.8'), 'C3/THETA2': (0.13763, True, '1.678'), 'C3/ORTH': (0.17344, True, '7.227')}
+LRLRRLRR {'C1': (0.00662, False, 'nan'), 'C2/E4': (0.04076, True, '0.3973'), 'C2/THETA2': (0.01056, False, 'nan'), 'C2/ORTH': (0.01994, False, 'nan'), 'C3/E4': (0.37741, True, '462.8'), 'C3/THETA2': (0.12296, True, '2.141'), 'C3/ORTH': (0.18336, True, '9.249')}
+LRLRRR {'C1': (0.00023, False, 'nan'), 'C2/E4': (0.00431, True, '0.298'), 'C2/THETA2': (0.00025, False, 'nan'), 'C2/ORTH': (0.00044, False, 'nan'), 'C3/E4': (0.51388, True, '2.178e+04'), 'C3/THETA2': (0.01557, True, '1.31'), 'C3/ORTH': (0.02693, True, '4.599')}
+LRLRRRR {'C1': (1e-05, False, 'nan'), 'C2/E4': (0.00037, True, '0.07867'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (1e-05, False, 'nan'), 'C3/E4': (0.39181, True, '1.248e+06'), 'C3/THETA2': (0.00147, True, '0.8756'), 'C3/ORTH': (0.00238, True, '2.088')}
+LRLRRRRR {'C1': (0.0, False, 'nan'), 'C2/E4': (3e-05, True, '0.02697'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.05739, False, '3e+07'), 'C3/THETA2': (0.00014, True, '0.499'), 'C3/ORTH': (0.00022, True, '1.011')}
+LRR {'C1': (0.00339, False, 'nan'), 'C2/E4': (0.028, True, '0.4256'), 'C2/THETA2': (0.00573, False, 'nan'), 'C2/ORTH': (0.00986, False, 'nan'), 'C3/E4': (0.62942, True, '1032'), 'C3/THETA2': (0.10218, True, '2.544'), 'C3/ORTH': (0.16227, True, '10.09')}
+LRRLRRR {'C1': (0.00012, False, 'nan'), 'C2/E4': (0.00293, True, '0.3166'), 'C2/THETA2': (0.00014, False, 'nan'), 'C2/ORTH': (0.00022, False, 'nan'), 'C3/E4': (0.62428, True, '4.101e+04'), 'C3/THETA2': (0.01132, True, '1.256'), 'C3/ORTH': (0.01749, True, '3.911')}
+LRRLRRRR {'C1': (0.0, False, 'nan'), 'C2/E4': (0.00024, True, '0.1076'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.22862, True, '1.633e+06'), 'C3/THETA2': (0.001, True, '0.7516'), 'C3/ORTH': (0.00146, True, '1.693')}
+LRRR {'C1': (6e-05, False, 'nan'), 'C2/E4': (0.00188, True, '0.3636'), 'C2/THETA2': (7e-05, False, 'nan'), 'C2/ORTH': (0.0001, False, 'nan'), 'C3/E4': (0.32749, True, '6.737e+04'), 'C3/THETA2': (0.00766, True, '1.374'), 'C3/ORTH': (0.01089, True, '3.582')}
+LRRRR {'C1': (0.0, False, 'nan'), 'C2/E4': (0.00015, True, '0.1391'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.05256, True, '2.037e+06'), 'C3/THETA2': (0.00061, True, '0.8553'), 'C3/ORTH': (0.0008, True, '1.396')}
+LRRRRR {'C1': (0.0, False, 'nan'), 'C2/E4': (1e-05, True, '0.04271'), 'C2/THETA2': (0.0, False, 'nan'), 'C2/ORTH': (0.0, False, 'nan'), 'C3/E4': (0.00883, False, '5.252e+07'), 'C3/THETA2': (5e-05, True, '0.5482'), 'C3/ORTH': (7e-05, True, '0.5968')}
+LRRRRRR {'C1': (0.0, True, 'nan'), 'C2/E4': (0.0, True, '0.06171'), 'C2/THETA2': (0.0, True, 'nan'), 'C2/ORTH': (0.0, True, 'nan'), 'C3/E4': (0.00167, False, '1.269e+09'), 'C3/THETA2': (0.0, True, '0.2565'), 'C3/ORTH': (1e-05, True, '0.2533')}
+LRRRRRRR {'C1': (0.0, True, 'nan'), 'C2/E4': (0.0, False, '1.564'), 'C2/THETA2': (0.0, True, 'nan'), 'C2/ORTH': (0.0, True, 'nan'), 'C3/E4': (0.01161, False, '2.968e+10'), 'C3/THETA2': (0.0, True, '6.669'), 'C3/ORTH': (0.0, True, '16.84')}
+{
+ "Q": {
+  "(a)": 9.169998094193943e-12,
+  "(a')": 9.123368727159686e-12,
+  "(b) worst": 2.3654167033940516e-12,
+  "(c)": 0.022979638007720397,
+  "(d)": 1.6872642429913376e-39,
+  "(e)": 1.932190302715151e-15,
+  "holds": true
+ },
+ "L1": {
+  "threads in a rank-2 cell that are not rank 2 under P4'": {
+   "C2/E4": [],
+   "C3/E4": [
+    "LLLLLRR",
+    "LLLLLRRR",
+    "LLLLR",
+    "LLLRRRRR",
+    "LLRRRRR"
+   ],
+   "C3/THETA2": [],
+   "C3/ORTH": []
+  },
+  "admitted": {
+   "C2/E4": 58,
+   "C3/E4": 59,
+   "C3/THETA2": 59,
+   "C3/ORTH": 59
+  },
+  "largest P4' m1/m3 over admitted": {
+   "C2/E4": 5.146635787321398e-14,
+   "C3/E4": 4.3715081002098425e-10,
+   "C3/THETA2": 1.952625797544641e-14,
+   "C3/ORTH": 2.5554632256293614e-14
+  },
+  "holds": false
+ },
+ "L2": {
+  "threads with kappa <= 1e-6": {
+   "C2/E4": [],
+   "C3/E4": [],
+   "C3/THETA2": [],
+   "C3/ORTH": []
+  },
+  "least kappa": {
+   "C2/E4": [
+    0.031738223184412585,
+    "LLRRRRR"
+   ],
+   "C3/E4": [
+    5.889589665824439,
+    "LR"
+   ],
+   "C3/THETA2": [
+    0.5454409765870477,
+    "LLLRRRRR"
+   ],
+   "C3/ORTH": [
+    1.2338273512743037,
+    "LLLRRRRR"
+   ]
+  },
+  "holds": true
+ },
+ "L3": {
+  "worst |4 pi L m1/m3 - kappa| / kappa at L = 1e7": {
+   "C2/E4": [
+    0.00011535210562424244,
+    "LLRRRRR"
+   ],
+   "C3/E4": [
+    9.733954198517296e-08,
+    "LLLLRLLR"
+   ],
+   "C3/THETA2": [
+    8.871734414116742e-06,
+    "LLRRRRR"
+   ],
+   "C3/ORTH": [
+    6.838825328455332e-06,
+    "LRRRR"
+   ]
+  },
+  "read-out: the same at L = 1000": {
+   "C2/E4": [
+    0.27085644984833823,
+    "LLRRRRR"
+   ],
+   "C3/E4": [
+    0.9999996522022867,
+    "LLLLLRR"
+   ],
+   "C3/THETA2": [
+    0.6397204984272491,
+    "LLLLLRR"
+   ],
+   "C3/ORTH": [
+    0.8006871778708571,
+    "LLLLLRR"
+   ]
+  },
+  "read-out: the margin, largest P4' m1/m3 / (eps kappa) at L = 1e7": {
+   "C2/E4": [
+    6.858459732303559e-05,
+    "LLLRRRRR"
+   ],
+   "C3/E4": [
+    2.579656410131299e-08,
+    "LLLRRRRR"
+   ],
+   "C3/THETA2": [
+    3.5188747320212374e-06,
+    "LLLLLRRR"
+   ],
+   "C3/ORTH": [
+    2.3008649943309753e-06,
+    "LRRRR"
+   ]
+  },
+  "holds": true
+ },
+ "L4": {
+  "the root's kappa": {
+   "C2/E4": 0.225837013326521,
+   "C3/E4": 5.889589665824439,
+   "C3/THETA2": 2.1895122640312694,
+   "C3/ORTH": 4.190362835420618
+  },
+  "holds": true
+ },
+ "readouts": {
+  "C2/E4: kappa range over admitted": [
+   0.031738223184412585,
+   0.6471615511977946
+  ],
+  "C2/E4: Spearman(y_max, ln kappa)": -0.8594502382043944,
+  "C2/E4: the root": {
+   "m2/m3": 0.4847445683113533,
+   "kappa": 0.225837013326521,
+   "L=10: 4 pi L m1/m3": 0.23651046613177024,
+   "L=100: 4 pi L m1/m3": 0.22686127038539436,
+   "L=1000: 4 pi L m1/m3": 0.22593902691249548,
+   "L=10000000: 4 pi L m1/m3": 0.22583702685216114,
+   "admitted": true
+  },
+  "C2/E4: the L the root would need for m1/m2 (no prior; data HZ2021 at M_Z)": {
+   "up m_u/m_c": 18.687830411642743,
+   "lepton m_e/m_mu": 7.810250141052222,
+   "down m_d/m_s": 0.7381523677419366
+  },
+  "C3/E4: kappa range over admitted": [
+   5.889589665824439,
+   5706768.700474792
+  ],
+  "C3/E4: Spearman(y_max, ln kappa)": 0.9934386548195087,
+  "C3/E4: the root": {
+   "m2/m3": 0.01842797945149709,
+   "kappa": 5.889589665824439,
+   "L=10: 4 pi L m1/m3": 2.275583601398565,
+   "L=100: 4 pi L m1/m3": 5.911938676942673,
+   "L=1000: 4 pi L m1/m3": 5.891867312971591,
+   "L=10000000: 4 pi L m1/m3": 5.889589888602898,
+   "admitted": true
+  },
+  "C3/E4: the L the root would need for m1/m2 (no prior; data HZ2021 at M_Z)": {
+   "up m_u/m_c": 12819.88214862168,
+   "lepton m_e/m_mu": 5357.844337947616,
+   "down m_d/m_s": 506.37372844961703
+  },
+  "C3/THETA2: kappa range over admitted": [
+   0.5454409765870477,
+   3.698810158109017
+  ],
+  "C3/THETA2: Spearman(y_max, ln kappa)": -0.8543788707698713,
+  "C3/THETA2: the root": {
+   "m2/m3": 0.03331653232242454,
+   "kappa": 2.1895122640312694,
+   "L=10: 4 pi L m1/m3": 1.6878980257882399,
+   "L=100: 4 pi L m1/m3": 2.185325199340283,
+   "L=1000: 4 pi L m1/m3": 2.189713661362822,
+   "L=10000000: 4 pi L m1/m3": 2.1895122884522333,
+   "admitted": true
+  },
+  "C3/THETA2: the L the root would need for m1/m2 (no prior; data HZ2021 at M_Z)": {
+   "up m_u/m_c": 2636.1147044908707,
+   "lepton m_e/m_mu": 1101.7177911542176,
+   "down m_d/m_s": 104.12414217687788
+  },
+  "C3/ORTH: kappa range over admitted": [
+   1.2338273512743037,
+   10.604454151710824
+  ],
+  "C3/ORTH: Spearman(y_max, ln kappa)": -0.9029241211495367,
+  "C3/ORTH: the root": {
+   "m2/m3": 0.0215106986375282,
+   "kappa": 4.190362835420618,
+   "L=10: 4 pi L m1/m3": 2.141753330223972,
+   "L=100: 4 pi L m1/m3": 4.159805308555127,
+   "L=1000: 4 pi L m1/m3": 4.189589240287763,
+   "L=10000000: 4 pi L m1/m3": 4.1903627792652935,
+   "admitted": true
+  },
+  "C3/ORTH: the L the root would need for m1/m2 (no prior; data HZ2021 at M_Z)": {
+   "up m_u/m_c": 7814.007566996626,
+   "lepton m_e/m_mu": 3265.727072538956,
+   "down m_d/m_s": 308.64621842557386
+  },
+  "the root's L-free kappa ratios": {
+   "C2/E4 / C3/E4": 0.03834511844466635,
+   "C2/E4 / C3/THETA2": 0.10314489534336571,
+   "C2/E4 / C3/ORTH": 0.05389438151215658,
+   "C3/E4 / C3/THETA2": 2.6899094207313046,
+   "C3/E4 / C3/ORTH": 1.4055082810587347,
+   "C3/ORTH / C3/THETA2": 1.913833918292578
+  },
+  "C1 (rank 3): the root's m1/m3 unlifted and at L = 10, 100": [
+   0.009568191038650753,
+   0.009262510449583842,
+   0.009538555085464329
+  ],
+  "C2/THETA2 (rank 3): the root's m1/m3 unlifted and at L = 10, 100": [
+   0.5443365167929027,
+   0.5492511950774338,
+   0.5448081476098068
+  ],
+  "C2/ORTH (rank 3): the root's m1/m3 unlifted and at L = 10, 100": [
+   0.6179402077110545,
+   0.6017682492617484,
+   0.6163894198152123
+  ]
+ }
+}
