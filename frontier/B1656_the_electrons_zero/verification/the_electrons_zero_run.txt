@@ -1,0 +1,14 @@
+E0 {'numpy_vs_B1653_bilinear': 5.1815277987125175e-15, 'null_quaternion_max': 8.61132436153873e-16, 'B1653_residue_formula_max': 5.5851718552165846e-15, 'lines_9w_in_lattice_and_3w_fixed': True, 'nonfixed_lines_9w_in_lattice_3w_not_fixed': True, 'W59_set_invariant_minus_convention': True, 'W59_set_invariant_plus_convention': False, 'lines_exact_order_9': True, 'exact_lines_match_float_lines': True, 'void': False}
+E1 {'spread_max': 1.3420820010878742e-11, 'control_minmax': [0.9999999999999777, 1.0000000000012377], 'holds': True}
+  E2 up [66s]
+  E2 lep [169s]
+  E2 down [257s]
+E2 {'max_diff': 2.7646995803820573e-10, 'holds': True}
+E3 {'perp_spread_max': 2.4300561562995426e-12, 'gap_minmax': [-5.806896240810744, -5.806896240809573], 'D_equals_gap_R1sq_max': 3.9237839743610803e-13, 'holds': True} [270s]
+E4 {'lep_R1_rel_max': 4.6117355310169935e-15, 'lep_D_rel_max': 5.042552392328159e-13, 'quark_R1_rel_min': 0.4213946125607168, 'quark_D_rel_min': 1.031150422134181, 'quark_D_values': [1.03115, 2.462927, 2.741626], 'holds': True}
+E5 {'a_generic_tau': [3.0811026765045306, 3.081102676504537, 3.081102676504539], 'b_nonfixed_lines': [(2.921047035353836, 3.2196395874186466e-16), (2.9210470353540243, 1.457734148879825e-16), (2.9210470353538383, 1.7894514117496248e-16)], 'c_fictitious_charges': [3.2288598742243257, 2.853204575813319, 4.512670014987708], 'd_isolating_pair_m2_5': [(2.462926993035394, 1.3926637620897964e-12, 0.6512589973312378), (1.0311504221343875, 3.694822225952521e-13, 0.4213946125607164), (2.7416262905072464, 1.7905676941154525e-12, 0.6871192172941594)], 'holds': True} [273s]
+E6 {'lep_rank_ratio_max': 1.232714642185211e-15, 'quark_L_ratio_rel_err_max': 0.0016063029457549227, 'quark_m1m3_at_40_minmax': [np.float64(0.00024068806507114048), np.float64(0.010280776568029877)], 'lift_law_rel_err_max': 0.000536392692057408, 'holds': True}
+E7 {'up': (2.741626, 0.687119), 'down': (1.03115, 0.421395), 'lep': (0.0, 0.0)}
+RUN_EXIT 0 (277 s)
+python3 -B the_electrons_zero.py  251.31s user 5.66s system 92% cpu 4:37.81 total
+exit 0
