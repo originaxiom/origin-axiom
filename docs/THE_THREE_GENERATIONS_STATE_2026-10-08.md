@@ -678,6 +678,10 @@ Under the owner's rulings, the table's rows split into two groups:
     object is matter units with characteristic. By hand, their exponents shift quadratically in the field's
     charge, a sector-dependent Froggatt–Nielsen structure.
   - This seat will build them, rule first, after main's answer on the defaults. 0 of 19.
+- **The units with characteristic, the construction** (a READING; relay §129). ρ_R's eigenlines are θ₂²/η³ and
+  (θ₃² ± θ₄²)/η³. The twisted coupling vector at weight −½ is explicit, with exact exponents; it is W91's
+  first deliverable. The matter units wait on main's reading of B1644: a single field's twist lives in its
+  doublet and every ρ_R object is a pair, so the twist must be counted once. 0 of 19.
 
 ## Questions open with main
 
@@ -702,4 +706,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W90 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§128).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§129).

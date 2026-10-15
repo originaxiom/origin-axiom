@@ -19347,3 +19347,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   down quarks and leptons.
 - **The seat wrote the design** for computing this, checked that the sum over all lines keeps the families
   apart at order 9, and will build the twisted matter, rule first. 0 of 19.
+
+## 2026-10-15 — building the twisted pieces: one part now, one part after main
+
+- **The seat found** that ρ_R's three channels are exactly the three even theta functions.
+- **So the coupling between two fields on a hypercharge line can be written down exactly,** with exact powers at
+  the cusp. That part will be built first.
+- **The matter units themselves need a decision from main.** On the fibre each particle's twist lives in its own
+  two-component mode, and the three-channel objects are always pairs, so the twist must not be counted twice.
+  0 of 19.

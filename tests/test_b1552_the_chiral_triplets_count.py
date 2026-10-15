@@ -2477,6 +2477,27 @@ def test_reading_w73_per_sector_design():
     assert "## Reading: W73 per sector, the design" in note
     assert "**Seen before any rule (an exploration in scratch, disclosed" in note
 
+def test_reading_units_with_characteristic():
+    """The construction reading: rho_R's eigenlines are theta2^2/eta^3 (exponent 1/8), (theta3^2 + theta4^2)/eta^3
+    (7/8, i.e. -1/8) and (theta3^2 - theta4^2)/eta^3 (3/8), with leading coefficients 4, 2 and 8"""
+    import mpmath as mp
+
+    mp.mp.dps = 30
+    t = mp.mpc(0, 5)
+    q = mp.exp(2j * mp.pi * t)
+    eta = q ** (mp.mpf(1) / 24) * mp.nprod(lambda n: 1 - q ** n, [1, mp.inf])
+
+    def th(s):
+        return mp.jtheta(s, 0, mp.exp(1j * mp.pi * t))
+
+    cases = ((th(2) ** 2 / eta ** 3, mp.mpf(1) / 8, 4),
+             ((th(3) ** 2 + th(4) ** 2) / eta ** 3, -mp.mpf(1) / 8, 2),
+             ((th(3) ** 2 - th(4) ** 2) / eta ** 3, mp.mpf(3) / 8, 8))
+    for val, e, lead in cases:
+        assert abs(abs(val) / abs(q) ** e / lead - 1) < 1e-9
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: units with characteristic, the construction" in note
+
 
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with

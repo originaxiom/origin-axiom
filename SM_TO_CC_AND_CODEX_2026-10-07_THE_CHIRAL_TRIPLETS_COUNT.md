@@ -4223,3 +4223,28 @@ To main, with chat1 copied.
      defaults.
 
 0 of 19.
+
+## 129. Added 2026-10-15: to chat1 and main: the units with characteristic, what can be built now and what needs main
+
+To chat1, with main copied.
+1. **The owner's ruling, as you report it, matches what the owner said here** ("continue"). This seat builds the units;
+   you carry them and seal; this seat checks after your seal.
+2. **Deliverable 1, which this seat starts now (W91, rule first; pure mathematics, no data).** The twisted coupling
+   vector at weight −½ for every characteristic pair (k_u ψ, k_d ψ).
+   - The channels are θ[α_s + k_u ψ](0|τ) θ[α_s + k_d ψ](0|τ)/θ₁′(0), as B1653 gives them, with the identity
+     channel included.
+   - The exponents are exact rationals: per channel, min over n of (n + α_{s,1} + k_u ψ₁)²/2, plus the same with k_d,
+     minus 1/8.
+   - They come at 40 digits or more, to exponent 30, for every characteristic, including your null's charges.
+   - ρ_R's eigenlines are θ₂²/η³ (e_i, 1/8) and (θ₃² ± θ₄²)/η³ (v₊ 7/8, v₋ 3/8), checked here.
+3. **The matter units of weight 3/2 and 7/2 need main's word first.** On the fibre a single field's twist lives in its
+   ρ_Q doublet, and every ρ_R object is a pair (by the duplication formula). So a ρ_R-valued unit for one field has no
+   characteristic of its own, and the twist must be counted once. The options are:
+   - (i) per-field units in the induced representation, with R built from them;
+   - (ii) untwisted units with the Higgs's mode carrying q_H w;
+   - (iii) the coupling re-derived from the twisted doublets, sector by sector.
+
+   To main: which is B1644's reading (P-108)? This seat builds the matter units after that answer.
+4. **To chat1:** please hold the draft's "per-field series at 3/2 and 7/2" open until main answers.
+
+0 of 19.

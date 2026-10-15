@@ -7512,6 +7512,65 @@ the stated premises. 0 of 19.
   something outside B1656's frame. The first escape (the Higgs near neither symmetric vacuum) and the third (B1657's
   laws changing at the twisted sectors) stand.
 
+## Reading: units with characteristic, the construction: what carries a field's twist, and the twist counted once (READING, by hand; 2026-10-15, for chat1's design draft and the owner's ruling)
+
+**Why.** The owner's ruling, as chat1 reports it (32c75077d) and as the owner said to this seat ("continue"), divides
+the work:
+- this seat builds the twisted matter units, ρ_R sections with characteristic per field, if ρ_R admits them;
+- chat1 carries them along the threads and seals the comparison at N = 9, 11 and 12;
+- this seat checks that comparison after the seal.
+
+chat1's draft asks that the twist be counted once. This reading fixes what can be delivered at once and what needs
+main's word first.
+
+**Weave or thread.** The units are sections of the whole modular group's representation, or of the one induced from
+a line's stabiliser. They are weave-type objects. Which thread carries them is chat1's design.
+
+**1. ρ_R's three eigenlines are theta structures.** Checked here at two heights, to 10⁻⁷ and better:
+- e_i ↔ θ₂²/η³ ≈ 4q^{1/8};
+- v₊ ↔ (θ₃² + θ₄²)/η³ ≈ 2q^{−1/8}, exponent 7/8 modulo 1;
+- v₋ ↔ (θ₃² − θ₄²)/η³ ≈ 8q^{3/8}.
+
+These are the exponents 1/8, 7/8 and 3/8 of W64 and W72. So R, of weight −½ with its one unit on v₊, is the residue
+triplet of B1642 and B1653, whose components are the three even spin structures (chat1's two-weaves reading).
+
+**2. The twisted coupling vector is explicit.**
+- A pair of fields (x, y) on a line w carries (ū, δ) = ((q_x + q_y)w, (q_x − q_y)w). B1653 gives
+  R_s = c_s θ_s(ū)θ_s(δ)/θ₁′(0), with the identity channel non-zero and the quaternion null.
+- In characteristics, channel s is θ[α_s + k_u ψ](0|τ) θ[α_s + k_d ψ](0|τ), with k_u = q_x + q_y and
+  k_d = q_x − q_y. The exponent at the base cusp is exact:
+  min over n of (n + α_{s,1} + k_u ψ₁)²/2, plus min over m of (m + α_{s,1} + k_d ψ₁)²/2, minus 1/8 (from θ₁′(0)).
+- These sections, of weight −½ for every characteristic pair, are theta products. They can be delivered at any
+  precision with exact exponents. **This is the first deliverable** (W91, rule first).
+
+**3. The matter units F_a are not theta products.** In W72 they are ρ_R-valued sections of weight 3/2, one unit each,
+solved by collocation (W65, W68, W69). Two questions follow.
+- **(a) Which characteristic does one field's unit carry?** On the fibre a field's twist lives in its own ρ_Q doublet:
+  B1653's F̃ with θ[a_x, b_x](u; 2τ). Every ρ_R object comes from a pair, by the duplication formula
+  θ(x|2τ)θ(y|2τ) → θ(x + y|τ)θ(x − y|τ). So a ρ_R-valued unit for one field has no characteristic of its own: its
+  twist appears only paired.
+- **(b) The twist counted once.** W72's coupling G_αβ = (R·F_β)F_α + (R·F_α)F_β − (F_α·F_β)R uses R and the F's
+  together.
+  - If R is B1656's pair object (twisted by q_L ± q_R) and the F's are also twisted by q_L and q_R, the line is
+    counted twice.
+  - If the F's stay untwisted, the minimal reading results, which chat1 found gives W84's exponents in every sector.
+- **The consistent options, for main as owner of B1644's parent map (P-108):**
+  - (i) The F's carry per-field characteristics in an induced representation, built so that their products reproduce
+    B1653's pair structure, and R is then built from them, not twisted separately.
+  - (ii) The F's are untwisted and the Higgs's mode h carries q_H w. That is chat1's second option, a Higgs mode with
+    characteristic.
+  - (iii) The coupling is re-derived from the fibre's twisted doublets directly, sector by sector, so that the units
+    are the pairs.
+- **This seat builds none of (i)–(iii) before main says which is B1644's reading,** because each changes what is
+  being tested.
+
+**4. Exists?** For (i) the units would be weakly holomorphic forms for the representation induced from a line's
+stabiliser. Its dimension is 3 times the orbit (108 at N = 9 up to sign), with exponents in q^{1/N²}. A full set with
+prescribed units exists if the dual obstruction space vanishes (Borcherds). That is a count the rule can fix.
+
+**Status.** READING, by hand. Item 1 is checked numerically and locked in a test. Item 2 is the first deliverable.
+Item 3 waits on main. 0 of 19.
+
 ## Reading: W73 per sector, the design: what the surface frame needs from main's twisted zero mode (READING, by hand; 2026-10-15; nothing computed)
 
 **Why.**

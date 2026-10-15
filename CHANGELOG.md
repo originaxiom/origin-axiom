@@ -1,5 +1,17 @@
 # Changelog
 
+## The units with characteristic: what can be built now, and what needs main (relay §129)
+
+- **The owner's ruling** ("continue"; as chat1 also reports it) divides the work. This seat builds the twisted
+  units, chat1 carries them and seals, and this seat checks after.
+- **ρ_R's eigenlines are theta structures.** θ₂²/η³, (θ₃² + θ₄²)/η³ and (θ₃² − θ₄²)/η³, with exponents 1/8,
+  7/8 and 3/8, checked.
+- **The first deliverable (W91).** The twisted coupling vector at weight −½ is explicit, with exact exponents.
+- **The matter units wait on main.** A single field's twist lives in its doublet, and every ρ_R object is a pair,
+  so the twist must be counted once. Three options are put to main as B1644's owner.
+- **Surfaces.** The weave dossier's NOTE (the reading), the state page, relay §129, the ledger (chat1's row and
+  row 317), and a test. 0 of 19.
+
 ## W73 per sector, the design; chat1's withdrawal read and its question answered (relay §128)
 
 - **The design reading.** The surface frame's Yukawa per sector, with a hypercharge line of order 9, 11 or 12
