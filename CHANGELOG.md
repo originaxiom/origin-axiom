@@ -1,5 +1,10 @@
 # Changelog
 
+October16 source validation:5selected LIVE tests PASS280.36s at a31bbb4ce,
+52pins/tree/index unchanged. Governance26PASS/four inherited FAIL32.355105s,
+no new science path or waiver. Full VALIDATION/captures retained; not
+full-suite, source-conjugation/global/physical SM+gravity acceptance.
+
 ## 2026-10-16 actual source chiral map and conditional operator transport
 
 58/58 exact in each producer at published repair6e9c6b3d0;52pins/tree/

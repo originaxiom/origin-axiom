@@ -1,5 +1,10 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 source validation:5selected LIVE tests PASS280.36s at a31bbb4ce,
+52pins/tree/index unchanged. Governance26PASS/four inherited FAIL32.355105s,
+no new science path or waiver. Full VALIDATION/captures retained; not
+full-suite, source-conjugation/global/physical SM+gravity acceptance.
+
 October16 source-component join:58/58 exact in each complete producer at
 published repair6e9c6b3d0;52pins/tree/index unchanged. Actual graded chiral
 six-direction map and positive Hermitian-completion congruence H_w=T H_2 T

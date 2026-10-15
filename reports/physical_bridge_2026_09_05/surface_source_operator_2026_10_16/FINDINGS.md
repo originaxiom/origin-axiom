@@ -155,3 +155,14 @@ law and solve the global stationary geometry/Higgs/boundary problem.
 The complete charged spectrum, positive norms, vertices and anomalies
 must belong to that SAME construction. Full generated SM/three/gravity
 remains the active ultimate goal, not achieved here.
+
+## 6. Terminal live validation
+
+At committed a31bbb4ce, five LIVE tests PASS280.36s, capture281.926965s;
+both producers rerun,52pins/13,140tracked contents/index unchanged.
+Governance26PASS/four inherited FAIL32.355105s at the same frozen state;
+first3failure lines exactly match prior capture.42stale relay debts,
+157open, review556; no waiver or new science path named. VALIDATION
+and complete raw captures retained. Final metadata not back-certified;
+52scientific pins rechecked unchanged. Not full-suite/global/physical
+acceptance; the partial positive and printed-source distinction stand.

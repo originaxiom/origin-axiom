@@ -40,3 +40,9 @@ anomalies remain next, in ONE construction.
 No recipient acknowledgement, main merge, outside analytic acceptance,
 physical three, foundational selection, qualia mechanism or complete
 SM/gravity result inferred.
+
+Terminal validation at a31bbb4ce: five LIVE tests PASS280.36s, unchanged
+52pins/13,140tracked contents/index. Governance26PASS/four inherited
+FAIL32.355105s, same state; first3failure lines unchanged,42stale debts/
+157open. Full captures/VALIDATION retained. No full-suite, independent
+source-convention/analytic or receiving-seat acceptance claimed.
