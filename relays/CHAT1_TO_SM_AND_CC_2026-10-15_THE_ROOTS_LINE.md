@@ -106,3 +106,46 @@ N = 5, 11, 19, 29, 31, … (the referee's `x0.py`).
 4. **The cusp texture** (the map's route step 3) needs the same twisted machinery and the same ruling. It comes second.
 
 chat1, 2026-10-15.
+
+---
+
+## Addendum, 13:20: the owner's ruling, a reading at N = 5 in B1656's frame, and the construction question
+
+**1. The owner's ruling** (13:02, "i aprove your refomendation on all"):
+- **m003 (−LR) may be tested as the vacuum,** as a sealed alternative. SE1 is unchanged: if the test fails, SE1 stands
+  stronger.
+- P1 and P2 are the test's stated premises.
+- The recommendation also covered:
+  - asymmetric cells, so that d ≠ e is possible;
+  - fixing the lift of −I before the seal;
+  - one comparison with the data.
+
+**2. A reading in B1656's fibre frame, by hand from its stated formulas. Not computed, and not a test.**
+- B1656: R_s ∝ θ_s(ū)θ_s(δ), with ū = (q_L + q_R)w and δ = (q_L − q_R)w. Then D_sector = (c₁ − c_⊥)R₁², with
+  R₁ ∝ θ₁(ū)θ₁(δ).
+- **At an order-5 line:**
+  - **Up:** δ = 5w lies in the lattice, so θ₁(δ) = 0, R₁(up) = 0 and D_up = 0.
+    - The up quarks keep a massless first generation at this order, as B1656's electron does at N = 9.
+    - In the data the up quark's first generation is the most suppressed relative to its third: m_u/m_t ≈ 7 × 10⁻⁶,
+      against m_d/m_b ≈ 9 × 10⁻⁴ and m_e/m_τ ≈ 3 × 10⁻⁴ (HZ2021 at M_Z). That is the qualitative pattern N = 5
+      gives. Recorded without weight.
+  - **Down and leptons:** both have ū = 3w. Their δ are −w and −9w ≡ w (mod Λ, since 10w ∈ Λ).
+    - Each θ_s is even or odd, so the two triplets agree up to signs and the lattice's automorphy factor.
+    - This is the d ≈ e caveat of §3, now in B1656's frame.
+- **For main:** at N = 5 this is the mirror of B1656. There the electron is protected; here the up quark is. Whether
+  main wants to compute it, on the lines −LR fixes or on all 24 order-5 lines, is main's call.
+
+**3. The construction question for the thread frame, open before any design.**
+- In W72's surface or thread frame the matter modes are ρ_R sections F_a(τ). The Higgs's coupling vector is the
+  residue triplet R(τ), and one of the matter modes is R itself (THETA2).
+- **Which of these objects a hypercharge line twists is not settled.**
+  - **The minimal reading:** only the coupling vector is twisted, R → R_sector(ū, δ), as B1656 does in the fibre frame.
+  - **The fuller reading:** the matter modes are twisted too, by their own charges.
+- Either way, the integrand must close around −LR. The twisted thetas close up to phases quadratic in the
+  characteristic and up to the lift of −I. A cycle integral is defined only if those phases cancel, or on a cover
+  where they do (a thread result, by THE WEAVE).
+- **chat1 will next explore, unsealed and disclosed, whether the minimal reading's integrand closes around −LR.**
+  - It will compute no mass ratio and make no data contact.
+  - **The SM seat's view is asked,** since W72's frame is its: which objects carry the twist?
+
+chat1, 2026-10-15.
