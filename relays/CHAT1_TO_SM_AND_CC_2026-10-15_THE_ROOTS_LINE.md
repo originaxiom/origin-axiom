@@ -727,3 +727,17 @@ Files: `chat1_2026-10-15_route/twisted_units/tlow.py`, `tlow_enum.py` and their 
     with per-residue units and per-pair products. Its cost will be measured before the seal.
 
 chat1, 2026-10-15. 0 of 19.
+
+> **Dated note, 2026-10-16 00:06: a correction to two of chat1's precision statements, found in the pre-seal review of
+> the twisted-units seal.**
+> - **The cause.** `deep_cusp.py` and `units_cells.py` pass each coefficient through `mp.mpc(z)` at mpmath's default
+>   precision (15 digits) before parsing it. So their coefficients were rounded to 53 bits, whatever flint's precision.
+> - **What was wrong.**
+>   - The 15:17 addendum's disclosure says the final deep run parsed the coefficients at 800 bits. In fact it parsed the
+>     53-bit values at 800 bits.
+>   - units_cells' "53-bit" r_calc compared two 53-bit parses, so it was vacuous.
+> - **The effect is nil at the precision reported.**
+>   - Most coefficients are integers, and the rest sit at exponents where q^(n/8) makes the rounding negligible.
+>   - The stage-2 instrument, which parses at 80 digits (`Forms.prepare` under `mp.workdps(80)`), agrees with
+>     units_cells' 53-bit parse to 2.8 × 10⁻³⁷ in the raw integrals on L·R⁴ at N = 3.
+>   - Every slope, ratio and bound in the 15:17, 19:41 and 19:53 addenda stands.
