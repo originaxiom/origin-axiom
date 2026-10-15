@@ -1,0 +1,40 @@
+N=5 eps=+1: least volume closing threads (length <= 14):
+    +LLLLLRRRRR       Vol 6.066992  height 2.69  closing lines 8  H1 Z/5 + Z/5 + Z
+    +LLLLLLLRLLLLR    Vol 6.611893  height 4.33  closing lines 4  H1 Z/50 + Z
+    +LRRRRLRRRRRRR    Vol 6.611893  height 4.33  closing lines 4  H1 Z/50 + Z
+    +LLLRLRRR         Vol 6.644906  height 1.92  closing lines 4  H1 Z/25 + Z
+N=5 eps=-1: least volume closing threads (length <= 14):
+    -LLLRRRRRRR       Vol 5.597130  height 3.82  closing lines 4  H1 Z/25 + Z
+    -LLLLLLLRRR       Vol 5.597130  height 3.82  closing lines 4  H1 Z/25 + Z
+    -LLLRLRRRRRR      Vol 7.257291  height 3.43  closing lines 4  H1 Z/50 + Z
+    -LLLLLLRLRRR      Vol 7.257291  height 3.43  closing lines 4  H1 Z/50 + Z
+N=7 eps=+1: least volume closing threads (length <= 14):
+    +LLLLLLLRRRRRRR   Vol 6.610601  height 3.64  closing lines 12  H1 Z/7 + Z/7 + Z
+    +LLLRRRRLLR       Vol 7.785719  height 2.32  closing lines 6  H1 Z/49 + Z
+    +LLLLRRLRRR       Vol 7.785719  height 2.32  closing lines 6  H1 Z/49 + Z
+    +LLLRLLRRRR       Vol 7.785719  height 2.32  closing lines 6  H1 Z/49 + Z
+N=7 eps=-1: least volume closing threads (length <= 14):
+    -LLLLLLLLLRRRRR   Vol 6.447822  height 4.70  closing lines 6  H1 Z/49 + Z
+    -LLLLLRRRRRRRRR   Vol 6.447822  height 4.70  closing lines 6  H1 Z/49 + Z
+    -LLLLRLLLRR       Vol 7.427306  height 2.61  closing lines 6  H1 Z/49 + Z
+    -LLLLRRLLLR       Vol 7.427306  height 2.61  closing lines 6  H1 Z/49 + Z
+N=9 eps=+1: least volume closing threads (length <= 14):
+    +LLRRRLRRRRRRRR   Vol 7.777614  height 4.61  closing lines 6  H1 Z/81 + Z
+    +LLLLLLLLRLLLRR   Vol 7.777614  height 4.61  closing lines 6  H1 Z/81 + Z
+    +LLRRRRRRRRLRRR   Vol 7.777614  height 4.61  closing lines 6  H1 Z/81 + Z
+    +LLLLLLLLRRLLLR   Vol 7.777614  height 4.61  closing lines 6  H1 Z/81 + Z
+N=9 eps=-1: least volume closing threads (length <= 14):
+    -LLLLLLLLRLRRRR   Vol 7.749345  height 4.39  closing lines 6  H1 Z/81 + Z
+    -LLLLLLLLRRRRLR   Vol 7.749345  height 4.39  closing lines 6  H1 Z/81 + Z
+    -LLLLRLRRRRRRRR   Vol 7.749345  height 4.39  closing lines 6  H1 Z/81 + Z
+    -LLLLRRRRRRRRLR   Vol 7.749345  height 4.39  closing lines 6  H1 Z/81 + Z
+N=11 eps=+1: least volume closing threads (length <= 14):
+    +LLLLRLLLRRRRRR   Vol 8.929099  height 3.24  closing lines 10  H1 Z/121 + Z
+    +LLLLRRRRRRLLLR   Vol 8.929099  height 3.24  closing lines 10  H1 Z/121 + Z
+    +LLLLLLRRRRLRRR   Vol 8.929099  height 3.24  closing lines 10  H1 Z/121 + Z
+    +LLLLLLRRRLRRRR   Vol 8.929099  height 3.24  closing lines 10  H1 Z/121 + Z
+N=11 eps=-1: least volume closing threads (length <= 14):
+    -LLLLRRRLRRRRRR   Vol 8.816850  height 3.50  closing lines 10  H1 Z/121 + Z
+    -LLLLRRRRRRLRRR   Vol 8.816850  height 3.50  closing lines 10  H1 Z/121 + Z
+    -LLLLLLRRRRLLLR   Vol 8.816850  height 3.50  closing lines 10  H1 Z/121 + Z
+    -LLLLLLRLLLRRRR   Vol 8.816850  height 3.50  closing lines 10  H1 Z/121 + Z

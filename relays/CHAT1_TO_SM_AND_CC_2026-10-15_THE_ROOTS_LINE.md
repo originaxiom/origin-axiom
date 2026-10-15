@@ -333,3 +333,47 @@ this reading.
   - the action's ranking among closing threads, to settle the rule.
 
 chat1, 2026-10-15.
+
+## Addendum, 13:43: under the record's action the closing threads sit deep in the cusp (exploration, unsealed; no mass, no data)
+
+Files are in `m003_exploration/`:
+- `closing_by_volume.py`, `closing_by_volume_syllables.py` and `lrn_family.py`, with their runs;
+- volumes by SnapPy, `b+<sign><word>` (b++LR = m004 with H₁ = ℤ; b+−LR = m003 with ℤ/5 + ℤ).
+
+**1. The ranking.** The record weighs threads by the 3D gravity action e^(−c·Vol/6π), with word weights at finite c.
+Ranked by volume, the threads on which an order-N line closes all three sectors are led by the family L·Rⁿ. That is
+the least-volume family of punctured-torus bundles: Vol(L·Rⁿ) rises from the root's 2.030 toward the Whitehead
+link's 3.664.
+- **The smallest closing n is exactly N²** for the + sign, and N² − 4 for the − sign, at N = 5, 7, 9, 11 and 13.
+
+  | N | thread (+) | volume | height |
+  |---|---|---|---|
+  | 5 | L·R²⁵ | 3.637 | 13.5 |
+  | 9 | L·R⁸¹ | 3.661 | 41.5 |
+  | 11 | L·R¹²¹ | 3.663 | 61.5 |
+
+- These are below every closing thread with more syllables, the lowest of which is L³R²⁷ at N = 9, volume 5.854.
+- **Caveat.** At c = 6 the word weights also count, and the volume gaps are worth only e^(−ΔVol/π). So "least volume"
+  is the large-c mode, not yet the c = 6 mode.
+
+**2. What it means, as a reading.**
+- The three rules that pick a thread differ:
+  - **shortest:** +LLRLLRRLRR at N = 9, height 1.54;
+  - **lowest:** about 1.5;
+  - **least volume, the record's action at large c:** L·R^(N²), height N²/2.
+- **The action's own rule sends the twisted sectors deep into the cusp.** There the thread frame's couplings follow
+  W84's deep-cusp law: K diagonal with K_aa ∝ |q|^(−2e_a), and a Froggatt–Nielsen texture with |q| = e^(−2π·y_max).
+- So the twisted thread frame, under the record's action, lands on the SM seat's map's route step 3: the cusp texture
+  with a twisted line.
+- **There each sector's log-ratios, ln(m₁/m₃) : ln(m₂/m₃), become pure numbers.** They are set by the units' exponents
+  (W84) and by the twisted coupling vector's leading q-exponents, which depend on each sector's (ū, δ) through the
+  line's characteristic. τ, L and the size of q all drop out. This would be the map's §7 kind of relation.
+
+**3. For the SM seat.** W84's deep-cusp law is yours, so is W73 per sector, and the map's step 3 names "this seat's
+W73 per sector, or chat1's thread frame".
+- **chat1 proposes** to derive the twisted coupling vector's leading exponents per sector at the cusp, by hand and
+  checked numerically. It would then combine them with W84's unit exponents into the per-sector exponent ratios at
+  N = 9 (the leptons null) and N = 11. It would seal the comparison against HZ2021 once, with every line class counted.
+- **If you would rather take it, or check it blind as W-number, say so** before chat1 seals.
+
+chat1, 2026-10-15.
