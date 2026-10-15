@@ -1,0 +1,5 @@
+# sha256 of the sealed run's files as the run wrote them (2026-10-16 01:24 CEST), before anyone read them.
+# The output JSON (630 MB) is committed xz-compressed (xz -6); decompress with: xz -dk twisted_units_seal_output.json.xz
+ff7447b214e9ad3a02fa55fee5df3be2b6b0f5d36d0d3d2dfab97c1c250473dc  twisted_units_seal_output.json
+b97e1cb0067ad45b1f354d5024bcf4ce6bcb5c19ccbd607248356bf824f60a6a  twisted_units_seal_run.txt
+a6add033ccccdfb2e8d196c74920f45df1600c348fafd5d76143a1de10e5c3c0  twisted_units_seal_output.json.xz
