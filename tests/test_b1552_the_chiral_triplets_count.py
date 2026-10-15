@@ -2546,6 +2546,42 @@ def test_reading_why_the_leptons_coefficient_is_extremal():
     assert "## Reading: why the leptons' coefficient is extremal in W94" in note
 
 
+def test_reading_the_arena():
+    """Reading (relay 139, the owner's fresh look): the arena check's facts hold in its JSON, and in process
+    Rademacher's Psi is #R - #L on every thread to length 7, the root's axis passes through i, LLR's passes through
+    omega, the order-3 move is the trefoil's monodromy, and six Lorenz linking numbers are as recorded"""
+    import importlib.util
+    import math
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_arena_check.json").read_text(encoding="utf-8"))
+    assert d["all hold"] and d["A1"]["threads to length 12"] == 745 and d["A1"]["Psi == #R - #L on all"]
+    assert d["A2"]["reciprocal"] == d["A2"]["through an image of i"] == 26 and not d["A2"]["mismatches"]
+    assert d["A3"]["count"] == 10 and d["A3"]["none reciprocal"] and d["A3"]["through an image of omega"][:2] == [
+        "LLR", "LRR"]
+    assert abs(d["A4"]["LR"]["d to omega"] - math.log(math.sqrt(5 / 3))) < 1e-9
+    assert d["A7"]["pairs"] == 2346 and d["A7"]["min"] == 1 and d["A7"]["max"] == 15
+    spec = importlib.util.spec_from_file_location("arena", here / "the_arena_check.py")
+    A = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(A)
+    t7 = A.threads(7)
+    assert len(t7) == 39 and all(A.rademacher_psi(A.word_mat(w)) == w.count("R") - w.count("L") for w in t7)
+    # the root's axis is |tau + 1/2| = sqrt5/2 and |i + 1/2|^2 = 5/4; RRL's axis is |tau - 1| = sqrt3, through omega
+    (a, b), (c, dd) = A.word_mat("LR")
+    assert ((a - dd) / (2 * c), ((a + dd) ** 2 - 4) / (4 * c * c)) == (-0.5, 1.25)
+    (a, b), (c, dd) = A.word_mat("RRL")
+    ctr, r2 = (a - dd) / (2 * c), ((a + dd) ** 2 - 4) / (4 * c * c)
+    assert (ctr, r2) == (1.0, 3.0) and abs(abs(A.OMEGA - ctr) ** 2 - r2) < 1e-12
+    g = ((0, -1), (1, 1))
+    assert A.mul(A.mul(g, g), g) == ((-1, 0), (0, -1)) and A.mul(g, ((1, 1), (-1, 0))) == ((1, 0), (0, 1))
+    six = ["LR", "LLR", "LRR", "LLLR", "LRRR", "LLRR"]
+    lk = A.lorenz_linking(six)
+    rec = [[x for x in row if x is not None] for row in d["A7"]["the six shortest"]["linking"]]
+    assert [[int(lk[i][j]) for j in range(6) if j != i] for i in range(6)] == rec
+    assert rec[0] == [1, 1, 1, 1, 2] and all(x >= 1 for row in rec for x in row)
+    page = (ROOT / "docs" / "A_FRESH_LOOK_FROM_THE_PRINCIPLE_2026-10-15.md").read_text(encoding="utf-8")
+    assert "trefoil" in page and "0 of 19" in page and "READING" in page
+
 def test_w94_the_symmetric_higgs_relation():
     """W94 (rule 2aaf5d271 with its pre-run correction, one run): L1 and L2 hold, L3 failed as worded; k_lep is exactly
     2 with S0 and 1/2 with S0bar on every line; the three predicted values of 2/k_down"""

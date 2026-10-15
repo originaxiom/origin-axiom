@@ -1,5 +1,30 @@
 # Changelog
 
+## Reading: a fresh look from the principle, the arena (the owner's goal; relay §139)
+
+- **What is genuine, and what is not.** The original contributions are four:
+  - the forced chain with every input priced;
+  - the weave's three;
+  - the boundary theorems;
+  - the frame-conditional identities and bounds.
+
+  Modular flavour symmetry, hierarchies near fixed points and theta-function couplings are known physics, cited, not
+  claimed.
+- **What the record keeps missing: the arena.** The space of the records' placements as a lattice is the trefoil's
+  complement (Milnor). Every thread is a closed orbit of its geodesic flow and a Lorenz knot (Ghys).
+  - Every two of the 69 threads to length 8 link positively.
+  - Each thread links the cusp by Rademacher's Ψ = #R − #L, checked on 745 threads. The record had this as R1's
+    Φ ≡ 3 without reading it.
+- **The other solution of GENESIS SE1, the trefoil, is the arena.** ω and i are its exceptional fibres, and B1657's order-3 move is
+  its monodromy. The record's three places of reading (ω, i, the root) are the first terms (D = −3, −4, 5) of traces
+  by discriminant, the natural weave quantities.
+- **Not a value.** The facts are classical and checked by a post hoc script with no rule and no data. 0 of 19.
+- **Surfaces.**
+  - New: `docs/A_FRESH_LOOK_FROM_THE_PRINCIPLE_2026-10-15.md`, and `the_arena_check.py` with its JSON in the weave
+    dossier.
+  - Updated: the dossier's NOTE (a reading, a bullet and a files entry), the state page, relay §139, the seats relay
+    §6, the ledger (main's S134 row, row 317 and the seats relay's row), and a test.
+
 ## Reading: why the leptons' coefficient is extremal in W94 (relay §138)
 
 - **On W59's lines the lepton residue is the order-3 move's isotropic eigenline R̄(ω), on every line:** δ = −9w is in

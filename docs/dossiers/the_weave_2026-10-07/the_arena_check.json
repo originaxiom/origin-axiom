@@ -1,0 +1,215 @@
+{
+ "status": "post hoc check for a READING; no rule, no prediction, no data",
+ "page": "docs/A_FRESH_LOOK_FROM_THE_PRINCIPLE_2026-10-15.md",
+ "A1": {
+  "threads to length 12": 745,
+  "Psi == #R - #L on all": true,
+  "exceptions": []
+ },
+ "A2": {
+  "threads to length 10": 224,
+  "reciprocal": 26,
+  "through an image of i": 26,
+  "reciprocal exactly when through i": true,
+  "mismatches": []
+ },
+ "A3": {
+  "through an image of omega": [
+   "LLR",
+   "LRR",
+   "LLLLRLR",
+   "LRLRRRR",
+   "LLLRLLRRR",
+   "LLLRRLRRR",
+   "LLLRRRLLR",
+   "LLLRRRLRR",
+   "LLLLLRLRLR",
+   "LRLRLRRRRR"
+  ],
+  "count": 10,
+  "closed under the mirror (reverse with letters swapped)": true,
+  "none reciprocal": true
+ },
+ "A4": {
+  "LR": {
+   "matrix": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "d to i": 0.0,
+   "d to omega": 0.2554128118829949,
+   "ln sqrt(5/3)": 0.2554128118829953,
+   "tanh(d/2)": 0.12701665379258292,
+   "4 - sqrt 15": 0.12701665379258298,
+   "|i + 1/2|^2 (the axis radius^2 is 5/4)": 1.25
+  },
+  "LLR": {
+   "d to omega": 0.0
+  },
+  "LRR": {
+   "d to omega": 0.0
+  },
+  "holds": true
+ },
+ "A5": {
+  "3": {
+   "discriminant t^2 - 4": 5,
+   "threads to length 12": [
+    "LR"
+   ]
+  },
+  "4": {
+   "discriminant t^2 - 4": 12,
+   "threads to length 12": [
+    "LLR",
+    "LRR"
+   ]
+  },
+  "5": {
+   "discriminant t^2 - 4": 21,
+   "threads to length 12": [
+    "LLLR",
+    "LRRR"
+   ]
+  },
+  "6": {
+   "discriminant t^2 - 4": 32,
+   "threads to length 12": [
+    "LLRR",
+    "LLLLR",
+    "LRRRR"
+   ]
+  },
+  "7": {
+   "discriminant t^2 - 4": 45,
+   "threads to length 12": [
+    "LLLLLR",
+    "LRRRRR"
+   ]
+  },
+  "8": {
+   "discriminant t^2 - 4": 60,
+   "threads to length 12": [
+    "LLLRR",
+    "LLRRR",
+    "LLLLLLR",
+    "LRRRRRR"
+   ]
+  }
+ },
+ "A6": {
+  "gamma (B1657, W94)": [
+   [
+    0,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "gamma^3": [
+   [
+    -1,
+    0
+   ],
+   [
+    0,
+    -1
+   ]
+  ],
+  "trace": 1,
+  "gamma^-1 (the trefoil's monodromy)": [
+   [
+    1,
+    1
+   ],
+   [
+    -1,
+    0
+   ]
+  ],
+  "|gamma(omega) - omega|": 1.5700924586837752e-16,
+  "torsion-free traces |2 - t| = 1 among t in -10..10": [
+   1,
+   3
+  ],
+  "holds": true
+ },
+ "A7": {
+  "threads to length 8": 69,
+  "pairs": 2346,
+  "min": 1,
+  "max": 15,
+  "all integers": true,
+  "mirror-invariant": true,
+  "the six shortest": {
+   "words": [
+    "LR",
+    "LLR",
+    "LRR",
+    "LLLR",
+    "LRRR",
+    "LLRR"
+   ],
+   "linking": [
+    [
+     null,
+     1,
+     1,
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     null,
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     null,
+     1,
+     2,
+     2
+    ],
+    [
+     1,
+     2,
+     1,
+     null,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     2,
+     1,
+     null,
+     2
+    ],
+    [
+     2,
+     2,
+     2,
+     2,
+     2,
+     null
+    ]
+   ]
+  },
+  "holds": true
+ },
+ "all hold": true
+}

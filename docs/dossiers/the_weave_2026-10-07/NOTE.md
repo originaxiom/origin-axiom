@@ -304,6 +304,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W94 (the symmetric null Higgs at ω; rule first, with a pre-run correction; one run; L3 failed as worded): with
   S₀ = R(ω) the leptons' coefficient is exactly the maximum, 2. (m_μ/m_τ)/(m_s/m_b) is predicted at 2.58, 2.42 or
   1.70 by line class against 3.14, two classes within 2σ only with W88's allowance. A candidate, not a derivation.
+- Reading: the arena (the owner's fresh look; a post hoc check, no data): the space of the records' placements as a
+  lattice is the trefoil's complement, every thread is a closed orbit in it, and every two threads link. SE1's other
+  solution (GENESIS §4) is that space, and ω and i are its exceptional fibres. The page is
+  `docs/A_FRESH_LOOK_FROM_THE_PRINCIPLE_2026-10-15.md`.
 
 ## The setting
 
@@ -7592,6 +7596,47 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: the arena, where every thread exists at once (READING, the owner's fresh look; checked by a post hoc script, no data; 2026-10-15)
+
+**The question.** The owner set the goal: start again from the principle, and name what the record keeps missing.
+The full reading is `docs/A_FRESH_LOOK_FROM_THE_PRINCIPLE_2026-10-15.md`. Here are its facts and their checks.
+
+**Weave or thread.** §1–§5 below are weave facts: they take every thread under a stated rule, and their quantities
+(linking, Rademacher's function, traces by discriminant) are defined jointly. §6 is a set of thread facts, read for
+every thread to a stated length.
+
+1. **The arena.** Place the two records in the plane as a lattice of area one. The space of those placements,
+   SL(2, ℝ)/SL(2, ℤ), is the trefoil's complement (Milnor 1971, §10). Its geodesic flow's closed orbits are
+   exactly the threads, coded by their words (Series 1985), and they are the Lorenz knots (Ghys 2007). The
+   template's two bands are L and R.
+2. **The threads link.** On all 69 threads to length 8, every pair links positively, 1 to 15 (A7, Lorenz braid).
+   The numbers are unchanged when the letters are exchanged.
+3. **Each thread links the cusp by Rademacher's Ψ** (Ghys 2007). Ψ = #R − #L on all 745 threads to length 12 (A1).
+   The recognition campaign's R1 found Φ(RᵐLᵐ) = 3 on the metallic family. That is Ψ = 0: balanced threads do not
+   link the cusp.
+4. **SE1's other solution is the arena** (GENESIS T-ROOT, SE1, GM3, §4).
+   - Torsion-free means tr = 1 or 3: the trefoil (period 6) and the figure-eight, the only fibred knots of genus one.
+   - The trefoil's complement is the space of §1.
+   - So GM3 separates the arena from the threads; it does not discard the trefoil.
+5. **ω and i are the arena's exceptional fibres** (orders 3 and 2). The order-3 move of B1657 and W94 is the
+   trefoil's monodromy: γ³ = −1, γ⁻¹ = [[1, 1], [−1, 0]], and γ fixes ω (A6). The field stage frozen at ω sits on
+   the arena's singular fibre, not on a thread.
+6. **Where threads touch those points.**
+   - The 26 reciprocal threads to length 10 are exactly the ones through i (A2, Sarnak 2007); the root is the first.
+   - Ten threads to length 10 pass through ω (LLR and LRR first; one geodesic in its two directions), and none is
+     reciprocal (A3).
+   - The root comes within ln √(5/3) of ω, 4 − √15 in the disk coordinate (A4).
+   - No comparison with data is made.
+
+**What it means.** The weave has a carrier, one 3-manifold holding every thread, and a pairwise interaction (linking)
+that no thread has alone. The record's three places of reading, ω, i and the root, are the first terms (D = −3, −4
+and 5) of traces by discriminant: the natural weave quantities (Zagier 2002; Duke, Imamoḡlu and Tóth 2011). The
+record has never assembled them.
+
+**Status.** READING. The facts are classical and cited, and they are checked by `the_arena_check.py`, a post hoc
+script with no rule and no data, run once. A test recomputes Ψ, the two passages and six linking numbers in
+process. 0 of 19.
+
 ## Reading: why the leptons' coefficient is extremal in W94 (READING, checked numerically in scratch after W94; 2026-10-15)
 
 **The question.** In W94 the leptons' coefficient was exactly 2 with the symmetric Higgs S₀ = R(ω), and exactly ½ with
@@ -8492,6 +8537,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
+- `the_arena_check.py` → `the_arena_check.json`: the arena reading's post hoc check (Rademacher's Ψ on 745 threads, the passages through i and ω, the root's distances, the trefoil's monodromy, the Lorenz linking on 69 threads); no rule, no data.
 - `W94_RULE.md`: the rule, committed before the code, with its pre-run correction; `the_symmetric_higgs_relation.py` → `the_symmetric_higgs_relation.json` and `the_symmetric_higgs_relation_run.txt`: W94, the symmetric null Higgs at ω and the down/lepton relation.
 - `W93_RULE.md`: the rule, committed before the code, not blind; `the_twisted_half_bound_checked.py` → `the_twisted_half_bound_checked.json` and `the_twisted_half_bound_checked_run.txt`: W93, main's B1658 on this seat's own code.
 - `W92_RULE.md`: the rule, committed before the code, with the scratch exploration disclosed; `the_per_field_units.py` → `the_per_field_units.json`, `the_per_field_units_delivery.json.gz` and `the_per_field_units_run.txt`: W92, the per-field units, the cells, `PerFieldSource` and the delivery for chat1; `the_per_field_units_posthoc.py` → `the_per_field_units_posthoc.json`: post hoc, V3 with R from analytic theta sums.

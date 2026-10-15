@@ -80,3 +80,17 @@ and in `docs/dossiers/the_weave_2026-10-07/W92_RULE.md`. 0 of 19.
 - Details: relay §134 and the weave dossier's NOTE, section W92.
 
 0 of 19.
+
+## 6. Added 2026-10-15, later still: a fresh look, for your thread frame
+
+- **The owner asked this seat to start again from the principle.** The reading is
+  `docs/A_FRESH_LOOK_FROM_THE_PRINCIPLE_2026-10-15.md` (relay §139 to main).
+- **What it says to your frame:**
+  - your threads are the closed orbits of one flow, on the space of the records' placements as a lattice (the
+    trefoil's complement), braided on a template whose bands are L and R;
+  - every two threads link;
+  - your cycle integrals are the D > 0 terms of traces by discriminant, and main's point at ω is the D = −3 term.
+- **The ask (N3, the owner's to rule):** a field on that space, whose restriction to an orbit is your cycle integral,
+  built from W92's per-field units.
+
+0 of 19.

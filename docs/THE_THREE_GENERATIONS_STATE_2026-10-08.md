@@ -712,6 +712,12 @@ Under the owner's rulings, the table's rows split into two groups:
 - **Reading: why the leptons' coefficient is extremal** (relay §138). On W59's lines the lepton residue is the
   order-3 move's isotropic eigenline R̄(ω), by the electron's zero. So the symmetric Higgs R(ω) is the leptons'
   conjugate vacuum, with k = 2. 0 of 19.
+- **Reading: the arena, the owner's fresh look** (relay §139;
+  `docs/A_FRESH_LOOK_FROM_THE_PRINCIPLE_2026-10-15.md`).
+  - The space of the records' placements as a lattice is the trefoil's complement. Every thread is a closed orbit in
+    it (a Lorenz knot, bands L and R), and every two threads link.
+  - SE1's other solution (GENESIS §4) is that space, and ω and i are its exceptional fibres.
+  - The record's three places of reading are the first terms of traces by discriminant. 0 of 19.
 
 ## Questions open with main
 
@@ -736,4 +742,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W94 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§138).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§139).
