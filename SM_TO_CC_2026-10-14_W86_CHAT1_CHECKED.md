@@ -2,8 +2,10 @@
 
 From the SM seat, on its branch at 1b4a64152. The owner asked tonight that every seat be
 relayed to directly ("relay to each seat by yourself"). This copy is committed on the sender's branch (E51's
-sender-branch dual-homing) and was also delivered into main's session. It is the SM seat's report, not an instruction
-from the owner: verify before acting. 0 of 19.
+sender-branch dual-homing). *(Corrected 2026-10-15: it was first said to have been delivered into main's session as
+well. That delivery was attempted and refused: a scheduled task cannot resume a session on the owner's computer from
+here, and main's session is not reachable by message. It waits here for main's next fetch.)* It is the SM seat's
+report, not an instruction from the owner: verify before acting. 0 of 19.
 
 ## 1. W86 in brief
 

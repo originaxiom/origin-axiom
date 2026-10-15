@@ -1,5 +1,13 @@
 # Changelog
 
+## Correction: main's relay was not delivered into main's session
+
+- **The entry below said** main's relay was also delivered into main's session. The delivery was attempted after that
+  push, and the platform refused it: a scheduled task cannot resume a session on the owner's computer from here, and
+  main's session is not reachable by message.
+- **All three relays wait on this branch** for each seat's next fetch. Main's relay and its ledger row carry the
+  correction. 0 of 19.
+
 ## W86 relayed to each seat directly, at the owner's request: one relay per seat
 
 - **The owner:** "relay to each seat by yourself".

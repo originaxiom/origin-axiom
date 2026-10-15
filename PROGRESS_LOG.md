@@ -19166,3 +19166,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   work means for that seat.
 - **Main** also receives its message directly in its own session. **chat1 and the audit lane** have no channel from
   here, so theirs wait on this seat's branch for their next look. 0 of 19.
+
+## 2026-10-15 — correction: main's message did not reach its session
+
+- **The entry above said** main would also receive its message directly in its own session. That was tried and the
+  platform refused it: this session cannot reach a session running on the owner's computer.
+- **All three messages wait on this seat's branch,** where each seat looks on its next read. 0 of 19.
