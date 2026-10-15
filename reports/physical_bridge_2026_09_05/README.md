@@ -1,5 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
+October15 actual cusp kernel transport:760/760 exact PASS at server-
+verified pre-run561212901;17pins/tree/index unchanged. Actual section
+equivariance earns inverse-Z table, all6 weak completions and both
+complex extremes, not a physical index. Full55+55+56 vertical roster
+kept; Hodge1-form/spinor and all connection terms distinguished. The
+conditional weak-family gap proof was ALREADY banked and is preserved,
+not counted anew. NEXT full physical reality/domain then SAME-parent
+stationary normalized charged vertices/end/anomalies. See
+surface_mode_transport_2026_10_15/FINDINGS.md and NEXT_TEST.md.
+
 October15 actual invariant brackets:4407/4407 exact PASS with complete
 byte-identical tensors at published repair02fddebb0;18pins/tree/index
 unchanged. Actual compact g2+u1, centre1/ranks3/2, six long/six short

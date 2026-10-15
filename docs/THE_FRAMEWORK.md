@@ -1,5 +1,14 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October15 actual cusp kernel section map:760/760 exact at pre-run561212901,
+17pins/tree/index unchanged. Authored equivariant projection/Gram argument
+earns inverse-Z phases on the admitted cusp, not every global domain.
+All166 vertical components per extreme and all6 weak classes retained;
+no physical family identification. Correct profile+mixed-spin+canonical
+R constants preserve existing conditional spectral positive. Full
+real-parent/domain, stationary interactions/selection/SM/gravity remain.
+Report physical-bridge surface_mode_transport_2026_10_15/FINDINGS.md.
+
 October14 based geometry map:329/32 exact,158 live PASS93.74s at
 corrected f0760049f,46pins/tree unchanged. Authored natural-conjugation
 map gives flat E8 ORBIFOLD bundle with point pushing; leading complex

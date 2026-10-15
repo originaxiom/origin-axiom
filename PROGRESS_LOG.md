@@ -19479,3 +19479,36 @@ has its separate correctly sequenced pre-run guard. Raw logs/receipts
 and VALIDATION preserve this distinction. Governance science checkpoint
 26 PASS/four inherited FAIL, no waiver,152 OPEN relay entries/review537
 due. Physical projected map/domain/interactions/SM/gravity remain owed.
+
+## 2026-10-15 actual cusp kernel section joint
+
+Focused the requested high-value effort on the physical transport
+premise, not another fitted family/hierarchy search. All11 remote heads
+refreshed, including new coefficient-norm work adeb6f909 (read, not
+independently reproduced here). Pre-run5612129016d62dd6e7d943123becae5ca2cd48d6
+committed/pushed/terminal server verified BEFORE either science run.
+Native760 exact PASS31.556641s; separate reverse recurrence760 PASS
+35.227993s, complete records byte-identical, stderr empty.17pins,
+12,835 tracked files and index unchanged. No failed scientific run.
+Shared analysis/Sympy/author, not two independent analytic proofs.
+
+Authored equivariant exact-kernel frame argument earns actual inverse-Z
+cusp transport in supplied graph/projection problem; all6 commuting
+weak completions and both alternative complex extremes retained.
+Full55+55+56=166 vertical components, not physical particles/families.
+Inner cochain homotopy explains why inverse-X gauge-only fails and
+inverse-Z happens to recover the quotient action. Positive Hodge1-form
+line is not automatically a positive Dirac spinor. Normalized profile,
+mixed spin and canonical R connection yield the retained half/integer
+radial masses; the existing conditional Fredholm proof is preserved,
+not discovered again. Flat nonorthogonal metric witness requires full
+move/parent metric rather than a label-based no-pairing argument.
+
+Source/proof/design/test/raw receipts in physical-bridge
+surface_mode_transport_2026_10_15. Regression/governance follow; no full
+suite/main/nonauthor acceptance. NEXT actual whole-parent reality/domain,
+then SAME stationary interacting charged spectrum/Higgs/source/end,
+kinetic norms and anomalies. Compact g2+u1 is this supplied phase, not
+an all-background negative. Full SM/three/gravity/genesis remains
+unachieved. No independent conjugate recounting or preferred angle
+used to manufacture three.

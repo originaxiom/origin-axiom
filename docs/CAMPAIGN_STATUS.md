@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October15 actual cusp mode transport:760/760 exact at pre-run561212901,
+17pins/tree/index unchanged. Authored equivariant exact-kernel section
+map earns inverse-Z phases on supplied cusp; full166 vertical components
+per extreme kept, not particles/families. Hodge1-form is NOT a spinor
+identification. Actual normalized profile+mixed spin+R terms retained;
+existing weak-family conditional Fredholm argument preserved. NEXT full
+real-parent/domain then SAME stationary charged vertices/norms/ends/
+anomalies. Independent analytic/full-suite/SM/gravity acceptance unearned.
+Report physical-bridge surface_mode_transport_2026_10_15/FINDINGS.md.
+
 October15 bounded gauge-type joint:4407/4407 exact,18pins/tree/index
 unchanged at published repair02fddebb0. Actual compact invariant g2+u1
 for fixed based lifts/ALL commuting weak corrections; centre1/ranks3/2,

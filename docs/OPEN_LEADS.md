@@ -6477,3 +6477,25 @@ full neutral/adjoint/higher couplings. PB-COVER-GENERATED-END/QUANTUM/
 HIGGS-EXTRAS: OPEN, do not identify L as Hd or fit a plane from this result.
 PB-COVER-NORMALIZED-CUBIC: OPEN, positive global Gram/physical profiles,
 not powers of determinant-scaled polynomial coordinates.
+
+## October15 actual cusp kernel transport refinement
+
+PB-SURFACE-CUSP-SECTION: AUTHOR-PROVED CONDITIONALLY in the specified
+supplied cusp: equivariant exact projection/Gram frame,760/760 finite
+controls at published pre-run561212901,17pins/tree/index unchanged.
+Inverse-Z phases earned on actual kernel frame, full55+55+56 roster
+and both alternative complex extremes retained. H1's positive line is
+NOT identified with a positive spinor by dimension. No physical index.
+Source physical-bridge surface_mode_transport_2026_10_15/FINDINGS.md.
+
+PB-SURFACE-REAL-PARENT-DOMAIN: OPEN. Actual spin/coefficient/R/external
+reality map on critical traces, its square/covariance, all-loop orbifold
+and graph closure, independent analytic scrutiny. Normal reflection
+alone does not settle it. PB-SURFACE-STATIONARY-CHIRAL: OPEN. ONE action,
+charged compact-core kernels, generated Higgs/source/end, physical norms,
+vertices and anomalies. Existing canonical conditional Fredholm path
+preserved, not a new chiral spectrum. PB-SURFACE-FLAT-GRAM: flat-label
+inequality is NOT a no-intertwiner proof; full parent metric/symmetry
+must be used. This does not refute another parent's actual scalar norm.
+PB-GENESIS/THREE/SM/GRAVITY: ultimate obligations remain unachieved;
+the g2+u1 flat phase is not a whole-architecture exclusion.

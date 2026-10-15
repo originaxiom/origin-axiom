@@ -1,5 +1,15 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October15 cusp section map advanced:760/760 exact, all6 commuting weak
+classes and both complex extremes retained at pre-run561212901,
+17pins/tree/index unchanged. Authored kernel equivariance earns actual
+inverse-Z cusp transport under credited graph/projection hypotheses.
+Full55+55+56 vertical roster, not physical three; Hodge/spinor types
+and mixed-spin/R normalization explicit. Existing conditional Fredholm
+positive preserved. NEXT full real-parent/domain and SAME stationary
+charged spectrum/norms/Higgs/ends/anomalies; SM+gravity unachieved.
+Report physical-bridge surface_mode_transport_2026_10_15/FINDINGS.md.
+
 October15 actual invariant15 is compact g2+u1 in the fixed based E8
 lifts/all commuting weak corrections:4407/4407 exact at repair02fddebb0,
 18pins/tree/index unchanged, complete records agree. Actual225 brackets,

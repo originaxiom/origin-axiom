@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-15 actual cusp kernel transport checkpoint
+
+At server-verified pre-run561212901,760/760 exact predicates pass with
+byte-identical complete records;17pins/tree/index unchanged. Actual
+equivariant kernel-section argument, all6 weak completions and both
+complex extremes kept:55+55 even and56 selected odd vertical components,
+not physical families. Inner cochain homotopy, Hodge/spinor distinction
+and profile/mixed-spin/R normalization explicit. Existing conditional
+Fredholm positive preserved, not discovered again. Same-parent global
+reality/domain/stationarity/charged index/SM+gravity remain unachieved.
+Report physical-bridge surface_mode_transport_2026_10_15/FINDINGS.md.
+
 ## 2026-10-15 actual invariant-algebra brackets, research checkpoint
 
 Fixed based compact E8 lifts/ALL commuting weak corrections:4407/4407
