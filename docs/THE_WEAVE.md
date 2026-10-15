@@ -492,6 +492,15 @@ found with B1635's sealed instrument.
     symmetric profile about a regular point acts as the point (the mean-value property).
   - Found before B1653's seal and firewalled until it runs: at a point a flat hypercharge line does not lift the zero
     either (V = 1 ⊕ U(2)). What lifts it is a coupling that does not act as a point (P-151).
+- **S128, B1653 (PROVED): the rank of a point coupling.**
+  - The zero modes read at one point (a value, or the puncture's residue) form a rank-one bilinear of one doublet. So
+    B1644's coupling has rank ≤ 2 for every flat line and every Higgs, at every line on the record and in every
+    sector.
+  - The residue quaternion is null (R₁² + R·R = 0). The massless left state is the left field's alone, so
+    V = 1 ⊕ U(2).
+  - What lifts the zero: two points, a tilted or anisotropic profile, or a profile about the puncture, which reads the
+    regular part. A radially symmetric profile about a regular point acts as the point.
+  - This explains W72's rank 3 (an overlap) against B1649's zero (a point). C begins at the Higgs's profile (P-151).
 
 ## Main's addition: the frame tribunal (B1652) — no frame survives on its own; the parent is a specification
 

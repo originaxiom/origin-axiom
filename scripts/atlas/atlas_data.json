@@ -11866,6 +11866,7 @@
    "slug": "the frame tribunal",
    "motifs": [
     "coupling",
+    "figure_eight",
     "trace_map",
     "eisenstein",
     "golden",
@@ -11879,8 +11880,24 @@
     "V1",
     "V2"
    ],
-   "obstacle": "cancellation",
-   "obstacle_conf": 13,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1653": {
+   "slug": "the rank of a point coupling",
+   "motifs": [
+    "choice",
+    "coupling",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 23,
    "status": "banked",
    "domain": "arithmetic"
   },

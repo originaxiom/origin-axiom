@@ -1,3 +1,4 @@
+# sealed at 4e3981e24: 1e86ddd398cfdcd3b2ae5b18c959366fcb4c7218760d0b3e15817b1b68c2c209  verification/the_rank_of_a_point_coupling.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 42d3109d76bc2ba215d8dae3616b7702ade1cb097db32b472b90eb15126e83bb  design_v1/B1653_PREREGISTRATION_v1.md
 9c388a0dae2936a4d1a6b392485efd45ca0c3f4397bb406066ead7370d2d7f84  design_v1/README.md

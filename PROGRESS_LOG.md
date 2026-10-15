@@ -17097,3 +17097,11 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   owner's B: at a point no flat line lifts the zero (the pre-seal review's finding, re-derived on main); B1653 is
   redesigned around it. 0 of 19.
 - Gates 45 of 45; full suite 7314 passed, 0 failed, 68 skipped; the final tree's 113 targeted files 590 passed, 0 failed.
+
+## 2026-10-15 — S128 THE RANK OF A POINT COUPLING
+
+- B1653, PROVED: at a point no flat line lifts the first generation. The zero modes' bilinear at a point is rank one,
+  so the coupling has rank ≤ 2 for every line and every Higgs, and up and down share the massless state (V = 1 ⊕
+  U(2)). What lifts the zero is a coupling that does not act as a point. The first design's lift was caught before the
+  seal by main's reviewing agent and disclosed. C begins at the Higgs's profile (P-151). 0 of 19.
+- Gates 45 of 45; full suite 7318 passed, 1 failed, 68 skipped (1:29:54). The failure: the claim-pool lock (test_b1210), B1653 had no row in P3's CLAIM_CANDIDATES.md; rowed by hand as B1651's was, and the pool, claim-base and public-surface tests (17) and the gates re-run on the final tree, green.

@@ -1,0 +1,26 @@
+{
+ "id": "B1653",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1642",
+  "B1644",
+  "B1645",
+  "B1649",
+  "B1651"
+ ],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the weave's fibre (B1642's zero modes, B1644's coupling), given Lambda; flat U(1) lines with the Standard Model's hypercharges in units of 6Y (a stated dictionary input, the SM seat's convention) and W59's lines as holonomy phases (w = psi1 tau - psi2)",
+  "object": "the zero modes' bilinear at the puncture (its residue) and at regular points, the coupling Y_ab = sum (C_a^T eps S C_b)_mn M_mn for every 2x2 Higgs S, its rank, its left null vector by sector, and the Higgs profiles that do or do not act as a point",
+  "reach": "general",
+  "hypotheses": "the record's coupling (B1644) and generations (B1642's blocks); leading order (the residue or a value); the twisted doublet's frame (F~ = (f, e^{i pi b} f(u + tau))); the cells at sampled twists, points and draws (five pairs, three tau, every line on the record, 20 random S), with the rank statement an identity of the construction and the controls showing the detectors can see rank 3; which profile and which typing are physical is not decided here"
+ },
+ "claim_one_line": "THE RANK OF A POINT COUPLING (sealed 4e3981e24, sha256 70ecef80; PROVED -- every cell holds as sealed; the output committed unread at 832d17295): the fibre's zero modes read at one point -- a value, or the puncture's residue, where both components of F behave like u^-1/2 so Res F~_x F~_y^T = v_x v_y^T -- form a rank-one bilinear of one doublet, so for every flat line and every Higgs S the record's coupling (B1644's Y_unit) has rank <= 2 (U3: at five random twist pairs and three tau, and at every line on the record -- the half-periods, omega's 3-torsion points, W59's 18 Higgs lines -- in every sector, sigma_min/sigma_max <= 7e-41); the twisted residue quaternion is null, R_1^2 + R.R = 0 to 1e-40, with R.R = kappa^2 th1(ubar)^2 th1(delta)^2/th1'(0)^2 and c = (-i, -1, -1, i) for the units 1, i, j, k (U1, U2); the massless left state is the left-handed field's alone, so up and down share it to 1e-41 and the CKM's massless row and column vanish to 8e-40 (U4): at a point a flat hypercharge line does not lift the first generation (P-128, the owner's B, answered at a point; the first design's 'lift' dropped the identity unit's residue R_1, found by main's read-only reviewing agent before the seal and re-derived on main, all disclosed). The record's zeros are one fact: B1649's null R, B1651's isotropy and B1650's O6 are its untwisted antisymmetric case. What lifts the zero is a coupling's shape, not a line: two points (sigma ratio >= 1.1e-3), a tilted or elliptic profile about a regular point (a non-zero holomorphic moment), or a radially symmetric profile about the puncture, which reads the bilinear's regular part; a radially symmetric profile about a regular point acts as the point (the mean-value property; det <= 1.9e-38) and keeps the zero (U6). This explains the frame dependence on the record (the surface frame's overlap, W72, rank 3; the fibre frame's point, B1649) and hands the question to the Higgs's profile and typing (P-151, P-108). No data. 0 of 19.",
+ "weave_or_thread": "weave"
+}

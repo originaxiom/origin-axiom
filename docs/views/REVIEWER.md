@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1381** |
-| words of findings prose | **1,086,401** |
+| research arcs with findings | **1382** |
+| words of findings prose | **1,087,853** |
 | test lock files referenced | **812** |
-| arcs carrying an authored verdict | **1381** (100.0 %) |
+| arcs carrying an authored verdict | **1382** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 935 |
+| PROVED | 936 |
 | NEGATIVE | 344 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1652`** (3209 words, 0 locks)  
-THE FRAME TRIBUNAL (P-136; a compiled verdict on the record of 2026-10-14, attacked by both seats -- the SM seat's W82 and section 101, chat1's selection report): no frame on record is shown to satisfy the principle's demands on its own -- F1 (Lambda's fibre at one tau) holds CP and the chiral three given Lambda but its hierarchy needs free numbers and its D1 needs a vacuum no dynamics selects (the only selected vacua, omega and the cusp, have none); F2 (the surface) holds the moves but needs an outside source for the three, forbids CP violation and has no hypercharge; F3 (the audit lane's E8) holds the moves only by a supplied completion that, on its flat background, loses the weak roots and Y in every pairwise-commuting class, and its index is not computed (the lane's scope note, taken before landing); F5 (chat1's thread frame) fixes tau's role and the normalisation within a vacuum but its vacuum is weighed, not selected, at c = 6, and it cannot choose a CP sign; F4 (main's candidate, the Standard Model in E6) is refuted by the record (27 (x) (2 + 1) gives one 27, W22, W23, B1440, sm:B1270) and fails D4 on E6's down-lepton tie (W55, W56). Lemma A holds with both halves (the holonomy's V4 and the moves' S3; commutants 2, 3, 1 recomputed on main): wherever the moves act as parallel symmetries, the generations' charges are alike. The D1 criterion, ruled by the owner ('agreed', P-147): a vacuum-broken symmetry counts if the vacuum is selected by a run dynamics, and a chosen background completion is a D6 'supplied' entry. Verdict: outcome 2; the parent is a seven-clause specification, labelled a conjecture (P-108): the moves with a selected vacuum and a completion over the rank-six bundle that keeps the weak roots and Y (in the lane's frame a dichotomy, W83: Y survives only if the family index is not the weave's three); the three without a tagged unit; a family-blind anomaly-free hypercharge; the condensate and the flavon in one theory with typed fields reconciled and the electroweak vertex; a CP source that is not mirror-symmetric; a derived normalisation; and the down quarks split from the charged leptons -- with the selection principle (FK9) over every 'which'. No Standard-Model value is derivable until the parent is built and its vacuum selected. 0 of 19.  
-`B1652_the_frame_tribunal/FINDINGS.md`
+**PROVED — `B1653`** (1452 words, 0 locks)  
+THE RANK OF A POINT COUPLING (sealed 4e3981e24, sha256 70ecef80; PROVED -- every cell holds as sealed; the output committed unread at 832d17295): the fibre's zero modes read at one point -- a value, or the puncture's residue, where both components of F behave like u^-1/2 so Res F~_x F~_y^T = v_x v_y^T -- form a rank-one bilinear of one doublet, so for every flat line and every Higgs S the record's coupling (B1644's Y_unit) has rank <= 2 (U3: at five random twist pairs and three tau, and at every line on the record -- the half-periods, omega's 3-torsion points, W59's 18 Higgs lines -- in every sector, sigma_min/sigma_max <= 7e-41); the twisted residue quaternion is null, R_1^2 + R.R = 0 to 1e-40, with R.R = kappa^2 th1(ubar)^2 th1(delta)^2/th1'(0)^2 and c = (-i, -1, -1, i) for the units 1, i, j, k (U1, U2); the massless left state is the left-handed field's alone, so up and down share it to 1e-41 and the CKM's massless row and column vanish to 8e-40 (U4): at a point a flat hypercharge line does not lift the first generation (P-128, the owner's B, answered at a point; the first design's 'lift' dropped the identity unit's residue R_1, found by main's read-only reviewing agent before the seal and re-derived on main, all disclosed). The record's zeros are one fact: B1649's null R, B1651's isotropy and B1650's O6 are its untwisted antisymmetric case. What lifts the zero is a coupling's shape, not a line: two points (sigma ratio >= 1.1e-3), a tilted or elliptic profile about a regular point (a non-zero holomorphic moment), or a radially symmetric profile about the puncture, which reads the bilinear's regular part; a radially symmetric profile about a regular point acts as the point (the mean-value property; det <= 1.9e-38) and keeps the zero (U6). This explains the frame dependence on the record (the surface frame's overlap, W72, rank 3; the fibre frame's point, B1649) and hands the question to the Higgs's profile and typing (P-151, P-108). No data. 0 of 19.  
+`B1653_the_rank_of_a_point_coupling/FINDINGS.md`
 
 **NEGATIVE — `B1644`** (998 words, 1 locks)  
 A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed.  [Scoped by frame at S124 (2026-10-14): a result in Lambda's frame, the fibre at one tau. In the audit lane's E8 embedding the Higgs in M is a Standard Model singlet, a flavon (the web seat's condensate test, its parity step verified in B1650; the audit lane's field map), so its reading as the electroweak Higgs needs the parent map (P-108).] 0 of 19.  

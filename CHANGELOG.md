@@ -1,5 +1,31 @@
 # Changelog
 
+## S128 THE RANK OF A POINT COUPLING (B1653, PROVED): at a point no flat line lifts the first generation; what lifts it is a coupling's shape
+
+- **B1653** (sealed `4e3981e24`, sha256 70ecef80; every cell as sealed; output committed unread at `832d17295`).
+  - **The fact.** The zero modes read at one point (a value, or the puncture's residue) form a rank-one bilinear of one
+    doublet. So B1644's coupling has rank ≤ 2 for every flat line and every Higgs, at every line on the record and in
+    every sector (σ_min/σ_max ≤ 7 × 10⁻⁴¹).
+  - **The residue quaternion is null**, R₁² + R·R = 0 (c = (−i, −1, −1, i)). The massless left state is the left
+    field's alone (shared by up and down to 10⁻⁴¹), so V = 1 ⊕ U(2).
+  - **P-128, the owner's B, is answered at a point.** The record's zeros (B1649, B1651, B1650's O6) are this fact's
+    untwisted case.
+  - **What lifts the zero:** two points, a tilted or anisotropic profile, or a profile about the puncture (the regular
+    part). A radially symmetric profile about a regular point acts as the point.
+  - **This explains the frame dependence:** W72's overlap has rank 3, and B1649's point has the zero.
+  - **Disclosed.** The first design's "lift" dropped the identity unit's residue R₁. Main's read-only reviewing agent
+    found this before the seal, over three passes, and main re-derived it. Designs v1 and v2 and the review's code are
+    kept beside the seal.
+- **The lock** `tests/test_b1653_the_rank_of_a_point_coupling.py`: the seal and the stored cells; a live numpy check of
+  rank one, rank 2 and the shared null state; the bite (two points and a tilted profile lift; a radial profile does
+  not).
+- **The relay** `CC_TO_ALL_SEATS_2026-10-15_THE_RANK_OF_A_POINT_COUPLING.md`. Nothing is asked; C begins at the Higgs's
+  profile (P-151).
+- **Register:** P-128 done; notes on P-129, P-151 and P-143 (the owner's question on how often the full suite runs,
+  and main's proposal). **LAW_MAP** and **THE_WEAVE** rows.
+- 0 of 19.
+Gates 45 of 45. Full suite: 7318 passed, 1 failed, 68 skipped (1:29:54) -- the spine sweep's claim-pool lock (test_b1210): B1653, law-creating, had no row in P3's CLAIM_CANDIDATES.md; rowed by hand as B1651's was in S125, then the claim-pool, claim-base and public-surface tests re-run on the final tree (17 passed, 0 failed) and the gates (45 of 45), green.
+
 ## S127 THE SZEGŐ READING (B1651's second addendum): §107 checked on main; three banked statements one identity; a Higgs lifts the zero only off a point; two lanes harvested
 
 - **B1651's second addendum** (unsealed: a hand argument and an identity check; no data).
