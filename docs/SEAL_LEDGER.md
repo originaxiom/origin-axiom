@@ -140,7 +140,8 @@ hash-first status.*
 | frontier/B1653_the_rank_of_a_point_coupling/PREREGISTRATION.md | 70ecef80 | 4e3981e24 | 1 | yes |
 | frontier/B1654_the_norm_of_the_boundary_class/PREREGISTRATION.md | 9572fd2c | 155959126 | 1 | yes |
 | frontier/B1656_the_electrons_zero/PREREGISTRATION.md | c4cfc3c0 | 27e7e7482 | 1 | yes |
-| frontier/B1657_the_symmetric_point/PREREGISTRATION.md | 1e0a4bc9 | untracked | 0 | NO |
+| frontier/B1657_the_symmetric_point/PREREGISTRATION.md | 1e0a4bc9 | d4dcd0d50 | 1 | yes |
+| frontier/B1658_the_twisted_half_bound/PREREGISTRATION.md | 3fd8de72 | untracked | 0 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -400,9 +401,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 389 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 390 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 
