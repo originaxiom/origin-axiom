@@ -2520,6 +2520,24 @@ def test_w91_the_twisted_coupling_vector():
     assert len(dl["cases"]) == 96 and dl["P"][:4] == [1, 3, 9, 22]
 
 
+def test_w93_the_twisted_half_bound_checked():
+    """W93 (rule dbf0db69e, one run, not blind): main's B1658 on this seat's own code, five cells hold; the census's
+    ratios recomputed in process from this seat's HZ2021 file"""
+    import math
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_twisted_half_bound_checked.json").read_text(encoding="utf-8"))
+    assert all(d[k]["holds"] for k in ("K1", "K2", "K3", "K4", "K5")) and d["all cells hold"]
+    assert d["K4"]["largest (t + 1/t) ratio over 18 000 one-Higgs draws"] <= 4
+    hzf = here / "received" / "HZ2021_running_masses_MZ.json"
+    hz = json.loads(hzf.read_text(encoding="utf-8"))["masses_GeV"]["value"]
+    T = {k: (lambda t: t + 1 / t)(hz[a] / hz[b]) for k, (a, b) in {"up": ("c", "t"), "down": ("s", "b"),
+                                                                 "lep": ("mu", "tau")}.items()}
+    assert round(T["up"] / T["down"], 2) == 5.08 and round(T["up"] / T["lep"], 2) == 15.92
+    assert round(T["down"] / T["lep"], 2) == 3.13 and math.isclose(T["down"] / T["lep"], 3.134, abs_tol=1e-3)
+    assert d["read-out: two Higgs fields (up; down and leptons)"]["within the bound"]
+
+
 def test_w92_the_per_field_units():
     """W92 (rule 3f838fabb, one run): six cells hold and V3 failed as worded on an instrument slip (jtheta's principal
     branch for theta_2); post hoc V3 holds on all 90 rows with the -q_H^2 law; one exponent recomputed in process"""

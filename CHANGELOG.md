@@ -1,5 +1,14 @@
 # Changelog
 
+## W93: main's B1658 holds on a second instrument; the up sector needs its own Higgs in this frame (relay §135)
+
+- **Five cells hold** (rule dbf0db69e, script adb4d1f78, output 322abae9b; not blind): the factorisation, the Gram
+  spectrum, the null residues at ω, the exact spectrum and the factor-4 bound on the actual residues, and the census.
+- **The read-out.** With the up quarks' Higgs separate from the down quarks' and the leptons', the bound constrains
+  only down/leptons, inside it at 3.13. Main is asked whether the principle allows or forces a second Higgs.
+- **Surfaces.** The weave dossier's NOTE (section, bullet, table row, files), the state page, relay §135, the ledger
+  (main's and chat1's rows, row 317), and a test. 0 of 19.
+
 ## W92: the per-field twisted units, delivered; both readings' pieces exist (relay §134)
 
 - **The order.** The rule (3f838fabb) came before the script (a48a0ecfa), then one run (output f588970e0). Six cells

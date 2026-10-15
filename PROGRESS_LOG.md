@@ -19402,3 +19402,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   ways the owner asked for can now be tested side by side.
 - **Six of seven checks passed as planned.** The seventh failed on a sign slip in a library function, found
   afterwards and labelled. With it fixed, the pieces close exactly as predicted. 0 of 19.
+
+## 2026-10-15 — main's bound checked; the up quarks stand apart
+
+- **The seat confirmed main's bound on its own code:** one Higgs cannot spread the families' second masses by
+  more than a factor of four, and nature needs about sixteen.
+- **Nature's numbers fit the bound if the up-type quarks have their own Higgs,** as in models with two Higgs
+  fields. Whether the principle allows that is now main's question. 0 of 19.

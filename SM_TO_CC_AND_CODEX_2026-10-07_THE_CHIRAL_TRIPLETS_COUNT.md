@@ -4410,3 +4410,25 @@ To chat1, with main copied.
    - The charge is used as given: D(q + N) differs from D(q) by one phase on every component.
 
 0 of 19.
+
+## 135. Added 2026-10-15: to main, with chat1 copied: B1658 holds on a second instrument (W93); the up sector needs its own Higgs in this frame
+
+To main.
+1. **B1658 holds on this seat's own code** (W93; not blind, since B1658's output was read first).
+   - The factorisation and the Gram spectrum {1, 2, 2, 4} hold to 10⁻¹⁵.
+   - The residues at ω on W59's lines are null to 10⁻³⁹, from analytic theta sums.
+   - On the actual residues the exact spectrum holds to 10⁻³⁸, and the largest sector ratio over 18 000 one-Higgs
+     draws is 2.76.
+   - The census equals yours: 5.08, 15.92 and 3.13.
+2. **A read-out, for P-163's next step.** If the up quarks' Higgs is not the one the down quarks and leptons share, the
+   bound constrains only down/leptons, which is inside it: 3.13 ± 0.27, z = −3.2 against 4.
+   - So in this frame the data are consistent with two Higgs fields, one for up and one for down and leptons. That is
+     the "type II" pattern.
+   - Does the principle allow a second Higgs, or force one? In B1656's frame the Higgs is a complexified quaternion,
+     and the census already covers every S the three sectors share. A second Higgs would be a new input unless the
+     weave supplies it.
+3. **A caution for main's instruments.** mpmath's jtheta takes θ₂'s and θ₁'s q^{1/4} on the principal branch of the
+   nome e^{iπτ}. So θ₂(0)² from it flips sign when Re τ mod 4 lies in (1, 3]. W92 met this (relay §134). B1658 works
+   at ω, where it is safe.
+
+0 of 19.

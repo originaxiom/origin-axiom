@@ -298,6 +298,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   instrument slip, mpmath's principal branch for θ₂, and post hoc holds on all 90 rows): W72's units dressed by
   each field's own charge in the z-form, delivered to chat1. A sector closes iff c·(q_L² + q_R² − q_H²) ≡ 0
   modulo N.
+- W93 (main's B1658 on this seat's own code; rule first; one run; five cells as predicted; not blind): one Higgs
+  spreads the sectors by at most 4, and the data's 15.9 refutes it. With the up quarks' Higgs separate, only
+  down/leptons is constrained, and it is inside the bound (3.13).
 
 ## The setting
 
@@ -7586,6 +7589,41 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W93. Main's B1658 (the twisted half bound, P-163) on this seat's own code: all five cells hold; with the up quarks' Higgs separate from the down quarks' and the leptons', the bound constrains only down/leptons, which lies inside it (`the_twisted_half_bound_checked.py`; `W93_RULE.md`)
+
+**Why.** The owner ruled P-163 first (relay §133). Main sealed it as B1658 (b6542d300) and ran it (04d64c2ff). In
+B1656's twisted fibre frame under equal framed data, each sector's residue is a null quaternion. Then for any one Higgs
+S the sectors' (t + 1/t), with t = m₂/m₃, lie within a factor 4 of each other. The data need 15.9. This seat checks it
+on its own code, as W89 checked B1656. **Not blind:** B1658's output was read first.
+
+**Weave or thread.** A fibre-frame result at one τ (ω), on W59's lines: a frozen piece, as B1658 is.
+
+**The order.** The rule (`W93_RULE.md`, dbf0db69e) came before the script (adb4d1f78). There was one run, and its
+output was committed unread (322abae9b). The objects were implemented from B1658's text, and the residues use analytic
+theta sums at 40 digits (W92's post hoc found jtheta unsafe off the principal strip).
+
+**The cells.**
+
+| cell | found |
+|---|---|
+| K1, the factorisation | ∥adj Y∥ = 2∣det S∣∥M∥² to 2 × 10⁻¹⁵; adj Y/det S free of S to 3 × 10⁻¹⁵; σ₃/σ₁ ≤ 2 × 10⁻¹⁶ (200 null M) — holds |
+| K2, the Gram spectrum | {1, 2, 2, 4}∥M∥² to 4 × 10⁻¹⁵; a non-null control misses by at least 0.019 — holds |
+| K3, the null residues at ω | ∣det M∣/∥M∥² ≤ 2 × 10⁻³⁹ on the 18 lines and three sectors; the leptons' R₁ = 0 to 2 × 10⁻³⁹ — holds |
+| K4, the bound on the actual residues | σ₁σ₂ = 2∣det S∣∥M∥² and σ₁² + σ₂² = ∥Y∥² to 3 × 10⁻³⁸, σ₃/σ₁ ≤ 2 × 10⁻³⁹; the largest sector ratio over 18 000 one-Higgs draws is 2.76 — holds |
+| K5, the census | (t + 1/t) ratios up/down 5.08 (z = 2.3 above 4), up/leptons 15.92 (z = 27.0), down/leptons 3.13 (z = −3.2); refuted at 3σ — holds, equal to main's |
+
+**The read-out: two Higgs fields.**
+- If the up quarks' Higgs is not the one the down quarks and leptons share, the bound constrains only down/leptons.
+- That pair is at 3.13 ± 0.27, inside the factor 4.
+- So in this frame the data's second generations are consistent with the bound when the up sector has its own Higgs:
+  the two-doublet pattern of "type II" models. It is the up sector's steeper hierarchy (m_c/m_t = 0.0037, against
+  m_s/m_b = 0.019 and m_μ/m_τ = 0.059) that one Higgs cannot carry.
+- Whether the principle allows or forces a second Higgs is main's question. It is not decided here. In B1656's frame
+  the Higgs is a complexified quaternion, and B1658's census already includes every S shared by the three sectors.
+
+**Status.** COMPUTED (the rule first; one run; five cells as predicted; not blind). B1658 holds on a second instrument.
+The read-out is a pointer for main, not a result. 0 of 19.
+
 ## W92. The per-field twisted units: W72's units dressed by each field's own charge in the z-form; six cells hold (the series, the multiplier, the odd structure's zero, the two readings compared, THETA2 not applying, chat1's coupling); V3, closure on W72's units, failed as worded on an instrument slip, and post hoc it holds on all 90 rows to 10⁻³⁹ with the corrected law (`the_per_field_units.py`; `W92_RULE.md`; post hoc `the_per_field_units_posthoc.py`)
 
 **Why.** The owner ruled on 2026-10-15 (relay §133): build units for both readings of the twist, and chat1 seals both
@@ -8289,6 +8327,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W90 | COMPUTED (the rule first; one run; every cell as predicted; a scoreboard, not blind); weave-type given B1657's laws carried to the sectors, one Higgs, and free matter defects and phases | B1657's two vacuum laws with one shared Higgs defect: no assignment of the vacua to the three sectors survives at 2σ or 3σ; up and leptons share no A at 2σ; down and leptons survive only as (parallel, conjugate) at A = m_μ/m_τ; up and down only as (parallel, conjugate) at A in [0.0152, 0.0179]. 0 of 19 |
 | W91 | COMPUTED (the rule first; one run; four of five cells as predicted; U5 failed as worded on two instrument slips, found post hoc and labelled); weave-type objects, no data | the twisted coupling vector at weight −½, exact: the series to 5 × 10⁻⁴²; the null quaternion to 2 × 10⁻⁶¹; the untwisted limit; 3 384 channels' exponents equal to the closed form; post hoc, chat1's closure law on the delivered object to 7 × 10⁻⁵⁹ once the channel map uses weight −½ and the line is written (a/N, −b/N). 0 of 19 |
 | W92 | COMPUTED (the rule first; one run; six of seven cells as predicted; V3 failed as worded on an instrument slip, found post hoc and labelled, and holds on the post hoc); weave-type objects, no data | the per-field units: W72's units dressed by each field's own charge in the z-form; the series exact to 5 × 10⁻⁵⁹; covariant on 192 threads with the phase exp(2πi ε c q²/N); zeros only at N = 12, q = 6; the readings differ by the odd spin structure's term; THETA2 does not apply; chat1's coupling equals W91's; post hoc, closure with −q_H² on all 90 rows to 7 × 10⁻⁴⁰. 0 of 19 |
+| W93 | COMPUTED (the rule first; one run; five cells as predicted; not blind); a fibre-frame result at one τ, a frozen piece | main's B1658 on this seat's own code: the factorisation, the Gram spectrum {1, 2, 2, 4}, the null residues at ω, the exact spectrum and the factor-4 bound on the actual residues, the census (5.08, 15.92, 3.13); read-out: with the up quarks' own Higgs only down/leptons is constrained, inside the bound. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -8367,6 +8406,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
+- `W93_RULE.md`: the rule, committed before the code, not blind; `the_twisted_half_bound_checked.py` → `the_twisted_half_bound_checked.json` and `the_twisted_half_bound_checked_run.txt`: W93, main's B1658 on this seat's own code.
 - `W92_RULE.md`: the rule, committed before the code, with the scratch exploration disclosed; `the_per_field_units.py` → `the_per_field_units.json`, `the_per_field_units_delivery.json.gz` and `the_per_field_units_run.txt`: W92, the per-field units, the cells, `PerFieldSource` and the delivery for chat1; `the_per_field_units_posthoc.py` → `the_per_field_units_posthoc.json`: post hoc, V3 with R from analytic theta sums.
 - `W91_RULE.md`: the rule, committed before the code; `the_twisted_coupling_vector.py` → `the_twisted_coupling_vector.json`, `the_twisted_coupling_vector_delivery.json.gz` and `the_twisted_coupling_vector_run.txt`: W91, the twisted coupling vector, exact, and the delivery for chat1; `the_twisted_coupling_vector_posthoc.py` → `the_twisted_coupling_vector_posthoc.json` and `the_twisted_coupling_vector_posthoc2.py` → `the_twisted_coupling_vector_posthoc2.json`: post hoc, U5's two diagnoses.
 - `W90_RULE.md`: the rule, committed before the code, with the seat's hand work at central values disclosed; `the_one_higgs_census.py` → `the_one_higgs_census.json`: W90, B1657's two vacuum laws with one shared Higgs defect against HZ2021's mass ratios (the sector sets in closed form and on a log grid; the census of every three-sector and pair assignment at 0, 2 and 3σ).
