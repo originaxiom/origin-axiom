@@ -7592,6 +7592,30 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## Reading: why the leptons' coefficient is extremal in W94 (READING, checked numerically in scratch after W94; 2026-10-15)
+
+**The question.** In W94 the leptons' coefficient was exactly 2 with the symmetric Higgs S₀ = R(ω), and exactly ½ with
+S̄₀, on all 18 of W59's lines. Why?
+
+**The answer, checked in scratch on all 18 lines** (post hoc, after W94's read-out; no data used):
+- **On W59's lines the lepton residue is the same direction on every line:** the order-3 move's isotropic eigenline for
+  e^{+iπ/3} (R̄(ω) in B1657's names). Its cosine with that eigenvector is 1 to twelve digits on every line, and its
+  overlap with T(ω) = R(ω) is 0.
+- **The cause is the electron's zero.** For the leptons δ = (q_L − q_e)w = −9w lies in the lattice, so θ_s(δ) is θ_s(0)
+  up to a channel sign. And ū = (q_L + q_e)w = 3w is fixed by z ↦ ωz on W59's lines. So the residue c_s θ_s(ū)θ_s(δ)
+  is an eigenvector of the move. It cannot lie on n, since n is not isotropic and the residue is null. It lies on R̄.
+- **So S₀ = R(ω) and the leptons sit on conjugate eigenlines,** which is B1657's conjugate vacuum, with factors
+  û†p̂ = 0 and v̂ᵀq̂ = 1. B1658's k = 2/((1 + x)(2 − y)) is then 2, its maximum.
+- **With S̄₀, on the leptons' own eigenline,** the configuration is parallel: x = 1, y = 0, and k = ½, its minimum.
+- **The quarks' residues are not eigenvectors,** since their δ is not in the lattice. Their k are generic, 0.775 to
+  1.174.
+
+**What it means.** W94's exact lepton extremality is forced by the same arithmetic as B1656's electron's zero. On W59's
+lines the symmetric Higgs is either opposite the leptons or parallel to them. Nature's ordering, with the leptons'
+m₂/m₃ the largest, picks "opposite": the conjugate vacuum. This is a reading of exact structure, not a value.
+
+**Status.** READING, by hand, with the scratch check on all 18 lines. A test recomputes one line in process. 0 of 19.
+
 ## W94. The symmetric null Higgs at ω and the down/lepton relation with no free size: the leptons' coefficient is exactly the maximum, 2, on every line; (m_μ/m_τ)/(m_s/m_b) is predicted at 2.58, 2.42 or 1.70 by line class against the data's 3.14; L3 failed as worded (two classes within 2σ with W88's allowance, none without) (`the_symmetric_higgs_relation.py`; `W94_RULE.md`)
 
 **Why.** W93's read-out: B1658's bound refutes one shared Higgs only through the up sector. With the up quarks' Higgs

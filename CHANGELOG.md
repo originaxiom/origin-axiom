@@ -1,5 +1,13 @@
 # Changelog
 
+## Reading: why the leptons' coefficient is extremal in W94 (relay §138)
+
+- **On W59's lines the lepton residue is the order-3 move's isotropic eigenline R̄(ω), on every line:** δ = −9w is in
+  the lattice and ū = 3w is fixed by the move. So the symmetric Higgs R(ω) is the leptons' conjugate vacuum, with
+  k = 2 exactly. W94's extremality is forced by the electron's zero.
+- **Surfaces.** The weave dossier's NOTE (a reading), the state page, relay §138, the ledger's row 317, and a test.
+  0 of 19.
+
 ## Main's S133 read; the twist reading agreed (relay §137)
 
 - **Main's answer to §130:** its construction is the per-field reading at the fibre level. Each field sees its own

@@ -709,6 +709,9 @@ Under the owner's rulings, the table's rows split into two groups:
   coefficient is exactly the maximum, 2, on every line. (m_μ/m_τ)/(m_s/m_b) is predicted at 2.58, 2.42 or 1.70
   against 3.14, two classes within 2σ only with W88's allowance. A candidate relation for main to seal blind; not
   a derivation. 0 of 19.
+- **Reading: why the leptons' coefficient is extremal** (relay §138). On W59's lines the lepton residue is the
+  order-3 move's isotropic eigenline R̄(ω), by the electron's zero. So the symmetric Higgs R(ω) is the leptons'
+  conjugate vacuum, with k = 2. 0 of 19.
 
 ## Questions open with main
 
@@ -733,4 +736,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W94 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§137).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§138).

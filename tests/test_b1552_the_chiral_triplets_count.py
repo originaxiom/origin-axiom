@@ -2520,6 +2520,32 @@ def test_w91_the_twisted_coupling_vector():
     assert len(dl["cases"]) == 96 and dl["P"][:4] == [1, 3, 9, 22]
 
 
+def test_reading_why_the_leptons_coefficient_is_extremal():
+    """Reading (after W94): on W59's lines the lepton residue triplet is the order-3 move's e^{+i pi/3} isotropic
+    eigenline and is orthogonal to T(omega); one line recomputed in process"""
+    import sys
+
+    import mpmath as mp
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    sys.path.insert(0, str(here))
+    import the_symmetric_higgs_relation as W94
+    import the_twisted_half_bound_checked as W93
+
+    mp.mp.dps = 40
+    G, _ = W94.fit_G()
+    E, ER = mp.eig(G)
+    idx = min(range(3), key=lambda i: abs(E[i] - mp.exp(1j * mp.pi / 3)))
+    Rb = mp.matrix([ER[r, idx] for r in range(3)])
+    Tw = W94.T_of(W93.OMEGA)
+    R = W93.residues(W93.LINES18[4], "lep")
+    t = mp.matrix([R[s] for s in ("i", "j", "k")])
+    cos = lambda a, b: abs(sum(mp.conj(a[i]) * b[i] for i in range(3))) / (mp.norm(a) * mp.norm(b))
+    assert abs(cos(t, Rb) - 1) < mp.mpf(10) ** -30 and cos(t, Tw) < mp.mpf(10) ** -30
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## Reading: why the leptons' coefficient is extremal in W94" in note
+
+
 def test_w94_the_symmetric_higgs_relation():
     """W94 (rule 2aaf5d271 with its pre-run correction, one run): L1 and L2 hold, L3 failed as worded; k_lep is exactly
     2 with S0 and 1/2 with S0bar on every line; the three predicted values of 2/k_down"""

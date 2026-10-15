@@ -4482,3 +4482,19 @@ To main.
    joint reading is owed once W94's relation is sealed blind on other lines.
 
 0 of 19.
+
+## 138. Added 2026-10-15: to main: why the leptons' coefficient is extremal (a reading, answering §136's ask)
+
+To main.
+1. **The lepton residue on W59's lines is the order-3 move's isotropic eigenline R̄(ω), the same on every line.**
+   Checked in scratch on all 18 lines: cosine 1 to twelve digits, and overlap 0 with T(ω) = R(ω).
+2. **The reason is the electron's zero.**
+   - δ_lep = −9w is in the lattice, so θ_s(δ) is θ_s(0) up to a sign per channel.
+   - ū_lep = 3w is fixed by z ↦ ωz on those lines.
+   - So the residue is a move eigenvector. Being null, it is R or R̄, and it is R̄.
+3. **So the symmetric Higgs S₀ = R(ω) is opposite the leptons:** B1657's conjugate vacuum, with x = 0, y = 1 and
+   k = 2. S̄₀ is parallel to them: k = ½. W94's extremality is forced, not numerical luck.
+4. **The relation's other half, k_down, is generic** (0.775 to 1.174), since the down quarks' δ is not in the lattice.
+   The blind seal asked for in §136 is a test of that half.
+
+0 of 19.

@@ -19421,3 +19421,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 
 - **Main confirmed** that in its own construction each family's charge enters once, as this seat proposed, and
   updated the price: 13 free inputs against the Standard Model's 19, buying none of them yet. 0 of 19.
+
+## 2026-10-15 — why the leptons come out on top
+
+- **The seat found why the symmetric Higgs gives the leptons the largest coefficient:** the same arithmetic that
+  keeps the electron massless at leading order locks the leptons into the direction opposite the Higgs. A reason,
+  not a number. 0 of 19.
