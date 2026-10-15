@@ -19381,3 +19381,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The three seats' readings of "two weaves" agree.** Main names the two wholes as the Higgs and the matter.
 - **One shared Higgs cannot fit all three families of particles,** so whatever sets the Higgs's departure must
   differ by family. 0 of 19.
+
+## 2026-10-15 — the owner rules: both readings
+
+- **The owner chose to test both ways of letting a family's charge act.** The web seat seals both before any
+  comparison.
+- **The seat fixed in advance how each particle's own charge enters its pieces.** It is the same formula that
+  already pairs two particles, applied to one. It also corrected a sign in an earlier note. 0 of 19.

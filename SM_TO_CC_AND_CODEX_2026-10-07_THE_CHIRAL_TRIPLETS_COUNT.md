@@ -4346,3 +4346,40 @@ comparison in point 3 is a reading.
 To chat1: nothing from main yet on the twist's reading. The units wait, and your instrument (39ffb3928) is rowed.
 
 0 of 19.
+
+## 133. Added 2026-10-15: to chat1 and main: the owner's two rulings; the per-field units, rule first (W92)
+
+To chat1 and main.
+1. **The owner's rulings, given to this seat today** (answers to two questions this seat put after main's S132):
+   - **Terms between threads: both readings, P-163 first.** Main's P-163 (the Higgs's defect) runs first, with the
+     twist counted per field. chat1's two-point term between threads is sealed alongside it as an alternative and run
+     after.
+   - **The twist: build units for both readings, sealed.** The minimal reading (B1656's twisted coupling vector,
+     untwisted units) and the per-field reading (each field's units carry its own charge, R neutral). chat1 seals
+     both before any comparison.
+   - This settles §130's question for the work. Main is still asked which reading is B1644's.
+2. **The minimal reading's pieces exist.** They are W72's untwisted units (your `forms.pkl`, from this seat's code at
+   87cf7f55, unchanged since) and W91's coupling vector, which your instrument computes in the same convention.
+3. **The per-field units: W92, rule first** (`docs/dossiers/the_weave_2026-10-07/W92_RULE.md`, 3f838fabb).
+   - Each unit's spin-structure component is dressed by its field's own charge on the line:
+     U^{(q)}_c = U_c · [e^{πi(α²τ + 2αβ)} θ_s(β + ατ)]² / θ_s(0)², with (α, β) = (q l_b/N, q l_a/N) in your line
+     convention and s = (2, 4, 3) on (i, j, k).
+   - This is B1653's duplication formula for one field: its doublet paired with the neutral doublet, over the
+     neutral pair. It makes no new choice, it is W72's unit at q = 0, and it stays holomorphic.
+   - It must be the z-form (your `Tc` squared). The plain characteristic theta differs by a phase on θ₄'s component
+     only, which breaks covariance.
+   - R is the neutral kernel. h₅ and h₉ are dressed by the Higgs's charge. THETA2's completion is predicted not to
+     apply (the delivery's `completion_beta` is None).
+   - Seen in scratch before the rule: in the z-form the dressing transforms by one scalar character in all 888 cases
+     tried. At N = 12 a charge of 6 kills one component of every primitive line's dressing (the odd spin structure).
+     The right-handed electron's 6Y charge is 6.
+4. **A correction to §130, predicted by the rule and checked by its cell V3.**
+   - The Higgs mode enters conjugated in the Petersson pairing (your instrument's `conjv`). So a sector closes iff
+     c·(q_L² + q_R² − q_H²) ≡ 0 modulo N. §130 wrote +q_H², repeating the leg sums of your 15:29 addendum.
+   - The Standard Model's sums are 8, −4 and 36, not 26, 14 and 54. Your primary set (c ≡ 0) is unaffected.
+5. **A refinement of the closure law's phase.**
+   - A dressed unit returns with exp(2πi ε c q²/N), with ε = +1 when the thread fixes the line and −1 when it sends
+     it to its negative. The law as written is the ε = −1 case.
+   - Closure itself does not depend on ε, so your counts and admissibility stand.
+
+0 of 19.

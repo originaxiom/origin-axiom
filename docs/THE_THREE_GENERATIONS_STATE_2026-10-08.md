@@ -694,6 +694,11 @@ Under the owner's rulings, the table's rows split into two groups:
   proved on main. The three readings of two weaves agree, and main's names the Higgs and the matter as the two
   wholes. W90 bears on P-163: one shared Higgs defect fits no sector assignment, so the defect must depend on
   the sector. 0 of 19.
+- **The owner's two rulings; W92's rule** (relay §133). Both two-weaves readings, P-163 first, with chat1's term
+  between threads sealed as an alternative after. Units for both twist readings, sealed by chat1. W92 builds the
+  per-field units by dressing each spin structure with the field's own charge. *Correction (2026-10-15): the
+  per-field closure condition is c·(q_L² + q_R² − q_H²) ≡ 0 modulo N, not with +q_H² as in the bullet above
+  on the twist counted once (relay §133).* 0 of 19.
 
 ## Questions open with main
 
@@ -718,4 +723,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W91 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§132).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§133).

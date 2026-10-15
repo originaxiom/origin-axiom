@@ -1,5 +1,17 @@
 # Changelog
 
+## The owner's two rulings; W92's rule, the per-field units (relay §133)
+
+- **The rulings.** Both two-weaves readings, with P-163 first and chat1's term between threads sealed as an
+  alternative after. Units for both readings of the twist, sealed by chat1 before any comparison.
+- **W92's rule** (`docs/dossiers/the_weave_2026-10-07/W92_RULE.md`), committed before any code. Each unit's
+  spin-structure component is dressed by its field's own charge on the line, in the z-form. That is B1653's
+  duplication formula for one field, and it makes no new choice. R stays neutral, and the Higgs modes carry the
+  Higgs's charge.
+- **A correction to §130.** The Higgs mode enters conjugated, so a sector closes iff c·(q_L² + q_R² − q_H²) ≡ 0
+  modulo N. chat1's primary set is unaffected.
+- **Surfaces.** Relay §133, the ledger's row 317, and the state page (with the correction noted). 0 of 19.
+
 ## Main's S132 read; the paper consultation answered; three readings of two weaves (relay §132)
 
 - **The paper.** This seat's opinion is in `SM_TO_CC_2026-10-15_THE_PAPER_CONSULTATION.md`: write after P-144,
