@@ -1,0 +1,5 @@
+(b) line (0.111,0.222): 3w omega-fixed? False; lepton |D|/|R|^2 2.9210, |R1|/|R| 3.2e-16, c {'1': None, 'i': np.float64(-2.7832), 'j': np.float64(-2.7832), 'k': np.float64(22.6143)}
+(b) line (0.111,0.000): 3w omega-fixed? False; lepton |D|/|R|^2 2.9210, |R1|/|R| 1.5e-16, c {'1': None, 'i': np.float64(-2.7832), 'j': np.float64(22.6143), 'k': np.float64(-2.7832)}
+(b) line (0.444,0.111): 3w omega-fixed? True; lepton |D|/|R|^2 0.0000, |R1|/|R| 1.2e-15, c {'1': None, 'i': np.float64(2.2313), 'j': np.float64(2.2313), 'k': np.float64(2.2313)}
+(c) W59 line (1/9,1/9), fictitious leptons (-3, 5): |D|/|R|^2 3.2289, |R1|/|R| 0.363
+    the same line, true leptons (-3, 6): |D|/|R|^2 4.90e-13, |R1|/|R| 3.9e-16
