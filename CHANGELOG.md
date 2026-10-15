@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-15 actual invariant-algebra brackets, research checkpoint
+
+Fixed based compact E8 lifts/ALL commuting weak corrections:4407/4407
+exact, complete records identical at published repair02fddebb0,
+18pins/tree/index unchanged. Actual compact g2+u1, not dimension naming;
+first failed equality instrument retained. New proof/source/tests and
+full signed tensor under physical-bridge surface_invariant_brackets.
+Live regression pending at science checkpoint. Full real-parent/domain,
+projected transport and SAME stationary interactions/SM/three/gravity
+remain active; no universal negative or outside/main acceptance.
+
 ## 2026-10-14 extreme-domain odd complementary form
 
 October14 odd-domain form checkpoint:26 native/21 separate exact

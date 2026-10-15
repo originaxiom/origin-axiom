@@ -1,5 +1,15 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October15 path-local research, no new shared arc or outside acceptance.
+Source physical-bridge surface_invariant_brackets_2026_10_14/PROOF and
+FINDINGS;4407/4407 exact at published repair02fddebb0. Live safeguards
+below are sealed source locks, regression pending at this checkpoint.
+
+| Scoped statement | Argument and LIVE safeguard |
+|---|---|
+| The specified based compact E8 lifts and ALL commuting weak corrections have actual invariant algebra compact g2 plus central weak u1, not merely dimension15. | B1641 coefficient/move antecedent ONLY; NEW surface_invariant_brackets_2026_10_14/PROOF.md actual signed intertwiners/225 brackets/compact Killing/root strings; tests/test_physical_bridge_surface_invariant_brackets.py::test_g2_actual_root_strings_not_dimension_matching and test_compact_killing_and_fake_form_control. Not every background or an observed physical spectrum. |
+| Its colour8 and mixed6 close into the derived g2; the complete parallel rank is3, derived rank2. | B1641 coefficient antecedent ONLY; NEW surface_invariant_brackets_2026_10_14/PROOF.md actual bracket tensor/compact Cartan and test_whole_invariant_brackets_and_jacobi. Rules out an UNBROKEN rank4 SM subalgebra in this parallel algebra only, not a whole-architecture or broken-phase theorem. |
+
 October14 actual geometric-loop joint, path-local authored mathematics.
 329/32 exact and158 selected live PASS at corrected pre-run f0760049f;
 46pins/tree unchanged. First signed prediction FAILED and is preserved.

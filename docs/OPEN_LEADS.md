@@ -1,5 +1,16 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-ACTUAL-INVARIANT15-BRACKETS: October15 finite identification complete
+for the specified based E8 lifts/ALL commuting weak corrections.
+4407/4407 exact at published repair02fddebb0, complete tensors identical,
+18pins/tree/index unchanged. Compact g2+u1, centre1/rank3/derived rank2;
+actual roots/strings/Killing sign. First failed instrument archived.
+LIVE regression pending at this checkpoint. Other backgrounds/broken
+phases not excluded, physical index/three uncomputed. Primary OPEN:
+PB-ACTUAL-PROJECTED-MODE-TRANSPORT and PB-REAL-PARENT-TRACE-DOMAIN,
+then SAME stationary interactions/norms/ends/anomalies. Source:
+physical-bridge surface_invariant_brackets_2026_10_14/FINDINGS.md.
+
 October14 night all-seat intake: B1651/W81/W83 finite original producers
 independently replayed after ce62cb60c,complete records agree;10pins/tree
 unchanged. Not all physical claims verified. Current geometric/real-

@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+October15 actual invariant brackets:4407/4407 exact PASS with complete
+byte-identical tensors at published repair02fddebb0;18pins/tree/index
+unchanged. Actual compact g2+u1, centre1/ranks3/2, six long/six short
+roots and bracket strings. First equality failure preserved. Not an
+unbroken SM phase or an architecture-wide negative. Primary NEXT actual
+projected kernel/reality/domain and SAME stationary interactions. Live
+regression pending at this checkpoint. See
+surface_invariant_brackets_2026_10_14/FINDINGS.md and NEXT_TEST.md.
+
 October14 late refresh: all11 remote heads fetched/enumerated; SM now
 5b901d43a. W85 rule/source/lock reviewed personally, not rerun here;
 separate60-digit instrument strengthens B1651 without deriving a Higgs

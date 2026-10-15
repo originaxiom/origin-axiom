@@ -19447,3 +19447,25 @@ attribution/vacuity/seal/42 stale relay debts remain,146 OPEN,review519
 overdue. Both exact captures/custody and scientific pins preserved.
 Goal remains ACTIVE, actual global parent/kernel/Higgs/anomalies/gravity
 and outside/full-suite/main acceptance not achieved.
+
+## 2026-10-15 actual invariant15 bracket joint, path-local research
+
+Main's gauge-type question answered by actual E8 brackets at published
+repair02fddebb005422452609f42ddcbdb83bd6611d5a:4407/4407 exact,
+COMPLETE records byte-identical,18pins/12,806 tracked files/index
+unchanged. The entire fixed-based/commuting-weak invariant algebra is
+compact g2+u1, with central weak H, derived14/ranks3 and2, actual
+root strings and negative compact intrinsic Killing form. First two
+structural equality failures archived with all17 source snapshots;
+zero-residual symbolic repair separately sealed BEFORE second run.
+No tolerance, matrices, basis or prediction changed. Distinct engines
+share certificate formulation/author, not outside proof acceptance.
+
+Sources/proof/tensor/receipt and NEXT_TEST in physical-bridge
+surface_invariant_brackets_2026_10_14. Live regression pending at this
+science checkpoint. This algebra cannot hold UNBROKEN rank4 SM, but no
+all-background/broken-phase/programme negative follows. Physical index
+uncomputed, not disproved-three. Primary next actual projected mode/
+full reality-domain map and SAME stationary interactions/norms/ends/
+anomalies; full SM+gravity goal ACTIVE and unachieved. Sender relay
+dual-homed on this branch, no foreign branch edits or shared arc number.

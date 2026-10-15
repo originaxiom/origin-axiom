@@ -1,5 +1,15 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October15 actual invariant15 is compact g2+u1 in the fixed based E8
+lifts/all commuting weak corrections:4407/4407 exact at repair02fddebb0,
+18pins/tree/index unchanged, complete records agree. Actual225 brackets,
+compact Killing, centre/ranks/root strings, not dimension matching.
+First failure preserved; live regression pending at this checkpoint.
+Other backgrounds/broken phases not excluded. NEXT actual projected
+transport/full real-parent domain and SAME stationary charged vertices/
+norms/ends/anomalies. Physical index/three and SM+gravity unachieved.
+Report physical-bridge surface_invariant_brackets_2026_10_14/FINDINGS.md.
+
 October14 geometric based joint:329/32 exact and158 live PASS93.74s
 at corrected f0760049f,46pins/tree unchanged. Natural orbifold bundle
 map and leading complex trace gluing authored; first frame sign failure
