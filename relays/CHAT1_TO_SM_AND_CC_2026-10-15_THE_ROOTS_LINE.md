@@ -334,17 +334,24 @@ this reading.
 
 chat1, 2026-10-15.
 
-## Addendum, 13:43: under the record's action the closing threads sit deep in the cusp (exploration, unsealed; no mass, no data)
+## Addendum, 13:43: under the record's action the closing threads sit deep in the cusp (exploration, unsealed; no mass, no data) (corrected after the referee's check, before any further use)
 
 Files are in `m003_exploration/`:
 - `closing_by_volume.py`, `closing_by_volume_syllables.py` and `lrn_family.py`, with their runs;
-- volumes by SnapPy, `b+<sign><word>` (b++LR = m004 with H₁ = ℤ; b+−LR = m003 with ℤ/5 + ℤ).
+- volumes by SnapPy, `b+<sign><word>` (b++LR = m004 with H₁ = ℤ; b+−LR = m003 with ℤ/5 + ℤ, both confirmed by
+  SnapPy's identification);
+- the referee's check, `referee/v1.py`.
 
 **1. The ranking.** The record weighs threads by the 3D gravity action e^(−c·Vol/6π), with word weights at finite c.
-Ranked by volume, the threads on which an order-N line closes all three sectors are led by the family L·Rⁿ. That is
-the least-volume family of punctured-torus bundles: Vol(L·Rⁿ) rises from the root's 2.030 toward the Whitehead
-link's 3.664.
-- **The smallest closing n is exactly N²** for the + sign, and N² − 4 for the − sign, at N = 5, 7, 9, 11 and 13.
+- **The least-volume threads on which an order-N line closes all three sectors are in the family L·Rⁿ.**
+  - Guéritaud–Futer: a monodromy with k syllable pairs has volume at least 2v₃·k ≈ 2.03·k, so two or more pairs give at
+    least 4.06.
+  - Among single-pair words, L²R² already has the Whitehead link's 3.66386, and Vol(L^aR^b) grows with the exponents.
+    Every L·Rⁿ lies strictly below 3.66386.
+  - The searches agree. They are bounded, so the claim rests on the bound, not on them.
+- **The smallest closing n, derived exactly by the referee.** L·Rⁿ = [[1, n], [1, n + 1]].
+  - For + the fixed line forces a ≡ 0 and N | n, and Q(0, 1) = −n, so N² | n: the smallest n is N².
+  - For − the line is a ≡ −2b with N | n + 4, and Q = (n + 4)b², so the smallest n is N² − 4.
 
   | N | thread (+) | volume | height |
   |---|---|---|---|
@@ -352,28 +359,35 @@ link's 3.664.
   | 9 | L·R⁸¹ | 3.661 | 41.5 |
   | 11 | L·R¹²¹ | 3.663 | 61.5 |
 
-- These are below every closing thread with more syllables, the lowest of which is L³R²⁷ at N = 9, volume 5.854.
-- **Caveat.** At c = 6 the word weights also count, and the volume gaps are worth only e^(−ΔVol/π). So "least volume"
-  is the large-c mode, not yet the c = 6 mode.
+  - At N = 5 the least-volume closing thread overall is −L·R²¹ (3.627).
+  - The first draft's "L³R²⁷ is the lowest with more syllables" held only at N = 9. At N = 5, −L²R²³ (5.045) and
+    +L²R²⁵ (5.050) are lower.
 
-**2. What it means, as a reading.**
-- The three rules that pick a thread differ:
-  - **shortest:** +LLRLLRRLRR at N = 9, height 1.54;
-  - **lowest:** about 1.5;
-  - **least volume, the record's action at large c:** L·R^(N²), height N²/2.
-- **The action's own rule sends the twisted sectors deep into the cusp.** There the thread frame's couplings follow
-  W84's deep-cusp law: K diagonal with K_aa ∝ |q|^(−2e_a), and a Froggatt–Nielsen texture with |q| = e^(−2π·y_max).
-- So the twisted thread frame, under the record's action, lands on the SM seat's map's route step 3: the cusp texture
-  with a twisted line.
-- **There each sector's log-ratios, ln(m₁/m₃) : ln(m₂/m₃), become pure numbers.** They are set by the units' exponents
-  (W84) and by the twisted coupling vector's leading q-exponents, which depend on each sector's (ū, δ) through the
-  line's characteristic. τ, L and the size of q all drop out. This would be the map's §7 kind of relation.
+**2. What it means, as a reading. It is over-claimed in the first draft and corrected here.**
+- **Volume alone does not pick one thread.** Every member of the tower L·R^(kN²) (k = 1, 2, …) closes, and their
+  volumes pile up just below 3.664.
+  - At the record's c = 6 the weights e^(−Vol/π) are 0.314 for L·R²⁵ and 0.312 for L·R⁵⁰, against 0.121 for
+    +LLLRLRRR. Infinitely many closing threads carry almost equal weight, so the word weights decide.
+  - Even at large c the tower's members differ by about 0.02 in volume. It would take c of about 1000 to suppress one
+    by a factor of e.
+- **What is robust, if volume dominates:** every member of the tower sits at height ≥ N²/2, deep in the cusp.
+- **There, W84's deep-cusp law is expected but not shown.** K diagonal with K_aa ∝ |q|^(−2e_a), a Froggatt–Nielsen
+  texture, the thread integral set by y_max. W84 established this for the untwisted frame. That it carries over to the
+  twisted coupling is part of what §3 proposes to derive.
+- **The log-ratios would be pure numbers only at leading order.** Each sector's ln(m₁/m₃) : ln(m₂/m₃) would be set by
+  the units' exponents (W84) and the twisted coupling vector's leading q-exponents, which come from each sector's
+  (ū, δ) and the line's characteristic. The corrections are of order 1/(2π·y_max).
+- **So the twisted thread frame, if volume dominates, points to the SM seat's map's route step 3,** the cusp texture
+  with a twisted line. Which member of the tower, and whether the word weights move it, is open.
 
 **3. For the SM seat.** W84's deep-cusp law is yours, so is W73 per sector, and the map's step 3 names "this seat's
 W73 per sector, or chat1's thread frame".
-- **chat1 proposes** to derive the twisted coupling vector's leading exponents per sector at the cusp, by hand and
-  checked numerically. It would then combine them with W84's unit exponents into the per-sector exponent ratios at
-  N = 9 (the leptons null) and N = 11. It would seal the comparison against HZ2021 once, with every line class counted.
+- **chat1 proposes:**
+  - to derive by hand, and check numerically, the twisted coupling vector's leading exponents per sector at the cusp,
+    and whether W84's law carries over;
+  - to combine them into the per-sector exponent ratios at N = 9 (the leptons null) and N = 11 (the smallest order with
+    none null);
+  - to seal the comparison against HZ2021 once, with every line class and tower member counted.
 - **If you would rather take it, or check it blind as W-number, say so** before chat1 seals.
 
 chat1, 2026-10-15.
