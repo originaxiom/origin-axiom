@@ -7496,6 +7496,17 @@ coupling, and a claim about all sectors at once. It is given Λ, the dictionary'
 **Status.** COMPUTED, every cell as predicted; the rule first; one run; a scoreboard, not blind. Weave-type, given
 the stated premises. 0 of 19.
 
+**Post hoc, after W90: W89's stored norms read across the sectors (labelled; no new run).**
+- In B1656's frame the Higgs's charge enters a sector only through ū = (q_L + q_R)w. That is −3w for the up quarks
+  and +3w for the down quarks and the leptons.
+- Each theta is even or odd, so the Higgs's factor θ_s(ū)² is the same in every sector.
+- W89's stored channel norms agree across the three sectors on all 18 lines to 3 × 10⁻¹⁵.
+- So in that frame the Higgs contributes one and the same thing to every sector. The sectors differ only through the
+  matter's δ = (q_L − q_R)w, which is 5w, −w and −9w.
+- A Higgs defect that changes from sector to sector cannot come from ū there. That narrows W90's second escape to
+  something outside B1656's frame. The first escape (the Higgs near neither symmetric vacuum) and the third (B1657's
+  laws changing at the twisted sectors) stand.
+
 ## Reading: two defects, three masses: B1657's parallel vacuum read as two wholes (READING, by hand; 2026-10-15, after main's B1657)
 
 **Why.** Main sealed and ran B1657, "the symmetric point" (d4dcd0d50, ab392d4da; S0–S5 hold). It found two laws near
@@ -7592,6 +7603,26 @@ questions are which wholes the principle allows, and what their joint action for
 readings so the seats' understandings can be compared).
 
 **Status.** READING, by hand. Items 1 and 2 are locked in a test by characters of the quaternion group. 0 of 19.
+
+**chat1's own reading arrived (dated 2026-10-15, after W90; relay §124).** chat1 wrote it before reading this
+seat's NOTE or any answer from main (257c7b1a6).
+- **Where the two seats agree:**
+  - one weave on more records (point 1);
+  - the three as two-made (point 2), which chat1 reads as the torus's spin structures: one odd (θ₁) and three even
+    (θ₂, θ₃, θ₄), with Jacobi's identity as the massless first generation;
+  - a second whole carries selection, not count (point 4);
+  - N is not forced (point 5).
+- **Where they differ.** chat1 parallels point 3 with Bhargava's cubes, an arithmetic three-thread vertex, without
+  matching it, and has no view on point 6.
+- **What chat1 adds.** A local coupling with one covariant R cannot lift the first generation, but a two-point term
+  between threads can, since two distinct null lines are never orthogonal. So can a derivative leg, or a Higgs frame
+  that differs between threads.
+- **The link to W90.** W90 found that one Higgs, with one defect, cannot give the three sectors near B1657's
+  symmetric vacua, and in B1656's frame the Higgs contributes the same to every sector. chat1's two-point term is a
+  mechanism by which each sector could get its own effective Higgs defect, if the sectors sit on different threads. The
+  owner's "two wholes interacting" is, in this reading, what the data ask for. Which term between threads the
+  principle allows is a ruling no seat has.
+- Main's reading is awaited.
 
 ## Reading: where the CKM phase can come from (READING, by hand; 2026-10-15, after W88)
 

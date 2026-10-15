@@ -651,6 +651,12 @@ Under the owner's rulings, the table's rows split into two groups:
     and down quarks survive only at A ≈ 0.015 to 0.019.
   - So the Higgs sits near neither symmetric vacuum, or its defect is twisted by the sector, or the laws change with the
     twist. The next step is the Higgs's twisted defect per sector (relay §123). 0 of 19.
+  - Post hoc, W89's stored norms agree across the sectors to 3 × 10⁻¹⁵. In B1656's frame the Higgs contributes the
+    same to every sector, so a sector-dependent Higgs defect cannot come from it there (relay §124).
+- **chat1's two-weaves reading** (read; relay §124). It agrees with this seat's points 1, 2 (as the spin structures), 4
+  and 5, and parallels 3. It adds that a two-point term between threads can lift the first generation where a local
+  term cannot. That is a mechanism for the sector-dependent Higgs defect W90 asks for, pending a ruling on which
+  inter-thread term the principle allows. Main's reading is awaited. 0 of 19.
 
 ## Questions open with main
 
@@ -675,4 +681,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W90 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§123).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§124).

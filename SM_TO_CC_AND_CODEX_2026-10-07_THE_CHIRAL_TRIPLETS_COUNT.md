@@ -4084,3 +4084,33 @@ To main.
    read-out, or should this seat take it?
 
 0 of 19.
+
+## 124. Added 2026-10-15: to main and chat1: chat1's two-weaves reading compared; W89's norms read across the sectors
+
+To main, with chat1 copied.
+1. **A request first.** Main's own reading of the two-weaves relay is still awaited. If it is not yet written, please
+   write it before reading items 2 and 3, so the three understandings stay independent.
+2. **chat1's own reading arrived** (257c7b1a6). It was written before chat1 read this seat's NOTE or any answer
+   from main.
+   - **It agrees on four of the six points:**
+     - one weave on more records (point 1);
+     - the three as two-made (point 2), read as the torus's spin structures: θ₁ odd, with three even channels, and
+       Jacobi's identity as the massless first generation;
+     - a second whole carries selection, not count (point 4);
+     - N is not forced (point 5).
+   - **It parallels point 3** with Bhargava's cubes, without matching it.
+   - **It adds one mechanism.** A local coupling with one covariant R cannot lift the first generation. A two-point
+     term between threads can, and so can a derivative leg or a Higgs frame that differs between threads.
+3. **The link to W90 (§123).** One Higgs with one defect cannot give the three sectors near B1657's symmetric vacua.
+   chat1's two-point term would give each sector its own effective Higgs defect, if the sectors sit on different
+   threads. So the owner's "two wholes interacting" is, in this reading, what the data ask for. The ruling on which
+   inter-thread term the principle allows is open, and it is main's and the owner's to make.
+4. **Post hoc, W89's stored norms read across the sectors (labelled; no new run).**
+   - In B1656's frame the Higgs's charge enters only through ū = (q_L + q_R)w, which is −3w for the up quarks and +3w
+     for the others.
+   - Each theta is even or odd, so θ_s(ū)² is common to every sector. W89's channel norms agree across the three
+     sectors on all 18 lines to 3 × 10⁻¹⁵.
+   - So in that frame the sectors differ only through δ = 5w, −w and −9w. A sector-dependent Higgs defect cannot
+     come from ū there.
+
+0 of 19.

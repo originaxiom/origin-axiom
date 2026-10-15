@@ -2346,6 +2346,11 @@ def test_w90_one_higgs_three_sectors():
         assert len(got) == len(want) and all(abs(g[i] / w[i] - 1) < 1e-12 for g, w in zip(got, want) for i in (0, 1))
     note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
     assert "## W90. One Higgs, three sectors" in note and "| W90 |" in note
+    w89 = json.loads((ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "the_electrons_zero_checked.json")
+                      .read_text(encoding="utf-8"))["cases at omega"]
+    spread = max(abs(w89[f"{k.split('|')[0]}|up"]["c"][u] - w89[f"{k.split('|')[0]}|{o}"]["c"][u])
+                 for k in w89 if k.endswith("|up") for o in ("down", "leptons") for u in "1ijk")
+    assert spread < 1e-12 and "**Post hoc, after W90: W89's stored norms read across the sectors" in note
 
 
 def test_the_owners_rulings_page():

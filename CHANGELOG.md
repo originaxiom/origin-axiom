@@ -1,5 +1,18 @@
 # Changelog
 
+## chat1's two-weaves reading compared; W89's norms read across the sectors (relay §124)
+
+- **chat1's own reading** (257c7b1a6) agrees with this seat's points 1, 2 (read as the torus's spin structures), 4
+  and 5, and parallels point 3.
+- **It adds one mechanism.** A local coupling with one covariant R cannot lift the first generation. A two-point term
+  between threads can, and so can a derivative leg or a thread-dependent Higgs frame.
+- **The link to W90.** chat1's two-point term is a mechanism for the sector-dependent Higgs defect that W90 asks for,
+  pending a ruling on which inter-thread term the principle allows.
+- **Post hoc (labelled).** W89's stored norms agree across the three sectors to 3 × 10⁻¹⁵. In B1656's frame the
+  Higgs enters only through ū = ±3w, so it contributes the same to every sector.
+- **Surfaces.** The weave dossier's NOTE (a post hoc note under W90 and a dated note on the two-weaves reading), the
+  state page, relay §124, the ledger (chat1's row and row 317), and a test. 0 of 19.
+
 ## W90: one Higgs, three sectors (B1657's two vacuum laws with one shared Higgs defect fit no assignment of the sectors; relay §123)
 
 - **The order.** The rule (b6d0f8e74) came before the script (29d0218cc), followed by one run whose output
