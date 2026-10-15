@@ -19596,3 +19596,21 @@ review due543. No waiver or newly named science path. Final result
 paragraph/receipt and public mapped launch-error copy are post-check
 metadata, not retroactive certification. Original error bytes/hash
 retained locally; public copy removes only the machine executable path.
+
+### October15 next interacting fibre/end probe registered, NOT executed
+
+Reality checkpoint78e42a63e pushed and terminal server-head confirmed.
+All11 heads refreshed, mainc98fbe782/coefficient2c7739e7b/weba4cb90257.
+Personally read the main negative-audit FINDINGS/per-field relay, the
+coefficient reality map and web route completely; relevant source
+prefixes inspected, not their computations claimed reproduced.
+
+New physical-bridge surface_interacting_domain design/PROOF/source/tests
+prepared BEFORE first execution. It treats the interacting minimal
+domain separately from the old half-pole graph, derives a proper-range
+deficiency argument, tests generic complex-Higgs dressing and a proposed
+noncommuting local BPS backreaction, and retains actual action curvature/
+boundary terms and F-term variation. Fixed compact fibre BEFORE modular
+quotient, not a whole surface/index/physical-family theorem. Supporting
+global-cover/stability hatch is a hypothesis, not a discovery. Current
+status PREREGISTERED ONLY; no new scientific producer has been run.

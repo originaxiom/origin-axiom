@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-15 preregistered interacting finite-fibre/end test
+
+New surface_interacting_domain design/proof/source and live tests are
+registered BEFORE execution: generic complex Higgs dressing, an authored
+minimum/range/domain argument, actual local nonabelian backreaction and
+retained action/F-term boundary controls. All remote heads refreshed;
+intake distinguishes reading from reproduction. No result yet; full
+surface/global variational physics and SM/three/gravity remain owed.
+
 ## 2026-10-15 full fermion reality and local interacting boundary core
 
 Validation continuation:54 selected live tests PASS1378.11s in nine
