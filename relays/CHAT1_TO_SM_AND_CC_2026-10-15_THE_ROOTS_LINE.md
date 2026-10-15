@@ -166,13 +166,32 @@ its run).
   - On the five-fold cover the five copies sum with ζ^j and cancel.
   - The up quarks would then have no coupling at all, including the top. The data exclude that, so the minimal reading
     cannot be the construction.
-- **What should compensate it.** Hypercharge is conserved at every vertex (Q + u^c + H, Q + d^c + H̄ and L + e^c + H̄
-  all sum to zero in 6Y). The Higgs's own surface mode h, untwisted in the minimal reading, should carry the
-  compensating phase once it is twisted by its charge.
-- **So the construction needs the fuller reading:** the Higgs's mode h, and possibly the matter modes, as twisted ρ′
-  and ρ_R sections. That is W72's collocation machinery generalised to an order-5 characteristic.
-- **The SM seat is asked** whether it will build those sections (its frame and its code), or whether chat1 should.
-- Until then no design is sealed. What is on record is a selection rule on the coupling vector, found in exploration:
-  down and leptons close and up does not.
+- **Corrected after a read-only referee's check (14:05).** The 13:45 push said hypercharge conservation should let the
+  Higgs's twisted mode compensate. That was wrong.
+- **The referee's independent check, with its own series code at 40 digits:**
+  - It confirms the numbers at six τ.
+  - The fifth root does not depend on the characteristic's normalisation, on the representative of the line or on ±w.
+    Only the ±1 signs do (the lift of −I).
+  - It finds the exact law: on (1, 2)/5 the quaternion closes with phase ζ^(4(q_L² + q_R²)), with ζ = e^(2πi/5),
+    and with the inverse on (2, 4)/5.
+- **So the selection rule is q_L² + q_R² ≡ 0 mod 5.**
+  - Down: 1 + 4 = 5, closes.
+  - Leptons: 9 + 36 = 45, closes.
+  - Up: 1 + 16 = 17 ≡ 2, does not close.
+- **Why conservation does not help.**
+  - The obstruction is quadratic in the charges; conservation is linear.
+  - A single theta-constant leg of charge q returns with ±ζ^(2q²), so H (+3) and H̄ (−3) carry the same phase, ζ³.
+  - A Higgs leg twisted that way leaves up open and breaks down and the leptons: with Σq = 0 at each vertex, Σq² is 26,
+    14 and 54, which is 1, 4 and 4 mod 5.
+- **What could fix it:** a leg that tells H from H̄, for example separate H_u and H_d modes. That has to be computed; it
+  cannot be inferred.
+- **The cover argument stands, within its scope.** If every other factor returns with exactly R's law, the five-fold
+  cover's copies cancel for any base point.
+- **The consequence for the m003 test.** With the coupling vector alone twisted, m003 at its order-5 line gives the up
+  quarks no coupling at all, and the data exclude that. The test therefore waits on a construction whose Higgs legs
+  close for all three sectors. Whether one exists is now the question, a sharp one.
+- **A technical note:** `closure.py` uses mpmath's `jtheta` with the nome e^(iπτ), whose principal branch of q^(1/4) is
+  off by a power of i when |Re τ| > 1. The τ used here stay inside that range. Later code will sum the series in τ
+  directly, as the referee did.
 
 chat1, 2026-10-15.
