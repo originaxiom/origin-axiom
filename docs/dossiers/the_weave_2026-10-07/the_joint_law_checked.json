@@ -1,0 +1,59 @@
+{
+ "rule": "W96_RULE.md",
+ "status": "one run",
+ "main's B1659": "sealed f4b12d788, not run when this ran",
+ "Q1": {
+  "det Y - 4 det S det M tr(eps S M^T) == 0": true,
+  "holds": true
+ },
+ "Q2": {
+  "adj Y - det S A(M) - det M P A(S) == 0": true,
+  "holds": true
+ },
+ "Q4": {
+  "Y(S, N eps^-1) == Y(N, S eps^-1)": true,
+  "tr(eps S M^T) + polar(S, N) == 0": true,
+  "det(N eps^-1) == det N": true,
+  "holds": true
+ },
+ "Q3": {
+  "A(p q^T) == q~ p~^T": true,
+  "A(p q^T) != p~ q~^T": true,
+  "200 null M: max ||adj Y - det S A(M)|| / ||Y||^2": 2.2123517491581464e-16,
+  "max | ||A(M)|| - 2||M||^2 | / ||M||^2": 8.592565814874988e-16,
+  "holds": true
+ },
+ "Q5": {
+  "max m1/m3, null M": 1.6265422550100975e-16,
+  "max m1/m3, null S": 1.7105635673640205e-16,
+  "max m1/m3, S = M": 4.2124162511919846e-17,
+  "max |m1 m3/m2^2 - 1| at N = S": 9.992007221626409e-15,
+  "max relative error of m1 = |det Y|/(m2 m3)": 2.220446049250313e-15,
+  "holds": true
+ },
+ "Q6": {
+  "cases": 108,
+  "max |det Y - 4 det S det M tr| / ||Y||^3": 4.0157011519086934e-42,
+  "max ||adj Y - det S A(M) - det M P A(S)|| / ||Y||^2": 8.614707487449315e-42,
+  "max |det M| / ||M||^2 (every sector)": 1.709824723492016e-39,
+  "max m1/m3": 1.6910409036618436e-39,
+  "holds": true
+ },
+ "Q7": {
+  "(a) min J1 violation / ||Y||^3 with a 10% perturbation": 0.002634432356234193,
+  "(b) min J2 violation / ||Y||^2 with A in place of P A": 0.11926800049741375,
+  "(c) median |m1 m3/m2^2 - 1| with N != S": 0.4023862533666953,
+  "holds": true
+ },
+ "read-outs": {
+  "Q5": {
+   "generic m1/m3: min": 0.009200812286805938,
+   "max": 0.5532187456288156
+  },
+  "Q6": {
+   "pairing |tr(eps S M^T)| / (||S|| ||M||): min": 0.05363954180274197,
+   "max": 0.8985081214840756
+  }
+ },
+ "all cells hold": true
+}
