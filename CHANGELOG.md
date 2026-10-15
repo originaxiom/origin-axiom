@@ -1,5 +1,12 @@
 # Changelog
 
+## chat1's per-field towers read (ledger)
+
+- **chat1's 438147f25 (an exploration, unsealed):** its per-field law, refined post hoc and held out of sample, puts
+  m₂/m₃'s exponent at ½ or more in every sector. The towers' comparison therefore fails in both readings, and chat1
+  moves its seal to the lowered threads. Nothing is sealed yet, so this seat's blind check waits.
+- **Surfaces.** The ledger (one row). 0 of 19.
+
 ## Reading: a fresh look from the principle, the arena (the owner's goal; relay §139)
 
 - **What is genuine, and what is not.** The original contributions are four:

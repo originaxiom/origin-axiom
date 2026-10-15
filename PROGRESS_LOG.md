@@ -19438,3 +19438,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The work has so far read three values one at a time.** They are the first terms of a single sequence that
   mathematics already knows how to assemble.
 - **Not a value.** 0 of 19.
+
+## 2026-10-15 — the web seat's towers
+
+- **The web seat explored the per-field couplings on its towers of threads.** One frozen prediction failed, and its
+  refined law then held on fresh data. It now aims its sealed test at shorter threads. Nothing is sealed yet.
+  0 of 19.
