@@ -17105,3 +17105,16 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   U(2)). What lifts the zero is a coupling that does not act as a point. The first design's lift was caught before the
   seal by main's reviewing agent and disclosed. C begins at the Higgs's profile (P-151). 0 of 19.
 - Gates 45 of 45; full suite 7318 passed, 1 failed, 68 skipped (1:29:54). The failure: the claim-pool lock (test_b1210), B1653 had no row in P3's CLAIM_CANDIDATES.md; rowed by hand as B1651's was, and the pool, claim-base and public-surface tests (17) and the gates re-run on the final tree, green.
+
+## 2026-10-15 — S129 THE HARVEST AND THE HIGGS'S END
+
+- Three lanes were harvested (rows 1180–1189).
+  - The SM seat's W86 checked the web seat's branch at the owner's order and named five corrections of main's record.
+    Each was verified on main and applied; two are E82 instances, in B1478 and B1479.
+  - The web seat audited its own negatives at the owner's question. Its asks are taken as B1652's addendum, and
+    outcome 2 stands.
+- Main corrected its own typing credit and its reading of W72.
+- C's first candidate, the tame Szegő Higgs, is degenerate. The parity Higgs's normalisation is an end condition;
+  under the canonical one the first generation's lift is D(τ)/(2πL) (exploration, to be sealed).
+- P-152 asks the owner when main audits its own negatives. 0 of 19.
+- - Gates 45 of 45; full suite 7319 passed, 0 failed, 68 skipped (1:30:12).

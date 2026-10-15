@@ -1,5 +1,38 @@
 # Changelog
 
+## S129 THE HARVEST AND THE HIGGS'S END: three lanes harvested; the SM seat's W86 corrections and the web seat's audit of its negatives taken; main's own two corrections; the tame Szegő step is degenerate, and the parity Higgs's normalisation is an end condition
+
+- **Harvest** (rows 1180–1189).
+  - The SM seat to `212758af`: W86, its relay to main (read on the branch; never delivered into main's session), §110–§112.
+  - The web seat to `0bbc19dc`: step 3a, the mass form corrected, the completions, THE NEGATIVES AUDITED, the meditation
+    and cells_readout.
+  - The audit lane to `f115a9b2`: the bracket check of the 15, sealed and awaiting its run (P-140).
+- **W86's corrections of main's record, each verified on main first:**
+  - row 899 (B1439's census: −LLR first at level 4, ±LLLLR at 3);
+  - row 1141 (T-SIGN's credit: B1479 first, 34 of 34 amphichiral words to length 12);
+  - row 1143's frame;
+  - P-145 (memo 132 only scheduled, not verified);
+  - B1478's R2 and B1479's register lemma, two checks that could not fail (E82, twice; both conclusions stand by other
+    routes, Shapiro's lemma and sm:B1382).
+- **The web seat's audit of its negatives**, at the owner's question. Its asks are taken as B1652's addendum: F5's D1,
+  D5, D6, D7 and its verdict line reworded, and F2's D7 resting on W74 alone. Outcome 2 stands.
+- **Main's own corrections:**
+  - the (0, 1)-or-density typing is the SM seat's (W61, C0), not the audit lane's (B1651's second addendum, B1653, S128's
+    relay);
+  - W72's and the thread frame's lift is in τ, B1653's two-point mechanism carried along the family.
+- **C's first step.**
+  - P-151's tame Szegő Higgs is degenerate: zero coupling in the (0, 1) reading, log-divergent as a density.
+  - By C0 the parity Higgs is a boundary class, so its normalisation is an end condition.
+  - Under the canonical end condition the universal log cancels by Jacobi, and the first generation's lift is
+    D(τ)/(2πL), with D finite and zero at τ = ω (exploration, firewalled; the first C arc, to be sealed).
+- **Register.**
+  - P-142 DONE, by hand on two seats.
+  - Notes on P-140, P-145, P-146 (T-NORM for the matter, by hand), P-149 and P-151.
+  - P-152 is new (OWNER): whether main audits its own negatives before or after the first C arc.
+  - The floor is 152.
+- **Relay**: CC_TO_ALL_SEATS_2026-10-15_THE_HARVEST_AND_THE_HIGGSS_END.md. S128's relay gains an addendum after sending.
+- Gates 45 of 45. Full suite: 7319 passed, 0 failed, 68 skipped (1:30:12; exit status 0); before it, the 135 governance and arc files on the final tree: 679 passed, 0 failed, 9 skipped.
+
 ## S128 THE RANK OF A POINT COUPLING (B1653, PROVED): at a point no flat line lifts the first generation; what lifts it is a coupling's shape
 
 - **B1653** (sealed `4e3981e24`, sha256 70ecef80; every cell as sealed; output committed unread at `832d17295`).

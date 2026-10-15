@@ -131,3 +131,13 @@ could not fail (E82). It was caught and replaced before the check was used.
   - the audit lane: the typing distinction and the replay of main's producer;
   - main's read-only reviewing agent: the rank-one root, found while it reviewed B1653's design, and re-derived on
     main.
+
+## Dated correction (2026-10-15, S129): whose typing distinction this is
+
+§1's last paragraph and §5's credit name "the audit lane: the typing distinction". The distinction between a (0, 1)
+Higgs and a density Higgs is the SM seat's. It is W61's two typings (T ⊗ T with dz̄, and T̄ ⊗ T with the constant
+function) and C0's "a cubic coupling of two holomorphic modes needs a Higgs of type (0, 1)". The audit lane's
+typed-field portal is another typing: the bundle weight of its parent fields, spinor-valued K^½ against K-valued. It
+bears on the parent's clause 4. It does not decide between a (0, 1) Higgs and a density Higgs, and the lane never
+coupled the zero modes to a Higgs in either. Credit corrected: the SM seat, for the typing distinction; the audit lane,
+for the replay of main's producer and the portal. Found by main's reader in S129's sweep.

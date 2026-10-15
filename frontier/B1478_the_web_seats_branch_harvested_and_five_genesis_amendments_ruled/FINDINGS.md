@@ -61,3 +61,12 @@ named.
 
 It banks no new mathematics of main's. It does not decide FK13, the deck's role, or anything about a hand. The seat's
 four corrections of its own earlier statements are received as written and not carried. **0 of 19.**
+
+## Dated note (2026-10-15, S129): R2 did not test the deck
+
+R2's row reads "reproduced, R2 PASS" beside "the deck acts as complex conjugation prime by prime". R2 compares ρ with
+its Galois conjugate ρ̄ mod p (`verification/rerun_r2_r3_primes.txt`) and never builds the deck. So it shows how complex
+conjugation acts prime by prime: invisible at the ramified prime 3, non-conjugate elsewhere. It does not show that the
+deck acts as complex conjugation, and as a test of that it could not fail. The deck's role rests on the SM seat's
+sm:B1382 (S2), read on main, not re-derived. Found by the SM seat's W86, and checked on main from R2's output. E82
+(ERROR_LEDGER, 2026-10-15). This arc's own claims are unchanged; it banked no new mathematics of main's.

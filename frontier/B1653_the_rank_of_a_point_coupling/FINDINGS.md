@@ -113,3 +113,15 @@ Designs v1 and v2, the review's code and main's pre-seal scripts are kept beside
 P-151, the Higgs's profile. A candidate first step for C (firewalled; to sweep and design): a tame Higgs field
 carrying a parity is a holomorphic section of L_χ with a simple pole at the puncture, unique up to scale, namely the
 Szegő kernel S_χ. Couple the zero modes to that profile in each typing, and read the rank and the shared null state.
+
+## Dated correction (2026-10-15, S129): the typing's credit, and what W72's lift is
+
+- **Credit (§4).** "The audit lane: the typing distinction" is corrected as in B1651's second addendum's dated note:
+  the (0, 1)-or-density distinction is the SM seat's (W61, C0). The audit lane's portal is the K^½-or-K weight of its
+  parent fields.
+- **§3's "this explains the frame dependence".** W72's surface-frame Yukawa and the thread frame's couplings integrate
+  over τ, along the family or a closed geodesic, not over the fibre. What they sum are point couplings whose null state
+  R(τ) moves. That is this arc's two-point mechanism, carried in τ. It is not a profile on the fibre.
+- **The web seat's step 3a scopes it.** Where R is itself a matter mode, the τ-integral cannot lift the zero, since
+  G(R, F, R) = (R·R)F = 0 at every point (harvest row 1183).
+- The cells and their numbers are unchanged.

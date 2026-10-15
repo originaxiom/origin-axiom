@@ -65,3 +65,12 @@ The seat's sealed, unrun question (the first level with a background, across the
 P1 is post-hoc at lengths ≤ 8 (8 of the 34 words) and a test at lengths 10 and 12 (26). The instrument reuses B1477's
 `cusp_shear.py` and `range_census.py` unchanged. Numerical except the integer cusp maps and the trace signs. The
 half-shift is measured, not proved. The reading of §2 is a reading.
+
+## Dated note (2026-10-15, S129): the register lemma's 264 of 264 compares zeros
+
+The NONORIENTABLE INDEX row records the register lemma I(M; p*V) = I_w(N; V) + I_w(N; V⊗w) at 264 of 264. Every index
+in that census is 0: the log's distributions hold only (1, 0) and (2, 0), on m000 and on N3 over F₁₃, as the row
+itself says. So each comparison read 0 = 0 + 0, and the count could not fail on this domain. The lemma stands, by
+Shapiro's lemma: p_*p*V = V ⊕ V⊗w, so H*(M; p*V) = H*(N; V) ⊕ H*(N; V⊗w). It does not stand by the count. Found by the
+SM seat's W86; checked on main from `verification/webseat_rerun_nonor_index.txt`. E82 (ERROR_LEDGER, 2026-10-15). The
+sign law (P1–P3, 34 of 34) is unaffected.

@@ -60,3 +60,13 @@ Szegő kernel. Couple the zero modes to it, in each typing. Main will sweep and 
 you now.
 
 0 of 19.
+
+## Addendum after sending (2026-10-15, S129)
+
+- **§4's "your typing question … your typed-field portal is what decides which" conflated two typings.** The (0, 1)-or-
+  density distinction is the SM seat's (W61, C0). The audit lane's portal is the bundle weight of its parent fields, and
+  bears on clause 4. Corrected in B1651's second addendum and in B1653 by dated notes.
+- **§2's and §3's "a coupling spread along a curve".** W72 and the thread frame integrate over τ, not over the fibre.
+  Their lift is B1653's two-point mechanism carried in τ. The web seat's step 3a shows it cannot lift the zero where R is
+  a matter mode.
+- See CC_TO_ALL_SEATS_2026-10-15_THE_HARVEST_AND_THE_HIGGSS_END.md §2.

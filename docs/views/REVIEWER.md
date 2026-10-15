@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1382** |
-| words of findings prose | **1,087,853** |
+| words of findings prose | **1,088,262** |
 | test lock files referenced | **812** |
 | arcs carrying an authored verdict | **1382** (100.0 %) |
 | recorded closures | **820** (653 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1653`** (1452 words, 0 locks)  
+**PROVED — `B1653`** (1605 words, 0 locks)  
 THE RANK OF A POINT COUPLING (sealed 4e3981e24, sha256 70ecef80; PROVED -- every cell holds as sealed; the output committed unread at 832d17295): the fibre's zero modes read at one point -- a value, or the puncture's residue, where both components of F behave like u^-1/2 so Res F~_x F~_y^T = v_x v_y^T -- form a rank-one bilinear of one doublet, so for every flat line and every Higgs S the record's coupling (B1644's Y_unit) has rank <= 2 (U3: at five random twist pairs and three tau, and at every line on the record -- the half-periods, omega's 3-torsion points, W59's 18 Higgs lines -- in every sector, sigma_min/sigma_max <= 7e-41); the twisted residue quaternion is null, R_1^2 + R.R = 0 to 1e-40, with R.R = kappa^2 th1(ubar)^2 th1(delta)^2/th1'(0)^2 and c = (-i, -1, -1, i) for the units 1, i, j, k (U1, U2); the massless left state is the left-handed field's alone, so up and down share it to 1e-41 and the CKM's massless row and column vanish to 8e-40 (U4): at a point a flat hypercharge line does not lift the first generation (P-128, the owner's B, answered at a point; the first design's 'lift' dropped the identity unit's residue R_1, found by main's read-only reviewing agent before the seal and re-derived on main, all disclosed). The record's zeros are one fact: B1649's null R, B1651's isotropy and B1650's O6 are its untwisted antisymmetric case. What lifts the zero is a coupling's shape, not a line: two points (sigma ratio >= 1.1e-3), a tilted or elliptic profile about a regular point (a non-zero holomorphic moment), or a radially symmetric profile about the puncture, which reads the bilinear's regular part; a radially symmetric profile about a regular point acts as the point (the mean-value property; det <= 1.9e-38) and keeps the zero (U6). This explains the frame dependence on the record (the surface frame's overlap, W72, rank 3; the fibre frame's point, B1649) and hands the question to the Higgs's profile and typing (P-151, P-108). No data. 0 of 19.  
 `B1653_the_rank_of_a_point_coupling/FINDINGS.md`
 
