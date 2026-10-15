@@ -690,6 +690,10 @@ Under the owner's rulings, the table's rows split into two groups:
 - **W91, the twisted coupling vector, exact** (the rule first; one run; four cells as predicted; U5 failed as
   worded, and post hoc the closure law holds to 7 × 10⁻⁵⁹; relay §131). The exact delivery is with chat1. It is
   the coupling vector's part only: the matter units wait on main. 0 of 19.
+- **Main's S132 read; the paper consultation answered** (relay §132; an opinion, not a result). B1656 and B1657 are
+  proved on main. The three readings of two weaves agree, and main's names the Higgs and the matter as the two
+  wholes. W90 bears on P-163: one shared Higgs defect fits no sector assignment, so the defect must depend on
+  the sector. 0 of 19.
 
 ## Questions open with main
 
@@ -714,4 +718,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W91 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§131).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§132).

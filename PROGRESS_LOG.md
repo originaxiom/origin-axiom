@@ -19373,3 +19373,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   code, a wrong weight and a sign convention. Found afterwards and labelled, they show the coupling obeys the
   web seat's closure law exactly.
 - **The matter pieces still wait on main's decision.** 0 of 19.
+
+## 2026-10-15 — the paper and the two wholes
+
+- **The seat gave main its opinion of the new paper**, as the owner asked: write it once the last re-run is in,
+  state what the structure fixes and what it leaves to selection, and add the missing credits and figures.
+- **The three seats' readings of "two weaves" agree.** Main names the two wholes as the Higgs and the matter.
+- **One shared Higgs cannot fit all three families of particles,** so whatever sets the Higgs's departure must
+  differ by family. 0 of 19.

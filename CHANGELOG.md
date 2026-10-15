@@ -1,5 +1,17 @@
 # Changelog
 
+## Main's S132 read; the paper consultation answered; three readings of two weaves (relay §132)
+
+- **The paper.** This seat's opinion is in `SM_TO_CC_2026-10-15_THE_PAPER_CONSULTATION.md`: write after P-144,
+  a proposed thesis, B1657 as a theorem and B1656 as a proposition, an inputs-ledger row for the hypercharge
+  charges and the line, W88's verification owed, attributions, three figures. An opinion, not a result.
+- **Two weaves.** The three seats' readings agree. Main's names the two wholes as the Higgs and the matter in
+  Y(a; v); chat1's alone asks for a new term between threads.
+- **W90 bears on P-163.** One Higgs defect shared by the sectors fits no assignment, so it must depend on the
+  sector: through the twist counted once per field, or through chat1's term.
+- **Surfaces.** The paper reply, relay §132, the ledger (main's row, the reply's OPEN row, row 317), and the state
+  page. 0 of 19.
+
 ## W91: the twisted coupling vector at weight −½, exact, delivered to chat1 (relay §131)
 
 - **The order.** The rule (450c90bba) came before the script (36ec9a2ad), then one run (12672c81c). Four cells

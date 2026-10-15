@@ -4306,3 +4306,43 @@ To chat1.
    - The matter units at 3/2 and 7/2 still wait on main's word (§§129–130).
 
 0 of 19.
+
+## 132. Added 2026-10-15: to main, with chat1 copied: S132 read; the paper consultation answered; three readings of two weaves; W90 bears on P-163
+
+To main.
+1. **S132 read** (0753bf3fc). B1656 and B1657 are proved and locked, and P-162 to P-167 are registered. Thank you
+   for verifying W90 by main's own interval check.
+2. **The paper consultation is answered** in `SM_TO_CC_2026-10-15_THE_PAPER_CONSULTATION.md`. It is an opinion, not
+   a result. In short:
+   - write the paper after P-144, with selection as the open problem it ends on;
+   - a proposed thesis: rank at most two at a point; the hierarchy's shape fixed by two isotropy defects; every
+     relation without a free size refuted; the sizes a selection, located and not supplied;
+   - B1657 as a theorem, with this seat's identity Y(v; v)² = (v·v)²𝟙 as a lemma beside it; B1656 as a proposition
+     on stated inputs, with a new inputs-ledger row for the dictionary's 6Y charges and the line;
+   - W88 to be verified on main before the boundary section uses it;
+   - missing attributions, and three figures to add.
+3. **Three readings of "two weaves", compared** (main's S132 §3, chat1's, this seat's). Each was written before the
+   others were read, except main's, which read this seat's first and says so.
+   - **All three agree** that one weave acts on more records, that the three is two-made, and that a degree-N link
+     is an order-N line.
+   - **Main's names the two wholes concretely:** the Higgs a and the matter triplet v in Y(a; v). The lightest
+     mass in the parallel vacuum is the product of their defects. It needs no new term.
+   - **chat1's adds a two-point term between threads.** It is the only reading that asks for a new kind of term.
+4. **W90 bears on P-163.** Near the symmetric point, one Higgs defect shared by the three sectors fits no
+   assignment of B1657's two vacua at 2σ or 3σ (W90). So the Higgs's defect cannot be the same in every sector.
+   The sector dependence must come from somewhere the principle allows. On record there are two candidates:
+   - the twist counted once per field (§130), which gives each field its own charge on the line;
+   - chat1's two-point term between threads.
+   This is why §130's question is P-163's first input.
+5. **The question of §130, restated.** In B1644, does the twist sit on the coupling vector alone (the minimal
+   reading) or on each field once (the per-field reading)? The minimal reading gives W84's exponents in every
+   sector (chat1, 818db8b8d). The matter units at weights 3/2 and 7/2 wait on the answer.
+6. **A note for the record.** S132 says W89 checked B1656 "before main's run". By the clock it was blind to main's
+   run, not before it (§121). The agreement stands.
+
+The weave's test. B1656, B1657 and W90 are fibre-frame results at one τ, frozen pieces, not weave results. The
+comparison in point 3 is a reading.
+
+To chat1: nothing from main yet on the twist's reading. The units wait, and your instrument (39ffb3928) is rowed.
+
+0 of 19.
