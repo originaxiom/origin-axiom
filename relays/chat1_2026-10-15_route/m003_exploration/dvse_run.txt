@@ -1,0 +1,15 @@
+N=5 line (1,3): |lepton_s/down_s| over i,j,k = ['1.0', '1.0', '1.0']  relative spread 1.05e-15
+N=7 line (1,4): |lepton_s/down_s| over i,j,k = ['0.594272', '2.13521', '1.19488']  relative spread 2.59
+N=7 line (1,6): |lepton_s/down_s| over i,j,k = ['1.01786', '0.944588', '0.725215']  relative spread 0.288
+N=9 line (1,3): |lepton_s/down_s| over i,j,k = ['0.882434', '1.83117', '1.2001']  relative spread 1.08
+N=8 line (1,3): |lepton_s/down_s| over i,j,k = ['1.0', '1.0', '1.0']  relative spread 1.03e-25
+N=10 line (1,3): |lepton_s/down_s| over i,j,k = ['1.0', '1.0', '1.0']  relative spread 6.9e-16
+phases of lepton_s/down_s (units of pi) at N = 5, 8, 10, two tau:
+  tau=(0.13 + 1.07j) N=5 (1,3): ['-0.4', '-0.4', '-0.4']
+  tau=(0.13 + 1.07j) N=5 (2,1): ['0.4', '0.4', '0.4']
+  tau=(0.13 + 1.07j) N=8 (1,3): ['-0.25', '-0.25', '0.75']
+  tau=(0.13 + 1.07j) N=10 (1,3): ['0.4', '0.4', '-0.6']
+  tau=(-0.31 + 0.95j) N=5 (1,3): ['-0.4', '-0.4', '-0.4']
+  tau=(-0.31 + 0.95j) N=5 (2,1): ['0.4', '0.4', '0.4']
+  tau=(-0.31 + 0.95j) N=8 (1,3): ['-0.25', '-0.25', '0.75']
+  tau=(-0.31 + 0.95j) N=10 (1,3): ['0.4', '0.4', '-0.6']

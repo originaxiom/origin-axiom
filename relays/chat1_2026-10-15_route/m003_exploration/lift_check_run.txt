@@ -1,0 +1,1 @@
+agree 4112 disagree 212 [('LLLLLLRLLLRR', 3, 1, (0, 1), -9, True, False), ('LLLLLLRLLLRR', 3, 1, (0, 2), -36, True, False), ('LLLLLLRLLLRR', 3, 1, (1, 0), 27, True, False), ('LLLLLLRLLLRR', 3, 1, (2, 0), 108, True, False), ('LLLLLLRRLLLR', 3, 1, (0, 1), -9, True, False)]

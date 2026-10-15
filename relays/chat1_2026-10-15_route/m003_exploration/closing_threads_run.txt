@@ -1,0 +1,11 @@
+N=5 eps=-1: shortest thread closing all three sectors: -LLLRLLRLR (length 9, trace 48, height 2.18), line (1, 3)/5
+N=5 eps=+1: shortest thread closing all three sectors: +LLLRLRRR (length 8, trace 27, height 1.92), line (1, 3)/5
+N=7 eps=-1: shortest thread closing all three sectors: -LLLLRLLLRR (length 10, trace 47, height 2.61), line (1, 6)/7
+N=7 eps=+1: shortest thread closing all three sectors: +LLLLRRLRRR (length 10, trace 51, height 2.32), line (1, 4)/7
+N=9 eps=-1: shortest thread closing all three sectors: -LLLLLRLLLRRR (length 12, trace 79, height 3.04), line (1, 8)/9
+N=9 eps=+1: shortest thread closing all three sectors: +LLRLLRRLRR (length 10, trace 83, height 1.54), line (1, 3)/9
+N=11 eps=-1: shortest thread closing all three sectors: -LLLLRLLLRLRR (length 12, trace 119, height 2.59), line (1, 10)/11
+N=11 eps=+1: shortest thread closing all three sectors: +LLLLRLRRRLRR (length 12, trace 123, height 2.46), line (1, 10)/11
+N=13 eps=-1: shortest thread closing all three sectors: -LLLRLRLLRLRLR (length 13, trace 336, height 2.13), line (1, 11)/13
+N=13 eps=+1: shortest thread closing all three sectors: +LLLRLRLRRRLR (length 12, trace 171, height 2.09), line (1, 11)/13
+lowest-height closing thread (length <= 16): {(5, -1): ('LLRLRLRLRRLLRLRR', 1.5), (9, 1): ('LLRLRRLLRRLRLLRR', 1.5), (7, 1): ('LLRLRLRLRRLRLRLR', 1.62), (7, -1): ('LLRLRLLRLRLRLRLR', 1.63), (5, 1): ('LLRLRLRLRR', 1.5), (9, -1): ('LLLRRLLRLLRLLRRR', 1.86)}

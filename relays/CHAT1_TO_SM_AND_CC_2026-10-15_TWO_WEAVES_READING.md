@@ -122,7 +122,7 @@ contains (R(z)·R(w))Y.
    cyclic subgroups of order N. On threads, this correspondence takes a thread to the threads cyclically N-linked to
    it. Nothing in the thread frame forces N.
 
-   > **Dated addendum, 13:10.** For cyclic subgroups (X₀(N)), "nothing forces N" stands: the root preserves order-N
+   > **Dated addendum, 12:43.** For cyclic subgroups (X₀(N)), "nothing forces N" stands: the root preserves order-N
    > subgroups for N = 5, 11, 19, 29, 31, …. For a line that must close around the thread, the thread does restrict N.
    > - **The record's root (+LR, GENESIS SE1)** closes no non-trivial line (B1434). So a single closing line gives
    >   V = 1 there.

@@ -1,0 +1,7 @@
+LLLLRLR  N=7: gamma=[[2,3],[9,14]], cases tested 24
+LLLR     N=7: gamma=[[1,1],[3,4]], cases tested 24
+LLLRLR   N=11: gamma=[[2,3],[7,11]], cases tested 40
+LLLRLRR  N=9: gamma=[[2,5],[7,18]], cases tested 24
+LRLRRR   N=11: gamma=[[2,7],[3,11]], cases tested 40
+LLRLLRR  N=5: gamma=[[3,7],[8,19]], cases tested 16
+tests 168 worst |phase - predicted| (up to sign): 1.0698793267142923e-12

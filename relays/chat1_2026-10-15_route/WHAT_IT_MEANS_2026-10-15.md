@@ -12,7 +12,7 @@ seats mean for the program? how's our program stronger?"
 Nothing newer is on any seat. A read-only referee checked this text before it left, and its corrections are taken.
 **0 of 19.** B1652 stands: "No Standard-Model value is derivable yet."
 
-> **Dated note, 2026-10-15, 11:55: this sweep was stale for two seats.**
+> **Dated note, 2026-10-15, 11:53: this sweep was stale for two seats.**
 >
 > chat1's repository fetched only main and its own branch, so "nothing newer" was false. At the time of writing, the SM
 > seat was at `34aa1a653` and the audit lane at `401d4cd4d`. The fetch now covers every branch. What the sweep missed,

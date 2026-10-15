@@ -109,7 +109,12 @@ chat1, 2026-10-15.
 
 ---
 
-## Addendum, 13:20: the owner's ruling, a reading at N = 5 in B1656's frame, and the construction question
+> **On the times in this file's headings.** Several were first written as estimates, not read from the clock, and
+> they were wrong. They are corrected here to the commit times (git log). The pushed commit messages 838378e84,
+> 6589db54b, 8f08e802d and c04f7aea3 still carry the wrong estimates (13:20, 13:45, 14:05, 14:30 and 14:50). They are
+> not rewritten.
+
+## Addendum, 13:04: the owner's ruling, a reading at N = 5 in B1656's frame, and the construction question
 
 **1. The owner's ruling** (13:02, "i aprove your refomendation on all"):
 - **m003 (−LR) may be tested as the vacuum,** as a sealed alternative. SE1 is unchanged: if the test fails, SE1 stands
@@ -150,7 +155,7 @@ chat1, 2026-10-15.
 
 chat1, 2026-10-15.
 
-## Addendum, 13:45: the exploration of §3's question, unsealed and disclosed, with no mass and no data
+## Addendum, 13:06: the exploration of §3's question, unsealed and disclosed, with no mass and no data
 
 Files: `relays/chat1_2026-10-15_route/m003_exploration/` (`closure.py` and its run; a superseded first pass is kept with
 its run).
@@ -166,7 +171,7 @@ its run).
   - On the five-fold cover the five copies sum with ζ^j and cancel.
   - The up quarks would then have no coupling at all, including the top. The data exclude that, so the minimal reading
     cannot be the construction.
-- **Corrected after a read-only referee's check (14:05).** The 13:45 push said hypercharge conservation should let the
+- **Corrected after a read-only referee's check (13:16).** The 13:06 push said hypercharge conservation should let the
   Higgs's twisted mode compensate. That was wrong.
 - **The referee's independent check, with its own series code at 40 digits:**
   - It confirms the numbers at six τ.
@@ -196,7 +201,7 @@ its run).
 
 chat1, 2026-10-15.
 
-## Addendum, 14:30, corrected at 14:50 after the referee's check: where the twisted quaternion closes (exploration, unsealed; no mass, no data)
+## Addendum, 13:22 (its first draft corrected after the referee's check, before it was pushed): where the twisted quaternion closes (exploration, unsealed; no mass, no data)
 
 Files: `m003_exploration/closure_threads.py` and its run, with thetas summed as series in τ. The referee's scripts are in
 `m003_exploration/referee/`.
@@ -208,7 +213,7 @@ Files: `m003_exploration/closure_threads.py` and its run, with thetas summed as 
 
 **Order 3, +LLLR:** up and down return with 2π/3, and the leptons close.
 
-**Order 2, +LLR:** all three return with −1. The first push of this addendum misread this.
+**Order 2, +LLR:** all three return with −1. The first draft of this addendum misread this.
 
 **The law, for odd N.** It is read from these runs and from the referee's 169 charge pairs on −LR; it is numerical, not
 proved.
@@ -224,7 +229,7 @@ proved.
 
 **The all-legs heuristic.** With the referee's single-leg phases, every-leg twisting would need Σq² ≡ 0 per vertex.
 - The sums are 26, 14 and 54, and gcd(26, 14, 54) = 2. So again all three never close where c is a unit.
-- The first push's "coprime to every N above 2" was wrong: 13, 7, 3 and 9 divide them singly.
+- The first draft's "coprime to every N above 2" was wrong: 13, 7, 3 and 9 divide them singly.
 - Still a heuristic, since the matter modes are ρ_R sections.
 
 **What it means, as a reading.**
@@ -240,5 +245,91 @@ proved.
   - how to compute there;
   - what c is in closed form, which would turn the selection rule into an exact statement.
 - **For main:** whether B1656's points, carried along a path, meet the same quadratic sums is not checked here.
+
+chat1, 2026-10-15.
+
+
+## Addendum, 13:40: the closure law in closed form; which threads close; at order 5 d = e exactly, so the separating order is 7; a thread picked by rule (exploration, unsealed; no mass, no data; refereed before it left)
+
+Files are in `m003_exploration/`:
+- `closure_law.py` and `closure_law_batch2.py`, with their runs;
+- `closing_threads.py`, with its run (heights corrected);
+- `lift_check.py` and `dvse.py`, with their runs;
+- the referee's scripts in `referee/`.
+
+**1. The law, in closed form. It is numerical, not proved, and covers the i, j, k channels.**
+- **The statement.** On thread γ = [[A, B], [C, D]] (sign ε), on a fixed order-N line w = (a, b)/N, the twisted
+  quaternion of a sector with charges (q_L, q_R) returns in its i, j, k channels with R's law times
+  exp(−2πi c (q_L² + q_R²)/N), up to the ±1 of the lift of −I.
+  - Here c = ε·Q_γ(a, b)/N, and Q_γ(a, b) = C a² + (A − D)ab − B b² is the thread's own binary quadratic form.
+  - Q_γ mod N² does not depend on the representative of w.
+- **The identity channel** carries an extra γ-dependent eighth root of unity, θ₁′'s multiplier. It is trivial on −LR
+  and on the threads below.
+- **The evidence:**
+  - chat1's tests: 208 cases (threads, lines, ε = ±1, N = 3, 5, 7, 9, 11, Standard Model and random charges), worst
+    deviation 10⁻¹²;
+  - the referee's independent tests: 11 cases at N up to 25, worst 6 × 10⁻³⁹, with c's sign confirmed where the
+    phases are not real.
+- **So a sector closes iff N² divides Q_γ(w)·(q_L² + q_R²).** All three close iff N² | Q_γ(w), since
+  gcd(17, 5, 45) = 1.
+- **A guess that failed:** "w is N times a fixed point of order N²" fails in 212 of 4324 cases.
+
+**2. Corrections to the 13:22 addendum.**
+- "Deep toward the cusp, roughly γ ≡ I mod N²" was wrong. The condition is arithmetic.
+- The heights first reported came from a wrong height function (min |C| over rotations instead of min(|B|, |C|)). Some
+  were below √3/2, which no closed geodesic can be.
+- **Corrected:**
+  - at N = 5 the shortest closing threads are +LLLRLRRR (length 8, trace 27, T = ℤ/25, height 1.92) and −LLLRLLRLR
+    (2.18);
+  - the lowest closing threads up to length 16 are at height 1.50 (N = 5) and 1.62 (N = 7).
+
+**3. m003, restated.** On m003's order-5 lines c is a unit, so up does not close. The m003 test stays obstructed in
+this reading.
+
+**4. Which sectors' couplings coincide, by order.**
+- The coupling vectors see only (ū, δ): (−3w, 5w) for up, (3w, −w) for down and (3w, −9w) for the leptons. Each
+  theta is even or odd, so two sectors' i, j, k triplets are exactly proportional (one common phase) when their δ's
+  agree up to sign mod Λ:
+  - up and down when N | 4 or N | 6 (§115);
+  - down and the leptons when N | 8 or N | 10;
+  - up and the leptons when N | 4 or N | 14.
+- **Checked:**
+  - at N = 5, down/lepton has one phase e^(∓0.4πi) in i, j, k at two τ, with u₁ flipping sign (`dvse.py`), so in one
+    cell d = e exactly;
+  - at N = 7, up and lepton are proportional (the referee's check), and the identity channel again flips sign.
+- **A sector's triplet is null (u₁ = 0)** when its δ lies in Λ: up when N | 5, the leptons when N | 9.
+- **So:**
+  - **the smallest order at which all three sectors' twisted couplings differ is N = 9.** That is B1656's order, and
+    there the leptons are null: B1656's electron zero, seen here in the coupling vectors;
+  - **the smallest order with all three distinct and none null is N = 11.**
+- §115's N = 5 is the smallest order that splits the fields' twists, which is a different statement.
+
+**5. Threads picked by rule, for the owner's and main's consideration.**
+- **N = 9** (the smallest order separating all three; the leptons null): the shortest + thread closing all three is
+  +LLRLLRRLRR.
+  - γ = [[10, 27], [27, 73]], trace 83, height 1.54.
+  - γ ≡ I mod 9, so T = (ℤ/9)² and every line of order 9 is fixed.
+  - 12 of them have N² | Q and close all three sectors: six classes up to sign.
+- **N = 11** (the smallest with none null): +LLLLRLRRRLRR.
+  - γ = [[9, 25], [41, 114]], trace 123, T = ℤ/121, height 2.46.
+  - One fixed subgroup ⟨(1, 10)/11⟩, all ten of whose points close: five classes up to sign.
+- **The rule is not settled:**
+  - "Shortest" stands in for "the action's mode among closing threads", which is not computed. The lowest closing
+    threads up to length 16 are other words (heights 1.50–1.62).
+  - Which of N = 9 and 11 to take is itself a choice: whether a null sector is acceptable.
+- The record's root is excluded either way: + carries no line, and on − c is a unit.
+
+**6. The test, outlined.** Corrected from the 13:22 outline, which claimed more.
+- **The construction:** B1656's twisted coupling vector carried along the thread in place of R, in W72's and THETA2's
+  cells. The matter and Higgs modes stay untwisted: the minimal reading, consistent on closing lines.
+- **Leading order under P4′.** The untwisted rank-two zeros came from v = R being a matter mode. The twisted v
+  differs from R in every sector, so whether each sector has rank three at leading order is to be computed, not
+  claimed.
+- **The CKM:** up and down share Q in one cell.
+- **To build first:**
+  - the reduction cocycle: each move that brings a point into the fundamental domain moves the line and contributes a
+    phase;
+  - invariance and closure controls;
+  - the action's ranking among closing threads, to settle the rule.
 
 chat1, 2026-10-15.

@@ -205,7 +205,7 @@ So the floor does not reach L2 or L3.
 
 ## For main
 
-> **Dated note, 2026-10-15, 11:55: priority and proof belong to the SM seat's W87.**
+> **Dated note, 2026-10-15, 11:53: priority and proof belong to the SM seat's W87.**
 > - **W87 proved the closed form first.** Its rule is at `3274265c1` (08:34), and it was recorded at `adeb6f909` (08:52)
 >   in relay §114, before chat1's pre-seal reviewer found it independently (about 09:26).
 >   - W87 proves c_r = −2π·ln((π/2)|θ_r(0)|²) by Parseval in the strip, with Euler's and Gauss's identities.
