@@ -160,7 +160,7 @@ def run(cs,setup_valid):
     planted_A=[clean(U0.T*a*U0) for a in can]
     found,why=phase_map(planted_A,can)
     ck('phase solver recovers planted all direction map',found is not None and why is None)
-    wrong=[a.copy() for a in planted_A];nonzero=next((i,j) for (i,j),v in wrong[0].todok().items() if i<8*NC and j<8*NC and v!=0)
+    wrong=[a.as_mutable() for a in planted_A];nonzero=next((i,j) for (i,j),v in wrong[0].todok().items() if i<8*NC and j<8*NC and v!=0)
     i,j=nonzero;wrong[0][i,j]*=2;wrong[0][j,i]=-wrong[0][i,j]
     rejected,whybad=phase_map(wrong,can)
     ck('phase solver rejects magnitude changing planted defect',rejected is None and whybad is not None)

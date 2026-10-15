@@ -1,0 +1,27 @@
+PASS actual frame supplied
+PASS actual normalized full MW Nambu frame
+PASS actual induced Nambu time and reality
+PASS canonical quadratic action antisymmetric
+PASS canonical action equals its actual real completion
+PASS graded signed time is canonical positive contour
+PASS ordinary naive contour has a real signed mismatch
+PASS graded one form fermion product reverses ordinary sign
+PASS Grassmann overlap vanishes
+PASS graded internal differential has its induced sign
+PASS phase solver recovers planted all direction map
+Traceback (most recent call last):
+  File "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/probe.py", line 14, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ^^^^^^
+  File "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/probe.py", line 13, in main
+    return emit([clean(F.H*c*F) for c in raw],zero(F.H*F-s.eye(4)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/analysis.py", line 248, in emit
+    result=run(cs,valid);print(json.dumps(result,indent=2));return 0 if result['all_passed'] else 1
+           ^^^^^^^^^^^^^
+  File "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/analysis.py", line 164, in run
+    i,j=nonzero;wrong[0][i,j]*=2;wrong[0][j,i]=-wrong[0][i,j]
+                ~~~~~~~~^^^^^
+  File "<ISOLATED_DEPENDENCIES>/sympy/matrices/immutable.py", line 69, in __setitem__
+    raise TypeError("Cannot set values of {}".format(self.__class__))
+TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>
