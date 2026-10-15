@@ -73,9 +73,11 @@ frame.
      powers. Sarnak (J. Number Theory 1982) counts the layers this way.
    - For a weight that depends only on length, the formula equates that sum with a spectral side: the Laplacian's
      eigenvalues, plus the identity, elliptic, parabolic and continuous-spectrum terms.
-   - Cycle integrals are not such a weight. Their route is the pretrace formula integrated along each geodesic
-     (Katok–Sarnak), and its spectral side carries the Maass forms' periods along the geodesics, not the eigenvalues
-     alone.
+   - Cycle integrals are not such a weight. Their route is a relative trace formula: the automorphic kernel
+     integrated along the geodesics. Its spectral side carries the Maass forms' periods along the geodesics, not the
+     eigenvalues alone; those periods are what Katok–Sarnak relate to weight-½ coefficients.
+     - *Dated correction, 2026-10-16:* the first version credited this route itself to Katok–Sarnak, whose method is
+       the theta (Shintani) lift.
    - Whether the layer sums of chat1's cells have a spectral side of that kind, and whether a selection shows there,
      is a question.
 3. **The record's selection rules, read as layers.**
@@ -136,8 +138,8 @@ These are classical facts the record has used without connecting them; each "che
   - Compared by layer: no thread is chosen and no line is chosen.
 - **The generating function and the spectral side, readings after the numbers.**
   - Whether the classical-indexed values fit a (mock) modular form in D (Zagier, Duke–Imamoḡlu–Tóth).
-  - Whether the pretrace formula integrated along the layer's geodesics (Katok–Sarnak's route) turns the layer sum into
-    a spectral statement.
+  - Whether a relative trace formula, the automorphic kernel integrated along the layer's geodesics, turns the layer
+    sum into a spectral statement in the geodesic periods.
 - **Coordination with §139.**
   - Its N2 (W95) is this rule on the record's invariants; W-trace is the cycle-integral half.
   - Its N3, the field on the arena, is the frame in which W-trace's limit is the surface frame.
