@@ -1,0 +1,9 @@
+plumbing {'jtheta_vs_series': 3.724878271197617e-41, 'th1p_vs_2pi_eta3': 4.637599153652839e-41, 'thc_vs_series': 2.320501218536545e-41, 'w59_minimum_3w_omega_fixed': 9.183549615799121e-41, 'half_period_signed_perm_max': 2.6035229452593034e-40, 'all_below_1e-30': True}
+U0 {'a_holonomy_max': 5.4221024179821035e-40, 'b_control_min_spread': 0.13388236388848848, 'holds': True}
+U1 {'a_const_max': 2.3516745158339206e-39, 'b_common_ratio_max': 2.5583476907248975e-39, 'c_vs_B1642_stored_c_max': 5.10750305531192e-41, 'holds': True}
+U2 {'a_det_max': 8.472678611934135e-41, 'b_null_quaternion_max': 9.510470303623666e-41, 'c_RR_vs_formula_max': 4.378528252467852e-39, 'd_triplet_isotropy_min': 0.03417265477809853, 'holds': True}
+U3 {'a_pairs_max': 6.96014160068698e-41, 'b_lines_max': 7.390685459993328e-41, 'c_two_point_min': 0.0010990782012041329, 'holds': True}
+U4 {'a_max_1_minus_overlap': '1.1479e-41', 'b_V_offblock_max': 8.091161057894713e-40, 'c_control_min_1_minus_overlap': 0.02350859140238122, 'holds': True}
+U5 {'a_det_max': 1.7419537637622075e-40, 'b_rank_ratio_max': 1.1011643130999332e-40, 'holds': True}
+U6 {'a_radial_regular': {'det_min': 7.859969121436944e-40, 'det_max': 1.8643526668457628e-38, 'ratio_min': 5.693415958001429e-41, 'ratio_max': 1.1284018087147855e-39}, 'b_tilted_regular': {'det_min': 0.00042610654644444854, 'det_max': 0.002743181117381728, 'ratio_min': 3.466127819829391e-05, 'ratio_max': 0.00018050360218785822}, 'c_elliptic_regular': {'det_min': 0.0015918990181058885, 'det_max': 0.010292722828425738, 'ratio_min': 0.0001238703133639175, 'ratio_max': 0.0006056973675364375}, 'd_radial_puncture': {'det_min': 0.6290248776485835, 'det_max': 0.9593151631380672, 'ratio_min': 0.01038793090875066, 'ratio_max': 0.014248175897742793}, 'holds': True}
+RUN_EXIT 0
