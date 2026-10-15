@@ -24,7 +24,7 @@ def _cells(line):
 def test_genesis_v1_46_is_the_amendment():
     assert subprocess.run([sys.executable, str(A / "adoption" / "amend.py"), "--check"]).returncode == 0
     g = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
-    assert "**Version 1.46 · 2026-10-15 · canonical.**" in g and "- **v1.46 · 2026-10-15 · main B1655.**" in g
+    assert "- **v1.46 · 2026-10-15 · main B1655.**" in g          # the log line persists; the version header moves on
     for s in ("[v1.46] Withdrawn in part (main's audit of its negatives, P-152, B1655; B1604 §2b, B1605 R2)",
               "Six kinds on certified covers, not eight", "B1646's \"never between\" holds for a quartic potential",
               "Not forced for a point or density Higgs (B1651's premise P1, tested by no cell)",

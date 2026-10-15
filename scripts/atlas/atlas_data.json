@@ -11995,6 +11995,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1658": {
+   "slug": "the twisted half bound",
+   "motifs": [
+    "choice",
+    "coupling",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B165": {
    "slug": "kappa cantor offaxis",
    "motifs": [

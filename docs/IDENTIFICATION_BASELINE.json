@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 14,
+ "unearned": 18,
  "rows": [
   "I-6",
   "I-7",
@@ -15,9 +15,13 @@
   "I-27",
   "I-28",
   "I-30",
-  "I-29"
+  "I-29",
+  "I-31",
+  "I-32",
+  "I-33",
+  "I-34"
  ],
- "total_rows": 30,
+ "total_rows": 34,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -102,6 +106,38 @@
    "reason": "the codex seat's R033 (2026-09-01): B1231 admitted the listener map is an unpriced identification and its ledger had no row; registering the admitted debt is the deliberate, dated raise the ratchet's own note calls for. Not a promotion; the count now says what B1231 said.",
    "from": 13,
    "to": 14
+  },
+  {
+   "date": "2026-10-15",
+   "from": 14,
+   "to": 15,
+   "row": "I-31",
+   "arc": "S133",
+   "reason": "\"given Λ\": the owner's tagged postulate (2026-10-08), load-bearing in the weave's arcs from B1612 to B1658; priced as its own source"
+  },
+  {
+   "date": "2026-10-15",
+   "from": 15,
+   "to": 16,
+   "row": "I-32",
+   "arc": "S133",
+   "reason": "the hypercharge dictionary put on the weave's sectors (B1653, B1656, B1658); an instance of I-23"
+  },
+  {
+   "date": "2026-10-15",
+   "from": 16,
+   "to": 17,
+   "row": "I-33",
+   "arc": "S133",
+   "reason": "the read-out of singular values as masses and U_u†U_d as the CKM (main's audit, P-159); an instance of I-13"
+  },
+  {
+   "date": "2026-10-15",
+   "from": 17,
+   "to": 18,
+   "row": "I-34",
+   "arc": "S133",
+   "reason": "the index on M₁,₂ given the cusp's unit read as the generation count (FK10, FK11); an instance of I-26"
   }
  ],
  "_earned_additions": [

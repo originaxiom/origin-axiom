@@ -567,3 +567,12 @@ found with B1635's sealed instrument.
 - **What is open:** which vacuum is the Higgs's (its weight), and the Higgs's own defect (P-163) — the first place, with
   B1656's sector values, where this frame could give ratios of masses.
 
+## Main's addition: the twisted half bound (B1658, PROVED) — one Higgs cannot spread the sectors
+
+- **In B1656's twisted frame under equal framed data, one Higgs keeps the sectors' second generations within a factor 4,
+  exactly** (the Higgs-to-coupling map's Gram spectrum is {1, 2, 2, 4} for a null matter residue). The data's M_Z ratios
+  need 15.9 between the up quarks and the leptons, so one Higgs is out there — a scoreboard entry beside W88 and W90.
+- **What is left** for the sectors' spread: the canonical end condition's joint law (the matter's own defect as a second
+  term), a Higgs that differs by sector (the web seat's two-point term between threads; the owner's ruling, P-166), or the
+  cusp, where couplings go as powers of q.
+

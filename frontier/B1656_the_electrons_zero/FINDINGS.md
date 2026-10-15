@@ -74,8 +74,9 @@ computation, not a cell); any comparison with data; the interacting weave (one f
 
 ## 3b. Verified on an independent seat
 
-The SM seat's W89 (rule 0e301c52a, script f71da8733, output 6fb4eabb7) checked every claim here on its own code before
-main's run landed — twisted norms by W87's polar quadrature with the argument reduced modulo the lattice, residues from
+The SM seat's W89 (rule 0e301c52a, script f71da8733, output 6fb4eabb7) checked every claim here on its own code, blind to
+main's run (corrected 2026-10-15 at the seat's word, its relay §132.6: main's output was committed 43 seconds before
+W89's rule, so the check was blind to the run, not before it) — twisted norms by W87's polar quadrature with the argument reduced modulo the lattice, residues from
 W85's 60-digit series, the arithmetic in exact rationals — and found the same numbers to every printed digit: the gap
 −5.806896, the leptons' R₁ ≤ 2.1 × 10⁻⁵⁹, the quarks' three classes 1.031150, 2.462927, 2.741626. Harvest row 1192.
 

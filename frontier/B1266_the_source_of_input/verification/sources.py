@@ -111,7 +111,7 @@ def selftest():
     print(f"  [srcs ] irreducible sources: {len(groups)}")
     for k, v in sorted(groups.items(), key=lambda kv: -len(kv[1])):
         print(f"           [{len(v)}] {v}")
-    assert len(un) == 14 and len(groups) == 8   # 2026-09-07 (B1296): +I-27, a new H5-type source; 2026-09-08 (B1298): +I-28, joins I-27's source; 2026-09-09: +I-29 (joins I-13's source), +I-30 (joins I-27's); was 10 / 7, then 12 / 8
+    assert len(un) == 18 and len(groups) == 9   # 2026-10-15 (S133): +I-31 (a new source: given Λ), +I-32, +I-33, +I-34 (instances of I-23, I-13, I-26). 2026-09-07 (B1296): +I-27, a new H5-type source; 2026-09-08 (B1298): +I-28, joins I-27's source; 2026-09-09: +I-29 (joins I-13's source), +I-30 (joins I-27's); was 10 / 7, then 12 / 8
 
     # the I-10/I-11 cycle must be ONE source -- a naive closure reports two
     fork = [v for v in groups.values() if "I-10" in v]
@@ -123,15 +123,15 @@ def selftest():
     assert edges["I-25"] == [], "a reference to a discharged row must not count as a debt"
 
     reduced = len(un) - len(groups)
-    print(f"  [ctl  ] rows that are instances of another: {reduced} (14 rows - 8 sources)")
-    assert reduced == 6   # 2026-09-08 (B1298): I-28 is an instance of I-27; 2026-09-09: I-29 of I-13, I-30 of I-27; was 3 (= 10 - 7), then 4
+    print(f"  [ctl  ] rows that are instances of another: {reduced} (18 rows - 9 sources)")
+    assert reduced == 9   # 2026-10-15 (S133): I-32 of I-23, I-33 of I-13, I-34 of I-26 (I-31 its own source); 2026-09-08 (B1298): I-28 of I-27; 2026-09-09: I-29 of I-13, I-30 of I-27; was 3 (= 10 - 7), then 4, then 6
 
     print(f"\n  PRICE, two readings, both kept:")
     print(f"    rows outstanding (what the ratchet tracks) : {AXIOMS} + {len(un)} = {AXIOMS+len(un)}")
     print(f"    IRREDUCIBLE INPUTS (the theory's free inputs): {AXIOMS} + {len(groups)} = {AXIOMS+len(groups)}")
     print(f"    against the SM's {SM_PARAMS} free parameters -- the meaningful comparison is"
           f" {AXIOMS+len(groups)}, not {AXIOMS+len(un)}")
-    assert AXIOMS + len(groups) == 12   # 2026-09-07 (B1296): I-27 is an eighth source; was 11
+    assert AXIOMS + len(groups) == 13   # 2026-10-15 (S133): I-31 is a ninth source; 2026-09-07 (B1296): I-27 an eighth; was 11, then 12
     print("\nSELFTEST: PASS")
 
 

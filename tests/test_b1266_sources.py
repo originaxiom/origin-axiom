@@ -24,8 +24,8 @@ def test_ten_rows_reduce_to_seven_sources():
     import json
     b = json.loads((ROOT / "docs" / "IDENTIFICATION_BASELINE.json").read_text(encoding="utf-8"))
     assert len(un) == b["unearned"]            # the rows are the ratchet's rows (14 on 2026-09-09: I-27, I-28, I-29, I-30 since B1266)
-    assert len(groups) == 8                    # the irreducible sources: I-27 was the eighth (B1296); I-28, I-29, I-30 are instances (of I-27, I-13, I-27)
-    assert S.AXIOMS + len(groups) == 12        # the price against the SM's 19
+    assert len(groups) == 9                    # 2026-10-15 (S133): I-31 (given Λ) the ninth; I-32, I-33, I-34 instances of I-23, I-13, I-26. Before: 8 (I-27 the eighth, B1296)
+    assert S.AXIOMS + len(groups) == 13        # the price against the SM's 19 (12 until S133)
 
 
 def test_the_fork_cycle_is_one_source_not_two():

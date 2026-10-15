@@ -1,3 +1,4 @@
+# sealed at b6542d300: 54610f33b8a4fb30be8b5033fa81d6bc641d60e3f938621c27c0a5fd757f5f4d  verification/the_twisted_half_bound.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 4725dd1d3bd48b03e9a05c74f4417e562aa1b30a04f7daf48b30c093b5444d3c  design_v1/B1658_PREREGISTRATION_v1.md
 ca3a43ed133a1498491ef764c8dc2d61a302da4217c884412206811af2fbc03e  design_v1/the_twisted_half_bound_v1.py

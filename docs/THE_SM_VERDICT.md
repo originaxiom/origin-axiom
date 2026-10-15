@@ -64,8 +64,12 @@ outstanding** … **11 = irreducible inputs**~~
 > LIVE ledger. The struck figures are kept for provenance, not deleted; B1261's and B1266's METHOD
 > is unchanged and correct — only the counts moved.]**
 >
-> **LIVE: 4 axioms + 14 UNEARNED rows = 18 ROWS OUTSTANDING; 14 rows reduce to 8 IRREDUCIBLE
-> SOURCES, so the free-input count is 4 + 8 = 12.** The ledger was raised five times after this
+> ~~**LIVE: 4 axioms + 14 UNEARNED rows = 18 ROWS OUTSTANDING; 14 rows reduce to 8 IRREDUCIBLE
+> SOURCES, so the free-input count is 4 + 8 = 12.**~~ **[Superseded 2026-10-15, S133: the field stage's four rows I-31–I-34.]**
+>
+> **LIVE (2026-10-15): 4 axioms + 18 UNEARNED rows = 22 ROWS OUTSTANDING; 18 rows reduce to 9 IRREDUCIBLE SOURCES, so the
+> free-input count is 4 + 9 = 13.** The ninth source is I-31, "given Λ" (the owner's tagged postulate, its own source);
+> I-32, I-33 and I-34 join I-23's, I-13's and I-26's. **BUYS 0 of 19 is unchanged.** The ledger was raised five times after this
 > paragraph was written — **I-26** (B1259, 2026-09-06), **I-27** (B1296, 2026-09-07), **I-28**
 > (B1298, 2026-09-08), **I-30** (B1321, 2026-09-09), **I-29** (B1306 C, 2026-09-09) — each raise
 > **by hand and dated**, as `docs/IDENTIFICATION_BASELINE.json`'s ratchet requires. The eight

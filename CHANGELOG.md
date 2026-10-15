@@ -1,5 +1,34 @@
 # Changelog
 
+## S133 THE TWISTED HALF BOUND (B1658, PROVED); THE PRICE IS 4 + 9 = 13 (GENESIS v1.47); TWO LANES HARVESTED
+
+- **B1658, the twisted half bound** (sealed `b6542d300`; output unread at `04d64c2ff`; every cell as sealed). In B1656's
+  frame under equal framed data each sector's residue is a null quaternion M = p qᵀ; for every complex Higgs
+  adj Y(S, M) = det S·q̃p̃ᵀ, the Gram spectrum of S ↦ Y(S, M) is {1, 2, 2, 4}∣∣M∣∣², and t + 1/t = ∣∣Y∣∣²/(2∣det S∣∣∣M∣∣²)
+  exactly, so one Higgs spreads the sectors' t + 1/t by at most a factor 4. The census (a scoreboard; HZ2021's M_Z
+  ratios, seen) needs 15.92 between up and leptons, 27σ above: one Higgs under equal framed data is refuted in this
+  frame. After the SM seat's W90 (verified on main). Lock tests/test_b1658_the_twisted_half_bound.py;
+  T-THE-TWISTED-HALF-BOUND; LAW_MAP; the claim pool; THE_WEAVE.
+- **The price, at the owner's ask:** I-31 ("given Λ", its own source), I-32 (the hypercharge dictionary, an instance of
+  I-23), I-33 (the read-out, an instance of I-13; P-159 DONE), I-34 (the index given the cusp's unit, an instance of
+  I-26) registered UNEARNED; EARNED 8, REFUTED 8, UNEARNED 18 (34 rows), 9 irreducible sources: **4 + 9 = 13**, buying
+  0 of 19 (was 4 + 8 = 12). THE_SM_VERDICT, the baseline, the B1266 certificate and lock, the chain certificate;
+  GENESIS v1.47 (via B1658's adoption/amend.py).
+- **Harvest** (rows 1215–1223): the SM seat to `a48a0ecf` (the units with characteristic and the twist counted once; W73
+  per sector; W91; the paper consultation answered, its identity Y(v; v)² = (v·v)²𝟙 verified on main; relay §133 with
+  the owner's two rulings as the seat reports them and W92's rule), the web seat to `39ffb392` (the cusp criterion: in
+  the minimal reading the deep-cusp exponents are W84's in every sector; the owner's ruling on who builds the units;
+  the instrument and null draws). Row 1192 and B1656's FINDINGS corrected at the SM seat's word: W89 was blind to main's
+  run, not before it.
+- **Main's answer to the SM seat's §130:** B1644 carries no line; in B1653 and B1656 each field sees its own qw and R is
+  the pair product, so main's construction is the per-field reading.
+- **Register:** P-143 (parallel runner qualified: 2195/0/5, 29:33 serial → 19:44 with -n 8), P-148, P-163, P-164 (all 18
+  of W59's lines CP-even, exploration), P-167 noted; P-159, P-166 DONE; P-168 (the joint law's inverse map, next), P-169
+  (the cusp with a twisted line per sector), P-170 (the line-order protection rule), P-171 (W88 on main: VERIFIED, DONE — rerun equal to the record, five relations re-derived by main's own code; scope: five of six refuted, J = 0 untested, Q7 superseded by §126, Q6 not blind); the floor 171.
+  B1655's lock pins its log line, not the moving version header. Relay
+  CC_TO_ALL_SEATS_2026-10-15_THE_TWISTED_HALF_BOUND_AND_THE_PRICE.md.
+- Landing suite (P-143's ruling; the parallel runner as qualified): gates 45 of 45; the 169 governance, claim, harvest, register and changed-arc test files, 2303 passed, 0 failed, 6 skipped (35:58 with -n 8, slowed by an exploration sharing the machine). After it, W88's verification applied (P-171 DONE) and the 15 ledger and register test files rerun: 87 passed; the attribution gate caught a vendor word in the new register note (removed); gates 45 of 45 again.
+
 ## S132 THE ELECTRON'S ZERO (B1656) AND THE SYMMETRIC POINT (B1657), BOTH PROVED; THREE LANES HARVESTED
 
 - **B1656, the electron's zero** (sealed `27e7e7482`; output unread at `ad26e995d`; every cell as sealed). On W59's eighteen

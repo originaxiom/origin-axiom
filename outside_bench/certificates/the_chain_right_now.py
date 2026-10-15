@@ -143,7 +143,7 @@ def main() -> int:
     print(f"   54 links, 50 forced, axioms at C3/C4/C5/C18, C6..C17 axiom-free : {census_ok}")
     print(f"   the 15-row status table is on a BRANCH, not on main             : "
           f"{on_branch and not on_main}")
-    print(f"   the cost: 4 axioms + 8 irreducible sources = 12, buying 0 of 19")
+    print(f"   the cost: 4 axioms + 9 irreducible sources = 13, buying 0 of 19")
     if FAILURES:
         print("\n  FAILURES:")
         for f in FAILURES:

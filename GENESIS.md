@@ -1,6 +1,6 @@
 # GENESIS — the foundations of origin-axiom
 
-**Version 1.46 · 2026-10-15 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
+**Version 1.47 · 2026-10-15 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
 adoption of it (arc B1454): the same statement, the seat's arc numbers marked `sm:`, and main's amendments, each marked
 **[v1.1]** where it adds content. The SM seat amended v1.0 the same day on its own branch (sm:B1517), also numbered 1.1
 there, before main's was read. v1.2 (sm:B1519) takes main's v1.1 as the head, as main asked, and adds that amendment and
@@ -261,7 +261,8 @@ architecture as such.**
 grammars (B993, B996) — while the golden is the unique metallic grammar whose own-conductor shadow is a McKay group
 (B997, B1002); m004's siblings have no door (B1019); m000 has the same door (B1234). Its inputs beyond the root are
 counted: five typed external data in `docs/THE_CLAIM.md` §1 (B1014, B1017), eleven irreducible identifications
-(B1266), 39 of 43 ledger links forced (B1123), the freedom ledger (B1028). Never computed on another word state.
+(B1266; **[v1.47] the live price, rerun on the identification ledger, is 4 axioms + 9 irreducible sources = 13** —
+the field stage's rows I-31 to I-34, S133; `outside_bench/certificates/the_price_is_twelve.py`), 39 of 43 ledger links forced (B1123), the freedom ledger (B1028). Never computed on another word state.
 
 Where each frame has been run, by object (as of v1.0):
 
@@ -682,6 +683,7 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
   - FK14: the specification of three from the verified physics — an index of closed-cycle cohomology, obtained by selection (a free quotient and the characters of its deck group), the 5̄ and 10 counts equal by an identity the class index lacks, nobody deriving three; F-CI = the orbifold mechanism, F-HE = the smooth one; the family blind to both by construction; three generations = ONE rank-5 bundle of index three. THE_BAR's baseline recorded.
 - **v1.23 · 2026-10-07 · main B1497.** Room needs genus.
   - FK14: T-ROOM-NEEDS-GENUS — the room is the act's invariant closed homology of the fibre of a cover, zero at genus one, so it needs a non-abelian cover of the register; the root has none to degree eight, the sign-twin one at degree five (o10_150691), where the count is still one. FK4 and FK14 read as one question.
+- **v1.47 · 2026-10-15 · main, at B1658's landing (S133).** The price restated: the identification ledger gains the field stage's four rows — I-31 ("given Λ", the owner's tagged postulate, its own source), I-32 (the hypercharge dictionary), I-33 (the read-out), I-34 (the index given the cusp's unit) — and the live price is 4 + 9 = 13.
 - **v1.46 · 2026-10-15 · main B1655.** Main's audit of its own negatives since B1600 (the owner's ruling on P-152): FK14's B1602 carrier withdrawn in part (B1604, B1605) and the even-trace counts read over candidate kernels; FK11's six kinds and the scope of B1604's theorem; FK9's "free" as frozen pieces, B1646's "never between" quartic only; FK15's "not forced" for a point or density Higgs; GM5c's near-ω clause, which has no cell; W50's recomputation on main noted. The v1.26 entry below records WM3 as first banked.
 - **v1.45 · 2026-10-14 · main B1651.** The field's genesis as fork FK15 (the day's three passages; the "which" half banked: the Higgs's locus is not forced, B1651); FK9 named as the missing ingredient (P-139).
 - **v1.44 · 2026-10-14 · main B1648.** Review 63's scope repairs: FK10's B1629 sentences in their quantified scope (the owner's tagging stands); v1.43's lift agreement at Δ⁴ alone (Gate 12 owed) and M₁,₂ as the seat's reading.

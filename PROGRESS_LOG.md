@@ -17152,3 +17152,13 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - Landing suite, the owner's ruling on P-143: gates 45 of 45; the 148 governance, claim, harvest and changed-arc test files on the final tree, 2195 passed, 0 failed, 5 skipped (29:33, serial, the certificate of record). The parallel qualification (the owner's approval of P-143's open item; the same files with -n 8) reached 94% with no failure in under five minutes and was stopped for a restart; it reruns next.
 - Next: the Higgs's defect (P-163). 0 of 19.
 
+## 2026-10-15 — S133 THE TWISTED HALF BOUND AND THE PRICE
+
+- B1658 is PROVED: in B1656's frame one Higgs cannot spread the sectors' second generations by more than a factor 4,
+  exactly, for every complex Higgs; the data need 15.9 (a scoreboard), so one Higgs under equal framed data is out.
+- The price restated at the owner's ask: four field-stage rows (I-31–I-34) registered UNEARNED; 4 + 9 = 13; GENESIS
+  v1.47.
+- Two lanes harvested (rows 1215–1223); the SM seat's identity Y(v; v)² = (v·v)²𝟙 verified on main; main's answer to
+  §130 (per field); W89's timing corrected; P-159 and P-166 DONE; P-168–P-171 rowed; W88 verified on main (P-171 DONE: five of six relations refuted, J = 0 untested).
+- Landing suite (P-143's ruling; the parallel runner as qualified): gates 45 of 45; the 169 governance, claim, harvest, register and changed-arc test files, 2303 passed, 0 failed, 6 skipped (35:58 with -n 8, slowed by an exploration sharing the machine). After it, W88's verification applied (P-171 DONE) and the 15 ledger and register test files rerun: 87 passed; the attribution gate caught a vendor word in the new register note (removed); gates 45 of 45 again.
+- Next: the joint law and its inverse map (P-168), then P-167 with the line-order rule (P-170). 0 of 19.
