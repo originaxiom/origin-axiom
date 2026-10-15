@@ -1,0 +1,149 @@
++LLLLLLLR  t=  9 coker(eps gamma - I)=Z/1+Z/7  line orders 2..12 fixed: [7]  admitted(any rank-2 cell)=False
+-LLLLLLLR  t=  9 coker(eps gamma - I)=Z/1+Z/11  line orders 2..12 fixed: [11]  admitted(any rank-2 cell)=False
++LLLLLLR   t=  8 coker(eps gamma - I)=Z/1+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=False
+-LLLLLLR   t=  8 coker(eps gamma - I)=Z/1+Z/10  line orders 2..12 fixed: [2, 5, 10]  admitted(any rank-2 cell)=False
++LLLLLLRR  t= 14 coker(eps gamma - I)=Z/2+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=False
+-LLLLLLRR  t= 14 coker(eps gamma - I)=Z/2+Z/8  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=False
++LLLLLR    t=  7 coker(eps gamma - I)=Z/1+Z/5  line orders 2..12 fixed: [5]  admitted(any rank-2 cell)=False
+-LLLLLR    t=  7 coker(eps gamma - I)=Z/1+Z/9  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=False
++LLLLLRLR  t= 19 coker(eps gamma - I)=Z/1+Z/17  line orders 2..12 fixed: []  admitted(any rank-2 cell)=False
+-LLLLLRLR  t= 19 coker(eps gamma - I)=Z/1+Z/21  line orders 2..12 fixed: [3, 7]  admitted(any rank-2 cell)=False
++LLLLLRR   t= 12 coker(eps gamma - I)=Z/1+Z/10  line orders 2..12 fixed: [2, 5, 10]  admitted(any rank-2 cell)=True
+-LLLLLRR   t= 12 coker(eps gamma - I)=Z/1+Z/14  line orders 2..12 fixed: [2, 7]  admitted(any rank-2 cell)=True
++LLLLLRRR  t= 17 coker(eps gamma - I)=Z/1+Z/15  line orders 2..12 fixed: [3, 5]  admitted(any rank-2 cell)=True
+-LLLLLRRR  t= 17 coker(eps gamma - I)=Z/1+Z/19  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLLLR     t=  6 coker(eps gamma - I)=Z/1+Z/4  line orders 2..12 fixed: [2, 4]  admitted(any rank-2 cell)=True
+-LLLLR     t=  6 coker(eps gamma - I)=Z/1+Z/8  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
++LLLLRLLR  t= 22 coker(eps gamma - I)=Z/2+Z/10  line orders 2..12 fixed: [2, 5, 10]  admitted(any rank-2 cell)=True
+-LLLLRLLR  t= 22 coker(eps gamma - I)=Z/2+Z/12  line orders 2..12 fixed: [2, 3, 4, 6, 12]  admitted(any rank-2 cell)=True
++LLLLRLR   t= 16 coker(eps gamma - I)=Z/1+Z/14  line orders 2..12 fixed: [2, 7]  admitted(any rank-2 cell)=True
+-LLLLRLR   t= 16 coker(eps gamma - I)=Z/3+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=True
++LLLLRLRR  t= 25 coker(eps gamma - I)=Z/1+Z/23  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
+-LLLLRLRR  t= 25 coker(eps gamma - I)=Z/1+Z/27  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=True
++LLLLRR    t= 10 coker(eps gamma - I)=Z/2+Z/4  line orders 2..12 fixed: [2, 4]  admitted(any rank-2 cell)=True
+-LLLLRR    t= 10 coker(eps gamma - I)=Z/2+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=True
++LLLLRRLR  t= 25 coker(eps gamma - I)=Z/1+Z/23  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
+-LLLLRRLR  t= 25 coker(eps gamma - I)=Z/1+Z/27  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=True
++LLLLRRR   t= 14 coker(eps gamma - I)=Z/1+Z/12  line orders 2..12 fixed: [2, 3, 4, 6, 12]  admitted(any rank-2 cell)=True
+-LLLLRRR   t= 14 coker(eps gamma - I)=Z/1+Z/16  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
++LLLLRRRR  t= 18 coker(eps gamma - I)=Z/4+Z/4  line orders 2..12 fixed: [2, 4]  admitted(any rank-2 cell)=True
+-LLLLRRRR  t= 18 coker(eps gamma - I)=Z/2+Z/10  line orders 2..12 fixed: [2, 5, 10]  admitted(any rank-2 cell)=True
++LLLR      t=  5 coker(eps gamma - I)=Z/1+Z/3  line orders 2..12 fixed: [3]  admitted(any rank-2 cell)=True
+-LLLR      t=  5 coker(eps gamma - I)=Z/1+Z/7  line orders 2..12 fixed: [7]  admitted(any rank-2 cell)=True
++LLLRLLR   t= 18 coker(eps gamma - I)=Z/1+Z/16  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
+-LLLRLLR   t= 18 coker(eps gamma - I)=Z/1+Z/20  line orders 2..12 fixed: [2, 4, 5, 10]  admitted(any rank-2 cell)=True
++LLLRLLRR  t= 29 coker(eps gamma - I)=Z/1+Z/27  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=True
+-LLLRLLRR  t= 29 coker(eps gamma - I)=Z/1+Z/31  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLLRLR    t= 13 coker(eps gamma - I)=Z/1+Z/11  line orders 2..12 fixed: [11]  admitted(any rank-2 cell)=True
+-LLLRLR    t= 13 coker(eps gamma - I)=Z/1+Z/15  line orders 2..12 fixed: [3, 5]  admitted(any rank-2 cell)=True
++LLLRLRLR  t= 34 coker(eps gamma - I)=Z/2+Z/16  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
+-LLLRLRLR  t= 34 coker(eps gamma - I)=Z/2+Z/18  line orders 2..12 fixed: [2, 3, 6, 9]  admitted(any rank-2 cell)=True
++LLLRLRR   t= 20 coker(eps gamma - I)=Z/1+Z/18  line orders 2..12 fixed: [2, 3, 6, 9]  admitted(any rank-2 cell)=True
+-LLLRLRR   t= 20 coker(eps gamma - I)=Z/1+Z/22  line orders 2..12 fixed: [2, 11]  admitted(any rank-2 cell)=True
++LLLRLRRR  t= 27 coker(eps gamma - I)=Z/1+Z/25  line orders 2..12 fixed: [5]  admitted(any rank-2 cell)=True
+-LLLRLRRR  t= 27 coker(eps gamma - I)=Z/1+Z/29  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLLRR     t=  8 coker(eps gamma - I)=Z/1+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=True
+-LLLRR     t=  8 coker(eps gamma - I)=Z/1+Z/10  line orders 2..12 fixed: [2, 5, 10]  admitted(any rank-2 cell)=True
++LLLRRLLR  t= 29 coker(eps gamma - I)=Z/1+Z/27  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=True
+-LLLRRLLR  t= 29 coker(eps gamma - I)=Z/1+Z/31  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLLRRLR   t= 20 coker(eps gamma - I)=Z/1+Z/18  line orders 2..12 fixed: [2, 3, 6, 9]  admitted(any rank-2 cell)=True
+-LLLRRLR   t= 20 coker(eps gamma - I)=Z/1+Z/22  line orders 2..12 fixed: [2, 11]  admitted(any rank-2 cell)=True
++LLLRRLRR  t= 30 coker(eps gamma - I)=Z/2+Z/14  line orders 2..12 fixed: [2, 7]  admitted(any rank-2 cell)=True
+-LLLRRLRR  t= 30 coker(eps gamma - I)=Z/2+Z/16  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
++LLLRRR    t= 11 coker(eps gamma - I)=Z/3+Z/3  line orders 2..12 fixed: [3]  admitted(any rank-2 cell)=True
+-LLLRRR    t= 11 coker(eps gamma - I)=Z/1+Z/13  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLLRRRLR  t= 27 coker(eps gamma - I)=Z/1+Z/25  line orders 2..12 fixed: [5]  admitted(any rank-2 cell)=True
+-LLLRRRLR  t= 27 coker(eps gamma - I)=Z/1+Z/29  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLLRRRR   t= 14 coker(eps gamma - I)=Z/1+Z/12  line orders 2..12 fixed: [2, 3, 4, 6, 12]  admitted(any rank-2 cell)=True
+-LLLRRRR   t= 14 coker(eps gamma - I)=Z/1+Z/16  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
++LLLRRRRR  t= 17 coker(eps gamma - I)=Z/1+Z/15  line orders 2..12 fixed: [3, 5]  admitted(any rank-2 cell)=True
+-LLLRRRRR  t= 17 coker(eps gamma - I)=Z/1+Z/19  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLR       t=  4 coker(eps gamma - I)=Z/1+Z/2  line orders 2..12 fixed: [2]  admitted(any rank-2 cell)=True
+-LLR       t=  4 coker(eps gamma - I)=Z/1+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=True
++LLRLLRLR  t= 37 coker(eps gamma - I)=Z/1+Z/35  line orders 2..12 fixed: [5, 7]  admitted(any rank-2 cell)=True
+-LLRLLRLR  t= 37 coker(eps gamma - I)=Z/1+Z/39  line orders 2..12 fixed: [3]  admitted(any rank-2 cell)=True
++LLRLLRR   t= 22 coker(eps gamma - I)=Z/1+Z/20  line orders 2..12 fixed: [2, 4, 5, 10]  admitted(any rank-2 cell)=True
+-LLRLLRR   t= 22 coker(eps gamma - I)=Z/1+Z/24  line orders 2..12 fixed: [2, 3, 4, 6, 8, 12]  admitted(any rank-2 cell)=True
++LLRLLRRR  t= 30 coker(eps gamma - I)=Z/2+Z/14  line orders 2..12 fixed: [2, 7]  admitted(any rank-2 cell)=True
+-LLRLLRRR  t= 30 coker(eps gamma - I)=Z/2+Z/16  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
++LLRLR     t= 10 coker(eps gamma - I)=Z/1+Z/8  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
+-LLRLR     t= 10 coker(eps gamma - I)=Z/1+Z/12  line orders 2..12 fixed: [2, 3, 4, 6, 12]  admitted(any rank-2 cell)=True
++LLRLRLR   t= 26 coker(eps gamma - I)=Z/1+Z/24  line orders 2..12 fixed: [2, 3, 4, 6, 8, 12]  admitted(any rank-2 cell)=True
+-LLRLRLR   t= 26 coker(eps gamma - I)=Z/1+Z/28  line orders 2..12 fixed: [2, 4, 7]  admitted(any rank-2 cell)=True
++LLRLRLRR  t= 39 coker(eps gamma - I)=Z/1+Z/37  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
+-LLRLRLRR  t= 39 coker(eps gamma - I)=Z/1+Z/41  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLRLRR    t= 15 coker(eps gamma - I)=Z/1+Z/13  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
+-LLRLRR    t= 15 coker(eps gamma - I)=Z/1+Z/17  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLRLRRLR  t= 38 coker(eps gamma - I)=Z/6+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=True
+-LLRLRRLR  t= 38 coker(eps gamma - I)=Z/2+Z/20  line orders 2..12 fixed: [2, 4, 5, 10]  admitted(any rank-2 cell)=True
++LLRLRRR   t= 20 coker(eps gamma - I)=Z/1+Z/18  line orders 2..12 fixed: [2, 3, 6, 9]  admitted(any rank-2 cell)=True
+-LLRLRRR   t= 20 coker(eps gamma - I)=Z/1+Z/22  line orders 2..12 fixed: [2, 11]  admitted(any rank-2 cell)=True
++LLRLRRRR  t= 25 coker(eps gamma - I)=Z/1+Z/23  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
+-LLRLRRRR  t= 25 coker(eps gamma - I)=Z/1+Z/27  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=True
++LLRR      t=  6 coker(eps gamma - I)=Z/2+Z/2  line orders 2..12 fixed: [2]  admitted(any rank-2 cell)=True
+-LLRR      t=  6 coker(eps gamma - I)=Z/2+Z/4  line orders 2..12 fixed: [2, 4]  admitted(any rank-2 cell)=True
++LLRRLR    t= 15 coker(eps gamma - I)=Z/1+Z/13  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
+-LLRRLR    t= 15 coker(eps gamma - I)=Z/1+Z/17  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLRRLRLR  t= 39 coker(eps gamma - I)=Z/1+Z/37  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
+-LLRRLRLR  t= 39 coker(eps gamma - I)=Z/1+Z/41  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLRRLRR   t= 22 coker(eps gamma - I)=Z/1+Z/20  line orders 2..12 fixed: [2, 4, 5, 10]  admitted(any rank-2 cell)=True
+-LLRRLRR   t= 22 coker(eps gamma - I)=Z/1+Z/24  line orders 2..12 fixed: [2, 3, 4, 6, 8, 12]  admitted(any rank-2 cell)=True
++LLRRLRRR  t= 29 coker(eps gamma - I)=Z/1+Z/27  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=True
+-LLRRLRRR  t= 29 coker(eps gamma - I)=Z/1+Z/31  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLRRR     t=  8 coker(eps gamma - I)=Z/1+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=True
+-LLRRR     t=  8 coker(eps gamma - I)=Z/1+Z/10  line orders 2..12 fixed: [2, 5, 10]  admitted(any rank-2 cell)=True
++LLRRRLR   t= 20 coker(eps gamma - I)=Z/1+Z/18  line orders 2..12 fixed: [2, 3, 6, 9]  admitted(any rank-2 cell)=True
+-LLRRRLR   t= 20 coker(eps gamma - I)=Z/1+Z/22  line orders 2..12 fixed: [2, 11]  admitted(any rank-2 cell)=True
++LLRRRLRR  t= 29 coker(eps gamma - I)=Z/1+Z/27  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=True
+-LLRRRLRR  t= 29 coker(eps gamma - I)=Z/1+Z/31  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
++LLRRRR    t= 10 coker(eps gamma - I)=Z/2+Z/4  line orders 2..12 fixed: [2, 4]  admitted(any rank-2 cell)=True
+-LLRRRR    t= 10 coker(eps gamma - I)=Z/2+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=True
++LLRRRRLR  t= 25 coker(eps gamma - I)=Z/1+Z/23  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
+-LLRRRRLR  t= 25 coker(eps gamma - I)=Z/1+Z/27  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=True
++LLRRRRR   t= 12 coker(eps gamma - I)=Z/1+Z/10  line orders 2..12 fixed: [2, 5, 10]  admitted(any rank-2 cell)=True
+-LLRRRRR   t= 12 coker(eps gamma - I)=Z/1+Z/14  line orders 2..12 fixed: [2, 7]  admitted(any rank-2 cell)=True
++LLRRRRRR  t= 14 coker(eps gamma - I)=Z/2+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=False
+-LLRRRRRR  t= 14 coker(eps gamma - I)=Z/2+Z/8  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=False
++LR        t=  3 coker(eps gamma - I)=Z/1+Z/1  line orders 2..12 fixed: []  admitted(any rank-2 cell)=True
+-LR        t=  3 coker(eps gamma - I)=Z/1+Z/5  line orders 2..12 fixed: [5]  admitted(any rank-2 cell)=True
++LRLRLRR   t= 26 coker(eps gamma - I)=Z/1+Z/24  line orders 2..12 fixed: [2, 3, 4, 6, 8, 12]  admitted(any rank-2 cell)=True
+-LRLRLRR   t= 26 coker(eps gamma - I)=Z/1+Z/28  line orders 2..12 fixed: [2, 4, 7]  admitted(any rank-2 cell)=True
++LRLRLRRR  t= 34 coker(eps gamma - I)=Z/2+Z/16  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
+-LRLRLRRR  t= 34 coker(eps gamma - I)=Z/2+Z/18  line orders 2..12 fixed: [2, 3, 6, 9]  admitted(any rank-2 cell)=True
++LRLRR     t= 10 coker(eps gamma - I)=Z/1+Z/8  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
+-LRLRR     t= 10 coker(eps gamma - I)=Z/1+Z/12  line orders 2..12 fixed: [2, 3, 4, 6, 12]  admitted(any rank-2 cell)=True
++LRLRRLRR  t= 37 coker(eps gamma - I)=Z/1+Z/35  line orders 2..12 fixed: [5, 7]  admitted(any rank-2 cell)=True
+-LRLRRLRR  t= 37 coker(eps gamma - I)=Z/1+Z/39  line orders 2..12 fixed: [3]  admitted(any rank-2 cell)=True
++LRLRRR    t= 13 coker(eps gamma - I)=Z/1+Z/11  line orders 2..12 fixed: [11]  admitted(any rank-2 cell)=True
+-LRLRRR    t= 13 coker(eps gamma - I)=Z/1+Z/15  line orders 2..12 fixed: [3, 5]  admitted(any rank-2 cell)=True
++LRLRRRR   t= 16 coker(eps gamma - I)=Z/1+Z/14  line orders 2..12 fixed: [2, 7]  admitted(any rank-2 cell)=True
+-LRLRRRR   t= 16 coker(eps gamma - I)=Z/3+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=True
++LRLRRRRR  t= 19 coker(eps gamma - I)=Z/1+Z/17  line orders 2..12 fixed: []  admitted(any rank-2 cell)=False
+-LRLRRRRR  t= 19 coker(eps gamma - I)=Z/1+Z/21  line orders 2..12 fixed: [3, 7]  admitted(any rank-2 cell)=False
++LRR       t=  4 coker(eps gamma - I)=Z/1+Z/2  line orders 2..12 fixed: [2]  admitted(any rank-2 cell)=True
+-LRR       t=  4 coker(eps gamma - I)=Z/1+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=True
++LRRLRRR   t= 18 coker(eps gamma - I)=Z/1+Z/16  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
+-LRRLRRR   t= 18 coker(eps gamma - I)=Z/1+Z/20  line orders 2..12 fixed: [2, 4, 5, 10]  admitted(any rank-2 cell)=True
++LRRLRRRR  t= 22 coker(eps gamma - I)=Z/2+Z/10  line orders 2..12 fixed: [2, 5, 10]  admitted(any rank-2 cell)=True
+-LRRLRRRR  t= 22 coker(eps gamma - I)=Z/2+Z/12  line orders 2..12 fixed: [2, 3, 4, 6, 12]  admitted(any rank-2 cell)=True
++LRRR      t=  5 coker(eps gamma - I)=Z/1+Z/3  line orders 2..12 fixed: [3]  admitted(any rank-2 cell)=True
+-LRRR      t=  5 coker(eps gamma - I)=Z/1+Z/7  line orders 2..12 fixed: [7]  admitted(any rank-2 cell)=True
++LRRRR     t=  6 coker(eps gamma - I)=Z/1+Z/4  line orders 2..12 fixed: [2, 4]  admitted(any rank-2 cell)=True
+-LRRRR     t=  6 coker(eps gamma - I)=Z/1+Z/8  line orders 2..12 fixed: [2, 4, 8]  admitted(any rank-2 cell)=True
++LRRRRR    t=  7 coker(eps gamma - I)=Z/1+Z/5  line orders 2..12 fixed: [5]  admitted(any rank-2 cell)=False
+-LRRRRR    t=  7 coker(eps gamma - I)=Z/1+Z/9  line orders 2..12 fixed: [3, 9]  admitted(any rank-2 cell)=False
++LRRRRRR   t=  8 coker(eps gamma - I)=Z/1+Z/6  line orders 2..12 fixed: [2, 3, 6]  admitted(any rank-2 cell)=False
+-LRRRRRR   t=  8 coker(eps gamma - I)=Z/1+Z/10  line orders 2..12 fixed: [2, 5, 10]  admitted(any rank-2 cell)=False
++LRRRRRRR  t=  9 coker(eps gamma - I)=Z/1+Z/7  line orders 2..12 fixed: [7]  admitted(any rank-2 cell)=False
+-LRRRRRRR  t=  9 coker(eps gamma - I)=Z/1+Z/11  line orders 2..12 fixed: [11]  admitted(any rank-2 cell)=False
+admitted signed threads carrying a fixed line of order N in {5,7,...,12}: {5: ['+LLLLLRR', '+LLLLLRRR', '+LLLLRLLR', '-LLLLRRRR', '-LLLRLLR', '-LLLRLR', '+LLLRLRRR', '-LLLRR', '+LLLRRRLR', '+LLLRRRRR', '+LLRLLRLR', '+LLRLLRR', '-LLRLRRLR', '+LLRRLRR', '-LLRRR', '+LLRRRRR', '-LR', '+LRLRRLRR', '-LRLRRR', '-LRRLRRR', '+LRRLRRRR'], 7: ['-LLLLLRR', '+LLLLRLR', '-LLLR', '+LLLRRLRR', '+LLRLLRLR', '+LLRLLRRR', '-LLRLRLR', '-LLRRRRR', '-LRLRLRR', '+LRLRRLRR', '+LRLRRRR', '-LRRR'], 8: ['-LLLLR', '-LLLLRRR', '+LLLRLLR', '+LLLRLRLR', '-LLLRRLRR', '-LLLRRRR', '-LLRLLRR', '-LLRLLRRR', '+LLRLR', '+LLRLRLR', '-LLRRLRR', '+LRLRLRR', '+LRLRLRRR', '+LRLRR', '+LRRLRRR', '-LRRRR'], 9: ['-LLLLRLRR', '-LLLLRRLR', '+LLLRLLRR', '-LLLRLRLR', '+LLLRLRR', '+LLLRRLLR', '+LLLRRLR', '+LLRLRRR', '-LLRLRRRR', '+LLRRLRRR', '+LLRRRLR', '+LLRRRLRR', '-LLRRRRLR', '-LRLRLRRR'], 10: ['+LLLLLRR', '+LLLLRLLR', '-LLLLRRRR', '-LLLRLLR', '-LLLRR', '+LLRLLRR', '-LLRLRRLR', '+LLRRLRR', '-LLRRR', '+LLRRRRR', '-LRRLRRR', '+LRRLRRRR'], 11: ['+LLLRLR', '-LLLRLRR', '-LLLRRLR', '-LLRLRRR', '-LLRRRLR', '+LRLRRR'], 12: ['-LLLLRLLR', '+LLLLRRR', '+LLLRRRR', '-LLRLLRR', '-LLRLR', '+LLRLRLR', '-LLRRLRR', '+LRLRLRR', '-LRLRR', '-LRRLRRRR']}
+the root in the RL marking, sign +1: fixed points of order 5, (a, b)/5: []
+the root in the RL marking, sign -1: fixed points of order 5, (a, b)/5: [(1, 2), (2, 4), (3, 1), (4, 3)]
++LR (L.R marking), N = 5: closing exactly 0, closing up to w -> -w 4: [(1, 3), (2, 1), (3, 4), (4, 2)]
++LR (L.R marking), N = 10: closing exactly 0, closing up to w -> -w 4 (the same four order-5 points, embedded)
++LR (L.R marking), N = 15: closing exactly 0, closing up to w -> -w 4 (the same four order-5 points, embedded)
++LR (L.R marking), N = 20: closing exactly 0, closing up to w -> -w 4 (the same four order-5 points, embedded)
++LR (L.R marking), N = 25: closing exactly 0, closing up to w -> -w 4 (the same four order-5 points, embedded)
++LR (L.R marking), N = 30: closing exactly 0, closing up to w -> -w 4 (the same four order-5 points, embedded)
++LR (L.R marking), N = 35: closing exactly 0, closing up to w -> -w 4 (the same four order-5 points, embedded)
++LR (L.R marking), N = 40: closing exactly 0, closing up to w -> -w 4 (the same four order-5 points, embedded)

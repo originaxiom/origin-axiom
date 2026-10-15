@@ -121,6 +121,15 @@ contains (R(z)·R(w))Y.
 3. **A degree-N link and an order-N line?** As moduli data, yes. X₀(N) parametrises cyclic N-isogenies, which are the
    cyclic subgroups of order N. On threads, this correspondence takes a thread to the threads cyclically N-linked to
    it. Nothing in the thread frame forces N.
+
+   > **Dated addendum, 13:10.** For cyclic subgroups (X₀(N)), "nothing forces N" stands: the root preserves order-N
+   > subgroups for N = 5, 11, 19, 29, 31, …. For a line that must close around the thread, the thread does restrict N.
+   > - **The record's root (+LR, GENESIS SE1)** closes no non-trivial line (B1434). So a single closing line gives
+   >   V = 1 there.
+   > - **Up to w ↦ −w,** exactly four lines close, all of order 5. On the record both readings of that exit are
+   >   closed. On the line alone it is charge conjugation, which the spectrum excludes. On the whole fibre it makes the
+   >   vacuum m003, which SE1 sets aside.
+   > - Details, premises and the referee's corrections are in `CHAT1_TO_SM_AND_CC_2026-10-15_THE_ROOTS_LINE.md`.
 4. **Count or selection?** Selection, as the SM seat says.
    - The count, three, lives in the fibre: three even spin structures, and three −½ sections (THETA2). It is the same
      on every thread, and a second thread cannot change it.
