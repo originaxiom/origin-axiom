@@ -1,0 +1,4 @@
+r=2: Res0 S_r^2 = 1.06e-30 ; S_r(z)-1/z at z=1e-8: 3.36e-8
+r=3: Res0 S_r^2 = 1.08e-30 ; S_r(z)-1/z at z=1e-8: 6.64e-9
+r=4: Res0 S_r^2 = 1.1e-30 ; S_r(z)-1/z at z=1e-8: 2.99e-8
+density |S_3|^2 annulus: eps=1e-2 -> 21.3768, eps=1e-4 -> 50.3119, diff 28.9351 vs 2*pi*ln(100) = 28.9351
