@@ -2,6 +2,10 @@
 
 ## 2026-10-16 canonical normal variational/fermion join
 
+Validation:6new live tests PASS27.26s,41pins/tree/index unchanged.
+Governance26PASS/four inherited FAIL25.383664s; none newly names this
+science. Full capture/VALIDATION retained, not a whole-suite certificate.
+
 October16 normal variational join:82/82 exact at published repair
 b051f241e,41pins/tree/index unchanged. Actual local BPS amplitude tangent
 maps to the interacting epsilon-minus graph; complete nonabelian normal

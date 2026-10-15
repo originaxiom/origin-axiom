@@ -136,3 +136,15 @@ THAT SAME construction. Fixed based g2+u1 is not an SM phase; other
 admitted backgrounds are not excluded. No old zero-Higgs gap is copied.
 Foundational selection, full observed SM+three and gravity remain
 unachieved. No qualia/observer mechanism or goal completion is inferred.
+
+## Validation continuation
+
+Six new live tests PASS27.26s, both complete producers rerun; true
+pre-launch snapshot and41pins,13,049tracked contents/index unchanged.
+Governance26PASS/four inherited FAIL25.383664s, same unchanged state.
+Exact previous attribution/vacuity/provenance details,42stale debts;
+no new science path named. No waiver or whole-suite/receiver acceptance.
+VALIDATION and full raw receipts/logs retained. The source ratio is
+in common Wirtinger derivative units, not an observed spacetime speed.
+This final paragraph and publication metadata follow those captures;
+no41pinned proof/source/test is changed or back-certified by them.

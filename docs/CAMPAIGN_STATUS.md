@@ -1,5 +1,10 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 normal-join validation:6new live tests PASS27.26s, unchanged
+41pins/tree/index with real pre-launch snapshots. Governance26PASS/
+four inherited FAIL25.383664s, old debt not waived. See new VALIDATION;
+not full suite, global model, physical index or SM/gravity acceptance.
+
 October16 normal variational join:82/82 exact at published repair
 b051f241e,41pins/tree/index unchanged. Actual local BPS amplitude tangent
 maps to the interacting epsilon-minus graph; complete nonabelian normal

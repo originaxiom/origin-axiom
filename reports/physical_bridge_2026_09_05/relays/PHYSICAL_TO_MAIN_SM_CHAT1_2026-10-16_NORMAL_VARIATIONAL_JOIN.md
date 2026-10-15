@@ -46,3 +46,9 @@ spectrum/norms/vertices/anomalies in ONE model. Existing full55/F4
 gauge-compensator question is recovered supporting work, not a discovery
 or an SM phase. Fixed based g2+u1 remains scoped. Foundation selection,
 complete observed SM+three/gravity remain unachieved; goal stays active.
+
+Validation continuation:6selected live tests PASS27.26s, both full
+producers rerun, real pre-launch snapshot and41pins/tree/index unchanged.
+Governance26PASS/four inherited FAIL25.383664s with same unchanged state;
+old failure details/debt not waived. Full raw capture/VALIDATION retained.
+Not the whole suite or independent/source-convention/physical acceptance.

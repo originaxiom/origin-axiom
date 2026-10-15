@@ -19702,3 +19702,16 @@ nonlinear boson/fermion/gauge/auxiliary/SUSY law, GLOBAL stationary
 geometry/Higgs/end, then actual charged spectrum/norms/interactions/
 anomalies in ONE construction. Full derived SM/three/gravity goal stays
 ACTIVE. Live regression/governance follow, not claimed already green.
+
+### October16 normal-join validation and publication
+
+Six selected LIVE tests PASS27.26s, capture28.482174s; both complete
+producers rerun,41pins/13,049tracked contents/index unchanged with true
+before-launch snapshot. Not the previous7/54 tests or a whole suite.
+Governance26PASS/four inherited FAIL25.383664s, same frozen state.
+First3failure lines byte-identical to prior capture;42stale debts,
+156open including the new sender relay, review552. No waiver or new
+science path named. Full raw receipts/logs and VALIDATION retained.
+Final summary/progress/relay refinements are post-check metadata, not
+back-certified by those captures;41pinned scientific sources unchanged.
+Physical SM/three/gravity and the full boundary/global model stay ACTIVE.
