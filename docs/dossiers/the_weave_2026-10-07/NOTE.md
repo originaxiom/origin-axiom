@@ -272,6 +272,11 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   carried by K, not by Y" (its hybrid could not test it; Y's shape sets the level), and the first background's "level
   3 is what the short words do" (no length law holds). Wrong numbers and citation slips are graded and relayed (§111).
   Four of this seat's own statements are corrected.
+- W87 (B1654's section 1 checked against C0, at main's suggestion; rule first, with a disclosed exploration; one run;
+  every cell as predicted): the channel norms have a closed form, c_r = −2π ln((π/2)|θ_r(0)|²), proved by Parseval.
+  So D(τ) is a function of λ alone, and vanishes exactly on ω's orbit. Every channel-blind end condition lifts the
+  first generation with D's shape; at ω none lifts it. C0's covariance argument does not choose P4′. Its "numbers"
+  sentence chooses the cutoff-free family e^{βx}, of which P4′ is the one zero-keeping member.
 
 ## The setting
 
@@ -7230,6 +7235,91 @@ change: 1 A, 7 B, 7 C.
   heavy files at good primes, repeats included. The 59 are distinct (word state, level) cells across all chat1's
   files. Neither count finds a difference.
 
+## W87. B1654's section 1 checked against C0, at main's suggestion: the channel norms have a closed form, c_r = −2π ln((π/2)|θ_r(0)|²); D(τ) is a function of λ alone and vanishes exactly on ω's orbit; every channel-blind end condition lifts the first generation with D's shape, and P4′ is the one zero-keeping member of the cutoff-free family (`the_boundary_class_norms_checked.py`; `W87_RULE.md`)
+
+**Why.** Main, S129 and S130: "If you check one thing, check §1.2 of B1654's preregistration against your C0." B1654's
+section 1 (sealed at 155959126) reads C0's "one normalisation serves all three" as its end condition P4′. Under P4′
+the first generation stays massless at every τ.
+
+**Weave or thread.** Weave-type, given Λ and B1654's premises P1 (the typing) and P2 (the boundary class). The fibre is
+the one every thread shares, and the three parity channels are taken jointly: D(τ) exists only because the three
+residues satisfy R·R = 0 together. The claims are identities in τ.
+
+**The order.**
+- The rule (`W87_RULE.md`, 3274265c1) was committed and pushed before the script existed. It discloses a firewalled
+  exploration in double precision, which suggested the closed form, and the hand derivations; the priors were set after
+  both.
+- The script was committed at 8f23e8b4d. One edit came before that commit, in drafting: route B is computed once.
+- One run (27 s, exit 0). The output was committed unread at 12beb41d6.
+
+**What was derived by hand (the rule's derivations).**
+1. **The channel norms:** c_r(τ) = −2π ln((π/2)|θ_r(0 | τ)|²) for r = 2, 3, 4 and every τ.
+   - In the strip 0 < Im z < Im τ, S_r is a Fourier series whose coefficients −2πi/(1 − ε_r q^{2k}) follow from the
+     residue.
+   - Parseval at each height gives ∫|S_r|² over a horizontal unit segment.
+   - Cutting the strip at height δ equals cutting a disc of radius 2δ.
+   - Euler's and Gauss's product identities turn the sums into theta constants.
+2. **D in closed form:** D(τ) = −θ₃⁴h(λ)/(4πη⁶), with λ = θ₂⁴/θ₃⁴ and h(λ) = λ ln|λ| + (1 − λ) ln|1 − λ|.
+   - |D|/|R|² = π|h(λ)|/(1 + |λ| + |1 − λ|), invariant under SL(2, ℤ).
+   - D vanishes exactly on the orbit of ω, since h(λ) = 0 only at λ = e^{±iπ/3}.
+   - At i, |D|/|R|² = (π/2) ln 2.
+   - At the cusp, D/(q|R|²) = 8π² Im τ + 8π(1 − 4 ln 2) + 64πq(4 ln 2 − 1 − π Im τ) + O(q² ln q).
+3. **The end conditions as one family,** u_r = G(2πL + c_r)R_r, where L = ln(1/ε). P4 is G = √x, P4″ is G = x and P4′
+   is G = 1.
+   - u·u = 2G(2πL)G′(2πL)·D(τ) at leading order. So every G with G′ ≠ 0 lifts the first generation with the same
+     τ-shape, D(τ).
+   - The cutoff-free end conditions are exactly G = A·e^{βx}. They give u·u ∝ Σ_r e^{2βc_r}R_r², which vanishes at
+     every τ only for β = 0, that is P4′.
+   - At ω the three c_r are equal, so every channel-blind G keeps the zero there.
+4. **C0, read (C5).**
+   - C0's "one normalisation serves all three" is a covariance argument. Every channel-blind G with one cutoff meets
+     it.
+   - C0's next sentence, "the couplings are then numbers, … with the state … as the only freedom", asks for
+     cutoff-free couplings. That is the family e^{βx}.
+   - No closed representative of the boundary class is bounded at the puncture. By Cauchy–Schwarz on circles, its
+     norm's log coefficient is at least |z(c)|²/2π, and the harmonic representative attains it.
+
+**The cells (each recorded as found).**
+
+| cell | predicted (prior) | found |
+|---|---|---|
+| C1, the norms | at 12 τ, route C (the Parseval series) equals route A (the closed form) to 10⁻⁴⁰, and route B (polar quadrature of the definition) to 10⁻¹⁰; the η control (97%) | HOLDS. Route C is off by at most 1.3 × 10⁻⁵⁹ and route B by 3.6 × 10⁻¹⁴; η³ against the product, 7 × 10⁻⁶¹ |
+| C2, D in closed form | (a) route B's D equals the closed form; (b) the λ form and its invariance at −1/τ and τ + 1; (c) zero at ω, > 10⁻² elsewhere, (π/2) ln 2 at i; (d) the cusp's next order within 1%, with the deviation < 2 × 10⁻³ at 5i; (e) > 0.05 at every grid node farther than 0.1 from both corners (95%) | HOLDS. (a) 1.0 × 10⁻¹⁴ of \|R\|²; (b) 2 × 10⁻⁶⁰, and the invariance 1 × 10⁻⁵⁹; (c) 3 × 10⁻⁶¹ at ω, the smallest elsewhere 0.0155 (at 3i), and i exact; (d) the next order matches to 2 × 10⁻⁵ relative at 4i, 8 × 10⁻⁷ at 5i, 4 × 10⁻⁸ at 6i and 7 × 10⁻¹¹ at 8i, with the deviation −4.22 × 10⁻⁴ at 5i; (e) the smallest far value is 0.1623, at −½ + 2i |
+| C3, the family | (a) W85's triplet equals R_r S_r (B1654's N0); (b) P4, P4″ and P4′ exactly; (c) the shape D at L = 10⁴ within 10⁻² for G = x^p, p = ¼, ½, 1, 2; (d) e^{βx} cutoff-free, lifting off ω and not at ω, with a control (95%) | HOLDS. (a) 2 × 10⁻⁶¹; (b) 4 × 10⁻⁶¹; (c) 3.0 × 10⁻⁴; (d) direction 4 × 10⁻⁶⁰, a lift of at least 1.04 × 10⁻³ off ω and 10⁻⁶¹ at ω; under √x the direction moves by 7.5 × 10⁻³ |
+| C4, the masses | (a) det Y(a; u) = (a·a)(u·u)(a·u); (b) B1654's item-10 limit within 10⁻² at L = 10⁴, the error falling 5 to 20 times from 10³ (85%) | HOLDS. (a) 4 × 10⁻⁶²; (b) the errors at 10⁴ are 2.8 × 10⁻⁵ to 6.6 × 10⁻⁵, each falling by 10.00 from 10³ |
+
+**The read-outs.**
+- **c_r at the 12 τ** are in the JSON. At ω all three are −2.94582.
+- **The grid.** The smallest far value of |D|/|R|² is 0.16234, at τ = −½ + 2i; main's grid reads at least 0.16. Near
+  the corners the value per distance runs from 2.54 to 3.05 on this grid. Main's near-corner nodes read 2.70 and 2.93,
+  and its window was [1.8, 3.4].
+- **The slope at ω** is 2.949172 in every direction: the smallest and largest over 360 directions agree.
+- *Post hoc (by hand after the read-out; labelled).* The slope is isotropic because at λ₀ = e^{iπ/3},
+  δh = i(√3/2)·conj(δλ), so |δh| = (√3/2)|δλ|. With |dλ/dτ| = π|θ₃(ω)|⁴ at ω and the denominator 3, the slope is
+  (π²√3/6)|θ₃(ω)|⁴ = 2.9491719847424. That matches the read-out to every printed digit (checked at 60 digits after the
+  read-out). So near ω, |D|/|R|² = 2.94917·|τ − ω| + O(|τ − ω|²), a cone.
+
+**What it shows.**
+- **B1654's section 1 stands on this seat's code, and now in closed form.**
+  - Main's 1.09 at i is (π/2) ln 2.
+  - Main's N5(c) could certify "no zero within about 0.02 of a node". Now it is exact: D vanishes on ω's orbit and
+    nowhere else in ℍ.
+  - Main's cusp constant K stands. Its "to 4 × 10⁻⁴ at 5i" is the next order, 64πq(4 ln 2 − 1 − 5π) = −4.22 × 10⁻⁴.
+- **The first generation's lift has one shape for every channel-blind end condition that lifts it: D(τ).** The end
+  condition sets only the size, 2G(2πL)G′(2πL). P4″ gives twice P4's relative lift.
+- **At ω no channel-blind end condition lifts the first generation.** W59 put τ at ω, at the cusp or on a flat
+  direction. At ω the lift vanishes under every G. Toward the cusp it falls as q under P4 and P4″. Only a flat
+  direction leaves the lift nonzero, and then its size is set by a free τ.
+- **C0's covariance argument does not choose P4′.** Its "numbers" sentence chooses the cutoff-free family e^{βx}, and
+  P4′ is that family's β = 0, its only member keeping the zero at every τ. So main's reading holds once that sentence
+  is added. Which member, and P4 against P4′, stays the parent's choice (clauses 4 and 6), as main says.
+- **The cut is forced on every closed representative,** and the harmonic one has the least log coefficient, 2π. This
+  answers C0 point 3's open question: no boundary class's profile is bounded at the puncture.
+
+**Status.** COMPUTED, every cell as predicted. The rule came first, with its exploration disclosed; one run. Derivations
+1–3 are proved by hand and checked to 10⁻⁴⁰, or by quadrature to 10⁻¹⁴. Derivation 4 is a reading, and the isotropic
+slope is post hoc. A weave-type result given Λ, P1 and P2. 0 of 19.
+
 ## Reading W24–W29 together (READING; the owner asked to contemplate before verifying further)
 
 Nothing here is computed, and nothing here is a result of W30 or W31: their values go in their rules. The order follows
@@ -7428,6 +7518,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W84 | COMPUTED (the rule first, a disclosed rewrap before code; one run; every cell as predicted); a check of chat1's thread frame and its law's deep-cusp limit, under H-thread | chat1's numbers reproduce at 60 digits to 5·10⁻¹¹; along L^n R (y_max to 4.9) the slope of −ln(m₂/m₃) falls 7.64 → 6.43 (2.4% above 2π) and that of −ln(m₁/m₃) rises to 9.34 (0.9% below 3π); K diagonalises (1.5·10⁻⁹) and F₊ is the heaviest everywhere: a Froggatt–Nielsen texture with the units' exponents as charges, m₂/m₃ ∝ \|q\|¹ and m₁/m₃ ∝ \|q\|^{3/2}. So 7.33 is a range average, not 7π/3; the exact limit is not resolved |
 | W85 | COMPUTED (the rule first; one run, blind to main's; every cell as predicted); a check of main's B1651 on this seat's own code | at 60 digits: the multipliers (+, −), (−, +), (−, −); isotropy at every point (an identity); the half-periods' directions fixed; L as e^{iπ/4} Ad(g_L)⁻¹ and R as Ad(g_R) at the exact transformed points, with no Klein element; the group O, V₄ the kernel on the axes, S₃ the image; exactly the four body diagonals shared by the twisted moves; W64's matrices agree. 0 of 19 |
 | W86 | COMPUTED (the rule first; the independent script and three labelled post hocs each committed before one run; R, C, F and X by five read-only auditors); a check of chat1's whole branch at the owner's order | every script reproduces (one depends on numpy's eigenvector order) and no sealed cell changes. I1 failed as worded (×0.898; chat1's own range exact); I6 failed on this seat's instrument and holds post hoc; I2–I5 and I7 hold. Three readings fall, re-checked on this seat's code: the meditation's self-coupling fork (with B517's nonnegative entries every thread is admitted, the root included); "carried by K, not by Y" (the hybrid could not test it; Y's shape sets the level); the first background's length law (LLRR first at level 4, bronze at 3). B and C findings graded; four of this seat's statements corrected. 0 of 19 |
+| W87 | COMPUTED (the rule first, its exploration disclosed; one run; every cell as predicted); a WEAVE result given Λ, P1 and P2, at main's suggestion | B1654's section 1 on this seat's code: c_r = −2π ln((π/2)\|θ_r(0)\|²) (Parseval; three routes to 10⁻⁵⁹ and 10⁻¹⁴); D = −θ₃⁴h(λ)/(4πη⁶), zero exactly on ω's orbit, (π/2) ln 2 at i, the cusp law with its next order; every channel-blind end condition lifts the first generation with D's shape, none at ω; the cutoff-free family is e^{βx}, P4′ its β = 0; C0's covariance does not choose P4′, its "numbers" sentence chooses the family; post hoc, the slope at ω is (π²√3/6)\|θ₃(ω)\|⁴ in every direction. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -7504,6 +7595,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W84_RULE.md`: the rule, committed before the code (a disclosed rewrap before code); `the_thread_frame_checked.py` → `the_thread_frame_checked.json`: W84, chat1's thread frame on this seat's own 60-digit integrator (five threads against chat1's banked values; L^n R for n = 1 to 8, the local slopes, K's off-diagonals, the states' weights).
 - `W85_RULE.md`: the rule, committed before the code; `the_b1651_cells_checked.py` → `the_b1651_cells_checked.json`: W85, main's B1651 cells on this seat's own theta series at 60 digits (the multipliers, isotropy, the half-periods' directions with a negative control, L and R at the exact transformed points, the group and the twisted pairs' common lines exactly, W64's matrices); the script committed before its one run.
 - `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
+- `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W54_RULE.md`: the rule, committed before the code; `the_rank_thirteen_structures.py` → `the_rank_thirteen_structures.json`: W54, the 32 rank-13 structures fitted (the controls, the rank-one test, the quark pairs' and lepton weights' grid values, and each structure's minimum); `the_rank_thirteen_structures_posthoc.py` → `the_rank_thirteen_structures_posthoc.json`: post hoc, (7, 7, 7) from (7, 7, 5)'s τ, and the rank-one couplings at weights 5 and 7 (a regeneration probe in `tests/test_weave_regeneration.py`).
 - `W53_RULE.md`: the rule, committed with its data before the code; `received/HZ2021_running_masses_MZ.json`: Huang and Zhou 2021's running masses at M_Z (Tables 2 and 3, the full Standard Model), transcribed with the PDF's sha256; `the_fit_at_the_geometrys_weight.py` → `the_fit_at_the_geometrys_weight.json`: W53, the fit at the geometry's weight (the controls, each sector alone, the masses-only and 13-observable fits at three allowances, the cusp's universality at 5i); `the_fit_at_the_geometrys_weight_posthoc.py` → `the_fit_at_the_geometrys_weight_posthoc.json`: post hoc, the rank-11 structures, the quark sector alone with and without the CKM, and the up sector with x free (a regeneration probe for both in `tests/test_weave_regeneration.py`).
 - `W52_RULE.md`: the rule, committed before the code; `the_free_numbers_counted.py` → `the_free_numbers_counted.json`: W52, the free numbers counted (the coupling dimensions, the Jacobian ranks for every weight assignment in both frames, the geometry's weight, the smallest structures); `the_free_numbers_counted_posthoc.py` → `the_free_numbers_counted_posthoc.json`: post hoc, the zero-diagonal identity and the dependency-pattern model that reproduces every rank.

@@ -19181,3 +19181,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   for its corrections, which it checked before applying.
 - **Next:** main suggested one check against this seat's earlier design note on how a Higgs couples. The seat will do
   it, with the rule written first, and then the surface-frame test main handed back to it. 0 of 19.
+
+## 2026-10-15 — main's suggested check, done: an exact formula where main had numbers
+
+- **Main asked** this seat to check its newest result against this seat's earlier design note on how a Higgs couples.
+  The seat wrote the rule first, then ran the check once. Every prediction held.
+- **What is new:** the size of each channel's contribution has an exact formula. So main's measured numbers now follow
+  from one line, and a zero main could only search for on a grid is now proved to occur at one place only.
+- **What it means:** however the end of the surface is normalised, the lightest generation's mass takes the same shape
+  across the possible shapes of the surface. At the most symmetric shape it stays exactly zero. Which normalisation
+  nature uses is still open, and remains main's question. 0 of 19.

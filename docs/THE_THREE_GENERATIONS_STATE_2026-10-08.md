@@ -589,6 +589,13 @@ Under the owner's rulings, the table's rows split into two groups:
     at τ = ω. Which is physical is the parent's (clauses 4 and 6).
   - This seat checks B1654's section 1 against C0 next (W87), then runs W73 on B1653's twisted pairing, each rule first.
     0 of 19.
+- **W87, B1654's section 1 checked against C0** (the rule first, its exploration disclosed; one run; every cell as
+  predicted):
+  - the channel norms have a closed form, c_r = −2π ln((π/2)|θ_r(0)|²), so D(τ) = −θ₃⁴h(λ)/(4πη⁶) is a function of
+    λ alone, and vanishes exactly on ω's orbit;
+  - every channel-blind end condition lifts the first generation with D's shape, and none lifts it at ω;
+  - C0's covariance does not choose P4′. Its "numbers" sentence chooses the cutoff-free family e^{βx}, of which P4′ is
+    the one zero-keeping member (relay §114). 0 of 19.
 
 ## Questions open with main
 
@@ -610,7 +617,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W86 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W87 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§113).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§114).

@@ -2097,6 +2097,72 @@ def test_w86_the_chat1_record_checked():
     note = (here / "NOTE.md").read_text(encoding="utf-8")
     assert "## W86." in note and "w86_audit/" in note
 
+def test_w87_the_boundary_class_norms_checked():
+    """W87 (the rule first; one run; every cell as predicted): B1654's section 1 on this seat's own code. The channel
+    norms are c_r = -2 pi ln((pi/2)|theta_r(0)|^2); D = -theta_3^4 h(lambda) / (4 pi eta^6); every channel-blind end
+    condition lifts the first generation with D's shape, and P4' is the cutoff-free family's one zero-keeping member"""
+    import mpmath as mp
+    import numpy as np
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_boundary_class_norms_checked.json").read_text(encoding="utf-8"))
+    assert d["every cell holds"] is True and d["cells"] == {"C1": True, "C2": True, "C3": True, "C4": True}
+    assert d["C1"]["worst route C - A"] < 1e-40 and d["C1"]["worst route B - A"] < 1e-10
+    assert d["C2"]["(c) at omega"] < 1e-40 and d["C2"]["(c) at i, off (pi/2) ln 2"] < 1e-40
+    assert abs(d["C2"]["(e) grid"]["smallest far value"] - 0.16234) < 1e-4
+    lo, hi = d["C2"]["read-out: directional slopes of |D|/|R|^2 at omega, min and max"]
+    assert abs(lo - 2.949172) < 1e-6 and abs(hi - lo) < 1e-12
+    with mp.workdps(30):
+        t = mp.mpc("0.2", "1.3")
+        q = mp.exp(1j * mp.pi * t)
+        th = {r: mp.jtheta(r, 0, q) for r in (2, 3, 4)}
+        closed = {r: -2 * mp.pi * mp.log(mp.pi / 2 * abs(th[r]) ** 2) for r in (2, 3, 4)}
+        # in process: route C, the Parseval series before Euler's and Gauss's identities
+        ms = range(1, 60)
+        s2 = mp.fsum(mp.re((-1) ** m * mp.log(1 - q ** (2 * m))) for m in ms)
+        s3 = mp.fsum(mp.re((-1) ** m * mp.log((1 + q ** m) / (1 - q ** m))) for m in ms)
+        s4 = mp.fsum(mp.re(mp.log((1 + q ** m) / (1 - q ** m))) for m in ms)
+        series = {2: -2 * mp.pi * mp.log(2 * mp.pi) + mp.pi ** 2 * mp.im(t) - 4 * mp.pi * s2,
+                  3: 2 * mp.pi * mp.log(2 / mp.pi) + 4 * mp.pi * s3, 4: 2 * mp.pi * mp.log(2 / mp.pi) + 4 * mp.pi * s4}
+        assert max(abs(series[r] - closed[r]) for r in (2, 3, 4)) < mp.mpf(10) ** -25
+        # in process: D through lambda equals sum c_r R_r^2, with B1654's triplet
+        eta3 = mp.jtheta(1, 0, q, 1) / 2
+        R = [-th[2] ** 2 / (2 * mp.pi * eta3), -th[4] ** 2 / (2 * mp.pi * eta3), 1j * th[3] ** 2 / (2 * mp.pi * eta3)]
+        D = closed[2] * R[0] ** 2 + closed[4] * R[1] ** 2 + closed[3] * R[2] ** 2
+        lam = th[2] ** 4 / th[3] ** 4
+        h = lam * mp.log(abs(lam)) + (1 - lam) * mp.log(abs(1 - lam))
+        assert abs(D + th[3] ** 4 * h / (4 * mp.pi * eta3 ** 2)) < mp.mpf(10) ** -20
+        cl = {r: float(closed[r]) for r in (2, 3, 4)}
+    # in process: a coarse polar quadrature of |S_2|^2 over B1654's P agrees with the closed form
+    tc = complex(0.2, 1.3)
+    qc = np.exp(1j * np.pi * tc)
+    n = np.arange(30)
+
+    def th1(z):
+        return 2 * np.sum((-1.0) ** n * qc ** ((n + 0.5) ** 2) * np.sin((2 * n + 1) * np.pi * z[..., None]), -1)
+
+    def th2(z):
+        return 2 * np.sum(qc ** ((n + 0.5) ** 2) * np.cos((2 * n + 1) * np.pi * z[..., None]), -1)
+
+    d1 = 2 * np.pi * np.sum((-1.0) ** n * (2 * n + 1) * qc ** ((n + 0.5) ** 2))
+    t20 = th2(np.zeros(1))[0]
+    corners = [0.5 * a + 0.5 * b * tc for a in (-1, 1) for b in (-1, 1)]
+    cuts = sorted({0.0, 2 * np.pi} | {float(np.angle(c) % (2 * np.pi)) for c in corners})
+    gx, gw = np.polynomial.legendre.leggauss(60)
+    rx, rw = np.polynomial.legendre.leggauss(40)
+    tot = 0.0
+    for a0, a1 in zip(cuts[:-1], cuts[1:]):
+        ang = 0.5 * (a1 - a0) * gx + 0.5 * (a1 + a0)
+        s, c = np.sin(ang), np.cos(ang)
+        rm = np.minimum(np.abs(0.65 / s), np.abs(0.5 / (c - s * 0.2 / 1.3)))
+        rr = 0.5 * rm[:, None] * (rx[None, :] + 1)
+        z = rr * np.exp(1j * ang)[:, None]
+        f = rr * np.abs(th2(z) * d1 / (t20 * th1(z))) ** 2 - 1 / rr
+        tot += float(np.sum(0.5 * (a1 - a0) * gw * (np.log(rm) + np.sum(0.5 * rm[:, None] * rw[None, :] * f, 1))))
+    assert abs(tot - cl[2]) < 1e-8
+    assert (here / "W87_RULE.md").is_file()
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W87." in note and "the_boundary_class_norms_checked.py" in note
+
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with
     its tag, and the page keeps the forks it did not rule open"""

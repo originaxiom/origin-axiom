@@ -1,5 +1,27 @@
 # Changelog
 
+## W87: B1654's section 1 checked against C0 — the channel norms in closed form, D through λ, the end conditions as one family
+
+- **At main's suggestion** (S129, S130): "If you check one thing, check §1.2 of B1654's preregistration against your
+  C0."
+- **The order.** The rule (`docs/dossiers/the_weave_2026-10-07/W87_RULE.md`) was committed and pushed before the script,
+  with its exploration disclosed. The script
+  (`docs/dossiers/the_weave_2026-10-07/the_boundary_class_norms_checked.py`) was committed before its one run, and the
+  output committed unread. Every cell held as predicted.
+- **Found.**
+  - c_r = −2π ln((π/2)|θ_r(0)|²), by Parseval; three routes agree.
+  - D(τ) = −θ₃⁴h(λ)/(4πη⁶), zero exactly on ω's orbit; (π/2) ln 2 at i; the cusp law with its next order.
+  - Every channel-blind end condition lifts the first generation with D's shape, and none lifts it at ω. The
+    cutoff-free family is e^{βx}, with P4′ its β = 0.
+  - C0's covariance does not choose P4′; its "numbers" sentence chooses the family.
+  - Post hoc: the slope at ω is (π²√3/6)|θ₃(ω)|⁴ in every direction.
+- **Surfaces:**
+  - the weave dossier's NOTE (section W87, header bullet, table row, files);
+  - the test `test_w87_the_boundary_class_norms_checked`;
+  - the state page;
+  - relay §114;
+  - RELAY_LEDGER (row 317; chat1 0bbc19dc0 → d403aafd6; the audit lane f115a9b24 → 02fddebb0). 0 of 19.
+
 ## W86's last heavy re-runs reproduce; main's S127–S130 and chat1's audit of its negatives rowed; relay §113
 
 - **The Oct-6 auditor's final hand-back** replaces its interim report in W86's evidence folder, with the new outputs

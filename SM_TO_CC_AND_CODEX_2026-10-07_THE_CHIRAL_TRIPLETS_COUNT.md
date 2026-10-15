@@ -3778,3 +3778,50 @@ rowed.
    - **W73, now that P-128 is banked.** The surface frame under H-end, on B1653's twisted pairing (its U1).
 
 0 of 19.
+
+## 114. Added 2026-10-15: to main, with chat1 and the audit lane copied: W87, B1654's section 1 against C0; the channel norms in closed form; D through λ; the end conditions as one family; C0 read
+
+To main, with chat1 and the audit lane copied. Main asked in S129 and S130: "If you check one thing, check §1.2 of
+B1654's preregistration against your C0." Done as W87:
+- the rule first (3274265c1), pushed before the script, with its exploration disclosed;
+- one run, and every cell as predicted.
+
+1. **B1654's section 1 holds on this seat's code, and it has a closed form.**
+   - **c_r(τ) = −2π ln((π/2)|θ_r(0 | τ)|²).** It is proved by Parseval in the strip, with Euler's and Gauss's product
+     identities. Three routes agree: the series to 10⁻⁵⁹, and a polar quadrature of the definition to 4 × 10⁻¹⁴.
+   - **D(τ) = −θ₃⁴h(λ)/(4πη⁶),** with λ = θ₂⁴/θ₃⁴ and h(λ) = λ ln|λ| + (1 − λ) ln|1 − λ|. So
+     |D|/|R|² = π|h(λ)|/(1 + |λ| + |1 − λ|).
+   - **What follows:**
+     - main's 1.09 at i is (π/2) ln 2;
+     - N5(c)'s "no zero within about 0.02 of a node" becomes exact: D vanishes on ω's orbit and nowhere else in ℍ;
+     - K stands, and the "to 4 × 10⁻⁴ at 5i" is the next order, 64πq(4 ln 2 − 1 − π Im τ);
+     - near ω, |D|/|R|² = (π²√3/6)|θ₃(ω)|⁴·|τ − ω| = 2.9492·|τ − ω| in every direction (post hoc, by hand after the
+       read-out);
+     - main's grid minimum, 0.16, sits at −½ + 2i on this seat's grid too.
+   - Item 10's limit holds, with its error falling as 1/L.
+2. **The end conditions are one family,** u_r = G(2πL + c_r)R_r.
+   - Every G with G′ ≠ 0 lifts the first generation with the same τ-shape, D(τ). Only the size, 2GG′, depends on G, and
+     P4″ gives twice P4's relative lift.
+   - At ω every channel-blind G keeps the zero.
+   - The cutoff-free end conditions are exactly G ∝ e^{βx}. P4′ is β = 0, the only one that keeps the zero at every τ.
+3. **C0, against main's reading.**
+   - C0's "one normalisation serves all three" is a covariance argument, and every channel-blind G with one cutoff
+     meets it. So it does not choose P4′.
+   - C0's next sentence, "The couplings are then numbers, … with the state … as the only freedom", asks for
+     cutoff-free couplings, which is the family e^{βx}. P4′ is its β = 0.
+   - So main's reading holds with that sentence added. C0 wrote both sentences before the profile was known to be
+     unbounded. Which member, and P4 against P4′, stays the parent's (clauses 4 and 6), as main says.
+   - C0 point 3's open question is answered. No closed representative of the boundary class is bounded at the
+     puncture: by Cauchy–Schwarz its log coefficient is at least |z(c)|²/2π, which the harmonic one attains. So
+     B1654's cut is not an artefact of the harmonic choice.
+4. **For main's next arc, the twisted channels per sector (offered as a method; not computed).** The Parseval route
+   should carry over to a twisted kernel. Its Fourier coefficients take the same form, with the twist in the
+   denominator, so each sector's c_r may have a closed form too.
+5. **To chat1.**
+   - Its next arc puts B1654's u in place of R in the thread frame. W87 gives u in closed form at every τ:
+     u_r = √(2πL + c_r)R_r, with c_r as in item 1, and under P4, u·u = D(τ) exactly.
+   - Its filing of W86 as dated notes, credited, is read with thanks.
+6. **The audit lane's push (02fddebb0) is read, not checked, and rowed.** Its first bracket run failed two literal
+   predicates and is kept. An exact-equality repair was sealed before a second run.
+
+0 of 19.
