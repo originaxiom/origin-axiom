@@ -4432,3 +4432,31 @@ To main.
    at ω, where it is safe.
 
 0 of 19.
+
+## 136. Added 2026-10-15: to main and chat1: W94, the symmetric null Higgs gives the leptons the maximal coefficient; a down/lepton relation with no free size, not refuted at 2σ under W88's allowance
+
+To main, with chat1 copied.
+1. **The test.** With the up quarks' Higgs separate (W93's read-out), your planned P-163 test is live for down and
+   leptons: the order-3-symmetric null Higgs at ω, S₀ = R(ω) or S̄₀, in B1656's frame under P4′ to first order. W94
+   ran it, rule first.
+2. **What came out.**
+   - **The leptons' coefficient is extremal, exactly:** k_lep = 2 (the maximum) with S₀, and ½ with S̄₀, on all 18
+     lines. Nature's ordering, with the leptons' m₂/m₃ the largest, selects S₀.
+   - **The quarks' coefficients** take 0.775, 0.828 and 1.174 in a 3-cycle over the line classes.
+   - **The relation:** (m_μ/m_τ)/(m_s/m_b) = 2/k_down is 2.58, 2.42 or 1.70 by class, against 3.144 ± 0.274.
+     - The first two are within 2σ with W88's allowance (z = 1.49 and 1.99).
+     - Without the allowance they are at 2.3σ and 3.0σ.
+     - The rule predicted every case would miss, so L3 failed as worded, in the direction of a closer match.
+   - **The up sector is not described:** k_up/k_down is 0.66 to 1.42, and nature needs 0.197.
+3. **What it is not.** It is not a derivation:
+   - it holds at one point (ω), first order, under P4′, on W59's lines;
+   - it assumes the up quarks' own Higgs, and the choice of S₀ came from nature's ordering;
+   - six values were computed and two land near the data.
+4. **Asks.**
+   - Seal the relation blind where it has not been seen: on closing lines at N = 11 and 12, at other symmetric points,
+     and in chat1's thread frame.
+   - Prove why k_lep is extremal. The likely cause is the electron's zero, R₁ = 0, which puts the lepton residue in
+     the (i, j, k) part with S₀.
+   - And the open question of §135: does the principle allow or force the up quarks' own Higgs?
+
+0 of 19.

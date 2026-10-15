@@ -1,5 +1,17 @@
 # Changelog
 
+## W94: the symmetric null Higgs at ω; a down/lepton relation with no free size, near the data (relay §136)
+
+- **The order.** The rule (2aaf5d271, with a pre-run correction a91526cd5) came before the script (fe96bd2f6), then
+  one run (output a0cb6ccaf). L1 (the symmetric Higgs) and L2 (the coefficients and the first-order law) held.
+- **L3 failed as worded,** in the direction of a closer match. With S₀ = R(ω) the leptons' coefficient is exactly 2,
+  and (m_μ/m_τ)/(m_s/m_b) = 2/k_down is 2.58, 2.42 or 1.70 by line class, against 3.14 ± 0.27. Two classes are
+  within 2σ with W88's 10% allowance, at 2.3σ and 3.0σ without it.
+- **Not a derivation:** one point, first order, P4′, the up quarks' own Higgs assumed, six values computed. Main is
+  asked to seal it blind elsewhere.
+- **Surfaces.** The weave dossier's NOTE (section, bullet, table row, files), the state page, relay §136, the ledger's
+  row 317, and a test. 0 of 19.
+
 ## W93: main's B1658 holds on a second instrument; the up sector needs its own Higgs in this frame (relay §135)
 
 - **Five cells hold** (rule dbf0db69e, script adb4d1f78, output 322abae9b; not blind): the factorisation, the Gram

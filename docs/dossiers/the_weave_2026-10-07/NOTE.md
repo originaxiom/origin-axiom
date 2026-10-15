@@ -301,6 +301,9 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
 - W93 (main's B1658 on this seat's own code; rule first; one run; five cells as predicted; not blind): one Higgs
   spreads the sectors by at most 4, and the data's 15.9 refutes it. With the up quarks' Higgs separate, only
   down/leptons is constrained, and it is inside the bound (3.13).
+- W94 (the symmetric null Higgs at ω; rule first, with a pre-run correction; one run; L3 failed as worded): with
+  S₀ = R(ω) the leptons' coefficient is exactly the maximum, 2. (m_μ/m_τ)/(m_s/m_b) is predicted at 2.58, 2.42 or
+  1.70 by line class against 3.14, two classes within 2σ only with W88's allowance. A candidate, not a derivation.
 
 ## The setting
 
@@ -7589,6 +7592,64 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W94. The symmetric null Higgs at ω and the down/lepton relation with no free size: the leptons' coefficient is exactly the maximum, 2, on every line; (m_μ/m_τ)/(m_s/m_b) is predicted at 2.58, 2.42 or 1.70 by line class against the data's 3.14; L3 failed as worded (two classes within 2σ with W88's allowance, none without) (`the_symmetric_higgs_relation.py`; `W94_RULE.md`)
+
+**Why.** W93's read-out: B1658's bound refutes one shared Higgs only through the up sector. With the up quarks' Higgs
+separate, main's planned P-163 test is live for down/leptons. That is the order-3-symmetric null Higgs at ω, which
+carries no free parameter (B1658's notes, before the seal). Under P4′ to first order, m₂/m₃ = k_s∣d_S∣, so one Higgs
+shared by the down quarks and leptons gives (m_μ/m_τ)/(m_s/m_b) = k_lep/k_down: a relation with no free size.
+
+**Weave or thread.** A fibre-frame result at one τ (ω), on W59's lines: a frozen piece.
+
+**The order.**
+- The rule (`W94_RULE.md`, 2aaf5d271) came first. A pre-run correction before any code (a91526cd5) defined S̄₀ as the
+  move's e^{+iπ/3} eigenvector, since the move's matrix is not real in B1656's channel basis.
+- The script (fe96bd2f6) came next, then one run, with the output committed unread (a0cb6ccaf).
+- It is built on W93's implementation.
+
+**The cells.**
+
+| cell | found |
+|---|---|
+| L1, the symmetric Higgs | the order-3 move's G fitted to 6 × 10⁻⁴¹; G³ = −1 to 10⁻³⁹; eigenvalues e^{−iπ/3}, −1, e^{+iπ/3}; T(ω) the e^{−iπ/3} eigenvector to 6 × 10⁻⁴¹; the e^{+iπ/3} eigenvector isotropic; S₀, S̄₀ null to 10⁻⁴⁰ — holds |
+| L2, the coefficients | every k_s in [½, 2] on the 18 lines for both Higgs; the first-order law m₂/m₃ = k_s∣d_S∣ to 6 × 10⁻⁷ at ∣ε∣ = 10⁻⁶ — holds |
+| L3, the relation | 12 of 36 (line, Higgs) cases within 2σ with W88's allowance a = 0.10 (smallest z 1.49); none within 2σ without it — **FAILED as worded** (the rule predicted every case would miss) |
+
+**The read-out.**
+- **The leptons' coefficient is extremal, exactly.** With S₀ = R(ω), k_lep = 2 (the bound's maximum) on all 18 lines.
+  With S̄₀, k_lep = ½ (its minimum). Nature's ordering, where the leptons' m₂/m₃ is the largest of the three sectors,
+  selects S₀.
+- **The quarks' coefficients** take three values, 0.775, 0.828 and 1.174, in a 3-cycle over the line classes. The up and
+  down sectors are shifted by one class.
+- **The predicted relation with S₀,** against the data's 3.144 ± 0.274 (HZ2021 at M_Z):
+
+| line class | k_down | predicted (m_μ/m_τ)/(m_s/m_b) | z (a = 0.10) | z (no allowance) |
+|---|---|---|---|---|
+| (1/9, 1/9) and five more | 0.775 | 2.581 | 1.49 | 2.26 |
+| (1/9, 4/9) and five more | 0.828 | 2.416 | 1.99 | 3.02 |
+| (2/9, 2/9) and five more | 1.174 | 1.704 | 4.62 | 7.02 |
+
+- With S̄₀ the predictions are 0.45, 0.47 and 0.72, all refuted.
+- **The up quarks are not described.** With S₀, k_up/k_down is 1.07, 0.66 or 1.42 by class, while nature's
+  (m_c/m_t)/(m_s/m_b) is 0.197. This is consistent with B1658: the up sector needs its own Higgs or another mechanism.
+
+**What it means, and what it does not.**
+- It is the first relation without a free size on record that is not refuted at 2σ under W88's allowance. The closest
+  prediction is 18% below the data, at 2.3σ without the allowance.
+- **It is not a derivation.** It is one point (ω), first order, under equal framed data (P4′), on W59's lines (the
+  dictionary's hypercharge line at exact order 9). It assumes the up quarks' own Higgs, and the choice of S₀ was made by
+  nature's ordering. Six (Higgs, class) values were computed and two land near the data, so the look-elsewhere factor
+  is about 3.
+- **The structural part is exact and parameter-free.** The symmetric Higgs gives the leptons the maximal coefficient,
+  so the leptons' second generation is the heaviest relative to the third, as in nature.
+- **For main:** seal the relation blind elsewhere: on other closing lines (N = 11, 12), at other symmetric points, or in
+  chat1's thread frame. Also prove why k_lep is extremal. The likely cause is the electron's zero: R₁ = 0 puts the
+  lepton residue in the (i, j, k) part with S₀.
+
+**Status.** COMPUTED (the rule first, with a pre-run correction; one run; two cells as predicted; L3 failed as worded,
+in the direction of a closer match than predicted). A frozen piece and a candidate relation, not a derived value.
+0 of 19.
+
 ## W93. Main's B1658 (the twisted half bound, P-163) on this seat's own code: all five cells hold; with the up quarks' Higgs separate from the down quarks' and the leptons', the bound constrains only down/leptons, which lies inside it (`the_twisted_half_bound_checked.py`; `W93_RULE.md`)
 
 **Why.** The owner ruled P-163 first (relay §133). Main sealed it as B1658 (b6542d300) and ran it (04d64c2ff). In
@@ -8328,6 +8389,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W91 | COMPUTED (the rule first; one run; four of five cells as predicted; U5 failed as worded on two instrument slips, found post hoc and labelled); weave-type objects, no data | the twisted coupling vector at weight −½, exact: the series to 5 × 10⁻⁴²; the null quaternion to 2 × 10⁻⁶¹; the untwisted limit; 3 384 channels' exponents equal to the closed form; post hoc, chat1's closure law on the delivered object to 7 × 10⁻⁵⁹ once the channel map uses weight −½ and the line is written (a/N, −b/N). 0 of 19 |
 | W92 | COMPUTED (the rule first; one run; six of seven cells as predicted; V3 failed as worded on an instrument slip, found post hoc and labelled, and holds on the post hoc); weave-type objects, no data | the per-field units: W72's units dressed by each field's own charge in the z-form; the series exact to 5 × 10⁻⁵⁹; covariant on 192 threads with the phase exp(2πi ε c q²/N); zeros only at N = 12, q = 6; the readings differ by the odd spin structure's term; THETA2 does not apply; chat1's coupling equals W91's; post hoc, closure with −q_H² on all 90 rows to 7 × 10⁻⁴⁰. 0 of 19 |
 | W93 | COMPUTED (the rule first; one run; five cells as predicted; not blind); a fibre-frame result at one τ, a frozen piece | main's B1658 on this seat's own code: the factorisation, the Gram spectrum {1, 2, 2, 4}, the null residues at ω, the exact spectrum and the factor-4 bound on the actual residues, the census (5.08, 15.92, 3.13); read-out: with the up quarks' own Higgs only down/leptons is constrained, inside the bound. 0 of 19 |
+| W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -8406,6 +8468,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
+- `W94_RULE.md`: the rule, committed before the code, with its pre-run correction; `the_symmetric_higgs_relation.py` → `the_symmetric_higgs_relation.json` and `the_symmetric_higgs_relation_run.txt`: W94, the symmetric null Higgs at ω and the down/lepton relation.
 - `W93_RULE.md`: the rule, committed before the code, not blind; `the_twisted_half_bound_checked.py` → `the_twisted_half_bound_checked.json` and `the_twisted_half_bound_checked_run.txt`: W93, main's B1658 on this seat's own code.
 - `W92_RULE.md`: the rule, committed before the code, with the scratch exploration disclosed; `the_per_field_units.py` → `the_per_field_units.json`, `the_per_field_units_delivery.json.gz` and `the_per_field_units_run.txt`: W92, the per-field units, the cells, `PerFieldSource` and the delivery for chat1; `the_per_field_units_posthoc.py` → `the_per_field_units_posthoc.json`: post hoc, V3 with R from analytic theta sums.
 - `W91_RULE.md`: the rule, committed before the code; `the_twisted_coupling_vector.py` → `the_twisted_coupling_vector.json`, `the_twisted_coupling_vector_delivery.json.gz` and `the_twisted_coupling_vector_run.txt`: W91, the twisted coupling vector, exact, and the delivery for chat1; `the_twisted_coupling_vector_posthoc.py` → `the_twisted_coupling_vector_posthoc.json` and `the_twisted_coupling_vector_posthoc2.py` → `the_twisted_coupling_vector_posthoc2.json`: post hoc, U5's two diagnoses.

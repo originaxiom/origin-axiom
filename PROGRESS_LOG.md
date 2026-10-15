@@ -19409,3 +19409,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   more than a factor of four, and nature needs about sixteen.
 - **Nature's numbers fit the bound if the up-type quarks have their own Higgs,** as in models with two Higgs
   fields. Whether the principle allows that is now main's question. 0 of 19.
+
+## 2026-10-15 — a first near-miss with no free number
+
+- **The seat tested a prediction with nothing to tune:** the most symmetric Higgs direction gives the ratio between
+  the leptons' and the down quarks' second-to-third mass ratios.
+- **It comes out at 2.6 against nature's 3.1:** close, but not a match at the data's precision, and only one of six
+  computed values. The symmetric Higgs does give the leptons the largest such ratio, as in nature. 0 of 19.

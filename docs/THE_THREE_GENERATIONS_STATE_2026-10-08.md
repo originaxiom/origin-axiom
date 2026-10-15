@@ -705,6 +705,10 @@ Under the owner's rulings, the table's rows split into two groups:
 - **W93, main's B1658 on this seat's own code** (the rule first; one run; five cells as predicted; not blind;
   relay §135). One Higgs spreads the sectors by at most 4, and the data's 15.9 refutes it. With the up quarks'
   Higgs separate, only down/leptons is constrained, and it is inside the bound. 0 of 19.
+- **W94, the symmetric null Higgs at ω** (the rule first; one run; L3 failed as worded; relay §136). The leptons'
+  coefficient is exactly the maximum, 2, on every line. (m_μ/m_τ)/(m_s/m_b) is predicted at 2.58, 2.42 or 1.70
+  against 3.14, two classes within 2σ only with W88's allowance. A candidate relation for main to seal blind; not
+  a derivation. 0 of 19.
 
 ## Questions open with main
 
@@ -726,7 +730,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W93 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W94 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§135).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§136).

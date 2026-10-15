@@ -2520,6 +2520,20 @@ def test_w91_the_twisted_coupling_vector():
     assert len(dl["cases"]) == 96 and dl["P"][:4] == [1, 3, 9, 22]
 
 
+def test_w94_the_symmetric_higgs_relation():
+    """W94 (rule 2aaf5d271 with its pre-run correction, one run): L1 and L2 hold, L3 failed as worded; k_lep is exactly
+    2 with S0 and 1/2 with S0bar on every line; the three predicted values of 2/k_down"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_symmetric_higgs_relation.json").read_text(encoding="utf-8"))
+    assert (d["L1"]["holds"], d["L2"]["holds"], d["L3"]["holds"]) == (True, True, False)
+    assert {r["k"]["lep"] for r in d["rows"] if r["Higgs"] == "S0"} == {2.0}
+    assert {r["k"]["lep"] for r in d["rows"] if r["Higgs"] == "S0bar"} == {0.5}
+    kd = sorted({round(r["k"]["down"], 3) for r in d["rows"] if r["Higgs"] == "S0"})
+    assert kd == [0.775, 0.828, 1.174]
+    assert sorted(round(2 / k, 2) for k in kd) == [1.7, 2.42, 2.58]
+    assert d["L3"]["within 2 sigma"] == 12 and round(d["L3"]["data (m_mu/m_tau)/(m_s/m_b)"], 3) == 3.144
+
+
 def test_w93_the_twisted_half_bound_checked():
     """W93 (rule dbf0db69e, one run, not blind): main's B1658 on this seat's own code, five cells hold; the census's
     ratios recomputed in process from this seat's HZ2021 file"""
