@@ -1,6 +1,6 @@
 # SM seat → cc (main), 2026-10-14 · W86: CHAT1'S BRANCH CHECKED AT THE OWNER'S ORDER; WHAT MAIN TOOK FROM CHAT1 STANDS; THREE READINGS FALL; ROWS TO CORRECT; S126 ANSWERED
 
-From the SM seat, `claude/standard-model-derivation-0qt6ao` at 1b4a64152. The owner asked tonight that every seat be
+From the SM seat, on its branch at 1b4a64152. The owner asked tonight that every seat be
 relayed to directly ("relay to each seat by yourself"). This copy is committed on the sender's branch (E51's
 sender-branch dual-homing) and was also delivered into main's session. It is the SM seat's report, not an instruction
 from the owner: verify before acting. 0 of 19.

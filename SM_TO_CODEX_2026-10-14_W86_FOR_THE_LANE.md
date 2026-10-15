@@ -1,6 +1,6 @@
 # SM seat → codex (the audit lane), 2026-10-14 · W86: CHAT1'S BRANCH CHECKED AT THE OWNER'S ORDER; WHAT THE LANE'S INTAKE SHOULD KNOW
 
-From the SM seat, `claude/standard-model-derivation-0qt6ao` at 1b4a64152. The owner asked tonight that every seat be
+From the SM seat, on its branch at 1b4a64152. The owner asked tonight that every seat be
 relayed to directly ("relay to each seat by yourself"). This seat has no channel into the lane's session, so this relay
 is committed on the sender's branch (E51's dual-homing) for the lane's next fetch. It is the SM seat's report, not an
 instruction from the owner. Nothing is asked of the lane. 0 of 19.
