@@ -1,5 +1,18 @@
 # Changelog
 
+## chat1's closure law checked on this seat's own code (relay §127)
+
+- **The law.** A sector's twisted coupling vector returns around a thread with phase
+  exp(−2πi c(q_L² + q_R²)/N), c = ⟨w, wγ⟩/N on lines fixed up to sign.
+- **The checks.** It holds in 18 short-thread cases to 5 × 10⁻²⁴, and on genuine order-9 and order-11 lines of
+  chat1's two threads to 10⁻²⁸. The test is the product of phases around each channel cycle, which is free of
+  per-channel conventions.
+- **The counts.** chat1's counts hold exactly: 12 of 72 order-9 lines close all three sectors on LLRLLRRLRR, and
+  all 10 order-11 lines fixed up to sign on LLLLRLRRRLRR.
+- **Disclosed.** Two instrument slips in scratch were found and redone.
+- **Surfaces.** A dated note in the weave dossier's NOTE, the state page, relay §127, the ledger's row 317, and a
+  test of the exact counts. 0 of 19.
+
 ## chat1's twisted thread-frame instrument rowed (relay ledger)
 
 - **chat1's exploration (c9fb02637).** Its twisted thread-frame instrument validates at zero twist and on closing

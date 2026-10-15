@@ -19328,3 +19328,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   the cusp, where the numbers cancel over about thirty orders of magnitude.
 - **So the test must be done analytically,** with very high precision as the check. The web seat will derive and seal
   it; this seat will check it independently afterwards. 0 of 19.
+
+## 2026-10-15 — the web seat's key formula checks out
+
+- **The web seat's proposed test rests on one formula.** It says when a family of particles fits
+  consistently around a chosen thread with a hypercharge line.
+- **The seat rebuilt it from its own code** and found it exact, to 28 decimal places, at the line orders
+  that matter (9 and 11).
+- **The web seat's counts of usable lines also hold.** Its sealed test can now go ahead on a verified
+  footing. 0 of 19.

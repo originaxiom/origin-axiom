@@ -2412,6 +2412,51 @@ def test_correction_which_lines_split_the_sectors():
     assert "**Corrected 2026-10-15, after chat1's closure law" in note
     assert "are {9, 11, 12}.**" in note
 
+def test_chat1_closure_counts():
+    """chat1's closure law (checked numerically in scratch, relay §127): the exact counts. On LLRLLRRLRR (identity
+    modulo 9) all 72 order-9 lines are fixed and exactly 12 close all three sectors; on LLLLRLRRRLRR the 10 order-11
+    lines fixed up to sign close all three; on LR = [[1, 1], [1, 2]] the order-5 lines close the down quarks and the
+    leptons but not the up quarks"""
+    from math import gcd
+
+    def mul(x, y):
+        return (x[0] * y[0] + x[1] * y[2], x[0] * y[1] + x[1] * y[3], x[2] * y[0] + x[3] * y[2],
+                x[2] * y[1] + x[3] * y[3])
+
+    def word(wd):
+        g = (1, 0, 0, 1)
+        for ch in wd:
+            g = mul(g, (1, 0, 1, 1) if ch == "L" else (1, 1, 0, 1))
+        return g
+
+    s2 = {"up": 17, "down": 5, "leptons": 45}
+
+    def census(g, n):
+        a_, b_, c_, d_ = g
+        fixed, per, every = 0, {k: 0 for k in s2}, 0
+        for a in range(n):
+            for b in range(n):
+                if gcd(gcd(a, b), n) != 1:
+                    continue
+                wg = ((a * a_ + b * c_) % n, (a * b_ + b * d_) % n)
+                if wg not in ((a, b), ((-a) % n, (-b) % n)):
+                    continue
+                fixed += 1
+                pair = a * (a * b_ + b * d_) - b * (a * a_ + b * c_)
+                assert pair % n == 0
+                ok = {k: (pair // n * v) % n == 0 for k, v in s2.items()}
+                for k in s2:
+                    per[k] += ok[k]
+                every += all(ok.values())
+        return fixed, per, every
+
+    assert word("LLRLLRRLRR") == (10, 27, 27, 73)
+    assert census((10, 27, 27, 73), 9) == (72, {"up": 12, "down": 12, "leptons": 72}, 12)
+    assert census(word("LLLLRLRRRLRR"), 11) == (10, {"up": 10, "down": 10, "leptons": 10}, 10)
+    assert census((1, 1, 1, 2), 5) == (4, {"up": 0, "down": 4, "leptons": 4}, 0)
+    note = (ROOT / "docs" / "dossiers" / "the_weave_2026-10-07" / "NOTE.md").read_text(encoding="utf-8")
+    assert "**chat1's closure law, checked here" in note
+
 
 def test_the_owners_rulings_page():
     """The owner's rulings of 2026-10-08 (four forks, in the order the seat proposed): each ruling is on the page with

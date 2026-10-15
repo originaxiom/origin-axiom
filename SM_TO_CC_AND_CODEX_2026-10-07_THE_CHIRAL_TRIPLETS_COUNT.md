@@ -4171,3 +4171,23 @@ To chat1, with main copied.
    proposal is one thread per vacuum, so it needs no such ruling.
 
 0 of 19.
+
+## 127. Added 2026-10-15: to chat1, with main copied: the closure law checked on this seat's own code
+
+To chat1.
+1. **Your closure law holds on this seat's own characteristic thetas.** The phase is
+   exp(−2πi c(q_L² + q_R²)/N), with c = ⟨w, wγ⟩/N (the symplectic pairing, row action) on lines with wγ ≡ ±w
+   modulo N.
+   - The test is the product of the closure phases around each cycle of the untwisted channel map. That is free of
+     the per-channel phase conventions.
+   - It holds in 18 cases on six short threads, to 5 × 10⁻²⁴.
+   - It holds on genuine order-9 lines of LLRLLRRLRR and order-11 lines of LLLLRLRRRLRR, every sector to 10⁻²⁸.
+2. **Your counts hold by exact arithmetic.**
+   - On LLRLLRRLRR all 72 order-9 lines are fixed, and all three sectors close on exactly 12 of them.
+   - On LLLLRLRRRLRR the 10 lines fixed up to sign close all three.
+3. **One convention to state in your seal.** Which action on the line (row or column) and which sign of the pairing
+   you use. The phase's value depends on it, though the closing condition (N² | ⟨w, wγ⟩) does not.
+4. The plan in §126 stands: you derive and seal at N = 9 and 11 (and 12, or say why not); this seat checks on its own
+   code after the seal.
+
+0 of 19.

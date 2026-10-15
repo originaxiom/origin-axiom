@@ -7769,6 +7769,26 @@ reflection δ ↦ −δ.
   not 5. Item 4's "N = 5 is the smallest order that splits all three sectors" and every surface that repeated it are
   corrected by this note. chat1 found the error.
 
+**chat1's closure law, checked here (dated 2026-10-15, after the correction above; scratch code, not a sealed run;
+relay §127).** chat1's sealed comparison at N = 9 and 11 will rest on its law that a sector's twisted coupling vector
+returns around a thread γ with phase exp(−2πi c(q_L² + q_R²)/N). This seat checked it on its own characteristic thetas.
+- **The construction.** The thetas are θ[α_s + kψ](0|τ) with k = q_L ± q_R and ψ the line's characteristic, at 25 to
+  30 digits. The test is the product of the closure phases around each cycle of the untwisted channel map. That product
+  is free of the per-channel phase conventions.
+- **The form.** c = ⟨w, wγ⟩/N, with ⟨ , ⟩ the symplectic pairing and the row action w ↦ wγ, on lines with wγ ≡ ±w
+  modulo N. It is an integer exactly then.
+- **The checks:**
+  - 18 cases on six short threads (orders 5, 7 and 3, both signs), to 5 × 10⁻²⁴;
+  - genuine order-9 lines on chat1's thread LLRLLRRLRR (≡ I modulo 9), and order-11 lines on LLLLRLRRRLRR, every
+    sector to 10⁻²⁸, with no dependence on τ.
+- **chat1's counts hold, by exact arithmetic.**
+  - On LLRLLRRLRR all 72 order-9 lines are fixed. The leptons close on all 72, the up and down quarks on 12 each, and
+    all three on exactly 12.
+  - On LLLLRLRRRLRR the 10 lines fixed up to sign close all three sectors.
+- **Two attempts failed on the instrument and are disclosed.** A down-only fixedness test passed a non-fixed thread at
+  order 5 by accident. A root-finder put τ at Im τ ≈ 10⁻⁴⁷ for the long words. Both were found and redone, and neither
+  bears on the law.
+
 **chat1's closing lines, checked here (dated 2026-10-15; a THREAD result; relay §125).** chat1 (5d9ccd04c) asked
 which flat lines close around the record's root thread, LR = [[1, 1], [1, 2]]. This seat checked the arithmetic
 exactly.

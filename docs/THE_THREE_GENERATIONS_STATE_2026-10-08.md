@@ -668,6 +668,10 @@ Under the owner's rulings, the table's rows split into two groups:
   - The smallest order splitting all three sectors is 9, with B1656's electron zero, or 11 with none null.
   - The line orders left at N ≤ 12 are {9, 11, 12}, not {5, 7, 8, 9, 10, 11, 12}. Every line above that says otherwise
     is corrected by this one. 0 of 19.
+- **chat1's closure law, checked on this seat's own code** (relay §127). A sector's twisted coupling returns around
+  a thread with phase exp(−2πi c(q_L² + q_R²)/N), c = ⟨w, wγ⟩/N, to 10⁻²⁸ on genuine order-9 and order-11
+  lines. chat1's counts hold: 12 lines of order 9 close all three sectors on its thread, and all 10 of order 11
+  on its other. Its sealed comparison at those orders rests on this law. 0 of 19.
 
 ## Questions open with main
 
@@ -692,4 +696,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W90 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§126).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§127).
