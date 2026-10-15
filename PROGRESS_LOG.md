@@ -19528,3 +19528,40 @@ details;42 stale relay debts remain,153 open, review540 due.17pins,
 12,852 tracked files/index unchanged with true pre-launch envelope.
 Raw outputs and receipt retained, no gate/baseline waived or altered.
 This result note and receipt files are post-check publication metadata.
+
+## 2026-10-15 full physical-parent reality and local interacting core
+
+Continued the requested reality/boundary law, retaining ultimate derived
+SM+three chiral families+gravity goal. All remote heads refreshed;
+coefficient work37a5c5924 now notes flat-hypercharge choices, not used
+as physical evidence here. Source3.2/AppendixB/relevantC of0802.3391
+read personally. Old R61's different conical reality was recovered,
+not transplanted. Actual previous spin/parent/graph sources read.
+
+Pre-run401d4cd4d229df8b9578ebe8389f1f1351851d6e committed/pushed/
+terminal server confirmed BEFORE science. Native264 exact predicates
+PASS135.562183s, separate frame/root/cocycle264 PASS88.421479s;
+complete1,976,861-byte records byte-identical, stderr empty.19pins,
+12,867 tracked files/index unchanged; no failed scientific run/repair.
+The two implementations share formulation/Sympy/author, not nonauthor
+review. All61,504 ordered E8 bracket pairs checked, not264 samples.
+
+Actual full MW/spin/R/external/compact-E8 map squares+1 and glues;
+both P=(I+epsilon*Rsign*GammaV)/2 extremes have maximal paired current
+laws, not independent mirrors. Correct source form/spacetime slots
+earned; same R connection in both blocks fails. Naive epsilon+ critical
+gaugino plus regular finite-YM-energy boson domain fails supersymmetry
+variation; no all-end exclusion. Local compact-normal odd Higgs gives
+finite-norm bulk BPS positive while nonabelian interactions remain.
+
+Actual Higgs Yukawa source on undressed critical modes is not L2,
+but an explicit even log/angular correction cancels it; corrected
+sections and remaining potential are L2, MW/reality/current retained.
+This is local interacting graph membership, not maximal-domain/global
+selfadjointness/Fredholmness or an index. Old zero-Higgs gap is not
+copied onto that condensate. Detailed proof/design/source/tests/raw
+receipt in physical-bridge surface_real_boundary_2026_10_15. Regression
+and governance follow. NEXT complete interacting variational/gauge/SUSY
+domain law, global Higgs/connection/end, charged kernels/norms/anomalies.
+Flat g2+u1 is not an unbroken SM; all other phases remain unexcluded.
+Ultimate physical SM/three/gravity unachieved, not declared complete.

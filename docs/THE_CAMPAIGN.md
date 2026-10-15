@@ -1,5 +1,16 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October15 actual real-parent step:264/264 exact at pre-run401d4cd4d,
+19pins/tree/index unchanged. MW/spin/R/whole-E8 reality and paired
+critical current laws explicit. A local interacting graph repair
+cancels the actual bad Yukawa source; it is not a global boundary
+or physical index theorem. NEXT interacting local variational/domain/
+gauge/SUSY law, GLOBAL Higgs/connection/end, then total charged spectrum/
+norms/anomalies. Keep local normal BPS positive and scoped bare-domain
+counterexample. Do not transfer old zero-Higgs spectrum to a condensate
+or confuse required conjugates with independently added mirrors.
+Report physical-bridge surface_real_boundary_2026_10_15/FINDINGS.md.
+
 October14 global joint advanced:329/32 exact and158 live PASS93.74s
 at corrected f0760049f;46pins/tree unchanged. Natural orbifold loop map
 and complex extreme trace gluing authored, with first signed failure

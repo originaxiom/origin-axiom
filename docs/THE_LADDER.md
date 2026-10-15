@@ -1,5 +1,16 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October15 reality/current joint:264/264 exact at pre-run401d4cd4d,
+19pins/tree/index unchanged. Actual32-spinor MW/spin/R/external map
+and whole248 compact tau verified. Both complex extremes have real
+paired current laws; opposite R is a conjugate, not independent mirror.
+Nonzero local Higgs needs a changed graph: explicit even correction
+cancels non-L2 Yukawa source, not a discarded mode. Local normal BPS
+control and naive bosonic-domain failure both kept. NEXT full interacting
+boundary variation/domains and global Higgs/end/charged spectrum, not
+an assumed unchanged zero-Higgs index. SM+three+gravity unachieved.
+Report physical-bridge surface_real_boundary_2026_10_15/FINDINGS.md.
+
 October15 cusp section map advanced:760/760 exact, all6 commuting weak
 classes and both complex extremes retained at pre-run561212901,
 17pins/tree/index unchanged. Authored kernel equivariance earns actual

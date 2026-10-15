@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-15 full fermion reality and local interacting boundary core
+
+At published pre-run401d4cd4d,264/264 exact predicates pass with
+identical complete records,19pins/tree/index unchanged. Full32-spinor
+MW/R/external map and compact E8 tau on every61,504 bracket pair;
+both independent complex extremes have real paired current laws, not
+independent mirrors. A naive epsilon+ regular-boson domain fails the
+actual variation/energy test; sourced laws not excluded. Local compact-
+normal Higgs control survives, and explicit even log/angular corrections
+cancel the actual nonintegrable Yukawa source. Full interacting global
+boundary law/domain, physical index, stationary global Higgs, SM/three/
+gravity remain unachieved. Source physical-bridge surface_real_boundary.
+
 ## 2026-10-15 actual cusp kernel transport checkpoint
 
 At server-verified pre-run561212901,760/760 exact predicates pass with

@@ -6499,3 +6499,29 @@ inequality is NOT a no-intertwiner proof; full parent metric/symmetry
 must be used. This does not refute another parent's actual scalar norm.
 PB-GENESIS/THREE/SM/GRAVITY: ultimate obligations remain unachieved;
 the g2+u1 flat phase is not a whole-architecture exclusion.
+
+## October15 full real-parent duty split by actual result
+
+PB-SURFACE-REAL-PARENT-KINETIC: AUTHOR-PROVED CONDITIONALLY with explicit
+MW/spin/R/external/full-E8 map and paired current laws.264/264 exact
+at published pre-run401d4cd4d,19pins/tree/index unchanged. Opposite R
+slots are conjugates, not independent mirrors. Source physical-bridge
+surface_real_boundary_2026_10_15/PROOF1-3 and FINDINGS. Independent
+analytic acceptance/complete physical interacting boundary NOT inferred.
+
+PB-SURFACE-INTERACTING-TRACE: LOCAL POSITIVE. Actual Higgs source is
+cancelled by even log/angular correction; L2 graph membership, MW/
+reality and leading Green law kept. OPEN: maximal-domain exhaustion,
+global selfadjoint realization and cusp/kernel analysis of THAT
+interacting operator. Do not retain the old free graph or re-kill the
+critical trace; do not copy the old zero-Higgs gap/index onto it.
+
+PB-SURFACE-BOUNDARY-VARIATION: OPEN. Complete bosonic/auxiliary/gauge
+and supersymmetry domains/action/end response. Naive epsilon+ regular
+finite-YM-energy bosons fail the variation test at flat zero Higgs;
+other end laws unexcluded. Epsilon- passes leading normal controls,
+not complete nonlinear admission. PB-SURFACE-GLOBAL-HIGGS: OPEN.
+Compact-normal local bulk BPS positive kept, but must extend actual
+Higgs/connection over full fibre/base with correct K/R/automorphy.
+Then charged physical kernels, norms, interactions and anomalies in
+ONE parent. No selected epsilon/vacuum/three, full SM or gravity yet.

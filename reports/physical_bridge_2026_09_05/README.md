@@ -1,5 +1,16 @@
 # Physical bridge audit — 2026-09-05
 
+October15 full physical-parent reality/current step:264/264 exact at
+published pre-run401d4cd4d,19pins/tree/index unchanged. Actual full32
+MW/spin/R/external and completeE8 compact map; both paired extreme
+laws admit reality without an independent mirror. Local Higgs graph
+corrections cancel the actual non-L2 source, preserving the mode;
+normal BPS positive and naive finite-energy boson-domain failure kept.
+Full interacting global boundary theory and physical index remain
+owed. NEXT local nonlinear domains/action/gauge/SUSY, global Higgs/
+end, then actual charged spectrum/anomalies/SM+gravity. See
+surface_real_boundary_2026_10_15/FINDINGS.md and NEXT_TEST.md.
+
 October15 actual cusp kernel transport:760/760 exact PASS at server-
 verified pre-run561212901;17pins/tree/index unchanged. Actual section
 equivariance earns inverse-Z table, all6 weak completions and both

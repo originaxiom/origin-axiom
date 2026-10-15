@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October15 full-parent reality/local boundary joint:264/264 exact at
+published pre-run401d4cd4d,19pins/tree/index unchanged. Full MW/spin/R/
+E8 map admits BOTH paired complex extremes, not independent mirrors.
+Actual Higgs source cancelled by explicit even log/angular graph
+correction; local compact-normal BPS Higgs positive retained alongside
+the scoped naive bosonic-domain counterexample. NEXT complete local
+interacting domains/action/gauge/SUSY, actual global Higgs/connection/
+end, then charged physical kernels and anomalies. No transferred
+condensate gap/index or complete physical SM/three/gravity claim.
+Report physical-bridge surface_real_boundary_2026_10_15/FINDINGS.md.
+
 October15 actual cusp mode transport:760/760 exact at pre-run561212901,
 17pins/tree/index unchanged. Authored equivariant exact-kernel section
 map earns inverse-Z phases on supplied cusp; full166 vertical components

@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October15 explicit real-parent map:264/264 exact at pre-run401d4cd4d,
+19pins/tree/index unchanged. Full32-spinor MW/R/external and wholeE8
+compact reality admits two paired current laws under credited analytic
+hypotheses, not independent conjugate recounting. Actual local Higgs
+source is cancelled by an even log/angular graph correction; local
+normal BPS control survives. Complete interacting global boundary
+theory, index, generated stationary Higgs/end and SM/gravity remain
+unachieved; old zero-Higgs gap is not copied onto the condensate.
+Report physical-bridge surface_real_boundary_2026_10_15/FINDINGS.md.
+
 October15 actual cusp kernel section map:760/760 exact at pre-run561212901,
 17pins/tree/index unchanged. Authored equivariant projection/Gram argument
 earns inverse-Z phases on the admitted cusp, not every global domain.
