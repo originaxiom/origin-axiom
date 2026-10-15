@@ -1,0 +1,36 @@
+LR [[1, 1], [1, 2]] RL [[2, 1], [1, 1]] tr LR, RL, LR.RL: 3 3 6
+commutator [LR, RL] = [[5, -6], [6, -7]] trace -2 (parabolic iff |trace| = 2)
+index of <LR, RL> in PSL(2,Z): 6
+index of <LR, RL> in SL(2,Z): 12
+chi_i = multiplier of eta^6; chi_i(word) = i^(#R - #L) (Rademacher's Psi) on all 254 positive words to length 7: max deviation 8.88e-29
+threads by trace (t: count, D = t^2 - 4, Psi values):
+  t= 3 D=   5: 1 threads  ['LR']  Psi=[0]
+  t= 4 D=  12: 2 threads  ['LLR', 'LRR']  Psi=[-1, 1]
+  t= 5 D=  21: 2 threads  ['LLLR', 'LRRR']  Psi=[-2, 2]
+  t= 6 D=  32: 3 threads  ['LLLLR', 'LLRR', 'LRRRR']  Psi=[-3, 0, 3]
+  t= 7 D=  45: 2 threads  ['LLLLLR', 'LRRRRR']  Psi=[-4, 4]
+  t= 8 D=  60: 4 threads  ['LLLLLLR', 'LLLRR', 'LLRRR', 'LRRRRRR']  Psi=[-5, -1, 1, 5]
+  t= 9 D=  77: 2 threads  ['LLLLLLLR', 'LRRRRRRR']  Psi=[-6, 6]
+  t=10 D=  96: 6 threads  ['LLLLLLLLR', 'LLLLRR', 'LLRLR', 'LLRRRR', 'LRLRR', 'LRRRRRRRR']  Psi=[-7, -2, -1, 1, 2, 7]
+  t=11 D= 117: 3 threads  ['LLLLLLLLLR', 'LLLRRR', 'LRRRRRRRRR']  Psi=[-8, 0, 8]
+  t=12 D= 140: 4 threads  ['LLLLLLLLLLR', 'LLLLLRR', 'LLRRRRR', 'LRRRRRRRRRR']  Psi=[-9, -3, 3, 9]
+each thread's form, its content f and primitive discriminant (t^2 - 4)/f^2; the round trip; the layer's length:
+  t= 3 length 2 arccosh(t/2) = 1.9248; imprimitive forms: []; deepest LR (and its mirror) at height 1.118, sqrt(t^2-4)/2 = 1.118
+  t= 4 length 2 arccosh(t/2) = 2.6339; imprimitive forms: []; deepest LLR (and its mirror) at height 1.732, sqrt(t^2-4)/2 = 1.732
+  t= 5 length 2 arccosh(t/2) = 3.1336; imprimitive forms: []; deepest LLLR (and its mirror) at height 2.291, sqrt(t^2-4)/2 = 2.291
+  t= 6 length 2 arccosh(t/2) = 3.5255; imprimitive forms: ["LLRR:f=2,D'=8"]; deepest LLLLR (and its mirror) at height 2.828, sqrt(t^2-4)/2 = 2.828
+  t= 7 length 2 arccosh(t/2) = 3.8497; imprimitive forms: []; deepest LLLLLR (and its mirror) at height 3.354, sqrt(t^2-4)/2 = 3.354
+  t= 8 length 2 arccosh(t/2) = 4.1269; imprimitive forms: []; deepest LLLLLLR (and its mirror) at height 3.873, sqrt(t^2-4)/2 = 3.873
+  t= 9 length 2 arccosh(t/2) = 4.3693; imprimitive forms: []; deepest LLLLLLLR (and its mirror) at height 4.387, sqrt(t^2-4)/2 = 4.387
+  t=10 length 2 arccosh(t/2) = 4.5849; imprimitive forms: ["LLLLRR:f=2,D'=24", "LLRRRR:f=2,D'=24"]; deepest LLLLLLLLR (and its mirror) at height 4.899, sqrt(t^2-4)/2 = 4.899
+  t=11 length 2 arccosh(t/2) = 4.7791; imprimitive forms: ["LLLRRR:f=3,D'=13"]; deepest LLLLLLLLLR (and its mirror) at height 5.408, sqrt(t^2-4)/2 = 5.408
+  t=12 length 2 arccosh(t/2) = 4.9558; imprimitive forms: []; deepest LLLLLLLLLLR (and its mirror) at height 5.916, sqrt(t^2-4)/2 = 5.916
+round trip matrix <-> form exact on every thread to t = 12: True
+powers of threads with trace <= 20 (in the classical sum at D = t^2 - 4, not in the trace layer):
+  (LR)^2: trace 7
+  (LR)^3: trace 18
+  (LLR)^2: trace 14
+  (LRR)^2: trace 14
+layer sizes to t = 20 (primitive threads): {3: 1, 4: 2, 5: 2, 6: 3, 7: 2, 8: 4, 9: 2, 10: 6, 11: 3, 12: 4, 13: 4, 14: 6, 15: 4, 16: 6, 17: 4, 18: 7, 19: 4, 20: 10}
+smallest primitive discriminant per layer to t = 20: {3: 5, 4: 12, 5: 21, 6: 8, 7: 45, 8: 60, 9: 77, 10: 24, 11: 13, 12: 140, 13: 165, 14: 48, 15: 221, 16: 28, 17: 285, 18: 20, 19: 357, 20: 44}
+each primitive discriminant in one layer only (to t = 20): True
