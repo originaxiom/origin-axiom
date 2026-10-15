@@ -12,7 +12,8 @@
 > **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`).
 > - "At c = 6 it selects nothing" (§6 and the §0.1 table) is wrong as worded: the root is the most probable thread at
 >   every c.
-> - "Minimality is ruled out by the data" holds in W72's cell only. The (−½, 7/2) cell gives the root
+> - "Minimality is ruled out by the data" holds in W72's cell and in the (3/2, 7/2) cell, not across the frame. (An
+>   earlier version of this note said "W72's cell only".) The (−½, 7/2) cell gives the root
 >   1 : 0.018–0.022 : 0.
 > - "The principles split" stands as scoped: every principle tabled admits the root, except one of the two transfers
 >   of B517.

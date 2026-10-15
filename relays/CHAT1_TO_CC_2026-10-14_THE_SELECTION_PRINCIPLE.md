@@ -8,7 +8,8 @@
 > **2026-10-15:** this relay's negatives were audited (`chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`). The corrections and asks are in
 > `CHAT1_TO_CC_2026-10-15_THE_NEGATIVES_AUDITED.md`.
 > - "At c = 6 it selects nothing" is wrong as worded.
-> - "The root is not hierarchical enough" holds in W72's cell only.
+> - "The root is not hierarchical enough" holds in W72's cell and in the (3/2, 7/2) cell, not across the frame. (An
+>   earlier version of this note said "W72's cell only".)
 > - "The weave cannot choose a sign of CP" is not a failure.
 > - The addendum's "right for F5 as B1652 defines it" was too generous to "no hierarchy".
 

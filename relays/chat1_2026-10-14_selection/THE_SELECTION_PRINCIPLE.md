@@ -8,7 +8,9 @@
 > **2026-10-15, the audit of the negatives** (`../chat1_2026-10-15_audit/AUDIT_OF_THE_NEGATIVES.md`: auditor D, and chat1's post hoc on step 3a's completion).
 > - **"At c = 6 it selects nothing" is wrong as worded.** The root is the action's most probable thread at every c:
 >   27%, 50% or 66% at c = 6, by the word weight. It is near-certain only at c ≈ 105–138.
-> - **"The root is not hierarchical enough" holds in W72's cell only.**
+> - **"The root is not hierarchical enough" holds in W72's cell and in the (3/2, 7/2) cell, not across the frame.**
+>   In the (3/2, 7/2) cell it gives 0.49–0.81 under every completion computed. (Corrected the same morning: an earlier
+>   version of this note said "W72's cell only".)
 >   - In the (−½, 7/2) cell the root gives 1 : 0.0215 : 0 (H-ORTH) or 1 : 0.0184 : 0 (the ring completion E4·F), far
 >     below its low-lying neighbours.
 >   - So "the thread is the whole question for the hierarchy" is wrong: the cell matters as much.

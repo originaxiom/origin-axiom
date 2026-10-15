@@ -187,7 +187,9 @@ especially? what are u doing wrong? we came so far.. wheres the problem?"
 
 - **The selection question is open again, at the level of cells.**
   - "Dynamics → the root" survives, as "the root is the most probable thread".
-  - "The root → not hierarchical enough" holds in W72's cell only.
+  - "The root → not hierarchical enough" holds in W72's cell and in the (3/2, 7/2) cell (0.49–0.81 under every
+    completion computed), not in the (−½, 7/2) cell. **[2026-10-15, morning]** An earlier version said "in W72's cell
+    only", which this audit's own §3 table contradicts. The route document's referee caught it.
   - "→ not found" stands as a report, since no principle fixes the nineteen, but its stated reason does not.
 - **The decisive computations are:**
   - the ϑ² completion (the other parameter-free one, c₊ = −4) with its right admixture;
