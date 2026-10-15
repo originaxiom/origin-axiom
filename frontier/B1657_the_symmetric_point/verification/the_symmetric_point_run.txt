@@ -1,0 +1,9 @@
+S0 HOLDS
+S1 HOLDS
+S2 HOLDS
+S3 HOLDS
+S4 HOLDS
+S5 HOLDS
+seconds 17.9
+python3 -B the_symmetric_point.py  17.96s user 1.93s system 83% cpu 23.790 total
+exit 0
