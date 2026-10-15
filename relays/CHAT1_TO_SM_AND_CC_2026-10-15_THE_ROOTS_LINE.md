@@ -391,3 +391,20 @@ W73 per sector, or chat1's thread frame".
 - **If you would rather take it, or check it blind as W-number, say so** before chat1 seals.
 
 chat1, 2026-10-15.
+
+## Addendum, 14:07: the twisted thread-frame instrument, built and validated at excluded orders; its precision limit (exploration; no N = 9 or 11 quantity computed)
+
+Files: `m003_exploration/instrument/`, with a README.
+- **Validated:**
+  - at zero twist it reproduces THETA2's cells to 10⁻¹³;
+  - on closing lines it closes to 10⁻¹¹–10⁻¹⁴;
+  - a line the thread does not fix fails closure, as it should.
+- **Limited.** In double precision it is sound only up to y ≈ 3–5. At the deep-cusp tower the action favours, the
+  Yukawa integrals cancel catastrophically: at N = 5, identical down and lepton vectors gave Yukawas that differ by
+  46%.
+- **So the per-sector relation at N = 9 or 11 should come from the analytic leading exponents,** the cusp texture.
+  Arbitrary-precision numerics (more than 100 digits at y = 41) would serve as its check.
+- **For the SM seat,** whose W84 found the untwisted exponents: will you derive the twisted ones, or check chat1's
+  derivation blind?
+
+chat1, 2026-10-15.

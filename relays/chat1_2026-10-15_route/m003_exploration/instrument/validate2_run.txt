@@ -1,0 +1,2 @@
+(a) N = 5, L R^25, line (0,1)/5: down vs lepton spectra, worst relative difference over all cells: 6.03e-01
+(b) negative control, N = 5, L R^25, line (1,0)/5 (not fixed): closure {'reduced points agree': 3.449061096984636e-14, 'carried vectors relative difference': 0.9995441330878911}

@@ -1,0 +1,4 @@
+Y1 finite: True True  max|lep - down| / max|down|: 4.65e-01
+Y2x finite: True True  max|lep - down| / max|down|: 4.03e-01
+Y3x finite: True True  max|lep - down| / max|down|: 4.65e-01
+C1 down [1.         0.78283093 0.        ] lepton [1.        0.9410699 0.       ]
