@@ -1,0 +1,14 @@
+{
+  "original_private_local": {
+    "filename": "stderr.log",
+    "bytes": 111,
+    "sha256": "6595ec7383ec06900207bf85255c44167226b3488be374ea54575c85fe20777e"
+  },
+  "public_copy": {
+    "filename": "stderr_public.log",
+    "bytes": 38,
+    "sha256": "12675f3af0fd0b789fb9809875950b26ba93e123285db770dc24fc9a5d72d67e"
+  },
+  "mapping": "Only machine-local executable path replaced by PYTHON3.12.14; original capture receipt unchanged; public bytes are not claimed original",
+  "post_governance_metadata": true
+}

@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October15 continuation: full-parent reality/interacting-trace checkpoint
+now has54 live regression PASS1378.11s in nine files, unchanged19pins/
+tracked state/index. Interrupted and missing-runtime launch attempts
+preserved; no source/criterion repair. Governance26PASS/four inherited
+FAIL, same old attribution/vacuity/provenance and42 stale relay debts;
+no new science path named. Full capture and privacy mapping retained.
+This is not a full suite/global physical boundary theory; ultimate
+SM+three+gravity remains ACTIVE. See real-boundary VALIDATION.md.
+
 October15 full-parent reality/local boundary joint:264/264 exact at
 published pre-run401d4cd4d,19pins/tree/index unchanged. Full MW/spin/R/
 E8 map admits BOTH paired complex extremes, not independent mirrors.

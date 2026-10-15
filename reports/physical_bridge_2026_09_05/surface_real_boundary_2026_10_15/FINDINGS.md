@@ -119,7 +119,11 @@ perturbation slogan: the counterexample shows why that slogan fails.
 The requested full fermionic reality map and a candidate paired current
 law now have explicit mathematical content in this supplied parent.
 The interacting boundary problem has a constructive local repair, not
-just a new negative. Regression/governance follow this checkpoint.
+just a new negative. Later54 live tests PASS1378.11s in nine files,
+19pins/tree/index unchanged with before snapshot completed before child
+launch. Interrupted and missing-runtime captures are preserved, not
+called mathematical failures. Publication governance follows; details
+and limitations in VALIDATION.md. Not the whole suite.
 
 Next: complete local interacting domains/action variation/gauge and
 supersymmetry, then an actual GLOBAL Higgs/connection/end and complete

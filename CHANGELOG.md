@@ -2,6 +2,11 @@
 
 ## 2026-10-15 full fermion reality and local interacting boundary core
 
+Validation continuation:54 selected live tests PASS1378.11s in nine
+files,19pins/tree/index unchanged. Interrupted and missing-runtime
+launch captures preserved; persistent isolated runtime restored without
+changing science. VALIDATION documents the exact envelope and scope.
+
 At published pre-run401d4cd4d,264/264 exact predicates pass with
 identical complete records,19pins/tree/index unchanged. Full32-spinor
 MW/R/external map and compact E8 tau on every61,504 bracket pair;

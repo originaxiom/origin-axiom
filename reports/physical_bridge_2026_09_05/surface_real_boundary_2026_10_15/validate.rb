@@ -4,7 +4,9 @@ require 'digest'
 require 'pathname'
 require 'open3'
 root=Pathname.new(__dir__).parent.parent.parent
-mode=ARGV.fetch(0);out=Pathname.new(__dir__).join('results',mode);Dir.mkdir(out)
+mode=ARGV.fetch(0);leaf=ARGV.fetch(1,mode)
+raise 'Capture leaf must be a simple name' unless leaf.match?(/\A[a-zA-Z0-9_-]+\z/)
+out=Pathname.new(__dir__).join('results',leaf);Dir.mkdir(out)
 python=ENV.fetch('OA_TRANSPORT_PYTHON','python3')
 dependencies=ENV.fetch('OA_TRANSPORT_DEPENDENCIES','')
 tests=%w[
@@ -42,7 +44,7 @@ stdout,stderr,status=Open3.capture3({'PYTHONDONTWRITEBYTECODE'=>'1','PYTHONPATH'
 seconds=Process.clock_gettime(Process::CLOCK_MONOTONIC)-started
 File.write(out.join('stdout.log'),stdout);File.write(out.join('stderr.log'),stderr)
 after=state.call;File.write(out.join('after.json'),JSON.pretty_generate(after)+"\n")
-receipt={'mode'=>mode,'command'=>command.map { |p| p==python ? 'PYTHON3.12.14' : p },
+receipt={'mode'=>mode,'capture_leaf'=>leaf,'command'=>command.map { |p| p==python ? 'PYTHON3.12.14' : p },
  'exit_code'=>status.exitstatus,'seconds'=>seconds,'before_completed_before_launch'=>true,
  'state_unchanged'=>before==after,'tracked_files'=>before['tracked_files'],
  'source_pins'=>pins.length,'tree_sha256'=>before['tree_sha256'],'index_sha256'=>before['index_sha256'],
