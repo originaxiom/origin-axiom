@@ -1,5 +1,16 @@
 # Physical bridge audit — 2026-09-05
 
+October16 weighted normal join:96/96 exact per producer at published
+9021549f9,62pins/tree/index unchanged. Actual completed-source all16
+coefficients give the supplied bosonic Hessian norm with weights1,1,t^4,
+t^4; off-shell full energy/end retains curvature cross term and BOTH ends.
+Explicit positive-source and non-BPS/omission controls pass. Not the full
+printed conjugate action or nonlinear SUSY/global boundary theory. NEXT
+actual source adjoint/superspace, common nonlinear law, GLOBAL stationary
+fields/end and SAME-model charged spectrum/norms/vertices/anomalies.
+Full generated SM/three/gravity stays ACTIVE. See surface_weighted_hessian_
+2026_10_16/FINDINGS.md. Selected live validation follows.
+
 October16 source validation:5selected LIVE tests PASS280.36s at a31bbb4ce,
 52pins/tree/index unchanged. Governance26PASS/four inherited FAIL32.355105s,
 no new science path or waiver. Full VALIDATION/captures retained; not

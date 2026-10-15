@@ -1,0 +1,96 @@
+PASS actual frame supplied
+PASS actual full normalized MW frame
+PASS parameter IS actual eta projector
+PASS actual favourable chiral phase map REQUIRED
+PASS actual graded signed time REQUIRED
+PASS actual aligned source completion coefficient 0
+PASS actual aligned source completion coefficient 1
+PASS actual aligned source completion coefficient 2
+PASS actual aligned source completion coefficient 3
+PASS actual aligned source completion coefficient 4
+PASS actual aligned source completion coefficient 5
+PASS printed conjugate remains distinct nonzero control
+PASS actual weighted output eta type 0
+PASS actual weighted output eta type 1
+PASS actual weighted output eta type 2
+PASS actual weighted output eta type 3
+PASS actual q real kinetic polarization (0, 0)
+PASS actual output real polarization (0, 0)
+PASS actual completed source ordered derivative (0, 0)
+PASS actual q real kinetic polarization (0, 1)
+PASS actual output real polarization (0, 1)
+PASS actual completed source ordered derivative (0, 1)
+PASS actual q real kinetic polarization (0, 2)
+PASS actual output real polarization (0, 2)
+PASS actual completed source ordered derivative (0, 2)
+PASS actual q real kinetic polarization (0, 3)
+PASS actual output real polarization (0, 3)
+PASS actual completed source ordered derivative (0, 3)
+PASS actual q real kinetic polarization (1, 0)
+PASS actual output real polarization (1, 0)
+PASS actual completed source ordered derivative (1, 0)
+PASS actual q real kinetic polarization (1, 1)
+PASS actual output real polarization (1, 1)
+PASS actual completed source ordered derivative (1, 1)
+PASS actual q real kinetic polarization (1, 2)
+PASS actual output real polarization (1, 2)
+PASS actual completed source ordered derivative (1, 2)
+PASS actual q real kinetic polarization (1, 3)
+PASS actual output real polarization (1, 3)
+PASS actual completed source ordered derivative (1, 3)
+PASS actual q real kinetic polarization (2, 0)
+PASS actual output real polarization (2, 0)
+PASS actual completed source ordered derivative (2, 0)
+PASS actual q real kinetic polarization (2, 1)
+PASS actual output real polarization (2, 1)
+PASS actual completed source ordered derivative (2, 1)
+PASS actual q real kinetic polarization (2, 2)
+PASS actual output real polarization (2, 2)
+PASS actual completed source ordered derivative (2, 2)
+PASS actual q real kinetic polarization (2, 3)
+PASS actual output real polarization (2, 3)
+PASS actual completed source ordered derivative (2, 3)
+PASS actual q real kinetic polarization (3, 0)
+PASS actual output real polarization (3, 0)
+PASS actual completed source ordered derivative (3, 0)
+PASS actual q real kinetic polarization (3, 1)
+PASS actual output real polarization (3, 1)
+PASS actual completed source ordered derivative (3, 1)
+PASS actual q real kinetic polarization (3, 2)
+PASS actual output real polarization (3, 2)
+PASS actual completed source ordered derivative (3, 2)
+PASS actual q real kinetic polarization (3, 3)
+PASS actual output real polarization (3, 3)
+PASS actual completed source ordered derivative (3, 3)
+PASS actual q reality and common T 0
+PASS actual q reality and common T 1
+PASS actual q reality and common T 2
+PASS actual q reality and common T 3
+PASS full weighted quadratic norm (0, 0)
+PASS full weighted quadratic norm (0, 1)
+PASS full weighted quadratic norm (0, 2)
+PASS full weighted quadratic norm (0, 3)
+PASS full weighted quadratic norm (1, 0)
+PASS full weighted quadratic norm (1, 1)
+PASS full weighted quadratic norm (1, 2)
+PASS full weighted quadratic norm (1, 3)
+PASS full weighted quadratic norm (2, 0)
+PASS full weighted quadratic norm (2, 1)
+PASS full weighted quadratic norm (2, 2)
+PASS full weighted quadratic norm (2, 3)
+PASS full weighted quadratic norm (3, 0)
+PASS full weighted quadratic norm (3, 1)
+PASS full weighted quadratic norm (3, 2)
+PASS full weighted quadratic norm (3, 3)
+PASS complex cross terms not silently zero
+PASS canonical t1 recovered
+PASS printed weight changes nonzero Hessian
+PASS full weighted nonlinear energy end identity
+PASS weighted curvature omission detected
+PASS weighted end omission detected
+PASS weighted quartic omission detected
+PASS nonzero BPS control all residuals vanish
+PASS actual BPS Hessian half second variation
+PASS nonBPS Hessian squared linearization false control
+PASS both weighted root ends retained
+PASS weighted root divergence and variation

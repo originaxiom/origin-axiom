@@ -2727,3 +2727,20 @@ source expansion/author, not independent convention or analytic review.
 | Bounded positive invertible T transports selfadjoint A to TAT on T^-1 Dom(A), with equivalent graphs, corresponding kernels and compact graph embedding when present. | B1138 context ONLY; standard adjoint/domain argument credited; NEW authored PROOF4 with finite positive/nonisometric controls | Conditional application to the credited interacting FIXED FIBRE. Not independent functional analysis, whole-surface/cusp or physical index. |
 | Epsilon-minus and every active local BPS tangent have T=t I, so the prior actual tangent survives in the completed internal operator. | B1138 context ONLY; prior actual tangent credited; NEW actual matrices PROOF3; test_actual_full_T_current_and_both_domains | Finite positive LOCAL norm, not a global modulus/particle/family or an imported zero-Higgs gap. |
 | None of the eight declared component dictionaries passes the entire printed-conjugate source gate; an exact graded compact witness is scalar8 component(30,40), residual-2. | B1138 context ONLY; NEW complete source census/witness and test_every_source_dictionary_is_retained_and_correctly_graded | UNRESOLVED identification in this declared phase/contour class, not a paper error, every convention or a programme/physics no-go. |
+
+## October16 local weighted normal action/operator/end join
+
+New surface_weighted_hessian_2026_10_16 PROOF/FINDINGS,96/96 exact
+per producer at published9021549f9,62pins/tree/index unchanged.
+LIVE locks tests/test_physical_bridge_surface_weighted_hessian.py.
+Supplied candidate residual action and explicit Hermitian completion,
+not full printed source, independent convention or analytic acceptance.
+
+| Law with exact scope | Evidence and antecedent | Limits |
+|---|---|---|
+| Actual real/twist-neutral Pi equals eta/conjugate projector; its two curvature outputs are eta and other two are complementary. | B1138 parent-choice context ONLY; NEW actual32 matrix checks PROOF1; test_all_ordered_derivatives_and_real_norms | Equality of maps, not rank matching. Full supplied MW/C retained. |
+| Actual aligned completed source has all16 coefficients H_t q=i[-L+G67 dC1+t^2 G68 dC2+t^2 G69 dC3]Pi. | B1138 context ONLY; credited source completion plus NEW all6source and all16deformation checks; test_actual_positive_source_map_required_not_only_classification | Requires actual favourable source map, not classification alone. Printed conjugate mismatch remains distinct. |
+| Real quadratic norm is L^2+dC1^2+t^4(dC2^2+dC3^2), equal to half the gauge-fixed residual Hessian AT BPS. | B1138 context ONLY; NEW all16real polarizations PROOF1-2; test_all_ordered_derivatives_and_real_norms / test_actual_weighted_hessian_is_BPS_scoped | Complex cross products nonzero; non-BPS extra16 detected. Not full nonlinear SUSY or nonzero spectra equivalence. |
+| Weighted off-shell energy retains curvature term2(1-t^4)B(F,[U,V]) and equals R_t+t^4 divJ. | B1138 context ONLY; credited invariant-pairing identity; NEW full noncommuting polynomial controls PROOF3; test_nonlinear_weighted_action_keeps_curvature_quartic_and_end | Dropped curvature/quartic/end fail. Explicit supplied action, not a complete real-source identification. |
+| Retaining -t^4 boundary J at BOTH annulus ends gives nonnegative relative R_t and inherited H1-plus-family stationarity. | B1138 context ONLY; credited normal variational proof; NEW positive-weight extension PROOF3 and exact off-shell checks | Authored conditional sufficient class, not exhaustion of nonlinear boson/fermion/gauge/auxiliary/SUSY boundary conditions. |
+| Credited singular BPS family bulk/end/divergence/variation scale by t^4 and gauge-fixed BPS zero conditions persist for finite t>0. | B1138 context ONLY; credited actual root solution/current; NEW scaled annulus check PROOF3; test_nonlinear_weighted_action_keeps_curvature_quartic_and_end | Local existing family not rediscovered;4pi lambda^2 t^4/epsilon cancels. No global particle/index/three or old-gap transfer. |

@@ -149,6 +149,13 @@ references were located, not read fully in this continuation; the
 older seven-dimensional superspace work cannot be transplanted without
 an actual reduction/twist. These notes are NOT58-check evidence.
 
+October16 continuation: weighted normal-Hessian follow-up now has96/96
+exact checks per producer in adjacent surface_weighted_hessian_2026_10_16
+at published pre-run9021549f9,62pins/tree/index unchanged. The supplied
+weighted residual functional matches actual completed-source quadratic
+norms and retained ends. It is not the unmatched full printed source;
+conjugation/superspace and full nonlinear/global duties remain open.
+
 Next: earn the actual source/conjugation and bosonic fluctuation join,
 then close the common nonlinear boson/fermion/gauge/auxiliary/SUSY end
 law and solve the global stationary geometry/Higgs/boundary problem.

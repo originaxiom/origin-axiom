@@ -676,3 +676,11 @@ I-status is promoted; the complete printed-action identification stays open.
 | Hermitian-completed internal operator and canonical internal operator | Positive T congruence with actual C/U2/gauge/paired-current compatibility; graph T^-1 D | Not an equality of complete actions, norms or nonzero masses |
 | Printed conjugate source and physical Hermitian completion | NOT IDENTIFIED; explicit barpsi_H/barpsi_V scalar witness retained | Other source adjoint/real conventions not excluded; no paper-wide no-go |
 | Completed local zero mode and a four-dimensional physical particle | NOT IDENTIFIED; global stationary fields/ends and spectrum not supplied | Full derived SM/three/gravity and foundation selection unachieved |
+
+## October16 weighted quadratic map, same local scope
+
+surface_weighted_hessian_2026_10_16 computes actual ordered coefficients
+and real norm map between SUPPLIED R_t Hessian at BPS and the explicit
+Hermitian-completed source. Not the unmatched full printed action,
+complete nonlinear SUSY or global particle map. Actual Pi=eta is matrix
+equality, not rank matching. No shared I-status promoted.

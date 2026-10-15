@@ -6602,3 +6602,26 @@ stationary fields/end and total charged physical spectrum/norms/vertices/
 anomalies remain. E8/action/geometry selection and observed SM/three/
 gravity remain the ultimate duty. Older full55/cover/stability and both
 epsilon/sourced-boundary hatches are retained, not re-killed or spliced.
+
+## October16 weighted normal quadratic join
+
+PB-SURFACE-WEIGHTED-HESSIAN: CONDITIONAL LOCAL POSITIVE,96/96 per
+producer at published9021549f9,62pins/tree/index unchanged. Actual
+aligned source completion/all16ordered coefficients and real norms
+match supplied R_t Hessian AT BPS. Non-BPS extra16, nonzero complex
+cross products and changed nonzero weights retained as controls.
+Whole nonlinear SUSY closure and full printed action still OPEN.
+
+PB-SURFACE-WEIGHTED-END: local positive for the specified relative
+functional; curvature2(1-t^4)B(F,[U,V]), quartic and BOTH annulus ends
+indispensable. Conditional inherited H1-plus-family stationarity, not
+genesis derivation of the end or exhaustive nonlinear domain theorem.
+
+PB-SURFACE-SOURCE-CONJUGATE remains OPEN. Full hep-th/0101233v2 HTML
+now personally read; original PDF printed9--10 visually inspected.
+Its gauge-completion/WZW/CS structures are reading leads, not an
+automatic8D boundary law. Displayed coefficients must be reconciled by
+actual reduction/adjoint before import. No silent conjugate sign flip.
+Next common nonlinear law and GLOBAL stationary fields/end, then actual
+charged spectra/norms/vertices/anomalies in SAME theory. Ultimate full
+generated physical SM/three/gravity goal stays active.

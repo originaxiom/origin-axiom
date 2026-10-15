@@ -1,0 +1,843 @@
+{
+  "checks": {
+    "actual frame supplied": true,
+    "actual full normalized MW frame": true,
+    "parameter IS actual eta projector": true,
+    "actual favourable chiral phase map REQUIRED": true,
+    "actual graded signed time REQUIRED": true,
+    "actual aligned source completion coefficient 0": true,
+    "actual aligned source completion coefficient 1": true,
+    "actual aligned source completion coefficient 2": true,
+    "actual aligned source completion coefficient 3": true,
+    "actual aligned source completion coefficient 4": true,
+    "actual aligned source completion coefficient 5": true,
+    "printed conjugate remains distinct nonzero control": true,
+    "actual weighted output eta type 0": true,
+    "actual weighted output eta type 1": true,
+    "actual weighted output eta type 2": true,
+    "actual weighted output eta type 3": true,
+    "actual q real kinetic polarization (0, 0)": true,
+    "actual output real polarization (0, 0)": true,
+    "actual completed source ordered derivative (0, 0)": true,
+    "actual q real kinetic polarization (0, 1)": true,
+    "actual output real polarization (0, 1)": true,
+    "actual completed source ordered derivative (0, 1)": true,
+    "actual q real kinetic polarization (0, 2)": true,
+    "actual output real polarization (0, 2)": true,
+    "actual completed source ordered derivative (0, 2)": true,
+    "actual q real kinetic polarization (0, 3)": true,
+    "actual output real polarization (0, 3)": true,
+    "actual completed source ordered derivative (0, 3)": true,
+    "actual q real kinetic polarization (1, 0)": true,
+    "actual output real polarization (1, 0)": true,
+    "actual completed source ordered derivative (1, 0)": true,
+    "actual q real kinetic polarization (1, 1)": true,
+    "actual output real polarization (1, 1)": true,
+    "actual completed source ordered derivative (1, 1)": true,
+    "actual q real kinetic polarization (1, 2)": true,
+    "actual output real polarization (1, 2)": true,
+    "actual completed source ordered derivative (1, 2)": true,
+    "actual q real kinetic polarization (1, 3)": true,
+    "actual output real polarization (1, 3)": true,
+    "actual completed source ordered derivative (1, 3)": true,
+    "actual q real kinetic polarization (2, 0)": true,
+    "actual output real polarization (2, 0)": true,
+    "actual completed source ordered derivative (2, 0)": true,
+    "actual q real kinetic polarization (2, 1)": true,
+    "actual output real polarization (2, 1)": true,
+    "actual completed source ordered derivative (2, 1)": true,
+    "actual q real kinetic polarization (2, 2)": true,
+    "actual output real polarization (2, 2)": true,
+    "actual completed source ordered derivative (2, 2)": true,
+    "actual q real kinetic polarization (2, 3)": true,
+    "actual output real polarization (2, 3)": true,
+    "actual completed source ordered derivative (2, 3)": true,
+    "actual q real kinetic polarization (3, 0)": true,
+    "actual output real polarization (3, 0)": true,
+    "actual completed source ordered derivative (3, 0)": true,
+    "actual q real kinetic polarization (3, 1)": true,
+    "actual output real polarization (3, 1)": true,
+    "actual completed source ordered derivative (3, 1)": true,
+    "actual q real kinetic polarization (3, 2)": true,
+    "actual output real polarization (3, 2)": true,
+    "actual completed source ordered derivative (3, 2)": true,
+    "actual q real kinetic polarization (3, 3)": true,
+    "actual output real polarization (3, 3)": true,
+    "actual completed source ordered derivative (3, 3)": true,
+    "actual q reality and common T 0": true,
+    "actual q reality and common T 1": true,
+    "actual q reality and common T 2": true,
+    "actual q reality and common T 3": true,
+    "full weighted quadratic norm (0, 0)": true,
+    "full weighted quadratic norm (0, 1)": true,
+    "full weighted quadratic norm (0, 2)": true,
+    "full weighted quadratic norm (0, 3)": true,
+    "full weighted quadratic norm (1, 0)": true,
+    "full weighted quadratic norm (1, 1)": true,
+    "full weighted quadratic norm (1, 2)": true,
+    "full weighted quadratic norm (1, 3)": true,
+    "full weighted quadratic norm (2, 0)": true,
+    "full weighted quadratic norm (2, 1)": true,
+    "full weighted quadratic norm (2, 2)": true,
+    "full weighted quadratic norm (2, 3)": true,
+    "full weighted quadratic norm (3, 0)": true,
+    "full weighted quadratic norm (3, 1)": true,
+    "full weighted quadratic norm (3, 2)": true,
+    "full weighted quadratic norm (3, 3)": true,
+    "complex cross terms not silently zero": true,
+    "canonical t1 recovered": true,
+    "printed weight changes nonzero Hessian": true,
+    "full weighted nonlinear energy end identity": true,
+    "weighted curvature omission detected": true,
+    "weighted end omission detected": true,
+    "weighted quartic omission detected": true,
+    "nonzero BPS control all residuals vanish": true,
+    "actual BPS Hessian half second variation": true,
+    "nonBPS Hessian squared linearization false control": true,
+    "both weighted root ends retained": true,
+    "weighted root divergence and variation": true
+  },
+  "records": {
+    "maps": {
+      "eta_and_parameter_projector": [
+        [
+          7,
+          7,
+          "1"
+        ],
+        [
+          8,
+          8,
+          "1"
+        ],
+        [
+          16,
+          16,
+          "1"
+        ],
+        [
+          31,
+          31,
+          "1"
+        ]
+      ],
+      "actual_aligned_completed_H_six": [
+        [
+          [
+            1,
+            11,
+            "-t**2"
+          ],
+          [
+            2,
+            8,
+            "1"
+          ],
+          [
+            4,
+            14,
+            "-t**2"
+          ],
+          [
+            7,
+            13,
+            "1"
+          ],
+          [
+            8,
+            2,
+            "-1"
+          ],
+          [
+            11,
+            1,
+            "t**2"
+          ],
+          [
+            13,
+            7,
+            "-1"
+          ],
+          [
+            14,
+            4,
+            "t**2"
+          ],
+          [
+            16,
+            26,
+            "1"
+          ],
+          [
+            19,
+            25,
+            "-t**2"
+          ],
+          [
+            21,
+            31,
+            "1"
+          ],
+          [
+            22,
+            28,
+            "-t**2"
+          ],
+          [
+            25,
+            19,
+            "t**2"
+          ],
+          [
+            26,
+            16,
+            "-1"
+          ],
+          [
+            28,
+            22,
+            "t**2"
+          ],
+          [
+            31,
+            21,
+            "-1"
+          ]
+        ],
+        [
+          [
+            1,
+            11,
+            "I*t**2"
+          ],
+          [
+            2,
+            8,
+            "I"
+          ],
+          [
+            4,
+            14,
+            "I*t**2"
+          ],
+          [
+            7,
+            13,
+            "I"
+          ],
+          [
+            8,
+            2,
+            "I"
+          ],
+          [
+            11,
+            1,
+            "I*t**2"
+          ],
+          [
+            13,
+            7,
+            "I"
+          ],
+          [
+            14,
+            4,
+            "I*t**2"
+          ],
+          [
+            16,
+            26,
+            "-I"
+          ],
+          [
+            19,
+            25,
+            "-I*t**2"
+          ],
+          [
+            21,
+            31,
+            "-I"
+          ],
+          [
+            22,
+            28,
+            "-I*t**2"
+          ],
+          [
+            25,
+            19,
+            "-I*t**2"
+          ],
+          [
+            26,
+            16,
+            "-I"
+          ],
+          [
+            28,
+            22,
+            "-I*t**2"
+          ],
+          [
+            31,
+            21,
+            "-I"
+          ]
+        ],
+        [
+          [
+            1,
+            13,
+            "-t**2"
+          ],
+          [
+            2,
+            14,
+            "t**2"
+          ],
+          [
+            4,
+            8,
+            "1"
+          ],
+          [
+            7,
+            11,
+            "-1"
+          ],
+          [
+            8,
+            4,
+            "-1"
+          ],
+          [
+            11,
+            7,
+            "1"
+          ],
+          [
+            13,
+            1,
+            "t**2"
+          ],
+          [
+            14,
+            2,
+            "-t**2"
+          ],
+          [
+            16,
+            28,
+            "1"
+          ],
+          [
+            19,
+            31,
+            "-1"
+          ],
+          [
+            21,
+            25,
+            "-t**2"
+          ],
+          [
+            22,
+            26,
+            "t**2"
+          ],
+          [
+            25,
+            21,
+            "t**2"
+          ],
+          [
+            26,
+            22,
+            "-t**2"
+          ],
+          [
+            28,
+            16,
+            "-1"
+          ],
+          [
+            31,
+            19,
+            "1"
+          ]
+        ],
+        [
+          [
+            1,
+            13,
+            "I*t**2"
+          ],
+          [
+            2,
+            14,
+            "-I*t**2"
+          ],
+          [
+            4,
+            8,
+            "I"
+          ],
+          [
+            7,
+            11,
+            "-I"
+          ],
+          [
+            8,
+            4,
+            "I"
+          ],
+          [
+            11,
+            7,
+            "-I"
+          ],
+          [
+            13,
+            1,
+            "I*t**2"
+          ],
+          [
+            14,
+            2,
+            "-I*t**2"
+          ],
+          [
+            16,
+            28,
+            "-I"
+          ],
+          [
+            19,
+            31,
+            "I"
+          ],
+          [
+            21,
+            25,
+            "-I*t**2"
+          ],
+          [
+            22,
+            26,
+            "I*t**2"
+          ],
+          [
+            25,
+            21,
+            "-I*t**2"
+          ],
+          [
+            26,
+            22,
+            "I*t**2"
+          ],
+          [
+            28,
+            16,
+            "-I"
+          ],
+          [
+            31,
+            19,
+            "I"
+          ]
+        ],
+        [
+          [
+            1,
+            8,
+            "-I"
+          ],
+          [
+            2,
+            11,
+            "I*t**2"
+          ],
+          [
+            4,
+            13,
+            "I*t**2"
+          ],
+          [
+            7,
+            14,
+            "-I"
+          ],
+          [
+            8,
+            1,
+            "-I"
+          ],
+          [
+            11,
+            2,
+            "I*t**2"
+          ],
+          [
+            13,
+            4,
+            "I*t**2"
+          ],
+          [
+            14,
+            7,
+            "-I"
+          ],
+          [
+            16,
+            25,
+            "I"
+          ],
+          [
+            19,
+            26,
+            "-I*t**2"
+          ],
+          [
+            21,
+            28,
+            "-I*t**2"
+          ],
+          [
+            22,
+            31,
+            "I"
+          ],
+          [
+            25,
+            16,
+            "I"
+          ],
+          [
+            26,
+            19,
+            "-I*t**2"
+          ],
+          [
+            28,
+            21,
+            "-I*t**2"
+          ],
+          [
+            31,
+            22,
+            "I"
+          ]
+        ],
+        [
+          [
+            1,
+            8,
+            "1"
+          ],
+          [
+            2,
+            11,
+            "t**2"
+          ],
+          [
+            4,
+            13,
+            "t**2"
+          ],
+          [
+            7,
+            14,
+            "1"
+          ],
+          [
+            8,
+            1,
+            "-1"
+          ],
+          [
+            11,
+            2,
+            "-t**2"
+          ],
+          [
+            13,
+            4,
+            "-t**2"
+          ],
+          [
+            14,
+            7,
+            "-1"
+          ],
+          [
+            16,
+            25,
+            "1"
+          ],
+          [
+            19,
+            26,
+            "t**2"
+          ],
+          [
+            21,
+            28,
+            "t**2"
+          ],
+          [
+            22,
+            31,
+            "1"
+          ],
+          [
+            25,
+            16,
+            "-1"
+          ],
+          [
+            26,
+            19,
+            "-t**2"
+          ],
+          [
+            28,
+            21,
+            "-t**2"
+          ],
+          [
+            31,
+            22,
+            "-1"
+          ]
+        ]
+      ],
+      "q_four": [
+        [
+          [
+            4,
+            8,
+            "-I"
+          ],
+          [
+            11,
+            7,
+            "-I"
+          ],
+          [
+            19,
+            31,
+            "I"
+          ],
+          [
+            28,
+            16,
+            "I"
+          ]
+        ],
+        [
+          [
+            4,
+            8,
+            "1"
+          ],
+          [
+            11,
+            7,
+            "-1"
+          ],
+          [
+            19,
+            31,
+            "1"
+          ],
+          [
+            28,
+            16,
+            "-1"
+          ]
+        ],
+        [
+          [
+            1,
+            8,
+            "-1"
+          ],
+          [
+            14,
+            7,
+            "-1"
+          ],
+          [
+            22,
+            31,
+            "1"
+          ],
+          [
+            25,
+            16,
+            "1"
+          ]
+        ],
+        [
+          [
+            1,
+            8,
+            "-I"
+          ],
+          [
+            14,
+            7,
+            "I"
+          ],
+          [
+            22,
+            31,
+            "-I"
+          ],
+          [
+            25,
+            16,
+            "I"
+          ]
+        ]
+      ],
+      "outputs_four": [
+        [
+          [
+            7,
+            7,
+            "1"
+          ],
+          [
+            8,
+            8,
+            "1"
+          ],
+          [
+            16,
+            16,
+            "1"
+          ],
+          [
+            31,
+            31,
+            "1"
+          ]
+        ],
+        [
+          [
+            7,
+            7,
+            "-I"
+          ],
+          [
+            8,
+            8,
+            "I"
+          ],
+          [
+            16,
+            16,
+            "I"
+          ],
+          [
+            31,
+            31,
+            "-I"
+          ]
+        ],
+        [
+          [
+            2,
+            7,
+            "I"
+          ],
+          [
+            13,
+            8,
+            "I"
+          ],
+          [
+            21,
+            16,
+            "I"
+          ],
+          [
+            26,
+            31,
+            "I"
+          ]
+        ],
+        [
+          [
+            2,
+            7,
+            "1"
+          ],
+          [
+            13,
+            8,
+            "-1"
+          ],
+          [
+            21,
+            16,
+            "-1"
+          ],
+          [
+            26,
+            31,
+            "1"
+          ]
+        ]
+      ],
+      "weights": [
+        "1",
+        "1",
+        "t**2",
+        "t**2"
+      ],
+      "ordered_derivatives": 16,
+      "real_norm_weights": [
+        "1",
+        "1",
+        "t**4",
+        "t**4"
+      ]
+    },
+    "source": {
+      "explicit_required_chiral_phases": [
+        "1",
+        "-I",
+        "-I",
+        "1"
+      ],
+      "printed_conjugate_witness": [
+        4,
+        [
+          30,
+          40,
+          "2"
+        ]
+      ],
+      "scope": "Hermitian completion ONLY, not the unmatched full printed source"
+    },
+    "variation": {
+      "BPS_half_Hessian": "704*t**4 + 520",
+      "gauge_fix_norm": "648",
+      "nonBPS_extra_Hessian_coefficient": "16",
+      "scope": "actual supplied residual functional, stationary BPS only"
+    },
+    "end": {
+      "curvature_coefficient": "2*(1-t**4)",
+      "bulk_divergence": "4*pi*lambda**2*t**4/epsilon",
+      "scope": "both local annulus ends; credited root profile/current not independently rederived"
+    },
+    "status": "conditional local quadratic boson/completed-fermion/end join; not full printed action/nonlinear SUSY/global spectrum/SM/three/gravity"
+  },
+  "all_passed": true
+}

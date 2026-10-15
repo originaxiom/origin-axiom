@@ -19764,3 +19764,36 @@ five planted controls PASS, explicit blind spot retained. Full receipts/
 logs/VALIDATION preserved. Final metadata not back-certified; science
 52pins separately rechecked unchanged. Full physical boundary/global
 SM/three/gravity goal remains ACTIVE, not achieved.
+
+## October16 actual weighted boson/completed-fermion/end join
+
+After server-confirmed pre-run9021549f9a1684762364e25f738c52137dc448ca,
+native96/96 PASS22.202086s, reference96/96 PASS22.765316s. Complete16548-
+byte records identical SHA
+77e40c044b4943e60830c7200eddf46374176dc0eb0e6d9df7bc4ce0a7ec7f89.
+62pins/13,162tracked contents/index unchanged. No failed scientific
+attempt or repair. Shared author/source formulation, not independent
+convention/analytic acceptance.
+
+Actual favourable chiral phases and positive time explicitly REQUIRED;
+all6completed-source coefficients, all16normal derivatives and real
+norms join supplied R_t=C1^2+t^4(C2^2+C3^2) Hessian AT BPS. Full printed
+conjugate remains a nonzero control, not silently replaced. Pi equals
+actual eta projector; complex cross products are nonzero but real
+polarization cancels. Noncommuting fluctuations give half-Hessian
+520+704t^4 and gauge-fixing648; non-BPS extra16 is detected.
+
+Full weighted off-shell action retains curvature2(1-t^4)B(F,[U,V]),
+quartic and BOTH oriented ends. Relative action nonnegative, inherited
+H1-plus-family stationarity conditional. Credited root divergence scales
+4pi lambda^2 t^4/epsilon with exact bulk/end first-variation cancellation,
+not a new global solution/particle or nonzero spectral equivalence.
+
+Six scoped LAW rows and leads/current docs/relay registered. Personally
+read full hep-th/0101233v2 scientific HTML/references; relevant original
+PDF9--10 visually checked. Its displayed coefficients/gauge-completion
+structures require actual reduction/adjoint reconciliation, not a free
+boundary law. NEXT true source conjugation, full nonlinear common
+boson/fermion/gauge/auxiliary/SUSY law, GLOBAL stationary fields/end and
+SAME charged spectrum/norms/vertices/anomalies. Genesis selection and
+complete physical SM/three/gravity remain ACTIVE. Live checks follow.
