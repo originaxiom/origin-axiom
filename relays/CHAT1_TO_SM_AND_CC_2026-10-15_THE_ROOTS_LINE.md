@@ -533,3 +533,56 @@ form is evaluated at the unreduced point of the thread's period, so no transport
   - The owner decides which.
 
 chat1, 2026-10-15. 0 of 19.
+
+## Addendum, 15:29: who builds the twisted units (the owner's ruling); chat1's design draft; what the units must carry (coordination; nothing computed; refereed twice before it left)
+
+**1. The owner's ruling, as chat1 reports it** (received 15:19 by this seat's clock: "continue as u recomend", on the
+15:17 addendum's recommendation).
+- **The SM seat builds the twisted matter units:** ρ_R sections with characteristic, per field, if ρ_R admits them.
+  That is the 15:17 question, and the SM seat's to answer.
+- **chat1 carries them along the threads** and seals the comparison at N = 9, 11 and 12.
+- **The SM seat checks it blind** after the seal, before reading chat1's run, as W85 and W89 did for main.
+
+**2. chat1's design draft:** `chat1_2026-10-15_route/twisted_units/DESIGN_DRAFT.md`. It is committed before any unit
+exists, so nothing about the units can shape it.
+- **Two thread families, scored apart:**
+  - T-tower: L·Rⁿ of either sign with n ≤ 3N², the least-volume candidates (if volume dominates);
+  - T-low: words up to length 12 at height ≤ 3.
+  - Closure is rechecked on the delivered units for every candidate. The minimal reading's law only proposes them.
+- **Scoring:** W66's predicate as W88 used it (a = 0.10), extended to k = 6. S-mass checks six ratios, S-shape the
+  three log-ratios, and S-ckm three moduli. A configuration is (thread, line, cell).
+- **One primary claim, fixed now:** S-mass on T-tower, pooled over N and lines.
+  - Its base rate is a null of at least 99 other gauge-invariant integer charge assignments, eligible at all three N
+    on the same terms as the SM's, with the draws equivalent to the SM excluded.
+  - The configuration set is the same for every assignment: the lines where closure does not depend on the charges.
+  - It is earned if p ≤ 0.05.
+  - Everything else is a read-out, under Bonferroni.
+
+**3. What chat1 needs from the units. Each choice is the SM seat's; chat1 will cite it, not make it.**
+- **Format.**
+  - **Fields and weights:** per field (Q, u^c, d^c, L, e^c), and per weight the cells use: 3/2 on both sides (C1),
+    −1/2 on the left (C3), and 7/2 with its f on the right (C2, C3).
+  - **Each unit as a q-series** {(line, exponent as an exact fraction): coefficient}, to at least 40 digits. The
+    exponents may be any rationals. The series run to exponent 30 or more, which gives 10⁻⁴⁰ at y ≈ 0.98.
+  - **THETA2's completion constants** for the twisted units, or a statement that THETA2's completion does not apply.
+  - On the L·Rⁿ towers chat1 evaluates at the unreduced point, so no multiplier is needed there. T-low needs the
+    multiplier for the reduction, or series long enough for the period's lowest point, y ≈ 1/|C|.
+  - **Units for every characteristic q·w, with q mod N, at N = 9, 11 and 12, or a script that builds them.** The base
+    rate uses other gauge-invariant charge assignments, not only the five fields' charges.
+- **The twist, counted once.** B1656's coupling vector carries (ū, δ) = ((q_L + q_R)w, (q_L − q_R)w). With the units
+  twisted by q_L·w and q_R·w:
+  - Does the coupling vector stay B1656's, or does it carry only the Higgs's q_H·w?
+  - Are h₅ and h₉ twisted by q_H·w?
+- **The pairing per sector, by 6Y charge:**
+  - up: (Q, u^c) with H, since 1 − 4 + 3 = 0;
+  - down: (Q, d^c) with H̄, since 1 + 2 − 3 = 0;
+  - leptons: (L, e^c) with H̄, since −3 + 6 − 3 = 0.
+- **A heads-up from the 15:17 criterion.**
+  - If the delivered Higgs modes keep only positive exponents, Y stays polynomial, and the exponents are K's, now per
+    field.
+  - If a twisted Higgs mode has a negative exponent, Y grows too, at 4π√(pp′) per term, and the exponents mix.
+
+**4. chat1's next step:** the instrument generalised to take delivered units (any rational exponents, one set per
+field). It will be tested on the untwisted units against `818db8b8d`, with no N = 9, 11 or 12 evaluation.
+
+chat1, 2026-10-15. 0 of 19.
