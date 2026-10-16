@@ -1,0 +1,28 @@
+{
+  "seal_commit": "529f75946429ebdf62529bcbd338de27b966d336",
+  "pins_match": true,
+  "runs": [
+    {
+      "program": "probe",
+      "exit_code": 1,
+      "seconds": 25.014559536997695,
+      "stdout": {
+        "bytes": 163743,
+        "sha256": "bab0ff1abed05a4b4367a2b9ff6c8f90727ad1d5c53ac028c9f1318542d1ce96"
+      },
+      "stderr": {
+        "bytes": 26412,
+        "sha256": "67dd73486994fc8de73b957a85a931eac5ba714638c216003e37ceeb41edb0df"
+      }
+    }
+  ],
+  "source_pins": 211,
+  "tracked_files": 14271,
+  "pins_unchanged": true,
+  "tracked_unchanged": true,
+  "index_unchanged": true,
+  "fingerprint_before": "0fa2a092faa7855751cd72986a667706b31af004148a048058bed4ebd53c06c5",
+  "fingerprint_after": "0fa2a092faa7855751cd72986a667706b31af004148a048058bed4ebd53c06c5",
+  "complete_records_agree": false,
+  "passed": false
+}

@@ -100,8 +100,15 @@ def run(method):
     ck('majorant convergence and exact generating function',s.simplify((1-x)*s.diff(GF,x)-(M+1)*GF-(1-x)**(-M))==0)
     # Independent free known-positive response coefficient: first integral
     # versus the I_(d+1)/2 / I_(d-1)/2 Frobenius gamma coefficient.
-    native_free=clean(2*s.integrate(y**(2*d+1),(y,0,a))/a**(2*d));reference_free=s.gammasimp(s.gamma((d+1)/2)/(2*s.gamma((d+3)/2)))
+    native_raw=clean(2*s.integrate(y**(2*d+1),(y,0,a))/a**(2*d));reference_raw=s.gammasimp(s.gamma((d+1)/2)/(2*s.gamma((d+3)/2)))
+    # cancel/expand is a rational canonicalizer, not a Gamma recurrence
+    # or general positive-base power simplifier. Preserve its old operands.
+    native_free=s.simplify(native_raw);reference_free=s.simplify(s.expand_func(reference_raw))
     ck('known free Bessel first response recovered',clean(native_free-a*a/(d+1))==0 and clean(reference_free-1/(d+1))==0)
+    ck('wrong free response normalization rejected',clean(2*reference_free-1/(d+1))!=0)
+    records['free_control']={'native_before':str(native_raw),'reference_before':str(reference_raw),
+        'old_native_residual':str(clean(native_raw-a*a/(d+1))),'old_reference_residual':str(clean(reference_raw-1/(d+1))),
+        'native_after':str(native_free),'reference_after':str(reference_free),'identity':'Gamma(z+1)=z Gamma(z), positive-base integral; no fitted target'}
     # Fixed t,rho variation verified before any parameter is relabeled.
     t,g,rho=s.symbols('t g rho',positive=True)
     C=s.diag(1,-1);DD=s.diag(2,-2);YY=s.Matrix([[0,2],[2,0]]);AA=s.Matrix([[0,-2*s.I],[2*s.I,0]])

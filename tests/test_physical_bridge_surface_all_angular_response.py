@@ -23,7 +23,8 @@ def test_all_angular_gap_regular_recurrences_and_resonance(cert):
 def test_constructive_convergence_and_complete_L2_controls(cert):
     for k in ('exact L2 kernel bounds include borderline exponent','weighted continuous kernel bounds whole interval',
               'weighted quadratic maximum certificate','all order coefficient majorant ratio',
-              'majorant convergence and exact generating function','known free Bessel first response recovered'):assert cert[0]['checks'][k]
+              'majorant convergence and exact generating function','known free Bessel first response recovered',
+              'wrong free response normalization rejected'):assert cert[0]['checks'][k]
 def test_untraced_work_and_correct_physical_parameter_variation(cert):
     assert cert[0]['checks']['physical background chain rule exact independent variables']
     for k,v in cert[0]['checks'].items():
