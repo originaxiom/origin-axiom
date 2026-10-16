@@ -1,0 +1,23 @@
+V1 True 282
+V2 {'largest relative difference': '1.0367e-40', 'holds': True}
+Traceback (most recent call last):
+  File "/home/user/origin-axiom/docs/dossiers/the_weave_2026-10-07/the_traces_by_discriminant.py", line 453, in <module>
+    main()
+  File "/home/user/origin-axiom/docs/dossiers/the_weave_2026-10-07/the_traces_by_discriminant.py", line 330, in main
+    sv, emin = masses(K, Y)
+               ^^^^^^^^^^^^
+  File "/home/user/origin-axiom/docs/dossiers/the_weave_2026-10-07/the_traces_by_discriminant.py", line 214, in masses
+    Ih = Uh * mp.diag([1 / mp.sqrt(x) for x in ev]) * Uh.H
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/origin-axiom/docs/dossiers/the_weave_2026-10-07/the_traces_by_discriminant.py", line 214, in <listcomp>
+    Ih = Uh * mp.diag([1 / mp.sqrt(x) for x in ev]) * Uh.H
+                       ~~^~~~~~~~~~~~
+  File "/usr/local/lib/python3.11/dist-packages/mpmath/ctx_mp_python.py", line 205, in __rdiv__
+    v._mpf_ = mpf_rdiv_int(t, s._mpf_, prec, rounding)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/mpmath/libmp/libmpf.py", line 991, in mpf_rdiv_int
+    return mpf_div(from_int(n), t, prec, rnd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/mpmath/libmp/libmpf.py", line 960, in mpf_div
+    raise ZeroDivisionError
+ZeroDivisionError

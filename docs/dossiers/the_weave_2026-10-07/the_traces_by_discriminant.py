@@ -209,8 +209,11 @@ def mats(t):
 
 
 def masses(K, Y):
+    """(None, eigenvalues) when K is singular (an eigenvalue at most 1e-60 of the largest): the masses are undefined"""
     K = (K + K.H) / 2
     ev, Uh = mp.eighe(K)
+    if min(ev) <= max(ev) * mp.mpf(10) ** -60:
+        return None, ev
     Ih = Uh * mp.diag([1 / mp.sqrt(x) for x in ev]) * Uh.H
     sv = sorted(abs(x) for x in mp.svd_c(Ih * Y * Ih.T, compute_uv=False))
     return sv, min(ev)
@@ -328,8 +331,14 @@ def main():
             K += k / w
             Y += y / w
         sv, emin = masses(K, Y)
-        r1, r2 = sv[0] / sv[2], sv[1] / sv[2]
         n = len(forms)
+        if sv is None:
+            rank = sum(1 for x in emin if x > max(emin) * mp.mpf(10) ** -60)
+            cm[str(D)] = {"n_D": n, "K rank": rank, "m1/m3": "undefined (K singular)",
+                          "m2/m3": "undefined (K singular)", "as predicted": False}
+            v4ok = False
+            continue
+        r1, r2 = sv[0] / sv[2], sv[1] / sv[2]
         tiny = mp.mpf(10) ** -20
         ok = (r1 < tiny and r2 < tiny) if n == 1 else (r1 < tiny < r2) if n == 2 else (r1 > tiny and r2 > tiny)
         v4ok = v4ok and ok
@@ -368,6 +377,10 @@ def main():
         r, P, H, sec = res[(i, DPS)]
         m1, _ = masses(r["n1"]["K"], r["n1"]["Y"])
         m2, emin = masses(r["n2"]["K"], r["n2"]["Y"])
+        if m1 is None or m2 is None:
+            c.update({"P": P, "H": H, "npts": [r["n1"]["N"], r["n2"]["N"]], "K singular": True, "seconds": sec})
+            v5, v6 = False, mp.inf
+            continue
         l1, l2 = ratios(m1), ratios(m2)
         d = max(abs(l2[0] - l1[0]), abs(l2[1] - l1[1]))
         v6 = max(v6, d)
@@ -387,6 +400,10 @@ def main():
                      sum((res[(i, DPS)][0][lab]["Y"] for i in idx), mp.zeros(3, 3))] for lab in ("n1", "n2")}
         m1, _ = masses(*tot["n1"])
         m2, _ = masses(*tot["n2"])
+        if m1 is None or m2 is None:
+            traces[str(D)] = {"classes": len(idx), "K singular": True}
+            v6 = mp.inf
+            continue
         l1, l2 = ratios(m1), ratios(m2)
         d = max(abs(l2[0] - l1[0]), abs(l2[1] - l1[1]))
         v6 = max(v6, d)
@@ -397,7 +414,13 @@ def main():
             top = [i for i in idx if classes[i]["H"] == hmax]
             K = sum((res[(i, DPS)][0]["n2"]["K"] for i in top), mp.zeros(3, 3))
             Y = sum((res[(i, DPS)][0]["n2"]["Y"] for i in top), mp.zeros(3, 3))
-            lt = ratios(masses(K, Y)[0])
+            mt = masses(K, Y)[0]
+            if mt is None:
+                v8, v8n = False, v8n + 1
+                row["highest classes"] = "K singular"
+                traces[str(D)] = row
+                continue
+            lt = ratios(mt)
             dd = max(abs(lt[0] - l2[0]), abs(lt[1] - l2[1]))
             row["highest classes"] = len(top)
             row["|trace - highest|"] = float(dd)
@@ -410,8 +433,12 @@ def main():
     # V7: precision
     v7 = mp.mpf(0)
     for i in sorted({root, big}):
-        lo_ = ratios(masses(res[(i, DPS)][0]["n2"]["K"], res[(i, DPS)][0]["n2"]["Y"])[0])
-        hi_ = ratios(masses(res[(i, DPS_HI)][0]["n2"]["K"], res[(i, DPS_HI)][0]["n2"]["Y"])[0])
+        ma = masses(res[(i, DPS)][0]["n2"]["K"], res[(i, DPS)][0]["n2"]["Y"])[0]
+        mb = masses(res[(i, DPS_HI)][0]["n2"]["K"], res[(i, DPS_HI)][0]["n2"]["Y"])[0]
+        if ma is None or mb is None:
+            v7 = mp.inf
+            continue
+        lo_, hi_ = ratios(ma), ratios(mb)
         v7 = max(v7, abs(lo_[0] - hi_[0]), abs(lo_[1] - hi_[1]))
     out["V7"] = {"classes": [classes[i]["word"][:40] for i in sorted({root, big})], "largest difference": s(v7, 5),
                  "holds": bool(v7 < mp.mpf(10) ** -10)}
@@ -420,7 +447,7 @@ def main():
     places = {str(D): (cm[str(D)] if D < 0 else traces[str(D)]) for D in (-3, -4, 5, 8, 12)}
     places["D = 12 threads"] = [{k: c[k] for k in ("word", "ln m1/m3", "ln m2/m3")} for c in classes if c["D"] == 12]
     fit = {}
-    xs = [(math.sqrt(D), traces[str(D)]) for D in discriminants(+1) if SLOPE_MIN <= D]
+    xs = [(math.sqrt(D), traces[str(D)]) for D in discriminants(+1) if SLOPE_MIN <= D and "ln m1/m3" in traces[str(D)]]
     for key in ("ln m1/m3", "ln m2/m3"):
         X = [x for x, _ in xs]
         Yv = [float(r[key]) for _, r in xs]
@@ -434,6 +461,8 @@ def main():
         rd = [math.hypot(sg[f1] / v[f1], sg[f3] / v[f3]), math.hypot(sg[f2] / v[f2], sg[f3] / v[f3])]
         within = []
         for D, row in traces.items():
+            if "ln m1/m3" not in row:
+                continue
             z = [(float(row[k]) - r[j]) / math.sqrt(row["r_calc"] ** 2 + rd[j] ** 2 + 0.10 ** 2)
                  for j, k in enumerate(("ln m1/m3", "ln m2/m3"))]
             if z[0] ** 2 + z[1] ** 2 <= 5.991:
