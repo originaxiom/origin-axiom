@@ -97,7 +97,7 @@ def source(a,ss,ck):
     mixed=a.trace(a.add(*(a.scale(a.mul(D(y,i),D(y,i)),2*eta[j]) for j,y in enumerate(yy) for i in range(6))))
     mdiff=a.trace(a.add(mixedraw,a.scale(mixed,-1),a.scale(physical(a,static(a,ss['K_component'])),-1)))
     me,mp,mres=homotopy(a,mdiff)
-    ck('all four actual vector kinetic sectors and boundary primitives',not mres and all(not v for v in me.values()) and bool(mp))
+    ck('all four actual vector kinetic sectors and boundary primitives',not mres and all(not v for v in me.values()) and not mdiff and bool(mixed))
     em,_=parts(a,mixed)
     ck('actual external Lorentzian source factor four all directions',all(not a.add(em['y'+str(j)],a.scale(a.add(*(D(D(y,i),i) for i in range(6))),4*eta[j])) for j,y in enumerate(yy)))
     ymraw=physical(a,a.trace({w:c for w,c in static(a,ss['gauge_component'],True).items() if all(a.sf.base(q).startswith('v') for q in w)}))

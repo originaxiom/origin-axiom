@@ -1,0 +1,55 @@
+PASS actual positive time and every source spatial action coefficient
+PASS actual complete fermion source equals ordered component bulk
+PASS actual temporal multiplier couples with positive Majorana half
+PASS actual K time sector equals canonical kinetic plus explicit divergence
+PASS actual K Gauss Euler coefficient factor four
+PASS actual external vector temporal sector and common internal weight
+PASS actual auxiliaries have no hidden temporal multiplier
+PASS canonical momentum four and wrong factor rejected
+PASS faithful actual E8 triplet metric reality and all generators
+PASS complete248positive compact real frame not small substitute
+PASS all16source real derivative and velocity factors
+PASS every compact E8 generator has nonzero real antisymmetric adjoint
+PASS complete actual amplitude fermion replay and zero Dirac residual
+PASS complete Hermitian odd current 0
+PASS complete Hermitian odd current 1
+PASS complete Hermitian odd current 2
+PASS complete Hermitian odd current 3
+PASS complete Hermitian odd current 4
+PASS complete Hermitian odd current 5
+PASS complete Hermitian odd current 6
+PASS complete Hermitian odd current 7
+PASS complete Hermitian odd current 8
+PASS complete Hermitian odd current 9
+PASS nonzero full Gauss current exact Cartan profile
+PASS normal current vanishes only on this family not every current
+PASS actual scalar terms and source factor four in Gauss response
+PASS wrong response sign or Gauss normalization rejected
+PASS unbackreacted zero temporal field fails full fermionic Gauss
+PASS full covariant Green reciprocity source not norm identification
+PASS canonical full fermion Gauss charge and local divergence
+PASS field dependent gauge parameter subtraction nonzero
+PASS actual full canonical presymplectic contraction matches corrected charge
+PASS omitting real fermion symplectic contribution fails
+PASS electric charge is not Wronskian even up to sign
+PASS homogeneous freedom and regular outer zero response retained
+PASS particular response finite inner but not selected boundary data
+PASS both endpoints not an unoriented or boundaryless charge
+PASS graded canonical fermion contraction gives minus charge variation
+PASS Majorana doubling and commuting trace detector rejected
+PASS fresh all39 actual Gauss source antecedents
+PASS actual untraced D and all six G source equations
+PASS all static raw auxiliary surface terms retained exactly
+PASS all seven curvature components derived from source auxiliaries
+PASS actual auxiliary elimination equals seven component potential
+PASS full curvature calibration is explicit divergence not omission
+PASS generic source boson Euler 0
+PASS generic source boson Euler 1
+PASS generic source boson Euler 2
+PASS generic source boson Euler 3
+PASS generic source boson Euler 4
+PASS generic source boson Euler 5
+PASS all six generic Hessians retain actual curvature term
+FAIL all four actual vector kinetic sectors and boundary primitives
+PASS actual external Lorentzian source factor four all directions
+PASS actual external quartic retained beyond quadratic response
