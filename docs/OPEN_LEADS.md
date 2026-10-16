@@ -6897,3 +6897,46 @@ PB-SURFACE-INTERACTING-CAUCHY-TRANSFER starts by verifying the ACTUAL
 source/MW/critical-sign dictionary against the earned Noether R map,
 not by equating old labels. Analytic/independent/full-suite and physical
 SM/three/gravity obligations remain. Full packet VALIDATION retained.
+
+## October16 interacting source map and the coupled response duty
+
+PB-SURFACE-INTERACTING-CAUCHY-TRANSFER: source/MW/sign/dressed inputs now
+POSITIVE in surface_interacting_transport_2026_10_16,48/48 each at
+published3394a294e,176pins/tree/index unchanged. Closing sentence for
+the bounded dictionary step: "The nonnormal interacting construction
+extends to the actual earned source frame." Generic P+iQ correction
+and all9source coefficients are mapped on actual complementary MW,
+source sigma=-old epsilon, no scalar reflection or chirality isometry.
+Actual full248 E8 nonnormal root/metric/parity, canonical g=2lambda
+normalization and actual-source local BPS tangent retained. No old
+free graph/gap/index transferred, no particle or global modulus claim.
+
+PB-SURFACE-COUPLED-CAUCHY-DATA OPEN: exact interacting radial system is
+now derived with all angular sectors, gauge parities and conjugates;
+the scalar frame's shifted connection/monodromy is retained. Its j in
+Z+/-1/4 is a FRAME label, not hypercharge. Full finite-radius Cauchy
+subspace, all regular seeds/log resonances, convergence/error bounds
+and uniform complement remain UNCOMPUTED by this packet. The first
+dressed jets/current transport are not the completed response.
+
+PB-SURFACE-INTERACTING-HORIZONTAL-DOMAIN POSITIVE CONDITIONALLY: authored
+fixed-FLAT-fibre argument proves M_xi preserves the DRESSED domain and
+gives the norm/inverse bound at nonzero xi. Actual nonproduct/curved
+horizontal spin/R terms can break the hypothesis; no physical mass
+gap or whole-surface/cusp spectral conclusion. Preserve this positive
+without promoting it, or describing interacting normal control as absent.
+
+PB-SURFACE-ACTION-GENERATED-RESPONSE and GAUGE-MULTIPLET-RECOVERY remain
+OPEN: local source BPS tangent has positive norm/reality and sigma+
+leading trace, but not every nonlinear boundary partner/domain is
+proved. Derive SAME bosonic/auxiliary/source/SUSY responses with field
+dependence and BOTH ends. Sigma- is not excluded. Curved tilted tube/
+extrinsic/R/point-dependent gauge, normal compensator, varying cusp
+cut, graph limit and global stationary charged theory remain in NEXT_TEST.
+
+Full generated foundational physical SM/three/gravity remains ACTIVE.
+Fixed based rank3 not SM, different-parent R93 not spliced. Complete
+normalized spectrum/vertices/anomalies and foundational gauge/three/
+observed parameter selection remain. Search terms 'interacting horizontal
+anticommutation dressed domain':21broad hits/0settled at3/5, code/body
+and all11heads checked; no universal absence or first-ever assertion.

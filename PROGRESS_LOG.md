@@ -20175,3 +20175,33 @@ Post-check validation/currency/relay and explicit actual interacting-
 source/sign map duty are metadata, not back-certified.166scientific
 pins separately rechecked unchanged. No independent analytic/banking/
 recipient/main/full-suite or physical SM acceptance. Full goal ACTIVE.
+
+### October16 actual interacting source and coupled normal system
+
+At published3394a294e,48/48 native8.597348s and reference7.435431s;
+complete5785-byte outputs identical SHA256
+4f1bda96ff4dd807fe89857eee49b49995ae5a86f4d3c3d4381fec057087fada.
+176pins/13,966tracked/index unchanged, no failed attempt. Full streams/
+receipt kept; actual-source/lower-E8 versus reconstructed/upper-E8
+methods share author/model/conventions, not independent acceptance.
+
+All9source velocities, actual complementary MW/R/normal grading and
+generic dressed P+iQ cancellation verified; source sigma=-old epsilon,
+same scalar coordinates, not a chirality isometry. Actual nonnormal
+E8 adjoint/compact metric/parity and canonical g=2lambda normalization
+recomputed. Exact coupled angular system retains both gauge parities,
+R-frame connection/monodromy and all conjugates; j quarter shifts are
+frame labels, not hypercharges. Current and first dressed jets verified,
+full finite response/angle remains uncomputed. Actual source scalar-
+supercharge/all16ordered tangent jets, real positive norm and local
+nonlinear BPS deformation in sigma+ retained, not a global particle,
+full boundary SUSY theorem or sigma- kill.
+
+Authored conditional fixed-FLAT-fibre dressed-domain invariance gives
+the interacting horizontal norm/inverse estimate, not a free vertical
+or physical mass gap/full curved surface result. Twelve scoped LAW
+rows, identification supplement/leads/current surfaces/sender relay
+updated. NEXT full coupled Cauchy response and SAME bosonic/auxiliary/
+source/SUSY curved boundary/global charged theory. Fixed rank3 not SM;
+full generated physical SM/three/gravity ACTIVE. Selected LIVE and
+governance validation follows, not full-suite/main acceptance.

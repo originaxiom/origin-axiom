@@ -1,5 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 actual interacting normal joint:48/48 each at published
+3394a294e,176pins/tree/index unchanged. Earned source/complementary
+MW/sign map retains generic dressed traces and the actual nonnormal
+E8 root BPS tangent, real/positive norm and all16ordered jets. Exact
+coupled angular system includes shifted frame monodromy/connection;
+no hypercharge or full finite response inferred. Conditional dressed-
+domain horizontal inverse bound is FIXED FLAT FIBRE, not a physical
+mass gap/curved spectrum. NEXT full coupled Cauchy response and SAME
+boson/auxiliary/source/SUSY curved boundary/global charged joint.
+Full generated physical SM/three/gravity ACTIVE. New packet
+surface_interacting_transport_2026_10_16 FINDINGS/PROOF/NEXT_TEST.
+
+
 October16 punctured-interior response:52/52 each at publishedc0fe882ee,
 166pins/tree/index unchanged. SAME free source radial equations give
 critical transfer AND noncritical regular response, with uniform frozen

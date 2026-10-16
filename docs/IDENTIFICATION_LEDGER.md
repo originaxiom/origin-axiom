@@ -770,3 +770,16 @@ complement is not a global pseudodifferential theorem; pointwise cutoff
 convergence is not graph/resolvent convergence. Constant gauge tensor
 controls apply within identical coefficient sectors, not arbitrary
 holonomy mixing. No shared I-status or physical claim promoted.
+
+## October16 actual source interacting normal map
+
+surface_interacting_transport_2026_10_16 earns the actual source/
+complementary-MW coefficient, R/normal-grading and dressed-input map,
+not an isometry between the old/new MW chiralities or identification
+of C6 gauge Lambda with scalar Noether R. The actual-source BPS tangent
+is LOCAL and one-way, not a global modulus/particle or full nonlinear
+SUSY boundary domain. The shifted angular j is a FRAME label, not a
+hypercharge. The interacting inverse bound assumes fixed FLAT fibre;
+it is not the full curved operator's physical mass gap. Finite Cauchy
+response/angle, global charged spectrum and foundational SM/three/
+gravity identifications remain open. No shared I-status promoted.

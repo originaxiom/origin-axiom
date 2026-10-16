@@ -1,0 +1,48 @@
+PASS actual source all nine Clifford coefficients and Hermiticity
+PASS actual complementary MW isometry and Majorana map
+PASS all actual source velocities intertwine complementary MW
+PASS critical sign map is explicit not old label matching
+PASS full graph to source coefficients retain scalar coordinates
+PASS actual MW generic dressed cancellation (1, 1, 'P')
+PASS actual MW generic dressed cancellation (1, 1, 'Q')
+PASS actual MW generic dressed cancellation (1, -1, 'P')
+PASS actual MW generic dressed cancellation (1, -1, 'Q')
+PASS actual MW generic dressed cancellation (-1, 1, 'P')
+PASS actual MW generic dressed cancellation (-1, 1, 'Q')
+PASS actual MW generic dressed cancellation (-1, -1, 'P')
+PASS actual MW generic dressed cancellation (-1, -1, 'Q')
+PASS actual E8 charges integral before parity
+PASS actual full coefficient metric positive and parity complete
+PASS actual E8 adjoint root is faithful noncommuting SL2
+PASS compact adjoint metric not naive identity
+PASS actual root Yukawa flips gauge parity and keeps compact reality
+PASS scalar rotating frame keeps both physical Higgs vertices
+PASS rotating frame angular connection is retained
+PASS rotating frame monodromy is not deleted
+PASS all quarter shifted angular lattices match transition
+PASS Majorana keeps angular conjugate coupled sectors
+PASS coupled root sectors close without angular truncation
+PASS radial interacting current conserved in actual metric
+PASS canonical root background balances full moment not commuting mass
+PASS same background holomorphic equation and scalar normalization
+PASS halving real scalar but not backreaction fails
+PASS full radial change keeps Higgs gauge and horizontal terms
+PASS critical coupled indicial sector (1, 1)
+PASS actual bounded or log dressed first jet (1, 1)
+PASS critical coupled indicial sector (1, -1)
+PASS actual bounded or log dressed first jet (1, -1)
+PASS critical coupled indicial sector (-1, 1)
+PASS actual bounded or log dressed first jet (-1, 1)
+PASS critical coupled indicial sector (-1, -1)
+PASS actual bounded or log dressed first jet (-1, -1)
+PASS undressed critical Yukawa residual is not discarded
+PASS actual scalar supercharge real and nonzero
+PASS all16 ordered BPS tangent coefficients in actual MW
+PASS source BPS tangent preserves full reality and positive norm
+PASS actual scalar tangent enters plus critical source plane
+PASS full nonlinear parameter tangent residual vanishes
+PASS actual connection tangent is gauge fixed and retained
+PASS horizontal symbol anticommutes full interacting coefficients
+PASS horizontal symbol preserves both dressed leading trace planes
+PASS horizontal symmetry respects polar and rotating frames
+PASS wrong horizontal scalar shortcut fails trace preservation

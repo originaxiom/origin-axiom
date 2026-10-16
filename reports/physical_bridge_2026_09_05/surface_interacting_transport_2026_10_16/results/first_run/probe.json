@@ -1,0 +1,152 @@
+{
+  "checks": {
+    "actual source all nine Clifford coefficients and Hermiticity": true,
+    "actual complementary MW isometry and Majorana map": true,
+    "all actual source velocities intertwine complementary MW": true,
+    "critical sign map is explicit not old label matching": true,
+    "full graph to source coefficients retain scalar coordinates": true,
+    "actual MW generic dressed cancellation (1, 1, 'P')": true,
+    "actual MW generic dressed cancellation (1, 1, 'Q')": true,
+    "actual MW generic dressed cancellation (1, -1, 'P')": true,
+    "actual MW generic dressed cancellation (1, -1, 'Q')": true,
+    "actual MW generic dressed cancellation (-1, 1, 'P')": true,
+    "actual MW generic dressed cancellation (-1, 1, 'Q')": true,
+    "actual MW generic dressed cancellation (-1, -1, 'P')": true,
+    "actual MW generic dressed cancellation (-1, -1, 'Q')": true,
+    "actual E8 charges integral before parity": true,
+    "actual full coefficient metric positive and parity complete": true,
+    "actual E8 adjoint root is faithful noncommuting SL2": true,
+    "compact adjoint metric not naive identity": true,
+    "actual root Yukawa flips gauge parity and keeps compact reality": true,
+    "scalar rotating frame keeps both physical Higgs vertices": true,
+    "rotating frame angular connection is retained": true,
+    "rotating frame monodromy is not deleted": true,
+    "all quarter shifted angular lattices match transition": true,
+    "Majorana keeps angular conjugate coupled sectors": true,
+    "coupled root sectors close without angular truncation": true,
+    "radial interacting current conserved in actual metric": true,
+    "canonical root background balances full moment not commuting mass": true,
+    "same background holomorphic equation and scalar normalization": true,
+    "halving real scalar but not backreaction fails": true,
+    "full radial change keeps Higgs gauge and horizontal terms": true,
+    "critical coupled indicial sector (1, 1)": true,
+    "actual bounded or log dressed first jet (1, 1)": true,
+    "critical coupled indicial sector (1, -1)": true,
+    "actual bounded or log dressed first jet (1, -1)": true,
+    "critical coupled indicial sector (-1, 1)": true,
+    "actual bounded or log dressed first jet (-1, 1)": true,
+    "critical coupled indicial sector (-1, -1)": true,
+    "actual bounded or log dressed first jet (-1, -1)": true,
+    "undressed critical Yukawa residual is not discarded": true,
+    "actual scalar supercharge real and nonzero": true,
+    "all16 ordered BPS tangent coefficients in actual MW": true,
+    "source BPS tangent preserves full reality and positive norm": true,
+    "actual scalar tangent enters plus critical source plane": true,
+    "full nonlinear parameter tangent residual vanishes": true,
+    "actual connection tangent is gauge fixed and retained": true,
+    "horizontal symbol anticommutes full interacting coefficients": true,
+    "horizontal symbol preserves both dressed leading trace planes": true,
+    "horizontal symmetry respects polar and rotating frames": true,
+    "wrong horizontal scalar shortcut fails trace preservation": true
+  },
+  "records": {
+    "source": {
+      "MW": "actual complementary projector, not isometric to old chirality",
+      "critical_map": "source sigma=-old epsilon; GammaV maps to -B; same scalar coordinates",
+      "dressed": [
+        {
+          "R": 1,
+          "GammaV": 1,
+          "source_sigma": -1,
+          "correction": "log"
+        },
+        {
+          "R": 1,
+          "GammaV": -1,
+          "source_sigma": 1,
+          "correction": "bounded angular"
+        },
+        {
+          "R": -1,
+          "GammaV": 1,
+          "source_sigma": 1,
+          "correction": "bounded angular"
+        },
+        {
+          "R": -1,
+          "GammaV": -1,
+          "source_sigma": -1,
+          "correction": "log"
+        }
+      ]
+    },
+    "gauge": {
+      "root": [
+        -2,
+        -3,
+        -4,
+        -6,
+        -5,
+        -4,
+        -2,
+        -1
+      ],
+      "H": [
+        [
+          0,
+          "-2"
+        ],
+        [
+          1,
+          "-3"
+        ],
+        [
+          2,
+          "-4"
+        ],
+        [
+          3,
+          "-6"
+        ],
+        [
+          4,
+          "-5"
+        ],
+        [
+          5,
+          "-4"
+        ],
+        [
+          6,
+          "-2"
+        ],
+        [
+          7,
+          "-1"
+        ]
+      ],
+      "regular": 136,
+      "odd": 112,
+      "adjoint_matrix_sha256": "5ae5ae4574abe7766b72cbb8e8a74408723850a64b425700f4c7a2c47b735646",
+      "normalization": "real scalar amplitude g=2lambda, k=g^2; not an observed coupling"
+    },
+    "radial": {
+      "j": "Z+l/4, l=eta R_s=+/-1; Majorana pairs l and -l",
+      "exact": "B(j+R/4)/r+(uprime/2) B adH+g T/(sqrt(r)(1-g^2 r))+A",
+      "first_jets": "source sigma+ bounded angular; sigma- log; both critical laws remain",
+      "finite_radius_full_response_computed": false,
+      "global_boundary_domain_proved": false
+    },
+    "tangent": {
+      "map": "actual complementary MW/source all16ordered jets, real positive norm",
+      "leading_plane": "source sigma+; other sign not killed",
+      "status": "local nonlinear BPS tangent, not global modulus/physical particle/full boundary SUSY"
+    },
+    "normal_bound": {
+      "formula": "||N_xi u||^2=||D_sigma u||^2+|xi|^2||u||^2, inverse<=1/|xi| for xi!=0",
+      "scope": "authored conditional fixed-flat-fibre dressed-domain proof, not whole curved surface or physical mass gap"
+    },
+    "scope": "supplied interacting local normal source/BPS/dressed transport framework; not full finite-radius boundary response, common nonlinear curved SUSY domain, global charged spectrum, SM/three or gravity"
+  },
+  "all_passed": true
+}
