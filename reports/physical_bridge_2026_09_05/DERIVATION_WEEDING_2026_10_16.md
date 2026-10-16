@@ -118,3 +118,11 @@ SM e9db5f35b, chat1 bb97d9e77. Fetching these branches is not reproducing
 their computations. Canonical GENESIS is read from main's Git object;
 it is not a local file on this branch. Its PF/GM/postulate distinctions
 and the current decisions remain authoritative within their scope.
+
+Publication hygiene: the first staged whitespace check reported five
+trailing-space lines in the byte-faithful `already_banked.log`, where
+the instrument truncates existing source excerpts. A local checkpoint
+commit was made before that check result was handled; it had not been
+pushed. The raw log is retained unchanged so its recorded digest still
+matches. The follow-up authored-text check excludes that single original
+data file, not any code, test, scientific criterion or governance gate.
