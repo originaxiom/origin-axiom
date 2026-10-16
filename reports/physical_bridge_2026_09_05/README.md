@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+October16 angular-response validation:16selected PASS70.68s at
+dc8a8e27c,155pins/tree/index unchanged; both41-check producers rerun,
+plus routing/face metadata. Governance26PASS/four inherited FAIL
+33.844377s, no waiver/new science path. Next priority UNVERIFIED:
+finite-radius transfer of the admitted singular interior Cauchy data,
+then SAME interacting source/SUSY/neutral/global admission. No cap or
+physical count earned; full generated physical SM/three/gravity ACTIVE.
+
+
 October16 full angular source test:41/41 each at published95b08e9c1,
 155pins/tree/index unchanged. The specified adapted Q AND its complement
 fail ordinary full internal ellipticity at characteristic covectors;

@@ -6,6 +6,26 @@ geometric/current/compact-stabilizer facts, but do not use them as a
 complete elliptic finite-cut domain or copy an old index onto them.
 The separate singular critical-trace domain is not thereby disproved.
 
+## First test the admitted singular interior response
+
+PRIORITY UNVERIFIED candidate: transfer the already admitted singular
+interior Cauchy data to a finite radius, rather than impose the same
+pointwise plane on every angular mode there. The existing full normal-
+family/critical-domain proof in surface_parent_dictionary_2026_10_13/
+upstream_total_domain_PROOF.md retains ALL angular sectors and has
+an invertible nonzero-horizontal-covector normal family. Read to its
+end; this is a priced existing positive, not a new theorem here.
+
+First derive the zero-angular finite-radius transfer in the ACTUAL
+source frame, then noncritical regular branches and full horizontal
+symbol, both C/R/charge conjugates, gauge and moving-frame terms.
+Test whether this preserves the admitted critical law while supplying
+a complementing finite-cut response. No cap/regularity/graph-convergence
+result is computed in the current41checks, and no particle count is
+transferred. The interacting nonnormal Higgs and nonlinear boson/SUSY
+joint remain separate even if the free transfer works. This candidate
+is to be sealed and verified before being used as a construction.
+
 ## Same full action and the boundary source
 
 Recover the complete curved N=1 field-space/gauge-WZW/patch primitives

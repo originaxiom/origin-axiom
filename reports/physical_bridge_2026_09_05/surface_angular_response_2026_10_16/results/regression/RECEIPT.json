@@ -1,0 +1,32 @@
+{
+  "mode": "regression",
+  "capture_leaf": "regression",
+  "command": [
+    "PYTHON3.12.14",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_surface_angular_response.py",
+    "tests/test_b833_negative_routing.py",
+    "tests/test_b842_faces.py"
+  ],
+  "exit_code": 0,
+  "seconds": 72.19303799999761,
+  "before_completed_before_launch": true,
+  "state_unchanged": true,
+  "tracked_files": 13907,
+  "source_pins": 155,
+  "tree_sha256": "3db5ffbec87c9724b3ff24a056b1fdbbcdfc74da3782b706de7c4ced566c90ce",
+  "index_sha256": "aad9cb78853bc66732452073158936b1c476a4e36a3e9d50800104d25f45317f",
+  "stdout": {
+    "bytes": 110,
+    "sha256": "ccd0d477fa4b2bc2b5b672c28e8f10dbc263e2cb8414490bd1c88f28c81ab538"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -59,6 +59,9 @@ failed high-frequency principal condition. Earlier Green, geometric,
 contact and necessary auxiliary facts remain true. They did NOT claim
 ellipticity; no previous physical spectrum is retracted here.
 
+These are COMPLEX Cauchy-space dimensions of the full Fourier/Nambu
+symbol, not counts of four-dimensional Weyl species or generations.
+
 This rules out this unchanged pointwise trace as a complementing
 boundary law for the full internal Dirac operator. It does not settle
 the prescribed singular critical-trace domain, a changed local/nonlocal

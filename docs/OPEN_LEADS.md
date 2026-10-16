@@ -6826,3 +6826,18 @@ compensator, both ends and all conjugates. ONE appropriate stationary
 charged theory with norms/vertices/anomalies and foundational selection
 of observed full SM/three/gravity remains ACTIVE; fixed based rank3 not
 SM, different-parent R93 not spliced. NEXT_TEST retains all obligations.
+
+PB-SURFACE-CRITICAL-INTERIOR-RESPONSE OPEN, PRIORITY UNVERIFIED candidate:
+derive a finite-radius Cauchy transfer from the already admitted singular
+critical interior, retaining the noncritical regular branches instead of
+imposing the old pointwise plane on every angular mode. Existing
+upstream_total_domain_PROOF (surface_parent_dictionary_2026_10_13)
+retains every angular sector and an invertible nonzero-horizontal normal
+family; read fully. This is a preserved positive/possible bridge, NOT a
+current cap/graph-convergence computation. Need actual source C/R/gauge
+transport, zero-angular transfer, full noncritical/angular complement,
+interacting Higgs and boson/SUSY response. No old index/particle transfer.
+Search 'critical boundary transfer' returned127broad hits/4settled,
+not an absence certificate; code search recovered the actual normal-
+family source above. NEXT_TEST states the precise new test, no generic
+missing/first-ever claim.

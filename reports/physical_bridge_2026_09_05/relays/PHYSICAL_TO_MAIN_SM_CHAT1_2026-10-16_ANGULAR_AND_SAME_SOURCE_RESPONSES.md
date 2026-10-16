@@ -40,3 +40,18 @@ not SM; other-parent R93 not spliced. Full physical SM/three/gravity
 ACTIVE. All11heads refreshed; new SM637230e3f docs/read receipts
 reviewed, no new boundary result imported. Selected live/routing/
 governance validation follows, not already claimed complete.
+
+Terminal at dc8a8e27c:16selected PASS70.68s, capture72.193038s,
+six LIVE physical locks plus ten routing/face-metadata locks. Both
+41-check producers rerun;155pins/13,907tracked/index unchanged.
+Governance26PASS/four inherited FAIL33.844377s; first3failure lines
+match prior capture,42stale/164open, review585. No waiver/new science
+failure path. Full VALIDATION retained; not full-suite/receiver/main/
+independent or physical SM acceptance.
+
+PRIORITY UNVERIFIED next bridge: finite-radius transfer of already
+admitted singular INTERIOR Cauchy data, with noncritical regular modes,
+rather than reusing one pointwise plane everywhere. Existing full
+normal-family proof retains all angular sectors and horizontal symbol.
+Verify actual source transport/free transfer first, then interacting
+and boson/SUSY response; no cap or old physical count earned yet.
