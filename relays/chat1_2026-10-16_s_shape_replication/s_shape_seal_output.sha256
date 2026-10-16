@@ -1,0 +1,5 @@
+# sha256 of the sealed run's files as the run wrote them (2026-10-16 10:28 CEST), before anyone read them.
+# The output JSON (91 MB) is committed xz-compressed (xz -6); decompress with: xz -dk s_shape_seal_output.json.xz
+cf030ab346ec205e5b32b730368ccb622dd5c2d0c7c43a50ed5b8836c066766c  s_shape_seal_output.json
+6447c090ab470c649d47932992fc9ea2dbeff773c2b4d01a8c66e82a32640462  s_shape_seal_run.txt
+44c9f0b72216b949b323e2cb17f92e96c7526d72a54d394f3974af6949ecbfaa  s_shape_seal_output.json.xz
