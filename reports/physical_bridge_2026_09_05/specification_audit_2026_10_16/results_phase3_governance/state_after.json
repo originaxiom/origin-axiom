@@ -1,0 +1,13 @@
+{
+  "command": [
+    "ruby",
+    "-EUTF-8",
+    "-e",
+    "require 'json'; require 'digest'; require 'open3'\ndef git(*a)\n  out,err,status=Open3.capture3('git',*a)\n  abort(err) unless status.success?\n  out\nend\nabort('unstaged changes') unless git('diff','--name-only').empty?\nfiles=git('ls-files','-z').split(\"\\0\").sort.to_h do |path|\n  [path, File.symlink?(path) ? ['symlink',File.readlink(path)] : [File.size(path),Digest::SHA256.file(path).hexdigest]]\nend\npins={}\nbase='reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/'\n%w[INPUTS.json EXECUTION_INPUTS.json].each do |name|\n  JSON.parse(File.read(base+name)).fetch('source_files').each do |row|\n    actual=Digest::SHA256.file(row.fetch('path')).hexdigest\n    abort('original source pin changed') unless actual==row.fetch('sha256')\n    pins[row.fetch('path')]=actual\n  end\nend\nputs JSON.pretty_generate({'head'=>git('rev-parse','HEAD').strip,'files'=>files,'pins'=>pins,'index_sha256'=>Digest::SHA256.hexdigest(git('ls-files','--stage','-z'))})\n"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 4.133646000000226,
+  "log_bytes": 3488685,
+  "log_sha256": "33a9e83b30800d9eedd25e211f774dc3e51e5959af168bfae6156ce19d3a6d5a"
+}

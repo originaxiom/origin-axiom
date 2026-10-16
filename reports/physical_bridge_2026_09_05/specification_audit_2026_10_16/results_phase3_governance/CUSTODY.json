@@ -1,0 +1,73 @@
+{
+  "scope": "mechanical publication of complete diagnostic logs, payloads and process receipts",
+  "source_captures_retained_privately": true,
+  "original_process_receipts_unmodified": true,
+  "no_missing_receipt_reconstructed": true,
+  "receipt_log_hashes_refer_to": "original raw logs, not necessarily normalized presentations",
+  "case_collision_note": "In the first attempt INVENTORY.json is metadata, NOT a process receipt.",
+  "files": [
+    {
+      "name": "governance.json",
+      "original_bytes": 297,
+      "original_sha256": "9da5d492c8137237d763b8211659cff20532963678b45d65701a8c76c3daf353",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 293,
+      "published_sha256": "43a2b4b945d7ded86694a7c3f2f46dcb996757b8add025478b006bd29a85c595",
+      "changed": true
+    },
+    {
+      "name": "governance.log",
+      "original_bytes": 1920,
+      "original_sha256": "5e7eba8335aff971de51f587b30ef496da122b100c9e6ce7805e9a54adbdb914",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 1920,
+      "published_sha256": "5e7eba8335aff971de51f587b30ef496da122b100c9e6ce7805e9a54adbdb914",
+      "changed": false
+    },
+    {
+      "name": "path_map.json",
+      "original_bytes": 70,
+      "original_sha256": "1222ea92c08b280b7d9975097a70a05ed6f8c9b768143c55996fa2d9353cfb5f",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 66,
+      "published_sha256": "4a9fa8dda73f9fab77746ceb21da35f998c1379d6689795f4a18b9965b282759",
+      "changed": true
+    },
+    {
+      "name": "state_after.json",
+      "original_bytes": 1231,
+      "original_sha256": "80f8b179c138b073c01419ecd4f8993a0cf1dbb0259fc5f1671db8dd90a77a9d",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 1231,
+      "published_sha256": "80f8b179c138b073c01419ecd4f8993a0cf1dbb0259fc5f1671db8dd90a77a9d",
+      "changed": false
+    },
+    {
+      "name": "state_after.log",
+      "original_bytes": 3488685,
+      "original_sha256": "33a9e83b30800d9eedd25e211f774dc3e51e5959af168bfae6156ce19d3a6d5a",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 3488685,
+      "published_sha256": "33a9e83b30800d9eedd25e211f774dc3e51e5959af168bfae6156ce19d3a6d5a",
+      "changed": false
+    },
+    {
+      "name": "state_before.json",
+      "original_bytes": 1232,
+      "original_sha256": "2fc65d5dfb0e885bb36372097a67d59e094b37bd4f6d5956e2de55539d811fc0",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 1232,
+      "published_sha256": "2fc65d5dfb0e885bb36372097a67d59e094b37bd4f6d5956e2de55539d811fc0",
+      "changed": false
+    },
+    {
+      "name": "state_before.log",
+      "original_bytes": 3488685,
+      "original_sha256": "33a9e83b30800d9eedd25e211f774dc3e51e5959af168bfae6156ce19d3a6d5a",
+      "publication": "path-normalized presentation, not original raw bytes",
+      "published_bytes": 3488685,
+      "published_sha256": "33a9e83b30800d9eedd25e211f774dc3e51e5959af168bfae6156ce19d3a6d5a",
+      "changed": false
+    }
+  ]
+}

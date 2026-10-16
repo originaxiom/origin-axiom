@@ -1,5 +1,14 @@
 # Changelog
 
+Phase3source checkpointa2a2ae6bc staged governance terminal:28PASS/
+twoFAIL attribution/provenance, exit1/42.427185s;18243tracked/index/
+20original pins unchanged, index rechecked after commit. Four metadata
+alias controls and full185blob reconciliation PASS15.443409s.
+Complete original before/after state logs and process receipts retained;
+no science regression repeated, new experiment, waiver or full-suite/
+independent/main/physical acceptance. PHASE3_VALIDATION separates the
+pre-commit HEAD from the certified staged state and later publication.
+
 October16 specification phase3 source pass: all19proof paths of the
 pinned genesis-root fork personally read, plus three physical proofs.
 OPERATOR_DERIVATION_CHAIN recovers actual authored closed-fibre/family

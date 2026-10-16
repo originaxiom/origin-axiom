@@ -21048,3 +21048,17 @@ new experiment, complete packet re-audit or independent analytic
 acceptance. Focused existing-chain relay OPEN for main to verify, not
 self-banked. The remaining attribution/provenance governance duties
 remain; safe specification work progresses under ACTIVE full goal.
+
+Phase3source checkpointa2a2ae6bc: explicit staged full governance
+exit1/42.427185s,28PASS/twoFAIL attribution and seal-provenance.
+Complete before/after captures identical at18243tracked files,
+20original scientific/test/gate/execution pins and unchanged index.
+Snapshot HEADtruthfully8ab7ca32c before commit; post-commit source
+index equals captured0a7e2d55c3d993dedc03319d9fb9ab9de766d64ae61fbef355b3d90198ff855a.
+All three process receipts/log hashes/byte counts/signals checked;
+full original state logs published with custody rather than only hashes.
+Four metadata alias controls and185blob reconciliation PASS, no new
+scientific execution or repeated selected regression. No waiver, full
+suite, independent analytic/main/physical acceptance or final end-law
+verdict. Later results publication remains outside captured source
+state; the full specification-first physical objective stays ACTIVE.

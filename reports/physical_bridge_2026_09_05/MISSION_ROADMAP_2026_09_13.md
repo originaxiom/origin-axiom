@@ -1,5 +1,11 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+Phase3source checkpointa2a2ae6bc has a terminal staged governance
+check:28PASS/twoFAIL attribution/provenance,20pins/18243tracked/index
+unchanged. No checker/baseline waiver or new science. The source chain
+and source-reading coverage are published; physical admission and the
+same-action end law remain the scientific targets after governance.
+
 Phase3 retrieves existing operator maps before new experiments: the
 closed-fibre index, spin-coordinate critical trace cancellation, smooth
 vertical connecting complex, total domain and horizontal projection,
