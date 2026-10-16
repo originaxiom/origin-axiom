@@ -9276,3 +9276,9 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-10-16 | BEFORE supplementary focused tests | `reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/REFERENCE_SUPPLEMENT.md` | `453ef670c7f3304dc9a50361006dc9fec766a7d124f583d4b624e8ca36dc1740` | Existing pinned corroboration, not earlier tips/timing. INPUTS_SUPPLEMENT pins unchanged verifier and changed test/policy. |
+
+## Phase4 action parent specification metadata before controls
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | BEFORE phase4 metadata controls/reconciliation | `reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/PHASE4_DESIGN.md` | `76bb8de831d051b013ef8d521e1a88ee5cdc417d474787f247816185366f678d` | Only this design is a preregistration; PHASE4_INPUTS pins metadata/source audit. Old scientific sources and live role policy unchanged. |

@@ -1,0 +1,65 @@
+{
+  "scope": "Source audit/metadata verification before controls; no new scientific experiment",
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/PHASE4_DESIGN.md",
+      "sha256": "76bb8de831d051b013ef8d521e1a88ee5cdc417d474787f247816185366f678d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/prepare_phase4.rb",
+      "sha256": "ff3554b42615ba7c88ff190e9fbc2772fa3def377721d14b58e29a692641b5e4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/seal_phase4.rb",
+      "sha256": "fd9aae26b30c059a24f7ebdd922e895b2b2def441800ed8470b7b60dd7284ace"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/reconcile_coverage.rb",
+      "sha256": "d6e84ee88292d38b1a1be287dc5fdc2bf15c882d87043f4760f6f40dba42a07b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/review_records.json",
+      "sha256": "aa16c0b84df97c0241ddd063c56ff5c837ba121c2751655d3a5e9c948c2de985"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/review_records_phase2.json",
+      "sha256": "1bf76d5a762103ab59b89967d41d6eba7a7a5906efa5426460914d9d7b1efd18"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/review_records_phase3.json",
+      "sha256": "2ca9fa291998556dd719326029be99b1955dc34bbe032698ac0931be0ea9a1b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/review_records_phase4.json",
+      "sha256": "c13c1edd71a0a0ef8aa9a55ac148b55d8d98a3e7a4cde39eb189391bed0cb56d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/specification_inventory.json",
+      "sha256": "b22fc6620d69a4100eb3b17a9569f9bcc45ae8d7a8d97229237f3b9170e6da25"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/role_pin_candidates_phase4.json",
+      "sha256": "de64e5c133b1c42c6e74f8e8a5c286472ecb223c19f316728d9f1888e0ede0c7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/ACTION_PARENT_SPECIFICATION_2026_10_16.md",
+      "sha256": "44d2a3d6f6215f7eb05c584f4069218a49335d145f2fd78565f6689d93d733da"
+    },
+    {
+      "path": "docs/SEAL_ARTIFACT_ROLES.json",
+      "sha256": "e072be80164a8ce40e84095bf7c46a2704b6a41a4ce00bd35de90152ef1af37b"
+    },
+    {
+      "path": "docs/GIT_REFERENCE_PROVENANCE.json",
+      "sha256": "4471714db55cae130705fe8d501e748ccf179461aa5a363ae9153d3d6fa53376"
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176"
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2"
+    }
+  ]
+}

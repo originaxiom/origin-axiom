@@ -1,5 +1,15 @@
 # Changelog
 
+October16 phase4 action/parent source audit prepared before metadata controls.
+Eight personally read proofs distinguish native multiplier/registered action,
+coefficient/relative-CS maps, actual physical component dictionaries and
+boundary functional versus ensemble/domain. Preserve conditional positives
+and restricted negatives; no new scientific execution. Metadata carry guards
+now include aliases/stored roles/external readings. Expected49direct/three
+aliases/133pending await full pinned-blob verification. Seven existing source
+pin corroborations recorded as role-review candidates only; live policy and
+historical violations unchanged. Design committed7af2ae631 before changes.
+
 Approved governance supplement f905ca9c5 verified:46controls PASS18.91s,
 full governance29PASS/oneFAIL99.423145s,18265tracked/index unchanged.
 Attribution PASS with baseline/raw bytes preserved; seal remains643paths:

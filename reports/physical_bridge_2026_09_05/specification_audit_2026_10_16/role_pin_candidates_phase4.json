@@ -1,0 +1,83 @@
+{
+  "scope": "Existing dependency-pin consistency, not an adopted source role or historical compliance",
+  "live_role_policy_changed": false,
+  "candidates": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e",
+      "status": "ROLE_REVIEW_PENDING",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_INPUTS.json",
+        "sha256": "3ca93632f922a69355631c9e9903c1dc3e831b8c5739f709091b413e5917db40",
+        "collection": "frozen_paths"
+      },
+      "historical_design_or_execution_compliance_certified": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+      "sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866",
+      "status": "ROLE_REVIEW_PENDING",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_INPUTS.json",
+        "sha256": "090b00ac9252d94d1bb825f55814cec9d98ac30059fbde31c4b8ef34907f9cb8",
+        "collection": "frozen_paths"
+      },
+      "historical_design_or_execution_compliance_certified": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_VERTEX_PROOF.md",
+      "sha256": "aa5065f40de6053bcbc5a3b08b2c6a31041c86bc4945609e492a5abee37c9fd7",
+      "status": "ROLE_REVIEW_PENDING",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_INPUTS.json",
+        "sha256": "32056f5d399f1002df65a3de3c98e66609934c07ac9d210cc074e9ebc1fb8281",
+        "collection": "frozen_paths"
+      },
+      "historical_design_or_execution_compliance_certified": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_WILSON_PROOF.md",
+      "sha256": "efd23d23a2b25edd04345a0a302ea81d32dbd9555968566b04e9e825fe3342cd",
+      "status": "ROLE_REVIEW_PENDING",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/INPUTS.json",
+        "sha256": "59408c4e5b787b21d9959a283455519fe81b7c5aa7d5c434a5632dd5e6459f92",
+        "collection": "source_files"
+      },
+      "historical_design_or_execution_compliance_certified": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/PROOF.md",
+      "sha256": "73b22dbc6e55c849e4100127ae4db0d2ca80278a9c77de51fbc9309da23f531f",
+      "status": "ROLE_REVIEW_PENDING",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/INPUTS.json",
+        "sha256": "97a888e9cdbb92fc251f2f059e74192d60afcf071b9e264562c7712fc8916176",
+        "collection": "source_files"
+      },
+      "historical_design_or_execution_compliance_certified": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/PROOF.md",
+      "sha256": "63c873342beb1fe445d4b53cab31dc684d7fe9e33d3a983619d5bef7c786bf97",
+      "status": "ROLE_REVIEW_PENDING",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/INPUTS.json",
+        "sha256": "97a888e9cdbb92fc251f2f059e74192d60afcf071b9e264562c7712fc8916176",
+        "collection": "source_files"
+      },
+      "historical_design_or_execution_compliance_certified": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/PROOF.md",
+      "sha256": "21ec3924a0fa747de5bfb37d6a1ec385b91ef71ca89b211efbe96ea533d7ff5a",
+      "status": "ROLE_REVIEW_PENDING",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/INPUTS.json",
+        "sha256": "97a888e9cdbb92fc251f2f059e74192d60afcf071b9e264562c7712fc8916176",
+        "collection": "source_files"
+      },
+      "historical_design_or_execution_compliance_certified": false
+    }
+  ]
+}

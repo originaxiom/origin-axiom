@@ -12,6 +12,43 @@ def checked_source_alias(source, target)
     'source_alias_of' => target.fetch('path'), 'property_rows' => target.fetch('property_rows'))
 end
 
+def check_carried_review(mapped, review, carry)
+  raise ArgumentError, 'carried mapping changed or disappeared' unless
+    carry.fetch('added_inventory_mappings').all? { |path, properties| mapped[path] == properties }
+  raise ArgumentError, 'carried external reading disappeared' unless
+    (carry.fetch('added_external_sources_read_completely') - review.fetch('external_sources_read_completely')).empty?
+  raise ArgumentError, 'carried alias changed or disappeared' unless
+    carry.fetch('byte_aliases', {}).all? { |path, target| review.fetch('byte_aliases', {})[path] == target }
+  raise ArgumentError, 'carried stored dependency disappeared' unless
+    (carry.fetch('stored_dependency_paths', []) - review.fetch('stored_dependency_paths', [])).empty?
+  true
+end
+
+if ARGV == ['--test-carry-controls']
+  carry = { 'added_inventory_mappings' => { 'proof' => ['property'] },
+    'added_external_sources_read_completely' => ['external'],
+    'byte_aliases' => { 'copy' => 'proof' }, 'stored_dependency_paths' => ['copy'] }
+  good = { 'external_sources_read_completely' => ['external'],
+    'byte_aliases' => { 'copy' => 'proof' }, 'stored_dependency_paths' => ['copy'] }
+  abort('positive carry control failed') unless check_carried_review({ 'proof' => ['property'] }, good, carry)
+  bads = [ [{}, good], [{ 'proof' => ['other'] }, good],
+    [carry['added_inventory_mappings'], good.merge('byte_aliases' => {})],
+    [carry['added_inventory_mappings'], good.merge('byte_aliases' => { 'copy' => 'other' })],
+    [carry['added_inventory_mappings'], good.merge('stored_dependency_paths' => [])],
+    [carry['added_inventory_mappings'], good.merge('external_sources_read_completely' => [])] ]
+  bads.each do |mapped, review|
+    rejected = false
+    begin
+      check_carried_review(mapped, review, carry)
+    rescue ArgumentError
+      rejected = true
+    end
+    abort('carry accepted a rejecting control') unless rejected
+  end
+  puts '7 carry controls passed: identity, lost/changed mapping, lost/repointed alias, lost role, lost external reading'
+  exit
+end
+
 if ARGV == ['--test-alias-controls']
   source = { 'source_sha256' => 'a' * 64 }
   target = { 'source_sha256' => 'a' * 64, 'path' => 'target',
@@ -60,13 +97,9 @@ end
 mapped = reviews.fetch('inventory_mappings')
 if reviews.key?('carries_forward')
   carry_name = reviews.fetch('carries_forward')
-  abort('invalid carried manifest') unless carry_name == 'review_records_phase2.json'
+  abort('invalid carried manifest') unless %w[review_records_phase2.json review_records_phase3.json].include?(carry_name)
   carry = JSON.parse(File.read(File.join(__dir__, carry_name)))
-  abort('carried mapping changed or disappeared') unless carry.fetch('added_inventory_mappings').all? do |path, properties|
-    mapped[path] == properties
-  end
-  abort('carried external reading disappeared') unless
-    (carry.fetch('added_external_sources_read_completely') - reviews.fetch('external_sources_read_completely')).empty?
+  check_carried_review(mapped, reviews, carry)
   review_paths << carry_name
 end
 abort('a mapped proof is outside the declared inventory') unless
