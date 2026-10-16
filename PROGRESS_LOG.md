@@ -21290,3 +21290,15 @@ PHASE6_DESIGN precedes metadata changes; expected65direct/three aliases/
 117pending awaits reconciliation. Current certified coverage57/3/125
 unchanged. No scientific imports, execution or independent acceptance;
 physical field, true trace/end law and full goal remain unachieved.
+
+Phase6 metadata source prepared after committed design15d2e6333. Eight
+new proof mappings carry every phase5 property/alias/stored role/external
+reading; only phase5 added to immediate carry whitelist. No external
+reading double count. Full boundary_lift and boundary_index proofs reread
+and retained in the crosswalk: unchanged old reference fails angular
+admission, different supplied local pairing passes, its coefficient-blind
+compact class has zero net index; other boundary hypotheses not excluded.
+Expected65direct/three aliases/117pending awaits original controls and
+185blob reconciliation. No scientific code imported or executed, no new
+physical end law or independent analytic acceptance. Exact source pins,
+commit and push precede metadata controls; all failures will be preserved.

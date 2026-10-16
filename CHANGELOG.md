@@ -1,5 +1,12 @@
 # Changelog
 
+Phase6 source prepared after design15d2e6333: eight additional proof mappings,
+complete phase5 carry, unchanged aliases/external readings. Expected65direct/
+three aliases/117pending awaits controls. Crosswalk now also retains the
+already mapped full-angular alternative and its coefficient-blind zero-index
+scope, not an obsolete wholly-open boundary lift. No scientific execution
+or physical domain selection; source pins and publication precede controls.
+
 Phase5 publication1e8dd8d22 pushed/server-confirmed. Staged precheck29PASS/
 one historical sealFAIL643paths,18379tracked/index/29pins unchanged; raw
 captures retained for separate custody publication. Eight further end/

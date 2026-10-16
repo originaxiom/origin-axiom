@@ -132,6 +132,18 @@ passing later safeguard does not erase the failure. A relative phase
 with another reference is a different proposal needing its own map and
 behavior at zeros, not disproved by this normal model alone.
 
+The already mapped `weave_boundary_lift` and `weave_boundary_index`
+proofs were reread in full for the later continuation. They do not leave
+all angular admission untested: the unchanged normal reference fails the
+full principal condition, while a different supplied local slot-mixing
+boundary descends through spin and reality and passes that condition.
+Its coefficient-blind compact realization has zero representation-resolved
+net index by a fixed-domain homotopy and the physical transpose map.
+Neither result transfers the old normal spectrum to the new boundary.
+The representation-sensitive winding example explicitly changes a
+hypothesis and still requires a generating action and its physical index.
+These two existing mappings are not counted again in this continuation.
+
 ## Symbolic recurrence is not a complete physical end law
 
 `cusp_negative_audit_2026_10_09/PROOF.md` distinguishes the exact finite
