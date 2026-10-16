@@ -1,0 +1,29 @@
+{
+  "grade": "Complete proof source readings and dependency mappings; not complete packet re-audits, new executions or independent analytic acceptance.",
+  "inventory_mappings": {
+    "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_PROOF.md": ["Unoriented peripheral class"],
+    "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PROOF.md": ["Registered local variational structure"],
+    "reports/physical_bridge_2026_09_05/TRACE_PARENT_PROOF.md": ["Registered local variational structure", "Compact E8 gauge frame and complete charged roster"],
+    "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md": ["Three parity quaternion doublets", "Compact E8 gauge frame and complete charged roster"],
+    "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md": ["Compact E8 gauge frame and complete charged roster", "Physical kinetic operator and twist"],
+    "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md": ["Three parity quaternion doublets", "Compact E8 gauge frame and complete charged roster"],
+    "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md": ["Physical kinetic operator and twist"],
+    "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md": ["Physical kinetic operator and twist"],
+    "reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/PROOF.md": ["Boundary variation of the interacting source"],
+    "reports/genesis_root_review_2026_10_11/puncture_symmetry/PROOF.md": ["Graded self-adjoint domain", "Symmetry constraints on the domain"]
+  },
+  "external_source_head": "562882d15",
+  "external_sources_read_completely": [
+    "frontier/B1606_three_on_the_weave_graded/FINDINGS.md",
+    "frontier/B1606_three_on_the_weave_graded/verification/puncture_condition.py",
+    "tests/test_b1606_three_on_the_weave_graded.py",
+    "frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+    "frontier/B1641_w46_on_main_and_the_two_objects/ADDENDUM_2026-10-14_scoped_at_review_63.md",
+    "frontier/B1641_w46_on_main_and_the_two_objects/verification/w46_on_main.py",
+    "tests/test_b1641_w46_on_main_and_the_two_objects.py",
+    "frontier/B1667_the_canonical_cusp/FINDINGS.md",
+    "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_THE_CANONICAL_CUSP.md"
+  ],
+  "crosswalk": "PUNCTURE_SOURCE_CROSSWALK_2026_10_16.md",
+  "historical_deleted_and_findings_only_coverage": "NOT YET RECONCILED; this initial population is not the complete research census"
+}

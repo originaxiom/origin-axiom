@@ -9258,3 +9258,9 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-10-16 | POST-HOC execution repair BEFORE successor collection | `reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/EXECUTION_REPAIR.md` | `7fcb186fc51ab4350638fa2ab6a77628ff977cbf6b18090658585b9ee4d01aa6` | Original16 pins unchanged; existing scientific environment, no dependency overlay, collision-safe metadata output. Failed first captures retained with custody. EXECUTION_INPUTS pins instrument; author review only, no new science. |
+
+## Imported cross-branch citation corrected before final maintenance capture
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | POST-HOC publication path repair BEFORE successor capture | `reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/PUBLICATION_PATH_REPAIR.md` | `3ed90038de32cb31d62b642c353d3cf7820090b54058d3a5529e0b440bf83c9b` | Main-only reference now pinned to actual main object; original rows and failed run preserved. Original16 science/test/checker and4execution pins unchanged; author review, not new science. |

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "<existing-python-environment>/bin/python3",
+    "-B",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 60.704125999996904,
+  "log_bytes": 2032,
+  "log_sha256": "bdb410bf5fffb4bf5880c1de933965ae39a8f95408641645cd226b7709ac72d7"
+}

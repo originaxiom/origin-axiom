@@ -2,10 +2,12 @@
 require 'json'
 require 'digest'
 
-first_arg, successor_arg, dest = ARGV
-abort('Usage: validate_capture.rb FIRST_PRIVATE SUCCESSOR_PRIVATE NEW_SUMMARY') unless ARGV.size == 3
+first_arg, successor_arg, dest, successor_name = ARGV
+abort('Usage: validate_capture.rb FIRST_PRIVATE SUCCESSOR_PRIVATE NEW_SUMMARY [PUBLIC_CAPTURE_NAME]') unless [3, 4].include?(ARGV.size)
+successor_name ||= 'successor'
+abort('invalid capture name') unless %w[successor ledger_attempt corrected].include?(successor_name)
 abort('refusing overwrite') if File.exist?(dest)
-roots = { 'first_attempt' => File.realpath(first_arg), 'successor' => File.realpath(successor_arg) }
+roots = { 'first_attempt' => File.realpath(first_arg), successor_name => File.realpath(successor_arg) }
 checks = {}
 roots.each do |name, root|
   public_root = File.join(__dir__, 'results', name)
@@ -30,6 +32,14 @@ roots.each do |name, root|
     abort('raw log/receipt mismatch') unless File.size(log) == receipt.fetch('log_bytes') &&
       Digest::SHA256.file(log).hexdigest == receipt.fetch('log_sha256') &&
       receipt['signal'].nil? && receipt.fetch('exit_code') == run.fetch('exit_codes').fetch(stem)
+    if stem == 'focused'
+      expected = ['-B', '-m', 'pytest', '-q', '--noconftest', '-p', 'no:cacheprovider', '-o', 'addopts=',
+        'tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain',
+        'tests/test_physical_bridge_family_domain.py::test_delegated_sealed_lock_rejects_changed_computed_result',
+        'tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives',
+        'tests/test_physical_bridge_quantum_shift.py::test_mass_derivative_predicate_has_positive_and_rejecting_controls']
+      abort('selected test command differs') unless receipt.fetch('command').drop(1) == expected
+    end
   end
   governance = File.read(File.join(root, 'governance.log'))
   checks[name] = { 'source_head' => run.fetch('source_head'), 'source_pins' => run.fetch('pins'),
@@ -40,12 +50,14 @@ roots.each do |name, root|
     'full_suite_run' => false, 'physical_goal_achieved' => false }
 end
 first_inventory = JSON.parse(File.read(File.join(roots.fetch('first_attempt'), 'INVENTORY.json')))
-inventory = JSON.parse(File.read(File.join(roots.fetch('successor'), 'metadata_payload.json')))
+inventory = JSON.parse(File.read(File.join(roots.fetch(successor_name), 'metadata_payload.json')))
 abort('metadata populations changed') unless first_inventory == inventory
 abort('first collection failure not retained') unless File.read(File.join(roots.fetch('first_attempt'), 'focused.log')).include?("No module named 'scipy'")
 abort('first case collision not retained') unless File.read(File.join(roots.fetch('first_attempt'), 'inventory.capture.stderr.log')).include?('Errno::EEXIST')
-focused = File.read(File.join(roots.fetch('successor'), 'focused.log'))
-abort('selected regression did not complete as designed') unless focused.match?(/^12 passed in [0-9.]+s$/)
+focused = File.read(File.join(roots.fetch(successor_name), 'focused.log'))
+abort('selected regression did not complete as designed') unless focused.match?(/^12 passed in [0-9.]+s(?: \([0-9:]+\))?$/)
+abort('targeted regression, metadata or vacuity still fails') unless
+  %w[focused metadata_capture vacuity].all? { |name| checks.fetch(successor_name).fetch('exit_codes').fetch(name) == 0 }
 inputs = JSON.parse(File.read(File.join(__dir__, 'INPUTS.json')))
 abort('current original source pins changed') unless inputs.fetch('source_files').all? do |row|
   Digest::SHA256.file(File.join(File.expand_path('../../..', __dir__), row.fetch('path'))).hexdigest == row.fetch('sha256')

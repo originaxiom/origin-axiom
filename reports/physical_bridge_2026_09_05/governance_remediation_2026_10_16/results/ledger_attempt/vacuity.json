@@ -1,0 +1,12 @@
+{
+  "command": [
+    "<existing-python-environment>/bin/python3",
+    "-B",
+    "scripts/checks/check_test_vacuity.py"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 8.398251999999047,
+  "log_bytes": 130,
+  "log_sha256": "0b6c8029b6a4835f0813026cb528e36210d7fb0c3d89b25ec9c88f8f732bba53"
+}

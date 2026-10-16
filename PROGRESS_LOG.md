@@ -20907,3 +20907,30 @@ be mapped to the actual operator's critical quotient. No numerical
 replication or physical hierarchy verdict claimed. Goal ACTIVE, mission
 front doors current; no new science, full-suite/nonauthor/recipient/main
 acceptance, full specification completion or physical SM/TOE.
+
+October16 specification coverage reconciled at source-reading grade:
+10 complete initial proof readings mapped to required properties,175
+initial proof rows still pending; nine additional main dependency
+sources read, zero complete packet re-audits claimed. Metadata script
+checks every original185blob and pins the main-source objects; original
+inventory unchanged. Historical/deleted/findings-only coverage remains
+unreconciled, not a complete research census or minimum premise count.
+PUNCTURE_SOURCE_CROSSWALK reads actual B1606/B1641 code/tests and scope
+addendum: numerical matrix evidence and imported index formula are not
+the same as a fresh exact/analytic operator map. Preserve both the
+move-only two-plus-four and stronger conditional parity-graded extreme
+positive; the physical requirement to preserve grading is the duty.
+
+Post-ledger at published34459b80cdc2482268c875fb7f62a3f8e2508b2c:
+targeted12PASS62.67s, original16pins/18104tracked/index unchanged;
+relay-debt PASS,44banked/26declined/164open. Full governance27PASS/
+threeFAIL because a NEW local path-refs defect accompanies attribution/
+provenance: canonical main row import names a main-only released-packet
+path. Full capture and LEDGER_VALIDATION retained, not inherited-only.
+Presentation now uses its actual pinned main permalink, source rows
+unchanged in reconciliation evidence; no fake local file or waiver.
+PUBLICATION_PATH_REPAIR reviewed/sealed before fresh capture; original
+16science/test/checker and4execution pins match. No empirical premise,
+new scientific experiment, main acceptance, end selection or full TOE.
+Specification-first goal remains ACTIVE; two exact policy/history
+questions with main and actual induced puncture trace action stay open.

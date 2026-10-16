@@ -92,3 +92,20 @@ induced action on this operator's asymptotic trace quotient, with its
 coordinate/spin lift, Green pairing and domain. A matching coefficient
 dimension or representation name does not pay that map. No conclusion
 about one operator, cut or supplied parent kills the architecture.
+
+## Subsequent source and maintenance checkpoint
+
+PUNCTURE_SOURCE_CROSSWALK_2026_10_16.md now reads B1606/B1641 producing
+code and both tests. It also retains B1606 P4: adding parity signs gives
+the stronger extreme-only result. That conditional positive is not
+discarded by the two-plus-four move-only pointer. Which transformations
+a physical end must preserve remains a derivation duty. NumPy/SVD and
+stored-result versus live test reach are recorded without refuting the
+decomposition. Ten initial proof sources are property-mapped, 175 still
+pending; nine main dependency artifacts read, not full packet acceptance.
+
+Post-ledger capture at34459b80c:12 selected PASS62.67s, relay-debt PASS;
+new local path-refs failure introduced by the main-only citation is
+preserved and repaired to an actual pinned main permalink. Source rows
+remain byte-faithful in RELAY_RECONCILIATION.json. A fresh repaired-state
+capture follows, not an inherited-only or repository-green claim.

@@ -1,5 +1,18 @@
 # Changelog
 
+October16 specification source crosswalk:10 initial proof readings now
+property-mapped,175 initial rows PENDING, nine additional main sources
+read, no complete packet re-audit/history census claimed. B1606's
+two-plus-four move action AND parity-graded extreme positive preserved;
+producer/test reach distinguished from actual operator-domain action.
+At34459b80c targeted12PASS62.67s,16pins/18104tracked/index unchanged,
+relay-debt PASS; full governance caught NEW path-refs defect introduced
+by copied main-only citation. Full attempt retained; display repaired
+to pinned main permalink, original source rows/hashes unchanged.
+Publication repair sealed before next capture; no source, gate, baseline
+or physics criterion changed. Actual governance still requires fresh
+check; policy/history and physical end-admissibility remain open.
+
 October16 maintenance successor at published235539458:12 targeted tests
 PASS38.00s, original16 pins/18074tracked/index unchanged; unchanged
 vacuity checker PASS. Full governance27PASS/threeFAIL; remaining actual

@@ -18,8 +18,17 @@ copies and capture/received directories. There are 166 physical-branch
 and 19 fork proof artifacts, grouped provisionally into 181 path groups.
 The group names are navigation keys, not an established packet census.
 
-Every inventory row is PENDING reconciliation. The first nine property
-rows below do not complete any population-wide review. Results recorded
+Every row in that initial immutable inventory starts PENDING. The first
+reconciliation is now in
+[reconciliation_2026_10_16.json](specification_audit_2026_10_16/reconciliation_2026_10_16.json):
+ten complete proof readings mapped to the property rows below, 175 initial
+rows still pending, plus nine personally read main dependency artifacts.
+This is source-reading coverage, not ten complete packet re-audits or
+fresh scientific executions. Source blobs and hashes are checked by the
+metadata-only reconcile_coverage.rb; the original inventory is retained.
+
+The first nine property rows below do not complete any population-wide
+review. Results recorded
 only in FINDINGS or legacy reports, historical/deleted paths, additional
 proof naming conventions, and the copied upstream dependencies still
 need explicit coverage. No absence or logically minimal input-count
@@ -73,6 +82,14 @@ On the audit fork, relative to reports/genesis_root_review_2026_10_11:
   to be the action asked for in main's P-184.
 
 ## Next dependency work
+
+The new [puncture source crosswalk](PUNCTURE_SOURCE_CROSSWALK_2026_10_16.md)
+personally reads main B1606/B1641's producing code and actual test reach.
+It preserves both the two-plus-four move-only result and the stronger
+conditional parity-graded extreme result; neither is the unanswered
+physical admissibility condition. Main562882d15's B1667 canonical-cusp
+findings are read, not replayed, with its grid and physical-cut limitations.
+The induced operator-trace map is the target, not another decomposition.
 
 Associate every population item with property rows and its actual test
 locks; separate shared premises from genuinely independent inputs. Read

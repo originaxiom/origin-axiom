@@ -105,3 +105,20 @@ index possibilities versus a selected domain, and domain Lambda versus
 I-31's field postulate. New experiments wait for actual governance
 resolution. No full-suite, independent analytic, main/recipient or
 physical completion is claimed.
+
+## Post-ledger verification and the introduced reference defect
+
+At published 34459b80c the same12 selected tests pass in62.67s; original16
+pins/18104tracked/index unchanged. Relay debt now passes, retaining164
+OPEN scientific asks and importing26 main transmission declines without
+turning them into mathematical negatives. The full governance run is
+still27PASS/threeFAIL because it catches a NEW path-refs defect as well
+as attribution/provenance: the copied main notes named a main-only
+released-packet file as a local path. This is ours, not inherited.
+
+The complete capture and LEDGER_VALIDATION.json retain that failure.
+PUBLICATION_PATH_REPAIR.md discloses the pre-successor fix: canonical
+main citations now point to their actual pinned main commit, while full
+original rows stay in the reconciliation evidence. No fake local file,
+gate waiver, source deletion or silent history rewrite is used. A fresh
+capture on the published repaired state is still required.
