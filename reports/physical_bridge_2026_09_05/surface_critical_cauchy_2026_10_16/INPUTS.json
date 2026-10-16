@@ -151,12 +151,16 @@
       "sha256": "a9cc031d239410eee382f750a834013c3105c3083829f28f6ecc4dcb23c9101c"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/POST_HOC_REPAIR.md",
+      "sha256": "9419abdae878ad1143dd057316c72b21a774193e1d5cae051616da97e0d42cf3"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/PROOF.md",
       "sha256": "5c6c8f8bd5708f3fb6fb98d6d36fe6e80f46fbae1041a252e9a5a6c1dd82f4eb"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/analysis.py",
-      "sha256": "b2e31eb12bcecaad712378b393c99007b5a5fa4d7aec42043ef791d0b3907d2a"
+      "sha256": "0e7488222b5f2397db4f6d573a007688f6a00a131fb5dfd174f5c295fc7e2548"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/execute.py",

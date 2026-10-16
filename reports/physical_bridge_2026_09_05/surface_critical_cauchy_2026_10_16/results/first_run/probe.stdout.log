@@ -1,0 +1,1255 @@
+{
+  "checks": {
+    "every saved matrix and metadata reconstructed exactly": true,
+    "complete fundamental residual 1": true,
+    "all four Green pairings and actual inverse 1": true,
+    "log solution from independent reduction and determinant 1": true,
+    "both full trace planes and Green nullness 1": true,
+    "background dependent projector and derivative current 1": true,
+    "log scale change only adds regular seed 1": true,
+    "all L2 and nonL2 leading columns preserved 1": true,
+    "negative controls full backreaction Higgs leading only 1": true,
+    "nonL2 and missing log controls fire 1": true,
+    "Volterra derivative identity full nonzero momentum 1": true,
+    "complete fundamental residual 2": true,
+    "all four Green pairings and actual inverse 2": true,
+    "log solution from independent reduction and determinant 2": true,
+    "both full trace planes and Green nullness 2": true,
+    "background dependent projector and derivative current 2": true,
+    "log scale change only adds regular seed 2": true,
+    "all L2 and nonL2 leading columns preserved 2": true,
+    "negative controls full backreaction Higgs leading only 2": true,
+    "nonL2 and missing log controls fire 2": true,
+    "Volterra derivative identity full nonzero momentum 2": true,
+    "all singleton terms diagonal not mistaken free (0, 1, 1, -1, -1)": true,
+    "complete singleton fundamental and Green (0, 1, 1, -1, -1)": true,
+    "singleton complete allowed trace for both signs (0, 1, 1, -1, -1)": true,
+    "all singleton terms diagonal not mistaken free (0, 1, 1, 1, 1)": true,
+    "complete singleton fundamental and Green (0, 1, 1, 1, 1)": true,
+    "singleton complete allowed trace for both signs (0, 1, 1, 1, 1)": true,
+    "all singleton terms diagonal not mistaken free (0, 1, -1, -1, -1)": true,
+    "complete singleton fundamental and Green (0, 1, -1, -1, -1)": true,
+    "singleton complete allowed trace for both signs (0, 1, -1, -1, -1)": true,
+    "all singleton terms diagonal not mistaken free (0, 1, -1, 1, 1)": true,
+    "complete singleton fundamental and Green (0, 1, -1, 1, 1)": true,
+    "singleton complete allowed trace for both signs (0, 1, -1, 1, 1)": true,
+    "all singleton terms diagonal not mistaken free (0, -1, 1, -1, 1)": true,
+    "complete singleton fundamental and Green (0, -1, 1, -1, 1)": true,
+    "singleton complete allowed trace for both signs (0, -1, 1, -1, 1)": true,
+    "all singleton terms diagonal not mistaken free (0, -1, 1, 1, -1)": true,
+    "complete singleton fundamental and Green (0, -1, 1, 1, -1)": true,
+    "singleton complete allowed trace for both signs (0, -1, 1, 1, -1)": true,
+    "all singleton terms diagonal not mistaken free (0, -1, -1, -1, 1)": true,
+    "complete singleton fundamental and Green (0, -1, -1, -1, 1)": true,
+    "singleton complete allowed trace for both signs (0, -1, -1, -1, 1)": true,
+    "all singleton terms diagonal not mistaken free (0, -1, -1, 1, -1)": true,
+    "complete singleton fundamental and Green (0, -1, -1, 1, -1)": true,
+    "singleton complete allowed trace for both signs (0, -1, -1, 1, -1)": true,
+    "all singleton terms diagonal not mistaken free (1, 1, 1, -2, 1)": true,
+    "complete singleton fundamental and Green (1, 1, 1, -2, 1)": true,
+    "singleton complete allowed trace for both signs (1, 1, 1, -2, 1)": true,
+    "actual entire coupled block (1, 1, 1, 0, -1)": true,
+    "both actual critical signs retained (1, 1, 1, 0, -1)": true,
+    "all singleton terms diagonal not mistaken free (1, 1, 1, 2, 1)": true,
+    "complete singleton fundamental and Green (1, 1, 1, 2, 1)": true,
+    "singleton complete allowed trace for both signs (1, 1, 1, 2, 1)": true,
+    "all singleton terms diagonal not mistaken free (1, 1, -1, -2, 1)": true,
+    "complete singleton fundamental and Green (1, 1, -1, -2, 1)": true,
+    "singleton complete allowed trace for both signs (1, 1, -1, -2, 1)": true,
+    "actual entire coupled block (1, 1, -1, 0, -1)": true,
+    "both actual critical signs retained (1, 1, -1, 0, -1)": true,
+    "all singleton terms diagonal not mistaken free (1, 1, -1, 2, 1)": true,
+    "complete singleton fundamental and Green (1, 1, -1, 2, 1)": true,
+    "singleton complete allowed trace for both signs (1, 1, -1, 2, 1)": true,
+    "all singleton terms diagonal not mistaken free (1, -1, 1, -2, -1)": true,
+    "complete singleton fundamental and Green (1, -1, 1, -2, -1)": true,
+    "singleton complete allowed trace for both signs (1, -1, 1, -2, -1)": true,
+    "actual entire coupled block (1, -1, 1, 0, 1)": true,
+    "both actual critical signs retained (1, -1, 1, 0, 1)": true,
+    "all singleton terms diagonal not mistaken free (1, -1, 1, 2, -1)": true,
+    "complete singleton fundamental and Green (1, -1, 1, 2, -1)": true,
+    "singleton complete allowed trace for both signs (1, -1, 1, 2, -1)": true,
+    "all singleton terms diagonal not mistaken free (1, -1, -1, -2, -1)": true,
+    "complete singleton fundamental and Green (1, -1, -1, -2, -1)": true,
+    "singleton complete allowed trace for both signs (1, -1, -1, -2, -1)": true,
+    "actual entire coupled block (1, -1, -1, 0, 1)": true,
+    "both actual critical signs retained (1, -1, -1, 0, 1)": true,
+    "all singleton terms diagonal not mistaken free (1, -1, -1, 2, -1)": true,
+    "complete singleton fundamental and Green (1, -1, -1, 2, -1)": true,
+    "singleton complete allowed trace for both signs (1, -1, -1, 2, -1)": true,
+    "all singleton terms diagonal not mistaken free (2, -1, 1, -3, 1)": true,
+    "complete singleton fundamental and Green (2, -1, 1, -3, 1)": true,
+    "singleton complete allowed trace for both signs (2, -1, 1, -3, 1)": true,
+    "actual entire coupled block (2, -1, 1, -1, -1)": true,
+    "both actual critical signs retained (2, -1, 1, -1, -1)": true,
+    "actual entire coupled block (2, -1, 1, 1, 1)": true,
+    "both actual critical signs retained (2, -1, 1, 1, 1)": true,
+    "all singleton terms diagonal not mistaken free (2, -1, 1, 3, -1)": true,
+    "complete singleton fundamental and Green (2, -1, 1, 3, -1)": true,
+    "singleton complete allowed trace for both signs (2, -1, 1, 3, -1)": true,
+    "all singleton terms diagonal not mistaken free (2, -1, -1, -3, 1)": true,
+    "complete singleton fundamental and Green (2, -1, -1, -3, 1)": true,
+    "singleton complete allowed trace for both signs (2, -1, -1, -3, 1)": true,
+    "actual entire coupled block (2, -1, -1, -1, -1)": true,
+    "both actual critical signs retained (2, -1, -1, -1, -1)": true,
+    "actual entire coupled block (2, -1, -1, 1, 1)": true,
+    "both actual critical signs retained (2, -1, -1, 1, 1)": true,
+    "all singleton terms diagonal not mistaken free (2, -1, -1, 3, -1)": true,
+    "complete singleton fundamental and Green (2, -1, -1, 3, -1)": true,
+    "singleton complete allowed trace for both signs (2, -1, -1, 3, -1)": true,
+    "all critical sector types and full multiplicities retained": true,
+    "rational column majorants for whole interval": true,
+    "exact Volterra integral bound not sampled grid": true,
+    "majorant lowered below true vector fails": true,
+    "Neumann tail and all finite momentum small radius": true,
+    "same actual E8 triplet and source dictionary": true,
+    "full nonlinear angular BPS tangent not leading only": true,
+    "full actual 48component nonlinear tangent radial residual": true,
+    "full source Majorana of BPS tangent": true,
+    "actual full BPS profile in charged block (1, 1, 1)": true,
+    "actual full BPS profile in charged block (1, 1, -1)": true,
+    "actual full BPS profile in charged block (1, 2, 1)": true,
+    "actual full BPS profile in charged block (1, 2, -1)": true,
+    "actual full BPS profile in charged block (-1, 3, 1)": true,
+    "actual full BPS profile in charged block (-1, 3, -1)": true,
+    "actual full BPS profile in charged block (-1, 4, 1)": true,
+    "actual full BPS profile in charged block (-1, 4, -1)": true,
+    "all spin blocks reconstruct full actual BPS source": true
+  },
+  "records": {
+    "canonical": {
+      "1": {
+        "fundamental": [
+          [
+            "(2*x**2*log(x) - 2*x**2 + 1)/(x*(1 - x**2)**(3/2))",
+            "-x/(1 - x**2)**(3/2)",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "x/sqrt(1 - x**2)",
+            "x*(-x**2 + 2*log(x))/sqrt(1 - x**2)"
+          ],
+          [
+            "0",
+            "0",
+            "x**2/sqrt(1 - x**2)",
+            "(2*x**2*log(x) - 2*x**2 + 1)/sqrt(1 - x**2)"
+          ],
+          [
+            "(x**2 - 2*log(x))/(1 - x**2)**(3/2)",
+            "(1 - x**2)**(-3/2)",
+            "0",
+            "0"
+          ]
+        ],
+        "green_gram": [
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "sigma_plus_projector": [
+          [
+            "x**2/(x**2 + 1)",
+            "0",
+            "0",
+            "-x/(x**2 + 1)"
+          ],
+          [
+            "0",
+            "1/(x**2 + 1)",
+            "x/(x**2 + 1)",
+            "0"
+          ],
+          [
+            "0",
+            "x/(x**2 + 1)",
+            "x**2/(x**2 + 1)",
+            "0"
+          ],
+          [
+            "-x/(x**2 + 1)",
+            "0",
+            "0",
+            "1/(x**2 + 1)"
+          ]
+        ],
+        "sigma_minus_projector": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "2": {
+        "fundamental": [
+          [
+            "(-x**4 + 4*x**2*log(x) - 4*x**2 + 1)/(x*(x**2 - 1)**2)",
+            "-sqrt(2)*x/(x**2 - 1)**2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "(-x**3 - x)/(x**2 - 1)",
+            "2*sqrt(2)*x*(2*x**2 - (x**2 + 1)*log(x))/(x**2 - 1)"
+          ],
+          [
+            "0",
+            "0",
+            "-sqrt(2)*x**2/(x**2 - 1)",
+            "(x**4 - 4*x**2*log(x) + 4*x**2 - 1)/(x**2 - 1)"
+          ],
+          [
+            "2*sqrt(2)*(2*x**2 - (x**2 + 1)*log(x))/(x**2 - 1)**2",
+            "(x**2 + 1)/(x**2 - 1)**2",
+            "0",
+            "0"
+          ]
+        ],
+        "green_gram": [
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "sigma_plus_projector": [
+          [
+            "2*x**2/(x**4 + 4*x**2 + 1)",
+            "0",
+            "0",
+            "-sqrt(2)*x*(x**2 + 1)/(x**4 + 4*x**2 + 1)"
+          ],
+          [
+            "0",
+            "(x**4 + 2*x**2 + 1)/(x**4 + 4*x**2 + 1)",
+            "sqrt(2)*x*(x**2 + 1)/(x**4 + 4*x**2 + 1)",
+            "0"
+          ],
+          [
+            "0",
+            "sqrt(2)*x*(x**2 + 1)/(x**4 + 4*x**2 + 1)",
+            "2*x**2/(x**4 + 4*x**2 + 1)",
+            "0"
+          ],
+          [
+            "-sqrt(2)*x*(x**2 + 1)/(x**4 + 4*x**2 + 1)",
+            "0",
+            "0",
+            "(x**4 + 2*x**2 + 1)/(x**4 + 4*x**2 + 1)"
+          ]
+        ],
+        "sigma_minus_projector": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      }
+    },
+    "all_blocks": [
+      {
+        "key": [
+          0,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "x",
+            "0"
+          ],
+          [
+            "0",
+            "1/x"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": false
+      },
+      {
+        "key": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1/x",
+            "0"
+          ],
+          [
+            "0",
+            "x"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": false
+      },
+      {
+        "key": [
+          0,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "x",
+            "0"
+          ],
+          [
+            "0",
+            "1/x"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": false
+      },
+      {
+        "key": [
+          0,
+          1,
+          -1,
+          1,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1/x",
+            "0"
+          ],
+          [
+            "0",
+            "x"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": false
+      },
+      {
+        "key": [
+          0,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": false
+      },
+      {
+        "key": [
+          0,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": false
+      },
+      {
+        "key": [
+          0,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": false
+      },
+      {
+        "key": [
+          0,
+          -1,
+          -1,
+          1,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": false
+      },
+      {
+        "key": [
+          1,
+          1,
+          1,
+          -2,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1/sqrt(1 - x**2)",
+            "0"
+          ],
+          [
+            "0",
+            "sqrt(1 - x**2)"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          1,
+          1,
+          1,
+          0,
+          -1
+        ],
+        "kind": "coupled4",
+        "map": [
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "horizontal_sign": 1,
+        "current_sign": 1
+      },
+      {
+        "key": [
+          1,
+          1,
+          1,
+          2,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "sqrt(1 - x**2)/x",
+            "0"
+          ],
+          [
+            "0",
+            "x/sqrt(1 - x**2)"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          1,
+          1,
+          -1,
+          -2,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1/sqrt(1 - x**2)",
+            "0"
+          ],
+          [
+            "0",
+            "sqrt(1 - x**2)"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          1,
+          1,
+          -1,
+          0,
+          -1
+        ],
+        "kind": "coupled4",
+        "map": [
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "horizontal_sign": -1,
+        "current_sign": 1
+      },
+      {
+        "key": [
+          1,
+          1,
+          -1,
+          2,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "sqrt(1 - x**2)/x",
+            "0"
+          ],
+          [
+            "0",
+            "x/sqrt(1 - x**2)"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          1,
+          -1,
+          1,
+          -2,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "x/sqrt(1 - x**2)",
+            "0"
+          ],
+          [
+            "0",
+            "sqrt(1 - x**2)/x"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          1,
+          -1,
+          1,
+          0,
+          1
+        ],
+        "kind": "coupled4",
+        "map": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "horizontal_sign": 1,
+        "current_sign": 1
+      },
+      {
+        "key": [
+          1,
+          -1,
+          1,
+          2,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "sqrt(1 - x**2)",
+            "0"
+          ],
+          [
+            "0",
+            "1/sqrt(1 - x**2)"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          1,
+          -1,
+          -1,
+          -2,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "x/sqrt(1 - x**2)",
+            "0"
+          ],
+          [
+            "0",
+            "sqrt(1 - x**2)/x"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          1,
+          -1,
+          -1,
+          0,
+          1
+        ],
+        "kind": "coupled4",
+        "map": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "horizontal_sign": -1,
+        "current_sign": 1
+      },
+      {
+        "key": [
+          1,
+          -1,
+          -1,
+          2,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "sqrt(1 - x**2)",
+            "0"
+          ],
+          [
+            "0",
+            "1/sqrt(1 - x**2)"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          2,
+          -1,
+          1,
+          -3,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "-1/(x**2 - 1)",
+            "0"
+          ],
+          [
+            "0",
+            "1 - x**2"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          2,
+          -1,
+          1,
+          -1,
+          -1
+        ],
+        "kind": "coupled4",
+        "map": [
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "horizontal_sign": 1,
+        "current_sign": 1
+      },
+      {
+        "key": [
+          2,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "kind": "coupled4",
+        "map": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "horizontal_sign": 1,
+        "current_sign": 1
+      },
+      {
+        "key": [
+          2,
+          -1,
+          1,
+          3,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1 - x**2",
+            "0"
+          ],
+          [
+            "0",
+            "-1/(x**2 - 1)"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          2,
+          -1,
+          -1,
+          -3,
+          1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "-1/(x**2 - 1)",
+            "0"
+          ],
+          [
+            "0",
+            "1 - x**2"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            1
+          ],
+          "-1": [
+            0
+          ]
+        },
+        "cartan_not_free": true
+      },
+      {
+        "key": [
+          2,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "kind": "coupled4",
+        "map": [
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "horizontal_sign": -1,
+        "current_sign": 1
+      },
+      {
+        "key": [
+          2,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "kind": "coupled4",
+        "map": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "horizontal_sign": -1,
+        "current_sign": 1
+      },
+      {
+        "key": [
+          2,
+          -1,
+          -1,
+          3,
+          -1
+        ],
+        "kind": "singleton2",
+        "fundamental": [
+          [
+            "1 - x**2",
+            "0"
+          ],
+          [
+            "0",
+            "-1/(x**2 - 1)"
+          ]
+        ],
+        "allowed_columns": {
+          "1": [
+            0
+          ],
+          "-1": [
+            1
+          ]
+        },
+        "cartan_not_free": true
+      }
+    ],
+    "coefficient_directions": 3968,
+    "volterra": {
+      "interval": "0<x<=a<=1/4; 256|beta|a^2<1",
+      "bound": "(704/3)|beta|x^2 <256|beta|x^2",
+      "column_bounds": [
+        16,
+        4,
+        4,
+        8
+      ],
+      "envelopes": {
+        "doublet_v": "64/45",
+        "triplet_v": "16/9",
+        "doublet_regular_over_x": "4/3",
+        "triplet_regular_over_x": "5/3",
+        "doublet_log": "233/60",
+        "triplet_log": "1697/240"
+      },
+      "construction": "convergent integral series plus finite annular continuation; NOT numerical interval evaluation or uniform high-frequency estimate"
+    },
+    "tangent": {
+      "matched_source_blocks": 8,
+      "full_angular_radial_Majorana": true,
+      "sigma": 1,
+      "status": "local exact nonlinear BPS tangent; not a global physical particle"
+    },
+    "scope": {
+      "angular": "ALL28types at j=etaR/4, with regular partners; n!=0 not solved here",
+      "momentum": "all finite real via authored Volterra proof; explicit complete zero-momentum matrices",
+      "full_curved_boundary_action": false,
+      "full_physical_SM_three_gravity": false,
+      "shared_author_not_independent_acceptance": true
+    }
+  },
+  "all_passed": true
+}

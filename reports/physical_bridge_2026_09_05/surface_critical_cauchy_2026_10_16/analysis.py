@@ -7,7 +7,7 @@ def load(p,n):
     sp=importlib.util.spec_from_file_location(n,p);m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);return m
 def clean(z):return s.cancel(s.expand(z))
 def zero(M):return all(clean(z)==0 for z in M.todok().values())
-def enc(M):return [[str(s.simplify(z)) for z in row] for row in M.tolist()]
+def enc(M):return [[str(clean(z)) for z in row] for row in M.tolist()]
 def canonical(N,x,method):
     wgt=s.sqrt(2) if N==2 else s.Integer(1);ss=1-x*x
     v=s.Matrix([-x,1])/ss**s.Rational(3,2) if N==1 else s.Matrix([-s.sqrt(2)*x,1+x*x])/ss**2
