@@ -179,6 +179,22 @@ def test_exact_git_reference_passes_actual_gate_with_utf8_prefix(repo):
     assert len(policy.git_reference_spans(root, git, gates._VENDOR_RE)[row["path"]]) == 1
 
 
+def test_ref_name_can_use_another_capture_without_reconstructing_its_old_tip(repo):
+    root, git = repo
+    row, _ = ref_record(root, git)
+    span = row["refs"][0]
+    old = (root / row["path"]).read_bytes()
+    later = put(root, "fixture/later.txt", old)
+    span["evidence"].update(later)
+    literal = base64.b64decode(span["ref_b64"])
+    row.update(put(root, row["path"], b"Known reference: " + literal + b"\n"))
+    span.update(start=17, end=17 + len(literal))
+    write_policy(root, policy.REF_POLICY, [row])
+    ok, detail = gates.gate_attribution()
+    assert ok, detail
+    assert span["evidence"]["path"] != row["path"]
+
+
 @pytest.mark.parametrize("mutation", ["stale_file", "stale_evidence", "fake_commit", "wrong_commit",
     "bad_range", "range_too_wide", "overlap", "duplicate_file", "unbound_ref", "bad_ref_syntax"])
 def test_reference_exception_rejects_invalid_evidence(repo, mutation):

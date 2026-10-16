@@ -21075,3 +21075,21 @@ capture has no such corroboration in this adoption and remains unresolved.
 Attribution baseline and original sealed science/evidence unchanged. New
 policy/tests reject stale/unknown/malformed evidence rather than self-waive.
 No new scientific experiment, policy-green claim or campaign completion.
+
+Initial governance implementation38ff18ec4 published/server-confirmed
+before tests. Focused45PASS18.88s, then repeated within the completed
+before-snapshot envelope (45PASS15.72s); full governance28PASS/twoFAIL
+exit1/89.413564s. Complete before/after states identical:18261tracked
+files/index. First focused run overlapped the read-only initial snapshot,
+so the later repeat supplies the strict temporal envelope; neither result
+is discarded. Attribution now flags only FLAT_DOMAIN_PRIOR_FULL.txt.
+Seal report explicitly retains643failures:562unknown,76missing-field
+designs and five historical_noncompliant. Not whole-repository green.
+
+The remaining names have corroboration in the already-read frozen
+REGISTER_ACTION_PRIOR_SWEEP. Eight exact spans are added using those
+separate evidence lines and unique commit pins, without inferring any
+earlier FLAT capture tip, timing, count or population. Original policy
+and first captures remain in their source checkpoint. Same verifier,
+one additional cross-capture test, supplementary pins before execution.
+No new science, baseline waiver or historical-design compliance claim.

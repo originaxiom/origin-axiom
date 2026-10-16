@@ -1,5 +1,14 @@
 # Changelog
 
+Governance policy at38ff18ec4:45focused controls PASS18.88s and again
+15.72s inside the strict completed-snapshot envelope;18261tracked/index
+unchanged. Full precheck28PASS/twoFAIL89.413564s; attribution reduced
+to the name-only capture. Seal output retains643unresolved paths:
+562unclassified,76missing-field designs,five explicit historical violations.
+Supplement now binds the remaining eight ref names to a separate frozen
+sweep; it does not reconstruct earlier tips/timing. Verifier unchanged,
+one added cross-capture control awaits execution. Original captures kept.
+
 October16 owner explicitly approved evidence-preserving governance policy.
 Initial implementation, not yet test-certified: explicit hash-bound roles,
 unknown/historical violations fail; exact Git ref byte spans with captured

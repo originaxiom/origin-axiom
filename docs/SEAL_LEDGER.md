@@ -9270,3 +9270,9 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-10-16 | BEFORE first focused policy tests | `reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/DESIGN.md` | `dfd4df52c6290b52b907872c0ebdb3ec7402cbe92edafbeda9f6ca7462c4f1ca` | Owner-approved typed enforcement; historical violations remain failures. Only this design is a preregistration; INPUTS holds source pins. |
+
+## Cross capture reference names before maintenance verification
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | BEFORE supplementary focused tests | `reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/REFERENCE_SUPPLEMENT.md` | `453ef670c7f3304dc9a50361006dc9fec766a7d124f583d4b624e8ca36dc1740` | Existing pinned corroboration, not earlier tips/timing. INPUTS_SUPPLEMENT pins unchanged verifier and changed test/policy. |

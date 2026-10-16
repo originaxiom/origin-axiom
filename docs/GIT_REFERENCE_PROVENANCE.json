@@ -336,6 +336,116 @@
           }
         }
       ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PRIOR_FULL.txt",
+      "sha256": "70ef3a2d3f43fd7e9e6768106d41af49be02a26cf788a287e0d966c95766864a",
+      "refs": [
+        {
+          "start": 867,
+          "end": 898,
+          "ref_b64": "Y2xhdWRlL2RldGVybWluZWQtaG9wcGVyLXQxY21paQ==",
+          "commit": "7cda35aa468cdb0ab2886e379b13ff31130be460",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 2208,
+            "end": 2305,
+            "abbreviation": "7cda35aa4"
+          }
+        },
+        {
+          "start": 906,
+          "end": 934,
+          "ref_b64": "Y2xhdWRlL21hZ2ljYWwtd3JpZ2h0LXZ3cm10dA==",
+          "commit": "0043be2b95a51048b3a664789ede241497558e79",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 2484,
+            "end": 2581,
+            "abbreviation": "0043be2b9"
+          }
+        },
+        {
+          "start": 942,
+          "end": 967,
+          "ref_b64": "Y2xhdWRlL25ldy1zZXNzaW9uLXFvcjV1cA==",
+          "commit": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 2760,
+            "end": 2857,
+            "abbreviation": "3851df2aa"
+          }
+        },
+        {
+          "start": 975,
+          "end": 995,
+          "ref_b64": "Y2xhdWRlL291dHNpZGUtYmVuY2g=",
+          "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 2960,
+            "end": 3057,
+            "abbreviation": "13d2c5b63"
+          }
+        },
+        {
+          "start": 1004,
+          "end": 1043,
+          "ref_b64": "Y2xhdWRlL3BhcGVyLXJldmlldy12ZXJpZmljYXRpb24ta2F6M2Y1",
+          "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 3236,
+            "end": 3333,
+            "abbreviation": "5d58b935b"
+          }
+        },
+        {
+          "start": 1052,
+          "end": 1084,
+          "ref_b64": "Y2xhdWRlL3BhcGVyLXZlcmlmaWNhdGlvbi11ZnAwem4=",
+          "commit": "5dde7b3efe59ca2055de6b84395416d173b2e290",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 3512,
+            "end": 3609,
+            "abbreviation": "5dde7b3ef"
+          }
+        },
+        {
+          "start": 1092,
+          "end": 1129,
+          "ref_b64": "Y2xhdWRlL3BoeXNpY3Mtc2VhdC1ldmFsdWF0aW9uLThka2JybA==",
+          "commit": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 3788,
+            "end": 3885,
+            "abbreviation": "659487bbd"
+          }
+        },
+        {
+          "start": 1138,
+          "end": 1177,
+          "ref_b64": "Y2xhdWRlL3N0YW5kYXJkLW1vZGVsLWRlcml2YXRpb24tMHF0NmFv",
+          "commit": "5869a056398298b23f3aae62186728f271ea2060",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 4064,
+            "end": 4161,
+            "abbreviation": "5869a0563"
+          }
+        }
+      ]
     }
   ]
 }
