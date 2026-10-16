@@ -1,5 +1,11 @@
 # Changelog
 
+October16 owner approved separating prospective experiment admission from
+the preserved historical-noncompliance register. New maintenance design
+requires sealed exact sources, non-authoring review and receiver acceptance;
+ordinary global governance stays failing on historical violations. No new
+scientific experiment or retrospective compliance is authorized by this seal.
+
 Phase4 source d82351525 verified:11metadata controls,185pinned blobs PASS;
 49direct proof/property mappings,three checked byte aliases,133pending.
 Earlier phase3 result unchanged except checker hash;18303tracked/index and

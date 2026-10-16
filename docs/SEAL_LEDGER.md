@@ -9282,3 +9282,4 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-10-16 | BEFORE phase4 metadata controls/reconciliation | `reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/PHASE4_DESIGN.md` | `76bb8de831d051b013ef8d521e1a88ee5cdc417d474787f247816185366f678d` | Only this design is a preregistration; PHASE4_INPUTS pins metadata/source audit. Old scientific sources and live role policy unchanged. |
+| 2026-10-16 | prospective admission maintenance design | `reports/physical_bridge_2026_09_05/prospective_governance_2026_10_16/DESIGN.md` | `9e8e5e1a110da02a9a69c1f0ce0624e8bd1c37703374c76d305ab68386f94872` | Owner-approved separation; historical failures retained, independent review required. |
