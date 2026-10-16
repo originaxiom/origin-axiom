@@ -1,12 +1,21 @@
 """Actual source reverse supersymmetry and a boundary gauge partner."""
 import json,sys
 from pathlib import Path
+from functools import lru_cache
 import sympy as s
 HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2]
 import importlib.util
 def load(p,n):
     sp=importlib.util.spec_from_file_location(n,p);m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);return m
-def clean(z):return s.cancel(s.expand(z))
+_R=s.Symbol('r',positive=True);_U=s.Symbol('positive_sqrt_radius',positive=True)
+@lru_cache(100000)
+def clean(z):
+    z=s.sympify(z)
+    if z==0:return s.S.Zero
+    # Exact injective positive-radius coordinate, not a sampled radius.
+    # Avoid distributing every reciprocal denominator before collecting.
+    if z.has(_R):return s.cancel(z.subs(_R,_U**2)).subs(_U,s.sqrt(_R))
+    return s.cancel(z)
 def cm(M):return s.SparseMatrix(M.applyfunc(clean))
 def zero(M):return all(clean(z)==0 for z in M.todok().values())
 def eye(n):return s.SparseMatrix(n,n,{(j,j):1 for j in range(n)})
@@ -103,6 +112,8 @@ def run(method):
     ck('actual normalized E8 root map all generators metric parity reality',len(roots)==240 and zero(Wt.H*G*Wt-eye(3)) and all(zero(A*Wt-Wt*a) for A,a in zip(actual,std)) and zero(eta*Wt-Wt*s.diag(-1,1,-1)) and zero(tau*Wt.conjugate()-Wt*s.Matrix([[0,0,1],[0,-1,0],[1,0,0]])))
     ad=[cm(Wt.H*G*A*Wt) for A in actual] if method=='native' else std
     r,g=s.symbols('r g',positive=True);z=s.Symbol('zeta',nonzero=True);ss=1-g*g*r
+    known=s.sqrt(r)/ss
+    ck('positive radius rational canonicalizer and wrong sign control',clean(known.diff(r)-(1+g*g*r)/(2*s.sqrt(r)*ss**2))==0 and clean(known.diff(r)+(1+g*g*r)/(2*s.sqrt(r)*ss**2))!=0)
     co=(z*z+z**-2)/2;si=(z*z-z**-2)/(2*s.I)
     conj=lambda M:cm(M.conjugate().subs(s.conjugate(z),1/z))
     th=lambda M:cm(s.I*z*M.diff(z)/2)

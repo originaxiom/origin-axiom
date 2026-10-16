@@ -32,3 +32,25 @@ boundary claims remain unchanged. The returned normal even factor is
 +i epsilon_odd xi_odd rather than -i; geometric profiles are unchanged.
 This is an explicitly post hoc correction of the attempted map, not
 a waiver of faithful action or a tunable fermion phase.
+
+## Preserved interrupted performance run
+
+At ffe3e778e the corrected native method PASSED its first 17 gates,
+including all ten actual source maps, the independent full32 lowered
+current identity, all curvature Ward coefficients, real parameter
+complex structure, faithful E8 triplet and exact noncommuting BPS
+background. The process was deliberately terminated after558.826790s
+while simplifying the differentiated tangent equations. Exit-15,
+empty stdout, full 1077byte stderr and all236 pinned sources plus
+manifests are preserved in results/lowered_current_run. No completed
+pass, reference comparison or downstream profile result is claimed.
+This was an interrupted resource run, NOT a failed mathematical gate.
+
+The next version uses the injective positive-radius substitution
+r=u²,u>0 in exact rational cancellation and caches repeated expressions.
+It avoids distributing reciprocal denominators before collecting them.
+The inverse u=sqrt(r) is exact on the declared domain; no point, series
+truncation, tolerance or physics input is introduced. A known radial
+derivative identity and its wrong-sign mutation are required controls.
+All original source, profile, Euler, flux and scope gates are retained.
+Seal and publish this performance change before the fresh successor.

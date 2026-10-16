@@ -3,6 +3,12 @@
 Authored conditional proof, submitted with explicit computational gates.
 All fields and gauge transformations here belong to the supplied local
 parent. A boundary law still needs an ensemble and an action principle.
+Exact symbolic cancellation may use r=u²,u>0 with inverse u=sqrt(r).
+This is an injective coordinate change on the declared positive normal
+radius, not evaluation at a radius. A radial derivative identity and
+its wrong-sign control test this canonicalizer. The Euler Ward statement
+below is the stationary, zero external momentum normal reduction,
+not arbitrary time dependent propagation or curved boundary closure.
 
 ## 1 Actual component transformations and parameter normalization
 

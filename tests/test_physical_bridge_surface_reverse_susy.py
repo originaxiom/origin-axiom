@@ -37,7 +37,8 @@ def test_gauge_partner_and_its_both_end_data(cert):
 def test_discriminating_controls_and_norm_scope(cert):
     for k in ('wrong Noether factor and missing odd reversal rejected','wrong normal BPS curvature sign fails annihilation',
               'omitting tangent connection fails true linearized equations','dropping scalar gauge Laplace terms rejected',
-              'normalizable near inner end not a claim across outer pole','positive finite local coefficient norm and orthogonal equal partner'):
+              'normalizable near inner end not a claim across outer pole','positive finite local coefficient norm and orthogonal equal partner',
+              'positive radius rational canonicalizer and wrong sign control'):
         assert cert[0]['checks'][k]
 def test_not_complete_physics_or_a_particle_count(cert):
     r=cert[0]['records']['meaning'];assert r['real_bosonic_profile_span']==2 and r['all_real_supercharge_parameters']==4

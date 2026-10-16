@@ -13,6 +13,10 @@ POST_HOC_REPAIR.md with both original failed captures. Require the
 actual lower index Lorentzian current (I,-v_spatial), independently
 verified in the full32 frame, rather than the rejected (I,v_spatial)
 Hamiltonian guess. No source phase, field or action has been changed.
+The interrupted corrected run and exact positive-radius rational
+cancellation performance successor are also recorded there. Use the
+injective r=u²,u>0 substitution with a derivative/wrong-sign control,
+not a numeric sample or a relaxed residual criterion.
 
 Acceptance requires the actual WZ vector and all three chiral lowest
 component transformations to agree with a SINGLE explicitly determined
