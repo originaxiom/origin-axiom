@@ -12169,6 +12169,22 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1667": {
+   "slug": "the canonical cusp",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "markov_cubic"
+   ],
+   "refs": [
+    "L0"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B166": {
    "slug": "sln aperiodic",
    "motifs": [

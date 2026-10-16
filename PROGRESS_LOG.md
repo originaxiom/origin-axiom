@@ -17229,3 +17229,24 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   drafted in the draft room.
 - Landing suite: gates 45 of 45; 185 files, 2357 passed, 0 failed, 6 skipped (6:44, -n 8); R64-10's two
   BLAS-dependent locks (B186, B616) left out by name, still open. 0 of 19.
+
+## 2026-10-16 — S139 THE CANONICAL CUSP (B1667) and the afternoon's harvest
+
+- **B1667** (P-185, P-183 step 5). Sealed `ca1c08efb`; the output was committed unread at `e68a87550` (327 s, exit 0);
+  PROVED as sealed.
+  - **The method.** The uniformisation of the punctured fibre, with the accessory parameter continued from the symmetric
+    points, gives the maximal embedded horoball and the horocycle of length 2. With them come the canonical end radii and
+    the exact channel norms outside them.
+  - **The gate** (16 clauses) holds on 54 points: Im u > 0 everywhere; the maximal horoball touches the Dirichlet cell
+    (margins below 10⁻⁴); the η⁴ control at ω to 10⁻⁹.
+  - **T1–T4 hold.** L_max lies in [0.643, 0.691] and L_2 in [2.292, 2.777]. The bulk lift is ρ_can ≥ 0.031 (L_2) and
+    ≥ 0.238 (L_max). The zero at ω has slope 0.962. The fall toward the cusp of moduli has slope −2.628, and L_2
+    converges.
+  - **Before the seal** (disclosed): three points seen; four instrument defects repaired; one wrong, grafted root found
+    and excluded; one reviewing pass with no blocker.
+- **The paper.** Draft 3 (36 pp.) applied the fourth hostile read and was sent to the owner. It is unchanged since; its
+  sources stay in the draft room until the owner decides.
+- **Harvest.** Rows 1246–1251; pins sm `be98dd5f`, chat1 `34b2e806`, audit `87e7764f`; four audit relays rowed; the
+  P-184 note; P-185 registered and done; FLOOR 185.
+- **PRACTICES** (`e43df9a79`): the window's practices of B1654–B1666.
+- Landing suite: gates 45 of 45; 186 files, 2360 passed, 0 failed, 6 skipped (12:29, -n 8); R64-10's two BLAS-dependent locks (B186, B616) left out by name. 0 of 19.

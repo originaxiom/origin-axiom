@@ -1,3 +1,4 @@
+# sealed at ca1c08efb: dd5fe6893fd2d403c066c4635f3d2bbde25c855674ea031a02495e2642506f6b  verification/the_canonical_cusp.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 becb4b1f76428593a8bc3affd6c38ada3400cde47ea202b3d4b01cd9c10343b8  verification/before_the_seal/canonical_cusp_draft.py
 1ba5f43b49156a5a9bff392918a6890a586aaed4f9c021814b715213b5e1069b  verification/before_the_seal/commutator_subgroup.py
@@ -6,3 +7,6 @@ becb4b1f76428593a8bc3affd6c38ada3400cde47ea202b3d4b01cd9c10343b8  verification/b
 7a244db468e85a61dc218d50f6076512bd9ef6f1c1ff7fd12c2177409e6e10b6  verification/before_the_seal/eta_control_run.txt
 c0a3d133d8d230766b6b996810f2e1e0d6043b08e3daff147bfaa25a1a314f83  verification/before_the_seal/smoke_controls_run.txt
 dd5fe6893fd2d403c066c4635f3d2bbde25c855674ea031a02495e2642506f6b  verification/the_canonical_cusp.py
+# after the seal (not sealed): the output, committed unread at e68a87550
+688152749777970f21a85b3278a39ae33884b9ae99623d5eec541f41de34a774  verification/the_canonical_cusp.json
+9294032a384b2c72c21ca1e6675663415b9932ecfa5f4a0b2e608b3ba4f8c4fb  verification/the_canonical_cusp_run.txt

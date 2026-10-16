@@ -599,3 +599,18 @@ found with B1635's sealed instrument.
   L^(4m+1)R, not the root: the weave's "nothing" end, where f vanishes, carries the coherent amplitude.
 - **The pull-back's strength** (B1663) sets the side and the speed of the motion, not the defect it averages
   (0.517 at every strength).
+
+## Main's addition: the canonical cusp (B1667, PROVED) — the end radius is the fibre's own, and it is of order one
+
+- **The end radius is not a free continuum.** B1654's cutoff L = log(1/ε) at the puncture was called a regulator: a
+  complete cusp has no boundary on which to impose a condition. In the flat metric that is so. In the fibre's own
+  hyperbolic metric, the uniformisation of the punctured torus, the puncture is a cusp with canonical horocycles: the
+  maximal embedded one and the one of length 2. They fix L as a function of τ.
+- **It is of order one everywhere.** On the whole grid up to Im τ = 4: L_max is 0.64–0.69 and L_2 is 2.29–2.78, and both
+  converge toward the cusp of moduli. At τ = e^{iπ/3} the punctured hexagonal torus is H/SL(2, ℤ)′. Its free generators
+  are LR and RL, the two-step words whose commutator is the grammar's failed cancellation. There, L_max and L_2 are the η⁴
+  closed form.
+- **The end supplies no hierarchy.** Under the canonical cut, the first generation's lift is a function of τ alone. It is
+  0.03–0.41 in the bulk, with a simple zero at the symmetric point and a fall like e^(−2.6 Im τ) toward the cusp of
+  moduli. A small first generation is then a statement about τ (P-169), and the weave's end is no longer a place to put
+  a number.

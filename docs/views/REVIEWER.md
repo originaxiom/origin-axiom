@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1395** |
-| words of findings prose | **1,103,775** |
-| test lock files referenced | **813** |
-| arcs carrying an authored verdict | **1395** (100.0 %) |
+| research arcs with findings | **1396** |
+| words of findings prose | **1,104,813** |
+| test lock files referenced | **814** |
+| arcs carrying an authored verdict | **1396** (100.0 %) |
 | recorded closures | **822** (655 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 945 |
+| PROVED | 946 |
 | NEGATIVE | 346 |
 | OPEN | 93 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1666`** (719 words, 0 locks)  
-THE LAYERS WITH A ROBUST PHASE (sealed aac14a72c, sha256 df6f13d1; PROVED as sealed, a scoreboard for L1-L2 after B1664 and B1665, whose gates failed at D's zeros; the output committed unread at e8197f4cf): on EVERY thread with trace <= 600 (30 674) the matter's amplitude D (dz/ds)^(-1/2) returns after one period multiplied by exactly i^(#L-#R), the Higgs's character (to 1.1e-7), so a coherent average survives only on the quarter of threads with #L = #R mod 4; averaged trace by trace the threads' defect <f> reaches the typical motion's 0.31500491 (0.3144 over traces 451-600 against 0.3692 at t <= 20; the gap falls as t^-1/2) -- the trace formula's constant mode on the program's quantity; the amplitude's coherence decays with length (slope -0.27 +- 0.08), and the coherent rule favours the cusp family L^(4m+1) R (to 0.99994), not the root LR (0.637). 0 of 19.  
-`B1666_the_layers_robust/FINDINGS.md`
+**PROVED — `B1667`** (1038 words, 1 locks)  
+THE CANONICAL CUSP (sealed ca1c08efb, sha256 83689a5d; PROVED as sealed, a census informed by neighbours; the output committed unread at e68a87550): in the fibre's own hyperbolic metric the puncture is a cusp with canonical horocycles, which fix B1654's end radius L = log(1/eps) as a function of tau alone -- at order one everywhere on the grid (the maximal cusp 0.643-0.691, the length-2 horocycle 2.29-2.78, converging toward the cusp of moduli; at omega exactly the eta^4 values 0.69208, 2.78648) -- so the end supplies no hierarchy (B1654's bulk hierarchy needs L in the hundreds) and the end datum is a discrete choice, not a continuum; under the canonical cut the first generation's lift rho_can(tau) is a function of tau alone, of order 0.03-0.4 in the bulk, with a simple zero at omega (slope 0.96) and a fall like e^(-2.6 Im tau) toward the cusp of moduli. 0 of 19.  
+`B1667_the_canonical_cusp/FINDINGS.md`
 
 **NEGATIVE — `B1663`** (840 words, 0 locks)  
 THE PULL-BACK'S STRENGTH (sealed 9c3f74238, sha256 1ce96661; NEGATIVE as sealed: the central prediction T4(b), 'the strength is not idle', failed; the output committed unread at 4d9eb2001): on the walk with steps L, R and pull-backs L^-1, R^-1 of strength p, p sets WHICH END the motion reaches (P(xi > 0) = 1, 0.90, 0.75, 0.71, 0.62, 0.53 for p = 0 .. 1/2) and HOW FAST (escape 0.396 -> 0.101 per step), but NOT the motion's averaged defect: E_p<f> along the geodesic ray to the walk's limit is 0.5157, 0.5179, 0.5185, 0.5162, 0.5173, 0.5178 (+- 0.0013; spread 0.0028 over six p), not the typical motion's 0.315 (control 0.3155 +- 0.0018). Post-seal (labelled): the limit's continued-fraction digits follow the geometric law 2^-k at p = 0 and p = 1/2 alike (Gauss-Kuzmin for a typical point), so the motion that survives the cancellations is the forward-only motion whatever the strength; cancelling changes only the sign and the clock. The push-back adds no number to the sizes (to about 0.009). 0 of 19.  

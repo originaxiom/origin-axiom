@@ -1,0 +1,24 @@
+{
+  "id": "B1667",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": true,
+  "identifications": [],
+  "depends_on": [
+    "B1654",
+    "B1656",
+    "B1660"
+  ],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "the fibre frame: the punctured torus C/(Z + tau Z) with its complete hyperbolic metric (the uniformisation); B1654's Szego profiles S_r and residues R_r",
+    "object": "the fibre at every modulus on the grid Re tau in {0.05,...,0.45}, Im tau in [0.95, 4] with |tau| >= 1.03, the ray omega + d e^{2 pi i/3}, and the controls i and e^{i pi/3}",
+    "reach": "class",
+    "hypotheses": "a census over 54 points informed by neighbours (three seen before the seal; the reviewing pass's off-grid values); the two canonical horocycles (the maximal embedded one and the one of length 2); the uniformising root by continuation from the symmetric points"
+  },
+  "claim_one_line": "THE CANONICAL CUSP (sealed ca1c08efb, sha256 83689a5d; PROVED as sealed, a census informed by neighbours; the output committed unread at e68a87550): in the fibre's own hyperbolic metric the puncture is a cusp with canonical horocycles, which fix B1654's end radius L = log(1/eps) as a function of tau alone -- at order one everywhere on the grid (the maximal cusp 0.643-0.691, the length-2 horocycle 2.29-2.78, converging toward the cusp of moduli; at omega exactly the eta^4 values 0.69208, 2.78648) -- so the end supplies no hierarchy (B1654's bulk hierarchy needs L in the hundreds) and the end datum is a discrete choice, not a continuum; under the canonical cut the first generation's lift rho_can(tau) is a function of tau alone, of order 0.03-0.4 in the bulk, with a simple zero at omega (slope 0.96) and a fall like e^(-2.6 Im tau) toward the cusp of moduli. 0 of 19.",
+  "weave_or_thread": "neither (the weave's fibre at every modulus on the grid; one frame)"
+}
