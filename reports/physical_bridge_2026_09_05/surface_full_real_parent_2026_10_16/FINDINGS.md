@@ -167,3 +167,18 @@ relay debts/160open and review572. No new science failure path or waiver.
 Full VALIDATION and raw captures retained; not full-suite, nonauthor,
 analytic or complete physical acceptance. Post-check metadata is not
 back-certified. Ultimate full generated physical SM/three/gravity ACTIVE.
+
+## Later actual charge and alternative geometric connection
+
+surface_real_twist_2026_10_16 now computes the source scalar-Noether
+charge R_s=-i v4v5, which is OPPOSITE the old declared source label.
+Earlier R-commutation checks above are correct matrix facts, not an
+already earned identification with that Noether charge. Keeping the
+same scalar coordinates but using the complementary10D MW projector
+now gives an explicit C/time/TRUE-R and full curved bundle-connection
+map, with identity-flavour phases(1,1,-1,-i). The same-oriented old-MW
+negative and both earlier reflected alternatives are not withdrawn.
+Their scope was narrower than existence of a physical fermion bundle.
+The new source cutoff maps to opposite-MW epsilon-minus without scalar/
+end reflection. See the new report before transferring any old global
+domain, kernel or charged count; nonlinear singular/gauge duties remain.

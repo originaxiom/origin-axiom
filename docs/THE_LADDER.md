@@ -1,5 +1,17 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October16 actual charge/twist:58/58 exact per method at published
+dba960ac5,117pins/tree/index unchanged, complete records identical.
+The source Noether R is opposite the old declared label. Complementary
+10D MW chirality with SAME scalar coordinates and identity phases
+(1,1,-1,-i) earns the full curved fermion connection/chart map, not just
+local coefficients. Source tensor fields0/HOL1/barK and real cutoff
+minus plane verified; no scalar/end reflection in this dictionary.
+Old same-MW negative remains scoped. NEXT SAME curved bosonic/auxiliary/
+SUSY boundary and singular/gauge/global charged theory. Fixed based
+rank3 not SM; full generated physical SM/three/gravity ACTIVE. Report:
+physical-bridge surface_real_twist_2026_10_16/FINDINGS.md.
+
 October16 real action/Clifford/end: complete native/component records
 agree at published0d44cabb7,38/39 each; the ORIGINAL named-map gate
 remains false. Actual Clifford9/positive time/reality/gauge/normal potential

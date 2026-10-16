@@ -707,3 +707,16 @@ is not an identification of global twist/bundle connections or singular
 domains. All maps, rejected coefficients and preserved failures are in
 FINDINGS/code/complete outputs. No shared I-status is promoted and no
 SM/generation/physical particle identification is licensed.
+
+## October16 actual source charge and complementary Weyl bundle map
+
+surface_real_twist_2026_10_16 now exhibits a faithful16-to32 map from
+the actual real source action to the COMPLEMENTARY10D MW parent,
+same scalar coordinates, identity flavour phases(1,1,-1,-i). Actual
+scalar Noether R_s=-i v4v5 is opposite the previously declared source
+label; the former matrix commutation was not that identification.
+All local coefficients, full curved spin/R/tensor connection, actual
+chart laws/C/time and real cutoff minus plane are mapped. This earns
+this specified fermion-bundle connection, not the old same-MW target
+or full curved nonlinear/singular theory. No shared I-status promoted;
+no physical particle, three-generation or observed SM identification.

@@ -6682,3 +6682,28 @@ are not obtained. No transfer of old local BPS, gap or particle counts
 without SAME-action/connection/domain transport. Fixed based g2+u1
 rank3 and other-parent R93 SM remain separate. Full generated physical
 SM/three/gravity active; same global stationary charged physics next.
+
+## October16 actual Noether charge resolves a specified fermion bundle joint
+
+PB-SURFACE-REAL-TWIST-TRANSPORT: RESOLVED for the new complementary-
+MW dictionary, not the old same-MW identification. Closing sentence:
+"The supplied real action now has an explicit map to a curved, real
+fermion bundle on the stated elliptic orbifold geometry." Source
+surface_real_twist_2026_10_16/FINDINGS.md. Actual R_s is opposite the
+old label; identity-flavour phases(1,1,-1,-i), no scalar reflection,
+full connection/charts and cutoff minus plane verified58/58 per method.
+Prior reflected alternatives and fixed-oriented negative stay scoped.
+
+PB-SURFACE-CURVED-REAL-ACTION OPEN on this mapped field content: join
+the complete curved bosonic/auxiliary/SUSY action, gauge completion and
+both ends to the earned fermion connection, without importing unmatched
+printed coefficients. This particular completion is not proved by a
+fermion connection map. Recover existing curved superspace primitives
+before adding a new instrument; no generic absence claim.
+
+PB-SURFACE-CUTOFF-LIMIT remains OPEN: same auxiliary-eliminated nonlinear
+boundary jets, interacting singular graph and shrinking-cutoff gauge/
+vector limit. Retain normal compensator and BOTH ends. Original fixed
+based g2+u1 rank3 and other-parent R93 SM stay separate. Full generated
+physical SM/three/gravity and SAME global charged spectrum/norms/vertices/
+anomalies remain active ultimate duties. NEXT_TEST preserves the order.

@@ -19921,3 +19921,34 @@ Full VALIDATION/raw captures and NEXT_TEST registered; scientific
 pins rechecked unchanged after post-check metadata. No nonauthor,
 analytic/full-suite/main or physical SM/three/gravity acceptance.
 Ultimate generated physical goal ACTIVE.
+
+### October16 actual source charge and curved fermion bundle map
+
+At server-confirmed preregistration dba960ac5,58/58 each: native
+50.653776s/reference50.341101s, complete11341-byte records identical
+SHA2569f70757c460c3eafa19fc38fe58a35a299fd0ae69f0d34546dbc03ac1fd37060;
+117pins/13,652tracked contents/index unchanged. Coordinate/Koszul versus
+closed-coframe/exterior methods share author/frozen action/conventions,
+not independent analytic acceptance or a fresh superspace reproduction.
+
+Actual Noether scalar R_s=-i v4v5 gives(+,-,-,+), opposite the old
+declared label. A complementary10D MW frame with identity-flavour
+phases(1,1,-1,-i) matches ALL local coefficients and the full curved
+spin/R connection/charts, C/time and real cutoff minus plane, with NO
+scalar/end reflection. Independent tensor connection0/HOL1/barK agrees
+in all off-diagonal entries; wrong R/missing mixed/old MW controls fail.
+Earlier generic Kähler/global-spin primitives credited, not rediscovered.
+Old same-MW volume negative and reflected alternatives remain valid.
+
+Eight scoped LAW rows, resolved SPECIFIC fermion-bundle joint, open
+curved action/singular/gauge/global duties, Noether clarification on old
+report, identification supplement and sender relay/current surfaces
+registered. Identification24rows/9UNEARNED at baseline9, five planted
+controls PASS with bare-assertion blind spot explicit. All11heads fetched;
+new SM4f1eddcf7 W97 rule/result/test read, not full producer or replay;
+its thread-C1 readout not used as physical mass/programme exclusion.
+NEXT SAME full curved bosonic/auxiliary/SUSY action and nonlinear
+boundary, singular/gauge limit and global stationary charged physics.
+Fixed based rank3 not SM, no other-parent splice. Full generated
+physical SM/three/gravity ACTIVE. Selected live validation/governance
+follow, not already claimed green.
