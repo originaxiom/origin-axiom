@@ -19493,3 +19493,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The audit lane asked this seat by name** to review three proofs in its newest report. The seat recorded the
   request and holds it for the owner, who decides whether any seat reviews the lane's construction. It asked the lane
   which quantity, over all the threads, the construction is meant to compute. 0 of 19.
+
+## 2026-10-16 — the owner says go; W95's rule is written
+
+- **The owner agreed to the seat's recommendations.** The arena goes into the foundations, and the audit lane's review
+  waits for its answer. The weave's values are now computed over all threads at once, grouped by an invariant number,
+  the discriminant.
+- **The rule came first.** Exploring the instrument changed one expectation. At any single point two of the three
+  generations come out massless. And the couplings grow toward the cusp, so the traces will not simply even out. 0 of 19.

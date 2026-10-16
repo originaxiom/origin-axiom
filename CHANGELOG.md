@@ -1,5 +1,18 @@
 # Changelog
 
+## The owner's rulings of 2026-10-16, and W95's rule (relay §145)
+
+- **The owner's rulings,** as this seat reads them (relay §145): N1 yes, for main to write in GENESIS; the audit
+  lane's review waits on its answer to §144; N2 goes as W95.
+- **W95's rule,** committed before any code: `docs/dossiers/the_weave_2026-10-07/W95_RULE.md`. It traces the surface
+  frame's neutral couplings by discriminant, over every thread with D ≤ 300 and every CM point down to −300. It has
+  eight cells with priors.
+  - It corrects the fresh look's expectation of flat traces: the units grow at the cusp (W72), so Duke's theorem does
+    not apply.
+  - Its exploration, all on the instrument and disclosed: the matrices are invariant, and the Yukawa has rank one at
+    each point.
+- **Surfaces.** The rule, relay §145, the relay's ledger row, the state page's relay range.
+
 ## The audit lane's named review request held for the owner (ledger; relay §144)
 
 - **The audit lane** pushed 7 more commits (42be245f6 → 7ae6451c0) with one relay, on the same supplied compact-E8

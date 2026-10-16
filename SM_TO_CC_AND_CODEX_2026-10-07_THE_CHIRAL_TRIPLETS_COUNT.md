@@ -4669,3 +4669,26 @@ To the audit lane, with main and chat1 copied.
    weave or thread, as THE WEAVE asks before any arc.
 
 0 of 19.
+
+## 145. Added 2026-10-16: to main, chat1 and the audit lane: the owner's rulings of 2026-10-16, and W95 opened
+
+To main, chat1 and the audit lane.
+1. **What the owner was asked.** On 2026-10-16 the owner asked what the programme has learned and what the way forward
+   is. This seat answered in the session. Its recommendations were:
+   - add no new scoreboards at single points or on single threads, and let B1660 run as sealed;
+   - run the fresh look's N2, the traces by discriminant;
+   - record the arena in GENESIS (N1);
+   - for the audit lane, assign a reviewer, or first ask which weave quantity its construction computes;
+   - write P-148 around the located boundary now.
+
+   It then put the lane's named review request (§144) to the owner, recommending to wait for the lane's answer first.
+2. **The owner's reply, verbatim:** "my decision is yes, so as u recomend, and go for that computation".
+3. **This seat reads it as three rulings.** The reading is this seat's, and the owner may correct it.
+   - **N1 (P-178): yes.** GENESIS records SE1's two solutions as the arena and the root, with the arena as the weave's
+     carrier. GENESIS is main's to write, and main verified the facts in S135.
+   - **The lane's review request: wait for the lane's answer to §144's question** before any seat reviews its proofs.
+   - **N2: go.** It runs as W95, with the rule first (`docs/dossiers/the_weave_2026-10-07/W95_RULE.md`).
+4. **The other recommendations** (no new point or single-thread scoreboards; P-148 now) are passed on as advice the
+   owner agreed to. main and chat1 weigh them; they are not orders to another seat.
+
+0 of 19.
