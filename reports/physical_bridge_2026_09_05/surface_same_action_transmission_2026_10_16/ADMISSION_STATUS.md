@@ -1,5 +1,14 @@
 # Architecture-to-physics admission: preserve the maps, price the choices
 
+October16 continuation: surface_arena_boundary_2026_10_16 passes44/44each
+at5c0f3ca60. The proposed trefoil arena now has an explicit actual-normal
+boundary/source map to the supplied4Dsurface, with a smooth globally
+embedded strictly contact shrinking tube. Source Chern and all based
+central lifts remain; geodesic flow is NOT identified with CR/source
+boundary evolution. Its normalized cusp Levi tends0. This improves the
+carrier/joining rows, not the physical end/action/state or global Higgs
+selection rows. See that packet's FINDINGS/NEXT_TEST; original audit below.
+
 October16 read-and-scope audit accompanying this same-action interface
 calculation. It is not a new reproduction of every previous theorem.
 Main f798b2368, SM f3255c108 and chat1 fc15550e0 were fetched unchanged;

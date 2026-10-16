@@ -1,5 +1,12 @@
 # Earn the true exterior/end and global stationary fields
 
+October16 continuation: surface_arena_boundary_2026_10_16 now gives
+the actual normal-arena/source map and a global embedded strict-contact
+shrinking tube,44/44each at5c0f3ca60. Do not repeat varying-tube existence
+as missing. Its normalized cusp Levi degenerates; source alpha, CR beta
+and geodesic Hilbert flow remain distinct. The true source end functional/
+state and global stationary charged physical theory are still the duty.
+
 144/144each at4ced3ad81 earns SAME-source smooth two-sided transmission,
 actual source momenta/primitives, real trace, all charged blocks and
 gauge compatibility. Existing all-mode inner Cauchy solutions and full

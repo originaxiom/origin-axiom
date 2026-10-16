@@ -1,5 +1,22 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October16 normal-arena/source boundary sublemmas, path-local conditional
+research, not a new shared B allocation.44/44each at5c0f3ca60,321pins/
+tree/index unchanged; prior geometric329/32 and source58 freshly retained.
+Known Hain/Ghys facts credited; infinite-series analysis awaits outside
+review and is not certified by44 finite checks.
+
+| Scoped statement | Argument and LIVE safeguard |
+|---|---|
+| Actual normal direction gives an equivariant homogeneous-space map from the supplied surface's normal boundary to the trefoil arena; central-I and double tangent angle retained. | B1641 based-geometric context ONLY; NEW reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/PROOF.md section1 with credited Hain/Ghys; tests/test_physical_bridge_surface_arena_boundary.py::test_actual_normal_arena_map_and_both_fresh_antecedents. Not whole4Dsurface=3Darena or physical spacetime selection. |
+| Complete normal loop c=(ZY)^-6 is h^2, not the ordinary trefoil meridian; discriminant linking12/6/1 distinguishes full normal/regular Seifert/trefoil meridian. | B1641 based context ONLY; NEW arena PROOF.md section2; tests/test_physical_bridge_surface_arena_boundary.py::test_actual_central_lifts_every_gauge_class_and_both_meridians. No dimension/physical-charge identification. |
+| Every six weak completion gives h^2=actual puncture on248; even(134,0,2,0), odd(0,56,0,56) at(1,i,-1,-i), with no selected subset. | B1641 coefficient context ONLY; NEW arena PROOF.md section2/full branching; tests/test_physical_bridge_surface_arena_boundary.py::test_actual_central_lifts_every_gauge_class_and_both_meridians. Coefficient phases, not particles/kernels/families. |
+| Nonholomorphic full lattice sum E2 yields a smooth invariant radius minorant of fibre injectivity, hence an embedded tube over the whole modular base. | B1641 supplied-surface context ONLY; NEW arena PROOF.md section3 convergence/reindexing/shortest-vector proof; tests/test_physical_bridge_surface_arena_boundary.py::test_global_lattice_and_strict_contact_certificate. E2/epsilon are regulator choices, not forced physical end data. |
+| Actual varying-tube CR form beta=alpha-d^c log sigma is strictly contact by the exact positive weighted-gradient variance; full coordinate complex structure is retained. | B1641 geometric context ONLY; NEW arena PROOF.md section4; tests/test_physical_bridge_surface_arena_boundary.py::test_actual_total_normal_and_variable_tube_characteristic and tests/test_physical_bridge_surface_arena_boundary.py::test_global_lattice_and_strict_contact_certificate. Infinite-lattice proof authored conditional, not interval/sampling certification. |
+| In the displayed normalization cusp Levi L~3(b/a)y^-5, so y^2L tends0 despite finite-y strictness; the naive y^-1/2 radius is Levi-flat. | B1641 supplied-metric context ONLY; NEW arena PROOF.md section4 kernel-integral/asymptotic argument; tests/test_physical_bridge_surface_arena_boundary.py::test_strict_contact_is_not_uniform_cusp_control. Not every normalization/estimate or a global operator-gap no-go. |
+| Hilbert geodesic contact form has a different Reeb and opposite contact orientation from the normal/CR forms under this map. | B1641 geometric context ONLY; NEW arena PROOF.md section5; tests/test_physical_bridge_surface_arena_boundary.py::test_no_unearned_identification_of_contact_flows. Does not identify physical time or exclude another derived dynamical relationship. |
+| Actual source weights and connection give -W alpha in the tautological boundary frame, keeping P02 curvature3i dx wedge dy/(2y^2), not a flat scalar or3i beta. | B1138 supplied-parent context ONLY; NEW arena PROOF.md section6 plus fresh actual source dictionary; tests/test_physical_bridge_surface_arena_boundary.py::test_source_connection_curvature_and_physical_scope. Leading compact-base geometric connection, not full singular/Higgs operator, stationary field or complete physical SM. |
+
 October16 same-action transmission sublemmas, path-local CONDITIONAL
 research, not a new shared B allocation or independent analytic acceptance.
 144/144each at published4ced3ad81,269pins/tree/index unchanged. Standard

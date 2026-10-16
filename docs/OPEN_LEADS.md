@@ -1,5 +1,33 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+PB-NORMAL-ARENA-SOURCE-MAP/PB-GLOBAL-VARYING-TUBE: October16 geometric
+sub-duty POSITIVE44/44each at5c0f3ca60,321pins/tree/index unchanged.
+Actual normal circle joins supplied4Dsurface and proposed trefoil arena;
+smooth E2 shrinking tube embeds globally and stays strictly contact.
+Central meridians, source curvature and all248 phase sectors retained.
+Not selected physical end/action or a full charged-domain theorem.
+Source surface_arena_boundary_2026_10_16 FINDINGS/PROOF/NEXT_TEST.
+PB-ARENA-SOURCE-END-FUNCTIONAL: OPEN, actual varying normal, source
+primitive/calibration/compact CS/scalar/patch data and true exterior
+state; not automatic R95 complex CS or physical geodesic-time dynamics.
+PB-EPSTEIN-TUBE-CUSP-JOINT-ESTIMATE: OPEN, y^2Levi tends0 in displayed
+normalization; do not copy fixed-tube constants or infer every operator
+gap fails. All charged/kernel/neutral/joint-frequency/source terms owed.
+PB-ARENA-THREAD-FAMILY-PULLBACK: UNEXECUTED lead, actual mapping-torus
+family/connection and central framing, not1Dorbit=3Dmanifold or free
+action/Dirac/domain reduction. Search existing carrier code first.
+PB-GLOBAL-SM-PRESERVING-NONFLAT-REDUCTION: OPEN, actual bundle/orbifold
+isotropy, stationary source fields and end ensemble; old flat g2+u1
+does not by itself decide every nonflat connection. Known spin phases
+preserved in own parent. NEXT also records an UNEXECUTED eta/weak-root
+Higgs recovery candidate; global/end/normalization/full-gauge tests
+required, potentially non-SM, not next breakthrough selected by count.
+PB-ARENA-GLOBAL-ANALYTIC-REVIEW: OPEN, assigned nonauthor proof review
+of normal map, full lattice/strictness/cusp and actual source map.
+Physical roster/norms/vertices/anomalies/three/parameters/gravity,
+recipient/main/full-suite and inherited governance debts persist.
+Full goal ACTIVE; no qualia/observer or physical hand identified.
+
 PB-SAME-ACTION-TRANSMISSION: smooth finite-interface sub-duty POSITIVE
 October16,144/144each at4ced3ad81,269pins/tree/index unchanged. Source
 momenta/primitives, full real/conjugate/charged trace, all28 radial

@@ -20692,3 +20692,43 @@ match prior, NOT complete provenance debt inventory;42stale/174open,
 review629. No baseline/gate waiver, full-suite/nonauthor/recipient/
 main/physical acceptance. VALIDATION/raw states kept. Post-check report
 updates not back-certified;269science pins separately rechecked.
+
+## 2026-10-16 — Actual arena boundary and a global shrinking contact tube
+
+Own branch audit/physical-bridge-2026-09-05. At pre-run/server-confirmed
+5c0f3ca60444064b6368ff99da80a22e54ff62bf,44/44each PASS27.277318/
+28.756388s, complete141,072byte records identical SHA256
+857f19796d1842f210d2b60e007ae5255c8da1f849ab062b4405d482dee0d172.
+321pins/17,626tracked/index unchanged, full raw/inventories/receipt in
+surface_arena_boundary_2026_10_16/results/cancellation_run. Both prior
+geometric329/32 and actual source58 records freshly retained in EACH
+producer, not extra independent findings. Same author/proof/Sympy.
+
+Known Hain normal line/B3 and Ghys trefoil facts personally read and
+credited; explicit actual chart map, central normal/Seifert/trefoil
+loop distinction and full source/gauge transport now joined. Smooth
+nonholomorphic E2 radius globally fits fibre injectivity and is strictly
+contact by positive gradient variance, but y^2Levi tends0 at the cusp.
+No fixed-tube constant or other-parent gap/count copied. Source Chern
+alpha, actual CR beta and Hilbert lambda remain distinct; geodesic flow
+not thereby physical time/source Reeb. P02 retains3i alpha/curvature.
+All six coefficient phase rosters even(134,0,2,0),odd(0,56,0,56) kept,
+not particles/families. Source/metric/M1,2/E8/E2/epsilon/end choices
+priced; full physical goal ACTIVE, not achieved by this geometric map.
+
+Two native resource interruptions209.353840/210.370752s, exit-15,
+no FAIL line, all original320/321source snapshots/manifests/raw states
+preserved; exact inverse and rational-cancel repairs resealed BEFORE
+successors. No failed run called a pass. Mainaff4233ea B1660 run text,
+SM6bae47053 W95/fresh-look/relay145 read-grade intake, not reproduced
+phenomenology or conversion of multistart upper bound into theorem;
+chat1ec8ba7e87 is preregistration. No owner ruling silently applied.
+
+Next actual source end functional/state, global SM-preserving nonflat/
+stationary admission, full charged singular/cusp domains, then whole
+roster/norms/vertices/anomalies/three/parameters/gravity. NEXT explicitly
+records UNEXECUTED thread-family pullback and eta/weak-root recovery
+candidates, with all duties registered. Earlier spin stationary phases
+preserved in own parents; no free transfer. Laws/leads/identification/
+sender relay banked. LIVE/governance/nonauthor/full-suite/main/recipient
+and four inherited debt categories remain separate, unwaived.

@@ -1,0 +1,5491 @@
+{
+  "checks": {
+    "fresh geometric329 and32 controls with complete records": true,
+    "fresh complete actual source tensor and spin R dictionary": true,
+    "normal direction homogeneous map has determinant one": true,
+    "exact S normal direction map including phase sign": true,
+    "exact T normal direction map": true,
+    "wrong normal phase sign is rejected": true,
+    "central minus I acts by half normal rotation not identity": true,
+    "double tangent angle descends but single angle does not": true,
+    "actual Chern circle connection inhomogeneous S law": true,
+    "exact structured inverse certified in both orders": true,
+    "actual coframe and radius gradient not a vertical approximation": true,
+    "actual source characteristic form equals normal circle connection": true,
+    "full total complex structure gives varying tube characteristic": true,
+    "dropping radius variation loses boundary characteristic": true,
+    "entire lattice summand PDE and log gradient norm": true,
+    "T and S reindex entire lattice without a finite census": true,
+    "both lattice index substitutions are bijective and retain origin": true,
+    "two positive lattice summands have distinct gradients everywhere": true,
+    "actual varying Levi coefficient equals weighted gradient deficit": true,
+    "strictness uses exact positive variance identity": true,
+    "nonautomorphic finite pair controls strictness but not global invariance": true,
+    "naive inverse sqrt y tube is Levi flat": true,
+    "exact two term cusp Levi asymptotic not a uniform bound": true,
+    "cusp constant integral from rational kernel": true,
+    "global radius minorant and fixed radius cusp control retained": true,
+    "Hilbert geodesic Reeb is verified not named by analogy": true,
+    "normal connection Reeb differs and flow does not preserve it": true,
+    "two contact forms have opposite orientation under actual map": true,
+    "Hilbert form descends under exact normal S transition": true,
+    "Hilbert form descends under T and minus I": true,
+    "actual half frame squares to fibre puncture inner action": true,
+    "half frame is not a pure fibre puncture loop": true,
+    "normal and trefoil meridians distinguished by discriminant winding": true,
+    "actual SU6 half frame unitary involution with wrong standalone centre": true,
+    "full E8 half frame square equals puncture and all sectors retained 1": true,
+    "full E8 half frame square equals puncture and all sectors retained 3": true,
+    "full E8 half frame square equals puncture and all sectors retained 5": true,
+    "full E8 half frame square equals puncture and all sectors retained 7": true,
+    "full E8 half frame square equals puncture and all sectors retained 9": true,
+    "full E8 half frame square equals puncture and all sectors retained 11": true,
+    "actual source leading connection equals full weight generator": true,
+    "tautological source frame has minus W alpha not zero": true,
+    "global tube beta is not a free source connection substitution": true,
+    "source full central rotation and real conjugate slots retained": true
+  },
+  "records": {
+    "geometric_antecedents": {
+      "native": {
+        "checks": {
+          "tangential twists fix actual puncture": true,
+          "tangential braid": true,
+          "negative frame inner inverse puncture": true,
+          "wrong original frame orientation rejected": true,
+          "positive frame inner puncture": true,
+          "homology-only identity is rejected": true,
+          "actual order3 word and order": true,
+          "actual order4 word": true,
+          "same homology different based lift": true,
+          "actual SU6 frame power plus identity": true,
+          "actual fibre puncture minus identity": true,
+          "SU6 alone does not match geometric frame": true,
+          "order3 SU6 centre retained": true,
+          "order4 SU6 centre retained": true,
+          "paired centre vanishes on all240 roots": true,
+          "unpaired coefficient centre rejected": true,
+          "weak frame centre 1": true,
+          "weak order3 inverse centre 1": true,
+          "weak frame centre 3": true,
+          "weak order3 inverse centre 3": true,
+          "weak frame centre 5": true,
+          "weak order3 inverse centre 5": true,
+          "weak frame centre 7": true,
+          "weak order3 inverse centre 7": true,
+          "weak frame centre 9": true,
+          "weak order3 inverse centre 9": true,
+          "weak frame centre 11": true,
+          "weak order3 inverse centre 11": true,
+          "positive coordinate cusp inverse shear": true,
+          "coordinate homology automorphism 0": true,
+          "coordinate homology automorphism 1": true,
+          "coordinate homology automorphism 2": true,
+          "canonical leading trace unitary": true,
+          "both extreme complex planes preserved": true,
+          "normal reversal exchanges extremes": true,
+          "integral actual Z phase (1, False, '+1', 0)": true,
+          "integral actual Z phase (1, False, '+1', 1)": true,
+          "integral actual Z phase (1, False, '+1', 2)": true,
+          "integral actual Z phase (1, False, '+1', 3)": true,
+          "integral actual Z phase (1, False, '+1', 4)": true,
+          "integral actual Z phase (1, False, '+1', 5)": true,
+          "integral actual Z phase (1, False, '+1', 6)": true,
+          "integral actual Z phase (1, False, '+1', 7)": true,
+          "integral actual Z phase (1, False, '+1', 8)": true,
+          "integral actual Z phase (1, False, '+1', 9)": true,
+          "integral actual Z phase (1, False, '+1', 10)": true,
+          "integral actual Z phase (1, False, '+1', 11)": true,
+          "integral actual Z phase (1, False, '-1', 0)": true,
+          "integral actual Z phase (1, False, '-1', 1)": true,
+          "integral actual Z phase (1, False, '-1', 2)": true,
+          "integral actual Z phase (1, False, '-1', 3)": true,
+          "integral actual Z phase (1, False, '-1', 4)": true,
+          "integral actual Z phase (1, False, '-1', 5)": true,
+          "integral actual Z phase (1, False, '-1', 6)": true,
+          "integral actual Z phase (1, False, '-1', 7)": true,
+          "integral actual Z phase (1, False, '-1', 8)": true,
+          "integral actual Z phase (1, False, '-1', 9)": true,
+          "integral actual Z phase (1, False, '-1', 10)": true,
+          "integral actual Z phase (1, False, '-1', 11)": true,
+          "integral actual Z phase (1, True, '+i', 0)": true,
+          "integral actual Z phase (1, True, '+i', 1)": true,
+          "integral actual Z phase (1, True, '+i', 2)": true,
+          "integral actual Z phase (1, True, '+i', 3)": true,
+          "integral actual Z phase (1, True, '+i', 4)": true,
+          "integral actual Z phase (1, True, '+i', 5)": true,
+          "integral actual Z phase (1, True, '+i', 6)": true,
+          "integral actual Z phase (1, True, '+i', 7)": true,
+          "integral actual Z phase (1, True, '+i', 8)": true,
+          "integral actual Z phase (1, True, '+i', 9)": true,
+          "integral actual Z phase (1, True, '+i', 10)": true,
+          "integral actual Z phase (1, True, '+i', 11)": true,
+          "integral actual Z phase (1, True, '-i', 0)": true,
+          "integral actual Z phase (1, True, '-i', 1)": true,
+          "integral actual Z phase (1, True, '-i', 2)": true,
+          "integral actual Z phase (1, True, '-i', 3)": true,
+          "integral actual Z phase (1, True, '-i', 4)": true,
+          "integral actual Z phase (1, True, '-i', 5)": true,
+          "integral actual Z phase (1, True, '-i', 6)": true,
+          "integral actual Z phase (1, True, '-i', 7)": true,
+          "integral actual Z phase (1, True, '-i', 8)": true,
+          "integral actual Z phase (1, True, '-i', 9)": true,
+          "integral actual Z phase (1, True, '-i', 10)": true,
+          "integral actual Z phase (1, True, '-i', 11)": true,
+          "whole coefficient kept 1": true,
+          "integral actual Z phase (3, False, '+1', 0)": true,
+          "integral actual Z phase (3, False, '+1', 1)": true,
+          "integral actual Z phase (3, False, '+1', 2)": true,
+          "integral actual Z phase (3, False, '+1', 3)": true,
+          "integral actual Z phase (3, False, '+1', 4)": true,
+          "integral actual Z phase (3, False, '+1', 5)": true,
+          "integral actual Z phase (3, False, '+1', 6)": true,
+          "integral actual Z phase (3, False, '+1', 7)": true,
+          "integral actual Z phase (3, False, '+1', 8)": true,
+          "integral actual Z phase (3, False, '+1', 9)": true,
+          "integral actual Z phase (3, False, '+1', 10)": true,
+          "integral actual Z phase (3, False, '+1', 11)": true,
+          "integral actual Z phase (3, False, '-1', 0)": true,
+          "integral actual Z phase (3, False, '-1', 1)": true,
+          "integral actual Z phase (3, False, '-1', 2)": true,
+          "integral actual Z phase (3, False, '-1', 3)": true,
+          "integral actual Z phase (3, False, '-1', 4)": true,
+          "integral actual Z phase (3, False, '-1', 5)": true,
+          "integral actual Z phase (3, False, '-1', 6)": true,
+          "integral actual Z phase (3, False, '-1', 7)": true,
+          "integral actual Z phase (3, False, '-1', 8)": true,
+          "integral actual Z phase (3, False, '-1', 9)": true,
+          "integral actual Z phase (3, False, '-1', 10)": true,
+          "integral actual Z phase (3, False, '-1', 11)": true,
+          "integral actual Z phase (3, True, '+i', 0)": true,
+          "integral actual Z phase (3, True, '+i', 1)": true,
+          "integral actual Z phase (3, True, '+i', 2)": true,
+          "integral actual Z phase (3, True, '+i', 3)": true,
+          "integral actual Z phase (3, True, '+i', 4)": true,
+          "integral actual Z phase (3, True, '+i', 5)": true,
+          "integral actual Z phase (3, True, '+i', 6)": true,
+          "integral actual Z phase (3, True, '+i', 7)": true,
+          "integral actual Z phase (3, True, '+i', 8)": true,
+          "integral actual Z phase (3, True, '+i', 9)": true,
+          "integral actual Z phase (3, True, '+i', 10)": true,
+          "integral actual Z phase (3, True, '+i', 11)": true,
+          "integral actual Z phase (3, True, '-i', 0)": true,
+          "integral actual Z phase (3, True, '-i', 1)": true,
+          "integral actual Z phase (3, True, '-i', 2)": true,
+          "integral actual Z phase (3, True, '-i', 3)": true,
+          "integral actual Z phase (3, True, '-i', 4)": true,
+          "integral actual Z phase (3, True, '-i', 5)": true,
+          "integral actual Z phase (3, True, '-i', 6)": true,
+          "integral actual Z phase (3, True, '-i', 7)": true,
+          "integral actual Z phase (3, True, '-i', 8)": true,
+          "integral actual Z phase (3, True, '-i', 9)": true,
+          "integral actual Z phase (3, True, '-i', 10)": true,
+          "integral actual Z phase (3, True, '-i', 11)": true,
+          "whole coefficient kept 3": true,
+          "integral actual Z phase (5, False, '+1', 0)": true,
+          "integral actual Z phase (5, False, '+1', 1)": true,
+          "integral actual Z phase (5, False, '+1', 2)": true,
+          "integral actual Z phase (5, False, '+1', 3)": true,
+          "integral actual Z phase (5, False, '+1', 4)": true,
+          "integral actual Z phase (5, False, '+1', 5)": true,
+          "integral actual Z phase (5, False, '+1', 6)": true,
+          "integral actual Z phase (5, False, '+1', 7)": true,
+          "integral actual Z phase (5, False, '+1', 8)": true,
+          "integral actual Z phase (5, False, '+1', 9)": true,
+          "integral actual Z phase (5, False, '+1', 10)": true,
+          "integral actual Z phase (5, False, '+1', 11)": true,
+          "integral actual Z phase (5, False, '-1', 0)": true,
+          "integral actual Z phase (5, False, '-1', 1)": true,
+          "integral actual Z phase (5, False, '-1', 2)": true,
+          "integral actual Z phase (5, False, '-1', 3)": true,
+          "integral actual Z phase (5, False, '-1', 4)": true,
+          "integral actual Z phase (5, False, '-1', 5)": true,
+          "integral actual Z phase (5, False, '-1', 6)": true,
+          "integral actual Z phase (5, False, '-1', 7)": true,
+          "integral actual Z phase (5, False, '-1', 8)": true,
+          "integral actual Z phase (5, False, '-1', 9)": true,
+          "integral actual Z phase (5, False, '-1', 10)": true,
+          "integral actual Z phase (5, False, '-1', 11)": true,
+          "integral actual Z phase (5, True, '+i', 0)": true,
+          "integral actual Z phase (5, True, '+i', 1)": true,
+          "integral actual Z phase (5, True, '+i', 2)": true,
+          "integral actual Z phase (5, True, '+i', 3)": true,
+          "integral actual Z phase (5, True, '+i', 4)": true,
+          "integral actual Z phase (5, True, '+i', 5)": true,
+          "integral actual Z phase (5, True, '+i', 6)": true,
+          "integral actual Z phase (5, True, '+i', 7)": true,
+          "integral actual Z phase (5, True, '+i', 8)": true,
+          "integral actual Z phase (5, True, '+i', 9)": true,
+          "integral actual Z phase (5, True, '+i', 10)": true,
+          "integral actual Z phase (5, True, '+i', 11)": true,
+          "integral actual Z phase (5, True, '-i', 0)": true,
+          "integral actual Z phase (5, True, '-i', 1)": true,
+          "integral actual Z phase (5, True, '-i', 2)": true,
+          "integral actual Z phase (5, True, '-i', 3)": true,
+          "integral actual Z phase (5, True, '-i', 4)": true,
+          "integral actual Z phase (5, True, '-i', 5)": true,
+          "integral actual Z phase (5, True, '-i', 6)": true,
+          "integral actual Z phase (5, True, '-i', 7)": true,
+          "integral actual Z phase (5, True, '-i', 8)": true,
+          "integral actual Z phase (5, True, '-i', 9)": true,
+          "integral actual Z phase (5, True, '-i', 10)": true,
+          "integral actual Z phase (5, True, '-i', 11)": true,
+          "whole coefficient kept 5": true,
+          "integral actual Z phase (7, False, '+1', 0)": true,
+          "integral actual Z phase (7, False, '+1', 1)": true,
+          "integral actual Z phase (7, False, '+1', 2)": true,
+          "integral actual Z phase (7, False, '+1', 3)": true,
+          "integral actual Z phase (7, False, '+1', 4)": true,
+          "integral actual Z phase (7, False, '+1', 5)": true,
+          "integral actual Z phase (7, False, '+1', 6)": true,
+          "integral actual Z phase (7, False, '+1', 7)": true,
+          "integral actual Z phase (7, False, '+1', 8)": true,
+          "integral actual Z phase (7, False, '+1', 9)": true,
+          "integral actual Z phase (7, False, '+1', 10)": true,
+          "integral actual Z phase (7, False, '+1', 11)": true,
+          "integral actual Z phase (7, False, '-1', 0)": true,
+          "integral actual Z phase (7, False, '-1', 1)": true,
+          "integral actual Z phase (7, False, '-1', 2)": true,
+          "integral actual Z phase (7, False, '-1', 3)": true,
+          "integral actual Z phase (7, False, '-1', 4)": true,
+          "integral actual Z phase (7, False, '-1', 5)": true,
+          "integral actual Z phase (7, False, '-1', 6)": true,
+          "integral actual Z phase (7, False, '-1', 7)": true,
+          "integral actual Z phase (7, False, '-1', 8)": true,
+          "integral actual Z phase (7, False, '-1', 9)": true,
+          "integral actual Z phase (7, False, '-1', 10)": true,
+          "integral actual Z phase (7, False, '-1', 11)": true,
+          "integral actual Z phase (7, True, '+i', 0)": true,
+          "integral actual Z phase (7, True, '+i', 1)": true,
+          "integral actual Z phase (7, True, '+i', 2)": true,
+          "integral actual Z phase (7, True, '+i', 3)": true,
+          "integral actual Z phase (7, True, '+i', 4)": true,
+          "integral actual Z phase (7, True, '+i', 5)": true,
+          "integral actual Z phase (7, True, '+i', 6)": true,
+          "integral actual Z phase (7, True, '+i', 7)": true,
+          "integral actual Z phase (7, True, '+i', 8)": true,
+          "integral actual Z phase (7, True, '+i', 9)": true,
+          "integral actual Z phase (7, True, '+i', 10)": true,
+          "integral actual Z phase (7, True, '+i', 11)": true,
+          "integral actual Z phase (7, True, '-i', 0)": true,
+          "integral actual Z phase (7, True, '-i', 1)": true,
+          "integral actual Z phase (7, True, '-i', 2)": true,
+          "integral actual Z phase (7, True, '-i', 3)": true,
+          "integral actual Z phase (7, True, '-i', 4)": true,
+          "integral actual Z phase (7, True, '-i', 5)": true,
+          "integral actual Z phase (7, True, '-i', 6)": true,
+          "integral actual Z phase (7, True, '-i', 7)": true,
+          "integral actual Z phase (7, True, '-i', 8)": true,
+          "integral actual Z phase (7, True, '-i', 9)": true,
+          "integral actual Z phase (7, True, '-i', 10)": true,
+          "integral actual Z phase (7, True, '-i', 11)": true,
+          "whole coefficient kept 7": true,
+          "integral actual Z phase (9, False, '+1', 0)": true,
+          "integral actual Z phase (9, False, '+1', 1)": true,
+          "integral actual Z phase (9, False, '+1', 2)": true,
+          "integral actual Z phase (9, False, '+1', 3)": true,
+          "integral actual Z phase (9, False, '+1', 4)": true,
+          "integral actual Z phase (9, False, '+1', 5)": true,
+          "integral actual Z phase (9, False, '+1', 6)": true,
+          "integral actual Z phase (9, False, '+1', 7)": true,
+          "integral actual Z phase (9, False, '+1', 8)": true,
+          "integral actual Z phase (9, False, '+1', 9)": true,
+          "integral actual Z phase (9, False, '+1', 10)": true,
+          "integral actual Z phase (9, False, '+1', 11)": true,
+          "integral actual Z phase (9, False, '-1', 0)": true,
+          "integral actual Z phase (9, False, '-1', 1)": true,
+          "integral actual Z phase (9, False, '-1', 2)": true,
+          "integral actual Z phase (9, False, '-1', 3)": true,
+          "integral actual Z phase (9, False, '-1', 4)": true,
+          "integral actual Z phase (9, False, '-1', 5)": true,
+          "integral actual Z phase (9, False, '-1', 6)": true,
+          "integral actual Z phase (9, False, '-1', 7)": true,
+          "integral actual Z phase (9, False, '-1', 8)": true,
+          "integral actual Z phase (9, False, '-1', 9)": true,
+          "integral actual Z phase (9, False, '-1', 10)": true,
+          "integral actual Z phase (9, False, '-1', 11)": true,
+          "integral actual Z phase (9, True, '+i', 0)": true,
+          "integral actual Z phase (9, True, '+i', 1)": true,
+          "integral actual Z phase (9, True, '+i', 2)": true,
+          "integral actual Z phase (9, True, '+i', 3)": true,
+          "integral actual Z phase (9, True, '+i', 4)": true,
+          "integral actual Z phase (9, True, '+i', 5)": true,
+          "integral actual Z phase (9, True, '+i', 6)": true,
+          "integral actual Z phase (9, True, '+i', 7)": true,
+          "integral actual Z phase (9, True, '+i', 8)": true,
+          "integral actual Z phase (9, True, '+i', 9)": true,
+          "integral actual Z phase (9, True, '+i', 10)": true,
+          "integral actual Z phase (9, True, '+i', 11)": true,
+          "integral actual Z phase (9, True, '-i', 0)": true,
+          "integral actual Z phase (9, True, '-i', 1)": true,
+          "integral actual Z phase (9, True, '-i', 2)": true,
+          "integral actual Z phase (9, True, '-i', 3)": true,
+          "integral actual Z phase (9, True, '-i', 4)": true,
+          "integral actual Z phase (9, True, '-i', 5)": true,
+          "integral actual Z phase (9, True, '-i', 6)": true,
+          "integral actual Z phase (9, True, '-i', 7)": true,
+          "integral actual Z phase (9, True, '-i', 8)": true,
+          "integral actual Z phase (9, True, '-i', 9)": true,
+          "integral actual Z phase (9, True, '-i', 10)": true,
+          "integral actual Z phase (9, True, '-i', 11)": true,
+          "whole coefficient kept 9": true,
+          "integral actual Z phase (11, False, '+1', 0)": true,
+          "integral actual Z phase (11, False, '+1', 1)": true,
+          "integral actual Z phase (11, False, '+1', 2)": true,
+          "integral actual Z phase (11, False, '+1', 3)": true,
+          "integral actual Z phase (11, False, '+1', 4)": true,
+          "integral actual Z phase (11, False, '+1', 5)": true,
+          "integral actual Z phase (11, False, '+1', 6)": true,
+          "integral actual Z phase (11, False, '+1', 7)": true,
+          "integral actual Z phase (11, False, '+1', 8)": true,
+          "integral actual Z phase (11, False, '+1', 9)": true,
+          "integral actual Z phase (11, False, '+1', 10)": true,
+          "integral actual Z phase (11, False, '+1', 11)": true,
+          "integral actual Z phase (11, False, '-1', 0)": true,
+          "integral actual Z phase (11, False, '-1', 1)": true,
+          "integral actual Z phase (11, False, '-1', 2)": true,
+          "integral actual Z phase (11, False, '-1', 3)": true,
+          "integral actual Z phase (11, False, '-1', 4)": true,
+          "integral actual Z phase (11, False, '-1', 5)": true,
+          "integral actual Z phase (11, False, '-1', 6)": true,
+          "integral actual Z phase (11, False, '-1', 7)": true,
+          "integral actual Z phase (11, False, '-1', 8)": true,
+          "integral actual Z phase (11, False, '-1', 9)": true,
+          "integral actual Z phase (11, False, '-1', 10)": true,
+          "integral actual Z phase (11, False, '-1', 11)": true,
+          "integral actual Z phase (11, True, '+i', 0)": true,
+          "integral actual Z phase (11, True, '+i', 1)": true,
+          "integral actual Z phase (11, True, '+i', 2)": true,
+          "integral actual Z phase (11, True, '+i', 3)": true,
+          "integral actual Z phase (11, True, '+i', 4)": true,
+          "integral actual Z phase (11, True, '+i', 5)": true,
+          "integral actual Z phase (11, True, '+i', 6)": true,
+          "integral actual Z phase (11, True, '+i', 7)": true,
+          "integral actual Z phase (11, True, '+i', 8)": true,
+          "integral actual Z phase (11, True, '+i', 9)": true,
+          "integral actual Z phase (11, True, '+i', 10)": true,
+          "integral actual Z phase (11, True, '+i', 11)": true,
+          "integral actual Z phase (11, True, '-i', 0)": true,
+          "integral actual Z phase (11, True, '-i', 1)": true,
+          "integral actual Z phase (11, True, '-i', 2)": true,
+          "integral actual Z phase (11, True, '-i', 3)": true,
+          "integral actual Z phase (11, True, '-i', 4)": true,
+          "integral actual Z phase (11, True, '-i', 5)": true,
+          "integral actual Z phase (11, True, '-i', 6)": true,
+          "integral actual Z phase (11, True, '-i', 7)": true,
+          "integral actual Z phase (11, True, '-i', 8)": true,
+          "integral actual Z phase (11, True, '-i', 9)": true,
+          "integral actual Z phase (11, True, '-i', 10)": true,
+          "integral actual Z phase (11, True, '-i', 11)": true,
+          "whole coefficient kept 11": true
+        },
+        "records": {
+          "frame_inner_word": "baBA",
+          "positive_frame_inner_word": "abAB",
+          "negative_frame_action": {
+            "a": "baBabAB",
+            "b": "baBAbabAB"
+          },
+          "positive_frame_action": {
+            "a": "abABabaBA",
+            "b": "abAbaBA"
+          },
+          "frame_SU6_sign": 1,
+          "puncture_SU6_sign": -1,
+          "frame_weak_sign": -1,
+          "paired_E8_frame_matches_puncture": true,
+          "order3_word": {
+            "a": "b",
+            "b": "AB"
+          },
+          "positive_coordinate_T_homology": [
+            [
+              1,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "classes": [
+            {
+              "m": 1,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      16
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      16
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      1
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      3
+                    ],
+                    [
+                      5,
+                      3
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      9
+                    ],
+                    [
+                      11,
+                      9
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      9
+                    ],
+                    [
+                      2,
+                      9
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      3
+                    ],
+                    [
+                      8,
+                      3
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                0,
+                0
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      9
+                    ],
+                    [
+                      2,
+                      9
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      3
+                    ],
+                    [
+                      8,
+                      3
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      3
+                    ],
+                    [
+                      5,
+                      3
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      9
+                    ],
+                    [
+                      11,
+                      9
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 3,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      17
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      11
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      17
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      11
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                17,
+                17
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      17
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      11
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      17
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      11
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 5,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      16
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      1
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      1
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      16
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      9
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      3
+                    ],
+                    [
+                      8,
+                      9
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      9
+                    ],
+                    [
+                      5,
+                      3
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      3
+                    ],
+                    [
+                      11,
+                      9
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                0,
+                0
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      9
+                    ],
+                    [
+                      5,
+                      3
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      3
+                    ],
+                    [
+                      11,
+                      9
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      9
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      3
+                    ],
+                    [
+                      8,
+                      9
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 7,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      16
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      1
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      1
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      16
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      9
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      9
+                    ],
+                    [
+                      8,
+                      3
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      3
+                    ],
+                    [
+                      5,
+                      9
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      9
+                    ],
+                    [
+                      11,
+                      3
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                0,
+                0
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      3
+                    ],
+                    [
+                      5,
+                      9
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      9
+                    ],
+                    [
+                      11,
+                      3
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      9
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      9
+                    ],
+                    [
+                      8,
+                      3
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 9,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      11
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      17
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      11
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      17
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                11,
+                11
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      11
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      17
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      11
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      17
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 11,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      16
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      16
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      1
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      9
+                    ],
+                    [
+                      5,
+                      9
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      3
+                    ],
+                    [
+                      11,
+                      3
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      9
+                    ],
+                    [
+                      8,
+                      9
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                0,
+                0
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      9
+                    ],
+                    [
+                      8,
+                      9
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      9
+                    ],
+                    [
+                      5,
+                      9
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      3
+                    ],
+                    [
+                      11,
+                      3
+                    ]
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        "all_passed": true,
+        "scope": "supplied orbifold flat bundle and leading complex trace gluing; physical projected transport/reality not earned"
+      },
+      "reference": {
+        "checks": {
+          "separate negative frame word": true,
+          "separate positive frame word": true,
+          "separate wrong frame orientation rejected": true,
+          "separate frame not trivial": true,
+          "separate order3 exact": true,
+          "separate order4 exact": true,
+          "separate based lift distinction": true,
+          "Gaussian normalized frame plus": true,
+          "Gaussian actual puncture minus": true,
+          "Gaussian order3 retained centre": true,
+          "Gaussian order4 retained centre": true,
+          "Fraction frame weak sign 1": true,
+          "Fraction order3 weak sign 1": true,
+          "Fraction frame weak sign 3": true,
+          "Fraction order3 weak sign 3": true,
+          "Fraction frame weak sign 5": true,
+          "Fraction order3 weak sign 5": true,
+          "Fraction frame weak sign 7": true,
+          "Fraction order3 weak sign 7": true,
+          "Fraction frame weak sign 9": true,
+          "Fraction order3 weak sign 9": true,
+          "Fraction frame weak sign 11": true,
+          "Fraction order3 weak sign 11": true,
+          "prior whole family exact transport": true,
+          "Fraction keeps all248 1": true,
+          "Fraction keeps all248 3": true,
+          "Fraction keeps all248 5": true,
+          "Fraction keeps all248 7": true,
+          "Fraction keeps all248 9": true,
+          "Fraction keeps all248 11": true,
+          "Gaussian canonical frame unitary": true,
+          "Gaussian normal reversal exchanges extremes": true
+        },
+        "records": {
+          "frame_inner_word": "baBA",
+          "positive_frame_inner_word": "abAB",
+          "negative_frame_action": {
+            "a": "baBabAB",
+            "b": "baBAbabAB"
+          },
+          "positive_frame_action": {
+            "a": "abABabaBA",
+            "b": "abAbaBA"
+          },
+          "frame_SU6_sign": 1,
+          "puncture_SU6_sign": -1,
+          "frame_weak_sign": -1,
+          "paired_E8_frame_matches_puncture": true,
+          "order3_word": {
+            "a": "b",
+            "b": "AB"
+          },
+          "positive_coordinate_T_homology": [
+            [
+              1,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "classes": [
+            {
+              "m": 1,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      16
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      16
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      1
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      3
+                    ],
+                    [
+                      5,
+                      3
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      9
+                    ],
+                    [
+                      11,
+                      9
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      9
+                    ],
+                    [
+                      2,
+                      9
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      3
+                    ],
+                    [
+                      8,
+                      3
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                0,
+                0
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      9
+                    ],
+                    [
+                      2,
+                      9
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      3
+                    ],
+                    [
+                      8,
+                      3
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      3
+                    ],
+                    [
+                      5,
+                      3
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      9
+                    ],
+                    [
+                      11,
+                      9
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 3,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      17
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      11
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      17
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      11
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                17,
+                17
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      17
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      11
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      17
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      11
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 5,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      16
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      1
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      1
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      16
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      9
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      3
+                    ],
+                    [
+                      8,
+                      9
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      9
+                    ],
+                    [
+                      5,
+                      3
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      3
+                    ],
+                    [
+                      11,
+                      9
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                0,
+                0
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      9
+                    ],
+                    [
+                      5,
+                      3
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      3
+                    ],
+                    [
+                      11,
+                      9
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      9
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      3
+                    ],
+                    [
+                      8,
+                      9
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 7,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      16
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      1
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      1
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      16
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      9
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      9
+                    ],
+                    [
+                      8,
+                      3
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      3
+                    ],
+                    [
+                      5,
+                      9
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      9
+                    ],
+                    [
+                      11,
+                      3
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                0,
+                0
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      3
+                    ],
+                    [
+                      5,
+                      9
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      9
+                    ],
+                    [
+                      11,
+                      3
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      9
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      9
+                    ],
+                    [
+                      8,
+                      3
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 9,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      11
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      17
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      11
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      17
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                11,
+                11
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      11
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      17
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      17
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      11
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      17
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      17
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ]
+            },
+            {
+              "m": 11,
+              "Z_even": [
+                [
+                  "+1",
+                  [
+                    [
+                      0,
+                      32
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      16
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      16
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      1
+                    ]
+                  ]
+                ],
+                [
+                  "-1",
+                  [
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      0
+                    ],
+                    [
+                      3,
+                      11
+                    ],
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      5,
+                      0
+                    ],
+                    [
+                      6,
+                      16
+                    ],
+                    [
+                      7,
+                      0
+                    ],
+                    [
+                      8,
+                      0
+                    ],
+                    [
+                      9,
+                      11
+                    ],
+                    [
+                      10,
+                      0
+                    ],
+                    [
+                      11,
+                      0
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      9
+                    ],
+                    [
+                      5,
+                      9
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      3
+                    ],
+                    [
+                      11,
+                      3
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      9
+                    ],
+                    [
+                      8,
+                      9
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ]
+              ],
+              "Z_odd_zero_phase_ranks": [
+                0,
+                0
+              ],
+              "inverse_Z_odd": [
+                [
+                  "+i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      8
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      9
+                    ],
+                    [
+                      8,
+                      9
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      8
+                    ],
+                    [
+                      11,
+                      8
+                    ]
+                  ]
+                ],
+                [
+                  "-i",
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      8
+                    ],
+                    [
+                      2,
+                      8
+                    ],
+                    [
+                      3,
+                      0
+                    ],
+                    [
+                      4,
+                      9
+                    ],
+                    [
+                      5,
+                      9
+                    ],
+                    [
+                      6,
+                      0
+                    ],
+                    [
+                      7,
+                      8
+                    ],
+                    [
+                      8,
+                      8
+                    ],
+                    [
+                      9,
+                      0
+                    ],
+                    [
+                      10,
+                      3
+                    ],
+                    [
+                      11,
+                      3
+                    ]
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        "all_passed": true,
+        "scope": "independent finite exact geometric controls; not physical mode transport or nonauthor analytic acceptance"
+      }
+    },
+    "actual_source_antecedent": {
+      "checks": {
+        "credited complete real action record hash": true,
+        "credited all local covariant coefficient tensors": true,
+        "complete coordinate or exterior geometry input": true,
+        "actual scalar Noether charge is opposite old label": true,
+        "actual scalar charge Hermitian involution C odd": true,
+        "actual scalar generator acts on both scalar vertices": true,
+        "actual scalar charge preserves all geometric and external velocities": true,
+        "opposite normalized MW rank16 frame": true,
+        "opposite full Majorana and Nambu time": true,
+        "same named flavours opposite Weyl unit phase map": true,
+        "all six full scalar and derivative coefficients mapped": true,
+        "all external kinetic and gauge coefficients mapped": true,
+        "actual physical isometry reality and true R map": true,
+        "actual holomorphic covector connection 0": true,
+        "all actual tensor field connection entries 0": true,
+        "all actual opposite MW spin R connection entries 0": true,
+        "source connection actual Clifford compatibility (0, 0)": true,
+        "source connection actual Clifford compatibility (0, 1)": true,
+        "source connection actual Clifford compatibility (0, 2)": true,
+        "source connection actual Clifford compatibility (0, 3)": true,
+        "actual holomorphic covector connection 1": true,
+        "all actual tensor field connection entries 1": true,
+        "all actual opposite MW spin R connection entries 1": true,
+        "source connection actual Clifford compatibility (1, 0)": true,
+        "source connection actual Clifford compatibility (1, 1)": true,
+        "source connection actual Clifford compatibility (1, 2)": true,
+        "source connection actual Clifford compatibility (1, 3)": true,
+        "actual holomorphic covector connection 2": true,
+        "all actual tensor field connection entries 2": true,
+        "all actual opposite MW spin R connection entries 2": true,
+        "source connection actual Clifford compatibility (2, 0)": true,
+        "source connection actual Clifford compatibility (2, 1)": true,
+        "source connection actual Clifford compatibility (2, 2)": true,
+        "source connection actual Clifford compatibility (2, 3)": true,
+        "actual holomorphic covector connection 3": true,
+        "all actual tensor field connection entries 3": true,
+        "all actual opposite MW spin R connection entries 3": true,
+        "source connection actual Clifford compatibility (3, 0)": true,
+        "source connection actual Clifford compatibility (3, 1)": true,
+        "source connection actual Clifford compatibility (3, 2)": true,
+        "source connection actual Clifford compatibility (3, 3)": true,
+        "whole contracted curved source expression agrees": true,
+        "actual scalar supersymmetry lambda connection parallel": true,
+        "reversed and omitted R fail tensor and lambda comparisons": true,
+        "dropping full mixed term fails curved action comparison": true,
+        "full actual source geometric weights not named by analogy": true,
+        "whole variable angle source tensor transition": true,
+        "full global chart intertwiner including MW and true R": true,
+        "full variable angle curved differential covariance": true,
+        "wrong chart R inhomogeneous term rejected": true,
+        "actual source central spin and R signs cancel": true,
+        "geometric S4 and ST central angle relations": true,
+        "source chart C reality": true,
+        "actual whole cutoff maps to opposite MW minus plane": true,
+        "both real normal physical Green forms vanish": true,
+        "actual cutoff geometric charts glue": true,
+        "wrong unchanged old MW cutoff rejected": true,
+        "noncommuting gauge coefficient factor retained": true
+      },
+      "records": {
+        "physical_map": {
+          "phases": [
+            "1",
+            "1",
+            "-1",
+            "-I"
+          ],
+          "flavour_permutation": "identity",
+          "scalar_reflection": false,
+          "target": "opposite10D MW, same Gamma and true scalar-plane R",
+          "matrix": [
+            [
+              0,
+              0,
+              "1"
+            ],
+            [
+              3,
+              4,
+              "-1"
+            ],
+            [
+              5,
+              2,
+              "1"
+            ],
+            [
+              6,
+              6,
+              "-I"
+            ],
+            [
+              9,
+              15,
+              "-1"
+            ],
+            [
+              10,
+              11,
+              "I"
+            ],
+            [
+              12,
+              13,
+              "I"
+            ],
+            [
+              15,
+              9,
+              "-I"
+            ],
+            [
+              17,
+              14,
+              "-1"
+            ],
+            [
+              18,
+              10,
+              "I"
+            ],
+            [
+              20,
+              12,
+              "I"
+            ],
+            [
+              23,
+              8,
+              "-I"
+            ],
+            [
+              24,
+              1,
+              "1"
+            ],
+            [
+              27,
+              5,
+              "-1"
+            ],
+            [
+              29,
+              3,
+              "1"
+            ],
+            [
+              30,
+              7,
+              "-I"
+            ]
+          ]
+        },
+        "charges": {
+          "source_left_R": [
+            "1",
+            "-1",
+            "-1",
+            "1"
+          ],
+          "geometric_weights": [
+            0,
+            2,
+            1,
+            -3
+          ],
+          "source_fields": [
+            "scalar lambda",
+            "holomorphic one-form psi0",
+            "holomorphic one-form psi1",
+            "anti-canonical psi2"
+          ],
+          "scalar_C2_connection": "2a_R = conjugate canonical connection, supplied canonical twist"
+        },
+        "connections": {
+          "source": [
+            [
+              [
+                2,
+                2,
+                "-I"
+              ],
+              [
+                3,
+                3,
+                "-I"
+              ],
+              [
+                4,
+                4,
+                "-I/2"
+              ],
+              [
+                5,
+                5,
+                "-I/2"
+              ],
+              [
+                6,
+                6,
+                "3*I/2"
+              ],
+              [
+                7,
+                7,
+                "3*I/2"
+              ],
+              [
+                10,
+                10,
+                "I"
+              ],
+              [
+                11,
+                11,
+                "I"
+              ],
+              [
+                12,
+                12,
+                "I/2"
+              ],
+              [
+                13,
+                13,
+                "I/2"
+              ],
+              [
+                14,
+                14,
+                "-3*I/2"
+              ],
+              [
+                15,
+                15,
+                "-3*I/2"
+              ]
+            ],
+            [],
+            [
+              [
+                2,
+                4,
+                "-I/2"
+              ],
+              [
+                3,
+                5,
+                "-I/2"
+              ],
+              [
+                4,
+                2,
+                "-I/2"
+              ],
+              [
+                5,
+                3,
+                "-I/2"
+              ],
+              [
+                10,
+                12,
+                "I/2"
+              ],
+              [
+                11,
+                13,
+                "I/2"
+              ],
+              [
+                12,
+                10,
+                "I/2"
+              ],
+              [
+                13,
+                11,
+                "I/2"
+              ]
+            ],
+            [
+              [
+                2,
+                4,
+                "-1/2"
+              ],
+              [
+                3,
+                5,
+                "-1/2"
+              ],
+              [
+                4,
+                2,
+                "1/2"
+              ],
+              [
+                5,
+                3,
+                "1/2"
+              ],
+              [
+                10,
+                12,
+                "-1/2"
+              ],
+              [
+                11,
+                13,
+                "-1/2"
+              ],
+              [
+                12,
+                10,
+                "1/2"
+              ],
+              [
+                13,
+                11,
+                "1/2"
+              ]
+            ]
+          ],
+          "direct_tensor": [
+            [
+              [
+                2,
+                2,
+                "-I"
+              ],
+              [
+                3,
+                3,
+                "-I"
+              ],
+              [
+                4,
+                4,
+                "-I/2"
+              ],
+              [
+                5,
+                5,
+                "-I/2"
+              ],
+              [
+                6,
+                6,
+                "3*I/2"
+              ],
+              [
+                7,
+                7,
+                "3*I/2"
+              ],
+              [
+                10,
+                10,
+                "I"
+              ],
+              [
+                11,
+                11,
+                "I"
+              ],
+              [
+                12,
+                12,
+                "I/2"
+              ],
+              [
+                13,
+                13,
+                "I/2"
+              ],
+              [
+                14,
+                14,
+                "-3*I/2"
+              ],
+              [
+                15,
+                15,
+                "-3*I/2"
+              ]
+            ],
+            [],
+            [
+              [
+                2,
+                4,
+                "-I/2"
+              ],
+              [
+                3,
+                5,
+                "-I/2"
+              ],
+              [
+                4,
+                2,
+                "-I/2"
+              ],
+              [
+                5,
+                3,
+                "-I/2"
+              ],
+              [
+                10,
+                12,
+                "I/2"
+              ],
+              [
+                11,
+                13,
+                "I/2"
+              ],
+              [
+                12,
+                10,
+                "I/2"
+              ],
+              [
+                13,
+                11,
+                "I/2"
+              ]
+            ],
+            [
+              [
+                2,
+                4,
+                "-1/2"
+              ],
+              [
+                3,
+                5,
+                "-1/2"
+              ],
+              [
+                4,
+                2,
+                "1/2"
+              ],
+              [
+                5,
+                3,
+                "1/2"
+              ],
+              [
+                10,
+                12,
+                "-1/2"
+              ],
+              [
+                11,
+                13,
+                "-1/2"
+              ],
+              [
+                12,
+                10,
+                "1/2"
+              ],
+              [
+                13,
+                11,
+                "1/2"
+              ]
+            ]
+          ],
+          "contracted": [
+            [
+              0,
+              11,
+              "I"
+            ],
+            [
+              1,
+              10,
+              "-I"
+            ],
+            [
+              4,
+              15,
+              "3/2"
+            ],
+            [
+              5,
+              14,
+              "-3/2"
+            ],
+            [
+              6,
+              13,
+              "1/2"
+            ],
+            [
+              7,
+              12,
+              "-1/2"
+            ],
+            [
+              8,
+              3,
+              "-I"
+            ],
+            [
+              9,
+              2,
+              "I"
+            ],
+            [
+              12,
+              7,
+              "3/2"
+            ],
+            [
+              13,
+              6,
+              "-3/2"
+            ],
+            [
+              14,
+              5,
+              "1/2"
+            ],
+            [
+              15,
+              4,
+              "-1/2"
+            ]
+          ]
+        },
+        "metric_units": "orthonormal ell units; all geometric spin and R coefficients carry common inverse ell",
+        "boundary": {
+          "epsilon": -1,
+          "rank": 8,
+          "same_scalar_coordinates": true,
+          "normal_bosonic_end": "credited 2E-2div J, BOTH ends unchanged in this new dictionary",
+          "scope": "smooth finite local trace and actual global chart bundle, not singular graph/gauge limit"
+        },
+        "old_gate": "same oriented old MW identification remains false; earlier reflected dictionaries and reversed end remain valid in their own scope",
+        "scope": "explicit supplied curved fermion spin/R/tensor connection on stated orbifold; not full curved bosonic/SUSY completion, singular domain or SM/three/gravity"
+      },
+      "all_passed": true
+    },
+    "global_tube": {
+      "summand": "y**2/(n**2*y**2 + (m + n*x)**2)**2",
+      "hyp_log_gradient": [
+        [
+          0,
+          0,
+          "-4*n*y*(m + n*x)/(m**2 + 2*m*n*x + n**2*x**2 + n**2*y**2)"
+        ],
+        [
+          1,
+          0,
+          "2*(m + n*x - n*y)*(m + n*x + n*y)/(m**2 + 2*m*n*x + n**2*x**2 + n**2*y**2)"
+        ]
+      ],
+      "series": "all nonzero integer pairs; locally normal convergence and exact reindexing in PROOF",
+      "sigma": "E2^(-1/4)",
+      "radius": "epsilon*sqrt(area)*sigma,0<epsilon<1/2",
+      "actual_characteristic": [
+        [
+          0,
+          0,
+          "(2*partial_y_log_sigma*y + 1)/(2*y)"
+        ],
+        [
+          1,
+          0,
+          "-partial_x_log_sigma"
+        ],
+        [
+          3,
+          0,
+          "1"
+        ]
+      ],
+      "Levi": "(4 - y**2*(E2_x**2 + E2_y**2)/E2**2)/(4*y**2)",
+      "strictness_certificate": "weighted positive variance with q_(1,0),q_(0,1)",
+      "explicit_lower_bound": "4*y**4/(E2**2*(x**2 + y**2)**3)",
+      "cusp_two_term_Levi": "3*positive_cusp_b*(4*positive_cusp_a*y**3 + positive_cusp_b)/(4*y**2*(positive_cusp_a*y**3 + positive_cusp_b)**2)",
+      "not_uniform_at_cusp": true,
+      "infinite_series_interval_evaluated": false
+    },
+    "forms_and_flow": {
+      "alpha": [
+        [
+          0,
+          0,
+          "1/(2*y)"
+        ],
+        [
+          2,
+          0,
+          "1"
+        ]
+      ],
+      "Hilbert": [
+        [
+          0,
+          0,
+          "cos(2*phi)/y"
+        ],
+        [
+          1,
+          0,
+          "sin(2*phi)/y"
+        ]
+      ],
+      "geodesic_Reeb": [
+        [
+          0,
+          0,
+          "y*cos(2*phi)"
+        ],
+        [
+          1,
+          0,
+          "y*sin(2*phi)"
+        ],
+        [
+          2,
+          0,
+          "-cos(2*phi)/2"
+        ]
+      ],
+      "normal_contact_volume": "1/(2*y**2)",
+      "geodesic_contact_volume": "-2/y**2",
+      "Lie_geodesic_alpha": [
+        [
+          0,
+          0,
+          "-sin(2*phi)/(2*y)"
+        ],
+        [
+          1,
+          0,
+          "cos(2*phi)/(2*y)"
+        ]
+      ],
+      "physical_time_or_interaction_identified": false
+    },
+    "central_lifts": {
+      "half_frame_word_action": {
+        "a": "abABA",
+        "b": "aBA"
+      },
+      "full_frame_word_action": {
+        "a": "abABabaBA",
+        "b": "abAbaBA"
+      },
+      "half_frame_SU6": [
+        [
+          0,
+          0,
+          "-1"
+        ],
+        [
+          1,
+          1,
+          "-1"
+        ],
+        [
+          2,
+          2,
+          "-1"
+        ],
+        [
+          3,
+          3,
+          "-1"
+        ],
+        [
+          4,
+          4,
+          "-1"
+        ],
+        [
+          5,
+          5,
+          "-1"
+        ]
+      ],
+      "full_normal_circle_discriminant_link": 12,
+      "regular_Seifert_link": 6,
+      "ordinary_trefoil_meridian_link": 1,
+      "all_classes": [
+        {
+          "weak_class": 1,
+          "phases": [
+            "1",
+            "i",
+            "-1",
+            "-i"
+          ],
+          "even": [
+            134,
+            0,
+            2,
+            0
+          ],
+          "odd": [
+            0,
+            56,
+            0,
+            56
+          ]
+        },
+        {
+          "weak_class": 3,
+          "phases": [
+            "1",
+            "i",
+            "-1",
+            "-i"
+          ],
+          "even": [
+            134,
+            0,
+            2,
+            0
+          ],
+          "odd": [
+            0,
+            56,
+            0,
+            56
+          ]
+        },
+        {
+          "weak_class": 5,
+          "phases": [
+            "1",
+            "i",
+            "-1",
+            "-i"
+          ],
+          "even": [
+            134,
+            0,
+            2,
+            0
+          ],
+          "odd": [
+            0,
+            56,
+            0,
+            56
+          ]
+        },
+        {
+          "weak_class": 7,
+          "phases": [
+            "1",
+            "i",
+            "-1",
+            "-i"
+          ],
+          "even": [
+            134,
+            0,
+            2,
+            0
+          ],
+          "odd": [
+            0,
+            56,
+            0,
+            56
+          ]
+        },
+        {
+          "weak_class": 9,
+          "phases": [
+            "1",
+            "i",
+            "-1",
+            "-i"
+          ],
+          "even": [
+            134,
+            0,
+            2,
+            0
+          ],
+          "odd": [
+            0,
+            56,
+            0,
+            56
+          ]
+        },
+        {
+          "weak_class": 11,
+          "phases": [
+            "1",
+            "i",
+            "-1",
+            "-i"
+          ],
+          "even": [
+            134,
+            0,
+            2,
+            0
+          ],
+          "odd": [
+            0,
+            56,
+            0,
+            56
+          ]
+        }
+      ],
+      "not_a_physical_charge_or_family_count": true
+    },
+    "source_boundary_map": {
+      "geometric_weight_generator": [
+        [
+          2,
+          2,
+          "2*I"
+        ],
+        [
+          3,
+          3,
+          "2*I"
+        ],
+        [
+          4,
+          4,
+          "I"
+        ],
+        [
+          5,
+          5,
+          "I"
+        ],
+        [
+          6,
+          6,
+          "-3*I"
+        ],
+        [
+          7,
+          7,
+          "-3*I"
+        ],
+        [
+          10,
+          10,
+          "-2*I"
+        ],
+        [
+          11,
+          11,
+          "-2*I"
+        ],
+        [
+          12,
+          12,
+          "-I"
+        ],
+        [
+          13,
+          13,
+          "-I"
+        ],
+        [
+          14,
+          14,
+          "3*I"
+        ],
+        [
+          15,
+          15,
+          "3*I"
+        ]
+      ],
+      "leading_connection": [
+        [
+          [
+            2,
+            2,
+            "-I/y"
+          ],
+          [
+            3,
+            3,
+            "-I/y"
+          ],
+          [
+            4,
+            4,
+            "-I/(2*y)"
+          ],
+          [
+            5,
+            5,
+            "-I/(2*y)"
+          ],
+          [
+            6,
+            6,
+            "3*I/(2*y)"
+          ],
+          [
+            7,
+            7,
+            "3*I/(2*y)"
+          ],
+          [
+            10,
+            10,
+            "I/y"
+          ],
+          [
+            11,
+            11,
+            "I/y"
+          ],
+          [
+            12,
+            12,
+            "I/(2*y)"
+          ],
+          [
+            13,
+            13,
+            "I/(2*y)"
+          ],
+          [
+            14,
+            14,
+            "-3*I/(2*y)"
+          ],
+          [
+            15,
+            15,
+            "-3*I/(2*y)"
+          ]
+        ],
+        [],
+        [
+          [
+            2,
+            2,
+            "-2*I"
+          ],
+          [
+            3,
+            3,
+            "-2*I"
+          ],
+          [
+            4,
+            4,
+            "-I"
+          ],
+          [
+            5,
+            5,
+            "-I"
+          ],
+          [
+            6,
+            6,
+            "3*I"
+          ],
+          [
+            7,
+            7,
+            "3*I"
+          ],
+          [
+            10,
+            10,
+            "2*I"
+          ],
+          [
+            11,
+            11,
+            "2*I"
+          ],
+          [
+            12,
+            12,
+            "I"
+          ],
+          [
+            13,
+            13,
+            "I"
+          ],
+          [
+            14,
+            14,
+            "-3*I"
+          ],
+          [
+            15,
+            15,
+            "-3*I"
+          ]
+        ]
+      ],
+      "scalar_P_connection": "3i alpha, curvature3i dx^dy/(2y^2)",
+      "not_replaced_by_CR_beta": true,
+      "scope": "leading geometric connection on compact base subsets; not full singular/Higgs operator or boundary dynamics"
+    },
+    "meaning": {
+      "arena_is_normal_boundary_under_explicit_map": true,
+      "smooth_global_embedded_strict_contact_tube_constructed": true,
+      "uniform_positive_cusp_Levi_constant": false,
+      "source_connection_and_based_lifts_retained": true,
+      "geodesic_flow_identified_as_physical_time_or_boundary_Reeb": false,
+      "true_end_action_or_state_selected": false,
+      "global_stationary_Higgs_derived": false,
+      "physical_SM_three_parameters_gravity_derived": false,
+      "same_author_not_independent_acceptance": true
+    }
+  },
+  "all_passed": true
+}

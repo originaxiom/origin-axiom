@@ -38,3 +38,11 @@ stabilizer are now computed. These do not settle the boundary spectrum.
 
 Any new important test is proof/criterion/hash sealed and published before
 execution; preserve all failed runs and exact source state as here.
+
+October16 successor: surface_arena_boundary_2026_10_16 now constructs
+an actual globally embedded smooth shrinking tube and strict CR contact,
+44/44each at5c0f3ca60. The old FIXED-radius fit obstruction remains;
+the normalized variable-tube Levi instead tends0 at the cusp. No
+fixed-tube constant or changed-boundary spectral count transfers.
+That packet's NEXT_TEST keeps the actual source functional/state,
+global stationary fields and full charged-domain/physics duties.
