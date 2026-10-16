@@ -1,0 +1,52 @@
+{
+  "grade": "Post-reading source review, not retrospective preregistration or an independent execution-time certificate",
+  "cases": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/EXTENSION_2.md",
+      "role": "scientific design for a specified compact E6 model",
+      "scope_anchor": "P0: this tests a **declared four-dimensional",
+      "identity_anchor": "Already banked:",
+      "prior_anchor": "already_banked.py",
+      "result_path": "reports/physical_bridge_2026_09_05/vacuum_results_first_run.json",
+      "review": "Scope, paid model inputs, existing identities and named prior-art searches are stated in the original text. Required literal labels are absent. This review does not newly certify the scalar spectrum or its first execution time."
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md",
+      "role": "disclosed post-result competing-minimum control on the same action",
+      "scope_anchor": "same** potential",
+      "identity_anchor": "R4 explicitly disclaimed uniqueness",
+      "prior_anchor": null,
+      "inherits_context_from": "reports/physical_bridge_2026_09_05/EXTENSION_2.md",
+      "result_path": "reports/physical_bridge_2026_09_05/vacuum_orientation_first_run.json",
+      "review": "The control states its timing after the first result and before this control. It reuses the R4 context; it is not a new blind prediction or a fresh corpus-wide prior-art sweep."
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md",
+      "role": "scientific scope audit of fixed elements versus fixed subgroups",
+      "scope_anchor": "P0 / BANKED IDENTITY:",
+      "identity_anchor": "B1084's order-96 group and census",
+      "prior_anchor": "Already-banked query",
+      "result_path": "reports/physical_bridge_2026_09_05/g2_isolation_first_run.json",
+      "review": "The identity marker is present. The prior-art marker is absent, but the body lists the query and previously read results. The retained first output is the disclosed invalid JSON capture, not a successful export."
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md",
+      "role": "post-failure serialization repair, no new scientific calculation",
+      "scope_anchor": "scientific instrument unchanged",
+      "identity_anchor": "BANKED IDENTITY / P0:",
+      "prior_anchor": null,
+      "inherits_context_from": "reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md",
+      "result_path": "reports/physical_bridge_2026_09_05/g2_isolation_rerun_1.json",
+      "review": "The text retains the failed export and unchanged original science, and specifies lossless conversion controls. Its identity label has different punctuation; the literal checker does not accept it. It does not claim a new mathematics result."
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md",
+      "role": "scientific design for a specified global source ansatz and finite boundary pair",
+      "scope_anchor": "P0: the commuting, topologically trivial gauge-bundle ansatz",
+      "identity_anchor": "R12's entire Cubes implementation is read and reused",
+      "prior_anchor": "## Prior work, searched rather than discarded",
+      "result_path": "reports/physical_bridge_2026_09_05/global_singular_first_run.json",
+      "review": "The original text states exact quantifiers, prior-art searches and source/domain limitations. Both literal labels are absent. The associated findings already disclosed the marker debt and distinguished it from the analytic result."
+    }
+  ]
+}

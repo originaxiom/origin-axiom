@@ -20966,3 +20966,34 @@ packet/history re-audits. Policy/history questions to main stay precise;
 read-only specification work continues under ACTIVE approved goal.
 No new scientific packet, supplied-parent extension, selected physical
 three/SM/gravity/observer/qualia or full TOE completion is claimed.
+
+October16 source specification phase2:20complete proof readings now
+property-mapped,165initial rows pending,16main source readings; zero
+completed packet re-audits. Seven conditional model families kept
+distinct, R4/R15 explicitly added beyond the proof-only population.
+ACT_REGISTER's future-update/output descent criterion retained without
+equating a formal register to physical observation or qualia.
+Five original design histories inspected: unchanged/seal-matching and
+strict ancestors of first committed outputs, not certificates of first
+execution time or a waiver for647literal-marker paths. R40six science/
+24input hashes agree; faulty encoding comparison and earlier launch
+failure preserved and repaired. Four full before/after states restored
+from immutable Git with their exact published SHA256s, deterministic
+compressed inventories and labeled reconstruction receipts retained.
+Original temporary raw directories unavailable; original public
+captures/hashes remain, no historical process receipt reconstructed.
+
+At owner's fresh-sync request, all eleven branch heads fetched and
+server-compared; main4cc3658a8's SCRUTINISE_THE_PAPER relay read in full.
+All draft3section sources/appendices personally read and relevantPDF
+pages inspected. Focused own-branch relay gives six major scope/
+completeness and two minor corrections, each page/phrase/reason/fix:
+Euler versus any index, distinct ends, two canonical cuts versus an
+exhaustive law, not-shown versus failed frames, orbit theorem versus
+invariant dynamics, and the omitted grading-preserving positive.
+Stored B1667grid/control populations checked, not a new uniformization
+run. F3's actual completed-flat-background algebraic result and its
+uncomputed physical index retained. Main alone adjudicates; no paper
+edits, bibliography/all-number certificate or fresh scientific run.
+Last full governance remains28PASS/twoFAIL atf2, not this tree. Goal
+ACTIVE; approved specification/native-map/actual-end-law order holds.

@@ -1,5 +1,22 @@
 # Changelog
 
+October16 all eleven remote branch heads fetched/server-compared;
+main4cc3658a8 paper relay read in full. Focused personal draft3 review
+sent on own branch: preserve scoped F3 and parity-graded positives;
+repair any-index, all-frame-failure and exhaustive-canonical-end
+overreads; distinguish puncture section/base cusp/Higgs cutoff. Six
+major/two minor findings await main, not independent all-number review.
+Specification source coverage now20mapped/165initial pending,16main
+sources, zero completed packet re-audits. Seven conditional model
+families separated, no compulsory union of supplied assumptions.
+Five original design histories checked; metadata encoding false alarm
+preserved/repaired, R40six/24source-input checks agree. Four complete
+old state inventories reconstructed from Git with exact published
+before/after SHA256s and durable compressed evidence. Not original
+historical captures or new science; no gate/baseline waiver. Last
+governance28PASS/twoFAIL remains f2, not current-tree certification.
+New science paused; physical specification/end-law goal stays ACTIVE.
+
 October16 terminal repair atf2c8355cb:12selectedPASS129.32s,16pins/
 18134tracked/index unchanged, governance28PASS/twoFAIL122.939799s.
 Vacuity/path/relay PASS, attribution/provenance not waived. Full captures

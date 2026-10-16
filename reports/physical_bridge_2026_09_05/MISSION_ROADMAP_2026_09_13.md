@@ -1,5 +1,16 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+October16 paper review joins, not replaces, the approved reorientation.
+All eleven fetched heads server-compared at main4cc3658a8. Main's full
+paper request read; focused scope review is sender-owned and OPEN.
+Recover B1606's parity-graded positive while deriving whether the
+actual end law must preserve that grading. Keep fibre puncture,
+modular cusp unit and Higgs cutoff separate; two canonical cuts are
+conditional candidates, not an exhaustive physical law. Specification
+coverage20source mappings/165pending,16main readings; historical and
+full-packet coverage incomplete. New supplied-parent science paused,
+governance policy/history duties not waived, goal ACTIVE.
+
 Latest terminal maintenance atf2c8355cb:12selectedPASS129.32s,16pins/
 18134tracked/index unchanged; governance28PASS/twoFAIL, attribution and
 seal-provenance. Vacuity/path/relay checks PASS; policy/history questions

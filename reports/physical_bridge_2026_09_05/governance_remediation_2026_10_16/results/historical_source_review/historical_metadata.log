@@ -1,0 +1,11 @@
+{
+  "reviewed_gate_prefix_paths": 5,
+  "sources_unchanged_since_creation": 5,
+  "strict_ancestry_to_committed_result": 5,
+  "latest_seals_match": 5,
+  "R40_science_unchanged": 6,
+  "R40_science_total": 6,
+  "R40_frozen_inputs_unchanged": 24,
+  "R40_frozen_input_total": 24,
+  "scientific_code_executed": false
+}

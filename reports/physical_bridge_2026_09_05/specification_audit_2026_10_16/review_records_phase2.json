@@ -1,0 +1,31 @@
+{
+  "extends": "review_records.json",
+  "grade": "Complete proof-source reading and conditional dependency mapping, with R40 producer/test inspection; not complete packet re-audits or fresh scientific executions.",
+  "added_inventory_mappings": {
+    "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md": ["Determinant-preserving coefficient enlargement", "Compact E8 gauge frame and complete charged roster", "Metric and current transport"],
+    "reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_PROOF.md": ["Compact harmonic-family admission", "Positive physical kinetic coefficient"],
+    "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_PROOF.md": ["Resolved singular-source family", "Fixed-domain spectral pairing"],
+    "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md": ["Three parity quaternion doublets", "Finite-distance spin Dirac realization", "Graded self-adjoint domain", "Complete cusp versus finite-distance domain"],
+    "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/PROOF.md": ["Physical kinetic operator and twist", "Coefficient-sensitive versus coefficient-blind boundary response"],
+    "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/PROOF.md": ["Physical kinetic operator and twist", "Angular boundary ellipticity and reality"],
+    "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md": ["Supplied curved parent action", "Physical kinetic operator and twist", "Boundary variation of the interacting source"],
+    "reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md": ["Sufficient retained record for declared updates and outputs"],
+    "reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md": ["Actual coefficient type rather than equal rank", "Complete parent gauge kernel and peripheral sectors"],
+    "reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_PROOF.md": ["Full-parent character detector", "Compact harmonic-family admission"]
+  },
+  "added_external_sources_read_completely": [
+    "frontier/B1609_the_even_subweave/FINDINGS.md",
+    "frontier/B1609_the_even_subweave/verification/even_subweave.py",
+    "tests/test_b1609_the_even_subweave.py",
+    "frontier/B1609_the_even_subweave/ARTIFACT_HASHES.txt",
+    "frontier/B1651_where_a_higgs_can_couple/FINDINGS.md",
+    "frontier/B1651_where_a_higgs_can_couple/ADDENDUM_2026-10-14_the_szego_reading.md",
+    "frontier/B1654_the_norm_of_the_boundary_class/FINDINGS.md"
+  ],
+  "noninventory_cases": [
+    "R4 compact E6 scalar action and its competing-minimum control: EXTENSION_2.md and EXTENSION_2_CONTROL.md",
+    "R15 prescribed singular-source ansatz and full finite boundary pair: GLOBAL_SINGULAR_DESIGN.md and GLOBAL_SINGULAR.md"
+  ],
+  "crosswalk": "PARENT_SPECIFICATION_CASES_2026_10_16.md",
+  "historical_deleted_and_findings_only_coverage": "Partial explicit additions only; the complete historical, deleted and findings-only population is still unreconciled."
+}

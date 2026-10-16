@@ -34,6 +34,15 @@ This is source-reading coverage, not ten complete packet re-audits or
 fresh scientific executions. Source blobs and hashes are checked by the
 metadata-only reconcile_coverage.rb; the original inventory is retained.
 
+The second reconciliation, [reconciliation_phase2.json](specification_audit_2026_10_16/reconciliation_phase2.json),
+extends that immutable first record to twenty proof-source mappings,
+165 initial rows pending and sixteen main dependency-source readings.
+[Conditional construction cases](PARENT_SPECIFICATION_CASES_2026_10_16.md)
+separate seven model families, including explicit R4/R15 cases outside
+the proof-only population. None of these counts denotes complete packet
+re-audits or fresh mathematical executions. Historical and deleted
+coverage is still incomplete.
+
 The first nine property rows below do not complete any population-wide
 review. Results recorded
 only in FINDINGS or legacy reports, historical/deleted paths, additional

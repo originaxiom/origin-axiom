@@ -1,0 +1,12 @@
+{
+  "grade": "Git-derived reconstruction, not an original historical raw capture or a new scientific run",
+  "source_head": "34459b80cdc2482268c875fb7f62a3f8e2508b2c",
+  "tracked_files": 18104,
+  "source_pins": 16,
+  "published_state_sha256": "cd2ab76f977ef99d2a0a1d9fbd50905b234ce29f74e2b6598d0de2b4933bf9ab",
+  "reconstructed_state_sha256": "cd2ab76f977ef99d2a0a1d9fbd50905b234ce29f74e2b6598d0de2b4933bf9ab",
+  "matches_published_before_and_after": true,
+  "uncompressed_bytes": 3459000,
+  "gzip_sha256": "0231da22d26b4f6936b412fe352112f5a612b33241185431049653e8a2283811",
+  "scientific_code_executed": false
+}

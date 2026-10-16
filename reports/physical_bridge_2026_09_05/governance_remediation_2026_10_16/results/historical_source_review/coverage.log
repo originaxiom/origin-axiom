@@ -1,0 +1,24 @@
+{
+  "scope": "Current primary proof artifacts at the two named heads; stored upstream and capture copies excluded. Packet grouping and historical/deleted coverage still require review. Not a count of all research results or commits.",
+  "reading_grade": "Complete proof-source reading and conditional dependency mapping, with R40 producer/test inspection; not complete packet re-audits or fresh scientific executions.",
+  "review_records": [
+    {
+      "path": "review_records_phase2.json",
+      "sha256": "1bf76d5a762103ab59b89967d41d6eba7a7a5906efa5426460914d9d7b1efd18"
+    },
+    {
+      "path": "review_records.json",
+      "sha256": "aa16c0b84df97c0241ddd063c56ff5c837ba121c2751655d3a5e9c948c2de985"
+    }
+  ],
+  "inventory_rows": 185,
+  "proofs_source_read_and_property_mapped": 20,
+  "remaining_initial_inventory_rows": 165,
+  "complete_packet_reaudits_claimed": 0,
+  "external_dependency_source_readings": 16,
+  "unreconciled_coverage": "Partial explicit additions only; the complete historical, deleted and findings-only population is still unreconciled.",
+  "noninventory_cases": [
+    "R4 compact E6 scalar action and its competing-minimum control: EXTENSION_2.md and EXTENSION_2_CONTROL.md",
+    "R15 prescribed singular-source ansatz and full finite boundary pair: GLOBAL_SINGULAR_DESIGN.md and GLOBAL_SINGULAR.md"
+  ]
+}

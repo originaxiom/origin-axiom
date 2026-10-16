@@ -1,0 +1,449 @@
+{
+  "grade": "Post-reading source review, not retrospective preregistration or an independent execution-time certificate",
+  "source_head": "9a8d45fe7abcbee41950bebf696b5df00f7dc200",
+  "design_rows": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/EXTENSION_2.md",
+      "role": "scientific design for a specified compact E6 model",
+      "scope_anchor": "P0: this tests a **declared four-dimensional",
+      "identity_anchor": "Already banked:",
+      "prior_anchor": "already_banked.py",
+      "result_path": "reports/physical_bridge_2026_09_05/vacuum_results_first_run.json",
+      "review": "Scope, paid model inputs, existing identities and named prior-art searches are stated in the original text. Required literal labels are absent. This review does not newly certify the scalar spectrum or its first execution time.",
+      "bytes": 7119,
+      "sha256": "8d63ca2f1cad841b95606633fe01775f49ea967fd59ae6a8467a4c9d15e57691",
+      "literal_fields": {
+        "BANKED IDENTITY:": false,
+        "PRIOR ART:": false
+      },
+      "passages": {
+        "scope_anchor": {
+          "text": "P0: this tests a **declared four-dimensional",
+          "line": 9
+        },
+        "identity_anchor": {
+          "text": "Already banked:",
+          "line": 28
+        },
+        "prior_anchor": {
+          "text": "already_banked.py",
+          "line": 21
+        }
+      },
+      "creation_commit": "0c47bcacc02847416d77c22dfb06767fea639848",
+      "original_source_unchanged": true,
+      "first_committed_result": "965343fd6e18553ba4db25505554c7943d1279e3",
+      "design_is_strict_ancestor_of_committed_result": true,
+      "latest_seal_matches": true,
+      "seal_rows": [
+        {
+          "line": 535,
+          "sha256": "8d63ca2f1cad841b95606633fe01775f49ea967fd59ae6a8467a4c9d15e57691"
+        }
+      ],
+      "actual_first_execution_time_certified_here": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md",
+      "role": "disclosed post-result competing-minimum control on the same action",
+      "scope_anchor": "same** potential",
+      "identity_anchor": "R4 explicitly disclaimed uniqueness",
+      "prior_anchor": null,
+      "inherits_context_from": "reports/physical_bridge_2026_09_05/EXTENSION_2.md",
+      "result_path": "reports/physical_bridge_2026_09_05/vacuum_orientation_first_run.json",
+      "review": "The control states its timing after the first result and before this control. It reuses the R4 context; it is not a new blind prediction or a fresh corpus-wide prior-art sweep.",
+      "bytes": 1400,
+      "sha256": "84d14c74c478994e9d4c6328f251de5c9e3d119d1545eeea96ca3b461f20e31c",
+      "literal_fields": {
+        "BANKED IDENTITY:": false,
+        "PRIOR ART:": false
+      },
+      "passages": {
+        "scope_anchor": {
+          "text": "same** potential",
+          "line": 5
+        },
+        "identity_anchor": {
+          "text": "R4 explicitly disclaimed uniqueness",
+          "line": 4
+        },
+        "prior_anchor": null
+      },
+      "creation_commit": "02a0d3ef12bc6b9c1c16c3547ffbbb800dd78f3a",
+      "original_source_unchanged": true,
+      "first_committed_result": "f1f9733924d13b7ed2425061acd9a7257b625aae",
+      "design_is_strict_ancestor_of_committed_result": true,
+      "latest_seal_matches": true,
+      "seal_rows": [
+        {
+          "line": 536,
+          "sha256": "84d14c74c478994e9d4c6328f251de5c9e3d119d1545eeea96ca3b461f20e31c"
+        }
+      ],
+      "actual_first_execution_time_certified_here": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md",
+      "role": "scientific scope audit of fixed elements versus fixed subgroups",
+      "scope_anchor": "P0 / BANKED IDENTITY:",
+      "identity_anchor": "B1084's order-96 group and census",
+      "prior_anchor": "Already-banked query",
+      "result_path": "reports/physical_bridge_2026_09_05/g2_isolation_first_run.json",
+      "review": "The identity marker is present. The prior-art marker is absent, but the body lists the query and previously read results. The retained first output is the disclosed invalid JSON capture, not a successful export.",
+      "bytes": 4272,
+      "sha256": "0a0e80e9bbdd91d56b8cf6195686de0e4752a2efcf0a884b647f03cb7b81042e",
+      "literal_fields": {
+        "BANKED IDENTITY:": true,
+        "PRIOR ART:": false
+      },
+      "passages": {
+        "scope_anchor": {
+          "text": "P0 / BANKED IDENTITY:",
+          "line": 3
+        },
+        "identity_anchor": {
+          "text": "B1084's order-96 group and census",
+          "line": 6
+        },
+        "prior_anchor": {
+          "text": "Already-banked query",
+          "line": 11
+        }
+      },
+      "creation_commit": "f3696b2101ecae21b671c5b55db2b8c48d8a87ab",
+      "original_source_unchanged": true,
+      "first_committed_result": "9812f5d5bfe22202a32a94082b42fb7546056f12",
+      "design_is_strict_ancestor_of_committed_result": true,
+      "latest_seal_matches": true,
+      "seal_rows": [
+        {
+          "line": 545,
+          "sha256": "0a0e80e9bbdd91d56b8cf6195686de0e4752a2efcf0a884b647f03cb7b81042e"
+        }
+      ],
+      "actual_first_execution_time_certified_here": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md",
+      "role": "post-failure serialization repair, no new scientific calculation",
+      "scope_anchor": "scientific instrument unchanged",
+      "identity_anchor": "BANKED IDENTITY / P0:",
+      "prior_anchor": null,
+      "inherits_context_from": "reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md",
+      "result_path": "reports/physical_bridge_2026_09_05/g2_isolation_rerun_1.json",
+      "review": "The text retains the failed export and unchanged original science, and specifies lossless conversion controls. Its identity label has different punctuation; the literal checker does not accept it. It does not claim a new mathematics result.",
+      "bytes": 1488,
+      "sha256": "33c925bfcfb6a16136c68d0ee458150d2c50cb1cc10199a98fb854e58fb3d63f",
+      "literal_fields": {
+        "BANKED IDENTITY:": false,
+        "PRIOR ART:": false
+      },
+      "passages": {
+        "scope_anchor": {
+          "text": "scientific instrument unchanged",
+          "line": 1
+        },
+        "identity_anchor": {
+          "text": "BANKED IDENTITY / P0:",
+          "line": 3
+        },
+        "prior_anchor": null
+      },
+      "creation_commit": "9812f5d5bfe22202a32a94082b42fb7546056f12",
+      "original_source_unchanged": true,
+      "first_committed_result": "98c3e153df9c8a6a94223dbc012240bff9895635",
+      "design_is_strict_ancestor_of_committed_result": true,
+      "latest_seal_matches": true,
+      "seal_rows": [
+        {
+          "line": 546,
+          "sha256": "33c925bfcfb6a16136c68d0ee458150d2c50cb1cc10199a98fb854e58fb3d63f"
+        }
+      ],
+      "actual_first_execution_time_certified_here": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md",
+      "role": "scientific design for a specified global source ansatz and finite boundary pair",
+      "scope_anchor": "P0: the commuting, topologically trivial gauge-bundle ansatz",
+      "identity_anchor": "R12's entire Cubes implementation is read and reused",
+      "prior_anchor": "## Prior work, searched rather than discarded",
+      "result_path": "reports/physical_bridge_2026_09_05/global_singular_first_run.json",
+      "review": "The original text states exact quantifiers, prior-art searches and source/domain limitations. Both literal labels are absent. The associated findings already disclosed the marker debt and distinguished it from the analytic result.",
+      "bytes": 10426,
+      "sha256": "6636323538a2801f2d47f90f8e01df7d23510f4dbf0e4eeaf988a94b7e22166d",
+      "literal_fields": {
+        "BANKED IDENTITY:": false,
+        "PRIOR ART:": false
+      },
+      "passages": {
+        "scope_anchor": {
+          "text": "P0: the commuting, topologically trivial gauge-bundle ansatz",
+          "line": 6
+        },
+        "identity_anchor": {
+          "text": "R12's entire Cubes implementation is read and reused",
+          "line": 41
+        },
+        "prior_anchor": {
+          "text": "## Prior work, searched rather than discarded",
+          "line": 17
+        }
+      },
+      "creation_commit": "8e0981a03fee982911e880b6f38d366114dadf57",
+      "original_source_unchanged": true,
+      "first_committed_result": "571ef15cd9eea68bf81b20f736ea6405fe4af033",
+      "design_is_strict_ancestor_of_committed_result": true,
+      "latest_seal_matches": true,
+      "seal_rows": [
+        {
+          "line": 554,
+          "sha256": "6636323538a2801f2d47f90f8e01df7d23510f4dbf0e4eeaf988a94b7e22166d"
+        }
+      ],
+      "actual_first_execution_time_certified_here": false
+    }
+  ],
+  "original_records_modified": false,
+  "gate_or_baseline_modified": false,
+  "historical_execution_compliance_certified": false,
+  "R40_custody": {
+    "grade": "existing source and saved-output consistency, not a fresh mathematical replay",
+    "seal_pin": "9e2d43ec8a6710ece4906b0b8468b58fdb84c0a5",
+    "sealed_science": [
+      {
+        "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_DESIGN.md",
+        "sealed_sha256": "ba5539e107e75348ebd699ea5c570726110887184f729750e19db14ea4813749",
+        "current_sha256": "ba5539e107e75348ebd699ea5c570726110887184f729750e19db14ea4813749",
+        "unchanged": true,
+        "encoding_neutral_comparison": true,
+        "changed_byte_rejected": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+        "sealed_sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b",
+        "current_sha256": "082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b",
+        "unchanged": true,
+        "encoding_neutral_comparison": true,
+        "changed_byte_rejected": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PRIOR.md",
+        "sealed_sha256": "364d29b5fcb59104fb34287fef0c6a56b71d0cd63f97f00de889285122c890dc",
+        "current_sha256": "364d29b5fcb59104fb34287fef0c6a56b71d0cd63f97f00de889285122c890dc",
+        "unchanged": true,
+        "encoding_neutral_comparison": true,
+        "changed_byte_rejected": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_INPUTS.json",
+        "sealed_sha256": "090b00ac9252d94d1bb825f55814cec9d98ac30059fbde31c4b8ef34907f9cb8",
+        "current_sha256": "090b00ac9252d94d1bb825f55814cec9d98ac30059fbde31c4b8ef34907f9cb8",
+        "unchanged": true,
+        "encoding_neutral_comparison": true,
+        "changed_byte_rejected": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/coefficient_parent.py",
+        "sealed_sha256": "0973a55c71fdaf65e0bb09fd2cf1caac54e4e832c85937556068f0e0609786fe",
+        "current_sha256": "0973a55c71fdaf65e0bb09fd2cf1caac54e4e832c85937556068f0e0609786fe",
+        "unchanged": true,
+        "encoding_neutral_comparison": true,
+        "changed_byte_rejected": true
+      },
+      {
+        "path": "tests/test_physical_bridge_coefficient_parent.py",
+        "sealed_sha256": "ab49c44f64b7dff998eda26b9014c38eae9ac62bd56b3e7acf6a18a84f7a3252",
+        "current_sha256": "ab49c44f64b7dff998eda26b9014c38eae9ac62bd56b3e7acf6a18a84f7a3252",
+        "unchanged": true,
+        "encoding_neutral_comparison": true,
+        "changed_byte_rejected": true
+      }
+    ],
+    "frozen_inputs": [
+      {
+        "path": "reports/physical_bridge_2026_09_05/finite_twist_reductivity.py",
+        "bytes": 11229,
+        "sha256": "b643eda1077dd590eb8567a072da3e27b3cc82bf45be5d5f170f008ff7c7695a",
+        "current_sha256": "b643eda1077dd590eb8567a072da3e27b3cc82bf45be5d5f170f008ff7c7695a",
+        "unchanged": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/parent_vertex.py",
+        "bytes": 14969,
+        "sha256": "8b308b0d783c3d04bfef8e3339c2b884bef7fe4da3c73a205651a08d2f243793",
+        "current_sha256": "8b308b0d783c3d04bfef8e3339c2b884bef7fe4da3c73a205651a08d2f243793",
+        "unchanged": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/mirror_interaction.py",
+        "bytes": 12614,
+        "sha256": "6430dc84022050fea50d3dd5edb4ee08a8c2c80cde6b5674f385812ac04ff6e1",
+        "current_sha256": "6430dc84022050fea50d3dd5edb4ee08a8c2c80cde6b5674f385812ac04ff6e1",
+        "unchanged": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/anomaly_completion.py",
+        "bytes": 10368,
+        "sha256": "2ffc445e9e06da918a67273f6874f7e525e053e65c58c19827f68389e054f133",
+        "current_sha256": "2ffc445e9e06da918a67273f6874f7e525e053e65c58c19827f68389e054f133",
+        "unchanged": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/holonomy_spectrum.py",
+        "bytes": 13365,
+        "sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f",
+        "current_sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f",
+        "unchanged": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/parent_background.py",
+        "bytes": 17578,
+        "sha256": "91945d36932be2d7ea40ea14a990376661fee91f0efe66968da19803dc20f127",
+        "current_sha256": "91945d36932be2d7ea40ea14a990376661fee91f0efe66968da19803dc20f127",
+        "unchanged": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/FINITE_TWIST.md",
+        "bytes": 15459,
+        "sha256": "cf66e870bd8c598bde965b6cdfb79c7254b0bb50fda2c6a85f99aa6cadda7202",
+        "current_sha256": "cf66e870bd8c598bde965b6cdfb79c7254b0bb50fda2c6a85f99aa6cadda7202",
+        "unchanged": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND.md",
+        "bytes": 7880,
+        "sha256": "fd460f1360f6d6e55c9d78ccb37074bf4572b6c42e1400e6b660df84528a529e",
+        "current_sha256": "fd460f1360f6d6e55c9d78ccb37074bf4572b6c42e1400e6b660df84528a529e",
+        "unchanged": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+        "bytes": 11372,
+        "sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866",
+        "current_sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866",
+        "unchanged": true
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/FORK_F01_RECEPTION_2026_09_20.md",
+        "bytes": 5602,
+        "sha256": "0bba94548717a8077369fa7eb1638de34be2f18d66c7cc4ba979195ff8902643",
+        "current_sha256": "0bba94548717a8077369fa7eb1638de34be2f18d66c7cc4ba979195ff8902643",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_mirror_quartic.py",
+        "bytes": 6003,
+        "sha256": "eda62f6d417e4d66fcf80025776b12794ca4d2c892c32451c031bf1a3d4445c8",
+        "current_sha256": "eda62f6d417e4d66fcf80025776b12794ca4d2c892c32451c031bf1a3d4445c8",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_mirror_interaction.py",
+        "bytes": 6450,
+        "sha256": "0e1b3874f523fe89a6cc70eb5d0235d42803b4af71b36f35733faa70f293a8af",
+        "current_sha256": "0e1b3874f523fe89a6cc70eb5d0235d42803b4af71b36f35733faa70f293a8af",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+        "bytes": 1139,
+        "sha256": "a88a70d26d3410dd54045e0a244e5311bdca2106bb1d055980db7a240a08587c",
+        "current_sha256": "a88a70d26d3410dd54045e0a244e5311bdca2106bb1d055980db7a240a08587c",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_anomaly_completion.py",
+        "bytes": 4662,
+        "sha256": "ed27cc6ada6f2be2b9b2e81fc11ae7a83fb3761cce2aef9e5b030250784e83c7",
+        "current_sha256": "ed27cc6ada6f2be2b9b2e81fc11ae7a83fb3761cce2aef9e5b030250784e83c7",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_anomaly_action_control.py",
+        "bytes": 2043,
+        "sha256": "d8b2042e6702d5be705425c0d121fba68ee4cdc958151a042c35d893739d3ce3",
+        "current_sha256": "d8b2042e6702d5be705425c0d121fba68ee4cdc958151a042c35d893739d3ce3",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_source_c3.py",
+        "bytes": 5403,
+        "sha256": "2519c3a1659df147283e61dd23896a4fe23ada86e1fac297f33f7f75e8c9b934",
+        "current_sha256": "2519c3a1659df147283e61dd23896a4fe23ada86e1fac297f33f7f75e8c9b934",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_global_poisson.py",
+        "bytes": 4974,
+        "sha256": "0389cfe1efe80ea5bb542c2eed0ca4a2cead219155b5706a42280ca7835b5b67",
+        "current_sha256": "0389cfe1efe80ea5bb542c2eed0ca4a2cead219155b5706a42280ca7835b5b67",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+        "bytes": 1802,
+        "sha256": "ccfa8351cf91ba7a6a2a68cd93ce1aa1cc6ad4ac8d0d7faf76651a3015b70937",
+        "current_sha256": "ccfa8351cf91ba7a6a2a68cd93ce1aa1cc6ad4ac8d0d7faf76651a3015b70937",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+        "bytes": 1808,
+        "sha256": "d20b4d9b5bdcdd7bfdd2207d44d57065420367a05621aff973d8b10650c9012f",
+        "current_sha256": "d20b4d9b5bdcdd7bfdd2207d44d57065420367a05621aff973d8b10650c9012f",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_yukawa_overlap.py",
+        "bytes": 4026,
+        "sha256": "bf2ec34ed3f2690ff631f671c060ea39607af9d8d37767c4fc88892a05109f6b",
+        "current_sha256": "bf2ec34ed3f2690ff631f671c060ea39607af9d8d37767c4fc88892a05109f6b",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_source_scalar.py",
+        "bytes": 4265,
+        "sha256": "20311262eccef6c18ce3ea103559f7fc410549bb96f59d1fe4de4bfa6817d27b",
+        "current_sha256": "20311262eccef6c18ce3ea103559f7fc410549bb96f59d1fe4de4bfa6817d27b",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_parent_vertex.py",
+        "bytes": 4557,
+        "sha256": "e50567bfb83c2c80a895fe5967594024811ff16247628f130b4ae5cb9c1dfe79",
+        "current_sha256": "e50567bfb83c2c80a895fe5967594024811ff16247628f130b4ae5cb9c1dfe79",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_parent_background.py",
+        "bytes": 5868,
+        "sha256": "dd1df37105904e883d43e6edd1e4a770b8107f77e42e9f8ed729f4a4d9e6027f",
+        "current_sha256": "dd1df37105904e883d43e6edd1e4a770b8107f77e42e9f8ed729f4a4d9e6027f",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_physical_bridge_finite_twist_reductivity.py",
+        "bytes": 3005,
+        "sha256": "d1fd767ed256898387edc3fa30ae28ffff24d29ca97787c023538d9105b29892",
+        "current_sha256": "d1fd767ed256898387edc3fa30ae28ffff24d29ca97787c023538d9105b29892",
+        "unchanged": true
+      }
+    ],
+    "native_public_sha256": "12171ed3ccc88e9d99737a059fe09d738aaf83c2375527287463e13a4c9211e8",
+    "native_matches_both_recorded_hashes": true,
+    "retained_remote_capture_matches_seal_pin": true,
+    "remote_timing_independently_certified_here": false
+  },
+  "summary": {
+    "reviewed_gate_prefix_paths": 5,
+    "sources_unchanged_since_creation": 5,
+    "strict_ancestry_to_committed_result": 5,
+    "latest_seals_match": 5,
+    "R40_science_unchanged": 6,
+    "R40_science_total": 6,
+    "R40_frozen_inputs_unchanged": 24,
+    "R40_frozen_input_total": 24,
+    "scientific_code_executed": false
+  }
+}

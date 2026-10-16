@@ -1,0 +1,89 @@
+# Post-reading metadata audit. No scientific producer or test is imported.
+require 'json'
+require 'digest'
+require 'open3'
+
+dest = ARGV.fetch(0)
+abort('refusing overwrite') if File.exist?(dest)
+repo = File.expand_path('../../..', __dir__)
+git = lambda do |*args|
+  out, err, status = Open3.capture3('git', '-C', repo, *args)
+  abort(err) unless status.success?
+  out
+end
+first_add = lambda do |path|
+  commits = git.call('log', '--reverse', '--diff-filter=A', '--format=%H', '--', path).lines.map(&:strip)
+  abort('no source creation commit: ' + path) if commits.empty?
+  commits.first
+end
+ledger = File.read(File.join(repo, 'docs/SEAL_LEDGER.md'))
+review = JSON.parse(File.read(File.join(__dir__, 'historical_design_reviews.json')))
+rows = review.fetch('cases').map do |item|
+  path = item.fetch('path')
+  bytes = File.binread(File.join(repo, path))
+  text = bytes.dup.force_encoding('UTF-8')
+  actual = Digest::SHA256.hexdigest(bytes)
+  created = first_add.call(path)
+  original = git.call('show', created + ':' + path)
+  output_created = first_add.call(item.fetch('result_path'))
+  _out, _err, relation = Open3.capture3('git', '-C', repo, 'merge-base', '--is-ancestor', created, output_created)
+  abort('ancestry lookup failed') unless [0, 1].include?(relation.exitstatus)
+  anchors = %w[scope_anchor identity_anchor prior_anchor].to_h do |key|
+    anchor = item[key]
+    line = anchor && text.lines.find_index { |body| body.include?(anchor) }
+    abort('declared source passage not found: ' + path + ' ' + key) if anchor && line.nil?
+    [key, anchor ? { 'text' => anchor, 'line' => line + 1 } : nil]
+  end
+  seals = ledger.lines.each_with_index.filter_map do |line, index|
+    next unless line.include?('`' + path + '`')
+    digest = line.match(/`([a-f0-9]{64})`/)
+    { 'line' => index + 1, 'sha256' => digest && digest[1] }
+  end
+  abort('source has no seal row') if seals.empty?
+  wrong = (actual[0] == '0' ? '1' : '0') + actual[1..]
+  abort('hash comparator failed its rejecting control') if Digest::SHA256.hexdigest(bytes) == wrong
+  item.merge('bytes' => bytes.bytesize, 'sha256' => actual,
+    'literal_fields' => %w[BANKED\ IDENTITY: PRIOR\ ART:].to_h { |field| [field, text.include?(field)] },
+    'passages' => anchors, 'creation_commit' => created,
+    'original_source_unchanged' => Digest::SHA256.hexdigest(original) == actual,
+    'first_committed_result' => output_created,
+    'design_is_strict_ancestor_of_committed_result' => created != output_created && relation.success?,
+    'latest_seal_matches' => seals.last['sha256'] == actual, 'seal_rows' => seals,
+    'actual_first_execution_time_certified_here' => false)
+end
+base = File.dirname(__dir__)
+receipt = JSON.parse(File.read(File.join(base, 'COEFFICIENT_PARENT_RECEIPTS.json')))
+inputs = JSON.parse(File.read(File.join(base, 'COEFFICIENT_PARENT_INPUTS.json')))
+science = receipt.fetch('sealed_paths').map do |path|
+  old = git.call('show', receipt.fetch('seal_pin') + ':' + path)
+  current = File.binread(File.join(repo, path))
+  { 'path' => path, 'sealed_sha256' => Digest::SHA256.hexdigest(old),
+    'current_sha256' => Digest::SHA256.hexdigest(current), 'unchanged' => old == current }
+end
+frozen = inputs.fetch('frozen_paths').map do |row|
+  actual = Digest::SHA256.file(File.join(repo, row.fetch('path'))).hexdigest
+  row.merge('current_sha256' => actual, 'unchanged' => actual == row.fetch('sha256'))
+end
+native = receipt.fetch('runs').fetch('native_first')
+native_path = File.join(repo, native.fetch('public_path'))
+native_sha = Digest::SHA256.file(native_path).hexdigest
+remote = File.read(File.join(base, 'COEFFICIENT_PARENT_SEAL_REMOTE_FIRST.txt')).split
+out = { 'grade' => review.fetch('grade'), 'source_head' => git.call('rev-parse', 'HEAD').strip,
+  'design_rows' => rows, 'original_records_modified' => false,
+  'gate_or_baseline_modified' => false, 'historical_execution_compliance_certified' => false,
+  'R40_custody' => { 'grade' => 'existing source and saved-output consistency, not a fresh mathematical replay',
+    'seal_pin' => receipt.fetch('seal_pin'), 'sealed_science' => science, 'frozen_inputs' => frozen,
+    'native_public_sha256' => native_sha,
+    'native_matches_both_recorded_hashes' => native_sha == native.fetch('public_sha256') &&
+      native_sha == native.fetch('receipt').fetch('log_sha256'),
+    'retained_remote_capture_matches_seal_pin' => remote == [receipt.fetch('seal_pin'), 'refs/heads/audit/physical-bridge-2026-09-05'],
+    'remote_timing_independently_certified_here' => false },
+  'summary' => { 'reviewed_gate_prefix_paths' => rows.size,
+    'sources_unchanged_since_creation' => rows.count { |r| r['original_source_unchanged'] },
+    'strict_ancestry_to_committed_result' => rows.count { |r| r['design_is_strict_ancestor_of_committed_result'] },
+    'latest_seals_match' => rows.count { |r| r['latest_seal_matches'] },
+    'R40_science_unchanged' => science.count { |r| r['unchanged'] },
+    'R40_science_total' => science.size, 'R40_frozen_inputs_unchanged' => frozen.count { |r| r['unchanged'] },
+    'R40_frozen_input_total' => frozen.size, 'scientific_code_executed' => false } }
+File.open(dest, 'wx') { |f| f.write(JSON.pretty_generate(out) + "\n") }
+puts JSON.pretty_generate(out.fetch('summary'))

@@ -1,5 +1,18 @@
 # Physical-bridge mission status and next questions
 
+October16 sync at main4cc3658a8: all eleven remote heads fetched and
+server-compared; main's paper-scrutiny relay personally read, focused
+review sent OPEN on this branch. Six major scope/completeness and two
+minor findings, not a fresh all-paper numerical certificate. Actual
+F3 scope stands; existing parity-graded extreme-domain positive must
+remain visible. Source coverage20proof mappings/165initial pending,
+16main dependency readings, seven conditional model cases separated.
+Historical five-design and exact-hash state recovery reports retained;
+no old-source/gate/baseline edits or new science. Last governance remains
+28PASS/twoFAIL atf2, not current-tree acceptance. Goal ACTIVE: actual
+critical-trace grading/action and admissible coupled end law remain
+the physical derivation target after governance resolution.
+
 Latest terminal maintenance atf2c8355cb:12selectedPASS129.32s, all16pins/
 18134tracked/index unchanged, governance28PASS/two remaining FAIL
 (attribution/provenance). Vacuity/path/relay repairs verified, no waiver

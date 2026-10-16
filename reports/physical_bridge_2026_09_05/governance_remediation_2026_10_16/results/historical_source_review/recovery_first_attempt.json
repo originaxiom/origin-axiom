@@ -1,0 +1,15 @@
+{
+  "command": [
+    "ruby",
+    "-EUTF-8",
+    "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/restore_state_from_git.rb",
+    "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/results/first_attempt/RUN.json",
+    "<private-capture>/reconstructed_first_attempt.json.gz",
+    "<private-capture>/reconstructed_first_attempt_receipt.json"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 3.570737999999892,
+  "log_bytes": 613,
+  "log_sha256": "389399d52b843f5e49b0f782dbcaa4b507fcad5364fcb1f28a9bb0fae77d25bb"
+}
