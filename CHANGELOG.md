@@ -1,5 +1,15 @@
 # Changelog
 
+Phase5 publication1e8dd8d22 pushed/server-confirmed. Staged precheck29PASS/
+one historical sealFAIL643paths,18379tracked/index/29pins unchanged; raw
+captures retained for separate custody publication. Eight further end/
+stationary proofs and three native producers personally source-read:
+the two-neutral magnetic extension is already present within its ansatz;
+global condensate and SM-gauge positives remain, end Gaussian retains
+charged endpoint modes under a supplied reference. New crosswalk/design
+record this before phase6 metadata changes. Certified coverage stays57/
+three aliases/125pending until controls; no scientific execution.
+
 Phase5 source32b5a376e verified:11metadata controls/all185pinned blobs PASS;
 57direct source/property mappings,three checked byte aliases,125pending and
 17external readings. Phase4 output unchanged except checker hash;18357tracked/

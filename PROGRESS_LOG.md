@@ -21271,3 +21271,22 @@ positives retained with dated repairs and restricted instability/pairing
 negatives. Actual physical field/lifts/two-slot trace/end and full charged
 spectrum remain. No new scientific producer or goal-completion claim;
 staged governance publication check follows separately, failures retained.
+
+Phase5 staged publication precheck completed29PASS/one historical seal
+FAIL,exit1/37.214451s,all643problems preserved. Complete18379tracked/index/
+29pins before/after identical. Validation reader exited0 before dependent
+commit1e8dd8d22; push and exact server head confirmed. Original raw receipts
+and states retained for separate lossless publication, not silently added
+to the earlier source envelope.
+
+Next source-only pass personally reads eight pending proofs and three
+complete native producers, with end-Gaussian correction and cusp-audit
+intake. END_MECHANISMS_AND_MAGNETIC_SCOPE preserves global stationary
+positives and actual g2/e6 algebras, two-neutral magnetic instability
+within its specified family, and charged endpoint content of the normal
+Gaussian under a supplied reference. Existing later amplitude result
+must not be called absent; neither is it a universal two-field exclusion.
+PHASE6_DESIGN precedes metadata changes; expected65direct/three aliases/
+117pending awaits reconciliation. Current certified coverage57/3/125
+unchanged. No scientific imports, execution or independent acceptance;
+physical field, true trace/end law and full goal remain unachieved.
