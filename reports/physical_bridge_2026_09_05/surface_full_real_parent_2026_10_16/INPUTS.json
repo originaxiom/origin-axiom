@@ -48,15 +48,19 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/DESIGN.md",
-      "sha256": "56a5e4773b21c6747b4e6a67e23432af82a2edf5e86a0daa7f5190e378ec8625"
+      "sha256": "8a97ab696e3a6b73de03c353d414f3d6f1fe32ece86a3a431c260b546ec25faf"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/POST_HOC_REPAIR.md",
+      "sha256": "954c8eb9d380aea9106780dd1c5cd582169660faa042bbf3c516ce275e6cf273"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/PROOF.md",
-      "sha256": "f1313753325a4697585f844ace0644f00fddd545e08314accf75105a5edb8f6c"
+      "sha256": "21ec3924a0fa747de5bfb37d6a1ec385b91ef71ca89b211efbe96ea533d7ff5a"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/analysis.py",
-      "sha256": "48acf5af6109f256713ec3584ba8740293f37f1a06aa8747cfa12c2e08e119a9"
+      "sha256": "f373a094e9aa6167eac49ed7621838a0e44ec4f4f4265509aaa914cbcf8e241d"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/execute.py",
@@ -76,7 +80,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/superfield.py",
-      "sha256": "c8c5537df65b564c8ee36a6a42a0c577880eae39ac8b545a2aaf9a760bc9ada5"
+      "sha256": "713078de45fb85e76f7574fce87903c4c57b5b6cee8e26c6b7ae856821003fb7"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/validate.rb",

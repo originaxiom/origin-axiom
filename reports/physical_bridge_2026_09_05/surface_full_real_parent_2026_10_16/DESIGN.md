@@ -32,6 +32,12 @@ unstated formula. Its actual D^2 coefficient and all kinetic norms must
 be derived. The WZW completion is credited; it vanishes in WZ since its
 first term has degree6. No full arbitrary-supergauge boundary proof.
 
+POST-HOC correction before second execution: the declared projector above
+was the OPPOSITE gauge frame from AGW's G->h^-1 G barh^-1. Use instead
++barD^2(G D_alpha G^-1)/4, derived from that transformation, not by fitting
+Clifford coefficients. See POST_HOC_REPAIR and immutable first_run sources.
+All action/map acceptance criteria remain; full dictionary not yet earned.
+
 Theta/Berezin/dagger are the previous real-superfield convention. V has
 the full WZ vector, gaugino and D components. V^2 retained, V^3=0. Chiral
 fields have actual external-coordinate shifts through second order.

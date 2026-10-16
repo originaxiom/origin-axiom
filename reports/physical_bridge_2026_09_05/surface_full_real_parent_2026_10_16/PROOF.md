@@ -22,6 +22,12 @@ external gamma matrices; Pauli algebra is checked. Gauge action is
 integral d2theta Tr(W^alpha W_alpha)/4+h.c., W=-barD^2(G^-1 D G)/4.
 Expand G=1+V+V^2/2 and G^-1=1-V+V^2/2, never just1+V when v!=0.
 
+POST-HOC correction before second execution: W as first declared above
+is not in the K density's chiral-left gauge frame. Replace it with
++barD^2(G D_alpha G^-1)/4. POST_HOC_REPAIR derives the transformation
+and explains the unchanged linear part. The original failed convention
+and full source set are retained; no other action/target parameter changes.
+
 Full real K density is DESIGN's adjacent-derivative expression. Write
 B_i=-sqrt2 partial_i G+C_i G. Its first factor equals G^-1 B_i^dag G^-1.
 Trace and derivative-of-inverse identities make the density real.

@@ -96,6 +96,7 @@ def run(cs,valid,method):
     ck('full WZ vector reality and inverse',a.eq(a.dag(ss['V']),ss['V']) and a.eq(a.nmul(ss['G'],ss['Gi']),a.one))
     ck('nonzero V squared retained V cubed zero',bool(ss['V2']) and not a.nmul(ss['V'],ss['V2']))
     ck('all actual chirals satisfy barD',all(not ss['BD'](c,j) for c in ss['C'] for j in range(2)))
+    ck('actual vector field strength is chiral',all(not ss['BD'](w,j) for w in ss['W'] for j in range(2)))
     ck('actual real K density',a.eqtr(a.dag(ss['K']),ss['K']))
     ck('actual F action real',eq(ss['F_component'],a.adj(ss['F_component'])))
     # Universal full-component equality modulo EXPLICIT retained divergences.
@@ -156,7 +157,7 @@ def run(cs,valid,method):
     ck('complete signed time metric',zero(ext[0]-M*clock))
     N=s.diag(*[v for bar in range(2) for j in range(4) for v in [1/s.sqrt(h[j]) if positive else 1]*6])
     exn=[cm(N*a0*N) for a0 in ext];dn=[cm(N*a0*N) for a0 in deriv];bn=[cm(N*a0*N) for a0 in bg]
-    maps=[];chosen=None
+    maps=[];rejected=[];chosen=None
     for perm in permutations(range(4)):
         P=s.zeros(48)
         for bar in range(2):
@@ -164,7 +165,8 @@ def run(cs,valid,method):
                 for k in range(6):P[(4*bar+perm[j])*6+k,(4*bar+j)*6+k]=1
         target=[cm(P.T*x*P) for x in fr['can']]
         phases,why=source.phase_map(bn,target)
-        if phases is None:continue
+        if phases is None:
+            rejected.append({'permutation':list(perm),'reason':why});continue
         U=s.diag(*[v for ph in phases+[s.conjugate(z) for z in phases] for v in [ph]*6]);V=P*U
         full=all(zero(x-V.T*y*V) for x,y in zip(bn,fr['can'])) and all(zero(x-V.T*y*V) for x,y in zip(exn,fr['ext'])) and all(zero(x-V.T*y*V) for x,y in zip(dn,fr['can'][:4]))
         maps.append({'permutation':list(perm),'phases':[str(z) for z in phases],'all_conjugates_and_external':full})
@@ -202,13 +204,16 @@ def run(cs,valid,method):
     noquart=a.add(VN,a.scale(a.trace(a.mul(a.comm(xs[2],xs[3]),a.comm(xs[2],xs[3]))),2))
     ck('normal quartic omission detected',not eq(noquart,residual))
     records['source']={'signed_time_weights':[str(x) for x in h],'all_local_flavour_maps':maps,
+        'all_rejected_flavour_maps':rejected,
         'direct_and_component_bulk_residual':encoded(a.add(qn,a.scale(qr,-1))),
         'native_retained_currents':{k:encoded(v) for k,v in sorted(jn.items())},
         'component_retained_currents':{k:encoded(v) for k,v in sorted(jr.items())},
         'actual_D_moment':encoded(mu),'actual_D_current':{k:encoded(v) for k,v in sorted(jD.items())}}
     records['complete_action_matrices']={'external_derivative':[source.sparse(x) for x in ext],
         'external_background':[source.sparse(x) for x in extbg],'internal_derivative':[source.sparse(x) for x in deriv],
-        'internal_background':[source.sparse(x) for x in bg]}
+        'internal_background':[source.sparse(x) for x in bg],
+        'canonical_internal':[source.sparse(x) for x in fr['can']],
+        'canonical_external':[source.sparse(x) for x in fr['ext']]}
     records['normal']={'source_potential':encoded(VN),'canonical_residual':encoded(residual),
         'factor':'2','scope':'same local normal real action including inherited BOTH-end rough-energy current, not new global vacuum'}
     records['status']='explicit supplied real parent and tested full local dictionary; no printed BHV, singular gauge/domain, global spectrum, SM/three/gravity or genesis acceptance'

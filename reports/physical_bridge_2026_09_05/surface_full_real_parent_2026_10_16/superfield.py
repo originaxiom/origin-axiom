@@ -80,7 +80,9 @@ def construct(sig):
     def DD(p,a):return add(left(p,a),*(scale(nmul(theta(b+2),ext(p,mu)),s.I*sig[mu][a,b]) for mu in range(4) for b in range(2)))
     def BD(p,b):return add(scale(left(p,b+2),-1),*(scale(nmul(theta(a),ext(p,mu)),-s.I*sig[mu][a,b]) for mu in range(4) for a in range(2)))
     def BD2(p):return scale(BD(BD(p,1),0),-2)
-    W=[scale(BD2(nmul(Gi,DD(G,a))),-s.Rational(1,4)) for a in range(2)]
+    # AGW's chiral-left frame: G -> h^-1 G barh^-1. The original
+    # opposite-frame declaration is retained in first_run and the repair note.
+    W=[scale(BD2(nmul(G,DD(Gi,a))),s.Rational(1,4)) for a in range(2)]
     WW=add(nmul(W[1],W[0]),scale(nmul(W[0],W[1]),-1))
     gauge_holo=scale(d2(ntrace(WW)),s.Rational(1,4))
     gauge=trace(add(gauge_holo,adj(gauge_holo)))
