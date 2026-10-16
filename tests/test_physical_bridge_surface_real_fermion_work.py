@@ -13,6 +13,8 @@ def cert():
     return data
 def test_complete_live_methods_and_actual_source(cert):
     assert cert[0]==cert[1] and cert[0]['all_passed'] and all(cert[0]['checks'].values())
+    assert cert[0]['checks']['actual positive time action calibrated not assumed']
+    assert cert[0]['checks']['unique source action versus normal Hamiltonian sign']
     for k in ('actual all nine velocities and full source reality','all16source components reconstructed',
               'complete248positive root basis not a small substitute','every actual E8 generator and parity acts faithfully',
               'complete compact conjugation and all gauge partners'):assert cert[0]['checks'][k]
@@ -31,6 +33,7 @@ def test_genuine_Grassmann_polynomial_and_dagger(cert):
     for sig in (1,-1):
         for k in ('actual real antisymmetric fermion work ','full exterior polynomial methods agree ',
                   'actual Grassmann dagger is Hermitian '):assert cert[0]['checks'][k+str(sig)]
+        assert cert[0]['checks']['calibrated real source action polynomial '+str(sig)]
     for k in ('commuting and trace only false negative controls','dagger without odd reversal rejected',
               'opposite real polynomial zero retained','known two generator real Grassmann control',
               'bare coefficient conjugation fails actual scalar reality'):assert cert[0]['checks'][k]

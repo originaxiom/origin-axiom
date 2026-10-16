@@ -63,3 +63,18 @@ action/reality and complex work are credited; this is the specific
 unverified full real contraction, not a claim fermionic work was absent.
 Fetched SM seat a54ed6e5f reads fourteen packets through8cef829a8;
 it explicitly did not rerun them, so that is intake, not analytic acceptance.
+
+## Source action sign calibration before successor execution
+
+The initial46checks and first12LIVE selection passed. An additional
+scope audit requires the actual positive-time and all9spatial action
+coefficients, not only their Hamiltonian quotient. Preserve that first
+record/full sources. Infer the UNIQUE overall sign relating static
+source action to the normal Hamiltonian functional from actual matrices,
+with both signs allowed. Prior is opposite sign, because the physical
+action contains i time derivative minus H. Save BOTH normal-functional
+and calibrated source-action Grassmann polynomials. Every prior check
+remains required. A sign cannot change nonvanishing, Hermiticity or
+total on-shell0, but naming both functionals "the source action" is not
+an earned map. This addendum/code/tests/proof/notice are resealed and
+published BEFORE successor. No changed source phase or kinetic target.

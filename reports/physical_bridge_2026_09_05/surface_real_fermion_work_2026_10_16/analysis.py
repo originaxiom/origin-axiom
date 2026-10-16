@@ -77,6 +77,16 @@ def run(method):
     critical=load(HERE.parent/'surface_critical_cauchy_2026_10_16/analysis.py','real_work_critical')
     vv,ext,cs,engine,valid,old=parent.setup(method);roots,up,dn,hvec,E,F,H,P,Q,G,eta,tau,parity,pair=root.gauge(engine,old)
     I=eye(16);C16=kron(s.Matrix([[0,1],[1,0]]),eye(8));R=-s.I*vv[4]*vv[5];B=s.I*vv[2]*vv[3];Mh=(3*vv[0]+4*vv[1])/5;W=R*B*Mh
+    # ACTION sign is not fixed by a stationary Hamiltonian/Euler equation.
+    twist=parent.load(HERE.parent/'surface_real_twist_2026_10_16/analysis.py','real_work_action_reader')
+    actionraw=json.loads((HERE.parent/'surface_full_real_parent_2026_10_16/results/gauge_frame_run/probe.stdout.log').read_text())['records']['complete_action_matrices']
+    time=twist.strip(twist.read(actionraw['external_derivative'][0]))
+    actual_actions=[twist.strip(twist.read(v)) for v in actionraw['external_derivative'][1:]+actionraw['internal_background']]
+    ck('actual positive time action calibrated not assumed',zero(time-s.I*C16) and zero(-s.I*C16*time-I) and all(zero(a-time*v) for a,v in zip(actual_actions,ext+vv)))
+    signs=[h for h in (1,-1) if all(zero(a-h*C16*(-s.I*v)) for a,v in zip(actual_actions,ext+vv))]
+    ck('unique source action versus normal Hamiltonian sign',len(signs)==1)
+    if len(signs)!=1:raise ValueError('Physical action sign is not earned')
+    source_sign=signs[0]
     ck('actual all nine velocities and full source reality',valid and all(zero(v-v.H) and zero(C16*v.conjugate()*C16-v) for v in ext+vv) and zero(C16*R.conjugate()*C16+R) and zero(C16*B.conjugate()*C16+B))
     ck('bare coefficient conjugation fails actual scalar reality',not zero(R.conjugate()+R))
     ck('both computational signs preserved and Lorentz exchanged',zero(W*W-I) and zero(C16*W.conjugate()*C16-W) and all(zero(w*W+W*w) for w in ext))
@@ -168,6 +178,8 @@ def run(method):
         ck('full exterior polynomial methods agree '+str(sig),p==p2)
         dagger={k:clean(-s.conjugate(v)) for k,v in p.items()}
         ck('actual Grassmann dagger is Hermitian '+str(sig),p==dagger)
+        source_poly={k:clean(source_sign*v) for k,v in p.items()}
+        ck('calibrated real source action polynomial '+str(sig),source_poly==polynomial(source_sign*realwork,'reference') and source_poly=={k:clean(-s.conjugate(v)) for k,v in source_poly.items()})
         if sig==1:
             # Exact generalized inverse certificate, no sampled rank.
             inv={};active=set();rowcount={}
@@ -189,6 +201,7 @@ def run(method):
             ck('opposite real polynomial zero retained',not p);rank=0
         frames[sig]={'dimension':col,'actual_work_rank':rank,'real_components':sizes,'induced_reality':sparse(cc),'fixed_real_frame':sparse(Qreal),
             'work':sparse(realwork),'polynomial':[[a,b,str(v)] for (a,b),v in sorted(p.items())],
+            'source_action_polynomial':[[a,b,str(v)] for (a,b),v in sorted(source_poly.items())],
             'witness':next(iter([[a,b,str(v)] for (a,b),v in sorted(p.items())]),None)}
     # Generic degree-two odd variation verifies the Majorana1/2 and BOTH
     # derivative/potential signs. Actual full source matrices above have
@@ -204,6 +217,9 @@ def run(method):
     ck('known two generator real Grassmann control',polynomial(toy,'native')==polynomial(toy,'reference')=={(0,1):-s.I*known})
     records['frames']=frames;records['source']={'source_spin_map':sparse(U),'actual_gauge_map':sparse(Wg),'gauge_reality':sparse(cg),'spin_reality':sparse(cu),'all_root_modules':[[mid,N,ep,base] for mid,N,ep,base in module]}
     records['meaning']={'nonzero_real_Grassmann_work_survives':bool(frames[1]['polynomial']),'signed_total_on_shell_variation':0,
+        'stationary_normal_functional':'normal Hamiltonian convention; legacy polynomial/work fields use this sign',
+        'physical_static_source_action_sign_relative_to_normal_functional':source_sign,
+        'actual_positive_time_and_all9spatial_action_coefficients_checked':True,
         'not_unmatched_force':True,'scope':'full actual source/E8 n0rho0 amplitude family, not arbitrary perturbations or quantum/global boundary action',
         'ranks_not_particles':True,'full_physical_SM_three_gravity':False,'shared_author_not_independent_acceptance':True}
     return {'checks':checks,'records':records,'all_passed':all(checks.values())}

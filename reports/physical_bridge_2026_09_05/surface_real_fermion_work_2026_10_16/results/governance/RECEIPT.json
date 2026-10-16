@@ -1,0 +1,25 @@
+{
+  "mode": "governance",
+  "capture_leaf": "governance",
+  "command": [
+    "PYTHON3.12.14",
+    "-B",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "seconds": 33.860053999997035,
+  "before_completed_before_launch": true,
+  "state_unchanged": true,
+  "tracked_files": 14531,
+  "source_pins": 223,
+  "tree_sha256": "ac2dbb26756e639d4c820f9d3e4263a6485a59e8e66c556f6dd5af365b128220",
+  "index_sha256": "3c99d2a9ecb45e9e3c7370aa4f6e539cfee49992028b8c83345fbbe0be3fce3b",
+  "stdout": {
+    "bytes": 2539,
+    "sha256": "17eb26c1cb9ad2eddefb2fc3edf9d66bb55e27880bce89ea06519808bb1b29ca"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -121,3 +121,27 @@ vertices/anomalies and extra-field fate remain, as does selection of
 parent/root/action/trace from the full generated relational principle.
 Existing other-parent mass/conditional-three positives are preserved,
 not spliced. Full physical SM/three/observed parameters/gravity ACTIVE.
+
+## 6 Explicit calibration of the physical source action sign
+
+POST-HOC scope correction after first46/46and12LIVE pass, before the
+additional calibration executes. S_M in section4 is the NORMAL
+HAMILTONIAN functional convention. Identifying it with the static
+Lorentzian SOURCE action requires a map; equal stationary equations
+do not fix the sign. Original proof/code/seals are preserved in
+results/pre_action_calibration_sources.
+
+Read ACTUAL signed time A0 and every spatial derivative/background
+Aj from the original component record. Verify A0=i C16,
+-i C16 A0=I (positive time), Aj=A0 vj. The normal Hamiltonian
+coefficient is Hj=-i vj. Find unique s in{+1,-1}with Aj=s C16 Hj.
+This fixes static source-action sign relative to section4 directly.
+No phase or kinetic normalization is changed to force a match.
+
+The calibrated source boundary polynomial is s times the saved normal-
+functional polynomial; both remain explicit and Hermitian. Field,
+bulk and end contributions all change by the SAME s, so exact total
+fermionic on-shell balance is unchanged. Calling the two signed
+functionals identical is not licensed. This is additional source-action
+verification, not loss of real Grassmann nonvanishing or a physical
+no-go. Full coupled/quantum/global/foundational duties remain.

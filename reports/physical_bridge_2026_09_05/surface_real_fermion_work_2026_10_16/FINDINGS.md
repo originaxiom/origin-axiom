@@ -1,5 +1,13 @@
 # Actual real fermion work survives and has the correct bulk balance
 
+Source-action orientation update: the first46-check work below uses
+the stationary NORMAL HAMILTONIAN functional sign. Its overall sign
+relative to the static Lorentzian source action is being calibrated
+from the actual positive-time/spatial coefficients, PROOF6/DESIGN
+addendum. Original full sources/results are preserved. Do not identify
+the two signed functionals merely from their common stationary equation;
+nonvanishing/Hermiticity/bulk-end balance are unaffected by a global sign.
+
 The preceding nonzero complex boundary-work matrix survives the
 ACTUAL full source/E8 Majorana condition and genuine Grassmann
 contraction. Its quadratic boundary polynomial is nonzero and Hermitian.

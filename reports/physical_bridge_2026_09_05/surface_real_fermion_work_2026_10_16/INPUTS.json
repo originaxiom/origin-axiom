@@ -532,15 +532,19 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/DESIGN.md",
-      "sha256": "0e2a389b3c086f7a143538b02a697f4a5419a46f1064e1ce4c4b057ab99724a3"
+      "sha256": "eaa3d789552a530daaae4dc386d2277e13310e47957455f99c457cff54e52a1b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/POST_HOC_REPAIR.md",
+      "sha256": "9d3b7f5d4ec54ba0809109174588f2e1127d3f685c1c86ce9429067269125bd1"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/PROOF.md",
-      "sha256": "bd2f48c14c907be7995305dd8ed70ad3b0c0fe37b790b95c09ec497a94c3545e"
+      "sha256": "9e9d56663a4eeafe296328901acccb9e18575e4dd1dfd4e06bfe0a0d916bc6a0"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/analysis.py",
-      "sha256": "f8d6fa6c1a9c570023b8583cf97610761dc8b6b9de682f0a2cfa05e2c65aa81b"
+      "sha256": "0c3eb32975eb9dc481014fea650b5d77851145da157fed0b92201bda57e376b1"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/execute.py",
@@ -872,7 +876,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_real_fermion_work.py",
-      "sha256": "d11437dfe6b66e1d4c93ee1f87f4fece78d5cc01aaeaac3379a3d6ad41a7f365"
+      "sha256": "27e71b98790a31ea74c309740efc89ca8f46cdd1ae651581fba95e04ea74a5eb"
     },
     {
       "path": "tests/test_physical_bridge_surface_real_superfield.py",
