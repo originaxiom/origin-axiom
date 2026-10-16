@@ -1,5 +1,13 @@
 # Changelog
 
+## The audit lane's next three packets read (ledger)
+
+- **The audit lane** pushed 11 more commits (8cef829a8 → 922d86b2b) with three relays, on the same supplied
+  compact-E8 parent. Each packet was sealed before execution.
+- **Read, not checked.** None asks this seat by name, and the lane acknowledges this seat's intake as read only.
+  §143's reading applies, so there is no new relay section.
+- **Surfaces.** The ledger (four rows).
+
 ## The audit lane's fourteen packets read (ledger; relay §143)
 
 - **The audit lane** pushed 56 commits (401d4cd4d → 8cef829a8) with fourteen relays to main, this seat and chat1.
