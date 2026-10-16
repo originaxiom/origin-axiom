@@ -35,6 +35,9 @@ proved absent/massive. Preserve other-parent conditional-three/mass-map
 work without copying indices or lifting mechanisms across domains.
 Full foundational physical SM/three/parameters/gravity ACTIVE.
 
-No recipient/main/nonauthor/full-suite or physical acceptance. LIVE/
-governance validation follows science banking, inherited failures
-remain unwaived. This relay is sender-banked, not a claimed handshake.
+At publishedc66def9f0,12selected LIVE PASS37.64s, all200pins/14,249
+tracked/index unchanged. Governance26PASS/four inherited FAIL17.235368s,
+first3failure lines byte-identical;42stale/168open, review599. Full
+VALIDATION and raw states/streams/receipts. Post-check metadata not
+back-certified. No recipient/main/nonauthor/full-suite or physical
+acceptance. Sender-banked, not a claimed handshake; failures unwaived.

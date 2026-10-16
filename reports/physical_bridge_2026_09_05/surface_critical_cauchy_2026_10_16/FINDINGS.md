@@ -125,5 +125,9 @@ foundational gauge/three/parameters/gravity remain the mission.
 
 Prior search terms and read/code antecedents are in DESIGN; no universal
 absence or first-ever claim. No main/recipient/nonauthor/full-suite or
-physical acceptance. LIVE/governance capture follows this science bank;
-inherited governance failures remain visible, not waived.
+physical acceptance. At publishedc66def9f0,12selected LIVE tests PASS
+37.64s,200pins/14,249tracked/index unchanged. Governance26PASS/four
+inherited FAIL17.235368s; first3failure lines byte-identical to prior,
+42stale/168open, review599. No waiver or repository-green claim. Complete
+VALIDATION/before-after states/raw streams/receipts retained. Post-check
+metadata is not back-certified; all200science pins rechecked unchanged.
