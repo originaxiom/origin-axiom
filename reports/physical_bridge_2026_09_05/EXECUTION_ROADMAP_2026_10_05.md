@@ -1,5 +1,15 @@
 # Common-model physics campaign: execution record
 
+Phase6 source0b41ad554 verified:65direct proof/property mappings,three byte
+aliases,117pending and17external readings. All185blobs/11metadata controls
+PASS; phase5 unchanged except checker hash,18385tracked/index/31pins unchanged.
+END_MECHANISMS_AND_MAGNETIC_SCOPE preserves global stationary/end positives
+and two-neutral magnetic-family scope, not a universal two-field negative.
+Normal Gaussian retains charged endpoints; later local boundary/index work
+is already present and not double-counted. PHASE6_VALIDATION also preserves
+three original staged prechecks29PASS/one historicalFAIL,not global green.
+Actual physical field/critical trace/derived end law and full goal remain.
+
 Phase5 source32b5a376e verified:57direct proof/property mappings,three byte
 aliases,125pending; all185blobs and11metadata controls PASS. Phase4 result
 unchanged except checker hash;18357tracked/index and29pins unchanged.

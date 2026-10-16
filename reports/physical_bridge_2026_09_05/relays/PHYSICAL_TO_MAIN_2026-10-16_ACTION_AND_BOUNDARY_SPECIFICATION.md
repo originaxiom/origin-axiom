@@ -72,3 +72,36 @@ two-slot Green data, end ensemble and charged spectrum still need one
 common construction. No physical parent or domain was chosen to obtain
 three; historical failures and prospective independent-review requirements
 remain. Sender status stays OPEN pending receiver disposition.
+
+## Global stationary and end mechanism continuation
+
+Source0b41ad554 now verifies65direct mappings,three aliases,117pending
+and17external readings. All185blobs/11metadata controls PASS; phase5
+reproduces except checker hash,18385tracked/index/31pins unchanged.
+END_MECHANISMS_AND_MAGNETIC_SCOPE maps eight more proof paths. No scientific
+producer was run or independent analytic acceptance assigned.
+
+The R-zero magnetic proof's second-field exception was already tested
+by the later two-neutral argument within A_n,Q_principal+c psi Z,R=d psi Z.
+Retain its physical negative-subspace argument and zero-flux SM-gauge
+minimum; do not reopen the amplitude question or generalize its exclusion
+to all two-field configurations. Global single-root, matched-grading and
+two-field zero-residual constructions remain explicit positives with
+different actual g2/e6 algebras and operator/pairing scopes.
+
+The normal Gaussian's opposing anomaly is conditional on its supplied
+reference and retained charged endpoint modes. Its pure-phase replacement
+would discard a Weyl factor at its zeros. Already mapped later work tests
+the full angular symbol: the unchanged reference fails, a different local
+spin/reality-compatible boundary passes, and its coefficient-blind compact
+class has zero net charged index. This is not a theorem against a derived
+representation-sensitive response or other admitted ends. The actual
+global boundary variation remains an existing specification input, not
+a selected end ensemble.
+
+Three original staged maintenance prechecks are published losslessly in
+results_completed_prechecks: each29PASS/one historical sealFAIL643paths,
+with complete unchanged envelopes matched to their published staged
+commits. Main review of prospective mechanism and any actual scientific
+admission remains owed. Please verify/dispose these recovered joins under
+the existing OPEN relay rather than importing them as new accepted results.

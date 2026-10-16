@@ -1,5 +1,15 @@
 # Approved physics mission and execution criteria
 
+Verified phase6 source0b41ad554:65direct source/property mappings,three
+aliases,117pending,17external readings; all185blobs/11metadata controls
+PASS. Phase5 reproduces except checker hash;18385tracked/index/31pins
+unchanged. Existing global stationary positives, two-neutral magnetic
+family result and retained charged Gaussian endpoint sharpen the true
+end-law duty. Later local angular boundary positive/zero-index scope
+retained, not counted twice. PHASE6_VALIDATION preserves full custody
+and original staged governance failures. No new science or physical
+selection; actual same-field critical trace/end/spectrum goal remains.
+
 Verified phase5 source32b5a376e maps57proof paths directly,three aliases
 separately,125pending;17external readings. All185pinned blobs/11metadata
 controls PASS and phase4 reproduces except checker hash;18357tracked/index

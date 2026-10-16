@@ -67,3 +67,13 @@ governance outcome is 29 PASS and one historical seal-provenance FAIL,
 with all 643 unresolved paths retained. This coverage result does not
 waive that failure or make the repository globally green. A later staged
 publication check is separate from the source envelope certified here.
+
+## Later publication check
+
+The original staged check before commit1e8dd8d22 completed all30gates:
+29PASS and one historical seal-provenance FAIL on the unchanged643paths.
+All18379tracked contents/index and29pins matched before/after. Its exact
+staged index matches the published commit. Complete original captures,
+lossless states and checked receipt presentations are now retained in
+results_completed_prechecks; this later attachment does not change the
+earlier source envelope or erase the failed gate.

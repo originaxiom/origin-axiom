@@ -21302,3 +21302,22 @@ Expected65direct/three aliases/117pending awaits original controls and
 185blob reconciliation. No scientific code imported or executed, no new
 physical end law or independent analytic acceptance. Exact source pins,
 commit and push precede metadata controls; all failures will be preserved.
+
+Phase6 source0b41ad554 pushed/server-confirmed before controls. Seven
+carry/four alias controls PASS;185pinned blobs reconcile65direct mappings,
+three aliases,117pending,17external readings. Phase5 successor unchanged
+except checker hash. Complete18385tracked/index/31pins before/after
+identical. Full captures/lossless state inventories and reconciliation
+custody published. Three original staged prechecks also preserved,
+including every historical problem:29PASS/one sealFAIL643paths each,
+staged indexes matched to their respective published commits. None is
+a retrospective global-green or scientific-admission certificate.
+
+Living specification/mission/roadmap and existing OPEN main relay now
+retain the later two-neutral magnetic result within its ansatz, explicit
+global condensate/gauge positives, charged Gaussian endpoint factor and
+distinct later angular boundary/index scope. No scientific producer was
+imported or run. Actual physical field/lifts/two-slot trace/end admission,
+complete charged spectrum and foundational selection remain active duties;
+full SM/three/normalization/gravity goal unachieved. Final staged publication
+precheck is separate from the source envelope and will retain failures.

@@ -1,0 +1,133 @@
+{
+  "grade": "Completed maintenance checks, not scientific admission",
+  "packets": [
+    {
+      "prefix": "phase5-publication",
+      "published_staged_commit": "1e8dd8d221f636089f22abf32b26bf61d96d6376",
+      "precheck_head": "32b5a376ee2104686c75216cf64d5ac1caf1efd9",
+      "tracked_files": 18379,
+      "source_pins": 29,
+      "index_sha256": "ff1aefd65021852a41ab22dae213d0fbef1b9fec4f0ed63b8b8c209fbfc58620",
+      "before_after_identical": true,
+      "state_path": "phase5-publication-before-and-after.log.gz",
+      "state_sha256": "7818bf42d8036e532a16ade4d1272ffed342e9ef42f37bd1745bc8a1cfbe6b07",
+      "uncompressed_state_sha256": "925f1ec099c20f9789380a8380f8920209138cd51437fdc2ac00b386f4995523",
+      "governance_path": "phase5-publication-governance.log",
+      "governance_sha256": "1622f4a459fc48208bb60d21fd65fa6f7b465cb5ca1f9fa69a1167d02f78c546",
+      "pass": 29,
+      "fail": 1,
+      "historical_problems": 643
+    },
+    {
+      "prefix": "phase6-design",
+      "published_staged_commit": "15d2e6333dc26bb198e2dc2269c6bf43df17d019",
+      "precheck_head": "1e8dd8d221f636089f22abf32b26bf61d96d6376",
+      "tracked_files": 18381,
+      "source_pins": 29,
+      "index_sha256": "f33640e2dcb6f1c5d35e38b1da9abfe401faadd41410d28dd8d90d6451681870",
+      "before_after_identical": true,
+      "state_path": "phase6-design-before-and-after.log.gz",
+      "state_sha256": "efe7e32d7c0652381ddcb5ba6fc8b7642efa64df5b770365f7376d02979159c9",
+      "uncompressed_state_sha256": "66a4115790aaf67a122138581ff827d72a52f84484b8b29430fed0ba84e9d39c",
+      "governance_path": "phase6-design-governance.log",
+      "governance_sha256": "91e18375ff4bb1a54e118b1807dd2440fb3770196cbf96f307711aeff112ba57",
+      "pass": 29,
+      "fail": 1,
+      "historical_problems": 643
+    },
+    {
+      "prefix": "phase6-source",
+      "published_staged_commit": "0b41ad554132e1539a17f0c74cabf962717381df",
+      "precheck_head": "15d2e6333dc26bb198e2dc2269c6bf43df17d019",
+      "tracked_files": 18385,
+      "source_pins": 31,
+      "index_sha256": "880c5c20a52591664ddcf65cf3c210c616650e2a582aa79f3acba463f606bbdf",
+      "before_after_identical": true,
+      "state_path": "phase6-source-before-and-after.log.gz",
+      "state_sha256": "bba86bd1d54f5c27229c7f5fc7954799c85f033b4006acdf1f9ae0d2a2e5f5a3",
+      "uncompressed_state_sha256": "67209dd3533ea2f007dc1f9701063c110b038dcc167cfcc6fe60e8269dd0bce5",
+      "governance_path": "phase6-source-governance.log",
+      "governance_sha256": "f03560150b3fcabd52d6ef6dcfebb7c28ea2bb81696110fae6cf30773a8d4eeb",
+      "pass": 29,
+      "fail": 1,
+      "historical_problems": 643
+    }
+  ],
+  "files": [
+    {
+      "path": "phase5-publication-after.json",
+      "bytes": 1309,
+      "sha256": "dd3adf2f94ba6470dad0859b328432d32b57de62b7d3231e8d1805755699df94"
+    },
+    {
+      "path": "phase5-publication-before-and-after.log.gz",
+      "bytes": 929527,
+      "sha256": "7818bf42d8036e532a16ade4d1272ffed342e9ef42f37bd1745bc8a1cfbe6b07"
+    },
+    {
+      "path": "phase5-publication-before.json",
+      "bytes": 1308,
+      "sha256": "8d7c8f38f2e620466f38259de07f4ebefd2c81b24cdee4539e8d853c2328abf6"
+    },
+    {
+      "path": "phase5-publication-governance.json",
+      "bytes": 748,
+      "sha256": "a2c946a4bd58787a5ef5154e6252ea7e11ab12ea6e0105737b09bcee612b5711"
+    },
+    {
+      "path": "phase5-publication-governance.log",
+      "bytes": 130621,
+      "sha256": "1622f4a459fc48208bb60d21fd65fa6f7b465cb5ca1f9fa69a1167d02f78c546"
+    },
+    {
+      "path": "phase6-design-after.json",
+      "bytes": 1309,
+      "sha256": "6ba68263b68e1762338d66168d6803b28d48d78647373e591c3db1c16128fff4"
+    },
+    {
+      "path": "phase6-design-before-and-after.log.gz",
+      "bytes": 929653,
+      "sha256": "efe7e32d7c0652381ddcb5ba6fc8b7642efa64df5b770365f7376d02979159c9"
+    },
+    {
+      "path": "phase6-design-before.json",
+      "bytes": 1309,
+      "sha256": "dc1fd936e909a16ba2648db2ba3991ba2bfb5fa696fbe756a69135ce05d9799d"
+    },
+    {
+      "path": "phase6-design-governance.json",
+      "bytes": 747,
+      "sha256": "c5b5dd70121a0f0cf578b25b7aaeb45739b101bd3ce61c36ed8e35d50cf6392d"
+    },
+    {
+      "path": "phase6-design-governance.log",
+      "bytes": 130621,
+      "sha256": "91e18375ff4bb1a54e118b1807dd2440fb3770196cbf96f307711aeff112ba57"
+    },
+    {
+      "path": "phase6-source-after.json",
+      "bytes": 1309,
+      "sha256": "86ff18891f01669802d860ccb767358f4c2e3869d0d5d66c7908b58652ceb7cd"
+    },
+    {
+      "path": "phase6-source-before-and-after.log.gz",
+      "bytes": 929930,
+      "sha256": "bba86bd1d54f5c27229c7f5fc7954799c85f033b4006acdf1f9ae0d2a2e5f5a3"
+    },
+    {
+      "path": "phase6-source-before.json",
+      "bytes": 1307,
+      "sha256": "20279f4a3c5dabf46b89832612223f2a8e3e2c29f40b5893be576677fcfabcd9"
+    },
+    {
+      "path": "phase6-source-governance.json",
+      "bytes": 748,
+      "sha256": "249de3948c43450ccc37067cb6bb6a46e3e5903f2bf1f124c3502d352f9f4949"
+    },
+    {
+      "path": "phase6-source-governance.log",
+      "bytes": 130621,
+      "sha256": "f03560150b3fcabd52d6ef6dcfebb7c28ea2bb81696110fae6cf30773a8d4eeb"
+    }
+  ]
+}

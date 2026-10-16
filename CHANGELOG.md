@@ -1,5 +1,15 @@
 # Changelog
 
+Phase6 source0b41ad554 verified:11metadata controls/all185blobs PASS,
+65direct proof/property mappings,three aliases,117pending,17external.
+Phase5 output unchanged except checker hash;18385tracked/index/31pins
+unchanged. Eight additional stationary/end proofs mapped, conditional
+positives and precise two-neutral/endpoint scopes preserved. Complete
+captures/lossless states and three original staged prechecks retained;
+all remain29PASS/one historical sealFAIL643paths, not globally green.
+Existing OPEN main relay extended; no new science, physical end selection,
+independent acceptance or completed full physical goal.
+
 Phase6 source prepared after design15d2e6333: eight additional proof mappings,
 complete phase5 carry, unchanged aliases/external readings. Expected65direct/
 three aliases/117pending awaits controls. Crosswalk now also retains the

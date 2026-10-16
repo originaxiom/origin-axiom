@@ -1,0 +1,19 @@
+{
+  "command": [
+    "env",
+    "-u",
+    "PYTHONPATH",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "[PROJECT_PYTHON]",
+    "-B",
+    "-c",
+    "import sys,json; sys.path.insert(0,'scripts/gates'); import gates; r=gates.run_all(); print(json.dumps({'results':r,'review_status':gates.review_status()},sort_keys=True,indent=2)); sys.exit(0 if all(v[0] for v in r.values()) else 1)"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 37.214450999999826,
+  "log_bytes": 130621,
+  "log_sha256": "1622f4a459fc48208bb60d21fd65fa6f7b465cb5ca1f9fa69a1167d02f78c546",
+  "presentation": "Command paths normalized; original receipt bytes retained locally.",
+  "original_receipt_sha256": "ecaf83cff99dba4a3bcf8136e3564fca416e52c9b773d5ff34a9c71701035c57"
+}

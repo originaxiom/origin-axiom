@@ -16,11 +16,11 @@ of one realization does not discharge or refute the others.
 
 ## Current coverage and next derivation duty
 
-The verified phase5 reconciliation at source 32b5a376e records 57 directly
+The verified phase6 reconciliation at source 0b41ad554 records 65 directly
 read and property-mapped proof paths, three byte-identical aliases and
-125 pending paths among the original 185. All pinned blobs and eleven
+117 pending paths among the original 185. All pinned blobs and eleven
 metadata controls pass; 17 external dependency readings are recorded.
-[Phase5 validation](specification_audit_2026_10_16/PHASE5_VALIDATION.md)
+[Phase6 validation](specification_audit_2026_10_16/PHASE6_VALIDATION.md)
 preserves the source envelope and earlier reconciliations. These are
 source-reading counts, not independently accepted proofs or complete
 packet re-audits. The staged publication check is a separate envelope.
@@ -33,6 +33,14 @@ two-slot Green trace and admissible end ensemble must belong to one
 construction before its charged index can be interpreted physically.
 Historical and findings-only coverage remains incomplete; no universal
 absence or architecture-wide exclusion follows from this population.
+
+[End mechanism and stationary alternatives](END_MECHANISMS_AND_MAGNETIC_SCOPE_2026_10_16.md)
+maps the later two-neutral magnetic result and global condensate/end
+constructions. Retain their stationary positives, actual gauge algebras
+and scoped instabilities. The normal Gaussian's charged endpoint states
+cannot be discarded by anomaly bookkeeping; its supplied reference and
+the later local boundary are different domain problems. These eight
+additional readings do not select a physical end or certify its spectrum.
 
 ## Population and coverage history
 
