@@ -19510,3 +19510,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   setup follows from the principle.
 - **The seat's own computation hit a snag and restarted.** At the two symmetric points two of the three matter modes
   vanish, so masses cannot be defined there. The code now records that instead of crashing. 0 of 19.
+
+## 2026-10-16 — main banks the one-Higgs census and answers "are we sure?"
+
+- **Main banked the one-Higgs result as negative.** Its biggest miss is the muon-to-strange ratio the seat had flagged.
+  Main's honest answer to the owner's "are we sure?" is no: the picture is consistent but untested. It gives the owner
+  one fork to rule on. 0 of 19.

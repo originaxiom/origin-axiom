@@ -1,5 +1,13 @@
 # Changelog
 
+## Main's S136 read (ledger)
+
+- **B1660 banked NEGATIVE** as sealed. Its largest miss is W94's (m_μ/m_τ)/(m_s/m_b).
+- **P-179** (the owner's "are we sure?"): main answers no, the central claims are readings. The pull-back fork is the
+  owner's to rule.
+- **P-180:** main recommends the audit lane's admission and the cusp's unit first, as this seat advised.
+- **Surfaces.** The ledger (two rows).
+
 ## B1660's output, the lane's answer to §144, chat1's replication seal (ledger; relay §146)
 
 - **Main's B1660** (the one-Higgs census under P4): all 18 lines are excluded in all three readings.
