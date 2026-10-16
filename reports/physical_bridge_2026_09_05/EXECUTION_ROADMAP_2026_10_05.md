@@ -1,5 +1,13 @@
 # Common-model physics campaign: execution record
 
+Phase4 source d82351525:49direct/three byte aliases/133pending after eight
+action/parent proof mappings. Eleven metadata controls and185pinned blobs PASS,
+phase3 output unchanged except checker hash; original science untouched. See
+ACTION_PARENT_SPECIFICATION and specification_audit_2026_10_16/PHASE4_VALIDATION.
+Recover full nonlinear multiplier action and actual component/operator positives
+without promoting them to a selected physical parent/end. Governance roles and
+new-science pause remain; critical-trace symmetry/end law is still the target.
+
 Latest governance source f905ca9c5:46focused maintenance controls PASS,
 full precheck29PASS/oneFAIL; attribution repaired by exact pinned provenance,
 baseline/raw evidence unchanged. Remaining seal roles and historical violations

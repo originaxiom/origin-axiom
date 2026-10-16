@@ -1,5 +1,14 @@
 # Changelog
 
+Phase4 source d82351525 verified:11metadata controls,185pinned blobs PASS;
+49direct proof/property mappings,three checked byte aliases,133pending.
+Earlier phase3 result unchanged except checker hash;18303tracked/index and
+15source pins unchanged. Eight complete capture logs/state inventories and
+both reconciliations preserved; no new scientific execution/full packet audit.
+Action/parent crosswalk recovers old positives while separating multiplier,
+relative-CS, physical component and boundary-domain claims. Main relay OPEN.
+Seven source-pin candidates remain unadopted; governance obligations unchanged.
+
 October16 phase4 action/parent source audit prepared before metadata controls.
 Eight personally read proofs distinguish native multiplier/registered action,
 coefficient/relative-CS maps, actual physical component dictionaries and

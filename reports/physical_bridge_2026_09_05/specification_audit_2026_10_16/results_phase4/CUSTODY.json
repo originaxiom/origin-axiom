@@ -1,0 +1,94 @@
+[
+  {
+    "path": "prepare-first.log",
+    "sha256": "3095c7056c3e3bd752730f245f961642c420348d5bf4b3bb2036f0ab21e800ea",
+    "original_log_sha256": "3095c7056c3e3bd752730f245f961642c420348d5bf4b3bb2036f0ab21e800ea",
+    "original_log_bytes": 95,
+    "receipt_path": "prepare-first.json",
+    "receipt_sha256": "39c8d9eea0484a1ffbdd915cc97785df8889bb2f28478d2db41c805be2f5dc6d",
+    "original_receipt_sha256": "57a73c5230f6e049f6acece1aea7e45fc02bba147eb0474343a9bee61d515fb3",
+    "exit_code": 0
+  },
+  {
+    "path": "seal-first.log",
+    "sha256": "34a90c5a3270290f546f2e4bb5155f1222e4b81446f79c98cdb7ee9b6600d05a",
+    "original_log_sha256": "34a90c5a3270290f546f2e4bb5155f1222e4b81446f79c98cdb7ee9b6600d05a",
+    "original_log_bytes": 102,
+    "receipt_path": "seal-first.json",
+    "receipt_sha256": "476b66c9d543e1fb2ffc87658ea61eae74f8b4d6a70b5c24b7342e912f982acd",
+    "original_receipt_sha256": "c77f404c531bfa275fdc5b1958381ec881f1ee78332cff8ec213eb63a5f2454a",
+    "exit_code": 0
+  },
+  {
+    "path": "before-first.log.gz",
+    "sha256": "aa04f2c10cbff03556a57451e4ba7fa6c0415d8b7dd0c11c12780e980e9af006",
+    "original_log_sha256": "44f93a3b807099b74556281bf8b8a0cf69fbeec93cc6b1627f19b63a7b826b33",
+    "original_log_bytes": 3479022,
+    "receipt_path": "before-first.json",
+    "receipt_sha256": "aa701a2c0a1fb495d48279de0036623f587e330112acfb7a8747fb98761de847",
+    "original_receipt_sha256": "ad63784f38d73fbcbb4c4f9b46cc3bcecdb8d99071db94c6e3e0ac0a24b4e345",
+    "exit_code": 0
+  },
+  {
+    "path": "carry-first.log",
+    "sha256": "7f12fa8b4ebdd1cd7596e1a534cb36ba24bcce27066f40577b7848998707a90b",
+    "original_log_sha256": "7f12fa8b4ebdd1cd7596e1a534cb36ba24bcce27066f40577b7848998707a90b",
+    "original_log_bytes": 112,
+    "receipt_path": "carry-first.json",
+    "receipt_sha256": "d298d5ecc56f6ff5d62777d2754d249d3df721329e58ea3fc4e2c9beb5c48847",
+    "original_receipt_sha256": "f59488d5d6fb9c5598874aaf0d4f9b5e62d6bda1ba5a057766dcce5b8fec7f1a",
+    "exit_code": 0
+  },
+  {
+    "path": "alias-first.log",
+    "sha256": "bf168628e1cfe4f1c8ddce51885d2845f6e294c5fe4cda2a78d5838920e93eaa",
+    "original_log_sha256": "bf168628e1cfe4f1c8ddce51885d2845f6e294c5fe4cda2a78d5838920e93eaa",
+    "original_log_bytes": 79,
+    "receipt_path": "alias-first.json",
+    "receipt_sha256": "3979ef084496081322380bd61ea7941a15d79f0a1efbd89f8eda8819f1f17e28",
+    "original_receipt_sha256": "82dc814d8d952c2ac58742edc038a8c7439caf37df6e8c1cfe000a5ff8f2701c",
+    "exit_code": 0
+  },
+  {
+    "path": "coverage-first.log",
+    "sha256": "d132b318c8fffdde9e2e9c41be4cfd494fffdefbaf3086bd5840a8de007de730",
+    "original_log_sha256": "d132b318c8fffdde9e2e9c41be4cfd494fffdefbaf3086bd5840a8de007de730",
+    "original_log_bytes": 2167,
+    "receipt_path": "coverage-first.json",
+    "receipt_sha256": "ce39bccde2615b0273bc2164d035735c753825368c2f4734ad49140ca15418cf",
+    "original_receipt_sha256": "78c9ff08f683aec88583bfe385ba7783ec4999ed2cbc1bc83fe51cdd449d8982",
+    "exit_code": 0
+  },
+  {
+    "path": "backcompat-first.log",
+    "sha256": "2bbbd0bcb39561f67e2172eb2474af28e4f69d277224c296509e31db664a32eb",
+    "original_log_sha256": "2bbbd0bcb39561f67e2172eb2474af28e4f69d277224c296509e31db664a32eb",
+    "original_log_bytes": 2165,
+    "receipt_path": "backcompat-first.json",
+    "receipt_sha256": "dd3fb640f6ce8808c22855edae847ccf128e7399495058d7bb2a66a86053f889",
+    "original_receipt_sha256": "271a781342f11f96be30ad320e7df30e750e5d970c6470c34a64678f0b65330e",
+    "exit_code": 0
+  },
+  {
+    "path": "after-first.log.gz",
+    "sha256": "aa04f2c10cbff03556a57451e4ba7fa6c0415d8b7dd0c11c12780e980e9af006",
+    "original_log_sha256": "44f93a3b807099b74556281bf8b8a0cf69fbeec93cc6b1627f19b63a7b826b33",
+    "original_log_bytes": 3479022,
+    "receipt_path": "after-first.json",
+    "receipt_sha256": "bafeb7ff2b731bafb14417e431fab62b88827d756271f2bdf476853fb20e7338",
+    "original_receipt_sha256": "30e7c836600f7099ebeafaa5e9aba8458eba950c6d3d9e5cb4fdcb9761ab31c6",
+    "exit_code": 0
+  },
+  {
+    "path": "reconciliation_phase4.json",
+    "location": "packet",
+    "sha256": "f4648802406d7fd785c9843adddbf366eb09158f66ded966d087c006af7db490",
+    "bytes": 129830
+  },
+  {
+    "path": "phase3_reconciliation.json",
+    "location": "results_phase4",
+    "sha256": "3e02a5eb8d37ed29b9764ba72cddda258050f5acc189bf1febbf235df3383988",
+    "bytes": 127347
+  }
+]

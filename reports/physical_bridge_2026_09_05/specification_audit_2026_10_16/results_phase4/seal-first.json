@@ -1,0 +1,13 @@
+{
+  "command": [
+    "ruby",
+    "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/seal_phase4.rb"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.14383300000008603,
+  "log_bytes": 102,
+  "log_sha256": "34a90c5a3270290f546f2e4bb5155f1222e4b81446f79c98cdb7ee9b6600d05a",
+  "presentation": "Only command workspace paths normalized; original receipt retained locally and hash-pinned here.",
+  "original_receipt_sha256": "c77f404c531bfa275fdc5b1958381ec881f1ee78332cff8ec213eb63a5f2454a"
+}

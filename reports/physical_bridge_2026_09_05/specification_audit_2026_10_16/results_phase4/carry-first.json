@@ -1,0 +1,14 @@
+{
+  "command": [
+    "ruby",
+    "reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/reconcile_coverage.rb",
+    "--test-carry-controls"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.22861199999988457,
+  "log_bytes": 112,
+  "log_sha256": "7f12fa8b4ebdd1cd7596e1a534cb36ba24bcce27066f40577b7848998707a90b",
+  "presentation": "Only command workspace paths normalized; original receipt retained locally and hash-pinned here.",
+  "original_receipt_sha256": "f59488d5d6fb9c5598874aaf0d4f9b5e62d6bda1ba5a057766dcce5b8fec7f1a"
+}

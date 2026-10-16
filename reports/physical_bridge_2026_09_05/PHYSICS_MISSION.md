@@ -1,5 +1,14 @@
 # Approved physics mission and execution criteria
 
+Latest specification source d82351525: eight more authored action/parent proofs
+mapped;49direct source paths,three checked aliases,133pending. Eleven metadata
+controls/all185blobs PASS, phase3 reproduces except checker hash;18303tracked/
+index and15pins unchanged. PHASE4_VALIDATION and ACTION_PARENT_SPECIFICATION
+separate native action, relative-CS/representation maps, supplied physical
+component actions and true end/domain law. Not a new physical result or full
+packet audit. Seven role-pin candidates remain unadopted, old governance duties
+and new-science pause unchanged. Continue actual critical-trace/end-law campaign.
+
 Latest October16 maintenance checkpoint f905ca9c5: owner-approved typed
 governance policy verified46focused PASS18.91s; full precheck29PASS/oneFAIL.
 Attribution now passes without baseline/raw-evidence changes. Seal provenance

@@ -21137,3 +21137,23 @@ existing dependency-pin corroborations are candidate-role metadata only;
 no live role-policy change, historical compliance claim or waiver. Main and
 other seats fetched; no new main relay beyond4cc3658a8. Active physics goal
 and pause on new supplied-parent experiments unchanged.
+
+Phase4 source d82351525 pushed/server-confirmed before controls. Seven carry
+and four alias controls PASS; complete185blob reconciliation PASS22.161950s:
+49direct mappings,three checked aliases,133pending,182distinct byte groups.
+Phase3 successor PASS22.188788s and reproduces the original exactly except
+metadata-producer SHA256. Complete18303tracked/index snapshots identical,
+15source pins checked; no original scientific-path edit against695f6ede0.
+Complete original state logs, all other capture outputs/receipt presentations,
+custody and both reconciliations retained. Later publication remains outside
+the d823source envelope; staged governance precheck still separately required.
+
+The recovered scientific specification distinguishes full nonlinear multiplier
+action from a positive physical parent; actual local/relative E8 maps from
+whole field/action admission; signed source maps from Hermitian completion;
+kernel/domain congruence from nonzero masses; boundary current from its
+admissible variations/proper gauge quotient. These are source-audited existing
+arguments, not fresh theorem acceptance or universal negative conclusions.
+Main relay OPEN with exact transfer duties. Seven source-role pin candidates
+remain ROLE_REVIEW_PENDING, live policy unchanged. New supplied-parent
+experiments remain paused; actual critical-trace/end-law goal stays ACTIVE.

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "ruby",
+    "-EUTF-8",
+    "-rjson",
+    "-rdigest",
+    "-ropen3",
+    "-e",
+    "def g(*a); o,e,s=Open3.capture3(\"git\",*a); abort(e) unless s.success?; o; end; abort(\"unstaged edits\") unless g(\"diff\",\"--name-only\").empty?; base=\"695f6ede0eb63c615e18c76161a1fcb0af2d451e\"; old=g(\"ls-tree\",\"-r\",\"--name-only\",base).lines.map(&:strip); changed=g(\"diff\",\"--name-only\",base,\"--\").lines.map(&:strip); allowed=%w[CHANGELOG.md PROGRESS_LOG.md docs/SEAL_LEDGER.md reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/reconcile_coverage.rb]; unexpected=(old&changed)-allowed; abort(\"unexpected original edits\") unless unexpected.empty?; pins=JSON.parse(File.read(\"reports/physical_bridge_2026_09_05/specification_audit_2026_10_16/PHASE4_INPUTS.json\")).fetch(\"source_files\"); pins.each { |r| abort(\"source pin changed\") unless Digest::SHA256.file(r.fetch(\"path\")).hexdigest==r.fetch(\"sha256\") }; files=g(\"ls-files\",\"-z\").split(\"\\0\").sort.map { |p| {path:p,bytes:File.size(p),sha256:Digest::SHA256.file(p).hexdigest} }; puts JSON.generate({head:g(\"rev-parse\",\"HEAD\").strip,index_sha256:Digest::SHA256.hexdigest(g(\"ls-files\",\"--stage\",\"-z\")),tracked:files.size,files:files,pins:pins.size,baseline:base,unexpected_original_edits:unexpected})"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 3.0230649999994057,
+  "log_bytes": 3479022,
+  "log_sha256": "44f93a3b807099b74556281bf8b8a0cf69fbeec93cc6b1627f19b63a7b826b33",
+  "presentation": "Only command workspace paths normalized; original receipt retained locally and hash-pinned here.",
+  "original_receipt_sha256": "30e7c836600f7099ebeafaa5e9aba8458eba950c6d3d9e5cb4fdcb9761ab31c6"
+}
