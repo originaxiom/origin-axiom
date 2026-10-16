@@ -7110,3 +7110,18 @@ At published repair5138a9302 both375/375, full outputs identical,
 full sources; exact Gamma diagnostic resolves unchanged known-free
 target. No control waived, mathematical negative or global absence.
 No independent analytic/main/recipient/full-suite/physical acceptance.
+
+PB-SURFACE-REAL-FIRST-ORDER-WORK OPEN, UNVERIFIED immediate physical
+check: reconstruct the actual source/root Majorana reality map and
+Grassmann bilinear signs across all conjugate modules/W signs/external
+degeneracies. Determine what survives on actual real fermion variables;
+nonzero rank of a complex polarized work matrix is not that proof.
+Then compute SAME-action boson/source/auxiliary/SUSY response. No
+blanket absence/negative/physical positive is inferred before execution.
+
+All-angular validation at published060661896:12selected LIVE PASS
+92.93s,212pins/14,498tracked/index unchanged, intended new+critical
+command verified. Governance26PASS/four inherited FAIL33.174987s,
+first3failure lines byte-identical;42stale/169open, review603. Full
+VALIDATION/raw states/streams/receipts. No waived debt, full-suite/
+nonauthor/main/recipient/physical acceptance or goal shrink.

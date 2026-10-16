@@ -35,5 +35,12 @@ conditional-three positives without transferring counts or mechanisms.
 Foundational physical SM/three/observed parameters/gravity ACTIVE;
 parent/action/root/critical choice not selected merely by solving ODEs.
 
-LIVE/governance follows banking. No recipient/main/nonauthor/full-suite
-or physical acceptance; relay is sender-banked, not a handshake.
+At published060661896,12selected LIVE PASS92.93s,212pins/14,498tracked/
+index unchanged, actual new+critical selection verified. Governance
+26PASS/four inherited FAIL33.174987s, first3failure lines byte-identical;
+42stale/169open, review603. Full VALIDATION/raw states/streams/receipts.
+Next explicit UNVERIFIED check: assemble actual source/root Majorana
+and Grassmann bilinear work across all conjugates/W sectors BEFORE
+physical interpretation, then same-action boson/source/SUSY boundary.
+Post-check metadata not back-certified; no recipient/main/nonauthor/
+full-suite/physical acceptance. Sender-banked, not a handshake.

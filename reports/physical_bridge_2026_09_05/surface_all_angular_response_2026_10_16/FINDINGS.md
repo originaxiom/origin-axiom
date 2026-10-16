@@ -138,4 +138,14 @@ goal. Parent/root/action/critical choice have NOT become selected by
 OA merely because the radial equations can now be solved. Prior terms
 and antecedent body/code reads are in DESIGN. No first-ever/absence or
 full-suite/nonauthor/main/recipient/physical acceptance. LIVE/governance
-follows science banking; inherited governance failures are not waived.
+at published060661896:12selected PASS92.93s,212pins/14,498tracked/index
+unchanged, intended new+critical selection verified. Governance26PASS/
+four inherited FAIL33.174987s; first3failure lines byte-identical,
+42stale/169open, review603. Full VALIDATION and raw state/stream/receipt
+capture; no waiver. Post-check metadata not back-certified.
+
+Before interpreting the complex-coefficient work physically, explicitly
+reconstruct actual full source/root Majorana pairing and Grassmann
+bilinear signs across all conjugates/W sectors. This check is registered
+UNVERIFIED, not assumed from the nonzero polarized matrix. It precedes
+the same-action bosonic/source/SUSY boundary join, not a goal change.

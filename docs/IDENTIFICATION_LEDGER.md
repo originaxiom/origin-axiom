@@ -827,3 +827,9 @@ is not inconsistency, vacuum energy or an observed coupling; sigma-
 zero work on one family is not foundational selection. Parent/root/
 action/critical choice and global SM/three/gravity remain unselected.
 No shared I-status promoted or cross-parent physical count imported.
+
+The nonzero polarized work is not yet identified with physical real
+fermion work. Actual source/root Majorana and Grassmann contraction
+across conjugate/W/external sectors is a registered UNVERIFIED next
+test, before the full bosonic/source/SUSY boundary join. Equal ranks
+or complex nonvanishing alone cannot discharge that action map.

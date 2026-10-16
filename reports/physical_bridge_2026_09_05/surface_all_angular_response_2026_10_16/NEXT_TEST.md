@@ -7,6 +7,13 @@ antecedent. Do not rederive it as an open existence question. The
 ordinary noncritical regular resonance is compatible; n=0log/regular
 partners and both critical choices remain. Keep exact source maps.
 
+Before interpreting the nonzero coefficient work physically, reconstruct
+the actual full source/root Majorana map and Grassmann bilinear signs,
+including conjugates and BOTH W signs/external degeneracies. Test
+nonvanishing/action reality with a genuine fermionic contraction, not
+only rank of a complex matrix. This is UNVERIFIED; no blanket negative
+or positive follows until computed. Use full actual source intertwiners.
+
 The next physical joint is the SAME-action boson/auxiliary/source/SUSY
 boundary variation. Use the explicit full matrix first-order work as
 a known-positive control: it mixes critical and regular modes even

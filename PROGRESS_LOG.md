@@ -20363,3 +20363,22 @@ whole field roster and foundational SM/three/parameters/gravity ACTIVE.
 Existing other-parent physical mass/conditional-three positives retained,
 not spliced. LIVE/governance follows; no independent/main/full-suite/
 recipient or physical acceptance, no inherited-governance waiver.
+
+2026-10-16 all-angular terminal validation at published060661896:
+12selected LIVE PASS92.93s, capture94.506101s; both375-check new and
+both115-check actual critical antecedents rerun. Actual intended test
+pair verified. All212pins/14,498tracked/index unchanged from BEFORE
+launch to terminal in regression AND governance. Governance26PASS/
+four inherited FAIL33.174987s; first3failure lines byte-identical,
+42stale/169open, review603. Identification24rows/9UNEARNED at baseline9,
+all5controls pass including known bare-assertion blind spot. No waiver.
+Full VALIDATION/raw inventories/streams/receipts; all212science pins
+separately rechecked unchanged. Post-check metadata not back-certified;
+no full-suite/nonauthor/main/recipient/physical acceptance.
+
+Explicit next physical check registered PB-SURFACE-REAL-FIRST-ORDER-WORK:
+actual full source/root Majorana pairing and Grassmann contraction,
+including both W signs/conjugates/external degeneracies. Nonzero complex
+polarized matrix is not by itself physical fermion work. Test before
+same-action boson/auxiliary/source/SUSY boundary join; UNVERIFIED, not
+a negative or assumed positive. Full physical SM/three/gravity ACTIVE.

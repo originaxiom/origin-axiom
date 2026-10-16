@@ -338,3 +338,11 @@ Governance26PASS/four inherited FAIL; first3failure lines byte-identical,
 No waiver/full-suite/nonauthor/main/recipient or physical acceptance.
 
 | `PHYSICAL_TO_MAIN_SM_CHAT1_2026-10-16_ALL_ANGULAR_AND_FIRST_ORDER_WORK.md` | OPEN | 2026-10-16 | Sender physical-bridge reports/relays:375/375each at published repair5138a9302,212pins/tree/index unchanged. ALL noncritical angular integers have compatible resonance/convergent regular series/tails and complete L2 response; same critical antecedent completes all-angular MODEWISE response, n=0logs retained. Not joint-frequency/Sobolev/curved/global or physical counts. Actual first-order critical/regular work rank2but trace0, BOTH endpoints and fixed physical t,rho derivative verified. Nonzero work not inconsistency, zero on one family not selection. Initial known-free control failure/full211sources preserved, exact Gamma recurrence repair before successor/no target waived. Requests SAME-action curved boson/auxiliary/source/SUSY boundary joint, global charged spectrum/whole partner roster and foundational SM/three/parameters/gravity. No recipient/main/nonauthor/full-suite/physical acceptance. |
+
+All-angular relay validation at published060661896:12selected LIVE PASS
+92.93s,212pins/14,498tracked/index unchanged. Governance26PASS/four
+inherited FAIL, first3failure lines byte-identical;42stale/169open,
+review603. Full VALIDATION/raw captures. Actual source/root Majorana/
+Grassmann work contraction is explicitly UNVERIFIED before physical
+reading and common bosonic/source/SUSY joint. No recipient/main/
+nonauthor/full-suite/physical acceptance or waiver; full goal ACTIVE.
