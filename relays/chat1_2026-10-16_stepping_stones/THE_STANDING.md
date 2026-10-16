@@ -20,27 +20,45 @@ wisdom".
 - 0 of 19.
 
 > **Dated correction, 2026-10-16 evening (chat1, after main's S139 and S140; refereed read-only before it left).**
+> Amended the same night, after the audit lane's END_AND_PRICE_SCOPES (5ca2fcc3a) and main's S141 (fe25f7e4f): the
+> changes are marked "Corrected" or "added".
 > This note quoted main's earlier argument (S_THE_PUSH_BACK §10.4) that B1654's L is a regulator scale that no end law
 > can fix. That holds in the flat metric only. The text below is kept as written and marked where this applies.
 > - **B1667 (PROVED, a census informed by neighbours) removes L's continuum.** In the fibre's own hyperbolic metric the
 >   puncture is a cusp, and its canonical horocycles fix L at order one: L_max is 0.643–0.692 and L_2 is 2.29–2.79,
 >   the ω control included. The end's datum is a discrete choice between canonical horocycles, and it supplies no
->   hierarchy: B1654's bulk hierarchy, m₁/m₃ ≈ 0.15/L, would need L in the hundreds.
+>   hierarchy: B1654's bulk hierarchy, m₁/m₃ ≈ 0.15/L, would need L in the hundreds. (Added the same night, after the
+>   audit lane:) B1667's canonical cuts are geometric candidates, not a derived physical boundary condition; which
+>   horocycle, if either, is the physical end is open (B1667's findings). c, L, n and Λ remain distinct.
 > - **The smallness moves to τ.** Under either canonical cut, the first generation's lift is a function of τ alone
 >   (0.03–0.41 in the bulk over both cuts). On the length-2 cut it has a simple zero at ω and falls like
 >   e^(−2.6 Im τ) toward the cusp of moduli (B1667 T3, T4). Main's S140 sharpens P-169 accordingly: the continuous
 >   inputs left in the fibre frame are τ and the Higgs.
-> - **B1660 is negative a fortiori.** It fitted L freely, over a domain containing both canonical radii at ω (0.692
->   and 2.786; its domain is 2πL + c_s > 0.5 in every channel, unbounded above), and its search found no fit. With L
->   fixed at either radius the minimum can only be higher (an argument about the minimum: B1660's starts had L ≥ 2.5,
->   so its search reached the canonical radii only by descent).
+> - **B1660 is not a test at either canonical cut.** [Corrected the same night: this line said "negative a
+>   fortiori".] B1660 fitted L freely by multistart, so its best value bounds the free-radius minimum from above
+>   only, and no lower bound at a fixed radius follows. Its starts had L ≥ 2.5. The inclusion would also need the same
+>   objective: B1660's regularised twisted norms 2πL + c_s are not shown to be B1667's exact norms of its three
+>   unshifted profiles, integrated over the Dirichlet cell outside the horoball (the audit lane). B1660's NEGATIVE stands as sealed for its free-radius search; at the canonical
+>   cuts the one-Higgs question is open. Main's S141 scopes it the same way.
 > - **So step 5 did remove a datum, L's continuum, but what it fixed gives no size.** For (S), the open question
 >   becomes what selects τ. No dynamics on record selects a τ where the masses form a hierarchy with none of them zero
 >   (B1652's D1 cell; W67's invariant quartic lands on ω and the cusp, where the lift vanishes, or for R′ and E on
 >   points without a hierarchy). That question joins the list in §0.4.
-> - **(W)'s arithmetic in the fibre frame is unchanged in kind.** L leaves the continuous data and τ (two real numbers)
->   enters. With the Higgs's several real parameters, the line, a second Higgs and the side, the count stays past
->   break-even.
+> - **(W) in the fibre frame.** L leaves the continuous parameters and τ (two real numbers) enters. [Corrected the same
+>   night: this line said "the count stays past break-even".] Whether that leaves predictive room is not settled by a
+>   count (next item).
+> - **A price ledger is not a parameter dimension** (added the same night, after the audit lane). §4's "13 + 7 > 19"
+>   adds the 13 priced inputs, which are axioms and identifications, to a frame's real parameters. That is
+>   bookkeeping, not a dimension count, and it cannot retire a frame. From here on three accounts are kept apart:
+>   - the supplied assumptions and their alternatives (the 13, and each frame's choices);
+>   - one model's independent continuous and discrete choices, after redundancies;
+>   - the constrained observables, with out-of-sample tests.
+>
+>   What the record shows for (W) is narrower. In B1660 §2b (a post-seal exploration, on the four lines tried) one
+>   Higgs and L, seven effective real parameters, fit three down and lepton targets exactly and predict nothing. (W) can be shown only by a blind out-of-sample match (§4).
+>   §4's stopping rule is restated in these terms: when a frame's independent parameters, after redundancies, reach the
+>   number of constrained observables it addresses with no blind match, the record notes that the frame has shown no
+>   predictive room yet. That records none shown; it does not prove none.
 > - **T2.** At τ = ω the surface frame's c = 1 and the fibre's maximal horoball are the same horoball, exactly
 >   (chat1's check in `chat1_2026-10-16_answers/`); reading the two cuts as one choice is a reading. Away from ω they
 >   are two cuts.
@@ -73,6 +91,8 @@ wisdom".
    - **(W)** says a few more data fix the values, fewer than they fix. On the record's own count it has no room left
      in main's fibre frame, the one closest to the data: 13 priced inputs and at least six real parameters stand
      against 19 values. That changes only if a forced rule removes a datum or an identification is earned.
+     [Corrected by the dated correction above §0: a price ledger is not a parameter dimension, so this count does
+     not show that (W) has no room. What the record shows is that no blind match has been made.]
    - **(N)** says the frames mistranslate the principle. It cannot be separated from (S)'s failure, because every
      mass frame shares I-31 and I-33 (and the twisted ones I-32).
    - None of the three is refuted, and this note claims no refutation. An unearned negative is as bad as numerology
@@ -240,6 +260,8 @@ These come from main §8.5's "missing before complete", GENESIS's GAP5, and the 
   test.
 
 **(W) The structure is forced, and k further data fix the values, with 13 + k fewer than the values fixed.**
+[As defined here, (W) is a ledger statement. The dated correction above §0 keeps the three accounts apart; (W)'s test
+is a blind out-of-sample match.]
 - **The arithmetic.** It counts each priced input and each datum or choice as one. That is the record's own
   convention for its price, though the 13 are axioms and identifications, not fitted numbers.
   - 13 priced inputs are already spent against 19 values. The ledger itself calls its count a lower bound until every
@@ -247,7 +269,8 @@ These come from main §8.5's "missing before complete", GENESIS's GAP5, and the 
   - Main's fibre frame is the one closest to the data. A fit there of the mass ratios and J uses at least six real
     parameters: the Higgs S and L alone are seven effective ones (B1660 §2b). On top come the line, a second Higgs
     for the up quarks and the side.
-  - So the count is past break-even before any match: 13 + 7 > 19.
+  - So the count is past break-even before any match: 13 + 7 > 19. [Bookkeeping, not a dimension count: see the
+    dated correction above §0.]
 - **Its failure mode, in miniature: B1660 §2b.** One Higgs and L fit the down and lepton ratios exactly on every
   line tried, and predict nothing (P-175).
 - **So (W) can be shown only by a blind match:** a value predicted before comparison, on a quantity the frame's data
@@ -260,7 +283,8 @@ These come from main §8.5's "missing before complete", GENESIS's GAP5, and the 
   adds; the 13 are the programme's, shared by every frame.
   - Every datum added to a frame is followed by a sealed blind test on values it was not fitted to.
   - When a frame's added data reach the number of values it addresses, with no blind match, the frame is recorded as
-    a reparametrisation of those values, and no further datum is added to it.
+    a reparametrisation of those values, and no further datum is added to it. [Restated in the dated correction above
+    §0.]
 
 **(N) The frames mistranslate the principle.**
 - **Possible, and not separable from (S)'s failure on the record.**
@@ -272,8 +296,9 @@ These come from main §8.5's "missing before complete", GENESIS's GAP5, and the 
   specification reading (P-181) aims at the first step of that.
 
 **The answer to "maybe we're wrong" (reading).**
-- On the record, the claim that the principle alone forces the 19 values has no support. The accounting leaves no room
-  for the weaker claim unless a rule removes a datum.
+- On the record, the claim that the principle alone forces the 19 values has no support. No frame has yet shown
+  predictive room for the weaker claim: no blind match is on record. [Corrected the same night: this line said the
+  accounting leaves no room; a price ledger is not a parameter dimension, see the dated correction above §0.]
 - That does not show the principle wrong. What it lands on is exact, and the negatives are scoped to frames that share
   unearned identifications (I-31 and I-33, and I-32 in the twisted ones).
 - The wise course is to find out by the record's own means:
@@ -346,7 +371,8 @@ sealers'.
   audit lane and verified by main) have come back and none has removed a datum. Step 4 where computed, and step 5
   for L by argument, have already come back without removing one. A later rule that removes a datum in a sealed test
   revives it. [Superseded for L by B1667: see the dated correction above §0.]
-- **(W)** is retired in a frame by §4's stopping rule.
+- **(W)** is retired in a frame by §4's stopping rule. [As restated in the dated correction above §0: a record of no
+  predictive room shown, not a proof of none.]
 - **If either is retired,** the programme's result is §1 and the price list of §2:
   - the principle;
   - the classical mathematics it lands on;

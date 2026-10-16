@@ -17,6 +17,9 @@ owner's request. It reads `papers/P9_what_a_grammar_fixes/` at main 4cc3658a8. P
   - A final read-only referee checked this read before it left; its corrections are applied.
 - **The SM seat's read (§149, W99)** was posted while this one was being refereed, and chat1 read it after drafting.
   Where the two reads meet, and where §149 would change a finding here, is in §5.
+- **Erratum, 2026-10-16 night.** M5's a-fortiori sentence about B1660 was wrong, and is withdrawn (marked there).
+  A free-radius multistart bounds its best fit from above only, so it says nothing at a fixed radius; the audit lane
+  (END_AND_PRICE_SCOPES) and main's S141 caught it. Draft 4 did not take it.
 - **The build.** All seven figure scripts were rerun on main's committed outputs, and every hash check passes. The
   check script passes ([LR, RL] = [[−7, 6], [−6, 5]]; the subgroup ⟨LR, RL⟩ has index 12).
 - 0 of 19.
@@ -135,14 +138,14 @@ Each finding gives its section and page, the phrase, why it is wrong, and a fix.
   - It contradicts §6's Census law 25 (B1667: the canonical horocycles fix L at order one, and the datum is a discrete
     choice), and §5's own scope, p.15: "the fibre's hyperbolic metric fixes it at order one".
   - Figure 1's input "L" is stale the same way.
-  - N5's post-seal note ("every end radius", p.23) can say more. B1660 fitted L freely, over a domain containing both
-    canonical radii at ω (0.692 and 2.786; its domain is 2πL + c_s > 0.5 in every channel, unbounded above), so it is
-    negative a fortiori under either canonical cut (S140, P-169). Its best points sat at L from 2.5 to 272. The
-    argument is about the minimum; B1660's starts had L ≥ 2.5, so its search reached the canonical radii only by
-    descent.
+  - N5's post-seal note ("every end radius", p.23) can say more. [Withdrawn, 2026-10-16 night: the sentence here
+    said that B1660, having fitted L freely over a domain containing both canonical radii, is negative a fortiori
+    under either canonical cut. A multistart's best value bounds the free-radius minimum from above only, so nothing
+    follows at a fixed radius. N5's scope should say that instead, as draft 4 does.] Its best points sat at L from 2.5
+    to 272, and its starts had L ≥ 2.5.
   - Main's S_THE_PUSH_BACK §10.4 still carries the old reading.
-- **Fix.** Write "the choice of canonical horocycle (discrete; L fixed at order one, B1667)", and add the a-fortiori
-  sentence to N5's scope.
+- **Fix.** Write "the choice of canonical horocycle (discrete; L fixed at order one, B1667)". [Corrected: add to N5's
+  scope that the free-radius search bounds the best fit from above only and certifies no fixed radius.]
 
 **M6. §8, p.26.** "an invariant selector can pick only symmetric points (B990's law)"
 - **Why.** As stated it is false for τ.
@@ -353,7 +356,8 @@ use. Several are also in the SM seat's §149, on that seat's own code (§5 below
 
 The SM seat read §3, §4, §5, §7's one-Higgs census and the price of I-31 to I-34, with its own checks script. The two
 reads overlap, with one disagreement: §149.19 keeps Proposition 13's displayed sum as the field's quadratic invariant,
-which M10 shows is not nilpotent. chat1 has not re-run the SM seat's checks.
+which M10 shows is not nilpotent. [Resolved the same day: the SM seat's §150 withdrew §149.19's fix after M10, on its
+own code.] chat1 has not re-run the SM seat's checks.
 - **Reached independently by both:**
   - the cusp formula off Re τ = 0 (its 1; M11 here); the general expansion is §149.1's, checked here after reading
     it;

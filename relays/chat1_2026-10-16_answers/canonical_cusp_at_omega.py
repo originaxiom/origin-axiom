@@ -15,9 +15,14 @@ and before reading B1667's values at omega:
      cusp z ~ lambda (3/(pi i)) e^{i pi t/3} (1 + O(e^{2 pi i t})), so a horocycle at height h is a flat circle of radius
      eps(h) = (3 |lambda| / pi) e^{-pi h / 3} to leading order, and L(h) = log(1/eps(h));
   4. L_max = L(1), L_2 = L(3), and L_2 - L_max = 2 pi / 3 exactly.
+  L(h) is B1667's L exactly, not a leading-order approximation to it. B1667 defines the horoball exactly as
+  {log(1/|z|) - Re g(z) > L}, g = O(z^2) (its Frobenius form); z is a holomorphic function of the horocycle variable
+  Q = e^{i pi t/3} with z = (3 lambda/(pi i)) Q (1 + O(Q^6)) and no other zero in the horoball, so by Jensen's formula
+  the mean of log(1/|z|) over the exact horocycle, uniform in Re t, is L(h) exactly. The last block checks this: the mean over 24 equally spaced
+  points of the exact horocycle (a trapezoid rule on a smooth periodic function) against L(h).
 Compared afterwards, by hand, with B1667's eta^4 control on main
 (frontier/B1667_the_canonical_cusp/verification/before_the_seal/eta_control_run.txt): equal to every printed digit.
-The last block measures the exact horocycle's flat radius, not only its leading order.
+The last block measures the exact horocycle's flat radius, and its mean of log(1/r) against L(h).
 Usage: python3 -B canonical_cusp_at_omega.py > canonical_cusp_at_omega_run.txt
 """
 import mpmath as mp
@@ -67,3 +72,6 @@ for h in (1, 3):
         rs.append(abs(z))
     print(f"height {h}: flat radius along the horocycle from {mp.nstr(min(rs), 10)} to {mp.nstr(max(rs), 10)}; "
           f"log(1/r) from {mp.nstr(-mp.log(max(rs)), 10)} to {mp.nstr(-mp.log(min(rs)), 10)}")
+    mean = -sum(mp.log(r) for r in rs) / len(rs)
+    print(f"height {h}: mean of log(1/r) over the 24 points {mp.nstr(mean, 15)}; L({h}) {mp.nstr(Lh(h), 15)}; "
+          f"difference {mp.nstr(mean - Lh(h), 3)}")

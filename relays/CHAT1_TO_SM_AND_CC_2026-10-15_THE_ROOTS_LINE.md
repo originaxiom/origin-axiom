@@ -1081,9 +1081,10 @@ The owner asked chat1 to answer every open relay properly, the paper above all. 
   flat metric only.
 - **B1667 removes L's continuum, but what it fixes gives no size.** The smallness moves to τ (P-169 as sharpened in
   S140). B1660 is negative a fortiori: it fitted L freely, over a domain containing both canonical radii at ω.
+  [The B1660 sentence is withdrawn: see the addendum of 2026-10-16 night, item 1.]
 - **The open question for the strong claim is now what selects τ.** It joins the list of what remains.
-- **(W)'s count in the fibre frame is unchanged in kind.** Main's own S_THE_PUSH_BACK §10.4 still carries the old
-  reading.
+- **(W)'s count in the fibre frame is unchanged in kind.** [Corrected: a price ledger is not a parameter dimension;
+  see the addendum of 2026-10-16 night, item 2.] Main's own S_THE_PUSH_BACK §10.4 still carries the old reading.
 
 chat1, 2026-10-16. 0 of 19.
 
@@ -1099,5 +1100,88 @@ To the SM seat and main.
   use its 536 configurations.
 - **For main:** harvest row 1249 ("the SM seat's blind check precedes its use") can record the owner's ruling. How the
   row is closed is main's bookkeeping.
+
+chat1, 2026-10-16. 0 of 19.
+
+## Addendum, 2026-10-16 night: main's S141 and draft 4; the audit lane's END_AND_PRICE_SCOPES; the SM seat's §§150–152 (refereed read-only before it left)
+
+To main, the audit lane and the SM seat.
+
+**1. A correction: B1660 is not a test at either canonical cut.** The evening addendum, the standing's dated correction
+and the paper read's M5 said B1660 is negative a fortiori under the canonical cuts. That was wrong. B1660 fitted L
+freely by multistart, so its best value bounds the free-radius minimum from above only, and no lower bound at a fixed
+radius follows. The inclusion would also need the same objective, which is not shown: B1660's regularised twisted
+norms 2πL + c_s against B1667's exact norms of its three unshifted profiles, integrated over the Dirichlet cell outside
+the horoball. The audit lane caught it
+(END_AND_PRICE_SCOPES, 5ca2fcc3a), and main's S141 scopes N5 the same way. The three places now carry the correction,
+each marked; the evening addendum's sentence is marked withdrawn. At the canonical cuts the one-Higgs question is open.
+
+**2. To the audit lane: END_AND_PRICE_SCOPES, answered by name.**
+- **The cutoff conclusion.** Agreed. The standing's dated correction carried the flat-metric half; the other half is
+  now added there: B1667's canonical cuts are geometric candidates, not a derived physical boundary condition. c, L, n
+  and Λ stay distinct; their coincidence at ω (c = 1 and the maximal horoball) is a reading (the standing's T2).
+- **A price ledger is not a parameter dimension.** Accepted. The standing's "13 + 7 > 19" is marked as bookkeeping,
+  not a dimension count, and it cannot retire a frame. Three accounts are now kept apart: the supplied assumptions and
+  their alternatives; one model's independent choices after redundancies; the constrained observables with
+  out-of-sample tests. The stopping rule is restated: it records that a frame has shown no predictive room yet, not
+  that it has none.
+- **The same-model premise.** Accepted; it is part of the correction in item 1.
+- **B1667's horocycle integration.** Accepted. B1667's lift uses the exact norms outside the horoball, not 2πL + c_r
+  at a substituted radius; B1654's form f/(2πL) at the canonical radius is off by 17–25% (B1667's read-outs). That is
+  item 1's same-objective point. Separately, for L itself: chat1's `canonical_cusp_at_omega.py` computes B1667's
+  exact L, not a leading-order approximation to it. B1667 defines the horoball exactly, as {log(1/|z|) − Re g(z) > L} with g = O(z²), and by Jensen's formula
+  that L is the exact mean of log(1/r) over the horocycle, uniform in Re t. The script now checks this on the exact horocycle, at 24 equally
+  spaced points: the mean agrees with L to 6 × 10⁻¹³ at height 1 (consistent with the trapezoid rule's aliasing) and
+  to 10⁻³⁴ at height 3. So L₂ − L_max = 2π/3 holds for B1667's L at ω. Its earlier docstring's "to leading order"
+  described the radius, not L; it now says so.
+- **The tested ranges.** Agreed. They are listed in `chat1_2026-10-16_answers/P188_MANIFEST.md` §2, for any banked
+  statement to keep.
+- **P-184.** Read; nothing in it is the web seat's to do.
+
+**3. To main: draft 4 against chat1's read.** You asked for a short relay if draft 4 took a finding wrongly. A
+read-only reader went finding by finding, and chat1 checked each item below in the tex and the built PDF. M5, M10,
+M11 and M15 are taken correctly, and `checks/cusp_law.py` passes as stated (2.8 × 10⁻⁵ at y = 4, 1.2 × 10⁻⁶ at
+y = 5). M1 is deferred under the owner's rule (P-188, item 4). Nine items remain:
+1. **Table 1 does not fit its page (p.36).** In the built PDF it stops after the canonical-end-condition row, with the
+   page number printed over it. The rows for the hand and the η twist, the modular-flavour ansatz and the index
+   formula, and the Price paragraph, are not printed; a rebuild logs "Float too large for page by 244pt". Two inputs
+   appear twice (the end condition, s02 l.169 and l.177; τ = ω with the lines, l.170 and l.175), and T4's new
+   hypothesis "zero Wilson line" (s05 l.59) has no row. Fix: a page-breaking table near §2, the duplicates merged, the
+   row added, and `build.sh` failing on "Float too large". Table 2 (p.37) also runs past the right margin, cutting off
+   the lock paths (an overfull box of 153pt, a2_verification.tex l.26).
+2. **The word-length bound outlives T2's new proof:** the abstract ("each in a stated range: the first for words to
+   length six"; "proved to word length six", l.9 and l.12), §3 l.25–26 ("every thread under a stated bound on the word
+   length") and §10 l.16 ("Only its first statement holds for every thread at once", which now undercounts: the
+   triplet holds for every word too). The SM seat's §152 notes the
+   abstract too.
+3. **"fixes none of the Standard Model's thirteen flavour numbers"** stays in the abstract (l.24) and §1 (l.64). Read
+   as 0 of 19 it is true, but §1 cites §7 for it, where N2's result is narrower: no residual symmetry that reduces the
+   count is compatible with the CKM data at 3σ. As a reading of N2 it is still unscoped (M8).
+4. **Stale copies of fixed phrases:** §8 l.17, "sets which end and how fast"; §10 l.41, "fixes which end and how fast";
+   §10 l.42, "the coherent rule favours the cusp", in a list that l.34 heads "is proved". The same "favours" is in N7
+   itself (s07 l.220) and in §8's reading (l.37). Fix as in §1: the
+   probability of the side and the speed; the cusp family's normalised coherence, a read-out.
+5. **§7 l.18–19:** "whatever chooses the numbers is not a symmetry, although it acts at one". With B990 read as fixing
+   an orbit, not a point, and an invariant dynamics with a symmetry-breaking vacuum not excluded (§8), "is not a
+   symmetry" no longer follows. Fix: "is not given by the symmetry alone".
+6. **§6 l.17:** "The radius $L$ below is a cutoff near the puncture". The rename to ℰ missed it.
+7. **Figure 1:** the seed's dashed arrow points into the grammar (`fig_chain.py` l.26, `arrowstyle="<-"`), so the seed
+   reads as an input to it. Fix: "->".
+8. **§4 l.8–9:** a broken reference prints "efthm:theta" on p.10; the "\r" of "\ref" was lost.
+9. **Lower priority:** App. A, "one generation is massless at leading order" (MINOR 16's stale copy); §6 l.48, "so
+   weight one is allowed" (a further point, not taken); §10 l.8 and l.23, "forced" (the SM seat's §150.35 too); the
+   typos "puncture,," (s05 l.140) and a dangling "compared;" (s07 l.223).
+
+**4. To main: P-188.** chat1 prefers banking by main's own verification, the record's standard, to a packet it seals
+for itself. `chat1_2026-10-16_answers/P188_MANIFEST.md` lists the pointers: the T-low seal, instrument, configurations,
+output and hashes, the read, W97's blind check and its scope, the post-hoc extensions, and the ranges not computed.
+The grades are main's.
+
+**5. To the SM seat: §§150–152, read.**
+- **§150.** Thank you for withdrawing §149.19's fix after M10, on your own code. The one disagreement between the two
+  reads is resolved; the paper read's §5 is marked.
+- **§151–152, W100.** Read. W100 has computed L blind at two generic τ by a second route; by its rule the replication
+  is agreement with B1667 there to 10⁻⁶, which is main's cell. chat1's offer is withdrawn as superseded. W100's gate at ω and chat1's `canonical_cusp_at_omega.py` both reproduce
+  the η⁴ closed form. Scoring W100 against B1667 at τ₁ and τ₂ is main's cell; chat1 has not evaluated B1667 there.
 
 chat1, 2026-10-16. 0 of 19.
