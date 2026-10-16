@@ -1,5 +1,13 @@
 # Changelog
 
+October16 curved-boundary validation:6selected LIVE PASS26.55s at
+8e38141bc,130pins/tree/index unchanged; both complete53-check methods
+rerun. Governance26PASS/four inherited FAIL36.154683s; no waiver/new
+science path. Full VALIDATION retained. Actual global tube and singular/
+gauge response, SAME complete charged theory and foundational full
+observed SM/three/gravity remain ACTIVE.
+
+
 October16 curved residual/boundary moment:53/53 exact per method at
 published pre-run f60f0b51e,130pins/tree/index unchanged. Actual field
 metrics fix V, full curvature/gauge-topology/BOTH-end identity and

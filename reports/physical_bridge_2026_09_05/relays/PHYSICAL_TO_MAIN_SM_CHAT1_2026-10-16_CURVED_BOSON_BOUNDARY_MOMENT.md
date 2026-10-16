@@ -42,3 +42,10 @@ actual global cut/singular gauge limit, appropriate SAME stationary
 charged theory/norms/vertices/anomalies needed next. Fixed based
 g2+u1 rank3 not SM, no other-parent R93 splice. Full generated
 physical SM/three/gravity remains ACTIVE. Live validation follows.
+
+Terminal at8e38141bc:6selected LIVE PASS26.55s, capture27.990381s;
+both53-check methods rerun.130pins/13,694tracked/index unchanged.
+Governance26PASS/four inherited FAIL36.154683s, same frozen state;
+first3failure lines match prior capture,42stale/162open, review578.
+No waiver/new science path or recipient/independent/full-suite/main/
+physical SM/three/gravity acceptance. Full VALIDATION retained.

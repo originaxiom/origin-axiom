@@ -20000,3 +20000,16 @@ Same global stationary charged spectrum/vertices/norms/anomalies and
 foundational selection remain. Fixed based rank3 not SM, no R93 splice.
 Full generated physical SM/three/gravity ACTIVE. Selected live
 regression/governance follow; repository-wide green not yet claimed.
+
+### October16 curved residual and boundary live validation
+
+At8e38141bc,6selected LIVE PASS26.55s, capture27.990381s; both full
+53-check producers rerun.130pins/13,694tracked/index unchanged in
+before-launch/post-terminal snapshots. Governance26PASS/four inherited
+FAIL36.154683s; first3failure lines match actual-twist capture,
+42stale/162open, review578. No waiver or new science failure path.
+Full VALIDATION/raw captures retained. Post-check metadata not back-
+certified;130scientific pins separately rechecked unchanged. Actual
+global tube/finite-cut/singular/gauge and SAME charged theory remain.
+No nonauthor/analytic/full-suite/main or physical SM/three/gravity
+acceptance. Ultimate full generated physical goal ACTIVE.
