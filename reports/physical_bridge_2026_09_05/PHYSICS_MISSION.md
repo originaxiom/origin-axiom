@@ -1,5 +1,16 @@
 # Approved physics mission and execution criteria
 
+Critical-trace/end source intake after chat1 64460af62 recovers existing
+pole-spin cancellation: smooth positive vertical trace carries local L6,
+not the cocycle six with different central-inner action. Actual full two-slot
+lift/domain and end admission remain owed; no new commutant or field choice
+is made. B1667's actual contour integration retained. B1660's calibrated
+multistart upper bound does not certify a-fortiori canonical-cut exclusion,
+and its regularized twisted norm needs a same-model map to exact horoball
+norms. Source report CRITICAL_TRACE_AND_CANONICAL_END_SPECIFICATION_2026_10_16.md;
+existing OPEN end/price relay extended. No new scientific execution,
+coverage-count increase, physical negative or accepted admission.
+
 October16 prospective maintenance verified at472be2a2a:88controls PASS,
 29real governance gates PASS, historical seal FAIL643paths retained, absent
 admission refused. All18332tracked/index/nine pins unchanged. Implementation

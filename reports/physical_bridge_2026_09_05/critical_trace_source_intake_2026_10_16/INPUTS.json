@@ -1,0 +1,180 @@
+{
+  "schema": 1,
+  "source_checkpoint": "1a2f0dbcdf3512b1c16619ab391ee69dbf2cbfbf",
+  "source_files": [
+    {
+      "ref": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/bundle_transport/PROOF.md",
+      "bytes": 5880,
+      "sha256": "04ef0e436861351d7880a8e552049fe7c654a658f3d98717c5128cb453bd0703",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/bundle_transport/verify.py",
+      "bytes": 8306,
+      "sha256": "f29df8a0d4c761c04bd857dfe8dbaf432374f2df2dcae2b1c1145ecbf8f23b24",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/fibre_family/PROOF.md",
+      "bytes": 11080,
+      "sha256": "07b0323b162864d45452bda35fd0158849f46f65289bba98395481cb03e87817",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/fibre_family/verify.py",
+      "bytes": 6353,
+      "sha256": "3f201f7dcbd7e3bd6502dae0f53dfcbc353c1b0b324bb97499b3c1dd304636d5",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_fredholm/verify.py",
+      "bytes": 6177,
+      "sha256": "5dd94e9a559b72fa86f541b7d348f987c7065e8870ad5d3910c720dafa3c5081",
+      "reading_reach": "full producer personally read; no execution"
+    },
+    {
+      "ref": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/verify.py",
+      "bytes": 11286,
+      "sha256": "7867a331a155ac88ef438a1fc9149e2dc975640da276031040ef4f781071f54f",
+      "reading_reach": "full producer personally read; no execution"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1660_the_one_higgs_census/FINDINGS.md",
+      "bytes": 7732,
+      "sha256": "541f98b00413c14b066abaf5aa33fce54fd6946517715436b29d9525bc468cdd",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1660_the_one_higgs_census/PREREGISTRATION.md",
+      "bytes": 11786,
+      "sha256": "f0f9518cd6becf3f3703df1c4f8ab13b7814a1bbbde68b2e1e944a66f4a14054",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1660_the_one_higgs_census/arc_verdict.json",
+      "bytes": 2616,
+      "sha256": "83def4d2bf2dbc22f731c3dda551ec34b6a8132ce6467f421c52405b6424da44",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1667_the_canonical_cusp/FINDINGS.md",
+      "bytes": 6233,
+      "sha256": "42d71d7270dbf38666d7ea437c3ed6485880992b7ff5ab7e6000c89546c6d859",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1667_the_canonical_cusp/PREREGISTRATION.md",
+      "bytes": 12886,
+      "sha256": "83689a5d6580ba979e6458765e56b42e0fb5503cd29f18fae78590aea4eba0bb",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1667_the_canonical_cusp/arc_verdict.json",
+      "bytes": 1937,
+      "sha256": "9f3ae72b9a8e4c259a3dc27d18161cf310bdaec9dcdad7aebd839e9e450b9ffe",
+      "reading_reach": "full body personally read"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1660_the_one_higgs_census/verification/the_one_higgs_census.py",
+      "bytes": 12523,
+      "sha256": "d5d4d9053a39b1308903166a10b235ac8daaf8bf91d542a0a6b9aed762d527de",
+      "reading_reach": "full producer personally read; no execution"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1660_the_one_higgs_census/verification/after_the_seal/ratio_ceiling.py",
+      "bytes": 2032,
+      "sha256": "d7c78c6e23c339a60f43c21c39226c28cb21ca4b075b9f55bdf90ba15be9ca21",
+      "reading_reach": "full post-seal source personally read; no execution"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.py",
+      "bytes": 26155,
+      "sha256": "dd5fe6893fd2d403c066c4635f3d2bbde25c855674ea031a02495e2642506f6b",
+      "reading_reach": "full producer personally read in contiguous ranges; no execution"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1667_the_canonical_cusp/verification/before_the_seal/eta_control.py",
+      "bytes": 1630,
+      "sha256": "2ae2adba088051bb66e06b00e80acef787c4a300789d3ea10eea1262dbbc068f",
+      "reading_reach": "full source personally read; no execution"
+    },
+    {
+      "ref": "4cc3658a8a37d7ed5860b907d4b0c055c8e24622",
+      "path": "frontier/B1656_the_electrons_zero/verification/the_electrons_zero.py",
+      "bytes": 20835,
+      "sha256": "8abe8b53f2012abda10aeca93b2f9c2808cbf46ee4368f8e0b1272ccffa10b2e",
+      "reading_reach": "only pre-run norm, residue and coupling definitions through T0 inspected"
+    },
+    {
+      "ref": "64460af62fdd281b76e93dfed3477ff98a244eb1",
+      "path": "relays/chat1_2026-10-16_answers/THE_PAPER_HOSTILE_READ.md",
+      "bytes": 29307,
+      "sha256": "b1ce3d0a3d7d1fbea4198cab4cf07c1532569daa8211bf0be16651f1e048f3a4",
+      "reading_reach": "full body personally read; stored output not freshly reproduced"
+    },
+    {
+      "ref": "64460af62fdd281b76e93dfed3477ff98a244eb1",
+      "path": "relays/chat1_2026-10-16_answers/paper_checks.py",
+      "bytes": 5436,
+      "sha256": "568db69e110e4819b61a28687ce698046e61c8c2ea9f7b98b51629575460b095",
+      "reading_reach": "full body personally read; stored output not freshly reproduced"
+    },
+    {
+      "ref": "64460af62fdd281b76e93dfed3477ff98a244eb1",
+      "path": "relays/chat1_2026-10-16_answers/paper_checks_run.txt",
+      "bytes": 3119,
+      "sha256": "51cf69ead0a8df77ab12c9c635564bce53858ebfb95c4648f5c5c73156945011",
+      "reading_reach": "full body personally read; stored output not freshly reproduced"
+    },
+    {
+      "ref": "64460af62fdd281b76e93dfed3477ff98a244eb1",
+      "path": "relays/chat1_2026-10-16_answers/canonical_cusp_at_omega.py",
+      "bytes": 4193,
+      "sha256": "547e72f45ec11ca5614367927baef1ab9b34db5795a195e03a8342332f21a371",
+      "reading_reach": "full body personally read; stored output not freshly reproduced"
+    },
+    {
+      "ref": "64460af62fdd281b76e93dfed3477ff98a244eb1",
+      "path": "relays/chat1_2026-10-16_answers/canonical_cusp_at_omega_run.txt",
+      "bytes": 873,
+      "sha256": "c7e8dfc0246ac479612334d27254554e1d0e59ecdf93e345cfb433909a54e625",
+      "reading_reach": "full body personally read; stored output not freshly reproduced"
+    },
+    {
+      "ref": "64460af62fdd281b76e93dfed3477ff98a244eb1",
+      "path": "relays/CHAT1_TO_SM_AND_CC_2026-10-15_THE_ROOTS_LINE.md",
+      "bytes": 77050,
+      "sha256": "d010808ac0dfd35b8ca9ffd4bce4b8fe61170acdf8f158abbbebc41ab86bba53",
+      "reading_reach": "only the new 77-line evening addendum reviewed, not the whole 1088-line record"
+    },
+    {
+      "ref": "64460af62fdd281b76e93dfed3477ff98a244eb1",
+      "path": "relays/chat1_2026-10-16_stepping_stones/THE_STANDING.md",
+      "bytes": 31314,
+      "sha256": "ef81a4cc19f2f50593f4e98243cc706559da2a90657d544a0a60751c8f7aa4f7",
+      "reading_reach": "new dated correction and all changed passages personally read against prior fully read 34b2e8061 version"
+    }
+  ],
+  "source_artifacts": 24,
+  "scientific_producers_executed": false,
+  "fresh_reproduction": false,
+  "independent_analytic_acceptance": false,
+  "source_coverage_count_incremented": false,
+  "scope": "Exact provenance and declared personal reading reach, not a semantic or numerical verifier"
+}

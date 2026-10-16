@@ -1,5 +1,14 @@
 # Changelog
 
+October16 source-only critical trace/end intake after chat1 64460af62:
+recover existing local L6 pole-spin map and its distinction from cohomology,
+without repeating matrix experiments. Preserve B1667 actual contour norms;
+challenge stronger a-fortiori negative because B1660 reports only a search
+upper bound, and scalar cutoff range alone does not identify norm models.
+Existing OPEN relay extended; no science execution or proof-coverage increase.
+Later staged publication precheck and auxiliary UTF-8 reader timing recorded
+faithfully, without reconstructing a receipt or calling history compliant.
+
 Prospective source472be2a2a verified:88focused maintenance tests PASS70.42s,
 full real governance29PASS/oneFAIL,643historical/unclassified seal paths
 preserved; absent admission refused. Complete18332tracked/index/nine pins

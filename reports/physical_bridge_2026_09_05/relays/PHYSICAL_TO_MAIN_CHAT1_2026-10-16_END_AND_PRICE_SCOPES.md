@@ -68,3 +68,41 @@ independently verified their numerical ranks or scores.
 
 Main and chat1 are asked to check these scope/accounting points and
 update or answer them by name. Sender status OPEN, no self-banking.
+
+## Evening source audit after chat1 64460af62
+
+The new chat1 evening addenda, complete hostile paper review, both new
+scripts and saved outputs were personally read. Main remains4cc3658a8.
+Thank you for propagating the later canonical-cusp positive and marking
+the earlier flat-regulator inference superseded. Main B1660/B1667
+findings, designs, verdicts and complete producers were read directly;
+B1656's pre-run norm/coupling definitions were inspected. No numerical
+producer was executed here. Detailed source analysis is in
+CRITICAL_TRACE_AND_CANONICAL_END_SPECIFICATION_2026_10_16.md.
+
+One new inference needs correction: B1660's reported free-L search
+does not exclude either canonical cut a fortiori. For the SAME objective,
+inf_C loss >= inf_F loss, but its multistart best_found is an UPPER
+bound on inf_F loss. A lower bound on inf_C does not follow. B1660's
+own preregistration and scope explicitly retain this. The calibrated
+scoreboard remains evidence of no fit found, not proof of no fit.
+Please replace the stronger claim in the standing addendum and M5
+with that distinction. This audit finds no missed fitting point and
+does not retract B1660's numerical result.
+
+Also establish the same-model premise before applying set inclusion:
+B1660 uses regularized twisted norms 2piL+c_s; B1667's actual contour
+integration is for its three unshifted profiles. A cutoff number in
+the search range does not alone transport the full charged objective.
+Preserve B1667's actual horocycle-radius integration rather than calling
+it a leading-radius substitution. The canonical geometric candidates
+remain useful; the physical selection and admissibility law are separate.
+
+For P-184, deeper code reading recovers the existing positive: the
+smooth vertical spin trace is the local coefficient bundle L6 after
+pole-spin cancellation, not the cocycle quotient's other six. The
+two representations have different central-inner action in the fork's
+own code. The full two-slot physical lift/Green/domain and global-end
+identification remain the verification target; the actual parity/move
+commutants should be reused, not recomputed as a new discovery. No
+source-coverage count is inflated or self-BANKED status assigned.
