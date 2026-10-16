@@ -720,3 +720,15 @@ chart laws/C/time and real cutoff minus plane are mapped. This earns
 this specified fermion-bundle connection, not the old same-MW target
 or full curved nonlinear/singular theory. No shared I-status promoted;
 no physical particle, three-generation or observed SM identification.
+
+## October16 curved residual and field space boundary distinctions
+
+surface_curved_boson_2026_10_16 exhibits the specified G/W/auxiliary
+residual sector with the SAME actual tensor metric and fermion bundle.
+It does NOT identify a full curved component/SUSY boundary completion,
+the old singular extension or globally stationary charged physics.
+Its boundary Hamiltonian/cocycle is Kähler FIELD SPACE, not physical
+time phase space, a quantum anomaly/level or an admitted edge spectrum.
+Matrix auxiliary sources act before trace; matching their zero traces
+would not be a faithful map. Residual zero is not absolute gravitational
+vacuum energy. No shared I-status or SM/three/gravity claim is promoted.

@@ -19964,3 +19964,39 @@ science path. Full VALIDATION/raw captures retained. Post-check metadata
 not back-certified;117scientific sources rechecked unchanged. No
 nonauthor/analytic/full-suite/main or physical SM/three/gravity acceptance.
 Ultimate full generated physical goal ACTIVE.
+
+### October16 curved residual action and field space boundary moment
+
+At server-confirmed pre-execution f60f0b51e,53/53 each: native
+16.547733s/reference15.585241s. Complete12281-byte records agree
+SHA2567fceeab7bc846576f2ce47b6c880c3b4216ab1490b5fca33c8d212b972e77d46;
+130pins/13,684tracked/index unchanged. Coordinate metric versus closed
+frame, shared algebra/author plus noncommuting coordinate controls;
+not independent analytic acceptance or fresh full superspace run.
+
+Actual unit-coframe field metrics4 and1/2 with W=-2Tr(P02 F20) give
+the specified curved auxiliary residual potential. Full universal
+V=2E+2B(F wedge F)/dvol-2divJ+R_scalar norm(P)^2/4 retains ALL
+frame/gauge/line/quartic/topological and BOTH-end terms; omission
+controls fail as required. Complete V positive despite isolated
+negative curvature. Standard transgression and W boundary variation
+retained; residual zero not absolute gravitational vacuum energy.
+
+Derived metric-based Kähler FIELD-SPACE boundary Hamiltonian/cocycle,
+not physical-time charge/anomaly/matter. Common two-end traces cancel,
+local nonzero circle not globally admitted parameters. Whole cutoff
+auxiliary elimination requires matrix mu=0 and normal covariant P
+derivative=0; linearization keeps[psi_n,P]. Necessary normal jets not
+complete nonlinear/global/singular SUSY closure. Nine scoped LAW rows,
+identification supplement, all carried leads and sender relay/current
+surfaces registered.24I rows/9UNEARNED at baseline9; five controls
+PASS with bare-assertion blind spot. No I-status promotion.
+
+All11heads refreshed; main f798b2368 B1660 prereg read completely,
+not a new outcome imported. Full curved multiplet/gauge/patch and
+actual tube-normal/finite-cut/singular gauge response tests next;
+new tube/high-pole diagnostics explicitly UNVERIFIED, not negatives.
+Same global stationary charged spectrum/vertices/norms/anomalies and
+foundational selection remain. Fixed based rank3 not SM, no R93 splice.
+Full generated physical SM/three/gravity ACTIVE. Selected live
+regression/governance follow; repository-wide green not yet claimed.

@@ -1,0 +1,53 @@
+PASS actual coordinate or closed geometry input
+PASS actual Chern curvature and scalar relation
+PASS actual Kahler form closed in full frame
+PASS actual chiral metric gives field space symplectic coefficient
+PASS unit anti hol volume wedge hol volume is real volume
+PASS actual transformed auxiliary metrics and inverse factors
+PASS positive Gaussian elimination not a chosen potential
+PASS D Gaussian gives necessary whole vector boundary moment
+PASS universal full curved current including frame gauge and line
+PASS omitted frame divergence detected
+PASS omitted line curvature detected
+PASS omitted gauge curvature detected
+PASS complete curved bosonic identity all ordered words
+PASS omitted gauge Pontryagin term detected
+PASS omitted end current detected
+PASS omitted scalar quartic detected
+PASS actual Gaussian potential equals complete squares
+PASS wrong superpotential normalization changes actual potential
+PASS curvature coefficient is scalar R times P norm quarter
+PASS first variation retains curvature topology and both end primitive
+PASS graded form differential squared zero
+PASS standard gauge Chern Weil transgression retained
+PASS standard gauge Pontryagin first variation has boundary
+PASS global superpotential variation keeps full normal primitive
+PASS dropping superpotential boundary primitive detected
+PASS field space affine moment with retained boundary
+PASS bulk moment alone fails for boundary valued parameters
+PASS field space Higgs moment coefficient from same metric
+PASS wrong metric changes Hamiltonian moment
+PASS moment matches actual Hermitian D source pairing
+PASS field space boundary cocycle sign and coefficient
+PASS bulk gauge moment bracket cancels
+PASS boundary cocycle skew is exact derivative
+PASS boundary cocycle Jacobi is exact derivative
+PASS local commuting circle cocycle nonzero
+PASS both annulus ends cancel common traces
+PASS one end cutoff witness keeps opposite orientation
+PASS matrix normal auxiliary linearization derived before trace
+PASS linearized normal compatibility keeps connection Higgs term
+PASS matrix source is not replaced by its zero trace
+PASS whole auxiliary zero needs moment beyond tangent value
+PASS whole tangent auxiliary zero needs normal Higgs derivative
+PASS coupled normal BPS boundary jets pass
+PASS dropping nonabelian moment prevents coupled normal boundary
+PASS actual matrix gauge line second jet (0, 1)
+PASS actual matrix gauge line second jet (0, 2)
+PASS actual matrix gauge line second jet (0, 3)
+PASS actual matrix gauge line second jet (1, 2)
+PASS actual matrix gauge line second jet (1, 3)
+PASS actual matrix gauge line second jet (2, 3)
+PASS independent noncommuting coordinate energy identity
+PASS coordinate detector sees curvature topology and end
+PASS positive full potential despite negative isolated curvature

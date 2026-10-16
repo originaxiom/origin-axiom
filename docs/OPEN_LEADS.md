@@ -6707,3 +6707,44 @@ vector limit. Retain normal compensator and BOTH ends. Original fixed
 based g2+u1 rank3 and other-parent R93 SM stay separate. Full generated
 physical SM/three/gravity and SAME global charged spectrum/norms/vertices/
 anomalies remain active ultimate duties. NEXT_TEST preserves the order.
+
+## October16 curved bosonic sector and boundary moment
+
+PB-SURFACE-CURVED-REAL-ACTION: PARTIAL POSITIVE, NOT CLOSED.
+surface_curved_boson_2026_10_16/FINDINGS computes53/53 per method:
+specified actual G/W/moment residual action, full curvature/topological/
+both-end identity and necessary auxiliary boundary jets. The SAME
+full curved components/gauge-WZW/patch and SUSY boundary completion
+remain OPEN; the global bulk W does not by itself settle local descent.
+
+PB-SURFACE-CUTOFF-LIMIT remains OPEN with actual necessary mu=0 and
+normal covariant P derivative=0; linearization retains[psi_n,P] BEFORE
+trace. Positive normal coupled jets and two lowest-value counterexamples
+do not prove nonlinear global closure or the shrinking-cut gauge limit.
+
+PB-SURFACE-ADAPTED-TUBE OPEN, UNVERIFIED diagnostic: calculate the
+normal of r^2=(area/y)|u+tau v|^2 in the SAME metric. The old cutoff
+proof tests vertical Green planes and charts, not this full normal.
+Test an adapted CR tangent/projector and variable-normal connection.
+No computed failure is claimed; NEXT_TEST registers the candidate.
+
+PB-SURFACE-FINITE-CUT-POLES OPEN, UNVERIFIED diagnostic: test whether
+the finite-fibre local chiral trace admits arbitrary elliptic poles and
+whether normalized poles concentrate in the singular limit. Separate
+fibre and full horizontally coupled physics, and investigate existing
+APS/Calderon/interacting-response primitives. No global no-go follows.
+
+PB-SURFACE-BOUNDARY-MOMENT-PHYSICS OPEN: the computed Kähler
+FIELD-SPACE cocycle is not yet physical-time charge. Test global
+parameter admission and finite kinetic norm; retain cancellation for
+common two-end traces. It supplies no quantum level/particle/anomaly
+cancellation or chirality without that map.
+
+PB-SURFACE-METRIC-DYNAMICS-LITERATURE OPEN as ABSTRACT-ONLY lead:
+arXiv1807.10691 On the Kähler--Yang--Mills--Higgs equations. Personally
+read full text and check assumptions before using it as a possible
+coupled-metric framework. No Lorentzian gravity/vacuum-energy result
+is imported. Zero residual fixes neither absolute energy nor gauge
+topological sector. SAME global stationary Higgs/charged spectrum,
+appropriate gauge phase, norms/vertices/anomalies and foundational
+full observed SM/three/gravity remain active; fixed based rank3 not SM.

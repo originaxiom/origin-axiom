@@ -1,5 +1,17 @@
 # Changelog
 
+October16 curved residual/boundary moment:53/53 exact per method at
+published pre-run f60f0b51e,130pins/tree/index unchanged. Actual field
+metrics fix V, full curvature/gauge-topology/BOTH-end identity and
+necessary matrix auxiliary jets. Kähler FIELD-SPACE boundary cocycle
+is computed, NOT physical-time charge, anomaly or an admitted particle.
+Full curved multiplet/patch/SUSY boundary completion and actual global
+cut/singular/gauge/charged physics remain. Two cutoff diagnostics are
+registered UNVERIFIED, not negatives. Fixed based rank3 not SM; full
+generated physical SM/three/gravity ACTIVE. New surface_curved_boson_
+2026_10_16 FINDINGS/PROOF/NEXT_TEST and nine scoped LAW rows.
+
+
 October16 actual-charge validation:5selected LIVE PASS79.29s at
 0c6121569,117pins/tree/index unchanged; both complete58-check methods
 rerun. Governance26PASS/four inherited FAIL34.914857s, no waiver/new
