@@ -21371,3 +21371,24 @@ flux,base-cusp integer,external-probe scale and Higgs cutoff remain typed.
 No scientific producer imported or run. Actual weave trace/end admission,
 full foundational physical SM/three/normalization/gravity remain active
 unachieved duties; final staged publication precheck is a separate envelope.
+
+Phase7 publication47cdde88b pushed/server-confirmed, clean worktree.
+Original staged governance29PASS/one historical sealFAIL643paths,
+36.374551s; complete18469tracked/index/32pins unchanged. Validation
+reader passed before commit. Raw final-publication captures retained
+locally, not silently included in older source envelopes. All seats
+fetched again without published changes.
+
+Next source-only continuation personally reads12pending proofs plus
+the based-gauge producer, mode probe/analysis and interacting-domain
+probe/analysis, correction/findings and source locators. Source-operator
+proof already mapped, reread without double counting. Preserve full
+based completion and cost, actual kernel versus cohomology transport,
+paired real extremes, exhausted fixed-fibre dressed domains, later
+all-angular response and same-action two-sided transmission. Do not
+restore old open labels, kill half-poles using the old free graph, or
+identify a smooth seam/Dirichlet benchmark with the physical end.
+INTERACTING_TRACE_AND_TRANSPORT_SPECIFICATION records precise duties;
+PHASE8_DESIGN precedes metadata changes. Expected83direct/three aliases/
+99pending awaits checks; current certified71/3/111 unchanged. No scientific
+import, execution, independent analytic acceptance or full-goal completion.

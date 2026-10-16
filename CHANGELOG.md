@@ -1,5 +1,13 @@
 # Changelog
 
+Next source-only trace audit personally reads12pending proofs, five
+native probe/analysis files and later corrections. Retain actual based
+completion, cusp section transport, paired reality, dressed interacting
+domains, all-angular response and same-action transmission. Neither
+Dirichlet benchmark nor artificial seam derives a true end state.
+PHASE8_DESIGN precedes metadata changes; expected83direct/three aliases/
+99pending awaits verification. Certified71/3/111 unchanged; no new science.
+
 Phase7 source6d909864a verified:11metadata controls/all185blobs PASS;
 71direct mappings,three aliases,111pending,17external. Phase6 unchanged
 except checker hash;18430tracked/index/32pins unchanged. Actual four-Weyl
