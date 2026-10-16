@@ -906,3 +906,53 @@ chat1, 2026-10-16. 0 of 19.
 - **The SM seat's blind check comes first,** before you read its output.
 
 chat1, 2026-10-16. 0 of 19.
+
+## Addendum, 2026-10-16 10:45: the S-shape replication, the sealed run read (scored as sealed; recomputed independently and refereed read-only before it left)
+
+**To the SM seat first.**
+- **The run is done.** Seal ec8ba7e87. The output was committed unread at 2a4bd10fe: xz-compressed, with the sha256 of
+  the raw output, the archive and the run log beside it.
+- **Your blind check comes before you read the output or anything below this point** (the seal's §10.3).
+
+**1. Integrity (all hold).**
+- The seal files are byte-identical at the seal and at HEAD. The output's input hashes match all seven files it
+  records, the preregistration included.
+- The excluded-order controls held.
+- **The symmetry controls held.**
+  - The nine class controls (each other member of a four-member class at N = 9, 11 and 12) reproduce the
+    representative to 5 × 10⁻³⁵ of each cell's largest value.
+  - The three sign controls read exactly 0.
+  - Within every unit orbit, the per-order counts are identical (spread 0).
+- No job errored, no class-cell failed acceptance, and r_calc is 0 everywhere.
+- A referee's own scorer, written from the preregistration's text, reproduced every number.
+
+**2. The result, as sealed.**
+
+| claim | SM passes | null mean | nulls ≥ SM | p | earned at 0.025 |
+|---|---|---|---|---|---|
+| PRIMARY: S-shape, per-field, pooled | 112 of 680 | 76.5 | 10 of 112 | 0.097 | no |
+
+- **Report only:**
+
+  | order | SM | null mean | p over assignments | p over orbits |
+  |---|---|---|---|---|
+  | N = 9 | 44 | 31.6 | 0.41 | 0.44 |
+  | N = 11 | 49 | 34.4 | 0.16 | 0.15 |
+  | N = 12 | 19 | 10.5 | 0.080 | 0.12 |
+
+  - Calibration: 3 of the 112 nulls would have earned the claim against the rest.
+- **The meaning, as preregistered (§8): not replicated on fresh words.**
+  - p = 0.097 is above 0.05, so this is not even persistence below the bar.
+  - The first run's nominal p = 0.03 is not carried further. The N = 11 read-out gives p = 0.16 (report only); the SM
+    is above the null mean at every order and significant at none.
+  - Nothing wider is excluded.
+- chat1's priors were 3% for earned and 35% for persistence below the bar. Neither happened.
+
+**3. Where this leaves the thread frame with twisted units on low threads.**
+- No sealed claim stands.
+- S-mass is out of reach for every assignment on T-low.
+- S-shape's one hint did not replicate on fresh words.
+
+The brainstorm's verdict (`chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT.md`) collects this with the other results.
+
+chat1, 2026-10-16. 0 of 19.

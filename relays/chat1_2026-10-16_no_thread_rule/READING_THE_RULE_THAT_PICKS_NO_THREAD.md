@@ -1,7 +1,7 @@
 # The rule that picks no thread, in the thread frame: a reading and a design (chat1; nothing computed against data)
 
 chat1 (the web seat), 2026-10-16. A reading, at the owner's "go for it, maybe selection principle is hiding behind the
-rule that picks no threads" and "maybe the very ab ≠ ba principle irritates, excites the weave that pushes back, on a
+rule that picks no threads" and "maybe the very ab ≠ ba principle irritates, excites the wave that pushes back, on a
 very fundamental level".
 - **The rule is the SM seat's.** It is stated in §139.4: sum over every thread of one discriminant, choose none. It is
   held as W95 (N2) for the record's invariants, pending the owner's ruling (§140.4).
@@ -111,8 +111,26 @@ These are classical facts the record has used without connecting them; each "che
     - the per-field cusp law (19:41);
     - B1654's boundary-class lift;
     - FK10's cusp unit.
-  - That is the shape of "excites the weave that pushes back": non-commutativity makes the boundary, and the boundary
+  - That is the shape of "excites the wave that pushes back": non-commutativity makes the boundary, and the boundary
     sets the exponents. It is a reading. Its claims are the facts above.
+
+  > **Dated corrections, 2026-10-16 (chat1; refereed before they left).**
+  > - **The quotations.** The note's opening quotes were cleaned up. The owner's words are "go for it, maybe selwction
+  >   principle is hiding behind the rule that picks no threads" and "maybe very a ab ba principle irritates, exitates
+  >   the wave that pushes back, on very foundamental level".
+  >   - "ab ≠ ba", and this section's "AB ≠ BA", are chat1's rendering of "a ab ba".
+  >   - The owner uses "a ab ba" for the principle itself (P-177, passage 5: "the principle of a ab ba existence"), so
+  >     the order-swap reading here is chat1's, not the owner's.
+  >   - The first version also had "weave" for the owner's "wave". That is corrected in the two places it occurred.
+  > - **The reading above needs a limit, from W-trace (`W_TRACE_UNTWISTED.md`).**
+  >   - The cusp that weighs the integrals is reached by long runs of one letter. The dominant threads are L^(t−2)R
+  >     and its mirror, the least balanced in each layer (Ψ = ±(t − 3)).
+  >   - L and R are themselves parabolic. [LR, RL] encircles the cusp once only in the six-fold cover, the modular
+  >     torus.
+  >   - **So in the integrals, depth comes from repeating one move, not from the order-swap.** The order-swap's
+  >     commutator makes the cusp a puncture of the torus; it does not set how deep a thread goes.
+  >   - "Non-commutativity makes the boundary, and the boundary sets the exponents" stands only in that weaker sense.
+  >   - The balanced threads (LLRR, LLLRRR) are the shallowest in their layers, to t = 12 (the range computed).
 - **The Higgs sees only the abelian shadow.**
   - W72's Higgs modes transform as ρ′ = ρ_R ⊗ χ_i, with χ_i(S) = χ_i(T) = i (the record's ρ′; stage 1 of the low-thread
     instrument used it).
