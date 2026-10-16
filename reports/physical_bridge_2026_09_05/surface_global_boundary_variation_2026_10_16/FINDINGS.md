@@ -116,3 +116,13 @@ observed parameters and gravity remain the original ACTIVE goal.
 Nonauthor analytic/banking, recipient/main/full-suite acceptance and
 the four inherited governance debts remain separate. No shared B/I
 allocation or observer/qualia identification. LIVE/governance follows.
+
+At8f65e96e7,13selected LIVE PASS192.60s,331pins/17,672tracked/index
+unchanged. Governance26PASS/fourFAIL26.635868s includes TWO NEW local
+test-vacuity paths, not just inherited debt: the AST checker cannot
+see assertions through the shared helper. Both terminal captures and
+all331original sources/manifests are preserved. Explicit per-test
+assertions plus a false-predicate instrument control are resealed before
+successor. No science/proof/input/outcome changes. Full VALIDATION and
+POST_HOC_REPAIR distinguish successful mathematics from this reporting
+defect; no waiver or full physical/independent acceptance.

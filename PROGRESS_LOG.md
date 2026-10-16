@@ -20776,3 +20776,15 @@ whole charged spectrum/norms/vertices/anomalies/three/parameters/gravity.
 All sublemmas/leads/ID/sender relay banked; no B/I allocation or receiver
 acceptance. Full original goal ACTIVE; LIVE/governance follows, four
 inherited debts/outside/nonauthor/full-suite/main duties unwaived.
+
+At8f65e96e7,13selected LIVE PASS192.60s,capture193.682298s; actual new6+
+arena7 command verified. Governance26PASS/fourFAIL26.635868s, TWO NEW
+test-vacuity paths: direct test bodies used an asserting helper beyond
+the AST detector's reach. Not inherited-only and not waived. Both runs
+331pins/17,672tracked/index unchanged. After BOTH terminal, all331
+original snapshots/INPUTS/ARTIFACT_HASHES saved in governance capture.
+Direct assertions plus a false-computed-predicate guard added; producer/
+PROOF hashes unchanged. Test-only repair resealed before successor.
+Full VALIDATION/POST_HOC_REPAIR records two invalid Ruby launch attempts
+before wrapper entry, not scientific failures. No true end/SM/three/
+gravity or independent/full-suite acceptance. Full goal remains ACTIVE.

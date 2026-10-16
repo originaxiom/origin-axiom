@@ -1,5 +1,11 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+LATEST global-boundary validation:13LIVE PASS192.60s at8f65e96e7;
+governance26PASS/fourFAIL includes TWO NEW test-helper assertion-
+visibility paths.331pins/tree/index unchanged in captures, originals
+preserved; test-only repair resealed before successor, no science change.
+Not independent/full-suite or physical acceptance; full goal ACTIVE.
+
 October16 actual global-tube variation:29/29each at published460dca46e,
 151.156943/113.391281s, full490,216byte records agree;331pins/tree/index
 unchanged. Full tilted normal/measure, nonlinear source momenta4L^T C,

@@ -21,17 +21,16 @@ def cert():
     return values[0]
 
 def check(cert,*names):
-    for name in names:
-        assert cert['checks'][name]
+    return all(cert['checks'][name] for name in names)
 
 def test_fresh_actual_source_geometry_and_interface_records(cert):
     for folder,count in [('surface_arena_boundary_2026_10_16',44),('surface_curved_boson_2026_10_16',53),('surface_same_action_transmission_2026_10_16',144)]:
-        check(cert,'fresh complete antecedent '+folder)
+        assert check(cert,'fresh complete antecedent '+folder)
         assert len(cert['records'][folder]['checks'])==count
         assert cert['records'][folder]['all_passed']
 
 def test_actual_variable_normal_density_and_current(cert):
-    check(cert,'actual coframe inverse in both orders and oriented volume',
+    assert check(cert,'actual coframe inverse in both orders and oriented volume',
         'full variable normal retains horizontal geometry and radius gradient',
         'normal norm has nonzero positive vertical contribution',
         'vertical normal approximation rejected even at fixed radius',
@@ -41,7 +40,7 @@ def test_actual_variable_normal_density_and_current(cert):
         'wrong vertical scalar current and same-normal joining are detected')
 
 def test_nonlinear_source_momenta_not_rough_energy(cert):
-    check(cert,'normal symbol derived from all actual seven residuals',
+    assert check(cert,'normal symbol derived from all actual seven residuals',
         'all-normal rank-five symbol and only normal-gauge kernel',
         'actual nonlinear residual momenta from full first variation',
         'wrong source factor and discarded derivative term are detected',
@@ -50,7 +49,7 @@ def test_nonlinear_source_momenta_not_rough_energy(cert):
         'rough Yang Mills momentum is not the source momentum')
 
 def test_end_functional_variation_retains_corners_and_nonflat_data(cert):
-    check(cert,'actual CS first variation retains the corner derivative',
+    assert check(cert,'actual CS first variation retains the corner derivative',
         'deleting the CS corner term is detected',
         'flat pure gauge CS cubic is nonzero and has the correct coefficient',
         'full nonlinear scalar end flux and derivative variations retained',
@@ -59,15 +58,22 @@ def test_end_functional_variation_retains_corners_and_nonflat_data(cert):
     assert not cert['records']['end_primitive']['quantum_level_derived']
 
 def test_gauge_covariance_and_natural_boson_scope(cert):
-    check(cert,'zero residual gives natural momenta without Dirichlet values',
+    assert check(cert,'zero residual gives natural momenta without Dirichlet values',
         'full nonlinear boundary pairing gauge covariance before interpretation')
     assert not cert['records']['meaning']['global_stationary_SM_phase_derived']
 
 def test_actual_real_fermion_pairing_requires_a_domain(cert):
-    check(cert,'actual full source Clifford and symmetric Majorana normal pairing',
+    assert check(cert,'actual full source Clifford and symmetric Majorana normal pairing',
         'full source real normal map retains both conjugate blocks',
         'both intrinsic half planes are real Green null but unselected',
         'unrestricted fermion pairing nondegenerate not a half-rank condition')
     assert not cert['records']['fermion_trace']['old_pointwise_principal_failure_repaired']
     assert not cert['records']['meaning']['true_end_state_selected']
     assert not cert['records']['meaning']['full_raw_curved_superfield_completion_derived']
+
+def test_predicate_guard_rejects_a_false_computed_gate(cert):
+    name='rough Yang Mills momentum is not the source momentum'
+    assert check(cert,name)
+    changed=dict(cert,checks=dict(cert['checks']))
+    changed['checks'][name]=False
+    assert not check(changed,name)

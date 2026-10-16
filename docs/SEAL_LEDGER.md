@@ -9239,3 +9239,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/DESIGN.md` | `0ea284425129fae798d7918ba5f40eae10383cfdc0717fc8373862cb3d804a89` | Preregistered actual source boundary variation, not physical end selection |
 | 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/INPUTS.json` | `5892d88cde41476e0386492db81243732e74aba9431696077424bf8260285dce` | Preregistered actual source boundary variation, not physical end selection |
+
+## Global source boundary variation POST-HOC assertion visibility repair BEFORE successor
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | POST-HOC assertion visibility repair BEFORE successor | `reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/DESIGN.md` | `0ea284425129fae798d7918ba5f40eae10383cfdc0717fc8373862cb3d804a89` | Preregistered actual source boundary variation, not physical end selection |
+| 2026-10-16 | POST-HOC assertion visibility repair BEFORE successor | `reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/INPUTS.json` | `eaed29c6a918ba290a5c2951b0bcb841de980032a4095f10470c676ad4a91c0a` | Preregistered actual source boundary variation, not physical end selection |

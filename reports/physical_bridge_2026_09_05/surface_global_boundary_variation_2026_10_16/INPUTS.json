@@ -533,6 +533,10 @@
       "sha256": "0ea284425129fae798d7918ba5f40eae10383cfdc0717fc8373862cb3d804a89"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/POST_HOC_REPAIR.md",
+      "sha256": "0092da921c8d2e93ca67d25c51c9450f54dfb4c48adc060df9a84f51ed2bfb4f"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/PROOF.md",
       "sha256": "719704f5225ae4d99624b561c241aca89340a48909cbd0df7c60089bc52361bc"
     },
@@ -1270,7 +1274,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_global_boundary_variation.py",
-      "sha256": "1434c192e37af87eac8ec08e43b988ca91a0dc2084d207051cc97188a4fd35ce"
+      "sha256": "9fcdc74c0f7f70efe520dbcd4d4ec12fe57833f1a9b005c46679aabc200cf899"
     },
     {
       "path": "tests/test_physical_bridge_surface_inner_cauchy.py",

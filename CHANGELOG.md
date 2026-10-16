@@ -1,5 +1,11 @@
 # Changelog
 
+Global-boundary LIVE13PASS192.60s at8f65e96e7; governance26PASS/fourFAIL
+26.635868s, including TWO NEW assertion-visibility paths. Original331
+sources/manifests and complete captures preserved after terminal runs.
+Explicit assertion/false-predicate guard repair resealed before successor;
+scientific producers/proof unchanged. No inherited-only or repo-green claim.
+
 October16 actual global-tube variation:29/29each at published460dca46e,
 151.156943/113.391281s, full490,216byte records agree;331pins/tree/index
 unchanged. Full tilted normal/measure, nonlinear source momenta4L^T C,
