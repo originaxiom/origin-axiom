@@ -1,0 +1,31 @@
+UNVERIFIED hand reduction for NEXT separately sealed computation.
+Not current96-check evidence or an identification with BHV conventions.
+
+From AGW hep-th/0101233v2 printed35, use its actual action coefficient,
+NOT the different displayed coefficient in its gauge-transformation36.
+For superfields phi1,phi2,phi3, remove derivative3 dependence. Cyclic
+trace/integration by parts SUGGESTS the holomorphic CS density reduces to
+
+ Tr epsilon phi_i(partial_j phi_k-[phi_j,phi_k]/(3sqrt2))
+ =2 Tr phi3(partial1 phi2-partial2 phi1-[phi1,phi2]/sqrt2)
+   +partial2 Tr(phi1 phi3)-partial1 Tr(phi2 phi3).
+
+The factor6 in the cyclic cubic, factor2 in the derivative term and
+the COMPLETE superfield boundary transgression must be checked, also
+for actual matrix Grassmann coefficients. Then D_i=partial_i-phi_i/sqrt2
+relates the bracketed expression to its actual curvature. The h.c. is
+mandatory for a real physical action even if a printed display suppresses
+it. No choice of twist/coordinate/normalization/contour is free.
+
+Possible useful route: expand this one real superspace action, K/vector
+and auxiliary sector as well, through reduction and U2 twist. Compare
+the actual normalized fermion conjugates with the current source witness;
+do not change one barpsi sign by hand. Carry the transgression into the
+same boson/fermion/auxiliary boundary multiplet rather than discarding it.
+Check gauge completion/WZW with boundary and WZ-restoring transformations.
+
+Recover existing R70/R71 seven-dimensional constructions first; no claim
+that the generic superspace primitive or boundary principle is novel.
+A holomorphic identity alone is not the full real action/nonlinear end
+law, global model, chiral SM, three or gravity. Verify primary equation
+signs, source real contour and every field/kinetic map before any use.

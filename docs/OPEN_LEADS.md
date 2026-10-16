@@ -6625,3 +6625,11 @@ actual reduction/adjoint before import. No silent conjugate sign flip.
 Next common nonlinear law and GLOBAL stationary fields/end, then actual
 charged spectra/norms/vertices/anomalies in SAME theory. Ultimate full
 generated physical SM/three/gravity goal stays active.
+
+Weighted packet followup_hypotheses/REDUCED_SUPERSPACE_TRANSGRESSION_
+UNVERIFIED.txt preserves a HAND hypothesis: actual10D holomorphic
+superfield reduction may carry the needed8D conjugate/end transgression.
+Not computed, not a new generic superspace primitive, not current96
+evidence. Require separately published proof/source/controls before use,
+recover existing different-parent R70/R71 and retain real/K/auxiliary/
+gauge completion rather than borrowing a holomorphic identity alone.

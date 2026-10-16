@@ -109,3 +109,17 @@ and complete charged kernels/norms/vertices/anomalies in ONE construction.
 This supplied E8 parent/action is not selected by genesis. Observed SM,
 three generations, gravity, observer/qualia and ultimate goal unachieved.
 Selected live regression/governance follow, not claimed already green.
+
+## Terminal live validation and preserved next duty
+
+Five selected LIVE tests PASS39.53s at committed1379a6777, capture
+41.121270s; both producers rerun,62pins/13,173tracked contents/index
+unchanged. Governance26PASS/four inherited FAIL28.598654s, same frozen
+state; first3failure lines exactly match prior source capture.42stale
+relay debts/158open, review559. No waiver or newly named science path.
+Full receipts/logs/VALIDATION retained, not a full-suite certificate.
+
+An expressly UNVERIFIED superfield reduction/transgression hand note
+preserves the actual next action/conjugate/end question. It is not part
+of the96checks or a new theorem. Final note/metadata not back-certified;
+62scientific sources rechecked unchanged. Complete physical goal ACTIVE.

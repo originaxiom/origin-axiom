@@ -1,5 +1,10 @@
 # Changelog
 
+October16 weighted validation:5selected LIVE tests PASS39.53s at
+1379a6777,62pins/tree/index unchanged. Governance26PASS/four inherited
+FAIL28.598654s; full VALIDATION/raw captures retained, no waiver or new
+science path. Not full-suite/nonlinear boundary/global SM+gravity proof.
+
 ## 2026-10-16 local weighted action/operator/end join
 
 October16 weighted normal join:96/96 exact per producer at published

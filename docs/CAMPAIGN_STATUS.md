@@ -1,5 +1,10 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 weighted validation:5selected LIVE tests PASS39.53s at
+1379a6777,62pins/tree/index unchanged. Governance26PASS/four inherited
+FAIL28.598654s; full VALIDATION/raw captures retained, no waiver or new
+science path. Not full-suite/nonlinear boundary/global SM+gravity proof.
+
 October16 weighted normal join:96/96 exact per producer at published
 9021549f9,62pins/tree/index unchanged. Actual completed-source all16
 coefficients give the supplied bosonic Hessian norm with weights1,1,t^4,

@@ -19797,3 +19797,21 @@ boundary law. NEXT true source conjugation, full nonlinear common
 boson/fermion/gauge/auxiliary/SUSY law, GLOBAL stationary fields/end and
 SAME charged spectrum/norms/vertices/anomalies. Genesis selection and
 complete physical SM/three/gravity remain ACTIVE. Live checks follow.
+
+### October16 weighted normal-join validation/publication
+
+Five selected LIVE tests PASS39.53s at committed1379a6777, capture
+41.121270s; both producers rerun,62pins/13,173tracked contents/index
+unchanged in actual pre-launch/post-terminal snapshots. Governance
+26PASS/four inherited FAIL28.598654s, same state; first3failure lines
+exactly match preceding source capture.42stale relay debts/158open,
+review559. No waiver or new science path named. Identification24rows/
+9UNEARNED at baseline9 with five planted controls PASS; blind spot kept.
+Full logs/receipts/VALIDATION retained, not full-suite/independent review.
+
+One explicitly UNVERIFIED next superfield-reduction/transgression hand
+note preserves source adjoint and full boundary-law work; not96-check
+evidence. Final metadata/note not back-certified by those runs; science
+62pins separately rechecked unchanged. Source real-conjugation, common
+nonlinear boundary/SUSY and GLOBAL stationary charged physics remain
+the next gates. Full generated physical SM/three/gravity goal ACTIVE.
