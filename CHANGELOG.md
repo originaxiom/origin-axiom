@@ -1,5 +1,12 @@
 # Changelog
 
+Prospective admission source prepared under sealed design b63f03442.
+Read-only checker binds immutable specification/source pins, separate
+non-authoring review and main-reachable acceptance; all other governance
+failures block. Full historical report/global failure remain explicit.
+Synthetic two-gate integration controls are not a real admission or
+independent review; execution and verification still pending.
+
 October16 owner approved separating prospective experiment admission from
 the preserved historical-noncompliance register. New maintenance design
 requires sealed exact sources, non-authoring review and receiver acceptance;

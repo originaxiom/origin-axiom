@@ -76,6 +76,8 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | Superseded review blocks carry no open action items | **GATED** | `review-actions` |
 | Gates **fail closed** — a gate whose subject is missing must FAIL, never go quiet | **GATED** | verified by deletion in a fresh clone; see §Restart resistance |
 | Cross-seat claims, especially route-closing negatives, are audited before load-bearing use; positives and this seat's own results face the same standard | **MANUAL** | Owner reaffirmation 2026-10-09: pin sources, inspect and replay producers, use discriminating controls, audit scope and preserve surviving positives. Packet-boundary intake and evidence labels in reports/physical_bridge_2026_09_05/CROSS_SEAT_AUDIT_2026_10_09.md; no claim of automatic correctness or completed review. |
+| New scientific experiments need prospective admission separate from the historical failure register | **TESTED** | Owner approval 2026-10-16; scripts/gates/prospective.py and tests/test_prospective_experiment_gate.py bind the sealed specification, declared sources and accepted independent review. The ordinary global aggregate still fails on historical violations. |
+| A receiving seat verifies reviewer independence and substantive source completeness before accepting prospective review | **MANUAL** | Main records its acceptance of the exact review/specification on its branch. Distinct names and Git commits alone do not establish personal independence or scientific adequacy. |
 
 ### Cadence
 
@@ -371,6 +373,26 @@ no directory, complete file, authorship credit or new token budget is exempted.
 This establishes provenance consistency, not independent execution timing.
 Missing/stale/malformed role or reference policy fails closed. The maintained
 controls are `tests/test_governance_provenance_policy.py`.
+
+**Further owner approval, October 16: prospective admission is separate.**
+The historical register is not an execution-permission mechanism. New
+scientific experiments require the read-only pre-execution check
+`scripts/gates/prospective.py` on one exact admission manifest. It requires
+a sealed specification/design, immutable source/input/test pins, an
+environment descriptor, explicit commands and reserved new outputs, a
+separately committed non-authoring review, and main's acceptance of that
+exact review reachable from fetched main. Main verifies actual reviewer
+independence and source/environment completeness; the checker verifies
+evidence binding, not the truth of attestations. All other governance gates
+must pass and the historical report must remain readable and complete.
+
+A prospective pass never changes a historical failure into compliance,
+does not authorize unspecified commands, and is not the full-suite or
+banking certificate. The ordinary global aggregate is unchanged and
+continues to fail while historical problems remain. Historical report
+publication, read-only specification audits and this specifically approved
+maintenance are not new scientific experiments. Protocol and schema:
+reports/physical_bridge_2026_09_05/prospective_governance_2026_10_16/README.md.
 
 
 ## LAW_MAP rows carry their arc's scope — GATED (`lawmap-scope`)

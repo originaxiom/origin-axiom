@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "before_source_commit": "b63f03442bffa57bd4b7f0232f91e5ab39cfbe65",
+  "scope": "prospective governance maintenance, not scientific execution",
+  "source_files": [
+    {
+      "path": "scripts/gates/prospective.py",
+      "sha256": "f1f446846d07cbdb649eb04cc0971ad6f5fc1bc89a85493203b3f2ede0c52065"
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2"
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176"
+    },
+    {
+      "path": "tests/test_prospective_experiment_gate.py",
+      "sha256": "f0f4af98399677445eba42a07ef7055b2cb394f53b8b9da3a950c6f68966009e"
+    },
+    {
+      "path": "tests/test_governance_provenance_policy.py",
+      "sha256": "7a2a42e0fb2c472df017fd6e0cb8a283cde9ce293af5c8fda1d5f9e54f5322db"
+    },
+    {
+      "path": "docs/PRACTICES.md",
+      "sha256": "6eb133633602dbcce276067c20c6b44c86323b9297fd0ab13ba9e74eaa70551b"
+    },
+    {
+      "path": "docs/BANKING_PROTOCOL.md",
+      "sha256": "9121af1066485e53f12626edbcee6776b63651f16e106365bcd839f870263a10"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/prospective_governance_2026_10_16/DESIGN.md",
+      "sha256": "9e8e5e1a110da02a9a69c1f0ce0624e8bd1c37703374c76d305ab68386f94872"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/prospective_governance_2026_10_16/seal.rb",
+      "sha256": "95d728899db4951fa96417ae8c4bbba012c23b6a71632f777236c9022d85d4e9"
+    }
+  ]
+}

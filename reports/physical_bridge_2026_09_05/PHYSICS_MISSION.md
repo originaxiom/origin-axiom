@@ -1,5 +1,13 @@
 # Approved physics mission and execution criteria
 
+October16 owner approved a separate prospective experiment gate while
+preserving historical failures and the failing global verdict. Implementation
+is in prospective_governance_2026_10_16; tests and independent/main review
+are still pending at this source checkpoint. A new scientific packet needs
+an exact sealed specification, complete source/input/environment inventory,
+non-authoring review and main acceptance. This is not a supplied-parent
+restart or completion of the specification/critical-trace/end-law mission.
+
 Latest specification source d82351525: eight more authored action/parent proofs
 mapped;49direct source paths,three checked aliases,133pending. Eleven metadata
 controls/all185blobs PASS, phase3 reproduces except checker hash;18303tracked/

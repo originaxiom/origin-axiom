@@ -15,6 +15,15 @@ we lack) · `THE_FRAMEWORK.md` (what we have) · `WORKING_RULES.md` §0 (the bin
 Every banked arc, no exceptions. `scripts/gates/gates.py` enforces the mechanical rows; the
 judgement rows are enforced by the independent verification in Part II.
 
+**Prospective execution, owner approval October 16.** Before a new scientific
+experiment, run `scripts/gates/prospective.py` with its exact admission
+manifest. A sealed source-complete specification, non-authoring review and
+main's accepted disposition are required. Evidence schema and limits:
+reports/physical_bridge_2026_09_05/prospective_governance_2026_10_16/README.md.
+This is a separate pre-execution decision, not completion of the banking
+checklist. Historical violations remain noncompliant in the ordinary global
+gate, failed evidence is preserved, and no globally green claim follows.
+
 ### A. The arc itself
 1. **`FINDINGS.md`** — the write-up. *The filename matters:* `scripts/forcing/build.py` ingests
    only files named exactly `FINDINGS.md`, and **45 arcs were never ingested** because they used

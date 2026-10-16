@@ -41,6 +41,15 @@ conditions. Intermediate checkpoints do not complete the campaign.
 
 ## Work order and acceptance
 
+**Owner clarification, October 16.** Historical noncompliance remains in
+the failing global register. Prospective experiment permission is a separate
+decision requiring a sealed source-complete design and independent review
+accepted by main; all other governance checks must pass. The implementation
+and exact evidence requirements are in
+prospective_governance_2026_10_16/README.md. No actual scientific packet has
+been admitted by this maintenance. The remaining specification, actual
+critical-trace symmetry and end-law duties are unchanged.
+
 1. **Specification first.** For each result record its group/branching,
    coefficient and charges, metric, fields/operator/action, boundary and
    state assumptions. Link the exact source and verification grade.

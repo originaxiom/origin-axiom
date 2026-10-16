@@ -21168,3 +21168,15 @@ remain visible; no retrospective compliance, scientific execution or global
 green status. Exact Git binding is not proof of personal independence or
 undisclosed first-execution timing. Current branch remains the audit lane;
 all branches fetched without changes, no new paper-review disposition found.
+
+Prospective checker/source controls implemented after design b63f03442,
+before first maintenance test execution. Policy separates one-packet
+pre-execution admission from the unchanged global aggregate, verifies
+sealed Git blobs/current bytes/seal rows, disallows existing outputs,
+requires separately committed review and main-reachable acceptance.
+Main must verify real independence and source/environment completeness;
+the checker cannot certify those judgments or undisclosed execution time.
+Binding PRACTICES/BANKING_PROTOCOL and mission/work order updated together.
+No manufactured scientific admission, new science, historical waiver or
+full-suite/independent acceptance. Source publication and pinned quiescent
+maintenance controls follow; all failures will be retained.
