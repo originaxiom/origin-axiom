@@ -21341,3 +21341,13 @@ quantum completion. Earlier minimal-twist rosters retain their own operators.
 PHASE7_DESIGN precedes metadata changes; expected71direct/three aliases/
 111pending awaits controls. Certified65/3/117 unchanged. No scientific import,
 execution, new selected parent/end or independent analytic acceptance.
+
+Phase7 metadata source prepared under design06997e63c, committed before
+checker changes. Six new property rows retain complete phase6 carry,
+three aliases and17external readings; only phase6 carry is newly allowed.
+Expected71direct/three aliases/111pending awaits controls. One tool-script
+parser error occurred before any nested tool ran; corrected orchestration
+then serialized/sealed the first metadata sources successfully. No failed
+scientific run, source repair or replacement receipt is implied. Physical
+map/heat/Ward/global analytic claims retain source-only grading. Source
+pins, commit/push and complete unchanged envelopes precede controls.

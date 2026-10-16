@@ -1,5 +1,11 @@
 # Changelog
 
+Phase7 metadata source prepared under committed design06997e63c. Six
+additional property mappings carry every phase6 row; aliases and17external
+readings unchanged. Only phase6 added to carry whitelist. Expected71direct/
+three aliases/111pending awaits original11controls and185blob checks.
+No scientific producer executed; source commit/push precedes controls.
+
 Next source audit recovers the existing physical mass/operator map and
 conditional nonzero charged index at magnetic saddles. Six proofs, four
 native producers and three tests personally read; no science executed.
