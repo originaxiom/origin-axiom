@@ -33,3 +33,10 @@ physics. Fixed based g2+u1 not relabelled SM, no other-parent splice.
 All11heads refreshed, new SM4f1eddcf7 W97 rule/result/test read but
 not its full producer/reproduction or imported as physical masses.
 Full generated physical SM/three/gravity ACTIVE. Live checks to follow.
+
+Terminal at0c6121569:5selected LIVE PASS79.29s, capture80.995909s;
+both58-check producers rerun,117pins/13,662tracked/index unchanged.
+Governance26PASS/four inherited FAIL34.914857s, same state, first3
+failure lines match preceding capture;42stale/161open, review575. No
+waiver or new science path, no receiving/nonauthor/analytic/full-suite/
+main or physical SM/three/gravity acceptance. Full VALIDATION retained.

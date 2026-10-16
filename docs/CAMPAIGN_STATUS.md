@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 actual-charge validation:5selected LIVE PASS79.29s at
+0c6121569,117pins/tree/index unchanged; both complete58-check methods
+rerun. Governance26PASS/four inherited FAIL34.914857s, no waiver/new
+science path. Actual curved fermion connection and cutoff map retained;
+full SAME curved action/nonlinear boundary/singular/gauge/global duties
+remain. Full generated physical SM/three/gravity ACTIVE; VALIDATION.
+
 October16 actual charge/twist:58/58 exact per method at published
 dba960ac5,117pins/tree/index unchanged, complete records identical.
 The source Noether R is opposite the old declared label. Complementary

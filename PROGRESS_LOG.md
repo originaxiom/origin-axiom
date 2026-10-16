@@ -19952,3 +19952,15 @@ boundary, singular/gauge limit and global stationary charged physics.
 Fixed based rank3 not SM, no other-parent splice. Full generated
 physical SM/three/gravity ACTIVE. Selected live validation/governance
 follow, not already claimed green.
+
+### October16 actual charge and curved connection live validation
+
+At0c6121569,5selected LIVE PASS79.29s, capture80.995909s; both full
+58-check methods rerun.117pins/13,662tracked contents/index unchanged
+in before-launch/post-terminal snapshots. Governance26PASS/four inherited
+FAIL34.914857s, same frozen state; first3failure lines match preceding
+full-real-parent capture,42stale/161open, review575. No waiver or new
+science path. Full VALIDATION/raw captures retained. Post-check metadata
+not back-certified;117scientific sources rechecked unchanged. No
+nonauthor/analytic/full-suite/main or physical SM/three/gravity acceptance.
+Ultimate full generated physical goal ACTIVE.

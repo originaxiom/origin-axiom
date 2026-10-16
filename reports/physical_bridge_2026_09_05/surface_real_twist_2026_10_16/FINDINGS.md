@@ -145,3 +145,15 @@ charged kernels/norms/vertices/anomalies, foundational selection of the
 action/carrier/end and gravity remain ultimate duties. Full generated
 physical SM/three/gravity goal stays ACTIVE. Selected live validation
 and governance follow, not already claimed green.
+
+## Terminal live validation and publication
+
+At0c6121569,5selected LIVE PASS79.29s, capture80.995909s. Both complete
+58-check producers reran;117pins/13,662tracked contents/index unchanged
+in true before-launch/post-terminal snapshots. Governance26PASS/four
+inherited FAIL34.914857s, same frozen state, first3failure lines match
+the preceding capture;42stale/161open relay debt and review575. No waiver
+or new science failure path. Full VALIDATION/raw captures retained.
+Post-check metadata is not back-certified; scientific sources rechecked
+unchanged. No independent analytic/full-suite/main/physical acceptance.
+Complete generated physical SM/three/gravity goal remains active.
