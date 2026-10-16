@@ -102,6 +102,7 @@ def hejhal(G, N, Y0):
     h = G['h']
     M = 2 * N
     rows, rhs, ymin = [], [], mp.inf
+    scale = [None] + [mp.exp(2 * mp.pi * n * Y0 / h) for n in range(1, N + 1)]   # columns of order one
     for m in range(M):
         w = -h / 2 + h * (m + mp.mpf(1) / 2) / M + I * Y0
         ws, g = pullback(G, w)
@@ -112,11 +113,11 @@ def hejhal(G, N, Y0):
         for n in range(1, N + 1):
             qn *= q
             qsn *= qs
-            row.append(qn - j * qsn)
+            row.append((qn - j * qsn) * scale[n])
         rows.append(row[1:])
         rhs.append(-row[0])
     sol, res = mp.qr_solve(mp.matrix(rows), mp.matrix(rhs))
-    return [mp.mpf(1)] + [sol[i] for i in range(N - 1)], res, ymin
+    return [mp.mpf(1)] + [sol[i] * scale[i + 2] / scale[1] for i in range(N - 1)], res, ymin
 
 
 def hejhal_auto(G, N):

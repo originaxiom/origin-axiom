@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "<repo>/docs/dossiers/the_weave_2026-10-07/the_canonical_cusp_replication.py", line 271, in <module>
+    main()
+  File "<repo>/docs/dossiers/the_weave_2026-10-07/the_canonical_cusp_replication.py", line 239, in main
+    res = {"tau1": at_target(TAU1), "tau2": at_target(TAU2),
+                   ^^^^^^^^^^^^^^^
+  File "<repo>/docs/dossiers/the_weave_2026-10-07/the_canonical_cusp_replication.py", line 211, in at_target
+    x, y, s = solve(target, N)
+              ^^^^^^^^^^^^^^^^
+  File "<repo>/docs/dossiers/the_weave_2026-10-07/the_canonical_cusp_replication.py", line 190, in solve
+    x, y = newton(target, x, y, N, s, mp.mpf(10) ** -24)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/docs/dossiers/the_weave_2026-10-07/the_canonical_cusp_replication.py", line 164, in newton
+    t = evaluate(x, y, N, s)['tau']
+        ^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/docs/dossiers/the_weave_2026-10-07/the_canonical_cusp_replication.py", line 152, in evaluate
+    a, res, ymin, Y0 = hejhal_auto(G, N)
+                       ^^^^^^^^^^^^^^^^^
+  File "<repo>/docs/dossiers/the_weave_2026-10-07/the_canonical_cusp_replication.py", line 130, in hejhal_auto
+    a, res, ymin = hejhal(G, N, Y0)
+                   ^^^^^^^^^^^^^^^^
+  File "<repo>/docs/dossiers/the_weave_2026-10-07/the_canonical_cusp_replication.py", line 118, in hejhal
+    sol, res = mp.qr_solve(mp.matrix(rows), mp.matrix(rhs))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site-packages>/mpmath/matrices/linalg.py", line 407, in qr_solve
+    H, p, x, r = ctx.householder(ctx.extend(A, b))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site-packages>/mpmath/matrices/linalg.py", line 341, in householder
+    raise ValueError('matrix is numerically singular')
+ValueError: matrix is numerically singular
