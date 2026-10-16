@@ -1,5 +1,31 @@
 # Changelog
 
+## S141 THE PAPER, DRAFT 4: the three seats' reads verified and answered (P-187); B1654 sharpened; P-184 completed
+
+- **The three hostile reads, every finding verified.**
+  - The web seat: 1 BLOCKER, 17 MAJOR, 25 MINOR. All 43 numbered findings taken, 16 with a modified fix.
+  - The SM seat's W99: 6 MAJOR, 20 MINOR. 27 taken, 1 declined.
+  - The audit lane: 6 MAJOR, 2 MINOR. All 8 taken, plus its end-and-price and B1609 relays.
+  - Main merged the reads where they met (22 places). Credit by name to the web seat, the SM seat and the audit lane. The
+    paper itself credits no seat and no AI, at the owner's rule.
+- **Draft 4** (`papers/P9_what_a_grammar_fixes/`, 38 pp.):
+  - Table 1 prices every input the results use (the blocker).
+  - T2's common point is a theorem for every word, and the period phase's branch sign is proved for every thread (the SM
+    seat's strengthenings, the proofs followed).
+  - Proposition 13 displays the nilpotent field correctly (the web seat's check).
+  - The cusp law for D carries the general leading term, with a new check, `checks/cusp_law.py`.
+  - The end radius is renamed ℰ.
+  - The index section defines its three ends, cites B1606's order-192 result and B1609's 2T restriction, and scopes
+    B1604 as an Euler-type statement.
+  - B990 reads as an orbit statement, not a no-go.
+  - B1660 is scoped as a free-radius multistart, so it is not a test at either canonical cut. This corrects S140's
+    "a fortiori" (the audit lane).
+  - Figure 1 is redrawn.
+- **B1654 sharpened** (a dated note): its cusp law holds on Re τ = 0. Off the axis only the constant changes.
+- **P-184 completed** by B1609: under 2T the kept indices are −3, −1, +1, +3, and with the parity grading only ±3.
+- **P-188 opened:** bank the web seat's T-low negative and its per-field census on main.
+- **Harvest:** rows 1252–1255; pins sm `2e9cf5cb`, chat1 `64460af6`, audit `32b5a376`; nine audit relays rowed.
+
 ## S140 THE PAPER IN THE REPOSITORY, AND THE SEATS ASKED TO SCRUTINISE IT (the owner's request; P-186)
 
 - **The paper's sources at `papers/P9_what_a_grammar_fixes/`** (draft 3, 36 pp.). The tree holds the LaTeX, the

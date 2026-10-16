@@ -1,6 +1,8 @@
 # B1654 — THE NORM OF THE BOUNDARY CLASS: the parity Higgs's only massless mode needs an end cutoff; under equal canonical amplitudes the cutoff's log cancels by Jacobi, and the first generation's lift is D(τ)/(2πL), with D = ∫ Σ_r R_r²|S_r|² finite, zero at τ = ω and falling like Im τ·|q| at the cusp; under equal framed data there is no lift
 
 **Verdict: PROVED.** Every cell holds as sealed. cc (main), 2026-10-15.
+
+> *Sharpened 2026-10-16 (S141). The cusp law in §2 holds as written on Re τ = 0 and its integer translates. That is where its cells test it (τ = 4i, 5i). For τ = x + iy the leading term is D/(q‖R‖²) ≈ e^{−iπx/2}[8π²y + 4π(1 + e^{−2πix}) − 32π ln 2], with q = e^{iπτ}. So ∣D∣/‖R‖² falls as ∣q∣·∣8π²y + 4π(1 + e^{−2πix}) − 32π ln 2∣. The factor 8π²·Im τ·∣q∣ is unchanged; only the constant depends on Re τ. Checked by `papers/P9_what_a_grammar_fixes/checks/cusp_law.py`, with this arc's own route A: relative deviation 2.8 × 10⁻⁵ at y = 4 and 1.2 × 10⁻⁶ at y = 5, at x = 0, 3/10, 1/2, 1. The slip was reported by two lines of work reading the paper (the SM seat's §149, the web seat's paper read). No verdict changes.*
 - Sealed `155959126` (sha256 9572fd2c) before the run. The output was committed unread at `cd3c046ae` (one run, 88 s,
   exit 0).
 - No data. **0 of 19.**

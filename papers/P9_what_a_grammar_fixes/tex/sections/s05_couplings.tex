@@ -17,8 +17,9 @@ the puncture defines a vector $\rho(\tau)=(\rho_i,\rho_j,\rho_k)$,
   \rho_k=\frac{i\,\theta_3^2}{2\pi\eta^3},
 \]
 the \emph{theta triplet}, with the arguments $\tau$ and the zero argument understood. (The record writes $R$ for this
-vector; we write $\rho$ because $R$ is a move.) The Higgs lives in the space $\mathcal M$ of the fibre's quaternion
-structure, the complex $2\times2$ matrices with the quadratic form $a\cdot a$ of its three imaginary units. Two facts are
+vector; we write $\rho$ because $R$ is a move. It is a vector, not the representation $\rho$ of Section~\ref{sec:modular}.) The Higgs lives in the space $\mathcal M$ of the fibre's quaternion
+structure, the traceless complex $2\times2$ matrices, spanned by its three imaginary units, with the quadratic form
+$a\cdot a$. Two facts are
 used throughout.
 
 \begin{lemma}[Jacobi]\label{lem:jacobi}
@@ -31,14 +32,19 @@ $v\cdot v=0$ for the pairing triplet $v(z)=c_r\theta_r(0)\theta_r(z)/\theta_1(z)
 through $\theta_4(z)^2\theta_4^2+\theta_2(z)^2\theta_2^2=\theta_3(z)^2\theta_3^2$.
 \end{proof}
 
+\paragraph{What the grammar supplies here.}
+The grammar supplies the triplet and its multiplier (Theorem~\ref{thm:theta}). The isotropy of the theta triplet is Jacobi's
+identity, a classical fact. The fibre frame and the triplet postulate supply the coupling. The results of this section are
+what the fibre frame fixes, given the postulate.
+
 \paragraph{Frame dependence, stated first.}
 The results of \S\ref{sec:t4} hold in the \emph{fibre frame}: the Higgs is a section on the fibre itself, the zero modes
 are the triplet, and the triplet postulate holds at one $\tau$. They fail, or change meaning, in the two other frames on
 record. In the surface frame, a reading made within the program, the massless generation is not present. In the $E_8$ frame
-studied by the program's audit line of work
+studied within the program
 the Higgs in $\mathcal M$ is a Standard Model singlet, a flavon, and a physical Yukawa coupling needs two condensates, a
 doublet--singlet pairing, or the parent map. B1644's and B1649's verdicts carry this scope (B1648, B1655); the frame
-tribunal (B1652, Section~\ref{sec:boundary}) finds no frame that meets the principle's demands alone. Everything in this
+tribunal (B1652, Section~\ref{sec:boundary}) finds no frame shown to meet all of the principle's demands alone. Everything in this
 section is therefore a statement about the fibre frame and says so.
 
 \subsection{Isotropy and the massless generation}\label{sec:t4}
@@ -50,13 +56,15 @@ $3\times3$ matrix
 \]
 
 \begin{theorem}[Isotropy and the massless generation; T4]\label{thm:isotropy}
-Given the triplet postulate at one $\tau$, in the fibre frame:
+Given the triplet postulate at one $\tau$, in the fibre frame, with zero Wilson line, the Higgs at the puncture (the
+parent map owed), the record's hand, the lifts' agreement with the ruled moves checked at $\Delta^4$ alone, and $M_{1,2}$
+as the weave's surface:
 \begin{enumerate}
-\item (B1644) $\det Y(a)=(\rho\cdot\rho)(a\cdot a)(\rho\cdot a)=0$ for every direction $a$ and every $\tau$. Equivalently
+\item (B1644) $\det Y(a)=(\rho\cdot\rho)(a\cdot a)(\rho\cdot a)=0$ for every direction $a$ and every $\tau$. Indeed
   $Y(a)\rho=0=Y(a)^T\rho$: one generation is massless, and the massless state is the theta triplet.
 \item (B1645) For real $a$ the two other singular values have ratio $m\in[\tfrac12,1]$, set by one angle: with
-  $u=2|a\cdot\rho|^2/(|\rho|^2|a|^2)\in[0,1]$ (for real $a$ and isotropic $\rho$, $|a\cdot\rho|^2\le\tfrac12|\rho|^2|a|^2$),
-  $m^2=t_-/t_+$ where $t^2-(4+u)t+4=0$. The value is $\tfrac12$ for $a$ in the
+  $\kappa=2|a\cdot\rho|^2/(|\rho|^2|a|^2)\in[0,1]$ (for real $a$ and isotropic $\rho$, $|a\cdot\rho|^2\le\tfrac12|\rho|^2|a|^2$),
+  $m^2=\xi_-/\xi_+$ where $\xi^2-(4+\kappa)\xi+4=0$. The value is $\tfrac12$ for $a$ in the
   plane of $\rho$ and $1$ for $a$ normal to it. $Y(a)$ has rank one exactly on the isotropic cone $a\cdot a=0$, and near
   the cone $m$ grows as $|a\cdot a|/|a|^2$.
 \item (B1646) In the unitary frame $(\rho/|\rho|,\bar\rho/|\rho|,n)$ fixed by $\tau$, $Y(a)$ vanishes on $\rho$ and maps
@@ -84,13 +92,18 @@ that quartic; an octic invariant or the zero modes' one-loop term puts minima be
 $V=1\oplus U(2)$ is leading order and fibre-frame only. That the $\tau$ of the fibre is a physical modulus is not claimed.
 
 \begin{proposition}[$\rho$ is the residue of the one nilpotent Higgs; B1650]\label{prop:o6}
-On the fibre, the bilinear $\sum_r\rho_r^2\,\wp(z-z_r)$, with each unit at the half-period where its theta function
-vanishes ($i\leftrightarrow\tfrac12$, $j\leftrightarrow\tau/2$, $k\leftrightarrow(1+\tau)/2$), is a Higgs field nilpotent
-at every point, and its residue $\rho$ is, up to the Klein group's signs, the only residue of a Higgs built from the zero
-modes' pairings with this property.
+On the fibre, let $\hat f_r$ be the function with residue one at the puncture and $\hat f_r^{\,2}=\wp(z)-\wp(z_r)$, with each
+unit $\mathsf e_r$ at the half-period $z_r$ where its theta function vanishes ($i\leftrightarrow\tfrac12$,
+$j\leftrightarrow\tau/2$, $k\leftrightarrow(1+\tau)/2$). The field $\Phi_\rho=\sum_r\rho_r\hat f_r\,\mathsf e_r\,dz$ has
+\[
+  \Phi_\rho^2=-\Bigl[(\rho\cdot\rho)\,\wp(z)-\sum_r\rho_r^2\,\wp(z_r)\Bigr]dz^2=0,
+\]
+the second term vanishing identically in the theta constants. So it is a Higgs field nilpotent at every point, and its
+residue is $\rho$. Of the six assignments of the units to the half-periods, this is, up to the Klein group's signs,
+the only one with this property at a generic $\tau$.
 \end{proposition}
-\noindent\emph{Status.} Verified in B1650, in code independent of the seat that first stated it: the constant term cancels because $\rho\cdot\rho=0$, and the
-residual is $2.6\cdot10^{-32}$ to $1.7\cdot10^{-31}$ at four values of $\tau$. The five other pairings of units to
+\noindent\emph{Status.} Verified in B1650 in independent code: $\wp$ is computed through $-(\log\theta_1)''$, whose additive constant
+drops out of $\sum_r\rho_r^2\wp(z_r)$ because $\rho\cdot\rho=0$, and the residual is $2.6\cdot10^{-32}$ to $1.7\cdot10^{-31}$ at four values of $\tau$. The five other pairings of units to
 half-periods give $0.46$ to $4.96$, except one that also vanishes at $\tau=i$ where $\theta_2=\theta_4$. The
 step that a genuine cusp forces a nilpotent residue ($a\cdot a=0$) rests on the tame Higgs correspondence and was not
 re-derived in the record (B1650 section 3)~\cite{Simpson1990}. The proposition does not use it.
@@ -98,7 +111,8 @@ re-derived in the record (B1650 section 3)~\cite{Simpson1990}. The proposition d
 \subsection{Which couplings the moves allow}\label{sec:t5}
 
 \begin{theorem}[Covariance; T5]\label{thm:covariance}
-In the fibre frame, the move $L:\tau\mapsto\tau+1$ acts on the pairing triplet as $\mathrm{Ad}(g_L)^{-1}$ and
+In the fibre frame, with covariance under the moves invoked where $\tau$ varies (the surface frame, B1651), the move
+$L:\tau\mapsto\tau+1$ acts on the pairing triplet as $\mathrm{Ad}(g_L)^{-1}$ and
 $R:\tau\mapsto\tau/(\tau+1)$ as $\mathrm{Ad}(g_R)$, with no Klein element, at the puncture and at every half-period
 (in the lifts of Theorem~\ref{thm:triplet} this is the lift twisted by the Klein element $i$ on $L$, which accounts for
 the inverse). The
@@ -113,8 +127,9 @@ finite group theory. See B1651.
 \end{proof}
 \noindent\emph{Scope.} B1655 scopes the corollary B1651 draws, that the Higgs's locus is not forced to the puncture: it
 holds for a \emph{point or density Higgs}, a premise that no cell of the arc tests. A Higgs carrying
-a parity, in the triplet, couples at the puncture (B1651's addendum). So the covariant loci for an even single-point
-Higgs are the puncture, the half-period orbit, or both; the conclusion for other Higgs types is not made.
+a parity, in the triplet, couples at the puncture (B1651's addendum). So in the surface frame the covariant loci for an even single-point
+Higgs are the puncture, the half-period orbit, or both; in the fibre frame at one $\tau$ any of them is kept (B1651). The
+conclusion for other Higgs types is not made.
 
 \subsection{The field stage}\label{sec:field}
 
@@ -122,10 +137,11 @@ The next five statements are propositions: each is exact in its frame, none is a
 inputs. They are the steps between a point coupling and a mass matrix.
 
 \begin{proposition}[The rank of a point coupling; B1653]\label{prop:rank}
-At the puncture both components of the zero modes behave like $u^{-1/2}$, so the residue of a product is a rank-one
+At the puncture both components of the zero modes behave like $\zeta^{-1/2}$, with $\zeta$ a local coordinate at the puncture,, so the residue of a product is a rank-one
 bilinear $v_xv_y^T$ of one doublet. Hence for every flat line and every Higgs the record's coupling has rank at most $2$,
 and the massless left state is the left field's alone; the four unit residues form a null quaternion
-($r_1^2+\rho\cdot\rho=0$, with $r_1$ the identity unit's residue), so up and down share the left null vector and $V=1\oplus U(2)$ at a point, for every line.
+($r_1^2+r\cdot r=0$, with $r_1$ the identity unit's residue and $r$ the line-twisted triplet of the other three, equal to
+$\rho$ at $w=0$; on a flat line $r\cdot r\neq0$ in general), so up and down share the left null vector and $V=1\oplus U(2)$ at a point, for every line.
 What lifts the zero must not act as a point: two points, a tilted or anisotropic profile, or a profile about the
 puncture. A radially symmetric profile about a regular point acts as the point.
 \end{proposition}
@@ -134,23 +150,27 @@ puncture. A radially symmetric profile about a regular point acts as the point.
 \begin{proposition}[The norm of the boundary class; B1654]\label{prop:norm}
 The parity Higgs's only massless mode is the boundary class at the puncture. Its norm needs an end cutoff: for the
 Szegő kernels of the even spin structures, $\|S_r\|^2_\epsilon=2\pi\log(1/\epsilon)+c_r(\tau)$, where $\epsilon$ is the
-radius of a disc removed at the puncture. The \emph{end radius} $L$ enters as $L=\log(1/\epsilon)$ (the logarithm of a
-regulator), and the regularised norm is $2\pi L+c_r$. Under equal canonical amplitudes the cutoff's logarithm
-cancels by Lemma~\ref{lem:jacobi}: with $u_r=\sqrt{2\pi L+c_r}\,\rho_r$,
-$u\cdot u=2\pi L(\rho\cdot\rho)+D=D$, where
+radius of a disc removed at the puncture. The \emph{end radius} $\mathcal E$ enters as $\mathcal E=\log(1/\epsilon)$ (the logarithm of a
+regulator), and the regularised norm is $2\pi\mathcal E+c_r$. Under equal canonical amplitudes the cutoff's logarithm
+cancels by Lemma~\ref{lem:jacobi}: with $\hat\rho_r=\sqrt{2\pi\mathcal E+c_r}\,\rho_r$,
+$\hat\rho\cdot\hat\rho=2\pi\mathcal E(\rho\cdot\rho)+D=D$, where
 \[
   D(\tau)=\sum_r c_r(\tau)\rho_r^2=\int_{P}\sum_r\rho_r^2|S_r|^2\,dA
 \]
-is finite and canonical. The first generation's lift is $D/(2\pi L)$. $D$ is zero at $\tau=\omega$ (the order-3 move equalises
-the norms), $|D|/|\rho|^2$ is modular invariant, and at the cusp $D/(q|\rho|^2)=8\pi^2\mathrm{Im}\,\tau+8\pi(1-4\ln2)+O(\mathrm{Im}\,\tau\,q)$.
+is finite and canonical. The first generation's lift is $D/(2\pi\mathcal E)$. $D$ is zero at $\tau=\omega$ (the order-3 move equalises
+the norms), $|D|/|\rho|^2$ is modular invariant, and toward the cusp along $\tau=iy$, $D/(q|\rho|^2)=8\pi^2y+8\pi(1-4\ln2)$ up to a relative correction that is
+exponentially small in $y$, with $q=e^{i\pi\tau}$. For $\tau=x+iy$ the leading term is
+$e^{-i\pi x/2}\bigl[8\pi^2y+4\pi(1+e^{-2\pi ix})-32\pi\ln2\bigr]$, which is the displayed one at $x=0$; the paper's check
+\texttt{checks/cusp\_law.py} confirms it at $x=0,\tfrac3{10},\tfrac12,1$ and $y=4,5$.
 Under equal framed data there is no lift.
 \end{proposition}
 \noindent\emph{Scope.} Exact to $1.2\cdot10^{-10}$ by two routes; the direct $D$ to $1.6\cdot10^{-14}$. B1655 scopes it to its
-premises (the canonical end condition among them). Which end condition is physical is open. In the flat metric none fixes $L$; the fibre's
-hyperbolic metric fixes it at order one (Census law~\ref{cl:cusp}). The lift is diagonal along $\rho$, so the light state's angle goes as $1/L$.
+premises (the canonical end condition among them) and finds the lift sensitive to the channels' amplitudes: at $\tau=i$,
+$\mathcal E=40$, a $1\%$ error in one channel's amplitude changes it by a factor $2.2$. Which end condition is physical is open. In the flat metric none fixes $\mathcal E$; the fibre's
+hyperbolic metric fixes it at order one (Census law~\ref{cl:cusp}). The lift is diagonal along $\rho$, so the light state's angle goes as $1/\mathcal E$.
 
 \begin{proposition}[The electron's zero; B1656]\label{prop:electron}
-On the stated inputs, namely the eighteen flat lines fixed by the order-three move at $\tau=\omega$, the hypercharge
+On the stated inputs, namely the eighteen flat lines $w=p_1\tau-p_2$ of exact order nine at $\tau=\omega$, for which $3w$ is fixed by the order-three move, the hypercharge
 dictionary (Table~\ref{tab:inputs}, with $6Y$ the
 minimal integral normalisation), and B1654's canonical end condition, the charged leptons' first generation stays exactly
 massless for every Higgs and every channel weight, while the quarks are lifted.
@@ -170,7 +190,7 @@ $\rho$ ($e^{-i\pi/3}$), $\bar\rho$ ($e^{i\pi/3}$) and $n$ ($-1$). A Higgs on $n$
 coupling has rank one. Near the isotropic vacua the light masses obey two laws, with $d_x=x\cdot x/|x|^2$: for the conjugate
 vacuum ($a\approx\bar\rho$, $v\approx\rho$) the light masses over the heavy are $|d_a|$ and $|d_v|$; for the parallel vacuum
 ($a\approx\rho$, $v\approx\rho$) they are $|d_a+d_v|/4$ and $|d_ad_v|/4$, a geometric hierarchy. Under B1654's canonical end
-condition with the Higgs on the line, one generation stays massless and $L\,s_2/s_1\to|D|/(2\pi|\rho|^2)$ or
+condition with the Higgs on the line, one generation stays massless and $\mathcal E\,s_2/s_1\to|D|/(2\pi|\rho|^2)$ or
 $|D|/(8\pi|\rho|^2)$; $D(\gamma\tau)(c\tau+d)=-D(\tau)$ for the order-3 move makes $D$ a cone at $\omega$.
 \end{proposition}
 \noindent\emph{Scope.} Untwisted, one fibre, one $\tau$; no cell is blind (B1657). It is a statement about symmetric points
@@ -178,7 +198,7 @@ of this frame; it is not a selection of $\omega$ (Section~\ref{sec:selection}).
 
 \begin{proposition}[The twisted half bound; B1658]\label{prop:twisted}
 In the twisted frame of B1656, under equal framed data, one Higgs keeps the sectors' second generations within a factor
-$4$, exactly. For a null matter residue $M=pq^T$ and any complex Higgs $S$, $\adj Y(S,M)=\det S\,\tilde q\tilde p^T$ with
+$4$, exactly. For a null matter residue $M=pq^T$ and any complex Higgs $S$, $\adj Y(S,M)=\det S\,A$ with $A=\tilde q\tilde p^T=A(M)$ (Theorem~\ref{thm:joint}) and
 $\|A\|=2\|M\|^2$, and each sector's spectrum is $(1,t,0)$ with $t+1/t=\|Y\|^2/(2|\det S|\|M\|^2)$. The Gram spectrum of $S\mapsto Y(S,M)$ is
 $\{1,2,2,4\}\|M\|^2$, so $\|Y\|^2\in[1,4]\|S\|^2\|M\|^2$. One Higgs shares $\det S$, so the sectors' $t+1/t$ lie within a
 factor $4$ of each other.
@@ -265,7 +285,7 @@ $\chi(R)=-i$ for the two letters of the grammar.
 \end{lemma}
 \begin{proof}
 Write $D=-\theta_3^4h(\lambda)/(4\pi\eta^6)$ with $\lambda=\theta_2^4/\theta_3^4$ and
-$h(\lambda)=\lambda\log|\lambda|+(1-\lambda)\log|1-\lambda|$ (B1654's closed form). Under $\tau\mapsto\tau+1$,
+$h(\lambda)=\lambda\log|\lambda|+(1-\lambda)\log|1-\lambda|$ (the closed form checked in B1657). Under $\tau\mapsto\tau+1$,
 $\theta_3\leftrightarrow\theta_4$ and $\theta_2\mapsto e^{i\pi/4}\theta_2$, so $\lambda\mapsto\lambda/(\lambda-1)$ and
 $\theta_3^4\mapsto\theta_4^4=\theta_3^4(1-\lambda)$; a short computation gives $h(\lambda/(\lambda-1))=-h(\lambda)/(1-\lambda)$, and
 $\eta^6\mapsto i\eta^6$. Hence $D(\tau+1)=iD(\tau)$. Under $\tau\mapsto-1/\tau$, $\theta_3\mapsto\sqrt{-i\tau}\,\theta_3$ and
@@ -281,20 +301,24 @@ record also checks it numerically at $L$, $R$, $S_0$ and $L^{-1}R$, to $10^{-30}
 Along a thread, let $z(s)$ be the geodesic in the upper half-plane, with $s$ its arclength, and let
 $\psi(s)=D(z(s))\,(dz/ds)^{-1/2}$ be the \emph{amplitude}. Then after one period the amplitude returns multiplied by
 \[
-  \psi(s+\ell)=\varepsilon(\gamma)\,i^{\,\#L-\#R}\,\psi(s),
+  \psi(s+\ell)=i^{\,\#L-\#R}\,\psi(s),
 \]
-the exponent counting the letters of the thread's word $\gamma$, and $\varepsilon(\gamma)=\pm1$ the sign of the square root's
-continuation along the period. Consequently, where $\varepsilon=1$, a coherent average of $\psi$ over a thread survives
+the exponent counting the letters of the thread's word $\gamma$. Consequently a coherent average of $\psi$ over a thread survives
 only if $\#L\equiv\#R\pmod 4$.
 \end{theorem}
 \begin{proof}[Proof sketch]
-Along a closed geodesic the period is the hyperbolic element $\gamma$ of the thread's word. The derivative $dz/ds$
-transforms by $(cz+d)^{-2}$ and $D$ by $\chi(\gamma)(cz+d)^{-1}$ (Lemma~\ref{lem:automorphy}), so the product $\psi$ is multiplied by
-$\chi(\gamma)$ up to the sign $\varepsilon(\gamma)$ of the square-root branch, and
-$\chi(\gamma)=\chi(L)^{\#L}\chi(R)^{\#R}=i^{\#L-\#R}$ because $\chi$ is a character. See B1666.
+Along a closed geodesic the period is the hyperbolic element $\gamma=\begin{psmallmatrix}a&b\\c&d\end{psmallmatrix}$ of the
+thread's word, with $z(s+\ell)=\gamma z(s)$. The derivative $dz/ds$ transforms by $(cz+d)^{-2}$ and $D$ by
+$\chi(\gamma)(cz+d)^{-1}$ (Lemma~\ref{lem:automorphy}). Let $r(s)$ be the ratio of the continuation of $(dz/ds)^{-1/2}$
+from $s$ to $s+\ell$ to its value at $s$. Then $r^2=(cz+d)^2$. Since $cz+d$ has no zero on $\Hb$ and $r$ is continuous,
+$r=\epsilon\,(cz+d)$ with one sign $\epsilon$ for all $s$. As $s\to-\infty$, both $z(s)$ and $z(s+\ell)$ tend to the
+repelling fixed point $x$ of $\gamma$ and the two tangent directions agree, so $r$ tends to a positive number (a power of
+the ratio of the two heights), while $cz+d\to cx+d$. This is an eigenvalue of $\gamma$, positive because a word in $L$ and
+$R$ has positive trace. Hence $\epsilon=+1$, $\psi(s+\ell)=\chi(\gamma)\psi(s)$, and
+$\chi(\gamma)=\chi(L)^{\#L}\chi(R)^{\#R}=i^{\#L-\#R}$ because $\chi$ is a character. Census law~\ref{cl:phase} (B1666) checks
+this numerically.
 \end{proof}
-\noindent\emph{Scope.} Exact, by Lemma~\ref{lem:automorphy}, except for $\varepsilon$, which the theorem leaves open and the
-census law below measures. It concerns
+\noindent\emph{Scope.} Exact for every thread, by Lemma~\ref{lem:automorphy} and the argument above. It concerns
 $D$ alone, not the physical amplitude, which also needs the Higgs's own transformation (the determinant and the pairing)
 that B1656's frame leaves free.
 
@@ -310,7 +334,7 @@ reduced to the domain, passes through $i$. Computed with the sealed instrument's
 On all $30\,674$ threads with trace at most $600$ the least-squares phase over two consecutive periods,
 $\sum g(s+\ell)\overline{g(s)}/\sum|g|^2$, equals $i^{\#L-\#R}$ with error at most $1.1\cdot10^{-7}$. The phase is $1$ on
 $0.2508$ of the threads, as the four values of the character predict. The ratio includes the square root's branch, so
-the branch sign is $+1$ on every one of the threads.
+the census checks numerically the branch sign $+1$ that Theorem~\ref{thm:phase} proves for every thread.
 \end{censuslaw}
 \noindent\emph{Scope.} A census to trace $600$; no statement for longer threads. It is a sealed test (preregistered, run
 once), and the earlier gates that failed at the zeros of $D$ (B1664, B1665) are disclosed in Section~\ref{sec:methods}.
@@ -319,5 +343,5 @@ once), and the earlier gates that failed at the zeros of $D$ (B1664, B1665) are 
 Two companion readings from the same sealed arc, both scoreboards (the data of B1664 and B1665 were seen, so they are not
 blind), are developed in Section~\ref{sec:boundary}. Averaged trace by trace, the threads' average of the defect
 $f=|D|/\|\rho\|^2$ approaches the constant mode of the modular surface, $0.31500491$, as the equidistribution of closed
-geodesics predicts~\cite{Bowen1972,Duke1988,Sarnak1982}; and the amplitude, unlike the size, has no constant wave: its
+geodesics predicts~\cite{Duke1988,Sarnak1982}; and the amplitude, unlike the size, has no constant wave: its
 coherence falls with length. The first is expected, the second is the content. Neither fixes a value of the Standard Model.

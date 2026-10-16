@@ -22,9 +22,10 @@ and cannot fail (reported apart from the tests). A result computed on data that 
 its statement says so. Explorations after the seal are labelled and kept apart, with their outputs hashed. A later
 change to a sealed file is recorded the same day, in a form that the seal check reads.
 
-\paragraph{Seats and reproduction.}
-The work is done on several parallel lines, the \emph{seats}, each on its own branch. A seat's result enters the record
-only after the record's maintainer has reproduced it from its statement, in independently written code where possible.
+\paragraph{Parallel lines and reproduction.}
+The work is done on several parallel lines, each on its own branch. A result from one line enters the record as an arc only
+after it has been reproduced from its statement on the main line, in independently written code where possible.
+Results that were read and not re-run are marked so in the record.
 All verification described in this paper is internal to the program. None of it is external review.
 
 \paragraph{Three corrections.}

@@ -17264,3 +17264,20 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   asked to check the paper's phase and commutator conventions against its own. RELAY_LEDGER row OPEN.
 - **P-186** registered and done; FLOOR 186. **P-169** is sharpened by B1667.
 - Landing suite: gates 45 of 45; 191 files (the tree-scanning locks added), 2390 passed, 0 failed, 6 skipped (18:13, -n 8; the first run was cut by a restart at 96% and re-run in full). 0 of 19.
+
+## 2026-10-16 — S141 THE PAPER, DRAFT 4 (P-187)
+
+- **The owner's word.** "Continue as you recommend. We don't credit seats or AI in the paper; AI except for methodology,
+  if you have written it. If not, it's OK." Memory: paper-credits-no-seats-or-ai.
+- **The method.** Three verification passes, one per read, checked each finding against the record. Main then merged the
+  158 proposed edits where they overlapped (22 groups, each resolved by hand) and followed the two strengthened proofs.
+  A new check, `checks/cusp_law.py` (B1654's route A), was added and passes. The build is clean: 38 pages, no undefined
+  references.
+- **Verdicts.**
+  - Web: 43 of 43 numbered findings taken (16 modified); further points 13 taken and 2 declined.
+  - SM: 27 taken, 1 declined (crediting another branch's reproductions, under the owner's rule).
+  - Audit: 8 of 8 taken, plus B1660's scope and B1609's 2T restriction.
+- **The record.** B1654 sharpened with a dated note. P-184 completed by B1609. P-169's "a fortiori" corrected. P-187 done;
+  P-188 opened; FLOOR 188. Relay THE_PAPER_READS_ANSWERED; SCRUTINISE_THE_PAPER is BANKED. Harvest rows 1252–1255 and
+  pins; nine audit relays rowed.
+- Landing suite: gates 45 of 45; 191 files, 2390 passed, 0 failed, 6 skipped (8:17, -n 8). The first run failed one lock (B1306: the audit lane's ten new report ids had no row naming them once its pin moved); row 1255 now names them, and the suite was re-run in full. 0 of 19.
