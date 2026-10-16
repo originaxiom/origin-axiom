@@ -1,0 +1,371 @@
+{
+  "extends": "review_records.json",
+  "carries_forward": "review_records_phase7.json",
+  "grade": "Personally read authored proof sources and explicit property mapping; byte aliases separate. No new scientific execution, full packet audit or independent analytic acceptance.",
+  "inventory_scope": "185 pinned proof-path artifacts at the two declared heads, including eight stored dependency paths. This is not 185 unique primary results or a complete historical/packet census.",
+  "scope_erratum": "The original inventory's description overstates the exclusion of received/source copies: five received_r46/received_r54 paths and three silver_complete_flag sources paths remain in its population. Preserve the original and account for these roles and byte aliases explicitly.",
+  "added_inventory_mappings": {
+    "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md": [
+      "Determinant-preserving coefficient enlargement",
+      "Compact E8 gauge frame and complete charged roster",
+      "Metric and current transport"
+    ],
+    "reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_PROOF.md": [
+      "Compact harmonic-family admission",
+      "Positive physical kinetic coefficient"
+    ],
+    "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_PROOF.md": [
+      "Resolved singular-source family",
+      "Fixed-domain spectral pairing"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md": [
+      "Three parity quaternion doublets",
+      "Finite-distance spin Dirac realization",
+      "Graded self-adjoint domain",
+      "Complete cusp versus finite-distance domain"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/PROOF.md": [
+      "Physical kinetic operator and twist",
+      "Coefficient-sensitive versus coefficient-blind boundary response"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/PROOF.md": [
+      "Physical kinetic operator and twist",
+      "Angular boundary ellipticity and reality"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md": [
+      "Supplied curved parent action",
+      "Physical kinetic operator and twist",
+      "Boundary variation of the interacting source"
+    ],
+    "reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md": [
+      "Sufficient retained record for declared updates and outputs"
+    ],
+    "reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md": [
+      "Actual coefficient type rather than equal rank",
+      "Complete parent gauge kernel and peripheral sectors"
+    ],
+    "reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_PROOF.md": [
+      "Full-parent character detector",
+      "Compact harmonic-family admission"
+    ],
+    "reports/genesis_root_review_2026_10_11/positive_carrier/PROOF.md": [
+      "Positive-word retention versus signed-word universality"
+    ],
+    "reports/genesis_root_review_2026_10_11/word_lifts/PROOF.md": [
+      "Coherent positive lift transport",
+      "Based versus outer symmetry"
+    ],
+    "reports/genesis_root_review_2026_10_11/bundle_transport/PROOF.md": [
+      "Cohomology and coefficient transport",
+      "Lift-sign and parity preservation"
+    ],
+    "reports/genesis_root_review_2026_10_11/cohomology_carrier/PROOF.md": [
+      "Minimal retained algebra for the specified coefficient cocycles"
+    ],
+    "reports/genesis_root_review_2026_10_11/puncture_fredholm/PROOF.md": [
+      "Finite-distance closed Dirac domain",
+      "Actual kernel and cokernel to sheaf map"
+    ],
+    "reports/genesis_root_review_2026_10_11/fibre_family/PROOF.md": [
+      "Spin-coordinate cancellation in the critical trace",
+      "Smooth vertical Fredholm family and connecting map"
+    ],
+    "reports/genesis_root_review_2026_10_11/cusp_connection/PROOF.md": [
+      "Smooth finite-action end-line realization",
+      "Integral extension versus continuous open flux"
+    ],
+    "reports/genesis_root_review_2026_10_11/theta_cusp/PROOF.md": [
+      "Classical discriminant from the existing theta functions",
+      "Open trivialization versus chosen end sector"
+    ],
+    "reports/genesis_root_review_2026_10_11/cusp_spin_extension/PROOF.md": [
+      "Ordinary versus logarithmic spin extension",
+      "Nonuniform cusp correction under the half-weight shift"
+    ],
+    "reports/genesis_root_review_2026_10_11/nodal_transport/PROOF.md": [
+      "Primitive node holonomy and framing",
+      "Local contraction without integer-extension selection"
+    ],
+    "reports/genesis_root_review_2026_10_11/total_metric_dirac/PROOF.md": [
+      "Actual total metric and mixed spin connection"
+    ],
+    "reports/genesis_root_review_2026_10_11/total_domain/PROOF.md": [
+      "Horizontal normal-family ellipticity",
+      "Global total selfadjoint closure with prescribed trace"
+    ],
+    "reports/genesis_root_review_2026_10_11/vertical_cusp_gap/PROOF.md": [
+      "Uniform vertical complement estimate retaining the puncture modes"
+    ],
+    "reports/genesis_root_review_2026_10_11/horizontal_projection/PROOF.md": [
+      "Bounded horizontal projection and nonzero mixing",
+      "Actual projected cusp phases and confinement"
+    ],
+    "reports/genesis_root_review_2026_10_11/matter_line_compatibility/PROOF.md": [
+      "Interacting two-field line compatibility",
+      "Opposite charges versus common scalar adjoint twist"
+    ],
+    "reports/genesis_root_review_2026_10_11/noncompact_admission/PROOF.md": [
+      "Conditional nonsplit harmonic admission in a prescribed complete flag class"
+    ],
+    "reports/genesis_root_review_2026_10_11/kernel_transport/PROOF.md": [
+      "Bounded complex transport",
+      "Positive flag amplitude independent of zero-mode multiplicity"
+    ],
+    "reports/genesis_root_review_2026_10_11/weighted_global_complex/PROOF.md": [
+      "Complete weighted charged complex and full compact-core restriction"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/PROOF.md": [
+      "Odd complementary estimate without squaring the half-pole",
+      "Conditional total odd-sector confinement"
+    ],
+    "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/PROOF.md": [
+      "Same-action field degree and continuous lift",
+      "Retained quartic interaction versus an invented scalar portal"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/PROOF.md": [
+      "Finite-action four-real-dimensional pure-gauge lift",
+      "Yang-Mills versus zero-moment stationarity"
+    ],
+    "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md": [
+      "Static residual action versus kinetic metric",
+      "Enlarged nonlinear multiplier action versus regular autonomous same-state action",
+      "Specified core cost versus sourced alternatives"
+    ],
+    "reports/physical_bridge_2026_09_05/PARENT_VERTEX_PROOF.md": [
+      "Faithful compact subgroup map and complete E8 roster",
+      "Actual field statistics and cubic form degree",
+      "Wedge overlap versus scalar metric overlap"
+    ],
+    "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md": [
+      "Noncommuting stationary geometric parent baseline",
+      "Whole-parent unbroken algebra",
+      "Positive-metric duality and matched-domain pairing"
+    ],
+    "reports/physical_bridge_2026_09_05/REGISTER_WILSON_PROOF.md": [
+      "Gauge-invariant character readout and odd register",
+      "Anomaly cancellation versus self-conjugacy",
+      "Readability versus source equations or a quantum measure"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/PROOF.md": [
+      "Signed source component/action map",
+      "Hermitian completion versus printed conjugate action",
+      "Internal congruence and exact zero-kernel/domain transport"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/PROOF.md": [
+      "Same real parent kinetic and residual action",
+      "Retained auxiliary and boundary terms",
+      "Local field map versus global physical admission"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/PROOF.md": [
+      "Actual Noether scalar-plane generator",
+      "Opposite MW alternative and full geometric connection",
+      "Product-bundle descent versus selected physical handedness"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/PROOF.md": [
+      "Actual reverse supersymmetry and local Euler map",
+      "Boundary gauge direction versus proper redundancy",
+      "Finite inner norm versus outer end completion"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/PROOF.md": [
+      "Natural based versus outer bundle action",
+      "Frame orientation correction and full coefficient transport",
+      "Leading complex trace gluing versus physical reality/domain"
+    ],
+    "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/PROOF.md": [
+      "Full based-lift prescription versus scalar centre matching",
+      "Complete adjoint parity rather than defining-six identity",
+      "Half-period coefficient equivalence versus a physical Higgs"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md": [
+      "Same-action nonlinear finite-norm end solution",
+      "Changed connection and logarithmic asymptotics",
+      "Actual root embedding and retained gapless companions"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md": [
+      "Admitted stationary gapped SM-gauge phase",
+      "Fixed-domain charged index and compact-core invariance",
+      "Parallel ansatz classification versus all physical backgrounds"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md": [
+      "Finite-norm neutral spin modulus and complete real Hessian",
+      "Essential instability versus discrete stability",
+      "Retained charged, gauge and conjugate sectors"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md": [
+      "Complete-cusp Dolbeault domains with logarithmic endpoints",
+      "Bosonic residual index versus physical fermion index",
+      "R-zero instability for all nonzero flux and retained second-field hatch"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/PROOF.md": [
+      "Nonuniform high-frequency ordinary-spin Weyl sequence",
+      "Geometric canonical R shift and conditional positive bound",
+      "Minimal even domain versus odd trace selection"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FULL_EVEN_PROOF.md": [
+      "Entire regular even coefficient and exhaustive Fourier strata",
+      "Same-operator uniform tail coercivity",
+      "End estimate versus global admission and actual kernel"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/PROOF.md": [
+      "Explicit global nonflat stationary admission and compensated peripheral",
+      "Actual surviving g2 versus all compensator choices",
+      "Finite graph norms and retained essential channels"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md": [
+      "Matched cocharacter and full geometric spin grading",
+      "Parent-derived full fermion blocks and essential gap",
+      "Global charged intertwiner versus all SU3 backgrounds"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/PROOF.md": [
+      "Two-field zero-residual global completion and actual E8 quotient",
+      "Supplied cube roots and flat compensator",
+      "Failed old pairing map versus computed chirality"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md": [
+      "Full stationarity with nonzero parallel residual",
+      "Admitted complete-domain negative directions",
+      "Limiting peripheral versus normalized end operator"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md": [
+      "Complete two-field elliptic complex and auxiliary-kernel removal",
+      "Physical negative directions versus a bosonic Hodge index",
+      "All-flux neutral-family obstruction with zero-flux positives retained"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/PROOF.md": [
+      "Actual polar pairing and both finite kernels",
+      "Supplied nonlocal phase prescription versus a local quantum action",
+      "Consistent anomaly versus gauge invariance"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md": [
+      "Normal kinetic Hamiltonian and retained Weyl endpoint factor",
+      "Supplied balanced reference and charged endpoint modes",
+      "Normal admission versus full angular boundary law"
+    ],
+    "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/PROOF.md": [
+      "Exact finite symbolic occupancy versus its limiting tail",
+      "Letter measure versus geometric time and unbounded observables",
+      "Dynamical scope correction versus a derived physical end mechanism"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md": [
+      "Actual four-Weyl mass from same-action Hessian and gauge coupling",
+      "Weighted global bundle isometries and complete graph-domain map",
+      "Conditional physical charged index versus a stable anomaly-free vacuum"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/PROOF.md": [
+      "Zero interior density versus complete physical index",
+      "Actual end extremes versus full eta invariant or compensator",
+      "Gauge admission and graph-compact equivariant index scope"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/PROOF.md": [
+      "Common spatial-cutoff current and continuum relative density",
+      "Regulator limit order versus a consistent phase",
+      "Finite supertrace versus divergent ungraded action"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/PROOF.md": [
+      "Retained propagator end current on admitted external probes",
+      "Gauge-direction curl versus an integrable phase variation",
+      "Specified candidate failure versus every quantum completion"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/PROOF.md": [
+      "Actual local heat jets and full physical slot cancellation",
+      "Classical graph convergence versus quantum end continuity",
+      "Admitted constant gauge mode and actual reference-state duty"
+    ],
+    "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md": [
+      "Actual joint gauge-weight roster for specified minimal twists",
+      "Canonical parabolic dual versus ordinary dual and spin domain",
+      "Finite kernels versus continuum and isolated physical spectrum"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/PROOF.md": [
+      "Full based presentation and finite-image compact gauge completion",
+      "Actual centre quotient and complete gauge/phase cost",
+      "Faithful subgroup maps versus infinite move-group faithfulness"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/PROOF.md": [
+      "Actual module intertwiners and entire invariant bracket algebra",
+      "Compact real form and intrinsic Killing certificate",
+      "Fixed parallel gauge phase versus all physical backgrounds"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/PROOF.md": [
+      "Complete stated commuting weak-correction family",
+      "Zero phase versus nonzero canonical radial mass",
+      "Conditional Fredholmness versus compact resolvent and actual index"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/PROOF.md": [
+      "Cochain homotopy versus local coefficient action",
+      "Actual analytic cusp kernel frame and section transition",
+      "Hodge line versus Dirac chirality and full projected connection"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/PROOF.md": [
+      "Actual MW/compact real structure and conjugate R slots",
+      "Both paired critical extremes without independent mirror doubling",
+      "Dressed local graphs versus bare-domain failures"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/PROOF.md": [
+      "Minimal-domain relative bound and proper deficiency argument",
+      "Exhausted dressed fixed-fibre traces and self-adjoint extension",
+      "Nonabelian local residual/action and retained end terms"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/PROOF.md": [
+      "Actual source/MW isometry and coupled angular normal equation",
+      "Interacting dressed-domain horizontal inverse bound",
+      "Fixed-fibre local result versus curved global edge admission"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/PROOF.md": [
+      "Same-normal-action BPS tangent and relative boundary functional",
+      "Ramified gauge transport of entire dressed graph",
+      "Literal source dictionary fence and later completion distinction"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/PROOF.md": [
+      "Complete critical fundamental solutions including log and regular partner",
+      "Controlled finite-momentum response with preserved current plane",
+      "Local Cauchy space versus physical particle and global boundary law"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/PROOF.md": [
+      "All shifted noncritical angular integers and L2 completeness",
+      "Convergent regular series and exact resonance compatibility",
+      "Both-end field-dependent work versus uniform joint symbol"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/PROOF.md": [
+      "All ten sourced degree-two equations and real auxiliary response",
+      "Retained primitives and actual source boundary benchmark",
+      "Dirichlet exclusion of constant multiplet versus every end ensemble"
+    ],
+    "reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/PROOF.md": [
+      "Same-source fields/momenta and full real trace matching",
+      "All joint principal directions and admitted gauge charges",
+      "Artificial smooth seam versus selection of true physical end"
+    ]
+  },
+  "added_external_sources_read_completely": [
+    "frontier/B1609_the_even_subweave/FINDINGS.md",
+    "frontier/B1609_the_even_subweave/verification/even_subweave.py",
+    "tests/test_b1609_the_even_subweave.py",
+    "frontier/B1609_the_even_subweave/ARTIFACT_HASHES.txt",
+    "frontier/B1651_where_a_higgs_can_couple/FINDINGS.md",
+    "frontier/B1651_where_a_higgs_can_couple/ADDENDUM_2026-10-14_the_szego_reading.md",
+    "frontier/B1654_the_norm_of_the_boundary_class/FINDINGS.md",
+    "frontier/B1651_where_a_higgs_can_couple/ADDENDUM_2026-10-14_the_seats_answers.md"
+  ],
+  "stored_dependency_paths": [
+    "reports/physical_bridge_2026_09_05/received_r46/reports/balanced_parent_2026_09_20/PROOF.md",
+    "reports/physical_bridge_2026_09_05/received_r46/reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+    "reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/PROOF.md",
+    "reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/PROOF.md",
+    "reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/PROOF.md",
+    "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/admission_PROOF.md",
+    "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/complete_domain_PROOF.md",
+    "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/transport_PROOF.md"
+  ],
+  "byte_aliases": {
+    "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/admission_PROOF.md": "reports/genesis_root_review_2026_10_11/noncompact_admission/PROOF.md",
+    "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/transport_PROOF.md": "reports/genesis_root_review_2026_10_11/kernel_transport/PROOF.md",
+    "reports/physical_bridge_2026_09_05/received_r46/reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md"
+  },
+  "noninventory_cases": [
+    "R4 compact E6 scalar action and its competing-minimum control: EXTENSION_2.md and EXTENSION_2_CONTROL.md",
+    "R15 prescribed singular-source ansatz and full finite boundary pair: GLOBAL_SINGULAR_DESIGN.md and GLOBAL_SINGULAR.md"
+  ],
+  "crosswalk": "INTERACTING_TRACE_AND_TRANSPORT_SPECIFICATION_2026_10_16.md",
+  "historical_deleted_and_findings_only_coverage": "The 19 proof paths in the fork's pinned genesis_root_review subtree are source-read, not complete packet re-audits. Other current, historical, deleted and findings-only populations remain incomplete."
+}

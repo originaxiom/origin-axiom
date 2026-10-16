@@ -21392,3 +21392,12 @@ INTERACTING_TRACE_AND_TRANSPORT_SPECIFICATION records precise duties;
 PHASE8_DESIGN precedes metadata changes. Expected83direct/three aliases/
 99pending awaits checks; current certified71/3/111 unchanged. No scientific
 import, execution, independent analytic acceptance or full-goal completion.
+
+Phase8 source prepared after committed design98d614113. Twelve new
+property mappings retain every phase7 mapping,alias,stored role and
+external reading. Only phase7 carry newly allowed; no scientific
+producer or role policy changed. Expected83direct/three aliases/99pending
+await original controls and full185blob reconciliation. Source report
+keeps coefficient/cohomology/kernel maps, full-parent paired real trace,
+fixed-fibre dressed domains, later response and true-end distinctions
+separate. Exact source pins,commit/push precede metadata controls.

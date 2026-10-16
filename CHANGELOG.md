@@ -1,5 +1,11 @@
 # Changelog
 
+Phase8 metadata source prepared after design98d614113:12new mappings,
+complete phase7 carry,unchanged aliases/17external readings. Only phase7
+added to carry whitelist; expected83direct/three aliases/99pending awaits
+11controls/185blob reconciliation. Exact source pins and publication
+precede controls; no science executed or end state selected.
+
 Next source-only trace audit personally reads12pending proofs, five
 native probe/analysis files and later corrections. Retain actual based
 completion, cusp section transport, paired reality, dressed interacting
