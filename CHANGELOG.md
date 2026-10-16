@@ -1,5 +1,17 @@
 # Changelog
 
+October16 governance maintenance first attempt at076b05bef preserved:
+regression exited4 during collection (SciPy absent in chosen runtime),
+no selected tests ran. Metadata payload collided with its receipt's
+case-insensitive name; no valid inventory process receipt is claimed.
+Original16 source pins/tree/index unchanged. Unchanged vacuity checker
+passes; full governance still fails attribution/provenance/relay debt.
+Execution-only successor now sealed before collection: existing complete
+environment, no installation/science edits, distinct output names. Raw
+first evidence retained, published path-normalized with original hashes.
+Session goal read confirms ACTIVE specification-first objective; no
+selected-regression, full-suite, main or physical completion claimed.
+
 October16 approved reorientation starts: main P-181/P-184 work order,
 first nine specification dependency rows and inventory185 proof
 artifacts at two pinned audit heads; all coverage reconciliation still

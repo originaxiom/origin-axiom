@@ -20848,3 +20848,28 @@ not a receiver acceptance or completed specification. No new scientific
 producer, theorem, physical index or full-suite/independent certificate.
 Full physical SM/three/gravity objective unchanged and unachieved.
 Saved goal wording does not edit or resume the app's paused goal state.
+
+October16 governance maintenance at076b05bef3598a2e2cf5f87db866d14ccdce9a9a:
+original test bytes preserved; delegated family assertions made visible
+with changed-result controls, numerical derivative comparisons retain
+rtol1e-7 and original atols plus explicit nonfinite/shape rejection.
+First selected regression stopped at collection, exit4: SciPy missing
+from the selected runtime. No selected test ran; no mathematical failure
+inferred. Metadata inventory completed but INVENTORY.json collided with
+receipt inventory.json on the host filesystem, exit1; no receipt invented.
+All first logs/true exits and metadata preserved, original16 pins and
+18047 tracked contents/index unchanged. Private complete inventories
+retained; published custody hashes identify path-normalized presentations.
+
+Unchanged vacuity checker passes; attribution, seal-provenance and
+relay-debt still fail. Full metadata inventory is not itself a valid
+preregistration-history verdict. Execution-only successor uses an existing
+complete scientific environment, clears the old overlay and preflights
+case-insensitive output separation. No scientific producer, tolerance,
+target, checker or frozen baseline is changed. Same12 selected tests
+still require actual execution. EXECUTION_REPAIR/EXECUTION_INPUTS sealed
+before successor; author review is not independent acceptance. No new
+scientific experiment, full suite or physical completion. A fresh goal
+read confirms ACTIVE approved specification-first objective, superseding
+the earlier observed paused status without claiming a repository edit
+performed that transition. Governance and full specification remain open.

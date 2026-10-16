@@ -9252,3 +9252,9 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-10-16 | BEFORE repaired regression collection and inventory execution | `reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/DESIGN.md` | `778387413e4980b6bd87af7026f14fc93efc404ce95455c01c0356533b69046c` | Test-only repair; original science retained, INPUTS pins16 artifacts. Only the design is a preregistration; source pins live in its manifest. No new physical experiment. |
+
+## Execution-only maintenance successor, original first attempt retained
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | POST-HOC execution repair BEFORE successor collection | `reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/EXECUTION_REPAIR.md` | `7fcb186fc51ab4350638fa2ab6a77628ff977cbf6b18090658585b9ee4d01aa6` | Original16 pins unchanged; existing scientific environment, no dependency overlay, collision-safe metadata output. Failed first captures retained with custody. EXECUTION_INPUTS pins instrument; author review only, no new science. |

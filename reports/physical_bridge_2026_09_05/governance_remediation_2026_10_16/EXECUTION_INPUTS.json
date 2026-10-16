@@ -1,0 +1,26 @@
+{
+  "scope": "execution-only maintenance successor; no science source edits",
+  "first_attempt_source_head": "076b05bef3598a2e2cf5f87db866d14ccdce9a9a",
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/EXECUTION_REPAIR.md",
+      "bytes": 2960,
+      "sha256": "7fcb186fc51ab4350638fa2ab6a77628ff977cbf6b18090658585b9ee4d01aa6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/execute.rb",
+      "bytes": 5122,
+      "sha256": "93c572e2e9f4629e749669e31f45f0567896fada67f83a6c626208e11d63c3c0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/publish_capture.rb",
+      "bytes": 2358,
+      "sha256": "01c06a541757cfaac78d33b0a8ac3a98bc4b5d4ca530fc451f657109392d8c0d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/INPUTS.json",
+      "bytes": 4033,
+      "sha256": "be74740d64f71aefc168a0dc9d43d8879ef06aaa807202e06bdddbfcd8459c29"
+    }
+  ]
+}

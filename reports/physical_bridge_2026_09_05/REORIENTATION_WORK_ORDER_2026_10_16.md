@@ -33,9 +33,11 @@ independent verification. Report an actual authority or evidence blocker
 with the safe alternatives tried and the exact input needed. A completed
 campaign is not completion of the full physical objective.
 
-This is the approved repository work order, not a claim that the app's
-persisted goal has been edited or resumed. Its last observed state was
-paused. The available goal tools do not edit or resume an existing goal.
+This is the approved repository work order. A subsequent read of the
+persisted session goal on October 16 confirms that this specification-first
+objective is ACTIVE. That state change is not attributed to the earlier
+repository edit; the goal tools here only read status or report terminal
+conditions. Intermediate checkpoints do not complete the campaign.
 
 ## Work order and acceptance
 
