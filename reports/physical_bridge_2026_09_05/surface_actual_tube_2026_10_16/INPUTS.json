@@ -63,12 +63,16 @@
       "sha256": "5a5953846b170678b4a313610a05f1113a105bdef334ae3c46e3c800efb03884"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/POST_HOC_REPAIR.md",
+      "sha256": "b17054a078604539b90f2efa0ea7dab5b0465f4f8caaea912962ee8c77116b1e"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/PROOF.md",
       "sha256": "ebb95939e07ef678438f3799d42f52b9bbf7508f4d42d23eab8d76ed7a3a6647"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/analysis.py",
-      "sha256": "b92cb04a31d3aa186f207eaa04e295c68a28c03c96cc337fa8026817e945e3ab"
+      "sha256": "dc2a5adb5e6f1e2b48b0a58d6a4c511b868881ad105c0f2e80156e6ffdc98a8e"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/execute.py",
@@ -528,7 +532,7 @@
     },
     {
       "path": "tests/test_physical_bridge_surface_actual_tube.py",
-      "sha256": "687ac8cb0900101a1da6af1a78379ae0ad07b8464fd3e56be53deeae4b9f664e"
+      "sha256": "88181d22b7ef97cc0c007ecf2e52d9b0af2c245c7982c8e91649b9e223ca5a48"
     },
     {
       "path": "tests/test_physical_bridge_surface_curved_boson.py",

@@ -17,6 +17,8 @@ def test_both_complete_actual_tube_calculations(cert):
     assert cert[0]==cert[1] and cert[0]['all_passed'] and all(cert[0]['checks'].values())
 def test_actual_tube_contact_and_flat_opposition(cert):
     c=cert[0]['checks']
+    for k in ('idempotent','real symmetric','J compatible','rank trace','second tangent','positive tangent norm'):
+        assert c['actual CR projection component '+k]
     for k in ('actual radius gradient and nonzero horizontal tilt','unit normal and complex partner orthogonal',
         'both modular radius transitions exact','actual CR tangent projection and positive rank two',
         'CR tangent annihilates radius and characteristic form','strict actual contact Levi coefficient',
@@ -25,6 +27,10 @@ def test_actual_tube_contact_and_flat_opposition(cert):
         'angular pair fails adapted compact gauge condition'):assert c[k],k
 def test_actual_real_green_plane_not_vertical_or_hand_selection(cert):
     c=cert[0]['checks']
+    for k in ('Hermitian','idempotent','rank trace'):assert c['actual real projector component '+k]
+    assert c['wrong geometric and real projector trace targets detected']
+    assert cert[0]['records']['trace_diagnostic']['geometry_exact_residual']=='0'
+    assert cert[0]['records']['trace_diagnostic']['source_exact_residual']=='0'
     for k in ('frozen actual real action complete record','all actual source Clifford relations',
         'old vertical minus sign is actual source projector','adapted actual projector Hermitian idempotent half rank',
         'adapted projector preserves true R and Majorana reality','both actual normal Green forms zero',

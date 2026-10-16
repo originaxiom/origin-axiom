@@ -29,7 +29,11 @@ def run(N,D,C,valid,charts):
     ck('both modular radius transitions exact',charts)
     Ei=lambda f,i:simp(D[i,0]*s.diff(f,a)+D[i,1]*s.diff(f,b))
     PH=cm(Id-(N*N.T+JN*JN.T)/nn);T=PH[:,0];JT=J*T
-    ck('actual CR tangent projection and positive rank two',zero(PH*PH-PH) and zero(PH.T-PH) and zero(PH*J-J*PH) and s.trace(PH)==2 and zero(PH[:,1]-JT) and simp((T.T*T)[0]-4*ell**2/den)==0)
+    geometry_parts={'idempotent':zero(PH*PH-PH),'real symmetric':zero(PH.T-PH),
+        'J compatible':zero(PH*J-J*PH),'rank trace':simp(s.trace(PH)-2)==0,
+        'second tangent':zero(PH[:,1]-JT),'positive tangent norm':simp((T.T*T)[0]-4*ell**2/den)==0}
+    for k,val in geometry_parts.items():ck('actual CR projection component '+k,val)
+    ck('actual CR tangent projection and positive rank two',all(geometry_parts.values()))
     ck('CR tangent annihilates radius and characteristic form',zero(s.Matrix([N.dot(T),N.dot(JT),JN.dot(T),JN.dot(JT)])))
     deta=s.Matrix(4,4,lambda i,j:Ei(JN[j],i)-Ei(JN[i],j)-sum(C[i][j][k]*JN[k] for k in range(4)))
     levi=simp((T.T*deta*JT)[0]);wanted=16*ell**2*r2/den**2
@@ -52,7 +56,10 @@ def run(N,D,C,valid,charts):
     vN=v(N);vJN=v(JN);Q=cm((I+s.I*Rs*vN*vJN/nn)/2)
     Q0=s.diag(*[int(j in (2,3)) for bar in range(2) for j in range(4) for alpha in range(2)])
     ck('old vertical minus sign is actual source projector',zero(Q0-(I+s.I*Rs*vv[2]*vv[3])/2))
-    ck('adapted actual projector Hermitian idempotent half rank',zero(Q.H-Q) and zero(Q*Q-Q) and s.trace(Q)==8)
+    projector_parts={'Hermitian':zero(Q.H-Q),'idempotent':zero(Q*Q-Q),'rank trace':simp(s.trace(Q)-8)==0}
+    for k,val in projector_parts.items():ck('actual real projector component '+k,val)
+    ck('adapted actual projector Hermitian idempotent half rank',all(projector_parts.values()))
+    ck('wrong geometric and real projector trace targets detected',simp(s.trace(PH)-3)!=0 and simp(s.trace(Q)-7)!=0)
     ck('adapted projector preserves true R and Majorana reality',zero(Rs*Q-Q*Rs) and zero(swap*Q.conjugate()-Q*swap))
     ck('both actual normal Green forms zero',zero(Q*vN*Q) and zero(Q*vJN*Q))
     ck('both CR tangential principal symbols preserved',zero(Q*v(T)-v(T)*Q) and zero(Q*v(JT)-v(JT)*Q))
@@ -87,6 +94,9 @@ def run(N,D,C,valid,charts):
     ck('unrestricted angular cocycle density remains a nonzero control',pull(dtheta)!=0)
     y,A=s.symbols('y area',positive=True)
     ck('fixed tube cannot fit uniformly along cusp cycle',s.limit(s.sqrt(A/y)/2,y,s.oo)==0)
+    records['trace_diagnostic']={'geometry_raw_trace':str(s.trace(PH)),'geometry_structural_equal_2':bool(s.trace(PH)==2),
+        'geometry_exact_residual':str(simp(s.trace(PH)-2)),'source_raw_trace':str(s.trace(Q)),
+        'source_structural_equal_8':bool(s.trace(Q)==8),'source_exact_residual':str(simp(s.trace(Q)-8))}
     records['geometry']={'N':[str(simp(z)) for z in N],'normal_norm2':str(nn),'horizontal_fraction':str(r2/den),'T':[str(z) for z in T],
         'Levi':str(levi),'characteristic_bracket':str(simp(JN.dot(bracket))),'Ttheta':str(tt),'JTtheta':str(jt)}
     records['boundary']={'projector':'(I+i Rs v(N)v(JN)/normN^2)/2','real_rank':8,'complement_also_allowed':True,
