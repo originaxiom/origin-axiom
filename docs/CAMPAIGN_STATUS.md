@@ -1,5 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+LATEST October16 all-boson response:55/55each at7ae6451c0, complete
+3,353,996byte records identical,259pins/16,887tracked/index unchanged.
+Same-source generic full Hessian/auxiliary/surface action and ALL TEN
+degree2boson equations solved. Nonzero G1/G2 retained. Outer variational
+benchmark passes but principal rank4each sign and excluded constant
+gauge multiplet make it a benchmark, not the final physical end law.
+Known angular/source41/41each replayed; earlier hatches not killed.
+Two failed comparisons/two resource interruptions preserved and exact
+repairs presealed. NEXT actual curved CHARGED boundary/exterior/gauge
+admission and global carrier; higher neutral orders are supporting.
+Packet surface_all_boson_response_2026_10_16. Full foundational physical
+SM/three/parameters/gravity ACTIVE, no cross-parent transplant. Selected
+LIVE/governance and nonauthor acceptance remain separate duties.
+
 October16 actual Gauss/charge:39/39each at published42be245f6,
 247pins/15,801tracked/index unchanged, full2,625,191byte records agree.
 Actual WZ/K/YM source fixes kinetic2/momentum4 with retained explicit

@@ -1,5 +1,18 @@
 # Physical bridge audit — 2026-09-05
 
+Latest October16: [all boson responses and boundary benchmark](surface_all_boson_response_2026_10_16/FINDINGS.md).
+Both55/55 at published7ae6451c0, complete3,353,996byte records agree,
+259pins/16,887tracked/index unchanged. ALL TEN degree2boson equations,
+actual auxiliaries/full generic Hessian/source primitives and bounded
+outer variational benchmark pass. The chosen trace is NOT the final
+physical law: angular principal intersection rank4each sign and the
+earlier constant gauge multiplet excluded. Existing angular hatches
+replayed41/41each and preserved. NEXT actual curved/charged common
+boundary/exterior/gauge admission and global spectrum; higher neutral
+orders support that work. No measured charge/three/SM/gravity claim.
+Full failure/repair chronology, metric-form clarification, read-only
+main/SM intake and named analytic-review relay retained. Full goal ACTIVE.
+
 October16 actual Gauss/charge:39/39each at published42be245f6,
 247pins/15,801tracked/index unchanged, full2,625,191byte records agree.
 Actual WZ/K/YM source fixes kinetic2/momentum4 with retained explicit

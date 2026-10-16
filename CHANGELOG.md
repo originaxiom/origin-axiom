@@ -1,5 +1,25 @@
 # Changelog
 
+## October16 all boson responses and the boundary benchmark
+
+Same-source55/55each at published7ae6451c0, full3,353,996byte records
+identical,259pins/16,887tracked/index unchanged. Actual full auxiliary/
+curvature/Hessian/external action derived; ALL TEN bosonic equations
+solved at fermion degree2, with nonzero G1/G2 and retained source and
+calibration primitives. Outer harmonic/inner bounds and actual source
+variational benchmark pass. Its angular principal rank4each sign and
+exclusion of the known constant gauge multiplet prevent calling it the
+final physical boundary law. Prior angular hatches retained/replayed
+41/41each, not rediscovered. Full packet FINDINGS/PROOF/NEXT_TEST in
+surface_all_boson_response_2026_10_16; all sublemmas/leads/ID/relay banked.
+Two comparison failures and two performance interruptions preserved;
+exact equality/linearity/valuation repairs sealed before successors.
+METRIC_SCOPE distinguishes Hermitian norm from bilinear compact form;
+no old raw/proof/source rewrite. Next actual curved/charged common
+boundary/exterior law and gauge-field admission, not indefinite neutral
+refinement. LIVE/governance follows; no full-suite/nonauthor/main or
+physical SM/three/gravity acceptance. Full foundational goal ACTIVE.
+
 October16 actual Gauss/charge:39/39each at published42be245f6,
 247pins/15,801tracked/index unchanged, full2,625,191byte records agree.
 Actual WZ/K/YM source fixes kinetic2/momentum4 with retained explicit

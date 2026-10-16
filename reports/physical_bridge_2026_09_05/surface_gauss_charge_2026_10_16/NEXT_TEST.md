@@ -1,5 +1,16 @@
 # Complete the actual bosonic response before a stationary theory claim
 
+SUCCESSOR UPDATE October16: surface_all_boson_response_2026_10_16
+solves ALL TEN same-source boson equations at Grassmann degree2,
+55/55each at7ae6451c0,259pins/tree/index unchanged. Actual full
+Hessian/auxiliaries/source primitives and bounded outer variational
+benchmark pass. Do not repeat the five remaining sources below as
+unsolved at this order. The benchmark's ordinary angular failure and
+exclusion of the prior constant gauge multiplet are retained; full
+boundary/global physical completion is NOT claimed. Follow successor
+NEXT_TEST for the actual curved/charged common exterior/end/gauge law
+and global carrier. The earlier proposal below is a historical step.
+
 The Gauss subset is now POSITIVE,39/39each at published42be245f6.
 Actual source boson momentum4, complete real16/E8248 current forms,
 all ten amplitude-family currents, exact degree2 electric response and

@@ -1,5 +1,22 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October16 update: the SAME-source all-boson degree2sub-duty is POSITIVE,
+55/55each at7ae6451c0,259pins/16,887tracked/index unchanged. Actual
+auxiliaries, generic full Hessian and calibration/raw primitives now
+derived; all ten equations solved with outer harmonic/inner certificates.
+Do not repeat five remaining boson currents as unsolved at this order.
+The V=C0=0 outer trace passes its variational test but ordinary angular
+transversality is FALSE and its constant gauge multiplet is excluded.
+This is NOT a physical boundary completion or global/architecture kill.
+Earlier source angular/spectral/charged alternatives41/41each replayed
+and preserved. NEXT actual curved/charged common boundary/exterior and
+gauge-field admission, arbitrary joint frequency/thresholds/global
+carrier, not another neutral counting shortcut. Full nonlinear/source/
+SUSY dynamics, normalized charged roster/interactions/anomalies and
+foundational physical SM/three/parameters/gravity remain OPEN. Full
+FINDINGS/NEXT_TEST in surface_all_boson_response_2026_10_16; no new
+shared B-number or other-parent mass/count/index/gap transplant.
+
 October16 actual Gauss/charge:39/39each at published42be245f6,
 247pins/15,801tracked/index unchanged, full2,625,191byte records agree.
 Actual WZ/K/YM source fixes kinetic2/momentum4 with retained explicit

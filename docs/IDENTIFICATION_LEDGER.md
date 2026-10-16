@@ -907,3 +907,24 @@ root-Cartan-to-EM identifications. g is a background amplitude, not
 the parent/SM gauge coupling. Governance26PASS/four FAIL and full
 provenance/reporting limits retained in VALIDATION. No shared I-status
 promotion or completed physical boundary/SM/three/gravity identification.
+
+## October16 all boson responses and boundary scope
+
+surface_all_boson_response_2026_10_16 earns the actual source auxiliary/
+full-Hessian/surface -> all-ten-equation degree2response map in ONE
+supplied local theory. Both55/55 at7ae6451c0,259pins/tree/index unchanged;
+full records agree. Exact root/current/real maps are replayed, not
+dimension/name matches. Outer variational success is NOT identified
+with an elliptic/global physical boundary domain. Actual rank4principal
+intersection and excluded constant gauge trace are recorded separately.
+Earlier angular hatches replay41/41; no uncomputed identity of planes.
+
+METRIC_SCOPE explicitly separates positive Hermitian HdaggerGH=+2
+from complex bilinear Htranspose(tau-daggerG)H=-2, compact iH norm+2.
+The older reverse proof's positive norm wording cannot supply a charge
+normalization; actual sealed numerical maps unchanged. g remains
+background amplitude, not gauge coupling. Main's fibre mass matrices
+are READ only, not this source's normalized physical couplings. No
+observed charge/SM/three/gravity/observer/qualia identification is earned.
+Shared I-status/baseline unchanged:24rows/9UNEARNED baseline9; five
+separate controls PASS with the known bare-assertion blind spot.

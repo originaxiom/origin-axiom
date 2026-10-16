@@ -20581,3 +20581,44 @@ false static-ansatz or whole-program exclusions. The current g is
 background amplitude, not predicted gauge coupling. Post-check metadata
 not back-certified;247science pins separately rechecked. Full goal
 ACTIVE; no full-suite/nonauthor/main/recipient/physical acceptance.
+
+## 2026-10-16 — full source bosonic response and the boundary distinction
+
+At published7ae6451c0, native55/55 in336.645593s, reference55/55
+in342.423857s; full3,353,996byte records identical SHA256
+cabb69147713f3f783563c968098b67149f0ceac1cdb6f28600f0a893f0a7199.
+All259pins/16,887tracked/index unchanged. Each replays all39actual
+Gauss gates. Separate existing angular/source replay41/41each matches
+its original6404byte output,155pins/same tree/index unchanged.
+
+Actual D/G elimination, full six-field curvature potential/calibration
+primitives, every generic Hessian with curvature commutator, all external
+mixed sectors/quartic derived. ALL TEN bosonic equations solved at
+Grassmann degree2; correct time/spatial signs, full E8/reality/winding/
+gauge and scalar terms. Nonzero G1/G2 retained, D/G0 zero on this family.
+Outer harmonic response, exact universal block/linearity and six-column
+valuation/inner bounds pass. Complete records/source surface terms saved.
+
+V=C0=0 benchmark passes actual variational tests at this order but
+ordinary angular transversality is FALSE (rank4each sign, positive
+complement controls0), and the prior constant gauge multiplet is
+excluded by this trace. Not final physical end law or programme no-go.
+Earlier angular failure/spectral/charged hatches credited and replayed,
+not rediscovered. NEXT actual curved/charged COMMON boundary/exterior/
+gauge law and generated global carrier, with all joint-frequency and
+mass-kernel/threshold sectors. Higher neutral orders support this task,
+not a substitute mission; no static nilpotent residual alone is a kill.
+
+Two mixed-comparison failures and two resource interruptions preserved
+with all original source/seal copies. Exact-zero surface bug, exact
+outer linearity and inner valuation repairs were sealed/pushed before
+successors; no field/sign/equation/threshold relaxed. METRIC_SCOPE
+clarifies positive Hermitian H norm versus negative complex bilinear
+pairing; no old source/raw/proof rewrite. Main B1656/B1659 personally
+READ only; no mass or end condition imported. SM1c6c3717f is a read
+receipt, not independent acceptance. Named proof review requested of
+main/SM/chat1 in sender relay. All laws/leads/current surfaces/ID banked;
+identification24rows/9UNEARNED baseline9, five controls PASS with known
+blind spot. LIVE/governance follows; full foundational physical SM/
+three/parameters/gravity ACTIVE, no different-parent count/mass/index/gap
+or full-suite/nonauthor/recipient/main/physical acceptance claimed.

@@ -1,5 +1,21 @@
 # THE FRAMEWORK — the whole thing, put together
 
+October16 addition: actual source D/G elimination, all six-field
+curvature/Hessian and all external mixed/quartic sectors, with every
+surface primitive, support a complete bosonic response at Grassmann
+degree2to the known fermion family. ALL TEN equations pass55/55each
+at7ae6451c0,259pins/16,887tracked/index unchanged. Outer harmonic/
+inner certificates and a concrete source variational benchmark pass.
+Nonzero G1/G2 cannot be omitted. Its ordinary angular principal failure
+and exclusion of the prior constant gauge multiplet are explicitly
+retained, not a programme no-go or a completed physical spectrum.
+Known41-check angular hatches replayed, not rediscovered. NEXT common
+curved/charged exterior/end law with admitted gauge fields and full
+global carrier, dynamics/partners/anomalies/normalization. Packet
+surface_all_boson_response_2026_10_16; METRIC_SCOPE distinguishes
+Hermitian norm and complex bilinear pairing. Full foundational physical
+SM/three/parameters/gravity ACTIVE, no different-parent result splicing.
+
 October16 actual Gauss/charge:39/39each at published42be245f6,
 247pins/15,801tracked/index unchanged, full2,625,191byte records agree.
 Actual WZ/K/YM source fixes kinetic2/momentum4 with retained explicit

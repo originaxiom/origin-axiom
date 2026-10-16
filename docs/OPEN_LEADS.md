@@ -7293,3 +7293,57 @@ quartic static residual is not automatically a physical inconsistency;
 arbitrary constant fermion excitations need not be stationary. Check
 external equations, operator/boundary compatibility and interpretation
 before any exclusion. Full boundary/global physical goal remains OPEN.
+
+PB-SOURCE-ALL-BOSON-RESPONSE SUB-DUTY COMPLETED: closing sentence:
+"The SAME supplied local source and known amplitude fermion admit an
+all-ten-equation bosonic response at Grassmann degree2, with actual
+auxiliaries and retained surface terms." surface_all_boson_response_
+2026_10_16/FINDINGS.md;55/55each at7ae6451c0,259pins/tree/index unchanged.
+This does not close higher-order/dynamical/global or physical duties.
+Actual nonzero G1/G2 cannot be deleted. Inner/outer coefficient bounds
+and benchmark variational tests pass; all source primitives saved.
+
+PB-SOURCE-COMMON-CHARGED-END-LAW OPEN PRIORITY: V=C0=0 benchmark is
+NOT the final physical law: rank4angular principal intersection each
+sign and the known constant vector/gaugino multiplet excluded by this
+trace. No whole-program, infinite-kernel or global Fredholm verdict.
+Reuse already-banked angular spectral/charged-pair kinetic hatches and
+28actual radial types; fresh41/41replay preserves them. Derive a SAME
+operator/bundle/action exterior or priced boundary field response with
+actual curved tilted normal/spin/R/extrinsic/gauge terms, noncommuting
+Higgs and ALL kernel/neutral/threshold/joint-frequency sectors. Exhibit
+gauge-field admission if claiming a gauge phase; no old mass/count/gap
+transplant or frozen scalar-charge substitute for the full mass operator.
+NEXT_TEST in the new packet is the detailed stop/verification contract.
+
+PB-SOURCE-HIGHER-DYNAMICS OPEN SUPPORT: degree3fermion/degree4boson/
+auxiliary/source/SUSY closure and actual4D effective interactions.
+Arbitrary constant fermion excitations need not be stationary vacua;
+a higher static residual alone is not a physical-mode/programme kill.
+Do not let this neutral example replace the charged/global physical goal.
+Known amplitude/phase solutions are controls, not a requirement that
+every physically selected ensemble admit every local solution.
+
+PB-SOURCE-GLOBAL-CHARGED-ADMISSION OPEN: earn the actual generated
+carrier, full based transitions/holonomy, singular/cusp and exterior
+domain, then complete charged/conjugate/boundary/partner spectrum,
+kinetic norms/vertices/anomalies. Physical three, vacuum/end/parent
+selection, observed parameters and gravity remain distinct obligations.
+The full relational architecture, not a single selected member, is
+the programme quantifier. Main B1656/B1659 READ only; their conditional
+mass laws not imported, their physical-end/selection caveats retained.
+
+PB-SOURCE-METRIC-FORM-SCOPE REVIEW: METRIC_SCOPE.md clarifies the older
+reverse proof's B(H,H)=+2 norm label: positive HdaggerGH versus complex
+bilinear Htranspose(tau-daggerG)H=-2. Actual sealed matrices/current/
+charge/norm calculations unchanged; no ghost or measured-charge
+identification. Named main/SM/chat1 independent proof/notation review
+requested in sender relay; read receipts are not acceptance.
+
+PB-SEAL-PROVENANCE-DATA-SCOPE remains OPEN, no raw rewrite or gate
+waiver. All259code/data pins sealed; only DESIGN/INPUTS are typed
+preregistrations. Full untruncated provenance inventory and applicability
+review still required; unchanged first-five reported paths would not
+certify no new debt. LIVE/governance and nonauthor banking/analytic
+review remain distinct. No new B-dir/kill or generated-view population
+change claimed. Full foundational physical SM/three/gravity ACTIVE.

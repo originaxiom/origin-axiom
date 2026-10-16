@@ -1,5 +1,17 @@
 # Common-model physics campaign: execution record
 
+October16 checkpoint: ALL TEN same-source bosonic equations at degree2,
+auxiliary/full Hessian/surface and outer variational benchmark55/55each
+at7ae6451c0,259pins/tree/index unchanged. Concrete trace still not
+physical completion: principal rank4each sign, constant gauge multiplet
+excluded. Existing angular/spectral/charged hatches replayed41/41each.
+NEXT priority: actual curved/charged common boundary/exterior and gauge
+admission on a generated global carrier, all joint-frequency/threshold
+sectors, then full normalized spectrum/interactions/anomalies/partners.
+Higher neutral orders support, not replace, that task. Full goal remains
+foundational physical SM/three/parameters/gravity, not a local benchmark.
+Packet surface_all_boson_response_2026_10_16 FINDINGS/NEXT_TEST.
+
 October13 exact-neutral-line checkpoint:39 native/39 Fraction exact and17
 selected live tests PASS84.11s at unchanged pushed seal0b36fc3e0,80 pins.
 Actual compensated odd relative direction is nonexact and globally nil:

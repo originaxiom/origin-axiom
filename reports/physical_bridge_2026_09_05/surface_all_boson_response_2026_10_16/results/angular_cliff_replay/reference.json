@@ -1,0 +1,210 @@
+{
+  "checks": {
+    "actual complete source and method dictionary": true,
+    "all nine source Hermitian Clifford relations": true,
+    "all actual source velocities Majorana even": true,
+    "actual adapted normal and all tangents orthonormal": true,
+    "actual adapted whole trace still real and Green null": true,
+    "actual normal factorization keeps all scalar and tangential terms": true,
+    "full frozen Hamiltonian Hermitian and exact square": true,
+    "normal current anticommutes full frozen Hamiltonian": true,
+    "CR part exchanges old trace with invertible transverse square": true,
+    "characteristic and actual scalar mass preserve old trace": true,
+    "both old planes retain equal signed characteristic multiplicities": true,
+    "full Cauchy and spectral responses are exact orthogonal projectors": true,
+    "spectral response complements complete interior Cauchy space": true,
+    "both spectral planes have true normal Green current zero": true,
+    "old compression keeps every angular and scalar term": true,
+    "principal old compression has correct two angular eigenbranches": true,
+    "all responses preserve external Lorentz generators": true,
+    "Fourier and charge reversal retain actual Majorana response": true,
+    "fixed Fourier pointwise reality is not silently substituted": true,
+    "exterior and interior decaying solutions solve same equation": true,
+    "exterior squared norm response positive and normalized": true,
+    "both oriented boundary spectral signs retained": true,
+    "interior norm identity retains boundary cross term": true,
+    "zero threshold not divided or falsely gapped": true,
+    "all angle Cauchy intersection (0, 0, 1, 1, 0, 0)": true,
+    "all angle Cauchy intersection (0, 0, -1, 1, 0, 0)": true,
+    "all angle Cauchy intersection (1, 0, 0, 1, 0, 0)": true,
+    "all angle Cauchy intersection (0, 1, 0, 1, 0, 0)": true,
+    "all angle Cauchy intersection (3, 4, 12, 1, 0, 0)": true,
+    "all angle Cauchy intersection (0, 0, 12, 1, 3, 4)": true,
+    "all angle Cauchy intersection (0, 0, -12, -1, 3, 4)": true,
+    "all angle Cauchy intersection (0, 0, 0, 1, 3, 4)": true,
+    "all angle Cauchy intersection (3, 0, 0, 1, 4, 0)": true,
+    "local complex bag is principal elliptic and Green null": true,
+    "unpaired complex bag fails actual pointwise reality": true,
+    "existing conjugate charge pair local bag retains Majorana": true,
+    "paired charge conjugation flips axis without deleting fields": true,
+    "charged local pair retains Lorentz and normal current": true,
+    "charged pair local principal complement for all covectors": true,
+    "charge axis preserved but general gauge mixing detected": true,
+    "spectral response keeps full constant gauge multiplicity": true
+  },
+  "records": {
+    "angular": {
+      "old_plane_intersection": "4 for xi_CR=0,E>0; 0 for xi_CR nonzero, BOTH planes",
+      "old_full_internal_elliptic": false,
+      "scope": "this specified pointwise plane only; not singular critical domain or all boundaries",
+      "finite_cauchy_controls": [
+        {
+          "parameters": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "old_intersections": [
+            4,
+            4
+          ],
+          "spectral_union_rank": 16
+        },
+        {
+          "parameters": [
+            0,
+            0,
+            -1,
+            1,
+            0,
+            0
+          ],
+          "old_intersections": [
+            4,
+            4
+          ],
+          "spectral_union_rank": 16
+        },
+        {
+          "parameters": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "old_intersections": [
+            0,
+            0
+          ],
+          "spectral_union_rank": 16
+        },
+        {
+          "parameters": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "old_intersections": [
+            0,
+            0
+          ],
+          "spectral_union_rank": 16
+        },
+        {
+          "parameters": [
+            3,
+            4,
+            12,
+            1,
+            0,
+            0
+          ],
+          "old_intersections": [
+            0,
+            0
+          ],
+          "spectral_union_rank": 16
+        },
+        {
+          "parameters": [
+            0,
+            0,
+            12,
+            1,
+            3,
+            4
+          ],
+          "old_intersections": [
+            4,
+            4
+          ],
+          "spectral_union_rank": 16
+        },
+        {
+          "parameters": [
+            0,
+            0,
+            -12,
+            -1,
+            3,
+            4
+          ],
+          "old_intersections": [
+            4,
+            4
+          ],
+          "spectral_union_rank": 16
+        },
+        {
+          "parameters": [
+            0,
+            0,
+            0,
+            1,
+            3,
+            4
+          ],
+          "old_intersections": [
+            4,
+            4
+          ],
+          "spectral_union_rank": 16
+        },
+        {
+          "parameters": [
+            3,
+            0,
+            0,
+            1,
+            4,
+            0
+          ],
+          "old_intersections": [
+            0,
+            0
+          ],
+          "spectral_union_rank": 16
+        }
+      ]
+    },
+    "spectral": {
+      "E2": "charge**2*(m4**2 + m5**2) + xi1**2 + xi2**2 + xi3**2",
+      "interior_decaying": "H negative, C_minus",
+      "allowed_and_exterior": "H positive, P_plus",
+      "squared_norm_response": "E norm(boundary data)^2, not fermion determinant/action phase",
+      "zero_threshold": "OPEN, division by zero forbidden",
+      "reality": "momentum AND conjugate-charge reversal retained"
+    },
+    "local_pair": {
+      "unpaired_bag_real": false,
+      "paired_charged_bag_real": true,
+      "full_gauge_covariance_earned": false,
+      "costs": [
+        "supplied charge axis",
+        "supplied scalar direction/phase",
+        "neutral sector not supplied",
+        "full curved/SUSY/source action not supplied"
+      ]
+    },
+    "scope": "actual-source all-angle internal principal test plus frozen spectral response and charged local control; no complete interacting/global/singular boundary or SM/three/gravity"
+  },
+  "all_passed": true
+}
