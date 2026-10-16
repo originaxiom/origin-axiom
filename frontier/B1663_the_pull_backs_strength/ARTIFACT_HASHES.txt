@@ -1,0 +1,6 @@
+# sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
+627eaf14d0e093d19bd4d7a382780c849f2abf0be990886ed1d7909fad3b24d9  verification/before_the_seal/explore_ray.py
+896ef9b8c378a400e2d6974d52e4cb2a62846f64eb688e934dd337829918598d  verification/before_the_seal/motion_defect.py
+4f7818fd5959434b7e160cffac67f8ab09d4bcfb8b774e970b2fd9226699f9e3  verification/before_the_seal/ray_cf.py
+766774f2cc02891b47a56a4867f8e10c489d41e67f7a7e5068c6a788f0ec19c4  verification/before_the_seal/review/chk.py
+ce1cf28919bef724584a2bb97c47336e204bcda273234f2c772fc6b0771ddc93  verification/the_pull_backs_strength.py
