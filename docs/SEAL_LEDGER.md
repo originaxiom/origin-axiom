@@ -9169,3 +9169,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-16 | Gauss source and boundary law BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_gauss_charge_2026_10_16/DESIGN.md` | `bb9f7fdf85635b868c6af29d3fe6012bb0b7bb559618aa8c7121be7f865a07c7` | Preregistration and full transitive code/data hash closure; not raw data labelled as a design |
 | 2026-10-16 | Gauss source and boundary law BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_gauss_charge_2026_10_16/INPUTS.json` | `83664d04c053d7c58d0585890ca376d284da3868ece3f35492f3fc5e12bec759` | Preregistration and full transitive code/data hash closure; not raw data labelled as a design |
+
+## All boson response BEFORE first scientific import
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/DESIGN.md` | `e98206219ebcd171ea8106acb71dba5a4047fe1b3b7d4a6876ba63d28ff4fbb8` | Preregistration and full transitive hash closure, not raw data classified as design |
+| 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/INPUTS.json` | `496aa1217ac62d2ab42edee68309464880b850d0a89b24a195b06ad4e6527552` | Preregistration and full transitive hash closure, not raw data classified as design |
