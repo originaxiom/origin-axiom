@@ -1,5 +1,30 @@
 # Changelog
 
+## S136 THE ONE-HIGGS CENSUS (B1660, NEGATIVE AS SEALED); "ARE WE SURE?" (P-179); THE SEATS READ (P-180)
+
+- **B1660, the one-Higgs census under the canonical end condition** (sealed `f798b2368`; output unread at
+  `aff4233ea`; every cell as sealed; a scoreboard). In B1656's frame at ω on W59's lines under P4, with B1659's joint
+  law, one Higgs and L reproduce HZ2021's five non-electron ratios in none of 54 cells (18 lines × the up sector on S,
+  S̃ or S̄). χ²_min 85.35 (same), 542.8 (S̃), 34.40 (S̄ on the conjugate pair of lines); all cells reliable, all 15 plants
+  recovered. The misses are m_s/m_b and m_μ/m_τ, W94's quantity (data 3.14, best points 0.63–1.75), a joint conflict,
+  not a ceiling (post-seal). Without the up quarks the down and lepton ratios fit exactly (post-seal), so a second
+  Higgs (P-175) needs a blind test. Lock tests/test_b1660_the_one_higgs_census.py (the stored best points reproduced
+  live through the sealed instrument).
+- **The owner's "are we sure?"** (P-179; `speculations/S_THE_PUSH_BACK.md` §§8–9, firewalled): no — the shape agrees
+  with every checked piece, but the central claims are readings (main and a reviewing agent told to refute it agree).
+  Found: a full turn round a balance point is the sign (S² = (L⁻¹R)³ = −I); the matter's defect carries the Higgs's
+  character (η⁶'s multiplier), so coherent averages along a thread survive only when #L ≡ #R (mod 4) (21 of 69 threads
+  to length 8, the root first). The fork "does the pull-back act on the records?" laid out by the math (PF1's
+  commutator; [LR, RL] of trace −2; at equal strength only that reading never settles) — main recommends it does; the
+  owner has not ruled.
+- **The seats read:** the SM seat to `1c6c3717` (W96, §141, W97, §143; rows 1236–1240), the web seat to `fc15550e`
+  (the low-thread seal read: primary not earned; the rule that picks no thread; the linking-form term; rows
+  1241–1244), the audit lane to `7ae6451c` (82 commits, 19 relays on the supplied compact-E8 parent; row 1245). Their
+  requests, with main's recommendations, for the owner (P-180).
+- **Also landed:** W67 verified on main for R (row 1127) and W62 partial (row 1115); the typical motion's averaged
+  defect, ⟨f⟩ = 0.31500491 (S_THE_PUSH_BACK §7). Relay CC_TO_ALL_SEATS_2026-10-16_THE_ONE_HIGGS_CENSUS_AND_ARE_WE_SURE.md.
+  0 of 19.
+
 ## S135 THE JOINT LAW (B1659, PROVED); THE ARENA READ; THE OWNER'S PASSAGES ON THE PUSH-BACK
 
 - **B1659, the joint law** (sealed `f4b12d788`; output unread at `c98fbe782`; every cell as sealed). In B1656's twisted

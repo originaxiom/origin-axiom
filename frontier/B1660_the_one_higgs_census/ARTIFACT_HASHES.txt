@@ -1,3 +1,4 @@
+# sealed at f798b2368: d5d4d9053a39b1308903166a10b235ac8daaf8bf91d542a0a6b9aed762d527de  verification/the_one_higgs_census.py (unchanged after the seal)
 # sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
 c31221cf76acfc04206b96cc2219d3a5e72790b8e574d618232a99e2df6d3c6c  verification/before_the_seal/joint_multistart.py
 7e54707c9c587ea8c3552987bb36fd3d5bf2622dce318e0ad2e014542e437f76  verification/before_the_seal/joint_reliable.py

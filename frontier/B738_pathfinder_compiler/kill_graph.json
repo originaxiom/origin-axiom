@@ -11516,5 +11516,28 @@
    "hypotheses": "the adjoint Higgs at the puncture; the parent map owed"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1660",
+  "claim_killed": "That one Higgs S and the end radius L, in B1656's twisted frame at omega on W59's 18 lines under P4 (with B1659's joint law), reproduce HZ2021's five non-electron mass ratios, whichever way the up quarks read the Higgs (S, eps conj(S) eps^T, conj(S)).",
+  "kill_form": "Sealed (B1660, a scoreboard): no fit below 11.07 in any of 54 cells, every cell reliable, all 15 planted worlds recovered; chi2_min 85.35 (same S), 542.8 (S~), 34.40 (conj S on the conjugate pair of lines). The misses are m_s/m_b (too large) and m_mu/m_tau (too small): the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points -- a joint conflict, not a ceiling (post-seal: alone the ratio reaches 9-34).",
+  "hatch": "a separate Higgs for the up quarks (P-175: without them the down and lepton ratios fit exactly, so it predicts nothing at this level and needs a blind test on the CKM and J); a term between threads (P-166, P-180); another tau, the thread frame, or the motion (P-177, P-179)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-16), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: one Higgs in this frame has content (seven effective parameters cannot reach five targets, so the frame's image is rigid), and its one failure is W94's down/lepton quantity; with two Higgs the ratios become fittable and only unseen quantities can test it.",
+  "faces_consulted": [
+   "B1659",
+   "B1658",
+   "B1656",
+   "B1654"
+  ],
+  "fact_computed": "the census (54 cells x 160 starts; C1's 15 plants) by the sealed instrument; post-seal the ratio's ceiling on four lines and the down-and-lepton fit on four lines",
+  "scope": {
+   "frame": "B1656's twisted coupling at tau = omega on W59's 18 lines under P4, given Lambda and the dictionary",
+   "object": "one Higgs S and L against five M_Z mass ratios, three readings of the up sector",
+   "reach": "class",
+   "hypotheses": "leading order; the 5% floor; the data seen; a multistart bounds chi2_min from above"
+  },
+  "weave_or_thread": "neither"
  }
 ]

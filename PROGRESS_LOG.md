@@ -17181,3 +17181,18 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - Landing suite (P-143's ruling): gates 45 of 45 after one fix (seen-first: B1659's findings lacked the literature line, added); the 173 governance, claim, harvest, register and changed-arc test files, 2313 passed, 2 failed, 6 skipped (1:25:28 with -n 8, the machine shared with the owner's video work). The two failures were the gate tests, on views made stale by that fix: views regenerated, the both-vacua result added to the push-back passage (§6, a scoreboard, negative), and the 48 gate and speculation tests rerun: 48 passed.
 - Next: a reliable search, then the census of the inverse map as its own arc; the both-vacua and conjugate-Higgs
   explorations; the arena's N1 to the owner. 0 of 19.
+
+## 2026-10-16 — S136 THE ONE-HIGGS CENSUS; ARE WE SURE?; THE SEATS READ
+
+- B1660 is NEGATIVE as sealed: one Higgs reproduces the five non-electron ratios on none of W59's lines in any reading of
+  the up sector (best χ² 34.40, S̄ on two lines). The misses are W94's (m_μ/m_τ)/(m_s/m_b), a joint conflict, not a
+  ceiling; without the up quarks the rest fits exactly, so a second Higgs needs a blind test (P-175). The run took
+  6 h 43 min on 8 workers, uninterrupted.
+- The owner's "are we sure?" answered in the firewalled push-back file (§§8–9; P-179): no. The sign at the balance
+  points; the matter's defect carries the Higgs's character, so coherent averages pick threads with #L ≡ #R (mod 4);
+  the pull-back fork laid out by the math (main recommends it acts on the records; the owner to rule).
+- The SM seat, the web seat and the audit lane read to their heads (rows 1236–1245, 19 relay rows); their requests and
+  main's recommendations for the owner (P-180).
+- Landing suite: gates 45 of 45; the 174 governance, claim, harvest, register and changed-arc test files, 2318 passed,
+  0 failed, 6 skipped (8:15 with -n 8), after one fix found by the first pass (B1660 was not yet routed into the kill
+  graph; routed, views regenerated, the suite rerun in full). Next: the owner's rulings on P-179 and P-180. 0 of 19.

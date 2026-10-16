@@ -12052,6 +12052,25 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B1660": {
+   "slug": "the one higgs census",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B3",
+    "P4"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B166": {
    "slug": "sln aperiodic",
    "motifs": [

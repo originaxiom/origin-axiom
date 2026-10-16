@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1388** |
-| words of findings prose | **1,097,954** |
+| research arcs with findings | **1389** |
+| words of findings prose | **1,099,185** |
 | test lock files referenced | **812** |
-| arcs carrying an authored verdict | **1388** (100.0 %) |
-| recorded closures | **820** (653 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **1389** (100.0 %) |
+| recorded closures | **821** (654 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 942 |
-| NEGATIVE | 344 |
+| NEGATIVE | 345 |
 | OPEN | 91 |
 | RETRACTED | 11 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 90 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 91 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE JOINT LAW (sealed f4b12d788, sha256 8123044b; PROVED -- every cell holds as sealed; the output committed unread at c98fbe782): in B1656's twisted, quaternionic frame, for EVERY Higgs S and EVERY matter M in M2(C), det Y(S, M) = 4 det S det M tr(eps S M^T) and adj Y(S, M) = det S A(M) + det M P A(S) with P = diag(1, -1, -1) and A an explicit quadratic, equal to B1658's q~ p~^T on the null cone; with the matter labelled N = M eps the coupling is symmetric in (S, N) and det Y = -4 det S det N polar(S, N), the shape of B1657's (a.a)(v.v)(a.v). So the three masses are closed-form in the two defects and their pairing: m1 = 0 if and only if a defect or the pairing vanishes; in the hierarchical limit the middle mass reads the sum of the two defects' terms and the lightest their product over the other two; at the coincident point N = S the masses are exactly geometric (m1 m3 = m2^2); both light masses are first order in the defects. On B1656's sector matter (324 cases) the identities hold to 4e-17 and 2e-16; controls bite (a perturbation breaks J1; A for P A breaks J2; N != S departs from the geometric law). No data. 0 of 19.  
 `B1659_the_joint_law/FINDINGS.md`
 
-**NEGATIVE — `B1644`** (1040 words, 1 locks)  
-A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coupling to a Higgs in the adjoint of the quaternion structure (canonically M) is symmetric with a non-zero diagonal (the hand table, exactly) -- the first coupling on the record with flavour structure -- but det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes the theta triplet isotropic (R.R = 0), so one generation is exactly massless for every Higgs direction and every tau (the sealed |q| scaling fails; golden impossible); the other two have the ratio m = m2/m3, in [1/2, 1) for real directions and down to 0.004 for complex ones (post-seal, labelled). One cast fixed after a crash before any output, disclosed.  [Scoped by frame at S124 (2026-10-14): a result in Lambda's frame, the fibre at one tau. In the audit lane's E8 embedding the Higgs in M is a Standard Model singlet, a flavon (the web seat's condensate test, its parity step verified in B1650; the audit lane's field map), so its reading as the electroweak Higgs needs the parent map (P-108).] [Audited by main (P-152, B1655, 2026-10-15): a feature booked as a failure: the NEGATIVE is S3b's failed abs(q) prediction (an uncomputed second-order step); the exact zero it found is the leading-order structure a light first generation needs; 'golden impossible' is for the leading-order adjoint-Higgs coupling at one tau; the sealed rule 'the adjoint Higgs is excluded as the flavour source' was never applied, and B1645-B1654 build on M] 0 of 19.  
-`B1644_a_higgs_in_the_multiplicity_space/FINDINGS.md`
+**NEGATIVE — `B1660`** (1231 words, 0 locks)  
+THE ONE-HIGGS CENSUS UNDER THE CANONICAL END CONDITION (sealed f798b2368, sha256 f0f9518c; NEGATIVE as sealed, a scoreboard; the output committed unread at aff4233ea): in B1656's twisted frame at omega on W59's 18 lines under P4, with B1659's joint law, ONE Higgs S and the end radius L reproduce HZ2021's five non-electron mass ratios in none of 54 cells (18 lines x 3 readings of the up sector: S, S~ = eps conj(S) eps^T, conj(S)): no fit below 11.07 found, every cell reliable (8 to 160 of 160 starts at its best; no failed fit), with a search that recovered all 15 planted worlds (C1). chi2_min: the same S 85.35-291.14 (three classes of six lines); S~ 542.8-591.8; conj(S) 412-731 except 34.40 on the conjugate pair of lines (1/9, 7/9) and (8/9, 2/9), the census's best. Read-out (C3): at the best points the up quarks' two ratios and the down quarks' m1/m3 are met; the misses are the two middle ratios, m_s/m_b too large and m_mu/m_tau too small: the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points. Not a ceiling: alone, that ratio reaches 9-34 on four lines (a post-seal exploration, labelled), so the misfit is a joint conflict among the five targets. 0 of 19.  
+`B1660_the_one_higgs_census/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  
