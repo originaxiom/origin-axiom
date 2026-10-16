@@ -100,34 +100,34 @@ class Native:
     product=staticmethod(nmul);d=staticmethod(nder);tr=staticmethod(ntrace);var=staticmethod(nvar)
     F=staticmethod(component)
     @staticmethod
-    equal(a,b):return same(a,b)
+    def equal(a,b):return same(a,b)
     @staticmethod
-    body(a):return component(a,(),1)
+    def body(a):return component(a,(),1)
 
 # Reference never multiplies theta; it propagates full chiral components
 # by the separate ordered product rule, including both Weyl components.
 class Reference:
     @staticmethod
-    field(i):return (letter('c'+str(i)),(letter('f'+str(i)+'_0'),letter('f'+str(i)+'_1')),letter('g'+str(i)))
+    def field(i):return (letter('c'+str(i)),(letter('f'+str(i)+'_0'),letter('f'+str(i)+'_1')),letter('g'+str(i)))
     @staticmethod
-    plus(*xs):return (add(*(a[0] for a in xs)),tuple(add(*(a[1][j] for a in xs)) for j in range(2)),add(*(a[2] for a in xs)))
+    def plus(*xs):return (add(*(a[0] for a in xs)),tuple(add(*(a[1][j] for a in xs)) for j in range(2)),add(*(a[2] for a in xs)))
     @staticmethod
-    times(a,c):return (scale(a[0],c),tuple(scale(p,c) for p in a[1]),scale(a[2],c))
+    def times(a,c):return (scale(a[0],c),tuple(scale(p,c) for p in a[1]),scale(a[2],c))
     @staticmethod
-    product(a,b):return (mul(a[0],b[0]),tuple(add(mul(a[0],b[1][j]),mul(a[1][j],b[0])) for j in range(2)),
+    def product(a,b):return (mul(a[0],b[0]),tuple(add(mul(a[0],b[1][j]),mul(a[1][j],b[0])) for j in range(2)),
         add(mul(a[0],b[2]),mul(a[2],b[0]),scale(spin(a[1],b[1]),-1)))
     @staticmethod
-    d(a,j):return (derivative(a[0],j),tuple(derivative(p,j) for p in a[1]),derivative(a[2],j))
+    def d(a,j):return (derivative(a[0],j),tuple(derivative(p,j) for p in a[1]),derivative(a[2],j))
     @staticmethod
-    tr(a):return (trace(a[0]),tuple(trace(p) for p in a[1]),trace(a[2]))
+    def tr(a):return (trace(a[0]),tuple(trace(p) for p in a[1]),trace(a[2]))
     @staticmethod
-    var(a):return (variation(a[0]),tuple(variation(p) for p in a[1]),variation(a[2]))
+    def var(a):return (variation(a[0]),tuple(variation(p) for p in a[1]),variation(a[2]))
     @staticmethod
-    F(a):return a[2]
+    def F(a):return a[2]
     @staticmethod
-    body(a):return a[0]
+    def body(a):return a[0]
     @staticmethod
-    equal(a,b):return same(a[0],b[0]) and all(same(x,y) for x,y in zip(a[1],b[1])) and same(a[2],b[2])
+    def equal(a,b):return same(a[0],b[0]) and all(same(x,y) for x,y in zip(a[1],b[1])) and same(a[2],b[2])
 
 def run(engine):
     checks={};records={}

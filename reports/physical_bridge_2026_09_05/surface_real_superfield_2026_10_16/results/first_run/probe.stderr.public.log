@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/probe.py", line 2, in <module>
+    from analysis import Native,emit
+  File "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/analysis.py", line 103
+    equal(a,b):return same(a,b)
+    ^^^^^
+SyntaxError: invalid syntax

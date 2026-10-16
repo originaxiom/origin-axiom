@@ -143,12 +143,16 @@
       "sha256": "fc122f0b100b1e82aa71e08096934f16d3c2d603bdee1c42a840dc8867b2fda3"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/POST_HOC_REPAIR.md",
+      "sha256": "0a3a17e6af5213165d577e906660add9c261df71f6dbc052f33a87ece1eabfbe"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/PROOF.md",
       "sha256": "c823f2ae951fe3fdedfdcd1b66938c64897d4b9d46dc29417ae36e12705c1306"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/analysis.py",
-      "sha256": "95aab0b2182ead02d54d5d450d672e9d6585d27250a672d49c48aac2168f479f"
+      "sha256": "9706f179332f7d6f6dae19545dcece646df96d8581a370b980ead25263133654"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/execute.py",
