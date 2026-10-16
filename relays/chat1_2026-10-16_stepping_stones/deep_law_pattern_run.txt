@@ -1,0 +1,14 @@
+closed forms D-(d), Di(d) against the law's code on 1001 points: 0 mismatches
+(1) the depth each observed ratio needs on its own at leading order, y = -ln(ratio) / (2 pi e):
+  up     m1/m3 (ln = -11.83): y in [0.94, 1.25]
+  up     m2/m3 (ln = -5.60): y in [0.89, 1.78]
+  down   m1/m3 (ln = -6.97): y in [0.55, 0.74]
+  down   m2/m3 (ln = -3.98): y in [0.63, 1.27]
+  lepton m1/m3 (ln = -8.18): y in [0.65, 0.87]
+  lepton m2/m3 (ln = -2.83): y in [0.45, 0.90]
+(2) one common depth, W66's chi^2 at leading order (threshold 12.592):
+  N = 9: best chi^2 462.9 at y = 0.741; fields' d (Q, u, d, L, e) = ['2/9', '2/9', '0', '0', '4/9']
+  N = 11: best chi^2 457.1 at y = 0.749; fields' d (Q, u, d, L, e) = ['2/11', '3/11', '0', '0', '5/11']
+  N = 12: best chi^2 404.7 at y = 0.753; fields' d (Q, u, d, L, e) = ['1/6', '1/4', '0', '0', '1/2']
+  any order (d on a grid of 1/40): best chi^2 403.2 at y = 0.748
+for reference: the modular surface's floor is y = 0.866; the shallowest thread, LR, reaches 1.118 and closes no line; T-low reaches 1.537 to 2.766

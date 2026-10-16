@@ -1,0 +1,5 @@
+# sha256 of the run's files as the run wrote them (2026-10-16 12:09 CEST), before its scoring read them.
+# The output JSON (39 MB) is committed xz-compressed (xz -9); decompress with: xz -dk midheight_scan.json.xz
+ed7217261418b510b89ca1b14b5ef56af3ae6dca752fa87d8350e114ef7af25f  midheight_scan.json
+ad2184ca95568f47fc1a1e140b87655acd5e9abfc724e50c4b7037442c7ad193  midheight_scan_run.txt
+d5c342e6630d6c80545323b95a45ce160a9fb5219af757d827496ccd256c9183  midheight_scan.json.xz

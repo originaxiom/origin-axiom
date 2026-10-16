@@ -1,0 +1,32 @@
+forms.pkl sha256 64a40c036050c142c6aedd231bfc536f99f34a5816c7e5e3a2b585ee8cf8bfe9 (W72's units, from m003_exploration/instrument/build_forms.py, as in the seals)
+finite-part checks (two formulas):
+  p = -0.875, m = -0.5: FP = -5713.77793889568; check -5713.77793889568
+  p = -0.125, m = -0.5: FP = -3.80006130462949; check -3.80006130462949
+  p = -0.625, m = -0.5: FP = -355.427752899471; check -355.427752899471
+  p = -0.875, m = +1.5: FP = -4717.13435232784; check -4717.13435232784
+  p = -0.625, m = -2.5: FP = -539.94732806771; check -539.94732806771
+  p = -0.125, m = -2.5: FP = 0.780324595317107; check 0.780324595317107
+
+K32 (weight 3/2: F_i, F+, F-)
+  the principal parts' finite parts (diagonal): unit 0 e_i q^-7/8: -5713.78; unit 1 v+ q^-1/8: -7.60012; unit 2 v- q^-5/8: -710.856
+  diagonal: y >= 1 part [-2.7631645e+03  7.2100000e-01 -3.3777080e+02], y < 1 part [2.7633999e+03 1.4420000e+00 3.3933110e+02]
+  K_reg diagonal [0.2354 2.1629 1.5603]; Hermitian defect 1.0e-15; stability (series and nodes) 4.2e-13
+  eigenvalues of K_reg: -1.288629e+00, 4.125580e-01, 4.834670e+00  ->  NOT POSITIVE
+  the most negative eigenvalue's direction (moduli on the units): [0.7145 0.6214 0.3216]
+  K(c = 1), principal parts cut at the standard maximal cusp: eigenvalues 9.75588, 712.422, 5714.01; K(c) positive definite for c > c* = 0.1146
+
+KM12 (weight -1/2: the three -1/2 sections; R is the second)
+  the principal parts' finite parts (diagonal): unit 0 e_i q^-7/8: -7416.94; unit 1 v+ q^-1/8: +1.56065; unit 2 v- q^-5/8: -1079.89
+  diagonal: y >= 1 part [-3.4560376e+03  2.5349000e+00 -1.2474800e+02], y < 1 part [3.4466836e+03 6.1050000e-01 2.1498850e+02]
+  K_reg diagonal [-9.354   3.1454 90.2405]; Hermitian defect 1.6e-15; stability (series and nodes) 1.5e-14
+  eigenvalues of K_reg: -4.567963e+01, 1.534866e+01, 1.143629e+02  ->  NOT POSITIVE
+  the most negative eigenvalue's direction (moduli on the units): [0.77   0.6367 0.041 ]
+  K(c = 1), principal parts cut at the standard maximal cusp: eigenvalues 0.633866, 1170.69, 7407.98; K(c) positive definite for c > c* = 0.9586
+
+K72 (weight 7/2: E4 times the -1/2 sections, and fser)
+  the principal parts' finite parts (diagonal): unit 0 e_i q^-7/8: -4717.13; unit 1 v+ q^-1/8: -2.58621; unit 2 v- q^-5/8: -539.328
+  diagonal: y >= 1 part [1.74800089e+04 2.43160000e+00 4.62027410e+03 3.74700000e-01], y < 1 part [2.0180127e+03 3.1250000e-01 1.7211370e+02 2.4000000e-02]
+  K_reg diagonal [1.94980215e+04 2.74410000e+00 4.79238780e+03 3.98700000e-01]; Hermitian defect 5.1e-16; stability (series and nodes) 3.6e-19
+  eigenvalues of K_reg: -3.912882e-01, 1.745273e-08, 4.743925e-02, 2.429390e+04  ->  NOT POSITIVE
+  the most negative eigenvalue's direction (moduli on the units): [1.343e-01 9.460e-01 2.950e-01 4.000e-04]
+  K(c = 1), principal parts cut at the standard maximal cusp: eigenvalues 0.0258947, 2.45969, 1261.18, 28288.9; K(c) positive definite for c > c* = 0.5554

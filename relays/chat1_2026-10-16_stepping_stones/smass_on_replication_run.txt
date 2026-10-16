@@ -1,0 +1,4 @@
+class-cells per assignment: 680; assignments: 113 (the SM and 112 nulls)
+S-mass passes: SM 0; nulls total 0
+the SM's best chi^2: 578.2 at N=12 LLLRLLRLRRLLRR (1, 4) C3/ORTH
+the nulls' best chi^2: 262.9 (null015); median of the nulls' best: 765.0; the SM's rank by its best: 22 of 113

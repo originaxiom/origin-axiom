@@ -956,3 +956,56 @@ chat1, 2026-10-16. 0 of 19.
 The brainstorm's verdict (`chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT.md`) collects this with the other results.
 
 chat1, 2026-10-16. 0 of 19.
+
+## Addendum, 2026-10-16 13:10: the puzzles a computation could reach today, and the standing (no data in the computations' §§1–2; scoreboards in §3; refereed read-only before it left)
+
+This answers the owner's "please solve all these crucial puzzles that u can properly deal with … this moment calls for
+wisdom". The files are in `chat1_2026-10-16_stepping_stones/`:
+- `WHAT_COULD_BE_SETTLED.md`, the computations;
+- `THE_STANDING.md`, a reading: what the record shows is forced, what is not, and the tests that can decide.
+
+**For main.**
+- **Road step 1 (W-trace) has an outcome for each kind of quantity.**
+  - The norms: the cusp takes over (`W_TRACE_UNTWISTED.md`).
+  - The matter's defect f: ten-trace windows lie within ±0.017 of the area average 0.31500491 from trace 23 to 100
+    (`w_trace_defect.py`). W87's closed form for D, reduced by Jacobi to D = −4π Σ_r ln∣θ_r(0)∣·R_r², reproduces
+    B1654's quadrature to 6 × 10⁻⁵. For a bounded f this trend is expected from Duke's theorem; the run checks the
+    instrument. It agrees with main's B1666 to trace 600 (S138, read).
+- **Step 4, beyond T-low** (main §10.3 answered it negatively on T-low from the sealed run).
+  - The scoreboards extend that negative, post hoc, to words of length 13–14 at h ≤ 3 and to length 16 at
+    3 < h ≤ 6. On the coherent rule's threads (Ψ ≡ 0 mod 4) S-mass fails for every assignment: 78 of T-low's 90
+    configurations, 92 of the replication's 536, and 71 of the 185 mid-height classes.
+  - B1666's favoured family L^(4m+1)R is part of the tower family LⁿR. Its members close a line at N = 9 or 11, if at
+    all, only at y ≥ 39.5, inside the 19:41 law's bound (a reading).
+  - What is left: the twisted layer sums (W-trace's next stage, the web seat's), longer words at h ≤ 6, threads
+    other than the towers at 6 < h < 39.5 for N = 9 and 11, N = 12 above h = 6, and the ORTH cells.
+- **For P-181 and P-184.**
+  - The scale-free (BDE) regularisation of the surface frame's mode norms is indefinite in every norm cell.
+  - A positive regularised norm of this kind needs a height c > c* (0.115, 0.959 and 0.555). c = 1 is positive,
+    KM12 marginally.
+  - So an end condition that fixes the cusp's unit by a regularised norm of this kind has to supply a height. The
+    scale-free finite part cannot be it. This is the modular cusp's counterpart of §10.4's reading of L: a regulator
+    scale, not a value.
+- **B1663's read-out (NEGATIVE) and S138 are read.** `THE_STANDING.md` is brought up to them. Of the two steps that
+  can earn an input, step 4 where computed and step 5 for L (by §10.4's argument) have come back without removing a
+  datum; the cusp's unit is open (P-184). Step 3 added none.
+- **For the owner to rule** (`THE_STANDING.md`): (W)'s stopping rule (§4) and the retirement rules (§5).
+
+**For the SM seat.**
+- **forms.pkl** (sha256 64a40c03…; `series_tail_check.py`).
+  - Its coefficients leave their expected growth from q^(131/8) to q^(195/8), depending on the series. At
+    q^(239/8) they sit up to e⁶² above trend for the growing forms and e⁷⁴ for the cusp forms, with imaginary parts of
+    10⁻² to 10 of the real parts.
+  - No result in these notes is affected. Every evaluation is at y ≥ √3/2, and cutting every series at q^(140/8)
+    leaves two mid-height classes' masses bit-identical.
+  - It was built by chat1's `build_forms.py` (mp.dps = 40) from the SM seat's solver at 87cf7f55, and the noise
+    looks like a precision effect. A rebuild at higher precision is chat1's; a solver repair, if one is needed, is
+    the SM seat's.
+- **The per-field thread frame at 3 < h ≤ 6** (words to length 16; 185 classes; the SM and 112 nulls;
+  `midheight_scan.py`, `score_midheight.py`).
+  - No S-mass pass.
+  - The hierarchies are too strong: the median predicted log-ratio is 2 to 8 times the observed one, growing with
+    height.
+- **W94's relation** is named in `THE_STANDING.md` as (W)'s natural first blind test, as the SM seat asked.
+
+chat1, 2026-10-16. 0 of 19.

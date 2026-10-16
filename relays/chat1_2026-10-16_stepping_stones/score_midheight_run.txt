@@ -1,0 +1,23 @@
+records: 185 classes, 0 with an error; heights 3.007 .. 5.927; N: [9, 11, 12]; assignments: 113 (the SM and 112 nulls)
+points per unit length (classes): {30.0: 154, 60.0: 31}
+class-cells per assignment: 925; accepted: SM 925, all assignments 104525; the SM's rejections by reason: {}
+largest accepted r_calc 1.9e-07; largest accepted closure 5.6e-56
+S-mass passes: SM 0; nulls total 0
+the SM's best chi^2: 28281.0 at N=9 LLLLLRLLRRRRRLRR (3, 8) h=3.018 C3/E4
+the nulls' best chi^2: 14482.6 (null002 at N=9 LLLLLRLLRRRRRLRR (3, 8) h=3.018 C3/ORTH); median of the nulls' best: 23947.9; the SM's rank by its best: 96 of 113
+  best chi^2 in 3<h<=4   (SM): 28281.0
+  best chi^2 in 4<h<=5   (SM): 120860.4
+  best chi^2 in 5<h<=6   (SM): 284727.0
+  best chi^2 in 3<h<=4   (nulls): 14482.6 (null002)
+  best chi^2 in 4<h<=5   (nulls): 105654.9 (null100)
+  best chi^2 in 5<h<=6   (nulls): 238053.5 (null082)
+the coherent rule's threads (Psi = 0 mod 4): 71 of 185 classes; S-mass passes there: SM 0, nulls 0; best chi^2 there: SM 28281.0, nulls 14482.6
+which way the masses miss: median ln(pred/obs) [fraction of cells weaker than observed] {median ln-ratio pred/obs}
+  the SM, all heights (925 accepted class-cells): up: m1/m3 -14.02 [0.00] {2.19}, m2/m3  -6.38 [0.01] {2.14}; down: m1/m3 -18.53 [0.00] {3.66}, m2/m3  -7.85 [0.00] {2.97}; lepton: m1/m3 -17.58 [0.00] {3.15}, m2/m3  -8.63 [0.00] {4.05}
+  the SM, 3<h<=4 (750 accepted class-cells): up: m1/m3 -12.85 [0.00] {2.09}, m2/m3  -5.65 [0.01] {2.01}; down: m1/m3 -17.54 [0.00] {3.52}, m2/m3  -7.23 [0.01] {2.82}; lepton: m1/m3 -16.76 [0.00] {3.05}, m2/m3  -7.90 [0.00] {3.79}
+  the SM, 4<h<=5 (150 accepted class-cells): up: m1/m3 -28.85 [0.00] {3.44}, m2/m3 -12.77 [0.00] {3.28}; down: m1/m3 -33.51 [0.00] {5.81}, m2/m3 -14.16 [0.00] {4.56}; lepton: m1/m3 -21.87 [0.00] {3.67}, m2/m3 -17.58 [0.00] {7.21}
+  the SM, 5<h<=6 (25 accepted class-cells): up: m1/m3 -39.99 [0.00] {4.38}, m2/m3 -18.13 [0.00] {4.23}; down: m1/m3 -43.57 [0.00] {7.25}, m2/m3 -19.31 [0.00] {5.86}; lepton: m1/m3 -43.08 [0.00] {6.27}, m2/m3 -19.82 [0.00] {8.00}
+  every assignment, all heights (104525 accepted class-cells): up: m1/m3 -13.80 [0.00] {2.17}, m2/m3  -6.30 [0.01] {2.12}; down: m1/m3 -18.66 [0.00] {3.68}, m2/m3  -7.94 [0.00] {3.00}; lepton: m1/m3 -17.54 [0.00] {3.14}, m2/m3  -8.95 [0.00] {4.16}
+  every assignment, 3<h<=4 (84750 accepted class-cells): up: m1/m3 -12.76 [0.00] {2.08}, m2/m3  -5.64 [0.02] {2.01}; down: m1/m3 -17.63 [0.00] {3.53}, m2/m3  -7.28 [0.00] {2.83}; lepton: m1/m3 -16.49 [0.00] {3.02}, m2/m3  -8.27 [0.00] {3.92}
+  every assignment, 4<h<=5 (16950 accepted class-cells): up: m1/m3 -24.70 [0.00] {3.09}, m2/m3 -12.04 [0.00] {3.15}; down: m1/m3 -29.56 [0.00] {5.24}, m2/m3 -13.70 [0.00] {4.44}; lepton: m1/m3 -27.66 [0.00] {4.38}, m2/m3 -15.09 [0.00] {6.33}
+  every assignment, 5<h<=6 (2825 accepted class-cells): up: m1/m3 -38.23 [0.00] {4.23}, m2/m3 -18.22 [0.00] {4.25}; down: m1/m3 -43.09 [0.00] {7.18}, m2/m3 -19.84 [0.00] {5.99}; lepton: m1/m3 -42.58 [0.00] {6.20}, m2/m3 -21.01 [0.00] {8.42}

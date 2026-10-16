@@ -1,0 +1,9 @@
+per-field: 450 accepted configuration-cells of the Standard Model
+  up     m1/m3: median ln(pred/obs) -3.01, weaker in 0.36 of cells, median ln-ratio pred/obs 1.25; m2/m3: median ln(pred/obs) -0.16, weaker in 0.47 of cells, median ln-ratio pred/obs 1.03
+  down   m1/m3: median ln(pred/obs) -7.52, weaker in 0.20 of cells, median ln-ratio pred/obs 2.08; m2/m3: median ln(pred/obs) -1.78, weaker in 0.28 of cells, median ln-ratio pred/obs 1.45
+  lepton m1/m3: median ln(pred/obs) -5.81, weaker in 0.20 of cells, median ln-ratio pred/obs 1.71; m2/m3: median ln(pred/obs) -3.07, weaker in 0.23 of cells, median ln-ratio pred/obs 2.08
+minimal: 630 accepted configuration-cells of the Standard Model
+  up     m1/m3: median ln(pred/obs) -0.28, weaker in 0.48 of cells, median ln-ratio pred/obs 1.02; m2/m3: median ln(pred/obs) -4.17, weaker in 0.22 of cells, median ln-ratio pred/obs 1.74
+  down   m1/m3: median ln(pred/obs) -5.01, weaker in 0.17 of cells, median ln-ratio pred/obs 1.72; m2/m3: median ln(pred/obs) -5.75, weaker in 0.11 of cells, median ln-ratio pred/obs 2.45
+  lepton m1/m3: median ln(pred/obs) -3.76, weaker in 0.27 of cells, median ln-ratio pred/obs 1.46; m2/m3: median ln(pred/obs) -6.90, weaker in 0.03 of cells, median ln-ratio pred/obs 3.44
+T-low's heights: 1.537 .. 2.766

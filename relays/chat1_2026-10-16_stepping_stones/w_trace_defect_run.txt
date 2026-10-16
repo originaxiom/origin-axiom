@@ -1,0 +1,119 @@
+the closed form against main's quadrature (B1654, end_data_defect_output.txt):
+  tau = omega: closed form 9.315202e-16; main 4.052021e-14
+  tau = i: closed form 1.088793; main 1.088735
+  tau = 0.13+1.07i: closed form 0.996; main 0.9959543
+  tau = 0.3+1.6i: closed form 0.4138488; main 0.4138416
+  tau = 2.2i: closed form 0.1276521; main 0.1276502
+  tau = 3.0i: closed form 0.01551016; main 0.01551
+invariance of f under T, S and [[2,1],[1,1]] at three points: largest difference 3.5e-15
+area average of f over the modular surface: 0.31500491 (finer: 0.31500491); main's: 0.31500491
+the rule that picks no thread, on f: the layer mean <f>_t over every primitive thread of trace t
+  t =   3:    1 threads; <f>_t = 0.80309 (deviation from the area average +0.48809); thread range 0.803 .. 0.803
+  t =   4:    2 threads; <f>_t = 0.50407 (deviation from the area average +0.18906); thread range 0.504 .. 0.504
+  t =   5:    2 threads; <f>_t = 0.31926 (deviation from the area average +0.00426); thread range 0.319 .. 0.319
+  t =   6:    3 threads; <f>_t = 0.40844 (deviation from the area average +0.09344); thread range 0.250 .. 0.725
+  t =   7:    2 threads; <f>_t = 0.22183 (deviation from the area average -0.09317); thread range 0.222 .. 0.222
+  t =   8:    4 threads; <f>_t = 0.40182 (deviation from the area average +0.08682); thread range 0.208 .. 0.595
+  t =   9:    2 threads; <f>_t = 0.20051 (deviation from the area average -0.11449); thread range 0.201 .. 0.201
+  t =  10:    6 threads; <f>_t = 0.44862 (deviation from the area average +0.13361); thread range 0.195 .. 0.669
+  t =  11:    3 threads; <f>_t = 0.31322 (deviation from the area average -0.00179); thread range 0.191 .. 0.558
+  t =  12:    4 threads; <f>_t = 0.29752 (deviation from the area average -0.01748); thread range 0.187 .. 0.408
+  t =  13:    4 threads; <f>_t = 0.34730 (deviation from the area average +0.03230); thread range 0.183 .. 0.511
+  t =  14:    6 threads; <f>_t = 0.34134 (deviation from the area average +0.02634); thread range 0.180 .. 0.484
+  t =  15:    4 threads; <f>_t = 0.44515 (deviation from the area average +0.13014); thread range 0.177 .. 0.713
+  t =  16:    6 threads; <f>_t = 0.30512 (deviation from the area average -0.00989); thread range 0.175 .. 0.415
+  t =  17:    4 threads; <f>_t = 0.30182 (deviation from the area average -0.01319); thread range 0.172 .. 0.431
+  t =  18:    7 threads; <f>_t = 0.30790 (deviation from the area average -0.00710); thread range 0.170 .. 0.427
+  t =  19:    4 threads; <f>_t = 0.26455 (deviation from the area average -0.05046); thread range 0.168 .. 0.361
+  t =  20:   10 threads; <f>_t = 0.41454 (deviation from the area average +0.09954); thread range 0.165 .. 0.615
+  t =  21:    2 threads; <f>_t = 0.16350 (deviation from the area average -0.15151); thread range 0.163 .. 0.163
+  t =  22:   12 threads; <f>_t = 0.35547 (deviation from the area average +0.04047); thread range 0.162 .. 0.657
+  t =  23:    4 threads; <f>_t = 0.26524 (deviation from the area average -0.04977); thread range 0.160 .. 0.371
+  t =  24:    4 threads; <f>_t = 0.20550 (deviation from the area average -0.10950); thread range 0.158 .. 0.253
+  t =  25:    8 threads; <f>_t = 0.38382 (deviation from the area average +0.06882); thread range 0.156 .. 0.535
+  t =  26:   12 threads; <f>_t = 0.35383 (deviation from the area average +0.03883); thread range 0.155 .. 0.717
+  t =  27:    5 threads; <f>_t = 0.35137 (deviation from the area average +0.03637); thread range 0.153 .. 0.551
+  t =  28:    8 threads; <f>_t = 0.23946 (deviation from the area average -0.07554); thread range 0.152 .. 0.293
+  t =  29:    8 threads; <f>_t = 0.39912 (deviation from the area average +0.08411); thread range 0.151 .. 0.555
+  t =  30:   14 threads; <f>_t = 0.36733 (deviation from the area average +0.05233); thread range 0.149 .. 0.614
+  t =  31:    4 threads; <f>_t = 0.21491 (deviation from the area average -0.10010); thread range 0.148 .. 0.282
+  t =  32:    8 threads; <f>_t = 0.25286 (deviation from the area average -0.06214); thread range 0.147 .. 0.323
+  t =  33:    4 threads; <f>_t = 0.20180 (deviation from the area average -0.11320); thread range 0.146 .. 0.258
+  t =  34:   16 threads; <f>_t = 0.34996 (deviation from the area average +0.03495); thread range 0.145 .. 0.604
+  t =  35:    8 threads; <f>_t = 0.33737 (deviation from the area average +0.02236); thread range 0.144 .. 0.447
+  t =  36:    8 threads; <f>_t = 0.33128 (deviation from the area average +0.01628); thread range 0.143 .. 0.487
+  t =  37:    8 threads; <f>_t = 0.33057 (deviation from the area average +0.01557); thread range 0.142 .. 0.610
+  t =  38:   18 threads; <f>_t = 0.33143 (deviation from the area average +0.01643); thread range 0.141 .. 0.690
+  t =  39:    4 threads; <f>_t = 0.43362 (deviation from the area average +0.11861); thread range 0.140 .. 0.727
+  t =  40:   16 threads; <f>_t = 0.34283 (deviation from the area average +0.02782); thread range 0.139 .. 0.534
+  t =  41:    8 threads; <f>_t = 0.33087 (deviation from the area average +0.01587); thread range 0.138 .. 0.446
+  t =  42:   12 threads; <f>_t = 0.28357 (deviation from the area average -0.03143); thread range 0.137 .. 0.528
+  t =  43:   12 threads; <f>_t = 0.32493 (deviation from the area average +0.00992); thread range 0.137 .. 0.444
+  t =  44:    8 threads; <f>_t = 0.22517 (deviation from the area average -0.08984); thread range 0.136 .. 0.287
+  t =  45:    6 threads; <f>_t = 0.31328 (deviation from the area average -0.00172); thread range 0.135 .. 0.402
+  t =  46:   16 threads; <f>_t = 0.31313 (deviation from the area average -0.00188); thread range 0.134 .. 0.660
+  t =  47:   10 threads; <f>_t = 0.30711 (deviation from the area average -0.00790); thread range 0.134 .. 0.420
+  t =  48:   14 threads; <f>_t = 0.34397 (deviation from the area average +0.02896); thread range 0.133 .. 0.513
+  t =  49:    4 threads; <f>_t = 0.18877 (deviation from the area average -0.12623); thread range 0.132 .. 0.245
+  t =  50:   28 threads; <f>_t = 0.35918 (deviation from the area average +0.04417); thread range 0.132 .. 0.604
+  t =  51:    7 threads; <f>_t = 0.35512 (deviation from the area average +0.04011); thread range 0.131 .. 0.488
+  t =  52:   18 threads; <f>_t = 0.34842 (deviation from the area average +0.03342); thread range 0.130 .. 0.649
+  t =  53:    8 threads; <f>_t = 0.27379 (deviation from the area average -0.04122); thread range 0.130 .. 0.471
+  t =  54:   12 threads; <f>_t = 0.25288 (deviation from the area average -0.06213); thread range 0.129 .. 0.484
+  t =  55:   12 threads; <f>_t = 0.31794 (deviation from the area average +0.00294); thread range 0.129 .. 0.395
+  t =  56:   16 threads; <f>_t = 0.36471 (deviation from the area average +0.04971); thread range 0.128 .. 0.656
+  t =  57:    8 threads; <f>_t = 0.29580 (deviation from the area average -0.01920); thread range 0.128 .. 0.395
+  t =  58:   24 threads; <f>_t = 0.32175 (deviation from the area average +0.00674); thread range 0.127 .. 0.706
+  t =  59:    8 threads; <f>_t = 0.32335 (deviation from the area average +0.00834); thread range 0.127 .. 0.453
+  t =  60:   12 threads; <f>_t = 0.31816 (deviation from the area average +0.00315); thread range 0.126 .. 0.440
+  t =  61:   10 threads; <f>_t = 0.26218 (deviation from the area average -0.05283); thread range 0.126 .. 0.371
+  t =  62:   28 threads; <f>_t = 0.33312 (deviation from the area average +0.01812); thread range 0.125 .. 0.540
+  t =  63:    8 threads; <f>_t = 0.33117 (deviation from the area average +0.01616); thread range 0.125 .. 0.619
+  t =  64:   16 threads; <f>_t = 0.29571 (deviation from the area average -0.01929); thread range 0.124 .. 0.436
+  t =  65:   18 threads; <f>_t = 0.35978 (deviation from the area average +0.04477); thread range 0.124 .. 0.585
+  t =  66:   16 threads; <f>_t = 0.30585 (deviation from the area average -0.00916); thread range 0.123 .. 0.535
+  t =  67:    8 threads; <f>_t = 0.25770 (deviation from the area average -0.05730); thread range 0.123 .. 0.428
+  t =  68:   16 threads; <f>_t = 0.29757 (deviation from the area average -0.01744); thread range 0.123 .. 0.738
+  t =  69:   10 threads; <f>_t = 0.30931 (deviation from the area average -0.00569); thread range 0.122 .. 0.366
+  t =  70:   36 threads; <f>_t = 0.33642 (deviation from the area average +0.02141); thread range 0.122 .. 0.589
+  t =  71:    8 threads; <f>_t = 0.27549 (deviation from the area average -0.03951); thread range 0.121 .. 0.367
+  t =  72:    8 threads; <f>_t = 0.19454 (deviation from the area average -0.12046); thread range 0.121 .. 0.247
+  t =  73:   14 threads; <f>_t = 0.36545 (deviation from the area average +0.05045); thread range 0.121 .. 0.571
+  t =  74:   30 threads; <f>_t = 0.32868 (deviation from the area average +0.01367); thread range 0.120 .. 0.581
+  t =  75:   12 threads; <f>_t = 0.36716 (deviation from the area average +0.05216); thread range 0.120 .. 0.599
+  t =  76:   16 threads; <f>_t = 0.27428 (deviation from the area average -0.04072); thread range 0.120 .. 0.387
+  t =  77:   14 threads; <f>_t = 0.38017 (deviation from the area average +0.06517); thread range 0.119 .. 0.626
+  t =  78:   28 threads; <f>_t = 0.33783 (deviation from the area average +0.02283); thread range 0.119 .. 0.542
+  t =  79:   16 threads; <f>_t = 0.33925 (deviation from the area average +0.02425); thread range 0.118 .. 0.665
+  t =  80:   24 threads; <f>_t = 0.33435 (deviation from the area average +0.01934); thread range 0.118 .. 0.568
+  t =  81:    6 threads; <f>_t = 0.30182 (deviation from the area average -0.01318); thread range 0.118 .. 0.394
+  t =  82:   32 threads; <f>_t = 0.30846 (deviation from the area average -0.00655); thread range 0.118 .. 0.612
+  t =  83:   18 threads; <f>_t = 0.30728 (deviation from the area average -0.00772); thread range 0.117 .. 0.642
+  t =  84:    8 threads; <f>_t = 0.27447 (deviation from the area average -0.04053); thread range 0.117 .. 0.412
+  t =  85:   20 threads; <f>_t = 0.31200 (deviation from the area average -0.00300); thread range 0.117 .. 0.392
+  t =  86:   24 threads; <f>_t = 0.28836 (deviation from the area average -0.02664); thread range 0.116 .. 0.578
+  t =  87:    8 threads; <f>_t = 0.34643 (deviation from the area average +0.03142); thread range 0.116 .. 0.716
+  t =  88:   20 threads; <f>_t = 0.28160 (deviation from the area average -0.03340); thread range 0.116 .. 0.535
+  t =  89:    8 threads; <f>_t = 0.29862 (deviation from the area average -0.01638); thread range 0.115 .. 0.649
+  t =  90:   36 threads; <f>_t = 0.33082 (deviation from the area average +0.01581); thread range 0.115 .. 0.516
+  t =  91:   12 threads; <f>_t = 0.33007 (deviation from the area average +0.01507); thread range 0.115 .. 0.513
+  t =  92:   36 threads; <f>_t = 0.32508 (deviation from the area average +0.01008); thread range 0.115 .. 0.528
+  t =  93:    8 threads; <f>_t = 0.22384 (deviation from the area average -0.09116); thread range 0.114 .. 0.348
+  t =  94:   28 threads; <f>_t = 0.32580 (deviation from the area average +0.01079); thread range 0.114 .. 0.547
+  t =  95:   16 threads; <f>_t = 0.29829 (deviation from the area average -0.01671); thread range 0.114 .. 0.398
+  t =  96:   18 threads; <f>_t = 0.35949 (deviation from the area average +0.04448); thread range 0.114 .. 0.564
+  t =  97:   24 threads; <f>_t = 0.34374 (deviation from the area average +0.02874); thread range 0.113 .. 0.657
+  t =  98:   32 threads; <f>_t = 0.31370 (deviation from the area average -0.00131); thread range 0.113 .. 0.525
+  t =  99:    8 threads; <f>_t = 0.37074 (deviation from the area average +0.05574); thread range 0.113 .. 0.703
+  t = 100:   28 threads; <f>_t = 0.32673 (deviation from the area average +0.01173); thread range 0.113 .. 0.615
+the trend, averaged over windows of ten consecutive traces (weights: the threads):
+  t = 3..12:    29 threads; mean 0.37753 (deviation +0.06253)
+  t = 13..22:    59 threads; mean 0.34250 (deviation +0.02749)
+  t = 23..32:    75 threads; mean 0.32120 (deviation +0.00620)
+  t = 33..42:   102 threads; mean 0.32976 (deviation +0.01476)
+  t = 43..52:   123 threads; mean 0.32558 (deviation +0.01058)
+  t = 53..62:   138 threads; mean 0.31390 (deviation -0.00111)
+  t = 63..72:   144 threads; mean 0.30929 (deviation -0.00572)
+  t = 73..82:   192 threads; mean 0.33170 (deviation +0.01670)
+  t = 83..92:   190 threads; mean 0.31186 (deviation -0.00314)
+  t = 93..100:   162 threads; mean 0.32444 (deviation +0.00943)
