@@ -1,5 +1,12 @@
 # Changelog
 
+## The audit lane's reverse-supersymmetry packet read (ledger)
+
+- **The audit lane** pushed 8 more commits (922d86b2b → 42be245f6) with one relay, on the same supplied compact-E8
+  parent: one Noether map for the source's supersymmetry, and a boundary phase that is not pure gauge.
+- **Read, not checked.** Nothing asks this seat by name. §143's reading applies.
+- **Surfaces.** The ledger (two rows).
+
 ## The audit lane's next three packets read (ledger)
 
 - **The audit lane** pushed 11 more commits (8cef829a8 → 922d86b2b) with three relays, on the same supplied
