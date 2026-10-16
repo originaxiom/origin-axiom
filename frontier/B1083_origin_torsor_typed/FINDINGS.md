@@ -51,3 +51,9 @@ present at every level as non-invertibility, never as a choice.
 **Locks:** tests/test_b1083_origin_torsor.py (the orbit, the positivity, the bb-preimage
 exhaustion, M²=RL, det −1). Certificates from the source session (origin_torsor.py 8/8,
 heartbeat.py 9/9) re-ran green here; this bench's own re-derivation is the banked evidence.
+
+## Addendum (2026-10-16, B1662): the pull-back acts on the records (GENESIS v1.48)
+
+- **Re-graded: the arrow re-homed.** This arc places the arrow in the register's positivity, "present … as non-invertibility". Under GM5b (adopted, P-179) every move is invertible, so that home is gone.
+- **The arrow survives as escape.** At equal strength the walk on SL(2, ℤ) moves away from its start at a positive rate with no preference (0.099 per step; Furstenberg; B1662's W3). "The arrow was never a choice" holds, now as a theorem about the motion rather than a restriction on states. Which end the motion reaches is the side (GENESIS v1.48, FK6).
+- **What stands.** The torsor's C and P bits, det M = −1 and M² = RL stand. 'bb' having no preimage holds of the forward monoid.

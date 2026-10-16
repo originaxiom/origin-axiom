@@ -55,3 +55,8 @@ handed side proves empty of everything else.
 
 S1–S4 are elementary; their worth is in what they correct on the foundations page. The claim that positivity "removes
 the handed states" rests on B1479 and B1481, which are census laws to length 12, not theorems. §3 is a reading.
+
+## Addendum (2026-10-16, B1662): the pull-back acts on the records (GENESIS v1.48)
+
+- **Re-graded, wording only.** The owner ruled (P-179, by the math) that the inverse moves are legal (GM5b adopted). So §2's "positivity is what excludes" the − states, and "the handed states are precisely what a chosen restriction removes", hold of the forward semigroup only. Under GM5b, −I = (L·R⁻¹·L)² is generated and the − states are reachable.
+- **What stands.** S1–S4 are elementary facts and unchanged: no word in L, R and P gives a − state, and −I brings no inverse letters with it. §3's reading (cancelling as the negation −I) and B1662's (cancelling as the inverse move) agree on the outcome: the sign is generated.

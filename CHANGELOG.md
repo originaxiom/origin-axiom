@@ -1,5 +1,30 @@
 # Changelog
 
+## S137 THE PULL-BACK ACTS ON THE RECORDS (B1662; GENESIS v1.48); THE AUDIT LANE REORIENTED; WAVE AND WEAVE
+
+- **B1662, the owner's ruling on P-179, made by the math** ("i accept your recomendations all"). GENESIS v1.47 → v1.48
+  through the adoption step:
+  - GM5b adopted, so the inverse moves are legal;
+  - FK4 answered: the sign is generated, (L R⁻¹ L)² = (L⁻¹R)³ = −I, and no forward word reaches it;
+  - GM5d and FK6 re-read: positivity is the choice of side, and the arrow is the escape (0.0992 per step, Furstenberg);
+  - the arena recorded with SE1's trace-1 solution (P-178 N1).
+
+  The facts are locked: [LR, RL] = −(unipotent) with trace −2, and seeded walks (A transient, the undo-only reading
+  recurrent). Re-graded: B1482, B1479 (wording) and B1083 (the arrow re-homed). Scope sentences on B1640, B1454 and
+  B1422. Lock tests/test_b1662_the_pull_back_acts.py.
+- **P-180 ruled as main recommended and relayed:**
+  - the web seat's W-trace with the period-phase report;
+  - W95 by trace;
+  - the linking term's crossing form excluded, the resolvent only if admissible;
+  - the method lessons for every seat (P-182);
+  - the audit lane's index traced: its 3 is the weave's three parities.
+- **The audit lane reoriented** (P-181, the owner's request and lens). Its 305 rows hold 4 verified and no banked
+  dependence. Its work is now read as a specification of what the principle must produce. Its tools point at the end
+  law of the weave's own operator: does an admissible end condition fix the cusp's unit or L?
+- **Wave or weave?** (P-183; S_THE_PUSH_BACK §10, firewalled). Both, as the trace formula's two sides: the threads the
+  geometric side, the field's waves the spectral side. The ruling made the state space the trace formula's full
+  geometric side (identity, elliptic, parabolic, hyperbolic). The road has five steps, each able to fail. 0 of 19.
+
 ## REVIEW 64 THE FIELD STAGE (B1661)
 
 - **Review 64** (34 merges since Review 63; anchor `bf44d9032`; fresh clone PASS; full suite 7335 passed, 10 failed, 68 skipped (35:37, -n 8): eight fixed at the review, two parallel-only under investigation (§5b)). The loop: R63-3

@@ -17203,3 +17203,14 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   The seeded sample read in full; B1660's read-out and B1654's seal record repaired; the E80 and E65 instances filed;
   four of Review 63's items carried a second time (the loop's main debt). The sweep for the pull-back fork recorded
   (S_THE_PUSH_BACK §9.3). The owner accepted every recommendation (P-179, P-180): the adoption follows as B1662.
+
+## 2026-10-16 — S137 THE PULL-BACK ACTS ON THE RECORDS; THE AUDIT LANE REORIENTED; WAVE AND WEAVE
+
+- The owner accepted every recommendation: B1662 adopts the pull-back on the records (GENESIS v1.48; GM5b, FK4, GM5d,
+  FK6, the arena), with its facts locked and six arcs re-graded or scoped. P-180's rulings relayed to the seats.
+- The audit lane reoriented at the owner's request (P-181): its work read as a specification of what the principle
+  must produce, its tools on the end law of the weave's own operator.
+- The owner's question "wave or weave?" answered in the firewalled file (§10): the trace formula's two sides; the road
+  in five steps; the paper after the first test that can fail (the owner to decide).
+- Full suite before the GENESIS amendment (R64-11): 7351 passed, 2 failed, 68 skipped (23:21, -n 8). The two failures
+  are R64-10's BLAS-thread-dependent locks (B186, B616), diagnosed and open; nothing else. Gates 45 of 45. 0 of 19.

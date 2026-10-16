@@ -152,3 +152,7 @@ lane's R58 was not read, and its R57 was read, not re-derived. **0 of 19.**
 The README's state section is annotated, not rewritten. The arcs before B1454 carry no scope tag; the 400-odd NEGATIVE
 ones are owed first. `docs/THE_CLAIM.md` is annotated, not brought up to B1234 and B1323. F-MC has never been run on a
 state other than the root. The seat's sm:B1380 is unverified on main (L239 (a)).
+
+## Addendum (2026-10-16, B1662): the pull-back acts on the records (GENESIS v1.48)
+
+- **A scope sentence.** The root's uniqueness is stated with and without positivity (G1), so it holds under GM5b (adopted, P-179). GM5d's status line is re-read in GENESIS v1.48.

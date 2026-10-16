@@ -74,3 +74,8 @@ itself says. So each comparison read 0 = 0 + 0, and the count could not fail on 
 Shapiro's lemma: p_*p*V = V ⊕ V⊗w, so H*(M; p*V) = H*(N; V) ⊕ H*(N; V⊗w). It does not stand by the count. Found by the
 SM seat's W86; checked on main from `verification/webseat_rerun_nonor_index.txt`. E82 (ERROR_LEDGER, 2026-10-15). The
 sign law (P1–P3, 34 of 34) is unaffected.
+
+## Addendum (2026-10-16, B1662): the pull-back acts on the records (GENESIS v1.48)
+
+- **Re-graded, wording only.** §2's "the part of the state space the genesis does not yet generate" is superseded. Under GM5b (adopted, P-179) the − states are generated, so the place where a hand can be registered on a fermion is generated, not added.
+- **What stands.** P1–P3 and the census laws stand, as facts about reachable states.

@@ -83,3 +83,7 @@ of τ; Novichkov–Penedo–Petcov (arXiv:2006.03058) for the weight-1 triplet o
 `verification/frame_audit.py` (with `frame_audit.json`, `frame_audit_run.txt`); `adoption/amend.py` with
 `received/GENESIS_v1_41_main.md`; the lock `tests/test_b1640_the_frame_audit.py`. Addenda of 2026-10-13 on B1618, B1634
 and B1635.
+
+## Addendum (2026-10-16, B1662): the pull-back acts on the records (GENESIS v1.48)
+
+- **A scope sentence.** v1.42 scoped GM5d to the semigroup of updates, because ⟨L, R⟩ contains −I. Under GM5b (adopted, P-179) the updates are the group. The scoping is consistent with the ruling, which it anticipated.

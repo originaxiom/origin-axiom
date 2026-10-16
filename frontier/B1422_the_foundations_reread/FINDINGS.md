@@ -91,3 +91,7 @@ all-arithmetic criterion census does not mention.
 ## Locks
 `tests/test_b1422_foundations_reread.py` (the LR/RL computation with its conjugacy control; that the two corrected
 tests now assert the verified reading; that the retracted phrases are registered).
+
+## Addendum (2026-10-16, B1662): the pull-back acts on the records (GENESIS v1.48)
+
+- **A scope sentence.** The a = b = −1 branch noted here ("over ℤ alone ab = 1 also admits a = b = −1") is a reachable state under GM5b (adopted, P-179). The 144 → 1 collapse is stated for the positive sector and stands there.

@@ -287,8 +287,8 @@ agree on that.
   - **B:** the returns grow like √T, 49 → 157, so it is recurrent: the cancellation completes again and again unless
     the forward step is preferred (p < ½, a datum).
   - **C:** no computation can see the pull-back.
-- **A adds exactly three things:** the sign on every thread, the balance points ω and i, and the cusp's elements as
-  reachable states.
+- **A adds exactly three things:** the sign on every thread, the balance points ω and i, and the cusp's elements with
+  the sign (trace −2; Lⁿ and Rⁿ were already forward words) as reachable states.
   - Every hyperbolic class already has a forward representative (Series), so nothing banked about threads is lost.
   - The walk reaches −I in about 5% of walks within 10⁴ steps.
 - **Under A the step / pull-back binary is the mirror.** Conjugation by diag(1, −1) sends L ↦ L⁻¹ and R ↦ R⁻¹, and τ ↦
@@ -353,3 +353,52 @@ n = 2000 (two seeds, 2000 walks each).
 - Which end it moves toward is not fixed.
 - So B1083's "the arrow was never a choice" survives under A, re-homed from non-invertibility to escape. The choice of
   end is the side (§9.1).
+
+## 10. Wave, weave, or both? (the owner's question of 2026-10-16; P-183)
+
+*"is our universe an oscilating wave? or weave of threads or combined or what? in the newest picture"*
+
+**Both. In the mathematics they are one object seen two ways.** [MATH, standard; the reading is LEAP]
+- **The arena** is SL(2, ℝ)/SL(2, ℤ), the trefoil's complement, the space the records' placements live in (P-178;
+  GENESIS v1.48).
+- **The threads** are its closed geodesics, the motion: each is a forward word read letter by letter.
+- **The waves** are the automorphic forms on the same space: the field. η⁶ carries the Higgs's character; the theta
+  triplet makes R; the matter's defect D carries χ (§8.3b). Their q-expansions are literally oscillations along the
+  cusp.
+- **The Selberg trace formula** equates a sum over closed geodesics (the threads, by length) with a sum over the
+  Laplacian's spectrum (the waves, by frequency), plus terms for the identity, the elliptic points and the cusp.
+  - Its geometric side runs over exactly the conjugacy classes that GM5b, adopted today, made reachable states:
+    nothing (the identity); the balance points i and ω (elliptic); the cusp (parabolic: Lⁿ and Rⁿ were already
+    forward words, and the ruling adds them with the sign, trace −2); the threads with their signs (hyperbolic).
+  - Under positivity alone the elliptic terms were not states. The ruling made the state space and the trace formula's
+    geometric side the same list.
+- **The feedback** is the walk: steps and their pull-backs, escaping at a positive rate (§9.3). Its long-run averages
+  are set by equidistribution (Duke for long threads; the geodesic flow's ergodicity for the typical motion, ⟨f⟩ =
+  0.31500491, §7).
+- **Equidistribution is the spectral gap in disguise:** how fast the threads forget where they started is set by the
+  lowest wave above the constant one.
+- **So "weave or wave" is the trace formula's two sides,** and the push-back is the motion that reads one through the
+  other. Whether physics lives on this is not shown.
+
+### 10.1 The road (each step can fail; in this order)
+
+| step | computation | can fail by |
+|---|---|---|
+| 1 | **W-trace** (the web seat, approved): layer sums of the matter's quantities over all threads of one trace, untwisted, with each thread's period phase reported | no trend toward the equidistributed value (Duke), or the cusp taking over at every layer |
+| 2 | **the spectral side for the same quantity:** whether the layer sums of D's coherent cycle integrals, on the threads with #L ≡ #R (mod 4), are the Fourier coefficients of one form (the Katok–Sarnak/Shintani pattern, where sums of cycle integrals by discriminant are a half-integral-weight form's coefficients). Feasibility for D's weight and character is checked first | the sums fit no form of the expected weight and character: the duality would not hold for our objects |
+| 3 | **the pull-back's strength p:** whether anything the program uses depends on p. Transience and escape do not. The walk's exit distribution (which end, the side) does | nothing depends on p (then p is idle and the push-back adds no number), or something does and p is a new input |
+| 4 | **the coherent rule on the physical amplitude:** fix the Higgs's transformation law, compute the amplitude's period phase, and seal which threads it keeps before any data | the rule keeps threads whose masses miss the data, or keeps none |
+| 5 | **the end law on the weave's own operator** (the audit lane's reorientation, P-181): does an admissible end condition fix the cusp's unit or L? | "neither" (a clean negative) |
+
+**What it does not settle.** Values, unless steps 4 or 5 bite. Steps 1–3 are about whether the picture holds
+together; 4 and 5 are where it can earn an input.
+
+### 10.2 The paper (the owner: "after this we think when right time for paper")
+
+Main's view, for the owner to decide:
+- **The foundations are stable now** (GENESIS v1.48).
+- **The field stage's negatives are banked** (B1656–B1660).
+- **The picture has its first tests named** (§10.1).
+- **The cleanest moment is after step 2 or step 4.** At either point the paper can report a test the picture could
+  have failed, not only a reading. P-150's "B then C" still governs; the paper's draft 2 waits on the owner (P-148,
+  P-172).

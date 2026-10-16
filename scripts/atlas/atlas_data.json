@@ -10042,6 +10042,7 @@
   "B1482": {
    "slug": "the sign is the cancelling move",
    "motifs": [
+    "monoid",
     "kappa",
     "golden"
    ],
@@ -12083,6 +12084,25 @@
    ],
    "obstacle": null,
    "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1662": {
+   "slug": "the pull back acts on the records",
+   "motifs": [
+    "monoid",
+    "eisenstein",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "P1",
+    "P3",
+    "S1",
+    "S4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "dynamics"
   },

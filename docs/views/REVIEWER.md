@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1390** |
-| words of findings prose | **1,099,821** |
-| test lock files referenced | **812** |
-| arcs carrying an authored verdict | **1390** (100.0 %) |
+| research arcs with findings | **1391** |
+| words of findings prose | **1,101,191** |
+| test lock files referenced | **813** |
+| arcs carrying an authored verdict | **1391** (100.0 %) |
 | recorded closures | **821** (654 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 943 |
+| PROVED | 944 |
 | NEGATIVE | 345 |
 | OPEN | 91 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1661`** (392 words, 0 locks)  
-REVIEW 64: THE FIELD STAGE. Thirty-four merges since Review 63; fresh clone PASS at bf44d9032; every live lane read to its head. The loop: R63-3 done (B1648), four items carried a second time (the premise audit's governance delta, the Seen-first alias table, the reliance reading and REPRODUCED, the enforcement gaps), Codeberg still the owner's. The sample: B1660's headline rounded two missed expectations and carried a non-sequitur (repaired here; its post-seal files kept in the arc and hashed; an E65 instance); B1658's 'exactly' (exact in t + 1/t only), B1649's stale 'Jacobi's' and B1651's mixed claim line go to one scope-repair arc. Protocol: B1654's post-seal path repair was disclosed in a form the seal check cannot read (recast; clean, 69 of 69; an E80 instance). Six terms glossed. 0 of 19.  
-`B1661_review_64_the_field_stage/FINDINGS.md`
+**PROVED — `B1662`** (898 words, 1 locks)  
+THE PULL-BACK ACTS ON THE RECORDS (the owner's ruling on P-179, 2026-10-16, made by the math; GENESIS v1.48): the inverse moves are legal (GM5b adopted) -- PF1's own form is two steps and their pull-backs, at the root [LR, RL] = -(unipotent) has trace -2 whatever the letters' signs, and at equal strength only this reading never settles (returns to the identity saturate at 0.477; the undo-only reading's grow 33.5 -> 97.0). So the sign is generated (FK4 answered): a full turn round a balance point negates the records, (L R^-1 L)^2 = (L^-1 R)^3 = -I, which no forward word reaches. Positivity is re-read as the choice of side (step and pull-back are mirror images), the arrow as the escape (0.0992 per step with no preference), and the arena recorded with SE1's trace-1 solution (P-178 N1). Re-graded: B1482, B1479 (wording), B1083 (the arrow re-homed); scope sentences on B1640, B1454, B1422. Nothing about the threads changes; the price unchanged; 0 of 19.  
+`B1662_the_pull_back_acts_on_the_records/FINDINGS.md`
 
 **NEGATIVE — `B1660`** (1315 words, 0 locks)  
 THE ONE-HIGGS CENSUS UNDER THE CANONICAL END CONDITION (sealed f798b2368, sha256 f0f9518c; NEGATIVE as sealed, a scoreboard; the output committed unread at aff4233ea): in B1656's twisted frame at omega on W59's 18 lines under P4, with B1659's joint law, ONE Higgs S and the end radius L reproduce HZ2021's five non-electron mass ratios in none of 54 cells (18 lines x 3 readings of the up sector: S, S~ = eps conj(S) eps^T, conj(S)): no fit below 11.07 found, every cell reliable (8 to 160 of 160 starts at its best; no failed fit), with a search that recovered all 15 planted worlds (C1). chi2_min: the same S 85.35-291.14 (three classes of six lines); S~ 542.8-591.8; conj(S) 412-731 except 34.40 on the conjugate pair of lines (1/9, 7/9) and (8/9, 2/9), the census's best. Read-out (C3): at the best points the up quarks' two ratios and the down quarks' m1/m3 are met; the misses are the two middle ratios, m_s/m_b too large and m_mu/m_tau too small: the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points. Not a ceiling: alone, that ratio reaches 9-34 on four lines (a post-seal exploration, labelled, kept in verification/after_the_seal/), so the misfit is a joint conflict among the five targets. 0 of 19.  

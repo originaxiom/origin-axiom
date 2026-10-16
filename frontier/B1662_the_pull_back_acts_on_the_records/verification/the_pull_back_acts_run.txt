@@ -1,0 +1,8 @@
+F1 {"commutator": [-7, 6, -6, 5], "trace": -2, "minus_is_unipotent": true, "sign_free": true, "holds": true}
+F2 {"S": [0, 1, -1, 0], "S2": [-1, 0, 0, -1], "S4": [1, 0, 0, 1], "S_fixes_i": true, "V": [0, -1, 1, 1], "V3": [-1, 0, 0, -1], "V6": [1, 0, 0, 1], "V_fixes_omega": true, "holds": true}
+F3 {"traces_seen_min": 2, "has_2": true, "below_2": [], "holds": true}
+F4 {"JLJ": [1, -1, 0, 1], "JRJ": [1, 0, -1, 1], "tau_map": true, "holds": true}
+W1 {"mean_returns_T500": 0.4766666666666667, "mean_returns_T4000": 0.4766666666666667, "holds": true}
+W2 {"mean_returns_T500": 33.51, "mean_returns_T4000": 96.97, "holds": true}
+W3 {"n": 1500, "walks": 600, "escape_rate": 0.09924680651958309, "holds": true}
+all hold: True

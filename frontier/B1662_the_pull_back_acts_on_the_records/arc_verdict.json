@@ -1,0 +1,20 @@
+{
+  "id": "B1662",
+  "verdict": "PROVED",
+  "instrument": false,
+  "creates_law": false,
+  "identifications": [],
+  "depends_on": ["B1482", "B1479", "B1083", "B1640", "B1454"],
+  "rests_on_seat": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc",
+  "scope": {
+    "frame": "frame-free: the moves of the grammar on the two records (L, R and, ruled here, their inverses) and SL(2, Z)",
+    "object": "the legality of the inverse move (GENESIS GM5b, FK4) and positivity's role (GM5d, FK6); the facts F1-F4 exact, the walks W1-W3 seeded",
+    "reach": "general",
+    "hypotheses": "the owner's ruling of 2026-10-16 on main's recommendation (S_THE_PUSH_BACK section 9.1); a reading of PF1's cancelling chosen by the math, not a derivation; F3 enumerated to entries <= 40; W1-W3 illustrate cited theorems (Kesten, Furstenberg); Series for the forward representatives"
+  },
+  "claim_one_line": "THE PULL-BACK ACTS ON THE RECORDS (the owner's ruling on P-179, 2026-10-16, made by the math; GENESIS v1.48): the inverse moves are legal (GM5b adopted) -- PF1's own form is two steps and their pull-backs, at the root [LR, RL] = -(unipotent) has trace -2 whatever the letters' signs, and at equal strength only this reading never settles (returns to the identity saturate at 0.477; the undo-only reading's grow 33.5 -> 97.0). So the sign is generated (FK4 answered): a full turn round a balance point negates the records, (L R^-1 L)^2 = (L^-1 R)^3 = -I, which no forward word reaches. Positivity is re-read as the choice of side (step and pull-back are mirror images), the arrow as the escape (0.0992 per step with no preference), and the arena recorded with SE1's trace-1 solution (P-178 N1). Re-graded: B1482, B1479 (wording), B1083 (the arrow re-homed); scope sentences on B1640, B1454, B1422. Nothing about the threads changes; the price unchanged; 0 of 19.",
+  "weave_or_thread": "weave (the joint action of the moves on the records)"
+}
