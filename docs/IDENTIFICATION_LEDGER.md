@@ -882,3 +882,20 @@ unchanged;238old successful source/seal copies retained. Governance
 26PASS/four FAIL, with explicit truncated-provenance/data-scope debt,
 not a no-new-debt certificate. No shared identification promotion or
 full physical boundary/SM/three/gravity identification is implied.
+
+## October16 actual Gauss charge versus the earlier norm
+
+surface_gauss_charge_2026_10_16 earns the actual source current/kinetic
+coefficient map, complete16/248real current representation and one
+degree2electric response. It now computes a canonical endpoint charge,
+not an identification of the preceding positive norm or Green flux
+with charge. Those expressions are explicitly different even up to sign.
+Actual full boson/Majorana presymplectic contraction matches corrected
+field-dependent charge variation, not an equal-rank inference.
+
+Nonzero canonical GRASSMANN charge in this supplied family does not
+identify the root Cartan with EM/hypercharge, predict a c-number vacuum
+charge, prove a selected physical edge state or force a global modulus.
+Five other actual currents remain sourced. Full coupled/global boundary,
+physical chiral SM/three/parameters/gravity arrows remain unearned;
+no shared I-status, particularly coupling-normalization status, promoted.

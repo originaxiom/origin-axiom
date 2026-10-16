@@ -20518,3 +20518,43 @@ Post-check metadata not back-certified;236science pins separately
 rechecked unchanged. No new B-dir/kill node or generated population
 change. No full-suite/nonauthor analytic/banking/main/recipient/physical
 acceptance. Full foundational physical SM/three/parameters/gravity ACTIVE.
+
+## 2026-10-16 Actual Gauss current and canonical endpoint charge
+
+At exact-server pre-run42be245f62cf6c2453d880cee06f618aa8213c20,
+both39/39 in58.005319s/46.289715s. Full2,625,191byte records identical
+SHAcca5e7f4d198027ad3a13fc9d1ee58aa079fe3dde8b5c78b41c96c6c40dcf622.
+247pins/15,801tracked/index unchanged; first attempt clean. Complete
+source primitives/real16and248frames/all248acting adjoints/ten currents/
+nilpotent electric response/both-end/full symplectic records retained.
+
+Actual source temporal K/YM gives kinetic2/momentum4, with an explicit
+six-term time primitive and zero untraced Euler difference. Full real
+Majorana time coupling gives G=4D_iE_i+j. Actual amplitude fermions have
+j=H(xi0xi1+xi2xi3)(1+g²r)^2/[r(1-g²r)^4]. The quadratic temporal
+response H(xi0xi1+xi2xi3)r/[4(1-g²r)^2] solves Gauss; scalar terms,
+homogeneous freedom and regular outer-zero response retained. Zero
+electric BODY is not zero entire temporal superfield/current.
+
+Canonical charge for the known harmonic parameter is NOT its norm or
+Green Wronskian. Both-end charge identity and the DIRECT full boson plus
+Majorana presymplectic contraction agree with corrected g charge variation,
+including Q[partial_g alpha]. All opposing sign/factor/odd/parameter/
+end/fermion-omission controls pass. Nonzero Grassmann charge/pairing
+is not a measured EM/vacuum charge or selected physical ensemble.
+
+Five OTHER currents nonzero (external spatial3,horizontal internal2),
+normal four0only on this family. NEXT actual source Hessian/all five
+responses, then degree3fermion/degree4boson/auxiliary/source/boundary
+and global completion. Explicit candidate profiles in NEXT_TEST remain
+UNVERIFIED pending the actual Hessian. No whole-theory stationarity,
+global particle/chirality count or cross-parent mass/count mechanism.
+
+All247source/code/test/data hashes sealed in INPUTS/ARTIFACTS; ledger
+types DESIGN/INPUTS as preregistrations, not raw data. No old row/raw
+rewrite, gate weakening/exception or inherited provenance debt waiver.
+Every sublemma harvested; sender relay requests named independent
+source-factor/current/symplectic review. SM391288e73 intake READ only,
+not reproduction. LIVE/governance follows banking; no full-suite/
+nonauthor/main/recipient/physical acceptance. Full foundational physical
+SM/three/parameters/gravity ACTIVE, not redefined as a local parent.

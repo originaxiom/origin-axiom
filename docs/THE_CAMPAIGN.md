@@ -1,5 +1,27 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October16 actual Gauss/charge:39/39each at published42be245f6,
+247pins/15,801tracked/index unchanged, full2,625,191byte records agree.
+Actual WZ/K/YM source fixes kinetic2/momentum4 with retained explicit
+primitive; complete16/248 real acting current frames. The known amplitude
+fermion has NONZERO actual Gauss current and an explicit nilpotent
+quadratic temporal response. Canonical charge is NOT a norm/Wronskian.
+Full bosonic AND actual Majorana presymplectic contraction matches the
+corrected endpoint-charge variation, including the field-dependent
+parameter term; omissions fail. Electric BODY remains0; Grassmann
+charge not measured EM/vacuum charge, particles or selected boundary
+ensemble. Five OTHER boson currents nonzero; normal four0on THIS
+family only. NEXT SAME-source boson Hessian/all five responses, then
+fermion degree3/boson degree4/auxiliary/source/boundary/global closure.
+No whole-theory stationarity or count/mass/gap transplant. Packet
+surface_gauss_charge_2026_10_16 FINDINGS/PROOF/NEXT_TEST; first attempt
+clean. All247code/data hashes sealed; DESIGN/INPUTS typed preregister
+records, no old row/raw rewrite, gate exception or debt waiver.
+Full foundational physical SM/three/parameters/gravity ACTIVE. Selected
+LIVE/governance follows banking; no full-suite/nonauthor/main/recipient
+or physical acceptance claimed.
+
+
 October16 actual reverse supersymmetry:34/34each at05a591e8f and
 provenance-labelled299584282, identical complete outputs. Latest236pins/
 15,773tracked/index unchanged. All ten actual source boson maps

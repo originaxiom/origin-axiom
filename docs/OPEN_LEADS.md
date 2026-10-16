@@ -7244,3 +7244,38 @@ untruncated inventory and applicability of a preregistration rule to
 every sealed data/source row. Do NOT change raw output, retroactively
 fabricate a seal, waive debt or weaken a gate to green our own work.
 Current26PASS/four FAIL; no repo-wide green or merge acceptance.
+
+PB-SOURCE-GAUSS-BOUNDARY-ENSEMBLE UPDATE: the actual local Gauss/current/
+canonical charge subset is POSITIVE,39/39each at42be245f6,
+surface_gauss_charge_2026_10_16/FINDINGS.md. Source momentum4with
+retained primitive, full real16/248current factors/all ten currents,
+degree2temporal response/homogeneous freedom, both-end charge distinct
+from Wronskian/norm and DIRECT boson+Majorana presymplectic identity
+with field-dependent parameter correction verified. This is not a
+c-number observed charge or selected full physical boundary ensemble.
+
+PB-SOURCE-ALL-BOSON-RESPONSE OPEN TEST: FIVE other currents are now
+computed NONZERO (external spatial3,horizontal internal2); the normal
+four vanish only on this fermion family. Derive the SAME actual source
+F/D/K/YM Hessian/auxiliary elimination/retained primitives and solve ALL
+five, then every boson Euler equation at degree2. NEXT_TEST gives exact
+UNVERIFIED candidate profiles, not banked solutions: spatial Cartan
+response has opposite Lorentzian sign to time; horizontal source has
+opposite angular winding and candidate r^(3/2)/(1-g²r)^2profile. Check
+actual source operator, full E8/reality/monodromy/gauge and both-end law
+before using them. Failed ansatz is not a programme-wide obstruction.
+
+Carry degree3fermion/degree4boson nonlinear completion, all auxiliary/
+source/SUSY boundary conditions, global/exterior/joint-frequency/
+singular admission and full charged spectrum/partner roster/anomalies/
+normalized interactions. Determine dynamical field versus source
+variation/gauge-Higgs partner by the actual ensemble, not local norm
+or zero-mode counting. Full foundational physical SM/three/parameters/
+gravity ACTIVE; no other-parent counts/masses/mechanisms imported.
+
+Gauss seals type DESIGN/INPUTS as preregistration records; all247code/
+data hashes remain in sealed INPUTS/ARTIFACTS and capture pins. No old
+row/raw-data rewrite, gate exception or waiver of the registered full
+provenance inventory/data-scope review. Named independent source-factor,
+odd-current and actual-symplectic proof review requested in sender relay;
+SM391288e73 older-packet read-only intake is not that acceptance.

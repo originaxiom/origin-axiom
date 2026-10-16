@@ -1,5 +1,15 @@
 # Derive the source Gauss law and joint boundary ensemble
 
+Subsequent actual Gauss/current/endpoint subset is now POSITIVE in
+surface_gauss_charge_2026_10_16,39/39each at published42be245f6.
+Source kinetic/momentum normalization and full real current are derived;
+a degree2temporal response solves Gauss. The actual boson+Majorana
+presymplectic contraction matches the corrected field-dependent charge
+variation. This is an actual Grassmann charge, not the earlier norm or
+an observed EM value. FIVE other boson currents remain nonzero. NEXT
+actual source Hessian/all five responses, nonlinear/auxiliary/end/global
+completion. The broader physical ensemble question below is not closed.
+
 The specific actual reverse-source/amplitude test is now POSITIVE:
 both34/34 at published05a591e8f. The complete four real scalar
 supercharge parameters return the actual amplitude and its gauge phase
