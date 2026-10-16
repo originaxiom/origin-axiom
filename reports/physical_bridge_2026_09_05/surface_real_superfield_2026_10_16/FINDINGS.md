@@ -112,3 +112,22 @@ No new physical count or old zero-Higgs gap is imported. Parent, carrier,
 metric, cut and boundary selection from genesis remain obligations.
 Full derived physical SM/three/gravity goal stays ACTIVE and unachieved.
 Selected live regression/governance follow, not already claimed green.
+
+## Terminal validation and the gauge-phase guard
+
+At68602e367,5LIVE tests PASS7.63s, capture8.923841s; both producers
+rerun,83pins/13,380tracked contents/index unchanged. Governance26PASS/
+four inherited FAIL24.923198s, same frozen state; first3failure lines
+match prior weighted capture exactly,42stale relay debts/159open,
+review564. No waiver or new science path named. Full VALIDATION/raw
+captures retained. Final metadata not back-certified;83pins unchanged.
+
+The earlier surface_invariant_brackets_2026_10_14/FINDINGS already
+earns g2+u1,rank3, for the FIXED based lifts/all stated commuting weak
+corrections. It cannot contain unbroken rank4 SM. This universal local
+F/boundary construction does not repair that particular gauge landing.
+An admitted appropriate gauge background must be earned before a global
+charged spectrum is called SM. R93's different-parent admitted SM phase
+is not spliced here. Other backgrounds/embeddings are not excluded by
+that bounded based-lift result. The goal remains full physics, not a
+fully normalized but wrong-gauge phase relabelled as success.

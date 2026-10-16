@@ -1,5 +1,11 @@
 # Physical bridge audit — 2026-09-05
 
+October16 real-superfield validation:5selected LIVE PASS7.63s at
+68602e367,83pins/tree/index unchanged. Governance26PASS/four inherited
+FAIL24.923198s, full captures retained, no waiver or new science path.
+Full real-parent/MW/singular/gauge/global joint remains; fixed based
+rank3 g2+u1 is not relabelled unbroken SM. Ultimate goal stays ACTIVE.
+
 October16 real F-sector/cutoff boundary:34/34 exact per method at
 published repair27b15f21f,83pins/tree/index unchanged. Two-derivative
 superfield reduction retains fermions/auxiliaries/conjugate and boundary

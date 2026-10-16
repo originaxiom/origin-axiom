@@ -17,3 +17,10 @@
    modes/norms/vertices/anomalies, with foundational selection or explicit
    pricing of supplied action/carrier/cut/metric/boundary. Keep full
    SM+three+gravity as ultimate active goal; no replacement by this subset.
+
+Gauge guard: fixed based lifts/all stated commuting weak corrections
+already have g2+u1 rank3 (surface_invariant_brackets FINDINGS), not
+unbroken rank4 SM. This local universal action/boundary work applies
+before selecting a background; it does not make that fixed phase SM.
+Earn an admitted appropriate gauge phase before interpreting its charged
+spectrum; do not borrow R93's different-parent gauge labels or counts.
