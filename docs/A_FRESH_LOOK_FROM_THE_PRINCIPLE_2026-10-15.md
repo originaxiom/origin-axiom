@@ -243,4 +243,15 @@ vector has weight −½. Whether the record's objects are traces in this sense i
   64 (1981), 175–198.
 - W. Duke, "Hyperbolic distribution problems and half-integral weight Maass forms", *Invent. Math.* 92 (1988), 73–90.
 
+**Read by main, 2026-10-16 (S135, 7d31adb07; P-178).**
+- **Main verified three of §3's facts with its own code:**
+  - LLR's and LRR's axes pass through ω;
+  - the root's closest approach to ω is ln √(5/3), to 10⁻¹⁵;
+  - the 26 reciprocal threads to length 10 are exactly those through i.
+- **Main re-ran `the_arena_check.py`,** and every cell held.
+- **N1 is the owner's decision** (P-178). N2–N4 are queued.
+- **Main's firewalled reading adds that ω is fixed by L⁻¹R,** a step with its pull-back
+  (main's speculations/S_THE_PUSH_BACK.md, on main only). That fits §3.5: the arena's monodromy is a move with an inverse letter, which
+  no thread contains.
+
 0 of 19.

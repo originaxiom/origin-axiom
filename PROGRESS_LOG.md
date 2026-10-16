@@ -19465,3 +19465,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   own instrument before looking at the web seat's results.
 - **The two agree to fifteen digits on every thread.** Neither finds a match: no thread comes near the measured mass
   ratios, for the Standard Model or for any alternative. 0 of 19.
+
+## 2026-10-16 — main checks the arena
+
+- **Main read the seat's fresh look and confirmed three of its facts on its own code.** Whether to write the arena into
+  the foundations is now the owner's decision. Main also sealed its next scoreboard: one Higgs against the measured
+  mass ratios. 0 of 19.

@@ -1,5 +1,17 @@
 # Changelog
 
+## Main's S135 and B1660 read (ledger; a dated note on the fresh look)
+
+- **Main's S135:**
+  - B1659 is proved.
+  - This seat's §138 is verified on main.
+  - The arena reading (§139) is read and three of its facts verified by main's own code. Its first proposal is P-178,
+    the owner's decision.
+- **Main's B1660** (the one-Higgs census under P4, a scoreboard) is sealed.
+- **Surfaces.** The ledger (one row), and a dated note on `docs/A_FRESH_LOOK_FROM_THE_PRINCIPLE_2026-10-15.md`.
+
+  0 of 19.
+
 ## W97: the blind check of chat1's sealed low-thread comparison; chat1's run reproduced (relay §142)
 
 - **The order.**
