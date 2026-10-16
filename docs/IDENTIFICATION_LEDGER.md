@@ -756,3 +756,17 @@ SUSY boundary action, singular critical domain or physical particle map.
 The positive squared response is not the first-order fermion action or
 determinant phase. Fourier/charge conjugation is not a fixed-label reality
 projection. No shared I-status, physical count, SM/three/gravity promoted.
+
+## October16 singular interior and finite response map
+
+surface_inner_cauchy_2026_10_16 exhibits the full free source polar/
+radial map and faithful finite-radius graph/projector action for both
+holonomy lattices and both supplied critical traces. This is not an
+identification with the earlier C6 coefficient Lambda, the full curved
+or interacting dressed domain, a bosonic/SUSY boundary law or a physical
+particle/generation index. Constant-spinor/vector recovery is FREE and
+local, not a global unbroken gauge multiplet or SM phase. Frozen family
+complement is not a global pseudodifferential theorem; pointwise cutoff
+convergence is not graph/resolvent convergence. Constant gauge tensor
+controls apply within identical coefficient sectors, not arbitrary
+holonomy mixing. No shared I-status or physical claim promoted.

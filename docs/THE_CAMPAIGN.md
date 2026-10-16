@@ -1,5 +1,17 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October16 punctured-interior response:52/52 each at publishedc0fe882ee,
+166pins/tree/index unchanged. SAME free source radial equations give
+critical transfer AND noncritical regular response, with uniform frozen
+frequency complement; BOTH holonomy signs and conjugates retained.
+Critical half-pole and regular Cartesian spinor/gaugino/boson zero modes
+survive. No full interacting/global N=1 boundary or physical count.
+Pointwise cutoff convergence is not uniform; graph limit remains open.
+NEXT actual dressed Higgs/curved gauge/boson/source/SUSY joint, then ONE
+global charged theory. Full generated physical SM/three/gravity ACTIVE.
+surface_inner_cauchy_2026_10_16 FINDINGS/PROOF/NEXT_TEST.
+
+
 October16 full angular source test:41/41 each at published95b08e9c1,
 155pins/tree/index unchanged. The specified adapted Q AND its complement
 fail ordinary full internal ellipticity at characteristic covectors;

@@ -6841,3 +6841,50 @@ Search 'critical boundary transfer' returned127broad hits/4settled,
 not an absence certificate; code search recovered the actual normal-
 family source above. NEXT_TEST states the precise new test, no generic
 missing/first-ever claim.
+
+## October16 singular interior response and the interacting boundary joint
+
+PB-SURFACE-CRITICAL-INTERIOR-RESPONSE: POSITIVE for the SAME free source
+normal model, not fully closed physically. Closing sentence for THIS
+bounded step: "The prescribed punctured interior has a constructive
+finite-radius response in the SAME free source normal model." Source
+surface_inner_cauchy_2026_10_16/FINDINGS.md/PROOF,52/52 each at published
+c0fe882ee,166pins/tree/index unchanged. All angular sectors/both holonomy
+signs and both critical alternatives retained. Uniform frozen complement,
+critical L2 half-pole and regular Cartesian constant spinor/gaugino/boson
+controls verified. No physical index/gap/count imported. The earlier
+pointwise-plane kill stays true, its singular-interior hatch now has a
+constructive FREE normal bridge. No whole-boundary/architecture kill.
+
+PB-SURFACE-INTERACTING-CAUCHY-TRANSFER OPEN: derive the coupled finite
+response for the actual nonnormal r^-1/2 Higgs and bounded backreacted
+connection from the existing DRESSED traces. Their fixed-fibre domain/
+Green/exhaustion positive is retained. Do not reuse undressed free modes
+or falsely apply a relative bound on the old extreme graph. All parity/
+angular/conjugate channels, both ends and matrix source terms required.
+
+PB-SURFACE-CURVED-CAUCHY-TRANSPORT OPEN: actual finite-tube tilted normal,
+moving/extrinsic/R and point-dependent gauge connection, global charts
+and varying-radius cusp cut. The frozen family angle is not a global
+pseudodifferential or common physical-domain theorem. Constant gauge
+tensor control does not identify arbitrary mixing of holonomy sectors.
+
+PB-SURFACE-CUTOFF-LIMIT remains OPEN. Critical pointwise convergence now
+has an exact NONUNIFORM frequency norm identity; no graph/resolvent
+failure concluded. Prove the correct dressed same-operator limit and
+finite-cut pole/concentration control, retaining noncritical branches.
+The L2 exclusion here covers free noncritical r^-a branches only.
+
+PB-SURFACE-GAUGE-MULTIPLET-RECOVERY OPEN globally/interactively: FREE local
+all-spinor and bosonic constant controls now positive, not a complete
+gauge/N=1/SM theorem. Derive the SAME action's bosonic/auxiliary/fermion/
+source/SUSY response together, with field dependence and BOTH ends.
+No squared norm substituted for first-order fermion action/phase.
+
+PB-SURFACE-ACTION-GENERATED-RESPONSE, neutral/global stationary charged
+theory, normalized complete spectrum/vertices/anomalies and foundational
+gauge/three/gravity selection remain ACTIVE. Fixed based g2+u1 not SM;
+different-parent R93 positive not spliced. NEXT_TEST preserves these
+and the existing spectral/charged-local alternatives. Terms searched
+'Bessel Cauchy puncture radial transfer':23broad hits/0settled at3/5,
+code/body and all11freshheads checked, no universal absence claim.

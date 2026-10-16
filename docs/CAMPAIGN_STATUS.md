@@ -1,5 +1,17 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 punctured-interior response:52/52 each at publishedc0fe882ee,
+166pins/tree/index unchanged. SAME free source radial equations give
+critical transfer AND noncritical regular response, with uniform frozen
+frequency complement; BOTH holonomy signs and conjugates retained.
+Critical half-pole and regular Cartesian spinor/gaugino/boson zero modes
+survive. No full interacting/global N=1 boundary or physical count.
+Pointwise cutoff convergence is not uniform; graph limit remains open.
+NEXT actual dressed Higgs/curved gauge/boson/source/SUSY joint, then ONE
+global charged theory. Full generated physical SM/three/gravity ACTIVE.
+surface_inner_cauchy_2026_10_16 FINDINGS/PROOF/NEXT_TEST.
+
+
 October16 angular-response validation:16selected PASS70.68s at
 dc8a8e27c,155pins/tree/index unchanged; both41-check producers rerun,
 plus routing/face metadata. Governance26PASS/four inherited FAIL

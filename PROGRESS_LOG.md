@@ -20127,3 +20127,31 @@ or inherited physical index. NEXT_TEST/OPEN_LEADS/relay registered.
 Post-check metadata not back-certified;155scientific pins separately
 rechecked unchanged. No full-suite/nonauthor/analytic/main or physical
 SM/three/gravity acceptance. Ultimate full generated goal ACTIVE.
+
+### October16 prescribed punctured interior gives a free finite response
+
+At published pre-run c0fe882ee,52/52 native14.807793s and reference
+34.323637s; complete5137-byte outputs identical SHA256
+a664b7b490928626cd965ae7fce0ac2a2f776f56d9983a951755af3a56a765aa.
+166pins/13,929tracked/index unchanged. Full raw streams/receipt kept;
+no failed attempt. Source/Bessel versus reconstructed MW/graph/first-
+order Frobenius methods share author/model, not independent acceptance.
+
+SAME free normal operator, both holonomy lattices/all angular modes,
+both supplied critical traces and all conjugates retained. Critical
+exp(-epsilon A) transfer and noncritical regular Bessel response give
+uniform frozen frequency complement. Critical L2 half-pole survives;
+regular m=+/-1/2 restores all Cartesian spinors inclgaugino; bosonic
+constant has zero normal response. These are local free gauge/massless
+controls, not a complete N=1 domain, SM phase or physical index/count.
+Critical cutoff norm exact and nonuniform at high frequency; graph/
+resolvent convergence remains open, no singular-domain kill.
+
+Ten scoped LAW sublemmas, leads, identification supplement, current
+surfaces and sender relay synchronized. Earlier pointwise-plane kill
+unchanged; hatch now records this free singular-interior bridge. NEXT
+actual nonnormal DRESSED Higgs and curved/extrinsic/gauge transport,
+SAME bosonic/auxiliary/source/SUSY boundary law and global/cusp joint.
+Fixed based rank3 not SM, other-parent results not freely spliced.
+Full generated physical SM/three/gravity ACTIVE. Selected LIVE/routing/
+governance validation follows, not full-suite or main acceptance.

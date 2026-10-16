@@ -10849,7 +10849,7 @@
    "none"
   ],
   "fact_computed": true,
-  "hatch": "SAME-source spectral response P_plus=(I+H/E)/2 and a charged-pair local bag both pass their scoped kinetic tests in the SAME packet. Interacting/curved source/SUSY, neutral threshold, global phase/gauge/cusp joining and stationary spectrum remain open. Changed local/nonlocal traces or boundary fields are not excluded; no old count transfers.",
+  "hatch": "SAME-source spectral response P_plus=(I+H/E)/2 and a charged-pair local bag pass their scoped kinetic tests. NEW surface_inner_cauchy_2026_10_16 verifies the prescribed singular INTERIOR's free finite-radius response: critical propagation plus all noncritical regular branches, both holonomy lattices, uniform frozen complement and retained massless/half-pole controls,52/52 each at publishedc0fe882ee. This is a positive free bridge, NOT full curved/interacting/SUSY/global boundary admission. Actual dressed nonnormal Higgs, curved/gauge transport, bosonic/source/SUSY, cutoff/cusp graph limit and stationary charged spectrum remain open. Changed traces/boundary fields not excluded; no old count transfers.",
   "priority": "P1",
   "revival_score": 5,
   "depth_note": "Original unchanged Q remains nonelliptic; this is NOT a whole-parent, singular critical-domain, all-boundary or whole-architecture negative. The full all-covector Clifford proof is supported by two actual-source implementations and nine exact Cauchy-space controls, not a sampled global particle census.",
