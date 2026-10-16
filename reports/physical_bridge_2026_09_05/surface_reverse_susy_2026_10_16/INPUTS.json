@@ -659,12 +659,16 @@
       "sha256": "6edbee5c3eff1771c2edc0139772c1be7cdd35dafd81c3da5f04f6789afe8a11"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/POST_HOC_REPAIR.md",
+      "sha256": "26baa68f93e194195b8662126d9b50b9bcac16eb73db91d2c16ac8aab4abe30b"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/PROOF.md",
       "sha256": "156de34337ed30ca715d25a5afffdf36225c1454db5ba97fa145b04e8a37ebcf"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/analysis.py",
-      "sha256": "57693b3b98a83e06076855e7330c5d571457cc64bd46ad7903fea0eeda38e38f"
+      "sha256": "5ff126990c6626124f9f057a8b949b3730c13211b28276c2564b570b744da69d"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/execute.py",

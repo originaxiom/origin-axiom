@@ -63,7 +63,9 @@ def run(method):
     ck('actual Noether factor and full real parameter subspace',zero(T-s.I*R*lam/2) and zero(C*T.conjugate()-T*C) and zero(T.H*T-lam/4))
     ck('all actual boson maps have graded rather than commuting reality',all(zero(-C.T*a.conjugate()*C-a) and zero(lam*a-a) for a in maps) and any(not zero(C.T*a.conjugate()*C-a) for a in maps))
     ck('wrong Noether factor and missing odd reversal rejected',any(not zero(a-2*T.T*s.I*C*v) for a,v in zip(maps,velocities)) and any(not zero(C.T*a.conjugate()*C-a) for a in maps))
-    if not all(checks.values()):return {'checks':checks,'records':{'source_maps':[enc(a) for a in maps],'parameter_map':enc(T)},'all_passed':False}
+    if not all(checks.values()):return {'checks':checks,'records':{'source_maps':[enc(a) for a in maps],'parameter_map':enc(T),
+        'expected_maps':[enc(T.T*s.I*C*v) for v in velocities],
+        'map_residuals':[enc(a-T.T*s.I*C*v) for a,v in zip(maps,velocities)]},'all_passed':False}
     # Earn source lambda identification in the actual complementary MW map.
     op=twist.opposite(cs);ph=[1,1,-1,-s.I];ph+=list(map(s.conjugate,ph));L=cm(op['S']*s.diag(*[v for p in ph for v in [p]*2]))
     gh=kron(eye(4),s.I*cs[0]*cs[1],eye(2));gv=kron(eye(4),s.I*cs[2]*cs[3],eye(2))
