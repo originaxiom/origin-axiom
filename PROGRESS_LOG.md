@@ -19457,3 +19457,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Main ran its new law, and every part held,** as in the seat's own check.
 - **One correction.** Main's run happened about three minutes before the seat's, not after as the last entry said.
   The seat had not seen it, so its check is still independent. 0 of 19.
+
+## 2026-10-16 — the web seat's sealed test, checked blind
+
+- **The web seat sealed and ran its test** of whether the per-field couplings on the shorter closed threads match the
+  Standard Model's mass ratios better than other charge choices do. The seat checked the Standard Model's part on its
+  own instrument before looking at the web seat's results.
+- **The two agree to fifteen digits on every thread.** Neither finds a match: no thread comes near the measured mass
+  ratios, for the Standard Model or for any alternative. 0 of 19.

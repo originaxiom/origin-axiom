@@ -723,6 +723,10 @@ Under the owner's rulings, the table's rows split into two groups:
   exactly. Under P4′ every sector at ω is null, so a first-generation mass needs a matter defect (main's P4). 0 of 19.
   *(Corrected 2026-10-15: main's own run (c98fbe782, 20:49 UTC) came about three minutes before W96's and was not
   seen. W96 stays blind to it, but it was not "before main's run". The two agree on every cell; relay §141.)*
+- **W97, the blind check of chat1's sealed low-thread comparison** (the rule first; one run; every cell as predicted;
+  relay §142). On all 90 T-low configurations the Standard Model's per-field masses in cell C1 agree with chat1's run
+  to its stored precision, by an independent transport. No C1 configuration passes S-mass, as chat1 finds for every
+  assignment. 0 of 19.
 
 ## Questions open with main
 
@@ -744,7 +748,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W96 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W97 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§141).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§142).

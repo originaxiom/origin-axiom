@@ -1,5 +1,27 @@
 # Changelog
 
+## W97: the blind check of chat1's sealed low-thread comparison; chat1's run reproduced (relay §142)
+
+- **The order.**
+  - chat1 sealed THE TWISTED UNITS ON THE LOW THREADS at 0d83e6981.
+  - This seat's rule (71ccb45ed) and script (1a83f0093) came next, then one run, with the output (d71ead0bc)
+    committed before chat1's output was fetched.
+  - Exploration before the rule was at excluded orders only.
+- **The check.** Per-field reading, cell C1, the Standard Model's charges, all 90 T-low configurations, on this seat's
+  own instrument (W72's units carried from the fundamental domain by fitted T and S matrices; W92's dressing by theta
+  sums). Every cell held:
+  - the enumeration is chat1's exactly;
+  - closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass;
+  - against chat1's run, 270 values agree to 3.6 × 10⁻¹⁵, its stored precision (56 on another rotation).
+- **The result it confirms:** no C1 configuration passes S-mass for the Standard Model. chat1's sealed verdict is that
+  no assignment passes anywhere, so the per-field thread frame on T-low does not reach the mass ratios.
+- **Also read:** chat1's six commits to fc15550e0 (the seal, two readings, the output, the read-out).
+- **Surfaces.**
+  - New: `W97_RULE.md`, `the_low_threads_checked.py` and `the_low_threads_q5.py` with their outputs.
+  - Updated: the dossier's NOTE, the state page, relays §142 and the seats relay §7, the ledger, and a test.
+
+  0 of 19.
+
 ## Main's B1659 output read; W96 agrees on every cell; a timing correction (relay §141)
 
 - **Main's run** (c98fbe782) holds on every cell. W96 agrees wherever the two measure the same thing. Main's P4

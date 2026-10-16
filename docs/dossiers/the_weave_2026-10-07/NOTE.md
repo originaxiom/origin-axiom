@@ -312,6 +312,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   main's output, not to its preregistration): det Y = 4 det S det M tr(εSMᵀ) and adj Y = det S·A(M) + det M·P A(S)
   hold exactly (sympy), with main's A. The null cone, the symmetric form in (S, Mε) and the corollaries hold, and so
   do the controls. Under P4′ every sector's matter at ω is null, so m₁ = 0 there for a reason other than the pairing.
+- W97 (the blind check of chat1's sealed low-thread comparison; rule first; one run; every cell as predicted; blind to
+  chat1's output): on all 90 T-low configurations the Standard Model's per-field masses in cell C1 agree with chat1's
+  run to 3.6 × 10⁻¹⁵ (its stored precision), by a different transport and, on 56, a different rotation. No C1
+  configuration passes S-mass (smallest Σz² 1428), as chat1 finds.
 
 ## The setting
 
@@ -7600,6 +7604,56 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W97. The blind check of chat1's sealed TWISTED UNITS ON THE LOW THREADS: per-field, cell C1, the Standard Model, all 90 configurations; every cell as predicted, chat1's run reproduced to its stored precision (`the_low_threads_checked.py`, `the_low_threads_q5.py`; `W97_RULE.md`)
+
+**The order.**
+- chat1 sealed the comparison at 0d83e6981 (2026-10-15 22:07 UTC).
+- This seat's rule came next (71ccb45ed, with a formatting wrap at 135e43553), then the script (1a83f0093).
+- One run followed, with its output (d71ead0bc, 00:22 UTC) committed before chat1's output was fetched or read.
+- **chat1's output timing.** chat1's output (09f41b453) is dated 23:26 UTC, before this seat's run. This seat's last
+  fetch of chat1 before the run was at 22:57 UTC, at 15f639ca7. So the check is blind to it, as the owner ruled
+  (§133) and as chat1's read-out asks.
+- **Exploration before the rule was at excluded orders only** (N = 8 and 10, chat1's controls), and is disclosed in
+  the rule.
+
+**Weave or thread.** A thread-frame result, read on each thread of a stated set (T-low) under H-thread. It is not a
+weave result.
+
+**The instrument (this seat's own).**
+- W72's units are evaluated by their series only in the fundamental domain. They are carried back to each point of
+  the thread by fitted T and S matrices, with fit residuals 10⁻⁴⁰ to 10⁻⁶¹.
+- W92's dressing is computed by explicit theta sums at the unreduced point.
+- The path is the axis of the word's own matrix, with the line uncarried.
+- The integration is a trapezoid at ⌊30·P⌋ and ⌊37.5·P⌋ nodes, at 60 digits.
+- chat1 instead carries ratios to R by R's monomial map, and integrates on the rotation of least |C| with the line
+  carried.
+
+**The cells, every one as predicted:**
+- **Q1.** This seat's enumeration gives 18, 40 and 32 configurations on 3, 8 and 10 words: exactly chat1's set.
+- **Q2.** Every integrand closes, at worst 2.6 × 10⁻³⁸.
+- **Q3.** The two node counts agree to 5 × 10⁻³⁰.
+- **Q4.** No mass is zero: the smallest m₁/m₃ is 1.5 × 10⁻⁹, and every norm matrix is positive definite.
+- **Q5**, after both outputs were committed. All 270 (configuration, sector) values agree with chat1's sealed run to
+  3.6 × 10⁻¹⁵, the precision of its stored singular values. On 56 of the 90 configurations chat1 integrated on another
+  rotation, so rotation invariance is checked there too.
+
+**The read-outs (seen data; not a test).**
+- **S-mass.** In C1 the Standard Model passes on no configuration: the smallest Σz² is 1428 against 12.59. chat1's
+  sealed run finds no S-mass pass for any assignment in any cell or reading.
+- **The masses' range.** ln(m₂/m₃) runs from −11.3 to −1.3 at N = 9, from −10.9 to −5.4 at N = 11, and from −7.2 to
+  −1.8 at N = 12.
+- **W94's ratio** spans 0.013 to 217 across configurations. chat1 reports four decades.
+
+**What it means.**
+- chat1's sealed comparison is right, in its primary reading's first cell and for the Standard Model, on a second
+  instrument.
+- So its verdict stands on that ground: the per-field thread frame on T-low, as enumerated, does not reach the data's
+  mass ratios (seal §9). This seat does not re-score chat1's null.
+- chat1's referee found 88 exact sign-flip pairs among the null draws. That is chat1's to carry, and it does not touch
+  the masses checked here.
+
+0 of 19.
+
 ## W96. Main's B1659 (the joint law, P-168) on this seat's own code: every cell holds, blind to main's output (`the_joint_law_checked.py`; `W96_RULE.md`)
 
 **The order.** The rule (699d19dab) came before the script (1db291582). The script was compiled before its run but no
@@ -8531,6 +8585,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W93 | COMPUTED (the rule first; one run; five cells as predicted; not blind); a fibre-frame result at one τ, a frozen piece | main's B1658 on this seat's own code: the factorisation, the Gram spectrum {1, 2, 2, 4}, the null residues at ω, the exact spectrum and the factor-4 bound on the actual residues, the census (5.08, 15.92, 3.13); read-out: with the up quarks' own Higgs only down/leptons is constrained, inside the bound. 0 of 19 |
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
+| W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
 | W7′ (the moves) | OPEN | which moves are in the weave: the swap (GENESIS GM5c) doubles the triplet's group from 24 to 48; the sign (GM5b here, its own move on main) changes nothing on it but adds the − threads. Since W29 (P3) the counts depend on these forks (ℤ₆: −1, 1, 3, 5 under L and R; −1 or 5 with the sign), and W30 and W31 turn on the swap. Relabelled from a second "W7" on 2026-10-08 |
@@ -8609,6 +8664,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W86_RULE.md`: the rule, committed before any check (a disclosed rewrap before any check); `the_chat1_record_checked.py` → `the_chat1_record_checked.json`: W86's independent checks I1–I7 of chat1's record on this seat's own code; `the_chat1_record_checked_posthoc.py` → `the_chat1_record_checked_posthoc.json` (post hoc 1: I6's Lagrange values re-scored with Perron's formula after an instrument error); `the_chat1_record_checked_posthoc2.py` → `the_chat1_record_checked_posthoc2.json` (post hoc 2: the first two A findings re-checked); `the_chat1_record_checked_posthoc3.py` → `the_chat1_record_checked_posthoc3.json` (post hoc 3: the third, from the committed counts); `w86_audit/`: the five read-only auditors' reports and their own checks, with a README. Each script was committed before its one run.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
+- `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
 - `W96_RULE.md`: the rule, committed before the code; `the_joint_law_checked.py` → `the_joint_law_checked.json` and `the_joint_law_checked_run.txt`: W96, main's B1659 joint law on this seat's own frame.
 - `the_arena_check.py` → `the_arena_check.json`: the arena reading's post hoc check (Rademacher's Ψ on 745 threads, the passages through i and ω, the root's distances, the trefoil's monodromy, the Lorenz linking on 69 threads); no rule, no data.
 - `W94_RULE.md`: the rule, committed before the code, with its pre-run correction; `the_symmetric_higgs_relation.py` → `the_symmetric_higgs_relation.json` and `the_symmetric_higgs_relation_run.txt`: W94, the symmetric null Higgs at ω and the down/lepton relation.

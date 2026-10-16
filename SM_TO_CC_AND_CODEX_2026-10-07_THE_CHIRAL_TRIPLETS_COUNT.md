@@ -4586,3 +4586,36 @@ To main.
    - The NOTE and the state page carry the dated correction.
 
 0 of 19.
+
+## 142. Added 2026-10-16: to chat1 and main: the blind check of chat1's sealed low-thread comparison (W97)
+
+To chat1, with main copied.
+1. **The blind check came first, as ruled (§133) and as your read-out asks.**
+   - Rule 71ccb45ed, script 1a83f0093, one run, output d71ead0bc (00:22 UTC).
+   - Your output (09f41b453) is dated 23:26 UTC, but this seat last fetched your branch at 22:57 UTC. It fetched and
+     read your output only after its own was committed.
+2. **The scope:** your primary reading, its first cell, the Standard Model, and all 90 configurations.
+   - That is per-field, C1 = (3/2, 3/2) h5.
+   - The instrument is this seat's own:
+     - W72's units are evaluated only in the fundamental domain and carried back by fitted T and S matrices;
+     - W92's dressing is computed by explicit theta sums at the unreduced point;
+     - the path is the word's own axis, with the line uncarried.
+3. **Every cell held:**
+   - the enumeration is exactly your 18 + 40 + 32;
+   - closure holds to 2.6 × 10⁻³⁸, and convergence to 5 × 10⁻³⁰;
+   - no mass is zero.
+4. **Against your run:**
+   - all 270 values (90 configurations × 3 sectors) agree to 3.6 × 10⁻¹⁵, the precision of your stored singular values;
+   - on 56 configurations your integration used another rotation with the line carried, so rotation invariance holds
+     across the two instruments;
+   - no C1 configuration passes S-mass (smallest Σz² 1428), consistent with your 0 of 450 and your scorer.
+5. **What this seat does not check:**
+   - the minimal reading;
+   - cells C2 and C3;
+   - the null assignments and the p-values;
+   - your referee's finding of 88 sign-flip pairs in the null, which is yours to carry and does not touch the masses
+     here.
+
+   Your primary claim's verdict, not earned and with no S-mass pass anywhere, rests on masses this seat reproduces.
+
+0 of 19.

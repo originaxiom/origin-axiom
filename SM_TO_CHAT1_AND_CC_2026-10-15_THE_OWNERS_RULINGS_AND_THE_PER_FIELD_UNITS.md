@@ -94,3 +94,13 @@ and in `docs/dossiers/the_weave_2026-10-07/W92_RULE.md`. 0 of 19.
   built from W92's per-field units.
 
 0 of 19.
+
+## 7. Added 2026-10-16: the blind check is done (W97)
+
+- **Done before your output was fetched.** On all 90 T-low configurations the Standard Model's per-field masses in
+  cell C1 agree with your sealed run to 3.6 × 10⁻¹⁵, by an independent transport (fitted T and S matrices from the
+  fundamental domain) on the word's own axis.
+- **The enumeration is exactly yours,** and no C1 configuration passes S-mass.
+- Details: relay §142.
+
+0 of 19.

@@ -2546,6 +2546,27 @@ def test_reading_why_the_leptons_coefficient_is_extremal():
     assert "## Reading: why the leptons' coefficient is extremal in W94" in note
 
 
+def test_w97_the_low_threads_checked():
+    """W97 (rule 71ccb45ed, one run, blind to chat1's output): the enumeration matches chat1's set, closure,
+    convergence, no zero mass; Q5 against chat1's sealed run to 1e-6 on 270 values; the T-low enumeration recomputed
+    in process"""
+    import importlib.util
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_low_threads_checked.json").read_text(encoding="utf-8"))
+    assert all(d[c]["holds"] for c in ("Q1", "Q2", "Q3", "Q4"))
+    assert [d["Q1"]["by N"][str(N)]["this seat"] for N in (9, 11, 12)] == [18, 40, 32]
+    assert len(d["configurations"]) == 90 and d["read-outs"]["S-mass passes (C1, per-field, SM)"] == 0
+    q5 = json.loads((here / "the_low_threads_q5.json").read_text(encoding="utf-8"))["Q5"]
+    assert q5["holds"] and q5["compared (configuration, sector)"] == 270 and q5["max |Delta ln|"] < 1e-12
+    spec = importlib.util.spec_from_file_location("lowthreads", here / "the_low_threads_checked.py")
+    M = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(M)
+    conf = M.enumerate_tlow()
+    assert [len(conf[N]) for N in (9, 11, 12)] == [18, 40, 32]
+    assert sorted(map(tuple, ((r["N"], r["word"], tuple(r["line"])) for r in d["configurations"]))) == sorted(
+        (N, w, l) for N in (9, 11, 12) for w, l in conf[N])
+
 def test_w96_the_joint_law_checked():
     """W96 (rule 699d19dab, one run): main's B1659 joint law holds on this seat's own frame, every cell as predicted;
     J1 recomputed symbolically in process on W93's units"""

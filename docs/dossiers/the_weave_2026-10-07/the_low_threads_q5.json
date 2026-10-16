@@ -1,0 +1,3522 @@
+{
+ "Q5": {
+  "chat1 output": "09f41b453",
+  "compared (configuration, sector)": 270,
+  "accepted by chat1": 270,
+  "max |Delta ln|": 3.552713678800501e-15,
+  "chat1's rotation differs from the word's own": 56,
+  "holds": true
+ },
+ "rows": [
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    1,
+    3
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    1,
+    3
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    1,
+    3
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    2,
+    6
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    2,
+    6
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 2.220446049250313e-16
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    2,
+    6
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 2.220446049250313e-16
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 2.220446049250313e-16
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    4,
+    3
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 2.220446049250313e-16
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    4,
+    3
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLRLLRRLRR",
+   "line": [
+    4,
+    3
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    2,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    2,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    2,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    2,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    2,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    2,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    4,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    4,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    4,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    4,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    4,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 9,
+   "word": "LLLLLRRRLRRR",
+   "line": [
+    4,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLLRRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    1,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    1,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    1,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    1,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    1,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    1,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    2,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    2,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    2,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    4,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    4,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    4,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    4,
+    4
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    4,
+    4
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 9,
+   "word": "LLLRLLLRRRRR",
+   "line": [
+    4,
+    4
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLLRRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 1.7763568394002505e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    2,
+    9
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    2,
+    9
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    2,
+    9
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    4,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    4,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 3.552713678800501e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    4,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    5,
+    6
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    5,
+    6
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLLLRLRR",
+   "line": [
+    5,
+    6
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLLRLLLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    2,
+    9
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    2,
+    9
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    2,
+    9
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    4,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    4,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    4,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    5,
+    6
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    5,
+    6
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 1.7763568394002505e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRLRRRLRR",
+   "line": [
+    5,
+    6
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 1.7763568394002505e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    4,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    4,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 3.552713678800501e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    4,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRLLLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLLRLLLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    4,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    4,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    4,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 1.7763568394002505e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLLRRLRRRLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRLLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    2,
+    9
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    2,
+    9
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 1.7763568394002505e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    2,
+    9
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    4,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    4,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    4,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    5,
+    6
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    5,
+    6
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLLRRRRLR",
+   "line": [
+    5,
+    6
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    1,
+    9
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    1,
+    9
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    1,
+    9
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    2,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    2,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 1.7763568394002505e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    2,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    4,
+    3
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    4,
+    3
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    4,
+    3
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLLRLRRRRLLR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLLRLLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    1,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    1,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 1.7763568394002505e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    1,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    2,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    2,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    2,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    3,
+    3
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    3,
+    3
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    3,
+    3
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    4,
+    4
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    4,
+    4
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 3.552713678800501e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    4,
+    4
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    5,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    5,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRLRRRLRRRR",
+   "line": [
+    5,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLRRRLRRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 1.7763568394002505e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    1,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    4,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    4,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 3.552713678800501e-15,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    4,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 11,
+   "word": "LLRRRRLRRRLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRRLRRRLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRLRR",
+   "line": [
+    1,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRLRR",
+   "line": [
+    1,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRLRR",
+   "line": [
+    1,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRLRR",
+   "line": [
+    5,
+    11
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRLRR",
+   "line": [
+    5,
+    11
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRLRR",
+   "line": [
+    5,
+    11
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRLLRLRLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRRLR",
+   "line": [
+    1,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLRLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRRLR",
+   "line": [
+    1,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLRLLRL",
+   "|d ln m1/m3|": 8.881784197001252e-16,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRRLR",
+   "line": [
+    1,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLRLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 2.220446049250313e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRRLR",
+   "line": [
+    5,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLRLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRRLR",
+   "line": [
+    5,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLRLLRL",
+   "|d ln m1/m3|": 8.881784197001252e-16,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRLRRLR",
+   "line": [
+    5,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLLRLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 2.220446049250313e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRRLRLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRRLRLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRRLRLR",
+   "line": [
+    2,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRRLRLR",
+   "line": [
+    2,
+    11
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRRLRLR",
+   "line": [
+    2,
+    11
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLLRRLRLR",
+   "line": [
+    2,
+    11
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLRLRRLRR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLLRLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLRLRRLRR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLLRLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLRLRRLRR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLLRLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLRLRRLRR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLLRLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLRLRRLRR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLLRLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLRLRRLRR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLLRLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLRRLRRLR",
+   "line": [
+    3,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLRLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLRRLRRLR",
+   "line": [
+    3,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLRLLRL",
+   "|d ln m1/m3|": 8.881784197001252e-16,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLRRLRRLR",
+   "line": [
+    3,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLRLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 2.220446049250313e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLRRLRRLR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLRLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRLRRLRRLR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLRLLRL",
+   "|d ln m1/m3|": 8.881784197001252e-16,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRLRRLRRLR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRRLRLLRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 2.220446049250313e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRRLRRLRLR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRRLRRLRLR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRRLRRLRLR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRRLRRLRLR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRRLRRLRLR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRRLRRLRLR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRLRLRLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRLLLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLRLLLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRLLLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLRLLLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRLLLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLRLLLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRLLLRR",
+   "line": [
+    5,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLRLLLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRLLLRR",
+   "line": [
+    5,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLRLLLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRLLLRR",
+   "line": [
+    5,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLLRLLRLLLRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    1,
+    4
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    1,
+    4
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    1,
+    4
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    1,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    4
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    4
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    4
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    10
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    10
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    3,
+    10
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    5,
+    2
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    5,
+    2
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    5,
+    2
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    5,
+    8
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    5,
+    8
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRLLRRRLRR",
+   "line": [
+    5,
+    8
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLRRLLLRLL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    1,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    1,
+    11
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    1,
+    11
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    1,
+    11
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 8.881784197001252e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    5
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    11
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    11
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    3,
+    11
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    5,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLLRRLRRRLLR",
+   "line": [
+    5,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "RRRLLRLLLRRL",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRRRLRRLRRR",
+   "line": [
+    2,
+    1
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRRRLRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRRRLRRLRRR",
+   "line": [
+    2,
+    1
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRRRLRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRRRLRRLRRR",
+   "line": [
+    2,
+    1
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRRRLRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  },
+  {
+   "N": 12,
+   "word": "LLRRRLRRLRRR",
+   "line": [
+    2,
+    7
+   ],
+   "sector": "up",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRRRLRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRRRLRRLRRR",
+   "line": [
+    2,
+    7
+   ],
+   "sector": "down",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRRRLRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 0.0
+  },
+  {
+   "N": 12,
+   "word": "LLRRRLRRLRRR",
+   "line": [
+    2,
+    7
+   ],
+   "sector": "lepton",
+   "accepted by chat1": true,
+   "chat1 rotation": "LLRRRLRRLRRR",
+   "|d ln m1/m3|": 0.0,
+   "|d ln m2/m3|": 4.440892098500626e-16
+  }
+ ]
+}
