@@ -2580,6 +2580,20 @@ def test_w99_the_paper_read():
         assert abs(ratio(mp.mpc(0, 4)) - line) < 0.01
         assert abs(ratio(mp.mpc(0.5, 4)) - line) > 90 and abs(mp.im(ratio(mp.mpc(0.5, 4)))) > 170
 
+def test_w99_the_paper_read_addendum():
+    """W99's addendum (relay §150): T3's dimensions exactly; the residue proposition's displayed sum is not the field's
+    square; the turns of Delta; B1660's best cell reproduced with main's instrument"""
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_paper_read_checks_2.json").read_text(encoding="utf-8"))
+    assert [v["dim M_k(rho)"] for v in d["T3 part 3: k -> dimensions"].values()] == [0, 0, 1, 1, 2, 2, 3, 3]
+    r = d["the residue proposition at tau = 0.13+1.07i, z = 0.21+0.37i"]
+    assert abs(complex(*r["the paper's displayed sum, sum rho_r^2 wp(z - z_r)"]) - (-0.52624 + 3.05874j)) < 1e-4
+    assert r["|the field's square, -[(rho.rho) wp(z) - sum rho_r^2 wp(z_r)]|"] < 1e-35
+    assert d["the turns of rho(s), the lift of Delta"] == ["1/8", "1/8", "5/8"]
+    assert d["the turns of rho(Delta) = rho(s)^-1"] == ["3/8", "7/8", "7/8"]
+    run = (here / "the_paper_read_b1660_repro_run.txt").read_text(encoding="utf-8")
+    assert "chi2 at the stored point: 34.400149432" in run and "below 11.07: 0;" in run
+
 def test_w98_the_traces_by_trace():
     """W98 (rule 065b73f8f, one run): W95 by trace; the cells as recorded; the two groupings agree exactly; the law in
     t; the layers recounted in process"""

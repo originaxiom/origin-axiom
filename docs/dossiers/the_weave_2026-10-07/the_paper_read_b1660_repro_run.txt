@@ -1,0 +1,5 @@
+stored best: bar lines [(0.8888888888888888, 0.2222222222222222)] chi2 34.40014943216423
+built in 1 s
+line (0.8888888888888888, 0.2222222222222222) chi2 at the stored point: 34.40014943217344 residuals [0.489, 0.006, 4.759, -0.225, -3.385]
+fresh multistart (40 starts, seeds unlike main's) on line (0.8888888888888888, 0.2222222222222222): best 34.486; below 11.07: 0; within 5% of 34.40: 2
+total 154 s

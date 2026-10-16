@@ -1,0 +1,56 @@
+{
+ "what": "W99's addendum, the paper read's second checks of P9 draft 3 (main @ 4cc3658a8)",
+ "T3 part 3: k -> dimensions": {
+  "-1/2": {
+   "dim M_w(rho_u)": 1,
+   "dim M_k(rho)": 0
+  },
+  "3/2": {
+   "dim M_w(rho_u)": 1,
+   "dim M_k(rho)": 0
+  },
+  "7/2": {
+   "dim M_w(rho_u)": 2,
+   "dim M_k(rho)": 1
+  },
+  "11/2": {
+   "dim M_w(rho_u)": 2,
+   "dim M_k(rho)": 1
+  },
+  "15/2": {
+   "dim M_w(rho_u)": 3,
+   "dim M_k(rho)": 2
+  },
+  "19/2": {
+   "dim M_w(rho_u)": 3,
+   "dim M_k(rho)": 2
+  },
+  "23/2": {
+   "dim M_w(rho_u)": 4,
+   "dim M_k(rho)": 3
+  },
+  "27/2": {
+   "dim M_w(rho_u)": 4,
+   "dim M_k(rho)": 3
+  }
+ },
+ "the residue proposition at tau = 0.13+1.07i, z = 0.21+0.37i": {
+  "the paper's displayed sum, sum rho_r^2 wp(z - z_r)": [
+   -0.5262361119781495,
+   3.0587413913149746
+  ],
+  "|sum rho_r^2 wp(z_r)|": 2.8698592549372254e-42,
+  "|the field's square, -[(rho.rho) wp(z) - sum rho_r^2 wp(z_r)]|": 3.299526455322502e-41,
+  "wp(1e-8) * 1e-16 (Laurent check)": 1.0
+ },
+ "the turns of rho(s), the lift of Delta": [
+  "1/8",
+  "1/8",
+  "5/8"
+ ],
+ "the turns of rho(Delta) = rho(s)^-1": [
+  "3/8",
+  "7/8",
+  "7/8"
+ ]
+}

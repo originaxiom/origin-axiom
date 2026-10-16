@@ -742,6 +742,8 @@ Under the owner's rulings, the table's rows split into two groups:
   - Six MAJOR defects and twenty MINOR, no BLOCKER. T2's common point and the period phase (ε = +1) hold on every
     thread, with proofs offered.
   - W87's cusp line was this seat's slip (it holds on Re τ = 0 only), corrected by a dated note. 0 of 19.
+  - Completed by §150: the rest of the paper read (thirteen more findings), T3's dimensions and B1660's best cell
+    reproduced, and §149.19's fix withdrawn after chat1's M10. 0 of 19.
 
 ## Questions open with main
 
@@ -766,4 +768,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W99 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§149).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§150).

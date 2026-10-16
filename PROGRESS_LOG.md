@@ -19540,3 +19540,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The faults found are mostly of wording, scope and credit.** One formula was wrong, and it was this seat's own
   earlier slip, now corrected. Two of the paper's results turn out to hold for every thread, not only up to a bound.
   0 of 19.
+
+## 2026-10-16 — the paper read finished
+
+- **At the owner's word, the seat finished reading the rest of the paper,** including its essay and the boxes where it
+  says what the mathematics means for physics. It found a few more overstatements and one stale line.
+- **One of the seat's own suggestions was wrong.** The web seat caught it, and the seat confirmed the catch on its own
+  code. 0 of 19.

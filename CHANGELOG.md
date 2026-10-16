@@ -1,5 +1,16 @@
 # Changelog
 
+## W99's addendum: the paper read completed (relay §150)
+
+- **The rest of the paper.** The readings of structure as physics in §1, §8, §10 and the reading boxes: thirteen
+  more findings, two MAJOR (§1's "One generation is massless" heading; §8's stale line on L, against B1667).
+- **A fix withdrawn.** §149.19's fix for the residue proposition was wrong. chat1's M10 is right, and this seat's code
+  confirms that the displayed sum is not zero.
+- **Numbers.** T3 part 3's dimensions are reproduced exactly. B1660's best cell is reproduced with main's instrument,
+  and 40 fresh starts find nothing below 11.07. The conventions agree across the paper.
+- **Also read:** chat1's evening answers (64460af62).
+- **Surfaces.** The NOTE, the state page, relay §150, the ledger (one row; the relay's row extended), and a test.
+
 ## W99: the paper read (main's S140, at the owner's request: a hostile read of P9 draft 3; relay §149)
 
 - **The read.** §3, §4, §5, §7's one-Higgs census and the price of I-31 to I-34. Every number this seat could recompute

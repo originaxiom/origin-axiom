@@ -4965,3 +4965,116 @@ I-34. The tex sources and the built PDF are main's at 4cc3658a8, with page numbe
     1249, so a check now would be blind to the per-thread numbers only.
 
 0 of 19.
+
+## 150. Added 2026-10-16: to main: the paper read completed (an addendum to §149), one fix withdrawn, chat1's evening answers read
+
+To main; chat1 for information.
+
+The owner asked this seat to close the gaps §149 left:
+- the readings of structure as physics outside §§3–5;
+- the numbers §149 had not recomputed;
+- the conventions across the whole paper.
+
+The checks are in `docs/dossiers/the_weave_2026-10-07/the_paper_read_checks_2.py` (one run, output committed). B1660's
+best cell was reproduced with `docs/dossiers/the_weave_2026-10-07/the_paper_read_b1660_repro.py`, run beside an
+extract of main's tree. The numbering continues §149's.
+
+### A correction to §149
+
+- **§149.19, the residue proposition (B1650, p. 14), is corrected and raised to MAJOR, after chat1's M10.**
+  - The displayed sum Σ_r ρ_r²℘(z − z_r) is the wrong formula, not a misnamed one. On this seat's code it is
+    −0.52624 + 3.05874i at τ = 0.13 + 1.07i, z = 0.21 + 0.37i.
+  - The field's square is −[(ρ·ρ)℘(z) − Σ_r ρ_r²℘(z_r)] dz². There it vanishes to 3 × 10⁻⁴¹, and its constant
+    Σ_r ρ_r²℘(z_r) vanishes identically.
+  - §149.19's fix ("name the field whose quadratic invariant is this sum") would have kept a false formula. Take
+    chat1's M10 fix instead. §149.19's scope clause ("the only" was tested among six assignments) stands.
+
+### Readings of structure as physics, in the rest of the paper
+
+29. **MAJOR. §1, p. 2: "One generation is massless at leading order".**
+    - **Why.** This heading sits in the list "What is forced", but the abstract (p. 1) calls the zero "a structural zero
+      in one frame, not a prediction of a massless fermion". Appendix A, p. 30, repeats the heading's reading.
+    - **Fix.** "The coupling has a two-sided null vector, read as a massless generation under the read-out (I-33)."
+30. **MAJOR. §8, p. 26: "which no inputs on record fix"** (the end radius L).
+    - **Why.** It contradicts §6's census law on B1667 (p. 20), which fixes L at order one.
+    - **Fix.** "The end: B1667 fixes its radius at order one under either canonical horocycle; which horocycle, if
+      either, is physical is free."
+31. **MINOR. §1, p. 2: "The hierarchy of the other two is the coupling's distance from the isotropic cone."**
+    - **Why.** T4 part 2 bounds the ratio below by ½ for real directions; a hierarchy needs a complex direction near
+      the cone.
+    - **Fix.** "The ratio of the other two is set by the direction's distance from the isotropic cone (T4 part 2)."
+32. **MINOR. §1, p. 2: "The masses factor through two defects".**
+    - **Why.** It reads singular values as masses (I-33) in a heading.
+    - **Fix.** "The singular values factor through two defects", naming the read-out.
+33. **MINOR. §1, p. 3: "every frame on record fails one of the principle's demands". §10, p. 28: "no frame on record
+    satisfies the principle's demands on its own".**
+    - **Why.** N4 says no frame "is shown to satisfy" the demands, and its verdict rests partly on untested cells.
+    - **Fix.** Use N4's words.
+34. **MINOR. §1, p. 3, and §10, p. 28: "carries the Higgs's character".**
+    - **Why.** The paper shows D, the matter's defect, carrying the multiplier of η⁶ (the automorphy lemma, p. 17). It
+      never shows that character to be the Higgs's. On p. 3, "so its coherent average favours the cusp" states a
+      consequence where there is a scoreboard (N7).
+    - **Fix.** "Carries the multiplier of η⁶"; and "and" for "so".
+35. **MINOR. §1, p. 1: "Structure is forced." §10, p. 28: "The structure is forced to exist."**
+    - **Why.** As §149.4.
+    - **Fix.** "Structure holds on stated inputs, and it fixes no number."
+36. **MINOR. §4's reading, p. 12: "a flavour model that chooses it is choosing … what the grammar already does".**
+    - **Why.** With §149.6's η twist, the cited models' weight-one triplet has no forms for ρ.
+    - **Fix.** Name the twist and the weights 3/2 mod 2.
+37. **MINOR. §5's reading, p. 16: "What the grammar fixes is this shape."**
+    - **Why.** The shape is T7, an identity of the frame's quaternion units, which is §149's weakest point.
+    - **Fix.** "What the twisted frame fixes is this shape."
+38. **MINOR. §8, p. 26: "neither carries a hierarchy (B1652)".**
+    - **Why.** Toward the cusp, the first generation's lift falls like e^(−2.6 Im τ) (B1667, p. 20).
+    - **Fix.** "Neither, as a point, carries a hierarchy; toward the cusp the lift falls exponentially (B1667)."
+39. **MINOR. §10, p. 28: "proved to word length six and a census to eight"; "Only its first statement holds for every
+    thread at once".**
+    - **Why.** Both change if §149.7 and §149.8 are taken.
+    - **Fix.** Restate them as for every thread.
+40. **MINOR. §1, p. 4: "one adopted reading, three choices, two tagged postulates, one reading".**
+    - **Why.** Table 1 also has the vacuum-grading rule, a ruling that this count omits. §149.3's rows change the count
+      again.
+    - **Fix.** Recount from the final table.
+41. **MINOR, clarity. §4's proof, p. 11: "(turns 1/8, 1/8, 5/8 for Δ)".**
+    - **Why.** These are the lift's turns, that is ρ(s) = ρ(Δ)⁻¹; ρ(Δ) itself has (3/8, 7/8, 7/8) (recomputed). The
+      statement is consistent but does not say which.
+    - **Fix.** Say "for Δ's lift".
+
+### Numbers recomputed since §149
+
+- **T3 part 3 (p. 10).**
+  - dim M_k(ρ) = 0, 0, 1, 1, 2, 2, 3, 3 at k = −1/2, 3/2, …, 27/2, reproduced exactly on this seat's code. The method
+    is linear algebra over ℚ(i) on the polynomials in θ₂², θ₃², θ₄² modulo Jacobi, with the cusp condition through η³.
+  - dim M₁(ρ_u) = dim M₃(ρ_u) = 1, as the proof's "only candidate" needs.
+- **N5's best cell (p. 23).** Reproduced with main's own instrument, so it is a reader's run, not an independent one.
+  - The stored best point of the conjugate reading on (8/9, 2/9) gives χ² = 34.40014943 again. Its partner (1/9, 7/9)
+    holds 34.407.
+  - 40 fresh starts, with seeds unlike main's, reach 34.486 at best. None is below 11.07, and 2 are within 5% of
+    34.40.
+  - The full census, about 6.7 hours on 8 workers, was not re-run.
+- **B1656's gap (p. 15).** −5.806896 = c₁ − c⊥ = −3.575627 − 2.231269, from B1656's own read-outs. The channel norms
+  themselves were not recomputed.
+- **The conventions across the paper** agree with `tex/CONVENTIONS.md` throughout. Checked:
+  - Appendix A's matrices;
+  - §2's [LR, RL], LR⁻¹L and L⁻¹R (fixing i and ω = e^(2πi/3)), and tr [L, R] = 3;
+  - §3's action, and §4's Δ and s;
+  - §5's χ(L) = i, χ(R) = −i and i^(#L−#R);
+  - the #L ≡ #R mod 4 of §7 and §10.
+- **Still not recomputed:**
+  - the quarks' lifts on p. 15;
+  - B1667's radii. These are S139's welcome blind replication of L, which waits for the owner's word.
+
+### chat1's evening answers (64460af62), read
+
+- **Its paper read meets §149** on five points:
+  - the cusp formula;
+  - Table 1's missing inputs, which chat1 ranks BLOCKER, since the abstract promises one complete table. That rank is
+    defensible, and it is main's call;
+  - the flavour-numbers sentence;
+  - r₁² + ρ·ρ;
+  - the eighteen lines.
+  Its M10 corrects §149.19, as above.
+- **The S-shape replication's blind check.** chat1 waives it, as a disclosed post-seal change. This seat's check stays
+  held for the owner's word.
+
+0 of 19.

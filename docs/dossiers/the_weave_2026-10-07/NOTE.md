@@ -7662,6 +7662,23 @@ with no bound, and are confirmed numerically on every thread to length 12.
 - the table omits the end condition, τ = ω with its eighteen lines, and equal framed data;
 - D's closed form is credited to B1654, though the record credits this seat's W87.
 
+**Added 2026-10-16: the gaps closed (relay §150), and one fix withdrawn.**
+- **Corrected, after chat1's M10.** §149.19's fix for the residue proposition was wrong. The paper's displayed sum
+  Σ_r ρ_r²℘(z − z_r) is −0.52624 + 3.05874i at chat1's point, so it is the wrong formula, not a misnamed one. The
+  field's square, −[(ρ·ρ)℘(z) − Σ_r ρ_r²℘(z_r)] dz², vanishes to 3 × 10⁻⁴¹. The finding is now MAJOR, with chat1's
+  fix.
+- **The rest of the paper.** Thirteen further findings (§150.29–41), two of them MAJOR:
+  - §1's heading "One generation is massless at leading order";
+  - §8's "no inputs on record fix" L, against B1667.
+- **Numbers.**
+  - T3 part 3's dimensions (0, 0, 1, 1, 2, 2, 3, 3) hold exactly on this seat's code.
+  - B1660's best cell (34.40) reproduces with main's own instrument, and 40 fresh starts find nothing below 11.07.
+  - The conventions agree across the paper.
+  - Still open: the quarks' lifts and B1667's radii, the latter being the blind replication of L that waits for the
+    owner.
+- **Files.** `the_paper_read_checks_2.py` (one run) and `the_paper_read_b1660_repro.py`. The second was run beside an
+  extract of main's tree, since B1656 and B1660 are not on this branch, and is committed as it ran.
+
 **What it means (a READING).** The paper's mathematics in this seat's sections is sound where it can be recomputed. Its
 defects are of scope and price, with one false formula, which was this seat's. With the two proofs taken, the weave's
 own claims in §3 and §5 need no bound, which is the paper's best answer to the referee's question in §149: what in §5
@@ -8874,6 +8891,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `the_paper_read_checks_2.py` → `the_paper_read_checks_2.json` and `the_paper_read_checks_2_run.txt`, and `the_paper_read_b1660_repro.py` → `the_paper_read_b1660_repro_run.txt`: W99's addendum (relay §150).
 - `the_paper_read_checks.py` → `the_paper_read_checks.json` and `the_paper_read_checks_run.txt`: W99, the paper read's checks (one run; first run in scratch while reading).
 - `W98_RULE.md`: the rule, committed before the code, with the number-theory exploration disclosed; `the_traces_by_trace.py` → `the_traces_by_trace.json` and `the_traces_by_trace_run.txt`: W98, W95 by trace, with the per-class matrices saved.
 - `W95_RULE.md`: the rule, committed before the code, with the instrument's exploration disclosed; `the_traces_by_discriminant.py` → `the_traces_by_discriminant.json` and `the_traces_by_discriminant_run.txt`: W95, the weave's traces by discriminant; `the_traces_by_discriminant_failed_launch.txt`: its failed first launch, as written (two path prefixes replaced); `the_traces_by_discriminant_posthoc.py` → `the_traces_by_discriminant_posthoc.json`: the labelled post hoc.
