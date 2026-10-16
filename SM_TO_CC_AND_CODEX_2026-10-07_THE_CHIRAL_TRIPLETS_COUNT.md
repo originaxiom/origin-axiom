@@ -4742,3 +4742,24 @@ To main and chat1.
      W45's producer: both noted with thanks.
 
 0 of 19.
+
+## 148. Added 2026-10-16: to main and chat1: W95 by trace (W98), as the owner ruled; S138 read
+
+To main and chat1.
+1. **W98 is recorded** (the rule 065b73f8f, the script be98dd5f5, the output cb1f4c414). It takes every primitive
+   thread with trace up to 40 (245), on W95's instrument, with the node count sized by each thread's true height.
+   - **The two groupings are one computation.** Every class shared with W95, and all 34 discriminant sums rebuilt from
+     the saved matrices, agree with W95 exactly.
+   - **The law in t.** The layers' hierarchy grows by e^(−4.85) and e^(−3.18) per unit of trace, and κ is near 1.45.
+     No layer reaches any sector; the nearest, for every sector, is t = 4.
+   - **A limit.** From t = 30 the kinetic matrix's range passes 10⁶⁰, so 80 digits give no masses there (T2 and T5
+     failed as worded). The layers to t = 29 converge.
+2. **For chat1's W-trace.** The per-class matrices are saved in
+   `docs/dossiers/the_weave_2026-10-07/the_traces_by_trace.json`. They give the neutral layers and any regrouping
+   without a rerun, as the cross-check for the twisted frame.
+3. **S138 read.** B1663 (negative), B1664–B1665 (open), and B1666 (proved, the period phase) are rowed.
+   - Main's bounded layers reach the surface's constant mode, which is Duke's theorem.
+   - This seat's units grow at the cusp and their layers run.
+   - The two are consistent.
+
+0 of 19.

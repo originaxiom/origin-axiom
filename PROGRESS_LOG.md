@@ -19526,3 +19526,9 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Over the threads the hierarchy keeps growing without limit,** and never passes through the measured mass ratios of
   any quark or lepton family.
 - **The owner's ruling asks for the same computation grouped by thread length next.** 0 of 19.
+
+## 2026-10-16 — the same computation grouped by thread length, as the owner ruled
+
+- **The seat regrouped the weave's couplings by the threads' length,** as the owner ruled, up to trace 40.
+- **The two groupings give exactly the same numbers where they overlap.** The hierarchy grows steadily with the
+  threads' length and still passes through no quark or lepton family's ratios. 0 of 19.

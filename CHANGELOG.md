@@ -1,5 +1,16 @@
 # Changelog
 
+## W98: W95 by trace (the owner's P-180 ruling; rule 065b73f8f; one run; recorded; relay §148)
+
+- **The quantity.** Every primitive thread with trace up to 40 (245), on W95's instrument, with the node count sized by
+  each thread's true height. A WEAVE result in a supplied frame.
+- **The cells.** T1, T3, T4 and T6 held. T2 and T5 failed as worded: from t = 30 the kinetic matrix's range passes
+  80 digits.
+- **The result.** The by-trace and by-discriminant groupings agree exactly. The hierarchy grows per unit of trace, with
+  κ near 1.45, and reaches no sector.
+- **Also read:** main's B1663–B1666 and S138 (the five steps).
+- **Surfaces.** The NOTE, the state page, relay §148, the ledger (two rows; the relay's row extended), and a test.
+
 ## W95: the weave's traces by discriminant (rule 6bae47053; one run; recorded; relay §147)
 
 - **The quantity.** The surface frame's neutral couplings over every thread with D ≤ 300 (282) and every CM point to

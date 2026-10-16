@@ -2546,6 +2546,28 @@ def test_reading_why_the_leptons_coefficient_is_extremal():
     assert "## Reading: why the leptons' coefficient is extremal in W94" in note
 
 
+def test_w98_the_traces_by_trace():
+    """W98 (rule 065b73f8f, one run): W95 by trace; the cells as recorded; the two groupings agree exactly; the law in
+    t; the layers recounted in process"""
+    import importlib.util
+    import math
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_traces_by_trace.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"T1": True, "T2": False, "T3": True, "T4": True, "T5": False, "T6": True}
+    assert d["T1"]["classes"] == 245 and d["T1"]["short classes"] == d["T1"]["Lyndon words"] == 159
+    assert d["T3"]["discriminant sums rebuilt"] == 34 and d["T3"]["largest rebuilt difference"] < 1e-12
+    assert sorted(int(t) for t, r in d["layers"].items() if r.get("K singular")) == list(range(30, 41))
+    s1, s2 = d["T4"]["slopes against t, 20 <= t <= 40"]
+    assert s1 < s2 < 0 and math.isclose(s1, -4.8468, abs_tol=1e-3)
+    spec = importlib.util.spec_from_file_location("traces98", here / "the_traces_by_trace.py")
+    M = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(M)
+    M.TMAX = 12
+    small = M.layer_classes()
+    assert sorted({c["t"] for c in small}) == list(range(3, 13))
+    assert sum(1 for c in d["classes"] if c["t"] <= 12) == len(small)
+
 def test_w95_the_traces_by_discriminant():
     """W95 (rule 6bae47053, one run; a failed first launch preserved): the weave's traces by discriminant in the surface
     frame's neutral couplings; the cells as recorded, the post hoc rank law, the law in D; the threads recomputed in

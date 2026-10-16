@@ -733,6 +733,10 @@ Under the owner's rulings, the table's rows split into two groups:
     W72 could define none.
   - A point carries one massive generation and k points min(3, k). At ω and i the kinetic matrix has rank one.
   - The hierarchy grows without bound in √D, with κ near 1.45, and passes no sector's data. 0 of 19.
+- **W98, W95 by trace** (the owner's P-180 ruling; the rule first; one run; four cells as predicted and two failed as
+  worded at the instrument's precision limit; relay §148).
+  - The by-trace and by-discriminant groupings agree exactly.
+  - The layers' hierarchy grows by e^(−4.85) and e^(−3.18) per unit of trace, and no layer reaches any sector. 0 of 19.
 
 ## Questions open with main
 
@@ -754,7 +758,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W97 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W98 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§147).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§148).

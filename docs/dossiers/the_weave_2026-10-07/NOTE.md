@@ -321,6 +321,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   every CM point to −300, the surface frame's neutral couplings give three masses on every thread and min(3, k) from
   k points, and at ω and i the kinetic matrix has rank one. The hierarchy grows without bound in √D (κ near 1.45) and
   passes no sector's data. A WEAVE result in a supplied frame.
+- W98 (W95 by trace, the owner's P-180 ruling; rule first; one run; T1, T3, T4 and T6 as predicted, T2 and T5 failed
+  as worded at the instrument's precision limit, t ≥ 30): every primitive thread with trace up to 40 (245). The two
+  groupings are one computation: every shared class and all 34 rebuilt discriminant sums agree with W95 exactly. The
+  layers' hierarchy grows by e^(−4.85) and e^(−3.18) per unit of trace, κ near 1.45, and no layer reaches any sector.
 
 ## The setting
 
@@ -7609,6 +7613,61 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W98. W95 by trace (the owner's P-180 ruling): every primitive thread with trace up to 40; the two groupings agree exactly, and the hierarchy grows per unit of trace (`the_traces_by_trace.py`; `W98_RULE.md`)
+
+**Why.** The owner's ruling (P-180, relayed in main's S137): W95 by trace, on primitive threads of one length, with
+the discriminant sums derived as the cross-check, so that this seat and chat1's W-trace compare like with like.
+
+**The order.**
+- The rule first (065b73f8f), with its number-theory exploration disclosed.
+  - The height formula, the least of a, c and b − a − c over the Zagier cycle, agrees with W95's post hoc brute force
+    on all 282 classes.
+  - 245 classes were sized.
+- The script (be98dd5f5) imports W95's instrument. It was dry-run with fake units only.
+- One run (51 minutes), its output committed unread (cb1f4c414).
+
+**Weave or thread.** A WEAVE result in a supplied frame (W95's: the surface frame, C1, neutral, given Λ and the cusp's
+unit, GENESIS FK10). It takes every primitive hyperbolic class of each trace 3 ≤ t ≤ 40, none hand-picked.
+
+**The cells (four as predicted, two failed as worded).**
+- **T1 (as predicted).** 245 classes, each of its layer's trace. The 159 classes with words of length ≤ 12 are exactly
+  the 159 Lyndon words of length ≤ 12 with both letters and trace ≤ 40.
+- **T2 (failed as worded).**
+  - From t = 30 on, the highest threads rise to H ≥ 15. There the kinetic matrix's eigenvalues span more than 10⁶⁰,
+    the routine's singularity threshold, so 22 classes and the layers 30–40 have no masses.
+  - Below that, the convergence degrades with t: from 10⁻⁴¹ at t = 18 to 10⁻¹⁵ at t = 29. Every layer up to 29
+    converges.
+  - This is the instrument's precision limit at 80 digits, not a singular matrix.
+- **T3 (as predicted).** The two groupings are one computation.
+  - Every class shared with W95 agrees exactly, including the 41 that W95 had under-sized.
+  - All 34 discriminant sums rebuilt from the saved matrices agree with W95's D-traces exactly.
+- **T4 (as predicted).** Over the layers with masses (20 ≤ t ≤ 29), the slopes against t are −4.85 for ln(m₁/m₃)
+  and −3.18 for ln(m₂/m₃).
+- **T5 (failed as worded).** The layer t = 40 has no masses (T2). κ over 22 ≤ t ≤ 29 lies between 1.40 and 1.50, and
+  is 1.47 at t = 29.
+- **T6 (as predicted).** No layer reaches W66's allowance of any sector.
+
+**The read-outs.**
+- **The first layers.**
+  - t = 3, the root: (0.0096, 0.369).
+  - t = 4, LLR and LRR: ln ratios (−8.01, −5.69).
+  - t = 5: (−12.70, −9.79).
+  - t = 10: (−37.3, −26.3).
+  - t = 25: (−109.7, −73.8).
+- **The nearest layer** to every sector is t = 4, with Σz² of 373 (up), 238 (down) and 819 (leptons).
+
+**What it means (a READING).**
+- **The ruled grouping confirms W95.** The neutral weave's hierarchy grows without bound with the threads' length, about
+  e^(−4.85t) and e^(−3.18t), with κ near 1.45. It reaches no sector, so its shape is wrong for the data, as W95 found by
+  discriminant.
+- **The two seats can now compare like with like.** chat1's W-trace, by trace in the twisted frame, has this seat's
+  neutral layers and their discriminant sums as its cross-check.
+- **It differs from main's B1666,** whose layers of a bounded fibre-frame quantity reach the modular surface's constant
+  mode (〈f〉 → 0.315). Duke's theorem holds there. The surface frame's units grow at the cusp, and their layers run.
+  Both are what the theorem predicts for their kind of function.
+
+0 of 19.
+
 ## W95. The weave's traces by discriminant (the fresh look's N2): every thread with D ≤ 300 and every CM point to −300, in the surface frame's neutral couplings; the hierarchy grows without bound in √D and passes no sector's data (`the_traces_by_discriminant.py`, post hoc `the_traces_by_discriminant_posthoc.py`; `W95_RULE.md`)
 
 **Why.** The owner's go (relay §145). Every value on the record had been read at one point or along one thread. W95
@@ -8677,6 +8736,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W98 | COMPUTED (the rule first; one run; T1, T3, T4, T6 as predicted; T2, T5 failed as worded at the instrument's precision limit, t ≥ 30); a WEAVE result in a supplied frame | W95 by trace: every primitive thread with trace ≤ 40 (245); the two groupings agree exactly (every shared class, 34 rebuilt discriminant sums); slopes −4.85 and −3.18 per unit t; κ 1.40–1.50; no layer within any sector's allowance |
 | W95 | COMPUTED (the rule first; a failed first launch preserved; one run; V1–V3, V7 as predicted; V4–V6, V8 failed as worded; a labelled post hoc); a WEAVE result in a supplied frame | the surface frame's neutral couplings traced by discriminant over every thread with D ≤ 300 (282) and every CM point to −300: rank one at a point; the rank law min(3, n_D) (post hoc, 148 of 148); K of rank one at ω and i; slopes −4.80 and −3.11 per √D; κ near 1.45; no D within any sector's allowance |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
 | W6″ | READING (group theory only) | the weave's S₄ with the golden 3-cycle and the swap fixes the TM1 column |
@@ -8757,6 +8817,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `W98_RULE.md`: the rule, committed before the code, with the number-theory exploration disclosed; `the_traces_by_trace.py` → `the_traces_by_trace.json` and `the_traces_by_trace_run.txt`: W98, W95 by trace, with the per-class matrices saved.
 - `W95_RULE.md`: the rule, committed before the code, with the instrument's exploration disclosed; `the_traces_by_discriminant.py` → `the_traces_by_discriminant.json` and `the_traces_by_discriminant_run.txt`: W95, the weave's traces by discriminant; `the_traces_by_discriminant_failed_launch.txt`: its failed first launch, as written (two path prefixes replaced); `the_traces_by_discriminant_posthoc.py` → `the_traces_by_discriminant_posthoc.json`: the labelled post hoc.
 - `W96_RULE.md`: the rule, committed before the code; `the_joint_law_checked.py` → `the_joint_law_checked.json` and `the_joint_law_checked_run.txt`: W96, main's B1659 joint law on this seat's own frame.
 - `the_arena_check.py` → `the_arena_check.json`: the arena reading's post hoc check (Rademacher's Ψ on 745 threads, the passages through i and ω, the root's distances, the trefoil's monodromy, the Lorenz linking on 69 threads); no rule, no data.
