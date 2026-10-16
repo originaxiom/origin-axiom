@@ -1,0 +1,46 @@
+PASS actual all nine velocities and full source reality
+PASS bare coefficient conjugation fails actual scalar reality
+PASS both computational signs preserved and Lorentz exchanged
+PASS all16source components reconstructed
+PASS complete248positive root basis not a small substitute
+PASS every actual E8 generator and parity acts faithfully
+PASS complete compact conjugation and all gauge partners
+PASS complete3968actual Majorana metric and normal current
+PASS full interacting operator reality and Grassmann antisymmetry
+PASS all j and momentum pair by actual coefficient covariance
+PASS full actual moving planes not rank matching (1, 1, 1, 0)
+PASS full actual moving planes not rank matching (1, 1, -1, 0)
+PASS full actual moving planes not rank matching (1, -1, 1, 0)
+PASS full actual moving planes not rank matching (1, -1, -1, 0)
+PASS full actual moving planes not rank matching (2, -1, 1, -1)
+PASS full actual moving planes not rank matching (2, -1, 1, 1)
+PASS full actual moving planes not rank matching (2, -1, -1, -1)
+PASS full actual moving planes not rank matching (2, -1, -1, 1)
+PASS whole actual trace Green metric and reality 1
+PASS induced trace reality constant for all x 1
+PASS full real fixed frame all x 1
+PASS single angular partner not mistaken for full real field 1
+PASS all actual external velocities preserved on whole trace 1
+PASS entire actual on shell frame not leading asymptotic
+PASS full moving frame work equals true solution work
+PASS full bulk density and both end identity
+PASS actual real antisymmetric fermion work 1
+PASS full exterior polynomial methods agree 1
+PASS actual Grassmann dagger is Hermitian 1
+PASS full work rank by exact inverse support not eigenvalues
+PASS commuting and trace only false negative controls
+PASS dagger without odd reversal rejected
+PASS signed bulk cancels boundary on shell not work erased
+PASS whole actual trace Green metric and reality -1
+PASS induced trace reality constant for all x -1
+PASS full real fixed frame all x -1
+PASS single angular partner not mistaken for full real field -1
+PASS all actual external velocities preserved on whole trace -1
+PASS opposite family work zero not selection
+PASS actual real antisymmetric fermion work -1
+PASS full exterior polynomial methods agree -1
+PASS actual Grassmann dagger is Hermitian -1
+PASS opposite real polynomial zero retained
+PASS graded Majorana field variation and actual half factor
+PASS wrong boundary sign and doubled Majorana factor fail
+PASS known two generator real Grassmann control

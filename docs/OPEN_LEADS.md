@@ -7125,3 +7125,43 @@ command verified. Governance26PASS/four inherited FAIL33.174987s,
 first3failure lines byte-identical;42stale/169open, review603. Full
 VALIDATION/raw states/streams/receipts. No waived debt, full-suite/
 nonauthor/main/recipient/physical acceptance or goal shrink.
+
+## October16 actual real fermion work and signed balance
+
+PB-SURFACE-REAL-FIRST-ORDER-WORK POSITIVE in the SPECIFIC supplied
+n=0rho=0amplitude family: "The preceding nonzero complex boundary-work
+matrix survives the ACTUAL full source/E8 Majorana condition and genuine
+Grassmann contraction." Source surface_real_fermion_work_2026_10_16/
+FINDINGS.md, PROOF1-3 and LIVE full-source/reality/real-polynomial tests.
+Both actual1984column real traces, all16source/248coefficients/conjugates/
+W/external copies retained. Specific earlier UNVERIFIED contraction
+discharged; arbitrary perturbation/curved/full boundary duties remain.
+Ranks464and232monomials are NOT particles or physical generations.
+
+PB-SURFACE-FIELD-DEPENDENT-RESPONSE refined by same-action balance:
+"The signed bulk-background contribution balances it in the fermionic
+quadratic on-shell first variation. It is therefore neither erased
+by reality nor an unmatched force requiring an invented source term."
+Same FINDINGS/PROOF4 and graded half-factor/bulk-end LIVE locks. This
+does not eliminate general local fermion bilinear sources/backreaction
+or prove the full bosonic background stationary. Sigma-minus zero on
+this family remains unselected, not an all-parameter no-interaction law.
+
+PB-SURFACE-COUPLED-VARIATIONAL-ENSEMBLE OPEN: specify SAME-action fixed
+and varied boson/source/gauge/fermion boundary data and allowed joint
+tangents. Keep field-dependent response, Majorana/Grassmann signs and
+BOTH oriented ends in the actual full first variation, rather than
+freeze the plane or cancel an isolated term with a new invented source.
+Derive Hessian/auxiliary/source/bilinear-current/SUSY boundary closure.
+
+Protected kernel/local gauge/BPS/all-angular MODEWISE positives remain.
+ACTION-GENERATED-RESPONSE, CURVED-CAUCHY-TRANSPORT, JOINT-FREQUENCY,
+EXTERIOR-TRANSVERSALITY, VARYING-TUBE-CUSP, CUTOFF-LIMIT/FINITE-CUT-POLES,
+global stationary charged spectrum/norms/vertices/anomalies and
+FINAL-PARTNER-ROSTER remain OPEN. Foundational physical SM/three/
+parameters/gravity ACTIVE; other-parent positives not transplanted.
+
+At published36e67bc61 both46/46 with full identical records,223pins/
+tree/index unchanged. First attempt clean. SM a54ed6e5f reads older
+fourteen packets without reruns, READ only; no independent/main/
+recipient/full-suite or physical acceptance. No universal absence claim.

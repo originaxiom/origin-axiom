@@ -43,3 +43,15 @@ partners. Preserve other-parent conditional-three/mass results without
 transplanting counts. Foundational selection of parent/action/gauge/
 boundary law, full SM/three/observed parameters and gravity remain
 ACTIVE, not discharged by a universal local ODE construction.
+
+## October16 real work test and interpretation update
+
+surface_real_fermion_work_2026_10_16 now verifies the actual full
+Majorana/Grassmann contraction,46/46each, not just complex rank. The
+nonzero Hermitian term survives, but signed bulk/background and both-
+end contributions balance in the fermionic quadratic on-shell variation.
+Do not infer an unmatched force or add a bosonic source solely from
+the isolated boundary work. Complete coupled Hessian/auxiliary/source/
+SUSY variations and the fixed/varied data still require derivation.
+This dated update supersedes the specific UNVERIFIED real-contraction
+task above, not the wider physical/global/foundational obligations.

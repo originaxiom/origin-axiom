@@ -20382,3 +20382,35 @@ including both W signs/conjugates/external degeneracies. Nonzero complex
 polarized matrix is not by itself physical fermion work. Test before
 same-action boson/auxiliary/source/SUSY boundary join; UNVERIFIED, not
 a negative or assumed positive. Full physical SM/three/gravity ACTIVE.
+
+## 2026-10-16 — actual Majorana Grassmann boundary work and bulk balance
+
+Pre-execution seal36e67bc61 published/server-confirmed before imports.
+Native46/46 in82.065661s, reference46/46 in79.408669s; complete
+1,245,152byte outputs identical SHA75e020b31e61b0de3cb0383d030cb49042a14bc66b44b07b0cee0a665fcb6932.
+223pins/14,520tracked/index unchanged; first attempt clean. Complete
+source/gauge/real maps and every work/Grassmann coefficient preserved.
+
+Actual full16source/248E8 mapping, all conjugates/W/external copies,
+both1984column real traces and true full radial profile verified. The
+specific former UNVERIFIED real-work contraction is POSITIVE: nonzero
+Hermitian Majorana Grassmann polynomial,232monomials/exact rank464,
+not physical particles/families. Commuting/trace-only/wrong dagger
+controls fail. Sigma-minus remains0on this amplitude family, unselected.
+
+Actual Majorana1/2and graded first variation retain both ends and the
+bulk-background term. They balance in the TOTAL fermionic quadratic
+on-shell variation, not an unmatched force or full coupled background
+stationarity. This refines the earlier work-reading; general local
+bilinear sources/backreaction/quantum phase remain distinct. Seven
+sublemmas LAW_MAP, all leads/identifications/current surfaces/relay
+banked. Earlier all-angular NEXT_TEST has a dated scope update, no
+scientific seal edited. No new B-dir/kill/view population.
+
+Next SAME-action fixed/varied data/joint tangents, full Hessian/auxiliary/
+source/Grassmann-current/SUSY curved boundary law and joint-frequency/
+exterior/cusp/singular/global charged spectrum/whole partner roster.
+Foundational physical SM/three/parameters/gravity ACTIVE. SM a54ed6e5f
+acknowledges fourteen older packets READ without reruns, not acceptance.
+No parent/count/mass splice, full-suite/nonauthor/main/recipient/physical
+completion or inherited-debt waiver. LIVE/governance follows banking.

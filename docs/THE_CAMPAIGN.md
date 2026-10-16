@@ -1,5 +1,20 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October16 REAL fermion work/balance:46/46each at published36e67bc61,
+223pins/tree/index unchanged. Complete actual16source/248E8 real maps,
+both trace laws/W/conjugates/external copies. Nonzero Hermitian
+Grassmann boundary term survives; commuting/trace-only tests would
+miss it. Signed bulk/background and BOTH ends balance in the fermionic
+quadratic on-shell variation: not an unmatched force or full coupled
+stationarity. Sigma-minus zero on this family is not selection; ranks
+are boundary coefficients, not particles/generations. NEXT SAME-action
+fixed/varied data/joint tangents and complete curved boson/auxiliary/
+source/SUSY boundary, then global charged theory/whole partner roster.
+Foundational physical SM/three/parameters/gravity ACTIVE. Packet
+surface_real_fermion_work_2026_10_16 FINDINGS/PROOF/NEXT_TEST. LIVE/
+governance pending; no independent/main/full-suite/physical acceptance.
+
+
 October16 ALL-angular local response/work:375/375each at published
 repair5138a9302,212pins/tree/index unchanged. Symbolic BOTH n signs/
 all28types yield compatible regular resonance, convergent series/tails

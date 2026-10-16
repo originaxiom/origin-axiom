@@ -833,3 +833,17 @@ fermion work. Actual source/root Majorana and Grassmann contraction
 across conjugate/W/external sectors is a registered UNVERIFIED next
 test, before the full bosonic/source/SUSY boundary join. Equal ranks
 or complex nonvanishing alone cannot discharge that action map.
+
+## October16 actual real fermionic work map
+
+surface_real_fermion_work_2026_10_16 now exhibits the actual full
+source/E8 real fixed-frame and genuine Grassmann contraction, not
+equal dimensions or a bare complex matrix. The specific old UNVERIFIED
+contraction is positive. Hermitian nonzero work is a boundary part of
+the SAME fermionic quadratic action; signed bulk/end balance means it
+is not by itself an unmatched force or a proof of full coupled
+stationarity. Coefficient ranks/Grassmann monomials are not particles/
+generations or measured couplings. Sigma-minus zero on one parameter
+family is not foundational boundary selection. Full common curved/
+bosonic/source/SUSY theory, global spectrum and OA-to-SM/three/gravity
+identifications remain unearned; no shared I-status is promoted.
