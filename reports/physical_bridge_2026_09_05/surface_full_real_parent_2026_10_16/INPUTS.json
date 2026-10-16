@@ -47,6 +47,10 @@
       "sha256": "076d448fcd890e6cc971d4a37e6219315a5baf62427b82b95bb7be669f7eba51"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/CLIFFORD_DIAGNOSTIC_DESIGN.md",
+      "sha256": "b8c492d0831a2e53cb04885c513c2d9833c6e7ee237f6231151c4b41b2a89e1d"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/DESIGN.md",
       "sha256": "8a97ab696e3a6b73de03c353d414f3d6f1fe32ece86a3a431c260b546ec25faf"
     },
@@ -63,12 +67,16 @@
       "sha256": "f373a094e9aa6167eac49ed7621838a0e44ec4f4f4265509aaa914cbcf8e241d"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/clifford_diagnostic.py",
+      "sha256": "aa1a08ee33c8b6ef37a20f329041e7b3d1e4c851394af672597cd2dfe35f5a1f"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/execute.py",
       "sha256": "8a83c4b6ab26194c36692d46439314f322a5062bae448da4d4521bd742967a34"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/make_seal.rb",
-      "sha256": "83d56f549bd2af91517acd9cf30d6abb882cb6d78c4b9376e40fc28aa00d70f3"
+      "sha256": "bd5699445c288a67f48e3cfe61a96f90abf53aa24def99f7072054dc7984b906"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/probe.py",
@@ -79,12 +87,16 @@
       "sha256": "927f4657587f1d3620c770f9be3cc0ab878ce8c4b48c5b5156f43c8731b90378"
     },
     {
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/results/gauge_frame_run/probe.stdout.log",
+      "sha256": "cc5b961ae78eb458e031d93f993e2899ee0e91d82f187dc68e2a5fe816f60143"
+    },
+    {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/superfield.py",
       "sha256": "713078de45fb85e76f7574fce87903c4c57b5b6cee8e26c6b7ae856821003fb7"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/validate.rb",
-      "sha256": "1ab73cede3e84c20f28c1e12e3cce8c6303ce87158f8102557ad3cfb65308892"
+      "sha256": "ed83b64547b30283c859eb5ce24bd32259deb38fcc834902724d3d1cb65c39a0"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/PROOF.md",

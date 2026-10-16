@@ -11,6 +11,7 @@ python=ENV.fetch('OA_TRANSPORT_PYTHON','python3');deps=ENV.fetch('OA_TRANSPORT_D
 command=case mode
 when 'regression' then [python,'-B','-m','pytest','-q','-p','no:cacheprovider','tests/test_physical_bridge_surface_full_real_parent.py']
 when 'governance' then [python,'-B','scripts/gates/gates.py']
+when 'diagnostic' then [python,'-B',Pathname.new(__dir__).join('clifford_diagnostic.py').relative_path_from(root).to_s]
 else raise 'Unrecognized capture mode'
 end
 pins=JSON.parse(File.read(Pathname.new(__dir__).join('INPUTS.json'))).fetch('source_files')
