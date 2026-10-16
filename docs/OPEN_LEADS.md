@@ -6888,3 +6888,12 @@ different-parent R93 positive not spliced. NEXT_TEST preserves these
 and the existing spectral/charged-local alternatives. Terms searched
 'Bessel Cauchy puncture radial transfer':23broad hits/0settled at3/5,
 code/body and all11freshheads checked, no universal absence claim.
+
+Terminal response validation at published8f9ba722d:12LIVE and16prior
+angular/routing/face locks PASS,22distinct/six overlaps. All166new/
+155prior pins and13,939tracked/index unchanged. Governance26/4inherited,
+first3failure lines identical;42stale/165open, review589, no waiver.
+PB-SURFACE-INTERACTING-CAUCHY-TRANSFER starts by verifying the ACTUAL
+source/MW/critical-sign dictionary against the earned Noether R map,
+not by equating old labels. Analytic/independent/full-suite and physical
+SM/three/gravity obligations remain. Full packet VALIDATION retained.

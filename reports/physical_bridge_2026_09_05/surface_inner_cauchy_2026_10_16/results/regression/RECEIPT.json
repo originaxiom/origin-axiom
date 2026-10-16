@@ -1,0 +1,31 @@
+{
+  "mode": "regression",
+  "capture_leaf": "regression",
+  "command": [
+    "PYTHON3.12.14",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_surface_inner_cauchy.py",
+    "tests/test_physical_bridge_surface_angular_response.py"
+  ],
+  "exit_code": 0,
+  "seconds": 119.27119999999559,
+  "before_completed_before_launch": true,
+  "state_unchanged": true,
+  "tracked_files": 13939,
+  "source_pins": 166,
+  "tree_sha256": "3ff41d3f928f24d56086e0197da706148b904a48ed245f13efa97718151d7407",
+  "index_sha256": "bb8517f18527a8718cef1ad7cb07f011f2c8fe12e6cc37de91d545c47a58dee1",
+  "stdout": {
+    "bytes": 111,
+    "sha256": "7eae4599e105a8c70ae3d971af6e13ed17ba6757515f3555cb527368f4a91f52"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

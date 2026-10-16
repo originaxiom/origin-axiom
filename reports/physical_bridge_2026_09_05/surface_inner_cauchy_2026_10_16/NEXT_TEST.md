@@ -8,6 +8,9 @@ angle. Do not promote it to a complete curved interacting boundary law.
 ## Transfer the actual dressed interacting domain
 
 First reread surface_interacting_domain_2026_10_15 PROOF/code to its end.
+Before transport, verify its actual MW/source-frame map and critical-sign
+dictionary against the now-earned source Noether R and complementary
+Weyl map. Do not reuse an old sign label as an identification.
 Its nonnormal root Higgs, bounded backreacted connection, even log/angular
 dressing, unchanged leading Green form and fixed-fibre exhaustion are
 existing positives. The r^-1/2 Higgs mixes parity/angular sectors: the

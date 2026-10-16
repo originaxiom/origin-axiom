@@ -34,6 +34,9 @@ trace proof are credited, personally read to their ends, not replaced.
 The source/twist dictionary is the preceding full-real/real-twist work;
 prior angular and silver/weave Cauchy methods are credited. No spectrum
 or generic novelty claim is imported from a different physical parent.
+The earlier C6 coefficient Lambda is not identified with Noether R_s.
+This realizes the prescribed-trace normal mechanism in the actual source
+with the explicitly chosen Q_sigma, not an old C6 particle/index transfer.
 The Bessel inputs are the primary [definition](https://dlmf.nist.gov/10.25),
 [recurrences](https://dlmf.nist.gov/10.29) and
 [small-argument limit](https://dlmf.nist.gov/10.30), read2026-10-16.
@@ -57,9 +60,9 @@ exp(-r A). Its exact finite-radius projector is
  P0=(I-tanh(2epsilon rho) A/rho+sech(2epsilon rho) sigma R_s B)/2.
 
 At rho=0 it is Q_sigma, with the physical L2 half-pole retained.
-Neither sign is selected by this calculation. The old pointwise
-projector is therefore the singular coefficient condition, not a law
-to impose unchanged on every finite-radius angular mode.
+Neither sign is selected by this calculation. In this model Q_sigma
+specifies the singular coefficient, not a law to impose unchanged on
+every finite-radius angular mode.
 
 For noncritical a=abs(m)>=1/2 the whole first-order regular branch is
 sqrt(r)[I_(a-1/2)(rho r)w-I_(a+1/2)(rho r)(A/rho)w],
@@ -136,3 +139,16 @@ Fixed based g2+u1 is not SM; another parent's SM positive is not spliced
 in. ONE global stationary interacting charged theory, normalized modes
 and vertices, anomalies, foundational gauge/three selection, observed
 parameters and gravity remain ultimate obligations. Full goal ACTIVE.
+
+## Terminal selected validation
+
+At published8f9ba722d,12LIVE selected tests PASS117.57s;16angular/routing/
+face-metadata tests PASS73.66s, six overlaps,22distinct selected tests.
+Both complete52-check producers and both41-check antecedents rerun.
+All13,939tracked/index identities match across three before/after
+captures;166new/155antecedent pins unchanged. Governance26PASS/four
+inherited FAIL36.399473s, first3failure lines byte-identical to prior;
+42stale/165open relay debt, review589. No waiver/full-suite/independent
+or physical acceptance. VALIDATION gives raw paths and the resolved
+generic-log-ignore artifact omission. Post-check metadata not back-
+certified;166scientific pins separately rechecked unchanged.

@@ -41,3 +41,14 @@ this positive and its scope in further negatives; no old index/gap or
 particle count transfers. Full global stationary charged theory and
 foundational physical SM/three/gravity goal remain ACTIVE. No receiver/
 main/full-suite/independent acceptance; selected validation follows.
+
+Terminal at published8f9ba722d:12LIVE selected PASS117.57s,16prior
+angular/routing/face locks PASS73.66s,22distinct with six overlaps.
+166new/155prior pins and13,939tracked/index unchanged; full outputs
+and before/after identities captured. Governance26PASS/four inherited
+FAIL36.399473s, first3failure lines identical to prior;42stale/165open,
+review589. No waiver/independent/full-suite/main acceptance. All four
+raw first-run logs explicitly preserved despite generic ignore rule.
+VALIDATION details all scopes. Next first verify the earlier interacting
+MW/source/critical-sign dictionary, then transfer its ACTUAL dressed
+traces; a matching old R or epsilon label is not that map.
