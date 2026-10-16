@@ -42,3 +42,14 @@ Then SAME bosonic/auxiliary/source/SUSY curved boundary and global
 stationary charged spectrum/norms/vertices/anomalies. Foundational
 physical SM/three/gravity ACTIVE; no main/recipient/nonauthor analytic/
 banking/full-suite/physical acceptance. No old count/gap transferred.
+
+Terminal at published0c53da525:12selected LIVE PASS39.20s, capture
+40.779775s; both80-check new/48-check antecedents rerun, actual two-file
+selection checked.188pins/14,008tracked/index unchanged. Governance
+26PASS/four inherited FAIL33.323261s, first3failure lines identical;
+42stale/167open, review595. No waiver/full-suite/nonauthor/main/physical
+acceptance. Full VALIDATION/raw snapshots/receipts retained.
+The final physical spectrum must account for the gaugino/other omitted
+fields and any breaking/lifting in THIS model. Existing weave mass-map
+and silver conditional-three-with-extras reports reread, not imported;
+no global claim that the programme lacks those results. NEXT_TEST.

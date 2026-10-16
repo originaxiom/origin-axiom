@@ -45,3 +45,16 @@ equivariance/holonomy admission; local centralizers need not survive.
 Then compute ONE stationary charged theory's whole normalized spectrum,
 vertices and anomalies, with foundational gauge/three/parameter/gravity
 selection. Ultimate full generated physical SM/three/gravity ACTIVE.
+
+## Account for the final field roster
+
+The local N=1 ansatz is not the complete Standard Model field roster.
+Compute the fate of gaugino/adjoint/other omitted modes in the SAME
+global operator, and any required supersymmetry breaking/lifting, rather
+than discard them. Preserve and inspect existing work first: the complete
+weave_physical_mass_2026_10_08 PROOF and silver_adjoint_phase_2026_10_11/
+silver_cover_domain_2026_10_12 FINDINGS have been reread. They contain
+actual mass maps and a conditional-three model WITH extra fields, on
+different parents/domains; those results are not imported here. No
+new absence claim. Full action/domain/normalization maps are required
+before using any existing lifting/selection mechanism in this theory.

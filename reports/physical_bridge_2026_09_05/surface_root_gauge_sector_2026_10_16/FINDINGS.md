@@ -125,3 +125,20 @@ Identification24rows/9UNEARNED at baseline9; five controls pass with
 known bare-assertion blind spot. No shared I-status promoted. Selected
 LIVE/governance validation follows; no full-suite/nonauthor analytic/
 banking/recipient/main or physical SM acceptance claimed.
+
+## Terminal live validation
+
+At published0c53da525,12selected LIVE PASS39.20s (capture40.779775s);
+both80-check new and48-check antecedent producers rerun. The actual
+capture selection was checked, not inferred from wrapper source.188pins/
+14,008tracked/index unchanged. Governance26PASS/four inherited FAIL
+33.323261s, first3failure lines byte-identical to prior;42stale/167open,
+review595. No waiver/new science failure path. Full VALIDATION/raw
+captures retained; post-check metadata not back-certified, scientific
+pins separately rechecked unchanged.
+
+Final-field-roster duty is explicit: this chosen N=1 gauge ansatz does
+not remove its gaugino or other omitted fields from the physical theory.
+Existing other-parent mass maps/conditional-three constructions remain
+positive in their own scope, not an already earned map to this source.
+No repository-wide absence or complete observed-SM claim follows.
