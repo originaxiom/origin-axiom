@@ -1,5 +1,21 @@
 # Changelog
 
+## W95: the weave's traces by discriminant (rule 6bae47053; one run; recorded; relay §147)
+
+- **The quantity.** The surface frame's neutral couplings over every thread with D ≤ 300 (282) and every CM point to
+  −300, summed by discriminant. A WEAVE result in a supplied frame.
+- **The cells.** V1–V3 and V7 held. V4–V6 and V8 failed as worded: an under-sized node count, thresholds too shallow
+  for the hierarchy, and the cusp-dominance cell. A labelled post hoc explains each.
+- **The result.**
+  - A point carries one massive generation, and k points min(3, k). At ω and i the kinetic matrix has rank one.
+  - The hierarchy grows without bound in √D, with κ near 1.45, and reaches no sector's data.
+- **Also read:** main's REVIEW 64, and S137 (the pull-back acts on the records; GENESIS v1.48 with the arena; W95 by
+  trace next).
+- **Surfaces.**
+  - The NOTE (a section, a bullet, a table row, a files entry), the state page, relay §147, the ledger (five rows; the
+    relay's row extended).
+  - A test, and a dated note on the fresh look's §4.
+
 ## Main's S136 read (ledger)
 
 - **B1660 banked NEGATIVE** as sealed. Its largest miss is W94's (m_μ/m_τ)/(m_s/m_b).

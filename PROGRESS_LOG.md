@@ -19516,3 +19516,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **Main banked the one-Higgs result as negative.** Its biggest miss is the muon-to-strange ratio the seat had flagged.
   Main's honest answer to the owner's "are we sure?" is no: the picture is consistent but untested. It gives the owner
   one fork to rule on. 0 of 19.
+
+## 2026-10-16 — the weave's couplings over all threads at once
+
+- **The seat computed the couplings over every thread at once,** grouped by the discriminant: 282 threads and 150 sets
+  of special points.
+- **At any single point only one generation gets a mass;** k points give up to three. At the two symmetric points two
+  of the three matter modes vanish outright.
+- **Over the threads the hierarchy keeps growing without limit,** and never passes through the measured mass ratios of
+  any quark or lepton family.
+- **The owner's ruling asks for the same computation grouped by thread length next.** 0 of 19.

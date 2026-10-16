@@ -2546,6 +2546,36 @@ def test_reading_why_the_leptons_coefficient_is_extremal():
     assert "## Reading: why the leptons' coefficient is extremal in W94" in note
 
 
+def test_w95_the_traces_by_discriminant():
+    """W95 (rule 6bae47053, one run; a failed first launch preserved): the weave's traces by discriminant in the surface
+    frame's neutral couplings; the cells as recorded, the post hoc rank law, the law in D; the threads recomputed in
+    process"""
+    import importlib.util
+    import math
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_traces_by_discriminant.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"V1": True, "V2": True, "V3": True, "V4": False, "V5": False, "V6": False, "V7": True,
+                          "V8": False}
+    assert d["V1"]["classes"] == 282 and d["V1"]["cycles with words of length <= 10"] == 74
+    assert float(d["V2"]["largest relative difference"]) < 1e-30 and float(d["V3"]["largest sigma2/sigma1"]) < 1e-25
+    assert d["V4"]["by D"]["-3"]["K rank"] == 1 and d["V4"]["by D"]["-4"]["K rank"] == 1
+    ph = json.loads((here / "the_traces_by_discriminant_posthoc.json").read_text(encoding="utf-8"))
+    assert ph["PH1"]["law holds"] == ph["PH1"]["D < 0 with masses defined"] == 148
+    assert ph["PH2"]["V6's worst class under-resolved"]
+    assert all(v["D-traces within"] == [] for v in d["read-outs"]["data (seen; sector-blind frame; no null; no claim)"]
+               .values())
+    pts = [(math.sqrt(int(D)), float(r["ln m1/m3"])) for D, r in d["D-traces"].items()
+           if int(D) >= 200 and "ln m1/m3" in r]
+    mx, my = sum(x for x, _ in pts) / len(pts), sum(y for _, y in pts) / len(pts)
+    slope = sum((x - mx) * (y - my) for x, y in pts) / sum((x - mx) ** 2 for x, _ in pts)
+    assert math.isclose(slope, d["read-outs"]["slopes against sqrt D, 200 <= D <= 300"]["ln m1/m3"]) and slope < -4
+    spec = importlib.util.spec_from_file_location("traces95", here / "the_traces_by_discriminant.py")
+    M = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(M)
+    assert sum(len(M.zagier_cycles(D)) for D in M.discriminants(+1)) == 282
+    assert [M.class_record(5, c)["word"] for c in M.zagier_cycles(5)] == ["LR"]
+
 def test_w97_the_low_threads_checked():
     """W97 (rule 71ccb45ed, one run, blind to chat1's output): the enumeration matches chat1's set, closure,
     convergence, no zero mass; Q5 against chat1's sealed run to 1e-6 on 270 values; the T-low enumeration recomputed

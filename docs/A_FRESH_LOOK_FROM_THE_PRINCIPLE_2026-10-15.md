@@ -255,3 +255,14 @@ vector has weight −½. Whether the record's objects are traces in this sense i
   inverse letter, which no thread contains.
 
 0 of 19.
+
+**Corrected 2026-10-16, by W95 (the weave dossier's NOTE; relay §147).**
+- **§4's "flat" does not hold for the record's own couplings.** §4 said that the traces equidistribute as D grows
+  (Duke 1988), so in the limit no point is charged.
+  - Duke's theorem holds for bounded invariant functions. The record's surface-frame units grow at the cusp (W72), so
+    their traces are carried by the threads that rise highest into it.
+  - W95's discriminant traces of the neutral couplings give a hierarchy that grows without bound in √D.
+- **§4's sequence of places stands as a reading.** At ω and i the masses are undefined, since the kinetic matrix has
+  rank one there; the root gives 0.0096 and 0.369.
+
+0 of 19.

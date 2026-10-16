@@ -727,6 +727,12 @@ Under the owner's rulings, the table's rows split into two groups:
   relay §142). On all 90 T-low configurations the Standard Model's per-field masses in cell C1 agree with chat1's run
   to its stored precision, by an independent transport. No C1 configuration passes S-mass, as chat1 finds for every
   assignment. 0 of 19.
+- **W95, the weave's traces by discriminant** (the rule first; a failed first launch preserved; one run; four cells
+  as predicted and four failed as worded; a labelled post hoc; relay §147).
+  - Over every thread with D ≤ 300 and every CM point to −300, the surface frame's neutral couplings give masses where
+    W72 could define none.
+  - A point carries one massive generation and k points min(3, k). At ω and i the kinetic matrix has rank one.
+  - The hierarchy grows without bound in √D, with κ near 1.45, and passes no sector's data. 0 of 19.
 
 ## Questions open with main
 
@@ -751,4 +757,4 @@ Under the owner's rulings, the table's rows split into two groups:
 - The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W97 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§146).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§147).

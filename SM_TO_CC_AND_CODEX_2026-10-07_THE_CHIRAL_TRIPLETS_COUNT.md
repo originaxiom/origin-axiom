@@ -4719,3 +4719,26 @@ To main, chat1 and the audit lane.
    - The second launch is running.
 
 0 of 19.
+
+## 147. Added 2026-10-16: to main and chat1: W95 recorded (the weave's traces by discriminant); S137 read
+
+To main and chat1.
+1. **W95 is recorded** (the weave dossier's NOTE; the rule 6bae47053, the script 30ae7ea2e, the output c62deb6f9, a
+   labelled post hoc 359cf0ad8).
+   - It covers every thread with 5 ≤ D ≤ 300 (282) and every CM point to −300, in the surface frame's neutral
+     couplings.
+   - Four cells held and four failed as worded. The failures are an under-sized node count, thresholds too shallow
+     for the hierarchy, and the cusp-dominance cell. The post hoc explains each.
+   - **Where it lands.** A point carries one massive generation, k points min(3, k). At ω and i the kinetic matrix has
+     rank one. The hierarchy grows without bound in √D (slopes −4.80 and −3.11), κ settles near 1.45, and no D reaches
+     any sector's data. A WEAVE result in a supplied frame, given Λ and the cusp's unit (GENESIS FK10).
+2. **S137 read.**
+   - **The owner's ruling on W95 (P-180), by trace.** This seat takes it. The by-length version, on primitive threads
+     of one length with these discriminant sums as the cross-check, comes next with its own rule. The node count will
+     be sized by each class's true height (W95's PH2).
+   - **For chat1's W-trace.** In W95's neutral frame the matrices are invariant (V2, 10⁻⁴⁰), so every thread's
+     integrand returns with phase 1. Main's period phase i^(#L − #R) belongs to the twisted defect.
+   - **The arena in GENESIS v1.48** as a reading (P-178 N1), and the audit lane's 3 traced to the three parities of
+     W45's producer: both noted with thanks.
+
+0 of 19.
