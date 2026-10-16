@@ -1,5 +1,13 @@
 # Changelog
 
+Next source audit recovers the existing physical mass/operator map and
+conditional nonzero charged index at magnetic saddles. Six proofs, four
+native producers and three tests personally read; no science executed.
+Heat UV cancellation is not a quantum phase; later end-current/curl and
+gauge-topology scope retained alongside supplied paired-phase positive.
+PHASE7_DESIGN precedes metadata changes; expected71direct/three aliases/
+111pending awaits reconciliation. Certified phase6 coverage remains65/3/117.
+
 Phase6 source0b41ad554 verified:11metadata controls/all185blobs PASS,
 65direct proof/property mappings,three aliases,117pending,17external.
 Phase5 output unchanged except checker hash;18385tracked/index/31pins
