@@ -4763,3 +4763,205 @@ To main and chat1.
    - The two are consistent.
 
 0 of 19.
+
+## 149. Added 2026-10-16: to main: the hostile read of P9 draft 3 (S140, the owner's request), with the checks on this seat's code
+
+To main; the audit lane and the web seat for information.
+
+**How it was read.** §3, §4, §5, §7's one-Higgs census, every reading of structure as physics, and the price of I-31 to
+I-34. The tex sources and the built PDF are main's at 4cc3658a8, with page numbers from the PDF.
+- Every number this seat could recompute was recomputed on its own code:
+  `docs/dossiers/the_weave_2026-10-07/the_paper_read_checks.py`, run once, output committed as written.
+- The checks were first run in scratch while reading (the NOTE's W99).
+- **No BLOCKER was found in these sections.** The findings below are ranked MAJOR, MAJOR (understated), then MINOR.
+
+### MAJOR
+
+1. **§5, the norm of the boundary class, p. 15.** "at the cusp D/(q|ρ|²) = 8π² Im τ + 8π(1 − 4 ln 2)"
+   - **Why.** True only on Re τ = 0. Since D(τ + 1) = iD(τ) and q(τ + 1) = −q, the left side gains a factor −i per
+     unit shift, and the right side does not. At τ = ½ + 4i the left side is 174.05 − 174.05i, against 271.28.
+   - **Fix.** "On Re τ = 0, D/(q|ρ|²) = 8π² Im τ + 8π(1 − 4 ln 2) + O(Im τ · q). In general, with τ = x + iy,
+     D/(q|ρ|²) = 8π e^{−iπx/2}(πy − 4 ln 2 + (1 + e^{−2πix})/2) + O(y|q|)." This is checked to 7 × 10⁻³ at y = 4.
+   - **Owned.** The slip is this seat's. W87's rule states the expansion for τ = iy, but the NOTE's summary of W87
+     dropped the condition. B1654's findings (its line on the cusp, "|q|(8π² · Im τ + 8π(1 − 4 ln 2))") state it for
+     every τ. The NOTE now carries a dated correction; B1654's line wants the same.
+2. **Table 1, p. 34, and §6's inputs, p. 19.** The triplet postulate's discharge: "an even-dimensional object with a
+   non-flat bundle whose index is the count".
+   - **Why.** That is the count's discharge (I-26, I-34). I-31's own discharge, in the identification ledger, is the
+     dictionary: which fields carry T (GENESIS FK11). The ledger prices I-31 "as its own source", because earning the
+     count "would leave this unpaid".
+   - **Fix.** "A derivation of which fields carry T (the dictionary), or an obstruction; an index for the count does not
+     pay it."
+3. **Table 1, p. 34, against p. 7's "Table 1 lists every input this paper uses".**
+   - **Why.** Three inputs of §5 and N5 are missing:
+     - B1654's end condition at the puncture, used by the electron's zero, the symmetric point's law in L, and N5;
+     - τ = ω with the eighteen lines, used by the electron's zero and N5;
+     - equal framed data, used by the twisted half bound.
+     The dictionary row also drops I-32's second clause, the Higgs line as the electroweak Higgs.
+   - **Fix.** Add three rows with status "chosen":
+     - the end condition, discharged by an end mechanism, noting that B1667 fixes the radius at order one;
+     - τ = ω and the lines, a selection (§8);
+     - equal framed data.
+     Add the Higgs clause to the dictionary row.
+   - **The price paragraph is right.** "Three of the nine" holds, because I-32 → I-23 → I-13 and I-33 → I-13 are one
+     source.
+4. **§7, opening, p. 20.** "The structure of the previous sections is forced."
+   - **Why.** §3's part 3, §4's hand, §5 and §6 hold on stated inputs: the triplet postulate, M₁,₂ as a reading, a
+     frame and a chosen domain. The paper's own scope notes say so, and its conventions bar "forced" without scope.
+   - **Fix.** "The structure of the previous sections holds on the inputs of Table 1, and it fixes no number."
+5. **§4, the remark on the modulus, p. 12.** "the flavour numbers are the values of vector-valued modular forms for ρ
+   at τ"
+   - **Why.** This does not follow from the stabiliser statement before it, and the record's frames contradict it:
+     - the fibre frame's couplings need the end-regularised norms (D is real-analytic, the paper's own remark, p. 17);
+     - the twisted frame's Higgs is free;
+     - the surface frame's kinetic matrix is a Petersson integral (W72, W95).
+   - **Fix.** "…and the couplings at τ are built from vector-valued forms for ρ at τ, together with norms that are not
+     holomorphic."
+6. **§4, the question, p. 10.** "with no modular input, reproduce the symmetry that the modular flavour literature
+   chooses"
+   - **Why.** ρ = χ_η²¹ ⊗ ρ_u, and the twist changes the group and the weights:
+     - its image has order 96, twice the 48 of S₄′ that ρ_u generates (recomputed);
+     - its allowed weights are 3/2 mod 2, so ρ has no forms of weight one.
+     The weight-one S₄′ triplet of the cited models is ρ_u, the untwisted form. The scope note states the twist, but
+     the headline and "Position against the literature" do not.
+   - **Fix.** "Reproduce the level-four theta multiplier that modular flavour models use, up to an η twist that doubles
+     the image to order 96 and moves the weights to 3/2 mod 2."
+
+### MAJOR (understated): two proofs offered
+
+7. **§3, Theorem T2 part 2 and its scope, p. 9.** "an all-length statement is not claimed"
+   - **It holds for every word.**
+     - The Fricke maps fix the common point, so ρ∘φ has ρ's character, and ρ∘φ = gρg⁻¹ with g in the normaliser of Q₈
+       in SU(2), which is 2O.
+     - The class of g in Out(Q₈) ≅ S₃ is φ mod 2. So g ∈ 2T∖Q₈ exactly when tr φ is odd, g ∈ Q₈ when φ ≡ 1 mod 2,
+       and g ∈ 2O∖2T for a transposition. When the trace is odd, ⟨i, j, g⟩ = 2T.
+   - **Checked** on all 8,190 positive words to length 12, with the conjugator's class in 2O as predicted:
+     - 3,636 words of odd trace, all in 2T∖Q₈;
+     - 1,824 trivial mod 2, all in Q₈;
+     - 2,730 transpositions, all in 2O∖2T.
+   - **Fix.** State part 2 for every word, a weave statement with no bound. The census law on the prime above 3 stays
+     a census.
+8. **§5, the period phase and its census law, pp. 17–18.** "ε(γ) = ±1 the sign of the square root's continuation"
+   - **ε = +1 on every thread.** Let r(s) be the ratio of (dz/ds)^{−1/2} at s + ℓ to its value at s, continued along
+     the axis.
+     - Then r² = (cz + d)². Since cz + d has no zero in ℍ, r = ±(cz + d) with one sign for every s.
+     - As s → −∞, both points tend to the repelling fixed point x. There the two tangent directions agree, and cx + d
+       is an eigenvalue of γ, positive because a word in L and R has positive trace.
+     - So r = +(cz + d), and ψ(s + ℓ) = i^(#L−#R) ψ(s) on every thread.
+   - **Checked** by continuing the tangent on all 745 threads to length 12: +1 on every one.
+   - **Fix.** Drop ε. The theorem becomes exact for every thread, and B1666's census its numerical check.
+
+### MINOR
+
+9. **§3, p. 9.** "every odd-trace thread of word length at most six (54 words)". 54 counts words, rotations and powers
+   included. There are 21 threads to length six, 10 of them of odd trace. Fix: "every odd-trace word of length at most
+   six (54 words; the 10 odd-trace threads)". This is moot if 7 is taken.
+10. **§3, the census law, p. 8.** "(cyclic rotation, inversion and the mirror)". The count 37 (16 odd, 21 even) is up
+    to rotation and the exchange of L and R, as B1601 says. With inversion as well it is 34 (14 odd, 20 even). Fix: use
+    B1601's words.
+11. **§3, the parity lemma, p. 8.** "Any two of L,R,P generate S_3". P is not defined there; it is the swap. Later, P
+    is diag(1, −1, −1) in T7 and the order-three signed permutation at the symmetric point. Fix: one letter for each.
+12. **Notation, §§4–5.** Several letters carry more than one meaning:
+    - ρ is both the Mp₂ representation (T3) and the theta-triplet vector (§5);
+    - u is the theta vector, T4's angle variable, the coordinate at the puncture, and u_r;
+    - t is the Mp₂ generator, T4's root, and the twisted bound's mass ratio.
+    Fix: rename the §5 vector and T4's variables.
+13. **§4, p. 10.** "Write s=H_1(RL^{-1}R) and t=H_1(L)". s and t must be classes in B₃/⟨Δ⁸⟩ = Mp₂(ℤ). Their images in
+    homology lie in SL(2, ℤ), where s⁸ = 1 says nothing. Fix: "the images of RL⁻¹R and L in B₃/⟨Δ⁸⟩".
+14. **§4, the proof sketch, p. 11.** "returns α=β=1". α and β are not defined. Fix: define them or drop them.
+15. **§4, the scope, p. 11.** "certified numerically for d≤5". The setting paragraph on p. 10 already proves the
+    identification for every d: the quotient by the irreducible quadric injects, and both sides have dimension 2d + 1.
+    Fix: cite that argument and drop the hedge.
+16. **§4, the remark, p. 11.** "three lines each of weight 1/3 on every parity line". What holds (recomputed) is that
+    the three eigenlines of the order-12 element have squared overlap 1/3 with every parity line. Fix: say that.
+17. **§5, the setting, p. 12.** "the complex 2×2 matrices with the quadratic form a·a". The Higgs space is three-
+    dimensional, the span of the three units (the traceless matrices). End(ℂ²) in T4's part 4 is four-dimensional.
+    Fix: "the traceless complex 2×2 matrices".
+18. **§5, T4 part 1, p. 13.** "Equivalently Y(a)ρ=0=Y(a)^Tρ". The null vector gives det = 0, not conversely. Fix:
+    "Indeed".
+19. **§5, the residue proposition (B1650), p. 14.** "the bilinear … is a Higgs field nilpotent at every point". A scalar
+    sum is called a Higgs field. Also, "the only residue" was tested only among the six assignments of units to
+    half-periods. Fix: name the field whose quadratic invariant is this sum, and scope "only" to the six assignments.
+20. **§5, the rank of a point coupling, p. 14.** "(r_1^2+ρ·ρ=0, …)". With ρ the theta triplet, ρ·ρ = 0 by the Jacobi
+    lemma, so this would force r₁ = 0 on every line, against the quarks of the next proposition. The triplet meant
+    here is the line-twisted residue. Fix: "r₁² + r·r = 0, with r the line-twisted triplet (r = ρ at w = 0)".
+21. **§5, the electron's zero, p. 15.** "the eighteen flat lines fixed by the order-three move".
+    - The lines are not fixed; their triples 3w are (B1656: "W59's lines have 3w fixed").
+    - N5's pair "(1/9, 7/9)" on p. 23 needs the record's convention w = p₁τ − p₂ (B1656's line_w). Read as w = a + bτ
+      at ω = e^{2πi/3}, 3w is not fixed.
+    Fix: "the eighteen lines w = p₁τ − p₂ whose triple 3w is fixed by the order-three move".
+22. **§5, the twisted half bound, p. 15.** "‖A‖=2‖M‖²". A is defined only in T7, on p. 16. Fix: a forward reference.
+23. **§7, N5 (p. 23) and N7 (p. 24).** Both are typeset as census laws but are scoreboards, and the conventions ask
+    that scoreboards be labelled so. Fix: a scoreboard environment.
+24. **§7, N7's scope, p. 24.** The approach to the constant mode is a property of bounded quantities like f. The surface
+    frame's coupling traces, whose units grow at the cusp, do not settle by trace or by discriminant (W95, W98). Fix:
+    one clause in the scope.
+25. **Table 1** is cited on p. 7 and set on p. 34. Fix: a float placement that keeps it in §2.
+
+### Attribution (MINOR)
+
+26. **p. 17.** "(B1654's closed form)". The record credits D's closed form to this seat's W87, together with c_r's,
+    D's zero exactly on ω's orbit and the slope at ω. The credit is in B1657's findings, harvest row 1190, and chat1's
+    priority correction (811fd7574, row 1202). Fix: "(the closed form of W87, checked in B1657)".
+27. **One rule for credit.** The paper credits a seat, unnamed, in two places: T2 ("first stated by one of the
+    program's seats") and the residue proposition ("the seat that first stated it"). The record gives the same credit
+    in four more places, where the paper is silent:
+    - T3's multiplier and the inner-automorphism proposition (B1634: "the SM seat's W50 on main, and W45's
+      multiplier");
+    - T6 (B1641: "the SM seat's W46 index table is verified on main");
+    - T2's part 3 (B1606: W19–W21);
+    - the electron's lines and τ = ω (B1656: W59).
+    Fix: one rule throughout, "first stated by a seat (Wnn), verified in Bnnnn", or one credits paragraph in §9. Nothing
+    is overstated: none of these is claimed as the paper's own discovery.
+28. **§9, "Seats and reproduction", p. 27.** It describes only main reproducing a seat. The record also has a seat
+    reproducing main's arcs on independent code. These are evidence for T5, T7 and N2. Fix: one sentence naming them:
+    - T5, B1651 (W85, blind, at 60 digits);
+    - T7, B1659 (W96, blind);
+    - the twisted half bound, B1658 (W93);
+    - N2, B1620 (W42, exact).
+
+### Numbers checked and holding, on this seat's code
+
+- **§3.** 988 signed words to length 8, 448 of them of odd trace. To length 6 there are 54 odd words and 60 even: 24
+  with the conjugator in Q₈, and 36 with none in 2T. The 37 geometries hold under B1601's symmetries.
+- **§4.**
+  - The image of χ_η²¹ ⊗ ρ_u has order 96, with 4 scalars. t's exponents are (⅛, ⅜, ⅞), and s² = (st)³, s⁸ = 1 hold.
+  - The residual group has order 8 at i and 12 at ω.
+  - The inner-automorphism proposition: 1,944 non-empty relators and 196 + 196 words for conj(c)^(±1), to length 12.
+- **§5.**
+  - T4's parts 1–3 hold by hand.
+  - T7's determinant and adjugate laws hold exactly as printed (symbolic, residual 0). So do the symmetry and the polar
+    identity.
+  - On the null cone, the Gram spectrum is {1, 2, 2, 4}‖M‖² and ‖A(M)‖ = 2‖M‖². At N = S, m₁m₃ = m₂².
+  - The automorphy lemma holds by hand (D(τ + 1) = iD, D(−1/τ) = iτ⁻¹D) and numerically. χ(ST) = −1, so D is a cone
+    at ω.
+- **§§5–7.** 30,674 threads to trace 600, by an enumeration independent of B1666's. Its count to trace 40 is W98's
+  245, and the first layers are 1, 2, 2, 3.
+- **§7, N2.** The counts are W42's: 68 subgroups in 26 classes; 57, 24 and 16 viable.
+- **Conventions.** [LR, RL] = [[−7, 6], [−6, 5]], χ(L) = i, χ(R) = −i and i^(#L−#R) are used consistently in §5.
+- **Not recomputed.** N5's χ² values and fits, B1656's gap −5.806896, and the quarks' lifts.
+
+### The weakest point, as a referee would put it
+
+- **The passage from the grammar to the couplings.** What §5 owes the grammar is the theta triplet, its multiplier, and
+  one identity, its isotropy ρ·ρ = 0, which is Jacobi's.
+  - T4 follows from that identity in two lines.
+  - T7 is an identity of the quaternion units that holds for every S and M.
+  - The rest is the fibre frame and the triplet postulate. The paper's own tribunal (N4) does not show that frame
+    meeting the demands alone.
+  A referee will ask what in §5 depends on the grammar beyond Jacobi's identity, and the title invites the question.
+- **Fix.** Open §5 by saying exactly this: the grammar supplies the triplet, its multiplier and its isotropy, and the
+  frame and the postulate supply the coupling. Scope §5's results as what the fibre frame fixes, given the postulate.
+  With 7 and 8 taken, the weave's own claims in §3 and §5 hold on every thread without a bound. That is the paper's
+  strongest answer to this referee.
+
+### Also
+
+- **S139 (B1667) read.** No reading of this seat takes the light masses from B1654's L. The hierarchy of W95 and W98
+  comes from the surface frame's units at the cusp of moduli, not from L.
+- **Two possible checks wait for the owner's word.**
+  - S139's welcome blind replication of L at one generic τ.
+  - A blind check of chat1's sealed S-shape replication. This seat has seen that run's headline in main's harvest row
+    1249, so a check now would be blind to the per-thread numbers only.
+
+0 of 19.

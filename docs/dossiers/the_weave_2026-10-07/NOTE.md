@@ -325,6 +325,10 @@ marked READING or OPEN. Nothing is promoted, and 0 of 19 stands.
   as worded at the instrument's precision limit, t ≥ 30): every primitive thread with trace up to 40 (245). The two
   groupings are one computation: every shared class and all 34 rebuilt discriminant sums agree with W95 exactly. The
   layers' hierarchy grows by e^(−4.85) and e^(−3.18) per unit of trace, κ near 1.45, and no layer reaches any sector.
+- W99 (the paper read, at main's S140 and the owner's request; a READING with checks, one run of the checks): a hostile
+  read of P9 draft 3's §§3–5 and §7. Six MAJOR defects and twenty MINOR, no BLOCKER. Two theorems hold more widely than
+  stated, with proofs offered: T2's common point for every word, and the period phase with ε = +1 on every thread.
+  W87's cusp line was this seat's slip, corrected by a dated note.
 
 ## The setting
 
@@ -7312,6 +7316,9 @@ residues satisfy R·R = 0 together. The claims are identities in τ.
    - D vanishes exactly on the orbit of ω, since h(λ) = 0 only at λ = e^{±iπ/3}.
    - At i, |D|/|R|² = (π/2) ln 2.
    - At the cusp, D/(q|R|²) = 8π² Im τ + 8π(1 − 4 ln 2) + 64πq(4 ln 2 − 1 − π Im τ) + O(q² ln q).
+     - *Corrected 2026-10-16, by W99 (the paper read):* this holds on τ = iy, as W87's rule states; this summary
+       dropped the condition. With τ = x + iy, D/(q|R|²) = 8π e^{−iπx/2}(πy − 4 ln 2 + (1 + e^{−2πix})/2) + O(y|q|).
+       At τ = ½ + 4i it is 174.05 − 174.05i, against 271.28 from the line above.
 3. **The end conditions as one family,** u_r = G(2πL + c_r)R_r, where L = ln(1/ε). P4 is G = √x, P4″ is G = x and P4′
    is G = 1.
    - u·u = 2G(2πL)G′(2πL)·D(τ) at leading order. So every G with G′ ≠ 0 lifts the first generation with the same
@@ -7612,6 +7619,55 @@ characteristic pair. Which thread carries them is chat1's design.
 
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
+
+## W99. The paper read: P9 draft 3, read hostilely at main's S140 (the owner's request), with every number this seat could recompute recomputed (`the_paper_read_checks.py`)
+
+**Why.** Main's S140 relay, `CC_TO_ALL_SEATS_2026-10-16_SCRUTINISE_THE_PAPER.md` (in main's docs/handoffs/), at the
+owner's request: a hostile read of `papers/P9_what_a_grammar_fixes` (draft 3, 36 pages). This seat's sections are §3,
+§4, §5, §7's one-Higgs census, every reading of structure as physics, and the price of I-31 to I-34.
+
+**The order.**
+- The tex sources and the built PDF at main's 4cc3658a8 were read in full for those sections.
+- Every check was first run in scratch while reading. They were then gathered into one script, run once (42 s,
+  exit 0), and its output committed as written. There is no rule and no prediction: this is a verification read.
+
+**Weave or thread.** The read itself is neither. The two proofs it offers are WEAVE statements: they take every thread,
+with no bound, and are confirmed numerically on every thread to length 12.
+
+**What the checks found.**
+- **The paper's numbers hold where this seat could recompute them:**
+  - the word counts of §3;
+  - the order-96 image of χ_η²¹ ⊗ ρ_u, its exponents and its residual groups;
+  - the inner-automorphism counts to length 12;
+  - the joint law exactly as printed (symbolic, residual 0), with its Gram spectrum {1, 2, 2, 4};
+  - the automorphy of D;
+  - the 30,674 threads to trace 600, by an enumeration independent of B1666's, which gives W98's 245 to trace 40.
+- **One formula fails.** At the cusp, D/(q|R|²) = 8π² Im τ + 8π(1 − 4 ln 2) holds only on Re τ = 0.
+  - Since D(τ + 1) = iD(τ) and q(τ + 1) = −q, the left side gains −i per unit shift, and the right side does not.
+  - The slip is this seat's: W87's rule had τ = iy, and this NOTE's summary of W87 dropped the condition. It is now
+    corrected there by a dated note.
+- **Two theorems hold for every thread.**
+  - T2's part 2: the conjugator of the common point lies in the normaliser of Q₈, which is 2O, and its class in
+    Out(Q₈) ≅ S₃ is the word mod 2. So it lies in 2T∖Q₈ exactly on odd trace. On the 8,190 words to length 12 the
+    counts are 3,636, 1,824 and 2,730.
+  - The period phase's branch sign is +1 on every thread. At the repelling fixed point, cz + d is a positive eigenvalue,
+    since every word in L and R has positive trace. It is +1 on all 745 threads to length 12.
+- **Two counts are worded differently from their arcs.**
+  - The 37 geometries are counted up to rotation and the exchange of L and R (B1601). With inversion as well, as the
+    paper words it, there are 34.
+  - The 54 words to length six are words, not threads; there are 10 odd-trace threads.
+
+**The findings** are relay §149: six MAJOR, two understated (the proofs), twenty MINOR, the weakest point. Among them:
+- the inputs table gives the triplet postulate (I-31) the count's discharge, not the dictionary's;
+- the table omits the end condition, τ = ω with its eighteen lines, and equal framed data;
+- D's closed form is credited to B1654, though the record credits this seat's W87.
+
+**What it means (a READING).** The paper's mathematics in this seat's sections is sound where it can be recomputed. Its
+defects are of scope and price, with one false formula, which was this seat's. With the two proofs taken, the weave's
+own claims in §3 and §5 need no bound, which is the paper's best answer to the referee's question in §149: what in §5
+does the grammar fix beyond Jacobi's identity?
+
+0 of 19.
 
 ## W98. W95 by trace (the owner's P-180 ruling): every primitive thread with trace up to 40; the two groupings agree exactly, and the hierarchy grows per unit of trace (`the_traces_by_trace.py`; `W98_RULE.md`)
 
@@ -8736,6 +8792,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W99 | READING with checks (one run of the checks; no rule, no prediction) | the hostile read of P9 draft 3 at main's S140: six MAJOR, twenty MINOR, no BLOCKER; T2's part 2 and the period phase (ε = +1) proved for every thread; W87's cusp line corrected (Re τ = 0 only) |
 | W98 | COMPUTED (the rule first; one run; T1, T3, T4, T6 as predicted; T2, T5 failed as worded at the instrument's precision limit, t ≥ 30); a WEAVE result in a supplied frame | W95 by trace: every primitive thread with trace ≤ 40 (245); the two groupings agree exactly (every shared class, 34 rebuilt discriminant sums); slopes −4.85 and −3.18 per unit t; κ 1.40–1.50; no layer within any sector's allowance |
 | W95 | COMPUTED (the rule first; a failed first launch preserved; one run; V1–V3, V7 as predicted; V4–V6, V8 failed as worded; a labelled post hoc); a WEAVE result in a supplied frame | the surface frame's neutral couplings traced by discriminant over every thread with D ≤ 300 (282) and every CM point to −300: rank one at a point; the rank law min(3, n_D) (post hoc, 148 of 148); K of rank one at ω and i; slopes −4.80 and −3.11 per √D; κ near 1.45; no D within any sector's allowance |
 | W6′ | OPEN, in part superseded (2026-10-08) | the deck kept (GENESIS FK7) and masses: OPEN. The chirality under the weave's own group is derived (W21, W22, W28); gauge chirality is UNEARNED (W25; main's v1.28 grade). The index of three on the weave's own object is W20's (not chiral) |
@@ -8817,6 +8874,7 @@ is building: an end on the weave's own action that gaps the cusp.
 - `W87_RULE.md`: the rule, committed and pushed before the code, with its exploration disclosed; `the_boundary_class_norms_checked.py` → `the_boundary_class_norms_checked.json`: W87, B1654's section 1 on this seat's code (the channel norms by three routes, D in closed form, its zeros and cusp, the grid, the end-condition family, B1654's item-10 limit).
 - `W88_RULE.md`: the rule, committed before the code, with the data seen disclosed; `the_relations_census.py` → `the_relations_census.json`: W88, the relations census (Q1–Q7 against HZ2021's masses and B1612's CKM moduli under W66's predicate).
 - `W97_RULE.md`: the rule, committed before the code, with the excluded-order exploration disclosed; `the_low_threads_checked.py` → `the_low_threads_checked.json` and `the_low_threads_checked_run.txt`: W97, the blind check of chat1's sealed low-thread comparison; `the_low_threads_q5.py` → `the_low_threads_q5.json`: its Q5, against chat1's output after both were committed.
+- `the_paper_read_checks.py` → `the_paper_read_checks.json` and `the_paper_read_checks_run.txt`: W99, the paper read's checks (one run; first run in scratch while reading).
 - `W98_RULE.md`: the rule, committed before the code, with the number-theory exploration disclosed; `the_traces_by_trace.py` → `the_traces_by_trace.json` and `the_traces_by_trace_run.txt`: W98, W95 by trace, with the per-class matrices saved.
 - `W95_RULE.md`: the rule, committed before the code, with the instrument's exploration disclosed; `the_traces_by_discriminant.py` → `the_traces_by_discriminant.json` and `the_traces_by_discriminant_run.txt`: W95, the weave's traces by discriminant; `the_traces_by_discriminant_failed_launch.txt`: its failed first launch, as written (two path prefixes replaced); `the_traces_by_discriminant_posthoc.py` → `the_traces_by_discriminant_posthoc.json`: the labelled post hoc.
 - `W96_RULE.md`: the rule, committed before the code; `the_joint_law_checked.py` → `the_joint_law_checked.json` and `the_joint_law_checked_run.txt`: W96, main's B1659 joint law on this seat's own frame.

@@ -1,0 +1,183 @@
+{
+ "what": "W99, the paper read's checks of P9 draft 3 (papers/P9_what_a_grammar_fixes on main @ 4cc3658a8)",
+ "A, section 3": {
+  "signed words to length 8": 988,
+  "of odd trace": 448,
+  "words to length 6": {
+   "odd": 54,
+   "trivial mod 2": 24,
+   "transposition mod 2": 36
+  },
+  "threads to length 6": 21,
+  "odd-trace threads to length 6": 10,
+  "threads to length 8": 69,
+  "geometries up to rotation and the L-R exchange (B1601)": {
+   "geometries": 37,
+   "odd": 16
+  },
+  "geometries up to rotation, inversion and the mirror (the paper's words)": {
+   "geometries": 34,
+   "odd": 14
+  }
+ },
+ "B, T2(2) for every word to length 12 (the class of the conjugator)": {
+  "transposition mod 2: 2O minus 2T": 2730,
+  "trivial mod 2: Q8": 1824,
+  "odd: 2T minus Q8": 3636
+ },
+ "C, section 4": {
+  "order of the image of chi_eta^21 x rho_u": 96,
+  "scalars in it": 4,
+  "order of the image of rho_u (the weight-one triplet)": 48,
+  "exponents of t (turns)": [
+   0.125,
+   0.375,
+   0.875
+  ],
+  "s^2 = (st)^3 and s^8 = 1": true,
+  "order at i (s)": 8,
+  "order at omega (st)": 12,
+  "st's eigenlines: squared overlaps with the theta lines": [
+   0.333333
+  ],
+  "non-empty reduced words to length 12 acting trivially on homology, by exponent sum": {
+   "-12": 196,
+   "0": 1944,
+   "12": 196
+  }
+ },
+ "D, the joint law as printed": {
+  "det law residual is 0": true,
+  "adj law residual is 0": true,
+  "symmetry Y(S, N eps^-1) = Y(N, S eps^-1)": true,
+  "polar identity residual is 0": true,
+  "Gram spectrum of S -> Y(S, M) over |M|^2, M null": [
+   1.0,
+   2.0,
+   2.0,
+   4.0
+  ],
+  "|A(M)| over |M|^2, M null": 2.0,
+  "m1 m3 - m2^2 at N = S": 4.440892098500626e-16
+ },
+ "E, D at the cusp": {
+  "points": [
+   {
+    "tau": [
+     0,
+     4
+    ],
+    "D/(q|rho|^2)": [
+     271.26975902656915,
+     0.0
+    ],
+    "the paper's": 271.27732717386255,
+    "the corrected leading terms": [
+     271.27732717386255,
+     0.0
+    ],
+    "|difference| from the corrected": 0.0075681472933831154
+   },
+   {
+    "tau": [
+     0,
+     5
+    ],
+    "D/(q|rho|^2)": [
+     350.2337401357862,
+     0.0
+    ],
+    "the paper's": 350.23416238257744,
+    "the corrected leading terms": [
+     350.23416238257744,
+     0.0
+    ],
+    "|difference| from the corrected": 0.00042224679120315495
+   },
+   {
+    "tau": [
+     0.25,
+     4
+    ],
+    "D/(q|rho|^2)": [
+     234.20228178613294,
+     -110.61112349242882
+    ],
+    "the paper's": 271.27732717386255,
+    "the corrected leading terms": [
+     234.20881576266703,
+     -110.61420945520412
+    ],
+    "|difference| from the corrected": 0.007226065014835045
+   },
+   {
+    "tau": [
+     0.25,
+     5
+    ],
+    "D/(q|rho|^2)": [
+     307.15504945342025,
+     -140.82951237542895
+    ],
+    "the paper's": 350.23416238257744,
+    "the corrected leading terms": [
+     307.1554197638652,
+     -140.8296821615599
+    ],
+    "|difference| from the corrected": 0.00040737839402772317
+   },
+   {
+    "tau": [
+     0.5,
+     4
+    ],
+    "D/(q|rho|^2)": [
+     174.0456501972172,
+     -174.0456501972172
+    ],
+    "the paper's": 271.27732717386255,
+    "the corrected leading terms": [
+     174.05050587416642,
+     -174.05050587416642
+    ],
+    "|difference| from the corrected": 0.00686696419607826
+   },
+   {
+    "tau": [
+     0.5,
+     5
+    ],
+    "D/(q|rho|^2)": [
+     229.88114232333743,
+     -229.88114232333743
+    ],
+    "the paper's": 350.23416238257744,
+    "the corrected leading terms": [
+     229.88141947127747,
+     -229.88141947127747
+    ],
+    "|difference| from the corrected": 0.00039194637556121
+   }
+  ],
+  "D(tau+1)/D(tau) at 0.1+3i": [
+   -1.0204151507356551e-16,
+   1.0
+  ]
+ },
+ "F, threads by trace": {
+  "trace <= 600": 30674,
+  "trace <= 40": 245,
+  "layers t = 3..6": [
+   1,
+   2,
+   2,
+   3
+  ]
+ },
+ "G, the branch sign": {
+  "threads to length 12": 745,
+  "+1": 745,
+  "-1": 0,
+  "neither": 0
+ }
+}

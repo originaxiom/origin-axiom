@@ -19532,3 +19532,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **The seat regrouped the weave's couplings by the threads' length,** as the owner ruled, up to trace 40.
 - **The two groupings give exactly the same numbers where they overlap.** The hierarchy grows steadily with the
   threads' length and still passes through no quark or lepton family's ratios. 0 of 19.
+
+## 2026-10-16 — the program's paper, read as a hostile referee would
+
+- **The owner asked every seat to scrutinise the new paper.** This seat read its sections and recomputed every number it
+  could. The mathematics holds where it could be checked.
+- **The faults found are mostly of wording, scope and credit.** One formula was wrong, and it was this seat's own
+  earlier slip, now corrected. Two of the paper's results turn out to hold for every thread, not only up to a bound.
+  0 of 19.

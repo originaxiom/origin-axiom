@@ -2546,6 +2546,40 @@ def test_reading_why_the_leptons_coefficient_is_extremal():
     assert "## Reading: why the leptons' coefficient is extremal in W94" in note
 
 
+def test_w99_the_paper_read():
+    """W99 (the paper read of P9 draft 3): the checks as recorded; D's cusp line holds on Re tau = 0 and not off it,
+    recomputed in process"""
+    import mpmath as mp
+
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_paper_read_checks.json").read_text(encoding="utf-8"))
+    a = d["A, section 3"]
+    assert (a["signed words to length 8"], a["of odd trace"], a["odd-trace threads to length 6"]) == (988, 448, 10)
+    assert a["geometries up to rotation and the L-R exchange (B1601)"] == {"geometries": 37, "odd": 16}
+    assert a["geometries up to rotation, inversion and the mirror (the paper's words)"] == {"geometries": 34, "odd": 14}
+    assert d["B, T2(2) for every word to length 12 (the class of the conjugator)"] == {
+        "transposition mod 2: 2O minus 2T": 2730, "trivial mod 2: Q8": 1824, "odd: 2T minus Q8": 3636}
+    c = d["C, section 4"]
+    assert c["order of the image of chi_eta^21 x rho_u"] == 96
+    assert c["order of the image of rho_u (the weight-one triplet)"] == 48
+    words = c["non-empty reduced words to length 12 acting trivially on homology, by exponent sum"]
+    assert words == {"-12": 196, "0": 1944, "12": 196}
+    assert all(v for v in d["D, the joint law as printed"].values() if isinstance(v, bool))
+    assert d["F, threads by trace"]["trace <= 600"] == 30674 and d["F, threads by trace"]["trace <= 40"] == 245
+    assert d["G, the branch sign"] == {"threads to length 12": 745, "+1": 745, "-1": 0, "neither": 0}
+    with mp.workdps(30):
+        def ratio(tau):
+            q = mp.exp(1j * mp.pi * tau)
+            t2, t3, t4 = mp.jtheta(2, 0, q), mp.jtheta(3, 0, q), mp.jtheta(4, 0, q)
+            e = mp.exp(1j * mp.pi * tau / 12) * mp.qp(mp.exp(2j * mp.pi * tau))
+            lam = t2 ** 4 / t3 ** 4
+            D = -t3 ** 4 * (lam * mp.log(abs(lam)) + (1 - lam) * mp.log(abs(1 - lam))) / (4 * mp.pi * e ** 6)
+            r2 = (abs(t2) ** 4 + abs(t3) ** 4 + abs(t4) ** 4) / (4 * mp.pi ** 2 * abs(e) ** 6)
+            return D / (q * r2)
+        line = 8 * mp.pi ** 2 * 4 + 8 * mp.pi * (1 - 4 * mp.log(2))
+        assert abs(ratio(mp.mpc(0, 4)) - line) < 0.01
+        assert abs(ratio(mp.mpc(0.5, 4)) - line) > 90 and abs(mp.im(ratio(mp.mpc(0.5, 4)))) > 170
+
 def test_w98_the_traces_by_trace():
     """W98 (rule 065b73f8f, one run): W95 by trace; the cells as recorded; the two groupings agree exactly; the law in
     t; the layers recounted in process"""

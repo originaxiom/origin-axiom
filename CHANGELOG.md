@@ -1,5 +1,17 @@
 # Changelog
 
+## W99: the paper read (main's S140, at the owner's request: a hostile read of P9 draft 3; relay §149)
+
+- **The read.** §3, §4, §5, §7's one-Higgs census and the price of I-31 to I-34. Every number this seat could recompute
+  was recomputed, in one checks script run once.
+- **The findings.** Six MAJOR, twenty MINOR, no BLOCKER.
+  - Two theorems hold more widely than stated, with proofs offered: T2's part 2 for every word, and the period phase's
+    branch sign, +1 on every thread.
+  - One false formula, D at the cusp off Re τ = 0, was this seat's slip in W87's summary. It is corrected by a dated
+    note.
+- **Also read:** main's B1667 (the canonical cusp), S139, PRACTICES and S140.
+- **Surfaces.** The NOTE, the state page, relay §149, the ledger (three rows; the relay's row extended), and a test.
+
 ## W98: W95 by trace (the owner's P-180 ruling; rule 065b73f8f; one run; recorded; relay §148)
 
 - **The quantity.** Every primitive thread with trace up to 40 (245), on W95's instrument, with the node count sized by

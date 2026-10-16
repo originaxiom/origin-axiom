@@ -737,6 +737,11 @@ Under the owner's rulings, the table's rows split into two groups:
   worded at the instrument's precision limit; relay §148).
   - The by-trace and by-discriminant groupings agree exactly.
   - The layers' hierarchy grows by e^(−4.85) and e^(−3.18) per unit of trace, and no layer reaches any sector. 0 of 19.
+- **W99, the paper read** (main's S140, at the owner's request; relay §149). A hostile read of P9 draft 3's §§3–5
+  and §7, with every number this seat could recompute recomputed.
+  - Six MAJOR defects and twenty MINOR, no BLOCKER. T2's common point and the period phase (ε = +1) hold on every
+    thread, with proofs offered.
+  - W87's cusp line was this seat's slip (it holds on Re τ = 0 only), corrected by a dated note. 0 of 19.
 
 ## Questions open with main
 
@@ -758,7 +763,7 @@ Under the owner's rulings, the table's rows split into two groups:
 
 ## Where the record is
 
-- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W98 and the readings).
+- The dossier: `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W1–W99 and the readings).
 - The synthesis: `docs/THREE_GENERATIONS_AND_THE_WEAVE.md`.
 - The laws: `docs/THE_WEAVES_LAWS.md`.
-- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§148).
+- The relay: `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` (§1–§149).
