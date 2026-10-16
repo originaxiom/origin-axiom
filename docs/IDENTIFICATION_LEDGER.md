@@ -855,3 +855,21 @@ polynomial signs are retained and LABELED, not identified by their
 shared stationary equation with Lorentzian source-action signs.
 Calibrated50checks each preserve nonvanishing/real Grassmann/bulk-end
 balance. No source phase/kinetic change or shared I-status promotion.
+
+## October16 actual reverse source and gauge quotient identification
+
+surface_reverse_susy_2026_10_16 earns the actual ten boson Noether map,
+including full32 Lorentzian lowering, actual Majorana parameter map
+and full E8 triplet action. The rejected all velocity guess is preserved,
+not quietly identified with a covariant current. Complete actual images
+of the known amplitude family are amplitude plus a covariantly harmonic
+gauge phase. Equality to D epsilon_g acts on connection AND scalars.
+
+The new boundary distinction is conditional: nonzero end parameters
+are not in the group DEFINED by parameters zero at both ends. Do NOT
+identify nonzero end value or positive coefficient norm with nonzero
+electric surface charge, physical particle or a selected edge theory.
+The actual source Gauss/presymplectic/end law and admissible ensemble
+must earn that further arrow. Full curved/global boundary theory and
+foundational physical SM/three/gravity remain unearned; no shared
+I-status promoted, no new identification ratchet allowance.

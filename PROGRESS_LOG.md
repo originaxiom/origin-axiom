@@ -20457,3 +20457,41 @@ family, actual source transformations/joint data/auxiliaries/BOTH ends.
 Known BPS tangent and regular gauge/gaugino are positives; no guessed
 inverse map, rough-gradient-only or programme-wide negative. UNVERIFIED,
 not a new result/absence claim. Full physical SM/three/gravity ACTIVE.
+
+## 2026-10-16 Actual reverse supersymmetry and the boundary gauge pair
+
+At exact-server pre-run05a591e8ffcf8fde0d3f112a2cafdd783dc3b581,
+native34/34 in33.798609s, reference34/34 in33.389395s. Full23,491byte
+records identical SHA72df450923ea1462c4fdf09919226657d3ea61b81da524cfa1bba446be756aec;
+236pins/15,515tracked/index unchanged. Complete source maps/real
+parameter frame/actual E8 triplet/all returned profiles/both-end flux.
+
+The first two captures correctly failed the guessed all velocity
+Noether identification. Coefficient diagnostics showed time agreed,
+all nine spatial fields opposite. Actual full32 Lorentzian lowering
+earns(I,-v), with T=(i/2)R P_lambda and no field/phase/action change.
+Both failed runs and every original source/manifest retained. A third
+run passed17gates then was deliberately stopped558.826790s during
+symbolic tangent simplification; incomplete resource run, not a math
+failure. Exact r=u²,u>0 rational performance repair was published
+before the successful successor; no tolerance/sample/residual waiver.
+
+Actual reverse images of the complete amplitude fermion give amplitude
+and its complex phase partner. Both full stationary BPS/gauge/Dirac/
+linearized Euler equations hold on the actual root embedding. The phase
+is D epsilon_g with covariantly harmonic epsilon_g nonzero at BOTH
+ends. It is NOT quotiented by a group defined with zero parameters at
+both ends; larger gauge/edge ensembles remain legitimate alternatives.
+The exact positive finite inner coefficient norm equals both-end
+Green flux. Outer pole/cut retained; no physical charge, particle or
+global modulus inferred from this. Two real profiles are not generations.
+
+Packet surface_reverse_susy_2026_10_16 and sender relay banked; each
+sublemma harvested in LAW_MAP. Next derive actual source Gauss and
+presymplectic generator including full real Grassmann fermion current,
+joint fixed/varied data and both-end charges, then complete curved
+auxiliary/source/SUSY boundary/exterior/global charged theory and whole
+partner roster. Previous nonzero real work AND total bulk/end balance
+preserved. No cross-parent counts/masses. Full foundational physical
+SM/three/parameters/gravity ACTIVE. LIVE/governance follows; no full
+suite/nonauthor/recipient/main/physical acceptance claimed.

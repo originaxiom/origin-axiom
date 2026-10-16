@@ -1,0 +1,1032 @@
+{
+  "checks": {
+    "actual all nine source velocities and full Majorana reality": true,
+    "actual positive time and all spatial source action signs": true,
+    "single earned Noether parameter map all ten actual bosons": true,
+    "actual Noether factor and full real parameter subspace": true,
+    "all actual boson maps have graded rather than commuting reality": true,
+    "wrong Noether factor and missing odd reversal rejected": true,
+    "full Lorentzian lowered current not Hamiltonian velocity": true,
+    "old all velocity reverse formula rejected in every spatial direction": true,
+    "named scalar supercharge is actual source lambda by its full map": true,
+    "all BPS curvature matrices annihilate actual scalar supercharge": true,
+    "every independent curvature coefficient in local Euler Ward identity": true,
+    "wrong normal BPS curvature sign fails annihilation": true,
+    "complete normalized real four parameter source frame": true,
+    "real parameter complex structure not species count": true,
+    "actual normalized E8 root map all generators metric parity reality": true,
+    "positive radius rational canonicalizer and wrong sign control": true,
+    "same exact full noncommuting BPS background": true,
+    "all background tangent and phase fields compact real": true,
+    "complete BPS and covariant gauge tangent amplitude": true,
+    "complete BPS and covariant gauge tangent phase": true,
+    "omitting tangent connection fails true linearized equations": true,
+    "complete actual amplitude fermion solves Dirac equation": true,
+    "every reverse image equals amplitude plus phase not rank matching": true,
+    "two independent bosonic directions with four real parameters": true,
+    "entire phase partner equals actual covariant gauge variation": true,
+    "phase gauge parameter covariantly harmonic including scalar terms": true,
+    "dropping scalar gauge Laplace terms rejected": true,
+    "actual full linearized boson Euler amplitude": true,
+    "actual full linearized boson Euler phase": true,
+    "positive finite local coefficient norm and orthogonal equal partner": true,
+    "actual covariant Green flux equals full gauge direction norm": true,
+    "gauge parameter nonzero at both ends not proper redundancy": true,
+    "both oriented endpoints and no discarded outer norm": true,
+    "normalizable near inner end not a claim across outer pole": true
+  },
+  "records": {
+    "source": {
+      "boson_order": [
+        "time",
+        "external1",
+        "external2",
+        "external3",
+        "internal0",
+        "internal1",
+        "internal2",
+        "internal3",
+        "scalar4",
+        "scalar5"
+      ],
+      "actual_reverse_maps": [
+        [
+          [
+            0,
+            8,
+            "-1/2"
+          ],
+          [
+            1,
+            9,
+            "-1/2"
+          ],
+          [
+            8,
+            0,
+            "1/2"
+          ],
+          [
+            9,
+            1,
+            "1/2"
+          ]
+        ],
+        [
+          [
+            0,
+            8,
+            "1/2"
+          ],
+          [
+            1,
+            9,
+            "-1/2"
+          ],
+          [
+            8,
+            0,
+            "-1/2"
+          ],
+          [
+            9,
+            1,
+            "1/2"
+          ]
+        ],
+        [
+          [
+            0,
+            9,
+            "I/2"
+          ],
+          [
+            1,
+            8,
+            "-I/2"
+          ],
+          [
+            8,
+            1,
+            "I/2"
+          ],
+          [
+            9,
+            0,
+            "-I/2"
+          ]
+        ],
+        [
+          [
+            0,
+            9,
+            "-1/2"
+          ],
+          [
+            1,
+            8,
+            "-1/2"
+          ],
+          [
+            8,
+            1,
+            "1/2"
+          ],
+          [
+            9,
+            0,
+            "1/2"
+          ]
+        ],
+        [
+          [
+            0,
+            3,
+            "1/2"
+          ],
+          [
+            1,
+            2,
+            "-1/2"
+          ],
+          [
+            8,
+            11,
+            "-1/2"
+          ],
+          [
+            9,
+            10,
+            "1/2"
+          ]
+        ],
+        [
+          [
+            0,
+            3,
+            "I/2"
+          ],
+          [
+            1,
+            2,
+            "-I/2"
+          ],
+          [
+            8,
+            11,
+            "I/2"
+          ],
+          [
+            9,
+            10,
+            "-I/2"
+          ]
+        ],
+        [
+          [
+            0,
+            5,
+            "1/2"
+          ],
+          [
+            1,
+            4,
+            "-1/2"
+          ],
+          [
+            8,
+            13,
+            "-1/2"
+          ],
+          [
+            9,
+            12,
+            "1/2"
+          ]
+        ],
+        [
+          [
+            0,
+            5,
+            "I/2"
+          ],
+          [
+            1,
+            4,
+            "-I/2"
+          ],
+          [
+            8,
+            13,
+            "I/2"
+          ],
+          [
+            9,
+            12,
+            "-I/2"
+          ]
+        ],
+        [
+          [
+            0,
+            7,
+            "1/2"
+          ],
+          [
+            1,
+            6,
+            "-1/2"
+          ],
+          [
+            8,
+            15,
+            "-1/2"
+          ],
+          [
+            9,
+            14,
+            "1/2"
+          ]
+        ],
+        [
+          [
+            0,
+            7,
+            "I/2"
+          ],
+          [
+            1,
+            6,
+            "-I/2"
+          ],
+          [
+            8,
+            15,
+            "I/2"
+          ],
+          [
+            9,
+            14,
+            "-I/2"
+          ]
+        ]
+      ],
+      "Noether_parameter_map": [
+        [
+          0,
+          0,
+          "I/2"
+        ],
+        [
+          1,
+          1,
+          "I/2"
+        ],
+        [
+          8,
+          8,
+          "-I/2"
+        ],
+        [
+          9,
+          9,
+          "-I/2"
+        ]
+      ],
+      "full_real_parameter_frame": [
+        [
+          0,
+          0,
+          "sqrt(2)/2"
+        ],
+        [
+          0,
+          1,
+          "sqrt(2)*I/2"
+        ],
+        [
+          1,
+          2,
+          "sqrt(2)/2"
+        ],
+        [
+          1,
+          3,
+          "sqrt(2)*I/2"
+        ],
+        [
+          8,
+          0,
+          "sqrt(2)/2"
+        ],
+        [
+          8,
+          1,
+          "-sqrt(2)*I/2"
+        ],
+        [
+          9,
+          2,
+          "sqrt(2)/2"
+        ],
+        [
+          9,
+          3,
+          "-sqrt(2)*I/2"
+        ]
+      ],
+      "J": [
+        [
+          0,
+          1,
+          "-1"
+        ],
+        [
+          1,
+          0,
+          "1"
+        ],
+        [
+          2,
+          3,
+          "-1"
+        ],
+        [
+          3,
+          2,
+          "1"
+        ]
+      ],
+      "source_action_static_sign": -1,
+      "Lorentzian_lowered_current_signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Hermitian_even_factor_for_returned_normal_profiles": "+i epsilon_odd xi_odd"
+    },
+    "root": {
+      "actual_E8_triplet_map": [
+        [
+          0,
+          1,
+          "sqrt(2)"
+        ],
+        [
+          1,
+          1,
+          "3*sqrt(2)/2"
+        ],
+        [
+          2,
+          1,
+          "2*sqrt(2)"
+        ],
+        [
+          3,
+          1,
+          "3*sqrt(2)"
+        ],
+        [
+          4,
+          1,
+          "5*sqrt(2)/2"
+        ],
+        [
+          5,
+          1,
+          "2*sqrt(2)"
+        ],
+        [
+          6,
+          1,
+          "sqrt(2)"
+        ],
+        [
+          7,
+          1,
+          "sqrt(2)/2"
+        ],
+        [
+          10,
+          0,
+          "1"
+        ],
+        [
+          245,
+          2,
+          "1"
+        ]
+      ],
+      "full_root_coordinates": [
+        -2,
+        -3,
+        -4,
+        -6,
+        -5,
+        -4,
+        -2,
+        -1
+      ],
+      "triplet_adjoint_matrices": [
+        [
+          [
+            0,
+            1,
+            "sqrt(2)"
+          ],
+          [
+            1,
+            2,
+            "sqrt(2)"
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            "-sqrt(2)"
+          ],
+          [
+            2,
+            2,
+            "sqrt(2)"
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            "-sqrt(2)"
+          ],
+          [
+            2,
+            1,
+            "-sqrt(2)"
+          ]
+        ]
+      ]
+    },
+    "family": {
+      "background": [
+        [
+          [
+            1,
+            0,
+            "(-sqrt(2)*g**2*zeta**4 + sqrt(2)*g**2)/(4*g**2*r*zeta**2 - 4*zeta**2)"
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            "(sqrt(2)*I*g**2*zeta**4 + sqrt(2)*I*g**2)/(4*g**2*r*zeta**2 - 4*zeta**2)"
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            "-g/(2*g**2*r**(3/2)*zeta - 2*sqrt(r)*zeta)"
+          ],
+          [
+            2,
+            0,
+            "-g*zeta/(2*g**2*r**(3/2) - 2*sqrt(r))"
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            "I*g/(2*g**2*r**(3/2)*zeta - 2*sqrt(r)*zeta)"
+          ],
+          [
+            2,
+            0,
+            "-I*g*zeta/(2*g**2*r**(3/2) - 2*sqrt(r))"
+          ]
+        ]
+      ],
+      "amplitude": [
+        [
+          [
+            1,
+            0,
+            "(sqrt(2)*g*zeta**4 - sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            "(-sqrt(2)*I*g*zeta**4 - sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            "(g**2*r + 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+          ],
+          [
+            2,
+            0,
+            "(g**2*r*zeta + zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            "(-I*g**2*r - I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+          ],
+          [
+            2,
+            0,
+            "(I*g**2*r*zeta + I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+          ]
+        ]
+      ],
+      "phase": [
+        [
+          [
+            1,
+            0,
+            "(-sqrt(2)*I*g*zeta**4 - sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            "(-sqrt(2)*g*zeta**4 + sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            "(-I*g**2*r - I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+          ],
+          [
+            2,
+            0,
+            "(I*g**2*r*zeta + I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            "(-g**2*r - 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+          ],
+          [
+            2,
+            0,
+            "(-g**2*r*zeta - zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+          ]
+        ]
+      ],
+      "actual_fermion_all_parameters": [
+        [
+          13,
+          2,
+          "-g/(g**4*r**2*zeta**2 - 2*g**2*r*zeta**2 + zeta**2)"
+        ],
+        [
+          13,
+          3,
+          "I*g/(g**4*r**2*zeta**2 - 2*g**2*r*zeta**2 + zeta**2)"
+        ],
+        [
+          16,
+          0,
+          "g/(g**4*r**2*zeta**2 - 2*g**2*r*zeta**2 + zeta**2)"
+        ],
+        [
+          16,
+          1,
+          "-I*g/(g**4*r**2*zeta**2 - 2*g**2*r*zeta**2 + zeta**2)"
+        ],
+        [
+          20,
+          2,
+          "(sqrt(2)*g**2*r*zeta + sqrt(2)*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+        ],
+        [
+          20,
+          3,
+          "(-sqrt(2)*I*g**2*r*zeta - sqrt(2)*I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+        ],
+        [
+          23,
+          0,
+          "(-sqrt(2)*g**2*r*zeta - sqrt(2)*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+        ],
+        [
+          23,
+          1,
+          "(sqrt(2)*I*g**2*r*zeta + sqrt(2)*I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+        ],
+        [
+          37,
+          2,
+          "g*zeta**2/(g**4*r**2 - 2*g**2*r + 1)"
+        ],
+        [
+          37,
+          3,
+          "I*g*zeta**2/(g**4*r**2 - 2*g**2*r + 1)"
+        ],
+        [
+          40,
+          0,
+          "-g*zeta**2/(g**4*r**2 - 2*g**2*r + 1)"
+        ],
+        [
+          40,
+          1,
+          "-I*g*zeta**2/(g**4*r**2 - 2*g**2*r + 1)"
+        ],
+        [
+          42,
+          2,
+          "(sqrt(2)*g**2*r + sqrt(2))/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+        ],
+        [
+          42,
+          3,
+          "(sqrt(2)*I*g**2*r + sqrt(2)*I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+        ],
+        [
+          45,
+          0,
+          "(-sqrt(2)*g**2*r - sqrt(2))/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+        ],
+        [
+          45,
+          1,
+          "(-sqrt(2)*I*g**2*r - sqrt(2)*I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+        ]
+      ],
+      "all_returned_boson_images": [
+        [
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [
+            [
+              1,
+              0,
+              "(sqrt(2)*g*zeta**4 - sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ],
+            [
+              1,
+              1,
+              "(sqrt(2)*I*g*zeta**4 + sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              "(-sqrt(2)*I*g*zeta**4 - sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ],
+            [
+              1,
+              1,
+              "(sqrt(2)*g*zeta**4 - sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              "(sqrt(2)*g*zeta**4 - sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ],
+            [
+              1,
+              3,
+              "(sqrt(2)*I*g*zeta**4 + sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              "(-sqrt(2)*I*g*zeta**4 - sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ],
+            [
+              1,
+              3,
+              "(sqrt(2)*g*zeta**4 - sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              0,
+              "(-sqrt(2)*I*g*zeta**4 - sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ],
+            [
+              1,
+              1,
+              "(sqrt(2)*g*zeta**4 - sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              "(-sqrt(2)*g*zeta**4 + sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ],
+            [
+              1,
+              1,
+              "(-sqrt(2)*I*g*zeta**4 - sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              "(-sqrt(2)*I*g*zeta**4 - sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ],
+            [
+              1,
+              3,
+              "(sqrt(2)*g*zeta**4 - sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              "(-sqrt(2)*g*zeta**4 + sqrt(2)*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ],
+            [
+              1,
+              3,
+              "(-sqrt(2)*I*g*zeta**4 - sqrt(2)*I*g)/(2*g**4*r**2*zeta**2 - 4*g**2*r*zeta**2 + 2*zeta**2)"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              0,
+              "(g**2*r + 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              0,
+              1,
+              "(I*g**2*r + I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              2,
+              0,
+              "(g**2*r*zeta + zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ],
+            [
+              2,
+              1,
+              "(-I*g**2*r*zeta - I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              "(-I*g**2*r - I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              0,
+              1,
+              "(g**2*r + 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              2,
+              0,
+              "(I*g**2*r*zeta + I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ],
+            [
+              2,
+              1,
+              "(g**2*r*zeta + zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              "(g**2*r + 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              0,
+              3,
+              "(I*g**2*r + I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              2,
+              2,
+              "(g**2*r*zeta + zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ],
+            [
+              2,
+              3,
+              "(-I*g**2*r*zeta - I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              "(-I*g**2*r - I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              0,
+              3,
+              "(g**2*r + 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              2,
+              2,
+              "(I*g**2*r*zeta + I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ],
+            [
+              2,
+              3,
+              "(g**2*r*zeta + zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              0,
+              "(-I*g**2*r - I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              0,
+              1,
+              "(g**2*r + 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              2,
+              0,
+              "(I*g**2*r*zeta + I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ],
+            [
+              2,
+              1,
+              "(g**2*r*zeta + zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              "(-g**2*r - 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              0,
+              1,
+              "(-I*g**2*r - I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              2,
+              0,
+              "(-g**2*r*zeta - zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ],
+            [
+              2,
+              1,
+              "(I*g**2*r*zeta + I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              "(-I*g**2*r - I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              0,
+              3,
+              "(g**2*r + 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              2,
+              2,
+              "(I*g**2*r*zeta + I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ],
+            [
+              2,
+              3,
+              "(g**2*r*zeta + zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              "(-g**2*r - 1)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              0,
+              3,
+              "(-I*g**2*r - I)/(2*g**4*r**(5/2)*zeta - 4*g**2*r**(3/2)*zeta + 2*sqrt(r)*zeta)"
+            ],
+            [
+              2,
+              2,
+              "(-g**2*r*zeta - zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ],
+            [
+              2,
+              3,
+              "(I*g**2*r*zeta + I*zeta)/(2*g**4*r**(5/2) - 4*g**2*r**(3/2) + 2*sqrt(r))"
+            ]
+          ]
+        ]
+      ],
+      "gauge_parameter": [
+        [
+          1,
+          0,
+          "(sqrt(2)*I*g**2*r + sqrt(2)*I)/(2*g**3*r - 2*g)"
+        ]
+      ],
+      "inner_gauge_parameter": [
+        [
+          1,
+          0,
+          "-sqrt(2)*I/(2*g)"
+        ]
+      ],
+      "norm_density": "(g**4*r**2 + 4*g**2*r + 1)/(g**8*r**5 - 4*g**6*r**4 + 6*g**4*r**3 - 4*g**2*r**2 + r)",
+      "phase_norm_density": "(g**4*r**2 + 4*g**2*r + 1)/(g**8*r**5 - 4*g**6*r**4 + 6*g**4*r**3 - 4*g**2*r**2 + r)",
+      "cross": "0",
+      "primitive": "r*(g**2*r + 1)/(-g**2*r + 1)**3",
+      "end_flux": "(-g**2*r**2 - r)/(g**6*r**3 - 3*g**4*r**2 + 3*g**2*r - 1)",
+      "both_end_norm": "2*pi*(R*(R*g**2 + 1)/(-R*g**2 + 1)**3 - epsilon*(epsilon*g**2 + 1)/(-epsilon*g**2 + 1)**3)"
+    },
+    "meaning": {
+      "real_bosonic_profile_span": 2,
+      "all_real_supercharge_parameters": 4,
+      "not_physical_generations": true,
+      "proper_gauge_definition": "parameters vanish at BOTH ends",
+      "phase_is_proper_gauge": false,
+      "larger_quotient_is_a_different_ensemble": true,
+      "complete_physical_boundary_law": false,
+      "full_physical_SM_three_gravity": false,
+      "shared_author_not_independent_acceptance": true
+    }
+  },
+  "all_passed": true
+}

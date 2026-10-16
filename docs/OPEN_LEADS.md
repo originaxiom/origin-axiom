@@ -7195,3 +7195,32 @@ verified. Governance26PASS/four inherited FAIL32.169122s, first3failure
 lines byte-identical;42stale/170open, review608. Full VALIDATION/raw
 states/streams/receipts. No waiver/nonauthor/main/full-suite/physical
 acceptance. Full foundational physical SM/three/parameters/gravity ACTIVE.
+
+PB-SURFACE-REVERSE-SUSY-CLOSURE UPDATE: the actual source map and
+known amplitude family subset are now POSITIVE,34/34each at05a591e8f,
+surface_reverse_susy_2026_10_16/FINDINGS.md. All ten bosons/full32
+Lorentzian lowering/four real parameters/actual E8 root/complete
+amplitude and phase profiles/local equations/both-end norm flux verified.
+This does NOT close the broader arbitrary trace/auxiliary/curved/
+finite action/joint ensemble obligation. Earlier free scoped energy
+controls and current full real-work/bulk-end balance remain intact.
+
+PB-SOURCE-GAUSS-BOUNDARY-ENSEMBLE OPEN TEST: derive the SAME actual
+source action's canonical/presymplectic gauge generator, full real
+Majorana Grassmann fermion charge and scalar/boson Gauss terms. Test
+the current amplitude/phase family and both-end balance. The phase
+is D epsilon_g with nonzero end values and harmonic full covariant
+Laplacian; not proper for a zero-at-both-ends group, NOT automatically
+a nonzero electric charge/edge particle. Determine allowed fixed/varied
+data, larger quotient/edge alternatives and exterior matching from the
+action and global carrier. Do not impose one simply to preserve/drop
+a desired field. NEXT_TEST carries remaining nonlinear/auxiliary/
+curved/all-frequency/global spectrum/whole roster and foundational
+physical SM/three/parameters/gravity duties. No cross-parent counts.
+
+Search 'boundary gauge charge phase Gauss symplectic':288broad/7settled
+overlaps, not an absence certificate. Donnelly--Freidel section2 and
+BHV Appendix B personally read as framework comparators, not a selected
+OA edge completion or literal source-normalization dictionary. The new
+lead is this specified application, not a claim the broader corpus has
+no boundary-charge work. Full goal ACTIVE; no programme-wide kill.

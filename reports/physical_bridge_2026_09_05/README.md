@@ -1,5 +1,30 @@
 # Physical bridge audit — 2026-09-05
 
+October16 actual reverse supersymmetry:34/34each at published05a591e8f,
+236pins/15,515tracked/index unchanged. All ten actual source boson maps
+match ONE Noether parameter map with the independently checked full32
+Lorentzian lowered current(I,-v), not the rejected Hamiltonian guess.
+The complete real amplitude family returns BOTH amplitude and phase;
+full Dirac/BPS/gauge fixing/local boson Euler equations hold. The phase
+is D epsilon_g, covariantly harmonic with scalar terms retained, but
+its parameter is nonzero at BOTH ends. It is not redundant in a group
+DEFINING parameters zero at both ends. Positive finite inner coefficient
+norm equals both-end flux; outer cut/pole retained. Not a nonzero charge,
+physical particle/count, global modulus or selected edge ensemble.
+Two source-map failures and one interrupted performance run are fully
+preserved; explicit Lorentzian correction and exact positive-radius
+performance repair were sealed/pushed before successor. No source phase,
+field, action or residual criterion changed. Packet
+surface_reverse_susy_2026_10_16 FINDINGS/PROOF/NEXT_TEST. NEXT actual
+SAME-source Gauss/presymplectic generator with full real Grassmann
+fermion current and both-end charge law, fixed/varied data, exterior
+matching and full coupled curved auxiliary/source/SUSY boundary.
+Arbitrary/global charged admission, whole partner roster and foundational
+physical SM/three/parameters/gravity ACTIVE. No other-parent count/mass
+transplant or full-suite/nonauthor/main/physical acceptance. Selected
+LIVE/governance validation follows science banking; no green repo claim.
+
+
 October16 REAL fermion work/balance: initial46/46at36e67bc61; calibrated
 50/50each at published96eb405bf,224pins/tree/index unchanged. Actual
 positive-time/all9spatial coefficients give static source action MINUS
