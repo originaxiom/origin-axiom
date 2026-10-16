@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 actual-tube validation:6selected LIVE PASS168.93s at
+52bbc7dbb,141pins/tree/index unchanged; both47-check methods rerun.
+Governance26PASS/four inherited FAIL43.617549s, no waiver/new science
+path. Full VALIDATION and literature criterion retained. NEXT whole
+adapted multiplet and full angular/singular/varying-tube/gauge/global
+charged admission. Full generated physical SM/three/gravity ACTIVE.
+
+
 October16 actual-tube audit:47/47 exact per method at published repair
 38246fafe,141pins/tree/index unchanged. The actual normal tilts; an
 intrinsic C-real half-rank plane passes flux/current tests, unchanged

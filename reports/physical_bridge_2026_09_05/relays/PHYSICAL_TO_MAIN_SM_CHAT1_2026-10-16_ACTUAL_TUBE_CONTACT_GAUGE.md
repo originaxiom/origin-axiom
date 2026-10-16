@@ -43,3 +43,11 @@ use their methods, not other-parent counts or automatic old negatives.
 
 Fixed based rank3 g2+u1 not SM; R93 not a free splice. Full generated
 physical SM/three/gravity ACTIVE. Live validation/governance follows.
+
+Terminal at52bbc7dbb:6selected LIVE PASS168.93s, capture170.183851s;
+both47-check producers rerun.141pins/13,872tracked/index unchanged.
+Governance26PASS/four inherited FAIL43.617549s; first3failure lines
+match prior capture,42stale/163open, review582. No waiver/new science
+path, recipient/independent/full-suite/main/physical SM acceptance.
+VALIDATION and LITERATURE_CHECK retain exact state and next criterion;
+Witten--Yonekura section2.1 personally reread, not full paper this pass.
