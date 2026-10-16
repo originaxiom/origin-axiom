@@ -1,5 +1,14 @@
 # Actual tube normal real trace and compact boundary gauge law
 
+**October16 angular follow-up:** surface_angular_response_2026_10_16
+now computes the formerly untested full internal boundary symbol. Q(N)
+and I-Q(N) have a characteristic Cauchy intersection and are not ordinary
+complementing elliptic finite-cut traces. The geometric/current/contact
+results below remain true and were explicitly scoped to principal Green
+admission, not ellipticity. The SAME source has verified spectral and
+charged local kinetic alternatives, with new action/domain duties.
+No singular critical-domain, all-boundary or programme-wide exclusion.
+
 The specified real parent admits an intrinsic half-rank principal
 fermion trace on the actual embedded tube. The old unchanged vertical
 plane fails that normal-flux test. A geometric contact bracket also

@@ -744,3 +744,15 @@ does not identify complex matter CR fields with compact parameters.
 Vanishing of the old field-space cocycle on this restricted stabilizer
 is not a general physical boundary-charge result. No shared I-status
 or observed SM/three/gravity identification is promoted.
+
+## October16 full angular source map and response distinctions
+
+surface_angular_response_2026_10_16 reconstructs all9actual source
+velocities and maps the full frozen internal normal equation/Cauchy
+spaces. Its old pointwise Q is not an elliptic-domain identification,
+despite real Green flux. Its constructive spectral and real charged-
+pair responses are kinetic results, NOT the complete curved nonlinear/
+SUSY boundary action, singular critical domain or physical particle map.
+The positive squared response is not the first-order fermion action or
+determinant phase. Fourier/charge conjugation is not a fixed-label reality
+projection. No shared I-status, physical count, SM/three/gravity promoted.

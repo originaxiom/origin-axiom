@@ -6786,3 +6786,43 @@ gauge/vector recovery. Normal compensator, BOTH ends and full conjugates
 retained. Full curved multiplet/global stationary Higgs/charged theory,
 appropriate gauge phase, norms/vertices/anomalies, foundational selection
 and observed full SM/three/gravity remain ACTIVE. NEXT_TEST gives order.
+
+## October16 full angular verdict and constructive response duties
+
+PB-SURFACE-FULL-ANGULAR-ADMISSION: RESOLVED for the SPECIFIED adapted
+pointwise Q and its complement, NEGATIVE ordinary internal ellipticity.
+Closing sentence: "The actual adapted pointwise plane fails the full
+internal elliptic boundary condition, despite its correct real Green
+flux." Source surface_angular_response_2026_10_16/FINDINGS.md, universal
+Clifford proof plus41/41 per method; dimension4 characteristic Cauchy
+intersection, not particle census. No all-boundary, singular critical-
+domain or full-architecture kill; scoped kill-graph node carries hatches.
+
+PB-SURFACE-SPECTRAL-RESPONSE: KINETIC POSITIVE, interacting/global OPEN.
+SAME-source P_plus complements all inward Cauchy data at E>0, correct
+Majorana Fourier/charge reversal and external Lorentz/current. Derived
+from the same frozen exterior equation, not a borrowed boundary field.
+Squared-norm response is not the first-order fermion effective action
+or anomaly phase. Need actual curved/gauge/field-dependent operator,
+neutral E=0 law, bosonic/source/auxiliary/SUSY completion and both ends.
+
+PB-SURFACE-CHARGED-LOCAL-PAIR: KINETIC POSITIVE, full theory OPEN.
+Real paired local bag on existing conjugate charges passes principal/
+C/Lorentz/current checks; unpaired complex bag fails C as a control.
+Supplied charge axis and scalar direction/phase, arbitrary gauge mixing
+fails, neutral/global zeros and bosonic/source/SUSY boundary action remain.
+Do not label this a full E8/SM boundary theory or copy any old count.
+
+PB-SURFACE-ACTION-GENERATED-RESPONSE OPEN, UNVERIFIED route: test whether
+the existing residual/BPS equations and a justified exterior/core joint
+produce the compatible response/stable data, rather than freely selecting
+a projector. No gradient-flow/selected boundary-state theorem is asserted.
+Search existing flow/response instruments first; no new absence claim.
+
+PB-SURFACE-CUTOFF-LIMIT and FINITE-CUT-POLES remain OPEN for singular
+critical graph, finite versus total high-pole modes/concentrations,
+varying-tube cusp joining and massless gauge/vector recovery. Keep
+compensator, both ends and all conjugates. ONE appropriate stationary
+charged theory with norms/vertices/anomalies and foundational selection
+of observed full SM/three/gravity remains ACTIVE; fixed based rank3 not
+SM, different-parent R93 not spliced. NEXT_TEST retains all obligations.

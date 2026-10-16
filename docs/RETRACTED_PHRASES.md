@@ -1,5 +1,14 @@
 # THE RETRACTED-PHRASE REGISTRY
 
+**Scope guard, October16 physical bridge:** a real flux-zero half-rank
+plane is not automatically a full elliptic boundary condition. The
+actual tube report limited itself to geometry/current/principal trace;
+surface_angular_response_2026_10_16 now finds a characteristic Cauchy
+intersection for that specified Q and its complement. This is not a
+retraction of its real geometric positives or a singular-domain/all-
+boundary chirality no-go. SAME-source spectral and charged local kinetic
+alternatives pass, with neutral/global/interacting/SUSY duties explicit.
+
 **Scope clarification, October8 physical bridge:** do not read the
 weave_sm_parallel bounded parallel classification as a classification of
 all stationary backgrounds. Its equations impose ZERO F/D residuals.

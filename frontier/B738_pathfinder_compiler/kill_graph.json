@@ -10840,5 +10840,19 @@
   "note": "The structural lesson generalises past both rows: A_2's Coxeter PLANE is its root lattice, so the golden case works and invites the extrapolation; A_3's plane is A_1+A_1. Rank 2 -> rank 3 is where the computation became an identification. Golden control confirms it -- the golden CUSP lattice's even form has |D| = 48 against A_2's 3, so even there the cusp does not carry the form; the plane does.",
   "priority": "P2",
   "revival_score": 1
+ },
+ {
+  "id": "PB-SURFACE-ANGULAR-2026-10-16",
+  "claim_killed": "The SPECIFIED actual adapted pointwise Q=(I+i R_s v(n)v(Jn))/2, or its complement, is a complementing elliptic boundary law for the full supplied internal Dirac operator. Both admit dimension4 inward-decaying Cauchy data at pure characteristic covectors, despite correct real Green flux. No earlier report claimed this untested ellipticity; this records a prospective identification that the new computation excludes.",
+  "kill_form": "failed-complementing-condition",
+  "faces_consulted": [
+   "none"
+  ],
+  "fact_computed": true,
+  "hatch": "SAME-source spectral response P_plus=(I+H/E)/2 and a charged-pair local bag both pass their scoped kinetic tests in the SAME packet. Interacting/curved source/SUSY, neutral threshold, global phase/gauge/cusp joining and stationary spectrum remain open. Changed local/nonlocal traces or boundary fields are not excluded; no old count transfers.",
+  "priority": "P1",
+  "revival_score": 5,
+  "depth_note": "Original unchanged Q remains nonelliptic; this is NOT a whole-parent, singular critical-domain, all-boundary or whole-architecture negative. The full all-covector Clifford proof is supported by two actual-source implementations and nine exact Cauchy-space controls, not a sampled global particle census.",
+  "note": "Source reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/PROOF.md and FINDINGS.md; LIVE tests/test_physical_bridge_surface_angular_response.py. Preregistered/server-confirmed95b08e9c1,41/41 each with155pins/tree/index unchanged. Opaque physical-bridge cell ID, not a newly reserved main B arc. Canonical object-face attachment declined (none): this is a supplied physical-parent boundary test. Full generated physical SM/three/gravity goal remains active."
  }
 ]

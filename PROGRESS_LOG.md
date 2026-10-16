@@ -20067,3 +20067,43 @@ importing a spectrum/anomaly. Actual whole adapted multiplet, angular/
 singular/varying-radius/gauge/global charged theory next. No nonauthor/
 analytic/full-suite/main or physical SM/three/gravity acceptance.
 Ultimate full generated physical goal ACTIVE.
+
+### October16 actual source angular verdict and constructive responses
+
+Previous goal turn PROGRESS; current source/tree inspected and all11heads
+refreshed. main/web unchanged; SM637230e3f documentation/read-receipt
+diff fully reviewed, not a new boundary computation imported. Same full
+generated physical goal retained. Current rules/ladder/campaign/LAW/leads,
+prior code/FINDINGS and full angular/Cauchy proofs personally read.
+
+At server-confirmed pre-run95b08e9c1,41/41 each in24.335380/19.971223s,
+complete6404-byte records identical SHA256
+2084fa9261ff52813261272e6e8525157a9d925e14e79d2edf50df0e9c8de22b.
+155pins/13,895tracked/index unchanged. Actual source/metric versus
+complementary-MW reconstruction/direct Cauchy ranks, shared author/
+conventions/Sympy, not independent analytic or fresh superspace acceptance.
+
+The adapted Q and I-Q both have4dim characteristic inward Cauchy
+intersection,0 at nonzero CR momentum, universal Clifford proof plus
+9exact controls. Genuine geometric/current/contact facts preserved;
+ordinary full internal ellipticity fails ONLY for these specified
+pointwise planes. Scoped kill-graph node and changed-boundary hatches
+registered, views regenerated; not a singular critical-domain or all-
+boundary/programme/physics kill. No earlier count was attached here.
+
+SAME-source spectral response derived from same frozen exterior passes
+complete Cauchy/Green/Lorentz/reversed-Fourier-charge reality tests.
+Positive squared-norm response not the first-order fermion action or
+determinant phase; E=0 explicitly open. Local charged conjugate-pair
+bag also passes principal/C/Lorentz/current with charge-axis/scalar
+choices and neutral/global/SUSY/source costs; unpaired bag fails C,
+arbitrary gauge mixing fails, no deleted conjugate fields.
+
+Nine scoped LAW rows, identification supplement, all open response/
+neutral/cusp/singular/gauge/physics duties, sender relay/current surfaces
+synchronized.24I rows/9UNEARNED at baseline9; five controls pass with
+known bare-assertion blind spot. No I-status promoted. Next SAME full
+interacting boundary source/multiplet/SUSY then ONE globally stationary
+charged theory/norms/vertices/anomalies. Fixed based rank3 not SM; R93
+not a free splice. Full observed SM/three/gravity ACTIVE. Selected
+scientific/routing/governance validation follows, not full-suite green.

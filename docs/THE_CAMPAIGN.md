@@ -1,5 +1,16 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October16 full angular source test:41/41 each at published95b08e9c1,
+155pins/tree/index unchanged. The specified adapted Q AND its complement
+fail ordinary full internal ellipticity at characteristic covectors;
+real geometric/current positives preserved, no singular/all-boundary kill.
+SAME-source spectral response and real charged local pair pass scoped
+kinetic tests, with threshold/neutral/phase/gauge/interacting/SUSY costs.
+Squared response not a fermion action/phase. Scoped kill node+hatches,
+views/leads/LAW/relay synchronized. Full generated physical SM/three/
+gravity ACTIVE. surface_angular_response_2026_10_16 FINDINGS/NEXT_TEST.
+
+
 October16 actual-tube audit:47/47 exact per method at published repair
 38246fafe,141pins/tree/index unchanged. The actual normal tilts; an
 intrinsic C-real half-rank plane passes flux/current tests, unchanged

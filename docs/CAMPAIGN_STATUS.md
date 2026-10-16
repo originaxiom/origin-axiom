@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 full angular source test:41/41 each at published95b08e9c1,
+155pins/tree/index unchanged. The specified adapted Q AND its complement
+fail ordinary full internal ellipticity at characteristic covectors;
+real geometric/current positives preserved, no singular/all-boundary kill.
+SAME-source spectral response and real charged local pair pass scoped
+kinetic tests, with threshold/neutral/phase/gauge/interacting/SUSY costs.
+Squared response not a fermion action/phase. Scoped kill node+hatches,
+views/leads/LAW/relay synchronized. Full generated physical SM/three/
+gravity ACTIVE. surface_angular_response_2026_10_16 FINDINGS/NEXT_TEST.
+
+
 October16 actual-tube validation:6selected LIVE PASS168.93s at
 52bbc7dbb,141pins/tree/index unchanged; both47-check methods rerun.
 Governance26PASS/four inherited FAIL43.617549s, no waiver/new science
