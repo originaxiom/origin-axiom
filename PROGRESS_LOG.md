@@ -20683,3 +20683,12 @@ leads, identification scope and sender relay registered; no B/I change,
 cross-parent counts/masses/gaps, receiver acceptance or qualia claim.
 Full original physical goal ACTIVE. LIVE/governance follows; four
 inherited debts and nonauthor/full-suite/main duties remain separate.
+
+Terminal LIVE at published3b479f7fa:13PASS45.58s (capture46.783196s),
+actual selection new7+root6, both144 and both80 full producers fresh.
+Governance26PASS/four existing reported FAIL18.533616s; both captures
+269pins/16,948tracked/index unchanged. First3REPORTED failure lines
+match prior, NOT complete provenance debt inventory;42stale/174open,
+review629. No baseline/gate waiver, full-suite/nonauthor/recipient/
+main/physical acceptance. VALIDATION/raw states kept. Post-check report
+updates not back-certified;269science pins separately rechecked.

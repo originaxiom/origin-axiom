@@ -1,0 +1,31 @@
+{
+  "mode": "regression",
+  "capture_leaf": "regression",
+  "command": [
+    "PYTHON3.12.14",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_surface_same_action_transmission.py",
+    "tests/test_physical_bridge_surface_root_gauge_sector.py"
+  ],
+  "exit_code": 0,
+  "seconds": 46.783196000003954,
+  "before_completed_before_launch": true,
+  "state_unchanged": true,
+  "tracked_files": 16948,
+  "source_pins": 269,
+  "tree_sha256": "ee7944c79f5700400772e8f474e7354c8b3de3dc752f711890d07c1fc178b8b4",
+  "index_sha256": "93e495ea475080f21e90a30b2418113f24288e79b9d66317724898d59e40ee80",
+  "stdout": {
+    "bytes": 100,
+    "sha256": "c9f71c2dc29b5003910c0792ddcd77282ed77ff86e59b8e300a2d19cb60def6f"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

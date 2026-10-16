@@ -123,3 +123,12 @@ unearned physics identification, observer/qualia claim or other-parent
 mass/count/gap transplant. Named analytic review remains open/held for
 owner; a sender report is not receiver acceptance. LIVE/governance
 validation follows separately; no full-repository green claim.
+
+Terminal validation at published3b479f7fa:13selected LIVE PASS45.58s,
+capture46.783196s, new7+root6; both144 and both80 producers rerun.
+Governance26PASS/four inherited reported FAIL18.533616s. Both captures
+retain269pins/16,948tracked/index unchanged. First three REPORTED
+failure lines identical to preceding all-boson repaired capture, not
+a full provenance-debt inventory (gate truncates).42stale/174open,
+review629; no waiver. Full VALIDATION/raw receipts. Post-check report
+updates not back-certified; scientific pins separately rechecked.

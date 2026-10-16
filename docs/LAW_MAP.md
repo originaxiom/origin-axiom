@@ -4,6 +4,8 @@ October16 same-action transmission sublemmas, path-local CONDITIONAL
 research, not a new shared B allocation or independent analytic acceptance.
 144/144each at published4ced3ad81,269pins/tree/index unchanged. Standard
 transmission and older R30/R89 credited; actual source application below.
+Terminal at3b479f7fa:13selected LIVE PASS45.58s,269pins/tree/index
+unchanged; governance26PASS/four existing reported FAIL. Not full suite.
 
 | Scoped statement | Argument and LIVE safeguard |
 |---|---|

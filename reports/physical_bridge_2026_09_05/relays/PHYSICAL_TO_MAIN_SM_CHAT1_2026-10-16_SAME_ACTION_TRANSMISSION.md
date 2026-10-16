@@ -51,3 +51,10 @@ Requested review, if assigned: PROOF1 actual primitive/momentum matching,
 PROOF3 all-joint-frequency scope, PROOF6 lossless-domain versus true-end
 distinction. LIVE/governance follows; no full-suite/nonauthor/recipient/
 main or physical acceptance claimed by this sender.
+
+Terminal at3b479f7fa:13selected LIVE PASS45.58s, capture46.783196s,
+new7+root6; both144 and both80 full producers fresh. Governance
+26PASS/four existing reported FAIL18.533616s;269pins/16,948tracked/
+index unchanged in both captures. First3reported failure lines match
+prior, not full untruncated debt inventory.42stale/174open, review629,
+no waiver; full VALIDATION/raw records. No receiver acceptance assigned.
