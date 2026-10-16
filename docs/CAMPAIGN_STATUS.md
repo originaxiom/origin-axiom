@@ -1,5 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 actual global-tube variation:29/29each at published460dca46e,
+151.156943/113.391281s, full490,216byte records agree;331pins/tree/index
+unchanged. Full tilted normal/measure, nonlinear source momenta4L^T C,
+retained CS/scalar/corner variation and actual real fermion pairing now
+computed in the supplied curved RESIDUAL sector. Raw component delta B
+and full curved superfield completion remain distinct. Not a selected
+physical end/domain, global SM phase or physical three. Main S136's
+parent-from-GENESIS/unit-before-three priorities put admission FIRST,
+not further local profiles; existing R94/R95/source maps credited and
+must act, not merely match names. New packet surface_global_boundary_variation_2026_10_16
+FINDINGS/NEXT_TEST. Full physical goal ACTIVE; LIVE/governance/outside/
+recipient/main/full-suite and four inherited debts remain separate.
+
 LATEST terminal arena validation at d661e198f:16selected LIVE PASS229.38s,
 governance26PASS/four inherited FAIL85.508196s;321pins/17,638tracked/index
 unchanged in both. Full VALIDATION/raw receipts in surface_arena_boundary.

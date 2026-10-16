@@ -1,5 +1,18 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+October16 actual global-tube variation:29/29each at published460dca46e,
+151.156943/113.391281s, full490,216byte records agree;331pins/tree/index
+unchanged. Full tilted normal/measure, nonlinear source momenta4L^T C,
+retained CS/scalar/corner variation and actual real fermion pairing now
+computed in the supplied curved RESIDUAL sector. Raw component delta B
+and full curved superfield completion remain distinct. Not a selected
+physical end/domain, global SM phase or physical three. Main S136's
+parent-from-GENESIS/unit-before-three priorities put admission FIRST,
+not further local profiles; existing R94/R95/source maps credited and
+must act, not merely match names. New packet surface_global_boundary_variation_2026_10_16
+FINDINGS/NEXT_TEST. Full physical goal ACTIVE; LIVE/governance/outside/
+recipient/main/full-suite and four inherited debts remain separate.
+
 October16 global-boundary milestone:44/44each at5c0f3ca60,321pins/
 17,626tracked/index unchanged. Explicit actual normal-bundle map joins
 proposed trefoil arena to supplied4Dweave surface; global smooth E2

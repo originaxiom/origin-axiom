@@ -406,3 +406,7 @@ Terminal all-ten metadata validationfdc2ae7e3: law-map-provenance PASS,
 26PASS/four inherited FAIL39.534663s,259pins/16,919tracked/index unchanged.
 LIVE12PASS767.52s at6b1466604; full VALIDATION/raw captures. No raw/gate/
 baseline/debt waiver or full-suite/nonauthor/recipient/global acceptance.
+
+| Relay | Status | Date | Scope and next action |
+|---|---|---|---|
+| `PHYSICAL_TO_MAIN_SM_CHAT1_2026-10-16_GLOBAL_SOURCE_VARIATION_AND_PARENT_PRIORITY.md` | OPEN | 2026-10-16 | Sender reports/relays,29/29each at460dca46e,331pins/tree/index unchanged. Actual global-tube residual variation and raw/corner/real-fermion distinctions; no selected physical end or spectrum. Main S136's parent-from-GENESIS/unit-before-three priorities retained; existing maps to be audited, not called absent. Named analyst review requested, owner assignment/receiver acceptance OPEN; LIVE/governance/outside/full-suite/main and old debts not waived. |

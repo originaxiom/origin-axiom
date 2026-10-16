@@ -1,5 +1,20 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+October16 source variation on the actual global tube:29/29each at
+published460dca46e,331pins/tree/index unchanged. Authored conditional
+residual-sector application, not a new shared number or independent
+analytic/full physical acceptance. Complete source/geometry antecedents
+freshly retained; standard variation/transgression credited.
+
+| Scoped statement | Argument and LIVE safeguard |
+|---|---|
+| Actual variable-tube orthonormal conormal and induced density retain horizontal geometry and radius gradient; flux is ell²r²(X dot N)/y². | B1641 supplied-geometry context ONLY; NEW reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/PROOF.md section1; tests/test_physical_bridge_surface_global_boundary_variation.py::test_actual_variable_normal_density_and_current. Fixed regulator, no moving-shape or cusp-domain theorem. |
+| All seven actual curved residuals give nonlinear source momenta4L(n)^T C; L^TL has only the normal-gauge kernel and rank5 per coefficient. | B1138 supplied-parent context ONLY; NEW global_boundary_variation PROOF.md section2; tests/test_physical_bridge_surface_global_boundary_variation.py::test_nonlinear_source_momenta_not_rough_energy. Full commutator retained; rank is not species/chirality. |
+| Source work8 versus rough2E work4 on an explicit normalized Cartan jet detects deleting calibration from the boundary problem. | B1138 source context ONLY; NEW global_boundary_variation PROOF.md sections2/3; tests/test_physical_bridge_surface_global_boundary_variation.py::test_nonlinear_source_momenta_not_rough_energy. A variational distinction, not a measured physical value. |
+| Local energy primitive2CS_B-2i_Jdvol has delta CS=2B(delta A wedge F)-dB(A wedge delta A), with nonzero generic corner and scalar derivative variation. | B1138 source context ONLY; NEW global_boundary_variation PROOF.md section3; tests/test_physical_bridge_surface_global_boundary_variation.py::test_end_functional_variation_retains_corners_and_nonflat_data. Caps/patch descent/raw delta B retained; not an extra edge action or quantum level. |
+| Full nonlinear source boundary pairing is gauge covariant; residual0 implies natural boson momenta0 without a Dirichlet field-value requirement. | B1138 parent context ONLY; NEW global_boundary_variation PROOF.md section2; tests/test_physical_bridge_surface_global_boundary_variation.py::test_gauge_covariance_and_natural_boson_scope. Not existence of a global stationary field or full gauge/SUSY boundary multiplet. |
+| Actual real fermion normal pairing is nondegenerate on all source/coefficient slots; both intrinsic real half-planes are Green-null but a physical domain is not selected by unconstrained variation. | B1138 source context ONLY; NEW global_boundary_variation PROOF.md section4; tests/test_physical_bridge_surface_global_boundary_variation.py::test_actual_real_fermion_pairing_requires_a_domain. Prior pointwise principal failure remains, no chiral spectrum/exterior-state theorem. |
+
 October16 normal-arena/source boundary sublemmas, path-local conditional
 research, not a new shared B allocation.44/44each at5c0f3ca60,321pins/
 tree/index unchanged; prior geometric329/32 and source58 freshly retained.

@@ -20745,3 +20745,34 @@ map is not faithful to all infinite architecture data; winding/register
 kept separately. New global tube does not cure old one-sided principal
 failure or select physical end state. Next actual source end law/state
 and globally admitted fields; original full physical goal stays ACTIVE.
+
+## 2026-10-16 — Actual global-tube source variation and parent priority
+
+At pre-run published/server-confirmed460dca46e62df2dd8ca0129eb81fce979511d054,
+native29/29 PASS151.156943s, reference29/29 PASS113.391281s. Complete
+490,216byte records agree SHA256622fda772c46716fe7eeae17840eb12e7adf920dc28da6b1f30f35a401b606ad.
+331pins/17,660tracked/index unchanged; full first_run raw/inventories/
+receipt. Fresh arena44,curved53,transmission144 retained EACH route,
+not additional independent findings. No failed science attempt or
+post-result scientific repair; same author/proof/Sympy, outside owed.
+
+Actual varying-tube normal/measure gives complete nonlinear RESIDUAL-
+source momenta4L^T C. Symbol Gram has only normal-gauge kernel/rank5
+per coefficient, not particles. Explicit source8/rough4 control prevents
+discarding calibration. Local2CS_B-2i_Jdvol primitive and its scalar/
+derivative/corner variation retained, not extra action or quantum level.
+Real Majorana pairing retains all sectors and still requires a joint
+domain; both intrinsic signs survive, neither repairs old principal
+failure. Raw source delta B and full curved/WZW/patch completion remain
+distinct; caps/corners not erased. No actual physical end state selected.
+
+All11heads refreshed; mainbf44d9032 B1660 FINDINGS/S136 relay personally
+read, not reproduced or every-basin exclusion. SM30ae7ea2e script-before-
+run/chat12a4bd10fe raw-publication intake, not physics outcome. Main's
+pull-back fork UNRULED. NEXT admission parent-from-GENESIS/unit-before-
+three, existing R94/R95/based/source maps audited before more local
+profiles, then justified exterior/state, global stationary SM fields,
+whole charged spectrum/norms/vertices/anomalies/three/parameters/gravity.
+All sublemmas/leads/ID/sender relay banked; no B/I allocation or receiver
+acceptance. Full original goal ACTIVE; LIVE/governance follows, four
+inherited debts/outside/nonauthor/full-suite/main duties unwaived.

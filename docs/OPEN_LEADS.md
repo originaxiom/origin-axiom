@@ -7425,3 +7425,42 @@ index unchanged. New citation defect repaired; prior full untruncated
 provenance/data-scope and nonauthor review remain OPEN, no waiver.
 The LIVE12PASS at6b1466604 remains a selected, not full-suite certificate.
 Admission-first/source/charged/global physical duties above remain live.
+
+## October16 global source boundary variation and admission priorities
+
+PB-ARENA-SOURCE-END-FUNCTIONAL: POSITIVE RESIDUAL-SECTOR SUBDUTY,
+not closed as a physical end law. surface_global_boundary_variation_2026_10_16
+FINDINGS/PROOF:29/29each at460dca46e,331pins/tree/index unchanged.
+Actual full tilted normal/density, nonlinear momenta4L^TC, gauge
+covariance, energy-rewrite primitive/scalar/corner variation and real
+fermion pairing now computed. No raw delta B/caps/patch deletion or
+physical quantum level. Full raw curved/WZW completion remains OPEN.
+
+PB-PARENT-FROM-GENESIS-ACTUAL-MAP: FIRST PRIORITY, OPEN. Audit existing
+R94/R95 actual variational-sector and based/orbifold/tensor/source maps
+to the FULL chosen field/action/metric/end roster. A restricted map is
+not absence, nor full parent selection. Distinguish rank5/rank6 and
+retain winding/register information lost by a coefficient map. Main
+S136 recommends this review to owner; named acceptance remains owed.
+
+PB-UNIT-BEFORE-THREE-SOURCE-MAP: OPEN. Trace given Λ/unit premises
+before physical index-three identification. Seek a source/end mechanism
+or expose its extra premise. Epsilon, regulator/contact flow and local
+CS energy primitive do not pick the cusp unit. Main's pull-back-on-
+records proposal remains UNRULED and is not silently used as an update.
+
+PB-ARENA-PHYSICAL-EXTERIOR-STATE: OPEN. Produce a justified actual
+exterior/state or coupled boundary action whose variation matches the
+computed source with all fermions/gauge/auxiliaries/raw primitives,
+cap/corner/patch data. Natural boson momentum0 is not full SUSY; both
+intrinsic Green-null signs still have the old principal obstruction.
+Moving-regulator shape variation remains UNEXECUTED, not refuted.
+
+PB-GLOBAL-SM-PRESERVING-NONFLAT-REDUCTION and full stationary fields,
+joint cusp/singular charged domains, roster/conjugates/boundary states,
+norms/vertices/Higgs/extras/anomalies/three/parameters/gravity remain
+OPEN in the SAME admitted parent. Earlier G2/E6 stationary positives
+remain in their own parents. No new local profile substitutes for
+admission. PB-ARENA-GLOBAL-ANALYTIC-REVIEW and nonauthor banking/main/
+recipient/full-suite and four inherited governance debts remain owed.
+New sender relay names the proof review request; no receiver acceptance.

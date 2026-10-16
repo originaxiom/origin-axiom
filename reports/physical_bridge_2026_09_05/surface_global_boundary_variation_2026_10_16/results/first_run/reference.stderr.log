@@ -1,0 +1,29 @@
+PASS fresh complete antecedent surface_arena_boundary_2026_10_16
+PASS fresh complete antecedent surface_curved_boson_2026_10_16
+PASS fresh complete antecedent surface_same_action_transmission_2026_10_16
+PASS actual coframe inverse in both orders and oriented volume
+PASS full variable normal retains horizontal geometry and radius gradient
+PASS normal norm has nonzero positive vertical contribution
+PASS vertical normal approximation rejected even at fixed radius
+PASS actual CR form pulled back with the full normal
+PASS induced density agrees with actual graph metric determinant
+PASS coarea and oriented flux retain every horizontal term
+PASS wrong vertical scalar current and same-normal joining are detected
+PASS normal symbol derived from all actual seven residuals
+PASS all-normal rank-five symbol and only normal-gauge kernel
+PASS actual nonlinear residual momenta from full first variation
+PASS wrong source factor and discarded derivative term are detected
+PASS source momentum is tangential in gauge slots
+PASS commutator retained rather than dropped from actual source momentum
+PASS rough Yang Mills momentum is not the source momentum
+PASS zero residual gives natural momenta without Dirichlet values
+PASS full nonlinear boundary pairing gauge covariance before interpretation
+PASS actual CS first variation retains the corner derivative
+PASS deleting the CS corner term is detected
+PASS flat pure gauge CS cubic is nonzero and has the correct coefficient
+PASS full nonlinear scalar end flux and derivative variations retained
+PASS both endpoint primitive signs are required
+PASS actual full source Clifford and symmetric Majorana normal pairing
+PASS full source real normal map retains both conjugate blocks
+PASS both intrinsic half planes are real Green null but unselected
+PASS unrestricted fermion pairing nondegenerate not a half-rank condition
