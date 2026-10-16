@@ -9204,3 +9204,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-16 | Exact spanning valuation and actual gauge trace scope BEFORE successor | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/DESIGN.md` | `e98206219ebcd171ea8106acb71dba5a4047fe1b3b7d4a6876ba63d28ff4fbb8` | Preregistration and full transitive hash closure, not raw data classified as design |
 | 2026-10-16 | Exact spanning valuation and actual gauge trace scope BEFORE successor | `reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/INPUTS.json` | `45d9f50121c5fc0c7115e40bd66dcc7c84d9fae746529181433c255db70f1dc4` | Preregistration and full transitive hash closure, not raw data classified as design |
+
+## Same-action transmission BEFORE first scientific import
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/DESIGN.md` | `637662b530f2172eaa79f53991b7cbd8130e08614e421b273d6c730ad3a1476f` | Actual same-action interface, not a selected true boundary or spectrum |
+| 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/INPUTS.json` | `4b9edba335ba242c408f8fb4209ca3ec03eba0a9f320b9fef9867810ba17b232` | Actual same-action interface, not a selected true boundary or spectrum |
