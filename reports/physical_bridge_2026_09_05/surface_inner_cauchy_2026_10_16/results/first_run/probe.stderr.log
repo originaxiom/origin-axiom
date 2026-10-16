@@ -1,0 +1,52 @@
+PASS same complete source dictionary and all nine velocities
+PASS geometric polar frame is unitary and rotates actual normal
+PASS polar monodromy and density retain both holonomy signs
+PASS actual polar connection canceled by density
+PASS wrong polar sign and missing density are detected
+PASS angular lattices follow coefficient and spin monodromy
+PASS full horizontal radial equation has correct source sign
+PASS normal matrices Hermitian square and anticommute
+PASS actual Majorana reverses radial Fourier and R signs
+PASS normal response preserves source R and external Lorentz
+PASS critical supplied plane properties sign 1
+PASS critical transfer graph equals derived response sign 1
+PASS critical finite response projector current and R sign 1
+PASS critical full core compression sign 1
+PASS critical reality keeps conjugate Fourier sign 1
+PASS zero momentum critical response without division sign 1
+PASS critical cutoff difference and nonuniform norm sign 1
+PASS critical supplied plane properties sign -1
+PASS critical transfer graph equals derived response sign -1
+PASS critical finite response projector current and R sign -1
+PASS critical full core compression sign -1
+PASS critical reality keeps conjugate Fourier sign -1
+PASS zero momentum critical response without division sign -1
+PASS critical cutoff difference and nonuniform norm sign -1
+PASS regular graph derived from whole branch sign 1
+PASS regular response projector current and R sign 1
+PASS all regular core compression sign 1
+PASS regular reality keeps opposite m and xi sign 1
+PASS zero horizontal regular response is orthogonal core sign 1
+PASS regular graph derived from whole branch sign -1
+PASS regular response projector current and R sign -1
+PASS all regular core compression sign -1
+PASS regular reality keeps opposite m and xi sign -1
+PASS zero horizontal regular response is orthogonal core sign -1
+PASS regular coefficients obey exact unit circle identity
+PASS uniform complement upper bound is Cauchy Schwarz identity
+PASS critical propagated data solve entire radial system
+PASS both oriented normal currents and all external generators kept
+PASS constant nonabelian gauge multiplicity not projected out
+PASS all order first component Frobenius recurrence
+PASS all order second component Frobenius recurrence
+PASS Bessel ratio Riccati identity and first crossing sign
+PASS Bessel both first order components not just scalar square
+PASS regular indicial L2 borderline not discarded
+PASS independent regular branches and Riccati all declared numerical controls
+PASS regular half integer modes recover every Cartesian source spinor
+PASS constant spinor angular signs match regular radial equation
+PASS regular zero momentum boson has zero normal kinetic response
+PASS critical physical half pole is retained and locally L2
+PASS unchanged pointwise trace is not regular angular response
+PASS wrong regular graph sign fails core complement at zero horizontal
+PASS zero full frequency has no invented spectral inverse
