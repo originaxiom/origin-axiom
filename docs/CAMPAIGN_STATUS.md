@@ -1,5 +1,17 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+October16 actual-tube audit:47/47 exact per method at published repair
+38246fafe,141pins/tree/index unchanged. The actual normal tilts; an
+intrinsic C-real half-rank plane passes flux/current tests, unchanged
+vertical plane fails. BOTH complements pass, not physical hand selection.
+Contact plus compact reality forces internally constant stabilizer for
+this proposed adapted class, so its field-space cocycle vanishes; complex
+matter CR controls survive. Full angular/domain/SUSY and varying-tube
+cusp/gauge/global charged admission remain. First35/37 trace-instrument
+failure preserved with140sources; exact trace residuals0. Full observed
+SM/three/gravity ACTIVE. surface_actual_tube_2026_10_16 FINDINGS/NEXT_TEST.
+
+
 October16 curved-boundary validation:6selected LIVE PASS26.55s at
 8e38141bc,130pins/tree/index unchanged; both complete53-check methods
 rerun. Governance26PASS/four inherited FAIL36.154683s; no waiver/new

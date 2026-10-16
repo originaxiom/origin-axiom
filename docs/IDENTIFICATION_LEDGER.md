@@ -732,3 +732,15 @@ time phase space, a quantum anomaly/level or an admitted edge spectrum.
 Matrix auxiliary sources act before trace; matching their zero traces
 would not be a faithful map. Residual zero is not absolute gravitational
 vacuum energy. No shared I-status or SM/three/gravity claim is promoted.
+
+## October16 actual tube principal map and domain distinction
+
+surface_actual_tube_2026_10_16 exhibits the SAME real source Clifford
+projector acting on the actual tube normal and its moving connection.
+This is not identification of a whole adapted superfield/SUSY boundary
+class, elliptic or singular graph, globally admitted particle or index.
+The compact gauge stabilizer statement uses anti-Hermitian reality and
+does not identify complex matter CR fields with compact parameters.
+Vanishing of the old field-space cocycle on this restricted stabilizer
+is not a general physical boundary-charge result. No shared I-status
+or observed SM/three/gravity identification is promoted.

@@ -20013,3 +20013,40 @@ certified;130scientific pins separately rechecked unchanged. Actual
 global tube/finite-cut/singular/gauge and SAME charged theory remain.
 No nonauthor/analytic/full-suite/main or physical SM/three/gravity
 acceptance. Ultimate full generated physical goal ACTIVE.
+
+### October16 actual tube geometry and compact boundary stabilizer
+
+First run at published4dc66f8c8 returned35/37 in150.496266s; reference
+not attempted.140source snapshots/original manifest/seal/raw captures
+preserved. Failed raw trace comparisons are structural booleans; exact
+trace residuals0 with all Hermitian/projector components and wrong-
+trace controls separately checked by the sealed successor. No mathematical
+rank/sign/field criterion changed. POST_HOC_REPAIR records the diagnosis.
+
+At server-confirmed pre-run38246fafe,47/47 each in140.245518/149.319049s;
+complete4715-byte records agree SHA256
+21f74b339c2fff12d6d9256735d7aac74b992ffea47351953f5424d0c19a8acd.
+141pins/13,862tracked/index unchanged. Same author/source/algebra,
+coordinate versus closed-frame; not independent analytic acceptance.
+
+Actual finite-tube normal tilts with horizontal fraction r^2/(4ell^2+r^2).
+Intrinsic C-real/rank8 true-R plane has zero actual normal flux and
+CR symbol preservation; old unchanged vertical plane fails. Complement
+also passes, no hand selected. All4actual moving-projector derivatives
+retain nonzero extrinsic terms. Contact bracket coefficient
+16ell^2 r^2/(4ell^2+r^2)^2 forces internally constant compact stabilizer
+for the proposed A_CR=0 class; nonconstant complex CR controls survive.
+The earlier unconstrained collar cocycle is zero on this stabilizer,
+not physical charge or an all-boundary no-go. Modular scalar-radius
+gluing local; shrinking cusp cycle forbids uniform positive fixed tube.
+
+Nine LAW rows, leads, identification supplement, sender relay and current
+surfaces synchronized.24I rows/9UNEARNED at baseline9; five planted
+controls PASS, bare-assertion blind spot explicit, no I-status promotion.
+Next actual whole adapted multiplet/auxiliary/SUSY/action and FULL
+angular Cauchy/domain admission, then singular/varying-radius/gauge/
+vector/global stationary charged theory. Existing other-parent angular
+obstruction AND constructive counterexample personally read fully,
+not a transferred count or negative. Fixed based rank3 not SM, no R93
+splice. Full generated physical SM/three/gravity ACTIVE. Selected live
+validation/governance follow, no full-suite/main/physical acceptance.

@@ -6748,3 +6748,41 @@ is imported. Zero residual fixes neither absolute energy nor gauge
 topological sector. SAME global stationary Higgs/charged spectrum,
 appropriate gauge phase, norms/vertices/anomalies and foundational
 full observed SM/three/gravity remain active; fixed based rank3 not SM.
+
+## October16 actual tube diagnostic and remaining boundary admission
+
+PB-SURFACE-ADAPTED-TUBE: PARTIAL POSITIVE at GEOMETRY/PRINCIPAL level.
+surface_actual_tube_2026_10_16/FINDINGS,47/47 each, actual tube normal,
+contact CR bracket, C-real half-rank zero-flux plane and full moving
+connection derivative. Unchanged vertical plane fails the actual normal
+test; both adapted complements pass, no hand selected. This is not yet
+the actual whole-multiplet/auxiliary/fermion/SUSY boundary map. That
+map and full gauge/patch/source first variation remain OPEN.
+
+PB-SURFACE-BOUNDARY-MOMENT-PHYSICS: REFINED, NOT CLOSED generically.
+For this proposed fixed finite-tube A_CR=0 class ONLY, compact reality
+and contact imply internally constant stabilizer, so the previously
+computed field-space cocycle vanishes on it. The angular cos/sin pair
+fails its preservation condition. Complex CR/matter controls survive;
+no physical-time charge/edge particles or all-boundary no-go follows.
+
+PB-SURFACE-FULL-ANGULAR-ADMISSION OPEN on this SAME actual trace.
+Read existing weave_boundary_lift_2026_10_09 PROOF/FINDINGS and
+silver_zero_cauchy_2026_10_12 PROOF fully: reuse full angular/Cauchy
+methods after actual source/operator transport. Their different-parent
+scoped obstruction AND changed-trace positive remain; neither result
+nor old count is imported. Current Green isotropy is not ellipticity.
+
+PB-SURFACE-VARYING-TUBE-CUSP OPEN: actual modular-radius invariance
+is local, and a cycle sqrt(A/y) collapses. A uniform positive radius
+cannot embed along the whole cusp. Choose/derive a compatible varying
+radius/core-cusp joining and recompute normal/Levi/stabilizer/source
+conditions; do not assume fixed finite-base results survive unchanged.
+
+PB-SURFACE-FINITE-CUT-POLES and PB-SURFACE-CUTOFF-LIMIT remain OPEN:
+separate finite fibre/total angular symbol, additional pole modes and
+concentrations, prescribed singular critical graph and shrinking-cut
+gauge/vector recovery. Normal compensator, BOTH ends and full conjugates
+retained. Full curved multiplet/global stationary Higgs/charged theory,
+appropriate gauge phase, norms/vertices/anomalies, foundational selection
+and observed full SM/three/gravity remain ACTIVE. NEXT_TEST gives order.

@@ -1,0 +1,47 @@
+PASS coordinate or closed frame geometry input
+PASS actual radius gradient and nonzero horizontal tilt
+PASS unit normal and complex partner orthogonal
+PASS both modular radius transitions exact
+PASS actual CR projection component idempotent
+PASS actual CR projection component real symmetric
+PASS actual CR projection component J compatible
+PASS actual CR projection component rank trace
+PASS actual CR projection component second tangent
+PASS actual CR projection component positive tangent norm
+PASS actual CR tangent projection and positive rank two
+PASS CR tangent annihilates radius and characteristic form
+PASS strict actual contact Levi coefficient
+PASS actual tangent bracket has nonzero characteristic component
+PASS actual normal CR bracket spans all four ambient directions
+PASS flat product control loses strict horizontal contact
+PASS actual angle derivative includes horizontal connection
+PASS angular pair fails adapted compact gauge condition
+PASS frozen actual real action complete record
+PASS all actual source Clifford relations
+PASS old vertical minus sign is actual source projector
+PASS actual real projector component Hermitian
+PASS actual real projector component idempotent
+PASS actual real projector component rank trace
+PASS adapted actual projector Hermitian idempotent half rank
+PASS wrong geometric and real projector trace targets detected
+PASS adapted projector preserves true R and Majorana reality
+PASS both actual normal Green forms zero
+PASS both CR tangential principal symbols preserved
+PASS complementary plane also zero flux not hand selection
+PASS unchanged vertical plane fails actual tube Green control
+PASS adapted plane approaches vertical at fixed angle
+PASS actual Kahler connection parallel J 0
+PASS full moving plane covariant derivative 0
+PASS actual Kahler connection parallel J 1
+PASS full moving plane covariant derivative 1
+PASS actual Kahler connection parallel J 2
+PASS full moving plane covariant derivative 2
+PASS actual Kahler connection parallel J 3
+PASS full moving plane covariant derivative 3
+PASS constant plane shortcut loses extrinsic derivative
+PASS compact matrix CR jet norm forces both real derivatives
+PASS complex nonconstant CR scalar is not excluded
+PASS complex matrix CR jet without compact reality survives
+PASS restricted conormal gauge jets have zero boundary cocycle pullback
+PASS unrestricted angular cocycle density remains a nonzero control
+PASS fixed tube cannot fit uniformly along cusp cycle

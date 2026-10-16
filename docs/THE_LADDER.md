@@ -1,5 +1,17 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October16 actual-tube audit:47/47 exact per method at published repair
+38246fafe,141pins/tree/index unchanged. The actual normal tilts; an
+intrinsic C-real half-rank plane passes flux/current tests, unchanged
+vertical plane fails. BOTH complements pass, not physical hand selection.
+Contact plus compact reality forces internally constant stabilizer for
+this proposed adapted class, so its field-space cocycle vanishes; complex
+matter CR controls survive. Full angular/domain/SUSY and varying-tube
+cusp/gauge/global charged admission remain. First35/37 trace-instrument
+failure preserved with140sources; exact trace residuals0. Full observed
+SM/three/gravity ACTIVE. surface_actual_tube_2026_10_16 FINDINGS/NEXT_TEST.
+
+
 October16 curved residual/boundary moment:53/53 exact per method at
 published pre-run f60f0b51e,130pins/tree/index unchanged. Actual field
 metrics fix V, full curvature/gauge-topology/BOTH-end identity and

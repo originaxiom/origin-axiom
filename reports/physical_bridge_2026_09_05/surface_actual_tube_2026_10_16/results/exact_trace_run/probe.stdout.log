@@ -1,0 +1,90 @@
+{
+  "checks": {
+    "coordinate or closed frame geometry input": true,
+    "actual radius gradient and nonzero horizontal tilt": true,
+    "unit normal and complex partner orthogonal": true,
+    "both modular radius transitions exact": true,
+    "actual CR projection component idempotent": true,
+    "actual CR projection component real symmetric": true,
+    "actual CR projection component J compatible": true,
+    "actual CR projection component rank trace": true,
+    "actual CR projection component second tangent": true,
+    "actual CR projection component positive tangent norm": true,
+    "actual CR tangent projection and positive rank two": true,
+    "CR tangent annihilates radius and characteristic form": true,
+    "strict actual contact Levi coefficient": true,
+    "actual tangent bracket has nonzero characteristic component": true,
+    "actual normal CR bracket spans all four ambient directions": true,
+    "flat product control loses strict horizontal contact": true,
+    "actual angle derivative includes horizontal connection": true,
+    "angular pair fails adapted compact gauge condition": true,
+    "frozen actual real action complete record": true,
+    "all actual source Clifford relations": true,
+    "old vertical minus sign is actual source projector": true,
+    "actual real projector component Hermitian": true,
+    "actual real projector component idempotent": true,
+    "actual real projector component rank trace": true,
+    "adapted actual projector Hermitian idempotent half rank": true,
+    "wrong geometric and real projector trace targets detected": true,
+    "adapted projector preserves true R and Majorana reality": true,
+    "both actual normal Green forms zero": true,
+    "both CR tangential principal symbols preserved": true,
+    "complementary plane also zero flux not hand selection": true,
+    "unchanged vertical plane fails actual tube Green control": true,
+    "adapted plane approaches vertical at fixed angle": true,
+    "actual Kahler connection parallel J 0": true,
+    "full moving plane covariant derivative 0": true,
+    "actual Kahler connection parallel J 1": true,
+    "full moving plane covariant derivative 1": true,
+    "actual Kahler connection parallel J 2": true,
+    "full moving plane covariant derivative 2": true,
+    "actual Kahler connection parallel J 3": true,
+    "full moving plane covariant derivative 3": true,
+    "constant plane shortcut loses extrinsic derivative": true,
+    "compact matrix CR jet norm forces both real derivatives": true,
+    "complex nonconstant CR scalar is not excluded": true,
+    "complex matrix CR jet without compact reality survives": true,
+    "restricted conormal gauge jets have zero boundary cocycle pullback": true,
+    "unrestricted angular cocycle density remains a nonzero control": true,
+    "fixed tube cannot fit uniformly along cusp cycle": true
+  },
+  "records": {
+    "trace_diagnostic": {
+      "geometry_raw_trace": "8*ell**2/(alpha**2 + beta**2 + 4*ell**2) + 2*(alpha**2 + beta**2)/(alpha**2 + beta**2 + 4*ell**2)",
+      "geometry_structural_equal_2": false,
+      "geometry_exact_residual": "0",
+      "source_raw_trace": "16*ell**2/(alpha**2 + beta**2 + 4*ell**2) + 4*(alpha**2 + beta**2)/(alpha**2 + beta**2 + 4*ell**2) + 4",
+      "source_structural_equal_8": false,
+      "source_exact_residual": "0"
+    },
+    "geometry": {
+      "N": [
+        "2*alpha*beta/ell",
+        "-(alpha - beta)*(alpha + beta)/ell",
+        "2*alpha",
+        "2*beta"
+      ],
+      "normal_norm2": "(alpha**2 + beta**2)*(alpha**2 + beta**2 + 4*ell**2)/ell**2",
+      "horizontal_fraction": "(alpha**2 + beta**2)/(alpha**2 + beta**2 + 4*ell**2)",
+      "T": [
+        "4*ell**2/(alpha**2 + beta**2 + 4*ell**2)",
+        "0",
+        "-2*beta*ell/(alpha**2 + beta**2 + 4*ell**2)",
+        "-2*alpha*ell/(alpha**2 + beta**2 + 4*ell**2)"
+      ],
+      "Levi": "16*ell**2*(alpha**2 + beta**2)/(alpha**2 + beta**2 + 4*ell**2)**2",
+      "characteristic_bracket": "-16*ell**2*(alpha**2 + beta**2)/(alpha**2 + beta**2 + 4*ell**2)**2",
+      "Ttheta": "-2*ell/(alpha**2 + beta**2 + 4*ell**2)",
+      "JTtheta": "0"
+    },
+    "boundary": {
+      "projector": "(I+i Rs v(N)v(JN)/normN^2)/2",
+      "real_rank": 8,
+      "complement_also_allowed": true,
+      "stabilizer": "compact gauge parameters internally constant on each connected adapted cut patch; global holonomy compatibility extra",
+      "cocycle": "zero on this restricted stabilizer, not on arbitrary collar parameters"
+    },
+    "scope": "finite embedded tube/base truncation; principal real trace and compact stabilizer, not full adapted multiplet SUSY/elliptic/singular/gauge limit or physical SM/three/gravity"
+  },
+  "all_passed": true
+}
