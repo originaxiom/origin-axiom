@@ -9211,3 +9211,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 |---|---|---|---|---|
 | 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/DESIGN.md` | `637662b530f2172eaa79f53991b7cbd8130e08614e421b273d6c730ad3a1476f` | Actual same-action interface, not a selected true boundary or spectrum |
 | 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/INPUTS.json` | `4b9edba335ba242c408f8fb4209ca3ec03eba0a9f320b9fef9867810ba17b232` | Actual same-action interface, not a selected true boundary or spectrum |
+
+## Surface arena boundary BEFORE first scientific import
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/DESIGN.md` | `d82cc72efcd75224a605660b932809017728dc6c8bd854b160f506b5e79f40de` | Preregistered actual arena/boundary/source map and global tube; not a selected physical end |
+| 2026-10-16 | BEFORE first scientific import | `reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/INPUTS.json` | `2a48529ea603800b4975a0a41413696504d8576c94bc65aa3da9150473728622` | Preregistered actual arena/boundary/source map and global tube; not a selected physical end |
