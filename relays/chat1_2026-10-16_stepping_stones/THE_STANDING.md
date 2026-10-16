@@ -19,6 +19,33 @@ wisdom".
   - chat1's `WHAT_COULD_BE_SETTLED.md`: today's computations.
 - 0 of 19.
 
+> **Dated correction, 2026-10-16 evening (chat1, after main's S139 and S140; refereed read-only before it left).**
+> This note quoted main's earlier argument (S_THE_PUSH_BACK §10.4) that B1654's L is a regulator scale that no end law
+> can fix. That holds in the flat metric only. The text below is kept as written and marked where this applies.
+> - **B1667 (PROVED, a census informed by neighbours) removes L's continuum.** In the fibre's own hyperbolic metric the
+>   puncture is a cusp, and its canonical horocycles fix L at order one: L_max is 0.643–0.692 and L_2 is 2.29–2.79,
+>   the ω control included. The end's datum is a discrete choice between canonical horocycles, and it supplies no
+>   hierarchy: B1654's bulk hierarchy, m₁/m₃ ≈ 0.15/L, would need L in the hundreds.
+> - **The smallness moves to τ.** Under either canonical cut, the first generation's lift is a function of τ alone
+>   (0.03–0.41 in the bulk over both cuts). On the length-2 cut it has a simple zero at ω and falls like
+>   e^(−2.6 Im τ) toward the cusp of moduli (B1667 T3, T4). Main's S140 sharpens P-169 accordingly: the continuous
+>   inputs left in the fibre frame are τ and the Higgs.
+> - **B1660 is negative a fortiori.** It fitted L freely, over a domain containing both canonical radii at ω (0.692
+>   and 2.786; its domain is 2πL + c_s > 0.5 in every channel, unbounded above), and its search found no fit. With L
+>   fixed at either radius the minimum can only be higher (an argument about the minimum: B1660's starts had L ≥ 2.5,
+>   so its search reached the canonical radii only by descent).
+> - **So step 5 did remove a datum, L's continuum, but what it fixed gives no size.** For (S), the open question
+>   becomes what selects τ. No dynamics on record selects a τ where the masses form a hierarchy with none of them zero
+>   (B1652's D1 cell; W67's invariant quartic lands on ω and the cusp, where the lift vanishes, or for R′ and E on
+>   points without a hierarchy). That question joins the list in §0.4.
+> - **(W)'s arithmetic in the fibre frame is unchanged in kind.** L leaves the continuous data and τ (two real numbers)
+>   enters. With the Higgs's several real parameters, the line, a second Higgs and the side, the count stays past
+>   break-even.
+> - **T2.** At τ = ω the surface frame's c = 1 and the fibre's maximal horoball are the same horoball, exactly
+>   (chat1's check in `chat1_2026-10-16_answers/`); reading the two cuts as one choice is a reading. Away from ω they
+>   are two cuts.
+> - The rest of the note stands.
+
 ## 0. In brief
 
 1. **What is forced is structure, and most of it is classical mathematics.**
@@ -55,7 +82,7 @@ wisdom".
    - Step 4, the coherent rule, is negative on T-low (main §10.3, from the sealed run) and, post hoc, wherever
      computed.
    - Step 5 has answered for L, by argument: L is a regulator scale that no end law at a complete cusp can fix (main
-     §10.4). The cusp's unit is open (P-184).
+     §10.4). The cusp's unit is open (P-184). [Superseded for L by B1667: see the dated correction above §0.]
    - Step 3 added no datum (B1663, NEGATIVE as sealed): the pull-back's strength sets the side and the speed, not the
      sizes.
 
@@ -64,6 +91,8 @@ wisdom".
      h ≤ 6, threads other than the towers at 6 < h < 39.5 for N = 9 and 11, N = 12 above h = 6, and the ORTH cells;
    - c = 1 for the surface frame, in its twisted form, as a chosen principle;
    - the symmetry question for the cusp's unit (P-184, the audit lane);
+   - *(added by the dated correction)* what selects τ, now that the canonical cut makes the first generation's lift a
+     function of τ alone (B1667; P-169);
    - the spectral side's generating form (step 2);
    - blind matches for (W): W94's relation, and P-175's mixing and J.
 
@@ -149,7 +178,7 @@ Review 64), and **0 of the 19 values**.
 
 | what a value needs | its datum | why it is not forced, so far |
 |---|---|---|
-| how small the first generation is | B1654's L, the log cutoff at the fibre's puncture (u_r = √(2πL + c_r)·R_r) | the motion's averages of f are of order one (0.19–0.80 on threads, 0.315 for the typical motion and by trace layers, 0.517 along the walk's limit rays; main §§5, 7; B1663; B1666). The smallness is 1/(2πL), with fitted L of 5–10 (main §5). L is the log of a regulator at the puncture, and no end condition can fix it at a complete cusp (main §10.4, an argument) |
+| how small the first generation is | B1654's L, the log cutoff at the fibre's puncture (u_r = √(2πL + c_r)·R_r) | the motion's averages of f are of order one (0.19–0.80 on threads, 0.315 for the typical motion and by trace layers, 0.517 along the walk's limit rays; main §§5, 7; B1663; B1666). The smallness is 1/(2πL), with fitted L of 5–10 (main §5). L is the log of a regulator at the puncture, and no end condition can fix it at a complete cusp (main §10.4, an argument). [Superseded for L by B1667: see the dated correction above §0.] |
 | a norm for the surface frame's modes | a height c at the modular cusp, the other end from L | the scale-free (BDE) regularisation is indefinite (computed today). H-end (W73, untwisted, post hoc) is positive and scale-free, but it is not a regularised integral |
 | which thread | a selection | the root LR closes no line (the ROOTS_LINE relay §2). The no-thread rule is dominated by the cusp on the norms (W-trace). On D alone, the coherent rule favours the cusp family, not the root (B1666). T-low fails for every assignment (sealed); words of length 13–14 and the mid heights fail for every assignment (scoreboards). By discriminant, the surface frame's hierarchy grows without bound in √D and reaches no sector's data (W95: neutral C1, given Λ and the cusp's unit, D ≤ 300; the data comparison seen, no claim; "without bound" is the SM seat's reading) |
 | which line and order N | a choice | W59's 18 lines at N = 9; the thread frame's N = 9, 11, 12 |
@@ -206,7 +235,7 @@ These come from main §8.5's "missing before complete", GENESIS's GAP5, and the 
     them blind (§2).
   - Every frame that reaches the data needs at least one more datum (§2's table).
 - **Not refuted.** A rule that removed each datum in §2's table would restore it. Step 4 where computed, and step 5
-  for L by argument, have come back without removing one; §5 lists what remains.
+  for L by argument, have come back without removing one; §5 lists what remains. [Superseded for L by B1667: see the dated correction above §0.]
 - **chat1's judgement:** it should not be the working hypothesis until one of §5's rules removes a datum in a sealed
   test.
 
@@ -260,7 +289,7 @@ These come from main §8.5's "missing before complete", GENESIS's GAP5, and the 
 | 2. the spectral side (coherent D on Ψ ≡ 0 mod 4; Katok–Sarnak, Shintani) | in part (B1666): the period phase i^(#L−#R) on every thread to trace 600; the amplitude's coherence decays, so it has no constant wave. The generating form is not computed | — |
 | 3. the pull-back's strength p | done. B1663, NEGATIVE as sealed: p sets the side (P(ξ > 0) 1 → ½) and the speed (escape 0.396 → 0.101), not the motion's averaged defect (0.517 at every p) | nothing. The push-back adds no number to the sizes |
 | 4. the coherent rule on the physical amplitude | negative on T-low (main §10.3, from chat1's sealed run, reproduced blind by W97 in C1); post hoc, negative on every configuration computed | which thread, not removed where computed |
-| 5. the end law on the weave's own operator | for L: a regulator scale, not fixed by any end law at a complete cusp (main §10.4, an argument). For the cusp's unit: the symmetry question, with the audit lane (P-184) | L: nothing. The cusp's unit: possibly |
+| 5. the end law on the weave's own operator | for L: a regulator scale, not fixed by any end law at a complete cusp (main §10.4, an argument). [Superseded for L by B1667: see the dated correction above §0.] For the cusp's unit: the symmetry question, with the audit lane (P-184) | L: nothing. [Superseded for L by B1667: see the dated correction above §0.] The cusp's unit: possibly |
 
 Each test below is sealed before any comparison and comes with a retirement rule.
 
@@ -296,7 +325,7 @@ Each test below is sealed before any comparison and comes with a retirement rule
   - The cusp's unit, if the weave's symmetry fixes it (P-184, the audit lane's).
 - **Main §10.4 argues the same for L at the fibre's puncture:** a regulator scale, not a radius a law could set. For
   L, a size then enters only by a chosen principle or a datum. The cusp's unit may still be fixed by the symmetry
-  (P-184).
+  (P-184). [Superseded for L by B1667: see the dated correction above §0.]
 - **Its conditions:**
   - c is the modular cusp's height, and B1654's L is the fibre puncture's cutoff, so c = 1 does not give L.
   - At L = 1, main's formula ⟨f⟩/(2πL) gives 0.050, against the 0.01–0.03 the fits need (main §§4–5): 1.7–5 times
@@ -316,7 +345,7 @@ sealers'.
 - **(S)** is retired in the record when T1 beyond the computed range and T2 (c = 1 sealed; P-184 answered by the
   audit lane and verified by main) have come back and none has removed a datum. Step 4 where computed, and step 5
   for L by argument, have already come back without removing one. A later rule that removes a datum in a sealed test
-  revives it.
+  revives it. [Superseded for L by B1667: see the dated correction above §0.]
 - **(W)** is retired in a frame by §4's stopping rule.
 - **If either is retired,** the programme's result is §1 and the price list of §2:
   - the principle;

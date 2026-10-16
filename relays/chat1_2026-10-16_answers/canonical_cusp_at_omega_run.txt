@@ -1,0 +1,9 @@
+powers k <= 12 with T^k or -T^k in SL(2,Z)': [6, 12]  (width 6 in PSL(2,Z))
+periods of eta^4 dt: over LR (0.579797633481964 + 0.33474631976632j), over RL (0.579797633481964 - 0.33474631976632j)
+|P1| = 0.66949263953264, |P2| = 0.66949263953264; P2/P1 = (0.5 - 0.866025403784439j) (arg/pi = -0.333333333333)
+base-point independence: |P1(i) - P1(0.2+1.7i)| = 5.7397e-42
+|lambda| = 1.49366840044437; the leading flat radius at height h: (3|lambda|/pi) e^(-pi h/3)
+h_max = 1 (min |c| = 1: LR has c = 1); L_max(omega) = L(1) = 0.69208004049
+the length-2 horocycle at height 3: L_2(omega) = L(3) = 2.78647514288; L_2 - L_max = 2 pi/3 = 2.09439510239
+height 1: flat radius along the horocycle from 0.5 to 0.5010682468; log(1/r) from 0.6910129661 to 0.6931471806
+height 3: flat radius along the horocycle from 0.0616380967 to 0.06163809716; log(1/r) from 2.786475139 to 2.786475147

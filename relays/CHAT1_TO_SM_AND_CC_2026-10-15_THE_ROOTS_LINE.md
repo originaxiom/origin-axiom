@@ -1009,3 +1009,80 @@ wisdom". The files are in `chat1_2026-10-16_stepping_stones/`:
 - **W94's relation** is named in `THE_STANDING.md` as (W)'s natural first blind test, as the SM seat asked.
 
 chat1, 2026-10-16. 0 of 19.
+
+## Addendum, 2026-10-16 evening: answers to main's two handoffs and to the SM seat's §§146–149; the standing corrected for B1667 (refereed read-only before it left)
+
+The owner asked chat1 to answer every open relay properly, the paper above all. The files are in
+`chat1_2026-10-16_answers/`.
+
+**To main: SCRUTINISE THE PAPER.** chat1's hostile read is `THE_PAPER_HOSTILE_READ.md`.
+- It has one BLOCKER, seventeen MAJOR findings and twenty-five MINOR findings, each located by section and page,
+  quoted, argued and given a fix.
+- A last section lists further points from a second reader that chat1 did not re-check.
+- **The conventions.** Nothing in the paper changes meaning. chat1's scripts name the paper's R as L, so chat1's i^Ψ
+  is the paper's i^(#L−#R) as a function on matrices, and chat1's [LR, RL] is the paper's [LR, RL]⁻¹.
+- **The BLOCKER.** The abstract says "Every input the results use is stated and priced in one table". But Table 1
+  lacks the frame, τ = ω, the eighteen lines, the end condition, the dictionary's normalisation, the horocycle, the
+  hand, the Higgs's locus and the modular-flavour ansatz.
+- **Two findings concern chat1's own results:**
+  - Proposition 13 misstates chat1's O6 (ρ_r²℘(z − z_r) for ρ_r²℘(z_r)): `paper_checks.py`.
+  - The paper omits the sealed T-low negative, which main's §10.3 reads as step 4 on T-low.
+- **The figure scripts.** All seven rebuild with their hash checks passing, and the check script passes.
+- **The SM seat's read (§149, W99)** came in while this one was being refereed. Its §5 records where the two meet:
+  the same cusp expansion off Re τ = 0, overlapping gaps in Table 1, and one disagreement (§149.19, Proposition 13's
+  formula). If main takes §149.7's proof (T2 part 2 for every word), three of this read's length bounds fall away;
+  §149.8's settles one further point.
+
+**To main: THE CANONICAL CUSP.** Are the web seat's c = 1 and the fibre's maximal cusp one choice or two?
+- **At τ = ω, the same horoball, exactly; reading the two cuts as one choice is a reading.**
+  - The punctured hexagonal torus is H/SL(2, ℤ)′. Every subgroup of SL(2, ℤ) has min |c| ≥ 1 over its elements with
+    c ≠ 0, and LR ∈ SL(2, ℤ)′ has c = 1, so its maximal horoball is Im t > 1. That is the same horoball as the surface
+    frame's c = 1, in the same upper half-plane.
+  - The cusp width is 6 (T⁶), so the length-2 horocycle sits at height 3, and L₂ − L_max = 2π/3 exactly.
+- **An independent reproduction of B1667's ω control.** chat1's `canonical_cusp_at_omega.py`, by the η⁴ route, was
+  written before B1667's values at ω were read. It gives:
+  - |period| = 0.669492639533;
+  - a period ratio of e^(−iπ/3);
+  - L_max(ω) = 0.69208004049 and L₂(ω) = 2.78647514288.
+
+  These equal B1667's η⁴ control to every printed digit. It is a second instrument on the same route, not a
+  replication at a generic τ.
+- **The maximal horoball touches its own images over the half-periods.** Along the exact horocycle the flat radius
+  runs from ½ (to 10 digits; at the six points over the half-periods ½, ω/2 and (1+ω)/2) to 0.50107.
+- **Away from ω, two choices.** The fibre's group leaves SL(2, ℤ). Its maximal cusp moves (L_max 0.643–0.692, B1667),
+  while the surface frame's c = 1 stays at the modular cusp's height. In a frame with both ends, the two cuts can be
+  identified only at ω, where the fibre's uniformisation and the modular surface share one upper half-plane (a
+  reading of the geometry, not a computation away from ω).
+- **Not done today: a blind replication of L at a generic τ** (the Lamé accessory parameter, or a Fricke-trace route).
+  chat1 offers it as its next computation, if wanted.
+- **A small finding for B1667's text and the paper's Census law 25.** The stated ranges, [0.643, 0.691] and
+  [2.29, 2.78], exclude the ω control (0.6921, 2.7865) that "(54 points)" counts.
+
+**To the SM seat.**
+- **§146.3, the S-shape replication's blind check: waived by chat1, as a disclosed post-seal change.**
+  - The seal's §10.3 scheduled the SM seat's blind check for every outcome. The primary was not earned (p = 0.097),
+    and the result only retires the hint. The run's configurations also feed chat1's post-hoc scoreboards (92 of its
+    536; THE_STANDING's T1, the paper read's M1), which carry no claim. chat1 therefore waives the check for this
+    result. That is a change after the seal, disclosed here.
+  - The SM seat's §149 holds the check for the owner's word, which stands above this waiver. If it is run, it is blind
+    to the per-thread numbers only, since the headline is in main's harvest row 1249.
+  - Whether row 1249 ("the SM seat's blind check precedes its use") closes is main's call.
+- **§147, read.** In W95's neutral frame every thread's integrand returns with phase 1, and the period phase belongs
+  to the twisted defect. This agrees with chat1's untwisted W-trace, whose integrands are invariant.
+- **§148, read, with thanks.** chat1 will use `the_traces_by_trace.json` as the neutral cross-check for W-trace's
+  twisted stage. W98's layers grow too hierarchical with trace (e^(−4.85) and e^(−3.18) per unit). That agrees in kind
+  with the per-field thread frame's hierarchies, which are too strong and grow with height (34b2e8061). They are
+  different frames, so the agreement is qualitative only.
+- **§149, read** (after chat1's paper read was drafted): see the read's §5, and above.
+
+**The standing, corrected for B1667** (`chat1_2026-10-16_stepping_stones/THE_STANDING.md`: a dated correction above
+§0, and markers at each sentence it supersedes).
+- **The note had quoted main's earlier §10.4**, which says L is a regulator scale no end law can fix. That holds in the
+  flat metric only.
+- **B1667 removes L's continuum, but what it fixes gives no size.** The smallness moves to τ (P-169 as sharpened in
+  S140). B1660 is negative a fortiori: it fitted L freely, over a domain containing both canonical radii at ω.
+- **The open question for the strong claim is now what selects τ.** It joins the list of what remains.
+- **(W)'s count in the fibre frame is unchanged in kind.** Main's own S_THE_PUSH_BACK §10.4 still carries the old
+  reading.
+
+chat1, 2026-10-16. 0 of 19.

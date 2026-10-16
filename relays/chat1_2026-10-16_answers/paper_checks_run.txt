@@ -1,0 +1,25 @@
+1. Proposition 16: D/(q |rho|^2), q = e^{i pi tau}; the formula's right side 8 pi^2 Im tau + 8 pi (1 - 4 ln 2)
+   tau = 0 + 4i: D/(q|rho|^2) = (271.2698 + 0.0j) (modulus 271.2698); right side 271.2773; |D|/|rho|^2 = 0.0009460105; general leading term (271.2773 + 0.0j), off by 0.0076
+   tau = 0.3 + 4i: D/(q|rho|^2) = (221.6212 - 126.3346j) (modulus 255.1007); right side 271.2773; |D|/|rho|^2 = 0.0008896235; general leading term (221.6274 - 126.3381j), off by 0.0071
+   tau = 0.5 + 4i: D/(q|rho|^2) = (174.0457 - 174.0457j) (modulus 246.1377); right side 271.2773; |D|/|rho|^2 = 0.0008583665; general leading term (174.0505 - 174.0505j), off by 0.0069
+   tau = 1 + 4i: D/(q|rho|^2) = (-7.172858e-36 - 271.2698j) (modulus 271.2698); right side 271.2773; |D|/|rho|^2 = 0.0009460105; general leading term (6.646393e-41 - 271.2773j), off by 0.0076
+   tau = 0 + 5i: D/(q|rho|^2) = (350.2337 + 0.0j) (modulus 350.2337); right side 350.2342; |D|/|rho|^2 = 5.278083e-5; general leading term (350.2342 + 0.0j), off by 0.00042
+   tau = 0.3 + 5i: D/(q|rho|^2) = (291.9781 - 162.1835j) (modulus 333.9981); right side 350.2342; |D|/|rho|^2 = 5.033408e-5; general leading term (291.9784 - 162.1837j), off by 0.0004
+   tau = 0.5 + 5i: D/(q|rho|^2) = (229.8811 - 229.8811j) (modulus 325.101); right side 350.2342; |D|/|rho|^2 = 4.899329e-5; general leading term (229.8814 - 229.8814j), off by 0.00039
+   tau = 1 + 5i: D/(q|rho|^2) = (6.846835e-39 - 350.2337j) (modulus 350.2337); right side 350.2342; |D|/|rho|^2 = 5.278083e-5; general leading term (8.278456e-41 - 350.2342j), off by 0.00042
+   D(tau + 1)/D(tau) at 0.2 + 1.3i: (4.270197802e-17 + 1.0j)
+2. Proposition 13: the displayed sum against the record's identity
+   tau = (0.13 + 1.07j), z = (0.21 + 0.37j): z^2 wp(z) at z = 1e-8: (1.0 + 1.38697295505e-32j); e1 + e2 + e3 = (-9.18e-41 + 6.89e-41j)
+      the paper's sum_r rho_r^2 wp(z - z_r) = (-0.526236112 + 3.058741391j)
+      the record's sum_r rho_r^2 (wp(z) - wp(z_r)) = (-2.3e-41 - 1.15e-41j)  (rho.rho = (5.74e-42 - 1.08e-42j))
+   tau = (-0.31 + 1.4j), z = (0.4 + 0.15j): z^2 wp(z) at z = 1e-8: (1.0 - 2.18982084249e-33j); e1 + e2 + e3 = (-9.18e-41 + 3.44e-41j)
+      the paper's sum_r rho_r^2 wp(z - z_r) = (0.8557191192 + 1.297780885j)
+      the record's sum_r rho_r^2 (wp(z) - wp(z_r)) = (-2.3e-41 + 0.0j)  (rho.rho = (-2.87e-42 - 1.43e-42j))
+3. Proposition 13's constant: sum_r rho_r^2 wp(z_r) as a polynomial in a = theta_2^4, b = theta_3^4, c = theta_4^4
+   (rho_r^2 proportional to a, c, -b; wp(1/2) = pi^2 (b + c)/3, wp(tau/2) = -pi^2 (a + b)/3,
+   wp((1 + tau)/2) = pi^2 (a - c)/3; the overall factors dropped)
+   the three values against wp at tau = 0.13 + 1.07i: largest difference 9.91e-41
+   random a, b, c (a + c - b = (-1.58 - 1.268j)): a (b + c) - c (a + b) - b (a - c) = (4.93e-32 + 0.0j)
+   random a, b, c (a + c - b = (0.09639 + 0.5537j)): a (b + c) - c (a + b) - b (a - c) = (0.0 + 0.0j)
+   random a, b, c (a + c - b = (0.2437 + 0.5782j)): a (b + c) - c (a + b) - b (a - c) = (0.0 + 0.0j)
+   so the constant vanishes identically in the theta constants; rho . rho = 0 (Jacobi) is what removes wp(z)
