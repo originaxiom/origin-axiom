@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "authority": "Owner approval on 2026-10-16 for evidence-preserving typed enforcement; historical violations remain noncompliant.",
+  "records": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/EXTENSION_2.md",
+      "sha256": "8d63ca2f1cad841b95606633fe01775f49ea967fd59ae6a8467a4c9d15e57691",
+      "role": "historical_violation",
+      "reason": "Previously read original design/repair; missing literal fields retained without retrospective compliance.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/HISTORICAL_DESIGN_AUDIT_BYTE_CHECKED.json",
+        "sha256": "d58bdc0b680f184cd0ded96ed27bc254700365d2b2cea18a715ea914169b6ce2"
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md",
+      "sha256": "84d14c74c478994e9d4c6328f251de5c9e3d119d1545eeea96ca3b461f20e31c",
+      "role": "historical_violation",
+      "reason": "Previously read original design/repair; missing literal fields retained without retrospective compliance.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/HISTORICAL_DESIGN_AUDIT_BYTE_CHECKED.json",
+        "sha256": "d58bdc0b680f184cd0ded96ed27bc254700365d2b2cea18a715ea914169b6ce2"
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md",
+      "sha256": "0a0e80e9bbdd91d56b8cf6195686de0e4752a2efcf0a884b647f03cb7b81042e",
+      "role": "historical_violation",
+      "reason": "Previously read original design/repair; missing literal fields retained without retrospective compliance.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/HISTORICAL_DESIGN_AUDIT_BYTE_CHECKED.json",
+        "sha256": "d58bdc0b680f184cd0ded96ed27bc254700365d2b2cea18a715ea914169b6ce2"
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md",
+      "sha256": "33c925bfcfb6a16136c68d0ee458150d2c50cb1cc10199a98fb854e58fb3d63f",
+      "role": "historical_violation",
+      "reason": "Previously read original design/repair; missing literal fields retained without retrospective compliance.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/HISTORICAL_DESIGN_AUDIT_BYTE_CHECKED.json",
+        "sha256": "d58bdc0b680f184cd0ded96ed27bc254700365d2b2cea18a715ea914169b6ce2"
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md",
+      "sha256": "6636323538a2801f2d47f90f8e01df7d23510f4dbf0e4eeaf988a94b7e22166d",
+      "role": "historical_violation",
+      "reason": "Previously read original design/repair; missing literal fields retained without retrospective compliance.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/HISTORICAL_DESIGN_AUDIT_BYTE_CHECKED.json",
+        "sha256": "d58bdc0b680f184cd0ded96ed27bc254700365d2b2cea18a715ea914169b6ce2"
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/probe.py",
+      "sha256": "47468a33945e9fb5bb030e504377f093b719f063e41f44f302ddd6d29f100957",
+      "role": "source",
+      "reason": "Personally read executable coordinate/coframe or mechanical manifest instrument, not a preregistration.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/INPUTS.json",
+        "sha256": "97a888e9cdbb92fc251f2f059e74192d60afcf071b9e264562c7712fc8916176",
+        "collection": "source_files"
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/reference.py",
+      "sha256": "4133ce8120e0e502c4dc3c08c4e2e90fe22d572b4f001e11b1760da9acf5e573",
+      "role": "source",
+      "reason": "Personally read executable coordinate/coframe or mechanical manifest instrument, not a preregistration.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/INPUTS.json",
+        "sha256": "97a888e9cdbb92fc251f2f059e74192d60afcf071b9e264562c7712fc8916176",
+        "collection": "source_files"
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/make_seal.rb",
+      "sha256": "1e24f9eba24ed333833a815cba89bf25d7dc314e1a145d778c9ed8dd5688b01e",
+      "role": "source",
+      "reason": "Personally read executable coordinate/coframe or mechanical manifest instrument, not a preregistration.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/INPUTS.json",
+        "sha256": "97a888e9cdbb92fc251f2f059e74192d60afcf071b9e264562c7712fc8916176",
+        "collection": "source_files"
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/INPUTS.json",
+      "sha256": "d085e12b42c47cafe6bf3e515dc2094c4021a1400d201a8252c7e962b80b94fd",
+      "role": "data",
+      "reason": "Structured dependency hashes and runtime declarations, not an experimental design.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/INPUTS.json",
+        "sha256": "2042026b8d13e8ec7a9984b4abcc0c4582a7b4dd3d2e343ef55b0d128c3baa26",
+        "collection": "source_files"
+      }
+    }
+  ]
+}

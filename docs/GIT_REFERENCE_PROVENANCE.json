@@ -1,0 +1,341 @@
+{
+  "schema": 1,
+  "authority": "Owner approval on 2026-10-16 for evidence-preserving typed enforcement; historical violations remain noncompliant.",
+  "records": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json",
+      "sha256": "8865e5776f4c070bd6649eddab25829bb1b343d046bac1938ef0209067fb1254",
+      "refs": [
+        {
+          "start": 2106,
+          "end": 2160,
+          "ref_b64": "cmVmcy90YWdzL2FyY2hpdmUvY2xhdWRlLW5ldy1zZXNzaW9uLXFvcjV1cC0yMDI2LTA4LTE0",
+          "commit": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json",
+            "sha256": "8865e5776f4c070bd6649eddab25829bb1b343d046bac1938ef0209067fb1254",
+            "start": 2092,
+            "end": 2218,
+            "abbreviation": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+          }
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json",
+      "sha256": "5448da1e7a35832d868b0cc96d0906363f246312f13b0e9d40213f71a923d318",
+      "refs": [
+        {
+          "start": 12856,
+          "end": 12895,
+          "ref_b64": "Y2xhdWRlL3BhcGVyLXJldmlldy12ZXJpZmljYXRpb24ta2F6M2Y1",
+          "commit": "013c9ac7656958bff8d2d80895f71a792f9ef916",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json",
+            "sha256": "5448da1e7a35832d868b0cc96d0906363f246312f13b0e9d40213f71a923d318",
+            "start": 12738,
+            "end": 13122,
+            "abbreviation": "013c9ac7"
+          }
+        },
+        {
+          "start": 12899,
+          "end": 12945,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wYXBlci1yZXZpZXctdmVyaWZpY2F0aW9uLWthejNmNQ==",
+          "commit": "013c9ac7656958bff8d2d80895f71a792f9ef916",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json",
+            "sha256": "5448da1e7a35832d868b0cc96d0906363f246312f13b0e9d40213f71a923d318",
+            "start": 12738,
+            "end": 13122,
+            "abbreviation": "013c9ac7"
+          }
+        },
+        {
+          "start": 12970,
+          "end": 13009,
+          "ref_b64": "Y2xhdWRlL3N0YW5kYXJkLW1vZGVsLWRlcml2YXRpb24tMHF0NmFv",
+          "commit": "c4eb0d2b6063f704205d4be916def0d505c438b3",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json",
+            "sha256": "5448da1e7a35832d868b0cc96d0906363f246312f13b0e9d40213f71a923d318",
+            "start": 12738,
+            "end": 13122,
+            "abbreviation": "c4eb0d2b"
+          }
+        },
+        {
+          "start": 13013,
+          "end": 13059,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "c4eb0d2b6063f704205d4be916def0d505c438b3",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json",
+            "sha256": "5448da1e7a35832d868b0cc96d0906363f246312f13b0e9d40213f71a923d318",
+            "start": 12738,
+            "end": 13122,
+            "abbreviation": "c4eb0d2b"
+          }
+        },
+        {
+          "start": 14017,
+          "end": 14056,
+          "ref_b64": "Y2xhdWRlL3N0YW5kYXJkLW1vZGVsLWRlcml2YXRpb24tMHF0NmFv",
+          "commit": "af568744be5faec19cca2f5e4c1f9591b0cd28f0",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json",
+            "sha256": "5448da1e7a35832d868b0cc96d0906363f246312f13b0e9d40213f71a923d318",
+            "start": 13899,
+            "end": 14109,
+            "abbreviation": "af568744"
+          }
+        },
+        {
+          "start": 14060,
+          "end": 14106,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "af568744be5faec19cca2f5e4c1f9591b0cd28f0",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_RECEIPTS.json",
+            "sha256": "5448da1e7a35832d868b0cc96d0906363f246312f13b0e9d40213f71a923d318",
+            "start": 13899,
+            "end": 14109,
+            "abbreviation": "af568744"
+          }
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+      "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+      "refs": [
+        {
+          "start": 2210,
+          "end": 2248,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9kZXRlcm1pbmVkLWhvcHBlci10MWNtaWk=",
+          "commit": "7cda35aa468cdb0ab2886e379b13ff31130be460",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 2208,
+            "end": 2304,
+            "abbreviation": "7cda35aa4"
+          }
+        },
+        {
+          "start": 2486,
+          "end": 2521,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9tYWdpY2FsLXdyaWdodC12d3JtdHQ=",
+          "commit": "0043be2b95a51048b3a664789ede241497558e79",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 2484,
+            "end": 2580,
+            "abbreviation": "0043be2b9"
+          }
+        },
+        {
+          "start": 2762,
+          "end": 2794,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9uZXctc2Vzc2lvbi1xb3I1dXA=",
+          "commit": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 2760,
+            "end": 2856,
+            "abbreviation": "3851df2aa"
+          }
+        },
+        {
+          "start": 2962,
+          "end": 2989,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9vdXRzaWRlLWJlbmNo",
+          "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 2960,
+            "end": 3056,
+            "abbreviation": "13d2c5b63"
+          }
+        },
+        {
+          "start": 3238,
+          "end": 3284,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wYXBlci1yZXZpZXctdmVyaWZpY2F0aW9uLWthejNmNQ==",
+          "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 3236,
+            "end": 3332,
+            "abbreviation": "5d58b935b"
+          }
+        },
+        {
+          "start": 3514,
+          "end": 3553,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9wYXBlci12ZXJpZmljYXRpb24tdWZwMHpu",
+          "commit": "5dde7b3efe59ca2055de6b84395416d173b2e290",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 3512,
+            "end": 3608,
+            "abbreviation": "5dde7b3ef"
+          }
+        },
+        {
+          "start": 3790,
+          "end": 3834,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9waHlzaWNzLXNlYXQtZXZhbHVhdGlvbi04ZGticmw=",
+          "commit": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 3788,
+            "end": 3884,
+            "abbreviation": "659487bbd"
+          }
+        },
+        {
+          "start": 4066,
+          "end": 4112,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "5869a056398298b23f3aae62186728f271ea2060",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PRIOR_SWEEP.txt",
+            "sha256": "83b23677dbec30cca3748c463b64b3da92e27c411cb3243212028c1c7eb0319d",
+            "start": 4064,
+            "end": 4160,
+            "abbreviation": "5869a0563"
+          }
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt",
+      "sha256": "6c89ffc2c0df74942d52f8bc743e05a49bb542c5dc6aca3d7d279f9847b042f3",
+      "refs": [
+        {
+          "start": 9830,
+          "end": 9862,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9uZXctc2Vzc2lvbi1xb3I1dXA=",
+          "commit": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt",
+            "sha256": "6c89ffc2c0df74942d52f8bc743e05a49bb542c5dc6aca3d7d279f9847b042f3",
+            "start": 9828,
+            "end": 9923,
+            "abbreviation": "3851df2a"
+          }
+        },
+        {
+          "start": 9995,
+          "end": 10022,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9vdXRzaWRlLWJlbmNo",
+          "commit": "1fa9641b91fdd3152b2eab53fb16bcb3b074681d",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt",
+            "sha256": "6c89ffc2c0df74942d52f8bc743e05a49bb542c5dc6aca3d7d279f9847b042f3",
+            "start": 9993,
+            "end": 10088,
+            "abbreviation": "1fa9641b"
+          }
+        },
+        {
+          "start": 10282,
+          "end": 10326,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9waHlzaWNzLXNlYXQtZXZhbHVhdGlvbi04ZGticmw=",
+          "commit": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt",
+            "sha256": "6c89ffc2c0df74942d52f8bc743e05a49bb542c5dc6aca3d7d279f9847b042f3",
+            "start": 10280,
+            "end": 10375,
+            "abbreviation": "659487bb"
+          }
+        },
+        {
+          "start": 10516,
+          "end": 10562,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "d1a91c7aee7bf9aa8b3cfa3c01ddfa0d5fd622aa",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt",
+            "sha256": "6c89ffc2c0df74942d52f8bc743e05a49bb542c5dc6aca3d7d279f9847b042f3",
+            "start": 10514,
+            "end": 10609,
+            "abbreviation": "d1a91c7a"
+          }
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/results/governance_first/ORIGINAL_INPUTS.json",
+      "sha256": "d98c56d3fdab97fb76f75b074dcd19f9988980ab6101b92f03ccbefa7f6350c8",
+      "refs": [
+        {
+          "start": 295,
+          "end": 341,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9zdGFuZGFyZC1tb2RlbC1kZXJpdmF0aW9uLTBxdDZhbw==",
+          "commit": "869693a2e06be90ff32353fc157a686b4c4854a9",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/results/governance_first/ORIGINAL_INPUTS.json",
+            "sha256": "d98c56d3fdab97fb76f75b074dcd19f9988980ab6101b92f03ccbefa7f6350c8",
+            "start": 290,
+            "end": 391,
+            "abbreviation": "869693a2e06be90ff32353fc157a686b4c4854a9"
+          }
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/missing_evidence_inventory.json",
+      "sha256": "7d60ac9d58922769ea625b5568e2423354c6eda9cfdfa9b72f5753774874d825",
+      "refs": [
+        {
+          "start": 281,
+          "end": 313,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9uZXctc2Vzc2lvbi1xb3I1dXA=",
+          "commit": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/missing_evidence_inventory.json",
+            "sha256": "7d60ac9d58922769ea625b5568e2423354c6eda9cfdfa9b72f5753774874d825",
+            "start": 274,
+            "end": 364,
+            "abbreviation": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+          }
+        },
+        {
+          "start": 385,
+          "end": 412,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9vdXRzaWRlLWJlbmNo",
+          "commit": "d52bf025bdddad2d46a513e4f5cc0d07f2182a86",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/missing_evidence_inventory.json",
+            "sha256": "7d60ac9d58922769ea625b5568e2423354c6eda9cfdfa9b72f5753774874d825",
+            "start": 378,
+            "end": 463,
+            "abbreviation": "d52bf025bdddad2d46a513e4f5cc0d07f2182a86"
+          }
+        },
+        {
+          "start": 484,
+          "end": 528,
+          "ref_b64": "b3JpZ2luL2NsYXVkZS9waHlzaWNzLXNlYXQtZXZhbHVhdGlvbi04ZGticmw=",
+          "commit": "d5999b5f2be484abcbd3a697c178b91bab18d566",
+          "evidence": {
+            "path": "reports/physical_bridge_2026_09_05/missing_evidence_inventory.json",
+            "sha256": "7d60ac9d58922769ea625b5568e2423354c6eda9cfdfa9b72f5753774874d825",
+            "start": 477,
+            "end": 579,
+            "abbreviation": "d5999b5f2be484abcbd3a697c178b91bab18d566"
+          }
+        }
+      ]
+    }
+  ]
+}

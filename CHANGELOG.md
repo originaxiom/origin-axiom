@@ -1,5 +1,15 @@
 # Changelog
 
+October16 owner explicitly approved evidence-preserving governance policy.
+Initial implementation, not yet test-certified: explicit hash-bound roles,
+unknown/historical violations fail; exact Git ref byte spans with captured
+commit corroboration, no baseline or whole-file exemption. Nine reviewed
+roles (five historical violations retained) and23spans across six frozen
+artifacts registered. Name-only seventh capture remains unresolved.
+Design committed before implementation. Original science, raw evidence
+and old seal prefix unchanged; focused rejecting controls await execution.
+No new scientific packet or physics claim.
+
 Phase3source checkpointa2a2ae6bc staged governance terminal:28PASS/
 twoFAIL attribution/provenance, exit1/42.427185s;18243tracked/index/
 20original pins unchanged, index rechecked after commit. Four metadata

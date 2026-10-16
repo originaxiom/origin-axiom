@@ -350,6 +350,28 @@ another gate.** It is fixed by making the existing requirement a field that must
 before the seal hashes, which is the only moment where it can bite. Older seals are exempt by
 construction: a rule cannot bind text sealed before it existed.
 
+**Owner-approved clarification, 2026-10-16.** A seal is not necessarily a
+preregistration. `docs/SEAL_ARTIFACT_ROLES.json` records explicitly reviewed
+source/data roles, each bound to exact bytes and an existing structured
+source-pin manifest. No role follows merely from a file extension. Recognizable
+design declarations/names cannot be reclassified as source/data; unspecified
+roles fail closed. Actual preregistrations still require both literal fields.
+Historical missing-field violations remain `historical_noncompliant` and fail
+the gate; recording one does not retroactively preregister or certify it.
+The checker reports the full unresolved population. Original seals, texts
+and earlier failed captures are retained, with digest enforcement unchanged.
+
+**Literal Git-reference provenance, same approval.** The attribution baseline
+is unchanged. `docs/GIT_REFERENCE_PROVENANCE.json` recognizes only exact byte
+ranges in exact hash-pinned artifacts. Each range is a syntactically valid Git
+reference, corroborated by a pinned passage containing the reference and its
+captured, uniquely resolvable commit. Outside text still reaches the ordinary
+attribution ratchet. A reference without this evidence remains unresolved;
+no directory, complete file, authorship credit or new token budget is exempted.
+This establishes provenance consistency, not independent execution timing.
+Missing/stale/malformed role or reference policy fails closed. The maintained
+controls are `tests/test_governance_provenance_policy.py`.
+
 
 ## LAW_MAP rows carry their arc's scope — GATED (`lawmap-scope`)
 

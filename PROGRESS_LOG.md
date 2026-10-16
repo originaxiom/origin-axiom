@@ -21062,3 +21062,16 @@ scientific execution or repeated selected regression. No waiver, full
 suite, independent analytic/main/physical acceptance or final end-law
 verdict. Later results publication remains outside captured source
 state; the full specification-first physical objective stays ACTIVE.
+
+October16 owner explicitly approved typed governance clarification through
+the pending question. Design committed0fee12f85 before implementation.
+Initial source/test checkpoint is unvalidated pending focused execution:
+actual preregistration fields unchanged, unknown roles fail, five historical
+violations explicitly remain noncompliant. Three reviewed executable sources
+and one dependency manifest have hash-bound source/data roles; this is not
+all647paths reviewed. Twenty-three exact ref spans in six original captures
+bind to real uniquely resolvable captured commits. The seventh name-only
+capture has no such corroboration in this adoption and remains unresolved.
+Attribution baseline and original sealed science/evidence unchanged. New
+policy/tests reject stale/unknown/malformed evidence rather than self-waive.
+No new scientific experiment, policy-green claim or campaign completion.

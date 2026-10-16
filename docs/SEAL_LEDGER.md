@@ -9264,3 +9264,9 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-10-16 | POST-HOC publication path repair BEFORE successor capture | `reports/physical_bridge_2026_09_05/governance_remediation_2026_10_16/PUBLICATION_PATH_REPAIR.md` | `3ed90038de32cb31d62b642c353d3cf7820090b54058d3a5529e0b440bf83c9b` | Main-only reference now pinned to actual main object; original rows and failed run preserved. Original16 science/test/checker and4execution pins unchanged; author review, not new science. |
+
+## Evidence preserving governance policy before first maintenance tests
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-10-16 | BEFORE first focused policy tests | `reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/DESIGN.md` | `dfd4df52c6290b52b907872c0ebdb3ec7402cbe92edafbeda9f6ca7462c4f1ca` | Owner-approved typed enforcement; historical violations remain failures. Only this design is a preregistration; INPUTS holds source pins. |

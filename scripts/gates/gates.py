@@ -16,6 +16,11 @@ import re
 import subprocess
 import sys
 
+try:
+    from . import provenance_policy
+except ImportError:  # direct script execution / existing test import convention
+    import provenance_policy
+
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 
@@ -235,7 +240,11 @@ ATTR_EXEMPT_FILES = {          # scanner tests that hunt the same tokens this ga
 def gate_attribution():
     rc, out = _git("ls-files")
     if rc != 0:
-        return True, "git unavailable — skipped"
+        return False, "git unavailable — attribution population cannot be verified"
+    try:
+        spans = provenance_policy.git_reference_spans(ROOT, _git, _VENDOR_RE)
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        return False, f"Git provenance policy invalid: {exc}"
     hits = []
     for rel in out.splitlines():
         if rel.startswith(ATTR_EXEMPT_PREFIXES) or rel in ATTR_EXEMPT_FILES \
@@ -244,13 +253,14 @@ def gate_attribution():
         if not rel.endswith((".md", ".py", ".txt", ".json", ".yml", ".yaml", ".toml")):
             continue
         try:
-            n = len(_VENDOR_RE.findall(_read(rel)))
+            data = provenance_policy._bytes(ROOT, rel)
+            n = provenance_policy.attribution_count(data, _VENDOR_RE, spans.get(rel, ()))
             if n > _ATTR_BASELINE.get(rel, 0):
                 hits.append(f"{rel} ({n} vendor tokens, baseline {_ATTR_BASELINE.get(rel, 0)})")
-        except Exception:
-            continue
+        except (OSError, ValueError, TypeError) as exc:
+            hits.append(f"{rel}: unreadable attribution evidence: {exc}")
     rc2, author = _git("log", "-1", "--format=%an")
-    author_ok = (rc2 != 0) or (author.strip() == "originaxiom")
+    author_ok = rc2 == 0 and author.strip() == "originaxiom"
     if not author_ok:
         hits.append(f"last-commit author: {author.strip()}")
     return not hits, hits[:10]
@@ -851,21 +861,13 @@ def gate_seal_provenance():
     (i) the banked identity the pipeline reproduces inside itself before any new number is
     read, and (ii) the prior-art / bank grep run at DESIGN time. Older seals are exempt:
     the rule cannot bind text that was sealed before it existed."""
-    ledger = _read("docs/SEAL_LEDGER.md")
-    missing = []
-    for line in ledger.splitlines():
-        m = re.match(r"\|\s*(\d{4}-\d{2}-\d{2})\s*\|[^|]*\|\s*`([^`]+)`", line)
-        if not m:
-            continue
-        date, rel = m.group(1), m.group(2)
-        if date < SEAL_PROVENANCE_FROM:
-            continue
-        if not os.path.isfile(os.path.join(ROOT, rel)):
-            continue          # branch-side seals are recorded but not present here
-        txt = _read(rel)
-        if "BANKED IDENTITY:" not in txt or "PRIOR ART:" not in txt:
-            missing.append(rel)
-    return not missing, missing[:5] or "ok"
+    try:
+        report = provenance_policy.seal_report(
+            ROOT, _read("docs/SEAL_LEDGER.md"), SEAL_PROVENANCE_FROM)
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        return False, f"seal role policy invalid: {exc}"
+    # Full population, not the old first-five display; history is not waived.
+    return not report["problems"], report
 
 
 def gate_seal_digests():

@@ -1,0 +1,45 @@
+{
+  "scope": "Initial approved governance implementation before focused tests; not science or green certification",
+  "source_files": [
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176"
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2"
+    },
+    {
+      "path": "tests/test_governance_provenance_policy.py",
+      "sha256": "8780884d03dfae6d330035cbdb3b17b3852099ed118188098e98de59264f4abe"
+    },
+    {
+      "path": "docs/PRACTICES.md",
+      "sha256": "9f3b4cd9a878f47c52854b624fc90ec100afe564720c30e07eb82d091e2f039c"
+    },
+    {
+      "path": "docs/SEAL_ARTIFACT_ROLES.json",
+      "sha256": "e072be80164a8ce40e84095bf7c46a2704b6a41a4ce00bd35de90152ef1af37b"
+    },
+    {
+      "path": "docs/GIT_REFERENCE_PROVENANCE.json",
+      "sha256": "2974d29f65867525233de4eada36d6e2d01f6330823ee9dedce693c3b6d5c6ee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/DESIGN.md",
+      "sha256": "dfd4df52c6290b52b907872c0ebdb3ec7402cbe92edafbeda9f6ca7462c4f1ca"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/adopt_records.rb",
+      "sha256": "44c4bee597673d74f9778279aaf4133f9ca21af3d6f966206744745fc923eaff"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/snapshot.rb",
+      "sha256": "bcc1f25c47b7aa5c95228a6ccc35cd0dcce9be4a03a3f08d2d36181e339a673a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/governance_policy_2026_10_16/seal_metadata.rb",
+      "sha256": "e64b9061a91c765d65860bdaf2186288abcd7f2fc4c7c09114bb5d4fc7ad6925"
+    }
+  ]
+}
