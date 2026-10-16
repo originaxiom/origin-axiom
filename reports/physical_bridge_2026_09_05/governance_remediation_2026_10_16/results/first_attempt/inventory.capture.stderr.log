@@ -1,0 +1,3 @@
+<repository>/reports/physical_bridge_2026_09_05/capture_checked_run.rb:36:in `initialize': File exists - <private-capture>/inventory.json (Errno::EEXIST)
+	from <repository>/reports/physical_bridge_2026_09_05/capture_checked_run.rb:36:in `open'
+	from <repository>/reports/physical_bridge_2026_09_05/capture_checked_run.rb:36:in `<main>'

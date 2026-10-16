@@ -1,0 +1,23 @@
+ERROR: found no collectors for <repository>/tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+
+ERROR: found no collectors for <repository>/tests/test_physical_bridge_quantum_shift.py::test_mass_derivative_predicate_has_positive_and_rejecting_controls
+
+
+==================================== ERRORS ====================================
+_________ ERROR collecting tests/test_physical_bridge_quantum_shift.py _________
+ImportError while importing test module '<repository>/tests/test_physical_bridge_quantum_shift.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+<initial-python-runtime>/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_physical_bridge_quantum_shift.py:5: in <module>
+    from reports.physical_bridge_2026_09_05 import quantum_shift as s
+reports/physical_bridge_2026_09_05/quantum_shift.py:13: in <module>
+    from . import quantum_vacuum as q
+reports/physical_bridge_2026_09_05/quantum_vacuum.py:11: in <module>
+    from scipy import linalg, optimize
+E   ModuleNotFoundError: No module named 'scipy'
+=========================== short test summary info ============================
+ERROR tests/test_physical_bridge_quantum_shift.py
+1 error in 3.50s
