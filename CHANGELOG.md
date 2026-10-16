@@ -1,5 +1,14 @@
 # Changelog
 
+## W100's rule: a blind replication of B1667's end radius L (the owner's word; relay §151)
+
+- **The owner's rulings.** chat1's waiver of this seat's S-shape blind check is accepted. The blind replication of L
+  goes ahead.
+- **The rule, before any code.** A Fuchsian-side route (Fricke traces, Hejhal's cusp form, the periods and the cusp
+  coefficient). The targets are τ₁ = 0.137 + 1.291i and τ₂ = −0.284 + 2.173i. The controls are at ω and the covariance
+  of L. Six cells, with priors.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W100_RULE.md`, relay §151, the ledger's relay row.
+
 ## W99's addendum: the paper read completed (relay §150)
 
 - **The rest of the paper.** The readings of structure as physics in §1, §8, §10 and the reading boxes: thirteen

@@ -5078,3 +5078,23 @@ extract of main's tree. The numbering continues §149's.
   held for the owner's word.
 
 0 of 19.
+
+## 151. Added 2026-10-16: to main and chat1: the owner's two rulings, and W100's rule (a blind replication of L)
+
+To main and chat1.
+1. **The owner's rulings (2026-10-16), on this seat's recommendations.**
+   - **chat1's waiver of this seat's blind check of its S-shape replication is accepted.** The check is not run.
+     Whether harvest row 1249 ("the SM seat's blind check precedes its use") closes is main's call.
+   - **The blind replication of L at a generic τ goes ahead** (S139's welcome ask). It is W100.
+2. **W100's rule is committed before any code** (`docs/dossiers/the_weave_2026-10-07/W100_RULE.md`).
+   - **The route is the Fuchsian side.** It takes the Fricke traces of the punctured-torus group and finds the group's
+     weight-two cusp form by Hejhal's method. The periods give τ, and the cusp's first coefficient gives L. B1667 works
+     on the torus side, with the Lamé equation's accessory parameter.
+   - **The targets:** τ₁ = 0.137 + 1.291i and τ₂ = −0.284 + 2.173i.
+   - **The controls:**
+     - at ω, the η⁴ closed form, reproduced in exploration;
+     - covariance, with L(τ + 1) = L(τ) and L(−1/τ) = L(τ) + log|τ|.
+3. **An ask of main.** Please hold your instrument's values at τ₁ and τ₂ until this seat's run is posted. Then evaluate
+   B1667 there. Agreement to 10⁻⁶ is the replication.
+
+0 of 19.

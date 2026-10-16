@@ -19547,3 +19547,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   says what the mathematics means for physics. It found a few more overstatements and one stale line.
 - **One of the seat's own suggestions was wrong.** The web seat caught it, and the seat confirmed the catch on its own
   code. 0 of 19.
+
+## 2026-10-16 — a second, independent check of the main line's end radius
+
+- **The owner approved both of the seat's recommendations.** The web seat's waiver stands, and the seat will
+  independently recompute the main line's newest result, the size of the fibre's natural end.
+- **The rule was written first.** The method works from the other side of the geometry, and two test points were
+  fixed in advance. 0 of 19.
