@@ -873,3 +873,12 @@ The actual source Gauss/presymplectic/end law and admissible ensemble
 must earn that further arrow. Full curved/global boundary theory and
 foundational physical SM/three/gravity remain unearned; no shared
 I-status promoted, no new identification ratchet allowance.
+
+Latest299584282 validation reruns both34source-map/profile methods
+and both50real-work antecedents:12selected LIVE PASS241.59s,236pins/
+15,773tracked/index unchanged. All11local required provenance labels
+now present, science output byte-identical and five executable ASTs
+unchanged;238old successful source/seal copies retained. Governance
+26PASS/four FAIL, with explicit truncated-provenance/data-scope debt,
+not a no-new-debt certificate. No shared identification promotion or
+full physical boundary/SM/three/gravity identification is implied.

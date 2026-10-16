@@ -1,5 +1,15 @@
 # Complete the coupled variational boundary problem
 
+Subsequent bounded reverse-SUSY subset is now POSITIVE in
+surface_reverse_susy_2026_10_16: actual ten-boson/Noether/lowered-current
+maps and complete known amplitude/phase family34/34each, latest
+published299584282 with12selected LIVE PASS241.59s. This discharges
+that FAMILY test, not the broader full real Cauchy/auxiliary/curved
+boundary obligation below. NEXT actual full Grassmann Gauss charge,
+presymplectic/end law, allowed quotient/ensemble and exterior matching.
+Do not discard the returned phase as proper zero-end gauge; do not
+identify its norm/nonzero end parameter with a physical surface charge.
+
 The specific full real-work test is now positive: actual full source/
 E8 Majorana and Grassmann maps retain nonzero Hermitian sigma+work,
 while signed bulk/background and both-end terms balance on fermionic

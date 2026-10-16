@@ -16,6 +16,9 @@ evaluate the complete known amplitude/phase family without using
 commuting placeholders or a trace-only zero. A gauge parameter's
 nonzero boundary value is NOT proof of a nonzero electric surface
 charge. Test the pairing with the actual symplectic form/constraint.
+Distinguish the charge FUNCTION and its variation from its value on
+a zero-electric bosonic background; a zero value alone does not prove
+the generating transformation is a null direction of phase space.
 Do not import a pure-Yang--Mills normalization or fermion-free charge
 law merely because it is standard.
 
@@ -27,6 +30,9 @@ Use the successful pair and regular nonabelian gauge/gaugino sector
 as positive controls. The phase may be redundant in a justified larger
 ensemble; the amplitude may be fixed by exterior data. Neither outcome
 would be a programme-wide chirality/physics kill.
+Explicitly decide whether the pair is a dynamical modulus, a variation
+of boundary source data, or part of a constrained gauge/Higgs multiplet.
+Local zero-mode and supersymmetry equations alone do not settle this.
 
 Then complete the SAME-action nonlinear boson Hessian/auxiliary/source
 equations, nilpotent fermion-bilinear backreaction and actual boundary
@@ -52,3 +58,12 @@ identifications or selected OA boundary actions. Search 'boundary gauge
 charge phase Gauss symplectic':288broad/7settled overlaps; no absence or
 first-ever claim is licensed. Read relevant earlier actual action and
 gauge proofs before the next sealed implementation.
+
+Current299584282 provenance-labelled science rerun34/34each has the
+same full output hash as05a591e8f;12selected LIVE PASS241.59s,
+236pins/15,773tracked/index unchanged. Full VALIDATION/raw captures.
+Governance26PASS/four FAIL, no waiver; local11provenance labels fixed,
+newly sealed older raw JSON data still raises the gate's data/design
+scope question. Resolve that with independent provenance review, not
+by rewriting scientific raw output or claiming the truncated list is
+a complete no-new-debt certificate. Full physical goal ACTIVE.

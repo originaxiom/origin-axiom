@@ -20495,3 +20495,26 @@ partner roster. Previous nonzero real work AND total bulk/end balance
 preserved. No cross-parent counts/masses. Full foundational physical
 SM/three/parameters/gravity ACTIVE. LIVE/governance follows; no full
 suite/nonauthor/recipient/main/physical acceptance claimed.
+
+Reverse-SUSY current validation at published299584282: provenance
+labels repaired, BOTH34/34in19.298099s/32.091594s with exactly SAME
+23,491byte output hash as05a591e8f. All236pins/15,773tracked/index
+unchanged.12selected LIVE PASS241.59s, capture243.040258s; actual new
+and real_fermion_work pair verified, both34/50methods rerun. Full
+VALIDATION/raw captures; source-action/nonzero real-work balance intact.
+
+Governance26PASS/four FAIL32.198806s, first3REPORTED lines identical;
+42stale/171open, review615. Important audit refinement: provenance
+output is truncated to5paths, so identical lines do NOT certify no
+new debt. Direct comparison to922d86b2b found12new unique seal paths;
+all11local design/code/test/manifest labels now repaired meaningfully,
+five Python ASTs unchanged,238exact old successful source/seal copies
+retained. One immutable OLD raw action_calibration_run/probe.json now
+sealed as data still lacks design labels. Full untruncated provenance
+debt/scope review registered; no raw-data rewriting, gate weakening or
+repo-green claim. First successful34/12captures remain successes.
+
+Post-check metadata not back-certified;236science pins separately
+rechecked unchanged. No new B-dir/kill node or generated population
+change. No full-suite/nonauthor analytic/banking/main/recipient/physical
+acceptance. Full foundational physical SM/three/parameters/gravity ACTIVE.

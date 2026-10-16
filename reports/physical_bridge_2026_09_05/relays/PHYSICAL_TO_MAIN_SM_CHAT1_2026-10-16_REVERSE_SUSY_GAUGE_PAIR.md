@@ -39,3 +39,21 @@ gravity ACTIVE. Other-parent positives preserved, no count/mass/gap
 transplant. Donnelly--Freidel section2 personally read as comparator,
 not an already earned OA edge completion. LIVE/governance follows;
 no recipient/main/full-suite/nonauthor/physical acceptance claimed.
+
+Latest299584282 reruns both34/34after meaningful provenance-label
+repair; SAME full output hash as05a591e8f. Twelve selected LIVE PASS
+241.59s,236pins/15,773tracked/index unchanged, intended new+real-work
+pair verified. Complete VALIDATION/raw captures; five Python ASTs
+unchanged,238exact successful source/seal copies retained. Original
+successful34/12runs are NOT failed attempts.
+
+Governance26PASS/four FAIL32.198806s; first3reported lines identical,
+42stale/171open, review615. Provenance output truncates to5paths, so
+same list is NOT a complete no-new-debt check. Eleven new local sealed
+paths now have required labels; one additionally pinned older RAW
+JSON still raises data-versus-design scope debt. Full inventory/scope
+review OPEN; no raw-data rewrite, gate weakening, waiver or repo-green
+claim. Post-check metadata not back-certified; all science pins rechecked.
+Next Gauss/charge law must decide dynamical mode versus boundary source
+or constrained gauge/Higgs partner; a zero background charge value is
+not the same as a zero generator. Full physical goal ACTIVE.

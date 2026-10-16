@@ -1,5 +1,15 @@
 # Actual supersymmetry retains an amplitude and boundary gauge pair
 
+Current seal299584282 replays BOTH34/34 with the SAME full output hash
+as05a591e8f. Provenance labels were repaired without changing any Python
+executable AST; all238 original successful input/seal copies retained.
+At299584282,12selected LIVE PASS241.59s,236pins/15,773tracked/index
+unchanged. Governance26PASS/four FAIL32.198806s, not repo-green or a
+no-new-debt certificate. Eleven local provenance paths fixed; one
+untouched older raw JSON newly sealed as data still triggers the gate's
+overbroad label rule. Full VALIDATION records that debt and truncated
+reporting limit. No physics input/residual criterion/source phase changed.
+
 The known noncommuting BPS amplitude tangent has a second, orthogonal
 bosonic partner under the ACTUAL source supersymmetry transformations.
 The entire second profile is a covariantly harmonic gauge variation.

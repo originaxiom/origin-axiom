@@ -1,7 +1,8 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
-October16 actual reverse supersymmetry:34/34each at published05a591e8f,
-236pins/15,515tracked/index unchanged. All ten actual source boson maps
+October16 actual reverse supersymmetry:34/34each at05a591e8f and
+provenance-labelled299584282, identical complete outputs. Latest236pins/
+15,773tracked/index unchanged. All ten actual source boson maps
 match ONE Noether parameter map with the independently checked full32
 Lorentzian lowered current(I,-v), not the rejected Hamiltonian guess.
 The complete real amplitude family returns BOTH amplitude and phase;
@@ -21,8 +22,16 @@ fermion current and both-end charge law, fixed/varied data, exterior
 matching and full coupled curved auxiliary/source/SUSY boundary.
 Arbitrary/global charged admission, whole partner roster and foundational
 physical SM/three/parameters/gravity ACTIVE. No other-parent count/mass
-transplant or full-suite/nonauthor/main/physical acceptance. Selected
-LIVE/governance validation follows science banking; no green repo claim.
+transplant or full-suite/nonauthor/main/physical acceptance. At299584282,
+12selected LIVE PASS241.59s, intended new+real-work pair verified;
+same236pins/15,773tracked/index unchanged. Governance26PASS/four FAIL
+32.198806s,42stale/171open review615. First3reported failure lines
+unchanged does NOT prove no new debt: provenance output truncates.
+Eleven local provenance labels repaired without changing science;
+one immutable earlier raw JSON newly sealed as DATA still raises
+data/design scope debt.238exact old successful source/seal copies
+retained. Full VALIDATION/raw captures; no gate weakening/raw rewrite
+or repo-green claim. Post-check metadata not back-certified.
 
 
 October16 REAL fermion work/balance: initial46/46at36e67bc61; calibrated

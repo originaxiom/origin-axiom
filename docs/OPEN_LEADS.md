@@ -7224,3 +7224,23 @@ BHV Appendix B personally read as framework comparators, not a selected
 OA edge completion or literal source-normalization dictionary. The new
 lead is this specified application, not a claim the broader corpus has
 no boundary-charge work. Full goal ACTIVE; no programme-wide kill.
+
+Reverse-SUSY latest validation299584282: BOTH34/34exact same output
+as05a591e8f;12selected LIVE PASS241.59s,236pins/15,773tracked/index
+unchanged, actual new+real-work pair. Full VALIDATION. Next Gauss law
+must distinguish charge function/variation from zero background value,
+and dynamical modulus from source variation/gauge-Higgs partner. Full
+arbitrary trace/auxiliary/curved/global boundary and physical goal OPEN.
+
+PB-SEAL-PROVENANCE-DATA-SCOPE OPEN AUDIT: the provenance gate reports
+only first5missing paths, so unchanged output does not show no new debt.
+Direct unique-path comparison against922d86b2b:12new paths. Eleven
+local sealed design/proof/code/test/generated manifest paths have been
+repaired with meaningful labels, unchanged executable science and fresh
+34/34+12LIVE validation. The twelfth is immutable old real_fermion_work/
+results/action_calibration_run/probe.json DATA, not a preregistration;
+it still lacks the gate's expected labels. Independently audit the full
+untruncated inventory and applicability of a preregistration rule to
+every sealed data/source row. Do NOT change raw output, retroactively
+fabricate a seal, waive debt or weaken a gate to green our own work.
+Current26PASS/four FAIL; no repo-wide green or merge acceptance.

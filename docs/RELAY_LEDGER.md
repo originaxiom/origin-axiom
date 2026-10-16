@@ -366,3 +366,14 @@ UNVERIFIED refinement, not a full physical result or blanket exclusion.
 No waiver/recipient/main/nonauthor/full-suite/physical acceptance.
 
 | `PHYSICAL_TO_MAIN_SM_CHAT1_2026-10-16_REVERSE_SUSY_GAUGE_PAIR.md` | OPEN | 2026-10-16 | Sender physical-bridge reports/relays:34/34each at published05a591e8f,236pins/15515tracked/index unchanged. Actual ten-boson Noether map/full32 Lorentzian lowering, all real scalar supercharge parameters and actual E8 root verified. Known full amplitude fermion returns amplitude AND covariantly harmonic gauge phase. Both local equations and positive finite inner coefficient norm/both-end flux hold. Parameter nonzero at both ends is not redundant for a DEFINED zero-end group, but NOT a nonzero charge/particle/selected edge ensemble. Two early failed source identifications and interrupted performance run fully preserved; corrected map and exact radius performance repair presealed/pushed. NEXT same-source full Majorana Grassmann Gauss/presymplectic generator, actual charges/ensemble/exterior and complete coupled curved/global charged theory/whole partner roster. Full foundational SM/three/parameters/gravity ACTIVE. No cross-parent transplant or independent/main/recipient/full-suite/physical acceptance. |
+
+Reverse-SUSY latest299584282: both34/34same full output hash after
+meaningful provenance-label repair;12selected LIVE PASS241.59s,
+236pins/15,773tracked/index unchanged, intended pair verified. Full
+VALIDATION/raw states/streams/receipts;238old successful source/seal
+copies retained, executable ASTs unchanged. Governance26PASS/four FAIL
+32.198806s,42stale/171open review615. Truncated first-five provenance
+output is NOT no-new-debt proof:11local labels repaired, older immutable
+raw JSON newly sealed as DATA still raises rule-applicability debt.
+Full independent inventory/scope review registered, no waiver or raw
+rewrite/gate weakening. No main/recipient/full-suite/physical acceptance.

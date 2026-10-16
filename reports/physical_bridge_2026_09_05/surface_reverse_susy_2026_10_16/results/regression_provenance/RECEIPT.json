@@ -1,0 +1,31 @@
+{
+  "mode": "regression",
+  "capture_leaf": "regression_provenance",
+  "command": [
+    "PYTHON3.12.14",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_surface_reverse_susy.py",
+    "tests/test_physical_bridge_surface_real_fermion_work.py"
+  ],
+  "exit_code": 0,
+  "seconds": 243.0402580000009,
+  "before_completed_before_launch": true,
+  "state_unchanged": true,
+  "tracked_files": 15773,
+  "source_pins": 236,
+  "tree_sha256": "98c8659c2833a4c2cc9919f235f9f538b2f902d1562ca23b0b3a9041939150d8",
+  "index_sha256": "941afdd5e5da9d83f8c994655509191abb51e98c1c8c34419fe28fe003ab68ef",
+  "stdout": {
+    "bytes": 111,
+    "sha256": "b3adfdd838ccfc40c0f64322946c382c835023ebdf26cf147f788db8a67a035b"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
