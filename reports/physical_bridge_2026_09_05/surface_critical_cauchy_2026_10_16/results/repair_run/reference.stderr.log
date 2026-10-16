@@ -1,0 +1,115 @@
+PASS every saved matrix and metadata reconstructed exactly
+PASS complete fundamental residual 1
+PASS all four Green pairings and actual inverse 1
+PASS log solution from independent reduction and determinant 1
+PASS both full trace planes and Green nullness 1
+PASS background dependent projector and derivative current 1
+PASS log scale change only adds regular seed 1
+PASS all L2 and nonL2 leading columns preserved 1
+PASS negative controls full backreaction Higgs leading only 1
+PASS nonL2 and missing log controls fire 1
+PASS Volterra derivative identity full nonzero momentum 1
+PASS complete fundamental residual 2
+PASS all four Green pairings and actual inverse 2
+PASS log solution from independent reduction and determinant 2
+PASS both full trace planes and Green nullness 2
+PASS background dependent projector and derivative current 2
+PASS log scale change only adds regular seed 2
+PASS all L2 and nonL2 leading columns preserved 2
+PASS negative controls full backreaction Higgs leading only 2
+PASS nonL2 and missing log controls fire 2
+PASS Volterra derivative identity full nonzero momentum 2
+PASS all singleton terms diagonal not mistaken free (0, 1, 1, -1, -1)
+PASS complete singleton fundamental and Green (0, 1, 1, -1, -1)
+PASS singleton complete allowed trace for both signs (0, 1, 1, -1, -1)
+PASS all singleton terms diagonal not mistaken free (0, 1, 1, 1, 1)
+PASS complete singleton fundamental and Green (0, 1, 1, 1, 1)
+PASS singleton complete allowed trace for both signs (0, 1, 1, 1, 1)
+PASS all singleton terms diagonal not mistaken free (0, 1, -1, -1, -1)
+PASS complete singleton fundamental and Green (0, 1, -1, -1, -1)
+PASS singleton complete allowed trace for both signs (0, 1, -1, -1, -1)
+PASS all singleton terms diagonal not mistaken free (0, 1, -1, 1, 1)
+PASS complete singleton fundamental and Green (0, 1, -1, 1, 1)
+PASS singleton complete allowed trace for both signs (0, 1, -1, 1, 1)
+PASS all singleton terms diagonal not mistaken free (0, -1, 1, -1, 1)
+PASS complete singleton fundamental and Green (0, -1, 1, -1, 1)
+PASS singleton complete allowed trace for both signs (0, -1, 1, -1, 1)
+PASS all singleton terms diagonal not mistaken free (0, -1, 1, 1, -1)
+PASS complete singleton fundamental and Green (0, -1, 1, 1, -1)
+PASS singleton complete allowed trace for both signs (0, -1, 1, 1, -1)
+PASS all singleton terms diagonal not mistaken free (0, -1, -1, -1, 1)
+PASS complete singleton fundamental and Green (0, -1, -1, -1, 1)
+PASS singleton complete allowed trace for both signs (0, -1, -1, -1, 1)
+PASS all singleton terms diagonal not mistaken free (0, -1, -1, 1, -1)
+PASS complete singleton fundamental and Green (0, -1, -1, 1, -1)
+PASS singleton complete allowed trace for both signs (0, -1, -1, 1, -1)
+PASS all singleton terms diagonal not mistaken free (1, 1, 1, -2, 1)
+PASS complete singleton fundamental and Green (1, 1, 1, -2, 1)
+PASS singleton complete allowed trace for both signs (1, 1, 1, -2, 1)
+PASS actual entire coupled block (1, 1, 1, 0, -1)
+PASS both actual critical signs retained (1, 1, 1, 0, -1)
+PASS all singleton terms diagonal not mistaken free (1, 1, 1, 2, 1)
+PASS complete singleton fundamental and Green (1, 1, 1, 2, 1)
+PASS singleton complete allowed trace for both signs (1, 1, 1, 2, 1)
+PASS all singleton terms diagonal not mistaken free (1, 1, -1, -2, 1)
+PASS complete singleton fundamental and Green (1, 1, -1, -2, 1)
+PASS singleton complete allowed trace for both signs (1, 1, -1, -2, 1)
+PASS actual entire coupled block (1, 1, -1, 0, -1)
+PASS both actual critical signs retained (1, 1, -1, 0, -1)
+PASS all singleton terms diagonal not mistaken free (1, 1, -1, 2, 1)
+PASS complete singleton fundamental and Green (1, 1, -1, 2, 1)
+PASS singleton complete allowed trace for both signs (1, 1, -1, 2, 1)
+PASS all singleton terms diagonal not mistaken free (1, -1, 1, -2, -1)
+PASS complete singleton fundamental and Green (1, -1, 1, -2, -1)
+PASS singleton complete allowed trace for both signs (1, -1, 1, -2, -1)
+PASS actual entire coupled block (1, -1, 1, 0, 1)
+PASS both actual critical signs retained (1, -1, 1, 0, 1)
+PASS all singleton terms diagonal not mistaken free (1, -1, 1, 2, -1)
+PASS complete singleton fundamental and Green (1, -1, 1, 2, -1)
+PASS singleton complete allowed trace for both signs (1, -1, 1, 2, -1)
+PASS all singleton terms diagonal not mistaken free (1, -1, -1, -2, -1)
+PASS complete singleton fundamental and Green (1, -1, -1, -2, -1)
+PASS singleton complete allowed trace for both signs (1, -1, -1, -2, -1)
+PASS actual entire coupled block (1, -1, -1, 0, 1)
+PASS both actual critical signs retained (1, -1, -1, 0, 1)
+PASS all singleton terms diagonal not mistaken free (1, -1, -1, 2, -1)
+PASS complete singleton fundamental and Green (1, -1, -1, 2, -1)
+PASS singleton complete allowed trace for both signs (1, -1, -1, 2, -1)
+PASS all singleton terms diagonal not mistaken free (2, -1, 1, -3, 1)
+PASS complete singleton fundamental and Green (2, -1, 1, -3, 1)
+PASS singleton complete allowed trace for both signs (2, -1, 1, -3, 1)
+PASS actual entire coupled block (2, -1, 1, -1, -1)
+PASS both actual critical signs retained (2, -1, 1, -1, -1)
+PASS actual entire coupled block (2, -1, 1, 1, 1)
+PASS both actual critical signs retained (2, -1, 1, 1, 1)
+PASS all singleton terms diagonal not mistaken free (2, -1, 1, 3, -1)
+PASS complete singleton fundamental and Green (2, -1, 1, 3, -1)
+PASS singleton complete allowed trace for both signs (2, -1, 1, 3, -1)
+PASS all singleton terms diagonal not mistaken free (2, -1, -1, -3, 1)
+PASS complete singleton fundamental and Green (2, -1, -1, -3, 1)
+PASS singleton complete allowed trace for both signs (2, -1, -1, -3, 1)
+PASS actual entire coupled block (2, -1, -1, -1, -1)
+PASS both actual critical signs retained (2, -1, -1, -1, -1)
+PASS actual entire coupled block (2, -1, -1, 1, 1)
+PASS both actual critical signs retained (2, -1, -1, 1, 1)
+PASS all singleton terms diagonal not mistaken free (2, -1, -1, 3, -1)
+PASS complete singleton fundamental and Green (2, -1, -1, 3, -1)
+PASS singleton complete allowed trace for both signs (2, -1, -1, 3, -1)
+PASS all critical sector types and full multiplicities retained
+PASS rational column majorants for whole interval
+PASS exact Volterra integral bound not sampled grid
+PASS majorant lowered below true vector fails
+PASS Neumann tail and all finite momentum small radius
+PASS same actual E8 triplet and source dictionary
+PASS full nonlinear angular BPS tangent not leading only
+PASS full actual 48component nonlinear tangent radial residual
+PASS full source Majorana of BPS tangent
+PASS actual full BPS profile in charged block (1, 1, 1)
+PASS actual full BPS profile in charged block (1, 1, -1)
+PASS actual full BPS profile in charged block (1, 2, 1)
+PASS actual full BPS profile in charged block (1, 2, -1)
+PASS actual full BPS profile in charged block (-1, 3, 1)
+PASS actual full BPS profile in charged block (-1, 3, -1)
+PASS actual full BPS profile in charged block (-1, 4, 1)
+PASS actual full BPS profile in charged block (-1, 4, -1)
+PASS all spin blocks reconstruct full actual BPS source

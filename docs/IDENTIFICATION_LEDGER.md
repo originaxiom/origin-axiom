@@ -796,3 +796,18 @@ ansatz is not a global KK/SM spectrum, absent/massive omitted fields,
 dynamically selected supersymmetry or predicted coupling. Kernel and
 representation dimensions are not particle/family counts. No shared
 I-status or full physical SM/three/gravity identification promoted.
+
+## October16 exact critical response and full tangent map
+
+surface_critical_cauchy_2026_10_16 acts by complete verified coefficient/
+current intertwiners on every j=etaR/4type, not spectrum/dimension matches.
+Actual full-source nonlinear BPS tangent recovers exact charged profiles,
+with angular/radial/Majorana map; it is not a global physical particle.
+Log-scale change adds a regular seed in the SAME plane, not a new
+observed parameter. Finite-momentum response is an authored convergent
+construction, not interval-valued numerical certification or uniform
+all-frequency/global-curved domain. Green-null does not mean elliptic
+or transverse to an unspecified exterior. Critical L2/coefficient counts
+are not physical families; no cross-parent mass/index/count transfer.
+Field-dependent projector is not already the nonlinear SUSY/source/
+bosonic boundary action. No shared I-status or physical claim promoted.

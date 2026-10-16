@@ -7015,3 +7015,45 @@ PASS39.20s,188pins/14,008tracked/index unchanged. Actual intended
 two-file selection verified. Governance26PASS/four inherited FAIL,
 first3failure lines byte-identical;42stale/167open, review595. No waiver,
 full-suite/nonauthor/main/physical acceptance. Full packet VALIDATION.
+
+## October16 complete interacting critical response
+
+PB-SURFACE-COUPLED-CAUCHY-DATA and INTERACTING-CAUCHY-TRANSFER PARTIAL
+POSITIVE: "The supplied root/source normal model now has complete exact
+zero-momentum fundamental matrices in ALL28block types at j=etaR/4,
+including every original critical mode, its regular partners, both
+computational signs and all3968coefficient directions. An authored
+convergent Volterra construction gives the selected Cauchy planes at
+every finite real horizontal momentum and every cut0<x=g sqrt(r)<1."
+Source surface_critical_cauchy_2026_10_16/FINDINGS.md, PROOF1/2 and LIVE
+full fundamentals/all-sector/majorant tests. This is not all angular
+n!=0, uniform exterior complement, curved/global boundary or a physical
+count. Those wider duties remain OPEN; no global lead is falsely closed.
+
+PB-SURFACE-FULL-BPS-PROFILE POSITIVE LOCALLY: the preceding proposed
+full-tangent reduction is now verified in actual48component source,
+full angular/radial/Majorana and ALL8charged source projections. Exact
+profile includes connection/backreaction, not only its leading half-pole.
+"This discharges the preceding NEXT_TEST's UNVERIFIED full-profile
+reduction." Same FINDINGS/PROOF3 and full actual nonlinear live test.
+Not a new tangent-existence discovery, global mode/particle or all-SUSY
+boundary closure; opposite critical sign remains admissible.
+
+PB-SURFACE-FIELD-DEPENDENT-RESPONSE OPEN: exact sigma+finite-cut projector
+varies with fields/cutoff, obeying P P' P=0 and differentiated Green
+nullness. Derive its variation with SAME-action boson/auxiliary/source/
+SUSY boundary equations, BOTH ends and actual curved/gauge transport.
+Do not freeze it while declaring a complete nonlinear boundary law.
+
+PB-SURFACE-PROTECTED-ROOT-KERNEL and GAUGE-MULTIPLET-RECOVERY positives
+remain exact/local as previously scoped. PB-SURFACE-EXTERIOR-TRANSVERSALITY,
+CURVED-CAUCHY-TRANSPORT, VARYING-TUBE-CUSP, CUTOFF-LIMIT, FINITE-CUT-POLES,
+ACTION-GENERATED-RESPONSE and global admission remain OPEN. Full stationary
+charged spectrum/norms/vertices/anomalies, FINAL-PARTNER-ROSTER and
+foundational SM/three/parameters/gravity remain ACTIVE. Other-parent
+conditional-three/mass positives preserved; no indices/mechanisms copied.
+
+All115checks pass each at published repair8cef829a8,200pins/tree/index
+unchanged. First strict-record comparison failed on equivalent encoding;
+all115math checks passed and full originals/snapshots preserved. No
+waiver, full-suite/nonauthor/main/recipient or physical acceptance.

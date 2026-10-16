@@ -20278,3 +20278,37 @@ complete curved/common action boundary/global charged theory and full
 foundational physical SM/three/gravity remain ACTIVE. Post-check metadata
 not back-certified;188science pins separately rechecked unchanged.
 No independent analytic/banking/main/recipient/full-suite acceptance.
+
+## 2026-10-16 — complete critical interacting response and nonlinear BPS profile
+
+Published initial seal0d7fb5041:115/115mathematical checks each, but full
+record equality FAILED on two equivalent serialized log expressions.
+Preserved raw outputs/diagnostics/receipt,199source snapshots and original
+manifest/seals. Canonical serialization only repaired and resealed at
+published8cef829a8 BEFORE successor. No operator/criterion weakened.
+Successor native115/11517.445770s, reference115/11517.830138s; complete
+27,766byte outputs identical SHA7fd52321f9df3741b464ea7bffde0efa78e0dc1b482325811b5d52c8b69ab7ac.
+200pins/14,238tracked/index unchanged. Full surface_critical_cauchy packet.
+
+ALL28matrix types at j=etaR/4 include every original critical mode,
+regular/log partners and both computational signs; full0momentum
+fundamentals/Green Gram/singleton Cartan response verified. Authored
+Volterra contraction and Wronskian proof construct complete chosen
+response for every finite horizontal momentum and cutx<1 in THIS family.
+No n!=0/uniform angle/curved domain or physical count inferred. Both
+trace choices remain admissible. Log-scale changes do not change plane.
+Sigma+finite-cut response varies with fields/cutoff; its derivative is
+part of the later SAME-action boundary variation, not a fixed projector.
+
+Entire actual48component nonlinear BPS tangent, including connection,
+has exact angular/radial/Majorana checks and ALL8charged source profile
+recoveries. Previous proposed full-profile reduction discharged LOCALLY;
+not a new existence theorem/global particle/all boundary superpartners.
+Seven sublemmas separately LAW_MAP, carried leads/identifications and
+all current surfaces/relay/progress registered. No new B-dir/kill node.
+Root-singlet exact free and local nonlinear gauge positives preserved;
+other-parent conditional-three/mass work not spliced. Full angular/
+curved field-dependent common boson/auxiliary/source/SUSY boundary,
+global stationary charged theory/whole partner roster and foundational
+physical SM/three/parameters/gravity remain ACTIVE. Selected LIVE/
+governance follows; no independent/main/full-suite/physical acceptance.

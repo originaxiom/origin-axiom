@@ -1,5 +1,21 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+October16 interacting critical Cauchy response:115/115each at published
+repair8cef829a8,200pins/tree/index unchanged. ALL28types at j=etaR/4,
+with regular/log partners and both computational signs, have exact
+complete0momentum fundamentals. Authored Volterra/Wronskian proof gives
+complete finite-momentum response in THIS critical family, not all n,
+uniform high-frequency/curved boundary or physical counts. Entire actual
+BPS tangent matches full charged profiles/angular/radial/Majorana.
+Both trace choices remain; sigma+ response is field-dependent. First
+record-encoding failure fully preserved, no mathematical gate waived.
+NEXT all-angular/uniform admission and SAME-action curved field-dependent
+boson/auxiliary/source/SUSY boundary, global charged stationary spectrum
+and full foundational physical SM/three/gravity. FINDINGS/PROOF/NEXT_TEST:
+surface_critical_cauchy_2026_10_16. LIVE/governance capture pending;
+no full-suite/nonauthor/main/physical acceptance.
+
+
 October16 complete root/gauge sector:80/80each at publishedf19680893,
 188pins/tree/index unchanged. Faithful full-source/root maps give28
 radial matrix types size<=4, all3968complex coefficient directions and
