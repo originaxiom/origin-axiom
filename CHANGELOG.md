@@ -15,8 +15,13 @@ are boundary coefficients, not particles/generations. NEXT SAME-action
 fixed/varied data/joint tangents and complete curved boson/auxiliary/
 source/SUSY boundary, then global charged theory/whole partner roster.
 Foundational physical SM/three/parameters/gravity ACTIVE. Packet
-surface_real_fermion_work_2026_10_16 FINDINGS/PROOF/NEXT_TEST. LIVE/
-governance pending; no independent/main/full-suite/physical acceptance.
+surface_real_fermion_work_2026_10_16 FINDINGS/PROOF/NEXT_TEST. Atbe3b62bc5:
+12selected LIVE PASS202.09s,224pins/14,773tracked/index unchanged;
+intended new+all-angular pair verified. Governance26PASS/four inherited
+FAIL32.169122s, first3failure lines byte-identical;42stale/170open,
+review608. Full VALIDATION/raw capture, no waiver/full-suite/nonauthor/
+main/physical acceptance. NEXT actual reverse-SUSY joint/finite-action
+test, explicitly UNVERIFIED, not a blanket boundary/physics exclusion.
 
 
 October16 ALL-angular local response/work:375/375each at published

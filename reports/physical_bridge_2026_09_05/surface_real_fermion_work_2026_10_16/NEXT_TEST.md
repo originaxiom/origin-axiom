@@ -35,3 +35,22 @@ roster/norms/vertices/anomalies/extra-partner fate in ONE theory. Preserve
 other-parent physical mass/conditional-three results without copying
 counts or mechanisms. Full foundational physical SM/three/parameters/
 gravity remains the objective; no local-theory substitute or completion.
+
+## First bounded physical closure test
+
+Refine the EXISTING reverse-SUSY/finite-action checks to THIS actual
+nonnormal background and complete real Cauchy data. Derive the source
+supercharge's bosonic images from its actual component transformations;
+do not assume they are the adjoint/inverse of the forward q(a)map or
+read field slots from old epsilon/geometric labels. Test both traces
+against the SAME residual/gauge action, auxiliary equations, full
+joint boundary variations and both ends. Preserve the known BPS
+parameter tangent and regular gauge/gaugino fields as positive controls.
+Half-pole gradient divergences alone do not settle a relative action
+whose end/topological terms are essential; a failure must name the
+fixed/varied data, source/end terms and exact ensemble. No blanket
+SUSY/physics exclusion or assumption that a boundary source is absent.
+Search 'supercharge reverse tangent boundary finite action':226broad
+hits/5settled broad overlaps; actual real-boundary and variational-join
+PROOFs reread, their one-way/smooth controls retained. No first-ever
+or universal absence claim; the proposed refined closure is UNVERIFIED.

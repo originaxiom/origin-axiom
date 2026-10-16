@@ -27,8 +27,10 @@ Both full signed Grassmann polynomials retained. Initial successful
 failed. Source-map scope corrected without changing a physical input,
 source convention or old mathematical/nonvanishing criterion.
 
-Six new LIVE plus six actual all-angular antecedent tests and governance
-will run with pins/tracked/index frozen before launch to terminal.
-Record actual command/exits and inherited debt without a partial-suite
-green claim. Full-suite/nonauthor analytic/banking/main/recipient and
-physical acceptance remain owed; full goal ACTIVE, not shrunk.
+Six new LIVE plus six actual all-angular antecedents PASS202.09s at
+publishedbe3b62bc5, intended pair verified. Both calibrated50-check and
+both375-check methods rerun.224pins/14,773tracked/index unchanged;
+governance26PASS/four inherited FAIL32.169122s, no waiver. Complete
+VALIDATION/states/streams/receipts; post-check metadata not back-certified.
+Full-suite/nonauthor analytic/banking/main/recipient and physical
+acceptance remain owed; full goal ACTIVE, not shrunk.

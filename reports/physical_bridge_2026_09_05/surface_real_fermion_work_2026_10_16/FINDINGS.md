@@ -173,3 +173,11 @@ SM intake a54ed6e5f explicitly READS fourteen earlier packets through
 No new universal absence or first-ever claim. LIVE/governance capture
 follows science bank; no independent analytic/nonauthor banking/main/
 recipient/full-suite or physical completion, no inherited-debt waiver.
+
+At publishedbe3b62bc5,12selected LIVE PASS202.09s, actual intended
+new+all-angular pair verified. Both50-check and both375-check methods
+rerun;224pins/14,773tracked/index unchanged. Governance26PASS/four
+inherited FAIL32.169122s; first3failure lines byte-identical to prior,
+42stale/170open, review608. Full VALIDATION/raw state/stream/receipt
+captures. No waiver or full-suite/independent/physical acceptance.
+Post-check metadata is not back-certified; science pins rechecked.

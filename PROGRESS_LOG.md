@@ -20433,3 +20433,27 @@ unchanged. Eighth law row and current surfaces/leads/identification/
 relay updated. No failed run invented, mathematical/physical no-go or
 source-wide erratum. New calibrated LIVE/governance capture follows;
 full coupled/global/foundational physical SM/three/gravity ACTIVE.
+
+2026-10-16 calibrated real-work terminal validation at publishedbe3b62bc5:
+12selected LIVE PASS202.09s, capture203.604537s. Both50-check calibrated
+and both375-check actual all-angular methods rerun, intended test pair
+verified.224pins/14,773tracked/index unchanged BEFORE launch/after
+terminal in regression AND governance. Governance26PASS/four inherited
+FAIL32.169122s, first3failure lines byte-identical;42stale/170open,
+review608. Identification24rows/9UNEARNED at baseline9, five controls
+pass including known bare-assertion blind spot. No debt waiver.
+
+Complete VALIDATION/raw states/streams/receipts, original successful
+46capture/12LIVE and225exact prior input/seal copies preserved. Source-
+action calibration is typed, not a new phase/input: normal-functional
+and actual static source signs distinct, same real nonvanishing/total
+balance. Post-check metadata not back-certified;224science pins
+separately rechecked. No full-suite/nonauthor/main/recipient/physical
+acceptance or goal shrink.
+
+Next bounded physical closure test registered: refine prior reverse-
+SUSY/finite-action controls on THIS actual nonnormal full real Cauchy
+family, actual source transformations/joint data/auxiliaries/BOTH ends.
+Known BPS tangent and regular gauge/gaugino are positives; no guessed
+inverse map, rough-gradient-only or programme-wide negative. UNVERIFIED,
+not a new result/absence claim. Full physical SM/three/gravity ACTIVE.

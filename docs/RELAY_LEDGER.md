@@ -356,3 +356,11 @@ Both full signed polynomials saved; initial successful46/12LIVE and
 225exact original input/seal copies preserved. No physical-input/phase
 change; nonvanishing/Hermiticity/total balance unchanged. Not an
 unmatched force or whole-theory stationarity. Full goal ACTIVE.
+
+Calibrated real-work relay validation at publishedbe3b62bc5:12selected
+LIVE PASS202.09s,224pins/14,773tracked/index unchanged; intended pair
+verified. Governance26PASS/four inherited FAIL32.169122s, first3failure
+lines byte-identical;42stale/170open, review608. Full VALIDATION/raw
+captures. Actual reverse-SUSY joint/finite-action test is a registered
+UNVERIFIED refinement, not a full physical result or blanket exclusion.
+No waiver/recipient/main/nonauthor/full-suite/physical acceptance.

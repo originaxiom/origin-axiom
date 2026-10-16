@@ -7175,3 +7175,23 @@ The old -i witness is normal-functional, actual static source witness+i;
 nonvanishing/Hermiticity/total bulk-end balance unchanged. Equal stationary
 equations alone did not earn this map. Use calibrated source work for
 the coupled variational ensemble; no new unmatched-force or full-SM claim.
+
+PB-SURFACE-REVERSE-SUSY-CLOSURE OPEN, UNVERIFIED REFINEMENT: use ACTUAL
+source supercharge transformations on complete real Cauchy data at the
+nonzero nonnormal background, not a guessed inverse of forward q(a).
+Test bosonic images/actual residual and gauge action/auxiliary equations/
+joint variations/BOTH ends for both traces. Keep BPS tangent and regular
+gauge/gaugino controls. Existing real-boundary/variational-join reverse
+finite-energy and one-way tangent tests are credited, not asserted absent.
+No half-pole rough-gradient-only or ensemble-unspecified negative;
+essential end/topological/source terms must be carried. Source, gauge
+class and fixed/varied data must be explicit before a physical verdict.
+Search 'supercharge reverse tangent boundary finite action':226broad/
+5settled overlaps, actual PROOF bodies reread; no first-ever claim.
+
+Calibrated real-work validation at publishedbe3b62bc5:12selected LIVE
+PASS202.09s,224pins/14,773tracked/index unchanged, intended pair
+verified. Governance26PASS/four inherited FAIL32.169122s, first3failure
+lines byte-identical;42stale/170open, review608. Full VALIDATION/raw
+states/streams/receipts. No waiver/nonauthor/main/full-suite/physical
+acceptance. Full foundational physical SM/three/parameters/gravity ACTIVE.

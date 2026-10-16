@@ -45,3 +45,11 @@ times the same real coefficient. BOTH full polynomials saved. Initial
 successful46capture/12LIVE/225exact source+seal copies retained. No
 phase/kinetic/input change, nonvanishing/Hermiticity/total balance stand.
 Equal stationary equations alone did not earn that signed action map.
+
+At publishedbe3b62bc5,12selected LIVE PASS202.09s,224pins/14,773tracked/
+index unchanged; actual new+all-angular selection verified. Governance
+26PASS/four inherited FAIL32.169122s, first3failure lines byte-identical;
+42stale/170open, review608. Full VALIDATION/raw captures. Post-check
+metadata not back-certified; no waiver/full-suite/nonauthor/main/physical
+acceptance. Next refine existing reverse-SUSY finite-action controls
+to the actual nonnormal full real family, with both ends/joint data.
