@@ -154,3 +154,16 @@ Global stationary fields/ends, physical charged spectra, normalized
 vertices and anomalies, foundational action/selection and gravity remain
 ultimate obligations. Full derived physical SM/three/gravity stays ACTIVE.
 Selected live regression/governance follow; not already claimed green.
+
+## Terminal live validation
+
+At99d770c21, five selected LIVE tests passed152.58s, capture153.391333s;
+the original named-map failure stays explicitly false in the rerun.
+Both full action methods and the extended22-check diagnostic reran.
+104pins/13,629tracked contents/index unchanged in both regression and
+governance. Governance26PASS/four inherited FAIL16.553735s; first three
+failure lines exactly match preceding real-superfield capture,42stale
+relay debts/160open and review572. No new science failure path or waiver.
+Full VALIDATION and raw captures retained; not full-suite, nonauthor,
+analytic or complete physical acceptance. Post-check metadata is not
+back-certified. Ultimate full generated physical SM/three/gravity ACTIVE.

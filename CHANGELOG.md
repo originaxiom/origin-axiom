@@ -1,5 +1,12 @@
 # Changelog
 
+October16 real-action validation:5selected LIVE PASS152.58s at
+99d770c21,104pins/tree/index unchanged; ORIGINAL named-map failure
+retained, actual local Clifford/end/current positives preserved.
+Governance26PASS/four inherited FAIL16.553735s, no waiver/new science
+failure path. Full VALIDATION/NEXT_TEST and sender relay retained.
+Full generated physical SM/three/gravity stays ACTIVE.
+
 October16 real action/Clifford/end: complete native/component records
 agree at published0d44cabb7,38/39 each; the ORIGINAL named-map gate
 remains false. Actual Clifford9/positive time/reality/gauge/normal potential
