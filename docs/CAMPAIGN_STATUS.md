@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+LATEST terminal arena validation at d661e198f:16selected LIVE PASS229.38s,
+governance26PASS/four inherited FAIL85.508196s;321pins/17,638tracked/index
+unchanged in both. Full VALIDATION/raw receipts in surface_arena_boundary.
+No waiver/full-suite/nonauthor/main/physical acceptance. Next actual
+source end functional/state on the global tube, not another carrier-only
+identification. Full foundational physical goal remains ACTIVE.
+
 October16 global-boundary milestone:44/44each at5c0f3ca60,321pins/
 17,626tracked/index unchanged. Explicit actual normal-bundle map joins
 proposed trefoil arena to supplied4Dweave surface; global smooth E2

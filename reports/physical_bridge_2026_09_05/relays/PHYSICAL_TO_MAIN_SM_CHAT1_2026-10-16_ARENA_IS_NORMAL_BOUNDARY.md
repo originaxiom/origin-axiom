@@ -56,3 +56,13 @@ parameters/gravity. No observed data used, no B/I or qualia promotion.
 Requests assigned analytic review of PROOF1--4 global map/series/tube
 and PROOF6 actual field map. LIVE/governance follows separately; no
 full-suite/recipient/main acceptance or completed physical goal.
+
+Terminal validation at published d661e198f:16selected LIVE PASS229.38s,
+governance26PASS/four existing reported FAIL85.508196s;321pins/
+17,638tracked/index unchanged in both captures. Full VALIDATION/raw
+receipts; no waiver/full-suite/nonauthor/receiver acceptance. First3
+reported failure lines match prior, not a full truncated-debt audit;
+42stale/175open, review634. Finite-image E8 coefficients are not the
+whole infinite architecture; retain winding/register data separately.
+The global tube does not repair the old one-sided principal failure
+or derive a true physical end state. Named review remains requested.

@@ -158,3 +158,19 @@ only kill. Source/metric/E8/M1,2/regulator/end selection remains priced.
 Independent analytic/banking, full-suite/recipient/main acceptance and
 four old governance debts remain separate. LIVE validation follows.
 No B/I-number, physical/qualia identification or goal-completion claim.
+
+Terminal validation at published d661e198f:16selected LIVE PASS229.38s,
+capture231.518578s; actual new7+source5+geometric4 command verified.
+Governance26PASS/four inherited reported FAIL85.508196s. Both captures
+retain321pins/17,638tracked contents/index unchanged. First3reported
+failure lines equal prior transmission; truncated provenance reporting
+is not a full debt inventory.42stale/175open, review634. Full
+VALIDATION/raw streams/inventories/receipts retained; no waiver or
+full-suite/nonauthor/recipient/main/physical acceptance. Scientific
+pins separately rechecked; post-check reports not back-certified.
+
+The finite-image E8 coefficient map does not faithfully encode the
+infinite based architecture; retain geometric winding/register data
+separately. This new tube does not cure the old one-sided projector's
+principal failure, select its physical domain or turn a smooth
+two-sided joining into a physical end-state selection.

@@ -20732,3 +20732,16 @@ candidates, with all duties registered. Earlier spin stationary phases
 preserved in own parents; no free transfer. Laws/leads/identification/
 sender relay banked. LIVE/governance/nonauthor/full-suite/main/recipient
 and four inherited debt categories remain separate, unwaived.
+
+Terminal arena validation at published d661e198f:16selected LIVE PASS
+229.38s,capture231.518578s; actual new7+source5+geometric4 verified.
+Governance26PASS/four inherited reported FAIL85.508196s. Both captures
+321pins/17,638tracked/index unchanged; full VALIDATION/raw streams/
+receipts/inventories. First3reported failure lines equal transmission,
+not a full truncated provenance-debt inventory;42stale/175open review634.
+No waiver/full-suite/nonauthor/receiver/main/physical acceptance. All321
+science pins separately rechecked unchanged. Finite-image coefficient
+map is not faithful to all infinite architecture data; winding/register
+kept separately. New global tube does not cure old one-sided principal
+failure or select physical end state. Next actual source end law/state
+and globally admitted fields; original full physical goal stays ACTIVE.

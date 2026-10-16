@@ -1,5 +1,14 @@
 # Changelog
 
+October16 terminal arena validation at publishedd661e198f:16selected
+LIVE PASS229.38s; governance26PASS/four inherited reported FAIL85.508196s.
+321pins/17,638tracked/index unchanged in both captures; full raw states,
+receipts and VALIDATION. First3reported failure lines equal prior, not
+a full truncated-debt inventory;42stale/175open review634. No waiver/
+full-suite/nonauthor/recipient/main/physical acceptance. Finite-image
+coefficient holonomy does not retain all infinite architecture data;
+the new tube does not repair the old one-sided wall. Full goal ACTIVE.
+
 October16 global-boundary milestone:44/44each at5c0f3ca60,321pins/
 17,626tracked/index unchanged. Explicit actual normal-bundle map joins
 proposed trefoil arena to supplied4Dweave surface; global smooth E2
