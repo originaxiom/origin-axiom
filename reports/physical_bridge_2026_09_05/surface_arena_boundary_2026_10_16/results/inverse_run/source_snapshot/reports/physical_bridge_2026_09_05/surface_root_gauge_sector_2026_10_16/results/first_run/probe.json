@@ -1,0 +1,3009 @@
+{
+  "checks": {
+    "same complete actual source dictionary": true,
+    "actual root compact metric and parity data": true,
+    "complete root Casimir polynomial not sampled character": true,
+    "all root Casimir projectors complete and orthogonal": true,
+    "root branching dimensions are coefficient dimensions": true,
+    "actual normalized triplet intertwines every root generator": true,
+    "all actual doublet maps and norms not only dimension match": true,
+    "actual root maps and singlet kernel resolve all248": true,
+    "full coefficient decomposition retains eta and compact conjugation": true,
+    "even and odd root kernels and doublets all retained": true,
+    "complete even centralizer basis not a selected commuting subset": true,
+    "centralizer membership criteria act on every basis column": true,
+    "all6241 retained gauge basis brackets close": true,
+    "actual compact nonabelian gauge interaction survives": true,
+    "nonabelian retained pair is actually compact real": true,
+    "retained gauge algebra is real and orthogonal to root background": true,
+    "computational spin label is Hermitian and complete": true,
+    "spin reduction holds on whole unit horizontal circle": true,
+    "full spin seed multiplicity 1": true,
+    "source spin isometry and all reduced generators (1, 1)": true,
+    "source spin isometry and all reduced generators (1, 2)": true,
+    "full spin seed multiplicity -1": true,
+    "source spin isometry and all reduced generators (-1, 3)": true,
+    "source spin isometry and all reduced generators (-1, 4)": true,
+    "source reconstruction is full16 not one computational sign": true,
+    "external Lorentz mixes computational signs and full radial law retains it": true,
+    "actual root Cartan plus R conserved including both Higgs vertices": true,
+    "full reduced symmetry and current (0, 1, 1)": true,
+    "small complete charged or neutral block (0, 1, 1, -1)": true,
+    "small complete charged or neutral block (0, 1, 1, 1)": true,
+    "full reduced symmetry and current (0, 1, -1)": true,
+    "small complete charged or neutral block (0, 1, -1, -1)": true,
+    "small complete charged or neutral block (0, 1, -1, 1)": true,
+    "full reduced symmetry and current (0, -1, 1)": true,
+    "small complete charged or neutral block (0, -1, 1, -1)": true,
+    "small complete charged or neutral block (0, -1, 1, 1)": true,
+    "full reduced symmetry and current (0, -1, -1)": true,
+    "small complete charged or neutral block (0, -1, -1, -1)": true,
+    "small complete charged or neutral block (0, -1, -1, 1)": true,
+    "full reduced symmetry and current (1, 1, 1)": true,
+    "wrong Cartan R sign detected (1, 1, 1)": true,
+    "small complete charged or neutral block (1, 1, 1, -2)": true,
+    "small complete charged or neutral block (1, 1, 1, 0)": true,
+    "small complete charged or neutral block (1, 1, 1, 2)": true,
+    "full reduced symmetry and current (1, 1, -1)": true,
+    "wrong Cartan R sign detected (1, 1, -1)": true,
+    "small complete charged or neutral block (1, 1, -1, -2)": true,
+    "small complete charged or neutral block (1, 1, -1, 0)": true,
+    "small complete charged or neutral block (1, 1, -1, 2)": true,
+    "full reduced symmetry and current (1, -1, 1)": true,
+    "wrong Cartan R sign detected (1, -1, 1)": true,
+    "small complete charged or neutral block (1, -1, 1, -2)": true,
+    "small complete charged or neutral block (1, -1, 1, 0)": true,
+    "small complete charged or neutral block (1, -1, 1, 2)": true,
+    "full reduced symmetry and current (1, -1, -1)": true,
+    "wrong Cartan R sign detected (1, -1, -1)": true,
+    "small complete charged or neutral block (1, -1, -1, -2)": true,
+    "small complete charged or neutral block (1, -1, -1, 0)": true,
+    "small complete charged or neutral block (1, -1, -1, 2)": true,
+    "full reduced symmetry and current (2, -1, 1)": true,
+    "wrong Cartan R sign detected (2, -1, 1)": true,
+    "small complete charged or neutral block (2, -1, 1, -3)": true,
+    "small complete charged or neutral block (2, -1, 1, -1)": true,
+    "small complete charged or neutral block (2, -1, 1, 1)": true,
+    "small complete charged or neutral block (2, -1, 1, 3)": true,
+    "full reduced symmetry and current (2, -1, -1)": true,
+    "wrong Cartan R sign detected (2, -1, -1)": true,
+    "small complete charged or neutral block (2, -1, -1, -3)": true,
+    "small complete charged or neutral block (2, -1, -1, -1)": true,
+    "small complete charged or neutral block (2, -1, -1, 1)": true,
+    "small complete charged or neutral block (2, -1, -1, 3)": true,
+    "all charged and root kernel blocks resolve full3968 coefficients": true,
+    "actual scalar supercharge is named lambda not equal rank only": true,
+    "all6 untraced internal gauge and Higgs gaugino currents vanish": true,
+    "external gauge and kinetic action preserves real lambda": true,
+    "normal gaugino boundary current zero for every internal normal": true,
+    "free normal response exact on nonzero background kernel": true,
+    "all local nonlinear mixed gauge sources vanish without abelianizing": true,
+    "retained regular gauge and lambda has zero normal response": true,
+    "reduced gauge kinetic volume factor positive not predicted": true
+  },
+  "records": {
+    "root": {
+      "standard_branching": "133 singlets +56doublets +1triplet; not the geometric SU2 embedding",
+      "even_singlets": 79,
+      "odd_singlets": 54,
+      "doublets_highest_parity": {
+        "-1": 28,
+        "1": 28
+      },
+      "closure_basis_pairs": 6241,
+      "closure_nonzero": 1976,
+      "closure_sha256": "a109b94c93392faeea3dbe18a7115237cc0ba1313a50c1e73d5698c3392f346c",
+      "even_centralizer_basis": [
+        [
+          [
+            0,
+            "1"
+          ]
+        ],
+        [
+          [
+            1,
+            "1"
+          ]
+        ],
+        [
+          [
+            2,
+            "1"
+          ]
+        ],
+        [
+          [
+            3,
+            "1"
+          ]
+        ],
+        [
+          [
+            4,
+            "1"
+          ]
+        ],
+        [
+          [
+            0,
+            "-1"
+          ],
+          [
+            1,
+            "-3/2"
+          ],
+          [
+            2,
+            "-2"
+          ],
+          [
+            3,
+            "-3"
+          ],
+          [
+            4,
+            "-5/2"
+          ],
+          [
+            5,
+            "-1"
+          ],
+          [
+            6,
+            "-1"
+          ],
+          [
+            7,
+            "-1/2"
+          ]
+        ],
+        [
+          [
+            0,
+            "1"
+          ],
+          [
+            1,
+            "3/2"
+          ],
+          [
+            2,
+            "2"
+          ],
+          [
+            3,
+            "3"
+          ],
+          [
+            4,
+            "5/2"
+          ],
+          [
+            5,
+            "2"
+          ],
+          [
+            6,
+            "2"
+          ],
+          [
+            7,
+            "1/2"
+          ]
+        ],
+        [
+          [
+            38,
+            "1"
+          ]
+        ],
+        [
+          [
+            48,
+            "1"
+          ]
+        ],
+        [
+          [
+            54,
+            "1"
+          ]
+        ],
+        [
+          [
+            60,
+            "1"
+          ]
+        ],
+        [
+          [
+            61,
+            "1"
+          ]
+        ],
+        [
+          [
+            64,
+            "1"
+          ]
+        ],
+        [
+          [
+            70,
+            "1"
+          ]
+        ],
+        [
+          [
+            71,
+            "1"
+          ]
+        ],
+        [
+          [
+            74,
+            "1"
+          ]
+        ],
+        [
+          [
+            75,
+            "1"
+          ]
+        ],
+        [
+          [
+            78,
+            "1"
+          ]
+        ],
+        [
+          [
+            79,
+            "1"
+          ]
+        ],
+        [
+          [
+            80,
+            "1"
+          ]
+        ],
+        [
+          [
+            83,
+            "1"
+          ]
+        ],
+        [
+          [
+            84,
+            "1"
+          ]
+        ],
+        [
+          [
+            85,
+            "1"
+          ]
+        ],
+        [
+          [
+            86,
+            "1"
+          ]
+        ],
+        [
+          [
+            92,
+            "1"
+          ]
+        ],
+        [
+          [
+            93,
+            "1"
+          ]
+        ],
+        [
+          [
+            96,
+            "1"
+          ]
+        ],
+        [
+          [
+            97,
+            "1"
+          ]
+        ],
+        [
+          [
+            100,
+            "1"
+          ]
+        ],
+        [
+          [
+            101,
+            "1"
+          ]
+        ],
+        [
+          [
+            102,
+            "1"
+          ]
+        ],
+        [
+          [
+            105,
+            "1"
+          ]
+        ],
+        [
+          [
+            106,
+            "1"
+          ]
+        ],
+        [
+          [
+            107,
+            "1"
+          ]
+        ],
+        [
+          [
+            108,
+            "1"
+          ]
+        ],
+        [
+          [
+            111,
+            "1"
+          ]
+        ],
+        [
+          [
+            112,
+            "1"
+          ]
+        ],
+        [
+          [
+            113,
+            "1"
+          ]
+        ],
+        [
+          [
+            114,
+            "1"
+          ]
+        ],
+        [
+          [
+            117,
+            "1"
+          ]
+        ],
+        [
+          [
+            118,
+            "1"
+          ]
+        ],
+        [
+          [
+            119,
+            "1"
+          ]
+        ],
+        [
+          [
+            127,
+            "1"
+          ]
+        ],
+        [
+          [
+            128,
+            "1"
+          ]
+        ],
+        [
+          [
+            136,
+            "1"
+          ]
+        ],
+        [
+          [
+            137,
+            "1"
+          ]
+        ],
+        [
+          [
+            138,
+            "1"
+          ]
+        ],
+        [
+          [
+            141,
+            "1"
+          ]
+        ],
+        [
+          [
+            142,
+            "1"
+          ]
+        ],
+        [
+          [
+            143,
+            "1"
+          ]
+        ],
+        [
+          [
+            144,
+            "1"
+          ]
+        ],
+        [
+          [
+            147,
+            "1"
+          ]
+        ],
+        [
+          [
+            148,
+            "1"
+          ]
+        ],
+        [
+          [
+            149,
+            "1"
+          ]
+        ],
+        [
+          [
+            150,
+            "1"
+          ]
+        ],
+        [
+          [
+            153,
+            "1"
+          ]
+        ],
+        [
+          [
+            154,
+            "1"
+          ]
+        ],
+        [
+          [
+            155,
+            "1"
+          ]
+        ],
+        [
+          [
+            158,
+            "1"
+          ]
+        ],
+        [
+          [
+            159,
+            "1"
+          ]
+        ],
+        [
+          [
+            162,
+            "1"
+          ]
+        ],
+        [
+          [
+            163,
+            "1"
+          ]
+        ],
+        [
+          [
+            169,
+            "1"
+          ]
+        ],
+        [
+          [
+            170,
+            "1"
+          ]
+        ],
+        [
+          [
+            171,
+            "1"
+          ]
+        ],
+        [
+          [
+            172,
+            "1"
+          ]
+        ],
+        [
+          [
+            175,
+            "1"
+          ]
+        ],
+        [
+          [
+            176,
+            "1"
+          ]
+        ],
+        [
+          [
+            177,
+            "1"
+          ]
+        ],
+        [
+          [
+            180,
+            "1"
+          ]
+        ],
+        [
+          [
+            181,
+            "1"
+          ]
+        ],
+        [
+          [
+            184,
+            "1"
+          ]
+        ],
+        [
+          [
+            185,
+            "1"
+          ]
+        ],
+        [
+          [
+            191,
+            "1"
+          ]
+        ],
+        [
+          [
+            194,
+            "1"
+          ]
+        ],
+        [
+          [
+            195,
+            "1"
+          ]
+        ],
+        [
+          [
+            201,
+            "1"
+          ]
+        ],
+        [
+          [
+            207,
+            "1"
+          ]
+        ],
+        [
+          [
+            217,
+            "1"
+          ]
+        ]
+      ],
+      "canonical_root_order": "Cartan0..7 followed by lexicographically sorted root8tuples",
+      "nonabelian_witness": {
+        "root": [
+          -1,
+          -2,
+          -2,
+          -3,
+          -2,
+          -2,
+          -2,
+          -1
+        ],
+        "x": [
+          [
+            38,
+            "1"
+          ],
+          [
+            217,
+            "1"
+          ]
+        ],
+        "y": [
+          [
+            38,
+            "I"
+          ],
+          [
+            217,
+            "-I"
+          ]
+        ],
+        "bracket": [
+          [
+            0,
+            "-2*I"
+          ],
+          [
+            1,
+            "-4*I"
+          ],
+          [
+            2,
+            "-4*I"
+          ],
+          [
+            3,
+            "-6*I"
+          ],
+          [
+            4,
+            "-4*I"
+          ],
+          [
+            5,
+            "-4*I"
+          ],
+          [
+            6,
+            "-4*I"
+          ],
+          [
+            7,
+            "-2*I"
+          ]
+        ]
+      }
+    },
+    "blocks": {
+      "directions": 3968,
+      "largest_active_size": 4,
+      "list": [
+        {
+          "highest_weight": 0,
+          "highest_parity": 1,
+          "copies": 79,
+          "computational_sign": 1,
+          "J": -1,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 0,
+          "highest_parity": 1,
+          "copies": 79,
+          "computational_sign": 1,
+          "J": 1,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 0,
+          "highest_parity": 1,
+          "copies": 79,
+          "computational_sign": -1,
+          "J": -1,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 0,
+          "highest_parity": 1,
+          "copies": 79,
+          "computational_sign": -1,
+          "J": 1,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 0,
+          "highest_parity": -1,
+          "copies": 54,
+          "computational_sign": 1,
+          "J": -1,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 0,
+          "highest_parity": -1,
+          "copies": 54,
+          "computational_sign": 1,
+          "J": 1,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 0,
+          "highest_parity": -1,
+          "copies": 54,
+          "computational_sign": -1,
+          "J": -1,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 0,
+          "highest_parity": -1,
+          "copies": 54,
+          "computational_sign": -1,
+          "J": 1,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": 1,
+          "copies": 28,
+          "computational_sign": 1,
+          "J": -2,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": 1,
+          "copies": 28,
+          "computational_sign": 1,
+          "J": 0,
+          "etaR": -1,
+          "size": 4,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0",
+              "0",
+              "2"
+            ],
+            [
+              "0",
+              "0",
+              "-2",
+              "0"
+            ],
+            [
+              "0",
+              "-2",
+              "0",
+              "0"
+            ],
+            [
+              "2",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I",
+              "0",
+              "0"
+            ],
+            [
+              "2*I",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "2*I"
+            ],
+            [
+              "0",
+              "0",
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": 1,
+          "copies": 28,
+          "computational_sign": 1,
+          "J": 2,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "-1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": 1,
+          "copies": 28,
+          "computational_sign": -1,
+          "J": -2,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": 1,
+          "copies": 28,
+          "computational_sign": -1,
+          "J": 0,
+          "etaR": -1,
+          "size": 4,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0",
+              "0",
+              "2"
+            ],
+            [
+              "0",
+              "0",
+              "-2",
+              "0"
+            ],
+            [
+              "0",
+              "-2",
+              "0",
+              "0"
+            ],
+            [
+              "2",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I",
+              "0",
+              "0"
+            ],
+            [
+              "-2*I",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-2*I"
+            ],
+            [
+              "0",
+              "0",
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": 1,
+          "copies": 28,
+          "computational_sign": -1,
+          "J": 2,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "-1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": -1,
+          "copies": 28,
+          "computational_sign": 1,
+          "J": -2,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": -1,
+          "copies": 28,
+          "computational_sign": 1,
+          "J": 0,
+          "etaR": 1,
+          "size": 4,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0",
+              "0",
+              "2"
+            ],
+            [
+              "0",
+              "0",
+              "-2",
+              "0"
+            ],
+            [
+              "0",
+              "-2",
+              "0",
+              "0"
+            ],
+            [
+              "2",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I",
+              "0",
+              "0"
+            ],
+            [
+              "2*I",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "2*I"
+            ],
+            [
+              "0",
+              "0",
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": -1,
+          "copies": 28,
+          "computational_sign": 1,
+          "J": 2,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "-1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": -1,
+          "copies": 28,
+          "computational_sign": -1,
+          "J": -2,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": -1,
+          "copies": 28,
+          "computational_sign": -1,
+          "J": 0,
+          "etaR": 1,
+          "size": 4,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0",
+              "0",
+              "2"
+            ],
+            [
+              "0",
+              "0",
+              "-2",
+              "0"
+            ],
+            [
+              "0",
+              "-2",
+              "0",
+              "0"
+            ],
+            [
+              "2",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I",
+              "0",
+              "0"
+            ],
+            [
+              "-2*I",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-2*I"
+            ],
+            [
+              "0",
+              "0",
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 1,
+          "highest_parity": -1,
+          "copies": 28,
+          "computational_sign": -1,
+          "J": 2,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "-1"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 2,
+          "highest_parity": -1,
+          "copies": 1,
+          "computational_sign": 1,
+          "J": -3,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-2",
+              "0"
+            ],
+            [
+              "0",
+              "2"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 2,
+          "highest_parity": -1,
+          "copies": 1,
+          "computational_sign": 1,
+          "J": -1,
+          "etaR": -1,
+          "size": 4,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0",
+              "0",
+              "2*sqrt(2)"
+            ],
+            [
+              "0",
+              "0",
+              "-2*sqrt(2)",
+              "0"
+            ],
+            [
+              "0",
+              "-2*sqrt(2)",
+              "0",
+              "0"
+            ],
+            [
+              "2*sqrt(2)",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I",
+              "0",
+              "0"
+            ],
+            [
+              "2*I",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "2*I"
+            ],
+            [
+              "0",
+              "0",
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 2,
+          "highest_parity": -1,
+          "copies": 1,
+          "computational_sign": 1,
+          "J": 1,
+          "etaR": 1,
+          "size": 4,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-2"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0",
+              "0",
+              "2*sqrt(2)"
+            ],
+            [
+              "0",
+              "0",
+              "-2*sqrt(2)",
+              "0"
+            ],
+            [
+              "0",
+              "-2*sqrt(2)",
+              "0",
+              "0"
+            ],
+            [
+              "2*sqrt(2)",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I",
+              "0",
+              "0"
+            ],
+            [
+              "2*I",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "2*I"
+            ],
+            [
+              "0",
+              "0",
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 2,
+          "highest_parity": -1,
+          "copies": 1,
+          "computational_sign": 1,
+          "J": 3,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "-2"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 2,
+          "highest_parity": -1,
+          "copies": 1,
+          "computational_sign": -1,
+          "J": -3,
+          "etaR": 1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-2",
+              "0"
+            ],
+            [
+              "0",
+              "2"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "-2*I"
+            ],
+            [
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 2,
+          "highest_parity": -1,
+          "copies": 1,
+          "computational_sign": -1,
+          "J": -1,
+          "etaR": -1,
+          "size": 4,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "-2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0",
+              "0",
+              "2*sqrt(2)"
+            ],
+            [
+              "0",
+              "0",
+              "-2*sqrt(2)",
+              "0"
+            ],
+            [
+              "0",
+              "-2*sqrt(2)",
+              "0",
+              "0"
+            ],
+            [
+              "2*sqrt(2)",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I",
+              "0",
+              "0"
+            ],
+            [
+              "-2*I",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-2*I"
+            ],
+            [
+              "0",
+              "0",
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 2,
+          "highest_parity": -1,
+          "copies": 1,
+          "computational_sign": -1,
+          "J": 1,
+          "etaR": 1,
+          "size": 4,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2*j - 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1/2 - 2*j"
+            ]
+          ],
+          "backreaction": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-2"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0",
+              "0",
+              "2*sqrt(2)"
+            ],
+            [
+              "0",
+              "0",
+              "-2*sqrt(2)",
+              "0"
+            ],
+            [
+              "0",
+              "-2*sqrt(2)",
+              "0",
+              "0"
+            ],
+            [
+              "2*sqrt(2)",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I",
+              "0",
+              "0"
+            ],
+            [
+              "-2*I",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-2*I"
+            ],
+            [
+              "0",
+              "0",
+              "2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "highest_weight": 2,
+          "highest_parity": -1,
+          "copies": 1,
+          "computational_sign": -1,
+          "J": 3,
+          "etaR": -1,
+          "size": 2,
+          "indicial": [
+            [
+              "2*j + 1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-2*j - 1/2"
+            ]
+          ],
+          "backreaction": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "-2"
+            ]
+          ],
+          "yukawa": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "horizontal": [
+            [
+              "0",
+              "2*I"
+            ],
+            [
+              "-2*I",
+              "0"
+            ]
+          ],
+          "normal_current": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "all_j": "analytic j in Z+(etaR)/4; no angular truncation",
+      "computational_sign": "both signs retained; external Lorentz mixes them",
+      "matrix_assembly": "Kt=indicial/t+g^2*t*backreaction/(1-g^2*t^2)+g*yukawa/(1-g^2*t^2)+rho*t*horizontal",
+      "charged_finite_cauchy_response_computed": false
+    },
+    "gauge_sector": {
+      "scalar_supercharge_equals_source_lambda": true,
+      "all_internal_currents": 0,
+      "status": "local classical consistent interacting N=1 gauge ansatz in supplied parent; omitted modes not proved absent",
+      "gauge_group_selected_as_SM": false,
+      "coupling": "supplied regulated volume times supplied parent inverse coupling",
+      "boundary": "exact free response on root singlets at nonzero Higgs; regular even constants retained"
+    },
+    "scope": "chosen odd Chevalley-root flat normal BPS chart; not full curved/global boundary theory, full spectrum, foundational SM/three or gravity"
+  },
+  "all_passed": true
+}

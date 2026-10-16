@@ -16,7 +16,10 @@ def load(path, name):
     return module
 
 def simp(value):
-    return s.factor(s.cancel(s.trigsimp(s.expand(value))))
+    value = s.cancel(value)
+    if value.has(s.sin, s.cos):
+        value = s.trigsimp(value)
+    return s.factor(s.cancel(value))
 
 def cm(matrix):
     return s.SparseMatrix(matrix.applyfunc(simp))
@@ -145,7 +148,8 @@ def run(method):
     ck('strictness uses exact positive variance identity', s.expand(identity) == 0 and simp(16*y**6/(den**3*E**2)/(4*y*y)-4*y**4/(den**3*E**2)) == 0)
     qa = qmn.subs({m: 1, n: 0})
     qb = qmn.subs({m: 0, n: 1})
-    finite = qa+qb
+    print('STAGE finite pair rational contact certificate', file=sys.stderr, flush=True)
+    finite = s.factor(s.cancel(qa+qb))
     finite_levi = 1/(2*y*y)+(s.diff(s.log(finite), x, 2)+s.diff(s.log(finite), y, 2))/4
     finite_positive = qa*qb*(ga-gb).dot(ga-gb)/(4*y*y*finite**2)
     ck('nonautomorphic finite pair controls strictness but not global invariance',
@@ -160,6 +164,7 @@ def run(method):
     u = s.Symbol('real_integral_coordinate', real=True)
     aa = s.Symbol('positive_kernel_scale', positive=True)
     # The integration variable is unrestricted on the real integration path.
+    print('STAGE exact rational cusp kernel integral', file=sys.stderr, flush=True)
     integral = s.integrate(1/(u*u+aa*aa)**2, (u, -s.oo, s.oo))
     ck('cusp constant integral from rational kernel', simp(integral-s.pi/(2*aa**3)) == 0)
     epsilon, area, shortest = s.symbols('epsilon area shortest', positive=True)

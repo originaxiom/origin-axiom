@@ -242,7 +242,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/POST_HOC_REPAIR.md",
-      "sha256": "9ba8d648ee05a95dc4f7b6c742e62a447c32956c5f653a9ad787ede10e81369c"
+      "sha256": "591651c237b5ed2bdfedabfddaeeb43c5ce508fc28b8bffb59537f0e74c5e7e0"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/PROOF.md",
@@ -250,7 +250,7 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/analysis.py",
-      "sha256": "795eda4bb7b25753bd29d2e82768ef75aca16d5739ea7140eab4cbeb00cdb9cf"
+      "sha256": "5af1f65601cce7729020561d5b815cb5832a868ab03b704462f284c430926599"
     },
     {
       "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/execute.py",

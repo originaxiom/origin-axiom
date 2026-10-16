@@ -27,3 +27,32 @@ locates the expensive coordinate block, not a stack-trace diagnosis.
 
 FINDINGS will report the successor separately. No tolerance relaxation,
 data fitting, false first-pass claim or complete global physical result.
+
+## Second preserved performance interruption
+
+At published/server-confirmedde6c23e43, the new inverse certificate and
+all normal/variable-tube, entire-lattice summand/PDE/reindexing and
+positive-variance identities PASSED. Native was deliberately interrupted
+after210.370752s, exit-15, with no FAIL line; reference did not run.
+The last completed gate was the exact positive variance identity. The
+following direct finite-pair rational simplification was still running.
+Exact command/PID84760 and parent84752 were validated before sending
+TERM only to that child; wrapper completed its own custody normally.
+
+results/inverse_run preserves full original sources,321input pins,
+original INPUTS/ARTIFACT manifests, before/after states, empty stdout
+and4349byte stderr SHA256
+50f07de1d9034e4eb1c8c1a4bd025f874fd4150ac0cb1bbf3fa12425ec3d5199.
+All321pins/17,298tracked contents/index unchanged. Its passed=false
+receipt is terminal, not an observation timeout or successful first run.
+
+The next POST HOC performance repair cancels rational factors BEFORE
+optional trigonometric simplification, instead of expanding unreduced
+rational expressions first. The same two-term function is normalized
+by exact factor/cancel before differentiation. Every identity, PDE,
+strictness criterion, negative control and input is retained. Diagnostic
+stage lines are added before the expensive rational certificates.
+Neither stack was sampled, so no exact interpreter-stack claim is made.
+This source/proof/test/input closure is resealed and published BEFORE
+its next execution. No mathematical verdict is inferred from either
+interruption; later FINDINGS must report the actual successor outcome.
