@@ -145,7 +145,8 @@ hash-first status.*
 | frontier/B1659_the_joint_law/PREREGISTRATION.md | 8123044b | f4b12d788 | 1 | yes |
 | frontier/B1660_the_one_higgs_census/PREREGISTRATION.md | f0f9518c | f798b2368 | 1 | yes |
 | frontier/B1663_the_pull_backs_strength/PREREGISTRATION.md | 1ce96661 | 9c3f74238 | 1 | yes |
-| frontier/B1664_the_layers/PREREGISTRATION.md | 20c39c08 | untracked | 0 | NO |
+| frontier/B1664_the_layers/PREREGISTRATION.md | 20c39c08 | beaa42ff6 | 1 | yes |
+| frontier/B1665_the_layers_resealed/PREREGISTRATION.md | 9955d1b6 | untracked | 0 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -405,9 +406,10 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 394 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 395 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 

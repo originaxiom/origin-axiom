@@ -1,0 +1,2 @@
+# sealed with the PREREGISTRATION (the seal commit): sha256 of every file but the preregistration and this list
+1c14e0a9ab22ebe43ea61f81f123c0b3a907a8b9f00d2c4536c77fcaa755319a  verification/the_layers_resealed.py
