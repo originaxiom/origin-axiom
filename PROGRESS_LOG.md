@@ -20821,3 +20821,30 @@ physics laboratories remain useful, not a foundational selection.
 No new arc, canonical amendment, fresh governance/full-suite/analytic
 independent/main/receiver/physical acceptance. Full SM/three/gravity
 objective unchanged and unachieved; no goal-tool status claim here.
+
+October16 owner approved main P-181/P-184 and asked for a durable session
+objective. REORIENTATION_WORK_ORDER_2026_10_16.md records specification
+first, existing derivations reused, governance before new scientific
+packets, then actual puncture critical representation/end law. Domain
+Lambda and GENESIS I-31's postulate are explicitly distinct. New
+supplied-parent extensions paused. PARENT_SPECIFICATION_AUDIT_2026_10_16.md
+starts nine source-based dependency rows. Inventory185 primary proof
+artifacts (physical166/fork19), provisional181 path groups; ALL pending
+coverage reconciliation, no claim of a complete packet or history census.
+
+Fresh governance at published87e7764f78602d68cc80db4a8589e3ba67033625:
+26PASS/fourFAIL,34.166958s; attribution, test-vacuity, seal-provenance,
+relay-debt. Path-refs PASS, correcting the relay's named category list.
+18036 tracked contents/index unchanged; before/after inventory SHA
+b1efc317c77c0e343cf4335cef44f79e41d995653ae4bf2dbd843737df2ec301.
+Raw2539bytes SHA255be6e10db47570aa862f21aa60e355ef0770a73f355ae26940b801e74831a3
+preserved.42stale/176open,review641, not repo-green or a full provenance
+debt inventory. Remediation and new scientific test still pending.
+
+Main v1.48 inverse-move adoption read as a ruling, not a PF derivation;
+prior weeding note has a current-state banner without altering its
+original replay. Sender relay records approved order/partial audit,
+not a receiver acceptance or completed specification. No new scientific
+producer, theorem, physical index or full-suite/independent certificate.
+Full physical SM/three/gravity objective unchanged and unachieved.
+Saved goal wording does not edit or resume the app's paused goal state.

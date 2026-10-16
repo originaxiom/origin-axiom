@@ -1,0 +1,33 @@
+{
+  "source_head": "87e7764f78602d68cc80db4a8589e3ba67033625",
+  "normalized_receipt": {
+    "command": [
+      "<python-runtime>/bin/python3",
+      "-B",
+      "scripts/gates/gates.py"
+    ],
+    "exit_code": 1,
+    "signal": null,
+    "elapsed_seconds": 34.166958000001614,
+    "log_bytes": 2539,
+    "log_sha256": "255be6e10db47570aa862f21aa60e355ef0770a73f355ae26940b801e74831a3"
+  },
+  "original_receipt_sha256": "1846766ef569cbf332d9f0d28399d3532deb36f80a497e6f20a3087c9418ab1f",
+  "custody": {
+    "child_exit": 1,
+    "tracked_files": 18036,
+    "state_unchanged": true,
+    "before_sha256": "b1efc317c77c0e343cf4335cef44f79e41d995653ae4bf2dbd843737df2ec301",
+    "after_sha256": "b1efc317c77c0e343cf4335cef44f79e41d995653ae4bf2dbd843737df2ec301"
+  },
+  "original_state_inventories_retained_outside_repository": true,
+  "passes": 26,
+  "failures": [
+    "FAIL  attribution",
+    "FAIL  test-vacuity",
+    "FAIL  seal-provenance",
+    "FAIL  relay-debt"
+  ],
+  "new_scientific_probe": false,
+  "remediation_completed": false
+}

@@ -1,5 +1,14 @@
 # Common-model physics campaign: execution record
 
+October16 approved P-181/P-184 order: stop new supplied-parent extensions;
+read previous work as a property specification and reuse existing
+derivations; resolve actual governance failures; then seal one question
+on the weave operator's critical trace action and end law. Domain
+Lambda is distinct from I-31. Main v1.48 now adopts inverse moves as a
+reading, not a principle derivation. REORIENTATION_WORK_ORDER and
+PARENT_SPECIFICATION_AUDIT_2026_10_16 start the campaign; coverage and
+scientific verdict remain unfinished. Full SM/three/gravity unchanged.
+
 October16 owner-directed derivation hunt: first recover existing native
 derivations, then test whether they determine the physical parent and
 its true boundary state. Do not add a new model merely to fill each

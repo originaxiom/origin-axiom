@@ -1,0 +1,1491 @@
+{
+  "scope": "Current primary proof artifacts at the two named heads; stored upstream and capture copies excluded. Packet grouping and historical/deleted coverage still require review. Not a count of all research results or commits.",
+  "rows": [
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md",
+      "blob": "80b1adaefa5c929370350d0503252ddb24a553c5",
+      "packet": "ACT_REGISTER_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md",
+      "blob": "7a6f90990fbc74f150c11ceaaf60393ce449fe57",
+      "packet": "AFFINE_BACKGROUND_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_SPIN_PROOF.md",
+      "blob": "33a0f57ae4b687e864aec73f69c808f412b7171f",
+      "packet": "AFFINE_SPIN_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md",
+      "blob": "16df7d8af8e4e28bf1ee9fe08f3e0583a0331ad3",
+      "packet": "CANONICAL_CUSP_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PROOF.md",
+      "blob": "70e4c3f68d25127a20ad33b7c778bb04820e9305",
+      "packet": "CANONICAL_DUALITY_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_PROOF.md",
+      "blob": "f5bdac79f06fce1cf52bc542aa3dcdf870997208",
+      "packet": "CANONICAL_INTERACTION_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CARRIER_PERIPHERY_PROOF.md",
+      "blob": "7d71ea9968be276406b348179c7e22cae1338ecf",
+      "packet": "CARRIER_PERIPHERY_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+      "blob": "9c503b9ccad27e7db78ef170c4431f78af3af237",
+      "packet": "COEFFICIENT_PARENT_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/COMPACT_GLUING_KINETIC_PROOF.md",
+      "blob": "65aa6e77ff857c9ba6189dd8c24cd113d31a2adc",
+      "packet": "COMPACT_GLUING_KINETIC_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_CHANNEL_PROOF.md",
+      "blob": "17d856236de14756b5aad89be0c82a92b178b885",
+      "packet": "CONE_CHANNEL_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_EXACT_PROOF.md",
+      "blob": "262cd30dd78cc8c8f704f9d290c88764861e142c",
+      "packet": "CONE_EXACT_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_FERMION_PROOF.md",
+      "blob": "1fae5d072677626fdd0bedf4723bde94ebda8143",
+      "packet": "CONE_FERMION_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_FLUX_PROOF.md",
+      "blob": "d489a1da22c3c251f644939b0bbee8aa37fe6b56",
+      "packet": "CONE_FLUX_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_GAUGE_PROOF.md",
+      "blob": "3da0127d5aaf596c5aaf90874506753db731c905",
+      "packet": "CONE_GAUGE_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_MATCH_PROOF.md",
+      "blob": "2563912a4e4d9d8fb4fe39f91803f14a17f381e2",
+      "packet": "CONE_MATCH_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_MATTER_PROOF.md",
+      "blob": "de161dfc7cb2300c53b474b90de00e4f158980ce",
+      "packet": "CONE_MATTER_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_MULTIPLET_PROOF.md",
+      "blob": "707ce843fafb040db02e538c49cdfe471d9502f9",
+      "packet": "CONE_MULTIPLET_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CONE_ORBIT_PROOF.md",
+      "blob": "4f2064e1dd725b0d272894fc260c30383c2d8bba",
+      "packet": "CONE_ORBIT_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CROSS_BRANCH_POSITIVES_PROOF.md",
+      "blob": "212019508d894e815848c33d51964070475b0485",
+      "packet": "CROSS_BRANCH_POSITIVES_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CS_SECTOR_SCOPE_PROOF.md",
+      "blob": "f52095afebe1a6448d2b2d6b8e405ff3ebd53e10",
+      "packet": "CS_SECTOR_SCOPE_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md",
+      "blob": "cf0db0ef8cccf3b0dc4e286afd8a9e96354deebb",
+      "packet": "CURRENT_BALANCE_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/DEFECT_GAUGE_PROOF.md",
+      "blob": "369f90a8826d7fd41e862735e9c15b24678ec75c",
+      "packet": "DEFECT_GAUGE_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/DIRICHLET_ADMISSION_PROOF.md",
+      "blob": "9cea57c26cbcefbd8c43e29ebff8819ddf0187c2",
+      "packet": "DIRICHLET_ADMISSION_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/FINITE_TWIST_PROOF.md",
+      "blob": "780903cf449ea71c28cea22649ea811698ba9a9b",
+      "packet": "FINITE_TWIST_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/FLAT_DOMAIN_PROOF.md",
+      "blob": "53a63a9b3047a732b5a82f50e15d36e55de0637b",
+      "packet": "FLAT_DOMAIN_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/FLAT_VACUUM_PROOF.md",
+      "blob": "6d2e3ca001e748642b9592f7b0ba818f7b43fd7a",
+      "packet": "FLAT_VACUUM_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_PROOF.md",
+      "blob": "1e9ad26d7c7ba4be6d9d75b3dd100221f739af8c",
+      "packet": "GLOBAL_POISSON_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/GLUING_FREEDOM_PROOF.md",
+      "blob": "18fb38a40bb25fa0d117b67ba98e49c73e2781d9",
+      "packet": "GLUING_FREEDOM_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/INDEX_STABILITY_PROOF.md",
+      "blob": "61c285834dfb72b08e9fb05b2f9a7ab6d9b67ab1",
+      "packet": "INDEX_STABILITY_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/JOINED_BACKGROUND_PROOF.md",
+      "blob": "fd5657dae2558f7ec055867e4d8ecf36cd938c50",
+      "packet": "JOINED_BACKGROUND_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/JOINED_WILSON_PROOF.md",
+      "blob": "e3e8f161911519c719555cb0b6f5bbb3538df67c",
+      "packet": "JOINED_WILSON_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/LIGHT_CUBIC_PROOF.md",
+      "blob": "5c783c8827808a75ee90529ce18f31615606974d",
+      "packet": "LIGHT_CUBIC_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_PROOF.md",
+      "blob": "bf1fac10fc3d352c40e6289da33dc9104cc73a1a",
+      "packet": "MIRROR_INTERACTION_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_PROOF.md",
+      "blob": "b1a1d7f5fcb2e4cb8ff53864ac068dd5f6ea9d42",
+      "packet": "MIRROR_QUARTIC_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/MIXED_CURRENT_PROOF.md",
+      "blob": "b02ed9543e99d78f46b88af8de1e617c8ca4025d",
+      "packet": "MIXED_CURRENT_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "blob": "ae6b03e8493de6513cbab65a31f7ec98b863b0cf",
+      "packet": "MIXING_SELECTION_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_CENSUS_PROOF.md",
+      "blob": "5a30d620b33f7a72b8f51958e20667aaa66752fe",
+      "packet": "NEUTRAL_CENSUS_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY_PROOF.md",
+      "blob": "c047463dc36c788913e11d28ac3f04df8107837c",
+      "packet": "NEUTRAL_CONTINUITY_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_PROOF.md",
+      "blob": "419d1f5b674134229e42cf9aceb6313f5051bab8",
+      "packet": "NEUTRAL_EXISTENCE_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_MATTER_PROOF.md",
+      "blob": "550ff144b812fe2721b91dbc9e6a1ff3ab97a5fb",
+      "packet": "NEUTRAL_MATTER_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_PROOF.md",
+      "blob": "295a61ea16a23f506b1f605abc43e1e0c94b6893",
+      "packet": "NEUTRAL_REGULARITY_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_PROOF.md",
+      "blob": "29c935fcc58d01509fd78b943d32b726a9cb0c3e",
+      "packet": "NEUTRAL_SECOND_ORDER_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md",
+      "blob": "edbf33a33386e0b83fdc694667d6923564860fcd",
+      "packet": "NEUTRAL_TANGENT_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_PROOF.md",
+      "blob": "7e20a03d215ecab0956eb77e74720b9e7c2b8a70",
+      "packet": "NEUTRAL_VELOCITY_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/NILPOTENT_CONE_PROOF.md",
+      "blob": "bd58acd4f0800b7d7311d608c5dd5aefff94a8c3",
+      "packet": "NILPOTENT_CONE_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+      "blob": "17a6a9384585750a5f72e526ecfc8a261ce04ca8",
+      "packet": "PARENT_BACKGROUND_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md",
+      "blob": "e2f1e26765799a376179d7051805ef97abf6f7f5",
+      "packet": "PARENT_CUSP_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_GLUING_CHARACTER_PROOF.md",
+      "blob": "6e5a5fc57e54dc7e0fdfba06e543e5e88b9e8532",
+      "packet": "PARENT_GLUING_CHARACTER_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/PARENT_VERTEX_PROOF.md",
+      "blob": "a40db56dd324e2449fc7315076f493f1a0118299",
+      "packet": "PARENT_VERTEX_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_ACTION_PROOF.md",
+      "blob": "afd2ff62c599d0ee32927326d78a4db13f67456c",
+      "packet": "REGISTER_ACTION_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/REGISTER_WILSON_PROOF.md",
+      "blob": "cda2358e72d1bc36462e7690efca76cdde539ade",
+      "packet": "REGISTER_WILSON_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/RESOLVED_FERMION_PROOF.md",
+      "blob": "f8a26d0e6ad9dce070cac8cad139b0a37b659b64",
+      "packet": "RESOLVED_FERMION_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/RIGIDITY_TRANSPORT_PROOF.md",
+      "blob": "aa0ba2b32ad00a790a2bbb67130558b708ad9fe5",
+      "packet": "RIGIDITY_TRANSPORT_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SIGNED_LEVEL_PROOF.md",
+      "blob": "f6cb788c22b5684bda07a40f9594bb5e7695b63f",
+      "packet": "SIGNED_LEVEL_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "blob": "9324d4f3dc6ce16c7d4319b5af6d4e9943696a01",
+      "packet": "SOURCE_ACTION_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_C3_PROOF.md",
+      "blob": "7d94fee3c1b2703016aa1f0a95106839c54f5858",
+      "packet": "SOURCE_C3_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_CORE_PROOF.md",
+      "blob": "f2d3b6872c39baea248cbb2b91824b94020fd188",
+      "packet": "SOURCE_CORE_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_PROFILE_PROOF.md",
+      "blob": "53957e050ef849451beccc1d2b34b235f57b5045",
+      "packet": "SOURCE_PROFILE_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_SCALAR_PROOF.md",
+      "blob": "37aca7504cb6fbc4164d5257f7d654dc01933ac9",
+      "packet": "SOURCE_SCALAR_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/TRACE_PARENT_PROOF.md",
+      "blob": "93a2dee9886ab958d75a1e1e4d22d1ad598c96b7",
+      "packet": "TRACE_PARENT_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_PROOF.md",
+      "blob": "a4c6c198278952fa8d5bd078d38d9e7ab93cd3ee",
+      "packet": "YUKAWA_OVERLAP_PROOF",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/apex_scope_2026_10_05/PROOF.md",
+      "blob": "4a0aee767f7faa659d14d98091967d87c84f0eb8",
+      "packet": "apex_scope_2026_10_05",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/based_transition_prerequisite_2026_10_13/PROOF.md",
+      "blob": "d973dc411bdf0f1e4c184694286cb1fe1ce41366",
+      "packet": "based_transition_prerequisite_2026_10_13",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/cusp_negative_audit_2026_10_09/PROOF.md",
+      "blob": "d84c6b64c2392ea6f1e1cb44729e6005165d15d0",
+      "packet": "cusp_negative_audit_2026_10_09",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/balanced_parent_2026_09_20/PROOF.md",
+      "blob": "e08b031a9ffed2f0087371df1061ebfc8c1c4e40",
+      "packet": "received_r46/reports/balanced_parent_2026_09_20",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "blob": "9324d4f3dc6ce16c7d4319b5af6d4e9943696a01",
+      "packet": "received_r46/reports/physical_bridge_2026_09_05",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/PROOF.md",
+      "blob": "79313c2777a8f25341662ad4e20bf5dc7d635d6b",
+      "packet": "received_r46/reports/projective_fluctuations_2026_09_25",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/PROOF.md",
+      "blob": "74b001c39dcdcd31b787cea3ca2c67153438c8ae",
+      "packet": "received_r46/reports/projective_global_metric_2026_09_21",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/PROOF.md",
+      "blob": "940fd35e675e0b43881205624283a94a557c1882",
+      "packet": "received_r54/reports/projective_deformation_tangent_2026_09_25",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/residue_pairing_audit_2026_10_13/PROOF.md",
+      "blob": "8788d96e2a367498a3a8cb9e4bc4a9d613714388",
+      "packet": "residue_pairing_audit_2026_10_13",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_adjoint_phase_2026_10_11/PROOF.md",
+      "blob": "45d8d37c5d29da05326b02888b3bb9d2b41d889d",
+      "packet": "silver_adjoint_phase_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_analytic_transfer_2026_10_09/PROOF.md",
+      "blob": "38ff333f10b33fc3b84b9606adec8f1856e26e1e",
+      "packet": "silver_analytic_transfer_2026_10_09",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_bosonic_quotient_2026_10_11/PROOF.md",
+      "blob": "df16c0ba1f5570acc7209a09ea324412ca7e6b76",
+      "packet": "silver_bosonic_quotient_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_cubic_2026_10_11/PROOF.md",
+      "blob": "74e2555551c9ce8fab16bc5f8602dd6a024d2fab",
+      "packet": "silver_charged_cubic_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_charged_pair_lift_2026_10_11/PROOF.md",
+      "blob": "264717aae44eb9c7804447bd867ee25d7d20b886",
+      "packet": "silver_charged_pair_lift_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complementary_boundary_2026_10_09/PROOF.md",
+      "blob": "b259e55a6dd836bb5850e05e7ea56ecdc4df01b9",
+      "packet": "silver_complementary_boundary_2026_10_09",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/PROOF.md",
+      "blob": "c52c717e7f4493b430530158d9e87b197a62e162",
+      "packet": "silver_complete_flag_2026_10_13",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/admission_PROOF.md",
+      "blob": "27b5cbd73d18270d9f09718d08d3a6e8a9e54909",
+      "packet": "silver_complete_flag_2026_10_13/sources",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/complete_domain_PROOF.md",
+      "blob": "0e891b2d478ae33d046b53234ce7f76975aeb020",
+      "packet": "silver_complete_flag_2026_10_13/sources",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_complete_flag_2026_10_13/sources/transport_PROOF.md",
+      "blob": "c673c79a3be7daddd84481545b4c58ab4e4d9d62",
+      "packet": "silver_complete_flag_2026_10_13/sources",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_cubic_2026_10_12/PROOF.md",
+      "blob": "14b8d50b9f48e0b14796b0bbe1e45e117f0ac734",
+      "packet": "silver_cover_cubic_2026_10_12",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_currents_2026_10_12/PROOF.md",
+      "blob": "562e16131d62245e5292e1173bb7718a988401cc",
+      "packet": "silver_cover_currents_2026_10_12",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_domain_2026_10_12/PROOF.md",
+      "blob": "7a941b9ae44db4782d7add40a00448d061e6ba03",
+      "packet": "silver_cover_domain_2026_10_12",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_extension_2026_10_13/PROOF.md",
+      "blob": "d52bc6c66cc8796559717f8aa2de84c109b167f6",
+      "packet": "silver_cover_extension_2026_10_13",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_families_2026_10_12/PROOF.md",
+      "blob": "24d69174b582790253b9de91f648f5257b0921ed",
+      "packet": "silver_cover_families_2026_10_12",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_neutral_2026_10_12/PROOF.md",
+      "blob": "c4bc1495eca763cf2c97dfeb3f2e2f6c239b3d38",
+      "packet": "silver_cover_neutral_2026_10_12",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_nil_flat_2026_10_13/PROOF.md",
+      "blob": "1b6c02fdc3e97733941d5fa3a478ed2055dcd17d",
+      "packet": "silver_cover_nil_flat_2026_10_13",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cover_stationary_2026_10_13/PROOF.md",
+      "blob": "199d7a188736d94b9282418cc21c00b2e944d79d",
+      "packet": "silver_cover_stationary_2026_10_13",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_cyclic_transfer_2026_10_06/PROOF.md",
+      "blob": "9051eee6c5c4301c7bc9c43929decd0f86bcc988",
+      "packet": "silver_cyclic_transfer_2026_10_06",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_fermion_action_2026_10_11/PROOF.md",
+      "blob": "8c7059116f683828064daa06664ab271ce92e140",
+      "packet": "silver_fermion_action_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_framed_coupled_domains_2026_10_11/PROOF.md",
+      "blob": "3714baae3843b4ef8298ae2d2f769e03d44bdd5f",
+      "packet": "silver_framed_coupled_domains_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_gauge_end_transport_2026_10_12/PROOF.md",
+      "blob": "695a8523a4b6c496f9658c37a3b57e69fe4c5e5e",
+      "packet": "silver_gauge_end_transport_2026_10_12",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/PROOF.md",
+      "blob": "0a63a6cba60151d70410a204e7e9a44b39cbebe6",
+      "packet": "silver_higgs_quartic_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_scope_2026_10_11/PROOF.md",
+      "blob": "00b76261acee98b231125a7cd6201b3096ee4185",
+      "packet": "silver_higgs_scope_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_interaction_radical_2026_10_11/PROOF.md",
+      "blob": "a1c50b1a40b48ccdccda7ccf045a49013e06d868",
+      "packet": "silver_interaction_radical_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_neutral_cubic_2026_10_11/PROOF.md",
+      "blob": "e1ecee848fac99a1bed0fa8ad0a14b32ab755425",
+      "packet": "silver_neutral_cubic_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_nonlinear_boundary_2026_10_06/PROOF.md",
+      "blob": "0bcd9c1dd912b05f38c173ae7f106da091f829c6",
+      "packet": "silver_nonlinear_boundary_2026_10_06",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_operator_gate_2026_10_05/PROOF.md",
+      "blob": "84ce1786e72e1d9ab2705e7039ffd5417b949039",
+      "packet": "silver_operator_gate_2026_10_05",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_physical_multiplets_2026_10_11/PROOF.md",
+      "blob": "9e42fd4804bb5d1d6771884b3b48780bca456b07",
+      "packet": "silver_physical_multiplets_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_selective_boundary_2026_10_11/PROOF.md",
+      "blob": "e31169d3d2fe21547dfcfadb2e1174d6a4f3eec5",
+      "packet": "silver_selective_boundary_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_smooth_boundary_gate_2026_10_05/PROOF.md",
+      "blob": "a2f3ada69a4391814f109621ca0ae2335f98ae11",
+      "packet": "silver_smooth_boundary_gate_2026_10_05",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF.md",
+      "blob": "76f84778f608d7f517c353dcfbc31f76db908467",
+      "packet": "silver_spectral_completion_2026_10_05",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_spectral_completion_2026_10_05/PROOF_FIRST.md",
+      "blob": "3af34648b5ed6bcdb2a331bdd4d85899f79fb80d",
+      "packet": "silver_spectral_completion_2026_10_05",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_static_energy_2026_10_10/PROOF.md",
+      "blob": "4133e436096b89a652de980b37ddc461bc74486d",
+      "packet": "silver_static_energy_2026_10_10",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_covariance_2026_10_11/PROOF.md",
+      "blob": "62920c4610afa2db24a54dc4d1ba99344ff3b5f2",
+      "packet": "silver_superfield_covariance_2026_10_11",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_superfield_response_2026_10_10/PROOF.md",
+      "blob": "8fb5fd90c8286d0a58946a675896beb238591fba",
+      "packet": "silver_superfield_response_2026_10_10",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/silver_zero_cauchy_2026_10_12/PROOF.md",
+      "blob": "bec14d7812bdc5146d232cd359452d19b641002f",
+      "packet": "silver_zero_cauchy_2026_10_12",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/spinor_uniformization_joint_2026_10_14/PROOF.md",
+      "blob": "3dc055cb67a9a0bee26a4ee3e358162f9f1077b6",
+      "packet": "spinor_uniformization_joint_2026_10_14",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_actual_tube_2026_10_16/PROOF.md",
+      "blob": "7482c8d01d74be3fe8a16715b122513ab781ba67",
+      "packet": "surface_actual_tube_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_all_angular_response_2026_10_16/PROOF.md",
+      "blob": "550dc7ccbcea6b7e2e90699a3470ec2e1ad2a4cb",
+      "packet": "surface_all_angular_response_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/PROOF.md",
+      "blob": "eeaa1a46009a5ce013e18a1351dd03d34cc8e1d9",
+      "packet": "surface_all_boson_response_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_angular_response_2026_10_16/PROOF.md",
+      "blob": "9f71e3d37cdc8259376b7e4b36aaa69c08965afd",
+      "packet": "surface_angular_response_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_arena_boundary_2026_10_16/PROOF.md",
+      "blob": "32e7db7e9bbe413a08adcd8e56f6e9af7c7858c3",
+      "packet": "surface_arena_boundary_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_based_gauge_2026_10_14/PROOF.md",
+      "blob": "550b689b6a132a7abd6ac5e328d366042c3873bf",
+      "packet": "surface_based_gauge_2026_10_14",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_critical_cauchy_2026_10_16/PROOF.md",
+      "blob": "286206e40c3e4dd39079b49eefcc440ae2046495",
+      "packet": "surface_critical_cauchy_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_curved_boson_2026_10_16/PROOF.md",
+      "blob": "2f623a3e3d6ac77167a1af4e8429108ef34e1299",
+      "packet": "surface_curved_boson_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/FULL_EVEN_PROOF.md",
+      "blob": "346f9a7e40da3ce1fdbc353a506fb815b4aced38",
+      "packet": "surface_even_channels_2026_10_14",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_even_channels_2026_10_14/PROOF.md",
+      "blob": "c170fa9d8b0388dae970c11b0f0675aecc88579f",
+      "packet": "surface_even_channels_2026_10_14",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_full_real_parent_2026_10_16/PROOF.md",
+      "blob": "cd0bb876bafa6434927d2fbc4051ce33148e2441",
+      "packet": "surface_full_real_parent_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_gauss_charge_2026_10_16/PROOF.md",
+      "blob": "2bd1224c3cc753b5d6bfef3657187e2bb2aae428",
+      "packet": "surface_gauss_charge_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_geometric_loops_2026_10_14/PROOF.md",
+      "blob": "52dc7e31c6a9ee1376e44bc241fd5a7b57c597af",
+      "packet": "surface_geometric_loops_2026_10_14",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_global_boundary_variation_2026_10_16/PROOF.md",
+      "blob": "69860de9c719dcec23798b5bab43fb0d845bb77c",
+      "packet": "surface_global_boundary_variation_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_global_spin_2026_10_13/PROOF.md",
+      "blob": "ab398a07d55edc471df8ae0ef0c2091695b9423b",
+      "packet": "surface_global_spin_2026_10_13",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_inner_cauchy_2026_10_16/PROOF.md",
+      "blob": "f9f8c815b9f444f0b93239fb2db840382bd3ee93",
+      "packet": "surface_inner_cauchy_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_interacting_domain_2026_10_15/PROOF.md",
+      "blob": "291d1fce0b70346097660dc13da9a9ea1e1ff633",
+      "packet": "surface_interacting_domain_2026_10_15",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_interacting_transport_2026_10_16/PROOF.md",
+      "blob": "039297defd72591fc82396f158ee77e1f0d9212f",
+      "packet": "surface_interacting_transport_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_invariant_brackets_2026_10_14/PROOF.md",
+      "blob": "2d9de185d80ce7306aa8d69014c87d32cfa863bc",
+      "packet": "surface_invariant_brackets_2026_10_14",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_mode_transport_2026_10_15/PROOF.md",
+      "blob": "c252ea63d4a3ba85be61becadab52acb6fbc42ad",
+      "packet": "surface_mode_transport_2026_10_15",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/PROOF.md",
+      "blob": "a15e5e8ccf8a1bf4df797b4d45525d2fb49e2230",
+      "packet": "surface_odd_form_2026_10_14",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_parent_dictionary_2026_10_13/PROOF.md",
+      "blob": "df32ad6f09d0f2c03658a0676d382b51124b2568",
+      "packet": "surface_parent_dictionary_2026_10_13",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_real_boundary_2026_10_15/PROOF.md",
+      "blob": "b03d821b1eb36a12f97f35ae9232645fb2c71378",
+      "packet": "surface_real_boundary_2026_10_15",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_real_fermion_work_2026_10_16/PROOF.md",
+      "blob": "01c005fe1fb7705fbff0cad88c1c19182b9f1d6a",
+      "packet": "surface_real_fermion_work_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_real_superfield_2026_10_16/PROOF.md",
+      "blob": "03eb78bbccd2869aaac689d5580db66c76179895",
+      "packet": "surface_real_superfield_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_real_twist_2026_10_16/PROOF.md",
+      "blob": "82edb9ccfd24fb2d2f357ccd10d9f1a57b62fea3",
+      "packet": "surface_real_twist_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_reverse_susy_2026_10_16/PROOF.md",
+      "blob": "edcb8bc7f3bfae1f408ccd6a529387176838169a",
+      "packet": "surface_reverse_susy_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_root_gauge_sector_2026_10_16/PROOF.md",
+      "blob": "8443a108b0f8771be2aa77d765bd4356a0db81d5",
+      "packet": "surface_root_gauge_sector_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/PROOF.md",
+      "blob": "22b9bc552a4e4dcfb356941c7805edf52d9cacc1",
+      "packet": "surface_same_action_transmission_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_source_operator_2026_10_16/PROOF.md",
+      "blob": "768f0048bb13d0186bea259e0e63eec83ede065b",
+      "packet": "surface_source_operator_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_variational_join_2026_10_16/PROOF.md",
+      "blob": "b6ece4c3e84c2d566dadebf51485c8bbc549e3e9",
+      "packet": "surface_variational_join_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_weak_completions_2026_10_14/PROOF.md",
+      "blob": "5904e32d3ecd87b0483e251603f1790e8b09e8bf",
+      "packet": "surface_weak_completions_2026_10_14",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/surface_weighted_hessian_2026_10_16/PROOF.md",
+      "blob": "6d592aae5748580aceea5206ad01451a60048132",
+      "packet": "surface_weighted_hessian_2026_10_16",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_index_2026_10_09/PROOF.md",
+      "blob": "5470bcbb163da49c3bf08568794f7b404740297b",
+      "packet": "weave_boundary_index_2026_10_09",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_boundary_lift_2026_10_09/PROOF.md",
+      "blob": "53f50f2bc19b49a7b39ea3d8ba07a1eb88c228aa",
+      "packet": "weave_boundary_lift_2026_10_09",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+      "blob": "66343f2826f5e1a2cad176e0394d3e3f1355dfeb",
+      "packet": "weave_companion_roster_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "blob": "ba609d278d63ca4b8e5b9e8efcf629ad5e63c542",
+      "packet": "weave_curved_action_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/PROOF.md",
+      "blob": "76446d200e3802786629318d2cfc7f970b8f1b91",
+      "packet": "weave_cusp_anomaly_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md",
+      "blob": "4064145526dfff943c9a7fed1d0885918b0d1a4e",
+      "packet": "weave_cusp_condensate_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_heat_2026_10_08/PROOF.md",
+      "blob": "615e5c5d6353724e9be5c1cef043f4f37a088266",
+      "packet": "weave_cusp_heat_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_ward_2026_10_08/PROOF.md",
+      "blob": "14b36977716a4e70814e77426fd726cb387decae",
+      "packet": "weave_cusp_ward_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md",
+      "blob": "7df4f878f5cd9081812faf4208b4f015b61a6821",
+      "packet": "weave_end_gaussian_2026_10_09",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_field_map_2026_10_14/PROOF.md",
+      "blob": "50b838428dec771a6a4282d7fea30a31767adb48",
+      "packet": "weave_field_map_2026_10_14",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_form_parent_2026_10_08/PROOF.md",
+      "blob": "448ba125e48f9735eb690b21cff25666ba03f948",
+      "packet": "weave_form_parent_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/PROOF.md",
+      "blob": "c17da822c5cc52981bedf2309ecc182c05116f42",
+      "packet": "weave_four_dimensional_unit_2026_10_12",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_gauge_limit_2026_10_08/PROOF.md",
+      "blob": "cf9f8aeb770f587a0b629000a082d634df542d13",
+      "packet": "weave_gauge_limit_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/PROOF.md",
+      "blob": "dc1e3c00b5d4162d51ea9f7a07c6f7da0df5bbf4",
+      "packet": "weave_global_condensate_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_graded_condensate_2026_10_08/PROOF.md",
+      "blob": "ed9513e649014bb955e924fa17544617ee4228cb",
+      "packet": "weave_graded_condensate_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_index_2026_10_08/PROOF.md",
+      "blob": "4176c40c642ad1a396fb1c09e2bdc5d12ac5b514",
+      "packet": "weave_magnetic_index_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "blob": "967d566fd2b4e0789a8aff726682bfccda962785",
+      "packet": "weave_magnetic_stationarity_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "blob": "0e9086207e2b44f3421377f95c2f235cb779528b",
+      "packet": "weave_neutral_stability_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_paired_phase_2026_10_08/PROOF.md",
+      "blob": "f7183127d6907607f68127abefd1ffd10f0b3e72",
+      "packet": "weave_paired_phase_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "blob": "df4bae0daca59451632a9aa96fef60f88780d5a0",
+      "packet": "weave_physical_mass_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+      "blob": "e9a127a531ca42c5747d1b2dce679a1194417720",
+      "packet": "weave_puncture_operator_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_registered_embedding_2026_10_13/PROOF.md",
+      "blob": "8f1ca92a3ee8016c3767a4dcc93a9bef954bdf35",
+      "packet": "weave_registered_embedding_2026_10_13",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "blob": "94bebd3ac299c496b1c610733d7688d4aa880bfe",
+      "packet": "weave_sm_parallel_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_two_field_gauge_2026_10_08/PROOF.md",
+      "blob": "409ba909deb5244515be7fcfcaa5339710741fae",
+      "packet": "weave_two_field_gauge_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "physical",
+      "commit": "87e7764f78602d68cc80db4a8589e3ba67033625",
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "blob": "7ddccb3f5cf7901e3280fc60b05d58bfd4b82d27",
+      "packet": "weave_two_neutral_index_2026_10_08",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/bundle_transport/PROOF.md",
+      "blob": "a0cb3955d5f57a6806f30b141223204cba845ca5",
+      "packet": "bundle_transport",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/cohomology_carrier/PROOF.md",
+      "blob": "2f672d35fb0a2e1cb2174a6b66eb4939dcae0923",
+      "packet": "cohomology_carrier",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/cusp_connection/PROOF.md",
+      "blob": "72a9d7d732e4b7420c1a65088819b716cba3c779",
+      "packet": "cusp_connection",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/cusp_spin_extension/PROOF.md",
+      "blob": "b284dfaedb6e20591806bcbd65bd04e953b5baa8",
+      "packet": "cusp_spin_extension",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/fibre_family/PROOF.md",
+      "blob": "a37d23a6e9d47f3f27e494edf32830e0804a7bc1",
+      "packet": "fibre_family",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/horizontal_projection/PROOF.md",
+      "blob": "854f34e24ddfe2a101da37aa93edb3a6c50d182c",
+      "packet": "horizontal_projection",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/kernel_transport/PROOF.md",
+      "blob": "c673c79a3be7daddd84481545b4c58ab4e4d9d62",
+      "packet": "kernel_transport",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/matter_line_compatibility/PROOF.md",
+      "blob": "34ddf93ecedcbd233f782c7a55f6a00dfd19ca21",
+      "packet": "matter_line_compatibility",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/nodal_transport/PROOF.md",
+      "blob": "1583ab2bd0dbb76bafe6e05bea1b3ac896e37a59",
+      "packet": "nodal_transport",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/noncompact_admission/PROOF.md",
+      "blob": "27b5cbd73d18270d9f09718d08d3a6e8a9e54909",
+      "packet": "noncompact_admission",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/positive_carrier/PROOF.md",
+      "blob": "3c0477e2ceb8fcfee0784af7416f97e1f05eb05b",
+      "packet": "positive_carrier",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_fredholm/PROOF.md",
+      "blob": "b748524880eb0c519ddbe336705886797969370c",
+      "packet": "puncture_fredholm",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/puncture_symmetry/PROOF.md",
+      "blob": "5e5dd23dbd9019727710e1dae702a7055aafb793",
+      "packet": "puncture_symmetry",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/theta_cusp/PROOF.md",
+      "blob": "ff5d95c1e4c6a831f4f2390887f00f990bb1e31a",
+      "packet": "theta_cusp",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/total_domain/PROOF.md",
+      "blob": "60643ee3875dbe07c8495bce5f0722dcb2937c96",
+      "packet": "total_domain",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/total_metric_dirac/PROOF.md",
+      "blob": "9f43f415bb83f5352a70b84a6593c6232563272e",
+      "packet": "total_metric_dirac",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/vertical_cusp_gap/PROOF.md",
+      "blob": "5f04baabc6e57072b6018df933a6605f974d21a6",
+      "packet": "vertical_cusp_gap",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/weighted_global_complex/PROOF.md",
+      "blob": "17c7bf3d6c56049cf45318f34ce5c68a73d276d7",
+      "packet": "weighted_global_complex",
+      "review_status": "PENDING"
+    },
+    {
+      "seat": "audit_fork",
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/word_lifts/PROOF.md",
+      "blob": "5be4b3be8e4505ee4a61010c9b5315c8e6d4d7e0",
+      "packet": "word_lifts",
+      "review_status": "PENDING"
+    }
+  ],
+  "proof_artifacts": 185,
+  "provisional_packet_groups": 181,
+  "per_seat": {
+    "physical": 166,
+    "audit_fork": 19
+  }
+}

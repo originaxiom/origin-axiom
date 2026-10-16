@@ -1,5 +1,15 @@
 # Changelog
 
+October16 approved reorientation starts: main P-181/P-184 work order,
+first nine specification dependency rows and inventory185 proof
+artifacts at two pinned audit heads; all coverage reconciliation still
+PENDING. New supplied-parent extensions paused; reuse R79/R94 and
+prior puncture_symmetry/Fredholm maps. Fresh governance26PASS/fourFAIL
+at87e7764f7,18036tracked/index unchanged; path-refs PASS. Actual four
+categories are attribution/test-vacuity/seal-provenance/relay-debt.
+No new scientific producer, theorem, canonical amendment or physical
+completion; goal wording saved, not app-state edited/resumed.
+
 October16 derivation-first planning and revalidation, not a new arc:
 owner's "weeding" direction now in DERIVATION_WEEDING_2026_10_16.md,
 mission and roadmap. Original R79/R94 code/proofs/tests unchanged;

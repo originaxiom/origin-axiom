@@ -1,5 +1,13 @@
 # Recovering supplied ingredients from the admitted foundations
 
+Currency after the owner's next approval: main85fae7cf0 adopts GM5b
+in GENESIS v1.48. The earlier "still-unruled" sentence below describes
+this note's original v1.47 intake, not the current ruling. The adopted
+reading is not a derivation from PF1. The approved next work is now
+REORIENTATION_WORK_ORDER_2026_10_16.md: specification, governance,
+then the actual puncture representation/end law; new parent extensions
+are paused. The original replay and its limits remain unchanged.
+
 The owner's direction is derivation first: find what the programme's own
 principles can supply before extending an imported physical model. A
 weeding session replaces a particular assumption with an explicit

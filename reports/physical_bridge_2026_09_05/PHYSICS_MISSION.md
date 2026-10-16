@@ -1,5 +1,16 @@
 # Approved physics mission and execution criteria
 
+October16 owner approval of main P-181/P-184: specification audit FIRST,
+then the actual puncture trace representation and end law. New supplied-
+parent response extensions paused. REORIENTATION_WORK_ORDER_2026_10_16.md
+states the approved campaign and acceptance; PARENT_SPECIFICATION_AUDIT_2026_10_16.md
+begins nine dependency rows and the coverage inventory. Existing native
+and conditional positives retained. Fresh governance26PASS/fourFAIL,
+path-refs PASS; remediation required before a new scientific packet.
+This is planning/source audit, not a completed specification, new
+physical result or edited/resumed app goal. Full physical objective
+remains unchanged and unachieved.
+
 October16 derivation-first direction from the owner: run focused
 "weeding" sessions to replace supplied ingredients with explicit
 derivations from admitted foundations, not merely further conditional
