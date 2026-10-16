@@ -40,14 +40,14 @@ what the fibre frame fixes, given the postulate.
 \paragraph{Frame dependence, stated first.}
 The results of \S\ref{sec:t4} hold in the \emph{fibre frame}: the Higgs is a section on the fibre itself, the zero modes
 are the triplet, and the triplet postulate holds at one $\tau$. They fail, or change meaning, in the two other frames on
-record. In the surface frame, a reading made within the program, the massless generation is not present. In the $E_8$ frame
+record. In the surface frame, a reading made within the program, the null vector is not present. In the $E_8$ frame
 studied within the program
 the Higgs in $\mathcal M$ is a Standard Model singlet, a flavon, and a physical Yukawa coupling needs two condensates, a
 doublet--singlet pairing, or the parent map. B1644's and B1649's verdicts carry this scope (B1648, B1655); the frame
 tribunal (B1652, Section~\ref{sec:boundary}) finds no frame shown to meet all of the principle's demands alone. Everything in this
 section is therefore a statement about the fibre frame and says so.
 
-\subsection{Isotropy and the massless generation}\label{sec:t4}
+\subsection{Isotropy and a null vector of the coupling}\label{sec:t4}
 
 For a direction $a\in\mathcal M$, the Higgs in $\mathcal M$ couples the zero modes at the puncture by the symmetric
 $3\times3$ matrix
@@ -55,13 +55,14 @@ $3\times3$ matrix
   Y(a)=a\,\rho^{T}+\rho\,a^{T}-(a\cdot\rho)\,\mathbb 1 .
 \]
 
-\begin{theorem}[Isotropy and the massless generation; T4]\label{thm:isotropy}
+\begin{theorem}[Isotropy and a null vector of the coupling; T4]\label{thm:isotropy}
 Given the triplet postulate at one $\tau$, in the fibre frame, with zero Wilson line, the Higgs at the puncture (the
 parent map owed), the record's hand, the lifts' agreement with the ruled moves checked at $\Delta^4$ alone, and $M_{1,2}$
 as the weave's surface:
 \begin{enumerate}
 \item (B1644) $\det Y(a)=(\rho\cdot\rho)(a\cdot a)(\rho\cdot a)=0$ for every direction $a$ and every $\tau$. Indeed
-  $Y(a)\rho=0=Y(a)^T\rho$: one generation is massless, and the massless state is the theta triplet.
+  $Y(a)\rho=0=Y(a)^T\rho$: the coupling has a two-sided null vector, the theta triplet (read through the dictionary, one
+  massless generation).
 \item (B1645) For real $a$ the two other singular values have ratio $m\in[\tfrac12,1]$, set by one angle: with
   $\kappa=2|a\cdot\rho|^2/(|\rho|^2|a|^2)\in[0,1]$ (for real $a$ and isotropic $\rho$, $|a\cdot\rho|^2\le\tfrac12|\rho|^2|a|^2$),
   $m^2=\xi_-/\xi_+$ where $\xi^2-(4+\kappa)\xi+4=0$. The value is $\tfrac12$ for $a$ in the
@@ -102,6 +103,14 @@ the second term vanishing identically in the theta constants. So it is a Higgs f
 residue is $\rho$. Of the six assignments of the units to the half-periods, this is, up to the Klein group's signs,
 the only one with this property at a generic $\tau$.
 \end{proposition}
+\noindent\emph{Proof of the vanishing.} The residues of Lemma~\ref{lem:jacobi} have $\rho_r^2$ proportional to
+$(\theta_2^4,\theta_4^4,-\theta_3^4)$ for $r=i,j,k$. With $e_1=\wp(\tfrac12)$, $e_2=\wp(\tfrac{1+\tau}{2})$, $e_3=\wp(\tfrac\tau2)$,
+\[
+  \textstyle\sum_r\rho_r^2\wp(z_r)\;\propto\;\theta_2^4e_1+\theta_4^4e_3-\theta_3^4e_2
+  =\theta_2^4(e_1-e_2)-\theta_4^4(e_2-e_3)=\pi^2(\theta_2^4\theta_4^4-\theta_4^4\theta_2^4)=0,
+\]
+using Jacobi's identity to split $\theta_3^4$ and the classical $e_1-e_2=\pi^2\theta_4^4$, $e_2-e_3=\pi^2\theta_2^4$.
+
 \noindent\emph{Status.} Verified in B1650 in independent code: $\wp$ is computed through $-(\log\theta_1)''$, whose additive constant
 drops out of $\sum_r\rho_r^2\wp(z_r)$ because $\rho\cdot\rho=0$, and the residual is $2.6\cdot10^{-32}$ to $1.7\cdot10^{-31}$ at four values of $\tau$. The five other pairings of units to
 half-periods give $0.46$ to $4.96$, except one that also vanishes at $\tau=i$ where $\theta_2=\theta_4$. The
@@ -137,7 +146,7 @@ The next five statements are propositions: each is exact in its frame, none is a
 inputs. They are the steps between a point coupling and a mass matrix.
 
 \begin{proposition}[The rank of a point coupling; B1653]\label{prop:rank}
-At the puncture both components of the zero modes behave like $\zeta^{-1/2}$, with $\zeta$ a local coordinate at the puncture,, so the residue of a product is a rank-one
+At the puncture both components of the zero modes behave like $\zeta^{-1/2}$, with $\zeta$ a local coordinate at the puncture, so the residue of a product is a rank-one
 bilinear $v_xv_y^T$ of one doublet. Hence for every flat line and every Higgs the record's coupling has rank at most $2$,
 and the massless left state is the left field's alone; the four unit residues form a null quaternion
 ($r_1^2+r\cdot r=0$, with $r_1$ the identity unit's residue and $r$ the line-twisted triplet of the other three, equal to
@@ -169,7 +178,7 @@ premises (the canonical end condition among them) and finds the lift sensitive t
 $\mathcal E=40$, a $1\%$ error in one channel's amplitude changes it by a factor $2.2$. Which end condition is physical is open. In the flat metric none fixes $\mathcal E$; the fibre's
 hyperbolic metric fixes it at order one (Census law~\ref{cl:cusp}). The lift is diagonal along $\rho$, so the light state's angle goes as $1/\mathcal E$.
 
-\begin{proposition}[The electron's zero; B1656]\label{prop:electron}
+\begin{proposition}[The lepton sector's null vector at $\tau=\omega$; B1656]\label{prop:electron}
 On the stated inputs, namely the eighteen flat lines $w=p_1\tau-p_2$ of exact order nine at $\tau=\omega$, for which $3w$ is fixed by the order-three move, the hypercharge
 dictionary (Table~\ref{tab:inputs}, with $6Y$ the
 minimal integral normalisation), and B1654's canonical end condition, the charged leptons' first generation stays exactly
@@ -269,7 +278,7 @@ the varied one until it meets the other. Exact identities over $M_2(\C)\times M_
 \end{figure}
 
 \reading{The coupling's shape is two defects and a pairing. Each defect measures how far a field sits from the null cone;
-a massless generation is a field, or a pairing, that has sat exactly on it. What the grammar fixes is this shape. Where the
+a null vector is a field, or a pairing, that sits exactly on it. What the grammar fixes is this shape. Where the
 fields sit is the choice of a world.}
 
 \subsection{The period phase: the bridge to the motion}\label{sec:phase}
@@ -312,7 +321,9 @@ thread's word, with $z(s+\ell)=\gamma z(s)$. The derivative $dz/ds$ transforms b
 $\chi(\gamma)(cz+d)^{-1}$ (Lemma~\ref{lem:automorphy}). Let $r(s)$ be the ratio of the continuation of $(dz/ds)^{-1/2}$
 from $s$ to $s+\ell$ to its value at $s$. Then $r^2=(cz+d)^2$. Since $cz+d$ has no zero on $\Hb$ and $r$ is continuous,
 $r=\epsilon\,(cz+d)$ with one sign $\epsilon$ for all $s$. As $s\to-\infty$, both $z(s)$ and $z(s+\ell)$ tend to the
-repelling fixed point $x$ of $\gamma$ and the two tangent directions agree, so $r$ tends to a positive number (a power of
+repelling fixed point $x$ of $\gamma$ and the two tangent directions agree; for $s$ negative enough the argument of $dz/ds$
+varies by less than $\pi$ along $[s,s+\ell]$, so the continued square root takes the principal branch of a ratio that
+tends to a positive number (a power of
 the ratio of the two heights), while $cz+d\to cx+d$. This is an eigenvalue of $\gamma$, positive because a word in $L$ and
 $R$ has positive trace. Hence $\epsilon=+1$, $\psi(s+\ell)=\chi(\gamma)\psi(s)$, and
 $\chi(\gamma)=\chi(L)^{\#L}\chi(R)^{\#R}=i^{\#L-\#R}$ because $\chi$ is a character. Census law~\ref{cl:phase} (B1666) checks

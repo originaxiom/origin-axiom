@@ -5,8 +5,7 @@ The triplet of Section~\ref{sec:weave} is acted on by the moves. The next questi
 an arbitrary finite group, the triplet would carry no further structure. We find instead that the action is the
 multiplier of a classical family of theta functions: the grammar's moves, with no modular input, reproduce the level-four
 theta multiplier that modular flavour models use, up to a twist by a power of the eta character. The twist doubles the
-image from order $48$ to order $96$ and moves the allowed weights to $3/2$ modulo $2$ (Theorem~
-ef{thm:theta}). The record is cited by arc~\cite{OriginAxiomRepo}, and what is known is
+image from order $48$ to order $96$ and moves the allowed weights to $3/2$ modulo $2$ (Theorem~\ref{thm:theta}). The record is cited by arc~\cite{OriginAxiomRepo}, and what is known is
 cited where it is used.
 
 \paragraph{The setting.}
@@ -53,7 +52,9 @@ Take the ruled weave on the triplet $T$ in the convention above.
   \]
   the weight-one multiplier $\rho_u$ of the $\Gamma(4)$ triplet twisted by a power of the eta character. The intertwiner
   from the parity lines to the theta constants is monomial: $\theta_3^2$ lies on the clock's line (the parity
-  character $(-,-)$), $\theta_2^2$ on the line $(+,-)$, and $\theta_4^2$ on the line $(-,+)$. The exponents of $t$ on $T$ are
+  character $(-,-)$), $\theta_2^2$ on the line $(+,-)$, and $\theta_4^2$ on the line $(-,+)$. (A line is labelled by the signs of its character on $a$ and $b$ in the
+  column-vector convention of the record's lifts; in Appendix~\ref{app:hand}'s row-vector convention the labels $(+,-)$
+  and $(-,+)$ exchange.) The exponents of $t$ on $T$ are
   $(\tfrac18,\tfrac38,\tfrac78)$ turns.
 \item The dimension of the space $M_k(\rho)$ of vector-valued forms of weight $k$ for $\rho$ is
   $0,0,1,1,2,2,3,3$ at the allowed weights $k=-\tfrac12,\tfrac32,\tfrac72,\dots,\tfrac{27}{2}$ (step $2$; a weight is
@@ -82,8 +83,15 @@ Selberg trace formula~\cite[\S7]{Borcherds2000}. Below weight $2$ the same expre
 $\dim M_k(\rho)-\dim S_{2-k}(\rho^\vee)$; at $k=\tfrac32$ it is $0$, and both terms vanish.
 \end{proof}
 
-\noindent\emph{Scope.} Three limitations are part of the statement.
+\noindent\emph{Scope.} Four limitations are part of the statement.
 \begin{itemize}
+\item \emph{What is classical, what is automatic and what is computed.} The modular group permutes the three even theta
+  characteristics of the torus through $\SL(2,\mathbb F_2)\cong S_3$, and the theta multiplier of Section~\ref{sec:modular}'s
+  setting is classical. Two genuine representations of $\mathrm{Mp}_2(\Z)$ that agree projectively differ by a character,
+  and the characters of $\mathrm{Mp}_2(\Z)$ are the powers of $\chi_\eta$ (its abelianisation is $\Z/24$). So once the
+  parity lines are identified with the even characteristics, a power of $\chi_\eta$ is automatic. What the theorem
+  computes is the projective agreement (the relative phases of the monomial matrices), the exponent $21$, and with it the
+  central character that allows weight $\tfrac32$; it computes a stated lift, not a derived flavour symmetry.
 \item \emph{The hand is a convention.} Writing $\rho=\mathrm{lift}^{-1}$ is one of two homomorphisms; the other is the
   complex conjugate, and the choice of which piece of $V$ is called $T$ is a second binary choice. The two together
   select $\rho$ or $\bar\rho$. The representation is irreducible and not equivalent to its conjugate (an independent exact

@@ -17281,3 +17281,25 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
   P-188 opened; FLOOR 188. Relay THE_PAPER_READS_ANSWERED; SCRUTINISE_THE_PAPER is BANKED. Harvest rows 1252–1255 and
   pins; nine audit relays rowed.
 - Landing suite: gates 45 of 45; 191 files, 2390 passed, 0 failed, 6 skipped (8:17, -n 8). The first run failed one lock (B1306: the audit lane's ten new report ids had no row naming them once its pin moved); row 1255 now names them, and the suite was re-run in full. 0 of 19.
+
+## 2026-10-17 — S142 THE PAPER, DRAFT 5 (P-189)
+
+- **The owner's question.** "Is this referee right?", about an outside referee's report on draft 3 with its check
+  scripts.
+- **Main's answer: right on nearly everything.**
+  - No mathematical error is claimed. The report's ledger reproduces every identity, the representation (from the
+    formula alone), the counts, the cusp law and the constant 0.31500491.
+  - Each concrete claim was checked on main, and all of them hold:
+    - the damaged `\ref` (one of main's edit scripts turned `\r` into a line break; the only instance);
+    - the stale abstract;
+    - the double comma;
+    - Table 1's duplicate rows;
+    - B1516 being off main;
+    - B1663's first-passage estimator;
+    - the 2.8σ;
+    - the undefined coherence.
+  - The two literature citations were confirmed, Holthausen–Lim with a caveat (Majorana neutrinos).
+- **The owner's choices:** both venues (P-190), and an AI-use statement in §9.
+- **Draft 5** (40 pp.) applies every correction (CHANGELOG S142). verify.sh passes. B1663 is sharpened. The report stays
+  in the draft room, since it names the owner. P-189 is done; P-190 is queued; FLOOR 190.
+- Landing suite: gates 45 of 45; 192 files, 2390 passed, 0 failed, 6 skipped (6:02, -n 8). 0 of 19.

@@ -12117,7 +12117,8 @@
    ],
    "refs": [
     "B186",
-    "B451"
+    "B451",
+    "S142"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,

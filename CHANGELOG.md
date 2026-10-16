@@ -1,5 +1,30 @@
 # Changelog
 
+## S142 THE PAPER, DRAFT 5: an outside referee's report checked and applied (P-189); the mathematical note queued (P-190)
+
+- **An outside referee's report on draft 3** (uploaded by the owner): major revision. The report found no mathematical
+  error; its ledger reproduces every identity, the representation, the counts, the cusp law and 0.31500491. Main checked
+  each concrete claim and found every one right, including a broken `\ref` that one of main's edit scripts had turned
+  into a line break, the stale abstract, Table 1's duplicate rows, and B1516 being off main.
+- **The owner's choices:** both venues, the program report first and then a short mathematical note (P-190), and an
+  AI-use statement in §9.
+- **Draft 5** (`papers/P9_what_a_grammar_fixes/`, 40 pp.):
+  - **Recalibrations.** Theorem 9 now says what is classical, what is automatic (a power of χ_η, since Mp₂(ℤ)'s
+    abelianisation is ℤ/24) and what is computed. The index becomes a conditional proposition, out of the abstract's
+    list. The coupling statements use ansatz language. The residual-symmetry negative is placed against the scans of
+    Holthausen–Lim (2013) and Yao–Ding (2015).
+  - **Proofs.** The branch step of the period phase is closed. Proposition 13 gets its two-line proof. N1 becomes a
+    lemma with the doubling proof.
+  - **Definitions.** The escape rate (a first-passage estimate of the top Lyapunov exponent; a fixed-length check
+    gives 0.0987 at p = ½) and the coherence are defined. The 2.8σ distance from −½ is stated, and so is 3.14's
+    uncertainty (2.9–3.4).
+  - **Presentation.** The parity-label convention is stated. Figure 2's caption is toned down. Table 1 is merged to 21
+    rows, and Table 2 fits the page. The scoreboards and the verdict carry their own labels.
+  - **New in the paper's tree.** `verify.sh` (the paper's checks plus 25 locks; 73 tests pass in under a minute); the
+    repository URL; checks `positive_words.py` (replaces the off-main B1516; trace-3 class is LR's) and
+    `lyapunov_fixed.py`; an AI-use statement in §9; a glossary.
+- **B1663 sharpened** with a dated note: its escape rate is a first-passage estimator, and T3 is unaffected.
+
 ## S141 THE PAPER, DRAFT 4: the three seats' reads verified and answered (P-187); B1654 sharpened; P-184 completed
 
 - **The three hostile reads, every finding verified.**

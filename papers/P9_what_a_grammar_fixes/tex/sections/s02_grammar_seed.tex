@@ -27,7 +27,8 @@ A \emph{description} is built from two integer records, $(a,b)\in\Z^2$. The gram
     R=\begin{pmatrix}1&0\\1&1\end{pmatrix}:(a,b)\mapsto(a+b,b),
   \]
   and a description is a word in them. Every hyperbolic class of $\SL(2,\Z)$ is, up to sign, a cyclic word in $L$ and $R$
-  containing both letters (a classical fact~\cite{Series1985}; checked for all 168 hyperbolic matrices with entries up to $5$ in the record's B1516).
+  containing both letters (a classical fact~\cite{Series1985}; the paper's check \texttt{checks/positive\_words.py} confirms it for all $168$
+  hyperbolic matrices with entries of absolute value at most $5$).
 \item \emph{Aperiodicity} (GM3). The description does not repeat, so the monodromy is hyperbolic.
 \item \emph{The carrier} (GM4). Words are realized as mapping classes of the once-punctured torus, whose first
   homology is $\Z^2$.
@@ -108,7 +109,7 @@ For $B\in\SL(2,\Z)$ one has $\det(B-I)=2-\tr B$, and the mapping torus has $H_1=
 $B(a,b)$: $\tr B=2+ab$, which exceeds $2$ for every $a,b\ge1$ (so all $144$ are hyperbolic), and the torsion of $H_1$
 has order $ab$. It is trivial exactly when $ab=1$, that is $(a,b)=(1,1)$ and $B=LR$. On the full set of states, torsion
 of order $|2-\tr|$ vanishes only for trace $3$ among the hyperbolic classes (GM3 excludes the elliptic trace $1$), and
-the trace-$3$ class is that of $LR$ (checked for every unimodular matrix with entries up to $5$, B1516 C2; the general
+the trace-$3$ class is that of $LR$ (the paper's check \texttt{checks/positive\_words.py} confirms it for every such matrix with entries up to $5$; the general
 statement is the class-number-one fact for discriminant $5$~\cite{Buell1989}). When orientation-reversing monodromies are
 admitted, the torsion has order $|\tr|$ and the torsion-free classes are those of $LR$ and of the golden matrix $LP$
 (determinant $-1$, trace $\pm1$, with $(LP)^2=LR$), whose bundle is the Gieseking manifold $m000$. SE2 takes the
@@ -119,8 +120,7 @@ construction in two presentations (B1323; B1607 for the principle's tick).
 
 \noindent\emph{Scope.} The theorem is conditional on its four inputs, and each is needed: without GM3 the order-six
 monodromy of trace $1$ (the trefoil complement) and the parabolic monodromies of trace $2$ also satisfy SE1; without GM4
-the closed torus bundle of $LR$, which is torsion-free, remains; without SE1 every state remains ($758$ to word length
-$12$); without SE2 the parent $m000$ remains. Positivity (the choice of the forward side), minimality of the trace, the unit-shear generation GM2 and
+the closed torus bundle of $LR$, which is torsion-free, remains; without SE1 every state remains; without SE2 the parent $m000$ remains. Positivity (the choice of the forward side), minimality of the trace, the unit-shear generation GM2 and
 the order bit are not needed for the root. The root's uniqueness holds with and without positivity: without it the
 torsion-free hyperbolic solutions are $(1,1)$ and $(-1,-1)$, in one class (B1454). The theorem selects one
 \emph{thread} of the family that the grammar allows. It does not make that thread privileged, and no later result in
@@ -129,7 +129,7 @@ the paper uses it as a premise.
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.62\linewidth]{figures/fig_seed}
-\caption{The seed is forced: $144\to1$. Torsion order $|2-\tr B(a,b)|=ab$ of $H_1$ over the $12\times12$ grid of
+\caption{An illustration of the identity $|H_1|=ab$, not a separate result. Torsion order $|2-\tr B(a,b)|=ab$ of $H_1$ over the $12\times12$ grid of
 closures (colour, logarithmic), with contours of the trace $2+ab$. The root $LR$, $(a,b)=(1,1)$, is the only
 torsion-free closure. This is an exact computation on the grid, conditional on the inputs of Theorem~\ref{thm:seed}.}
 \label{fig:seed}
@@ -166,15 +166,13 @@ one cusp unit & tagged & the index $\pm3$ (Section~\ref{sec:three}) & an end mec
 the extreme boundary domain & chosen & $|\Lambda_+|\in\{0,6\}$, so $\pm3$ rather than $\pm1$ (Section~\ref{sec:three}) & a rule that selects the domain\\
 $M_{1,2}$ as the weave's surface & a reading, verified in part & the setting of the index and of the zero modes & coherence of the lifts (a gate still open)\\
 the vacuum-grading rule (demand D1, Section~\ref{sec:boundary}) & a ruling of the program & how a symmetry broken by a vacuum is graded & none\\
-the end condition at the puncture & chosen & the norm of the boundary class, the electron's zero, the symmetric point's law and the census N5 (Section~\ref{sec:couplings}) & an end mechanism at the puncture; the fibre's hyperbolic metric fixes the end radius at order one (Census law~\ref{cl:cusp}), so a discrete choice remains\\
-$\tau=\omega$ with the eighteen flat lines & chosen (a selection, Section~\ref{sec:selection}) & the electron's zero, the symmetric point and the census N5 & a rule that selects the modulus and the lines\\
+the end condition at the puncture (equal canonical amplitudes) and the choice of canonical horocycle & chosen (the horocycle a discrete choice; the radius of order one, Census law~\ref{cl:cusp}) & the norm of the boundary class, the lepton sector's null vector, the symmetric point's law, the census N5 and the first generation's lift (Sections~\ref{sec:couplings}, \ref{sec:three}) & an end mechanism at the puncture, or a reason for one horocycle\\
+the modulus $\tau=\omega$ and the eighteen flat lines & chosen (a selection, Section~\ref{sec:selection}) & the lepton sector's null vector, the symmetric point and the one-Higgs census N5 (Sections~\ref{sec:couplings}, \ref{sec:boundary}) & a rule that selects the modulus and the lines\\
 equal framed data & chosen & the twisted half bound & a reason that the sectors' framed data are equal\\
 the index as the generation count & identification & reads the index $\pm3$ of Section~\ref{sec:three} as three generations & an index theorem on a physical spacetime\\
 the read-out and the hypercharge dictionary & identifications & singular values as masses, flat-line twists as hypercharges and the Higgs line as the electroweak Higgs, with $6Y$ the minimal integral normalisation, itself a choice (Sections~\ref{sec:couplings}, \ref{sec:boundary}) & a derivation of the dictionary\\
-the fibre frame (the Higgs a section on the fibre, at one $\tau$) & chosen (see Proposition~\ref{bd:tribunal}) & the couplings of Section~\ref{sec:couplings} & a frame shown to meet the demands\\
-the modulus $\tau=\omega$ and the eighteen flat lines & chosen & the electron's zero, the one-Higgs census (Sections~\ref{sec:couplings}, \ref{sec:boundary}) & a rule that selects the modulus and the lines\\
+the fibre frame (the Higgs a section on the fibre, at one $\tau$) & chosen (see Verdict~\ref{bd:tribunal}) & the couplings of Section~\ref{sec:couplings} & a frame shown to meet the demands\\
 the Higgs's type and locus (a point or density Higgs, at the puncture) & stated & the covariance theorem and the rank of a point coupling (Section~\ref{sec:couplings}) & a Higgs of another type, or a derived locus\\
-the canonical end condition at the puncture, and the choice of canonical horocycle & chosen (discrete; the radius is of order one) & the first generation's lift (Sections~\ref{sec:couplings}, \ref{sec:three}) & a reason for one horocycle\\
 the hand and the $\eta$ twist & chosen conventions, not derived & $\rho$ as the theta multiplier (Section~\ref{sec:modular}) & a derived hand; a reason for the twist\\
 the modular-flavour ansatz (holomorphic couplings, a minimal K\"ahler term, one copy of $T$ per field, one Higgs per sector) & stated where used, not adopted & the ruled-branch bound of Theorem~\ref{bd:reducesnone} & none\\
 the index formula $\dim\Lambda_+-3$ & taken as stated (B1606) & the index of Section~\ref{sec:three} & an independent derivation\\
