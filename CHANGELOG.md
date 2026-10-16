@@ -1,5 +1,13 @@
 # Changelog
 
+## The audit lane's named review request held for the owner (ledger; relay §144)
+
+- **The audit lane** pushed 7 more commits (42be245f6 → 7ae6451c0) with one relay, on the same supplied compact-E8
+  parent: the source's Gauss law and a nonzero canonical endpoint charge.
+- **The relay names this seat** for an independent review of three of its proofs. The request is held for the owner,
+  not declined. One question goes back: which quantity on every allowed thread the construction is built to compute.
+- **Surfaces.** The ledger (two rows; the relay's row extended), relay §144, the state page's relay range.
+
 ## The audit lane's reverse-supersymmetry packet read (ledger)
 
 - **The audit lane** pushed 8 more commits (922d86b2b → 42be245f6) with one relay, on the same supplied compact-E8
