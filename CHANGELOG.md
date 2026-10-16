@@ -1,5 +1,17 @@
 # Changelog
 
+October16 terminal maintenance at published8e8ac8bba:12selected PASS
+114.59s,16pins/18203tracked/index unchanged; full governance28PASS/
+twoFAIL111.359583s, actual exit1, attribution/provenance unchanged.
+Full logs, five receipt checks and ORIGINAL captured state compressed
+with exact roundtrip/custody, not reconstructed. Four execution pins
+also unchanged. No waiver/full-suite/independent/main acceptance.
+Further SM145-148 and chat1standing/computation reports personally
+read; focused OPEN relay separates structural price from empirical
+parameter dimensions, refreshes flat-regulator scope after B1667,
+and preserves grading-positive and numerical/coverage bounds.
+No new scientific producer or parent extension; goal ACTIVE.
+
 October16 all eleven remote branch heads fetched/server-compared;
 main4cc3658a8 paper relay read in full. Focused personal draft3 review
 sent on own branch: preserve scoped F3 and parity-graded positives;

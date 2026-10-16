@@ -1,0 +1,26 @@
+{
+  "grade": "compression of original terminal raw state, not reconstruction or a scientific run",
+  "source_head": "8e8ac8bba53f9387daaafc5988fea660b2c4eb45",
+  "tracked_files": 18203,
+  "source_pins": 16,
+  "uncompressed_bytes": 3479835,
+  "original_before_and_after_sha256": "49e256d52a9ddf687068b92160409e96c03859690ac56a3221ae0e55632366cd",
+  "compressed_sha256": "6310c7b58ee71711fd4dd06a03759ac35b453e36c1d7fdec30415f8150a50c7d",
+  "roundtrip_byte_equal": true,
+  "all_five_receipts_match_original_logs": true,
+  "selected_regression_summary": "12 passed in 114.59s (0:01:54)",
+  "exit_codes": {
+    "focused": 0,
+    "metadata_capture": 0,
+    "vacuity": 0,
+    "relay": 0,
+    "governance": 1
+  },
+  "governance_passes": 28,
+  "governance_failures": [
+    "attribution",
+    "seal-provenance"
+  ],
+  "full_suite_run": false,
+  "independent_or_main_acceptance": false
+}

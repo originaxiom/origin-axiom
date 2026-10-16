@@ -1,5 +1,16 @@
 # Physical-bridge mission status and next questions
 
+Terminal maintenance at published8e8ac8bba:12selected PASS114.59s,
+16pins/18203tracked/index unchanged; governance28PASS/twoFAIL,
+111.359583s, attribution and provenance unchanged. Original captured
+state and full receipts durably published, no reconstruction or waiver.
+SM latest relay additions145-148 and chat1standing/computations read;
+follow-up OPEN relay flags structural-price/parameter-dimension
+conflation and stale flat-regulator no-L scope after B1667. These are
+source/accounting findings, not fresh numerical replications. Actual
+physical grading, critical-trace action and coupled end law remain
+the focus; goal ACTIVE and new supplied-parent science paused.
+
 October16 sync at main4cc3658a8: all eleven remote heads fetched and
 server-compared; main's paper-scrutiny relay personally read, focused
 review sent OPEN on this branch. Six major scope/completeness and two

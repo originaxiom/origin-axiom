@@ -1,5 +1,14 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+Published8e8ac8bba maintenance now terminal:12selectedPASS114.59s,
+16pins/18203tracked/index unchanged, full governance28PASS/twoFAIL
+(attribution/provenance). Actual original state/receipts retained,
+no waiver or new physical theorem. Further cross-seat read adds an
+OPEN end/price-scope relay: do not count an axiom as one continuous
+fit parameter, conflate ends, or turn two canonical cuts into a
+complete physical law. Next scientific route unchanged: derive the
+actual grading/trace action and coupled admissible end after governance.
+
 October16 paper review joins, not replaces, the approved reorientation.
 All eleven fetched heads server-compared at main4cc3658a8. Main's full
 paper request read; focused scope review is sender-owned and OPEN.

@@ -20997,3 +20997,26 @@ uncomputed physical index retained. Main alone adjudicates; no paper
 edits, bibliography/all-number certificate or fresh scientific run.
 Last full governance remains28PASS/twoFAIL atf2, not this tree. Goal
 ACTIVE; approved specification/native-map/actual-end-law order holds.
+
+October16 terminal existing maintenance at published/server-confirmed
+8e8ac8bba53f9387daaafc5988fea660b2c4eb45:12selectedPASS114.59s,
+focused process exit0/119.131990s; full governance exit1/111.359583s,
+28PASS/twoFAIL attribution and seal-provenance. Vacuity, path refs,
+relay and digests PASS. Original16pins/18203tracked/index unchanged;
+four execution pins also checked. All five receipts/log hashes checked,
+complete original before/after state now published compressed with
+exact byte roundtrip,28custody entries verified after publication.
+Not an old-state reconstruction, full suite, nonauthor/main/physical
+acceptance or resolution of the two policy/history questions.
+
+Additional personal cross-seat source read: SM relay additions145-148
+and chat1THE_STANDING/WHAT_COULD_BE_SETTLED full bodies. These source
+reports preserve useful conditional results; no fresh numerical replay
+claimed. New sender-owned OPEN relay to main/chat1 asks refresh of the
+flat-regulator no-L inference after later B1667, separation of counted
+structural postulates from continuous empirical fit dimensions before
+13+k-versus19 retirement arguments, and preservation of parity-graded
+positive plus numerical/coverage limits. Separate relay-debt metadata
+check after the new row PASS44banked/26declined/167open. Later results
+publication/relay are not part of the8e captured tree. Goal ACTIVE,
+no new supplied-parent extension or full physical completion.
