@@ -1,0 +1,40 @@
+t= 3 LR             Psi=  0 D'=   5 h=1.118 bits 166 npp 30 closure probe 3.9e-46 conv 5.5e-43 1 s
+t= 4 LLR            Psi= -1 D'=  12 h=1.732 bits 180 npp 30 closure probe 3.8e-51 conv 1.7e-38 1 s
+t= 4 LRR            Psi=  1 D'=  12 h=1.732 bits 180 npp 30 closure probe 2.0e+00 conv 4.8e-38 2 s
+t= 5 LLLR           Psi= -2 D'=  21 h=2.291 bits 194 npp 30 closure probe 1.4e-54 conv 3.4e-42 3 s
+t= 5 LRRR           Psi=  2 D'=  21 h=2.291 bits 194 npp 30 closure probe 5.0e-39 conv 3.3e-42 4 s
+t= 6 LLLLR          Psi= -3 D'=  32 h=2.828 bits 206 npp 30 closure probe 8.5e-59 conv 1.9e-37 5 s
+t= 6 LLRR           Psi=  0 D'=   8 h=1.414 bits 173 npp 30 closure probe 5.9e-49 conv 2.5e-43 5 s
+t= 6 LRRRR          Psi=  3 D'=  32 h=2.828 bits 206 npp 30 closure probe 3.6e-41 conv 1.9e-37 7 s
+t= 7 LLLLLR         Psi= -4 D'=  45 h=3.354 bits 219 npp 30 closure probe 5.3e-62 conv 1.6e-28 8 s
+t= 7 LRRRRR         Psi=  4 D'=  45 h=3.354 bits 219 npp 30 closure probe 2.0e-40 conv 1.6e-28 9 s
+t= 8 LLLLLLR        Psi= -5 D'=  60 h=3.873 bits 231 npp 30 closure probe 5.7e-66 conv 2.4e-21 10 s
+t= 8 LLLRR          Psi= -1 D'=  60 h=1.936 bits 185 npp 30 closure probe 6.4e-52 conv 2.7e-43 12 s
+t= 8 LLRRR          Psi=  1 D'=  60 h=1.936 bits 185 npp 30 closure probe 2.0e-52 conv 3.3e-43 13 s
+t= 8 LRRRRRR        Psi=  5 D'=  60 h=3.873 bits 231 npp 30 closure probe 7.8e-40 conv 2.4e-21 14 s
+t= 9 LLLLLLLR       Psi= -6 D'=  77 h=4.387 bits 243 npp 60 closure probe 7.7e-69 conv 7.5e-44 17 s
+t= 9 LRRRRRRR       Psi=  6 D'=  77 h=4.387 bits 243 npp 60 closure probe 6.2e-40 conv 7.0e-44 20 s
+t=10 LLLLLLLLR      Psi= -7 D'=  96 h=4.899 bits 255 npp 60 closure probe 4.8e-73 conv 1.5e-43 24 s
+t=10 LLLLRR         Psi= -2 D'=  24 h=2.449 bits 197 npp 30 closure probe 5.4e-56 conv 3.7e-44 26 s
+t=10 LLRLR          Psi= -1 D'=  96 h=1.633 bits 178 npp 30 closure probe 1.0e-49 conv 2.0e-43 27 s
+t=10 LLRRRR         Psi=  2 D'=  24 h=2.449 bits 197 npp 30 closure probe 7.2e-56 conv 3.7e-44 28 s
+t=10 LRLRR          Psi=  1 D'=  96 h=1.633 bits 178 npp 30 closure probe 1.3e-49 conv 5.5e-43 29 s
+t=10 LRRRRRRRR      Psi=  7 D'=  96 h=4.899 bits 255 npp 60 closure probe 5.4e-41 conv 3.8e-44 32 s
+t=11 LLLLLLLLLR     Psi= -8 D'= 117 h=5.408 bits 267 npp 60 closure probe 5.2e-76 conv 1.3e-43 37 s
+t=11 LLLRRR         Psi=  0 D'=  13 h=1.803 bits 182 npp 30 closure probe 6.7e-51 conv 6.1e-45 38 s
+t=11 LRRRRRRRRR     Psi=  8 D'= 117 h=5.408 bits 267 npp 60 closure probe 1.6e-40 conv 3.3e-44 42 s
+t=12 LLLLLLLLLLR    Psi= -9 D'= 140 h=5.916 bits 279 npp 60 closure probe 8.0e-80 conv 2.8e-43 46 s
+t=12 LLLLLRR        Psi= -3 D'= 140 h=2.958 bits 209 npp 30 closure probe 1.1e-58 conv 4.2e-35 47 s
+t=12 LLRRRRR        Psi=  3 D'= 140 h=2.958 bits 209 npp 30 closure probe 2.7e-59 conv 4.2e-35 48 s
+t=12 LRRRRRRRRRR    Psi=  9 D'= 140 h=5.916 bits 279 npp 60 closure probe 2.9e-40 conv 7.2e-44 52 s
+layer t= 3: 1 threads; deepest pair ['LR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 1.000000; ln s2/s3 C1 -0.9975694724760819
+layer t= 4: 2 threads; deepest pair ['LLR', 'LRR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 1.000000; ln s2/s3 C1 -5.688074243580636
+layer t= 5: 2 threads; deepest pair ['LLLR', 'LRRR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 1.000000; ln s2/s3 C1 -9.788806535873663
+layer t= 6: 3 threads; deepest pair ['LLLLR', 'LRRRR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 0.614741; ln s2/s3 C1 -13.266654077007836
+layer t= 7: 2 threads; deepest pair ['LLLLLR', 'LRRRRR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 1.000000; ln s2/s3 C1 -16.768992151746584
+layer t= 8: 4 threads; deepest pair ['LLLLLLR', 'LRRRRRR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 0.396326; ln s2/s3 C1 -20.012231519924157
+layer t= 9: 2 threads; deepest pair ['LLLLLLLR', 'LRRRRRRR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 1.000000; ln s2/s3 C1 -23.395469251535577
+layer t=10: 6 threads; deepest pair ['LLLLLLLLR', 'LRRRRRRRR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 0.214185; ln s2/s3 C1 -26.30415125928451
+layer t=11: 3 threads; deepest pair ['LLLLLLLLLR', 'LRRRRRRRRR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 0.500717; ln s2/s3 C1 -29.972096999151688
+layer t=12: 4 threads; deepest pair ['LLLLLLLLLLR', 'LRRRRRRRRRR']; share K32 1.000000 KM12 1.000000 K72 1.000000 Y1 0.344225; ln s2/s3 C1 -32.932564151076484
+written w_trace_untwisted.json; 53 s

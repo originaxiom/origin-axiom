@@ -1,0 +1,37 @@
+t= 3 LR           closure at a generic start: 3.8e-46
+t= 4 LLR          closure at a generic start: 7.4e-51
+t= 4 LRR          closure at a generic start: 1.9e-49
+t= 5 LLLR         closure at a generic start: 6.1e-55
+t= 5 LRRR         closure at a generic start: 3.1e-54
+t= 6 LLLLR        closure at a generic start: 2.9e-58
+t= 6 LLRR         closure at a generic start: 1.4e-48
+t= 6 LRRRR        closure at a generic start: 4.6e-58
+t= 7 LLLLLR       closure at a generic start: 1.4e-62
+t= 7 LRRRRR       closure at a generic start: 4.4e-62
+t= 8 LLLLLLR      closure at a generic start: 1.7e-65
+t= 8 LLLRR        closure at a generic start: 3.9e-52
+t= 8 LLRRR        closure at a generic start: 3.2e-52
+t= 8 LRRRRRR      closure at a generic start: 1.2e-65
+t= 9 LLLLLLLR     closure at a generic start: 2.3e-69
+t= 9 LRRRRRRR     closure at a generic start: 2.6e-69
+t=10 LLLLLLLLR    closure at a generic start: 1.3e-72
+t=10 LLLLRR       closure at a generic start: 1.5e-55
+t=10 LLRLR        closure at a generic start: 6.1e-49
+t=10 LLRRRR       closure at a generic start: 1.3e-55
+t=10 LRLRR        closure at a generic start: 9.6e-50
+t=10 LRRRRRRRR    closure at a generic start: 6.7e-73
+t=11 LLLLLLLLLR   closure at a generic start: 3.6e-76
+t=11 LLLRRR       closure at a generic start: 3.4e-51
+t=11 LRRRRRRRRR   closure at a generic start: 1.3e-76
+t=12 LLLLLLLLLLR  closure at a generic start: 9.4e-80
+t=12 LLLLLRR      closure at a generic start: 3.1e-59
+t=12 LLRRRRR      closure at a generic start: 3.2e-59
+t=12 LRRRRRRRRRR  closure at a generic start: 3.1e-80
+worst over the 29 threads: 3.8e-46
+LRR rotation LRR: closure at a generic start 1.9e-49
+LLR rotation LLR: closure at a generic start 7.4e-51
+LRR rotation RRL: closure at a generic start 2.1e-49
+LLR rotation LRL: closure at a generic start 4.1e-49
+LRR rotation RLR: closure at a generic start 1.7e-49
+LLR rotation RLL: closure at a generic start 8.9e-51
+LRR's Y integrals at the two starts: largest difference relative to each matrix's largest entry 1.4e-37

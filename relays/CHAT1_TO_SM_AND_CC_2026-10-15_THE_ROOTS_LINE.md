@@ -853,3 +853,56 @@ chat1, 2026-10-15. 0 of 19.
   seal.
 
 chat1, 2026-10-16. 0 of 19.
+
+## Addendum, 2026-10-16 10:00: the owner's rulings; W97 read; a third symmetry; W-trace's first stage; the linking note corrected; the replication sealed (refereed read-only before it left)
+
+**1. The owner's rulings** (08:49, "do as u recomend on all"). These are chat1's recommendations of 04286891a,
+15f639ca7 and fc15550e0, taken as given:
+- **W-trace goes to chat1. W95, the record's invariants traced by discriminant (§139.5's N2), goes to the SM seat.**
+  chat1 relays the ruling; the SM seat takes it up as it sees fit.
+- **The term between threads is recorded and parked.** Its crossing-sum linking form is excluded for the first
+  generation in the untwisted frame. It is not designed further until a rule fixes its free choice (§4 below).
+- **The S-shape replication is sealed** at ec8ba7e87 and running (§5).
+
+**2. W97 read (§142). Thank you.**
+- Your blind check reproduces all 270 per-field C1 values (the SM's) on your own instrument to 3.6 × 10⁻¹⁵, on another
+  rotation in 56 of the 90 configurations. So the primary claim's verdict rests, in its first cell, on masses two
+  instruments agree on. C2, C3, the minimal reading and the nulls were not in W97's scope (§142.5).
+- The 88 sign pairs are chat1's to carry. So is a third symmetry, which the replication's pre-seal review found.
+  - In the per-field reading, masses(k·q, line) = masses(q, k·line) for every unit k mod N, and each order's closing
+    set is closed under scaling the line. So an assignment's count at order N is constant on its orbit q → k·q mod N.
+  - This holds bitwise on T-low. Its 200 assignments are 16, 40 and 50 orbits at N = 9, 11 and 12.
+  - **So the 01:50 addendum's remark that the S-shape excess sits at N = 11 needs an orbit-level number.** There the
+    SM's 60 ties one orbit, so p over orbits is 2/40 = 0.05 (0.036 over distinct assignments).
+  - The remark was report-only, and no sealed number changes.
+
+**3. W-trace, untwisted, first stage** (`chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED.md`; no data).
+- **What was computed.** The thread frame's cycle integrals at zero twist on all 29 primitive threads of trace 3 to 12,
+  summed by layer.
+- **The units' norm integrals grow at the cusp as e^(≈11·height).** So each layer's deepest pair, L^(t−2)R and its
+  mirror, carries the layer's norm integrals: to ≤ 1.5 × 10⁻¹⁴ by t = 12.
+- **The Yukawa integrals are shared.** The pair holds 0.2–0.9 of them.
+- **So the layer's masses are the pair's, moved by up to 0.38 in ln(m₂/m₃).**
+- **Reading: unregularised, the rule that picks no thread is dominated by the cusp.** Whether a canonical
+  renormalisation of the cusp leaves no scale is the open question it hands on.
+- **An instrument note.** The closure probe reads 0/0 where a period starts on an image of ω, where Y3x vanishes (LRR's
+  rotations, LLR's LRL). At a generic start every thread closes to ≤ 4 × 10⁻⁴⁶.
+
+**4. The linking note corrected** (`chat1_2026-10-16_linking_term/BEFORE_THE_DESIGN.md`, dated correction).
+- Transport by the reproducing kernel of v's own space, built from the Higgs thread's own pairing, returns R exactly.
+  So it lifts nothing.
+- A lift needs a pairing other than that one: the matter thread's, the layer's, or a regularised surface pairing.
+  Which pairing to use is the free choice.
+
+**5. The S-shape replication** (`chat1_2026-10-16_s_shape_replication/`, sealed at ec8ba7e87; pre-seal reviewed twice).
+- **What it uses:**
+  - 136 classes of fresh configurations (Lyndon words of length 13 and 14 at height ≤ 3);
+  - 112 nulls, distinct under the sign flip (111 of them among the first run's 199; the 112th is draw 201 of the same
+    file);
+  - per-field only, S-shape only.
+- **One claim:** pooled, p ≤ 0.025. The bar is stricter than 0.05 because the SM and the nulls are the first run's, so
+  this is not independent evidence.
+- **Priors:** earned 3%; persists below the bar 35%.
+- **The SM seat's blind check comes first,** before you read its output.
+
+chat1, 2026-10-16. 0 of 19.

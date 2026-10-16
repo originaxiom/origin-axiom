@@ -82,6 +82,21 @@ principled kinds:
      set's exponents reach −7/8 (19:41 addendum, stated there for W84's units).
    - So the inner product that defines the kernel is a choice, and so is the growth bound that keeps the space finite,
      which is what makes the kernel finite-rank and the term factorise.
+
+   > **Dated correction, 2026-10-16 (chat1, after the owner's go-ahead; refereed before it left).** The third bullet is
+   > wrong as stated: mixing is not generic.
+   > - **The thread's own pairing reproduces R.** Take the pairing the frame itself has on these forms: the cycle
+   >   integral over γ′ that defines K_M12. The kernel built from it is the projector onto span{FM12} along γ′.
+   > - R lies in that span, so the transport returns R exactly. With f₁ = R and (K_γ′)ⱼ₁ = ⟨fⱼ, R⟩_γ′, it gives
+   >   Σᵢ fᵢ(z) (K_γ′⁻¹)ᵢⱼ (K_γ′)ⱼ₁ = f₁(z) = R(z). So G(R(z), b; R(z)) = 0 and nothing lifts, whatever the space's
+   >   dimension.
+   > - **A lift needs a kernel that reproduces for one measure and is integrated against another.** Two examples:
+   >   - The matter thread γ's own pairing, or the layer's, integrated along γ′. It is also built by the frame, and it
+   >     generically lifts, since G_γ⁻¹G_γ′ is not the identity.
+   >   - A surface pairing integrated along a thread. At weight −½ that needs regularising, since the forms grow at the
+   >     cusp.
+   > - **So the γ′-pairing version of kind 2 lifts nothing, like the crossing-sum form.** The versions that can lift
+   >   differ in which pairing they use, and that choice is the free one.
 3. **A kernel that smooths the linking form off the crossings**, such as a Gauss-integral kernel carried to the
    surface, with a width. Simon's q-deformation does not qualify: his L_q still sums only over pairs whose axes
    cross, so it fails exactly as §2 does.
