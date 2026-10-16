@@ -1,0 +1,31 @@
+{
+  "mode": "regression",
+  "capture_leaf": "regression_repaired",
+  "command": [
+    "PYTHON3.12.14",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_physical_bridge_surface_global_boundary_variation.py",
+    "tests/test_physical_bridge_surface_arena_boundary.py"
+  ],
+  "exit_code": 0,
+  "seconds": 243.994022999992,
+  "before_completed_before_launch": true,
+  "state_unchanged": true,
+  "tracked_files": 18017,
+  "source_pins": 332,
+  "tree_sha256": "7e16f4a095f149e647a49378aa105a51ea879d62d684a5815e36249ad8ba3bdb",
+  "index_sha256": "067da02d81d6c51febadc980d26af28cb9832d34f599d58ae6961dc1b7ef8bbd",
+  "stdout": {
+    "bytes": 111,
+    "sha256": "9cafcf82a1a933402e2ae947a31d176e8de5ffcaa29494e759021af07237f91a"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

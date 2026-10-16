@@ -1,5 +1,12 @@
 # Verdict toward the full physical theory goal
 
+Terminal global-boundary validation at afe8ab742:14selected LIVE
+PASS242.98s; governance26PASS/four inherited reported FAIL20.977007s.
+332pins/18,017tracked/index unchanged. Two new test-helper visibility
+paths repaired after preserving first captures/originals; scientific
+producers/proof unchanged. Full VALIDATION/raw receipts; no waiver/
+full-suite/nonauthor/main/physical acceptance. Full goal stays ACTIVE.
+
 October16 actual global-tube variation:29/29each at published460dca46e,
 151.156943/113.391281s, full490,216byte records agree;331pins/tree/index
 unchanged. Full tilted normal/measure, nonlinear source momenta4L^T C,

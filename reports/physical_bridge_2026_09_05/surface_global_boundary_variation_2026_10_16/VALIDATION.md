@@ -36,3 +36,30 @@ reported that copied data and stopped BEFORE commit. The snapshot is
 not reformatted: its digest must equal the original witness. The next
 whitespace check excludes that ONE original-data path, not authored
 code, test criteria, any governance gate or a failure baseline.
+
+## Terminal repaired validation
+
+At pre-successor published afe8ab74276084e0529f7e3e97eaa190c8ac06ff,
+14selected LIVE tests PASS242.98s, capture243.994023s. Actual command
+selects new7 plus arena7. Both new29-check producers and both arena44
+producers rerun; the new fixture retains fresh curved53/transmission144.
+The added false-computed-gate control rejects its altered predicate.
+
+Fresh governance26PASS/four inherited reported FAIL20.977007s. The TWO
+NEW assertion-visibility paths are gone; test-vacuity reports only its
+two earlier tests. First three REPORTED failure lines equal the previous
+arena capture, not a complete untruncated provenance-debt certificate.
+Relay debt42stale/176open, review638. No waiver or baseline change.
+
+Both repaired captures keep332pins,18,017tracked contents and index
+unchanged. Their before inventories precede launch and after inventories
+follow terminal children. Tree
+7e16f4a095f149e647a49378aa105a51ea879d62d684a5815e36249ad8ba3bdb;
+index067da02d81d6c51febadc980d26af28cb9832d34f599d58ae6961dc1b7ef8bbd.
+All four first/repaired stdout/stderr byte counts and SHA256s were
+separately matched to receipts; all332current pins separately rechecked.
+Scientific producer and proof hashes remain original460dca46e. This
+test-only repair changes no29-check scientific output or acceptance
+criterion. Post-check report updates are not back-certified. Full suite,
+independent analytic/banking, recipient/main and physical acceptance
+remain separate; original full SM/three/parameters/gravity goal ACTIVE.

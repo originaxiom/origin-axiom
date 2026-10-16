@@ -20788,3 +20788,17 @@ PROOF hashes unchanged. Test-only repair resealed before successor.
 Full VALIDATION/POST_HOC_REPAIR records two invalid Ruby launch attempts
 before wrapper entry, not scientific failures. No true end/SM/three/
 gravity or independent/full-suite acceptance. Full goal remains ACTIVE.
+
+Repaired terminal at publishedafe8ab742:14selected LIVE PASS242.98s,
+capture243.994023s; actual new7+arena7 command verified. Both new29/
+arena44 producers fresh. Governance26PASS/four inherited reported FAIL
+20.977007s, TWO NEW assertion visibility paths removed. First3reported
+failure lines equal preceding arena, not a full untruncated provenance
+debt inventory. Both repaired captures332pins/18,017tracked/index
+unchanged;42stale/176open, review638. All four first/repaired raw byte
+counts/SHA256s checked against receipts; current332pins separately
+rechecked, producer/PROOF remain original460dca46e. Full VALIDATION/
+original snapshots retained; no waiver/full-suite/nonauthor/main/
+receiver/physical acceptance. Source-admission/unit-before-three next,
+incoming owner-announced focus relay awaited before a new direction.
+Original full physical SM/three/parameters/gravity goal stays ACTIVE.

@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+Terminal global-boundary validation at afe8ab742:14selected LIVE
+PASS242.98s; governance26PASS/four inherited reported FAIL20.977007s.
+332pins/18,017tracked/index unchanged. Two new test-helper visibility
+paths repaired after preserving first captures/originals; scientific
+producers/proof unchanged. Full VALIDATION/raw receipts; no waiver/
+full-suite/nonauthor/main/physical acceptance. Full goal stays ACTIVE.
+
 LATEST global-boundary validation:13LIVE PASS192.60s at8f65e96e7;
 governance26PASS/fourFAIL includes TWO NEW test-helper assertion-
 visibility paths.331pins/tree/index unchanged in captures, originals

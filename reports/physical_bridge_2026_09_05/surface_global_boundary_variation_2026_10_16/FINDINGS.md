@@ -126,3 +126,13 @@ assertions plus a false-predicate instrument control are resealed before
 successor. No science/proof/input/outcome changes. Full VALIDATION and
 POST_HOC_REPAIR distinguish successful mathematics from this reporting
 defect; no waiver or full physical/independent acceptance.
+
+Repaired terminal validation at pre-successor publishedafe8ab742:
+14selected LIVE PASS242.98s,capture243.994023s. Both new29-check and
+antecedent arena44 producers fresh. Governance26PASS/four inherited
+reported FAIL20.977007s, new assertion-visibility paths removed; first3
+reported lines equal prior arena, not a full untruncated-debt inventory.
+Both captures332pins/18,017tracked/index unchanged.42stale/176open,
+review638. Full first/repaired raw witnesses kept; no waiver/full-suite/
+nonauthor/recipient/main/physical acceptance. Scientific producers/proof
+unchanged, current332pins separately rechecked; reports not back-certified.

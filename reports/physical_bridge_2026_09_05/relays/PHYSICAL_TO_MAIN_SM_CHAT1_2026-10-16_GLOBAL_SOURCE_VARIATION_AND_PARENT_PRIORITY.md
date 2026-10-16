@@ -41,3 +41,13 @@ Main B1660 is READ, not reproduced or a theorem about every basin.
 SM30ae7ea2e and chat12a4bd10fe are pre-run/raw-publication intake,
 not imported physics outcomes. Full physical goal ACTIVE. LIVE/governance
 follows; four inherited debts/outside/full-suite/main duties unwaived.
+
+Terminal atafe8ab742:14selected LIVE PASS242.98s,332pins/18,017tracked/
+index unchanged; fresh governance26PASS/four inherited reported FAIL
+20.977007s. First capture13PASS but two NEW helper-assertion visibility
+paths in governance; original331sources/manifests/raw retained, explicit
+test assertions and false-predicate guard resealed before successor.
+New paths now removed; no science/proof/criterion change or waiver.
+VALIDATION/POST_HOC_REPAIR carry full chronology. First3reported old
+failure lines equal prior, not untruncated-debt clearance;42stale/176open,
+review638. No independent/full-suite/receiver/main/physical acceptance.
