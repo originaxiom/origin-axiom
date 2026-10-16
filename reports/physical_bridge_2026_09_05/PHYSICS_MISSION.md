@@ -1,5 +1,18 @@
 # Approved physics mission and execution criteria
 
+October16 derivation-first direction from the owner: run focused
+"weeding" sessions to replace supplied ingredients with explicit
+derivations from admitted foundations, not merely further conditional
+model building. Existing R79/R94 positives freshly replayed:16 selected
+tests PASS3.96s,73 symbolic/1913 separate matrix-numerical action checks
+and original peripheral safeguards;11 science/26 historical pins and
+18027 tracked contents/index checked. No new theorem or physical
+selection. Parent-from-native-action and unit-before-three remain the
+priority, with every retained premise visible. Read
+DERIVATION_WEEDING_2026_10_16.md for the bounded next questions.
+The full physical objective is unchanged and unachieved; this note
+does not amend canonical GENESIS or assert scheduler/goal-tool status.
+
 Terminal global-boundary validation at afe8ab742:14selected LIVE
 PASS242.98s; governance26PASS/four inherited reported FAIL20.977007s.
 332pins/18,017tracked/index unchanged. Two new test-helper visibility

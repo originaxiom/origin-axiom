@@ -1,5 +1,15 @@
 # Changelog
 
+October16 derivation-first planning and revalidation, not a new arc:
+owner's "weeding" direction now in DERIVATION_WEEDING_2026_10_16.md,
+mission and roadmap. Original R79/R94 code/proofs/tests unchanged;
+16 selected tests PASS3.96s,73 symbolic/1913 separate matrix-numerical
+action checks and original peripheral safeguards.11 science pins,
+26 historical pins,18027 tracked contents/index checked unchanged.
+Recover native premises before extending the physical parent; derive
+the unit before reading three. No canonical status amendment, physical
+completion, new theorem, fresh governance or full-suite acceptance.
+
 Terminal global-boundary validation at afe8ab742:14selected LIVE
 PASS242.98s; governance26PASS/four inherited reported FAIL20.977007s.
 332pins/18,017tracked/index unchanged. Two new test-helper visibility

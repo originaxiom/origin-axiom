@@ -1,0 +1,211 @@
+{
+  "source_head": "d89b48ea7ed1e8e1a6a9d9c9e996517420f40ddf",
+  "original_science_pins": 11,
+  "historical_source_pins": 26,
+  "tracked_files": 18027,
+  "tracked_tree_and_index_unchanged": true,
+  "exit_codes": {
+    "carrier": 0,
+    "native": 0,
+    "reference": 0,
+    "focused": 0
+  },
+  "original_design_replay_only": true,
+  "non_author_acceptance": false,
+  "new_analytic_theorem": false,
+  "physical_goal_achieved": false,
+  "carrier": {
+    "abelian_blind_controls": 1512,
+    "all_order_three_transversals_SL2F3": [
+      [
+        1,
+        0,
+        2,
+        1
+      ]
+    ],
+    "determinant_counts": {
+      "-1": 682,
+      "1": 683
+    },
+    "framed_k_min_max": [
+      -3,
+      3
+    ],
+    "nielsen_sequences_length_0_to_5": 1365,
+    "normalized_golden_images": [
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "opposite_commutator_cyclic_length": 12,
+    "opposite_endomorphism_homology": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "rho_commutator": [
+      2,
+      0,
+      0,
+      2
+    ],
+    "rho_slope_1_3_frame0": [
+      2,
+      0,
+      0,
+      2
+    ],
+    "rho_slope_1_3_frame1": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "rho_transported_slope_4_3_frame0": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "scope": "exact finite safeguards; authored universal deductions separately scoped",
+    "selected_T": [
+      1,
+      0,
+      2,
+      1
+    ],
+    "slope_integer_controls": 343,
+    "verdict": "PASS"
+  },
+  "native": {
+    "failed": [
+
+    ],
+    "generated_quantum_law": false,
+    "native_is_analytic_proof": false,
+    "non_author_acceptance": false,
+    "passed": 73,
+    "physical_SM_selection_derived": false,
+    "physical_chirality_derived": false,
+    "physical_goal_achieved": false,
+    "scope": "R94 regular Fricke leaves and declared move/sign lift; local nonlinear action only",
+    "total": 73
+  },
+  "reference": {
+    "analytic_proof_by_sampling": false,
+    "author_independent": false,
+    "failed": [
+
+    ],
+    "finite_word_seeds": 3,
+    "finite_words_per_seed": 156,
+    "passed": 1913,
+    "physical_goal_achieved": false,
+    "total": 1913
+  },
+  "passed": true,
+  "captures": {
+    "carrier": {
+      "normalized_receipt": {
+        "command": [
+          "<python-runtime>/bin/python3",
+          "-B",
+          "reports/physical_bridge_2026_09_05/carrier_periphery.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.23431499999423977,
+        "log_bytes": 931,
+        "log_sha256": "a535d692cbe118bbc32c520204a76d6539be82b76cdfb40a2abf27a2b91649c0"
+      },
+      "original_receipt_bytes": 371,
+      "original_receipt_sha256": "6d9ea9110abb5da613c9e48ca791cca5051917b9b3a762d4289b7a1b4c7ed29a"
+    },
+    "native": {
+      "normalized_receipt": {
+        "command": [
+          "<python-runtime>/bin/python3",
+          "-B",
+          "reports/physical_bridge_2026_09_05/register_action.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.468955999996979,
+        "log_bytes": 2396,
+        "log_sha256": "1af81ed098aeb5ff000f66f73d2df9d08d77eae0188a3907dd6f0ab39c8a7435"
+      },
+      "original_receipt_bytes": 368,
+      "original_receipt_sha256": "7565232ed1c898cfb78940dd06b25306b7d44c1750a491b5cb7477c2aad7a84e"
+    },
+    "reference": {
+      "normalized_receipt": {
+        "command": [
+          "<python-runtime>/bin/python3",
+          "-B",
+          "reports/physical_bridge_2026_09_05/register_action_reference.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.060416000007535,
+        "log_bytes": 53920,
+        "log_sha256": "f9a6aff90ef125dbeb1faf425a959d11373c691979c1dc2293fcee7d5c3fb0e1"
+      },
+      "original_receipt_bytes": 379,
+      "original_receipt_sha256": "69cbb612c7b44325739a38e79423f1d2511e29d3029e1ca636ab52071e5a3c4e"
+    },
+    "focused": {
+      "normalized_receipt": {
+        "command": [
+          "<python-runtime>/bin/python3",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "--noconftest",
+          "-p",
+          "no:cacheprovider",
+          "-o",
+          "addopts=",
+          "tests/test_physical_bridge_carrier_periphery.py",
+          "tests/test_physical_bridge_register_action.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.937203999987105,
+        "log_bytes": 99,
+        "log_sha256": "e26c40e05a8447e91a75fa5b16c7365f02fb08ec543a646f07fa11be168ca029"
+      },
+      "original_receipt_bytes": 527,
+      "original_receipt_sha256": "1020b58c69799e9d6df4ef8a4db17ff2f684d865398c1c7826dec8af3d312904"
+    },
+    "already_banked": {
+      "normalized_receipt": {
+        "command": [
+          "<python-runtime>/bin/python3",
+          "-B",
+          "scripts/checks/already_banked.py",
+          "registered nonlinear action boundary primitive"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.5096699999994598,
+        "log_bytes": 3350,
+        "log_sha256": "16460796baf4ac5c67e8298f37e6bcb1ffe1a8f56d12cc8646d88e12b3b8b919"
+      },
+      "original_receipt_bytes": 402,
+      "original_receipt_sha256": "79e6132038f60ae2fe0896e42faa7fb6d229b3c67008359f42b32720fbb6e17a"
+    }
+  },
+  "tracked_state_bytes": 3441436,
+  "before_state_sha256": "5d93a9346f2e0e03d2a4b7f8bc64fa2286feaf809d9f970bddf26f0831c84b7a",
+  "after_state_sha256": "5d93a9346f2e0e03d2a4b7f8bc64fa2286feaf809d9f970bddf26f0831c84b7a",
+  "receipt_normalization": "Only machine path prefixes in command arguments replaced. Original receipts and executed wrapper retained outside the repository. Scientific stdout/stderr logs and one copy of the byte-identical before/after inventories are unchanged."
+}

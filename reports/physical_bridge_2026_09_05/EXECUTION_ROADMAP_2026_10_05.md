@@ -1,5 +1,14 @@
 # Common-model physics campaign: execution record
 
+October16 owner-directed derivation hunt: first recover existing native
+derivations, then test whether they determine the physical parent and
+its true boundary state. Do not add a new model merely to fill each
+gap. DERIVATION_WEEDING_2026_10_16.md records recovered periphery/local
+registered action, their exact premises, and reverse-restriction and
+end-unit questions. Original R79/R94 tests replay16PASS3.96s; no new
+scientific arc, model selection, full-suite or independent acceptance.
+Conditional physical positives remain laboratories, not discarded work.
+
 October16 checkpoint: ALL TEN same-source bosonic equations at degree2,
 auxiliary/full Hessian/surface and outer variational benchmark55/55each
 at7ae6451c0,259pins/tree/index unchanged. Concrete trace still not

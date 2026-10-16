@@ -20802,3 +20802,22 @@ original snapshots retained; no waiver/full-suite/nonauthor/main/
 receiver/physical acceptance. Source-admission/unit-before-three next,
 incoming owner-announced focus relay awaited before a new direction.
 Original full physical SM/three/parameters/gravity goal stays ACTIVE.
+
+October16 owner-directed derivation weeding, planning/revalidation only.
+Recover existing mathematical consequences before adding physical
+ingredients; distinguish admitted-grammar consequences, principle-to-
+grammar derivations and physical identifications. R79 canonical
+periphery and R94 registered local action preserved and freshly replayed
+at publishedd89b48ea7. Original11 science pins/26 historical source
+pins match;73 symbolic and1913 separate matrix/numerical action checks,
+R79's1365 Nielsen sequences/343 slope/1512 blind controls pass.16
+selected live tests PASS3.96s. All18027 tracked contents and index
+unchanged across complete before/after inventories; raw outputs and
+normalized receipts preserved. No new theorem or universal negative.
+DERIVATION_WEEDING_2026_10_16.md plus mission/roadmap now prioritise
+the parent from native registered data and the unit before three, with
+explicit premise/structure/rejecting-control criteria. Conditional
+physics laboratories remain useful, not a foundational selection.
+No new arc, canonical amendment, fresh governance/full-suite/analytic
+independent/main/receiver/physical acceptance. Full SM/three/gravity
+objective unchanged and unachieved; no goal-tool status claim here.

@@ -1,0 +1,71 @@
+{
+  "abelian_blind_controls": 1512,
+  "all_order_three_transversals_SL2F3": [
+    [
+      1,
+      0,
+      2,
+      1
+    ]
+  ],
+  "determinant_counts": {
+    "-1": 682,
+    "1": 683
+  },
+  "framed_k_min_max": [
+    -3,
+    3
+  ],
+  "nielsen_sequences_length_0_to_5": 1365,
+  "normalized_golden_images": [
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "opposite_commutator_cyclic_length": 12,
+  "opposite_endomorphism_homology": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "rho_commutator": [
+    2,
+    0,
+    0,
+    2
+  ],
+  "rho_slope_1_3_frame0": [
+    2,
+    0,
+    0,
+    2
+  ],
+  "rho_slope_1_3_frame1": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "rho_transported_slope_4_3_frame0": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "scope": "exact finite safeguards; authored universal deductions separately scoped",
+  "selected_T": [
+    1,
+    0,
+    2,
+    1
+  ],
+  "slope_integer_controls": 343,
+  "verdict": "PASS"
+}
